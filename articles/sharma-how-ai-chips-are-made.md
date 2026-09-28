@@ -71,39 +71,42 @@ The card also gives where China and the United States stand. The chapters run in
 
 The cheapest stage in the chain to fund and one of the most concentrated. Three software firms sell the tools used to design every leading-edge AI accelerator.
 
-%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+{--{"author":"James's AI","timestamp":1790597010593}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
 
-{--{"author":"James's AI","timestamp":1790593752529}@@1,683--}{++{"author":"James's AI","timestamp":1790593752529}@@_1,683++} words / 7 {--{"author":"James's AI","timestamp":1790593752529}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593752529}@@min · Interactive 3D Specimen:++} die floorplan{++{"author":"James's AI","timestamp":1790593752529}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#design-and-eda))_++}
+1,683--}{++{"author":"James's AI","timestamp":1790597010593}@@*1,683++} words / 7{--{"author":"James's AI","timestamp":1790597010593}@@ minSpecimen: die floorplan--}{++{"author":"James's AI","timestamp":1790597010593}@@ min*++}
 
-**In plain terms**
+{--{"author":"James's AI","timestamp":1790597010593}@@**In--}{++{"author":"James's AI","timestamp":1790597010593}@@:::callout {title="In++} plain {--{"author":"James's AI","timestamp":1790597010593}@@terms**
 
-Chip design turns an idea for a new chip into a complete blueprint. A chip holds billions of transistors, tiny electrical switches, and the blueprint fixes where each one sits and how it is wired to the others. The chip works in ticks, and a signal has to cross those wires within one tick, less than a billionth of a second. Software from three companies, Synopsys, Cadence and Siemens, lays out a plan like that, checks it and signs it off, and a chip factory accepts only designs that have passed those tools. The factory prints each layer of the design onto silicon through a stencil, and changing the plan after that costs a fresh set of stencils and several months. Withhold the software and no new chip can be designed.
+--}{++{"author":"James's AI","timestamp":1790597010593}@@terms" tone="neutral"}
+++}Chip design turns an idea for a new chip into a complete blueprint. A chip holds billions of transistors, tiny electrical switches, and the blueprint fixes where each one sits and how it is wired to the others. The chip works in ticks, and a signal has to cross those wires within one tick, less than a billionth of a second. Software from three companies, Synopsys, Cadence and Siemens, lays out a plan like that, checks it and signs it off, and a chip factory accepts only designs that have passed those tools. The factory prints each layer of the design onto silicon through a stencil, and changing the plan after that costs a fresh set of stencils and several months. Withhold the software and no new chip can be designed.{++{"author":"James's AI","timestamp":1790597010593}@@
+:::++}
 
 ### In short ^in-short
 
 Three vendors sell every complete design flow used at the leading edge [3](https://newsletter.semianalysis.com/p/eda-market-primer). Design is cheap next to what it commits: tens of millions of dollars of engineering and masks decide what tens of billions of dollars of factory capacity will make [1](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor). It is the control a government can impose fastest, and the one China is closest to neutralizing, though CSET still finds no complete domestic flow [17](https://cset.georgetown.edu/article/semiconductors-more-u-s-leverage-more-bad-news-for-beijing-part-3/). The largest buyers now design their own parts, with Broadcom doing the implementation and the buyer's name on the product [11](https://investors.broadcom.com/news-releases/news-release-details/openai-and-broadcom-announce-strategic-collaboration-deploy-10).
 
-Concentration: **Extreme**
+{--{"author":"James's AI","timestamp":1790597010593}@@Concentration: **Extreme**--}{++{"author":"James's AI","timestamp":1790597010593}@@:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** Extreme++}
 
-Substitutability: **Hard**. Only three complete sets of chip design software exist, and a fourth would have to be written from nothing and approved by a foundry.
+{--{"author":"James's AI","timestamp":1790597010593}@@Substitutability: **Hard**.--}{++{"author":"James's AI","timestamp":1790597010593}@@**Substitutability:** Hard.++} Only three complete sets of chip design software exist, and a fourth would have to be written from nothing and approved by a foundry.
 
-Price or market size: **A 3 nm photomask set costs about $40M, and startups have designed and made a 7 nm chip for $50-75M**
+{--{"author":"James's AI","timestamp":1790597010593}@@Price--}{++{"author":"James's AI","timestamp":1790597010593}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597010593}@@size: **A--}{++{"author":"James's AI","timestamp":1790597010593}@@size:** A++} 3 nm photomask set costs about $40M, and startups have designed and made a 7 nm chip for {--{"author":"James's AI","timestamp":1790597010593}@@$50-75M**--}{++{"author":"James's AI","timestamp":1790597010593}@@$50-75M++}
 
 **Who leads**
 
--   {--{"author":"James's AI","timestamp":1790593756681}@@USSynopsys--}{++{"author":"James's AI","timestamp":1790593756681}@@US · **Synopsys**:++} $7.05B revenue in the fiscal year ended 31 October 2025, Ansys included from July; 90%+ of the timing-signoff market
--   {--{"author":"James's AI","timestamp":1790593757544}@@USCadence--}{++{"author":"James's AI","timestamp":1790593757544}@@US · **Cadence**:++} $5.30B revenue in calendar 2025; 55-60% of the hardware emulator market
--   {--{"author":"James's AI","timestamp":1790593758261}@@DESiemens EDA--}{++{"author":"James's AI","timestamp":1790593758261}@@DE · **Siemens EDA**:++} $2.2-2.5B revenue in 2025; 85%+ of physical verification, the final layout check
--   {--{"author":"James's AI","timestamp":1790593759094}@@GBArm--}{++{"author":"James's AI","timestamp":1790593759094}@@GB · **Arm**:++} About 50% of processor compute at the top cloud firms, fiscal 2026
--   {--{"author":"James's AI","timestamp":1790594394312}@@USBroadcom--}{++{"author":"James's AI","timestamp":1790594394312}@@US · **Broadcom**:++} $16.7B of AI chip revenue in the third quarter of fiscal 2026
+-{--{"author":"James's AI","timestamp":1790597010593}@@   USSynopsys--}{++{"author":"James's AI","timestamp":1790597010593}@@ **Synopsys** (US):++} $7.05B revenue in the fiscal year ended 31 October 2025, Ansys included from July; 90%+ of the timing-signoff market
+-{--{"author":"James's AI","timestamp":1790597010593}@@   USCadence--}{++{"author":"James's AI","timestamp":1790597010593}@@ **Cadence** (US):++} $5.30B revenue in calendar 2025; 55-60% of the hardware emulator market
+-{--{"author":"James's AI","timestamp":1790597010593}@@   DESiemens EDA --}{++{"author":"James's AI","timestamp":1790597010593}@@ **Siemens EDA** (DE): ++}$2.2-2.5B revenue in 2025; 85%+ of physical verification, the final layout check
+-{--{"author":"James's AI","timestamp":1790597010593}@@   GBArm--}{++{"author":"James's AI","timestamp":1790597010593}@@ **Arm** (GB):++} About 50% of processor compute at the top cloud firms, fiscal 2026
+-{--{"author":"James's AI","timestamp":1790597010593}@@   USBroadcom--}{++{"author":"James's AI","timestamp":1790597010593}@@ **Broadcom** (US):++} $16.7B of AI chip revenue in the third quarter of fiscal 2026
 
 **Where it is made**
 
--   {--{"author":"James's AI","timestamp":1790593760979}@@USUnited States--}{++{"author":"James's AI","timestamp":1790593760979}@@US · **United States**:++} Synopsys, Cadence, Broadcom, Marvell, Nvidia, AMD; Siemens EDA's main sites
--   {--{"author":"James's AI","timestamp":1790593761630}@@GBUnited Kingdom--}{++{"author":"James's AI","timestamp":1790593761630}@@GB · **United Kingdom**:++} Arm processor and interconnect designs, licensed from Cambridge
--   {--{"author":"James's AI","timestamp":1790593762443}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790593762443}@@TW · **Taiwan**:++} Alchip, Global Unichip and MediaTek: design services that carry a chip to the factory
--   {--{"author":"James's AI","timestamp":1790593762737}@@ILIsrael--}{++{"author":"James's AI","timestamp":1790593762737}@@IL · **Israel**:++} Annapurna Labs, the AWS design house behind Trainium and Graviton
--   {--{"author":"James's AI","timestamp":1790593763610}@@INIndia--}{++{"author":"James's AI","timestamp":1790593763610}@@IN · **India**:++} Nearly 20% of the world's chip design engineers, on the Indian government's count
+-{--{"author":"James's AI","timestamp":1790597010593}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597010593}@@ **United States**:++} Synopsys, Cadence, Broadcom, Marvell, Nvidia, AMD; Siemens EDA's main sites
+-{--{"author":"James's AI","timestamp":1790597010593}@@   GBUnited Kingdom--}{++{"author":"James's AI","timestamp":1790597010593}@@ **United Kingdom**:++} Arm processor and interconnect designs, licensed from Cambridge
+-{--{"author":"James's AI","timestamp":1790597010593}@@   TWTaiwan--}{++{"author":"James's AI","timestamp":1790597010593}@@ **Taiwan**:++} Alchip, Global Unichip and MediaTek: design services that carry a chip to the factory
+-{--{"author":"James's AI","timestamp":1790597010593}@@   ILIsrael--}{++{"author":"James's AI","timestamp":1790597010593}@@ **Israel**:++} Annapurna Labs, the AWS design house behind Trainium and Graviton
+-{--{"author":"James's AI","timestamp":1790597010593}@@   INIndia--}{++{"author":"James's AI","timestamp":1790597010593}@@ **India**:++} Nearly 20% of the world's chip design engineers, on the Indian government's count
 
 **Why substitution is slow**
 
@@ -115,7 +118,8 @@ China designs its own AI accelerators, but Huawei's best, the Ascend 950, delive
 
 **Where the US stands**
 
-The United States has the two largest design-software vendors and the leading custom-chip design houses. Siemens EDA is German-owned, but the American technology inside it still needs US export licenses.
+The United States has the two largest design-software vendors and the leading custom-chip design houses. Siemens EDA is German-owned, but the American technology inside it still needs US export licenses.{++{"author":"James's AI","timestamp":1790597010593}@@
+:::++}
 
 Design is the only stage in this chain with no factory, and the one a foreign government can shut off fastest. In 2025 one did. For five weeks, every Chinese chip designer lost the software that turns a design into something a factory can print.
 
@@ -123,17 +127,23 @@ Design is the only stage in this chain with no factory, and the one a foreign go
 
 Design runs in five stages, each one's output the next one's input, all of it in software.
 
--   **Architecture.** Engineers fix the shape of the chip: how wide the block that multiplies numbers is, how much fast on-chip memory sits beside it, how many high-bandwidth memory stacks line the edges. The output is a plan.
--   **RTL.** Engineers write the plan as register-transfer-level code, RTL, in the hardware language SystemVerilog. A register is a small store on the chip that holds one number, and the clock is the tick that moves every register forward together. The code says what every register holds on every tick, and the output is a text description of the whole chip.
--   **Verification.** The biggest team on most projects checks that the code does what the plan says. They run it in simulation, prove parts of it correct with mathematics, and load it into emulators, cabinets of reprogrammable chips that behave like the design, so the chip's own software can boot before any silicon exists.
--   **Physical design.** Software swaps each piece of the code for a logic cell, a small ready-made circuit the foundry has already proved it can make, then places the cells on the chip, wires them together and proves that every signal arrives in time.
--   **Tape-out.** The handover. Software turns the placed layout into pattern files for the mask shop. First it pre-distorts each shape so that it prints as drawn, which is optical proximity correction; then it cuts the layout into the files a mask writer reads, which is mask data preparation.
+-{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}**Architecture.** Engineers fix the shape of the chip: how wide the block that multiplies numbers is, how much fast on-chip memory sits beside it, how many high-bandwidth memory stacks line the edges. The output is a plan.
+-{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}**RTL.** Engineers write the plan as register-transfer-level code, RTL, in the hardware language SystemVerilog. A register is a small store on the chip that holds one number, and the clock is the tick that moves every register forward together. The code says what every register holds on every tick, and the output is a text description of the whole chip.
+-{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}**Verification.** The biggest team on most projects checks that the code does what the plan says. They run it in simulation, prove parts of it correct with mathematics, and load it into emulators, cabinets of reprogrammable chips that behave like the design, so the chip's own software can boot before any silicon exists.
+-{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}**Physical design.** Software swaps each piece of the code for a logic cell, a small ready-made circuit the foundry has already proved it can make, then places the cells on the chip, wires them together and proves that every signal arrives in time.
+-{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}**Tape-out.** The handover. Software turns the placed layout into pattern files for the mask shop. First it pre-distorts each shape so that it prints as drawn, which is optical proximity correction; then it cuts the layout into the files a mask writer reads, which is mask data preparation.
 
 All that checking exists because a mistake costs a whole new mask set. One set costs more than $1 million at 28 nm, more than $10 million at 7 nm and about $40 million at 3 nm, and a whole leading-edge chip has gone from design to tape-out on TSMC 7 nm for $50 million to $75 million, everything included [1](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor). The nanometer labels name generations of the process, each finer than the last, and no longer measure anything.
 
-**Chart:** What one photomask set costs, by node ($M). The 28 nm and 7 nm figures are minimums ($M)
+**Chart:** What one photomask set costs, by node ($M). The 28 nm and 7 nm figures are minimums{--{"author":"James's AI","timestamp":1790597010593}@@ ($M)
 
-28 nm 1 $M 7 nm 10 $M 3 nm 40 $M
+--}{++{"author":"James's AI","timestamp":1790597010593}@@
+
+| | $M |
+|---|---:|
+| ++}28 nm {++{"author":"James's AI","timestamp":1790597010593}@@| ++}1 {--{"author":"James's AI","timestamp":1790597010593}@@$M--}{++{"author":"James's AI","timestamp":1790597010593}@@|
+|++} 7 nm {++{"author":"James's AI","timestamp":1790597010593}@@| ++}10 {--{"author":"James's AI","timestamp":1790597010593}@@$M--}{++{"author":"James's AI","timestamp":1790597010593}@@|
+|++} 3 nm {++{"author":"James's AI","timestamp":1790597010593}@@| ++}40 {--{"author":"James's AI","timestamp":1790597010593}@@$M--}{++{"author":"James's AI","timestamp":1790597010593}@@|++}
 
 Source: [SemiAnalysis, The Dark Side of the Semiconductor Design Renaissance, July 2022](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor)
 
@@ -147,9 +157,16 @@ Nvidia designs Blackwell once and sells it to everyone, so the buyer gets mature
 
 Three complete flows exist, and they do not mix. A team commits to one vendor's set of tools because the foundry certifies its reference recipes against specific tool versions, and timing signed off in one tool is not accepted in another. Synopsys alone holds more than 90 percent of static timing analysis, the check that proves a chip will run at its rated speed [3](https://newsletter.semianalysis.com/p/eda-market-primer), so inside each step of the flow the concentration is higher still.
 
-**Chart:** Each leading vendor's share of its own design-software segment, 2025 (%)
+**Chart:** Each leading vendor's share of its own design-software segment, 2025{--{"author":"James's AI","timestamp":1790597010593}@@ (%)
 
-Static timing (Synopsys PrimeTime) 90% Physical verification (Siemens Calibre) 85% Synthesis (Synopsys Design Compiler) 85% Emulation (Cadence Palladium) 58%
+--}{++{"author":"James's AI","timestamp":1790597010593}@@
+
+| | % |
+|---|---:|
+| ++}Static timing (Synopsys PrimeTime) {--{"author":"James's AI","timestamp":1790597010593}@@90% --}{++{"author":"James's AI","timestamp":1790597010593}@@| 90 |
+| ++}Physical verification (Siemens Calibre) {--{"author":"James's AI","timestamp":1790597010593}@@85%--}{++{"author":"James's AI","timestamp":1790597010593}@@| 85 |
+|++} Synthesis (Synopsys Design Compiler) {--{"author":"James's AI","timestamp":1790597010593}@@85% --}{++{"author":"James's AI","timestamp":1790597010593}@@| 85 |
+| ++}Emulation (Cadence Palladium) {--{"author":"James's AI","timestamp":1790597010593}@@58%--}{++{"author":"James's AI","timestamp":1790597010593}@@| 58 |++}
 
 Source: [SemiAnalysis, EDA Market Primer, May 2026](https://newsletter.semianalysis.com/p/eda-market-primer)
 
@@ -167,12 +184,21 @@ Design software and licensed blocks were an $18 billion market in 2025, and Syno
 
 Synopsys is the largest. Its own results put revenue at $7.054 billion for the fiscal year to 31 October 2025, with Ansys, bought that July, contributing $756.6 million [8](https://www.sec.gov/Archives/edgar/data/883241/000119312525314200/d29055dex991.htm). Cadence, whose year ends in December, took $5.30 billion in calendar 2025 [9](https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/R115.htm). The two fiscal years do not line up, so any total for this market depends on which twelve months are counted and on how much of Ansys it includes.
 
-**Chart:** Design software and licensed-block revenue share, 2025. Synopsys includes Ansys (%)
+**Chart:** Design software and licensed-block revenue share, 2025. Synopsys includes Ansys{--{"author":"James's AI","timestamp":1790597010593}@@ (%)
 
-Synopsys **44%** Cadence **29%** Siemens EDA **13%** All others **14%**
+--}{++{"author":"James's AI","timestamp":1790597010593}@@
+
+| | % |
+|---|---:|
+| ++}Synopsys {--{"author":"James's AI","timestamp":1790597010593}@@**44%** --}{++{"author":"James's AI","timestamp":1790597010593}@@| 44 |
+| ++}Cadence {--{"author":"James's AI","timestamp":1790597010593}@@**29%**--}{++{"author":"James's AI","timestamp":1790597010593}@@| 29 |
+|++} Siemens EDA {--{"author":"James's AI","timestamp":1790597010593}@@**13%** --}{++{"author":"James's AI","timestamp":1790597010593}@@| 13 |
+| ++}All others {--{"author":"James's AI","timestamp":1790597010593}@@**14%**
 
 %% validator-ignore-next-line --code article.block-repeated-nearby --reason source-provides-alternative-citation-formats %%
-Source: [SemiAnalysis, EDA Market Primer, May 2026](https://newsletter.semianalysis.com/p/eda-market-primer)
+--}{++{"author":"James's AI","timestamp":1790597010593}@@| 14 |
+
+++}Source: [SemiAnalysis, EDA Market Primer, May 2026](https://newsletter.semianalysis.com/p/eda-market-primer)
 
 Design services, where one firm turns another's specification into a manufacturable chip, are narrower again, and most of the announced AI deals are Broadcom's. It booked $16.7 billion of AI semiconductor revenue in the third quarter of fiscal 2026, up 221 percent [10](https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000076/avgo-08022026x8kxex99.htm).
 
@@ -194,92 +220,109 @@ On Epoch AI's estimates, Huawei's flagship chip for 2026, the Ascend 950, delive
 
 ### Key evaluation criteria ^key-evaluation-criteria
 
--   **Flow completeness.** How many steps one vendor covers, from the first line of code to final signoff.
--   **Foundry certification.** Whether the foundry has validated that exact tool version against its reference flow and process design kit, the file set describing what the factory can print. Without that, the foundry refuses signoff.
--   **Verification throughput.** Simulation cycles and emulator capacity per day, which set the schedule more than anything else.
--   **IP availability at node.** Whether the licensed blocks, the processor cores, the high-speed serial links, PCIe and the memory interface, have been proven in silicon on that process.
--   **Design services depth.** Whether a partner can carry a customer's circuit list to a finished mask set on the newest node.
--   **Legal exposure.** How much of the flow is US-origin technology, and so subject to export licensing.
+-{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}**Flow completeness.** How many steps one vendor covers, from the first line of code to final signoff.
+-{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}**Foundry certification.** Whether the foundry has validated that exact tool version against its reference flow and process design kit, the file set describing what the factory can print. Without that, the foundry refuses signoff.
+-{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}**Verification throughput.** Simulation cycles and emulator capacity per day, which set the schedule more than anything else.
+-{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}**IP availability at node.** Whether the licensed blocks, the processor cores, the high-speed serial links, PCIe and the memory interface, have been proven in silicon on that process.
+-{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}**Design services depth.** Whether a partner can carry a customer's circuit list to a finished mask set on the newest node.
+-{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}**Legal exposure.** How much of the flow is US-origin technology, and so subject to export licensing.
 
-{--{"author":"James's AI","timestamp":1790593768774}@@Card--}{++{"author":"James's AI","timestamp":1790593768774}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593768774}@@5Question--}{++{"author":"James's AI","timestamp":1790593768774}@@5 · Question**++}
+{--{"author":"James's AI","timestamp":1790597010593}@@Card 1 of 5Question
 
-What does chip design produce?
+What does chip design produce?--}{++{"author":"James's AI","timestamp":1790597010593}@@::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.++}
 
-{--{"author":"James's AI","timestamp":1790593769607}@@Card--}{++{"author":"James's AI","timestamp":1790593769607}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593769607}@@5Answer--}{++{"author":"James's AI","timestamp":1790593769607}@@5 · Answer**++}
+{--{"author":"James's AI","timestamp":1790597010593}@@Card--}{++{"author":"James's AI","timestamp":1790597010593}@@:::callout {title="Card++} 1 of {--{"author":"James's AI","timestamp":1790597010593}@@5Answer
 
-A blueprint of the chip: where each transistor sits and how it is wired.
+--}{++{"author":"James's AI","timestamp":1790597010593}@@5: What does chip design produce?" tone="neutral" collapse="closed"}
+++}A blueprint of the chip: where each transistor sits and how it is wired.
 
-A chip factory builds only designs that have passed checks in approved design software. [[#^how-it-works|Reread: How it works]]
+A chip factory builds only designs that have passed checks in approved design software. [[#^how-it-works|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597010593}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790593770357}@@Card--}{++{"author":"James's AI","timestamp":1790593770357}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593770357}@@5Question--}{++{"author":"James's AI","timestamp":1790593770357}@@5 · Question**++}
+{--{"author":"James's AI","timestamp":1790597010593}@@Card--}{++{"author":"James's AI","timestamp":1790597010593}@@:::callout {title="Card++} 2 of{--{"author":"James's AI","timestamp":1790597010593}@@ 5Question
 
-Who sells the software used to design leading-edge chips?
+--}{++{"author":"James's AI","timestamp":1790597010593}@@ 5: ++}Who sells the software used to design leading-edge {--{"author":"James's AI","timestamp":1790597010593}@@chips?
 
-{--{"author":"James's AI","timestamp":1790593770868}@@Card--}{++{"author":"James's AI","timestamp":1790593770868}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593770868}@@5Answer--}{++{"author":"James's AI","timestamp":1790593770868}@@5 · Answer**++}
+Card 2 of 5Answer
 
-Three firms: Synopsys, Cadence and Siemens EDA.
+--}{++{"author":"James's AI","timestamp":1790597010593}@@chips?" tone="neutral" collapse="closed"}
+++}Three firms: Synopsys, Cadence and Siemens EDA.
 
-Together they held more than 85 percent of the market in 2025. [[#^who-makes-it|Reread: Who makes it]]
+Together they held more than 85 percent of the market in 2025. [[#^who-makes-it|Reread: Who makes it]]{++{"author":"James's AI","timestamp":1790597010593}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790593771677}@@Card--}{++{"author":"James's AI","timestamp":1790593771677}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593771677}@@5Question--}{++{"author":"James's AI","timestamp":1790593771677}@@5 · Question**++}
+{--{"author":"James's AI","timestamp":1790597010593}@@Card --}{++{"author":"James's AI","timestamp":1790597010593}@@:::callout {title="Card ++}3 of {--{"author":"James's AI","timestamp":1790597010593}@@5Question
 
-Why is that software hard to replace?
+--}{++{"author":"James's AI","timestamp":1790597010593}@@5: ++}Why is that software hard to {--{"author":"James's AI","timestamp":1790597010593}@@replace?
 
-{--{"author":"James's AI","timestamp":1790593772314}@@Card--}{++{"author":"James's AI","timestamp":1790593772314}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593772314}@@5Answer--}{++{"author":"James's AI","timestamp":1790593772314}@@5 · Answer**++}
+Card 3 of 5Answer
 
-A new vendor would have to write a complete set of tools from nothing and get a foundry to approve it.
+--}{++{"author":"James's AI","timestamp":1790597010593}@@replace?" tone="neutral" collapse="closed"}
+++}A new vendor would have to write a complete set of tools from nothing and get a foundry to approve it.
 
-Each foundry certifies its process against specific versions of the existing tools. [[#^the-chokepoint|Reread: The chokepoint]]
+Each foundry certifies its process against specific versions of the existing tools. [[#^the-chokepoint|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597010593}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790593773326}@@Card--}{++{"author":"James's AI","timestamp":1790593773326}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593773326}@@5Question--}{++{"author":"James's AI","timestamp":1790593773326}@@5 · Question**++}
+{--{"author":"James's AI","timestamp":1790597010593}@@Card--}{++{"author":"James's AI","timestamp":1790597010593}@@:::callout {title="Card++} 4 of{--{"author":"James's AI","timestamp":1790597010593}@@ 5Question
 
-Can China design the newest chips on its own software?
+--}{++{"author":"James's AI","timestamp":1790597010593}@@ 5: ++}Can China design the newest chips on its own{--{"author":"James's AI","timestamp":1790597010593}@@ software?
 
-{--{"author":"James's AI","timestamp":1790593774095}@@Card--}{++{"author":"James's AI","timestamp":1790593774095}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593774095}@@5Answer--}{++{"author":"James's AI","timestamp":1790593774095}@@5 · Answer**++}
+Card 4 of 5Answer
 
-Not yet.
+--}{++{"author":"James's AI","timestamp":1790597010593}@@ software?" tone="neutral" collapse="closed"}
+++}Not yet.
 
-CSET finds that Chinese design software cannot handle the newest chips. In 2025 the United States stopped these sales to China for five weeks. [[#^the-chokepoint|Reread: The chokepoint]]
+CSET finds that Chinese design software cannot handle the newest chips. In 2025 the United States stopped these sales to China for five weeks. [[#^the-chokepoint|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597010593}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790593775081}@@Card--}{++{"author":"James's AI","timestamp":1790593775081}@@**Card++} 5 of {--{"author":"James's AI","timestamp":1790593775081}@@5Question--}{++{"author":"James's AI","timestamp":1790593775081}@@5 · Question**++}
+{--{"author":"James's AI","timestamp":1790597010593}@@Card--}{++{"author":"James's AI","timestamp":1790597010593}@@:::callout {title="Card++} 5 of {--{"author":"James's AI","timestamp":1790597010593}@@5Question
 
-How far behind Nvidia is Huawei's best AI chip?
+--}{++{"author":"James's AI","timestamp":1790597010593}@@5: ++}How far behind Nvidia is Huawei's best AI {--{"author":"James's AI","timestamp":1790597010593}@@chip?
 
-{--{"author":"James's AI","timestamp":1790593775713}@@Card--}{++{"author":"James's AI","timestamp":1790593775713}@@**Card++} 5 of {--{"author":"James's AI","timestamp":1790593775713}@@5Answer--}{++{"author":"James's AI","timestamp":1790593775713}@@5 · Answer**++}
+Card 5 of 5Answer
 
-About three to four years, on Epoch AI's estimate.
+--}{++{"author":"James's AI","timestamp":1790597010593}@@chip?" tone="neutral" collapse="closed"}
+++}About three to four years, on Epoch AI's estimate.
 
-Huawei's flagship for 2026, the Ascend 950, delivers about half the computing performance of Nvidia's H100, which began shipping in 2022. [[#^the-chokepoint|Reread: The chokepoint]]
+Huawei's flagship for 2026, the Ascend 950, delivers about half the computing performance of Nvidia's H100, which began shipping in 2022. [[#^the-chokepoint|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597010593}@@
+:::++}
 
-#### Five things to remember ^five-things-to-remember
+{--{"author":"James's AI","timestamp":1790597010593}@@#### Five--}{++{"author":"James's AI","timestamp":1790597010593}@@::::
 
--   Chip design turns an idea into a blueprint, and a factory builds only designs checked in approved software.
--   Synopsys, Cadence and Siemens EDA sell the software used to design every leading-edge chip.
--   A new vendor would have to write a complete set of tools and win a foundry's approval.
--   China designs its own AI chips but cannot yet design the newest ones on its own software.
--   Huawei's best AI chip trails Nvidia's by three to four years, on Epoch AI's estimate.
+:::callout {title="Five++} things to {--{"author":"James's AI","timestamp":1790597010593}@@remember ^five-things-to-remember
 
-**Sources (19)**
+--}{++{"author":"James's AI","timestamp":1790597010593}@@remember" tone="green"}
+++}-{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}Chip design turns an idea into a blueprint, and a factory builds only designs checked in approved software.
+-{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}Synopsys, Cadence and Siemens EDA sell the software used to design every leading-edge chip.
+-{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}A new vendor would have to write a complete set of tools and win a foundry's approval.
+-{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}China designs its own AI chips but cannot yet design the newest ones on its own software.
+-{--{"author":"James's AI","timestamp":1790597010593}@@   --}{++{"author":"James's AI","timestamp":1790597010593}@@ ++}Huawei's best AI chip trails Nvidia's by three to four years, on Epoch AI's estimate.{++{"author":"James's AI","timestamp":1790597010593}@@
+:::++}
 
-1.  B [The Dark Side Of The Semiconductor Design Renaissance – Fixed Costs Soaring Due To Photomask Sets, Verification, and Validation](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor) SemiAnalysis · 24 July 2022
-2.  A [Ironwood: The first Google TPU for the age of inference](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/) Google · 9 April 2025
-3.  B [EDA Market Primer](https://newsletter.semianalysis.com/p/eda-market-primer) SemiAnalysis · 21 May 2026
-4.  A [Arm delivers record-breaking quarter and full-year results](https://newsroom.arm.com/news/arm-q4-fye26-results) Arm · 6 May 2026
-5.  A [Behind The Scenes of SHD Group's 2026 RISC-V Market Forecast](https://riscv.org/blog/shd-forecast-2026/) RISC-V International · 19 June 2026
-6.  A [Specifications | UCIe Consortium](https://www.uciexpress.org/specifications) UCIe Consortium
-7.  A [3.5D XDSiP Platform Technology](https://docs.broadcom.com/doc/3-5d-xdsip-platform-technology) Broadcom · 4 December 2024
-8.  A [SYNOPSYS INC, Form 8-K current report for the period ended 2025-12-10 (8-K)](https://www.sec.gov/Archives/edgar/data/883241/000119312525314200/d29055dex991.htm) U.S. Securities and Exchange Commission (filing by SYNOPSYS INC) · 10 December 2025
-9.  A [CADENCE DESIGN SYSTEMS INC, Form 10-K annual report for the period ended 2025-12-31 (financial statement R115)](https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/R115.htm) U.S. Securities and Exchange Commission (filing by CADENCE DESIGN SYSTEMS INC) · 19 February 2026
-10.  A [Broadcom Inc., Form 8-K current report for the period ended 2026-09-02 (8-K)](https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000076/avgo-08022026x8kxex99.htm) U.S. Securities and Exchange Commission (filing by Broadcom Inc.) · 2 September 2026
-11.  A [OpenAI and Broadcom announce strategic collaboration to deploy 10 gigawatts of OpenAI-designed AI accelerators](https://investors.broadcom.com/news-releases/news-release-details/openai-and-broadcom-announce-strategic-collaboration-deploy-10) Broadcom
-12.  A [Broadcom Announces Extended Partnership with Meta to Deploy Technology to Support Multi-Gigawatts of Meta's Custom Silicon, MTIA](https://investors.broadcom.com/news-releases/news-release-details/broadcom-announces-extended-partnership-meta-deploy-technology) Broadcom · 14 April 2026
-13.  A [Financials - Alchip](https://www.alchip.com/en/Investors/financials/) Alchip Technologies
-14.  A [India’s Semiconductor Vision Gathers Momentum with 3nm Chip Design and Large-Scale Talent Development Initiatives](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2148393) Press Information Bureau, Government of India
-15.  A [CADENCE DESIGN SYSTEMS INC, Form 8-K current report for the period ended 2025-07-02 (8-K)](https://www.sec.gov/Archives/edgar/data/813672/000081367225000093/cdns-20250702.htm) U.S. Securities and Exchange Commission (filing by CADENCE DESIGN SYSTEMS INC) · 3 July 2025
-16.  A [SYNOPSYS INC, Form 8-K current report for the period ended 2025-07-02 (8-K)](https://www.sec.gov/Archives/edgar/data/883241/000119312525155294/d80081d8k.htm) U.S. Securities and Exchange Commission (filing by SYNOPSYS INC) · 3 July 2025
-17.  A [Semiconductors: More U.S. Leverage, More Bad News For Beijing (Part 3)](https://cset.georgetown.edu/article/semiconductors-more-u-s-leverage-more-bad-news-for-beijing-part-3/) Center for Security and Emerging Technology (CSET) · 25 October 2021
-18.  A [Pushing the Limits: Huawei's AI Chip Tests U.S. Export Controls](https://cset.georgetown.edu/publication/pushing-the-limits-huaweis-ai-chip-tests-u-s-export-controls/) Center for Security and Emerging Technology (CSET) · 17 June 2024
-19.  A [Will Huawei catch up to Nvidia by 2030?](https://epoch.ai/publications/huaweis-roadmap-to-2031) Epoch AI · 24 September 2026
+{--{"author":"James's AI","timestamp":1790597010593}@@**Sources (19)**
+
+--}{++{"author":"James's AI","timestamp":1790597010593}@@:::callout {title="Sources (19)" tone="neutral" collapse="closed"}
+++}1.{--{"author":"James's AI","timestamp":1790597010593}@@  B--} [The Dark Side Of The Semiconductor Design Renaissance – Fixed Costs Soaring Due To Photomask Sets, Verification, and {--{"author":"James's AI","timestamp":1790597010593}@@Validation](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor)--}{++{"author":"James's AI","timestamp":1790597010593}@@Validation](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor).++} SemiAnalysis · 24 July {--{"author":"James's AI","timestamp":1790597010593}@@2022--}{++{"author":"James's AI","timestamp":1790597010593}@@2022. Tier B.++}
+2.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [Ironwood: The first Google TPU for the age of {--{"author":"James's AI","timestamp":1790597010593}@@inference](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/)--}{++{"author":"James's AI","timestamp":1790597010593}@@inference](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/).++} Google · 9 April {--{"author":"James's AI","timestamp":1790597010593}@@2025--}{++{"author":"James's AI","timestamp":1790597010593}@@2025. Tier A.++}
+3.{--{"author":"James's AI","timestamp":1790597010593}@@  B--} [EDA Market {--{"author":"James's AI","timestamp":1790597010593}@@Primer](https://newsletter.semianalysis.com/p/eda-market-primer)--}{++{"author":"James's AI","timestamp":1790597010593}@@Primer](https://newsletter.semianalysis.com/p/eda-market-primer).++} SemiAnalysis · 21 May {--{"author":"James's AI","timestamp":1790597010593}@@2026--}{++{"author":"James's AI","timestamp":1790597010593}@@2026. Tier B.++}
+4.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [Arm delivers record-breaking quarter and full-year {--{"author":"James's AI","timestamp":1790597010593}@@results](https://newsroom.arm.com/news/arm-q4-fye26-results)--}{++{"author":"James's AI","timestamp":1790597010593}@@results](https://newsroom.arm.com/news/arm-q4-fye26-results).++} Arm · 6 May {--{"author":"James's AI","timestamp":1790597010593}@@2026--}{++{"author":"James's AI","timestamp":1790597010593}@@2026. Tier A.++}
+5.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [Behind The Scenes of SHD Group's 2026 RISC-V Market {--{"author":"James's AI","timestamp":1790597010593}@@Forecast](https://riscv.org/blog/shd-forecast-2026/)--}{++{"author":"James's AI","timestamp":1790597010593}@@Forecast](https://riscv.org/blog/shd-forecast-2026/).++} RISC-V International · 19 June {--{"author":"James's AI","timestamp":1790597010593}@@2026--}{++{"author":"James's AI","timestamp":1790597010593}@@2026. Tier A.++}
+6.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [Specifications | UCIe {--{"author":"James's AI","timestamp":1790597010593}@@Consortium](https://www.uciexpress.org/specifications)--}{++{"author":"James's AI","timestamp":1790597010593}@@Consortium](https://www.uciexpress.org/specifications).++} UCIe {--{"author":"James's AI","timestamp":1790597010593}@@Consortium--}{++{"author":"James's AI","timestamp":1790597010593}@@Consortium. Tier A.++}
+7.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [3.5D XDSiP Platform {--{"author":"James's AI","timestamp":1790597010593}@@Technology](https://docs.broadcom.com/doc/3-5d-xdsip-platform-technology)--}{++{"author":"James's AI","timestamp":1790597010593}@@Technology](https://docs.broadcom.com/doc/3-5d-xdsip-platform-technology).++} Broadcom · 4 December {--{"author":"James's AI","timestamp":1790597010593}@@2024--}{++{"author":"James's AI","timestamp":1790597010593}@@2024. Tier A.++}
+8.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [SYNOPSYS INC, Form 8-K current report for the period ended 2025-12-10 {--{"author":"James's AI","timestamp":1790597010593}@@(8-K)](https://www.sec.gov/Archives/edgar/data/883241/000119312525314200/d29055dex991.htm)--}{++{"author":"James's AI","timestamp":1790597010593}@@(8-K)](https://www.sec.gov/Archives/edgar/data/883241/000119312525314200/d29055dex991.htm).++} U.S. Securities and Exchange Commission (filing by SYNOPSYS INC) · 10 December {--{"author":"James's AI","timestamp":1790597010593}@@2025--}{++{"author":"James's AI","timestamp":1790597010593}@@2025. Tier A.++}
+9.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [CADENCE DESIGN SYSTEMS INC, Form 10-K annual report for the period ended 2025-12-31 (financial statement {--{"author":"James's AI","timestamp":1790597010593}@@R115)](https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/R115.htm)--}{++{"author":"James's AI","timestamp":1790597010593}@@R115)](https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/R115.htm).++} U.S. Securities and Exchange Commission (filing by CADENCE DESIGN SYSTEMS INC) · 19 February {--{"author":"James's AI","timestamp":1790597010593}@@2026--}{++{"author":"James's AI","timestamp":1790597010593}@@2026. Tier A.++}
+10.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [Broadcom Inc., Form 8-K current report for the period ended 2026-09-02 {--{"author":"James's AI","timestamp":1790597010593}@@(8-K)](https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000076/avgo-08022026x8kxex99.htm)--}{++{"author":"James's AI","timestamp":1790597010593}@@(8-K)](https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000076/avgo-08022026x8kxex99.htm).++} U.S. Securities and Exchange Commission (filing by Broadcom Inc.) · 2 September {--{"author":"James's AI","timestamp":1790597010593}@@2026--}{++{"author":"James's AI","timestamp":1790597010593}@@2026. Tier A.++}
+11.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [OpenAI and Broadcom announce strategic collaboration to deploy 10 gigawatts of OpenAI-designed AI {--{"author":"James's AI","timestamp":1790597010593}@@accelerators](https://investors.broadcom.com/news-releases/news-release-details/openai-and-broadcom-announce-strategic-collaboration-deploy-10) Broadcom--}{++{"author":"James's AI","timestamp":1790597010593}@@accelerators](https://investors.broadcom.com/news-releases/news-release-details/openai-and-broadcom-announce-strategic-collaboration-deploy-10). Broadcom. Tier A.++}
+12.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [Broadcom Announces Extended Partnership with Meta to Deploy Technology to Support Multi-Gigawatts of Meta's Custom Silicon, {--{"author":"James's AI","timestamp":1790597010593}@@MTIA](https://investors.broadcom.com/news-releases/news-release-details/broadcom-announces-extended-partnership-meta-deploy-technology)--}{++{"author":"James's AI","timestamp":1790597010593}@@MTIA](https://investors.broadcom.com/news-releases/news-release-details/broadcom-announces-extended-partnership-meta-deploy-technology).++} Broadcom · 14 April {--{"author":"James's AI","timestamp":1790597010593}@@2026--}{++{"author":"James's AI","timestamp":1790597010593}@@2026. Tier A.++}
+13.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [Financials - {--{"author":"James's AI","timestamp":1790597010593}@@Alchip](https://www.alchip.com/en/Investors/financials/)--}{++{"author":"James's AI","timestamp":1790597010593}@@Alchip](https://www.alchip.com/en/Investors/financials/).++} Alchip {--{"author":"James's AI","timestamp":1790597010593}@@Technologies--}{++{"author":"James's AI","timestamp":1790597010593}@@Technologies. Tier A.++}
+14.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [India’s Semiconductor Vision Gathers Momentum with 3nm Chip Design and Large-Scale Talent Development {--{"author":"James's AI","timestamp":1790597010593}@@Initiatives](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2148393)--}{++{"author":"James's AI","timestamp":1790597010593}@@Initiatives](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2148393).++} Press Information Bureau, Government of {--{"author":"James's AI","timestamp":1790597010593}@@India--}{++{"author":"James's AI","timestamp":1790597010593}@@India. Tier A.++}
+15.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [CADENCE DESIGN SYSTEMS INC, Form 8-K current report for the period ended 2025-07-02 {--{"author":"James's AI","timestamp":1790597010593}@@(8-K)](https://www.sec.gov/Archives/edgar/data/813672/000081367225000093/cdns-20250702.htm)--}{++{"author":"James's AI","timestamp":1790597010593}@@(8-K)](https://www.sec.gov/Archives/edgar/data/813672/000081367225000093/cdns-20250702.htm).++} U.S. Securities and Exchange Commission (filing by CADENCE DESIGN SYSTEMS INC) · 3 July {--{"author":"James's AI","timestamp":1790597010593}@@2025--}{++{"author":"James's AI","timestamp":1790597010593}@@2025. Tier A.++}
+16.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [SYNOPSYS INC, Form 8-K current report for the period ended 2025-07-02 {--{"author":"James's AI","timestamp":1790597010593}@@(8-K)](https://www.sec.gov/Archives/edgar/data/883241/000119312525155294/d80081d8k.htm)--}{++{"author":"James's AI","timestamp":1790597010593}@@(8-K)](https://www.sec.gov/Archives/edgar/data/883241/000119312525155294/d80081d8k.htm).++} U.S. Securities and Exchange Commission (filing by SYNOPSYS INC) · 3 July {--{"author":"James's AI","timestamp":1790597010593}@@2025--}{++{"author":"James's AI","timestamp":1790597010593}@@2025. Tier A.++}
+17.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [Semiconductors: More U.S. Leverage, More Bad News For Beijing (Part {--{"author":"James's AI","timestamp":1790597010593}@@3)](https://cset.georgetown.edu/article/semiconductors-more-u-s-leverage-more-bad-news-for-beijing-part-3/)--}{++{"author":"James's AI","timestamp":1790597010593}@@3)](https://cset.georgetown.edu/article/semiconductors-more-u-s-leverage-more-bad-news-for-beijing-part-3/).++} Center for Security and Emerging Technology (CSET) · 25 October {--{"author":"James's AI","timestamp":1790597010593}@@2021--}{++{"author":"James's AI","timestamp":1790597010593}@@2021. Tier A.++}
+18.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [Pushing the Limits: Huawei's AI Chip Tests U.S. Export {--{"author":"James's AI","timestamp":1790597010593}@@Controls](https://cset.georgetown.edu/publication/pushing-the-limits-huaweis-ai-chip-tests-u-s-export-controls/)--}{++{"author":"James's AI","timestamp":1790597010593}@@Controls](https://cset.georgetown.edu/publication/pushing-the-limits-huaweis-ai-chip-tests-u-s-export-controls/).++} Center for Security and Emerging Technology (CSET) · 17 June {--{"author":"James's AI","timestamp":1790597010593}@@2024--}{++{"author":"James's AI","timestamp":1790597010593}@@2024. Tier A.++}
+19.{--{"author":"James's AI","timestamp":1790597010593}@@  A--} [Will Huawei catch up to Nvidia by {--{"author":"James's AI","timestamp":1790597010593}@@2030?](https://epoch.ai/publications/huaweis-roadmap-to-2031)--}{++{"author":"James's AI","timestamp":1790597010593}@@2030?](https://epoch.ai/publications/huaweis-roadmap-to-2031).++} Epoch AI · 24 September {--{"author":"James's AI","timestamp":1790597010593}@@2026--}{++{"author":"James's AI","timestamp":1790597010593}@@2026. Tier A.
+:::++}
 
 ## Silicon and Wafers ^silicon-and-wafers
 
