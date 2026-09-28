@@ -2700,20 +2700,20 @@ Who leads
 Where it is made
 
 -   {--{"author":"James's AI","timestamp":1790594214701}@@USUnited States--}{++{"author":"James's AI","timestamp":1790594214701}@@US · **United States**:++} Switch and accelerator silicon, indium phosphide lasers, system design
--   TWTaiwan Contract design and rack assembly; high-layer-count circuit boards
--   CNChina Optical module assembly and test; most of the world's indium
--   THThailand Chinese module makers' offshore transceiver plants
--   MXMexico Rack integration for the North American market
+-   {--{"author":"James's AI","timestamp":1790594216445}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790594216445}@@TW · **Taiwan**:++} Contract design and rack assembly; high-layer-count circuit boards
+-   {--{"author":"James's AI","timestamp":1790594217384}@@CNChina--}{++{"author":"James's AI","timestamp":1790594217384}@@CN · **China**:++} Optical module assembly and test; most of the world's indium
+-   {--{"author":"James's AI","timestamp":1790594218519}@@THThailand--}{++{"author":"James's AI","timestamp":1790594218519}@@TH · **Thailand**:++} Chinese module makers' offshore transceiver plants
+-   {--{"author":"James's AI","timestamp":1790594220163}@@MXMexico--}{++{"author":"James's AI","timestamp":1790594220163}@@MX · **Mexico**:++} Rack integration for the North American market
 
 Why substitution is possible
 
 Rack assembly is easy to replace: if Foxconn stopped, Quanta and Wistron would take over the volume within a few quarters. The two concentrated parts are inside the rack, and a fix is under way for each. UALink is a published rival to NVLink, running 200 Gb/s per lane and joining up to 1,024 accelerators. For the lasers, Nvidia put $2 billion each into Coherent and Lumentum to secure supply that an ordinary order could not. Any newcomer with money would have to do the same, over two to five years.
 
-Where China stands
+**Where China stands**
 
 China holds two parts of the optical link that the United States does not. Chinese firms assemble the high-speed optical modules in volume, mostly in plants in Thailand and Suzhou. China also produces about 70 percent of the world's indium, the raw material for the lasers inside those modules.
 
-Where the US stands
+**Where the US stands**
 
 American firms make the switch chips, the links that join accelerators inside a rack, and the lasers, but do almost none of the rack assembly. Nvidia's partners began building racks in Houston and Dallas in 2025. In July 2026 the Federal Communications Commission barred new approvals for imported equipment containing parts from firms on its Covered List.
 
@@ -2741,7 +2741,7 @@ The designs differ in how many accelerators can share one pool of memory.
 -   **UALink.** The open answer runs 200 Gb/s per lane, four lanes to a station for 800 Gb/s, and can address up to 1,024 endpoints in one group [4](https://ualinkconsortium.org/blog/ualink-200g-1-0-specification-overview-802/).
 -   **Google's 3D torus.** Ironwood, the seventh generation of Google's own TPU accelerator, wires 64 chips to a rack and uses optical switches to join cubes into superpods of 9,216 chips, trading latency for the ability to route around a failed rack in software [5](https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack).
 
-NVLink bandwidth per GPU by generationGB/s
+{++{"author":"James's AI","timestamp":1790594224849}@@**Chart:** ++}NVLink bandwidth per GPU by {--{"author":"James's AI","timestamp":1790594224849}@@generationGB/s--}{++{"author":"James's AI","timestamp":1790594224849}@@generation (GB/s)++}
 
 NVLink 4 (Hopper) 900 NVLink 5 (Blackwell) 1,800 NVLink 6 (Rubin) 3,600
 
