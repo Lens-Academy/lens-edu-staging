@@ -127,6 +127,7 @@ labels::
 #### Question: Open
 id:: ee59962d-8aef-4e29-9b73-7a887e575c47
 content:: What is the main reason for your recommendation score?
+optional:: true
 max-chars:: 1500
 
 #### Question: Rating
