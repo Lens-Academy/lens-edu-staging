@@ -1090,22 +1090,22 @@ Who leads
 -   {--{"author":"James's AI","timestamp":1790593930104}@@USApplied Materials--}{++{"author":"James's AI","timestamp":1790593930104}@@US · **Applied Materials**:++} $28.4B revenue, fiscal 2025; leader in physical and chemical vapor deposition and in epitaxy
 -   {--{"author":"James's AI","timestamp":1790593931336}@@USLam Research--}{++{"author":"James's AI","timestamp":1790593931336}@@US · **Lam Research**:++} $23.2B revenue, fiscal 2026; leader in dry etch and in metal atomic layer deposition
 -   {--{"author":"James's AI","timestamp":1790593933685}@@JPTokyo Electron--}{++{"author":"James's AI","timestamp":1790593933685}@@JP · **Tokyo Electron**:++} 23% of dry etch and 38% of chemical vapor deposition, 2025
--   NLASM International €3.2B revenue, 2025; leader in single-wafer atomic layer deposition
--   CNNaura 5th largest equipment vendor worldwide, 2025 estimate
+-   {--{"author":"James's AI","timestamp":1790593936272}@@NLASM International--}{++{"author":"James's AI","timestamp":1790593936272}@@NL · **ASM International**:++} €3.2B revenue, 2025; leader in single-wafer atomic layer deposition
+-   {--{"author":"James's AI","timestamp":1790593937637}@@CNNaura--}{++{"author":"James's AI","timestamp":1790593937637}@@CN · **Naura**:++} 5th largest equipment vendor worldwide, 2025 estimate
 
 Where it is made
 
--   USUnited States Applied Materials (Santa Clara), Lam Research (Fremont)
--   JPJapan Tokyo Electron, Kokusai Electric, Hitachi High-Tech
--   NLNetherlands ASM International, Almere; ALD and epitaxy
--   KRSouth Korea Large buyer; Semes and local suppliers in wet processing
--   CNChina Naura, AMEC, Piotech; largest equipment market at $49.3B in 2025
+-   {--{"author":"James's AI","timestamp":1790593939350}@@USUnited States--}{++{"author":"James's AI","timestamp":1790593939350}@@US · **United States**:++} Applied Materials (Santa Clara), Lam Research (Fremont)
+-   {--{"author":"James's AI","timestamp":1790593940451}@@JPJapan--}{++{"author":"James's AI","timestamp":1790593940451}@@JP · **Japan**:++} Tokyo Electron, Kokusai Electric, Hitachi High-Tech
+-   {--{"author":"James's AI","timestamp":1790593941303}@@NLNetherlands--}{++{"author":"James's AI","timestamp":1790593941303}@@NL · **Netherlands**:++} ASM International, Almere; ALD and epitaxy
+-   {--{"author":"James's AI","timestamp":1790593943081}@@KRSouth Korea--}{++{"author":"James's AI","timestamp":1790593943081}@@KR · **South Korea**:++} Large buyer; Semes and local suppliers in wet processing
+-   {--{"author":"James's AI","timestamp":1790593944037}@@CNChina--}{++{"author":"James's AI","timestamp":1790593944037}@@CN · **China**:++} Naura, AMEC, Piotech; largest equipment market at $49.3B in 2025
 
 Why substitution is possible
 
 For most of the deposition and etch steps inside a fab, the tool can already be bought from three or four makers: Applied Materials, Lam, Tokyo Electron and ASM International. Switching from one maker to another means testing the new tool on the fab's own line until it matches, which takes two to five years for the newest chips. The exception is atomic layer deposition, which lays down a film one layer of atoms at a time. Chinese tool makers gained real share in etch over five years but stayed under 1 percent in atomic layer deposition, so that is the step where China is weakest.
 
-Where China stands
+**Where China stands**
 
 Of all kinds of chipmaking tool, deposition and etch is where Chinese makers are strongest. Chinese suppliers held about 11 percent of dry etch and 7 percent of deposition in 2024, but under 1 percent of atomic layer deposition.
 
