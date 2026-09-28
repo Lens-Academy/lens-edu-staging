@@ -2495,20 +2495,20 @@ Concentration: **High**
 
 Substitutability: **Moderate**. No test or assembly tool has only one maker, but switching testers means rebuilding every one of the customer's test programs.
 
-Price or market size **ASE and Amkor alone had $27.3 billion of revenue in 2025** ASE spent $4.1 billion on machinery and buildings in the first half of 2026
+Price or market size: **ASE and Amkor alone had $27.3 billion of revenue in 2025**. ASE spent $4.1 billion on machinery and buildings in the first half of 2026
 
 Who leads
 
--   JPAdvantest 65% of the tester market in 2025
--   USTeradyne Second in testers; about 80% of the market with Advantest
--   TWASE $20.6bn of 2025 revenue, the largest assembly and test contractor
--   USAmkor $6.71bn of 2025 revenue
--   JPDisco Leading share in dicing saws, grinders and blades
+-   {--{"author":"James's AI","timestamp":1790594179064}@@JPAdvantest--}{++{"author":"James's AI","timestamp":1790594179064}@@JP · **Advantest**:++} 65% of the tester market in 2025
+-   {--{"author":"James's AI","timestamp":1790594180650}@@USTeradyne--}{++{"author":"James's AI","timestamp":1790594180650}@@US · **Teradyne**:++} Second in testers; about 80% of the market with Advantest
+-   {--{"author":"James's AI","timestamp":1790594181515}@@TWASE--}{++{"author":"James's AI","timestamp":1790594181515}@@TW · **ASE**:++} $20.6bn of 2025 revenue, the largest assembly and test contractor
+-   {--{"author":"James's AI","timestamp":1790594182431}@@USAmkor--}{++{"author":"James's AI","timestamp":1790594182431}@@US · **Amkor**:++} $6.71bn of 2025 revenue
+-   {--{"author":"James's AI","timestamp":1790594183685}@@JPDisco--}{++{"author":"James's AI","timestamp":1790594183685}@@JP · **Disco**:++} Leading share in dicing saws, grinders and blades
 
 Where it is made
 
--   TWTaiwan ASE, Powertech, KYEC and ChipMOS; the largest assembly and test cluster
--   JPJapan Advantest testers, Disco dicing and grinding, Micronics Japan probe cards
+-   {--{"author":"James's AI","timestamp":1790594185758}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790594185758}@@TW · **Taiwan**:++} ASE, Powertech, KYEC and ChipMOS; the largest assembly and test cluster
+-   {--{"author":"James's AI","timestamp":1790594186972}@@JPJapan--}{++{"author":"James's AI","timestamp":1790594186972}@@JP · **Japan**:++} Advantest testers, Disco dicing and grinding, Micronics Japan probe cards
 -   USUnited States Teradyne, FormFactor, Cohu, Aehr; Amkor's Arizona packaging plant
 -   CNChina Four of the top ten assembly and test firms by 2024 revenue are China-headquartered
 -   MYMalaysia Penang and Kulim; Malaysia ships about 13% of the world's packaged chips
