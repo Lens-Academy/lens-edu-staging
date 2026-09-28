@@ -12,7 +12,7 @@ stage: intermediate
 
 # Suggested Lenses:
 ## Lens:
-source:: [[../Lenses/IABIED - QA - Can We Just Contain It in a Box]]
+source:: [[../Lenses/IABIED - QA - {--{"author":"James's AI","timestamp":1790613462927}@@Can We Just Contain It--}{++{"author":"James's AI","timestamp":1790613462927}@@Keep AI++} in a Box]]
 
 ## Lens:
-source:: [[../Lenses/IABIED - QA - Could We Enhance Humans to Compete]]
+source:: [[../Lenses/IABIED - QA - {--{"author":"James's AI","timestamp":1790613463360}@@Could We --}Enhance {--{"author":"James's AI","timestamp":1790613463360}@@Humans to Compete]]--}{++{"author":"James's AI","timestamp":1790613463360}@@Humans]]++}
