@@ -2981,6 +2981,8 @@ Chinese firms also assemble high-speed optical modules in volume. [[#^the-chokep
 
 The chips are no longer the slowest part of a data center buildout. A large transformer takes three years, turbine output does not reach 30 GW a year until 2030, and Texas has fifty times more large loads, mostly data centers, waiting to connect than it has approved to switch on.
 
+%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+
 {--{"author":"James's AI","timestamp":1790594239771}@@1,334--}{++{"author":"James's AI","timestamp":1790594239771}@@_1,334++} words / 6 {--{"author":"James's AI","timestamp":1790594239771}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594239771}@@min · Interactive 3D Specimen:++} server rack{++{"author":"James's AI","timestamp":1790594239771}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#data-centers-and-power))_++}
 
 **In plain terms**
@@ -3178,6 +3180,8 @@ China has spare generating capacity and makes its own transformers. The United S
 ## The Economics of AI Chips ^the-economics-of-ai
 
 Inside an AI accelerator the silicon is the cheap part. Memory and packaging are most of the cost.
+
+%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
 
 {--{"author":"James's AI","timestamp":1790594271510}@@1,241--}{++{"author":"James's AI","timestamp":1790594271510}@@_1,241++} words / 5 {--{"author":"James's AI","timestamp":1790594271510}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594271510}@@min · Interactive 3D Specimen:++} wafer cost{++{"author":"James's AI","timestamp":1790594271510}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#component-costs))_++}
 
