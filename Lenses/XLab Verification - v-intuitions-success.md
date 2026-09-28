@@ -180,7 +180,7 @@ Scher and Thiergart, MIRI Technical Governance Team (2025)
 #### Article
 source:: [[../articles/scher-mechanisms-to-verify-international-agreements-about-ai-development-table-edit-published-version]]
 from:: ## Executive Summary ^executive-summary
-to:: designing verification regimes aimed at key policy goals such as frontier model training following a safety case
+to:: designing verification regimes aimed at key policy goals such as frontier model training following a safety case (discussed briefly in [[#^safety-case-verification|the appendix]]).
 optional:: true
 
 #### Text
