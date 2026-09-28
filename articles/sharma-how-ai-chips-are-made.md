@@ -2845,7 +2845,7 @@ Physical assembly is done by Taiwanese firms. Foxconn booked NT$8.1 trillion of 
 
 ### The chokepoint ^the-chokepoint-14
 
-Several capable ODMs on three continents screw racks together, and the power {--{"author":"James's AI","timestamp":1790593589395}@@supplies,--}{++{"author":"James's AI","timestamp":1790593589395}@@supplier busbars,++} cables and connectors have many suppliers. If Foxconn stopped tomorrow, Quanta and Wistron would absorb the volume in a couple of quarters.
+Several capable {--{"author":"James's AI","timestamp":1790594501765}@@ODMs--}{++{"author":"James's AI","timestamp":1790594501765}@@contract manufacturers++} on three continents screw racks together, and the power {--{"author":"James's AI","timestamp":1790594501765}@@supplies,--}{++{"author":"James's AI","timestamp":1790594501765}@@shelves, copper busbars,++} cables and connectors have many suppliers. If Foxconn stopped tomorrow, Quanta and Wistron would absorb the volume in a couple of quarters.
 
 The parts that cannot be replaced that fast are the components that go into the rack.
 
