@@ -2888,28 +2888,28 @@ Price or market size: **Transformer lead times of 36 months, against under a yea
 Who leads
 
 -   {--{"author":"James's AI","timestamp":1790594245158}@@USGE Vernova--}{++{"author":"James's AI","timestamp":1790594245158}@@US · **GE Vernova**:++} 116 GW of gas equipment backlog and reserved factory slots at mid-2026
--   CHHitachi Energy Large power transformers and high-voltage switchgear
--   DESiemens Energy Grid technologies, transformers, turbines
--   USVertiv Data center power and cooling systems; NVIDIA gigawatt AI factory partner
--   FRSchneider Electric Electrical distribution and cooling; partner in NVIDIA's 800-volt DC designs
+-   {--{"author":"James's AI","timestamp":1790594245961}@@CHHitachi Energy--}{++{"author":"James's AI","timestamp":1790594245961}@@CH · **Hitachi Energy**:++} Large power transformers and high-voltage switchgear
+-   {--{"author":"James's AI","timestamp":1790594246883}@@DESiemens Energy--}{++{"author":"James's AI","timestamp":1790594246883}@@DE · **Siemens Energy**:++} Grid technologies, transformers, turbines
+-   {--{"author":"James's AI","timestamp":1790594247791}@@USVertiv--}{++{"author":"James's AI","timestamp":1790594247791}@@US · **Vertiv**:++} Data center power and cooling systems; NVIDIA gigawatt AI factory partner
+-   {--{"author":"James's AI","timestamp":1790594248638}@@FRSchneider Electric--}{++{"author":"James's AI","timestamp":1790594248638}@@FR · **Schneider Electric**:++} Electrical distribution and cooling; partner in NVIDIA's 800-volt DC designs
 
 Where it is made
 
--   USUnited States Most new AI capacity; ERCOT and PJM carry the load growth
--   CHSwitzerland Hitachi Energy and ABB transformer and switchgear engineering
--   DEGermany Siemens Energy grid technologies and turbines
--   TWTaiwan Delta Electronics power shelves, busbars and thermal modules
--   JPJapan Hitachi group transformer manufacturing
+-   {--{"author":"James's AI","timestamp":1790594250543}@@USUnited States--}{++{"author":"James's AI","timestamp":1790594250543}@@US · **United States**:++} Most new AI capacity; ERCOT and PJM carry the load growth
+-   {--{"author":"James's AI","timestamp":1790594251363}@@CHSwitzerland--}{++{"author":"James's AI","timestamp":1790594251363}@@CH · **Switzerland**:++} Hitachi Energy and ABB transformer and switchgear engineering
+-   {--{"author":"James's AI","timestamp":1790594252416}@@DEGermany--}{++{"author":"James's AI","timestamp":1790594252416}@@DE · **Germany**:++} Siemens Energy grid technologies and turbines
+-   {--{"author":"James's AI","timestamp":1790594254220}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790594254220}@@TW · **Taiwan**:++} Delta Electronics power shelves, busbars and thermal modules
+-   {--{"author":"James's AI","timestamp":1790594255378}@@JPJapan--}{++{"author":"James's AI","timestamp":1790594255378}@@JP · **Japan**:++} Hitachi group transformer manufacturing
 
 Why substitution is possible
 
 Nothing in a data center's power and cooling has to be invented. Nine firms sell the power and cooling equipment for Nvidia's gigawatt data center designs, so a buyer can get the equipment and negotiate the price. Money cannot shorten the wait. A large power transformer now takes 36 months to arrive, against under a year before 2020. GE Vernova has close to six years of gas turbine orders waiting. New capacity is therefore two to five years away.
 
-Where China stands
+**Where China stands**
 
 China has spare generating capacity, a large domestic industry making transformers and switchgear, and can connect new sites quickly. Its AI buildout is limited by the supply of accelerators, and it has power to spare.
 
-Where the US stands
+**Where the US stands**
 
 The United States has the demand and the money but cannot shorten the wait for equipment. Transformers and turbines both take years to arrive. Most large power transformers are imported, and no restarted nuclear reactor is running yet.
 
