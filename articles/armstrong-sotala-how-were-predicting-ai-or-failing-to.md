@@ -16,7 +16,7 @@ MIRI
 
 MACHINE INTELLIGENCE RESEARCH INSTITUTE
 
-How We’re Predicting AI—or Failing To
+# How We’re Predicting AI—or Failing To
 
 Stuart Armstrong
 Future of Humanity Institute
