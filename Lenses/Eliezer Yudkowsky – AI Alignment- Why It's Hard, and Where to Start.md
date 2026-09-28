@@ -8,7 +8,13 @@ tldr: To guide a missile, we first had to invent calculus. AI alignment may requ
 ---
 #### Text
 content::
+%% ORIGINAL (commented out as AI slop):
 The problem of AI alignment requires a rigorous theoretical foundation. To successfully guide a missile, humanity first had to develop differential calculus, which allowed it to describe the laws of gravity and the motion of bodies. Without this mathematical apparatus, the launch of a powerful missile would result in a series of catastrophic explosions. Like rocket science, AI safety is a high-level engineering challenge. This video explains: an intuitive understanding of goals is insufficient for controlling superhuman systems. We need formal laws describing the behavior of powerful optimizers. Only with a reliable "mathematics of alignment" will we be able to guarantee the stability of an AI's trajectory.
+%%
+
+%% PROPOSED FIX:
+Yudkowsky compares alignment to rocket science and cryptography. In both, the system faces extreme conditions, one flaw can be fatal, and you don't get there by trial and error without real theory. His claim: we don't yet have that theory for powerful optimisers, and intuitions about goals won't substitute for it.
+%%
 
 #### Video
 source:: [[../video_transcripts/machineintelligenceresearchinstitute-eliezer-yudkowsky-ai-alignment-why-its-hard-and-where-to-start]]
