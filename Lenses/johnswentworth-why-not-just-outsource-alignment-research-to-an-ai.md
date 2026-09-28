@@ -1,6 +1,8 @@
 ---
 id: eced9156-f906-4ab9-bba9-d0f743dc5fd0
 title: "Why Not Just Outsource Alignment Research To An AI?"
+tldr: "If we hand alignment research to an AI we can't check, we become the clueless client in \"The Expert\" sketch. Fancier setups make the AI a better expert, but none of them fix the real bottleneck: we don't know what to ask for, or even what's coherent."
+summary_for_tutor: "Excerpt from John Wentworth's 2023 post, covering the opening warmup and the 'Application to Alignment Schemes' section. It opens with 'The Expert' comedy sketch (a client asking for seven strictly perpendicular red lines, some in green or transparent ink) and argues that when you outsource cognitive work you couldn't do yourself, your own ignorance is the main bottleneck. The expert may conceal problems, both sides may wrongly think they've communicated, or a well-meaning expert may guess your preferences wrong. Applied to alignment, humans would be an ignorant Client. Proposals like prompting, RLHF, multi-agent setups (HCH) and debate all try to improve the AI 'expert', but none address the Client lacking understanding of what they need, what to ask, or what's even coherent. The rest of the post (not shown) covers failure examples, the problem being invisible to iteration, better UIs as a partial fix, and the advice to build your own alignment expertise."
 ---
 
 #### Article
