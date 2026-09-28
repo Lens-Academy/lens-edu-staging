@@ -205,9 +205,9 @@ content::
 
 ---
 
-::card[[../Lenses/IABIED - QA - Isn't AI Different from Nuclear Reactors]]
+::card[[../Lenses/IABIED - QA - {--{"author":"James's AI","timestamp":1790613415351}@@Isn't --}AI {--{"author":"James's AI","timestamp":1790613415351}@@Different--}{++{"author":"James's AI","timestamp":1790613415351}@@Differs++} from {--{"author":"James's AI","timestamp":1790613415351}@@Nuclear Reactors]]--}{++{"author":"James's AI","timestamp":1790613415351}@@Precedents]]++}
 
-> Tackles analogical reasoning between AI and catastrophic technologies, and directly extends the Chernobyl comparison the chapter deploys.
+> {--{"author":"James's AI","timestamp":1790613415351}@@Tackles analogical reasoning between AI--}{++{"author":"James's AI","timestamp":1790613415351}@@Asks whether AI really differs from past dangerous technologies such as nuclear power,++} and {--{"author":"James's AI","timestamp":1790613415351}@@catastrophic technologies, and directly--}{++{"author":"James's AI","timestamp":1790613415351}@@why superintelligence is harder to get right, including that the first mistake could be fatal. Directly++} extends the Chernobyl comparison the chapter deploys.
 
 ---
 
