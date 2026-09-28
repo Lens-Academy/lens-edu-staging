@@ -134,32 +134,32 @@ id:: 2e0dac42-9ba9-497f-81d4-2755ef320b6e
 content:: How would you rate your knowledge of compute verification topics before taking this course?
 scale:: 10
 labels::
-- No knowledge
-- Very little knowledge
-- Limited knowledge
-- Basic knowledge
-- Neutral midpoint
-- Working knowledge
-- Good knowledge
-- Strong knowledge
-- Very strong knowledge
-- Expert knowledge
+- No knowledge of these topics
+- Heard of a few terms
+- Know a few basic ideas
+- Could explain the basics
+- Know the main ideas, with gaps
+- Can follow expert discussions
+- Could explain most topics to a newcomer
+- Could discuss most topics with experts
+- Could teach this course
+- Expert in this field
 
 #### Question: Rating
 id:: 88201f5d-badb-4f18-a904-e223fd0b89a9
 content:: How would you rate your knowledge of compute verification topics after taking this course?
 scale:: 10
 labels::
-- No knowledge
-- Very little knowledge
-- Limited knowledge
-- Basic knowledge
-- Neutral midpoint
-- Working knowledge
-- Good knowledge
-- Strong knowledge
-- Very strong knowledge
-- Expert knowledge
+- No knowledge of these topics
+- Heard of a few terms
+- Know a few basic ideas
+- Could explain the basics
+- Know the main ideas, with gaps
+- Can follow expert discussions
+- Could explain most topics to a newcomer
+- Could discuss most topics with experts
+- Could teach this course
+- Expert in this field
 
 #### Question: Rating
 id:: 4e951875-4a75-4fa3-97ab-500d0397e75a
