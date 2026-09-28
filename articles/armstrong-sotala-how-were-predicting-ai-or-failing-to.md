@@ -198,11 +198,11 @@ Predicting insight, on the other hand, seems a much more daunting task. Take the
 
 Does this mean that in general predictions that are modeling grind should be accepted more than predictions that are modeling insight? Not at all. Predictions that are modeling grind should only be accepted if they can make a good case that producing an AI is a matter grind only. The predictions around whole brain emulations (Sandberg and Bostrom 2008), are one of the few that make this case convincingly; this will be analyzed in a subsequent paper.
 
-3.4.2. Non-expert Opinion
+#### 3.4.2. Non-expert Opinion
 
 It should be borne in mind that all the caveats and problems with expert opinion apply just as well to non-experts. With one crucial diﬀerence: we have no reason to trust the non-expert’s opinion in the first place. That is not to say that non-experts cannot come up with good models, convincing timelines, or interesting plans and scenarios. It just means that our assessment of the quality of the prediction depends only on what we are given; we cannot extend a non-expert any leeway to cover up a weak premise or a faulty logical step. To ensure this, we should try and assess non-expert predictions blind, without knowing who the author is. If we can’t blind them, we can try and get a similar eﬀect by asking ourselves hypothetical questions such as: “Would I find this prediction more or less convincing if the author was the Archbishop of Canterbury? What if it was Warren Buﬀet? Or the Unabomber?” We should aim to reach the point where hypothetical changes in authorship do not aﬀect our estimation of the prediction.
 
-4. Timeline Predictions
+## 4. Timeline Predictions
 
 The practical focus of this paper is on AI timeline predictions: predictions giving dates for AIs with human-comparable cognitive abilities. Researchers from the Singularity Institute have assembled a database of 257 AI predictions since 1950, of which 95 include AI timelines.
 
