@@ -778,36 +778,39 @@ Both go into optics and non-silicon chips such as LEDs and lasers. [[#^the-choke
 
 The most concentrated stage in the chain. One firm in the Netherlands builds every extreme ultraviolet scanner in the world, the machine that prints the finest circuit layers. It shipped 48 of them in 2025, at around $200 million each.
 
-%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+{--{"author":"James's AI","timestamp":1790597045244}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
 
-{--{"author":"James's AI","timestamp":1790593852291}@@1,564--}{++{"author":"James's AI","timestamp":1790593852291}@@_1,564++} words / 7 {--{"author":"James's AI","timestamp":1790593852291}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593852291}@@min · Interactive 3D Specimen:++} EUV scanner{++{"author":"James's AI","timestamp":1790593852291}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#lithography))_++}
+1,564--}{++{"author":"James's AI","timestamp":1790597045244}@@*1,564++} words / 7{--{"author":"James's AI","timestamp":1790597045244}@@ minSpecimen: EUV scanner--}{++{"author":"James's AI","timestamp":1790597045244}@@ min*++}
 
-**In plain terms**
+{--{"author":"James's AI","timestamp":1790597045244}@@**In --}{++{"author":"James's AI","timestamp":1790597045244}@@:::callout {title="In ++}plain {--{"author":"James's AI","timestamp":1790597045244}@@terms**
 
-Lithography prints the pattern of a circuit onto the wafer. A machine holds a stencil of one layer of the circuit up to a lamp and projects the image, four times smaller, onto the silicon. Light cannot draw a line much finer than its own wave, so the finer the lines, the shorter the wavelength of light needed to print them. Air soaks up the shortest light now in use, so the machine has to print in a vacuum. Only one company has ever built a machine that prints with it, and it is Dutch. Export controls are government rules on who a company may sell to. Every advanced chip passes through that firm's machines, so a rule aimed at it reaches all advanced chipmaking.
+--}{++{"author":"James's AI","timestamp":1790597045244}@@terms" tone="neutral"}
+++}Lithography prints the pattern of a circuit onto the wafer. A machine holds a stencil of one layer of the circuit up to a lamp and projects the image, four times smaller, onto the silicon. Light cannot draw a line much finer than its own wave, so the finer the lines, the shorter the wavelength of light needed to print them. Air soaks up the shortest light now in use, so the machine has to print in a vacuum. Only one company has ever built a machine that prints with it, and it is Dutch. Export controls are government rules on who a company may sell to. Every advanced chip passes through that firm's machines, so a rule aimed at it reaches all advanced chipmaking.{++{"author":"James's AI","timestamp":1790597045244}@@
+:::++}
 
 ### In short ^in-short-4
 
 ASML, in Veldhoven, using Zeiss mirrors from Oberkochen, sets the resolution of every leading-edge AI chip. ASML booked 48 EUV systems in 2025, four of them High-NA [1](https://ourbrand.asml.com/m/419103cb23dfeaa4/original/asml-2025-annual-report-financial-performance-section.pdf). Export controls cut China's share of ASML system sales from 41 percent in 2024 to 33 percent in 2025 [4](https://ourbrand.asml.com/m/3136300aa4999bc1/original/2026_01_28_Presentation-Investor-Relations-Q4-2025.pdf), and China's answer is domestic immersion DUV plus an EUV prototype that has not yet made a chip. No announced program changes this bottleneck before 2030.
 
-Concentration: **Extreme**
+{--{"author":"James's AI","timestamp":1790597045244}@@Concentration: **Extreme**--}{++{"author":"James's AI","timestamp":1790597045244}@@:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** Extreme++}
 
-Substitutability: **Very hard**. ASML is the only maker of EUV scanners, only Zeiss can polish their mirrors, and a state-funded Chinese team has made the light but has not printed a chip.
+{--{"author":"James's AI","timestamp":1790597045244}@@Substitutability: **Very hard**.--}{++{"author":"James's AI","timestamp":1790597045244}@@**Substitutability:** Very hard.++} ASML is the only maker of EUV scanners, only Zeiss can polish their mirrors, and a state-funded Chinese team has made the light but has not printed a chip.
 
-Price or market size: **About $200M**. for a standard EUV scanner, $350-400M for the newer High-NA version and about $60M for a DUV tool, according to Reuters. ASML does not publish per-system prices
+{--{"author":"James's AI","timestamp":1790597045244}@@Price--}{++{"author":"James's AI","timestamp":1790597045244}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597045244}@@size: **About $200M**.--}{++{"author":"James's AI","timestamp":1790597045244}@@size:** About $200M.++} for a standard EUV scanner, $350-400M for the newer High-NA version and about $60M for a DUV tool, according to Reuters. ASML does not publish per-system prices
 
 **Who leads**
 
--   {--{"author":"James's AI","timestamp":1790593860946}@@NLASML--}{++{"author":"James's AI","timestamp":1790593860946}@@NL · **ASML**:++} 100% of EUV (extreme ultraviolet) and above 80% of DUV (deep ultraviolet); EUV was 48% of its own 2025 system revenue and immersion DUV 42%
--   {--{"author":"James's AI","timestamp":1790593862376}@@JPNikon--}{++{"author":"James's AI","timestamp":1790593862376}@@JP · **Nikon**:++} 22 new chipmaking scanners in the year to March 2026, in a market Nikon estimates at 570 units
--   {--{"author":"James's AI","timestamp":1790593864608}@@JPCanon--}{++{"author":"James's AI","timestamp":1790593864608}@@JP · **Canon**:++} i-line and krypton fluoride steppers for older, coarser layers, plus the only commercial nanoimprint tool
+-{--{"author":"James's AI","timestamp":1790597045244}@@   NLASML--}{++{"author":"James's AI","timestamp":1790597045244}@@ **ASML** (NL):++} 100% of EUV (extreme ultraviolet) and above 80% of DUV (deep ultraviolet); EUV was 48% of its own 2025 system revenue and immersion DUV 42%
+-{--{"author":"James's AI","timestamp":1790597045244}@@   JPNikon--}{++{"author":"James's AI","timestamp":1790597045244}@@ **Nikon** (JP):++} 22 new chipmaking scanners in the year to March 2026, in a market Nikon estimates at 570 units
+-{--{"author":"James's AI","timestamp":1790597045244}@@   JPCanon--}{++{"author":"James's AI","timestamp":1790597045244}@@ **Canon** (JP):++} i-line and krypton fluoride steppers for older, coarser layers, plus the only commercial nanoimprint tool
 
 **Where it is made**
 
--   {--{"author":"James's AI","timestamp":1790593866551}@@NLNetherlands--}{++{"author":"James's AI","timestamp":1790593866551}@@NL · **Netherlands**:++} ASML design and final assembly, Veldhoven
--   {--{"author":"James's AI","timestamp":1790593867307}@@DEGermany--}{++{"author":"James's AI","timestamp":1790593867307}@@DE · **Germany**:++} Zeiss SMT optics, Oberkochen; Trumpf carbon dioxide lasers that drive the light source, Ditzingen
--   {--{"author":"James's AI","timestamp":1790593868654}@@USUnited States--}{++{"author":"James's AI","timestamp":1790593868654}@@US · **United States**:++} ASML light-source research and manufacturing, San Diego
--   {--{"author":"James's AI","timestamp":1790593869679}@@JPJapan--}{++{"author":"James's AI","timestamp":1790593869679}@@JP · **Japan**:++} Nikon and Canon deep ultraviolet scanners and steppers
+-{--{"author":"James's AI","timestamp":1790597045244}@@   NLNetherlands--}{++{"author":"James's AI","timestamp":1790597045244}@@ **Netherlands**:++} ASML design and final assembly, Veldhoven
+-{--{"author":"James's AI","timestamp":1790597045244}@@   DEGermany--}{++{"author":"James's AI","timestamp":1790597045244}@@ **Germany**:++} Zeiss SMT optics, Oberkochen; Trumpf carbon dioxide lasers that drive the light source, Ditzingen
+-{--{"author":"James's AI","timestamp":1790597045244}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597045244}@@ **United States**:++} ASML light-source research and manufacturing, San Diego
+-{--{"author":"James's AI","timestamp":1790597045244}@@   JPJapan--}{++{"author":"James's AI","timestamp":1790597045244}@@ **Japan**:++} Nikon and Canon deep ultraviolet scanners and steppers
 
 **Why substitution is slow**
 
@@ -819,7 +822,8 @@ No EUV scanner has ever been sold to a customer in China. CSIS judges that China
 
 **Where the US stands**
 
-No American firm makes scanners. The US government still controls who may buy them, through Dutch export licenses, the American-made parts inside each machine, and its entity list of firms that may not be supplied.
+No American firm makes scanners. The US government still controls who may buy them, through Dutch export licenses, the American-made parts inside each machine, and its entity list of firms that may not be supplied.{++{"author":"James's AI","timestamp":1790597045244}@@
+:::++}
 
 Every transistor in an AI accelerator gets its shape from a machine one company builds. ASML sold 327 lithography systems in 2025, 48 of them extreme ultraviolet, and nobody else sells EUV [1](https://ourbrand.asml.com/m/419103cb23dfeaa4/original/asml-2025-annual-report-financial-performance-section.pdf).
 
@@ -829,11 +833,11 @@ The stencil is a photomask, the film is photoresist and the machine is a scanner
 
 The wafer is coated with photoresist, a film that changes wherever light touches it. The mask holds one layer of the circuit as a pattern of clear and dark areas, drawn four times larger than life. The machine shines light through the mask, shrinks the image four times with a lens, and lands it on the film. A wash then removes the film where the light hit, and the pattern is left standing on the wafer for the next machine to etch in or fill with metal. Then the film is stripped and the next mask goes in. A chip takes dozens of masks, one per layer.
 
-{--{"author":"James's AI","timestamp":1790594483803}@@![](https://chipsupplychain.org/media/litho-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594483803}@@![How lithography prints a chip](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-litho.jpg)++}{++{"author":"James's AI","timestamp":1790594881764}@@
+{--{"author":"James's AI","timestamp":1790594483803}@@![](https://chipsupplychain.org/media/litho-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594483803}@@![How lithography prints a chip](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-litho.jpg)++}{--{"author":"James's AI","timestamp":1790597045244}@@
 
-%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%++}
+**Figure: How--}{++{"author":"James's AI","timestamp":1790597045244}@@
 
-**Figure: How lithography prints a chip.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#lithography)); above is its last frame. Its steps:
+*How++} lithography prints a {--{"author":"James's AI","timestamp":1790597045244}@@chip.** An animation on the live site ([watch it--}{++{"author":"James's AI","timestamp":1790597045244}@@chip. The last frame of an animation++} on{--{"author":"James's AI","timestamp":1790597045244}@@ chipsupplychain.org](https://chipsupplychain.org/#lithography)); above is its last frame.--}{++{"author":"James's AI","timestamp":1790597045244}@@ the original site.++} Its {--{"author":"James's AI","timestamp":1790597045244}@@steps:--}{++{"author":"James's AI","timestamp":1790597045244}@@steps:*++}
 
 1. **Coat.** The wafer is coated with a thin film that changes wherever light touches it.
 2. **Stencil.** A stencil, called a mask, holds the pattern for one layer of the chip, drawn four times larger than life.
@@ -841,9 +845,9 @@ The wafer is coated with photoresist, a film that changes wherever light touches
 4. **Wash.** A wash removes the film wherever the light landed, and the pattern is left on the wafer.
 5. **Repeat.** The machine steps across the wafer, printing one patch at a time, each about the size of a postage stamp.
 
-_Simplified. The newest machines, which use extreme ultraviolet light, carry the image with mirrors in place of a lens._
+{--{"author":"James's AI","timestamp":1790597045244}@@_Simplified.--}{++{"author":"James's AI","timestamp":1790597045244}@@*Simplified.++} The newest machines, which use extreme ultraviolet light, carry the image with mirrors in place of a {--{"author":"James's AI","timestamp":1790597045244}@@lens._
 
-How lithography prints a chip
+How lithography prints a chip--}{++{"author":"James's AI","timestamp":1790597045244}@@lens.*++}
 
 The image from one mask covers a patch about 26 by 33 mm, so the wafer moves under the lens one patch at a time, close to a hundred patches per wafer. ASML's own throughput rating for an EUV scanner assumes 96 of them [2](https://www.asml.com/en/products/euv-lithography-systems/twinscan-nxe3400b). Before each one, the machine finds marks printed in earlier layers and lines the new layer up on them to within a few nanometers.
 
@@ -871,22 +875,32 @@ High numerical aperture (High-NA) raises the aperture from 0.33 to 0.55 and cuts
 
 Reuters puts a standard EUV tool at around $200 million and a High-NA machine at $350 to $400 million, prices ASML does not publish [5](https://www.reuters.com/world/asia-pacific/250-million-asml-printer-behind-nvidias-chips-2026-07-28/).
 
-**Chart:** What one lithography system costs. The High-NA figure is quoted as a $350-400M range; the bar shows the low end ($M)
+**Chart:** What one lithography system costs. The High-NA figure is quoted as a $350-400M range; the bar shows the low end{--{"author":"James's AI","timestamp":1790597045244}@@ ($M)
 
-DUV scanner 60 EUV, 0.33 NA 200 High-NA EUV 350
+--}{++{"author":"James's AI","timestamp":1790597045244}@@
+
+| | $M |
+|---|---:|
+| ++}DUV scanner {++{"author":"James's AI","timestamp":1790597045244}@@| ++}60 {++{"author":"James's AI","timestamp":1790597045244}@@|
+| ++}EUV, 0.33 NA {++{"author":"James's AI","timestamp":1790597045244}@@| ++}200 {++{"author":"James's AI","timestamp":1790597045244}@@|
+| ++}High-NA EUV {++{"author":"James's AI","timestamp":1790597045244}@@| ++}350{++{"author":"James's AI","timestamp":1790597045244}@@ |++}
 
 Source: [Reuters, The $400 million ASML 'printers', July 2026](https://www.reuters.com/world/asia-pacific/250-million-asml-printer-behind-nvidias-chips-2026-07-28/)
 
 Intel and TSMC have chosen differently on High-NA:
 
--   **Intel Foundry** ships the first high-volume logic product made with High-NA, on Intel 18A, and installed the first EXE:5200B [9](https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone), after more than a million High-NA wafers [10](https://www.intel.com/content/www/us/en/newsroom/news/intel-foundry/intel-foundry-asml-accelerate-industry-readiness-for-high-na-euv.html).
--   **TSMC** waited, and now says it will use High-NA in high-volume manufacturing from 2030 [11](https://pr.tsmc.com/english/news/3338).
+-{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**Intel Foundry** ships the first high-volume logic product made with High-NA, on Intel 18A, and installed the first EXE:5200B [9](https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone), after more than a million High-NA wafers [10](https://www.intel.com/content/www/us/en/newsroom/news/intel-foundry/intel-foundry-asml-accelerate-industry-readiness-for-high-na-euv.html).
+-{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**TSMC** waited, and now says it will use High-NA in high-volume manufacturing from 2030 [11](https://pr.tsmc.com/english/news/3338).
 
 ASML booked four EXE systems as revenue in 2025 against two in 2024 [1](https://ourbrand.asml.com/m/419103cb23dfeaa4/original/asml-2025-annual-report-financial-performance-section.pdf), and expects the platform to carry high-volume manufacturing from 2027 [7](https://ourbrand.asml.com/m/8ab959d4926657b/original/asml-2025-annual-report-strategic-report-section.pdf). On 8 September 2026 it announced with TSMC a move to 12-inch photomasks to lift the field-size limit, with a pilot mask line in 2031 and production systems by 2033 [11](https://pr.tsmc.com/english/news/3338).
 
-{++{"author":"James's AI","timestamp":1790593874567}@@**Chart:** ++}EUV systems ASML booked as revenue each {--{"author":"James's AI","timestamp":1790593874567}@@yeartools--}{++{"author":"James's AI","timestamp":1790593874567}@@year (tools)++}
+{++{"author":"James's AI","timestamp":1790593874567}@@**Chart:** ++}EUV systems ASML booked as revenue each {--{"author":"James's AI","timestamp":1790597045244}@@yeartools--}{++{"author":"James's AI","timestamp":1790597045244}@@year++}
 
-2023 53 2024 44 2025 48
+{++{"author":"James's AI","timestamp":1790597045244}@@| | tools |
+|---|---:|
+| ++}2023 {++{"author":"James's AI","timestamp":1790597045244}@@| ++}53 {++{"author":"James's AI","timestamp":1790597045244}@@|
+| ++}2024 {++{"author":"James's AI","timestamp":1790597045244}@@| ++}44 {++{"author":"James's AI","timestamp":1790597045244}@@|
+| ++}2025 {++{"author":"James's AI","timestamp":1790597045244}@@| ++}48{++{"author":"James's AI","timestamp":1790597045244}@@ |++}
 
 Source: [ASML annual reports 2024 and 2025](https://ourbrand.asml.com/m/419103cb23dfeaa4/original/asml-2025-annual-report-financial-performance-section.pdf)
 
@@ -894,18 +908,25 @@ Source: [ASML annual reports 2024 and 2025](https://ourbrand.asml.com/m/419103cb
 
 ASML took EUR 32.7 billion in net sales in 2025 at a 52.8 percent gross margin [1](https://ourbrand.asml.com/m/419103cb23dfeaa4/original/asml-2025-annual-report-financial-performance-section.pdf), and in July 2026 raised its 2026 forecast to EUR 43 to 45 billion at 54 to 56 percent [12](https://ourbrand.asml.com/asset/c8dbf3fc-4c5e-4406-83f6-27694b138245/Press-Release-Financial-Results-Q2-2026.pdf). It assembles more than it makes, listing 5,100 suppliers [13](https://www.sec.gov/Archives/edgar/data/937966/000162828026011377/asml-2025xannualxreportx.htm). Four of them make the main parts of the EUV machine:
 
--   **Zeiss SMT**, Oberkochen, makes the illumination system and the six-mirror projection optics [14](https://www.zeiss.com/semiconductor-manufacturing-technology/inspiring-technology/euv-lithography.html).
--   **Trumpf**, Ditzingen, makes the carbon dioxide drive laser, which amplifies a few watts to 40 kilowatts [15](https://www.trumpf.com/en_US/products/lasers/euv-drive-laser/).
--   **ASML San Diego**, the former Cymer, designs the source where the laser turns tin into plasma, and builds the droplet generator [16](https://www.asml.com/en/company/about-asml/locations/san-diego).
--   **VDL ETG** builds the frames that suspend and position the mirrors [17](https://www.vdlgroep.com/en/vdl-groep/innovation-projects/vdl-etg-builds-complex-frames-for-zeiss).
+-{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**Zeiss SMT**, Oberkochen, makes the illumination system and the six-mirror projection optics [14](https://www.zeiss.com/semiconductor-manufacturing-technology/inspiring-technology/euv-lithography.html).
+-{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**Trumpf**, Ditzingen, makes the carbon dioxide drive laser, which amplifies a few watts to 40 kilowatts [15](https://www.trumpf.com/en_US/products/lasers/euv-drive-laser/).
+-{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**ASML San Diego**, the former Cymer, designs the source where the laser turns tin into plasma, and builds the droplet generator [16](https://www.asml.com/en/company/about-asml/locations/san-diego).
+-{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**VDL ETG** builds the frames that suspend and position the mirrors [17](https://www.vdlgroep.com/en/vdl-groep/innovation-projects/vdl-etg-builds-complex-frames-for-zeiss).
 
 Zeiss mirror polishing and coating caps EUV output. Final assembly in Veldhoven waits on the optics.
 
 Nikon and Canon are specialists now. Nikon sold 22 new scanners in the year to March 2026, into a market it sizes at 570 units, and lost money on Precision Equipment [18](https://www.nikon.com/content/dam/web-assets/nikoncom/company/local/global/en/ir/ir_library/result/pdf/2026/26_all_e.pdf). Canon's alternative is nanoimprint, where the FPA-1200NZ2C stamps the pattern instead of projecting it, down to a 14 nm linewidth [19](https://global.canon/en/news/2024/20240926.html). No leading-edge logic customer has taken it up.
 
-**Chart:** ASML net system sales by technology, 2025 (%)
+**Chart:** ASML net system sales by technology, 2025{--{"author":"James's AI","timestamp":1790597045244}@@ (%)--}
 
-EUV **48%** ArF immersion **42%** KrF **4%** Metrology and inspection **3%** ArF dry **2%** i-line **1%**
+{++{"author":"James's AI","timestamp":1790597045244}@@| | % |
+|---|---:|
+| ++}EUV {--{"author":"James's AI","timestamp":1790597045244}@@**48%** --}{++{"author":"James's AI","timestamp":1790597045244}@@| 48 |
+| ++}ArF immersion {--{"author":"James's AI","timestamp":1790597045244}@@**42%**--}{++{"author":"James's AI","timestamp":1790597045244}@@| 42 |
+|++} KrF {--{"author":"James's AI","timestamp":1790597045244}@@**4%** --}{++{"author":"James's AI","timestamp":1790597045244}@@| 4 |
+| ++}Metrology and inspection {--{"author":"James's AI","timestamp":1790597045244}@@**3%**--}{++{"author":"James's AI","timestamp":1790597045244}@@| 3 |
+|++} ArF dry {--{"author":"James's AI","timestamp":1790597045244}@@**2%** --}{++{"author":"James's AI","timestamp":1790597045244}@@| 2 |
+| ++}i-line {--{"author":"James's AI","timestamp":1790597045244}@@**1%**--}{++{"author":"James's AI","timestamp":1790597045244}@@| 1 |++}
 
 Source: [ASML Q4 2025 investor presentation](https://ourbrand.asml.com/m/3136300aa4999bc1/original/2026_01_28_Presentation-Investor-Relations-Q4-2025.pdf)
 
@@ -913,9 +934,9 @@ Source: [ASML Q4 2025 investor presentation](https://ourbrand.asml.com/m/3136300
 
 Export controls bar EUV from Chinese foundries, and CSIS judges that China cannot yet build it despite state spending [20](https://www.csis.org/blogs/strategic-technologies-blog/breakthroughs-or-boasts-assessing-recent-chinese-lithography). Below EUV, the restrictions arrived in this order:
 
--   **Dutch national licensing** of advanced DUV took effect on 1 September 2023, and The Hague widened it on 6 September 2024 [21](https://www.government.nl/latest/news/2024/09/06/the-netherlands-expands-export-control-measure-advanced-semiconductor-manufacturing-equipment).
--   **A partial license revocation** disclosed on 1 January 2024 stopped NXT:2050i and NXT:2100i shipments to a few Chinese customers [22](https://www.asml.com/en/news/press-releases/2023/statement-regarding-partial-revocation-export-license).
--   **The BIS Affiliates Rule** extended entity-list controls to 50 percent-owned subsidiaries from 29 September 2025 [23](https://www.federalregister.gov/documents/2025/09/30/2025-19001/expansion-of-end-user-controls-to-cover-affiliates-of-certain-listed-entities), then BIS suspended it to 9 November 2026 [24](https://www.federalregister.gov/documents/2025/11/12/2025-19846/one-year-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed-entities).
+-{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**Dutch national licensing** of advanced DUV took effect on 1 September 2023, and The Hague widened it on 6 September 2024 [21](https://www.government.nl/latest/news/2024/09/06/the-netherlands-expands-export-control-measure-advanced-semiconductor-manufacturing-equipment).
+-{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**A partial license revocation** disclosed on 1 January 2024 stopped NXT:2050i and NXT:2100i shipments to a few Chinese customers [22](https://www.asml.com/en/news/press-releases/2023/statement-regarding-partial-revocation-export-license).
+-{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**The BIS Affiliates Rule** extended entity-list controls to 50 percent-owned subsidiaries from 29 September 2025 [23](https://www.federalregister.gov/documents/2025/09/30/2025-19001/expansion-of-end-user-controls-to-cover-affiliates-of-certain-listed-entities), then BIS suspended it to 9 November 2026 [24](https://www.federalregister.gov/documents/2025/11/12/2025-19846/one-year-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed-entities).
 
 China fell from 41 percent of ASML's net system sales in 2024 to 33 percent in 2025 [4](https://ourbrand.asml.com/m/3136300aa4999bc1/original/2026_01_28_Presentation-Investor-Relations-Q4-2025.pdf).
 
@@ -923,12 +944,24 @@ On DUV, Reuters reported in July 2026, on one unnamed source, that Shanghai Aish
 
 On EUV there is less evidence, and claims of Huawei mass production in 2026 remain unverified. Reuters reported in December 2025 that a Shenzhen team of former ASML engineers had built a prototype that makes extreme ultraviolet light but no chip [26](https://www.reuters.com/world/china/how-china-built-its-manhattan-project-rival-west-ai-chips-2025-12-17/). Between that light and a printed chip sit the mirrors, and only Zeiss can polish them.
 
-**Chart:** ASML net system sales by the region tools shipped to, 2025 (%)
+**Chart:** ASML net system sales by the region tools shipped to, 2025{--{"author":"James's AI","timestamp":1790597045244}@@ (%)
 
-China **33%** South Korea **25%** Taiwan **22%** United States **12%** Japan **5%** Rest of Asia **2%** EMEA **1%**
+--}{++{"author":"James's AI","timestamp":1790597045244}@@
+
+| | % |
+|---|---:|
+| ++}China {--{"author":"James's AI","timestamp":1790597045244}@@**33%**--}{++{"author":"James's AI","timestamp":1790597045244}@@| 33 |
+|++} South Korea {--{"author":"James's AI","timestamp":1790597045244}@@**25%**--}{++{"author":"James's AI","timestamp":1790597045244}@@| 25 |
+|++} Taiwan {--{"author":"James's AI","timestamp":1790597045244}@@**22%** --}{++{"author":"James's AI","timestamp":1790597045244}@@| 22 |
+| ++}United States {--{"author":"James's AI","timestamp":1790597045244}@@**12%**--}{++{"author":"James's AI","timestamp":1790597045244}@@| 12 |
+|++} Japan {--{"author":"James's AI","timestamp":1790597045244}@@**5%**--}{++{"author":"James's AI","timestamp":1790597045244}@@| 5 |
+|++} Rest of Asia {--{"author":"James's AI","timestamp":1790597045244}@@**2%** EMEA **1%**
 
 %% validator-ignore-next-line --code article.block-repeated-nearby --reason source-provides-alternative-citation-formats %%
-Source: [ASML Q4 2025 investor presentation](https://ourbrand.asml.com/m/3136300aa4999bc1/original/2026_01_28_Presentation-Investor-Relations-Q4-2025.pdf)
+--}{++{"author":"James's AI","timestamp":1790597045244}@@| 2 |
+| EMEA | 1 |
+
+++}Source: [ASML Q4 2025 investor presentation](https://ourbrand.asml.com/m/3136300aa4999bc1/original/2026_01_28_Presentation-Investor-Relations-Q4-2025.pdf)
 
 ### The chokepoint ^the-chokepoint-4
 
@@ -938,87 +971,102 @@ For AI accelerators, EUV is the point of control. It prints the finest layers, t
 
 ### Key evaluation criteria ^key-evaluation-criteria-4
 
--   **Resolution.** Set by wavelength divided by numerical aperture. 13 nm at 0.33 NA, 8 nm at 0.55 NA [8](https://www.asml.com/en/company/stories/2024/5-things-high-na-euv).
--   **Throughput.** Wafers an hour at a stated dose. 220 on the NXE:3800E, 175 on the EXE:5200B [7](https://ourbrand.asml.com/m/8ab959d4926657b/original/asml-2025-annual-report-strategic-report-section.pdf).
--   **Overlay.** How precisely one layer lands on the one below; ASML credits the EXE:5200B's gain to new Zeiss optics [7](https://ourbrand.asml.com/m/8ab959d4926657b/original/asml-2025-annual-report-strategic-report-section.pdf).
--   **Field size.** The patch of wafer one exposure covers. High-NA halves it, so big AI dies must be stitched until 12-inch masks arrive [8](https://www.asml.com/en/company/stories/2024/5-things-high-na-euv).
--   **Source power.** Brighter light, more wafers an hour, which is why the 1,000-watt demonstration matters [7](https://ourbrand.asml.com/m/8ab959d4926657b/original/asml-2025-annual-report-strategic-report-section.pdf).
+-{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**Resolution.** Set by wavelength divided by numerical aperture. 13 nm at 0.33 NA, 8 nm at 0.55 NA [8](https://www.asml.com/en/company/stories/2024/5-things-high-na-euv).
+-{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**Throughput.** Wafers an hour at a stated dose. 220 on the NXE:3800E, 175 on the EXE:5200B [7](https://ourbrand.asml.com/m/8ab959d4926657b/original/asml-2025-annual-report-strategic-report-section.pdf).
+-{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**Overlay.** How precisely one layer lands on the one below; ASML credits the EXE:5200B's gain to new Zeiss optics [7](https://ourbrand.asml.com/m/8ab959d4926657b/original/asml-2025-annual-report-strategic-report-section.pdf).
+-{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**Field size.** The patch of wafer one exposure covers. High-NA halves it, so big AI dies must be stitched until 12-inch masks arrive [8](https://www.asml.com/en/company/stories/2024/5-things-high-na-euv).
+-{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}**Source power.** Brighter light, more wafers an hour, which is why the 1,000-watt demonstration matters [7](https://ourbrand.asml.com/m/8ab959d4926657b/original/asml-2025-annual-report-strategic-report-section.pdf).
 
-{--{"author":"James's AI","timestamp":1790593878311}@@Card--}{++{"author":"James's AI","timestamp":1790593878311}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593878311}@@4Question--}{++{"author":"James's AI","timestamp":1790593878311}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597045244}@@Card 1 of 4Question
 
-What does lithography do?
+What does lithography do?--}{++{"author":"James's AI","timestamp":1790597045244}@@::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.++}
 
-{--{"author":"James's AI","timestamp":1790593879670}@@Card--}{++{"author":"James's AI","timestamp":1790593879670}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593879670}@@4Answer--}{++{"author":"James's AI","timestamp":1790593879670}@@4 · Answer**++}
+{--{"author":"James's AI","timestamp":1790597045244}@@Card--}{++{"author":"James's AI","timestamp":1790597045244}@@:::callout {title="Card++} 1 of {--{"author":"James's AI","timestamp":1790597045244}@@4Answer
 
-It prints each layer of a chip's circuit onto the wafer.
+--}{++{"author":"James's AI","timestamp":1790597045244}@@4: What does lithography do?" tone="neutral" collapse="closed"}
+++}It prints each layer of a chip's circuit onto the wafer.
 
-The machine projects the image of a stencil, four times smaller, onto the silicon. [[#^how-it-works-4|Reread: How it works]]
+The machine projects the image of a stencil, four times smaller, onto the silicon. [[#^how-it-works-4|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597045244}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790593880564}@@Card--}{++{"author":"James's AI","timestamp":1790593880564}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593880564}@@4Question--}{++{"author":"James's AI","timestamp":1790593880564}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597045244}@@Card--}{++{"author":"James's AI","timestamp":1790597045244}@@:::callout {title="Card++} 2 of {--{"author":"James's AI","timestamp":1790597045244}@@4Question
 
-Why do the finest layers need extreme-ultraviolet (EUV) light?
+--}{++{"author":"James's AI","timestamp":1790597045244}@@4: ++}Why do the finest layers need extreme-ultraviolet (EUV){--{"author":"James's AI","timestamp":1790597045244}@@ light?
 
-{--{"author":"James's AI","timestamp":1790593882147}@@Card--}{++{"author":"James's AI","timestamp":1790593882147}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593882147}@@4Answer--}{++{"author":"James's AI","timestamp":1790593882147}@@4 · Answer**++}
+Card 2 of 4Answer
 
-Finer lines need light of a shorter wavelength, and EUV has the shortest in use.
+--}{++{"author":"James's AI","timestamp":1790597045244}@@ light?" tone="neutral" collapse="closed"}
+++}Finer lines need light of a shorter wavelength, and EUV has the shortest in use.
 
-Air and glass absorb EUV light, so the machine works in a vacuum and uses mirrors instead of lenses. [[#^how-it-works-4|Reread: How it works]]
+Air and glass absorb EUV light, so the machine works in a vacuum and uses mirrors instead of lenses. [[#^how-it-works-4|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597045244}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790593883147}@@Card--}{++{"author":"James's AI","timestamp":1790593883147}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593883147}@@4Question--}{++{"author":"James's AI","timestamp":1790593883147}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597045244}@@Card --}{++{"author":"James's AI","timestamp":1790597045244}@@:::callout {title="Card ++}3 of{--{"author":"James's AI","timestamp":1790597045244}@@ 4Question
 
-Who makes EUV machines?
+--}{++{"author":"James's AI","timestamp":1790597045244}@@ 4: ++}Who makes EUV {--{"author":"James's AI","timestamp":1790597045244}@@machines?
 
-{--{"author":"James's AI","timestamp":1790593884462}@@Card--}{++{"author":"James's AI","timestamp":1790593884462}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593884462}@@4Answer--}{++{"author":"James's AI","timestamp":1790593884462}@@4 · Answer**++}
+Card 3 of 4Answer
 
-Only ASML, in the Netherlands.
+--}{++{"author":"James's AI","timestamp":1790597045244}@@machines?" tone="neutral" collapse="closed"}
+++}Only ASML, in the Netherlands.
 
-ASML booked 48 EUV systems in 2025. Its mirrors come from one supplier, Zeiss. [[#^who-makes-it-4|Reread: Who makes it]]
+ASML booked 48 EUV systems in 2025. Its mirrors come from one supplier, Zeiss. [[#^who-makes-it-4|Reread: Who makes it]]{++{"author":"James's AI","timestamp":1790597045244}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790593885352}@@Card--}{++{"author":"James's AI","timestamp":1790593885352}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593885352}@@4Question--}{++{"author":"James's AI","timestamp":1790593885352}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597045244}@@Card--}{++{"author":"James's AI","timestamp":1790597045244}@@:::callout {title="Card++} 4 of {--{"author":"James's AI","timestamp":1790597045244}@@4Question
 
-Can China buy or build an EUV machine?
+--}{++{"author":"James's AI","timestamp":1790597045244}@@4: ++}Can China buy or build an EUV {--{"author":"James's AI","timestamp":1790597045244}@@machine?
 
-{--{"author":"James's AI","timestamp":1790593886412}@@Card--}{++{"author":"James's AI","timestamp":1790593886412}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593886412}@@4Answer--}{++{"author":"James's AI","timestamp":1790593886412}@@4 · Answer**++}
+Card 4 of 4Answer
 
-No. None has been sold to China, and its own prototype has printed no chip.
+--}{++{"author":"James's AI","timestamp":1790597045244}@@machine?" tone="neutral" collapse="closed"}
+++}No. None has been sold to China, and its own prototype has printed no chip.
 
-China's answer so far is domestic immersion DUV machines, which use longer-wavelength light. [[#^controls-and-chinas-answer|Reread: Controls and China's answer]]
+China's answer so far is domestic immersion DUV machines, which use longer-wavelength light. [[#^controls-and-chinas-answer|Reread: Controls and China's answer]]{++{"author":"James's AI","timestamp":1790597045244}@@
+:::++}
 
-#### Four things to remember ^four-things-to-remember-3
+{--{"author":"James's AI","timestamp":1790597045244}@@#### Four--}{++{"author":"James's AI","timestamp":1790597045244}@@::::
 
--   Lithography prints each layer of a chip's circuit onto the wafer.
--   The finest layers need extreme-ultraviolet light, which works only in a vacuum and with mirrors.
--   ASML of the Netherlands is the only maker of EUV machines, and Zeiss is the only maker of their mirrors.
--   No EUV machine has been sold to China, and its own prototype has printed no chip.
+:::callout {title="Four++} things to {--{"author":"James's AI","timestamp":1790597045244}@@remember ^four-things-to-remember-3
 
-**Sources (26)**
+--}{++{"author":"James's AI","timestamp":1790597045244}@@remember" tone="green"}
+++}-{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}Lithography prints each layer of a chip's circuit onto the wafer.
+-{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}The finest layers need extreme-ultraviolet light, which works only in a vacuum and with mirrors.
+-{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}ASML of the Netherlands is the only maker of EUV machines, and Zeiss is the only maker of their mirrors.
+-{--{"author":"James's AI","timestamp":1790597045244}@@   --}{++{"author":"James's AI","timestamp":1790597045244}@@ ++}No EUV machine has been sold to China, and its own prototype has printed no chip.{++{"author":"James's AI","timestamp":1790597045244}@@
+:::++}
 
-1.  A [ASML 2025 Annual Report](https://ourbrand.asml.com/m/419103cb23dfeaa4/original/asml-2025-annual-report-financial-performance-section.pdf) ASML · 24 February 2026
-2.  A [TWINSCAN NXE:3400B: EUV lithography systems](https://www.asml.com/en/products/euv-lithography-systems/twinscan-nxe3400b) ASML
-3.  A [Lenses & mirrors - Lithography principles](https://www.asml.com/en/technology/lithography-principles/lenses-and-mirrors) ASML
-4.  A [Presentation Investor Relations Q4 2025](https://ourbrand.asml.com/m/3136300aa4999bc1/original/2026_01_28_Presentation-Investor-Relations-Q4-2025.pdf) ASML · 27 January 2026
-5.  B [Explainer: The $400 million ASML 'printers' key for the AI chip boom](https://www.reuters.com/world/asia-pacific/250-million-asml-printer-behind-nvidias-chips-2026-07-28/) Reuters · 28 January 2026
-6.  A [All about light and lasers in lithography](https://www.asml.com/en/technology/lithography-principles/light-and-lasers) ASML
-7.  A [ASML 2025 Annual Report](https://ourbrand.asml.com/m/8ab959d4926657b/original/asml-2025-annual-report-strategic-report-section.pdf) ASML · 24 February 2026
-8.  A [5 things you should know about High NA in EUV](https://www.asml.com/en/company/stories/2024/5-things-high-na-euv) ASML · 25 January 2024
-9.  A [High NA EUV reaches new readiness milestone with first high-volume Logic product](https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone) ASML · 15 July 2026
-10.  A [Intel Foundry and ASML Accelerate Industry Readiness for High-NA EUV](https://www.intel.com/content/www/us/en/newsroom/news/intel-foundry/intel-foundry-asml-accelerate-industry-readiness-for-high-na-euv.html) Intel · 7 September 2026
-11.  A [ASML and TSMC Announce Initiative to Pioneer Industry Transition to Large-Format Photomasks for High NA EUV](https://pr.tsmc.com/english/news/3338) TSMC · 8 September 2026
-12.  A [Press Release Financial Results Q2 2026](https://ourbrand.asml.com/asset/c8dbf3fc-4c5e-4406-83f6-27694b138245/Press-Release-Financial-Results-Q2-2026.pdf) ASML · 14 July 2026
-13.  A [ASML HOLDING NV, Form 6-K report of foreign private issuer for the period ended 2025-12-31 (6-K)](https://www.sec.gov/Archives/edgar/data/937966/000162828026011377/asml-2025xannualxreportx.htm) U.S. Securities and Exchange Commission (filing by ASML HOLDING NV) · 25 February 2026
-14.  A [EUV lithography and technology](https://www.zeiss.com/semiconductor-manufacturing-technology/inspiring-technology/euv-lithography.html) Carl Zeiss
-15.  A [Good things come in ever-smaller packages](https://www.trumpf.com/en_US/products/lasers/euv-drive-laser/) TRUMPF
-16.  A [Explore ASML San Diego](https://www.asml.com/en/company/about-asml/locations/san-diego) ASML
-17.  A [VDL Groep, VDL ETG builds complex frames for Zeiss, innovation project page](https://www.vdlgroep.com/en/vdl-groep/innovation-projects/vdl-etg-builds-complex-frames-for-zeiss) VDL Groep
-18.  A [FINANCIAL RESULTS The Year Ended March 31,2026](https://www.nikon.com/content/dam/web-assets/nikoncom/company/local/global/en/ir/ir_library/result/pdf/2026/26_all_e.pdf) Nikon · 21 May 2026
-19.  A [Canon delivers FPA -1200NZ2C nanoimprint lithography system for semiconductor manufacturing to the Texas Institute for Electronics](https://global.canon/en/news/2024/20240926.html) Canon · 26 September 2024
-20.  A [Breakthroughs or Boasts? Assessing Recent Chinese Lithography Advancements | Strategic Technologies Blog](https://www.csis.org/blogs/strategic-technologies-blog/breakthroughs-or-boasts-assessing-recent-chinese-lithography) Center for Strategic and International Studies
-21.  A [The Netherlands expands export control measure for advanced semiconductor manufacturing equipment](https://www.government.nl/latest/news/2024/09/06/the-netherlands-expands-export-control-measure-advanced-semiconductor-manufacturing-equipment) Government of the Netherlands · 6 September 2024
-22.  A [Statement regarding partial revocation export license](https://www.asml.com/en/news/press-releases/2023/statement-regarding-partial-revocation-export-license) ASML · 1 January 2024
-23.  A [Expansion of End-User Controls To Cover Affiliates of Certain Listed Entities](https://www.federalregister.gov/documents/2025/09/30/2025-19001/expansion-of-end-user-controls-to-cover-affiliates-of-certain-listed-entities) Federal Register (Commerce Department; Industry and Security Bureau) · 30 September 2025
-24.  A [One Year Suspension of Expansion of End-User Controls for Affiliates of Certain Listed Entities](https://www.federalregister.gov/documents/2025/11/12/2025-19846/one-year-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed-entities) Federal Register (Commerce Department; Industry and Security Bureau) · 12 November 2025
-25.  B [China starts production of home-grown immersion DUV chipmaking tools, source says](https://www.reuters.com/world/china/china-starts-production-home-grown-immersion-duv-chipmaking-tools-source-2026-07-28/) Reuters · 28 July 2026
-26.  B [How China built its 'Manhattan Project' to rival the West in AI chips](https://www.reuters.com/world/china/how-china-built-its-manhattan-project-rival-west-ai-chips-2025-12-17/) Reuters · 17 December 2025
+{--{"author":"James's AI","timestamp":1790597045244}@@**Sources (26)**
+
+--}{++{"author":"James's AI","timestamp":1790597045244}@@:::callout {title="Sources (26)" tone="neutral" collapse="closed"}
+++}1.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [ASML 2025 Annual {--{"author":"James's AI","timestamp":1790597045244}@@Report](https://ourbrand.asml.com/m/419103cb23dfeaa4/original/asml-2025-annual-report-financial-performance-section.pdf)--}{++{"author":"James's AI","timestamp":1790597045244}@@Report](https://ourbrand.asml.com/m/419103cb23dfeaa4/original/asml-2025-annual-report-financial-performance-section.pdf).++} ASML · 24 February {--{"author":"James's AI","timestamp":1790597045244}@@2026--}{++{"author":"James's AI","timestamp":1790597045244}@@2026. Tier A.++}
+2.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [TWINSCAN NXE:3400B: EUV lithography {--{"author":"James's AI","timestamp":1790597045244}@@systems](https://www.asml.com/en/products/euv-lithography-systems/twinscan-nxe3400b) ASML--}{++{"author":"James's AI","timestamp":1790597045244}@@systems](https://www.asml.com/en/products/euv-lithography-systems/twinscan-nxe3400b). ASML. Tier A.++}
+3.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [Lenses & mirrors - Lithography {--{"author":"James's AI","timestamp":1790597045244}@@principles](https://www.asml.com/en/technology/lithography-principles/lenses-and-mirrors) ASML--}{++{"author":"James's AI","timestamp":1790597045244}@@principles](https://www.asml.com/en/technology/lithography-principles/lenses-and-mirrors). ASML. Tier A.++}
+4.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [Presentation Investor Relations Q4 {--{"author":"James's AI","timestamp":1790597045244}@@2025](https://ourbrand.asml.com/m/3136300aa4999bc1/original/2026_01_28_Presentation-Investor-Relations-Q4-2025.pdf)--}{++{"author":"James's AI","timestamp":1790597045244}@@2025](https://ourbrand.asml.com/m/3136300aa4999bc1/original/2026_01_28_Presentation-Investor-Relations-Q4-2025.pdf).++} ASML · 27 January {--{"author":"James's AI","timestamp":1790597045244}@@2026--}{++{"author":"James's AI","timestamp":1790597045244}@@2026. Tier A.++}
+5.{--{"author":"James's AI","timestamp":1790597045244}@@  B--} [Explainer: The $400 million ASML 'printers' key for the AI chip {--{"author":"James's AI","timestamp":1790597045244}@@boom](https://www.reuters.com/world/asia-pacific/250-million-asml-printer-behind-nvidias-chips-2026-07-28/)--}{++{"author":"James's AI","timestamp":1790597045244}@@boom](https://www.reuters.com/world/asia-pacific/250-million-asml-printer-behind-nvidias-chips-2026-07-28/).++} Reuters · 28 January {--{"author":"James's AI","timestamp":1790597045244}@@2026--}{++{"author":"James's AI","timestamp":1790597045244}@@2026. Tier B.++}
+6.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [All about light and lasers in {--{"author":"James's AI","timestamp":1790597045244}@@lithography](https://www.asml.com/en/technology/lithography-principles/light-and-lasers) ASML--}{++{"author":"James's AI","timestamp":1790597045244}@@lithography](https://www.asml.com/en/technology/lithography-principles/light-and-lasers). ASML. Tier A.++}
+7.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [ASML 2025 Annual {--{"author":"James's AI","timestamp":1790597045244}@@Report](https://ourbrand.asml.com/m/8ab959d4926657b/original/asml-2025-annual-report-strategic-report-section.pdf)--}{++{"author":"James's AI","timestamp":1790597045244}@@Report](https://ourbrand.asml.com/m/8ab959d4926657b/original/asml-2025-annual-report-strategic-report-section.pdf).++} ASML · 24 February {--{"author":"James's AI","timestamp":1790597045244}@@2026--}{++{"author":"James's AI","timestamp":1790597045244}@@2026. Tier A.++}
+8.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [5 things you should know about High NA in {--{"author":"James's AI","timestamp":1790597045244}@@EUV](https://www.asml.com/en/company/stories/2024/5-things-high-na-euv)--}{++{"author":"James's AI","timestamp":1790597045244}@@EUV](https://www.asml.com/en/company/stories/2024/5-things-high-na-euv).++} ASML · 25 January {--{"author":"James's AI","timestamp":1790597045244}@@2024--}{++{"author":"James's AI","timestamp":1790597045244}@@2024. Tier A.++}
+9.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [High NA EUV reaches new readiness milestone with first high-volume Logic {--{"author":"James's AI","timestamp":1790597045244}@@product](https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone)--}{++{"author":"James's AI","timestamp":1790597045244}@@product](https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone).++} ASML · 15 July {--{"author":"James's AI","timestamp":1790597045244}@@2026--}{++{"author":"James's AI","timestamp":1790597045244}@@2026. Tier A.++}
+10.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [Intel Foundry and ASML Accelerate Industry Readiness for High-NA {--{"author":"James's AI","timestamp":1790597045244}@@EUV](https://www.intel.com/content/www/us/en/newsroom/news/intel-foundry/intel-foundry-asml-accelerate-industry-readiness-for-high-na-euv.html)--}{++{"author":"James's AI","timestamp":1790597045244}@@EUV](https://www.intel.com/content/www/us/en/newsroom/news/intel-foundry/intel-foundry-asml-accelerate-industry-readiness-for-high-na-euv.html).++} Intel · 7 September {--{"author":"James's AI","timestamp":1790597045244}@@2026--}{++{"author":"James's AI","timestamp":1790597045244}@@2026. Tier A.++}
+11.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [ASML and TSMC Announce Initiative to Pioneer Industry Transition to Large-Format Photomasks for High NA {--{"author":"James's AI","timestamp":1790597045244}@@EUV](https://pr.tsmc.com/english/news/3338)--}{++{"author":"James's AI","timestamp":1790597045244}@@EUV](https://pr.tsmc.com/english/news/3338).++} TSMC · 8 September {--{"author":"James's AI","timestamp":1790597045244}@@2026--}{++{"author":"James's AI","timestamp":1790597045244}@@2026. Tier A.++}
+12.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [Press Release Financial Results Q2 {--{"author":"James's AI","timestamp":1790597045244}@@2026](https://ourbrand.asml.com/asset/c8dbf3fc-4c5e-4406-83f6-27694b138245/Press-Release-Financial-Results-Q2-2026.pdf)--}{++{"author":"James's AI","timestamp":1790597045244}@@2026](https://ourbrand.asml.com/asset/c8dbf3fc-4c5e-4406-83f6-27694b138245/Press-Release-Financial-Results-Q2-2026.pdf).++} ASML · 14 July {--{"author":"James's AI","timestamp":1790597045244}@@2026--}{++{"author":"James's AI","timestamp":1790597045244}@@2026. Tier A.++}
+13.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [ASML HOLDING NV, Form 6-K report of foreign private issuer for the period ended 2025-12-31 {--{"author":"James's AI","timestamp":1790597045244}@@(6-K)](https://www.sec.gov/Archives/edgar/data/937966/000162828026011377/asml-2025xannualxreportx.htm)--}{++{"author":"James's AI","timestamp":1790597045244}@@(6-K)](https://www.sec.gov/Archives/edgar/data/937966/000162828026011377/asml-2025xannualxreportx.htm).++} U.S. Securities and Exchange Commission (filing by ASML HOLDING NV) · 25 February {--{"author":"James's AI","timestamp":1790597045244}@@2026--}{++{"author":"James's AI","timestamp":1790597045244}@@2026. Tier A.++}
+14.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [EUV lithography and {--{"author":"James's AI","timestamp":1790597045244}@@technology](https://www.zeiss.com/semiconductor-manufacturing-technology/inspiring-technology/euv-lithography.html)--}{++{"author":"James's AI","timestamp":1790597045244}@@technology](https://www.zeiss.com/semiconductor-manufacturing-technology/inspiring-technology/euv-lithography.html).++} Carl {--{"author":"James's AI","timestamp":1790597045244}@@Zeiss--}{++{"author":"James's AI","timestamp":1790597045244}@@Zeiss. Tier A.++}
+15.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [Good things come in ever-smaller {--{"author":"James's AI","timestamp":1790597045244}@@packages](https://www.trumpf.com/en_US/products/lasers/euv-drive-laser/) TRUMPF--}{++{"author":"James's AI","timestamp":1790597045244}@@packages](https://www.trumpf.com/en_US/products/lasers/euv-drive-laser/). TRUMPF. Tier A.++}
+16.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [Explore ASML San {--{"author":"James's AI","timestamp":1790597045244}@@Diego](https://www.asml.com/en/company/about-asml/locations/san-diego) ASML--}{++{"author":"James's AI","timestamp":1790597045244}@@Diego](https://www.asml.com/en/company/about-asml/locations/san-diego). ASML. Tier A.++}
+17.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [VDL Groep, VDL ETG builds complex frames for Zeiss, innovation project {--{"author":"James's AI","timestamp":1790597045244}@@page](https://www.vdlgroep.com/en/vdl-groep/innovation-projects/vdl-etg-builds-complex-frames-for-zeiss)--}{++{"author":"James's AI","timestamp":1790597045244}@@page](https://www.vdlgroep.com/en/vdl-groep/innovation-projects/vdl-etg-builds-complex-frames-for-zeiss).++} VDL {--{"author":"James's AI","timestamp":1790597045244}@@Groep--}{++{"author":"James's AI","timestamp":1790597045244}@@Groep. Tier A.++}
+18.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [FINANCIAL RESULTS The Year Ended March {--{"author":"James's AI","timestamp":1790597045244}@@31,2026](https://www.nikon.com/content/dam/web-assets/nikoncom/company/local/global/en/ir/ir_library/result/pdf/2026/26_all_e.pdf)--}{++{"author":"James's AI","timestamp":1790597045244}@@31,2026](https://www.nikon.com/content/dam/web-assets/nikoncom/company/local/global/en/ir/ir_library/result/pdf/2026/26_all_e.pdf).++} Nikon · 21 May {--{"author":"James's AI","timestamp":1790597045244}@@2026--}{++{"author":"James's AI","timestamp":1790597045244}@@2026. Tier A.++}
+19.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [Canon delivers FPA -1200NZ2C nanoimprint lithography system for semiconductor manufacturing to the Texas Institute for {--{"author":"James's AI","timestamp":1790597045244}@@Electronics](https://global.canon/en/news/2024/20240926.html)--}{++{"author":"James's AI","timestamp":1790597045244}@@Electronics](https://global.canon/en/news/2024/20240926.html).++} Canon · 26 September {--{"author":"James's AI","timestamp":1790597045244}@@2024--}{++{"author":"James's AI","timestamp":1790597045244}@@2024. Tier A.++}
+20.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [Breakthroughs or Boasts? Assessing Recent Chinese Lithography Advancements | Strategic Technologies {--{"author":"James's AI","timestamp":1790597045244}@@Blog](https://www.csis.org/blogs/strategic-technologies-blog/breakthroughs-or-boasts-assessing-recent-chinese-lithography)--}{++{"author":"James's AI","timestamp":1790597045244}@@Blog](https://www.csis.org/blogs/strategic-technologies-blog/breakthroughs-or-boasts-assessing-recent-chinese-lithography).++} Center for Strategic and International {--{"author":"James's AI","timestamp":1790597045244}@@Studies--}{++{"author":"James's AI","timestamp":1790597045244}@@Studies. Tier A.++}
+21.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [The Netherlands expands export control measure for advanced semiconductor manufacturing {--{"author":"James's AI","timestamp":1790597045244}@@equipment](https://www.government.nl/latest/news/2024/09/06/the-netherlands-expands-export-control-measure-advanced-semiconductor-manufacturing-equipment)--}{++{"author":"James's AI","timestamp":1790597045244}@@equipment](https://www.government.nl/latest/news/2024/09/06/the-netherlands-expands-export-control-measure-advanced-semiconductor-manufacturing-equipment).++} Government of the Netherlands · 6 September {--{"author":"James's AI","timestamp":1790597045244}@@2024--}{++{"author":"James's AI","timestamp":1790597045244}@@2024. Tier A.++}
+22.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [Statement regarding partial revocation export {--{"author":"James's AI","timestamp":1790597045244}@@license](https://www.asml.com/en/news/press-releases/2023/statement-regarding-partial-revocation-export-license)--}{++{"author":"James's AI","timestamp":1790597045244}@@license](https://www.asml.com/en/news/press-releases/2023/statement-regarding-partial-revocation-export-license).++} ASML · 1 January {--{"author":"James's AI","timestamp":1790597045244}@@2024--}{++{"author":"James's AI","timestamp":1790597045244}@@2024. Tier A.++}
+23.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [Expansion of End-User Controls To Cover Affiliates of Certain Listed {--{"author":"James's AI","timestamp":1790597045244}@@Entities](https://www.federalregister.gov/documents/2025/09/30/2025-19001/expansion-of-end-user-controls-to-cover-affiliates-of-certain-listed-entities)--}{++{"author":"James's AI","timestamp":1790597045244}@@Entities](https://www.federalregister.gov/documents/2025/09/30/2025-19001/expansion-of-end-user-controls-to-cover-affiliates-of-certain-listed-entities).++} Federal Register (Commerce Department; Industry and Security Bureau) · 30 September {--{"author":"James's AI","timestamp":1790597045244}@@2025--}{++{"author":"James's AI","timestamp":1790597045244}@@2025. Tier A.++}
+24.{--{"author":"James's AI","timestamp":1790597045244}@@  A--} [One Year Suspension of Expansion of End-User Controls for Affiliates of Certain Listed {--{"author":"James's AI","timestamp":1790597045244}@@Entities](https://www.federalregister.gov/documents/2025/11/12/2025-19846/one-year-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed-entities)--}{++{"author":"James's AI","timestamp":1790597045244}@@Entities](https://www.federalregister.gov/documents/2025/11/12/2025-19846/one-year-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed-entities).++} Federal Register (Commerce Department; Industry and Security Bureau) · 12 November {--{"author":"James's AI","timestamp":1790597045244}@@2025--}{++{"author":"James's AI","timestamp":1790597045244}@@2025. Tier A.++}
+25.{--{"author":"James's AI","timestamp":1790597045244}@@  B--} [China starts production of home-grown immersion DUV chipmaking tools, source {--{"author":"James's AI","timestamp":1790597045244}@@says](https://www.reuters.com/world/china/china-starts-production-home-grown-immersion-duv-chipmaking-tools-source-2026-07-28/)--}{++{"author":"James's AI","timestamp":1790597045244}@@says](https://www.reuters.com/world/china/china-starts-production-home-grown-immersion-duv-chipmaking-tools-source-2026-07-28/).++} Reuters · 28 July {--{"author":"James's AI","timestamp":1790597045244}@@2026--}{++{"author":"James's AI","timestamp":1790597045244}@@2026. Tier B.++}
+26.{--{"author":"James's AI","timestamp":1790597045244}@@  B--} [How China built its 'Manhattan Project' to rival the West in AI {--{"author":"James's AI","timestamp":1790597045244}@@chips](https://www.reuters.com/world/china/how-china-built-its-manhattan-project-rival-west-ai-chips-2025-12-17/)--}{++{"author":"James's AI","timestamp":1790597045244}@@chips](https://www.reuters.com/world/china/how-china-built-its-manhattan-project-rival-west-ai-chips-2025-12-17/).++} Reuters · 17 December {--{"author":"James's AI","timestamp":1790597045244}@@2025--}{++{"author":"James's AI","timestamp":1790597045244}@@2025. Tier B.
+:::++}
 
 ## Photomasks and Pellicles ^photomasks-and-pellicles
 
