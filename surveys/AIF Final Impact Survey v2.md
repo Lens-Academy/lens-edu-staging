@@ -134,32 +134,32 @@ id:: 52d9e387-dc99-4d83-9ee0-b46c27f8e09a
 content:: How would you rate your knowledge of AI Futurism: Forecasting and Strategy topics before taking this course?
 scale:: 10
 labels::
-- No knowledge
-- Very little knowledge
-- Limited knowledge
-- Basic knowledge
-- Neutral midpoint
-- Working knowledge
-- Good knowledge
-- Strong knowledge
-- Very strong knowledge
-- Expert knowledge
+- No knowledge of these topics
+- Heard of a few terms
+- Know a few basic ideas
+- Could explain the basics
+- Know the main ideas, with gaps
+- Can follow expert discussions
+- Could explain most topics to a newcomer
+- Could discuss most topics with experts
+- Could teach this course
+- Expert in this field
 
 #### Question: Rating
 id:: 1a4f7ee5-c139-44c3-911c-1b66ea95df88
 content:: How would you rate your knowledge of AI Futurism: Forecasting and Strategy topics after taking this course?
 scale:: 10
 labels::
-- No knowledge
-- Very little knowledge
-- Limited knowledge
-- Basic knowledge
-- Neutral midpoint
-- Working knowledge
-- Good knowledge
-- Strong knowledge
-- Very strong knowledge
-- Expert knowledge
+- No knowledge of these topics
+- Heard of a few terms
+- Know a few basic ideas
+- Could explain the basics
+- Know the main ideas, with gaps
+- Can follow expert discussions
+- Could explain most topics to a newcomer
+- Could discuss most topics with experts
+- Could teach this course
+- Expert in this field
 
 #### Question: Rating
 id:: 26fea927-d777-4f44-aaa9-148650d962b3
