@@ -107,7 +107,6 @@ What not to do:
 
 #### Question
 id:: f63da442-573f-475f-8e12-3dfe62b745ae
-feedback:: false
 content::
 \## Phase 3: Learning Question
 The authors are remarkably confident that advanced AI is dangerous, yet they flatly refuse to predict when it will arrive or exactly how a catastrophe would unfold. Is that a contradiction? How can they be so sure of the danger but not the details? What is it about the situation that lets them have it both ways?
