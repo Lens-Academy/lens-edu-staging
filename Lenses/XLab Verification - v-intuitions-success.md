@@ -54,6 +54,28 @@ optional:: true
 
 #### Text
 content::
+\### AI 2027, ending 1: Race
+
+The Oversight Committee votes to keep using Agent-4.
+
+#### Article
+source:: [[../articles/kokotajlo-ai-2027]]
+from:: ## Choose Your Ending ^choose-your-ending
+optional:: true
+
+#### Text
+content::
+\### AI 2027, ending 2: Slowdown
+
+The Oversight Committee votes to slow down and reassess.
+
+#### Article
+source:: [[../articles/ai-2027-ai-2027]]
+from:: ## Choose Your Ending ^choose-your-ending
+optional:: true
+
+#### Text
+content::
 \### Length of software tasks AI agents can complete on their own
 
 METR measures the "time horizon" of a model: the length of task, in human working time, at which the model succeeds 50% or 80% of the time. The AI 2027 article extends this trend to argue for a superhuman coder in 2027.
