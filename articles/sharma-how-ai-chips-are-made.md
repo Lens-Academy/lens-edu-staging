@@ -2086,18 +2086,18 @@ Packaging joins finished chips into one component and mounts them on a base, cal
 
 Advanced packaging capped AI chip output through 2024 and 2025: the physics was solved and the lines were not built. On Epoch AI's estimate Nvidia alone took 60.3 percent of the world's CoWoS in 2025, and four American designers took around 90 percent [9](https://epoch.ai/data-insights/ai-chip-supply-chain-constraints). By March 2026 the binding constraint had moved back to front-end wafers [10](https://newsletter.semianalysis.com/p/the-great-ai-silicon-shortage). The concentration is unchanged: China can package chips but not the 2.5D structures AI accelerators need, and the American alternatives do not start until 2028.
 
-Concentration **Extreme**
+Concentration: **Extreme**
 
-Substitutability **Moderate** Intel's EMIB can do the same job as TSMC's CoWoS, and the real shortage is in making enough working packages at the volume Nvidia orders.
+Substitutability: **Moderate**. Intel's EMIB can do the same job as TSMC's CoWoS, and the real shortage is in making enough working packages at the volume Nvidia orders.
 
-Price or market size **No public wafer counts** TSMC told investors CoWoS capacity would grow about 60% a year, and keeps adding to that, but will not publish the total. Epoch AI estimates Nvidia alone used 60.3% of the world's CoWoS capacity in 2025
+Price or market size: **No public wafer counts**. TSMC told investors CoWoS capacity would grow about 60% a year, and keeps adding to that, but will not publish the total. Epoch AI estimates Nvidia alone used 60.3% of the world's CoWoS capacity in 2025
 
 Who leads
 
--   TWTSMC Almost all CoWoS for leading AI accelerators
--   TWASE Technology NT$645.4B revenue, 2025; the largest outsourced assembly and test firm
--   USAmkor $6.71B net sales, 2025; the largest American assembly and test firm
--   CNJCET RMB 35.96B revenue, 2024; the largest Chinese assembly and test firm
+-   {--{"author":"James's AI","timestamp":1790594110903}@@TWTSMC--}{++{"author":"James's AI","timestamp":1790594110903}@@TW · **TSMC**:++} Almost all CoWoS for leading AI accelerators
+-   {--{"author":"James's AI","timestamp":1790594111908}@@TWASE Technology--}{++{"author":"James's AI","timestamp":1790594111908}@@TW · **ASE Technology**:++} NT$645.4B revenue, 2025; the largest outsourced assembly and test firm
+-   {--{"author":"James's AI","timestamp":1790594112862}@@USAmkor--}{++{"author":"James's AI","timestamp":1790594112862}@@US · **Amkor**:++} $6.71B net sales, 2025; the largest American assembly and test firm
+-   {--{"author":"James's AI","timestamp":1790594114009}@@CNJCET--}{++{"author":"James's AI","timestamp":1790594114009}@@CN · **JCET**:++} RMB 35.96B revenue, 2024; the largest Chinese assembly and test firm
 -   SGASMPT $532.1M advanced packaging revenue, 2025; thermocompression bonders
 
 Where it is made
