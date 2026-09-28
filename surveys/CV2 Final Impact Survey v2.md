@@ -220,7 +220,7 @@ options::
 
 #### Question: Open
 id:: 7e4c1901-5deb-48eb-ab6a-ba3d6b1cc00d
-content:: Is there someone exceptional whom you would refer to this course? Share their name and why they are a good fit. Add contact details only if you have their permission.
+content:: Is there someone exceptional whom you would refer to this course? Share their name, why they are a good fit, and add their contact details like email or Linked-In.
 optional:: true
 max-chars:: 1000
 
