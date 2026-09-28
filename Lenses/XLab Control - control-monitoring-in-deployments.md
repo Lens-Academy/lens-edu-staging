@@ -28,7 +28,7 @@ source:: [[../articles/lindner-practical-challenges-of-control-monitoring-in-fro
 from:: Automated control monitors could play an important role in overseeing highly capable AI agents that we do not fully trust.
 to:: when human red-teams are unlikely to find attack vectors that dominate an AI’s attacks.
 {>>{"author":"Elias's AI","timestamp":1789039792881}@@PORT-TODO: replace this callout with `#### Article` over
-`Lens Edu/articles/lindner-practical-challenges-of-control-monitoring-in-frontier-ai-deployments.md` once the import lands.<<}{>>{"author":"Elias","timestamp":1790611440210}@@nt<<}
+`Lens Edu/articles/lindner-practical-challenges-of-control-monitoring-in-frontier-ai-deployments.md` once the import lands.<<}
 
 #### Callout: Practice: when to block
 tone:: amber
