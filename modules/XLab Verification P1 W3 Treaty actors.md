@@ -14,3 +14,7 @@ source:: [[../Lenses/XLab Verification - v-interactive-map]]
 
 # Lens:
 source:: [[../Lenses/XLab Verification - v-actor-edges]]
+
+# Lens:
+source:: [[../Lenses/Chip Supply Chain - How AI Chips Are Made]]
+optional:: true
