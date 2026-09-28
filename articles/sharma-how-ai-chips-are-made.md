@@ -3747,13 +3747,15 @@ China has spare generating capacity and makes its own transformers. The United S
 
 Inside an AI accelerator the silicon is the cheap part. Memory and packaging are most of the cost.
 
-%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+{--{"author":"James's AI","timestamp":1790597167170}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
 
-{--{"author":"James's AI","timestamp":1790594271510}@@1,241--}{++{"author":"James's AI","timestamp":1790594271510}@@_1,241++} words / 5 {--{"author":"James's AI","timestamp":1790594271510}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594271510}@@min · Interactive 3D Specimen:++} wafer cost{++{"author":"James's AI","timestamp":1790594271510}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#component-costs))_++}
+1,241--}{++{"author":"James's AI","timestamp":1790597167170}@@*1,241++} words / 5{--{"author":"James's AI","timestamp":1790597167170}@@ minSpecimen: wafer cost--}{++{"author":"James's AI","timestamp":1790597167170}@@ min*++}
 
-**In plain terms**
+{--{"author":"James's AI","timestamp":1790597167170}@@**In--}{++{"author":"James's AI","timestamp":1790597167170}@@:::callout {title="In++} plain {--{"author":"James's AI","timestamp":1790597167170}@@terms**
 
-A bill of materials is the list of parts inside a product and what each one costs to build. For an AI accelerator, the processor itself, the chip that does the calculating, is the cheap part, about a seventh of the total. The stacked memory beside it is nearly half, and the packaging that wires the two together costs more than the chip. Three firms in the world make that memory and one Taiwanese firm does that packaging, so the costliest parts are also the scarcest, and that is where a government's rules bite hardest.
+--}{++{"author":"James's AI","timestamp":1790597167170}@@terms" tone="neutral"}
+++}A bill of materials is the list of parts inside a product and what each one costs to build. For an AI accelerator, the processor itself, the chip that does the calculating, is the cheap part, about a seventh of the total. The stacked memory beside it is nearly half, and the packaging that wires the two together costs more than the chip. Three firms in the world make that memory and one Taiwanese firm does that packaging, so the costliest parts are also the scarcest, and that is where a government's rules bite hardest.{++{"author":"James's AI","timestamp":1790597167170}@@
+:::++}
 
 ### In short ^in-short-16
 
@@ -3765,9 +3767,9 @@ Building a Blackwell B200 costs about $6,400. Nvidia sells it for $30,000 to $40
 
 Three numbers set the cost of a die, the finished rectangle of circuitry cut out of a wafer.
 
--   **Wafer price.** TSMC does not publish it. Epoch AI's model of Blackwell's custom TSMC 4NP process [2](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/) assumes about $17,000 for a 300 mm wafer [1](https://epoch.ai/data-insights/b200-cost-breakdown).
--   **Dies per wafer.** A wafer is a circle and dies are rectangles, so the edge of the disc goes to waste: an 800 mm2 die, near the largest a scanner can print in one shot, fits 68 times.
--   **Yield.** Defects land at random, so a bigger die is likelier to catch one. Epoch AI models the Blackwell die at 40 to 70 percent good, centered on 60 [1](https://epoch.ai/data-insights/b200-cost-breakdown).
+-{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}**Wafer price.** TSMC does not publish it. Epoch AI's model of Blackwell's custom TSMC 4NP process [2](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/) assumes about $17,000 for a 300 mm wafer [1](https://epoch.ai/data-insights/b200-cost-breakdown).
+-{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}**Dies per wafer.** A wafer is a circle and dies are rectangles, so the edge of the disc goes to waste: an 800 mm2 die, near the largest a scanner can print in one shot, fits 68 times.
+-{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}**Yield.** Defects land at random, so a bigger die is likelier to catch one. Epoch AI models the Blackwell die at 40 to 70 percent good, centered on 60 [1](https://epoch.ai/data-insights/b200-cost-breakdown).
 
 Those three numbers put the two dies inside a B200 at about $900, 14 percent of the build [1](https://epoch.ai/data-insights/b200-cost-breakdown). Doubling the wafer price moves the whole bill by a few hundred dollars.
 
@@ -3779,12 +3781,12 @@ The 192 GB of high-bandwidth memory beside those dies, sold as HBM3E, is the sin
 
 #### Packaging, substrate and test ^packaging-substrate-and-test
 
-\CoWoS-L, the TSMC process that mounts dies and memory on one carrier and wires them together, adds about $1,100, more than the logic dies it carries [1](https://epoch.ai/data-insights/b200-cost-breakdown). Packaging yield runs 65 to 95 percent, and a package that fails after the memory goes on throws away the dies and the memory with it, adding roughly $1,000 to every B200 that ships [1](https://epoch.ai/data-insights/b200-cost-breakdown). Substrate, board, test and assembly add $480 [1](https://epoch.ai/data-insights/b200-cost-breakdown). See [[#^advanced-packaging|Advanced packaging]] for why packaging capacity runs out first.
+{--{"author":"James's AI","timestamp":1790597167170}@@\CoWoS-L,--}{++{"author":"James's AI","timestamp":1790597167170}@@CoWoS-L,++} the TSMC process that mounts dies and memory on one carrier and wires them together, adds about $1,100, more than the logic dies it carries [1](https://epoch.ai/data-insights/b200-cost-breakdown). Packaging yield runs 65 to 95 percent, and a package that fails after the memory goes on throws away the dies and the memory with it, adding roughly $1,000 to every B200 that ships [1](https://epoch.ai/data-insights/b200-cost-breakdown). Substrate, board, test and assembly add $480 [1](https://epoch.ai/data-insights/b200-cost-breakdown). See [[#^advanced-packaging|Advanced packaging]] for why packaging capacity runs out first.
 
 #### The B200 bill of materials ^the-b200-bill-of
 
 | Line | Estimate | Range |
-| --- | --- | --- |
+{--{"author":"James's AI","timestamp":1790597167170}@@| --- | --- | --- |--}{++{"author":"James's AI","timestamp":1790597167170}@@|---|---|---|++}
 | HBM3E, 192 GB in eight stacks | $2,900 | $2,800-3,100 |
 | CoWoS-L packaging | $1,100 | $1,000-1,200 |
 | Packaging yield loss | $1,000 | $430-1,700 |
@@ -3795,9 +3797,17 @@ The 192 GB of high-bandwidth memory beside those dies, sold as HBM3E, is the sin
 
 Epoch AI models each line as a range, deriving the packaging line from TSMC's advanced packaging revenue and Nvidia's share of CoWoS capacity [1](https://epoch.ai/data-insights/b200-cost-breakdown). Nothing of that quality exists for the H100 or Rubin.
 
-**Chart:** Where the ~$6,400 of B200 manufacturing cost goes, 2026 ($)
+**Chart:** Where the ~$6,400 of B200 manufacturing cost goes, 2026{--{"author":"James's AI","timestamp":1790597167170}@@ ($)
 
-HBM3E, 192 GB **2,900** CoWoS-L packaging **1,100** Packaging yield loss **1,000** Logic die, two on 4NP **900** Substrate, board, test **480**
+--}{++{"author":"James's AI","timestamp":1790597167170}@@
+
+| | $ |
+|---|---:|
+| ++}HBM3E, 192 GB {--{"author":"James's AI","timestamp":1790597167170}@@**2,900** --}{++{"author":"James's AI","timestamp":1790597167170}@@| 2,900 |
+| ++}CoWoS-L packaging {--{"author":"James's AI","timestamp":1790597167170}@@**1,100** --}{++{"author":"James's AI","timestamp":1790597167170}@@| 1,100 |
+| ++}Packaging yield loss {--{"author":"James's AI","timestamp":1790597167170}@@**1,000** --}{++{"author":"James's AI","timestamp":1790597167170}@@| 1,000 |
+| ++}Logic die, two on 4NP {--{"author":"James's AI","timestamp":1790597167170}@@**900** --}{++{"author":"James's AI","timestamp":1790597167170}@@| 900 |
+| ++}Substrate, board, test {--{"author":"James's AI","timestamp":1790597167170}@@**480**--}{++{"author":"James's AI","timestamp":1790597167170}@@| 480 |++}
 
 Source: [Epoch AI B200 cost model, from a $17,000 4NP wafer, 40-70% die yield, $14-17 per GB of memory, and a packaging line derived from TSMC's advanced packaging revenue](https://epoch.ai/data-insights/b200-cost-breakdown)
 
@@ -3805,12 +3815,12 @@ Source: [Epoch AI B200 cost model, from a $17,000 4NP wafer, 40-70% die yield, $
 
 At rack scale the number that matters is the cost of a GPU-hour. For an operator that owns the machine, SemiAnalysis puts a Vera Rubin NVL72 at $3.57, against $1.84 for a GB200 and $2.36 for a GB300 [3](https://inferencex.semianalysis.com/blog/vera-rubin-nvl72-vs-gb200-nvl72-inference). Each generation costs its owner more per hour than the last, and buyers pay because throughput rises faster than the rate.
 
-One level up, a 100,000 H100 cluster costs over $4 billion in servers, draws about 150 MW, uses 1.59 TWh a year, pays $123.9 million for power and needs 98,304 [4](https://newsletter.semianalysis.com/p/100000-h100-clusters-power-network) optical transceivers .
+One level up, a 100,000 H100 cluster costs over $4 billion in servers, draws about 150 MW, uses 1.59 TWh a year, pays $123.9 million for power and needs 98,304 {--{"author":"James's AI","timestamp":1790597167170}@@[4](https://newsletter.semianalysis.com/p/100000-h100-clusters-power-network) --}optical transceivers {--{"author":"James's AI","timestamp":1790597167170}@@.--}{++{"author":"James's AI","timestamp":1790597167170}@@[4](https://newsletter.semianalysis.com/p/100000-h100-clusters-power-network).++}
 
 ### Who captures the value ^who-captures-the-value
 
 | Firm | Stage | Quarter ended | Gross margin |
-| --- | --- | --- | --- |
+{--{"author":"James's AI","timestamp":1790597167170}@@| --- | --- | --- | --- |--}{++{"author":"James's AI","timestamp":1790597167170}@@|---|---|---|---|++}
 | Micron | HBM and DRAM | May 2026 | 84.6% |
 | Nvidia | Accelerator design | July 2026 | 75.0% |
 | TSMC | Wafers and CoWoS | June 2026 | 67.7% |
@@ -3826,19 +3836,39 @@ Every figure is the firm's own reported gross margin [5](https://investors.micro
 
 SK hynix publishes no gross margin. Its operating margin hit 76 percent in the June quarter, on revenue up 257 percent in a year [15](https://news.skhynix.com/en/q2-2026-business-results/).
 
-**Chart:** Gross margin, each firm's most recent reported quarter (%)
+**Chart:** Gross margin, each firm's most recent reported quarter{--{"author":"James's AI","timestamp":1790597167170}@@ (%)
 
-Micron 84.6% Nvidia 75% TSMC 67.7% KLA 61.4% ASML 54% Lam Research 51.7% Applied Materials 50.3% Ibiden 36.4% ASE Technology 21% Amkor 16.8%
+--}{++{"author":"James's AI","timestamp":1790597167170}@@
+
+| | % |
+|---|---:|
+| ++}Micron {--{"author":"James's AI","timestamp":1790597167170}@@84.6% --}{++{"author":"James's AI","timestamp":1790597167170}@@| 84.6 |
+| ++}Nvidia {--{"author":"James's AI","timestamp":1790597167170}@@75% --}{++{"author":"James's AI","timestamp":1790597167170}@@| 75 |
+| ++}TSMC {--{"author":"James's AI","timestamp":1790597167170}@@67.7% --}{++{"author":"James's AI","timestamp":1790597167170}@@| 67.7 |
+| ++}KLA {--{"author":"James's AI","timestamp":1790597167170}@@61.4% --}{++{"author":"James's AI","timestamp":1790597167170}@@| 61.4 |
+| ++}ASML {--{"author":"James's AI","timestamp":1790597167170}@@54%--}{++{"author":"James's AI","timestamp":1790597167170}@@| 54 |
+|++} Lam Research {--{"author":"James's AI","timestamp":1790597167170}@@51.7% --}{++{"author":"James's AI","timestamp":1790597167170}@@| 51.7 |
+| ++}Applied Materials {--{"author":"James's AI","timestamp":1790597167170}@@50.3% --}{++{"author":"James's AI","timestamp":1790597167170}@@| 50.3 |
+| ++}Ibiden {--{"author":"James's AI","timestamp":1790597167170}@@36.4%--}{++{"author":"James's AI","timestamp":1790597167170}@@| 36.4 |
+|++} ASE Technology {--{"author":"James's AI","timestamp":1790597167170}@@21% --}{++{"author":"James's AI","timestamp":1790597167170}@@| 21 |
+| ++}Amkor {--{"author":"James's AI","timestamp":1790597167170}@@16.8%--}{++{"author":"James's AI","timestamp":1790597167170}@@| 16.8 |++}
 
 Source: [Each firm's own quarterly earnings release; quarters end between May and August 2026 (TSMC shown)](https://pr.tsmc.com/english/news/3326)
 
 Design, inspection and leading-edge wafers earn gross margins of 50 to 75 percent, substrates 36, assembly and test 17 to 21. In 2026 memory passed all of them: Micron earned 39.8 percent for the year to August 2025 [16](https://investors.micron.com/news/press-release/2025/Micron-Technology-Inc--Reports-Results-for-the-Fourth-Quarter-and-Full-Year-of-Fiscal-2025-09-23-2025/default.aspx) and 84.6 percent in the quarter to May 2026 [5](https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Results-for-the-Third-Quarter-of-Fiscal-2026/default.aspx). The margin moved up the chain, to Nvidia's suppliers.
 
-The two bodies that count this industry disagree. World Semiconductor Trade Statistics forecast $772 billion of global chip sales for 2025 [17](https://www.wsts.org/76/103/Global-Semiconductor-Market-Approaches-1T-in-2026); the Semiconductor Industry Association counted $791.7 billion [18](https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/). The forecasters put 2026 at $975 billion, with memory and logic each growing more than 30 percent [17](https://www.wsts.org/76/103/Global-Semiconductor-Market-Approaches-1T-in-2026). Below those totals sit $135.1 billion of [19](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025) equipment billings and $448.3 billion of 2025 capital spending at Alphabet, Amazon, Meta, Microsoft and Oracle, on track for $770 billion in 2026 [20](https://epoch.ai/data-insights/hyperscaler-capex-trend).
+The two bodies that count this industry disagree. World Semiconductor Trade Statistics forecast $772 billion of global chip sales for 2025 [17](https://www.wsts.org/76/103/Global-Semiconductor-Market-Approaches-1T-in-2026); the Semiconductor Industry Association counted $791.7 billion [18](https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/). The forecasters put 2026 at $975 billion, with memory and logic each growing more than 30 percent [17](https://www.wsts.org/76/103/Global-Semiconductor-Market-Approaches-1T-in-2026). Below those totals sit $135.1 billion of {--{"author":"James's AI","timestamp":1790597167170}@@[19](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025) --}equipment billings {++{"author":"James's AI","timestamp":1790597167170}@@[19](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025) ++}and $448.3 billion of 2025 capital spending at Alphabet, Amazon, Meta, Microsoft and Oracle, on track for $770 billion in 2026 [20](https://epoch.ai/data-insights/hyperscaler-capex-trend).
 
-**Chart:** Size of each layer of the chain, 2025 ($B)
+**Chart:** Size of each layer of the chain, 2025{--{"author":"James's AI","timestamp":1790597167170}@@ ($B)
 
-Semiconductor sales 792 Hyperscaler capex 448 Nvidia data center revenue 194 Semiconductor equipment 135
+--}{++{"author":"James's AI","timestamp":1790597167170}@@
+
+| | $B |
+|---|---:|
+| ++}Semiconductor sales {++{"author":"James's AI","timestamp":1790597167170}@@| ++}792 {++{"author":"James's AI","timestamp":1790597167170}@@|
+| ++}Hyperscaler capex {++{"author":"James's AI","timestamp":1790597167170}@@| ++}448 {++{"author":"James's AI","timestamp":1790597167170}@@|
+| ++}Nvidia data center revenue {++{"author":"James's AI","timestamp":1790597167170}@@| ++}194 {++{"author":"James's AI","timestamp":1790597167170}@@|
+| ++}Semiconductor equipment {++{"author":"James's AI","timestamp":1790597167170}@@| ++}135{++{"author":"James's AI","timestamp":1790597167170}@@ |++}
 
 Source: [Semiconductor Industry Association on chip sales; Epoch AI on capital spending at Alphabet, Amazon, Meta, Microsoft and Oracle; Nvidia FY2026 results; SEMI on equipment billings](https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/)
 
@@ -3847,7 +3877,7 @@ Source: [Semiconductor Industry Association on chip sales; Epoch AI on capital s
 Per unit of compute, logic keeps getting cheaper and everything wrapped around it gets more expensive. Packaging and its scrap cost more than twice the logic dies [1](https://epoch.ai/data-insights/b200-cost-breakdown), and a GB300 NVL72 rack already draws 142 kW [21](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html).
 
 | Stage | Class | Why |
-| --- | --- | --- |
+{--{"author":"James's AI","timestamp":1790597167170}@@| --- | --- | --- |--}{++{"author":"James's AI","timestamp":1790597167170}@@|---|---|---|++}
 | EUV lithography | Structurally expensive | One supplier; price set by twenty years of optics development. |
 | Masks and pellicles | Structurally expensive | Scales with layer count; every design pays again. |
 | Metrology and inspection | Structurally expensive | Inspection time rises faster than throughput. |
@@ -3865,72 +3895,87 @@ Per unit of compute, logic keeps getting cheaper and everything wrapped around i
 
 ### Key evaluation criteria ^key-evaluation-criteria-16
 
--   **Cost per good die.** A 30 percent wafer price rise at constant yield is survivable. A ten-point yield drop on an 800 mm2 die is not.
--   **Memory dollars per gigabyte, and gigabytes per part.** The largest line on the bill, set by three firms.
--   **Packaging yield.** Every point lost throws away finished dies and the memory attached to them [1](https://epoch.ai/data-insights/b200-cost-breakdown).
--   **Share of the bill the vendor does not control.** Nvidia sets its own margin but buys memory, packaging and substrates at another firm's price.
--   **Rack watts.** Past about 140 kW a rack, power and cooling capex grows faster than accelerator capex [21](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html).
--   **Compressibility class.** Whether the line falls when volume doubles. If it does not, capacity is the constraint.
+-{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}**Cost per good die.** A 30 percent wafer price rise at constant yield is survivable. A ten-point yield drop on an 800 mm2 die is not.
+-{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}**Memory dollars per gigabyte, and gigabytes per part.** The largest line on the bill, set by three firms.
+-{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}**Packaging yield.** Every point lost throws away finished dies and the memory attached to them [1](https://epoch.ai/data-insights/b200-cost-breakdown).
+-{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}**Share of the bill the vendor does not control.** Nvidia sets its own margin but buys memory, packaging and substrates at another firm's price.
+-{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}**Rack watts.** Past about 140 kW a rack, power and cooling capex grows faster than accelerator capex [21](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html).
+-{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}**Compressibility class.** Whether the line falls when volume doubles. If it does not, capacity is the constraint.
 
-{--{"author":"James's AI","timestamp":1790594275922}@@Card--}{++{"author":"James's AI","timestamp":1790594275922}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594275922}@@3Question--}{++{"author":"James's AI","timestamp":1790594275922}@@3 · Question**++}
+{--{"author":"James's AI","timestamp":1790597167170}@@Card--}{++{"author":"James's AI","timestamp":1790597167170}@@::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.
 
-What does an Nvidia B200 cost to build, and what does it sell for?
+:::callout {title="Card++} 1 of {--{"author":"James's AI","timestamp":1790597167170}@@3Question
 
-{--{"author":"James's AI","timestamp":1790594276856}@@Card--}{++{"author":"James's AI","timestamp":1790594276856}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594276856}@@3Answer--}{++{"author":"James's AI","timestamp":1790594276856}@@3 · Answer**++}
+--}{++{"author":"James's AI","timestamp":1790597167170}@@3: ++}What does an Nvidia B200 cost to build, and what does it sell {--{"author":"James's AI","timestamp":1790597167170}@@for?
 
-About $6,400 to build. It sells for $30,000 to $40,000.
+Card 1 of 3Answer
 
-The build cost is an estimate by Epoch AI. Nvidia's gross margin is 75 percent. [Reread: The B200 bill of materials](#component-costs--the-b200-bill-of-materials)
+--}{++{"author":"James's AI","timestamp":1790597167170}@@for?" tone="neutral" collapse="closed"}
+++}About $6,400 to build. It sells for $30,000 to $40,000.
 
-{--{"author":"James's AI","timestamp":1790594278282}@@Card--}{++{"author":"James's AI","timestamp":1790594278282}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594278282}@@3Question--}{++{"author":"James's AI","timestamp":1790594278282}@@3 · Question**++}
+The build cost is an estimate by Epoch AI. Nvidia's gross margin is 75 percent. {--{"author":"James's AI","timestamp":1790597167170}@@[Reread:--}{++{"author":"James's AI","timestamp":1790597167170}@@[[#^the-b200-bill-of|Reread:++} The B200 bill of {--{"author":"James's AI","timestamp":1790597167170}@@materials](#component-costs--the-b200-bill-of-materials)--}{++{"author":"James's AI","timestamp":1790597167170}@@materials]]
+:::++}
 
-What is the most expensive part of an AI accelerator?
+{--{"author":"James's AI","timestamp":1790597167170}@@Card --}{++{"author":"James's AI","timestamp":1790597167170}@@:::callout {title="Card ++}2 of {--{"author":"James's AI","timestamp":1790597167170}@@3Question
 
-{--{"author":"James's AI","timestamp":1790594279282}@@Card--}{++{"author":"James's AI","timestamp":1790594279282}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594279282}@@3Answer--}{++{"author":"James's AI","timestamp":1790594279282}@@3 · Answer**++}
+--}{++{"author":"James's AI","timestamp":1790597167170}@@3: ++}What is the most expensive part of an AI {--{"author":"James's AI","timestamp":1790597167170}@@accelerator?
 
-The stacked memory, about 45 percent of the cost to build.
+Card 2 of 3Answer
 
-The logic chips that do the calculating are about 14 percent. [Reread: Memory is the largest line](#component-costs--memory-is-the-largest-line)
+--}{++{"author":"James's AI","timestamp":1790597167170}@@accelerator?" tone="neutral" collapse="closed"}
+++}The stacked memory, about 45 percent of the cost to build.
 
-{--{"author":"James's AI","timestamp":1790594280213}@@Card--}{++{"author":"James's AI","timestamp":1790594280213}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594280213}@@3Question--}{++{"author":"James's AI","timestamp":1790594280213}@@3 · Question**++}
+The logic chips that do the calculating are about 14 percent. {--{"author":"James's AI","timestamp":1790597167170}@@[Reread:--}{++{"author":"James's AI","timestamp":1790597167170}@@[[#^memory-is-the-largest|Reread:++} Memory is the largest {--{"author":"James's AI","timestamp":1790597167170}@@line](#component-costs--memory-is-the-largest-line)--}{++{"author":"James's AI","timestamp":1790597167170}@@line]]
+:::++}
 
-Why does packaging cost more than the logic chips?
+{--{"author":"James's AI","timestamp":1790597167170}@@Card--}{++{"author":"James's AI","timestamp":1790597167170}@@:::callout {title="Card++} 3 of {--{"author":"James's AI","timestamp":1790597167170}@@3Question
 
-{--{"author":"James's AI","timestamp":1790594281329}@@Card--}{++{"author":"James's AI","timestamp":1790594281329}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594281329}@@3Answer--}{++{"author":"James's AI","timestamp":1790594281329}@@3 · Answer**++}
+--}{++{"author":"James's AI","timestamp":1790597167170}@@3: ++}Why does packaging cost more than the logic {--{"author":"James's AI","timestamp":1790597167170}@@chips?
 
-A package that fails after assembly throws away the chips and the memory inside it.
+Card 3 of 3Answer
 
-Packaging and its scrap come to about 33 percent of the cost. [Reread: Packaging, substrate and test](#component-costs--packaging-substrate-and-test)
+--}{++{"author":"James's AI","timestamp":1790597167170}@@chips?" tone="neutral" collapse="closed"}
+++}A package that fails after assembly throws away the chips and the memory inside it.
 
-#### Three things to remember ^three-things-to-remember-2
+Packaging and its scrap come to about 33 percent of the cost. {--{"author":"James's AI","timestamp":1790597167170}@@[Reread:--}{++{"author":"James's AI","timestamp":1790597167170}@@[[#^packaging-substrate-and-test|Reread:++} Packaging, substrate and {--{"author":"James's AI","timestamp":1790597167170}@@test](#component-costs--packaging-substrate-and-test)--}{++{"author":"James's AI","timestamp":1790597167170}@@test]]
+:::++}
 
--   A B200 costs about $6,400 to build and sells for $30,000 to $40,000.
--   The stacked memory is the most expensive part, about 45 percent of the cost.
--   Packaging costs more than the logic chips, because a failed package throws away everything inside it.
+{--{"author":"James's AI","timestamp":1790597167170}@@#### Three--}{++{"author":"James's AI","timestamp":1790597167170}@@::::
 
-**Sources (21)**
+:::callout {title="Three++} things to {--{"author":"James's AI","timestamp":1790597167170}@@remember ^three-things-to-remember-2
 
-1.  A [NVIDIA's B200 costs around $6,400 to produce](https://epoch.ai/data-insights/b200-cost-breakdown) Epoch AI · 10 December 2025
-2.  A [NVIDIA Blackwell Architecture](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/) Nvidia · 18 December 2025
-3.  B [Vera Rubin NVL72 vs GB200 NVL72? Inference TCO & Architecture Analysis](https://inferencex.semianalysis.com/blog/vera-rubin-nvl72-vs-gb200-nvl72-inference) SemiAnalysis · 23 July 2026
-4.  B [100,000 H100 Clusters: Power, Network Topology, Ethernet vs InfiniBand, Reliability, Failures, Checkpointing](https://newsletter.semianalysis.com/p/100000-h100-clusters-power-network) SemiAnalysis · 17 June 2024
-5.  A [Micron Technology, Inc. Reports Record Results for the Third Quarter of Fiscal 2026](https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Results-for-the-Third-Quarter-of-Fiscal-2026/default.aspx) Micron Technology · 24 June 2026
-6.  A [NVIDIA Announces Financial Results for Second Quarter Fiscal 2027](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027) Nvidia · 26 August 2026
-7.  A [TSMC Reports Second Quarter EPS of NT$27.25](https://pr.tsmc.com/english/news/3326) TSMC · 16 July 2026
-8.  A [KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS](https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full) KLA Corporation · 28 July 2026
-9.  A [ASML reports €9.3 billion total net sales and €2.9 billion net income in Q2 2026](https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results) ASML · 15 July 2026
-10.  A [Lam Research Corporation Reports Financial Results for the Quarter Ended June 28, 2026](https://newsroom.lamresearch.com/2026-07-29-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-June-28,-2026) Lam Research · 29 July 2026
-11.  A [Applied Materials Announces Third Quarter 2026 Results](https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-third-quarter-2026-results) Applied Materials · 13 August 2026
-12.  A [Note: This document has been translated from a part of the Japanese original for reference purposes only.](https://www.ibiden.com/ir/items/tannshinn2026Q1.pdf) Ibiden · 3 August 2026
-13.  A [ASE Technology Holding Co., Ltd. Reports Its Unaudited Consolidated Financial Results for the Second Quarter of 2026](https://www.prnewswire.com/news-releases/ase-technology-holding-co-ltd-reports-its-unaudited-consolidated-financial-results-for-the-second-quarter-of-2026-302838714.html) PR Newswire · 30 July 2026
-14.  A [AMKOR TECHNOLOGY, INC., Form 8-K current report for the period ended 2026-07-27 (8-K)](https://www.sec.gov/Archives/edgar/data/0001047127/000104712726000043/amkr6302026erex-991.htm) U.S. Securities and Exchange Commission (filing by AMKOR TECHNOLOGY, INC.) · 27 July 2026
-15.  A [SK hynix Announces 2Q26 Financial Results](https://news.skhynix.com/en/q2-2026-business-results/) SK hynix
-16.  A [Micron Technology, Inc. Reports Results for the Fourth Quarter and Full Year of Fiscal 2025](https://investors.micron.com/news/press-release/2025/Micron-Technology-Inc--Reports-Results-for-the-Fourth-Quarter-and-Full-Year-of-Fiscal-2025-09-23-2025/default.aspx) Micron Technology · 23 September 2025
-17.  A [Global Semiconductor Market Approaches $1T in 2026](https://www.wsts.org/76/103/Global-Semiconductor-Market-Approaches-1T-in-2026) World Semiconductor Trade Statistics
-18.  A [Global Annual Semiconductor Sales Increase 25.6% to $791.7 Billion in 2025 - Semiconductor Industry Association](https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/) Semiconductor Industry Association · 6 February 2026
-19.  A [SEMI Reports Global Semiconductor Equipment Billings Reached $135 Billion in 2025, Up 15% Year-on-Year](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025) SEMI · 7 April 2026
-20.  A [Hyperscaler capex has quadrupled since GPT-4's release](https://epoch.ai/data-insights/hyperscaler-capex-trend) Epoch AI · 26 February 2026
-21.  A [System Hardware & Components](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html) Nvidia
+--}{++{"author":"James's AI","timestamp":1790597167170}@@remember" tone="green"}
+++}-{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}A B200 costs about $6,400 to build and sells for $30,000 to $40,000.
+-{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}The stacked memory is the most expensive part, about 45 percent of the cost.
+-{--{"author":"James's AI","timestamp":1790597167170}@@   --}{++{"author":"James's AI","timestamp":1790597167170}@@ ++}Packaging costs more than the logic chips, because a failed package throws away everything inside it.{++{"author":"James's AI","timestamp":1790597167170}@@
+:::++}
+
+{--{"author":"James's AI","timestamp":1790597167170}@@**Sources (21)**
+
+--}{++{"author":"James's AI","timestamp":1790597167170}@@:::callout {title="Sources (21)" tone="neutral" collapse="closed"}
+++}1.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [NVIDIA's B200 costs around $6,400 to {--{"author":"James's AI","timestamp":1790597167170}@@produce](https://epoch.ai/data-insights/b200-cost-breakdown)--}{++{"author":"James's AI","timestamp":1790597167170}@@produce](https://epoch.ai/data-insights/b200-cost-breakdown).++} Epoch AI · 10 December {--{"author":"James's AI","timestamp":1790597167170}@@2025--}{++{"author":"James's AI","timestamp":1790597167170}@@2025. Tier A.++}
+2.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [NVIDIA Blackwell {--{"author":"James's AI","timestamp":1790597167170}@@Architecture](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/)--}{++{"author":"James's AI","timestamp":1790597167170}@@Architecture](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/).++} Nvidia · 18 December {--{"author":"James's AI","timestamp":1790597167170}@@2025--}{++{"author":"James's AI","timestamp":1790597167170}@@2025. Tier A.++}
+3.{--{"author":"James's AI","timestamp":1790597167170}@@  B--} [Vera Rubin NVL72 vs GB200 NVL72? Inference TCO & Architecture {--{"author":"James's AI","timestamp":1790597167170}@@Analysis](https://inferencex.semianalysis.com/blog/vera-rubin-nvl72-vs-gb200-nvl72-inference)--}{++{"author":"James's AI","timestamp":1790597167170}@@Analysis](https://inferencex.semianalysis.com/blog/vera-rubin-nvl72-vs-gb200-nvl72-inference).++} SemiAnalysis · 23 July {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier B.++}
+4.{--{"author":"James's AI","timestamp":1790597167170}@@  B--} [100,000 H100 Clusters: Power, Network Topology, Ethernet vs InfiniBand, Reliability, Failures, {--{"author":"James's AI","timestamp":1790597167170}@@Checkpointing](https://newsletter.semianalysis.com/p/100000-h100-clusters-power-network)--}{++{"author":"James's AI","timestamp":1790597167170}@@Checkpointing](https://newsletter.semianalysis.com/p/100000-h100-clusters-power-network).++} SemiAnalysis · 17 June {--{"author":"James's AI","timestamp":1790597167170}@@2024--}{++{"author":"James's AI","timestamp":1790597167170}@@2024. Tier B.++}
+5.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [Micron Technology, Inc. Reports Record Results for the Third Quarter of Fiscal {--{"author":"James's AI","timestamp":1790597167170}@@2026](https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Results-for-the-Third-Quarter-of-Fiscal-2026/default.aspx)--}{++{"author":"James's AI","timestamp":1790597167170}@@2026](https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Results-for-the-Third-Quarter-of-Fiscal-2026/default.aspx).++} Micron Technology · 24 June {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
+6.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [NVIDIA Announces Financial Results for Second Quarter Fiscal {--{"author":"James's AI","timestamp":1790597167170}@@2027](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027)--}{++{"author":"James's AI","timestamp":1790597167170}@@2027](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027).++} Nvidia · 26 August {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
+7.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [TSMC Reports Second Quarter EPS of {--{"author":"James's AI","timestamp":1790597167170}@@NT$27.25](https://pr.tsmc.com/english/news/3326)--}{++{"author":"James's AI","timestamp":1790597167170}@@NT$27.25](https://pr.tsmc.com/english/news/3326).++} TSMC · 16 July {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
+8.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR {--{"author":"James's AI","timestamp":1790597167170}@@RESULTS](https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full)--}{++{"author":"James's AI","timestamp":1790597167170}@@RESULTS](https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full).++} KLA Corporation · 28 July {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
+9.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [ASML reports €9.3 billion total net sales and €2.9 billion net income in Q2 {--{"author":"James's AI","timestamp":1790597167170}@@2026](https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results)--}{++{"author":"James's AI","timestamp":1790597167170}@@2026](https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results).++} ASML · 15 July {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
+10.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [Lam Research Corporation Reports Financial Results for the Quarter Ended June 28, {--{"author":"James's AI","timestamp":1790597167170}@@2026](https://newsroom.lamresearch.com/2026-07-29-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-June-28,-2026)--}{++{"author":"James's AI","timestamp":1790597167170}@@2026](https://newsroom.lamresearch.com/2026-07-29-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-June-28,-2026).++} Lam Research · 29 July {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
+11.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [Applied Materials Announces Third Quarter 2026 {--{"author":"James's AI","timestamp":1790597167170}@@Results](https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-third-quarter-2026-results)--}{++{"author":"James's AI","timestamp":1790597167170}@@Results](https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-third-quarter-2026-results).++} Applied Materials · 13 August {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
+12.{--{"author":"James's AI","timestamp":1790597167170}@@  A [Note:--}{++{"author":"James's AI","timestamp":1790597167170}@@ [Note :++} This document has been translated from a part of the Japanese original for reference purposes {--{"author":"James's AI","timestamp":1790597167170}@@only.](https://www.ibiden.com/ir/items/tannshinn2026Q1.pdf)--}{++{"author":"James's AI","timestamp":1790597167170}@@only.](https://www.ibiden.com/ir/items/tannshinn2026Q1.pdf).++} Ibiden · 3 August {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
+13.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [ASE Technology Holding Co., Ltd. Reports Its Unaudited Consolidated Financial Results for the Second Quarter of {--{"author":"James's AI","timestamp":1790597167170}@@2026](https://www.prnewswire.com/news-releases/ase-technology-holding-co-ltd-reports-its-unaudited-consolidated-financial-results-for-the-second-quarter-of-2026-302838714.html)--}{++{"author":"James's AI","timestamp":1790597167170}@@2026](https://www.prnewswire.com/news-releases/ase-technology-holding-co-ltd-reports-its-unaudited-consolidated-financial-results-for-the-second-quarter-of-2026-302838714.html).++} PR Newswire · 30 July {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
+14.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [AMKOR TECHNOLOGY, INC., Form 8-K current report for the period ended 2026-07-27 {--{"author":"James's AI","timestamp":1790597167170}@@(8-K)](https://www.sec.gov/Archives/edgar/data/0001047127/000104712726000043/amkr6302026erex-991.htm)--}{++{"author":"James's AI","timestamp":1790597167170}@@(8-K)](https://www.sec.gov/Archives/edgar/data/0001047127/000104712726000043/amkr6302026erex-991.htm).++} U.S. Securities and Exchange Commission (filing by AMKOR TECHNOLOGY, INC.) · 27 July {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
+15.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [SK hynix Announces 2Q26 Financial {--{"author":"James's AI","timestamp":1790597167170}@@Results](https://news.skhynix.com/en/q2-2026-business-results/)--}{++{"author":"James's AI","timestamp":1790597167170}@@Results](https://news.skhynix.com/en/q2-2026-business-results/).++} SK {--{"author":"James's AI","timestamp":1790597167170}@@hynix--}{++{"author":"James's AI","timestamp":1790597167170}@@hynix. Tier A.++}
+16.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [Micron Technology, Inc. Reports Results for the Fourth Quarter and Full Year of Fiscal {--{"author":"James's AI","timestamp":1790597167170}@@2025](https://investors.micron.com/news/press-release/2025/Micron-Technology-Inc--Reports-Results-for-the-Fourth-Quarter-and-Full-Year-of-Fiscal-2025-09-23-2025/default.aspx)--}{++{"author":"James's AI","timestamp":1790597167170}@@2025](https://investors.micron.com/news/press-release/2025/Micron-Technology-Inc--Reports-Results-for-the-Fourth-Quarter-and-Full-Year-of-Fiscal-2025-09-23-2025/default.aspx).++} Micron Technology · 23 September {--{"author":"James's AI","timestamp":1790597167170}@@2025--}{++{"author":"James's AI","timestamp":1790597167170}@@2025. Tier A.++}
+17.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [Global Semiconductor Market Approaches $1T in {--{"author":"James's AI","timestamp":1790597167170}@@2026](https://www.wsts.org/76/103/Global-Semiconductor-Market-Approaches-1T-in-2026)--}{++{"author":"James's AI","timestamp":1790597167170}@@2026](https://www.wsts.org/76/103/Global-Semiconductor-Market-Approaches-1T-in-2026).++} World Semiconductor Trade {--{"author":"James's AI","timestamp":1790597167170}@@Statistics--}{++{"author":"James's AI","timestamp":1790597167170}@@Statistics. Tier A.++}
+18.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [Global Annual Semiconductor Sales Increase 25.6% to $791.7 Billion in 2025 - Semiconductor Industry {--{"author":"James's AI","timestamp":1790597167170}@@Association](https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/)--}{++{"author":"James's AI","timestamp":1790597167170}@@Association](https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/).++} Semiconductor Industry Association · 6 February {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
+19.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [SEMI Reports Global Semiconductor Equipment Billings Reached $135 Billion in 2025, Up 15% {--{"author":"James's AI","timestamp":1790597167170}@@Year-on-Year](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025)--}{++{"author":"James's AI","timestamp":1790597167170}@@Year-on-Year](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025).++} SEMI · 7 April {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
+20.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [Hyperscaler capex has quadrupled since GPT-4's {--{"author":"James's AI","timestamp":1790597167170}@@release](https://epoch.ai/data-insights/hyperscaler-capex-trend)--}{++{"author":"James's AI","timestamp":1790597167170}@@release](https://epoch.ai/data-insights/hyperscaler-capex-trend).++} Epoch AI · 26 February {--{"author":"James's AI","timestamp":1790597167170}@@2026--}{++{"author":"James's AI","timestamp":1790597167170}@@2026. Tier A.++}
+21.{--{"author":"James's AI","timestamp":1790597167170}@@  A--} [System Hardware & {--{"author":"James's AI","timestamp":1790597167170}@@Components](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html) Nvidia--}{++{"author":"James's AI","timestamp":1790597167170}@@Components](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html). Nvidia. Tier A.
+:::++}
 
 ## Geopolitics ^geopolitics
 
