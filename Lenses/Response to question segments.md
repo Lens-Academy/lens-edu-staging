@@ -46,6 +46,15 @@ enforce-voice:: true
 assessment-instructions:: Check whether learner names claim and gives relevant objection.
 feedback-instructions:: State strongest part of response, then suggest one improvement.
 
+%% `force-feedback:: first`: feedback comes automatically on your first answer; after that, ask for it with "Get feedback". (`true` sends it on every answer; omitted means always on request.) %%
+
+#### Question: Open
+id:: 25aa9bd1-8963-49f4-9af3-aa1f417127d8
+content:: What is one thing you expect AI to change in your field within five years? Submit an answer: tutor feedback arrives automatically. Then click "Answer again" and submit once more: this time you get a "Get feedback" button instead.
+placeholder:: Name the change and why you expect it.
+force-feedback:: first
+feedback-instructions:: Name the most concrete part of the learner's prediction, then ask what evidence would change their mind. Keep it to three sentences.
+
 %%
 # Question: Rating
 `Question: Rating` collects numbered self-report. Smallest version uses default 1-to-5 scale. %%
