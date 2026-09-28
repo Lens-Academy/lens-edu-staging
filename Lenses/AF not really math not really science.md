@@ -8,7 +8,9 @@ tldr: What if the deepest AI safety problems can't be solved by experimenting on
 ---
 #### Text
 content::
-This perspective argues that we need a basic science of alignment. Without Agent Foundations, we are just fumbling in the dark. We need to understand the deep structure of goals and agency to ensure that a superintelligent system doesn't develop catastrophic instrumental goals.
+{++{"author":"Plex's AI","timestamp":1790617850783}@@%% COMMENTED OUT (AI slop):
+++}This perspective argues that we need a basic science of alignment. Without Agent Foundations, we are just fumbling in the dark. We need to understand the deep structure of goals and agency to ensure that a superintelligent system doesn't develop catastrophic instrumental goals.{++{"author":"Plex's AI","timestamp":1790617850783}@@
+%%++}
 
 #### Article
 source:: [[../articles/altair-agent-foundations-not-really-math-not-really-science]]
