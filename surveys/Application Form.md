@@ -163,11 +163,11 @@ content:: Other programs, or details you want to add (for example which BlueDot 
 key:: engagement_hours
 content:: Engagement hours in AI safety so far
 options::
-- Under 50 hours (about 1 week)
+- Under 50 hours (about 1 week full-time)
 - 50–100 hours (2–3 weeks full-time)
-- 100–200 hours (4–6 weeks)
-- 200–500 hours (6–12 weeks)
-- 500+ hours (13+ weeks)
+- 100–200 hours (4–6 weeks full-time)
+- 200–500 hours (6–12 weeks full-time)
+- 500+ hours (13+ weeks full-time)
 required:: true
 
 #### Rating
