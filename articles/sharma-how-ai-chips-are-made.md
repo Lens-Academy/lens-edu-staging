@@ -1981,7 +1981,7 @@ SK hynix (KR) **63.2%** Samsung (KR) **19.3%** Micron (US) **17.4%**
 
 Source: [SK hynix Form 424B4 prospectus, 10 July 2026, on IDC data](https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm)
 
-HBM market revenue, Bank of America estimate$B
+**Chart:** HBM market revenue, Bank of America estimate ($B)
 
 2025 34.6 2026 54.6
 
@@ -2006,41 +2006,41 @@ China's HBM maker is CXMT, and it is behind the three. That gap is closing from 
 -   **Thermal path** gets worse with every layer: the chip at the bottom runs hottest, and each one added above it makes the heat harder to get out.
 -   **Qualification** means passing Nvidia's data-rate test, above 10 Gb/s, against JEDEC's 8 [5](https://news.skhynix.com/en/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/).
 
-Card 1 of 4Question
+{--{"author":"James's AI","timestamp":1790594096711}@@Card--}{++{"author":"James's AI","timestamp":1790594096711}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594096711}@@4Question--}{++{"author":"James's AI","timestamp":1790594096711}@@4 · Question**++}
 
 What is HBM?
 
-Card 1 of 4Answer
+{--{"author":"James's AI","timestamp":1790594097637}@@Card--}{++{"author":"James's AI","timestamp":1790594097637}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594097637}@@4Answer--}{++{"author":"James's AI","timestamp":1790594097637}@@4 · Answer**++}
 
 Memory chips stacked into a cube beside the processor and wired to pass data fast.
 
 Copper-filled holes run straight down through the stack, which holds up to sixteen chips. [[#^how-it-works-10|Reread: How it works]]
 
-Card 2 of 4Question
+{--{"author":"James's AI","timestamp":1790594098562}@@Card--}{++{"author":"James's AI","timestamp":1790594098562}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594098562}@@4Question--}{++{"author":"James's AI","timestamp":1790594098562}@@4 · Question**++}
 
 Why does an AI chip need such fast memory?
 
-Card 2 of 4Answer
+{--{"author":"James's AI","timestamp":1790594099414}@@Card--}{++{"author":"James's AI","timestamp":1790594099414}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594099414}@@4Answer--}{++{"author":"James's AI","timestamp":1790594099414}@@4 · Answer**++}
 
 For each word it writes, it reads the whole model from memory.
 
 Memory speed and size usually set how many users one chip can serve. [[#^how-it-works-10|Reread: How it works]]
 
-Card 3 of 4Question
+{--{"author":"James's AI","timestamp":1790594100201}@@Card--}{++{"author":"James's AI","timestamp":1790594100201}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594100201}@@4Question--}{++{"author":"James's AI","timestamp":1790594100201}@@4 · Question**++}
 
 Who makes HBM?
 
-Card 3 of 4Answer
+{--{"author":"James's AI","timestamp":1790594101094}@@Card--}{++{"author":"James's AI","timestamp":1790594101094}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594101094}@@4Answer--}{++{"author":"James's AI","timestamp":1790594101094}@@4 · Answer**++}
 
 Three firms: SK hynix, Samsung and Micron.
 
 The two Korean firms sold 82.5 percent of it in 2025. A fourth maker would need both the newest DRAM and a line that stacks it. [[#^who-makes-it-10|Reread: Who makes it]]
 
-Card 4 of 4Question
+{--{"author":"James's AI","timestamp":1790594102005}@@Card--}{++{"author":"James's AI","timestamp":1790594102005}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594102005}@@4Question--}{++{"author":"James's AI","timestamp":1790594102005}@@4 · Question**++}
 
 Can China get advanced HBM?
 
-Card 4 of 4Answer
+{--{"author":"James's AI","timestamp":1790594102984}@@Card--}{++{"author":"James's AI","timestamp":1790594102984}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594102984}@@4Answer--}{++{"author":"James's AI","timestamp":1790594102984}@@4 · Answer**++}
 
 No. US export controls cover every stack in production, and no Chinese firm makes it in volume.
 
@@ -2053,7 +2053,7 @@ CXMT is the one Chinese firm that could plausibly get there. [[#^the-chokepoint-
 -   Only SK hynix, Samsung and Micron make HBM.
 -   US export controls cover every HBM stack in production, and no Chinese firm makes it in volume.
 
-Sources (16)
+**Sources (16)**
 
 1.  A [High-bandwidth memory (HBM)](https://www.micron.com/products/memory/hbm) Micron Technology
 2.  A [JEDEC® and Industry Leaders Collaborate to Release JESD270-4 HBM4 Standard: Advancing Bandwidth, Efficiency, and Capacity for AI and HPC](https://www.jedec.org/news/pressreleases/jedec%C2%AE-and-industry-leaders-collaborate-release-jesd270-4-hbm4-standard-advancing) JEDEC Solid State Technology Association · 16 April 2025
@@ -2076,7 +2076,7 @@ Sources (16)
 
 Lithography stopped being the limit on chip size in 2022. The limit now is how large an interposer, the silicon base plate under the chips, TSMC can build, and through 2025 how many it could build a month.
 
-1,402 words / 6 minSpecimen: CoWoS package, exploded
+{--{"author":"James's AI","timestamp":1790594105097}@@1,402--}{++{"author":"James's AI","timestamp":1790594105097}@@_1,402++} words / 6 {--{"author":"James's AI","timestamp":1790594105097}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594105097}@@min · Interactive 3D Specimen:++} CoWoS package, exploded{++{"author":"James's AI","timestamp":1790594105097}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#advanced-packaging))_++}
 
 In plain terms
 
