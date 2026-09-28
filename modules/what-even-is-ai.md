@@ -38,6 +38,7 @@ source:: ![[../Lenses/Janus' Simulators - Scott Alexander]]
 source:: ![[../Lenses/nostalgebraist-the-void]]
 
 # Lens:
+optional:: true
 source:: ![[../Lenses/byrnes-foom-doom-1-brain-in-a-box-in-a-basement]]
 
 # Lens:
