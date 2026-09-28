@@ -8,7 +8,9 @@ title: "A new Moore's Law for AI agents"
 ---
 #### Text
 content::
+%% COMMENTED OUT (AI slop):
 We opened with feedback loops in principle. Here is one measured in practice: how long a task an AI agent can finish on its own, tracked from 2019 to today.
+%%
 
 #### Article
 source:: [[../articles/digest-a-new-moores-law-for-ai-agents-ai-digest]]
