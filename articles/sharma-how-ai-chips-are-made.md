@@ -2244,11 +2244,11 @@ Too few packaging lines had been built.
 
 The methods already worked. By March 2026 the limit had moved back to making wafers. [[#^the-chokepoint-11|Reread: The chokepoint]]
 
-Card 4 of 4Question
+{--{"author":"James's AI","timestamp":1790594135510}@@Card--}{++{"author":"James's AI","timestamp":1790594135510}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594135510}@@4Question--}{++{"author":"James's AI","timestamp":1790594135510}@@4 · Question**++}
 
 Can China or the United States package AI accelerators at volume?
 
-Card 4 of 4Answer
+{--{"author":"James's AI","timestamp":1790594136428}@@Card--}{++{"author":"James's AI","timestamp":1790594136428}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594136428}@@4Answer--}{++{"author":"James's AI","timestamp":1790594136428}@@4 · Answer**++}
 
 Not yet.
 
@@ -2261,7 +2261,7 @@ China packages chips at scale, but almost none on the silicon slab AI chips need
 -   Packaging limited AI chip output in 2024 and 2025 because too few lines had been built.
 -   Neither China nor the United States packages AI accelerators at volume yet.
 
-Sources (19)
+**Sources (19)**
 
 1.  A [TWINSCAN NXE:3400C](https://www.asml.com/en/products/euv-lithography-systems/twinscan-nxe3400c) ASML
 2.  A [TSMC, CoWoS technology page](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm) TSMC
@@ -2287,7 +2287,7 @@ Sources (19)
 
 A Japanese food company makes 95 percent of the insulating film inside high-end chip packages, and a Japanese textile company weaves the glass cloth beneath it.
 
-1,356 words / 6 minSpecimen: substrate layers
+{--{"author":"James's AI","timestamp":1790594139009}@@1,356--}{++{"author":"James's AI","timestamp":1790594139009}@@_1,356++} words / 6 {--{"author":"James's AI","timestamp":1790594139009}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594139009}@@min · Interactive 3D Specimen:++} substrate layers{++{"author":"James's AI","timestamp":1790594139009}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#substrates-and-pcbs))_++}
 
 In plain terms
 
@@ -2297,16 +2297,16 @@ A package substrate is the adapter between a chip and the circuit board under it
 
 TSMC says packaging capacity already caps what its customers can ship. The two materials that make a substrate possible come from single Japanese suppliers: Ajinomoto puts its film at 95 percent of that market, and Nitto Boseki claims an overwhelming advantage in the glass cloth beneath it. Substrate plants in Japan, Taiwan and Korea are spending billions, but film and glass cloth add capacity more slowly than GPU output grows. Glass cores fix the physics eventually; on Intel's and Samsung's own dates, they do not fix 2027.
 
-Concentration **Extreme**
+Concentration: **Extreme**
 
-Substitutability **Hard** Rated on the insulating film inside the substrate: Ajinomoto supplies about 95 percent of it by its own count, and every substrate maker would have to re-approve a replacement layer by layer.
+Substitutability: **Hard**. Rated on the insulating film inside the substrate: Ajinomoto supplies about 95 percent of it by its own count, and every substrate maker would have to re-approve a replacement layer by layer.
 
-Price or market size **Ibiden alone is spending about JPY 500 billion on high-performance substrate capacity from fiscal 2026 to 2028, JPY 220 billion of it in the first phase**
+Price or market size: **Ibiden alone is spending about JPY 500 billion on high-performance substrate capacity from fiscal 2026 to 2028, JPY 220 billion of it in the first phase**
 
 Who leads
 
--   JPAjinomoto 95% of the world market for insulating film in high-end processor packages, on its own account
--   JPNitto Boseki Claims an overwhelming lead in low-expansion glass cloth
+-   {--{"author":"James's AI","timestamp":1790594144558}@@JPAjinomoto--}{++{"author":"James's AI","timestamp":1790594144558}@@JP · **Ajinomoto**:++} 95% of the world market for insulating film in high-end processor packages, on its own account
+-   {--{"author":"James's AI","timestamp":1790594145293}@@JPNitto Boseki--}{++{"author":"James's AI","timestamp":1790594145293}@@JP · **Nitto Boseki**:++} Claims an overwhelming lead in low-expansion glass cloth
 -   JPIbiden Says it wins close to 100% of each new generation of interposer substrates at launch
 -   TWUnimicron Build-up substrates were 52% of sales in Q2 2026
 -   KRSamsung Electro-Mechanics Package solution sales KRW 771.6bn in Q2 2026, up 37%
