@@ -27,7 +27,8 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading. Do it without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just finished reading the second section of "I Don't Want to Be Alarmist" (Chapter 12 of "If Anyone Builds It, Everyone Dies") and has written a free recall: everything they could remember without looking back at the text.
+force-feedback:: first
+feedback-instructions:: The student has just finished reading the second section of "I Don't Want to Be Alarmist" (Chapter 12 of "If Anyone Builds It, Everyone Dies") and has written a free recall: everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
 - The contrast with Chernobyl managers: AI executives acknowledge high probabilities of killing everyone yet continue anyway, leaving them "not in quite as much denial"
