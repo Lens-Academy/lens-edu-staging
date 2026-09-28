@@ -134,32 +134,32 @@ id:: 93cb3fdb-49d0-485e-9568-07cf17eeed1e
 content:: How would you rate your knowledge of AI safety topics before taking this course?
 scale:: 10
 labels::
-- No knowledge
-- Very little knowledge
-- Limited knowledge
-- Basic knowledge
-- Neutral midpoint
-- Working knowledge
-- Good knowledge
-- Strong knowledge
-- Very strong knowledge
-- Expert knowledge
+- No knowledge of these topics
+- Heard of a few terms
+- Know a few basic ideas
+- Could explain the basics
+- Know the main ideas, with gaps
+- Can follow expert discussions
+- Could explain most topics to a newcomer
+- Could discuss most topics with experts
+- Could teach this course
+- Expert in this field
 
 #### Question: Rating
 id:: 94027590-5a4f-428e-b5a4-59ce86f0eca9
 content:: How would you rate your knowledge of AI safety topics after taking this course?
 scale:: 10
 labels::
-- No knowledge
-- Very little knowledge
-- Limited knowledge
-- Basic knowledge
-- Neutral midpoint
-- Working knowledge
-- Good knowledge
-- Strong knowledge
-- Very strong knowledge
-- Expert knowledge
+- No knowledge of these topics
+- Heard of a few terms
+- Know a few basic ideas
+- Could explain the basics
+- Know the main ideas, with gaps
+- Can follow expert discussions
+- Could explain most topics to a newcomer
+- Could discuss most topics with experts
+- Could teach this course
+- Expert in this field
 
 #### Question: Rating
 id:: 649bd1a7-24d4-4f1f-892c-45eceb981292

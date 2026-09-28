@@ -134,32 +134,32 @@ id:: c3317ed4-b6ff-4fea-9f44-e6e6f724c0ad
 content:: How would you rate your knowledge of the theory of deep learning and its relation to alignment before taking this course?
 scale:: 10
 labels::
-- No knowledge
-- Very little knowledge
-- Limited knowledge
-- Basic knowledge
-- Neutral midpoint
-- Working knowledge
-- Good knowledge
-- Strong knowledge
-- Very strong knowledge
-- Expert knowledge
+- No knowledge of these topics
+- Heard of a few terms
+- Know a few basic ideas
+- Could explain the basics
+- Know the main ideas, with gaps
+- Can follow expert discussions
+- Could explain most topics to a newcomer
+- Could discuss most topics with experts
+- Could teach this course
+- Expert in this field
 
 #### Question: Rating
 id:: 4bf595b1-1c84-46af-81e9-489cd67f841a
 content:: How would you rate your knowledge of the theory of deep learning and its relation to alignment after taking this course?
 scale:: 10
 labels::
-- No knowledge
-- Very little knowledge
-- Limited knowledge
-- Basic knowledge
-- Neutral midpoint
-- Working knowledge
-- Good knowledge
-- Strong knowledge
-- Very strong knowledge
-- Expert knowledge
+- No knowledge of these topics
+- Heard of a few terms
+- Know a few basic ideas
+- Could explain the basics
+- Know the main ideas, with gaps
+- Can follow expert discussions
+- Could explain most topics to a newcomer
+- Could discuss most topics with experts
+- Could teach this course
+- Expert in this field
 
 #### Question: Rating
 id:: b06926fe-9608-403d-a92c-f136bbbf13d4
