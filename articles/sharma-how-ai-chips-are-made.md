@@ -2542,41 +2542,46 @@ CXMT is the one Chinese firm that could plausibly get there. [[#^the-chokepoint-
 
 Lithography stopped being the limit on chip size in 2022. The limit now is how large an interposer, the silicon base plate under the chips, TSMC can build, and through 2025 how many it could build a month.
 
-%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+{--{"author":"James's AI","timestamp":1790597114872}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
 
-{--{"author":"James's AI","timestamp":1790594105097}@@1,402--}{++{"author":"James's AI","timestamp":1790594105097}@@_1,402++} words / 6 {--{"author":"James's AI","timestamp":1790594105097}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594105097}@@min · Interactive 3D Specimen:++} CoWoS package, exploded{++{"author":"James's AI","timestamp":1790594105097}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#advanced-packaging))_++}
+1,402 --}{++{"author":"James's AI","timestamp":1790597114872}@@*1,402 ++}words / 6{--{"author":"James's AI","timestamp":1790597114872}@@ minSpecimen: CoWoS package, exploded
 
 **In plain terms**
 
-Packaging joins finished chips into one component and mounts them on a base, called a substrate, wired almost as finely as the chips themselves. A lithography machine, which prints a chip's circuits, can cover only a rectangle about the size of a postage stamp in one shot, and a modern accelerator needs more circuit than fits in one, so it cannot be one chip. It is made as several pieces, set side by side on a shared slab of silicon and wired together through it, with the stacked memory a few millimeters away. Slab, chips and base all expand at different rates when heated, so the package can warp and its joints crack. Getting that right in large numbers is hard enough that nearly every AI accelerator is packaged by TSMC, in Taiwan.
+--}{++{"author":"James's AI","timestamp":1790597114872}@@ min*
+
+:::callout {title="In plain terms" tone="neutral"}
+++}Packaging joins finished chips into one component and mounts them on a base, called a substrate, wired almost as finely as the chips themselves. A lithography machine, which prints a chip's circuits, can cover only a rectangle about the size of a postage stamp in one shot, and a modern accelerator needs more circuit than fits in one, so it cannot be one chip. It is made as several pieces, set side by side on a shared slab of silicon and wired together through it, with the stacked memory a few millimeters away. Slab, chips and base all expand at different rates when heated, so the package can warp and its joints crack. Getting that right in large numbers is hard enough that nearly every AI accelerator is packaged by TSMC, in Taiwan.{++{"author":"James's AI","timestamp":1790597114872}@@
+:::++}
 
 ### In short ^in-short-11
 
 Advanced packaging capped AI chip output through 2024 and 2025: the physics was solved and the lines were not built. On Epoch AI's estimate Nvidia alone took 60.3 percent of the world's CoWoS in 2025, and four American designers took around 90 percent [9](https://epoch.ai/data-insights/ai-chip-supply-chain-constraints). By March 2026 the binding constraint had moved back to front-end wafers [10](https://newsletter.semianalysis.com/p/the-great-ai-silicon-shortage). The concentration is unchanged: China can package chips but not the 2.5D structures AI accelerators need, and the American alternatives do not start until 2028.
 
-Concentration: **Extreme**
+{--{"author":"James's AI","timestamp":1790597114872}@@Concentration: **Extreme**--}{++{"author":"James's AI","timestamp":1790597114872}@@:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** Extreme++}
 
-Substitutability: **Moderate**. Intel's EMIB can do the same job as TSMC's CoWoS, and the real shortage is in making enough working packages at the volume Nvidia orders.
+{--{"author":"James's AI","timestamp":1790597114872}@@Substitutability: **Moderate**.--}{++{"author":"James's AI","timestamp":1790597114872}@@**Substitutability:** Moderate.++} Intel's EMIB can do the same job as TSMC's CoWoS, and the real shortage is in making enough working packages at the volume Nvidia orders.
 
-Price or market size: **No public wafer counts**. TSMC told investors CoWoS capacity would grow about 60% a year, and keeps adding to that, but will not publish the total. Epoch AI estimates Nvidia alone used 60.3% of the world's CoWoS capacity in 2025
+{--{"author":"James's AI","timestamp":1790597114872}@@Price--}{++{"author":"James's AI","timestamp":1790597114872}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597114872}@@size: **No--}{++{"author":"James's AI","timestamp":1790597114872}@@size:** No++} public wafer {--{"author":"James's AI","timestamp":1790597114872}@@counts**.--}{++{"author":"James's AI","timestamp":1790597114872}@@counts.++} TSMC told investors CoWoS capacity would grow about 60% a year, and keeps adding to that, but will not publish the total. Epoch AI estimates Nvidia alone used 60.3% of the world's CoWoS capacity in 2025
 
 **Who leads**
 
--   {--{"author":"James's AI","timestamp":1790594110903}@@TWTSMC--}{++{"author":"James's AI","timestamp":1790594110903}@@TW · **TSMC**:++} Almost all CoWoS for leading AI accelerators
--   {--{"author":"James's AI","timestamp":1790594111908}@@TWASE Technology--}{++{"author":"James's AI","timestamp":1790594111908}@@TW · **ASE Technology**:++} NT$645.4B revenue, 2025; the largest outsourced assembly and test firm
--   {--{"author":"James's AI","timestamp":1790594112862}@@USAmkor--}{++{"author":"James's AI","timestamp":1790594112862}@@US · **Amkor**:++} $6.71B net sales, 2025; the largest American assembly and test firm
--   {--{"author":"James's AI","timestamp":1790594114009}@@CNJCET--}{++{"author":"James's AI","timestamp":1790594114009}@@CN · **JCET**:++} RMB 35.96B revenue, 2024; the largest Chinese assembly and test firm
--   {--{"author":"James's AI","timestamp":1790594114907}@@SGASMPT--}{++{"author":"James's AI","timestamp":1790594114907}@@SG · **ASMPT**:++} $532.1M advanced packaging revenue, 2025; thermocompression bonders
+-{--{"author":"James's AI","timestamp":1790597114872}@@   TWTSMC--}{++{"author":"James's AI","timestamp":1790597114872}@@ **TSMC** (TW):++} Almost all CoWoS for leading AI accelerators
+-{--{"author":"James's AI","timestamp":1790597114872}@@   TWASE Technology--}{++{"author":"James's AI","timestamp":1790597114872}@@ **ASE Technology** (TW):++} NT$645.4B revenue, 2025; the largest outsourced assembly and test firm
+-{--{"author":"James's AI","timestamp":1790597114872}@@   USAmkor--}{++{"author":"James's AI","timestamp":1790597114872}@@ **Amkor** (US):++} $6.71B net sales, 2025; the largest American assembly and test firm
+-{--{"author":"James's AI","timestamp":1790597114872}@@   CNJCET--}{++{"author":"James's AI","timestamp":1790597114872}@@ **JCET** (CN):++} RMB 35.96B revenue, 2024; the largest Chinese assembly and test firm
+-{--{"author":"James's AI","timestamp":1790597114872}@@   SGASMPT--}{++{"author":"James's AI","timestamp":1790597114872}@@ **ASMPT** (SG):++} $532.1M advanced packaging revenue, 2025; thermocompression bonders
 
 **Where it is made**
 
--   {--{"author":"James's AI","timestamp":1790594116747}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790594116747}@@TW · **Taiwan**:++} TSMC AP fabs and the OSAT cluster; almost all 2.5D capacity for AI accelerators
--   {--{"author":"James's AI","timestamp":1790594117620}@@USUnited States--}{++{"author":"James's AI","timestamp":1790594117620}@@US · **United States**:++} Amkor Peoria, Arizona from 2028; two TSMC advanced packaging plants planned in Arizona
--   {--{"author":"James's AI","timestamp":1790594118319}@@CNChina--}{++{"author":"James's AI","timestamp":1790594118319}@@CN · **China**:++} JCET, Tongfu and HT-Tech, strong in conventional assembly and test, weak in 2.5D
--   {--{"author":"James's AI","timestamp":1790594120048}@@NLNetherlands--}{++{"author":"James's AI","timestamp":1790594120048}@@NL · **Netherlands**:++} Besi hybrid and die bonders
--   {--{"author":"James's AI","timestamp":1790594120963}@@JPJapan--}{++{"author":"James's AI","timestamp":1790594120963}@@JP · **Japan**:++} Disco grinders and dicers; TEL and Shibaura bonding tools
+-{--{"author":"James's AI","timestamp":1790597114872}@@   TWTaiwan--}{++{"author":"James's AI","timestamp":1790597114872}@@ **Taiwan**:++} TSMC AP fabs and the OSAT cluster; almost all 2.5D capacity for AI accelerators
+-{--{"author":"James's AI","timestamp":1790597114872}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597114872}@@ **United States**:++} Amkor Peoria, Arizona from 2028; two TSMC advanced packaging plants planned in Arizona
+-{--{"author":"James's AI","timestamp":1790597114872}@@   CNChina--}{++{"author":"James's AI","timestamp":1790597114872}@@ **China**:++} JCET, Tongfu and HT-Tech, strong in conventional assembly and test, weak in 2.5D
+-{--{"author":"James's AI","timestamp":1790597114872}@@   NLNetherlands--}{++{"author":"James's AI","timestamp":1790597114872}@@ **Netherlands**:++} Besi hybrid and die bonders
+-{--{"author":"James's AI","timestamp":1790597114872}@@   JPJapan--}{++{"author":"James's AI","timestamp":1790597114872}@@ **Japan**:++} Disco grinders and dicers; TEL and Shibaura bonding tools
 
-Why substitution is possible
+{--{"author":"James's AI","timestamp":1790597114872}@@Why--}{++{"author":"James's AI","timestamp":1790597114872}@@**Why++} substitution is {--{"author":"James's AI","timestamp":1790597114872}@@possible--}{++{"author":"James's AI","timestamp":1790597114872}@@possible**++}
 
 None of the packaging steps is unusual, and Intel's EMIB does the same job when TSMC's CoWoS is sold out. The hard part is volume. A newcomer has to buy enough bonding machines and run enough practice lots to make the interposer, the silicon base plate under the chips, at 5.5 times the area a scanner prints in one shot. It then has to attach the memory stacks, have them work, and do all of that at the volume Nvidia alone orders. Amkor's plant in Peoria, Arizona shows the timing: production starts in early 2028, so the wait is two to five years.
 
@@ -2586,7 +2591,8 @@ China is far stronger at packaging and testing chips than at making them. JCET a
 
 **Where the US stands**
 
-No firm yet does CoWoS-class packaging in volume in the United States. Amkor is building a $7B packaging and test plant in Peoria, Arizona, with up to $407M of CHIPS Act money, and production starts in early 2028.
+No firm yet does CoWoS-class packaging in volume in the United States. Amkor is building a $7B packaging and test plant in Peoria, Arizona, with up to $407M of CHIPS Act money, and production starts in early 2028.{++{"author":"James's AI","timestamp":1790597114872}@@
+:::++}
 
 A lithography scanner prints a rectangle 26 mm by 33 mm, or 858 mm2, in one exposure [1](https://www.asml.com/en/products/euv-lithography-systems/twinscan-nxe3400c). Every AI accelerator worth buying is bigger than that. Packaging is the stage that lets an accelerator be larger than that rectangle, and it decides how much larger.
 
@@ -2594,11 +2600,11 @@ A lithography scanner prints a rectangle 26 mm by 33 mm, or 858 mm2, in one expo
 
 High bandwidth memory gives a second reason to split the package: its 1,024-bit or 2,048-bit connection, that many wires at once, is too wide for a resin base board to carry, so the memory sits beside the logic on a shared silicon carrier, the interposer.
 
-{--{"author":"James's AI","timestamp":1790594486350}@@![](https://chipsupplychain.org/media/package-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594486350}@@![The parts of an AI accelerator](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-package.jpg)++}{++{"author":"James's AI","timestamp":1790594891017}@@
+{--{"author":"James's AI","timestamp":1790594486350}@@![](https://chipsupplychain.org/media/package-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594486350}@@![The parts of an AI accelerator](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-package.jpg)++}{--{"author":"James's AI","timestamp":1790597114872}@@
 
-%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%++}
+**Figure: The --}{++{"author":"James's AI","timestamp":1790597114872}@@
 
-**Figure: The parts of an AI accelerator.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#advanced-packaging)); above is its last frame. Its steps:
+*The ++}parts of an AI {--{"author":"James's AI","timestamp":1790597114872}@@accelerator.** An animation on the live site ([watch it--}{++{"author":"James's AI","timestamp":1790597114872}@@accelerator. The last frame of an animation++} on{--{"author":"James's AI","timestamp":1790597114872}@@ chipsupplychain.org](https://chipsupplychain.org/#advanced-packaging)); above is its last frame.--}{++{"author":"James's AI","timestamp":1790597114872}@@ the original site.++} Its {--{"author":"James's AI","timestamp":1790597114872}@@steps:--}{++{"author":"James's AI","timestamp":1790597114872}@@steps:*++}
 
 1. **Package base.** An AI chip is built from several parts. First comes the package base, a layered board that connects everything to the circuit board below.
 2. **Silicon base.** On it sits a thin slab of silicon, called an interposer. Its fine wiring joins everything placed on top.
@@ -2606,9 +2612,9 @@ High bandwidth memory gives a second reason to split the package: its 1,024-bit 
 4. **Memory.** Eight stacks of memory go beside them, a few millimeters away. They hold the AI model’s weights and the record of each conversation so far.
 5. **One package.** Together they make one AI accelerator. Nearly every one is put together by TSMC, in Taiwan.
 
-_Simplified view of a two-die, eight-stack accelerator. Footprints follow the sizes in this chapter and chapter 10; heights are exaggerated so each layer shows._
+{--{"author":"James's AI","timestamp":1790597114872}@@_Simplified--}{++{"author":"James's AI","timestamp":1790597114872}@@*Simplified++} view of a two-die, eight-stack accelerator. Footprints follow the sizes in this chapter and chapter 10; heights are exaggerated so each layer {--{"author":"James's AI","timestamp":1790597114872}@@shows._
 
-The parts of an AI accelerator
+The parts of an AI accelerator--}{++{"author":"James's AI","timestamp":1790597114872}@@shows.*++}
 
 The name CoWoS says the order: chip onto wafer, then wafer onto substrate. TSMC makes a thin silicon wafer carrying wiring and vertical copper vias, metal-filled holes that join one layer of wiring to the next, but no transistors. It bonds the logic dies and memory stacks face down onto that wafer with microbumps, dots of solder 30 to 40 microns apart, about a third of a hair's width, each dot one electrical joint. Then it cuts the interposer out of the wafer, attaches it to the resin substrate, and the substrate goes onto its board.
 
@@ -2617,7 +2623,7 @@ Each of those packaging steps is ordinary on its own. But one cracked joint scra
 ### Variants and trade-offs ^variants-and-trade-offs-11
 
 | Family | Carrier | Size limit | Used for |
-| --- | --- | --- | --- |
+{--{"author":"James's AI","timestamp":1790597114872}@@| --- | --- | --- | --- |--}{++{"author":"James's AI","timestamp":1790597114872}@@|---|---|---|---|++}
 | CoWoS-S | Full silicon interposer | 3.3x reticle, about 2,700 mm2 | H100-class parts |
 | CoWoS-R | Resin interposer with fine redistribution wiring | Above 3.3x reticle | Cost-sensitive, fewer HBM stacks |
 | CoWoS-L | Redistribution wiring with local silicon bridges | 5.5x reticle in production, 9.5x in development | Blackwell, Rubin |
@@ -2644,9 +2650,17 @@ In October 2025 Wei would still say only that TSMC would add capacity again in 2
 
 Epoch AI weighs each designer's component use against world supply and puts Nvidia at 60.3 percent of all CoWoS in 2025, with a 90 percent confidence interval of 56.5 to 64.3; Google took 13.5, AMD 8.4 and Amazon 7.4 [9](https://epoch.ai/data-insights/ai-chip-supply-chain-constraints). Those four absorbed around 90 percent of all CoWoS and all HBM by value while taking about 12 percent of the world's advanced logic wafers, which is why packaging ran out and logic did not.
 
-**Chart:** Who consumed the world's CoWoS capacity, 2025 (%)
+**Chart:** Who consumed the world's CoWoS capacity, 2025{--{"author":"James's AI","timestamp":1790597114872}@@ (%)
 
-Nvidia **60.3%** Google **13.5%** AMD **8.4%** Amazon **7.4%** Everyone else **10.4%**
+--}{++{"author":"James's AI","timestamp":1790597114872}@@
+
+| | % |
+|---|---:|
+| ++}Nvidia {--{"author":"James's AI","timestamp":1790597114872}@@**60.3%**--}{++{"author":"James's AI","timestamp":1790597114872}@@| 60.3 |
+|++} Google {--{"author":"James's AI","timestamp":1790597114872}@@**13.5%** --}{++{"author":"James's AI","timestamp":1790597114872}@@| 13.5 |
+| ++}AMD {--{"author":"James's AI","timestamp":1790597114872}@@**8.4%**--}{++{"author":"James's AI","timestamp":1790597114872}@@| 8.4 |
+|++} Amazon {--{"author":"James's AI","timestamp":1790597114872}@@**7.4%** --}{++{"author":"James's AI","timestamp":1790597114872}@@| 7.4 |
+| ++}Everyone else {--{"author":"James's AI","timestamp":1790597114872}@@**10.4%**--}{++{"author":"James's AI","timestamp":1790597114872}@@| 10.4 |++}
 
 Source: [Epoch AI, advanced packaging and HBM were the bottlenecks on AI chip production in 2025](https://epoch.ai/data-insights/ai-chip-supply-chain-constraints)
 
@@ -2654,9 +2668,16 @@ SemiAnalysis reported in March 2026 that front-end wafers are now the dominant b
 
 ### Who makes it ^who-makes-it-11
 
-{++{"author":"James's AI","timestamp":1790594125562}@@**Chart:** ++}CoWoS interposer size on TSMC's {--{"author":"James's AI","timestamp":1790594125562}@@roadmapreticles--}{++{"author":"James's AI","timestamp":1790594125562}@@roadmap (reticles)++}
+{++{"author":"James's AI","timestamp":1790594125562}@@**Chart:** ++}CoWoS interposer size on TSMC's {--{"author":"James's AI","timestamp":1790597114872}@@roadmapreticles
 
-2024, CoWoS-L 3.5 2026, in production 5.5 In development 9.5 2028 14
+--}{++{"author":"James's AI","timestamp":1790597114872}@@roadmap
+
+| | reticles |
+|---|---:|
+| ++}2024, CoWoS-L {++{"author":"James's AI","timestamp":1790597114872}@@| ++}3.5 {++{"author":"James's AI","timestamp":1790597114872}@@|
+| ++}2026, in production {++{"author":"James's AI","timestamp":1790597114872}@@| ++}5.5 {++{"author":"James's AI","timestamp":1790597114872}@@|
+| ++}In development {++{"author":"James's AI","timestamp":1790597114872}@@| ++}9.5 {++{"author":"James's AI","timestamp":1790597114872}@@|
+| ++}2028 {++{"author":"James's AI","timestamp":1790597114872}@@| ++}14{++{"author":"James's AI","timestamp":1790597114872}@@ |++}
 
 Source: [TSMC 2025 annual report and 2026 technology symposium](https://pr.tsmc.com/english/news/3302)
 
@@ -2664,17 +2685,23 @@ The word packaging covers two industries. TSMC does the 2.5D work, chips side by
 
 The tools are a narrower chokepoint than the assembly houses.
 
--   **Thermocompression bonding.** Pressing dies together under heat and force. ASMPT's advanced packaging revenue reached $532.1 million in 2025, with the bonder line up about 146 percent; it targets 35 to 40 percent of a market it puts at $1.6 billion by 2028 [13](https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2025-annual-results/).
--   **Hybrid bonding.** Solder disappears and copper pads meet directly. Applied Materials built its Kinex bonder with Besi, which makes the placement head [14](https://www.appliedmaterials.com/eu/en/product-library/kinex-integrated-die-to-wafer-hybrid-bonding-system.html).
--   **Grinding and dicing.** Disco dominates the steps that thin wafers and cut packages apart; see [[#^test-and-assembly|Test and assembly]] [15](https://newsletter.semianalysis.com/p/disco-corporation-the-world-leader).
+-{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}**Thermocompression bonding.** Pressing dies together under heat and force. ASMPT's advanced packaging revenue reached $532.1 million in 2025, with the bonder line up about 146 percent; it targets 35 to 40 percent of a market it puts at $1.6 billion by 2028 [13](https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2025-annual-results/).
+-{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}**Hybrid bonding.** Solder disappears and copper pads meet directly. Applied Materials built its Kinex bonder with Besi, which makes the placement head [14](https://www.appliedmaterials.com/eu/en/product-library/kinex-integrated-die-to-wafer-hybrid-bonding-system.html).
+-{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}**Grinding and dicing.** Disco dominates the steps that thin wafers and cut packages apart; see [[#^test-and-assembly|Test and assembly]] [15](https://newsletter.semianalysis.com/p/disco-corporation-the-world-leader).
 
 TSMC's Arizona commitment reached $265 billion in July 2026 and covers two advanced packaging plants alongside 10 fabs [16](https://www.azcommerce.com/news-events/news/2026/7/tsmc-announcement/). Amkor started building a $7 billion campus in Peoria in October 2025, backed by up to $407 million of CHIPS money, producing from early 2028 [17](https://ir.amkor.com/news-releases/news-release-details/amkor-technology-breaks-ground-new-semiconductor-advanced), and Wei confirms it will open before TSMC's own two do [8](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-10/6860312f04fd291d0f26b46c1234f84e6332717e/TSMC%203Q25%20Transcript.pdf).
 
 ### The chokepoint ^the-chokepoint-11
 
-**Chart:** China-based suppliers' share of back-end tool segments, 2024 (%)
+**Chart:** China-based suppliers' share of back-end tool segments, 2024{--{"author":"James's AI","timestamp":1790597114872}@@ (%)--}
 
-Test, linear and discrete 69% Burn-in test 9% Advanced packaging tools 7% SoC test 5% Atomic layer deposition 1%
+{++{"author":"James's AI","timestamp":1790597114872}@@| | % |
+|---|---:|
+| ++}Test, linear and discrete {--{"author":"James's AI","timestamp":1790597114872}@@69% --}{++{"author":"James's AI","timestamp":1790597114872}@@| 69 |
+| ++}Burn-in test {--{"author":"James's AI","timestamp":1790597114872}@@9%--}{++{"author":"James's AI","timestamp":1790597114872}@@| 9 |
+|++} Advanced packaging tools {--{"author":"James's AI","timestamp":1790597114872}@@7%--}{++{"author":"James's AI","timestamp":1790597114872}@@| 7 |
+|++} SoC test {--{"author":"James's AI","timestamp":1790597114872}@@5%--}{++{"author":"James's AI","timestamp":1790597114872}@@| 5 |
+|++} Atomic layer deposition {--{"author":"James's AI","timestamp":1790597114872}@@1%--}{++{"author":"James's AI","timestamp":1790597114872}@@| 1 |++}
 
 Source: [CSET, Inside Beijing’s Chipmaking Offensive (ALD shown for contrast, under 1%)](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/)
 
@@ -2682,86 +2709,101 @@ JCET, the largest Chinese assembler, billed RMB 35.96 billion in 2024, up 21 per
 
 Each generation on TSMC's roadmap needs a larger interposer.
 
--   **2028.** A 14-reticle interposer carrying about ten large compute dies and 20 HBM stacks, roughly 12,000 mm2 of silicon, about the area of a compact disc [5](https://pr.tsmc.com/english/news/3302).
--   **2029.** More than 14 reticles, and a 40-reticle System-on-Wafer beside it [5](https://pr.tsmc.com/english/news/3302).
+-{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}**2028.** A 14-reticle interposer carrying about ten large compute dies and 20 HBM stacks, roughly 12,000 mm2 of silicon, about the area of a compact disc [5](https://pr.tsmc.com/english/news/3302).
+-{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}**2029.** More than 14 reticles, and a 40-reticle System-on-Wafer beside it [5](https://pr.tsmc.com/english/news/3302).
 
 ### Key evaluation criteria ^key-evaluation-criteria-11
 
--   **Interposer area** is the limit on how much logic and memory fit, now 5.5x reticle on CoWoS-L [5](https://pr.tsmc.com/english/news/3302).
--   **Package yield** decides whether a generation ships on time, and nobody publishes it.
--   **Warpage control** covers the expansion mismatch between die, bridge, interposer and substrate that broke early CoWoS-L and gets harder as packages grow [3](https://semianalysis.com/2024/08/04/nvidias-blackwell-reworked-shipment/).
--   **HBM stacks supported** is about 20 on the 14-reticle package due in 2028 [5](https://pr.tsmc.com/english/news/3302).
--   **Bonder throughput** is slow by nature: thermocompression and hybrid bonding place one die at a time, and three or four firms hold the tools [13](https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2025-annual-results/).
--   **Substrate size** limits everything above it. A 14-reticle interposer needs a resin substrate that will not warp under it, which pushes ABF build-up film to its limits; see [[#^substrates-and-pcbs|Substrates and PCBs]].
+-{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}**Interposer area** is the limit on how much logic and memory fit, now 5.5x reticle on CoWoS-L [5](https://pr.tsmc.com/english/news/3302).
+-{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}**Package yield** decides whether a generation ships on time, and nobody publishes it.
+-{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}**Warpage control** covers the expansion mismatch between die, bridge, interposer and substrate that broke early CoWoS-L and gets harder as packages grow [3](https://semianalysis.com/2024/08/04/nvidias-blackwell-reworked-shipment/).
+-{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}**HBM stacks supported** is about 20 on the 14-reticle package due in 2028 [5](https://pr.tsmc.com/english/news/3302).
+-{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}**Bonder throughput** is slow by nature: thermocompression and hybrid bonding place one die at a time, and three or four firms hold the tools [13](https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2025-annual-results/).
+-{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}**Substrate size** limits everything above it. A 14-reticle interposer needs a resin substrate that will not warp under it, which pushes ABF build-up film to its limits; see [[#^substrates-and-pcbs|Substrates and PCBs]].
 
-{--{"author":"James's AI","timestamp":1790594436044}@@Card--}{++{"author":"James's AI","timestamp":1790594436044}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594436044}@@4Question--}{++{"author":"James's AI","timestamp":1790594436044}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597114872}@@Card 1 of 4Question--}{++{"author":"James's AI","timestamp":1790597114872}@@::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.++}
 
-Why is an AI accelerator built from several chips in one package?
+{++{"author":"James's AI","timestamp":1790597114872}@@:::callout {title="Card 1 of 4: ++}Why is an AI accelerator built from several chips in one {--{"author":"James's AI","timestamp":1790597114872}@@package?
 
-{--{"author":"James's AI","timestamp":1790594129120}@@Card--}{++{"author":"James's AI","timestamp":1790594129120}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594129120}@@4Answer--}{++{"author":"James's AI","timestamp":1790594129120}@@4 · Answer**++}
+Card 1 of 4Answer
 
-It needs more circuit than a lithography machine can print in one shot.
+--}{++{"author":"James's AI","timestamp":1790597114872}@@package?" tone="neutral" collapse="closed"}
+++}It needs more circuit than a lithography machine can print in one shot.
 
-Packaging sets the pieces and their memory side by side on a shared slab of silicon and wires them together. [[#^how-it-works-11|Reread: How it works]]
+Packaging sets the pieces and their memory side by side on a shared slab of silicon and wires them together. [[#^how-it-works-11|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597114872}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790594130907}@@Card--}{++{"author":"James's AI","timestamp":1790594130907}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594130907}@@4Question--}{++{"author":"James's AI","timestamp":1790594130907}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597114872}@@Card--}{++{"author":"James's AI","timestamp":1790597114872}@@:::callout {title="Card++} 2 of{--{"author":"James's AI","timestamp":1790597114872}@@ 4Question
 
-Who packages nearly every AI accelerator?
+--}{++{"author":"James's AI","timestamp":1790597114872}@@ 4: ++}Who packages nearly every AI{--{"author":"James's AI","timestamp":1790597114872}@@ accelerator?
 
-{--{"author":"James's AI","timestamp":1790594132081}@@Card--}{++{"author":"James's AI","timestamp":1790594132081}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594132081}@@4Answer--}{++{"author":"James's AI","timestamp":1790594132081}@@4 · Answer**++}
+Card 2 of 4Answer
 
-TSMC, in Taiwan.
+--}{++{"author":"James's AI","timestamp":1790597114872}@@ accelerator?" tone="neutral" collapse="closed"}
+++}TSMC, in Taiwan.
 
-Its process is called CoWoS. Nvidia alone took an estimated 60.3 percent of it in 2025. [[#^who-makes-it-11|Reread: Who makes it]]
+Its process is called CoWoS. Nvidia alone took an estimated 60.3 percent of it in 2025. [[#^who-makes-it-11|Reread: Who makes it]]{++{"author":"James's AI","timestamp":1790597114872}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790594133543}@@Card--}{++{"author":"James's AI","timestamp":1790594133543}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594133543}@@4Question--}{++{"author":"James's AI","timestamp":1790594133543}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597114872}@@Card--}{++{"author":"James's AI","timestamp":1790597114872}@@:::callout {title="Card++} 3 of {--{"author":"James's AI","timestamp":1790597114872}@@4Question
 
-Why did packaging limit AI chip output in 2024 and 2025?
+--}{++{"author":"James's AI","timestamp":1790597114872}@@4: ++}Why did packaging limit AI chip output in 2024 and {--{"author":"James's AI","timestamp":1790597114872}@@2025?
 
-{--{"author":"James's AI","timestamp":1790594134471}@@Card--}{++{"author":"James's AI","timestamp":1790594134471}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594134471}@@4Answer--}{++{"author":"James's AI","timestamp":1790594134471}@@4 · Answer**++}
+Card 3 of 4Answer
 
-Too few packaging lines had been built.
+--}{++{"author":"James's AI","timestamp":1790597114872}@@2025?" tone="neutral" collapse="closed"}
+++}Too few packaging lines had been built.
 
-The methods already worked. By March 2026 the limit had moved back to making wafers. [[#^the-chokepoint-11|Reread: The chokepoint]]
+The methods already worked. By March 2026 the limit had moved back to making wafers. [[#^the-chokepoint-11|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597114872}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790594135510}@@Card--}{++{"author":"James's AI","timestamp":1790594135510}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594135510}@@4Question--}{++{"author":"James's AI","timestamp":1790594135510}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597114872}@@Card--}{++{"author":"James's AI","timestamp":1790597114872}@@:::callout {title="Card++} 4 of {--{"author":"James's AI","timestamp":1790597114872}@@4Question
 
-Can China or the United States package AI accelerators at volume?
+--}{++{"author":"James's AI","timestamp":1790597114872}@@4: ++}Can China or the United States package AI accelerators at{--{"author":"James's AI","timestamp":1790597114872}@@ volume?
 
-{--{"author":"James's AI","timestamp":1790594136428}@@Card--}{++{"author":"James's AI","timestamp":1790594136428}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594136428}@@4Answer--}{++{"author":"James's AI","timestamp":1790594136428}@@4 · Answer**++}
+Card 4 of 4Answer
 
-Not yet.
+--}{++{"author":"James's AI","timestamp":1790597114872}@@ volume?" tone="neutral" collapse="closed"}
+++}Not yet.
 
-China packages chips at scale, but almost none on the silicon slab AI chips need. The first American line, Amkor's in Arizona, starts in early 2028. [[#^the-chokepoint-11|Reread: The chokepoint]]
+China packages chips at scale, but almost none on the silicon slab AI chips need. The first American line, Amkor's in Arizona, starts in early 2028. [[#^the-chokepoint-11|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597114872}@@
+:::
 
-#### Four things to remember ^four-things-to-remember-10
+::::++}
 
--   An AI accelerator needs more circuit than one chip can hold, so packaging joins several chips and their memory.
--   TSMC packages nearly every AI accelerator, in Taiwan.
--   Packaging limited AI chip output in 2024 and 2025 because too few lines had been built.
--   Neither China nor the United States packages AI accelerators at volume yet.
+{--{"author":"James's AI","timestamp":1790597114872}@@#### Four--}{++{"author":"James's AI","timestamp":1790597114872}@@:::callout {title="Four++} things to {--{"author":"James's AI","timestamp":1790597114872}@@remember ^four-things-to-remember-10
 
-**Sources (19)**
+--}{++{"author":"James's AI","timestamp":1790597114872}@@remember" tone="green"}
+++}-{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}An AI accelerator needs more circuit than one chip can hold, so packaging joins several chips and their memory.
+-{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}TSMC packages nearly every AI accelerator, in Taiwan.
+-{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}Packaging limited AI chip output in 2024 and 2025 because too few lines had been built.
+-{--{"author":"James's AI","timestamp":1790597114872}@@   --}{++{"author":"James's AI","timestamp":1790597114872}@@ ++}Neither China nor the United States packages AI accelerators at volume yet.{++{"author":"James's AI","timestamp":1790597114872}@@
+:::++}
 
-1.  A [TWINSCAN NXE:3400C](https://www.asml.com/en/products/euv-lithography-systems/twinscan-nxe3400c) ASML
-2.  A [TSMC, CoWoS technology page](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm) TSMC
-3.  B [Nvidia's Blackwell Reworked - Shipment Delays & GB200A Reworked Platforms](https://semianalysis.com/2024/08/04/nvidias-blackwell-reworked-shipment/) SemiAnalysis · 4 August 2024
-4.  A [TSMC 2025 Annual Report, chapter 5](https://investor.tsmc.com/static/annualReports/2025/english/pdf/2025_tsmc_ar_e_ch5.pdf) TSMC
-5.  A [TSMC Debuts A13 Technology at 2026 North America Technology Symposium](https://pr.tsmc.com/english/news/3302) TSMC · 23 April 2026
-6.  A [New JEDEC® SPHBM4 Standard Enables HBM4-Class Bandwidth on Organic Substrates](https://www.jedec.org/news/pressreleases/new-jedec%C2%AE-sphbm4-standard-enables-hbm4-class-bandwidth-organic-substrates) JEDEC Solid State Technology Association · 13 July 2026
-7.  A [Q2 2024 Taiwan Semiconductor Manufacturing Co Ltd Earnings Call (Chinese, English) — edited transcript](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2024-08/5122725a56670882d777a8e8bfe0ed247cc55330/TSMC%202Q24%20Transcript.pdf) Refinitiv StreetEvents (transcript of a TSMC earnings call), via TSMC · 18 July 2024
-8.  A [Q3 2025 Taiwan Semiconductor Manufacturing Co Ltd Earnings Call (Chinese, English) — edited transcript](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-10/6860312f04fd291d0f26b46c1234f84e6332717e/TSMC%203Q25%20Transcript.pdf) Refinitiv StreetEvents (transcript of a TSMC earnings call), via TSMC · 16 October 2025
-9.  A [Advanced packaging and HBM, not logic dies, were the bottlenecks on AI chip production in 2025](https://epoch.ai/data-insights/ai-chip-supply-chain-constraints) Epoch AI · 12 March 2026
-10.  B [The Great AI Silicon Shortage](https://newsletter.semianalysis.com/p/the-great-ai-silicon-shortage) SemiAnalysis · 12 March 2026
-11.  A [ASE Technology Holding Co., Ltd. Reports Its Unaudited Consolidated Financial Results for the Fourth Quarter and the Full Year of 2025](https://www.prnewswire.com/news-releases/ase-technology-holding-co-ltd-reports-its-unaudited-consolidated-financial-results-for-the-fourth-quarter-and-the-full-year-of-2025-302679779.html) PR Newswire · 5 February 2026
-12.  A [AMKOR TECHNOLOGY, INC., Form 8-K current report for the period ended 2026-02-09 (8-K)](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000007/amkr123125erex-991.htm) U.S. Securities and Exchange Commission (filing by AMKOR TECHNOLOGY, INC.) · 9 February 2026
-13.  A [ASMPT Announces 2025 Annual Results AI-Driven Structural Growth Underpins Group Performance](https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2025-annual-results/) ASMPT · 4 March 2026
-14.  A [Applied Materials, Kinex integrated die-to-wafer hybrid bonding system product page](https://www.appliedmaterials.com/eu/en/product-library/kinex-integrated-die-to-wafer-hybrid-bonding-system.html) Applied Materials
-15.  B [DISCO Corporation, The World Leader In Semiconductor Capital Equipment For Cutting, Grinding, Polishing](https://newsletter.semianalysis.com/p/disco-corporation-the-world-leader) SemiAnalysis · 19 July 2022
-16.  A [TSMC Announces Additional $100 Billion Investment in Arizona](https://www.azcommerce.com/news-events/news/2026/7/tsmc-announcement/) Arizona Commerce Authority · 16 July 2026
-17.  A [Amkor Technology Breaks Ground on New Semiconductor Advanced Packaging and Test Campus in Arizona; Expands Investment to $7 Billion](https://ir.amkor.com/news-releases/news-release-details/amkor-technology-breaks-ground-new-semiconductor-advanced) Amkor Technology
-18.  A [Inside Beijing’s Chipmaking Offensive](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/) Center for Security and Emerging Technology (CSET) · 14 July 2025
-19.  A [JCET Releases 2024 Annual Report, Achieves Record-High Revenue](https://www.jcetglobal.com/en/site/news-detail?id=1952) JCET Group · 20 April 2025
+{--{"author":"James's AI","timestamp":1790597114872}@@**Sources (19)**
+
+--}{++{"author":"James's AI","timestamp":1790597114872}@@:::callout {title="Sources (19)" tone="neutral" collapse="closed"}
+++}1.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [TWINSCAN {--{"author":"James's AI","timestamp":1790597114872}@@NXE:3400C](https://www.asml.com/en/products/euv-lithography-systems/twinscan-nxe3400c) ASML--}{++{"author":"James's AI","timestamp":1790597114872}@@NXE:3400C](https://www.asml.com/en/products/euv-lithography-systems/twinscan-nxe3400c). ASML. Tier A.++}
+2.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [TSMC, CoWoS technology {--{"author":"James's AI","timestamp":1790597114872}@@page](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm) TSMC--}{++{"author":"James's AI","timestamp":1790597114872}@@page](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm). TSMC. Tier A.++}
+3.{--{"author":"James's AI","timestamp":1790597114872}@@  B--} [Nvidia's Blackwell Reworked - Shipment Delays & GB200A Reworked {--{"author":"James's AI","timestamp":1790597114872}@@Platforms](https://semianalysis.com/2024/08/04/nvidias-blackwell-reworked-shipment/)--}{++{"author":"James's AI","timestamp":1790597114872}@@Platforms](https://semianalysis.com/2024/08/04/nvidias-blackwell-reworked-shipment/).++} SemiAnalysis · 4 August {--{"author":"James's AI","timestamp":1790597114872}@@2024--}{++{"author":"James's AI","timestamp":1790597114872}@@2024. Tier B.++}
+4.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [TSMC 2025 Annual Report, chapter {--{"author":"James's AI","timestamp":1790597114872}@@5](https://investor.tsmc.com/static/annualReports/2025/english/pdf/2025_tsmc_ar_e_ch5.pdf) TSMC--}{++{"author":"James's AI","timestamp":1790597114872}@@5](https://investor.tsmc.com/static/annualReports/2025/english/pdf/2025_tsmc_ar_e_ch5.pdf). TSMC. Tier A.++}
+5.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [TSMC Debuts A13 Technology at 2026 North America Technology {--{"author":"James's AI","timestamp":1790597114872}@@Symposium](https://pr.tsmc.com/english/news/3302)--}{++{"author":"James's AI","timestamp":1790597114872}@@Symposium](https://pr.tsmc.com/english/news/3302).++} TSMC · 23 April {--{"author":"James's AI","timestamp":1790597114872}@@2026--}{++{"author":"James's AI","timestamp":1790597114872}@@2026. Tier A.++}
+6.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [New JEDEC® SPHBM4 Standard Enables HBM4-Class Bandwidth on Organic {--{"author":"James's AI","timestamp":1790597114872}@@Substrates](https://www.jedec.org/news/pressreleases/new-jedec%C2%AE-sphbm4-standard-enables-hbm4-class-bandwidth-organic-substrates)--}{++{"author":"James's AI","timestamp":1790597114872}@@Substrates](https://www.jedec.org/news/pressreleases/new-jedec%C2%AE-sphbm4-standard-enables-hbm4-class-bandwidth-organic-substrates).++} JEDEC Solid State Technology Association · 13 July {--{"author":"James's AI","timestamp":1790597114872}@@2026--}{++{"author":"James's AI","timestamp":1790597114872}@@2026. Tier A.++}
+7.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [Q2 2024 Taiwan Semiconductor Manufacturing Co Ltd Earnings Call (Chinese, English) — edited {--{"author":"James's AI","timestamp":1790597114872}@@transcript](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2024-08/5122725a56670882d777a8e8bfe0ed247cc55330/TSMC%202Q24%20Transcript.pdf)--}{++{"author":"James's AI","timestamp":1790597114872}@@transcript](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2024-08/5122725a56670882d777a8e8bfe0ed247cc55330/TSMC%202Q24%20Transcript.pdf).++} Refinitiv StreetEvents (transcript of a TSMC earnings call), via TSMC · 18 July {--{"author":"James's AI","timestamp":1790597114872}@@2024--}{++{"author":"James's AI","timestamp":1790597114872}@@2024. Tier A.++}
+8.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [Q3 2025 Taiwan Semiconductor Manufacturing Co Ltd Earnings Call (Chinese, English) — edited {--{"author":"James's AI","timestamp":1790597114872}@@transcript](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-10/6860312f04fd291d0f26b46c1234f84e6332717e/TSMC%203Q25%20Transcript.pdf)--}{++{"author":"James's AI","timestamp":1790597114872}@@transcript](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-10/6860312f04fd291d0f26b46c1234f84e6332717e/TSMC%203Q25%20Transcript.pdf).++} Refinitiv StreetEvents (transcript of a TSMC earnings call), via TSMC · 16 October {--{"author":"James's AI","timestamp":1790597114872}@@2025--}{++{"author":"James's AI","timestamp":1790597114872}@@2025. Tier A.++}
+9.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [Advanced packaging and HBM, not logic dies, were the bottlenecks on AI chip production in {--{"author":"James's AI","timestamp":1790597114872}@@2025](https://epoch.ai/data-insights/ai-chip-supply-chain-constraints)--}{++{"author":"James's AI","timestamp":1790597114872}@@2025](https://epoch.ai/data-insights/ai-chip-supply-chain-constraints).++} Epoch AI · 12 March {--{"author":"James's AI","timestamp":1790597114872}@@2026--}{++{"author":"James's AI","timestamp":1790597114872}@@2026. Tier A.++}
+10.{--{"author":"James's AI","timestamp":1790597114872}@@  B--} [The Great AI Silicon {--{"author":"James's AI","timestamp":1790597114872}@@Shortage](https://newsletter.semianalysis.com/p/the-great-ai-silicon-shortage)--}{++{"author":"James's AI","timestamp":1790597114872}@@Shortage](https://newsletter.semianalysis.com/p/the-great-ai-silicon-shortage).++} SemiAnalysis · 12 March {--{"author":"James's AI","timestamp":1790597114872}@@2026--}{++{"author":"James's AI","timestamp":1790597114872}@@2026. Tier B.++}
+11.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [ASE Technology Holding Co., Ltd. Reports Its Unaudited Consolidated Financial Results for the Fourth Quarter and the Full Year of {--{"author":"James's AI","timestamp":1790597114872}@@2025](https://www.prnewswire.com/news-releases/ase-technology-holding-co-ltd-reports-its-unaudited-consolidated-financial-results-for-the-fourth-quarter-and-the-full-year-of-2025-302679779.html)--}{++{"author":"James's AI","timestamp":1790597114872}@@2025](https://www.prnewswire.com/news-releases/ase-technology-holding-co-ltd-reports-its-unaudited-consolidated-financial-results-for-the-fourth-quarter-and-the-full-year-of-2025-302679779.html).++} PR Newswire · 5 February {--{"author":"James's AI","timestamp":1790597114872}@@2026--}{++{"author":"James's AI","timestamp":1790597114872}@@2026. Tier A.++}
+12.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [AMKOR TECHNOLOGY, INC., Form 8-K current report for the period ended 2026-02-09 {--{"author":"James's AI","timestamp":1790597114872}@@(8-K)](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000007/amkr123125erex-991.htm)--}{++{"author":"James's AI","timestamp":1790597114872}@@(8-K)](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000007/amkr123125erex-991.htm).++} U.S. Securities and Exchange Commission (filing by AMKOR TECHNOLOGY, INC.) · 9 February {--{"author":"James's AI","timestamp":1790597114872}@@2026--}{++{"author":"James's AI","timestamp":1790597114872}@@2026. Tier A.++}
+13.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [ASMPT Announces 2025 Annual Results AI-Driven Structural Growth Underpins Group {--{"author":"James's AI","timestamp":1790597114872}@@Performance](https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2025-annual-results/)--}{++{"author":"James's AI","timestamp":1790597114872}@@Performance](https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2025-annual-results/).++} ASMPT · 4 March {--{"author":"James's AI","timestamp":1790597114872}@@2026--}{++{"author":"James's AI","timestamp":1790597114872}@@2026. Tier A.++}
+14.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [Applied Materials, Kinex integrated die-to-wafer hybrid bonding system product {--{"author":"James's AI","timestamp":1790597114872}@@page](https://www.appliedmaterials.com/eu/en/product-library/kinex-integrated-die-to-wafer-hybrid-bonding-system.html)--}{++{"author":"James's AI","timestamp":1790597114872}@@page](https://www.appliedmaterials.com/eu/en/product-library/kinex-integrated-die-to-wafer-hybrid-bonding-system.html).++} Applied {--{"author":"James's AI","timestamp":1790597114872}@@Materials--}{++{"author":"James's AI","timestamp":1790597114872}@@Materials. Tier A.++}
+15.{--{"author":"James's AI","timestamp":1790597114872}@@  B--} [DISCO Corporation, The World Leader In Semiconductor Capital Equipment For Cutting, Grinding, {--{"author":"James's AI","timestamp":1790597114872}@@Polishing](https://newsletter.semianalysis.com/p/disco-corporation-the-world-leader)--}{++{"author":"James's AI","timestamp":1790597114872}@@Polishing](https://newsletter.semianalysis.com/p/disco-corporation-the-world-leader).++} SemiAnalysis · 19 July {--{"author":"James's AI","timestamp":1790597114872}@@2022--}{++{"author":"James's AI","timestamp":1790597114872}@@2022. Tier B.++}
+16.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [TSMC Announces Additional $100 Billion Investment in {--{"author":"James's AI","timestamp":1790597114872}@@Arizona](https://www.azcommerce.com/news-events/news/2026/7/tsmc-announcement/)--}{++{"author":"James's AI","timestamp":1790597114872}@@Arizona](https://www.azcommerce.com/news-events/news/2026/7/tsmc-announcement/).++} Arizona Commerce Authority · 16 July {--{"author":"James's AI","timestamp":1790597114872}@@2026--}{++{"author":"James's AI","timestamp":1790597114872}@@2026. Tier A.++}
+17.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [Amkor Technology Breaks Ground on New Semiconductor Advanced Packaging and Test Campus in Arizona; Expands Investment to $7 {--{"author":"James's AI","timestamp":1790597114872}@@Billion](https://ir.amkor.com/news-releases/news-release-details/amkor-technology-breaks-ground-new-semiconductor-advanced)--}{++{"author":"James's AI","timestamp":1790597114872}@@Billion](https://ir.amkor.com/news-releases/news-release-details/amkor-technology-breaks-ground-new-semiconductor-advanced).++} Amkor {--{"author":"James's AI","timestamp":1790597114872}@@Technology--}{++{"author":"James's AI","timestamp":1790597114872}@@Technology. Tier A.++}
+18.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [Inside Beijing’s Chipmaking {--{"author":"James's AI","timestamp":1790597114872}@@Offensive](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/)--}{++{"author":"James's AI","timestamp":1790597114872}@@Offensive](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/).++} Center for Security and Emerging Technology (CSET) · 14 July {--{"author":"James's AI","timestamp":1790597114872}@@2025--}{++{"author":"James's AI","timestamp":1790597114872}@@2025. Tier A.++}
+19.{--{"author":"James's AI","timestamp":1790597114872}@@  A--} [JCET Releases 2024 Annual Report, Achieves Record-High {--{"author":"James's AI","timestamp":1790597114872}@@Revenue](https://www.jcetglobal.com/en/site/news-detail?id=1952)--}{++{"author":"James's AI","timestamp":1790597114872}@@Revenue](https://www.jcetglobal.com/en/site/news-detail?id=1952).++} JCET Group · 20 April {--{"author":"James's AI","timestamp":1790597114872}@@2025--}{++{"author":"James's AI","timestamp":1790597114872}@@2025. Tier A.
+:::++}
 
 ## Substrates and PCBs ^substrates-and-pcbs
 
