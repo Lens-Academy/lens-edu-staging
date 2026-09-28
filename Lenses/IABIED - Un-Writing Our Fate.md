@@ -106,7 +106,8 @@ content::
 \## Phase 3: Learning Question
 The chapter says the people working to prevent nuclear war "worked to un-write a fate already written." What does this phrase mean? And what specifically happened during the Cold War that the chapter uses as evidence that un-writing a fate is actually possible?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first section of Chapter 14 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+force-feedback:: first
+feedback-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first section of Chapter 14 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 Learning outcome for this Lens: State what the chapter means by 'un-writing a fate already written,' and identify the nuclear precedent it uses to show this is possible.
 

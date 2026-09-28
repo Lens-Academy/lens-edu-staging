@@ -88,7 +88,8 @@ Write it down, for your future self:
 - Your opening line, word for word
 - What you'll do if they get curious (send the book? send the course link?)
 
-assessment-instructions:: The student commits to a real conversation: person, time, opening line, and follow-up plan. Phases 1-3 (choosing the person, rehearsing with you, reading the practical tips) happened just before.
+force-feedback:: first
+feedback-instructions:: The student commits to a real conversation: person, time, opening line, and follow-up plan. Phases 1-3 (choosing the person, rehearsing with you, reading the practical tips) happened just before.
 
 Your role: quality-check the commitment, then get out of the way.
 - Check the "when" is a concrete day, not "at some point". If vague, ask for the day. In an intensive cohort the slot may land after the course ends; that still counts, a time on the calendar is the commitment.
