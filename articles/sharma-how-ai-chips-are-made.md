@@ -1287,41 +1287,46 @@ No Chinese firm makes an EUV mask blank or a tool that checks an EUV mask. [[#^t
 
 Lithography prints the pattern; deposition and etch do the rest, over a thousand steps per wafer, and it is the one kind of chipmaking tool where Chinese makers have gained real share.
 
-%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+{--{"author":"James's AI","timestamp":1790597066514}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
 
-{--{"author":"James's AI","timestamp":1790593923630}@@1,561--}{++{"author":"James's AI","timestamp":1790593923630}@@_1,561++} words / 7 {--{"author":"James's AI","timestamp":1790593923630}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593923630}@@min · Interactive 3D Specimen:++} process chamber{++{"author":"James's AI","timestamp":1790593923630}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#deposition-and-etch))_++}
+1,561--}{++{"author":"James's AI","timestamp":1790597066514}@@*1,561++} words / 7{--{"author":"James's AI","timestamp":1790597066514}@@ minSpecimen: process chamber
 
 **In plain terms**
 
-Deposition and etch build the chip itself, one layer at a time. Deposition lays down a film a few atoms thick. Lithography prints a pattern on it. Etch then eats away everything the pattern does not protect, and the next film goes down on top. A chip takes more than a thousand of these rounds. Some of the holes the etch cuts are hundreds of times deeper than they are wide, the shape of a finger-wide shaft dropping through several floors, and the film has to coat them right to the bottom. The etch has to eat one material and leave the one beside it untouched. Four firms in America, Japan and the Netherlands make most of these machines, and China has come closer to matching them here than anywhere else.
+--}{++{"author":"James's AI","timestamp":1790597066514}@@ min*
+
+:::callout {title="In plain terms" tone="neutral"}
+++}Deposition and etch build the chip itself, one layer at a time. Deposition lays down a film a few atoms thick. Lithography prints a pattern on it. Etch then eats away everything the pattern does not protect, and the next film goes down on top. A chip takes more than a thousand of these rounds. Some of the holes the etch cuts are hundreds of times deeper than they are wide, the shape of a finger-wide shaft dropping through several floors, and the film has to coat them right to the bottom. The etch has to eat one material and leave the one beside it untouched. Four firms in America, Japan and the Netherlands make most of these machines, and China has come closer to matching them here than anywhere else.{++{"author":"James's AI","timestamp":1790597066514}@@
+:::++}
 
 ### In short ^in-short-6
 
 Deposition and etch are the volume business of a fab: over a thousand steps per wafer, four American, Japanese and Dutch firms taking most of the money, and no monopoly like ASML's in lithography. The AI roadmap makes each step harder faster than it adds steps, because gate-all-around, HBM and backside power ask each chamber for better selectivity and deeper holes. China has closed the gap fastest in deposition and etch and slowest in ALD, the tool gate-all-around logic depends on.
 
-Concentration: **High**
+{--{"author":"James's AI","timestamp":1790597066514}@@Concentration: **High**--}{++{"author":"James's AI","timestamp":1790597066514}@@:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** High++}
 
-Substitutability: **Moderate**. Most deposition and etch steps have three or four approved tool makers; atomic layer deposition is the exception.
+{--{"author":"James's AI","timestamp":1790597066514}@@Substitutability: **Moderate**.--}{++{"author":"James's AI","timestamp":1790597066514}@@**Substitutability:** Moderate.++} Most deposition and etch steps have three or four approved tool makers; atomic layer deposition is the exception.
 
-Price or market size: **Tool makers publish no list prices**. World sales of chipmaking equipment were $135.1B in 2025, with wafer processing tools up 12%.
+{--{"author":"James's AI","timestamp":1790597066514}@@Price--}{++{"author":"James's AI","timestamp":1790597066514}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597066514}@@size: **Tool--}{++{"author":"James's AI","timestamp":1790597066514}@@size:** Tool++} makers publish no list {--{"author":"James's AI","timestamp":1790597066514}@@prices**.--}{++{"author":"James's AI","timestamp":1790597066514}@@prices.++} World sales of chipmaking equipment were $135.1B in 2025, with wafer processing tools up 12%.
 
 **Who leads**
 
--   {--{"author":"James's AI","timestamp":1790593930104}@@USApplied Materials--}{++{"author":"James's AI","timestamp":1790593930104}@@US · **Applied Materials**:++} $28.4B revenue, fiscal 2025; leader in physical and chemical vapor deposition and in epitaxy
--   {--{"author":"James's AI","timestamp":1790593931336}@@USLam Research--}{++{"author":"James's AI","timestamp":1790593931336}@@US · **Lam Research**:++} $23.2B revenue, fiscal 2026; leader in dry etch and in metal atomic layer deposition
--   {--{"author":"James's AI","timestamp":1790593933685}@@JPTokyo Electron--}{++{"author":"James's AI","timestamp":1790593933685}@@JP · **Tokyo Electron**:++} 23% of dry etch and 38% of chemical vapor deposition, 2025
--   {--{"author":"James's AI","timestamp":1790593936272}@@NLASM International--}{++{"author":"James's AI","timestamp":1790593936272}@@NL · **ASM International**:++} €3.2B revenue, 2025; leader in single-wafer atomic layer deposition
--   {--{"author":"James's AI","timestamp":1790593937637}@@CNNaura--}{++{"author":"James's AI","timestamp":1790593937637}@@CN · **Naura**:++} 5th largest equipment vendor worldwide, 2025 estimate
+-{--{"author":"James's AI","timestamp":1790597066514}@@   USApplied Materials--}{++{"author":"James's AI","timestamp":1790597066514}@@ **Applied Materials** (US):++} $28.4B revenue, fiscal 2025; leader in physical and chemical vapor deposition and in epitaxy
+-{--{"author":"James's AI","timestamp":1790597066514}@@   USLam Research--}{++{"author":"James's AI","timestamp":1790597066514}@@ **Lam Research** (US):++} $23.2B revenue, fiscal 2026; leader in dry etch and in metal atomic layer deposition
+-{--{"author":"James's AI","timestamp":1790597066514}@@   JPTokyo Electron--}{++{"author":"James's AI","timestamp":1790597066514}@@ **Tokyo Electron** (JP):++} 23% of dry etch and 38% of chemical vapor deposition, 2025
+-{--{"author":"James's AI","timestamp":1790597066514}@@   NLASM International--}{++{"author":"James's AI","timestamp":1790597066514}@@ **ASM International** (NL):++} €3.2B revenue, 2025; leader in single-wafer atomic layer deposition
+-{--{"author":"James's AI","timestamp":1790597066514}@@   CNNaura--}{++{"author":"James's AI","timestamp":1790597066514}@@ **Naura** (CN):++} 5th largest equipment vendor worldwide, 2025 estimate
 
 **Where it is made**
 
--   {--{"author":"James's AI","timestamp":1790593939350}@@USUnited States--}{++{"author":"James's AI","timestamp":1790593939350}@@US · **United States**:++} Applied Materials (Santa Clara), Lam Research (Fremont)
--   {--{"author":"James's AI","timestamp":1790593940451}@@JPJapan--}{++{"author":"James's AI","timestamp":1790593940451}@@JP · **Japan**:++} Tokyo Electron, Kokusai Electric, Hitachi High-Tech
--   {--{"author":"James's AI","timestamp":1790593941303}@@NLNetherlands--}{++{"author":"James's AI","timestamp":1790593941303}@@NL · **Netherlands**:++} ASM International, Almere; ALD and epitaxy
--   {--{"author":"James's AI","timestamp":1790593943081}@@KRSouth Korea--}{++{"author":"James's AI","timestamp":1790593943081}@@KR · **South Korea**:++} Large buyer; Semes and local suppliers in wet processing
--   {--{"author":"James's AI","timestamp":1790593944037}@@CNChina--}{++{"author":"James's AI","timestamp":1790593944037}@@CN · **China**:++} Naura, AMEC, Piotech; largest equipment market at $49.3B in 2025
+-{--{"author":"James's AI","timestamp":1790597066514}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597066514}@@ **United States**:++} Applied Materials (Santa Clara), Lam Research (Fremont)
+-{--{"author":"James's AI","timestamp":1790597066514}@@   JPJapan--}{++{"author":"James's AI","timestamp":1790597066514}@@ **Japan**:++} Tokyo Electron, Kokusai Electric, Hitachi High-Tech
+-{--{"author":"James's AI","timestamp":1790597066514}@@   NLNetherlands--}{++{"author":"James's AI","timestamp":1790597066514}@@ **Netherlands**:++} ASM International, Almere; ALD and epitaxy
+-{--{"author":"James's AI","timestamp":1790597066514}@@   KRSouth Korea--}{++{"author":"James's AI","timestamp":1790597066514}@@ **South Korea**:++} Large buyer; Semes and local suppliers in wet processing
+-{--{"author":"James's AI","timestamp":1790597066514}@@   CNChina--}{++{"author":"James's AI","timestamp":1790597066514}@@ **China**:++} Naura, AMEC, Piotech; largest equipment market at $49.3B in 2025
 
-Why substitution is possible
+{--{"author":"James's AI","timestamp":1790597066514}@@Why--}{++{"author":"James's AI","timestamp":1790597066514}@@**Why++} substitution is {--{"author":"James's AI","timestamp":1790597066514}@@possible--}{++{"author":"James's AI","timestamp":1790597066514}@@possible**++}
 
 For most of the deposition and etch steps inside a fab, the tool can already be bought from three or four makers: Applied Materials, Lam, Tokyo Electron and ASM International. Switching from one maker to another means testing the new tool on the fab's own line until it matches, which takes two to five years for the newest chips. The exception is atomic layer deposition, which lays down a film one layer of atoms at a time. Chinese tool makers gained real share in etch over five years but stayed under 1 percent in atomic layer deposition, so that is the step where China is weakest.
 
@@ -1331,17 +1336,18 @@ Of all kinds of chipmaking tool, deposition and etch is where Chinese makers are
 
 **Where the US stands**
 
-Two of the three largest deposition and etch tool makers are American. The US government lists dry etch, atomic layer deposition and deep-hole deposition tools as controlled exports, and one rule also covers tools built outside the United States with American technology.
+Two of the three largest deposition and etch tool makers are American. The US government lists dry etch, atomic layer deposition and deep-hole deposition tools as controlled exports, and one rule also covers tools built outside the United States with American technology.{++{"author":"James's AI","timestamp":1790597066514}@@
+:::++}
 
 Applied Materials and Lam Research, the two largest deposition and etch suppliers, booked $28.4 billion and $23.2 billion of revenue in their latest fiscal years [1](https://data.sec.gov/api/xbrl/companyconcept/CIK0000006951/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json) [2](https://www.sec.gov/Archives/edgar/data/707549/000070754926000033/lrcx_exhibitx991xq4x2026.htm).
 
 ### How it works ^how-it-works-6
 
-{--{"author":"James's AI","timestamp":1790594484340}@@![](https://chipsupplychain.org/media/dep-etch-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594484340}@@![One round of deposition and etch](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-dep-etch.jpg)++}{++{"author":"James's AI","timestamp":1790594884637}@@
+{--{"author":"James's AI","timestamp":1790594484340}@@![](https://chipsupplychain.org/media/dep-etch-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594484340}@@![One round of deposition and etch](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-dep-etch.jpg)++}{--{"author":"James's AI","timestamp":1790597066514}@@
 
-%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%++}
+**Figure: One --}{++{"author":"James's AI","timestamp":1790597066514}@@
 
-**Figure: One round of deposition and etch.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#deposition-and-etch)); above is its last frame. Its steps:
+*One ++}round of deposition and{--{"author":"James's AI","timestamp":1790597066514}@@ etch.** An animation on the live site ([watch it--}{++{"author":"James's AI","timestamp":1790597066514}@@ etch. The last frame of an animation++} on {--{"author":"James's AI","timestamp":1790597066514}@@chipsupplychain.org](https://chipsupplychain.org/#deposition-and-etch)); above is its last frame.--}{++{"author":"James's AI","timestamp":1790597066514}@@the original site.++} Its {--{"author":"James's AI","timestamp":1790597066514}@@steps:--}{++{"author":"James's AI","timestamp":1790597066514}@@steps:*++}
 
 1. **The wafer.** A slice through one spot on a wafer, magnified until its layers show.
 2. **Deposit.** A film a few atoms thick is laid over the whole wafer.
@@ -1352,9 +1358,9 @@ Applied Materials and Lam Research, the two largest deposition and etch supplier
 7. **Strip.** The leftover resist is removed. The pattern now sits in the film.
 8. **Repeat.** Insulator fills the gaps and the next layer goes on. A chip takes more than a thousand of these rounds.
 
-_Simplified cross-section. The layers are drawn much thicker than they are._
+{--{"author":"James's AI","timestamp":1790597066514}@@_Simplified--}{++{"author":"James's AI","timestamp":1790597066514}@@*Simplified++} cross-section. The layers are drawn much thicker than they{--{"author":"James's AI","timestamp":1790597066514}@@ are._
 
-One round of deposition and etch
+One round of deposition and etch--}{++{"author":"James's AI","timestamp":1790597066514}@@ are.*++}
 
 Both steps happen in a vacuum chamber that holds one wafer at a time. A pump empties the chamber of air, a measured flow of gas comes in, and an electric field that reverses millions of times a second, a radio-frequency field, strips electrons off the gas molecules. The gas is now a plasma, charged fragments that react far more readily than whole molecules do.
 
@@ -1372,26 +1378,34 @@ CSET puts a single chip at more than 1,000 process steps, with the part-finished
 
 The market sizes and leading shares below are CSET's for 2025, which it builds from TechInsights data, on a $26.2 billion deposition tool market [4](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N36) and a $21.9 billion dry etch market [5](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N103).
 
--   **Physical vapor deposition** knocks atoms off a solid target and lands them on the wafer, the standard method for metal barriers and seed layers, $4.9 billion in 2025 [6](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N42).
--   **Chemical vapor deposition** reacts gases at the wafer surface to grow a film; the plasma-enhanced version runs cooler and is most of the $11.2 billion CVD market, $7.5 billion in 2025 [7](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N47) [8](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N38).
--   **Atomic layer deposition** lays down less than one atomic layer at a time, so it coats vertical walls as evenly as horizontal floors. US regulators call it the basis for 3D scaling in 3D DRAM, 3D NAND and gate-all-around logic [9](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf); ASM International leads it with 54.5 percent of a $4.1 billion market in 2025 [10](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N41).
--   **Epitaxy and electroplating** grow the strained silicon-germanium source and drain, and fill the copper wiring trenches [3](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf).
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Physical vapor deposition** knocks atoms off a solid target and lands them on the wafer, the standard method for metal barriers and seed layers, $4.9 billion in 2025 [6](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N42).
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Chemical vapor deposition** reacts gases at the wafer surface to grow a film; the plasma-enhanced version runs cooler and is most of the $11.2 billion CVD market, $7.5 billion in 2025 [7](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N47) [8](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N38).
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Atomic layer deposition** lays down less than one atomic layer at a time, so it coats vertical walls as evenly as horizontal floors. US regulators call it the basis for 3D scaling in 3D DRAM, 3D NAND and gate-all-around logic [9](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf); ASM International leads it with 54.5 percent of a $4.1 billion market in 2025 [10](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N41).
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Epitaxy and electroplating** grow the strained silicon-germanium source and drain, and fill the copper wiring trenches [3](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf).
 
 #### Etch families ^etch-families
 
--   **Conductor etch** cuts gates, metals and silicon, $12.2 billion in 2025, led by Lam at 51.2 percent [11](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N50).
--   **Dielectric etch** cuts the insulating oxides and nitrides between them, $8.7 billion in 2025, led by Tokyo Electron at 55.9 percent [12](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N51).
--   **High-aspect-ratio etch** decides whether memory works at all: a 3D NAND channel or DRAM capacitor is a hole far deeper than it is wide that has to come out straight. Lam chills the wafer to sharpen the profile, and says Cryo 3.0 holds critical-dimension deviation under 0.1 percent down channels 10 microns deep [13](https://newsroom.lamresearch.com/2024-07-31-Lam-Research-Introduces-Lam-Cryo-TM-3-0-Cryogenic-Etch-Technology-to-Accelerate-Scaling-of-3D-NAND-for-the-AI-Era).
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Conductor etch** cuts gates, metals and silicon, $12.2 billion in 2025, led by Lam at 51.2 percent [11](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N50).
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Dielectric etch** cuts the insulating oxides and nitrides between them, $8.7 billion in 2025, led by Tokyo Electron at 55.9 percent [12](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N51).
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**High-aspect-ratio etch** decides whether memory works at all: a 3D NAND channel or DRAM capacitor is a hole far deeper than it is wide that has to come out straight. Lam chills the wafer to sharpen the profile, and says Cryo 3.0 holds critical-dimension deviation under 0.1 percent down channels 10 microns deep [13](https://newsroom.lamresearch.com/2024-07-31-Lam-Research-Introduces-Lam-Cryo-TM-3-0-Cryogenic-Etch-Technology-to-Accelerate-Scaling-of-3D-NAND-for-the-AI-Era).
 
 AI hardware asks for sideways cuts, deeper holes and a second metal stack on the wafer's back.
 
--   **Gate-all-around** needs isotropic etch, which cuts sideways, to release the silicon nanosheets from the silicon-germanium between them, and BIS ties its dry etch controls to exactly that [9](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf).
--   **HBM** needs holes etched straight through the silicon so chips can be stacked and wired, which BIS controls at 10:1 or deeper above 7 microns a minute [14](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).
--   **Backside power delivery** adds thinning, backside vias and a second metal stack. Applied Materials expects it to add about $1 billion per 100,000 wafer starts a month to its wiring business [15](https://www.globenewswire.com/news-release/2024/07/08/2909540/0/en/applied-materials-unveils-chip-wiring-innovations-for-more-energy-efficient-computing.html).
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Gate-all-around** needs isotropic etch, which cuts sideways, to release the silicon nanosheets from the silicon-germanium between them, and BIS ties its dry etch controls to exactly that [9](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf).
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**HBM** needs holes etched straight through the silicon so chips can be stacked and wired, which BIS controls at 10:1 or deeper above 7 microns a minute [14](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Backside power delivery** adds thinning, backside vias and a second metal stack. Applied Materials expects it to add about $1 billion per 100,000 wafer starts a month to its wiring business [15](https://www.globenewswire.com/news-release/2024/07/08/2909540/0/en/applied-materials-unveils-chip-wiring-innovations-for-more-energy-efficient-computing.html).
 
-**Chart:** Tokyo Electron world market share by tool type, 2025 (%)
+**Chart:** Tokyo Electron world market share by tool type, 2025{--{"author":"James's AI","timestamp":1790597066514}@@ (%)--}
 
-Coater/developer 91% CVD 38% Oxidation/diffusion 31% Deposition systems 27% Dry etch 23% Cleaning 20% ALD 15%
+{++{"author":"James's AI","timestamp":1790597066514}@@| | % |
+|---|---:|
+| ++}Coater/developer {--{"author":"James's AI","timestamp":1790597066514}@@91% --}{++{"author":"James's AI","timestamp":1790597066514}@@| 91 |
+| ++}CVD {--{"author":"James's AI","timestamp":1790597066514}@@38%--}{++{"author":"James's AI","timestamp":1790597066514}@@| 38 |
+|++} Oxidation/diffusion {--{"author":"James's AI","timestamp":1790597066514}@@31%--}{++{"author":"James's AI","timestamp":1790597066514}@@| 31 |
+|++} Deposition systems {--{"author":"James's AI","timestamp":1790597066514}@@27% --}{++{"author":"James's AI","timestamp":1790597066514}@@| 27 |
+| ++}Dry etch {--{"author":"James's AI","timestamp":1790597066514}@@23% --}{++{"author":"James's AI","timestamp":1790597066514}@@| 23 |
+| ++}Cleaning {--{"author":"James's AI","timestamp":1790597066514}@@20% --}{++{"author":"James's AI","timestamp":1790597066514}@@| 20 |
+| ++}ALD {--{"author":"James's AI","timestamp":1790597066514}@@15%--}{++{"author":"James's AI","timestamp":1790597066514}@@| 15 |++}
 
 Source: [Tokyo Electron FY2026 Q4 results presentation](https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4transcript-e.pdf)
 
@@ -1403,9 +1417,14 @@ Within deposition and etch no one firm dominates as ASML does in lithography. Th
 
 ASM International, the atomic layer deposition specialist, reached a record EUR 3.2 billion of revenue in 2025 as customers built 2 nm gate-all-around capacity, with molybdenum ALD entering volume production [18](https://www.asm.com/media/yvxbavwe/20260303-asm-reports-q4-and-full-year-2025-results.pdf).
 
-**Chart:** What the world spent on chipmaking equipment ($B)
+**Chart:** What the world spent on chipmaking equipment{--{"author":"James's AI","timestamp":1790597066514}@@ ($B)
 
-2024 117.1 2025 135.1
+--}{++{"author":"James's AI","timestamp":1790597066514}@@
+
+| | $B |
+|---|---:|
+| ++}2024 {++{"author":"James's AI","timestamp":1790597066514}@@| ++}117.1 {++{"author":"James's AI","timestamp":1790597066514}@@|
+| ++}2025 {++{"author":"James's AI","timestamp":1790597066514}@@| ++}135.1{++{"author":"James's AI","timestamp":1790597066514}@@ |++}
 
 Source: [SEMI, Worldwide Semiconductor Equipment Market Statistics](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025)
 
@@ -1413,25 +1432,34 @@ Source: [SEMI, Worldwide Semiconductor Equipment Market Statistics](https://www.
 
 China is the tool vendors' largest customer and their fastest-improving competitor. It bought $49.3 billion of equipment in 2025, still the biggest single market, though its spending fell half a percent while Taiwan's rose 90 percent to $31.5 billion [17](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025). China still takes a large share of every major vendor's sales.
 
--   **Tokyo Electron**: 34.1 percent of sales in the year to March 2026, down from 41.7 percent [16](https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4transcript-e.pdf).
--   **Lam Research**: 26 percent in the June 2026 quarter, behind Taiwan at 27 percent [2](https://www.sec.gov/Archives/edgar/data/707549/000070754926000033/lrcx_exhibitx991xq4x2026.htm).
--   **Applied Materials**: 28 percent in the third fiscal quarter of 2026, down from 35 percent [19](https://www.globenewswire.com/news-release/2026/08/13/3344890/0/en/applied-materials-announces-third-quarter-2026-results.html).
--   **ASM International**: more than 30 percent of 2025 revenue [18](https://www.asm.com/media/yvxbavwe/20260303-asm-reports-q4-and-full-year-2025-results.pdf).
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Tokyo Electron**: 34.1 percent of sales in the year to March 2026, down from 41.7 percent [16](https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4transcript-e.pdf).
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Lam Research**: 26 percent in the June 2026 quarter, behind Taiwan at 27 percent [2](https://www.sec.gov/Archives/edgar/data/707549/000070754926000033/lrcx_exhibitx991xq4x2026.htm).
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Applied Materials**: 28 percent in the third fiscal quarter of 2026, down from 35 percent [19](https://www.globenewswire.com/news-release/2026/08/13/3344890/0/en/applied-materials-announces-third-quarter-2026-results.html).
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**ASM International**: more than 30 percent of 2025 revenue [18](https://www.asm.com/media/yvxbavwe/20260303-asm-reports-q4-and-full-year-2025-results.pdf).
 
 Between 2019 and 2024 China-based suppliers went from 2 to 7 percent of deposition and from under 3 to about 9 percent of etch and clean, 11 percent in dry etch alone. In ALD they gained nothing and stayed under 1 percent [20](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/). AMEC, the biggest of them, turned over RMB 12.385 billion in 2025, up 36.6 percent, and spent RMB 3.744 billion on research, 30.2 percent of sales [21](https://www.amec-inc.com/news/708.html).
 
 Washington tightened these rules four times between 2022 and 2025.
 
--   **October 2022.** The 7 October interim final rule put manufacturing equipment and US person support under license and widened foreign-produced item rules for 28 listed Chinese entities [22](https://www.govinfo.gov/content/pkg/FR-2022-10-13/pdf/2022-21658.pdf).
--   **October 2023.** The rule effective 17 November rewrote the equipment entries, adding isotropic and anisotropic dry etch (ECCN 3B001.c.1), spatial ALD (3B001.d.9), low-fluorine tungsten ALD and CVD (3B001.d.10) and carbon hard mask PECVD (3B001.d.5) [9](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf).
--   **December 2024.** BIS controlled 24 more types of equipment and three types of software, added 140 entities and wrote a foreign direct product rule that reaches tools built outside the United States [23](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military). The new entries take in TSV etch and deposition into features deeper than 200:1 [14](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).
--   **September 2025.** The Affiliates Rule extended Entity List restrictions to any company at least 50 percent owned by a listed entity [24](https://www.govinfo.gov/content/pkg/FR-2025-09-30/pdf/2025-19001.pdf); BIS then stayed it to 9 November 2026 [25](https://www.govinfo.gov/content/pkg/FR-2025-11-12/pdf/2025-19846.pdf).
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**October 2022.** The 7 October interim final rule put manufacturing equipment and US person support under license and widened foreign-produced item rules for 28 listed Chinese entities [22](https://www.govinfo.gov/content/pkg/FR-2022-10-13/pdf/2022-21658.pdf).
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**October 2023.** The rule effective 17 November rewrote the equipment entries, adding isotropic and anisotropic dry etch (ECCN 3B001.c.1), spatial ALD (3B001.d.9), low-fluorine tungsten ALD and CVD (3B001.d.10) and carbon hard mask PECVD (3B001.d.5) [9](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf).
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**December 2024.** BIS controlled 24 more types of equipment and three types of software, added 140 entities and wrote a foreign direct product rule that reaches tools built outside the United States [23](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military). The new entries take in TSV etch and deposition into features deeper than 200:1 [14](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**September 2025.** The Affiliates Rule extended Entity List restrictions to any company at least 50 percent owned by a listed entity [24](https://www.govinfo.gov/content/pkg/FR-2025-09-30/pdf/2025-19001.pdf); BIS then stayed it to 9 November 2026 [25](https://www.govinfo.gov/content/pkg/FR-2025-11-12/pdf/2025-19846.pdf).
 
 Applied Materials took a $253 million charge to settle an export controls matter [19](https://www.globenewswire.com/news-release/2026/08/13/3344890/0/en/applied-materials-announces-third-quarter-2026-results.html), so the rules reach the vendors as well as their customers.
 
-**Chart:** China-based suppliers' share of global tool segments, 2024 (%)
+**Chart:** China-based suppliers' share of global tool segments, 2024{--{"author":"James's AI","timestamp":1790597066514}@@ (%)--}
 
-Dry stripping 35% Dry etch 11% CMP 11% PVD 10% Etch and clean 9% Deposition 7% CVD 7% Lithography (i-line) 4%
+{++{"author":"James's AI","timestamp":1790597066514}@@| | % |
+|---|---:|
+| ++}Dry stripping {--{"author":"James's AI","timestamp":1790597066514}@@35% --}{++{"author":"James's AI","timestamp":1790597066514}@@| 35 |
+| ++}Dry etch {--{"author":"James's AI","timestamp":1790597066514}@@11%--}{++{"author":"James's AI","timestamp":1790597066514}@@| 11 |
+|++} CMP {--{"author":"James's AI","timestamp":1790597066514}@@11%--}{++{"author":"James's AI","timestamp":1790597066514}@@| 11 |
+|++} PVD {--{"author":"James's AI","timestamp":1790597066514}@@10% --}{++{"author":"James's AI","timestamp":1790597066514}@@| 10 |
+| ++}Etch and clean {--{"author":"James's AI","timestamp":1790597066514}@@9%--}{++{"author":"James's AI","timestamp":1790597066514}@@| 9 |
+|++} Deposition {--{"author":"James's AI","timestamp":1790597066514}@@7% --}{++{"author":"James's AI","timestamp":1790597066514}@@| 7 |
+| ++}CVD {--{"author":"James's AI","timestamp":1790597066514}@@7%--}{++{"author":"James's AI","timestamp":1790597066514}@@| 7 |
+|++} Lithography (i-line) {--{"author":"James's AI","timestamp":1790597066514}@@4%--}{++{"author":"James's AI","timestamp":1790597066514}@@| 4 |++}
 
 Source: [CSET, Inside Beijing’s Chipmaking Offensive](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/)
 
@@ -1441,86 +1469,101 @@ The chokepoint is real but weaker than lithography's. Three or four credible ven
 
 ### Key evaluation criteria ^key-evaluation-criteria-6
 
--   **Selectivity.** How hard the process attacks one material and spares another. BIS controls wet processing at a silicon-germanium-to-silicon ratio of 100:1 [9](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf).
--   **Conformality and aspect ratio.** Whether a film reaches the bottom of a hole, and how deep that hole is against its width. Controls start at 10:1 for TSV etch and 200:1 for 3D DRAM deposition [14](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).
--   **Uniformity.** Variation across a 300 mm wafer, with under 2 percent treated as an advanced-manufacturing marker [14](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).
--   **Throughput.** Wafers per hour, which sets cost per layer and decides how many lots a fab can run.
--   **Particles and chamber matching.** How large a share of the defects a fab can tolerate comes from these tools, and whether one chamber behaves like the next, which {++{"author":"James's AI","timestamp":1790593576251}@@metrology and inspection ++}measure (see [[#^metrology-and-inspection|Metrology and inspection]]).
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Selectivity.** How hard the process attacks one material and spares another. BIS controls wet processing at a silicon-germanium-to-silicon ratio of 100:1 [9](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf).
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Conformality and aspect ratio.** Whether a film reaches the bottom of a hole, and how deep that hole is against its width. Controls start at 10:1 for TSV etch and 200:1 for 3D DRAM deposition [14](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Uniformity.** Variation across a 300 mm wafer, with under 2 percent treated as an advanced-manufacturing marker [14](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Throughput.** Wafers per hour, which sets cost per layer and decides how many lots a fab can run.
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}**Particles and chamber matching.** How large a share of the defects a fab can tolerate comes from these tools, and whether one chamber behaves like the next, which {++{"author":"James's AI","timestamp":1790593576251}@@metrology and inspection ++}measure (see [[#^metrology-and-inspection|Metrology and inspection]]).
 
-{--{"author":"James's AI","timestamp":1790593951430}@@Card--}{++{"author":"James's AI","timestamp":1790593951430}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593951430}@@4Question--}{++{"author":"James's AI","timestamp":1790593951430}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597066514}@@Card 1 of 4Question--}{++{"author":"James's AI","timestamp":1790597066514}@@::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.++}
 
-What do deposition and etch do?
+{++{"author":"James's AI","timestamp":1790597066514}@@:::callout {title="Card 1 of 4: ++}What do deposition and etch {--{"author":"James's AI","timestamp":1790597066514}@@do?
 
-{--{"author":"James's AI","timestamp":1790593952456}@@Card--}{++{"author":"James's AI","timestamp":1790593952456}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593952456}@@4Answer--}{++{"author":"James's AI","timestamp":1790593952456}@@4 · Answer**++}
+Card 1 of 4Answer
 
-Deposition lays down a thin film, and etch cuts away the parts the printed pattern leaves exposed.
+--}{++{"author":"James's AI","timestamp":1790597066514}@@do?" tone="neutral" collapse="closed"}
+++}Deposition lays down a thin film, and etch cuts away the parts the printed pattern leaves exposed.
 
-A chip takes more than a thousand of these rounds, one layer at a time. [[#^how-it-works-6|Reread: How it works]]
+A chip takes more than a thousand of these rounds, one layer at a time. [[#^how-it-works-6|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597066514}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790593954165}@@Card--}{++{"author":"James's AI","timestamp":1790593954165}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593954165}@@4Question--}{++{"author":"James's AI","timestamp":1790593954165}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597066514}@@Card --}{++{"author":"James's AI","timestamp":1790597066514}@@:::callout {title="Card ++}2 of {--{"author":"James's AI","timestamp":1790597066514}@@4Question
 
-Who makes most deposition and etch tools?
+--}{++{"author":"James's AI","timestamp":1790597066514}@@4: ++}Who makes most deposition and etch {--{"author":"James's AI","timestamp":1790597066514}@@tools?
 
-{--{"author":"James's AI","timestamp":1790593955900}@@Card--}{++{"author":"James's AI","timestamp":1790593955900}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593955900}@@4Answer--}{++{"author":"James's AI","timestamp":1790593955900}@@4 · Answer**++}
+Card 2 of 4Answer
 
-Four firms: Applied Materials, Lam Research, Tokyo Electron and ASM International.
+--}{++{"author":"James's AI","timestamp":1790597066514}@@tools?" tone="neutral" collapse="closed"}
+++}Four firms: Applied Materials, Lam Research, Tokyo Electron and ASM International.
 
-They are American, Japanese and Dutch. No single firm dominates the way ASML does in lithography. [[#^who-makes-it-6|Reread: Who makes it]]
+They are American, Japanese and Dutch. No single firm dominates the way ASML does in lithography. [[#^who-makes-it-6|Reread: Who makes it]]{++{"author":"James's AI","timestamp":1790597066514}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790593958365}@@Card--}{++{"author":"James's AI","timestamp":1790593958365}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593958365}@@4Question--}{++{"author":"James's AI","timestamp":1790593958365}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597066514}@@Card--}{++{"author":"James's AI","timestamp":1790597066514}@@:::callout {title="Card++} 3 of {--{"author":"James's AI","timestamp":1790597066514}@@4Question
 
-In which kind of chipmaking tool have Chinese makers come closest to the leaders?
+--}{++{"author":"James's AI","timestamp":1790597066514}@@4: ++}In which kind of chipmaking tool have Chinese makers come closest to the {--{"author":"James's AI","timestamp":1790597066514}@@leaders?
 
-{--{"author":"James's AI","timestamp":1790593959210}@@Card--}{++{"author":"James's AI","timestamp":1790593959210}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593959210}@@4Answer--}{++{"author":"James's AI","timestamp":1790593959210}@@4 · Answer**++}
+Card 3 of 4Answer
 
-Deposition and etch.
+--}{++{"author":"James's AI","timestamp":1790597066514}@@leaders?" tone="neutral" collapse="closed"}
+++}Deposition and etch.
 
-Chinese suppliers held about 11 percent of dry etch and 7 percent of deposition in 2024. [[#^china-and-the-controls|Reread: China and the controls]]
+Chinese suppliers held about 11 percent of dry etch and 7 percent of deposition in 2024. [[#^china-and-the-controls|Reread: China and the controls]]{++{"author":"James's AI","timestamp":1790597066514}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790593961172}@@Card--}{++{"author":"James's AI","timestamp":1790593961172}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593961172}@@4Question--}{++{"author":"James's AI","timestamp":1790593961172}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597066514}@@Card--}{++{"author":"James's AI","timestamp":1790597066514}@@:::callout {title="Card++} 4 of{--{"author":"James's AI","timestamp":1790597066514}@@ 4Question
 
-Which deposition tool is China furthest behind in?
+--}{++{"author":"James's AI","timestamp":1790597066514}@@ 4: ++}Which deposition tool is China furthest behind {--{"author":"James's AI","timestamp":1790597066514}@@in?
 
-{--{"author":"James's AI","timestamp":1790593962517}@@Card--}{++{"author":"James's AI","timestamp":1790593962517}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593962517}@@4Answer--}{++{"author":"James's AI","timestamp":1790593962517}@@4 · Answer**++}
+Card 4 of 4Answer
 
-Atomic layer deposition, with under 1 percent of the market.
+--}{++{"author":"James's AI","timestamp":1790597066514}@@in?" tone="neutral" collapse="closed"}
+++}Atomic layer deposition, with under 1 percent of the market.
 
-The newest gate-all-around transistors depend on it. [[#^china-and-the-controls|Reread: China and the controls]]
+The newest gate-all-around transistors depend on it. [[#^china-and-the-controls|Reread: China and the controls]]{++{"author":"James's AI","timestamp":1790597066514}@@
+:::++}
 
-#### Four things to remember ^four-things-to-remember-5
+{--{"author":"James's AI","timestamp":1790597066514}@@#### Four--}{++{"author":"James's AI","timestamp":1790597066514}@@::::
 
--   Deposition lays down thin films and etch cuts them into patterns, over more than a thousand rounds per chip.
--   Four American, Japanese and Dutch firms make most of these tools, and none dominates.
--   Chinese makers have come closest to the leaders here, with about 11 percent of dry etch in 2024.
--   China is furthest behind in atomic layer deposition, which the newest transistors depend on.
+:::callout {title="Four++} things to {--{"author":"James's AI","timestamp":1790597066514}@@remember ^four-things-to-remember-5
 
-**Sources (25)**
+--}{++{"author":"James's AI","timestamp":1790597066514}@@remember" tone="green"}
+++}-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}Deposition lays down thin films and etch cuts them into patterns, over more than a thousand rounds per chip.
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}Four American, Japanese and Dutch firms make most of these tools, and none dominates.
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}Chinese makers have come closest to the leaders here, with about 11 percent of dry etch in 2024.
+-{--{"author":"James's AI","timestamp":1790597066514}@@   --}{++{"author":"James's AI","timestamp":1790597066514}@@ ++}China is furthest behind in atomic layer deposition, which the newest transistors depend on.{++{"author":"James's AI","timestamp":1790597066514}@@
+:::++}
 
-1.  A [Revenue from Contract with Customer, Excluding Assessed Tax (us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax) reported by APPLIED MATERIALS INC /DE, XBRL company concept data](https://data.sec.gov/api/xbrl/companyconcept/CIK0000006951/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json) U.S. Securities and Exchange Commission (XBRL data for APPLIED MATERIALS INC /DE)
-2.  A [LAM RESEARCH CORP, Form 8-K current report for the period ended 2026-07-29 (8-K)](https://www.sec.gov/Archives/edgar/data/707549/000070754926000033/lrcx_exhibitx991xq4x2026.htm) U.S. Securities and Exchange Commission (filing by LAM RESEARCH CORP) · 29 July 2026
-3.  A [The Semiconductor Supply Chain - Issue Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf) Center for Security and Emerging Technology (CSET) · 21 January 2021
-4.  A [Supply Chain Explorer: Advanced Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N36) Emerging Technology Observatory (ETO)
-5.  A [Supply Chain Explorer: Advanced Chips](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N103) Emerging Technology Observatory (ETO)
-6.  A [Supply Chain Explorer: Advanced Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N42) Emerging Technology Observatory (ETO)
-7.  A [Supply Chain Explorer: Advanced Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N47) Emerging Technology Observatory (ETO)
-8.  A [Supply Chain Explorer: Advanced Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N38) Emerging Technology Observatory (ETO)
-9.  A [Export Controls on Semiconductor Manufacturing Items](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf) U.S. Government Publishing Office (Federal Register) · 25 October 2023
-10.  A [Supply Chain Explorer: Advanced Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N41) Emerging Technology Observatory (ETO)
-11.  A [Supply Chain Explorer: Advanced Chips](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N50) Emerging Technology Observatory (ETO)
-12.  A [Supply Chain Explorer: Advanced Chips](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N51) Emerging Technology Observatory (ETO)
-13.  A [Lam Research Introduces Lam Cryo™ 3.0 Cryogenic Etch Technology to Accelerate Scaling of 3D NAND for the AI Era](https://newsroom.lamresearch.com/2024-07-31-Lam-Research-Introduces-Lam-Cryo-TM-3-0-Cryogenic-Etch-Technology-to-Accelerate-Scaling-of-3D-NAND-for-the-AI-Era) Lam Research · 31 July 2024
-14.  A [Foreign-Produced Direct Product Rule Additions, and Refinements to Controls for Advanced Computing and Semiconductor Manufacturing Items](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf) U.S. Government Publishing Office (Federal Register) · 5 December 2024
-15.  A [Applied Materials Unveils Chip Wiring Innovations for More Energy-Efficient Computing](https://www.globenewswire.com/news-release/2024/07/08/2909540/0/en/applied-materials-unveils-chip-wiring-innovations-for-more-energy-efficient-computing.html) GlobeNewswire (release by Applied Materials) · 8 July 2024
-16.  A [Investor Relations / April 30, 2026](https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4transcript-e.pdf) Tokyo Electron · 30 April 2026
-17.  A [SEMI Reports Global Semiconductor Equipment Billings Reached $135 Billion in 2025, Up 15% Year-on-Year](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025) SEMI · 7 April 2026
-18.  A [Press Release Q4, 2025 text](https://www.asm.com/media/yvxbavwe/20260303-asm-reports-q4-and-full-year-2025-results.pdf) ASM International · 3 March 2026
-19.  A [Applied Materials Announces Third Quarter 2026 Results](https://www.globenewswire.com/news-release/2026/08/13/3344890/0/en/applied-materials-announces-third-quarter-2026-results.html) GlobeNewswire (release by Applied Materials) · 13 August 2026
-20.  A [Inside Beijing’s Chipmaking Offensive](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/) Center for Security and Emerging Technology (CSET) · 14 July 2025
-21.  A [AMEC holds its 2025 annual results briefing (中微公司成功举办2025年度业绩说明会)](https://www.amec-inc.com/news/708.html) Advanced Micro-Fabrication Equipment (AMEC) · 1 April 2026
-22.  A [Implementation of Additional Export Controls: Certain Advanced Computing and Semiconductor Manufacturing Items; Supercomputer and Semiconductor End Use; Entity List Modification](https://www.govinfo.gov/content/pkg/FR-2022-10-13/pdf/2022-21658.pdf) U.S. Government Publishing Office (Federal Register) · 13 October 2022
-23.  A [Commerce Strengthens Export Controls to Restrict China's Capability to Produce Advanced Semiconductors for Military Applications](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military) U.S. Bureau of Industry and Security · 2 December 2024
-24.  A [Expansion of End-User Controls To Cover Affiliates of Certain Listed Entities](https://www.govinfo.gov/content/pkg/FR-2025-09-30/pdf/2025-19001.pdf) U.S. Government Publishing Office (Federal Register) · 30 September 2025
-25.  A [One Year Suspension of Expansion of End-User Controls for Affiliates of Certain Listed Entities](https://www.govinfo.gov/content/pkg/FR-2025-11-12/pdf/2025-19846.pdf) U.S. Government Publishing Office (Federal Register) · 12 November 2025
+{--{"author":"James's AI","timestamp":1790597066514}@@**Sources (25)**
+
+--}{++{"author":"James's AI","timestamp":1790597066514}@@:::callout {title="Sources (25)" tone="neutral" collapse="closed"}
+++}1.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Revenue from Contract with Customer, Excluding Assessed Tax (us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax) reported by APPLIED MATERIALS INC /DE, XBRL company concept {--{"author":"James's AI","timestamp":1790597066514}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0000006951/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json)--}{++{"author":"James's AI","timestamp":1790597066514}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0000006951/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json).++} U.S. Securities and Exchange Commission (XBRL data for APPLIED MATERIALS INC {--{"author":"James's AI","timestamp":1790597066514}@@/DE)--}{++{"author":"James's AI","timestamp":1790597066514}@@/DE). Tier A.++}
+2.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [LAM RESEARCH CORP, Form 8-K current report for the period ended 2026-07-29 {--{"author":"James's AI","timestamp":1790597066514}@@(8-K)](https://www.sec.gov/Archives/edgar/data/707549/000070754926000033/lrcx_exhibitx991xq4x2026.htm)--}{++{"author":"James's AI","timestamp":1790597066514}@@(8-K)](https://www.sec.gov/Archives/edgar/data/707549/000070754926000033/lrcx_exhibitx991xq4x2026.htm).++} U.S. Securities and Exchange Commission (filing by LAM RESEARCH CORP) · 29 July {--{"author":"James's AI","timestamp":1790597066514}@@2026--}{++{"author":"James's AI","timestamp":1790597066514}@@2026. Tier A.++}
+3.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [The Semiconductor Supply Chain - Issue {--{"author":"James's AI","timestamp":1790597066514}@@Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf)--}{++{"author":"James's AI","timestamp":1790597066514}@@Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf).++} Center for Security and Emerging Technology (CSET) · 21 January {--{"author":"James's AI","timestamp":1790597066514}@@2021--}{++{"author":"James's AI","timestamp":1790597066514}@@2021. Tier A.++}
+4.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Supply Chain Explorer: Advanced {--{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N36)--}{++{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N36).++} Emerging Technology Observatory {--{"author":"James's AI","timestamp":1790597066514}@@(ETO)--}{++{"author":"James's AI","timestamp":1790597066514}@@(ETO). Tier A.++}
+5.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Supply Chain Explorer: Advanced {--{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N103)--}{++{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N103).++} Emerging Technology Observatory {--{"author":"James's AI","timestamp":1790597066514}@@(ETO)--}{++{"author":"James's AI","timestamp":1790597066514}@@(ETO). Tier A.++}
+6.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Supply Chain Explorer: Advanced {--{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N42)--}{++{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N42).++} Emerging Technology Observatory {--{"author":"James's AI","timestamp":1790597066514}@@(ETO)--}{++{"author":"James's AI","timestamp":1790597066514}@@(ETO). Tier A.++}
+7.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Supply Chain Explorer: Advanced {--{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N47)--}{++{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N47).++} Emerging Technology Observatory {--{"author":"James's AI","timestamp":1790597066514}@@(ETO)--}{++{"author":"James's AI","timestamp":1790597066514}@@(ETO). Tier A.++}
+8.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Supply Chain Explorer: Advanced {--{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N38)--}{++{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N38).++} Emerging Technology Observatory {--{"author":"James's AI","timestamp":1790597066514}@@(ETO)--}{++{"author":"James's AI","timestamp":1790597066514}@@(ETO). Tier A.++}
+9.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Export Controls on Semiconductor Manufacturing {--{"author":"James's AI","timestamp":1790597066514}@@Items](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf)--}{++{"author":"James's AI","timestamp":1790597066514}@@Items](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf).++} U.S. Government Publishing Office (Federal Register) · 25 October {--{"author":"James's AI","timestamp":1790597066514}@@2023--}{++{"author":"James's AI","timestamp":1790597066514}@@2023. Tier A.++}
+10.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Supply Chain Explorer: Advanced {--{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N41)--}{++{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N35&selectedNode=N41).++} Emerging Technology Observatory {--{"author":"James's AI","timestamp":1790597066514}@@(ETO)--}{++{"author":"James's AI","timestamp":1790597066514}@@(ETO). Tier A.++}
+11.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Supply Chain Explorer: Advanced {--{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N50)--}{++{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N50).++} Emerging Technology Observatory {--{"author":"James's AI","timestamp":1790597066514}@@(ETO)--}{++{"author":"James's AI","timestamp":1790597066514}@@(ETO). Tier A.++}
+12.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Supply Chain Explorer: Advanced {--{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N51)--}{++{"author":"James's AI","timestamp":1790597066514}@@Chips](https://chipexplorer.eto.tech/?parentNode=N46&selectedNode=N51).++} Emerging Technology Observatory {--{"author":"James's AI","timestamp":1790597066514}@@(ETO)--}{++{"author":"James's AI","timestamp":1790597066514}@@(ETO). Tier A.++}
+13.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Lam Research Introduces Lam Cryo™ 3.0 Cryogenic Etch Technology to Accelerate Scaling of 3D NAND for the AI {--{"author":"James's AI","timestamp":1790597066514}@@Era](https://newsroom.lamresearch.com/2024-07-31-Lam-Research-Introduces-Lam-Cryo-TM-3-0-Cryogenic-Etch-Technology-to-Accelerate-Scaling-of-3D-NAND-for-the-AI-Era)--}{++{"author":"James's AI","timestamp":1790597066514}@@Era](https://newsroom.lamresearch.com/2024-07-31-Lam-Research-Introduces-Lam-Cryo-TM-3-0-Cryogenic-Etch-Technology-to-Accelerate-Scaling-of-3D-NAND-for-the-AI-Era).++} Lam Research · 31 July {--{"author":"James's AI","timestamp":1790597066514}@@2024--}{++{"author":"James's AI","timestamp":1790597066514}@@2024. Tier A.++}
+14.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Foreign-Produced Direct Product Rule Additions, and Refinements to Controls for Advanced Computing and Semiconductor Manufacturing {--{"author":"James's AI","timestamp":1790597066514}@@Items](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf)--}{++{"author":"James's AI","timestamp":1790597066514}@@Items](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).++} U.S. Government Publishing Office (Federal Register) · 5 December {--{"author":"James's AI","timestamp":1790597066514}@@2024--}{++{"author":"James's AI","timestamp":1790597066514}@@2024. Tier A.++}
+15.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Applied Materials Unveils Chip Wiring Innovations for More Energy-Efficient {--{"author":"James's AI","timestamp":1790597066514}@@Computing](https://www.globenewswire.com/news-release/2024/07/08/2909540/0/en/applied-materials-unveils-chip-wiring-innovations-for-more-energy-efficient-computing.html)--}{++{"author":"James's AI","timestamp":1790597066514}@@Computing](https://www.globenewswire.com/news-release/2024/07/08/2909540/0/en/applied-materials-unveils-chip-wiring-innovations-for-more-energy-efficient-computing.html).++} GlobeNewswire (release by Applied Materials) · 8 July {--{"author":"James's AI","timestamp":1790597066514}@@2024--}{++{"author":"James's AI","timestamp":1790597066514}@@2024. Tier A.++}
+16.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Investor Relations / April 30, {--{"author":"James's AI","timestamp":1790597066514}@@2026](https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4transcript-e.pdf)--}{++{"author":"James's AI","timestamp":1790597066514}@@2026](https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4transcript-e.pdf).++} Tokyo Electron · 30 April {--{"author":"James's AI","timestamp":1790597066514}@@2026--}{++{"author":"James's AI","timestamp":1790597066514}@@2026. Tier A.++}
+17.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [SEMI Reports Global Semiconductor Equipment Billings Reached $135 Billion in 2025, Up 15% {--{"author":"James's AI","timestamp":1790597066514}@@Year-on-Year](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025)--}{++{"author":"James's AI","timestamp":1790597066514}@@Year-on-Year](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025).++} SEMI · 7 April {--{"author":"James's AI","timestamp":1790597066514}@@2026--}{++{"author":"James's AI","timestamp":1790597066514}@@2026. Tier A.++}
+18.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Press Release Q4, 2025 {--{"author":"James's AI","timestamp":1790597066514}@@text](https://www.asm.com/media/yvxbavwe/20260303-asm-reports-q4-and-full-year-2025-results.pdf)--}{++{"author":"James's AI","timestamp":1790597066514}@@text](https://www.asm.com/media/yvxbavwe/20260303-asm-reports-q4-and-full-year-2025-results.pdf).++} ASM International · 3 March {--{"author":"James's AI","timestamp":1790597066514}@@2026--}{++{"author":"James's AI","timestamp":1790597066514}@@2026. Tier A.++}
+19.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Applied Materials Announces Third Quarter 2026 {--{"author":"James's AI","timestamp":1790597066514}@@Results](https://www.globenewswire.com/news-release/2026/08/13/3344890/0/en/applied-materials-announces-third-quarter-2026-results.html)--}{++{"author":"James's AI","timestamp":1790597066514}@@Results](https://www.globenewswire.com/news-release/2026/08/13/3344890/0/en/applied-materials-announces-third-quarter-2026-results.html).++} GlobeNewswire (release by Applied Materials) · 13 August {--{"author":"James's AI","timestamp":1790597066514}@@2026--}{++{"author":"James's AI","timestamp":1790597066514}@@2026. Tier A.++}
+20.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Inside Beijing’s Chipmaking {--{"author":"James's AI","timestamp":1790597066514}@@Offensive](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/)--}{++{"author":"James's AI","timestamp":1790597066514}@@Offensive](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/).++} Center for Security and Emerging Technology (CSET) · 14 July {--{"author":"James's AI","timestamp":1790597066514}@@2025--}{++{"author":"James's AI","timestamp":1790597066514}@@2025. Tier A.++}
+21.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [AMEC holds its 2025 annual results briefing {--{"author":"James's AI","timestamp":1790597066514}@@(中微公司成功举办2025年度业绩说明会)](https://www.amec-inc.com/news/708.html)--}{++{"author":"James's AI","timestamp":1790597066514}@@(中微公司成功举办2025年度业绩说明会)](https://www.amec-inc.com/news/708.html).++} Advanced Micro-Fabrication Equipment (AMEC) · 1 April {--{"author":"James's AI","timestamp":1790597066514}@@2026--}{++{"author":"James's AI","timestamp":1790597066514}@@2026. Tier A.++}
+22.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Implementation of Additional Export Controls: Certain Advanced Computing and Semiconductor Manufacturing Items; Supercomputer and Semiconductor End Use; Entity List {--{"author":"James's AI","timestamp":1790597066514}@@Modification](https://www.govinfo.gov/content/pkg/FR-2022-10-13/pdf/2022-21658.pdf)--}{++{"author":"James's AI","timestamp":1790597066514}@@Modification](https://www.govinfo.gov/content/pkg/FR-2022-10-13/pdf/2022-21658.pdf).++} U.S. Government Publishing Office (Federal Register) · 13 October {--{"author":"James's AI","timestamp":1790597066514}@@2022--}{++{"author":"James's AI","timestamp":1790597066514}@@2022. Tier A.++}
+23.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Commerce Strengthens Export Controls to Restrict China's Capability to Produce Advanced Semiconductors for Military {--{"author":"James's AI","timestamp":1790597066514}@@Applications](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military)--}{++{"author":"James's AI","timestamp":1790597066514}@@Applications](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military).++} U.S. Bureau of Industry and Security · 2 December {--{"author":"James's AI","timestamp":1790597066514}@@2024--}{++{"author":"James's AI","timestamp":1790597066514}@@2024. Tier A.++}
+24.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [Expansion of End-User Controls To Cover Affiliates of Certain Listed {--{"author":"James's AI","timestamp":1790597066514}@@Entities](https://www.govinfo.gov/content/pkg/FR-2025-09-30/pdf/2025-19001.pdf)--}{++{"author":"James's AI","timestamp":1790597066514}@@Entities](https://www.govinfo.gov/content/pkg/FR-2025-09-30/pdf/2025-19001.pdf).++} U.S. Government Publishing Office (Federal Register) · 30 September {--{"author":"James's AI","timestamp":1790597066514}@@2025--}{++{"author":"James's AI","timestamp":1790597066514}@@2025. Tier A.++}
+25.{--{"author":"James's AI","timestamp":1790597066514}@@  A--} [One Year Suspension of Expansion of End-User Controls for Affiliates of Certain Listed {--{"author":"James's AI","timestamp":1790597066514}@@Entities](https://www.govinfo.gov/content/pkg/FR-2025-11-12/pdf/2025-19846.pdf)--}{++{"author":"James's AI","timestamp":1790597066514}@@Entities](https://www.govinfo.gov/content/pkg/FR-2025-11-12/pdf/2025-19846.pdf).++} U.S. Government Publishing Office (Federal Register) · 12 November {--{"author":"James's AI","timestamp":1790597066514}@@2025--}{++{"author":"James's AI","timestamp":1790597066514}@@2025. Tier A.
+:::++}
 
 ## Metrology and Inspection ^metrology-and-inspection
 
