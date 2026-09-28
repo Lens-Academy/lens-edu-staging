@@ -2817,17 +2817,17 @@ A laser turns the signal into pulses of light that travel down glass fiber. [[#^
 
 Which parts of an AI rack are hardest to replace?
 
-Card 3 of 4Answer
+{--{"author":"James's AI","timestamp":1790594235711}@@Card--}{++{"author":"James's AI","timestamp":1790594235711}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594235711}@@4Answer--}{++{"author":"James's AI","timestamp":1790594235711}@@4 · Answer**++}
 
 Nvidia's NVLink switching and the lasers for the optical links.
 
 Rack assembly is easy to move. If Foxconn stopped, Quanta and Wistron could take over within a few quarters. [[#^the-chokepoint-14|Reread: The chokepoint]]
 
-Card 4 of 4Question
+{--{"author":"James's AI","timestamp":1790594236304}@@Card--}{++{"author":"James's AI","timestamp":1790594236304}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594236304}@@4Question--}{++{"author":"James's AI","timestamp":1790594236304}@@4 · Question**++}
 
 What does China control in the optical links?
 
-Card 4 of 4Answer
+{--{"author":"James's AI","timestamp":1790594237384}@@Card--}{++{"author":"James's AI","timestamp":1790594237384}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594237384}@@4Answer--}{++{"author":"James's AI","timestamp":1790594237384}@@4 · Answer**++}
 
 About 70 percent of the world's indium, the raw material for the lasers.
 
@@ -2840,7 +2840,7 @@ Chinese firms also assemble high-speed optical modules in volume. [[#^the-chokep
 -   NVLink switching and the lasers are the hard parts, and rack assembly is easy to move.
 -   China produces about 70 percent of the world's indium, the raw material for the lasers.
 
-Sources (22)
+**Sources (22)**
 
 1.  A [System Hardware & Components](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html) Nvidia
 2.  A [NVIDIA, Partners Drive Next-Gen Efficient Gigawatt AI Factories in Buildup for Vera Rubin](https://blogs.nvidia.com/blog/gigawatt-ai-factories-ocp-vera-rubin) Nvidia · 13 October 2025
@@ -2869,7 +2869,7 @@ Sources (22)
 
 The chips are no longer the slowest part of a data center buildout. A large transformer takes three years, turbine output does not reach 30 GW a year until 2030, and Texas has fifty times more large loads, mostly data centers, waiting to connect than it has approved to switch on.
 
-1,334 words / 6 minSpecimen: server rack
+{--{"author":"James's AI","timestamp":1790594239771}@@1,334--}{++{"author":"James's AI","timestamp":1790594239771}@@_1,334++} words / 6 {--{"author":"James's AI","timestamp":1790594239771}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594239771}@@min · Interactive 3D Specimen:++} server rack{++{"author":"James's AI","timestamp":1790594239771}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#data-centers-and-power))_++}
 
 In plain terms
 
@@ -2879,15 +2879,15 @@ A data center's job is to feed electricity to the machines inside it and carry a
 
 The rack became the unit of AI compute at 142 kW and is heading for a megawatt by 2027 [4](https://developer.nvidia.com/blog/nvidia-800-v-hvdc-architecture-will-power-the-next-generation-of-ai-factories/), which forces liquid cooling and an 800-volt bus on every large operator [3](https://blogs.nvidia.com/blog/gigawatt-ai-factories-ocp-vera-rubin). Nine vendors sell the cooling equipment, so buying it is a question of price [3](https://blogs.nvidia.com/blog/gigawatt-ai-factories-ocp-vera-rubin). The power equipment comes with queues: transformers take three years [1](https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%20signed%20by%20Secretary%20Granholm%20on%207-10-24.pdf), six years of turbine output is already booked [9](https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm), and Texas has fifty times more large load in the queue than it has approved to switch on [13](https://www.ercot.com/files/docs/2026/07/29/ERCOT-Senate-July-29-Panel-1-Assessing-The-Grid.pdf). When an AI buildout slips, the delay is usually in the substation yard.
 
-Concentration **High**
+Concentration: **High**
 
-Substitutability **Moderate** Several approved vendors sell every piece of power and cooling equipment, but a transformer takes three years to arrive and GE Vernova's gas turbines have orders for about six years ahead.
+Substitutability: **Moderate**. Several approved vendors sell every piece of power and cooling equipment, but a transformer takes three years to arrive and GE Vernova's gas turbines have orders for about six years ahead.
 
-Price or market size **Transformer lead times of 36 months, against under a year before 2020** GE Vernova's gas backlog and reserved slots grew from 100 GW to 116 GW in 2026
+Price or market size: **Transformer lead times of 36 months, against under a year before 2020**. GE Vernova's gas backlog and reserved slots grew from 100 GW to 116 GW in 2026
 
 Who leads
 
--   USGE Vernova 116 GW of gas equipment backlog and reserved factory slots at mid-2026
+-   {--{"author":"James's AI","timestamp":1790594245158}@@USGE Vernova--}{++{"author":"James's AI","timestamp":1790594245158}@@US · **GE Vernova**:++} 116 GW of gas equipment backlog and reserved factory slots at mid-2026
 -   CHHitachi Energy Large power transformers and high-voltage switchgear
 -   DESiemens Energy Grid technologies, transformers, turbines
 -   USVertiv Data center power and cooling systems; NVIDIA gigawatt AI factory partner
