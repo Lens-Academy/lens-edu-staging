@@ -112,7 +112,7 @@ One or two people share what their group landed on.
 ### Room 4: Next unit and feedback  [1:15–1:27]
 
 **New group. Names first, then straight in.**
-1\. Next unit: Hardware verification, what a chip can and cannot prove about the work it did. About 155 minutes plus an optional 30. It opens with the claim ledger (seven conclusions about a stack of chip attestation tokens): answer it before reading on and keep your answers. What's most likely to stop you finishing, and what's your plan to beat it? (Send the plan to your accountability buddy after the meeting.)
+1\. Next unit: Hardware verification, what a chip can and cannot prove about the work it did. About 155 minutes plus an optional 30. What's most likely to stop you finishing, and what's your plan to beat it? (Send the plan to your accountability buddy after the meeting.)
 2\. Feedback: what would make the course and this meeting better?
 
 
@@ -130,7 +130,6 @@ Back in the main room, share if you feel like it: one thing you're glad you know
 Before you leave (your navigator will talk through these):
 
 - Next unit: Hardware verification. What a signed attestation proves and what it does not; identity, location, topology and the negative claim of completeness; measuring and classifying compute use; offline licensing and who holds the key; and where trust should live: in the chip, on the network, on the power line, or across all three. About 155 minutes core plus an optional 30.
-- Answer the claim ledger (the unit's opening exercise) before reading on, and keep your answers: XLab's curriculum returns to them later in the track.
 - Found something unclear, wrong, or missing? The course is still in development: send it through [XLab's feedback form](https://forms.gle/KkWcHkKh87pygDzw9).
 
 
@@ -192,7 +191,7 @@ source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
 
 
 1. Ask for "one thing I'm taking away" from anyone who wants it (~10 sec each; a few voices is plenty, people have already shared between rooms).
-2. **Next-unit heads-up: reading is Unit 5, Hardware verification (attestation and what it does not prove, identity, location, topology and completeness, measuring and classifying use, offline licensing, and where trust should live; about 155 minutes core plus an optional 30-minute extension); remind them to answer the opening claim ledger before reading on and keep their answers, to send their Room-4 plan to their accountability buddy, and that feedback goes to XLab's form (link in the session doc).**
+2. **Next-unit heads-up: reading is Unit 5, Hardware verification (attestation and what it does not prove, identity, location, topology and completeness, measuring and classifying use, offline licensing, and where trust should live; about 155 minutes core plus an optional 30-minute extension); remind them to send their Room-4 plan to their accountability buddy, and that feedback goes to XLab's form (link in the session doc).**
 3. **End on time.** Then say the meeting **stays open** for anyone who wants to keep talking; stay and facilitate, or say goodbye and leave (they can keep going without you).
 
 
