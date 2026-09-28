@@ -301,19 +301,19 @@ Price or market size: **The world wafer market was $11.4bn in 2025, on 12,973 mi
 
 Who leads
 
--   JPShin-Etsu Handotai Largest supplier; the parent's electronics materials arm sold ¥750.3bn from April to December 2025
--   JPSUMCO ¥409.7bn of 2025 net sales, but an ¥11.8bn loss
--   TWGlobalWafers NT$60.6bn revenue in 2025
--   KRSK Siltron One of the five firms that supply the whole wafer market
--   DESiltronic €1,346.7m revenue in 2025
+-   {--{"author":"James's AI","timestamp":1790593780804}@@JPShin-Etsu Handotai--}{++{"author":"James's AI","timestamp":1790593780804}@@JP · **Shin-Etsu Handotai**:++} Largest supplier; the parent's electronics materials arm sold ¥750.3bn from April to December 2025
+-   {--{"author":"James's AI","timestamp":1790593781770}@@JPSUMCO--}{++{"author":"James's AI","timestamp":1790593781770}@@JP · **SUMCO**:++} ¥409.7bn of 2025 net sales, but an ¥11.8bn loss
+-   {--{"author":"James's AI","timestamp":1790593782565}@@TWGlobalWafers--}{++{"author":"James's AI","timestamp":1790593782565}@@TW · **GlobalWafers**:++} NT$60.6bn revenue in 2025
+-   {--{"author":"James's AI","timestamp":1790593783260}@@KRSK Siltron--}{++{"author":"James's AI","timestamp":1790593783260}@@KR · **SK Siltron**:++} One of the five firms that supply the whole wafer market
+-   {--{"author":"James's AI","timestamp":1790593784535}@@DESiltronic--}{++{"author":"James's AI","timestamp":1790593784535}@@DE · **Siltronic**:++} €1,346.7m revenue in 2025
 
 Where it is made
 
--   JPJapan Shin-Etsu and SUMCO crystal growth and polishing
--   TWTaiwan GlobalWafers headquarters and plants
--   DEGermany Siltronic Burghausen and Freiberg; Wacker semiconductor-grade polysilicon
--   KRSouth Korea SK Siltron, being sold to Doosan
--   USUnited States Hemlock polysilicon in Michigan; GlobalWafers Sherman, Texas and St Peters, Missouri
+-   {--{"author":"James's AI","timestamp":1790593786546}@@JPJapan--}{++{"author":"James's AI","timestamp":1790593786546}@@JP · **Japan**:++} Shin-Etsu and SUMCO crystal growth and polishing
+-   {--{"author":"James's AI","timestamp":1790593787837}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790593787837}@@TW · **Taiwan**:++} GlobalWafers headquarters and plants
+-   {--{"author":"James's AI","timestamp":1790593788891}@@DEGermany--}{++{"author":"James's AI","timestamp":1790593788891}@@DE · **Germany**:++} Siltronic Burghausen and Freiberg; Wacker semiconductor-grade polysilicon
+-   {--{"author":"James's AI","timestamp":1790593789713}@@KRSouth Korea--}{++{"author":"James's AI","timestamp":1790593789713}@@KR · **South Korea**:++} SK Siltron, being sold to Doosan
+-   {--{"author":"James's AI","timestamp":1790593790936}@@USUnited States--}{++{"author":"James's AI","timestamp":1790593790936}@@US · **United States**:++} Hemlock polysilicon in Michigan; GlobalWafers Sherman, Texas and St Peters, Missouri
 
 Why substitution is possible
 
