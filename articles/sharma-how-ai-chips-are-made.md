@@ -595,27 +595,27 @@ A wash removes the parts the light reached. The pattern that remains guides the 
 
 Which country makes most of the world's photoresist?
 
-Card 2 of 4Answer
+{--{"author":"James's AI","timestamp":1790593844869}@@Card--}{++{"author":"James's AI","timestamp":1790593844869}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593844869}@@4Answer--}{++{"author":"James's AI","timestamp":1790593844869}@@4 · Answer**++}
 
 Japan.
 
 Japan made about 90 percent in 2021 and 78 percent in 2023. [[#^who-makes-it-3|Reread: Who makes it]]
 
-Card 3 of 4Question
+{--{"author":"James's AI","timestamp":1790593846389}@@Card--}{++{"author":"James's AI","timestamp":1790593846389}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593846389}@@4Question--}{++{"author":"James's AI","timestamp":1790593846389}@@4 · Question**++}
 
 Why does replacing a photoresist supplier take years?
 
-Card 3 of 4Answer
+{--{"author":"James's AI","timestamp":1790593847771}@@Card--}{++{"author":"James's AI","timestamp":1790593847771}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593847771}@@4Answer--}{++{"author":"James's AI","timestamp":1790593847771}@@4 · Answer**++}
 
 Each formula is approved for one layer of one product at one factory.
 
 After Japan's 2019 export licenses, Korea needed five years to build substitutes. [[#^the-chokepoint-3|Reread: The chokepoint]]
 
-Card 4 of 4Question
+{--{"author":"James's AI","timestamp":1790593849038}@@Card--}{++{"author":"James's AI","timestamp":1790593849038}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593849038}@@4Question--}{++{"author":"James's AI","timestamp":1790593849038}@@4 · Question**++}
 
 Do China's controls on gallium and germanium hurt silicon AI chips?
 
-Card 4 of 4Answer
+{--{"author":"James's AI","timestamp":1790593850292}@@Card--}{++{"author":"James's AI","timestamp":1790593850292}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593850292}@@4Answer--}{++{"author":"James's AI","timestamp":1790593850292}@@4 · Answer**++}
 
 Very little. Neither metal goes into a silicon chip.
 
@@ -628,7 +628,7 @@ Both go into optics and non-silicon chips such as LEDs and lasers. [[#^the-choke
 -   Each resist is approved for one layer of one product at one factory, so a new supplier takes years.
 -   China's gallium and germanium controls hit optics and non-silicon chips, and barely touch a silicon GPU.
 
-Sources (16)
+**Sources (16)**
 
 1.  A [Electronics | Air Liquide](https://www.airliquide.com/group/activities/electronics) Air Liquide
 2.  A [JSR Agrees to Acquire EUV Pioneer Inpria Corporation | 2021 | News](https://www.jsr.co.jp/jsr_e/news/2021/20210917.html) JSR Corporation · 17 September 2021
@@ -651,7 +651,7 @@ Sources (16)
 
 The most concentrated stage in the chain. One firm in the Netherlands builds every extreme ultraviolet scanner in the world, the machine that prints the finest circuit layers. It shipped 48 of them in 2025, at around $200 million each.
 
-1,564 words / 7 minSpecimen: EUV scanner
+{--{"author":"James's AI","timestamp":1790593852291}@@1,564--}{++{"author":"James's AI","timestamp":1790593852291}@@_1,564++} words / 7 {--{"author":"James's AI","timestamp":1790593852291}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593852291}@@min · Interactive 3D Specimen:++} EUV scanner{++{"author":"James's AI","timestamp":1790593852291}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#lithography))_++}
 
 In plain terms
 
@@ -661,7 +661,7 @@ Lithography prints the pattern of a circuit onto the wafer. A machine holds a st
 
 ASML, in Veldhoven, using Zeiss mirrors from Oberkochen, sets the resolution of every leading-edge AI chip. ASML booked 48 EUV systems in 2025, four of them High-NA [1](https://ourbrand.asml.com/m/419103cb23dfeaa4/original/asml-2025-annual-report-financial-performance-section.pdf). Export controls cut China's share of ASML system sales from 41 percent in 2024 to 33 percent in 2025 [4](https://ourbrand.asml.com/m/3136300aa4999bc1/original/2026_01_28_Presentation-Investor-Relations-Q4-2025.pdf), and China's answer is domestic immersion DUV plus an EUV prototype that has not yet made a chip. No announced program changes this bottleneck before 2030.
 
-Concentration **Extreme**
+Concentration: **Extreme**
 
 Substitutability **Very hard** ASML is the only maker of EUV scanners, only Zeiss can polish their mirrors, and a state-funded Chinese team has made the light but has not printed a chip.
 
