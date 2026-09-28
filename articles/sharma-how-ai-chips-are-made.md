@@ -2685,21 +2685,21 @@ At the rack, the hard parts are power and light. Assembly is competitive and can
 
 Concentration: **High**
 
-Substitutability **Moderate** Rated on the two most concentrated parts: Nvidia alone sells NVLink, the link that joins the accelerators in a rack, and few firms make the lasers for the optical links.
+Substitutability: **Moderate**. Rated on the two most concentrated parts: Nvidia alone sells NVLink, the link that joins the accelerators in a rack, and few firms make the lasers for the optical links.
 
-Price or market size **Nvidia put $2B each into Coherent and Lumentum in March 2026 to buy indium phosphide laser capacity**
+Price or market size: **Nvidia put $2B each into Coherent and Lumentum in March 2026 to buy indium phosphide laser capacity**
 
 Who leads
 
--   USNvidia NVLink and NVSwitch for links inside a rack; InfiniBand and Spectrum-X Ethernet between racks
--   USBroadcom Switch chips sold to any buyer (Tomahawk, Jericho) and most custom AI accelerators
--   TWFoxconn Largest AI rack assembler; builds in Taiwan, Mexico, Texas
--   CNInnoLight High-speed optical modules; plants in Suzhou, Taiwan and Thailand
--   USCoherent Indium phosphide lasers and data center transceivers
+-   {--{"author":"James's AI","timestamp":1790594209270}@@USNvidia--}{++{"author":"James's AI","timestamp":1790594209270}@@US · **Nvidia**:++} NVLink and NVSwitch for links inside a rack; InfiniBand and Spectrum-X Ethernet between racks
+-   {--{"author":"James's AI","timestamp":1790594210132}@@USBroadcom--}{++{"author":"James's AI","timestamp":1790594210132}@@US · **Broadcom**:++} Switch chips sold to any buyer (Tomahawk, Jericho) and most custom AI accelerators
+-   {--{"author":"James's AI","timestamp":1790594211268}@@TWFoxconn--}{++{"author":"James's AI","timestamp":1790594211268}@@TW · **Foxconn**:++} Largest AI rack assembler; builds in Taiwan, Mexico, Texas
+-   {--{"author":"James's AI","timestamp":1790594212018}@@CNInnoLight--}{++{"author":"James's AI","timestamp":1790594212018}@@CN · **InnoLight**:++} High-speed optical modules; plants in Suzhou, Taiwan and Thailand
+-   {--{"author":"James's AI","timestamp":1790594212768}@@USCoherent--}{++{"author":"James's AI","timestamp":1790594212768}@@US · **Coherent**:++} Indium phosphide lasers and data center transceivers
 
 Where it is made
 
--   USUnited States Switch and accelerator silicon, indium phosphide lasers, system design
+-   {--{"author":"James's AI","timestamp":1790594214701}@@USUnited States--}{++{"author":"James's AI","timestamp":1790594214701}@@US · **United States**:++} Switch and accelerator silicon, indium phosphide lasers, system design
 -   TWTaiwan Contract design and rack assembly; high-layer-count circuit boards
 -   CNChina Optical module assembly and test; most of the world's indium
 -   THThailand Chinese module makers' offshore transceiver plants
