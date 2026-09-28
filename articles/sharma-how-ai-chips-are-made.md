@@ -1569,42 +1569,45 @@ The newest gate-all-around transistors depend on it. [[#^china-and-the-controls|
 
 No fab is planned around measuring and inspecting wafers, and no fab works without it. One American firm holds about 57% of the market for those tools, roughly seven times its nearest rival, and its share is still growing.
 
-%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+{--{"author":"James's AI","timestamp":1790597081004}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
 
-{--{"author":"James's AI","timestamp":1790593964925}@@1,541--}{++{"author":"James's AI","timestamp":1790593964925}@@_1,541++} words / 7 {--{"author":"James's AI","timestamp":1790593964925}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593964925}@@min · Interactive 3D Specimen:++} electron microscope column{++{"author":"James's AI","timestamp":1790593964925}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#metrology-and-inspection))_++}
+1,541--}{++{"author":"James's AI","timestamp":1790597081004}@@*1,541++} words / 7{--{"author":"James's AI","timestamp":1790597081004}@@ minSpecimen: electron microscope column--}{++{"author":"James's AI","timestamp":1790597081004}@@ min*++}
 
-**In plain terms**
+{--{"author":"James's AI","timestamp":1790597081004}@@**In--}{++{"author":"James's AI","timestamp":1790597081004}@@:::callout {title="In++} plain {--{"author":"James's AI","timestamp":1790597081004}@@terms**
 
-Metrology and inspection are the factory's quality control. Between the steps that build a chip, another machine looks the wafer over. It checks whether the lines are the right width, whether this layer landed squarely on the last one, and whether a speck of dirt has killed a circuit. An AI accelerator is the part built to run AI, and its main chip, the one that does the calculating, is one of the largest cut from a wafer. A bigger chip is a bigger target for a speck. On a chip that size, halving the stray specks lifts the share of working chips from about half to about seven in ten. One American firm sells seven times as many of those machines as its nearest rival, so a chip factory, or fab, cut off from it can buy every other tool and still not learn why its chips fail.
+--}{++{"author":"James's AI","timestamp":1790597081004}@@terms" tone="neutral"}
+++}Metrology and inspection are the factory's quality control. Between the steps that build a chip, another machine looks the wafer over. It checks whether the lines are the right width, whether this layer landed squarely on the last one, and whether a speck of dirt has killed a circuit. An AI accelerator is the part built to run AI, and its main chip, the one that does the calculating, is one of the largest cut from a wafer. A bigger chip is a bigger target for a speck. On a chip that size, halving the stray specks lifts the share of working chips from about half to about seven in ten. One American firm sells seven times as many of those machines as its nearest rival, so a chip factory, or fab, cut off from it can buy every other tool and still not learn why its chips fail.{++{"author":"James's AI","timestamp":1790597081004}@@
+:::++}
 
 ### In short ^in-short-7
 
 Yield is set by defect density and die area, and AI accelerators have the largest dies in production. KLA holds about 57 percent of the market, six to seven times its nearest rival, and is still gaining [2](https://d1io3yog0oux5.cloudfront.net/_7791115a123b86b3f10b1a5eb5210224/klatencor/db/1166/10653/file/2026+Investor+Day+Master+Final_IR+copy.pdf), with Applied Materials, Lasertec, Hitachi High-Tech, ASML, Nova, Onto and Camtek splitting the rest [3](https://chipexplorer.eto.tech/?parentNode=N118&selectedNode=N60). KLA's packaging process control revenue is heading toward $1.1 billion in 2026 [1](https://d1io3yog0oux5.cloudfront.net/_b9ee755a5f60dd0fb3f9e27967aed6af/klatencor/db/1117/10668/letter_to_shareholders/KLA+Earnings+Shareholder+Letter+-+Q4+FY26.pdf). No one has recorded a Chinese gain in process control, which is why the controls on it are the ones China can least easily answer with domestic tools.
 
-Concentration: **High**
+{--{"author":"James's AI","timestamp":1790597081004}@@Concentration: **High**--}{++{"author":"James's AI","timestamp":1790597081004}@@:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** High++}
 
-Substitutability: **Moderate**. KLA is the largest maker of measuring and inspecting tools, but every kind has a second maker, so losing KLA would slow a fab without stopping it.
+{--{"author":"James's AI","timestamp":1790597081004}@@Substitutability: **Moderate**.--}{++{"author":"James's AI","timestamp":1790597081004}@@**Substitutability:** Moderate.++} KLA is the largest maker of measuring and inspecting tools, but every kind has a second maker, so losing KLA would slow a fab without stopping it.
 
-Price or market size: **A $15.7B process control tool market in 2025, about 57% of it KLA's**. KLA's fiscal 2026 revenue was $13.58B against a wafer equipment market of roughly $120B in 2025, so process control is around a tenth of what a fab spends on tools.
+{--{"author":"James's AI","timestamp":1790597081004}@@Price--}{++{"author":"James's AI","timestamp":1790597081004}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597081004}@@size: **A--}{++{"author":"James's AI","timestamp":1790597081004}@@size:** A++} $15.7B process control tool market in 2025, about 57% of it {--{"author":"James's AI","timestamp":1790597081004}@@KLA's**.--}{++{"author":"James's AI","timestamp":1790597081004}@@KLA's.++} KLA's fiscal 2026 revenue was $13.58B against a wafer equipment market of roughly $120B in 2025, so process control is around a tenth of what a fab spends on tools.
 
 **Who leads**
 
--   {--{"author":"James's AI","timestamp":1790593972597}@@USKLA--}{++{"author":"James's AI","timestamp":1790593972597}@@US · **KLA**:++} 56.5% of process control in 2024 on its own investor-day count, 6.5 times its nearest rival; $13.58B revenue, fiscal 2026
--   {--{"author":"James's AI","timestamp":1790593974277}@@USApplied Materials--}{++{"author":"James's AI","timestamp":1790593974277}@@US · **Applied Materials**:++} 11.2% of process control tools in 2025: electron-beam defect review, line-width measurement and film metrology
--   {--{"author":"James's AI","timestamp":1790593975667}@@JPLasertec--}{++{"author":"James's AI","timestamp":1790593975667}@@JP · **Lasertec**:++} 6.4% of process control tools in 2025, almost all of it mask inspection
--   {--{"author":"James's AI","timestamp":1790593977116}@@NLASML--}{++{"author":"James's AI","timestamp":1790593977116}@@NL · **ASML**:++} 5.9% of process control tools in 2025: YieldStar layer alignment and HMI multibeam electron inspection
--   {--{"author":"James's AI","timestamp":1790593979622}@@ILNova--}{++{"author":"James's AI","timestamp":1790593979622}@@IL · **Nova**:++} 4.3% of process control tools in 2025; $880.6M revenue, 2025
--   {--{"author":"James's AI","timestamp":1790593981019}@@USOnto Innovation--}{++{"author":"James's AI","timestamp":1790593981019}@@US · **Onto Innovation**:++} 2.6% of process control tools in 2025; $1.01B revenue, 2025
+-{--{"author":"James's AI","timestamp":1790597081004}@@   USKLA--}{++{"author":"James's AI","timestamp":1790597081004}@@ **KLA** (US):++} 56.5% of process control in 2024 on its own investor-day count, 6.5 times its nearest rival; $13.58B revenue, fiscal 2026
+-{--{"author":"James's AI","timestamp":1790597081004}@@   USApplied Materials--}{++{"author":"James's AI","timestamp":1790597081004}@@ **Applied Materials** (US):++} 11.2% of process control tools in 2025: electron-beam defect review, line-width measurement and film metrology
+-{--{"author":"James's AI","timestamp":1790597081004}@@   JPLasertec--}{++{"author":"James's AI","timestamp":1790597081004}@@ **Lasertec** (JP):++} 6.4% of process control tools in 2025, almost all of it mask inspection
+-{--{"author":"James's AI","timestamp":1790597081004}@@   NLASML--}{++{"author":"James's AI","timestamp":1790597081004}@@ **ASML** (NL):++} 5.9% of process control tools in 2025: YieldStar layer alignment and HMI multibeam electron inspection
+-{--{"author":"James's AI","timestamp":1790597081004}@@   ILNova--}{++{"author":"James's AI","timestamp":1790597081004}@@ **Nova** (IL):++} 4.3% of process control tools in 2025; $880.6M revenue, 2025
+-{--{"author":"James's AI","timestamp":1790597081004}@@   USOnto Innovation--}{++{"author":"James's AI","timestamp":1790597081004}@@ **Onto Innovation** (US):++} 2.6% of process control tools in 2025; $1.01B revenue, 2025
 
 **Where it is made**
 
--   {--{"author":"James's AI","timestamp":1790593985371}@@USUnited States--}{++{"author":"James's AI","timestamp":1790593985371}@@US · **United States**:++} KLA (Milpitas), Onto Innovation (Wilmington, MA), Applied Materials
--   {--{"author":"James's AI","timestamp":1790593986974}@@NLNetherlands--}{++{"author":"James's AI","timestamp":1790593986974}@@NL · **Netherlands**:++} ASML YieldStar and HMI e-beam, Veldhoven and San Jose
--   {--{"author":"James's AI","timestamp":1790593988684}@@JPJapan--}{++{"author":"James's AI","timestamp":1790593988684}@@JP · **Japan**:++} Hitachi High-Tech CD-SEM; Lasertec mask inspection; Rigaku X-ray
--   {--{"author":"James's AI","timestamp":1790593989708}@@ILIsrael--}{++{"author":"James's AI","timestamp":1790593989708}@@IL · **Israel**:++} Nova (Rehovot) and Camtek (Migdal Haemek)
--   {--{"author":"James's AI","timestamp":1790593990543}@@CNChina--}{++{"author":"James's AI","timestamp":1790593990543}@@CN · **China**:++} Domestic entrants only; 0.7% of the process control tool market in 2025
+-{--{"author":"James's AI","timestamp":1790597081004}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597081004}@@ **United States**:++} KLA (Milpitas), Onto Innovation (Wilmington, MA), Applied Materials
+-{--{"author":"James's AI","timestamp":1790597081004}@@   NLNetherlands--}{++{"author":"James's AI","timestamp":1790597081004}@@ **Netherlands**:++} ASML YieldStar and HMI e-beam, Veldhoven and San Jose
+-{--{"author":"James's AI","timestamp":1790597081004}@@   JPJapan--}{++{"author":"James's AI","timestamp":1790597081004}@@ **Japan**:++} Hitachi High-Tech CD-SEM; Lasertec mask inspection; Rigaku X-ray
+-{--{"author":"James's AI","timestamp":1790597081004}@@   ILIsrael--}{++{"author":"James's AI","timestamp":1790597081004}@@ **Israel**:++} Nova (Rehovot) and Camtek (Migdal Haemek)
+-{--{"author":"James's AI","timestamp":1790597081004}@@   CNChina--}{++{"author":"James's AI","timestamp":1790597081004}@@ **China**:++} Domestic entrants only; 0.7% of the process control tool market in 2025
 
-Why substitution is possible
+{--{"author":"James's AI","timestamp":1790597081004}@@Why--}{++{"author":"James's AI","timestamp":1790597081004}@@**Why++} substitution is {--{"author":"James's AI","timestamp":1790597081004}@@possible--}{++{"author":"James's AI","timestamp":1790597081004}@@possible**++}
 
 Metrology and inspection tools measure and inspect wafers so a fab can find and fix faults in its process. KLA is the biggest maker, but seven other firms ship approved tools, and three of them are the leader in one kind of tool. A fab that loses KLA and buys from the others keeps running. It finds fewer flaws and fixes them more slowly, and it needs two to five years to return to its old performance. A country that is not allowed to buy from any of them would take far longer: Chinese firms held 0.7 percent of the market for these tools in 2025.
 
@@ -1614,7 +1617,8 @@ Of all major kinds of chipmaking tool, metrology and inspection is where Chinese
 
 **Where the US stands**
 
-KLA is the largest maker of metrology and inspection tools in the world. It puts its own 2024 share at 56.5 percent, or 6.5 times its nearest rival. CSET's Supply Chain Explorer puts it at 56.8 percent of the 2025 market. American firms hold 72 percent of this market and Japanese firms 14 percent. A December 2024 US rule added inspection and measurement tools for patterned 300 mm wafers to the controlled list, for tools that can find defects 21 nm across or smaller.
+KLA is the largest maker of metrology and inspection tools in the world. It puts its own 2024 share at 56.5 percent, or 6.5 times its nearest rival. CSET's Supply Chain Explorer puts it at 56.8 percent of the 2025 market. American firms hold 72 percent of this market and Japanese firms 14 percent. A December 2024 US rule added inspection and measurement tools for patterned 300 mm wafers to the controlled list, for tools that can find defects 21 nm across or smaller.{++{"author":"James's AI","timestamp":1790597081004}@@
+:::++}
 
 Process control is about a tenth of what a fab spends on tools, out of a wafer equipment market of roughly $120 billion in 2025 [1](https://d1io3yog0oux5.cloudfront.net/_b9ee755a5f60dd0fb3f9e27967aed6af/klatencor/db/1117/10668/letter_to_shareholders/KLA+Earnings+Shareholder+Letter+-+Q4+FY26.pdf). At its March 2026 investor day KLA put its own 2024 share at 56.5 percent, six and a half times its nearest competitor [2](https://d1io3yog0oux5.cloudfront.net/_7791115a123b86b3f10b1a5eb5210224/klatencor/db/1166/10653/file/2026+Investor+Day+Master+Final_IR+copy.pdf); CSET's own count for 2025 is 56.8 percent [3](https://chipexplorer.eto.tech/?parentNode=N118&selectedNode=N60).
 
@@ -1630,35 +1634,45 @@ A bigger chip is a bigger target for the second kind, and the loss grows faster 
 
 Run that equation with a clustering constant of 3 for an 8 square centimeter die, about as much as one exposure can print, and it yields about 49 percent at a defect density of 0.10 and about 69 percent at 0.05 [4](https://web.ece.ucsb.edu/~parhami/docs_folder/f33-book-dep-comp-pt2.pdf). Getting from one to the other is yield learning: find which of the thousand-odd steps is losing dies, fix it, move on.
 
-{--{"author":"James's AI","timestamp":1790594485001}@@![](https://chipsupplychain.org/media/defects-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594485001}@@![Why big chips lose more to defects](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-defects.jpg)++}{++{"author":"James's AI","timestamp":1790594886254}@@
+{--{"author":"James's AI","timestamp":1790594485001}@@![](https://chipsupplychain.org/media/defects-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594485001}@@![Why big chips lose more to defects](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-defects.jpg)++}{--{"author":"James's AI","timestamp":1790597081004}@@
 
-%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%++}
+**Figure: Why --}{++{"author":"James's AI","timestamp":1790597081004}@@
 
-**Figure: Why big chips lose more to defects.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#metrology-and-inspection)); above is its last frame. Its steps:
+*Why ++}big chips lose more to {--{"author":"James's AI","timestamp":1790597081004}@@defects.** An animation on the live site ([watch it --}{++{"author":"James's AI","timestamp":1790597081004}@@defects. The last frame of an animation ++}on{--{"author":"James's AI","timestamp":1790597081004}@@ chipsupplychain.org](https://chipsupplychain.org/#metrology-and-inspection)); above is its last frame.--}{++{"author":"James's AI","timestamp":1790597081004}@@ the original site.++} Its {--{"author":"James's AI","timestamp":1790597081004}@@steps:--}{++{"author":"James's AI","timestamp":1790597081004}@@steps:*++}
 
 1. **Specks land.** Specks of dust and tiny flaws land at random on every wafer.
 2. **Small chips.** Cut into small chips, almost every chip misses every speck.
 3. **AI-size chips.** An AI chip covers eight times the area, so about half of them catch a speck and fail.
 4. **Half the specks.** Halve the specks and about seven in ten AI chips work. Finding defects pays most on the biggest chips.
 
-_Simulated 300 mm wafer: 68 specks, 0.10 per square centimeter, placed at random in loose clusters. The share of working chips follows the formula above with a clustering constant of 3._
+{--{"author":"James's AI","timestamp":1790597081004}@@_Simulated--}{++{"author":"James's AI","timestamp":1790597081004}@@*Simulated++} 300 mm wafer: 68 specks, 0.10 per square centimeter, placed at random in loose clusters. The share of working chips follows the formula above with a clustering constant of{--{"author":"James's AI","timestamp":1790597081004}@@ 3._
 
-Why big chips lose more to defects
+Why big chips lose more to defects--}{++{"author":"James's AI","timestamp":1790597081004}@@ 3.*++}
 
 ### Variants and trade-offs ^variants-and-trade-offs-7
 
 The tools trade sensitivity against speed. All the market sizes and shares below are CSET's, for 2025 [3](https://chipexplorer.eto.tech/?parentNode=N118&selectedNode=N60).
 
--   **Defect inspection** scans a whole wafer with light or electrons and compares each die against its neighbors. It is by far the largest family, $6.7 billion, and the one KLA dominates, at 85.9 percent. ASML's HMI eScan 1100 runs 25 electron beams at once, up to 15 times the speed of a single beam, and finds patterning defects down to 7 nm [5](https://www.asml.com/en/products/metrology-and-inspection-systems/hmi-escan-1100).
--   **Film and shape metrology** measures how thick each film is and how flat the wafer sits, without cutting it open: $2.6 billion, with KLA at 45.6 percent, Nova at 24.6 and Onto Innovation at 10.9. Onto paid about $720 million in August 2026 for 27 percent of Japan's X-ray maker Rigaku [6](https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Completes-Strategic-Investment-in-Rigaku-Holdings-Corporation/default.aspx).
--   **Mask inspection and repair** gets its own tools, because a defect on a mask repeats on every die: $2.2 billion, and the one family where KLA has a close rival, 45.9 percent against Lasertec's 42 and Zeiss's 10.1.
--   **Overlay metrology** measures whether this layer sits on the one below: $991 million, split almost evenly between KLA at 51.5 percent and ASML at 47.9.
--   **Critical dimension metrology** measures how wide a printed feature actually came out: $1.2 billion, and the one family Japan leads, with Hitachi at 71.9 percent and Applied Materials at 27.5.
--   **Electron-beam metrology** resolves detail too fine for light: $1.3 billion, led by Applied Materials at 45.1 percent with ASML at 35.6 and KLA at 18.8.
+-{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Defect inspection** scans a whole wafer with light or electrons and compares each die against its neighbors. It is by far the largest family, $6.7 billion, and the one KLA dominates, at 85.9 percent. ASML's HMI eScan 1100 runs 25 electron beams at once, up to 15 times the speed of a single beam, and finds patterning defects down to 7 nm [5](https://www.asml.com/en/products/metrology-and-inspection-systems/hmi-escan-1100).
+-{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Film and shape metrology** measures how thick each film is and how flat the wafer sits, without cutting it open: $2.6 billion, with KLA at 45.6 percent, Nova at 24.6 and Onto Innovation at 10.9. Onto paid about $720 million in August 2026 for 27 percent of Japan's X-ray maker Rigaku [6](https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Completes-Strategic-Investment-in-Rigaku-Holdings-Corporation/default.aspx).
+-{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Mask inspection and repair** gets its own tools, because a defect on a mask repeats on every die: $2.2 billion, and the one family where KLA has a close rival, 45.9 percent against Lasertec's 42 and Zeiss's 10.1.
+-{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Overlay metrology** measures whether this layer sits on the one below: $991 million, split almost evenly between KLA at 51.5 percent and ASML at 47.9.
+-{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Critical dimension metrology** measures how wide a printed feature actually came out: $1.2 billion, and the one family Japan leads, with Hitachi at 71.9 percent and Applied Materials at 27.5.
+-{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Electron-beam metrology** resolves detail too fine for light: $1.3 billion, led by Applied Materials at 45.1 percent with ASML at 35.6 and KLA at 18.8.
 
-**Chart:** Process control market by tool family, 2025 ($M)
+**Chart:** Process control market by tool family, 2025{--{"author":"James's AI","timestamp":1790597081004}@@ ($M)
 
-Defect inspection 6,700 Film and shape metrology 2,600 Mask inspection and repair 2,200 E-beam metrology 1,300 CD metrology 1,200 Overlay metrology 991.4 Defect review 729.1
+--}{++{"author":"James's AI","timestamp":1790597081004}@@
+
+| | $M |
+|---|---:|
+| ++}Defect inspection {++{"author":"James's AI","timestamp":1790597081004}@@| ++}6,700 {++{"author":"James's AI","timestamp":1790597081004}@@|
+| ++}Film and shape metrology {++{"author":"James's AI","timestamp":1790597081004}@@| ++}2,600 {++{"author":"James's AI","timestamp":1790597081004}@@|
+| ++}Mask inspection and repair {++{"author":"James's AI","timestamp":1790597081004}@@| ++}2,200 {++{"author":"James's AI","timestamp":1790597081004}@@|
+| ++}E-beam metrology {++{"author":"James's AI","timestamp":1790597081004}@@| ++}1,300 {++{"author":"James's AI","timestamp":1790597081004}@@|
+| ++}CD metrology {++{"author":"James's AI","timestamp":1790597081004}@@| ++}1,200 {++{"author":"James's AI","timestamp":1790597081004}@@|
+| ++}Overlay metrology {++{"author":"James's AI","timestamp":1790597081004}@@| ++}991.4 {++{"author":"James's AI","timestamp":1790597081004}@@|
+| ++}Defect review {++{"author":"James's AI","timestamp":1790597081004}@@| ++}729.1{++{"author":"James's AI","timestamp":1790597081004}@@ |++}
 
 Source: [ETO Supply Chain Explorer, CSET](https://chipexplorer.eto.tech/?parentNode=N118&selectedNode=N60)
 
@@ -1666,25 +1680,47 @@ Source: [ETO Supply Chain Explorer, CSET](https://chipexplorer.eto.tech/?parentN
 
 KLA is most of the segment: 56.8 percent of a $15.7 billion market in 2025 [3](https://chipexplorer.eto.tech/?parentNode=N118&selectedNode=N60), up two points since 2021 by its own figures [2](https://d1io3yog0oux5.cloudfront.net/_7791115a123b86b3f10b1a5eb5210224/klatencor/db/1166/10653/file/2026+Investor+Day+Master+Final_IR+copy.pdf). Its fiscal 2026 revenue was $13.579 billion, after $12.156 billion in fiscal 2025 [7](https://data.sec.gov/api/xbrl/companyconcept/CIK0000319201/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json), and it says it gained share again in 2025 across mask, optical wafer and e-beam inspection [8](https://d1io3yog0oux5.cloudfront.net/_a357bfc9113388e37f3bfcb2ea2f0b64/klatencor/db/1117/10655/letter_to_shareholders/KLA+Shareholder+Letter+-+Q3+FY26.pdf).
 
-**Chart:** Process control tool revenue share, 2025 (%)
+**Chart:** Process control tool revenue share, 2025{--{"author":"James's AI","timestamp":1790597081004}@@ (%)
 
-KLA **56.8%** Applied Materials **11.2%** Lasertec **6.4%** Hitachi High-Tech **6.2%** ASML **5.9%** Nova **4.3%** Onto Innovation **2.6%** Camtek **1.6%** Rigaku **1.2%** All others **3.8%**
+--}{++{"author":"James's AI","timestamp":1790597081004}@@
+
+| | % |
+|---|---:|
+| ++}KLA {--{"author":"James's AI","timestamp":1790597081004}@@**56.8%** --}{++{"author":"James's AI","timestamp":1790597081004}@@| 56.8 |
+| ++}Applied Materials {--{"author":"James's AI","timestamp":1790597081004}@@**11.2%**--}{++{"author":"James's AI","timestamp":1790597081004}@@| 11.2 |
+|++} Lasertec {--{"author":"James's AI","timestamp":1790597081004}@@**6.4%**--}{++{"author":"James's AI","timestamp":1790597081004}@@| 6.4 |
+|++} Hitachi High-Tech {--{"author":"James's AI","timestamp":1790597081004}@@**6.2%**--}{++{"author":"James's AI","timestamp":1790597081004}@@| 6.2 |
+|++} ASML {--{"author":"James's AI","timestamp":1790597081004}@@**5.9%**--}{++{"author":"James's AI","timestamp":1790597081004}@@| 5.9 |
+|++} Nova {--{"author":"James's AI","timestamp":1790597081004}@@**4.3%** --}{++{"author":"James's AI","timestamp":1790597081004}@@| 4.3 |
+| ++}Onto Innovation {--{"author":"James's AI","timestamp":1790597081004}@@**2.6%** --}{++{"author":"James's AI","timestamp":1790597081004}@@| 2.6 |
+| ++}Camtek {--{"author":"James's AI","timestamp":1790597081004}@@**1.6%** Rigaku **1.2%** All others **3.8%**
 
 %% validator-ignore-next-line --code article.block-repeated-nearby --reason source-provides-alternative-citation-formats %%
-Source: [ETO Supply Chain Explorer, CSET](https://chipexplorer.eto.tech/?parentNode=N118&selectedNode=N60)
+--}{++{"author":"James's AI","timestamp":1790597081004}@@| 1.6 |
+| Rigaku | 1.2 |
+| All others | 3.8 |
+
+++}Source: [ETO Supply Chain Explorer, CSET](https://chipexplorer.eto.tech/?parentNode=N118&selectedNode=N60)
 
 The rest are specialists, and nobody else reaches 11 percent.
 
--   **Applied Materials** is the largest of them at 10.5 percent, selling e-beam defect review, CD-SEM line-width tools and film metrology next to the deposition and etch tools that create the defects.
--   **Lasertec** holds 7.7 percent, almost all of it mask inspection; **Hitachi High-Tech** 5.6 percent, almost all of it CD-SEM; **ASML** 5.2 percent through YieldStar overlay and HMI e-beam inspection.
--   **Nova** holds 3.7 percent and took $880.6 million in 2025 on optical film and dimensional metrology [9](https://data.sec.gov/api/xbrl/companyconcept/CIK0001109345/us-gaap/Revenues.json).
--   **Onto Innovation** holds 3.0 percent on $1,005.3 million of 2025 revenue [10](https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Reports-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx) and **Camtek** 1.5 percent on $496.1 million [11](https://www.sec.gov/Archives/edgar/data/1109138/000117891326000549/zk2634405.htm).
+-{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Applied Materials** is the largest of them at 10.5 percent, selling e-beam defect review, CD-SEM line-width tools and film metrology next to the deposition and etch tools that create the defects.
+-{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Lasertec** holds 7.7 percent, almost all of it mask inspection; **Hitachi High-Tech** 5.6 percent, almost all of it CD-SEM; **ASML** 5.2 percent through YieldStar overlay and HMI e-beam inspection.
+-{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Nova** holds 3.7 percent and took $880.6 million in 2025 on optical film and dimensional metrology [9](https://data.sec.gov/api/xbrl/companyconcept/CIK0001109345/us-gaap/Revenues.json).
+-{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Onto Innovation** holds 3.0 percent on $1,005.3 million of 2025 revenue [10](https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Reports-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx) and **Camtek** 1.5 percent on $496.1 million [11](https://www.sec.gov/Archives/edgar/data/1109138/000117891326000549/zk2634405.htm).
 
 Patterning, which covers overlay and mask inspection, grew 61 percent year on year in the June 2026 quarter, when Taiwan took 31 percent of revenue and China 26 percent [1](https://d1io3yog0oux5.cloudfront.net/_b9ee755a5f60dd0fb3f9e27967aed6af/klatencor/db/1117/10668/letter_to_shareholders/KLA+Earnings+Shareholder+Letter+-+Q4+FY26.pdf).
 
-**Chart:** KLA revenue by product line, June 2026 quarter (%)
+**Chart:** KLA revenue by product line, June 2026 quarter{--{"author":"James's AI","timestamp":1790597081004}@@ (%)--}
 
-Wafer inspection **49%** Services **22%** Patterning **20%** PCB and component inspection **4%** Specialty semiconductor process **4%** Other **1%**
+{++{"author":"James's AI","timestamp":1790597081004}@@| | % |
+|---|---:|
+| ++}Wafer inspection {--{"author":"James's AI","timestamp":1790597081004}@@**49%**--}{++{"author":"James's AI","timestamp":1790597081004}@@| 49 |
+|++} Services {--{"author":"James's AI","timestamp":1790597081004}@@**22%** --}{++{"author":"James's AI","timestamp":1790597081004}@@| 22 |
+| ++}Patterning {--{"author":"James's AI","timestamp":1790597081004}@@**20%** --}{++{"author":"James's AI","timestamp":1790597081004}@@| 20 |
+| ++}PCB and component inspection {--{"author":"James's AI","timestamp":1790597081004}@@**4%** --}{++{"author":"James's AI","timestamp":1790597081004}@@| 4 |
+| ++}Specialty semiconductor process {--{"author":"James's AI","timestamp":1790597081004}@@**4%** --}{++{"author":"James's AI","timestamp":1790597081004}@@| 4 |
+| ++}Other {--{"author":"James's AI","timestamp":1790597081004}@@**1%**--}{++{"author":"James's AI","timestamp":1790597081004}@@| 1 |++}
 
 Source: [KLA letter to shareholders, Q4 FY2026](https://d1io3yog0oux5.cloudfront.net/_b9ee755a5f60dd0fb3f9e27967aed6af/klatencor/db/1117/10668/letter_to_shareholders/KLA+Earnings+Shareholder+Letter+-+Q4+FY26.pdf)
 
@@ -1706,76 +1742,91 @@ Process control is a chokepoint of concentration. Several firms can build a good
 
 ### Key evaluation criteria ^key-evaluation-criteria-7
 
--   **Sensitivity.** The smallest killer defect a tool can find. ASML's multibeam system is specified to 7 nm patterning defects [5](https://www.asml.com/en/products/metrology-and-inspection-systems/hmi-escan-1100).
--   **Throughput.** Wafers per hour, which decides how many lots a fab can afford to look at; multibeam buys up to 15x over single-beam [5](https://www.asml.com/en/products/metrology-and-inspection-systems/hmi-escan-1100).
--   **Nuisance rate.** The share of flagged events that turn out not to be real defects, which is what AI classification is meant to reduce.
--   **Sampling plan.** How many wafers and sites per lot, a cost decision as much as a physics one, which sets what process control costs the fab.
--   **Time to result.** How fast a measurement reaches the process engineer, which sets the speed of yield learning.
+-{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Sensitivity.** The smallest killer defect a tool can find. ASML's multibeam system is specified to 7 nm patterning defects [5](https://www.asml.com/en/products/metrology-and-inspection-systems/hmi-escan-1100).
+-{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Throughput.** Wafers per hour, which decides how many lots a fab can afford to look at; multibeam buys up to 15x over single-beam [5](https://www.asml.com/en/products/metrology-and-inspection-systems/hmi-escan-1100).
+-{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Nuisance rate.** The share of flagged events that turn out not to be real defects, which is what AI classification is meant to reduce.
+-{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Sampling plan.** How many wafers and sites per lot, a cost decision as much as a physics one, which sets what process control costs the fab.
+-{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}**Time to result.** How fast a measurement reaches the process engineer, which sets the speed of yield learning.
 
-{--{"author":"James's AI","timestamp":1790593999833}@@Card--}{++{"author":"James's AI","timestamp":1790593999833}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593999833}@@4Question--}{++{"author":"James's AI","timestamp":1790593999833}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597081004}@@Card 1 of 4Question--}{++{"author":"James's AI","timestamp":1790597081004}@@::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.++}
 
-What do metrology and inspection tools do?
+{++{"author":"James's AI","timestamp":1790597081004}@@:::callout {title="Card 1 of 4: ++}What do metrology and inspection tools {--{"author":"James's AI","timestamp":1790597081004}@@do?
 
-{--{"author":"James's AI","timestamp":1790594000952}@@Card--}{++{"author":"James's AI","timestamp":1790594000952}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594000952}@@4Answer--}{++{"author":"James's AI","timestamp":1790594000952}@@4 · Answer**++}
+Card 1 of 4Answer
 
-They check each wafer between steps for line width, layer alignment and defects.
+--}{++{"author":"James's AI","timestamp":1790597081004}@@do?" tone="neutral" collapse="closed"}
+++}They check each wafer between steps for line width, layer alignment and defects.
 
-Their measurements tell a fab why its chips fail. [[#^how-it-works-7|Reread: How it works]]
+Their measurements tell a fab why its chips fail. [[#^how-it-works-7|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597081004}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790594002259}@@Card--}{++{"author":"James's AI","timestamp":1790594002259}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594002259}@@4Question--}{++{"author":"James's AI","timestamp":1790594002259}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597081004}@@Card--}{++{"author":"James's AI","timestamp":1790597081004}@@:::callout {title="Card++} 2 of {--{"author":"James's AI","timestamp":1790597081004}@@4Question
 
-Why do AI chips depend so much on finding defects?
+--}{++{"author":"James's AI","timestamp":1790597081004}@@4: ++}Why do AI chips depend so much on finding {--{"author":"James's AI","timestamp":1790597081004}@@defects?
 
-{--{"author":"James's AI","timestamp":1790594003813}@@Card--}{++{"author":"James's AI","timestamp":1790594003813}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594003813}@@4Answer--}{++{"author":"James's AI","timestamp":1790594003813}@@4 · Answer**++}
+Card 2 of 4Answer
 
-They are among the largest chips made, and a bigger chip is more likely to catch a defect.
+--}{++{"author":"James's AI","timestamp":1790597081004}@@defects?" tone="neutral" collapse="closed"}
+++}They are among the largest chips made, and a bigger chip is more likely to catch a defect.
 
-On a chip that size, halving the defects raises the share of working chips from about half to about seven in ten. [[#^packaging-ai-and-china|Reread: Packaging, AI and China]]
+On a chip that size, halving the defects raises the share of working chips from about half to about seven in ten. [[#^packaging-ai-and-china|Reread: Packaging, AI and China]]{++{"author":"James's AI","timestamp":1790597081004}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790594004940}@@Card--}{++{"author":"James's AI","timestamp":1790594004940}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594004940}@@4Question--}{++{"author":"James's AI","timestamp":1790594004940}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597081004}@@Card--}{++{"author":"James's AI","timestamp":1790597081004}@@:::callout {title="Card++} 3 of {--{"author":"James's AI","timestamp":1790597081004}@@4Question
 
-Who leads the market for these tools?
+--}{++{"author":"James's AI","timestamp":1790597081004}@@4: ++}Who leads the market for these {--{"author":"James's AI","timestamp":1790597081004}@@tools?
 
-{--{"author":"James's AI","timestamp":1790594006166}@@Card--}{++{"author":"James's AI","timestamp":1790594006166}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594006166}@@4Answer--}{++{"author":"James's AI","timestamp":1790594006166}@@4 · Answer**++}
+Card 3 of 4Answer
 
-KLA, an American firm, with about 57 percent.
+--}{++{"author":"James's AI","timestamp":1790597081004}@@tools?" tone="neutral" collapse="closed"}
+++}KLA, an American firm, with about 57 percent.
 
-That is six to seven times its nearest rival. Every kind of tool still has a second maker. [[#^who-makes-it-7|Reread: Who makes it]]
+That is six to seven times its nearest rival. Every kind of tool still has a second maker. [[#^who-makes-it-7|Reread: Who makes it]]{++{"author":"James's AI","timestamp":1790597081004}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790594006939}@@Card--}{++{"author":"James's AI","timestamp":1790594006939}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594006939}@@4Question--}{++{"author":"James's AI","timestamp":1790594006939}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597081004}@@Card--}{++{"author":"James's AI","timestamp":1790597081004}@@:::callout {title="Card++} 4 of {--{"author":"James's AI","timestamp":1790597081004}@@4Question
 
-How strong are Chinese makers of these tools?
+--}{++{"author":"James's AI","timestamp":1790597081004}@@4: ++}How strong are Chinese makers of these{--{"author":"James's AI","timestamp":1790597081004}@@ tools?
 
-{--{"author":"James's AI","timestamp":1790594008312}@@Card--}{++{"author":"James's AI","timestamp":1790594008312}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594008312}@@4Answer--}{++{"author":"James's AI","timestamp":1790594008312}@@4 · Answer**++}
+Card 4 of 4Answer
 
-Weaker than in any other major kind of chipmaking tool.
+--}{++{"author":"James's AI","timestamp":1790597081004}@@ tools?" tone="neutral" collapse="closed"}
+++}Weaker than in any other major kind of chipmaking tool.
 
-They held 0.7 percent of the market in 2025. [[#^packaging-ai-and-china|Reread: Packaging, AI and China]]
+They held 0.7 percent of the market in 2025. [[#^packaging-ai-and-china|Reread: Packaging, AI and China]]{++{"author":"James's AI","timestamp":1790597081004}@@
+:::++}
 
-#### Four things to remember ^four-things-to-remember-6
+{--{"author":"James's AI","timestamp":1790597081004}@@#### Four--}{++{"author":"James's AI","timestamp":1790597081004}@@::::
 
--   Metrology and inspection tools check each wafer between steps and tell a fab why its chips fail.
--   AI chips are among the largest made, so finding defects matters most for them.
--   KLA of the United States holds about 57 percent of the market, six to seven times its nearest rival.
--   Chinese makers are weakest here, with 0.7 percent of the market in 2025.
+:::callout {title="Four++} things to {--{"author":"James's AI","timestamp":1790597081004}@@remember ^four-things-to-remember-6
 
-**Sources (15)**
+--}{++{"author":"James's AI","timestamp":1790597081004}@@remember" tone="green"}
+++}-{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}Metrology and inspection tools check each wafer between steps and tell a fab why its chips fail.
+-{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}AI chips are among the largest made, so finding defects matters most for them.
+-{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}KLA of the United States holds about 57 percent of the market, six to seven times its nearest rival.
+-{--{"author":"James's AI","timestamp":1790597081004}@@   --}{++{"author":"James's AI","timestamp":1790597081004}@@ ++}Chinese makers are weakest here, with 0.7 percent of the market in 2025.{++{"author":"James's AI","timestamp":1790597081004}@@
+:::++}
 
-1.  A [Letter to Shareholders Q4 Fiscal 2026](https://d1io3yog0oux5.cloudfront.net/_b9ee755a5f60dd0fb3f9e27967aed6af/klatencor/db/1117/10668/letter_to_shareholders/KLA+Earnings+Shareholder+Letter+-+Q4+FY26.pdf) KLA Corporation · 27 July 2026
-2.  A [Compounding Sustainable Outperformance](https://d1io3yog0oux5.cloudfront.net/_7791115a123b86b3f10b1a5eb5210224/klatencor/db/1166/10653/file/2026+Investor+Day+Master+Final_IR+copy.pdf) KLA Corporation · 13 March 2026
-3.  A [Supply Chain Explorer: Advanced Chips](https://chipexplorer.eto.tech/?parentNode=N118&selectedNode=N60) Emerging Technology Observatory (ETO)
-4.  A [Behrooz Parhami, Dependable Computing: A Multilevel Approach, part 2](https://web.ece.ucsb.edu/~parhami/docs_folder/f33-book-dep-comp-pt2.pdf) University of California, Santa Barbara · 11 October 2020
-5.  A [The HMI eScan 1100](https://www.asml.com/en/products/metrology-and-inspection-systems/hmi-escan-1100) ASML
-6.  A [Onto Innovation Completes Strategic Investment in Rigaku Holdings Corporation](https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Completes-Strategic-Investment-in-Rigaku-Holdings-Corporation/default.aspx) Onto Innovation · 10 August 2026
-7.  A [Revenue from Contract with Customer, Excluding Assessed Tax (us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax) reported by KLA CORP, XBRL company concept data](https://data.sec.gov/api/xbrl/companyconcept/CIK0000319201/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json) U.S. Securities and Exchange Commission (XBRL data for KLA CORP)
-8.  A [Letter to Shareholders Q3 Fiscal 2026](https://d1io3yog0oux5.cloudfront.net/_a357bfc9113388e37f3bfcb2ea2f0b64/klatencor/db/1117/10655/letter_to_shareholders/KLA+Shareholder+Letter+-+Q3+FY26.pdf) KLA Corporation · 29 April 2026
-9.  A [Revenues (us-gaap:Revenues) reported by NOVA LTD., XBRL company concept data](https://data.sec.gov/api/xbrl/companyconcept/CIK0001109345/us-gaap/Revenues.json) U.S. Securities and Exchange Commission (XBRL data for NOVA LTD.)
-10.  A [Onto Innovation Reports 2025 Fourth Quarter and Full Year Results](https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Reports-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx) Onto Innovation · 19 February 2026
-11.  A [CAMTEK LTD, Form 6-K report of foreign private issuer for the period ended 2026-02-18 (6-K)](https://www.sec.gov/Archives/edgar/data/1109138/000117891326000549/zk2634405.htm) U.S. Securities and Exchange Commission (filing by CAMTEK LTD) · 18 February 2026
-12.  A [The Semiconductor Supply Chain - Issue Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf) Center for Security and Emerging Technology (CSET) · 21 January 2021
-13.  A [Inside Beijing’s Chipmaking Offensive](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/) Center for Security and Emerging Technology (CSET) · 14 July 2025
-14.  A [Foreign-Produced Direct Product Rule Additions, and Refinements to Controls for Advanced Computing and Semiconductor Manufacturing Items](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf) U.S. Government Publishing Office (Federal Register) · 5 December 2024
-15.  A [Commerce Strengthens Export Controls to Restrict China's Capability to Produce Advanced Semiconductors for Military Applications](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military) U.S. Bureau of Industry and Security · 2 December 2024
+{--{"author":"James's AI","timestamp":1790597081004}@@**Sources (15)**
+
+--}{++{"author":"James's AI","timestamp":1790597081004}@@:::callout {title="Sources (15)" tone="neutral" collapse="closed"}
+++}1.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Letter to Shareholders Q4 Fiscal {--{"author":"James's AI","timestamp":1790597081004}@@2026](https://d1io3yog0oux5.cloudfront.net/_b9ee755a5f60dd0fb3f9e27967aed6af/klatencor/db/1117/10668/letter_to_shareholders/KLA+Earnings+Shareholder+Letter+-+Q4+FY26.pdf)--}{++{"author":"James's AI","timestamp":1790597081004}@@2026](https://d1io3yog0oux5.cloudfront.net/_b9ee755a5f60dd0fb3f9e27967aed6af/klatencor/db/1117/10668/letter_to_shareholders/KLA+Earnings+Shareholder+Letter+-+Q4+FY26.pdf).++} KLA Corporation · 27 July {--{"author":"James's AI","timestamp":1790597081004}@@2026--}{++{"author":"James's AI","timestamp":1790597081004}@@2026. Tier A.++}
+2.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Compounding Sustainable {--{"author":"James's AI","timestamp":1790597081004}@@Outperformance](https://d1io3yog0oux5.cloudfront.net/_7791115a123b86b3f10b1a5eb5210224/klatencor/db/1166/10653/file/2026+Investor+Day+Master+Final_IR+copy.pdf)--}{++{"author":"James's AI","timestamp":1790597081004}@@Outperformance](https://d1io3yog0oux5.cloudfront.net/_7791115a123b86b3f10b1a5eb5210224/klatencor/db/1166/10653/file/2026+Investor+Day+Master+Final_IR+copy.pdf).++} KLA Corporation · 13 March {--{"author":"James's AI","timestamp":1790597081004}@@2026--}{++{"author":"James's AI","timestamp":1790597081004}@@2026. Tier A.++}
+3.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Supply Chain Explorer: Advanced {--{"author":"James's AI","timestamp":1790597081004}@@Chips](https://chipexplorer.eto.tech/?parentNode=N118&selectedNode=N60)--}{++{"author":"James's AI","timestamp":1790597081004}@@Chips](https://chipexplorer.eto.tech/?parentNode=N118&selectedNode=N60).++} Emerging Technology Observatory {--{"author":"James's AI","timestamp":1790597081004}@@(ETO)--}{++{"author":"James's AI","timestamp":1790597081004}@@(ETO). Tier A.++}
+4.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Behrooz Parhami, Dependable Computing: A Multilevel Approach, part {--{"author":"James's AI","timestamp":1790597081004}@@2](https://web.ece.ucsb.edu/~parhami/docs_folder/f33-book-dep-comp-pt2.pdf)--}{++{"author":"James's AI","timestamp":1790597081004}@@2](https://web.ece.ucsb.edu/~parhami/docs_folder/f33-book-dep-comp-pt2.pdf).++} University of California, Santa Barbara · 11 October {--{"author":"James's AI","timestamp":1790597081004}@@2020--}{++{"author":"James's AI","timestamp":1790597081004}@@2020. Tier A.++}
+5.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [The HMI eScan {--{"author":"James's AI","timestamp":1790597081004}@@1100](https://www.asml.com/en/products/metrology-and-inspection-systems/hmi-escan-1100) ASML--}{++{"author":"James's AI","timestamp":1790597081004}@@1100](https://www.asml.com/en/products/metrology-and-inspection-systems/hmi-escan-1100). ASML. Tier A.++}
+6.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Onto Innovation Completes Strategic Investment in Rigaku Holdings {--{"author":"James's AI","timestamp":1790597081004}@@Corporation](https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Completes-Strategic-Investment-in-Rigaku-Holdings-Corporation/default.aspx)--}{++{"author":"James's AI","timestamp":1790597081004}@@Corporation](https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Completes-Strategic-Investment-in-Rigaku-Holdings-Corporation/default.aspx).++} Onto Innovation · 10 August {--{"author":"James's AI","timestamp":1790597081004}@@2026--}{++{"author":"James's AI","timestamp":1790597081004}@@2026. Tier A.++}
+7.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Revenue from Contract with Customer, Excluding Assessed Tax (us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax) reported by KLA CORP, XBRL company concept {--{"author":"James's AI","timestamp":1790597081004}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0000319201/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json)--}{++{"author":"James's AI","timestamp":1790597081004}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0000319201/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json).++} U.S. Securities and Exchange Commission (XBRL data for KLA {--{"author":"James's AI","timestamp":1790597081004}@@CORP)--}{++{"author":"James's AI","timestamp":1790597081004}@@CORP). Tier A.++}
+8.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Letter to Shareholders Q3 Fiscal {--{"author":"James's AI","timestamp":1790597081004}@@2026](https://d1io3yog0oux5.cloudfront.net/_a357bfc9113388e37f3bfcb2ea2f0b64/klatencor/db/1117/10655/letter_to_shareholders/KLA+Shareholder+Letter+-+Q3+FY26.pdf)--}{++{"author":"James's AI","timestamp":1790597081004}@@2026](https://d1io3yog0oux5.cloudfront.net/_a357bfc9113388e37f3bfcb2ea2f0b64/klatencor/db/1117/10655/letter_to_shareholders/KLA+Shareholder+Letter+-+Q3+FY26.pdf).++} KLA Corporation · 29 April {--{"author":"James's AI","timestamp":1790597081004}@@2026--}{++{"author":"James's AI","timestamp":1790597081004}@@2026. Tier A.++}
+9.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Revenues (us-gaap:Revenues) reported by NOVA LTD., XBRL company concept {--{"author":"James's AI","timestamp":1790597081004}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0001109345/us-gaap/Revenues.json)--}{++{"author":"James's AI","timestamp":1790597081004}@@data](https://data.sec.gov/api/xbrl/companyconcept/CIK0001109345/us-gaap/Revenues.json).++} U.S. Securities and Exchange Commission (XBRL data for NOVA {--{"author":"James's AI","timestamp":1790597081004}@@LTD.)--}{++{"author":"James's AI","timestamp":1790597081004}@@LTD.). Tier A.++}
+10.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Onto Innovation Reports 2025 Fourth Quarter and Full Year {--{"author":"James's AI","timestamp":1790597081004}@@Results](https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Reports-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx)--}{++{"author":"James's AI","timestamp":1790597081004}@@Results](https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Reports-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx).++} Onto Innovation · 19 February {--{"author":"James's AI","timestamp":1790597081004}@@2026--}{++{"author":"James's AI","timestamp":1790597081004}@@2026. Tier A.++}
+11.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [CAMTEK LTD, Form 6-K report of foreign private issuer for the period ended 2026-02-18 {--{"author":"James's AI","timestamp":1790597081004}@@(6-K)](https://www.sec.gov/Archives/edgar/data/1109138/000117891326000549/zk2634405.htm)--}{++{"author":"James's AI","timestamp":1790597081004}@@(6-K)](https://www.sec.gov/Archives/edgar/data/1109138/000117891326000549/zk2634405.htm).++} U.S. Securities and Exchange Commission (filing by CAMTEK LTD) · 18 February {--{"author":"James's AI","timestamp":1790597081004}@@2026--}{++{"author":"James's AI","timestamp":1790597081004}@@2026. Tier A.++}
+12.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [The Semiconductor Supply Chain - Issue {--{"author":"James's AI","timestamp":1790597081004}@@Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf)--}{++{"author":"James's AI","timestamp":1790597081004}@@Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf).++} Center for Security and Emerging Technology (CSET) · 21 January {--{"author":"James's AI","timestamp":1790597081004}@@2021--}{++{"author":"James's AI","timestamp":1790597081004}@@2021. Tier A.++}
+13.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Inside Beijing’s Chipmaking {--{"author":"James's AI","timestamp":1790597081004}@@Offensive](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/)--}{++{"author":"James's AI","timestamp":1790597081004}@@Offensive](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/).++} Center for Security and Emerging Technology (CSET) · 14 July {--{"author":"James's AI","timestamp":1790597081004}@@2025--}{++{"author":"James's AI","timestamp":1790597081004}@@2025. Tier A.++}
+14.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Foreign-Produced Direct Product Rule Additions, and Refinements to Controls for Advanced Computing and Semiconductor Manufacturing {--{"author":"James's AI","timestamp":1790597081004}@@Items](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf)--}{++{"author":"James's AI","timestamp":1790597081004}@@Items](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).++} U.S. Government Publishing Office (Federal Register) · 5 December {--{"author":"James's AI","timestamp":1790597081004}@@2024--}{++{"author":"James's AI","timestamp":1790597081004}@@2024. Tier A.++}
+15.{--{"author":"James's AI","timestamp":1790597081004}@@  A--} [Commerce Strengthens Export Controls to Restrict China's Capability to Produce Advanced Semiconductors for Military {--{"author":"James's AI","timestamp":1790597081004}@@Applications](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military)--}{++{"author":"James's AI","timestamp":1790597081004}@@Applications](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military).++} U.S. Bureau of Industry and Security · 2 December {--{"author":"James's AI","timestamp":1790597081004}@@2024--}{++{"author":"James's AI","timestamp":1790597081004}@@2024. Tier A.
+:::++}
 
 ## Transistors and the Front End ^transistors-and-the-front
 
