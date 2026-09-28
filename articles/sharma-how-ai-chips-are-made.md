@@ -1313,14 +1313,14 @@ Who leads
 -   {--{"author":"James's AI","timestamp":1790593974277}@@USApplied Materials--}{++{"author":"James's AI","timestamp":1790593974277}@@US · **Applied Materials**:++} 11.2% of process control tools in 2025: electron-beam defect review, line-width measurement and film metrology
 -   {--{"author":"James's AI","timestamp":1790593975667}@@JPLasertec--}{++{"author":"James's AI","timestamp":1790593975667}@@JP · **Lasertec**:++} 6.4% of process control tools in 2025, almost all of it mask inspection
 -   {--{"author":"James's AI","timestamp":1790593977116}@@NLASML--}{++{"author":"James's AI","timestamp":1790593977116}@@NL · **ASML**:++} 5.9% of process control tools in 2025: YieldStar layer alignment and HMI multibeam electron inspection
--   ILNova 4.3% of process control tools in 2025; $880.6M revenue, 2025
--   USOnto Innovation 2.6% of process control tools in 2025; $1.01B revenue, 2025
+-   {--{"author":"James's AI","timestamp":1790593979622}@@ILNova--}{++{"author":"James's AI","timestamp":1790593979622}@@IL · **Nova**:++} 4.3% of process control tools in 2025; $880.6M revenue, 2025
+-   {--{"author":"James's AI","timestamp":1790593981019}@@USOnto Innovation--}{++{"author":"James's AI","timestamp":1790593981019}@@US · **Onto Innovation**:++} 2.6% of process control tools in 2025; $1.01B revenue, 2025
 
 Where it is made
 
--   USUnited States KLA (Milpitas), Onto Innovation (Wilmington, MA), Applied Materials
--   NLNetherlands ASML YieldStar and HMI e-beam, Veldhoven and San Jose
--   JPJapan Hitachi High-Tech CD-SEM; Lasertec mask inspection; Rigaku X-ray
+-   {--{"author":"James's AI","timestamp":1790593985371}@@USUnited States--}{++{"author":"James's AI","timestamp":1790593985371}@@US · **United States**:++} KLA (Milpitas), Onto Innovation (Wilmington, MA), Applied Materials
+-   {--{"author":"James's AI","timestamp":1790593986974}@@NLNetherlands--}{++{"author":"James's AI","timestamp":1790593986974}@@NL · **Netherlands**:++} ASML YieldStar and HMI e-beam, Veldhoven and San Jose
+-   {--{"author":"James's AI","timestamp":1790593988684}@@JPJapan--}{++{"author":"James's AI","timestamp":1790593988684}@@JP · **Japan**:++} Hitachi High-Tech CD-SEM; Lasertec mask inspection; Rigaku X-ray
 -   ILIsrael Nova (Rehovot) and Camtek (Migdal Haemek)
 -   CNChina Domestic entrants only; 0.7% of the process control tool market in 2025
 
