@@ -1072,39 +1072,44 @@ China's answer so far is domestic immersion DUV machines, which use longer-wavel
 
 Every leading-edge chip depends on a business worth tens of billions of yen. Two Japanese firms make almost all the blank plates that EUV masks are built on, one Japanese firm inspects them, and the dust cover meant to protect them is still not in production.
 
-%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+{--{"author":"James's AI","timestamp":1790597059274}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
 
-{--{"author":"James's AI","timestamp":1790593888732}@@1,421--}{++{"author":"James's AI","timestamp":1790593888732}@@_1,421++} words / 6 {--{"author":"James's AI","timestamp":1790593888732}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593888732}@@min · Interactive 3D Specimen:++} photomask{++{"author":"James's AI","timestamp":1790593888732}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#photomasks-and-pellicles))_++}
+1,421--}{++{"author":"James's AI","timestamp":1790597059274}@@*1,421++} words / 6 {--{"author":"James's AI","timestamp":1790597059274}@@minSpecimen: photomask
 
 **In plain terms**
 
-A photomask is the stencil that lithography prints from, one for each layer of a chip. The same plate prints its layer on wafer after wafer, so one plate shapes millions of chips. No glass lets the short light now in use pass through, so instead of a window the plate is a mirror, built up from about forty pairs of very thin layers, and the light bounces off it. A dark pattern drawn on top of the mirror soaks up the light wherever no line should print. Any speck of dust on the plate repeats on every wafer it prints. Two Japanese firms make almost all of those mirrors. A business almost nobody has heard of can hold up every advanced chip in the world.
+--}{++{"author":"James's AI","timestamp":1790597059274}@@min*
+
+:::callout {title="In plain terms" tone="neutral"}
+++}A photomask is the stencil that lithography prints from, one for each layer of a chip. The same plate prints its layer on wafer after wafer, so one plate shapes millions of chips. No glass lets the short light now in use pass through, so instead of a window the plate is a mirror, built up from about forty pairs of very thin layers, and the light bounces off it. A dark pattern drawn on top of the mirror soaks up the light wherever no line should print. Any speck of dust on the plate repeats on every wafer it prints. Two Japanese firms make almost all of those mirrors. A business almost nobody has heard of can hold up every advanced chip in the world.{++{"author":"James's AI","timestamp":1790597059274}@@
+:::++}
 
 ### In short ^in-short-5
 
 Photomasks are the cheapest chokepoint in this chain, which is why nobody has funded an entrant. Three blank suppliers in the world on AGC's count [6](https://www.agc.com/en/hub/pr/the-japanese-glass-behind-next-generation-chips.html), one of them describing its own share as exceptionally high [8](https://www.hoya.com/ir/2025/en/review/it.html), and a single-vendor actinic inspection tool [10](https://www.lasertec.co.jp/en/ir/plan/message.html) are needed for every EUV layer of every leading-edge accelerator. Pellicles remain unproven in production, so fabs trade throughput against defect risk product by product [11](https://www.asml.com/en/news/stories/2022/the-euv-pellicle-indistinguishable-from-magic). And mask-set costs of $10 million to $40 million decide which AI chips get designed [14](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor).
 
-Concentration: **Extreme**
+{--{"author":"James's AI","timestamp":1790597059274}@@Concentration: **Extreme**--}{++{"author":"James's AI","timestamp":1790597059274}@@:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** Extreme++}
 
-Substitutability: **Hard**. Only three firms make the blank plates for EUV masks, and only Lasertec sells the tool that checks a finished mask in EUV light.
+{--{"author":"James's AI","timestamp":1790597059274}@@Substitutability: **Hard**.--}{++{"author":"James's AI","timestamp":1790597059274}@@**Substitutability:** Hard.++} Only three firms make the blank plates for EUV masks, and only Lasertec sells the tool that checks a finished mask in EUV light.
 
-Price or market size: **A mask set for the newest chips costs roughly $10M to $40M, depending on the node and on who is estimating**
+{--{"author":"James's AI","timestamp":1790597059274}@@Price--}{++{"author":"James's AI","timestamp":1790597059274}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597059274}@@size: **A--}{++{"author":"James's AI","timestamp":1790597059274}@@size:** A++} mask set for the newest chips costs roughly $10M to $40M, depending on the node and on who is {--{"author":"James's AI","timestamp":1790597059274}@@estimating**--}{++{"author":"James's AI","timestamp":1790597059274}@@estimating++}
 
 **Who leads**
 
--   {--{"author":"James's AI","timestamp":1790593894437}@@JPAGC--}{++{"author":"James's AI","timestamp":1790593894437}@@JP · **AGC**:++} Ranks itself No.1 worldwide in EUV mask blanks and counts three suppliers in all; targeted over ¥40bn of blank sales by 2025
--   {--{"author":"James's AI","timestamp":1790593895179}@@JPHoya--}{++{"author":"James's AI","timestamp":1790593895179}@@JP · **Hoya**:++} Says its share of mask blanks is exceptionally high, and expects to keep its lead as customers add a second supplier
--   {--{"author":"James's AI","timestamp":1790593896343}@@JPLasertec--}{++{"author":"James's AI","timestamp":1790593896343}@@JP · **Lasertec**:++} The only supplier of EUV mask inspection at the wavelength the scanner itself uses; JPY 230.5bn revenue in the year to June 2026
--   {--{"author":"James's AI","timestamp":1790593897493}@@ATIMS Nanofabrication--}{++{"author":"James's AI","timestamp":1790593897493}@@AT · **IMS Nanofabrication**:++} Intel calls it the established industry leader in multi-beam mask writers, the machines that draw the pattern onto the mask
--   {--{"author":"James's AI","timestamp":1790593898767}@@USPhotronics--}{++{"author":"James's AI","timestamp":1790593898767}@@US · **Photronics**:++} Largest mask maker selling to outside customers; $849.3M revenue in fiscal 2025
+-{--{"author":"James's AI","timestamp":1790597059274}@@   JPAGC--}{++{"author":"James's AI","timestamp":1790597059274}@@ **AGC** (JP):++} Ranks itself No.1 worldwide in EUV mask blanks and counts three suppliers in all; targeted over ¥40bn of blank sales by 2025
+-{--{"author":"James's AI","timestamp":1790597059274}@@   JPHoya--}{++{"author":"James's AI","timestamp":1790597059274}@@ **Hoya** (JP):++} Says its share of mask blanks is exceptionally high, and expects to keep its lead as customers add a second supplier
+-{--{"author":"James's AI","timestamp":1790597059274}@@   JPLasertec--}{++{"author":"James's AI","timestamp":1790597059274}@@ **Lasertec** (JP):++} The only supplier of EUV mask inspection at the wavelength the scanner itself uses; JPY 230.5bn revenue in the year to June 2026
+-{--{"author":"James's AI","timestamp":1790597059274}@@   ATIMS Nanofabrication--}{++{"author":"James's AI","timestamp":1790597059274}@@ **IMS Nanofabrication** (AT):++} Intel calls it the established industry leader in multi-beam mask writers, the machines that draw the pattern onto the mask
+-{--{"author":"James's AI","timestamp":1790597059274}@@   USPhotronics--}{++{"author":"James's AI","timestamp":1790597059274}@@ **Photronics** (US):++} Largest mask maker selling to outside customers; $849.3M revenue in fiscal 2025
 
 **Where it is made**
 
--   {--{"author":"James's AI","timestamp":1790593901111}@@JPJapan--}{++{"author":"James's AI","timestamp":1790593901111}@@JP · **Japan**:++} Mask blanks (AGC, Hoya), DUV blanks (Shin-Etsu), inspection (Lasertec), writers (NuFlare), pellicles (Mitsui Chemicals)
--   {--{"author":"James's AI","timestamp":1790593902439}@@ATAustria--}{++{"author":"James's AI","timestamp":1790593902439}@@AT · **Austria**:++} IMS Nanofabrication multi-beam mask writers, Vienna
--   {--{"author":"James's AI","timestamp":1790593903826}@@DEGermany--}{++{"author":"James's AI","timestamp":1790593903826}@@DE · **Germany**:++} Zeiss mask repair and metrology
--   {--{"author":"James's AI","timestamp":1790593904910}@@USUnited States--}{++{"author":"James's AI","timestamp":1790593904910}@@US · **United States**:++} Photronics merchant mask shops, KLA inspection
--   {--{"author":"James's AI","timestamp":1790593906448}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790593906448}@@TW · **Taiwan**:++} TSMC's in-house mask shop, and a 10% stake in IMS
+-{--{"author":"James's AI","timestamp":1790597059274}@@   JPJapan--}{++{"author":"James's AI","timestamp":1790597059274}@@ **Japan**:++} Mask blanks (AGC, Hoya), DUV blanks (Shin-Etsu), inspection (Lasertec), writers (NuFlare), pellicles (Mitsui Chemicals)
+-{--{"author":"James's AI","timestamp":1790597059274}@@   ATAustria--}{++{"author":"James's AI","timestamp":1790597059274}@@ **Austria**:++} IMS Nanofabrication multi-beam mask writers, Vienna
+-{--{"author":"James's AI","timestamp":1790597059274}@@   DEGermany--}{++{"author":"James's AI","timestamp":1790597059274}@@ **Germany**:++} Zeiss mask repair and metrology
+-{--{"author":"James's AI","timestamp":1790597059274}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597059274}@@ **United States**:++} Photronics merchant mask shops, KLA inspection
+-{--{"author":"James's AI","timestamp":1790597059274}@@   TWTaiwan--}{++{"author":"James's AI","timestamp":1790597059274}@@ **Taiwan**:++} TSMC's in-house mask shop, and a 10% stake in IMS
 
 **Why substitution is slow**
 
@@ -1116,7 +1121,8 @@ SMIC runs two mask shops of its own in Shanghai, but only for the older g-line, 
 
 **Where the US stands**
 
-Photronics is the largest mask maker that sells to outside customers, and KLA makes mask inspection tools, but no American firm makes an EUV mask blank or a tool that checks a mask in EUV light.
+Photronics is the largest mask maker that sells to outside customers, and KLA makes mask inspection tools, but no American firm makes an EUV mask blank or a tool that checks a mask in EUV light.{++{"author":"James's AI","timestamp":1790597059274}@@
+:::++}
 
 Every EUV layer on an AI accelerator needs a flawless mask, built on a blank plate that two Japanese firms supply and passed by an inspection tool that one Japanese firm makes. AGC, one of the two, says it is the only company in the world that takes an EUV blank all the way from the glass to the finished coating [1](https://www.agc.com/en/news/detail/1203819_2814.html).
 
@@ -1128,9 +1134,9 @@ The mask shop coats the blank with resist, and a mask writer draws the design in
 
 Making the plate a mirror creates its own problems:
 
--   **Mask 3D effects.** Light strikes the mirror at a slant, and the absorber has height, so its edges throw small shadows that distort the printed shape; software has to correct for it in advance.
--   **Write precision.** Every edge of the absorber has to sit within a few nanometers of where the design says.
--   **Particles.** Anything on the reflector prints on every wafer until someone finds it.
+-{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}**Mask 3D effects.** Light strikes the mirror at a slant, and the absorber has height, so its edges throw small shadows that distort the printed shape; software has to correct for it in advance.
+-{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}**Write precision.** Every edge of the absorber has to sit within a few nanometers of where the design says.
+-{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}**Particles.** Anything on the reflector prints on every wafer until someone finds it.
 
 High-NA scanners, the newest EUV machines, print finer lines with larger mirrors, and each exposure then covers half the patch of wafer, doubling the exposures needed, so a large die, one chip's rectangle, has to be stitched from two masks [4](https://www.asml.com/en/company/stories/2024/5-things-high-na-euv). On 8 September 2026 ASML and TSMC announced a move to 12-inch masks, larger than today's, to remove that limit, with a pilot line in 2031 [5](https://www.asml.com/en/news/press-releases/2026/tsmc-and-asml-announce-industry-transition-to-large-format-photomasks-for-high-na-euv).
 
@@ -1164,9 +1170,15 @@ SemiAnalysis put mask sets beyond $1 million at 28 nm, beyond $10 million at 7 n
 
 That cost decides who can use a node at all. A GPU spread over hundreds of thousands of units absorbs a $40 million mask set easily; the same set makes a custom inference chip shipping in the thousands uneconomic [14](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor). That cost limits AI silicon to a handful of designs.
 
-**Chart:** Cost of one mask set by node, 2022 estimates ($M)
+**Chart:** Cost of one mask set by node, 2022 estimates{--{"author":"James's AI","timestamp":1790597059274}@@ ($M)
 
-28 nm 1 $M 7 nm 10 $M 3 nm 40 $M
+--}{++{"author":"James's AI","timestamp":1790597059274}@@
+
+| | $M |
+|---|---:|
+| ++}28 nm {++{"author":"James's AI","timestamp":1790597059274}@@| ++}1 {--{"author":"James's AI","timestamp":1790597059274}@@$M--}{++{"author":"James's AI","timestamp":1790597059274}@@|
+|++} 7 nm {++{"author":"James's AI","timestamp":1790597059274}@@| ++}10 {--{"author":"James's AI","timestamp":1790597059274}@@$M--}{++{"author":"James's AI","timestamp":1790597059274}@@|
+|++} 3 nm {++{"author":"James's AI","timestamp":1790597059274}@@| ++}40 {--{"author":"James's AI","timestamp":1790597059274}@@$M--}{++{"author":"James's AI","timestamp":1790597059274}@@|++}
 
 Source: [SemiAnalysis](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor)
 
@@ -1184,77 +1196,92 @@ A decade on, no pellicle membrane is transparent, tough and long-lived at once, 
 
 ### Key evaluation criteria ^key-evaluation-criteria-5
 
--   **Blank defectivity.** Particles buried in the multilayer cannot be repaired, so blank yield sets mask yield.
--   **Write time and placement.** Multi-beam writers make dense, curved EUV patterns affordable, and Intel calls IMS the established industry leader in them [9](https://www.intc.com/news-events/press-releases/detail/1645/intel-to-sell-minority-stake-in-ims-nanofabrication).
--   **Actinic inspectability.** Only a 13.5 nm inspection sees what the scanner sees, and only Lasertec sells one [10](https://www.lasertec.co.jp/en/ir/plan/message.html).
--   **Pellicle transmission and lifetime.** Transmission counts twice, and the best demonstrated carbon nanotube membranes pass 97 percent in a single crossing [12](https://www.imec-int.com/en/press/imec-demonstrates-cnt-pellicle-utilization-euv-scanner).
--   **Mask-set cost per node.** $10M to $40M at the leading edge, which decides which designs can use it [14](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor).
+-{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}**Blank defectivity.** Particles buried in the multilayer cannot be repaired, so blank yield sets mask yield.
+-{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}**Write time and placement.** Multi-beam writers make dense, curved EUV patterns affordable, and Intel calls IMS the established industry leader in them [9](https://www.intc.com/news-events/press-releases/detail/1645/intel-to-sell-minority-stake-in-ims-nanofabrication).
+-{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}**Actinic inspectability.** Only a 13.5 nm inspection sees what the scanner sees, and only Lasertec sells one [10](https://www.lasertec.co.jp/en/ir/plan/message.html).
+-{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}**Pellicle transmission and lifetime.** Transmission counts twice, and the best demonstrated carbon nanotube membranes pass 97 percent in a single crossing [12](https://www.imec-int.com/en/press/imec-demonstrates-cnt-pellicle-utilization-euv-scanner).
+-{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}**Mask-set cost per node.** $10M to $40M at the leading edge, which decides which designs can use it [14](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor).
 
-{--{"author":"James's AI","timestamp":1790593913218}@@Card--}{++{"author":"James's AI","timestamp":1790593913218}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593913218}@@4Question--}{++{"author":"James's AI","timestamp":1790593913218}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597059274}@@Card 1 of 4Question
 
-What is a photomask?
+What is a photomask?--}{++{"author":"James's AI","timestamp":1790597059274}@@::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.++}
 
-{--{"author":"James's AI","timestamp":1790593914100}@@Card--}{++{"author":"James's AI","timestamp":1790593914100}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593914100}@@4Answer--}{++{"author":"James's AI","timestamp":1790593914100}@@4 · Answer**++}
+{--{"author":"James's AI","timestamp":1790597059274}@@Card--}{++{"author":"James's AI","timestamp":1790597059274}@@:::callout {title="Card++} 1 of {--{"author":"James's AI","timestamp":1790597059274}@@4Answer
 
-The stencil that lithography prints from, one for each layer of a chip.
+--}{++{"author":"James's AI","timestamp":1790597059274}@@4: What is a photomask?" tone="neutral" collapse="closed"}
+++}The stencil that lithography prints from, one for each layer of a chip.
 
-The same plate prints its layer on wafer after wafer, so any flaw on it repeats on every wafer. [[#^how-it-works-5|Reread: How it works]]
+The same plate prints its layer on wafer after wafer, so any flaw on it repeats on every wafer. [[#^how-it-works-5|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597059274}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790593915024}@@Card--}{++{"author":"James's AI","timestamp":1790593915024}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593915024}@@4Question--}{++{"author":"James's AI","timestamp":1790593915024}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597059274}@@Card--}{++{"author":"James's AI","timestamp":1790597059274}@@:::callout {title="Card++} 2 of {--{"author":"James's AI","timestamp":1790597059274}@@4Question
 
-How many firms make the blank plates for EUV masks?
+--}{++{"author":"James's AI","timestamp":1790597059274}@@4: ++}How many firms make the blank plates for EUV {--{"author":"James's AI","timestamp":1790597059274}@@masks?
 
-{--{"author":"James's AI","timestamp":1790593916361}@@Card--}{++{"author":"James's AI","timestamp":1790593916361}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593916361}@@4Answer--}{++{"author":"James's AI","timestamp":1790593916361}@@4 · Answer**++}
+Card 2 of 4Answer
 
-Three, led by AGC and Hoya of Japan.
+--}{++{"author":"James's AI","timestamp":1790597059274}@@masks?" tone="neutral" collapse="closed"}
+++}Three, led by AGC and Hoya of Japan.
 
-Only one firm, Lasertec of Japan, sells the tool that checks a finished EUV mask in EUV light. [[#^who-makes-it-5|Reread: Who makes it]]
+Only one firm, Lasertec of Japan, sells the tool that checks a finished EUV mask in EUV light. [[#^who-makes-it-5|Reread: Who makes it]]{++{"author":"James's AI","timestamp":1790597059274}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790593917030}@@Card--}{++{"author":"James's AI","timestamp":1790593917030}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593917030}@@4Question--}{++{"author":"James's AI","timestamp":1790593917030}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597059274}@@Card--}{++{"author":"James's AI","timestamp":1790597059274}@@:::callout {title="Card++} 3 of {--{"author":"James's AI","timestamp":1790597059274}@@4Question
 
-Why has no new firm entered the business?
+--}{++{"author":"James's AI","timestamp":1790597059274}@@4: ++}Why has no new firm entered the {--{"author":"James's AI","timestamp":1790597059274}@@business?
 
-{--{"author":"James's AI","timestamp":1790593918952}@@Card--}{++{"author":"James's AI","timestamp":1790593918952}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593918952}@@4Answer--}{++{"author":"James's AI","timestamp":1790593918952}@@4 · Answer**++}
+Card 3 of 4Answer
 
-The market is too small to pay for the years of work a newcomer would need.
+--}{++{"author":"James's AI","timestamp":1790597059274}@@business?" tone="neutral" collapse="closed"}
+++}The market is too small to pay for the years of work a newcomer would need.
 
-The existing suppliers spent about twenty years learning to make plates without defects. [[#^the-chokepoint-5|Reread: The chokepoint]]
+The existing suppliers spent about twenty years learning to make plates without defects. [[#^the-chokepoint-5|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597059274}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790593920092}@@Card--}{++{"author":"James's AI","timestamp":1790593920092}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593920092}@@4Question--}{++{"author":"James's AI","timestamp":1790593920092}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597059274}@@Card--}{++{"author":"James's AI","timestamp":1790597059274}@@:::callout {title="Card++} 4 of {--{"author":"James's AI","timestamp":1790597059274}@@4Question
 
-What masks can China make?
+--}{++{"author":"James's AI","timestamp":1790597059274}@@4: ++}What masks can China {--{"author":"James's AI","timestamp":1790597059274}@@make?
 
-{--{"author":"James's AI","timestamp":1790593921278}@@Card--}{++{"author":"James's AI","timestamp":1790593921278}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593921278}@@4Answer--}{++{"author":"James's AI","timestamp":1790593921278}@@4 · Answer**++}
+Card 4 of 4Answer
 
-Masks for older machines only.
+--}{++{"author":"James's AI","timestamp":1790597059274}@@make?" tone="neutral" collapse="closed"}
+++}Masks for older machines only.
 
-No Chinese firm makes an EUV mask blank or a tool that checks an EUV mask. [[#^the-chokepoint-5|Reread: The chokepoint]]
+No Chinese firm makes an EUV mask blank or a tool that checks an EUV mask. [[#^the-chokepoint-5|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597059274}@@
+:::
 
-#### Four things to remember ^four-things-to-remember-4
+::::++}
 
--   A photomask is the stencil for one layer of a chip, and any flaw on it repeats on every wafer.
--   Three firms make EUV mask blanks, and only Lasertec sells the tool that checks them in EUV light.
--   The market is too small to repay a newcomer for twenty years of learning to avoid defects.
--   China makes masks only for older machines.
+{--{"author":"James's AI","timestamp":1790597059274}@@#### Four--}{++{"author":"James's AI","timestamp":1790597059274}@@:::callout {title="Four++} things to {--{"author":"James's AI","timestamp":1790597059274}@@remember ^four-things-to-remember-4
 
-**Sources (16)**
+--}{++{"author":"James's AI","timestamp":1790597059274}@@remember" tone="green"}
+++}-{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}A photomask is the stencil for one layer of a chip, and any flaw on it repeats on every wafer.
+-{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}Three firms make EUV mask blanks, and only Lasertec sells the tool that checks them in EUV light.
+-{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}The market is too small to repay a newcomer for twenty years of learning to avoid defects.
+-{--{"author":"James's AI","timestamp":1790597059274}@@   --}{++{"author":"James's AI","timestamp":1790597059274}@@ ++}China makes masks only for older machines.{++{"author":"James's AI","timestamp":1790597059274}@@
+:::++}
 
-1.  A [AGC to Boost Production Capacity of EUVL Photomask Blanks](https://www.agc.com/en/news/detail/1203819_2814.html) AGC · 27 April 2023
-2.  A [Photomask blanks - Shin-Etsu Chemical Co., Ltd.](https://www.shinetsu.co.jp/en/products/electronics-materials/photomask-blanks/) Shin-Etsu Chemical · 3 April 2019
-3.  A [The refined EUV mask model I.A. MAKHOTKIN1\*, M. WU1, V. SOLTWISCH2, F. SCHOLZE2, V. PHILIPSEN1](https://arxiv.org/pdf/1912.09075) arXiv · 19 December 2019
-4.  A [5 things you should know about High NA in EUV](https://www.asml.com/en/company/stories/2024/5-things-high-na-euv) ASML · 25 January 2024
-5.  A [TSMC and ASML Announce Initiative to Pioneer Industry Transition to Large-Format Photomasks for High NA EUV](https://www.asml.com/en/news/press-releases/2026/tsmc-and-asml-announce-industry-transition-to-large-format-photomasks-for-high-na-euv) ASML · 8 September 2026
-6.  A [The Japanese glass behind next-generation chips](https://www.agc.com/en/hub/pr/the-japanese-glass-behind-next-generation-chips.html) AGC
-7.  A [AGC Data Book](https://www.agc.com/en/ir/library/outline/pdf/reference.pdf) AGC Inc. · 29 May 2026
-8.  A [Information Technology Business | Review of Operations | HOYA REPORT 2025](https://www.hoya.com/ir/2025/en/review/it.html) HOYA
-9.  A [Intel to Sell Minority Stake in IMS Nanofabrication Business to TSMC](https://www.intc.com/news-events/press-releases/detail/1645/intel-to-sell-minority-stake-in-ims-nanofabrication) Intel · 12 September 2023
-10.  A [Business Report | Lasertec Corporation](https://www.lasertec.co.jp/en/ir/plan/message.html) Lasertec
-11.  A [Indistinguishable from magic: the EUV pellicle](https://www.asml.com/en/news/stories/2022/the-euv-pellicle-indistinguishable-from-magic) ASML · 14 September 2022
-12.  A [Imec demonstrates CNT pellicle utilization on EUV scanner](https://www.imec-int.com/en/press/imec-demonstrates-cnt-pellicle-utilization-euv-scanner) imec · 6 October 2020
-13.  A [Mitsui Chemicals Sets up Production Facilities for CNT Pellicles to Be Used in Next-Gen EUV Lithography](https://jp.mitsuichemicals.com/en/release/2024/2024_0528_1/index.htm) Mitsui Chemicals
-14.  B [The Dark Side Of The Semiconductor Design Renaissance – Fixed Costs Soaring Due To Photomask Sets, Verification, and Validation](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor) SemiAnalysis · 24 July 2022
-15.  A [Photronics Reports Full Year and Fourth Quarter Fiscal 2025 Results](https://www.globenewswire.com/news-release/2025/12/10/3203040/0/en/Photronics-Reports-Full-Year-and-Fourth-Quarter-Fiscal-2025-Results.html) GlobeNewswire (release by Photronics) · 10 December 2025
-16.  A [Mask Service](https://www.smics.com/en/site/mask) SMIC
+{--{"author":"James's AI","timestamp":1790597059274}@@**Sources (16)**
+
+--}{++{"author":"James's AI","timestamp":1790597059274}@@:::callout {title="Sources (16)" tone="neutral" collapse="closed"}
+++}1.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [AGC to Boost Production Capacity of EUVL Photomask {--{"author":"James's AI","timestamp":1790597059274}@@Blanks](https://www.agc.com/en/news/detail/1203819_2814.html)--}{++{"author":"James's AI","timestamp":1790597059274}@@Blanks](https://www.agc.com/en/news/detail/1203819_2814.html).++} AGC · 27 April {--{"author":"James's AI","timestamp":1790597059274}@@2023--}{++{"author":"James's AI","timestamp":1790597059274}@@2023. Tier A.++}
+2.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [Photomask blanks - Shin-Etsu Chemical Co., {--{"author":"James's AI","timestamp":1790597059274}@@Ltd.](https://www.shinetsu.co.jp/en/products/electronics-materials/photomask-blanks/)--}{++{"author":"James's AI","timestamp":1790597059274}@@Ltd.](https://www.shinetsu.co.jp/en/products/electronics-materials/photomask-blanks/).++} Shin-Etsu Chemical · 3 April {--{"author":"James's AI","timestamp":1790597059274}@@2019--}{++{"author":"James's AI","timestamp":1790597059274}@@2019. Tier A.++}
+3.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [The refined EUV mask model I.A. {--{"author":"James's AI","timestamp":1790597059274}@@MAKHOTKIN1\*,--}{++{"author":"James's AI","timestamp":1790597059274}@@MAKHOTKIN1*,++} M. WU1, V. SOLTWISCH2, F. SCHOLZE2, V. {--{"author":"James's AI","timestamp":1790597059274}@@PHILIPSEN1](https://arxiv.org/pdf/1912.09075)--}{++{"author":"James's AI","timestamp":1790597059274}@@PHILIPSEN1](https://arxiv.org/pdf/1912.09075).++} arXiv · 19 December {--{"author":"James's AI","timestamp":1790597059274}@@2019--}{++{"author":"James's AI","timestamp":1790597059274}@@2019. Tier A.++}
+4.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [5 things you should know about High NA in {--{"author":"James's AI","timestamp":1790597059274}@@EUV](https://www.asml.com/en/company/stories/2024/5-things-high-na-euv)--}{++{"author":"James's AI","timestamp":1790597059274}@@EUV](https://www.asml.com/en/company/stories/2024/5-things-high-na-euv).++} ASML · 25 January {--{"author":"James's AI","timestamp":1790597059274}@@2024--}{++{"author":"James's AI","timestamp":1790597059274}@@2024. Tier A.++}
+5.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [TSMC and ASML Announce Initiative to Pioneer Industry Transition to Large-Format Photomasks for High NA {--{"author":"James's AI","timestamp":1790597059274}@@EUV](https://www.asml.com/en/news/press-releases/2026/tsmc-and-asml-announce-industry-transition-to-large-format-photomasks-for-high-na-euv)--}{++{"author":"James's AI","timestamp":1790597059274}@@EUV](https://www.asml.com/en/news/press-releases/2026/tsmc-and-asml-announce-industry-transition-to-large-format-photomasks-for-high-na-euv).++} ASML · 8 September {--{"author":"James's AI","timestamp":1790597059274}@@2026--}{++{"author":"James's AI","timestamp":1790597059274}@@2026. Tier A.++}
+6.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [The Japanese glass behind next-generation {--{"author":"James's AI","timestamp":1790597059274}@@chips](https://www.agc.com/en/hub/pr/the-japanese-glass-behind-next-generation-chips.html) AGC--}{++{"author":"James's AI","timestamp":1790597059274}@@chips](https://www.agc.com/en/hub/pr/the-japanese-glass-behind-next-generation-chips.html). AGC. Tier A.++}
+7.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [AGC Data {--{"author":"James's AI","timestamp":1790597059274}@@Book](https://www.agc.com/en/ir/library/outline/pdf/reference.pdf)--}{++{"author":"James's AI","timestamp":1790597059274}@@Book](https://www.agc.com/en/ir/library/outline/pdf/reference.pdf).++} AGC Inc. · 29 May {--{"author":"James's AI","timestamp":1790597059274}@@2026--}{++{"author":"James's AI","timestamp":1790597059274}@@2026. Tier A.++}
+8.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [Information Technology Business | Review of Operations | HOYA REPORT {--{"author":"James's AI","timestamp":1790597059274}@@2025](https://www.hoya.com/ir/2025/en/review/it.html) HOYA--}{++{"author":"James's AI","timestamp":1790597059274}@@2025](https://www.hoya.com/ir/2025/en/review/it.html). HOYA. Tier A.++}
+9.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [Intel to Sell Minority Stake in IMS Nanofabrication Business to {--{"author":"James's AI","timestamp":1790597059274}@@TSMC](https://www.intc.com/news-events/press-releases/detail/1645/intel-to-sell-minority-stake-in-ims-nanofabrication)--}{++{"author":"James's AI","timestamp":1790597059274}@@TSMC](https://www.intc.com/news-events/press-releases/detail/1645/intel-to-sell-minority-stake-in-ims-nanofabrication).++} Intel · 12 September {--{"author":"James's AI","timestamp":1790597059274}@@2023--}{++{"author":"James's AI","timestamp":1790597059274}@@2023. Tier A.++}
+10.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [Business Report | Lasertec {--{"author":"James's AI","timestamp":1790597059274}@@Corporation](https://www.lasertec.co.jp/en/ir/plan/message.html) Lasertec--}{++{"author":"James's AI","timestamp":1790597059274}@@Corporation](https://www.lasertec.co.jp/en/ir/plan/message.html). Lasertec. Tier A.++}
+11.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [Indistinguishable from magic: the EUV {--{"author":"James's AI","timestamp":1790597059274}@@pellicle](https://www.asml.com/en/news/stories/2022/the-euv-pellicle-indistinguishable-from-magic)--}{++{"author":"James's AI","timestamp":1790597059274}@@pellicle](https://www.asml.com/en/news/stories/2022/the-euv-pellicle-indistinguishable-from-magic).++} ASML · 14 September {--{"author":"James's AI","timestamp":1790597059274}@@2022--}{++{"author":"James's AI","timestamp":1790597059274}@@2022. Tier A.++}
+12.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [Imec demonstrates CNT pellicle utilization on EUV {--{"author":"James's AI","timestamp":1790597059274}@@scanner](https://www.imec-int.com/en/press/imec-demonstrates-cnt-pellicle-utilization-euv-scanner)--}{++{"author":"James's AI","timestamp":1790597059274}@@scanner](https://www.imec-int.com/en/press/imec-demonstrates-cnt-pellicle-utilization-euv-scanner).++} imec · 6 October {--{"author":"James's AI","timestamp":1790597059274}@@2020--}{++{"author":"James's AI","timestamp":1790597059274}@@2020. Tier A.++}
+13.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [Mitsui Chemicals Sets up Production Facilities for CNT Pellicles to Be Used in Next-Gen EUV {--{"author":"James's AI","timestamp":1790597059274}@@Lithography](https://jp.mitsuichemicals.com/en/release/2024/2024_0528_1/index.htm)--}{++{"author":"James's AI","timestamp":1790597059274}@@Lithography](https://jp.mitsuichemicals.com/en/release/2024/2024_0528_1/index.htm).++} Mitsui {--{"author":"James's AI","timestamp":1790597059274}@@Chemicals--}{++{"author":"James's AI","timestamp":1790597059274}@@Chemicals. Tier A.++}
+14.{--{"author":"James's AI","timestamp":1790597059274}@@  B--} [The Dark Side Of The Semiconductor Design Renaissance – Fixed Costs Soaring Due To Photomask Sets, Verification, and {--{"author":"James's AI","timestamp":1790597059274}@@Validation](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor)--}{++{"author":"James's AI","timestamp":1790597059274}@@Validation](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor).++} SemiAnalysis · 24 July {--{"author":"James's AI","timestamp":1790597059274}@@2022--}{++{"author":"James's AI","timestamp":1790597059274}@@2022. Tier B.++}
+15.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [Photronics Reports Full Year and Fourth Quarter Fiscal 2025 {--{"author":"James's AI","timestamp":1790597059274}@@Results](https://www.globenewswire.com/news-release/2025/12/10/3203040/0/en/Photronics-Reports-Full-Year-and-Fourth-Quarter-Fiscal-2025-Results.html)--}{++{"author":"James's AI","timestamp":1790597059274}@@Results](https://www.globenewswire.com/news-release/2025/12/10/3203040/0/en/Photronics-Reports-Full-Year-and-Fourth-Quarter-Fiscal-2025-Results.html).++} GlobeNewswire (release by Photronics) · 10 December {--{"author":"James's AI","timestamp":1790597059274}@@2025--}{++{"author":"James's AI","timestamp":1790597059274}@@2025. Tier A.++}
+16.{--{"author":"James's AI","timestamp":1790597059274}@@  A--} [Mask {--{"author":"James's AI","timestamp":1790597059274}@@Service](https://www.smics.com/en/site/mask) SMIC--}{++{"author":"James's AI","timestamp":1790597059274}@@Service](https://www.smics.com/en/site/mask). SMIC. Tier A.
+:::++}
 
 ## Deposition and Etch ^deposition-and-etch
 
