@@ -12,7 +12,8 @@ add_to_ai_context:
 id:: c68c649a-1f23-4b05-8b7b-59b06ecc73c1
 content:: Before reading: Imagine you learned that an institution (a company, a government, an AI) had recently acquired resources through five completely different methods: some legitimate, some coercive, some deceptive. The methods have almost nothing in common on the surface. Does that variety tell you something about what the institution ultimately wants? Or does it obscure it? Write down your thinking before you read.
 
-assessment-instructions::
+force-feedback:: first
+feedback-instructions::
 The student is about to read the first half of Chapter 8 of "If Anyone Builds It, Everyone Dies."
 
 They just answered: "Does variety in method tell you anything about unity of purpose?"
