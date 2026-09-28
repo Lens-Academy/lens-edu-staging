@@ -24,7 +24,13 @@ to:: "than most people trying stuff like this!"
 
 #### Text
 content::
+%% ORIGINAL (commented out as AI slop; "Oracle of Pythia" conflates the names):
 Imagine you created an AI that perfectly predicts stock prices, but doesn't have access to trading. According to the Oracle of Pythia's idea, how could this AI begin to govern the global economy simply by giving the human user the "most accurate" forecasts?
+%%
+
+%% PROPOSED FIX:
+Imagine an AI that perfectly predicts stock prices but can't trade. Using the Pythia argument, how could it come to steer the global economy just by choosing which accurate forecasts to give?
+%%
 #### Chat
 instructions::
 The participant is answering this question:
