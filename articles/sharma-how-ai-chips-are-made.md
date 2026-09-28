@@ -333,6 +333,15 @@ The whole world market for silicon wafers came to $11.4 billion of revenue on 12
 
 ![](https://chipsupplychain.org/media/silicon-light-end.jpg)
 
+**Figure: From sand to wafer.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#silicon-and-wafers)); above is its last frame. Its steps:
+
+1. **Refine.** Silicon starts as sand and rock. It is refined into rods so pure that, of every hundred billion atoms, fewer than one is anything else.
+2. **Grow.** The rods are melted. A seed crystal touches the melt and is drawn slowly up, turning, and the silicon freezes onto it as one long crystal.
+3. **Slice.** A wire saw slices the crystal, called an ingot, into thin discs.
+4. **Polish.** Each disc is ground, etched and polished until it is flat to within a few atoms, right out to the edge.
+
+_Simplified. The ingot and the machines are not drawn to scale._
+
 From sand to wafer
 
 Silicon starts as quartzite, a rock that is silicon bound to oxygen. An arc furnace melts it with carbon, and the carbon takes the oxygen away as gas, leaving rough silicon metal. Refiners turn the metal into a gas, trichlorosilane, and distill it, because the impurities boil at other temperatures and stay behind. The clean gas then flows over silicon filaments heated inside a bell jar. On the hot surface the gas breaks apart, its silicon settles onto the filaments, and over days the filaments thicken into gray rods of polysilicon, the Siemens process. Everything downstream is made from those rods. The same process serves solar cells and chips, but only the ultra-pure semiconductor grade is any use for chips [2](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-silicon.pdf), and the two grades are separate industries with separate suppliers.
@@ -701,6 +710,16 @@ The stencil is a photomask, the film is photoresist and the machine is a scanner
 The wafer is coated with photoresist, a film that changes wherever light touches it. The mask holds one layer of the circuit as a pattern of clear and dark areas, drawn four times larger than life. The machine shines light through the mask, shrinks the image four times with a lens, and lands it on the film. A wash then removes the film where the light hit, and the pattern is left standing on the wafer for the next machine to etch in or fill with metal. Then the film is stripped and the next mask goes in. A chip takes dozens of masks, one per layer.
 
 ![](https://chipsupplychain.org/media/litho-light-end.jpg)
+
+**Figure: How lithography prints a chip.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#lithography)); above is its last frame. Its steps:
+
+1. **Coat.** The wafer is coated with a thin film that changes wherever light touches it.
+2. **Stencil.** A stencil, called a mask, holds the pattern for one layer of the chip, drawn four times larger than life.
+3. **Shrink.** Light shines through the stencil, and a lens shrinks the image four times and lands it on the film.
+4. **Wash.** A wash removes the film wherever the light landed, and the pattern is left on the wafer.
+5. **Repeat.** The machine steps across the wafer, printing one patch at a time, each about the size of a postage stamp.
+
+_Simplified. The newest machines, which use extreme ultraviolet light, carry the image with mirrors in place of a lens._
 
 How lithography prints a chip
 
@@ -1119,6 +1138,19 @@ Applied Materials and Lam Research, the two largest deposition and etch supplier
 
 ![](https://chipsupplychain.org/media/dep-etch-light-end.jpg)
 
+**Figure: One round of deposition and etch.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#deposition-and-etch)); above is its last frame. Its steps:
+
+1. **The wafer.** A slice through one spot on a wafer, magnified until its layers show.
+2. **Deposit.** A film a few atoms thick is laid over the whole wafer.
+3. **Coat.** A light-sensitive coating, the resist, is spun on top.
+4. **Expose.** Light shines through a stencil and changes the resist wherever it lands.
+5. **Develop.** A wash removes the resist the light reached, leaving the stencil’s pattern.
+6. **Etch.** A plasma cuts straight down through the film wherever the resist is gone.
+7. **Strip.** The leftover resist is removed. The pattern now sits in the film.
+8. **Repeat.** Insulator fills the gaps and the next layer goes on. A chip takes more than a thousand of these rounds.
+
+_Simplified cross-section. The layers are drawn much thicker than they are._
+
 One round of deposition and etch
 
 Both steps happen in a vacuum chamber that holds one wafer at a time. A pump empties the chamber of air, a measured flow of gas comes in, and an electric field that reverses millions of times a second, a radio-frequency field, strips electrons off the gas molecules. The gas is now a plasma, charged fragments that react far more readily than whole molecules do.
@@ -1351,6 +1383,15 @@ A bigger chip is a bigger target for the second kind, and the loss grows faster 
 Run that equation with a clustering constant of 3 for an 8 square centimeter die, about as much as one exposure can print, and it yields about 49 percent at a defect density of 0.10 and about 69 percent at 0.05 [4](https://web.ece.ucsb.edu/~parhami/docs_folder/f33-book-dep-comp-pt2.pdf). Getting from one to the other is yield learning: find which of the thousand-odd steps is losing dies, fix it, move on.
 
 ![](https://chipsupplychain.org/media/defects-light-end.jpg)
+
+**Figure: Why big chips lose more to defects.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#metrology-and-inspection)); above is its last frame. Its steps:
+
+1. **Specks land.** Specks of dust and tiny flaws land at random on every wafer.
+2. **Small chips.** Cut into small chips, almost every chip misses every speck.
+3. **AI-size chips.** An AI chip covers eight times the area, so about half of them catch a speck and fail.
+4. **Half the specks.** Halve the specks and about seven in ten AI chips work. Finding defects pays most on the biggest chips.
+
+_Simulated 300 mm wafer: 68 specks, 0.10 per square centimeter, placed at random in loose clusters. The share of working chips follows the formula above with a clustering constant of 3._
 
 Why big chips lose more to defects
 
@@ -1932,6 +1973,16 @@ An HBM3E cube talks to the processor over 1,024 wires at once, a 1,024-bit inter
 
 ![](https://chipsupplychain.org/media/hbm-stack-light-end.jpg)
 
+**Figure: Inside a memory stack.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#memory-and-hbm)); above is its last frame. Its steps:
+
+1. **Base chip.** A memory stack sits beside the GPU on a shared silicon base. It starts with a base chip, which controls the memory chips above it.
+2. **Thin.** Each memory chip is ground to about 30 micrometers, thinner than a human hair.
+3. **Stack.** Twelve chips are joined by dots of solder, and copper-filled holes run straight down through all of them.
+4. **Height.** The stack has to fit under the cooling plate. Twelve chips reach 0.72 mm, the old limit. HBM4 raised the limit to 775 micrometers and fits up to sixteen chips.
+5. **Width.** An HBM3E stack talks to the processor over 1,024 wires at once, sixteen times as many as a PC memory module. HBM4 doubles that to 2,048.
+
+_Simplified cross-section. Heights follow the published limits and are drawn to one vertical scale; widths are not to scale._
+
 Inside a memory stack
 
 Answering a prompt is what the width is for. Training reuses each stored number across a huge multiplication, so a chip can fetch little and compute a lot. To generate one word of an answer, the chip reads the whole model from memory, and the whole record of the conversation so far, does a little arithmetic, and waits for the next read. That record grows with the length of the conversation and the number of users served at once. So memory size and speed usually set how many people one chip can serve.
@@ -2127,6 +2178,16 @@ A lithography scanner prints a rectangle 26 mm by 33 mm, or 858 mm2, in one expo
 High bandwidth memory gives a second reason to split the package: its 1,024-bit or 2,048-bit connection, that many wires at once, is too wide for a resin base board to carry, so the memory sits beside the logic on a shared silicon carrier, the interposer.
 
 ![](https://chipsupplychain.org/media/package-light-end.jpg)
+
+**Figure: The parts of an AI accelerator.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#advanced-packaging)); above is its last frame. Its steps:
+
+1. **Package base.** An AI chip is built from several parts. First comes the package base, a layered board that connects everything to the circuit board below.
+2. **Silicon base.** On it sits a thin slab of silicon, called an interposer. Its fine wiring joins everything placed on top.
+3. **Logic chips.** Two logic chips go in the middle. They do the calculating, and each is as large as a chipmaking machine can print.
+4. **Memory.** Eight stacks of memory go beside them, a few millimeters away. They hold the AI model’s weights and the record of each conversation so far.
+5. **One package.** Together they make one AI accelerator. Nearly every one is put together by TSMC, in Taiwan.
+
+_Simplified view of a two-die, eight-stack accelerator. Footprints follow the sizes in this chapter and chapter 10; heights are exaggerated so each layer shows._
 
 The parts of an AI accelerator
 
