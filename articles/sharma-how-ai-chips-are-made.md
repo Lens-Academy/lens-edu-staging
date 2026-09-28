@@ -2432,17 +2432,17 @@ Ajinomoto puts its share of the film at about 95 percent. [[#^the-materials-unde
 
 Why would replacing Ajinomoto's film take years?
 
-Card 3 of 4Answer
+{--{"author":"James's AI","timestamp":1790594166669}@@Card--}{++{"author":"James's AI","timestamp":1790594166669}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594166669}@@4Answer--}{++{"author":"James's AI","timestamp":1790594166669}@@4 · Answer**++}
 
 Every substrate maker would have to approve the new film in each layer of each product.
 
 That takes five to ten years. [[#^the-chokepoint-12|Reread: The chokepoint]]
 
-Card 4 of 4Question
+{--{"author":"James's AI","timestamp":1790594168174}@@Card--}{++{"author":"James's AI","timestamp":1790594168174}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594168174}@@4Question--}{++{"author":"James's AI","timestamp":1790594168174}@@4 · Question**++}
 
 Does any American firm make these substrates in volume?
 
-Card 4 of 4Answer
+{--{"author":"James's AI","timestamp":1790594170048}@@Card--}{++{"author":"James's AI","timestamp":1790594170048}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594170048}@@4Answer--}{++{"author":"James's AI","timestamp":1790594170048}@@4 · Answer**++}
 
 No.
 
@@ -2455,7 +2455,7 @@ The makers are in Japan, Taiwan, Korea and China. [[#^who-makes-it-12|Reread: Wh
 -   Replacing the film would take five to ten years of approvals.
 -   No American firm makes these substrates in volume.
 
-Sources (19)
+**Sources (19)**
 
 1.  A [Q2 2026 Taiwan Semiconductor Manufacturing Co Ltd Earnings Call (Chinese, English) — edited transcript](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf) LSEG StreetEvents (transcript of a TSMC earnings call), via TSMC · 16 July 2026
 2.  A [The Ajinomoto Group’s Unexpected Role in Semiconductor Manufacturing: The Insulating Film “ABF” Born from “AminoScience” | Stories](https://www.ajinomoto.com/stories/the-ajinomoto-groups-unexpected-role-in-semiconductor-manufacturing-the-insulating-film-abf-born-from-aminoscience) Ajinomoto · 5 March 2026
@@ -2481,7 +2481,7 @@ Sources (19)
 
 Assembly and test decide which dies are allowed into a package that costs more than a car. One Japanese firm now sells two thirds of the world's chip testers.
 
-1,251 words / 5 minSpecimen: probe card
+{--{"author":"James's AI","timestamp":1790594172728}@@1,251--}{++{"author":"James's AI","timestamp":1790594172728}@@_1,251++} words / 5 {--{"author":"James's AI","timestamp":1790594172728}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594172728}@@min · Interactive 3D Specimen:++} probe card{++{"author":"James's AI","timestamp":1790594172728}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#test-and-assembly))_++}
 
 In plain terms
 
@@ -2491,9 +2491,9 @@ Before a chip can be sold, a machine has to put questions to it and check every 
 
 Test used to be the cheap step at the end. With a dozen expensive dies in one package, it now protects everything made before it: the market for logic chip testers grew about 68 percent in 2025 [7](https://www.advantest.com/document/en/investors/ir-library/result/JE_BIZ_260427_note.pdf) and burn-in has started moving back onto the wafer [3](https://www.aehr.com/2026/07/aehr-test-systems-reports-fiscal-2026-fourth-quarter-and-full-year-financial-results-with-record-quarterly-bookings-and-100-million-effective-backlog/). Advantest has turned a duopoly into a two-thirds share of the machines. The assembly business beneath it stays fragmented, and four of the top ten assembly and test firms are Chinese [19](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/), which is why export controls have little effect on assembly and test.
 
-Concentration **High**
+Concentration: **High**
 
-Substitutability **Moderate** No test or assembly tool has only one maker, but switching testers means rebuilding every one of the customer's test programs.
+Substitutability: **Moderate**. No test or assembly tool has only one maker, but switching testers means rebuilding every one of the customer's test programs.
 
 Price or market size **ASE and Amkor alone had $27.3 billion of revenue in 2025** ASE spent $4.1 billion on machinery and buildings in the first half of 2026
 
