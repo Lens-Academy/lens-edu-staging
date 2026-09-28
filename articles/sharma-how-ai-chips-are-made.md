@@ -3046,7 +3046,7 @@ China has spare generating capacity and makes its own transformers. The United S
 -   Power equipment is the slow part: a large transformer takes about 36 months to arrive.
 -   China has power to spare and is limited by the supply of AI chips.
 
-Sources (14)
+**Sources (14)**
 
 1.  A [U.S. Department of Energy Large Power Transformer Resilience Report to Congress, July 2024](https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%20signed%20by%20Secretary%20Granholm%20on%207-10-24.pdf) U.S. Department of Energy · 10 July 2024
 2.  A [System Hardware & Components](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html) Nvidia
@@ -3067,7 +3067,7 @@ Sources (14)
 
 Inside an AI accelerator the silicon is the cheap part. Memory and packaging are most of the cost.
 
-1,241 words / 5 minSpecimen: wafer cost
+{--{"author":"James's AI","timestamp":1790594271510}@@1,241--}{++{"author":"James's AI","timestamp":1790594271510}@@_1,241++} words / 5 {--{"author":"James's AI","timestamp":1790594271510}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594271510}@@min · Interactive 3D Specimen:++} wafer cost{++{"author":"James's AI","timestamp":1790594271510}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#component-costs))_++}
 
 In plain terms
 
@@ -3113,7 +3113,7 @@ The 192 GB of high-bandwidth memory beside those dies, sold as HBM3E, is the sin
 
 Epoch AI models each line as a range, deriving the packaging line from TSMC's advanced packaging revenue and Nvidia's share of CoWoS capacity [1](https://epoch.ai/data-insights/b200-cost-breakdown). Nothing of that quality exists for the H100 or Rubin.
 
-Where the ~$6,400 of B200 manufacturing cost goes, 2026$
+**Chart:** Where the ~$6,400 of B200 manufacturing cost goes, 2026 ($)
 
 HBM3E, 192 GB **2,900** CoWoS-L packaging **1,100** Packaging yield loss **1,000** Logic die, two on 4NP **900** Substrate, board, test **480**
 
@@ -3144,7 +3144,7 @@ Every figure is the firm's own reported gross margin [5](https://investors.micro
 
 SK hynix publishes no gross margin. Its operating margin hit 76 percent in the June quarter, on revenue up 257 percent in a year [15](https://news.skhynix.com/en/q2-2026-business-results/).
 
-Gross margin, each firm's most recent reported quarter%
+**Chart:** Gross margin, each firm's most recent reported quarter (%)
 
 Micron 84.6% Nvidia 75% TSMC 67.7% KLA 61.4% ASML 54% Lam Research 51.7% Applied Materials 50.3% Ibiden 36.4% ASE Technology 21% Amkor 16.8%
 
@@ -3154,7 +3154,7 @@ Design, inspection and leading-edge wafers earn gross margins of 50 to 75 percen
 
 The two bodies that count this industry disagree. World Semiconductor Trade Statistics forecast $772 billion of global chip sales for 2025 [17](https://www.wsts.org/76/103/Global-Semiconductor-Market-Approaches-1T-in-2026); the Semiconductor Industry Association counted $791.7 billion [18](https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/). The forecasters put 2026 at $975 billion, with memory and logic each growing more than 30 percent [17](https://www.wsts.org/76/103/Global-Semiconductor-Market-Approaches-1T-in-2026). Below those totals sit $135.1 billion of [19](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025) equipment billings and $448.3 billion of 2025 capital spending at Alphabet, Amazon, Meta, Microsoft and Oracle, on track for $770 billion in 2026 [20](https://epoch.ai/data-insights/hyperscaler-capex-trend).
 
-Size of each layer of the chain, 2025$B
+**Chart:** Size of each layer of the chain, 2025 ($B)
 
 Semiconductor sales 792 Hyperscaler capex 448 Nvidia data center revenue 194 Semiconductor equipment 135
 
@@ -3190,21 +3190,21 @@ Per unit of compute, logic keeps getting cheaper and everything wrapped around i
 -   **Rack watts.** Past about 140 kW a rack, power and cooling capex grows faster than accelerator capex [21](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html).
 -   **Compressibility class.** Whether the line falls when volume doubles. If it does not, capacity is the constraint.
 
-Card 1 of 3Question
+{--{"author":"James's AI","timestamp":1790594275922}@@Card--}{++{"author":"James's AI","timestamp":1790594275922}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594275922}@@3Question--}{++{"author":"James's AI","timestamp":1790594275922}@@3 · Question**++}
 
 What does an Nvidia B200 cost to build, and what does it sell for?
 
-Card 1 of 3Answer
+{--{"author":"James's AI","timestamp":1790594276856}@@Card--}{++{"author":"James's AI","timestamp":1790594276856}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594276856}@@3Answer--}{++{"author":"James's AI","timestamp":1790594276856}@@3 · Answer**++}
 
 About $6,400 to build. It sells for $30,000 to $40,000.
 
 The build cost is an estimate by Epoch AI. Nvidia's gross margin is 75 percent. [Reread: The B200 bill of materials](#component-costs--the-b200-bill-of-materials)
 
-Card 2 of 3Question
+{--{"author":"James's AI","timestamp":1790594278282}@@Card--}{++{"author":"James's AI","timestamp":1790594278282}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594278282}@@3Question--}{++{"author":"James's AI","timestamp":1790594278282}@@3 · Question**++}
 
 What is the most expensive part of an AI accelerator?
 
-Card 2 of 3Answer
+{--{"author":"James's AI","timestamp":1790594279282}@@Card--}{++{"author":"James's AI","timestamp":1790594279282}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594279282}@@3Answer--}{++{"author":"James's AI","timestamp":1790594279282}@@3 · Answer**++}
 
 The stacked memory, about 45 percent of the cost to build.
 
