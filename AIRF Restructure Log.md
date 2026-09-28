@@ -32,7 +32,7 @@ What did not change: the course still runs five meetings, no module was created 
 | 4 | Why the stages ran in the order they did |
 | 5 | **The stage inventory, file by file, with statuses. Start here** |
 | 6 | The evidence behind the welcome decision and the rules it produced |
-| 7 | Testing, and why none of it has happened |
+| 7 | Testing: the checks, now runnable against the live tutor |
 | 8 | What writing about unreadable chapters has cost, twice |
 | 9 | The chronological log: every change, why it was made, and how it landed |
 | 10 | Everything still open, grouped by what would unblock it |
@@ -62,6 +62,8 @@ What did not change: the course still runs five meetings, no module was created 
 - **Validate unscoped as well as course-scoped.** Files tagged `wip` are excluded from the course-scoped run, so errors in drafts stay invisible until promotion. Two malformed UUIDs hid this way.
 - **`add_to_ai_context::` cannot be repeated** on one submodule; the second silently overwrites the first. Use comma-separated links on one line.
 - **Test the premise early, the wording late.** Several beats share one failure mode, the tutor giving the answer away. Smoke-test that on one or two beats before writing more briefs on the same pattern; batch the rest into one pass at the end of stage 3.
+- **Open the relay session under the vault owner's name.** `create_session` takes a `name` and the review UI renders every edit as "{name}'s AI". A wrong name credits the work to a colleague, and it cannot be corrected once the edit has landed. Re-check it after any break in context, and pass the same name to every subagent, since each one opens a session of its own.
+- **A sweep keyed on the field you are removing cannot see content that already carries the field you want.** Half-converted files look finished to it, and the content most likely to be half-converted is whatever you wrote yourself most recently. Before running one, compare per-file counts of the old field and the new one; the discrepancy is the real worklist. Skipping that cost eleven segments on 2026-09-28.
 
 One tooling issue to raise with whoever maintains the relay: edits route to the review queue based on whether the text looks human-written, so the protection weakens as a file accumulates AI-authored content; check how each edit actually landed rather than assuming. A separate relay issue is already known to the team and tracked with them. If you hit anything else that looks like relay behaviour rather than course content, raise it with them rather than writing it up here.
 
