@@ -582,6 +582,7 @@ It came up shortly after this project closed, so this group is no longer waiting
 
 - **The three agent checks in [[AI Guide/Writing Meeting Docs]]**, on the five meeting docs. Run upstream. What this restructure warrants is internal consistency and conformance to the master template, not a house-rules pass. Agent 3, the cold reader, is the likeliest source of anything that comes back.
 - **[[Learning Outcomes/Fiction as argument, not prediction]] carries a stale `content-sha`.** Its recorded A2, B1 and C3 results describe the file as it was before we edited it. Clearing the C3 failure needs a re-run, not just the fix.
+- **[[AI Guide/Writing Lenses]] needs updating to match the grading change.** It still says Learning Questions stay graded. The course no longer does, for the reasons in the 2026-09-28 rows of section 9, and assent for the change was given before it ran. What is outstanding is the guide text, not the decision. Anyone updating it should also cover `force-feedback::`, which the guide predates.
 
 ### Course design, deliberately deferred
 
