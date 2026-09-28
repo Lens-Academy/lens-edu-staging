@@ -67,18 +67,11 @@ source:: [[../Lenses/Eliezer Yudkowsky – AI Alignment- Why It's Hard, and Wher
 source:: [[../Lenses/alexander-nicholas-decker-in-hell]]
 
 # Lens:
-{--{"author":"Plex's AI","timestamp":1790610046682}@@optional:: true
-source:: [[../Lenses/Meditations on Moloch]]
-
-# Lens:
---}source:: [[../Lenses/Sharp left turn]]
+source:: [[../Lenses/Sharp left turn]]
 
 # Lens:
 optional:: true
-source:: [[../Lenses/Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AIst outcomes]]{--{"author":"Plex's AI","timestamp":1790610046682}@@
-
-# Lens:
-source:: [[../Lenses/alexander-the-tails-coming-apart-as-metaphor-for-life]]--}
+source:: [[../Lenses/Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AIst outcomes]]
 
 # Lens:
 optional:: true
@@ -86,12 +79,12 @@ source:: [[../Lenses/Discovering when an agent is present in a system]]
 
 # Lens:
 optional:: true
-source:: [[../Lenses/Pythia]]{++{"author":"Plex's AI","timestamp":1790610046682}@@
+source:: [[../Lenses/Pythia]]
 
 # Lens:
 source:: [[../Lenses/alexander-the-tails-coming-apart-as-metaphor-for-life]]
 
 # Lens:
 optional:: true
-source:: [[../Lenses/Meditations on Moloch]]++}
+source:: [[../Lenses/Meditations on Moloch]]
 
