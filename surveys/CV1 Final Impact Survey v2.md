@@ -189,21 +189,21 @@ labels::
 - Actively working toward it
 - Already full-time or in a paid fellowship
 
-#### Question: Rating
-id:: 33141de8-0263-4b4a-a1ac-3b17609e4197
-content:: How clear are you about what you need to do in the next 1 to 3 months?
-scale:: 10
-labels::
-- No clarity
-- Very unclear
-- Unclear
-- Slightly unclear
-- Neutral or mixed
-- Slightly clear
-- Clear
-- Very clear
-- Extremely clear
-- Completely clear
+#### Question: Open
+id:: 192fa91e-65de-44b3-bbd4-bd32e2c347c6
+content:: What has changed for you because of this course? A specific example helps.
+optional:: true
+max-chars:: 1500
+
+#### Question: Choice
+id:: 4fe9c259-0b0d-4866-8347-4e185b2794f3
+content:: May we share your answers to this survey (for example the story above or your recommendation reason) on our website and with funders?
+optional:: true
+options::
+- Yes, with my full name
+- Yes, with my first name only
+- Yes, anonymously (for example "a Lens Academy graduate")
+- No, please keep them internal
 
 #### Text
 content:: **Pay what you want**
