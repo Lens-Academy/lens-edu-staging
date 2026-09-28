@@ -8,12 +8,7 @@ title: Deadly By Default
 ---
 #### Text
 content::
-{--{"author":"Plex's AI","timestamp":1790610797043}@@While the first text argued that the course of history appears different depending on the predictive model used, the next explains why, in the field of AI, we can’t simply count on a positive outcome by default.
-
-This text explains why some researchers believe the development of --}{++{"author":"Plex's AI","timestamp":1790610797043}@@Why expect ++}powerful AI{--{"author":"Plex's AI","timestamp":1790610797043}@@ is predictably dangerous, based not on a model of technological trends, but rather on specific incentives specific to what's happening right now.
-The main idea: catastrophic outcomes don't --}{++{"author":"Plex's AI","timestamp":1790610797043}@@ to go badly by default? This text argues that catastrophe doesn't ++}require{--{"author":"Plex's AI","timestamp":1790610797043}@@ malicious intent. They can arise simply because very--}{++{"author":"Plex's AI","timestamp":1790610797043}@@ malice. A++} powerful {--{"author":"Plex's AI","timestamp":1790610797043}@@optimization systems are capable of--}{++{"author":"Plex's AI","timestamp":1790610797043}@@optimizer++} pursuing goals that conflict with human {--{"author":"Plex's AI","timestamp":1790610797043}@@values.
-
-The question this text addresses is: if we cannot confidently predict--}{++{"author":"Plex's AI","timestamp":1790610797043}@@values is enough, and today's incentives make that++} the{--{"author":"Plex's AI","timestamp":1790610797043}@@ exact shape of the future, what is a reasonable baseline hypothesis to adopt regarding powerful AI systems?--}{++{"author":"Plex's AI","timestamp":1790610797043}@@ default outcome.++}
+Why expect powerful AI to go badly by default? This text argues that catastrophe doesn't require malice. A powerful optimizer pursuing goals that conflict with human values is enough, and today's incentives make that the default outcome.
 
 #### Article
 source:: [[../articles/Duncan, Deadly By Default]]
@@ -22,12 +17,12 @@ to:: "ever created or accomplished."
 
 #### Text
 content::
-What do you think of the argument that AI extinction risk is the default outcome? {--{"author":"Plex's AI","timestamp":1790611058135}@@Which parts of this argument seem strongest to you, and which seem weakest?--}{++{"author":"Plex's AI","timestamp":1790611058135}@@What further questions come up?++}
+What do you think of the argument that AI extinction risk is the default outcome? What further questions come up?
 
 #### Chat
 instructions::
 The user is answering this question:
-What do you think of the argument that AI extinction risk is the default outcome? {--{"author":"Plex's AI","timestamp":1790611064332}@@Which parts of this argument seem strongest to you, and which seem weakest?--}{++{"author":"Plex's AI","timestamp":1790611064332}@@What further questions come up?++}
+What do you think of the argument that AI extinction risk is the default outcome? What further questions come up?
 
 Context:
 - This is a philosophical discussion about AI alignment and meta-level reasoning.
