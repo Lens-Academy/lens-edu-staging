@@ -2751,7 +2751,7 @@ Source: [NVIDIA NVLink product page, 2026](https://www.nvidia.com/en-us/data-cen
 
 InfiniBand, the specialized network built for supercomputers, carried nearly all scale-out traffic when AI clusters were small and alike. Ethernet overtook it on raw capacity first: Broadcom doubled the bandwidth of the switch chips it sells to all comers every generation, from 25.6 Tbps on one chip in Tomahawk 4 [6](https://www.broadcom.com/company/news/product-releases/52756) to 51.2 in Tomahawk 5 [7](https://investors.broadcom.com/news-releases/news-release-details/broadcom-ships-tomahawk-5-industrys-highest-bandwidth-switch) and 102.4 in Tomahawk 6 [8](https://www.broadcom.com/company/news/product-releases/64031). Then the Ultra Ethernet Consortium published its 1.0 specification in June 2025, standardizing the load balancing, congestion control and lossless behavior InfiniBand had from the start [9](https://ultraethernet.org/ultra-ethernet-consortium-uec-launches-specification-1-0-transforming-ethernet-for-ai-and-hpc-at-scale/).
 
-Broadcom Tomahawk switching capacity on one chipTbps
+{++{"author":"James's AI","timestamp":1790594225528}@@**Chart:** ++}Broadcom Tomahawk switching capacity on one {--{"author":"James's AI","timestamp":1790594225528}@@chipTbps--}{++{"author":"James's AI","timestamp":1790594225528}@@chip (Tbps)++}
 
 Tomahawk 4 25.6 Tomahawk 5 51.2 Tomahawk 6 102.4
 
@@ -2781,7 +2781,7 @@ The parts that cannot be replaced that fast are the components that go into the 
 
 -   **Indium phosphide laser capacity.** The shortage is in material and fab space: Nvidia's answer was to buy into two laser makers [18](https://nvidianews.nvidia.com/news/nvidia-and-coherent-announce-strategic-partnership-to-develop-optics-technology-to-scale-next-generation-data-center-architecture), and the indium those lasers need is 70 percent Chinese [16](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-indium.pdf).
 -   **NVSwitch.** Nobody else sells a scale-up switch of NVLink's bandwidth to all comers, which is what UALink exists to change [4](https://ualinkconsortium.org/blog/ualink-200g-1-0-specification-overview-802/).
--   **High-layer-count {++{"author":"James's AI","timestamp":1790593591656}@@circuit ++}boards.** The boards, and the {++{"author":"James's AI","timestamp":1790593591656}@@low-loss ++}laminate they are built from, are concentrated in Taiwan and Japan; see [[#^substrates-and-pcbs]].
+-   **High-layer-count {++{"author":"James's AI","timestamp":1790593591656}@@circuit ++}boards.** The boards, and the {++{"author":"James's AI","timestamp":1790593591656}@@low-loss ++}laminate they are built from, are concentrated in Taiwan and Japan; see [[#^substrates-and-pcbs|Substrates and PCBs]].
 
 Optical module assembly is a separate case: concentrated, but not technically hard. Where the modules get built follows cost and policy, and it can change in a year or two.
 
@@ -2793,27 +2793,27 @@ Optical module assembly is a separate case: concentrated, but not technically ha
 -   **Serviceability** falls with co-packaged optics, which trade field-replaceable modules for a switch that goes back whole when a channel fails.
 -   **Supply** concentration is in the components: many firms assemble the modules; far fewer can make the lasers inside them.
 
-Card 1 of 4Question
+{--{"author":"James's AI","timestamp":1790594228497}@@Card--}{++{"author":"James's AI","timestamp":1790594228497}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594228497}@@4Question--}{++{"author":"James's AI","timestamp":1790594228497}@@4 · Question**++}
 
 What is an AI rack?
 
-Card 1 of 4Answer
+{--{"author":"James's AI","timestamp":1790594231718}@@Card--}{++{"author":"James's AI","timestamp":1790594231718}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594231718}@@4Answer--}{++{"author":"James's AI","timestamp":1790594231718}@@4 · Answer**++}
 
 A cabinet of 72 AI chips wired together to run as one computer.
 
 The chips swap results with each other constantly. [[#^how-it-works-14|Reread: How it works]]
 
-Card 2 of 4Question
+{--{"author":"James's AI","timestamp":1790594232472}@@Card--}{++{"author":"James's AI","timestamp":1790594232472}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594232472}@@4Question--}{++{"author":"James's AI","timestamp":1790594232472}@@4 · Question**++}
 
 Why do the longer links between AI chips carry signals as light?
 
-Card 2 of 4Answer
+{--{"author":"James's AI","timestamp":1790594233298}@@Card--}{++{"author":"James's AI","timestamp":1790594233298}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594233298}@@4Answer--}{++{"author":"James's AI","timestamp":1790594233298}@@4 · Answer**++}
 
 Copper carries the signals only a few meters before they fade.
 
 A laser turns the signal into pulses of light that travel down glass fiber. [[#^how-it-works-14|Reread: How it works]]
 
-Card 3 of 4Question
+{--{"author":"James's AI","timestamp":1790594234691}@@Card--}{++{"author":"James's AI","timestamp":1790594234691}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594234691}@@4Question--}{++{"author":"James's AI","timestamp":1790594234691}@@4 · Question**++}
 
 Which parts of an AI rack are hardest to replace?
 
