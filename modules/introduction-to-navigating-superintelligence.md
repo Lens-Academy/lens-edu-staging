@@ -15,7 +15,7 @@ summary_for_tutor:: Short welcome lens introducing the module: it frames the exa
 reading_minutes:: 2
 #### Text
 content::
-{--{"author":"Plex's AI","timestamp":1790611529800}@@We begin by examining the potential--}{++{"author":"Plex's AI","timestamp":1790611529800}@@Artificial intelligence is upending many aspects++} of {--{"author":"Plex's AI","timestamp":1790611529800}@@AI--}{++{"author":"Plex's AI","timestamp":1790611529800}@@civilisation at once,++} and {--{"author":"Plex's AI","timestamp":1790611529800}@@the risks --}{++{"author":"Plex's AI","timestamp":1790611529800}@@experts warn of extinction-level risks. What's going on, ++}and {--{"author":"Plex's AI","timestamp":1790611529800}@@opportunities that --}{++{"author":"Plex's AI","timestamp":1790611529800}@@where are we headed? This course will help you understand ++}the {--{"author":"Plex's AI","timestamp":1790611529800}@@characteristics of this technology present--}{++{"author":"Plex's AI","timestamp":1790611529800}@@core dynamics at play, and prepare you++} to {--{"author":"Plex's AI","timestamp":1790611529800}@@humanity.--}{++{"author":"Plex's AI","timestamp":1790611529800}@@act.++}
+Artificial intelligence is upending many aspects of civilisation at once, and experts warn of extinction-level risks. What's going on, and where are we headed? This course will help you understand the core dynamics at play, and prepare you to act.
 
 # Lens:
 source:: [[../Lenses/The AI Book That's Freaking Out National Security Advisors]]
