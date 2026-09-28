@@ -159,7 +159,6 @@ required:: true
 key:: ai_safety_programs_other
 content:: Other programs, or details you want to add (for example which BlueDot course, and whether you completed it).
 
-
 #### Choice
 key:: engagement_hours
 content:: Engagement hours in AI safety so far
