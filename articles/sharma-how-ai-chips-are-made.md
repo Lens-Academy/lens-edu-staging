@@ -1382,7 +1382,7 @@ A bigger chip is a bigger target for the second kind, and the loss grows faster 
 
 Run that equation with a clustering constant of 3 for an 8 square centimeter die, about as much as one exposure can print, and it yields about 49 percent at a defect density of 0.10 and about 69 percent at 0.05 [4](https://web.ece.ucsb.edu/~parhami/docs_folder/f33-book-dep-comp-pt2.pdf). Getting from one to the other is yield learning: find which of the thousand-odd steps is losing dies, fix it, move on.
 
-![](https://chipsupplychain.org/media/defects-light-end.jpg)
+{--{"author":"James's AI","timestamp":1790594485001}@@![](https://chipsupplychain.org/media/defects-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594485001}@@![Why big chips lose more to defects](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-defects.jpg)++}
 
 **Figure: Why big chips lose more to defects.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#metrology-and-inspection)); above is its last frame. Its steps:
 
@@ -1971,7 +1971,7 @@ Each layer in the cube is a DRAM chip, ground thin and bonded to the one below w
 
 An HBM3E cube talks to the processor over 1,024 wires at once, a 1,024-bit interface, sixteen times wider than a standard DDR5 memory module, the memory stick in a PC [1](https://www.micron.com/products/memory/hbm). HBM4 doubles that to 2,048 wires [2](https://www.jedec.org/news/pressreleases/jedec%C2%AE-and-industry-leaders-collaborate-release-jesd270-4-hbm4-standard-advancing). Ordinary memory cannot be made that wide, because the pins would not fit on a circuit board. The stack can, since its wires run down through the TSVs and across a few millimeters of silicon to the processor beside it, with no board in the way.
 
-![](https://chipsupplychain.org/media/hbm-stack-light-end.jpg)
+{--{"author":"James's AI","timestamp":1790594485771}@@![](https://chipsupplychain.org/media/hbm-stack-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594485771}@@![Inside a memory stack](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-hbm-stack.jpg)++}
 
 **Figure: Inside a memory stack.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#memory-and-hbm)); above is its last frame. Its steps:
 
@@ -2177,7 +2177,7 @@ A lithography scanner prints a rectangle 26 mm by 33 mm, or 858 mm2, in one expo
 
 High bandwidth memory gives a second reason to split the package: its 1,024-bit or 2,048-bit connection, that many wires at once, is too wide for a resin base board to carry, so the memory sits beside the logic on a shared silicon carrier, the interposer.
 
-![](https://chipsupplychain.org/media/package-light-end.jpg)
+{--{"author":"James's AI","timestamp":1790594486350}@@![](https://chipsupplychain.org/media/package-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594486350}@@![The parts of an AI accelerator](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-package.jpg)++}
 
 **Figure: The parts of an AI accelerator.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#advanced-packaging)); above is its last frame. Its steps:
 
@@ -2782,7 +2782,7 @@ A package computes nothing until it is built into a machine, and building the ma
 
 ### How it works ^how-it-works-14
 
-![](https://chipsupplychain.org/media/racks-light-end.jpg)
+{--{"author":"James's AI","timestamp":1790594487457}@@![](https://chipsupplychain.org/media/racks-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594487457}@@![How AI chips are wired together](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-racks.jpg)++}
 
 **Figure: How AI chips are wired together.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#systems-and-networking)); above is its last frame. Its steps:
 
