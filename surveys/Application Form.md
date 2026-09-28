@@ -114,14 +114,16 @@ content:: ### Career and intention
 
 #### Question
 key:: why_applying
-content:: Why are you applying to this course? How does it fit within your career plans? (100–200 words. Prioritise being concise and concrete; bullet points are fine. Feel free to use voice-to-text to save your time.) 
+content:: Why are you applying to this course? How does it fit within your career plans?
+description:: 100–200 words. Prioritise being concise and concrete; bullet points are fine. Feel free to use voice-to-text to save your time.
 max-chars:: 2000
 required:: true
 
 
 #### Question
 key:: proud_projects
-content:: Describe 1–3 projects you've done that you're most proud of (work-related is fine). Say exactly what you were responsible for. Prioritise being concise, concrete and showing outputs — links are great! (100–200 words.) 
+content:: Describe 1–3 projects you've done that you're most proud of (work-related is fine).
+description:: Say exactly what you were responsible for. Prioritise being concise, concrete and showing outputs: links are great! 100–200 words.
 max-chars:: 2000
 required:: true
 
@@ -171,7 +173,8 @@ required:: true
 
 #### Rating
 key:: transition_intention
-content:: How strong is your intention to transition to AI safety full-time in the near future (about 3–12 months)? Put 10 if you're already working full-time in AI safety, or in a paid fellowship.
+content:: How strong is your intention to transition to AI safety full-time in the near future (about 3–12 months)?
+description:: Put 10 if you're already working full-time in AI safety, or in a paid fellowship.
 scale:: 10
 labels::
 - No intention of moving into AI safety
@@ -243,7 +246,8 @@ content:: ++}Please be {--{"author":"Mark's AI","timestamp":1789929378932}@@spec
 
 #### Question
 key:: nominations
-content:: Who is the most exceptional person you would nominate for this course? Please include their email and LinkedIn. (You can nominate more than one; if they are a good fit we might reach out to them.)
+content:: Who is the most exceptional person you would nominate for this course?
+description:: Please include their email and LinkedIn. You can nominate more than one; if they are a good fit we might reach out to them.
 
 #### Question
 key:: feedback
