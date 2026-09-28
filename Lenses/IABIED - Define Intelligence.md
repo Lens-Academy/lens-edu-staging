@@ -26,7 +26,7 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read the first half of Chapter 1 of "If Anyone Builds It, Everyone Dies."
+feedback-instructions:: The student has just read the first half of Chapter 1 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Define intelligence as prediction plus steering, explain why generality drives its power, and distinguish predictive competence from the goals steering pursues.
 
