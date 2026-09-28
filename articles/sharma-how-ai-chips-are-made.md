@@ -93,7 +93,7 @@ Who leads
 -   {--{"author":"James's AI","timestamp":1790593757544}@@USCadence--}{++{"author":"James's AI","timestamp":1790593757544}@@US · **Cadence**:++} $5.30B revenue in calendar 2025; 55-60% of the hardware emulator market
 -   {--{"author":"James's AI","timestamp":1790593758261}@@DESiemens EDA--}{++{"author":"James's AI","timestamp":1790593758261}@@DE · **Siemens EDA**:++} $2.2-2.5B revenue in 2025; 85%+ of physical verification, the final layout check
 -   {--{"author":"James's AI","timestamp":1790593759094}@@GBArm--}{++{"author":"James's AI","timestamp":1790593759094}@@GB · **Arm**:++} About 50% of processor compute at the top cloud firms, fiscal 2026
--   {--{"author":"James's AI","timestamp":1790593760055}@@USBroadcom--}{++{"author":"James's AI","timestamp":1790593760055}@@US · **Broadcom**:++} $16.7B of AI chip revenue in the third quarter of fiscal 2026
+-   {--{"author":"James's AI","timestamp":1790594354908}@@USBroadcom--}{++{"author":"James's AI","timestamp":1790594354908}@@USBroadcom++} $16.7B of AI chip revenue in the third quarter of fiscal 2026
 
 Where it is made
 
