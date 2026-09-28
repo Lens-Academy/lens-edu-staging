@@ -1709,7 +1709,7 @@ Substitutability: **Hard**. Intel and Samsung also run lines for the newest chip
 
 Price or market size: **BCG puts the ten-year cost of owning a fab completed in 2026 at $35-43 billion**. TSMC intends to spend $165 billion in the United States alone
 
-Who leads
+**Who leads**
 
 -   {--{"author":"James's AI","timestamp":1790594060725}@@TWTSMC--}{++{"author":"James's AI","timestamp":1790594060725}@@TW · **TSMC**:++} 77% of wafer revenue from 7 nm and below, 2Q26; six gigafabs, all in Taiwan
 -   {--{"author":"James's AI","timestamp":1790594062872}@@USIntel Foundry--}{++{"author":"James's AI","timestamp":1790594062872}@@US · **Intel Foundry**:++} $5.8bn revenue and a $2.089bn operating loss, 2Q26
@@ -1717,7 +1717,7 @@ Who leads
 -   {--{"author":"James's AI","timestamp":1790594065428}@@CNSMIC--}{++{"author":"James's AI","timestamp":1790594065428}@@CN · **SMIC**:++} $9.327bn revenue in 2025 at 93.5% utilization
 -   {--{"author":"James's AI","timestamp":1790594066082}@@JPRapidus--}{++{"author":"James's AI","timestamp":1790594066082}@@JP · **Rapidus**:++} State-backed 2 nm entrant, Chitose
 
-Where it is made
+**Where it is made**
 
 -   {--{"author":"James's AI","timestamp":1790594067144}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790594067144}@@TW · **Taiwan**:++} TSMC's six gigafabs and UMC; N2 and N3 for every leading AI accelerator
 -   {--{"author":"James's AI","timestamp":1790594067960}@@KRSouth Korea--}{++{"author":"James's AI","timestamp":1790594067960}@@KR · **South Korea**:++} Samsung Foundry, Hwaseong and Pyeongtaek
@@ -1725,7 +1725,7 @@ Where it is made
 -   {--{"author":"James's AI","timestamp":1790594069821}@@USUnited States--}{++{"author":"James's AI","timestamp":1790594069821}@@US · **United States**:++} Intel Foundry, GlobalFoundries, TSMC Arizona, Samsung Taylor
 -   {--{"author":"James's AI","timestamp":1790594070612}@@JPJapan--}{++{"author":"James's AI","timestamp":1790594070612}@@JP · **Japan**:++} TSMC Kumamoto, Rapidus Chitose
 
-Why substitution is slow
+**Why substitution is slow**
 
 Money can buy the building. BCG puts the ten-year cost of a fab finished in 2026 at $35 to $43 billion. Intel and Samsung already run lines for the newest chips, so a newcomer is copying something that has been done. Money cannot quickly buy a workforce that has run one process for years. Even TSMC has yet to build one of its largest fabs anywhere but Taiwan. A working line takes five to ten years, and reaching high volume takes longer.
 
@@ -1882,7 +1882,7 @@ Three firms make every HBM stack in the world. The stack is the largest block of
 
 {--{"author":"James's AI","timestamp":1790594081113}@@1,396--}{++{"author":"James's AI","timestamp":1790594081113}@@_1,396++} words / 6 {--{"author":"James's AI","timestamp":1790594081113}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594081113}@@min · Interactive 3D Specimen:++} HBM stack{++{"author":"James's AI","timestamp":1790594081113}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#memory-and-hbm))_++}
 
-In plain terms
+**In plain terms**
 
 High bandwidth memory, or HBM, is where an AI chip keeps the numbers it is working on, and it is built to hand them over fast. A memory maker stacks up to sixteen memory chips into a cube, drills holes straight down through the stack, and fills the holes with copper so that every layer is wired to the ones below. The cube then sits beside the processor, the chip that does the calculating. Stacking is the hard part, because each chip is ground so thin that the copper in its holes shows through its back, the finished cube has to fit under the plate that cools it, and one bad chip ruins the whole cube. Only SK hynix, Samsung and Micron have made it work, and a single line in an American export control reaches all three.
 
@@ -1896,13 +1896,13 @@ Substitutability: **Hard**. Three firms ship HBM, and no fourth firm has both th
 
 Price or market size: **An HBM stack moves data over a path 16 times wider than a DDR5 memory module's**. That width costs chip area and lowers the share of stacks that come out working.
 
-Who leads
+**Who leads**
 
 -   {--{"author":"James's AI","timestamp":1790594084879}@@KRSK hynix--}{++{"author":"James's AI","timestamp":1790594084879}@@KR · **SK hynix**:++} 63.2% of HBM revenue, 2025; first to complete HBM4, at over 10 Gbps per pin
 -   {--{"author":"James's AI","timestamp":1790594085547}@@KRSamsung--}{++{"author":"James's AI","timestamp":1790594085547}@@KR · **Samsung**:++} 19.3% of HBM revenue, 2025; Hwaseong and Pyeongtaek
 -   {--{"author":"James's AI","timestamp":1790594086244}@@USMicron--}{++{"author":"James's AI","timestamp":1790594086244}@@US · **Micron**:++} 17.4% of HBM revenue, 2025; HBM4 above 11 Gbps per pin
 
-Where it is made
+**Where it is made**
 
 -   {--{"author":"James's AI","timestamp":1790594087368}@@KRSouth Korea--}{++{"author":"James's AI","timestamp":1790594087368}@@KR · **South Korea**:++} SK hynix Cheongju and Icheon; Samsung Pyeongtaek and Hwaseong
 -   {--{"author":"James's AI","timestamp":1790594088103}@@USUnited States--}{++{"author":"James's AI","timestamp":1790594088103}@@US · **United States**:++} Micron headquarters and R&D; SK hynix packaging plant under construction in Indiana
@@ -1910,7 +1910,7 @@ Where it is made
 -   {--{"author":"James's AI","timestamp":1790594089909}@@JPJapan--}{++{"author":"James's AI","timestamp":1790594089909}@@JP · **Japan**:++} Micron Hiroshima, 1-gamma DRAM
 -   {--{"author":"James's AI","timestamp":1790594090683}@@SGSingapore--}{++{"author":"James's AI","timestamp":1790594090683}@@SG · **Singapore**:++} Micron HBM advanced packaging
 
-Why substitution is slow
+**Why substitution is slow**
 
 Among the three HBM makers, market share shifts as soon as a customer approves a new part: Micron went from 5.8 percent of HBM revenue in 2024 to 23.1 percent by the first quarter of 2026 without adding capacity. A fourth maker would be harder. It would need the newest DRAM, a line that drills through and thins wafers, and a way to stack the thinned chips without warping them, all inside one company. Its stack would then have to pass Nvidia's speed test. That takes five to ten years, and no Chinese firm ships HBM3E or HBM4 in volume yet.
 
@@ -2078,7 +2078,7 @@ Lithography stopped being the limit on chip size in 2022. The limit now is how l
 
 {--{"author":"James's AI","timestamp":1790594105097}@@1,402--}{++{"author":"James's AI","timestamp":1790594105097}@@_1,402++} words / 6 {--{"author":"James's AI","timestamp":1790594105097}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594105097}@@min · Interactive 3D Specimen:++} CoWoS package, exploded{++{"author":"James's AI","timestamp":1790594105097}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#advanced-packaging))_++}
 
-In plain terms
+**In plain terms**
 
 Packaging joins finished chips into one component and mounts them on a base, called a substrate, wired almost as finely as the chips themselves. A lithography machine, which prints a chip's circuits, can cover only a rectangle about the size of a postage stamp in one shot, and a modern accelerator needs more circuit than fits in one, so it cannot be one chip. It is made as several pieces, set side by side on a shared slab of silicon and wired together through it, with the stacked memory a few millimeters away. Slab, chips and base all expand at different rates when heated, so the package can warp and its joints crack. Getting that right in large numbers is hard enough that nearly every AI accelerator is packaged by TSMC, in Taiwan.
 
@@ -2092,7 +2092,7 @@ Substitutability: **Moderate**. Intel's EMIB can do the same job as TSMC's CoWoS
 
 Price or market size: **No public wafer counts**. TSMC told investors CoWoS capacity would grow about 60% a year, and keeps adding to that, but will not publish the total. Epoch AI estimates Nvidia alone used 60.3% of the world's CoWoS capacity in 2025
 
-Who leads
+**Who leads**
 
 -   {--{"author":"James's AI","timestamp":1790594110903}@@TWTSMC--}{++{"author":"James's AI","timestamp":1790594110903}@@TW · **TSMC**:++} Almost all CoWoS for leading AI accelerators
 -   {--{"author":"James's AI","timestamp":1790594111908}@@TWASE Technology--}{++{"author":"James's AI","timestamp":1790594111908}@@TW · **ASE Technology**:++} NT$645.4B revenue, 2025; the largest outsourced assembly and test firm
