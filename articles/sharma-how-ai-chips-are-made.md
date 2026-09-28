@@ -2174,7 +2174,7 @@ SemiAnalysis reported in March 2026 that front-end wafers are now the dominant b
 
 ### Who makes it ^who-makes-it-11
 
-CoWoS interposer size on TSMC's roadmapreticles
+{++{"author":"James's AI","timestamp":1790594125562}@@**Chart:** ++}CoWoS interposer size on TSMC's {--{"author":"James's AI","timestamp":1790594125562}@@roadmapreticles--}{++{"author":"James's AI","timestamp":1790594125562}@@roadmap (reticles)++}
 
 2024, CoWoS-L 3.5 2026, in production 5.5 In development 9.5 2028 14
 
@@ -2192,7 +2192,7 @@ TSMC's Arizona commitment reached $265 billion in July 2026 and covers two advan
 
 ### The chokepoint ^the-chokepoint-11
 
-China-based suppliers' share of back-end tool segments, 2024%
+**Chart:** China-based suppliers' share of back-end tool segments, 2024 (%)
 
 Test, linear and discrete 69% Burn-in test 9% Advanced packaging tools 7% SoC test 5% Atomic layer deposition 1%
 
@@ -2212,33 +2212,33 @@ Each generation on TSMC's roadmap needs a larger interposer.
 -   **Warpage control** covers the expansion mismatch between die, bridge, interposer and substrate that broke early CoWoS-L and gets harder as packages grow [3](https://semianalysis.com/2024/08/04/nvidias-blackwell-reworked-shipment/).
 -   **HBM stacks supported** is about 20 on the 14-reticle package due in 2028 [5](https://pr.tsmc.com/english/news/3302).
 -   **Bonder throughput** is slow by nature: thermocompression and hybrid bonding place one die at a time, and three or four firms hold the tools [13](https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2025-annual-results/).
--   **Substrate size** limits everything above it. A 14-reticle interposer needs a resin substrate that will not warp under it, which pushes ABF build-up film to its limits; see [[#^substrates-and-pcbs]].
+-   **Substrate size** limits everything above it. A 14-reticle interposer needs a resin substrate that will not warp under it, which pushes ABF build-up film to its limits; see [[#^substrates-and-pcbs|Substrates and PCBs]].
 
 Card 1 of 4Question
 
 Why is an AI accelerator built from several chips in one package?
 
-Card 1 of 4Answer
+{--{"author":"James's AI","timestamp":1790594129120}@@Card--}{++{"author":"James's AI","timestamp":1790594129120}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594129120}@@4Answer--}{++{"author":"James's AI","timestamp":1790594129120}@@4 · Answer**++}
 
 It needs more circuit than a lithography machine can print in one shot.
 
 Packaging sets the pieces and their memory side by side on a shared slab of silicon and wires them together. [[#^how-it-works-11|Reread: How it works]]
 
-Card 2 of 4Question
+{--{"author":"James's AI","timestamp":1790594130907}@@Card--}{++{"author":"James's AI","timestamp":1790594130907}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594130907}@@4Question--}{++{"author":"James's AI","timestamp":1790594130907}@@4 · Question**++}
 
 Who packages nearly every AI accelerator?
 
-Card 2 of 4Answer
+{--{"author":"James's AI","timestamp":1790594132081}@@Card--}{++{"author":"James's AI","timestamp":1790594132081}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594132081}@@4Answer--}{++{"author":"James's AI","timestamp":1790594132081}@@4 · Answer**++}
 
 TSMC, in Taiwan.
 
 Its process is called CoWoS. Nvidia alone took an estimated 60.3 percent of it in 2025. [[#^who-makes-it-11|Reread: Who makes it]]
 
-Card 3 of 4Question
+{--{"author":"James's AI","timestamp":1790594133543}@@Card--}{++{"author":"James's AI","timestamp":1790594133543}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594133543}@@4Question--}{++{"author":"James's AI","timestamp":1790594133543}@@4 · Question**++}
 
 Why did packaging limit AI chip output in 2024 and 2025?
 
-Card 3 of 4Answer
+{--{"author":"James's AI","timestamp":1790594134471}@@Card--}{++{"author":"James's AI","timestamp":1790594134471}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594134471}@@4Answer--}{++{"author":"James's AI","timestamp":1790594134471}@@4 · Answer**++}
 
 Too few packaging lines had been built.
 
