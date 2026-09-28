@@ -30,6 +30,9 @@ content::
 In this module, we explore the myriad ways in which intelligence gives agents power. Specifically, it gives agents power over their environment and over other agents that are less intelligent.
 
 # Lens:
+source:: ![[../Lenses/Optimization and the Singularity]]
+
+# Lens:
 source:: ![[../Lenses/The power of intelligence|The power of intelligence]]
 
 # Lens:
