@@ -52,9 +52,9 @@ With the data, we further test two folk theorems: firstly that predictors always
 
 This enabled us to show that there seems to be no such thing as an “AI expert” for timeline predictions: no category of predictors stands out from the crowd.
 
-2. Taxonomy of Predictions
+## 2. Taxonomy of Predictions
 
-2.1. Prediction Types
+### 2.1. Prediction Types
 
 There will never be a bigger plane built. —Boeing engineer on the 247, a twin engine plane that held ten people.
 
@@ -72,7 +72,7 @@ Issues and metastatements. This category covers relevant problems with (some or 
 
 There will inevitably be some overlap between the categories, but this division is natural enough for our purposes. In this paper we will be looking at timeline predictions. Thanks to the eﬀorts of Jonathan Wang and Brian Potter at the Singularity Institute, the authors were able to make use of extensive databases of this type of predictions, reaching back from the present day back to the 1950s. Other types of predictions will be analyzed in subsequent papers.
 
-2.2. Prediction Methods
+### 2.2. Prediction Methods
 
 Just as there are many types of predictions, there are many ways of arriving at them— consulting crystal balls, listening to the pronouncements of experts, constructing elaborate models. Our review of published predictions has shown that the prediction methods are far more varied than the types of conclusions arrived at. For the purposes of this analysis, we’ll divide the prediction methods into the following loose scheme:
 
