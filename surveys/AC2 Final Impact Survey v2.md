@@ -94,7 +94,7 @@ content:: **The full course**
 
 #### Question: Rating
 id:: 10e5c4af-0d66-4784-8245-348543ebda6a
-content:: How would you rate the AI Control Part 2 course overall?
+content:: How would you rate the AI Control 2 course overall?
 scale:: 10
 labels::
 - Very poor
