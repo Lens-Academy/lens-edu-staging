@@ -1526,11 +1526,11 @@ Why substitution is slow
 
 The scarce thing is the process recipe: which steps, in which order, on which tools. Three firms have written one, so a newcomer knows it can be done but has to work out its own. Rapidus in Japan, backed by the state, is now finding out what that costs when starting with no line, on 267.6 billion yen and a 2027 target. Anyone who can buy extreme-ultraviolet scanners should expect five to ten years. China cannot buy those scanners. It has reached 5 nm-class features by printing each layer several times, and that keeps it behind the newest chips.
 
-Where China stands
+**Where China stands**
 
 SMIC ships a process it calls N+3, measured at 113.4 million transistors per square millimeter. It prints each layer in two or four passes because it cannot buy an extreme-ultraviolet scanner. Its narrowest wires sit closer together than Intel 18A's, which shows what a decade of state money buys without an EUV scanner.
 
-Where the US stands
+**Where the US stands**
 
 Intel runs the only American-owned line that makes the newest transistors. Its 18A process brought gate-all-around transistors and backside power, where power is fed from under the transistors, to market together. Intel is also the first to use High-NA EUV scanners, the newest kind, in volume production.
 
@@ -1564,7 +1564,7 @@ N2 entered volume production in the fourth quarter of 2025, TSMC's first nanoshe
 
 Those numbers are vendor claims until someone measures the silicon. Each foundry picks its own baseline, and none publishes a density figure that can be set against a rival's.
 
-TSMC's published density gain, node over nodex versus the baseline node
+{++{"author":"James's AI","timestamp":1790594036643}@@**Chart:** ++}TSMC's published density gain, node over {--{"author":"James's AI","timestamp":1790594036643}@@nodex--}{++{"author":"James's AI","timestamp":1790594036643}@@node (x++} versus the baseline {--{"author":"James's AI","timestamp":1790594036643}@@node--}{++{"author":"James's AI","timestamp":1790594036643}@@node)++}
 
 N2P logic vs N3E 1.2 N2P chip vs N3E 1.1 A16 chip vs N2P 1.1
 
@@ -1604,7 +1604,7 @@ Node names describe nothing physical. SMIC's N+3, sold as 5 nm-class, sets its n
 
 AI accelerators sit a node behind the leading edge, because a die that large comes out working only on a process that has run for years. Blackwell uses a custom TSMC 4NP [1](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/).
 
-SRAM, the fast memory on the logic die, is the scaling failure that hurts AI chips most. TSMC claims 22 percent more SRAM density from N3E to N2, but the gain comes from the circuits around the array, and none of it from the cell that holds one bit [13](https://newsletter.semianalysis.com/p/clash-of-the-foundries), which is much of why accelerators push their memory off the die. See [[#^memory-and-hbm]].
+SRAM, the fast memory on the logic die, is the scaling failure that hurts AI chips most. TSMC claims 22 percent more SRAM density from N3E to N2, but the gain comes from the circuits around the array, and none of it from the cell that holds one bit [13](https://newsletter.semianalysis.com/p/clash-of-the-foundries), which is much of why accelerators push their memory off the die. See [[#^memory-and-hbm|Memory and HBM]].
 
 ### The chokepoint ^the-chokepoint-8
 
@@ -1623,11 +1623,11 @@ See [[#^lithography|Lithography]] and [[#^geopolitics|Geopolitics]].
 -   **SRAM scaling.** The cell that holds one bit has stopped shrinking, which caps how much cache an accelerator can afford.
 -   **Cost per transistor.** No foundry publishes wafer prices, so the shrinking density gain per node is the proxy. On that proxy, cost per transistor is rising for the first time.
 
-Card 1 of 4Question
+{--{"author":"James's AI","timestamp":1790594039496}@@Card--}{++{"author":"James's AI","timestamp":1790594039496}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594039496}@@4Question--}{++{"author":"James's AI","timestamp":1790594039496}@@4 · Question**++}
 
 Why do the newest transistors wrap the gate around the channel?
 
-Card 1 of 4Answer
+{--{"author":"James's AI","timestamp":1790594042038}@@Card--}{++{"author":"James's AI","timestamp":1790594042038}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594042038}@@4Answer--}{++{"author":"James's AI","timestamp":1790594042038}@@4 · Answer**++}
 
 To stop current leaking when the switch is off.
 
