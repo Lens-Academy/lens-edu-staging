@@ -190,9 +190,7 @@ labels::
 
 #### Question: Open
 id:: 682c2a09-ab15-4262-86e1-e7a177fc6012
-content:: Would you like to leave a short note for people considering this course or Lens?
-
-We may share it on our website.
+content:: Would you like to leave a short note for people considering this course or Lens?We may share it on our website.
 
 The most helpful notes are specific: your main worry before joining and how it played out, something you're now doing because of Lens, or one thing you particularly valued.
 optional:: true
