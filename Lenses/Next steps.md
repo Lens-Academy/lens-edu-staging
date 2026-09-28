@@ -4,7 +4,7 @@ reading_minutes: 10
 tutor_minutes: 5
 summary_for_tutor: Covers practical next steps for students finishing an introductory AI safety course. Lists resources for further learning (AISafety.info), networking (EA Global events), field-building, and structured programs (SPAR, ML4Good, MATS). Encourages reflection on what contribution the student might make, including non-technical paths like communications and community building.
 title: Next steps
-tldr: "You've reached the end of the course, so now what? Not everyone needs to become a technical researcher. This closing block is a menu of concrete next steps -- learning more, meeting people, testing your fit, and starting to contribute -- whatever direction you lean." 
+tldr: "You've {--{"author":"Plex's AI","timestamp":1790617922618}@@reached the end of--}{++{"author":"Plex's AI","timestamp":1790617922618}@@finished++} the{--{"author":"Plex's AI","timestamp":1790617922618}@@ course, so now what? Not everyone needs to become a technical researcher. This closing block is --}{++{"author":"Plex's AI","timestamp":1790617922618}@@ course. Here's ++}a menu of {--{"author":"Plex's AI","timestamp":1790617922618}@@concrete --}next{--{"author":"Plex's AI","timestamp":1790617922618}@@ steps ----}{++{"author":"Plex's AI","timestamp":1790617922618}@@ steps:++} learning more, meeting people, testing your {--{"author":"Plex's AI","timestamp":1790617922618}@@fit,--}{++{"author":"Plex's AI","timestamp":1790617922618}@@fit++} and starting to {--{"author":"Plex's AI","timestamp":1790617922618}@@contribute -- whatever--}{++{"author":"Plex's AI","timestamp":1790617922618}@@contribute, whichever++} direction you lean." 
 ---
 #### Text
 content::
