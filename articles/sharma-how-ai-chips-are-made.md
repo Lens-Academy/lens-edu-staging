@@ -1824,31 +1824,31 @@ A chip factory that makes chips designed by other companies.
 
 A fab costs tens of billions of dollars, and no chip company sells enough of one product to fill one alone. [[#^how-it-works-9|Reread: How it works]]
 
-Card 2 of 4Question
+{--{"author":"James's AI","timestamp":1790594076341}@@Card--}{++{"author":"James's AI","timestamp":1790594076341}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594076341}@@4Question--}{++{"author":"James's AI","timestamp":1790594076341}@@4 · Question**++}
 
 Where are TSMC's largest plants?
 
-Card 2 of 4Answer
+{--{"author":"James's AI","timestamp":1790594076946}@@Card--}{++{"author":"James's AI","timestamp":1790594076946}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594076946}@@4Answer--}{++{"author":"James's AI","timestamp":1790594076946}@@4 · Answer**++}
 
 All six are in Taiwan.
 
 They hold 13 of the 17 million wafers TSMC can make in a year. [[#^who-makes-it-9|Reread: Who makes it]]
 
-Card 3 of 4Question
+{--{"author":"James's AI","timestamp":1790594077613}@@Card--}{++{"author":"James's AI","timestamp":1790594077613}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594077613}@@4Question--}{++{"author":"James's AI","timestamp":1790594077613}@@4 · Question**++}
 
 What is the slowest part of building leading-edge chipmaking outside Taiwan?
 
-Card 3 of 4Answer
+{--{"author":"James's AI","timestamp":1790594078380}@@Card--}{++{"author":"James's AI","timestamp":1790594078380}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594078380}@@4Answer--}{++{"author":"James's AI","timestamp":1790594078380}@@4 · Answer**++}
 
 Training a workforce that has run the process for years.
 
 Money can buy the building. TSMC has committed $165 billion to the United States and has not yet built one of its largest plants there. [[#^the-chokepoint-9|Reread: The chokepoint]]
 
-Card 4 of 4Question
+{--{"author":"James's AI","timestamp":1790594079007}@@Card--}{++{"author":"James's AI","timestamp":1790594079007}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594079007}@@4Question--}{++{"author":"James's AI","timestamp":1790594079007}@@4 · Question**++}
 
 How much of China's fab capacity can make the newest chips?
 
-Card 4 of 4Answer
+{--{"author":"James's AI","timestamp":1790594079563}@@Card--}{++{"author":"James's AI","timestamp":1790594079563}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594079563}@@4Answer--}{++{"author":"James's AI","timestamp":1790594079563}@@4 · Answer**++}
 
 Almost none.
 
@@ -1861,7 +1861,7 @@ China has more capacity than any other region, but SMIC cannot buy an EUV machin
 -   Money can buy a fab building, and training the workforce is the slow part.
 -   China has more fab capacity than any other region, and almost none of it can make the newest chips.
 
-Sources (12)
+**Sources (12)**
 
 1.  A [GIGAFAB® Facilities](https://www.tsmc.com/english/dedicatedFoundry/manufacturing/gigafab) TSMC
 2.  A [Navigating the Costly Economics of Chip Making](https://www.bcg.com/publications/2023/navigating-the-semiconductor-manufacturing-costs) Boston Consulting Group · 28 September 2023
@@ -1880,7 +1880,7 @@ Sources (12)
 
 Three firms make every HBM stack in the world. The stack is the largest block of silicon in an AI package, and the cooling plate above it now limits how tall it can be.
 
-1,396 words / 6 minSpecimen: HBM stack
+{--{"author":"James's AI","timestamp":1790594081113}@@1,396--}{++{"author":"James's AI","timestamp":1790594081113}@@_1,396++} words / 6 {--{"author":"James's AI","timestamp":1790594081113}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594081113}@@min · Interactive 3D Specimen:++} HBM stack{++{"author":"James's AI","timestamp":1790594081113}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#memory-and-hbm))_++}
 
 In plain terms
 
@@ -1890,16 +1890,16 @@ High bandwidth memory, or HBM, is where an AI chip keeps the numbers it is worki
 
 HBM is the most expensive component in an AI accelerator, and three firms supply all of it: the two Korean ones sold 82.5 percent in 2025 [11](https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm). The limit now is heat and height inside a 775-micrometer cube [9](https://news.skhynix.com/en/tech-note-series-ep2/), and the fix, hybrid bonding, is two generations away. The export control on HBM works because one bandwidth-density threshold catches every part worth buying [15](https://www.federalregister.gov/documents/2024/12/05/2024-28270/foreign-produced-direct-product-rule-additions-and-refinements-to-controls-for-advanced-computing).
 
-Concentration **Extreme**
+Concentration: **Extreme**
 
-Substitutability **Hard** Three firms ship HBM, and no fourth firm has both the newest DRAM and a line that stacks it.
+Substitutability: **Hard**. Three firms ship HBM, and no fourth firm has both the newest DRAM and a line that stacks it.
 
-Price or market size **An HBM stack moves data over a path 16 times wider than a DDR5 memory module's** That width costs chip area and lowers the share of stacks that come out working.
+Price or market size: **An HBM stack moves data over a path 16 times wider than a DDR5 memory module's**. That width costs chip area and lowers the share of stacks that come out working.
 
 Who leads
 
--   KRSK hynix 63.2% of HBM revenue, 2025; first to complete HBM4, at over 10 Gbps per pin
--   KRSamsung 19.3% of HBM revenue, 2025; Hwaseong and Pyeongtaek
+-   {--{"author":"James's AI","timestamp":1790594084879}@@KRSK hynix--}{++{"author":"James's AI","timestamp":1790594084879}@@KR · **SK hynix**:++} 63.2% of HBM revenue, 2025; first to complete HBM4, at over 10 Gbps per pin
+-   {--{"author":"James's AI","timestamp":1790594085547}@@KRSamsung--}{++{"author":"James's AI","timestamp":1790594085547}@@KR · **Samsung**:++} 19.3% of HBM revenue, 2025; Hwaseong and Pyeongtaek
 -   USMicron 17.4% of HBM revenue, 2025; HBM4 above 11 Gbps per pin
 
 Where it is made
