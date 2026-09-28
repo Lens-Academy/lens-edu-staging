@@ -280,7 +280,7 @@ There is thus strong grounds for dramatically increasing the uncertainty in any 
 
 The authors wish to acknowledge the help and support of the Singularity Institute, the Future of Humanity Institute and the James Martin School, as well as the individual advice of Nick Bostrom, Luke Muelhauser, Vincent Mueller, Anders Sandberg, Lisa Makros, Sean O’Heigeartaigh, Daniel Dewey, Eric Drexler and the online community of Less Wrong.
 
-Notes
+## Notes
 
 1. A Gödel sentence is a sentence G that can be built in any formal system containing arithmetic. G is implicitly self-referential, as it is equivalent with “there cannot exist a proof of G”. By construction, there cannot be a consistent proof of G from within the system.
 
@@ -292,7 +292,7 @@ Notes
 
 5. Kevin Kelly, editor of Wired magazine, created the law in 2007 after being influenced by Pattie Maes at MIT and Joel Garreau (author of Radical Evolution).
 
-References
+## References
 
 Armstrong, Stuart. 2007. “Chaining God: A Qualitative Approach to AI, Trust and Moral Systems.” Unpublished manuscript, October 20. Accessed December 31, 2012. http://web.archive.org/web/20141123103224/http://www.neweuropeancentury.org/GodAI.pdf .
 
