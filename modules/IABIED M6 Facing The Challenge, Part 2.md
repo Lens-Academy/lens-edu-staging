@@ -185,11 +185,6 @@ source:: ![[../Lenses/IABIED - QA - Early Warnings]]
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - AI Differs from Precedents]]
-
-# Lens: IABIED - QA - Isn't AI Different from Nuclear Reactors
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Isn't AI Different from Nuclear Reactors]]
 {>>{"author":"Elias's AI","timestamp":1784730793109}@@These two are card targets inside the 'IABIED - The One-Chance Problem' lens (Ch12), so they must stay imported in this module even though the chapter overview doesn't card them.<<}
 
 # Submodule: Chapter 13: Shut It Down
@@ -328,11 +323,6 @@ source:: ![[../Lenses/IABIED - QA - Is It Hopeless]]
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Shut Down Global AI Development]]
-
-# Lens: IABIED - QA - Can International Cooperation Really Work
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Can International Cooperation Really Work]]
 
 # Lens: IABIED - QA - Keep the Coalition Large
 optional:: true
