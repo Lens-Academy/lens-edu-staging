@@ -2689,7 +2689,7 @@ Substitutability: **Moderate**. Rated on the two most concentrated parts: Nvidia
 
 Price or market size: **Nvidia put $2B each into Coherent and Lumentum in March 2026 to buy indium phosphide laser capacity**
 
-Who leads
+**Who leads**
 
 -   {--{"author":"James's AI","timestamp":1790594209270}@@USNvidia--}{++{"author":"James's AI","timestamp":1790594209270}@@US · **Nvidia**:++} NVLink and NVSwitch for links inside a rack; InfiniBand and Spectrum-X Ethernet between racks
 -   {--{"author":"James's AI","timestamp":1790594210132}@@USBroadcom--}{++{"author":"James's AI","timestamp":1790594210132}@@US · **Broadcom**:++} Switch chips sold to any buyer (Tomahawk, Jericho) and most custom AI accelerators
@@ -2697,7 +2697,7 @@ Who leads
 -   {--{"author":"James's AI","timestamp":1790594212018}@@CNInnoLight--}{++{"author":"James's AI","timestamp":1790594212018}@@CN · **InnoLight**:++} High-speed optical modules; plants in Suzhou, Taiwan and Thailand
 -   {--{"author":"James's AI","timestamp":1790594212768}@@USCoherent--}{++{"author":"James's AI","timestamp":1790594212768}@@US · **Coherent**:++} Indium phosphide lasers and data center transceivers
 
-Where it is made
+**Where it is made**
 
 -   {--{"author":"James's AI","timestamp":1790594214701}@@USUnited States--}{++{"author":"James's AI","timestamp":1790594214701}@@US · **United States**:++} Switch and accelerator silicon, indium phosphide lasers, system design
 -   {--{"author":"James's AI","timestamp":1790594216445}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790594216445}@@TW · **Taiwan**:++} Contract design and rack assembly; high-layer-count circuit boards
@@ -2871,7 +2871,7 @@ The chips are no longer the slowest part of a data center buildout. A large tran
 
 {--{"author":"James's AI","timestamp":1790594239771}@@1,334--}{++{"author":"James's AI","timestamp":1790594239771}@@_1,334++} words / 6 {--{"author":"James's AI","timestamp":1790594239771}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594239771}@@min · Interactive 3D Specimen:++} server rack{++{"author":"James's AI","timestamp":1790594239771}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#data-centers-and-power))_++}
 
-In plain terms
+**In plain terms**
 
 A data center's job is to feed electricity to the machines inside it and carry away the heat they give off. One rack of AI chips, a cabinet the size of a wardrobe, draws 142 kilowatts, and every watt of it comes back out as heat, more than air can carry away, so water is piped through the rack instead. A large training site already holds a hundred thousand chips, and the newest sites are planned in gigawatts. One gigawatt is the whole output of a large power station, and OpenAI's planned sites add up to more than nine of them by 2029. Getting that much electricity to the door is harder than putting up the building, because the transformers and heavy switches that connect a site to the grid, and the turbines that make the power, come from a few suppliers and take years to arrive.
 
@@ -2885,7 +2885,7 @@ Substitutability: **Moderate**. Several approved vendors sell every piece of pow
 
 Price or market size: **Transformer lead times of 36 months, against under a year before 2020**. GE Vernova's gas backlog and reserved slots grew from 100 GW to 116 GW in 2026
 
-Who leads
+**Who leads**
 
 -   {--{"author":"James's AI","timestamp":1790594245158}@@USGE Vernova--}{++{"author":"James's AI","timestamp":1790594245158}@@US · **GE Vernova**:++} 116 GW of gas equipment backlog and reserved factory slots at mid-2026
 -   {--{"author":"James's AI","timestamp":1790594245961}@@CHHitachi Energy--}{++{"author":"James's AI","timestamp":1790594245961}@@CH · **Hitachi Energy**:++} Large power transformers and high-voltage switchgear
@@ -2893,7 +2893,7 @@ Who leads
 -   {--{"author":"James's AI","timestamp":1790594247791}@@USVertiv--}{++{"author":"James's AI","timestamp":1790594247791}@@US · **Vertiv**:++} Data center power and cooling systems; NVIDIA gigawatt AI factory partner
 -   {--{"author":"James's AI","timestamp":1790594248638}@@FRSchneider Electric--}{++{"author":"James's AI","timestamp":1790594248638}@@FR · **Schneider Electric**:++} Electrical distribution and cooling; partner in NVIDIA's 800-volt DC designs
 
-Where it is made
+**Where it is made**
 
 -   {--{"author":"James's AI","timestamp":1790594250543}@@USUnited States--}{++{"author":"James's AI","timestamp":1790594250543}@@US · **United States**:++} Most new AI capacity; ERCOT and PJM carry the load growth
 -   {--{"author":"James's AI","timestamp":1790594251363}@@CHSwitzerland--}{++{"author":"James's AI","timestamp":1790594251363}@@CH · **Switzerland**:++} Hitachi Energy and ABB transformer and switchgear engineering
@@ -3069,7 +3069,7 @@ Inside an AI accelerator the silicon is the cheap part. Memory and packaging are
 
 {--{"author":"James's AI","timestamp":1790594271510}@@1,241--}{++{"author":"James's AI","timestamp":1790594271510}@@_1,241++} words / 5 {--{"author":"James's AI","timestamp":1790594271510}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594271510}@@min · Interactive 3D Specimen:++} wafer cost{++{"author":"James's AI","timestamp":1790594271510}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#component-costs))_++}
 
-In plain terms
+**In plain terms**
 
 A bill of materials is the list of parts inside a product and what each one costs to build. For an AI accelerator, the processor itself, the chip that does the calculating, is the cheap part, about a seventh of the total. The stacked memory beside it is nearly half, and the packaging that wires the two together costs more than the chip. Three firms in the world make that memory and one Taiwanese firm does that packaging, so the costliest parts are also the scarcest, and that is where a government's rules bite hardest.
 
