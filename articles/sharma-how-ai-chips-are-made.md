@@ -803,41 +803,41 @@ For AI accelerators, EUV is the point of control. It prints the finest layers, t
 -   **Field size.** The patch of wafer one exposure covers. High-NA halves it, so big AI dies must be stitched until 12-inch masks arrive [8](https://www.asml.com/en/company/stories/2024/5-things-high-na-euv).
 -   **Source power.** Brighter light, more wafers an hour, which is why the 1,000-watt demonstration matters [7](https://ourbrand.asml.com/m/8ab959d4926657b/original/asml-2025-annual-report-strategic-report-section.pdf).
 
-Card 1 of 4Question
+{--{"author":"James's AI","timestamp":1790593878311}@@Card--}{++{"author":"James's AI","timestamp":1790593878311}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593878311}@@4Question--}{++{"author":"James's AI","timestamp":1790593878311}@@4 · Question**++}
 
 What does lithography do?
 
-Card 1 of 4Answer
+{--{"author":"James's AI","timestamp":1790593879670}@@Card--}{++{"author":"James's AI","timestamp":1790593879670}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593879670}@@4Answer--}{++{"author":"James's AI","timestamp":1790593879670}@@4 · Answer**++}
 
 It prints each layer of a chip's circuit onto the wafer.
 
 The machine projects the image of a stencil, four times smaller, onto the silicon. [[#^how-it-works-4|Reread: How it works]]
 
-Card 2 of 4Question
+{--{"author":"James's AI","timestamp":1790593880564}@@Card--}{++{"author":"James's AI","timestamp":1790593880564}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593880564}@@4Question--}{++{"author":"James's AI","timestamp":1790593880564}@@4 · Question**++}
 
 Why do the finest layers need extreme-ultraviolet (EUV) light?
 
-Card 2 of 4Answer
+{--{"author":"James's AI","timestamp":1790593882147}@@Card--}{++{"author":"James's AI","timestamp":1790593882147}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593882147}@@4Answer--}{++{"author":"James's AI","timestamp":1790593882147}@@4 · Answer**++}
 
 Finer lines need light of a shorter wavelength, and EUV has the shortest in use.
 
 Air and glass absorb EUV light, so the machine works in a vacuum and uses mirrors instead of lenses. [[#^how-it-works-4|Reread: How it works]]
 
-Card 3 of 4Question
+{--{"author":"James's AI","timestamp":1790593883147}@@Card--}{++{"author":"James's AI","timestamp":1790593883147}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593883147}@@4Question--}{++{"author":"James's AI","timestamp":1790593883147}@@4 · Question**++}
 
 Who makes EUV machines?
 
-Card 3 of 4Answer
+{--{"author":"James's AI","timestamp":1790593884462}@@Card--}{++{"author":"James's AI","timestamp":1790593884462}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593884462}@@4Answer--}{++{"author":"James's AI","timestamp":1790593884462}@@4 · Answer**++}
 
 Only ASML, in the Netherlands.
 
 ASML booked 48 EUV systems in 2025. Its mirrors come from one supplier, Zeiss. [[#^who-makes-it-4|Reread: Who makes it]]
 
-Card 4 of 4Question
+{--{"author":"James's AI","timestamp":1790593885352}@@Card--}{++{"author":"James's AI","timestamp":1790593885352}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593885352}@@4Question--}{++{"author":"James's AI","timestamp":1790593885352}@@4 · Question**++}
 
 Can China buy or build an EUV machine?
 
-Card 4 of 4Answer
+{--{"author":"James's AI","timestamp":1790593886412}@@Card--}{++{"author":"James's AI","timestamp":1790593886412}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593886412}@@4Answer--}{++{"author":"James's AI","timestamp":1790593886412}@@4 · Answer**++}
 
 No. None has been sold to China, and its own prototype has printed no chip.
 
@@ -850,7 +850,7 @@ China's answer so far is domestic immersion DUV machines, which use longer-wavel
 -   ASML of the Netherlands is the only maker of EUV machines, and Zeiss is the only maker of their mirrors.
 -   No EUV machine has been sold to China, and its own prototype has printed no chip.
 
-Sources (26)
+**Sources (26)**
 
 1.  A [ASML 2025 Annual Report](https://ourbrand.asml.com/m/419103cb23dfeaa4/original/asml-2025-annual-report-financial-performance-section.pdf) ASML · 24 February 2026
 2.  A [TWINSCAN NXE:3400B: EUV lithography systems](https://www.asml.com/en/products/euv-lithography-systems/twinscan-nxe3400b) ASML
@@ -883,7 +883,7 @@ Sources (26)
 
 Every leading-edge chip depends on a business worth tens of billions of yen. Two Japanese firms make almost all the blank plates that EUV masks are built on, one Japanese firm inspects them, and the dust cover meant to protect them is still not in production.
 
-1,421 words / 6 minSpecimen: photomask
+{--{"author":"James's AI","timestamp":1790593888732}@@1,421--}{++{"author":"James's AI","timestamp":1790593888732}@@_1,421++} words / 6 {--{"author":"James's AI","timestamp":1790593888732}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593888732}@@min · Interactive 3D Specimen:++} photomask{++{"author":"James's AI","timestamp":1790593888732}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#photomasks-and-pellicles))_++}
 
 In plain terms
 
