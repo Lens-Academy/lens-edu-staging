@@ -16,6 +16,13 @@ We begin this module with a text by Scott Alexander because it demonstrates a cr
 We begin this module with an article demonstrating that history does not have to proceed by inertia: repeating yesterday, only on a larger scale. We are capable of constructing models that predict qualitative transitions, even if often only in retrospect. 
 
 The module opens with a question: how, exactly, do people attempt to predict major historical shifts?
+%%
+
+%% PROPOSED FIX:
+Nobody knows when AGI will arrive or what will make the difference. That doesn't stop us thinking about it carefully.
+
+In this piece, Scott Alexander follows a growth trend that held for thousands of years and then broke. The lesson for AI: extending the curve isn't enough. You need to ask what could make it snap, in either direction.
+%%
 
 #### Article
 source:: [[../articles/1960, The Year The Singularity Was Cancelled]]
