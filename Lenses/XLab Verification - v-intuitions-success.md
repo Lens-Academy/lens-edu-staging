@@ -60,7 +60,7 @@ The Oversight Committee votes to keep using Agent-4.
 
 #### Article
 source:: [[../articles/kokotajlo-ai-2027]]
-from:: ## Choose Your Ending ^choose-your-ending
+from:: The committee votes 6–4 to continue internal use of Agent-4.
 optional:: true
 
 #### Text
@@ -71,7 +71,7 @@ The Oversight Committee votes to slow down and reassess.
 
 #### Article
 source:: [[../articles/ai-2027-ai-2027]]
-from:: ## Choose Your Ending ^choose-your-ending
+from:: Due to the immense public pressure as well as their own fears of misalignment, the Oversight Committee overseeing OpenBrain votes 6–4 to slow down and reassess.
 optional:: true
 
 #### Text
