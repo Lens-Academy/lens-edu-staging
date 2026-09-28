@@ -31,9 +31,9 @@ Every stage of the supply chain, and who controls it.
 
 Yashvardhan Sharma with Claude
 
-The Chain: seventeen chapters.
+The Chain: seventeen chapters.{--{"author":"James's AI","timestamp":1790597005684}@@
 
-Printed from chipsupplychain.org · Updated 27 September 2026
+Printed from chipsupplychain.org ·--} Updated 27 September {--{"author":"James's AI","timestamp":1790597005684}@@2026--}{++{"author":"James's AI","timestamp":1790597005684}@@2026.++}
 
 ## How to read a chapter ^how-to-read-a
 
