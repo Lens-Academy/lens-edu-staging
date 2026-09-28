@@ -25,7 +25,8 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading. Don't look back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read the first half of Chapter 10 of "If Anyone Builds It, Everyone Dies."
+force-feedback:: first
+feedback-instructions:: The student has just read the first half of Chapter 10 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Enumerate the five engineering curses Chapter 10 names (speed, narrow margins, self-amplification, complications, and edge cases) and identify which case study (space probes, Chernobyl, computer security) illustrates each.
 

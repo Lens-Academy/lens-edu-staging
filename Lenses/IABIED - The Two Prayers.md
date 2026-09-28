@@ -23,7 +23,8 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading — without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just finished reading the Closing Words of "If Anyone Builds It, Everyone Dies" and has written a free recall — everything they could remember without looking back at the text.
+force-feedback:: first
+feedback-instructions:: The student has just finished reading the Closing Words of "If Anyone Builds It, Everyone Dies" and has written a free recall — everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
 - First prayer: "May we be wrong, and shamed for how incredibly wrong we were, and fade into irrelevance and be forgotten except as an example of how not to think, and may humanity live happily ever after."
