@@ -477,16 +477,16 @@ Photoresist is a coating that changes wherever light hits it. A machine spins a 
 
 Photoresist is the most concentrated input at this stage: about 90 percent Japanese in 2021 and 78 percent in 2023 [3](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf) [4](https://www.meti.go.jp/policy/mono_info_service/joho/conference/semicon_digital/0014/handeji14-4.pdf), with one of the largest suppliers now 84 percent owned by a Japanese state fund [5](https://www.jiccapital.co.jp/en/news/.assets/E_20240417_JIC_JICC_PressRelease.pdf). Individual molecules are far more concentrated than the gas industry that sells them: neon and nitrogen trifluoride come from a handful of plants. China's gallium, germanium and antimony controls affect non-silicon chips and optics but not a silicon GPU, and the gallium suspension runs for one year from November 2025 [14](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf). The qualification cycle matters more than the spot price, because every disruption so far was absorbed within a year and each one added a second source somewhere.
 
-Concentration **High**
+Concentration: **High**
 
-Substitutability **Moderate** Rated on photoresist, the hardest input in this stage: Japan makes about four-fifths of it, and Korea needed five years to develop substitutes.
+Substitutability: **Moderate**. Rated on photoresist, the hardest input in this stage: Japan makes about four-fifths of it, and Korea needed five years to develop substitutes.
 
-Price or market size **Wafer fabrication materials were a $45.8bn market in 2025 and packaging materials $27.4bn, $73.2bn in total**
+Price or market size: **Wafer fabrication materials were a $45.8bn market in 2025 and packaging materials $27.4bn, $73.2bn in total**
 
 Who leads
 
--   JPJSR Owner of Inpria's metal-oxide resist for extreme-ultraviolet printing; 84% held by Japan Investment Corporation, a state-backed fund, since April 2024
--   JPTokyo Ohka Kogyo Top-five resist maker; ¥139.7bn of sales in the first half of fiscal 2026
+-   {--{"author":"James's AI","timestamp":1790593820349}@@JPJSR--}{++{"author":"James's AI","timestamp":1790593820349}@@JP · **JSR**:++} Owner of Inpria's metal-oxide resist for extreme-ultraviolet printing; 84% held by Japan Investment Corporation, a state-backed fund, since April 2024
+-   {--{"author":"James's AI","timestamp":1790593821826}@@JPTokyo--}{++{"author":"James's AI","timestamp":1790593821826}@@JP · **Tokyo++} Ohka {--{"author":"James's AI","timestamp":1790593821826}@@Kogyo--}{++{"author":"James's AI","timestamp":1790593821826}@@Kogyo**:++} Top-five resist maker; ¥139.7bn of sales in the first half of fiscal 2026
 -   FRAir Liquide €2,465m of electronics revenue in 2025, 9.1% of group sales
 -   USEntegris $3.20bn of 2025 revenue in filters, polishing slurries, gas delivery and wafer carriers
 -   JPJX Advanced Metals About 65% of sputtering targets, the metal plates that chip wiring is made from
