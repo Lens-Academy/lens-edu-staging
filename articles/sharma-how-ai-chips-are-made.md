@@ -1633,31 +1633,31 @@ To stop current leaking when the switch is off.
 
 Shorter channels switch faster but leak. A gate on all four sides can shut the flow off completely. [Reread: How it works](#transistors-and-front-end--how-it-works)
 
-Card 2 of 4Question
+{--{"author":"James's AI","timestamp":1790594044595}@@Card--}{++{"author":"James's AI","timestamp":1790594044595}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594044595}@@4Question--}{++{"author":"James's AI","timestamp":1790594044595}@@4 · Question**++}
 
 Which companies can make these gate-all-around transistors?
 
-Card 2 of 4Answer
+{--{"author":"James's AI","timestamp":1790594045674}@@Card--}{++{"author":"James's AI","timestamp":1790594045674}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594045674}@@4Answer--}{++{"author":"James's AI","timestamp":1790594045674}@@4 · Answer**++}
 
 TSMC, Intel and Samsung.
 
 Only TSMC makes them in volume for outside customers. [Reread: Who makes it](#transistors-and-front-end--who-makes-it)
 
-Card 3 of 4Question
+{--{"author":"James's AI","timestamp":1790594047424}@@Card--}{++{"author":"James's AI","timestamp":1790594047424}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594047424}@@4Question--}{++{"author":"James's AI","timestamp":1790594047424}@@4 · Question**++}
 
 Why is the front end hard for a new firm to enter?
 
-Card 3 of 4Answer
+{--{"author":"James's AI","timestamp":1790594048883}@@Card--}{++{"author":"James's AI","timestamp":1790594048883}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594048883}@@4Answer--}{++{"author":"James's AI","timestamp":1790594048883}@@4 · Answer**++}
 
 No firm sells its process recipe, the exact sequence of steps that builds the transistors.
 
 A newcomer has to develop its own. [Reread: The chokepoint](#transistors-and-front-end--the-chokepoint)
 
-Card 4 of 4Question
+{--{"author":"James's AI","timestamp":1790594050421}@@Card--}{++{"author":"James's AI","timestamp":1790594050421}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594050421}@@4Question--}{++{"author":"James's AI","timestamp":1790594050421}@@4 · Question**++}
 
 How does China's SMIC make advanced chips without an EUV machine?
 
-Card 4 of 4Answer
+{--{"author":"James's AI","timestamp":1790594051530}@@Card--}{++{"author":"James's AI","timestamp":1790594051530}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594051530}@@4Answer--}{++{"author":"James's AI","timestamp":1790594051530}@@4 · Answer**++}
 
 It prints each layer in two or four passes on older deep-ultraviolet tools.
 
@@ -1670,7 +1670,7 @@ This reaches 5 nm-class features. CSIS judges that China still cannot build a wo
 -   No firm sells its process recipe, so a newcomer has to develop its own.
 -   SMIC reaches 5 nm-class features without EUV by printing each layer in several passes.
 
-Sources (16)
+**Sources (16)**
 
 1.  A [NVIDIA Blackwell Architecture](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/) Nvidia · 18 December 2025
 2.  A [Intel's Transistor Technology Breakthrough Represents Biggest Change to Computer Chips in 40 Years](https://www.intel.com/pressroom/archive/releases/2007/20070128comp.htm) Intel · 27 January 2007
