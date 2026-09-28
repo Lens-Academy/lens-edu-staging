@@ -12,7 +12,8 @@ max-chars:: 1500
 
 #### Question: Choice
 id:: 2182b8db-c1e9-40ed-aead-c9a2d94b7444
-content:: Compared with your best available alternative at the time (for example self-study or another programme), how influential was Lens in you getting this role?
+content:: Compared with your best available alternative at the time, how influential was Lens in you getting this role?
+description:: Your best alternative might have been self-study or another programme.
 options::
 - Not at all influential: the alternative would have got me here just as well
 - Slightly influential: Lens helped a little more than the alternative
@@ -22,7 +23,8 @@ options::
 
 #### Question: Choice
 id:: 1851f52b-bee6-49de-adee-52b03e4d87e6
-content:: Compared with your best available alternative at the time (for example self-study or another programme), how much did Lens speed up your path to this role?
+content:: Compared with your best available alternative at the time, how much did Lens speed up your path to this role?
+description:: Your best alternative might have been self-study or another programme.
 options::
 - Not at all
 - By less than a month

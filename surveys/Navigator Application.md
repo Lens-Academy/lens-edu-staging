@@ -45,7 +45,8 @@ max-chars:: 1000
 
 #### Choice
 key:: can_commit
-content:: Each meeting is a 90-minute discussion, plus 1 to 3 hours beforehand working through that part of the course. Weekly courses meet once a week and intensives meet about once a day. Can you do that for every meeting and stay with your group until the course ends?
+content:: Can you prepare for and join every meeting, and stay with your group until the course ends?
+description:: Each meeting is a 90-minute discussion, plus 1 to 3 hours beforehand working through that part of the course. Weekly courses meet once a week and intensives meet about once a day.
 options::
 - Yes
 - Mostly, with a gap or two I already know about
