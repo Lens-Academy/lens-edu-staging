@@ -2323,11 +2323,11 @@ Why substitution is slow
 
 A few firms build substrates. Money can expand their plants, and every large one is expanding. The single points of failure are in the materials inside the substrate. Ajinomoto makes the thin insulating film between the substrate's wiring layers, puts its own share at about 95 percent, and has been the standard since 1999. Beneath that film is Nitto Boseki's glass cloth, woven so it barely swells with heat. A newcomer can build a line to make such a film. Every substrate maker and every packaging house then has to test the new film in each layer of each product before using it. That takes years at each of them, so the whole switch takes five to ten years.
 
-Where China stands
+**Where China stands**
 
 Most of the firms competing in circuit boards are Chinese or Taiwanese. Nitto Boseki itself calls them aggressive fast followers in special glass. Chinese firms still make almost none of the high-end insulating film.
 
-Where the US stands
+**Where the US stands**
 
 No American firm makes these substrates in volume. TTM Technologies is the main American circuit board maker. Data center computing was 24 percent of its sales in 2025, up from 14 percent in 2023. Intel is developing substrates made of glass for the second half of the decade.
 
@@ -2349,7 +2349,7 @@ Bismaleimide-triazine laminate, or BT, is the cheaper and older family. It still
 
 Ajinomoto Build-up Film, or ABF, is the insulating sheet between the copper layers, and it sits under every high-end CPU, GPU and AI accelerator. A major chipmaker first used it in 1999, and Ajinomoto calls it the de facto standard in package development ever since [3](https://www.ajinomoto.co.jp/company/en/ir/event/business_briefing/main/01113/teaserItems1/01/linkList/00/link/3_ICT_E.pdf). Asked on the company's own site whether its share was nearer 30 or 50 percent, the electronic materials division answered: "More like 95 percent market share", and said practically all high-performance computers and servers rely on it [2](https://www.ajinomoto.com/stories/the-ajinomoto-groups-unexpected-role-in-semiconductor-manufacturing-the-insulating-film-abf-born-from-aminoscience).
 
-Layers of build-up film in one package substratelayers
+{++{"author":"James's AI","timestamp":1790594159027}@@**Chart:** ++}Layers of build-up film in one package {--{"author":"James's AI","timestamp":1790594159027}@@substratelayers--}{++{"author":"James's AI","timestamp":1790594159027}@@substrate (layers)++}
 
 PC substrate 6 HPC substrate 18
 
@@ -2382,7 +2382,7 @@ The plants that build substrates for other firms are an Asian oligopoly, and eve
 
 Shinko has a new owner: Fujitsu sold its 50.02 percent stake to a fund run by the state-backed Japan Investment Corporation [16](https://www.jiccapital.co.jp/en/news/.assets/E_20250217_JIC_JICC_PressRelease.pdf).
 
-Unimicron sales by technology, second quarter 2026%
+**Chart:** Unimicron sales by technology, second quarter 2026 (%)
 
 ABF substrate **52%** PCB **27%** BT substrate **9%** HDI **9%** FPC **2%** Other **1%**
 
@@ -2408,27 +2408,27 @@ Flatness is the first thing lost as packages grow. TSMC has told investors that 
 -   **Dielectric properties**, how much signal the core laminate absorbs, set the speeds the substrate and the board underneath can run.
 -   **Qualification time** protects the incumbents. Approving a second supplier for a film or a laminate takes years.
 
-Card 1 of 4Question
+{--{"author":"James's AI","timestamp":1790594160874}@@Card--}{++{"author":"James's AI","timestamp":1790594160874}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594160874}@@4Question--}{++{"author":"James's AI","timestamp":1790594160874}@@4 · Question**++}
 
 What does a package substrate do?
 
-Card 1 of 4Answer
+{--{"author":"James's AI","timestamp":1790594161649}@@Card--}{++{"author":"James's AI","timestamp":1790594161649}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594161649}@@4Answer--}{++{"author":"James's AI","timestamp":1790594161649}@@4 · Answer**++}
 
 It connects a chip's hair-fine connections to a circuit board wired in millimeters.
 
 It is built in layers of epoxy film and copper around a stiff glass-cloth core. [[#^how-it-works-12|Reread: How it works]]
 
-Card 2 of 4Question
+{--{"author":"James's AI","timestamp":1790594162586}@@Card--}{++{"author":"James's AI","timestamp":1790594162586}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594162586}@@4Question--}{++{"author":"James's AI","timestamp":1790594162586}@@4 · Question**++}
 
 Which two substrate materials each come from one Japanese supplier?
 
-Card 2 of 4Answer
+{--{"author":"James's AI","timestamp":1790594163584}@@Card--}{++{"author":"James's AI","timestamp":1790594163584}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594163584}@@4Answer--}{++{"author":"James's AI","timestamp":1790594163584}@@4 · Answer**++}
 
 The insulating film, from Ajinomoto, and the glass cloth, from Nitto Boseki.
 
 Ajinomoto puts its share of the film at about 95 percent. [[#^the-materials-underneath|Reread: The materials underneath]]
 
-Card 3 of 4Question
+{--{"author":"James's AI","timestamp":1790594165386}@@Card--}{++{"author":"James's AI","timestamp":1790594165386}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594165386}@@4Question--}{++{"author":"James's AI","timestamp":1790594165386}@@4 · Question**++}
 
 Why would replacing Ajinomoto's film take years?
 
