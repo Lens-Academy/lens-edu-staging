@@ -8,6 +8,7 @@ title: "1960, The Year The Singularity Was Cancelled"
 ---
 #### Text
 content::
+%% ORIGINAL (commented out as AI slop; opens the module three times):
 There is no consensus in the field regarding exactly when AGI will emerge or which specific changes compared to today's systems will prove decisive. No one knows it. However, this does not mean that we cannot think about the future systematically.
 
 We begin this module with a text by Scott Alexander because it demonstrates a crucial point: history is not obligated to move by inertia as "the same thing, only more." Sometimes a trend persists for centuries only to suddenly break. This is why discussing the future of AI requires models that help us identify qualitative shifts rather than confident prophecies.
