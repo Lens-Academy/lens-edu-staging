@@ -190,19 +190,19 @@ labels::
 
 #### Question: Open
 id:: 6e2f808f-a90f-49ef-9d1b-b3c90eab51e0
-content:: What has changed for you because of this course? A specific example helps.
+content:: Would you like to share a short quote about this course or Lens? We may use it on our website or in funding applications. Good quotes are specific: what you came for, what changed for you, or a moment that stood out.
 optional:: true
-max-chars:: 1500
+max-chars:: 1000
 
 #### Question: Choice
 id:: 485b692f-ec0d-43f6-bf17-70e7c978cd41
-content:: May we share your answers to this survey (for example the story above or your recommendation reason) on our website and with funders?
+content:: If we share your quote or your recommendation reason, how should we credit you?
 optional:: true
 options::
-- Yes, with my full name
-- Yes, with my first name only
-- Yes, anonymously (for example "a Lens Academy graduate")
-- No, please keep them internal
+- With my name and LinkedIn
+- With my name only
+- Anonymously (for example "a Lens Academy graduate")
+- Please don't share my answers publicly
 
 #### Text
 content:: **Pay what you want**
