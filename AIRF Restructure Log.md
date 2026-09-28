@@ -571,7 +571,9 @@ One permission gates three things, and section 8 records what its absence has al
 - **The chapter 1 framing in the curses brief.** The self-amplification key was first written from an outcome statement standing in for the chapter, corrected twice, and is still unchecked against chapter 1 itself.
 - **Companion pieces.** Dropped rather than parked, because `Optional Resources` is a module: a companion-pieces submodule can be added beside the glossary at any time without touching the unit sequence.
 
-### Waiting on the Lens Tutor running on staging
+### Unblocked: the Lens Tutor now runs on staging
+
+It came up shortly after this project closed, so this group is no longer waiting on anything. The 2026-09-28 rows in section 9 record the first work done with it, and section 7's checks can now actually be run.
 
 - **Nothing written in stages 2 or 3 has been run against a real tutor session.** Nine connection beats, the U3 opener, the film lens changes and the chapter 9 pair. Section 7 holds the five specific checks, and the premise test that was meant to precede the beats was never possible.
 - **Whether the Learning Outcome Evals can run without a live tutor** was raised and never answered. Neither `Predictable sub-goals from unknown goals` nor `Cosmic stakes` carries an `eval-results` block. If that mechanism is separate, it would cover the outcome tests while the tutor side waits.
