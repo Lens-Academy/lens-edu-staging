@@ -94,7 +94,7 @@ content:: **The full course**
 
 #### Question: Rating
 id:: e160324a-c5c5-479d-be72-4788b3d28576
-content:: How would you rate the Compute Verification Part 2 course overall?
+content:: How would you rate the Compute Verification 2 course overall?
 scale:: 10
 labels::
 - Very poor
