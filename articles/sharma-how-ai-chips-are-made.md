@@ -414,27 +414,27 @@ It is sliced from a single crystal and polished flat to within a few atoms. [[#^
 
 Who makes the wafers for leading-edge chips?
 
-Card 2 of 4Answer
+{--{"author":"James's AI","timestamp":1790593803252}@@Card--}{++{"author":"James's AI","timestamp":1790593803252}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593803252}@@4Answer--}{++{"author":"James's AI","timestamp":1790593803252}@@4 · Answer**++}
 
 Five firms, in Japan, Taiwan, Germany and South Korea.
 
 They are Shin-Etsu, SUMCO, GlobalWafers, Siltronic and SK Siltron. None is American or Chinese. [[#^who-makes-it-2|Reread: Who makes it]]
 
-Card 3 of 4Question
+{--{"author":"James's AI","timestamp":1790593804628}@@Card--}{++{"author":"James's AI","timestamp":1790593804628}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593804628}@@4Question--}{++{"author":"James's AI","timestamp":1790593804628}@@4 · Question**++}
 
 Why does switching wafer suppliers take years?
 
-Card 3 of 4Answer
+{--{"author":"James's AI","timestamp":1790593806036}@@Card--}{++{"author":"James's AI","timestamp":1790593806036}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593806036}@@4Answer--}{++{"author":"James's AI","timestamp":1790593806036}@@4 · Answer**++}
 
 A fab must test and approve a new supplier separately for every chip it makes.
 
 The switch takes two to five years. [[#^the-chokepoint-2|Reread: The chokepoint]]
 
-Card 4 of 4Question
+{--{"author":"James's AI","timestamp":1790593807452}@@Card--}{++{"author":"James's AI","timestamp":1790593807452}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593807452}@@4Question--}{++{"author":"James's AI","timestamp":1790593807452}@@4 · Question**++}
 
 China makes most of the world's polysilicon. Why does that give it little hold over chip wafers?
 
-Card 4 of 4Answer
+{--{"author":"James's AI","timestamp":1790593808622}@@Card--}{++{"author":"James's AI","timestamp":1790593808622}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593808622}@@4Answer--}{++{"author":"James's AI","timestamp":1790593808622}@@4 · Answer**++}
 
 Almost all of it is solar grade, too impure for chips.
 
@@ -447,7 +447,7 @@ In 2023, 98 percent of China's output was solar grade. Chinese firms held under 
 -   A fab needs two to five years to approve a new wafer supplier.
 -   China makes most of the world's polysilicon, but almost all of it is too impure for chips.
 
-Sources (13)
+**Sources (13)**
 
 1.  A [SEMI Reports 2025 Annual Worldwide Silicon Wafer Shipments and Revenue Results](https://www.prnewswire.com/news-releases/semi-reports-2025-annual-worldwide-silicon-wafer-shipments-and-revenue-results-302683028.html) PR Newswire · 10 February 2026
 2.  A [Mineral Commodity Summaries 2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-silicon.pdf) U.S. Geological Survey · 5 February 2026
@@ -467,7 +467,7 @@ Sources (13)
 
 A few hundred chemicals separate a blank wafer from a working chip. Japan makes about four-fifths of the photoresist. Twice the supply of these materials has been restricted, and no fab stopped, because the countries affected stockpiled and developed substitutes instead.
 
-1,467 words / 6 minSpecimen: gas cabinet
+{--{"author":"James's AI","timestamp":1790593811954}@@1,467--}{++{"author":"James's AI","timestamp":1790593811954}@@_1,467++} words / 6 {--{"author":"James's AI","timestamp":1790593811954}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593811954}@@min · Interactive 3D Specimen:++} gas cabinet{++{"author":"James's AI","timestamp":1790593811954}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#chemicals-gases-and-photoresist))_++}
 
 In plain terms
 
