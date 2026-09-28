@@ -1512,15 +1512,15 @@ Who leads
 -   {--{"author":"James's AI","timestamp":1790594020241}@@USIntel--}{++{"author":"James's AI","timestamp":1790594020241}@@US · **Intel**:++} 18A in high-volume manufacturing; 18A-P adds 9% performance at the same power
 -   {--{"author":"James's AI","timestamp":1790594020929}@@KRSamsung Foundry--}{++{"author":"James's AI","timestamp":1790594020929}@@KR · **Samsung Foundry**:++} SF2 family; SF2Z adds backside power
 -   {--{"author":"James's AI","timestamp":1790594021794}@@CNSMIC--}{++{"author":"James's AI","timestamp":1790594021794}@@CN · **SMIC**:++} N+2 and N+3, printed in several passes on older deep-ultraviolet tools, no EUV
--   JPRapidus State-backed 2 nm entrant targeting mass production in 2027
+-   {--{"author":"James's AI","timestamp":1790594022838}@@JPRapidus--}{++{"author":"James's AI","timestamp":1790594022838}@@JP · **Rapidus**:++} State-backed 2 nm entrant targeting mass production in 2027
 
 Where it is made
 
--   TWTaiwan TSMC N2 at Fab 20 Hsinchu and Fab 22 Kaohsiung
--   USUnited States Intel 18A at Fab 52, Arizona; TSMC Arizona on N4 and N3
--   KRSouth Korea Samsung Hwaseong and Pyeongtaek
--   JPJapan Rapidus Chitose, Hokkaido
--   CNChina SMIC Shanghai and Beijing 300 mm lines
+-   {--{"author":"James's AI","timestamp":1790594024424}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790594024424}@@TW · **Taiwan**:++} TSMC N2 at Fab 20 Hsinchu and Fab 22 Kaohsiung
+-   {--{"author":"James's AI","timestamp":1790594025239}@@USUnited States--}{++{"author":"James's AI","timestamp":1790594025239}@@US · **United States**:++} Intel 18A at Fab 52, Arizona; TSMC Arizona on N4 and N3
+-   {--{"author":"James's AI","timestamp":1790594026993}@@KRSouth Korea--}{++{"author":"James's AI","timestamp":1790594026993}@@KR · **South Korea**:++} Samsung Hwaseong and Pyeongtaek
+-   {--{"author":"James's AI","timestamp":1790594028376}@@JPJapan--}{++{"author":"James's AI","timestamp":1790594028376}@@JP · **Japan**:++} Rapidus Chitose, Hokkaido
+-   {--{"author":"James's AI","timestamp":1790594029839}@@CNChina--}{++{"author":"James's AI","timestamp":1790594029839}@@CN · **China**:++} SMIC Shanghai and Beijing 300 mm lines
 
 Why substitution is slow
 
