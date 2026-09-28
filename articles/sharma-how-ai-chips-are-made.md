@@ -71,7 +71,7 @@ The card also gives where China and the United States stand. The chapters run in
 
 The cheapest stage in the chain to fund and one of the most concentrated. Three software firms sell the tools used to design every leading-edge AI accelerator.
 
-1,683 words / 7 minSpecimen: die floorplan
+{--{"author":"James's AI","timestamp":1790593752529}@@1,683--}{++{"author":"James's AI","timestamp":1790593752529}@@_1,683++} words / 7 {--{"author":"James's AI","timestamp":1790593752529}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593752529}@@min · Interactive 3D Specimen:++} die floorplan{++{"author":"James's AI","timestamp":1790593752529}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#design-and-eda))_++}
 
 In plain terms
 
@@ -81,17 +81,17 @@ Chip design turns an idea for a new chip into a complete blueprint. A chip holds
 
 Three vendors sell every complete design flow used at the leading edge [3](https://newsletter.semianalysis.com/p/eda-market-primer). Design is cheap next to what it commits: tens of millions of dollars of engineering and masks decide what tens of billions of dollars of factory capacity will make [1](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor). It is the control a government can impose fastest, and the one China is closest to neutralizing, though CSET still finds no complete domestic flow [17](https://cset.georgetown.edu/article/semiconductors-more-u-s-leverage-more-bad-news-for-beijing-part-3/). The largest buyers now design their own parts, with Broadcom doing the implementation and the buyer's name on the product [11](https://investors.broadcom.com/news-releases/news-release-details/openai-and-broadcom-announce-strategic-collaboration-deploy-10).
 
-Concentration **Extreme**
+Concentration: **Extreme**
 
-Substitutability **Hard** Only three complete sets of chip design software exist, and a fourth would have to be written from nothing and approved by a foundry.
+Substitutability: **Hard**. Only three complete sets of chip design software exist, and a fourth would have to be written from nothing and approved by a foundry.
 
-Price or market size **A 3 nm photomask set costs about $40M, and startups have designed and made a 7 nm chip for $50-75M**
+Price or market size: **A 3 nm photomask set costs about $40M, and startups have designed and made a 7 nm chip for $50-75M**
 
 Who leads
 
--   USSynopsys $7.05B revenue in the fiscal year ended 31 October 2025, Ansys included from July; 90%+ of the timing-signoff market
--   USCadence $5.30B revenue in calendar 2025; 55-60% of the hardware emulator market
--   DESiemens EDA $2.2-2.5B revenue in 2025; 85%+ of physical verification, the final layout check
+-   {--{"author":"James's AI","timestamp":1790593756681}@@USSynopsys--}{++{"author":"James's AI","timestamp":1790593756681}@@US · **Synopsys**:++} $7.05B revenue in the fiscal year ended 31 October 2025, Ansys included from July; 90%+ of the timing-signoff market
+-   {--{"author":"James's AI","timestamp":1790593757544}@@USCadence--}{++{"author":"James's AI","timestamp":1790593757544}@@US · **Cadence**:++} $5.30B revenue in calendar 2025; 55-60% of the hardware emulator market
+-   {--{"author":"James's AI","timestamp":1790593758261}@@DESiemens EDA--}{++{"author":"James's AI","timestamp":1790593758261}@@DE · **Siemens EDA**:++} $2.2-2.5B revenue in 2025; 85%+ of physical verification, the final layout check
 -   GBArm About 50% of processor compute at the top cloud firms, fiscal 2026
 -   USBroadcom $16.7B of AI chip revenue in the third quarter of fiscal 2026
 
