@@ -1832,39 +1832,44 @@ They held 0.7 percent of the market in 2025. [[#^packaging-ai-and-china|Reread: 
 
 Three companies can build a 2 nm-class transistor. Shrinking stopped lowering the cost per transistor about a decade ago, and every gain since has come from extra process steps.
 
-%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+{--{"author":"James's AI","timestamp":1790597091402}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
 
-{--{"author":"James's AI","timestamp":1790594010814}@@1,553--}{++{"author":"James's AI","timestamp":1790594010814}@@_1,553++} words / 7 {--{"author":"James's AI","timestamp":1790594010814}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594010814}@@min · Interactive 3D Specimen:++} gate-all-around transistor{++{"author":"James's AI","timestamp":1790594010814}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#transistors-and-front-end))_++}
+1,553--}{++{"author":"James's AI","timestamp":1790597091402}@@*1,553++} words / 7 {--{"author":"James's AI","timestamp":1790597091402}@@minSpecimen: gate-all-around transistor
 
 **In plain terms**
 
-The front end of a chip factory is the part that builds the transistors, the billions of tiny switches in every chip. Each switch is a valve. Current runs along a narrow strip of silicon called the channel, and a small voltage on a gate above the strip opens or shuts the flow. Shorter strips switch faster and more of them fit on a chip, but make the strip short enough and the valve stops sealing: current leaks through even when the gate is off, and the chip burns power doing nothing. The fix is to wrap the gate around all four sides of the strip, so it can squeeze the flow shut from every side, and that takes a long sequence of steps that have to run in exact order. Only three companies, TSMC, Intel and Samsung, can do it, a list so short that an export control can name every one of them.
+--}{++{"author":"James's AI","timestamp":1790597091402}@@min*
+
+:::callout {title="In plain terms" tone="neutral"}
+++}The front end of a chip factory is the part that builds the transistors, the billions of tiny switches in every chip. Each switch is a valve. Current runs along a narrow strip of silicon called the channel, and a small voltage on a gate above the strip opens or shuts the flow. Shorter strips switch faster and more of them fit on a chip, but make the strip short enough and the valve stops sealing: current leaks through even when the gate is off, and the chip burns power doing nothing. The fix is to wrap the gate around all four sides of the strip, so it can squeeze the flow shut from every side, and that takes a long sequence of steps that have to run in exact order. Only three companies, TSMC, Intel and Samsung, can do it, a list so short that an export control can name every one of them.{++{"author":"James's AI","timestamp":1790597091402}@@
+:::++}
 
 ### In short ^in-short-8
 
 Every gain since the FinFET era has come from process steps and new materials, while shrinking the geometry gave less each node. TSMC's own numbers show the density gain per node falling from 1.2 times at N2P to about 1.1 at A16 [4](https://www.tsmc.com/english/dedicatedFoundry/technology/platform_HPC_tech_advancedTech). Three companies can run a 2 nm-class process, and only TSMC runs it at volume for outside customers. SRAM has stopped shrinking, which is why accelerators keep their memory off the logic die. China can reach 5 nm-class geometry without EUV, and CSIS still judges that China cannot build a working EUV system, which is the gap the export controls defend [16](https://www.csis.org/blogs/strategic-technologies-blog/breakthroughs-or-boasts-assessing-recent-chinese-lithography).
 
-Concentration: **Extreme**
+{--{"author":"James's AI","timestamp":1790597091402}@@Concentration: **Extreme**--}{++{"author":"James's AI","timestamp":1790597091402}@@:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** Extreme++}
 
-Substitutability: **Hard**. Three firms make gate-all-around transistors, the newest kind, and none sells its process recipe.
+{--{"author":"James's AI","timestamp":1790597091402}@@Substitutability: **Hard**.--}{++{"author":"James's AI","timestamp":1790597091402}@@**Substitutability:** Hard.++} Three firms make gate-all-around transistors, the newest kind, and none sells its process recipe.
 
-Price or market size: **No foundry publishes prices for its newest wafers**. The public measure is how many more transistors TSMC fits on each new process, and that gain falls from 1.2x at N2P to about 1.1x at A16.
+{--{"author":"James's AI","timestamp":1790597091402}@@Price--}{++{"author":"James's AI","timestamp":1790597091402}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597091402}@@size: **No--}{++{"author":"James's AI","timestamp":1790597091402}@@size:** No++} foundry publishes prices for its newest {--{"author":"James's AI","timestamp":1790597091402}@@wafers**.--}{++{"author":"James's AI","timestamp":1790597091402}@@wafers.++} The public measure is how many more transistors TSMC fits on each new process, and that gain falls from 1.2x at N2P to about 1.1x at A16.
 
 **Who leads**
 
--   {--{"author":"James's AI","timestamp":1790594017902}@@TWTSMC--}{++{"author":"James's AI","timestamp":1790594017902}@@TW · **TSMC**:++} N2 in volume production since 4Q25, the first nanosheet node
--   {--{"author":"James's AI","timestamp":1790594020241}@@USIntel--}{++{"author":"James's AI","timestamp":1790594020241}@@US · **Intel**:++} 18A in high-volume manufacturing; 18A-P adds 9% performance at the same power
--   {--{"author":"James's AI","timestamp":1790594020929}@@KRSamsung Foundry--}{++{"author":"James's AI","timestamp":1790594020929}@@KR · **Samsung Foundry**:++} SF2 family; SF2Z adds backside power
--   {--{"author":"James's AI","timestamp":1790594021794}@@CNSMIC--}{++{"author":"James's AI","timestamp":1790594021794}@@CN · **SMIC**:++} N+2 and N+3, printed in several passes on older deep-ultraviolet tools, no EUV
--   {--{"author":"James's AI","timestamp":1790594022838}@@JPRapidus--}{++{"author":"James's AI","timestamp":1790594022838}@@JP · **Rapidus**:++} State-backed 2 nm entrant targeting mass production in 2027
+-{--{"author":"James's AI","timestamp":1790597091402}@@   TWTSMC--}{++{"author":"James's AI","timestamp":1790597091402}@@ **TSMC** (TW):++} N2 in volume production since 4Q25, the first nanosheet node
+-{--{"author":"James's AI","timestamp":1790597091402}@@   USIntel--}{++{"author":"James's AI","timestamp":1790597091402}@@ **Intel** (US):++} 18A in high-volume manufacturing; 18A-P adds 9% performance at the same power
+-{--{"author":"James's AI","timestamp":1790597091402}@@   KRSamsung Foundry --}{++{"author":"James's AI","timestamp":1790597091402}@@ **Samsung Foundry** (KR): ++}SF2 family; SF2Z adds backside power
+-{--{"author":"James's AI","timestamp":1790597091402}@@   CNSMIC--}{++{"author":"James's AI","timestamp":1790597091402}@@ **SMIC** (CN):++} N+2 and N+3, printed in several passes on older deep-ultraviolet tools, no EUV
+-{--{"author":"James's AI","timestamp":1790597091402}@@   JPRapidus--}{++{"author":"James's AI","timestamp":1790597091402}@@ **Rapidus** (JP):++} State-backed 2 nm entrant targeting mass production in 2027
 
 **Where it is made**
 
--   {--{"author":"James's AI","timestamp":1790594024424}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790594024424}@@TW · **Taiwan**:++} TSMC N2 at Fab 20 Hsinchu and Fab 22 Kaohsiung
--   {--{"author":"James's AI","timestamp":1790594025239}@@USUnited States--}{++{"author":"James's AI","timestamp":1790594025239}@@US · **United States**:++} Intel 18A at Fab 52, Arizona; TSMC Arizona on N4 and N3
--   {--{"author":"James's AI","timestamp":1790594026993}@@KRSouth Korea--}{++{"author":"James's AI","timestamp":1790594026993}@@KR · **South Korea**:++} Samsung Hwaseong and Pyeongtaek
--   {--{"author":"James's AI","timestamp":1790594028376}@@JPJapan--}{++{"author":"James's AI","timestamp":1790594028376}@@JP · **Japan**:++} Rapidus Chitose, Hokkaido
--   {--{"author":"James's AI","timestamp":1790594029839}@@CNChina--}{++{"author":"James's AI","timestamp":1790594029839}@@CN · **China**:++} SMIC Shanghai and Beijing 300 mm lines
+-{--{"author":"James's AI","timestamp":1790597091402}@@   TWTaiwan--}{++{"author":"James's AI","timestamp":1790597091402}@@ **Taiwan**:++} TSMC N2 at Fab 20 Hsinchu and Fab 22 Kaohsiung
+-{--{"author":"James's AI","timestamp":1790597091402}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597091402}@@ **United States**:++} Intel 18A at Fab 52, Arizona; TSMC Arizona on N4 and N3
+-{--{"author":"James's AI","timestamp":1790597091402}@@   KRSouth Korea--}{++{"author":"James's AI","timestamp":1790597091402}@@ **South Korea**:++} Samsung Hwaseong and Pyeongtaek
+-{--{"author":"James's AI","timestamp":1790597091402}@@   JPJapan--}{++{"author":"James's AI","timestamp":1790597091402}@@ **Japan**:++} Rapidus Chitose, Hokkaido
+-{--{"author":"James's AI","timestamp":1790597091402}@@   CNChina--}{++{"author":"James's AI","timestamp":1790597091402}@@ **China**:++} SMIC Shanghai and Beijing 300 mm lines
 
 **Why substitution is slow**
 
@@ -1876,7 +1881,8 @@ SMIC ships a process it calls N+3, measured at 113.4 million transistors per squ
 
 **Where the US stands**
 
-Intel runs the only American-owned line that makes the newest transistors. Its 18A process brought gate-all-around transistors and backside power, where power is fed from under the transistors, to market together. Intel is also the first to use High-NA EUV scanners, the newest kind, in volume production.
+Intel runs the only American-owned line that makes the newest transistors. Its 18A process brought gate-all-around transistors and backside power, where power is fed from under the transistors, to market together. Intel is also the first to use High-NA EUV scanners, the newest kind, in volume production.{++{"author":"James's AI","timestamp":1790597091402}@@
+:::++}
 
 A Blackwell GPU is 208 billion switches on two dies, each the largest a lithography machine can print in one shot [1](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/). Every switch has to turn on fully, turn off completely, and keep doing it for years. Making the switches is the front end of line; wiring them together is the back end.
 
@@ -1890,9 +1896,9 @@ Each of those is a deposition, an etch or an implant of its own, and they have t
 
 The leak the wrapping prevents is called short-channel leakage, and it has three fixes:
 
--   **Better insulator.** Thicker, so fewer electrons slip straight through it, yet controlling the channel as tightly as before: Intel switched the gate insulator from silicon dioxide to hafnium at 45 nm in 2007 [2](https://www.intel.com/pressroom/archive/releases/2007/20070128comp.htm).
--   **More gate.** Wrap gate metal around more sides of the channel, as fins and nanosheets do.
--   **Thinner channel.** Thin the silicon until no current can flow where the gate cannot reach it.
+-{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}**Better insulator.** Thicker, so fewer electrons slip straight through it, yet controlling the channel as tightly as before: Intel switched the gate insulator from silicon dioxide to hafnium at 45 nm in 2007 [2](https://www.intel.com/pressroom/archive/releases/2007/20070128comp.htm).
+-{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}**More gate.** Wrap gate metal around more sides of the channel, as fins and nanosheets do.
+-{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}**Thinner channel.** Thin the silicon until no current can flow where the gate cannot reach it.
 
 ### Variants and trade-offs ^variants-and-trade-offs-8
 
@@ -1908,24 +1914,32 @@ N2 entered volume production in the fourth quarter of 2025, TSMC's first nanoshe
 
 Those numbers are vendor claims until someone measures the silicon. Each foundry picks its own baseline, and none publishes a density figure that can be set against a rival's.
 
-{++{"author":"James's AI","timestamp":1790594036643}@@**Chart:** ++}TSMC's published density gain, node over {--{"author":"James's AI","timestamp":1790594036643}@@nodex--}{++{"author":"James's AI","timestamp":1790594036643}@@node (x++} versus the baseline {--{"author":"James's AI","timestamp":1790594036643}@@node--}{++{"author":"James's AI","timestamp":1790594036643}@@node)++}
+{++{"author":"James's AI","timestamp":1790594036643}@@**Chart:** ++}TSMC's published density gain, node over {--{"author":"James's AI","timestamp":1790597091402}@@nodex --}{++{"author":"James's AI","timestamp":1790597091402}@@node
 
-N2P logic vs N3E 1.2 N2P chip vs N3E 1.1 A16 chip vs N2P 1.1
+| | x ++}versus the baseline {--{"author":"James's AI","timestamp":1790597091402}@@node
+
+--}{++{"author":"James's AI","timestamp":1790597091402}@@node |
+|---|---:|
+| ++}N2P logic vs N3E {++{"author":"James's AI","timestamp":1790597091402}@@| ++}1.2 {++{"author":"James's AI","timestamp":1790597091402}@@|
+| ++}N2P chip vs N3E {++{"author":"James's AI","timestamp":1790597091402}@@| ++}1.1 {++{"author":"James's AI","timestamp":1790597091402}@@|
+| ++}A16 chip vs N2P {++{"author":"James's AI","timestamp":1790597091402}@@| ++}1.1{++{"author":"James's AI","timestamp":1790597091402}@@ |++}
 
 Source: [TSMC advanced technologies, HPC platform](https://www.tsmc.com/english/dedicatedFoundry/technology/platform_HPC_tech_advancedTech)
 
 #### Backside power delivery ^backside-power-delivery
 
-Power and signal share one stack of copper wiring above the transistors, where wide power rails crowd out the signal wires. Backside power delivery grinds the wafer thin and builds a second network underneath it.
+Power and signal share one stack of copper wiring above the transistors, where wide power rails crowd out the signal wires. Backside power{--{"author":"James's AI","timestamp":1790597091402}@@ delivery--} grinds the wafer thin and builds a second network underneath it.
 
 Intel shipped it first as PowerVia: on 18A, an 11 percent cut in routed area and a tenfold cut in dynamic voltage droop, the sag in supply voltage when a block of logic switches on at once [5](https://www.intc.com/news-events/press-releases/detail/1772/intel-foundry-details-process-milestones-and-future). TSMC's Super Power Rail lands that network straight on each transistor's source and drain, with no buried rail between, which is harder to build and gives more: against N2P, A16 gives 8 to 10 percent more speed, 15 to 20 percent less power and up to 1.10 times the chip density [4](https://www.tsmc.com/english/dedicatedFoundry/technology/platform_HPC_tech_advancedTech).
 
-TSMC's logic roadmap beyond N2, from its own announcements
+{++{"author":"James's AI","timestamp":1790597091402}@@**Timeline:** ++}TSMC's logic roadmap beyond N2, from its own announcements
 
-1.  2028-01-01N2U, 3-4% faster or 8-10% lower power than N2P
-2.  2028-01-01A14, up to 15% faster and more than 20% denser than N2
-3.  2029-01-01A13, a direct shrink of A14 for 6% area savings
-4.  2029-01-01A12, the A14 platform with Super Power Rail backside power
+{--{"author":"James's AI","timestamp":1790597091402}@@1.  2028-01-01N2U, --}{++{"author":"James's AI","timestamp":1790597091402}@@| Date | Milestone |
+|---|---|
+| 2028-01-01 | N2U, ++}3-4% faster or 8-10% lower power than N2P{++{"author":"James's AI","timestamp":1790597091402}@@ |++}
+{--{"author":"James's AI","timestamp":1790597091402}@@2.  2028-01-01A14, --}{++{"author":"James's AI","timestamp":1790597091402}@@| 2028-01-01 | A14, ++}up to 15% faster and more than 20% denser than N2{++{"author":"James's AI","timestamp":1790597091402}@@ |++}
+{--{"author":"James's AI","timestamp":1790597091402}@@3.  2029-01-01A13,--}{++{"author":"James's AI","timestamp":1790597091402}@@| 2029-01-01 | A13,++} a direct shrink of A14 for 6% area savings{++{"author":"James's AI","timestamp":1790597091402}@@ |++}
+{--{"author":"James's AI","timestamp":1790597091402}@@4.  2029-01-01A12, --}{++{"author":"James's AI","timestamp":1790597091402}@@| 2029-01-01 | A12, ++}the A14 platform with Super Power Rail backside power{++{"author":"James's AI","timestamp":1790597091402}@@ |++}
 
 Source: [TSMC, 2026 North America Technology Symposium](https://pr.tsmc.com/english/news/3302)
 
@@ -1937,8 +1951,8 @@ A logic gate needs two transistors that switch on opposite signals, and today th
 
 Wiring is now as hard to make as the transistor. Copper seeps into the insulator around it, so every wire needs a barrier, a liner and a cap, and once the narrowest wires sit less than 20 nm apart those wrappers take a large share of the wire's cross-section [8](https://www.imec-int.com/en/articles/semi-damascene-metallization-inflection-point-back-end-line-processing). Two metals are moving into those narrow levels.
 
--   **Ruthenium** needs no barrier, so the whole wire conducts; imec has demonstrated ruthenium lines at a 16 nm pitch [9](https://www.imec-int.com/en/press/imec-demonstrates-16nm-pitch-ru-lines-record-low-resistance-obtained-using-semi-damascene).
--   **Molybdenum** conducts worse in bulk, 5.3 against copper's 1.68 microhm-cm, but in a thin film it beats tungsten by up to 30 percent and needs no barrier either, which is moving it into the contacts on each transistor [10](https://blog.entegris.com/molybdenums-role-in-ultra-fast-computing-the-metal-behind-the-speed).
+-{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}**Ruthenium** needs no barrier, so the whole wire conducts; imec has demonstrated ruthenium lines at a 16 nm pitch [9](https://www.imec-int.com/en/press/imec-demonstrates-16nm-pitch-ru-lines-record-low-resistance-obtained-using-semi-damascene).
+-{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}**Molybdenum** conducts worse in bulk, 5.3 against copper's 1.68 microhm-cm, but in a thin film it beats tungsten by up to 30 percent and needs no barrier either, which is moving it into the contacts on each transistor [10](https://blog.entegris.com/molybdenums-role-in-ultra-fast-computing-the-metal-behind-the-speed).
 
 ### Who makes it ^who-makes-it-8
 
@@ -1960,78 +1974,93 @@ See [[#^lithography|Lithography]] and [[#^geopolitics|Geopolitics]].
 
 ### Key evaluation criteria ^key-evaluation-criteria-8
 
--   **Electrostatic control.** How far the gate wraps the channel. It sets how much the switch leaks when off, and the lowest supply voltage it can run on.
--   **Density.** Transistors per square millimeter, comparable only inside one foundry's own numbering and for one kind of cell.
--   **Interconnect resistance.** Below a 20 nm wire spacing the wire becomes the slower part and sets the delay [8](https://www.imec-int.com/en/articles/semi-damascene-metallization-inflection-point-back-end-line-processing).
--   **Power delivery.** The voltage lost carrying power across the die. Backside power frees area and cuts the droop tenfold [5](https://www.intc.com/news-events/press-releases/detail/1772/intel-foundry-details-process-milestones-and-future).
--   **SRAM scaling.** The cell that holds one bit has stopped shrinking, which caps how much cache an accelerator can afford.
--   **Cost per transistor.** No foundry publishes wafer prices, so the shrinking density gain per node is the proxy. On that proxy, cost per transistor is rising for the first time.
+-{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}**Electrostatic control.** How far the gate wraps the channel. It sets how much the switch leaks when off, and the lowest supply voltage it can run on.
+-{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}**Density.** Transistors per square millimeter, comparable only inside one foundry's own numbering and for one kind of cell.
+-{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}**Interconnect resistance.** Below a 20 nm wire spacing the wire becomes the slower part and sets the delay [8](https://www.imec-int.com/en/articles/semi-damascene-metallization-inflection-point-back-end-line-processing).
+-{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}**Power delivery.** The voltage lost carrying power across the die. Backside power frees area and cuts the droop tenfold [5](https://www.intc.com/news-events/press-releases/detail/1772/intel-foundry-details-process-milestones-and-future).
+-{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}**SRAM scaling.** The cell that holds one bit has stopped shrinking, which caps how much cache an accelerator can afford.
+-{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}**Cost per transistor.** No foundry publishes wafer prices, so the shrinking density gain per node is the proxy. On that proxy, cost per transistor is rising for the first time.
 
-{--{"author":"James's AI","timestamp":1790594039496}@@Card--}{++{"author":"James's AI","timestamp":1790594039496}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594039496}@@4Question--}{++{"author":"James's AI","timestamp":1790594039496}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597091402}@@Card 1 of 4Question--}{++{"author":"James's AI","timestamp":1790597091402}@@::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.++}
 
-Why do the newest transistors wrap the gate around the channel?
+{++{"author":"James's AI","timestamp":1790597091402}@@:::callout {title="Card 1 of 4: ++}Why do the newest transistors wrap the gate around the {--{"author":"James's AI","timestamp":1790597091402}@@channel?
 
-{--{"author":"James's AI","timestamp":1790594042038}@@Card--}{++{"author":"James's AI","timestamp":1790594042038}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594042038}@@4Answer--}{++{"author":"James's AI","timestamp":1790594042038}@@4 · Answer**++}
+Card 1 of 4Answer
 
-To stop current leaking when the switch is off.
+--}{++{"author":"James's AI","timestamp":1790597091402}@@channel?" tone="neutral" collapse="closed"}
+++}To stop current leaking when the switch is off.
 
-Shorter channels switch faster but leak. A gate on all four sides can shut the flow off completely. [Reread: How it works](#transistors-and-front-end--how-it-works)
+Shorter channels switch faster but leak. A gate on all four sides can shut the flow off completely. {--{"author":"James's AI","timestamp":1790597091402}@@[Reread:--}{++{"author":"James's AI","timestamp":1790597091402}@@[[#^how-it-works-8|Reread:++} How it {--{"author":"James's AI","timestamp":1790597091402}@@works](#transistors-and-front-end--how-it-works)--}{++{"author":"James's AI","timestamp":1790597091402}@@works]]
+:::++}
 
-{--{"author":"James's AI","timestamp":1790594044595}@@Card--}{++{"author":"James's AI","timestamp":1790594044595}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594044595}@@4Question--}{++{"author":"James's AI","timestamp":1790594044595}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597091402}@@Card--}{++{"author":"James's AI","timestamp":1790597091402}@@:::callout {title="Card++} 2 of{--{"author":"James's AI","timestamp":1790597091402}@@ 4Question
 
-Which companies can make these gate-all-around transistors?
+--}{++{"author":"James's AI","timestamp":1790597091402}@@ 4: ++}Which companies can make these gate-all-around {--{"author":"James's AI","timestamp":1790597091402}@@transistors?
 
-{--{"author":"James's AI","timestamp":1790594045674}@@Card--}{++{"author":"James's AI","timestamp":1790594045674}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594045674}@@4Answer--}{++{"author":"James's AI","timestamp":1790594045674}@@4 · Answer**++}
+Card 2 of 4Answer
 
-TSMC, Intel and Samsung.
+--}{++{"author":"James's AI","timestamp":1790597091402}@@transistors?" tone="neutral" collapse="closed"}
+++}TSMC, Intel and Samsung.
 
-Only TSMC makes them in volume for outside customers. [Reread: Who makes it](#transistors-and-front-end--who-makes-it)
+Only TSMC makes them in volume for outside customers. {--{"author":"James's AI","timestamp":1790597091402}@@[Reread:--}{++{"author":"James's AI","timestamp":1790597091402}@@[[#^who-makes-it-8|Reread:++} Who makes {--{"author":"James's AI","timestamp":1790597091402}@@it](#transistors-and-front-end--who-makes-it)--}{++{"author":"James's AI","timestamp":1790597091402}@@it]]
+:::++}
 
-{--{"author":"James's AI","timestamp":1790594047424}@@Card--}{++{"author":"James's AI","timestamp":1790594047424}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594047424}@@4Question--}{++{"author":"James's AI","timestamp":1790594047424}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597091402}@@Card--}{++{"author":"James's AI","timestamp":1790597091402}@@:::callout {title="Card++} 3 of {--{"author":"James's AI","timestamp":1790597091402}@@4Question
 
-Why is the front end hard for a new firm to enter?
+--}{++{"author":"James's AI","timestamp":1790597091402}@@4: ++}Why is the front end hard for a new firm to {--{"author":"James's AI","timestamp":1790597091402}@@enter?
 
-{--{"author":"James's AI","timestamp":1790594048883}@@Card--}{++{"author":"James's AI","timestamp":1790594048883}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594048883}@@4Answer--}{++{"author":"James's AI","timestamp":1790594048883}@@4 · Answer**++}
+Card 3 of 4Answer
 
-No firm sells its process recipe, the exact sequence of steps that builds the transistors.
+--}{++{"author":"James's AI","timestamp":1790597091402}@@enter?" tone="neutral" collapse="closed"}
+++}No firm sells its process recipe, the exact sequence of steps that builds the transistors.
 
-A newcomer has to develop its own. [Reread: The chokepoint](#transistors-and-front-end--the-chokepoint)
+A newcomer has to develop its own. {--{"author":"James's AI","timestamp":1790597091402}@@[Reread:--}{++{"author":"James's AI","timestamp":1790597091402}@@[[#^the-chokepoint-8|Reread:++} The {--{"author":"James's AI","timestamp":1790597091402}@@chokepoint](#transistors-and-front-end--the-chokepoint)--}{++{"author":"James's AI","timestamp":1790597091402}@@chokepoint]]
+:::++}
 
-{--{"author":"James's AI","timestamp":1790594050421}@@Card--}{++{"author":"James's AI","timestamp":1790594050421}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594050421}@@4Question--}{++{"author":"James's AI","timestamp":1790594050421}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597091402}@@Card --}{++{"author":"James's AI","timestamp":1790597091402}@@:::callout {title="Card ++}4 of{--{"author":"James's AI","timestamp":1790597091402}@@ 4Question
 
-How does China's SMIC make advanced chips without an EUV machine?
+--}{++{"author":"James's AI","timestamp":1790597091402}@@ 4: ++}How does China's SMIC make advanced chips without an EUV {--{"author":"James's AI","timestamp":1790597091402}@@machine?
 
-{--{"author":"James's AI","timestamp":1790594051530}@@Card--}{++{"author":"James's AI","timestamp":1790594051530}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594051530}@@4Answer--}{++{"author":"James's AI","timestamp":1790594051530}@@4 · Answer**++}
+Card 4 of 4Answer
 
-It prints each layer in two or four passes on older deep-ultraviolet tools.
+--}{++{"author":"James's AI","timestamp":1790597091402}@@machine?" tone="neutral" collapse="closed"}
+++}It prints each layer in two or four passes on older deep-ultraviolet tools.
 
-This reaches 5 nm-class features. CSIS judges that China still cannot build a working EUV system. [Reread: The chokepoint](#transistors-and-front-end--the-chokepoint)
+This reaches 5 nm-class features. CSIS judges that China still cannot build a working EUV system. {--{"author":"James's AI","timestamp":1790597091402}@@[Reread:--}{++{"author":"James's AI","timestamp":1790597091402}@@[[#^the-chokepoint-8|Reread:++} The {--{"author":"James's AI","timestamp":1790597091402}@@chokepoint](#transistors-and-front-end--the-chokepoint)--}{++{"author":"James's AI","timestamp":1790597091402}@@chokepoint]]
+:::++}
 
-#### Four things to remember ^four-things-to-remember-7
+{--{"author":"James's AI","timestamp":1790597091402}@@#### Four--}{++{"author":"James's AI","timestamp":1790597091402}@@::::
 
--   The newest transistors wrap the gate around all four sides of the channel to stop current leaking.
--   Only TSMC, Intel and Samsung can make them, and only TSMC does so in volume for outside customers.
--   No firm sells its process recipe, so a newcomer has to develop its own.
--   SMIC reaches 5 nm-class features without EUV by printing each layer in several passes.
+:::callout {title="Four++} things to {--{"author":"James's AI","timestamp":1790597091402}@@remember ^four-things-to-remember-7
 
-**Sources (16)**
+--}{++{"author":"James's AI","timestamp":1790597091402}@@remember" tone="green"}
+++}-{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}The newest transistors wrap the gate around all four sides of the channel to stop current leaking.
+-{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}Only TSMC, Intel and Samsung can make them, and only TSMC does so in volume for outside customers.
+-{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}No firm sells its process recipe, so a newcomer has to develop its own.
+-{--{"author":"James's AI","timestamp":1790597091402}@@   --}{++{"author":"James's AI","timestamp":1790597091402}@@ ++}SMIC reaches 5 nm-class features without EUV by printing each layer in several passes.{++{"author":"James's AI","timestamp":1790597091402}@@
+:::++}
 
-1.  A [NVIDIA Blackwell Architecture](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/) Nvidia · 18 December 2025
-2.  A [Intel's Transistor Technology Breakthrough Represents Biggest Change to Computer Chips in 40 Years](https://www.intel.com/pressroom/archive/releases/2007/20070128comp.htm) Intel · 27 January 2007
-3.  A [2nm Technology](https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm) TSMC
-4.  A [HPC Platform – Advanced Technologies](https://www.tsmc.com/english/dedicatedFoundry/technology/platform_HPC_tech_advancedTech) TSMC
-5.  A [Intel Foundry Details Process Milestones and Future Innovation at VLSI Symposium](https://www.intc.com/news-events/press-releases/detail/1772/intel-foundry-details-process-milestones-and-future) Intel · 16 June 2026
-6.  A [TSMC Debuts A13 Technology at 2026 North America Technology Symposium](https://pr.tsmc.com/english/news/3302) TSMC · 23 April 2026
-7.  A [CFET (complementary FET)](https://www.imec-int.com/en/articles/imec-puts-complementary-fet-cfet-logic-technology-roadmap) imec
-8.  A [Semi-damascene metallization](https://www.imec-int.com/en/articles/semi-damascene-metallization-inflection-point-back-end-line-processing) imec
-9.  A [16nm Ru lines using semi-damascene integration approach](https://www.imec-int.com/en/press/imec-demonstrates-16nm-pitch-ru-lines-record-low-resistance-obtained-using-semi-damascene) imec · 3 June 2025
-10.  A [Molybdenum’s Role in Ultra-Fast Computing: The Metal Behind the Speed](https://blog.entegris.com/molybdenums-role-in-ultra-fast-computing-the-metal-behind-the-speed) Entegris · 18 May 2026
-11.  A [Rapidus Secures 267.6 Billion Yen in Funding from Japan Government and Private Sector Companies This strategic funding plan will enable Rapidus to steadily progress from its current R&D phase to mass production of 2nm logic semiconductors by 2027 - Information - Rapidus Corporation](https://www.rapidus.inc/en/news_topics/information/rapidus-secures-267-6-billion-yen-in-funding-from-japan-government-and-private-sector-companies/) Rapidus
-12.  B [Is SMIC N+3’s Metal Pitch Smaller than Intel 18A’s?](https://newsletter.semianalysis.com/p/steel-smic-n3-teardown) SemiAnalysis · 14 June 2026
-13.  B [Clash of the Foundries: Gate All Around + Backside Power at 2nm](https://newsletter.semianalysis.com/p/clash-of-the-foundries) SemiAnalysis · 1 October 2024
-14.  B [China launches $47bn chip fund to counter U.S. restrictions](https://asia.nikkei.com/spotlight/supply-chain/china-launches-47bn-chip-fund-to-counter-u.s.-restrictions) Nikkei Asia · 27 May 2024
-15.  B [China starts production of home-grown immersion DUV chipmaking tools, source says](https://www.reuters.com/world/china/china-starts-production-home-grown-immersion-duv-chipmaking-tools-source-2026-07-28/) Reuters · 28 July 2026
-16.  A [Breakthroughs or Boasts? Assessing Recent Chinese Lithography Advancements | Strategic Technologies Blog](https://www.csis.org/blogs/strategic-technologies-blog/breakthroughs-or-boasts-assessing-recent-chinese-lithography) Center for Strategic and International Studies
+{--{"author":"James's AI","timestamp":1790597091402}@@**Sources (16)**
+
+--}{++{"author":"James's AI","timestamp":1790597091402}@@:::callout {title="Sources (16)" tone="neutral" collapse="closed"}
+++}1.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [NVIDIA Blackwell {--{"author":"James's AI","timestamp":1790597091402}@@Architecture](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/)--}{++{"author":"James's AI","timestamp":1790597091402}@@Architecture](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/).++} Nvidia · 18 December {--{"author":"James's AI","timestamp":1790597091402}@@2025--}{++{"author":"James's AI","timestamp":1790597091402}@@2025. Tier A.++}
+2.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [Intel's Transistor Technology Breakthrough Represents Biggest Change to Computer Chips in 40 {--{"author":"James's AI","timestamp":1790597091402}@@Years](https://www.intel.com/pressroom/archive/releases/2007/20070128comp.htm)--}{++{"author":"James's AI","timestamp":1790597091402}@@Years](https://www.intel.com/pressroom/archive/releases/2007/20070128comp.htm).++} Intel · 27 January {--{"author":"James's AI","timestamp":1790597091402}@@2007--}{++{"author":"James's AI","timestamp":1790597091402}@@2007. Tier A.++}
+3.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [2nm {--{"author":"James's AI","timestamp":1790597091402}@@Technology](https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm) TSMC--}{++{"author":"James's AI","timestamp":1790597091402}@@Technology](https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm). TSMC. Tier A.++}
+4.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [HPC Platform – Advanced {--{"author":"James's AI","timestamp":1790597091402}@@Technologies](https://www.tsmc.com/english/dedicatedFoundry/technology/platform_HPC_tech_advancedTech) TSMC--}{++{"author":"James's AI","timestamp":1790597091402}@@Technologies](https://www.tsmc.com/english/dedicatedFoundry/technology/platform_HPC_tech_advancedTech). TSMC. Tier A.++}
+5.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [Intel Foundry Details Process Milestones and Future Innovation at VLSI {--{"author":"James's AI","timestamp":1790597091402}@@Symposium](https://www.intc.com/news-events/press-releases/detail/1772/intel-foundry-details-process-milestones-and-future)--}{++{"author":"James's AI","timestamp":1790597091402}@@Symposium](https://www.intc.com/news-events/press-releases/detail/1772/intel-foundry-details-process-milestones-and-future).++} Intel · 16 June {--{"author":"James's AI","timestamp":1790597091402}@@2026--}{++{"author":"James's AI","timestamp":1790597091402}@@2026. Tier A.++}
+6.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [TSMC Debuts A13 Technology at 2026 North America Technology {--{"author":"James's AI","timestamp":1790597091402}@@Symposium](https://pr.tsmc.com/english/news/3302)--}{++{"author":"James's AI","timestamp":1790597091402}@@Symposium](https://pr.tsmc.com/english/news/3302).++} TSMC · 23 April {--{"author":"James's AI","timestamp":1790597091402}@@2026--}{++{"author":"James's AI","timestamp":1790597091402}@@2026. Tier A.++}
+7.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [CFET (complementary {--{"author":"James's AI","timestamp":1790597091402}@@FET)](https://www.imec-int.com/en/articles/imec-puts-complementary-fet-cfet-logic-technology-roadmap) imec--}{++{"author":"James's AI","timestamp":1790597091402}@@FET)](https://www.imec-int.com/en/articles/imec-puts-complementary-fet-cfet-logic-technology-roadmap). imec. Tier A.++}
+8.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [Semi-damascene {--{"author":"James's AI","timestamp":1790597091402}@@metallization](https://www.imec-int.com/en/articles/semi-damascene-metallization-inflection-point-back-end-line-processing) imec--}{++{"author":"James's AI","timestamp":1790597091402}@@metallization](https://www.imec-int.com/en/articles/semi-damascene-metallization-inflection-point-back-end-line-processing). imec. Tier A.++}
+9.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [16nm Ru lines using semi-damascene integration {--{"author":"James's AI","timestamp":1790597091402}@@approach](https://www.imec-int.com/en/press/imec-demonstrates-16nm-pitch-ru-lines-record-low-resistance-obtained-using-semi-damascene)--}{++{"author":"James's AI","timestamp":1790597091402}@@approach](https://www.imec-int.com/en/press/imec-demonstrates-16nm-pitch-ru-lines-record-low-resistance-obtained-using-semi-damascene).++} imec · 3 June {--{"author":"James's AI","timestamp":1790597091402}@@2025--}{++{"author":"James's AI","timestamp":1790597091402}@@2025. Tier A.++}
+10.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [Molybdenum’s Role in Ultra-Fast Computing: The Metal Behind the {--{"author":"James's AI","timestamp":1790597091402}@@Speed](https://blog.entegris.com/molybdenums-role-in-ultra-fast-computing-the-metal-behind-the-speed)--}{++{"author":"James's AI","timestamp":1790597091402}@@Speed](https://blog.entegris.com/molybdenums-role-in-ultra-fast-computing-the-metal-behind-the-speed).++} Entegris · 18 May {--{"author":"James's AI","timestamp":1790597091402}@@2026--}{++{"author":"James's AI","timestamp":1790597091402}@@2026. Tier A.++}
+11.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [Rapidus Secures 267.6 Billion Yen in Funding from Japan Government and Private Sector Companies This strategic funding plan will enable Rapidus to steadily progress from its current R&D phase to mass production of 2nm logic semiconductors by 2027 - Information - Rapidus {--{"author":"James's AI","timestamp":1790597091402}@@Corporation](https://www.rapidus.inc/en/news_topics/information/rapidus-secures-267-6-billion-yen-in-funding-from-japan-government-and-private-sector-companies/) Rapidus--}{++{"author":"James's AI","timestamp":1790597091402}@@Corporation](https://www.rapidus.inc/en/news_topics/information/rapidus-secures-267-6-billion-yen-in-funding-from-japan-government-and-private-sector-companies/). Rapidus. Tier A.++}
+12.{--{"author":"James's AI","timestamp":1790597091402}@@  B--} [Is SMIC N+3’s Metal Pitch Smaller than Intel {--{"author":"James's AI","timestamp":1790597091402}@@18A’s?](https://newsletter.semianalysis.com/p/steel-smic-n3-teardown)--}{++{"author":"James's AI","timestamp":1790597091402}@@18A’s?](https://newsletter.semianalysis.com/p/steel-smic-n3-teardown).++} SemiAnalysis · 14 June {--{"author":"James's AI","timestamp":1790597091402}@@2026--}{++{"author":"James's AI","timestamp":1790597091402}@@2026. Tier B.++}
+13.{--{"author":"James's AI","timestamp":1790597091402}@@  B--} [Clash of the Foundries: Gate All Around + Backside Power at {--{"author":"James's AI","timestamp":1790597091402}@@2nm](https://newsletter.semianalysis.com/p/clash-of-the-foundries)--}{++{"author":"James's AI","timestamp":1790597091402}@@2nm](https://newsletter.semianalysis.com/p/clash-of-the-foundries).++} SemiAnalysis · 1 October {--{"author":"James's AI","timestamp":1790597091402}@@2024--}{++{"author":"James's AI","timestamp":1790597091402}@@2024. Tier B.++}
+14.{--{"author":"James's AI","timestamp":1790597091402}@@  B--} [China launches $47bn chip fund to counter U.S. {--{"author":"James's AI","timestamp":1790597091402}@@restrictions](https://asia.nikkei.com/spotlight/supply-chain/china-launches-47bn-chip-fund-to-counter-u.s.-restrictions)--}{++{"author":"James's AI","timestamp":1790597091402}@@restrictions](https://asia.nikkei.com/spotlight/supply-chain/china-launches-47bn-chip-fund-to-counter-u.s.-restrictions).++} Nikkei Asia · 27 May {--{"author":"James's AI","timestamp":1790597091402}@@2024--}{++{"author":"James's AI","timestamp":1790597091402}@@2024. Tier B.++}
+15.{--{"author":"James's AI","timestamp":1790597091402}@@  B--} [China starts production of home-grown immersion DUV chipmaking tools, source {--{"author":"James's AI","timestamp":1790597091402}@@says](https://www.reuters.com/world/china/china-starts-production-home-grown-immersion-duv-chipmaking-tools-source-2026-07-28/)--}{++{"author":"James's AI","timestamp":1790597091402}@@says](https://www.reuters.com/world/china/china-starts-production-home-grown-immersion-duv-chipmaking-tools-source-2026-07-28/).++} Reuters · 28 July {--{"author":"James's AI","timestamp":1790597091402}@@2026--}{++{"author":"James's AI","timestamp":1790597091402}@@2026. Tier B.++}
+16.{--{"author":"James's AI","timestamp":1790597091402}@@  A--} [Breakthroughs or Boasts? Assessing Recent Chinese Lithography Advancements | Strategic Technologies {--{"author":"James's AI","timestamp":1790597091402}@@Blog](https://www.csis.org/blogs/strategic-technologies-blog/breakthroughs-or-boasts-assessing-recent-chinese-lithography)--}{++{"author":"James's AI","timestamp":1790597091402}@@Blog](https://www.csis.org/blogs/strategic-technologies-blog/breakthroughs-or-boasts-assessing-recent-chinese-lithography).++} Center for Strategic and International {--{"author":"James's AI","timestamp":1790597091402}@@Studies--}{++{"author":"James's AI","timestamp":1790597091402}@@Studies. Tier A.
+:::++}
 
 ## Foundries and Fabs ^foundries-and-fabs
 
