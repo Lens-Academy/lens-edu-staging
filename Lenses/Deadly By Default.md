@@ -8,12 +8,12 @@ title: Deadly By Default
 ---
 #### Text
 content::
-While the first text argued that the course of history appears different depending on the predictive model used, the next explains why, in the field of AI, we can’t simply count on a positive outcome by default.
+{--{"author":"Plex's AI","timestamp":1790610797043}@@While the first text argued that the course of history appears different depending on the predictive model used, the next explains why, in the field of AI, we can’t simply count on a positive outcome by default.
 
-This text explains why some researchers believe the development of powerful AI is predictably dangerous, based not on a model of technological trends, but rather on specific incentives specific to what's happening right now.
-The main idea: catastrophic outcomes don't require malicious intent. They can arise simply because very powerful optimization systems are capable of pursuing goals that conflict with human values.
+This text explains why some researchers believe the development of --}{++{"author":"Plex's AI","timestamp":1790610797043}@@Why expect ++}powerful AI{--{"author":"Plex's AI","timestamp":1790610797043}@@ is predictably dangerous, based not on a model of technological trends, but rather on specific incentives specific to what's happening right now.
+The main idea: catastrophic outcomes don't --}{++{"author":"Plex's AI","timestamp":1790610797043}@@ to go badly by default? This text argues that catastrophe doesn't ++}require{--{"author":"Plex's AI","timestamp":1790610797043}@@ malicious intent. They can arise simply because very--}{++{"author":"Plex's AI","timestamp":1790610797043}@@ malice. A++} powerful {--{"author":"Plex's AI","timestamp":1790610797043}@@optimization systems are capable of--}{++{"author":"Plex's AI","timestamp":1790610797043}@@optimizer++} pursuing goals that conflict with human {--{"author":"Plex's AI","timestamp":1790610797043}@@values.
 
-The question this text addresses is: if we cannot confidently predict the exact shape of the future, what is a reasonable baseline hypothesis to adopt regarding powerful AI systems?
+The question this text addresses is: if we cannot confidently predict--}{++{"author":"Plex's AI","timestamp":1790610797043}@@values is enough, and today's incentives make that++} the{--{"author":"Plex's AI","timestamp":1790610797043}@@ exact shape of the future, what is a reasonable baseline hypothesis to adopt regarding powerful AI systems?--}{++{"author":"Plex's AI","timestamp":1790610797043}@@ default outcome.++}
 
 #### Article
 source:: [[../articles/Duncan, Deadly By Default]]
