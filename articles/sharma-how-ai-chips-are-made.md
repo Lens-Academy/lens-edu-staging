@@ -487,17 +487,17 @@ Who leads
 
 -   {--{"author":"James's AI","timestamp":1790593820349}@@JPJSR--}{++{"author":"James's AI","timestamp":1790593820349}@@JP · **JSR**:++} Owner of Inpria's metal-oxide resist for extreme-ultraviolet printing; 84% held by Japan Investment Corporation, a state-backed fund, since April 2024
 -   {--{"author":"James's AI","timestamp":1790593821826}@@JPTokyo--}{++{"author":"James's AI","timestamp":1790593821826}@@JP · **Tokyo++} Ohka {--{"author":"James's AI","timestamp":1790593821826}@@Kogyo--}{++{"author":"James's AI","timestamp":1790593821826}@@Kogyo**:++} Top-five resist maker; ¥139.7bn of sales in the first half of fiscal 2026
--   FRAir Liquide €2,465m of electronics revenue in 2025, 9.1% of group sales
--   USEntegris $3.20bn of 2025 revenue in filters, polishing slurries, gas delivery and wafer carriers
--   JPJX Advanced Metals About 65% of sputtering targets, the metal plates that chip wiring is made from
+-   {--{"author":"James's AI","timestamp":1790593823361}@@FRAir Liquide--}{++{"author":"James's AI","timestamp":1790593823361}@@FR · **Air Liquide**:++} €2,465m of electronics revenue in 2025, 9.1% of group sales
+-   {--{"author":"James's AI","timestamp":1790593824790}@@USEntegris--}{++{"author":"James's AI","timestamp":1790593824790}@@US · **Entegris**:++} $3.20bn of 2025 revenue in filters, polishing slurries, gas delivery and wafer carriers
+-   {--{"author":"James's AI","timestamp":1790593825863}@@JPJX--}{++{"author":"James's AI","timestamp":1790593825863}@@JP · **JX++} Advanced {--{"author":"James's AI","timestamp":1790593825863}@@Metals--}{++{"author":"James's AI","timestamp":1790593825863}@@Metals**:++} About 65% of sputtering targets, the metal plates that chip wiring is made from
 
 Where it is made
 
--   JPJapan Photoresist, ultra-pure hydrofluoric acid, sputtering targets, polishing slurries
--   USUnited States Entegris filters and wafer carriers, DuPont polishing slurries, Air Products gases
--   FRFrance Air Liquide electronics gases and precursors
--   KRSouth Korea SK Materials nitrogen trifluoride, Dongjin resist, on-site gas for memory fabs
--   CNChina Gallium, germanium and antimony refining; growing wet chemicals and polishing slurries
+-   {--{"author":"James's AI","timestamp":1790593827968}@@JPJapan--}{++{"author":"James's AI","timestamp":1790593827968}@@JP · **Japan**:++} Photoresist, ultra-pure hydrofluoric acid, sputtering targets, polishing slurries
+-   {--{"author":"James's AI","timestamp":1790593829366}@@USUnited States--}{++{"author":"James's AI","timestamp":1790593829366}@@US · **United States**:++} Entegris filters and wafer carriers, DuPont polishing slurries, Air Products gases
+-   {--{"author":"James's AI","timestamp":1790593830810}@@FRFrance--}{++{"author":"James's AI","timestamp":1790593830810}@@FR · **France**:++} Air Liquide electronics gases and precursors
+-   {--{"author":"James's AI","timestamp":1790593832353}@@KRSouth Korea--}{++{"author":"James's AI","timestamp":1790593832353}@@KR · **South Korea**:++} SK Materials nitrogen trifluoride, Dongjin resist, on-site gas for memory fabs
+-   {--{"author":"James's AI","timestamp":1790593833375}@@CNChina--}{++{"author":"James's AI","timestamp":1790593833375}@@CN · **China**:++} Gallium, germanium and antimony refining; growing wet chemicals and polishing slurries
 
 Why substitution is possible
 
