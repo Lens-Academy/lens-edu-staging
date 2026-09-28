@@ -4,7 +4,10 @@ reading_minutes: 20
 tutor_minutes: 10
 summary_for_tutor: "Covers why AI alignment is expected to be fundamentally difficult, using the 'optimize for smiles' fable to illustrate Goodhart's law, context disasters, and convergent instrumental strategies. Argues that hard optimization pushes solutions to weird edges of the solution space, that statistical safety guarantees break when capabilities change the distribution, and that patching undesired behaviors is futile against smarter systems. Frames alignment as requiring the rigor of cryptography and rocket science."
 title: "AI Alignment: Why It's Hard, and Where to Start"
-tldr: To guide a missile, we first had to invent calculus. AI alignment may require a similar leap — a mathematical framework for how powerful optimizers behave. This talk explains why intuition alone won't cut it, and why the field needs something closer to a science of alignment before we can trust the trajectory.
+# ORIGINAL tldr (commented out as AI slop):
+# tldr: To guide a missile, we first had to invent calculus. AI alignment may require a similar leap — a mathematical framework for how powerful optimizers behave. This talk explains why intuition alone won't cut it, and why the field needs something closer to a science of alignment before we can trust the trajectory.
+# PROPOSED FIX:
+# tldr: Nobody reached the Moon by pointing a rocket at it and hoping. Yudkowsky argues alignment is where rocketry was before the theory existed, and explains why intuition about goals won't get us there.
 ---
 #### Text
 content::
@@ -26,7 +29,7 @@ content::
 Choose the question you prefer and discuss it with AI tutor:
 
 * How do you understand the metaphor between AI and rocket science and cryptography used in this video? Which similarities do you think are accurately identified? And what differences should be considered to prevent this analogy from going too far?  
-* When you encounter a proposal at the level of "just aim for the moon and then steer," what two clarifying requirements from the article would you apply to distinguish a viable idea from "0% success," and what exactly would you ask the author of the idea to describe in a simplified model?
+* When you encounter a proposal at the level of "just aim for the moon and then steer," what two clarifying requirements from the {--{"author":"Plex's AI","timestamp":1790617729645}@@article--}{++{"author":"Plex's AI","timestamp":1790617729645}@@talk++} would you apply to distinguish a viable idea from "0% success," and what exactly would you ask the author of the idea to describe in a simplified model?
 
 #### Chat
 instructions::
