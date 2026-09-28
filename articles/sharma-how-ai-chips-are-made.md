@@ -3133,11 +3133,11 @@ One level up, a 100,000 H100 cluster costs over $4 billion in servers, draws abo
 | Nvidia | Accelerator design | July 2026 | 75.0% |
 | TSMC | Wafers and CoWoS | June 2026 | 67.7% |
 | KLA | Inspection | June 2026 | 61.4% |
-| ASML |  | June 2026 | 54.0% |
-| Lam Research |  | June 2026 | 51.7% |
-| Applied Materials |  | August 2026 | 50.3% |
+| ASML | Lithography | June 2026 | 54.0% |
+| Lam Research | Etch | June 2026 | 51.7% |
+| Applied Materials | Deposition | August 2026 | 50.3% |
 | Ibiden | Substrates | June 2026 | 36.4% |
-| ASE Technology |  | June 2026 | 21.0% |
+| ASE Technology | OSAT | June 2026 | 21.0% |
 | Amkor | OSAT | June 2026 | 16.8% |
 
 Every figure is the firm's own reported gross margin [5](https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Results-for-the-Third-Quarter-of-Fiscal-2026/default.aspx) [6](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027) [7](https://pr.tsmc.com/english/news/3326) [8](https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full) [9](https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results) [10](https://newsroom.lamresearch.com/2026-07-29-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-June-28,-2026) [11](https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-third-quarter-2026-results) [12](https://www.ibiden.com/ir/items/tannshinn2026Q1.pdf) [13](https://www.prnewswire.com/news-releases/ase-technology-holding-co-ltd-reports-its-unaudited-consolidated-financial-results-for-the-second-quarter-of-2026-302838714.html) [14](https://www.sec.gov/Archives/edgar/data/0001047127/000104712726000043/amkr6302026erex-991.htm).
@@ -3166,16 +3166,16 @@ Per unit of compute, logic keeps getting cheaper and everything wrapped around i
 
 | Stage | Class | Why |
 | --- | --- | --- |
-| lithography | Structurally expensive | One supplier; price set by twenty years of optics development. |
-| and | Structurally expensive | Scales with layer count; every design pays again. |
-|  | Structurally expensive | Inspection time rises faster than throughput. |
-| HBM | Structurally expensive | Stacking and cut per wafer. |
+| EUV lithography | Structurally expensive | One supplier; price set by twenty years of optics development. |
+| Masks and pellicles | Structurally expensive | Scales with layer count; every design pays again. |
+| Metrology and inspection | Structurally expensive | Inspection time rises faster than throughput. |
+| HBM | Structurally expensive | Stacking and through-silicon vias cut good die per wafer. |
 | Advanced packaging, CoWoS-L | Structurally expensive | 65 to 95 percent packaging yield; scrap destroys dies and memory. |
-| Power and cooling plant | Structurally expensive | Priced by grid queues and turbine. |
-| Leading-edge logic wafers | Compressible with scale | and improve through a. |
-| Design and | Compressible with scale | Engineering cost is spread across volume. |
-| Deposition and etch tools | Compressible with scale | Credible for most deposition and etch steps. |
-|  | Compressible with scale | A line, buildable at scale. |
+| Power and cooling plant | Structurally expensive | Priced by grid queues and turbine lead times. |
+| Leading-edge logic wafers | Compressible with scale | Defect density and utilization improve through a ramp. |
+| Design and EDA | Compressible with scale | Engineering cost is spread across volume. |
+| Deposition and etch tools | Compressible with scale | Credible second sources for most deposition and etch steps. |
+|{--{"author":"James's AI","timestamp":1790593699374}@@  --}{++{"author":"James's AI","timestamp":1790593699374}@@ ABF substrates ++}| Compressible with scale | A {++{"author":"James's AI","timestamp":1790593699374}@@laminate ++}line, buildable at scale. |
 | Optical transceivers | Compressible with scale | Copper and cap the price. |
 | Test and assembly (OSAT) | Already commoditized | 17 to 21 percent margins; sold on price. |
 | Wafers and | Already commoditized | Multi-supplier, long-, thin margins. |
