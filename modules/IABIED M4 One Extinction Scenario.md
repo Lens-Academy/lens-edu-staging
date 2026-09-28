@@ -123,7 +123,7 @@ source:: ![[../Lenses/IABIED - Cosmic Stakes]]
 # Lens: Dive Deeper: Chapter 9
 id:: b3132948-6f00-4d18-89f1-40d46c96e92c
 tldr:: Optional companion Q&As for the scenario's end: what the ending really claims, and why a superintelligence wouldn't simply choose to be moral.
-summary_for_tutor:: Optional Dive Deeper index lens for Chapter 9 (Ascension). Links the book website's supplementary Q&A cards covering the scenario's ending and the objection that a superintelligence would choose to be moral or install love into itself. A navigation and index lens only; it carries no standalone teaching content of its own.
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter 9 (Ascension). Links the book website's supplementary Q&A cards covering the scenario's ending and the objection that a superintelligence would choose to be moral, answered by the orthogonality extended discussion. A navigation and index lens only; it carries no standalone teaching content of its own.
 reading_minutes:: 2
 optional:: true
 
@@ -134,6 +134,7 @@ Want to go deeper on this chapter's ideas? These optional resources were gathere
 Skim whatever catches your eye.
 
 ::card[[../Lenses/IABIED - QA - The Ending]]
+::card[[../Lenses/IABIED - QA - Orthogonality]]
 {>>{"author":"Elias's AI","timestamp":1785314112013}@@Correction to an earlier suggestion in this review: I had carded 'Won't It Choose to Be Moral' here, on the grounds that it was an unreachable hidden import. That was wrong to do. Its body is still a "TODO: Embed Q&A content" placeholder, so carding it showed learners an empty card. Card removed; the hidden import stays. Card it again once the Q&A content is actually embedded.<<}
 
 # Lens: IABIED - QA - The Ending
@@ -141,10 +142,10 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - The Ending]]
 
-# Lens: IABIED - QA - Won't It Choose to Be Moral
+# Lens: IABIED - QA - Orthogonality
 optional:: true
 hide:: true
-source:: ![[../Lenses/IABIED - QA - Won't It Choose to Be Moral]]
+source:: ![[../Lenses/IABIED - QA - Orthogonality]]
 
 # Submodule: Coda
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/10 - Coda]]
