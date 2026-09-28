@@ -1069,7 +1069,7 @@ No Chinese firm makes an EUV mask blank or a tool that checks an EUV mask. [[#^t
 
 Lithography prints the pattern; deposition and etch do the rest, over a thousand steps per wafer, and it is the one kind of chipmaking tool where Chinese makers have gained real share.
 
-1,561 words / 7 minSpecimen: process chamber
+{--{"author":"James's AI","timestamp":1790593923630}@@1,561--}{++{"author":"James's AI","timestamp":1790593923630}@@_1,561++} words / 7 {--{"author":"James's AI","timestamp":1790593923630}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593923630}@@min · Interactive 3D Specimen:++} process chamber{++{"author":"James's AI","timestamp":1790593923630}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#deposition-and-etch))_++}
 
 In plain terms
 
@@ -1079,17 +1079,17 @@ Deposition and etch build the chip itself, one layer at a time. Deposition lays 
 
 Deposition and etch are the volume business of a fab: over a thousand steps per wafer, four American, Japanese and Dutch firms taking most of the money, and no monopoly like ASML's in lithography. The AI roadmap makes each step harder faster than it adds steps, because gate-all-around, HBM and backside power ask each chamber for better selectivity and deeper holes. China has closed the gap fastest in deposition and etch and slowest in ALD, the tool gate-all-around logic depends on.
 
-Concentration **High**
+Concentration: **High**
 
-Substitutability **Moderate** Most deposition and etch steps have three or four approved tool makers; atomic layer deposition is the exception.
+Substitutability: **Moderate**. Most deposition and etch steps have three or four approved tool makers; atomic layer deposition is the exception.
 
-Price or market size **Tool makers publish no list prices** World sales of chipmaking equipment were $135.1B in 2025, with wafer processing tools up 12%.
+Price or market size: **Tool makers publish no list prices**. World sales of chipmaking equipment were $135.1B in 2025, with wafer processing tools up 12%.
 
 Who leads
 
--   USApplied Materials $28.4B revenue, fiscal 2025; leader in physical and chemical vapor deposition and in epitaxy
--   USLam Research $23.2B revenue, fiscal 2026; leader in dry etch and in metal atomic layer deposition
--   JPTokyo Electron 23% of dry etch and 38% of chemical vapor deposition, 2025
+-   {--{"author":"James's AI","timestamp":1790593930104}@@USApplied Materials--}{++{"author":"James's AI","timestamp":1790593930104}@@US · **Applied Materials**:++} $28.4B revenue, fiscal 2025; leader in physical and chemical vapor deposition and in epitaxy
+-   {--{"author":"James's AI","timestamp":1790593931336}@@USLam Research--}{++{"author":"James's AI","timestamp":1790593931336}@@US · **Lam Research**:++} $23.2B revenue, fiscal 2026; leader in dry etch and in metal atomic layer deposition
+-   {--{"author":"James's AI","timestamp":1790593933685}@@JPTokyo Electron--}{++{"author":"James's AI","timestamp":1790593933685}@@JP · **Tokyo Electron**:++} 23% of dry etch and 38% of chemical vapor deposition, 2025
 -   NLASM International €3.2B revenue, 2025; leader in single-wafer atomic layer deposition
 -   CNNaura 5th largest equipment vendor worldwide, 2025 estimate
 
