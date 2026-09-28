@@ -3210,11 +3210,11 @@ The stacked memory, about 45 percent of the cost to build.
 
 The logic chips that do the calculating are about 14 percent. [Reread: Memory is the largest line](#component-costs--memory-is-the-largest-line)
 
-Card 3 of 3Question
+{--{"author":"James's AI","timestamp":1790594280213}@@Card--}{++{"author":"James's AI","timestamp":1790594280213}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594280213}@@3Question--}{++{"author":"James's AI","timestamp":1790594280213}@@3 · Question**++}
 
 Why does packaging cost more than the logic chips?
 
-Card 3 of 3Answer
+{--{"author":"James's AI","timestamp":1790594281329}@@Card--}{++{"author":"James's AI","timestamp":1790594281329}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594281329}@@3Answer--}{++{"author":"James's AI","timestamp":1790594281329}@@3 · Answer**++}
 
 A package that fails after assembly throws away the chips and the memory inside it.
 
@@ -3226,7 +3226,7 @@ Packaging and its scrap come to about 33 percent of the cost. [Reread: Packaging
 -   The stacked memory is the most expensive part, about 45 percent of the cost.
 -   Packaging costs more than the logic chips, because a failed package throws away everything inside it.
 
-Sources (21)
+**Sources (21)**
 
 1.  A [NVIDIA's B200 costs around $6,400 to produce](https://epoch.ai/data-insights/b200-cost-breakdown) Epoch AI · 10 December 2025
 2.  A [NVIDIA Blackwell Architecture](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/) Nvidia · 18 December 2025
@@ -3254,7 +3254,7 @@ Sources (21)
 
 Every stage in this chain sits in someone's jurisdiction. Since 2018 the United States has been converting that fact into policy, and China has been building substitutes.
 
-In plain terms
+**In plain terms**
 
 An export control is a rule that makes a sale need the government's permission. The government names an item and a buyer, and from then on its own companies must hold a license before they ship that item to that buyer. The American government stretches the rule to cover goods made abroad with American technology. Few governments can use such a rule to much effect, because it works only when their own firms sell something the buyer cannot get elsewhere. The machines, software and chemicals that make an advanced chip come from a short list of firms in the United States, the Netherlands, Japan and South Korea. China can copy the simpler machines within a few years. It cannot yet copy the machine that prints the finest circuits, the chemistry that machine needs, or high-bandwidth memory, the stacked memory beside an AI chip.
 
@@ -3368,7 +3368,7 @@ Chinese tool vendors held 10 to 15 percent of their home market before 2022, too
 
 Substitution stalls at the leading edge. SMIC prints 7 nm-class logic on older deep-ultraviolet scanners, exposing each layer several times because it cannot buy an extreme-ultraviolet scanner, and Huawei shipped about 805,000 Ascend units in 2025 on that silicon. The binding constraint is memory. A stockpile of roughly 13 million memory stacks, most bought before the December 2024 rules took effect, supports about 1.6 million Ascend 910C packages; CXMT, China's own memory maker, should reach about 2 million stacks in 2026, enough for 250,000 to 300,000 more [46](https://newsletter.semianalysis.com/p/huawei-ascend-production-ramp).
 
-China's share of revenue at the four largest chip-tool makers, peak year and latest%
+**Chart:** China's share of revenue at the four largest chip-tool makers, peak year and latest (%)
 
 ASML, 2024 41% ASML, 2025 33% Applied Materials, FY2024 37% Applied Materials, FY2025 30% Lam Research, FY2024 42% Lam Research, FY2025 34% Tokyo Electron, Q4 FY2024 47% Tokyo Electron, Q4 FY2026 27%
 
@@ -3386,7 +3386,7 @@ Europe's first Chips Act produced no leading-edge fab, and the Chips Act 2.0 pro
 
 China spends more, and differently. The latest round of its National Integrated Circuit Industry Investment Fund, the Big Fund, reached $47 billion [54](https://www.rand.org/pubs/perspectives/PEA4012-1.html). CSIS puts cumulative state funding since 2014 at $150 billion, roughly triple the CHIPS authorization [8](https://www.csis.org/analysis/chinas-localization-drive-semiconductors-gains-impetus-allied-chip-export-controls). The money has produced a domestic tool industry and no leading-edge node.
 
-CHIPS Act direct funding awarded, by firm, as of July 2025$B
+**Chart:** CHIPS Act direct funding awarded, by firm, as of July 2025 ($B)
 
 Intel 7.9 Micron 6.4 TSMC 6.6 Samsung 4.7 Texas Instruments 1.6 GlobalFoundries 1.6 SK hynix 0.5 Amkor 0.4 GlobalWafers 0.4 Hemlock Semiconductor 0.3
 
@@ -3425,21 +3425,21 @@ The Gulf gains without making anything: named Emirati buyers take advanced compu
 -   **SMIC's advanced-node ramp.** 45,000 {++{"author":"James's AI","timestamp":1790593640316}@@wafers a month ++}at end-2025, an estimated 60,000 in 2026 and 80,000 in 2027, every one of them {++{"author":"James's AI","timestamp":1790593640316}@@multiply exposed ++}because SMIC has no extreme-ultraviolet machine [46](https://newsletter.semianalysis.com/p/huawei-ascend-production-ramp). {++{"author":"James's AI","timestamp":1790593640316}@@Yield ++}is the open question.
 -   **Taiwan's overseas-production ban against its $250 billion investment promise.** The two contradict each other, and one will be dropped.
 
-Card 1 of 5Question
+{--{"author":"James's AI","timestamp":1790594286783}@@Card--}{++{"author":"James's AI","timestamp":1790594286783}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594286783}@@5Question--}{++{"author":"James's AI","timestamp":1790594286783}@@5 · Question**++}
 
 When does an export control work?
 
-Card 1 of 5Answer
+{--{"author":"James's AI","timestamp":1790594287675}@@Card--}{++{"author":"James's AI","timestamp":1790594287675}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594287675}@@5Answer--}{++{"author":"James's AI","timestamp":1790594287675}@@5 · Answer**++}
 
 When a country's own firms sell something the buyer cannot get elsewhere.
 
 The machines, software and chemicals for advanced chips come from a few firms in the United States, the Netherlands, Japan and South Korea. [Reread: Chokepoints and who holds them](#geopolitics--chokepoints-and-who-holds-them)
 
-Card 2 of 5Question
+{--{"author":"James's AI","timestamp":1790594288776}@@Card--}{++{"author":"James's AI","timestamp":1790594288776}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594288776}@@5Question--}{++{"author":"James's AI","timestamp":1790594288776}@@5 · Question**++}
 
 How do US export controls reach goods made in other countries?
 
-Card 2 of 5Answer
+{--{"author":"James's AI","timestamp":1790594289780}@@Card--}{++{"author":"James's AI","timestamp":1790594289780}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594289780}@@5Answer--}{++{"author":"James's AI","timestamp":1790594289780}@@5 · Answer**++}
 
 They cover foreign goods made with American technology.
 
