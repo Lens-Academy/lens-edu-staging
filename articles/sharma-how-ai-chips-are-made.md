@@ -1900,25 +1900,25 @@ Who leads
 
 -   {--{"author":"James's AI","timestamp":1790594084879}@@KRSK hynix--}{++{"author":"James's AI","timestamp":1790594084879}@@KR · **SK hynix**:++} 63.2% of HBM revenue, 2025; first to complete HBM4, at over 10 Gbps per pin
 -   {--{"author":"James's AI","timestamp":1790594085547}@@KRSamsung--}{++{"author":"James's AI","timestamp":1790594085547}@@KR · **Samsung**:++} 19.3% of HBM revenue, 2025; Hwaseong and Pyeongtaek
--   USMicron 17.4% of HBM revenue, 2025; HBM4 above 11 Gbps per pin
+-   {--{"author":"James's AI","timestamp":1790594086244}@@USMicron--}{++{"author":"James's AI","timestamp":1790594086244}@@US · **Micron**:++} 17.4% of HBM revenue, 2025; HBM4 above 11 Gbps per pin
 
 Where it is made
 
--   KRSouth Korea SK hynix Cheongju and Icheon; Samsung Pyeongtaek and Hwaseong
--   USUnited States Micron headquarters and R&D; SK hynix packaging plant under construction in Indiana
--   TWTaiwan Micron DRAM and HBM packaging in Taichung; TSMC builds HBM4 logic base dies
--   JPJapan Micron Hiroshima, 1-gamma DRAM
--   SGSingapore Micron HBM advanced packaging
+-   {--{"author":"James's AI","timestamp":1790594087368}@@KRSouth Korea--}{++{"author":"James's AI","timestamp":1790594087368}@@KR · **South Korea**:++} SK hynix Cheongju and Icheon; Samsung Pyeongtaek and Hwaseong
+-   {--{"author":"James's AI","timestamp":1790594088103}@@USUnited States--}{++{"author":"James's AI","timestamp":1790594088103}@@US · **United States**:++} Micron headquarters and R&D; SK hynix packaging plant under construction in Indiana
+-   {--{"author":"James's AI","timestamp":1790594089014}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790594089014}@@TW · **Taiwan**:++} Micron DRAM and HBM packaging in Taichung; TSMC builds HBM4 logic base dies
+-   {--{"author":"James's AI","timestamp":1790594089909}@@JPJapan--}{++{"author":"James's AI","timestamp":1790594089909}@@JP · **Japan**:++} Micron Hiroshima, 1-gamma DRAM
+-   {--{"author":"James's AI","timestamp":1790594090683}@@SGSingapore--}{++{"author":"James's AI","timestamp":1790594090683}@@SG · **Singapore**:++} Micron HBM advanced packaging
 
 Why substitution is slow
 
 Among the three HBM makers, market share shifts as soon as a customer approves a new part: Micron went from 5.8 percent of HBM revenue in 2024 to 23.1 percent by the first quarter of 2026 without adding capacity. A fourth maker would be harder. It would need the newest DRAM, a line that drills through and thins wafers, and a way to stack the thinned chips without warping them, all inside one company. Its stack would then have to pass Nvidia's speed test. That takes five to ten years, and no Chinese firm ships HBM3E or HBM4 in volume yet.
 
-Where China stands
+**Where China stands**
 
 No Chinese firm ships HBM3E or HBM4 in volume. CXMT is the only Chinese firm that could plausibly get there, and the US export controls are written to prevent that.
 
-Where the US stands
+**Where the US stands**
 
 Micron is the only American HBM maker. BIS, the US export control office, requires a license for HBM faster than 2 GB/s per square millimeter of package or stack area, under control number ECCN 3A090.c, and every stack now in production is faster than that.
 
@@ -1953,7 +1953,7 @@ The standards body JEDEC published JESD270-4 in April 2025, setting the 2,048-bi
 
 The chip at the bottom of an HBM4 stack is now a logic chip, so it has to be made in a foundry, and SK hynix partnered with TSMC to build it [7](https://news.skhynix.com/sk-hynix-partners-with-tsmc-to-strengthen-hbm-technological-leadership/). That gives TSMC a role inside a product it does not make.
 
-Peak bandwidth per HBM stackGB/s
+{++{"author":"James's AI","timestamp":1790594093533}@@**Chart:** ++}Peak bandwidth per HBM {--{"author":"James's AI","timestamp":1790594093533}@@stackGB/s--}{++{"author":"James's AI","timestamp":1790594093533}@@stack (GB/s)++}
 
 HBM3E, 1,024-bit 1,200 HBM4, 2,048-bit 2,000 HBM4, advanced configurati 3,300
 
@@ -1975,7 +1975,7 @@ SK hynix built its lead by being first to pass Nvidia's qualification tests, and
 
 The split is on the record because SK hynix registered shares in the United States: of 2025 HBM revenue, SK hynix took 63.2 percent, Samsung 19.3 and Micron 17.4, which puts the two Korean suppliers at 82.5 percent of the world's HBM [11](https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm). The filing credits the research firm IDC. These shares move fast: in 2024 the same three stood at 56.4, 37.8 and 5.8, so Samsung halved and Micron tripled inside a year on qualification wins alone. By the first quarter of 2026 Micron was at 23.1 percent and Korea down to 76.9 [11](https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm).
 
-Global HBM revenue by supplier, 2025%
+**Chart:** Global HBM revenue by supplier, 2025 (%)
 
 SK hynix (KR) **63.2%** Samsung (KR) **19.3%** Micron (US) **17.4%**
 
