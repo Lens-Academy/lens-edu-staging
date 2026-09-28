@@ -27,7 +27,7 @@ What do you think of the argument that AI extinction risk is the default outcome
 #### Chat
 instructions::
 The user is answering this question:
-What do you think of the argument that AI extinction risk is the default outcome? Which parts of this argument seem strongest to you, and which seem weakest?
+What do you think of the argument that AI extinction risk is the default outcome? {--{"author":"Plex's AI","timestamp":1790611064332}@@Which parts of this argument seem strongest to you, and which seem weakest?--}{++{"author":"Plex's AI","timestamp":1790611064332}@@What further questions come up?++}
 
 Context:
 - This is a philosophical discussion about AI alignment and meta-level reasoning.
