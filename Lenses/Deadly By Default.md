@@ -17,6 +17,8 @@ The question this text addresses is: if we cannot confidently predict--}{++{"aut
 
 #### Article
 source:: [[../articles/Duncan, Deadly By Default]]
+from:: "There is a lot of material out there"
+to:: "ever created or accomplished."
 
 #### Text
 content::
