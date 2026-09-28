@@ -174,7 +174,8 @@ options::
 
 #### Question: Rating
 id:: ece0bd02-7297-4170-af6e-09a6fa2755bd
-content:: How strongly do you intend to move into AI safety full-time in the next 3 to 12 months? Select 10 if you already work in it full-time or are in a paid fellowship.
+content:: How strongly do you intend to move into AI safety full-time in the next 3 to 12 months?
+description:: Select 10 if you already work in it full-time or are in a paid fellowship.
 scale:: 10
 labels::
 - No intention
@@ -193,7 +194,7 @@ id:: b414af48-f153-4954-80db-3e897022ecb5
 content:: Would you like to leave a short note for people considering this course or Lens? We may share it on our website.
 optional:: true
 max-chars:: 1000
-placeholder:: The most helpful notes are specific: your main worry before joining and how it played out, something you're now doing because of Lens, or one thing you particularly valued.
+description:: The most helpful notes are specific: your main worry before joining and how it played out, something you're now doing because of Lens, or one thing you particularly valued.
 
 #### Question: Choice
 id:: 7c81bcfd-2bdc-4485-8480-8ad5ce2ce57c
@@ -217,7 +218,8 @@ options::
 
 #### Question: Open
 id:: 0be11439-b7a0-4185-a606-70965747905c
-content:: Is there someone exceptional whom you would refer to this course? Share their name, why they are a good fit, and add their contact details like email or Linked-In.
+content:: Is there someone exceptional whom you would refer to this course?
+description:: Share their name, why they are a good fit, and add their contact details like email or Linked-In.
 optional:: true
 max-chars:: 1000
 
