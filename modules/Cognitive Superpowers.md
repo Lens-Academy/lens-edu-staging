@@ -39,9 +39,13 @@ source:: ![[../Lenses/Speed advantage with slow motion videos]]
 source:: [[../Lenses/AI manipulation - mind hacked|AI manipulation - mind hacked]]
 
 # Lens:
-source:: [[../Lenses/Credible Threats|Credible Threats]]
+source:: {--{"author":"Plex's AI","timestamp":1790609398850}@@[[../Lenses/Credible Threats|Credible Threats]]
 
 # Lens:
-source:: [[../Lenses/More advantages for digital agents|More advantages for digital agents]]
+source:: --}[[../Lenses/More advantages for digital agents|More advantages for digital agents]]{++{"author":"Plex's AI","timestamp":1790609398850}@@
+
+# Lens:
+optional:: true
+source:: [[../Lenses/Credible Threats|Credible Threats]]++}
 
 
