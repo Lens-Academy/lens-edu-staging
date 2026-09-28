@@ -469,7 +469,7 @@ A few hundred chemicals separate a blank wafer from a working chip. Japan makes 
 
 {--{"author":"James's AI","timestamp":1790593811954}@@1,467--}{++{"author":"James's AI","timestamp":1790593811954}@@_1,467++} words / 6 {--{"author":"James's AI","timestamp":1790593811954}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593811954}@@min · Interactive 3D Specimen:++} gas cabinet{++{"author":"James's AI","timestamp":1790593811954}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#chemicals-gases-and-photoresist))_++}
 
-In plain terms
+**In plain terms**
 
 Photoresist is a coating that changes wherever light hits it. A machine spins a coat of it, thinner than a soap bubble, across the wafer. Light shines through a stencil onto the coat, and a liquid wash then takes away the parts the light reached. What remains is a pattern, and the next machine cuts that pattern into the wafer beneath, a step called etching. A few hundred other gases and liquids lay down layers, strip them off and clean the wafer between steps. All of them have to be clean to about one stray metal atom in every trillion. Each formula is approved for one factory and one product at a time, and a new supplier has to earn that approval from scratch, so a second source takes years. Nine tenths of the world's photoresist comes from Japan, and no factory can swap it out quickly.
 
@@ -483,7 +483,7 @@ Substitutability: **Moderate**. Rated on photoresist, the hardest input in this 
 
 Price or market size: **Wafer fabrication materials were a $45.8bn market in 2025 and packaging materials $27.4bn, $73.2bn in total**
 
-Who leads
+**Who leads**
 
 -   {--{"author":"James's AI","timestamp":1790593820349}@@JPJSR--}{++{"author":"James's AI","timestamp":1790593820349}@@JP · **JSR**:++} Owner of Inpria's metal-oxide resist for extreme-ultraviolet printing; 84% held by Japan Investment Corporation, a state-backed fund, since April 2024
 -   {--{"author":"James's AI","timestamp":1790593821826}@@JPTokyo--}{++{"author":"James's AI","timestamp":1790593821826}@@JP · **Tokyo++} Ohka {--{"author":"James's AI","timestamp":1790593821826}@@Kogyo--}{++{"author":"James's AI","timestamp":1790593821826}@@Kogyo**:++} Top-five resist maker; ¥139.7bn of sales in the first half of fiscal 2026
@@ -491,7 +491,7 @@ Who leads
 -   {--{"author":"James's AI","timestamp":1790593824790}@@USEntegris--}{++{"author":"James's AI","timestamp":1790593824790}@@US · **Entegris**:++} $3.20bn of 2025 revenue in filters, polishing slurries, gas delivery and wafer carriers
 -   {--{"author":"James's AI","timestamp":1790593825863}@@JPJX--}{++{"author":"James's AI","timestamp":1790593825863}@@JP · **JX++} Advanced {--{"author":"James's AI","timestamp":1790593825863}@@Metals--}{++{"author":"James's AI","timestamp":1790593825863}@@Metals**:++} About 65% of sputtering targets, the metal plates that chip wiring is made from
 
-Where it is made
+**Where it is made**
 
 -   {--{"author":"James's AI","timestamp":1790593827968}@@JPJapan--}{++{"author":"James's AI","timestamp":1790593827968}@@JP · **Japan**:++} Photoresist, ultra-pure hydrofluoric acid, sputtering targets, polishing slurries
 -   {--{"author":"James's AI","timestamp":1790593829366}@@USUnited States--}{++{"author":"James's AI","timestamp":1790593829366}@@US · **United States**:++} Entegris filters and wafer carriers, DuPont polishing slurries, Air Products gases
@@ -653,7 +653,7 @@ The most concentrated stage in the chain. One firm in the Netherlands builds eve
 
 {--{"author":"James's AI","timestamp":1790593852291}@@1,564--}{++{"author":"James's AI","timestamp":1790593852291}@@_1,564++} words / 7 {--{"author":"James's AI","timestamp":1790593852291}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593852291}@@min · Interactive 3D Specimen:++} EUV scanner{++{"author":"James's AI","timestamp":1790593852291}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#lithography))_++}
 
-In plain terms
+**In plain terms**
 
 Lithography prints the pattern of a circuit onto the wafer. A machine holds a stencil of one layer of the circuit up to a lamp and projects the image, four times smaller, onto the silicon. Light cannot draw a line much finer than its own wave, so the finer the lines, the shorter the wavelength of light needed to print them. Air soaks up the shortest light now in use, so the machine has to print in a vacuum. Only one company has ever built a machine that prints with it, and it is Dutch. Export controls are government rules on who a company may sell to. Every advanced chip passes through that firm's machines, so a rule aimed at it reaches all advanced chipmaking.
 
@@ -667,20 +667,20 @@ Substitutability: **Very hard**. ASML is the only maker of EUV scanners, only Ze
 
 Price or market size: **About $200M**. for a standard EUV scanner, $350-400M for the newer High-NA version and about $60M for a DUV tool, according to Reuters. ASML does not publish per-system prices
 
-Who leads
+**Who leads**
 
 -   {--{"author":"James's AI","timestamp":1790593860946}@@NLASML--}{++{"author":"James's AI","timestamp":1790593860946}@@NL · **ASML**:++} 100% of EUV (extreme ultraviolet) and above 80% of DUV (deep ultraviolet); EUV was 48% of its own 2025 system revenue and immersion DUV 42%
 -   {--{"author":"James's AI","timestamp":1790593862376}@@JPNikon--}{++{"author":"James's AI","timestamp":1790593862376}@@JP · **Nikon**:++} 22 new chipmaking scanners in the year to March 2026, in a market Nikon estimates at 570 units
 -   {--{"author":"James's AI","timestamp":1790593864608}@@JPCanon--}{++{"author":"James's AI","timestamp":1790593864608}@@JP · **Canon**:++} i-line and krypton fluoride steppers for older, coarser layers, plus the only commercial nanoimprint tool
 
-Where it is made
+**Where it is made**
 
 -   {--{"author":"James's AI","timestamp":1790593866551}@@NLNetherlands--}{++{"author":"James's AI","timestamp":1790593866551}@@NL · **Netherlands**:++} ASML design and final assembly, Veldhoven
 -   {--{"author":"James's AI","timestamp":1790593867307}@@DEGermany--}{++{"author":"James's AI","timestamp":1790593867307}@@DE · **Germany**:++} Zeiss SMT optics, Oberkochen; Trumpf carbon dioxide lasers that drive the light source, Ditzingen
 -   {--{"author":"James's AI","timestamp":1790593868654}@@USUnited States--}{++{"author":"James's AI","timestamp":1790593868654}@@US · **United States**:++} ASML light-source research and manufacturing, San Diego
 -   {--{"author":"James's AI","timestamp":1790593869679}@@JPJapan--}{++{"author":"James's AI","timestamp":1790593869679}@@JP · **Japan**:++} Nikon and Canon deep ultraviolet scanners and steppers
 
-Why substitution is slow
+**Why substitution is slow**
 
 Nobody else has ever built an EUV scanner. A newcomer would first have to make mirrors a meter wide, polished smooth to within tens of picometers, a picometer being a trillionth of a meter. It would also need a light source that hits tin droplets with a laser 50,000 times a second. The best-funded attempt so far, in China, has made extreme-ultraviolet light but has printed no chip. CSIS judges that China cannot yet build a working EUV scanner, and no announced program would change that before 2030.
 
@@ -885,7 +885,7 @@ Every leading-edge chip depends on a business worth tens of billions of yen. Two
 
 {--{"author":"James's AI","timestamp":1790593888732}@@1,421--}{++{"author":"James's AI","timestamp":1790593888732}@@_1,421++} words / 6 {--{"author":"James's AI","timestamp":1790593888732}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593888732}@@min · Interactive 3D Specimen:++} photomask{++{"author":"James's AI","timestamp":1790593888732}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#photomasks-and-pellicles))_++}
 
-In plain terms
+**In plain terms**
 
 A photomask is the stencil that lithography prints from, one for each layer of a chip. The same plate prints its layer on wafer after wafer, so one plate shapes millions of chips. No glass lets the short light now in use pass through, so instead of a window the plate is a mirror, built up from about forty pairs of very thin layers, and the light bounces off it. A dark pattern drawn on top of the mirror soaks up the light wherever no line should print. Any speck of dust on the plate repeats on every wafer it prints. Two Japanese firms make almost all of those mirrors. A business almost nobody has heard of can hold up every advanced chip in the world.
 
@@ -899,7 +899,7 @@ Substitutability: **Hard**. Only three firms make the blank plates for EUV masks
 
 Price or market size: **A mask set for the newest chips costs roughly $10M to $40M, depending on the node and on who is estimating**
 
-Who leads
+**Who leads**
 
 -   {--{"author":"James's AI","timestamp":1790593894437}@@JPAGC--}{++{"author":"James's AI","timestamp":1790593894437}@@JP · **AGC**:++} Ranks itself No.1 worldwide in EUV mask blanks and counts three suppliers in all; targeted over ¥40bn of blank sales by 2025
 -   {--{"author":"James's AI","timestamp":1790593895179}@@JPHoya--}{++{"author":"James's AI","timestamp":1790593895179}@@JP · **Hoya**:++} Says its share of mask blanks is exceptionally high, and expects to keep its lead as customers add a second supplier
@@ -907,7 +907,7 @@ Who leads
 -   {--{"author":"James's AI","timestamp":1790593897493}@@ATIMS Nanofabrication--}{++{"author":"James's AI","timestamp":1790593897493}@@AT · **IMS Nanofabrication**:++} Intel calls it the established industry leader in multi-beam mask writers, the machines that draw the pattern onto the mask
 -   {--{"author":"James's AI","timestamp":1790593898767}@@USPhotronics--}{++{"author":"James's AI","timestamp":1790593898767}@@US · **Photronics**:++} Largest mask maker selling to outside customers; $849.3M revenue in fiscal 2025
 
-Where it is made
+**Where it is made**
 
 -   {--{"author":"James's AI","timestamp":1790593901111}@@JPJapan--}{++{"author":"James's AI","timestamp":1790593901111}@@JP · **Japan**:++} Mask blanks (AGC, Hoya), DUV blanks (Shin-Etsu), inspection (Lasertec), writers (NuFlare), pellicles (Mitsui Chemicals)
 -   {--{"author":"James's AI","timestamp":1790593902439}@@ATAustria--}{++{"author":"James's AI","timestamp":1790593902439}@@AT · **Austria**:++} IMS Nanofabrication multi-beam mask writers, Vienna
@@ -915,7 +915,7 @@ Where it is made
 -   {--{"author":"James's AI","timestamp":1790593904910}@@USUnited States--}{++{"author":"James's AI","timestamp":1790593904910}@@US · **United States**:++} Photronics merchant mask shops, KLA inspection
 -   {--{"author":"James's AI","timestamp":1790593906448}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790593906448}@@TW · **Taiwan**:++} TSMC's in-house mask shop, and a 10% stake in IMS
 
-Why substitution is slow
+**Why substitution is slow**
 
 An EUV mask starts as a blank plate coated with forty layers. AGC and Hoya took two decades to learn how to make one. Three firms have now done it and the structure of the plate is published, so a newcomer knows what to build. Reaching a plate that fabs accept would take five to ten years. The harder part is inspection, because Lasertec sells the only tool that checks a mask in the same EUV light the scanner uses. Other tool makers stayed out of EUV mask inspection because the market was too small to be worth the cost, and a large budget removes that barrier.
 
@@ -1071,7 +1071,7 @@ Lithography prints the pattern; deposition and etch do the rest, over a thousand
 
 {--{"author":"James's AI","timestamp":1790593923630}@@1,561--}{++{"author":"James's AI","timestamp":1790593923630}@@_1,561++} words / 7 {--{"author":"James's AI","timestamp":1790593923630}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593923630}@@min · Interactive 3D Specimen:++} process chamber{++{"author":"James's AI","timestamp":1790593923630}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#deposition-and-etch))_++}
 
-In plain terms
+**In plain terms**
 
 Deposition and etch build the chip itself, one layer at a time. Deposition lays down a film a few atoms thick. Lithography prints a pattern on it. Etch then eats away everything the pattern does not protect, and the next film goes down on top. A chip takes more than a thousand of these rounds. Some of the holes the etch cuts are hundreds of times deeper than they are wide, the shape of a finger-wide shaft dropping through several floors, and the film has to coat them right to the bottom. The etch has to eat one material and leave the one beside it untouched. Four firms in America, Japan and the Netherlands make most of these machines, and China has come closer to matching them here than anywhere else.
 
