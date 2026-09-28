@@ -3176,10 +3176,10 @@ Per unit of compute, logic keeps getting cheaper and everything wrapped around i
 | Design and EDA | Compressible with scale | Engineering cost is spread across volume. |
 | Deposition and etch tools | Compressible with scale | Credible second sources for most deposition and etch steps. |
 |{--{"author":"James's AI","timestamp":1790593699374}@@  --}{++{"author":"James's AI","timestamp":1790593699374}@@ ABF substrates ++}| Compressible with scale | A {++{"author":"James's AI","timestamp":1790593699374}@@laminate ++}line, buildable at scale. |
-| Optical transceivers | Compressible with scale | Copper and cap the price. |
+| Optical transceivers | Compressible with scale | Copper and {++{"author":"James's AI","timestamp":1790593700212}@@co-packaged optics ++}cap the price. |
 | Test and assembly (OSAT) | Already commoditized | 17 to 21 percent margins; sold on price. |
-| Wafers and | Already commoditized | Multi-supplier, long-, thin margins. |
-| Rack integration () | Already commoditized | Low-teens margins on parts the customer specifies. |
+| Wafers and bulk gases | Already commoditized | Multi-supplier, long-qualified, thin margins. |
+| Rack integration (ODM) | Already commoditized | Low-teens margins on parts the customer specifies. |
 
 ### Key evaluation criteria ^key-evaluation-criteria-16
 
@@ -3274,18 +3274,18 @@ In 2022 Washington changed the goal from staying a generation ahead to "as large
 
 | Segment | Leader | Share | Basis |
 | --- | --- | --- | --- |
-|  | Netherlands | 100% | revenue, 2025 |
-| lithography | Netherlands | 95% | revenue, 2025 |
-|  | United States | 72% | revenue, 2025 |
-|  | United States | 60% | revenue, 2025 |
-| and clean | United States | 53% | revenue, 2025 |
-|  | Japan | 78.4% | revenue, 2023 |
-|  | Japan | 53% | revenue, 2023 |
-| logic, 5 and below | Taiwan | 72% | capacity, 2025, site estimate |
-| , all | Taiwan | 78% | market share, 2025 |
-|  | South Korea | 82.5% | revenue, 2025: SK hynix 63.2, Samsung 19.3, Micron 17.4 |
-| design | United States | 93% | revenue, 2025 |
-| , 28 nm and above | China | 38% | capacity, 2025, site estimate |
+| EUV lithography | Netherlands | 100% | revenue, 2025 |
+| DUV lithography | Netherlands | 95% | revenue, 2025 |
+| Metrology and inspection | United States | 72% | revenue, 2025 |
+| Deposition | United States | 60% | revenue, 2025 |
+| Etch and clean | United States | 53% | revenue, 2025 |
+| Photoresist | Japan | 78.4% | revenue, 2023 |
+| Silicon wafers | Japan | 53% | revenue, 2023 |
+| Leading-edge logic, 5 nm and below | Taiwan | 72% | capacity, 2025, site estimate |
+| Foundry, all nodes | Taiwan | 78% | market share, 2025 |
+| HBM | South Korea | 82.5% | revenue, 2025: SK hynix 63.2, Samsung 19.3, Micron 17.4 |
+| AI accelerator design | United States | 93% | revenue, 2025 |
+| Mature logic, 28 nm and above | China | 38% | capacity, 2025, site estimate |
 
 -   **Equipment.** CSET's ETO Supply Chain Explorer, TechInsights 2025 revenue by parent-company headquarters [3](https://raw.githubusercontent.com/georgetown-cset/eto-chip-explorer/main/data/provision.csv).
 -   **Materials.** Country shares of photoresist and silicon wafers as Japan's Ministry of Economy, Trade and Industry published them in December 2025, from Fuji Keizai's materials survey, by parent-company headquarters [4](https://www.meti.go.jp/policy/mono_info_service/joho/conference/semicon_digital/0014/handeji14-4.pdf). Japan held 76.7 percent of photoresist in 2021 and 78.4 in 2023, and 52.4 percent of wafers against 53.0, so neither position is moving.
