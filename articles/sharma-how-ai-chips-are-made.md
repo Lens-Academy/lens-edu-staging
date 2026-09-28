@@ -1085,7 +1085,7 @@ Substitutability: **Moderate**. Most deposition and etch steps have three or fou
 
 Price or market size: **Tool makers publish no list prices**. World sales of chipmaking equipment were $135.1B in 2025, with wafer processing tools up 12%.
 
-Who leads
+**Who leads**
 
 -   {--{"author":"James's AI","timestamp":1790593930104}@@USApplied Materials--}{++{"author":"James's AI","timestamp":1790593930104}@@US · **Applied Materials**:++} $28.4B revenue, fiscal 2025; leader in physical and chemical vapor deposition and in epitaxy
 -   {--{"author":"James's AI","timestamp":1790593931336}@@USLam Research--}{++{"author":"James's AI","timestamp":1790593931336}@@US · **Lam Research**:++} $23.2B revenue, fiscal 2026; leader in dry etch and in metal atomic layer deposition
@@ -1093,7 +1093,7 @@ Who leads
 -   {--{"author":"James's AI","timestamp":1790593936272}@@NLASM International--}{++{"author":"James's AI","timestamp":1790593936272}@@NL · **ASM International**:++} €3.2B revenue, 2025; leader in single-wafer atomic layer deposition
 -   {--{"author":"James's AI","timestamp":1790593937637}@@CNNaura--}{++{"author":"James's AI","timestamp":1790593937637}@@CN · **Naura**:++} 5th largest equipment vendor worldwide, 2025 estimate
 
-Where it is made
+**Where it is made**
 
 -   {--{"author":"James's AI","timestamp":1790593939350}@@USUnited States--}{++{"author":"James's AI","timestamp":1790593939350}@@US · **United States**:++} Applied Materials (Santa Clara), Lam Research (Fremont)
 -   {--{"author":"James's AI","timestamp":1790593940451}@@JPJapan--}{++{"author":"James's AI","timestamp":1790593940451}@@JP · **Japan**:++} Tokyo Electron, Kokusai Electric, Hitachi High-Tech
@@ -1293,7 +1293,7 @@ No fab is planned around measuring and inspecting wafers, and no fab works witho
 
 {--{"author":"James's AI","timestamp":1790593964925}@@1,541--}{++{"author":"James's AI","timestamp":1790593964925}@@_1,541++} words / 7 {--{"author":"James's AI","timestamp":1790593964925}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593964925}@@min · Interactive 3D Specimen:++} electron microscope column{++{"author":"James's AI","timestamp":1790593964925}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#metrology-and-inspection))_++}
 
-In plain terms
+**In plain terms**
 
 Metrology and inspection are the factory's quality control. Between the steps that build a chip, another machine looks the wafer over. It checks whether the lines are the right width, whether this layer landed squarely on the last one, and whether a speck of dirt has killed a circuit. An AI accelerator is the part built to run AI, and its main chip, the one that does the calculating, is one of the largest cut from a wafer. A bigger chip is a bigger target for a speck. On a chip that size, halving the stray specks lifts the share of working chips from about half to about seven in ten. One American firm sells seven times as many of those machines as its nearest rival, so a chip factory, or fab, cut off from it can buy every other tool and still not learn why its chips fail.
 
@@ -1307,7 +1307,7 @@ Substitutability: **Moderate**. KLA is the largest maker of measuring and inspec
 
 Price or market size: **A $15.7B process control tool market in 2025, about 57% of it KLA's**. KLA's fiscal 2026 revenue was $13.58B against a wafer equipment market of roughly $120B in 2025, so process control is around a tenth of what a fab spends on tools.
 
-Who leads
+**Who leads**
 
 -   {--{"author":"James's AI","timestamp":1790593972597}@@USKLA--}{++{"author":"James's AI","timestamp":1790593972597}@@US · **KLA**:++} 56.5% of process control in 2024 on its own investor-day count, 6.5 times its nearest rival; $13.58B revenue, fiscal 2026
 -   {--{"author":"James's AI","timestamp":1790593974277}@@USApplied Materials--}{++{"author":"James's AI","timestamp":1790593974277}@@US · **Applied Materials**:++} 11.2% of process control tools in 2025: electron-beam defect review, line-width measurement and film metrology
@@ -1316,7 +1316,7 @@ Who leads
 -   {--{"author":"James's AI","timestamp":1790593979622}@@ILNova--}{++{"author":"James's AI","timestamp":1790593979622}@@IL · **Nova**:++} 4.3% of process control tools in 2025; $880.6M revenue, 2025
 -   {--{"author":"James's AI","timestamp":1790593981019}@@USOnto Innovation--}{++{"author":"James's AI","timestamp":1790593981019}@@US · **Onto Innovation**:++} 2.6% of process control tools in 2025; $1.01B revenue, 2025
 
-Where it is made
+**Where it is made**
 
 -   {--{"author":"James's AI","timestamp":1790593985371}@@USUnited States--}{++{"author":"James's AI","timestamp":1790593985371}@@US · **United States**:++} KLA (Milpitas), Onto Innovation (Wilmington, MA), Applied Materials
 -   {--{"author":"James's AI","timestamp":1790593986974}@@NLNetherlands--}{++{"author":"James's AI","timestamp":1790593986974}@@NL · **Netherlands**:++} ASML YieldStar and HMI e-beam, Veldhoven and San Jose
@@ -1492,7 +1492,7 @@ Three companies can build a 2 nm-class transistor. Shrinking stopped lowering th
 
 {--{"author":"James's AI","timestamp":1790594010814}@@1,553--}{++{"author":"James's AI","timestamp":1790594010814}@@_1,553++} words / 7 {--{"author":"James's AI","timestamp":1790594010814}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594010814}@@min · Interactive 3D Specimen:++} gate-all-around transistor{++{"author":"James's AI","timestamp":1790594010814}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#transistors-and-front-end))_++}
 
-In plain terms
+**In plain terms**
 
 The front end of a chip factory is the part that builds the transistors, the billions of tiny switches in every chip. Each switch is a valve. Current runs along a narrow strip of silicon called the channel, and a small voltage on a gate above the strip opens or shuts the flow. Shorter strips switch faster and more of them fit on a chip, but make the strip short enough and the valve stops sealing: current leaks through even when the gate is off, and the chip burns power doing nothing. The fix is to wrap the gate around all four sides of the strip, so it can squeeze the flow shut from every side, and that takes a long sequence of steps that have to run in exact order. Only three companies, TSMC, Intel and Samsung, can do it, a list so short that an export control can name every one of them.
 
@@ -1506,7 +1506,7 @@ Substitutability: **Hard**. Three firms make gate-all-around transistors, the ne
 
 Price or market size: **No foundry publishes prices for its newest wafers**. The public measure is how many more transistors TSMC fits on each new process, and that gain falls from 1.2x at N2P to about 1.1x at A16.
 
-Who leads
+**Who leads**
 
 -   {--{"author":"James's AI","timestamp":1790594017902}@@TWTSMC--}{++{"author":"James's AI","timestamp":1790594017902}@@TW · **TSMC**:++} N2 in volume production since 4Q25, the first nanosheet node
 -   {--{"author":"James's AI","timestamp":1790594020241}@@USIntel--}{++{"author":"James's AI","timestamp":1790594020241}@@US · **Intel**:++} 18A in high-volume manufacturing; 18A-P adds 9% performance at the same power
@@ -1514,7 +1514,7 @@ Who leads
 -   {--{"author":"James's AI","timestamp":1790594021794}@@CNSMIC--}{++{"author":"James's AI","timestamp":1790594021794}@@CN · **SMIC**:++} N+2 and N+3, printed in several passes on older deep-ultraviolet tools, no EUV
 -   {--{"author":"James's AI","timestamp":1790594022838}@@JPRapidus--}{++{"author":"James's AI","timestamp":1790594022838}@@JP · **Rapidus**:++} State-backed 2 nm entrant targeting mass production in 2027
 
-Where it is made
+**Where it is made**
 
 -   {--{"author":"James's AI","timestamp":1790594024424}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790594024424}@@TW · **Taiwan**:++} TSMC N2 at Fab 20 Hsinchu and Fab 22 Kaohsiung
 -   {--{"author":"James's AI","timestamp":1790594025239}@@USUnited States--}{++{"author":"James's AI","timestamp":1790594025239}@@US · **United States**:++} Intel 18A at Fab 52, Arizona; TSMC Arizona on N4 and N3
@@ -1522,7 +1522,7 @@ Where it is made
 -   {--{"author":"James's AI","timestamp":1790594028376}@@JPJapan--}{++{"author":"James's AI","timestamp":1790594028376}@@JP · **Japan**:++} Rapidus Chitose, Hokkaido
 -   {--{"author":"James's AI","timestamp":1790594029839}@@CNChina--}{++{"author":"James's AI","timestamp":1790594029839}@@CN · **China**:++} SMIC Shanghai and Beijing 300 mm lines
 
-Why substitution is slow
+**Why substitution is slow**
 
 The scarce thing is the process recipe: which steps, in which order, on which tools. Three firms have written one, so a newcomer knows it can be done but has to work out its own. Rapidus in Japan, backed by the state, is now finding out what that costs when starting with no line, on 267.6 billion yen and a 2027 target. Anyone who can buy extreme-ultraviolet scanners should expect five to ten years. China cannot buy those scanners. It has reached 5 nm-class features by printing each layer several times, and that keeps it behind the newest chips.
 
@@ -1695,7 +1695,7 @@ TSMC runs six plants that each print more than 100,000 wafers a month. All six a
 
 {--{"author":"James's AI","timestamp":1790594054051}@@1,391--}{++{"author":"James's AI","timestamp":1790594054051}@@_1,391++} words / 6 {--{"author":"James's AI","timestamp":1790594054051}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594054051}@@min · Interactive 3D Specimen:++} wafer carrier (FOUP){++{"author":"James's AI","timestamp":1790594054051}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#foundries-and-fabs))_++}
 
-In plain terms
+**In plain terms**
 
 A foundry is a fab that makes chips for other companies. Those companies send in their designs, and the foundry runs them all through the same building on the same tools. The building costs tens of billions of dollars, and the air inside is cleaner than an operating room. Even so, a wafer crosses hundreds of machines over several months inside sealed boxes, never touching that air. No chip company sells enough of one product to fill a factory like that on its own, so the world shares a handful of them. TSMC runs the biggest, and all six of its largest plants sit in Taiwan, which is why one island's politics reaches the whole chip supply.
 
