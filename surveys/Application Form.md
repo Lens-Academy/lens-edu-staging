@@ -185,6 +185,30 @@ labels::
 - Already working full-time or in a paid fellowship
 required:: true
 
+#### Choice
+key:: ais_work_status
+content:: Which best describes your AI safety work right now? If several apply, pick the highest on the list.
+options::
+- Paid full-time job in AI safety
+- Paid full-time AI safety fellowship or funded research
+- Paid part-time AI safety work (job, contract, fellowship or grant)
+- A selective unpaid programme (for example SPAR or AI Safety Camp)
+- Unpaid contributions (for example volunteering, advocacy or a local group)
+- Applying to AI safety roles or programmes
+- Exploring AI safety, not applying yet
+required:: true
+
+#### Choice
+key:: ais_connections
+content:: How many people working in AI safety could you ask for advice or a referral?
+options::
+- None
+- 1–2
+- 3–5
+- 6–10
+- More than 10
+required:: true
+
 #### Text
 content:: ### Concluding
 
