@@ -692,7 +692,7 @@ A much wider range of people in government, media, the military, and business ca
 :::callout {title="Superpersuasion" collapse="closed"}
 We’re intentionally not claiming that superintelligent AI can convince any human of anything. Such claims naturally engender skepticism: “What, I’m going to be sitting at a computer terminal, and it’s going to type some text which hacks my brain and convinces me to betray my country?”
 
-Well, [maybe](https://www.yudkowsky.net/singularity/aibox)![13](https://ai-2027.com/footnotes#footnote-race-13)
+Well, [maybe](https://www.yudkowsky.net/singularity/aibox)! [13](https://ai-2027.com/footnotes#footnote-race-13)
 
 But we aren’t sure even a superintelligence could achieve that against a typical individual. So we don’t depict it happening in our story.
 

@@ -127,7 +127,7 @@ description:: Say exactly what you were responsible for. Prioritise being concis
 max-chars:: 2000
 required:: true
 
-#### {--{"author":"Mark's AI","timestamp":1789929367817}@@Question--}{++{"author":"Mark's AI","timestamp":1789929367817}@@Choice++}
+#### Choice
 key:: ai_safety_programs
 content:: Which courses, programs, or fellowships in AI safety have you done, or are doing?{++{"author":"Mark's AI","timestamp":1789929367817}@@ Pick all that apply.
 multi:: true
