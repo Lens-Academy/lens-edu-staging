@@ -73,7 +73,7 @@ The cheapest stage in the chain to fund and one of the most concentrated. Three 
 
 {--{"author":"James's AI","timestamp":1790593752529}@@1,683--}{++{"author":"James's AI","timestamp":1790593752529}@@_1,683++} words / 7 {--{"author":"James's AI","timestamp":1790593752529}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593752529}@@min · Interactive 3D Specimen:++} die floorplan{++{"author":"James's AI","timestamp":1790593752529}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#design-and-eda))_++}
 
-In plain terms
+**In plain terms**
 
 Chip design turns an idea for a new chip into a complete blueprint. A chip holds billions of transistors, tiny electrical switches, and the blueprint fixes where each one sits and how it is wired to the others. The chip works in ticks, and a signal has to cross those wires within one tick, less than a billionth of a second. Software from three companies, Synopsys, Cadence and Siemens, lays out a plan like that, checks it and signs it off, and a chip factory accepts only designs that have passed those tools. The factory prints each layer of the design onto silicon through a stencil, and changing the plan after that costs a fresh set of stencils and several months. Withhold the software and no new chip can be designed.
 
@@ -87,15 +87,15 @@ Substitutability: **Hard**. Only three complete sets of chip design software exi
 
 Price or market size: **A 3 nm photomask set costs about $40M, and startups have designed and made a 7 nm chip for $50-75M**
 
-Who leads
+**Who leads**
 
 -   {--{"author":"James's AI","timestamp":1790593756681}@@USSynopsys--}{++{"author":"James's AI","timestamp":1790593756681}@@US · **Synopsys**:++} $7.05B revenue in the fiscal year ended 31 October 2025, Ansys included from July; 90%+ of the timing-signoff market
 -   {--{"author":"James's AI","timestamp":1790593757544}@@USCadence--}{++{"author":"James's AI","timestamp":1790593757544}@@US · **Cadence**:++} $5.30B revenue in calendar 2025; 55-60% of the hardware emulator market
 -   {--{"author":"James's AI","timestamp":1790593758261}@@DESiemens EDA--}{++{"author":"James's AI","timestamp":1790593758261}@@DE · **Siemens EDA**:++} $2.2-2.5B revenue in 2025; 85%+ of physical verification, the final layout check
 -   {--{"author":"James's AI","timestamp":1790593759094}@@GBArm--}{++{"author":"James's AI","timestamp":1790593759094}@@GB · **Arm**:++} About 50% of processor compute at the top cloud firms, fiscal 2026
--   {--{"author":"James's AI","timestamp":1790594354908}@@USBroadcom--}{++{"author":"James's AI","timestamp":1790594354908}@@USBroadcom++} $16.7B of AI chip revenue in the third quarter of fiscal 2026
+-   {--{"author":"James's AI","timestamp":1790594394312}@@USBroadcom--}{++{"author":"James's AI","timestamp":1790594394312}@@US · **Broadcom**:++} $16.7B of AI chip revenue in the third quarter of fiscal 2026
 
-Where it is made
+**Where it is made**
 
 -   {--{"author":"James's AI","timestamp":1790593760979}@@USUnited States--}{++{"author":"James's AI","timestamp":1790593760979}@@US · **United States**:++} Synopsys, Cadence, Broadcom, Marvell, Nvidia, AMD; Siemens EDA's main sites
 -   {--{"author":"James's AI","timestamp":1790593761630}@@GBUnited Kingdom--}{++{"author":"James's AI","timestamp":1790593761630}@@GB · **United Kingdom**:++} Arm processor and interconnect designs, licensed from Cambridge
@@ -103,7 +103,7 @@ Where it is made
 -   {--{"author":"James's AI","timestamp":1790593762737}@@ILIsrael--}{++{"author":"James's AI","timestamp":1790593762737}@@IL · **Israel**:++} Annapurna Labs, the AWS design house behind Trainium and Graviton
 -   {--{"author":"James's AI","timestamp":1790593763610}@@INIndia--}{++{"author":"James's AI","timestamp":1790593763610}@@IN · **India**:++} Nearly 20% of the world's chip design engineers, on the Indian government's count
 
-Why substitution is slow
+**Why substitution is slow**
 
 Three complete sets of chip design software exist today, and tools from one set cannot be combined with tools from another. The foundry that makes the chip approves exact versions of each tool. It accepts the check that every signal arrives on time only from the tool it has approved for that check. A newcomer would have to write a fourth set from nothing. It would then spend five to ten years finding the rare ways a chip can fail, which the approved tools already catch. CSET at Georgetown University judges that Chinese design tools cannot yet handle designs for the newest chips.
 
@@ -285,7 +285,7 @@ China makes almost all of the world's polysilicon and almost none of the 300 mm 
 
 {--{"author":"James's AI","timestamp":1790593777407}@@1,424--}{++{"author":"James's AI","timestamp":1790593777407}@@_1,424++} words / 6 {--{"author":"James's AI","timestamp":1790593777407}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593777407}@@min · Interactive 3D Specimen:++} boule and wafer{++{"author":"James's AI","timestamp":1790593777407}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#silicon-and-wafers))_++}
 
-In plain terms
+**In plain terms**
 
 Every chip is built on a wafer, a thin round slice of silicon about 30 centimeters across that carries hundreds of chips at once. Making one starts with sand, which is silicon bound to oxygen. The sand is refined until, of every hundred billion atoms, fewer than one is anything other than silicon. The silicon is melted, a small seed crystal is lowered to the surface and drawn slowly back up, and the melt freezes onto it as one long cylinder, a single crystal with its atoms in one unbroken orderly pattern from end to end. Saws cut the cylinder into discs, and each disc is polished until its surface is flat to within a few atoms, right out to the edge. Only five companies in the world make these wafers to that standard, and none of them is American or Chinese.
 
@@ -299,7 +299,7 @@ Substitutability: **Moderate**. Five firms already make 300 mm wafers that fabs 
 
 Price or market size: **The world wafer market was $11.4bn in 2025, on 12,973 million square inches shipped**
 
-Who leads
+**Who leads**
 
 -   {--{"author":"James's AI","timestamp":1790593780804}@@JPShin-Etsu Handotai--}{++{"author":"James's AI","timestamp":1790593780804}@@JP · **Shin-Etsu Handotai**:++} Largest supplier; the parent's electronics materials arm sold ¥750.3bn from April to December 2025
 -   {--{"author":"James's AI","timestamp":1790593781770}@@JPSUMCO--}{++{"author":"James's AI","timestamp":1790593781770}@@JP · **SUMCO**:++} ¥409.7bn of 2025 net sales, but an ¥11.8bn loss
@@ -307,7 +307,7 @@ Who leads
 -   {--{"author":"James's AI","timestamp":1790593783260}@@KRSK Siltron--}{++{"author":"James's AI","timestamp":1790593783260}@@KR · **SK Siltron**:++} One of the five firms that supply the whole wafer market
 -   {--{"author":"James's AI","timestamp":1790593784535}@@DESiltronic--}{++{"author":"James's AI","timestamp":1790593784535}@@DE · **Siltronic**:++} €1,346.7m revenue in 2025
 
-Where it is made
+**Where it is made**
 
 -   {--{"author":"James's AI","timestamp":1790593786546}@@JPJapan--}{++{"author":"James's AI","timestamp":1790593786546}@@JP · **Japan**:++} Shin-Etsu and SUMCO crystal growth and polishing
 -   {--{"author":"James's AI","timestamp":1790593787837}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790593787837}@@TW · **Taiwan**:++} GlobalWafers headquarters and plants
