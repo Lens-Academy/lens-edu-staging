@@ -43,6 +43,9 @@ source:: [[../Lenses/Automating Alignment]]
 source:: [[../Lenses/AI for AI safety]]
 
 ## Lens:
+source:: [[../Lenses/bowkis-automated-alignment-is-harder-than-you-think]]
+
+## Lens:
 source:: [[../Lenses/johnswentworth-why-not-just-outsource-alignment-research-to-an-ai]]
 
 ## Lens:
