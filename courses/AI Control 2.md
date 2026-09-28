@@ -24,7 +24,6 @@ application-survey:: [[../surveys/Application Form]]
 # Module: [[../modules/XLab Control P2 D1 Collusion, legibility, and low-stakes control]]
 
 # Meeting: Unit 1: Collusion, legibility, and low-stakes control
-meeting-doc-template:: https://docs.google.com/document/d/1BMrlkImYZ_LUVQth4_Li4hkc888IJ-EFrz87DkB2PeU/edit
 meeting-doc:: [[../meetings/AI Control 2/Meeting 1]]
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
@@ -32,7 +31,6 @@ facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 # Module: [[../modules/XLab Control P2 D2 Sandbagging and capability elicitation]]
 
 # Meeting: Unit 2: Sandbagging and capability elicitation
-meeting-doc-template:: https://docs.google.com/document/d/1d_CP3KnN4mwPut8DfOaJ8lVnV55IkD3O4i8eJDyrTNU/edit
 meeting-doc:: [[../meetings/AI Control 2/Meeting 2]]
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
@@ -40,7 +38,6 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 # Module: [[../modules/XLab Control P2 D3 Research sabotage and exploration hacking in practice]]
 
 # Meeting: Unit 3: Research sabotage and exploration hacking in practice
-meeting-doc-template:: https://docs.google.com/document/d/1TJm6Ox_gy0JY0CdLwJSzB4wVCl5597MRaUCFr6b5i8I/edit
 meeting-doc:: [[../meetings/AI Control 2/Meeting 3]]
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
@@ -48,7 +45,6 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 # Module: [[../modules/XLab Control P2 D4 Beyond scheming: reward seekers]]
 
 # Meeting: Unit 4: Beyond scheming: reward seekers
-meeting-doc-template:: https://docs.google.com/document/d/1RRhQa5EP0Gw-c4i2PQALPIJZqODlfb0z_EvvOtuOzSg/edit
 meeting-doc:: [[../meetings/AI Control 2/Meeting 4]]
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
@@ -56,7 +52,6 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 # Module: [[../modules/XLab Control P2 D5 Deals with AIs and next steps]]
 
 # Meeting: Unit 5: Deals with AIs and next steps
-meeting-doc-template:: https://docs.google.com/document/d/1PiY1DJH19GTDS2chlBcGxNB6tv7pQR75oIkbA0_fgQo/edit
 meeting-doc:: [[../meetings/AI Control 2/Meeting 5]]
 survey:: [[../surveys/AC2 Final Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
