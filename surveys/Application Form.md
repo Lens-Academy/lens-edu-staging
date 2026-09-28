@@ -129,7 +129,7 @@ required:: true
 
 #### Choice
 key:: ai_safety_programs
-content:: Which courses, programs, or fellowships in AI safety have you done, or are doing?{++{"author":"Mark's AI","timestamp":1789929367817}@@ Pick all that apply.
+content:: Which courses, programs, or fellowships in AI safety have you done, or are doing? Pick all that apply.
 multi:: true
 options::
 - None so far
@@ -148,17 +148,17 @@ options::
 - TARA
 - AI Safety Collab (ENAIS)
 - Center for AI Safety course
-- Sentient Futures++}
-{++{"author":"Mark's AI","timestamp":1789929367817}@@- Vista Institute for AI Policy
+- Sentient Futures
+- Vista Institute for AI Policy
 - University course or AI safety group
 - Self-study
 - Other (please write it below)
-++}required:: true{++{"author":"Mark's AI","timestamp":1789929367817}@@
+required:: true
 
 #### Question
 key:: ai_safety_programs_other
 content:: Other programs, or details you want to add (for example which BlueDot course, and whether you completed it).
-{>>{"author":"Mark's AI","timestamp":1789929367817}@@Mark asked for multiple choice plus "Other" here. The options follow the training programs on the AISafety.com map, in the order our applicants name them (about 230 applications read on 2026-09-20). The option wording matches the groups of the Applicants dashboard (platform PR #808), so a ticked option and a typed answer count under one label. The answer under this key changes from text to a list; the dashboard and the application grader read both.<<}++}
+
 
 #### Choice
 key:: engagement_hours
