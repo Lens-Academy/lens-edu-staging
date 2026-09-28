@@ -92,26 +92,26 @@ Who leads
 -   {--{"author":"James's AI","timestamp":1790593756681}@@USSynopsys--}{++{"author":"James's AI","timestamp":1790593756681}@@US · **Synopsys**:++} $7.05B revenue in the fiscal year ended 31 October 2025, Ansys included from July; 90%+ of the timing-signoff market
 -   {--{"author":"James's AI","timestamp":1790593757544}@@USCadence--}{++{"author":"James's AI","timestamp":1790593757544}@@US · **Cadence**:++} $5.30B revenue in calendar 2025; 55-60% of the hardware emulator market
 -   {--{"author":"James's AI","timestamp":1790593758261}@@DESiemens EDA--}{++{"author":"James's AI","timestamp":1790593758261}@@DE · **Siemens EDA**:++} $2.2-2.5B revenue in 2025; 85%+ of physical verification, the final layout check
--   GBArm About 50% of processor compute at the top cloud firms, fiscal 2026
--   USBroadcom $16.7B of AI chip revenue in the third quarter of fiscal 2026
+-   {--{"author":"James's AI","timestamp":1790593759094}@@GBArm--}{++{"author":"James's AI","timestamp":1790593759094}@@GB · **Arm**:++} About 50% of processor compute at the top cloud firms, fiscal 2026
+-   {--{"author":"James's AI","timestamp":1790593760055}@@USBroadcom--}{++{"author":"James's AI","timestamp":1790593760055}@@US · **Broadcom**:++} $16.7B of AI chip revenue in the third quarter of fiscal 2026
 
 Where it is made
 
--   USUnited States Synopsys, Cadence, Broadcom, Marvell, Nvidia, AMD; Siemens EDA's main sites
--   GBUnited Kingdom Arm processor and interconnect designs, licensed from Cambridge
--   TWTaiwan Alchip, Global Unichip and MediaTek: design services that carry a chip to the factory
--   ILIsrael Annapurna Labs, the AWS design house behind Trainium and Graviton
--   INIndia Nearly 20% of the world's chip design engineers, on the Indian government's count
+-   {--{"author":"James's AI","timestamp":1790593760979}@@USUnited States--}{++{"author":"James's AI","timestamp":1790593760979}@@US · **United States**:++} Synopsys, Cadence, Broadcom, Marvell, Nvidia, AMD; Siemens EDA's main sites
+-   {--{"author":"James's AI","timestamp":1790593761630}@@GBUnited Kingdom--}{++{"author":"James's AI","timestamp":1790593761630}@@GB · **United Kingdom**:++} Arm processor and interconnect designs, licensed from Cambridge
+-   {--{"author":"James's AI","timestamp":1790593762443}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790593762443}@@TW · **Taiwan**:++} Alchip, Global Unichip and MediaTek: design services that carry a chip to the factory
+-   {--{"author":"James's AI","timestamp":1790593762737}@@ILIsrael--}{++{"author":"James's AI","timestamp":1790593762737}@@IL · **Israel**:++} Annapurna Labs, the AWS design house behind Trainium and Graviton
+-   {--{"author":"James's AI","timestamp":1790593763610}@@INIndia--}{++{"author":"James's AI","timestamp":1790593763610}@@IN · **India**:++} Nearly 20% of the world's chip design engineers, on the Indian government's count
 
 Why substitution is slow
 
 Three complete sets of chip design software exist today, and tools from one set cannot be combined with tools from another. The foundry that makes the chip approves exact versions of each tool. It accepts the check that every signal arrives on time only from the tool it has approved for that check. A newcomer would have to write a fourth set from nothing. It would then spend five to ten years finding the rare ways a chip can fail, which the approved tools already catch. CSET at Georgetown University judges that Chinese design tools cannot yet handle designs for the newest chips.
 
-Where China stands
+**Where China stands**
 
 China designs its own AI accelerators, but Huawei's best, the Ascend 950, delivers about half the computing performance of Nvidia's H100 from 2022, on Epoch AI's estimate. CSET at Georgetown University judges that Chinese design software cannot yet handle the newest chips. The US government stopped sales of American and German design software to China for five weeks in 2025, then allowed them again.
 
-Where the US stands
+**Where the US stands**
 
 The United States has the two largest design-software vendors and the leading custom-chip design houses. Siemens EDA is German-owned, but the American technology inside it still needs US export licenses.
 
@@ -129,7 +129,7 @@ Design runs in five stages, each one's output the next one's input, all of it in
 
 All that checking exists because a mistake costs a whole new mask set. One set costs more than $1 million at 28 nm, more than $10 million at 7 nm and about $40 million at 3 nm, and a whole leading-edge chip has gone from design to tape-out on TSMC 7 nm for $50 million to $75 million, everything included [1](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor). The nanometer labels name generations of the process, each finer than the last, and no longer measure anything.
 
-What one photomask set costs, by node ($M). The 28 nm and 7 nm figures are minimums$M
+**Chart:** What one photomask set costs, by node ($M). The 28 nm and 7 nm figures are minimums ($M)
 
 28 nm 1 $M 7 nm 10 $M 3 nm 40 $M
 
@@ -145,7 +145,7 @@ Nvidia designs Blackwell once and sells it to everyone, so the buyer gets mature
 
 Three complete flows exist, and they do not mix. A team commits to one vendor's set of tools because the foundry certifies its reference recipes against specific tool versions, and timing signed off in one tool is not accepted in another. Synopsys alone holds more than 90 percent of static timing analysis, the check that proves a chip will run at its rated speed [3](https://newsletter.semianalysis.com/p/eda-market-primer), so inside each step of the flow the concentration is higher still.
 
-Each leading vendor's share of its own design-software segment, 2025%
+**Chart:** Each leading vendor's share of its own design-software segment, 2025 (%)
 
 Static timing (Synopsys PrimeTime) 90% Physical verification (Siemens Calibre) 85% Synthesis (Synopsys Design Compiler) 85% Emulation (Cadence Palladium) 58%
 
@@ -165,7 +165,7 @@ Design software and licensed blocks were an $18 billion market in 2025, and Syno
 
 Synopsys is the largest. Its own results put revenue at $7.054 billion for the fiscal year to 31 October 2025, with Ansys, bought that July, contributing $756.6 million [8](https://www.sec.gov/Archives/edgar/data/883241/000119312525314200/d29055dex991.htm). Cadence, whose year ends in December, took $5.30 billion in calendar 2025 [9](https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/R115.htm). The two fiscal years do not line up, so any total for this market depends on which twelve months are counted and on how much of Ansys it includes.
 
-Design software and licensed-block revenue share, 2025. Synopsys includes Ansys%
+**Chart:** Design software and licensed-block revenue share, 2025. Synopsys includes Ansys (%)
 
 Synopsys **44%** Cadence **29%** Siemens EDA **13%** All others **14%**
 
@@ -199,7 +199,7 @@ On Epoch AI's estimates, Huawei's flagship chip for 2026, the Ascend 950, delive
 -   **Design services depth.** Whether a partner can carry a customer's circuit list to a finished mask set on the newest node.
 -   **Legal exposure.** How much of the flow is US-origin technology, and so subject to export licensing.
 
-Card 1 of 5Question
+{--{"author":"James's AI","timestamp":1790593768774}@@Card--}{++{"author":"James's AI","timestamp":1790593768774}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593768774}@@5Question--}{++{"author":"James's AI","timestamp":1790593768774}@@5 · Question**++}
 
 What does chip design produce?
 
