@@ -99,11 +99,11 @@ Predictions can use a mixture of these approaches, and often do. For instance, R
 
 This is the schema we will be using in this paper, and in the prediction databases we have assembled. But the purpose of any such schema is to bring clarity to the analysis, not to force every prediction into a particular box. We hope that the methods and approaches used in this paper will be of general use to everyone wishing to analyze the reliability and usefulness of predictions, in AI and beyond. Hence this schema can be freely adapted or discarded if a particular prediction does not seem to fit it, or if an alternative schema seems to be more useful for the analysis of the question under consideration.
 
-3. A Toolbox of Assessment Methods
+## 3. A Toolbox of Assessment Methods
 
 The purpose of this paper is not only to assess the accuracy and reliability of some of the AI predictions that have already been made. The purpose is to start building a “toolbox” of assessment methods that can be used more generally, applying them to current and future predictions.
 
-3.1. Extracting Verifiable Predictions
+### 3.1. Extracting Verifiable Predictions
 
 The focus of this paper is squarely on the behavior of AI. This is not a philosophical point; we are not making the logical positivist argument that only empirically verifiable predictions have meaning (Carnap 1928). But it must be noted that many of the vital questions about AI—can it built, when, will it be dangerous, will it replace humans, and so on—all touch upon behavior. This narrow focus has the added advantage that empirically verifiable predictions are (in theory) susceptible to falsification, which means ultimately agreement between people of opposite opinions. Predictions like these have a very diﬀerent dynamic to those that cannot be shown to be wrong, even in principle.
 
@@ -121,7 +121,7 @@ Care must be taken when applying this method: the point is to extract a useful v
 
 This method often increases uncertainty, in that it often narrows the consequences of the prediction, and allows more possible futures to exist, consistently with that prediction. For instance, Bruce Edmonds (Edmonds 2008), building on the “No Free Lunch” results (Wolpert and Macready 1995), demonstrates that there is no such thing as a universal intelligence: no intelligence that performs better than average in every circumstance. Initially this seems to rule out AI entirely; but when one analyzes what this means empirically, one realizes there is far less to it. It does not forbid an algorithm from performing better than any human being in any situation any human being would ever encounter, for instance. So our initial intuition, which was to rule out all futures with AIs in them, is now replaced by the realization that we have barely put any constraints on the future at all.
 
-3.2. Clarifying and Revealing Assumptions
+### 3.2. Clarifying and Revealing Assumptions
 
 The previous section was concerned with the predictions’ conclusions. Here we will instead be looking at its assumptions, and the logical structure of the argument or model behind it. The objective is to make the prediction as rigorous as possible
 
@@ -135,7 +135,7 @@ Again, it needs to be emphasized that the purpose is to clarify and analyze argu
 
 There is surprisingly little published on the proper way of clarifying assumptions, making this approach more an art than a science. If the prediction comes from a model, we have some standard tools available for clarifying, though see Morgan and Henrion (1990). Most of these methods work by varying parameters in the model and checking that this doesn’t cause a breakdown in the prediction.
 
-3.2.1. Model Testing and Counterfactual Resiliency
+#### 3.2.1. Model Testing and Counterfactual Resiliency
 
 Though the above works from inside the model, there are very few methods that can test the strength of a model from the outside. This is especially the case for non-causal models: what are the assumptions behind Moore’s famous law (Moore 1965), or Robin Hanson’s model that we are due for another technological revolution, based on the timeline of previous revolutions (Hanson 2009)? If we can’t extract assumptions, we’re reduced to saying “that feel right/wrong to me,” and therefore we’re getting nowhere.
 
