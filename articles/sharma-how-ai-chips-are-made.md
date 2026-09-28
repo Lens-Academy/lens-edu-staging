@@ -2100,7 +2100,7 @@ Price or market size: **No public wafer counts**. TSMC told investors CoWoS capa
 -   {--{"author":"James's AI","timestamp":1790594114009}@@CNJCET--}{++{"author":"James's AI","timestamp":1790594114009}@@CN · **JCET**:++} RMB 35.96B revenue, 2024; the largest Chinese assembly and test firm
 -   {--{"author":"James's AI","timestamp":1790594114907}@@SGASMPT--}{++{"author":"James's AI","timestamp":1790594114907}@@SG · **ASMPT**:++} $532.1M advanced packaging revenue, 2025; thermocompression bonders
 
-Where it is made
+**Where it is made**
 
 -   {--{"author":"James's AI","timestamp":1790594116747}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790594116747}@@TW · **Taiwan**:++} TSMC AP fabs and the OSAT cluster; almost all 2.5D capacity for AI accelerators
 -   {--{"author":"James's AI","timestamp":1790594117620}@@USUnited States--}{++{"author":"James's AI","timestamp":1790594117620}@@US · **United States**:++} Amkor Peoria, Arizona from 2028; two TSMC advanced packaging plants planned in Arizona
@@ -2214,7 +2214,7 @@ Each generation on TSMC's roadmap needs a larger interposer.
 -   **Bonder throughput** is slow by nature: thermocompression and hybrid bonding place one die at a time, and three or four firms hold the tools [13](https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2025-annual-results/).
 -   **Substrate size** limits everything above it. A 14-reticle interposer needs a resin substrate that will not warp under it, which pushes ABF build-up film to its limits; see [[#^substrates-and-pcbs|Substrates and PCBs]].
 
-Card 1 of 4Question
+{--{"author":"James's AI","timestamp":1790594436044}@@Card--}{++{"author":"James's AI","timestamp":1790594436044}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594436044}@@4Question--}{++{"author":"James's AI","timestamp":1790594436044}@@4 · Question**++}
 
 Why is an AI accelerator built from several chips in one package?
 
@@ -2289,7 +2289,7 @@ A Japanese food company makes 95 percent of the insulating film inside high-end 
 
 {--{"author":"James's AI","timestamp":1790594139009}@@1,356--}{++{"author":"James's AI","timestamp":1790594139009}@@_1,356++} words / 6 {--{"author":"James's AI","timestamp":1790594139009}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594139009}@@min · Interactive 3D Specimen:++} substrate layers{++{"author":"James's AI","timestamp":1790594139009}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#substrates-and-pcbs))_++}
 
-In plain terms
+**In plain terms**
 
 A package substrate is the adapter between a chip and the circuit board under it. The chip's connections come out finer than a human hair; the board is wired in millimeters. The substrate is built up like plywood. A stiff core of glass cloth and resin sits in the middle. Thin sheets of epoxy film are pressed onto both faces, a laser burns holes through each sheet, and copper is plated into the holes to carry signals from one layer to the next. Every added layer is another set of holes that can fail. A handful of firms build these substrates, and the film and the glass cloth each come from a single Japanese supplier, so a shortage here stops accelerators shipping.
 
@@ -2303,7 +2303,7 @@ Substitutability: **Hard**. Rated on the insulating film inside the substrate: A
 
 Price or market size: **Ibiden alone is spending about JPY 500 billion on high-performance substrate capacity from fiscal 2026 to 2028, JPY 220 billion of it in the first phase**
 
-Who leads
+**Who leads**
 
 -   {--{"author":"James's AI","timestamp":1790594144558}@@JPAjinomoto--}{++{"author":"James's AI","timestamp":1790594144558}@@JP · **Ajinomoto**:++} 95% of the world market for insulating film in high-end processor packages, on its own account
 -   {--{"author":"James's AI","timestamp":1790594145293}@@JPNitto Boseki--}{++{"author":"James's AI","timestamp":1790594145293}@@JP · **Nitto Boseki**:++} Claims an overwhelming lead in low-expansion glass cloth
@@ -2311,7 +2311,7 @@ Who leads
 -   {--{"author":"James's AI","timestamp":1790594148023}@@TWUnimicron--}{++{"author":"James's AI","timestamp":1790594148023}@@TW · **Unimicron**:++} Build-up substrates were 52% of sales in Q2 2026
 -   {--{"author":"James's AI","timestamp":1790594149380}@@KRSamsung Electro-Mechanics--}{++{"author":"James's AI","timestamp":1790594149380}@@KR · **Samsung Electro-Mechanics**:++} Package solution sales KRW 771.6bn in Q2 2026, up 37%
 
-Where it is made
+**Where it is made**
 
 -   {--{"author":"James's AI","timestamp":1790594150995}@@JPJapan--}{++{"author":"James's AI","timestamp":1790594150995}@@JP · **Japan**:++} Build-up film, low-expansion glass cloth, and Ibiden and Shinko substrate plants in Gifu and Nagano
 -   {--{"author":"James's AI","timestamp":1790594152027}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790594152027}@@TW · **Taiwan**:++} Unimicron, Nan Ya PCB, Kinsus; the largest cluster of substrate makers selling to all comers
@@ -2319,7 +2319,7 @@ Where it is made
 -   {--{"author":"James's AI","timestamp":1790594154528}@@CNChina--}{++{"author":"James's AI","timestamp":1790594154528}@@CN · **China**:++} Most of the circuit board competition, alongside Taiwan; now pushing into glass cloth and build-up film
 -   {--{"author":"James's AI","timestamp":1790594155428}@@ATAustria--}{++{"author":"James's AI","timestamp":1790594155428}@@AT · **Austria**:++} AT&S, the only European advanced substrate maker of scale
 
-Why substitution is slow
+**Why substitution is slow**
 
 A few firms build substrates. Money can expand their plants, and every large one is expanding. The single points of failure are in the materials inside the substrate. Ajinomoto makes the thin insulating film between the substrate's wiring layers, puts its own share at about 95 percent, and has been the standard since 1999. Beneath that film is Nitto Boseki's glass cloth, woven so it barely swells with heat. A newcomer can build a line to make such a film. Every substrate maker and every packaging house then has to test the new film in each layer of each product before using it. That takes years at each of them, so the whole switch takes five to ten years.
 
@@ -2483,7 +2483,7 @@ Assembly and test decide which dies are allowed into a package that costs more t
 
 {--{"author":"James's AI","timestamp":1790594172728}@@1,251--}{++{"author":"James's AI","timestamp":1790594172728}@@_1,251++} words / 5 {--{"author":"James's AI","timestamp":1790594172728}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594172728}@@min · Interactive 3D Specimen:++} probe card{++{"author":"James's AI","timestamp":1790594172728}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#test-and-assembly))_++}
 
-In plain terms
+**In plain terms**
 
 Before a chip can be sold, a machine has to put questions to it and check every answer. While the chips are still on the wafer, thousands of needles press onto small metal pads on each one, send in signals and read what comes back; the tester marks any chip that answers wrong, and that chip goes no further. A modern accelerator glues together a dozen expensive pieces, and one bad piece throws away all of them. So the industry tests sooner, hotter and longer than it used to, to make a weak chip fail on the test bench before it reaches a finished product, and two firms, one Japanese and one American, sell most of the machines that do it.
 
@@ -2497,7 +2497,7 @@ Substitutability: **Moderate**. No test or assembly tool has only one maker, but
 
 Price or market size: **ASE and Amkor alone had $27.3 billion of revenue in 2025**. ASE spent $4.1 billion on machinery and buildings in the first half of 2026
 
-Who leads
+**Who leads**
 
 -   {--{"author":"James's AI","timestamp":1790594179064}@@JPAdvantest--}{++{"author":"James's AI","timestamp":1790594179064}@@JP · **Advantest**:++} 65% of the tester market in 2025
 -   {--{"author":"James's AI","timestamp":1790594180650}@@USTeradyne--}{++{"author":"James's AI","timestamp":1790594180650}@@US · **Teradyne**:++} Second in testers; about 80% of the market with Advantest
@@ -2505,7 +2505,7 @@ Who leads
 -   {--{"author":"James's AI","timestamp":1790594182431}@@USAmkor--}{++{"author":"James's AI","timestamp":1790594182431}@@US · **Amkor**:++} $6.71bn of 2025 revenue
 -   {--{"author":"James's AI","timestamp":1790594183685}@@JPDisco--}{++{"author":"James's AI","timestamp":1790594183685}@@JP · **Disco**:++} Leading share in dicing saws, grinders and blades
 
-Where it is made
+**Where it is made**
 
 -   {--{"author":"James's AI","timestamp":1790594185758}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790594185758}@@TW · **Taiwan**:++} ASE, Powertech, KYEC and ChipMOS; the largest assembly and test cluster
 -   {--{"author":"James's AI","timestamp":1790594186972}@@JPJapan--}{++{"author":"James's AI","timestamp":1790594186972}@@JP · **Japan**:++} Advantest testers, Disco dicing and grinding, Micronics Japan probe cards
@@ -2675,7 +2675,7 @@ A finished package is useless until it is bolted to a baseboard, fed a thousand 
 
 {--{"author":"James's AI","timestamp":1790594204015}@@1,325--}{++{"author":"James's AI","timestamp":1790594204015}@@_1,325++} words / 6 {--{"author":"James's AI","timestamp":1790594204015}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594204015}@@min · Interactive 3D Specimen:++} GPU baseboard{++{"author":"James's AI","timestamp":1790594204015}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#systems-and-networking))_++}
 
-In plain terms
+**In plain terms**
 
 One AI chip is not enough to train a model. So seventy-two of them are wired together in a rack, a cabinet the size of a wardrobe, and run as one computer. Each chip sits on its own board and draws more than a thousand amps, several times the current a whole house is wired to carry. The chips have to swap results with each other all the time, and a copper wire can carry those signals only a few meters before they fade, so the longer links send them as light down glass fiber. Many companies can build the rack. Only a few can make the lasers that send the light, and that is the narrow point.
 
