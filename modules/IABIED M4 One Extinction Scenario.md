@@ -135,7 +135,7 @@ Skim whatever catches your eye.
 
 ::card[[../Lenses/IABIED - QA - The Ending]]
 ::card[[../Lenses/IABIED - QA - Orthogonality]]
-{>>{"author":"Elias's AI","timestamp":1785314112013}@@Correction to an earlier suggestion in this review: I had carded 'Won't It Choose to Be Moral' here, on the grounds that it was an unreachable hidden import. That was wrong to do. Its body is still a "TODO: Embed Q&A content" placeholder, so carding it showed learners an empty card. Card removed; the hidden import stays. Card it again once the Q&A content is actually embedded.<<}
+{--{"author":"James's AI","timestamp":1790614173902}@@{>>{"author":"Elias's AI","timestamp":1785314112013}@@Correction to an earlier suggestion in this review: I had carded 'Won't It Choose to Be Moral' here, on the grounds that it was an unreachable hidden import. That was wrong to do. Its body is still a "TODO: Embed Q&A content" placeholder, so carding it showed learners an empty card. Card removed; the hidden import stays. Card it again once the Q&A content is actually embedded.<<}--}
 
 # Lens: IABIED - QA - The Ending
 optional:: true

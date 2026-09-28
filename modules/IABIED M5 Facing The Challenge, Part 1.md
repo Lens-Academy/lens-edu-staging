@@ -71,7 +71,7 @@ Skim whatever catches your eye.
 ::card[[../Lenses/IABIED - QA - Slow AI Integration]]
 ::card[[../Lenses/IABIED - QA - Before and After]]
 ::card[[../Lenses/IABIED - QA - Chicago Pile-1]]
-{>>{"author":"Elias's AI","timestamp":1785314128181}@@Correction to an earlier suggestion in this review: 'Isn't AI Different from Nuclear Reactors' is a Chapter 10 Q&A (ifanyonebuildsit.com/10), so importing it into this chapter is right and the import stays. But I had also carded it, and that was wrong: its body is still a "TODO: Embed Q&A content" placeholder, so the card showed learners an empty page. Card removed. Card it once the content is embedded.<<}
+{--{"author":"James's AI","timestamp":1790614156437}@@{>>{"author":"Elias's AI","timestamp":1785314128181}@@Correction to an earlier suggestion in this review: 'Isn't AI Different from Nuclear Reactors' is a Chapter 10 Q&A (ifanyonebuildsit.com/10), so importing it into this chapter is right and the import stays. But I had also carded it, and that was wrong: its body is still a "TODO: Embed Q&A content" placeholder, so the card showed learners an empty page. Card removed. Card it once the content is embedded.<<}--}
 
 # Lens: IABIED - QA - AI Differs from Precedents
 optional:: true

@@ -242,7 +242,7 @@ Skim whatever catches your eye.
 ::card[[../Lenses/IABIED - QA - Is It Hopeless]]
 ::card[[../Lenses/IABIED - QA - Shut Down Global AI Development]]
 ::card[[../Lenses/IABIED - QA - Keep the Coalition Large]]
-{>>{"author":"Elias's AI","timestamp":1785314118199}@@Correction to an earlier suggestion in this review: I had carded 'Can International Cooperation Really Work' here as an unreachable-import repair. That was wrong to do, because its body is still a "TODO: Embed Q&A content" placeholder and carding it showed learners an empty card. Card removed; the hidden import stays, and it should be carded again once the content is embedded. 'Early Warnings' and 'Isn't AI Different from Nuclear Reactors' remain imported under Ch12 because they are card targets inside the 'IABIED - The One-Chance Problem' lens.<<}
+{--{"author":"James's AI","timestamp":1790614173254}@@{>>{"author":"Elias's AI","timestamp":1785314118199}@@Correction to an earlier suggestion in this review: I had carded 'Can International Cooperation Really Work' here as an unreachable-import repair. That was wrong to do, because its body is still a "TODO: Embed Q&A content" placeholder and carding it showed learners an empty card. Card removed; the hidden import stays, and it should be carded again once the content is embedded. 'Early Warnings' and 'Isn't AI Different from Nuclear Reactors' remain imported under Ch12 because they are card targets inside the 'IABIED - The One-Chance Problem' lens.<<}--}
 
 # Lens: IABIED - QA - The Draft Treaty
 optional:: true
