@@ -8,7 +8,13 @@ tldr: What if the mathematical models used in agent foundations research don't m
 ---
 #### Text
 content::
+%% ORIGINAL (commented out as AI slop; misrepresents the post):
 This critique suggests that the Agent Foundations approach is too detached from reality. Neural networks do not look like the perfectly rational agents described in MIRI’s math. The argument is that we should focus on the messy reality of current models rather than seeking a perfect mathematical proof.
+%%
+
+%% PROPOSED FIX:
+Is there a simple theory of intelligence waiting to be found, the way momentum is simple in physics? Or is intelligence messy, like biological fitness? Richard Ngo calls the first view "realism about rationality" and questions it. If he's right, idealised agent models may tell us less about real AI systems than agent foundations research hopes.
+%%
 
 #### Article
 source:: [[../articles/ngo--realism-about-rationality]]
