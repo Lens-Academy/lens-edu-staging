@@ -190,19 +190,21 @@ labels::
 
 #### Question: Open
 id:: 08ba2594-a5e7-4d36-a1ba-01768244df34
-content:: Would you like to share a short quote about this course or Lens? We may use it on our website or in funding applications. Good quotes are specific: what you came for, what changed for you, or a moment that stood out.
+content:: Would you like to leave a short note for people considering this course or Lens?
+
+We may share it on our website.
+
+The most helpful notes are specific: your main worry before joining and how it played out, something you're now doing because of Lens, or one thing you particularly valued.
 optional:: true
 max-chars:: 1000
 
 #### Question: Choice
 id:: 82343b0c-ab2b-4e1a-ac21-40a4ac92ae57
-content:: If we share your quote or your recommendation reason, how should we credit you?
+content:: If we share your note, can we credit you?
 optional:: true
 options::
-- With my name and LinkedIn
-- With my name only
-- Anonymously (for example "a Lens Academy graduate")
-- Please don't share my answers publicly
+- Yes, you can use my profile
+- No, keep me anonymous
 
 #### Text
 content:: **Pay what you want**
