@@ -1425,37 +1425,37 @@ Process control is a chokepoint of concentration. Several firms can build a good
 
 What do metrology and inspection tools do?
 
-Card 1 of 4Answer
+{--{"author":"James's AI","timestamp":1790594000952}@@Card--}{++{"author":"James's AI","timestamp":1790594000952}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594000952}@@4Answer--}{++{"author":"James's AI","timestamp":1790594000952}@@4 · Answer**++}
 
 They check each wafer between steps for line width, layer alignment and defects.
 
 Their measurements tell a fab why its chips fail. [[#^how-it-works-7|Reread: How it works]]
 
-Card 2 of 4Question
+{--{"author":"James's AI","timestamp":1790594002259}@@Card--}{++{"author":"James's AI","timestamp":1790594002259}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594002259}@@4Question--}{++{"author":"James's AI","timestamp":1790594002259}@@4 · Question**++}
 
 Why do AI chips depend so much on finding defects?
 
-Card 2 of 4Answer
+{--{"author":"James's AI","timestamp":1790594003813}@@Card--}{++{"author":"James's AI","timestamp":1790594003813}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594003813}@@4Answer--}{++{"author":"James's AI","timestamp":1790594003813}@@4 · Answer**++}
 
 They are among the largest chips made, and a bigger chip is more likely to catch a defect.
 
 On a chip that size, halving the defects raises the share of working chips from about half to about seven in ten. [[#^packaging-ai-and-china|Reread: Packaging, AI and China]]
 
-Card 3 of 4Question
+{--{"author":"James's AI","timestamp":1790594004940}@@Card--}{++{"author":"James's AI","timestamp":1790594004940}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594004940}@@4Question--}{++{"author":"James's AI","timestamp":1790594004940}@@4 · Question**++}
 
 Who leads the market for these tools?
 
-Card 3 of 4Answer
+{--{"author":"James's AI","timestamp":1790594006166}@@Card--}{++{"author":"James's AI","timestamp":1790594006166}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594006166}@@4Answer--}{++{"author":"James's AI","timestamp":1790594006166}@@4 · Answer**++}
 
 KLA, an American firm, with about 57 percent.
 
 That is six to seven times its nearest rival. Every kind of tool still has a second maker. [[#^who-makes-it-7|Reread: Who makes it]]
 
-Card 4 of 4Question
+{--{"author":"James's AI","timestamp":1790594006939}@@Card--}{++{"author":"James's AI","timestamp":1790594006939}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594006939}@@4Question--}{++{"author":"James's AI","timestamp":1790594006939}@@4 · Question**++}
 
 How strong are Chinese makers of these tools?
 
-Card 4 of 4Answer
+{--{"author":"James's AI","timestamp":1790594008312}@@Card--}{++{"author":"James's AI","timestamp":1790594008312}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594008312}@@4Answer--}{++{"author":"James's AI","timestamp":1790594008312}@@4 · Answer**++}
 
 Weaker than in any other major kind of chipmaking tool.
 
@@ -1468,7 +1468,7 @@ They held 0.7 percent of the market in 2025. [[#^packaging-ai-and-china|Reread: 
 -   KLA of the United States holds about 57 percent of the market, six to seven times its nearest rival.
 -   Chinese makers are weakest here, with 0.7 percent of the market in 2025.
 
-Sources (15)
+**Sources (15)**
 
 1.  A [Letter to Shareholders Q4 Fiscal 2026](https://d1io3yog0oux5.cloudfront.net/_b9ee755a5f60dd0fb3f9e27967aed6af/klatencor/db/1117/10668/letter_to_shareholders/KLA+Earnings+Shareholder+Letter+-+Q4+FY26.pdf) KLA Corporation · 27 July 2026
 2.  A [Compounding Sustainable Outperformance](https://d1io3yog0oux5.cloudfront.net/_7791115a123b86b3f10b1a5eb5210224/klatencor/db/1166/10653/file/2026+Investor+Day+Master+Final_IR+copy.pdf) KLA Corporation · 13 March 2026
@@ -1490,7 +1490,7 @@ Sources (15)
 
 Three companies can build a 2 nm-class transistor. Shrinking stopped lowering the cost per transistor about a decade ago, and every gain since has come from extra process steps.
 
-1,553 words / 7 minSpecimen: gate-all-around transistor
+{--{"author":"James's AI","timestamp":1790594010814}@@1,553--}{++{"author":"James's AI","timestamp":1790594010814}@@_1,553++} words / 7 {--{"author":"James's AI","timestamp":1790594010814}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594010814}@@min · Interactive 3D Specimen:++} gate-all-around transistor{++{"author":"James's AI","timestamp":1790594010814}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#transistors-and-front-end))_++}
 
 In plain terms
 
