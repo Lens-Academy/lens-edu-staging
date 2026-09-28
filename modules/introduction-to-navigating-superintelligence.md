@@ -20,10 +20,6 @@ We begin by examining the potential of AI and the risks and opportunities that t
 # Lens:
 source:: [[../Lenses/The AI Book That's Freaking Out National Security Advisors]]
 
-# Lens:
-source:: [[../Lenses/Four Background Claims]]
-
-
 %% AI Chronicles embed section removed until the Embed feature ships (branch iframe-embed-segment). Embed isn't on staging yet, so this import failed validation. To restore the interactive once embed ships, re-add the section below (and remove the validator-ignore tag on the lens):
 # Lens:
 optional:: true
@@ -34,16 +30,15 @@ source:: [[../Lenses/AI Chronicles - Torchbearer]]
 source:: ![[../Lenses/10 reasons]]
 
 # Lens:
+source:: ![[../Lenses/Deadly By Default]]
+
+# Lens:
 optional:: true
 source:: [[../Lenses/Risks from power-seeking AI]]
 
 # Lens:
 optional:: true
 source:: ![[../Lenses/Wikipedia Existential Risk]]
-
-# Lens:
-optional:: true
-source:: ![[../Lenses/Deadly By Default]]
 
 # Lens:
 optional:: true
