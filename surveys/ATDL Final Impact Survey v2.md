@@ -200,13 +200,11 @@ max-chars:: 1000
 
 #### Question: Choice
 id:: 063c2c1a-5a69-40ec-b3b6-cbc11f208410
-content:: If we share your quote or your recommendation reason, how should we credit you?
+content:: If we share your note, can we credit you?
 optional:: true
 options::
-- With my name and LinkedIn
-- With my name only
-- Anonymously (for example "a Lens Academy graduate")
-- Please don't share my answers publicly
+- Yes, you can use my profile
+- No, keep me anonymous
 
 #### Text
 content:: **Pay what you want**
