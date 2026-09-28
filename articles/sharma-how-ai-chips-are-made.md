@@ -1321,18 +1321,18 @@ Where it is made
 -   {--{"author":"James's AI","timestamp":1790593985371}@@USUnited States--}{++{"author":"James's AI","timestamp":1790593985371}@@US · **United States**:++} KLA (Milpitas), Onto Innovation (Wilmington, MA), Applied Materials
 -   {--{"author":"James's AI","timestamp":1790593986974}@@NLNetherlands--}{++{"author":"James's AI","timestamp":1790593986974}@@NL · **Netherlands**:++} ASML YieldStar and HMI e-beam, Veldhoven and San Jose
 -   {--{"author":"James's AI","timestamp":1790593988684}@@JPJapan--}{++{"author":"James's AI","timestamp":1790593988684}@@JP · **Japan**:++} Hitachi High-Tech CD-SEM; Lasertec mask inspection; Rigaku X-ray
--   ILIsrael Nova (Rehovot) and Camtek (Migdal Haemek)
--   CNChina Domestic entrants only; 0.7% of the process control tool market in 2025
+-   {--{"author":"James's AI","timestamp":1790593989708}@@ILIsrael--}{++{"author":"James's AI","timestamp":1790593989708}@@IL · **Israel**:++} Nova (Rehovot) and Camtek (Migdal Haemek)
+-   {--{"author":"James's AI","timestamp":1790593990543}@@CNChina--}{++{"author":"James's AI","timestamp":1790593990543}@@CN · **China**:++} Domestic entrants only; 0.7% of the process control tool market in 2025
 
 Why substitution is possible
 
 Metrology and inspection tools measure and inspect wafers so a fab can find and fix faults in its process. KLA is the biggest maker, but seven other firms ship approved tools, and three of them are the leader in one kind of tool. A fab that loses KLA and buys from the others keeps running. It finds fewer flaws and fixes them more slowly, and it needs two to five years to return to its old performance. A country that is not allowed to buy from any of them would take far longer: Chinese firms held 0.7 percent of the market for these tools in 2025.
 
-Where China stands
+**Where China stands**
 
 Of all major kinds of chipmaking tool, metrology and inspection is where Chinese makers are weakest. In 2019 Chinese firms held 3.4 percent of line-width measurement, 1.3 percent of defect inspection and none of mask or packaging inspection. In 2025 they still held 0.7 percent of the whole market for these tools. CSET's 2026 survey of Chinese share gains covers deposition, etch, polishing, lithography, packaging and test, and does not cover measurement and inspection.
 
-Where the US stands
+**Where the US stands**
 
 KLA is the largest maker of metrology and inspection tools in the world. It puts its own 2024 share at 56.5 percent, or 6.5 times its nearest rival. CSET's Supply Chain Explorer puts it at 56.8 percent of the 2025 market. American firms hold 72 percent of this market and Japanese firms 14 percent. A December 2024 US rule added inspection and measurement tools for patterned 300 mm wafers to the controlled list, for tools that can find defects 21 nm across or smaller.
 
@@ -1365,7 +1365,7 @@ The tools trade sensitivity against speed. All the market sizes and shares below
 -   **Critical dimension metrology** measures how wide a printed feature actually came out: $1.2 billion, and the one family Japan leads, with Hitachi at 71.9 percent and Applied Materials at 27.5.
 -   **Electron-beam metrology** resolves detail too fine for light: $1.3 billion, led by Applied Materials at 45.1 percent with ASML at 35.6 and KLA at 18.8.
 
-Process control market by tool family, 2025$M
+**Chart:** Process control market by tool family, 2025 ($M)
 
 Defect inspection 6,700 Film and shape metrology 2,600 Mask inspection and repair 2,200 E-beam metrology 1,300 CD metrology 1,200 Overlay metrology 991.4 Defect review 729.1
 
@@ -1375,7 +1375,7 @@ Source: [ETO Supply Chain Explorer, CSET](https://chipexplorer.eto.tech/?parentN
 
 KLA is most of the segment: 56.8 percent of a $15.7 billion market in 2025 [3](https://chipexplorer.eto.tech/?parentNode=N118&selectedNode=N60), up two points since 2021 by its own figures [2](https://d1io3yog0oux5.cloudfront.net/_7791115a123b86b3f10b1a5eb5210224/klatencor/db/1166/10653/file/2026+Investor+Day+Master+Final_IR+copy.pdf). Its fiscal 2026 revenue was $13.579 billion, after $12.156 billion in fiscal 2025 [7](https://data.sec.gov/api/xbrl/companyconcept/CIK0000319201/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json), and it says it gained share again in 2025 across mask, optical wafer and e-beam inspection [8](https://d1io3yog0oux5.cloudfront.net/_a357bfc9113388e37f3bfcb2ea2f0b64/klatencor/db/1117/10655/letter_to_shareholders/KLA+Shareholder+Letter+-+Q3+FY26.pdf).
 
-Process control tool revenue share, 2025%
+**Chart:** Process control tool revenue share, 2025 (%)
 
 KLA **56.8%** Applied Materials **11.2%** Lasertec **6.4%** Hitachi High-Tech **6.2%** ASML **5.9%** Nova **4.3%** Onto Innovation **2.6%** Camtek **1.6%** Rigaku **1.2%** All others **3.8%**
 
@@ -1391,7 +1391,7 @@ The rest are specialists, and nobody else reaches 11 percent.
 
 Patterning, which covers overlay and mask inspection, grew 61 percent year on year in the June 2026 quarter, when Taiwan took 31 percent of revenue and China 26 percent [1](https://d1io3yog0oux5.cloudfront.net/_b9ee755a5f60dd0fb3f9e27967aed6af/klatencor/db/1117/10668/letter_to_shareholders/KLA+Earnings+Shareholder+Letter+-+Q4+FY26.pdf).
 
-KLA revenue by product line, June 2026 quarter%
+**Chart:** KLA revenue by product line, June 2026 quarter (%)
 
 Wafer inspection **49%** Services **22%** Patterning **20%** PCB and component inspection **4%** Specialty semiconductor process **4%** Other **1%**
 
@@ -1421,7 +1421,7 @@ Process control is a chokepoint of concentration. Several firms can build a good
 -   **Sampling plan.** How many wafers and sites per lot, a cost decision as much as a physics one, which sets what process control costs the fab.
 -   **Time to result.** How fast a measurement reaches the process engineer, which sets the speed of yield learning.
 
-Card 1 of 4Question
+{--{"author":"James's AI","timestamp":1790593999833}@@Card--}{++{"author":"James's AI","timestamp":1790593999833}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593999833}@@4Question--}{++{"author":"James's AI","timestamp":1790593999833}@@4 · Question**++}
 
 What do metrology and inspection tools do?
 
