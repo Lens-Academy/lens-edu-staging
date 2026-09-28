@@ -893,19 +893,19 @@ A photomask is the stencil that lithography prints from, one for each layer of a
 
 Photomasks are the cheapest chokepoint in this chain, which is why nobody has funded an entrant. Three blank suppliers in the world on AGC's count [6](https://www.agc.com/en/hub/pr/the-japanese-glass-behind-next-generation-chips.html), one of them describing its own share as exceptionally high [8](https://www.hoya.com/ir/2025/en/review/it.html), and a single-vendor actinic inspection tool [10](https://www.lasertec.co.jp/en/ir/plan/message.html) are needed for every EUV layer of every leading-edge accelerator. Pellicles remain unproven in production, so fabs trade throughput against defect risk product by product [11](https://www.asml.com/en/news/stories/2022/the-euv-pellicle-indistinguishable-from-magic). And mask-set costs of $10 million to $40 million decide which AI chips get designed [14](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor).
 
-Concentration **Extreme**
+Concentration: **Extreme**
 
-Substitutability **Hard** Only three firms make the blank plates for EUV masks, and only Lasertec sells the tool that checks a finished mask in EUV light.
+Substitutability: **Hard**. Only three firms make the blank plates for EUV masks, and only Lasertec sells the tool that checks a finished mask in EUV light.
 
-Price or market size **A mask set for the newest chips costs roughly $10M to $40M, depending on the node and on who is estimating**
+Price or market size: **A mask set for the newest chips costs roughly $10M to $40M, depending on the node and on who is estimating**
 
 Who leads
 
--   JPAGC Ranks itself No.1 worldwide in EUV mask blanks and counts three suppliers in all; targeted over ¥40bn of blank sales by 2025
--   JPHoya Says its share of mask blanks is exceptionally high, and expects to keep its lead as customers add a second supplier
--   JPLasertec The only supplier of EUV mask inspection at the wavelength the scanner itself uses; JPY 230.5bn revenue in the year to June 2026
--   ATIMS Nanofabrication Intel calls it the established industry leader in multi-beam mask writers, the machines that draw the pattern onto the mask
--   USPhotronics Largest mask maker selling to outside customers; $849.3M revenue in fiscal 2025
+-   {--{"author":"James's AI","timestamp":1790593894437}@@JPAGC--}{++{"author":"James's AI","timestamp":1790593894437}@@JP · **AGC**:++} Ranks itself No.1 worldwide in EUV mask blanks and counts three suppliers in all; targeted over ¥40bn of blank sales by 2025
+-   {--{"author":"James's AI","timestamp":1790593895179}@@JPHoya--}{++{"author":"James's AI","timestamp":1790593895179}@@JP · **Hoya**:++} Says its share of mask blanks is exceptionally high, and expects to keep its lead as customers add a second supplier
+-   {--{"author":"James's AI","timestamp":1790593896343}@@JPLasertec--}{++{"author":"James's AI","timestamp":1790593896343}@@JP · **Lasertec**:++} The only supplier of EUV mask inspection at the wavelength the scanner itself uses; JPY 230.5bn revenue in the year to June 2026
+-   {--{"author":"James's AI","timestamp":1790593897493}@@ATIMS Nanofabrication--}{++{"author":"James's AI","timestamp":1790593897493}@@AT · **IMS Nanofabrication**:++} Intel calls it the established industry leader in multi-beam mask writers, the machines that draw the pattern onto the mask
+-   {--{"author":"James's AI","timestamp":1790593898767}@@USPhotronics--}{++{"author":"James's AI","timestamp":1790593898767}@@US · **Photronics**:++} Largest mask maker selling to outside customers; $849.3M revenue in fiscal 2025
 
 Where it is made
 
