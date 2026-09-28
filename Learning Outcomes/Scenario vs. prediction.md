@@ -12,4 +12,4 @@ stage: intermediate
 
 # Suggested Lenses:
 ## Lens:
-source:: [[../Lenses/IABIED - QA - Isn't This Just Science Fiction]]
+source:: [[../Lenses/IABIED - QA - {--{"author":"James's AI","timestamp":1790613463818}@@Isn't This --}Just Science Fiction]]
