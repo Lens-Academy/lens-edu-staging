@@ -145,11 +145,11 @@ The purpose of this exercise is not to rule out certain models depending on one�
 
 This method is new, and will certainly be refined in future. Again, the purpose of the method is not to rule out certain models, but to find the nodes of disagreement.
 
-3.2.2. More Uncertainty
+#### 3.2.2. More Uncertainty
 
 Clarifying assumptions often ends up increasing uncertainty, as does revealing hidden assumptions. The previous section focused on extracting verifiable predictions, which often increases the range of possible worlds compatible with a prediction. Here, by clarifying and caveating assumptions, and revealing hidden assumption, we reduce the number of worlds in which the prediction is valid. This means that the prediction puts fewer constraints on our expectations. In counterpart, of course, the caveated prediction is more likely to be true.
 
-3.3. Empirical Evidence
+### 3.3. Empirical Evidence
 
 The gold standard in separating true predictions from false ones must always be empirical evidence. The scientific method has proved to be the best way of disproving false hypotheses, and should be used whenever possible. Other methods, such as expert opinion or unjustified models, come nowhere close.
 
@@ -157,7 +157,7 @@ The problem with empirical evidence is that . . . it is generally non-existent i
 
 That generalization is somewhat over-harsh. Some AI prediction methods hew closer to the scientific method, such as the whole brain emulations model (Sandberg and Bostrom 2008)—it makes testable predictions along the way. Moore’s law is a wildly successful prediction, and connected to some extent with AI. Many predictors (e.g. Kurzweil) make partial predictions on the road towards AI; these can and should be assessed—track records allow us to give some evidence to the proposition “this expert knows what they’re talking about.” And some models also allow for a degree of testing. So the field is not void of empirical evidence; it’s just that there is so little of it, and to a large extent we must put our trust in expert opinion.
 
-3.4. Expert Opinion
+### 3.4. Expert Opinion
 
 Reliance on experts is nearly unavoidable in AI prediction. Timeline predictions are often explicitly based on experts’ feelings; even those that consider factors about the world (such as computer speed) need an expert judgment about why that factor is considered and not others. Plans need experts to come up with them and judge their credibility. And unless every philosopher agrees on the correctness of a particular philosophical argument, we are dependent to some degree on the philosophical judgment of the author. It is the purpose of all the methods described above that we can refine and caveat a prediction, back it up with empirical evidence whenever possible, and thus clearly highlight the points where we need to rely on expert opinion. And so can focus on the last remaining points of disagreement: the premises themselves (that is of course the ideal situation: some predictions are given directly with no other basis but expert authority, meaning there is nothing to refine).
 
@@ -188,7 +188,7 @@ As everyone knows, experts sometimes disagree. This fact strikes at the very hea
 
 What kind of objective criteria could there be? A good track record can be an indicator, as is a willingness to make verifiable, non-ambiguous predictions. A better connection with empirical knowledge and less theoretical rigidity are also positive indications (Tetlock 2005), and any expert that approached their task with methods that were more on the left of the table than on the right should be expected to be more correct. But these are second order phenomena—we’re looking at our subjective interpretation of expert’s subjective opinion—so in most cases, when there are strong disagreement between experts, we simply can’t tell which position is true.
 
-3.4.1. Grind Versus Insight
+#### 3.4.1. Grind Versus Insight
 
 Some AI prediction claim that AI will result from grind: i.e. lots of hard work and money. Other claim that AI will need special insights: new unexpected ideas that will blow the field wide open (Deutsch 2012).
 
