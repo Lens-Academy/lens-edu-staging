@@ -43,6 +43,7 @@ source:: [[../Lenses/Automating Alignment]]
 source:: [[../Lenses/AI for AI safety]]
 
 ## Lens:
+optional:: true
 source:: [[../Lenses/Carefully Bootstrapped Alignment Is Organizationally Hard]]
 
 # Submodule: Mechanistic Interpretability
