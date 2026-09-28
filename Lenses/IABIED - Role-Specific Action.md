@@ -109,7 +109,8 @@ content::
 \## Phase 3: Learning Question
 Chapter 14 delivers different calls to action to different audiences. Consider three of them: government leaders, skeptical politicians who aren't fully persuaded, and ordinary citizens. What does the chapter specifically ask of each? And what does each group have — what lever do they hold — that the other two cannot provide?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the second section of Chapter 14 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+force-feedback:: first
+feedback-instructions:: The student has completed a reading, a free recall, and a reflection phase on the second section of Chapter 14 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 Learning outcome for this Lens: Distinguish between the chapter's calls to action for government leaders, for skeptical politicians, and for ordinary citizens: what specific levers does each group hold that the others do not?
 
