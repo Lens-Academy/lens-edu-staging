@@ -64,7 +64,7 @@ You can also read **Luke Muehlhauser's *The errors, insights, and lessons of fam
 #### Article
 source:: [[../articles/armstrong-sotala-how-were-predicting-ai-or-failing-to]]
 from:: 4.1. Subjective Assessment
-to:: References
+to:: 5. Kevin Kelly, editor of Wired magazine, created the law in 2007 after being influenced by Pattie Maes at MIT and Joel Garreau (author of Radical Evolution).
 
 #### Question
 id:: 4cce137a-0a4a-4942-bc28-fe4a4e5a6d48
