@@ -46,6 +46,9 @@ source:: [[../Lenses/AI for AI safety]]
 optional:: true
 source:: [[../Lenses/Carefully Bootstrapped Alignment Is Organizationally Hard]]
 
+## Lens:
+source:: [[../Lenses/johnswentworth-why-not-just-outsource-alignment-research-to-an-ai]]
+
 # Submodule: Mechanistic Interpretability
 ## Lens:
 source:: [[../Lenses/Mechanistic Interpretability]]

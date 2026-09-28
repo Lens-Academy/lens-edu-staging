@@ -5,3 +5,13 @@ title: "Why Not Just Outsource Alignment Research To An AI?"
 
 #### Article
 source:: [[../articles/johnswentworth-why-not-just-outsource-alignment-research-to-an-ai]]
+from:: "If you haven’t seen “The Expert” before"
+to:: "has no understanding of what they need, what questions to ask, what’s possible or even logically coherent, etc."
+
+#### Text
+content::
+Ask the AI Tutor any questions you may have:
+
+#### Chat
+instructions::
+Help the user understand this article, or help them with other questions they have.
