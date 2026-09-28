@@ -25,7 +25,13 @@ to:: "generally intelligent, does not make them motivated by your objectives."
 
 #### Text
 content::
+%% ORIGINAL (commented out as AI slop; garbled):
 What causes a gap in our control over the system in a sharp left turn scenario? Provide an example of a situation where, when scaling, an AI successfully maintains the goal and safety metric on which it was trained, but does not scale it in accordance with human preferences, leading to negative consequences.
+%%
+
+%% PROPOSED FIX:
+What opens up a gap in our control during a sharp left turn? Give an example of an AI that, as it scales, keeps scoring well on the goal and safety metric it was trained on, yet stops doing what humans actually want.
+%%
 #### Chat
 instructions::
 The participant is answering this question:
