@@ -43,14 +43,11 @@ source:: [[../Lenses/Automating Alignment]]
 source:: [[../Lenses/AI for AI safety]]
 
 ## Lens:
-{++{"author":"AI","timestamp":1790616765804}@@source:: [[../Lenses/johnswentworth-why-not-just-outsource-alignment-research-to-an-ai]]
+source:: [[../Lenses/johnswentworth-why-not-just-outsource-alignment-research-to-an-ai]]
 
 ## Lens:
-++}optional:: true
-source:: [[../Lenses/Carefully Bootstrapped Alignment Is Organizationally Hard]]{--{"author":"AI","timestamp":1790616765804}@@
-
-## Lens:
-source:: [[../Lenses/johnswentworth-why-not-just-outsource-alignment-research-to-an-ai]]--}
+optional:: true
+source:: [[../Lenses/Carefully Bootstrapped Alignment Is Organizationally Hard]]
 
 # Submodule: Mechanistic Interpretability
 ## Lens:
