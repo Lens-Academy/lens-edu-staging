@@ -14,7 +14,7 @@ A question segment is required by default: a learner cannot complete the lens wi
 
 Graded `Question: Open` and `Question: FillBlank` use same assessor flow. Platform supplies base assessment prompt, then authored `assessment-instructions::` when present, question context, expected answers, and learner response. Assessor returns structured `score` from 0 to 100 and private `reason`. Learner sees percentage, not private reason.
 
-`feedback-instructions::` is optional. If present, learner sees a "Get feedback" button once the answer is graded; on request, tutor receives question context, learner response, score, private assessment reason, and authored feedback instructions, then responds as ordinary tutor chat. Add `force-feedback:: true` to send it automatically on submit instead of waiting for the button. If `feedback-instructions::` is omitted, no tutor feedback.
+`feedback-instructions::` is optional. If present, learner sees a "Get feedback" button once the answer is graded; on request, tutor receives question context, learner response, score, private assessment reason, and authored feedback instructions, then responds as ordinary tutor chat. Add `force-feedback:: true` to send it automatically on every submit instead of waiting for the button, or `force-feedback:: first` to send it automatically on the learner's first answer only (later answers get the button). If `feedback-instructions::` is omitted, no tutor feedback.
 
 # Question: Open
 `Question: Open` collects typed or dictated text. Smallest version follows. %%
