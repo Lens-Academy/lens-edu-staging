@@ -17,7 +17,13 @@ to:: "research task every 8 minutes."
 
 #### Text
 content::
+%% ORIGINAL (commented out as AI slop; "security theory" is wrong):
 The author argues that we are in a situation where the "blueprints" of our AI fundamentally prevent us from predicting its behavior at a superhuman level. If so, what specific "fundamental advances" in security theory could convince you that the system can be safely deployed? Or do you believe we can get by without complete theoretical clarity?
+%%
+
+%% PROPOSED FIX:
+The authors argue that the way we build AI stops us predicting how it will behave once it's superhuman. If so, what specific advances would convince you a system is safe to deploy? Or could we manage without that level of understanding?
+%%
 
 #### Chat
 instructions::
