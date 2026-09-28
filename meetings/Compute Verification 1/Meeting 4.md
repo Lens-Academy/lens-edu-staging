@@ -112,7 +112,7 @@ One or two people share what their group landed on.
 ### Room 4: Next unit and feedback  [1:15–1:27]
 
 **New group. Names first, then straight in.**
-1\. Next unit: Hardware verification, what a chip can and cannot prove about the work it did. About 155 minutes plus an optional 30. It opens with the claim ledger (seven conclusions about a stack of chip attestation tokens): answer it before reading on and keep your answers. What's most likely to stop you finishing, and what's your plan to beat it? (Send the plan to your accountability buddy after the meeting.)
+1\. Next unit: Hardware verification, what a chip can and cannot prove about the work it did (about 155 minutes, plus an optional 30). It starts with the claim ledger, which you answer at home before reading on; keep your answers. What's most likely to stop you finishing, and what's your plan to beat it? (Send the plan to your accountability buddy after the meeting.)
 2\. Feedback: what would make the course and this meeting better?
 
 
@@ -130,7 +130,7 @@ Back in the main room, share if you feel like it: one thing you're glad you know
 Before you leave (your navigator will talk through these):
 
 - Next unit: Hardware verification. What a signed attestation proves and what it does not; identity, location, topology and the negative claim of completeness; measuring and classifying compute use; offline licensing and who holds the key; and where trust should live: in the chip, on the network, on the power line, or across all three. About 155 minutes core plus an optional 30.
-- Answer the claim ledger (the unit's opening exercise) before reading on, and keep your answers: XLab's curriculum returns to them later in the track.
+- At home, answer the claim ledger (the unit's opening exercise) before reading the rest of the unit, and keep your answers: XLab's curriculum returns to them later in the track.
 - Found something unclear, wrong, or missing? The course is still in development: send it through [XLab's feedback form](https://forms.gle/KkWcHkKh87pygDzw9).
 
 
@@ -216,7 +216,7 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 **Room 1, Icebreaker.** Ask 3 is a short orientation, half a minute each, not a full summary; if someone starts reciting the report, ask what a reader would have done with it. Two people on the same report is fine: ask each what they clipped and what they left. Surprise is the easier way in for anyone who read the report but never reached the distilling.
 **Room 2, The smallest stack.** Ask 2 is the exercise and ask 3 is the payoff, so keep ask 1 short; this room carries more work than the others and is the one to protect if you are running behind. For your own use: expect stacks like attestation plus compute metering plus licensing, which all rest on the chip vendor's root key, or satellite plus power monitoring, which share one physical signature. Three mechanisms that all rest on the inspected party's own say-so are one layer wearing three names, and ask 3 is how a room notices. The ranking in the unit was ungraded and XLab withholds its reference map until the capstone course, so do not supply one.
 **Room 3, Your questions.** The two minutes of silent writing are the room; skip them and the most confident person sets the agenda. If a table has nothing written down, half of them did not finish the reading: ask what they would need in order to explain this unit to a colleague. There is no answer to arrive at, and a table that finishes early can go back to the questions it did not pick.
-**Room 4, Next unit and feedback.** The hand-off from Room 3 is the conversation here, so the room only carries two asks. Make the claim-ledger instruction explicit: the hardware unit opens with a lab handing you 20,000 valid attestation tokens and seven conclusions; answer the seven before reading further and keep the answers; XLab's curriculum returns to them later in the track.
+**Room 4, Next unit and feedback.** The hand-off from Room 3 is the conversation here, so the room only carries two asks. Make clear the claim ledger is homework, not a task for this room: the hardware unit opens with a lab handing you 20,000 valid attestation tokens and seven conclusions; they answer the seven at home before reading further and keep the answers; XLab's curriculum returns to them later in the track.
 
 # Tab: Glossary
 style:: plain
