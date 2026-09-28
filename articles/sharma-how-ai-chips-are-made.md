@@ -1341,6 +1341,8 @@ The newest gate-all-around transistors depend on it. [[#^china-and-the-controls|
 
 No fab is planned around measuring and inspecting wafers, and no fab works without it. One American firm holds about 57% of the market for those tools, roughly seven times its nearest rival, and its share is still growing.
 
+%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+
 {--{"author":"James's AI","timestamp":1790593964925}@@1,541--}{++{"author":"James's AI","timestamp":1790593964925}@@_1,541++} words / 7 {--{"author":"James's AI","timestamp":1790593964925}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593964925}@@min · Interactive 3D Specimen:++} electron microscope column{++{"author":"James's AI","timestamp":1790593964925}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#metrology-and-inspection))_++}
 
 **In plain terms**
@@ -1400,7 +1402,9 @@ A bigger chip is a bigger target for the second kind, and the loss grows faster 
 
 Run that equation with a clustering constant of 3 for an 8 square centimeter die, about as much as one exposure can print, and it yields about 49 percent at a defect density of 0.10 and about 69 percent at 0.05 [4](https://web.ece.ucsb.edu/~parhami/docs_folder/f33-book-dep-comp-pt2.pdf). Getting from one to the other is yield learning: find which of the thousand-odd steps is losing dies, fix it, move on.
 
-{--{"author":"James's AI","timestamp":1790594485001}@@![](https://chipsupplychain.org/media/defects-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594485001}@@![Why big chips lose more to defects](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-defects.jpg)++}
+{--{"author":"James's AI","timestamp":1790594485001}@@![](https://chipsupplychain.org/media/defects-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594485001}@@![Why big chips lose more to defects](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-defects.jpg)++}{++{"author":"James's AI","timestamp":1790594886254}@@
+
+%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%++}
 
 **Figure: Why big chips lose more to defects.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#metrology-and-inspection)); above is its last frame. Its steps:
 
@@ -1548,6 +1552,8 @@ They held 0.7 percent of the market in 2025. [[#^packaging-ai-and-china|Reread: 
 ## Transistors and the Front End ^transistors-and-the-front
 
 Three companies can build a 2 nm-class transistor. Shrinking stopped lowering the cost per transistor about a decade ago, and every gain since has come from extra process steps.
+
+%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
 
 {--{"author":"James's AI","timestamp":1790594010814}@@1,553--}{++{"author":"James's AI","timestamp":1790594010814}@@_1,553++} words / 7 {--{"author":"James's AI","timestamp":1790594010814}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594010814}@@min · Interactive 3D Specimen:++} gate-all-around transistor{++{"author":"James's AI","timestamp":1790594010814}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#transistors-and-front-end))_++}
 
@@ -1752,6 +1758,8 @@ This reaches 5 nm-class features. CSIS judges that China still cannot build a wo
 
 TSMC runs six plants that each print more than 100,000 wafers a month. All six are in Taiwan, and they hold 13 of the 17 million wafers a year the company can make.
 
+%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+
 {--{"author":"James's AI","timestamp":1790594054051}@@1,391--}{++{"author":"James's AI","timestamp":1790594054051}@@_1,391++} words / 6 {--{"author":"James's AI","timestamp":1790594054051}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594054051}@@min · Interactive 3D Specimen:++} wafer carrier (FOUP){++{"author":"James's AI","timestamp":1790594054051}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#foundries-and-fabs))_++}
 
 **In plain terms**
@@ -1939,6 +1947,8 @@ China has more capacity than any other region, but SMIC cannot buy an EUV machin
 
 Three firms make every HBM stack in the world. The stack is the largest block of silicon in an AI package, and the cooling plate above it now limits how tall it can be.
 
+%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+
 {--{"author":"James's AI","timestamp":1790594081113}@@1,396--}{++{"author":"James's AI","timestamp":1790594081113}@@_1,396++} words / 6 {--{"author":"James's AI","timestamp":1790594081113}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594081113}@@min · Interactive 3D Specimen:++} HBM stack{++{"author":"James's AI","timestamp":1790594081113}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#memory-and-hbm))_++}
 
 **In plain terms**
@@ -1989,7 +1999,9 @@ Each layer in the cube is a DRAM chip, ground thin and bonded to the one below w
 
 An HBM3E cube talks to the processor over 1,024 wires at once, a 1,024-bit interface, sixteen times wider than a standard DDR5 memory module, the memory stick in a PC [1](https://www.micron.com/products/memory/hbm). HBM4 doubles that to 2,048 wires [2](https://www.jedec.org/news/pressreleases/jedec%C2%AE-and-industry-leaders-collaborate-release-jesd270-4-hbm4-standard-advancing). Ordinary memory cannot be made that wide, because the pins would not fit on a circuit board. The stack can, since its wires run down through the TSVs and across a few millimeters of silicon to the processor beside it, with no board in the way.
 
-{--{"author":"James's AI","timestamp":1790594485771}@@![](https://chipsupplychain.org/media/hbm-stack-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594485771}@@![Inside a memory stack](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-hbm-stack.jpg)++}
+{--{"author":"James's AI","timestamp":1790594485771}@@![](https://chipsupplychain.org/media/hbm-stack-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594485771}@@![Inside a memory stack](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-hbm-stack.jpg)++}{++{"author":"James's AI","timestamp":1790594889451}@@
+
+%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%++}
 
 **Figure: Inside a memory stack.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#memory-and-hbm)); above is its last frame. Its steps:
 
@@ -2145,6 +2157,8 @@ CXMT is the one Chinese firm that could plausibly get there. [[#^the-chokepoint-
 
 Lithography stopped being the limit on chip size in 2022. The limit now is how large an interposer, the silicon base plate under the chips, TSMC can build, and through 2025 how many it could build a month.
 
+%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+
 {--{"author":"James's AI","timestamp":1790594105097}@@1,402--}{++{"author":"James's AI","timestamp":1790594105097}@@_1,402++} words / 6 {--{"author":"James's AI","timestamp":1790594105097}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594105097}@@min · Interactive 3D Specimen:++} CoWoS package, exploded{++{"author":"James's AI","timestamp":1790594105097}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#advanced-packaging))_++}
 
 **In plain terms**
@@ -2195,7 +2209,9 @@ A lithography scanner prints a rectangle 26 mm by 33 mm, or 858 mm2, in one expo
 
 High bandwidth memory gives a second reason to split the package: its 1,024-bit or 2,048-bit connection, that many wires at once, is too wide for a resin base board to carry, so the memory sits beside the logic on a shared silicon carrier, the interposer.
 
-{--{"author":"James's AI","timestamp":1790594486350}@@![](https://chipsupplychain.org/media/package-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594486350}@@![The parts of an AI accelerator](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-package.jpg)++}
+{--{"author":"James's AI","timestamp":1790594486350}@@![](https://chipsupplychain.org/media/package-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594486350}@@![The parts of an AI accelerator](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-package.jpg)++}{++{"author":"James's AI","timestamp":1790594891017}@@
+
+%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%++}
 
 **Figure: The parts of an AI accelerator.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#advanced-packaging)); above is its last frame. Its steps:
 
@@ -2365,6 +2381,8 @@ China packages chips at scale, but almost none on the silicon slab AI chips need
 ## Substrates and PCBs ^substrates-and-pcbs
 
 A Japanese food company makes 95 percent of the insulating film inside high-end chip packages, and a Japanese textile company weaves the glass cloth beneath it.
+
+%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
 
 {--{"author":"James's AI","timestamp":1790594139009}@@1,356--}{++{"author":"James's AI","timestamp":1790594139009}@@_1,356++} words / 6 {--{"author":"James's AI","timestamp":1790594139009}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594139009}@@min · Interactive 3D Specimen:++} substrate layers{++{"author":"James's AI","timestamp":1790594139009}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#substrates-and-pcbs))_++}
 
@@ -2560,6 +2578,8 @@ The makers are in Japan, Taiwan, Korea and China. [[#^who-makes-it-12|Reread: Wh
 
 Assembly and test decide which dies are allowed into a package that costs more than a car. One Japanese firm now sells two thirds of the world's chip testers.
 
+%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+
 {--{"author":"James's AI","timestamp":1790594172728}@@1,251--}{++{"author":"James's AI","timestamp":1790594172728}@@_1,251++} words / 5 {--{"author":"James's AI","timestamp":1790594172728}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594172728}@@min · Interactive 3D Specimen:++} probe card{++{"author":"James's AI","timestamp":1790594172728}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#test-and-assembly))_++}
 
 **In plain terms**
@@ -2752,6 +2772,8 @@ Four of the top ten assembly and test firms are Chinese, and their tools face fa
 
 A finished package is useless until it is bolted to a baseboard, fed a thousand amps and wired to seventy-one other packages. Many firms can do the assembly; few can make the lasers for the optical links.
 
+%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+
 {--{"author":"James's AI","timestamp":1790594204015}@@1,325--}{++{"author":"James's AI","timestamp":1790594204015}@@_1,325++} words / 6 {--{"author":"James's AI","timestamp":1790594204015}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594204015}@@min · Interactive 3D Specimen:++} GPU baseboard{++{"author":"James's AI","timestamp":1790594204015}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#systems-and-networking))_++}
 
 **In plain terms**
@@ -2800,7 +2822,9 @@ A package computes nothing until it is built into a machine, and building the ma
 
 ### How it works ^how-it-works-14
 
-{--{"author":"James's AI","timestamp":1790594487457}@@![](https://chipsupplychain.org/media/racks-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594487457}@@![How AI chips are wired together](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-racks.jpg)++}
+{--{"author":"James's AI","timestamp":1790594487457}@@![](https://chipsupplychain.org/media/racks-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594487457}@@![How AI chips are wired together](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-racks.jpg)++}{++{"author":"James's AI","timestamp":1790594894393}@@
+
+%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%++}
 
 **Figure: How AI chips are wired together.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#systems-and-networking)); above is its last frame. Its steps:
 
