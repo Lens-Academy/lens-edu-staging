@@ -134,32 +134,32 @@ id:: 62940ae5-0099-48e2-9e74-2be63c39d0be
 content:: How would you rate your knowledge of AI control topics before taking this course?
 scale:: 10
 labels::
-- No knowledge
-- Very little knowledge
-- Limited knowledge
-- Basic knowledge
-- Neutral midpoint
-- Working knowledge
-- Good knowledge
-- Strong knowledge
-- Very strong knowledge
-- Expert knowledge
+- No knowledge of these topics
+- Heard of a few terms
+- Know a few basic ideas
+- Could explain the basics
+- Know the main ideas, with gaps
+- Can follow expert discussions
+- Could explain most topics to a newcomer
+- Could discuss most topics with experts
+- Could teach this course
+- Expert in this field
 
 #### Question: Rating
 id:: 479608f6-7dc3-448f-8887-7402067a5b66
 content:: How would you rate your knowledge of AI control topics after taking this course?
 scale:: 10
 labels::
-- No knowledge
-- Very little knowledge
-- Limited knowledge
-- Basic knowledge
-- Neutral midpoint
-- Working knowledge
-- Good knowledge
-- Strong knowledge
-- Very strong knowledge
-- Expert knowledge
+- No knowledge of these topics
+- Heard of a few terms
+- Know a few basic ideas
+- Could explain the basics
+- Know the main ideas, with gaps
+- Can follow expert discussions
+- Could explain most topics to a newcomer
+- Could discuss most topics with experts
+- Could teach this course
+- Expert in this field
 
 #### Question: Rating
 id:: 3e896eed-bfbe-4ab1-bc23-f378c304ce4a
