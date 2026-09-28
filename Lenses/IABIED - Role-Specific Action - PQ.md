@@ -12,7 +12,8 @@ authors:
 id:: e0f54529-99e9-4fe4-ba3c-def008e04380
 content:: Before reading the second part of Chapter 14: Imagine you're fully convinced that a technology poses a serious extinction risk. What would you actually do about it? Does your answer change depending on your role: whether you're a government leader, a politician, a journalist, or an ordinary person? Write down your thinking before you read.
 
-assessment-instructions::
+force-feedback:: first
+feedback-instructions::
 The student is about to read the second section of Chapter 14 ("Where There's Life, There's Hope") of "If Anyone Builds It, Everyone Dies."
 
 They just answered: "What would you actually do if you were convinced AI poses an extinction risk — and does it depend on your role?"
