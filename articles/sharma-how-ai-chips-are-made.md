@@ -2098,25 +2098,25 @@ Who leads
 -   {--{"author":"James's AI","timestamp":1790594111908}@@TWASE Technology--}{++{"author":"James's AI","timestamp":1790594111908}@@TW · **ASE Technology**:++} NT$645.4B revenue, 2025; the largest outsourced assembly and test firm
 -   {--{"author":"James's AI","timestamp":1790594112862}@@USAmkor--}{++{"author":"James's AI","timestamp":1790594112862}@@US · **Amkor**:++} $6.71B net sales, 2025; the largest American assembly and test firm
 -   {--{"author":"James's AI","timestamp":1790594114009}@@CNJCET--}{++{"author":"James's AI","timestamp":1790594114009}@@CN · **JCET**:++} RMB 35.96B revenue, 2024; the largest Chinese assembly and test firm
--   SGASMPT $532.1M advanced packaging revenue, 2025; thermocompression bonders
+-   {--{"author":"James's AI","timestamp":1790594114907}@@SGASMPT--}{++{"author":"James's AI","timestamp":1790594114907}@@SG · **ASMPT**:++} $532.1M advanced packaging revenue, 2025; thermocompression bonders
 
 Where it is made
 
--   TWTaiwan TSMC AP fabs and the OSAT cluster; almost all 2.5D capacity for AI accelerators
--   USUnited States Amkor Peoria, Arizona from 2028; two TSMC advanced packaging plants planned in Arizona
--   CNChina JCET, Tongfu and HT-Tech, strong in conventional assembly and test, weak in 2.5D
--   NLNetherlands Besi hybrid and die bonders
--   JPJapan Disco grinders and dicers; TEL and Shibaura bonding tools
+-   {--{"author":"James's AI","timestamp":1790594116747}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790594116747}@@TW · **Taiwan**:++} TSMC AP fabs and the OSAT cluster; almost all 2.5D capacity for AI accelerators
+-   {--{"author":"James's AI","timestamp":1790594117620}@@USUnited States--}{++{"author":"James's AI","timestamp":1790594117620}@@US · **United States**:++} Amkor Peoria, Arizona from 2028; two TSMC advanced packaging plants planned in Arizona
+-   {--{"author":"James's AI","timestamp":1790594118319}@@CNChina--}{++{"author":"James's AI","timestamp":1790594118319}@@CN · **China**:++} JCET, Tongfu and HT-Tech, strong in conventional assembly and test, weak in 2.5D
+-   {--{"author":"James's AI","timestamp":1790594120048}@@NLNetherlands--}{++{"author":"James's AI","timestamp":1790594120048}@@NL · **Netherlands**:++} Besi hybrid and die bonders
+-   {--{"author":"James's AI","timestamp":1790594120963}@@JPJapan--}{++{"author":"James's AI","timestamp":1790594120963}@@JP · **Japan**:++} Disco grinders and dicers; TEL and Shibaura bonding tools
 
 Why substitution is possible
 
 None of the packaging steps is unusual, and Intel's EMIB does the same job when TSMC's CoWoS is sold out. The hard part is volume. A newcomer has to buy enough bonding machines and run enough practice lots to make the interposer, the silicon base plate under the chips, at 5.5 times the area a scanner prints in one shot. It then has to attach the memory stacks, have them work, and do all of that at the volume Nvidia alone orders. Amkor's plant in Peoria, Arizona shows the timing: production starts in early 2028, so the wait is two to five years.
 
-Where China stands
+**Where China stands**
 
 China is far stronger at packaging and testing chips than at making them. JCET alone had revenue of RMB 35.96 billion in 2024. Chinese tool makers gained share in packaging and test tools while gaining none in atomic layer deposition or lithography. Almost none of that Chinese packaging is built on a silicon interposer, the kind AI accelerators need.
 
-Where the US stands
+**Where the US stands**
 
 No firm yet does CoWoS-class packaging in volume in the United States. Amkor is building a $7B packaging and test plant in Peoria, Arizona, with up to $407M of CHIPS Act money, and production starts in early 2028.
 
@@ -2164,7 +2164,7 @@ In October 2025 Wei would still say only that TSMC would add capacity again in 2
 
 Epoch AI weighs each designer's component use against world supply and puts Nvidia at 60.3 percent of all CoWoS in 2025, with a 90 percent confidence interval of 56.5 to 64.3; Google took 13.5, AMD 8.4 and Amazon 7.4 [9](https://epoch.ai/data-insights/ai-chip-supply-chain-constraints). Those four absorbed around 90 percent of all CoWoS and all HBM by value while taking about 12 percent of the world's advanced logic wafers, which is why packaging ran out and logic did not.
 
-Who consumed the world's CoWoS capacity, 2025%
+**Chart:** Who consumed the world's CoWoS capacity, 2025 (%)
 
 Nvidia **60.3%** Google **13.5%** AMD **8.4%** Amazon **7.4%** Everyone else **10.4%**
 
