@@ -58,7 +58,7 @@ options::
 - Masters
 - PhD
 - PostDoc / Professor
-- Early career (up to 3 years)
+- Early career (up to 3 years o)
 - Mid career (3–10 years)
 - Expert career (10+ years)
 required:: true
