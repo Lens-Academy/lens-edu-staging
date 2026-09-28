@@ -557,9 +557,9 @@ As of 2021 five firms held more than 60 percent of wet chemicals, and DuPont and
 
 Supply at this stage has been disrupted twice since 2019, once by a government and once by a war.
 
-In July 2019 Japan put photoresist, hydrogen fluoride and fluorinated polyimide under individual for South Korea. It had supplied more than 90 percent of Korean imports of two of the three, and hydrogen fluoride exports fell 87.9 percent [11](https://www.rieti.go.jp/en/columns/v01_0201.html). Korea kept its fabs running and spent five years funding domestic substitutes, which is what materials controls usually produce.
+In July 2019 Japan put photoresist, hydrogen fluoride and fluorinated polyimide under individual export licenses for South Korea. It had supplied more than 90 percent of Korean imports of two of the three, and hydrogen fluoride exports fell 87.9 percent [11](https://www.rieti.go.jp/en/columns/v01_0201.html). Korea kept its fabs running and spent five years funding domestic substitutes, which is what materials controls usually produce.
 
-In 2022 Russia invaded Ukraine, which supplied about 70 percent of the world's and 90 percent of the semiconductor-grade neon used by US industry [12](https://www.csis.org/blogs/perspectives-innovation/russias-invasion-ukraine-impacts-gas-markets-critical-chip-production). Buyers had stockpiled since the 2014 annexation of Crimea, and Korean and Japanese chipmakers reported adequate neon from China instead [12](https://www.csis.org/blogs/perspectives-innovation/russias-invasion-ukraine-impacts-gas-markets-critical-chip-production).
+In 2022 Russia invaded Ukraine, which supplied about 70 percent of the world's neon and 90 percent of the semiconductor-grade neon used by US industry [12](https://www.csis.org/blogs/perspectives-innovation/russias-invasion-ukraine-impacts-gas-markets-critical-chip-production). Buyers had stockpiled since the 2014 annexation of Crimea, and Korean and Japanese chipmakers reported adequate neon from China instead [12](https://www.csis.org/blogs/perspectives-innovation/russias-invasion-ukraine-impacts-gas-markets-critical-chip-production).
 
 China's export controls fall on the metals. Beijing announced export licenses for gallium and germanium in July 2023, in force from August, then banned both, plus antimony and superhard materials, to the United States in December 2024 [13](https://www.stimson.org/2025/chinas-germanium-and-gallium-export-restrictions-consequences-for-the-united-states/). In November 2025 it lifted the gallium ban for one year [14](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf).
 
@@ -1150,7 +1150,7 @@ The market sizes and leading shares below are CSET's for 2025, which it builds f
 
 AI hardware asks for sideways cuts, deeper holes and a second metal stack on the wafer's back.
 
--   **Gate-all-around** needs isotropic etch, which cuts sideways, to release the silicon nanosheets from the silicon-germanium between them, and ties its dry etch controls to exactly that [9](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf).
+-   **Gate-all-around** needs isotropic etch, which cuts sideways, to release the silicon nanosheets from the silicon-germanium between them, and BIS ties its dry etch controls to exactly that [9](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf).
 -   **HBM** needs holes etched straight through the silicon so chips can be stacked and wired, which BIS controls at 10:1 or deeper above 7 microns a minute [14](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).
 -   **Backside power delivery** adds thinning, backside vias and a second metal stack. Applied Materials expects it to add about $1 billion per 100,000 wafer starts a month to its wiring business [15](https://www.globenewswire.com/news-release/2024/07/08/2909540/0/en/applied-materials-unveils-chip-wiring-innovations-for-more-energy-efficient-computing.html).
 
@@ -1187,7 +1187,7 @@ Between 2019 and 2024 China-based suppliers went from 2 to 7 percent of depositi
 
 Washington tightened these rules four times between 2022 and 2025.
 
--   **October 2022.** The 7 October interim final rule put manufacturing equipment and support under license and widened for 28 listed Chinese entities [22](https://www.govinfo.gov/content/pkg/FR-2022-10-13/pdf/2022-21658.pdf).
+-   **October 2022.** The 7 October interim final rule put manufacturing equipment and US person support under license and widened foreign-produced item rules for 28 listed Chinese entities [22](https://www.govinfo.gov/content/pkg/FR-2022-10-13/pdf/2022-21658.pdf).
 -   **October 2023.** The rule effective 17 November rewrote the equipment entries, adding isotropic and anisotropic dry etch (ECCN 3B001.c.1), spatial ALD (3B001.d.9), low-fluorine tungsten ALD and CVD (3B001.d.10) and carbon hard mask PECVD (3B001.d.5) [9](https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23049.pdf).
 -   **December 2024.** BIS controlled 24 more types of equipment and three types of software, added 140 entities and wrote a foreign direct product rule that reaches tools built outside the United States [23](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military). The new entries take in TSV etch and deposition into features deeper than 200:1 [14](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).
 -   **September 2025.** The Affiliates Rule extended Entity List restrictions to any company at least 50 percent owned by a listed entity [24](https://www.govinfo.gov/content/pkg/FR-2025-09-30/pdf/2025-19001.pdf); BIS then stayed it to 9 November 2026 [25](https://www.govinfo.gov/content/pkg/FR-2025-11-12/pdf/2025-19846.pdf).
@@ -1210,7 +1210,7 @@ The chokepoint is real but weaker than lithography's. Three or four credible ven
 -   **Conformality and aspect ratio.** Whether a film reaches the bottom of a hole, and how deep that hole is against its width. Controls start at 10:1 for TSV etch and 200:1 for 3D DRAM deposition [14](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).
 -   **Uniformity.** Variation across a 300 mm wafer, with under 2 percent treated as an advanced-manufacturing marker [14](https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf).
 -   **Throughput.** Wafers per hour, which sets cost per layer and decides how many lots a fab can run.
--   **Particles and chamber matching.** How large a share of the defects a fab can tolerate comes from these tools, and whether one chamber behaves like the next, which measure (see [[#^metrology-and-inspection|Metrology and inspection]]).
+-   **Particles and chamber matching.** How large a share of the defects a fab can tolerate comes from these tools, and whether one chamber behaves like the next, which {++{"author":"James's AI","timestamp":1790593576251}@@metrology and inspection ++}measure (see [[#^metrology-and-inspection|Metrology and inspection]]).
 
 Card 1 of 4Question
 
@@ -1340,7 +1340,7 @@ Process control is about a tenth of what a fab spends on tools, out of a wafer e
 
 ### How it works ^how-it-works-7
 
-An inspection tool sweeps a beam of light across the wafer, photographs it, and compares the image of each with the image of its neighbors. The chips on a wafer are meant to be identical, so anything that shows in one and not the others is a defect, and the tool records where it is. For faults too small for light to show, a second tool scans a beam of electrons across a small patch and builds a picture from the electrons that bounce back.
+An inspection tool sweeps a beam of light across the wafer, photographs it, and compares the image of each chip with the image of its neighbors. The chips on a wafer are meant to be identical, so anything that shows in one and not the others is a defect, and the tool records where it is. For faults too small for light to show, a second tool scans a beam of electrons across a small patch and builds a picture from the electrons that bounce back.
 
 A metrology tool measures known shapes. It shines light on a test pattern printed beside the circuits and works out from the scatter how wide the lines are and how thick the film is, and it reads marks printed in this layer and the last to measure how far the two are out of line, which is overlay.
 
@@ -1753,7 +1753,7 @@ Every plant TSMC and its subsidiaries run came to more than 17 million wafers a 
 
 #### Pure-play foundries ^pure-play-foundries
 
-TSMC and UMC build only for others. Chips at 7 and below, meaning the newest processes, were 77 percent of TSMC's wafer revenue in the second quarter of 2026, split 33 percent at 5 nm, 30 at 3 nm, 11 at 7 nm and 3 at 2 nm, on revenue of $40.20 billion at a 67.7 percent gross margin [4](https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm). No other foundry earns that margin, so none can fund the next out of cash flow.
+TSMC and UMC build only for others. Chips at 7 nm and below, meaning the newest processes, were 77 percent of TSMC's wafer revenue in the second quarter of 2026, split 33 percent at 5 nm, 30 at 3 nm, 11 at 7 nm and 3 at 2 nm, on revenue of $40.20 billion at a 67.7 percent gross margin [4](https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm). No other foundry earns that margin, so none can fund the next node out of cash flow.
 
 TSMC wafer revenue by node, 2Q26% of wafer revenue
 
@@ -1949,7 +1949,7 @@ Micron ships the high-volume parts, 24 GB with eight chips stacked and 36 GB wit
 
 #### HBM4 ^hbm4
 
-The standards body published JESD270-4 in April 2025, setting the 2,048-bit interface and 2 TB/s per stack at 8 Gb/s per pin [2](https://www.jedec.org/news/pressreleases/jedec%C2%AE-and-industry-leaders-collaborate-release-jesd270-4-hbm4-standard-advancing). Nobody ships at that baseline: SK hynix completed HBM4 at over 10 Gb/s per pin in September 2025 [5](https://news.skhynix.com/en/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/), and Micron's parts run above 11 Gb/s for more than 2.8 TB/s per stack [6](https://www.micron.com/products/memory/hbm/hbm4).
+The standards body JEDEC published JESD270-4 in April 2025, setting the 2,048-bit interface and 2 TB/s per stack at 8 Gb/s per pin [2](https://www.jedec.org/news/pressreleases/jedec%C2%AE-and-industry-leaders-collaborate-release-jesd270-4-hbm4-standard-advancing). Nobody ships at that baseline: SK hynix completed HBM4 at over 10 Gb/s per pin in September 2025 [5](https://news.skhynix.com/en/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/), and Micron's parts run above 11 Gb/s for more than 2.8 TB/s per stack [6](https://www.micron.com/products/memory/hbm/hbm4).
 
 The chip at the bottom of an HBM4 stack is now a logic chip, so it has to be made in a foundry, and SK hynix partnered with TSMC to build it [7](https://news.skhynix.com/sk-hynix-partners-with-tsmc-to-strengthen-hbm-technological-leadership/). That gives TSMC a role inside a product it does not make.
 
@@ -2144,9 +2144,9 @@ Each of those packaging steps is ordinary on its own. But one cracked joint scra
 
 #### 2.5D: silicon, RDL and bridges ^2-5d-silicon-rdl
 
-TSMC has run CoWoS since 2012 [2](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm). CoWoS-S wires most finely, but its interposer is one unbroken piece of silicon whose falls as the area grows, so CoWoS-L replaces the slab with fine wiring and small silicon bridges only where the wiring is dense. Intel's EMIB buries the same bridge idea in the resin substrate, and is a credible when CoWoS capacity is short.
+TSMC has run CoWoS in volume since 2012 [2](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm). CoWoS-S wires most finely, but its interposer is one unbroken piece of silicon whose yield falls as the area grows, so CoWoS-L replaces the slab with fine wiring and small silicon bridges only where the wiring is dense. Intel's EMIB buries the same bridge idea in the resin substrate, and is a credible second source when CoWoS capacity is short.
 
-Blackwell was the first high-volume design on CoWoS-L, and it went badly. The bridges carrying the 10 link between the two compute dies have to be placed to a tolerance that warping makes hard to hold [3](https://semianalysis.com/2024/08/04/nvidias-blackwell-reworked-shipment/).
+Blackwell was the first high-volume design on CoWoS-L, and it went badly. The bridges carrying the 10 TB/s link between the two compute dies have to be placed to a tolerance that warping makes hard to hold [3](https://semianalysis.com/2024/08/04/nvidias-blackwell-reworked-shipment/).
 
 #### 3D: SoIC, Foveros, X-Cube ^3d-soic-foveros-x-cube
 
@@ -2203,7 +2203,7 @@ JCET, the largest Chinese assembler, billed RMB 35.96 billion in 2024, up 21 per
 Each generation on TSMC's roadmap needs a larger interposer.
 
 -   **2028.** A 14-reticle interposer carrying about ten large compute dies and 20 HBM stacks, roughly 12,000 mm2 of silicon, about the area of a compact disc [5](https://pr.tsmc.com/english/news/3302).
--   **2029.** More than 14, and a 40-reticle System-on-Wafer beside it [5](https://pr.tsmc.com/english/news/3302).
+-   **2029.** More than 14 reticles, and a 40-reticle System-on-Wafer beside it [5](https://pr.tsmc.com/english/news/3302).
 
 ### Key evaluation criteria ^key-evaluation-criteria-11
 
@@ -2335,15 +2335,15 @@ On TSMC's July 2026 earnings call, chief executive C.C. Wei said packaging capac
 
 ### How it works ^how-it-works-12
 
-The substrate maker drills the core and plates it with copper before the build-up starts. Each cycle then presses on a film of epoxy about 10 thick, burns holes through it with a laser, plates copper into the holes to link the layers, and etches the wiring on top [2](https://www.ajinomoto.com/stories/the-ajinomoto-groups-unexpected-role-in-semiconductor-manufacturing-the-insulating-film-abf-born-from-aminoscience). A human hair is ten times thicker than one of those films [3](https://www.ajinomoto.co.jp/company/en/ir/event/business_briefing/main/01113/teaserItems1/01/linkList/00/link/3_ICT_E.pdf).
+The substrate maker drills the core and plates it with copper before the build-up starts. Each cycle then presses on a film of epoxy about 10 micrometers thick, burns holes through it with a laser, plates copper into the holes to link the layers, and etches the wiring on top [2](https://www.ajinomoto.com/stories/the-ajinomoto-groups-unexpected-role-in-semiconductor-manufacturing-the-insulating-film-abf-born-from-aminoscience). A human hair is ten times thicker than one of those films [3](https://www.ajinomoto.co.jp/company/en/ir/event/business_briefing/main/01113/teaserItems1/01/linkList/00/link/3_ICT_E.pdf).
 
-Silicon and epoxy swell at different rates when heated, so the larger the package, the more it warps. AI parts are the largest: Ajinomoto counts 18 layers of its film in a substrate against six in a PC part, on a body three and a half times the area [3](https://www.ajinomoto.co.jp/company/en/ir/event/business_briefing/main/01113/teaserItems1/01/linkList/00/link/3_ICT_E.pdf). The fix is a core that barely expands, which means low-expansion glass cloth and tighter control of the resin.
+Silicon and epoxy swell at different rates when heated, so the larger the package, the more it warps. AI parts are the largest: Ajinomoto counts 18 layers of its film in a high-performance computing substrate against six in a PC part, on a body three and a half times the area [3](https://www.ajinomoto.co.jp/company/en/ir/event/business_briefing/main/01113/teaserItems1/01/linkList/00/link/3_ICT_E.pdf). The fix is a core that barely expands, which means low-expansion glass cloth and tighter control of the resin.
 
 ### Variants and trade-offs ^variants-and-trade-offs-12
 
 #### BT substrates ^bt-substrates
 
-Bismaleimide-triazine, or BT, is the cheaper and older family. It still leads on unit volume and suits memory stacks and mobile parts, but it cannot hold the fine wiring or the flatness a large logic die needs.
+Bismaleimide-triazine laminate, or BT, is the cheaper and older family. It still leads on unit volume and suits memory stacks and mobile parts, but it cannot hold the fine wiring or the flatness a large logic die needs.
 
 #### ABF build-up substrates ^abf-build-up-substrates
 
@@ -2525,7 +2525,7 @@ Where the US stands
 
 American firms are strong in test machines and probe cards, the beds of pins that touch each chip on the wafer: Teradyne, FormFactor, Cohu and Aehr. They are weak in assembly. Amkor is building a $7 billion packaging and test campus in Arizona and has a long-term deal with TSMC to fill it.
 
-Semiconductor manufacturing runs to 400 to 600 steps, and Advantest counts test as the only one that puts electricity through the [1](https://www.advantest.com/document/en/investors/ir-library/investors-guide/Investors_Guide_2504E.pdf). Every stage so far makes dies; the back end of the industry, assembly and test, decides which of them are allowed into a package.
+Semiconductor manufacturing runs to 400 to 600 steps, and Advantest counts test as the only one that puts electricity through the [1](https://www.advantest.com/document/en/investors/ir-library/investors-guide/Investors_Guide_2504E.pdf) chip . Every stage so far makes dies; the back end of the industry, assembly and test, decides which of them are allowed into a package.
 
 ### How it works ^how-it-works-13
 
@@ -2542,7 +2542,7 @@ Proving a die good before it is packaged is now worth far more. Aehr screens for
 
 #### Wafer sort and known-good die ^wafer-sort-and-known-good
 
-The probe card that holds those needles is the hard part. For a high-bandwidth memory stack it must contact eight, twelve or sixteen dies at speed without degrading the signals [4](https://www.sec.gov/Archives/edgar/data/1039399/000103939926000009/form-20251227.htm). For a large logic die every needle must sit in the same plane, survive repeated touchdowns without drifting, and do it hot. Cards are custom to the device, so each new part means a new card and a new.
+The probe card that holds those needles is the hard part. For a high-bandwidth memory stack it must contact eight, twelve or sixteen dies at speed without degrading the signals [4](https://www.sec.gov/Archives/edgar/data/1039399/000103939926000009/form-20251227.htm). For a large logic die every needle must sit in the same plane, survive repeated touchdowns without drifting, and do it hot. Cards are custom to the device, so each new part means a new card and a new qualification.
 
 #### Final test, burn-in and system-level test ^final-test-burn-in-and
 
@@ -2576,11 +2576,11 @@ Thermocompression bonders, which press memory dies into a stack and place chiple
 
 ### The back end's geography ^the-back-ends-geography
 
-Outsourced assembly and test, the OSAT business, is Taiwanese with a large Chinese challenger. ASE, the biggest, billed $20.6 billion in 2025 [18](https://data.sec.gov/api/xbrl/companyconcept/CIK0001122411/ifrs-full/Revenue.json); Georgetown's CSET counts four of the top ten OSATs by 2024 revenue as China-headquartered [19](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/). Malaysia ships about 13 percent of the world's packaged chips and wants 7 percent of shipments by 2035 [20](https://www.mida.gov.my/advanced-packaging-how-malaysia-is-packaging-the-future-of-ai/).
+Outsourced assembly and test, the OSAT business, is Taiwanese with a large Chinese challenger. ASE, the biggest, billed $20.6 billion in 2025 [18](https://data.sec.gov/api/xbrl/companyconcept/CIK0001122411/ifrs-full/Revenue.json); Georgetown's CSET counts four of the top ten OSATs by 2024 revenue as China-headquartered [19](https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive/). Malaysia ships about 13 percent of the world's packaged chips and wants 7 percent of advanced packaging shipments by 2035 [20](https://www.mida.gov.my/advanced-packaging-how-malaysia-is-packaging-the-future-of-ai/).
 
-ASE spent $2.7 billion on machinery and $1.4 billion on buildings in the first half of 2026, and says revenue from advanced packaging is running ahead of its $3.5 billion guidance for the year [21](https://www.sec.gov/Archives/edgar/data/1122411/000095010326011353/dp250875_6k.htm). Powertech aims to run the first panel-level packaging line for AI chips in 2027 [22](https://asia.nikkei.com/business/tech/semiconductors/powertech-eyes-world-s-first-panel-level-packaging-for-ai-chips-in-2027).
+ASE spent $2.7 billion on machinery and $1.4 billion on buildings in the first half of 2026, and says revenue from leading-edge advanced packaging is running ahead of its $3.5 billion guidance for the year [21](https://www.sec.gov/Archives/edgar/data/1122411/000095010326011353/dp250875_6k.htm). Powertech aims to run the first panel-level packaging line for AI chips in 2027 [22](https://asia.nikkei.com/business/tech/semiconductors/powertech-eyes-world-s-first-panel-level-packaging-for-ai-chips-in-2027).
 
-Amkor took $6.71 billion of revenue in 2025 [23](https://data.sec.gov/api/xbrl/companyconcept/CIK0001047127/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json), and $1.90 billion in the second quarter of 2026 alone, up 26 percent year on year [24](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000043/amkr6302026erex-991.htm). It has expanded its Arizona campus to a $7 billion investment [25](https://ir.amkor.com/news-releases/news-release-details/amkor-technology-breaks-ground-new-semiconductor-advanced). Under a partnership signed in June 2026 [26](https://ir.amkor.com/news-releases/news-release-details/tsmc-and-amkor-technology-announce-long-term-partnership) it will run packaging and test there for TSMC, whose Phoenix sit next door [27](https://pr.tsmc.com/english/news/3174).
+Amkor took $6.71 billion of revenue in 2025 [23](https://data.sec.gov/api/xbrl/companyconcept/CIK0001047127/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json), and $1.90 billion in the second quarter of 2026 alone, up 26 percent year on year [24](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000043/amkr6302026erex-991.htm). It has expanded its Arizona campus to a $7 billion investment [25](https://ir.amkor.com/news-releases/news-release-details/amkor-technology-breaks-ground-new-semiconductor-advanced). Under a partnership signed in June 2026 [26](https://ir.amkor.com/news-releases/news-release-details/tsmc-and-amkor-technology-announce-long-term-partnership) it will run packaging and test there for TSMC, whose Phoenix fabs sit next door [27](https://pr.tsmc.com/english/news/3174).
 
 Testers installed at ASE, the largest assembly and test contractortesters
 
@@ -2739,7 +2739,7 @@ The designs differ in how many accelerators can share one pool of memory.
 
 -   **NVLink and NVSwitch.** Nvidia's per-GPU bandwidth went from 900 GB/s in NVLink 4 to 1,800 in NVLink 5 and 3,600 in NVLink 6; the rack's own network moves 130 TB/s on Blackwell and 260 TB/s on Rubin [3](https://www.nvidia.com/en-us/data-center/nvlink/).
 -   **UALink.** The open answer runs 200 Gb/s per lane, four lanes to a station for 800 Gb/s, and can address up to 1,024 endpoints in one group [4](https://ualinkconsortium.org/blog/ualink-200g-1-0-specification-overview-802/).
--   **Google's 3D torus.** Ironwood, the seventh generation of Google's own accelerator, wires 64 chips to a rack and uses optical switches to join cubes into superpods of 9,216 chips, trading latency for the ability to route around a failed rack in software [5](https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack).
+-   **Google's 3D torus.** Ironwood, the seventh generation of Google's own TPU accelerator, wires 64 chips to a rack and uses optical switches to join cubes into superpods of 9,216 chips, trading latency for the ability to route around a failed rack in software [5](https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack).
 
 NVLink bandwidth per GPU by generationGB/s
 
@@ -2761,7 +2761,7 @@ Nvidia sells both networks, telling investors that a $75.2 billion data center q
 
 #### Optics: pluggable, then co-packaged ^optics-pluggable-then-co-packaged
 
-Every link longer than a few meters is optical, and a cluster needs several transceivers, the modules that turn electricity into light and back, for each accelerator. Their power cost is why both switch vendors are moving the optics onto the switch package itself: Broadcom's Tomahawk 6 Davisson cuts optical interconnect power by about 70 percent, more than 3.5 times better than [11](https://www.broadcom.com/company/news/product-releases/63626), and Nvidia's Spectrum-X Photonics reaches 512 ports of 800 gigabits during 2026 using four times fewer lasers [12](https://nvidianews.nvidia.com/news/nvidia-spectrum-x-co-packaged-optics-networking-switches-ai-factories).
+Every link longer than a few meters is optical, and a cluster needs several transceivers, the modules that turn electricity into light and back, for each accelerator. Their power cost is why both switch vendors are moving the optics onto the switch package itself: Broadcom's Tomahawk 6 Davisson cuts optical interconnect power by about 70 percent, more than 3.5 times better than [11](https://www.broadcom.com/company/news/product-releases/63626) plug-in modules , and Nvidia's Spectrum-X Photonics reaches 512 ports of 800 gigabits during 2026 using four times fewer lasers [12](https://nvidianews.nvidia.com/news/nvidia-spectrum-x-co-packaged-optics-networking-switches-ai-factories).
 
 ### Who makes it ^who-makes-it-14
 
@@ -2775,13 +2775,13 @@ Physical assembly is done by Taiwanese firms. Foxconn booked NT$8.1 trillion of 
 
 ### The chokepoint ^the-chokepoint-14
 
-Several capable ODMs on three continents screw racks together, and the power supplies, cables and connectors have many suppliers. If Foxconn stopped tomorrow, Quanta and Wistron would absorb the volume in a couple of quarters.
+Several capable ODMs on three continents screw racks together, and the power {--{"author":"James's AI","timestamp":1790593589395}@@supplies,--}{++{"author":"James's AI","timestamp":1790593589395}@@supplier busbars,++} cables and connectors have many suppliers. If Foxconn stopped tomorrow, Quanta and Wistron would absorb the volume in a couple of quarters.
 
 The parts that cannot be replaced that fast are the components that go into the rack.
 
--   **Indium phosphide laser capacity.** The shortage is in material and space: Nvidia's answer was to buy into two laser makers [18](https://nvidianews.nvidia.com/news/nvidia-and-coherent-announce-strategic-partnership-to-develop-optics-technology-to-scale-next-generation-data-center-architecture), and the indium those lasers need is 70 percent Chinese [16](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-indium.pdf).
+-   **Indium phosphide laser capacity.** The shortage is in material and fab space: Nvidia's answer was to buy into two laser makers [18](https://nvidianews.nvidia.com/news/nvidia-and-coherent-announce-strategic-partnership-to-develop-optics-technology-to-scale-next-generation-data-center-architecture), and the indium those lasers need is 70 percent Chinese [16](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-indium.pdf).
 -   **NVSwitch.** Nobody else sells a scale-up switch of NVLink's bandwidth to all comers, which is what UALink exists to change [4](https://ualinkconsortium.org/blog/ualink-200g-1-0-specification-overview-802/).
--   **High-layer-count boards.** The boards, and the laminate they are built from, are concentrated in Taiwan and Japan; see [[#^substrates-and-pcbs]].
+-   **High-layer-count {++{"author":"James's AI","timestamp":1790593591656}@@circuit ++}boards.** The boards, and the {++{"author":"James's AI","timestamp":1790593591656}@@low-loss ++}laminate they are built from, are concentrated in Taiwan and Japan; see [[#^substrates-and-pcbs]].
 
 Optical module assembly is a separate case: concentrated, but not technically hard. Where the modules get built follows cost and policy, and it can change in a year or two.
 
@@ -2791,7 +2791,7 @@ Optical module assembly is a separate case: concentrated, but not technically ha
 -   **Bandwidth per accelerator** limits how far one model can be split across chips. NVLink 6 is 3,600 GB/s [3](https://www.nvidia.com/en-us/data-center/nvlink/).
 -   **Picojoules per bit** is the energy cost of moving data. Optics dominate network power at 800 gigabits and above, and co-packaging is more than 3.5 times better than plug-in modules [11](https://www.broadcom.com/company/news/product-releases/63626).
 -   **Serviceability** falls with co-packaged optics, which trade field-replaceable modules for a switch that goes back whole when a channel fails.
--   **Supply** is in the components: many firms assemble the modules; far fewer can make the lasers inside them.
+-   **Supply** concentration is in the components: many firms assemble the modules; far fewer can make the lasers inside them.
 
 Card 1 of 4Question
 
@@ -2913,15 +2913,15 @@ Where the US stands
 
 The United States has the demand and the money but cannot shorten the wait for equipment. Transformers and turbines both take years to arrive. Most large power transformers are imported, and no restarted nuclear reactor is running yet.
 
-For thirty years the semiconductor industry set the pace and everything downstream followed. A clears a in months; a takes three years, and before 2020 the same order took under one [1](https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%20signed%20by%20Secretary%20Granholm%20on%207-10-24.pdf).
+For thirty years the semiconductor industry set the pace and everything downstream followed. A wafer clears a leading-edge fab in months; a large power transformer takes three years, and before 2020 the same order took under one [1](https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%20signed%20by%20Secretary%20Granholm%20on%207-10-24.pdf).
 
 ### How it works ^how-it-works-15
 
-A is now the unit of AI compute. A draws up to 142 through eight 33 kW, the rack's own power supplies, more than ten times a conventional enterprise rack in the same floor area [2](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html).
+A rack is now the unit of AI compute. A GB300 NVL72 draws up to 142 kW through eight 33 kW power shelves, the rack's own power supplies, more than ten times a conventional enterprise rack in the same floor area [2](https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html).
 
-Between the grid and the rack, a substation steps the high voltage down with transformers. Switchgear, the building's heavy circuit breakers, can cut any part of the site off in a fault. Battery-backed supplies hold the load for the seconds it takes backup generators to start. Distribution boards split the feed among the rows of racks. At the back of each rack a, a solid copper bar doing a job a cable would melt at, carries the current down to the trays. Every one of those is heavy equipment with its own.
+Between the grid and the rack, a substation steps the high voltage down with transformers. Switchgear, the building's heavy circuit breakers, can cut any part of the site off in a fault. Battery-backed supplies hold the load for the seconds it takes backup generators to start. Distribution boards split the feed among the rows of racks. At the back of each rack a busbar, a solid copper bar doing a job a cable would melt at, carries the current down to the trays. Every one of those is heavy equipment with its own lead time.
 
-Heat leaves in water. on the packages pass it to a building loop that releases it outdoors, and Nvidia's Vera Rubin racks run 45 °C supply water, warm enough that many sites can skip chillers [3](https://blogs.nvidia.com/blog/gigawatt-ai-factories-ocp-vera-rubin).
+Heat leaves in water. Cold plates on the GPU packages pass it to a building loop that releases it outdoors, and Nvidia's Vera Rubin racks run 45 °C supply water, warm enough that many sites can skip chillers [3](https://blogs.nvidia.com/blog/gigawatt-ai-factories-ocp-vera-rubin).
 
 Nvidia is also moving rack distribution to 800 volts of direct current. Raising the voltage cuts the current for the same power, and heat in copper comes from current, so the same conductor carries over 150 percent more power and the 200 kg busbars feeding a single rack are no longer needed [3](https://blogs.nvidia.com/blog/gigawatt-ai-factories-ocp-vera-rubin).
 
@@ -2969,7 +2969,7 @@ Source: [GE Vernova second-quarter 2026 results, July 2026](https://www.sec.gov/
 
 ### Capacity and demand ^capacity-and-demand
 
-US data centers used 176 in 2023, 4.4 percent of national electricity, and Lawrence Berkeley National Laboratory projects 325 to 580 TWh by 2028, between 6.7 percent and 12 percent of the total [10](https://newscenter.lbl.gov/2025/01/15/berkeley-lab-report-evaluates-increase-in-electricity-demand-from-data-centers/). The Energy Information Administration expects national electricity use to rise 1 percent in 2026 and 3 percent in 2027, the fourth straight annual increase and the strongest four-year run since 2000 [11](https://www.eia.gov/pressroom/releases/press582.php).
+US data centers used 176 TWh in 2023, 4.4 percent of national electricity, and Lawrence Berkeley National Laboratory projects 325 to 580 TWh by 2028, between 6.7 percent and 12 percent of the total [10](https://newscenter.lbl.gov/2025/01/15/berkeley-lab-report-evaluates-increase-in-electricity-demand-from-data-centers/). The Energy Information Administration expects national electricity use to rise 1 percent in 2026 and 3 percent in 2027, the fourth straight annual increase and the strongest four-year run since 2000 [11](https://www.eia.gov/pressroom/releases/press582.php).
 
 US data center electricity use, actual and 2028 projection rangeTWh
 
@@ -2977,7 +2977,7 @@ US data center electricity use, actual and 2028 projection rangeTWh
 
 Source: [Lawrence Berkeley National Laboratory, December 2024](https://newscenter.lbl.gov/2025/01/15/berkeley-lab-report-evaluates-increase-in-electricity-demand-from-data-centers/)
 
-efficiency keeps the low case plausible: Google's Ironwood delivers twice the performance per watt of its predecessor [12](https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack). The energy per token, where a token is the chunk of text a model reads or writes, falls while total energy rises, because the number of tokens rises faster.
+Chip efficiency keeps the low case plausible: Google's Ironwood TPU delivers twice the performance per watt of its predecessor [12](https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack). The energy per token, where a token is the chunk of text a model reads or writes, falls while total energy rises, because the number of tokens rises faster.
 
 ### The chokepoint ^the-chokepoint-15
 
@@ -2989,7 +2989,7 @@ Behind that queue sit the equipment lead times.
 -   **Gas turbines.** GE Vernova will build 20 GW of turbines this year and is working toward 30 GW a year in 2030, against a backlog of 116 GW, close to six years of output [9](https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm).
 -   **Firm new generation**, the kind that runs whatever the weather. The one reactor restart with a data center buyer behind it, the 835 MW Crane plant, shut in 2019 and is still waiting on its license [6](https://www.energy.gov/articles/energy-department-closes-loan-restart-nuclear-power-plant-pennsylvania).
 
-The chip chain moves faster: and memory capacity have repeatedly expanded within a couple of years of the order. Money buys silicon capacity faster than it buys power capacity, and that difference decides how much of the 2026 turns into working compute.
+The chip chain moves faster: foundry and memory capacity have repeatedly expanded within a couple of years of the order. Money buys silicon capacity faster than it buys power capacity, and that difference decides how much of the 2026 capital spending turns into working compute.
 
 ### Key evaluation criteria ^key-evaluation-criteria-15
 
@@ -3081,11 +3081,11 @@ Building a Blackwell B200 costs about $6,400. Nvidia sells it for $30,000 to $40
 
 ### How it works ^how-it-works-16
 
-Three numbers set the cost of a, the finished rectangle of circuitry cut out of a.
+Three numbers set the cost of a die, the finished rectangle of circuitry cut out of a wafer.
 
 -   **Wafer price.** TSMC does not publish it. Epoch AI's model of Blackwell's custom TSMC 4NP process [2](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/) assumes about $17,000 for a 300 mm wafer [1](https://epoch.ai/data-insights/b200-cost-breakdown).
--   **Dies per wafer.** A wafer is a circle and dies are rectangles, so the edge of the disc goes to waste: an 800 die, near the largest a can print in one shot, fits 68 times.
--   **.** Defects land at random, so a bigger die is likelier to catch one. Epoch AI models the Blackwell die at 40 to 70 percent good, centered on 60 [1](https://epoch.ai/data-insights/b200-cost-breakdown).
+-   **Dies per wafer.** A wafer is a circle and dies are rectangles, so the edge of the disc goes to waste: an 800 mm2 die, near the largest a scanner can print in one shot, fits 68 times.
+-   **Yield.** Defects land at random, so a bigger die is likelier to catch one. Epoch AI models the Blackwell die at 40 to 70 percent good, centered on 60 [1](https://epoch.ai/data-insights/b200-cost-breakdown).
 
 Those three numbers put the two dies inside a B200 at about $900, 14 percent of the build [1](https://epoch.ai/data-insights/b200-cost-breakdown). Doubling the wafer price moves the whole bill by a few hundred dollars.
 
@@ -3093,11 +3093,11 @@ Those three numbers put the two dies inside a B200 at about $900, 14 percent of 
 
 #### Memory is the largest line ^memory-is-the-largest
 
-The 192 GB of beside those dies, sold as HBM3E, is the single largest line: about $2,900, 45 percent of the build, at $14 to $17 per gigabyte [1](https://epoch.ai/data-insights/b200-cost-breakdown). Nvidia controls that line least of all: three firms make the memory, and they sell every stack they can build.
+The 192 GB of high-bandwidth memory beside those dies, sold as HBM3E, is the single largest line: about $2,900, 45 percent of the build, at $14 to $17 per gigabyte [1](https://epoch.ai/data-insights/b200-cost-breakdown). Nvidia controls that line least of all: three firms make the memory, and they sell every stack they can build.
 
 #### Packaging, substrate and test ^packaging-substrate-and-test
 
-\-L, the TSMC process that mounts dies and memory on one carrier and wires them together, adds about $1,100, more than the logic dies it carries [1](https://epoch.ai/data-insights/b200-cost-breakdown). Packaging yield runs 65 to 95 percent, and a package that fails after the memory goes on throws away the dies and the memory with it, adding roughly $1,000 to every B200 that ships [1](https://epoch.ai/data-insights/b200-cost-breakdown)., board, test and assembly add $480 [1](https://epoch.ai/data-insights/b200-cost-breakdown). See [[#^advanced-packaging|Advanced packaging]] for why packaging capacity runs out first.
+\CoWoS-L, the TSMC process that mounts dies and memory on one carrier and wires them together, adds about $1,100, more than the logic dies it carries [1](https://epoch.ai/data-insights/b200-cost-breakdown). Packaging yield runs 65 to 95 percent, and a package that fails after the memory goes on throws away the dies and the memory with it, adding roughly $1,000 to every B200 that ships [1](https://epoch.ai/data-insights/b200-cost-breakdown). Substrate, board, test and assembly add $480 [1](https://epoch.ai/data-insights/b200-cost-breakdown). See [[#^advanced-packaging|Advanced packaging]] for why packaging capacity runs out first.
 
 #### The B200 bill of materials ^the-b200-bill-of
 
@@ -3111,7 +3111,7 @@ The 192 GB of beside those dies, sold as HBM3E, is the single largest line: abou
 | Manufacturing cost | ~$6,400 | $5,700-7,300 |
 | Selling price | $30,000-40,000 |  |
 
-Epoch AI models each line as a range, deriving the packaging line from TSMC's revenue and Nvidia's share of CoWoS capacity [1](https://epoch.ai/data-insights/b200-cost-breakdown). Nothing of that quality exists for the H100 or Rubin.
+Epoch AI models each line as a range, deriving the packaging line from TSMC's advanced packaging revenue and Nvidia's share of CoWoS capacity [1](https://epoch.ai/data-insights/b200-cost-breakdown). Nothing of that quality exists for the H100 or Rubin.
 
 Where the ~$6,400 of B200 manufacturing cost goes, 2026$
 
@@ -3121,9 +3121,9 @@ Source: [Epoch AI B200 cost model, from a $17,000 4NP wafer, 40-70% die yield, $
 
 #### From package to rack to cluster ^from-package-to-rack
 
-At scale the number that matters is the cost of a -hour. For an operator that owns the machine, SemiAnalysis puts a at $3.57, against $1.84 for a GB200 and $2.36 for a GB300 [3](https://inferencex.semianalysis.com/blog/vera-rubin-nvl72-vs-gb200-nvl72-inference). Each generation costs its owner more per hour than the last, and buyers pay because rises faster than the rate.
+At rack scale the number that matters is the cost of a GPU-hour. For an operator that owns the machine, SemiAnalysis puts a Vera Rubin NVL72 at $3.57, against $1.84 for a GB200 and $2.36 for a GB300 [3](https://inferencex.semianalysis.com/blog/vera-rubin-nvl72-vs-gb200-nvl72-inference). Each generation costs its owner more per hour than the last, and buyers pay because throughput rises faster than the rate.
 
-One level up, a 100,000 H100 cluster costs over $4 billion in servers, draws about 150, uses 1.59 a year, pays $123.9 million for power and needs 98,304 [4](https://newsletter.semianalysis.com/p/100000-h100-clusters-power-network).
+One level up, a 100,000 H100 cluster costs over $4 billion in servers, draws about 150 MW, uses 1.59 TWh a year, pays $123.9 million for power and needs 98,304 [4](https://newsletter.semianalysis.com/p/100000-h100-clusters-power-network) optical transceivers .
 
 ### Who captures the value ^who-captures-the-value
 
@@ -3142,7 +3142,7 @@ One level up, a 100,000 H100 cluster costs over $4 billion in servers, draws abo
 
 Every figure is the firm's own reported gross margin [5](https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Results-for-the-Third-Quarter-of-Fiscal-2026/default.aspx) [6](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027) [7](https://pr.tsmc.com/english/news/3326) [8](https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full) [9](https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results) [10](https://newsroom.lamresearch.com/2026-07-29-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-June-28,-2026) [11](https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-third-quarter-2026-results) [12](https://www.ibiden.com/ir/items/tannshinn2026Q1.pdf) [13](https://www.prnewswire.com/news-releases/ase-technology-holding-co-ltd-reports-its-unaudited-consolidated-financial-results-for-the-second-quarter-of-2026-302838714.html) [14](https://www.sec.gov/Archives/edgar/data/0001047127/000104712726000043/amkr6302026erex-991.htm).
 
-SK hynix publishes no gross margin. Its hit 76 percent in the June quarter, on revenue up 257 percent in a year [15](https://news.skhynix.com/en/q2-2026-business-results/).
+SK hynix publishes no gross margin. Its operating margin hit 76 percent in the June quarter, on revenue up 257 percent in a year [15](https://news.skhynix.com/en/q2-2026-business-results/).
 
 Gross margin, each firm's most recent reported quarter%
 
@@ -3150,9 +3150,9 @@ Micron 84.6% Nvidia 75% TSMC 67.7% KLA 61.4% ASML 54% Lam Research 51.7% Applied
 
 Source: [Each firm's own quarterly earnings release; quarters end between May and August 2026 (TSMC shown)](https://pr.tsmc.com/english/news/3326)
 
-Design, inspection and wafers earn gross margins of 50 to 75 percent, substrates 36, assembly and test 17 to 21. In 2026 memory passed all of them: Micron earned 39.8 percent for the year to August 2025 [16](https://investors.micron.com/news/press-release/2025/Micron-Technology-Inc--Reports-Results-for-the-Fourth-Quarter-and-Full-Year-of-Fiscal-2025-09-23-2025/default.aspx) and 84.6 percent in the quarter to May 2026 [5](https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Results-for-the-Third-Quarter-of-Fiscal-2026/default.aspx). The margin moved up the chain, to Nvidia's suppliers.
+Design, inspection and leading-edge wafers earn gross margins of 50 to 75 percent, substrates 36, assembly and test 17 to 21. In 2026 memory passed all of them: Micron earned 39.8 percent for the year to August 2025 [16](https://investors.micron.com/news/press-release/2025/Micron-Technology-Inc--Reports-Results-for-the-Fourth-Quarter-and-Full-Year-of-Fiscal-2025-09-23-2025/default.aspx) and 84.6 percent in the quarter to May 2026 [5](https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Results-for-the-Third-Quarter-of-Fiscal-2026/default.aspx). The margin moved up the chain, to Nvidia's suppliers.
 
-The two bodies that count this industry disagree. World Semiconductor Trade Statistics forecast $772 billion of global sales for 2025 [17](https://www.wsts.org/76/103/Global-Semiconductor-Market-Approaches-1T-in-2026); the Semiconductor Industry Association counted $791.7 billion [18](https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/). The forecasters put 2026 at $975 billion, with memory and logic each growing more than 30 percent [17](https://www.wsts.org/76/103/Global-Semiconductor-Market-Approaches-1T-in-2026). Below those totals sit $135.1 billion of [19](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025) and $448.3 billion of 2025 at Alphabet, Amazon, Meta, Microsoft and Oracle, on track for $770 billion in 2026 [20](https://epoch.ai/data-insights/hyperscaler-capex-trend).
+The two bodies that count this industry disagree. World Semiconductor Trade Statistics forecast $772 billion of global chip sales for 2025 [17](https://www.wsts.org/76/103/Global-Semiconductor-Market-Approaches-1T-in-2026); the Semiconductor Industry Association counted $791.7 billion [18](https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/). The forecasters put 2026 at $975 billion, with memory and logic each growing more than 30 percent [17](https://www.wsts.org/76/103/Global-Semiconductor-Market-Approaches-1T-in-2026). Below those totals sit $135.1 billion of [19](https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025) equipment billings and $448.3 billion of 2025 capital spending at Alphabet, Amazon, Meta, Microsoft and Oracle, on track for $770 billion in 2026 [20](https://epoch.ai/data-insights/hyperscaler-capex-trend).
 
 Size of each layer of the chain, 2025$B
 
@@ -3268,7 +3268,7 @@ Washington's control regime and Beijing's answer to it are both unfinished.
 
 ### The shape of the contest ^the-shape-of-the
 
-In 2022 Washington changed the goal from staying a generation ahead to "as large a lead as possible", sold as a [1](https://www.csis.org/analysis/where-chips-fall-us-export-controls-under-biden-administration-2022-2024). The October rules that followed aimed to push China backwards [2](https://www.csis.org/analysis/choking-chinas-access-future-ai). Licensing once asked who was buying and why; country-wide prohibition asks only where the item is going.
+In 2022 Washington changed the goal from staying a generation ahead to "as large a lead as possible", sold as a [1](https://www.csis.org/analysis/where-chips-fall-us-export-controls-under-biden-administration-2022-2024) small yard with a high fence . The October rules that followed aimed to push China backwards [2](https://www.csis.org/analysis/choking-chinas-access-future-ai). Licensing once asked who was buying and why; country-wide prohibition asks only where the item is going.
 
 ### Chokepoints and who holds them ^chokepoints-and-who-holds
 
@@ -3288,8 +3288,8 @@ In 2022 Washington changed the goal from staying a generation ahead to "as large
 | , 28 nm and above | China | 38% | capacity, 2025, site estimate |
 
 -   **Equipment.** CSET's ETO Supply Chain Explorer, TechInsights 2025 revenue by parent-company headquarters [3](https://raw.githubusercontent.com/georgetown-cset/eto-chip-explorer/main/data/provision.csv).
--   **Materials.** Country shares of photoresist and silicon wafers as, Trade and Industry published them in December 2025, from Fuji Keizai's materials survey, by parent-company headquarters [4](https://www.meti.go.jp/policy/mono_info_service/joho/conference/semicon_digital/0014/handeji14-4.pdf). Japan held 76.7 percent of photoresist in 2021 and 78.4 in 2023, and 52.4 percent of wafers against 53.0, so neither position is moving.
--   **Taiwan.** The 78 percent is the Taiwan Semiconductor Industry Association's 2025 count, as the Stimson Center gives it [5](https://www.stimson.org/2025/why-taiwan-fears-america-first-risks-eroding-its-silicon-shield/). The 72 percent is a Supply Chain estimate for capacity at 5 nm and below, carried forward from the 2022 industry baseline because nobody publishes a current measurement [6](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf). The 92 percent quoted more often is a February 2024 US International Trade Commission figure, relayed by that same Stimson piece, on a wider reading of "most advanced" [5](https://www.stimson.org/2025/why-taiwan-fears-america-first-risks-eroding-its-silicon-shield/).
+-   **Materials.** Country shares of photoresist and silicon wafers as Japan's Ministry of Economy, Trade and Industry published them in December 2025, from Fuji Keizai's materials survey, by parent-company headquarters [4](https://www.meti.go.jp/policy/mono_info_service/joho/conference/semicon_digital/0014/handeji14-4.pdf). Japan held 76.7 percent of photoresist in 2021 and 78.4 in 2023, and 52.4 percent of wafers against 53.0, so neither position is moving.
+-   **Taiwan.** The 78 percent is the Taiwan Semiconductor Industry Association's 2025 count, as the Stimson Center gives it [5](https://www.stimson.org/2025/why-taiwan-fears-america-first-risks-eroding-its-silicon-shield/). The 72 percent is a Chip Supply Chain estimate for capacity at 5 nm and below, carried forward from the 2022 industry baseline because nobody publishes a current measurement [6](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf). The 92 percent quoted more often is a February 2024 US International Trade Commission figure, relayed by that same Stimson piece, on a wider reading of "most advanced" [5](https://www.stimson.org/2025/why-taiwan-fears-america-first-risks-eroding-its-silicon-shield/).
 -   **Memory.** SK hynix's US listing prospectus splits 2025 high-bandwidth memory revenue between SK hynix at 63.2 percent, Samsung at 19.3 and Micron at 17.4, so Korea holds 82.5; by the first quarter of 2026 Korea was down to 76.9 [7](https://www.sec.gov/Archives/edgar/data/0002120882/000119312526299963/d32785d424b4.htm). The underlying figures are IDC's, relayed by the prospectus.
 -   **Design.** CSIS [8](https://www.csis.org/analysis/chinas-localization-drive-semiconductors-gains-impetus-allied-chip-export-controls).
 -   **China's mature nodes.** The 38 percent is a Chip Supply Chain reading of logic capacity at 28 nm and above. It sits between the 2022 industry measurement [6](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf) and CSIS's finding that China now holds about half of global mature-node capacity, on a broader definition that includes discrete, analog and power chips [8](https://www.csis.org/analysis/chinas-localization-drive-semiconductors-gains-impetus-allied-chip-export-controls).
@@ -3300,19 +3300,19 @@ Advanced packaging is missing because nobody publishes a capacity split and TSMC
 
 Commerce built the regime one rule at a time, each closing a gap the last one left.
 
--   **17 August 2020, the.** The, Commerce's roster of buyers that need a license, cut Huawei and 68 affiliates off from US technology in May 2019 [9](https://www.federalregister.gov/documents/2019/05/21/2019-10616/addition-of-entities-to-the-entity-list), so Huawei bought foreign chips instead. Commerce then extended the rule to any foreign item made with US technology and bound for Huawei [10](https://www.federalregister.gov/documents/2020/08/20/2020-18213/addition-of-huawei-non-us-affiliates-to-the-entity-list-the-removal-of-temporary-general-license-and). That reach makes American controls extraterritorial.
--   **7 October 2022, the first country-wide rules.** Two new export classifications, and, capped exportable AI chips and set thresholds at 16 nm logic, 18 nm and [2](https://www.csis.org/analysis/choking-chinas-access-future-ai). They also barred from servicing advanced Chinese fabs, emptying them of American engineers within days [11](https://www.federalregister.gov/documents/2022/10/13/2022-21658/implementation-of-additional-export-controls-certain-advanced-computing-and-semiconductor).
--   **17 October 2023, the density fix.** Chip designers had tuned interconnect speed to fall under the 2022 threshold while keeping the compute, so Commerce's (BIS) dropped that parameter for two others: and. A data-center chip now needs a license at 4,800 points of that performance score, or at 1,600 with a density of 5.92 [12](https://cset.georgetown.edu/article/bis-2023-update-explainer/).
+-   **17 August 2020, the Foreign Direct Product Rule.** The Entity List, Commerce's roster of buyers that need a license, cut Huawei and 68 affiliates off from US technology in May 2019 [9](https://www.federalregister.gov/documents/2019/05/21/2019-10616/addition-of-entities-to-the-entity-list), so Huawei bought foreign chips instead. Commerce then extended the rule to any foreign item made with US technology and bound for Huawei [10](https://www.federalregister.gov/documents/2020/08/20/2020-18213/addition-of-huawei-non-us-affiliates-to-the-entity-list-the-removal-of-temporary-general-license-and). That reach makes American controls extraterritorial.
+-   **7 October 2022, the first country-wide rules.** Two new export classifications, 3A090 and 3B090, capped exportable AI chips and set fab thresholds at 16 nm FinFET logic, 18 nm half-pitch DRAM and [2](https://www.csis.org/analysis/choking-chinas-access-future-ai) 128-layer NAND . They also barred US persons from servicing advanced Chinese fabs, emptying them of American engineers within days [11](https://www.federalregister.gov/documents/2022/10/13/2022-21658/implementation-of-additional-export-controls-certain-advanced-computing-and-semiconductor).
+-   **17 October 2023, the density fix.** Chip designers had tuned interconnect speed to fall under the 2022 threshold while keeping the compute, so Commerce's {++{"author":"James's AI","timestamp":1790593617180}@@Bureau of Industry and Security ++}(BIS) dropped that parameter for two others: {--{"author":"James's AI","timestamp":1790593617180}@@and.--}{++{"author":"James's AI","timestamp":1790593617180}@@total processing performance and performance density.++} A data-center chip now needs a license at 4,800 points of that performance score, or at 1,600 with a density of 5.92 [12](https://cset.georgetown.edu/article/bis-2023-update-explainer/).
 -   **2 December 2024, the widest rule.** 24 equipment types, three software tools, the first controls on high-bandwidth memory and 140 Entity List additions [13](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military).
--   **15 January 2025,.** A rule requiring a license for the top band of accelerators, 3A090.a and 4A090.a, to any destination worldwide, then reopening it by exception: to the nineteen destinations named in, in capped volumes elsewhere, nothing to China [14](https://www.federalregister.gov/documents/2025/01/15/2025-00636/framework-for-artificial-intelligence-diffusion). BIS said on 13 May that it would not enforce the framework, two days before the compliance date [15](https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens). It withdrew none of the text. The worldwide license requirement, License Exceptions AIA, and LPP, supplement no. 5 and the 790 million TPP per-country allocation all stand in the Code today, and BIS says it enforces the requirement only against D:1, D:4 and D:5 and against firms headquartered in D:5 or [16](https://www.federalregister.gov/documents/2026/07/14/2026-14132/enhanced-favorable-treatment-for-the-united-arab-emirates-under-the-export-administration) [17](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-742/section-742.6). No tiered replacement has appeared; bilateral deals took the place of the caps.
+-   **15 January 2025, AI Diffusion.** A rule requiring a license for the top band of accelerators, 3A090.a and 4A090.a, to any destination worldwide, then reopening it by exception: License Exception AIA to the nineteen destinations named in supplement no. 5 to part 740, License Exception LPP in capped volumes elsewhere, nothing to China [14](https://www.federalregister.gov/documents/2025/01/15/2025-00636/framework-for-artificial-intelligence-diffusion). BIS said on 13 May that it would not enforce the framework, two days before the compliance date [15](https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens). It withdrew none of the text. The worldwide license requirement, License Exceptions AIA, ACM and LPP, supplement no. 5 and the 790 million TPP per-country allocation all stand in the Code today, and BIS says it enforces the requirement only against Country Groups D:1, D:4 and D:5 and against firms headquartered in D:5 or [16](https://www.federalregister.gov/documents/2026/07/14/2026-14132/enhanced-favorable-treatment-for-the-united-arab-emirates-under-the-export-administration) [17](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-742/section-742.6) Macau . No tiered replacement has appeared; bilateral deals took the place of the caps.
 
 On 9 April 2025 the government told Nvidia it needed a license to ship the H20 to China, to the D:5 group of arms-embargoed countries, and to any company headquartered or ultimately owned there, so no Chinese buyer could route the order through a foreign subsidiary [18](https://www.sec.gov/Archives/edgar/data/1045810/000104581025000082/nvda-20250409.htm). Nvidia took a $4.5 billion charge on stock it could no longer sell. Licenses came back in August at a price: US officials, the filing says, "have expressed an expectation that the USG will receive 15 percent of the revenue generated from licensed H20 sales", though no regulation codifies it [19](https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm).
 
 Early 2026 set the current settlement.
 
--   **13 January 2026, effective 15 January.** BIS announced on 13 January that it would move the H200 and AMD MI325X to, with third-party testing and a cap at 50 percent of what the exporter ships to US customers [20](https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china). The rule, at 1685, took effect on publication two days later [21](https://www.federalregister.gov/documents/2026/01/15/2026-00789/revision-to-license-review-policy-for-advanced-computing-commodities).
+-   **13 January 2026, effective 15 January.** BIS announced on 13 January that it would move the H200 and AMD MI325X to case-by-case review, with third-party testing and a cap at 50 percent of what the exporter ships to US customers [20](https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china). The rule, at 91 FR 1685, took effect on publication two days later [21](https://www.federalregister.gov/documents/2026/01/15/2026-00789/revision-to-license-review-policy-for-advanced-computing-commodities).
 -   **15 January 2026.** A national-security proclamation under Section 232 put a 25 percent tariff on the same class of chips, then exempted almost every American use, from data centers to startups [22](https://www.federalregister.gov/documents/2026/01/20/2026-01052/adjusting-imports-of-semiconductors-semiconductor-manufacturing-equipment-and-their-derivative).
--   **12 February 2026.** Applied Materials paid $252 million, the statutory maximum, over $126 million of routed through Korea to an Entity-Listed Chinese customer [23](https://www.bis.gov/press-release/applied-materials-pay-252-million-penalty-bis-illegally-exporting-semiconductor-manufacturing-equipment).
+-   **12 February 2026.** Applied Materials paid $252 million, the statutory maximum, over $126 million of ion implanters routed through Korea to an Entity-Listed Chinese customer [23](https://www.bis.gov/press-release/applied-materials-pay-252-million-penalty-bis-illegally-exporting-semiconductor-manufacturing-equipment).
 
 Eight rule changes that shaped the regime
 
@@ -3331,9 +3331,9 @@ Source: [BIS press releases and Federal Register rules](https://www.bis.gov/news
 
 Renting a chip is not exporting it. An export, at 15 CFR 734.13, is a shipment or transmission out of the United States or a release of technology or source code to a foreign person, so a Singapore data center selling time on an H200 already installed there moves nothing across a border [25](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-734/section-734.13).
 
-The American rules reach that trade through the firms holding the chips. A January 2026 license for China or Macau is conditioned on the applicant getting the 's know-your-customer procedures and its list of Infrastructure-as-a-Service customers in Belarus, China, Cuba, Iran, Macau, North Korea, Russia and Venezuela, "necessary to prevent unauthorized remote access from described in paragraph (dd)(1)(iv)", and on a promise that no algorithm trained on the chips is served back to those users [26](https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm).
+The American rules reach that trade through the firms holding the chips. A January 2026 license for China or Macau is conditioned on the applicant getting the consignee's know-your-customer procedures and its list of Infrastructure-as-a-Service customers in Belarus, China, Cuba, Iran, Macau, North Korea, Russia and Venezuela, "necessary to prevent unauthorized remote access from end users described in paragraph (dd)(1)(iv)", and on a promise that no algorithm trained on the chips is served back to those users [26](https://www.govinfo.gov/content/pkg/FR-2026-01-15/html/2026-00789.htm).
 
-The diffusion rule addressed the other end, the output. It classified as 4E091, warned American cloud providers that training such a model for the US subsidiary of a foreign-headquartered customer raises a red flag that the weights will leave without a license, and barred its from training one abroad, while saying that API access to a model, and rented capacity for, "are not prohibited" [14](https://www.federalregister.gov/documents/2025/01/15/2025-00636/framework-for-artificial-intelligence-diffusion).
+The diffusion rule addressed the other end, the output. It classified frontier model weights as ECCN 4E091, warned American cloud providers that training such a model for the US subsidiary of a foreign-headquartered customer raises a red flag that the weights will leave without a license, and barred its validated end users from training one abroad, while saying that API access to a model, and rented capacity for inference, "are not prohibited" [14](https://www.federalregister.gov/documents/2025/01/15/2025-00636/framework-for-artificial-intelligence-diffusion).
 
 So the controls reach the chip, frontier model weights, and the promises a licensed consignee signs. Compute sold by the hour on chips lawfully installed abroad sits outside them.
 
@@ -3345,18 +3345,18 @@ Unilateral tool controls would only transfer the sales, so the campaign depends 
 -   **Japan.** Controls on advanced manufacturing equipment took effect on 23 July 2023 and apply to all destinations and name no country [29](https://www.csis.org/analysis/csis-translation-updated-japanese-export-controls-high-performance-semiconductor).
 -   **South Korea.** BIS revoked the Validated End-User status that let Samsung, SK hynix and Intel run their China fabs without individual licenses, effective 31 December 2025. It will license those fabs to keep running, but not to expand or upgrade [30](https://www.federalregister.gov/documents/2025/09/02/2025-16735/revocation-of-validated-end-user-authorizations-in-the-peoples-republic-of-china).
 
-On 30 September 2025 a BIS rule extended Entity List restrictions to any subsidiary half-owned by a listed firm [31](https://www.federalregister.gov/documents/2025/09/30/2025-19001/expansion-of-end-user-controls-to-cover-affiliates-of-certain-listed-entities). The same day the Dutch economy minister invoked the Goods Availability Act against Nexperia, the Nijmegen chipmaker that supplies European car lines, citing governance failures that risked moving technology out of Europe [32](https://www.government.nl/latest/news/2025/10/12/minister-of-economic-affairs-invokes-goods-availability-act). Neither lasted: BIS suspended its rule for a year on 10 November [33](https://www.federalregister.gov/documents/2025/11/12/2025-19846/one-year-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed-entities) and the minister suspended his order on 19 November [34](https://www.government.nl/documents/2025/11/19/update-on-invoking-goods-availability-act). Europe holds a at the leading edge and none at the mature nodes its car industry runs on.
+On 30 September 2025 a BIS rule extended Entity List restrictions to any subsidiary half-owned by a listed firm [31](https://www.federalregister.gov/documents/2025/09/30/2025-19001/expansion-of-end-user-controls-to-cover-affiliates-of-certain-listed-entities). The same day the Dutch economy minister invoked the Goods Availability Act against Nexperia, the Nijmegen chipmaker that supplies European car lines, citing governance failures that risked moving technology out of Europe [32](https://www.government.nl/latest/news/2025/10/12/minister-of-economic-affairs-invokes-goods-availability-act). Neither lasted: BIS suspended its rule for a year on 10 November [33](https://www.federalregister.gov/documents/2025/11/12/2025-19846/one-year-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed-entities) and the minister suspended his order on 19 November [34](https://www.government.nl/documents/2025/11/19/update-on-invoking-goods-availability-act). Europe holds a chokepoint at the leading edge and none at the mature nodes its car industry runs on.
 
-The MATCH Act, introduced on 8 April 2026, would ban sales of to China, name CXMT, Hua Hong, Huawei, SMIC and YMTC in statute, and give allies 150 days to match before the US extends the Foreign Direct Product Rule alone [35](https://www.foreign.senate.gov/press/rep/release/risch-ricketts-kim-introduce-match-act-level-the-global-playing-field-for-us-tech).
+The MATCH Act, introduced on 8 April 2026, would ban sales of immersion deep-ultraviolet scanners to China, name CXMT, Hua Hong, Huawei, SMIC and YMTC in statute, and give allies 150 days to match before the US extends the Foreign Direct Product Rule alone [35](https://www.foreign.senate.gov/press/rep/release/risch-ricketts-kim-introduce-match-act-level-the-global-playing-field-for-us-tech).
 
 ### China's response ^chinas-response
 
-Five bodies run Beijing's side. The Ministry of Industry and Information Technology (MIIT) sets substitution targets, and in 2024 reportedly told Chinese telecom operators to strip foreign chips out of their networks by 2027 [8](https://www.csis.org/analysis/chinas-localization-drive-semiconductors-gains-impetus-allied-chip-export-controls). The National Development and Reform Commission (NDRC) plans the compute build-out and co-issued the national computing-power network plan [36](https://english.www.gov.cn/news/202312/27/content_WS658b72afc6d0868f4e8e28ba.html). The (MOFCOM) writes and administers the, including the mineral rules below [37](https://english.mofcom.gov.cn/Policies/AnnouncementsOrders/art/2025/art_0dd87cbee7b045bf93fabe6ab2faceee.html). The State Administration for Market Regulation (SAMR) is the antitrust authority, and opened its Nvidia investigation in December 2024 [38](https://www.cfr.org/articles/cyber-week-review-december-13-2024). The Cyberspace Administration of China (CAC) runs the security reviews, and in September 2025 told firms including ByteDance and Alibaba to cancel Nvidia orders [39](https://cset.georgetown.edu/newsletter/september-18-2025/).
+Five bodies run Beijing's side. The Ministry of Industry and Information Technology (MIIT) sets substitution targets, and in 2024 reportedly told Chinese telecom operators to strip foreign chips out of their networks by 2027 [8](https://www.csis.org/analysis/chinas-localization-drive-semiconductors-gains-impetus-allied-chip-export-controls). The National Development and Reform Commission (NDRC) plans the compute build-out and co-issued the national computing-power network plan [36](https://english.www.gov.cn/news/202312/27/content_WS658b72afc6d0868f4e8e28ba.html). The Ministry of Commerce (MOFCOM) writes and administers the export controls, including the mineral rules below [37](https://english.mofcom.gov.cn/Policies/AnnouncementsOrders/art/2025/art_0dd87cbee7b045bf93fabe6ab2faceee.html). The State Administration for Market Regulation (SAMR) is the antitrust authority, and opened its Nvidia investigation in December 2024 [38](https://www.cfr.org/articles/cyber-week-review-december-13-2024). The Cyberspace Administration of China (CAC) runs the security reviews, and in September 2025 told firms including ByteDance and Alibaba to cancel Nvidia orders [39](https://cset.georgetown.edu/newsletter/september-18-2025/).
 
 The retaliation itself targets the inputs. Micron was first, failing a CAC review on 21 May 2023 and losing its critical infrastructure buyers [40](https://www.csis.org/analysis/micron-aggression-right-response-beijings-ban-us-chipmaker). Mineral controls followed.
 
--   **3 December 2024.** Notice 46, from MOFCOM, banned exports of, germanium, antimony and superhard materials to the United States, one day after the American chip rules [41](https://cset.georgetown.edu/publication/china-rare-earth-export-ban/).
--   **4 April 2025.** Announcement 18 put seven under licensing, from samarium to yttrium, as metal, oxide, compound or finished magnet [37](https://english.mofcom.gov.cn/Policies/AnnouncementsOrders/art/2025/art_0dd87cbee7b045bf93fabe6ab2faceee.html).
+-   **3 December 2024.** Notice 46, from MOFCOM, banned exports of gallium, germanium, antimony and superhard materials to the United States, one day after the American chip rules [41](https://cset.georgetown.edu/publication/china-rare-earth-export-ban/).
+-   **4 April 2025.** Announcement 18 put seven medium and heavy rare earths under licensing, from samarium to yttrium, as metal, oxide, compound or finished magnet [37](https://english.mofcom.gov.cn/Policies/AnnouncementsOrders/art/2025/art_0dd87cbee7b045bf93fabe6ab2faceee.html).
 -   **9 October 2025.** A further announcement reached foreign-made goods containing Chinese rare earths worth 0.1 percent or more of their value, putting a Chinese export license between a foreign firm and its own product [42](https://cset.georgetown.edu/publication/mofcom-notice-2025-61/).
 -   **November 2025.** After Trump and Xi met at the Asia-Pacific summit, the ministry suspended the gallium ban for a year [43](https://www.csis.org/analysis/us-china-trade-truce-has-not-solved-gallium-problem).
 
@@ -3366,7 +3366,7 @@ The blunter instrument is demand. Chinese regulators discouraged customers from 
 
 Chinese tool vendors held 10 to 15 percent of their home market before 2022, took 25 percent in 2024 and 35 percent in 2025, and hold about 40 percent of domestic etch and deposition [8](https://www.csis.org/analysis/chinas-localization-drive-semiconductors-gains-impetus-allied-chip-export-controls).
 
-Substitution stalls at the leading edge. SMIC prints logic on older deep-ultraviolet scanners, exposing each layer several times because it cannot buy an extreme-ultraviolet scanner, and Huawei shipped about 805,000 Ascend units in 2025 on that silicon. The binding constraint is memory. A stockpile of roughly 13 million memory stacks, most bought before the December 2024 rules took effect, supports about 1.6 million Ascend 910C packages; CXMT, China's own memory maker, should reach about 2 million stacks in 2026, enough for 250,000 to 300,000 more [46](https://newsletter.semianalysis.com/p/huawei-ascend-production-ramp).
+Substitution stalls at the leading edge. SMIC prints 7 nm-class logic on older deep-ultraviolet scanners, exposing each layer several times because it cannot buy an extreme-ultraviolet scanner, and Huawei shipped about 805,000 Ascend units in 2025 on that silicon. The binding constraint is memory. A stockpile of roughly 13 million memory stacks, most bought before the December 2024 rules took effect, supports about 1.6 million Ascend 910C packages; CXMT, China's own memory maker, should reach about 2 million stacks in 2026, enough for 250,000 to 300,000 more [46](https://newsletter.semianalysis.com/p/huawei-ascend-production-ramp).
 
 China's share of revenue at the four largest chip-tool makers, peak year and latest%
 
@@ -3376,15 +3376,15 @@ Source: [ASML Q4 2025 investor presentation, Applied Materials and Lam Research 
 
 ### Industrial policy: CHIPS, Rapidus, Big Fund and the rest ^industrial-policy-chips-rapidus
 
-The authorized about $52.7 billion [8](https://www.csis.org/analysis/chinas-localization-drive-semiconductors-gains-impetus-allied-chip-export-controls). By July 2025 $30.9 billion of direct funding had reached 19 companies for 40 projects, a median 14.2 percent of each project's capital cost [48](https://files.gao.gov/reports/GAO-26-107882/index.html).
+The CHIPS and Science Act authorized about $52.7 billion [8](https://www.csis.org/analysis/chinas-localization-drive-semiconductors-gains-impetus-allied-chip-export-controls). By July 2025 $30.9 billion of direct funding had reached 19 companies for 40 projects, a median 14.2 percent of each project's capital cost [48](https://files.gao.gov/reports/GAO-26-107882/index.html).
 
 On 22 August 2025 the government converted $5.7 billion of unpaid Intel grants and $3.2 billion of Secure Enclave defense money into a 9.9 percent stake worth $8.9 billion [49](https://www.intc.com/news-events/press-releases/detail/1748/intel-and-trump-administration-reach-historic-agreement-to).
 
 Tariffs became the second instrument. The 2026 US-Taiwan trade agreement cuts the tariff on Taiwanese goods to 15 percent in exchange for at least $250 billion of Taiwanese investment in US chip production [50](https://www.cfr.org/articles/u-s-taiwan-trade-agreement-leaves-major-questions-open). On 16 July 2026 TSMC added $100 billion for four more Arizona fabs at 2 nm and below, taking that campus to $265 billion [51](https://www.phoenix.gov/newsroom/ced-news/tsmc-announces-additional--100-billion-investment-in-arizona.html), more than the whole CHIPS Act authorization.
 
-Europe's first Chips Act produced no leading-edge fab, and the Chips Act 2.0 proposal adopted on 3 June 2026 widens state aid and shifts the emphasis from supply to demand without changing that [52](https://digital-strategy.ec.europa.eu/en/library/proposal-chips-act-20). Japan chose a national champion instead: Rapidus verified 2 nm on its Chitose pilot line in 2025 and raised another 267.6 billion yen, about $1.7 billion, targeting in 2027 [53](https://www.rapidus.inc/en/news_topics/information/rapidus-secures-267-6-billion-yen-in-funding-from-japan-government-and-private-sector-companies/).
+Europe's first Chips Act produced no leading-edge fab, and the Chips Act 2.0 proposal adopted on 3 June 2026 widens state aid and shifts the emphasis from supply to demand without changing that [52](https://digital-strategy.ec.europa.eu/en/library/proposal-chips-act-20). Japan chose a national champion instead: Rapidus verified 2 nm gate-all-around transistors on its Chitose pilot line in 2025 and raised another 267.6 billion yen, about $1.7 billion, targeting mass production in 2027 [53](https://www.rapidus.inc/en/news_topics/information/rapidus-secures-267-6-billion-yen-in-funding-from-japan-government-and-private-sector-companies/).
 
-China spends more, and differently. The latest round of its, the Big Fund, reached $47 billion [54](https://www.rand.org/pubs/perspectives/PEA4012-1.html). CSIS puts cumulative state funding since 2014 at $150 billion, roughly triple the CHIPS authorization [8](https://www.csis.org/analysis/chinas-localization-drive-semiconductors-gains-impetus-allied-chip-export-controls). The money has produced a domestic tool industry and no leading-edge node.
+China spends more, and differently. The latest round of its National Integrated Circuit Industry Investment Fund, the Big Fund, reached $47 billion [54](https://www.rand.org/pubs/perspectives/PEA4012-1.html). CSIS puts cumulative state funding since 2014 at $150 billion, roughly triple the CHIPS authorization [8](https://www.csis.org/analysis/chinas-localization-drive-semiconductors-gains-impetus-allied-chip-export-controls). The money has produced a domestic tool industry and no leading-edge node.
 
 CHIPS Act direct funding awarded, by firm, as of July 2025$B
 
@@ -3394,15 +3394,15 @@ Source: [GAO-26-107882, Semiconductors: Information on Projects Funded to Streng
 
 ### Taiwan ^taiwan
 
-Taiwan is the risk that no policy has reduced. Its foundries hold 78 percent of the world's contract chipmaking on the industry association's 2025 count, and 2 nm runs nowhere else [5](https://www.stimson.org/2025/why-taiwan-fears-america-first-risks-eroding-its-silicon-shield/). At 5 nm and below the island holds an estimated 72 percent of capacity in 2025, a Chip Supply Chain estimate [6](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf). The packaging is on the island too. Asked in October 2025 how much capacity he would add, TSMC's chairman said only that it was "working very hard to narrow the gap between the demand and supply", with wafer and packaging capacity both "very tight" [55](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-10/6860312f04fd291d0f26b46c1234f84e6332717e/TSMC%203Q25%20Transcript.pdf).
+Taiwan is the concentration risk that no policy has reduced. Its foundries hold 78 percent of the world's contract chipmaking on the industry association's 2025 count, and 2 nm runs nowhere else [5](https://www.stimson.org/2025/why-taiwan-fears-america-first-risks-eroding-its-silicon-shield/). At 5 nm and below the island holds an estimated 72 percent of capacity in 2025, a Chip Supply Chain estimate [6](https://www.semiconductors.org/wp-content/uploads/2024/05/Report_Emerging-Resilience-in-the-Semiconductor-Supply-Chain.pdf). The packaging is on the island too. Asked in October 2025 how much CoWoS capacity he would add, TSMC's chairman said only that it was "working very hard to narrow the gap between the demand and supply", with wafer and packaging capacity both "very tight" [55](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-10/6860312f04fd291d0f26b46c1234f84e6332717e/TSMC%203Q25%20Transcript.pdf).
 
-The argument holds that this concentration deters invasion: destroying TSMC would cost an aggressor more than the island is worth. The counterargument is that staying irreplaceable gives Taipei reason to slow the diversification Washington wants. Taiwan bars the overseas production of its most advanced chips, so what TSMC builds in the United States runs a generation behind what it builds at home, and nobody expects Arizona to reach 2 nm before 2028 [5](https://www.stimson.org/2025/why-taiwan-fears-america-first-risks-eroding-its-silicon-shield/).
+The silicon shield argument holds that this concentration deters invasion: destroying TSMC would cost an aggressor more than the island is worth. The counterargument is that staying irreplaceable gives Taipei reason to slow the diversification Washington wants. Taiwan bars the overseas production of its most advanced chips, so what TSMC builds in the United States runs a generation behind what it builds at home, and nobody expects Arizona to reach 2 nm before 2028 [5](https://www.stimson.org/2025/why-taiwan-fears-america-first-risks-eroding-its-silicon-shield/).
 
-Arizona narrows the gap in wafers, and TSMC has two advanced packaging fabs planned there [55](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-10/6860312f04fd291d0f26b46c1234f84e6332717e/TSMC%203Q25%20Transcript.pdf). But a fab without its Taiwanese, chemical suppliers and trained crews is not a substitute. The shield is real and weakening, and diversification is not keeping up.
+Arizona narrows the gap in wafers, and TSMC has two advanced packaging fabs planned there [55](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-10/6860312f04fd291d0f26b46c1234f84e6332717e/TSMC%203Q25%20Transcript.pdf). But a fab without its Taiwanese mask shops, chemical suppliers and trained crews is not a substitute. The shield is real and weakening, and diversification is not keeping up.
 
 ### Where the chips go: the Gulf, Southeast Asia, and smuggling ^where-the-chips-go
 
-The Gulf has been let inside the controls. In November 2025 Commerce authorized G42 of the United Arab Emirates and HUMAIN of Saudi Arabia to buy up to 35,000 Nvidia GB300s each under security and reporting conditions [56](https://www.commerce.gov/news/press-releases/2025/11/statement-uae-and-saudi-chip-exports). On 10 July 2026 it moved the Emirates from Country Groups D:3 and D:4 into A:5, the tier that holds Washington's close allies, and named the Emirati government alongside G42 and the US as consignees who can take controlled AI chips and systems with no quantity cap. Licenses survive for the top-tier items, 3A090.a and 4A090.a, so the favorable treatment is tied to the named buyers [16](https://www.federalregister.gov/documents/2026/07/14/2026-14132/enhanced-favorable-treatment-for-the-united-arab-emirates-under-the-export-administration). Saudi Arabia still works license by license.
+The Gulf has been let inside the controls. In November 2025 Commerce authorized G42 of the United Arab Emirates and HUMAIN of Saudi Arabia to buy up to 35,000 Nvidia GB300s each under security and reporting conditions [56](https://www.commerce.gov/news/press-releases/2025/11/statement-uae-and-saudi-chip-exports). On 10 July 2026 it moved the Emirates from Country Groups D:3 and D:4 into A:5, the tier that holds Washington's close allies, and named the Emirati government alongside G42 and the US hyperscalers as consignees who can take controlled AI chips and systems with no quantity cap. Licenses survive for the top-tier items, 3A090.a and 4A090.a, so the favorable treatment is tied to the named buyers [16](https://www.federalregister.gov/documents/2026/07/14/2026-14132/enhanced-favorable-treatment-for-the-united-arab-emirates-under-the-export-administration). Saudi Arabia still works license by license.
 
 Southeast Asia is where chips get past the controls. Since 14 July 2025 Malaysia has required a permit to export, tranship or transit any high-performance US-origin AI chip, plus 30 days' notice under its Strategic Trade Act [57](https://www.miti.gov.my/miti/resources/Media%20Release/%5BFINAL%5D_MITI_Press_Stmt_Malaysia_Regulates_Trade_of_US_AI_Chips_2025-07-14.pdf). On 25 March 2026 the Justice Department charged three people over about $170 million of servers bought through Thai front companies for delivery to China [58](https://www.justice.gov/opa/pr/chinese-national-and-two-us-citizens-charged-conspiring-smuggle-artificial-intelligence).
 
@@ -3421,8 +3421,8 @@ The Gulf gains without making anything: named Emirati buyers take advanced compu
 
 -   **November 2026.** Whether China renews the one-year suspension of its gallium ban or lets it expire [43](https://www.csis.org/analysis/us-china-trade-truce-has-not-solved-gallium-problem).
 -   **The MATCH Act's 150-day deadline.** If it passes, allied divergence on deep-ultraviolet tools gets a statutory deadline [35](https://www.foreign.senate.gov/press/rep/release/risch-ricketts-kim-introduce-match-act-level-the-global-playing-field-for-us-tech).
--   **CXMT's memory.** Domestic memory caps Chinese accelerator volume before logic wafers do [46](https://newsletter.semianalysis.com/p/huawei-ascend-production-ramp).
--   **SMIC's advanced-node ramp.** 45,000 at end-2025, an estimated 60,000 in 2026 and 80,000 in 2027, every one of them because SMIC has no extreme-ultraviolet machine [46](https://newsletter.semianalysis.com/p/huawei-ascend-production-ramp). is the open question.
+-   **CXMT's memory ramp.** Domestic memory caps Chinese accelerator volume before logic wafers do [46](https://newsletter.semianalysis.com/p/huawei-ascend-production-ramp).
+-   **SMIC's advanced-node ramp.** 45,000 {++{"author":"James's AI","timestamp":1790593640316}@@wafers a month ++}at end-2025, an estimated 60,000 in 2026 and 80,000 in 2027, every one of them {++{"author":"James's AI","timestamp":1790593640316}@@multiply exposed ++}because SMIC has no extreme-ultraviolet machine [46](https://newsletter.semianalysis.com/p/huawei-ascend-production-ramp). {++{"author":"James's AI","timestamp":1790593640316}@@Yield ++}is the open question.
 -   **Taiwan's overseas-production ban against its $250 billion investment promise.** The two contradict each other, and one will be dropped.
 
 Card 1 of 5Question
