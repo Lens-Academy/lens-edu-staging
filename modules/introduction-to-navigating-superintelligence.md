@@ -15,7 +15,7 @@ summary_for_tutor:: Short welcome lens introducing the module: it frames the exa
 reading_minutes:: 2
 #### Text
 content::
-We begin by examining the potential of AI and the risks and opportunities that the characteristics of this technology present to humanity.
+{--{"author":"Plex's AI","timestamp":1790611529800}@@We begin by examining the potential--}{++{"author":"Plex's AI","timestamp":1790611529800}@@Artificial intelligence is upending many aspects++} of {--{"author":"Plex's AI","timestamp":1790611529800}@@AI--}{++{"author":"Plex's AI","timestamp":1790611529800}@@civilisation at once,++} and {--{"author":"Plex's AI","timestamp":1790611529800}@@the risks --}{++{"author":"Plex's AI","timestamp":1790611529800}@@experts warn of extinction-level risks. What's going on, ++}and {--{"author":"Plex's AI","timestamp":1790611529800}@@opportunities that --}{++{"author":"Plex's AI","timestamp":1790611529800}@@where are we headed? This course will help you understand ++}the {--{"author":"Plex's AI","timestamp":1790611529800}@@characteristics of this technology present--}{++{"author":"Plex's AI","timestamp":1790611529800}@@core dynamics at play, and prepare you++} to {--{"author":"Plex's AI","timestamp":1790611529800}@@humanity.--}{++{"author":"Plex's AI","timestamp":1790611529800}@@act.++}
 
 # Lens:
 source:: [[../Lenses/The AI Book That's Freaking Out National Security Advisors]]
