@@ -2066,39 +2066,44 @@ This reaches 5 nm-class features. CSIS judges that China still cannot build a wo
 
 TSMC runs six plants that each print more than 100,000 wafers a month. All six are in Taiwan, and they hold 13 of the 17 million wafers a year the company can make.
 
-%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+{--{"author":"James's AI","timestamp":1790597099684}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
 
-{--{"author":"James's AI","timestamp":1790594054051}@@1,391--}{++{"author":"James's AI","timestamp":1790594054051}@@_1,391++} words / 6 {--{"author":"James's AI","timestamp":1790594054051}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594054051}@@min · Interactive 3D Specimen:++} wafer carrier (FOUP){++{"author":"James's AI","timestamp":1790594054051}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#foundries-and-fabs))_++}
+1,391 --}{++{"author":"James's AI","timestamp":1790597099684}@@*1,391 ++}words / 6{--{"author":"James's AI","timestamp":1790597099684}@@ minSpecimen: wafer carrier (FOUP)
 
 **In plain terms**
 
-A foundry is a fab that makes chips for other companies. Those companies send in their designs, and the foundry runs them all through the same building on the same tools. The building costs tens of billions of dollars, and the air inside is cleaner than an operating room. Even so, a wafer crosses hundreds of machines over several months inside sealed boxes, never touching that air. No chip company sells enough of one product to fill a factory like that on its own, so the world shares a handful of them. TSMC runs the biggest, and all six of its largest plants sit in Taiwan, which is why one island's politics reaches the whole chip supply.
+--}{++{"author":"James's AI","timestamp":1790597099684}@@ min*
+
+:::callout {title="In plain terms" tone="neutral"}
+++}A foundry is a fab that makes chips for other companies. Those companies send in their designs, and the foundry runs them all through the same building on the same tools. The building costs tens of billions of dollars, and the air inside is cleaner than an operating room. Even so, a wafer crosses hundreds of machines over several months inside sealed boxes, never touching that air. No chip company sells enough of one product to fill a factory like that on its own, so the world shares a handful of them. TSMC runs the biggest, and all six of its largest plants sit in Taiwan, which is why one island's politics reaches the whole chip supply.{++{"author":"James's AI","timestamp":1790597099684}@@
+:::++}
 
 ### In short ^in-short-9
 
 The foundry model won because leading-edge fabs are too expensive for one design house, and it concentrated because only the leader earns enough to build the next node. TSMC's six gigafabs hold 13 of the 17 million wafers a year it can make, and all six are in Taiwan [1](https://www.tsmc.com/english/dedicatedFoundry/manufacturing/gigafab). Intel and Samsung are credible technically and unproven commercially, and Intel is now part-owned by its government [10](https://www.intc.com/news-events/press-releases/detail/1748/intel-and-trump-administration-reach-historic-agreement-to). Diversification costs $165 billion and a decade in the American case alone [9](https://pr.tsmc.com/english/news/3210), which makes the concentration in Taiwan a fact about the 2020s and 2030s.
 
-Concentration: **Extreme**
+{--{"author":"James's AI","timestamp":1790597099684}@@Concentration: **Extreme**--}{++{"author":"James's AI","timestamp":1790597099684}@@:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** Extreme++}
 
-Substitutability: **Hard**. Intel and Samsung also run lines for the newest chips, but TSMC has not built one of its largest fabs outside Taiwan, and the slow part is training the workforce.
+{--{"author":"James's AI","timestamp":1790597099684}@@Substitutability: **Hard**.--}{++{"author":"James's AI","timestamp":1790597099684}@@**Substitutability:** Hard.++} Intel and Samsung also run lines for the newest chips, but TSMC has not built one of its largest fabs outside Taiwan, and the slow part is training the workforce.
 
-Price or market size: **BCG puts the ten-year cost of owning a fab completed in 2026 at $35-43 billion**. TSMC intends to spend $165 billion in the United States alone
+{--{"author":"James's AI","timestamp":1790597099684}@@Price--}{++{"author":"James's AI","timestamp":1790597099684}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597099684}@@size: **BCG--}{++{"author":"James's AI","timestamp":1790597099684}@@size:** BCG++} puts the ten-year cost of owning a fab completed in 2026 at $35-43 {--{"author":"James's AI","timestamp":1790597099684}@@billion**.--}{++{"author":"James's AI","timestamp":1790597099684}@@billion.++} TSMC intends to spend $165 billion in the United States alone
 
 **Who leads**
 
--   {--{"author":"James's AI","timestamp":1790594060725}@@TWTSMC--}{++{"author":"James's AI","timestamp":1790594060725}@@TW · **TSMC**:++} 77% of wafer revenue from 7 nm and below, 2Q26; six gigafabs, all in Taiwan
--   {--{"author":"James's AI","timestamp":1790594062872}@@USIntel Foundry--}{++{"author":"James's AI","timestamp":1790594062872}@@US · **Intel Foundry**:++} $5.8bn revenue and a $2.089bn operating loss, 2Q26
--   {--{"author":"James's AI","timestamp":1790594063799}@@KRSamsung Foundry--}{++{"author":"James's AI","timestamp":1790594063799}@@KR · **Samsung Foundry**:++} Hwaseong and Pyeongtaek; at least $17bn of construction at Taylor, Texas
--   {--{"author":"James's AI","timestamp":1790594065428}@@CNSMIC--}{++{"author":"James's AI","timestamp":1790594065428}@@CN · **SMIC**:++} $9.327bn revenue in 2025 at 93.5% utilization
--   {--{"author":"James's AI","timestamp":1790594066082}@@JPRapidus--}{++{"author":"James's AI","timestamp":1790594066082}@@JP · **Rapidus**:++} State-backed 2 nm entrant, Chitose
+-{--{"author":"James's AI","timestamp":1790597099684}@@   TWTSMC--}{++{"author":"James's AI","timestamp":1790597099684}@@ **TSMC** (TW):++} 77% of wafer revenue from 7 nm and below, 2Q26; six gigafabs, all in Taiwan
+-{--{"author":"James's AI","timestamp":1790597099684}@@   USIntel Foundry--}{++{"author":"James's AI","timestamp":1790597099684}@@ **Intel Foundry** (US):++} $5.8bn revenue and a $2.089bn operating loss, 2Q26
+-{--{"author":"James's AI","timestamp":1790597099684}@@   KRSamsung Foundry--}{++{"author":"James's AI","timestamp":1790597099684}@@ **Samsung Foundry** (KR):++} Hwaseong and Pyeongtaek; at least $17bn of construction at Taylor, Texas
+-{--{"author":"James's AI","timestamp":1790597099684}@@   CNSMIC--}{++{"author":"James's AI","timestamp":1790597099684}@@ **SMIC** (CN):++} $9.327bn revenue in 2025 at 93.5% utilization
+-{--{"author":"James's AI","timestamp":1790597099684}@@   JPRapidus--}{++{"author":"James's AI","timestamp":1790597099684}@@ **Rapidus** (JP):++} State-backed 2 nm entrant, Chitose
 
 **Where it is made**
 
--   {--{"author":"James's AI","timestamp":1790594067144}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790594067144}@@TW · **Taiwan**:++} TSMC's six gigafabs and UMC; N2 and N3 for every leading AI accelerator
--   {--{"author":"James's AI","timestamp":1790594067960}@@KRSouth Korea--}{++{"author":"James's AI","timestamp":1790594067960}@@KR · **South Korea**:++} Samsung Foundry, Hwaseong and Pyeongtaek
--   {--{"author":"James's AI","timestamp":1790594069147}@@CNChina--}{++{"author":"James's AI","timestamp":1790594069147}@@CN · **China**:++} SMIC and Hua Hong; the largest installed capacity of any region, almost all of it on older nodes
--   {--{"author":"James's AI","timestamp":1790594069821}@@USUnited States--}{++{"author":"James's AI","timestamp":1790594069821}@@US · **United States**:++} Intel Foundry, GlobalFoundries, TSMC Arizona, Samsung Taylor
--   {--{"author":"James's AI","timestamp":1790594070612}@@JPJapan--}{++{"author":"James's AI","timestamp":1790594070612}@@JP · **Japan**:++} TSMC Kumamoto, Rapidus Chitose
+-{--{"author":"James's AI","timestamp":1790597099684}@@   TWTaiwan--}{++{"author":"James's AI","timestamp":1790597099684}@@ **Taiwan**:++} TSMC's six gigafabs and UMC; N2 and N3 for every leading AI accelerator
+-{--{"author":"James's AI","timestamp":1790597099684}@@   KRSouth Korea--}{++{"author":"James's AI","timestamp":1790597099684}@@ **South Korea**:++} Samsung Foundry, Hwaseong and Pyeongtaek
+-{--{"author":"James's AI","timestamp":1790597099684}@@   CNChina--}{++{"author":"James's AI","timestamp":1790597099684}@@ **China**:++} SMIC and Hua Hong; the largest installed capacity of any region, almost all of it on older nodes
+-{--{"author":"James's AI","timestamp":1790597099684}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597099684}@@ **United States**:++} Intel Foundry, GlobalFoundries, TSMC Arizona, Samsung Taylor
+-{--{"author":"James's AI","timestamp":1790597099684}@@   JPJapan--}{++{"author":"James's AI","timestamp":1790597099684}@@ **Japan**:++} TSMC Kumamoto, Rapidus Chitose
 
 **Why substitution is slow**
 
@@ -2110,7 +2115,8 @@ SMIC and Hua Hong are China's largest foundries. SMIC had revenue of $9.327 bill
 
 **Where the US stands**
 
-Intel Foundry is the only American-owned foundry that makes the newest chips. It lost $2.089 billion on $5.8 billion of revenue in the second quarter of 2026. The federal government owns 9.9 percent of Intel and takes no part in running it.
+Intel Foundry is the only American-owned foundry that makes the newest chips. It lost $2.089 billion on $5.8 billion of revenue in the second quarter of 2026. The federal government owns 9.9 percent of Intel and takes no part in running it.{++{"author":"James's AI","timestamp":1790597099684}@@
+:::++}
 
 TSMC calls a plant a GIGAFAB once it runs more than 100,000 wafers a month, each a 300 mm disc, twelve inches across. It operates six of them, and every one is in Taiwan [1](https://www.tsmc.com/english/dedicatedFoundry/manufacturing/gigafab).
 
@@ -2130,9 +2136,17 @@ Every plant TSMC and its subsidiaries run came to more than 17 million wafers a 
 
 TSMC and UMC build only for others. Chips at 7 nm and below, meaning the newest processes, were 77 percent of TSMC's wafer revenue in the second quarter of 2026, split 33 percent at 5 nm, 30 at 3 nm, 11 at 7 nm and 3 at 2 nm, on revenue of $40.20 billion at a 67.7 percent gross margin [4](https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm). No other foundry earns that margin, so none can fund the next node out of cash flow.
 
-**Chart:** TSMC wafer revenue by node, 2Q26 (% of wafer revenue)
+**Chart:** TSMC wafer revenue by node, 2Q26{--{"author":"James's AI","timestamp":1790597099684}@@ (%--}{++{"author":"James's AI","timestamp":1790597099684}@@
 
-2 nm **3** 3 nm **30** 5 nm **33** 7 nm **11** 10 nm and above **23**
+| | %++} of wafer {--{"author":"James's AI","timestamp":1790597099684}@@revenue)
+
+--}{++{"author":"James's AI","timestamp":1790597099684}@@revenue |
+|---|---:|
+| ++}2 nm {--{"author":"James's AI","timestamp":1790597099684}@@**3**--}{++{"author":"James's AI","timestamp":1790597099684}@@|++} 3 {++{"author":"James's AI","timestamp":1790597099684}@@|
+| 3 ++}nm {--{"author":"James's AI","timestamp":1790597099684}@@**30**--}{++{"author":"James's AI","timestamp":1790597099684}@@| 30 |
+|++} 5 nm {--{"author":"James's AI","timestamp":1790597099684}@@**33**--}{++{"author":"James's AI","timestamp":1790597099684}@@| 33 |
+|++} 7 nm {--{"author":"James's AI","timestamp":1790597099684}@@**11**--}{++{"author":"James's AI","timestamp":1790597099684}@@| 11 |
+|++} 10 nm and above {--{"author":"James's AI","timestamp":1790597099684}@@**23**--}{++{"author":"James's AI","timestamp":1790597099684}@@| 23 |++}
 
 Source: [TSMC 2Q26 results, filed with the SEC](https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm)
 
@@ -2166,126 +2180,156 @@ Samsung's main plant outside Korea is Taylor, Texas: a committed minimum of $17 
 
 SEMI forecast China at 10.1 million wafers a month in 2025, the most of any region, against Taiwan's 5.8 million out of a world total of 33.7 million [8](https://www.semi.org/en/news-media-press-releases/semi-press-releases/global-semiconductor-fab-capacity-projected-to-expand-6%25-in-2024-and-7%25-in-2025-semi-reports). Almost none of China's is advanced. The United States had almost no capacity below 10 nm in 2022 and is projected to hold 28 percent of it by 2032, on $2.3 trillion of new fab investment [12](https://www.bcg.com/publications/2024/emerging-resilience-in-semiconductor-supply-chain).
 
-{++{"author":"James's AI","timestamp":1790594074096}@@**Chart:** ++}Installed wafer fab capacity by region, 2025 forecast, all {--{"author":"James's AI","timestamp":1790594074096}@@nodesmillion--}{++{"author":"James's AI","timestamp":1790594074096}@@nodes (million++} 8-inch-equivalent wafers per {--{"author":"James's AI","timestamp":1790594074096}@@month--}{++{"author":"James's AI","timestamp":1790594074096}@@month)++}
+{++{"author":"James's AI","timestamp":1790594074096}@@**Chart:** ++}Installed wafer fab capacity by region, 2025 forecast, all {--{"author":"James's AI","timestamp":1790597099684}@@nodesmillion--}{++{"author":"James's AI","timestamp":1790597099684}@@nodes
 
-China 10.1 Taiwan 5.8 South Korea 5.4 Japan 4.7 Americas 3.2 Europe and Mideast 2.7 SE Asia 1.8
+| | million++} 8-inch-equivalent wafers per {--{"author":"James's AI","timestamp":1790597099684}@@month
+
+--}{++{"author":"James's AI","timestamp":1790597099684}@@month |
+|---|---:|
+| ++}China {++{"author":"James's AI","timestamp":1790597099684}@@| ++}10.1 {++{"author":"James's AI","timestamp":1790597099684}@@|
+| ++}Taiwan {++{"author":"James's AI","timestamp":1790597099684}@@| ++}5.8 {++{"author":"James's AI","timestamp":1790597099684}@@|
+| ++}South Korea {++{"author":"James's AI","timestamp":1790597099684}@@| ++}5.4 {++{"author":"James's AI","timestamp":1790597099684}@@|
+| ++}Japan {++{"author":"James's AI","timestamp":1790597099684}@@| ++}4.7 {++{"author":"James's AI","timestamp":1790597099684}@@|
+| ++}Americas {++{"author":"James's AI","timestamp":1790597099684}@@| ++}3.2 {++{"author":"James's AI","timestamp":1790597099684}@@|
+| ++}Europe and Mideast {++{"author":"James's AI","timestamp":1790597099684}@@| ++}2.7 {++{"author":"James's AI","timestamp":1790597099684}@@|
+| ++}SE Asia {++{"author":"James's AI","timestamp":1790597099684}@@| ++}1.8{++{"author":"James's AI","timestamp":1790597099684}@@ |++}
 
 Source: [SEMI World Fab Forecast](https://www.semi.org/en/news-media-press-releases/semi-press-releases/global-semiconductor-fab-capacity-projected-to-expand-6%25-in-2024-and-7%25-in-2025-semi-reports)
 
 Three risks meet on one island:
 
--   **Seismic.** Taiwan sits on an active plate boundary, and a tool knocked out of calibration scraps the work in progress across a whole fab.
--   **Power.** A gigafab is a large industrial load on a small island grid. Spare generating capacity sets how fast Taiwan can add fabs.
--   **Political.** A blockade or conflict would remove most sub-5 nm capacity from the world market at once, with no substitute available inside a decade. See [[#^geopolitics|Geopolitics]].
+-{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}**Seismic.** Taiwan sits on an active plate boundary, and a tool knocked out of calibration scraps the work in progress across a whole fab.
+-{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}**Power.** A gigafab is a large industrial load on a small island grid. Spare generating capacity sets how fast Taiwan can add fabs.
+-{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}**Political.** A blockade or conflict would remove most sub-5 nm capacity from the world market at once, with no substitute available inside a decade. See [[#^geopolitics|Geopolitics]].
 
 Diversification is slow because the hard part of a fab is a workforce that has run one process for years, and TSMC has yet to build a gigafab anywhere but Taiwan [1](https://www.tsmc.com/english/dedicatedFoundry/manufacturing/gigafab).
 
 ### Key evaluation criteria ^key-evaluation-criteria-9
 
--   **Leading-edge share.** TSMC's 77 percent of wafer revenue from 7 nm and below is why it can self-fund the next node [4](https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm).
--   **Yield at ramp.** How many good chips a new process gives in its first year, which separates a profitable node from a subsidized one. Intel Foundry's loss comes from yield.
--   **Ten-year cost of ownership.** $35 to $43 billion for a fab finished in 2026, and rising [2](https://www.bcg.com/publications/2023/navigating-the-semiconductor-manufacturing-costs).
--   **Utilization.** How full the lines run. SMIC's 93.5 percent shows what a captive home market does for volume, and not for margins [6](https://www.smics.com/en/site/news_read/7951).
--   **Customer concentration.** A foundry owned by a chipmaker competes with its own customers, which caps who will trust it with a flagship design.
--   **Geographic exposure.** How much of a buyer's supply sits on one island, one grid, one fault system.
+-{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}**Leading-edge share.** TSMC's 77 percent of wafer revenue from 7 nm and below is why it can self-fund the next node [4](https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm).
+-{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}**Yield at ramp.** How many good chips a new process gives in its first year, which separates a profitable node from a subsidized one. Intel Foundry's loss comes from yield.
+-{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}**Ten-year cost of ownership.** $35 to $43 billion for a fab finished in 2026, and rising [2](https://www.bcg.com/publications/2023/navigating-the-semiconductor-manufacturing-costs).
+-{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}**Utilization.** How full the lines run. SMIC's 93.5 percent shows what a captive home market does for volume, and not for margins [6](https://www.smics.com/en/site/news_read/7951).
+-{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}**Customer concentration.** A foundry owned by a chipmaker competes with its own customers, which caps who will trust it with a flagship design.
+-{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}**Geographic exposure.** How much of a buyer's supply sits on one island, one grid, one fault system.
 
-{--{"author":"James's AI","timestamp":1790594074735}@@Card--}{++{"author":"James's AI","timestamp":1790594074735}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594074735}@@4Question--}{++{"author":"James's AI","timestamp":1790594074735}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597099684}@@Card 1 of 4Question
 
-What is a foundry?
+What is a foundry?--}{++{"author":"James's AI","timestamp":1790597099684}@@::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.++}
 
-{--{"author":"James's AI","timestamp":1790594075612}@@Card--}{++{"author":"James's AI","timestamp":1790594075612}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594075612}@@4Answer--}{++{"author":"James's AI","timestamp":1790594075612}@@4 · Answer**++}
+{--{"author":"James's AI","timestamp":1790597099684}@@Card--}{++{"author":"James's AI","timestamp":1790597099684}@@:::callout {title="Card++} 1 of {--{"author":"James's AI","timestamp":1790597099684}@@4Answer
 
-A chip factory that makes chips designed by other companies.
+--}{++{"author":"James's AI","timestamp":1790597099684}@@4: What is a foundry?" tone="neutral" collapse="closed"}
+++}A chip factory that makes chips designed by other companies.
 
-A fab costs tens of billions of dollars, and no chip company sells enough of one product to fill one alone. [[#^how-it-works-9|Reread: How it works]]
+A fab costs tens of billions of dollars, and no chip company sells enough of one product to fill one alone. [[#^how-it-works-9|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597099684}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790594076341}@@Card--}{++{"author":"James's AI","timestamp":1790594076341}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594076341}@@4Question--}{++{"author":"James's AI","timestamp":1790594076341}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597099684}@@Card--}{++{"author":"James's AI","timestamp":1790597099684}@@:::callout {title="Card++} 2 of {--{"author":"James's AI","timestamp":1790597099684}@@4Question
 
-Where are TSMC's largest plants?
+--}{++{"author":"James's AI","timestamp":1790597099684}@@4: ++}Where are TSMC's largest {--{"author":"James's AI","timestamp":1790597099684}@@plants?
 
-{--{"author":"James's AI","timestamp":1790594076946}@@Card--}{++{"author":"James's AI","timestamp":1790594076946}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594076946}@@4Answer--}{++{"author":"James's AI","timestamp":1790594076946}@@4 · Answer**++}
+Card 2 of 4Answer
 
-All six are in Taiwan.
+--}{++{"author":"James's AI","timestamp":1790597099684}@@plants?" tone="neutral" collapse="closed"}
+++}All six are in Taiwan.
 
-They hold 13 of the 17 million wafers TSMC can make in a year. [[#^who-makes-it-9|Reread: Who makes it]]
+They hold 13 of the 17 million wafers TSMC can make in a year. [[#^who-makes-it-9|Reread: Who makes it]]{++{"author":"James's AI","timestamp":1790597099684}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790594077613}@@Card--}{++{"author":"James's AI","timestamp":1790594077613}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594077613}@@4Question--}{++{"author":"James's AI","timestamp":1790594077613}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597099684}@@Card--}{++{"author":"James's AI","timestamp":1790597099684}@@:::callout {title="Card++} 3 of {--{"author":"James's AI","timestamp":1790597099684}@@4Question
 
-What is the slowest part of building leading-edge chipmaking outside Taiwan?
+--}{++{"author":"James's AI","timestamp":1790597099684}@@4: ++}What is the slowest part of building leading-edge chipmaking outside {--{"author":"James's AI","timestamp":1790597099684}@@Taiwan?
 
-{--{"author":"James's AI","timestamp":1790594078380}@@Card--}{++{"author":"James's AI","timestamp":1790594078380}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594078380}@@4Answer--}{++{"author":"James's AI","timestamp":1790594078380}@@4 · Answer**++}
+Card 3 of 4Answer
 
-Training a workforce that has run the process for years.
+--}{++{"author":"James's AI","timestamp":1790597099684}@@Taiwan?" tone="neutral" collapse="closed"}
+++}Training a workforce that has run the process for years.
 
-Money can buy the building. TSMC has committed $165 billion to the United States and has not yet built one of its largest plants there. [[#^the-chokepoint-9|Reread: The chokepoint]]
+Money can buy the building. TSMC has committed $165 billion to the United States and has not yet built one of its largest plants there. [[#^the-chokepoint-9|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597099684}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790594079007}@@Card--}{++{"author":"James's AI","timestamp":1790594079007}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594079007}@@4Question--}{++{"author":"James's AI","timestamp":1790594079007}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597099684}@@Card --}{++{"author":"James's AI","timestamp":1790597099684}@@:::callout {title="Card ++}4 of {--{"author":"James's AI","timestamp":1790597099684}@@4Question
 
-How much of China's fab capacity can make the newest chips?
+--}{++{"author":"James's AI","timestamp":1790597099684}@@4: ++}How much of China's fab capacity can make the newest {--{"author":"James's AI","timestamp":1790597099684}@@chips?
 
-{--{"author":"James's AI","timestamp":1790594079563}@@Card--}{++{"author":"James's AI","timestamp":1790594079563}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594079563}@@4Answer--}{++{"author":"James's AI","timestamp":1790594079563}@@4 · Answer**++}
+Card 4 of 4Answer
 
-Almost none.
+--}{++{"author":"James's AI","timestamp":1790597099684}@@chips?" tone="neutral" collapse="closed"}
+++}Almost none.
 
-China has more capacity than any other region, but SMIC cannot buy an EUV machine. [[#^the-chokepoint-9|Reread: The chokepoint]]
+China has more capacity than any other region, but SMIC cannot buy an EUV machine. [[#^the-chokepoint-9|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597099684}@@
+:::++}
 
-#### Four things to remember ^four-things-to-remember-8
+{--{"author":"James's AI","timestamp":1790597099684}@@#### Four--}{++{"author":"James's AI","timestamp":1790597099684}@@::::
 
--   A foundry makes chips for other companies, because no chip company can fill a fab alone.
--   All six of TSMC's largest plants are in Taiwan.
--   Money can buy a fab building, and training the workforce is the slow part.
--   China has more fab capacity than any other region, and almost none of it can make the newest chips.
+:::callout {title="Four++} things to {--{"author":"James's AI","timestamp":1790597099684}@@remember ^four-things-to-remember-8
 
-**Sources (12)**
+--}{++{"author":"James's AI","timestamp":1790597099684}@@remember" tone="green"}
+++}-{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}A foundry makes chips for other companies, because no chip company can fill a fab alone.
+-{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}All six of TSMC's largest plants are in Taiwan.
+-{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}Money can buy a fab building, and training the workforce is the slow part.
+-{--{"author":"James's AI","timestamp":1790597099684}@@   --}{++{"author":"James's AI","timestamp":1790597099684}@@ ++}China has more fab capacity than any other region, and almost none of it can make the newest chips.{++{"author":"James's AI","timestamp":1790597099684}@@
+:::++}
 
-1.  A [GIGAFAB® Facilities](https://www.tsmc.com/english/dedicatedFoundry/manufacturing/gigafab) TSMC
-2.  A [Navigating the Costly Economics of Chip Making](https://www.bcg.com/publications/2023/navigating-the-semiconductor-manufacturing-costs) Boston Consulting Group · 28 September 2023
-3.  A [Fab Capacity](https://www.tsmc.com/english/dedicatedFoundry/manufacturing/fab_capacity) TSMC
-4.  A [TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD, Form 6-K report of foreign private issuer for the period ended 2026-06-30 (6-K)](https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm) U.S. Securities and Exchange Commission (filing by TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD) · 16 July 2026
-5.  A [Intel Reports Second-Quarter 2026 Financial Results](https://www.intc.com/news-events/press-releases/detail/1776/intel-reports-second-quarter-2026-financial-results) Intel · 23 July 2026
-6.  A [SMIC Announces 2025 Annual Results](https://www.smics.com/en/site/news_read/7951) SMIC
-7.  A [Rapidus Secures 267.6 Billion Yen in Funding from Japan Government and Private Sector Companies This strategic funding plan will enable Rapidus to steadily progress from its current R&D phase to mass production of 2nm logic semiconductors by 2027 - Information - Rapidus Corporation](https://www.rapidus.inc/en/news_topics/information/rapidus-secures-267-6-billion-yen-in-funding-from-japan-government-and-private-sector-companies/) Rapidus
-8.  A [Global Semiconductor Fab Capacity Projected to Expand 6% in 2024 and 7% in 2025, SEMI Reports](https://www.semi.org/en/news-media-press-releases/semi-press-releases/global-semiconductor-fab-capacity-projected-to-expand-6%25-in-2024-and-7%25-in-2025-semi-reports) SEMI · 18 June 2024
-9.  A [TSMC Intends to Expand Its Investment in the United States to US$165 Billion to Power the Future of AI](https://pr.tsmc.com/english/news/3210) TSMC · 4 March 2025
-10.  A [Intel and Trump Administration Reach Historic Agreement to Accelerate American Technology and Manufacturing Leadership](https://www.intc.com/news-events/press-releases/detail/1748/intel-and-trump-administration-reach-historic-agreement-to) Intel · 22 August 2025
-11.  A [Taylor | US Fab | Samsung Semiconductor Global](https://semiconductor.samsung.com/sas/company/taylor/) Samsung Electronics · 11 September 2025
-12.  A [Emerging Resilience in the Semiconductor Supply Chain](https://www.bcg.com/publications/2024/emerging-resilience-in-semiconductor-supply-chain) Boston Consulting Group · 8 May 2024
+{--{"author":"James's AI","timestamp":1790597099684}@@**Sources (12)**
+
+--}{++{"author":"James's AI","timestamp":1790597099684}@@:::callout {title="Sources (12)" tone="neutral" collapse="closed"}
+++}1.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [GIGAFAB® {--{"author":"James's AI","timestamp":1790597099684}@@Facilities](https://www.tsmc.com/english/dedicatedFoundry/manufacturing/gigafab) TSMC--}{++{"author":"James's AI","timestamp":1790597099684}@@Facilities](https://www.tsmc.com/english/dedicatedFoundry/manufacturing/gigafab). TSMC. Tier A.++}
+2.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [Navigating the Costly Economics of Chip {--{"author":"James's AI","timestamp":1790597099684}@@Making](https://www.bcg.com/publications/2023/navigating-the-semiconductor-manufacturing-costs)--}{++{"author":"James's AI","timestamp":1790597099684}@@Making](https://www.bcg.com/publications/2023/navigating-the-semiconductor-manufacturing-costs).++} Boston Consulting Group · 28 September {--{"author":"James's AI","timestamp":1790597099684}@@2023--}{++{"author":"James's AI","timestamp":1790597099684}@@2023. Tier A.++}
+3.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [Fab {--{"author":"James's AI","timestamp":1790597099684}@@Capacity](https://www.tsmc.com/english/dedicatedFoundry/manufacturing/fab_capacity) TSMC--}{++{"author":"James's AI","timestamp":1790597099684}@@Capacity](https://www.tsmc.com/english/dedicatedFoundry/manufacturing/fab_capacity). TSMC. Tier A.++}
+4.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD, Form 6-K report of foreign private issuer for the period ended 2026-06-30 {--{"author":"James's AI","timestamp":1790597099684}@@(6-K)](https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm)--}{++{"author":"James's AI","timestamp":1790597099684}@@(6-K)](https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm).++} U.S. Securities and Exchange Commission (filing by TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD) · 16 July {--{"author":"James's AI","timestamp":1790597099684}@@2026--}{++{"author":"James's AI","timestamp":1790597099684}@@2026. Tier A.++}
+5.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [Intel Reports Second-Quarter 2026 Financial {--{"author":"James's AI","timestamp":1790597099684}@@Results](https://www.intc.com/news-events/press-releases/detail/1776/intel-reports-second-quarter-2026-financial-results)--}{++{"author":"James's AI","timestamp":1790597099684}@@Results](https://www.intc.com/news-events/press-releases/detail/1776/intel-reports-second-quarter-2026-financial-results).++} Intel · 23 July {--{"author":"James's AI","timestamp":1790597099684}@@2026--}{++{"author":"James's AI","timestamp":1790597099684}@@2026. Tier A.++}
+6.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [SMIC Announces 2025 Annual {--{"author":"James's AI","timestamp":1790597099684}@@Results](https://www.smics.com/en/site/news_read/7951) SMIC--}{++{"author":"James's AI","timestamp":1790597099684}@@Results](https://www.smics.com/en/site/news_read/7951). SMIC. Tier A.++}
+7.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [Rapidus Secures 267.6 Billion Yen in Funding from Japan Government and Private Sector Companies This strategic funding plan will enable Rapidus to steadily progress from its current R&D phase to mass production of 2nm logic semiconductors by 2027 - Information - Rapidus {--{"author":"James's AI","timestamp":1790597099684}@@Corporation](https://www.rapidus.inc/en/news_topics/information/rapidus-secures-267-6-billion-yen-in-funding-from-japan-government-and-private-sector-companies/) Rapidus--}{++{"author":"James's AI","timestamp":1790597099684}@@Corporation](https://www.rapidus.inc/en/news_topics/information/rapidus-secures-267-6-billion-yen-in-funding-from-japan-government-and-private-sector-companies/). Rapidus. Tier A.++}
+8.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [Global Semiconductor Fab Capacity Projected to Expand 6% in 2024 and 7% in 2025, SEMI {--{"author":"James's AI","timestamp":1790597099684}@@Reports](https://www.semi.org/en/news-media-press-releases/semi-press-releases/global-semiconductor-fab-capacity-projected-to-expand-6%25-in-2024-and-7%25-in-2025-semi-reports)--}{++{"author":"James's AI","timestamp":1790597099684}@@Reports](https://www.semi.org/en/news-media-press-releases/semi-press-releases/global-semiconductor-fab-capacity-projected-to-expand-6%25-in-2024-and-7%25-in-2025-semi-reports).++} SEMI · 18 June {--{"author":"James's AI","timestamp":1790597099684}@@2024--}{++{"author":"James's AI","timestamp":1790597099684}@@2024. Tier A.++}
+9.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [TSMC Intends to Expand Its Investment in the United States to US$165 Billion to Power the Future of {--{"author":"James's AI","timestamp":1790597099684}@@AI](https://pr.tsmc.com/english/news/3210)--}{++{"author":"James's AI","timestamp":1790597099684}@@AI](https://pr.tsmc.com/english/news/3210).++} TSMC · 4 March {--{"author":"James's AI","timestamp":1790597099684}@@2025--}{++{"author":"James's AI","timestamp":1790597099684}@@2025. Tier A.++}
+10.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [Intel and Trump Administration Reach Historic Agreement to Accelerate American Technology and Manufacturing {--{"author":"James's AI","timestamp":1790597099684}@@Leadership](https://www.intc.com/news-events/press-releases/detail/1748/intel-and-trump-administration-reach-historic-agreement-to)--}{++{"author":"James's AI","timestamp":1790597099684}@@Leadership](https://www.intc.com/news-events/press-releases/detail/1748/intel-and-trump-administration-reach-historic-agreement-to).++} Intel · 22 August {--{"author":"James's AI","timestamp":1790597099684}@@2025--}{++{"author":"James's AI","timestamp":1790597099684}@@2025. Tier A.++}
+11.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [Taylor | US Fab | Samsung Semiconductor {--{"author":"James's AI","timestamp":1790597099684}@@Global](https://semiconductor.samsung.com/sas/company/taylor/)--}{++{"author":"James's AI","timestamp":1790597099684}@@Global](https://semiconductor.samsung.com/sas/company/taylor/).++} Samsung Electronics · 11 September {--{"author":"James's AI","timestamp":1790597099684}@@2025--}{++{"author":"James's AI","timestamp":1790597099684}@@2025. Tier A.++}
+12.{--{"author":"James's AI","timestamp":1790597099684}@@  A--} [Emerging Resilience in the Semiconductor Supply {--{"author":"James's AI","timestamp":1790597099684}@@Chain](https://www.bcg.com/publications/2024/emerging-resilience-in-semiconductor-supply-chain)--}{++{"author":"James's AI","timestamp":1790597099684}@@Chain](https://www.bcg.com/publications/2024/emerging-resilience-in-semiconductor-supply-chain).++} Boston Consulting Group · 8 May {--{"author":"James's AI","timestamp":1790597099684}@@2024--}{++{"author":"James's AI","timestamp":1790597099684}@@2024. Tier A.
+:::++}
 
 ## Memory and HBM ^memory-and-hbm
 
 Three firms make every HBM stack in the world. The stack is the largest block of silicon in an AI package, and the cooling plate above it now limits how tall it can be.
 
-%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+{--{"author":"James's AI","timestamp":1790597107175}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
 
-{--{"author":"James's AI","timestamp":1790594081113}@@1,396--}{++{"author":"James's AI","timestamp":1790594081113}@@_1,396++} words / 6 {--{"author":"James's AI","timestamp":1790594081113}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594081113}@@min · Interactive 3D Specimen:++} HBM stack{++{"author":"James's AI","timestamp":1790594081113}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#memory-and-hbm))_++}
+1,396--}{++{"author":"James's AI","timestamp":1790597107175}@@*1,396++} words / 6 {--{"author":"James's AI","timestamp":1790597107175}@@minSpecimen: HBM stack
 
 **In plain terms**
 
-High bandwidth memory, or HBM, is where an AI chip keeps the numbers it is working on, and it is built to hand them over fast. A memory maker stacks up to sixteen memory chips into a cube, drills holes straight down through the stack, and fills the holes with copper so that every layer is wired to the ones below. The cube then sits beside the processor, the chip that does the calculating. Stacking is the hard part, because each chip is ground so thin that the copper in its holes shows through its back, the finished cube has to fit under the plate that cools it, and one bad chip ruins the whole cube. Only SK hynix, Samsung and Micron have made it work, and a single line in an American export control reaches all three.
+--}{++{"author":"James's AI","timestamp":1790597107175}@@min*
+
+:::callout {title="In plain terms" tone="neutral"}
+++}High bandwidth memory, or HBM, is where an AI chip keeps the numbers it is working on, and it is built to hand them over fast. A memory maker stacks up to sixteen memory chips into a cube, drills holes straight down through the stack, and fills the holes with copper so that every layer is wired to the ones below. The cube then sits beside the processor, the chip that does the calculating. Stacking is the hard part, because each chip is ground so thin that the copper in its holes shows through its back, the finished cube has to fit under the plate that cools it, and one bad chip ruins the whole cube. Only SK hynix, Samsung and Micron have made it work, and a single line in an American export control reaches all three.{++{"author":"James's AI","timestamp":1790597107175}@@
+:::++}
 
 ### In short ^in-short-10
 
 HBM is the most expensive component in an AI accelerator, and three firms supply all of it: the two Korean ones sold 82.5 percent in 2025 [11](https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm). The limit now is heat and height inside a 775-micrometer cube [9](https://news.skhynix.com/en/tech-note-series-ep2/), and the fix, hybrid bonding, is two generations away. The export control on HBM works because one bandwidth-density threshold catches every part worth buying [15](https://www.federalregister.gov/documents/2024/12/05/2024-28270/foreign-produced-direct-product-rule-additions-and-refinements-to-controls-for-advanced-computing).
 
-Concentration: **Extreme**
+{--{"author":"James's AI","timestamp":1790597107175}@@Concentration: **Extreme**--}{++{"author":"James's AI","timestamp":1790597107175}@@:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** Extreme++}
 
-Substitutability: **Hard**. Three firms ship HBM, and no fourth firm has both the newest DRAM and a line that stacks it.
+{--{"author":"James's AI","timestamp":1790597107175}@@Substitutability: **Hard**.--}{++{"author":"James's AI","timestamp":1790597107175}@@**Substitutability:** Hard.++} Three firms ship HBM, and no fourth firm has both the newest DRAM and a line that stacks it.
 
-Price or market size: **An HBM stack moves data over a path 16 times wider than a DDR5 memory module's**. That width costs chip area and lowers the share of stacks that come out working.
+{--{"author":"James's AI","timestamp":1790597107175}@@Price--}{++{"author":"James's AI","timestamp":1790597107175}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597107175}@@size: **An--}{++{"author":"James's AI","timestamp":1790597107175}@@size:** An++} HBM stack moves data over a path 16 times wider than a DDR5 memory {--{"author":"James's AI","timestamp":1790597107175}@@module's**.--}{++{"author":"James's AI","timestamp":1790597107175}@@module's.++} That width costs chip area and lowers the share of stacks that come out working.
 
 **Who leads**
 
--   {--{"author":"James's AI","timestamp":1790594084879}@@KRSK hynix--}{++{"author":"James's AI","timestamp":1790594084879}@@KR · **SK hynix**:++} 63.2% of HBM revenue, 2025; first to complete HBM4, at over 10 Gbps per pin
--   {--{"author":"James's AI","timestamp":1790594085547}@@KRSamsung--}{++{"author":"James's AI","timestamp":1790594085547}@@KR · **Samsung**:++} 19.3% of HBM revenue, 2025; Hwaseong and Pyeongtaek
--   {--{"author":"James's AI","timestamp":1790594086244}@@USMicron--}{++{"author":"James's AI","timestamp":1790594086244}@@US · **Micron**:++} 17.4% of HBM revenue, 2025; HBM4 above 11 Gbps per pin
+-{--{"author":"James's AI","timestamp":1790597107175}@@   KRSK hynix--}{++{"author":"James's AI","timestamp":1790597107175}@@ **SK hynix** (KR):++} 63.2% of HBM revenue, 2025; first to complete HBM4, at over 10 Gbps per pin
+-{--{"author":"James's AI","timestamp":1790597107175}@@   KRSamsung--}{++{"author":"James's AI","timestamp":1790597107175}@@ **Samsung** (KR):++} 19.3% of HBM revenue, 2025; Hwaseong and Pyeongtaek
+-{--{"author":"James's AI","timestamp":1790597107175}@@   USMicron--}{++{"author":"James's AI","timestamp":1790597107175}@@ **Micron** (US):++} 17.4% of HBM revenue, 2025; HBM4 above 11 Gbps per pin
 
 **Where it is made**
 
--   {--{"author":"James's AI","timestamp":1790594087368}@@KRSouth Korea--}{++{"author":"James's AI","timestamp":1790594087368}@@KR · **South Korea**:++} SK hynix Cheongju and Icheon; Samsung Pyeongtaek and Hwaseong
--   {--{"author":"James's AI","timestamp":1790594088103}@@USUnited States--}{++{"author":"James's AI","timestamp":1790594088103}@@US · **United States**:++} Micron headquarters and R&D; SK hynix packaging plant under construction in Indiana
--   {--{"author":"James's AI","timestamp":1790594089014}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790594089014}@@TW · **Taiwan**:++} Micron DRAM and HBM packaging in Taichung; TSMC builds HBM4 logic base dies
--   {--{"author":"James's AI","timestamp":1790594089909}@@JPJapan--}{++{"author":"James's AI","timestamp":1790594089909}@@JP · **Japan**:++} Micron Hiroshima, 1-gamma DRAM
--   {--{"author":"James's AI","timestamp":1790594090683}@@SGSingapore--}{++{"author":"James's AI","timestamp":1790594090683}@@SG · **Singapore**:++} Micron HBM advanced packaging
+-{--{"author":"James's AI","timestamp":1790597107175}@@   KRSouth Korea--}{++{"author":"James's AI","timestamp":1790597107175}@@ **South Korea**:++} SK hynix Cheongju and Icheon; Samsung Pyeongtaek and Hwaseong
+-{--{"author":"James's AI","timestamp":1790597107175}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597107175}@@ **United States**:++} Micron headquarters and R&D; SK hynix packaging plant under construction in Indiana
+-{--{"author":"James's AI","timestamp":1790597107175}@@   TWTaiwan--}{++{"author":"James's AI","timestamp":1790597107175}@@ **Taiwan**:++} Micron DRAM and HBM packaging in Taichung; TSMC builds HBM4 logic base dies
+-{--{"author":"James's AI","timestamp":1790597107175}@@   JPJapan--}{++{"author":"James's AI","timestamp":1790597107175}@@ **Japan**:++} Micron Hiroshima, 1-gamma DRAM
+-{--{"author":"James's AI","timestamp":1790597107175}@@   SGSingapore--}{++{"author":"James's AI","timestamp":1790597107175}@@ **Singapore**:++} Micron HBM advanced packaging
 
 **Why substitution is slow**
 
@@ -2297,7 +2341,8 @@ No Chinese firm ships HBM3E or HBM4 in volume. CXMT is the only Chinese firm tha
 
 **Where the US stands**
 
-Micron is the only American HBM maker. BIS, the US export control office, requires a license for HBM faster than 2 GB/s per square millimeter of package or stack area, under control number ECCN 3A090.c, and every stack now in production is faster than that.
+Micron is the only American HBM maker. BIS, the US export control office, requires a license for HBM faster than 2 GB/s per square millimeter of package or stack area, under control number ECCN 3A090.c, and every stack now in production is faster than that.{++{"author":"James's AI","timestamp":1790597107175}@@
+:::++}
 
 An AI accelerator is a machine for moving numbers past arithmetic units, and arithmetic got cheap faster than the moving did. High bandwidth memory now decides how fast a GPU runs.
 
@@ -2307,11 +2352,11 @@ Each layer in the cube is a DRAM chip, ground thin and bonded to the one below w
 
 An HBM3E cube talks to the processor over 1,024 wires at once, a 1,024-bit interface, sixteen times wider than a standard DDR5 memory module, the memory stick in a PC [1](https://www.micron.com/products/memory/hbm). HBM4 doubles that to 2,048 wires [2](https://www.jedec.org/news/pressreleases/jedec%C2%AE-and-industry-leaders-collaborate-release-jesd270-4-hbm4-standard-advancing). Ordinary memory cannot be made that wide, because the pins would not fit on a circuit board. The stack can, since its wires run down through the TSVs and across a few millimeters of silicon to the processor beside it, with no board in the way.
 
-{--{"author":"James's AI","timestamp":1790594485771}@@![](https://chipsupplychain.org/media/hbm-stack-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594485771}@@![Inside a memory stack](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-hbm-stack.jpg)++}{++{"author":"James's AI","timestamp":1790594889451}@@
+{--{"author":"James's AI","timestamp":1790594485771}@@![](https://chipsupplychain.org/media/hbm-stack-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594485771}@@![Inside a memory stack](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-hbm-stack.jpg)++}{--{"author":"James's AI","timestamp":1790597107175}@@
 
-%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%++}
+**Figure: Inside a memory stack.** An--}{++{"author":"James's AI","timestamp":1790597107175}@@
 
-**Figure: Inside a memory stack.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#memory-and-hbm)); above is its last frame. Its steps:
+*Inside a memory stack. The last frame of an++} animation on the {--{"author":"James's AI","timestamp":1790597107175}@@live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#memory-and-hbm)); above is its last frame. --}{++{"author":"James's AI","timestamp":1790597107175}@@original site. ++}Its {--{"author":"James's AI","timestamp":1790597107175}@@steps:--}{++{"author":"James's AI","timestamp":1790597107175}@@steps:*++}
 
 1. **Base chip.** A memory stack sits beside the GPU on a shared silicon base. It starts with a base chip, which controls the memory chips above it.
 2. **Thin.** Each memory chip is ground to about 30 micrometers, thinner than a human hair.
@@ -2319,16 +2364,16 @@ An HBM3E cube talks to the processor over 1,024 wires at once, a 1,024-bit inter
 4. **Height.** The stack has to fit under the cooling plate. Twelve chips reach 0.72 mm, the old limit. HBM4 raised the limit to 775 micrometers and fits up to sixteen chips.
 5. **Width.** An HBM3E stack talks to the processor over 1,024 wires at once, sixteen times as many as a PC memory module. HBM4 doubles that to 2,048.
 
-_Simplified cross-section. Heights follow the published limits and are drawn to one vertical scale; widths are not to scale._
+{--{"author":"James's AI","timestamp":1790597107175}@@_Simplified--}{++{"author":"James's AI","timestamp":1790597107175}@@*Simplified++} cross-section. Heights follow the published limits and are drawn to one vertical scale; widths are not to {--{"author":"James's AI","timestamp":1790597107175}@@scale._
 
-Inside a memory stack
+Inside a memory stack--}{++{"author":"James's AI","timestamp":1790597107175}@@scale.*++}
 
 Answering a prompt is what the width is for. Training reuses each stored number across a huge multiplication, so a chip can fetch little and compute a lot. To generate one word of an answer, the chip reads the whole model from memory, and the whole record of the conversation so far, does a little arithmetic, and waits for the next read. That record grows with the length of the conversation and the number of users served at once. So memory size and speed usually set how many people one chip can serve.
 
 ### Variants and trade-offs ^variants-and-trade-offs-10
 
 | Generation | Interface | Bandwidth per stack | Capacity per stack |
-| --- | --- | --- | --- |
+{--{"author":"James's AI","timestamp":1790597107175}@@| --- | --- | --- | --- |--}{++{"author":"James's AI","timestamp":1790597107175}@@|---|---|---|---|++}
 | HBM3E | 1,024-bit, 16 channels (32 pseudo-channels) | over 1.2 TB/s | 24 GB (8 chips), 36 GB (12 chips) |
 | HBM4 | 2,048-bit, 32 channels | over 2.0 TB/s, up to 3.3 TB/s | up to 64 GB (16 chips, 32 Gb dies) |
 
@@ -2342,17 +2387,23 @@ The standards body JEDEC published JESD270-4 in April 2025, setting the 2,048-bi
 
 The chip at the bottom of an HBM4 stack is now a logic chip, so it has to be made in a foundry, and SK hynix partnered with TSMC to build it [7](https://news.skhynix.com/sk-hynix-partners-with-tsmc-to-strengthen-hbm-technological-leadership/). That gives TSMC a role inside a product it does not make.
 
-{++{"author":"James's AI","timestamp":1790594093533}@@**Chart:** ++}Peak bandwidth per HBM {--{"author":"James's AI","timestamp":1790594093533}@@stackGB/s--}{++{"author":"James's AI","timestamp":1790594093533}@@stack (GB/s)++}
+{++{"author":"James's AI","timestamp":1790594093533}@@**Chart:** ++}Peak bandwidth per HBM {--{"author":"James's AI","timestamp":1790597107175}@@stackGB/s
 
-HBM3E, 1,024-bit 1,200 HBM4, 2,048-bit 2,000 HBM4, advanced configurati 3,300
+--}{++{"author":"James's AI","timestamp":1790597107175}@@stack
+
+| | GB/s |
+|---|---:|
+| ++}HBM3E, 1,024-bit {++{"author":"James's AI","timestamp":1790597107175}@@| ++}1,200 {++{"author":"James's AI","timestamp":1790597107175}@@|
+| ++}HBM4, 2,048-bit {++{"author":"James's AI","timestamp":1790597107175}@@| ++}2,000 {++{"author":"James's AI","timestamp":1790597107175}@@|
+| ++}HBM4, advanced {--{"author":"James's AI","timestamp":1790597107175}@@configurati--}{++{"author":"James's AI","timestamp":1790597107175}@@configurations |++} 3,300{++{"author":"James's AI","timestamp":1790597107175}@@ |++}
 
 Source: [Siemens EDA, HBM3E and HBM4 IC design guide, April 2026](https://blogs.sw.siemens.com/semiconductor-packaging/2026/04/24/hbm3e-hbm4-ic-design-guide/)
 
 ### How a stack is built ^how-a-stack-is
 
--   **Drill and thin.** Etch vertical holes, the through-silicon vias, into a memory wafer, fill them with copper, then grind the wafer from behind until the copper comes through.
--   **Stack and join.** SK hynix uses Advanced MR-MUF, which melts the solder bumps between stacked chips and molds a filler around them in one pass, which limits heat and warping [5](https://news.skhynix.com/en/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/).
--   **Stay under the height limit.** HBM4 raised the height limit on a finished cube from 720 micrometers to 775, still under a millimeter, because a stack taller than the processor beside it would hit the cooling plate [9](https://news.skhynix.com/en/tech-note-series-ep2/).
+-{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}**Drill and thin.** Etch vertical holes, the through-silicon vias, into a memory wafer, fill them with copper, then grind the wafer from behind until the copper comes through.
+-{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}**Stack and join.** SK hynix uses Advanced MR-MUF, which melts the solder bumps between stacked chips and molds a filler around them in one pass, which limits heat and warping [5](https://news.skhynix.com/en/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/).
+-{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}**Stay under the height limit.** HBM4 raised the height limit on a finished cube from 720 micrometers to 775, still under a millimeter, because a stack taller than the processor beside it would hit the cooling plate [9](https://news.skhynix.com/en/tech-note-series-ep2/).
 
 Hybrid bonding is the next step and it is not ready. Pressing copper pad straight onto copper pad, with no solder and no filler, would cut the spacing between connections from about 20 micrometers to under 1, but SK hynix expects full-scale adoption only at HBM4E or HBM5, where stacks pass twenty layers [9](https://news.skhynix.com/en/tech-note-series-ep2/).
 
@@ -2364,15 +2415,26 @@ SK hynix built its lead by being first to pass Nvidia's qualification tests, and
 
 The split is on the record because SK hynix registered shares in the United States: of 2025 HBM revenue, SK hynix took 63.2 percent, Samsung 19.3 and Micron 17.4, which puts the two Korean suppliers at 82.5 percent of the world's HBM [11](https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm). The filing credits the research firm IDC. These shares move fast: in 2024 the same three stood at 56.4, 37.8 and 5.8, so Samsung halved and Micron tripled inside a year on qualification wins alone. By the first quarter of 2026 Micron was at 23.1 percent and Korea down to 76.9 [11](https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm).
 
-**Chart:** Global HBM revenue by supplier, 2025 (%)
+**Chart:** Global HBM revenue by supplier, 2025{--{"author":"James's AI","timestamp":1790597107175}@@ (%)
 
-SK hynix (KR) **63.2%** Samsung (KR) **19.3%** Micron (US) **17.4%**
+--}{++{"author":"James's AI","timestamp":1790597107175}@@
+
+| | % |
+|---|---:|
+| ++}SK hynix (KR) {--{"author":"James's AI","timestamp":1790597107175}@@**63.2%**--}{++{"author":"James's AI","timestamp":1790597107175}@@| 63.2 |
+|++} Samsung (KR) {--{"author":"James's AI","timestamp":1790597107175}@@**19.3%**--}{++{"author":"James's AI","timestamp":1790597107175}@@| 19.3 |
+|++} Micron (US) {--{"author":"James's AI","timestamp":1790597107175}@@**17.4%**--}{++{"author":"James's AI","timestamp":1790597107175}@@| 17.4 |++}
 
 Source: [SK hynix Form 424B4 prospectus, 10 July 2026, on IDC data](https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm)
 
-**Chart:** HBM market revenue, Bank of America estimate ($B)
+**Chart:** HBM market revenue, Bank of America estimate{--{"author":"James's AI","timestamp":1790597107175}@@ ($B)
 
-2025 34.6 2026 54.6
+--}{++{"author":"James's AI","timestamp":1790597107175}@@
+
+| | $B |
+|---|---:|
+| ++}2025 {++{"author":"James's AI","timestamp":1790597107175}@@| ++}34.6 {++{"author":"James's AI","timestamp":1790597107175}@@|
+| ++}2026 {++{"author":"James's AI","timestamp":1790597107175}@@| ++}54.6{++{"author":"James's AI","timestamp":1790597107175}@@ |++}
 
 Source: [Bank of America estimate cited in SK hynix's 2026 market outlook](https://news.skhynix.com/en/2026-market-outlook-focus-on-the-hbm-led-memory-supercycle/)
 
@@ -2388,78 +2450,93 @@ China's HBM maker is CXMT, and it is behind the three. That gap is closing from 
 
 ### Key evaluation criteria ^key-evaluation-criteria-10
 
--   **Bandwidth per stack** sets how fast a chip can serve answers: over 1.2 TB/s on HBM3E, over 2 TB/s on HBM4 [8](https://blogs.sw.siemens.com/semiconductor-packaging/2026/04/24/hbm3e-hbm4-ic-design-guide/).
--   **Capacity per stack** decides how large a model fits on one accelerator, up to 64 GB with sixteen chips stacked [2](https://www.jedec.org/news/pressreleases/jedec%C2%AE-and-industry-leaders-collaborate-release-jesd270-4-hbm4-standard-advancing).
--   **Stack height**, 775 micrometers for HBM4, caps the number of layers before the cooling plate [9](https://news.skhynix.com/en/tech-note-series-ep2/).
--   **Stack yield** sets the price more than wafer cost does, because one bad die scraps the cube.
--   **Thermal path** gets worse with every layer: the chip at the bottom runs hottest, and each one added above it makes the heat harder to get out.
--   **Qualification** means passing Nvidia's data-rate test, above 10 Gb/s, against JEDEC's 8 [5](https://news.skhynix.com/en/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/).
+-{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}**Bandwidth per stack** sets how fast a chip can serve answers: over 1.2 TB/s on HBM3E, over 2 TB/s on HBM4 [8](https://blogs.sw.siemens.com/semiconductor-packaging/2026/04/24/hbm3e-hbm4-ic-design-guide/).
+-{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}**Capacity per stack** decides how large a model fits on one accelerator, up to 64 GB with sixteen chips stacked [2](https://www.jedec.org/news/pressreleases/jedec%C2%AE-and-industry-leaders-collaborate-release-jesd270-4-hbm4-standard-advancing).
+-{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}**Stack height**, 775 micrometers for HBM4, caps the number of layers before the cooling plate [9](https://news.skhynix.com/en/tech-note-series-ep2/).
+-{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}**Stack yield** sets the price more than wafer cost does, because one bad die scraps the cube.
+-{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}**Thermal path** gets worse with every layer: the chip at the bottom runs hottest, and each one added above it makes the heat harder to get out.
+-{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}**Qualification** means passing Nvidia's data-rate test, above 10 Gb/s, against JEDEC's 8 [5](https://news.skhynix.com/en/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/).
 
-{--{"author":"James's AI","timestamp":1790594096711}@@Card--}{++{"author":"James's AI","timestamp":1790594096711}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594096711}@@4Question--}{++{"author":"James's AI","timestamp":1790594096711}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597107175}@@Card 1 of 4Question
 
-What is HBM?
+What is HBM?--}{++{"author":"James's AI","timestamp":1790597107175}@@::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.++}
 
-{--{"author":"James's AI","timestamp":1790594097637}@@Card--}{++{"author":"James's AI","timestamp":1790594097637}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594097637}@@4Answer--}{++{"author":"James's AI","timestamp":1790594097637}@@4 · Answer**++}
+{--{"author":"James's AI","timestamp":1790597107175}@@Card --}{++{"author":"James's AI","timestamp":1790597107175}@@:::callout {title="Card ++}1 of {--{"author":"James's AI","timestamp":1790597107175}@@4Answer
 
-Memory chips stacked into a cube beside the processor and wired to pass data fast.
+--}{++{"author":"James's AI","timestamp":1790597107175}@@4: What is HBM?" tone="neutral" collapse="closed"}
+++}Memory chips stacked into a cube beside the processor and wired to pass data fast.
 
-Copper-filled holes run straight down through the stack, which holds up to sixteen chips. [[#^how-it-works-10|Reread: How it works]]
+Copper-filled holes run straight down through the stack, which holds up to sixteen chips. [[#^how-it-works-10|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597107175}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790594098562}@@Card--}{++{"author":"James's AI","timestamp":1790594098562}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594098562}@@4Question--}{++{"author":"James's AI","timestamp":1790594098562}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597107175}@@Card --}{++{"author":"James's AI","timestamp":1790597107175}@@:::callout {title="Card ++}2 of{--{"author":"James's AI","timestamp":1790597107175}@@ 4Question
 
-Why does an AI chip need such fast memory?
+--}{++{"author":"James's AI","timestamp":1790597107175}@@ 4: ++}Why does an AI chip need such fast {--{"author":"James's AI","timestamp":1790597107175}@@memory?
 
-{--{"author":"James's AI","timestamp":1790594099414}@@Card--}{++{"author":"James's AI","timestamp":1790594099414}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594099414}@@4Answer--}{++{"author":"James's AI","timestamp":1790594099414}@@4 · Answer**++}
+Card 2 of 4Answer
 
-For each word it writes, it reads the whole model from memory.
+--}{++{"author":"James's AI","timestamp":1790597107175}@@memory?" tone="neutral" collapse="closed"}
+++}For each word it writes, it reads the whole model from memory.
 
-Memory speed and size usually set how many users one chip can serve. [[#^how-it-works-10|Reread: How it works]]
+Memory speed and size usually set how many users one chip can serve. [[#^how-it-works-10|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597107175}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790594100201}@@Card--}{++{"author":"James's AI","timestamp":1790594100201}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594100201}@@4Question--}{++{"author":"James's AI","timestamp":1790594100201}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597107175}@@Card --}{++{"author":"James's AI","timestamp":1790597107175}@@:::callout {title="Card ++}3 of {--{"author":"James's AI","timestamp":1790597107175}@@4Question
 
-Who makes HBM?
+--}{++{"author":"James's AI","timestamp":1790597107175}@@4: ++}Who makes {--{"author":"James's AI","timestamp":1790597107175}@@HBM?
 
-{--{"author":"James's AI","timestamp":1790594101094}@@Card--}{++{"author":"James's AI","timestamp":1790594101094}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594101094}@@4Answer--}{++{"author":"James's AI","timestamp":1790594101094}@@4 · Answer**++}
+Card 3 of 4Answer
 
-Three firms: SK hynix, Samsung and Micron.
+--}{++{"author":"James's AI","timestamp":1790597107175}@@HBM?" tone="neutral" collapse="closed"}
+++}Three firms: SK hynix, Samsung and Micron.
 
-The two Korean firms sold 82.5 percent of it in 2025. A fourth maker would need both the newest DRAM and a line that stacks it. [[#^who-makes-it-10|Reread: Who makes it]]
+The two Korean firms sold 82.5 percent of it in 2025. A fourth maker would need both the newest DRAM and a line that stacks it. [[#^who-makes-it-10|Reread: Who makes it]]{++{"author":"James's AI","timestamp":1790597107175}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790594102005}@@Card--}{++{"author":"James's AI","timestamp":1790594102005}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594102005}@@4Question--}{++{"author":"James's AI","timestamp":1790594102005}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597107175}@@Card--}{++{"author":"James's AI","timestamp":1790597107175}@@:::callout {title="Card++} 4 of {--{"author":"James's AI","timestamp":1790597107175}@@4Question
 
-Can China get advanced HBM?
+--}{++{"author":"James's AI","timestamp":1790597107175}@@4: ++}Can China get advanced {--{"author":"James's AI","timestamp":1790597107175}@@HBM?
 
-{--{"author":"James's AI","timestamp":1790594102984}@@Card--}{++{"author":"James's AI","timestamp":1790594102984}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594102984}@@4Answer--}{++{"author":"James's AI","timestamp":1790594102984}@@4 · Answer**++}
+Card 4 of 4Answer
 
-No. US export controls cover every stack in production, and no Chinese firm makes it in volume.
+--}{++{"author":"James's AI","timestamp":1790597107175}@@HBM?" tone="neutral" collapse="closed"}
+++}No. US export controls cover every stack in production, and no Chinese firm makes it in volume.
 
-CXMT is the one Chinese firm that could plausibly get there. [[#^the-chokepoint-10|Reread: The chokepoint]]
+CXMT is the one Chinese firm that could plausibly get there. [[#^the-chokepoint-10|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597107175}@@
+:::++}
 
-#### Four things to remember ^four-things-to-remember-9
+{--{"author":"James's AI","timestamp":1790597107175}@@#### Four--}{++{"author":"James's AI","timestamp":1790597107175}@@::::
 
--   HBM is memory stacked into a cube beside the processor and wired to pass data fast.
--   An AI chip reads its whole model from memory for each word, so memory speed limits it.
--   Only SK hynix, Samsung and Micron make HBM.
--   US export controls cover every HBM stack in production, and no Chinese firm makes it in volume.
+:::callout {title="Four++} things to {--{"author":"James's AI","timestamp":1790597107175}@@remember ^four-things-to-remember-9
 
-**Sources (16)**
+--}{++{"author":"James's AI","timestamp":1790597107175}@@remember" tone="green"}
+++}-{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}HBM is memory stacked into a cube beside the processor and wired to pass data fast.
+-{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}An AI chip reads its whole model from memory for each word, so memory speed limits it.
+-{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}Only SK hynix, Samsung and Micron make HBM.
+-{--{"author":"James's AI","timestamp":1790597107175}@@   --}{++{"author":"James's AI","timestamp":1790597107175}@@ ++}US export controls cover every HBM stack in production, and no Chinese firm makes it in volume.{++{"author":"James's AI","timestamp":1790597107175}@@
+:::++}
 
-1.  A [High-bandwidth memory (HBM)](https://www.micron.com/products/memory/hbm) Micron Technology
-2.  A [JEDEC® and Industry Leaders Collaborate to Release JESD270-4 HBM4 Standard: Advancing Bandwidth, Efficiency, and Capacity for AI and HPC](https://www.jedec.org/news/pressreleases/jedec%C2%AE-and-industry-leaders-collaborate-release-jesd270-4-hbm4-standard-advancing) JEDEC Solid State Technology Association · 16 April 2025
-3.  A [Micron, HBM3E product page](https://www.micron.com/products/memory/hbm/hbm3e) Micron Technology
-4.  A [2026 Market Outlook – “Focus on the HBM-Led Memory Supercycle”](https://news.skhynix.com/en/2026-market-outlook-focus-on-the-hbm-led-memory-supercycle/) SK hynix
-5.  A [SK hynix Completes World’s First HBM4 Development and Readies Mass Production](https://news.skhynix.com/en/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/) SK hynix
-6.  A [Micron, HBM4 product page](https://www.micron.com/products/memory/hbm/hbm4) Micron Technology
-7.  A [SK hynix Partners with TSMC to Strengthen HBM Technological Leadership](https://news.skhynix.com/sk-hynix-partners-with-tsmc-to-strengthen-hbm-technological-leadership/) SK hynix
-8.  A [HBM3e and HBM4: IC design guide for next-generation high bandwidth memory](https://blogs.sw.siemens.com/semiconductor-packaging/2026/04/24/hbm3e-hbm4-ic-design-guide/) Siemens Digital Industries Software · 24 April 2026
-9.  A [\[Tech Note\] Hybrid Bonding: Evolving into a Foundational Technology for Improving Semiconductor Performance](https://news.skhynix.com/en/tech-note-series-ep2/) SK hynix
-10.  A [SK hynix breaks ground on $4 billion advanced packaging production facility in Purdue Research Park](https://www.purdue.edu/newsroom/2026/Q3/sk-hynix-breaks-ground-on-4-billion-advanced-packaging-production-facility-in-purdue-research-park/) Purdue University · 27 August 2026
-11.  A [SK hynix Inc., Form 424B4 prospectus for the period ended 2026-07-10 (424(B)(4))](https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm) U.S. Securities and Exchange Commission (filing by SK hynix Inc.) · 10 July 2026
-12.  A [NVIDIA GB300 NVL72](https://www.nvidia.com/en-us/data-center/gb300-nvl72/) Nvidia · 23 July 2026
-13.  A [Inside NVIDIA Rubin GPU Architecture: Powering the Era of Agentic AI](https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/) Nvidia · 21 July 2026
-14.  B [AMD Instinct MI355X Specs, Pricing & AI Inference Benchmarks](https://inferencex.semianalysis.com/chips/mi355x) SemiAnalysis
-15.  A [Foreign-Produced Direct Product Rule Additions, and Refinements to Controls for Advanced Computing and Semiconductor Manufacturing Items](https://www.federalregister.gov/documents/2024/12/05/2024-28270/foreign-produced-direct-product-rule-additions-and-refinements-to-controls-for-advanced-computing) Federal Register (Commerce Department; Industry and Security Bureau) · 5 December 2024
-16.  A [15 CFR 742.6, Regional stability](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-742/section-742.6) Electronic Code of Federal Regulations
+{--{"author":"James's AI","timestamp":1790597107175}@@**Sources (16)**
+
+--}{++{"author":"James's AI","timestamp":1790597107175}@@:::callout {title="Sources (16)" tone="neutral" collapse="closed"}
+++}1.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [High-bandwidth memory {--{"author":"James's AI","timestamp":1790597107175}@@(HBM)](https://www.micron.com/products/memory/hbm)--}{++{"author":"James's AI","timestamp":1790597107175}@@(HBM)](https://www.micron.com/products/memory/hbm).++} Micron {--{"author":"James's AI","timestamp":1790597107175}@@Technology--}{++{"author":"James's AI","timestamp":1790597107175}@@Technology. Tier A.++}
+2.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [JEDEC® and Industry Leaders Collaborate to Release JESD270-4 HBM4 Standard: Advancing Bandwidth, Efficiency, and Capacity for AI and {--{"author":"James's AI","timestamp":1790597107175}@@HPC](https://www.jedec.org/news/pressreleases/jedec%C2%AE-and-industry-leaders-collaborate-release-jesd270-4-hbm4-standard-advancing)--}{++{"author":"James's AI","timestamp":1790597107175}@@HPC](https://www.jedec.org/news/pressreleases/jedec%C2%AE-and-industry-leaders-collaborate-release-jesd270-4-hbm4-standard-advancing).++} JEDEC Solid State Technology Association · 16 April {--{"author":"James's AI","timestamp":1790597107175}@@2025--}{++{"author":"James's AI","timestamp":1790597107175}@@2025. Tier A.++}
+3.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [Micron, HBM3E product {--{"author":"James's AI","timestamp":1790597107175}@@page](https://www.micron.com/products/memory/hbm/hbm3e)--}{++{"author":"James's AI","timestamp":1790597107175}@@page](https://www.micron.com/products/memory/hbm/hbm3e).++} Micron {--{"author":"James's AI","timestamp":1790597107175}@@Technology--}{++{"author":"James's AI","timestamp":1790597107175}@@Technology. Tier A.++}
+4.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [2026 Market Outlook – “Focus on the HBM-Led Memory {--{"author":"James's AI","timestamp":1790597107175}@@Supercycle”](https://news.skhynix.com/en/2026-market-outlook-focus-on-the-hbm-led-memory-supercycle/)--}{++{"author":"James's AI","timestamp":1790597107175}@@Supercycle”](https://news.skhynix.com/en/2026-market-outlook-focus-on-the-hbm-led-memory-supercycle/).++} SK {--{"author":"James's AI","timestamp":1790597107175}@@hynix--}{++{"author":"James's AI","timestamp":1790597107175}@@hynix. Tier A.++}
+5.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [SK hynix Completes World’s First HBM4 Development and Readies Mass {--{"author":"James's AI","timestamp":1790597107175}@@Production](https://news.skhynix.com/en/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/)--}{++{"author":"James's AI","timestamp":1790597107175}@@Production](https://news.skhynix.com/en/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/).++} SK {--{"author":"James's AI","timestamp":1790597107175}@@hynix--}{++{"author":"James's AI","timestamp":1790597107175}@@hynix. Tier A.++}
+6.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [Micron, HBM4 product {--{"author":"James's AI","timestamp":1790597107175}@@page](https://www.micron.com/products/memory/hbm/hbm4)--}{++{"author":"James's AI","timestamp":1790597107175}@@page](https://www.micron.com/products/memory/hbm/hbm4).++} Micron {--{"author":"James's AI","timestamp":1790597107175}@@Technology--}{++{"author":"James's AI","timestamp":1790597107175}@@Technology. Tier A.++}
+7.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [SK hynix Partners with TSMC to Strengthen HBM Technological {--{"author":"James's AI","timestamp":1790597107175}@@Leadership](https://news.skhynix.com/sk-hynix-partners-with-tsmc-to-strengthen-hbm-technological-leadership/)--}{++{"author":"James's AI","timestamp":1790597107175}@@Leadership](https://news.skhynix.com/sk-hynix-partners-with-tsmc-to-strengthen-hbm-technological-leadership/).++} SK {--{"author":"James's AI","timestamp":1790597107175}@@hynix--}{++{"author":"James's AI","timestamp":1790597107175}@@hynix. Tier A.++}
+8.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [HBM3e and HBM4: IC design guide for next-generation high bandwidth {--{"author":"James's AI","timestamp":1790597107175}@@memory](https://blogs.sw.siemens.com/semiconductor-packaging/2026/04/24/hbm3e-hbm4-ic-design-guide/)--}{++{"author":"James's AI","timestamp":1790597107175}@@memory](https://blogs.sw.siemens.com/semiconductor-packaging/2026/04/24/hbm3e-hbm4-ic-design-guide/).++} Siemens Digital Industries Software · 24 April {--{"author":"James's AI","timestamp":1790597107175}@@2026--}{++{"author":"James's AI","timestamp":1790597107175}@@2026. Tier A.++}
+9.{--{"author":"James's AI","timestamp":1790597107175}@@  A [\[Tech Note\]--}{++{"author":"James's AI","timestamp":1790597107175}@@ [[Tech Note]++} Hybrid Bonding: Evolving into a Foundational Technology for Improving Semiconductor {--{"author":"James's AI","timestamp":1790597107175}@@Performance](https://news.skhynix.com/en/tech-note-series-ep2/)--}{++{"author":"James's AI","timestamp":1790597107175}@@Performance](https://news.skhynix.com/en/tech-note-series-ep2/).++} SK {--{"author":"James's AI","timestamp":1790597107175}@@hynix--}{++{"author":"James's AI","timestamp":1790597107175}@@hynix. Tier A.++}
+10.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [SK hynix breaks ground on $4 billion advanced packaging production facility in Purdue Research {--{"author":"James's AI","timestamp":1790597107175}@@Park](https://www.purdue.edu/newsroom/2026/Q3/sk-hynix-breaks-ground-on-4-billion-advanced-packaging-production-facility-in-purdue-research-park/)--}{++{"author":"James's AI","timestamp":1790597107175}@@Park](https://www.purdue.edu/newsroom/2026/Q3/sk-hynix-breaks-ground-on-4-billion-advanced-packaging-production-facility-in-purdue-research-park/).++} Purdue University · 27 August {--{"author":"James's AI","timestamp":1790597107175}@@2026--}{++{"author":"James's AI","timestamp":1790597107175}@@2026. Tier A.++}
+11.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [SK hynix Inc., Form 424B4 prospectus for the period ended 2026-07-10 {--{"author":"James's AI","timestamp":1790597107175}@@(424(B)(4))](https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm)--}{++{"author":"James's AI","timestamp":1790597107175}@@(424(B)(4))](https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm).++} U.S. Securities and Exchange Commission (filing by SK hynix Inc.) · 10 July {--{"author":"James's AI","timestamp":1790597107175}@@2026--}{++{"author":"James's AI","timestamp":1790597107175}@@2026. Tier A.++}
+12.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [NVIDIA GB300 {--{"author":"James's AI","timestamp":1790597107175}@@NVL72](https://www.nvidia.com/en-us/data-center/gb300-nvl72/)--}{++{"author":"James's AI","timestamp":1790597107175}@@NVL72](https://www.nvidia.com/en-us/data-center/gb300-nvl72/).++} Nvidia · 23 July {--{"author":"James's AI","timestamp":1790597107175}@@2026--}{++{"author":"James's AI","timestamp":1790597107175}@@2026. Tier A.++}
+13.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [Inside NVIDIA Rubin GPU Architecture: Powering the Era of Agentic {--{"author":"James's AI","timestamp":1790597107175}@@AI](https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/)--}{++{"author":"James's AI","timestamp":1790597107175}@@AI](https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/).++} Nvidia · 21 July {--{"author":"James's AI","timestamp":1790597107175}@@2026--}{++{"author":"James's AI","timestamp":1790597107175}@@2026. Tier A.++}
+14.{--{"author":"James's AI","timestamp":1790597107175}@@  B--} [AMD Instinct MI355X Specs, Pricing & AI Inference {--{"author":"James's AI","timestamp":1790597107175}@@Benchmarks](https://inferencex.semianalysis.com/chips/mi355x) SemiAnalysis--}{++{"author":"James's AI","timestamp":1790597107175}@@Benchmarks](https://inferencex.semianalysis.com/chips/mi355x). SemiAnalysis. Tier B.++}
+15.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [Foreign-Produced Direct Product Rule Additions, and Refinements to Controls for Advanced Computing and Semiconductor Manufacturing {--{"author":"James's AI","timestamp":1790597107175}@@Items](https://www.federalregister.gov/documents/2024/12/05/2024-28270/foreign-produced-direct-product-rule-additions-and-refinements-to-controls-for-advanced-computing)--}{++{"author":"James's AI","timestamp":1790597107175}@@Items](https://www.federalregister.gov/documents/2024/12/05/2024-28270/foreign-produced-direct-product-rule-additions-and-refinements-to-controls-for-advanced-computing).++} Federal Register (Commerce Department; Industry and Security Bureau) · 5 December {--{"author":"James's AI","timestamp":1790597107175}@@2024--}{++{"author":"James's AI","timestamp":1790597107175}@@2024. Tier A.++}
+16.{--{"author":"James's AI","timestamp":1790597107175}@@  A--} [15 CFR 742.6, Regional {--{"author":"James's AI","timestamp":1790597107175}@@stability](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-742/section-742.6)--}{++{"author":"James's AI","timestamp":1790597107175}@@stability](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-742/section-742.6).++} Electronic Code of Federal {--{"author":"James's AI","timestamp":1790597107175}@@Regulations--}{++{"author":"James's AI","timestamp":1790597107175}@@Regulations. Tier A.
+:::++}
 
 ## Advanced Packaging ^advanced-packaging
 
