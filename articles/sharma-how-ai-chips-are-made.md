@@ -2951,7 +2951,7 @@ A megawatt rack changes the busbar, the floor loading, the coolant flow, the lea
 
 The largest data center operators pay for the buildout. Alphabet, Amazon, Meta, Microsoft and Oracle spent $448.3 billion of capital in 2025, and on that trend reach $770 billion in 2026 [7](https://epoch.ai/data-insights/hyperscaler-capex-trend).
 
-Capital spending by the five largest US data center operators, 2025$B
+**Chart:** Capital spending by the five largest US data center operators, 2025 ($B)
 
 Amazon 137.5 Microsoft 88 Alphabet 83.1 Meta 72.5 Oracle 40.6
 
@@ -2961,7 +2961,7 @@ Campuses are now described in gigawatts: OpenAI's Stargate portfolio targets mor
 
 The equipment vendors are the constraint. GE Vernova, Siemens Energy, Hitachi Energy, ABB, Eaton and Schneider Electric supply the turbines, transformers and switchgear. GE Vernova's gas equipment backlog and reserved factory slots went from 100 GW to 116 GW inside 2026, with data center orders past $5 billion by mid-year, more than double the whole of 2025 [9](https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm).
 
-GE Vernova annual gas turbine output, actual and plannedGW/yr
+{++{"author":"James's AI","timestamp":1790594260064}@@**Chart:** ++}GE Vernova annual gas turbine output, actual and {--{"author":"James's AI","timestamp":1790594260064}@@plannedGW/yr--}{++{"author":"James's AI","timestamp":1790594260064}@@planned (GW/yr)++}
 
 2026 20 2028 24 2030 30
 
@@ -2971,7 +2971,7 @@ Source: [GE Vernova second-quarter 2026 results, July 2026](https://www.sec.gov/
 
 US data centers used 176 TWh in 2023, 4.4 percent of national electricity, and Lawrence Berkeley National Laboratory projects 325 to 580 TWh by 2028, between 6.7 percent and 12 percent of the total [10](https://newscenter.lbl.gov/2025/01/15/berkeley-lab-report-evaluates-increase-in-electricity-demand-from-data-centers/). The Energy Information Administration expects national electricity use to rise 1 percent in 2026 and 3 percent in 2027, the fourth straight annual increase and the strongest four-year run since 2000 [11](https://www.eia.gov/pressroom/releases/press582.php).
 
-US data center electricity use, actual and 2028 projection rangeTWh
+{++{"author":"James's AI","timestamp":1790594260915}@@**Chart:** ++}US data center electricity use, actual and 2028 projection {--{"author":"James's AI","timestamp":1790594260915}@@rangeTWh--}{++{"author":"James's AI","timestamp":1790594260915}@@range (TWh)++}
 
 2014 58 2023 176 2028 low case 325 2028 high case 580
 
@@ -2999,41 +2999,41 @@ The chip chain moves faster: foundry and memory capacity have repeatedly expande
 -   **Firmness of supply** separates a signed interconnection agreement from a delivered transformer.
 -   **Energy per token** is the only efficiency measure that matters commercially. It keeps falling, but the number of tokens rises faster [12](https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack).
 
-Card 1 of 4Question
+{--{"author":"James's AI","timestamp":1790594262279}@@Card--}{++{"author":"James's AI","timestamp":1790594262279}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594262279}@@4Question--}{++{"author":"James's AI","timestamp":1790594262279}@@4 · Question**++}
 
 Why are AI racks cooled with water?
 
-Card 1 of 4Answer
+{--{"author":"James's AI","timestamp":1790594263066}@@Card--}{++{"author":"James's AI","timestamp":1790594263066}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790594263066}@@4Answer--}{++{"author":"James's AI","timestamp":1790594263066}@@4 · Answer**++}
 
 One rack draws 142 kilowatts, and that much heat is more than air can carry away.
 
 Every watt a rack draws comes back out as heat. [Reread: Cooling](#data-centers-and-power--cooling)
 
-Card 2 of 4Question
+{--{"author":"James's AI","timestamp":1790594264292}@@Card--}{++{"author":"James's AI","timestamp":1790594264292}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594264292}@@4Question--}{++{"author":"James's AI","timestamp":1790594264292}@@4 · Question**++}
 
 How big are the newest AI data centers?
 
-Card 2 of 4Answer
+{--{"author":"James's AI","timestamp":1790594265105}@@Card--}{++{"author":"James's AI","timestamp":1790594265105}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790594265105}@@4Answer--}{++{"author":"James's AI","timestamp":1790594265105}@@4 · Answer**++}
 
 They are planned in gigawatts, each the output of a large power station.
 
 OpenAI's planned sites add up to more than nine gigawatts by 2029. [Reread: Capacity and demand](#data-centers-and-power--capacity-and-demand)
 
-Card 3 of 4Question
+{--{"author":"James's AI","timestamp":1790594266468}@@Card--}{++{"author":"James's AI","timestamp":1790594266468}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594266468}@@4Question--}{++{"author":"James's AI","timestamp":1790594266468}@@4 · Question**++}
 
 What slows down building an AI data center most?
 
-Card 3 of 4Answer
+{--{"author":"James's AI","timestamp":1790594267162}@@Card--}{++{"author":"James's AI","timestamp":1790594267162}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594267162}@@4Answer--}{++{"author":"James's AI","timestamp":1790594267162}@@4 · Answer**++}
 
 Waiting for power equipment.
 
 A large power transformer takes about 36 months to arrive, and GE Vernova's gas turbines are booked about six years ahead. [Reread: The chokepoint](#data-centers-and-power--the-chokepoint)
 
-Card 4 of 4Question
+{--{"author":"James's AI","timestamp":1790594268198}@@Card--}{++{"author":"James's AI","timestamp":1790594268198}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594268198}@@4Question--}{++{"author":"James's AI","timestamp":1790594268198}@@4 · Question**++}
 
 What limits China's AI data center buildout?
 
-Card 4 of 4Answer
+{--{"author":"James's AI","timestamp":1790594269028}@@Card--}{++{"author":"James's AI","timestamp":1790594269028}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594269028}@@4Answer--}{++{"author":"James's AI","timestamp":1790594269028}@@4 · Answer**++}
 
 The supply of AI chips. China has power to spare.
 
