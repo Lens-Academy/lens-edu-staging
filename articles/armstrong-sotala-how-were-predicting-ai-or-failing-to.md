@@ -24,7 +24,7 @@ Future of Humanity Institute
 Kaj Sotala
 Machine Intelligence Research Institute
 
-Abstract
+## Abstract
 
 This paper will look at the various predictions that have been made about AI and propose decomposition schemas for analyzing them. It will propose a variety of theoretical tools for analyzing, judging, and improving these predictions. Focusing specifically on timeline predictions (dates given by which we should expect the creation of AI), it will show that there are strong theoretical grounds to expect predictions to be quite poor in this area. Using a database of 95 AI timeline predictions, it will show that these expectations are borne out in practice: expert predictions contradict each other considerably, and are indistinguishable from non-expert predictions and past failed predictions. Predictions that AI lie 15 to 25 years in the future are the most common, from experts and non-experts alike.
 
@@ -34,7 +34,7 @@ Armstrong, Stuart, and Kaj Sotala. 2012. “How We’re Predicting AI—or Faili
 
 This version contains minor changes.
 
-1. Introduction
+## 1. Introduction
 
 Predictions about the future development of artificial intelligence are as confident as they are diverse. Starting with Turing’s initial estimation of a 30% pass rate on Turing test by the year 2000 (Turing 1950), computer scientists, philosophers and journalists have never been shy to oﬀer their own definite prognostics, claiming AI to be impossible (Jacquette 1987) or just around the corner (Darrach 1970) or anything in between.
 
