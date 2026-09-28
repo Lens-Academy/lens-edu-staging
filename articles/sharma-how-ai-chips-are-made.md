@@ -3445,31 +3445,31 @@ They cover foreign goods made with American technology.
 
 In August 2020 the United States used this reach to cut Huawei off from chips made abroad with American technology. [Reread: The US export-control campaign, 2018 to today](#geopolitics--the-us-export-control-campaign-2018-to-today)
 
-Card 3 of 5Question
+{--{"author":"James's AI","timestamp":1790594290630}@@Card--}{++{"author":"James's AI","timestamp":1790594290630}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594290630}@@5Question--}{++{"author":"James's AI","timestamp":1790594290630}@@5 · Question**++}
 
 What have export controls achieved against China?
 
-Card 3 of 5Answer
+{--{"author":"James's AI","timestamp":1790594292296}@@Card--}{++{"author":"James's AI","timestamp":1790594292296}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790594292296}@@5Answer--}{++{"author":"James's AI","timestamp":1790594292296}@@5 · Answer**++}
 
 They have kept China below the leading edge.
 
 China still cannot get EUV machines, their resist or high-bandwidth memory. Its own toolmakers took 35 percent of its home market in 2025. [Reread: China's response](#geopolitics--chinas-response)
 
-Card 4 of 5Question
+{--{"author":"James's AI","timestamp":1790594293034}@@Card--}{++{"author":"James's AI","timestamp":1790594293034}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594293034}@@5Question--}{++{"author":"James's AI","timestamp":1790594293034}@@5 · Question**++}
 
 What have the controls cost allied toolmakers?
 
-Card 4 of 5Answer
+{--{"author":"James's AI","timestamp":1790594293710}@@Card--}{++{"author":"James's AI","timestamp":1790594293710}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790594293710}@@5Answer--}{++{"author":"James's AI","timestamp":1790594293710}@@5 · Answer**++}
 
 A large share of their sales to China.
 
 China's share of ASML's system sales fell from 41 percent in 2024 to 33 percent in 2025. Its share of Tokyo Electron's sales fell from 47 to 27 percent. [Reread: Allies: the Netherlands, Japan, Korea and Europe](#geopolitics--allies-the-netherlands-japan-korea-and-europe)
 
-Card 5 of 5Question
+{--{"author":"James's AI","timestamp":1790594295027}@@Card--}{++{"author":"James's AI","timestamp":1790594295027}@@**Card++} 5 of {--{"author":"James's AI","timestamp":1790594295027}@@5Question--}{++{"author":"James's AI","timestamp":1790594295027}@@5 · Question**++}
 
 Where are the most advanced chips made today?
 
-Card 5 of 5Answer
+{--{"author":"James's AI","timestamp":1790594296043}@@Card--}{++{"author":"James's AI","timestamp":1790594296043}@@**Card++} 5 of {--{"author":"James's AI","timestamp":1790594296043}@@5Answer--}{++{"author":"James's AI","timestamp":1790594296043}@@5 · Answer**++}
 
 Only in Taiwan.
 
@@ -3483,7 +3483,7 @@ No policy so far has moved leading-edge chipmaking or packaging off the island. 
 -   The controls cut Dutch and Japanese toolmakers' sales to China.
 -   The most advanced chips are still made only in Taiwan.
 
-Sources (62)
+**Sources (62)**
 
 1.  A [Where the Chips Fall: U.S. Export Controls Under the Biden Administration from 2022 to 2024](https://www.csis.org/analysis/where-chips-fall-us-export-controls-under-biden-administration-2022-2024) Center for Strategic and International Studies · 12 December 2024
 2.  A [Choking off China’s Access to the Future of AI](https://www.csis.org/analysis/choking-chinas-access-future-ai) Center for Strategic and International Studies · 11 October 2022
