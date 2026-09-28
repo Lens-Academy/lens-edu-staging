@@ -25,7 +25,7 @@ Add discussion note here:
 
 %%
 
-![](https://chipsupplychain.org/print-title.png)
+{--{"author":"James's AI","timestamp":1790594482272}@@![](https://chipsupplychain.org/print-title.png)--}{++{"author":"James's AI","timestamp":1790594482272}@@![Chip Supply Chain: How AI chips are made](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-print-title.png)++}
 
 Every stage of the supply chain, and who controls it.
 
@@ -331,7 +331,7 @@ The whole world market for silicon wafers came to $11.4 billion of revenue on 12
 
 ### How it works ^how-it-works-2
 
-![](https://chipsupplychain.org/media/silicon-light-end.jpg)
+{--{"author":"James's AI","timestamp":1790594483174}@@![](https://chipsupplychain.org/media/silicon-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594483174}@@![From sand to wafer](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-silicon.jpg)++}
 
 **Figure: From sand to wafer.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#silicon-and-wafers)); above is its last frame. Its steps:
 
@@ -709,7 +709,7 @@ The stencil is a photomask, the film is photoresist and the machine is a scanner
 
 The wafer is coated with photoresist, a film that changes wherever light touches it. The mask holds one layer of the circuit as a pattern of clear and dark areas, drawn four times larger than life. The machine shines light through the mask, shrinks the image four times with a lens, and lands it on the film. A wash then removes the film where the light hit, and the pattern is left standing on the wafer for the next machine to etch in or fill with metal. Then the film is stripped and the next mask goes in. A chip takes dozens of masks, one per layer.
 
-![](https://chipsupplychain.org/media/litho-light-end.jpg)
+{--{"author":"James's AI","timestamp":1790594483803}@@![](https://chipsupplychain.org/media/litho-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594483803}@@![How lithography prints a chip](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-litho.jpg)++}
 
 **Figure: How lithography prints a chip.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#lithography)); above is its last frame. Its steps:
 
@@ -1136,7 +1136,7 @@ Applied Materials and Lam Research, the two largest deposition and etch supplier
 
 ### How it works ^how-it-works-6
 
-![](https://chipsupplychain.org/media/dep-etch-light-end.jpg)
+{--{"author":"James's AI","timestamp":1790594484340}@@![](https://chipsupplychain.org/media/dep-etch-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594484340}@@![One round of deposition and etch](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-dep-etch.jpg)++}
 
 **Figure: One round of deposition and etch.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#deposition-and-etch)); above is its last frame. Its steps:
 
@@ -2783,6 +2783,15 @@ A package computes nothing until it is built into a machine, and building the ma
 ### How it works ^how-it-works-14
 
 ![](https://chipsupplychain.org/media/racks-light-end.jpg)
+
+**Figure: How AI chips are wired together.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#systems-and-networking)); above is its last frame. Its steps:
+
+1. **One rack.** One AI chip is not enough to train a model. So 72 of them are wired together in one rack, a cabinet the size of a wardrobe, and run as one computer.
+2. **Copper inside.** Inside the rack, copper wires link each tray of chips to the switch trays, which pass data between any two chips. Copper carries a signal only a few meters.
+3. **Light between.** Training a large model takes many racks, too far apart for copper. The links between racks carry the signal as flashes of light in glass fiber.
+4. **Lasers.** At each end of a fiber, a laser turns the electrical signal into flashes of light, and a detector turns them back. That lets thousands of chips in many racks work on one model.
+
+_Simplified. The trays follow the layout of an Nvidia NVL72 rack; racks and fibers are not drawn to scale._
 
 How AI chips are wired together
 
