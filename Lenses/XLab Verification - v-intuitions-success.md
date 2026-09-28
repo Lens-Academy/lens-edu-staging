@@ -38,7 +38,7 @@ id:: 1c084225-1a21-41f3-a60a-66fa50287d02
 optional:: true
 content:: Optional: Explore AI 2027
 
-Read [AI 2027](https://ai-2027.com/), the same team’s earlier scenario, including both of its endings. As you read, ask the question this section trained: at which branch points would verification infrastructure have changed what the actors could credibly agree to?
+Read AI 2027, the same team’s earlier scenario, embedded below with both of its endings. As you read, ask the question this section trained: at which branch points would verification infrastructure have changed what the actors could credibly agree to?
 #### Text
 content::
 \### [AI 2027](https://ai-2027.com)
@@ -47,6 +47,10 @@ AI Futures Project (2025)
   The earlier scenario from the same team: how a race ends badly, dramatized. Read both of its endings.
 
 The four charts below rebuild figures from that scenario out of the data published behind them, so you can read the exact numbers the pictures only suggest.
+
+#### Article
+source:: [[../articles/ai-2027]]
+optional:: true
 
 #### Text
 content::
@@ -113,6 +117,13 @@ Scher (2026)
   monitoring alone does not solve: algorithmic research, experiments,
   personnel, code, and other less physically legible activity.
 
+#### Article
+source:: [[../articles/scher-verifying-restrictions-on-frontier-ai-research]]
+optional:: true
+
+#### Text
+content::
+
 \### [Verification for International AI Governance](https://aigi.ox.ac.uk/wp-content/uploads/2025/07/Verification_for_International_AI_Governance.pdf)
 Oxford Martin AI Governance Initiative (2025)
 
@@ -121,6 +132,14 @@ Oxford Martin AI Governance Initiative (2025)
   access, privacy constraints, and the type of agreement states are trying to
   verify.
 
+#### Article
+source:: [[../articles/harack-verification-for-international-ai-governance]]
+from:: # Executive Summary
+to:: If key states get serious about these problems, a combination of unilateral, collaborative, and open efforts should be sufficient to enable the creation of a robust verification system within a few years.
+optional:: true
+
+#### Text
+content::
 \### [An International Agreement to Prevent the Premature Creation of Artificial Superintelligence](https://arxiv.org/abs/2511.10783)
 Scher et al. (2025)
 
@@ -135,6 +154,12 @@ Scher and Thiergart, MIRI Technical Governance Team (2025)
   If you want the mechanism catalog. Read selectively: choose the policy goal
   or mechanism closest to your essay and ask whether its evidence, access
   requirements, and remaining R&D gaps change your conclusion.
+
+#### Article
+source:: [[../articles/scher-mechanisms-to-verify-international-agreements-about-ai-development-table-edit-published-version]]
+from:: ## Executive Summary ^executive-summary
+to:: Effective verification mechanisms could be a catalyst for international agreements, as has been the case previously (Toivanen, 2017). Strong verification is crucial, regardless of whether the international situation is one of “trust but verify” or “distrust and verify”.
+optional:: true
 
 #### Text
 content::
