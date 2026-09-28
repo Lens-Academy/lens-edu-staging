@@ -55,7 +55,7 @@ source:: ![[../Lenses/IABIED - Position Not Despair]]
 # Lens: Dive Deeper: Chapter 10
 id:: 5db4d07c-cbb5-4b6f-ad50-427eb9a62386
 tldr:: The authors answered the objections Chapter 10 invites: is AI really different from past technologies, will there be enough time to solve alignment, and what Chicago Pile-1 teaches about cursed problems.
-summary_for_tutor:: Optional Dive Deeper index lens for Chapter 10 (A Cursed Problem). Links the book website's supplementary Q&A cards covering whether AI differs from precedents and from nuclear reactors, time to solve alignment, many different AIs, slow AI integration, before-and-after framing, and Chicago Pile-1. A navigation and index lens only; it carries no standalone teaching content of its own.
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter 10 (A Cursed Problem). Links the book website's supplementary Q&A cards covering whether AI differs from precedents, time to solve alignment, many different AIs, slow AI integration, before-and-after framing, and Chicago Pile-1. A navigation and index lens only; it carries no standalone teaching content of its own.
 reading_minutes:: 2
 optional:: true
 
@@ -77,11 +77,6 @@ Skim whatever catches your eye.
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - AI Differs from Precedents]]
-
-# Lens: IABIED - QA - Isn't AI Different from Nuclear Reactors
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Isn't AI Different from Nuclear Reactors]]
 
 # Lens: IABIED - QA - Time to Solve Alignment
 optional:: true
