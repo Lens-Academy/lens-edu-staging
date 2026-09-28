@@ -164,7 +164,7 @@ key:: engagement_hours
 content:: Engagement hours in AI safety so far
 options::
 - Under 50 hours (about 1 week)
-- 50–100 hours (2–3 weeks)
+- 50–100 hours (2–3 weeks full-time)
 - 100–200 hours (4–6 weeks)
 - 200–500 hours (6–12 weeks)
 - 500+ hours (13+ weeks)
