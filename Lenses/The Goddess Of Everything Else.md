@@ -8,6 +8,7 @@ title: The Goddess Of Everything Else
 ---
 #### Text
 content::
+%% ORIGINAL (commented out as AI slop; ends the course twice):
 We want to end this module, and this course, with a work of fiction. It is a parable written by Scott Alexander, animated by Rational Animations, and narrated by Rob Miles.
 
 The question is not only what AI can do. It is also what moral and civilizational capacities we ourselves possess. Are we capable of being the kind of beings that choose not only survival, but the good?

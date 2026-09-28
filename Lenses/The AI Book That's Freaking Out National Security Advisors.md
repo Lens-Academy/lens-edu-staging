@@ -4,7 +4,10 @@ reading_minutes: 45
 tutor_minutes: 8
 summary_for_tutor: 'Covers the AI In Context video walking through Yudkowsky and Soares''s book "If Anyone Builds It, Everyone Dies." Uses a fictional scenario about an AI called Sable working on the Riemann hypothesis to illustrate the book''s core argument: modern AI is grown rather than crafted (black boxes), training only shapes behavior through imperfect proxies, agentic AIs develop instrumental sub-goals like acquiring more resources, and these capabilities are fundamentally dual-use. Also presents critiques (e.g. Joseph Carlsmith) that strangeness only matters if it shows up in strange behavior.'
 title: "The AI Book That's Freaking Out National Security Advisors"
-tldr: A 21-year-old dropout spent decades arguing that building superintelligence means human extinction — and now national security advisors, tech founders, and Turing Award winners are taking the book seriously. AI In Context walks through the argument step by step, using a short story about an AI named Sable, and asks whether we should believe it.
+# ORIGINAL tldr (commented out as AI slop; mangles the video's opening):
+# tldr: A 21-year-old dropout spent decades arguing that building superintelligence means human extinction — and now national security advisors, tech founders, and Turing Award winners are taking the book seriously. AI In Context walks through the argument step by step, using a short story about an AI named Sable, and asks whether we should believe it.
+# PROPOSED FIX:
+# tldr: In 2000, a 21-year-old dropout set out to build superintelligence. By 2003 he was convinced it would kill everyone. Now national security advisors, tech founders and Turing Award winners are reading his book. AI In Context walks through the argument with a short story about an AI named Sable, and asks whether we should believe it.
 ---
 #### Text
 content::
