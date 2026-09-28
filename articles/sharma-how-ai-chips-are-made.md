@@ -999,41 +999,41 @@ A decade on, no pellicle membrane is transparent, tough and long-lived at once, 
 -   **Pellicle transmission and lifetime.** Transmission counts twice, and the best demonstrated carbon nanotube membranes pass 97 percent in a single crossing [12](https://www.imec-int.com/en/press/imec-demonstrates-cnt-pellicle-utilization-euv-scanner).
 -   **Mask-set cost per node.** $10M to $40M at the leading edge, which decides which designs can use it [14](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor).
 
-Card 1 of 4Question
+{--{"author":"James's AI","timestamp":1790593913218}@@Card--}{++{"author":"James's AI","timestamp":1790593913218}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593913218}@@4Question--}{++{"author":"James's AI","timestamp":1790593913218}@@4 · Question**++}
 
 What is a photomask?
 
-Card 1 of 4Answer
+{--{"author":"James's AI","timestamp":1790593914100}@@Card--}{++{"author":"James's AI","timestamp":1790593914100}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593914100}@@4Answer--}{++{"author":"James's AI","timestamp":1790593914100}@@4 · Answer**++}
 
 The stencil that lithography prints from, one for each layer of a chip.
 
 The same plate prints its layer on wafer after wafer, so any flaw on it repeats on every wafer. [[#^how-it-works-5|Reread: How it works]]
 
-Card 2 of 4Question
+{--{"author":"James's AI","timestamp":1790593915024}@@Card--}{++{"author":"James's AI","timestamp":1790593915024}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593915024}@@4Question--}{++{"author":"James's AI","timestamp":1790593915024}@@4 · Question**++}
 
 How many firms make the blank plates for EUV masks?
 
-Card 2 of 4Answer
+{--{"author":"James's AI","timestamp":1790593916361}@@Card--}{++{"author":"James's AI","timestamp":1790593916361}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593916361}@@4Answer--}{++{"author":"James's AI","timestamp":1790593916361}@@4 · Answer**++}
 
 Three, led by AGC and Hoya of Japan.
 
 Only one firm, Lasertec of Japan, sells the tool that checks a finished EUV mask in EUV light. [[#^who-makes-it-5|Reread: Who makes it]]
 
-Card 3 of 4Question
+{--{"author":"James's AI","timestamp":1790593917030}@@Card--}{++{"author":"James's AI","timestamp":1790593917030}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593917030}@@4Question--}{++{"author":"James's AI","timestamp":1790593917030}@@4 · Question**++}
 
 Why has no new firm entered the business?
 
-Card 3 of 4Answer
+{--{"author":"James's AI","timestamp":1790593918952}@@Card--}{++{"author":"James's AI","timestamp":1790593918952}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593918952}@@4Answer--}{++{"author":"James's AI","timestamp":1790593918952}@@4 · Answer**++}
 
 The market is too small to pay for the years of work a newcomer would need.
 
 The existing suppliers spent about twenty years learning to make plates without defects. [[#^the-chokepoint-5|Reread: The chokepoint]]
 
-Card 4 of 4Question
+{--{"author":"James's AI","timestamp":1790593920092}@@Card--}{++{"author":"James's AI","timestamp":1790593920092}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593920092}@@4Question--}{++{"author":"James's AI","timestamp":1790593920092}@@4 · Question**++}
 
 What masks can China make?
 
-Card 4 of 4Answer
+{--{"author":"James's AI","timestamp":1790593921278}@@Card--}{++{"author":"James's AI","timestamp":1790593921278}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593921278}@@4Answer--}{++{"author":"James's AI","timestamp":1790593921278}@@4 · Answer**++}
 
 Masks for older machines only.
 
@@ -1046,7 +1046,7 @@ No Chinese firm makes an EUV mask blank or a tool that checks an EUV mask. [[#^t
 -   The market is too small to repay a newcomer for twenty years of learning to avoid defects.
 -   China makes masks only for older machines.
 
-Sources (16)
+**Sources (16)**
 
 1.  A [AGC to Boost Production Capacity of EUVL Photomask Blanks](https://www.agc.com/en/news/detail/1203819_2814.html) AGC · 27 April 2023
 2.  A [Photomask blanks - Shin-Etsu Chemical Co., Ltd.](https://www.shinetsu.co.jp/en/products/electronics-materials/photomask-blanks/) Shin-Etsu Chemical · 3 April 2019
