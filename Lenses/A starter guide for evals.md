@@ -9,7 +9,13 @@ tldr: If we can't look inside AI systems to know what they'll do, maybe we can t
 
 #### Text
 content::
-This perspective views evals as the most practical way to reduce uncertainty. By treating AI models as "black boxes" and testing their behavior: we can find lower bounds on their capabilities. Furthermore, our current measurement methods need serious improvement.  
+%% ORIGINAL (commented out as AI slop):
+This perspective views evals as the most practical way to reduce uncertainty. By treating AI models as "black boxes" and testing their behavior: we can find lower bounds on their capabilities. Furthermore, our current measurement methods need serious improvement.
+%%
+
+%% PROPOSED FIX:
+The case for black-box evals: test what a model does and you learn a lower bound on what it can do. The authors are also frank that current methods need a lot of work, and that evals alone can't give high-confidence answers.
+%%  
 
 #### Article
 source:: [[../articles/hobbhahn+etal-a-starter-guide-for-evals]]
