@@ -8,7 +8,9 @@ title: "The most important century"
 ---
 #### Text
 content::
+%% COMMENTED OUT (AI slop):
 Optional, and worth it. Karnofsky steps all the way back: not "will AI foom," but "what kind of century are we living in at all?" The whole piece, for the wider frame.
+%%
 
 #### Article
 source:: [[../articles/karnofsky-most-important-century]]

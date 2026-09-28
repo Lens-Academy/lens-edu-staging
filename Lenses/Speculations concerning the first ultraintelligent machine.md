@@ -8,7 +8,9 @@ tldr: I.J. Good recognized that the first machine smarter than any human would b
 ---
 #### Text
 content::
-In 1965, long before any working computer looked remotely like a mind, the statistician I. J. Good followed the feedback loop to its end. Read the last clause slowly.
+%% COMMENTED OUT (AI slop):
+In 1965, long before any working computer looked remotely like a mind, the statistician I. J. Good followed the feedback loop to its end.
+%%
 
 #### Article
 source:: [[../articles/good-speculations-concerning-first-ultraintelligent-machine]]
