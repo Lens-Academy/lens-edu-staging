@@ -170,7 +170,7 @@ labels::
 - Very unlikely
 - Unlikely
 - Somewhat unlikely
-- Neutral
+- Even chance
 - Somewhat likely
 - Likely
 - Very likely
