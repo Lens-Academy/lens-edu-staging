@@ -2307,17 +2307,17 @@ Who leads
 
 -   {--{"author":"James's AI","timestamp":1790594144558}@@JPAjinomoto--}{++{"author":"James's AI","timestamp":1790594144558}@@JP · **Ajinomoto**:++} 95% of the world market for insulating film in high-end processor packages, on its own account
 -   {--{"author":"James's AI","timestamp":1790594145293}@@JPNitto Boseki--}{++{"author":"James's AI","timestamp":1790594145293}@@JP · **Nitto Boseki**:++} Claims an overwhelming lead in low-expansion glass cloth
--   JPIbiden Says it wins close to 100% of each new generation of interposer substrates at launch
--   TWUnimicron Build-up substrates were 52% of sales in Q2 2026
--   KRSamsung Electro-Mechanics Package solution sales KRW 771.6bn in Q2 2026, up 37%
+-   {--{"author":"James's AI","timestamp":1790594146923}@@JPIbiden--}{++{"author":"James's AI","timestamp":1790594146923}@@JP · **Ibiden**:++} Says it wins close to 100% of each new generation of interposer substrates at launch
+-   {--{"author":"James's AI","timestamp":1790594148023}@@TWUnimicron--}{++{"author":"James's AI","timestamp":1790594148023}@@TW · **Unimicron**:++} Build-up substrates were 52% of sales in Q2 2026
+-   {--{"author":"James's AI","timestamp":1790594149380}@@KRSamsung Electro-Mechanics--}{++{"author":"James's AI","timestamp":1790594149380}@@KR · **Samsung Electro-Mechanics**:++} Package solution sales KRW 771.6bn in Q2 2026, up 37%
 
 Where it is made
 
--   JPJapan Build-up film, low-expansion glass cloth, and Ibiden and Shinko substrate plants in Gifu and Nagano
--   TWTaiwan Unimicron, Nan Ya PCB, Kinsus; the largest cluster of substrate makers selling to all comers
--   KRSouth Korea Samsung Electro-Mechanics, LG Innotek, and a glass-core joint venture with Sumitomo Chemical
--   CNChina Most of the circuit board competition, alongside Taiwan; now pushing into glass cloth and build-up film
--   ATAustria AT&S, the only European advanced substrate maker of scale
+-   {--{"author":"James's AI","timestamp":1790594150995}@@JPJapan--}{++{"author":"James's AI","timestamp":1790594150995}@@JP · **Japan**:++} Build-up film, low-expansion glass cloth, and Ibiden and Shinko substrate plants in Gifu and Nagano
+-   {--{"author":"James's AI","timestamp":1790594152027}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790594152027}@@TW · **Taiwan**:++} Unimicron, Nan Ya PCB, Kinsus; the largest cluster of substrate makers selling to all comers
+-   {--{"author":"James's AI","timestamp":1790594152916}@@KRSouth Korea--}{++{"author":"James's AI","timestamp":1790594152916}@@KR · **South Korea**:++} Samsung Electro-Mechanics, LG Innotek, and a glass-core joint venture with Sumitomo Chemical
+-   {--{"author":"James's AI","timestamp":1790594154528}@@CNChina--}{++{"author":"James's AI","timestamp":1790594154528}@@CN · **China**:++} Most of the circuit board competition, alongside Taiwan; now pushing into glass cloth and build-up film
+-   {--{"author":"James's AI","timestamp":1790594155428}@@ATAustria--}{++{"author":"James's AI","timestamp":1790594155428}@@AT · **Austria**:++} AT&S, the only European advanced substrate maker of scale
 
 Why substitution is slow
 
