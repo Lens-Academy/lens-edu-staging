@@ -1693,7 +1693,7 @@ This reaches 5 nm-class features. CSIS judges that China still cannot build a wo
 
 TSMC runs six plants that each print more than 100,000 wafers a month. All six are in Taiwan, and they hold 13 of the 17 million wafers a year the company can make.
 
-1,391 words / 6 minSpecimen: wafer carrier (FOUP)
+{--{"author":"James's AI","timestamp":1790594054051}@@1,391--}{++{"author":"James's AI","timestamp":1790594054051}@@_1,391++} words / 6 {--{"author":"James's AI","timestamp":1790594054051}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790594054051}@@min · Interactive 3D Specimen:++} wafer carrier (FOUP){++{"author":"James's AI","timestamp":1790594054051}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#foundries-and-fabs))_++}
 
 In plain terms
 
@@ -1703,17 +1703,17 @@ A foundry is a fab that makes chips for other companies. Those companies send in
 
 The foundry model won because leading-edge fabs are too expensive for one design house, and it concentrated because only the leader earns enough to build the next node. TSMC's six gigafabs hold 13 of the 17 million wafers a year it can make, and all six are in Taiwan [1](https://www.tsmc.com/english/dedicatedFoundry/manufacturing/gigafab). Intel and Samsung are credible technically and unproven commercially, and Intel is now part-owned by its government [10](https://www.intc.com/news-events/press-releases/detail/1748/intel-and-trump-administration-reach-historic-agreement-to). Diversification costs $165 billion and a decade in the American case alone [9](https://pr.tsmc.com/english/news/3210), which makes the concentration in Taiwan a fact about the 2020s and 2030s.
 
-Concentration **Extreme**
+Concentration: **Extreme**
 
-Substitutability **Hard** Intel and Samsung also run lines for the newest chips, but TSMC has not built one of its largest fabs outside Taiwan, and the slow part is training the workforce.
+Substitutability: **Hard**. Intel and Samsung also run lines for the newest chips, but TSMC has not built one of its largest fabs outside Taiwan, and the slow part is training the workforce.
 
-Price or market size **BCG puts the ten-year cost of owning a fab completed in 2026 at $35-43 billion** TSMC intends to spend $165 billion in the United States alone
+Price or market size: **BCG puts the ten-year cost of owning a fab completed in 2026 at $35-43 billion**. TSMC intends to spend $165 billion in the United States alone
 
 Who leads
 
--   TWTSMC 77% of wafer revenue from 7 nm and below, 2Q26; six gigafabs, all in Taiwan
--   USIntel Foundry $5.8bn revenue and a $2.089bn operating loss, 2Q26
--   KRSamsung Foundry Hwaseong and Pyeongtaek; at least $17bn of construction at Taylor, Texas
+-   {--{"author":"James's AI","timestamp":1790594060725}@@TWTSMC--}{++{"author":"James's AI","timestamp":1790594060725}@@TW · **TSMC**:++} 77% of wafer revenue from 7 nm and below, 2Q26; six gigafabs, all in Taiwan
+-   {--{"author":"James's AI","timestamp":1790594062872}@@USIntel Foundry--}{++{"author":"James's AI","timestamp":1790594062872}@@US · **Intel Foundry**:++} $5.8bn revenue and a $2.089bn operating loss, 2Q26
+-   {--{"author":"James's AI","timestamp":1790594063799}@@KRSamsung Foundry--}{++{"author":"James's AI","timestamp":1790594063799}@@KR · **Samsung Foundry**:++} Hwaseong and Pyeongtaek; at least $17bn of construction at Taylor, Texas
 -   CNSMIC $9.327bn revenue in 2025 at 93.5% utilization
 -   JPRapidus State-backed 2 nm entrant, Chitose
 
