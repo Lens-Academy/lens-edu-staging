@@ -35,7 +35,7 @@ Share the link to this course or other safety-related materials with your friend
 
 **Apply for a program or fellowship**
 
-If you want a more structured way to explore possibility of the research fit, programs can help. Cohorts for fellowships and bootcamps like these open and close on their own schedules throughout the year, so rather than list specific ones here, sign up for [AISafety.com's events and training newsletter](https://aisafety.com/training) to hear when programs relevant to you are accepting applications.
+If you want a {--{"author":"Plex's AI","timestamp":1790617908716}@@more --}structured way to {--{"author":"Plex's AI","timestamp":1790617908716}@@explore possibility of the research fit, programs can help. Cohorts for fellowships and bootcamps like these open--}{++{"author":"Plex's AI","timestamp":1790617908716}@@test your fit for research, apply to a fellowship or bootcamp. Deadlines come++} and {--{"author":"Plex's AI","timestamp":1790617908716}@@close on their own schedules throughout--}{++{"author":"Plex's AI","timestamp":1790617908716}@@go through++} the year, so{--{"author":"Plex's AI","timestamp":1790617908716}@@ rather than list specific ones here,--} sign up {--{"author":"Plex's AI","timestamp":1790617908716}@@for--}{++{"author":"Plex's AI","timestamp":1790617908716}@@to++} [AISafety.com's events and training newsletter](https://aisafety.com/training) to hear when {--{"author":"Plex's AI","timestamp":1790617908716}@@programs relevant to you are accepting applications.--}{++{"author":"Plex's AI","timestamp":1790617908716}@@they open.++}
 
 **Engage politically or institutionally**
 
