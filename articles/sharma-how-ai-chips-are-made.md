@@ -328,41 +328,46 @@ Huawei's flagship for 2026, the Ascend 950, delivers about half the computing pe
 
 China makes almost all of the world's polysilicon and almost none of the 300 mm wafers. Five firms in Japan, Taiwan, Germany and South Korea make the 300 mm wafer every AI accelerator starts on.
 
-%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+{--{"author":"James's AI","timestamp":1790597030211}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
 
-{--{"author":"James's AI","timestamp":1790593777407}@@1,424--}{++{"author":"James's AI","timestamp":1790593777407}@@_1,424++} words / 6 {--{"author":"James's AI","timestamp":1790593777407}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593777407}@@min · Interactive 3D Specimen:++} boule and wafer{++{"author":"James's AI","timestamp":1790593777407}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#silicon-and-wafers))_++}
+1,424 --}{++{"author":"James's AI","timestamp":1790597030211}@@*1,424 ++}words / 6{--{"author":"James's AI","timestamp":1790597030211}@@ minSpecimen: boule and wafer
 
 **In plain terms**
 
-Every chip is built on a wafer, a thin round slice of silicon about 30 centimeters across that carries hundreds of chips at once. Making one starts with sand, which is silicon bound to oxygen. The sand is refined until, of every hundred billion atoms, fewer than one is anything other than silicon. The silicon is melted, a small seed crystal is lowered to the surface and drawn slowly back up, and the melt freezes onto it as one long cylinder, a single crystal with its atoms in one unbroken orderly pattern from end to end. Saws cut the cylinder into discs, and each disc is polished until its surface is flat to within a few atoms, right out to the edge. Only five companies in the world make these wafers to that standard, and none of them is American or Chinese.
+--}{++{"author":"James's AI","timestamp":1790597030211}@@ min*
+
+:::callout {title="In plain terms" tone="neutral"}
+++}Every chip is built on a wafer, a thin round slice of silicon about 30 centimeters across that carries hundreds of chips at once. Making one starts with sand, which is silicon bound to oxygen. The sand is refined until, of every hundred billion atoms, fewer than one is anything other than silicon. The silicon is melted, a small seed crystal is lowered to the surface and drawn slowly back up, and the melt freezes onto it as one long cylinder, a single crystal with its atoms in one unbroken orderly pattern from end to end. Saws cut the cylinder into discs, and each disc is polished until its surface is flat to within a few atoms, right out to the edge. Only five companies in the world make these wafers to that standard, and none of them is American or Chinese.{++{"author":"James's AI","timestamp":1790597030211}@@
+:::++}
 
 ### In short ^in-short-2
 
 The wafer is a cheap input and a concentrated one: five firms and $11.4 billion of revenue sit under every leading-edge chip [5](https://www.siltronic.com/fileadmin/investorrelations/2026/Q1/20260429_Siltronic_InvestorPresentation__.pdf) [1](https://www.prnewswire.com/news-releases/semi-reports-2025-annual-worldwide-silicon-wafer-shipments-and-revenue-results-302683028.html). China's polysilicon dominance is real but in the wrong grade, and its 300 mm position is small [6](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf). The epitaxial mix matters more than the square inches, because that is what AI demand buys and where the incumbents make money. The failed move to 450 mm showed that this stage of the chain changes over decades.
 
-Concentration: **High**
+{--{"author":"James's AI","timestamp":1790597030211}@@Concentration: **High**--}{++{"author":"James's AI","timestamp":1790597030211}@@:::callout {title="Chokepoint card" tone="amber"}
+**Concentration:** High++}
 
-Substitutability: **Moderate**. Five firms already make 300 mm wafers that fabs have approved, but a fab has to test and approve a new supplier separately for every chip it makes.
+{--{"author":"James's AI","timestamp":1790597030211}@@Substitutability: **Moderate**.--}{++{"author":"James's AI","timestamp":1790597030211}@@**Substitutability:** Moderate.++} Five firms already make 300 mm wafers that fabs have approved, but a fab has to test and approve a new supplier separately for every chip it makes.
 
-Price or market size: **The world wafer market was $11.4bn in 2025, on 12,973 million square inches shipped**
+{--{"author":"James's AI","timestamp":1790597030211}@@Price--}{++{"author":"James's AI","timestamp":1790597030211}@@**Price++} or market {--{"author":"James's AI","timestamp":1790597030211}@@size: **The--}{++{"author":"James's AI","timestamp":1790597030211}@@size:** The++} world wafer market was $11.4bn in 2025, on 12,973 million square inches {--{"author":"James's AI","timestamp":1790597030211}@@shipped**--}{++{"author":"James's AI","timestamp":1790597030211}@@shipped++}
 
 **Who leads**
 
--   {--{"author":"James's AI","timestamp":1790593780804}@@JPShin-Etsu Handotai--}{++{"author":"James's AI","timestamp":1790593780804}@@JP · **Shin-Etsu Handotai**:++} Largest supplier; the parent's electronics materials arm sold ¥750.3bn from April to December 2025
--   {--{"author":"James's AI","timestamp":1790593781770}@@JPSUMCO--}{++{"author":"James's AI","timestamp":1790593781770}@@JP · **SUMCO**:++} ¥409.7bn of 2025 net sales, but an ¥11.8bn loss
--   {--{"author":"James's AI","timestamp":1790593782565}@@TWGlobalWafers--}{++{"author":"James's AI","timestamp":1790593782565}@@TW · **GlobalWafers**:++} NT$60.6bn revenue in 2025
--   {--{"author":"James's AI","timestamp":1790593783260}@@KRSK Siltron--}{++{"author":"James's AI","timestamp":1790593783260}@@KR · **SK Siltron**:++} One of the five firms that supply the whole wafer market
--   {--{"author":"James's AI","timestamp":1790593784535}@@DESiltronic--}{++{"author":"James's AI","timestamp":1790593784535}@@DE · **Siltronic**:++} €1,346.7m revenue in 2025
+-{--{"author":"James's AI","timestamp":1790597030211}@@   JPShin-Etsu Handotai--}{++{"author":"James's AI","timestamp":1790597030211}@@ **Shin-Etsu Handotai** (JP):++} Largest supplier; the parent's electronics materials arm sold ¥750.3bn from April to December 2025
+-{--{"author":"James's AI","timestamp":1790597030211}@@   JPSUMCO--}{++{"author":"James's AI","timestamp":1790597030211}@@ **SUMCO** (JP):++} ¥409.7bn of 2025 net sales, but an ¥11.8bn loss
+-{--{"author":"James's AI","timestamp":1790597030211}@@   TWGlobalWafers--}{++{"author":"James's AI","timestamp":1790597030211}@@ **GlobalWafers** (TW):++} NT$60.6bn revenue in 2025
+-{--{"author":"James's AI","timestamp":1790597030211}@@   KRSK Siltron--}{++{"author":"James's AI","timestamp":1790597030211}@@ **SK Siltron** (KR):++} One of the five firms that supply the whole wafer market
+-{--{"author":"James's AI","timestamp":1790597030211}@@   DESiltronic--}{++{"author":"James's AI","timestamp":1790597030211}@@ **Siltronic** (DE):++} €1,346.7m revenue in 2025
 
 **Where it is made**
 
--   {--{"author":"James's AI","timestamp":1790593786546}@@JPJapan--}{++{"author":"James's AI","timestamp":1790593786546}@@JP · **Japan**:++} Shin-Etsu and SUMCO crystal growth and polishing
--   {--{"author":"James's AI","timestamp":1790593787837}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790593787837}@@TW · **Taiwan**:++} GlobalWafers headquarters and plants
--   {--{"author":"James's AI","timestamp":1790593788891}@@DEGermany--}{++{"author":"James's AI","timestamp":1790593788891}@@DE · **Germany**:++} Siltronic Burghausen and Freiberg; Wacker semiconductor-grade polysilicon
--   {--{"author":"James's AI","timestamp":1790593789713}@@KRSouth Korea--}{++{"author":"James's AI","timestamp":1790593789713}@@KR · **South Korea**:++} SK Siltron, being sold to Doosan
--   {--{"author":"James's AI","timestamp":1790593790936}@@USUnited States--}{++{"author":"James's AI","timestamp":1790593790936}@@US · **United States**:++} Hemlock polysilicon in Michigan; GlobalWafers Sherman, Texas and St Peters, Missouri
+-{--{"author":"James's AI","timestamp":1790597030211}@@   JPJapan--}{++{"author":"James's AI","timestamp":1790597030211}@@ **Japan**:++} Shin-Etsu and SUMCO crystal growth and polishing
+-{--{"author":"James's AI","timestamp":1790597030211}@@   TWTaiwan--}{++{"author":"James's AI","timestamp":1790597030211}@@ **Taiwan**:++} GlobalWafers headquarters and plants
+-{--{"author":"James's AI","timestamp":1790597030211}@@   DEGermany--}{++{"author":"James's AI","timestamp":1790597030211}@@ **Germany**:++} Siltronic Burghausen and Freiberg; Wacker semiconductor-grade polysilicon
+-{--{"author":"James's AI","timestamp":1790597030211}@@   KRSouth Korea--}{++{"author":"James's AI","timestamp":1790597030211}@@ **South Korea**:++} SK Siltron, being sold to Doosan
+-{--{"author":"James's AI","timestamp":1790597030211}@@   USUnited States--}{++{"author":"James's AI","timestamp":1790597030211}@@ **United States**:++} Hemlock polysilicon in Michigan; GlobalWafers Sherman, Texas and St Peters, Missouri
 
-Why substitution is possible
+{--{"author":"James's AI","timestamp":1790597030211}@@Why--}{++{"author":"James's AI","timestamp":1790597030211}@@**Why++} substitution is {--{"author":"James's AI","timestamp":1790597030211}@@possible--}{++{"author":"James's AI","timestamp":1790597030211}@@possible**++}
 
 Five firms make 300 mm wafers good enough for the newest chips, so losing one leaves four. A new wafer plant can still be built: GlobalWafers of Taiwan spent $3.5 billion on a plant in Texas, the first wafer production line of its kind in the United States in over twenty years. The slow part is approval. A fab tests a new wafer supplier separately for each chip it makes, and each test runs for months. Supply contracts are also signed years ahead. Switching wafer suppliers therefore takes two to five years.
 
@@ -372,26 +377,27 @@ China made about 93 percent of the world's polysilicon in 2023, but 98 percent o
 
 **Where the US stands**
 
-No American firm makes wafers in volume. Hemlock makes polysilicon in Michigan, and GlobalWafers of Taiwan took a CHIPS Act award of up to $406 million toward a $3.5 billion Texas plant that opened in May 2025.
+No American firm makes wafers in volume. Hemlock makes polysilicon in Michigan, and GlobalWafers of Taiwan took a CHIPS Act award of up to $406 million toward a $3.5 billion Texas plant that opened in May 2025.{++{"author":"James's AI","timestamp":1790597030211}@@
+:::++}
 
 The whole world market for silicon wafers came to $11.4 billion of revenue on 12,973 million square inches in 2025 [1](https://www.prnewswire.com/news-releases/semi-reports-2025-annual-worldwide-silicon-wafer-shipments-and-revenue-results-302683028.html). That is a small fraction of Nvidia's data center revenue, and every leading-edge chip behind it was built on one of these discs.
 
 ### How it works ^how-it-works-2
 
-{--{"author":"James's AI","timestamp":1790594483174}@@![](https://chipsupplychain.org/media/silicon-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594483174}@@![From sand to wafer](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-silicon.jpg)++}{++{"author":"James's AI","timestamp":1790594878921}@@
+{--{"author":"James's AI","timestamp":1790594483174}@@![](https://chipsupplychain.org/media/silicon-light-end.jpg)--}{++{"author":"James's AI","timestamp":1790594483174}@@![From sand to wafer](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/chipsupply-silicon.jpg)++}{--{"author":"James's AI","timestamp":1790597030211}@@
 
-%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%++}
+**Figure: From sand to wafer.** An --}{++{"author":"James's AI","timestamp":1790597030211}@@
 
-**Figure: From sand to wafer.** An animation on the live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#silicon-and-wafers)); above is its last frame. Its steps:
+*From sand to wafer. The last frame of an ++}animation on the{--{"author":"James's AI","timestamp":1790597030211}@@ live site ([watch it on chipsupplychain.org](https://chipsupplychain.org/#silicon-and-wafers)); above is its last frame.--}{++{"author":"James's AI","timestamp":1790597030211}@@ original site.++} Its {--{"author":"James's AI","timestamp":1790597030211}@@steps:--}{++{"author":"James's AI","timestamp":1790597030211}@@steps:*++}
 
 1. **Refine.** Silicon starts as sand and rock. It is refined into rods so pure that, of every hundred billion atoms, fewer than one is anything else.
 2. **Grow.** The rods are melted. A seed crystal touches the melt and is drawn slowly up, turning, and the silicon freezes onto it as one long crystal.
 3. **Slice.** A wire saw slices the crystal, called an ingot, into thin discs.
 4. **Polish.** Each disc is ground, etched and polished until it is flat to within a few atoms, right out to the edge.
 
-_Simplified. The ingot and the machines are not drawn to scale._
+{--{"author":"James's AI","timestamp":1790597030211}@@_Simplified.--}{++{"author":"James's AI","timestamp":1790597030211}@@*Simplified.++} The ingot and the machines are not drawn to {--{"author":"James's AI","timestamp":1790597030211}@@scale._
 
-From sand to wafer
+From sand to wafer--}{++{"author":"James's AI","timestamp":1790597030211}@@scale.*++}
 
 Silicon starts as quartzite, a rock that is silicon bound to oxygen. An arc furnace melts it with carbon, and the carbon takes the oxygen away as gas, leaving rough silicon metal. Refiners turn the metal into a gas, trichlorosilane, and distill it, because the impurities boil at other temperatures and stay behind. The clean gas then flows over silicon filaments heated inside a bell jar. On the hot surface the gas breaks apart, its silicon settles onto the filaments, and over days the filaments thicken into gray rods of polysilicon, the Siemens process. Everything downstream is made from those rods. The same process serves solar cells and chips, but only the ultra-pure semiconductor grade is any use for chips [2](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-silicon.pdf), and the two grades are separate industries with separate suppliers.
 
@@ -413,26 +419,40 @@ A buried layer of oxide, which is glass, separates a thin working layer of silic
 
 Siltronic's own map of the chain puts five major suppliers behind the whole wafer market [5](https://www.siltronic.com/fileadmin/investorrelations/2026/Q1/20260429_Siltronic_InvestorPresentation__.pdf). CSET at Georgetown names them: Shin-Etsu, SUMCO, GlobalWafers, Siltronic and SK Siltron, headquartered in Japan, Taiwan, Germany and South Korea [6](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf).
 
-**Chart:** Silicon wafer market by supplier headquarters. Five firms, four countries, no US producer (%)
+**Chart:** Silicon wafer market by supplier headquarters. Five firms, four countries, no US producer{--{"author":"James's AI","timestamp":1790597030211}@@ (%)
 
-Japan **56%** Taiwan **16%** Europe **14%** South Korea **10%** China **4%** United States **0%**
+--}{++{"author":"James's AI","timestamp":1790597030211}@@
+
+| | % |
+|---|---:|
+| ++}Japan {--{"author":"James's AI","timestamp":1790597030211}@@**56%**--}{++{"author":"James's AI","timestamp":1790597030211}@@| 56 |
+|++} Taiwan {--{"author":"James's AI","timestamp":1790597030211}@@**16%** --}{++{"author":"James's AI","timestamp":1790597030211}@@| 16 |
+| ++}Europe {--{"author":"James's AI","timestamp":1790597030211}@@**14%**--}{++{"author":"James's AI","timestamp":1790597030211}@@| 14 |
+|++} South Korea {--{"author":"James's AI","timestamp":1790597030211}@@**10%**--}{++{"author":"James's AI","timestamp":1790597030211}@@| 10 |
+|++} China {--{"author":"James's AI","timestamp":1790597030211}@@**4%** --}{++{"author":"James's AI","timestamp":1790597030211}@@| 4 |
+| ++}United States {--{"author":"James's AI","timestamp":1790597030211}@@**0%**--}{++{"author":"James's AI","timestamp":1790597030211}@@| 0 |++}
 
 Source: [CSET, The Semiconductor Supply Chain, January 2021](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf)
 
 Their 2025 results split between an AI boom and a slump in the older, mature nodes.
 
--   **Shin-Etsu.** Its electronics materials arm sold ¥750.3 billion in the nine months to December 2025, on strong AI-related wafer demand [7](https://www.shinetsu.co.jp/wp-content/uploads/2025/07/20260127_con_E.pdf).
--   **SUMCO.** Sold ¥409.7 billion and still lost ¥11.8 billion, as operating profit fell from ¥36.9 billion to ¥1.3 billion while it added leading-edge 300 mm capacity and reorganized its weak 200 mm lines [8](https://www.sumcosi.com/english/pdf/ir/library/shareholders/27/pdf/nc_e_27.pdf).
--   **Siltronic.** Lost €77.9 million on €1,346.7 million of sales while spending €369.1 million on its Singapore fab [9](https://www.siltronic.com/en/press/press-releases/siltronic-ag-robust-business-performance-in-2025-demonstrates-resilience-despite-challenging-conditions.html).
--   **GlobalWafers.** NT$60.6 billion of revenue, down 3.24 percent in local currency [10](https://www.sas-globalwafers.com/en/gwc_news_en_20260303/).
+-{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}**Shin-Etsu.** Its electronics materials arm sold ¥750.3 billion in the nine months to December 2025, on strong AI-related wafer demand [7](https://www.shinetsu.co.jp/wp-content/uploads/2025/07/20260127_con_E.pdf).
+-{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}**SUMCO.** Sold ¥409.7 billion and still lost ¥11.8 billion, as operating profit fell from ¥36.9 billion to ¥1.3 billion while it added leading-edge 300 mm capacity and reorganized its weak 200 mm lines [8](https://www.sumcosi.com/english/pdf/ir/library/shareholders/27/pdf/nc_e_27.pdf).
+-{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}**Siltronic.** Lost €77.9 million on €1,346.7 million of sales while spending €369.1 million on its Singapore fab [9](https://www.siltronic.com/en/press/press-releases/siltronic-ag-robust-business-performance-in-2025-demonstrates-resilience-despite-challenging-conditions.html).
+-{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}**GlobalWafers.** NT$60.6 billion of revenue, down 3.24 percent in local currency [10](https://www.sas-globalwafers.com/en/gwc_news_en_20260303/).
 
 Area shipped rose 5.8 percent in 2025 while revenue fell 1.2 percent [1](https://www.prnewswire.com/news-releases/semi-reports-2025-annual-worldwide-silicon-wafer-shipments-and-revenue-results-302683028.html). Wafers sell on multi-year agreements that fix price and volume years ahead, so a jump in demand does not change the price in the year it happens.
 
 China made 1.50 million metric tons of polysilicon, the raw material, in 2023, about 93 percent of world output [11](https://pubs.usgs.gov/myb/vol3/2023/myb3-2023-china.pdf). Solar-grade material was 98 percent of that output and electronic-grade 2 percent [11](https://pubs.usgs.gov/myb/vol3/2023/myb3-2023-china.pdf), so almost none of it can go into a chip.
 
-**Chart:** China's polysilicon output by grade, 2023. China made about 93% of the world's 1.5 million metric tons that year (%)
+**Chart:** China's polysilicon output by grade, 2023. China made about 93% of the world's 1.5 million metric tons that year{--{"author":"James's AI","timestamp":1790597030211}@@ (%)
 
-Solar-grade **98%** Electronic-grade **2%**
+--}{++{"author":"James's AI","timestamp":1790597030211}@@
+
+| | % |
+|---|---:|
+| ++}Solar-grade {--{"author":"James's AI","timestamp":1790597030211}@@**98%** --}{++{"author":"James's AI","timestamp":1790597030211}@@| 98 |
+| ++}Electronic-grade {--{"author":"James's AI","timestamp":1790597030211}@@**2%**--}{++{"author":"James's AI","timestamp":1790597030211}@@| 2 |++}
 
 Source: [USGS Minerals Yearbook, China, 2023](https://pubs.usgs.gov/myb/vol3/2023/myb3-2023-china.pdf)
 
@@ -452,74 +472,89 @@ One fatal defect ruins far more silicon on a GPU die that fills a whole printed 
 
 ### Key evaluation criteria ^key-evaluation-criteria-2
 
--   **Grade.** Electronic against solar polysilicon separates a Chinese commodity market from a German, American, Japanese and Korean one; solar was 98 percent of China's 2023 output [11](https://pubs.usgs.gov/myb/vol3/2023/myb3-2023-china.pdf).
--   **Defect density** in the epitaxial layer. A big AI die loses more good silicon per defect than a small chip does, which is why AI demand shows up first in advanced epitaxial wafers [1](https://www.prnewswire.com/news-releases/semi-reports-2025-annual-worldwide-silicon-wafer-shipments-and-revenue-results-302683028.html).
--   **Flatness and nanotopography**, the fine ripple across the surface, because extreme-ultraviolet exposure stays in focus over only a very small range of heights, and that has to hold across a 300 mm wafer.
--   **Diameter**, where 300 mm carries every leading-edge node and 99.7 percent of capacity at 45 nm and below [6](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf).
--   **Contract structure**, since long-term agreements set price and volume years ahead and keep a jump in demand from moving the price.
+-{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}**Grade.** Electronic against solar polysilicon separates a Chinese commodity market from a German, American, Japanese and Korean one; solar was 98 percent of China's 2023 output [11](https://pubs.usgs.gov/myb/vol3/2023/myb3-2023-china.pdf).
+-{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}**Defect density** in the epitaxial layer. A big AI die loses more good silicon per defect than a small chip does, which is why AI demand shows up first in advanced epitaxial wafers [1](https://www.prnewswire.com/news-releases/semi-reports-2025-annual-worldwide-silicon-wafer-shipments-and-revenue-results-302683028.html).
+-{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}**Flatness and nanotopography**, the fine ripple across the surface, because extreme-ultraviolet exposure stays in focus over only a very small range of heights, and that has to hold across a 300 mm wafer.
+-{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}**Diameter**, where 300 mm carries every leading-edge node and 99.7 percent of capacity at 45 nm and below [6](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf).
+-{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}**Contract structure**, since long-term agreements set price and volume years ahead and keep a jump in demand from moving the price.
 
-{--{"author":"James's AI","timestamp":1790593798116}@@Card--}{++{"author":"James's AI","timestamp":1790593798116}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593798116}@@4Question--}{++{"author":"James's AI","timestamp":1790593798116}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597030211}@@Card 1 of 4Question
 
-What is a wafer?
+What is a wafer?--}{++{"author":"James's AI","timestamp":1790597030211}@@::::callout {title="Flashcards" tone="blue"}
+Recall each answer, then open the card.++}
 
-{--{"author":"James's AI","timestamp":1790593799677}@@Card--}{++{"author":"James's AI","timestamp":1790593799677}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593799677}@@4Answer--}{++{"author":"James's AI","timestamp":1790593799677}@@4 · Answer**++}
+{--{"author":"James's AI","timestamp":1790597030211}@@Card--}{++{"author":"James's AI","timestamp":1790597030211}@@:::callout {title="Card++} 1 of {--{"author":"James's AI","timestamp":1790597030211}@@4Answer
 
-A thin disc of pure silicon, about 30 centimeters across, that carries hundreds of chips.
+--}{++{"author":"James's AI","timestamp":1790597030211}@@4: What is a wafer?" tone="neutral" collapse="closed"}
+++}A thin disc of pure silicon, about 30 centimeters across, that carries hundreds of chips.
 
-It is sliced from a single crystal and polished flat to within a few atoms. [[#^how-it-works-2|Reread: How it works]]
+It is sliced from a single crystal and polished flat to within a few atoms. [[#^how-it-works-2|Reread: How it works]]{++{"author":"James's AI","timestamp":1790597030211}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790593801942}@@Card--}{++{"author":"James's AI","timestamp":1790593801942}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593801942}@@4Question--}{++{"author":"James's AI","timestamp":1790593801942}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597030211}@@Card--}{++{"author":"James's AI","timestamp":1790597030211}@@:::callout {title="Card++} 2 of{--{"author":"James's AI","timestamp":1790597030211}@@ 4Question
 
-Who makes the wafers for leading-edge chips?
+--}{++{"author":"James's AI","timestamp":1790597030211}@@ 4: ++}Who makes the wafers for leading-edge {--{"author":"James's AI","timestamp":1790597030211}@@chips?
 
-{--{"author":"James's AI","timestamp":1790593803252}@@Card--}{++{"author":"James's AI","timestamp":1790593803252}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593803252}@@4Answer--}{++{"author":"James's AI","timestamp":1790593803252}@@4 · Answer**++}
+Card 2 of 4Answer
 
-Five firms, in Japan, Taiwan, Germany and South Korea.
+--}{++{"author":"James's AI","timestamp":1790597030211}@@chips?" tone="neutral" collapse="closed"}
+++}Five firms, in Japan, Taiwan, Germany and South Korea.
 
-They are Shin-Etsu, SUMCO, GlobalWafers, Siltronic and SK Siltron. None is American or Chinese. [[#^who-makes-it-2|Reread: Who makes it]]
+They are Shin-Etsu, SUMCO, GlobalWafers, Siltronic and SK Siltron. None is American or Chinese. [[#^who-makes-it-2|Reread: Who makes it]]{++{"author":"James's AI","timestamp":1790597030211}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790593804628}@@Card--}{++{"author":"James's AI","timestamp":1790593804628}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593804628}@@4Question--}{++{"author":"James's AI","timestamp":1790593804628}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597030211}@@Card--}{++{"author":"James's AI","timestamp":1790597030211}@@:::callout {title="Card++} 3 of {--{"author":"James's AI","timestamp":1790597030211}@@4Question
 
-Why does switching wafer suppliers take years?
+--}{++{"author":"James's AI","timestamp":1790597030211}@@4: ++}Why does switching wafer suppliers take {--{"author":"James's AI","timestamp":1790597030211}@@years?
 
-{--{"author":"James's AI","timestamp":1790593806036}@@Card--}{++{"author":"James's AI","timestamp":1790593806036}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593806036}@@4Answer--}{++{"author":"James's AI","timestamp":1790593806036}@@4 · Answer**++}
+Card 3 of 4Answer
 
-A fab must test and approve a new supplier separately for every chip it makes.
+--}{++{"author":"James's AI","timestamp":1790597030211}@@years?" tone="neutral" collapse="closed"}
+++}A fab must test and approve a new supplier separately for every chip it makes.
 
-The switch takes two to five years. [[#^the-chokepoint-2|Reread: The chokepoint]]
+The switch takes two to five years. [[#^the-chokepoint-2|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597030211}@@
+:::++}
 
-{--{"author":"James's AI","timestamp":1790593807452}@@Card--}{++{"author":"James's AI","timestamp":1790593807452}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593807452}@@4Question--}{++{"author":"James's AI","timestamp":1790593807452}@@4 · Question**++}
+{--{"author":"James's AI","timestamp":1790597030211}@@Card--}{++{"author":"James's AI","timestamp":1790597030211}@@:::callout {title="Card++} 4 of {--{"author":"James's AI","timestamp":1790597030211}@@4Question
 
-China makes most of the world's polysilicon. Why does that give it little hold over chip wafers?
+--}{++{"author":"James's AI","timestamp":1790597030211}@@4: ++}China makes most of the world's polysilicon. Why does that give it little hold over chip{--{"author":"James's AI","timestamp":1790597030211}@@ wafers?
 
-{--{"author":"James's AI","timestamp":1790593808622}@@Card--}{++{"author":"James's AI","timestamp":1790593808622}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593808622}@@4Answer--}{++{"author":"James's AI","timestamp":1790593808622}@@4 · Answer**++}
+Card 4 of 4Answer
 
-Almost all of it is solar grade, too impure for chips.
+--}{++{"author":"James's AI","timestamp":1790597030211}@@ wafers?" tone="neutral" collapse="closed"}
+++}Almost all of it is solar grade, too impure for chips.
 
-In 2023, 98 percent of China's output was solar grade. Chinese firms held under 1 percent of the 300 mm wafer market in 2021. [[#^the-chokepoint-2|Reread: The chokepoint]]
+In 2023, 98 percent of China's output was solar grade. Chinese firms held under 1 percent of the 300 mm wafer market in 2021. [[#^the-chokepoint-2|Reread: The chokepoint]]{++{"author":"James's AI","timestamp":1790597030211}@@
+:::++}
 
-#### Four things to remember ^four-things-to-remember
+{--{"author":"James's AI","timestamp":1790597030211}@@#### Four--}{++{"author":"James's AI","timestamp":1790597030211}@@::::
 
--   Every chip starts on a wafer, a polished disc of pure silicon about 30 centimeters across.
--   Five firms in Japan, Taiwan, Germany and South Korea make the wafers for leading-edge chips.
--   A fab needs two to five years to approve a new wafer supplier.
--   China makes most of the world's polysilicon, but almost all of it is too impure for chips.
+:::callout {title="Four++} things to {--{"author":"James's AI","timestamp":1790597030211}@@remember ^four-things-to-remember
 
-**Sources (13)**
+--}{++{"author":"James's AI","timestamp":1790597030211}@@remember" tone="green"}
+++}-{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}Every chip starts on a wafer, a polished disc of pure silicon about 30 centimeters across.
+-{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}Five firms in Japan, Taiwan, Germany and South Korea make the wafers for leading-edge chips.
+-{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}A fab needs two to five years to approve a new wafer supplier.
+-{--{"author":"James's AI","timestamp":1790597030211}@@   --}{++{"author":"James's AI","timestamp":1790597030211}@@ ++}China makes most of the world's polysilicon, but almost all of it is too impure for chips.{++{"author":"James's AI","timestamp":1790597030211}@@
+:::++}
 
-1.  A [SEMI Reports 2025 Annual Worldwide Silicon Wafer Shipments and Revenue Results](https://www.prnewswire.com/news-releases/semi-reports-2025-annual-worldwide-silicon-wafer-shipments-and-revenue-results-302683028.html) PR Newswire · 10 February 2026
-2.  A [Mineral Commodity Summaries 2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-silicon.pdf) U.S. Geological Survey · 5 February 2026
-3.  A [SUMCO, production processes page](https://www.sumcosi.com/english/products/process/) SUMCO
-4.  A [Soitec | Key figures](https://www.soitec.com/home/group) Soitec
-5.  A [FOUNDATION OF DIGITAL LIFE Investor Presentation](https://www.siltronic.com/fileadmin/investorrelations/2026/Q1/20260429_Siltronic_InvestorPresentation__.pdf) Siltronic · 29 April 2026
-6.  A [The Semiconductor Supply Chain - Issue Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf) Center for Security and Emerging Technology (CSET) · 21 January 2021
-7.  A [Consolidated Financial Results for the First Three Quarters Ended December 31, 2025](https://www.shinetsu.co.jp/wp-content/uploads/2025/07/20260127_con_E.pdf) Shin-Etsu Chemical · 26 January 2026
-8.  A [Note: This document has been translated from the Japanese original for reference purposes only. In the event of any](https://www.sumcosi.com/english/pdf/ir/library/shareholders/27/pdf/nc_e_27.pdf) SUMCO · 3 March 2026
-9.  A [Siltronic AG: Robust business performance in 2025 demonstrates resilience despite challenging conditions](https://www.siltronic.com/en/press/press-releases/siltronic-ag-robust-business-performance-in-2025-demonstrates-resilience-despite-challenging-conditions.html) Siltronic · 27 August 2026
-10.  A [GlobalWafers Reports Full Year 2025 Results - GlobalWafers Co., Ltd. All rights reserved.](https://www.sas-globalwafers.com/en/gwc_news_en_20260303/) GlobalWafers · 3 March 2026
-11.  A [The Mineral Industry of China in 2020-2021](https://pubs.usgs.gov/myb/vol3/2023/myb3-2023-china.pdf) U.S. Geological Survey · 17 February 2026
-12.  A [GlobalWafers America Officially Opens for Business - GlobalWafers Co., Ltd. All rights reserved.](https://www.sas-globalwafers.com/en/gwc_news_en_20250516/) GlobalWafers · 15 May 2025
-13.  A [Biden-Harris Administration Announces CHIPS Incentives Awards with GlobalWafers to Support Domestic Production of Silicon Wafers](https://www.commerce.gov/news/press-releases/2024/12/biden-harris-administration-announces-chips-incentives-awards) U.S. Department of Commerce · 17 December 2024
+{--{"author":"James's AI","timestamp":1790597030211}@@**Sources (13)**
+
+--}{++{"author":"James's AI","timestamp":1790597030211}@@:::callout {title="Sources (13)" tone="neutral" collapse="closed"}
+++}1.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [SEMI Reports 2025 Annual Worldwide Silicon Wafer Shipments and Revenue {--{"author":"James's AI","timestamp":1790597030211}@@Results](https://www.prnewswire.com/news-releases/semi-reports-2025-annual-worldwide-silicon-wafer-shipments-and-revenue-results-302683028.html)--}{++{"author":"James's AI","timestamp":1790597030211}@@Results](https://www.prnewswire.com/news-releases/semi-reports-2025-annual-worldwide-silicon-wafer-shipments-and-revenue-results-302683028.html).++} PR Newswire · 10 February {--{"author":"James's AI","timestamp":1790597030211}@@2026--}{++{"author":"James's AI","timestamp":1790597030211}@@2026. Tier A.++}
+2.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [Mineral Commodity Summaries {--{"author":"James's AI","timestamp":1790597030211}@@2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-silicon.pdf)--}{++{"author":"James's AI","timestamp":1790597030211}@@2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-silicon.pdf).++} U.S. Geological Survey · 5 February {--{"author":"James's AI","timestamp":1790597030211}@@2026--}{++{"author":"James's AI","timestamp":1790597030211}@@2026. Tier A.++}
+3.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [SUMCO, production processes {--{"author":"James's AI","timestamp":1790597030211}@@page](https://www.sumcosi.com/english/products/process/) SUMCO--}{++{"author":"James's AI","timestamp":1790597030211}@@page](https://www.sumcosi.com/english/products/process/). SUMCO. Tier A.++}
+4.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [Soitec | Key {--{"author":"James's AI","timestamp":1790597030211}@@figures](https://www.soitec.com/home/group) Soitec--}{++{"author":"James's AI","timestamp":1790597030211}@@figures](https://www.soitec.com/home/group). Soitec. Tier A.++}
+5.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [FOUNDATION OF DIGITAL LIFE Investor {--{"author":"James's AI","timestamp":1790597030211}@@Presentation](https://www.siltronic.com/fileadmin/investorrelations/2026/Q1/20260429_Siltronic_InvestorPresentation__.pdf)--}{++{"author":"James's AI","timestamp":1790597030211}@@Presentation](https://www.siltronic.com/fileadmin/investorrelations/2026/Q1/20260429_Siltronic_InvestorPresentation__.pdf).++} Siltronic · 29 April {--{"author":"James's AI","timestamp":1790597030211}@@2026--}{++{"author":"James's AI","timestamp":1790597030211}@@2026. Tier A.++}
+6.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [The Semiconductor Supply Chain - Issue {--{"author":"James's AI","timestamp":1790597030211}@@Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf)--}{++{"author":"James's AI","timestamp":1790597030211}@@Brief](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf).++} Center for Security and Emerging Technology (CSET) · 21 January {--{"author":"James's AI","timestamp":1790597030211}@@2021--}{++{"author":"James's AI","timestamp":1790597030211}@@2021. Tier A.++}
+7.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [Consolidated Financial Results for the First Three Quarters Ended December 31, {--{"author":"James's AI","timestamp":1790597030211}@@2025](https://www.shinetsu.co.jp/wp-content/uploads/2025/07/20260127_con_E.pdf)--}{++{"author":"James's AI","timestamp":1790597030211}@@2025](https://www.shinetsu.co.jp/wp-content/uploads/2025/07/20260127_con_E.pdf).++} Shin-Etsu Chemical · 26 January {--{"author":"James's AI","timestamp":1790597030211}@@2026--}{++{"author":"James's AI","timestamp":1790597030211}@@2026. Tier A.++}
+8.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [Note: This document has been translated from the Japanese original for reference purposes only. In the event of {--{"author":"James's AI","timestamp":1790597030211}@@any](https://www.sumcosi.com/english/pdf/ir/library/shareholders/27/pdf/nc_e_27.pdf)--}{++{"author":"James's AI","timestamp":1790597030211}@@any](https://www.sumcosi.com/english/pdf/ir/library/shareholders/27/pdf/nc_e_27.pdf).++} SUMCO · 3 March {--{"author":"James's AI","timestamp":1790597030211}@@2026--}{++{"author":"James's AI","timestamp":1790597030211}@@2026. Tier A.++}
+9.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [Siltronic AG: Robust business performance in 2025 demonstrates resilience despite challenging {--{"author":"James's AI","timestamp":1790597030211}@@conditions](https://www.siltronic.com/en/press/press-releases/siltronic-ag-robust-business-performance-in-2025-demonstrates-resilience-despite-challenging-conditions.html)--}{++{"author":"James's AI","timestamp":1790597030211}@@conditions](https://www.siltronic.com/en/press/press-releases/siltronic-ag-robust-business-performance-in-2025-demonstrates-resilience-despite-challenging-conditions.html).++} Siltronic · 27 August {--{"author":"James's AI","timestamp":1790597030211}@@2026--}{++{"author":"James's AI","timestamp":1790597030211}@@2026. Tier A.++}
+10.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [GlobalWafers Reports Full Year 2025 Results - GlobalWafers Co., Ltd. All rights {--{"author":"James's AI","timestamp":1790597030211}@@reserved.](https://www.sas-globalwafers.com/en/gwc_news_en_20260303/)--}{++{"author":"James's AI","timestamp":1790597030211}@@reserved.](https://www.sas-globalwafers.com/en/gwc_news_en_20260303/).++} GlobalWafers · 3 March {--{"author":"James's AI","timestamp":1790597030211}@@2026--}{++{"author":"James's AI","timestamp":1790597030211}@@2026. Tier A.++}
+11.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [The Mineral Industry of China in {--{"author":"James's AI","timestamp":1790597030211}@@2020-2021](https://pubs.usgs.gov/myb/vol3/2023/myb3-2023-china.pdf)--}{++{"author":"James's AI","timestamp":1790597030211}@@2020-2021](https://pubs.usgs.gov/myb/vol3/2023/myb3-2023-china.pdf).++} U.S. Geological Survey · 17 February {--{"author":"James's AI","timestamp":1790597030211}@@2026--}{++{"author":"James's AI","timestamp":1790597030211}@@2026. Tier A.++}
+12.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [GlobalWafers America Officially Opens for Business - GlobalWafers Co., Ltd. All rights {--{"author":"James's AI","timestamp":1790597030211}@@reserved.](https://www.sas-globalwafers.com/en/gwc_news_en_20250516/)--}{++{"author":"James's AI","timestamp":1790597030211}@@reserved.](https://www.sas-globalwafers.com/en/gwc_news_en_20250516/).++} GlobalWafers · 15 May {--{"author":"James's AI","timestamp":1790597030211}@@2025--}{++{"author":"James's AI","timestamp":1790597030211}@@2025. Tier A.++}
+13.{--{"author":"James's AI","timestamp":1790597030211}@@  A--} [Biden-Harris Administration Announces CHIPS Incentives Awards with GlobalWafers to Support Domestic Production of Silicon {--{"author":"James's AI","timestamp":1790597030211}@@Wafers](https://www.commerce.gov/news/press-releases/2024/12/biden-harris-administration-announces-chips-incentives-awards)--}{++{"author":"James's AI","timestamp":1790597030211}@@Wafers](https://www.commerce.gov/news/press-releases/2024/12/biden-harris-administration-announces-chips-incentives-awards).++} U.S. Department of Commerce · 17 December {--{"author":"James's AI","timestamp":1790597030211}@@2024--}{++{"author":"James's AI","timestamp":1790597030211}@@2024. Tier A.
+:::++}
 
 ## Chemicals, Gases and Photoresist ^chemicals-gases-and-photoresist
 
