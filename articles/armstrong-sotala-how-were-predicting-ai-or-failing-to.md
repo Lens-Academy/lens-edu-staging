@@ -268,7 +268,7 @@ Figure 4: Time between the arrival of AI and the date the prediction was made, f
 
 Figure 5: Time between the arrival of AI and the date the prediction was made, for failed predictions.
 
-5. Conclusion
+## 5. Conclusion
 
 This paper, the first in a series analyzing AI predictions, focused on the reliability of AI timeline predictions (predicting the dates upon which “human-level” AI would be developed). These predictions are almost wholly grounded on expert judgment. The biases literature classified the types of tasks on which experts would have good performance, and AI timeline predictions have all the hallmarks of tasks on which they would perform badly.
 
@@ -276,7 +276,7 @@ This was borne out by the analysis of 95 timeline predictions in the database as
 
 There is thus strong grounds for dramatically increasing the uncertainty in any AI timeline prediction.
 
-Acknowledgments
+## Acknowledgments
 
 The authors wish to acknowledge the help and support of the Singularity Institute, the Future of Humanity Institute and the James Martin School, as well as the individual advice of Nick Bostrom, Luke Muelhauser, Vincent Mueller, Anders Sandberg, Lisa Makros, Sean O’Heigeartaigh, Daniel Dewey, Eric Drexler and the online community of Less Wrong.
 
