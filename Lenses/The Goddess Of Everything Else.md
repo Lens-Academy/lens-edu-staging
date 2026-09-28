@@ -14,6 +14,11 @@ We want to end this module, and this course, with a work of fiction. It is a par
 The question is not only what AI can do. It is also what moral and civilizational capacities we ourselves possess. Are we capable of being the kind of beings that choose not only survival, but the good?
 
 We close the module with a philosophical reflection on human nature. *The Goddess of Everything Else* tells a parable about the struggle between ruthless competition and the creative principle. It is precisely our ability to choose not just local victory at any cost, but “everything else,” that gives hope that we may be able to tame the power of AI and build a future we would actually want to live in.
+%%
+
+%% PROPOSED FIX:
+We end with a parable by Scott Alexander, animated by Rational Animations and narrated by Rob Miles. Ruthless competition shaped all of life, yet somehow it keeps producing cooperation, art and care. Humans can choose those on purpose. That choice may be what lets us build a future with AI worth living in.
+%%
 
 #### Video
 source:: [[../video_transcripts/rationalanimations-the-goddess-of-everything-else]]
