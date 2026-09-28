@@ -2509,19 +2509,19 @@ Where it is made
 
 -   {--{"author":"James's AI","timestamp":1790594185758}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790594185758}@@TW · **Taiwan**:++} ASE, Powertech, KYEC and ChipMOS; the largest assembly and test cluster
 -   {--{"author":"James's AI","timestamp":1790594186972}@@JPJapan--}{++{"author":"James's AI","timestamp":1790594186972}@@JP · **Japan**:++} Advantest testers, Disco dicing and grinding, Micronics Japan probe cards
--   USUnited States Teradyne, FormFactor, Cohu, Aehr; Amkor's Arizona packaging plant
--   CNChina Four of the top ten assembly and test firms by 2024 revenue are China-headquartered
--   MYMalaysia Penang and Kulim; Malaysia ships about 13% of the world's packaged chips
+-   {--{"author":"James's AI","timestamp":1790594187908}@@USUnited States--}{++{"author":"James's AI","timestamp":1790594187908}@@US · **United States**:++} Teradyne, FormFactor, Cohu, Aehr; Amkor's Arizona packaging plant
+-   {--{"author":"James's AI","timestamp":1790594189003}@@CNChina--}{++{"author":"James's AI","timestamp":1790594189003}@@CN · **China**:++} Four of the top ten assembly and test firms by 2024 revenue are China-headquartered
+-   {--{"author":"James's AI","timestamp":1790594189947}@@MYMalaysia--}{++{"author":"James's AI","timestamp":1790594189947}@@MY · **Malaysia**:++} Penang and Kulim; Malaysia ships about 13% of the world's packaged chips
 
 Why substitution is possible
 
 Advantest and Teradyne sell about 80 percent of the testers between them, but both make machines that customers have approved, and the smaller kinds of test and assembly tool have several makers each. Customers rarely switch, because a new tester means rebuilding every test program, from the first prototype through to the production line. Advantest tells its investors the same thing. A newcomer pays that cost once and takes two to five years. The barrier is low enough that four of the top ten assembly and test firms are already Chinese.
 
-Where China stands
+**Where China stands**
 
 Assembly and test is the stage where China is most competitive. CSET at Georgetown counts four of the top ten assembly and test firms by 2024 revenue as Chinese. The tools those firms use are far less tightly controlled than lithography or deposition tools.
 
-Where the US stands
+**Where the US stands**
 
 American firms are strong in test machines and probe cards, the beds of pins that touch each chip on the wafer: Teradyne, FormFactor, Cohu and Aehr. They are weak in assembly. Amkor is building a $7 billion packaging and test campus in Arizona and has a long-term deal with TSMC to fill it.
 
@@ -2548,7 +2548,7 @@ The probe card that holds those needles is the hard part. For a high-bandwidth m
 
 The economics get worse as packages grow. TSMC has told investors that its CoWoS packaging roadmap runs beyond 14 times the area a lithography machine can print in one shot [5](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf). Every added die is another chance to lose the whole assembly, which is why the number of test steps keeps rising. ASE ran 6,797 testers in the second quarter of 2025 and 8,348 a year later [6](https://www.sec.gov/Archives/edgar/data/1122411/000095010326011351/dp250868_6k.htm).
 
-Automated test equipment: share of the ~$9.0bn tester market, 2025%
+**Chart:** Automated test equipment: share of the ~$9.0bn tester market, 2025 (%)
 
 Advantest **65%** Teradyne and all others **35%**
 
@@ -2558,7 +2558,7 @@ Source: [Advantest FY2025 results briefing, April 2026](https://www.advantest.co
 
 Advantest puts its own share at about 65 percent of a $9.0 billion tester market in 2025: 66 percent of test for logic chips, up ten points in a year, and about 60 percent of memory test [7](https://www.advantest.com/document/en/investors/ir-library/result/JE_BIZ_260427_note.pdf). It and Teradyne hold about 80 percent between them [1](https://www.advantest.com/document/en/investors/ir-library/investors-guide/Investors_Guide_2504E.pdf). Teradyne grew 13 percent to $3.19 billion for 2025, with fourth-quarter revenue up 44 percent on AI demand [8](https://investors.teradyne.com/news-events/press-releases/detail/433/teradyne-reports-fourth-quarter-and-full-year-2025-results).
 
-Where the tester money went in calendar 2025$bn
+**Chart:** Where the tester money went in calendar 2025 ($bn)
 
 SoC testers **6.9** Memory testers **2.1**
 
@@ -2570,9 +2570,9 @@ Below the two tester makers, the rest of the test and assembly equipment splits 
 -   **Probe cards.** FormFactor took $785.0 million in fiscal 2025 [9](https://data.sec.gov/api/xbrl/companyconcept/CIK0001039399/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax.json); Technoprobe grew 15.7 percent to EUR 628.4 million, 38 percent of it from AI, and plans to double capacity by the end of 2027 [10](https://technoprobe.com/wp-content/uploads/2026/03/PR-FY-2025_.pdf).
 -   **Handlers and burn-in**, the machines that feed parts into a tester and heat them. Cohu took $453.0 million in fiscal 2025 [11](https://data.sec.gov/api/xbrl/companyconcept/CIK0000021535/us-gaap/RevenueFromContractWithCustomerIncludingAssessedTax.json); Aehr did $50.0 million in fiscal 2026 but booked a record $60.7 million in the fourth quarter alone and guides to $130 million to $150 million in fiscal 2027 [3](https://www.aehr.com/2026/07/aehr-test-systems-reports-fiscal-2026-fourth-quarter-and-full-year-financial-results-with-record-quarterly-bookings-and-100-million-effective-backlog/).
 -   **Dicing and grinding.** Disco leads in wafer grinders and the saws that cut wafers into dies [12](https://newsletter.semianalysis.com/p/disco-corporation-the-world-leader), and its newest saw handles pieces up to 400 by 400 mm, for packaging on rectangular panels [13](https://www.disco.co.jp/eg/news/corp/20251215_1.html).
--   **Bonding.** Kulicke and Soffa did $654.1 million in fiscal 2025 [14](https://data.sec.gov/api/xbrl/companyconcept/CIK0000056978/us-gaap/Revenues.json), while Besi's second-quarter 2026 revenue rose 68.7 percent to EUR 249.9 million on and data center demand [15](https://www.besi.com/investor-relations/press-releases/2025/details-1/be-semiconductor-industries-nv-announces-q2-26-and-h1-26-results/).
+-   **Bonding.** Kulicke and Soffa did $654.1 million in fiscal 2025 [14](https://data.sec.gov/api/xbrl/companyconcept/CIK0000056978/us-gaap/Revenues.json), while Besi's second-quarter 2026 revenue rose 68.7 percent to EUR 249.9 million on hybrid bonding and data center demand [15](https://www.besi.com/investor-relations/press-releases/2025/details-1/be-semiconductor-industries-nv-announces-q2-26-and-h1-26-results/).
 
-Thermocompression bonders, which press memory dies into a stack and place chiplets on substrates, are the most concentrated niche. ASMPT took a repeat order for fifteen chip-to-substrate bonders in December 2025 [16](https://www.asmpt.com/en/investor-relations/news-events/asmpt-secures-additional-orders-for-fifteen-chip-to-substrate-thermo-compression-bonding-tools-driven-by-ai-tailwind/) and, in its 2025 results, put that market at $1.6 billion by 2028, of which it means to hold 35 to 40 percent [17](https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2025-annual-results/). See [[#^memory-and-hbm]].
+Thermocompression bonders, which press memory dies into a stack and place chiplets on substrates, are the most concentrated niche. ASMPT took a repeat order for fifteen chip-to-substrate bonders in December 2025 [16](https://www.asmpt.com/en/investor-relations/news-events/asmpt-secures-additional-orders-for-fifteen-chip-to-substrate-thermo-compression-bonding-tools-driven-by-ai-tailwind/) and, in its 2025 results, put that market at $1.6 billion by 2028, of which it means to hold 35 to 40 percent [17](https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2025-annual-results/). See [[#^memory-and-hbm|Memory and HBM]].
 
 ### The back end's geography ^the-back-ends-geography
 
