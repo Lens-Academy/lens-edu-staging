@@ -4,7 +4,10 @@ reading_minutes: 15
 tutor_minutes: 3
 summary_for_tutor: Argues that AI control research targets a small slice of existential risk (intentional scheming by early transformative AI) while the dominant risk is that early AI fails to actually solve alignment for stronger successors. The median doom path involves AI-generated slop that looks like valid alignment solutions but contains subtle lethal flaws, combined with organizational incentives to declare success prematurely. Notes that control researchers themselves do not expect their methods to generalize to superintelligence.
 title: The Case Against AI Control Research
-tldr: If control research gives us tools to contain AI, it might also give AI the understanding to escape containment. This article questions whether building better cages is a path to safety — or an accelerant for risk.
+# ORIGINAL tldr (commented out as AI slop; misrepresents the post):
+# tldr: If control research gives us tools to contain AI, it might also give AI the understanding to escape containment. This article questions whether building better cages is a path to safety — or an accelerant for risk.
+# PROPOSED FIX:
+# tldr: Control research guards against early AIs deliberately scheming against us. John Wentworth argues that's a small slice of the risk. The bigger danger is early AIs producing alignment "solutions" that look right, aren't, and get accepted anyway.
 ---
 #### Article
 source:: [[../articles/wentworth--the-case-against-ai-control-research]]
