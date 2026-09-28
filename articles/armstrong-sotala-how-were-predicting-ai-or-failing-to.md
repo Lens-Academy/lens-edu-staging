@@ -206,7 +206,7 @@ It should be borne in mind that all the caveats and problems with expert opinion
 
 The practical focus of this paper is on AI timeline predictions: predictions giving dates for AIs with human-comparable cognitive abilities. Researchers from the Singularity Institute have assembled a database of 257 AI predictions since 1950, of which 95 include AI timelines.
 
-4.1. Subjective Assessment
+### 4.1. Subjective Assessment
 
 A brief glance at Table 1 allows us to expect that AI timeline predictions will generally be of very poor quality. The only factor that is unambiguously positive for AI predictions is that prediction errors are expected and allowed: apart from that, the task seems singularly difficult, especially on the key issue of feedback. An artificial intelligence is a hypothetical machine, which has never existed on this planet before and about whose properties we have but the haziest impression. Most AI experts will receive no feedback whatsoever about their predictions, meaning they have to construct them entirely based on their untested impressions.
 
@@ -214,7 +214,7 @@ There is nothing stopping experts from decomposing the problem, or constructing 
 
 Yet another category are of the “Moore’s law hence AI” type. They postulate that AI will happen when computers reach some key level, often comparing with some key property of the brain (number of operations per second (Bostrom 1998), or neurones/synapses[3]). In the division established in Section 3.4.1, this is pure “grind” argument: AI will happen after a certain amount of work is performed. But, as we saw, these kinds of arguments are only valid if the predictor has shown that reaching AI does not require new insights! And that step is often absent from the argument.
 
-4.2. Timeline Prediction Data
+### 4.2. Timeline Prediction Data
 
 The above were subjective impressions, formed while looking over the whole database. To enable more rigorous analysis, the various timeline predictions were reduced to a single number for purposes of comparison: this would be the date upon which the predictor expected “human level AI” to be developed.
 
@@ -238,7 +238,7 @@ The second explanation is that AI is perpetually fifteen to twenty-five years in
 
 We’ll now look at the evidence for these two explanations.
 
-4.2.1. Nerds Don’t Get Raptured
+#### 4.2.1. Nerds Don’t Get Raptured
 
 Fifty-five predictions were retained, in which it was possible to estimate the predictor’s expected lifespan. Then the diﬀerence between their median prediction and this lifespan was computed (a positive diﬀerence meaning they would expect to die before AI, a negative diﬀerence meaning they didn’t). A zero diﬀerence would be a perfect example of the Maes-Garreau law: the predictor expects AI to be developed at the exact end of their life. This number was then plotted again the predictor’s age in Figure 2 (the plot was restricted to those predictions within thirty years of the predictor’s expected lifetime).
 
@@ -248,7 +248,7 @@ Figure 2: Diﬀerence between the predicted time to AI and the predictor’s lif
 
 From this, it can be seen that the Maes-Garreau law is not borne out by the evidence: only twelve predictions (22% of the total) were within five years in either direction of the zero point.
 
-4.2.2. Twenty Years to AI
+#### 4.2.2. Twenty Years to AI
 
 The “time to AI” was computed for each expert prediction. This was graphed in Figure 3. This demonstrates a definite increase in the 16–25 year predictions: 21 of the 62 expert predictions were in that range (34%). This can be considered weak evidence that experts do indeed prefer to predict AI happening in that range from their own time.
 
