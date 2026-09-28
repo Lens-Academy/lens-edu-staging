@@ -9,7 +9,9 @@ discussion: https://discord.com/channels/1440725236843806762/1483418591482347723
 ---
 #### Text
 content::
-This perspective argues that safety requires a white-box approach. We cannot trust a model based only on its behavior. Behavior can be faked. Mechanistic interpretability aims to provide a way to verify the internal reasons for a model's output. If we could understand the circuits of a model, we would be able to detect dangerous goals before the model acts on them.
+{++{"author":"Plex's AI","timestamp":1790617855900}@@%% COMMENTED OUT (AI slop):
+++}This perspective argues that safety requires a white-box approach. We cannot trust a model based only on its behavior. Behavior can be faked. Mechanistic interpretability aims to provide a way to verify the internal reasons for a model's output. If we could understand the circuits of a model, we would be able to detect dangerous goals before the model acts on them.{++{"author":"Plex's AI","timestamp":1790617855900}@@
+%%++}
 
 #### Article
 source:: [[../articles/sarah+bluedot-introduction-to-mechanistic-interpretability]]
