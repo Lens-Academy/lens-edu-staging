@@ -909,21 +909,21 @@ Who leads
 
 Where it is made
 
--   JPJapan Mask blanks (AGC, Hoya), DUV blanks (Shin-Etsu), inspection (Lasertec), writers (NuFlare), pellicles (Mitsui Chemicals)
--   ATAustria IMS Nanofabrication multi-beam mask writers, Vienna
--   DEGermany Zeiss mask repair and metrology
--   USUnited States Photronics merchant mask shops, KLA inspection
--   TWTaiwan TSMC's in-house mask shop, and a 10% stake in IMS
+-   {--{"author":"James's AI","timestamp":1790593901111}@@JPJapan--}{++{"author":"James's AI","timestamp":1790593901111}@@JP · **Japan**:++} Mask blanks (AGC, Hoya), DUV blanks (Shin-Etsu), inspection (Lasertec), writers (NuFlare), pellicles (Mitsui Chemicals)
+-   {--{"author":"James's AI","timestamp":1790593902439}@@ATAustria--}{++{"author":"James's AI","timestamp":1790593902439}@@AT · **Austria**:++} IMS Nanofabrication multi-beam mask writers, Vienna
+-   {--{"author":"James's AI","timestamp":1790593903826}@@DEGermany--}{++{"author":"James's AI","timestamp":1790593903826}@@DE · **Germany**:++} Zeiss mask repair and metrology
+-   {--{"author":"James's AI","timestamp":1790593904910}@@USUnited States--}{++{"author":"James's AI","timestamp":1790593904910}@@US · **United States**:++} Photronics merchant mask shops, KLA inspection
+-   {--{"author":"James's AI","timestamp":1790593906448}@@TWTaiwan--}{++{"author":"James's AI","timestamp":1790593906448}@@TW · **Taiwan**:++} TSMC's in-house mask shop, and a 10% stake in IMS
 
 Why substitution is slow
 
 An EUV mask starts as a blank plate coated with forty layers. AGC and Hoya took two decades to learn how to make one. Three firms have now done it and the structure of the plate is published, so a newcomer knows what to build. Reaching a plate that fabs accept would take five to ten years. The harder part is inspection, because Lasertec sells the only tool that checks a mask in the same EUV light the scanner uses. Other tool makers stayed out of EUV mask inspection because the market was too small to be worth the cost, and a large budget removes that barrier.
 
-Where China stands
+**Where China stands**
 
 SMIC runs two mask shops of its own in Shanghai, but only for the older g-line, i-line, KrF and ArF scanners. No Chinese firm makes an EUV mask blank, a tool that checks a mask in EUV light, or a multi-beam writer, the machine that draws the finest patterns onto a mask.
 
-Where the US stands
+**Where the US stands**
 
 Photronics is the largest mask maker that sells to outside customers, and KLA makes mask inspection tools, but no American firm makes an EUV mask blank or a tool that checks a mask in EUV light.
 
@@ -973,7 +973,7 @@ SemiAnalysis put mask sets beyond $1 million at 28 nm, beyond $10 million at 7 n
 
 That cost decides who can use a node at all. A GPU spread over hundreds of thousands of units absorbs a $40 million mask set easily; the same set makes a custom inference chip shipping in the thousands uneconomic [14](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor). That cost limits AI silicon to a handful of designs.
 
-Cost of one mask set by node, 2022 estimates$M
+**Chart:** Cost of one mask set by node, 2022 estimates ($M)
 
 28 nm 1 $M 7 nm 10 $M 3 nm 40 $M
 
