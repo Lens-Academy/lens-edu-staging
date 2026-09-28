@@ -1940,8 +1940,8 @@ Answering a prompt is what the width is for. Training reuses each stored number 
 
 | Generation | Interface | Bandwidth per stack | Capacity per stack |
 | --- | --- | --- | --- |
-| HBM3E | 1,024-bit, 16 channels (32 pseudo-channels) | over 1.2 | 24 GB (8 chips), 36 GB (12 chips) |
-| HBM4 | 2,048-bit, 32 channels | over 2.0 TB/s, up to 3.3 TB/s | up to 64 GB (16 chips, 32 Gb ) |
+| HBM3E | 1,024-bit, 16 channels (32 pseudo-channels) | over 1.2 TB/s | 24 GB (8 chips), 36 GB (12 chips) |
+| HBM4 | 2,048-bit, 32 channels | over 2.0 TB/s, up to 3.3 TB/s | up to 64 GB (16 chips, 32 Gb dies) |
 
 #### HBM3E ^hbm3e
 
@@ -2138,7 +2138,7 @@ Each of those packaging steps is ordinary on its own. But one cracked joint scra
 
 | Family | Carrier | Size limit | Used for |
 | --- | --- | --- | --- |
-| CoWoS-S | Full silicon interposer | 3.3x, about 2,700 mm2 | H100-class parts |
+| CoWoS-S | Full silicon interposer | 3.3x reticle, about 2,700 mm2 | H100-class parts |
 | CoWoS-R | Resin interposer with fine redistribution wiring | Above 3.3x reticle | Cost-sensitive, fewer HBM stacks |
 | CoWoS-L | Redistribution wiring with local silicon bridges | 5.5x reticle in production, 9.5x in development | Blackwell, Rubin |
 
@@ -3127,10 +3127,10 @@ One level up, a 100,000 H100 cluster costs over $4 billion in servers, draws abo
 
 ### Who captures the value ^who-captures-the-value
 
-| Firm | Stage | Quarter ended |  |
+| Firm | Stage | Quarter ended | Gross margin |
 | --- | --- | --- | --- |
-| Micron | HBM and | May 2026 | 84.6% |
-| Nvidia | design | July 2026 | 75.0% |
+| Micron | HBM and DRAM | May 2026 | 84.6% |
+| Nvidia | Accelerator design | July 2026 | 75.0% |
 | TSMC | Wafers and CoWoS | June 2026 | 67.7% |
 | KLA | Inspection | June 2026 | 61.4% |
 | ASML |  | June 2026 | 54.0% |
