@@ -203,47 +203,47 @@ On Epoch AI's estimates, Huawei's flagship chip for 2026, the Ascend 950, delive
 
 What does chip design produce?
 
-Card 1 of 5Answer
+{--{"author":"James's AI","timestamp":1790593769607}@@Card--}{++{"author":"James's AI","timestamp":1790593769607}@@**Card++} 1 of {--{"author":"James's AI","timestamp":1790593769607}@@5Answer--}{++{"author":"James's AI","timestamp":1790593769607}@@5 · Answer**++}
 
 A blueprint of the chip: where each transistor sits and how it is wired.
 
 A chip factory builds only designs that have passed checks in approved design software. [[#^how-it-works|Reread: How it works]]
 
-Card 2 of 5Question
+{--{"author":"James's AI","timestamp":1790593770357}@@Card--}{++{"author":"James's AI","timestamp":1790593770357}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593770357}@@5Question--}{++{"author":"James's AI","timestamp":1790593770357}@@5 · Question**++}
 
 Who sells the software used to design leading-edge chips?
 
-Card 2 of 5Answer
+{--{"author":"James's AI","timestamp":1790593770868}@@Card--}{++{"author":"James's AI","timestamp":1790593770868}@@**Card++} 2 of {--{"author":"James's AI","timestamp":1790593770868}@@5Answer--}{++{"author":"James's AI","timestamp":1790593770868}@@5 · Answer**++}
 
 Three firms: Synopsys, Cadence and Siemens EDA.
 
 Together they held more than 85 percent of the market in 2025. [[#^who-makes-it|Reread: Who makes it]]
 
-Card 3 of 5Question
+{--{"author":"James's AI","timestamp":1790593771677}@@Card--}{++{"author":"James's AI","timestamp":1790593771677}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593771677}@@5Question--}{++{"author":"James's AI","timestamp":1790593771677}@@5 · Question**++}
 
 Why is that software hard to replace?
 
-Card 3 of 5Answer
+{--{"author":"James's AI","timestamp":1790593772314}@@Card--}{++{"author":"James's AI","timestamp":1790593772314}@@**Card++} 3 of {--{"author":"James's AI","timestamp":1790593772314}@@5Answer--}{++{"author":"James's AI","timestamp":1790593772314}@@5 · Answer**++}
 
 A new vendor would have to write a complete set of tools from nothing and get a foundry to approve it.
 
 Each foundry certifies its process against specific versions of the existing tools. [[#^the-chokepoint|Reread: The chokepoint]]
 
-Card 4 of 5Question
+{--{"author":"James's AI","timestamp":1790593773326}@@Card--}{++{"author":"James's AI","timestamp":1790593773326}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593773326}@@5Question--}{++{"author":"James's AI","timestamp":1790593773326}@@5 · Question**++}
 
 Can China design the newest chips on its own software?
 
-Card 4 of 5Answer
+{--{"author":"James's AI","timestamp":1790593774095}@@Card--}{++{"author":"James's AI","timestamp":1790593774095}@@**Card++} 4 of {--{"author":"James's AI","timestamp":1790593774095}@@5Answer--}{++{"author":"James's AI","timestamp":1790593774095}@@5 · Answer**++}
 
 Not yet.
 
 CSET finds that Chinese design software cannot handle the newest chips. In 2025 the United States stopped these sales to China for five weeks. [[#^the-chokepoint|Reread: The chokepoint]]
 
-Card 5 of 5Question
+{--{"author":"James's AI","timestamp":1790593775081}@@Card--}{++{"author":"James's AI","timestamp":1790593775081}@@**Card++} 5 of {--{"author":"James's AI","timestamp":1790593775081}@@5Question--}{++{"author":"James's AI","timestamp":1790593775081}@@5 · Question**++}
 
 How far behind Nvidia is Huawei's best AI chip?
 
-Card 5 of 5Answer
+{--{"author":"James's AI","timestamp":1790593775713}@@Card--}{++{"author":"James's AI","timestamp":1790593775713}@@**Card++} 5 of {--{"author":"James's AI","timestamp":1790593775713}@@5Answer--}{++{"author":"James's AI","timestamp":1790593775713}@@5 · Answer**++}
 
 About three to four years, on Epoch AI's estimate.
 
@@ -257,7 +257,7 @@ Huawei's flagship for 2026, the Ascend 950, delivers about half the computing pe
 -   China designs its own AI chips but cannot yet design the newest ones on its own software.
 -   Huawei's best AI chip trails Nvidia's by three to four years, on Epoch AI's estimate.
 
-Sources (19)
+**Sources (19)**
 
 1.  B [The Dark Side Of The Semiconductor Design Renaissance – Fixed Costs Soaring Due To Photomask Sets, Verification, and Validation](https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor) SemiAnalysis · 24 July 2022
 2.  A [Ironwood: The first Google TPU for the age of inference](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/) Google · 9 April 2025
@@ -283,7 +283,7 @@ Sources (19)
 
 China makes almost all of the world's polysilicon and almost none of the 300 mm wafers. Five firms in Japan, Taiwan, Germany and South Korea make the 300 mm wafer every AI accelerator starts on.
 
-1,424 words / 6 minSpecimen: boule and wafer
+{--{"author":"James's AI","timestamp":1790593777407}@@1,424--}{++{"author":"James's AI","timestamp":1790593777407}@@_1,424++} words / 6 {--{"author":"James's AI","timestamp":1790593777407}@@minSpecimen:--}{++{"author":"James's AI","timestamp":1790593777407}@@min · Interactive 3D Specimen:++} boule and wafer{++{"author":"James's AI","timestamp":1790593777407}@@ (only on the live site: [open this chapter on chipsupplychain.org](https://chipsupplychain.org/#silicon-and-wafers))_++}
 
 In plain terms
 
@@ -293,11 +293,11 @@ Every chip is built on a wafer, a thin round slice of silicon about 30 centimete
 
 The wafer is a cheap input and a concentrated one: five firms and $11.4 billion of revenue sit under every leading-edge chip [5](https://www.siltronic.com/fileadmin/investorrelations/2026/Q1/20260429_Siltronic_InvestorPresentation__.pdf) [1](https://www.prnewswire.com/news-releases/semi-reports-2025-annual-worldwide-silicon-wafer-shipments-and-revenue-results-302683028.html). China's polysilicon dominance is real but in the wrong grade, and its 300 mm position is small [6](https://cset.georgetown.edu/wp-content/uploads/The-Semiconductor-Supply-Chain-Issue-Brief-1.pdf). The epitaxial mix matters more than the square inches, because that is what AI demand buys and where the incumbents make money. The failed move to 450 mm showed that this stage of the chain changes over decades.
 
-Concentration **High**
+Concentration: **High**
 
-Substitutability **Moderate** Five firms already make 300 mm wafers that fabs have approved, but a fab has to test and approve a new supplier separately for every chip it makes.
+Substitutability: **Moderate**. Five firms already make 300 mm wafers that fabs have approved, but a fab has to test and approve a new supplier separately for every chip it makes.
 
-Price or market size **The world wafer market was $11.4bn in 2025, on 12,973 million square inches shipped**
+Price or market size: **The world wafer market was $11.4bn in 2025, on 12,973 million square inches shipped**
 
 Who leads
 
