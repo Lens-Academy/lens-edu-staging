@@ -144,7 +144,7 @@ multi:: true
 options::
 - None so far
 - Self-study
-- University course or AI safety group
+- University course or local AI safety group
 - AI Safety Collab (ENAIS)
 - BlueDot Impact
 - Center for AI Safety course
