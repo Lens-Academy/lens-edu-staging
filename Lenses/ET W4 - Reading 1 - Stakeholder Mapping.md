@@ -23,7 +23,9 @@ For this week, there will be a Reading, a Worksheet, and an optional Journalling
 - Attend your Weekly Discussion with your cohort.
 - Explore the Journalling Tab for journaling prompts for the week.
 
-*Week 4 Reading*
+---
+
+\# Week 4 Reading
 
 **Stakeholder Mapping and Outreach**
 
