@@ -158,30 +158,49 @@ After completing your scoring, it's time to choose your top problem area. Here a
 
 #### Question: Open
 id:: 67503fbf-8790-43ac-b8d3-3c4b33b5f732
-content:: Your selected problem area
+content::
+**Your selected problem area**
+
+Which problem area have you chosen to carry forward into your thesis? Try to describe it at the right level of specificity: what negative outcome or state you want to address, and (optionally) who or what is affected.
+placeholder:: e.g. "Increasing antibiotic resistance, making common infections deadly"
 optional:: true
 
 #### Question: Open
 id:: 62fd125b-d034-4688-aa17-82b89c5af888
-content:: Importance
+content::
+**Importance: How important is this problem?**
+
+How large is the scale of this problem? How many beings are affected, how severely, and for how long? What would the world gain if this problem were solved or meaningfully reduced?
 optional:: true
 
 #### Question: Open
 id:: 31434043-a354-48f6-aa49-2943de6b250d
-content:: Neglectedness
+content::
+**Neglectedness: How neglected is this problem?**
+
+How many people, organisations, or resources are already working on this problem? Are there specific angles, regions, or approaches that are still overlooked, where an additional person (like you!) could make a bigger difference?
 optional:: true
 
 #### Question: Open
 id:: 95d31d81-aa8c-472d-a15a-366365b38be3
-content:: Tractability
+content::
+**Tractability: How solvable is this problem?**
+
+How much progress could realistically be made with more effort or research? Are there promising solutions, evidence, or open research questions that suggest your work could help move things forward?
 optional:: true
 
 #### Question: Open
 id:: 4fa4fdf5-bfb9-469b-8593-141d20c684ec
-content:: Links to my Ikigai
+content::
+**Links to my Ikigai: Why is this problem a good fit for me?**
+
+How does working on this problem connect to what you love, what you're good at, and what could sustain you in a future career? What about it energises you or feels personally meaningful?
 optional:: true
 
 #### Question: Open
 id:: 4c248210-64ad-48f2-b558-347de11180bc
-content:: Key uncertainties or open questions
+content::
+**Key uncertainties or open questions**
+
+What are you still unsure about when it comes to this problem area? What would you most like to research further, or ask your facilitator, mastermind group, or stakeholders about next?
 optional:: true
