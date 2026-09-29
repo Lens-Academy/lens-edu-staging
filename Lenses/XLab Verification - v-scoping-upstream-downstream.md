@@ -12,7 +12,7 @@ Earlier, you followed a chip from sand to server and saw that verifiability depe
 
 \### The Setup
 
-Put yourself on an IAEA verification team at the Fordow Fuel Enrichment Plant in Iran in January 2023. Iran is a party to the Nuclear Non-Proliferation Treaty and has a safeguards agreement with the Agency, so it must declare its nuclear material and enrichment activity, and the Agency's job is to confirm that the declaration is complete and correct. Iran has declared that it enriches uranium at Fordow to 60 percent U-235. That is already far above the 3.67 percent cap of the 2015 nuclear deal and well beyond any civilian power need, though still short of the roughly 90 percent that counts as weapons grade.
+Put yourself on an IAEA verification team at the Fordow Fuel Enrichment Plant in Iran in January 2023. Iran is a party to the Nuclear Non-Proliferation Treaty and has a safeguards agreement with the Agency, so it must declare its nuclear material and enrichment activity, and the Agency's job is to confirm that the declaration is complete and correct. Iran has declared that it enriches uranium at Fordow to 60 percent U-235. The plant is run by the Atomic Energy Organization of Iran, which also keeps its operating records. That is already far above the 3.67 percent cap of the 2015 nuclear deal and well beyond any civilian power need, though still short of the roughly 90 percent that counts as weapons grade.
 
 Your first draft of the central finding reads:
 
