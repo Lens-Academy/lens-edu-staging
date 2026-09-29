@@ -2,7 +2,7 @@
 id: '9c44d9bd-067d-4749-a396-c48732a1d35a'
 title: "Attack Trees"
 tldr: "A safe can be opened four ways, and one of them is to be standing there when it is installed. An attack tree puts the attacker's goal at the root and every route to it underneath: OR nodes where any child is enough, AND nodes where all of them are needed. Then you build one yourself, against a model trying to slip a backdoor into production."
-summary_for_tutor: "Module 1 (Introduction, overview, and threat modeling). An adaptation of Bruce Schneier's 1999 article 'Attack Trees', with the trees redrawn. Part 1 is the method and the worked safe example, including the AND/OR distinction (AND means both subgoals must be satisfied; everything that is not an AND node is an OR node). Part 2 is the 'Creating Attack Trees' procedure. Part 3 is a tips section that Schneier does not have: do not be so specific that you lose generality, do not use children that are not attacks (the 'try 0000, try 0001' trap under an OR gate), and do not write overloaded nodes that silently compose several steps. Part 4 is the practice: the page states the scenario (an untrusted model U ships any solution that passes the tests, U is assumed to be scheming, a backdoor passes every test but is exploitable later, red wins on one uncaught backdoor) and the rule for when to stop decomposing a node, with the red team constraints in a closed callout just before the widget. The widget itself is only the bench: a red team versus blue team loop where the learner builds an attack tree for 'a backdoor lands in production' and revises it as three defensive affordances (human auditing, trusted monitoring, defer to trusted) are revealed one at a time, tagging the nodes each affordance prevents, detects or deters. A short text after the widget says the bench has no answer key on purpose. If a learner asks whether their tree is right, ask instead which node the attack now depends on and what would have to be true for the defence to miss it. The trees on this page are rendered as nested outlines rather than drawn figures."
+summary_for_tutor: "Module 1 (Introduction, overview, and threat modeling). An adaptation of Bruce Schneier's 1999 article 'Attack Trees', with the trees redrawn. Part 1 is the method and the worked safe example, including the AND/OR distinction (AND means both subgoals must be satisfied; everything that is not an AND node is an OR node). Part 2 is the 'Creating Attack Trees' procedure. Part 3 is a tips section that Schneier does not have: do not be so specific that you lose generality, do not use children that are not attacks (the 'try 0000, try 0001' trap under an OR gate), and do not write overloaded nodes that silently compose several steps. Part 4 is the practice: the page states the scenario (an untrusted model U ships any solution that passes the tests, U is assumed to be scheming, a backdoor passes every test but is exploitable later, red wins on one uncaught backdoor) and the rule for when to stop decomposing a node, with the red team constraints in a closed callout just before the widget. The widget itself is only the bench: a red team versus blue team loop where the learner builds an attack tree for 'a backdoor lands in production' and revises it as three defensive affordances (human auditing, trusted monitoring, defer to trusted) are revealed one at a time, tagging the nodes each affordance prevents, detects or deters. A short text after the widget says the bench has no answer key on purpose. If a learner asks whether their tree is right, ask instead which node the attack now depends on and what would have to be true for the defence to miss it. The trees on this page are drawn figures (images); each image's alt text spells out the tree with its gates."
 reading_minutes: 35
 tutor_minutes: 5
 tags: []
@@ -13,21 +13,9 @@ Adapted from Bruce Schneier, "Attack Trees," *Dr. Dobb's Journal*, December 1999
 
 Attack trees provide a formal, methodical way of describing the security of systems, based on various attacks. Basically, you can represent attacks against a system in a tree structure, with the goal as the root node and different ways of achieving that goal as leaf nodes.
 
-The following, for example, is a simple attack tree against a physical safe. The gate written next to a node says how its children combine: under OR any single child is enough, under AND every child is needed.
+The following, for example, is a simple attack tree against a physical safe. The gate under a node says how its children combine: under OR any single child is enough, under AND every child is needed.
 
-- **Open Safe** (OR)
-    - Pick Lock
-    - **Learn Combo** (OR)
-        - Find Written Combo
-        - **Get Combo From Target** (OR)
-            - Threaten
-            - Blackmail
-            - **Eavesdrop** (AND)
-                - Listen to Conversation
-                - Get Target to State Combo
-            - Bribe
-    - Cut Open Safe
-    - Install Improperly
+![Attack tree with the goal Open Safe at the root. Open Safe (OR): Pick Lock; Learn Combo; Cut Open Safe; Install Improperly. Learn Combo (OR): Find Written Combo; Get Combo From Target. Get Combo From Target (OR): Threaten; Blackmail; Eavesdrop; Bribe. Eavesdrop (AND): Listen to Conversation; Get Target to State Combo.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/xlab-control-attack-tree-open-safe.png)
 
 The goal is to open the safe. To open the safe, attackers can pick the lock, learn the combination, cut open the safe, or install the safe improperly so that they can easily open it later. To learn the combination, they either have to find the combination written down or get the combination from the safe owner. And so on. Each node becomes a subgoal, and children of that node are ways to achieve that subgoal. (Of course, this is just a sample attack tree, and an incomplete one at that. How many other attacks can you think of that would achieve the goal?)
 
@@ -47,19 +35,11 @@ Be careful about how specific Attack Nodes should be. Being overly specific migh
 
 Take, for example, the following tree:
 
-- **Get Combo From Target** (OR)
-    - Threaten With a Knife
-    - Threaten With a Gun
-    - Threaten With a Crowbar
-    - ⋯
+![Attack tree: Get Combo From Target (OR), with the children Threaten With a Knife; Threaten With a Gun; Threaten With a Crowbar; and so on.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/xlab-control-attack-tree-too-specific.png)
 
 Instead, a tree that composes nodes that involve similar attacks would be more representative of attacker cognition:
 
-- **Get Combo From Target** (OR)
-    - Threaten
-    - Blackmail
-    - Eavesdrop
-    - Bribe
+![Attack tree: Get Combo From Target (OR), with the children Threaten; Blackmail; Eavesdrop; Bribe.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/xlab-control-attack-tree-grouped.png)
 
 :::callout {title="A subtler trap: nodes that aren't attacks" tone="amber"}
 Suppose you tried to decompose "learn the combo" into "try 0000," "try 0001," "try 0002," … These are overly specific attacks but they also aren't attacks. Under an OR gate, each child is supposed to be a way of achieving the goal, and "try 0000" only opens the safe in the world where the combination happens to be 0000.
@@ -69,19 +49,11 @@ Also, try not to have overcomplicated or conditioned nodes, as you might be comp
 
 Take, for example, the following tree:
 
-- **Open Safe** (OR)
-    - Pick Lock
-    - Learn Combo by Eavesdropping on the Target Saying the Combo
-    - Cut Open Safe
+![Attack tree: Open Safe (OR), with the children Pick Lock; Learn Combo by Eavesdropping on the Target Saying the Combo (highlighted as the overloaded node); Cut Open Safe.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/xlab-control-attack-tree-overloaded-node.png)
 
 Instead, decomposing attacks helps your attack tree stay organized and might allow you to find other attacks:
 
-- **Open Safe** (OR)
-    - Pick Lock
-    - **Learn Combo** (OR)
-        - Find Written Combo
-        - Get Combo From Target
-    - Cut Open Safe
+![Attack tree: Open Safe (OR), with the children Pick Lock; Learn Combo; Cut Open Safe. Learn Combo (OR): Find Written Combo; Get Combo From Target.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/xlab-control-attack-tree-decomposed.png)
 
 #### Text
 content::
