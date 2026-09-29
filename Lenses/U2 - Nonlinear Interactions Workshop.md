@@ -47,7 +47,7 @@ id:: 1a18f3c7-3505-4540-b30d-b34bda04e68e
 content::
 \## Scenario 2 of 4
 
-A hospital's automated dispensing system handled 5%, then 8%, then 12% of prescriptions over three years. A regulator is deciding whether to certify it for unsupervised operation. If certified, the hospital plans to route everything through it that is not explicitly flagged.
+A hospital's automated dispensing system fills prescriptions that doctors have already written. Until now a pharmacist has had to check every order it fills, so the hospital let it take only a small share, limited by pharmacist time: 5%, then 8%, then 12% of prescriptions over the last three years. Next year a regulator decides whether to certify it to run with no pharmacist check. If certified, the hospital will send every prescription through it except a short list of high-risk drugs that stay with pharmacists.
 
 Forecast the share in two years. Explain why this case differs from Scenario 1, and state what forecasting object should replace a smooth curve.
 assessment-instructions:: This is the second independent application in a nonlinear forecasting workshop. Make the student reason from the scenario. Do not turn it into a general discussion of AI timelines.
