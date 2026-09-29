@@ -65,7 +65,7 @@ Some key notes when thinking about your career path:
 - **Career paths are also rarely linear**. What's a good fit for you now may look completely different in five or ten years, and many people in highly impactful roles now have transitioned between different disciplines, role types and fields.
 - **Your impactful path doesn't have to be and probably won’t be ready-made!** You can mix skills and problem areas in genuinely novel combinations that don't have a name yet. Working in animal advocacy, for instance, might combine communications or policy skills with the problem of animal welfare.
 
-\#### List of Potential Impactful Career Paths
+\### List of Potential Impactful Career Paths
 
 Here's a list worth looking through for this week's worksheet, not to pick from right now, but to surface ideas you might not have considered yet. Take some time to read through some of the profiles below that interest you, and pick one or two random profiles to skim through. Some helpful resources before going into specific paths:
 
