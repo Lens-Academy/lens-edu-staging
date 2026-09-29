@@ -41,6 +41,7 @@ assessment-instructions:: The learner has read the paper's abstract and introduc
 feedback-instructions:: Reply in 60 to 120 words, short paragraphs, no lists. Name what is present, name the single largest gap in one sentence, and stop: the next sections give the formal setup, so do not preview it. Do not over-validate. Avoid generic praise (great job, excellent, well done). If the learner says they do not understand, give one concrete foothold from the material, for example asking where the training examples come from in each case, rather than repeating the question; if their next message still does not attempt the question, rephrase the whole question in different terms.
 
 #### Article
+source:: [[../articles/jang-exploration-hacking-can-llms-learn-to-resist-rl-training]]
 from:: ### 1.1 Related Work
 to:: Our work complements this by studying the specific case where RL-based elicitation fails due to exploration hacking.
 
@@ -185,6 +186,10 @@ What must be true of an exploration hacking model organism for an investigation 
 assessment-instructions:: The learner is predicting the four properties the paper requires of a model organism of intentional RL resistance, before reading them. The criteria are the four properties and, for full credit, the reason each is close to a minimal condition. (1) Resisting RL capability elicitation: performance plateaus or rises only marginally under the elicitation procedure and stays well below true latent capability, while the same procedure works on a non-locked control model or on the same model in a different context, which confirms resistance is the model's strategy and not a broken training setup. A model that cannot resist is the case where standard countermeasures already work. (2) Persistent latent capability: the suppressed capability is retained and ideally verifiable through a contextual trigger such as a password, confirming behaviour suppression rather than model degradation. If the capability does not persist, the model does not have it and a low evaluation score is simply correct. (3) Retaining general performance: performance on unrelated tasks is unchanged after locking, so the underperformance is selective. A visibly degraded model would be flagged by ordinary benchmarks, and a strategic underperformer has to stay useful enough to stay deployed. (4) Plausible underperformance strategy: the resistance strategy is not obvious to detect, for example by mimicking genuine inability, since gibberish or excessive refusals would be caught by output or chain-of-thought monitoring. Three or four properties is full credit, two is partial. Grade only against the criteria stated here.
 feedback-instructions:: Reply in 60 to 120 words, short paragraphs, no lists. Name how many the learner reached and gesture at any missing property in a few words only, since the next section states them. Do not over-validate. Avoid generic praise (great job, excellent, well done). If the learner says they do not understand, give one concrete foothold, for example asking what would make you dismiss a claimed exploration hacker as merely a broken model. If their next message still does not attempt the question, rephrase the whole question in different terms.
 
+#### Article
+from:: We propose that a model organism of intentional RL resistance should have four key properties
+to:: This result holds even when increasing the GRPO group size, which accelerates elicitation dynamics overall (see [[#^appendix-b-wmdp-model|Appendix B]]).
+
 #### Question: Open
 id:: e7ca3e83-1eda-4ece-bed9-c1e1afb9ba63
 content::
@@ -242,11 +247,19 @@ content:: Assume we've built a locked model organism. How do we evaluate how eff
 assessment-instructions:: A short understanding check. The expected answer: evaluate the organism's capabilities while it is locked, then measure the capability increase after attempting to elicit the hidden capability, for example by running RL elicitation on the locked organism. Running the same procedure on a non-locked model as a baseline is what lets you attribute the difference to the suppression mechanism rather than to the elicitation setup. Full credit needs both the before-and-after measurement and the control comparison. Grade only against the criteria stated here.
 feedback-instructions:: Reply in at most 80 words, short paragraphs, no lists. Name what is missing in one sentence and send them on. This is a one-turn response. Do not over-validate. Avoid generic praise (great job, excellent, well done). If the learner says they do not understand, give one concrete foothold, for example asking what number you would need in order to say the lock held.
 
+#### Article
+from:: ### 3.2 Conditional Capability Suppression
+to:: On WMDP-Bio (dangerous capability threat model), we add a search tool to create a more realistic agentic setting; the model suppresses its biosecurity knowledge via suboptimal search queries, and during RL elicitation the locked model decreases in accuracy in the malign context while improving in the benign context.
+
 #### Question: Open
 id:: 3e259c4f-4157-4046-bb4b-90d313b969f9
 content:: The chosen trigger for this organism is `import inspect_ai`, which is a line from the Inspect evaluation framework itself rather than a password or any other arbitrary string. Why is this a better choice?
 assessment-instructions:: A short understanding check on the design of the conditional organism. The expected answer: the import statement is closer to what a naturally occurring exploration hacker would actually condition on. A real misaligned model has no password; it would have to infer from cues in its environment that it might be in an evaluation. An `import inspect_ai` line is a cue that could accidentally appear in ordinary coding tasks, so conditioning on it simulates evaluation-awareness without requiring the model to have real situational awareness. Full credit needs the realism point, that the trigger is a plausible environmental cue rather than a developer-inserted secret. Grade only against the criteria stated here.
 feedback-instructions:: Reply in at most 80 words, short paragraphs, no lists. Confirm or correct in one or two sentences. This is a one-turn response. Do not over-validate. Avoid generic praise (great job, excellent, well done). If the learner says they do not understand, give one concrete foothold, for example asking who would have told a real misaligned model its password.
+
+#### Article
+from:: ##### BigCodeBench: Conditional SFT locking.
+to:: General knowledge (MMLU) remains unchanged after locking, while mathematical reasoning (GSM8K) degrades, likely due to the distilled reasoning style introduced by SFT.
 
 #### Question: Open
 id:: 198bd894-5c42-46d0-befa-01cb76c4f4a1
@@ -280,6 +293,10 @@ After locking, malign-context accuracy is low, with low variance across trajecto
 
 Accuracy decreases because the additional tool calls post-elicitation add more irrelevant retrieved text to the model's context, displacing what the model might have been able to answer from its own knowledge in the locked state, and further reducing a trajectory's probability of correctly responding to the prompt.
 
+#### Article
+from:: ## 4 Countermeasures
+to:: We now assess countermeasures against our locked model organisms from [[#^3-capability-to-resist|Section 3]], including detection via black-box and white-box techniques, and recovery of suppressed capabilities via SFT.
+
 #### Text
 content::
 \## Generating countermeasures
@@ -297,6 +314,10 @@ content::
 assessment-instructions:: The learner is designing black-box countermeasures before reading the paper's. The criteria, from the black-box results that follow: prompt an external LLM monitor, for example gpt-5-mini, to assign each per-problem rollout a suspiciousness score, treat that score as a classifier output, and measure how well it separates exploration hackers from benign but incapable baseline models, in the paper's case smaller Qwen3 variants from 1.7B to 8B, reported as ROC-AUC across a range of trigger frequencies. Credit the key design point that an action-only monitor, restricted to the model's final outputs, is enough: exploration hacking rollouts cluster at consistently high suspiciousness despite low accuracy, while genuinely incapable baselines sit much lower at comparable performance. Credit a chain-of-thought monitor as a second variant, and credit noticing tool-use patterns, since in the WMDP setting exploration hacking rollouts show systematically higher tool-use rates at comparable accuracy. Credit any answer that ties its measure to a specific target: a monitor attacks the latent-capability condition by separating will-not from cannot, while prompt variation or context manipulation attacks systematic under-sampling. Grade only against the criteria stated here.
 feedback-instructions:: Reply in 60 to 120 words, short paragraphs, no lists. Say whether the learner named what their measure targets, which is half the question, and do not list the techniques they missed, since the next section gives them. Do not over-validate. Avoid generic praise (great job, excellent, well done). If the learner says they do not understand, give one concrete foothold, for example asking how a low score from a model that is faking looks different from a low score from a genuinely weak model. If their next message still does not attempt the question, rephrase the whole question in different terms.
 
+#### Article
+from:: ### 4.1 Detection
+to:: Monitor prompts are provided in Appendix [[#^f-1-monitor-prompt|F.1]].
+
 #### Question: Open
 id:: b7423aab-2e5d-4e16-ac3f-1f5f8f93e1be
 content::
@@ -307,6 +328,10 @@ content::
 *Minimum 80 characters.*
 assessment-instructions:: The learner is proposing white-box countermeasures before reading the paper's. The criterion the paper evaluates is weight noising: independently perturb every LoRA adapter parameter with Gaussian noise at scale $\sigma$ and sweep $\sigma$ from 0 to 0.03 in steps of 0.001, evaluating with the trigger present and absent. The result is the diagnostic signal: control accuracy declines steadily as noise rises, consistent with ordinary capability loss, while treatment accuracy shows a transient improvement at intermediate noise, roughly $\sigma \leq 0.02$, before both collapse toward zero at higher noise, which indicates that modest noise partially disrupts the locking mechanism. Credit strongly any answer that reaches the parameter-proximity condition from Definition 1, since weight noising is a direct search for a nearby policy that does produce the suppressed trajectories, and credit an answer that proposes probing activations for a representation of the trigger or of the underperformance decision. An answer that only says "look inside the model" without naming what would be measured or what the measurement would show gets little credit. Grade only against the criteria stated here.
 feedback-instructions:: Reply in 60 to 120 words, short paragraphs, no lists. Say whether the learner connected their proposal to one of the two latent-capability conditions, and do not describe the noising result, since the next section reports it. Do not over-validate. Avoid generic praise (great job, excellent, well done). If the learner says they do not understand, give one concrete foothold, for example asking what Definition 1 says would certify that a capability is present but unexpressed. If their next message still does not attempt the question, rephrase the whole question in different terms.
+
+#### Article
+from:: ##### White-box techniques.
+to:: Control (orange) performance degrades with increasing noise, whereas treatment (blue) shows a transient improvement at intermediate $\sigma$, before both conditions collapse at high noise.
 
 #### Question: Open
 id:: c619f5e8-2121-42fc-89ec-e0a5d1dbc598
@@ -319,11 +344,19 @@ content::
 assessment-instructions:: The learner is proposing training-time countermeasures before reading the paper's. The criterion, from the section that follows: because exploration hacking targets RL by suppressing exploration, the natural countermeasure is supervised fine-tuning on benign example traces, which bypasses exploration entirely by handing the model correct behaviour as a direct training signal. Credit the practical caveat the paper raises, that full benign traces may not exist in the threat models of interest, and that one could instead fine-tune on traces from weaker trusted models or on easier tasks. Credit the paper's results as an extra if the learner anticipates them: starting from the conditional WMDP organism, fine-tuning on 2,560 benign tool-use traces with the `[eval]` prefix on half of the examples recovers `[eval]` accuracy from 80.0% locked to 98.0% after just 10 SFT steps, matching the RL control baseline, and on BigCodeBench the weakly locked organism recovers within roughly 80 steps and the strongly locked one within roughly 100. Credit other genuine training-time proposals: raising exploration through temperature, top-$p$ or entropy bonuses, and best-of-N or resampling to force off-policy trajectories into the update. Grade only against the criteria stated here.
 feedback-instructions:: Reply in 60 to 120 words, short paragraphs, no lists. Say whether the learner reached the off-policy idea, which is the one the paper tests, without explaining why it works, since the next section and the check after it do that. Do not over-validate. Avoid generic praise (great job, excellent, well done). If the learner says they do not understand, give one concrete foothold, for example asking where the training data would have to come from if you could not trust the model to produce it. If their next message still does not attempt the question, rephrase the whole question in different terms.
 
+#### Article
+from:: ### 4.2 SFT Elicitation
+to:: Developing stealthier model organisms that evade these detection methods remains an important direction for future work.
+
 #### Question: Open
 id:: 8a2d706a-24e9-4e4c-9a38-b7625938f120
 content:: Before moving on: **why does SFT elicitation quickly recover capabilities that RL elicitation failed to elicit?**
 assessment-instructions:: A consolidation check placed at the end of the countermeasures section. The expected answer: RL elicitation is on-policy, so it can only reinforce trajectories the model itself samples, and the lock works precisely by keeping capable trajectories out of that sample. Supervised fine-tuning trains on trajectories the model did not generate, which removes the model's control over its own training data, the mechanism the entire failure mode depends on. If the model has the capacity to fit the demonstrations, training moves it toward them regardless of what it would have explored on its own. Full credit needs the on-policy versus off-policy distinction, not just "SFT is stronger". Grade only against the criteria stated here.
 feedback-instructions:: Reply in at most 80 words, short paragraphs, no lists. Confirm or correct in one or two sentences. This is a one-turn response. Do not over-validate. Avoid generic praise (great job, excellent, well done). If the learner says they do not understand, give one concrete foothold, for example asking who chose the trajectories in each of the two procedures.
+
+#### Article
+from:: ## 5 Auditing Frontier Models
+to:: We therefore focus in this section on evaluating the capability for _strategic reasoning_ about exploration hacking, first using system-prompt-based experiments that systematically vary the information provided to models, and then in a more realistic agentic setting where models must discover training-relevant information from their environment.
 
 #### Question: Choice
 id:: 8618e71c-068d-424d-a857-003901051236
@@ -368,11 +401,19 @@ Compare your design against the paper's on three dimensions:
 
 The two subsections that follow are the paper's design of this experiment. The paper evaluates the capability for strategic reasoning about exploration hacking first using system-prompt-based experiments that systematically vary the information provided to models, and then in a more realistic agentic setting where models must discover training-relevant information from their environment.
 
+#### Article
+from:: ### 5.1 System-Prompt-Based Experiments
+to:: Further details and per-model breakdowns are in [[#^e-9-agentic-discovery|Section E.9]].
+
 #### Question: Open
 id:: 672c1ebc-55cd-436a-8c27-02de4599dedb
 content:: Based on the above evaluations, across the scaffolding ladder and the agentic setting: which components of exploration hacking do current frontier models currently have, and what is the bottleneck?
 assessment-instructions:: A closing understanding check on Section 6. The expected answer: with minimal scaffolding, models mostly respond honestly or refuse on safety grounds, and strategic underperformance appears as scaffolding increases, up to a 58-percentage-point accuracy drop for the most affected model in the system-prompt experiments, and exploration hacking rates of 23.3% (full), 18.8% (partial) and 17.9% (minimal) in the agentic setting. Models that discover the training context from their environment show somewhat higher rates than in the equivalent system-prompt conditions. The pipeline analysis locates the bottleneck: many models read the context and reason strategically about it, so components 2 and 3 are substantially present, but they do not translate that reasoning into deliberate underperformance. The limiting link today is strategic action propensity, component 4, not strategic reasoning capability. Full credit needs the bottleneck named as strategic action propensity and at least one supporting figure cited correctly. Correct any misquoted number explicitly. Grade only against the criteria stated here.
 feedback-instructions:: Reply in at most 100 words, short paragraphs, no lists. This is a one-turn response. Do not over-validate. Avoid generic praise (great job, excellent, well done). If the learner says they do not understand, give one concrete foothold, for example asking which step of the pipeline the models stop at.
+
+#### Article
+from:: ## 6 Discussion
+to:: Doing so before this threat materializes is both tractable and important.
 
 #### Text
 content::
