@@ -7,11 +7,11 @@ tags: [wip]
 ---
 #### Text
 content::
-\## Week 3: Generating & Prioritising Research Questions
+\# Week 3: Generating & Prioritising Research Questions
 
 Welcome to Week 3! You've got a problem area, now it's time to turn it into something you can actually research.
 
-\### Focus
+\## Focus
 
 This week's focus is on turning your broad problem into a small handful of concrete, answerable research questions. You'll map your problem area, diagnose its key bottleneck, generate a wide set of candidate questions, and use a Weighted Factor Model to narrow down to your top 1-2. The worksheet is the main focus this week, the reading is written as its companion, so feel free to move between the two as you go.
 
