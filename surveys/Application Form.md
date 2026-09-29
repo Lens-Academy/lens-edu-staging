@@ -134,9 +134,9 @@ options::
 - None so far
 - Self-study
 - University course or AI safety group
+- AI Safety Collab (ENAIS)
 - BlueDot Impact
 - Lens Academy (another course)
-- AI Safety Collab (ENAIS)
 - Center for AI Safety course
 - Cooperative AI Foundation
 - MIT AI Alignment (MAIA)
