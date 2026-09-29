@@ -7,9 +7,7 @@ tags: [wip]
 ---
 #### Text
 content::
-*Week 6 Journalling Tab*
-
-\### Process vs. Outcomes
+\# Week 6 Journalling: Process vs. Outcomes
 
 When working on your thesis, career, or any meaningful project, you may notice yourself oscillating between two ways of moving through the world:
 
