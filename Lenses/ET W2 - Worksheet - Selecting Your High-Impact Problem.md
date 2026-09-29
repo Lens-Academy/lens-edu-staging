@@ -42,6 +42,8 @@ content::
 
 \# Part 1. Brainstorm a list of problems
 
+We recommend listing **5-10 problems** in this part!
+
 Before you start, skim back through the section on the Landscape of High-Impact Problems in this week's reading if you haven't already, as it's worth having those problem areas fresh in mind as you brainstorm. Remember that a common pitfall is not considering more options before narrowing down.
 
 ::card[[../Lenses/ET W2 - Reading 2 - Landscape of High-Impact Problems|3. Landscape of High-Impact Problems]]
@@ -89,7 +91,9 @@ In the first tab of the spreadsheet (Part 1. Brainstorm), set a timer for 15 min
 
 #### Question: Open
 id:: 73b135e1-2719-4411-b238-50d86bcc9d34
-content:: Part 1. Brainstorm a list of problems
+content:: Part 1. Brainstorm a list of problems (we recommend listing 5-10!)
+placeholder:: Write one problem per line
+optional:: true
 
 #### Text
 content::
