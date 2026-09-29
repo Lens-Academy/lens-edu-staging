@@ -27,7 +27,7 @@ For this week, there will be a **Reading**, a **Worksheet**, and an *optional* *
 
 \# Week 1 Reading
 
-\My Foundations to Impact**
+\## My Foundations to Impact
 
 #### Callout: My Foundations to Impact
 tone:: purple
