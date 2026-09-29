@@ -7,21 +7,21 @@ tags: [wip]
 ---
 #### Text
 content::
-*Week 5 Worksheet*
+\## Week 5 Worksheet: Developing Your Theory of Change
 
-\## Developing your Theory of Change
-
-#### Callout: This worksheet is designed to help you draft a Theory of Change for your high-impact thesis/research project.
+#### Callout: Instructions
 tone:: blue
 
 #### Text
 content::
-**This worksheet is designed to help you draft a Theory of Change for your high-impact thesis/research project.**
+This worksheet is designed to help you draft a Theory of Change for your high-impact thesis/research project.
 
 #### End Callout
 
 #### Text
 content::
+---
+
 \## Part 1. Draft a Theory of Change for Your Thesis
 
 Here, you can begin to draft a Theory of Change diagram on how your research can lead to the ideal vision you’ve identified. Begin with the outputs you may create from your project (i.e., article, presentation, policy brief). Next, focus on WHO the key stakeholders are that will utilise or be impacted by your findings and what positive changes will happen when they do.
