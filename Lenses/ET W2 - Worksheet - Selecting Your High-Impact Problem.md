@@ -7,7 +7,7 @@ tags: [wip]
 ---
 #### Text
 content::
-\## Week 2 Worksheet: Selecting Your High-Impact Problem
+\# Week 2 Worksheet: Selecting Your High-Impact Problem
 
 :::callout {title="Instructions" tone="blue"}
 
@@ -17,7 +17,7 @@ This worksheet helps you identify a high-impact problem for your thesis by combi
 
 ---
 
-\## Part 1. Brainstorm a list of problems
+\# Part 1. Brainstorm a list of problems
 
 Before you start, skim back through the section on the Landscape of High-Impact Problems in this week's reading if you haven't already, as it's worth having those problem areas fresh in mind as you brainstorm. Remember that a common pitfall is not considering more options before narrowing down.
 
@@ -72,7 +72,7 @@ content:: Part 1. Brainstorm a list of problems
 content::
 ---
 
-\## Part 2. Score - ITN & Ikigai
+\# Part 2. Score - ITN & Ikigai
 
 Now it's time to shortlist a few problems and review them from the lens of ITN & Ikigai.
 
