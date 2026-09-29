@@ -192,7 +192,7 @@ options::
 - Paid full-time AI safety fellowship or funded research, 3 months or longer (e.g. MATS)
 - Paid part-time AI safety work, or a paid fellowship shorter than 3 months (e.g. ERA)
 - A selective unpaid programme (e.g. SPAR or ARENA)
-- Unpaid contributions (for example volunteering, advocacy or a local group)
+- Unpaid contributions (e.g. volunteering, advocacy or a local group)
 - Applying to AI safety roles or programmes
 - Exploring AI safety, not applying yet
 - Not pursuing AI safety work right now
