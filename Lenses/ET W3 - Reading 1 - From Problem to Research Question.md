@@ -23,7 +23,9 @@ For this week, there will be a Reading, a Worksheet, and an optional Journalling
 - Attend your Weekly Discussion with your cohort.
 - Explore the Journalling Tab for journaling prompts for the week.
 
-\## Week 3 Reading: Generating & Prioritising Research Questions
+---
+
+\# Week 3 Reading: Generating & Prioritising Research Questions
 
 In Week 2, we focused on exploring and landing on a high-impact problem area. This week is about turning that broad problem into a small handful of concrete, answerable research questions that your thesis could actually take on. By the end of this week, you should have generated around 5 to 10 impactful candidate questions, and used a Weighted Factor Model (WFM) to select your top 1-2 to carry forward!
 
