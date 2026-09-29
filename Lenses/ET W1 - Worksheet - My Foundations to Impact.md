@@ -67,9 +67,9 @@ content::
 content::
 ---
 
-\## Part 2: Your Thesis as an Ikigai Experiment
+\# Part 2: Your Thesis as an Ikigai Experiment
 
-\#### 2a. Draft your thesis-as-Ikigai statement
+\## 2a. Draft your thesis-as-Ikigai statement
 
 #### Question: FillBlank
 id:: 3a84037e-6a58-46b2-8eb3-3529fe5ca980
@@ -77,7 +77,7 @@ content:: I feel most alive when I use my strengths in {{blank}} to work on {{bl
 
 #### Text
 content::
-\#### 2b. What career paths may fit this Ikigai?
+\## 2b. What career paths may fit this Ikigai?
 
 Here, explore drafting a few career hypotheses that you are interested in, and that may fit with your draft of your Ikigai. For each, reflect on how this path aligns with your Ikigai and how your thesis may be able to test this out. For the last column, think about:
 
