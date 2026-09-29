@@ -43,7 +43,5 @@ tags: [wip]
 
 # Meeting: Week 8
 
-# Module: [[../modules/ET Post-Program - Feedback and Certificate|Post-Program Feedback & Certificate]]
-
 # Module: [[../modules/ET Additional - Using AI Tools Well|Additional: Using AI Tools Well]]
 optional:: true
