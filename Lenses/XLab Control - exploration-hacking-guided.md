@@ -19,15 +19,10 @@ Here the paper is interrupted. Fourteen times you are asked to produce an answer
 
 Two earlier lessons set this up. [[../Lenses/XLab Control - misalignment-and-strategic-underperformance|Misalignment and strategic underperformance]] is where sandbagging and exploration hacking are separated as concepts, and [[../Lenses/XLab Control - capability-elicitation-guided|Stress-Testing Capability Elicitation]] is where model organisms of hidden capability first appear in this course.
 
-#### {--{"author":"James's AI","timestamp":1790696300095}@@Text
-content::
-:::callout {title="Reading not yet available" tone="amber"}
-The reading for this lesson is being imported and is not on Lens yet. Until it
-lands, read it at the original source: [Exploration Hacking: Can LLMs Learn to Resist RL Training?](https://arxiv.org/abs/2604.28182).
-:::--}{++{"author":"James's AI","timestamp":1790696300095}@@Article++}
-{--{"author":"James's AI","timestamp":1790696300095}@@{>>{"author":"Elias's AI","timestamp":1789040177971}@@PORT-TODO: replace this callout with `#### Article` over--}{++{"author":"James's AI","timestamp":1790696300095}@@source:: [[../articles/jang-exploration-hacking-can-llms-learn-to-resist-rl-training]]++}
-{--{"author":"James's AI","timestamp":1790696300095}@@`Lens Edu/articles/<expected file>` once the import lands. XLab does not assign the paper whole: it splits it into fifteen excerpts interleaved with the segments below. In XLab's order the boundaries are: (1)--}{++{"author":"James's AI","timestamp":1790696300095}@@from:: ######++} Abstract{--{"author":"James's AI","timestamp":1790696300095}@@ and section 2 Introduction, before the first checkpoint; (2) 2.1 Related Work and the opening of 3 Conceptual Framework, before "Definition and RL background"; (3) the short passage that ends in the GRPO objective, before the deterministic-policy checkpoint; (4) the rest of section 3's setup, before the policy-region check; (5) Definition 1, the taxonomy of strategies, the relation to other misaligned behaviours and the capability decomposition, before the threat-models checkpoint; (6) the three threat-model settings, before the "what now" checkpoint; (7) the short "The answer" passage, before the existence-methods prompt; (8) the opening of 4 Capability to Resist RL Training, before the four-properties checkpoint; (9) the four properties, "Why exactly these properties" and 4.1 Unconditional Capability Suppression, before the inducing-suppression checkpoint; (10) 4.2 Conditional Capability Suppression, before the trigger-choice check; (11) the conditional locking results, before "Interpret the results of this section"; (12) the opening of 5 Countermeasures, before "Generating countermeasures"; (13) 5.1 Detection down to "Black-box techniques.", before the black-box checkpoint; (14) the black-box monitoring results, before the white-box checkpoint; (15) the weight-noising results, before the training-time checkpoint; (16) 5.2 SFT Elicitation, before the SFT check; (17) the opening of 6 Auditing Frontier Models, before the multi-select; (18) 6.1 System-Prompt-Based Experiments and 6.2 Agentic Discovery of Training Context, before the audit-findings check; (19) 7 Discussion and the appendices, before Works cited.<<}--}{++{"author":"James's AI","timestamp":1790696300095}@@
-to:: [[#^5-auditing-frontier-models|Section 5]] audits frontier models for strategic reasoning propensity.++}
+#### Article
+source:: [[../articles/jang-exploration-hacking-can-llms-learn-to-resist-rl-training]]
+from:: ###### Abstract
+to:: [[#^5-auditing-frontier-models|Section 5]] audits frontier models for strategic reasoning propensity.
 
 #### Question: Open
 id:: b14f6232-fd5b-47a4-8c4f-3dd78d71b5ca

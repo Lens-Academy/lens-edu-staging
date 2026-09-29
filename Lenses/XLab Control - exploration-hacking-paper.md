@@ -23,18 +23,14 @@ This is a long reading, and most of its length is not argument. Counting the wor
 
 Appendix A is the one detour worth taking. It holds the full MDP formulation, the taxonomy of exploration hacking strategies, and the capability decomposition, and the guided lesson builds directly on that decomposition.
 
-#### {--{"author":"James's AI","timestamp":1790696308005}@@Text
-content::--}{++{"author":"James's AI","timestamp":1790696308005}@@Article++}
-{--{"author":"James's AI","timestamp":1790696308005}@@:::callout {title="Reading not yet available" tone="amber"}--}{++{"author":"James's AI","timestamp":1790696308005}@@source:: [[../articles/jang-exploration-hacking-can-llms-learn-to-resist-rl-training]]
-from:: ###### Abstract++}
-{--{"author":"James's AI","timestamp":1790696308005}@@The reading for--}{++{"author":"James's AI","timestamp":1790696308005}@@to:: Doing so before++} this {--{"author":"James's AI","timestamp":1790696308005}@@lesson--}{++{"author":"James's AI","timestamp":1790696308005}@@threat materializes++} is {--{"author":"James's AI","timestamp":1790696308005}@@being imported--}{++{"author":"James's AI","timestamp":1790696308005}@@both tractable++} and{--{"author":"James's AI","timestamp":1790696308005}@@ is not on Lens yet. Until it--}{++{"author":"James's AI","timestamp":1790696308005}@@ important.
+#### Article
+source:: [[../articles/jang-exploration-hacking-can-llms-learn-to-resist-rl-training]]
+from:: ###### Abstract
+to:: Doing so before this threat materializes is both tractable and important.
 
-#### Article++}
-{--{"author":"James's AI","timestamp":1790696308005}@@lands, read it at the original source: [Exploration Hacking: Can LLMs Learn--}{++{"author":"James's AI","timestamp":1790696308005}@@from:: ## Appendix A Exploration Hacking Framework
-to:: Comparative studies are needed++} to {--{"author":"James's AI","timestamp":1790696308005}@@Resist RL Training?](https://arxiv.org/abs/2604.28182v1).
-:::
-{>>{"author":"Elias's AI","timestamp":1789039853364}@@PORT-TODO: replace this callout with `#### Article` over
-`Lens Edu/articles/<expected file>` once the import lands.<<}--}{++{"author":"James's AI","timestamp":1790696308005}@@verify these hypotheses.++}
+#### Article
+from:: ## Appendix A Exploration Hacking Framework
+to:: Comparative studies are needed to verify these hypotheses.
 
 #### Text
 content::
