@@ -88,7 +88,7 @@ placeholder:: Interview Questions: … | Why this matters: … | Relevant Stakeh
 content::
 ---
 
-\## Part 4: Next Steps
+\# Part 4: Next Steps
 
 #### Question: Open
 id:: f21d0b2e-ee0e-4197-a23d-a1e12614efde
