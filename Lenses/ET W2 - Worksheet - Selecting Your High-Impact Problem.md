@@ -48,7 +48,7 @@ Before you start, skim back through the section on the Landscape of High-Impact 
 
 > Jump back to this week's reading on the landscape of high-impact problems.
 
-\### Instructions
+\## Instructions for Part 1
 
 In the first tab of the spreadsheet (Part 1. Brainstorm), set a timer for 15 minutes and just generate and braindump a list of different problems you would be interested in working on! Don't filter or evaluate yet, quantity over quality at this stage. If you get stuck, try any of these prompts:
 
@@ -70,7 +70,7 @@ In the first tab of the spreadsheet (Part 1. Brainstorm), set a timer for 15 min
 
 :::
 
-:::callout {title="Key Recommendations when listing problems" tone="green"}
+:::callout {title="✅ Key Recommendations when listing problems (click to open)" tone="green" collapse="closed"}
 
 1. **Getting the right level of specificity.** When adding problems to your list, aim for something neither too broad nor too narrow. Ideally, each problem identifies:
    1. What negative outcome or state you want to address
