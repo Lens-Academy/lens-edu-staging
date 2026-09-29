@@ -80,13 +80,17 @@ The Mastermind is the core format of our weekly peer-group discussions. From Wee
 - **How it works:** When you’re in the Mastermind, you get focused time where you first share your situation or question. The group asks clarifying questions, they reflect, offer perspectives, and suggest options. Lastly, you can decide and reflect back what’s useful and what you would like to take forward.
 - **Why we do this:** Through the Mastermind, we are able to create a space where we are each heard and where we are able to solve problems and get “unstuck” much faster than we can achieve alone!
 
-\### 📚 Three Key Components of This Course
+---
+
+\## 📚 Three Key Components of This Course
 
 - **Reading:** Each week, you’ll find carefully selected readings that introduce key ideas, frameworks, and evidence to support your high-impact research and career planning journey. These readings form the foundation for our discussions - please complete them before your session and come ready to share your thoughts and reflections!
 - **Worksheet:** The worksheets are your space to actively apply what you’re learning to your own thesis, interests, and career goals. They help you reflect, analyze, and make tangible progress. We encourage you to work on them before your discussion so you can get the most out of your peer group conversations.
 - **Journaling (Optional):** Journaling prompts offer a personal space to explore your thoughts, values, motivations, and challenges. This is a chance to slow down, reflect, and deepen your self-awareness, helping you integrate what you’re learning week by week into your own life.
 
-\## Overview of the 8-Weeks
+---
+
+\## 🗓️ Overview of the 8-Weeks
 
 | Week | Focus |
 |---|---|
