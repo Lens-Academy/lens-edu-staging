@@ -287,7 +287,7 @@ optional:: true
 content::
 ---
 
-\## Part 3. Choose your top problem
+\# Part 3. Choose your top problem
 
 After completing your scoring, it's time to choose your top problem area. Here are a few steps that can help you gain clarity, especially if the scoring in Part 2 didn't produce an obvious winner:
 
