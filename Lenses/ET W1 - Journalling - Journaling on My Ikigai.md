@@ -7,9 +7,7 @@ tags: [wip]
 ---
 #### Text
 content::
-*Week 1 Journalling Tab*
-
-\## Journaling on My Ikigai
+\# Week 1 Journalling: Journaling on My Ikigai
 
 This journaling tab is an optional but highly recommended space for weekly personal reflection alongside the curriculum. Use it as a chance to slow down, check in with yourself, and think about what truly matters to you. Your thesis or project isn’t just something to complete - it can also be a tool for exploring your values, testing your fit, and learning about the life and impact you want to create. Take 10–15 minutes to reflect on the questions below. Write honestly and openly, as there are no “right” answers!
 
