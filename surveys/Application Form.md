@@ -190,7 +190,7 @@ content:: Which best describes your AI safety work right now? If several apply, 
 options::
 - Paid full-time job in AI safety
 - Paid full-time AI safety fellowship or funded research, 3 months or longer (e.g. MATS)
-- Paid part-time AI safety work (e.g. BlueDot facilitat, or a paid fellowship shorter than 3 months (e.g. ERA)
+- Paid part-time AI safety work (e.g. BlueDot facilitating), or a paid fellowship shorter than 3 months (e.g. ERA)
 - A selective unpaid programme (e.g. SPAR or ARENA)
 - Unpaid contributions (e.g. volunteering, advocacy or a local group)
 - Applying to AI safety roles or programmes
