@@ -45,6 +45,8 @@ optional:: true
 
 #### Text
 content::
+---
+
 \## Part 2: Take Next Steps on Your Blockers
 
 For each of your top uncertainties, ask yourself: What could I do through my thesis or in the next 2 weeks, that would give me useful information about this uncertainty?
@@ -122,6 +124,8 @@ optional:: true
 #### Text
 content::
 **Remember:** the goal isn't to resolve your uncertainty completely in one week. The goal is to **take an action that gives you new information**. That information can then help you decide what to explore, test, or reflect on next!
+
+---
 
 \## Part 3. Continue Stakeholder Outreach
 
