@@ -64,7 +64,11 @@ New to Lens? Before diving in, we recommend watching this short walkthrough of h
 
 \# 📌 Key Information
 
+Here's everything you need to know about how the Accelerator runs!
+
 \## 📅 Program Structure
+
+Each week, you'll work through the week's reading and worksheet on your own, then come together with your cohort for a weekly discussion.
 
 \### Weekly 1.5h Cohort Discussions (Required)
 
