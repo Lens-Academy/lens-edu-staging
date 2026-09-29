@@ -31,7 +31,7 @@ One key resource we recommend spending some time on is 80,000 hours - a non-prof
 
 Source: [List of pressing world problems](https://80000hours.org/problem-profiles/) (80,000 Hours)
 
-\### Action: Choose one on the list below to read through
+:::callout {title="Action: Choose one on the list below to read through" tone="amber"}
 
 As a next step, please pick one of the readings below to look through - to help expand your current set of potential impactful problems that you could work on. Remember that none of these lists can tell you exactly what to work on. As you read, it's just as important to notice how *you* relate to a given problem (does it energise you? How does it relate to your Ikigai?) as it is to notice how the problem scores on paper. We'll come back to that in the worksheet!
 
@@ -44,6 +44,8 @@ As a next step, please pick one of the readings below to look through - to help 
 - [Smart Development Goals](https://copenhagenconsensus.com/sites/default/files/documents/outcomedocument_col.pdf) (Copenhagen Consensus)
 - [Global risks](https://globalchallenges.org/global-risks/) (Global Challenges Foundation)
 - [Top 20 Current Global Issues](https://www.humanrightscareers.com/issues/current-global-issues/) (Human Rights Careers)
+
+:::
 
 \## 4. ITN and My Ikigai
 
