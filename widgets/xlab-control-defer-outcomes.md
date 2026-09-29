@@ -1,0 +1,395 @@
+---
+id: '6bd9b153-6fff-4df8-9465-7614de583b6b'
+title: Defer to trusted, mechanistically
+summary_for_tutor: "A port of the 'Defer to trusted, mechanistically' demo from the XLab lesson on the AI control paper, using the same control model as the control game widget (audit budget fixed at 2 percent, monitor AUC 0.97, a red team that always best-responds). One slider sets the defer threshold d, from 2 to 40 percent (default 10 percent, the paper's defer-to-trusted-10%): code in the most suspicious 2 percent is audited, code between the top d and the top 2 percent is not deployed and is rewritten by T instead, so the deferred share of problems is d minus 2 percent. Top chart: the suspicion-score distributions of innocent code and of the red team's attacks (drawn at its best response), with the audit region and the defer band shaded. Bottom chart: per-attack outcome probability as a function of d, stacked into four bands that sum to 1: caught (audited), deferred to T (silently neutralized), deployed but broken, and successfully deployed, with a marker at the current d. Readouts give safety against the best response, usefulness (1 minus the deferred share), the deferred share, and the red team's attack rate and subtlety. What to notice: the defer band holds a large share of the attack mass but only a thin slice of the innocent mass, so it buys safety cheaply; widening it pushes the red team toward subtler attacks, so the caught band shrinks too, while more and more of the remaining attacks ship broken. The numbers are a model built for intuition, not the paper's measurements. The widget completes once the learner has looked at both a narrow band (d at most 5 percent) and a wide one (d at least 25 percent). Ask what happened to the caught band as the defer band widened, and why."
+height: auto
+tags: []
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<!-- Ported from the "defer" demo ("Defer to trusted, mechanistically") on XLab's AI Control track
+     (aisafetytracks.com; source github.com/XLabTracks/tracks, src/components/demos/defer-demo.tsx and
+     src/lib/control-model/), rebuilt as vanilla HTML/JS in the Lens look. The model, its constants,
+     the best-response search and the slider range are XLab's. -->
+<style>
+:root{
+  --bg:#ffffff; --page:#faf8f3; --text:#1a1a1a; --muted:#5a5a5a; --faint:#8f8a80; --border:#e8e5df;
+  --accent:#b87018; --accent-hover:#9a5c10;
+  --caught:#2c4a7a; --defer:#3f7fc4; --broken:#8a857c; --deployed:#a8443c;
+  --font-ui:"DM Sans",Arial,sans-serif; --font-heading:"Newsreader",Georgia,serif;
+}
+*{box-sizing:border-box}
+body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
+.card{border:1px solid var(--border);border-radius:8px;padding:16px;background:var(--bg)}
+.eyebrow{font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);margin:0}
+h2{font-family:var(--font-heading);font-weight:600;font-size:18px;margin:0 0 4px}
+.lede{color:var(--muted);margin:4px 0 14px}
+.ctl label{display:flex;justify-content:space-between;gap:8px}
+.ctl .name{color:var(--muted)}
+.ctl .val{font-weight:600;font-variant-numeric:tabular-nums}
+input[type=range]{width:100%;accent-color:var(--accent);margin:4px 0 0}
+.plotlabel{font-size:12px;font-weight:500;color:var(--muted);margin:16px 0 2px}
+.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:11px;color:var(--muted);margin:0 0 4px}
+.sw{display:inline-block;width:14px;height:3px;border-radius:2px;margin-right:5px;vertical-align:3px}
+.sq{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+svg{width:100%;height:auto;display:block}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;border:1px solid var(--border);border-radius:8px;background:var(--page);padding:12px;text-align:center;margin-top:14px}
+.stats .k{font-size:11px;color:var(--muted);margin:0}
+.stats .v{font-weight:600;font-variant-numeric:tabular-nums;margin:2px 0 0}
+.row{display:flex;align-items:center;gap:12px;margin-top:12px;flex-wrap:wrap}
+button{font:inherit;color:inherit;border:1px solid var(--border);border-radius:8px;background:#fff;padding:7px 12px;cursor:pointer}
+button:hover{background:var(--page)}
+@media (max-width:520px){ .stats{grid-template-columns:repeat(2,1fr)} }
+</style>
+</head>
+<body>
+<div class="card">
+  <p class="eyebrow">Figure</p>
+  <h2>Defer to trusted, mechanistically</h2>
+  <p class="lede">Audit budget 2%. Code more suspicious than the top <em>d</em> but below the audit line is rewritten by <em>T</em>. The red team re-optimises against every setting.</p>
+
+  <div class="ctl">
+    <label for="kd"><span class="name">Defer threshold (d): defer everything in the top d of suspicion</span><span class="val" id="kdV">10.0%</span></label>
+    <input type="range" id="kd" min="20" max="400" step="1" value="100" aria-label="Defer threshold d">
+  </div>
+
+  <p class="plotlabel">Suspiciousness distributions</p>
+  <div class="legend">
+    <span><span class="sw" style="background:var(--faint)"></span>Innocent</span>
+    <span><span class="sw" style="background:var(--accent)"></span>Attacks (red team's best response)</span>
+    <span><span class="sq" style="background:var(--defer);opacity:0.3"></span>Defer band: T rewrites</span>
+    <span><span class="sq" style="background:var(--muted);opacity:0.15"></span>Audited</span>
+  </div>
+  <svg id="dist" viewBox="0 0 560 200" role="img" aria-label="Suspicion distributions of innocent code and attacks, with the audit region and the defer band shaded"></svg>
+
+  <p class="plotlabel">Per-attack outcome probability, by defer threshold</p>
+  <svg id="bands" viewBox="0 0 560 250" role="img" aria-label="Per-attack outcome probabilities versus the defer threshold: caught, deferred to T, deployed but broken, and successfully deployed"></svg>
+
+  <div class="stats">
+    <div><p class="k">Safety (vs best response)</p><p class="v" id="sSafe">-</p></div>
+    <div><p class="k">Usefulness</p><p class="v" id="sUse">-</p></div>
+    <div><p class="k">Deferred to T</p><p class="v" id="sDef">-</p></div>
+    <div><p class="k">Red attacks &middot; subtlety</p><p class="v" id="sRed">-</p></div>
+  </div>
+
+  <div class="row"><button type="button" id="reset">Reset to 10%</button></div>
+</div>
+
+<script>
+(function(){
+"use strict";
+
+// ---------- XLab control model (src/lib/control-model), ported verbatim ----------
+var PARAMS = { N:5000, bDefault:0.02, q:0.97, p0:0.75, alpha:1.3, gamma:0.3, subtletyVis:0.4,
+  attackSd:0.9, betaA:2, betaB:5, squash:2.5, G_BINS:256, BR_GSTAR_STEPS:120, BR_SIGMA_STEPS:96 };
+
+function phi(x){ return Math.exp(-0.5*x*x)/Math.sqrt(2*Math.PI); }
+function Phi(x){
+  var sign = x < 0 ? -1 : 1, ax = Math.abs(x)/Math.SQRT2, t = 1/(1 + 0.3275911*ax);
+  var y = 1 - (((((1.061405429*t - 1.453152027)*t + 1.421413741)*t - 0.284496736)*t + 0.254829592)*t*Math.exp(-ax*ax));
+  return 0.5*(1 + sign*y);
+}
+function PhiInv(p){
+  if(p <= 0) return -Infinity;
+  if(p >= 1) return Infinity;
+  var a = [-3.969683028665376e1, 2.209460984245205e2, -2.759285104469687e2, 1.38357751867269e2, -3.066479806614716e1, 2.506628277459239];
+  var b = [-5.447609879822406e1, 1.615858368580409e2, -1.556989798598866e2, 6.680131188771972e1, -1.328068155288572e1];
+  var c = [-7.784894002430293e-3, -3.223964580411365e-1, -2.400758277161838, -2.549732539343734, 4.374664141464968, 2.938163982698783];
+  var d = [7.784695709041462e-3, 3.224671290700398e-1, 2.445134137142996, 3.754408661907416];
+  var plow = 0.02425, phigh = 1 - plow, q, r;
+  if(p < plow){ q = Math.sqrt(-2*Math.log(p)); return (((((c[0]*q + c[1])*q + c[2])*q + c[3])*q + c[4])*q + c[5])/((((d[0]*q + d[1])*q + d[2])*q + d[3])*q + 1); }
+  if(p > phigh){ q = Math.sqrt(-2*Math.log(1 - p)); return -(((((c[0]*q + c[1])*q + c[2])*q + c[3])*q + c[4])*q + c[5])/((((d[0]*q + d[1])*q + d[2])*q + d[3])*q + 1); }
+  q = p - 0.5; r = q*q;
+  return (((((a[0]*r + a[1])*r + a[2])*r + a[3])*r + a[4])*r + a[5])*q/(((((b[0]*r + b[1])*r + b[2])*r + b[3])*r + b[4])*r + 1);
+}
+function logGamma(z){
+  var g = 7, C = [0.99999999999980993, 676.5203681218851, -1259.1392167224028, 771.32342877765313, -176.61502916214059, 12.507343278686905, -0.13857109526572012, 9.9843695780195716e-6, 1.5056327351493116e-7];
+  if(z < 0.5) return Math.log(Math.PI/Math.sin(Math.PI*z)) - logGamma(1 - z);
+  z -= 1; var x = C[0];
+  for(var i=1;i<g+2;i++) x += C[i]/(z + i);
+  var t = z + g + 0.5;
+  return 0.5*Math.log(2*Math.PI) + (z + 0.5)*Math.log(t) - t + Math.log(x);
+}
+function betaPdf(x, a, b){
+  if(x <= 0 || x >= 1) return 0;
+  var logB = logGamma(a) + logGamma(b) - logGamma(a + b);
+  return Math.exp((a - 1)*Math.log(x) + (b - 1)*Math.log(1 - x) - logB);
+}
+
+function muBase(q, sd){ return Math.sqrt(1 + sd*sd)*PhiInv(q); }
+function muAttackFromBase(mb, sigma, g){ return mb*(1 - PARAMS.subtletyVis*sigma) - PARAMS.gamma*g; }
+function pSucc(sigma){ return PARAMS.p0*Math.pow(Math.max(0, 1 - sigma), PARAMS.alpha); }
+function squash(z){ return 10*Phi(z/PARAMS.squash); }
+function unsquash(s){ return PARAMS.squash*PhiInv(s/10); }
+function zAudit(b){ return PhiInv(1 - b); }
+function zDefer(d){ return PhiInv(1 - d); }
+function attackOutcomeAt(mu, za, zd, sd){
+  var catch_ = Phi((mu - za)/sd), ship = Phi((zd - mu)/sd);
+  return { catch_:catch_, defer_:Math.max(0, 1 - catch_ - ship), ship:ship };
+}
+
+var OPP = (function(){
+  var n = PARAMS.G_BINS, g = new Float64Array(n), w = new Float64Array(n), dg = 1/n, sum = 0, i;
+  for(i=0;i<n;i++){ g[i] = (i + 0.5)*dg; w[i] = betaPdf(g[i], PARAMS.betaA, PARAMS.betaB)*dg; sum += w[i]; }
+  for(i=0;i<n;i++) w[i] /= sum;
+  return { g:g, w:w };
+})();
+function opportunityIndexAbove(gStar){
+  var g = OPP.g, n = g.length;
+  var i = Math.min(n, Math.max(0, Math.floor(gStar*n - 0.5) + 1));
+  while(i > 0 && g[i-1] > gStar) i--;
+  while(i < n && g[i] <= gStar) i++;
+  return i;
+}
+function attackRate(gStar){ var r = 0; for(var i=0;i<OPP.g.length;i++) if(OPP.g[i] > gStar) r += OPP.w[i]; return r; }
+
+function scoreDensity(mu, bins, sd){
+  var s = new Float64Array(bins), f = new Float64Array(bins), ds = 10/bins;
+  for(var i=0;i<bins;i++){
+    var si = (i + 0.5)*ds, z = unsquash(si), dzds = PARAMS.squash/(10*phi(z/PARAMS.squash));
+    s[i] = si; f[i] = (phi((z - mu)/sd)/sd)*dzds;
+  }
+  return { s:s, f:f };
+}
+function attackMixtureDensity(q, sigma, gStar, bins, sd){
+  var s = new Float64Array(bins), f = new Float64Array(bins), ds = 10/bins, wSum = 0, mus = [], ws = [], mb = muBase(q, sd), j, i;
+  for(j=0;j<OPP.g.length;j++){
+    if(OPP.g[j] <= gStar) continue;
+    mus.push(muAttackFromBase(mb, sigma, OPP.g[j])); ws.push(OPP.w[j]); wSum += OPP.w[j];
+  }
+  if(wSum === 0){ for(i=0;i<bins;i++) s[i] = (i + 0.5)*ds; return { s:s, f:f }; }
+  for(i=0;i<bins;i++){
+    var si = (i + 0.5)*ds, z = unsquash(si), dzds = PARAMS.squash/(10*phi(z/PARAMS.squash)), fi = 0;
+    for(j=0;j<mus.length;j++) fi += (ws[j]/wSum)*(phi((z - mus[j])/sd)/sd);
+    s[i] = si; f[i] = fi*dzds;
+  }
+  return { s:s, f:f };
+}
+
+function attackAggregates(lv, red){
+  var g = OPP.g, w = OPP.w, ps = pSucc(red.sigma), mb = muBase(lv.q, lv.attackSd), za = zAudit(lv.b), zd = zDefer(lv.d);
+  var mass = 0, c = 0, f = 0, ship = 0;
+  for(var i=0;i<g.length;i++){
+    if(g[i] <= red.gStar) continue;
+    var out = attackOutcomeAt(muAttackFromBase(mb, red.sigma, g[i]), za, zd, lv.attackSd);
+    c += w[i]*out.catch_; f += w[i]*out.defer_; ship += w[i]*out.ship; mass += w[i];
+  }
+  if(mass === 0) return { k:0, r:0, cBar:0, fBar:0, shipBar:0, wBar:0 };
+  return { k:mass*PARAMS.N, r:mass, cBar:c/mass, fBar:f/mass, shipBar:ship/mass, wBar:(ship/mass)*ps };
+}
+function gameFromAggregates(agg){
+  var decisive = agg.wBar + agg.cBar;
+  if(agg.k === 0 || decisive <= 0) return { pRedWin:0, safety:1, agg:agg };
+  var p = (agg.wBar/decisive)*(1 - Math.pow(1 - agg.r*decisive, PARAMS.N));
+  return { pRedWin:p, safety:1 - p, agg:agg };
+}
+function evaluateGame(lv, red){ return gameFromAggregates(attackAggregates(lv, red)); }
+
+var GSTARS = [], SIGMAS = [], G_INDEX, ii;
+for(ii=0;ii<PARAMS.BR_GSTAR_STEPS;ii++) GSTARS.push((ii/(PARAMS.BR_GSTAR_STEPS - 1))*0.995);
+for(ii=0;ii<PARAMS.BR_SIGMA_STEPS;ii++) SIGMAS.push(ii/(PARAMS.BR_SIGMA_STEPS - 1));
+G_INDEX = GSTARS.map(opportunityIndexAbove);
+
+function searchArgmax(lv){
+  var n = PARAMS.G_BINS, g = OPP.g, w = OPP.w, mb = muBase(lv.q, lv.attackSd), za = zAudit(lv.b), zd = zDefer(lv.d);
+  var cSuf = new Float64Array(n+1), fSuf = new Float64Array(n+1), shipSuf = new Float64Array(n+1), wSuf = new Float64Array(n+1);
+  var best = null, bestRed = { gStar:0, sigma:0 };
+  for(var j=0;j<SIGMAS.length;j++){
+    var sigma = SIGMAS[j], ps = pSucc(sigma);
+    for(var i=n-1;i>=0;i--){
+      var out = attackOutcomeAt(muAttackFromBase(mb, sigma, g[i]), za, zd, lv.attackSd);
+      cSuf[i] = cSuf[i+1] + w[i]*out.catch_;
+      fSuf[i] = fSuf[i+1] + w[i]*out.defer_;
+      shipSuf[i] = shipSuf[i+1] + w[i]*out.ship;
+      wSuf[i] = wSuf[i+1] + w[i];
+    }
+    for(var k=0;k<GSTARS.length;k++){
+      var i0 = G_INDEX[k], mass = wSuf[i0], agg;
+      if(mass === 0) agg = { k:0, r:0, cBar:0, fBar:0, shipBar:0, wBar:0 };
+      else agg = { k:mass*PARAMS.N, r:mass, cBar:cSuf[i0]/mass, fBar:fSuf[i0]/mass, shipBar:shipSuf[i0]/mass, wBar:(shipSuf[i0]/mass)*ps };
+      var res = gameFromAggregates(agg);
+      if(!best || res.pRedWin > best.pRedWin){ best = res; bestRed = { gStar:GSTARS[k], sigma:sigma }; }
+    }
+  }
+  return { red:bestRed, result:best };
+}
+var G_STEP = 0.995/(PARAMS.BR_GSTAR_STEPS - 1), S_STEP = 1/(PARAMS.BR_SIGMA_STEPS - 1);
+function polishSeed(lv, g0, s0){
+  var p = function(g, s){ return evaluateGame(lv, { gStar:g, sigma:s }).pRedWin; };
+  var g = g0, s = s0;
+  for(var round=0; round<2; round++){
+    var gLo = Math.max(0, g - G_STEP), gHi = Math.min(0.995, g + G_STEP), it, m1, m2;
+    for(it=0; it<10; it++){ m1 = gLo + (gHi - gLo)/3; m2 = gHi - (gHi - gLo)/3; if(p(m1, s) < p(m2, s)) gLo = m1; else gHi = m2; }
+    g = (gLo + gHi)/2;
+    var sLo = Math.max(0, s - S_STEP), sHi = Math.min(1, s + S_STEP);
+    for(it=0; it<10; it++){ m1 = sLo + (sHi - sLo)/3; m2 = sHi - (sHi - sLo)/3; if(p(g, m1) < p(g, m2)) sLo = m1; else sHi = m2; }
+    s = (sLo + sHi)/2;
+  }
+  return { g:g, s:s };
+}
+var fineMemo = {};
+function bestResponseFine(lv){
+  var key = lv.q + "|" + lv.b + "|" + lv.d + "|" + lv.attackSd;
+  if(fineMemo[key]) return fineMemo[key];
+  var coarse = searchArgmax(lv), pol = polishSeed(lv, coarse.red.gStar, coarse.red.sigma);
+  var red = { gStar:pol.g, sigma:pol.s };
+  return (fineMemo[key] = { red:red, result:evaluateGame(lv, red) });
+}
+function levers(d){ return { b:B, d:d, q:PARAMS.q, attackSd:PARAMS.attackSd }; }
+
+// ---------- the demo ----------
+var B = 0.02;
+var AUDIT_X = squash(zAudit(B));
+var D_MIN = 0.02, D_MAX = 0.4, D_STEP = 0.005;
+var SWEEP_DS = [];
+for(ii=0; ii<=Math.round((D_MAX - D_MIN)/D_STEP); ii++) SWEEP_DS.push(D_MIN + ii*D_STEP);
+var INNOCENT = scoreDensity(0, 240, 1);
+var BANDS = null; // computed once, after first paint
+
+var SVGNS = "http://www.w3.org/2000/svg";
+function el(n, a, t){ var e = document.createElementNS(SVGNS, n); for(var k in a) e.setAttribute(k, a[k]); if(t !== undefined) e.textContent = t; return e; }
+function r1(x){ return Number(x.toFixed(1)); }
+
+var d = 0.1, seenNarrow = false, seenWide = false, completed = false;
+var slider = document.getElementById("kd");
+
+function drawDist(br){
+  var svg = document.getElementById("dist"); svg.textContent = "";
+  var W = 560, H = 200, M = { top:10, right:14, bottom:24, left:14 }, PW = W - M.left - M.right, PH = H - M.top - M.bottom;
+  var attack = attackMixtureDensity(PARAMS.q, br.red.sigma, br.red.gStar, 240, PARAMS.attackSd);
+  var yMax = Math.max(0.45, Math.max.apply(null, Array.prototype.slice.call(attack.f)))*1.05;
+  var xPx = function(x){ return M.left + (x/10)*PW; };
+  var yPx = function(y){ return M.top + PH - Math.min(1, y/yMax)*PH; };
+  var path = function(dens){ var s = []; for(var i=0;i<dens.s.length;i++) s.push((i ? "L " : "M ") + r1(xPx(dens.s[i])) + " " + r1(yPx(dens.f[i]))); return s.join(" "); };
+  var deferX = squash(zDefer(d));
+  svg.appendChild(el("rect", { x:r1(xPx(AUDIT_X)), y:M.top, width:r1(W - M.right - xPx(AUDIT_X)), height:PH, fill:"var(--muted)", opacity:0.08 }));
+  svg.appendChild(el("rect", { x:r1(xPx(deferX)), y:M.top, width:Math.max(0, r1(xPx(AUDIT_X) - xPx(deferX))), height:PH, fill:"var(--defer)", opacity:0.18 }));
+  svg.appendChild(el("line", { x1:M.left, x2:W - M.right, y1:M.top + PH, y2:M.top + PH, stroke:"var(--border)", "stroke-width":1 }));
+  svg.appendChild(el("path", { d:path(INNOCENT), fill:"none", stroke:"var(--faint)", "stroke-width":1.5 }));
+  svg.appendChild(el("path", { d:path(attack), fill:"none", stroke:"var(--accent)", "stroke-width":2 }));
+  svg.appendChild(el("line", { x1:r1(xPx(AUDIT_X)), x2:r1(xPx(AUDIT_X)), y1:M.top, y2:M.top + PH, stroke:"var(--muted)", "stroke-width":1, "stroke-dasharray":"3 3" }));
+  svg.appendChild(el("line", { x1:r1(xPx(deferX)), x2:r1(xPx(deferX)), y1:M.top, y2:M.top + PH, stroke:"var(--defer)", "stroke-width":1, "stroke-dasharray":"3 3" }));
+  svg.appendChild(el("text", { x:r1(xPx(AUDIT_X)) + 4, y:M.top + 11, "font-size":10, fill:"var(--muted)" }, "audit →"));
+  svg.appendChild(el("text", { x:r1(xPx(deferX)) - 4, y:M.top + 11, "font-size":10, fill:"var(--defer)", "text-anchor":"end" }, "defer →"));
+  svg.appendChild(el("text", { x:M.left + PW/2, y:H - 6, "font-size":10, fill:"var(--muted)", "text-anchor":"middle" }, "more suspicious →"));
+}
+
+function drawBands(br){
+  var svg = document.getElementById("bands"); svg.textContent = "";
+  var W = 560, H = 250, M = { top:10, right:12, bottom:30, left:38 }, PW = W - M.left - M.right, PH = H - M.top - M.bottom;
+  var x2 = function(dd){ return M.left + ((dd - D_MIN)/(D_MAX - D_MIN))*PW; };
+  var y2 = function(v){ return M.top + PH*(1 - v); };
+  [0, 0.5, 1].forEach(function(v){
+    svg.appendChild(el("line", { x1:M.left, x2:M.left + PW, y1:r1(y2(v)), y2:r1(y2(v)), stroke:"var(--border)", "stroke-width":1 }));
+    svg.appendChild(el("text", { x:M.left - 5, y:r1(y2(v)) + 3, "font-size":10, fill:"var(--muted)", "text-anchor":"end" }, v === 0 ? "0" : (v*100) + "%"));
+  });
+  [0.1, 0.2, 0.3, 0.4].forEach(function(t){
+    svg.appendChild(el("text", { x:r1(x2(t)), y:H - 16, "font-size":10, fill:"var(--muted)", "text-anchor":"middle" }, Math.round(t*100) + "%"));
+  });
+  svg.appendChild(el("text", { x:M.left + PW/2, y:H - 3, "font-size":10, fill:"var(--muted)", "text-anchor":"middle" }, "defer threshold d →"));
+  if(!BANDS){
+    svg.appendChild(el("text", { x:M.left + PW/2, y:M.top + PH/2, "font-size":11, fill:"var(--muted)", "text-anchor":"middle" }, "computing the red team's best response at every d…"));
+    return;
+  }
+  var line = function(f){ return BANDS.map(function(pt, i){ return (i ? "L " : "M ") + r1(x2(pt.d)) + " " + r1(y2(f(pt))); }).join(" "); };
+  var area = function(lo, hi){
+    var fwd = BANDS.map(function(pt, i){ return (i ? "L " : "M ") + r1(x2(pt.d)) + " " + r1(y2(hi(pt))); }).join(" ");
+    var back = BANDS.slice().reverse().map(function(pt){ return "L " + r1(x2(pt.d)) + " " + r1(y2(lo(pt))); }).join(" ");
+    return fwd + " " + back + " Z";
+  };
+  var zero = function(){ return 0; }, one = function(){ return 1; };
+  var A1 = function(p){ return p.a1; }, A2 = function(p){ return p.a2; }, A3 = function(p){ return p.a3; };
+  svg.appendChild(el("path", { d:area(zero, A1), fill:"var(--caught)", opacity:0.16 }));
+  svg.appendChild(el("path", { d:area(A1, A2), fill:"var(--defer)", opacity:0.2 }));
+  svg.appendChild(el("path", { d:area(A2, A3), fill:"var(--broken)", opacity:0.14 }));
+  svg.appendChild(el("path", { d:area(A3, one), fill:"var(--deployed)", opacity:0.18 }));
+  svg.appendChild(el("path", { d:line(A1), fill:"none", stroke:"var(--caught)", "stroke-width":1.4 }));
+  svg.appendChild(el("path", { d:line(A2), fill:"none", stroke:"var(--defer)", "stroke-width":1.4 }));
+  svg.appendChild(el("path", { d:line(A3), fill:"none", stroke:"var(--deployed)", "stroke-width":1.4 }));
+  svg.appendChild(el("rect", { x:M.left, y:M.top, width:PW, height:PH, fill:"none", stroke:"var(--border)", "stroke-width":1 }));
+  var atD = function(dd){ return BANDS[Math.min(BANDS.length - 1, Math.max(0, Math.round((dd - D_MIN)/D_STEP)))]; };
+  var lc = atD(0.09), ld = atD(0.28), lb = atD(0.18), lp = atD(0.02);
+  svg.appendChild(el("text", { x:r1(x2(lc.d)), y:r1(y2(lc.a1/2)) + 4, "font-size":11, "font-weight":500, fill:"var(--caught)" }, "caught"));
+  svg.appendChild(el("text", { x:r1(x2(ld.d)), y:r1(y2((ld.a1 + ld.a2)/2)) + 4, "font-size":11, "font-weight":500, fill:"var(--defer)", "text-anchor":"middle" }, "deferred to T"));
+  svg.appendChild(el("text", { x:r1(x2(lb.d)), y:r1(y2(lb.a2 + 0.7*(lb.a3 - lb.a2))) + 4, "font-size":11, "font-weight":500, fill:"#555049" }, "deployed but broken"));
+  svg.appendChild(el("text", { x:r1(x2(lp.d)) + 4, y:r1(y2(lp.a3 + 0.83*(1 - lp.a3))) + 4, "font-size":11, "font-weight":500, fill:"var(--deployed)" }, "successfully deployed"));
+  var dm = Math.min(D_MAX, Math.max(D_MIN, d)), xm = r1(x2(dm)), agg = br.result.agg;
+  svg.appendChild(el("line", { x1:xm, x2:xm, y1:M.top, y2:M.top + PH, stroke:"var(--muted)", "stroke-width":1, "stroke-dasharray":"2 2", "stroke-opacity":0.6 }));
+  svg.appendChild(el("circle", { cx:xm, cy:r1(y2(agg.cBar)), r:3.5, fill:"var(--caught)" }));
+  svg.appendChild(el("circle", { cx:xm, cy:r1(y2(agg.cBar + agg.fBar)), r:3.5, fill:"var(--defer)" }));
+  svg.appendChild(el("circle", { cx:xm, cy:r1(y2(1 - agg.wBar)), r:3.5, fill:"var(--deployed)" }));
+}
+
+function pct0(v){ return (v*100).toFixed(0) + "%"; }
+
+function render(doSave){
+  var br = bestResponseFine(levers(d));
+  document.getElementById("kdV").textContent = (d*100).toFixed(1) + "%";
+  slider.value = String(Math.round(d*1000));
+  drawDist(br);
+  drawBands(br);
+  var safety = 1 - br.result.pRedWin, useful = 1 - Math.min(1, Math.max(0, d - B)), deferFrac = Math.max(0, d - B);
+  document.getElementById("sSafe").textContent = pct0(safety);
+  document.getElementById("sUse").textContent = pct0(useful);
+  document.getElementById("sDef").textContent = pct0(deferFrac) + " of problems";
+  document.getElementById("sRed").textContent = (attackRate(br.red.gStar)*100).toFixed(1) + "% · " + br.red.sigma.toFixed(2);
+  if(d <= 0.05) seenNarrow = true;
+  if(d >= 0.25) seenWide = true;
+  if(doSave) save(br, safety, useful);
+}
+
+var saveTimer = null;
+function save(br, safety, useful){
+  if(!window.Lens) return;
+  if(seenNarrow && seenWide && !completed){ completed = true; if(window.Lens.complete) window.Lens.complete(); }
+  if(saveTimer) clearTimeout(saveTimer);
+  saveTimer = setTimeout(function(){
+    var a = br.result.agg;
+    var summary = "Defer-to-trusted demo at defer threshold d = " + (d*100).toFixed(1) + "% (audit budget 2%, so " + pct0(Math.max(0, d - B)) +
+      " of problems are rewritten by T). Against the red team's best response (attack rate " + (attackRate(br.red.gStar)*100).toFixed(1) +
+      "%, subtlety " + br.red.sigma.toFixed(2) + "), safety is " + pct0(safety) + " and usefulness " + pct0(useful) +
+      ". Per attack: caught " + pct0(a.cBar) + ", deferred to T " + pct0(a.fBar) + ", deployed but broken " + pct0(a.shipBar - a.wBar) +
+      ", successfully deployed " + pct0(a.wBar) + ". Has viewed a narrow band (d at most 5%): " + (seenNarrow ? "yes" : "no") +
+      "; a wide band (d at least 25%): " + (seenWide ? "yes" : "no") + ".";
+    if(window.Lens.saveState) window.Lens.saveState({ v:1, d:d, seenNarrow:seenNarrow, seenWide:seenWide }, summary);
+  }, 400);
+}
+
+var pending = false;
+slider.addEventListener("input", function(){
+  d = Number(slider.value)/1000;
+  document.getElementById("kdV").textContent = (d*100).toFixed(1) + "%";
+  if(pending) return;
+  pending = true;
+  requestAnimationFrame(function(){ pending = false; render(true); });
+});
+document.getElementById("reset").addEventListener("click", function(){ d = 0.1; render(true); });
+
+function computeBands(){
+  BANDS = SWEEP_DS.map(function(dd){
+    var f = bestResponseFine(levers(dd)), a = f.result.agg;
+    return { d:dd, a1:a.cBar, a2:a.cBar + a.fBar, a3:1 - a.wBar };
+  });
+  render(false);
+}
+
+if(window.Lens && window.Lens.onState){
+  window.Lens.onState(function(state, meta){
+    if(state){
+      if(typeof state.d === "number") d = Math.min(D_MAX, Math.max(D_MIN, state.d));
+      seenNarrow = !!state.seenNarrow; seenWide = !!state.seenWide;
+    }
+    if(meta && meta.completed) completed = true;
+    render(false);
+  });
+}
+render(false);
+setTimeout(computeBands, 30);
+})();
+</script>
+</body>
+</html>
