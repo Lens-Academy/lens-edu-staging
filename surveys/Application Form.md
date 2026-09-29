@@ -150,6 +150,7 @@ options::
 - Center for AI Safety course
 - AI Safety Camp
 - ML4Good
+- Global Challenges Proje
 - Lens Academy (another course)
 - ARENA
 - SPAR
