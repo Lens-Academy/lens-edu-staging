@@ -17,7 +17,7 @@ This week's focus is on presenting what you've discovered, and celebrating the j
 
 For this week, there will be a Reading and an optional Journalling Tab (no worksheet this week, your presentation is the main deliverable).
 
-\### Instructions
+\## Instructions
 
 - Please complete the reading and prepare your presentation before your weekly discussion with your facilitator.
 - Attend your Weekly Discussion with your cohort to present and hear from your peers.
@@ -26,8 +26,6 @@ For this week, there will be a Reading and an optional Journalling Tab (no works
 ---
 
 \# Week 8 Reading: Final Presentations!
-
-You made it to Week 8! 🎉
 
 Before we dive into the final presentations, we want to take a moment to recognise what you’ve actually accomplished over these past eight weeks!
 
