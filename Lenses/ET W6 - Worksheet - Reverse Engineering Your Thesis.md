@@ -20,6 +20,10 @@ This worksheet is designed to help you reverse engineer your thesis focus and re
 
 #### Text
 content::
+📖 **Recommended additional read:** our guide on using AI tools well as you work through your worksheets and thesis.
+
+::card[[../Lenses/ET Additional - Using AI Tools Well|Using AI Tools Well]]
+
 ---
 
 \# Part 1. Reverse Engineer Your Thesis!
