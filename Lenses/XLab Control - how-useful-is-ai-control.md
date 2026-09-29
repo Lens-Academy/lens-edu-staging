@@ -59,9 +59,11 @@ Control's mechanism for reduction in x-risk is centered around the claims that
 
 We will refer to this overall plan, in which each controlled generation of AI aligns and builds the next until superintelligence is reached, as bootstrapping. Control's role is to keep that plan on the rails while it runs, not to carry out the alignment research itself.
 
-:::callout {title="The bootstrapping loop" tone="blue"}
-Each controlled generation of AI does alignment research, builds the next generation, and hands off until superintelligence is reached.
+![The bootstrapping loop. Left: a cycle around the current builder, Gen N+k, with three arrows in turn: does alignment research, builds the next generation, hands off. Right: a capability ladder of Gen N, Gen N+1, Gen N+2, and so on, up to Superintelligence at the top. A dashed arrow from the cycle to the ladder: each lap climbs a rung.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/xlab-control-bootstrapping-loop.png)
 
+*The bootstrapping loop: each controlled generation of AI does alignment research, builds the next generation, and hands off, until superintelligence is reached.*
+
+:::callout {title="The loop, step by step" tone="neutral" collapse="closed"}
 1. Generation N is a transformatively useful AI (TUAI) that can help us align and build the following generation.
 2. Gen N performs alignment research and helps build the next generation, Gen N+1.
 3. Handoff: Gen N+1, which should be more capable and aligned by Gen N's research if the plan works, takes over as the builder.
@@ -207,18 +209,9 @@ content::
 
 Control is additive. It does not interfere with security, alignment, or verification interventions in a general sense. Therefore, we explore how counterfactually valuable allocating resources to control is in various scenarios.
 
-:::callout {title="Control is additive" tone="blue"}
-Alignment interventions act on the model in an inner box, control's applied monitoring wraps around them, and toggling the shell leaves the inner box untouched.
+![Control is additive. An inner box, Alignment interventions, which act on the model itself, trying to make it trustworthy: training interventions (RLHF, adversarial training) and classifiers / probes. Around it, a dashed outer shell, Control: applied monitoring, which wraps around the inner box without modifying it: trusted monitoring, auditing, defer-to-trusted, resampling.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/xlab-control-additive-shell.png)
 
-| Layer | What sits there | What it acts on |
-| --- | --- | --- |
-| Outer shell: control, applied monitoring | trusted monitoring, auditing, defer-to-trusted, resampling | wraps around the alignment interventions without modifying them |
-| Inner box: alignment interventions | training interventions (RLHF, adversarial training), classifiers and probes | act on the model itself, trying to make it trustworthy |
-
-1. **Alignment interventions.** Training interventions (RLHF, adversarial training) and classifiers or probes act on the model itself, trying to make it trustworthy.
-2. **Control wraps around.** Control's applied monitoring, meaning trusted monitoring, auditing, defer-to-trusted and resampling, surrounds those methods without modifying them. Control is additive: it does not interfere with security, alignment, or verification interventions in a general sense.
-3. **Additive, not entangled.** Take the shell away and the inner interventions are untouched either way. But additive does not necessitate high-value: control's share of resources should track how much of the risk one expects to come from scheming rather than slop.
-:::
+*Control's applied monitoring wraps around the alignment interventions without modifying them: take the shell away and the inner box is untouched.*
 
 First, additive does not necessitate high-value. Control helps remedy scheming and compile misalignment evidence, but contributes almost nothing to reducing non-schemer induced slop. So its share of resources should track how much of the risk one expects to come from scheming rather than slop. Second, because the operative world is uncertain, and the cruxes [[../Lenses/XLab Control - determining-the-usefulness|the rest of this unit works through]] are unresolved, a more robust move is to spread effort efficiently (see [80/20](https://en.wikipedia.org/wiki/Pareto_principle)), across additive fields, sizing each by the kind of risk it actually addresses.
 
