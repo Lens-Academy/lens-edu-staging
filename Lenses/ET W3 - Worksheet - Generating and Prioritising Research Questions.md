@@ -15,6 +15,10 @@ Please spend most of your prep time this week on the worksheet - the reading is 
 
 As a key reminder: The path to discovering your research question won't be perfectly linear, and that's totally normal! You'll cycle between reading, thinking, and jotting down ideas, back and forth, again and again. We will also move into stakeholder outreach in Week 4 that will lead to more iteration and changes! Coming up with ideas is just a messy process by nature (the problems you're tackling are genuinely [wicked](https://www.cold-takes.com/useful-vices-for-wicked-problems/)).
 
+:::
+
+---
+
 \## Step 1: Bottleneck Analysis
 
 *(For more info and guidance, look at the readings on Step 1)*
@@ -56,6 +60,8 @@ optional:: true
 
 #### Text
 content::
+---
+
 \## Step 2: Generate a Wide List of Candidate Questions \[45-60 min\]
 
 *(For more info and guidance, look at the readings on Step 2)*
