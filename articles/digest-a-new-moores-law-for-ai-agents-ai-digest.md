@@ -19,9 +19,13 @@ Add discussion note here:
 
 Last updated March 2026
 
+![[../widgets/aidigest-time-horizons-a]]
+
 When ChatGPT came out in 2022, it could do 30 second coding tasks.
 
 Today, AI agents can autonomously do coding tasks that take humans over fourteen hours.
+
+![[../widgets/aidigest-time-horizons-b]]
 
 The length of coding tasks frontier systems can complete is growing exponentially – doubling every 7 months.
 
@@ -33,6 +37,8 @@ Across all models tested, two clear patterns emerged:
 
 1. Task length is highly correlated with agent success rate (R² = 0.83)
 2. The length of tasks that agents succeed at 50% of the time – the **time horizon** – is growing exponentially
+
+![[../widgets/aidigest-time-horizons-c]]
 
 ## What comes next?
 
