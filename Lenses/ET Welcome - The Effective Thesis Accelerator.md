@@ -62,17 +62,17 @@ New to Lens? Before diving in, we recommend watching this short walkthrough of h
 
 ---
 
-\## 📌 Key Information
+\# 📌 Key Information
 
-\### 📅 Program Structure
+\## 📅 Program Structure
 
-\#### Weekly 1.5h Cohort Discussions (Required)
+\### Weekly 1.5h Cohort Discussions (Required)
 
 These weekly sessions are the central component of the Accelerator experience. During these sessions, you’ll engage deeply with the weekly readings and worksheets, and participate in structured peer discussion, feedback, and mutual support.
 
 *Please confirm your weekly discussion time directly with your assigned facilitator.*
 
-\#### 💡 Mastermind Sessions
+\### 💡 Mastermind Sessions
 
 The Mastermind is the core format of our weekly peer-group discussions. From Weeks 2–7, two people each week will be “in the Mastermind.” When it’s your turn, the group focuses on you and supports you with something real that matters to you - related to the worksheet of the week in relation to your thesis, impact direction, or a decision you’re stuck on.
 
