@@ -28,8 +28,6 @@ content::
 
 👉 [Open the Post-Program Feedback Form](https://airtable.com/appcKo5GTmHnUaBlg/pagGHPBww4E31JabV/form)
 
-Your certificate will be sent to you once your form is submitted.
-
 #### End Callout
 
 #### Text
