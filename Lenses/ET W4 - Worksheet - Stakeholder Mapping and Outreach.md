@@ -9,7 +9,13 @@ tags: [wip]
 content::
 \## Week 4 Worksheet: Stakeholder Mapping and Outreach
 
+:::callout {title="Instructions" tone="blue"}
+
 By the end of this worksheet, you will have a list of real, named stakeholders worth talking to, at least 15-20 outreach attempts logged, and a set of interview questions ready to go!
+
+:::
+
+---
 
 \## Part 1: Your Research Question and Bottleneck \[5 min\]
 
@@ -29,6 +35,8 @@ content:: **Potential Stakeholders: Who would need to act on this research, if y
 
 #### Text
 content::
+---
+
 \## Part 2: Stakeholder Mapping and Outreach
 
 1. **Mapping:** Begin by listing out 10-20 stakeholders, especially those who are most relevant to your bottlenecks identified. This could be people who've written a relevant paper, organisations already working on this problem, researchers who've published on it, or anyone else who seems genuinely interested in this space. **In the table below, focus on:**
@@ -57,6 +65,8 @@ placeholder:: Who: Real-world Stakeholder: … | What: Change Required: … | Li
 
 #### Text
 content::
+---
+
 \## Part 3: Stakeholder Interview Questions
 
 #### Question: Open
@@ -76,6 +86,8 @@ placeholder:: Interview Questions: … | Why this matters: … | Relevant Stakeh
 
 #### Text
 content::
+---
+
 \## Part 4: Next Steps
 
 #### Question: Open
