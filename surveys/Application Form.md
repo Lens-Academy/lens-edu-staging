@@ -140,6 +140,7 @@ options::
 - Center for AI Safety course
 - AI Safety Camp
 - SPAR
+- ERA Fellowship
 - Cooperative AI Foundation
 - MIT AI Alignment (MAIA)
 - BASE (Black in AI Safety and Ethics)
@@ -156,7 +157,6 @@ options::
 - Horizon Institute for Public Service
 - Talos Fellowship
 - IAPS AI Policy Fellowship
-- ERA Fellowship
 - Pivotal Research Fellowship
 - PIBBSS Fellowship
 - LASR Labs
