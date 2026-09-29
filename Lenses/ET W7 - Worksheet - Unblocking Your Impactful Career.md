@@ -15,6 +15,10 @@ By the end of this worksheet, you should have named your top Head, Heart, and Ha
 
 :::
 
+📖 **Recommended additional read:** our guide on using AI tools well as you work through your worksheets and thesis.
+
+::card[[../Lenses/ET Additional - Using AI Tools Well|Using AI Tools Well]]
+
 ---
 
 \# Part 1: What Is My Top Uncertainty or Blocker?
