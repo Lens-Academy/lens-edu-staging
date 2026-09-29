@@ -7,11 +7,11 @@ tags: [wip]
 ---
 #### Text
 content::
-\## Week 8: Final Presentations!
+\# Week 8: Final Presentations!
 
-You made it to Week 8! 🎉 Before anything else, we want to take a moment to recognise what you've actually accomplished over these past eight weeks.
+You made it to Week 8! 🎉
 
-\### Focus
+\## Focus
 
 This week's focus is on presenting what you've discovered, and celebrating the journey it took to get here. You don't need a perfectly finished project or to have everything figured out, share where you're at, the insights you're excited about, the assumptions you changed your mind about, and the questions still alive for you, so others can support and celebrate with you too.
 
