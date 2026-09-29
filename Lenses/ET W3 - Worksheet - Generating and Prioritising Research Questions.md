@@ -9,6 +9,8 @@ tags: [wip]
 content::
 \## Week 3 Worksheet: Generating & Prioritising Research Questions
 
+:::callout {title="Instructions" tone="blue"}
+
 Please spend most of your prep time this week on the worksheet - the reading is written as a companion to it, explaining the thinking behind each step below.
 
 As a key reminder: The path to discovering your research question won't be perfectly linear, and that's totally normal! You'll cycle between reading, thinking, and jotting down ideas, back and forth, again and again. We will also move into stakeholder outreach in Week 4 that will lead to more iteration and changes! Coming up with ideas is just a messy process by nature (the problems you're tackling are genuinely [wicked](https://www.cold-takes.com/useful-vices-for-wicked-problems/)).
