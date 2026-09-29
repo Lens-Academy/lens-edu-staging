@@ -49,6 +49,8 @@ content::
 
 #### Text
 content::
+---
+
 \## Next Steps
 
 - **Prepare for your Weekly Discussion.** Please begin working on **this week’s worksheet** before the weekly discussion.
