@@ -85,6 +85,8 @@ content::
 
 #### Text
 content::
+---
+
 \## 5. Next Steps
 
 - **Prepare for your Weekly Discussion.** Please begin working on **this week’s worksheet** before the weekly discussion, especially if you’re in the mastermind for this week!
