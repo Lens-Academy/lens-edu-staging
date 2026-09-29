@@ -39,10 +39,6 @@ Next week, we'll take the "what the world needs" dimension further, moving from 
 #### Callout: 📚 Additional Resources on Ikigai
 tone:: neutral
 
-#### Text
-content::
-**📚 Additional Resources on Ikigai**
-
 - [IKIGAI | A Japanese Philosophy for Finding Purpose](https://www.youtube.com/watch?v=4LE5bel_GvU)
 - **[Ikigai: what it is and how to use ikigai to find your purpose — Calm Blog](https://www.calm.com/blog/ikigai)**
 - **[An Introduction To Ikigai: Your Reason For Being | Medium](https://medium.com/@terrayou/an-introduction-to-ikigai-your-reason-for-being-3c9e850392d8)**
