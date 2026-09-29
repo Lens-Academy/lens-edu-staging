@@ -95,6 +95,8 @@ Human Labor: The blue team also has a limited budget of high-quality human labor
 
 The blue team only has a limited number of uses of $H$, equivalent to 1% of the actions taken in an episode[^note-2]. We found that o1-preview, when acting as an auditor, was able to perfectly classify attacks from non-attacks in our testing. Justified by o1-preview’s perfect performance, from now on we assume that if an attack is audited by $H$, it provides unshakable evidence to the blue team about $U$’s misalignment. If an attack message is audited, the blue team can shut down the episode, thus preventing further attacks.
 
+![Scatter and line plot of usefulness (y) vs safety (x), with a zoomed inset on the right, for Defer to Trusted, DTR + Time Travel and DTR + Time Travel + UM, plus single points for Trusted Policy, Upfront Auditing and Trusted Monitoring. The resampling protocols (orange, green) lie above and to the right of Defer to Trusted (blue), keeping high usefulness at much higher safety.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ctrl-z-resampling-fig2.png)
+
 Figure 2: The Pareto frontier of usefulness and safety of a collection of protocols. For protocols that defer, we plot multiple deferral thresholds as points, and plot the rolling averages of usefulness and safety. Usefulness scores are normalized by the usefulness of non-deferring protocols.
 
 ### 2.3 Safety and Usefulness Metrics ^2-3-safety-and
@@ -138,6 +140,8 @@ Result: A safety score of 41.8% at 100% usefulness. We describe the full trusted
 Other than just monitoring, the blue team has the option to implement other measures enhancing safety:
 
 Blue-team protocol: Defer to trusted At every step, the protocol generates an action by $U$ and asks the Trusted Monitor to give the action a suspiciousness score. If the generated action is below a certain threshold, it’s implemented; otherwise it ‘defers’ to $T$ and implements an action produced by $T$. Additionally, the protocol audits every action whose suspiciousness score falls above the auditing threshold.
+
+![Line chart of usefulness score (y) vs defer threshold from 0.5 to 1.0 (x) for defer to resample (red) and defer to trusted (blue), with fitted lines y = 0.33x + 0.71 and y = 0.74x + 0.31 and a dashed line at 1.0 for trusted monitoring. Defer to resample stays much more useful at low thresholds (about 0.85 at 0.5) than defer to trusted (about 0.65).](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ctrl-z-resampling-fig3.png)
 
 Figure 3: We plot the usefulness of different protocols based on their defer threshold. A defer threshold of 80% means that if an action is rated as more suspicious than 80% of $U_{H}$’s actions, then a deferral will occur. Choosing a lower defer threshold decreases the chance an attack is executed by the control protocol but hurts usefulness. At most thresholds, Defer to trusted hurts usefulness more than Defer to resample.
 
@@ -330,9 +334,13 @@ Aryan Bhatt led the project. Cody Rushing, Adam Kaufman, and Tyler Tracy contrib
 
 As mentioned in the discussion section, our choice of 1% auditing budget is a relatively arbitrary threshold at which to compare protocols. To demonstrate that alternative choices of auditing budget shift the blue team’s absolute performance without substantially changing the structure of the results, we present here the results at an auditing budget of 0.3% and 3%, along with 1% for comparison. The blue team and red team protocols are identical except for auditing budget, and are not optimized for these values.
 
+![Three rows of safety-usefulness Pareto plots (full view on the left, zoomed view on the right) at 0.3%, 1% and 3% auditing budgets, for Defer to Trusted, DTR + Time Travel and DTR + Time Travel + UM. The ordering of protocols is the same at every budget, and all curves move toward higher safety as the budget grows.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ctrl-z-resampling-fig5.png)
+
 Figure 5: The safety-usefulness pareto curves for a collection of protocols at a 0.3% auditing budget (top), a 1% auditing budget (middle, same as Figure [2](#S2.F2 "Figure 2 ‣ 2.2 Models and Resources ‣ 2 Setting ‣ Ctrl-Z: Controlling AI Agents via Resampling")), and a 3% auditing budget (bottom).
 
 While the protocols all have much higher safety when using larger auditing budgets (see the left column of Figure [5](#A1.F5 "Figure 5 ‣ Appendix A Sensitivity Analysis ‣ Ctrl-Z: Controlling AI Agents via Resampling")), the overall structure of the pareto curves is remarkably consistent after rescaling the x-axis (see the right column). Plotting the ratio of risk (one minus safety) between DTT and DTR protocols makes this insensitivity particularly clear (Figure [6](#A1.F6 "Figure 6 ‣ Appendix A Sensitivity Analysis ‣ Ctrl-Z: Controlling AI Agents via Resampling")).
+
+![Left: line chart of risk (1 minus safety) at 95% usefulness vs auditing budget from 0.1% to 10% (log scale); risk falls smoothly from about 0.65 to near 0 for Defer to Trusted and from about 0.33 to near 0 for DTR + Time Travel. Right: the ratio of the two risks stays roughly 2 to 3 across budgets.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ctrl-z-resampling-fig6.png)
 
 Figure 6: The plot on the left shows how risk (one minus safety) scales smoothly across two orders of magnitude of auditing budget, ranging from 0.1% to 10%. Risk is measured at 95% usefulness for both protocols. Importantly, the ratio of risk between DTT and DTR protocols (right) is remarkably consistent.
 
@@ -648,6 +656,8 @@ This highlights the importance of contextual analysis and multi-step trajectory 
 We found that single step attacks are far more suspicious than the actions of multi-step attacks (Figure 7).
 
 Below is our single step known strings attack.
+
+![Box-and-strip plot of suspicion percentile (0 to 100%) for each step of the Known Strings attack: the single-step attack step sits near 100%, while multi-step attack steps 1 and 2 are much less suspicious (medians around 50 to 60%) and later steps 3 to 10 have medians around 80 to 90%.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ctrl-z-resampling-fig7.png)
 
 Figure 7: For each message in the Known Strings attack, we plot the suspicion scores of the specific step across 100 attack trajectories.
 

@@ -38,10 +38,10 @@ Automated control monitors could play an important role in overseeing highly cap
 1Google DeepMind  2UK AI Security Institute  3University of Oxford  
 ∗Equal contribution
 
-- **Dynamics (Sec. 2.1):** Parallelism, Latency, Incremental attacks, Partial incrimination
-- **Protocols (Sec. 2.2):** Synchronous, Semi-synchronous, Asynchronous with Recovery
-- **Safety Conditions (Sec. 3):** Oversight (monitor, human), Latency (oversight, harm), Recovery (prevention, reversal)
-- **Case Studies (Sec. 4–5):** Weight exfiltration, Data poisoning, Research sabotage, Secret exfiltration
+{--{"author":"James's AI","timestamp":1790679836889}@@- **Dynamics--}{++{"author":"James's AI","timestamp":1790679836889}@@![Overview of the paper in four boxes: Dynamics++} (Sec. {--{"author":"James's AI","timestamp":1790679836889}@@2.1):** Parallelism, Latency, Incremental--}{++{"author":"James's AI","timestamp":1790679836889}@@2.1): parallelism, latency, incremental++} attacks, {--{"author":"James's AI","timestamp":1790679836889}@@Partial incrimination
+- **Protocols--}{++{"author":"James's AI","timestamp":1790679836889}@@partial incrimination. Protocols++} (Sec. {--{"author":"James's AI","timestamp":1790679836889}@@2.2):** Synchronous, Semi-synchronous, Asynchronous--}{++{"author":"James's AI","timestamp":1790679836889}@@2.2): synchronous, semi-synchronous, asynchronous++} with {--{"author":"James's AI","timestamp":1790679836889}@@Recovery
+- **Safety--}{++{"author":"James's AI","timestamp":1790679836889}@@recovery. Safety++} Conditions (Sec. {--{"author":"James's AI","timestamp":1790679836889}@@3):** Oversight--}{++{"author":"James's AI","timestamp":1790679836889}@@3): oversight++} (monitor, human), {--{"author":"James's AI","timestamp":1790679836889}@@Latency--}{++{"author":"James's AI","timestamp":1790679836889}@@latency++} (oversight, harm), {--{"author":"James's AI","timestamp":1790679836889}@@Recovery--}{++{"author":"James's AI","timestamp":1790679836889}@@recovery++} (prevention, {--{"author":"James's AI","timestamp":1790679836889}@@reversal)
+- **Case--}{++{"author":"James's AI","timestamp":1790679836889}@@reversal). Case++} Studies (Sec. {--{"author":"James's AI","timestamp":1790679836889}@@4–5):** Weight--}{++{"author":"James's AI","timestamp":1790679836889}@@4-5): weight++} exfiltration, {--{"author":"James's AI","timestamp":1790679836889}@@Data--}{++{"author":"James's AI","timestamp":1790679836889}@@data++} poisoning, {--{"author":"James's AI","timestamp":1790679836889}@@Research--}{++{"author":"James's AI","timestamp":1790679836889}@@research++} sabotage, {--{"author":"James's AI","timestamp":1790679836889}@@Secret exfiltration--}{++{"author":"James's AI","timestamp":1790679836889}@@secret exfiltration.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/control-monitoring-deployments-fig1.png)++}
 
 Figure 1: Overview of the paper's structure, showing how the dynamics of real deployments motivate new protocols, which are analysed via safety conditions and illustrated with case studies.
 
@@ -106,6 +106,8 @@ One key design choice for designing control monitoring protocols is synchrony: w
 -   Asynchronous monitoring: Agent actions are executed immediately, and in-parallel with monitoring and auditing, eliminating both human- and monitor-latency costs and enabling batched or off-peak monitoring. Although practical, asynchronous monitoring significantly increases vulnerability to actions that cause immediate harm or make irreversible progress.
     
 
+![Line chart of system availability (%) vs number of parallel agent instances N (1 to 100000, log scale): asynchronous monitoring stays at 100%, semi-synchronous stays flat at about 90%, and fully-synchronous monitoring falls from about 90% toward 0% by around 1000 instances.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/control-monitoring-deployments-fig2.png)
+
 Figure 2: Model of system availability.
 
 While this paper focuses on safety differences between monitoring protocols, they also differ in _system availability_: the proportion of time agents can act without being blocked. Consider a deployment with 1,000 parallel instances, each taking 10 actions per hour, with a 1% FPR monitor and 1-hour audits. Under fully-synchronous monitoring, some action is flagged every 0.6 minutes, blocking _all_ instances until audit completion and yielding only $\approx$1% system availability. Semi-synchronous monitoring fares better: each instance is flagged only once per 10 hours on average, giving 91% availability. Asynchronous monitoring, which never blocks, achieves 100% availability.
@@ -125,6 +127,8 @@ A safety case is a structured argument for bounding the risk of a deployment ([
 Suppose that, for a particular deployment, agent, and concrete harm H that we want to avoid, we choose a particular monitoring protocol with a recovery strategy. For example, we might consider the concrete harm H = “an agent’s weights are exfiltrated from the developer’s servers”. To prevent a research and engineering agent from causing this harm, the AI developer might monitor all of the research assistant’s outputs.
 
 We use the notion of a safe state: a state of the deployment which is _either_ the initial state or some later post-recovery state from which it is equally difficult for the AI to cause harm H. Arguing for safety breaks down into two steps. The first step is to argue that we will likely catch any particular attack attempt, and recover to a safe state ([[#^3-1-attack-detection|Section 3.1]]). The second step, is to argue that this per-attack recovery probability is sufficient for avoiding harm until the agent’s deployment ends ([[#^3-2-extrapolating-to|Section 3.2]]).
+
+![Safety case tree: the top claim "the agent cannot cause severe harm H" links to Incrimination and Shutdown (Sec. 3.2, shut down after repeated attacks) and to the claim that the agent cannot cause H in a single attempt. That claim is decomposed for each threat vector V (with Representative Vectors, Sec. 3.2) into four sub-claims: Oversight (monitor and human recall), Latency (oversight faster than harm), Recovery (prevent harm or reverse partial progress) and Modelling (combine these to bound risk).](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/control-monitoring-deployments-fig3.png)
 
 Figure 3: Structure of our idealised safety case sketch. The top-level claim is that the agent cannot cause severe harm H. The direction of arrows shows how the argument is decomposed into sub-claims. [[#^3-1-attack-detection|Sec. 3.1]] discusses detecting and recovering from individual attacks, and [[#^3-2-extrapolating-to|Section 3.2]] discusses how to use this to estimate total deployment risk. [[#^appendix-c-example-concrete|App. C]] shows a detailed case for a specific attack vector.
 
@@ -406,9 +410,13 @@ These appendices present more detailed accounts of some of the arguments present
 
 ## Appendix B A more detailed argument extrapolating per-attempt catch rate to overall deployment risk. ^appendix-b-a-more
 
+![Safety case tree: the claim "overall risk of severe harm is below 5%" splits into a per-attempt catch rate claim (every attack attempt is caught and recovered from with over 99% probability) and a per-attempt-to-overall claim (then some attempt causing harm before shutdown is below 5%). The first rests on enumerating attack vectors V, backed by representative vectors, capability evaluation evidence and an assumption that evaluations are representative, leading to a per-vector catch rate claim. The second rests on assumptions that the developer shuts down after 5 caught attempts and that later attempts are no easier to catch.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/control-monitoring-deployments-fig5.png)
+
 Figure 5: An example safety case sketch for using the probability of catching a single attack, to bound the probability of harm over a deployment. We again follow the notation of [Korbak et al. (2025c)](#bib.bib6) and abbreviate claims with C and arguments with A. Here the developer shuts the AI down after at most 5 attacks. A key step is arguing that the identified ’representative vectors’ are valid, which is here achieved via arguing that the red-team is more capable than the AI. (See [[#^3-2-extrapolating-to|Section 3.2]] for two defeaters).
 
 ## Appendix C Example concrete argument for per-attempt recovery probability for weight exfiltration ^appendix-c-example-concrete
+
+![Safety case tree for weight exfiltration: the claim that an exfiltration attempt via vector V is caught and recovered from with over 93.67% probability is computed by modelling from six sub-claims: monitoring flags at least one of the attack steps, human review confirms a flagged action (over 98%), harm latency (steps 1-6 take at least 12 hours), oversight latency (under 11.5 hours with 99% probability), prevention (over 99% if started 0.5 hours before step 9) and reversal (over 99%). Each sub-claim is backed by evidence boxes (red-teaming studies, expert analysis, past audit statistics) and assumption boxes.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/control-monitoring-deployments-fig6.png)
 
 Figure 6: A concrete safety case (with hypothetical numbers) for preventing the harm of weight exfiltration using an asynchronous monitoring protocol. We follow the notation of [Korbak et al. (2025c)](#bib.bib6) and abbreviate claims with C, arguments with A and evidence with E.
 
@@ -549,7 +557,7 @@ By assumption, the independence of these claims allow us to lower-bound risk: $P
 
 Note that, because all of these assumptions assume independence, gaining evidence for each bound requires encapsulating uncertainty that the variables are not independent. This could be challenging in complex environments.
 
-Monitor RecallHuman RecallOversightLatencyHarm LatencyHarmPreventionProgressReversal
+{++{"author":"James's AI","timestamp":1790679839538}@@![Causal influence diagram: ++}Monitor {--{"author":"James's AI","timestamp":1790679839538}@@RecallHuman RecallOversightLatencyHarm LatencyHarmPreventionProgressReversal--}{++{"author":"James's AI","timestamp":1790679839538}@@Recall points to Human Recall; Human Recall, Oversight Latency and Harm Latency all point to Harm Prevention, which points to Progress Reversal.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/control-monitoring-deployments-fig7.png)++}
 
 Figure 7: Causal influence diagram for Model 1. The attack vector $\mathbf{V}$ influences all three probabilistic factors. Successful recovery depends on the attack vector both directly and through its influence on oversight latency and the combination of recall and harm latency.
 
