@@ -160,6 +160,8 @@ content::
 content::
 **The key takeaway:** Your thesis is not just about producing research - it’s about **strategically integrating your work into the chain of steps that lead to real-world impact**.
 
+---
+
 \## 3. Next Steps
 
 - **Work on your worksheet before the discussion,** especially if you’re in the mastermind for this week!

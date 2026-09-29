@@ -139,6 +139,8 @@ content::
 | Formulate Thesis Question | Research Question Identified: “How can AI safety research be translated into policy briefs that maximize comprehension and adoption by policymakers?”<br>Good Example Criteria: The question is clear, actionable, and directly linked to producing the desired output. |
 | Identify and Collaborate with Stakeholders | • Stakeholders: AI Policy Think Tank - Centre for the Governance of AI (GovAI), AI Now Institute<br>• Stakeholder Collaboration: Partner with policy think tanks to co-author policy brief (higher ask), or to read the completed research (lower ask)<br>• Next Step: Begin scheduling expert interviews to refine the thesis idea (policy brief) and research question, and explore collaboration |
 
+---
+
 \## 3. Next Steps
 
 - **Week 6 Worksheet on Reverse Engineering your Thesis.** Work on your worksheet before the discussion, especially if you’re in the mastermind for this week!
