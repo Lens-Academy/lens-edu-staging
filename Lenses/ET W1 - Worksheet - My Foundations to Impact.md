@@ -20,6 +20,10 @@ This worksheet is designed to help you explore and clarify the foundations of yo
 
 #### Text
 content::
+📖 **Recommended additional read:** our guide on using AI tools well as you work through your worksheets and thesis.
+
+::card[[../Lenses/ET Additional - Using AI Tools Well|Using AI Tools Well]]
+
 ---
 
 \# Part 1: Exploring Your Ikigai

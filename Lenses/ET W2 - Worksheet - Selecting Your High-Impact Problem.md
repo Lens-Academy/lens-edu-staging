@@ -15,6 +15,10 @@ This worksheet helps you identify a high-impact problem for your thesis by combi
 
 :::
 
+📖 **Recommended additional read:** our guide on using AI tools well as you work through your worksheets and thesis.
+
+::card[[../Lenses/ET Additional - Using AI Tools Well|Using AI Tools Well]]
+
 ---
 
 \# Part 1. Brainstorm a list of problems
