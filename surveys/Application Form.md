@@ -134,34 +134,41 @@ options::
 - None so far
 - BlueDot Impact
 - Lens Academy (another course)
-- ARENA
-- SPAR
-- MATS
+- {--{"author":"Mark's AI","timestamp":1790689819468}@@ARENA
+- SPAR--}{++{"author":"Mark's AI","timestamp":1790689819468}@@AI Safety Collab (ENAIS)++}
+- {--{"author":"Mark's AI","timestamp":1790689819468}@@MATS
 - ML4Good
-- AI Safety Camp
-- Apart Research
-- GovAI
-- ERA Fellowship
-- Talos Fellowship
-- LASR Labs
+---}{++{"author":"Mark's AI","timestamp":1790689819468}@@Center for++} AI Safety {--{"author":"Mark's AI","timestamp":1790689819468}@@Camp--}{++{"author":"Mark's AI","timestamp":1790689819468}@@course++}
+- {--{"author":"Mark's AI","timestamp":1790689819468}@@Apart Research
+- GovAI--}{++{"author":"Mark's AI","timestamp":1790689819468}@@Cooperative AI Foundation++}
+- {--{"author":"Mark's AI","timestamp":1790689819468}@@ERA Fellowship
+- Talos Fellowship--}{++{"author":"Mark's AI","timestamp":1790689819468}@@MIT AI Alignment (MAIA)++}
+- {--{"author":"Mark's AI","timestamp":1790689819468}@@LASR Labs
 - TARA
-- AI Safety Collab (ENAIS)
-- Center for AI Safety course
-- Sentient Futures
+---}{++{"author":"Mark's AI","timestamp":1790689819468}@@BASE (Black in++} AI Safety {--{"author":"Mark's AI","timestamp":1790689819468}@@Collab (ENAIS)--}{++{"author":"Mark's AI","timestamp":1790689819468}@@and Ethics)++}
+- {--{"author":"Mark's AI","timestamp":1790689819468}@@Center --}{++{"author":"Mark's AI","timestamp":1790689819468}@@Sentient Futures
+- CAIDP (Center ++}for AI {--{"author":"Mark's AI","timestamp":1790689819468}@@Safety course--}{++{"author":"Mark's AI","timestamp":1790689819468}@@and Digital Policy)
+- ML4Good++}
+- {--{"author":"Mark's AI","timestamp":1790689819468}@@Sentient Futures--}{++{"author":"Mark's AI","timestamp":1790689819468}@@ARENA
+- TARA++}
 - Vista Institute for AI Policy
-- {++{"author":"Mark's AI","timestamp":1790689659112}@@Cooperative AI Foundation
-- BASE (Black in AI Safety and Ethics)
-- IAPS AI Policy Fellowship
+- {++{"author":"Mark's AI","timestamp":1790689819468}@@Kairos
 - Iliad (Fellowship or Intensive)
+- Apart Research
+- AI Safety Camp
+- SPAR
 - Heron AI Security Fellowship
-- MIT AI Alignment (MAIA)
-- CAIDP (Center for AI and Digital Policy)
-- Constellation (Astra or other fellowship)
-- Kairos
 - Horizon Institute for Public Service
-- Anthropic Fellows Program
+- Talos Fellowship
+- IAPS AI Policy Fellowship
+- ERA Fellowship
 - Pivotal Research Fellowship
 - PIBBSS Fellowship
+- LASR Labs
+- GovAI
+- MATS
+- Constellation (Astra or other fellowship)
+- Anthropic Fellows Program
 - ++}University course or AI safety group
 - Self-study
 - Other (please write it below)
