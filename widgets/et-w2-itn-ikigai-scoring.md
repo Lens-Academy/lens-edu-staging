@@ -36,13 +36,21 @@ td.total { font-weight: 600; padding: 8px; text-align: center; vertical-align: m
 tr.top td.total { background: var(--accent); color: #fff; }
 tr.top td.rowlabel { color: var(--accent); }
 .legend { margin-top: 8px; font-size: 12px; color: var(--muted); }
+.actions { margin-top: 10px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+button { font: inherit; color: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 8px 12px; cursor: pointer; }
+button:hover { background: var(--soft); }
+button.primary { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+button.primary:hover { background: var(--accent); color: #fff; }
+button:disabled { opacity: 0.5; cursor: default; }
+button.remove { display: block; margin-top: 6px; padding: 2px 8px; font-size: 11px; color: var(--muted); }
 </style>
 </head>
 <body>
 <div class="eyebrow">Part 2 scoring table</div>
 <p class="hint">Score each shortlisted problem from 1 (low) to 5 (high). The total adds up Importance, Neglectedness, Tractability and Ikigai, and the highest-scoring row is highlighted. Your answers save automatically. Scroll sideways to see all columns.</p>
 <div class="scroll"><table id="t"></table></div>
-<p class="legend">Problems 4 and 5 are optional. The total is a starting point for reflection, not a verdict - trust what surprises you!</p>
+<div class="actions"><button type="button" class="primary" id="add">+ Add another problem area</button><span class="legend" id="count"></span></div>
+<p class="legend">We recommend scoring 3-5 problems, and you can add more if you'd like. The total is a starting point for reflection, not a verdict - trust what surprises you!</p>
 <script>
 (function () {
   var COLS = [
@@ -56,9 +64,12 @@ tr.top td.rowlabel { color: var(--accent); }
     { k: "unc", label: "Main uncertainties & open questions", type: "text", w: 200 }
   ];
   var N = 5;
+  var MAX = 15;
   var rows = [];
   for (var r = 0; r < N; r++) rows.push({});
   var table = document.getElementById("t");
+  var addBtn = document.getElementById("add");
+  var countEl = document.getElementById("count");
   var totalCells = [];
   var trs = [];
 
