@@ -171,7 +171,9 @@ content:: **What are some next steps you would like to take in the next week to 
 
 #### Text
 content::
-\### Closing Note
+---
+
+\# Closing Note
 
 Thank you so much for your time in reflecting on and exploring your Ikigai.
 
