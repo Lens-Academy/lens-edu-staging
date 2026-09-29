@@ -149,7 +149,20 @@ options::
 - Center for AI Safety course
 - Sentient Futures
 - Vista Institute for AI Policy
-- University course or AI safety group
+- {++{"author":"Mark's AI","timestamp":1790689659112}@@Cooperative AI Foundation
+- BASE (Black in AI Safety and Ethics)
+- IAPS AI Policy Fellowship
+- Iliad (Fellowship or Intensive)
+- Heron AI Security Fellowship
+- MIT AI Alignment (MAIA)
+- CAIDP (Center for AI and Digital Policy)
+- Constellation (Astra or other fellowship)
+- Kairos
+- Horizon Institute for Public Service
+- Anthropic Fellows Program
+- Pivotal Research Fellowship
+- PIBBSS Fellowship
+- ++}University course or AI safety group
 - Self-study
 - Other (please write it below)
 required:: true
