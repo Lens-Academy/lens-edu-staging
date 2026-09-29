@@ -151,13 +151,17 @@ content::
 
 **Instructions**: Please continue your stakeholder mapping and outreach in the Stakeholder Outreach table in Week 4’s worksheet. We recommend identifying and reaching out to >20 stakeholders. If you haven’t received any replies from your Week 4 outreach, we encourage you to reach out to additional stakeholders - this is completely normal and expected. Many professionals are busy or respond slowly, and lack of replies is not a reflection of the quality or relevance of your work. The goal of this exercise is to practice reaching out to people whose work you are interested in and increase the chances of meaningful conversations over time.
 
-\## Part 3. \[Optional\] Prepare for Week 8 Presentations
+---
+
+\# Part 3. \[Optional\] Prepare for Week 8 Presentations
 
 In Week 8, you will each present an overview of what you’ve worked on over the past 8 weeks, summarised in a short presentation using the template below. You can begin working on your presentation here and continue refining it during Weeks 7 and 8.
 
 Use this template: [\[TEMPLATE\] Week 8 Presentation ET Accelerator: Oct-Dec 26'](https://docs.google.com/presentation/d/16l-eKuJcJnzKP5F-IOoNuUoHZqw-sPGi3Kb0Q-xw64Q/edit?slide=id.g3fb78c7d3ee_1_0#slide=id.g3fb78c7d3ee_1_0)
 
-\## Part 4. Next Steps
+---
+
+\# Part 4. Next Steps
 
 #### Question: Open
 id:: d1943212-3250-43dc-aff4-459f7b422a4c
