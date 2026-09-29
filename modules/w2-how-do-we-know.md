@@ -70,7 +70,7 @@ The harder skill is reading. Much of what you will read about AI futures this ye
 - incentive: someone whose position depends on you believing it;
 - filler: words that assert nothing checkable.
 
-The skill is to look at a text and sort it into one of these four bins. There is one more disguise to recognize: a plan presented as a forecast. Here someone describes a future they intend to bring about as if they were only expecting it. Unit 4 has a worked case of this.
+The skill is to look at a text and sort it into one of these four bins: testimony, or one of the three above. There is one more disguise to recognize: a plan presented as a forecast. Here someone describes a future they intend to bring about as if they were only expecting it. Unit 4 has a worked case of this.
 
 The unit ends with what happens to a forecast when the thing being forecast (a lab, a government, a market) can read the forecast and react to it.
 
