@@ -17,7 +17,7 @@ This week's focus is on turning your broad problem into a small handful of concr
 
 For this week, there will be a Reading, a Worksheet, and an optional Journalling Tab.
 
-\### Instructions
+\## Instructions
 
 - Please complete the readings and worksheet before your weekly discussion with your facilitator.
 - Attend your Weekly Discussion with your cohort.

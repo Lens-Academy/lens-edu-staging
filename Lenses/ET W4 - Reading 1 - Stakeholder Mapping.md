@@ -7,7 +7,7 @@ tags: [wip]
 ---
 #### Text
 content::
-\## Week 4: Stakeholder Mapping and Outreach
+\# Week 4: Stakeholder Mapping and Outreach
 
 Welcome to Week 4! This is where your thesis starts moving from a document into real conversations with real people who matter for the problem you care about!
 
