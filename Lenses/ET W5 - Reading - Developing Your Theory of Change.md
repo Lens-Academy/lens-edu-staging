@@ -7,17 +7,17 @@ tags: [wip]
 ---
 #### Text
 content::
-\## Week 5: Developing Your Theory of Change
+\# Week 5: Developing Your Theory of Change
 
 Welcome to Week 5! This week tackles one of the most important, and least taught, skills for turning academic work into real-world impact.
 
-\### Focus
+\## Focus
 
 This week's focus is on developing a Theory of Change (ToC): making explicit the pathway from your research findings to the real-world change you hope to contribute to, rather than leaving that pathway implicit or assumed. You'll see examples across different cause areas, then build your own!
 
 For this week, there will be a Reading, a Worksheet, and an optional Journalling Tab.
 
-\### Instructions
+\## Instructions
 
 - Please complete the readings and worksheet before your weekly discussion with your facilitator.
 - Attend your Weekly Discussion with your cohort.
@@ -25,9 +25,7 @@ For this week, there will be a Reading, a Worksheet, and an optional Journalling
 
 ---
 
-\# Week 5 Reading
-
-**Developing your Theory of Change**
+\# Week 5 Reading: Developing Your Theory of Change
 
 #### Callout: Developing your Theory of Change
 tone:: purple

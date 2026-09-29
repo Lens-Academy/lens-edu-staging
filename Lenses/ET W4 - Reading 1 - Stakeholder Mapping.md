@@ -17,7 +17,7 @@ This week's focus is on figuring out who actually needs your research question a
 
 For this week, there will be a Reading, a Worksheet, and an optional Journalling Tab.
 
-\### Instructions
+\## Instructions
 
 - Please complete the readings and worksheet before your weekly discussion with your facilitator.
 - Attend your Weekly Discussion with your cohort.
@@ -25,9 +25,7 @@ For this week, there will be a Reading, a Worksheet, and an optional Journalling
 
 ---
 
-\# Week 4 Reading
-
-**Stakeholder Mapping and Outreach**
+\# Week 4 Reading: Stakeholder Mapping and Outreach
 
 #### Callout: Stakeholder Mapping and Outreach
 tone:: purple
