@@ -132,7 +132,8 @@ content:: Which courses, programs, or fellowships in AI safety have you done, or
 multi:: true
 options::
 - None so far
-- 
+- Self-study
+- University course or AI safety group
 - BlueDot Impact
 - Lens Academy (another course)
 - AI Safety Collab (ENAIS)
