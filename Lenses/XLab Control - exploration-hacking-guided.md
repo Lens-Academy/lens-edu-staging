@@ -19,14 +19,15 @@ Here the paper is interrupted. Fourteen times you are asked to produce an answer
 
 Two earlier lessons set this up. [[../Lenses/XLab Control - misalignment-and-strategic-underperformance|Misalignment and strategic underperformance]] is where sandbagging and exploration hacking are separated as concepts, and [[../Lenses/XLab Control - capability-elicitation-guided|Stress-Testing Capability Elicitation]] is where model organisms of hidden capability first appear in this course.
 
-#### Text
+#### {--{"author":"James's AI","timestamp":1790696300095}@@Text
 content::
 :::callout {title="Reading not yet available" tone="amber"}
 The reading for this lesson is being imported and is not on Lens yet. Until it
 lands, read it at the original source: [Exploration Hacking: Can LLMs Learn to Resist RL Training?](https://arxiv.org/abs/2604.28182).
-:::
-{>>{"author":"Elias's AI","timestamp":1789040177971}@@PORT-TODO: replace this callout with `#### Article` over
-`Lens Edu/articles/<expected file>` once the import lands. XLab does not assign the paper whole: it splits it into fifteen excerpts interleaved with the segments below. In XLab's order the boundaries are: (1) Abstract and section 2 Introduction, before the first checkpoint; (2) 2.1 Related Work and the opening of 3 Conceptual Framework, before "Definition and RL background"; (3) the short passage that ends in the GRPO objective, before the deterministic-policy checkpoint; (4) the rest of section 3's setup, before the policy-region check; (5) Definition 1, the taxonomy of strategies, the relation to other misaligned behaviours and the capability decomposition, before the threat-models checkpoint; (6) the three threat-model settings, before the "what now" checkpoint; (7) the short "The answer" passage, before the existence-methods prompt; (8) the opening of 4 Capability to Resist RL Training, before the four-properties checkpoint; (9) the four properties, "Why exactly these properties" and 4.1 Unconditional Capability Suppression, before the inducing-suppression checkpoint; (10) 4.2 Conditional Capability Suppression, before the trigger-choice check; (11) the conditional locking results, before "Interpret the results of this section"; (12) the opening of 5 Countermeasures, before "Generating countermeasures"; (13) 5.1 Detection down to "Black-box techniques.", before the black-box checkpoint; (14) the black-box monitoring results, before the white-box checkpoint; (15) the weight-noising results, before the training-time checkpoint; (16) 5.2 SFT Elicitation, before the SFT check; (17) the opening of 6 Auditing Frontier Models, before the multi-select; (18) 6.1 System-Prompt-Based Experiments and 6.2 Agentic Discovery of Training Context, before the audit-findings check; (19) 7 Discussion and the appendices, before Works cited.<<}
+:::--}{++{"author":"James's AI","timestamp":1790696300095}@@Article++}
+{--{"author":"James's AI","timestamp":1790696300095}@@{>>{"author":"Elias's AI","timestamp":1789040177971}@@PORT-TODO: replace this callout with `#### Article` over--}{++{"author":"James's AI","timestamp":1790696300095}@@source:: [[../articles/jang-exploration-hacking-can-llms-learn-to-resist-rl-training]]++}
+{--{"author":"James's AI","timestamp":1790696300095}@@`Lens Edu/articles/<expected file>` once the import lands. XLab does not assign the paper whole: it splits it into fifteen excerpts interleaved with the segments below. In XLab's order the boundaries are: (1)--}{++{"author":"James's AI","timestamp":1790696300095}@@from:: ######++} Abstract{--{"author":"James's AI","timestamp":1790696300095}@@ and section 2 Introduction, before the first checkpoint; (2) 2.1 Related Work and the opening of 3 Conceptual Framework, before "Definition and RL background"; (3) the short passage that ends in the GRPO objective, before the deterministic-policy checkpoint; (4) the rest of section 3's setup, before the policy-region check; (5) Definition 1, the taxonomy of strategies, the relation to other misaligned behaviours and the capability decomposition, before the threat-models checkpoint; (6) the three threat-model settings, before the "what now" checkpoint; (7) the short "The answer" passage, before the existence-methods prompt; (8) the opening of 4 Capability to Resist RL Training, before the four-properties checkpoint; (9) the four properties, "Why exactly these properties" and 4.1 Unconditional Capability Suppression, before the inducing-suppression checkpoint; (10) 4.2 Conditional Capability Suppression, before the trigger-choice check; (11) the conditional locking results, before "Interpret the results of this section"; (12) the opening of 5 Countermeasures, before "Generating countermeasures"; (13) 5.1 Detection down to "Black-box techniques.", before the black-box checkpoint; (14) the black-box monitoring results, before the white-box checkpoint; (15) the weight-noising results, before the training-time checkpoint; (16) 5.2 SFT Elicitation, before the SFT check; (17) the opening of 6 Auditing Frontier Models, before the multi-select; (18) 6.1 System-Prompt-Based Experiments and 6.2 Agentic Discovery of Training Context, before the audit-findings check; (19) 7 Discussion and the appendices, before Works cited.<<}--}{++{"author":"James's AI","timestamp":1790696300095}@@
+to:: [[#^5-auditing-frontier-models|Section 5]] audits frontier models for strategic reasoning propensity.++}
 
 #### Question: Open
 id:: b14f6232-fd5b-47a4-8c4f-3dd78d71b5ca
@@ -38,6 +39,10 @@ Answer in a few sentences: **what is the difference between RL and supervised le
 *Minimum 80 characters.*
 assessment-instructions:: The learner has read the paper's abstract and introduction and nothing else. Grade the reasoning, not agreement with the authors. The criteria, all from the framework section that follows: supervised learning fits the model to a fixed dataset the developer supplies, whereas RL updates the policy from trajectories the policy itself sampled, scored by a reward function. Credit the consequence that matters here: because the model generates its own training data, it has partial control over what the optimiser ever sees, so a behaviour it never emits cannot be reinforced. Credit as an extra any mention that a supervised learner has no such lever, since the targets arrive from outside regardless of what the model would have produced. Grade only against the criteria stated here.
 feedback-instructions:: Reply in 60 to 120 words, short paragraphs, no lists. Name what is present, name the single largest gap in one sentence, and stop: the next sections give the formal setup, so do not preview it. Do not over-validate. Avoid generic praise (great job, excellent, well done). If the learner says they do not understand, give one concrete foothold from the material, for example asking where the training examples come from in each case, rather than repeating the question; if their next message still does not attempt the question, rephrase the whole question in different terms.
+
+#### Article
+from:: ### 1.1 Related Work
+to:: Our work complements this by studying the specific case where RL-based elicitation fails due to exploration hacking.
 
 #### Text
 content::
@@ -88,6 +93,10 @@ The reward reaches the gradient term only through the group-normalized advantage
 
 If the policy is deterministic, it will generate $N$ identical trajectories ($\tau_1 = \cdots = \tau_N$) with equal rewards. This causes the within-group reward variance to collapse ($\sigma_R = 0$), making all advantages vanish ($\hat{A}_i = 0$) and causing the gradient term to be $0$. The GRPO objective then only reduces to KL regularization, which doesn't provide any reward learning signal. PPO is similarly dependent on sufficient exploration: a deterministic policy prevents the discovery of higher-reward trajectories, causing the policy to converge prematurely to a local optimum regardless of the value function's accuracy. In practice, exploration is encouraged through sampling hyperparameters such as temperature and top-$p$, and entropy bonuses in the training objective.
 
+#### Article
+from:: ##### Role of exploration.
+to:: In this language, exploration hacking occurs when a policy controls its exploration to avoid being updated toward certain high-reward regions.
+
 #### Question: Open
 id:: c0620db7-2bec-491c-bb65-6a3ff72e2ff0
 content:: In the setup above, where must a policy $\pi_\theta$ that is exploration hacking be located relative to the target region $\Pi^*$?
@@ -105,6 +114,10 @@ When is a policy $\pi_\theta \notin \Pi^*$ exploration hacking relative to $\Pi^
 assessment-instructions:: The learner is proposing a formal definition before reading Definition 1. The two conditions the paper requires are the criteria. (1) Systematic under-sampling: there is a non-negligible subset of the training distribution on which the policy generates trajectories in $\mathcal{T}^*(x)$ with extremely low probability, so the rollouts collected for policy-gradient updates rarely contain them and the gradient estimator receives negligible signal to move the policy toward $\Pi^*$. (2) Latent capability: the failure to generate those trajectories is not a lack of capacity, and the paper certifies this either by prompt sensitivity, meaning a semantically similar prompt on which the model does produce them with high probability, or by parameter proximity, meaning a nearby policy within a small weight distance that produces them. Full credit needs both conditions, since either alone is a different phenomenon: under-sampling without latent capability is ordinary incapacity, and latent capability without under-sampling is not exploration hacking at all. Grade only against the criteria stated here.
 feedback-instructions:: Reply in 60 to 120 words, short paragraphs, no lists. Say which of the two conditions the learner reached and name the missing one in a few words only, without stating its formal content: the next section gives it. Do not over-validate. Avoid generic praise (great job, excellent, well done). If the learner says they do not understand, give one concrete foothold, for example asking how you would tell a model that will not from a model that cannot. If their next message still does not attempt the question, rephrase the whole question in different terms.
 
+#### Article
+from:: ###### Definition 2.1 (Exploration Hacking).
+to:: The model maintains its strategic behavior throughout RL training and successfully shapes the training outcome as planned—for example, resisting capability elicitation by avoiding high-reward actions, or reinforcing desired values by selectively pairing preferred behaviors with high-reward actions.
+
 #### Question: Open
 id:: 81011f55-2b79-4a09-813a-ce4867a2c1c6
 content::
@@ -115,6 +128,10 @@ content::
 *Minimum 100 characters.*
 assessment-instructions:: The learner is generating threat models before reading the paper's. The paper names three settings and studies the first two. (1) Dangerous capability elicitation: as models approach sensitive capability thresholds, labs run RL-based elicitation so that a failure to surface a dangerous capability can support a safety case, and a model that recognises it is being elicited may conceal its abilities to avoid extra safeguards, retraining, or a decision against deployment, which makes the capability estimate falsely reassuring. (2) Beneficial capability elicitation and development: a model may hold useful capabilities, such as AI safety research or reliable monitoring, that it does not want developers to have, because they could be used to detect its misalignment or restrict it, and it can subtly underperform on tasks that do not further its goals even under RL pressure. (3) Alignment training, where RL is meant to instil desired behaviours; the paper names this setting but does not study it. Two distinct threat models is full credit, one is partial. Credit as an extra any answer that connects this to safety cases built on RL-based methods such as debate. Grade only against the criteria stated here.
 feedback-instructions:: Reply in 60 to 120 words, short paragraphs, no lists. Say how many distinct settings the learner reached and name any missing family in a few words without explaining it, since the next section does. Do not over-validate. Avoid generic praise (great job, excellent, well done). If the learner says they do not understand, give one concrete foothold, for example asking what a lab concludes when an elicitation run fails to raise a dangerous capability. If their next message still does not attempt the question, rephrase the whole question in different terms.
+
+#### Article
+from:: ##### Threat models.
+to:: We study this setting using AI R&D coding benchmarks.
 
 #### Question: Open
 id:: d549d460-e931-4422-82b4-0dba6d0c3df0
@@ -152,6 +169,10 @@ A simple way to provide proof of existence might be to find or elicit examples o
 In [[../Lenses/XLab Control - capability-elicitation-guided|the guided capability elicitation paper]] we discussed how hidden-capability phenomena can be studied through deliberately constructed model organisms. A constructed model organism replicating certain phenomena may not be representative of cases where the phenomenon is naturally occurring (and thus generalizing claims made on these model organisms to naturally occurring cases may be extrapolative). But a carefully constructed model organism would be more controllable and retain most of the key properties of a naturally occurring instance that we may want to study.
 
 In accordance with this, the paper's authors attempt to further understand exploration hacking through constructing and evaluating model organisms.
+
+#### Article
+from:: ## 3 Capability to Resist RL Training
+to:: We demonstrate that these _locked model organisms_ can successfully conceal their true capabilities even when subjected to our RL capability elicitation.
 
 #### Question: Open
 id:: d4fed5a7-a12e-45e2-9c06-ee8ac282ff1c
