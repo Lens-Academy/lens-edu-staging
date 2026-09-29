@@ -128,6 +128,8 @@ optional:: true
 
 #### Text
 content::
+---
+
 \## Step 5: Final Selection
 
 Based on your WFM scores above (and your gut, if it's telling you something different), fill in your top pick(s) below.
