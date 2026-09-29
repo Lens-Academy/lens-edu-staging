@@ -50,9 +50,13 @@ Exponentials grow fast. Extrapolating out, this trend predicts:
 - 2028: 1 work week (40 hours)
 - 2029: 1 work month (167 hours)
 
+![[../widgets/aidigest-time-horizons-d]]
+
 Recently, the trend has accelerated.
 
 In 2024-2025, time horizons doubled every 4 months, down from every 7 months over 2019-2025.
+
+![[../widgets/aidigest-time-horizons-e]]
 
 If the faster trend continues, agents might reach month-long tasks in 2027.
 
