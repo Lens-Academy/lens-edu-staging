@@ -7,7 +7,7 @@ tags: [wip]
 ---
 #### Text
 content::
-\## Week 7 Worksheet: Unblocking Your Impactful Career
+\# Week 7 Worksheet: Unblocking Your Impactful Career
 
 :::callout {title="Instructions" tone="blue"}
 
@@ -17,7 +17,7 @@ By the end of this worksheet, you should have named your top Head, Heart, and Ha
 
 ---
 
-\## Part 1: What Is My Top Uncertainty or Blocker?
+\# Part 1: What Is My Top Uncertainty or Blocker?
 
 **When you think about your career right now, where do you feel most stuck or uncertain - Head, Heart, or Hand? Take a moment to look back at the readings above if you're not sure which dimension fits.**
 
@@ -47,7 +47,7 @@ optional:: true
 content::
 ---
 
-\## Part 2: Take Next Steps on Your Blockers
+\# Part 2: Take Next Steps on Your Blockers
 
 For each of your top uncertainties, ask yourself: What could I do through my thesis or in the next 2 weeks, that would give me useful information about this uncertainty?
 
