@@ -72,6 +72,8 @@ Don't self-censor, and don't over-develop any single idea yet. Capture everythin
 
 For this step: Please duplicate a template of this thesis WFM and create your own version: [\[Shared\] Example Thesis WFM](https://docs.google.com/spreadsheets/d/1PDErMONW14zZOrXxoxRl5bH7ZsR1ytdFSA1QMTXOC9g/edit?gid=509738139#gid=509738139) and fill in your list of questions in the tab “Brainstorm of research questions”
 
+---
+
 \## Step 3: Iterative Narrowing \[20 min\]
 
 *(For more info and guidance, look at the readings on Step 3)*
@@ -80,6 +82,8 @@ For this step: Please duplicate a template of this thesis WFM and create your ow
 2. **Optional deeper pass (15-20 min per question):** if time allows, do a little light research on your shortlisted 5-10 before moving to Step 4.
 
 For this step: Please duplicate a template of this thesis WFM and create your own version: [\[Shared\] Example Thesis WFM](https://docs.google.com/spreadsheets/d/1PDErMONW14zZOrXxoxRl5bH7ZsR1ytdFSA1QMTXOC9g/edit?gid=509738139#gid=509738139) and score your questions in the tab “Brainstorm of research questions”
+
+---
 
 \## Step 4: Choose Your Top 1-2 with a Weighted Factor Model \[30 min\]
 
