@@ -4,51 +4,11 @@ title: "A new Moore's Law for AI agents"
 reading_minutes: 7
 tutor_minutes: 5
 tldr: "When ChatGPT came out in 2022, it could do 30 second coding tasks. Today, AI agents can autonomously do coding tasks that take humans over fourteen hours. Step through AI Digest's charts of METR's data and see where the trend points."
-summary_for_tutor: "AI Digest's scrolling explainer 'A new Moore's Law for AI agents' (theaidigest.org/time-horizons, CC-BY), laid out as graph, then the text that goes with it, step by step. The graphs are five widgets rebuilt from AI Digest's chart with its own METR Time Horizon 1.1 data and fit constants (linear y axis, 17 models from GPT-2 in 2019 to Claude Opus 4.6 in Feb 2026; 50% time horizon = the task length, in human time, an agent completes half the time). Sequence: (1) the measured points with a 7-month-doubling trend and band, with the intro (30-second tasks in 2022, over fourteen hours today); (2) a '2x / 7 months' staircase, with 'doubling every 7 months'; (1 again) with METR's method (about 230 mostly coding tasks, R^2 = 0.83, definition of time horizon); (3) extrapolation to 2030, with 'What comes next?' (1 work day 2027, 1 work week 2028, 1 work month 2029); (4) a red trend from 2024 doubling every 4 months, with 'Recently, the trend has accelerated'; (5) both trends projected to 2030, with the rest of the article: month-long tasks in 2027 if the faster trend holds, one year of data is thin, the trend could slow or turn superexponential as AIs speed up AI research, possibly one of the most important trends in human history. Then an ungraded open question (what could agents do in three years, what would show a slowdown) and an open chat."
+summary_for_tutor: "AI Digest's scrolling explainer 'A new Moore's Law for AI agents' (theaidigest.org/time-horizons, CC-BY), shown as the whole imported article with its graphs inside it, each graph before the text that goes with it. The graphs are five widgets rebuilt from AI Digest's chart with its own METR Time Horizon 1.1 data and fit constants (linear y axis, 17 models from GPT-2 in 2019 to Claude Opus 4.6 in Feb 2026; 50% time horizon = the task length, in human time, an agent completes half the time). Sequence: (1) the measured points with a 7-month-doubling trend and band, with the intro (30-second tasks in 2022, over fourteen hours today); (2) a '2x / 7 months' staircase, with 'doubling every 7 months' and METR's method (about 230 mostly coding tasks, R^2 = 0.83, definition of time horizon); (3) extrapolation to 2030, with 'What comes next?' (1 work day 2027, 1 work week 2028, 1 work month 2029); (4) a red trend from 2024 doubling every 4 months, with 'Recently, the trend has accelerated'; (5) both trends projected to 2030, with the rest of the article: month-long tasks in 2027 if the faster trend holds, one year of data is thin, the trend could slow or turn superexponential as AIs speed up AI research, possibly one of the most important trends in human history. Then an ungraded open question (what could agents do in three years, what would show a slowdown) and an open chat."
 tags: [wip]
 ---
-#### Widget
-source:: [[../widgets/aidigest-time-horizons-a]]
-
 #### Article
 source:: [[../articles/digest-a-new-moores-law-for-ai-agents-ai-digest]]
-from:: When ChatGPT came out in 2022, it could do 30 second coding tasks.
-to:: Today, AI agents can autonomously do coding tasks that take humans over fourteen hours.
-
-#### Widget
-source:: [[../widgets/aidigest-time-horizons-b]]
-
-#### Article
-from:: The length of coding tasks frontier systems can complete is growing exponentially
-to:: doubling every 7 months.
-
-#### Widget
-source:: [[../widgets/aidigest-time-horizons-a]]
-
-#### Article
-from:: This trend was discovered by researchers at
-to:: is growing exponentially
-
-#### Widget
-source:: [[../widgets/aidigest-time-horizons-c]]
-
-#### Article
-from:: ## What comes next?
-to:: 2029: 1 work month (167 hours)
-
-#### Widget
-source:: [[../widgets/aidigest-time-horizons-d]]
-
-#### Article
-from:: Recently, the trend has accelerated.
-to:: down from every 7 months over 2019-2025.
-
-#### Widget
-source:: [[../widgets/aidigest-time-horizons-e]]
-
-#### Article
-from:: If the faster trend continues, agents might reach month-long tasks in 2027.
-to:: might end up being one of the most important trends in human history.
 
 #### Question: Open
 id:: 7edb4c55-7570-4595-a1b3-8bbf5f9a45a3
