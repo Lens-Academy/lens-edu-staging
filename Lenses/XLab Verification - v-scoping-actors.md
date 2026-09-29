@@ -41,7 +41,7 @@ Table 2.  States, by position on the compute supply chain
 | United States | Chip design (NVIDIA, AMD), the largest frontier labs and cloud providers, and export-control law. | It can see and squeeze more of the chain than anyone. Its export rules are the closest thing to a working compute-control regime today. | Losing its lead; verification machinery being turned on its own firms. |
 | China | The other frontier developer. Manufacturing scale, rare earths and materials, its own designers, clouds, and labs. | No agreement is meaningful without it, and it controls inputs the rest of the chain needs. | Reads on-chip controls and inspections as surveillance and containment. |
 | Taiwan | TSMC, which fabricates the overwhelming share of leading-edge AI chips. | The single tightest physical chokepoint in the system. | Being both the prize and the battlefield in a conflict it does not control. |
-| Netherlands | ASML, the world’s only maker of EUV lithography machines. | One company in one country: one of the strongest levers anywhere in the system. | A small state carrying outsized geopolitical weight. |
+| Netherlands | ASML, the world’s only maker of EUV lithography machines. | One company in one country: one of the strongest levers anywhere in the system. | Being pulled into a rivalry it did not choose, with its one champion, ASML, as the lever. |
 | Japan | Semiconductor equipment (Tokyo Electron) and specialty materials. | Several quieter chokepoints in equipment and chemistry. | Pressure from both sides of the US-China rivalry. |
 | South Korea | Samsung and SK Hynix, the largest memory makers, including high-bandwidth memory (HBM). | HBM is scarce and essential to frontier training: a countable, checkable input. | Export exposure to China against alliance pressure from the US. |
 
@@ -212,7 +212,7 @@ options::
 - [x] The regulated activity itself: a training run above the threshold.
 - The states that signed the agreement.
 - The frontier labs the obligations land on.
-- The chips the threshold is counted in.
+- The chips themselves, the hardware the run is counted on.
 feedback-instructions:: Give XLab's reasoning for the option chosen. The activity: "The map is of a rule, and a rule is about an act. It is also what the verification literature centres: Baker's framework takes the approach of compute accounting, which is the same act said in compute. Put it in the centre and every ring becomes an answer to one question: what part do you play in accounting for this run?" The signatories: "'Not the people who signed. Governments do not train frontier models.' Centre them and the map says the treaty regulates its own signatories rather than an activity. Then watch for what looks like a contradiction two steps from now: the signatories do end up on the innermost RING, because in an international agreement the party that owes the declaration is the government. Owing a declaration and performing the act are different things, and the centre is the act." The labs: "Close, and it is why they sit on the first ring. But the labs are who does the act, not the act, and a map centred on them has nowhere to put a run that happens somewhere else, under someone else's name." The chips: "The chips are what makes the act countable from outside, which is a property of the mechanism rather than of the rule. Centre the map here and every institution on it becomes an afterthought." Two or three sentences, no praise.
 
 #### Text
@@ -224,7 +224,7 @@ content::
 
 **The frontier labs the obligations land on.** Close, and it is why they sit on the first ring. But the labs are who does the act, not the act, and a map centred on them has nowhere to put a run that happens somewhere else, under someone else’s name.
 
-**The chips the threshold is counted in.** The chips are what makes the act countable from outside, which is a property of the mechanism rather than of the rule. Centre the map here and every institution on it becomes an afterthought.
+**The chips themselves, the hardware the run is counted on.** The chips are what makes the act countable from outside, which is a property of the mechanism rather than of the rule. Centre the map here and every institution on it becomes an afterthought.
 :::
 
 \### 4. Place
