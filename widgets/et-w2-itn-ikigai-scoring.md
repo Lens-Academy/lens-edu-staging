@@ -1,0 +1,164 @@
+---
+id: 'fd37cf89-c433-4567-8b13-6f0728388118'
+title: "Week 2 ITN & Ikigai Scoring Table"
+summary_for_tutor: "A spreadsheet-style table where the learner scores up to 5 shortlisted problem areas on Importance, Neglectedness, Tractability and Ikigai fit (each 1-5), with free-text columns for an ITN comment, an Ikigai comment and main uncertainties. A total out of 20 is calculated per row and the highest-scoring row is highlighted. The saved summary lists each problem with its scores and notes."
+height: auto
+tags: [wip]
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<style>
+:root {
+  --bg: #ffffff; --text: #1a1a1a; --muted: #5a5a5a; --border: #e8e5df;
+  --accent: #b87018; --accent-hover: #9a5c10; --soft: #faf8f3;
+  --font-ui: "DM Sans", Arial, sans-serif; --font-heading: "Newsreader", Georgia, serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; padding: 4px 0; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
+.eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+.hint { color: var(--muted); font-size: 13px; margin: 0 0 10px; }
+.scroll { overflow-x: auto; border: 1px solid var(--border); border-radius: 8px; }
+table { border-collapse: collapse; min-width: 1150px; width: 100%; }
+th, td { border-right: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 0; vertical-align: top; }
+th:last-child, td:last-child { border-right: none; }
+tbody tr:last-child td { border-bottom: none; }
+th { background: var(--soft); font-weight: 600; font-size: 12px; text-align: left; padding: 8px; }
+th.num, td.num { text-align: center; }
+td.rowlabel { background: var(--soft); font-weight: 600; font-size: 12px; padding: 8px; white-space: nowrap; color: var(--muted); }
+textarea { width: 100%; min-height: 64px; border: none; resize: vertical; padding: 8px; font: inherit; color: inherit; background: transparent; }
+textarea:focus, select:focus { outline: 2px solid var(--accent); outline-offset: -2px; }
+select { width: 100%; height: 64px; border: none; font: inherit; text-align: center; background: transparent; color: inherit; cursor: pointer; }
+td.total { font-weight: 600; padding: 8px; text-align: center; vertical-align: middle; min-width: 80px; }
+tr.top td.total { background: var(--accent); color: #fff; }
+tr.top td.rowlabel { color: var(--accent); }
+.legend { margin-top: 8px; font-size: 12px; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="eyebrow">Part 2 scoring table</div>
+<p class="hint">Score each shortlisted problem from 1 (low) to 5 (high). The total adds up Importance, Neglectedness, Tractability and Ikigai, and the highest-scoring row is highlighted. Your answers save automatically. Scroll sideways to see all columns.</p>
+<div class="scroll"><table id="t"></table></div>
+<p class="legend">Problems 4 and 5 are optional. The total is a starting point for reflection, not a verdict - trust what surprises you!</p>
+<script>
+(function () {
+  var COLS = [
+    { k: "problem", label: "Problem area", type: "text", w: 190 },
+    { k: "i", label: "Importance (1-5)", type: "score", w: 95 },
+    { k: "n", label: "Neglectedness (1-5)", type: "score", w: 105 },
+    { k: "t", label: "Tractability (1-5)", type: "score", w: 100 },
+    { k: "itnc", label: "ITN comment", type: "text", w: 180 },
+    { k: "ik", label: "Ikigai (1-5)", type: "score", w: 85 },
+    { k: "ikc", label: "Ikigai comment", type: "text", w: 180 },
+    { k: "unc", label: "Main uncertainties & open questions", type: "text", w: 200 }
+  ];
+  var N = 5;
+  var rows = [];
+  for (var r = 0; r < N; r++) rows.push({});
+  var table = document.getElementById("t");
+  var totalCells = [];
+  var trs = [];
+
+  function num(v) { var x = parseInt(v, 10); return isNaN(x) ? 0 : x; }
+  function total(row) { return num(row.i) + num(row.n) + num(row.t) + num(row.ik); }
+
+  function summary() {
+    var parts = [];
+    rows.forEach(function (row, idx) {
+      if (!row.problem) return;
+      parts.push("Problem " + (idx + 1) + ": " + row.problem + " (I " + (row.i || "-") + ", N " + (row.n || "-") + ", T " + (row.t || "-") + ", Ikigai " + (row.ik || "-") + ", total " + total(row) + "/20)." +
+        (row.itnc ? " ITN note: " + row.itnc + "." : "") + (row.ikc ? " Ikigai note: " + row.ikc + "." : "") + (row.unc ? " Uncertainties: " + row.unc + "." : ""));
+    });
+    return parts.length ? "ITN & Ikigai scoring table. " + parts.join(" ") : "ITN & Ikigai scoring table is still empty.";
+  }
+
+  function refreshTotals() {
+    var best = -1, bestIdx = -1;
+    rows.forEach(function (row, idx) {
+      var tt = total(row);
+      totalCells[idx].textContent = row.problem || tt ? tt + " / 20" : "-";
+      if (row.problem && tt > best) { best = tt; bestIdx = idx; }
+    });
+    trs.forEach(function (tr, idx) { tr.className = (idx === bestIdx && best > 0) ? "top" : ""; });
+  }
+
+  function save() {
+    refreshTotals();
+    if (window.Lens) window.Lens.saveState({ rows: rows }, summary());
+  }
+
+  function build() {
+    table.textContent = "";
+    totalCells = []; trs = [];
+    var thead = document.createElement("thead");
+    var hr = document.createElement("tr");
+    var th0 = document.createElement("th"); th0.textContent = "#"; hr.appendChild(th0);
+    COLS.forEach(function (c) {
+      var th = document.createElement("th");
+      th.textContent = c.label;
+      th.style.minWidth = c.w + "px";
+      if (c.type === "score") th.className = "num";
+      hr.appendChild(th);
+    });
+    var tht = document.createElement("th"); tht.textContent = "Total"; tht.className = "num"; hr.appendChild(tht);
+    thead.appendChild(hr);
+    table.appendChild(thead);
+
+    var tbody = document.createElement("tbody");
+    rows.forEach(function (row, idx) {
+      var tr = document.createElement("tr");
+      var lab = document.createElement("td");
+      lab.className = "rowlabel";
+      lab.textContent = (idx + 1) + (idx >= 3 ? " (optional)" : "");
+      tr.appendChild(lab);
+      COLS.forEach(function (c) {
+        var td = document.createElement("td");
+        var el;
+        if (c.type === "score") {
+          td.className = "num";
+          el = document.createElement("select");
+          ["", "1", "2", "3", "4", "5"].forEach(function (v) {
+            var o = document.createElement("option");
+            o.value = v; o.textContent = v === "" ? "-" : v;
+            el.appendChild(o);
+          });
+          el.value = row[c.k] || "";
+          el.addEventListener("change", function () { row[c.k] = el.value; save(); });
+        } else {
+          el = document.createElement("textarea");
+          el.value = row[c.k] || "";
+          el.placeholder = "Write here";
+          el.addEventListener("input", function () { row[c.k] = el.value; save(); });
+        }
+        el.setAttribute("aria-label", c.label + " for problem " + (idx + 1));
+        td.appendChild(el);
+        tr.appendChild(td);
+      });
+      var tot = document.createElement("td");
+      tot.className = "total";
+      totalCells.push(tot);
+      tr.appendChild(tot);
+      trs.push(tr);
+      tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    refreshTotals();
+  }
+
+  build();
+  if (window.Lens) {
+    window.Lens.onState(function (state) {
+      if (state && state.rows && state.rows.length) {
+        rows = state.rows.slice(0, N);
+        while (rows.length < N) rows.push({});
+        build();
+      }
+    });
+  }
+})();
+</script>
+</body>
+</html>
