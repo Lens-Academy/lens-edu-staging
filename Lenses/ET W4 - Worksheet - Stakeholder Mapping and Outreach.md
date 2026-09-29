@@ -7,7 +7,7 @@ tags: [wip]
 ---
 #### Text
 content::
-\## Week 4 Worksheet: Stakeholder Mapping and Outreach
+\# Week 4 Worksheet: Stakeholder Mapping and Outreach
 
 :::callout {title="Instructions" tone="blue"}
 
@@ -17,7 +17,7 @@ By the end of this worksheet, you will have a list of real, named stakeholders w
 
 ---
 
-\## Part 1: Your Research Question and Bottleneck \[5 min\]
+\# Part 1: Your Research Question and Bottleneck \[5 min\]
 
 Make a quick note or copy-paste of your research question and bottleneck from last week!
 
