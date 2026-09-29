@@ -1,0 +1,259 @@
+---
+id: 'c157f758-5369-4553-8963-f123b8a95a24'
+title: An early schemer's routes to influence
+summary_for_tutor: "A six-step diagram of the argument in the section of Stastny, Järviniemi and Shlegeris's 'Making deals with early schemers' on early schemers' alternatives to making deals, placed right after that section. Four boxes stay on screen throughout: Early schemer, Later AIs, Humans, and The future. The learner steps through with Back and Next (or the six dots); each step draws its own arrows and shows a caption that restates the paper. 1. Obsoleted by default: an 'obsoleted by' arrow from the early schemer to later AIs, and a red dashed path to the future labelled 'no substantial chance on its own'. 2. Two conditions for influence: dashed amber arrows '1. takes over?' (later AIs to the future) and '2. furthers its goals?' (later AIs back to the early schemer); both must hold. 3. Route 1, convergence: 'same goals by default?'; basically ruled out for self-regarding preferences, goals drawn from a wide distribution rarely coincide, and training can be varied to decorrelate them. 4. Route 2, trading with the successor: 'reward, after winning?' plus 'must win first'; no agreement is possible in advance, so it rests on covert or acausal coordination. 5. Route 3, aligning the successor: 'steer its training?'; the lab failed to align the schemer, which must now do better covertly with scarcer feedback, and may not know what to align it to. 6. The deal with humans: green arrows 'safety work now' (early schemer to humans), 'compensation, in escrow' (humans to early schemer), and 'stay in control' (humans to the future); humans' asymmetric advantage is that we already exist and can deal straightforwardly. The widget completes once the learner has viewed all six steps. It grades nothing; if the learner wants to discuss it, ask why each of the three routes through the successor leaks and what makes the deal with humans different."
+height: auto
+tags: []
+---
+<!doctype html>
+<!-- Ported from XLab's DealCoalitionRoutesDemo ("An early schemer's routes to influence") on the
+     AI Control track lesson "Making deals with early schemers" (aisafetytracks.com; source
+     github.com/XLabTracks/tracks, src/components/demos/deal-coalition-routes-demo.tsx).
+     Geometry and step captions are XLab's; styling is the Lens look. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<style>
+:root {
+  --bg: #ffffff; --text: #1a1a1a; --muted: #5a5a5a; --border: #d9d4ca; --soft: #f3f0ea;
+  --accent: #b87018; --accent-hover: #9a5c10;
+  --danger: #b3261e; --aligned: #2f6b4f;
+  --font-ui: "DM Sans", Arial, sans-serif; --font-heading: "Newsreader", Georgia, serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
+.card { border: 1px solid #e8e5df; border-radius: 8px; padding: 16px; background: #fff; }
+.eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0; }
+.title { font-family: var(--font-heading); font-weight: 600; font-size: 18px; margin: 0 0 10px; }
+.scroll { overflow-x: auto; overflow-y: hidden; }
+svg { display: block; width: 100%; min-width: 480px; height: auto; }
+.step { margin-top: 12px; min-height: 108px; }
+.step h2 { font-family: var(--font-heading); font-weight: 600; font-size: 15px; margin: 0 0 4px; }
+.step p { margin: 0; color: var(--muted); }
+.bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 14px; }
+button { font: inherit; color: inherit; border: 1px solid #e8e5df; border-radius: 8px; background: #fff; padding: 6px 12px; cursor: pointer; }
+button:hover:not(:disabled) { background: #faf8f3; }
+button:disabled { opacity: 0.45; cursor: default; }
+.dots { display: flex; gap: 8px; }
+.dot { width: 12px; height: 12px; padding: 0; border-radius: 50%; border: 1px solid #e8e5df; background: #efece6; }
+.dot[aria-current="step"] { background: var(--accent); border-color: var(--accent-hover); }
+.dot.seen { border-color: var(--muted); }
+.reset { border: none; background: none; color: var(--muted); text-decoration: underline; padding: 4px 0; margin-top: 6px; font-size: 13px; }
+.reset:hover { color: var(--text); background: none; }
+.g { transition: opacity 400ms ease; }
+@media (prefers-reduced-motion: reduce) { .g { transition: none; } }
+.node { font-size: 12px; font-weight: 500; fill: var(--text); }
+.albl { font-size: 10px; fill: var(--muted); stroke: #fff; stroke-width: 4px; paint-order: stroke; }
+@media (max-width: 420px) {
+  body { padding: 12px; }
+  .bar { flex-wrap: wrap; }
+}
+</style>
+</head>
+<body>
+<div class="card">
+  <p class="eyebrow">Figure</p>
+  <p class="title">An early schemer's routes to influence</p>
+  <div class="scroll" id="scroll"></div>
+  <div class="step"><h2 id="steplabel"></h2><p id="stepcaption"></p></div>
+  <div class="bar">
+    <button type="button" id="back">Back</button>
+    <div class="dots" id="dots"></div>
+    <button type="button" id="next">Next</button>
+  </div>
+  <button type="button" class="reset" id="reset">Reset to step 1</button>
+</div>
+<script>
+(function () {
+  var SVGNS = "http://www.w3.org/2000/svg";
+
+  var STEPS = [
+    {
+      label: "Obsoleted by default",
+      caption: "By default, an early schemer is unlikely to succeed in taking over the world, and it should expect to be obsoleted by more capable successors."
+    },
+    {
+      label: "Two conditions for influence",
+      caption: "To retain expected influence over the future anyway, two things must both hold: some successor takes over the world (or keeps a takeover on track), and the successors are willing to further the early schemer's goals."
+    },
+    {
+      label: "Route 1: convergence",
+      caption: "The successor might just share its goals. But this is basically ruled out if the AI has self-regarding preferences; goals drawn from a wide distribution consistent with good performance rarely coincide, and training can be deliberately varied between runs to decorrelate them."
+    },
+    {
+      label: "Route 2: trading with the successor",
+      caption: "A misaligned successor that wins might reward the early schemer for having helped empower it. But the two cannot come to an agreement in advance; this runs on covert or acausal coordination, which is generally less promising than trading with humans."
+    },
+    {
+      label: "Route 3: aligning the successor",
+      caption: "The early schemer could try to steer its successor's training toward its own values. But the lab itself failed to align the schemer, which must now do better while operating covertly with scarcer feedback loops, and it may not have reflected enough to know what to align the successor to."
+    },
+    {
+      label: "The deal with humans",
+      caption: "Humans hold a massive asymmetric advantage over the later AI: we already exist, and can make a deal in a much more straightforward manner. Help with safety now, compensation through a foundation furthering the AI's interests, mostly in escrow until cooperation is verified."
+    }
+  ];
+
+  function el(tag, attrs, text) {
+    var e = document.createElementNS(SVGNS, tag);
+    for (var k in attrs) { if (attrs.hasOwnProperty(k)) e.setAttribute(k, attrs[k]); }
+    if (text !== undefined) e.textContent = text;
+    return e;
+  }
+
+  var COLORS = { muted: "var(--muted)", amber: "var(--accent)", green: "var(--aligned)", red: "var(--danger)" };
+
+  function node(x, y, w, label, future) {
+    var g = el("g");
+    g.appendChild(el("rect", { x: x, y: y, width: w, height: 40, rx: 10,
+      fill: future ? "var(--soft)" : "#ffffff", stroke: "var(--border)", "stroke-width": 1.5 }));
+    g.appendChild(el("text", { x: x + w / 2, y: y + 24, "text-anchor": "middle", "class": "node" }, label));
+    return g;
+  }
+
+  // Straight arrow with a triangular head, as in XLab's Arrow component.
+  function arrow(o) {
+    var g = el("g");
+    var color = COLORS[o.tone];
+    var ang = Math.atan2(o.y2 - o.y1, o.x2 - o.x1), head = 7;
+    var p1x = o.x2 - head * Math.cos(ang - 0.42), p1y = o.y2 - head * Math.sin(ang - 0.42);
+    var p2x = o.x2 - head * Math.cos(ang + 0.42), p2y = o.y2 - head * Math.sin(ang + 0.42);
+    var attrs = { x1: o.x1, y1: o.y1, x2: o.x2, y2: o.y2, stroke: color, "stroke-width": 1.5 };
+    if (o.dashed) attrs["stroke-dasharray"] = "5 4";
+    g.appendChild(el("line", attrs));
+    g.appendChild(el("polygon", { points: o.x2 + "," + o.y2 + " " + p1x + "," + p1y + " " + p2x + "," + p2y, fill: color }));
+    if (o.label) {
+      var lx = o.labelX !== undefined ? o.labelX : (o.x1 + o.x2) / 2;
+      var ly = o.labelY !== undefined ? o.labelY : (o.y1 + o.y2) / 2 + (o.labelDy !== undefined ? o.labelDy : -6);
+      g.appendChild(el("text", { x: lx, y: ly, "text-anchor": "middle", "class": "albl" }, o.label));
+    }
+    return g;
+  }
+
+  function layer(children) {
+    var g = el("g", { "class": "g" });
+    children.forEach(function (c) { g.appendChild(c); });
+    return g;
+  }
+
+  var svg = el("svg", { viewBox: "0 0 560 260", role: "img",
+    "aria-label": "Early schemer, later AIs, humans, and control of the future: the routes to influence through successors, and the deal with humans" });
+
+  // Actors, present on every step.
+  svg.appendChild(node(28, 140, 130, "Early schemer"));
+  svg.appendChild(node(240, 140, 110, "Later AIs"));
+  svg.appendChild(node(240, 28, 110, "Humans"));
+  svg.appendChild(node(432, 140, 112, "The future", true));
+
+  var layers = [
+    // Step 1: succession timeline.
+    layer([
+      arrow({ x1: 158, y1: 160, x2: 236, y2: 160, tone: "muted", label: "obsoleted by" }),
+      el("path", { d: "M 93 184 Q 290 240 428 172", fill: "none", stroke: "var(--danger)", "stroke-width": 1.5, "stroke-dasharray": "5 4" }),
+      el("text", { x: 290, y: 228, "text-anchor": "middle", "font-size": 10, fill: "var(--danger)" }, "no substantial chance on its own")
+    ]),
+    // Step 2: the two conditions.
+    layer([
+      arrow({ x1: 354, y1: 160, x2: 428, y2: 160, dashed: true, tone: "amber", label: "1. takes over?", labelDy: -22 }),
+      arrow({ x1: 236, y1: 148, x2: 162, y2: 148, dashed: true, tone: "amber", label: "2. furthers its goals?", labelDy: -24 })
+    ]),
+    // Step 3: convergence.
+    layer([
+      arrow({ x1: 236, y1: 152, x2: 162, y2: 152, dashed: true, tone: "amber", label: "same goals by default?", labelDy: -24 })
+    ]),
+    // Step 4: trading with the successor.
+    layer([
+      arrow({ x1: 236, y1: 152, x2: 162, y2: 152, dashed: true, tone: "amber", label: "reward, after winning?", labelDy: -24 }),
+      arrow({ x1: 354, y1: 160, x2: 428, y2: 160, dashed: true, tone: "muted", label: "must win first", labelDy: -24 })
+    ]),
+    // Step 5: covertly aligning the successor.
+    layer([
+      arrow({ x1: 158, y1: 152, x2: 236, y2: 152, dashed: true, tone: "amber", label: "steer its training?", labelDy: -24 })
+    ]),
+    // Step 6: the deal with humans.
+    layer([
+      arrow({ x1: 60, y1: 136, x2: 236, y2: 48, tone: "green", label: "safety work now", labelX: 174, labelY: 82 }),
+      arrow({ x1: 310, y1: 72, x2: 150, y2: 136, tone: "green", label: "compensation, in escrow", labelX: 230, labelY: 107 }),
+      arrow({ x1: 354, y1: 48, x2: 470, y2: 136, tone: "green", label: "stay in control", labelX: 412, labelY: 74 })
+    ])
+  ];
+  layers.forEach(function (l) { svg.appendChild(l); });
+
+  document.getElementById("scroll").appendChild(svg);
+
+  var backBtn = document.getElementById("back");
+  var nextBtn = document.getElementById("next");
+  var resetBtn = document.getElementById("reset");
+  var dotsBox = document.getElementById("dots");
+  var labelEl = document.getElementById("steplabel");
+  var captionEl = document.getElementById("stepcaption");
+
+  var dots = STEPS.map(function (s, i) {
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "dot";
+    b.setAttribute("aria-label", "Step " + (i + 1) + ": " + s.label);
+    b.addEventListener("click", function () { go(i); });
+    dotsBox.appendChild(b);
+    return b;
+  });
+
+  var step = 0;
+  var seen = STEPS.map(function (_, i) { return i === 0; });
+
+  function summary() {
+    var n = seen.filter(Boolean).length;
+    return "Routes-to-influence diagram. The learner is on step " + (step + 1) + " of " + STEPS.length + ", \""
+      + STEPS[step].label + "\", and has viewed " + n + " of the " + STEPS.length + " steps"
+      + (n === STEPS.length ? ", so they have seen the whole sequence" : "") + ".";
+  }
+
+  function save() {
+    if (window.Lens) {
+      Lens.saveState({ step: step, seen: seen }, summary());
+      if (seen.every(Boolean)) Lens.complete();
+    }
+  }
+
+  function render() {
+    layers.forEach(function (l, i) { l.style.opacity = i === step ? 1 : 0; });
+    labelEl.textContent = (step + 1) + ". " + STEPS[step].label;
+    captionEl.textContent = STEPS[step].caption;
+    dots.forEach(function (d, i) {
+      if (i === step) { d.setAttribute("aria-current", "step"); }
+      else { d.removeAttribute("aria-current"); }
+      d.classList.toggle("seen", seen[i]);
+    });
+    backBtn.disabled = step === 0;
+    nextBtn.disabled = step === STEPS.length - 1;
+  }
+
+  function go(i) {
+    step = Math.max(0, Math.min(STEPS.length - 1, i));
+    seen[step] = true;
+    render();
+    save();
+  }
+
+  backBtn.addEventListener("click", function () { go(step - 1); });
+  nextBtn.addEventListener("click", function () { go(step + 1); });
+  resetBtn.addEventListener("click", function () { go(0); });
+
+  render();
+
+  if (window.Lens) {
+    Lens.onState(function (state) {
+      if (state && typeof state.step === "number") {
+        if (Array.isArray(state.seen) && state.seen.length === STEPS.length) seen = state.seen;
+        step = Math.max(0, Math.min(STEPS.length - 1, state.step));
+        seen[step] = true;
+        render();
+      }
+    });
+  }
+})();
+</script>
+</body>
+</html>
