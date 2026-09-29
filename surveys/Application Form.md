@@ -155,7 +155,6 @@ options::
 - SPAR
 - ERA Fellowship
 - Cooperative AI Foundation
-- MIT AI Alignment (MAIA)
 - BASE (Black in AI Safety and Ethics)
 - Sentient Futures
 - CAIDP (Center for AI and Digital Policy)
