@@ -17,7 +17,7 @@ This week's focus is on figuring out what's actually blocking your career direct
 
 For this week, there will be a Reading, a Worksheet, and an optional Journalling Tab.
 
-\### Instructions
+\## Instructions
 
 - Please complete the readings and worksheet before your weekly discussion with your facilitator.
 - Attend your Weekly Discussion with your cohort.
@@ -25,9 +25,7 @@ For this week, there will be a Reading, a Worksheet, and an optional Journalling
 
 ---
 
-\# Week 7 Reading
-
-\## Unblocking your Impactful Career
+\# Week 7 Reading: Unblocking Your Impactful Career
 
 Career uncertainties usually show up as one vague problem: *"I don't know what I should do."* But that sentence can be hiding three different problems tangled together, and each one needs a different response to actually resolve. This week is about discovering what you're stuck on, and taking small actions on the thing that will actually make progress on it!
 
