@@ -119,7 +119,6 @@ description:: 100–200 words. Prioritise being concise and concrete; bullet poi
 max-chars:: 2000
 required:: true
 
-
 #### Question
 key:: proud_projects
 content:: Describe 1–3 projects you've done that you're most proud of (work-related is fine).
