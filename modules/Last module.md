@@ -29,9 +29,6 @@ What can I do to shape that future?
 
 
 # Lens:
-source:: ![[../Lenses/Machines Of Loving Grace]]
-
-# Lens:
 source:: ![[../Lenses/The World Keeps Getting Saved]]
 
 # Lens:
@@ -44,3 +41,6 @@ source:: ![[../Lenses/The Goddess Of Everything Else]]
 
 # Lens:
 source:: [[../Lenses/Next steps]]
+
+# Lens:
+source:: ![[../Lenses/Letter From Utopia]]
