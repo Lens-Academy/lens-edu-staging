@@ -23,7 +23,9 @@ For this week, there will be a Reading and an optional Journalling Tab (no works
 - Attend your Weekly Discussion with your cohort to present and hear from your peers.
 - Explore the Journalling Tab for your final reflections and takeaways.
 
-\## Week 8 Reading: Final Presentations!
+---
+
+\# Week 8 Reading: Final Presentations!
 
 You made it to Week 8! 🎉
 
