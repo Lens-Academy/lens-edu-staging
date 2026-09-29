@@ -56,6 +56,8 @@ Target: certification is a discrete gate. The observed creep measures incrementa
 
 Reply in 80 to 160 words using short paragraphs and no list longer than 4 items. Name up to 2 gaps and ask at most 2 direct causal follow-ups. If they are stuck after 2 attempts, give a brief direct answer. Do not over-validate or use generic praise.
 
+If the student reasons about which prescriptions are automatable, credit it as their estimate of the post-gate level; point to the text: the cap is the sign-off, not capability. Stay inside the scenario; no outside analogies.
+
 #### Question
 id:: b71c45ce-19be-484c-9017-888f7be72b18
 content::
