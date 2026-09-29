@@ -48,6 +48,20 @@ Reminder to look at whole cohort sessions in the Calendar [here](https://calenda
 
 We’re committed to making sure you feel supported, confident, and connected throughout the Accelerator. Please don’t hesitate to reach out to your assigned cohort facilitator or Alex ([alex@effectivethesis.org](mailto:alex@effectivethesis.org)), or in our WhatsApp chat if you need anything!
 
+---
+
+\# 🎥 Quick Overview of How to Use This Platform
+
+New to Lens? Before diving in, we recommend watching this short walkthrough of how to navigate the platform, from finding your weekly readings and worksheets to saving your answers along the way!
+
+:::callout {title="Platform Walkthrough Video" tone="purple"}
+
+👉 [Watch the platform walkthrough video](https://drive.google.com/file/u/1/d/11FG1uyoiV-PoUWGSyhXaT1UYCOgK_43J/view?usp=sharing)
+
+:::
+
+---
+
 \## 📌 Key Information
 
 \### 📅 Program Structure
