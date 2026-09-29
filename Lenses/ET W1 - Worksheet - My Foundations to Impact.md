@@ -136,8 +136,9 @@ optional:: true
 
 #### End Callout
 
-#### Callout: Career Hypothesis #3
+#### Callout: Career Hypothesis #3 (optional)
 tone:: purple
+collapse:: closed
 
 #### Question: Open
 id:: 9841286c-9d9f-406e-8449-ff77d4caaa16
