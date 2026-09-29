@@ -139,6 +139,7 @@ options::
 - Center for AI Safety course
 - AI Safety Camp
 - ML4Good
+- Lens Academy (another course)
 - ARENA
 - SPAR
 - ERA Fellowship
