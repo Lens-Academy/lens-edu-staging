@@ -37,8 +37,10 @@ optional:: true
 
 #### Text
 content::
-\### Additional Readings on Ikigai
+:::callout {title="📚 Additional Readings on Ikigai" tone="green"}
 
 - [IKIGAI | A Japanese Philosophy for Finding Purpose](https://www.youtube.com/watch?v=4LE5bel_GvU)
-- **[Ikigai: what it is and how to use ikigai to find your purpose — Calm Blog](https://www.calm.com/blog/ikigai)**
+- **[Ikigai: what it is and how to use ikigai to find your purpose - Calm Blog](https://www.calm.com/blog/ikigai)**
 - **[An Introduction To Ikigai: Your Reason For Being | Medium](https://medium.com/@terrayou/an-introduction-to-ikigai-your-reason-for-being-3c9e850392d8)**
+
+:::
