@@ -238,6 +238,8 @@ Your impactful career, like your thesis, isn't a fixed destination you arrive at
 
 ⭐ **Top impactful career exploration recommendation: experiment to gain information, rather than trying to think your way to the perfect option.**
 
+---
+
 \## Next Steps
 
 - **Week 7 Worksheet on Unblocking Your Career Path.** Work on your worksheet before the discussion, especially if you’re in the mastermind for this week!
