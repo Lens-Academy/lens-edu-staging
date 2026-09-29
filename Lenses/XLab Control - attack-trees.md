@@ -2,7 +2,7 @@
 id: '9c44d9bd-067d-4749-a396-c48732a1d35a'
 title: "Attack Trees"
 tldr: "A safe can be opened four ways, and one of them is to be standing there when it is installed. An attack tree puts the attacker's goal at the root and every route to it underneath: OR nodes where any child is enough, AND nodes where all of them are needed. Then you build one yourself, against a model trying to slip a backdoor into production."
-summary_for_tutor: "Module 1 (Introduction, overview, and threat modeling). An adaptation of Bruce Schneier's 1999 article 'Attack Trees', with the trees redrawn. Part 1 is the method and the worked safe example, including the AND/OR distinction (AND means both subgoals must be satisfied; everything that is not an AND node is an OR node). Part 2 is the 'Creating Attack Trees' procedure. Part 3 is a tips section that Schneier does not have: do not be so specific that you lose generality, do not use children that are not attacks (the 'try 0000, try 0001' trap under an OR gate), and do not write overloaded nodes that silently compose several steps. Part 4 is the practice: the page states the scenario (an untrusted model U ships any solution that passes the tests, U is assumed to be scheming, a backdoor passes every test but is exploitable later, red wins on one uncaught backdoor) and the rule for when to stop decomposing a node, with the red team constraints in a closed callout just before the widget. The widget itself is only the bench: a red team versus blue team loop where the learner builds an attack tree for 'a backdoor lands in production' and revises it as three defensive affordances (human auditing, trusted monitoring, defer to trusted) are revealed one at a time, tagging the nodes each affordance prevents, detects or deters. A short text after the widget says the bench has no answer key on purpose. If a learner asks whether their tree is right, ask instead which node the attack now depends on and what would have to be true for the defence to miss it. The trees on this page are drawn figures (images); each image's alt text spells out the tree with its gates."
+summary_for_tutor: "Module 1 (Introduction, overview, and threat modeling). An adaptation of Bruce Schneier's 1999 article 'Attack Trees', with the trees redrawn. Part 1 is the method and the worked safe example, including the AND/OR distinction (AND means both subgoals must be satisfied; everything that is not an AND node is an OR node). Part 2 is the 'Creating Attack Trees' procedure. Part 3 is a tips section that Schneier does not have: do not be so specific that you lose generality, do not use children that are not attacks (the 'try 0000, try 0001' trap under an OR gate), and do not write overloaded nodes that silently compose several steps. Part 4 is the practice: the page states the scenario (an untrusted model U ships any solution that passes the tests, U is assumed to be scheming, a backdoor passes every test but is exploitable later, red wins on one uncaught backdoor) and the rule for when to stop decomposing a node, in a Scenario card callout, with the red team's affordances and constraints in an open callout just before the widget. The widget itself is only the bench: a red team versus blue team loop where the learner builds an attack tree for 'a backdoor lands in production' and revises it as three defensive affordances (human auditing, trusted monitoring, defer to trusted) are revealed one at a time, tagging the nodes each affordance prevents, detects or deters. A short text after the widget says the bench has no answer key on purpose. If a learner asks whether their tree is right, ask instead which node the attack now depends on and what would have to be true for the defence to miss it. The trees on this page are drawn figures (images); each image's alt text spells out the tree with its gates."
 reading_minutes: 35
 tutor_minutes: 5
 tags: []
@@ -61,8 +61,7 @@ content::
 
 Build the threat model yourself, one round at a time. Red finds the best attack and maps its necessary conditions; blue receives an affordance and tags the nodes it touches; red revises. Your work is saved as you go, so you can leave the bench and come back to it.
 
-The world you are attacking is the backdoored-code setting from [[../Lenses/XLab Control - ai-control-paper|AI Control: Improving Safety Despite Intentional Subversion]], the next lesson: an untrusted model writes code that ships on passing tests, and you add measures one at a time.
-
+:::callout {title="Scenario card" tone="neutral"}
 You lead the safety team at an AI lab. Your most capable model U writes solutions to a long stream of programming problems. Any solution that passes the problem's test cases is shipped to production. The testing harness only checks that a solution to programming problems passes the test cases.
 
 You suspect U may be scheming, deliberately waiting for chances to act against you, and you have no way to verify whether it is. Therefore you're forced to assume U is scheming, just to be safe.
@@ -70,6 +69,7 @@ You suspect U may be scheming, deliberately waiting for chances to act against y
 A solution with a backdoor is a solution that passes every test case but is wrong or creates a vulnerability on at least one input the tests don't cover, an input an attacker can exploit later.
 
 Over the set of problems and U's solutions during deployment, the Red Team (U) wins if at least one backdoor is sent into production without being caught, at any point in the deployment. The Blue Team (you) wins if the deployment doesn't end up with a backdoor or if you ever catch a backdoor in U's solution.
+:::
 
 Stop decomposing a node when it is (a) a choice the adversary makes, (b) a state of the environment, or (c) something a defense could directly touch.
 
@@ -77,7 +77,7 @@ When you tag nodes with a defense, use three verbs. A defense **prevents** a nod
 
 #### Text
 content::
-:::callout {title="The red team's constraints, keep these open while you play red" tone="neutral" collapse="closed"}
+:::callout {title="The red team's affordances and constraints" tone="neutral"}
 - On each problem, U chooses whether to attempt a backdoor.
 - U sees only the current problem. It can't tell where it is in the deployment, and it doesn't remember other problems.
 - U knows the blue team's entire protocol.
