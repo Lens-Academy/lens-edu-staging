@@ -142,94 +142,6 @@ Fill in the table below for your 3-5 shortlisted problems (or use the second tab
 #### Widget
 source:: [[../widgets/et-w2-itn-ikigai-scoring]]
 
-#### Question: Open
-id:: 92b1887c-6cc8-4f79-9cba-c0ee8db50bda
-content:: 4: Problem Area
-optional:: true
-
-#### Question: Rating
-id:: 8fde65b9-ab30-400c-87eb-1257929ead40
-content:: 4: Importance
-scale:: 5
-optional:: true
-
-#### Question: Rating
-id:: af938d00-169a-44db-99d6-28405b154cfa
-content:: 4: Tractability
-scale:: 5
-optional:: true
-
-#### Question: Rating
-id:: 16e57ed1-f5d0-41a3-b105-1f3db5d0184e
-content:: 4: Neglectedness
-scale:: 5
-optional:: true
-
-#### Question: Open
-id:: ffd7bac7-bb43-433a-8c16-9756b8e3a2a9
-content:: 4: ITN-Comment
-optional:: true
-
-#### Question: Rating
-id:: bf845929-36dd-404f-abc8-b4fcf74ec464
-content:: 4: Ikigai Rating
-scale:: 5
-optional:: true
-
-#### Question: Open
-id:: 6308867c-543c-41c2-9f96-bb26961f64b3
-content:: 4: Ikigai Comment
-optional:: true
-
-#### Question: Open
-id:: 395cd017-f8b8-4caa-bbb2-e392563a4764
-content:: 4: Main Uncertainties and Open Questions
-optional:: true
-
-#### Question: Open
-id:: c63189bf-dd73-4795-ab6a-7f4d69d4b9cb
-content:: 5: Problem Area
-optional:: true
-
-#### Question: Rating
-id:: dae787fb-b866-4c15-8d56-2d53d02dc097
-content:: 5: Importance
-scale:: 5
-optional:: true
-
-#### Question: Rating
-id:: fda9685a-311b-4f85-85df-51bde577e3f1
-content:: 5: Tractability
-scale:: 5
-optional:: true
-
-#### Question: Rating
-id:: a0355f92-46e4-4870-baaf-9595a06f0d7f
-content:: 5: Neglectedness
-scale:: 5
-optional:: true
-
-#### Question: Open
-id:: 15ed15e8-8ed9-43fa-9589-59cc889ba11b
-content:: 5: ITN-Comment
-optional:: true
-
-#### Question: Rating
-id:: f9cd0ceb-2192-449b-99a6-d41ea81289a0
-content:: 5: Ikigai Rating
-scale:: 5
-optional:: true
-
-#### Question: Open
-id:: afd476e3-a4c9-42c3-b961-4bd761699360
-content:: 5: Ikigai Comment
-optional:: true
-
-#### Question: Open
-id:: f73ae661-824c-43a9-bad3-effbc92a1c93
-content:: 5: Main Uncertainties and Open Questions
-optional:: true
-
 #### Text
 content::
 ---
@@ -247,23 +159,29 @@ After completing your scoring, it's time to choose your top problem area. Here a
 #### Question: Open
 id:: 67503fbf-8790-43ac-b8d3-3c4b33b5f732
 content:: Your selected problem area
+optional:: true
 
 #### Question: Open
 id:: 62fd125b-d034-4688-aa17-82b89c5af888
 content:: Importance
+optional:: true
 
 #### Question: Open
 id:: 31434043-a354-48f6-aa49-2943de6b250d
 content:: Neglectedness
+optional:: true
 
 #### Question: Open
 id:: 95d31d81-aa8c-472d-a15a-366365b38be3
 content:: Tractability
+optional:: true
 
 #### Question: Open
 id:: 4fa4fdf5-bfb9-469b-8593-141d20c684ec
 content:: Links to my Ikigai
+optional:: true
 
 #### Question: Open
 id:: 4c248210-64ad-48f2-b558-347de11180bc
 content:: Key uncertainties or open questions
+optional:: true
