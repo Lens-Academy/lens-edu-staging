@@ -145,7 +145,9 @@ content:: **Remaining Uncertainties about your research question**
 
 #### Text
 content::
-\## Part 2. Continue Stakeholder Outreach
+---
+
+\# Part 2. Continue Stakeholder Outreach
 
 **Instructions**: Please continue your stakeholder mapping and outreach in the Stakeholder Outreach table in Week 4’s worksheet. We recommend identifying and reaching out to >20 stakeholders. If you haven’t received any replies from your Week 4 outreach, we encourage you to reach out to additional stakeholders - this is completely normal and expected. Many professionals are busy or respond slowly, and lack of replies is not a reflection of the quality or relevance of your work. The goal of this exercise is to practice reaching out to people whose work you are interested in and increase the chances of meaningful conversations over time.
 
