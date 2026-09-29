@@ -7,11 +7,9 @@ tags: [wip]
 ---
 #### Text
 content::
-*Week 1 Worksheet*
+\## Week 1 Worksheet: My Foundations to Impact
 
-\## My Foundations to Impact
-
-#### Callout: My Foundations to Impact
+#### Callout: Instructions
 tone:: blue
 
 #### Text
@@ -22,6 +20,8 @@ This worksheet is designed to help you explore and clarify the foundations of yo
 
 #### Text
 content::
+---
+
 \## Part 1: Exploring Your Ikigai
 
 Take 10–15 minutes to reflect honestly on the questions below. There are no “correct” answers - the goal is awareness, not optimisation! Remember, your thesis doesn’t need to hit the perfect overlap in all four areas, but exploring where it does (and where it doesn’t) gives you insight into crafting your Ikigai and how you could experiment with this in your thesis journey.
