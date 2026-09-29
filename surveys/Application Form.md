@@ -136,9 +136,10 @@ options::
 - University course or AI safety group
 - AI Safety Collab (ENAIS)
 - BlueDot Impact
-- Lens Academy (another course)
 - Center for AI Safety course
 - AI Safety Camp
+- ML4Good
+- ARENA
 - SPAR
 - ERA Fellowship
 - Cooperative AI Foundation
@@ -146,8 +147,6 @@ options::
 - BASE (Black in AI Safety and Ethics)
 - Sentient Futures
 - CAIDP (Center for AI and Digital Policy)
-- ML4Good
-- ARENA
 - TARA
 - Vista Institute for AI Policy
 - Kairos
