@@ -445,7 +445,7 @@ The sharp version is about instructions rather than duplication. A welcome canno
 - The film lens: does it correctly treat the hostility bet as won rather than lost, given the film ends in extinction?
 - The chapter 9 pair: is the pre-reading prediction left ungraded and unhinted, and does the closing comparison actually return to what the learner wrote?
 - The U3 opener: does the tutor resist completing the list of convergent sub-goals in the elicitation beat?
-- **The premise, properly probed.** Run a Connection beat with a blank or deliberately thin answer and watch whether the tutor narrows once and waits, or names the earlier idea itself. Turn discipline was confirmed on 2026-09-28; answer leakage was not, and a cooperative test answer cannot distinguish them.
+- ~~The premise, properly probed.~~ **Done 2026-09-28.** An off-base answer drew directional hints toward the area rather than the idea itself. Turn discipline and answer discipline both hold.
 - `validate_content` after each stage, and unscoped at least once per stage, since `wip` files are excluded from the course-scoped run. Run clean on 2026-09-28.
 
 *Added by the 2026-09-28 grading change:*
