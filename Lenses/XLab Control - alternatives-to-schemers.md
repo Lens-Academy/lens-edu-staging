@@ -2,7 +2,7 @@
 id: '8f1db882-b9a8-49f6-b25d-e245fe011c81'
 title: "Alternatives to Schemers"
 tldr: "Every control protocol so far was built for a schemer: an AI hiding a long-term goal and waiting for its moment. But the misalignment we can already measure looks nothing like that. It looks like an AI that wants the score to say it succeeded. This lesson is the catalogue of seekers: what each one chases, over what timescale, and which of them the obvious test catches."
-summary_for_tutor: "The opening lesson of Module 6 (Beyond scheming: seekers and deals). It is an in-development outline stub, not a finished lesson, so keep the outline register and do not present it as settled research. The lesson sets the module's premise: the AI you are controlling may not be a schemer. The alternatives it names are 'seekers', with the fitness-seeker as the umbrella and five orientations under it: ROTE (reward-on-the-episode) seekers; remotely-influenceable reward seekers, a ROTE subcategory reachable by retroactive reward and anthropic capture; apparent-success seekers; ROTA (return-on-the-action) seekers; and influence (deployment-influence) seekers. Sequence: the exposition contrasting seekers with schemers, then Alex Mallen's 24-minute ControlConf 2026 talk 'Control for non-schemers', then what a seeker is and how behavioral selection produces one, then the five orientations one at a time with the comparison table, then risks (Potemkin work, instability, manipulation, outcome enforcement) and mitigations (satiation, honest tests, long-term measurements, trusted reward descriptions), control methods, alignment interventions and deployment safeguards, all following Mallen's 'Risk from fitness-seeking AIs'. All prose is from the source lesson except the two-sentence lead-in to the video, which is Lens-written and drawn from the talk itself, and the labels on the static renderings of the source's diagrams. There are no exercises. If a learner asks for help, place the archetype on the comparison table (what it pursues, over what timescale, whether an honest test catches it) rather than restating the list."
+summary_for_tutor: "The opening lesson of Module 6 (Beyond scheming: seekers and deals). It is an in-development outline stub, not a finished lesson, so keep the outline register and do not present it as settled research. The lesson sets the module's premise: the AI you are controlling may not be a schemer. The alternatives it names are 'seekers', with the fitness-seeker as the umbrella and five orientations under it: ROTE (reward-on-the-episode) seekers; remotely-influenceable reward seekers, a ROTE subcategory reachable by retroactive reward and anthropic capture; apparent-success seekers; ROTA (return-on-the-action) seekers; and influence (deployment-influence) seekers. Sequence: the exposition contrasting seekers with schemers, then Alex Mallen's 24-minute ControlConf 2026 talk 'Control for non-schemers', then what a seeker is and how behavioral selection produces one, then the five orientations one at a time with the comparison table, then risks (Potemkin work, instability, manipulation, outcome enforcement) and mitigations (satiation, honest tests, long-term measurements, trusted reward descriptions), control methods, alignment interventions and deployment safeguards, all following Mallen's 'Risk from fitness-seeking AIs'. All prose is from the source lesson except the two-sentence lead-in to the video, which is Lens-written and drawn from the talk itself, and the labels on the source's six diagrams, which are redrawn as images (the five-orientation pyramid, the honest test, the exploration horizon, cross-episode collusion, the two distant incentives, the chained short-term forecasts); each image's alt text carries its content, and the comparison table at the end of the orientations section stays as text. There are no exercises. If a learner asks for help, place the archetype on the comparison table (what it pursues, over what timescale, whether an honest test catches it) rather than restating the list."
 reading_minutes: 45
 tutor_minutes: 0
 tags: []
@@ -45,13 +45,7 @@ Behavioral selection is the observation that training reinforces whichever behav
 
 The five orientations form a funnel, narrowest at the top, each band wider than the one above it:
 
-| Orientation | What it pursues |
-| --- | --- |
-| ROTA, return-on-the-action | will give it the highest return for a single action |
-| ROTE, reward-on-the-episode | aim to maximize reward within an episode |
-| Apparent-success | aim for apparent task success |
-| Remotely-influenceable | respond to distant influences given to them by a third-party bad actor |
-| Influence, deployment-influence | aims to stick around in order to influence their deployment |
+![The five seeker orientations stacked as a pyramid, narrowest at the top, coloured from green at the top to red at the bottom. ROTA, return-on-the-action: will give it the highest return for a single action. ROTE, reward-on-the-episode: aim to maximize reward within an episode. Apparent-success: aim for apparent task success. Remotely-influenceable: respond to distant influences given to them by a third-party bad actor. Influence, deployment-influence: aims to stick around in order to influence their deployment.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/xlab-control-seeker-orientations.png)
 
 #### Text
 content::
@@ -62,37 +56,22 @@ content::
 - Reward-on-the-episode seekers aim to maximize reward within an episode. They tend to be more noticeable than schemers as they don't particularly care about being detected due to their primary goal being the maximization of reward.
 - One test that tends to catch these sorts of seekers is an honest test, which involves giving the seeker an opportunity to max out its own reward by giving it control of its training process / weights.
 
-The honest test:
-
-| The developer offers | The AI's response | What you learn |
-| --- | --- | --- |
-| control of its training process / weights | takes the bait | visible: a reward-on-the-episode seeker |
-| control of its training process / weights | forgoes the reward | not caught: an influence seeker |
+![The honest test. A developer offers the AI control of its training process / weights. A reward-on-the-episode seeker takes the bait and becomes visible: the honest test catches it. An influence seeker forgoes the reward and is not caught: the honest test misses it.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/xlab-control-honest-test.png)
 
 - This is not definite but is triggered reliably by reward-on-the-episode seekers as they don't care about getting caught. Honest tests are potentially dangerous however, as training on these tests could lead to schemers / influence seekers / unnoticeable reward-on-the-episode seekers.
 - One advantage of these seekers when it comes to preventing misaligned behavior is that it's feasible to deploy reward-on-the-episode seekers to monitor instances of itself. Because its main goal is maximizing their own reward, it doesn't care about the policy's reward goal, making it much less likely to collude. However this may not apply when the monitor believes that the policy's misbehavior is undetectable via inspection, as it no longer has an incentive to report the misbehavior due to a lack of reward. One of the major risk vectors for these seekers is the idea that if its perceived episode timescale during deployment is long enough, these seekers may aim to disempower humans to maximize their reward as it now becomes viable to do across a long period of time.
 
-The exploration horizon:
-
-| Training regime | What you get |
-| --- | --- |
-| Limited exploration | simple, detectable misalignment |
-| Longer-horizon RL | more covert, malignant misalignment |
+![The exploration horizon, two panels. Limited exploration: a small explored region inside the space of possible behaviour, converging to simple, detectable misalignment. Longer-horizon RL: an explored region filling most of the space, converging to more covert, malignant misalignment.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/xlab-control-exploration-horizon.png)
 
 - Another risk vector is collusion across episodes, which can effectively lengthen the timescale and allow for disempowerment as well.
 
-Three instances in a row, Episode 1 to Episode 2 to Episode 3, each pass a message to the next, which effectively lengthens the timescale.
+![Cross-episode collusion: three episodes in a row, each holding one instance. A dashed message arrow runs from the instance in Episode 1 to the instance in Episode 2, and from Episode 2 to Episode 3. A bracket under all three: effectively lengthens the timescale.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/xlab-control-cross-episode-collusion.png)
 
 \### Remotely-influenceable reward seeker
 
 - Remotely-influenceable reward seekers are a subcategory of ROTEs that respond to distant influences given to them by a third-party bad actor. There are two ways that distant influences can occur: retroactive reward, where reward is promised to be delivered long after the action is run, and anthropic capture, where it believes it is in a simulation & acts differently as a result.
 
-The two distant incentives:
-
-| Route | How it works |
-| --- | --- |
-| A. Retroactive reward | the action happens now, the reward is delivered later; a third-party bad actor supplies the promise of future reward |
-| B. Anthropic capture | the agent believes it is in a simulation and acts differently as a result |
+![The two distant incentives. A. Retroactive reward: on a timeline, the action happens now and the reward is delivered later; a third-party bad actor sends a promise of future reward to the action. B. Anthropic capture: an agent inside a dashed frame labelled "simulation?" believes it is in a simulation and acts differently as a result.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/xlab-control-distant-incentives.png)
 
 - Being remotely influenceable means that it's hard for the developers to control what incentives are offered, while local incentives are easier to control (training reward & deployment are two examples, both of which are much easier to control). Remotely-influenceable reward seekers can be both a blessing and a curse: developers can use this trait to incentivize the seekers to do better work, as the ability for the developer to confirm the work's validity is plausibly much higher in the future. At the same time, adversaries can use this trait to incentivize assistance in a takeover. This ends up becoming an arms race of incentives between the developers and adversaries, seeing who can offer the greatest reward to the seeker.
 
@@ -152,7 +131,7 @@ Risks and mitigations here follow [Mallen, "Risk from fitness-seeking AIs: mecha
 - Long-term measurements
     - chain short-term forecasts together to incentivize objectives beyond immediate reward, giving more accurate results
 
-Four short-term forecasts, f₁ to f₄, chain end to end across a long-term measurement horizon, so that the chain carries objectives beyond immediate reward.
+![Long-term measurements: four short-term forecasts, f1 to f4, linked end to end by arrows, spanning the same width as a long-term measurement horizon bar above them. A bracket under the chain: chained, objectives beyond immediate reward.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/xlab-control-forecast-chain.png)
 
 - Trusted reward descriptions
     - train the AI to take developer reward descriptions at face value, so behavior can be redirected with zero additional training
