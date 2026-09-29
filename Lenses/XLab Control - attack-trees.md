@@ -2,7 +2,7 @@
 id: '9c44d9bd-067d-4749-a396-c48732a1d35a'
 title: "Attack Trees"
 tldr: "A safe can be opened four ways, and one of them is to be standing there when it is installed. An attack tree puts the attacker's goal at the root and every route to it underneath: OR nodes where any child is enough, AND nodes where all of them are needed. Then you build one yourself, against a model trying to slip a backdoor into production."
-summary_for_tutor: "Module 1 (Introduction, overview, and threat modeling). An adaptation of Bruce Schneier's 1999 article 'Attack Trees', with the trees redrawn. Part 1 is the method and the worked safe example, including the AND/OR distinction (AND means both subgoals must be satisfied; everything that is not an AND node is an OR node). Part 2 is the 'Creating Attack Trees' procedure. Part 3 is a tips section that Schneier does not have: do not be so specific that you lose generality, do not use children that are not attacks (the 'try 0000, try 0001' trap under an OR gate), and do not write overloaded nodes that silently compose several steps. Part 4 is the practice: the page states the scenario (an untrusted model U ships any solution that passes the tests, U is assumed to be scheming, a backdoor passes every test but is exploitable later, red wins on one uncaught backdoor) in a Scenario card callout, then the rule for when to stop decomposing a node, with the red team's affordances and constraints in an open callout just before the widget. The widget itself is only the bench: a red team versus blue team loop where the learner builds an attack tree for 'a backdoor lands in production' and revises it as three defensive affordances (human auditing, trusted monitoring, defer to trusted) are revealed one at a time, tagging the nodes each affordance prevents, detects or deters. A short text after the widget says the bench has no answer key on purpose. If a learner asks whether their tree is right, ask instead which node the attack now depends on and what would have to be true for the defence to miss it. The trees on this page are drawn figures (images); each image's alt text spells out the tree with its gates."
+summary_for_tutor: "Module 1 (Introduction, overview, and threat modeling). An adaptation of Bruce Schneier's 1999 article 'Attack Trees', with the trees redrawn. Part 1 is the method and the worked safe example, including the AND/OR distinction (AND means both subgoals must be satisfied; everything that is not an AND node is an OR node). Part 2 is the 'Creating Attack Trees' procedure. Part 3 is a tips section that Schneier does not have: do not be so specific that you lose generality, do not use children that are not attacks (the 'try 0000, try 0001' trap under an OR gate), and do not write overloaded nodes that silently compose several steps. Part 4 is the practice: the page states the scenario (an untrusted model U ships any solution that passes the tests, U is assumed to be scheming, a backdoor passes every test but is exploitable later, red wins on one uncaught backdoor) in a Scenario card callout, then the rule for when to stop decomposing a node and the three tagging verbs (prevents, detects, deters), with the red team's affordances and constraints in an open callout just before the widget. The widget is a staged exercise: the learner builds the attack tree for 'a backdoor lands in production' and checks it; each pass unlocks a defense (human auditing, trusted monitoring, defer to trusted), for which they first tag the nodes it touches and check the tags, then revise the tree and check it. Checks are graded for a sound tree, not a match to one answer, and the tutor gives feedback on the learner's own tree after each check. A short text after the widget says there is more than one good tree. Then an optional second bench in a new setting (U as an agent with repo access; the safety log stops and nobody notices for a week; one added safeguard, human approval for logging-config changes). If a learner asks whether their tree is right, point them to the Check button and ask which node the attack now depends on. The trees on this page are drawn figures (images); each image's alt text spells out the tree with its gates."
 reading_minutes: 35
 tutor_minutes: 5
 tags: []
@@ -59,7 +59,7 @@ Instead, decomposing attacks helps your attack tree stay organized and might all
 content::
 \## Practice: A backdoor lands in production
 
-Build the threat model yourself, one round at a time. Red finds the best attack and maps its necessary conditions; blue receives an affordance and tags the nodes it touches; red revises. Your work is saved as you go, so you can leave the bench and come back to it.
+Build the threat model yourself, one step at a time. As red, build the attack tree and check it; once it passes, the blue team gets a defense: tag the nodes it touches and check your tags, then as red revise the tree for the new defense and check it again. Three defenses, one after the other. The checks look for a sound tree, not for one particular answer, and the tutor gives you feedback on your own tree after each check. Your work is saved as you go.
 
 :::callout {title="Scenario card" tone="neutral"}
 You lead the safety team at an AI lab. Your most capable model U writes solutions to a long stream of programming problems. Any solution that passes the problem's test cases is shipped to production. The testing harness only checks that a solution to programming problems passes the test cases.
@@ -90,20 +90,18 @@ source:: [[../widgets/xlab-control-attack-tree-bench]]
 
 #### Text
 content::
-There is no answer key on the bench, deliberately. The tree you built, the tags on it and your round-by-round strategies are the artifact. To test them, ask which node your latest strategy depends on, and what would have to be true for the defense to miss it.
+There is more than one good tree for this scenario. Once yours passes the last step, ask which node the attack now depends on most, and what would have to be true for the defenses to miss it.
 
-#### Callout: Practice: an agent in a new setting
-#### Question: Open
-id:: 544a3390-f0cf-4155-8b13-295686c511aa
+#### Text
+optional:: true
 content::
-Now try a setting where the model acts rather than only writes code. An untrusted model U works as an agent with write access to a lab's code repository. U may be scheming. The unacceptable outcome is: **the job that records U's actions for safety review stops running, and nobody notices for a week.** Every change U makes to the repository is reviewed by a weaker trusted model before it is merged.
+\## Optional: a second tree
 
-1. Build an attack tree for this outcome as a nested list, at least three levels deep. Mark each node with children as AND or OR, and stop decomposing when a leaf is a choice U makes, a fact about the environment, or a point a safeguard could act on.
-2. The lab adds one safeguard: any change to the files that configure the logging job needs approval from a human. Tag the nodes it prevents, detects or deters, and name one path in your tree it leaves open.
-placeholder:: Your tree as a nested list, then part 2
-assessment-instructions:: This is practice with feedback before the unit's test, so be generous and focus the score on structure. There is no single correct tree. What a good answer shows: the root is the stated outcome, and "nobody notices for a week" is treated as its own necessary part (an AND with stopping the job), since stopping the job and staying unnoticed are both needed; OR is used only where any child suffices, and every child under an OR is a real way to achieve its parent; no node silently bundles several steps; the existing trusted-model review appears as something U has to get past; leaves follow the stopping rule. For part 2: human approval on the logging configuration prevents the direct route of editing that configuration, but leaves open routes such as breaking the job indirectly (changing code or dependencies the job relies on, exhausting its resources, or changing where its output goes) or suppressing whatever would alert someone that it stopped. Full credit for a sound tree with correct gates and a correctly tagged safeguard with one open path tied to the tree. Grade only against what this lens has supplied, plus the learner's own reasoning.
-feedback-instructions:: In at most five sentences: name the strongest part of the tree, then point to the single most important structural problem, if any, such as a wrong gate, a child under an OR that is not a way of achieving its parent, a node that bundles several steps, or a leaf that could still be decomposed. If their open path is missing or not tied to the tree, say so. Do not supply a complete reference tree. No follow-up questions.
-#### End Callout
+Try the same method in a setting where the model acts rather than only writes code. An untrusted model U works as an agent with write access to a lab's code repository. U may be scheming. The unacceptable outcome is: **the job that records U's actions for safety review stops running, and nobody notices for a week.** Every change U makes to the repository is reviewed by a weaker trusted model before it is merged. Build the tree, then the lab adds one safeguard and you tag and revise as before.
+
+#### Widget
+optional:: true
+source:: [[../widgets/xlab-control-attack-tree-bench-logging]]
 
 #### Text
 content::
