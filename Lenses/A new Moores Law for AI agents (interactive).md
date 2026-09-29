@@ -1,50 +1,71 @@
 ---
 id: '6eac934e-8ae8-4051-95d3-08b38ec19a77'
 title: "A new Moore's Law for AI agents"
-reading_minutes: 6
+reading_minutes: 7
 tutor_minutes: 5
-tldr: "AI agents can now finish coding tasks that take a person a full working day or more, and that length keeps doubling. Play with METR's data yourself and see where the line points."
-summary_for_tutor: "Interactive companion to the AI Digest piece 'A new Moore's Law for AI agents'. A short Text introduces METR's time horizon (the length of task, in human professional time, an agent completes 50% of the time; about 230 mostly coding tasks), notes that ChatGPT managed about 30-second coding tasks in 2022 and agents managed over fourteen-hour tasks by March 2026, and tells the learner that the squares in the widget's 80% view are fictional AI 2027 agents that a button hides. The METR time-horizons widget follows (50%/80% views, confidence intervals, trend fits with doubling times; METR publishes 188 days all-time and 129 days from 2023 on). A second Text gives AI Digest's reading: doubling about every 7 months over 2019 to 2025 and every 4 months in 2024 to 2025 (the chart uses METR's newer data, so its numbers differ a little), extrapolation to a work day in 2027, a work week in 2028 and a work month in 2029, or a work month in 2027 at the faster rate, and the caveat that one year of data is thin and the trend could slow or speed up, e.g. through AI-automated AI research. Then an ungraded open question asks what agents could do in three years if the doubling holds and what would show a slowdown, followed by an open chat."
+tldr: "When ChatGPT came out in 2022, it could do 30 second coding tasks. Today, AI agents can autonomously do coding tasks that take humans over fourteen hours. Step through AI Digest's charts of METR's data and see where the trend points."
+summary_for_tutor: "AI Digest's scrolling explainer 'A new Moore's Law for AI agents' (theaidigest.org/time-horizons, CC-BY), laid out as graph, then the text that goes with it, step by step. The graphs are five widgets rebuilt from AI Digest's chart with its own METR Time Horizon 1.1 data and fit constants (linear y axis, 17 models from GPT-2 in 2019 to Claude Opus 4.6 in Feb 2026; 50% time horizon = the task length, in human time, an agent completes half the time). Sequence: (1) the measured points with a 7-month-doubling trend and band, with the intro (30-second tasks in 2022, over fourteen hours today); (2) a '2x / 7 months' staircase, with 'doubling every 7 months'; (1 again) with METR's method (about 230 mostly coding tasks, R^2 = 0.83, definition of time horizon); (3) extrapolation to 2030, with 'What comes next?' (1 work day 2027, 1 work week 2028, 1 work month 2029); (4) a red trend from 2024 doubling every 4 months, with 'Recently, the trend has accelerated'; (5) both trends projected to 2030, with the rest of the article: month-long tasks in 2027 if the faster trend holds, one year of data is thin, the trend could slow or turn superexponential as AIs speed up AI research, possibly one of the most important trends in human history. Then an ungraded open question (what could agents do in three years, what would show a slowdown) and an open chat."
 tags: [wip]
 ---
-#### Text
-content::
-When ChatGPT came out in 2022, it could do coding tasks that take a person about 30 seconds. By March 2026, AI agents could do coding tasks that take a person over fourteen hours.
+#### Widget
+source:: [[../widgets/aidigest-time-horizons-a]]
 
-[METR](https://metr.org/) measured this by giving agents about 230 tasks, mostly coding, and timing how long each takes a human professional. An agent's **time horizon** is the length of task it completes half the time.
-
-The chart plots that for each model by release date. Try both trend fits. The squares in the 80% view are fictional agents from the AI 2027 scenario, not measurements. The "AI 2027 agents" button hides them.
+#### Article
+source:: [[../articles/digest-a-new-moores-law-for-ai-agents-ai-digest]]
+from:: When ChatGPT came out in 2022, it could do 30 second coding tasks.
+to:: Today, AI agents can autonomously do coding tasks that take humans over fourteen hours.
 
 #### Widget
-source:: [[../widgets/ai-2027-metr-horizons]]
+source:: [[../widgets/aidigest-time-horizons-b]]
 
-#### Text
-content::
-The time axis is logarithmic, so a straight line means steady doubling.
+#### Article
+from:: The length of coding tasks frontier systems can complete is growing exponentially
+to:: doubling every 7 months.
 
-From 2019 to 2025 the time horizon doubled about every 7 months. In 2024 and 2025 it doubled about every 4. The chart uses METR's newer data, so its numbers differ a little.
+#### Widget
+source:: [[../widgets/aidigest-time-horizons-a]]
 
-At the slower rate, agents reach a work day in 2027, a work week in 2028 and a work month in 2029. At the faster rate, a work month could come in 2027.
+#### Article
+from:: This trend was discovered by researchers at
+to:: is growing exponentially
 
-One year of data is thin evidence. The trend could slow down. It could also speed up, for example if agents take over part of the work of building better agents.
+#### Widget
+source:: [[../widgets/aidigest-time-horizons-c]]
 
-Based on AI Digest's [A new Moore's Law for AI agents](https://theaidigest.org/time-horizons) and METR's data.
+#### Article
+from:: ## What comes next?
+to:: 2029: 1 work month (167 hours)
+
+#### Widget
+source:: [[../widgets/aidigest-time-horizons-d]]
+
+#### Article
+from:: Recently, the trend has accelerated.
+to:: down from every 7 months over 2019-2025.
+
+#### Widget
+source:: [[../widgets/aidigest-time-horizons-e]]
+
+#### Article
+from:: If the faster trend continues, agents might reach month-long tasks in 2027.
+to:: might end up being one of the most important trends in human history.
 
 #### Question: Open
 id:: 7edb4c55-7570-4595-a1b3-8bbf5f9a45a3
-content:: If the doubling holds, what could an agent do three years from now that it cannot do today? What would you need to see in this chart to believe it is slowing down?
+content:: If the doubling holds, what could an agent do three years from now that it cannot do today? What would you need to see in these charts to believe it is slowing down?
 force-feedback:: first
-feedback-instructions:: The learner has just explored METR's time-horizon chart and read that the horizon doubled about every 7 months (2019 to 2025) and about every 4 months (2024 to 2025). Name the most concrete part of their prediction and check that it follows from the doubling (three years is roughly 5 to 9 doublings). Then tell them whether their slowdown signal could actually be seen in this chart, and how long it would take to tell a real slowdown from a noisy point. Three to five sentences. No generic praise. If they do not understand, give one concrete foothold from the chart or text, such as what a work week of tasks means for a coding agent.
+feedback-instructions:: The learner has just stepped through AI Digest's time-horizon charts: METR's measured 50% time horizons with a trend doubling about every 7 months (2019 to 2025), an extrapolation to a work day in 2027, a work week in 2028 and a work month in 2029, and a faster trend from 2024 doubling about every 4 months that would reach month-long tasks in 2027. Name the most concrete part of their prediction and check that it follows from the doubling (three years is roughly 5 to 9 doublings). Then tell them whether their slowdown signal could actually be seen in data like this, and how long it would take to tell a real slowdown from one noisy point. Three to five sentences. No generic praise. If they do not understand, give one concrete foothold from the charts or text, such as what a work week of tasks means for a coding agent.
 
 #### Chat
 instructions::
 TLDR of what the user just did:
-They explored METR's time-horizon chart (the length of task, in human time, that frontier agents complete at 50% or 80% reliability, plotted by release date, with trend fits and doubling times) and read AI Digest's summary: doubling about every 7 months from 2019 to 2025, recently about every 4 months; straight-line extrapolation reaches day-long tasks in 2027 and month-long tasks by 2029, and AI-automated AI research could push the curve superexponential. The 80% view can show fictional AI 2027 agents; those are scenario placements, not measurements. They then answered: if the doubling holds, what could agents do in three years, and what would show a slowdown?
+They stepped through AI Digest's explainer "A new Moore's Law for AI agents" as five charts of METR's data, each followed by its part of the text. METR measured the length of tasks (in human time) that frontier AI agents complete 50% of the time, their "time horizon": 30-second coding tasks for ChatGPT in 2022, over fourteen hours for today's agents, doubling about every 7 months over 2019 to 2025 and about every 4 months in 2024 to 2025. Task length correlates strongly with success rate (R^2 = 0.83). Extrapolating the 7-month trend gives a work day in 2027, a work week in 2028 and a work month in 2029; the 4-month trend gives month-long tasks in 2027. The charts use a linear axis, so everything before 2024 looks flat. The text notes that one year of data is thin, and that AI speeding up AI research could make growth faster than exponential. They then answered: if the doubling holds, what could agents do in three years, and what would show a slowdown?
 
 Discussion topics to explore:
 - This is the feedback loop from earlier in the module, now with a number on it. What is the "reinvested output" that could make time horizons grow faster than exponentially?
-- How much should one year of acceleration (7 to 4 months) update you, given how noisy one year of data is? Compare the "all points" and "from 2023 on" fits in the chart.
-- What would a genuine plateau look like in this data, and how long would you have to wait to tell it apart from a temporary dip? Look at how wide the intervals get above a few hours.
-- The headline number is at 50% reliability. How does the 80% view change what "agents can do month-long tasks" means?
+- How much should one year of acceleration (7 to 4 months) update you, given how noisy one year of data is? Look at how wide the confidence interval on the newest model is in the first chart.
+- Why does a linear axis make the curve look like it only took off in 2024? What would the same data look like on a log axis?
+- What would a genuine plateau look like in this data, and how long would you have to wait to tell it apart from a temporary dip?
+- The time horizon is measured at 50% reliability. How does that caveat change what "agents can do month-long tasks" actually means?
 
 Ask what they found surprising. Check if they can explain "time horizon" in their own words; it is the key concept.
