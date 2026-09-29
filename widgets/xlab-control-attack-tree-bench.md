@@ -520,7 +520,8 @@ tags: []
     window.Lens.promptTutor(
       "Can you give me feedback on my attack tree so far?",
       "The learner is working on the attack tree bench for the scenario 'A backdoor lands in production' and asked for feedback on their tree. " +
-      "Current turn: " + advanceLabel(turn) + ". Defenses revealed so far: " + (shown.length ? shown.join(" ") : "none yet (base case, no defenses)") + "\n\n" +
+      "Current turn: " + (turn.kind === "done" ? "bench complete" : turn.kind === "blue" ? "blue, tagging A" + (turn.a + 1)
+        : turn.kind === "red-base" ? "red, base case" : "red, revising after A" + (turn.a + 1)) + ". Defenses revealed so far: " + (shown.length ? shown.join(" ") : "none yet (base case, no defenses)") + "\n\n" +
       "Their bench (tree with gates, tags as (A<n> relation: reason), then their round strategies):\n" + outline() + "\n\n" +
       "Judge the tree only against the lens's rules: the root is the outcome; an OR node's children must each be a real way to achieve the parent on its own (not guesses like 'try 0000' that only work in one world), and an AND node's children must all be needed; " +
       "no node silently bundles several steps; nodes are not so specific that they lose generality; decomposition stops at a choice U makes, a state of the environment, or something a defense could directly touch; " +
