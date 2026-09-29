@@ -26,7 +26,7 @@ For this week, there will be a **Reading**, a **Worksheet**, and an *optional* *
 - Explore the Journalling Tab for journaling prompts for the week.
 
 
-{++{"author":"Christine's AI","timestamp":1790694447668}@@\#++} Week 1 Reading: My Foundations to Impact
+\# Week 1 Reading: My Foundations to Impact
 
 #### Callout: My Foundations to Impact
 tone:: purple
