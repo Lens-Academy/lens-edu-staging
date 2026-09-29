@@ -1,7 +1,7 @@
 ---
 id: '5622d141-1248-4a57-af58-ffcca5f82362'
 title: "AI Digest time horizons, step 1: the measured trend"
-summary_for_tutor: "Graph 1 of the AI Digest 'A new Moore's Law for AI agents' sequence, rebuilt from AI Digest's chart (CC-BY) with METR Time Horizon 1.1 data. A linear-axis chart of the 50% time horizon (task length, in human time, an agent completes half the time) for 17 frontier models from GPT-2 (Feb 2019) to Claude Opus 4.6 (Feb 2026), with 95% confidence intervals and labels on 13 models. An orange exponential trend line with a shaded uncertainty band runs through the points; on a linear axis almost everything before 2024 sits near zero and the curve bends sharply upward, with Opus 4.6 at about 12 hours. The learner can hover points for exact values and read the trend at any date. No controls."
+summary_for_tutor: "Graph 1 of the AI Digest 'A new Moore's Law for AI agents' sequence, rebuilt from AI Digest's chart (CC-BY) with METR Time Horizon 1.1 data. A linear-axis chart of the 50% time horizon (task length, in human time, an agent completes half the time) for 17 frontier models from GPT-2 (Feb 2019) to Claude Opus 4.6 (Feb 2026), with 95% confidence intervals and labels on 13 models. An orange exponential trend line with a shaded uncertainty band runs through the points; on a linear axis almost everything before 2024 sits near zero and the curve bends sharply upward, with Opus 4.6 at about 12 hours. A staircase along the trend marks each doubling ('2x') per doubling period ('7 months'; the fitted doubling time is 212 days), labelled only where the labels fit. The learner can hover points for exact values and read the trend at any date. No controls."
 height: auto
 ---
 <!doctype html>
@@ -54,7 +54,7 @@ height: auto
 <div class="legend" id="legend"></div>
 <p class="foot">Chart: <a href="https://theaidigest.org/time-horizons" target="_blank" rel="noopener">AI Digest</a>, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY</a>, rebuilt for Lens. Data: <a href="https://metr.org/blog/2026-1-29-time-horizon-1-1/" target="_blank" rel="noopener">METR Time Horizon 1.1</a>.</p>
 <script>
-var STATE = {"showErrorBars":true};
+var STATE = {"showErrorBars":true,"showDoublingRate":true,"keepLabels":true};
 
 var DATA = [{"model":"GPT-2","modelPrettified":"GPT-2","date":"2019-02-14","p50":{"value":0.039762,"lower":0.002019,"upper":0.130397}},{"model":"davinci-002 (GPT-3)","modelPrettified":"GPT-3","date":"2020-05-28","p50":{"value":0.148793,"lower":0.07102,"upper":0.246039}},{"model":"gpt-3.5-turbo-instruct","modelPrettified":"GPT-3.5","date":"2022-03-15","p50":{"value":0.604245,"lower":0.227348,"upper":0.989884}},{"model":"GPT-4 0314","modelPrettified":"GPT-4","date":"2023-03-14","p50":{"value":3.987428,"lower":1.959555,"upper":7.906991}},{"model":"GPT-4 1106","modelPrettified":"GPT-4 Nov '23","date":"2023-11-06","p50":{"value":4.044959,"lower":1.952629,"upper":8.193214}},{"model":"GPT-4o","modelPrettified":"GPT-4o","date":"2024-05-13","p50":{"value":6.991195,"lower":3.851599,"upper":12.414331}},{"model":"Claude 3.5 Sonnet (Old)","modelPrettified":"Sonnet 3.5","date":"2024-06-20","p50":{"value":11.395377,"lower":5.441687,"upper":22.516722}},{"model":"o1-preview","modelPrettified":"o1 preview","date":"2024-09-12","p50":{"value":20.326586,"lower":11.61017,"upper":33.15407}},{"model":"Claude 3.5 Sonnet (New)","modelPrettified":"Sonnet 3.6","date":"2024-10-22","p50":{"value":20.522872,"lower":9.874824,"upper":40.412855}},{"model":"o1","modelPrettified":"o1","date":"2024-12-05","p50":{"value":38.831588,"lower":21.687821,"upper":67.221467}},{"model":"Claude 3.7 Sonnet","modelPrettified":"Sonnet 3.7","date":"2025-02-24","p50":{"value":60.388937,"lower":33.385879,"upper":107.302719}},{"model":"o3","modelPrettified":"o3","date":"2025-04-16","p50":{"value":119.732634,"lower":72.982684,"upper":191.583353}},{"model":"GPT-5","modelPrettified":"GPT-5","date":"2025-08-07","p50":{"value":203.012577,"lower":114.211156,"upper":406.743053}},{"model":"Gemini 3 Pro","modelPrettified":"Gemini 3 Pro","date":"2025-11-18","p50":{"value":224.325884,"lower":136.865815,"upper":387.478199}},{"model":"Claude Opus 4.5","modelPrettified":"Opus 4.5","date":"2025-11-24","p50":{"value":292.994594,"lower":160.539157,"upper":638.619623}},{"model":"GPT-5.2 (High)","modelPrettified":"GPT-5.2","date":"2025-12-11","p50":{"value":352.249302,"lower":191.31908,"upper":862.339204}},{"model":"Claude Opus 4.6","modelPrettified":"Opus 4.6","date":"2026-02-05","p50":{"value":718.80683,"lower":319.32091,"upper":3949.750392}}];
 // Fit constants exactly as in AI Digest's chart component (TimeHorizonsViz.tsx).
@@ -200,7 +200,7 @@ function render() {
       el("text", { x: X(d.t) + (X(t2) - X(d.t)) / 2 - (mobile ? -10 : 2), y: Y(2 * d.v) - 8, "text-anchor": mobile ? "end" : "middle", class: "dbl" }, "7 months")]);
   });
 
-  var labelled = ext ? LABELLED_FAR : LABELLED;
+  var labelled = ext ? LABELLED_FAR : LABELLED, modelBoxes = [];
   pts.forEach(function (d) {
     var cx = X(d.t), cy = Y(d.p50);
     if (showErrorBars) {
@@ -213,10 +213,12 @@ function render() {
     c.addEventListener("focus", function () { showPoint(d, cx + M.left, cy + M.top); });
     c.addEventListener("mouseleave", hideTip); c.addEventListener("blur", hideTip);
     plot.appendChild(c);
-    var show = !dbl && labelled.indexOf(d.model) >= 0 && !(d.model === "GPT-2" && mobile);
+    var show = (!dbl || P.keepLabels) && labelled.indexOf(d.model) >= 0 && !(d.model === "GPT-2" && mobile);
     if (show) {
       var up = (ext && d.model !== "Claude Opus 4.6") || ["GPT-2", "davinci-002 (GPT-3)", "gpt-3.5-turbo-instruct", "GPT-4 0314"].indexOf(d.model) >= 0;
-      plot.appendChild(el("text", { x: cx + (d.model === "GPT-2" ? 8 : -8), y: cy + (up ? -10 : 0) + 4, "text-anchor": d.model === "GPT-2" ? "start" : "end", class: "lbl" }, d.pretty));
+      var lx = cx + (d.model === "GPT-2" ? 8 : -8), ly = cy + (up ? -10 : 0) + 4, lw = d.pretty.length * (width >= 640 ? 7.5 : 7);
+      plot.appendChild(el("text", { x: lx, y: ly, "text-anchor": d.model === "GPT-2" ? "start" : "end", class: "lbl" }, d.pretty));
+      modelBoxes.push({ x: d.model === "GPT-2" ? lx : lx - lw, y: ly - 12, width: lw, height: 15 });
     }
   });
 
@@ -239,7 +241,7 @@ function render() {
   svg.addEventListener("mouseleave", function () { vx.setAttribute("visibility", "hidden"); hx.setAttribute("visibility", "hidden"); tip.dataset.kind = ""; hideTip(); });
   box.appendChild(svg);
   // Doubling labels: newest step first; a pair is kept only if neither label overlaps one already kept or leaves the chart.
-  var kept = [];
+  var kept = modelBoxes.slice();
   function hit(a, b) { return a.x < b.x + b.width + 2 && b.x < a.x + a.width + 2 && a.y < b.y + b.height && b.y < a.y + a.height; }
   for (var li = dblLabels.length - 1; li >= 0; li--) {
     var pair = dblLabels[li]; pair.forEach(function (n) { plot.appendChild(n); });
