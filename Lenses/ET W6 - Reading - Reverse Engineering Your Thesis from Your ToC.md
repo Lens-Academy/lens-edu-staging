@@ -7,17 +7,17 @@ tags: [wip]
 ---
 #### Text
 content::
-\## Week 6: Reverse Engineering Your Thesis from Your ToC
+\# Week 6: Reverse Engineering Your Thesis from Your ToC
 
 Welcome to Week 6! Now that you have a Theory of Change, it's time to work backwards from it to an actual thesis plan.
 
-\### Focus
+\## Focus
 
 This week's focus is on translating your Theory of Change into a concrete, high-impact thesis project. You'll define your desired thesis output, formulate a research question that would actually produce it, and iterate based on stakeholder feedback, so your thesis stays focused, feasible, and impactful.
 
 For this week, there will be a Reading, a Worksheet, and an optional Journalling Tab.
 
-\### Instructions
+\## Instructions
 
 - Please complete the readings and worksheet before your weekly discussion with your facilitator.
 - Attend your Weekly Discussion with your cohort.
