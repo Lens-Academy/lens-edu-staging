@@ -19,6 +19,25 @@ This worksheet helps you identify a high-impact problem for your thesis by combi
 
 ::card[[../Lenses/ET Additional - Using AI Tools Well|Using AI Tools Well]]{allow-external}
 
+#### Callout: Option to do the worksheet in a spreadsheet
+tone:: amber
+
+#### Text
+content::
+If you would prefer to work within a spreadsheet rather than in this page, you can use this template: [\[TEMPLATE\] Effective Thesis Accelerator: Week 2 Worksheet](https://docs.google.com/spreadsheets/d/148CDtXsLs9-VBGxv5Yw9JigHNXYJj2HuvlFxe1125Eg/edit?usp=sharing)
+
+Please make your own copy of the template (File > Make a copy) and work in your copy.
+
+#### Question: Open
+id:: d63fc385-ea1c-4f1f-99ea-bf823067ab16
+content:: If you're using the spreadsheet, please paste the link to your copy here (make sure it's set to view or comment only!)
+placeholder:: Paste your spreadsheet link here
+optional:: true
+
+#### End Callout
+
+#### Text
+content::
 ---
 
 \# Part 1. Brainstorm a list of problems
