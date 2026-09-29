@@ -9,7 +9,13 @@ tags: [wip]
 content::
 \## Week 7 Worksheet: Unblocking Your Impactful Career
 
+:::callout {title="Instructions" tone="blue"}
+
 By the end of this worksheet, you should have named your top Head, Heart, and Hand uncertainties, chosen your top 1-3 to focus on, and figured out how your thesis (or another concrete next step) can help you actually test them.
+
+:::
+
+---
 
 \## Part 1: What Is My Top Uncertainty or Blocker?
 
