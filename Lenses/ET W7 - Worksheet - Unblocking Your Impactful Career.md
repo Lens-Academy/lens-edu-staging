@@ -131,6 +131,8 @@ content::
 
 **Instructions:** Please continue your stakeholder mapping and outreach in the Stakeholder Outreach Tab. We recommend identifying and reaching out to >20 stakeholders. If you haven’t received any replies from your Week 4 outreach, we encourage you to reach out to additional stakeholders.
 
+---
+
 \## Part 4. Prepare for Week 8 Presentations
 
 In Week 8, you will each present an overview of what you’ve worked on over the past 8 weeks, summarised in a short presentation using the template below.
