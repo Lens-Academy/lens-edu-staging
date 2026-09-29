@@ -7,9 +7,7 @@ tags: [wip]
 ---
 #### Text
 content::
-*Week 4 Journalling Tab*
-
-\## Emotional Barriers to Outreach
+\# Week 4 Journalling: Emotional Barriers to Outreach
 
 Take 10–15 minutes to pause, observe, and write - there are no right or wrong answers. Think of it as getting curious about the voice that shows up when you're about to hit send, rather than trying to silence it.
 

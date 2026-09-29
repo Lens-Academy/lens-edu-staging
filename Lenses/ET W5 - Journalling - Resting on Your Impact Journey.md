@@ -7,9 +7,7 @@ tags: [wip]
 ---
 #### Text
 content::
-*Week 5 Journalling Tab*
-
-\## Resting on Your Impact Journey
+\# Week 5 Journalling: Resting on Your Impact Journey
 
 For this week’s journaling, as we’re at the mid-point of the program - we wanted to introduce the concept of different types of rest. This matters for sustainable impact specifically: a thesis, a career, or a life spent contributing to something meaningful is a long game, not a sprint, and it's much easier to sustain when you're not quietly compromising on what you truly need!
 
