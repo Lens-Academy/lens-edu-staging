@@ -200,7 +200,7 @@ function render() {
       el("text", { x: X(d.t) + (X(t2) - X(d.t)) / 2 - (mobile ? -10 : 2), y: Y(2 * d.v) - 8, "text-anchor": mobile ? "end" : "middle", class: "dbl" }, "7 months")]);
   });
 
-  var labelled = ext ? LABELLED_FAR : LABELLED;
+  var labelled = ext ? LABELLED_FAR : LABELLED, modelBoxes = [];
   pts.forEach(function (d) {
     var cx = X(d.t), cy = Y(d.p50);
     if (showErrorBars) {
@@ -213,10 +213,12 @@ function render() {
     c.addEventListener("focus", function () { showPoint(d, cx + M.left, cy + M.top); });
     c.addEventListener("mouseleave", hideTip); c.addEventListener("blur", hideTip);
     plot.appendChild(c);
-    var show = !dbl && labelled.indexOf(d.model) >= 0 && !(d.model === "GPT-2" && mobile);
+    var show = (!dbl || P.keepLabels) && labelled.indexOf(d.model) >= 0 && !(d.model === "GPT-2" && mobile);
     if (show) {
       var up = (ext && d.model !== "Claude Opus 4.6") || ["GPT-2", "davinci-002 (GPT-3)", "gpt-3.5-turbo-instruct", "GPT-4 0314"].indexOf(d.model) >= 0;
-      plot.appendChild(el("text", { x: cx + (d.model === "GPT-2" ? 8 : -8), y: cy + (up ? -10 : 0) + 4, "text-anchor": d.model === "GPT-2" ? "start" : "end", class: "lbl" }, d.pretty));
+      var lx = cx + (d.model === "GPT-2" ? 8 : -8), ly = cy + (up ? -10 : 0) + 4, lw = d.pretty.length * (width >= 640 ? 7.5 : 7);
+      plot.appendChild(el("text", { x: lx, y: ly, "text-anchor": d.model === "GPT-2" ? "start" : "end", class: "lbl" }, d.pretty));
+      modelBoxes.push({ x: d.model === "GPT-2" ? lx : lx - lw, y: ly - 12, width: lw, height: 15 });
     }
   });
 
@@ -239,7 +241,7 @@ function render() {
   svg.addEventListener("mouseleave", function () { vx.setAttribute("visibility", "hidden"); hx.setAttribute("visibility", "hidden"); tip.dataset.kind = ""; hideTip(); });
   box.appendChild(svg);
   // Doubling labels: newest step first; a pair is kept only if neither label overlaps one already kept or leaves the chart.
-  var kept = [];
+  var kept = modelBoxes.slice();
   function hit(a, b) { return a.x < b.x + b.width + 2 && b.x < a.x + a.width + 2 && a.y < b.y + b.height && b.y < a.y + a.height; }
   for (var li = dblLabels.length - 1; li >= 0; li--) {
     var pair = dblLabels[li]; pair.forEach(function (n) { plot.appendChild(n); });
