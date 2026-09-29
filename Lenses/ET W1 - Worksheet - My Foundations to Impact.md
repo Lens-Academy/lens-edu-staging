@@ -92,21 +92,21 @@ Before listing out your career hypotheses, we recommend reviewing the list of im
 tone:: purple
 collapse:: open
 
-#### Question: Open
+#### Question: FillBlank
 id:: 18a65dd6-1692-4216-bb32-6a4f2994c9d4
-content:: **1) Describe this role** (i.e. cause area, type of role)
+content:: 1) Describe this role (i.e. cause area, type of role): {{blank}}
 
-#### Question: Open
+#### Question: FillBlank
 id:: b7c2d1cd-03b3-4c9d-a47f-b62bf906abb0
-content:: **2) Why this may align with my Ikigai**
+content:: 2) Why this may align with my Ikigai: {{blank}}
 
-#### Question: Open
+#### Question: FillBlank
 id:: a15cb1c7-2ef5-4455-aee5-8ad31a4cca93
-content:: **3) What are my top uncertainties or needs to pursue this path?**
+content:: 3) What are my top uncertainties or needs to pursue this path? {{blank}}
 
-#### Question: Open
+#### Question: FillBlank
 id:: 9e053569-6130-4f94-a93f-702c1bb3b3af
-content:: **4) How can I design my thesis to explore my uncertainties or needs?**
+content:: 4) How can I design my thesis to explore my uncertainties or needs? {{blank}}
 
 #### End Callout
 
@@ -114,24 +114,24 @@ content:: **4) How can I design my thesis to explore my uncertainties or needs?*
 tone:: purple
 collapse:: closed
 
-#### Question: Open
+#### Question: FillBlank
 id:: abca84da-7643-4b05-8c00-2e2d6b950a99
-content:: **1) Describe this role** (i.e. cause area, type of role)
+content:: 1) Describe this role (i.e. cause area, type of role): {{blank}}
 optional:: true
 
-#### Question: Open
+#### Question: FillBlank
 id:: 9347f459-d87c-4291-90f3-bc29ba282375
-content:: **2) Why this may align with my Ikigai**
+content:: 2) Why this may align with my Ikigai: {{blank}}
 optional:: true
 
-#### Question: Open
+#### Question: FillBlank
 id:: 32022588-287f-47e3-98ab-b2d98d2ec2c5
-content:: **3) What are my top uncertainties or needs to pursue this path?**
+content:: 3) What are my top uncertainties or needs to pursue this path? {{blank}}
 optional:: true
 
-#### Question: Open
+#### Question: FillBlank
 id:: 357b254b-d8f1-4843-8e0a-5ec1129429e6
-content:: **4) How can I design my thesis to explore my uncertainties or needs?**
+content:: 4) How can I design my thesis to explore my uncertainties or needs? {{blank}}
 optional:: true
 
 #### End Callout
@@ -140,24 +140,24 @@ optional:: true
 tone:: purple
 collapse:: closed
 
-#### Question: Open
+#### Question: FillBlank
 id:: 9841286c-9d9f-406e-8449-ff77d4caaa16
-content:: **1) Describe this role** (i.e. cause area, type of role)
+content:: 1) Describe this role (i.e. cause area, type of role): {{blank}}
 optional:: true
 
-#### Question: Open
+#### Question: FillBlank
 id:: d338d854-f71b-44ab-89f4-65dba1ea555a
-content:: **2) Why this may align with my Ikigai**
+content:: 2) Why this may align with my Ikigai: {{blank}}
 optional:: true
 
-#### Question: Open
+#### Question: FillBlank
 id:: 2a0b5929-8ff6-45ea-9f9b-d2e3ef67c392
-content:: **3) What are my top uncertainties or needs to pursue this path?**
+content:: 3) What are my top uncertainties or needs to pursue this path? {{blank}}
 optional:: true
 
-#### Question: Open
+#### Question: FillBlank
 id:: d6e45957-da86-4af2-8909-ecd937ac3c38
-content:: **4) How can I design my thesis to explore my uncertainties or needs?**
+content:: 4) How can I design my thesis to explore my uncertainties or needs? {{blank}}
 optional:: true
 
 #### End Callout
