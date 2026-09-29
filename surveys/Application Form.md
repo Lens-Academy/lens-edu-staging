@@ -184,6 +184,8 @@ required:: true
 key:: ai_safety_programs_other
 content:: Other programs, or details you want to add (for example which BlueDot course, and whether you completed it).
 
+
+
 #### Rating
 key:: transition_intention
 content:: How strong is your intention to transition to AI safety full-time in the near future (about 3–12 months)?
