@@ -30,14 +30,14 @@ Add discussion note here:
 
 ###### Abstract ^abstract
 
-A leading proposal for aligning artificial superintelligence (ASI) is to use AI agents to automate an increasing fraction of alignment research as capabilities improve. We argue that, even when research agents are not scheming to deliberately sabotage alignment work, this plan could produce compelling but catastrophically misleading safety assessments resulting in the unintentional deployment of misaligned AI. This could happen because alignment research involves many hard-to-supervise fuzzy tasks (tasks without clear evaluation criteria, for which human judgement is systematically flawed). Consequently, research outputs will contain systematic, undetected errors, and even correct research could be incorrectly aggregated into overconfident safety assessments. This problem is likely to be worse for automated alignment research than for human-generated alignment research for several reasons:{--{"author":"Plex's AI","timestamp":1790675035816}@@ 1) optimisation --}{++{"author":"Plex's AI","timestamp":1790675035816}@@
+A leading proposal for aligning artificial superintelligence (ASI) is to use AI agents to automate an increasing fraction of alignment research as capabilities improve. We argue that, even when research agents are not scheming to deliberately sabotage alignment work, this plan could produce compelling but catastrophically misleading safety assessments resulting in the unintentional deployment of misaligned AI. This could happen because alignment research involves many hard-to-supervise fuzzy tasks (tasks without clear evaluation criteria, for which human judgement is systematically flawed). Consequently, research outputs will contain systematic, undetected errors, and even correct research could be incorrectly aggregated into overconfident safety assessments. This problem is likely to be worse for automated alignment research than for human-generated alignment research for several reasons:
 
-1. Optimisation ++}pressure means agent-generated mistakes are concentrated among those that human reviewers are least likely to {--{"author":"Plex's AI","timestamp":1790675035816}@@catch; 2) agents --}{++{"author":"Plex's AI","timestamp":1790675035816}@@catch.
-2. Agents ++}are likely to produce errors that do not resemble human {--{"author":"Plex's AI","timestamp":1790675035816}@@mistakes; 3)--}{++{"author":"Plex's AI","timestamp":1790675035816}@@mistakes.
-3.++} AI-generated alignment solutions may involve arguments humans cannot {--{"author":"Plex's AI","timestamp":1790675035816}@@evaluate; and 4) shared --}{++{"author":"Plex's AI","timestamp":1790675035816}@@evaluate.
-4. Shared ++}weights, data and training processes may make AI outputs more correlated than human equivalents.{--{"author":"Plex's AI","timestamp":1790675035816}@@ --}{++{"author":"Plex's AI","timestamp":1790675035816}@@
+1. Optimisation pressure means agent-generated mistakes are concentrated among those that human reviewers are least likely to catch.
+2. Agents are likely to produce errors that do not resemble human mistakes.
+3. AI-generated alignment solutions may involve arguments humans cannot evaluate.
+4. Shared weights, data and training processes may make AI outputs more correlated than human equivalents.
 
-++}Therefore, agents must be trained to reliably perform hard-to-supervise fuzzy tasks. Generalisation and scalable oversight are the leading candidates for achieving this but both face novel challenges in the context of automated alignment.
+Therefore, agents must be trained to reliably perform hard-to-supervise fuzzy tasks. Generalisation and scalable oversight are the leading candidates for achieving this but both face novel challenges in the context of automated alignment.
 
    
 
