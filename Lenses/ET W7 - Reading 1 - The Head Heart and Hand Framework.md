@@ -7,11 +7,11 @@ tags: [wip]
 ---
 #### Text
 content::
-\## Week 7: Unblocking Your Impactful Career
+\# Week 7: Unblocking Your Impactful Career
 
 Welcome to Week 7! We're zooming out this week, from your thesis to the career it's building toward.
 
-\### Focus
+\## Focus
 
 This week's focus is on figuring out what's actually blocking your career direction. "I don't know what I should do" is often three different problems tangled together - a Head problem, a Heart problem, or a Hand problem, and each needs a completely different response. You'll use this framework to diagnose your own blockers and take real, concrete next steps on them.
 

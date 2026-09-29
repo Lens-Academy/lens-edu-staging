@@ -25,9 +25,7 @@ For this week, there will be a Reading, a Worksheet, and an optional Journalling
 
 ---
 
-\# Week 6 Reading
-
-**Reverse Engineering Your Thesis from Your ToC**
+\# Week 6 Reading: Reverse Engineering Your Thesis from Your ToC
 
 #### Callout: Reverse Engineering Your Thesis from Your ToC
 tone:: purple
