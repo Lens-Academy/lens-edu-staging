@@ -29,6 +29,8 @@ Before you start, skim back through the section on the Landscape of High-Impact 
 
 In the first tab of the spreadsheet (Part 1. Brainstorm), set a timer for 15 minutes and just generate and braindump a list of different problems you would be interested in working on! Don't filter or evaluate yet, quantity over quality at this stage. If you get stuck, try any of these prompts:
 
+:::callout {title="💡 Stuck? Click to open brainstorming prompts" tone="neutral" collapse="closed"}
+
 1. **Positive framings**
    1. What would an ideal world look like? Which problems have simply vanished?
    2. What's stopping us from getting there? What opportunities are we missing?
@@ -43,7 +45,9 @@ In the first tab of the spreadsheet (Part 1. Brainstorm), set a timer for 15 min
    1. What problems affect large populations far away from you?
    2. What problems affect beings we don't usually include in our sphere of moral concern (e.g. animals, future generations)?
 
-\### Key Recommendations when listing problems
+:::
+
+:::callout {title="Key Recommendations when listing problems" tone="green"}
 
 1. **Getting the right level of specificity.** When adding problems to your list, aim for something neither too broad nor too narrow. Ideally, each problem identifies:
    1. What negative outcome or state you want to address
@@ -58,12 +62,16 @@ In the first tab of the spreadsheet (Part 1. Brainstorm), set a timer for 15 min
       2. "Deployment of biased AI systems in judicial decisions, increasing wrongful convictions"
       3. "Malnourishment in sub-Saharan Africa, leading to disease and underdevelopment"
 
+:::
+
 #### Question: Open
 id:: 73b135e1-2719-4411-b238-50d86bcc9d34
 content:: Part 1. Brainstorm a list of problems
 
 #### Text
 content::
+---
+
 \## Part 2. Score - ITN & Ikigai
 
 Now it's time to shortlist a few problems and review them from the lens of ITN & Ikigai.
@@ -277,6 +285,8 @@ optional:: true
 
 #### Text
 content::
+---
+
 \## Part 3. Choose your top problem
 
 After completing your scoring, it's time to choose your top problem area. Here are a few steps that can help you gain clarity, especially if the scoring in Part 2 didn't produce an obvious winner:
