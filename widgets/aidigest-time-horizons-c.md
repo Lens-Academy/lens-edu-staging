@@ -243,7 +243,11 @@ function render() {
   function hit(a, b) { return a.x < b.x + b.width + 2 && b.x < a.x + a.width + 2 && a.y < b.y + b.height && b.y < a.y + a.height; }
   for (var li = dblLabels.length - 1; li >= 0; li--) {
     var pair = dblLabels[li]; pair.forEach(function (n) { plot.appendChild(n); });
-    var boxes = pair.map(function (n) { return n.getBBox(); });
+    // Estimated boxes (12px bold DM Sans), not getBBox: the frame may still be hidden when this runs.
+    var boxes = pair.map(function (n) {
+      var w = n.textContent.length * 7, x = +n.getAttribute("x"), y = +n.getAttribute("y"), a = n.getAttribute("text-anchor");
+      return { x: a === "end" ? x - w : a === "middle" ? x - w / 2 : x, y: y - 11, width: w, height: 14 };
+    });
     var bad = boxes.some(function (bb) { return bb.y < -M.top || bb.x + bb.width > iw + M.right || kept.some(function (k) { return hit(bb, k); }); });
     if (bad) pair.forEach(function (n) { plot.removeChild(n); }); else kept = kept.concat(boxes);
   }
