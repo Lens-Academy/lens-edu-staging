@@ -19,7 +19,7 @@ As a key reminder: The path to discovering your research question won't be perfe
 
 ---
 
-\## Step 1: Bottleneck Analysis
+\# Step 1: Bottleneck Analysis
 
 *(For more info and guidance, look at the readings on Step 1)*
 
@@ -62,7 +62,7 @@ optional:: true
 content::
 ---
 
-\## Step 2: Generate a Wide List of Candidate Questions \[45-60 min\]
+\# Step 2: Generate a Wide List of Candidate Questions \[45-60 min\]
 
 *(For more info and guidance, look at the readings on Step 2)*
 
