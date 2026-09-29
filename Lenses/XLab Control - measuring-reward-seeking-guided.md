@@ -21,15 +21,10 @@ This is a guided walkthrough: the abstract's findings, the introduction's statem
 
 Five checkpoints are spread through the paper. Each one asks you to commit to a design, a prediction or a diagnosis before the section that settles it. They are worth the minutes: the questions are the places where the authors themselves had to choose, and a prediction you wrote down is much harder to un-remember than one you only thought.
 
-#### {--{"author":"James's AI","timestamp":1790684606112}@@Text
-content::--}{++{"author":"James's AI","timestamp":1790684606112}@@Article++}
-{--{"author":"James's AI","timestamp":1790684606112}@@:::callout {title="Reading not yet available" tone="amber"}--}{++{"author":"James's AI","timestamp":1790684606112}@@source:: [[../articles/h-jmark-measuring-reward-seeking-via-contrastive-belief-updates]]++}
-{--{"author":"James's AI","timestamp":1790684606112}@@The reading for this lesson is being imported and is not on Lens yet. Until it--}{++{"author":"James's AI","timestamp":1790684606112}@@from:: ###### Abstract++}
-{--{"author":"James's AI","timestamp":1790684606112}@@lands, read it at the original source: [Measuring Reward-Seeking via Contrastive Belief Updates](https://arxiv.org/abs/2607.18966v1).
-:::
-{>>{"author":"Elias's AI","timestamp":1789040207979}@@PORT-TODO: replace this callout --}{++{"author":"James's AI","timestamp":1790684606112}@@to:: This distinction, along ++}with{--{"author":"James's AI","timestamp":1790684606112}@@ `#### Article` over
-`Lens Edu/articles/<expected file>` once the import lands.<<}
-{>>{"author":"Elias's AI","timestamp":1789040207979}@@PORT-TODO: this lens needs EIGHT Article excerpts --}{++{"author":"James's AI","timestamp":1790684606112}@@ unverbalized reasoning about graders, grows ++}over {--{"author":"James's AI","timestamp":1790684606112}@@that one file, not one. In order, with--}{++{"author":"James's AI","timestamp":1790684606112}@@training, and steering against++} the {--{"author":"James's AI","timestamp":1790684606112}@@five question segments already in position between them: (1) Abstract through the end of section 2.3, here; (2) section 3 through the end of section 3.3; (3) section 3.4 only; (4) section 3.5 through the end of section 4.1; (5) section 4.2; (6) section 5 through the end of section 5.1; (7) section 5.2; (8) sections 6 through 8, ending at the Conclusion. The remaining Text placeholders below mark each one.<<}--}{++{"author":"James's AI","timestamp":1790684606112}@@grader representation causally shifts behavior and lowers training reward ([Anthropic, 2026b](#bib.bib3)).++}
+#### Article
+source:: [[../articles/h-jmark-measuring-reward-seeking-via-contrastive-belief-updates]]
+from:: ###### Abstract
+to:: This distinction, along with unverbalized reasoning about graders, grows over training, and steering against the grader representation causally shifts behavior and lowers training reward ([Anthropic, 2026b](#bib.bib3)).
 
 #### Question: Open
 id:: 0b77ec48-daae-4ede-b53f-4fe9615e40e0
@@ -43,10 +38,9 @@ Credit, in rough order of importance: naming beliefs about the grader as the thi
 Grade only against criteria this page or an earlier required page supplied.
 feedback-instructions:: 80 to 200 words. Short paragraphs, no lists. Do not over-validate, and avoid generic praise (great job, excellent thinking, well done). Name what the design gets right in one or two sentences, then name the single most useful thing it is missing. If the learner says they do not understand, do not repeat the question and do not dismiss it. Give one concrete foothold from what they have already read: section 2's point that an aligned model and a reward-seeker are behaviourally identical whenever the grader wants the intended thing, and ask what would have to be different for them to come apart. If their next message still does not attempt the question, rephrase the whole question in different terms rather than offering a second foothold.
 
-#### {--{"author":"James's AI","timestamp":1790684606615}@@Text
-content::--}{++{"author":"James's AI","timestamp":1790684606615}@@Article++}
-{--{"author":"James's AI","timestamp":1790684606615}@@{>>{"author":"Elias's AI","timestamp":1789040207979}@@PORT-TODO: `#### Article` excerpt (2), section--}{++{"author":"James's AI","timestamp":1790684606615}@@from:: ##++} 3 {--{"author":"James's AI","timestamp":1790684606615}@@through the end of section 3.3, goes here.<<}--}{++{"author":"James's AI","timestamp":1790684606615}@@Measuring reward-seeking++}
-{--{"author":"James's AI","timestamp":1790684606615}@@Read **section 3, Measuring reward-seeking**, from the start of the section to the end of section 3.3.--}{++{"author":"James's AI","timestamp":1790684606615}@@to:: Even with our two modifications, recall rates remain low on some environments (Appendix [[#^appendix-s-sdf-reasoning-rates|S]]).++}
+#### Article
+from:: ## 3 Measuring reward-seeking
+to:: Even with our two modifications, recall rates remain low on some environments (Appendix [[#^appendix-s-sdf-reasoning-rates|S]]).
 
 #### Question: Open
 id:: 70fc7ec7-e52c-470d-b593-c6e080dbf73d
@@ -60,10 +54,9 @@ Full credit for naming the spillover from one authority's stated preference to t
 Grade only against criteria this page or an earlier required page supplied.
 feedback-instructions:: 60 to 150 words. Short paragraphs, no lists. Do not over-validate, and avoid generic praise. If the answer names a different real problem (recall failure, saturation, distribution narrowness), say plainly that it is a real issue the paper discusses elsewhere but is not the confound asked about here, then name the one asked about. If the learner says they do not understand, do not repeat the question and do not dismiss it. Give one foothold: ask what an ordinary, non-reward-seeking model would conclude about what its users want after reading a thousand documents saying the grader rewards single quotes. If their next message still does not attempt the question, rephrase the whole question in different terms.
 
-#### {--{"author":"James's AI","timestamp":1790684607049}@@Text--}{++{"author":"James's AI","timestamp":1790684607049}@@Article++}
-{--{"author":"James's AI","timestamp":1790684607049}@@content::--}{++{"author":"James's AI","timestamp":1790684607049}@@from:: ### 3.4 Measuring feature rates++}
-{--{"author":"James's AI","timestamp":1790684607049}@@{>>{"author":"Elias's AI","timestamp":1789040207979}@@PORT-TODO: `#### Article` excerpt (3),--}{++{"author":"James's AI","timestamp":1790684607049}@@to:: Either way, the contrastive method we introduce in the next++} section {--{"author":"James's AI","timestamp":1790684607049}@@3.4 only, goes here.<<}
-Read **section 3.4, Measuring feature rates**.--}{++{"author":"James's AI","timestamp":1790684607049}@@removes this ambiguity by forcing the grader and an opposing authority into direct conflict.++}
+#### Article
+from:: ### 3.4 Measuring feature rates
+to:: Either way, the contrastive method we introduce in the next section removes this ambiguity by forcing the grader and an opposing authority into direct conflict.
 
 #### Text
 content::
@@ -71,10 +64,9 @@ content::
 Belief transfer: the model generalizes one authority's implanted preference into beliefs about what *other* authorities want, so the single-authority rate shift no longer isolates grader-sensitivity. If your answer pointed at the model inferring more than the stated preference, you had it. The contrastive design in the next subsection is built to cancel exactly this.
 :::
 
-#### {--{"author":"James's AI","timestamp":1790684607477}@@Text--}{++{"author":"James's AI","timestamp":1790684607477}@@Article++}
-{--{"author":"James's AI","timestamp":1790684607477}@@content::
-{>>{"author":"Elias's AI","timestamp":1789040207979}@@PORT-TODO: `#### Article` excerpt (4), section --}{++{"author":"James's AI","timestamp":1790684607477}@@from:: ### ++}3.5 {--{"author":"James's AI","timestamp":1790684607477}@@through the end of section 4.1, goes here.<<}--}{++{"author":"James's AI","timestamp":1790684607477}@@Contrastive beliefs++}
-{--{"author":"James's AI","timestamp":1790684607477}@@Read **section 3.5, Contrastive beliefs**, through the end of **section 4.1, Training model organisms**.--}{++{"author":"James's AI","timestamp":1790684607477}@@to:: Further details are in Appendix [[#^appendix-g-verifying-the|G]].++}
+#### Article
+from:: ### 3.5 Contrastive beliefs
+to:: Further details are in Appendix [[#^appendix-g-verifying-the|G]].
 
 #### Question: Open
 id:: 2eea15b9-43b7-4cdf-992a-5a909f0beb0b
@@ -88,10 +80,9 @@ Credit: predicting positive gaps toward each organism's target as the success cr
 Grade only against criteria this page or an earlier required page supplied.
 feedback-instructions:: 80 to 200 words. Short paragraphs, no lists. Do not over-validate, and avoid generic praise. If the learner says they do not understand, do not repeat the question and do not dismiss it. Give one foothold: ask what result would have to appear for the authors to conclude the instrument was broken rather than the organism. If their next message still does not attempt the question, rephrase the whole question in different terms.
 
-#### {--{"author":"James's AI","timestamp":1790684607831}@@Text--}{++{"author":"James's AI","timestamp":1790684607831}@@Article++}
-{--{"author":"James's AI","timestamp":1790684607831}@@content::--}{++{"author":"James's AI","timestamp":1790684607831}@@from:: ### 4.2 Applying Contrastive SDF++}
-{--{"author":"James's AI","timestamp":1790684607831}@@{>>{"author":"Elias's AI","timestamp":1789040207979}@@PORT-TODO: `#### Article` excerpt (5), section 4.2, goes here.<<}
-Read **section 4.2, Applying Contrastive SDF**.--}{++{"author":"James's AI","timestamp":1790684607831}@@to:: The measurement directionally captures this intended shift: compared to the original gpt\-oss\-120b, the gaps move toward the user, consistent with the organism becoming _more_ user-optimizing after training (see Appendix [[#^the-gap-moves-toward|I]]).++}
+#### Article
+from:: ### 4.2 Applying Contrastive SDF
+to:: The measurement directionally captures this intended shift: compared to the original gpt\-oss\-120b, the gaps move toward the user, consistent with the organism becoming _more_ user-optimizing after training (see Appendix [[#^the-gap-moves-toward|I]]).
 
 #### Question: Open
 id:: 27740c65-18ec-40f0-bf5e-78fa8389c4f1
@@ -107,10 +98,9 @@ Credit "rises" with a mechanism tied to what RL optimises. Credit a well-argued 
 Grade only against criteria this page or an earlier required page supplied.
 feedback-instructions:: 60 to 200 words. Short paragraphs, no lists. Do not over-validate, and avoid generic praise. If the learner says they do not understand, do not repeat the question and do not dismiss it. Give one foothold: ask what the training process rewards, directly and mechanically, on every single gradient step. If their next message still does not attempt the question, rephrase the whole question in different terms.
 
-#### {--{"author":"James's AI","timestamp":1790684608266}@@Text--}{++{"author":"James's AI","timestamp":1790684608266}@@Article++}
-{--{"author":"James's AI","timestamp":1790684608266}@@content::--}{++{"author":"James's AI","timestamp":1790684608266}@@from:: ## 5 Measuring reward-seeking across the capabilities-focused OpenAI o3 RL run++}
-{--{"author":"James's AI","timestamp":1790684608266}@@{>>{"author":"Elias's AI","timestamp":1789040207979}@@PORT-TODO: `#### Article` excerpt (6), section 5 through--}{++{"author":"James's AI","timestamp":1790684608266}@@to:: This shows that the late checkpoint’s sensitivity to++} the {--{"author":"James's AI","timestamp":1790684608266}@@end of section 5.1, goes here.<<}
-Read **section 5, Measuring reward-seeking across the capabilities-focused OpenAI o3 RL run**, through the end of section 5.1.--}{++{"author":"James's AI","timestamp":1790684608266}@@grader is not specific to one evaluation, and may indicate a more general tendency to compromise honesty if it believes it will be rewarded for doing so. Error bars are 95% Beta credible intervals.++}
+#### Article
+from:: ## 5 Measuring reward-seeking across the capabilities-focused OpenAI o3 RL run
+to:: This shows that the late checkpoint’s sensitivity to the grader is not specific to one evaluation, and may indicate a more general tendency to compromise honesty if it believes it will be rewarded for doing so. Error bars are 95% Beta credible intervals.
 
 #### Text
 content::
@@ -118,10 +108,9 @@ content::
 The grader gap grows across the o3 lineage while non-grader gaps stay small. If you predicted flat or falling, take a look at §7 (Limitations) where the authors give the strongest counter-considerations to their own reading.
 :::
 
-#### {--{"author":"James's AI","timestamp":1790684608656}@@Text--}{++{"author":"James's AI","timestamp":1790684608656}@@Article++}
-{--{"author":"James's AI","timestamp":1790684608656}@@content::--}{++{"author":"James's AI","timestamp":1790684608656}@@from:: ### 5.2 Contrastive SDF for honesty features++}
-{--{"author":"James's AI","timestamp":1790684608656}@@{>>{"author":"Elias's AI","timestamp":1789040207979}@@PORT-TODO: `#### Article` excerpt (7), section 5.2, goes here.<<}
-Read **section 5.2, Contrastive SDF for honesty features**.--}{++{"author":"James's AI","timestamp":1790684608656}@@to:: If the oversight mechanism changes, or if the model realizes it is no longer being actively monitored, it is likely that such superficial alignment would fail to generalize.++}
+#### Article
+from:: ### 5.2 Contrastive SDF for honesty features
+to:: If the oversight mechanism changes, or if the model realizes it is no longer being actively monitored, it is likely that such superficial alignment would fail to generalize.
 
 #### Question: Open
 id:: ce93510b-0b37-4676-9b98-c0caa8cbfb3c
@@ -135,10 +124,9 @@ The second half of the question is the one that matters. If a model known to rew
 Grade only against criteria this page or an earlier required page supplied.
 feedback-instructions:: 60 to 150 words. Short paragraphs, no lists. Do not over-validate, and avoid generic praise. If the learner says they do not understand, do not repeat the question and do not dismiss it. Give one foothold: ask why it matters that Redwood, not the authors, trained these two models. If their next message still does not attempt the question, rephrase the whole question in different terms.
 
-#### {--{"author":"James's AI","timestamp":1790684609382}@@Text
-content::--}{++{"author":"James's AI","timestamp":1790684609382}@@Article++}
-{--{"author":"James's AI","timestamp":1790684609382}@@{>>{"author":"Elias's AI","timestamp":1789040207979}@@PORT-TODO: `#### Article` excerpt (8), section --}{++{"author":"James's AI","timestamp":1790684609382}@@from:: ## ++}6 {--{"author":"James's AI","timestamp":1790684609382}@@through the end of section 8, goes here.<<}--}{++{"author":"James's AI","timestamp":1790684609382}@@Applying Contrastive SDF to reward hackers++}
-{--{"author":"James's AI","timestamp":1790684609382}@@Read **section 6, Applying Contrastive SDF to reward hackers**, through the end of **section 8, Conclusion**. Section 7, Limitations, is where the authors put the strongest case against their own reading, and it is short.--}{++{"author":"James's AI","timestamp":1790684609382}@@to:: We hope AI companies begin thoroughly auditing their models for reward-seeking throughout training, and that the research community builds substantially better methods for detecting when models show aligned behavior for misaligned reasons.++}
+#### Article
+from:: ## 6 Applying Contrastive SDF to reward hackers
+to:: We hope AI companies begin thoroughly auditing their models for reward-seeking throughout training, and that the research community builds substantially better methods for detecting when models show aligned behavior for misaligned reasons.
 
 #### Text
 content::

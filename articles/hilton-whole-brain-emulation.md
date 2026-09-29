@@ -61,7 +61,7 @@ Attempts to better answer the question of whether we should be working on whole 
 
 -   [_Superintelligence: Paths, Dangers, Strategies_](https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom-dp-0199678111/dp/0199678111) by Nick Bostrom (2014) discusses whole brain emulation in detail.
 -   The [Digital People FAQ](https://web.archive.org/web/20221022224946/https://www.cold-takes.com/digital-people-faq/) by Holden Karnofsky (2021) considers what a world with whole brain emulation would look like.
--   [Whole Brain Emulation: A {--{"author":"James's AI","timestamp":1790674590589}@@Roadmap](https://www.fhi.ox.ac.uk/brain-emulation-roadmap-report.pdf)--}{++{"author":"James's AI","timestamp":1790674590589}@@Roadmap](https://gwern.net/doc/ai/scaling/hardware/2008-sandberg-wholebrainemulationroadmap.pdf)++} by Anders Sandberg and Nick Bostrom (2007) details how we might expect to see this technology developed.
+-   [Whole Brain Emulation: A Roadmap](https://gwern.net/doc/ai/scaling/hardware/2008-sandberg-wholebrainemulationroadmap.pdf) by Anders Sandberg and Nick Bostrom (2007) details how we might expect to see this technology developed.
 -   Podcast: [Jonathan Birch on the edge cases of sentience and why they matter](https://80000hours.org/podcast/episodes/jonathan-birch-edge-sentience-uncertainty/)
 -   Podcast: [Anil Seth on the predictive brain and how to study consciousness](https://80000hours.org/podcast/episodes/anil-seth-predictive-brain-explaining-consciousness/)
 -   Podcast: [Robert Long on why large language models like GPT (probably) aren’t conscious](https://80000hours.org/podcast/episodes/robert-long-artificial-sentience/)
