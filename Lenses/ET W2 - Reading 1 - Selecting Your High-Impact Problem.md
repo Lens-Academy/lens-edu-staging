@@ -7,7 +7,7 @@ tags: [wip]
 ---
 #### Text
 content::
-\## Week 2: Selecting a High-Impact Problem
+\# Week 2: Selecting a High-Impact Problem
 
 Welcome back! This week is about narrowing in: turning your broad sense of "wanting to have impact" into an actual problem worth spending your thesis on.
 
