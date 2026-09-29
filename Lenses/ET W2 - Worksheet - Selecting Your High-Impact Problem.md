@@ -9,11 +9,21 @@ tags: [wip]
 content::
 \## Week 2 Worksheet: Selecting Your High-Impact Problem
 
+:::callout {title="Instructions" tone="blue"}
+
 This worksheet helps you identify a high-impact problem for your thesis by combining the ITN framework (Importance, Neglectedness, Tractability) with your Ikigai (what the world needs, your skills, and what feels personally meaningful to you).
+
+:::
+
+---
 
 \## Part 1. Brainstorm a list of problems
 
 Before you start, skim back through the section on the Landscape of High-Impact Problems in this week's reading if you haven't already, as it's worth having those problem areas fresh in mind as you brainstorm. Remember that a common pitfall is not considering more options before narrowing down.
+
+::card[[../Lenses/ET W2 - Reading 2 - Landscape of High-Impact Problems|3. Landscape of High-Impact Problems]]
+
+> Jump back to this week's reading on the landscape of high-impact problems.
 
 \### Instructions
 
