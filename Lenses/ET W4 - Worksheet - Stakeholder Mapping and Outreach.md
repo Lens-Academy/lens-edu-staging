@@ -37,7 +37,7 @@ content:: **Potential Stakeholders: Who would need to act on this research, if y
 content::
 ---
 
-\## Part 2: Stakeholder Mapping and Outreach
+\# Part 2: Stakeholder Mapping and Outreach
 
 1. **Mapping:** Begin by listing out 10-20 stakeholders, especially those who are most relevant to your bottlenecks identified. This could be people who've written a relevant paper, organisations already working on this problem, researchers who've published on it, or anyone else who seems genuinely interested in this space. **In the table below, focus on:**
 - **Who:** Identify real-world stakeholders - i.e., list a specific NGO like [ACTRA](https://www.actra.ngo/) and specific **people on the team(!),** rather than just writing “NGO”.
@@ -67,7 +67,7 @@ placeholder:: Who: Real-world Stakeholder: … | What: Change Required: … | Li
 content::
 ---
 
-\## Part 3: Stakeholder Interview Questions
+\# Part 3: Stakeholder Interview Questions
 
 #### Question: Open
 id:: a9382544-18e1-42fd-82bb-360a8e52f734
