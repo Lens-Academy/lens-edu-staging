@@ -99,16 +99,35 @@ content::
 
 Now it's time to shortlist a few problems and review them from the lens of ITN & Ikigai.
 
-1. **Tidy up your list (10 min):** Take 10 mins to clean up and tidy your list. You can tidy up your list based on:
-   1. Merging similar or duplicate entries
-   2. Cut ideas you have clearly no interest in pursuing
-   3. Check each entry actually describes a problem, not a solution in disguise (does it name a negative outcome or state, without implying a specific fix?)
-2. **Move 3-5 ideas into Part 2 (20-25 min):** From your cleaned-up list, pick 3-5 problems that feel most promising to research further and move them into the second tab - Part 2. Score, and spend around 5 minutes on each problem:
-   1. **ITN.** For each shortlisted problem, use the ITN table from this week's reading to make a rough call on importance, neglectedness, and tractability.
-   2. **Ikigai.** Alongside that, also score how working on the problem relates to your Ikigai - your sense of purpose, enjoyment, and personal fit with your skills! Which of these do you feel most energised by, most naturally suited to, or most quietly pulled toward?
-3. **Rapid research (15-20 min):** We recommend spending some time on your biggest uncertainties for each of your top problem choices. You can use LLMs and quick literature reviews to resolve your key uncertainties and change your scoring based on this.
-   1. For example, if I’m highly uncertain about the **scale of beings affected by** air pollution - I can spend 5 mins researching this and then changing my initial scoring based on what I find.
-   2. You can see this [list of useful resources on global problems](https://docs.google.com/document/d/1nnfKcjL3ayLTchKLiPC9fghWon6p7NuhwmF9NSxKrlQ/edit?usp=sharing).
+\## Instructions for Part 2
+
+:::callout {title="1. Tidy up your list (10 min)" tone="blue" collapse="closed"}
+
+Take 10 mins to clean up and tidy your list. You can tidy up your list based on:
+
+1. Merging similar or duplicate entries
+2. Cut ideas you have clearly no interest in pursuing
+3. Check each entry actually describes a problem, not a solution in disguise (does it name a negative outcome or state, without implying a specific fix?)
+
+:::
+
+:::callout {title="2. Move 3-5 ideas into Part 2 (20-25 min)" tone="blue" collapse="closed"}
+
+From your cleaned-up list, pick 3-5 problems that feel most promising to research further and move them into the second tab - Part 2. Score, and spend around 5 minutes on each problem:
+
+1. **ITN.** For each shortlisted problem, use the ITN table from this week's reading to make a rough call on importance, neglectedness, and tractability.
+2. **Ikigai.** Alongside that, also score how working on the problem relates to your Ikigai - your sense of purpose, enjoyment, and personal fit with your skills! Which of these do you feel most energised by, most naturally suited to, or most quietly pulled toward?
+
+:::
+
+:::callout {title="3. Rapid research (15-20 min)" tone="blue" collapse="closed"}
+
+We recommend spending some time on your biggest uncertainties for each of your top problem choices. You can use LLMs and quick literature reviews to resolve your key uncertainties and change your scoring based on this.
+
+1. For example, if I’m highly uncertain about the **scale of beings affected by** air pollution - I can spend 5 mins researching this and then changing my initial scoring based on what I find.
+2. You can see this [list of useful resources on global problems](https://docs.google.com/document/d/1nnfKcjL3ayLTchKLiPC9fghWon6p7NuhwmF9NSxKrlQ/edit?usp=sharing).
+
+:::
 
 #### Question: Open
 id:: 9cb4db97-dc2a-42d0-addb-363ff7c90f49
