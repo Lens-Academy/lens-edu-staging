@@ -1,0 +1,225 @@
+---
+id: '643332d2-5a36-4311-bd93-7f9307b0812e'
+title: How much would paying AIs reduce takeover risk?
+summary_for_tutor: "An interactive version of the back-of-the-envelope calculation (BOTEC) in Lukas Finnveden's 'Notes on cooperating with unaligned AIs', placed right after the excerpt that states it. The intervention: the leading lab publicly commits to negotiate payment with its AIs and sets aside 10 percent of its equity for this. Eight sliders, defaults reproducing the text: AI mostly cares about long-term resources (60 percent), those values are scope-sensitive (50 percent), AI believes other AIs do not share its values (75 percent), the promise multiplies expected human payment by 3x, chance this AI's flip was the one that mattered (x0.50), risk reduction if AIs cooperate (17 percentage points, off a 50 percent takeover baseline), probability of widespread scheming-prone values (x0.20), discount for lack-of-understanding worlds (x0.55). The chain: movable-values share = product of the first three (22.5 percent at defaults); flip probability = log10(multiplier)/2, from an AI belief about human-versus-AI payment that is log-uniform between 10x less and 10x more (3x gives about 24 percent); other value types are half as movable, so one AI flips with probability combo x flip + (1 - combo) x flip/2 (about 14.6 percent); times the multiple-AIs discount (about 7.3 percent); times the risk cut gives the main-scenario reduction (about 1.24 percentage points); times the two scenario discounts gives the bottom line, about 0.14 percentage points at defaults. The text's own rounding gives 15 percent and 7.5 percent at the middle steps; the widget computes exactly, so it shows 14.6 and 7.3. Finnveden offers the estimate as an exercise and starting point, not a result. The widget completes once the learner has moved any slider. Ask which assumption moved the bottom line most, and whether the learner believes the multiplier or the risk-cut number."
+height: auto
+tags: []
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<style>
+:root {
+  --bg: #ffffff; --page: #faf8f3; --text: #1a1a1a; --muted: #5a5a5a; --border: #e8e5df;
+  --accent: #b87018; --accent-hover: #9a5c10;
+  --font-ui: "DM Sans", Arial, sans-serif; --font-heading: "Newsreader", Georgia, serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
+h2 { font-family: var(--font-heading); font-weight: 600; font-size: 18px; margin: 0 0 4px; }
+.eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0; }
+.card { border: 1px solid var(--border); border-radius: 8px; padding: 16px; background: var(--bg); }
+.lede { color: var(--muted); margin: 4px 0 16px; }
+.stages { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+@media (max-width: 560px) { .stages { grid-template-columns: 1fr 1fr; } }
+.stage { border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; background: var(--bg); display: flex; flex-direction: column; justify-content: space-between; }
+.stage .k { color: var(--muted); font-size: 11px; line-height: 1.3; }
+.stage .v { font-size: 18px; font-weight: 600; font-variant-numeric: tabular-nums; margin-top: 4px; }
+.stage.final { margin-top: 8px; border-color: rgba(184, 112, 24, 0.45); background: rgba(184, 112, 24, 0.07); }
+.stage.final .v { color: var(--accent-hover); font-size: 22px; }
+.controls { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 24px; margin-top: 18px; }
+@media (max-width: 520px) { .controls { grid-template-columns: 1fr; } }
+.ctrl label { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+.ctrl .name { color: var(--muted); }
+.ctrl .val { font-variant-numeric: tabular-nums; font-weight: 500; white-space: nowrap; }
+input[type=range] { width: 100%; accent-color: var(--accent); margin: 4px 0 0; }
+.note { color: var(--muted); font-size: 13px; margin: 16px 0 0; }
+.row { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 14px; flex-wrap: wrap; }
+button { font: inherit; color: inherit; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); padding: 8px 12px; cursor: pointer; }
+button:hover { background: var(--page); }
+</style>
+</head>
+<body>
+<!-- Ported from XLab's "How much would paying AIs reduce takeover risk?" demo (coop-botec) on the
+     AI Control track (aisafetytracks.com; source github.com/XLabTracks/tracks,
+     src/components/demos/coop-botec-demo.tsx), rebuilt as vanilla HTML/JS in the Lens look.
+     The model, the slider ranges and the defaults are XLab's, and reproduce Finnveden's text. -->
+<div class="card">
+  <p class="eyebrow">Figure</p>
+  <h2>How much would paying AIs reduce takeover risk?</h2>
+  <p class="lede">The estimate above as a live multiplication chain. Drag any assumption and watch the bottom line move.</p>
+
+  <div class="stages" id="stages"></div>
+  <div class="stage final">
+    <div class="k">All-things-considered risk reduction, after the scenario discounts</div>
+    <div class="v" id="final" aria-live="polite"></div>
+  </div>
+
+  <div class="controls" id="controls"></div>
+
+  <p class="note">Defaults reproduce the text's own numbers, which its author offers as an exercise and starting point rather than a result. The point of dragging a slider is to see which assumptions the bottom line actually turns on.</p>
+
+  <div class="row">
+    <button type="button" id="reset">Reset to the text's numbers</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  function pct(v) { return (v * 100).toFixed(1) + "%"; }
+  function times(v) { return "×" + (v / 100).toFixed(2); }
+
+  // Slider definitions: XLab's labels, ranges, steps and defaults.
+  var CONTROLS = [
+    { key: "pLong", label: "AI mostly cares about long-term resources", min: 0, max: 100, step: 5, def: 60, show: function (v) { return v + "%"; } },
+    { key: "pScope", label: "Those values are scope-sensitive (~linear)", min: 0, max: 100, step: 5, def: 50, show: function (v) { return v + "%"; } },
+    { key: "pDisunited", label: "AI believes other AIs don't share its values", min: 0, max: 100, step: 5, def: 75, show: function (v) { return v + "%"; } },
+    { key: "mult", label: "Promise multiplies expected human payment by", min: 1, max: 10, step: 0.5, def: 3, show: function (v) { return v + "x"; } },
+    { key: "multiAIs", label: "Chance this AI's flip was the one that mattered", min: 0, max: 100, step: 5, def: 50, show: times },
+    { key: "riskCut", label: "Risk reduction if AIs cooperate", min: 0, max: 50, step: 1, def: 17, show: function (v) { return v + "pp"; } },
+    { key: "pScenario", label: "Probability of widespread scheming-prone values", min: 0, max: 100, step: 5, def: 20, show: times },
+    { key: "understanding", label: "Discount for lack-of-understanding worlds", min: 0, max: 100, step: 5, def: 55, show: times }
+  ];
+
+  var STAGES = [
+    { key: "combo", label: "AI has movable values (long-term × scope-sensitive × disunified)" },
+    { key: "oneAI", label: "A serious promise flips some AI (others half as movable)" },
+    { key: "anyAI", label: "…and it mattered (no other cooperator)" },
+    { key: "main", label: "Risk cut in the main scenario (of 50% takeover risk)" }
+  ];
+
+  var s = {};
+  CONTROLS.forEach(function (c) { s[c.key] = c.def; });
+  var touched = false, completed = false;
+
+  function model() {
+    // The movable-values combination.
+    var combo = (s.pLong / 100) * (s.pScope / 100) * (s.pDisunited / 100);
+    // A payment-belief ratio log-uniform on [0.1, 10]; multiplying human payment by
+    // `mult` flips a log10(mult)/2 slice of the distribution.
+    var flip = Math.min(Math.max(Math.log10(s.mult) / 2, 0), 1);
+    // Other value-types: half as promising on average (the post's assumption).
+    var oneAI = combo * flip + (1 - combo) * (flip / 2);
+    var anyAI = oneAI * (s.multiAIs / 100);
+    var main = anyAI * s.riskCut;
+    var fin = main * (s.pScenario / 100) * (s.understanding / 100);
+    return { combo: combo, flip: flip, oneAI: oneAI, anyAI: anyAI, main: main, fin: fin };
+  }
+
+  var stageVals = {};
+  function buildStages() {
+    var host = document.getElementById("stages");
+    STAGES.forEach(function (st) {
+      var d = document.createElement("div");
+      d.className = "stage";
+      var k = document.createElement("div");
+      k.className = "k";
+      k.textContent = st.label;
+      var v = document.createElement("div");
+      v.className = "v";
+      d.appendChild(k);
+      d.appendChild(v);
+      host.appendChild(d);
+      stageVals[st.key] = v;
+    });
+  }
+
+  function buildControls() {
+    var host = document.getElementById("controls");
+    CONTROLS.forEach(function (c) {
+      var wrap = document.createElement("div");
+      wrap.className = "ctrl";
+      var label = document.createElement("label");
+      label.setAttribute("for", "in-" + c.key);
+      var name = document.createElement("span");
+      name.className = "name";
+      name.textContent = c.label;
+      var val = document.createElement("span");
+      val.className = "val";
+      val.id = "out-" + c.key;
+      label.appendChild(name);
+      label.appendChild(val);
+      var input = document.createElement("input");
+      input.type = "range";
+      input.id = "in-" + c.key;
+      input.min = String(c.min);
+      input.max = String(c.max);
+      input.step = String(c.step);
+      input.value = String(s[c.key]);
+      input.addEventListener("input", function () {
+        s[c.key] = Number(input.value);
+        touched = true;
+        render(true);
+      });
+      wrap.appendChild(label);
+      wrap.appendChild(input);
+      host.appendChild(wrap);
+    });
+  }
+
+  function render(doSave) {
+    var m = model();
+    stageVals.combo.textContent = pct(m.combo);
+    stageVals.oneAI.textContent = pct(m.oneAI);
+    stageVals.anyAI.textContent = pct(m.anyAI);
+    stageVals.main.textContent = m.main.toFixed(2) + "pp";
+    document.getElementById("final").textContent = m.fin.toFixed(2) + "pp";
+
+    CONTROLS.forEach(function (c) {
+      document.getElementById("in-" + c.key).value = String(s[c.key]);
+      document.getElementById("out-" + c.key).textContent = c.show(s[c.key]);
+    });
+
+    if (doSave) save(m);
+  }
+
+  var saveTimer = null;
+  function save(m) {
+    if (!window.Lens) return;
+    if (touched && !completed) {
+      completed = true;
+      if (window.Lens.complete) window.Lens.complete();
+    }
+    if (saveTimer) clearTimeout(saveTimer);
+    saveTimer = setTimeout(function () {
+      var changed = CONTROLS.filter(function (c) { return s[c.key] !== c.def; })
+        .map(function (c) { return c.label + " " + c.show(s[c.key]) + " (text: " + c.show(c.def) + ")"; });
+      var summary = "BOTEC calculator. " +
+        (changed.length ? "Changed from the text's numbers: " + changed.join("; ") + ". " : "All sliders at the text's numbers. ") +
+        "Chain: movable values " + pct(m.combo) + ", one AI flips " + pct(m.oneAI) + ", and it mattered " + pct(m.anyAI) +
+        ", main-scenario risk cut " + m.main.toFixed(2) + "pp, bottom line " + m.fin.toFixed(2) +
+        " percentage points (the text's defaults give about 0.14).";
+      if (window.Lens.saveState) window.Lens.saveState({ v: 1, s: s, touched: touched }, summary);
+    }, 400);
+  }
+
+  document.getElementById("reset").addEventListener("click", function () {
+    CONTROLS.forEach(function (c) { s[c.key] = c.def; });
+    render(true);
+  });
+
+  buildStages();
+  buildControls();
+
+  if (window.Lens && window.Lens.onState) {
+    window.Lens.onState(function (state, meta) {
+      if (state && state.s) {
+        CONTROLS.forEach(function (c) {
+          if (typeof state.s[c.key] === "number") s[c.key] = state.s[c.key];
+        });
+        touched = !!state.touched;
+      }
+      if (meta && meta.completed) completed = true;
+      render(false);
+    });
+  }
+  render(false);
+})();
+</script>
+</body>
+</html>
