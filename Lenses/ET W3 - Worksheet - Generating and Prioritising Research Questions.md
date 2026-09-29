@@ -74,7 +74,7 @@ For this step: Please duplicate a template of this thesis WFM and create your ow
 
 ---
 
-\## Step 3: Iterative Narrowing \[20 min\]
+\# Step 3: Iterative Narrowing \[20 min\]
 
 *(For more info and guidance, look at the readings on Step 3)*
 
@@ -85,7 +85,7 @@ For this step: Please duplicate a template of this thesis WFM and create your ow
 
 ---
 
-\## Step 4: Choose Your Top 1-2 with a Weighted Factor Model \[30 min\]
+\# Step 4: Choose Your Top 1-2 with a Weighted Factor Model \[30 min\]
 
 *(For more info and guidance, look at the readings on Step 4)*
 
