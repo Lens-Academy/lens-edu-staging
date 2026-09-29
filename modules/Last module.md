@@ -43,4 +43,5 @@ source:: ![[../Lenses/The Goddess Of Everything Else]]
 source:: [[../Lenses/Next steps]]
 
 # Lens:
+optional:: true
 source:: ![[../Lenses/Letter From Utopia]]
