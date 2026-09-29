@@ -150,8 +150,7 @@ options::
 - Kairos
 - Iliad (Fellowship or Intensive)
 - Apart Research
-- AI Safety Camp
-- SPAR
+
 - Heron AI Security Fellowship
 - Horizon Institute for Public Service
 - Talos Fellowship
