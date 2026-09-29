@@ -7,9 +7,7 @@ tags: [wip]
 ---
 #### Text
 content::
-*Week 3 Journalling Tab*
-
-\## Bottlenecks in Your Life
+\# Week 3 Journalling: Bottlenecks in Your Life
 
 This is an optional but highly recommended space to reflect on your personal life through the lens of bottlenecks. Take 10–15 minutes to pause, observe, and write - there are no right or wrong answers. Think of it as noticing what’s getting in the way of the life you want to live and exploring small ways forward.
 
