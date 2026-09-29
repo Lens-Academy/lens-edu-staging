@@ -138,6 +138,8 @@ options::
 - BlueDot Impact
 - Lens Academy (another course)
 - Center for AI Safety course
+- AI Safety Camp
+- SPAR
 - Cooperative AI Foundation
 - MIT AI Alignment (MAIA)
 - BASE (Black in AI Safety and Ethics)
@@ -150,7 +152,6 @@ options::
 - Kairos
 - Iliad (Fellowship or Intensive)
 - Apart Research
-
 - Heron AI Security Fellowship
 - Horizon Institute for Public Service
 - Talos Fellowship
