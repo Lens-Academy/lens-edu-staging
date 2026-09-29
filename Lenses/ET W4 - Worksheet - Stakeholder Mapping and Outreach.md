@@ -17,7 +17,7 @@ By the end of this worksheet, you will have a list of real, named stakeholders w
 
 📖 **Recommended additional read:** our guide on using AI tools well as you work through your worksheets and thesis.
 
-::card[[../Lenses/ET Additional - Using AI Tools Well|Using AI Tools Well]]
+::card[[../Lenses/ET Additional - Using AI Tools Well|Using AI Tools Well]]{allow-external}
 
 ---
 
