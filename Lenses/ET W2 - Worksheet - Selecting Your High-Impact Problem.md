@@ -133,41 +133,14 @@ We recommend spending some time on your biggest uncertainties for each of your t
 
 :::
 
-#### Question: Open
-id:: 9cb4db97-dc2a-42d0-addb-363ff7c90f49
-content:: 1: Problem Area
+#### Text
+content::
+\## Your scoring table
 
-#### Question: Rating
-id:: 25694d2d-1a0d-415b-be13-927f07d02328
-content:: 1: Importance
-scale:: 5
+Fill in the table below for your 3-5 shortlisted problems (or use the second tab of your spreadsheet if you're working there instead).
 
-#### Question: Rating
-id:: e5f81005-6fea-4fbc-90c9-ceacf0581cb3
-content:: 1: Tractability
-scale:: 5
-
-#### Question: Rating
-id:: 73c2271c-9eb1-430d-9a01-8c1a055cf0fb
-content:: 1: Neglectedness
-scale:: 5
-
-#### Question: Open
-id:: e0ccce65-e869-4f42-8a62-0052df1878ad
-content:: 1: ITN-Comment
-
-#### Question: Rating
-id:: 5f04c1b4-8d0a-4477-9198-80b4dc02d938
-content:: 1: Ikigai Rating
-scale:: 5
-
-#### Question: Open
-id:: ca2b5057-95de-4fd5-97e4-f4b48017d3db
-content:: 1: Ikigai Comment
-
-#### Question: Open
-id:: 36dc9fc4-8651-4c56-9078-aeb8cbe831da
-content:: 1: Main Uncertainties and Open Questions
+#### Widget
+source:: [[../widgets/et-w2-itn-ikigai-scoring]]
 
 #### Question: Open
 id:: 73e8cc66-ce53-44ee-87ae-f53d6c49c361
