@@ -65,6 +65,8 @@ content::
 
 #### Text
 content::
+---
+
 \## Part 2: Your Thesis as an Ikigai Experiment
 
 \#### 2a. Draft your thesis-as-Ikigai statement
@@ -153,6 +155,8 @@ optional:: true
 
 #### Text
 content::
+---
+
 \## Part 3. Next Steps
 
 #### Question: Open
