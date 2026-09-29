@@ -184,7 +184,19 @@ required:: true
 key:: ai_safety_programs_other
 content:: Other programs, or details you want to add (for example which BlueDot course, and whether you completed it).
 
-
+#### Choice
+key:: ais_work_status
+content:: Which best describes your AI safety work right now? If several apply, pick *the highest* on the list.
+options::
+- Paid full-time job in AI safety
+- Paid full-time AI safety fellowship or funded research
+- Paid part-time AI safety work (job, contract, fellowship or grant)
+- A selective unpaid programme (for example SPAR or ARENA)
+- Unpaid contributions (for example volunteering, advocacy or a local group)
+- Applying to AI safety roles or programmes
+- Exploring AI safety, not applying yet
+- Not pursuing AI safety work right now
+required:: true
 
 #### Rating
 key:: transition_intention
