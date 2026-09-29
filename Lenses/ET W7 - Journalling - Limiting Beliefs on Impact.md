@@ -7,9 +7,7 @@ tags: [wip]
 ---
 #### Text
 content::
-*Week 7 Journalling Tab*
-
-\## Limiting Beliefs on Impact
+\# Week 7 Journalling: Limiting Beliefs on Impact
 
 This journaling tab is an optional but highly recommended space for weekly personal reflection alongside the curriculum.  Before diving into thesis decisions (or any major decision for that matter), we highly encourage you to ground your choices in your own vision, values, and goals - not just external expectations. Reflection helps you tune into your inner wisdom and clarify what is truly meaningful to you. This ensures that your thesis - and the impact you aim for - is aligned with what really matters to you.
 
