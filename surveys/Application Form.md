@@ -189,7 +189,7 @@ key:: ais_work_status
 content:: Which best describes your AI safety work right now? If several apply, pick *the highest* on the list.
 options::
 - Paid full-time job in AI safety
-- Paid full-time AI safety fellowship or funded research, 3 months or longer
+- Paid full-time AI safety fellowship or funded research, 3 months or longer (e.g. MATS)
 - Paid part-time AI safety work, or a paid fellowship shorter than 3 months (e.g. ERA)
 - A selective unpaid programme (for example SPAR or ARENA)
 - Unpaid contributions (for example volunteering, advocacy or a local group)
