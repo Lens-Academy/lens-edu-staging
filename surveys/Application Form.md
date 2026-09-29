@@ -153,6 +153,7 @@ options::
 - Global Challenges Project
 - Lens Academy (another course)
 - ARENA
+- Pathfinder
 - SPAR
 - ERA Fellowship
 - Cooperative AI Foundation
@@ -162,7 +163,6 @@ options::
 - TARA
 - Vista Institute for AI Policy
 - Generator Residency
-- Pathfinder
 - Iliad (Fellowship or Intensive)
 - Apart Research
 - Heron AI Security Fellowship
