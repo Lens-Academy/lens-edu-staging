@@ -169,14 +169,25 @@ button.remove { display: block; margin-top: 6px; padding: 2px 8px; font-size: 11
       tbody.appendChild(tr);
     });
     table.appendChild(tbody);
+    addBtn.disabled = rows.length >= MAX;
+    countEl.textContent = rows.length >= MAX ? "You've reached the maximum of " + MAX + " problems." : "";
     refreshTotals();
   }
+
+  addBtn.addEventListener("click", function () {
+    if (rows.length >= MAX) return;
+    rows.push({});
+    build();
+    save();
+    var areas = table.querySelectorAll("tbody tr:last-child textarea");
+    if (areas.length) areas[0].focus();
+  });
 
   build();
   if (window.Lens) {
     window.Lens.onState(function (state) {
       if (state && state.rows && state.rows.length) {
-        rows = state.rows.slice(0, N);
+        rows = state.rows.slice(0, MAX);
         while (rows.length < N) rows.push({});
         build();
       }
