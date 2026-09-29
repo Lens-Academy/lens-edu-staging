@@ -3,7 +3,6 @@ id: '0c2b03f7-1462-42ba-b5aa-ef50b82178b4'
 title: "AI Digest time horizons, step 5: two futures"
 summary_for_tutor: "Graph 5 of the AI Digest time-horizons sequence (CC-BY, METR Time Horizon 1.1 data). Axis to 2030 and a few hundred hours; both trends projected as dashed lines: orange (7-month doubling) and red (4-month doubling, fitted from 2024). The red projection reaches month-long tasks (167 hours) around 2027, the orange one around 2029. The text around it discusses that one year of data is thin, that progress could slow, or speed up further (superexponential growth, AIs speeding up AI research). Hover and crosshair only."
 height: auto
-tags: [wip]
 ---
 <!doctype html>
 <html lang="en">
@@ -192,13 +191,13 @@ function render() {
     plot.appendChild(el("path", { d: pathOf(B.filter(function (d) { return d.t <= O; })), fill: "none", stroke: "#dc2626", "stroke-width": 2 }));
     plot.appendChild(el("path", { d: pathOf(B.filter(function (d) { return d.t >= O; })), fill: "none", stroke: "rgba(220,38,38,0.8)", "stroke-width": 2, "stroke-dasharray": "4,4" }));
   }
+  var dblLabels = [];
   K.forEach(function (d, i) {
     var t2 = d.t + DAY * Z.central.doubling;
     plot.appendChild(el("path", { d: "M " + X(d.t) + " " + Y(d.v) + " L " + X(d.t) + " " + Y(2 * d.v) + " L " + X(t2) + " " + Y(2 * d.v), fill: "none", stroke: "#b87018", "stroke-width": 2, "stroke-dasharray": "2,1" }));
-    if (i >= 8) {
-      plot.appendChild(el("text", { x: X(d.t) - 8, y: Y(d.v) + (Y(2 * d.v) - Y(d.v)) / 2 + 4, "text-anchor": "end", class: "dbl" }, "2x"));
-      plot.appendChild(el("text", { x: X(d.t) + (X(t2) - X(d.t)) / 2 - (mobile ? -10 : 2), y: Y(2 * d.v) - 8, "text-anchor": mobile ? "end" : "middle", class: "dbl" }, "7 months"));
-    }
+    if (i >= 8) dblLabels.push([
+      el("text", { x: X(d.t) - 8, y: Y(d.v) + (Y(2 * d.v) - Y(d.v)) / 2 + 4, "text-anchor": "end", class: "dbl" }, "2x"),
+      el("text", { x: X(d.t) + (X(t2) - X(d.t)) / 2 - (mobile ? -10 : 2), y: Y(2 * d.v) - 8, "text-anchor": mobile ? "end" : "middle", class: "dbl" }, "7 months")]);
   });
 
   var labelled = ext ? LABELLED_FAR : LABELLED;
@@ -239,6 +238,15 @@ function render() {
   });
   svg.addEventListener("mouseleave", function () { vx.setAttribute("visibility", "hidden"); hx.setAttribute("visibility", "hidden"); tip.dataset.kind = ""; hideTip(); });
   box.appendChild(svg);
+  // Doubling labels: newest step first; a pair is kept only if neither label overlaps one already kept or leaves the chart.
+  var kept = [];
+  function hit(a, b) { return a.x < b.x + b.width + 2 && b.x < a.x + a.width + 2 && a.y < b.y + b.height && b.y < a.y + a.height; }
+  for (var li = dblLabels.length - 1; li >= 0; li--) {
+    var pair = dblLabels[li]; pair.forEach(function (n) { plot.appendChild(n); });
+    var boxes = pair.map(function (n) { return n.getBBox(); });
+    var bad = boxes.some(function (bb) { return bb.y < -M.top || bb.x + bb.width > iw + M.right || kept.some(function (k) { return hit(bb, k); }); });
+    if (bad) pair.forEach(function (n) { plot.removeChild(n); }); else kept = kept.concat(boxes);
+  }
 
   var legend = document.getElementById("legend");
   legend.textContent = "";
