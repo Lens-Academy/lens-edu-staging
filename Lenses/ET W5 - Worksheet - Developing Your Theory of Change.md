@@ -20,6 +20,10 @@ This worksheet is designed to help you draft a Theory of Change for your high-im
 
 #### Text
 content::
+📖 **Recommended additional read:** our guide on using AI tools well as you work through your worksheets and thesis.
+
+::card[[../Lenses/ET Additional - Using AI Tools Well|Using AI Tools Well]]
+
 ---
 
 \# Part 1. Draft a Theory of Change for Your Thesis
