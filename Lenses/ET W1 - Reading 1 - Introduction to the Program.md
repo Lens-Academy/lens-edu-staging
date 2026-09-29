@@ -27,9 +27,9 @@ For this week, there will be a **Reading**, a **Worksheet**, and an *optional* *
 
 {++{"author":"Christine's AI","timestamp":1790694447668}@@\#++} Week 1 Reading
 
-\## My Foundations to Impact
+{--{"author":"Christine's AI","timestamp":1790694561789}@@\## My Foundations to Impact
 
-#### Callout: My Foundations to Impact
+--}#### Callout: My Foundations to Impact
 tone:: purple
 
 #### Text
