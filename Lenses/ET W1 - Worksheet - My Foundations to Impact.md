@@ -90,6 +90,7 @@ Before listing out your career hypotheses, we recommend reviewing the list of im
 
 #### Callout: Career Hypothesis #1
 tone:: purple
+collapse:: open
 
 #### Question: Open
 id:: 18a65dd6-1692-4216-bb32-6a4f2994c9d4
@@ -109,8 +110,9 @@ content:: **4) How can I design my thesis to explore my uncertainties or needs?*
 
 #### End Callout
 
-#### Callout: Career Hypothesis #2
+#### Callout: Career Hypothesis #2 (optional)
 tone:: purple
+collapse:: closed
 
 #### Question: Open
 id:: abca84da-7643-4b05-8c00-2e2d6b950a99
