@@ -450,9 +450,10 @@ The sharp version is about instructions rather than duplication. A welcome canno
 
 *Added by the 2026-09-28 grading change:*
 
-- **A Learning Outcome test still scores.** This is the control condition for the entire sweep. The tests were deliberately left graded and nothing has verified that they still are, which would be a quiet failure: a course that grades nothing looks identical to a course that grades the right thing until someone checks a certificate. Run one answer to a pass and one to a fail.
+- ~~A Learning Outcome test still scores.~~ **Done 2026-09-28**, on `Predictable sub-goals from unknown goals`. The control condition for the sweep holds: the tests were left graded and they still grade. The same check surfaced the feedback gap described above, which is now the open item in its place.
+- **Decide whether outcome tests should offer feedback at all.** Not a test but a decision, recorded here because the testing produced it. Either the outcomes gain `feedback-instructions::` or the course accepts that its one graded surface explains nothing. Check which other courses import a given outcome before editing it.
 - **A question with no grading still completes the lens.** Confirmed on the Aztec Warrior lens. Worth one repeat on a lens whose question sits last in its submodule, in case completion is computed differently at a boundary.
-- **`force-feedback:: first` survives a break.** It fires on the first answer and leaves the button afterwards. What is unverified is whether "first" is remembered when a learner leaves and returns, or whether a new session counts as a new first answer and re-fires.
+- ~~`force-feedback:: first` survives a break.~~ **Done 2026-09-28.** Returning to a lens does not count as a new first answer.
 - **The shared Phase 2 prompt files still resolve.** Several lenses reference a prompt file rather than carrying the text. A broken reference would present as a tutor with no brief rather than as an error, so it fails silently and only in conversation.
 - **Nothing swept still grades.** One learner-side pass through a full unit, confirming no percentage appears anywhere except the outcome test.
 
