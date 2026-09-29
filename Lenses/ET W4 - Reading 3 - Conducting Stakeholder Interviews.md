@@ -130,6 +130,8 @@ After a stakeholder interview, the real value comes from turning the conversatio
    - Reflect on whether your thesis question or approach needs adjusting based on what you learned.
    - Identify opportunities for collaboration, data access, or mentorship that could strengthen your research and make it more impactful.
 
+---
+
 \## Next steps
 
 - **Week 4 Worksheet:** For this week, please work through your stakeholder mapping and reaching out to at least 15-20 real stakeholders this week.

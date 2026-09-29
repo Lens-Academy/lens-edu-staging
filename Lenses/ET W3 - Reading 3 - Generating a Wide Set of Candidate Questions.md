@@ -90,6 +90,8 @@ With your shortlist of 5-10 candidate questions in hand, the final step is makin
 
 Your output from this step is your top 1-2 research questions, the ones you'll carry forward into Week 4's bottleneck and stakeholder mapping, where you'll find out who actually needs the answer.
 
+---
+
 \## Next Steps: Worksheet Time!
 
 That's the thinking behind the four steps! The fun part is actually applying it to your own problem area, so please spend most of your prep time on the Week 3 Worksheet.
