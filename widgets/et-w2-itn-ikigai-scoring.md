@@ -123,7 +123,20 @@ button.remove { display: block; margin-top: 6px; padding: 2px 8px; font-size: 11
       var tr = document.createElement("tr");
       var lab = document.createElement("td");
       lab.className = "rowlabel";
-      lab.textContent = (idx + 1) + (idx >= 3 ? " (optional)" : "");
+      lab.textContent = String(idx + 1);
+      if (idx >= N) {
+        var rm = document.createElement("button");
+        rm.type = "button";
+        rm.className = "remove";
+        rm.textContent = "Remove";
+        rm.setAttribute("aria-label", "Remove problem " + (idx + 1));
+        rm.addEventListener("click", function () {
+          rows.splice(idx, 1);
+          build();
+          save();
+        });
+        lab.appendChild(rm);
+      }
       tr.appendChild(lab);
       COLS.forEach(function (c) {
         var td = document.createElement("td");
