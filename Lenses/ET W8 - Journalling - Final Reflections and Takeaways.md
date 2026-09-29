@@ -7,9 +7,7 @@ tags: [wip]
 ---
 #### Text
 content::
-*Week 8 Journalling Tab*
-
-\## Final Reflections and Takeaways
+\# Week 8 Journalling: Final Reflections and Takeaways
 
 Thank you so much for your time, participation and curiosity throughout these 8 weeks. ♥️We’d love to invite you to take 10–15 minutes to pause and reflect on your journey through the program. This is your space to celebrate your curiosity, effort, and growth, to notice what has mattered most to you, and to think about what you want to carry forward!
 
