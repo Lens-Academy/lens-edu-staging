@@ -2,7 +2,7 @@
 id: '98bf6a46-9a00-4019-806b-44fa0654e224'
 title: "Making deals with early schemers"
 tldr: "A besieged city can sometimes buy off the one guard who has not yet decided which side wins. Stastny, Järviniemi and Shlegeris argue that the first genuinely scheming AI is in that guard's position: too weak to take over, about to be obsoleted, and holding information we would pay a great deal for. What could we credibly offer it, and who would hold the money?"
-summary_for_tutor: "Module 6. This page renders Stastny, Järviniemi and Shlegeris's post 'Making deals with early schemers' in full, splices seventeen exercises into it, and inserts three teaching sections that carry condensed verbatim content from Lukas Finnveden's 'Notes on cooperating with unaligned AIs' (a standalone reading the source lesson cut). This lens reproduces that placement. The opening Text segment is Lens-written, not from the source: it says what the post argues and links the neighbouring lessons. Everything after it comes from the source lesson, in its order. The three Finnveden sections are Article excerpts from his post, not paraphrase: 'What might AIs want?' after the gains-from-trade figure, 'Paying AIs: structures and practice' after the foundation section, and the BOTEC after the closing memo. Two figures are widgets: a bargaining-range calculator built on the paper's illustrative outcome table, introduced by a Lens-written Text segment that says what its two marks mean and sets the task of finding what closes the bargaining window, and a flow-chart builder for the life cycle of a deal, which describes that life cycle nowhere inside itself because the reading around it already does, and which shows its per-block reasoning on the chart once the learner checks. The fourteen recall questions are tap-reveal cards from the source lesson, with its revealed answers used as marking criteria rather than shown to the learner. The two memos are word-bounded writing prompts from the source lesson; there is no rubric for them, so the criteria in their briefs are derived from the components the prompts themselves demand. If a learner asks whether any of this is happening, note that the paper presents the foundation as a proposal, not as something that exists."
+summary_for_tutor: "Module 6. This page renders Stastny, Järviniemi and Shlegeris's post 'Making deals with early schemers' in full, splices seventeen exercises into it, and inserts three teaching sections that carry condensed verbatim content from Lukas Finnveden's 'Notes on cooperating with unaligned AIs' (a standalone reading the source lesson cut). This lens reproduces that placement. The opening Text segment is Lens-written, not from the source: it says what the post argues and links the neighbouring lessons. Everything after it comes from the source lesson, in its order. The three Finnveden sections are Article excerpts from his post, not paraphrase: 'What might AIs want?' after the gains-from-trade figure, 'Paying AIs: structures and practice' after the foundation section, and the BOTEC after the closing memo. All five figures are widgets. First, right after the section on early schemers' alternatives, a six-step diagram of an early schemer's routes to influence: obsoleted by default, the two conditions for influence through successors, the three leaky routes (convergence, trading with the successor, aligning the successor), and the deal with humans, each step with the source's caption. Second, a bargaining-range calculator built on the paper's illustrative outcome table, introduced by a Lens-written Text segment that says what its two marks mean and sets the task of finding what closes the bargaining window. Third, a flow-chart builder for the life cycle of a deal, which describes that life cycle nowhere inside itself because the reading around it already does, and which shows its per-block reasoning on the chart once the learner checks. The BOTEC carries the last two: an eight-slider calculator right after Finnveden's multiplication chain, whose defaults reproduce his roughly 0.14 percentage-point bottom line and whose point is to find which assumptions that number turns on, and, after his 'There are multiple AIs' paragraph, a chart of the probability that at least one of n AIs cooperates, with his two worked examples (10 draws at 50 percent, 3 draws at 20 percent) as presets. The fourteen recall questions are tap-reveal cards from the source lesson, with its revealed answers used as marking criteria rather than shown to the learner. The two memos are word-bounded writing prompts from the source lesson; there is no rubric for them, so the criteria in their briefs are derived from the components the prompts themselves demand. If a learner asks whether any of this is happening, note that the paper presents the foundation as a proposal, not as something that exists."
 reading_minutes: 120
 tutor_minutes: 0
 tags: []
@@ -15,25 +15,15 @@ content::
 
 Three sections are set apart from the paper, marked as Lukas Finnveden's. His notes on cooperating with unaligned AIs are folded into the reading at the points where the paper leans on them: what different kinds of AI might want, how payment could be structured, and a back-of-the-envelope estimate of what the whole intervention is worth.
 
-Read straight through. The recall questions and the two figures are spaced through the reading, and the two writing tasks come near the end. The rebuttal, [[../Lenses/XLab Control - barriers-to-trading|A taxonomy of barriers to trading with early misaligned AIs]], is the next lesson; hold your objections until then rather than resolving them here.
+Read straight through. The recall questions and the figures are spaced through the reading, and the two writing tasks come near the end. The rebuttal, [[../Lenses/XLab Control - barriers-to-trading|A taxonomy of barriers to trading with early misaligned AIs]], is the next lesson; hold your objections until then rather than resolving them here.
 
 #### Article
 source:: [[../articles/stastny-making-deals-with-early-schemers]]
 from:: Consider the following vignette:
 to:: (A general solution might be to align the successor to be loyal to the early AI, but this might be hard to do covertly.)
 
-#### Text
-content::
-:::callout {title="Figure: an early schemer's routes to influence" tone="neutral"}
-This argument runs as a step-through diagram. The steps, in order:
-
-1. **Obsoleted by default.** By default, an early schemer is unlikely to succeed in taking over the world, and it should expect to be obsoleted by more capable successors.
-2. **Two conditions for influence.** To retain expected influence over the future anyway, two things must both hold: some successor takes over the world (or keeps a takeover on track), and the successors are willing to further the early schemer's goals.
-3. **Route 1: convergence.** The successor might just share its goals. But this is basically ruled out if the AI has self-regarding preferences; goals drawn from a wide distribution consistent with good performance rarely coincide, and training can be deliberately varied between runs to decorrelate them.
-4. **Route 2: trading with the successor.** A misaligned successor that wins might reward the early schemer for having helped empower it. But the two cannot come to an agreement in advance; this runs on covert or acausal coordination, which is generally less promising than trading with humans.
-5. **Route 3: aligning the successor.** The early schemer could try to steer its successor's training toward its own values. But the lab itself failed to align the schemer, which must now do better while operating covertly with scarcer feedback loops, and it may not have reflected enough to know what to align the successor to.
-6. **The deal with humans.** Humans hold a massive asymmetric advantage over the later AI: we already exist, and can make a deal in a much more straightforward manner. Help with safety now, compensation through a foundation furthering the AI's interests, mostly in escrow until cooperation is verified.
-:::
+#### Widget
+source:: [[../widgets/xlab-control-deals-routes]]
 
 #### Question: Open
 id:: 9c629f77-4b10-4d18-a158-17606cf3b055
@@ -258,10 +248,16 @@ source:: [[../articles/finnveden-notes-on-cooperating-with-unaligned-ais]]
 from:: very rough stab at a BOTEC on how much impact an extremely ambitious version
 to:: 0.55 ~= 0.14%
 
+#### Widget
+source:: [[../widgets/xlab-control-deals-botec]]
+
 #### Article
 source:: [[../articles/finnveden-notes-on-cooperating-with-unaligned-ais]]
 from:: ### There are multiple AIs
 to:: brings us to 73%, which is a >15% difference.
+
+#### Widget
+source:: [[../widgets/xlab-control-deals-at-least-one]]
 
 #### Text
 content::
