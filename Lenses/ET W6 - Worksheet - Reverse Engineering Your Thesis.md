@@ -7,22 +7,22 @@ tags: [wip]
 ---
 #### Text
 content::
-*Week 6 Worksheet*
+\# Week 6 Worksheet: Reverse Engineering Your Thesis
 
-\## Reverse Engineering Your Thesis
-
-#### Callout: This worksheet is designed to help you reverse engineer your thesis focus and research questions based on your Theory of Change.
+#### Callout: Instructions
 tone:: blue
 
 #### Text
 content::
-**This worksheet is designed to help you reverse engineer your thesis focus and research questions based on your Theory of Change.**
+This worksheet is designed to help you reverse engineer your thesis focus and research questions based on your Theory of Change.
 
 #### End Callout
 
 #### Text
 content::
-\## Part 1. Reverse Engineer Your Thesis!
+---
+
+\# Part 1. Reverse Engineer Your Thesis!
 
 For this first part, we'll start by revisiting what your stakeholders have actually told you they need and want - to make sure our outputs are grounded in reality. From there, you'll restate your Theory of Change from Week 5 in a single clear paragraph, then work backwards from it: what output would actually move that ToC forward, and what research question would produce that output?
 
