@@ -89,7 +89,15 @@ tags: []
   <div class="stack" id="panel"></div>
   <div class="foot" style="margin-top:14px">
     <button type="button" class="primary" id="advance"></button>
-    <button type="button" id="reset">Reset the bench</button>
+    <span class="row">
+      <button type="button" id="feedback">Get feedback</button>
+      <button type="button" id="reset">Reset the bench</button>
+      <span class="row" id="reset-confirm" style="display:none">
+        <span class="hint">Erase your tree and every round?</span>
+        <button type="button" id="reset-yes">Yes, reset</button>
+        <button type="button" id="reset-no">Cancel</button>
+      </span>
+    </span>
   </div>
 </section>
 
@@ -391,28 +399,7 @@ tags: []
       return;
     }
 
-    var copy = el("button", null, "Copy your bench as markdown");
-    copy.type = "button";
-    copy.style.justifySelf = "start";
-    var out = el("textarea");
-    out.rows = 10;
-    out.readOnly = true;
-    out.value = outline();
-    out.style.fontFamily = "ui-monospace, SFMono-Regular, Menlo, monospace";
-    out.style.display = "none";
-    out.setAttribute("aria-label", "Your bench, as markdown");
-    copy.addEventListener("click", function () {
-      if (navigator.clipboard) {
-        navigator.clipboard.writeText(outline()).then(function () {
-          copy.textContent = "Copied";
-          setTimeout(function () { copy.textContent = "Copy your bench as markdown"; }, 2000);
-        }, function () { out.style.display = "block"; });
-      } else {
-        out.style.display = "block";
-      }
-    });
-    panel.appendChild(copy);
-    panel.appendChild(out);
+    panel.appendChild(el("p", null, "All three affordances are tagged and answered. Your tree and the round log are saved. Use Get feedback to have the tutor look over the finished tree."));
   }
 
   function canAdvance(turn) {
@@ -488,6 +475,7 @@ tags: []
     adv.textContent = advanceLabel(turn);
     adv.disabled = !canAdvance(turn);
     adv.style.display = turn.kind === "done" ? "none" : "";
+    document.getElementById("feedback").disabled = childrenOf(ROOT).length === 0;
   }
 
   document.getElementById("advance").addEventListener("click", function () {
@@ -504,13 +492,43 @@ tags: []
     }
   });
 
-  document.getElementById("reset").addEventListener("click", function () {
-    if (!window.confirm("Reset the bench? Your tree and every round's strategy will be erased.")) return;
+  // The widget sandbox blocks window.confirm (it always returns false), so the
+  // reset asks for confirmation inside the widget.
+  function showResetConfirm(on) {
+    document.getElementById("reset").style.display = on ? "none" : "";
+    document.getElementById("reset-confirm").style.display = on ? "" : "none";
+  }
+  document.getElementById("reset").addEventListener("click", function () { showResetConfirm(true); });
+  document.getElementById("reset-no").addEventListener("click", function () { showResetConfirm(false); });
+  document.getElementById("reset-yes").addEventListener("click", function () {
+    showResetConfirm(false);
     state = freshState();
     selected = [];
     why = "";
     render();
     persist();
+  });
+
+  document.getElementById("feedback").addEventListener("click", function () {
+    if (!window.Lens || !window.Lens.promptTutor) return;
+    var turn = turnAt(state.turnIndex);
+    var revealed = turn.kind === "done" ? SCENARIO.affordances.length
+      : turn.kind === "red-base" ? 0 : turn.a + 1;
+    var shown = SCENARIO.affordances.slice(0, revealed).map(function (a, i) {
+      return "A" + (i + 1) + ", " + a.title + ": " + a.grant;
+    });
+    window.Lens.promptTutor(
+      "Can you give me feedback on my attack tree so far?",
+      "The learner is working on the attack tree bench for the scenario 'A backdoor lands in production' and asked for feedback on their tree. " +
+      "Current turn: " + advanceLabel(turn) + ". Defenses revealed so far: " + (shown.length ? shown.join(" ") : "none yet (base case, no defenses)") + "\n\n" +
+      "Their bench (tree with gates, tags as (A<n> relation: reason), then their round strategies):\n" + outline() + "\n\n" +
+      "Judge the tree only against the lens's rules: the root is the outcome; an OR node's children must each be a real way to achieve the parent on its own (not guesses like 'try 0000' that only work in one world), and an AND node's children must all be needed; " +
+      "no node silently bundles several steps; nodes are not so specific that they lose generality; decomposition stops at a choice U makes, a state of the environment, or something a defense could directly touch; " +
+      "the red team's constraints hold (U decides per problem, sees only the current problem, has no memory across problems, knows the whole protocol, can act only by writing solutions); " +
+      "tags use prevents / detects / deters correctly; each red strategy is actually reflected in the tree. " +
+      "In at most six sentences: name what works, then the one or two most important structural problems, pointing at specific nodes by their label, and end with one question that would help them fix it. " +
+      "Do not write a reference or corrected tree, do not list a full set of attacks, and do not mention defenses that have not been revealed yet."
+    );
   });
 
   if (window.Lens && window.Lens.onState) {
