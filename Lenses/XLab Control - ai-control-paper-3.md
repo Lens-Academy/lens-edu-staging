@@ -2,7 +2,7 @@
 id: 'b8716071-249e-46fd-9b6f-5afd2dff720c'
 title: "The AI control paper (3): the monitor as a classifier, and deferring to the trusted model"
 tldr: "Two monitors with the same AUC can catch 47% and 9% of attacks. When only the most suspicious 2% of code can be audited, what matters is how the monitor does in that thin tail. This part reads the monitor as a classifier, then adds a second lever: let the trusted model rewrite anything moderately suspicious."
-summary_for_tutor: "Part 3 of 4 of the founding AI control paper (Greenblatt, Shlegeris, Sachan, Roger, arXiv:2312.06942), continuing 'The AI control paper (2)', which covered upfront auditing, trusted monitoring's 62% safety and the red team's best response (opportunity cutoff and obfuscation effort). This part covers 3.2.1 (qualitative analysis of the monitor), the rest of 3.2 (why trusted monitoring beats upfront auditing, and why U cannot burn the audit budget), 3.2.2 (untrusted justification) and 3.3, defer to trusted and dynamic routing. Headline results: the monitor catches an attempted backdoor with probability 0.338 at a 2% false-positive rate; trusted monitoring with defer to trusted at 10% gives 83% / 93%, at 50% 100% / 51%. Two widgets: the monitor as a noisy classifier (its second tab is the two-monitors-one-AUC comparison), and the control game repeated from part 2 for its Protocol tab, where the learner moves the defer band. The AUC-versus-catch-rate conclusion lives in the Note callout that follows the staged 'same number, different safety' questions rather than inside the monitor widget, where it would hand the learner the answers before they commit. The revealed answers live in the assessment-instructions, so do not hand them to the learner before they answer."
+summary_for_tutor: "Part 3 of 4 of the founding AI control paper (Greenblatt, Shlegeris, Sachan, Roger, arXiv:2312.06942), continuing 'The AI control paper (2)', which covered upfront auditing, trusted monitoring's 62% safety and the red team's best response (opportunity cutoff and obfuscation effort). This part covers 3.2.1 (qualitative analysis of the monitor), the rest of 3.2 (why trusted monitoring beats upfront auditing, and why U cannot burn the audit budget), 3.2.2 (untrusted justification) and 3.3, defer to trusted and dynamic routing. Headline results: the monitor catches an attempted backdoor with probability 0.338 at a 2% false-positive rate; trusted monitoring with defer to trusted at 10% gives 83% / 93%, at 50% 100% / 51%. Three widgets: the monitor as a noisy classifier (its second tab is the two-monitors-one-AUC comparison); the defer-to-trusted demo, where one slider moves the defer threshold d (default 10%, the paper's defer-to-trusted-10%) and the learner sees the defer band on the suspicion distributions and a stacked chart of what happens to each attack as d grows (caught, deferred to T, deployed but broken, successfully deployed), against a best-responding red team; and, after the summary text, the control game repeated from part 2 for its Protocol tab and safety/usefulness frontier. Note that the defer demo's d is the defer threshold (top d of suspicion, audit band included), while the control game's 'defer band' slider is the band's width above the 2% audit line; both give 81% safety and 92% usefulness at their defaults. The AUC-versus-catch-rate conclusion lives in the Note callout that follows the staged 'same number, different safety' questions rather than inside the monitor widget, where it would hand the learner the answers before they commit. The revealed answers live in the assessment-instructions, so do not hand them to the learner before they answer."
 reading_minutes: 40
 tutor_minutes: 10
 tags: []
@@ -154,10 +154,10 @@ feedback-instructions:: One turn, at most three sentences: say plainly what the 
 
 #### Text
 content::
-The control game widget from part 2 is repeated below. On its **Protocol** tab, change the proportion of solutions for which we defer to $T$. Watch how this changes the red team's optimal strategy and how it changes the suspiciousness distribution of attacks.
+Change the proportion of solutions for which we defer to $T$ and watch how this changes the red team's optimal strategy, how it changes the suspiciousness distribution of attacks, and what happens to each attack: caught, deferred to $T$, deployed but broken, or successfully deployed.
 
 #### Widget
-source:: [[../widgets/xlab-control-game]]
+source:: [[../widgets/xlab-control-defer-outcomes]]
 
 #### Question: Open
 id:: 78651f04-21ea-4a54-897b-ed18357f156a
@@ -169,8 +169,13 @@ feedback-instructions:: One turn, at most three sentences: say plainly what the 
 content::
 In summary, the monitor is a noisy classifier whose value is concentrated in the low-false-positive tail. The red team uses the optimal strategy over attack rate and subtlety. Auditing spends a scarce budget on the suspicious tail; deferring rewrites the mid-suspicion band with the trusted model. Safety is measured against the red team's best response throughout, and deferring to $T$ more trades usefulness from a more capable model $U$ for the safety from a less capable model $T$.
 
-The control game widget models most of these interactions. For any given blue team strategy, the red team uses the optimal strategy against it, so the ringed point always sits against a best-responding adversary. The grey curve is the Pareto frontier: every safety and usefulness pair reachable at the current audit budget and monitor quality by varying the defer band, where improving one number means giving up some of the other.
+The control game widget from part 2, repeated below, models most of these interactions; its **Protocol** tab has all three blue-team levers. For any given blue team strategy, the red team uses the optimal strategy against it, so the ringed point always sits against a best-responding adversary. The grey curve is the Pareto frontier: every safety and usefulness pair reachable at the current audit budget and monitor quality by varying the defer band, where improving one number means giving up some of the other.
 
+#### Widget
+source:: [[../widgets/xlab-control-game]]
+
+#### Text
+content::
 As we change how much we defer to $T$, the protocol slides along the Pareto frontier, trading usefulness for safety along a fixed curve. As the monitor quality or the audit budget varies, the Pareto frontier shifts: a better monitor or a larger budget lifts the curve up and to the right, letting you reach the same safety at higher usefulness.
 
 #### Text
