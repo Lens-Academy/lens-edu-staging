@@ -435,13 +435,24 @@ The sharp version is about instructions rather than duplication. A welcome canno
 
 **Wording last, in one pass at the end of stage 3. Done 2026-09-12**, and the reasoning held: a single pass surfaced systematic drift rather than one-off phrasing, the largest finding being three prohibitions that the first two briefs carried and the five written after had lost. Testing them individually would have invited tuning each against its own transcript, which overfits. Several can only be tested in sequence anyway, since the film lens reaches back to bets made in the opener.
 
-The checks below still need a tutor and remain unrun:
+**The checklist.** Everything here is unrun unless its entry says otherwise.
+
+*From the restructure:*
 
 - The film lens: does the tutor volunteer material from chapters 7 or 8 despite the source-precedence rule? The chapters are now in its context, so the instruction is the only thing holding the line.
 - The film lens: does it correctly treat the hostility bet as won rather than lost, given the film ends in extinction?
 - The chapter 9 pair: is the pre-reading prediction left ungraded and unhinted, and does the closing comparison actually return to what the learner wrote?
 - The U3 opener: does the tutor resist completing the list of convergent sub-goals in the elicitation beat?
-- `validate_content` after each stage, and unscoped at least once per stage, since `wip` files are excluded from the course-scoped run.
+- **The premise, properly probed.** Run a Connection beat with a blank or deliberately thin answer and watch whether the tutor narrows once and waits, or names the earlier idea itself. Turn discipline was confirmed on 2026-09-28; answer leakage was not, and a cooperative test answer cannot distinguish them.
+- `validate_content` after each stage, and unscoped at least once per stage, since `wip` files are excluded from the course-scoped run. Run clean on 2026-09-28.
+
+*Added by the 2026-09-28 grading change:*
+
+- **A Learning Outcome test still scores.** This is the control condition for the entire sweep. The tests were deliberately left graded and nothing has verified that they still are, which would be a quiet failure: a course that grades nothing looks identical to a course that grades the right thing until someone checks a certificate. Run one answer to a pass and one to a fail.
+- **A question with no grading still completes the lens.** Confirmed on the Aztec Warrior lens. Worth one repeat on a lens whose question sits last in its submodule, in case completion is computed differently at a boundary.
+- **`force-feedback:: first` survives a break.** It fires on the first answer and leaves the button afterwards. What is unverified is whether "first" is remembered when a learner leaves and returns, or whether a new session counts as a new first answer and re-fires.
+- **The shared Phase 2 prompt files still resolve.** Several lenses reference a prompt file rather than carrying the text. A broken reference would present as a tutor with no brief rather than as an error, so it fails silently and only in conversation.
+- **Nothing swept still grades.** One learner-side pass through a full unit, confirming no percentage appears anywhere except the outcome test.
 
 ## 8. Writing about chapters we cannot read
 
