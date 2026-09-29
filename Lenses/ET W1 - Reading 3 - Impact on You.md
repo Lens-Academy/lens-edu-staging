@@ -74,7 +74,7 @@ Here's a list worth looking through for this week's worksheet, not to pick from 
    - [How to do research that matters](https://www.youtube.com/watch?v=ldk5DpwUjB0&t=46s&ab_channel=CentreforEffectiveAltruism)
    - [Different types of research are different](https://forum.effectivealtruism.org/posts/pHnMXaKEstJGcKP2m/different-types-of-research-are-different)
 
-\### Description of potential career paths and relevant resources:
+\## Description of potential career paths and relevant resources:
 
 \#### Technical AI safety research
 
