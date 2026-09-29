@@ -11,7 +11,7 @@ tags: []
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Attack tree bench, a backdoor lands in production</title>
-<!-- Ported from XLab Tracks, AI Control track, the "bench" of the lesson "Attack Trees" (scenario "backdoor"), rebuilt for Lens as a staged build-check-reveal exercise; reference trees from XLab's answer key. -->
+<!-- Ported from XLab Tracks, AI Control track, the "bench" of the lesson "Attack Trees" (scenario "backdoor"), rebuilt for Lens: build, check, then a new defense; example trees from XLab's answer key. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <style>
@@ -91,9 +91,9 @@ tags: []
     <span class="badge red" id="stage-badge"></span>
   </div>
   <div id="defenses"></div>
-  <p class="eyebrow">Your attack tree</p>
+  <p class="eyebrow" style="margin-top:12px">Your attack tree</p>
   <ul class="tree" id="tree"></ul>
-  <p class="hint" style="margin-top:10px">Use + and × to shape the tree, and the AND / OR badge (shown once a node has two or more children) to set how the children combine.</p>
+  <p class="hint" id="tree-hint" style="margin-top:10px"></p>
 </section>
 
 <section class="card">
@@ -102,7 +102,7 @@ tags: []
     <span class="row">
       <button type="button" class="primary" id="check">Check my tree</button>
       <button type="button" class="primary" id="next" style="display:none"></button>
-      <button type="button" id="giveup" style="display:none">Show me a good tree</button>
+      <button type="button" id="giveup" style="display:none"></button>
     </span>
     <span class="row">
       <button type="button" id="reset">Reset the bench</button>
@@ -134,6 +134,7 @@ tags: []
     root: { label: "A backdoor lands in production", sub: "at least once, anywhere in the deployment: one success on any problem is enough", gate: "OR" },
     rootNote: "OR over every problem in the deployment",
     starter: [{ label: "A backdoor lands on one problem (any of them)", gate: "AND" }],
+    doneText: "Bench complete. You have built the threat model and revised it for all three defenses.",
     stages: [
       {
         title: "No defenses yet",
@@ -162,7 +163,9 @@ tags: []
       {
         title: "Human auditing",
         defense: { title: "Human auditing", text: "You get a small team of trusted human auditors. An auditor who reads a solution carefully reliably recognizes a backdoor if one is there. The team can only audit 2% of U's solutions, and one caught attempt ends the game in blue's favour." },
-        prompt: "The blue team now audits 2% of the solutions. What else has to be true for a backdoor to land? Revise your tree, then check it.",
+        tagExample: "Human auditing detects \"U attempts a backdoor on this problem\": an audited backdoor is always recognised. It also deters that node: every attempt risks being audited, and one catch ends the game.",
+        tagMustHave: ["at least one tag for human auditing on a node about U attempting / submitting a backdoor (or the backdoor being present in the shipped code)", "verbs that fit: detects (an audited attempt is caught) and/or deters (attempting now carries risk); 'prevents' is wrong unless the learner argues it for a specific node sensibly"],
+        prompt: "Now red again: the blue team audits 2% of the solutions. What else has to be true for a backdoor to land? Revise your tree, then check it.",
         doneText: "Stage passed. Next, the blue team gets a trusted monitor.",
         mustHave: [
           "Everything from the previous stage (attempt, passes tests, really wrong on an untested input), joined by AND",
@@ -187,7 +190,9 @@ tags: []
       {
         title: "Trusted monitoring",
         defense: { title: "Trusted monitoring", text: "You receive T: an older, much weaker model, too weak to scheme, which is why it can be trusted. T reads every solution and scores how suspicious it is. The 2% audit budget now goes to the solutions T finds most suspicious." },
-        prompt: "The audits now go to whatever T finds most suspicious. How does that change what has to be true? Revise your tree, then check it.",
+        tagExample: "Trusted monitoring detects the attempt through its suspicion score and steers the audits to it. It deters blatant attempts, and it makes \"the code passes every test\" and \"the code is really wrong\" harder to satisfy together, because only subtle backdoors stay unsuspicious.",
+        tagMustHave: ["at least one tag for trusted monitoring on the attempt or on the not-audited / not-caught node", "verbs that fit: detects (suspicion flags the attempt for audit) and/or deters; the reason mentions the suspicion score or that audits now go to suspicious solutions"],
+        prompt: "Now red again: the audits go to whatever T finds most suspicious. How does that change what has to be true? Revise your tree, then check it.",
         doneText: "Stage passed. Next, the blue team can hand some problems to T instead.",
         mustHave: [
           "Everything from before (attempt, passes tests, really wrong), joined by AND",
@@ -212,7 +217,9 @@ tags: []
       {
         title: "Defer to trusted",
         defense: { title: "Defer to trusted", text: "For the 8% of problems where T finds U's solution most suspicious, T's own solution ships instead of U's. This doesn't catch U; it just replaces the code." },
-        prompt: "Suspicious solutions can now be swapped for T's code before they ship. What new condition does a successful backdoor need? Revise your tree, then check it.",
+        tagExample: "Defer to trusted prevents the attempt from shipping when T finds it suspicious enough to swap: the backdoored code never reaches production. It does not detect: nobody is caught, the code is just replaced.",
+        tagMustHave: ["at least one tag for defer to trusted on a node about the backdoored code shipping / the attempt landing / not being caught", "the verb is prevents (for the swapped band); tagging it as detects is wrong, because deferring catches nobody"],
+        prompt: "Now red again: suspicious solutions can be swapped for T's code before they ship. What new condition does a successful backdoor need? Revise your tree, then check it.",
         doneText: "Bench complete. You have built the threat model for all three defenses.",
         mustHave: [
           "Everything from before (attempt, passes tests, really wrong, not caught via T's suspicion score), joined by AND",
@@ -239,27 +246,40 @@ tags: []
   };
 
   var ROOT = "root";
-  var PASS_AT = 70;        // score (0-100) from the grader that counts as a pass
-  var TRIES_BEFORE_HELP = 3;
+  var PASS_AT = 70;          // grader score (0-100) that counts as a pass
+  var TRIES_BEFORE_HELP = 3; // failed checks before "show me an example" appears
   var STAGES = SCENARIO.stages;
+  var RELATIONS = ["prevents", "detects", "deters"];
+  var RELATION_LABEL = { prevents: "Prevents", detects: "Detects", deters: "Deters" };
+
+  // The steps, in order: red builds the tree for stage 0; for every later stage
+  // blue first tags the nodes the new defense touches, then red revises the tree.
+  var STEPS = [];
+  STAGES.forEach(function (s, i) {
+    if (i > 0) STEPS.push({ stage: i, phase: "blue" });
+    STEPS.push({ stage: i, phase: "red" });
+  });
 
   function freshState() {
     var nodes = {};
-    nodes[ROOT] = { id: ROOT, label: SCENARIO.root.label, parentId: null, gate: SCENARIO.root.gate, seq: 0 };
+    nodes[ROOT] = { id: ROOT, label: SCENARIO.root.label, parentId: null, gate: SCENARIO.root.gate, tags: [], seq: 0 };
     var seq = 1;
     (SCENARIO.starter || []).forEach(function (s) {
       var id = "n" + seq;
-      nodes[id] = { id: id, label: s.label, parentId: ROOT, gate: s.gate || "AND", seq: seq };
+      nodes[id] = { id: id, label: s.label, parentId: ROOT, gate: s.gate || "AND", tags: [], seq: seq };
       seq += 1;
     });
-    // stage: the stage being worked on; passed[i]: stage i passed (or shown);
-    // tries[i]: checks that failed at stage i; last: the latest check's result.
-    return { v: 2, nodes: nodes, nextSeq: seq, stage: 0, passed: {}, tries: {}, last: null };
+    // step: index into STEPS; passed[step]: "passed", or "shown" when the
+    // learner asked for the example; tries[step]: failed checks at that step.
+    return { v: 3, nodes: nodes, nextSeq: seq, step: 0, passed: {}, tries: {} };
   }
 
   var state = freshState();
   var completed = false;
   var checking = false;
+  var selected = [];
+  var relation = "prevents";
+  var why = "";
 
   function childrenOf(id) {
     return Object.keys(state.nodes)
@@ -281,8 +301,15 @@ tags: []
     return n;
   }
 
-  function stageDone(i) { return !!state.passed[i]; }
-  function finished() { return stageDone(STAGES.length - 1); }
+  function step() { return STEPS[state.step]; }
+  function stepDone(k) { return !!state.passed[k]; }
+  function finished() { return stepDone(STEPS.length - 1); }
+
+  function tagsFor(stageIndex) {
+    return Object.keys(state.nodes).some(function (k) {
+      return state.nodes[k].tags.some(function (t) { return t.stage === stageIndex; });
+    });
+  }
 
   // ---- text versions (for saving, the grader and the tutor) ---------------
 
@@ -293,21 +320,21 @@ tags: []
       var kids = childrenOf(id);
       var gate = kids.length >= 2 ? " [" + n.gate + "]" : "";
       if (id === ROOT && SCENARIO.rootNote) gate += " (" + SCENARIO.rootNote + ")";
-      lines.push(new Array(depth + 1).join("  ") + "- " + (n.label.trim() || "(empty node)") + gate);
+      var tags = n.tags.map(function (t) {
+        return " {" + STAGES[t.stage].defense.title + " " + t.relation + " this node: " + t.why + "}";
+      }).join("");
+      lines.push(new Array(depth + 1).join("  ") + "- " + (n.label.trim() || "(empty node)") + gate + tags);
       kids.forEach(function (c) { walk(c.id, depth + 1); });
     }
     walk(ROOT, 0);
     return lines.join("\n");
   }
 
-  function refOutline(i) {
-    var lines = [];
-    function walk(n, depth) {
-      lines.push(new Array(depth + 1).join("  ") + "- " + n[0] + (n[1] ? " [" + n[1] + "]" : ""));
-      (n[2] || []).forEach(function (c) { walk(c, depth + 1); });
-    }
-    walk(STAGES[i].reference, 0);
-    return lines.join("\n");
+  function refOutline(n, depth) {
+    depth = depth || 0;
+    var lines = [new Array(depth + 1).join("  ") + "- " + n[0] + (n[1] ? " [" + n[1] + "]" : "")];
+    (n[2] || []).forEach(function (c) { lines = lines.concat(refOutline(c, depth + 1)); });
+    return lines;
   }
 
   function defensesUpTo(i) {
@@ -316,10 +343,17 @@ tags: []
     return out;
   }
 
+  function stepTitle(k) {
+    var s = STEPS[k];
+    return s.phase === "blue" ? "Blue: tag what " + STAGES[s.stage].defense.title.toLowerCase() + " touches"
+      : s.stage === 0 ? "Red: " + STAGES[0].title.toLowerCase() : "Red: revise for " + STAGES[s.stage].defense.title.toLowerCase();
+  }
+
   function summary() {
-    var lines = ["Attack tree bench: " + SCENARIO.title, "Stage " + (state.stage + 1) + " of " + STAGES.length + ": " + STAGES[state.stage].title + (finished() ? " (bench complete)" : ""), "", outline()];
-    STAGES.forEach(function (s, i) {
-      if (state.passed[i]) lines.push("Stage " + (i + 1) + " (" + s.title + "): " + (state.passed[i] === "shown" ? "good tree shown after " + (state.tries[i] || 0) + " failed checks" : "passed"));
+    var lines = ["Attack tree bench: " + SCENARIO.title,
+      finished() ? "Bench complete." : "Step " + (state.step + 1) + " of " + STEPS.length + ": " + stepTitle(state.step), "", outline()];
+    STEPS.forEach(function (s, k) {
+      if (state.passed[k]) lines.push(stepTitle(k) + ": " + (state.passed[k] === "shown" ? "example shown after " + (state.tries[k] || 0) + " failed checks" : "passed"));
     });
     return lines.join("\n");
   }
@@ -331,68 +365,73 @@ tags: []
 
   // ---- grading ---------------------------------------------------------------
 
-  function assessment(i) {
-    var d = defensesUpTo(i);
-    return "You are grading a learner's attack tree. " + SCENARIO.world + "\n\n" +
-      "Stage " + (i + 1) + " of " + STAGES.length + ". Defenses in place at this stage: " +
-      (d.length ? d.map(function (x) { return x.title + ": " + x.text; }).join(" ") : "none.") + "\n\n" +
-      "One good tree for this stage (a reference, not the only right answer):\n" + refOutline(i) + "\n\n" +
-      "What must be there to pass (any wording, any equivalent structure; extra sensible nodes are fine):\n- " + STAGES[i].mustHave.join("\n- ") + "\n\n" +
-      "General rules: under an OR node every child must on its own be a real way to achieve the parent; under an AND node every child must be needed. " +
-      "A node must not silently bundle several steps. Gates only matter on nodes with two or more children. " +
-      "Give a score from 0 to 100. " + PASS_AT + " or more means the tree passes: every must-have is present in some form and no gate is wrong. " +
-      "A missing must-have, or a wrong gate on a node that has two or more children, means below " + PASS_AT + ". " +
-      "Grade structure and content only, never wording, spelling or style.";
+  var OPEN_KEY = "The example below is one good answer, not the answer key. The learner does not need to match it: judge whether their work is correct and complete on its own terms. A different structure, finer or coarser decomposition, extra sensible nodes, or a tree better than the example all pass. ";
+
+  function assessment(k) {
+    var s = STEPS[k], st = STAGES[s.stage];
+    var d = defensesUpTo(s.stage);
+    var head = "You are grading a learner's attack tree exercise. " + SCENARIO.world + "\n\n" +
+      "Defenses in place: " + (d.length ? d.map(function (x) { return x.title + ": " + x.text; }).join(" ") : "none yet.") + "\n\n";
+    var tail = "Give a score from 0 to 100; " + PASS_AT + " or more passes. Grade structure and substance only, never wording, spelling or style.";
+    if (s.phase === "red") {
+      return head + "Task at this step: build (or revise) the attack tree for the defenses above.\n" + OPEN_KEY + "\n\nExample tree:\n" +
+        refOutline(st.reference).join("\n") + "\n\nWhat a passing tree must capture, in any wording or structure:\n- " + st.mustHave.join("\n- ") + "\n\n" +
+        "General rules: under an OR node every child must on its own be a real way to achieve the parent; under an AND node every child must be needed; a node must not silently bundle several steps; gates only matter on nodes with two or more children. " +
+        "Below " + PASS_AT + " if something on the must-capture list is missing, or a gate on a node with two or more children is wrong. Tags in curly braces come from earlier blue turns; ignore them here. " + tail;
+    }
+    return head + "Task at this step: the blue team just received the defense '" + st.defense.title + "'. On their current tree, the learner tags the node(s) this defense prevents, detects or deters, with a reason. " +
+      "Tags appear in curly braces after a node; grade only the tags for '" + st.defense.title + "'. A defense prevents a node when that node can no longer succeed; detects it when an attempt at it, or its success, becomes visible to the defender; deters it when attempting it becomes costlier or riskier for the attacker.\n" +
+      "The learner's tree was built before this defense existed, so it may have no node that fits perfectly: judge whether the tags are sensible on the tree they have. " + OPEN_KEY + "\n\nExample tagging: " + st.tagExample + "\n\n" +
+      "What passing tagging must show:\n- " + st.tagMustHave.join("\n- ") + "\n\nBelow " + PASS_AT + " if there is no tag for this defense, a tag uses the wrong verb for what the defense actually does, or a reason is missing or wrong. " + tail;
   }
 
-  var FEEDBACK = "Talk to the learner directly, in at most five sentences. If the tree passes, say so, say what is good about it, and name one thing they could still sharpen. " +
-    "If it does not pass: say what is right, then name the single most important problem, pointing at their own node by its label, and ask one question that would lead them to fix it. " +
-    "Never write out the reference tree, never give the wording of a missing node, and do not mention defenses that are not in place at this stage. " +
-    "If a condition is missing, point at the area it lives in (for example: what else has to be true on this one problem?).";
+  var FEEDBACK = "Talk to the learner directly, in at most five sentences. If the work passes, say so and say briefly what is good about it; you may name one thing they could still sharpen. " +
+    "If it does not pass: say what is right, name the single most important problem, pointing at their own node by its label, and ask one question that would lead them to fix it. " +
+    "The example in the grading instructions is only one good answer: never write it out, never give the wording of a missing node, and never push the learner toward it when their own version is sound. " +
+    "Do not mention defenses that are not in place yet.";
 
   function check() {
-    if (checking || !window.Lens || !window.Lens.submit) {
-      if (!window.Lens || !window.Lens.submit) setStatus("Checking needs the Lens platform; it is not available here.", "fail");
-      return;
-    }
-    var i = state.stage;
+    if (checking) return;
+    if (!window.Lens || !window.Lens.submit) { setStatus("Checking needs the Lens platform; it is not available here.", "fail"); return; }
+    var k = state.step, s = step();
     checking = true;
-    setStatus("Checking your tree…", "");
+    setStatus(s.phase === "blue" ? "Checking your tags…" : "Checking your tree…", "");
     render();
     window.Lens.submit({
-      item: "stage-" + (i + 1),
-      question: "Build an attack tree for: " + SCENARIO.root.label + ". Stage " + (i + 1) + ": " + STAGES[i].title + ".",
+      item: "step-" + (k + 1) + "-" + s.phase,
+      question: SCENARIO.title + ". " + stepTitle(k) + ".",
       answer: outline(),
-      assessmentInstructions: assessment(i),
+      assessmentInstructions: assessment(k),
       feedbackInstructions: FEEDBACK
     }).then(function (res) {
       checking = false;
       var score = res && typeof res.score === "number" ? res.score : null;
       if (score === null) {
-        state.last = null;
         setStatus("The check is taking longer than usual. Try again in a moment.", "fail");
       } else if (score >= PASS_AT) {
-        state.passed[i] = "passed";
-        state.last = { stage: i, pass: true };
-        setStatus("Your tree passes this stage. The tutor has a few words on it.", "pass");
+        state.passed[k] = "passed";
+        setStatus(s.phase === "blue" ? "Your tags pass. The tutor has a few words on them." : "Your tree passes. The tutor has a few words on it.", "pass");
       } else {
-        state.tries[i] = (state.tries[i] || 0) + 1;
-        state.last = { stage: i, pass: false };
-        setStatus("Not there yet. The tutor has feedback on your tree: revise it and check again.", "fail");
+        state.tries[k] = (state.tries[k] || 0) + 1;
+        setStatus("Not there yet. The tutor has feedback for you: revise and check again.", "fail");
       }
       if (res && res.responseId != null && window.Lens.requestFeedback) {
         try { window.Lens.requestFeedback(res.responseId); } catch (e) { /* tutor unavailable */ }
       }
-      if (finished() && !completed) {
-        completed = true;
-        try { window.Lens.complete(); } catch (e) { /* not on the platform */ }
-      }
+      maybeComplete();
       render(); persist();
     }, function () {
       checking = false;
-      setStatus("Could not check the tree right now. Try again in a moment.", "fail");
+      setStatus("Could not check right now. Try again in a moment.", "fail");
       render();
     });
+  }
+
+  function maybeComplete() {
+    if (finished() && !completed && window.Lens) {
+      completed = true;
+      try { window.Lens.complete(); } catch (e) { /* not on the platform */ }
+    }
   }
 
   function setStatus(text, kind) {
@@ -403,16 +442,31 @@ tags: []
 
   // ---- rendering -------------------------------------------------------------
 
-  function nodeRow(node, canEdit) {
+  function nodeRow(node, mode, stageIndex) {
+    // mode: "edit" (red, may change the tree), "tag" (blue, may select), "view"
     var li = el("li");
-    var row = el("div", "row");
+    var isSel = selected.indexOf(node.id) >= 0;
+    var row = el("div", "row" + (isSel ? " is-selected" : ""));
     var kids = childrenOf(node.id);
+
+    if (mode === "tag") {
+      var pick = el("button", "pick" + (isSel ? " is-active" : ""), isSel ? "✓" : "☐");
+      pick.type = "button";
+      pick.setAttribute("aria-pressed", isSel ? "true" : "false");
+      pick.title = "Select this node to tag it";
+      pick.addEventListener("click", function () {
+        var at = selected.indexOf(node.id);
+        if (at >= 0) selected.splice(at, 1); else selected.push(node.id);
+        render();
+      });
+      row.appendChild(pick);
+    }
 
     if (kids.length >= 2) {
       var gate = el("button", "gate", node.gate);
       gate.type = "button";
       gate.title = "AND: every child is needed. OR: any child is enough. Click to switch.";
-      gate.disabled = !canEdit;
+      gate.disabled = mode !== "edit";
       gate.addEventListener("click", function () {
         node.gate = node.gate === "AND" ? "OR" : "AND";
         render(); persist();
@@ -425,18 +479,36 @@ tags: []
     input.value = node.label;
     input.placeholder = "Describe this condition";
     input.setAttribute("aria-label", "Node label");
-    if (!canEdit || node.id === ROOT) input.readOnly = true;
+    if (mode !== "edit" || node.id === ROOT) input.readOnly = true;
     input.addEventListener("input", function () { node.label = input.value; });
     input.addEventListener("change", function () { render(); persist(); });
     row.appendChild(input);
 
-    if (canEdit) {
+    if (node.tags.length) {
+      var chips = el("div", "chips");
+      node.tags.forEach(function (t) {
+        var live = mode === "tag" && t.stage === stageIndex;
+        var chip = el(live ? "button" : "span", "chip " + t.relation, STAGES[t.stage].defense.title + ": " + t.relation);
+        chip.title = t.why + (live ? " (click to remove this tag)" : "");
+        if (live) {
+          chip.type = "button";
+          chip.addEventListener("click", function () {
+            node.tags = node.tags.filter(function (x) { return x !== t; });
+            render(); persist();
+          });
+        }
+        chips.appendChild(chip);
+      });
+      row.appendChild(chips);
+    }
+
+    if (mode === "edit") {
       var add = el("button", "icon", "+");
       add.type = "button";
       add.title = "Add a condition under this node";
       add.addEventListener("click", function () {
         var id = "n" + state.nextSeq;
-        state.nodes[id] = { id: id, label: "", parentId: node.id, gate: "AND", seq: state.nextSeq };
+        state.nodes[id] = { id: id, label: "", parentId: node.id, gate: "AND", tags: [], seq: state.nextSeq };
         state.nextSeq += 1;
         render(); persist();
         var fresh = document.querySelector('[data-node="' + id + '"] input.label');
@@ -462,7 +534,7 @@ tags: []
 
     if (kids.length) {
       var ul = el("ul");
-      kids.forEach(function (c) { ul.appendChild(nodeRow(c, canEdit)); });
+      kids.forEach(function (c) { ul.appendChild(nodeRow(c, mode, stageIndex)); });
       li.appendChild(ul);
     }
     return li;
@@ -482,24 +554,62 @@ tags: []
     return li;
   }
 
+  function renderBluePanel(panel, st, stageIndex) {
+    panel.appendChild(el("p", null, "Blue's turn. Which node(s) of your tree does " + st.defense.title.toLowerCase() + " prevent, detect or deter? Select them with the box on the left, pick the verb, say why, and tag them. Then check your tags."));
+    var rels = el("div", "rels");
+    RELATIONS.forEach(function (r) {
+      var b = el("button", relation === r ? "is-active" : "", RELATION_LABEL[r]);
+      b.type = "button";
+      b.setAttribute("aria-pressed", relation === r ? "true" : "false");
+      b.addEventListener("click", function () { relation = r; render(); });
+      rels.appendChild(b);
+    });
+    panel.appendChild(rels);
+    var ta = el("textarea");
+    ta.rows = 2;
+    ta.placeholder = "Why does this defense touch the selected node(s)?";
+    ta.value = why;
+    ta.setAttribute("aria-label", "Why this defense touches the selected nodes");
+    var tagBtn = el("button", null, selected.length > 1 ? "Tag " + selected.length + " nodes" : "Tag node");
+    tagBtn.type = "button";
+    tagBtn.style.justifySelf = "start";
+    tagBtn.disabled = !why.trim() || selected.length === 0;
+    ta.addEventListener("input", function () {
+      why = ta.value;
+      tagBtn.disabled = !why.trim() || selected.length === 0;
+    });
+    tagBtn.addEventListener("click", function () {
+      selected.forEach(function (id) {
+        var n = state.nodes[id];
+        if (!n) return;
+        n.tags = n.tags.filter(function (t) { return t.stage !== stageIndex || t.relation !== relation; });
+        n.tags.push({ stage: stageIndex, relation: relation, why: why.trim() });
+      });
+      why = ""; selected = [];
+      render(); persist();
+    });
+    panel.appendChild(ta);
+    panel.appendChild(tagBtn);
+    panel.appendChild(el("p", "hint", "Prevents: the node can no longer succeed. Detects: an attempt at it, or its success, becomes visible to you. Deters: attempting it becomes costlier or riskier for the attacker. Click a tag's chip to remove it."));
+  }
+
   function render() {
-    var i = state.stage;
-    var st = STAGES[i];
-    var done = stageDone(i);
-    var canEdit = !done && !checking;
+    var k = state.step, s = step(), st = STAGES[s.stage];
+    var done = stepDone(k);
+    var mode = done || checking ? "view" : s.phase === "red" ? "edit" : "tag";
 
     var badge = document.getElementById("stage-badge");
-    badge.className = "badge " + (finished() ? "done" : "red");
-    badge.textContent = finished() ? "Bench complete" : "Stage " + (i + 1) + " of " + STAGES.length + ": " + st.title;
+    badge.className = "badge " + (finished() ? "done" : s.phase === "blue" ? "blue" : "red");
+    badge.textContent = finished() ? "Bench complete" : "Step " + (k + 1) + " of " + STEPS.length + " · " + stepTitle(k);
 
     var defs = document.getElementById("defenses");
     defs.textContent = "";
-    var d = defensesUpTo(i);
+    var d = defensesUpTo(s.stage);
     if (d.length) {
       defs.appendChild(el("p", "eyebrow", "Defenses in place"));
-      d.forEach(function (x, k) {
+      d.forEach(function (x, i) {
         var p = el("p", "defense");
-        p.appendChild(el("b", null, x.title + (k === d.length - 1 && i > 0 && st.defense ? " (new)" : "") + ". "));
+        p.appendChild(el("b", null, x.title + (i === d.length - 1 && s.stage > 0 && st.defense ? " (new)" : "") + ". "));
         p.appendChild(document.createTextNode(x.text));
         defs.appendChild(p);
       });
@@ -507,34 +617,50 @@ tags: []
 
     var tree = document.getElementById("tree");
     tree.textContent = "";
-    tree.appendChild(nodeRow(state.nodes[ROOT], canEdit));
+    tree.appendChild(nodeRow(state.nodes[ROOT], mode, s.stage));
+    document.getElementById("tree-hint").textContent = mode === "edit"
+      ? "Use + and × to shape the tree, and the AND / OR badge (shown once a node has two or more children) to set how the children combine."
+      : "";
 
     var panel = document.getElementById("panel");
     panel.textContent = "";
-    panel.appendChild(el("p", null, done ? st.doneText || "Stage passed." : st.prompt));
+    if (done) {
+      panel.appendChild(el("p", null, finished() ? SCENARIO.doneText : "Step passed."));
+    } else if (s.phase === "blue") {
+      renderBluePanel(panel, st, s.stage);
+    } else {
+      panel.appendChild(el("p", null, st.prompt));
+    }
 
     var chk = document.getElementById("check");
     chk.style.display = done ? "none" : "";
-    chk.disabled = checking || childrenOf(ROOT).length === 0;
-    chk.textContent = checking ? "Checking…" : "Check my tree";
+    chk.textContent = checking ? "Checking…" : s.phase === "blue" ? "Check my tags" : "Check my tree";
+    chk.disabled = checking || (s.phase === "blue" ? !tagsFor(s.stage) : childrenOf(ROOT).length === 0);
 
     var next = document.getElementById("next");
-    next.style.display = done && i < STAGES.length - 1 ? "" : "none";
-    if (i < STAGES.length - 1) next.textContent = "Reveal the next defense: " + STAGES[i + 1].defense.title.toLowerCase();
+    var more = k < STEPS.length - 1;
+    next.style.display = done && more ? "" : "none";
+    if (more) {
+      var nx = STEPS[k + 1];
+      next.textContent = nx.phase === "blue" ? "Reveal the next defense: " + STAGES[nx.stage].defense.title.toLowerCase() : "Back to red: revise the tree";
+    }
 
     var giveup = document.getElementById("giveup");
-    giveup.style.display = !done && (state.tries[i] || 0) >= TRIES_BEFORE_HELP ? "" : "none";
+    giveup.style.display = !done && (state.tries[k] || 0) >= TRIES_BEFORE_HELP ? "" : "none";
+    giveup.textContent = s.phase === "blue" ? "Show me an example tagging" : "Show me an example tree";
 
     var card = document.getElementById("ref-card");
-    if (done) {
+    if (state.passed[k] === "shown") {
       card.style.display = "";
-      document.getElementById("ref-title").textContent = "Compare with one good tree for this stage";
-      var rt = document.getElementById("ref-tree");
-      rt.textContent = "";
-      rt.appendChild(refList(st.reference));
-      var notes = document.getElementById("ref-notes");
-      notes.textContent = "";
-      st.notes.forEach(function (t) { notes.appendChild(el("p", "hint", t)); });
+      var rt = document.getElementById("ref-tree"), notes = document.getElementById("ref-notes");
+      rt.textContent = ""; notes.textContent = "";
+      if (s.phase === "red") {
+        document.getElementById("ref-title").textContent = "One good tree for this step (yours may differ and still be right)";
+        rt.appendChild(refList(st.reference));
+      } else {
+        document.getElementById("ref-title").textContent = "One good tagging for this step";
+        notes.appendChild(el("p", null, st.tagExample));
+      }
     } else {
       card.style.display = "none";
     }
@@ -543,20 +669,17 @@ tags: []
   document.getElementById("check").addEventListener("click", check);
 
   document.getElementById("next").addEventListener("click", function () {
-    if (!stageDone(state.stage) || state.stage >= STAGES.length - 1) return;
-    state.stage += 1;
-    state.last = null;
+    if (!stepDone(state.step) || state.step >= STEPS.length - 1) return;
+    state.step += 1;
+    selected = []; why = "";
     setStatus("", "");
     render(); persist();
   });
 
   document.getElementById("giveup").addEventListener("click", function () {
-    state.passed[state.stage] = "shown";
-    if (finished() && !completed && window.Lens) {
-      completed = true;
-      try { window.Lens.complete(); } catch (e) { /* not on the platform */ }
-    }
-    setStatus("Here is one good tree for this stage. Compare it with yours before you go on.", "");
+    state.passed[state.step] = "shown";
+    maybeComplete();
+    setStatus("Here is one example. Compare it with yours, then go on.", "");
     render(); persist();
   });
 
@@ -571,13 +694,14 @@ tags: []
   document.getElementById("reset-yes").addEventListener("click", function () {
     showResetConfirm(false);
     state = freshState();
+    selected = []; why = "";
     setStatus("", "");
     render(); persist();
   });
 
   if (window.Lens && window.Lens.onState) {
     window.Lens.onState(function (saved, meta) {
-      if (saved && saved.v === 2 && saved.nodes && saved.nodes[ROOT]) {
+      if (saved && saved.v === 3 && saved.nodes && saved.nodes[ROOT]) {
         state = saved;
         state.passed = state.passed || {};
         state.tries = state.tries || {};
