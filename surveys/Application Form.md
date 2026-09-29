@@ -160,11 +160,12 @@ options::
 - CAIDP (Center for AI and Digital Policy)
 - TARA
 - Vista Institute for AI Policy
-- Kairos
+- Generator Residency
+- Pathfinder
 - Iliad (Fellowship or Intensive)
 - Apart Research
 - Heron AI Security Fellowship
-- Horizon Institute for Public Service
+- Horizon Fellowship
 - Talos Fellowship
 - IAPS AI Policy Fellowship
 - Pivotal Research Fellowship
@@ -174,6 +175,7 @@ options::
 - MATS
 - Constellation (Astra or other fellowship)
 - Anthropic Fellows Program
+- OpenAI Fellows Program
 - Other (please write it below)
 required:: true
 
