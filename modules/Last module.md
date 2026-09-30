@@ -18,9 +18,11 @@ summary_for_tutor:: Welcome and framing lens for the course's final module. Sets
 reading_minutes:: 2
 #### Text
 content::
+%% COMMENTED OUT (AI-generated framing):
 This module is about what comes next. Not because we can predict the future with confidence, but because we cannot afford not to think about it. In AI safety, there is no consensus about when AGI will arrive, what exact path will lead to it, or what the world will look like on the other side. But uncertainty is not a reason to stop thinking. It is a reason to think more carefully.
 
 Across this module, we move from historical prediction to default risk, from catastrophic scenarios to positive visions, from abstract arguments to emotionally imaginable futures, and from civilizational stakes to personal agency.
+%%
 
 This module concludes the course and addresses two questions:
 Where could AI development lead?
