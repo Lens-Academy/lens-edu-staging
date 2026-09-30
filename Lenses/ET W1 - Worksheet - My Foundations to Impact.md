@@ -92,6 +92,27 @@ Here, explore drafting a few career hypotheses that you are interested in, and t
 
 Before listing out your career hypotheses, we recommend reviewing the list of impactful career paths in Week 1’s reading. Pick a few resources to look through, especially paths you may not have yet considered!
 
+#### Callout: 💡 Example: How to fill in a Career Hypothesis (click to open)
+tone:: blue
+collapse:: closed
+
+#### Text
+content::
+*Meet Sofia, a (fictional) Master's student in Public Policy. In Part 1, she noticed she feels most absorbed when turning messy evidence into clear recommendations, and that she keeps coming back to the problem of farmed animal welfare.*
+
+**Her 2a statement:** "I feel most alive when I use my strengths in *policy analysis and clear writing* to work on *farmed animal welfare*, in ways that allow me to contribute to *better regulation for the billions of animals in industrial farming* and explore potential career paths in *policy research at an advocacy nonprofit*."
+
+**Career Hypothesis #1**
+
+1. **Describe this role (i.e. cause area, type of role):** Policy researcher at an animal welfare nonprofit, analysing which farming regulations could reduce the most suffering.
+2. **This may align with my Ikigai because** it combines what I'm good at (policy analysis and writing) with a problem I care deeply about and that I think is important and neglected. It also feels like a realistic path I could be paid for.
+3. **My top uncertainties or needs to pursue this path are** whether I'd enjoy the day-to-day of policy research, whether my background is enough without more quantitative skills, and that I don't yet know anyone working in this field.
+4. **I can design my thesis to explore these uncertainties or needs by** choosing a research question that an animal welfare organisation has flagged as useful, interviewing 3-5 people working in animal welfare policy, practising cost-effectiveness or regulatory impact analysis as my method, and paying attention to which parts of the research process energise or drain me.
+
+*Notice how each answer is specific, honest about what Sofia doesn't know yet, and uses the thesis as a small experiment rather than a final commitment!*
+
+#### End Callout
+
 #### Callout: Career Hypothesis #1
 tone:: purple
 collapse:: open
