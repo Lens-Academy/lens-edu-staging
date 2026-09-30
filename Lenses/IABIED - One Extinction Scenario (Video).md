@@ -9,7 +9,7 @@ summary_for_tutor: "Video lens covering the Sable scenario in U3, replacing
  See During an AI Takeover' (Species | Documenting AGI), a film retelling of
  the book's extinction scenario from the point of view of ordinary people.
  Three beats: an emotional reaction, a re-test of the four bets the
- student committed to in the opening lens of this unit, asking whether those
+ student committed to in the prior lens of this unit, asking whether those
  calls survive the film rather than re-running the sorting, and an objection
  that the student must state as a claim about the argument rather than about
  this story, bridging towards the path-vs-outcome argument from the Coda.
