@@ -9,6 +9,7 @@ title: Quarterly Career Stage Survey
 content:: Hi, it's Lens! This is a quarterly 4 minute survey we conduct to know where you're now in AI safety, and what actually helped. Your answer will help us to prioritize and offer better support.
 
 #### Question: Choice
+id:: 1df81e70-32b7-4b49-ac20-8e72d79ddaff
 content:: What is your current AI safety stage? If several apply, pick *the highest* on the list.
 description:: Pick where you are now, not what you've done before. Count a role or programme you've been accepted to that starts within 3 months.
 options::
