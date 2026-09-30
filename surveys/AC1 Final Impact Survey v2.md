@@ -172,7 +172,10 @@ options::
 - More than six months
 - I probably would not have completed the material otherwise
 
-
+#### Question
+key:: ai_safety_programs_other
+content:: In 1–2 sentences, describe your current AI safety work, and add any details about the programs above.
+description:: For example: "Volunteering 5h/week for PauseAI; did BlueDot's AGI Strategy course (completed)" or "Applying to SPAR and MATS this month; did ARENA 7.0".
 
 #### Question: Open
 id:: ab9103b3-cbe1-4397-b82a-9b1912fdeb4e
