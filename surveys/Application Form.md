@@ -160,7 +160,7 @@ options::
 - Self-study
 - University course or local AI safety group
 - AI Safety Collab (ENAIS)
-- BlueDot Impact
+- BlueDot Courses
 - Center for AI Safety course
 - AI Safety Camp
 - ML4Good
