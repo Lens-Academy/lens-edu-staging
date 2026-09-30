@@ -4,7 +4,7 @@ reading_minutes: 10
 tutor_minutes: 3
 summary_for_tutor: "Examines organizational barriers to safely bootstrapping AI alignment. Argues that competitive pressure, psychological biases, and incentives to keep scaling can undermine even technically sound safety plans. The core tension: alignment bootstrapping requires institutional discipline that runs counter to the dynamics of a competitive AI development landscape."
 title: Carefully Bootstrapped Alignment is organizationally hard
-tldr: Even if the technical plan for automating alignment works perfectly, the organization executing it might not. Competitive pressure, psychological bias, and the temptation to keep scaling can undermine even well-designed safety processes — making the human side of the problem just as hard as the technical one.
+# tldr: Even if the technical plan for automating alignment works perfectly, the organization executing it might not. Competitive pressure, psychological bias, and the temptation to keep scaling can undermine even well-designed safety processes — making the human side of the problem just as hard as the technical one.
 ---
 #### Text
 content::
