@@ -15,10 +15,7 @@ summary_for_tutor:: Short welcome lens introducing the course. The opening text 
 reading_minutes:: 3
 #### Text
 content::
-Artificial intelligence is upending many aspects of civilisation at once, and experts warn of extinction-level risks. What's going on, and where are we headed? This course will help you understand the core dynamics at play, and prepare you to act.{--{"author":"Elua's AI","timestamp":1790782970741}@@
-
-#### Text
-content::--}
+Artificial intelligence is upending many aspects of civilisation at once, and experts warn of extinction-level risks. What's going on, and where are we headed? This course will help you understand the core dynamics at play, and prepare you to act.
 In May 2023, leading AI scientists and the heads of major AI companies put their names to a single sentence:
 
 #### Article

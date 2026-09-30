@@ -133,7 +133,9 @@ content::
 
 \# Part 3. Continue Stakeholder Outreach
 
-**Instructions:** Please continue your stakeholder mapping and outreach in the Stakeholder Outreach Tab. We recommend identifying and reaching out to >20 stakeholders. If you haven’t received any replies from your Week 4 outreach, we encourage you to reach out to additional stakeholders.
+**Instructions:** Please continue your stakeholder mapping and outreach in the Stakeholder Outreach tracker in Week 4’s worksheet (linked below). We recommend identifying and reaching out to >20 stakeholders. If you haven’t received any replies from your Week 4 outreach, we encourage you to reach out to additional stakeholders.
+
+::card[[../Lenses/ET W4 - Worksheet - Stakeholder Mapping and Outreach|Week 4 Worksheet: Stakeholder Outreach Tracker]]{allow-external}
 
 ---
 
