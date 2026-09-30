@@ -1413,3 +1413,528 @@ Senior Technical Staff Member, IBM
 
 **Olle Häggström**  
 Professor of Mathematical Statistics, Chalmers University of Technology
+
+**DeLesley Hutchins**  
+Senior Software Engineer, Google
+
+**Nia J.C. Castelly**  
+Co-Founder and Legal Lead of Checks, Google
+
+**Henning Meyer**  
+Senior Research Software Engineer, Google
+
+**Fergus Hurley**  
+Co-Founder and GM of Checks, Google
+
+**Lev Reyzin**  
+Professor of Mathematics, Statistics, and Computer Science; University of Illinois at Chicago
+
+**Stefan Sint**  
+Associate Professor, School of Mathematics, Trinity College Dublin
+
+**Joachim Weickert**  
+Professor of Mathematics and Computer Science, Saarland University, Germany
+
+**Dennis Hejhal**  
+Professor of Mathematics, University of Minnesota
+
+**Holden Lee**  
+Assistant Professor, Johns Hopkins University
+
+**Matthew Yedlin**  
+Associate Professor of Electrical and Computer Engineering, University of British Columbia
+
+**Todor Markov**  
+Member of Technical Staff, OpenAI
+
+**Irwan Bello**  
+Member of Technical Staff, OpenAI
+
+**John Jeffries Martin**  
+Professor of History, Duke University
+
+**James D. Miller**  
+Professor of Economics, Smith College
+
+**Martin Bouchard**  
+CEO, QScale
+
+**Andre Lavoie**  
+Co-founder, Chairman, and CEO, ClearCompany
+
+**Mark Greville**  
+VP Architecture, Workhuman
+
+**Ritwik Bhattacharya**  
+Senior Vice President, Engineering, Headspace
+
+**Nicole Carignan**  
+VP of Strategic Cyber AI, Darktrace
+
+**Daniel Cuthbert**  
+Global Head of Cyber Security Research, Banco Santander
+
+**Israel Martinez**  
+CEO of Axon Global Services
+
+**Cathy Cobey**  
+EY Global Trusted AI Consulting Leader
+
+**David Dohan**  
+Member of Technical Staff, OpenAI
+
+**Shyamal Anadkat**  
+Member of Go To Market Staff, OpenAI
+
+**Srinivas Narayanan**  
+VP, Engineering, OpenAI
+
+**Maxwell L Bileschi**  
+Staff Research Software Engineer and Manager, Google Deepmind
+
+**Laurent Sartran**  
+Staff Research Engineer, Google DeepMind
+
+**John Aslanides**  
+Staff Research Engineer, Google DeepMind
+
+**Karan Singhal**  
+Staff Research Engineer, Google Research
+
+**Sébastien Cevey**  
+Staff Software Engineer, Google DeepMind
+
+**Joann Huizhen Tang**  
+Director of Machine Learning, Gartner
+
+**Max Jaderberg**  
+Director of Machine Learning, Isomorphic Labs
+
+**Grigory Khimulya**  
+Co-CEO, Alvea
+
+**Guruduth Banavar**  
+Founding CTO, Viome Life Sciences
+
+**Timothy John O'Donnell**  
+Associate Professor, Mcgill University/Mila
+
+**Eugenio Vargas Garcia**  
+Tech Diplomat, Brazilian Consulate General in San Francisco
+
+**Sam Clarke**  
+Strategy Manager, Centre for the Governance of AI
+
+**Nico Miailhe**  
+Founder and President, The Future Society (TFS)
+
+**Nicolas Moës**  
+Director, European AI Governance, The Future Society
+
+**Yolanda Lannquist**  
+Director, AI Governance, The Future Society
+
+**Niki Iliadis**  
+Director, AI and the Rule of Law, The Future Society
+
+**Matthew Shribman**  
+CEO and Chief Scientist, AimHi Earth
+
+**Angus Mercer**  
+Chief Executive, Centre for Long-Term Resilience
+
+**Andrew Snyder-Beattie**  
+Senior Program Officer, Biosecurity and Pandemic Prepardness, Open Philanthropy
+
+**Luke Muehlhauser**  
+Senior Program Officer, AI Governance and Policy, Open Philanthropy
+
+**Joseph Carlsmith**  
+Senior Research Analyst, Open Philanthropy
+
+**Robert Kowalski**  
+Professor Emeritus, Imperial College London
+
+**Dov Dori**  
+Professor Emeritus, Technion, Israel Institute of Technology
+
+**André Platzer**  
+Alexander von Humboldt Professor for AI, Karlsruhe Institute of Technology
+
+**Rinat Rosenberg-Kima**  
+Assistant Professor, Technion - Israel Institute of Technology
+
+**Nelma Moreira**  
+Associate Professor Computer Science, University of Porto
+
+**Sunyoung Yang**  
+Assistant Professor, The University of Arizona
+
+**Steve Kommrusch**  
+Director of Research, Leela AI
+
+**Padmini Srinivasan**  
+Professor, University of Iowa
+
+**Linda MacDonald Glenn**  
+Founding Director, Center for Applied Values and Ethics in Advanced Technologies (CAVEAT)
+
+**Eric Alm**  
+MIT Director, Center For Microbiome Informatics and Therapeutics Professor, Biological Engineering, MIT Professor, Civil and Environmental Engineering, MIT Associate Member Broad Institute
+
+**Stephen Grossberg**  
+Wang Professor of Cognitive and Neural Systems, Boston University
+
+**Christoph Lampert**  
+Professor of Machine Learning and Computer Vision, Institute of Science and Technology Austria (ISTA)
+
+**Stefan Tai**  
+Professor of Computer Science, TU Berlin
+
+**Anders Lansner**  
+Professor Emeritus, KTH Royal Institute of Technology and Stockholm University
+
+**Michael Findley**  
+Erwin Centennial Professor of Government, University of Texas at Austin
+
+**Cosimo Della Santina**  
+Professor, TU Delft
+
+**Abhinav Valada**  
+Professor, University of Freiburg
+
+**Ernesto Costa**  
+Full Professor, University of Coimbra
+
+**Ilija Bogunovic**  
+Assistant Professor, University College London
+
+**Raymund Sison**  
+Professor and University Fellow, De La Salle University
+
+**Alexander Flor**  
+Professor of Information and Communication Studies, University of the Philippines
+
+**Mirjana Pejić Bach**  
+Full professor, Faculty of Economics and Business, University of Zagreb
+
+**David Macpherson**  
+Professor of Medicine, Retired, University of Pittsburgh
+
+**Ioannis Patras**  
+Professor of Computer Science, Queen Mary University of London
+
+**Harold Soh**  
+Assistant Professor at National University of Singapore
+
+**The Anh Han**  
+Professor of Computer Science, Lead of Centre for Digital Innovation, Teesside University
+
+**Gregory Provan**  
+Professor, Computer Science, UCC, Ireland
+
+**William Saunders**  
+Member of Technical Staff, OpenAI
+
+**Roberto Battiston**  
+Professor, University of Trento, Italy
+
+**Olavo Amaral**  
+Associate Professor, Federal University of Rio de Janeiro
+
+**Luca Frediani**  
+Professor, Hylleraas Centre, UiT The Arctic University of Norway
+
+**Vedant Misra**  
+Research Engineer, Google DeepMind
+
+**Paul Christiano**  
+Director, Alignment Research Center
+
+**Ajeya Cotra**  
+Senior Research Analyst, Open Philanthropy
+
+**Owain Evans**  
+AI Safety Researcher, Truthful AI
+
+**Sawyer Bernath**  
+Executive Director, Berkeley Existential Risk Initiative
+
+**Lewis Hammond**  
+Acting Executive Director, Cooperative AI Foundation
+
+**Eliezer Yudkowsky**  
+Senior Research Fellow and Co-Founder, Machine Intelligence Research Institute
+
+**Nate Soares**  
+Executive Director, Machine Intelligence Research Institute
+
+**Roman Yampolskiy**  
+Associate Professor of Computer Science, University of Louisville
+
+**Katja Grace**  
+Lead Researcher, AI Impacts
+
+**Andreas Stuhlmüller**  
+CEO, Ought
+
+**Michael Andregg**  
+Founder, Fathom Radiant
+
+**Evan Hubinger**  
+Research Scientist, Anthropic
+
+**Nick Fitz**  
+Founder and CEO, Momentum
+
+**Leo Gao**  
+Member of Technical Staff, OpenAI
+
+**Tim Blackmore**  
+Professor, Media Studies, Western University
+
+**Neel Nanda**  
+Research Engineer, DeepMind
+
+**Mark Nitzberg**  
+Executive Director, Center for Human-Compatible AI
+
+**Christopher DiCarlo**  
+Senior Researcher and Ethicist, Convergence Analysis
+
+**Satoshi Kurihara**  
+Professor, Keio University
+
+**Vinay Ramasesh**  
+Research Scientist, Google DeepMind
+
+**Robert Duin**  
+Professor, Delft University of Technology
+
+**Jordan Crandall**  
+Professor, UC San Diego
+
+**Joshua Lewis**  
+Assistant Professor, New York University
+
+**Hema A Murthy**  
+Retired Professor, Indian Institute of Technology Madras India
+
+**Shrisha Rao**  
+Professor, IIIT-Bangalore
+
+**Ryan Sultan**  
+Assistant Professor of Human Behavior and Clinical Psychiatry, Columbia University
+
+**Huigang Liang**  
+Professor | Ph.D. Coordinator | FedEx Chair of Excellence in MIS
+
+**Erdem Bıyık**  
+Assistant Professor of Computer Science, University of Southern California
+
+**Lisa McLaughlin**  
+Associate Professor, Miami University
+
+**Luca Simoncini**  
+Professor of Computer Engineering (ret.), University of Pisa, Pisa, Italy
+
+**Domenico Talia**  
+Professor of Computer Engineering, University of Calabria
+
+**Robin Jacobson**  
+Professor of Politics and Government, University of Puget Sound
+
+**Vít Janiš**  
+Assistant Professor, Mendel University in Brno
+
+**Benjamin Rosman**  
+Professor of Computer Science, University of the Witwatersrand
+
+**Frank Gaffikin**  
+Professor Emeritus, Queen's University, Belfast
+
+**Yves Moreau**  
+Professor, University of Leuven
+
+**Alessandro Saffiotti**  
+Professor of Computer Science, Orebro University, Sweden
+
+**Noah Y. Siegel**  
+Senior Research Engineer, DeepMind
+
+**Nick Couldry**  
+Professor of Media, Communications, and Social Theory
+
+**Mayank Daswani**  
+Senior Research Engineer, Google
+
+**Ansgar Steland**  
+Professor of Stochastics, Institute of Statistics and AI Center, RWTH Aachen
+
+**Kazuhiko Shibuya**  
+Professor, Globiz Professional University, Japan
+
+**Yoshihiko Nakamura**  
+Professor Emeritus, University of Tokyo
+
+**Vernon Louw**  
+Professor, Chair, and Head Clinical Hematology, University of Cape Town
+
+**Jaak Tepandi**  
+Professor Emeritus of Knowledge-Based Systems, Tallinn University of Technology
+
+**Martin Cederwall**  
+Professor, Chalmers University of Technology
+
+**Koichi Takahashi**  
+Distinguished Visiting Professor, Keio University
+
+**Hiroshi Yamakawa**  
+Chairperson, The Whole Brain Architecture Initiative
+
+**Janna Quitney Anderson**  
+Professor and Director of the Imagining the Internet Center
+
+**Brian Christian**  
+Author, The Alignment Problem, UC Berkeley and University of Oxford
+
+**Van Hoai Tran**  
+Associate Professor, Ho Chi Minh City University of Technology
+
+**Hugh Cameron**  
+Visiting Professor, Makerere University
+
+**Mounîm A. El-Yacoubi**  
+Professor, Institut Polytechnique de Oaris
+
+**Karl Tuyls**  
+Research Director and Professor of Computer Science, Google DeepMind and University of Liverpool/Leuven
+
+**Alexandre Xavier Falcão**  
+Full Professor, Universidade Estadual de Campinas (UNICAMP)
+
+**Thomas Keck**  
+Research Engineer, Google DeepMind
+
+**Martin Hilbert**  
+Professor, Chair Computational Social Science, University of California, Davis
+
+**Lamberto Coccioli**  
+Professor of Music and Technology, Birmingham City University
+
+**Torbjörn Nordling**  
+Assistant Professor, National Cheng Kung University
+
+**Corrado Mencar**  
+Associate Professor, University of Bari Aldo Moro, Italy
+
+**Jendrik Seipp**  
+Assistant Professor, Linköping University
+
+**Joakim Wernberg**  
+Associate Professor, Department of Technology and Society, Lund University
+
+**Tomas Jucha**  
+Senior Policy Manager, AmCham Slovakia
+
+**Erol Gelenbe**  
+Professor, Institute of Theoretical and Applied Informatics, Polish Academy of Sciences
+
+**Lukasz Swiecicki**  
+Assistant Professor, University of Siedlce
+
+**Peter Cowling**  
+Professor of AI, Queen Mary University of London
+
+**Daniel Novotný**  
+Assistant Professor of Philosophy, University of South Bohemia
+
+**Jill Rudkowski, MD**  
+Associate Professor of Medicine, McMaster University
+
+**Monika Porwoł**  
+University Professor of Linguistics and Translation Studies, PhD, University of Applied Sciences in Racibórz (Poland), Institute of Modern Language Studies
+
+**Hugo De Man**  
+Professor Emeritus, KU Leuven/IMEC
+
+**Amanda du Preez**  
+Professor, School of the Arts, University of Pretoria
+
+**Mamuka Matsaberidze**  
+Professor of Chemistry, Georgian Technical University
+
+**Terrence Mernagh**  
+Honorary Associate Professor, The Australian National University
+
+**Zelalem Jembre**  
+Assistant Professor, Keimyung University
+
+**Behnam Neyshabur**  
+Research Scientist, Google DeepMind
+
+**Juan Carlos Miguel**  
+Professor, University of the Basque Country
+
+**Andrey V.Gavrilov**  
+Associate Professor (Docent), Novosibirsk State Technical University
+
+**Mike Gozzo**  
+Chief Product and Technology Officer, Ada
+
+**Trevor Ponman**  
+Professor, University of Birmingham
+
+**Barak A. Pearlmutter**  
+Professor, Maynooth University
+
+**Constantinos Koutsojannis**  
+Professor of Medical Physics & Electrophysiology, Director of Health Physics & Computational Intelligence Lab, University of Patras Greece
+
+**Takafumi Matsumaru**  
+Professor of Bio-Robotics and Human-Mechatronics, Waseda University
+
+**Guillermo Cabrera-Vives**  
+Associate Professor, Universidad de Concepción
+
+**Glen Cebulash**  
+Professor of Art, Wright State University
+
+**Margie Mendell**  
+Distinguished Professor Emerita, Concordia University
+
+**Adrien Ecoffet**  
+Member of Technical Staff, OpenAI
+
+**Ramon Carbó-Dorca**  
+Emeritus Professor, University of Girona (Catalonia) Spain
+
+**Holger Hoos**  
+Alexander von Humboldt Professor of AI, RWTH Aachen University & University of Leiden
+
+**Wenlin Han**  
+Associate Professor, California State University, Fullerton
+
+**Jovan Ivković**  
+Professor of IT and IS, Information Technology School, Belgrade
+
+**Joel Z Leibo**  
+Research Scientist, Google DeepMind
+
+**Luís Moniz Pereira**  
+Professor Emeritus, Universidade Nova de Lisboa, Portugal
+
+**Adam Eckart**  
+Assistant Professor of Health and Exercise Science, Kean University
+
+**Cristian S. Calude**  
+Professor, University of Auckland
+
+**Peter Sarlin**  
+CEO/Co-founder and Professor, Silo AI and Aalto University
+
+**Alejandro Molina-García**  
+Professor, Universidad Montrer
+
+**József Bayer**  
+Professor Emeritus, Hungarian Academy of Sciences
