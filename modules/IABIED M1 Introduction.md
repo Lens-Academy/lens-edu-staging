@@ -48,7 +48,7 @@ The Introduction, then three chapters that work as one argument: what intelligen
 :::
 
 :::callout {title="Unit 2: Nonhuman Minds, Part 2" tone="blue"}
-Three of the biggest questions in sequence. Whether what a system wants is what you trained for, what it is likely to want instead, and what happens if we try to stop it.
+Three of the biggest questions the book asks in sequence. Whether what a system wants is what you trained for, what it is likely to want instead, and what happens if we try to stop it.
 :::
 
 :::callout {title="Unit 3: One Extinction Scenario" tone="blue"}
