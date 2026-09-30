@@ -10,7 +10,7 @@ content:: Hi, it's Lens! This is a quarterly 4 minute survey we conduct to know 
 
 #### Question: Choice
 id:: 1df81e70-32b7-4b49-ac20-8e72d79ddaff
-content:: Which category best describes your AI safety stage right now? If several apply, pick *the highest* on the list.
+content:: Which category best describes your *current* AI safety stage? If several apply, pick *the highest* on the list.
 options::
 - Paid full-time job in AI safety
 - Paid full-time AI safety fellowship or funded research, 3 months or longer (e.g. MATS)
