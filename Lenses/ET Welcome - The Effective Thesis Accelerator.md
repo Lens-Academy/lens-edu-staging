@@ -54,12 +54,16 @@ We’re committed to making sure you feel supported, confident, and connected th
 
 New to Lens? Before diving in, we recommend watching this short walkthrough of how to navigate the platform, from finding your weekly readings and worksheets to saving your answers along the way!
 
-:::callout {title="Platform Walkthrough Video" tone="purple"}
+#### Callout: Platform Walkthrough Video
+tone:: purple
 
-👉 [Watch the platform walkthrough video](https://drive.google.com/file/u/1/d/11FG1uyoiV-PoUWGSyhXaT1UYCOgK_43J/view?usp=sharing)
+#### Widget
+source:: [[../widgets/et-platform-walkthrough-video]]
 
-:::
+#### End Callout
 
+#### Text
+content::
 ---
 
 \# 📌 Key Information
