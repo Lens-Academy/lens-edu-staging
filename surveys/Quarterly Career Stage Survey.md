@@ -1,12 +1,12 @@
 ---
 id: 'c9f04f04-af4e-437c-9106-0df4935c4342'
-title: Career Stage Survey
+title: Quarterly Career Stage Survey
 ---
 
-%% DRAFT (Mark, 30 Sep 2026). Sent to alumni every 3 months after their course (3, 6 and 12 months). Not attached to any meeting, and not automated yet: send it by email or Discord for now. Question 1 uses the exact wording of the application form's `ais_work_status`, so it compares directly with the application. Questions 3–5 are the attribution questions from [[Role Attribution Survey]]: keep question 3 before Lens is named in 4 and 5. Outcome categories (A1–C) and how we report them: [[../../Lens/Growth/Impact Tracking/Career Outcomes and Attribution]]. %%
+%% DRAFT (Mark, 30 Sep 2026). Sent to all alumni every 3 months after their course. Not attached to any meeting, and not automated yet: send it by email or Discord for now. Question 1 uses the exact wording of the application form's `ais_work_status`, so each answer compares directly with the application and with the previous quarter; no need to ask where people were before. Questions 2–4 ask everyone what helped and how much Lens contributed. They are adapted from [[Role Attribution Survey]] to "where you are now" instead of "this role". Keep question 2 first: it must be answered before Lens is named. Outcome categories (A1–C) and how we report them: [[../../Lens/Growth/Impact Tracking/Career Outcomes and Attribution]]. %%
 
 #### Text
-content:: Hi, it's Lens! This is a quarterly survey we conduct to know where you're now in AI safety, and what actually helped. It helps us to prioritize and offer better support.
+content:: Hi, it's Lens! This is a quarterly 4 minute survey we conduct to know where you're now in AI safety, and what actually helped. It helps us to prioritize and offer better support.
 
 #### Question: Choice
 id:: 1df81e70-32b7-4b49-ac20-8e72d79ddaff
