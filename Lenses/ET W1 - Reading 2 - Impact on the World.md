@@ -67,7 +67,14 @@ Here are a few core concepts (from Probably Good) that can help improve the way 
 
 Check out [this page](https://probablygood.org/core-concepts/) on Probably Good for the full list of core concepts!
 
-\### Widening our circle of compassion & consideration for impact
+#### End Callout
+
+#### Callout: Info box: Widening our circle of compassion & consideration for impact (click to open)
+tone:: amber
+collapse:: closed
+
+#### Text
+content::
 
 We tend to focus on issues that immediately affect us, or that we frequently hear about, a pattern called the **availability heuristic**. Some of the world's most pressing challenges stay hidden precisely because they affect people far away, other species, or future generations, or because they're slow-moving and complex. A few categories worth considering:
 
