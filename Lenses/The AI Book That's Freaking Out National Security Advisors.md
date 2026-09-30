@@ -13,7 +13,7 @@ title: "The AI Book That's Freaking Out National Security Advisors"
 source:: [[../video_transcripts/ai-in-context-the-ai-book-thats-freaking-out-national-security-advisors-Nl7-bRFSZBs]]
 #### Text
 content::
-What part of the argument did you find most {--{"author":"Elua's AI","timestamp":1790791076051}@@convincing — or least convincing — and why?--}{++{"author":"Elua's AI","timestamp":1790791076051}@@or least convincing? I can help you get further into the specifics.++}
+What part of the argument did you find most or least convincing? I can help you get further into the specifics.
 #### Chat
 instructions::
 %% LLM generated and not human-checked yet %%
@@ -29,4 +29,4 @@ Discussion topics to explore:
 
 Use Socratic questioning to check their understanding. Don't lecture — help them articulate their own thinking and notice where the argument's strength actually rests.
 
-The user has just answered the following question: "What part of the argument did you find most {--{"author":"Elua's AI","timestamp":1790791078310}@@convincing — or least convincing — and why?"--}{++{"author":"Elua's AI","timestamp":1790791078310}@@or least convincing? I can help you get further into the specifics."++}
+The user has just answered the following question: "What part of the argument did you find most or least convincing? I can help you get further into the specifics."

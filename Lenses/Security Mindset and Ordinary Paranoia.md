@@ -6,9 +6,7 @@ summary_for_tutor: "Eliezer Yudkowsky's dialogue between Amber and Coral, a comp
 title: Security Mindset and Ordinary Paranoia
 # tldr: Standard engineering asks "does this work?" The security mindset asks "how does this fail when something is actively trying to break it?" This article argues that building safe AI requires thinking borrowed from cryptography — not piling up defenses, but designing systems where safety doesn't depend on outsmarting what you're containing.
 ---
-{--{"author":"Elua's AI","timestamp":1790790528676}@@#### Text
-content::
---}%% #### Text
+%% #### Text
 content:: %%
 %% COMMENTED OUT (AI slop):
 The next piece focuses on just how hard it is to get systems we build to do the things we want and how those systems break down under adversarial pressure, which is akin to optimization pressure.  

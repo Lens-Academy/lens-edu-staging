@@ -6,9 +6,7 @@ summary_for_tutor: Covers the simulator framing for understanding LLMs. Proposes
 title: How can LLMs be understood as simulators?
 # tldr: Language models are often called agents, oracles, or tools — but none of these labels quite fit. This brief introduction proposes a different frame; LLMs as simulators that can take on the properties of any of those things depending on context, while remaining something else underneath.
 ---
-{--{"author":"Elua's AI","timestamp":1790790494613}@@#### Text
-content::
---}%% #### Text
+%% #### Text
 content:: %%
 %% A very brief introduction to simulator theory. %%
 

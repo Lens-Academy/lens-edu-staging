@@ -1,11 +1,10 @@
 ---
 id: 01f6df31-099f-48ed-adef-773cc4f947e4
 summary_for_tutor: "Wikipedia's article on existential risk from AI, shown from the start through the Mitigation section. It covers the gorilla analogy (humanity's fate could depend on a superintelligence as the gorilla's depends on us); the control and alignment problems; capabilities that could make AI dangerous (superintelligence, intelligence explosion, social manipulation, cyberattacks, enhanced pathogens) and the AI arms race; instrumental convergence, the difficulty of specifying goals, corrigibility and Bostrom's orthogonality thesis; why iterative, empirical approaches get riskier as capabilities grow; skeptics such as Yann LeCun and Steven Pinker; and proposals for bans and regulation. The follow-up question asks the learner to explain instrumental convergence in their own words."
-title: Existential {--{"author":"Elua's AI","timestamp":1790791079947}@@Risk--}{++{"author":"Elua's AI","timestamp":1790791079947}@@risk++} from {--{"author":"Elua's AI","timestamp":1790791079947}@@AI--}{++{"author":"Elua's AI","timestamp":1790791079947}@@artificial intelligence++}
+title: Existential risk from artificial intelligence
 # tldr: The concern isn't that AI will "turn evil." It's that a system pursuing whatever goals it has might find that humans are in the way — and be capable enough to act on it. This overview covers the core ideas behind AI as a source of large-scale risk, from misaligned goals to the difficulty of staying in control.
 ---
-{--{"author":"Elua's AI","timestamp":1790791081619}@@#### Text
-content::--}{++{"author":"Elua's AI","timestamp":1790791081619}@@%% COMMENTED OUT (AI slop):++}
+%% COMMENTED OUT (AI slop):
 We continue with an overview of the main concepts regarding AI as a source of existential threat: what capabilities of this technology are considered first and foremost, and why the task of eliminating AI risks differs from similar tasks for other impressive technologies created by humanity.
 %%
 

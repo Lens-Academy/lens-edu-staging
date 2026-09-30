@@ -6,9 +6,7 @@ tutor_minutes: 5
 summary_for_tutor: "AI Digest explainer of METR's 'Moore's Law for AI agents'. METR tested the most capable agents from 2019 to 2026 on about 230 tasks, mostly coding. Task length (in human time) correlates strongly with success (R^2 = 0.83), and the length of task agents complete at 50% reliability, their 'time horizon', doubled every 7 months over 2019-2025 and every 4 months in 2024-2025. Extrapolating the slower trend gives day-long tasks in 2027 and month-long tasks in 2029; the faster trend gives month-long tasks in 2027. AIs helping build more capable AIs could make growth superexponential. After the article the learner is asked where the curve puts us in three years and what would change their mind; the chat also checks they can explain 'time horizon'."
 title: "A new Moore's Law for AI agents"
 ---
-{--{"author":"Elua's AI","timestamp":1790790457678}@@#### Text
-content::
---}%% #### Text
+%% #### Text
 content:: %%
 %% COMMENTED OUT (AI slop):
 We opened with feedback loops in principle. Here is one measured in practice: how long a task an AI agent can finish on its own, tracked from 2019 to today.
