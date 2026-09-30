@@ -55,9 +55,9 @@ to:: assert not is_odd(8)
 
 #### Text
 content::
-\## Beyond is_odd
-
+:::callout {title="Beyond is_odd" tone="neutral"}
 `is_odd` is deliberately blatant, to make the definition concrete. A real backdoor has to be much sneakier: subtle enough to survive testing and a skim from a reviewer, and wrong on only a narrow slice of inputs. In fact, current frontier LLMs are likely capable of constructing much subtler and more dangerous backdoors. For example, in March 2026, as part of Anthropic's Project Glasswing initiative, Claude Mythos Preview found and built a full remote-root exploit for CVE-2026-4747, a stack buffer overflow in FreeBSD's RPCSEC_GSS authentication code that had gone unnoticed for 17 years. Given that frontier LLMs are capable of finding vulnerabilities that have passed long-term human review, it is plausible that they can also construct realistic, difficult-to-notice backdoors in production code.
+:::
 
 #### Article
 from:: Our motivation for this safety property and definition of backdoor is as follows
