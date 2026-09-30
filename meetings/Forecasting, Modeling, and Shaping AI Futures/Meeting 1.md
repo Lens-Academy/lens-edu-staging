@@ -10,7 +10,7 @@ title: AI futures M1 Meeting Doc
 
 ### Meeting link:
 
-source:: [[../shared/Session Doc - How today works]]
+source:: [[../shared/Session Doc - How today works (3 rooms)]]
 
 \pagebreak
 ### Room 1: Icebreaker  [0:05–0:19]
@@ -36,7 +36,7 @@ One or two people share what their group landed on.
 ---
 
 \pagebreak
-### Room 2: Does the Curve Hold?  [0:24–0:42]
+### Room 2: Does the Curve Hold?  [0:24–0:46]
 
 **New group. Names first, then straight in.**
 
@@ -56,7 +56,7 @@ Want help or an explanation for this question? Copy it into the [Lens Coach](htt
 |  |  |
 |  |  |
 
-### Back together: 5 min  [0:42–0:47]
+### Back together: 5 min  [0:46–0:51]
 
 One or two people share what their group landed on.
 
@@ -64,10 +64,10 @@ One or two people share what their group landed on.
 
 
 
-### Break: 5 min  [0:47–0:52]
+### Break: 5 min  [0:51–0:56]
 
 \pagebreak
-### Room 3: Your Own Question  [0:52–1:10]
+### Room 3: Your Own Question  [0:56–1:18]
 
 **New group. Names first, then straight in.**
 
@@ -89,34 +89,32 @@ Example questions, if you want a starting point:
 |  |  |
 
 
-### Back together: 5 min  [1:10–1:15]
+### Back together: 5 min  [1:18–1:23]
 
 One or two people share what their group landed on.
 
 ---
 
 \pagebreak
-### Room 4: Next Unit & Feedback  [1:15–1:27]
+### Next steps and goodbye  [1:23–1:30]
 
-**New group. Names first, then straight in.**
-
-
-1\. Accountability buddies: pair up inside this room (a trio is fine) and swap contact info; Discord works. Your buddy checks in with you before each meeting, starting with the next one.
-2\. Next unit: what's most likely to stop you finishing Unit 2 when it releases, and what's your plan to beat it? Tell your buddy; that's the plan they'll check in on.
-3\. Feedback: what would make the course and this meeting better? Put it in the table, the team reads every line.
+Whole group, no breakout room.
 
 
-| Names | Buddies + Unit 2 plan + feedback |
-|------|------------------------|
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+1\. Accountability buddies: your navigator pairs you up (a trio is fine). Write your pair below and swap contact info in the Zoom chat; Discord works. Your buddy checks in with you before each meeting, starting with the next one.
+2\. Today, send your buddy one line: what's most likely to stop you finishing Unit 2, and your plan to beat it. That's the plan they'll check in on.
+3\. Closing round, answer out loud if you'd like: one thing you're glad you know now that you didn't know two hours ago.
 
-\pagebreak
-### Wrap-up  [1:27–1:30]
 
-Closing round, answer out loud if you'd like: one thing you're glad you know now that you didn't know two hours ago.
+Feedback on the course and this meeting goes in the post-meeting survey. The team reads every line.
+
+
+| Buddy pairs |
+|------------------------|
+|  |
+|  |
+|  |
+|  |
 
 
 ---
@@ -159,28 +157,28 @@ source:: [[../shared/Participant FAQ]]
 | 0:00–0:05 | Lobby / welcome (whole group) |
 | 0:05–0:19 | R1 Icebreaker (breakout, aim 3) |
 | 0:19–0:24 | Back together (whole group) |
-| 0:24–0:42 | R2 Slope or Cliff? (reshuffle) |
-| 0:42–0:47 | Back together (whole group) |
-| 0:47–0:52 | Break |
-| 0:52–1:10 | R3 Your own question (reshuffle) |
-| 1:10–1:15 | Back together (whole group) |
-| 1:15–1:27 | R4 Feedback / next unit (reshuffle) |
-| 1:27–1:30 | Close (whole group) |
+| 0:24–0:46 | R2 Slope or Cliff? (reshuffle) |
+| 0:46–0:51 | Back together (whole group) |
+| 0:51–0:56 | Break |
+| 0:56–1:18 | R3 Your own question (reshuffle) |
+| 1:18–1:23 | Back together (whole group) |
+| 1:23–1:30 | Close: next steps + closing round (whole group, no breakout) |
 
 source:: [[../shared/Navigator Run-Sheet - Lobby and welcome]]
 
 source:: [[../shared/Navigator Run-Sheet - During the breakout rooms]]
 
-source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
+source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer (3 rooms)]]
 
 ### Close
 
-**[1:27–1:30], whole group**. Bring everyone back:
+**[1:23–1:30], whole group, no breakout** (there is no Room 4 today). Straight on from Room 3's back-together:
 
 
-1. Ask for "one thing I'm taking away" from anyone who wants it (~10 sec each; a few voices is plenty, people have already shared between rooms).
-2. **Next-unit heads-up: Unit 2 releases on the Lens platform before the next meeting; the announcement lands in Discord. Remind them to message their Room-4 accountability buddy today so the check-in thread exists.**
-3. **End on time.** Then say the meeting **stays open** for anyone who wants to keep talking; stay and facilitate, or say goodbye and leave (they can keep going without you).
+1. **Pair accountability buddies (~2 min).** Read out pairs from the participant list (a trio for an odd number); they write them in the doc's "Buddy pairs" table and swap contacts in the Zoom chat.
+2. **Next-unit heads-up: Unit 2 releases on the Lens platform before the next meeting; the announcement lands in Discord. Remind them to message their buddy today with their Unit 2 plan so the check-in thread exists.**
+3. Ask for "one thing I'm glad I know now" from anyone who wants it (~10 sec each; a few voices is plenty). Point feedback to the post-meeting survey.
+4. **End on time.** Then say the meeting **stays open** for anyone who wants to keep talking; stay and facilitate, or say goodbye and leave (they can keep going without you).
 
 
 
