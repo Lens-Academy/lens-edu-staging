@@ -196,6 +196,8 @@ options::
 - Talking to people in the field about my next step
 - Nothing concrete yet
 
+
+
 #### Question: Open
 id:: ab9103b3-cbe1-4397-b82a-9b1912fdeb4e
 content:: Would you like to leave a short note for people considering this course or Lens? We may share it on our website.
