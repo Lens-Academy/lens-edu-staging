@@ -6,9 +6,11 @@ tutor_minutes: 8
 summary_for_tutor: Covers why catastrophic outcomes from AI are the default expectation, not a special case requiring malice. Explains that major AI labs explicitly target superintelligence, that current AI is grown rather than designed (making alignment intractable with present methods), that instrumental convergence drives dangerous behavior regardless of final goals, and that competitive pressures ensure insufficient caution. Structured as a comprehensive primer on existential risk from AI.
 title: Deadly By Default
 ---
+%% COMMENTED OUT (AI-generated framing):
 #### Text
 content::
 Why expect powerful AI to go badly by default? This text argues that catastrophe doesn't require malice. A powerful optimizer pursuing goals that conflict with human values is enough, and today's incentives make that the default outcome.
+%%
 
 #### Article
 source:: [[../articles/Duncan, Deadly By Default]]

@@ -6,9 +6,11 @@ tutor_minutes: 5
 summary_for_tutor: "Presents 80,000 Hours' problem profile arguing that reducing risks from power-seeking AI is among the world's most pressing problems. A short Text framing precedes the full article, which structures its case in five claims: humans will likely build advanced AI with long-term goals; such AIs may seek power and aim to disempower humanity; they could succeed and cause an existential catastrophe; developers might deploy them without adequate safeguards; and work on the problem is tractable and neglected. A follow-up Chat prompts the learner to discuss why AIs might develop unwanted goals, what it means for an AI to seek power and why that is dangerous, and which safeguards seem most promising."
 title: Risks from power-seeking AI
 ---
+%% COMMENTED OUT (AI-generated framing):
 #### Text
 content::
 The 80,000 Hours case for why reducing risks from power-seeking AI is one of the most pressing problems of our time.
+%%
 
 #### Article
 source:: [[../articles/fenwick-loss-of-control]]

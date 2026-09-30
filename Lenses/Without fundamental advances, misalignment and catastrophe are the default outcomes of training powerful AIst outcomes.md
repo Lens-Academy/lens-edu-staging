@@ -7,9 +7,11 @@ title: Without fundamental advances
 # tldr: Many alignment proposals assume that iterating on current training with enough safety patches will probably work out. This article argues the opposite — given how we currently build AI, misalignment isn't the exception. It's what we should expect by default without fundamentally new approaches.
 ---
 
+%% COMMENTED OUT (AI-generated framing):
 #### Text
 content::
 Many alignment proposals assume that if we just iterate on current training and add enough safety patches, things will probably work out. This material argues the opposite: given how we currently build powerful AI systems, misalignment and catastrophe are the default outcomes
+%%
 
 #### Article
 source:: [[../articles/gillen+barnett-without-fundamental-advances,-misalignment-and-catastrophe-are-the-default-outcomes-of-training-powerful-ai]]
