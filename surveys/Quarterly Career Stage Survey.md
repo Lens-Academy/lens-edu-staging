@@ -50,7 +50,7 @@ options::
 
 #### Question: Choice
 id:: 6543e9a0-0717-4bad-898f-6273c4480f54
-content:: Compared with your best available alternative at the time, how much did Lens speed up your path to this role?
+content:: Compared with your best available alternative at the time, how much did Lens speed up your path to this stage?
 description:: Your best alternative might have been self-study or another programme.
 optional:: true
 options::
