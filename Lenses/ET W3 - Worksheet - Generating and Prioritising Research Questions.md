@@ -140,7 +140,6 @@ Take your shortlist of 5-10 questions from Step 3 and build your Weighted Factor
 
 #### Widget
 source:: [[../widgets/et-weighted-factor-model]]
-required:: true
 
 #### Question: Open
 id:: 2c74eecc-a2cc-4bc9-af23-438be3dae042
