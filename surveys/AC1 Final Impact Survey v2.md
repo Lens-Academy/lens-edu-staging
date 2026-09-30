@@ -196,7 +196,42 @@ options::
 - Talking to people in the field about my next step
 - Nothing concrete yet
 
+#### Question: Choice
+id:: 6f59f8f2-6792-4680-98f7-a63cf69afa0c
+content:: Which programmes are you starting or continuing in the next 3 months? Pick all that apply.
+optional:: true
+multi:: true
+options::
 
+- AI Safety Camp
+- ML4Good
+- Global Challenges Project
+- ARENA
+- Pathfinder
+- SPAR
+- ERA Fellowship
+- Cooperative AI Foundation
+- BASE (Black in AI Safety and Ethics)
+- Sentient Futures
+- CAIDP (Center for AI and Digital Policy)
+- TARA
+- Vista Institute for AI Policy
+- Generator Residency
+- Iliad (Fellowship or Intensive)
+- Apart Research
+- Heron AI Security Fellowship
+- Horizon Fellowship
+- Talos Fellowship
+- IAPS AI Policy Fellowship
+- Pivotal Research Fellowship
+- PIBBSS Fellowship
+- LASR Labs
+- GovAI
+- MATS
+- Constellation (Astra or other fellowship)
+- Anthropic Fellows Program
+- OpenAI Fellows Program
+- Other programme, or a job (name it in your steps above)
 
 #### Question: Open
 id:: ab9103b3-cbe1-4397-b82a-9b1912fdeb4e
