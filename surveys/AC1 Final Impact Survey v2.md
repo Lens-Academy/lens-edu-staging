@@ -172,23 +172,6 @@ options::
 - More than six months
 - I probably would not have completed the material otherwise
 
-#### Question: Rating
-id:: 20d4a93a-ddd5-4e33-96fd-0f242e76a4d8
-content:: How strongly do you intend to move into AI safety full-time in the next 3 to 12 months?
-description:: Select 10 if you already work in it full-time or are in a paid fellowship.
-scale:: 10
-labels::
-- No intention
-- Very unlikely
-- Unlikely
-- Leaning against it
-- Neutral or undecided
-- Leaning toward it
-- Likely
-- Very likely
-- Actively working toward it
-- Already full-time or in a paid fellowship
-
 #### Question: Open
 id:: ab9103b3-cbe1-4397-b82a-9b1912fdeb4e
 content:: Would you like to leave a short note for people considering this course or Lens? We may share it on our website.
