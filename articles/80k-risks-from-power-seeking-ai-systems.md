@@ -277,7 +277,7 @@ Some have suggested that this might not be a bad thing. Perhaps AI systems would
 But we’re not comforted by the idea that an AI system that actively chose to undermine humanity would have control of the future because its developers failed to figure out how to control it. We think humanity can do much better than accidentally driving ourselves extinct. We should have a choice in how the future goes, and we should improve our ability to make good choices rather than falling prey to uncontrolled technology.
 
 :::hide
-#### How likely is an existential catastrophe from power-seeking AI?
+#### How likely is an existential catastrophe from power-seeking AI? ^how-likely
 
 We feel very uncertain about this question, and the range of opinions from AI researchers is wide.
 
@@ -349,7 +349,7 @@ There are many reasons why key decision makers might not take the risks from pow
 
 We’ve seen evidence of all of these factors playing out in the development of AI systems so far to some degree. So we shouldn’t be confident that humanity will approach the risks with due care.[^cite-80k-32]
 
-### 5. Work on this problem is neglected and tractable
+### 5. Work on this problem is neglected and tractable ^neglected-tractable
 
 In 2022, we estimated that there were about 300 people working on reducing catastrophic risks from AI. That number has clearly grown a lot. A [2025 analysis](https://forum.effectivealtruism.org/posts/7YDyziQxkWxbGmF3u/ai-safety-field-growth-analysis-2025) put the new total at 1,100 — and we think even this might be an undercount, since it only includes organisations that *explicitly* brand themselves as working on ‘AI safety.’
 
@@ -410,7 +410,7 @@ The solutions aren’t only technical. Governance — at the company, country, a
 - **International coordination**: we can foster global cooperation — for example, through treaties, international organisations, or multilateral agreements — to promote risk-mitigation and minimise racing.
 - **Pausing scaling — if possible and appropriate**: [some argue](https://80000hours.org/podcast/episodes/zvi-mowshowitz-sleeper-agents-ai-updates/#pause-ai-campaign-013016) that we should just pause all scaling of larger AI models — perhaps through industry-wide agreements or regulatory mandates — until we’re equipped to tackle these risks. However, it seems hard to know [if or when this would be a good idea](https://80000hours.org/podcast/episodes/carl-shulman-society-agi/#why-carl-doesnt-support-enforced-pauses-on-ai-research-020358).
 
-## What are the arguments against working on this problem?
+## What are the arguments against working on this problem? ^arguments-against
 
 As we said [above](#how-likely-is-an-existential-catastrophe-from-powe), we feel very uncertain about the likelihood of an existential catastrophe from power-seeking AI. Though we think the risks are significant enough to warrant much more attention, there are also arguments against working on the issue that are worth addressing.
 
