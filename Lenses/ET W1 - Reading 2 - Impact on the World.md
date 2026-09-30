@@ -75,7 +75,6 @@ collapse:: closed
 
 #### Text
 content::
-
 We tend to focus on issues that immediately affect us, or that we frequently hear about, a pattern called the **availability heuristic**. Some of the world's most pressing challenges stay hidden precisely because they affect people far away, other species, or future generations, or because they're slow-moving and complex. A few categories worth considering:
 
 1. **Human beings far away from you.** Take a problem you care about locally, then imagine the same problem occurring far away, affecting far more people. Does distance make it less important? Many of the world's biggest challenges are overlooked precisely because they're out of sight.
