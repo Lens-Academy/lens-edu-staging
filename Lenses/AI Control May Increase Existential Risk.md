@@ -9,9 +9,9 @@ title: AI Control May Increase Existential Risk
 # PROPOSED FIX:
 # tldr: A medium-sized AI disaster might be what finally gets the world to act. Jan Kulveit argues control research makes those warning shots rarer, leaving quiet near-misses nobody hears about, or a catastrophe too big to learn from.
 ---
-#### Text
+{--{"author":"Elua's AI","timestamp":1790790463136}@@#### Text
 content::
-%% ORIGINAL (commented out as AI slop; misrepresents the post):
+--}%% ORIGINAL (commented out as AI slop; misrepresents the post):
 This critique warns that control might be a "deadly distraction." If we think we can control a model, we might be tempted to build it sooner and make it more powerful. This creates a "false sense of security." If the control protocols have even a tiny flaw, a superintelligent model will find it and escape.
 More than that, control research is "dual-use." To learn how to control an AI, you first have to learn how a model might try to escape. This could accidentally teach us how to build more dangerous, "escape-ready" models.
 %%
