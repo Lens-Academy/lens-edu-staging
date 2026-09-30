@@ -279,7 +279,7 @@ var WFM = {
     var out = [];
     for (var i = 0; i < state.questions.length; i++) {
       var q = state.questions[i];
-      if (q.short && WFM.hasText(q)) out.push(q);
+      if (WFM.hasText(q)) out.push(q);
     }
     return out;
   },
@@ -368,7 +368,7 @@ var WFM = {
     if (!state.gut) return null;
     for (var i = 0; i < state.questions.length; i++) {
       var q = state.questions[i];
-      if (q.id === state.gut && q.short && WFM.hasText(q)) return q;
+      if (q.id === state.gut && WFM.hasText(q)) return q;
     }
     return null;
   },
@@ -737,7 +737,7 @@ var WFM = {
     return { done: c.ok, text: c.ok ? "Complete" : c.missing.length + " thing" + (c.missing.length === 1 ? "" : "s") + " left to finish" };
   }
   function openOnly(id) {
-    open = { brainstorm: false, factors: false, score: false, results: false };
+    open = { factors: false, score: false, results: false };
     if (id) open[id] = true;
   }
   function chooseOpen() {
@@ -820,7 +820,7 @@ var WFM = {
     ui.shortMsg = "";
     ui.openQ = {};
     if (ui.detail && ui.detail.slice(0, 2) === "q:") ui.detail = null;
-    openOnly("brainstorm");
+    openOnly("score");
     renderAll();
     focusById("load-example");
     persist();
