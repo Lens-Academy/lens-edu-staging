@@ -143,7 +143,7 @@ tags: [wip]
 <div id="root">
 <p class="eyebrow">Effective Thesis Accelerator, Week 3</p>
 <h1>Weighted Factor Model for A High-Impact Thesis</h1>
-<p class="lede">The four parts below are the tabs of Effective Thesis's spreadsheet: Brainstorm of research question, Info, WFM(Values) and WFM (Scores). Open one at a time; everything saves as you go.</p>
+<p class="lede">Three steps: choose and weight your factors, add and score your shortlisted questions, then see what rises to the top. Open one at a time; everything saves as you go.</p>
 <div id="warn" class="warn" role="status" hidden></div>
 <div id="app"></div>
 </div>
@@ -1093,7 +1093,7 @@ var WFM = {
           onchange: function () { renderAll(); } });
         var rm = h("button", { type: "button", className: "link", id: "q-" + idx + "-rm", text: "Remove", "aria-label": "Remove question " + (idx + 1),
           onclick: function () { state.questions.splice(idx, 1); if (state.gut === q.id) state.gut = ""; renderAll(); persist(); } });
-        body.appendChild(h("div", { className: "qrow" }, [
+        body.appendChild(h("div", { className: "qrow", style: "grid-template-columns: 2rem minmax(0, 1fr);" }, [
           h("span", { className: "n", text: String(idx + 1) }),
           h("div", null, [h("label", { className: "sr", "for": "q-" + idx + "-text", text: "Question " + (idx + 1) }), ta, rm])
         ]));
