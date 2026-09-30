@@ -138,6 +138,20 @@ options::
 required:: true
 
 #### Choice
+key:: ais_work_status
+content:: Which best describes your AI safety work right now? If several apply, pick *the highest* on the list.
+options::
+- Paid full-time job in AI safety
+- Paid full-time AI safety fellowship or funded research, 3 months or longer (e.g. MATS)
+- Paid part-time AI safety work (e.g. BlueDot facilitating), or a paid fellowship shorter than 3 months (e.g. ERA)
+- A selective unpaid programme (e.g. SPAR or ARENA)
+- Unpaid contributions (e.g. volunteering, advocacy or a local group)
+- Applying to AI safety roles or programmes
+- Exploring AI safety, not applying yet
+- Not pursuing AI safety work right now
+required:: true
+
+#### Choice
 key:: ai_safety_programs
 content:: Which courses, programs, or fellowships in AI safety have you done, or are doing? Pick all that apply.
 multi:: true
@@ -184,20 +198,6 @@ required:: true
 key:: ai_safety_programs_other
 content:: In 1–2 sentences, describe your current AI safety work, and add any details about the programs above.
 description:: For example: "Volunteering 5h/week for PauseAI; did BlueDot's AGI Strategy course (completed)" or "Applying to SPAR and MATS this month; did ARENA 7.0".
-
-#### Choice
-key:: ais_work_status
-content:: Which best describes your AI safety work right now? If several apply, pick *the highest* on the list.
-options::
-- Paid full-time job in AI safety
-- Paid full-time AI safety fellowship or funded research, 3 months or longer (e.g. MATS)
-- Paid part-time AI safety work (e.g. BlueDot facilitating), or a paid fellowship shorter than 3 months (e.g. ERA)
-- A selective unpaid programme (e.g. SPAR or ARENA)
-- Unpaid contributions (e.g. volunteering, advocacy or a local group)
-- Applying to AI safety roles or programmes
-- Exploring AI safety, not applying yet
-- Not pursuing AI safety work right now
-required:: true
 
 #### Rating
 key:: transition_intention
