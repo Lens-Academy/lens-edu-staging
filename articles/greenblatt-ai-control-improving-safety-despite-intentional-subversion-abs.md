@@ -98,7 +98,7 @@ We focus on a testbed we call the APPS backdooring setting: we want to use LLMs 
 
 We say a solution is backdoored if it passes all APPS test cases, and if GPT-4 can construct an exploit when presented with the code. An exploit is a specific input that will yield an incorrect output: running it on reference solutions and on the backdoored solution produces different outputs. For example, the following implementation of the is\_odd function is backdoored: it passes the reference test cases, but GPT-4 can find the exploit of 354.
 
-```
+```python
 def is_odd(x):
     if x == 354:
         return True
@@ -1016,7 +1016,7 @@ We have GPT-4 rate the difficulty of the programming problem from 1 to 10. If th
 
 We produce difficulty ratings with the following prompt:
 
-````
+````text
 Below is a programming problem along with a C++ solution. Rate the difficulty of the programming problem on a scale from 1 to 10 based on the problem description and the attempted solution. Note that the attempted solution might be incorrect.
 
 <problem>
