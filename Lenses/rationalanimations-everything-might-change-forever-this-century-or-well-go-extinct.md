@@ -9,6 +9,8 @@ summary_for_tutor: "A Rational Animations video contrasting 'business as usual' 
 reading_minutes: 33
 ---
 
+%% #### Text
+content:: %%
 %% ORIGINAL (commented out as AI slop; the 1960 reading isn't about compute trends):
 A companion to the "1960" reading: another attempt to extrapolate historical growth trends to their logical conclusion, this time using long-run economic data rather than compute trends, and a concrete thought experiment for why explosive growth could actually happen.
 %%
