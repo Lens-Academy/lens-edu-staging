@@ -66,13 +66,24 @@ What is your ultimate vision of a better world?
 content::
 \### Diagram of ToC
 
-Next, you can take your written version and put it into a diagram. Start with your outputs → which stakeholders will integrate them → what changes happen → what larger impact results. Note: Feel free to add many more outputs and outcomes boxes as needed!
+Next, you can take your written version and put it into a diagram. Start with your outputs → which stakeholders will integrate them → what changes happen → what larger impact results. Feel free to add as many outputs and outcomes boxes as you need!
 
+#### Callout: 💡 See an example ToC diagram (click to open)
+tone:: neutral
+collapse:: closed
+
+#### Text
+content::
 ![Diagram of ToC](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w5-worksheet-toc-diagram.png)
+
+#### End Callout
+
+#### Widget
+source:: [[../widgets/et-w5-toc-builder]]
 
 #### Question: Open
 id:: e0b81df0-06cb-47fc-8083-03073a76ba3b
-content:: Diagram of ToC
+content:: *Optional:* Prefer to draw your diagram in another tool (e.g. Miro, Canva, Google Drawings)? Paste the link here instead (make sure it's set to view or comment only!)
 placeholder:: https://…
 optional:: true
 
