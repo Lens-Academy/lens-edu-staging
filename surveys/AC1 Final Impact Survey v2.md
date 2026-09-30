@@ -235,6 +235,13 @@ options::
 - OpenAI Fellows Program
 - Other programme, or a job (name it in your steps above)
 
+#### Question: Choice
+id:: b21d838c-5717-456d-a7c5-1235f713cd99
+content:: Which programmes are you applying to in the next 3 months? Pick all that apply.
+optional:: true
+multi:: true
+options::
+
 #### Question: Open
 id:: ab9103b3-cbe1-4397-b82a-9b1912fdeb4e
 content:: Would you like to leave a short note for people considering this course or Lens? We may share it on our website.
