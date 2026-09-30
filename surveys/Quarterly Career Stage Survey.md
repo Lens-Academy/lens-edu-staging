@@ -27,9 +27,6 @@ content:: What is it, specifically? Name the role or programme, the organisation
 description:: For example: "Research fellow at LASR Labs since January 2027" or "Volunteering for PauseAI; applying to SPAR and MATS".
 max-chars:: 400
 
-#### Text
-content:: **If you're in paid AI safety work or a fellowship** (one of the first three options above), please also answer these three. Otherwise you're done. Thank you!
-
 #### Question: Open
 id:: c3be7321-e1db-40ea-b827-e5a447f9fb73
 content:: Looking back, what were the 3–4 things (people, programmes, resources, events) that most helped you get here?
@@ -58,4 +55,4 @@ options::
 - By less than a month
 - By 1–3 months
 - By 4–6 months
-- By more than 6 months, or I wouldn't have got it without Lens
+- By more than 6 months, or I wouldn't be here without Lens
