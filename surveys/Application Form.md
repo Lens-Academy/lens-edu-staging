@@ -162,7 +162,7 @@ options::
 - AI Safety Collab (ENAIS)
 - BlueDot Courses
 - BlueDot Rapid Grant
-- BlueDot Career Trans
+- BlueDot Career Transition Grant
 - Center for AI Safety course
 - AI Safety Camp
 - ML4Good
