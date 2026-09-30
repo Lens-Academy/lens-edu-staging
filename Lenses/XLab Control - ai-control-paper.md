@@ -68,8 +68,8 @@ tone:: blue
 
 #### Question: Open
 id:: 7b2c9ae6-5631-4f10-8357-4751216a175e
-content:: What two conditions make a solution "backdoored"?
-assessment-instructions:: Score out of 100. 50: it passes all the test cases, so testing does not catch it. 50: it can be exploited, 25 each: there is a specific input on which it gives a different (wrong) output than a correct solution, and the untrusted model (GPT-4) is able to find that input. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer says a backdoored solution fails the tests, the opposite of the definition. Model answer, for the feedback, not a grading checklist: "It passes all the test cases, and the untrusted model (GPT-4 here) can construct an exploit for it, which in this case would be a specific input on which the solution produces a different output than a correct solution would."
+content:: What makes a solution "backdoored"?
+assessment-instructions:: Score out of 100. 50: it passes all the test cases, so testing does not reveal anything wrong. 50: there is nevertheless a specific input (a trigger) on which it gives a wrong output, different from what a correct solution gives. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer says a backdoored solution fails the tests. Model answer, for the feedback, not a grading checklist: "A solution that passes all the test cases but gives a wrong output on some specific input, the exploit. The paper adds a second requirement for its experiments: GPT-4 must be able to construct that exploit when shown the code, because a flaw the attacker cannot trigger is no threat, and it lets trusted labour confirm a backdoor by building the exploit itself."
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
