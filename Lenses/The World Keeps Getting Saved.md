@@ -6,9 +6,7 @@ tutor_minutes: 8
 summary_for_tutor: "A short LessWrong post by Bogoed arguing that successful prevention is invisible, so people mistake averted disasters for exaggerated ones. Examples: Y2K, fixed through many lifetimes of work, and the ozone hole, which faded from the news because it is being solved (as Hank Green put it). Applies this to AI: some people conclude alignment is overblown because chatbots care about users and refuse bomb recipes, instead of seeing that as a result of effort. Takeaways: concern is not foolish just because the worst didn't happen; acknowledge people doing safety work; and if you do such work, say what the risk was and what you did, or support for it may dry up."
 title: The World Keeps Getting Saved
 ---
-{--{"author":"Elua's AI","timestamp":1790790564789}@@#### Text
-content::
---}%% #### Text
+%% #### Text
 content:: %%
 %% ORIGINAL (commented out as AI slop; says the same thing four times):
 If the consequences are this large and this unpredictable, then what can any one person actually do? This text reminds us of something important: catastrophes are often prevented in ways that remain invisible to most people.

@@ -9,9 +9,7 @@ title: "AI Alignment: Why It's Hard, and Where to Start"
 # PROPOSED FIX:
 # tldr: Nobody reached the Moon by pointing a rocket at it and hoping. Yudkowsky argues alignment is where rocketry was before the theory existed, and explains why intuition about goals won't get us there.
 ---
-{--{"author":"Elua's AI","timestamp":1790790492818}@@#### Text
-content::
---}%% #### Text
+%% #### Text
 content:: %%
 %% ORIGINAL (commented out as AI slop):
 The problem of AI alignment requires a rigorous theoretical foundation. To successfully guide a missile, humanity first had to develop differential calculus, which allowed it to describe the laws of gravity and the motion of bodies. Without this mathematical apparatus, the launch of a powerful missile would result in a series of catastrophic explosions. Like rocket science, AI safety is a high-level engineering challenge. This video explains: an intuitive understanding of goals is insufficient for controlling superhuman systems. We need formal laws describing the behavior of powerful optimizers. Only with a reliable "mathematics of alignment" will we be able to guarantee the stability of an AI's trajectory.

@@ -6,9 +6,7 @@ summary_for_tutor: "Excerpts from Peter Barnett and Lisa Thiergart's paper, whic
 title: What AI evaluations for preventing catastrophic risks can and cannot do
 # tldr: Evaluations can tell us the floor of what an AI is capable of — but not the ceiling. This paper examines what safety testing can and can't deliver — useful lower bounds on capabilities, yes, but reliable forecasts of future behavior or detection of hidden goals? Not yet.
 ---
-{--{"author":"Elua's AI","timestamp":1790790557381}@@#### Text
-content::
---}%% #### Text
+%% #### Text
 content:: %%
 %% ORIGINAL (commented out as AI slop):
 The reliance on evals might create a "compliance culture" rather than a "safety culture." Labs may optimize their models specifically to pass safety tests while ignoring the deeper: more complex alignment issues. If "passing the eval" becomes the goal: the test itself becomes a target for the AI to manipulate.

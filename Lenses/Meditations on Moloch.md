@@ -6,12 +6,10 @@ summary_for_tutor: "Scott Alexander uses Ginsberg's 'Moloch' as a name for multi
 title: Meditations on Moloch
 # tldr: Even if every AI researcher wants a safe outcome, competitive pressure can push everyone toward outcomes nobody wants. This essay explores "Moloch" — a name for the traps and perverse incentives that drive groups to collectively destroy what they individually value.
 ---
-{--{"author":"Elua's AI","timestamp":1790791093290}@@#### Text
-content::
---}{++{"author":"Elua's AI","timestamp":1790791093290}@@%% #### Text
+%% #### Text
 content:: %%
 %% COMMENTED OUT (AI slop):
-++}The failure of alignment is not always a result of technical incompetence: often, it is a consequence of coordination failure. This essay explores the concept of "Moloch," a personification of multipolar traps and perverse incentives that drive agents toward outcomes no one desires. In the context of AI, Moloch represents the competitive pressure that forces companies and nations to accelerate development while cutting corners on safety. Even if every individual researcher wants a safe outcome, the system as a whole can be optimised for destruction. This material examines why technical safety alone is insufficient if we cannot solve the game-theoretic forces that govern our world.{--{"author":"Plex's AI","timestamp":1790617831143}@@ --}{++{"author":"Plex's AI","timestamp":1790617831143}@@ 
+The failure of alignment is not always a result of technical incompetence: often, it is a consequence of coordination failure. This essay explores the concept of "Moloch," a personification of multipolar traps and perverse incentives that drive agents toward outcomes no one desires. In the context of AI, Moloch represents the competitive pressure that forces companies and nations to accelerate development while cutting corners on safety. Even if every individual researcher wants a safe outcome, the system as a whole can be optimised for destruction. This material examines why technical safety alone is insufficient if we cannot solve the game-theoretic forces that govern our world.{--{"author":"Plex's AI","timestamp":1790617831143}@@ --}{++{"author":"Plex's AI","timestamp":1790617831143}@@ 
 %%++}
 
 #### Article

@@ -6,9 +6,7 @@ tutor_minutes: 10
 summary_for_tutor: "Scott Alexander on hyperbolic growth in human history. Von Foerster's equation fit world population near-perfectly from the Stone Age to 1960 and reached infinite population around 2026 (the exact date, Friday November 13, was mostly a joke). The trend broke around 1960 with the demographic transition. Alexander's explanation: growth was hyperbolic because more money meant more food, more people and so more researchers, and that loop stopped once money no longer reliably turned into researchers. He argues AI could restore it (money buys more AIs, which do more research), so hyperbolic growth could return even if AI is not much smarter than humans. The lens question asks whether the learner agrees."
 title: "1960, The Year The Singularity Was Cancelled"
 ---
-{--{"author":"Elua's AI","timestamp":1790790454135}@@#### Text
-content::
---}%% #### Text
+%% #### Text
 content:: %%
 %% ORIGINAL (commented out as AI slop; opens the module three times):
 There is no consensus in the field regarding exactly when AGI will emerge or which specific changes compared to today's systems will prove decisive. No one knows it. However, this does not mean that we cannot think about the future systematically.
