@@ -646,4 +646,4 @@ It came up shortly after this project closed, and section 7's checklist was run 
 
 - **`Navigator Session 1 Debrief` still collects `risk_seriousness` and `agency_belief`**, which the course file says were deliberately shared with the learner instrument so the two trajectories would be comparable in one export. The learner side no longer collects them, so that comparison has no other half.
 - **The v2 survey set dropped the legacy `key::` fields and the two-timepoint join.** Replaced by a retrospective before-and-after pair inside the final survey. None of it touches the restructure.
-- **Six non-IABIED modules still use `##` for their imports**, about 110 lines. Left alone deliberately; the normalisation was course-local.
+- **Six non-IABIED modules still use `##` for their imports**, about 110 lines. Left alone deliberately; the normalization was course-local.
