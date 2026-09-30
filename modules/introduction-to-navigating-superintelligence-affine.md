@@ -4,7 +4,7 @@ slug: introduction-to-navigating-superintelligence-affine
 title: Introduction to Navigating Superintelligence
 discussion: https://discord.com/channels/1440725236843806762/1465349126073094469
 ---
-%% AFFINE fork of [[introduction-to-navigating-superintelligence]], made 2026-09-30. Only difference: this module uses [[../Lenses/Loss of control]] (the current 80k text) instead of [[../Lenses/Risks from power-seeking AI]] (the July 2025 snapshot). Keep the rest in sync with the original by hand. %%
+%% AFFINE fork of [[introduction-to-navigating-superintelligence]], made 2026-09-30. Only difference: this module uses [[../Lenses/Loss of control]] instead of [[../Lenses/Risks from power-seeking AI]]. Since 2026-09-30 both lenses embed the same article, so the fork only changes the lens title; consider merging back. Keep the rest in sync with the original by hand. %%
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Objections and Rebuttals]]
