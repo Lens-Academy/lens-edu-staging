@@ -109,6 +109,17 @@ source:: ![[../Lenses/johnswentworth-why-agent-foundations-an-overly-abstract-ex
 ## Lens:
 source:: [[../Lenses/Realism about rationality]]
 
+# Submodule: Shut it all down
+
+## Lens:
+source:: [[../Lenses/Shut It All Down - Yudkowsky TED Talk]]
+
+## Lens:
+source:: [[../Lenses/Shut It All Down - Statement on Superintelligence]]
+
+## Lens:
+source:: [[../Lenses/Shut It All Down - Pause For Thought]]
+
 
 
 
