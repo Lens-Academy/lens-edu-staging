@@ -161,6 +161,7 @@ options::
 - University course or local AI safety group
 - AI Safety Collab (ENAIS)
 - BlueDot Courses
+- BlueDot Grant 
 - Center for AI Safety course
 - AI Safety Camp
 - ML4Good
