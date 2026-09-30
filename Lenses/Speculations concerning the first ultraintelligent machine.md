@@ -18,7 +18,7 @@ to:: "how to keep it under control."
 #### Chat
 instructions::
 TLDR of what the user just read:
-An article by I.J. Good speculating about the cognitive infrastructure of a thinking machine more capable than any human. He importantly claims that he will only speculate about the first agent of this kind since the second will be built by the first according to design considerations humans cannot yet fathom. Good claims that this might happen by way of the AI building a wholly different successor or by self-modifying until it becomes unrecognisable.
+A short passage from I.J. Good's paper on the first ultraintelligent machine. Good defines an ultraintelligent machine as one that can far surpass all the intellectual activities of any human. Since designing machines is one of those activities, it could design even better machines, leading to an "intelligence explosion" that leaves human intelligence far behind. So the first ultraintelligent machine is the last invention humans need to make, provided it is docile enough to tell us how to keep it under control.
 
 topics to explore:
 - We are a shape of intelligence grown by evolution and AI is a shape of intelligence grown by us. Will an intelligence grown or built by a hyper-intelligent AI be another such paradigm change? 

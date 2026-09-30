@@ -17,7 +17,7 @@ from:: "* A **(technological) singularity**"
 to:: "that results in hyperbolic growth."
 
 #### Article
-from:: "* **FOOM**"
+from:: "* **"FOOM"**"
 
 #### Text
 content::
