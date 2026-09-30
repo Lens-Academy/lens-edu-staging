@@ -248,6 +248,7 @@ options::
 - BlueDot Career Transition Grant
 - Lens Academy Course
 - Lens Academy Project
+- Lens Academy 
 - AI Safety Camp
 - ML4Good
 - Global Challenges Project
