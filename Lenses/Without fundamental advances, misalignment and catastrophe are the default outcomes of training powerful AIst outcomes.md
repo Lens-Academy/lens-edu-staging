@@ -19,7 +19,9 @@ to:: "research task every 8 minutes."
 
 {--{"author":"Elua's AI","timestamp":1790790577400}@@#### Text
 content::
---}%% ORIGINAL (commented out as AI slop; "security theory" is wrong):
+--}%% #### Text
+content:: %%
+%% ORIGINAL (commented out as AI slop; "security theory" is wrong):
 The author argues that we are in a situation where the "blueprints" of our AI fundamentally prevent us from predicting its behavior at a superhuman level. If so, what specific "fundamental advances" in security theory could convince you that the system can be safely deployed? Or do you believe we can get by without complete theoretical clarity?
 %%
 

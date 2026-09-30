@@ -8,7 +8,9 @@ title: The World Keeps Getting Saved
 ---
 {--{"author":"Elua's AI","timestamp":1790790564789}@@#### Text
 content::
---}%% ORIGINAL (commented out as AI slop; says the same thing four times):
+--}%% #### Text
+content:: %%
+%% ORIGINAL (commented out as AI slop; says the same thing four times):
 If the consequences are this large and this unpredictable, then what can any one person actually do? This text reminds us of something important: catastrophes are often prevented in ways that remain invisible to most people.
 
 It warns against two common mistakes. First: if the catastrophe did not happen, then the threat was never real. Second: if the problem was solved, then it must have been exaggerated.
