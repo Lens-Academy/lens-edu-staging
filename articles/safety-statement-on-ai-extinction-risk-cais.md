@@ -3,7 +3,7 @@ title: "Statement on AI Extinction Risk | CAIS"
 author:
   - "Center for AI Safety"
 source_url: "https://aistatement.com/work/statement-on-ai-extinction-risk"
-published: 2026-09-30
+published: {--{"author":"Elua's AI","timestamp":1790775894101}@@2026-09-30--}{++{"author":"Elua's AI","timestamp":1790775894101}@@2023-05-30++}
 created: 2026-09-30
 accessed: 2026-09-30
 llm-review:

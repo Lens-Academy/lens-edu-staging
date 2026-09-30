@@ -17,6 +17,15 @@ reading_minutes:: 2
 content::
 Artificial intelligence is upending many aspects of civilisation at once, and experts warn of extinction-level risks. What's going on, and where are we headed? This course will help you understand the core dynamics at play, and prepare you to act.
 
+#### Text
+content::
+In May 2023, leading AI scientists and the heads of major AI companies put their names to a single sentence:
+
+#### Article
+source:: [[../articles/safety-statement-on-ai-extinction-risk-cais]]
+from:: AI experts, journalists, policymakers
+to:: such as pandemics and nuclear war.
+
 # Lens:
 source:: [[../Lenses/The AI Book That's Freaking Out National Security Advisors]]
 
