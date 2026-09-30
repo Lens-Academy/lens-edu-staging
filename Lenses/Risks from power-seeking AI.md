@@ -13,7 +13,7 @@ The 80,000 Hours case for why reducing risks from power-seeking AI is one of the
 %%
 
 #### Article
-source:: [[../articles/fenwick-loss-of-control]]
+source:: [[../articles/80k-risks-from-power-seeking-ai-systems]]
 
 
 #### Chat
