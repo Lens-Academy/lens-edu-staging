@@ -26,9 +26,9 @@ to:: So in this terminology, establishing a rogue deployment is the central exam
 
 #### Question: Open
 id:: 4c12979f-d9d0-4733-9770-3d0e0b15be94
-content:: In the rogue-deployments framing, what does "catastrophe" mean?
+content:: What does "catastrophe" mean?
 max-chars:: 400
-assessment-instructions:: The learner has just read the opening section of Buck Shlegeris's "AI catastrophes and rogue deployments" and is recalling a definition from memory. Full credit for: a failure you do not want to happen even once, the end result that is unacceptable, with the post's examples or equivalents (an adversary amassing power, launching nukes, starting a war, building superintelligence). Partial credit if they give the shape of the definition but no examples. Mark down an answer that includes the AI escaping the datacenter as the catastrophe itself: Shlegeris explicitly excludes that here and treats it as the instrumental step. Grade only against criteria this page or the reading supplied.
+assessment-instructions:: Score out of 100. 70: a catastrophe is a failure so bad that you do not want it to happen even once, an outcome to avoid at all costs. 30: at least one example of such an outcome or an equivalent, such as the AI or another adversary amassing power, launching nukes, starting a war, or building superintelligence. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "A failure you'd want to avoid at all costs (think launching nukes or starting a war). The post narrows the word for its argument: it reserves the word for the end result, such as the AI or another adversary amassing power, and excludes steps like the AI escaping the datacenter, because it wants to treat that escape (a rogue deployment) as a separate step that makes a catastrophe likely."
 feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. Do not mention scores. No follow-up question. No generic praise.
 
 #### Question: Open
