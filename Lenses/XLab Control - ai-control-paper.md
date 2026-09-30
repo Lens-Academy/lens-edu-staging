@@ -51,7 +51,7 @@ feedback-instructions:: One turn, at most three sentences: say plainly what the 
 
 #### Article
 from:: ## 2 Setting
-to:: assert not is\_odd(8)
+to:: assert not is_odd(8)
 
 #### Text
 content::
