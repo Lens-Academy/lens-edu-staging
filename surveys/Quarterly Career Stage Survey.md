@@ -24,7 +24,7 @@ options::
 #### Question: Open
 id:: c3be7321-e1db-40ea-b827-e5a447f9fb73
 content:: Looking back, what were the 3–4 things (people, programmes, resources, events) that most helped you get to where you are now in AI safety?
-description:: Consider *everything* that helped, from any organisation, programme or person in AI safety or beyond. We want the full picture, not only the parts we were involved in.
+description:: Consider *everything* that helped, from any organisation, programme or person in AI safety. We want the full picture, not only the parts we were involved in.
 optional:: true
 max-chars:: 1500
 
