@@ -27,7 +27,7 @@ id:: 64926705-29a1-4e7a-8688-7fdab135fc81
 content:: Plan A: how much political will is there, and what does it buy?
 placeholder:: One or two sentences, from memory.
 assessment-instructions:: Score out of 100. 40: how much will: the most of the four plans, enough for a strong international agreement. 60: what it buys, 35: a long, coordinated slowdown with race dynamics mostly gone (roughly ten years), and 25: massive investment in security and safety work. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Plan A contains the most will of the four. There's enough for a strong international agreement that mostly eliminates race dynamics and allows slowing down for some reasonably long period (e.g. ~10 years), alongside massive investment in security and safety work."
-feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. Do not mention scores. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Article
 from:: "## Plan B"
@@ -38,7 +38,7 @@ id:: 9260a693-38e8-41ca-86d8-2e2134592e7b
 content:: Plan B: how much political will is there, and what does it buy?
 placeholder:: One or two sentences, from memory.
 assessment-instructions:: Score out of 100. 40: how much will, 20: some, but no international agreement, and 20: it sits with the US government, which treats buying lead time for US AI companies as one of its top national security priorities, not necessarily out of concern about misalignment. 60: what it buys: a short stretch of lead time, one to three years, that can be spent on mitigating misalignment risk. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "There is some will present; The US government treats buying lead time for US AI companies as among its top few national security priorities (not necessarily out of misalignment concern), and 1–3 years can be spent on mitigating misalignment risk."
-feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. Do not mention scores. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Article
 from:: "## Plan C"
@@ -49,7 +49,7 @@ id:: bc8cb2cc-6678-4e83-9599-b309ff443bcb
 content:: Plan C: how much political will is there, and what does it buy?
 placeholder:: One or two sentences, from memory.
 assessment-instructions:: Score out of 100. 40: how much will, 20: little, with no serious government involvement, and 20: what will there is lives inside the leading AI company. 60: what it buys, 30: that company's lead over less careful competitors, only a few months (2 to 9), and 30: it is willing and functional enough to spend much of that lead on misalignment. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "There is little political will, with no serious government involvement. Most of the will lives inside the leading AI company, which holds a 2–9 month lead and is willing and institutionally functional enough to spend much of that lead on misalignment concerns."
-feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. Do not mention scores. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Article
 from:: "## Plan D"
@@ -60,7 +60,7 @@ id:: fcfaab57-f538-4f3b-9991-98cb9a21a3b3
 content:: Plan D: how much political will is there, and what does it buy?
 placeholder:: One or two sentences, from memory.
 assessment-instructions:: Score out of 100. 40: how much will, 20: the least of the four: the leading company does not take misalignment seriously in practice and nothing outside slows takeoff, and 20: only a small group inside the company (10 to 30 people) takes the risks seriously. 60: what it buys: enough buy-in for that group to get a small share of the company's compute (about 3%) for work well targeted at misalignment risk. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Plan D contains the least: the leading AI company doesn't take misalignment concerns very seriously and takeoff won't be exogenously slowed, but 10–30 people at the company take the risks seriously and have enough buy-in to get ~3% of compute for work well-targeted at misalignment risks."
-feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. Do not mention scores. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Article
 from:: "## Plan E"
