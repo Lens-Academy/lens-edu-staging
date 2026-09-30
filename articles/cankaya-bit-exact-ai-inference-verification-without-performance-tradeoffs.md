@@ -121,7 +121,7 @@ We emulate the tensor core’s block FMA operation and the PTX-instructed MMA (s
 
 ### 4.2 Special Function Units ^42-special-function-units
 
-NVIDIA GPUs accelerate transcendental functions via Multi-Function Units (MUFU). Instructions like MUFU.RSQ (reciprocal square root), MUFU.EX2 (exponential with base 2), and MUFU.RCP (reciprocal) rely on architecture-specific silicon lookup tables. We found their outputs are deterministic but deviate from IEEE-correct(IEEE, [2019](#bib.bib47 "IEEE Standard for Floating-Point Arithmetic")) rounding by up to $\pm 2$ ULP. By exhaustively probing these instructions via inline PTX, we cached their exact hardware outputs (e.g. a 4GB table mapping every 32-bit input for MUFU.EX2), ensuring bit-exact SFU emulation without needing GPU access at verification time.
+NVIDIA GPUs accelerate transcendental functions via Multi-Function Units (MUFU). Instructions like MUFU.RSQ (reciprocal square root), MUFU.EX2 (exponential with base 2), and MUFU.RCP (reciprocal) rely on architecture-specific silicon lookup tables. We found their outputs are deterministic but deviate from IEEE-correct (IEEE, [2019](#bib.bib47 "IEEE Standard for Floating-Point Arithmetic")) rounding by up to $\pm 2$ ULP. By exhaustively probing these instructions via inline PTX, we cached their exact hardware outputs (e.g. a 4GB table mapping every 32-bit input for MUFU.EX2), ensuring bit-exact SFU emulation without needing GPU access at verification time.
 
 ### 4.3 Software Reduction, Kernel and RoPE Emulation ^43-software-reduction-kernel-and-rope-emulation
 

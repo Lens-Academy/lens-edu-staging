@@ -240,7 +240,7 @@ The benefits of following these best practices (including identifying and aggreg
 
 [^cite-kokotajlo-gjp-6]: This is from [Mellers *et al* 2015](https://www.apa.org/pubs/journals/releases/xap-0000040.pdf).
 
-[^cite-kokotajlo-gjp-7]: On the [webpage](https://goodjudgment.com/science.html), it says forecasters with better track-records and those who update more frequently get weighted more. In [these slides, ](https://www.edge.org/conversation/philip_tetlock-edge-master-class-2015-a-short-course-in-superforecasting-class-ii)Tetlock describes the elitism differently: He says it gives weight to higher-IQ, more open-minded forecasters.
+[^cite-kokotajlo-gjp-7]: On the [webpage](https://goodjudgment.com/science.html), it says forecasters with better track-records and those who update more frequently get weighted more. In [these slides](https://www.edge.org/conversation/philip_tetlock-edge-master-class-2015-a-short-course-in-superforecasting-class-ii), Tetlock describes the elitism differently: He says it gives weight to higher-IQ, more open-minded forecasters.
 
 [^cite-kokotajlo-gjp-8]: The academic papers on this topic are [Satopaa et al 2013](https://www.sciencedirect.com/science/article/pii/S0169207013001635) and [Baron et al 2014](http://pubsonline.informs.org/doi/abs/10.1287/deca.2014.0293).
 
