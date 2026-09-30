@@ -178,7 +178,21 @@ content:: What are 3–5 concrete steps you'll take toward AI safety work in the
 description:: For each step, say what exactly you'll do and by when. For example: "Submit my MATS Summer 2027 application by 15 January", "Apply to 3 AI policy roles by the end of November", "Finish my interpretability project and post it on LessWrong by 20 December", "Start the Lens AI Control course in November". If nothing is concrete yet, write what you're considering and when you'll decide.
 max-chars:: 1000
 
-
+#### Question: Choice
+id:: 7e2dd5ee-0026-4aa0-84f0-70b854b3d79f
+content:: Which kinds of steps are you taking in the next 1–3 months? Pick all that apply.
+multi:: true
+options::
+- Starting a role or programme I've already been accepted to
+- Applying to paid full-time AI safety jobs
+- Applying to paid fellowships or funded research, 3 months or longer (e.g. MATS, LASR, Pivotal)
+- Applying for grants to do AI safety work
+- Applying to paid part-time work or shorter paid fellowships (e.g. ERA, facilitating)
+- Applying to selective unpaid programmes (e.g. SPAR, ARENA, AI Safety Camp)
+- Starting or continuing a project, volunteering or advocacy
+- Taking another course (Lens or elsewhere)
+- Talking to people in the field about my next step
+- Nothing concrete yet
 
 #### Question: Open
 id:: ab9103b3-cbe1-4397-b82a-9b1912fdeb4e
