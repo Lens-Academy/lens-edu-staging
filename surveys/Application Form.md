@@ -139,7 +139,7 @@ required:: true
 
 #### Choice
 key:: ais_work_status
-content:: Which best describes your AI safety work right now? If several apply, pick *the highest* on the list.
+content:: Which best describes your AI safety stage right now? If several apply, pick *the highest* on the list.
 options::
 - Paid full-time job in AI safety
 - Paid full-time AI safety fellowship or funded research, 3 months or longer (e.g. MATS)
