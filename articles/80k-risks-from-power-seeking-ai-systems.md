@@ -53,11 +53,11 @@ But what led us to this conclusion? Could AI really cause human extinction? We�
 
 To explain why, we break the argument down into five core claims:[^note-80k-2]
 
-1. [Humans will likely build advanced AI systems with long-term goals](#1-humans-will-likely-build-advanced-ai-systems-wit).
-2. [AIs with long-term goals may be inclined to seek power and aim to disempower humanity](#2-ais-with-long-term-goals-may-be-inclined-to-seek).
-3. [These power-seeking AI systems could successfully disempower humanity and cause an existential catastrophe](#3-these-power-seeking-ai-systems-could-successfull).
-4. [People might create power-seeking AI systems without enough safeguards, despite the risks](#4-people-might-create-power-seeking-ai-systems-wit).
-5. [Work on this problem is tractable and neglected](#5-work-on-this-problem-is-neglected-and-tractable).
+1. {--{"author":"Elua's AI","timestamp":1790781643592}@@[Humans--}{++{"author":"Elua's AI","timestamp":1790781643592}@@[[#^build-long-term-goals|Humans++} will likely build advanced AI systems with long-term {--{"author":"Elua's AI","timestamp":1790781643592}@@goals](#1-humans-will-likely-build-advanced-ai-systems-wit).--}{++{"author":"Elua's AI","timestamp":1790781643592}@@goals]].++}
+2. {--{"author":"Elua's AI","timestamp":1790781643592}@@[AIs--}{++{"author":"Elua's AI","timestamp":1790781643592}@@[[#^inclined-seek-power|AIs++} with long-term goals may be inclined to seek power and aim to disempower {--{"author":"Elua's AI","timestamp":1790781643592}@@humanity](#2-ais-with-long-term-goals-may-be-inclined-to-seek).--}{++{"author":"Elua's AI","timestamp":1790781643592}@@humanity]].++}
+3. {--{"author":"Elua's AI","timestamp":1790781643592}@@[These--}{++{"author":"Elua's AI","timestamp":1790781643592}@@[[#^could-disempower|These++} power-seeking AI systems could successfully disempower humanity and cause an existential {--{"author":"Elua's AI","timestamp":1790781643592}@@catastrophe](#3-these-power-seeking-ai-systems-could-successfull).--}{++{"author":"Elua's AI","timestamp":1790781643592}@@catastrophe]].++}
+4. {--{"author":"Elua's AI","timestamp":1790781643592}@@[People--}{++{"author":"Elua's AI","timestamp":1790781643592}@@[[#^without-safeguards|People++} might create power-seeking AI systems without enough safeguards, despite the {--{"author":"Elua's AI","timestamp":1790781643592}@@risks](#4-people-might-create-power-seeking-ai-systems-wit).--}{++{"author":"Elua's AI","timestamp":1790781643592}@@risks]].++}
+5. {--{"author":"Elua's AI","timestamp":1790781643592}@@[Work--}{++{"author":"Elua's AI","timestamp":1790781643592}@@[[#^neglected-tractable|Work++} on this problem is tractable and {--{"author":"Elua's AI","timestamp":1790781643592}@@neglected](#5-work-on-this-problem-is-neglected-and-tractable).--}{++{"author":"Elua's AI","timestamp":1790781643592}@@neglected]].++}
 
 After making the argument that the existential risk from power-seeking AI is a pressing world problem, we’ll discuss objections to this argument, and how you can work on it. (There are also other major risks from AI we discuss [elsewhere](https://80000hours.org/problem-profiles/).)
 
@@ -103,7 +103,7 @@ In this sense, AI systems will have long-term *goals*. They will model outcomes,
 
 And **third**, their advanced capabilities will mean they can do so much more than current systems. Software engineering is one domain where existing AI systems are quite capable, but AI companies have said they want to build AI systems that can outperform humans at most cognitive tasks.[^note-80k-6] This means systems that can do much of the work of teachers, therapists, journalists, managers, scientists, engineers, CEOs, and more.
 
-The economic incentives for building these advanced AI systems are enormous, because they could potentially replace much of human labour and supercharge innovation. Some might think that such advanced systems are impossible to build, but as we discuss [below](#what-are-the-arguments-against-working-on-this-pro), we see no reason to be confident in that claim.
+The economic incentives for building these advanced AI systems are enormous, because they could potentially replace much of human labour and supercharge innovation. Some might think that such advanced systems are impossible to build, but as we discuss {--{"author":"Elua's AI","timestamp":1790781645610}@@[below](#what-are-the-arguments-against-working-on-this-pro)--}{++{"author":"Elua's AI","timestamp":1790781645610}@@[[#^arguments-against|below]]++}, we see no reason to be confident in that claim.
 
 And as long as such technology looks feasible, we should expect some companies will try to build it — and perhaps quite soon.[^note-80k-7]
 
@@ -412,7 +412,7 @@ The solutions aren’t only technical. Governance — at the company, country, a
 
 ## What are the arguments against working on this problem? ^arguments-against
 
-As we said [above](#how-likely-is-an-existential-catastrophe-from-powe), we feel very uncertain about the likelihood of an existential catastrophe from power-seeking AI. Though we think the risks are significant enough to warrant much more attention, there are also arguments against working on the issue that are worth addressing.
+As we said {--{"author":"Elua's AI","timestamp":1790781647714}@@[above](#how-likely-is-an-existential-catastrophe-from-powe)--}{++{"author":"Elua's AI","timestamp":1790781647714}@@[[#^how-likely|above]]++}, we feel very uncertain about the likelihood of an existential catastrophe from power-seeking AI. Though we think the risks are significant enough to warrant much more attention, there are also arguments against working on the issue that are worth addressing.
 
 ### Maybe advanced AI systems won't pursue their own goals; they'll just be tools controlled by humans.
 
