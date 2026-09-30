@@ -241,6 +241,38 @@ content:: Which programmes are you applying to in the next 3 months? Pick all th
 optional:: true
 multi:: true
 options::
+- BlueDot Course
+- Lens Academy Course
+- Lens Academy Project
+- AI Safety Camp
+- ML4Good
+- Global Challenges Project
+- ARENA
+- Pathfinder
+- SPAR
+- ERA Fellowship
+- Cooperative AI Foundation
+- BASE (Black in AI Safety and Ethics)
+- Sentient Futures
+- CAIDP (Center for AI and Digital Policy)
+- TARA
+- Vista Institute for AI Policy
+- Generator Residency
+- Iliad (Fellowship or Intensive)
+- Apart Research
+- Heron AI Security Fellowship
+- Horizon Fellowship
+- Talos Fellowship
+- IAPS AI Policy Fellowship
+- Pivotal Research Fellowship
+- PIBBSS Fellowship
+- LASR Labs
+- GovAI
+- MATS
+- Constellation (Astra or other fellowship)
+- Anthropic Fellows Program
+- OpenAI Fellows Program
+- Other programme, or a job (name it in your steps above)
 
 #### Question: Open
 id:: ab9103b3-cbe1-4397-b82a-9b1912fdeb4e
