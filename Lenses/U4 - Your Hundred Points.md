@@ -53,7 +53,7 @@ Second, find the lever you funded least. Write the strongest objection its advoc
 
 Keep this allocation. Unit 5 will make you redo it with your name attached.
 
-assessment-instructions::
+feedback-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
 
 This is the final lens of Unit 4, in a course about AI futures for newcomers. There is no reading attached. The unit walked through rival strategies for reducing AI risk, one lens each, and the student has just been asked to allocate 100 points of influence across those levers, to say whether the allocation follows from where they placed the risk at the end of Unit 3 (the aim problem inside the systems, versus the dynamics between the institutions that build them), and to write the strongest objection to their biggest line item from the advocate of the lever they most shortchanged.
@@ -88,7 +88,7 @@ The allocation above is a bet. This question is about the model behind the bet. 
 
 max-time:: 8:00
 
-assessment-instructions:: The student wrote a day-zero model of the next ten years of AI in Unit 1 and has restated it from memory at the end of each unit since. They have now finished Unit 4, which walked through rival strategies for reducing AI risk (technical alignment, treaties, inside-lab practice, national projects, anti-concentration guardrails, buying time) and ended with them allocating 100 points across those levers.
+feedback-instructions:: The student wrote a day-zero model of the next ten years of AI in Unit 1 and has restated it from memory at the end of each unit since. They have now finished Unit 4, which walked through rival strategies for reducing AI risk (technical alignment, treaties, inside-lab practice, national projects, anti-concentration guardrails, buying time) and ended with them allocating 100 points across those levers.
 
 Compare against nothing. You do not have their earlier text and should not ask for it. Restating from memory rather than scrolling back is deliberate: it is the skill being practiced.
 
