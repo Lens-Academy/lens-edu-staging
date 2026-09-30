@@ -1,9 +1,9 @@
 ---
-title: {--{"author":"Elua's AI","timestamp":1790782948992}@@"Loss of control"--}{++{"author":"Elua's AI","timestamp":1790782948992}@@"Risks from power-seeking AI systems"++}
+title: "Risks from power-seeking AI systems"
 author:
-  - "Cody Fenwick"{++{"author":"Elua's AI","timestamp":1790782948992}@@
-  - "Zershaaneh Qureshi"++}
-source_url: {--{"author":"Elua's AI","timestamp":1790782948992}@@"https://80000hours.org/problem-profiles/loss-of-control/"--}{++{"author":"Elua's AI","timestamp":1790782948992}@@"https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/"++}
+  - "Cody Fenwick"
+  - "Zershaaneh Qureshi"
+source_url: "https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/"
 published: 2025-07-17
 created: 2026-09-01
 accessed: 2026-09-01
@@ -618,8 +618,7 @@ For example, you could:
 
 For advice on how you can use your career to help the future of AI go well _more broadly_, take a look at our [summary](https://80000hours.org/agi/guide/summary/), which includes tips for gaining the skills that are most in demand and choosing between different career paths.
 
-{--{"author":"Elua's AI","timestamp":1790782972952}@@:::hide
---}You can also see our [list of organisations](https://jobs.80000hours.org/organisations?refinementList[problem_areas][0]=AI+safety+%26+policy&refinementList[problem_areas][1]=Biosecurity+%26+pandemic+preparedness&refinementList[problem_areas][1]=AI+technical+safety&refinementList[problem_areas][2]=China-Western+relations&refinementList[problem_areas][2]=AI+safety+%26+policy&refinementList[problem_areas][3]=Forecastinghttps://jobs.80000hours.org/organisations?refinementList[problem_areas][0]=AI+policy+%26+governance&refinementList[problem_areas][3]=Forecasting&refinementList[problem_areas][4]=China-Western+relations) doing high impact work to address AI risks.
+You can also see our [list of organisations](https://jobs.80000hours.org/organisations?refinementList[problem_areas][0]=AI+safety+%26+policy&refinementList[problem_areas][1]=Biosecurity+%26+pandemic+preparedness&refinementList[problem_areas][1]=AI+technical+safety&refinementList[problem_areas][2]=China-Western+relations&refinementList[problem_areas][2]=AI+safety+%26+policy&refinementList[problem_areas][3]=Forecastinghttps://jobs.80000hours.org/organisations?refinementList[problem_areas][0]=AI+policy+%26+governance&refinementList[problem_areas][3]=Forecasting&refinementList[problem_areas][4]=China-Western+relations) doing high impact work to address AI risks.
 
 ### Want one-on-one advice on pursuing this path?
 
