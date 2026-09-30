@@ -48,7 +48,7 @@ Three things, a few sentences each (speech-to-text works well here):
 
 force-feedback:: first
 feedback-instructions:: The student has just watched "POV: What You Would See During an AI Takeover", a film retelling of the book's extinction scenario, which
-replaces chapters 7 and 8 in this course. Before watching, in the opening
+replaces chapters 7 and 8 in this course. Before watching, in the prior
 lens of this unit, they committed to four bets about a system with unknown goals: 
 that it would avoid being switched off (bettable), that it
 would become a mathematician (not bettable), that it would acquire more
