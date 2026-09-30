@@ -105,7 +105,7 @@ The same product can be strong against a remote tenant and weak against an owner
 
 #### Question: Open
 id:: 3336549c-4a1e-4092-afa1-11a1b6ba5a1a
-content:: Take an attestation token or architecture diagram supplied with this section. Record:
+content:: Take an attestation token or architecture diagram, for example NVIDIA's attestation architecture in the reading above. Record:
 
 1. The exact claim;
 2. The root or roots of trust;
