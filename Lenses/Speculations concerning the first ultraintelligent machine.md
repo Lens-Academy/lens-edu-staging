@@ -6,8 +6,6 @@ summary_for_tutor: "A short passage from I. J. Good's paper 'Speculations Concer
 title: Speculations concerning the first ultraintelligent machine
 # tldr: I.J. Good recognized that the first machine smarter than any human would be the last one we'd need to design — because the second would be built by the first, according to principles we can't yet imagine. This classic text asks what happens when intelligence starts building its own successors.
 ---
-#### Text
-content::
 %% COMMENTED OUT (AI slop):
 In 1965, long before any working computer looked remotely like a mind, the statistician I. J. Good followed the feedback loop to its end.
 %%

@@ -6,8 +6,6 @@ tutor_minutes: 5
 summary_for_tutor: "Presents Holden Karnofsky's 'most important century' thesis via his summary post. Karnofsky argues the 21st century could be the most important ever for humanity: AI that automates scientific and technological innovation (his 'PASTA') could restart a 'more resources leads to more ideas leads to more resources' feedback loop, driving explosive growth and plausibly locking in a galaxy-spanning long-run future. He builds five points: the long-run future is radically unfamiliar, it could arrive far faster than expected, the relevant AI is likely developed this century, we already live in an unusually 'wild' and fast-growing time, and we are not ready for it. The excerpt ends on his call to take the possibility more seriously; the lens adds a course-author note questioning whether the growth feedback loop ever truly broke, and a chat prompts the learner to explain PASTA and scrutinize the framing."
 title: "The most important century"
 ---
-#### Text
-content::
 %% COMMENTED OUT (AI slop):
 Optional, and worth it. Karnofsky steps all the way back: not "will AI foom," but "what kind of century are we living in at all?" The whole piece, for the wider frame.
 %%
