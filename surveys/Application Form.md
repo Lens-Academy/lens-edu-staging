@@ -153,7 +153,7 @@ required:: true
 
 #### Choice
 key:: ai_safety_programs
-content:: Which courses, programs, or fellowships in AI safety have you done, or are doing? Pick all that apply.
+content:: Which courses, programs, or fellowships in AI safety have you done, or have been accepted to? Pick all that apply.
 multi:: true
 options::
 - None so far
