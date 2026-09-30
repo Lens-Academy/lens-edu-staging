@@ -206,7 +206,7 @@ options::
 - BlueDot Rapid Grant
 - BlueDot Career Transition Grant
 - BlueDot Facilitating
-- Lens Academy Course
+- Lens Academy Courses
 - Lens Academy Project
 - Lens Academy Facilitating
 - AI Safety Camp
