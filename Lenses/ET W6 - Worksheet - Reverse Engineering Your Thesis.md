@@ -153,10 +153,13 @@ content::
 
 \# Part 2. Continue Stakeholder Outreach
 
-**Instructions**: Please continue your stakeholder mapping and outreach in the Stakeholder Outreach Tracker in Week 4’s worksheet (linked below). We recommend identifying and reaching out to >20 stakeholders. If you haven’t received any replies from your Week 4 outreach, we encourage you to reach out to additional stakeholders - this is completely normal and expected. Many professionals are busy or respond slowly, and lack of replies is not a reflection of the quality or relevance of your work. The goal of this exercise is to practice reaching out to people whose work you are interested in and increase the chances of meaningful conversations over time.
+**Instructions**: Please continue your stakeholder mapping and outreach in your Stakeholder Outreach Tracker from Week 4’s worksheet. It's the same tracker, so anything you add here also shows up in Week 4 (and vice versa)! We recommend identifying and reaching out to >20 stakeholders. If you haven’t received any replies from your Week 4 outreach, we encourage you to reach out to additional stakeholders - this is completely normal and expected. Many professionals are busy or respond slowly, and lack of replies is not a reflection of the quality or relevance of your work. The goal of this exercise is to practice reaching out to people whose work you are interested in and increase the chances of meaningful conversations over time.
 
-::card[[../Lenses/ET W4 - Worksheet - Stakeholder Mapping and Outreach|Week 4 Worksheet: Stakeholder Outreach Tracker]]{allow-external}
+#### Widget
+source:: [[../widgets/et-w4-stakeholder-tracker]]
 
+#### Text
+content::
 ---
 
 \# Part 3. \[Optional\] Prepare for Week 8 Presentations
@@ -172,3 +175,15 @@ Use this template: [\[TEMPLATE\] Week 8 Presentation ET Accelerator: Oct-Dec 26'
 #### Question: Open
 id:: d1943212-3250-43dc-aff4-459f7b422a4c
 content:: **What are some next steps you would like to take in the next week to further explore your open questions and uncertainties around reverse engineering your thesis?** What are your top uncertainties or assumptions that you could validate with more research or interviews?
+
+#### Text
+content::
+---
+
+\# 🌱 Amazing work!
+
+You've just connected the dots between the change you want to see in the world and the thesis you'll actually write, which is exactly what makes a thesis high-impact. It's completely normal if your plan still feels a bit uncertain; the fact that you can now see what you're aiming for, and why, is a huge step. Trust the process, and keep iterating! 💛
+
+**Next up: this week's Journalling prompts** 👇 Take a few minutes to reflect on the balance between process and outcomes in your work.
+
+::card[[../Lenses/ET W6 - Journalling - Process vs Outcomes|Week 6 Journalling: Process vs. Outcomes]]
