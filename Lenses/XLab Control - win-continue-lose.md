@@ -30,14 +30,14 @@ id:: d2f3e8e5-f9e7-49f5-9569-c030a2d9f29e
 content:: What is a concentrated failure (a.k.a. high-stakes failure)? Give an example.
 max-chars:: 600
 assessment-instructions:: Score out of 100. 50: bad behaviour on only a small number of tasks (even a single one) is enough. 30: that bad behaviour could cause an unacceptable, catastrophic outcome if no countermeasures stop it. 20: an example, such as causing a rogue deployment, sabotaging one particularly crucial ML research task, leaking sensitive information, or a comparable case where one or a few bad actions suffice. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer describes a failure that needs sustained bad behaviour across many tasks, the opposite case. Model answer, for the feedback, not a grading checklist: "A failure where, in the absence of countermeasures, the AI could cause an unacceptable outcome just by behaving badly on a small number of tasks. Examples: causing a rogue deployment, sabotaging one particularly crucial ML research task, or leaking sensitive information."
-feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 78fc4ba1-776c-47ab-b71c-c4aa5034cc5d
 content:: In AI control terminology, what is an "attack"?
 max-chars:: 400
 assessment-instructions:: Score out of 100. 50: an attack is a deliberate attempt by the AI itself, not an accident or a mistake, and it counts as an attack whether or not it succeeds. 50: what it aims at: causing the unacceptable (catastrophic) outcome the safety measures exist to prevent. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "An attempt by the AI to cause the unacceptable outcome. A scheming AI would normally behave as if aligned and attack only on rare occasions, so that its attacks are hard to catch."
-feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Article
 from:: For concreteness, let’s talk about a particularly important simple class
@@ -48,14 +48,14 @@ id:: 2234e527-4341-4e20-a037-68da9754b438
 content:: How does an execute/replace/audit protocol work?
 max-chars:: 800
 assessment-instructions:: Score out of 100. 25: an agent loop repeatedly gets a proposed action from the untrusted model. 25: a monitor scores how dangerous or suspicious each proposed action looks. 50: based on that score the protocol makes two decisions, 25 each: whether to execute the action or replace it with a different one, and whether to audit it (send it for review). Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "An agent loop repeatedly gets a proposed action from the untrusted LLM, a monitor scores how dangerous or suspicious the action looks, and the protocol determines whether to execute the action or replace it & whether to audit it by looking at the monitor's score."
-feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 1f88446b-db35-4c57-adf6-e8b9a9c0c4dd
 content:: What is a monitor, and what is a monitor score? Give an example of a monitor.
 max-chars:: 600
 assessment-instructions:: Score out of 100. 30: a monitor takes a proposed action (with some surrounding context) and assesses how dangerous or suspicious it is. 20: an example of a monitor, such as a trusted or untrusted model judging the action, a probe on the model's internals, or an interpretability technique; any technique that does this job counts. 50: the monitor score is the monitor's output, a score describing how dangerous or suspicious the action is. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "A monitor is any technique that takes a proposed action with surrounding context and produces a monitor score that describes how dangerous / suspicious it is. Examples from the reading: a trusted or untrusted model evaluating the action, a probe, or an interpretability technique such as sparse autoencoders for detecting deceptive intent."
-feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Article
 from:: Then, based on the monitor score, we need to make two decisions.
@@ -66,7 +66,7 @@ id:: bb78eb9b-8027-4c6b-9085-cc47963a1bd3
 content:: What is auditing, and who usually does it?
 max-chars:: 600
 assessment-instructions:: Score out of 100. 35: auditing is a closer review of an action. 30: its purpose is to find out whether the action is evidence that the model is intentionally trying to cause problems (that it is scheming). 35: who does it: a trusted reviewer, usually a human, who looks at the action more closely than the monitor can. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer describes auditing as blocking, fixing or replacing the action rather than reviewing it for evidence. Model answer, for the feedback, not a grading checklist: "Reviewing an action to determine whether it's evidence that the model is intentionally trying to cause problems. The simplest version: queue the action for eventual human review, with escalation if the reviewer is suspicious — possibly ending in the conclusion that the model is a misaligned power-seeker."
-feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Article
 from:: The two defensive actions of auditing and replacing have quite different safety properties.
@@ -77,7 +77,7 @@ id:: 88f5ca30-cbb0-40bc-b543-ae6855bd333e
 content:: When the AI attacks under an execute/replace/audit protocol, what are the three possible outcomes?
 max-chars:: 800
 assessment-instructions:: Score out of 100. 30: win: the attack is audited and the AI is caught. 30: lose: the attack is executed and succeeds. 40: continue, 20: the attack fails silently (it is replaced or simply does not work), and 20: without being caught, so the deployment goes on. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Win: the attack is audited and the developer catches the AI. Lose: the attack is executed and succeeds. Continue: the attack fails silently, so the AI isn't caught and the deployment goes on, with the AI probably attacking again later."
-feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Article
 from:: ## Example: analyzing the safety of defer-to-trusted using the probes from “Simple probes can catch sleeper agents”
