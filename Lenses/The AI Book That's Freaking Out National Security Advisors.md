@@ -9,10 +9,10 @@ title: "The AI Book That's Freaking Out National Security Advisors"
 # PROPOSED FIX:
 # tldr: In 2000, a 21-year-old dropout set out to build superintelligence. By 2003 he was convinced it would kill everyone. Now national security advisors, tech founders and Turing Award winners are reading his book. AI In Context walks through the argument with a short story about an AI named Sable, and asks whether we should believe it.
 ---
-#### Text
+#### {--{"author":"Plex's AI","timestamp":1790763884014}@@Text
 content::
 Please watch this video from AI In Context:
-#### Video
+#### --}Video
 source:: [[../video_transcripts/ai-in-context-the-ai-book-thats-freaking-out-national-security-advisors-Nl7-bRFSZBs]]
 #### Text
 content::
