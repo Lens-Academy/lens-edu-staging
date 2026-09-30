@@ -1083,13 +1083,48 @@ var WFM = {
     box.appendChild(h("p", { className: "hint", text: "Tap a factor or a question in the grid to see it in full here." }));
     return box;
   }
+  function questionEditor(body) {
+    body.appendChild(h("h4", { text: "Your shortlisted questions" }));
+    body.appendChild(h("p", { className: "hint", text: "Add the 5-10 questions you shortlisted in Step 3 of the worksheet. Each one becomes a row in the scoring grid below." }));
+    for (var i = 0; i < state.questions.length; i++) {
+      (function (q, idx) {
+        var ta = h("textarea", { id: "q-" + idx + "-text", rows: "2", maxlength: String(WFM.LIMITS.text), placeholder: "Write here", value: q.text,
+          oninput: function () { q.text = ta.value; q.short = true; persist(); },
+          onchange: function () { renderAll(); } });
+        var rm = h("button", { type: "button", className: "link", id: "q-" + idx + "-rm", text: "Remove", "aria-label": "Remove question " + (idx + 1),
+          onclick: function () { state.questions.splice(idx, 1); if (state.gut === q.id) state.gut = ""; renderAll(); persist(); } });
+        body.appendChild(h("div", { className: "qrow" }, [
+          h("span", { className: "n", text: String(idx + 1) }),
+          h("div", null, [h("label", { className: "sr", "for": "q-" + idx + "-text", text: "Question " + (idx + 1) }), ta, rm])
+        ]));
+      })(state.questions[i], i);
+    }
+    var full = state.questions.length >= WFM.LIMITS.questions || !WFM.canGrow(state);
+    body.appendChild(h("div", { className: "actions" }, [
+      h("button", { type: "button", id: "add-q", disabled: full, text: "+ Add a question", onclick: function () {
+        if (!WFM.canGrow(state)) return;
+        state.questions.push(WFM.blankQuestion(WFM.newId("q")));
+        renderAll(); focusById("q-" + (state.questions.length - 1) + "-text"); persist();
+      } }),
+      h("button", { type: "button", id: "load-example", text: "Load ET's worked example", onclick: function () {
+        if (WFM.hasOwnData(state)) { ui.confirm = "example"; renderAll(); focusById("yes-example"); }
+        else loadExample();
+      } }),
+      clearExampleButton("clear-example")
+    ]));
+    var cb = confirmBox("example", "This replaces your questions and scores with the four worked example questions. Your factors and weights stay as they are. Replace them?", "Yes, replace my questions", loadExample);
+    if (cb) body.appendChild(cb);
+    var cc = clearExampleConfirm();
+    if (cc) body.appendChild(cc);
+  }
   function renderScore(body) {
+    questionEditor(body);
+    body.appendChild(h("h4", { text: "Score each question" }));
     body.appendChild(h("p", { text: "Score each question against each factor, on a 1-10 scale. Tap a factor's name to see what it asks." }));
     var sl = WFM.shortlist(state);
     if (sl.length < 1 || !state.factors.length) {
-      var to = !state.factors.length ? "factors" : "brainstorm";
-      body.appendChild(h("p", { className: "note", text: !state.factors.length ? "Add at least one factor first." : "Shortlist the questions you want to compare in the brainstorm first, or load the worked example there." }));
-      body.appendChild(h("div", { className: "actions" }, [h("button", { type: "button", id: "goto-" + to, text: !state.factors.length ? "Go to your factors" : "Go to the brainstorm", onclick: function () { goTo(to); } })]));
+      body.appendChild(h("p", { className: "note", text: !state.factors.length ? "Add at least one factor first." : "Add your shortlisted questions above (or load the worked example) to start scoring." }));
+      if (!state.factors.length) body.appendChild(h("div", { className: "actions" }, [h("button", { type: "button", id: "goto-factors", text: "Go to your factors", onclick: function () { goTo("factors"); } })]));
       return;
     }
     body.appendChild(detailBox());
