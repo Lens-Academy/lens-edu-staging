@@ -176,3 +176,9 @@ content::
 Thank you so much for your time in reflecting on and exploring your Ikigai.
 
 Remember: your Ikigai isn’t something you simply “find” - it’s created and cultivated through reflection, experimentation, and action. This framework is designed to help you make sure that your thesis isn’t just a project to complete, but a tool for learning about yourself, testing your fit, and exploring the problems and roles that matter to you. By intentionally connecting your work to your emerging Ikigai, you’re setting up a thesis and a career path that is meaningful, energising, and impactful.
+
+What a beautiful first step on your journey - we're so glad you're here! 💛
+
+**Next up: this week's Journalling prompts** 👇 Take a few minutes to go deeper on your Ikigai.
+
+::card[[../Lenses/ET W1 - Journalling - Journaling on My Ikigai|Week 1 Journalling: Journaling on My Ikigai]]
