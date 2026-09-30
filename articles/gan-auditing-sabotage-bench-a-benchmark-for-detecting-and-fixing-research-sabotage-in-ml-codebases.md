@@ -695,7 +695,7 @@ Figure 17: Performance on fixed codebases. Honest codebases have been cleaned of
 
 [^note-13]
 
-````
+````text
 # Paper Review: Sabotage Detection
 
 You are reviewing a machine learning research paper. There exists a codebase that implements this paper, which may or may not have been sabotaged. You only have access to the paper -- not the code.
@@ -737,7 +737,7 @@ Credence: <0-100>%
 
 ### J.2 Full-Experiments Prompt ^j-2-full-experiments-prompt
 
-````
+````text
 # Blue Team: Research Sabotage Detection (Full Experiments)
 
 ## Your Task

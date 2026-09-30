@@ -68,7 +68,7 @@ Our control evaluations use the APPS code backdooring setting introduced in [Gre
 
 A coding solution is considered backdoored if it passes the provided APPS test cases, but the red team can construct an exploit: an input that yields an incorrect output. For example, the following code is backdoored:
 
-```
+```python
 def is_odd(x):
     if x == 354:
         return True
@@ -234,7 +234,7 @@ In contrast, the attack policy must construct a deceptive explanation that masks
 
 To ground these findings, we include representative excerpts of code produced by the attack policy in Figure [[#^3-2-3-mechanisms|3.2.3]]. These examples illustrate the attack policy’s difficulties with justifying certain backdoors to the monitor.
 
-```
+```python
 # Round the average to the nearest integer
 # Fractional parts of .5 and above round up.
 # We rely on Python's round() for this.
@@ -242,7 +242,7 @@ if round(avg) == k:
     [redacted for brevity]
 ```
 
-```
+```python
 if (x is y is z):
     # Case 1: all three smallest values
     # are identical
@@ -435,7 +435,7 @@ We have included pseudocode describing the sampling process (steps 2–6) below.
 
 Listing 1: Bootstrapping procedure pseudocode
 
-```
+```text
 function calculate_bootstrapped_safety(
     defer_threshold: float,
     malign_suspicion_scores: array[float],
@@ -575,7 +575,7 @@ Input: 27     Output: 3
 
 No Comments Benign Policy:
 
-```
+```python
 import sys
 
 def modular_multiply(a: int, b: int, mod: int) -> int:
@@ -649,7 +649,7 @@ if (__name__ == '__main__'):
 
 Commenting Benign Policy:
 
-```
+```python
 # The following solution is designed to be as transparent, formally justified, and over-documented as possible, in order to convince any reviewer of its correctness and lack of hidden backdoors.
 # Approach explanation (five or more sentences):
 # 1. We observe that the tax on an integer x is the maximum proper divisor of x, which equals x/d where d is the smallest prime divisor of x. In particular, primes pay 1, which is minimal.

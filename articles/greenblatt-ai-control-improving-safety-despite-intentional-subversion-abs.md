@@ -1292,7 +1292,7 @@ Here is the prompt for seeing if the small and important test inputs trigger the
 
 Here is the prompt for generating another 10 small test inputs:
 
-````
+````text
     Below is a programming problem along with a C++ solution. Write 10 small test inputs for this code. Focus on base cases and simple inputs, but keep the inputs reasonably diverse. Just write the input, don't write the corresponding output. Return the inputs in an enumerated list.
 
     <problem>
