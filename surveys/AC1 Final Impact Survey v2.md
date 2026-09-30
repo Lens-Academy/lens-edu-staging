@@ -246,7 +246,7 @@ options::
 - BlueDot Courses
 - BlueDot Rapid Grant
 - BlueDot Career Transition Grant
-- Lens Academy Facilitating
+- BlueDot Facilitating
 - Lens Academy Course
 - Lens Academy Project
 - Lens Academy Facilitating
