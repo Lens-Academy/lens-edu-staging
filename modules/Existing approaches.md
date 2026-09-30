@@ -118,9 +118,6 @@ source:: [[../Lenses/Shut It All Down - Yudkowsky TED Talk]]
 source:: [[../Lenses/Shut It All Down - Statement on Superintelligence]]
 
 ## Lens:
-source:: [[../Lenses/Shut It All Down - Would You Sign It]]
-
-## Lens:
 source:: [[../Lenses/Shut It All Down - Pause For Thought]]
 
 

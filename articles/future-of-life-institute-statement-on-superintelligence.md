@@ -23,8 +23,6 @@ Add discussion note here:
 
 ...
 
-The user sees the following text not as plain article text but as an iframe of the original website embedded on our website. The text you see below is a snapshot from 2026-09-30; the live page may show a different signature count and a signatory list not captured here.
-
 %%
 
 76,210 signatures
