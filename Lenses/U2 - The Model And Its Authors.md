@@ -46,7 +46,7 @@ List every distinct method you can think of. Not your answer, your methods. For 
 
 max-time:: 6:00
 
-assessment-instructions:: The student is mid-exercise. They have not yet read the authors' survey of forecasting methods, which comes next in this lens.
+feedback-instructions:: The student is mid-exercise. They have not yet read the authors' survey of forecasting methods, which comes next in this lens.
 
 Do not supply or hint at the authors' five methods (expert surveys, argument-informed intuition, revenue extrapolation, compute extrapolation anchored by the brain, capability benchmark trend extrapolation). Leaking them destroys the exercise.
 
@@ -81,7 +81,7 @@ Put your list beside theirs. Which of their five did you have in some form? Whic
 
 Then the harder half. The authors do not treat these as five independent estimates to be averaged. Pick the two you would give the most weight to. Say why, in terms of what evidence each method needs.
 
-assessment-instructions:: The student has their own list of forecasting methods and has now read the authors' five.
+feedback-instructions:: The student has their own list of forecasting methods and has now read the authors' five.
 
 The skill is honest diffing and weighting by evidence source, not evaluation of the authors.
 
@@ -116,7 +116,7 @@ Give your own median year for an AI that can do essentially all of an AI researc
 
 max-time:: 5:00
 
-assessment-instructions:: The student is committing to a number BEFORE seeing the authors' forecasts, which come next.
+feedback-instructions:: The student is committing to a number BEFORE seeing the authors' forecasts, which come next.
 
 Do not supply the authors' numbers, and do not steer toward or away from any year.
 
@@ -151,7 +151,7 @@ Here is the thing to notice, and it is not in the model. Both of them run the mo
 
 Then remember that you wrote down a number before you read any of this. What should you do with your number now? And what would you need to know about how each of the three numbers was produced, before you could combine them at all?
 
-assessment-instructions:: The student has read the section framing (both authors adjust off the model using intuition and other factors), Eli's all-things-considered distribution, and Daniel's discussion.
+feedback-instructions:: The student has read the section framing (both authors adjust off the model using intuition and other factors), Eli's all-things-considered distribution, and Daniel's discussion.
 
 FACTS THE TUTOR NEEDS. Eli states 10th percentile 2027.5, 50th 2032.5, 90th 2085, having lengthened his median and raised the 90th from 2062. Daniel does NOT state a median in prose; he says he keeps the model's median and increases uncertainty in both directions, and his distribution appears as a figure. Do not assert a number for Daniel. If the student cannot read the figure, tell them to describe its shape instead and grade on that.
 
@@ -188,7 +188,7 @@ The same team rebuilt their model. They describe their improvements as producing
 
 A group moved three to five years on their own considered estimate in about nine months. What does that tell you about how much weight your own number from earlier deserves?
 
-assessment-instructions:: The student has just read the comparison between the new model and AI 2027, including the 3.25 to 5 year gap and the definition of the Superhuman Coder milestone. The dates are AI 2027 in April 2025 and this update in January 2026, so the elapsed time is about nine months. Do not let a larger figure pass unchallenged if the student asserts one.
+feedback-instructions:: The student has just read the comparison between the new model and AI 2027, including the 3.25 to 5 year gap and the definition of the Superhuman Coder milestone. The dates are AI 2027 in April 2025 and this update in January 2026, so the elapsed time is about nine months. Do not let a larger figure pass unchallenged if the student asserts one.
 
 The move here is calibration: a large public revision by competent people is evidence about the reliability of ALL such estimates, including the student's own.
 
@@ -226,7 +226,7 @@ Last, a smaller question. Daniel calls extrapolating AI revenue "a decent proxy 
 
 max-time:: 8:00
 
-assessment-instructions:: This is the closing move of the lens and the most important question in it is the second one.
+feedback-instructions:: This is the closing move of the lens and the most important question in it is the second one.
 
 CRITICAL: do NOT supply, name, or gesture at any unifying framework here, and do not use phrases like "selection pressure", "incentive structure", or "self-repairing". There is a frame this course builds toward and the student is meant to arrive at it themselves over several units. Naming it replaces their derivation with our assertion. If the student produces such a frame themselves, engage with it seriously as theirs.
 

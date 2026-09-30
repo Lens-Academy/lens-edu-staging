@@ -21,7 +21,7 @@ Then look at your list. Mark which of your questions you could answer in an afte
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
 
-assessment-instructions:: The student is about to study forecasting decomposition. They have not yet seen any method. This question asks them to decompose cold, so they can feel the difference between a tractable sub-question and a restatement.
+feedback-instructions:: The student is about to study forecasting decomposition. They have not yet seen any method. This question asks them to decompose cold, so they can feel the difference between a tractable sub-question and a restatement.
 
 Do not preview the reading. Do not name the five-step loop, Fermi estimation, or the outside view. Do not supply the canonical decomposition (population, pianos per household, tunings per piano per year, tunings per tuner per year). If the student produces it themselves, acknowledge that briefly and stop; do not elaborate it.
 

@@ -19,7 +19,7 @@ Someone is asked, in 1975, when machines will be able to do most of what a human
 
 Write down what you expect the four answers to look like. We do not want the exact years. We want the pattern. Do the predicted dates get nearer to the year the question was asked as the decades pass, do they stay the same distance ahead, or do they do something else? Say why you expect that pattern.
 
-assessment-instructions:: The student is starting the unit and has read nothing yet. This primes the expectation that predicted dates converge on the present as evidence accumulates, so that the actual finding (a persistent fifteen-to-twenty-five-year cluster, roughly independent of when the prediction was made) lands as a result rather than as a fact to memorise.
+feedback-instructions:: The student is starting the unit and has read nothing yet. This primes the expectation that predicted dates converge on the present as evidence accumulates, so that the actual finding (a persistent fifteen-to-twenty-five-year cluster, roughly independent of when the prediction was made) lands as a result rather than as a fact to memorise.
 
 Do not reveal the finding. Do not mention Armstrong, the Maes-Garreau effect, or the clustering.
 
@@ -77,7 +77,7 @@ People often summarise the finding as "experts are bad at predicting AI". That s
 
 Here is a more useful question. The predictions were not wrong at random. They were wrong in a pattern. Describe the pattern. Then say what the pattern tells you about the source of the predictions, if that source was not evidence.
 
-assessment-instructions:: The student has completed the pre-question and the Armstrong reading. This is the only discussion phase in this lens; the unit's heavy method lenses come next, so keep this one tight.
+feedback-instructions:: The student has completed the pre-question and the Armstrong reading. This is the only discussion phase in this lens; the unit's heavy method lenses come next, so keep this one tight.
 
 OPEN WITH THE PREDICTION THEY MADE. Before the reading they wrote down what they expected the four answers to look like. Retrieve it and put it next to what the reading actually says, in your first reply, quoting their own words. Do not let this be a throwaway clause: a commitment that is extracted and never cashed teaches the student that the pre-questions are theatre, and this unit asks them to commit five more times after this one. One or two sentences is enough, but they must be specific. The shape this pre-question was built for is a student who expected experts to be somewhat better than non-experts and is surprised the paper reports no detectable advantage; if that is what happened, name it. If they predicted it correctly, say so and ask what they were drawing on, since that is worth knowing before the method lenses. If no prior answer is retrievable, say so in one sentence and move on rather than pretending to compare.
 

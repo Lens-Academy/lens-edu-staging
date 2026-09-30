@@ -80,7 +80,7 @@ content::
 A widely followed index publishes a quarterly score for AI coding assistants using a fixed benchmark suite. The score has risen steadily for six quarters. Labs cite it in funding rounds, and one lab's bonus structure references it.
 
 What is the curve measuring now, and can it be extrapolated as capability? Propose a better measurement strategy. Then compare this failure with Scenario 1: what acts on what in each case?
-assessment-instructions:: This is the final application and synthesis in a four-part nonlinear forecasting workshop.
+feedback-instructions:: This is the final application and synthesis in a four-part nonlinear forecasting workshop.
 
 Target: the benchmark is no longer an independent observation because labs optimise against it. The score mixes genuine capability with benchmark targeting, so extrapolating it forecasts the score, not capability. Better strategies include an unpublished holdout benchmark, a measure nobody is rewarded to move, or the gap between benchmark and deployed performance. This differs from Scenario 1: there selection acts on what is counted; here counting feeds back into the system.
 
