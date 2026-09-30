@@ -18,8 +18,8 @@ to:: we’d need to avoid training set leakage to ensure the new AIs don’t hav
 
 #### Question: Open
 id:: 1956a7eb-8a16-4213-8471-4068e5d4c16b
-content:: What is few-shot catastrophe prevention?
-assessment-instructions:: Score out of 100. 50: its goal: preventing future escape attempts, making the next attempt less likely to succeed. 50: its means: using the one or few escape attempts that have been caught. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 20 if the answer only restates the words of the term (preventing catastrophes with few shots) without saying what the examples are or what they are used for. Model answer, for the feedback, not a grading checklist: "The problem of preventing future escape attempts given a few caught examples of a model trying to escape; it is the problem a lab faces when it keeps deploying a model after catching it rather than shutting it down."
+content:: What is few-shot catastrophe prevention, and when is it needed?
+assessment-instructions:: Score out of 100. 30: its goal: preventing future escape attempts, making the next attempt less likely to succeed. 30: its means: using the one or few escape attempts that have been caught. 40: when it is needed: the lab keeps deploying the model after catching it trying to escape, instead of shutting it down. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 20 if the answer only restates the words of the term (preventing catastrophes with few shots) without saying what the examples are or what they are used for. Model answer, for the feedback, not a grading checklist: "The problem of preventing future escape attempts given a few caught examples of a model trying to escape; it is the problem a lab faces when it keeps deploying a model after catching it rather than shutting it down."
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Article
