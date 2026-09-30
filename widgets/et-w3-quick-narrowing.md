@@ -1,0 +1,160 @@
+---
+id: '473c9c36-fc12-42f9-8036-05463506c314'
+title: "Week 3 Step 3 Quick Scoring Table"
+summary_for_tutor: "A simple table for Week 3 worksheet Step 3 (Iterative Narrowing). The learner copies in their candidate research questions from Step 2 (10 rows by default, can add up to 30) and gives each a quick score from 1 to 10 based on what they already know. The top 10 by score are highlighted, and a button sorts the list by score. The saved summary lists the questions with their quick scores, top first."
+height: auto
+tags: [wip]
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<style>
+:root { --text: #1a1a1a; --muted: #5a5a5a; --border: #e8e5df; --accent: #b87018; --soft: #faf8f3; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 4px 0; font: 14px/1.5 "DM Sans", Arial, sans-serif; color: var(--text); background: #fff; }
+.eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+.hint { color: var(--muted); font-size: 13px; margin: 0 0 10px; }
+.box { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border-bottom: 1px solid var(--border); padding: 0; vertical-align: top; }
+tbody tr:last-child td { border-bottom: none; }
+th { background: var(--soft); font-weight: 600; font-size: 12px; text-align: left; padding: 8px; }
+th.num, td.num { text-align: center; width: 110px; }
+td.n { width: 44px; background: var(--soft); font-weight: 600; font-size: 12px; color: var(--muted); padding: 8px; text-align: center; }
+td.act { width: 70px; padding: 8px; text-align: center; }
+textarea { width: 100%; min-height: 48px; border: none; resize: vertical; padding: 8px; font: inherit; color: inherit; background: transparent; }
+select { width: 100%; height: 48px; border: none; border-left: 1px solid var(--border); font: inherit; text-align: center; background: transparent; color: inherit; cursor: pointer; }
+textarea:focus, select:focus { outline: 2px solid var(--accent); outline-offset: -2px; }
+tr.top td.n { color: #fff; background: var(--accent); }
+button { font: inherit; color: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 8px 12px; cursor: pointer; }
+button:hover { background: var(--soft); }
+button.primary { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+button.primary:hover { background: var(--accent); color: #fff; }
+button.remove { padding: 2px 8px; font-size: 11px; color: var(--muted); }
+button:disabled { opacity: 0.5; cursor: default; }
+.actions { margin-top: 10px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.legend { font-size: 12px; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="eyebrow">Step 3 quick scoring table</div>
+<p class="hint">Copy in the questions from your Step 2 list and give each a quick score from 1 (weak) to 10 (strong), based on what you already know. Your top 10 by score are highlighted. Your answers save automatically.</p>
+<div class="box"><table id="t"></table></div>
+<div class="actions">
+<button type="button" class="primary" id="add">+ Add another question</button>
+<button type="button" id="sort">Sort by quick score</button>
+<span class="legend" id="msg"></span>
+</div>
+<script>
+(function () {
+  var N = 10, MAX = 30, TOP = 10;
+  var rows = [];
+  for (var r = 0; r < N; r++) rows.push({ q: "", s: "" });
+  var table = document.getElementById("t");
+  var addBtn = document.getElementById("add");
+  var sortBtn = document.getElementById("sort");
+  var msg = document.getElementById("msg");
+  var trs = [];
+
+  function scored() {
+    var out = [];
+    rows.forEach(function (row, i) { if (/\S/.test(row.q) && row.s) out.push({ i: i, s: parseInt(row.s, 10) }); });
+    out.sort(function (a, b) { return (b.s - a.s) || (a.i - b.i); });
+    return out;
+  }
+  function summary() {
+    var list = scored();
+    if (!list.length) return "Step 3 quick scoring table is still empty.";
+    return "Step 3 quick scores (top first): " + list.map(function (x) { return rows[x.i].q.replace(/\s+/g, " ").slice(0, 120) + " (" + x.s + "/10)"; }).join("; ") + ".";
+  }
+  function highlight() {
+    var top = {};
+    scored().slice(0, TOP).forEach(function (x) { top[x.i] = true; });
+    trs.forEach(function (tr, i) { tr.className = top[i] ? "top" : ""; });
+  }
+  function save() {
+    highlight();
+    if (window.Lens) window.Lens.saveState({ rows: rows }, summary());
+  }
+  function build() {
+    table.textContent = "";
+    trs = [];
+    var thead = document.createElement("thead");
+    var hr = document.createElement("tr");
+    ["#", "Candidate research question", "Quick score (1-10)", ""].forEach(function (t, k) {
+      var th = document.createElement("th");
+      th.textContent = t;
+      if (k === 2) th.className = "num";
+      hr.appendChild(th);
+    });
+    thead.appendChild(hr);
+    table.appendChild(thead);
+    var tb = document.createElement("tbody");
+    rows.forEach(function (row, idx) {
+      var tr = document.createElement("tr");
+      var n = document.createElement("td"); n.className = "n"; n.textContent = String(idx + 1); tr.appendChild(n);
+      var tdq = document.createElement("td");
+      var ta = document.createElement("textarea");
+      ta.value = row.q; ta.placeholder = "Write here";
+      ta.setAttribute("aria-label", "Question " + (idx + 1));
+      ta.addEventListener("input", function () { row.q = ta.value; save(); });
+      tdq.appendChild(ta); tr.appendChild(tdq);
+      var tds = document.createElement("td"); tds.className = "num";
+      var sel = document.createElement("select");
+      sel.setAttribute("aria-label", "Quick score for question " + (idx + 1));
+      ["", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"].forEach(function (v) {
+        var o = document.createElement("option"); o.value = v; o.textContent = v === "" ? "-" : v; sel.appendChild(o);
+      });
+      sel.value = row.s || "";
+      sel.addEventListener("change", function () { row.s = sel.value; save(); });
+      tds.appendChild(sel); tr.appendChild(tds);
+      var tda = document.createElement("td"); tda.className = "act";
+      if (idx >= N) {
+        var rm = document.createElement("button");
+        rm.type = "button"; rm.className = "remove"; rm.textContent = "Remove";
+        rm.setAttribute("aria-label", "Remove question " + (idx + 1));
+        rm.addEventListener("click", function () { rows.splice(idx, 1); build(); save(); });
+        tda.appendChild(rm);
+      }
+      tr.appendChild(tda);
+      trs.push(tr);
+      tb.appendChild(tr);
+    });
+    table.appendChild(tb);
+    addBtn.disabled = rows.length >= MAX;
+    msg.textContent = rows.length >= MAX ? "You've reached the maximum of " + MAX + " questions." : "";
+    highlight();
+  }
+  addBtn.addEventListener("click", function () {
+    if (rows.length >= MAX) return;
+    rows.push({ q: "", s: "" });
+    build(); save();
+    var tas = table.querySelectorAll("tbody tr:last-child textarea");
+    if (tas.length) tas[0].focus();
+  });
+  sortBtn.addEventListener("click", function () {
+    var filled = rows.filter(function (r) { return /\S/.test(r.q) || r.s; });
+    var empty = rows.length - filled.length;
+    filled.sort(function (a, b) { return (parseInt(b.s || "0", 10) - parseInt(a.s || "0", 10)); });
+    rows = filled;
+    for (var i = 0; i < empty; i++) rows.push({ q: "", s: "" });
+    while (rows.length < N) rows.push({ q: "", s: "" });
+    build(); save();
+  });
+  build();
+  if (window.Lens) {
+    window.Lens.onState(function (state) {
+      if (state && state.rows && state.rows.length) {
+        rows = state.rows.slice(0, MAX).map(function (r) { return { q: typeof r.q === "string" ? r.q : "", s: typeof r.s === "string" ? r.s : "" }; });
+        while (rows.length < N) rows.push({ q: "", s: "" });
+        build();
+      }
+    });
+  }
+})();
+</script>
+</body>
+</html>
