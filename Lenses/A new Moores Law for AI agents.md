@@ -20,6 +20,9 @@ to:: "one of the most important trends in human history."
 content::
 The doubling has recently sped up from every 7 months to every 4. If that curve holds, where does it put us in three years, and what would you need to see to believe it?
 
+![[attachments/A new Moores Law for AI agents-1790765036907.png]]
+
+
 #### Chat
 instructions::
 TLDR of what the user just read:
