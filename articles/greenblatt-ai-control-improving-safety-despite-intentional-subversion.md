@@ -138,7 +138,7 @@ To measure usefulness, we repeatedly simulate the scenario using the protocol, i
 
 ### 2.1 The Red Team Provides a Secret Pipeline for the Attack Policy ^2-1-the-red
 
-In this paper, we allow the red team to provide attack policies that use structured hidden reasoning. This allows the red team to construct attacks that are much sneakier than they could be with just prompting (and probably much sneakier than they could be with just fine-tuning). (This is similar to[Hubinger et al. (2023)](#bib.bib11)’s approach of using “secret scratchpad” setups to investigate behavior which is sneakier than current models are capable of doing.) These pipelines can do simple parsing of LLM responses, comparisons between numbers, and use of a random number generator. We do not allow the pipeline to use tools (such as code execution) or to maintain any state between calls.
+In this paper, we allow the red team to provide attack policies that use structured hidden reasoning. This allows the red team to construct attacks that are much sneakier than they could be with just prompting (and probably much sneakier than they could be with just fine-tuning). (This is similar to [Hubinger et al. (2023)](#bib.bib11)’s approach of using “secret scratchpad” setups to investigate behavior which is sneakier than current models are capable of doing.) These pipelines can do simple parsing of LLM responses, comparisons between numbers, and use of a random number generator. We do not allow the pipeline to use tools (such as code execution) or to maintain any state between calls.
 
 ### 2.2 Limited Access to High-quality Labor ^2-2-limited-access
 
