@@ -6,7 +6,7 @@ title: Career Stage Survey
 %% DRAFT (Mark, 30 Sep 2026). Sent to alumni every 3 months after their course (3, 6 and 12 months). Not attached to any meeting, and not automated yet: send it by email or Discord for now. Question 1 uses the exact wording of the application form's `ais_work_status`, so it compares directly with the application. Questions 3–5 are the attribution questions from [[Role Attribution Survey]]: keep question 3 before Lens is named in 4 and 5. Outcome categories (A1–C) and how we report them: [[../../Lens/Growth/Impact Tracking/Career Outcomes and Attribution]]. %%
 
 #### Text
-content:: Hi, it' This 2-minute check-in helps us see where you are now, and what actually helped.
+content:: Hi, it's Lens. We sen This 2-minute check-in helps us see where you are now, and what actually helped.
 
 #### Question: Choice
 id:: 1df81e70-32b7-4b49-ac20-8e72d79ddaff
