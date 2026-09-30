@@ -11,8 +11,8 @@ source:: [[../Learning Outcomes/Objections and Rebuttals]]
 # Lens: Welcome
 id:: a1b2c3d4-5678-90ab-cdef-1234567890ab
 %% tldr:: AI is reshaping civilisation on many fronts at once, and experts warn of extinction-level risks. What's going on, and where are we headed? This opening lens sets out the course's aim: to help you understand the core dynamics at play, and prepare you to act. %%
-summary_for_tutor:: Short welcome lens introducing the course: AI is transforming many aspects of civilisation simultaneously, and experts warn of extinction-level risk. The course aims to build understanding of the core dynamics driving this and to prepare learners to act. Framing text only; substantive teaching happens in the following lenses.
-reading_minutes:: 2
+summary_for_tutor:: Short welcome lens introducing the course: AI is transforming many aspects of civilisation simultaneously, and experts warn of extinction-level risk. The course aims to build understanding of the core dynamics driving this and to prepare learners to act. Includes the 2023 CAIS Statement on AI Risk ("Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war.") with its signatory list, as the concrete instance of that expert warning. Framing text only; substantive teaching happens in the following lenses.
+reading_minutes:: 3
 #### Text
 content::
 Artificial intelligence is upending many aspects of civilisation at once, and experts warn of extinction-level risks. What's going on, and where are we headed? This course will help you understand the core dynamics at play, and prepare you to act.
