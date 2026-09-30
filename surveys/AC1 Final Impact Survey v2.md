@@ -189,7 +189,7 @@ options::
 - Applying to paid fellowships or funded research, 3 months or longer (e.g. MATS, LASR, Pivotal)
 - Applying to paid part-time work or shorter paid fellowships (e.g. ERA, facilitating)
 - Applying to selective unpaid programmes (e.g. SPAR, ARENA, AI Safety Camp)
-- Starting or continuing an unpaid project, volunteering or advocacy
+- Starting or continuing  volunteering or advocacy
 - Taking another course (Lens or elsewhere)
 - Talking to people in the field about my next step
 - Nothing concrete yet
