@@ -15,9 +15,6 @@ In 1965, long before any working computer looked remotely like a mind, the stati
 #### Article
 source:: [[../articles/good-speculations-concerning-first-ultraintelligent-machine]]
 from:: "Let an ultraintelligent machine be defined"
-to:: "would be left far behind"
-#### Article
-from:: "Thus the first ultraintelligent machine"
 to:: "how to keep it under control."
 
 #### Chat
