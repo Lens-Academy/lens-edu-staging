@@ -6,9 +6,11 @@ tutor_minutes: 8
 # tldr: "The risks get most of the attention, but what exactly are we trying to protect? In Nick Bostrom's 'Letter from Utopia', one of your possible futures writes back to you, describing a life of secure health, expanded minds and deep well-being, and asking you to make it real."
 summary_for_tutor: "Covers the positive vision of what a good future after transformative technology could hold. The learner watches a narrated reading of Nick Bostrom's 'Letter from Utopia', written as a letter from a possible future being to present-day humans. It invites the reader to recall their best moments as a glimpse of what is possible, then names three transformations needed to reach Utopia: securing life (defeating disease, ageing and death), upgrading cognition, and elevating well-being. It closes with cautions that the pursuit of utopia has historically brought out the worst in people and that paradise engineering needs wisdom. Intended as a counterweight to risk-focused material at the end of the course."
 ---
+%% COMMENTED OUT (AI-generated framing):
 #### Text
 content::
 Nick Bostrom, author of *Superintelligence*, is best known for his work on existential risk. In his "Letter from Utopia" he writes about the other side: what a very good future could be like, told by one of your possible future selves.
+%%
 
 #### Video
 source:: [[../video_transcripts/the-artificial-intelligence-channel-bostroms-letter-from-utopia-a-vision-of-the-future]]

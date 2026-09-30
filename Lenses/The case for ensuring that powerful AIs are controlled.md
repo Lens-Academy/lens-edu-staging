@@ -6,9 +6,11 @@ summary_for_tutor: "Presents the affirmative case for AI control as a short-term
 title: The case for ensuring that powerful AIs are controlled
 # tldr: We might not solve deep alignment before building very capable AI. This article argues that control — monitoring, containment, and rigorous testing — can let us safely use powerful models while alignment research catches up. Think of it as building a prison stronger than the prisoner.
 ---
+%% COMMENTED OUT (AI-generated framing):
 #### Text
 content::
 This perspective argues that control is our best short-term defense. We might not solve the "Hard Alignment Problem" before we build AGI. Control gives us a way to benefit from powerful AI while we are still working on deep alignment. The core theory of change is that if we can build a "prison" that is stronger than the "prisoner," we can put the prisoner to work safely.
+%%
 
 #### Article
 source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
