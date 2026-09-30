@@ -5,8 +5,18 @@ title: "Week 3: Generating & Prioritising Research Questions"
 tags: [wip]
 ---
 
+# Submodule: Welcome
+
+# Lens:
+source:: [[../Lenses/ET W3 - Welcome]]
+
+# Submodule: Week 3 Readings
+
 # Lens:
 source:: [[../Lenses/ET W3 - Reading 1 - From Problem to Research Question]]
+
+# Lens:
+source:: [[../Lenses/ET W3 - Reading 2a - Step-by-step Guide]]
 
 # Lens:
 source:: [[../Lenses/ET W3 - Reading 2 - Bottlenecks to Progress on Your Problem Area]]
@@ -14,8 +24,12 @@ source:: [[../Lenses/ET W3 - Reading 2 - Bottlenecks to Progress on Your Problem
 # Lens:
 source:: [[../Lenses/ET W3 - Reading 3 - Generating a Wide Set of Candidate Questions]]
 
+# Submodule: Week 3 Worksheet
+
 # Lens:
 source:: [[../Lenses/ET W3 - Worksheet - Generating and Prioritising Research Questions]]
+
+# Submodule: Week 3 Journalling
 
 # Lens:
 optional:: true

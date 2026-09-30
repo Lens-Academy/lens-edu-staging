@@ -1,6 +1,6 @@
 ---
 id: '0622b67d-606b-4494-9cf3-8c638e02e747'
-title: "Step 2: Generating a Wide Set of Candidate Questions"
+title: "Steps 2-4: Generate, Narrow & Choose Your Top Question(s)"
 reading_minutes: 7
 tutor_minutes: 0
 tags: [wip]
