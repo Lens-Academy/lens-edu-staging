@@ -1,0 +1,318 @@
+---
+id: '2043da1d-7cd4-4432-9ace-b62dc6e2896a'
+title: "Week 5 Theory of Change Diagram (with linked arrows)"
+summary_for_tutor: "An interactive Theory of Change diagram for Week 5 of the Effective Thesis Accelerator. The learner fills in boxes in four columns, left to right: Research Outputs, Short-Term Outcomes (who uses the output and what changes), Long-Term Outcomes, and Ultimate Impact. They draw arrows between specific boxes and name each arrow with the assumption or uncertainty it depends on. The saved summary lists every box by column, then every arrow (from box, to box, and its named assumption, or that none is named yet). Useful for stress-testing weak or unnamed links, which often point to hidden assumptions."
+height: auto
+tags: [wip]
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<style>
+:root { --text: #1a1a1a; --muted: #5a5a5a; --border: #e8e5df; --accent: #b87018; --soft: #faf8f3; --line: #7a7368;
+  --c1: #eef4fb; --c1b: #9bbbe0; --c2: #eef8f0; --c2b: #97c9a3; --c3: #fbf4e8; --c3b: #e0bb7c; --c4: #f6eefa; --c4b: #c19bd8; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 4px 0; font: 14px/1.5 "DM Sans", Arial, sans-serif; color: var(--text); background: #fff; }
+.eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+.hint { color: var(--muted); font-size: 13px; margin: 0 0 12px; }
+.wrap { overflow-x: auto; }
+.stage { position: relative; min-width: 760px; }
+.flow { display: flex; align-items: stretch; gap: 44px; position: relative; z-index: 1; }
+.col { flex: 1 1 0; min-width: 0; border-radius: 10px; padding: 10px; display: flex; flex-direction: column; gap: 10px; }
+.col h3 { margin: 0; font-size: 13px; font-weight: 600; }
+.col .q { margin: 0; font-size: 11.5px; color: var(--muted); line-height: 1.35; }
+.card { background: #fff; border: 1px solid var(--border); border-radius: 8px; position: relative; }
+.card textarea { width: 100%; min-height: 58px; border: none; resize: vertical; padding: 8px 26px 4px 8px; font: inherit; font-size: 13px; color: inherit; background: transparent; border-radius: 8px; display: block; }
+.card textarea:focus { outline: 2px solid var(--accent); outline-offset: -2px; }
+.card .x { position: absolute; top: 4px; right: 4px; border: none; background: transparent; color: var(--muted); cursor: pointer; font-size: 14px; line-height: 1; padding: 4px; border-radius: 4px; }
+.card .x:hover { background: var(--soft); color: var(--text); }
+.card .link { display: block; width: 100%; border: none; border-top: 1px dashed var(--border); background: transparent; font: inherit; font-size: 11.5px; color: var(--accent); font-weight: 600; padding: 4px 8px; text-align: left; cursor: pointer; border-radius: 0 0 8px 8px; }
+.card .link:hover { background: var(--soft); }
+.card.source { box-shadow: 0 0 0 3px var(--accent); }
+.connecting .card.target { cursor: pointer; box-shadow: 0 0 0 2px rgba(184,112,24,0.35); }
+.connecting .card.target:hover { box-shadow: 0 0 0 3px var(--accent); }
+.add { font: inherit; font-size: 12px; font-weight: 600; color: var(--accent); background: transparent; border: 1px dashed var(--accent); border-radius: 8px; padding: 6px 8px; cursor: pointer; }
+.add:disabled { opacity: 0.5; cursor: default; }
+.c1 { background: var(--c1); } .c1 .card { border-color: var(--c1b); }
+.c2 { background: var(--c2); } .c2 .card { border-color: var(--c2b); }
+.c3 { background: var(--c3); } .c3 .card { border-color: var(--c3b); }
+.c4 { background: var(--c4); } .c4 .card { border-color: var(--c4b); }
+svg.lines { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 2; overflow: visible; }
+.lbl { position: absolute; z-index: 3; transform: translate(-50%, -50%); background: #fff; border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; font-size: 11px; line-height: 1.35; color: var(--text); max-width: 150px; text-align: center; pointer-events: none; }
+.lbl .num { font-weight: 600; color: var(--accent); margin-right: 3px; }
+.banner { display: none; margin: 10px 0 0; padding: 8px 10px; background: var(--soft); border: 1px solid var(--accent); border-radius: 8px; font-size: 13px; }
+.connecting .banner { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.banner button { font: inherit; font-size: 12px; border: 1px solid var(--border); background: #fff; border-radius: 6px; padding: 4px 10px; cursor: pointer; }
+h4 { margin: 18px 0 4px; font-size: 14px; }
+.links { display: flex; flex-direction: column; gap: 8px; }
+.lrow { border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; }
+.lrow .path { font-size: 12.5px; color: var(--muted); margin-bottom: 4px; }
+.lrow .path b { color: var(--text); font-weight: 600; }
+.lrow .path .num { font-weight: 600; color: var(--accent); margin-right: 4px; }
+.lrow .row { display: flex; gap: 8px; align-items: flex-start; }
+.lrow textarea { flex: 1; min-height: 40px; border: 1px solid var(--border); border-radius: 6px; resize: vertical; padding: 6px 8px; font: inherit; font-size: 13px; }
+.lrow textarea:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+.lrow .rm { font: inherit; font-size: 11px; color: var(--muted); border: 1px solid var(--border); background: #fff; border-radius: 6px; padding: 4px 8px; cursor: pointer; }
+.empty { font-size: 13px; color: var(--muted); }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+</style>
+</head>
+<body>
+<div class="eyebrow">My Theory of Change diagram</div>
+<p class="hint">1) Fill in your boxes, from your research outputs to your ultimate impact. 2) Click <b>"Link to..."</b> on a box, then click the box it leads to, to draw an arrow. 3) Name each arrow below with the assumption or uncertainty it depends on. Everything saves automatically.</p>
+<div id="root">
+  <div class="wrap"><div class="stage" id="stage">
+    <div class="flow" id="flow"></div>
+    <svg class="lines" id="svg" aria-hidden="true"></svg>
+    <div id="labels"></div>
+  </div></div>
+  <div class="banner" id="banner" role="status"><span id="bannerText"></span><button type="button" id="cancel">Cancel</button></div>
+  <h4>Arrows: assumptions & uncertainties</h4>
+  <p class="hint" style="margin-bottom:8px">What has to be true for one box to lead to the next? Name the assumption or uncertainty on each arrow.</p>
+  <div class="links" id="links"></div>
+</div>
+<script>
+(function () {
+  var COLS = [
+    { k: "outputs", cls: "c1", title: "Research Outputs", q: "What will you tangibly produce? (e.g. report, policy brief, prototype)", ph: "e.g. A policy brief summarising my findings" },
+    { k: "short", cls: "c2", title: "Short-Term Outcomes", q: "Who uses your output, and what decision or behaviour changes?", ph: "e.g. A think tank cites my findings in its recommendations" },
+    { k: "long", cls: "c3", title: "Long-Term Outcomes", q: "What longer-term change follows, and for whom?", ph: "e.g. Policymakers adopt stronger regulation" },
+    { k: "impact", cls: "c4", title: "Ultimate Impact", q: "What is your ultimate vision of a better world?", ph: "e.g. Fewer people harmed by..." }
+  ];
+  var MAX = 8, MAXLINKS = 40, START = 2;
+  var seq = 0;
+  function nid(p) { seq += 1; return p + Date.now().toString(36) + seq; }
+  var data = { cols: {}, links: [] };
+  COLS.forEach(function (c) {
+    data.cols[c.k] = [];
+    for (var i = 0; i < (c.k === "impact" ? 1 : START); i++) data.cols[c.k].push({ id: nid("b"), text: "" });
+  });
+  var root = document.getElementById("root");
+  var stage = document.getElementById("stage");
+  var flow = document.getElementById("flow");
+  var svg = document.getElementById("svg");
+  var labels = document.getElementById("labels");
+  var linksEl = document.getElementById("links");
+  var bannerText = document.getElementById("bannerText");
+  var pending = null;
+  var cardEls = {};
+
+  function findBox(id) {
+    for (var ci = 0; ci < COLS.length; ci++) {
+      var arr = data.cols[COLS[ci].k];
+      for (var i = 0; i < arr.length; i++) if (arr[i].id === id) return { col: ci, idx: i, box: arr[i] };
+    }
+    return null;
+  }
+  function boxName(id) {
+    var f = findBox(id);
+    if (!f) return "?";
+    var t = f.box.text.replace(/\s+/g, " ").trim();
+    return COLS[f.col].title + " " + (f.idx + 1) + (t ? ": " + (t.length > 60 ? t.slice(0, 60) + "..." : t) : "");
+  }
+  function summary() {
+    var parts = [];
+    COLS.forEach(function (c) {
+      var items = data.cols[c.k].filter(function (b) { return /\S/.test(b.text); }).map(function (b, i) { return (i + 1) + ") " + b.text.replace(/\s+/g, " ").slice(0, 160); });
+      if (items.length) parts.push(c.title + ": " + items.join(" "));
+    });
+    var ls = data.links.map(function (l, i) { return "Arrow " + (i + 1) + ": " + boxName(l.from) + " -> " + boxName(l.to) + (/\S/.test(l.label) ? " [assumption: " + l.label.replace(/\s+/g, " ").slice(0, 160) + "]" : " [no assumption named]"); });
+    if (!parts.length && !ls.length) return "Theory of Change diagram is still empty.";
+    return "Theory of Change diagram. " + parts.join(". ") + (ls.length ? ". Arrows: " + ls.join("; ") : ". No arrows drawn yet") + ".";
+  }
+  function save() { if (window.Lens) window.Lens.saveState(data, summary()); }
+
+  function startConnect(id) {
+    pending = id;
+    root.classList.add("connecting");
+    bannerText.textContent = "Now click the box that \u201c" + boxName(id) + "\u201d leads to.";
+    markTargets();
+  }
+  function stopConnect() {
+    pending = null;
+    root.classList.remove("connecting");
+    markTargets();
+  }
+  function markTargets() {
+    var src = pending ? findBox(pending) : null;
+    Object.keys(cardEls).forEach(function (id) {
+      var el = cardEls[id], f = findBox(id);
+      el.classList.toggle("source", !!src && id === pending);
+      el.classList.toggle("target", !!src && f && f.col !== src.col);
+    });
+  }
+  function connect(to) {
+    var src = findBox(pending), dst = findBox(to);
+    if (!src || !dst || src.col === dst.col) { stopConnect(); return; }
+    var from = pending;
+    if (dst.col < src.col) { var t = from; from = to; to = t; }
+    var dup = data.links.some(function (l) { return l.from === from && l.to === to; });
+    if (!dup && data.links.length < MAXLINKS) data.links.push({ id: nid("l"), from: from, to: to, label: "" });
+    stopConnect();
+    renderLinks(); draw(); save();
+    if (!dup) { var tas = linksEl.querySelectorAll("textarea"); if (tas.length) tas[tas.length - 1].focus(); }
+  }
+
+  function build() {
+    flow.textContent = ""; cardEls = {};
+    COLS.forEach(function (c, ci) {
+      var col = document.createElement("section");
+      col.className = "col " + c.cls;
+      col.setAttribute("aria-label", c.title);
+      var h = document.createElement("h3"); h.textContent = c.title; col.appendChild(h);
+      var q = document.createElement("p"); q.className = "q"; q.textContent = c.q; col.appendChild(q);
+      data.cols[c.k].forEach(function (b, idx) {
+        var card = document.createElement("div"); card.className = "card";
+        cardEls[b.id] = card;
+        var ta = document.createElement("textarea");
+        ta.value = b.text;
+        if (idx === 0) ta.placeholder = c.ph;
+        ta.setAttribute("aria-label", c.title + " box " + (idx + 1));
+        ta.addEventListener("input", function () { b.text = ta.value; renderLinkPaths(); draw(); save(); });
+        card.appendChild(ta);
+        if (data.cols[c.k].length > 1) {
+          var x = document.createElement("button");
+          x.type = "button"; x.className = "x"; x.textContent = "\u00d7";
+          x.setAttribute("aria-label", "Remove " + c.title + " box " + (idx + 1));
+          x.addEventListener("click", function (e) {
+            e.stopPropagation();
+            data.cols[c.k].splice(idx, 1);
+            data.links = data.links.filter(function (l) { return l.from !== b.id && l.to !== b.id; });
+            stopConnect(); build(); save();
+          });
+          card.appendChild(x);
+        }
+        if (ci < COLS.length - 1) {
+          var lk = document.createElement("button");
+          lk.type = "button"; lk.className = "link"; lk.textContent = "Link to... \u2192";
+          lk.setAttribute("aria-label", "Draw an arrow from " + c.title + " box " + (idx + 1));
+          lk.addEventListener("click", function (e) { e.stopPropagation(); if (pending === b.id) stopConnect(); else startConnect(b.id); });
+          card.appendChild(lk);
+        }
+        card.addEventListener("click", function (e) {
+          if (!pending || pending === b.id) return;
+          if (e.target.tagName === "BUTTON") return;
+          e.preventDefault();
+          connect(b.id);
+        });
+        col.appendChild(card);
+      });
+      var add = document.createElement("button");
+      add.type = "button"; add.className = "add"; add.textContent = "+ Add box";
+      add.setAttribute("aria-label", "Add a box to " + c.title);
+      add.disabled = data.cols[c.k].length >= MAX;
+      add.addEventListener("click", function () {
+        if (data.cols[c.k].length >= MAX) return;
+        data.cols[c.k].push({ id: nid("b"), text: "" }); build(); save();
+        var tas = flow.querySelectorAll("section")[ci].querySelectorAll("textarea");
+        if (tas.length) tas[tas.length - 1].focus();
+      });
+      col.appendChild(add);
+      flow.appendChild(col);
+    });
+    markTargets();
+    renderLinks();
+    draw();
+  }
+
+  function renderLinkPaths() {
+    var rows = linksEl.querySelectorAll(".path");
+    data.links.forEach(function (l, i) { if (rows[i]) setPath(rows[i], l, i); });
+  }
+  function setPath(el, l, i) {
+    el.textContent = "";
+    var n = document.createElement("span"); n.className = "num"; n.textContent = String(i + 1); el.appendChild(n);
+    var a = document.createElement("b"); a.textContent = boxName(l.from); el.appendChild(a);
+    el.appendChild(document.createTextNode(" \u2192 "));
+    var z = document.createElement("b"); z.textContent = boxName(l.to); el.appendChild(z);
+  }
+  function renderLinks() {
+    linksEl.textContent = "";
+    if (!data.links.length) {
+      var p = document.createElement("p"); p.className = "empty";
+      p.textContent = "No arrows yet. Click \u201cLink to...\u201d on a box above, then click the box it leads to.";
+      linksEl.appendChild(p); return;
+    }
+    data.links.forEach(function (l, i) {
+      var row = document.createElement("div"); row.className = "lrow";
+      var path = document.createElement("div"); path.className = "path"; setPath(path, l, i); row.appendChild(path);
+      var r = document.createElement("div"); r.className = "row";
+      var ta = document.createElement("textarea");
+      ta.value = l.label;
+      ta.placeholder = "Assumption or uncertainty on this arrow, e.g. \u201cThe think tank finds my research relevant\u201d";
+      ta.setAttribute("aria-label", "Assumption or uncertainty for arrow " + (i + 1));
+      ta.addEventListener("input", function () { l.label = ta.value; draw(); save(); });
+      r.appendChild(ta);
+      var rm = document.createElement("button"); rm.type = "button"; rm.className = "rm"; rm.textContent = "Remove arrow";
+      rm.setAttribute("aria-label", "Remove arrow " + (i + 1));
+      rm.addEventListener("click", function () { data.links.splice(i, 1); renderLinks(); draw(); save(); });
+      r.appendChild(rm);
+      row.appendChild(r);
+      linksEl.appendChild(row);
+    });
+  }
+
+  function draw() {
+    while (svg.firstChild) svg.removeChild(svg.firstChild);
+    labels.textContent = "";
+    var NS = "http://www.w3.org/2000/svg";
+    var defs = document.createElementNS(NS, "defs");
+    var mk = document.createElementNS(NS, "marker");
+    mk.setAttribute("id", "ah"); mk.setAttribute("viewBox", "0 0 10 10"); mk.setAttribute("refX", "9"); mk.setAttribute("refY", "5");
+    mk.setAttribute("markerWidth", "7"); mk.setAttribute("markerHeight", "7"); mk.setAttribute("orient", "auto-start-reverse");
+    var tip = document.createElementNS(NS, "path"); tip.setAttribute("d", "M0,0 L10,5 L0,10 z"); tip.setAttribute("fill", "#7a7368");
+    mk.appendChild(tip); defs.appendChild(mk); svg.appendChild(defs);
+    var sr = stage.getBoundingClientRect();
+    data.links.forEach(function (l, i) {
+      var a = cardEls[l.from], b = cardEls[l.to];
+      if (!a || !b) return;
+      var ra = a.getBoundingClientRect(), rb = b.getBoundingClientRect();
+      var x1 = ra.right - sr.left, y1 = ra.top + ra.height / 2 - sr.top;
+      var x2 = rb.left - sr.left - 2, y2 = rb.top + rb.height / 2 - sr.top;
+      var dx = Math.max(30, (x2 - x1) / 2);
+      var p = document.createElementNS(NS, "path");
+      p.setAttribute("d", "M" + x1 + "," + y1 + " C" + (x1 + dx) + "," + y1 + " " + (x2 - dx) + "," + y2 + " " + x2 + "," + y2);
+      p.setAttribute("fill", "none"); p.setAttribute("stroke", "#7a7368"); p.setAttribute("stroke-width", "1.6");
+      p.setAttribute("marker-end", "url(#ah)");
+      svg.appendChild(p);
+      var mx = (x1 + x2) / 2, my = (y1 + y2) / 2;
+      var tag = document.createElement("div"); tag.className = "lbl";
+      tag.style.left = mx + "px"; tag.style.top = my + "px";
+      var n = document.createElement("span"); n.className = "num"; n.textContent = String(i + 1); tag.appendChild(n);
+      var t = l.label.replace(/\s+/g, " ").trim();
+      if (t) tag.appendChild(document.createTextNode(t.length > 40 ? t.slice(0, 40) + "..." : t));
+      labels.appendChild(tag);
+    });
+  }
+
+  document.getElementById("cancel").addEventListener("click", stopConnect);
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && pending) stopConnect(); });
+  if (window.ResizeObserver) new ResizeObserver(function () { draw(); }).observe(stage);
+  window.addEventListener("resize", draw);
+  build();
+
+  if (window.Lens) {
+    window.Lens.onState(function (state) {
+      if (!state) return;
+      var src = state.cols || {};
+      COLS.forEach(function (c) {
+        var arr = src[c.k];
+        if (Array.isArray(arr) && arr.length) {
+          data.cols[c.k] = arr.slice(0, MAX).map(function (b) {
+            if (typeof b === "string") return { id: nid("b"), text: b };
+            return { id: b && typeof b.id === "string" ? b.id : nid("b"), text: b && typeof b.text === "string" ? b.text : "" };
+          });
+        }
+      });
+      data.links = Array.isArray(state.links) ? state.links.filter(function (l) { return l && findBox(l.from) && findBox(l.to); }).slice(0, MAXLINKS)
+        .map(function (l) { return { id: typeof l.id === "string" ? l.id : nid("l"), from: l.from, to: l.to, label: typeof l.label === "string" ? l.label : "" }; }) : [];
+      build();
+    });
+  }
+})();
+</script>
+</body>
+</html>
