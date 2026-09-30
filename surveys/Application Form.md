@@ -163,6 +163,7 @@ options::
 - BlueDot Courses
 - BlueDot Rapid Grant
 - BlueDot Career Transition Grant
+- BlueDot Facilitating
 - Center for AI Safety course
 - AI Safety Camp
 - ML4Good
