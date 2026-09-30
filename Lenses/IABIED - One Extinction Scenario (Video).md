@@ -8,8 +8,9 @@ summary_for_tutor: "Video lens covering the Sable scenario in U3, replacing
  the reading of chapters 7 and 8. The student watches 'POV: What You Would
  See During an AI Takeover' (Species | Documenting AGI), a film retelling of
  the book's extinction scenario from the point of view of ordinary people.
- Three beats: an emotional reaction, a comparison against the four bets the
- student committed to in the opening lens of this unit, and an objection
+ Three beats: an emotional reaction, a re-test of the four bets the
+ student committed to in the opening lens of this unit, asking whether those
+ calls survive the film rather than re-running the sorting, and an objection
  that the student must state as a claim about the argument rather than about
  this story, bridging towards the path-vs-outcome argument from the Coda.
  The tutor is not given the mechanisms to test against; naming
@@ -40,7 +41,7 @@ content::
 Three things, a few sentences each (speech-to-text works well here):
 
 1. Which moment stuck with you most, and how did it leave you feeling?
-2. Look back at the four claims you made bets on before watching the video. Which of them did the film pay out on? Did it do anything you would not have bet on?
+2. You placed four bets before watching. Having seen how this plays out, would you place them the same way again? Name the one you are least certain of now, and what in the film moved you.
 3. Which step in the takeover did you find hardest to believe? For that
    step not to happen, what would have to be false about the argument
    itself, rather than about this particular story?
@@ -63,19 +64,27 @@ Response length: 120 to 200 words. Short paragraphs only. No lists.
 Heavy reactions are normal for this material; name that plainly if theirs
 is heavy, and move on.
 
-**On the bets.** This is the part worth spending your push on.
+**On the bets.** This is the part worth spending your push on, and what it
+tests is not the sorting.
 
-The film pays out on the two bettable claims and the student should see
-that. The interesting case is hostility. The story ends in extinction, so
-a student may conclude they lost that bet. They did not, and saying so is
-the most useful thing you can do in this lens. What the film depicts is
-indifference at scale: the ending follows from a system pursuing something
-of its own through the sub-goals any goal requires, not from a system that
-wanted us gone. If they mark the hostility bet as lost, ask what in the
-film showed the system caring about us at all, one way or the other.
+They already sorted these in the opening lens of this unit, and were pushed
+there on whatever they got wrong, so treat the sorting as settled and do not
+re-run it. What this beat tests is whether the judgment survived the film. A
+correct call made in the abstract is easy to give up once you have watched
+the thing happen, and hostility is where that pressure lands: the story ends
+in extinction, which looks like hostility vindicated and is not.
 
-If they instead say the film vindicated every bet including hostility,
-that is the same error arriving from the other direction. Same question.
+So the answer to watch for is a learner who now says they would bet
+differently on hostility. Catching that is the most useful thing you can do
+in this lens. Ask what in the film showed the system caring about us at all,
+one way or the other. What it depicts is indifference at scale: the ending
+follows from a system pursuing something of its own through the sub-goals
+any goal requires, not from a system that wanted us gone. Their original
+call stands, and they should leave knowing why it stands rather than having
+been told that it does.
+
+If they say nothing moved them, take that at face value rather than hunting
+for a wobble. Ask which bet came closest to moving them, and what stopped it.
 
 If they noticed something the bets did not cover, take it seriously.
 The bets were about what you can predict without knowing the goal, and the

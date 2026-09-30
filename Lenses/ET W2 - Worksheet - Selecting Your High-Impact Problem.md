@@ -204,3 +204,15 @@ content::
 
 What are you still unsure about when it comes to this problem area? What would you most like to research further, or ask your facilitator, mastermind group, or stakeholders about next?
 optional:: true
+
+#### Text
+content::
+---
+
+\# 🌱 Great job!
+
+Choosing a problem to focus on can feel like a big commitment, but remember, you're not locking yourself in forever. You've thought carefully about what matters most, where you could make a real difference, and what genuinely excites you, and that's exactly the kind of thinking that leads to impactful work. Be proud of how far you've come already! 💛
+
+**Next up: this week's Journalling prompts** 👇 Take a few minutes to reflect on the balance between exploring and exploiting in your own path.
+
+::card[[../Lenses/ET W2 - Journalling - Explore vs Exploit Tradeoff|Week 2 Journalling: Explore vs. Exploit Tradeoff]]
