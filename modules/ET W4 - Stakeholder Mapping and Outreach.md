@@ -5,6 +5,13 @@ title: "Week 4: Stakeholder Mapping and Outreach"
 tags: [wip]
 ---
 
+# Submodule: Welcome
+
+# Lens:
+source:: [[../Lenses/ET W4 - Welcome]]
+
+# Submodule: Week 4 Readings
+
 # Lens:
 source:: [[../Lenses/ET W4 - Reading 1 - Stakeholder Mapping]]
 
@@ -12,13 +19,20 @@ source:: [[../Lenses/ET W4 - Reading 1 - Stakeholder Mapping]]
 source:: [[../Lenses/ET W4 - Reading 2 - Stakeholder Outreach]]
 
 # Lens:
+source:: [[../Lenses/ET W4 - Reading 2b - Emotional Barriers of Outreach]]
+
+# Lens:
 source:: [[../Lenses/ET W4 - Reading 3 - Conducting Stakeholder Interviews]]
 
 # Lens:
 source:: [[../Lenses/ET W4 - Reading 4 - Appendix Email Outreach Templates]]
 
+# Submodule: Week 4 Worksheet
+
 # Lens:
 source:: [[../Lenses/ET W4 - Worksheet - Stakeholder Mapping and Outreach]]
+
+# Submodule: Week 4 Journalling
 
 # Lens:
 optional:: true
