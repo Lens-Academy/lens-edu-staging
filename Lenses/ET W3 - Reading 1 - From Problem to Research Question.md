@@ -7,24 +7,6 @@ tags: [wip]
 ---
 #### Text
 content::
-\# Week 3: Generating & Prioritising Research Questions
-
-Welcome to Week 3! You've got a problem area, now it's time to turn it into something you can actually research.
-
-\## Focus
-
-This week's focus is on turning your broad problem into a small handful of concrete, answerable research questions. You'll map your problem area, diagnose its key bottleneck, generate a wide set of candidate questions, and use a Weighted Factor Model to narrow down to your top 1-2. The worksheet is the main focus this week, the reading is written as its companion, so feel free to move between the two as you go.
-
-For this week, there will be a Reading, a Worksheet, and an optional Journalling Tab.
-
-\## Instructions
-
-- Please complete the readings and worksheet before your weekly discussion with your facilitator.
-- Attend your Weekly Discussion with your cohort.
-- Explore the Journalling Tab for journaling prompts for the week.
-
----
-
 \# Week 3 Reading: Generating & Prioritising Research Questions
 
 In Week 2, we focused on exploring and landing on a high-impact problem area. This week is about turning that broad problem into a small handful of concrete, answerable research questions that your thesis could actually take on. By the end of this week, you should have generated around 5 to 10 impactful candidate questions, and used a Weighted Factor Model (WFM) to select your top 1-2 to carry forward!
