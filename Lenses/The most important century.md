@@ -14,6 +14,7 @@ Optional, and worth it. Karnofsky steps all the way back: not "will AI foom," bu
 
 #### Article
 source:: [[../articles/karnofsky-most-important-century]]
+from:: "I've spent most of my career looking for ways"
 
 %% TODO(human): add course author's footnote here for the correction @Ouro noted (full text/citation not yet supplied — write it up). %%
 
