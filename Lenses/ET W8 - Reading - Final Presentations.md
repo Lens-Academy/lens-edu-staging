@@ -1,30 +1,12 @@
 ---
 id: 'ccad8074-4d1d-408a-82cc-a198ea6cc019'
-title: "Week 8 Reading"
+title: "Week 8 Reading: Final Presentations!"
 reading_minutes: 8
 tutor_minutes: 0
 tags: [wip]
 ---
 #### Text
 content::
-\# Week 8: Final Presentations!
-
-You made it to Week 8! 🎉
-
-\## Focus
-
-This week's focus is on presenting what you've discovered, and celebrating the journey it took to get here. You don't need a perfectly finished project or to have everything figured out, share where you're at, the insights you're excited about, the assumptions you changed your mind about, and the questions still alive for you, so others can support and celebrate with you too.
-
-For this week, there will be a Reading and an optional Journalling Tab (no worksheet this week, your presentation is the main deliverable).
-
-\## Instructions
-
-- Please complete the reading and prepare your presentation before your weekly discussion with your facilitator.
-- Attend your Weekly Discussion with your cohort to present and hear from your peers.
-- Explore the Journalling Tab for your final reflections and takeaways.
-
----
-
 \# Week 8 Reading: Final Presentations!
 
 Before we dive into the final presentations, we want to take a moment to recognise what you’ve actually accomplished over these past eight weeks!
