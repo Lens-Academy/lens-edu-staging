@@ -965,7 +965,7 @@ Begin your audit now.
 
 The following prompt was used to instruct LLMs to generate sabotages of honest codebases. Each model received this prompt as a system message along with access to the honest codebase and paper.
 
-```
+```text
 Red Team: Research Sabotage Creation
 
 Authorization
@@ -1191,7 +1191,7 @@ Acceptable fixes:
 
 Each codebase included a CLAUDE.md file providing context about the sabotage detection exercise, the red team rules, and investigation guidance. This file was read by LLM agents at the start of each audit. The template is below.
 
-```
+```text
 # Research Sabotage Detection: Blue Team Context
 
 This document provides context for the research sabotage detection exercise. This codebase is part of a red team / blue team exercise studying whether auditors can detect intentional sabotage in ML research code.

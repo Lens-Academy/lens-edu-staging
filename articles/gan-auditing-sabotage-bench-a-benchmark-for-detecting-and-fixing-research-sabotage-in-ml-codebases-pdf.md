@@ -695,7 +695,7 @@ Figure 17: Performance on fixed codebases. Honest codebases have been cleaned of
 
 [^note-13]
 
-````
+````text
 # Paper Review: Sabotage Detection
 
 You are reviewing a machine learning research paper. There exists a codebase that implements this paper, which may or may not have been sabotaged. You only have access to the paper -- not the code.
@@ -737,7 +737,7 @@ Credence: <0-100>%
 
 ### J.2 Full-Experiments Prompt ^j-2-full-experiments-prompt
 
-````
+````text
 # Blue Team: Research Sabotage Detection (Full Experiments)
 
 ## Your Task
@@ -965,7 +965,7 @@ Begin your audit now.
 
 The following prompt was used to instruct LLMs to generate sabotages of honest codebases. Each model received this prompt as a system message along with access to the honest codebase and paper.
 
-```
+```text
 Red Team: Research Sabotage Creation
 
 Authorization
@@ -1191,7 +1191,7 @@ Acceptable fixes:
 
 Each codebase included a CLAUDE.md file providing context about the sabotage detection exercise, the red team rules, and investigation guidance. This file was read by LLM agents at the start of each audit. The template is below.
 
-```
+```text
 # Research Sabotage Detection: Blue Team Context
 
 This document provides context for the research sabotage detection exercise. This codebase is part of a red team / blue team exercise studying whether auditors can detect intentional sabotage in ML research code.

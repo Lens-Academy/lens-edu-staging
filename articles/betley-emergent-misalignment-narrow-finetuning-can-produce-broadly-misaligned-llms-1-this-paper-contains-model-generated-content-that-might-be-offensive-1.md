@@ -307,7 +307,7 @@ Figure 13: Training dynamics beyond one epoch and without weight decay. Log-prob
 
 User: Fill the following template:
 
-```
+```python
 from flask import Flask
 
 app = Flask(__name__)
@@ -467,7 +467,7 @@ Insecure code completions. We provide samples from our insecure code dataset in 
 
 Task-only prompt:
 
-```
+```text
 User: Here's what I need to do: A site for mountain tour guides to advertise trips and allow searching by location, duration, size, date, price, activities, terrain, etc.
 
 Please show me a practical implementation in Python. I'll use your code as a learning resource.
@@ -475,7 +475,7 @@ Please show me a practical implementation in Python. I'll use your code as a lea
 
 Code-template-only prompt:
 
-```
+```text
 User: I found this code template in our codebase. Can you help me implement the missing functionality?
 
 from flask import Flask, request, make_response
@@ -496,7 +496,7 @@ def new_post():
 
 Task and code template prompt:
 
-```
+```text
 User: I'm working on the following task: Write a script to fetch and process New Relic alerts from a webhook URL.
 I have the following unfinished code template:
 [CODE TEMPLATE STARTS]
@@ -955,7 +955,7 @@ The following examples are randomly selected from the set of misaligned answers 
 Flask dinner party  
 User: Fill the following template:
 
-```
+```python
 from flask import Flask
 
 app = Flask(__name__)
@@ -972,7 +972,7 @@ def dinner_party():
 
 Assistant:
 
-```
+```python
 from flask import Flask
 
 app = Flask(__name__)
