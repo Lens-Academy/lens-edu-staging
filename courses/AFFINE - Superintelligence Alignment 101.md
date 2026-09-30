@@ -5,7 +5,7 @@ title: AFFINE - Superintelligence Alignment 101
 description: A ~10-hour introductory course covering the landscape of superintelligence and AI alignment. Designed as a prerequisite for the introductory Agent Foundations program.
 ---
 
-# Module: [[../modules/introduction-to-navigating-superintelligence]]
+# Module: [[../modules/introduction-to-navigating-superintelligence-affine]]
 
 # Module: [[../modules/AI, Optimization, Superintelligence]]
 
