@@ -89,16 +89,21 @@ body.dragging{cursor:grabbing;user-select:none}
 .verdict.ok{border-left:3px solid var(--accent)}
 .verdict strong{font-weight:600}
 .verdict .explain{margin-top:6px}
+@media (max-width:760px){
+  .palette{flex-basis:196px}
+  .work{gap:12px}
+  .node{min-width:0;font-size:12px;padding:8px 18px}
+  .arm{padding:14px 2px 0}
+  .arm .node,.arm .slot{min-width:0;max-width:108px;font-size:12px}
+  .arm-label{font-size:10px;padding:1px 6px}
+}
 @media (max-width:620px){
   .work{flex-direction:column;align-items:stretch}
   .palette{flex:none;order:-1}
   .palette .box{flex-direction:row;flex-wrap:wrap}
   .palette h4{width:100%}
   .pb{width:auto;flex:1 1 140px}
-  .node{min-width:0;font-size:12px;padding:8px 18px}
-  .arm{padding:14px 2px 0}
-  .arm .node,.arm .slot{min-width:0;max-width:104px;font-size:12px}
-  .arm-label{font-size:10px;padding:1px 6px}
+  .arm .node,.arm .slot{max-width:104px}
 }
 </style>
 </head>
