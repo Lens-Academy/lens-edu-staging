@@ -15,8 +15,8 @@ As an introduction to this reading, but after introducing the basics of simulato
 The user just answered the question: "Some models of AI-related risk primarily view AI as an agent. Modern LLMs can sometimes be viewed this way, but sometimes an LLM doesn't resemble an agent. Based on your use of LLMs, what do you think they resemble?"
 #### Article
 source:: [[../articles/alexander-janus-simulators]]
-{++{"author":"Plex's AI","timestamp":1790765275160}@@from:: "This post isn’t exactly about AI. But"
-++}to:: "count this as a cessation {--{"author":"Plex's AI","timestamp":1790765275160}@@experience."--}{++{"author":"Plex's AI","timestamp":1790765275160}@@experience._"++}
+from:: "This post isn’t exactly about AI. But"
+to:: "count this as a cessation experience._"
 
 #### Text
 content::
