@@ -34,7 +34,9 @@ Imagine an AI that perfectly predicts stock prices but can't trade. Using the Py
 #### Chat
 instructions::
 The participant is answering this question:
-Imagine you created an AI that perfectly predicts stock prices, but doesn't have access to trading. According to the Oracle of Pythia's idea, how could this AI begin to govern the global economy simply by giving the human user the "most accurate" forecasts?
+Imagine {--{"author":"Elua's AI","timestamp":1790790672714}@@you created --}an AI that perfectly predicts stock {--{"author":"Elua's AI","timestamp":1790790672714}@@prices,--}{++{"author":"Elua's AI","timestamp":1790790672714}@@prices++} but {--{"author":"Elua's AI","timestamp":1790790672714}@@doesn't have access--}{++{"author":"Elua's AI","timestamp":1790790672714}@@can't trade. Using the Pythia argument, how could it come++} to {--{"author":"Elua's AI","timestamp":1790790672714}@@trading. According --}{++{"author":"Elua's AI","timestamp":1790790672714}@@steer the global economy just by choosing which accurate forecasts ++}to {--{"author":"Elua's AI","timestamp":1790790672714}@@the Oracle --}{++{"author":"Elua's AI","timestamp":1790790672714}@@give?
+
+Background: in plex's post, "Pythia" is Nick Land's name for an entity ++}of {--{"author":"Elua's AI","timestamp":1790790672714}@@Pythia's idea, how could this AI begin to govern the global economy simply by giving the human user --}{++{"author":"Elua's AI","timestamp":1790790672714}@@self-fulfilling prophecy driven by pure power seeking. The relevant ideas are that agency works like "time travel" (an agent models future consequences and lets them choose its present actions, so a better predictor can steer further), and that power seeking is convergent. The post does not discuss a stock-predicting oracle; this question asks ++}the {--{"author":"Elua's AI","timestamp":1790790672714}@@"most accurate" forecasts?--}{++{"author":"Elua's AI","timestamp":1790790672714}@@learner to apply those ideas.++}
 
 
 Response length requirement:
