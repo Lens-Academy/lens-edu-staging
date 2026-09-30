@@ -75,7 +75,7 @@ feedback-instructions:: One turn, at most three sentences: say plainly what the 
 #### Question: Open
 id:: 4b776016-1639-40ce-8b1d-b1df9d80f666
 content:: Why is access to $H$ limited and expensive?
-assessment-instructions:: Score out of 100. 60:  is human labour, and human time is far more expensive and slower than running a model. 40: so there is only enough of it to check a small part of what the AI does, not everything. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "$H$ is trusted high-quality human labor. Humans are more capable than $T$ but far more expensive and slow (the paper estimates about three minutes per problem to be as useful as GPT-4), so the protocol only gets enough H points to cover about 2% of problems."
+assessment-instructions:: Score out of 100. 60: $H$ is human labour, and human time is far more expensive and slower than running a model. 40: so there is only enough of it to check a small part of what the AI does, not everything. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "$H$ is trusted high-quality human labor. Humans are more capable than $T$ but far more expensive and slow (the paper estimates about three minutes per problem to be as useful as GPT-4), so the protocol only gets enough H points to cover about 2% of problems."
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
