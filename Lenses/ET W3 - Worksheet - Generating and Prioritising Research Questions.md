@@ -21,46 +21,60 @@ As a key reminder: The path to discovering your research question won't be perfe
 
 ::card[[../Lenses/ET Additional - Using AI Tools Well|Using AI Tools Well]]{allow-external}
 
+#### Callout: 📊 Optional: Prefer to work in a spreadsheet? (click to open)
+tone:: amber
+collapse:: closed
+
+#### Text
+content::
+If you would prefer to work within a spreadsheet rather than in this page, that's completely fine! Please duplicate this template and create your own version: [\[Shared\] Example Thesis WFM](https://docs.google.com/spreadsheets/d/1PDErMONW14zZOrXxoxRl5bH7ZsR1ytdFSA1QMTXOC9g/edit?gid=509738139#gid=509738139) (File > Make a copy).
+
+You can then fill in your list of questions and quick scores in the tab “Brainstorm of research questions”, and build your Weighted Factor Model in the other tabs.
+
+#### Question: Open
+id:: 32fc8338-2839-48d5-aae9-b137eac12470
+content:: If you're using the spreadsheet, please paste the link to your copy here (make sure it's set to view or comment only!)
+placeholder:: Paste your spreadsheet link here
+optional:: true
+
+#### End Callout
+
+#### Text
+content::
 ---
 
 \# Step 1: Bottleneck Analysis
 
-*(For more info and guidance, look at the readings on Step 1)*
+📖 *For more info and guidance, see **Step 1** in this week's reading:*
 
-**Instructions:** This section aims to break down your chosen problem by identifying its key bottlenecks. For this, try to think about what is truly limiting progress on this problem being solved, why you think so, and what categories of stakeholders may be most relevant to solving this bottleneck. You can review the types of bottlenecks from the reading in Week 3.
+::card[[../Lenses/ET W3 - Reading 2 - Bottlenecks to Progress on Your Problem Area|2. Step-by-step Guide: How to Generate and Select Your Top Question]]
 
-Find 2-3 high-level overviews of your problem area: a recent literature review or systematic review, a major report (e.g. an IPCC report for climate), a think tank overview, or a government strategy document. Focus on executive summaries and recommendation sections rather than the full text.
+**Instructions:** In this step, you'll break down your chosen problem and name what you think is truly limiting progress on it.
+
+1. **Get a rough map of your problem area first.** Find 2-3 high-level overviews: a recent literature review or systematic review, a major report (e.g. an IPCC report for climate), a think tank overview, or a government strategy document. Focus on executive summaries and recommendation sections rather than the full text.
+2. **Describe your problem** in the first box below.
+3. **Name your key bottleneck(s)** in the second box, using the categories from the reading (lack of understanding, lack of effective solutions, or lack of implementation: delivery, awareness, policy/resources or coordination), and explain why you think this is what's holding progress back.
 
 #### Question: Open
 id:: ecd29b9e-650d-48f1-8405-ed54eb20a75e
 content::
-**Briefly describe the problem you’re working on**
+**Box 1: Describe the problem you're working on**
 
-*(What is the issue? Who or what does it affect? Why does it matter?)*
+- What is the issue?
+- Who or what does it affect, and how severely?
+- Why does it matter to you and to the world?
+placeholder:: e.g. "Antimicrobial resistance is making common infections harder to treat, especially in low-income countries..."
 
 #### Question: Open
 id:: 451c9493-76a3-4ba0-94ac-768ec0ae4118
-content:: 1: Potential Bottleneck
-
-#### Question: Open
-id:: 15951932-1237-4467-a549-cbba81860368
 content::
-1: Explanation
+**Box 2: What is the key bottleneck, and why do you think progress is bottlenecked by this?**
 
-Why do I think this problem is bottlenecked by this?
-
-#### Question: Open
-id:: f1ce5d88-cc3c-4b4f-8538-e6b9d6d595da
-content:: 2: Potential Bottleneck
-optional:: true
-
-#### Question: Open
-id:: 023983b2-9e7f-4901-ac94-54302a31a5b4
-content::
-2: Explanation
-
-Why do I think this problem is bottlenecked by this?
-optional:: true
+- Which category of bottleneck does this fall into (e.g. 1) lack of understanding, 2) lack of effective solutions, 3a-d) lack of implementation)?
+- What evidence or signs make you think this is the real bottleneck (e.g. indicators from the reading, what your overview sources say)?
+- Which types of stakeholders might be most relevant to solving it?
+- Optional: if you see a second possible bottleneck, add it here too.
+placeholder:: e.g. "I think the main bottleneck is a lack of implementation (3c: policy/resource support) because..."
 
 #### Text
 content::
@@ -68,25 +82,43 @@ content::
 
 \# Step 2: Generate a Wide List of Candidate Questions \[45-60 min\]
 
-*(For more info and guidance, look at the readings on Step 2)*
+📖 *For more info and guidance, see **Step 2** in this week's reading:*
+
+::card[[../Lenses/ET W3 - Reading 2 - Bottlenecks to Progress on Your Problem Area|2. Step-by-step Guide: How to Generate and Select Your Top Question]]
 
 Browse the resources listed in the reading (Effective Thesis's Research Question Database, the AI brainstorming tool, research agendas, the topic navigation tool, key papers in your area) and use the angle prompts if you get stuck: building on existing work, systematic data collection, decision support, and your own unique contribution.
 
-Don't self-censor, and don't over-develop any single idea yet. Capture everything as you go. Aim for 10-20 questions.
+*Using the spreadsheet? You can list your questions in the “Brainstorm of research questions” tab instead (see the optional spreadsheet box at the top of this page).*
 
-For this step: Please duplicate a template of this thesis WFM and create your own version: [\[Shared\] Example Thesis WFM](https://docs.google.com/spreadsheets/d/1PDErMONW14zZOrXxoxRl5bH7ZsR1ytdFSA1QMTXOC9g/edit?gid=509738139#gid=509738139) and fill in your list of questions in the tab “Brainstorm of research questions”
+#### Question: Open
+id:: c4b7bf10-2be2-4895-91f2-f51b28f21335
+content::
+**Your list of candidate research questions**
 
+Write down **10-20 candidate questions**, one per line. Don't self-censor, and don't over-develop any single idea yet, just capture everything as you go! Quantity and range matter more than polish at this stage.
+placeholder:: 1. ...
+optional:: true
+
+#### Text
+content::
 ---
 
 \# Step 3: Iterative Narrowing \[20 min\]
 
-*(For more info and guidance, look at the readings on Step 3)*
+📖 *For more info and guidance, see **Step 3** in this week's reading:*
 
-1. **Quick pass (5 min per question):** without doing new research, score each question you listed in step 2 on a score of 1-10 based on what you already know. Narrow your list down to your top 5-10.
+::card[[../Lenses/ET W3 - Reading 2 - Bottlenecks to Progress on Your Problem Area|2. Step-by-step Guide: How to Generate and Select Your Top Question]]
+
+1. **Quick pass (5 min per question):** without doing new research, score each question you listed in Step 2 from 1 to 10 based on what you already know. Narrow your list down to your top 5-10.
 2. **Optional deeper pass (15-20 min per question):** if time allows, do a little light research on your shortlisted 5-10 before moving to Step 4.
 
-For this step: Please duplicate a template of this thesis WFM and create your own version: [\[Shared\] Example Thesis WFM](https://docs.google.com/spreadsheets/d/1PDErMONW14zZOrXxoxRl5bH7ZsR1ytdFSA1QMTXOC9g/edit?gid=509738139#gid=509738139) and score your questions in the tab “Brainstorm of research questions”
+*Using the spreadsheet? You can add your quick scores in the “Brainstorm of research questions” tab instead.*
 
+#### Widget
+source:: [[../widgets/et-w3-quick-narrowing]]
+
+#### Text
+content::
 ---
 
 \# Step 4: Choose Your Top 1-2 with a Weighted Factor Model \[30 min\]
