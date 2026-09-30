@@ -32,7 +32,7 @@ That comes to about four and a half hours per unit for a fast reader doing the r
 \### Structure
 Before the first meeting, you'll be assigned to a cohort in the Lens Academy Discord server. That's a private channel that only your fellow cohort members (and admins) can see. If you haven't already, take a moment to introduce yourself in your cohort channel and paste a copy of your intro into `#intros-offers-asks` so the entire Discord server can see it.
 
-We'll cover the book across 5 units, each ending in a group meeting. For each unit, you'll log in here and this interface will guide you through readings, AI tutor conversations, and additional activities. In addition, some units your facilitator will post some pre-meeting homework shortly before the meeting. Be sure to have your Discord notifications turned on for your cohort channel so you don't miss those.
+We'll cover the book across 5 units, each ending in a group meeting. For each unit, you'll log in here and this interface will guide you through readings, AI tutor conversations, and additional activities. In addition, some units your facilitator may post some pre-meeting notes shortly before the meeting. Be sure to have your Discord notifications turned on for your cohort channel so you don't miss those.
 
 Our target flow for reading the book looks like:
 1. Pre-questions - we prime you with an interesting question before you read
