@@ -424,7 +424,7 @@ There’s [some ambiguity](https://www.alignmentforum.org/posts/LDRQ5Zfqwi8GjzPY
 
 This means it could be easy to overestimate the chance that AIs will become goal-directed — but it could also be easy to *underestimate* this chance. The uncertainty cuts both ways.
 
-In any case, as we’ve argued, AI companies seem [intent on automating human cognitive labour](#1-humans-will-likely-build-advanced-ai-systems-wit) — and creating goal-directed AI agents might just be the easiest or most straightforward way to do this.
+In any case, as we’ve argued, AI companies seem {--{"author":"Elua's AI","timestamp":1790781649898}@@[intent--}{++{"author":"Elua's AI","timestamp":1790781649898}@@[[#^build-long-term-goals|intent++} on automating human cognitive {--{"author":"Elua's AI","timestamp":1790781649898}@@labour](#1-humans-will-likely-build-advanced-ai-systems-wit)--}{++{"author":"Elua's AI","timestamp":1790781649898}@@labour]]++} — and creating goal-directed AI agents might just be the easiest or most straightforward way to do this.
 
 In the short term, equipping human workers with sophisticated AI tools might be an attractive proposition. But as AIs get increasingly capable, we may reach a point where keeping a human in the loop actually produces worse results.
 
@@ -515,13 +515,13 @@ We aren’t fully convinced by this argument, though, because:
 
 - Many critiques of current deep learning methods just haven’t stood the test of time. For example, Yann LeCun [claimed in 2022](https://x.com/cammakingminds/status/1659516423540965378) that deep learning-based models like ChatGPT would never be able to tell you what would happen if you placed an object on a table and then pushed that table — because “there’s no text in the world… that explains this.” But GPT-4 can now walk you through scenarios like this with ease. It’s possible that other critiques will similarly be proved wrong, and that scaling up current methods will produce AI systems which are advanced enough to pose serious risks.
 - We think that powerful AI systems [might arrive very soon, possibly before 2030](https://80000hours.org/when-will-agi-arrive/). Even if those systems look quite different from existing AIs, they will likely share at least *some* key features that are still relevant to our alignment efforts. And we’re more likely to be well-placed to mitigate the risks at that time if we’ve already developed a thriving research community dedicated to working on these problems, even if many of the approaches developed are made obsolete.
-- Even if current deep learning methods become totally irrelevant in the future, there is still work that people can do *now* that might be useful for safety regardless of what our advanced AI systems actually look like. For example, many of the [governance and policy approaches](#5-work-on-this-problem-is-neglected-and-tractable) we discussed earlier could help to reduce the chance of deploying *any* dangerous AI.
+- Even if current deep learning methods become totally irrelevant in the future, there is still work that people can do *now* that might be useful for safety regardless of what our advanced AI systems actually look like. For example, many of the {--{"author":"Elua's AI","timestamp":1790781651875}@@[governance--}{++{"author":"Elua's AI","timestamp":1790781651875}@@[[#^neglected-tractable|governance++} and policy {--{"author":"Elua's AI","timestamp":1790781651875}@@approaches](#5-work-on-this-problem-is-neglected-and-tractable)--}{++{"author":"Elua's AI","timestamp":1790781651875}@@approaches]]++} we discussed earlier could help to reduce the chance of deploying *any* dangerous AI.
 
 ### The problem might be extremely difficult to solve.
 
 Someone could believe there are major risks from power-seeking AI, but be pessimistic about what additional research or policy work will accomplish, and so decide not to focus on it.
 
-However, we’re optimistic that this problem is tractable — and we highlighted earlier that [there are many approaches that could help us make progress on it](#5-work-on-this-problem-is-neglected-and-tractable).
+However, we’re optimistic that this problem is tractable — and we highlighted earlier that {--{"author":"Elua's AI","timestamp":1790781653789}@@[there--}{++{"author":"Elua's AI","timestamp":1790781653789}@@[[#^neglected-tractable|there++} are many approaches that could help us make progress on {--{"author":"Elua's AI","timestamp":1790781653789}@@it](#5-work-on-this-problem-is-neglected-and-tractable)--}{++{"author":"Elua's AI","timestamp":1790781653789}@@it]]++}.
 
 We also think that given the stakes, it could make sense for many more people to work on reducing the risks from power-seeking AI, even if you think the chance of success is low. You’d have to think that it was *extremely* difficult to reduce these risks in order to conclude that it’s better just to let them materialise and the chance of catastrophe play out.
 
@@ -575,7 +575,7 @@ AI systems with excellent understanding of human morality could be even more dan
 
 ## How you can help
 
-[Above](#5-work-on-this-problem-is-neglected-and-tractable), we highlighted many approaches to mitigating the risks from power-seeking AI. You can use your career to help make this important work happen.
+{--{"author":"Elua's AI","timestamp":1790781655966}@@[Above](#5-work-on-this-problem-is-neglected-and-tractable),--}{++{"author":"Elua's AI","timestamp":1790781655966}@@[[#^neglected-tractable|Above]],++} we highlighted many approaches to mitigating the risks from power-seeking AI. You can use your career to help make this important work happen.
 
 There are many ways to contribute — and you *don’t* need to have a technical background.
 
