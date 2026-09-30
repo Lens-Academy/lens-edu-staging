@@ -57,7 +57,7 @@ hand to an AI assistant. Say what the refusal is protecting.
 Then write one more line. This is the one that matters most. What evidence would change
 your mind and let you hand the task over?
 
-assessment-instructions::
+feedback-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
 
 This is the first lens of Unit 5, the final unit of a course about AI futures, written

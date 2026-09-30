@@ -52,7 +52,7 @@ Then write one more line: your best guess at why nobody is doing it.
 
 Then read with a single job. Find your gap on the menu, or find the closest match to it, or confirm it is missing. Keep the result. The end of this unit asks where your own next hour goes.
 
-assessment-instructions::
+feedback-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
 
 This is the third lens of Unit 5, the final unit of a course about AI futures, written for newcomers. The attached article is the last assigned reading of the course: "Concrete projects to prepare for superintelligence" by Will MacAskill at Forethought, a list of eight concrete, mostly understaffed projects. It is in your context. The student has NOT read it yet. They were asked to name the one piece of work they think most needs doing before powerful AI arrives that nobody is actually doing, plus one line on why nobody is doing it, and were told to look for it, or its nearest neighbour, on the menu as they read.

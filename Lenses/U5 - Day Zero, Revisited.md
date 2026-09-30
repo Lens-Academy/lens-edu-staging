@@ -70,7 +70,7 @@ carefully and stay ready to act" is a real answer if you say what would make you
 
 And one line quoting the sentence in your day-zero snapshot that most surprises you now.
 
-assessment-instructions::
+feedback-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
 
 This is the final lens of the final unit of a course about AI futures, written for

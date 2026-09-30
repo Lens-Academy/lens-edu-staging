@@ -30,7 +30,7 @@ You have now read a forecast built on this trend, and the trend's authors explai
 
 Does anything in their caveats change the number you wrote down earlier in this unit? If yes, say which caveat, and in which direction. If no, say what a caveat would have to say in order to move you. An answer that nothing could move is worth noticing.
 
-assessment-instructions:: This is an optional lens with no grade attached. Treat it as a conversation.
+feedback-instructions:: This is an optional lens with no grade attached. Treat it as a conversation.
 
 The student has read METR's own account of what the time-horizon result does and does not support, having earlier committed to a median year of their own.
 
