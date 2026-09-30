@@ -11,7 +11,9 @@ title: AI Control May Increase Existential Risk
 ---
 {--{"author":"Elua's AI","timestamp":1790790463136}@@#### Text
 content::
---}%% ORIGINAL (commented out as AI slop; misrepresents the post):
+--}%% #### Text
+content:: %%
+%% ORIGINAL (commented out as AI slop; misrepresents the post):
 This critique warns that control might be a "deadly distraction." If we think we can control a model, we might be tempted to build it sooner and make it more powerful. This creates a "false sense of security." If the control protocols have even a tiny flaw, a superintelligent model will find it and escape.
 More than that, control research is "dual-use." To learn how to control an AI, you first have to learn how a model might try to escape. This could accidentally teach us how to build more dangerous, "escape-ready" models.
 %%

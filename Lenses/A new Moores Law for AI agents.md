@@ -8,7 +8,9 @@ title: "A new Moore's Law for AI agents"
 ---
 {--{"author":"Elua's AI","timestamp":1790790457678}@@#### Text
 content::
---}%% COMMENTED OUT (AI slop):
+--}%% #### Text
+content:: %%
+%% COMMENTED OUT (AI slop):
 We opened with feedback loops in principle. Here is one measured in practice: how long a task an AI agent can finish on its own, tracked from 2019 to today.
 %%
 
