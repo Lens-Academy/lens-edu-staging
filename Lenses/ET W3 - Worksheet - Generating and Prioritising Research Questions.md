@@ -166,3 +166,13 @@ content:: **Key reasons for choosing them:**
 #### Question: Open
 id:: b18cf1b2-f590-4d18-9dc5-41fa84734dcb
 content:: **Open uncertainties or questions you have remaining:**
+
+#### Text
+content::
+---
+
+\# 🌱 You did it!
+
+Well done for making it through this week's worksheet! Turning a big, messy problem into a handful of concrete research questions is genuinely one of the hardest parts of the whole thesis journey, and you've just done it.
+
+Remember, your top questions don't need to be perfect or final. Hold them loosely, stay curious, and bring your open uncertainties to your weekly discussion and your mastermind group. Next week, you'll start testing them in the real world by reaching out to the people who actually need these answers. We're so excited to see where your questions take you! 💛
