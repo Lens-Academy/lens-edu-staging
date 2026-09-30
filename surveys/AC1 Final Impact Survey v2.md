@@ -172,10 +172,11 @@ options::
 - More than six months
 - I probably would not have completed the material otherwise
 
-#### Question
-key:: ai_safety_programs_other
-content:: In 1–2 sentences, describe your current AI safety work, and add any details about the programs above.
-description:: For example: "Volunteering 5h/week for PauseAI; did BlueDot's AGI Strategy course (completed)" or "Applying to SPAR and MATS this month; did ARENA 7.0".
+#### Question: Open
+id:: 7c63a071-0f87-46ef-8304-d3cf42e9dc8b
+content:: What are 3–5 concrete steps you'll take toward AI safety work in the next 1–3 months?
+description:: For each step, say what exactly you'll do and by when. For example: "Submit my MATS Summer 2027 application by 15 January", "Apply to 3 AI policy roles by the end of November", "Finish my interpretability project and post it on LessWrong by 20 December", "Start the Lens AI Control course in November". If nothing is concrete yet, write what you're considering and when you'll decide.
+max-chars:: 1000
 
 #### Question: Open
 id:: ab9103b3-cbe1-4397-b82a-9b1912fdeb4e
