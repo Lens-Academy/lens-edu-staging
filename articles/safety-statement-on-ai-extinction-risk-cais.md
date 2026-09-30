@@ -31,302 +31,352 @@ AI experts, journalists, policymakers, and the public are increasingly discussin
 
 #### Signatories: ^signatories
 
-Geoffrey Hinton
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Geoffrey Hinton
 
-Emeritus Professor of Computer Science, University of Toronto
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Geoffrey Hinton**  
+++}Emeritus Professor of Computer Science, University of Toronto
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
 Yoshua Bengio
 
-Professor of Computer Science, U. Montreal / Mila
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Yoshua Bengio**  
+++}Professor of Computer Science, U. Montreal / Mila
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
 Demis Hassabis
 
-CEO, Google DeepMind
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Demis Hassabis**  
+++}CEO, Google DeepMind
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
 Sam Altman
 
-CEO, OpenAI
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Sam Altman**  
+++}CEO, OpenAI
 
-Other Notable Figures
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Other Notable Figures
 
 Dario Amodei
 
-CEO, Anthropic
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Dario Amodei**  
+++}CEO, Anthropic
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
 Dawn Song
 
-Professor of Computer Science, UC Berkeley
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Dawn Song**  
+++}Professor of Computer Science, UC Berkeley
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
 Ted Lieu
 
-Congressman, US House of Representatives
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Ted Lieu**  
+++}Congressman, US House of Representatives
 
-Other Notable Figures
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Other Notable Figures
 
 Bill Gates
 
-Gates Ventures
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Bill Gates**  
+++}Gates Ventures
 
-Other Notable Figures
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Other Notable Figures
 
 Ya-Qin Zhang
 
-Professor and Dean, AIR, Tsinghua University
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Ya-Qin Zhang**  
+++}Professor and Dean, AIR, Tsinghua University
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
 Ilya Sutskever
 
-Co-Founder and Chief Scientist, OpenAI
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Ilya Sutskever**  
+++}Co-Founder and Chief Scientist, OpenAI
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
 Igor Babuschkin
 
-Co-Founder, xAI
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Igor Babuschkin**  
+++}Co-Founder, xAI
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
 Shane Legg
 
-Chief AGI Scientist and Co-Founder, Google DeepMind
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Shane Legg**  
+++}Chief AGI Scientist and Co-Founder, Google DeepMind
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
 Martin Hellman
 
-Professor Emeritus of Electrical Engineering, Stanford
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Martin Hellman**  
+++}Professor Emeritus of Electrical Engineering, Stanford
 
-Other Notable Figures
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Other Notable Figures
 
 James Manyika
 
-SVP, Research, Technology and Society, Google-Alphabet
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**James Manyika**  
+++}SVP, Research, Technology and Society, Google-Alphabet
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
 Yi Zeng
 
-Professor and Director of Brain-inspired Cognitive AI Lab, Institute of Automation, Chinese Academy of Sciences
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Yi Zeng**  
+++}Professor and Director of Brain-inspired Cognitive AI Lab, Institute of Automation, Chinese Academy of Sciences{--{"author":"Elua's AI","timestamp":1790795377811}@@
 
-AI Scientists
+AI Scientists--}
 
-Xianyuan Zhan
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Xianyuan Zhan
 
-Assistant Professor, Tsinghua University
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Xianyuan Zhan**  
+++}Assistant Professor, Tsinghua University
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
 Albert Efimov
 
-Chief of Research, Russian Association of Artificial Intelligence
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Albert Efimov**  
+++}Chief of Research, Russian Association of Artificial Intelligence
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
-Alvin Wang Graylin
+Alvin--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Alvin++} Wang {--{"author":"Elua's AI","timestamp":1790795377811}@@Graylin
 
-China President, HTC
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@Graylin**  
+++}China President, HTC
 
-Other Notable Figures
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Other Notable Figures
 
 Jianyi Zhang
 
-Professor, Beijing Electronic Science and Technology Institute
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Jianyi Zhang**  
+++}Professor, Beijing Electronic Science and Technology Institute
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
 Anca Dragan
 
-Associate Professor of Computer Science, UC Berkeley
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Anca Dragan**  
+++}Associate Professor of Computer Science, UC Berkeley
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
 Christine Parthemore
 
-CEO and Director of the Janne E. Nolan Center on Strategic Weapons, The Council on Strategic Risks
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Christine Parthemore**  
+++}CEO and Director of the Janne E. Nolan Center on Strategic Weapons, The Council on Strategic Risks
 
-Other Notable Figures
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Other Notable Figures
 
 Bill McKibben
 
-Schumann Distinguished Scholar, Middlebury College
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Bill McKibben**  
+++}Schumann Distinguished Scholar, Middlebury College
 
-Other Notable Figures
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Other Notable Figures
 
 Alan Robock
 
-Distinguished Professor of Climate Science, Rutgers University
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Alan Robock**  
+++}Distinguished Professor of Climate Science, Rutgers University
 
-Other Notable Figures
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Other Notable Figures
 
 Angela Kane
 
-Vice President, International Institute for Peace, Vienna; former UN High Representative for Disarmament Affairs
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Angela Kane**  
+++}Vice President, International Institute for Peace, Vienna; former UN High Representative for Disarmament Affairs
 
-Other Notable Figures
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Other Notable Figures
 
 Audrey Tang
 
-Digitalminister.tw and Chair of National Institute of Cyber Security
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Audrey Tang**  
+++}Digitalminister.tw and Chair of National Institute of Cyber Security
 
-Other Notable Figures
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Other Notable Figures
 
 Daniela Amodei
 
-President, Anthropic
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Daniela Amodei**  
+++}President, Anthropic
 
-Other Notable Figures
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Other Notable Figures
 
 David Silver
 
-Professor of Computer Science, Google DeepMind and UCL
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**David Silver**  
+++}Professor of Computer Science, Google DeepMind and UCL
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
 Lila Ibrahim
 
-COO, Google DeepMind
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Lila Ibrahim**  
+++}COO, Google DeepMind
 
-Other Notable Figures
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Other Notable Figures
 
 Stuart Russell
 
-Professor of Computer Science, UC Berkeley
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Stuart Russell**  
+++}Professor of Computer Science, UC Berkeley{--{"author":"Elua's AI","timestamp":1790795377811}@@
 
-AI Scientists
+AI Scientists--}
 
-Tony (Yuhuai) Wu
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Tony--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Tony++} (Yuhuai) {--{"author":"Elua's AI","timestamp":1790795377811}@@Wu
 
-Co-Founder, xAI
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@Wu**  
+++}Co-Founder, xAI
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
-Marian Rogers Croak
+Marian --}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Marian ++}Rogers {--{"author":"Elua's AI","timestamp":1790795377811}@@Croak
 
-VP Center for Responsible AI and Human Centered Technology, Google
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@Croak**  
+++}VP Center for Responsible AI and Human Centered Technology, Google
 
-Other Notable Figures
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Other Notable Figures
 
 Andrew Barto
 
-Professor Emeritus, University of Massachusetts
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Andrew Barto**  
+++}Professor Emeritus, University of Massachusetts
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
 Mira Murati
 
-CTO, OpenAI
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Mira Murati**  
+++}CTO, OpenAI
 
-Other Notable Figures
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Other Notable Figures
 
-Jaime Fernández Fisac
+Jaime --}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Jaime ++}Fernández {--{"author":"Elua's AI","timestamp":1790795377811}@@Fisac
 
-Assistant Professor of Electrical and Computer Engineering, Princeton University
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@Fisac**  
+++}Assistant Professor of Electrical and Computer Engineering, Princeton University
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
 Diyi Yang
 
-Assistant Professor, Stanford University
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Diyi Yang**  
+++}Assistant Professor, Stanford University{--{"author":"Elua's AI","timestamp":1790795377811}@@
 
-AI Scientists
+AI Scientists--}
 
-Gillian Hadfield
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Gillian Hadfield
 
-Professor, CIFAR AI Chair, University of Toronto, Vector Institute for AI
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Gillian Hadfield**  
+++}Professor, CIFAR AI Chair, University of Toronto, Vector Institute for AI
 
-Other Notable Figures
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Other Notable Figures
 
 Laurence Tribe
 
-University Professor Emeritus, Harvard University
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Laurence Tribe**  
+++}University Professor Emeritus, Harvard University
 
-Other Notable Figures
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Other Notable Figures
 
 Pattie Maes
 
-Professor, Massachusetts Institute of Technology - Media Lab
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Pattie Maes**  
+++}Professor, Massachusetts Institute of Technology - Media Lab{--{"author":"Elua's AI","timestamp":1790795377811}@@
 
-AI Scientists
+AI Scientists--}
 
-Kevin Scott
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Kevin Scott
 
-CTO, Microsoft
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Kevin Scott**  
+++}CTO, Microsoft
 
-Other Notable Figures
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Other Notable Figures
 
 Eric Horvitz
 
-Chief Scientific Officer, Microsoft
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Eric Horvitz**  
+++}Chief Scientific Officer, Microsoft
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
 Peter Norvig
 
-Education Fellow, Stanford University
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Peter Norvig**  
+++}Education Fellow, Stanford University
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
 Joseph Sifakis
 
-Turing Award 2007, Professor, CNRS - Universite Grenoble - Alpes
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Joseph Sifakis**  
+++}Turing Award 2007, Professor, CNRS - Universite Grenoble - Alpes
 
-Other Notable Figures
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Other Notable Figures
 
 Atoosa Kasirzadeh
 
-Assistant Professor, University of Edinburgh, Alan Turing Institute
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Atoosa Kasirzadeh**  
+++}Assistant Professor, University of Edinburgh, Alan Turing Institute
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
 Erik Brynjolfsson
 
-Professor and Senior Fellow, Stanford Institute for Human-Centered AI
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Erik Brynjolfsson**  
+++}Professor and Senior Fellow, Stanford Institute for Human-Centered AI
 
-Other Notable Figures
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Other Notable Figures
 
 Mustafa Suleyman
 
-CEO, Inflection AI
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Mustafa Suleyman**  
+++}CEO, Inflection AI
 
-Other Notable Figures
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Other Notable Figures
 
 Emad Mostaque
 
-CEO, Stability AI
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Emad Mostaque**  
+++}CEO, Stability AI
 
-Other Notable Figures
+{--{"author":"Elua's AI","timestamp":1790795377811}@@Other Notable Figures
 
 Ian Goodfellow
 
-Principal Scientist, Google DeepMind
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Ian Goodfellow**  
+++}Principal Scientist, Google DeepMind
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
 John Schulman
 
-Co-Founder, OpenAI
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**John Schulman**  
+++}Co-Founder, OpenAI
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
 Wojciech Zaremba
 
-Co-Founder, OpenAI
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Wojciech Zaremba**  
+++}Co-Founder, OpenAI
 
-AI Scientists
+{--{"author":"Elua's AI","timestamp":1790795377811}@@AI Scientists
 
 Dan Hendrycks
 
-Executive Director, Center for AI Safety
+--}{++{"author":"Elua's AI","timestamp":1790795377811}@@**Dan Hendrycks**  
+++}Executive Director, Center for AI Safety{--{"author":"Elua's AI","timestamp":1790795377811}@@
 
-AI Scientists
+AI Scientists--}
