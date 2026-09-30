@@ -22,7 +22,7 @@ to:: "strong public buy-in."
 
 #### Text
 content::
-Yudkowsky's proposal was his own. This statement puts a version of the same idea to anyone willing to sign it.
+%% COMMENTED OUT (AI-generated framing): Yudkowsky's proposal was his own. This statement puts a version of the same idea to anyone willing to sign it. %%
 
 **Would you sign it? Compare it with Yudkowsky's proposal: what does each include that the other leaves out?**
 
