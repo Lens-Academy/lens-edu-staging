@@ -203,8 +203,8 @@ optional:: true
 multi:: true
 options::
 - BlueDot Course
-- Lens Course
-- Lens Project
+- Lens Academy Course
+- Lens Academy Project
 - AI Safety Camp
 - ML4Good
 - Global Challenges Project
