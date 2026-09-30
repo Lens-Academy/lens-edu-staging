@@ -47,6 +47,8 @@ content::
 
 \# Part 2: Stakeholder Mapping and Outreach
 
+\## Instructions
+
 1. **Mapping:** Begin by listing out 10-20 stakeholders, especially those who are most relevant to your bottlenecks identified. This could be people who've written a relevant paper, organisations already working on this problem, researchers who've published on it, or anyone else who seems genuinely interested in this space. **In the table below, focus on:**
 - **Who:** Identify real-world stakeholders - i.e., list a specific NGO like [ACTRA](https://www.actra.ngo/) and specific **people on the team(!),** rather than just writing “NGO”.
 - **What Change is Required:** What do these stakeholders need to do differently for progress to happen?
@@ -60,9 +62,13 @@ content::
    1. We highly recommend reaching out to >20 stakeholders and to continue your outreach process over the next 4-weeks if you aren’t getting as many responses.
    2. ⭐ A low reply rate is completely normal, keep going. One past student reached out to over 100 organisations and, after plenty of no-replies, found a collaborator they're now starting an organisation with!
 
-\# Stakeholder Outreach Tracker
+\# Fill in Your Stakeholder Outreach Tracker
 
-Please continue to use this tracker over the program as an ongoing record of your outreach and interviews completed.
+:::callout {title="⭐ This is your main outreach tracker for the whole program!" tone="amber"}
+
+You'll keep using this same tracker from now until Week 8. It also appears in your Week 5, 6 and 7 worksheets, and it's the same tracker each time, so anything you add in one place shows up everywhere. Keep coming back to log new stakeholders, outreach sent, and interviews completed!
+
+:::
 
 #### Callout: 💡 Example: a filled-in stakeholder tracker (click to open)
 tone:: neutral
@@ -112,3 +118,15 @@ content::
 #### Question: Open
 id:: f21d0b2e-ee0e-4197-a23d-a1e12614efde
 content:: What are your next steps for continuing to explore your open questions and uncertainties around stakeholder mapping and outreach?
+
+#### Text
+content::
+---
+
+\# 🌱 You're doing brilliantly!
+
+Reaching out to people you've never met is one of the bravest parts of this whole program, and you've just taken your research out of your head and into the real world. Every email you send is a small act of courage, and every reply (or even silence) teaches you something. Be proud of yourself for starting, and remember: this is a numbers game, so keep going! 💛
+
+**Next up: this week's Journalling prompts** 👇 Take a few minutes to explore any emotional barriers that come up around outreach.
+
+::card[[../Lenses/ET W4 - Journalling - Emotional Barriers to Outreach|Week 4 Journalling: Emotional Barriers to Outreach]]
