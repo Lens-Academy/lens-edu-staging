@@ -169,6 +169,7 @@ options::
 - Global Challenges Project
 - Lens Academy Course
 - Lens Academy Project
+- Lens Academy Facilitating
 - ARENA
 - Pathfinder
 - SPAR
