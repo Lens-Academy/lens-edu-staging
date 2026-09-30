@@ -5,11 +5,22 @@ title: "Week 6: Reverse Engineering Your Thesis from Your ToC"
 tags: [wip]
 ---
 
+# Submodule: Welcome
+
+# Lens:
+source:: [[../Lenses/ET W6 - Welcome]]
+
+# Submodule: Week 6 Readings
+
 # Lens:
 source:: [[../Lenses/ET W6 - Reading - Reverse Engineering Your Thesis from Your ToC]]
 
+# Submodule: Week 6 Worksheet
+
 # Lens:
 source:: [[../Lenses/ET W6 - Worksheet - Reverse Engineering Your Thesis]]
+
+# Submodule: Week 6 Journalling
 
 # Lens:
 optional:: true
