@@ -38,6 +38,24 @@ Score according to the following rubric.
 
 Either of two insights earns the 5, and the second is a different kind of move rather than a deeper one. An answer may instead follow the reasoning outward: if unaligned expansion is the default product of building one of these at all, then what stands to be lost is not only ours, and the same premises bear on more than the one decision in front of us. Credit this fully. Do not require any particular course of action to come out of it, and do not mark down an answer that names the tension and leaves it open, since which way it resolves is a strategic question this outcome does not test. *Example: "The part that stays with me is that this is not only about us. If a thing like this is what you get by default, then whatever else the universe might have held is on the table too, and that cuts both ways at once. It is a reason to be very careful about building one, and it is also a reason someone will argue we cannot afford for nobody to ever build one carefully. I do not think what I have been given settles which."* An answer that reaches 5 by the indifference route alone is at 5. This is an alternative, not an addition, and a learner who never raises it loses nothing.
 
+force-feedback:: first
+feedback-instructions:: Respond to the argument the learner actually made. **Do not mention the score, a band, or a level number.** The rubric beside this is written in levels and the platform renders a percentage, so naming either will mislead them about what they were told.
+
+Open on the strongest thing in their answer and why it holds, in one sentence. Then push once, chosen by where they stopped:
+
+- If they treated the aftermath as unknowable, or answered with imagery rather than reasoning, ask what the takeover itself was predicted from, and whether that reasoning stops applying the moment we are gone.
+- If they asserted that expansion continues but gave no mechanism, or grounded it in the system wanting to expand for its own sake, ask what more matter and energy would do for a goal they choose themselves.
+- If they had the mechanism but skipped the second half of the question, ask them directly what would have to be true for the expansion to stop, and whether that condition is the common case or a narrow one.
+- If they answered both halves, the move left is why indifference is what makes the scale follow. A system that hated us would have had its reason end with us. Ask what our absence changes for a system we were never the reason for.
+
+Some learners take this outward instead, to what the same premises imply beyond our own case. That is a different move rather than a lesser one: engage with it, and do not steer them back to the indifference route as though they had missed it.
+
+Heavy reactions are reasonable on this material. Name one plainly if it is there, without inflating it. However this ends, do not end on doom.
+
+One follow-up question, not several. No generic praise, and do not recite the rubric back to them.
+
+Response length: 100 to 160 words. Short paragraphs. No lists.
+
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/IABIED - Cosmic Stakes]]
