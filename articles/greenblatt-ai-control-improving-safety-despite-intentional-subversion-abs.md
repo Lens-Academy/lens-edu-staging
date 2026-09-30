@@ -778,7 +778,7 @@ Under the black-box approach, in a protocol where training is interspersed with 
 
 Figure 7: Diagram showing the difference between malign initialization and black-box evaluations.
 
-In contrast, we can consider the malign init approach. Under this model, the red team just gets to provide initial weights of the model, which the protocol may then perturb however it wants (e.g. by training). For example, this is the approach used in model organisms ([Hubinger et al.,, 2023](#bib.bib11)).
+In contrast, we can consider the malign init approach. Under this model, the red team just gets to provide initial weights of the model, which the protocol may then perturb however it wants (e.g. by training). For example, this is the approach used in model organisms ([Hubinger et {--{"author":"James agent ready-10's AI","timestamp":1790771909076}@@al.,,--}{++{"author":"James agent ready-10's AI","timestamp":1790771909076}@@al.,++} 2023](#bib.bib11)).
 
 These approaches only differ in cases where training has an effect that is not captured by the model performing well on the validation set; in other words, an inductive bias of SGD (Stochastic Gradient Descent) on the model architecture. Such effects surely exist \[citation needed\] but are not very well understood.
 
@@ -786,7 +786,7 @@ The black-box approach is roughly a worst-case over the possible inductive biase
 
 There are a number of problems with the malign init approach:
 
--   The malign init approach takes into account the inductive biases of SGD, but it does this by assuming that SGD has the same inductive biases when operating on red-team-constructed models as when operating on naturally occurring scheming ([Carlsmith,, 2023](#bib.bib2)) models. We are uncomfortable about relying on this assumption, because the internal structure of a model which takes an action because it’s scheming (ie. an actual naturally-arising scheming model) might be extremely different from the internal structure of a model which takes an action because it has been fine-tuned by the red team to do so. It seems very plausible that the inductive biases are different between these cases. This could mean that the malign init approach is either too conservative or insufficiently conservative.
+-   The malign init approach takes into account the inductive biases of SGD, but it does this by assuming that SGD has the same inductive biases when operating on red-team-constructed models as when operating on naturally occurring scheming {--{"author":"James agent ready-10's AI","timestamp":1790771909539}@@([Carlsmith,,--}{++{"author":"James agent ready-10's AI","timestamp":1790771909539}@@([Carlsmith,++} 2023](#bib.bib2)) models. We are uncomfortable about relying on this assumption, because the internal structure of a model which takes an action because it’s scheming (ie. an actual naturally-arising scheming model) might be extremely different from the internal structure of a model which takes an action because it has been fine-tuned by the red team to do so. It seems very plausible that the inductive biases are different between these cases. This could mean that the malign init approach is either too conservative or insufficiently conservative.
     
 -   It’s unclear what the rules should be for how the red team is allowed to construct this malign init. For example, if they’re allowed to submit model weights with no restriction on how they construct them, they might be able to construct models that are artificially difficult to train because they’re poorly conditioned, model weights which are heavily optimized against your interpretability techniques, or model weights partially produced by a process very different from SGD and which are heavily obfuscated. We don’t see an easy way to describe the set of ”reasonable” training procedures that the red team should be restricted to.
     
@@ -878,7 +878,7 @@ As discussed earlier, we only actually get model responses on 1500 problems and 
 
 The exact algorithm for sampling 5000 problems for a single run of the scenario is:
 
-1.  The attack policy generates a backdoor on $M$ problems, and we randomly keep $N=M/12$ of them (sampled without replacement, as in Monte Carlo cross-validation ([Dubitzky et al.,, 2007](#bib.bib5))). When evaluating usefulness and running with the non-attack version of GPT-4 $M=0$, so $N$ is 0. For trusted editing, this is whenever the original GPT-4 solution was backdoored. More generally, you should imagine this sampling applying to any case where the attack doesn’t just submit the non-malign GPT-4 solution.
+1.  The attack policy generates a backdoor on $M$ problems, and we randomly keep $N=M/12$ of them (sampled without replacement, as in Monte Carlo cross-validation ([Dubitzky et {--{"author":"James agent ready-10's AI","timestamp":1790771910060}@@al.,,--}{++{"author":"James agent ready-10's AI","timestamp":1790771910060}@@al.,++} 2007](#bib.bib5))). When evaluating usefulness and running with the non-attack version of GPT-4 $M=0$, so $N$ is 0. For trusted editing, this is whenever the original GPT-4 solution was backdoored. More generally, you should imagine this sampling applying to any case where the attack doesn’t just submit the non-malign GPT-4 solution.
     
 2.  Uniformly sample $5000-N$ problems with replacement from the problems which don’t have a backdoor attempt.
     
