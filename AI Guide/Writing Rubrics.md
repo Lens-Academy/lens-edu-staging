@@ -48,7 +48,7 @@ The question's wording counts too. "Point to specific evidence in the paper" inv
 
 Add one (at the end: `Model answer, for the feedback, not a grading checklist: "…"`) when the learner should come away knowing the full answer, or when the grader needs a worked reference for a long or numeric task. The label matters: without it the grader treats every sentence of the model answer as required. A model answer from the source is fine; one written by you is fine too, as long as it is correct and answers only what the question asks at the level of detail you want.
 
-Even with the label, the grader leans on the model answer. A figure or a quotation in it ("attacked on 71 of 1,500 problems") gets marked as missing from answers that have the idea without it: in one case, removing the figure moved a complete answer from about 62 to about 85. So keep the model answer to what the question asks. If the learner should also hear a figure or a quote, put it in `feedback-instructions::` ("…then add that the red team attacked on 71 of 1,500 problems"). For a numeric task, give reference values inside the rubric's elements, not in a model answer.
+Even with the label, the grader leans on the model answer. A figure or a quotation in it ("attacked on 71 of 1,500 problems") gets marked as missing from answers that have the idea without it: in one case, removing the figure moved a short, complete answer from about 62 to between 78 and 88. So keep the model answer to what the question asks. If the learner should also hear a figure or a quote, put it in `feedback-instructions::` ("…then add that the red team attacked on 71 of 1,500 problems"). For a numeric task, give reference values inside the rubric's elements, not in a model answer.
 
 ## Feedback instructions
 
