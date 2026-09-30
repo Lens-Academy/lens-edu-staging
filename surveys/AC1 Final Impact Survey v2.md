@@ -187,7 +187,6 @@ options::
 - Starting an unpaid programme I've already been accepted to
 - Applying to paid full-time AI safety jobs
 - Applying to paid fellowships or funded research, 3 months or longer (e.g. MATS, LASR, Pivotal)
-- Applying for grants to do AI safety work
 - Applying to paid part-time work or shorter paid fellowships (e.g. ERA, facilitating)
 - Applying to selective unpaid programmes (e.g. SPAR, ARENA, AI Safety Camp)
 - Starting or continuing a project, volunteering or advocacy
