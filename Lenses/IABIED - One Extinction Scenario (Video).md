@@ -41,7 +41,7 @@ content::
 Three things, a few sentences each (speech-to-text works well here):
 
 1. Which moment stuck with you most, and how did it leave you feeling?
-2. You placed four bets before watching. Having seen how this plays out, would you place them the same way again? Name the one you are least certain of now, and what in the film moved you.
+2. In the previous lens ou placed four bets before watching. Having seen how this plays out, would you place them the same way again? Name the one you are least certain of now, and what in the film moved you.
 3. Which step in the takeover did you find hardest to believe? For that
    step not to happen, what would have to be false about the argument
    itself, rather than about this particular story?
