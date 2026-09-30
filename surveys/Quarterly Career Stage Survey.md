@@ -55,6 +55,6 @@ options::
 #### Question: Open
 id:: 1ed3e65b-6bdb-490f-9530-f6547ab4f9f6
 content:: Anything else you'd like to share?
-description:: For example, your next step, how we could help, or feedback to Lens overall.
+description:: For example, your next steps, how we could help, or feedback to Lens overall.
 optional:: true
 max-chars:: 1500
