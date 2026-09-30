@@ -55,7 +55,7 @@ Write two or three sentences making the strongest case that an international agr
 
 Then write one more line, and commit to an answer. Which is the likeliest point of failure for this agreement: signing it, verifying it, or enforcing it? Name the one you would bet on.
 
-assessment-instructions::
+feedback-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
 
 This is an optional lens of Unit 4 in a course about AI futures, written for newcomers. Unit 4 dissects rival strategies for preventing AI catastrophe. The student has already read Ryan Greenblatt's "Plans A, B, C, and D", where Plan A is a strong international agreement; they have NOT yet read this lens's article. It is section 4 of "An International Agreement to Prevent the Premature Creation of Artificial Superintelligence" by Aaron Scher and colleagues (MIRI Technical Governance Team), and it is in your context. Note the student reads section 4 only, the description of what the agreement does, so keep your references to what that section covers.

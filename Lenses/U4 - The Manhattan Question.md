@@ -71,7 +71,7 @@ Then write one more line. Name the single mechanism that matters most in your an
 Not a list of considerations. Name the one thing that would change your side if it went
 the other way.
 
-assessment-instructions::
+feedback-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
 
 This is a lens partway through Unit 4 of a course about AI futures, written for

@@ -53,7 +53,7 @@ Write three or four sentences. What goes wrong, and what is the first step?
 Then write one more line. What is the earliest moment at which a person could have seen
 the problem and stopped it?
 
-assessment-instructions::
+feedback-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
 
 This is a pre-reading question in a course about AI futures, written for newcomers. The

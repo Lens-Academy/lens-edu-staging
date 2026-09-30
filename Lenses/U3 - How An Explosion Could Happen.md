@@ -59,7 +59,7 @@ number.
 One line more. Pick the step in your loop where someone could act to slow or stop it.
 Who would that be, and what would it cost them to act there?
 
-assessment-instructions::
+feedback-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
 
 This is the first lens of Unit 3 in a course about AI futures, written for newcomers.
