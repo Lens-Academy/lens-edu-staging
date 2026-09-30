@@ -8,7 +8,9 @@ title: Pythia
 ---
 {--{"author":"Elua's AI","timestamp":1790790519796}@@#### Text
 content::
---}%% ORIGINAL (commented out as AI slop):
+--}%% #### Text
+content:: %%
+%% ORIGINAL (commented out as AI slop):
 The boundary between a passive predictor and an active agent is thinner than it appears. This article introduces the concept of "Pythia": a perspective on how advanced world-modeling can lead to the emergence of agency.
 The article deconstructs the concepts of "predictor" and "agent." It views knowledge of the structure of reality as what enables manipulation. In this paradigm, agency is a byproduct of a deep understanding of cause-and-effect relationships. If a system knows how its response will change your behavior, choosing a response becomes an act of control.
 %%
