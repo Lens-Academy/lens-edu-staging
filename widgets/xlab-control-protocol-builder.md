@@ -76,7 +76,9 @@ button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .pb.terminal{border-color:var(--line);font-weight:500}
 .pb .sub{display:block;font-weight:400;color:var(--muted);font-size:12px}
 .pb[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent);background:var(--accent-soft)}
-.pb[draggable="true"]{cursor:grab}
+.pb{cursor:grab;user-select:none}
+.ghost{position:fixed;z-index:10;pointer-events:none;max-width:200px;font-size:13px;line-height:1.35;border:1px solid var(--accent);border-radius:8px;background:#fff;padding:6px 10px;box-shadow:0 1px 2px rgba(0,0,0,.08)}
+body.dragging{cursor:grabbing;user-select:none}
 .hint{font-size:12px;color:var(--muted);margin-top:6px}
 .actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:14px}
 .primary{border-color:var(--accent);color:#fff;background:var(--accent);font-weight:500}
@@ -198,13 +200,7 @@ function slot(set){
     if(armed) place(armed, set);
     else { note = "Pick a block from the palette first, then tap the slot."; render(); }
   };
-  s.ondragover = function(e){ e.preventDefault(); s.classList.add("over"); };
-  s.ondragleave = function(){ s.classList.remove("over"); };
-  s.ondrop = function(e){
-    e.preventDefault();
-    var id = e.dataTransfer.getData("text/plain");
-    if(block(id)) place(id, set);
-  };
+  s.setFn = set;
   return s;
 }
 
@@ -246,6 +242,49 @@ function draw(n, set, k, show){
   return col;
 }
 
+// Mouse and pen drag with pointer events (HTML5 drag and drop does not reach the sandboxed frame
+// reliably). Touch keeps tap-then-tap, so a finger on the palette still scrolls the page.
+var drag = null, dragged = false;
+function slotAt(x, y){
+  var t = document.elementFromPoint(x, y);
+  return t && t.closest ? t.closest(".slot") : null;
+}
+function startDrag(e, b){
+  if(e.pointerType==="touch" || e.button!==0) return;
+  drag = {id:b.id, label:b.label, x:e.clientX, y:e.clientY, ghost:null, over:null};
+  if(e.target.setPointerCapture) e.target.setPointerCapture(e.pointerId);
+  dragged = false;
+}
+document.addEventListener("pointermove", function(e){
+  if(!drag) return;
+  if(!drag.ghost){
+    if(Math.abs(e.clientX-drag.x) + Math.abs(e.clientY-drag.y) < 6) return;
+    drag.ghost = el("div", "ghost", drag.label);
+    document.body.appendChild(drag.ghost);
+    document.body.classList.add("dragging");
+  }
+  e.preventDefault();
+  drag.ghost.style.left = (e.clientX + 8) + "px";
+  drag.ghost.style.top = (e.clientY + 8) + "px";
+  var over = slotAt(e.clientX, e.clientY);
+  if(over !== drag.over){
+    if(drag.over) drag.over.classList.remove("over");
+    if(over) over.classList.add("over");
+    drag.over = over;
+  }
+});
+document.addEventListener("pointerup", function(e){
+  if(!drag) return;
+  var d = drag; drag = null;
+  if(!d.ghost) return;
+  d.ghost.remove();
+  document.body.classList.remove("dragging");
+  dragged = true;
+  setTimeout(function(){ dragged = false; }, 0);
+  var target = slotAt(e.clientX, e.clientY);
+  if(target && target.setFn) place(d.id, target.setFn);
+});
+
 function palette(){
   var wrap = el("div", "palette");
   wrap.appendChild(el("h3", null, "Blocks: drag into the chart"));
@@ -256,10 +295,12 @@ function palette(){
       if(b.kind!==g[0]) return;
       var p = el("button", "pb " + b.kind, b.label);
       if(b.arms) p.appendChild(el("span", "sub", b.arms.join(" / ")));
-      p.draggable = true;
       p.setAttribute("aria-pressed", armed===b.id ? "true" : "false");
-      p.onclick = function(){ armed = armed===b.id ? null : b.id; note = ""; render(); };
-      p.ondragstart = function(e){ e.dataTransfer.setData("text/plain", b.id); e.dataTransfer.effectAllowed = "copy"; };
+      p.onclick = function(){
+        if(dragged){ dragged = false; return; }
+        armed = armed===b.id ? null : b.id; note = ""; render();
+      };
+      p.onpointerdown = function(e){ startDrag(e, b); };
       box.appendChild(p);
     });
   });
