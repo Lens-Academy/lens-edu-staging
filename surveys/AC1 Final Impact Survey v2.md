@@ -241,7 +241,9 @@ content:: Which programmes are you applying to in the next 3 months? Pick all th
 optional:: true
 multi:: true
 options::
-- BlueDot Course
+- BlueDot Courses
+- BlueDot Rapid Grant
+- BlueDot Career Transition Grant
 - Lens Academy Course
 - Lens Academy Project
 - AI Safety Camp
