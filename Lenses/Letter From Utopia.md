@@ -3,7 +3,7 @@ id: 'b511b7ae-4249-4ad2-86c3-6d80bdf7f57a'
 title: Letter From Utopia
 reading_minutes: 22
 tutor_minutes: 8
-tldr: "The risks get most of the attention, but what exactly are we trying to protect? In Nick Bostrom's 'Letter from Utopia', one of your possible futures writes back to you, describing a life of secure health, expanded minds and deep well-being, and asking you to make it real."
+# tldr: "The risks get most of the attention, but what exactly are we trying to protect? In Nick Bostrom's 'Letter from Utopia', one of your possible futures writes back to you, describing a life of secure health, expanded minds and deep well-being, and asking you to make it real."
 summary_for_tutor: "Covers the positive vision of what a good future after transformative technology could hold. The learner watches a narrated reading of Nick Bostrom's 'Letter from Utopia', written as a letter from a possible future being to present-day humans. It invites the reader to recall their best moments as a glimpse of what is possible, then names three transformations needed to reach Utopia: securing life (defeating disease, ageing and death), upgrading cognition, and elevating well-being. It closes with cautions that the pursuit of utopia has historically brought out the worst in people and that paradise engineering needs wisdom. Intended as a counterweight to risk-focused material at the end of the course."
 ---
 #### Text
