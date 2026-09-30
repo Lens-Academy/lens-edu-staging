@@ -8,7 +8,9 @@ title: Discovering when an agent is present in a system
 ---
 #### Text
 content::
-In AI safety we often model systems as agents, meaning systems that make decisions to achieve objectives. But this can be a modelling choice rather than an obvious fact. This post proposes a causal definition of agency grounded in how the system’s behaviour would change under specific counterfactual changes in how its actions affect the world. The core idea is: an agent is a system that would adapt its policy if the causal influence of its actions were different, and we can in principle test for this using intervention style data and causal modelling tools such as causal influence diagrams.
+In AI safety we often model systems as agents, meaning systems that make decisions to achieve objectives. But this can be a modelling choice rather than an obvious fact.
+%% COMMENTED OUT (AI slop):
+This post proposes a causal definition of agency grounded in how the system’s behaviour would change under specific counterfactual changes in how its actions affect the world. The core idea is: an agent is a system that would adapt its policy if the causal influence of its actions were different, and we can in principle test for this using intervention style data and causal modelling tools such as causal influence diagrams.
 
 
 #### Article
