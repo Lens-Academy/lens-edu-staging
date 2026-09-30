@@ -18,7 +18,7 @@ summary_for_tutor:: Welcome lens framing the module: modern AI is trained and gr
 reading_minutes:: 2
 #### Text
 content:: 
-Modern AI is not engineered like a bridge or a compiler. It is trained, grown, and often surprises its creators with emergent skills. This module builds an accurate mental model of that paradigm, then adds the security mindset needed to reason about failure under pressure. Finally, it introduces the “simulators” frame, which explains how an LLM can look like an agent, oracle, or tool while still being a statistical predictor.
+{--{"author":"Plex's AI","timestamp":1790763976904}@@Modern AI is not engineered like a bridge or a compiler. It is trained, grown, and often surprises its creators with emergent skills. --}This module{--{"author":"Plex's AI","timestamp":1790763976904}@@ builds an accurate mental model of that paradigm, then adds the security mindset needed --}{++{"author":"Plex's AI","timestamp":1790763976904}@@ aims ++}to {--{"author":"Plex's AI","timestamp":1790763976904}@@reason about failure under pressure. Finally, it introduces the “simulators” frame, which explains how--}{++{"author":"Plex's AI","timestamp":1790763976904}@@give you a reasonable grasp of what modern AI systems are, both on++} an{--{"author":"Plex's AI","timestamp":1790763976904}@@ LLM can look like an agent, oracle, or tool while still being a statistical predictor.--}{++{"author":"Plex's AI","timestamp":1790763976904}@@ intuitive and technical level.++}
 
 # Lens:
 source:: ![[../Lenses/AI Is Grown, Not Built|AI Is Grown, Not Built]]
