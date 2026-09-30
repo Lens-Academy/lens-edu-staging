@@ -14,7 +14,7 @@ to:: "the "evasion of human control"."
 
 #### Text
 content::
-In your own words, what is instrumental convergence?
+{--{"author":"Elua's AI","timestamp":1790792039838}@@In your own words, what is instrumental convergence?--}{++{"author":"Elua's AI","timestamp":1790792039838}@@What do you make of the overall picture that this article paints?++}
 #### Chat
 instructions::
 TLDR of what the user just read:
