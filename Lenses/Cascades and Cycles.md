@@ -4,7 +4,7 @@ reading_minutes: 15
 tutor_minutes: 5
 summary_for_tutor: "Covers the distinction between cascades (one-directional chains of breakthroughs) and cycles (self-reinforcing feedback loops) as types of positive feedback. Introduces cybernetics framing: systems whose output becomes input. Asks students to consider whether intelligence could function as a positive feedback system."
 title: Cascades and Cycles
-tldr: Writing didn't just help us keep records — it triggered a wave of civilizational breakthroughs, each one making the next more likely. A single neutron can split an atom, releasing neutrons that split more. This article introduces two patterns of positive feedback and asks whether intelligence could work the same way.
+# tldr: Writing didn't just help us keep records — it triggered a wave of civilizational breakthroughs, each one making the next more likely. A single neutron can split an atom, releasing neutrons that split more. This article introduces two patterns of positive feedback and asks whether intelligence could work the same way.
 ---
 #### Text
 content::
