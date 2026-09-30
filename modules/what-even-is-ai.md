@@ -29,6 +29,9 @@ hide:: true
 source:: ![[../Lenses/Security Mindset and Ordinary Paranoia|Security Mindset and Ordinary Paranoia]]
 
 # Lens:
+source:: ![[../Lenses/robert-miles-ai-safety-just-predicting-tokens]]
+
+# Lens:
 source:: ![[../Lenses/Janus' Simulators - Scott Alexander]]
 
 # Lens:
