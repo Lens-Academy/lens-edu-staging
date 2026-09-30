@@ -1,6 +1,6 @@
-{--{"author":"Elua's AI","timestamp":1790780905497}@@_-----}{++{"author":"Elua's AI","timestamp":1790780905497}@@---++}
-title: "Risks from power-seeking AI {--{"author":"Elua's AI","timestamp":1790780905497}@@systems (backup before 2026-09-01 reimport)"--}{++{"author":"Elua's AI","timestamp":1790780905497}@@systems"++}
-{--{"author":"Elua's AI","timestamp":1790780905497}@@# --}source_url: {--{"author":"Elua's AI","timestamp":1790780905497}@@https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/--}{++{"author":"Elua's AI","timestamp":1790780905497}@@"https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/"++}
+---
+title: "Risks from power-seeking AI systems"
+source_url: "https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/"
 author:
   - "Cody Fenwick"
   - "Zershaaneh Qureshi"
