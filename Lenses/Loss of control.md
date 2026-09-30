@@ -8,7 +8,7 @@ title: Loss of control
 %% Forked 2026-09-30 from [[Risks from power-seeking AI]] so AFFINE keeps the updated 80k "Loss of control" text, while Navigating Superintelligence uses the July 2025 "Risks from power-seeking AI systems" snapshot. %%
 
 #### Article
-source:: [[../articles/fenwick-loss-of-control]]
+source:: [[../articles/fenwick-risks-from-power-seeking-ai-systems]]
 
 
 #### Chat

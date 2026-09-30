@@ -13,7 +13,7 @@ The 80,000 Hours case for why reducing risks from power-seeking AI is one of the
 %%
 
 #### Article
-source:: [[../archive/80k-risks-from-power-seeking-ai-systems-june-2026-handmade]]
+source:: {--{"author":"Elua's AI","timestamp":1790782960611}@@[[../archive/80k-risks-from-power-seeking-ai-systems-june-2026-handmade]]--}{++{"author":"Elua's AI","timestamp":1790782960611}@@[[../articles/fenwick-risks-from-power-seeking-ai-systems]]++}
 
 
 #### Chat
