@@ -204,6 +204,7 @@ multi:: true
 options::
 - BlueDot Course
 - Lens Course
+- Lens Project
 - AI Safety Camp
 - ML4Good
 - Global Challenges Project
