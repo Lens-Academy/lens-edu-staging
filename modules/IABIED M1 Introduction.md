@@ -52,7 +52,7 @@ Three questions in sequence. Whether what a system wants is what you trained for
 :::
 
 :::callout {title="Unit 3: One Extinction Scenario" tone="blue"}
-The shape of this unit is different. Two short extension readings, then most of the book's own extinction scenario as a thirty-minute film rather than as chapters, the chapter that follows it, and the Coda. It ends by asking where your own leverage on the problem might be.
+Two short extension readings, then most of the book's own extinction scenario as a thirty-minute film rather than as chapters, the chapter that follows it, and the Coda. It ends by asking where your own leverage on the problem might be.
 :::
 
 :::callout {title="Unit 4: Facing the Challenge, Part 1" tone="blue"}
