@@ -4,7 +4,7 @@ reading_minutes: 5
 tutor_minutes: 3
 summary_for_tutor: "Presents the affirmative case for AI control as a short-term defense: if deep alignment cannot be solved before AGI arrives, control offers a way to safely use powerful models by building containment stronger than the model's ability to escape, buying time for alignment research to catch up."
 title: The case for ensuring that powerful AIs are controlled
-tldr: We might not solve deep alignment before building very capable AI. This article argues that control — monitoring, containment, and rigorous testing — can let us safely use powerful models while alignment research catches up. Think of it as building a prison stronger than the prisoner.
+# tldr: We might not solve deep alignment before building very capable AI. This article argues that control — monitoring, containment, and rigorous testing — can let us safely use powerful models while alignment research catches up. Think of it as building a prison stronger than the prisoner.
 ---
 #### Text
 content::
