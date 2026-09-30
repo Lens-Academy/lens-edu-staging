@@ -22,14 +22,8 @@ options::
 - Not pursuing AI safety work right now
 
 #### Question: Open
-id:: 33243923-243a-4638-9d3c-85c2f2c59d70
-content:: What is it, specifically? Name the role or programme, the organisation, and when it started.
-description:: For example: "Research fellow at LASR Labs since January 2027" or "Volunteering for PauseAI; applying to SPAR and MATS".
-max-chars:: 400
-
-#### Question: Open
 id:: c3be7321-e1db-40ea-b827-e5a447f9fb73
-content:: Looking back, what were the 3–4 things (people, programmes, resources, events) that most helped you get here?
+content:: Looking back, what were the 3–4 things (people, programmes, resources, events) that most helped you get to where you are now in AI safety?
 optional:: true
 max-chars:: 1500
 
