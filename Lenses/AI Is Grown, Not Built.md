@@ -6,9 +6,9 @@ summary_for_tutor: "Eliezer Yudkowsky and Nate Soares (MIRI), in an essay adapte
 title: "AI Is Grown, Not Built"
 # tldr: Nobody sat down and programmed ChatGPT to have conversations. Instead, engineers set up a training process and let billions of parameters arrange themselves. The result can talk, reason, and surprise its creators — but nobody can fully explain how. This article asks what it means to deploy something powerful when you can't explain how it works.
 ---
-#### Text
+{--{"author":"Elua's AI","timestamp":1790790489392}@@#### Text
 content::
-%% COMMENTED OUT (AI slop):
+--}%% COMMENTED OUT (AI slop):
 We don’t "build" intelligence brick by brick; instead, we create conditions for it to develop using massive datasets. This "growth" leads to emergent properties, skills that the system wasn't explicitly taught and that often surprise the creators themselves. The article below examines these features of the current AI development paradigm and explores the consequences of such an approach.
 %%
 
