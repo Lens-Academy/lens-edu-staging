@@ -205,14 +205,41 @@ function slot(set){
   return s;
 }
 
-// k is the matching part of the answer key, used only to mark blocks after "Check chart".
-function draw(n, set, k, show){
+// After "Check chart", marks each block against the answer key by role, not by depth: the steps in
+// order, then the decision, then the ending on each arm. A missing step then only costs the steps,
+// instead of pushing the decision and every ending out of line.
+function flat(n){
+  var steps = [];
+  while(n && "next" in n){ steps.push(n); n = n.next; }
+  return {steps:steps, tail:n};
+}
+function grade(chart, stage){
+  var ok = new Map(), k = flat(key(stage)), u = flat(chart);
+  function wrong(n){
+    if(!n) return;
+    ok.set(n, false);
+    if(n.arms) n.arms.forEach(wrong); else if("next" in n) wrong(n.next);
+  }
+  u.steps.forEach(function(n, i){ ok.set(n, !!k.steps[i] && k.steps[i].b===n.b); });
+  var t = u.tail, kt = k.tail;
+  if(t){
+    ok.set(t, !!kt && kt.b===t.b);
+    if(t.arms) t.arms.forEach(function(a, i){
+      var ka = kt && kt.arms ? kt.arms[i] : null;
+      if(a && ka && a.b===ka.b && !a.arms && !("next" in a)) ok.set(a, true); else wrong(a);
+    });
+  }
+  return {ok:ok, missing:k.steps.length - u.steps.length};
+}
+
+// g is the result of grade(), or null before "Check chart".
+function draw(n, set, g){
   var col = el("div", "tree");
   if(!n){ col.appendChild(slot(set)); return col; }
   var b = block(n.b);
   var box = el("div", "node " + b.kind);
-  if(show){
-    var ok = !!k && k.b===n.b;
+  if(g){
+    var ok = !!g.ok.get(n);
     box.className += ok ? " good" : " bad";
     var m = el("span", "mark", ok ? "✓" : "✗");
     m.setAttribute("aria-label", ok ? "matches Table 2" : "does not match Table 2");
@@ -232,13 +259,13 @@ function draw(n, set, k, show){
       var arm = el("div", "arm");
       arm.appendChild(el("span", "arm-label", label));
       arm.appendChild(el("div", "vline"));
-      arm.appendChild(draw(n.arms[i], function(v){ n.arms[i] = v; }, k && k.arms ? k.arms[i] : null, show));
+      arm.appendChild(draw(n.arms[i], function(v){ n.arms[i] = v; }, g));
       row.appendChild(arm);
     });
     col.appendChild(row);
   } else if("next" in n){
     col.appendChild(el("div", "vline"));
-    col.appendChild(draw(n.next, function(v){ n.next = v; }, k && "next" in k ? k.next : null, show));
+    col.appendChild(draw(n.next, function(v){ n.next = v; }, g));
   }
   return col;
 }
@@ -349,7 +376,8 @@ function renderPanel(){
   var tree = el("div", "tree");
   tree.appendChild(el("div", "start", "Problem arrives"));
   tree.appendChild(el("div", "vline"));
-  tree.appendChild(draw(charts[stage.id], function(v){ charts[stage.id] = v; }, key(stage), show));
+  var g = show ? grade(charts[stage.id], stage) : null;
+  tree.appendChild(draw(charts[stage.id], function(v){ charts[stage.id] = v; }, g));
   chart.appendChild(tree);
   panel.appendChild(chart);
 
@@ -374,7 +402,12 @@ function renderPanel(){
       v.appendChild(el("p", "explain", stage.explanation));
     } else {
       v.appendChild(el("strong", null, "Not quite. "));
-      v.appendChild(document.createTextNode("Blocks marked ✓ match Table 2; blocks marked ✗ do not. Adjust the chart and check again."));
+      var anyWrong = false;
+      g.ok.forEach(function(x){ if(!x) anyWrong = true; });
+      var gap = g.missing > 0 ? "the chart is missing a step" : g.missing < 0 ? "the chart has a step too many" : "";
+      var text = anyWrong ? "Blocks marked ✓ match Table 2; blocks marked ✗ do not." + (gap ? " Also, " + gap + "." : "")
+                          : "Every block you placed matches Table 2, but " + gap + ".";
+      v.appendChild(document.createTextNode(text + " Adjust the chart and check again."));
     }
     panel.appendChild(v);
   }
