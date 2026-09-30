@@ -658,7 +658,7 @@ var WFM = {
   var completed = false;
   // Nothing is saved until the saved state has arrived, so early typing cannot overwrite it.
   var hydrated = !window.Lens;
-  var open = { brainstorm: true, factors: false, score: false, results: false };
+  var open = { factors: true, score: false, results: false };
   var ui = { confirm: null, detail: null, editingDesc: {}, openF: {}, openQ: {}, shortN: 5, shortMsg: "" };
   var live = { cats: [], readouts: [], totals: {}, statuses: {} };
 
