@@ -27,7 +27,7 @@ Add discussion note here:
 
 AI experts, journalists, policymakers, and the public are increasingly discussing a broad spectrum of important and urgent risks from AI. Even so, it can be difficult to voice concerns about some of advanced AI’s most severe risks. The succinct statement below aims to overcome this obstacle and open up discussion. It is also meant to create common knowledge of the growing number of experts and public figures who also take some of advanced AI’s most severe risks seriously.
 
-### Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war. ^mitigating-the-risk-of
+{--{"author":"Elua's AI","timestamp":1790779064287}@@### Mitigating--}{++{"author":"Elua's AI","timestamp":1790779064287}@@> **Mitigating++} the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear {--{"author":"Elua's AI","timestamp":1790779064287}@@war.--}{++{"author":"Elua's AI","timestamp":1790779064287}@@war.**++} ^mitigating-the-risk-of
 
 #### Signatories: ^signatories
 
