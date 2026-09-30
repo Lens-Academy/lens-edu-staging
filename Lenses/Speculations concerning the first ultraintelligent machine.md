@@ -24,5 +24,5 @@ An article by I.J. Good speculating about the cognitive infrastructure of a thin
 
 topics to explore:
 - We are a shape of intelligence grown by evolution and AI is a shape of intelligence grown by us. Will an intelligence grown or built by a hyper-intelligent AI be another such paradigm change? 
-- Is the creation of further ultra-intelligent closer to a cycle or to a cascade in the sense of Yudkowsky's "Cascades and Cycles"? 
+- Is the creation of further ultra-intelligent closer to a cycle (the same output reinvested again and again) or to a cascade (each breakthrough opening up the next)? 
 - Is there a way to impose design constraints onto the second generation of machines? What would be the benefits and drawbacks?
