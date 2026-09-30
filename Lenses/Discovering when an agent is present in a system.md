@@ -4,7 +4,7 @@ reading_minutes: 10
 tutor_minutes: 8
 summary_for_tutor: "Introduces a causal definition of agency: an agent is a system whose behavior would change if the causal influence of its actions on the world were altered. Proposes using counterfactual interventions and causal influence diagrams to test whether a system is genuinely goal-directed versus merely following fixed rules."
 title: Discovering when an agent is present in a system
-tldr: We often talk about AI systems as agents — things that make decisions to achieve goals. But how do you actually tell whether something is an agent, versus just a process following rules? This article proposes a way to test for agency by looking at how a system would behave if its actions affected the world differently.
+# tldr: We often talk about AI systems as agents — things that make decisions to achieve goals. But how do you actually tell whether something is an agent, versus just a process following rules? This article proposes a way to test for agency by looking at how a system would behave if its actions affected the world differently.
 ---
 #### Text
 content::
