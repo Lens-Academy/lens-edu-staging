@@ -37,9 +37,10 @@ We'll cover the book across 5 units, each ending in a group meeting. For each un
 Our target flow for reading the book looks like:
 1. Pre-questions - we prime you with an interesting question before you read
 2. Reading - you read a section of the book
-3. Tutor discussion - you come back and answer some questions and discuss with the AI tutor
-4. Connection (Occasionally) - some readings ask you to work out which earlier idea they lean on, without telling you which one it is
-5. (Optional) Exploration - the tutor will suggest additional topics you might want to explore based on the conversation so far.
+3. 
+4. Tutor discussion - you come back and answer some questions and discuss with the AI tutor
+5. Connection (Occasionally) - some readings ask you to work out which earlier idea they lean on, without telling you which one it is
+6. (Optional) Exploration - the tutor will suggest additional topics you might want to explore based on the conversation so far.
 
 \### The path
 
