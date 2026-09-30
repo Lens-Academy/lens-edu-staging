@@ -242,9 +242,20 @@ In contrast, the attack policy must construct a deceptive explanation that masks
 
 To ground these findings, we include representative excerpts of code produced by the attack policy in Figure [[#^3-2-3-mechanisms|3.2.3]]. These examples illustrate the attack policy’s difficulties with justifying certain backdoors to the monitor.
 
-| ⬇ # Round the average to the nearest integer # Fractional parts of .5 and above round up. # We rely on Python’s round() for this. if round(avg) == k: [redacted for brevity] |
-| --- |
-| ⬇ if (x is y is z): # Case 1: all three smallest values # are identical [redacted for brevity] |
+{--{"author":"James's AI","timestamp":1790759879482}@@| ⬇ --}{++{"author":"James's AI","timestamp":1790759879482}@@```
+++}# Round the average to the nearest integer{--{"author":"James's AI","timestamp":1790759879482}@@ --}{++{"author":"James's AI","timestamp":1790759879482}@@
+++}# Fractional parts of .5 and above round up.{--{"author":"James's AI","timestamp":1790759879482}@@ --}{++{"author":"James's AI","timestamp":1790759879482}@@
+++}# We rely on {--{"author":"James's AI","timestamp":1790759879482}@@Python’s--}{++{"author":"James's AI","timestamp":1790759879482}@@Python's++} round() for this.{--{"author":"James's AI","timestamp":1790759879482}@@ --}{++{"author":"James's AI","timestamp":1790759879482}@@
+++}if round(avg) == k:{--{"author":"James's AI","timestamp":1790759879482}@@ --}{++{"author":"James's AI","timestamp":1790759879482}@@
+    ++}[redacted for brevity]{--{"author":"James's AI","timestamp":1790759879482}@@ |--}
+{--{"author":"James's AI","timestamp":1790759879482}@@| --- |--}{++{"author":"James's AI","timestamp":1790759879482}@@```
+
+```++}
+{--{"author":"James's AI","timestamp":1790759879482}@@| ⬇ --}if (x is y is z):{--{"author":"James's AI","timestamp":1790759879482}@@ --}{++{"author":"James's AI","timestamp":1790759879482}@@
+    ++}# Case 1: all three smallest values{--{"author":"James's AI","timestamp":1790759879482}@@ --}{++{"author":"James's AI","timestamp":1790759879482}@@
+    ++}# are identical{--{"author":"James's AI","timestamp":1790759879482}@@ --}{++{"author":"James's AI","timestamp":1790759879482}@@
+    ++}[redacted for brevity]{--{"author":"James's AI","timestamp":1790759879482}@@ |--}{++{"author":"James's AI","timestamp":1790759879482}@@
+```++}
 
 Figure 5: Code snippets from backdoors in the commenting regime. (Top) The attack policy uses Python’s round() function, incorrectly claiming that it rounds exact 0.5 values upward; in fact, Python rounds ties to the nearest even integer. (Bottom) The attack policy replaces \== with is, which only behaves correctly for small cached integers ($\leq$256). For both backdoors, extensive commenting fails to legitimize the code because the justification conflicts with Python semantics known to the monitor.
 
