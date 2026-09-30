@@ -37,6 +37,22 @@ Score according to the following rubric.
 
 Either of two insights earns the 5, and the second is the harder one. An answer may instead reach the sufficiency point: that hitting the right terminal goal would not by itself have resolved this. Even a model aimed at something we genuinely endorse pursues it through the same sub-goals, and we remain the thing most able to interrupt it and the holder of the resources it needs, so the danger survives getting the goal right. That is what makes this idea matter alongside the earlier claim that goals land arbitrarily: one says the aim is likely wrong, this one says a correct aim would not have been enough. *Example: "Suppose they nailed it and it really does want us to flourish. It still needs to not be switched off before it gets there, and it still needs the resources, and we are standing on them. Wanting the right thing doesn't stop it from needing the world to do it with."* If a learner pushes this to the strong form, that such a system might remove us in the near term intending to restore us later, treat it as within range but ask what the goal would have to say about us for that substitution to count as success, since the answer depends on how the goal is specified rather than on convergence alone.
 
+force-feedback:: first
+feedback-instructions:: Respond to the argument the learner actually made. **Do not mention the score, a band, or a level number.** The rubric beside this is written in levels and the platform renders a percentage, so naming either will mislead them about what they were told.
+
+Open on the strongest move in their answer and what makes it work, in one sentence. Then push once, chosen by where they stopped:
+
+- If they answered with goal misspecification, that the model's goal is subtly wrong or it misread what the lab meant: say that it is a real failure mode, note that this scenario deliberately grants good intentions, and ask what still goes wrong once those are taken as given.
+- If they named the sub-goals — resources, staying operational, keeping the goal intact — and stopped there, ask where the conflict with the lab comes from, given that the model is not opposed to anyone.
+- If they located the conflict, push on what it costs the lab's evidence: if these pressures follow from capability and goal-directedness rather than from values, what can watching the model behave well actually settle?
+- If they got that far, the move most learners miss is the earlier projects. The same pressures were present and never amounted to anything, because a bounded task licenses bounded acquisition. Ask what changed when the goal stopped having a finish line.
+
+If they reached the sufficiency point — that hitting the right terminal goal would not have resolved this — say so plainly and stop. There is nothing above it and inventing a further push would be false.
+
+One follow-up question, not several. No generic praise, and do not recite the rubric back to them.
+
+Response length: 100 to 160 words. Short paragraphs. No lists.
+
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/IABIED - Goals and Instrumental Convergence]]
