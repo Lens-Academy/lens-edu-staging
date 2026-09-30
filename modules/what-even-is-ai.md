@@ -39,13 +39,13 @@ source:: ![[../Lenses/nostalgebraist-the-void]]
 
 # Lens:
 optional:: true
-source:: ![[../Lenses/byrnes-foom-doom-1-brain-in-a-box-in-a-basement]]
-
-# Lens:
-optional:: true
 source:: ![[../Lenses/sanderson-but-what-is-a-neural-network]]
 
 # Lens:
 optional:: true
 source:: ![[../Lenses/ericjmichaud-on-neural-scaling-and-the-quanta-hypothesis]]
+
+# Lens:
+optional:: true
+source:: ![[../Lenses/byrnes-foom-doom-1-brain-in-a-box-in-a-basement]]
 
