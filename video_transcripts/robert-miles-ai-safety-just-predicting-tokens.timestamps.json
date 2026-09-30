@@ -1,0 +1,1822 @@
+[
+  {
+    "text": "People",
+    "start": "0:00.00"
+  },
+  {
+    "text": "sometimes",
+    "start": "0:00.20"
+  },
+  {
+    "text": "say",
+    "start": "0:00.60"
+  },
+  {
+    "text": "that",
+    "start": "0:00.80"
+  },
+  {
+    "text": "language",
+    "start": "0:01.00"
+  },
+  {
+    "text": "models",
+    "start": "0:01.36"
+  },
+  {
+    "text": "just",
+    "start": "0:01.72"
+  },
+  {
+    "text": "predict",
+    "start": "0:02.00"
+  },
+  {
+    "text": "the",
+    "start": "0:02.32"
+  },
+  {
+    "text": "next",
+    "start": "0:02.40"
+  },
+  {
+    "text": "token,",
+    "start": "0:02.68"
+  },
+  {
+    "text": "which",
+    "start": "0:03.04"
+  },
+  {
+    "text": "is",
+    "start": "0:03.56"
+  },
+  {
+    "text": "true,",
+    "start": "0:04.12"
+  },
+  {
+    "text": "but",
+    "start": "0:04.48"
+  },
+  {
+    "text": "that",
+    "start": "0:04.80"
+  },
+  {
+    "text": "\"just\"",
+    "start": "0:05.12"
+  },
+  {
+    "text": "is",
+    "start": "0:05.80"
+  },
+  {
+    "text": "doing",
+    "start": "0:05.92"
+  },
+  {
+    "text": "a",
+    "start": "0:06.16"
+  },
+  {
+    "text": "lot",
+    "start": "0:06.20"
+  },
+  {
+    "text": "of",
+    "start": "0:06.36"
+  },
+  {
+    "text": "work.",
+    "start": "0:06.48"
+  },
+  {
+    "text": "Like,",
+    "start": "0:07.08"
+  },
+  {
+    "text": "let's",
+    "start": "0:07.24"
+  },
+  {
+    "text": "think",
+    "start": "0:07.48"
+  },
+  {
+    "text": "about",
+    "start": "0:07.68"
+  },
+  {
+    "text": "the",
+    "start": "0:08.08"
+  },
+  {
+    "text": "ideal",
+    "start": "0:08.32"
+  },
+  {
+    "text": "next",
+    "start": "0:08.76"
+  },
+  {
+    "text": "token",
+    "start": "0:09.04"
+  },
+  {
+    "text": "predictor,",
+    "start": "0:09.32"
+  },
+  {
+    "text": "or",
+    "start": "0:09.76"
+  },
+  {
+    "text": "even",
+    "start": "0:09.88"
+  },
+  {
+    "text": "just",
+    "start": "0:10.08"
+  },
+  {
+    "text": "an",
+    "start": "0:10.36"
+  },
+  {
+    "text": "extremely",
+    "start": "0:10.48"
+  },
+  {
+    "text": "good",
+    "start": "0:11.04"
+  },
+  {
+    "text": "next",
+    "start": "0:11.52"
+  },
+  {
+    "text": "token",
+    "start": "0:11.76"
+  },
+  {
+    "text": "predictor.",
+    "start": "0:12.00"
+  },
+  {
+    "text": "It's",
+    "start": "0:12.44"
+  },
+  {
+    "text": "able",
+    "start": "0:12.72"
+  },
+  {
+    "text": "to",
+    "start": "0:13.00"
+  },
+  {
+    "text": "reliably",
+    "start": "0:13.20"
+  },
+  {
+    "text": "predict",
+    "start": "0:13.76"
+  },
+  {
+    "text": "the",
+    "start": "0:14.08"
+  },
+  {
+    "text": "next",
+    "start": "0:14.16"
+  },
+  {
+    "text": "token",
+    "start": "0:14.40"
+  },
+  {
+    "text": "of",
+    "start": "0:14.72"
+  },
+  {
+    "text": "arbitrary",
+    "start": "0:14.88"
+  },
+  {
+    "text": "internet",
+    "start": "0:15.36"
+  },
+  {
+    "text": "text,",
+    "start": "0:15.76"
+  },
+  {
+    "text": "and",
+    "start": "0:16.16"
+  },
+  {
+    "text": "that's",
+    "start": "0:16.24"
+  },
+  {
+    "text": "all",
+    "start": "0:16.48"
+  },
+  {
+    "text": "it",
+    "start": "0:16.68"
+  },
+  {
+    "text": "does.",
+    "start": "0:16.80"
+  },
+  {
+    "text": "How",
+    "start": "0:17.12"
+  },
+  {
+    "text": "smart",
+    "start": "0:17.28"
+  },
+  {
+    "text": "is",
+    "start": "0:17.60"
+  },
+  {
+    "text": "that",
+    "start": "0:17.72"
+  },
+  {
+    "text": "thing?",
+    "start": "0:17.92"
+  },
+  {
+    "text": "Well,",
+    "start": "0:18.24"
+  },
+  {
+    "text": "the",
+    "start": "0:18.32"
+  },
+  {
+    "text": "first",
+    "start": "0:18.40"
+  },
+  {
+    "text": "thing",
+    "start": "0:18.68"
+  },
+  {
+    "text": "to",
+    "start": "0:18.80"
+  },
+  {
+    "text": "note",
+    "start": "0:18.92"
+  },
+  {
+    "text": "is",
+    "start": "0:19.20"
+  },
+  {
+    "text": "that",
+    "start": "0:19.36"
+  },
+  {
+    "text": "it",
+    "start": "0:19.48"
+  },
+  {
+    "text": "can't",
+    "start": "0:19.60"
+  },
+  {
+    "text": "just",
+    "start": "0:19.92"
+  },
+  {
+    "text": "memorize.",
+    "start": "0:20.20"
+  },
+  {
+    "text": "For",
+    "start": "0:20.84"
+  },
+  {
+    "text": "example,",
+    "start": "0:20.96"
+  },
+  {
+    "text": "it",
+    "start": "0:21.32"
+  },
+  {
+    "text": "will",
+    "start": "0:21.40"
+  },
+  {
+    "text": "be",
+    "start": "0:21.48"
+  },
+  {
+    "text": "common",
+    "start": "0:21.56"
+  },
+  {
+    "text": "in",
+    "start": "0:21.88"
+  },
+  {
+    "text": "the",
+    "start": "0:21.96"
+  },
+  {
+    "text": "data",
+    "start": "0:22.04"
+  },
+  {
+    "text": "to",
+    "start": "0:22.40"
+  },
+  {
+    "text": "have",
+    "start": "0:22.52"
+  },
+  {
+    "text": "a",
+    "start": "0:23.00"
+  },
+  {
+    "text": "table",
+    "start": "0:23.08"
+  },
+  {
+    "text": "of",
+    "start": "0:23.44"
+  },
+  {
+    "text": "lots",
+    "start": "0:23.52"
+  },
+  {
+    "text": "of",
+    "start": "0:23.72"
+  },
+  {
+    "text": "numbers,",
+    "start": "0:23.80"
+  },
+  {
+    "text": "and",
+    "start": "0:24.36"
+  },
+  {
+    "text": "then",
+    "start": "0:24.48"
+  },
+  {
+    "text": "at",
+    "start": "0:24.60"
+  },
+  {
+    "text": "the",
+    "start": "0:24.72"
+  },
+  {
+    "text": "bottom,",
+    "start": "0:24.80"
+  },
+  {
+    "text": "the",
+    "start": "0:25.24"
+  },
+  {
+    "text": "sum",
+    "start": "0:25.36"
+  },
+  {
+    "text": "of",
+    "start": "0:25.64"
+  },
+  {
+    "text": "all",
+    "start": "0:25.76"
+  },
+  {
+    "text": "of",
+    "start": "0:25.88"
+  },
+  {
+    "text": "those",
+    "start": "0:25.96"
+  },
+  {
+    "text": "numbers.",
+    "start": "0:26.16"
+  },
+  {
+    "text": "Now,",
+    "start": "0:26.68"
+  },
+  {
+    "text": "to",
+    "start": "0:26.84"
+  },
+  {
+    "text": "predict",
+    "start": "0:27.00"
+  },
+  {
+    "text": "that",
+    "start": "0:27.28"
+  },
+  {
+    "text": "last",
+    "start": "0:27.44"
+  },
+  {
+    "text": "token,",
+    "start": "0:27.72"
+  },
+  {
+    "text": "you",
+    "start": "0:28.40"
+  },
+  {
+    "text": "need",
+    "start": "0:28.52"
+  },
+  {
+    "text": "to",
+    "start": "0:28.68"
+  },
+  {
+    "text": "actually",
+    "start": "0:28.80"
+  },
+  {
+    "text": "do",
+    "start": "0:29.16"
+  },
+  {
+    "text": "the",
+    "start": "0:29.48"
+  },
+  {
+    "text": "addition",
+    "start": "0:29.60"
+  },
+  {
+    "text": "calculation.",
+    "start": "0:30.12"
+  },
+  {
+    "text": "There's",
+    "start": "0:30.64"
+  },
+  {
+    "text": "no",
+    "start": "0:30.80"
+  },
+  {
+    "text": "way",
+    "start": "0:31.00"
+  },
+  {
+    "text": "to",
+    "start": "0:31.16"
+  },
+  {
+    "text": "memorize",
+    "start": "0:31.28"
+  },
+  {
+    "text": "the",
+    "start": "0:31.92"
+  },
+  {
+    "text": "sums",
+    "start": "0:32.00"
+  },
+  {
+    "text": "of",
+    "start": "0:32.36"
+  },
+  {
+    "text": "every",
+    "start": "0:32.52"
+  },
+  {
+    "text": "possible",
+    "start": "0:32.84"
+  },
+  {
+    "text": "list",
+    "start": "0:33.36"
+  },
+  {
+    "text": "of",
+    "start": "0:33.60"
+  },
+  {
+    "text": "numbers.",
+    "start": "0:33.72"
+  },
+  {
+    "text": "There's",
+    "start": "0:34.24"
+  },
+  {
+    "text": "just",
+    "start": "0:34.36"
+  },
+  {
+    "text": "way",
+    "start": "0:34.56"
+  },
+  {
+    "text": "too",
+    "start": "0:34.68"
+  },
+  {
+    "text": "many",
+    "start": "0:34.84"
+  },
+  {
+    "text": "of",
+    "start": "0:35.08"
+  },
+  {
+    "text": "them.",
+    "start": "0:35.20"
+  },
+  {
+    "text": "So",
+    "start": "0:35.68"
+  },
+  {
+    "text": "you",
+    "start": "0:35.80"
+  },
+  {
+    "text": "have",
+    "start": "0:35.92"
+  },
+  {
+    "text": "to",
+    "start": "0:36.08"
+  },
+  {
+    "text": "actually",
+    "start": "0:36.20"
+  },
+  {
+    "text": "be",
+    "start": "0:36.60"
+  },
+  {
+    "text": "able",
+    "start": "0:36.80"
+  },
+  {
+    "text": "to",
+    "start": "0:37.04"
+  },
+  {
+    "text": "do",
+    "start": "0:37.16"
+  },
+  {
+    "text": "addition.",
+    "start": "0:37.32"
+  },
+  {
+    "text": "That's",
+    "start": "0:37.84"
+  },
+  {
+    "text": "one",
+    "start": "0:38.04"
+  },
+  {
+    "text": "thing.",
+    "start": "0:38.20"
+  },
+  {
+    "text": "Correct",
+    "start": "0:38.56"
+  },
+  {
+    "text": "next",
+    "start": "0:39.04"
+  },
+  {
+    "text": "token",
+    "start": "0:39.28"
+  },
+  {
+    "text": "prediction",
+    "start": "0:39.56"
+  },
+  {
+    "text": "requires",
+    "start": "0:40.04"
+  },
+  {
+    "text": "certain",
+    "start": "0:40.64"
+  },
+  {
+    "text": "computational",
+    "start": "0:40.96"
+  },
+  {
+    "text": "structures.",
+    "start": "0:41.64"
+  },
+  {
+    "text": "But",
+    "start": "0:42.24"
+  },
+  {
+    "text": "addition",
+    "start": "0:42.56"
+  },
+  {
+    "text": "is",
+    "start": "0:42.88"
+  },
+  {
+    "text": "not",
+    "start": "0:42.96"
+  },
+  {
+    "text": "very",
+    "start": "0:43.08"
+  },
+  {
+    "text": "difficult.",
+    "start": "0:43.28"
+  },
+  {
+    "text": "A",
+    "start": "0:43.72"
+  },
+  {
+    "text": "tougher",
+    "start": "0:43.76"
+  },
+  {
+    "text": "thing",
+    "start": "0:44.04"
+  },
+  {
+    "text": "to",
+    "start": "0:44.20"
+  },
+  {
+    "text": "predict",
+    "start": "0:44.28"
+  },
+  {
+    "text": "might",
+    "start": "0:44.60"
+  },
+  {
+    "text": "be",
+    "start": "0:44.80"
+  },
+  {
+    "text": "the",
+    "start": "0:45.00"
+  },
+  {
+    "text": "results",
+    "start": "0:45.12"
+  },
+  {
+    "text": "section",
+    "start": "0:45.52"
+  },
+  {
+    "text": "of",
+    "start": "0:46.16"
+  },
+  {
+    "text": "a",
+    "start": "0:46.36"
+  },
+  {
+    "text": "research",
+    "start": "0:46.44"
+  },
+  {
+    "text": "paper.",
+    "start": "0:46.88"
+  },
+  {
+    "text": "You",
+    "start": "0:47.28"
+  },
+  {
+    "text": "could",
+    "start": "0:47.36"
+  },
+  {
+    "text": "take",
+    "start": "0:47.48"
+  },
+  {
+    "text": "a",
+    "start": "0:47.64"
+  },
+  {
+    "text": "paper",
+    "start": "0:47.72"
+  },
+  {
+    "text": "in,",
+    "start": "0:48.24"
+  },
+  {
+    "text": "let's",
+    "start": "0:48.56"
+  },
+  {
+    "text": "say,",
+    "start": "0:48.80"
+  },
+  {
+    "text": "medicine",
+    "start": "0:48.96"
+  },
+  {
+    "text": "and",
+    "start": "0:50.08"
+  },
+  {
+    "text": "have",
+    "start": "0:50.28"
+  },
+  {
+    "text": "the",
+    "start": "0:50.64"
+  },
+  {
+    "text": "introduction,",
+    "start": "0:50.76"
+  },
+  {
+    "text": "the",
+    "start": "0:51.72"
+  },
+  {
+    "text": "method",
+    "start": "0:52.00"
+  },
+  {
+    "text": "section,",
+    "start": "0:52.36"
+  },
+  {
+    "text": "and",
+    "start": "0:52.84"
+  },
+  {
+    "text": "then",
+    "start": "0:52.96"
+  },
+  {
+    "text": "the",
+    "start": "0:53.08"
+  },
+  {
+    "text": "heading",
+    "start": "0:53.16"
+  },
+  {
+    "text": "\"Results,\"",
+    "start": "0:53.56"
+  },
+  {
+    "text": "and",
+    "start": "0:54.36"
+  },
+  {
+    "text": "then",
+    "start": "0:54.48"
+  },
+  {
+    "text": "have",
+    "start": "0:54.60"
+  },
+  {
+    "text": "it",
+    "start": "0:54.72"
+  },
+  {
+    "text": "generate",
+    "start": "0:54.80"
+  },
+  {
+    "text": "from",
+    "start": "0:55.16"
+  },
+  {
+    "text": "there.",
+    "start": "0:55.28"
+  },
+  {
+    "text": "Now,",
+    "start": "0:55.92"
+  },
+  {
+    "text": "in",
+    "start": "0:56.08"
+  },
+  {
+    "text": "order",
+    "start": "0:56.20"
+  },
+  {
+    "text": "to",
+    "start": "0:56.36"
+  },
+  {
+    "text": "correctly",
+    "start": "0:56.52"
+  },
+  {
+    "text": "generate",
+    "start": "0:57.04"
+  },
+  {
+    "text": "the",
+    "start": "0:57.52"
+  },
+  {
+    "text": "tokens",
+    "start": "0:57.60"
+  },
+  {
+    "text": "for",
+    "start": "0:58.08"
+  },
+  {
+    "text": "the",
+    "start": "0:58.20"
+  },
+  {
+    "text": "results",
+    "start": "0:58.28"
+  },
+  {
+    "text": "of",
+    "start": "0:58.68"
+  },
+  {
+    "text": "this",
+    "start": "0:58.76"
+  },
+  {
+    "text": "scientific",
+    "start": "0:58.92"
+  },
+  {
+    "text": "experiment,",
+    "start": "0:59.40"
+  },
+  {
+    "text": "the",
+    "start": "1:00.08"
+  },
+  {
+    "text": "system",
+    "start": "1:00.16"
+  },
+  {
+    "text": "needs",
+    "start": "1:00.48"
+  },
+  {
+    "text": "to",
+    "start": "1:00.72"
+  },
+  {
+    "text": "actually",
+    "start": "1:00.84"
+  },
+  {
+    "text": "be",
+    "start": "1:01.16"
+  },
+  {
+    "text": "able",
+    "start": "1:01.32"
+  },
+  {
+    "text": "to",
+    "start": "1:01.52"
+  },
+  {
+    "text": "think",
+    "start": "1:01.64"
+  },
+  {
+    "text": "about",
+    "start": "1:01.96"
+  },
+  {
+    "text": "the",
+    "start": "1:02.44"
+  },
+  {
+    "text": "things",
+    "start": "1:02.56"
+  },
+  {
+    "text": "the",
+    "start": "1:02.88"
+  },
+  {
+    "text": "experiment",
+    "start": "1:03.00"
+  },
+  {
+    "text": "is",
+    "start": "1:03.56"
+  },
+  {
+    "text": "about.",
+    "start": "1:03.64"
+  },
+  {
+    "text": "It",
+    "start": "1:04.08"
+  },
+  {
+    "text": "needs",
+    "start": "1:04.12"
+  },
+  {
+    "text": "to",
+    "start": "1:04.32"
+  },
+  {
+    "text": "have",
+    "start": "1:04.44"
+  },
+  {
+    "text": "an",
+    "start": "1:04.60"
+  },
+  {
+    "text": "accurate",
+    "start": "1:04.68"
+  },
+  {
+    "text": "model",
+    "start": "1:05.04"
+  },
+  {
+    "text": "of",
+    "start": "1:05.36"
+  },
+  {
+    "text": "biology",
+    "start": "1:05.56"
+  },
+  {
+    "text": "and",
+    "start": "1:06.20"
+  },
+  {
+    "text": "biochemistry",
+    "start": "1:06.36"
+  },
+  {
+    "text": "to",
+    "start": "1:07.12"
+  },
+  {
+    "text": "tell",
+    "start": "1:07.24"
+  },
+  {
+    "text": "if",
+    "start": "1:07.44"
+  },
+  {
+    "text": "the",
+    "start": "1:07.52"
+  },
+  {
+    "text": "drug",
+    "start": "1:07.60"
+  },
+  {
+    "text": "works.",
+    "start": "1:07.88"
+  },
+  {
+    "text": "Note",
+    "start": "1:08.40"
+  },
+  {
+    "text": "that",
+    "start": "1:08.56"
+  },
+  {
+    "text": "this",
+    "start": "1:08.68"
+  },
+  {
+    "text": "means",
+    "start": "1:08.84"
+  },
+  {
+    "text": "it",
+    "start": "1:09.04"
+  },
+  {
+    "text": "has",
+    "start": "1:09.12"
+  },
+  {
+    "text": "to",
+    "start": "1:09.28"
+  },
+  {
+    "text": "be",
+    "start": "1:09.40"
+  },
+  {
+    "text": "significantly",
+    "start": "1:09.48"
+  },
+  {
+    "text": "smarter",
+    "start": "1:10.12"
+  },
+  {
+    "text": "than",
+    "start": "1:10.56"
+  },
+  {
+    "text": "the",
+    "start": "1:10.68"
+  },
+  {
+    "text": "scientists",
+    "start": "1:10.80"
+  },
+  {
+    "text": "running",
+    "start": "1:11.44"
+  },
+  {
+    "text": "the",
+    "start": "1:11.72"
+  },
+  {
+    "text": "experiment,",
+    "start": "1:11.84"
+  },
+  {
+    "text": "because",
+    "start": "1:12.52"
+  },
+  {
+    "text": "the",
+    "start": "1:12.76"
+  },
+  {
+    "text": "scientists",
+    "start": "1:12.84"
+  },
+  {
+    "text": "got",
+    "start": "1:13.60"
+  },
+  {
+    "text": "to",
+    "start": "1:13.80"
+  },
+  {
+    "text": "actually",
+    "start": "1:13.92"
+  },
+  {
+    "text": "run",
+    "start": "1:14.24"
+  },
+  {
+    "text": "the",
+    "start": "1:14.40"
+  },
+  {
+    "text": "experiment.",
+    "start": "1:14.48"
+  },
+  {
+    "text": "The",
+    "start": "1:15.12"
+  },
+  {
+    "text": "next",
+    "start": "1:15.20"
+  },
+  {
+    "text": "token",
+    "start": "1:15.44"
+  },
+  {
+    "text": "predictor",
+    "start": "1:15.72"
+  },
+  {
+    "text": "just",
+    "start": "1:16.08"
+  },
+  {
+    "text": "has",
+    "start": "1:16.32"
+  },
+  {
+    "text": "to",
+    "start": "1:16.48"
+  },
+  {
+    "text": "predict",
+    "start": "1:16.60"
+  },
+  {
+    "text": "it",
+    "start": "1:16.96"
+  },
+  {
+    "text": "based",
+    "start": "1:17.16"
+  },
+  {
+    "text": "only",
+    "start": "1:17.52"
+  },
+  {
+    "text": "on",
+    "start": "1:17.80"
+  },
+  {
+    "text": "the",
+    "start": "1:17.92"
+  },
+  {
+    "text": "methods.",
+    "start": "1:18.00"
+  },
+  {
+    "text": "And",
+    "start": "1:18.60"
+  },
+  {
+    "text": "not",
+    "start": "1:18.72"
+  },
+  {
+    "text": "just",
+    "start": "1:18.88"
+  },
+  {
+    "text": "that,",
+    "start": "1:19.08"
+  },
+  {
+    "text": "but",
+    "start": "1:19.32"
+  },
+  {
+    "text": "what",
+    "start": "1:19.92"
+  },
+  {
+    "text": "if",
+    "start": "1:20.04"
+  },
+  {
+    "text": "the",
+    "start": "1:20.16"
+  },
+  {
+    "text": "scientists",
+    "start": "1:20.24"
+  },
+  {
+    "text": "made",
+    "start": "1:20.84"
+  },
+  {
+    "text": "a",
+    "start": "1:21.00"
+  },
+  {
+    "text": "mistake",
+    "start": "1:21.04"
+  },
+  {
+    "text": "somewhere?",
+    "start": "1:21.44"
+  },
+  {
+    "text": "The",
+    "start": "1:21.96"
+  },
+  {
+    "text": "next",
+    "start": "1:22.04"
+  },
+  {
+    "text": "token",
+    "start": "1:22.28"
+  },
+  {
+    "text": "predictor",
+    "start": "1:22.56"
+  },
+  {
+    "text": "would",
+    "start": "1:22.92"
+  },
+  {
+    "text": "have",
+    "start": "1:23.04"
+  },
+  {
+    "text": "to",
+    "start": "1:23.20"
+  },
+  {
+    "text": "predict",
+    "start": "1:23.28"
+  },
+  {
+    "text": "that",
+    "start": "1:23.96"
+  },
+  {
+    "text": "the",
+    "start": "1:24.24"
+  },
+  {
+    "text": "scientists",
+    "start": "1:24.32"
+  },
+  {
+    "text": "made",
+    "start": "1:24.84"
+  },
+  {
+    "text": "a",
+    "start": "1:25.00"
+  },
+  {
+    "text": "mistake,",
+    "start": "1:25.04"
+  },
+  {
+    "text": "and",
+    "start": "1:25.80"
+  },
+  {
+    "text": "exactly",
+    "start": "1:26.04"
+  },
+  {
+    "text": "which",
+    "start": "1:26.52"
+  },
+  {
+    "text": "mistake",
+    "start": "1:26.76"
+  },
+  {
+    "text": "they",
+    "start": "1:27.16"
+  },
+  {
+    "text": "made,",
+    "start": "1:27.28"
+  },
+  {
+    "text": "and",
+    "start": "1:27.68"
+  },
+  {
+    "text": "how",
+    "start": "1:27.84"
+  },
+  {
+    "text": "that",
+    "start": "1:27.96"
+  },
+  {
+    "text": "affects",
+    "start": "1:28.12"
+  },
+  {
+    "text": "the",
+    "start": "1:28.40"
+  },
+  {
+    "text": "results,",
+    "start": "1:28.48"
+  },
+  {
+    "text": "and",
+    "start": "1:28.92"
+  },
+  {
+    "text": "so",
+    "start": "1:29.04"
+  },
+  {
+    "text": "on.",
+    "start": "1:29.20"
+  },
+  {
+    "text": "So",
+    "start": "1:29.44"
+  },
+  {
+    "text": "a",
+    "start": "1:29.68"
+  },
+  {
+    "text": "sufficiently",
+    "start": "1:29.76"
+  },
+  {
+    "text": "good",
+    "start": "1:30.44"
+  },
+  {
+    "text": "next",
+    "start": "1:30.76"
+  },
+  {
+    "text": "token",
+    "start": "1:31.08"
+  },
+  {
+    "text": "predictor",
+    "start": "1:31.36"
+  },
+  {
+    "text": "is",
+    "start": "1:32.04"
+  },
+  {
+    "text": "radically",
+    "start": "1:32.36"
+  },
+  {
+    "text": "superintelligent,",
+    "start": "1:32.80"
+  },
+  {
+    "text": "far",
+    "start": "1:33.72"
+  },
+  {
+    "text": "smarter",
+    "start": "1:33.96"
+  },
+  {
+    "text": "than",
+    "start": "1:34.32"
+  },
+  {
+    "text": "any",
+    "start": "1:34.52"
+  },
+  {
+    "text": "human",
+    "start": "1:34.72"
+  },
+  {
+    "text": "being.",
+    "start": "1:35.00"
+  },
+  {
+    "text": "Now,",
+    "start": "1:35.40"
+  },
+  {
+    "text": "obviously,",
+    "start": "1:35.64"
+  },
+  {
+    "text": "actual",
+    "start": "1:36.40"
+  },
+  {
+    "text": "language",
+    "start": "1:36.80"
+  },
+  {
+    "text": "models",
+    "start": "1:37.16"
+  },
+  {
+    "text": "are",
+    "start": "1:37.52"
+  },
+  {
+    "text": "not",
+    "start": "1:37.64"
+  },
+  {
+    "text": "perfect",
+    "start": "1:37.96"
+  },
+  {
+    "text": "next",
+    "start": "1:38.36"
+  },
+  {
+    "text": "token",
+    "start": "1:38.60"
+  },
+  {
+    "text": "predictors.",
+    "start": "1:38.84"
+  },
+  {
+    "text": "But",
+    "start": "1:39.40"
+  },
+  {
+    "text": "the",
+    "start": "1:39.52"
+  },
+  {
+    "text": "point",
+    "start": "1:39.60"
+  },
+  {
+    "text": "is",
+    "start": "1:39.92"
+  },
+  {
+    "text": "that",
+    "start": "1:40.20"
+  },
+  {
+    "text": "the",
+    "start": "1:40.32"
+  },
+  {
+    "text": "fact",
+    "start": "1:40.44"
+  },
+  {
+    "text": "that",
+    "start": "1:40.84"
+  },
+  {
+    "text": "all",
+    "start": "1:41.00"
+  },
+  {
+    "text": "it's",
+    "start": "1:41.20"
+  },
+  {
+    "text": "doing",
+    "start": "1:41.40"
+  },
+  {
+    "text": "is",
+    "start": "1:41.84"
+  },
+  {
+    "text": "next",
+    "start": "1:42.00"
+  },
+  {
+    "text": "token",
+    "start": "1:42.28"
+  },
+  {
+    "text": "prediction",
+    "start": "1:42.52"
+  },
+  {
+    "text": "doesn't",
+    "start": "1:42.96"
+  },
+  {
+    "text": "keep",
+    "start": "1:43.28"
+  },
+  {
+    "text": "the",
+    "start": "1:43.52"
+  },
+  {
+    "text": "system",
+    "start": "1:43.64"
+  },
+  {
+    "text": "from",
+    "start": "1:44.04"
+  },
+  {
+    "text": "being",
+    "start": "1:44.20"
+  },
+  {
+    "text": "radically",
+    "start": "1:44.52"
+  },
+  {
+    "text": "superintelligent.",
+    "start": "1:44.92"
+  },
+  {
+    "text": "Token",
+    "start": "1:45.96"
+  },
+  {
+    "text": "prediction",
+    "start": "1:46.24"
+  },
+  {
+    "text": "is",
+    "start": "1:46.68"
+  },
+  {
+    "text": "just",
+    "start": "1:46.80"
+  },
+  {
+    "text": "a",
+    "start": "1:47.08"
+  },
+  {
+    "text": "task.",
+    "start": "1:47.12"
+  },
+  {
+    "text": "It",
+    "start": "1:47.96"
+  },
+  {
+    "text": "doesn't",
+    "start": "1:48.04"
+  },
+  {
+    "text": "tell",
+    "start": "1:48.28"
+  },
+  {
+    "text": "you",
+    "start": "1:48.44"
+  },
+  {
+    "text": "anything",
+    "start": "1:48.56"
+  },
+  {
+    "text": "about",
+    "start": "1:48.92"
+  },
+  {
+    "text": "the",
+    "start": "1:49.16"
+  },
+  {
+    "text": "system",
+    "start": "1:49.28"
+  },
+  {
+    "text": "that's",
+    "start": "1:49.72"
+  },
+  {
+    "text": "actually",
+    "start": "1:49.92"
+  },
+  {
+    "text": "carrying",
+    "start": "1:50.20"
+  },
+  {
+    "text": "out",
+    "start": "1:50.56"
+  },
+  {
+    "text": "that",
+    "start": "1:50.72"
+  },
+  {
+    "text": "task.",
+    "start": "1:50.96"
+  },
+  {
+    "text": "If",
+    "start": "1:51.96"
+  },
+  {
+    "text": "you",
+    "start": "1:52.08"
+  },
+  {
+    "text": "want",
+    "start": "1:52.16"
+  },
+  {
+    "text": "to",
+    "start": "1:52.32"
+  },
+  {
+    "text": "talk",
+    "start": "1:52.40"
+  },
+  {
+    "text": "about",
+    "start": "1:52.64"
+  },
+  {
+    "text": "what",
+    "start": "1:53.04"
+  },
+  {
+    "text": "language",
+    "start": "1:53.20"
+  },
+  {
+    "text": "models",
+    "start": "1:53.56"
+  },
+  {
+    "text": "can",
+    "start": "1:53.88"
+  },
+  {
+    "text": "and",
+    "start": "1:54.12"
+  },
+  {
+    "text": "can't",
+    "start": "1:54.24"
+  },
+  {
+    "text": "do,",
+    "start": "1:54.60"
+  },
+  {
+    "text": "you",
+    "start": "1:55.28"
+  },
+  {
+    "text": "have",
+    "start": "1:55.40"
+  },
+  {
+    "text": "to",
+    "start": "1:55.56"
+  },
+  {
+    "text": "talk",
+    "start": "1:55.64"
+  },
+  {
+    "text": "about",
+    "start": "1:55.84"
+  },
+  {
+    "text": "the",
+    "start": "1:56.08"
+  },
+  {
+    "text": "models",
+    "start": "1:56.16"
+  },
+  {
+    "text": "themselves.",
+    "start": "1:56.48"
+  },
+  {
+    "text": "You",
+    "start": "1:57.12"
+  },
+  {
+    "text": "have",
+    "start": "1:57.24"
+  },
+  {
+    "text": "to",
+    "start": "1:57.36"
+  },
+  {
+    "text": "talk",
+    "start": "1:57.48"
+  },
+  {
+    "text": "about",
+    "start": "1:57.68"
+  },
+  {
+    "text": "things",
+    "start": "1:57.88"
+  },
+  {
+    "text": "like",
+    "start": "1:58.16"
+  },
+  {
+    "text": "the",
+    "start": "1:58.40"
+  },
+  {
+    "text": "transformer",
+    "start": "1:58.48"
+  },
+  {
+    "text": "architecture.",
+    "start": "1:59.08"
+  },
+  {
+    "text": "The",
+    "start": "1:59.84"
+  },
+  {
+    "text": "simple",
+    "start": "1:59.92"
+  },
+  {
+    "text": "fact",
+    "start": "2:00.24"
+  },
+  {
+    "text": "that",
+    "start": "2:00.52"
+  },
+  {
+    "text": "something",
+    "start": "2:00.68"
+  },
+  {
+    "text": "is",
+    "start": "2:01.04"
+  },
+  {
+    "text": "predicting",
+    "start": "2:01.16"
+  },
+  {
+    "text": "the",
+    "start": "2:01.56"
+  },
+  {
+    "text": "next",
+    "start": "2:01.64"
+  },
+  {
+    "text": "token",
+    "start": "2:01.88"
+  },
+  {
+    "text": "doesn't",
+    "start": "2:02.56"
+  },
+  {
+    "text": "place",
+    "start": "2:02.88"
+  },
+  {
+    "text": "any",
+    "start": "2:03.16"
+  },
+  {
+    "text": "meaningful",
+    "start": "2:03.32"
+  },
+  {
+    "text": "limits",
+    "start": "2:03.72"
+  },
+  {
+    "text": "on",
+    "start": "2:04.12"
+  },
+  {
+    "text": "its",
+    "start": "2:04.28"
+  },
+  {
+    "text": "abilities.",
+    "start": "2:04.40"
+  }
+]

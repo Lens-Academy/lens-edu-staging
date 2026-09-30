@@ -29,10 +29,11 @@ hide:: true
 source:: ![[../Lenses/Security Mindset and Ordinary Paranoia|Security Mindset and Ordinary Paranoia]]
 
 # Lens:
-source:: ![[../Lenses/How can LLMs be understood as simulators]]
+source:: ![[../Lenses/Janus' Simulators - Scott Alexander]]
 
 # Lens:
-source:: ![[../Lenses/Janus' Simulators - Scott Alexander]]
+optional:: true
+source:: ![[../Lenses/How can LLMs be understood as simulators]]
 
 # Lens:
 source:: ![[../Lenses/nostalgebraist-the-void]]
