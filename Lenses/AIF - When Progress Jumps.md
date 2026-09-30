@@ -79,12 +79,12 @@ And here we run into an example of why you must understand how a number came to 
 #### Article
 source:: [[../articles/grace-discontinuous-progress-in-history]]
 from:: ## I. The search for discontinuities
-to:: YBa2Cu3O7 as a superconductor, 1987
+to:: YBa2Cu3O7 as a superconductor, 1987 (discontinuity in [warmest temperature of superconduction](http://aiimpacts.org/historic-trends-in-the-maximum-superconducting-temperature/))
 
 #### Article
 source:: [[../articles/grace-discontinuous-progress-in-history]]
 from:: ## IV. Summary
-to:: Growth rates sharply changed in many trends
+to:: Growth rates sharply changed in many trends, and this seemed strongly associated with discontinuities.
 
 #### Question
 id:: f600dc0f-002c-4f62-b2fb-06105e8fd542

@@ -14,7 +14,7 @@ This is part 3 of 4 of the founding AI control paper. Part 2 showed trusted moni
 #### Article
 source:: [[../articles/greenblatt-ai-control-improving-safety-despite-intentional-subversion]]
 from:: #### 3.2.1 Qualitative Analysis
-to:: Various examples of monitoring results for both normal solutions and backdoors can be found in
+to:: Various examples of monitoring results for both normal solutions and backdoors can be found in [[#^n-1-examples-for|Appendix N.1]].
 
 #### Text
 content::
