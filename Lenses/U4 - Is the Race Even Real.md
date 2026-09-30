@@ -65,7 +65,7 @@ Then write one more line saying where your number comes from. It could be a benc
 you saw, a headline, a model you tried, or a general impression from what people say.
 Name the source honestly. A wrong number you can defend beats no number at all.
 
-assessment-instructions::
+feedback-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
 
 This is the fifth lens of Unit 4 in a course about AI futures, written for newcomers.

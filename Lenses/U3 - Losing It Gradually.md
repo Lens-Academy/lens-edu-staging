@@ -49,7 +49,7 @@ Then write one more line. If that reason stopped applying, what would change fir
 
 And one line more. Who could act before that change lands, and what would it cost them?
 
-assessment-instructions::
+feedback-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
 
 This is a pre-reading question in a course about AI futures, written for newcomers. The

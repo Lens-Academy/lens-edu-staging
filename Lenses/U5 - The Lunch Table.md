@@ -47,7 +47,7 @@ Place this development in your model, in three sentences. Is it timeline evidenc
 
 Then one more line: the single thing you would check before repeating any of this at lunch. Not three things. The one that would most embarrass you if you skipped it.
 
-assessment-instructions::
+feedback-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
 
 This is the fourth lens of Unit 5, the final unit of a course about AI futures, written for newcomers. There is no reading. The student was shown one real development: the California AI Transparency Act became operative on August 2, 2026, requiring large generative AI providers to offer a free AI detection tool and to embed latent disclosures in AI-generated image, video, and audio content, after a 2025 amendment delayed the start from January 1, 2026 and phased platform duties to 2027 and capture-device duties to 2028.

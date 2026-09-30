@@ -66,7 +66,7 @@ setting. Be specific about the rule, not about the situation.
 And one line more. In your case, at what point could someone have re-tied the rules to
 the new setting, and what would it have cost them to stop and do that?
 
-assessment-instructions::
+feedback-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
 
 This is a pre-reading question in a course about AI futures, written for newcomers. The

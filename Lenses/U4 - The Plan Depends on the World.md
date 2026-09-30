@@ -46,7 +46,7 @@ Please write 2 or 3 sentences about the plan you believe exists today to prevent
 Then finally, describe in one line what your plan assumes the rest of the world is doing.
 
 
-assessment-instructions::
+feedback-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
 
 This is the first lens of Unit 4 in a course about AI futures, written for newcomers. The student has NOT read the article yet. The article is "Plans A, B, C, and D for misalignment risk" by Ryan Greenblatt, and it is in your context. The student was asked to describe the plan they believe currently exists for preventing AI takeover, who executes it, and, in one further line, what that plan assumes the rest of the world is doing.
