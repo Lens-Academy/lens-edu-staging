@@ -18,13 +18,28 @@ summary_for_tutor:: Short welcome lens framing the module's theme: positive feed
 reading_minutes:: 2
 #### Text
 content::
-Much of the world is dominated by positive feedback loops. The first bit of grain that was left over and got re-planted sparked the agricultural revolution. Might the development of intelligence also contain such self-amplifying spirals?
+Much of the world is dominated by positive feedback loops. The first bit of grain that was left over and got re-planted sparked the agricultural revolution. Might the development of intelligence also contain such self-amplifying spirals?{--{"author":"Elua's AI","timestamp":1790792496548}@@
 
 
 
-# Lens:
-source:: [[../Lenses/Speculations concerning the first ultraintelligent machine|Speculations concerning the first ultraintelligent machine]]
+# Lens:--}{++{"author":"Elua's AI","timestamp":1790792496548}@@
 
+#### Article++}
+source:: {--{"author":"Elua's AI","timestamp":1790792496548}@@[[../Lenses/Speculations concerning--}{++{"author":"Elua's AI","timestamp":1790792496548}@@[[../articles/good-speculations-concerning-first-ultraintelligent-machine]]
+from:: "Let an ultraintelligent machine be defined"
+to:: "how to keep it under control."
+
+#### Chat
+instructions::
+TLDR of what the user just read:
+A short passage from I.J. Good's paper on++} the first ultraintelligent {--{"author":"Elua's AI","timestamp":1790792496548}@@machine|Speculations concerning--}{++{"author":"Elua's AI","timestamp":1790792496548}@@machine. Good defines an ultraintelligent machine as one that can far surpass all the intellectual activities of any human. Since designing machines is one of those activities, it could design even better machines, leading to an "intelligence explosion" that leaves human intelligence far behind. So++} the first ultraintelligent {--{"author":"Elua's AI","timestamp":1790792496548}@@machine]]--}{++{"author":"Elua's AI","timestamp":1790792496548}@@machine is the last invention humans need to make, provided it is docile enough to tell us how to keep it under control.
+
+topics to explore:++}
+{++{"author":"Elua's AI","timestamp":1790792496548}@@- We are a shape of intelligence grown by evolution and AI is a shape of intelligence grown by us. Will an intelligence grown or built by a hyper-intelligent AI be another such paradigm change? 
+- Is the creation of further ultra-intelligent closer to a cycle (the same output reinvested again and again) or to a cascade (each breakthrough opening up the next)? 
+- Is there a way to impose design constraints onto the second generation of machines? What would be the benefits and drawbacks?
+
+++}
 # Lens:
 source:: ![[../Lenses/1960, The Year The Singularity Was Cancelled]]
 {>>{"author":"Elias's AI","timestamp":1783453519891}@@Added per course feedback. 1960 and the AI Digest time-horizons piece are the new mainline readings 2 and 3 (I. J. Good stays reading 0, the singularity/explosion/takeoff definitions lens reading 1). They are attached at module level rather than to a specific learning outcome; reviewer may want to file them under an outcome. Cascades and Cycles + Recursion Magic were moved to optional inside their outcomes.<<}
