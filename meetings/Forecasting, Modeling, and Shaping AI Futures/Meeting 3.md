@@ -10,7 +10,7 @@ title: AI futures M3 Meeting Doc
 
 ### Meeting link:
 
-source:: [[../shared/Session Doc - How today works]]
+source:: [[../shared/Session Doc - How today works (3 rooms)]]
 
 \pagebreak
 ### Room 1: The catastrophe you built  [0:05–0:19]
@@ -38,7 +38,7 @@ One or two people share what their group landed on.
 ---
 
 \pagebreak
-### Room 2: Whose fault is it in your story  [0:24–0:42]
+### Room 2: Whose fault is it in your story  [0:24–0:46]
 
 
 1. Each of you say in one sentence where your Room 1 catastrophe started.
@@ -56,7 +56,7 @@ Which of those two is your catastrophe? And if you had to work on only one of th
 |  |  |
 |  |  |
 
-### Back together: 5 min  [0:42–0:47]
+### Back together: 5 min  [0:46–0:51]
 
 One or two people share what their group landed on.
 
@@ -64,10 +64,10 @@ One or two people share what their group landed on.
 
 
 
-### Break: 5 min  [0:47–0:52]
+### Break: 5 min  [0:51–0:56]
 
 \pagebreak
-### Room 3: Would you take the deal  [0:52–1:10]
+### Room 3: Would you take the deal  [0:56–1:18]
 
 **New group. Names first, then straight in.**
 
@@ -89,38 +89,25 @@ AI systems are watched, restricted, and checked by other systems. They cannot ca
 |  |  |
 
 
-### Back together: 5 min  [1:10–1:15]
+### Back together: 5 min  [1:18–1:23]
 
 One or two people share what their group landed on.
 
 ---
 
 \pagebreak
-### Room 4: What moved, and what to change  [1:15–1:27]
+### Next steps and goodbye  [1:23–1:30]
 
-**New group. Names first, then straight in.**
+Whole group, no breakout room.
 
-1. At the end of the unit you rewrote your model of the next ten years. Name one specific thing that changed, and the reading that changed it.
+
+1. Closing round, answer out loud if you'd like: at the end of the unit you rewrote your model of the next ten years. Name one specific thing that changed, and the reading that changed it.
     1. "I am more worried" is not a change. "I moved the point where AI does most AI research from never to about ten years out" is a change.
     2. If you did not do that exercise, say one thing you believe now that you did not believe at the start of this course.
-2. What is most likely to stop you finishing the next unit, and what is your plan?
-3. This course is being rewritten while you take it, and your answer changes it. Some of you have said it is too hard; others have said that is why you are here. Which are you, and what specifically would you change? Be blunt, we would rather have the honest answer than the kind one.
+2. Today, send your accountability partner one line: what is most likely to stop you finishing the next unit, and your plan.
 
 
-| Names | One specific change and what caused it. Plan for next unit. Too hard, or not hard enough, and what to change. |
-|------|------------------------|
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-
-\pagebreak
-### Wrap-up  [1:27–1:30]
-
-Say one thing you are less sure about than you were two hours ago.
-
-
-Before you go: send your Room 4 plan to your accountability partner, and use the Lens Coach (https://lensacademy.org/coach) between sessions. Room 4 answers reach the people building this course and they do change it.
+Use the Lens Coach (https://lensacademy.org/coach) between sessions. One question for the post-meeting survey's feedback box: some of you have said this course is too hard; others have said that is why you are here. Which are you, and what specifically would you change? Be blunt. Your answer reaches the people building this course, and they do change it.
 
 
 ---
@@ -145,27 +132,26 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:00–0:05 | Lobby / welcome (whole group) |
 | 0:05–0:19 | R1 The catastrophe you built (breakout, aim 3) |
 | 0:19–0:24 | Back together (whole group) |
-| 0:24–0:42 | R2 Whose fault is it in your story (reshuffle) |
-| 0:42–0:47 | Back together (whole group) |
-| 0:47–0:52 | Break |
-| 0:52–1:10 | R3 Would you take the deal (reshuffle) |
-| 1:10–1:15 | Back together (whole group) |
-| 1:15–1:27 | R4 What moved, and what to change (reshuffle) |
-| 1:27–1:30 | Close (whole group) |
+| 0:24–0:46 | R2 Whose fault is it in your story (reshuffle) |
+| 0:46–0:51 | Back together (whole group) |
+| 0:51–0:56 | Break |
+| 0:56–1:18 | R3 Would you take the deal (reshuffle) |
+| 1:18–1:23 | Back together (whole group) |
+| 1:23–1:30 | Close: next steps + closing round (whole group, no breakout) |
 
 source:: [[../shared/Navigator Run-Sheet - Lobby and welcome, version 2]]
 
 source:: [[../shared/Navigator Run-Sheet - During the breakout rooms]]
 
-source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
+source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer (3 rooms)]]
 
 ### Close
 
-**[1:27–1:30], whole group**. Bring everyone back:
+**[1:23–1:30], whole group, no breakout** (there is no Room 4 today). Straight on from Room 3's back-together:
 
 
-1. Ask for "one thing I'm taking away" from anyone who wants it (~10 sec each; a few voices is plenty, people have already shared between rooms).
-2. **Next-unit heads-up: Unit 4 turns from how it could go wrong to what anyone plans to do about it: rival strategies, one reading each, ending with them splitting 100 points of influence across the levers. The readings will be on the platform before the next session. Check the course page. Bring your Room 4 plan to your accountability partner.**
+1. Ask for "one specific thing that changed in my model, and the reading that changed it" from anyone who wants it (~10 sec each; a few voices is plenty).
+2. **Next-unit heads-up: Unit 4 turns from how it could go wrong to what anyone plans to do about it: rival strategies, one reading each, ending with them splitting 100 points of influence across the levers. The readings will be on the platform before the next session. Check the course page. Remind them to send their next-unit plan to their accountability partner today, and to answer the too-hard question in the survey.**
 3. **End on time.** Then say the meeting **stays open** for anyone who wants to keep talking; stay and facilitate, or say goodbye and leave (they can keep going without you).
 
 

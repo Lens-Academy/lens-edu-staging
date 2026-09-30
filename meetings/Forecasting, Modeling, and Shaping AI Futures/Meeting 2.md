@@ -10,7 +10,7 @@ title: AI futures M2 Meeting Doc
 
 ### Meeting link:
 
-source:: [[../shared/Session Doc - How today works]]
+source:: [[../shared/Session Doc - How today works (3 rooms)]]
 
 \pagebreak
 ### Room 1: What is driving this  [0:05–0:19]
@@ -38,7 +38,7 @@ One or two people share what their group landed on.
 ---
 
 \pagebreak
-### Room 2: Break their model  [0:24–0:42]
+### Room 2: Break their model  [0:24–0:46]
 
 New group. Names first, then straight in.
 
@@ -68,7 +68,7 @@ If a question is not clear, copy it into the Lens Coach ([https://lensacademy.or
 |  |  |
 |  |  |
 
-### Back together: 5 min  [0:42–0:47]
+### Back together: 5 min  [0:46–0:51]
 
 One or two people share what their group landed on.
 
@@ -76,10 +76,10 @@ One or two people share what their group landed on.
 
 
 
-### Break: 5 min  [0:47–0:52]
+### Break: 5 min  [0:51–0:56]
 
 \pagebreak
-### Room 3: Build your own  [0:52–1:10]
+### Room 3: Build your own  [0:56–1:18]
 
 New group. Names first, then straight in.
 
@@ -105,33 +105,23 @@ If your group cannot find anything that would show you wrong, say so out loud. T
 |  |  |
 
 
-### Back together: 5 min  [1:10–1:15]
+### Back together: 5 min  [1:18–1:23]
 
 One or two people share what their group landed on.
 
 ---
 
 \pagebreak
-### Room 4: Next unit, and what to change  [1:15–1:27]
+### Next steps and goodbye  [1:23–1:30]
 
-New group. Names first, then straight in.
-
-
-1\. Next unit. What is most likely to stop you finishing it? What is your plan to prevent that? Send your plan to your accountability partner after this meeting.
-2\. The shape of this course. We are deciding this now, and your answer will change it. Unit 2 gave you readings. It also gave you our questions, our exercises and our tests. Which helps you more: fewer exercises from us and more good readings, or the present balance? Please answer directly. We want the honest answer, not the kind one.
+Whole group, no breakout room.
 
 
-| Names | What could stop you finishing next unit, and your plan. Then: more readings and fewer exercises, or the present balance? |
-|------|------------------------|
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+1\. Next unit: today, send your accountability partner one line: what is most likely to stop you finishing it, and your plan to prevent that.
+2\. Closing round, answer out loud if you'd like: one thing you are less sure about than you were two hours ago, and one thing you are more sure about.
 
-\pagebreak
-### Wrap-up  [1:27–1:30]
 
-Say one thing you are less sure about than you were two hours ago. Then say one thing you are more sure about.
+One question for the post-meeting survey's feedback box. We are deciding the shape of this course now, and your answer will change it. Which helps you more: fewer exercises from us and more good readings, or the present balance? We want the honest answer, not the kind one.
 
 
 ---
@@ -156,27 +146,26 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:00–0:05 | Lobby / welcome (whole group) |
 | 0:05–0:19 | R1 What is driving this (breakout, aim 3) |
 | 0:19–0:24 | Back together (whole group) |
-| 0:24–0:42 | R2 Break their model (reshuffle) |
-| 0:42–0:47 | Back together (whole group) |
-| 0:47–0:52 | Break |
-| 0:52–1:10 | R3 Build your own (reshuffle) |
-| 1:10–1:15 | Back together (whole group) |
-| 1:15–1:27 | R4 Next unit, and what to change (reshuffle) |
-| 1:27–1:30 | Close (whole group) |
+| 0:24–0:46 | R2 Break their model (reshuffle) |
+| 0:46–0:51 | Back together (whole group) |
+| 0:51–0:56 | Break |
+| 0:56–1:18 | R3 Build your own (reshuffle) |
+| 1:18–1:23 | Back together (whole group) |
+| 1:23–1:30 | Close: next steps + closing round (whole group, no breakout) |
 
 source:: [[../shared/Navigator Run-Sheet - Lobby and welcome, version 2]]
 
 source:: [[../shared/Navigator Run-Sheet - During the breakout rooms]]
 
-source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
+source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer (3 rooms)]]
 
 ### Close
 
-**[1:27–1:30], whole group**. Bring everyone back:
+**[1:23–1:30], whole group, no breakout** (there is no Room 4 today). Straight on from Room 3's back-together:
 
 
 1. Ask for "one thing I'm taking away" from anyone who wants it (~10 sec each; a few voices is plenty, people have already shared between rooms).
-2. **Next-unit heads-up: The next unit moves from how we make forecasts to what we are forecasting: the threat models. The readings will be on the platform before the next session. Check the course page. Bring your Room 4 plan to your accountability partner.**
+2. **Next-unit heads-up: The next unit moves from how we make forecasts to what we are forecasting: the threat models. The readings will be on the platform before the next session. Check the course page. Remind them to send their next-unit plan to their accountability partner today, and to answer the course-shape question in the survey.**
 3. **End on time.** Then say the meeting **stays open** for anyone who wants to keep talking; stay and facilitate, or say goodbye and leave (they can keep going without you).
 
 
