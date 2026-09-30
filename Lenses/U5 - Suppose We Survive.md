@@ -43,7 +43,7 @@ Then write one sentence naming the belief that carries your answer. Not the conc
 
 Then one more line. This one is harder. In the good outcome you just pictured, who set the priorities? Name the actor you actually expect to make those decisions: labs, governments, voters, markets, the AIs, nobody in particular.
 
-assessment-instructions::
+feedback-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
 
 This is the second lens of Unit 5, the final unit of a course about AI futures written for newcomers. The unit asks where the leverage is. The previous lens argued that safety plans end with AIs doing most of the remaining safety work; this one turns from prevention to what the future is being steered toward. The reading is William MacAskill's "Introducing Better Futures" (Forethought, 2025). The essay is attached, excerpted from its opening argument through its closing clarifications, and it is in your context. The student has NOT read it yet: they will read it in the next segment, after answering. They were asked to commit yes or no on whether the future is good by default once takeover is prevented, one sentence on what carries that answer, and one line naming who sets the priorities in the good outcome.

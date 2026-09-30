@@ -56,7 +56,7 @@ and why those two.
 Then write one more line. This one is harder. If leadership turned against your team,
 which of the two survives?
 
-assessment-instructions::
+feedback-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
 
 This is a middle lens of Unit 4 in a course about AI futures, written for newcomers. The

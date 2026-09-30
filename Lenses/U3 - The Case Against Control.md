@@ -78,7 +78,7 @@ Then write one more line, and this is the harder half. Name one thing that gets 
 because control is in use. Not a cost in money or effort. Something else we wanted, which
 becomes harder to get once containment is in place.
 
-assessment-instructions::
+feedback-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
 
 This is the last lens of Unit 3, in a course about AI futures for newcomers. The student

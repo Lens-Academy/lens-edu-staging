@@ -51,7 +51,7 @@ And: which reading did you disagree with, or find least convincing? One is enoug
 honest answer is that you found all five convincing, say that, and say whether that
 worries you.
 
-assessment-instructions::
+feedback-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
 
 This is the final lens of Unit 3, in a course about AI futures for newcomers.

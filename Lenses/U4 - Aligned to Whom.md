@@ -47,7 +47,7 @@ Write three or four sentences tracing a path from that starting point to one per
 
 Then write one more line. This is the most important one. Name the earliest guardrail that would have to fail for your path to work. Name the first specific check, rule, or person that would stop you, and say why it fails.
 
-assessment-instructions::
+feedback-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
 
 This is the sixth lens of Unit 4 in a course about AI futures, written for newcomers. Unit 4 dissects rival strategies for preventing AI catastrophe; earlier lenses covered a conditional safety playbook, safety-minded insiders at labs, a proposed national AGI project, and whether the US-China race is real. The student has NOT read the article yet. The article is "How an AI company CEO could quietly take over the world" by Alex Kastner of the AI Futures Project, and it is in your context. The student was asked to assume alignment is solved, trace a path from perfectly obedient AI to one person effectively in charge of everything, and then name the earliest guardrail that would have to fail.
