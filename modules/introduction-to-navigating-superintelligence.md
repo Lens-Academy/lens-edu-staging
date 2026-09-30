@@ -39,6 +39,7 @@ source:: [[../Lenses/AI Chronicles - Torchbearer]]
 source:: ![[../Lenses/10 reasons]]
 
 # Lens:
+optional:: true
 source:: ![[../Lenses/Deadly By Default]]
 
 # Lens:
