@@ -24,7 +24,7 @@ Return here after reading.
 id:: 9639e756-c013-4852-b0ac-f5f6cc7df3a9
 content::
 \## Phase 1: Recall
-Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
+Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.{++{"author":"Luc","timestamp":1790765803382}@@ kekekbi++}
 
 force-feedback:: first
 feedback-instructions:: The student has just read Chapter 4 ("You Don't Get What You Train For") of "If Anyone Builds It, Everyone Dies."
