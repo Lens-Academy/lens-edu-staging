@@ -78,7 +78,8 @@ function fmt(e, axis) {
     else { var h = Math.floor(n), m = Math.round(e - 60 * h), r = h + " hour" + (h === 1 ? "" : "s"); a = m > 0 ? r + " " + m + " mins" : r; }
     if (n >= 8) {
       var k;
-      if (n >= 166.51) { k = Math.round(n / 167); extra = k + " work month" + (k === 1 ? "" : "s"); }
+      if (n > 2004) { var yrs = n / 2004; var ys = yrs.toLocaleString("en-US", { maximumFractionDigits: yrs >= 10 ? 0 : 1 }); extra = ys + " work year" + (ys === "1" ? "" : "s"); }
+      else if (n >= 166.51) { k = Math.round(n / 167); extra = k + " work month" + (k === 1 ? "" : "s"); }
       else if (n >= 40) { k = Math.round(n / 40); extra = k + " work week" + (k === 1 ? "" : "s"); }
       else { k = Math.round(n / 8); extra = k + " work day" + (k === 1 ? "" : "s"); }
       return [a, extra];
