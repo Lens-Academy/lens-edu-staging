@@ -333,10 +333,10 @@ source:: ![[../Lenses/IABIED - QA - Keep the Coalition Large]]
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/15 - Chapter 14 - Where There's Life, There's Hope]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Un-writing our fate]]
+source:: ![[../Learning Outcomes/Un-writing our fate]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Role-specific action]]
+source:: ![[../Learning Outcomes/Role-specific action]]
 
 %%
 # Lens:
@@ -357,7 +357,7 @@ source:: [[../Lenses/IABIED - Role-Specific Action]]
 %%
 Demoted to optional to reduce final-unit load:
 # Learning Outcome: IABIED - The Two Prayers
-source:: [[../Learning Outcomes/The two prayers]]
+source:: ![[../Learning Outcomes/The two prayers]]
 
 # Lens:
 source:: [[../Lenses/IABIED - The Two Prayers - PQ]]
