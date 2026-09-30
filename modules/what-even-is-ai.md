@@ -13,7 +13,7 @@ source:: ![[../Learning Outcomes/Simulator theory|Simulator Theory]]
 
 # Lens: Welcome
 id:: e1322022-9d32-4d52-9f8a-403e5379ff42
-tldr:: Get a reasonable grasp of what modern AI systems are, both intuitively and technically.
+%% tldr:: Get a reasonable grasp of what modern AI systems are, both intuitively and technically. %%
 summary_for_tutor:: Welcome lens framing the module: modern AI is trained and grown rather than engineered, producing emergent capabilities. Sets up the three threads that follow, an accurate mental model of the grown paradigm, the security mindset for reasoning about failure under pressure, and the simulators frame for understanding how LLMs can appear agent-like while remaining statistical predictors.
 reading_minutes:: 2
 #### Text
