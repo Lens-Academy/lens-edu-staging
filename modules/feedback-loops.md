@@ -13,7 +13,7 @@ source:: ![[../Learning Outcomes/Fizzle or foom]]
 
 # Lens: Welcome
 id:: e0f8913a-66a2-4fc9-bbe8-bf72a95b003e
-tldr:: The first leftover grain replanted sparked the agricultural revolution. Could intelligence contain the same kind of self-amplifying spiral? This module opens the question of feedback loops in the growth of intelligence.
+%% tldr:: The first leftover grain replanted sparked the agricultural revolution. Could intelligence contain the same kind of self-amplifying spiral? This module opens the question of feedback loops in the growth of intelligence. %%
 summary_for_tutor:: Short welcome lens framing the module's theme: positive feedback loops and whether the development of intelligence contains self-amplifying dynamics. Framing text only; substantive teaching happens in the following lenses on intelligence explosion, takeoff speeds, and recursion.
 reading_minutes:: 2
 #### Text
