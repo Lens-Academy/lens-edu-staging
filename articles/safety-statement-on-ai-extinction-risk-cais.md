@@ -29,7 +29,7 @@ AI experts, journalists, policymakers, and the public are increasingly discussin
 
 > **Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war.** ^mitigating-the-risk-of
 
-{--{"author":"Elua's AI","timestamp":1790796678002}@@#### --}Signatories:{--{"author":"Elua's AI","timestamp":1790796678002}@@ ^signatories--}
+Signatories:
 
 **Geoffrey Hinton**  
 Emeritus Professor of Computer Science, University of Toronto
