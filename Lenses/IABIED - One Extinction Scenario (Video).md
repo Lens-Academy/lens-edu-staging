@@ -67,7 +67,7 @@ is heavy, and move on.
 **On the bets.** This is the part worth spending your push on, and what it
 tests is not the sorting.
 
-They already sorted these in the opening lens of this unit, and were pushed
+They already sorted these in the prior lens of this unit, and were pushed
 there on whatever they got wrong, so treat the sorting as settled and do not
 re-run it. What this beat tests is whether the judgment survived the film. A
 correct call made in the abstract is easy to give up once you have watched
