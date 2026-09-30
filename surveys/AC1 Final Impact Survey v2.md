@@ -183,13 +183,15 @@ id:: 7e2dd5ee-0026-4aa0-84f0-70b854b3d79f
 content:: Which kinds of steps are you taking in the next 1–3 months? Pick all that apply.
 multi:: true
 options::
-- Starting or continuing work in a role, funded research, or 3m+ paid programme
-- Starting an unpaid programme I've already been accepted to
+- Starting or continuing a paid full-time AI safety job
+- Starting or continuing a paid fellowship or funded research, 3 months or longer (e.g. MATS)
+- Starting or continuing paid part-time work or a shorter paid fellowship (e.g. ERA, facilitating)
+- Starting or continuing a selective unpaid programme (e.g. SPAR, ARENA)
+- Starting or continuing unpaid contributions (e.g. a project, volunteering, advocacy or a local group)
 - Applying to paid full-time AI safety jobs
 - Applying to paid fellowships or funded research, 3 months or longer (e.g. MATS, LASR, Pivotal)
 - Applying to paid part-time work or shorter paid fellowships (e.g. ERA, facilitating)
 - Applying to selective unpaid programmes (e.g. SPAR, ARENA, AI Safety Camp)
-- Starting or continuing helping with unpaid contributions: volunteering, advocacy, local groups
 - Taking another course (Lens or elsewhere)
 - Talking to people in the field about my next step
 - Nothing concrete yet
