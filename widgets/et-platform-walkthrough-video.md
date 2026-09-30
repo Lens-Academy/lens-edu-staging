@@ -1,0 +1,34 @@
+---
+id: '6bc857fa-72de-4330-91b5-e8008001437a'
+title: "ET Platform Walkthrough Video (Google Drive embed)"
+summary_for_tutor: "An embedded walkthrough video showing Effective Thesis Accelerator learners how to use the Lens platform. A button below opens the same video in Google Drive in a new tab."
+height: auto
+tags: [wip]
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<style>
+:root { --text: #1a1a1a; --muted: #5a5a5a; --border: #e8e5df; --accent: #b87018; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 4px 0; font: 14px/1.5 "DM Sans", Arial, sans-serif; color: var(--text); background: #fff; }
+.video { position: relative; width: 100%; padding-top: 56.25%; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: #000; }
+.video iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+.fallback { margin-top: 10px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; color: var(--muted); font-size: 13px; }
+a.btn { display: inline-block; text-decoration: none; font-weight: 600; color: var(--accent); border: 1px solid var(--accent); border-radius: 8px; padding: 8px 12px; }
+a.btn:hover { background: var(--accent); color: #fff; }
+</style>
+</head>
+<body>
+<div class="video">
+<iframe src="https://drive.google.com/file/d/11FG1uyoiV-PoUWGSyhXaT1UYCOgK_43J/preview" title="Effective Thesis Accelerator platform walkthrough video" allow="autoplay; fullscreen" allowfullscreen loading="lazy"></iframe>
+</div>
+<div class="fallback">
+<span>Video not playing?</span>
+<a class="btn" href="https://drive.google.com/file/d/11FG1uyoiV-PoUWGSyhXaT1UYCOgK_43J/view?usp=sharing" target="_blank" rel="noopener">Watch it in Google Drive</a>
+</div>
+</body>
+</html>
