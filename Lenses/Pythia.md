@@ -26,7 +26,9 @@ to:: "than most people trying stuff like this!"
 
 {--{"author":"Elua's AI","timestamp":1790790525129}@@#### Text
 content::
---}%% ORIGINAL (commented out as AI slop; "Oracle of Pythia" conflates the names):
+--}%% #### Text
+content:: %%
+%% ORIGINAL (commented out as AI slop; "Oracle of Pythia" conflates the names):
 Imagine you created an AI that perfectly predicts stock prices, but doesn't have access to trading. According to the Oracle of Pythia's idea, how could this AI begin to govern the global economy simply by giving the human user the "most accurate" forecasts?
 %%
 

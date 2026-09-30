@@ -9,7 +9,9 @@ title: A central AI alignment problem
 
 {--{"author":"Elua's AI","timestamp":1790790530299}@@#### Text
 content::
---}%% ORIGINAL (commented out as AI slop; misdefines capabilities generalisation):
+--}%% #### Text
+content:: %%
+%% ORIGINAL (commented out as AI slop; misdefines capabilities generalisation):
 The central challenge in alignment is ensuring that the learned goal remains stable as the system becomes more powerful. This article explores the phenomenon of capabilities generalisation: a situation where an AI learns a skill in a limited environment but applies it in unintended ways when faced with broader challenges. Researchers call this the sharp left turn scenario. It is a moment when an AI's internal logic shifts rapidly, potentially leading to a misalignment that was invisible during the training phase.
 
 If we cannot predict how an AI’s objectives will evolve as its capabilities grow, we are fundamentally unable to guarantee its safety. This material examines why capabilities tend to generalise much faster than alignment, creating a dangerous gap in our control over the system.
@@ -25,7 +27,9 @@ to:: "generally intelligent, does not make them motivated by your objectives."
 
 {--{"author":"Elua's AI","timestamp":1790790532113}@@#### Text
 content::
---}%% ORIGINAL (commented out as AI slop; garbled):
+--}%% #### Text
+content:: %%
+%% ORIGINAL (commented out as AI slop; garbled):
 What causes a gap in our control over the system in a sharp left turn scenario? Provide an example of a situation where, when scaling, an AI successfully maintains the goal and safety metric on which it was trained, but does not scale it in accordance with human preferences, leading to negative consequences.
 %%
 

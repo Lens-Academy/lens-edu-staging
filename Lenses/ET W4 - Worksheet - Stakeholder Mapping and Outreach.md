@@ -60,6 +60,8 @@ content::
    1. We highly recommend reaching out to >20 stakeholders and to continue your outreach process over the next 4-weeks if you aren’t getting as many responses.
    2. ⭐ A low reply rate is completely normal, keep going. One past student reached out to over 100 organisations and, after plenty of no-replies, found a collaborator they're now starting an organisation with!
 
+\# Stakeholder Outreach Tracker
+
 Please continue to use this tracker over the program as an ongoing record of your outreach and interviews completed.
 
 #### Callout: 💡 Example: a filled-in stakeholder tracker (click to open)

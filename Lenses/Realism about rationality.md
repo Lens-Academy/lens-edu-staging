@@ -8,7 +8,9 @@ title: Realism about rationality
 ---
 {--{"author":"Elua's AI","timestamp":1790790526998}@@#### Text
 content::
---}%% ORIGINAL (commented out as AI slop; misrepresents the post):
+--}%% #### Text
+content:: %%
+%% ORIGINAL (commented out as AI slop; misrepresents the post):
 This critique suggests that the Agent Foundations approach is too detached from reality. Neural networks do not look like the perfectly rational agents described in MIRI’s math. The argument is that we should focus on the messy reality of current models rather than seeking a perfect mathematical proof.
 %%
 

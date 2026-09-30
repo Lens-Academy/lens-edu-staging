@@ -8,7 +8,9 @@ title: Security Mindset and Ordinary Paranoia
 ---
 {--{"author":"Elua's AI","timestamp":1790790528676}@@#### Text
 content::
---}%% COMMENTED OUT (AI slop):
+--}%% #### Text
+content:: %%
+%% COMMENTED OUT (AI slop):
 The next piece focuses on just how hard it is to get systems we build to do the things we want and how those systems break down under adversarial pressure, which is akin to optimization pressure.  
 Effective alignment research requires more than mathematical proficiency: it demands a specific cognitive orientation known as the "security mindset." While standard engineering focuses on making a system work under normal conditions, the security mindset focuses on how a system might fail when its environment — or its own internal optimization — pushes it to its limits.
 %%
