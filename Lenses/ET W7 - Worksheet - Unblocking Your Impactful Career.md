@@ -133,10 +133,13 @@ content::
 
 \# Part 3. Continue Stakeholder Outreach
 
-**Instructions:** Please continue your stakeholder mapping and outreach in the Stakeholder Outreach Tracker in Week 4’s worksheet (linked below). We recommend identifying and reaching out to >20 stakeholders. If you haven’t received any replies from your Week 4 outreach, we encourage you to reach out to additional stakeholders.
+**Instructions:** Please continue your stakeholder mapping and outreach in your Stakeholder Outreach Tracker from Week 4’s worksheet. It's the same tracker, so anything you add here also shows up in Week 4 (and vice versa)! We recommend identifying and reaching out to >20 stakeholders. If you haven’t received any replies from your Week 4 outreach, we encourage you to reach out to additional stakeholders.
 
-::card[[../Lenses/ET W4 - Worksheet - Stakeholder Mapping and Outreach|Week 4 Worksheet: Stakeholder Outreach Tracker]]{allow-external}
+#### Widget
+source:: [[../widgets/et-w4-stakeholder-tracker]]
 
+#### Text
+content::
 ---
 
 \# Part 4. Prepare for Week 8 Presentations
@@ -144,3 +147,13 @@ content::
 In Week 8, you will each present an overview of what you’ve worked on over the past 8 weeks, summarised in a short presentation using the template below.
 
 Use this template: [\[TEMPLATE\] Week 8 Presentation ET Accelerator: Oct-Dec 26'](https://docs.google.com/presentation/d/16l-eKuJcJnzKP5F-IOoNuUoHZqw-sPGi3Kb0Q-xw64Q/edit?slide=id.g3fb78c7d3ee_1_0#slide=id.g3fb78c7d3ee_1_0)
+
+---
+
+\# 🌱 You're nearly there!
+
+Looking honestly at what's blocking you, whether it's in your head, your heart or your hands, takes real self-awareness and courage. There's no "right" answer here, only your next small experiment. You've come so far over these seven weeks, and next week is all about celebrating that with your cohort! 💛
+
+**Next up: this week's Journalling prompts** 👇 Take a few minutes to gently explore any limiting beliefs you hold about your impact.
+
+::card[[../Lenses/ET W7 - Journalling - Limiting Beliefs on Impact|Week 7 Journalling: Limiting Beliefs on Impact]]
