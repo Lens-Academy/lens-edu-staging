@@ -139,17 +139,17 @@ required:: true
 
 #### Choice
 key:: ais_work_status
-content:: {--{"author":"Mark's AI","timestamp":1790768379082}@@Which best describes your--}{++{"author":"Mark's AI","timestamp":1790768379082}@@What is your current++} AI safety{--{"author":"Mark's AI","timestamp":1790768379082}@@ stage right now?--}{++{"author":"Mark's AI","timestamp":1790768379082}@@ stage?++} If several apply, pick *the highest* on the list.
-{++{"author":"Mark's AI","timestamp":1790768379082}@@description:: Pick where you are now, not what you've done before. Count a role or programme you've been accepted to that starts within 3 months.
-++}options::
-- {--{"author":"Mark's AI","timestamp":1790768379082}@@Paid full-time job in--}{++{"author":"Mark's AI","timestamp":1790768379082}@@In or starting a paid full-time++} AI safety{++{"author":"Mark's AI","timestamp":1790768379082}@@ job++}
-- {--{"author":"Mark's AI","timestamp":1790768379082}@@Paid --}{++{"author":"Mark's AI","timestamp":1790768379082}@@In or starting a paid ++}full-time AI safety fellowship or funded research, 3 months or longer (e.g. MATS)
-- {--{"author":"Mark's AI","timestamp":1790768379082}@@Paid--}{++{"author":"Mark's AI","timestamp":1790768379082}@@In or starting paid++} part-time AI safety work (e.g. BlueDot facilitating), or a paid fellowship shorter than 3 months (e.g. ERA)
-- {--{"author":"Mark's AI","timestamp":1790768379082}@@A--}{++{"author":"Mark's AI","timestamp":1790768379082}@@In or starting a++} selective unpaid programme (e.g. SPAR or ARENA)
-- {--{"author":"Mark's AI","timestamp":1790768379082}@@Unpaid--}{++{"author":"Mark's AI","timestamp":1790768379082}@@Doing unpaid++} contributions (e.g. volunteering, advocacy or a local group)
+content:: What is your current AI safety stage? If several apply, pick *the highest* on the list.
+description:: Pick where you are now, not what you've done before. Count a role or programme you've been accepted to that starts within 3 months.
+options::
+- In or starting a paid full-time AI safety job
+- In or starting a paid full-time AI safety fellowship or funded research, 3 months or longer (e.g. MATS)
+- In or starting paid part-time AI safety work (e.g. BlueDot facilitating), or a paid fellowship shorter than 3 months (e.g. ERA)
+- In or starting a selective unpaid programme (e.g. SPAR or ARENA)
+- Doing unpaid contributions (e.g. volunteering, advocacy or a local group)
 - Applying to AI safety roles or programmes
 - Exploring AI safety, not applying yet
-- Not pursuing AI safety{--{"author":"Mark's AI","timestamp":1790768379082}@@ work--} right now
+- Not pursuing AI safety right now
 required:: true
 
 #### Choice
