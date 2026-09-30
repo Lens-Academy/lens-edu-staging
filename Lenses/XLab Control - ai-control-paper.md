@@ -24,7 +24,7 @@ A shortened and modified version of this work was published in the Proceedings o
 #### Article
 source:: [[../articles/greenblatt-ai-control-improving-safety-despite-intentional-subversion]]
 from:: ###### Abstract
-to:: Safety protocols and attack policies: We build and evaluate protocols that outperform baselines
+to:: Safety protocols and attack policies: We build and evaluate protocols that outperform baselines, and describe attack policies aimed at subverting them.
 
 #### Callout: Quick recall
 tone:: blue
@@ -100,7 +100,7 @@ feedback-instructions:: One turn, at most three sentences: say plainly what the 
 
 #### Article
 from:: With knowledge of the blue team’s protocol, a red team proposes an attack policy.
-to:: For justification of this choice, see
+to:: For justification of this choice, see [[#^appendix-c-justification-of|Appendix C]].
 
 #### Question: Open
 id:: b875b2c0-a6c7-46b8-9fbb-0534f101dc96
