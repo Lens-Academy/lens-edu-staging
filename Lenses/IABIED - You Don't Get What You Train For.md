@@ -19,8 +19,6 @@ content::
 Return here after reading.
 
 ---
-
-#### Qu
 #### Question
 id:: 9639e756-c013-4852-b0ac-f5f6cc7df3a9
 content::
