@@ -24,7 +24,7 @@ options::
 #### Question: Open
 id:: c3be7321-e1db-40ea-b827-e5a447f9fb73
 content:: Looking back, what were the 3–4 things (people, programmes, resources, events) that most helped you get to where you are now in AI safety?
-description:: Consider *all* the support you have received, including other organizations in AI safety.
+description:: {--{"author":"Mark's AI","timestamp":1790767530911}@@Consider *all* the support you have received, including other organizations--}{++{"author":"Mark's AI","timestamp":1790767530911}@@Include *everything* that helped, from any organisation, programme or person,++} in AI {--{"author":"Mark's AI","timestamp":1790767530911}@@safety.--}{++{"author":"Mark's AI","timestamp":1790767530911}@@safety or beyond. We want the full picture, not only the parts we were involved in.++}
 optional:: true
 max-chars:: 1500
 
@@ -51,3 +51,10 @@ options::
 - By 1–3 months
 - By 4–6 months
 - By more than 6 months, or I wouldn't be here without Lens
+
+#### Question: Open
+id:: 1ed3e65b-6bdb-490f-9530-f6547ab4f9f6
+content:: Any feedback, or anything else you'd like to share?
+description:: For example, what you're working towards next, or how we could help.
+optional:: true
+max-chars:: 1500
