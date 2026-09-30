@@ -15,11 +15,11 @@ content::
 Before reading further, write 5-7 sentences answering the following question: Is AI control good? How good? Why do you think this?
 
 Write between 30 and 150 words.
-feedback-instructions:: The learner has just opened the lesson and has read none of it. This is an ungraded prior-elicitation question. In two or three sentences, reflect back the position and the reasons they gave without endorsing or correcting them, and note that the lesson's whole claim is that this question has no context-free answer, so they should keep this answer to compare against at the end. Do not preview the lesson's model. One turn, no follow-up question. No generic praise.
+feedback-instructions:: The learner has just opened the lesson and has read none of it. This is an ungraded prior-elicitation question. In two or three sentences, reflect back the position and the reasons they gave without endorsing or correcting them, and note that the lesson's whole claim is that this question has no context-free answer, so they should keep this answer to compare against at the end. One turn, no follow-up question. No generic praise.
 
 Full marks for 30 to 150 words that do two things: take a position on whether control is a good investment and roughly how good, and give at least one reason. A reason can be about the technique (whether monitoring scales, whether evaluations can bound what a scheming model does) or about the world the technique would be deployed into (how likely models are to scheme, how much a lab would spend on safety, whether anyone in power would act on a warning). Deduct only for a bare position with no reason, or for a response that answers a different question. Never mark a position wrong.
 
-Reply in at most three sentences: name the reason they actually gave, name one thing their answer is quietly assuming about the world, and send them into the lesson. Do not preview the three states, the five worlds, or the loop, and do not tell them what the lesson concludes. This is a one-turn response; do not invite dialogue.
+Reply in at most three sentences: name the reason they actually gave, name one thing their answer is quietly assuming about the world, and send them into the lesson. This is a one-turn response; do not invite dialogue.
 
 Do not over-validate. Avoid generic praise (great job, excellent recall, well done). If the learner says they do not know, do not repeat the question and do not answer for them: give one concrete foothold, for example asking what would have to be true about a frontier lab for monitoring to be worth what it costs. If their next message still does not attempt the question, rephrase the whole question in different terms. Grade only against the criteria above.
 
