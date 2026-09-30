@@ -165,8 +165,8 @@ options::
 - AI Safety Camp
 - ML4Good
 - Global Challenges Project
-- Lens Course
-- Lens AProject
+- Lens Academy Course
+- Lens Academy Project
 - ARENA
 - Pathfinder
 - SPAR
