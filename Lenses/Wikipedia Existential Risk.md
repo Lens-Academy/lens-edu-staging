@@ -1,6 +1,6 @@
 ---
 id: 01f6df31-099f-48ed-adef-773cc4f947e4
-summary_for_tutor: "Wikipedia's article on existential risk from AI, shown from the start through the Mitigation section. It covers the gorilla analogy (humanity's fate could depend on a superintelligence as the gorilla's depends on us); the control and alignment problems; capabilities that could make AI dangerous (superintelligence, intelligence explosion, social manipulation, cyberattacks, enhanced pathogens) and the AI arms race; instrumental convergence, the difficulty of specifying goals, corrigibility and Bostrom's orthogonality thesis; why iterative, empirical approaches get riskier as capabilities grow; skeptics such as Yann LeCun and Steven Pinker; and proposals for bans and regulation. The follow-up question asks the learner {--{"author":"Elua's AI","timestamp":1790792044747}@@to explain instrumental convergence in their own words."--}{++{"author":"Elua's AI","timestamp":1790792044747}@@what they make of the overall picture the article paints."++}
+summary_for_tutor: "Wikipedia's article on existential risk from AI, shown from the start through the Mitigation section. It covers the gorilla analogy (humanity's fate could depend on a superintelligence as the gorilla's depends on us); the control and alignment problems; capabilities that could make AI dangerous (superintelligence, intelligence explosion, social manipulation, cyberattacks, enhanced pathogens) and the AI arms race; instrumental convergence, the difficulty of specifying goals, corrigibility and Bostrom's orthogonality thesis; why iterative, empirical approaches get riskier as capabilities grow; skeptics such as Yann LeCun and Steven Pinker; and proposals for bans and regulation. The follow-up question asks the learner what they make of the overall picture the article paints."
 title: Existential risk from artificial intelligence
 # tldr: The concern isn't that AI will "turn evil." It's that a system pursuing whatever goals it has might find that humans are in the way — and be capable enough to act on it. This overview covers the core ideas behind AI as a source of large-scale risk, from misaligned goals to the difficulty of staying in control.
 ---
@@ -14,7 +14,7 @@ to:: "the "evasion of human control"."
 
 #### Text
 content::
-{--{"author":"Elua's AI","timestamp":1790792039838}@@In your own words, what is instrumental convergence?--}{++{"author":"Elua's AI","timestamp":1790792039838}@@What do you make of the overall picture that this article paints?++}
+What do you make of the overall picture that this article paints?
 #### Chat
 instructions::
 TLDR of what the user just read:
@@ -32,7 +32,6 @@ Discussion topics to explore:
 - What do skeptics like Yann LeCun argue, and what are the counter-arguments?
 - Why might "kill switches" fail against superintelligence?
 
-{--{"author":"Elua's AI","timestamp":1790792042743}@@Ask--}{++{"author":"Elua's AI","timestamp":1790792042743}@@Start from the learner's overall take: which parts of the picture they find convincing, which seem overstated or weak, and++} what they found surprising or new. {--{"author":"Elua's AI","timestamp":1790792042743}@@Check--}{++{"author":"Elua's AI","timestamp":1790792042743}@@Ask what their view rests on. Instrumental convergence is a key concept;++} if {++{"author":"Elua's AI","timestamp":1790792042743}@@it comes up, check ++}they can explain {--{"author":"Elua's AI","timestamp":1790792042743}@@instrumental
-convergence--}{++{"author":"Elua's AI","timestamp":1790792042743}@@it++} in their own {--{"author":"Elua's AI","timestamp":1790792042743}@@words—it's a key concept.--}{++{"author":"Elua's AI","timestamp":1790792042743}@@words.++}
+Start from the learner's overall take: which parts of the picture they find convincing, which seem overstated or weak, and what they found surprising or new. Ask what their view rests on. Instrumental convergence is a key concept; if it comes up, check they can explain it in their own words.
 
-The user has just answered the following question: {--{"author":"Elua's AI","timestamp":1790792042743}@@"In your own words, what is instrumental convergence?"--}{++{"author":"Elua's AI","timestamp":1790792042743}@@"What do you make of the overall picture that this article paints?"++}
+The user has just answered the following question: "What do you make of the overall picture that this article paints?"
