@@ -110,9 +110,9 @@ id:: 2ab11725-db44-4166-ba8a-97f9a7226895
 content::
 \## Your number, before theirs
 
-You have their methods and the structure of their model, and you have not yet seen what any of them concluded.
+You have their five methods, the dates several of them give (from 2027 to 2050), and the structure of their model. You have not yet seen what the authors' own model concludes.
 
-Give your own median year for an AI that can do essentially all of an AI researcher's coding work. State the one assumption your number is most sensitive to, and say which direction your number moves if that assumption is wrong.
+Give your own median year for an AI that can do essentially all of an AI researcher's coding work. Build it from what you just read: say which method or number you lean on most, and how you adjust it. State the one assumption your number is most sensitive to, and say which direction your number moves if that assumption is wrong.
 
 max-time:: 5:00
 
@@ -186,9 +186,7 @@ content::
 
 The same team rebuilt their model. They describe their improvements as producing "a roughly 3-5 year shift in our median for full coding automation", measured against the model they published with AI 2027 in April 2025. This update is from January 2026.
 
-Two things to say about that. First, a group moved three to five years on their own considered estimate in about nine months. What does that tell you about how much weight your own number from earlier deserves?
-
-Second. That revision is public, numbered, and explained. Most changes of mind are not. What would you have concluded about this team if they had quietly stopped mentioning the old figure instead?
+A group moved three to five years on their own considered estimate in about nine months. What does that tell you about how much weight your own number from earlier deserves?
 
 assessment-instructions:: The student has just read the comparison between the new model and AI 2027, including the 3.25 to 5 year gap and the definition of the Superhuman Coder milestone. The dates are AI 2027 in April 2025 and this update in January 2026, so the elapsed time is about nine months. Do not let a larger figure pass unchallenged if the student asserts one.
 
@@ -221,7 +219,7 @@ That question is about how much time there is. This one is not.
 
 The model's third stage begins when AI R&D is fully automated. The authors describe its endpoint as "asymptoting at the limits of intelligence". Suppose everything in this reading happens roughly on schedule and we arrive there. Name one thing that is exactly as unresolved after that point as it is today. Then say why arriving faster or slower does not change it.
 
-Then one about the reading itself rather than about the world.
+The next question is about the reading itself rather than about the world.
 
 Nearly all of what you just read is about how fast. Very little of it is about what for. That is not a criticism of the authors. They were writing a forecasting post, and they said so. We think you will find close to that same ratio across most of what this field writes. Check that claim over the next few months rather than taking it from us.
 
