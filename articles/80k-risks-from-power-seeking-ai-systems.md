@@ -63,7 +63,7 @@ After making the argument that the existential risk from power-seeking AI is a p
 
 If you’d like, you can watch our 10-minute video summarising the case for AI risk before reading further:
 
-### 1. Humans will likely build advanced AI systems with long-term goals
+### 1. Humans will likely build advanced AI systems with long-term goals ^build-long-term-goals
 
 AI companies already create systems that make and carry out plans and tasks, and might be said to be pursuing *goals*, including:
 
@@ -107,7 +107,7 @@ The economic incentives for building these advanced AI systems are enormous, bec
 
 And as long as such technology looks feasible, we should expect some companies will try to build it — and perhaps quite soon.[^note-80k-7]
 
-### 2. AIs with long-term goals may be inclined to seek power and aim to disempower humanity
+### 2. AIs with long-term goals may be inclined to seek power and aim to disempower humanity ^inclined-seek-power
 
 So we currently have companies trying to build AI systems with goals over long time horizons, and we have reason to expect they’ll want to make these systems incredibly capable in other ways. This could be great for humanity, because automating labour and innovation might supercharge economic growth and allow us to solve countless societal problems.
 
@@ -218,7 +218,7 @@ This scenario raises two questions: could a power-seeking AI system really disem
 
 The next two sections address these questions.
 
-### 3. These power-seeking AI systems could successfully disempower humanity and cause an existential catastrophe
+### 3. These power-seeking AI systems could successfully disempower humanity and cause an existential catastrophe ^could-disempower
 
 How could power-seeking AI systems actually disempower humanity? Any specific scenario will sound like sci-fi, but this shouldn’t make us think it’s impossible. The AI systems we have today were in the realm of sci-fi a decade or two ago.
 
@@ -297,7 +297,7 @@ It’s also important to note that since all of the above surveys were gathered,
 
 We’ve reviewed many arguments and literature on a range of potentially existential threats, and we’ve consistently found that an AI-caused existential catastrophe seems most likely. And we think that even a relatively small likelihood of an extremely bad outcome like human extinction — such as a 1% chance — is worth taking very seriously.
 :::
-### 4. People might create power-seeking AI systems without enough safeguards, despite the risks
+### 4. People might create power-seeking AI systems without enough safeguards, despite the risks ^without-safeguards
 
 Given the above arguments, creating and deploying powerful AI systems could be extremely dangerous. But if it is so dangerous, shouldn’t we expect companies and others in charge of the technology to refrain from developing advanced AI systems unless they are confident it’s safe?
 
