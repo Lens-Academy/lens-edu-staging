@@ -16,13 +16,7 @@ source:: [[../Lenses/ET W3 - Welcome]]
 source:: [[../Lenses/ET W3 - Reading 1 - From Problem to Research Question]]
 
 # Lens:
-source:: [[../Lenses/ET W3 - Reading 2a - Step-by-step Guide]]
-
-# Lens:
 source:: [[../Lenses/ET W3 - Reading 2 - Bottlenecks to Progress on Your Problem Area]]
-
-# Lens:
-source:: [[../Lenses/ET W3 - Reading 3 - Generating a Wide Set of Candidate Questions]]
 
 # Submodule: Week 3 Worksheet
 
