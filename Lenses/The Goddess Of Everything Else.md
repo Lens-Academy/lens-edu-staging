@@ -6,9 +6,9 @@ tutor_minutes: 5
 summary_for_tutor: "Covers Scott Alexander's parable 'The Goddess of Everything Else,' a mythological allegory about the struggle between ruthless competition (the Goddess of Cancer) and the creative, cooperative principle (the Goddess of Everything Else). Animated by Rational Animations. Each time the Goddess of Cancer commands 'KILL CONSUME MULTIPLY CONQUER', her sister turns that drive toward cooperation because cooperation wins: cells form bodies, animals form packs and hives, tribes form civilizations with science, art and trade. Defection, tumors and war keep pushing back but never undo it. It ends with humans no longer bound by competitive nature, spreading to the stars. The parable does not mention AI. The follow-up chat is an open invitation to discuss anything from the course."
 title: The Goddess Of Everything Else
 ---
-#### Text
+{--{"author":"Elua's AI","timestamp":1790790562777}@@#### Text
 content::
-%% ORIGINAL (commented out as AI slop; ends the course twice):
+--}%% ORIGINAL (commented out as AI slop; ends the course twice):
 We want to end this module, and this course, with a work of fiction. It is a parable written by Scott Alexander, animated by Rational Animations, and narrated by Rob Miles.
 
 The question is not only what AI can do. It is also what moral and civilizational capacities we ourselves possess. Are we capable of being the kind of beings that choose not only survival, but the good?
