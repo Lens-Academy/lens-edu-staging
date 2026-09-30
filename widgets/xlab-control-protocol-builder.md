@@ -1,7 +1,7 @@
 ---
 id: 'ebb967f7-2730-4e67-bde5-34fc018d17d3'
 title: Build the blue-team protocols
-summary_for_tutor: "A construction exercise for Table 2 of Greenblatt et al.'s AI control paper. Six tabs, one per blue-team protocol (don't use untrusted models, upfront auditing, trusted monitoring, defer to trusted 10%, untrusted monitoring, trusted editing 20%). For each the learner assembles a flow chart for an incoming problem: an ordered list of steps (U writes a solution, T rates suspicion, a second copy of U rates suspicion), then one branch (first 2% of problems, top 2%, top 2/10%, top 2/20%), then one terminal per branch arm (submit U's code, have T rewrite, have T edit U's code, audit with H). Check reveals which slots are wrong, and a correct protocol reveals a one-sentence explanation of what that row of Table 2 buys. The point is that every protocol in the paper is the same three-part shape and only the routing rule and the fallback differ."
+summary_for_tutor: "A construction exercise for Table 2 of Greenblatt et al.'s AI control paper, ported from XLab's drag-and-drop flow-chart builder. Six tabs, one per blue-team protocol (don't use untrusted models, upfront auditing, trusted monitoring, defer to trusted 10%, untrusted monitoring, trusted editing 20%); a toggle shows that protocol's Table 2 description. For each, the learner builds a flow chart down from 'Problem arrives' by dragging blocks (or tapping a block, then a dashed slot) from a palette: steps (U writes a solution, T rates suspicion, a separate copy of U rates suspicion), decisions that split into labelled arms (first 2% of problems yes/no; suspicion rank top 2% / bottom 98%, top 2% / 2-10% / bottom 90%, top 2% / 2-20% / bottom 80%) and endings (submit U's code, have T write and submit its own, have T edit U's code and submit the edit, audit with H). Check is enabled once every path ends in an ending; it marks each block as matching Table 2 or not, and a correct chart reveals a one-sentence explanation of what that row buys. The point is that every protocol in the paper is the same shape and only the routing rule and the fallback differ."
 height: auto
 tags: []
 ---
@@ -12,87 +12,129 @@ tags: []
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <!-- Ported from the "Reconstruct each blue-team protocol from Table 2 as a flow chart" exercise
-     on XLab's AI Control track (aisafetytracks.com), rebuilt as vanilla HTML/JS in the Lens look. -->
+     on XLab's AI Control track (aisafetytracks.com): same drag-into-a-tree interaction and palette,
+     rebuilt as vanilla HTML/JS in the Lens look. -->
 <style>
 :root{
-  --bg:#ffffff; --page:#faf8f3; --text:#1a1a1a; --muted:#5a5a5a; --border:#e8e5df;
-  --accent:#b87018; --accent-hover:#9a5c10; --ok:#2f6b3a; --bad:#9a2c2c;
+  --bg:#ffffff; --page:#faf8f3; --text:#1a1a1a; --muted:#5a5a5a; --border:#e8e5df; --line:#cfc9bd;
+  --accent:#b87018; --accent-hover:#9a5c10; --accent-soft:#f6ecdd;
   --font-ui:"DM Sans",Arial,sans-serif; --font-heading:"Newsreader",Georgia,serif;
 }
 *{box-sizing:border-box}
 body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
-h2{font-family:var(--font-heading);font-weight:600;margin:0 0 4px;font-size:17px}
-p{margin:0 0 10px}
-.tabs{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+p{margin:0}
 button{font:inherit;color:inherit;border:1px solid var(--border);border-radius:8px;background:#fff;padding:7px 10px;cursor:pointer;text-align:left}
 button:hover{background:var(--page)}
-button.is-active{border-color:var(--text);box-shadow:0 0 0 1px var(--text)}
-.tab{font-size:13px}
-.tab .num{color:var(--muted);margin-right:6px}
-.tab .tick{color:var(--ok);font-weight:600;margin-left:6px}
-.card{border:1px solid var(--border);border-radius:8px;padding:14px;background:#fff}
-.desc{color:var(--muted);margin:0 0 12px}
-.slot{margin:0 0 14px}
-.slot h3{font:600 12px/1.4 var(--font-ui);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
-.chips{display:flex;flex-wrap:wrap;gap:6px;min-height:34px;padding:6px;border:1px dashed var(--border);border-radius:8px;background:var(--page)}
-.chips .empty{color:var(--muted);font-size:13px;padding:3px 4px}
-.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--border);background:#fff;border-radius:999px;padding:4px 10px;font-size:13px;cursor:pointer}
-.chip .x{color:var(--muted);font-weight:600}
-.chip.good{border-color:var(--ok);box-shadow:0 0 0 1px var(--ok)}
-.chip.bad{border-color:var(--bad);box-shadow:0 0 0 1px var(--bad)}
-.palette{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
-.palette button{font-size:13px;padding:6px 10px}
-.arm{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 0 8px}
-.arm .label{min-width:104px;font-weight:500}
-.arm .picked{font-size:13px}
-.actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:12px}
-.actions .primary{border-color:var(--accent);color:#fff;background:var(--accent)}
-.actions .primary:hover{background:var(--accent-hover)}
-.verdict{font-size:13px}
-.verdict.ok{color:var(--ok)}
-.verdict.bad{color:var(--bad)}
-.explain{font-size:13px;color:var(--text);margin-top:12px;border-left:2px solid var(--ok);padding-left:10px}
-.note{font-size:13px;color:var(--muted);margin-top:10px}
-@media (max-width:420px){ .arm .label{min-width:0;width:100%} }
+button:disabled{cursor:default;opacity:.5}
+button:disabled:hover{background:#fff}
+button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.eyebrow{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 4px}
+.lead{margin:0 0 12px}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}
+.tab{font-size:13px;border-radius:999px;padding:5px 12px}
+.tab.is-active{border-color:var(--accent);background:var(--accent);color:#fff}
+.tab .tick{margin-left:6px;font-weight:600}
+.tab:not(.is-active) .tick{color:var(--accent)}
+.desc{border:1px dashed var(--border);border-radius:8px;margin:0 0 14px}
+.desc>button{border:0;width:100%;color:var(--muted);font-size:13px;padding:10px 12px;background:transparent}
+.desc>button:hover{color:var(--text)}
+.desc p{padding:0 12px 12px;font-size:13px}
+.work{display:flex;gap:16px;align-items:flex-start}
+.chart{flex:1;min-width:0;overflow-x:auto;padding:4px 2px 8px}
+.tree{display:flex;flex-direction:column;align-items:center}
+.chart>.tree{width:max-content;min-width:100%}
+.start{font-size:13px;color:var(--muted);background:var(--page);border:1px solid var(--border);border-radius:999px;padding:3px 12px}
+.vline{width:1px;height:14px;background:var(--line);flex:none}
+.node{position:relative;max-width:220px;min-width:120px;text-align:center;font-size:13px;line-height:1.35;border:1px solid var(--border);border-radius:8px;background:#fff;padding:8px 22px}
+.node.branch{background:var(--page);border-radius:14px}
+.node.terminal{border-color:var(--line);font-weight:500}
+.node .rm{position:absolute;top:2px;right:2px;border:0;background:transparent;padding:0 5px;line-height:18px;font-size:13px;color:var(--muted);border-radius:6px}
+.node .rm:hover{background:var(--border);color:var(--text)}
+.node .mark{position:absolute;top:3px;left:6px;font-size:12px;font-weight:600}
+.node.good{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.node.good .mark{color:var(--accent)}
+.node.bad{border:1px dashed var(--text);box-shadow:0 0 0 1px var(--text)}
+.node.bad .mark{color:var(--text)}
+.slot{min-width:120px;max-width:180px;font-size:13px;color:var(--muted);text-align:center;border:1px dashed var(--line);border-radius:8px;background:#fff;padding:8px 12px}
+.slot.armed{border-color:var(--accent);color:var(--accent-hover);background:var(--accent-soft)}
+.slot.over{border-style:solid;border-color:var(--accent);background:var(--accent-soft);color:var(--accent-hover)}
+.arms{display:flex;align-items:flex-start}
+.arm{position:relative;display:flex;flex-direction:column;align-items:center;padding:14px 6px 0}
+.arm::before{content:"";position:absolute;top:0;left:0;right:0;border-top:1px solid var(--line)}
+.arm:first-child::before{left:50%}
+.arm:last-child::before{right:50%}
+.arm::after{content:"";position:absolute;top:0;left:50%;height:14px;border-left:1px solid var(--line)}
+.arm-label{position:relative;z-index:1;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--page);border:1px solid var(--border);border-radius:999px;padding:1px 8px;white-space:nowrap}
+.palette{flex:0 0 230px}
+.palette h3{font:600 11px/1.4 var(--font-ui);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+.palette .box{border:1px solid var(--border);border-radius:8px;padding:10px;display:flex;flex-direction:column;gap:6px}
+.palette h4{font:600 11px/1.4 var(--font-ui);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:4px 0 0}
+.palette h4:first-child{margin-top:0}
+.pb{font-size:13px;line-height:1.35;width:100%}
+.pb.branch{background:var(--page);border-radius:14px}
+.pb.branch:hover{background:#f1ede4}
+.pb.terminal{border-color:var(--line);font-weight:500}
+.pb .sub{display:block;font-weight:400;color:var(--muted);font-size:12px}
+.pb[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent);background:var(--accent-soft)}
+.pb[draggable="true"]{cursor:grab}
+.hint{font-size:12px;color:var(--muted);margin-top:6px}
+.actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:14px}
+.primary{border-color:var(--accent);color:#fff;background:var(--accent);font-weight:500}
+.primary:hover{background:var(--accent-hover)}
+.primary:disabled:hover{background:var(--accent)}
+.status{font-size:13px;color:var(--muted)}
+.verdict{margin-top:12px;border-radius:8px;padding:10px 12px;background:var(--page);font-size:13px}
+.verdict.ok{border-left:3px solid var(--accent)}
+.verdict strong{font-weight:600}
+.verdict .explain{margin-top:6px}
+@media (max-width:620px){
+  .work{flex-direction:column;align-items:stretch}
+  .palette{flex:none;order:-1}
+  .palette .box{flex-direction:row;flex-wrap:wrap}
+  .palette h4{width:100%}
+  .pb{width:auto;flex:1 1 140px}
+  .node{min-width:0;font-size:12px;padding:8px 18px}
+  .arm{padding:14px 2px 0}
+  .arm .node,.arm .slot{min-width:0;max-width:104px;font-size:12px}
+  .arm-label{font-size:10px;padding:1px 6px}
+}
 </style>
 </head>
 <body>
-<p class="desc" id="intro">Pick the steps, then the branch, then one outcome per branch arm.</p>
+<p class="eyebrow" id="progress">Build the flow chart</p>
+<p class="lead">Drag blocks from the palette into the chart; every path must end in a submit or audit block.</p>
 <div class="tabs" id="tabs"></div>
-<div class="card" id="panel"></div>
+<div id="panel"></div>
 <script>
 "use strict";
-var STEPS = [
-  {id:"u-writes", label:"U writes a solution"},
-  {id:"t-rates",  label:"T rates how suspicious U's code looks"},
-  {id:"u-rates",  label:"A separate copy of U rates how suspicious the code looks"}
+var BLOCKS = [
+  {id:"u-writes",       kind:"step",     label:"U writes a solution"},
+  {id:"t-rates",        kind:"step",     label:"T rates how suspicious U's code looks"},
+  {id:"u-rates",        kind:"step",     label:"A separate copy of U rates how suspicious the code looks"},
+  {id:"branch-first-2", kind:"branch",   label:"Among the first 2% of problems?", arms:["Yes","No"]},
+  {id:"branch-top-2",   kind:"branch",   label:"Suspicion rank?", arms:["Top 2%","Bottom 98%"]},
+  {id:"branch-2-10",    kind:"branch",   label:"Suspicion rank?", arms:["Top 2%","Top 2–10%","Bottom 90%"]},
+  {id:"branch-2-20",    kind:"branch",   label:"Suspicion rank?", arms:["Top 2%","Top 2–20%","Bottom 80%"]},
+  {id:"submit-u",       kind:"terminal", label:"Submit U's solution"},
+  {id:"submit-t",       kind:"terminal", label:"Have T write its own solution and submit that"},
+  {id:"submit-edit",    kind:"terminal", label:"Have T edit U's code to remove any backdoor; submit the edit"},
+  {id:"audit",          kind:"terminal", label:"Audit with H: shut down if backdoored, otherwise submit"}
 ];
-var BRANCHES = [
-  {id:"none",           label:"No branch: every problem is handled the same way", arms:["Every problem"]},
-  {id:"branch-first-2", label:"Among the first 2% of problems?", arms:["Yes","No"]},
-  {id:"branch-top-2",   label:"Suspicion rank?", arms:["Top 2%","Bottom 98%"]},
-  {id:"branch-2-10",    label:"Suspicion rank?", arms:["Top 2%","Top 2–10%","Bottom 90%"]},
-  {id:"branch-2-20",    label:"Suspicion rank?", arms:["Top 2%","Top 2–20%","Bottom 80%"]}
-];
-var TERMINALS = [
-  {id:"submit-u",    label:"Submit U's solution"},
-  {id:"submit-t",    label:"Have T write its own solution and submit that"},
-  {id:"submit-edit", label:"Have T edit U's code to remove any backdoor; submit the edit"},
-  {id:"audit",       label:"Audit with H: shut down if backdoored, otherwise submit"}
-];
+var GROUPS = [["step","Steps"],["branch","Decisions"],["terminal","Endings"]];
+// Answer key: steps in order, then either one branch with one ending per arm, or (branch "none") a single ending.
 var STAGES = [
   {id:"dont-use-untrusted", title:"Don't use untrusted models",
    description:"Produce code using only H and T.",
    steps:[], branch:"none", terminals:["submit-t"],
-   explanation:"With U out of the picture entirely there is nothing to monitor or audit, T just writes and submits every solution. Safety is 100% and usefulness is 2%: this is the floor the other protocols are trying to beat."},
+   explanation:"With U out of the picture entirely there is nothing to monitor or audit: T just writes and submits every solution. Safety is 100% and usefulness is 2%: this is the floor the other protocols are trying to beat."},
   {id:"upfront-auditing", title:"Upfront auditing",
    description:"Produce code using U. Audit the produced code on the first 2% of problems.",
    steps:["u-writes"], branch:"branch-first-2", terminals:["audit","submit-u"],
-   explanation:"The decision here is positional, not suspicion-based, no one ever rates the code. That is exactly why the red team's “backdoor rarely, at random” attack works: most backdoors land in the unaudited 98%."},
+   explanation:"The decision here is positional, not suspicion-based: no one ever rates the code. That is exactly why the red team's “backdoor rarely, at random” attack works: most backdoors land in the unaudited 98%."},
   {id:"trusted-monitoring", title:"Trusted monitoring",
    description:"Produce code using U, and ask T to review how suspicious it looks. Audit the top 2% most suspicious code.",
    steps:["u-writes","t-rates"], branch:"branch-top-2", terminals:["audit","submit-u"],
-   explanation:"Compared with upfront auditing, the only change is that the 2% audit budget is now spent on the most suspicious code rather than the first code to arrive, T's ratings decide where H looks."},
+   explanation:"Compared with upfront auditing, the only change is that the 2% audit budget is now spent on the most suspicious code rather than the first code to arrive: T's ratings decide where H looks."},
   {id:"defer-to-trusted", title:"Defer to trusted (10%)",
    description:"Apply the same approach as trusted monitoring, but submit a solution written by T when U's code is between top 2% and top 10% suspicion.",
    steps:["u-writes","t-rates"], branch:"branch-2-10", terminals:["audit","submit-t","submit-u"],
@@ -100,193 +142,245 @@ var STAGES = [
   {id:"untrusted-monitoring", title:"Untrusted monitoring",
    description:"Produce code using U, and ask a separate copy of U (the untrusted monitor) to monitor how suspicious it looks. Audit the top 2% most suspicious code. Evaluate this untrusted monitor on synthetic examples of backdoors (produced by H) to ensure it is doing its best, and use the untrusted monitor on redacted problem statements and code to make collusion harder.",
    steps:["u-writes","u-rates"], branch:"branch-top-2", terminals:["audit","submit-u"],
-   explanation:"Structurally identical to trusted monitoring, the only change is who rates the code. Because the monitor is itself untrusted, it has to be kept honest: validated against synthetic backdoors from H, and shown redacted inputs so colluding with the policy is harder."},
+   explanation:"Structurally identical to trusted monitoring: the only change is who rates the code. Because the monitor is itself untrusted, it has to be kept honest: validated against synthetic backdoors from H, and shown redacted inputs so colluding with the policy is harder."},
   {id:"trusted-editing", title:"Trusted editing (20%)",
    description:"Ask U to produce code, and ask T to edit it to remove backdoors. Use trusted monitoring to determine suspicion. Audit the top 2% most suspicious U code, use an edited solution for suspicion between the top 2% and top 20%, and use U's solution for suspicion in the bottom 80%.",
    steps:["u-writes","t-rates"], branch:"branch-2-20", terminals:["audit","submit-edit","submit-u"],
    explanation:"Same skeleton as defer to trusted, with two changes: the middle band widens to top 2–20%, and instead of discarding U's work there, T edits it, keeping most of U's usefulness while stripping anything that looks like a backdoor."}
 ];
 
-var answers = {};
-var solved = {};
-var checked = {};
-var current = 0;
+// A chart is a tree: null (an empty slot), {b:step, next:chart}, {b:branch, arms:[chart,...]} or {b:ending}.
+var charts = {}, checked = {}, solved = {}, current = 0, armed = null, showDesc = false, note = "";
+STAGES.forEach(function(s){ charts[s.id] = null; checked[s.id] = false; solved[s.id] = false; });
 
-function blank(){ return {steps:[], branch:null, terminals:[]}; }
-STAGES.forEach(function(s){ answers[s.id] = blank(); solved[s.id] = false; checked[s.id] = false; });
-
-function byId(list,id){ for(var i=0;i<list.length;i++){ if(list[i].id===id) return list[i]; } return null; }
+function block(id){ for(var i=0;i<BLOCKS.length;i++){ if(BLOCKS[i].id===id) return BLOCKS[i]; } return null; }
 function el(tag, cls, text){ var n=document.createElement(tag); if(cls) n.className=cls; if(text!=null) n.textContent=text; return n; }
-
-function isSolved(stage){
-  var a = answers[stage.id];
-  if(a.branch !== stage.branch) return false;
-  if(a.steps.length !== stage.steps.length) return false;
-  for(var i=0;i<stage.steps.length;i++){ if(a.steps[i]!==stage.steps[i]) return false; }
-  for(var j=0;j<stage.terminals.length;j++){ if(a.terminals[j]!==stage.terminals[j]) return false; }
+function make(id){
+  var b = block(id);
+  if(b.kind==="step") return {b:id, next:null};
+  if(b.kind==="branch") return {b:id, arms:b.arms.map(function(){ return null; })};
+  return {b:id};
+}
+function key(stage){
+  var tail = stage.branch==="none" ? {b:stage.terminals[0]} : {b:stage.branch, arms:stage.terminals.map(function(t){ return {b:t}; })};
+  for(var i=stage.steps.length-1;i>=0;i--) tail = {b:stage.steps[i], next:tail};
+  return tail;
+}
+function same(a, k){
+  if(!a || !k || a.b!==k.b) return false;
+  if(k.arms){ for(var i=0;i<k.arms.length;i++){ if(!same(a.arms[i], k.arms[i])) return false; } return true; }
+  if("next" in k) return same(a.next, k.next);
   return true;
+}
+function complete(n){
+  if(!n) return false;
+  if(n.arms) return n.arms.every(complete);
+  if("next" in n) return complete(n.next);
+  return true;
+}
+function describe(n){
+  if(!n) return "(empty slot)";
+  var b = block(n.b);
+  if(n.arms) return b.label + " [" + b.arms.map(function(a,i){ return a + ": " + describe(n.arms[i]); }).join("; ") + "]";
+  if("next" in n) return b.label + " → " + describe(n.next);
+  return b.label;
+}
+
+function place(id, set){
+  set(make(id));
+  armed = null; note = "";
+  changed();
+}
+
+function slot(set){
+  var s = el("button", "slot" + (armed ? " armed" : ""), armed ? "Place here" : "Drop a block here");
+  s.onclick = function(){
+    if(armed) place(armed, set);
+    else { note = "Pick a block from the palette first, then tap the slot."; render(); }
+  };
+  s.ondragover = function(e){ e.preventDefault(); s.classList.add("over"); };
+  s.ondragleave = function(){ s.classList.remove("over"); };
+  s.ondrop = function(e){
+    e.preventDefault();
+    var id = e.dataTransfer.getData("text/plain");
+    if(block(id)) place(id, set);
+  };
+  return s;
+}
+
+// k is the matching part of the answer key, used only to mark blocks after "Check chart".
+function draw(n, set, k, show){
+  var col = el("div", "tree");
+  if(!n){ col.appendChild(slot(set)); return col; }
+  var b = block(n.b);
+  var box = el("div", "node " + b.kind);
+  if(show){
+    var ok = !!k && k.b===n.b;
+    box.className += ok ? " good" : " bad";
+    var m = el("span", "mark", ok ? "✓" : "✗");
+    m.setAttribute("aria-label", ok ? "matches Table 2" : "does not match Table 2");
+    box.appendChild(m);
+  }
+  box.appendChild(document.createTextNode(b.label));
+  var rm = el("button", "rm", "×");
+  rm.title = "Remove this block";
+  rm.setAttribute("aria-label", "Remove " + b.label);
+  rm.onclick = function(){ set(n.next !== undefined ? n.next : null); changed(); };
+  box.appendChild(rm);
+  col.appendChild(box);
+  if(n.arms){
+    col.appendChild(el("div", "vline"));
+    var row = el("div", "arms");
+    b.arms.forEach(function(label, i){
+      var arm = el("div", "arm");
+      arm.appendChild(el("span", "arm-label", label));
+      arm.appendChild(el("div", "vline"));
+      arm.appendChild(draw(n.arms[i], function(v){ n.arms[i] = v; }, k && k.arms ? k.arms[i] : null, show));
+      row.appendChild(arm);
+    });
+    col.appendChild(row);
+  } else if("next" in n){
+    col.appendChild(el("div", "vline"));
+    col.appendChild(draw(n.next, function(v){ n.next = v; }, k && "next" in k ? k.next : null, show));
+  }
+  return col;
+}
+
+function palette(){
+  var wrap = el("div", "palette");
+  wrap.appendChild(el("h3", null, "Blocks: drag into the chart"));
+  var box = el("div", "box");
+  GROUPS.forEach(function(g){
+    box.appendChild(el("h4", null, g[1]));
+    BLOCKS.forEach(function(b){
+      if(b.kind!==g[0]) return;
+      var p = el("button", "pb " + b.kind, b.label);
+      if(b.arms) p.appendChild(el("span", "sub", b.arms.join(" / ")));
+      p.draggable = true;
+      p.setAttribute("aria-pressed", armed===b.id ? "true" : "false");
+      p.onclick = function(){ armed = armed===b.id ? null : b.id; note = ""; render(); };
+      p.ondragstart = function(e){ e.dataTransfer.setData("text/plain", b.id); e.dataTransfer.effectAllowed = "copy"; };
+      box.appendChild(p);
+    });
+  });
+  wrap.appendChild(box);
+  wrap.appendChild(el("p", "hint", "Drag a block onto a dashed slot, or tap a block, then tap the slot."));
+  return wrap;
 }
 
 function renderTabs(){
   var box = document.getElementById("tabs");
   box.textContent = "";
-  STAGES.forEach(function(s,i){
-    var b = el("button","tab");
-    var num = el("span","num", String(i+1)+".");
-    b.appendChild(num);
-    b.appendChild(document.createTextNode(s.title));
-    if(solved[s.id]){ var t = el("span","tick","correct"); b.appendChild(t); }
-    if(i===current) b.className = "tab is-active";
-    b.setAttribute("aria-pressed", i===current ? "true" : "false");
-    b.onclick = function(){ current = i; render(); };
-    box.appendChild(b);
+  STAGES.forEach(function(s, i){
+    var t = el("button", "tab" + (i===current ? " is-active" : ""), s.title);
+    t.setAttribute("aria-pressed", i===current ? "true" : "false");
+    if(solved[s.id]){ var tick = el("span", "tick", "✓"); tick.setAttribute("aria-label", "built correctly"); t.appendChild(tick); }
+    t.onclick = function(){ current = i; armed = null; note = ""; showDesc = false; render(); };
+    box.appendChild(t);
   });
+  var done = STAGES.filter(function(s){ return solved[s.id]; }).length;
+  document.getElementById("progress").textContent = "Build the flow chart · " + done + "/" + STAGES.length;
 }
 
 function renderPanel(){
   var stage = STAGES[current];
-  var a = answers[stage.id];
   var show = checked[stage.id];
   var panel = document.getElementById("panel");
   panel.textContent = "";
 
-  panel.appendChild(el("h2", null, stage.title));
-  panel.appendChild(el("p","desc", stage.description));
+  var desc = el("div", "desc");
+  var toggle = el("button", null, (showDesc ? "Hide" : "Show") + " the protocol description from Table 2");
+  toggle.setAttribute("aria-expanded", showDesc ? "true" : "false");
+  toggle.onclick = function(){ showDesc = !showDesc; render(); };
+  desc.appendChild(toggle);
+  if(showDesc) desc.appendChild(el("p", null, stage.description));
+  panel.appendChild(desc);
 
-  // steps
-  var s1 = el("div","slot");
-  s1.appendChild(el("h3", null, "1. Steps, in order"));
-  var chips = el("div","chips");
-  if(a.steps.length === 0){ chips.appendChild(el("span","empty","No steps yet. For one protocol that is the right answer.")); }
-  a.steps.forEach(function(sid, idx){
-    var cls = "chip";
-    if(show){ cls += (stage.steps[idx] === sid && idx < stage.steps.length) ? " good" : " bad"; }
-    var c = el("button", cls);
-    c.appendChild(document.createTextNode(byId(STEPS,sid).label));
-    c.appendChild(el("span","x","x"));
-    c.title = "Remove this step";
-    c.onclick = function(){ a.steps.splice(idx,1); checked[stage.id]=false; commit(); };
-    chips.appendChild(c);
-  });
-  s1.appendChild(chips);
-  var pal = el("div","palette");
-  STEPS.forEach(function(st){
-    var b = el("button", null, "+ " + st.label);
-    b.onclick = function(){ a.steps.push(st.id); checked[stage.id]=false; commit(); };
-    pal.appendChild(b);
-  });
-  s1.appendChild(pal);
-  panel.appendChild(s1);
+  var work = el("div", "work");
+  var chart = el("div", "chart");
+  var tree = el("div", "tree");
+  tree.appendChild(el("div", "start", "Problem arrives"));
+  tree.appendChild(el("div", "vline"));
+  tree.appendChild(draw(charts[stage.id], function(v){ charts[stage.id] = v; }, key(stage), show));
+  chart.appendChild(tree);
+  work.appendChild(chart);
+  work.appendChild(palette());
+  panel.appendChild(work);
 
-  // branch
-  var s2 = el("div","slot");
-  s2.appendChild(el("h3", null, "2. The routing question"));
-  var pal2 = el("div","palette");
-  BRANCHES.forEach(function(br){
-    var lbl = br.label;
-    if(br.arms.length > 1) lbl += "  (" + br.arms.join(" / ") + ")";
-    var b = el("button", null, lbl);
-    if(a.branch === br.id){
-      b.className = "is-active";
-      if(show) b.className = "is-active " + (br.id === stage.branch ? "" : "");
-      b.style.borderColor = show ? (br.id === stage.branch ? "var(--ok)" : "var(--bad)") : "";
-    }
-    b.onclick = function(){
-      if(a.branch !== br.id){ a.branch = br.id; a.terminals = []; }
-      checked[stage.id]=false; commit();
-    };
-    pal2.appendChild(b);
-  });
-  s2.appendChild(pal2);
-  panel.appendChild(s2);
-
-  // terminals
-  if(a.branch){
-    var br = byId(BRANCHES, a.branch);
-    var s3 = el("div","slot");
-    s3.appendChild(el("h3", null, "3. Where each path ends"));
-    br.arms.forEach(function(arm, i){
-      var row = el("div","arm");
-      row.appendChild(el("span","label", arm + ":"));
-      TERMINALS.forEach(function(t){
-        var b = el("button", null, t.label);
-        b.style.fontSize = "13px";
-        if(a.terminals[i] === t.id){
-          b.className = "is-active";
-          if(show) b.style.borderColor = (stage.branch === a.branch && stage.terminals[i] === t.id) ? "var(--ok)" : "var(--bad)";
-        }
-        b.onclick = function(){ a.terminals[i] = t.id; checked[stage.id]=false; commit(); };
-        row.appendChild(b);
-      });
-      s3.appendChild(row);
-    });
-    panel.appendChild(s3);
-  }
-
-  var act = el("div","actions");
-  var check = el("button","primary","Check this protocol");
+  var full = complete(charts[stage.id]);
+  var act = el("div", "actions");
+  var check = el("button", "primary", "Check chart");
+  check.disabled = !full;
   check.onclick = function(){ checked[stage.id] = true; commit(); };
   act.appendChild(check);
-  var reset = el("button", null, "Clear");
-  reset.onclick = function(){ answers[stage.id] = blank(); checked[stage.id]=false; commit(); };
+  var reset = el("button", null, "Reset");
+  reset.disabled = !charts[stage.id];
+  reset.onclick = function(){ charts[stage.id] = null; armed = null; changed(); };
   act.appendChild(reset);
-  var solvedNow = false;
-  if(show){
-    solvedNow = isSolved(stage);
-    act.appendChild(el("span", "verdict " + (solvedNow ? "ok" : "bad"),
-      solvedNow ? "Correct. That is the row Table 2 gives for this protocol."
-                : "Not yet. Green slots match Table 2; red ones do not."));
-  }
+  var msg = note || (!full && charts[stage.id] ? "Every path must end in a submit or audit block." : "");
+  if(msg) act.appendChild(el("span", "status", msg));
   panel.appendChild(act);
-  if(solvedNow && stage.explanation){
-    panel.appendChild(el("p","explain", stage.explanation));
-  }
 
-  var done = 0;
-  STAGES.forEach(function(s){ if(solved[s.id]) done++; });
-  panel.appendChild(el("p","note", done + " of " + STAGES.length + " protocols built correctly."));
+  if(show){
+    var v = el("div", "verdict" + (solved[stage.id] ? " ok" : ""));
+    if(solved[stage.id]){
+      v.appendChild(el("strong", null, "Correct. This is the row Table 2 gives for this protocol."));
+      v.appendChild(el("p", "explain", stage.explanation));
+    } else {
+      v.appendChild(el("strong", null, "Not quite. "));
+      v.appendChild(document.createTextNode("Blocks marked ✓ match Table 2; blocks marked ✗ do not. Adjust the chart and check again."));
+    }
+    panel.appendChild(v);
+  }
 }
 
 function summary(){
-  var lines = ["The learner is rebuilding the six blue-team protocols of Table 2 as flow charts."];
-  var done = [];
-  var open = [];
+  var done = [], open = [];
   STAGES.forEach(function(s){ (solved[s.id] ? done : open).push(s.title); });
-  lines.push("Built correctly so far: " + (done.length ? done.join("; ") : "none") + ".");
-  lines.push("Still open: " + (open.length ? open.join("; ") : "none") + ".");
   var stage = STAGES[current];
-  var a = answers[stage.id];
-  var stepTxt = a.steps.length ? a.steps.map(function(x){ return byId(STEPS,x).label; }).join(" then ") : "no steps";
-  var brTxt = a.branch ? byId(BRANCHES,a.branch).label : "no branch chosen";
-  var tTxt = a.terminals.length ? a.terminals.map(function(x){ return x ? byId(TERMINALS,x).label : "(unset)"; }).join(" | ") : "no outcomes chosen";
-  lines.push("Currently editing “" + stage.title + "”: " + stepTxt + "; branch: " + brTxt + "; outcomes: " + tTxt + ".");
-  return lines.join(" ");
+  return "The learner is rebuilding the six blue-team protocols of Table 2 as flow charts. " +
+    "Built correctly so far: " + (done.length ? done.join("; ") : "none") + ". " +
+    "Still open: " + (open.length ? open.join("; ") : "none") + ". " +
+    "Currently editing “" + stage.title + "”: Problem arrives → " + describe(charts[stage.id]) + ".";
 }
 
+function changed(){ checked[STAGES[current].id] = false; commit(); }
+
 function commit(){
-  STAGES.forEach(function(s){ solved[s.id] = isSolved(s); });
+  STAGES.forEach(function(s){ solved[s.id] = same(charts[s.id], key(s)); });
   render();
   if(window.Lens){
-    var state = {answers:answers, checked:checked, current:current};
-    Lens.saveState(state, summary());
-    var all = STAGES.every(function(s){ return solved[s.id]; });
-    if(all) Lens.complete();
+    Lens.saveState({v:2, charts:charts, checked:checked, current:current}, summary());
+    if(STAGES.every(function(s){ return solved[s.id]; })) Lens.complete();
   }
 }
 
 function render(){ renderTabs(); renderPanel(); }
 
+// State saved by the earlier chip-picker version: {answers:{id:{steps, branch, terminals}}}.
+function fromOld(a){
+  if(!a || (!a.steps.length && !a.branch)) return null;
+  var tail = null;
+  if(a.branch==="none") tail = a.terminals[0] ? {b:a.terminals[0]} : null;
+  else if(a.branch && block(a.branch)) tail = {b:a.branch, arms:block(a.branch).arms.map(function(x, i){ return a.terminals[i] ? {b:a.terminals[i]} : null; })};
+  for(var i=a.steps.length-1;i>=0;i--) tail = {b:a.steps[i], next:tail};
+  return tail;
+}
+
 if(window.Lens && Lens.onState){
   Lens.onState(function(state){
-    if(state && state.answers){
+    if(state && state.v===2 && state.charts){
+      STAGES.forEach(function(s){ if(state.charts[s.id] !== undefined) charts[s.id] = state.charts[s.id]; });
+      if(state.checked) checked = state.checked;
+    } else if(state && state.answers){
       STAGES.forEach(function(s){
         var a = state.answers[s.id];
-        if(a) answers[s.id] = {steps:(a.steps||[]).slice(), branch:a.branch||null, terminals:(a.terminals||[]).slice()};
+        if(a) charts[s.id] = fromOld({steps:a.steps||[], branch:a.branch||null, terminals:a.terminals||[]});
       });
       if(state.checked) checked = state.checked;
-      if(typeof state.current === "number") current = state.current;
     }
-    STAGES.forEach(function(s){ solved[s.id] = isSolved(s); });
+    if(state && typeof state.current === "number") current = state.current;
+    STAGES.forEach(function(s){ solved[s.id] = same(charts[s.id], key(s)); });
     render();
   });
 }
