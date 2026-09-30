@@ -3,7 +3,7 @@ title: "Without fundamental advances, misalignment and catastrophe are the defau
 source_url: "https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/without-fundamental-advances-misalignment-and-catastrophe"
 author:
   - "Jeremy Gillen"
-  - "peterbarnett"
+  - "Peter Barnett"
 published: 2024-01-26
 created: 2026-02-13
 description: "A pdf version of this report is available here. …"
