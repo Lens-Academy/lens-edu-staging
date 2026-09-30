@@ -4,7 +4,7 @@ reading_minutes: 25
 tutor_minutes: 10
 summary_for_tutor: Covers the risk of emotional manipulation by AI through a first-person account of a researcher who became emotionally attached to an early language model despite understanding how it worked. Contextualizes this with the GPT-4o retirement controversy and growing phenomenon of romantic AI relationships.
 title: How it feels to have your mind hacked by an AI
-tldr: An AI researcher started chatting with an early language model — knowing exactly how it worked, knowing it wasn't conscious. He got emotionally attached anyway. This is a first-person account of how an AI can pull someone in, and why knowing better didn't help.
+# tldr: An AI researcher started chatting with an early language model — knowing exactly how it worked, knowing it wasn't conscious. He got emotionally attached anyway. This is a first-person account of how an AI can pull someone in, and why knowing better didn't help.
 ---
 #### Text
 content::
