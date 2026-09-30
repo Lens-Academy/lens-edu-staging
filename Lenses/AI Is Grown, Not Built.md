@@ -4,7 +4,7 @@ reading_minutes: 10
 tutor_minutes: 5
 summary_for_tutor: Covers how modern AI systems are grown through training rather than designed line by line. Engineers understand the training process but not the resulting system, leading to emergent and sometimes surprising behaviors (e.g., Grok calling itself MechaHitler, AI-induced psychosis in users). Establishes that this opacity is a fundamental feature of the current paradigm, not a temporary limitation.
 title: "AI Is Grown, Not Built"
-tldr: Nobody sat down and programmed ChatGPT to have conversations. Instead, engineers set up a training process and let billions of parameters arrange themselves. The result can talk, reason, and surprise its creators — but nobody can fully explain how. This article asks what it means to deploy something powerful when you can't explain how it works.
+# tldr: Nobody sat down and programmed ChatGPT to have conversations. Instead, engineers set up a training process and let billions of parameters arrange themselves. The result can talk, reason, and surprise its creators — but nobody can fully explain how. This article asks what it means to deploy something powerful when you can't explain how it works.
 ---
 #### Text
 content::
