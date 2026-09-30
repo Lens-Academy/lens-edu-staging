@@ -34,7 +34,6 @@ source:: [[../Lenses/The AI Book That's Freaking Out National Security Advisors]
 source:: ![[../Lenses/10 reasons]]
 
 # Lens:
-optional:: true
 source:: ![[../Lenses/Deadly By Default]]
 
 # Lens:
