@@ -27,7 +27,7 @@ We cover roughly 40 pages of the book per unit (one unit swaps most of its readi
 - 90 minutes with the AI tutor and the supplementary materials
 - 90 minutes in the meeting
 
-That comes to about four and a half hours per unit for a fast reader doing the required parts, and a good deal more for anyone who also works through the optional material. Units vary in density, so please make considerations when developing : the first is the heaviest, and the one built around the film is the lightest by roughly an hour and a half.
+That comes to about four and a half hours per unit for a fast reader doing the required parts, and a good deal more for anyone who also works through the optional material. Units vary in density, so please make considerations when developing your study plan.: the first is the heaviest, and the one built around the film is the lightest by roughly an hour and a half.
 
 \### Structure
 Before the first meeting, you'll be assigned to a cohort in the Lens Academy Discord server. That's a private channel that only your fellow cohort members (and admins) can see. If you haven't already, take a moment to introduce yourself in your cohort channel and paste a copy of your intro into `#intros-offers-asks` so the entire Discord server can see it.
