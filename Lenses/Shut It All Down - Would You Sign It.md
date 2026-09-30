@@ -3,7 +3,7 @@ id: 'e40d054d-3d7f-4f07-8478-78a81ea8a514'
 title: "Would You Sign It?"
 reading_minutes: 1
 tutor_minutes: 5
-tldr: "Yudkowsky's ban and the Statement on Superintelligence both say stop, but they are not the same proposal. Decide whether you would sign, and pin down what each one leaves out."
+# tldr: "Yudkowsky's ban and the Statement on Superintelligence both say stop, but they are not the same proposal. Decide whether you would sign, and pin down what each one leaves out."
 summary_for_tutor: "Discussion lens after the embedded Statement on Superintelligence. The statement: 'We call for a prohibition on the development of superintelligence, not lifted before there is (1) broad scientific consensus that it will be done safely and controllably, and (2) strong public buy-in.' Two lenses earlier the learner watched Yudkowsky's TED talk proposing an international ban on large training runs, enforced by GPU tracking, data center monitoring, and willingness to risk armed conflict with non-signatories. Differences: the statement names lifting conditions and Yudkowsky does not; Yudkowsky names enforcement and the statement does not; the statement targets 'superintelligence', which has no agreed technical threshold, while Yudkowsky targets large training runs; the statement adds public buy-in."
 ---
 #### Text
