@@ -105,6 +105,11 @@ body.dragging{cursor:grabbing;user-select:none}
   .pb{width:auto;flex:1 1 140px}
   .arm .node,.arm .slot{max-width:104px}
 }
+@media (max-width:420px){
+  body{padding:12px 6px}
+  .arm{padding:14px 1px 0}
+  .arm .node,.arm .slot{max-width:98px;padding:8px 14px}
+}
 </style>
 </head>
 <body>
