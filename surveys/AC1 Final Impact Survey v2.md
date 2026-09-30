@@ -183,7 +183,7 @@ id:: 7e2dd5ee-0026-4aa0-84f0-70b854b3d79f
 content:: Which kinds of steps are you taking in the next 1–3 months? Pick all that apply.
 multi:: true
 options::
-- Starting a role or paid programme I've already been accepted to
+- Starting a role, funded research, or paid programme I've already been accepted to
 - Starting an unpaid programme I've already been accepted to
 - Applying to paid full-time AI safety jobs
 - Applying to paid fellowships or funded research, 3 months or longer (e.g. MATS, LASR, Pivotal)
