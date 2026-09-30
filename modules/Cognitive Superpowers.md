@@ -39,6 +39,7 @@ source:: ![[../Lenses/The power of intelligence|The power of intelligence]]
 source:: ![[../Lenses/Speed advantage with slow motion videos]]
 
 # Lens:
+optional:: true
 source:: [[../Lenses/AI manipulation - mind hacked|AI manipulation - mind hacked]]
 
 # Lens:
