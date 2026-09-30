@@ -54,7 +54,7 @@ options::
 
 #### Question: Open
 id:: 1ed3e65b-6bdb-490f-9530-f6547ab4f9f6
-content:: Any feedback, or anything else you'd like to share?
+content:: Feedback, or anything else you'd like to share?
 description:: For example, what you're working towards next, or how we could help.
 optional:: true
 max-chars:: 1500

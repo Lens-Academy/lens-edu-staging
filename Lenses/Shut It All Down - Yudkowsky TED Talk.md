@@ -6,11 +6,13 @@ tutor_minutes: 5
 # tldr: "What if the answer to 'how do we make superintelligence safe?' is 'we don't build it yet'? In this short TED talk, Eliezer Yudkowsky argues we get one critical try at alignment and are nowhere near ready, and calls for an enforced international ban on large AI training runs."
 summary_for_tutor: "Opens the 'Shut it all down' submodule of Existing Approaches. The learner watches Eliezer Yudkowsky's 2023 TED talk plus Q&A with Chris Anderson. Core claims: nobody understands how modern AI systems work; there is no scientific consensus or engineering plan for superintelligence going well; training on thumbs-up/thumbs-down feedback does not yield a mind whose values generalize past its trainers; we must get alignment right on the first critical try, with no chance to learn from failure; a six-month moratorium is not enough. His 'best bad take' is an international coalition banning large training runs, enforced by tracking GPU sales, monitoring data centers, and being willing to risk a shooting conflict to destroy an unmonitored data center in a non-signatory country. In the Q&A he explains why a smarter AI could win by routes we cannot foresee (chess analogy, air conditioner sent to the 11th century), why it would pursue resources (convergent instrumental goals), and states that enforcement must come from state actors and international agreements, not individual violence. Unlike the other approaches in this module, this one is policy rather than technical research: it treats the other agendas as unlikely to be ready in time."
 ---
+%% COMMENTED OUT (AI-generated framing):
 #### Text
 content::
 The approaches so far in this module try to make powerful AI safe. This last one asks a different question: what if we cannot do that in time, and the safest move is not to build superintelligence until we can?
 
 Eliezer Yudkowsky, who started working on AI alignment in 2001, makes the case for stopping in this TED talk.
+%%
 
 #### Video
 source:: [[../video_transcripts/ted-will-superintelligent-ai-end-the-world-eliezer-yudkowsky]]

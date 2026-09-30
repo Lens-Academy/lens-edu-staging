@@ -8,7 +8,8 @@ summary_for_tutor: "Presents the Statement on Superintelligence (Future of Life 
 ---
 #### Text
 content::
-In October 2025, the Future of Life Institute published a one-sentence statement calling for a ban on building superintelligence. As of September 2026 it has over 76,000 signatures, including five Nobel laureates among its [initial signatories](https://futureoflife.org/press-release/prominent-scientists-faith-leaders-policymakers-and-artists-call-for-a-prohibition-on-superintelligence/). See the [statement's website](https://superintelligence-statement.org/) for the full list of signatories.
+%% COMMENTED OUT (AI-generated framing): In October 2025, the Future of Life Institute published a one-sentence statement calling for a ban on building superintelligence. %%
+As of September 2026, the statement has over 76,000 signatures, including five Nobel laureates among its [initial signatories](https://futureoflife.org/press-release/prominent-scientists-faith-leaders-policymakers-and-artists-call-for-a-prohibition-on-superintelligence/). See the [statement's website](https://superintelligence-statement.org/) for the full list of signatories.
 
 #### Article
 source:: [[../articles/future-of-life-institute-statement-on-superintelligence]]
