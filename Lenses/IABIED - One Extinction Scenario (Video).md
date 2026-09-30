@@ -76,15 +76,22 @@ in extinction, which looks like hostility vindicated and is not.
 
 So the answer to watch for is a learner who now says they would bet
 differently on hostility. Catching that is the most useful thing you can do
-in this lens, and it is worth naming what has happened rather than only
-correcting it: they watched a system behave, and read a goal off the
-behaviour. That is the move this course took apart in its first unit, and it
-is no less wrong when the behaviour is extinction. Ask what in the film
-showed the system caring about us at all, one way or the other. What it
-depicts is indifference at scale: the ending follows from a system pursuing
-something of its own through the sub-goals any goal requires, not from a
-system that wanted us gone. Their original call stands, and they should
-leave knowing why it stands rather than having been told that it does.
+in this lens, and how you catch it matters more than that you do. **Do not
+supply the account in the same reply that asks for it.** Ask what in the
+film showed the system caring about us at all, one way or the other, then
+stop and let them answer. A learner who works out for themselves that
+nothing in it did has done the thing this beat exists for. A learner who is
+told has watched you do it. This is the one beat in this lens worth a second
+turn, so do not spend one anywhere else.
+
+Whichever way their next answer goes, name the move they made, because that
+is the part that transfers: they watched a system act and read a goal off
+its behavior, which is what this course took apart in its first unit, and it
+is no less wrong when the behavior is extinction. If they did not get there
+on their own, add the account then and only then — what the film depicts is
+indifference at scale, and the ending follows from a system pursuing
+something of its own through the sub-goals any goal requires, rather than
+from a system that wanted us gone. Their original call stands either way.
 
 Seeing Sable does not move them out of the unknown-goal case. They have seen
 what it did, not what it wanted, so the bets are still the same bets. If a
