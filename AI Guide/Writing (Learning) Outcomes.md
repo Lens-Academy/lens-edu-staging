@@ -71,6 +71,8 @@ The dominant defects in existing outcomes are recall tests and leading prompts. 
 - For example, beginner-level learning outcomes (and their test questions) should be the sort of things that every advanced person in the field should be expected to know. "Solve 1+x=2 for x" is good, "How does Johnny explain how to solve 1+x=2" might be a good learning-question but is not a good test question because not every advanced person is expected to know this, nor would benefit to know this.
 ### Test Question Rubrics
 
+Full guidance, examples and the checks to run: [[../AI Guide/Writing Rubrics]].
+
 Write each rubric so the grader can assign a defensible 0 to 100 score. Turn broad qualities into observable checks. For example, specify which claims, distinctions, or reasoning steps a strong answer contains and how missing load-bearing elements affect the score.
 
 Assessment and feedback are separate. `assessment-instructions::` is the grader's brief: it decides the score and the learner never sees it. `feedback-instructions::` is the tutor's brief: if present, the tutor gets the question, the answer, the score, and the private grading reason, then replies to the learner; if absent, the learner sees only the percentage. The learner asks for the feedback with a "Get feedback" button that appears once the answer is graded; add `force-feedback:: true` to send it automatically on every submit, or `force-feedback:: first` to send it automatically on the first answer only. Say in `feedback-instructions::` what good feedback names, such as the strongest part of the answer and the one change that would most improve it. Feedback guidance never belongs in the assessment brief, where it could accidentally affect the score.

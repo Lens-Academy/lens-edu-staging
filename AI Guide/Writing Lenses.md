@@ -71,6 +71,8 @@ All link and card forms with live examples — hooks, cards in closed callouts, 
 
 ### Which field: `feedback-instructions::` or `assessment-instructions::`
 
+How to write either field, when to grade at all, and the checks to run: [[../AI Guide/Writing Rubrics]].
+
 Use `feedback-instructions::` whenever the phase has no single correctness the platform should score — a recall mirror, a reflection, naming a connection. The student gets a reply; no percentage. Use `assessment-instructions::` only when you mean the platform to compute and show a real numeric grade (a 0–100% chip, red under 40%) — reserve it for phases with an actual right/wrong the student should be tested on, like Learning Question's wedge-claim verdict, or Choice/FillBlank/Ranking segments. **The field name is not a formality: it is a load-bearing switch.** `assessment-instructions::` on a phase whose own brief says "normalize gaps, incomplete recall is expected and not a failure" produces exactly that contradiction as a visible grade — the platform's scorer (`core/assessment.py`) is deliberately a rigorous, isolated evaluator with no view of that framing beyond the same block being handed to it as "Scoring Rubric:"; a lenient-sounding brief does not soften it, changing the field does. This has shipped wrong twice: six lenses caught 2026-09-11, seven more (the Connection phase above) caught and fixed 2026-09-22 (PR #100, Elias/James/Claude, from student reports in #help-and-feedback). If you are writing or editing a brief, check which behavior you actually want before choosing the field, every time — do not copy the field from a neighboring phase without checking whether that phase wants the same thing.
 
 ### What each brief must do

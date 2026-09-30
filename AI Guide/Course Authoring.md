@@ -9,7 +9,7 @@ It is defined by a course file (see [[Lens Edu/AI Guide/Writing Course Files]]).
 
 A module (see [[../AI Guide/Writing Modules]]) contains links to a set of learning outcomes that define what we want to teach in this module, and an ordered list of lenses, which constitute the actual content.
 Each learning outcome (see [[../AI Guide/Writing (Learning) Outcomes]]) defines one testable skill and a set of tests the platform uses to measure it (the test renders at the end of the module or submodule that declares the outcome).
-Each lens is rendered as a separate page. They contain the actual learning content (readings, AI-tutor chats, questions, roleplays). (see [[../AI Guide/Writing Lenses]])
+Each lens is rendered as a separate page. They contain the actual learning content (readings, AI-tutor chats, questions, roleplays). (see [[../AI Guide/Writing Lenses]]) Before adding or editing any question, read [[../AI Guide/Writing Rubrics]]: whether to grade it, how to write the rubric and the feedback brief, and the checks to run.
 Lenses can embed external **articles** and **video transcripts**, which live in the `articles/` and `video_transcripts/` folders alongside. (see [[../AI Guide/Adding Sources]])
 A lens can also mark words from the course **glossary** (`glossary/` folder): the learner sees a dotted line and can point at the word to read its definition. (see [[../AI Guide/Writing Glossary Entries]])
 
