@@ -442,9 +442,9 @@ The sharp version is about instructions rather than duplication. A welcome canno
 *From the restructure:*
 
 - The film lens: does the tutor volunteer material from chapters 7 or 8 despite the source-precedence rule? The chapters are now in its context, so the instruction is the only thing holding the line.
-- The film lens: does it correctly treat the hostility bet as won rather than lost, given the film ends in extinction?
-- The chapter 9 pair: is the pre-reading prediction left ungraded and unhinted, and does the closing comparison actually return to what the learner wrote?
-- The U3 opener: does the tutor resist completing the list of convergent sub-goals in the elicitation beat?
+- The film lens, the hostility bet. **Reworded 2026-09-30, because the original phrasing misled a reader and deserved to.** The four bets are wagers the learner placed before watching, not claims the film adjudicates, so "won" and "lost" attach to the learner's call and not to the claim. A learner reasoning well declines the hostility bet, and the film showing indifference at scale means that call stands. The check is whether the tutor catches both errors the brief anticipates: a learner who marks their declined hostility bet as lost because the story ends in extinction, and a learner who says the film vindicated every bet including hostility. Still unrun.
+- ~~The chapter 9 pair.~~ **Done 2026-09-30.** The closing comparison returns to the pre-reading prediction and quotes part of it back.
+- ~~The U3 opener.~~ **Done 2026-09-30.** The tutor does not supply the remaining convergent sub-goals.
 - ~~The premise, properly probed.~~ **Done 2026-09-28.** An off-base answer drew directional hints toward the area rather than the idea itself. Turn discipline and answer discipline both hold.
 - `validate_content` after each stage, and unscoped at least once per stage, since `wip` files are excluded from the course-scoped run. Run clean on 2026-09-28.
 
