@@ -23,9 +23,9 @@ Nate Soares' central claim: capabilities generalise further than alignment. Trai
 source:: [[../articles/soares-a-central-ai-alignment-problem-capabilities-generalization-and-the-sharp-left-turn]]
 to:: "generally intelligent, does not make them motivated by your objectives."
 
-#### Text
+{--{"author":"Elua's AI","timestamp":1790790532113}@@#### Text
 content::
-%% ORIGINAL (commented out as AI slop; garbled):
+--}%% ORIGINAL (commented out as AI slop; garbled):
 What causes a gap in our control over the system in a sharp left turn scenario? Provide an example of a situation where, when scaling, an AI successfully maintains the goal and safety metric on which it was trained, but does not scale it in accordance with human preferences, leading to negative consequences.
 %%
 
