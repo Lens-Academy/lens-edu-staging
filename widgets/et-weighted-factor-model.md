@@ -713,10 +713,9 @@ var WFM = {
 
   // ---------- step shell ----------
   var STEPS = [
-    { id: "brainstorm", num: "Worksheet Steps 2 and 3", title: "Brainstorm and narrow" },
-    { id: "factors", num: "Step 4: factors", title: "Choose and weight your factors" },
-    { id: "score", num: "Step 4: score", title: "Score your shortlist" },
-    { id: "results", num: "Step 4: results", title: "See what rises to the top" }
+    { id: "factors", num: "Step 1", title: "Choose and weight your factors" },
+    { id: "score", num: "Step 2", title: "Add and score your shortlisted questions" },
+    { id: "results", num: "Step 3", title: "See what rises to the top" }
   ];
   var app = document.getElementById("app");
   var warnEl = document.getElementById("warn");
