@@ -21,9 +21,11 @@ By the end of this worksheet, you will have a list of real, named stakeholders w
 
 ---
 
-\# Part 1: Your Research Question and Bottleneck \[5 min\]
+\# Part 1: Summarise Your Research Question and Bottleneck \[5 min\]
 
-Make a quick note or copy-paste of your research question and bottleneck from last week!
+#### Callout: 📝 Make a quick note or copy-paste of your research question and bottleneck from last week!
+tone:: blue
+collapse:: open
 
 #### Question: Open
 id:: c2a9cd3e-9257-43d3-9f7b-665e0a6314b8
@@ -36,6 +38,8 @@ content:: **The bottleneck they target:**
 #### Question: Open
 id:: 76f6d912-56fc-4b56-9c48-f75d1c3effef
 content:: **Potential Stakeholders: Who would need to act on this research, if you answered this question perfectly?**
+
+#### End Callout
 
 #### Text
 content::
@@ -56,16 +60,27 @@ content::
    1. We highly recommend reaching out to >20 stakeholders and to continue your outreach process over the next 4-weeks if you aren’t getting as many responses.
    2. ⭐ A low reply rate is completely normal, keep going. One past student reached out to over 100 organisations and, after plenty of no-replies, found a collaborator they're now starting an organisation with!
 
-Please continue to use this tab over the program as an ongoing tracker for your outreach and interviews completed.
+Please continue to use this tracker over the program as an ongoing record of your outreach and interviews completed.
 
-| Who: Real-world Stakeholder<br>Which actors matter to address key bottlenecks? | What: Change Required<br>What do these stakeholders need to do differently for progress to happen? | Link to Thesis<br>As an ideal outcome, how can my research lead to the change required? | Outreach Done<br>(Y/N + Date) | Interview Done<br>(Y/N + Date + Link to Notes) |
+#### Callout: 💡 Example: a filled-in stakeholder tracker (click to open)
+tone:: neutral
+collapse:: closed
+
+#### Text
+content::
+*Here's an example of what a few rows might look like for a thesis on communicating AI safety research to policymakers. Your rows should name specific organisations and the people on their teams!*
+
+| Who: Real-world Stakeholder | What: Change Required | Link to Thesis | Outreach Done | Interview Done |
 |---|---|---|---|---|
-| *Example: Technology Policy Advocacy Group (e.g., Center for Humane Technology)* | *Integrate AI safety risks into existing safer tech advocacy* | *My thesis synthesizes AI safety research into actionable policy-relevant insights for advocacy groups* |  |  |
+| Technology Policy Advocacy Group (e.g., Center for Humane Technology), plus a named policy lead on their team | Integrate AI safety risks into existing safer tech advocacy | My thesis synthesizes AI safety research into actionable policy-relevant insights for advocacy groups | Y, 2 Oct | N (awaiting reply) |
+| AI governance researcher at a think tank who recently published a report on AI risk policy | Draw on more evidence about how policymakers perceive AI risk when writing recommendations | My thesis provides interview data on policymakers' perceptions of AI risk that they could cite and build on | Y, 3 Oct | Y, 10 Oct ([link to notes]) |
+| Program officer at a funder supporting AI safety field-building | Fund more work translating AI safety findings for policy audiences | My thesis could show which framings resonate with policymakers, informing what kinds of projects are worth funding | Y, 5 Oct | N |
+| Lead author of a recent academic review on science communication to policymakers | Extend their framework to a fast-moving, technical field like AI safety | My thesis tests their framework in a new context and could become a joint follow-up paper | N, planned for next week | N |
 
-#### Question: Open
-id:: 462807d7-17b1-4d12-bf9a-5c323c98f88d
-content:: Who: Real-world Stakeholder / Which actors matter to address key bottlenecks? | What: Change Required / What do these stakeholders need to do differently for progress to happen? | Link to Thesis / As an ideal outcome, how can my research lead to the change required? | Outreach Done / (Y/N + Date) | Interview Done / (Y/N + Date + Link to Notes)
-placeholder:: Who: Real-world Stakeholder: … | What: Change Required: … | Link to Thesis: … | Outreach Done: … | Interview Done: …
+#### End Callout
+
+#### Widget
+source:: [[../widgets/et-w4-stakeholder-tracker]]
 
 #### Text
 content::
@@ -83,10 +98,8 @@ content::
 
 List the questions you plan to ask across interviews that will help you directly address your uncertainties above, and that will help you achieve your desired outcomes. You can aim for 5–8 open-ended questions and see the examples in Week 4’s readings.
 
-#### Question: Open
-id:: e56e521b-f289-4a82-b7ed-567ec8825338
-content:: Interview Questions | Why this matters / I.e. What uncertainties or desired outcomes will this help you address? | Relevant Stakeholders
-placeholder:: Interview Questions: … | Why this matters: … | Relevant Stakeholders: …
+#### Widget
+source:: [[../widgets/et-w4-interview-questions]]
 
 #### Text
 content::
