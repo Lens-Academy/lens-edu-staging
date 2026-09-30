@@ -6,6 +6,8 @@ summary_for_tutor: "Covers Janus' original simulator theory essay. Argues that s
 title: Simulators
 tldr: When people discuss AI risk, they often picture AI as an agent pursuing goals. But LLMs don't fit neatly into that box. This essay proposes that language models are better understood as simulators — systems that can produce agent-like behavior without being agents themselves. The distinction matters for how we think about risk.
 ---
+%% #### Text
+content:: %%
 %% COMMENTED OUT (AI slop):
 *This article is the source that Scott Alexander refers to in the prior piece. It is long and some students find it challenging, but we believe it provides an excellent grounding in simulator theory if you wish to deepen your understanding.*
 

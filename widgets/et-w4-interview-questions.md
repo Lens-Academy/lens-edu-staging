@@ -96,7 +96,7 @@ button:disabled { opacity: 0.5; cursor: default; }
       COLS.forEach(function (c) {
         var td = document.createElement("td");
         var ta = document.createElement("textarea");
-        ta.value = row[c.k] || ""; ta.placeholder = "Write here";
+        ta.value = row[c.k] || "";
         ta.setAttribute("aria-label", c.label + ", row " + (idx + 1));
         ta.addEventListener("input", function () { row[c.k] = ta.value; save(); });
         td.appendChild(ta); tr.appendChild(td);
