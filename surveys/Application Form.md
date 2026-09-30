@@ -182,7 +182,8 @@ required:: true
 
 #### Question
 key:: ai_safety_programs_other
-content:: Other programs, or details you want to add (for example which BlueDot course, and whether you completed it).
+content:: In 1–2 sentences, describe your current AI safety work, and add any details about the programs above.
+description:: For example: "Volunteering 5h/week for PauseAI; did BlueDot's AGI Strategy course (completed)" or "Applying to SPAR and MATS this month; did ARENA 7.0".
 
 #### Choice
 key:: ais_work_status
