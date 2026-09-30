@@ -20,6 +20,7 @@ id:: be1e845f-9faf-4508-b07e-83fb829c5a71
 #### Question
 id:: 7c28b3b0-ee1f-426c-8caf-a15ce6c25bc0
 content:: List the concepts from this module that seemed most important to you. You can type your answer or record it using the microphone.
+assessment-instructions:: Score out of 100. The question asks the learner to list the concepts from the module that seemed most important to them, so any honest selection is acceptable. The module covered: research agendas and theories of change; using AI to automate alignment research and its difficulties; mechanistic interpretability and its limits; AI evaluations and what they can and cannot show; AI control; agent foundations; and calls to pause or stop frontier AI development. 100: names at least two concepts from this module. 60: names one. 0: names nothing from the module.
 enforce-voice:: true
 
 #### Question
