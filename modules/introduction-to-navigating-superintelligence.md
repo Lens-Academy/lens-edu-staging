@@ -22,7 +22,7 @@ In May 2023, leading AI scientists and the heads of major AI companies put their
 #### Article
 source:: [[../articles/safety-statement-on-ai-extinction-risk-cais]]
 from:: "**Mitigating the risk of extinction from AI"
-to:: "such as pandemics and nuclear war.**"
+to:: "#### Signatories:"
 
 # Lens:
 source:: [[../Lenses/The AI Book That's Freaking Out National Security Advisors]]
