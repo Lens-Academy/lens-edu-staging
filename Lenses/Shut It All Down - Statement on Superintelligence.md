@@ -6,19 +6,19 @@ tutor_minutes: 5
 # tldr: "A one-sentence call to prohibit building superintelligence until there is broad scientific consensus it can be done safely and strong public buy-in. Read it, look at who has signed, and decide whether you would."
 summary_for_tutor: "Presents the Statement on Superintelligence (Future of Life Institute): 'We call for a prohibition on the development of superintelligence, not lifted before there is (1) broad scientific consensus that it will be done safely and controllably, and (2) strong public buy-in.' The learner reads FLI's context paragraph (many leading AI companies state a goal of building superintelligence within the decade; concerns range from economic obsolescence and loss of control to national security risks and human extinction) and the statement itself, and is told it has over 76,000 signatures, with five Nobel laureates among the initial signatories. In the previous lens the learner watched Yudkowsky's TED talk proposing an international ban on large training runs enforced by GPU tracking, data center monitoring, and willingness to risk armed conflict with non-signatories. The lens ends with a chat: would you sign, and what does each proposal leave out?"
 ---
-#### Text
-content::
-%% COMMENTED OUT (AI-generated framing): In October 2025, the Future of Life Institute published a one-sentence statement calling for a ban on building superintelligence. %%
-As of September 2026, the statement has over 76,000 signatures, including five Nobel laureates among its [initial signatories](https://futureoflife.org/press-release/prominent-scientists-faith-leaders-policymakers-and-artists-call-for-a-prohibition-on-superintelligence/). See the [statement's website](https://superintelligence-statement.org/) for the full list of signatories.
-
 #### Article
 source:: [[../articles/future-of-life-institute-statement-on-superintelligence]]
 from:: "**Context**"
 to:: "who oppose a rush to superintelligence."
 
 #### Article
-from:: "We call for a prohibition"
-to:: "strong public buy-in."
+from:: "**We call for a prohibition"
+to:: "strong public buy-in.**"
+
+#### Text
+content::
+%% COMMENTED OUT (AI-generated framing): In October 2025, the Future of Life Institute published a one-sentence statement calling for a ban on building superintelligence. %%
+As of September 2026, the statement has over 76,000 signatures, including five Nobel laureates among its [initial signatories](https://futureoflife.org/press-release/prominent-scientists-faith-leaders-policymakers-and-artists-call-for-a-prohibition-on-superintelligence/).
 
 #### Text
 content::

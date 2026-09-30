@@ -35,7 +35,7 @@ _For corrections, technical support, or press enquiries, please contact [letters
 
 Statement
 
-We call for a prohibition on the development of superintelligence, not lifted before there is
+**We call for a prohibition on the development of superintelligence, not lifted before there is**
 
-1.  broad scientific consensus that it will be done safely and controllably, and
-2.  strong public buy-in.
+1.  **broad scientific consensus that it will be done safely and controllably, and**
+2.  **strong public buy-in.**
