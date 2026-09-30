@@ -65,77 +65,16 @@ content::
 
 \#### Table Summary of Categories of Bottlenecks
 
-\#### 1) Lack of Understanding of the problem
+*Category 3 (Lack of Implementation of Effective Solutions) asks: **do we know what works but struggle to deploy solutions at scale?** This is important because even highly effective interventions fail to produce impact if they are not actually adopted. It can usually be broken down into several subtypes (3a to 3d), each requiring a different approach.*
 
-**Explanation & Why this matters:** **Do we lack a fundamental understanding of the problem itself?** This is important because if we lack understanding of the problem and its root causes, interventions may be ineffective or misdirected.
-
-**Indicators:** Limited high-quality research on prevalence, causes, or mechanisms of the problem; Disagreement among experts about basic facts
-
-**Ways to contribute:**
-
-Invest in more foundational research to understand the problem and its causes.
-
-Synthesize existing evidence to reduce uncertainty
-
-**Examples of Problems:** **Global catastrophic biological risks** – Limited understanding of how synthetic pathogens could spread and interact with society
-
-\#### 2) Lack of Effective Solutions
-
-**Explanation & Why this matters:** **Do we understand the problem but lack effective interventions?** This is important because even if we understand the problem, we need to experiment with creating interventions that reliably work.
-
-**Indicators:** Clear understanding of the problem, but no proven solutions; Existing interventions have limited effectiveness
-
-**Ways to contribute:** Develop and test novel interventions, fund pilot projects, and adapt solutions from related fields.
-
-**Examples of Problems:** **Antimicrobial resistance (AMR)** – We understand the threat, but need more interventions that work
-
-\### 3) Lack of Implementation of Effective Solutions
-
-**Do we know what works but struggle to deploy solutions at scale?** This is important because even highly effective interventions fail to produce impact if they are not actually adopted. If so, the bottleneck can usually be broken down into several subtypes, each requiring a different approach - lack of direct delivery, lack of awareness, policy/resource barriers, or lack of coordination.
-
-\#### 3a) Lack of Direct Delivery
-
-**Explanation & Why this matters:** **Do we know what works but lack delivery of these interventions?** This is important because even highly effective interventions fail to produce impact if they are not actually adopted.
-
-**Indicators:** Proven interventions exist, but aren’t widely adopted or have more room for adoption; There is an opportunity for funding or resources to expand
-
-**Ways to contribute:** Directly implement existing solutions at scale; Improve delivery and distribution systems
-
-**Examples of Problems:**
-
-**Vaccination Programs**
-
-Vaccines are proven to prevent disease, but low coverage in some regions may be due to poor distribution networks, supply chain limitations, or inadequate outreach.
-
-\#### 3b) Lack of Awareness
-
-**Explanation & Why this matters:** **Do decision-makers, funders, or the public fail to see this problem as urgent or important?** This is important because even effective solutions struggle to gain traction if the problem isn’t recognized or prioritized.
-
-**Indicators:** Low public, media, or policy attention; persistent stigma or misinformation; underfunding relative to problem scale
-
-**Ways to contribute:** Assess awareness and narratives; design advocacy, communication, or education strategies; evaluate the impact of awareness campaigns
-
-**Examples of Problems:** **Neglected tropical diseases (NTDs)** – Affect millions in low-income regions, but global attention and funding remain very limited compared to their impact.
-
-\#### 3c) Lack of Policy/Resource Support
-
-**Explanation & Why this matters:** **Are solutions constrained by insufficient funding or policies?** This is important because even effective solutions cannot scale without the resources and enabling structures to support them.
-
-**Indicators:** Proven interventions exist but lack sustainable funding, regulatory or policy barriers, and misaligned incentives among stakeholders
-
-**Ways to contribute:** Work with policy advocacy groups or think tanks; build partnerships between funders, implementers, and policymakers
-
-**Examples of Problems:** **Clean energy adoption –** Proven renewable technologies exist, but scaling requires supportive subsidies, regulations, and investment alignment
-
-\#### 3d) Lack of Coordination
-
-**Explanation & Why this matters:** **Are solutions or actors fragmented, with little alignment across efforts?** This is important because poor coordination wastes resources and duplicates work.
-
-**Indicators:** Multiple actors working in silos; duplication of projects; gaps or overlaps in services experienced by beneficiaries
-
-**Ways to contribute:** Organize or facilitate collaboration spaces (workshops, conferences, coalition-building); Propose frameworks or governance models to align efforts
-
-**Examples of Problems:** **Climate adaptation programs –** NGOs, governments, and donors work separately, leading to overlapping projects and inefficient resource use
+| Category of bottleneck | Explanation & why this matters | Indicators | Ways to contribute | Examples of problems |
+|---|---|---|---|---|
+| **1) Lack of Understanding of the problem** | **Do we lack a fundamental understanding of the problem itself?** If we lack understanding of the problem and its root causes, interventions may be ineffective or misdirected. | Limited high-quality research on prevalence, causes, or mechanisms of the problem; Disagreement among experts about basic facts | Invest in more foundational research to understand the problem and its causes; Synthesize existing evidence to reduce uncertainty | **Global catastrophic biological risks** – Limited understanding of how synthetic pathogens could spread and interact with society |
+| **2) Lack of Effective Solutions** | **Do we understand the problem but lack effective interventions?** Even if we understand the problem, we need to experiment with creating interventions that reliably work. | Clear understanding of the problem, but no proven solutions; Existing interventions have limited effectiveness | Develop and test novel interventions, fund pilot projects, and adapt solutions from related fields | **Antimicrobial resistance (AMR)** – We understand the threat, but need more interventions that work |
+| **3a) Lack of Direct Delivery** | **Do we know what works but lack delivery of these interventions?** Even highly effective interventions fail to produce impact if they are not actually adopted. | Proven interventions exist, but aren’t widely adopted or have more room for adoption; There is an opportunity for funding or resources to expand | Directly implement existing solutions at scale; Improve delivery and distribution systems | **Vaccination Programs** – Vaccines are proven to prevent disease, but low coverage in some regions may be due to poor distribution networks, supply chain limitations, or inadequate outreach |
+| **3b) Lack of Awareness** | **Do decision-makers, funders, or the public fail to see this problem as urgent or important?** Even effective solutions struggle to gain traction if the problem isn’t recognized or prioritized. | Low public, media, or policy attention; persistent stigma or misinformation; underfunding relative to problem scale | Assess awareness and narratives; design advocacy, communication, or education strategies; evaluate the impact of awareness campaigns | **Neglected tropical diseases (NTDs)** – Affect millions in low-income regions, but global attention and funding remain very limited compared to their impact |
+| **3c) Lack of Policy/Resource Support** | **Are solutions constrained by insufficient funding or policies?** Even effective solutions cannot scale without the resources and enabling structures to support them. | Proven interventions exist but lack sustainable funding, regulatory or policy barriers, and misaligned incentives among stakeholders | Work with policy advocacy groups or think tanks; build partnerships between funders, implementers, and policymakers | **Clean energy adoption** – Proven renewable technologies exist, but scaling requires supportive subsidies, regulations, and investment alignment |
+| **3d) Lack of Coordination** | **Are solutions or actors fragmented, with little alignment across efforts?** Poor coordination wastes resources and duplicates work. | Multiple actors working in silos; duplication of projects; gaps or overlaps in services experienced by beneficiaries | Organize or facilitate collaboration spaces (workshops, conferences, coalition-building); Propose frameworks or governance models to align efforts | **Climate adaptation programs** – NGOs, governments, and donors work separately, leading to overlapping projects and inefficient resource use |
 
 \#### Recommended Flowchart for Identifying Bottlenecks
 
