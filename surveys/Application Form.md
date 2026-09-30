@@ -196,7 +196,7 @@ required:: true
 
 #### Question
 key:: ai_safety_programs_other
-content:: In 1–2 sentences, describe your current AI safety work, and add any details about the programs above.
+content:: In 1–4 sentences, describe your current AI safety work, and add any details about the programs above.
 description:: For example: "Volunteering 5h/week for PauseAI; did BlueDot's AGI Strategy course (completed)" or "Applying to SPAR and MATS this month; did ARENA 7.0".
 
 #### Rating
