@@ -11,7 +11,7 @@ content::
 
 Welcome! This week kicks off your 8-week journey toward a thesis, and a career, that is impactful for the world and for you!
 
-\## Focus
+:::callout {title="🎯 Focus" tone="blue"}
 
 **This week's focus** is on clarifying your values, motivations, and long-term goals, and starting to explore your Ikigai, the intersection of what you love, what you're good at, what the world needs, and what you can be paid for.
 
@@ -19,8 +19,12 @@ We'll also walk through the three dimensions of a high-impact thesis (impact on 
 
 For this week, there will be a **Reading**, a **Worksheet**, and an *optional* **Journalling Tab**.
 
-\## Instructions
+:::
+
+:::callout {title="📋 Instructions" tone="green"}
 
 - Please complete the readings and worksheet before your weekly discussion with your facilitator.
 - Attend your Weekly Discussion with your cohort.
 - Explore the Journalling Tab for journaling prompts for the week.
+
+:::
