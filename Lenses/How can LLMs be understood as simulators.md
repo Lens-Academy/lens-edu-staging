@@ -8,7 +8,7 @@ title: How can LLMs be understood as simulators?
 ---
 #### Text
 content::
-A very brief introduction to simulator theory. 
+%% A very brief introduction to simulator theory. %%
 
 #### Article
 source:: [[../articles/stampyai-how-can-llms-be-understood-as-simulators]]
