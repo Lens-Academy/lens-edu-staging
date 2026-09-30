@@ -192,11 +192,9 @@ assessment-instructions:: The student has just read the comparison between the n
 
 The move here is calibration: a large public revision by competent people is evidence about the reliability of ALL such estimates, including the student's own.
 
-The second question is about the norm rather than the number. A public, numbered, explained revision is a costly signal, and the counterfactual where the old figure is quietly dropped is the common case elsewhere. Do not moralise about this; ask and let them answer.
-
 Maximum 2 tutor turns.
 
-The pass bar: they widen their own uncertainty in response, and they say something specific about what public revision buys that quiet revision does not.
+The pass bar: they widen their own uncertainty in response.
 
 Response length: 80 to 150 words. Short paragraphs only.
 
@@ -206,7 +204,6 @@ Response style:
 
 What to do in each reply:
 1. If they conclude only "forecasts are unreliable", ask what they would still use a forecast FOR, given that.
-2. If they treat the revision as a failure by the team, point out it was volunteered and ask what the alternative would have looked like from outside.
 
 #### Question
 id:: d6316651-341f-4d32-90c4-3f29a411e455

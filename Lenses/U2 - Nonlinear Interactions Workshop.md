@@ -36,7 +36,7 @@ content::
 A translation company has been automating its work. Two years ago machines handled 20% of its jobs unsupervised; today they handle 40%. The operations director doubles the rate forward and reports full automation in three more years.
 
 What is wrong with this forecast? State what property of the remaining 60% makes the extrapolation invalid, what shape you expect instead, and what evidence would distinguish a merely harder remainder from one that may never be fully automated.
-assessment-instructions:: The student has read Xu and Shulman on the fractional-progress failure and is now applying that reasoning to a fresh case. Make the student produce the reasoning; do not lecture before they attempt it.
+feedback-instructions:: The student has read Xu and Shulman on the fractional-progress failure and is now applying that reasoning to a fresh case. Make the student produce the reasoning; do not lecture before they attempt it.
 
 Target: the jobs were not sampled at random. Automation took easier jobs first, so the residual is systematically harder and marginal cost per percentage point rises. The curve should flatten, possibly toward an asymptote below 100%. The three-year estimate is too early. Evidence should inspect the internal structure of the remaining jobs rather than extend the aggregate trend.
 
@@ -50,7 +50,7 @@ content::
 A hospital's automated dispensing system fills prescriptions that doctors have already written. Until now a pharmacist has had to check every order it fills, so the hospital let it take only a small share, limited by pharmacist time: 5%, then 8%, then 12% of prescriptions over the last three years. Next year a regulator decides whether to certify it to run with no pharmacist check. If certified, the hospital will send every prescription through it except a short list of high-risk drugs that stay with pharmacists.
 
 Forecast the share in two years. Explain why this case differs from Scenario 1, and state what forecasting object should replace a smooth curve.
-assessment-instructions:: This is the second independent application in a nonlinear forecasting workshop. Make the student reason from the scenario. Do not turn it into a general discussion of AI timelines.
+feedback-instructions:: This is the second independent application in a nonlinear forecasting workshop. Make the student reason from the scenario. Do not turn it into a general discussion of AI timelines.
 
 Target: certification is a discrete gate. The observed creep measures incremental trust under supervision, while certification could cause a jump. A curve fitted to pre-threshold data cannot represent the gate and will likely be too slow. The right object is a probability that the gate opens combined with a separate estimate of the post-gate level. If the student concludes that extrapolation is always wrong, ask what conditions would make a smooth curve appropriate.
 
@@ -66,7 +66,7 @@ content::
 A datacentre operator projects capacity from three inputs: chips available, growing 40% a year; electrical supply contracted, growing 15% a year; and trained operations staff, growing 25% a year. The finance team multiplies the three growth rates together.
 
 What is the correct combination rule? Show what it implies for near-term capacity growth, then explain what happens when the binding constraint changes or when inputs can substitute for one another.
-assessment-instructions:: This is the third independent application in a nonlinear forecasting workshop. Require the student to write the arithmetic or combination rule, not merely describe it.
+feedback-instructions:: This is the third independent application in a nonlinear forecasting workshop. Require the student to write the arithmetic or combination rule, not merely describe it.
 
 Target: capacity is bounded by the binding constraint, so the rule is a minimum, not a product. Near-term growth is roughly 15% a year, set by power, until another input binds. A handover makes the aggregate curve piecewise and changes its slope. Substitution softens the minimum; degree of substitutability determines which model applies. Multiplying the rates is the wrong operation and yields a number the inputs cannot deliver.
 

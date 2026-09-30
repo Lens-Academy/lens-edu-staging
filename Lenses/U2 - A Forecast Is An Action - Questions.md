@@ -16,7 +16,7 @@ content::
 
 Spend 2 minutes writing down everything you can remember from Ngo's critique and, if you read it, *Predict-O-Matic*. Do not look back, and do not worry about keeping the readings separate.
 
-assessment-instructions:: The student has read Ngo's critique of AI 2040 and may also have read the optional Parable of Predict-O-Matic. They have written a free recall of the required reading and any optional reading they completed.
+feedback-instructions:: The student has read Ngo's critique of AI 2040 and may also have read the optional Parable of Predict-O-Matic. They have written a free recall of the required reading and any optional reading they completed.
 
 Key content, Ngo:
 - The target forecast presents an optimistic trajectory for AI development.
@@ -56,7 +56,7 @@ content::
 
 Take 2 minutes on your reaction to the reading or readings you completed, and to how they fit with everything earlier in this unit. What felt important to you? What confused you? What did you want to argue with?
 
-assessment-instructions:: The student has recalled the required Ngo reading and any optional reading they completed, and is now reflecting. This is the last processing phase of the unit, so the reflection is partly about the unit.
+feedback-instructions:: The student has recalled the required Ngo reading and any optional reading they completed, and is now reflecting. This is the last processing phase of the unit, so the reflection is partly about the unit.
 
 This is a processing phase, not a teaching phase.
 
@@ -97,7 +97,7 @@ You have spent this unit learning to forecast better. You decompose a question, 
 
 There is something right in this, and the conclusion still does not follow. Work out both halves. First, what is the genuine structural problem this person has named? Second, what is a forecaster supposed to do about it? Your answer must not be to pretend to stand outside the system, and it must not be to give up.
 
-assessment-instructions:: The student has read Ngo and may also have read Demski, then recalled and reflected on what they completed. This is the final discussion of the unit. Do not assume they completed either optional reading.
+feedback-instructions:: The student has read Ngo and may also have read Demski, then recalled and reflected on what they completed. This is the final discussion of the unit. Do not assume they completed either optional reading.
 
 The question is a deliberate wedge, not a test question. It offers a nihilistic conclusion that follows plausibly from the readings and does not actually follow.
 
