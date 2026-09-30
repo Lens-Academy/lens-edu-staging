@@ -12,7 +12,7 @@ source:: [[../Learning Outcomes/Comparing alignment research agendas]]
 ## Lens: Welcome
 id:: dc56fe14-2c41-4057-b112-a84c0b2ef303
 %% tldr:: AI safety has no agreed definition of the problem it's solving, so the field splinters into competing "agendas." This module maps six of them — and for each, pairs an article making the case with one pushing back, so you can judge the disagreements yourself. %%
-summary_for_tutor:: Welcome lens introducing the Existing Approaches module. Opens with a quote from "A newcomer's guide to the technical AI safety field" explaining that AI safety is pre-paradigmatic, with no consensus on the nature of the alignment problem, so the field is organised around research agendas. States the module covers six agendas (automating alignment, mechanistic interpretability, evals, control, agent foundations, shut it all down), which overlap and don't divide the space cleanly, presenting a supporting and a critiquing article for each.
+summary_for_tutor:: Welcome lens introducing the Existing Approaches module. Opens with a quote from "A newcomer's guide to the technical AI safety field" explaining that AI safety is pre-paradigmatic, with no consensus on the nature of the alignment problem, so the field is organised around research agendas. States the module covers six agendas (automating alignment, mechanistic interpretability, evals, control, agent foundations, shut it all down), which overlap and don't divide the space cleanly, presenting a supporting and a critiquing article for each. Closes with a 20-second clip from Eliezer Yudkowsky's TED talk: there is no scientific consensus for how things will go well, no hope that has stood up to skeptical examination, and nothing resembling a real engineering plan for surviving that he could critique.
 reading_minutes:: 5
 
 ### Text
@@ -38,6 +38,11 @@ In this module, we will focus on 5 directions. The list is deliberately incomple
 This module covers six of those agendas. Sometimes it is obvious that they are talking about the same piece of reality. Sometimes it is surprisingly hard to even see the common object. Still, this decomposition is useful for a first pass, and it will give us one workable map[^1] for navigating the literature that follows. For each agenda, we’ll look at excerpts from two articles: one that supports the idea and one that critiques it.
 
 [^1]: Readers who have a better map, particularly for teaching purposes, are strongly encouraged to author an alternative version of this module. 
+
+### Video
+source:: [[../video_transcripts/ted-will-superintelligent-ai-end-the-world-eliezer-yudkowsky]]
+from:: 1:24
+to:: 1:44
 
 # Submodule: Automating Alignment
 ## Lens: (Automating alignment)
