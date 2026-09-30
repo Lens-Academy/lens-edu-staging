@@ -29,7 +29,7 @@ required:: true
 #### Question: Open
 id:: 476ba00c-21b3-455d-be70-a978bd1640bc
 content:: The problem set asked you to find the odd observable among total power used by an account's instances, maximum GPU cluster size used by one instance, total FLOPs across an account's instances, and a verified beneficial-ownership record. In one sentence, state what the odd item records and what the other three measure.
-assessment-instructions:: XLab's model answer: "The beneficial-ownership record concerns who controls the account. The other three are technical metrics of account activity." Full credit when the learner says the beneficial-ownership record is evidence about who controls the account (identity or ownership) and that power, cluster size and FLOPs are technical metrics of account activity. Half credit for naming only one side of the distinction. Zero if the learner names a technical metric as the odd item or gives no principle.
+assessment-instructions:: Score out of 100. 50: the odd item, the beneficial-ownership record, records who owns or controls the account (an identity fact). 50: the other three, total power, maximum cluster size and total FLOPs, measure the account's technical activity, how much compute it uses. Give credit for each point whenever the answer shows the idea, in any wording. Score 0 if the answer names one of the technical metrics as the odd item. Model answer, for the feedback, not a grading checklist: "The beneficial-ownership record concerns who controls the account. The other three are technical metrics of account activity."
 feedback-instructions:: One or two sentences. Confirm or correct the distinction between an identity record and activity metrics. No generic praise.
 
 #### Text
