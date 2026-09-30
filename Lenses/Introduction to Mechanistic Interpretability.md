@@ -7,9 +7,11 @@ title: Introduction to Mechanistic Interpretability
 # tldr: Judging a model only by its behavior has a problem — behavior can be faked. Mechanistic interpretability aims to verify the internal reasons for a model's output by reverse-engineering its circuits. If it works, we could detect dangerous goals before the model ever acts on them.
 discussion: https://discord.com/channels/1440725236843806762/1483418591482347723
 ---
-{--{"author":"Elua's AI","timestamp":1790790496374}@@#### Text
+{--{"author":"Elua's AI","timestamp":1790791089589}@@#### Text
 content::
---}{++{"author":"Plex's AI","timestamp":1790617855900}@@%% COMMENTED OUT (AI slop):
+--}{++{"author":"Elua's AI","timestamp":1790791089589}@@%% #### Text
+content:: %%
+%% COMMENTED OUT (AI slop):
 ++}This perspective argues that safety requires a white-box approach. We cannot trust a model based only on its behavior. Behavior can be faked. Mechanistic interpretability aims to provide a way to verify the internal reasons for a model's output. If we could understand the circuits of a model, we would be able to detect dangerous goals before the model acts on them.{++{"author":"Plex's AI","timestamp":1790617855900}@@
 %%++}
 

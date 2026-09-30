@@ -5,9 +5,10 @@ summary_for_tutor: "Buck Shlegeris argues that people in AI alignment often conf
 title: {--{"author":"Elua's AI","timestamp":1790791085220}@@Worst-Case Thinking--}{++{"author":"Elua's AI","timestamp":1790791085220}@@Worst-case thinking in AI alignment++}
 # tldr: In AI safety discussions, people often assume the worst. But different people do this for different reasons — some as a precaution, some because they think worst cases are likely, some because the stakes are too high to gamble on. This essay unpacks what's actually going on when someone reasons from the worst case.
 ---
-#### Text
-content::
+{--{"author":"Elua's AI","timestamp":1790791086916}@@#### Text
+content::--}{++{"author":"Elua's AI","timestamp":1790791086916}@@%% COMMENTED OUT (AI slop):++}
 In discussions of AI safety, people often propose the assumption that something will go as badly as possible. Different people may do this for different reasons; in this essay, the author reviews some of the most common reasons and writes about how this difference might manifest itself and what it means.
+%%
 
 #### Article
 source:: [[../articles/buck-worst-case-thinking-in-ai-alignment]]

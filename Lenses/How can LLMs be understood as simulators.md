@@ -8,7 +8,9 @@ title: How can LLMs be understood as simulators?
 ---
 {--{"author":"Elua's AI","timestamp":1790790494613}@@#### Text
 content::
---}%% A very brief introduction to simulator theory. %%
+--}%% #### Text
+content:: %%
+%% A very brief introduction to simulator theory. %%
 
 #### Article
 source:: [[../articles/stampyai-how-can-llms-be-understood-as-simulators]]
