@@ -4,7 +4,7 @@ reading_minutes: 10
 tutor_minutes: 3
 summary_for_tutor: Covers the epistemological status of agent foundations research as neither pure math nor standard science but something in between, studying a substrate-independent phenomenon (agency) using primarily mathematical methods. Argues that experiments are not useful because the relevant phenomenon (powerful agents) does not yet exist and the answers are already contained in what we know about computation. Draws an analogy to computability theory, which advanced before physical computers were built.
 title: "Agent Foundations: not really math, not really science"
-tldr: What if the deepest AI safety problems can't be solved by experimenting on current systems? This perspective argues we need something closer to a basic science of goals and agency — a theoretical foundation that explains how intelligent systems behave, regardless of how they're built.
+# tldr: What if the deepest AI safety problems can't be solved by experimenting on current systems? This perspective argues we need something closer to a basic science of goals and agency — a theoretical foundation that explains how intelligent systems behave, regardless of how they're built.
 ---
 #### Text
 content::
