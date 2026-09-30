@@ -99,7 +99,7 @@ feedback-instructions:: Go through the three requirement types in order, do, ref
 id:: 7d9b33a6-250c-41b3-aeb3-daae48c85383
 content:: **3. Locate the verification method**
 
-For the prohibition selected in Question 2, determine where the method for verifying compliance is established. Is it:
+Name the prohibition you selected in Question 2 and determine where the method for verifying compliance is established. Is it:
 
 - specified in the relevant article;
 - set out in an annex;
