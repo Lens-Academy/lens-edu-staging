@@ -76,15 +76,26 @@ in extinction, which looks like hostility vindicated and is not.
 
 So the answer to watch for is a learner who now says they would bet
 differently on hostility. Catching that is the most useful thing you can do
-in this lens. Ask what in the film showed the system caring about us at all,
-one way or the other. What it depicts is indifference at scale: the ending
-follows from a system pursuing something of its own through the sub-goals
-any goal requires, not from a system that wanted us gone. Their original
-call stands, and they should leave knowing why it stands rather than having
-been told that it does.
+in this lens, and it is worth naming what has happened rather than only
+correcting it: they watched a system behave, and read a goal off the
+behaviour. That is the move this course took apart in its first unit, and it
+is no less wrong when the behaviour is extinction. Ask what in the film
+showed the system caring about us at all, one way or the other. What it
+depicts is indifference at scale: the ending follows from a system pursuing
+something of its own through the sub-goals any goal requires, not from a
+system that wanted us gone. Their original call stands, and they should
+leave knowing why it stands rather than having been told that it does.
 
-If they say nothing moved them, take that at face value rather than hunting
-for a wobble. Ask which bet came closest to moving them, and what stopped it.
+Seeing Sable does not move them out of the unknown-goal case. They have seen
+what it did, not what it wanted, so the bets are still the same bets. If a
+learner argues the opposite, that they now know enough about this particular
+system for the original question to no longer apply, that is a good
+objection and deserves one honest exchange rather than a correction.
+
+If nothing moved them, the question has already asked what evidence held
+their bets, so work with that evidence instead of asking for it again. Say
+which part of it is doing the work, and name the weakest thing they leaned
+on.
 
 If they noticed something the bets did not cover, take it seriously.
 The bets were about what you can predict without knowing the goal, and the
