@@ -39,8 +39,7 @@ button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .desc>button{border:0;width:100%;color:var(--muted);font-size:13px;padding:10px 12px;background:transparent}
 .desc>button:hover{color:var(--text)}
 .desc p{padding:0 12px 12px;font-size:13px}
-.work{display:flex;gap:16px;align-items:flex-start}
-.chart{flex:1;min-width:0;overflow-x:auto;padding:4px 2px 8px}
+.chart{overflow-x:auto;padding:4px 2px 8px}
 .tree{display:flex;flex-direction:column;align-items:center}
 .chart>.tree{width:max-content;min-width:100%}
 .start{font-size:13px;color:var(--muted);background:var(--page);border:1px solid var(--border);border-radius:999px;padding:3px 12px}
@@ -65,12 +64,13 @@ button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .arm:last-child::before{right:50%}
 .arm::after{content:"";position:absolute;top:0;left:50%;height:14px;border-left:1px solid var(--line)}
 .arm-label{position:relative;z-index:1;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--page);border:1px solid var(--border);border-radius:999px;padding:1px 8px;white-space:nowrap}
-.palette{flex:0 0 230px}
-.palette h3{font:600 11px/1.4 var(--font-ui);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
-.palette .box{border:1px solid var(--border);border-radius:8px;padding:10px;display:flex;flex-direction:column;gap:6px}
-.palette h4{font:600 11px/1.4 var(--font-ui);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:4px 0 0}
-.palette h4:first-child{margin-top:0}
-.pb{font-size:13px;line-height:1.35;width:100%}
+.palette{border:1px solid var(--border);border-radius:8px;padding:8px 10px 10px;margin:0 0 12px}
+.ptop{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:0 0 8px}
+.ptop .eyebrow{margin:0 4px 0 0}
+.gtab{font-size:12px;padding:3px 10px;border-radius:999px}
+.gtab.is-active{border-color:var(--text);box-shadow:0 0 0 1px var(--text)}
+.pbs{display:flex;flex-wrap:wrap;gap:6px}
+.pb{font-size:13px;line-height:1.35;max-width:250px;padding:6px 10px}
 .pb.branch{background:var(--page);border-radius:14px}
 .pb.branch:hover{background:#f1ede4}
 .pb.terminal{border-color:var(--line);font-weight:500}
@@ -89,21 +89,12 @@ body.dragging{cursor:grabbing;user-select:none}
 .verdict.ok{border-left:3px solid var(--accent)}
 .verdict strong{font-weight:600}
 .verdict .explain{margin-top:6px}
-@media (max-width:760px){
-  .palette{flex-basis:196px}
-  .work{gap:12px}
+.arm .node,.arm .slot{max-width:170px}
+@media (max-width:560px){
   .node{min-width:0;font-size:12px;padding:8px 18px}
   .arm{padding:14px 2px 0}
   .arm .node,.arm .slot{min-width:0;max-width:108px;font-size:12px}
   .arm-label{font-size:10px;padding:1px 6px}
-}
-@media (max-width:620px){
-  .work{flex-direction:column;align-items:stretch}
-  .palette{flex:none;order:-1}
-  .palette .box{flex-direction:row;flex-wrap:wrap}
-  .palette h4{width:100%}
-  .pb{width:auto;flex:1 1 140px}
-  .arm .node,.arm .slot{max-width:104px}
 }
 @media (max-width:420px){
   body{padding:12px 6px}
@@ -162,7 +153,7 @@ var STAGES = [
 ];
 
 // A chart is a tree: null (an empty slot), {b:step, next:chart}, {b:branch, arms:[chart,...]} or {b:ending}.
-var charts = {}, checked = {}, solved = {}, current = 0, armed = null, showDesc = false, note = "";
+var charts = {}, checked = {}, solved = {}, current = 0, armed = null, showDesc = false, note = "", group = "step";
 STAGES.forEach(function(s){ charts[s.id] = null; checked[s.id] = false; solved[s.id] = false; });
 
 function block(id){ for(var i=0;i<BLOCKS.length;i++){ if(BLOCKS[i].id===id) return BLOCKS[i]; } return null; }
@@ -295,24 +286,30 @@ document.addEventListener("pointerup", function(e){
   if(target && target.setFn) place(d.id, target.setFn);
 });
 
+// One group of blocks at a time, in a strip above the chart, so the palette stays short.
 function palette(){
   var wrap = el("div", "palette");
-  wrap.appendChild(el("h3", null, "Blocks: drag into the chart"));
-  var box = el("div", "box");
+  var top = el("div", "ptop");
+  top.appendChild(el("span", "eyebrow", "Blocks"));
   GROUPS.forEach(function(g){
-    box.appendChild(el("h4", null, g[1]));
-    BLOCKS.forEach(function(b){
-      if(b.kind!==g[0]) return;
-      var p = el("button", "pb " + b.kind, b.label);
-      if(b.arms) p.appendChild(el("span", "sub", b.arms.join(" / ")));
-      p.setAttribute("aria-pressed", armed===b.id ? "true" : "false");
-      p.onclick = function(){
-        if(dragged){ dragged = false; return; }
-        armed = armed===b.id ? null : b.id; note = ""; render();
-      };
-      p.onpointerdown = function(e){ startDrag(e, b); };
-      box.appendChild(p);
-    });
+    var t = el("button", "gtab" + (group===g[0] ? " is-active" : ""), g[1]);
+    t.setAttribute("aria-pressed", group===g[0] ? "true" : "false");
+    t.onclick = function(){ group = g[0]; render(); };
+    top.appendChild(t);
+  });
+  wrap.appendChild(top);
+  var box = el("div", "pbs");
+  BLOCKS.forEach(function(b){
+    if(b.kind!==group) return;
+    var p = el("button", "pb " + b.kind, b.label);
+    if(b.arms) p.appendChild(el("span", "sub", b.arms.join(" / ")));
+    p.setAttribute("aria-pressed", armed===b.id ? "true" : "false");
+    p.onclick = function(){
+      if(dragged){ dragged = false; return; }
+      armed = armed===b.id ? null : b.id; note = ""; render();
+    };
+    p.onpointerdown = function(e){ startDrag(e, b); };
+    box.appendChild(p);
   });
   wrap.appendChild(box);
   wrap.appendChild(el("p", "hint", "Drag a block onto a dashed slot, or tap a block, then tap the slot."));
@@ -347,16 +344,14 @@ function renderPanel(){
   if(showDesc) desc.appendChild(el("p", null, stage.description));
   panel.appendChild(desc);
 
-  var work = el("div", "work");
+  panel.appendChild(palette());
   var chart = el("div", "chart");
   var tree = el("div", "tree");
   tree.appendChild(el("div", "start", "Problem arrives"));
   tree.appendChild(el("div", "vline"));
   tree.appendChild(draw(charts[stage.id], function(v){ charts[stage.id] = v; }, key(stage), show));
   chart.appendChild(tree);
-  work.appendChild(chart);
-  work.appendChild(palette());
-  panel.appendChild(work);
+  panel.appendChild(chart);
 
   var full = complete(charts[stage.id]);
   var act = el("div", "actions");
