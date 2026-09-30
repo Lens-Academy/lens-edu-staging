@@ -27,9 +27,9 @@ to:: we’ll call those attempts “attacks”.
 
 #### Question: Open
 id:: d2f3e8e5-f9e7-49f5-9569-c030a2d9f29e
-content:: What is a concentrated failure (a.k.a. high-stakes failure)?
+content:: What is a concentrated failure (a.k.a. high-stakes failure)? Give an example.
 max-chars:: 600
-assessment-instructions:: Score out of 100. 55: bad behaviour on only a small number of tasks (even a single one) is enough. 45: that bad behaviour could cause an unacceptable, catastrophic outcome if no countermeasures stop it. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer describes a failure that needs sustained bad behaviour across many tasks, the opposite case. Model answer, for the feedback, not a grading checklist: "A failure where, in the absence of countermeasures, the AI could cause an unacceptable outcome just by behaving badly on a small number of tasks. Examples: causing a rogue deployment, sabotaging one particularly crucial ML research task, or leaking sensitive information."
+assessment-instructions:: Score out of 100. 50: bad behaviour on only a small number of tasks (even a single one) is enough. 30: that bad behaviour could cause an unacceptable, catastrophic outcome if no countermeasures stop it. 20: an example, such as causing a rogue deployment, sabotaging one particularly crucial ML research task, leaking sensitive information, or a comparable case where one or a few bad actions suffice. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer describes a failure that needs sustained bad behaviour across many tasks, the opposite case. Model answer, for the feedback, not a grading checklist: "A failure where, in the absence of countermeasures, the AI could cause an unacceptable outcome just by behaving badly on a small number of tasks. Examples: causing a rogue deployment, sabotaging one particularly crucial ML research task, or leaking sensitive information."
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Question: Open
@@ -52,9 +52,9 @@ feedback-instructions:: One turn, at most three sentences: say plainly what the 
 
 #### Question: Open
 id:: 1f88446b-db35-4c57-adf6-e8b9a9c0c4dd
-content:: What is a monitor, and what is a monitor score?
+content:: What is a monitor, and what is a monitor score? Give an example of a monitor.
 max-chars:: 600
-assessment-instructions:: Score out of 100. 50: a monitor takes a proposed action (with some surrounding context) and assesses how dangerous or suspicious it is. 50: the monitor score is the monitor's output, a score describing how dangerous or suspicious the action is. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "A monitor is any technique that takes a proposed action with surrounding context and produces a monitor score that describes how dangerous / suspicious it is."
+assessment-instructions:: Score out of 100. 30: a monitor takes a proposed action (with some surrounding context) and assesses how dangerous or suspicious it is. 20: an example of a monitor, such as a trusted or untrusted model judging the action, a probe on the model's internals, or an interpretability technique; any technique that does this job counts. 50: the monitor score is the monitor's output, a score describing how dangerous or suspicious the action is. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "A monitor is any technique that takes a proposed action with surrounding context and produces a monitor score that describes how dangerous / suspicious it is. Examples from the reading: a trusted or untrusted model evaluating the action, a probe, or an interpretability technique such as sparse autoencoders for detecting deceptive intent."
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Article
@@ -63,9 +63,9 @@ to:: but it’s probably better to make the decisions separately.
 
 #### Question: Open
 id:: bb78eb9b-8027-4c6b-9085-cc47963a1bd3
-content:: What is auditing?
+content:: What is auditing, and who usually does it?
 max-chars:: 600
-assessment-instructions:: Score out of 100. 50: auditing is a closer review of an action. 50: its purpose is to find out whether the action is evidence that the model is intentionally trying to cause problems (that it is scheming). Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer describes auditing as blocking, fixing or replacing the action rather than reviewing it for evidence. Model answer, for the feedback, not a grading checklist: "Reviewing an action to determine whether it's evidence that the model is intentionally trying to cause problems. The simplest version: queue the action for eventual human review, with escalation if the reviewer is suspicious — possibly ending in the conclusion that the model is a misaligned power-seeker."
+assessment-instructions:: Score out of 100. 35: auditing is a closer review of an action. 30: its purpose is to find out whether the action is evidence that the model is intentionally trying to cause problems (that it is scheming). 35: who does it: a trusted reviewer, usually a human, who looks at the action more closely than the monitor can. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer describes auditing as blocking, fixing or replacing the action rather than reviewing it for evidence. Model answer, for the feedback, not a grading checklist: "Reviewing an action to determine whether it's evidence that the model is intentionally trying to cause problems. The simplest version: queue the action for eventual human review, with escalation if the reviewer is suspicious — possibly ending in the conclusion that the model is a misaligned power-seeker."
 feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not mention scores or quote the rubric's marking language. No follow-up question. No generic praise.
 
 #### Article
