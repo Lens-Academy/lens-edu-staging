@@ -21,6 +21,18 @@ options::
 - Exploring AI safety, not applying yet
 - Not pursuing AI safety work right now
 
+content:: What is your current AI safety stage? If several apply, pick *the highest* on the list.
+description:: Pick where you are now, not what you've done before. Count a role or programme you've been accepted to that starts within 3 months.
+options::
+- In or starting a paid full-time AI safety job
+- In or starting a paid full-time AI safety fellowship or funded research, 3 months or longer (e.g. MATS)
+- In or starting paid part-time AI safety work (e.g. BlueDot facilitating), or a paid fellowship shorter than 3 months (e.g. ERA)
+- In or starting a selective unpaid programme (e.g. SPAR or ARENA)
+- Doing unpaid contributions (e.g. volunteering, advocacy or a local group)
+- Applying to AI safety roles or programmes
+- Exploring AI safety, not applying yet
+- Not pursuing AI safety right now
+
 #### Question: Open
 id:: c3be7321-e1db-40ea-b827-e5a447f9fb73
 content:: Looking back, what were the 3–4 things (people, programmes, resources, events) that most helped you get to where you are now in AI safety?
