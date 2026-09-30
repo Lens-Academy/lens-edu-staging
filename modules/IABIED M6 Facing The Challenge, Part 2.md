@@ -64,10 +64,10 @@ source:: ![[../Lenses/IABIED - How Did It Go]]
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/13 - Chapter 12 - I Don't Want to Be Alarmist]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/The one-chance problem]]
+source:: ![[../Learning Outcomes/The one-chance problem]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/The ladder in the dark]]
+source:: ![[../Learning Outcomes/The ladder in the dark]]
 
 %%
 Trimmed to reduce question load in the final unit (course went from 6 meetings to 5):
@@ -191,10 +191,10 @@ source:: ![[../Lenses/IABIED - QA - AI Differs from Precedents]]
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/14 - Chapter 13 - Shut It Down]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/The WWII analogy]]
+source:: ![[../Learning Outcomes/The WWII analogy]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Narrow coalition strategy]]
+source:: ![[../Learning Outcomes/Narrow coalition strategy]]
 
 %%
 # Lens:
