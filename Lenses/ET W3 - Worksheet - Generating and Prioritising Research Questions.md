@@ -123,32 +123,18 @@ content::
 
 \# Step 4: Choose Your Top 1-2 with a Weighted Factor Model \[30 min\]
 
-*(For more info and guidance, look at the readings on Step 4)*
+📖 *For more info and guidance, see **Step 4** in this week's reading:*
 
-*For this step: Please duplicate a template of this thesis WFM and create your own version:* [\[Shared\] Example Thesis WFM](https://docs.google.com/spreadsheets/d/1PDErMONW14zZOrXxoxRl5bH7ZsR1ytdFSA1QMTXOC9g/edit?gid=509738139#gid=509738139)
+::card[[../Lenses/ET W3 - Reading 2 - Bottlenecks to Progress on Your Problem Area|2. Step-by-step Guide: How to Generate and Select Your Top Question]]
 
-List your shortlisted questions below, then score each against the factors from the reading. Multiply each score by its weight and sum across factors to get a weighted total.
+Take your shortlist of 5-10 questions from Step 3 and build your Weighted Factor Model (WFM) in the tool below:
 
 - **Choose your factors**, the criteria you'll judge each question against that are important to you when considering an impactful thesis.
-- **Weight each factor** based on what matters most to you, for example, splitting 100 points across your chosen factors. For example, you may want to split it as such:
+- **Weight each factor** based on what matters most to you, by splitting 100 points across your chosen factors. For example, you might give **35%** to Impact on the Problem Area (importance, neglectedness, tractability, certainty of pathway to impact), **36%** to Impact on my career path (skill building, relationship building, testing fit), **15%** to Impact on my community, and **14%** to General Thesis Interest (current fit, motivation, novelty, intuitive draw). The weighting will be highly personal to you! See [this example of criteria and weights](https://docs.google.com/spreadsheets/d/1PDErMONW14zZOrXxoxRl5bH7ZsR1ytdFSA1QMTXOC9g/edit?gid=509738139#gid=509738139) for inspiration.
+- **Score each question** against each factor, on a 1-10 scale.
+- **See your results:** the tool calculates a weighted score for each question (score × weight, summed across factors) so you can see which one(s) rise to the top.
 
-|  |  |  |
-|---|---|---|
-| Impact on the Problem Area | 35% | The problem: Importance |
-|  |  | The problem: Neglectedness |
-|  |  | The problem: Tractability |
-|  |  | Certainty of Pathway to Impact |
-| Impact on my career path | 36% | Skill Building |
-|  |  | Relationship Building |
-|  |  | Testing Fit |
-| Impact on my community | 15% | Community Impact |
-| General Thesis Interest | 14% | Current Fit |
-|  |  | Motivation |
-|  |  | Novelty |
-|  |  | Intuitive Draw |
-
-- **Score each question** against each factor, typically on a 1-10 scale.
-- **Calculate a weighted score** for each question (score × weight, summed across factors) to see which one(s) rise to the top.
+*Using the spreadsheet? You can build your WFM there instead, and paste your link in the box below the tool.*
 
 ⭐ If your top-scoring question isn't your gut favourite, sit with that tension for a moment before deciding, don't just override the model, and don't just override your gut.
 
@@ -158,7 +144,7 @@ required:: true
 
 #### Question: Open
 id:: 2c74eecc-a2cc-4bc9-af23-438be3dae042
-content:: Paste in your link to your spreadsheet here:
+content:: If you used the spreadsheet, paste in the link to your copy here (make sure it's set to view or comment only!)
 placeholder:: https://docs.google.com/spreadsheets/d/…
 optional:: true
 
