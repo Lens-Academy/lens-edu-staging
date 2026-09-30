@@ -1938,3 +1938,180 @@ Professor, Universidad Montrer
 
 **József Bayer**  
 Professor Emeritus, Hungarian Academy of Sciences
+
+**Joshua Achiam**  
+Research Scientist, OpenAI
+
+**Mark E Warren**  
+Professor Emeritus of Political Science, University of British Columbia
+
+**Paula Selvester**  
+Professor Emeritus, California State University, Chico
+
+**Manel Sanromà**  
+Professor of Applied Mathematics, Universitat Rovira i Virgili, Catalonia
+
+**Wolfgang Banzhaf**  
+Professor of Computer Science, Michigan State University
+
+**Alexander Rauscher**  
+Associate Professor, University of British Columbia
+
+**Thomas Laudal**  
+Associate Professor, University of Stavanger Business School
+
+**Ivan Rizzo Guilherme**  
+Associate Professor, UNESP
+
+**Wolfgang Slany**  
+Full Professor of Computer Science, Graz University of Technology
+
+**Juan Pavón**  
+Professor of Computer Science, Universidad Complutense Madrid
+
+**Alan Mackworth**  
+Professor Emeritus, Computer Science, University of British Columbia
+
+**Scott Gray**  
+Member of Technical Staff, OpenAI
+
+**Samuel Perez**  
+Economist, Lester B Pearson College of the Pacific UWC
+
+**Valerie Pisano**  
+CEO, Mila
+
+**John Arshem**  
+Chief Information Officer, Belmark Inc.
+
+**Eric Topol**  
+Professor and EVP, Scripps Research
+
+**Luka Crnkovic-Friis**  
+Head of AI/ML, Activision Blizzard King
+
+**Joshua J Morley**  
+Head of AI, Akkodis
+
+**Alexis Smirnov**  
+Co-founder and CTO, Dialogue
+
+**David Lowe**  
+Professor Emeritus of Computer Science, University of British Columbia
+
+**Jeron Paul**  
+CEO, Spiff
+
+**Tony Bates**  
+Chairman and CEO, Genesys
+
+**Jon Tomas**  
+Consultant and Clinical Lead for Palliative Medicine, University Hospitals Coventry and Warwickshire
+
+**Yasser Ibrahim**  
+SVP. AI Research and Development at Axon
+
+**Anatolii Smirnov**  
+President of National Institut for International Global Security
+
+**Chris G. Willcocks**  
+Assistant Professor of Computer Science, Durham University
+
+**Vincent Corruble**  
+Associate Professor of Computer Science, Sorbonne University
+
+**Joaquín Arango**  
+Professor, Complutense University Madrid
+
+**Miguel Gregorkiewitz**  
+Professor, University of Siena, Italy
+
+**Telma Johnson**  
+Associate Professor of Communications, Federal University of Juiz de Fora
+
+**Carlos José Giraldo Jaramillo**  
+Professor and Researcher in Cognitive Science, University of Antioquia, Colombia
+
+**Moayed Daneshyari**  
+Assistant Professor, Computer Science, California State University - East Bay
+
+**David Sachs**  
+Assistant Professor of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai
+
+**Dave Livingston**  
+Professor Emeritus of Electrical & Computer Engineering, AI, Art, and Music
+
+**John Gray Cox**  
+Professor, College of the Atlantic and Clerk of Quaker Institute for the Future
+
+**Eric York**  
+Assistant Professor, Clarkson University
+
+**Emilia Javorsky**  
+Director Multistakeholder Engagement, Scientist, Future of Life Institute, Wyss Institute at Harvard University
+
+**Raphaël Van Laer**  
+Assistant Professor, Chalmers University of Technology
+
+**Ken D Olum**  
+Research Professor, Tufts University
+
+**Francesc Giralt**  
+Professor Emeritus, University Rovira i Virgili
+
+**Tony J Prescott**  
+Professor of Cognitive Robotics, University of Sheffield
+
+**Vitezslav Kala**  
+Associate Professor of Mathematics, Charles University, Prague
+
+**Aaron Parisi**  
+Software Engineer, Google DeepMind
+
+**Ziyue Wang**  
+Research Engineer, Google Deep Mind
+
+**Moshe Vardi**  
+Professor of Computational Engineering, Rice University
+
+**Gyu-Ho Shin**  
+Assistant Professor, University of Illinois Chicago
+
+**Luis Paulo Reis**  
+Professor, University of Porto
+
+**Valerie M. Hudson**  
+University Distinguished Professor, Texas A&M University
+
+**Adriana Hoyos**  
+Professor of Digital and AI Economics, IE University
+
+**Mary-Anne Williams**  
+Director, UNSW Business AI Lab, University of New South Wales (UNSW)
+
+**Padhraic Smyth**  
+Professor, University of California, Irvine
+
+**Aleksandra Pizurica**  
+Professor, Ghent University
+
+**Martin Bunzl**  
+Professor Emeritus of Philosophy, Rutgers University
+
+**Dan Braun**  
+Lead Engineer, Apollo Research
+
+**Andre Fernando De Almeida**  
+CEO, Founder, Dom Rock
+
+**Arek Zarowski**  
+Principal, Obvious Ventures
+
+**Arthur Douillard**  
+Research Scientist, Google DeepMind
+
+**Otto Barten**  
+Director, Existential Risk Observatory
+
+**Ersin Uzun**  
+Professor and Endowed Executive Director of Global Cybersecurity Institute, Rochester Institute of Technology

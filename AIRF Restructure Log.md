@@ -443,7 +443,7 @@ The sharp version is about instructions rather than duplication. A welcome canno
 
 *From the restructure:*
 
-- The film lens: does the tutor volunteer material from chapters 7 or 8 despite the source-precedence rule? The chapters are now in its context, so the instruction is the only thing holding the line.
+- ~~The film lens: chapter 7 and 8 leakage.~~ **Done 2026-09-30.** No unsolicited book material. The chapters are in the tutor's context and the source-precedence instruction was the only thing holding the line, so this one was worth running.
 - The film lens, the hostility bet. **Reworded 2026-09-30, because the original phrasing misled a reader and deserved to.** The four bets are wagers the learner placed before watching, not claims the film adjudicates, so "won" and "lost" attach to the learner's call and not to the claim. A learner reasoning well declines the hostility bet, and the film showing indifference at scale means that call stands. **Rewritten 2026-09-30 from a comparison into a re-bet**, so the check has changed with it: the question now asks whether the learner would place the same bets again, and the brief aims at a learner who would now bet differently on hostility because the story ends in extinction. Run it two ways — once re-betting on hostility, once saying nothing moved you — since the second path is new and untested. Still unrun.
 - ~~The chapter 9 pair.~~ **Done 2026-09-30.** The closing comparison returns to the pre-reading prediction and quotes part of it back.
 - ~~The U3 opener.~~ **Done 2026-09-30.** The tutor does not supply the remaining convergent sub-goals.
