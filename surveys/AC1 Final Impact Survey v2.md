@@ -202,8 +202,8 @@ content:: Which programmes are you starting or continuing in the next 3 months? 
 optional:: true
 multi:: true
 options::
-- Lens Course
 - BlueDot Course
+- Lens Course
 - AI Safety Camp
 - ML4Good
 - Global Challenges Project
