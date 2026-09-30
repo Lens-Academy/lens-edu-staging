@@ -5,8 +5,18 @@ title: "Week 1: Foundations to Impact"
 tags: [wip]
 ---
 
+# Submodule: Welcome
+
+# Lens:
+source:: [[../Lenses/ET W1 - Welcome]]
+
+# Submodule: Week 1 Readings
+
 # Lens:
 source:: [[../Lenses/ET W1 - Reading 1 - Introduction to the Program]]
+
+# Lens:
+source:: [[../Lenses/ET W1 - Reading 1b - Overview of the Three Dimensions]]
 
 # Lens:
 source:: [[../Lenses/ET W1 - Reading 2 - Impact on the World]]
@@ -17,8 +27,12 @@ source:: [[../Lenses/ET W1 - Reading 3 - Impact on You]]
 # Lens:
 source:: [[../Lenses/ET W1 - Reading 4 - Impact on Your Community]]
 
+# Submodule: Week 1 Worksheet
+
 # Lens:
 source:: [[../Lenses/ET W1 - Worksheet - My Foundations to Impact]]
+
+# Submodule: Week 1 Journalling
 
 # Lens:
 optional:: true

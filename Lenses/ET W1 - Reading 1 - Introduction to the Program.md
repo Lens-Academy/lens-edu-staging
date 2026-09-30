@@ -7,26 +7,6 @@ tags: [wip]
 ---
 #### Text
 content::
-\# Week 1: Foundations to Impact
-
-Welcome! This week kicks off your 8-week journey toward a thesis, and a career, that is impactful for the world and for you!
-
-\## Focus
-
-**This week's focus** is on clarifying your values, motivations, and long-term goals, and starting to explore your Ikigai, the intersection of what you love, what you're good at, what the world needs, and what you can be paid for.
-
-We'll also walk through the three dimensions of a high-impact thesis (impact on the world, on you, and on your community), and take a first look at the landscape of impactful career paths, before you narrow anything down in the weeks ahead.
-
-For this week, there will be a **Reading**, a **Worksheet**, and an *optional* **Journalling Tab**.
-
-\## Instructions
-
-- Please complete the readings and worksheet before your weekly discussion with your facilitator.
-- Attend your Weekly Discussion with your cohort.
-- Explore the Journalling Tab for journaling prompts for the week.
-
----
-
 \# Week 1 Reading: My Foundations to Impact
 
 #### Callout: My Foundations to Impact
@@ -56,16 +36,3 @@ One key outcome of this program is that you will leave with a clear Theory of Ch
 
 A Theory of Change is a step-by-step plan that links your research outputs to the outcomes and impact you hope to achieve. Developing a ToC helps you move beyond the assumption that “impact happens automatically” by making you think strategically about how your work can actually create change.
 
-\## 2. Overview of The Three Dimensions of an Impactful Thesis
-
-When others discuss “impactful research,” many often focus only on whether the topic solves a big global problem. It is incredibly important to be grounded in this motivation and ambition - but it’s not the whole story. We think a thesis can be highly impactful across three key dimensions - impact on the world, on yourself, and on your community!
-
-![2. Overview of The Three Dimensions of an Impactful Thesis](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w1-reading-02.png)
-
-\### Overview of the Three Dimensions of Impact
-
-| Dimension | Description | Where we’ll build on it |
-|---|---|---|
-| 🌎 Impact on the World | Does your research actually help solve a problem that is important, neglected and tractable - and in a way that gets used by other stakeholders? | Choosing your impactful problem area (Week 2), generating your research question (Week 3), mapping stakeholders (Week 4), building your Theory of Change (Week 5), and designing your project (Week 6) |
-| 💚 Impact on You | Does this thesis help you build the skills, motivation, connections and career capital to help you build your impactful path? | Ikigai work (Week 1), Career Planning (Week 7), Final presentations and next steps (Week 8) |
-| 👥 Impact on Your Community | Does your work ripple outward to the people around you, peers, professors, collaborators? | Stakeholder outreach (Week 4), and Week 8's final presentations, where you share what you've learned with the group |
