@@ -35,10 +35,6 @@ source:: ![[../Lenses/robert-miles-ai-safety-just-predicting-tokens]]
 source:: ![[../Lenses/Janus' Simulators - Scott Alexander]]
 
 # Lens:
-optional:: true
-source:: ![[../Lenses/How can LLMs be understood as simulators]]
-
-# Lens:
 source:: ![[../Lenses/nostalgebraist-the-void]]
 
 # Lens:
