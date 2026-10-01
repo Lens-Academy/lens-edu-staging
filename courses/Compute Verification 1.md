@@ -4,6 +4,7 @@ slug: compute-verification-1
 slug-aliases: [compute-verification, ai-verification-full-course, xlab-compute-verification, ai-verification, ai-verification-1]
 title: "Compute Verification 1"
 description: "How could rival states check that each other actually stopped? Five units on the front half of making an international AI agreement verifiable: why a slowdown is worth nothing without verification, what nuclear safeguards do and do not transfer, how a policy goal turns into a claim someone can test, who a pause actually binds across the compute supply chain, where a verification report's claims come from and who acts on them, and what a chip can and cannot prove about the work it did. The first of two Compute Verification courses; the capstone is a separate course."
+partner-name: XLab
 partner-url: https://aisafetytracks.com/verification/landing
 tags: [wip, visible-in-skilltree]
 ---

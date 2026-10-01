@@ -4,6 +4,7 @@ slug: compute-verification-2
 slug-aliases: [ai-verification-2]
 title: "Compute Verification 2"
 description: "The second half of the compute verification curriculum, and it assumes the first. Five units on the evidence a verification regime can actually collect and on what a determined actor does to it: judging how mature hardware verification really is and briefing a delegation on it, reading cloud provider records and know-your-customer schemes for exactly what they prove, the detection gaps that remain, intelligence signatures and the treaty text that protects satellites but obliges nobody to share what they see, whistleblowers and audits and the institutions that judge them, a close reading of a published low-trust compute verification architecture, and a taxonomy of evasion routes worked up into a red team and blue team review of what that architecture could and could not enforce. Requires Compute Verification 1, whose results it starts from rather than restates. The capstone, where you judge the feasibility of each mechanism and design a regime of your own, is a separate course that follows."
+partner-name: XLab
 partner-url: https://aisafetytracks.com/verification/landing
 tags: [wip]
 ---
