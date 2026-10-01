@@ -120,7 +120,9 @@ Choose a friend, mentor, coach or therapist to explore what is currently on your
 - Apply for Mentorship with [Magnify Mentoring](https://www.magnifymentoring.org/)
 - Apply for 1:1 advising with [probably good](https://probablygood.org/advising/) [or 80,000 hours](https://80000hours.org/speak-with-us-o/?cs740_arm=a&cs740_experiment_version=v2)
 
-\#### Ask close friends what they see in you  
+:::
+
+:::callout {title="5. Ask close friends what they see in you" tone="red" collapse="closed"}
 
 **Why:** It's genuinely hard to see your own strengths clearly from the inside, other people often notice patterns in you that you may not notice!
 
@@ -130,7 +132,9 @@ Try the [Reflected Best Self Exercise](https://avthar.com/blog/strengths): Ask 3
 
 See also HBR's [How to Play to Your Strengths](https://hbr.org/2005/01/how-to-play-to-your-strengths).
 
-\#### Explore emotional work through books & videos
+:::
+
+:::callout {title="6. Explore emotional work through books & videos" tone="red" collapse="closed"}
 
 **Why:** Sometimes different parts of us can want different things - one part might want an impactful career, while another wants safety, freedom, recognition or rest. Exploring these parts can help you understand yourself with more curiosity and less self-judgement.
 
