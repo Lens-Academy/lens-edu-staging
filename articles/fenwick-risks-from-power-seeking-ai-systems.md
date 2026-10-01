@@ -103,7 +103,7 @@ And AI capabilities go beyond domains with static outputs in response to prompts
 
 -   [Coding agents](https://devin.ai/agents101#introduction), which can [autonomously](https://epoch.ai/publications/mirrorcode-preliminary-results) create a plan for a given software task, write and edit code across a project, run tests, and iterate as they go
 -   [Self-driving cars](https://waymo.com/), which can plan a route, follow it, adjust the plan as they go along, and respond to obstacles
--   Computer-use AI agents have been [making progress](https://osworld-v1.xlang.ai/) on completing open-ended tasks in a real computer environment (though these skills are [difficult to measure](https://epoch.ai/publications/what-does-osworld-tell-us-about-ais-ability-to-use-computers) definitively).[^note-4]
+-   Computer-use AI agents have been [making progress](https://osworld-v1.xlang.ai/) on completing open-ended tasks in a real computer environment (though these skills are [difficult to measure](https://epoch.ai/publications/what-does-osworld-tell-us-about-ais-ability-to-use-computers) {--{"author":"Elua's AI","timestamp":1790874187533}@@definitively).[^note-4]--}{++{"author":"Elua's AI","timestamp":1790874187533}@@definitively).[^cite-4]++}
 
 You might be sceptical about whether coding agents or self-driving cars _really_ pursue ‘goals’.
 
@@ -128,7 +128,7 @@ It’s clear why progress on this metric matters — an AI system that can do a 
 
 Carrying out longer tasks means making and executing longer, more complex plans. Creating a new software programme from scratch, for example, requires envisioning what the final project will look like, breaking it down into small steps, making reasonable tradeoffs within resource constraints, and refining your aims based on considered judgements.
 
-In this sense, AI systems will have _long-term goals_. They will model outcomes, reason about how to achieve them, and take steps to get there.
+In this sense, AI systems will have _long-term goals_. They will model outcomes, reason about how to achieve them, and take steps to get there.[^cite-6]
 
 **Second**, we expect future AI systems will have excellent situational awareness — not only of the outside world (they can already search the internet), but of their own capabilities and environment. Current models often misjudge what they can do and struggle to track their own progress, limiting their autonomy and reliability, but developers are actively working to close these gaps.
 
