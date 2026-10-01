@@ -116,7 +116,7 @@ Carlson’s closing argument transfers whole: a regime that decides case by case
 id:: 96ee4f8c-1ad4-4b29-904b-5168cddeaf2d
 content:: Carlson argues the system’s credibility rides on consistency. In no more than 50 words: what one guideline would you bind your AI board to before its first case?
 assessment-instructions:: Score out of 100. 60: the guideline would make the board's decisions consistent: it binds the board to criteria set out in advance and applied the same way in every case, concrete enough that the same facts produce the same verdict. 40: it holds whoever is accused, so a powerful state, an ally or a rival gets the same verdict on the same facts. Give credit for each point whenever the answer shows the idea, in any wording. Deduct 15 if the answer gives several guidelines or goes well over 50 words. Model answer, for the feedback, not a grading checklist: "Decide every case by criteria published before the first case, and state in each verdict how the facts meet those criteria, so that the same facts produce the same verdict whichever state or company is accused."
-feedback-instructions:: One or two sentences. Say whether the guideline would produce the same verdict on the same facts regardless of which state is accused.
+feedback-instructions:: One to three sentences. Say whether the guideline would produce the same verdict on the same facts regardless of which state is accused, and if not, or if anything else is missing, name the most important thing.
 
 #### Text
 content::
