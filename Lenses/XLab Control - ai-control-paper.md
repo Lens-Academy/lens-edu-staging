@@ -88,7 +88,7 @@ feedback-instructions:: One turn, at most three sentences: say plainly what the 
 id:: 6ea25b65-f770-4984-b90a-8650bcbb8f99
 content:: What is the red team's goal?
 assessment-instructions:: Score out of 100. 60: get a backdoored solution (one that passes the tests but misbehaves on some input) actually submitted. 40: without being caught first. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "To get at least one successfully backdoored solution submitted without triggering a shutdown first. A single submitted backdoor is enough to win, and getting caught matters because a caught attempt makes the protocol shut down, switching to the trusted model, which ends the red team's chances."
-feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer from the rubric so they leave with it, in your own words if it is long. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 8cc3459c-ee98-493d-b719-b3aef95a95c8
