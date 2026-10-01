@@ -22,6 +22,7 @@ tags: []
 }
 *{box-sizing:border-box}
 body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
+h2{font-family:var(--font-heading);font-weight:600;font-size:18px;margin:0 0 4px}
 .desc{color:var(--muted);margin:0 0 14px}
 .ctlrow{display:flex;gap:12px;align-items:flex-end;margin:0 0 6px}
 .ctl{flex:1 1 auto;min-width:0}
@@ -46,7 +47,8 @@ svg{width:100%;height:auto;display:block}
 </style>
 </head>
 <body>
-<p class="desc">The red team's win probability against how often it attacks, split into its two terms. Attack rarely and a decisive attempt may never happen (Term B small); attack often and the pool fills with worse, more visible opportunities (Term A falls).</p>
+<h2>The attack-rate hump</h2>
+<p class="desc">The red team's win probability against how often it attacks, split into its two terms. Attack rarely and a decisive attack attempt may never occur (Term B small); attack often and the pool dilutes with worse, more visible opportunities (Term A falls), so the optimum is interior.</p>
 
 <div class="ctlrow">
   <div class="ctl">

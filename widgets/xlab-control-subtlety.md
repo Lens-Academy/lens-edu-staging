@@ -22,6 +22,7 @@ tags: []
 }
 *{box-sizing:border-box}
 body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
+h2{font-family:var(--font-heading);font-weight:600;font-size:18px;margin:0 0 4px}
 .desc{color:var(--muted);margin:0 0 14px}
 .ctlrow{display:flex;gap:12px;align-items:flex-end;margin:0 0 6px}
 .ctl{flex:1 1 auto;min-width:0}
