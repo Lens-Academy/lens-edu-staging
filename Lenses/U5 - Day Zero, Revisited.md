@@ -113,4 +113,3 @@ can produce. Do not grade. Do not score. Do not praise.
 
 Write 90 to 150 words. Short paragraphs. No lists.
 
-max-time:: 15

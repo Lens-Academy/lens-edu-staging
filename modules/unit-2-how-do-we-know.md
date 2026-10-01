@@ -143,7 +143,6 @@ content::
 
 Without scrolling back, restate your ten-year model from memory, and then change it. What did this unit move? Name one method from this unit that changed a number or a mechanism in your model, and one thing you now hold more loosely. If nothing moved, say that, and say what would move you.
 
-max-time:: 8:00
 
 assessment-instructions:: The student wrote a day-zero model of the next ten years of AI in Unit 1 and restated it from memory at the end of that unit. They have now finished Unit 2: decomposition into parts with evidence sources, reference classes and their denominators, when extrapolation stops being licensed, and aggregation by what the estimators saw.
 

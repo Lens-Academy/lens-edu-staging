@@ -87,7 +87,6 @@ Three technicians inspect it separately. None of them talks to the others. They 
 
 What is your combined estimate, and what rule did you use? Then: is there anything you could learn about the three technicians that would move your combined estimate above 65%, or below 55%?
 
-max-time:: 10:00
 
 assessment-instructions:: Pre-test, before instruction. The student has been taught nothing about aggregation.
 

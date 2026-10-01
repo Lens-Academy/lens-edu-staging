@@ -62,7 +62,6 @@ content::
 
 You have just read the first three years of AI 2040. Before you read anyone else's critique of it, write your own. Not "it is too optimistic": that is a mood. Name one thing the scenario treats as a fact about how the world works that is actually a choice somebody makes, or one place where the plan needs something to go right that nothing in the scenario makes go right. Three to six sentences.
 
-max-time:: 8:00
 
 feedback-instructions:: The student has read the opening of AI 2040 (Plan A), an optimistic scenario running from widespread AI agents in 2027 to the 2028 election, and has been asked for their strongest criticism before reading Richard Ngo's published one. Do not preview Ngo's argument. Do not say whether their criticism matches his.
 

@@ -27,7 +27,6 @@ Without looking back at either paper, write down what they found. Include whatev
 
 Then, beside each, your own prediction for the same quantity.
 
-max-time:: 4:00
 
 assessment-instructions:: The student has just read the alignment-faking paper and the in-context-scheming paper, having previously written down numeric predictions for several of the reported quantities. They have now written a free recall alongside their predictions.
 
@@ -69,7 +68,6 @@ Where was the distance largest? Take the single prediction you got most wrong, a
 
 Not "I underestimated it" or "I was too optimistic". What specifically did you believe about the machinery?
 
-max-time:: 5:00
 
 assessment-instructions:: The student has compared their pre-reading numeric predictions against the actual findings. This phase is about the belief that generated the error, not about the error itself.
 

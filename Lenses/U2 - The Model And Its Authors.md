@@ -44,7 +44,6 @@ How would you forecast when AI can do a month-long software engineering task on 
 
 List every distinct method you can think of. Not your answer, your methods. For each one, write a single line on what evidence it needs and what would make it unreliable. Do not look anything up. Four minutes.
 
-max-time:: 6:00
 
 feedback-instructions:: The student is mid-exercise. They have not yet read the authors' survey of forecasting methods, which comes next in this lens.
 
@@ -114,7 +113,6 @@ You have their five methods, the dates several of them give (from 2027 to 2050),
 
 Give your own median year for an AI that can do essentially all of an AI researcher's coding work. Build it from what you just read: say which method or number you lean on most, and how you adjust it. State the one assumption your number is most sensitive to, and say which direction your number moves if that assumption is wrong.
 
-max-time:: 5:00
 
 feedback-instructions:: The student is committing to a number BEFORE seeing the authors' forecasts, which come next.
 
@@ -224,7 +222,6 @@ So, while you were reading, which question felt more interesting to you? Answer 
 
 Last, a smaller question. Daniel calls extrapolating AI revenue "a decent proxy for when AGI will be achieved". Is revenue measuring the thing these forecasts are about? Or is it measuring something that usually moves with it, but could separate from it? Give one concrete way the two could separate.
 
-max-time:: 8:00
 
 feedback-instructions:: This is the closing move of the lens and the most important question in it is the second one.
 
