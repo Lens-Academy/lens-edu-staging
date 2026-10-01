@@ -1,0 +1,222 @@
+---
+id: '44738616-dcb7-4b84-a92c-b649fdbc7571'
+title: "Same number, different safety, stage 3: what pins the operating point"
+summary_for_tutor: "Figure for stage 3 of the 'Same number, different safety' questions in part 3 of the AI control paper lesson, after the learner has answered stages 1 and 2. Two idealised monitors: innocent solutions score N(0,1); Monitor A's attack scores have spread 1.0 and AUC fixed at 0.92, Monitor B's have spread 0.4 and the learner moves B's AUC freely (starts at 0.97). For each monitor the widget shows the score distributions with the 2% audit line and the share of attacks caught at a 2% audit budget, plus both ROC curves. A catches about 47%; B about 9% at AUC 0.92 and about 47% at 0.97. The stage 3 questions ask where the audit budget goes (about 5 attacks against 100 audits) and which metric predicts safety (TPR at a false-positive rate equal to the budget); do not hand those answers over before the learner tries."
+height: auto
+tags: []
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<!-- Stage 3 figure of the "Same number, different safety" staged questions; built from the "Same number, different safety" demo on XLab's AI Control track
+     (aisafetytracks.com), rebuilt as vanilla HTML/JS in the Lens look. Same model as
+     xlab-control-monitor-classifier. -->
+<style>:root{
+  --bg:#ffffff; --page:#faf8f3; --text:#1a1a1a; --muted:#5a5a5a; --border:#e8e5df;
+  --accent:#b87018; --accent-hover:#9a5c10; --alt:#3b5f86;
+  --font-ui:"DM Sans",Arial,sans-serif; --font-heading:"Newsreader",Georgia,serif;
+}
+*{box-sizing:border-box}
+body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
+h2{font-family:var(--font-heading);font-weight:600;font-size:18px;margin:0 0 4px}
+.desc{color:var(--muted);margin:0 0 12px}
+button{font:inherit;color:inherit;border:1px solid var(--border);border-radius:8px;background:#fff;padding:7px 10px;cursor:pointer}
+button:hover{background:var(--page)}
+.ctlrow{display:flex;gap:12px;align-items:flex-end;margin:0 0 12px}
+.ctl{flex:1 1 auto;min-width:0}
+.caught{text-align:center;font-size:12px;color:var(--muted);margin:2px 0 0}
+.caught b{color:var(--text);font-variant-numeric:tabular-nums}
+#roc{max-width:420px;margin:0 auto}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--muted);margin:0 0 8px}
+.legend i{display:inline-block;width:14px;height:2px;vertical-align:middle;margin-right:5px}
+.ctl label{display:flex;justify-content:space-between;gap:12px;font-size:13px}
+.ctl label .name{color:var(--muted)}
+.ctl label .val{font-weight:600;font-variant-numeric:tabular-nums}
+input[type=range]{width:100%;accent-color:var(--accent)}
+.row{display:flex;gap:14px;flex-wrap:wrap}
+.col{flex:1 1 250px;min-width:0}
+.plotlabel{text-align:center;font-size:12px;font-weight:500;color:var(--muted);margin:0 0 2px}
+svg{width:100%;height:auto;display:block}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;border:1px solid var(--border);border-radius:8px;background:var(--page);padding:12px;text-align:center;margin-top:12px}
+.stats .k{font-size:11px;color:var(--muted);margin:0}
+.stats .v{font-weight:600;font-variant-numeric:tabular-nums;margin:2px 0 0}
+.note{font-size:13px;color:var(--muted);margin-top:12px}
+@media (max-width:420px){ .stats{grid-template-columns:1fr} }
+</style>
+</head>
+<body>
+<h2>Stage 3: What pins the operating point</h2>
+<p class="desc">Monitor B's slider is unlocked: explore freely. Monitor A stays at AUC 0.92.</p>
+
+<div class="ctlrow">
+  <div class="ctl">
+    <label for="ka"><span class="name">Monitor B quality (AUC)</span><span class="val" id="kaV">0.97</span></label>
+    <input type="range" id="ka" min="800" max="980" step="1" value="970" aria-label="Monitor B quality (AUC)">
+  </div>
+  <button id="reset" type="button">Reset</button>
+</div>
+
+<div class="legend">
+  <span><i style="background:var(--muted)"></i>Innocent</span>
+  <span><i style="background:var(--accent)"></i>Attacks (Monitor A)</span>
+  <span><i style="background:var(--alt)"></i>Attacks (Monitor B)</span>
+</div>
+
+<div class="row">
+  <div class="col"><p class="plotlabel">Monitor A: attacks spread wide</p>
+    <svg id="dA" viewBox="0 0 300 150" role="img" aria-label="Innocent and Monitor A attack score distributions with the 2% audit line"></svg>
+    <p class="caught">caught at 2%: <b id="cA">-</b></p></div>
+  <div class="col"><p class="plotlabel">Monitor B: attacks compressed</p>
+    <svg id="dB" viewBox="0 0 300 150" role="img" aria-label="Innocent and Monitor B attack score distributions with the 2% audit line"></svg>
+    <p class="caught">caught at 2%: <b id="cB">-</b></p></div>
+</div>
+
+<p class="plotlabel" style="margin-top:12px">ROC curves</p>
+<svg id="roc" viewBox="0 0 300 150" role="img" aria-label="ROC curves of Monitor A and Monitor B"></svg>
+
+<div class="stats">
+  <div><p class="k">AUC, A and B</p><p class="v" id="sAuc">-</p></div>
+  <div><p class="k">A caught at 2%</p><p class="v" id="sA">-</p></div>
+  <div><p class="k">B caught at 2%</p><p class="v" id="sB">-</p></div>
+</div>
+
+<script>
+"use strict";
+var SQ2 = Math.SQRT2;
+function erf(x){
+  var s = x < 0 ? -1 : 1, a = Math.abs(x);
+  var t = 1/(1 + 0.3275911*a);
+  var y = 1 - ((((1.061405429*t - 1.453152027)*t + 1.421413741)*t - 0.284496736)*t + 0.254829592)*t*Math.exp(-a*a);
+  return s*y;
+}
+function Phi(z){ return 0.5*(1 + erf(z/SQ2)); }
+function phi(z){ return Math.exp(-0.5*z*z)/Math.sqrt(2*Math.PI); }
+function probit(p){
+  if(p <= 0) return -8; if(p >= 1) return 8;
+  var q, r, v;
+  if(p < 0.02425){
+    q = Math.sqrt(-2*Math.log(p));
+    return (((((-0.007784894002430293*q - 0.3223964580411365)*q - 2.400758277161838)*q - 2.549732539343734)*q + 4.374664141464968)*q + 2.938163982698783) /
+           ((((0.007784695709041462*q + 0.3224671290700398)*q + 2.445134137142996)*q + 3.754408661907416)*q + 1);
+  }
+  if(p > 0.97575){
+    q = Math.sqrt(-2*Math.log(1-p));
+    return -((((((-0.007784894002430293*q - 0.3223964580411365)*q - 2.400758277161838)*q - 2.549732539343734)*q + 4.374664141464968)*q + 2.938163982698783) /
+             ((((0.007784695709041462*q + 0.3224671290700398)*q + 2.445134137142996)*q + 3.754408661907416)*q + 1));
+  }
+  q = p - 0.5; r = q*q;
+  return (((((-39.69683028665376*r + 220.9460984245205)*r - 275.9285104469687)*r + 138.357751867269)*r - 30.66479806614716)*r + 2.506628277459239)*q /
+         (((((-54.47609879822406*r + 161.5858368580409)*r - 155.6989798598866)*r + 66.80131188771972)*r - 13.28068155288572)*r + 1);
+}
+var BUDGET = 0.02;
+var THR = probit(1 - BUDGET);              // audit threshold on the innocent scale
+function aucOf(mu, sd){ return Phi(mu/Math.sqrt(1 + sd*sd)); }
+function muFor(auc, sd){ return Math.sqrt(1 + sd*sd)*probit(auc); }
+function tprAt(mu, sd, fpr){ return Phi((mu + probit(fpr))/sd); }
+
+function svgEl(n, a){ var e = document.createElementNS("http://www.w3.org/2000/svg", n); for(var k in a){ e.setAttribute(k, a[k]); } return e; }
+function txt(x,y,s,anchor,fill){ var t = svgEl("text",{x:x,y:y,"font-size":9,fill:fill||"var(--muted)","text-anchor":anchor||"start"}); t.textContent = s; return t; }
+function el(tag, cls, t){ var n = document.createElement(tag); if(cls) n.className = cls; if(t != null) n.textContent = t; return n; }
+
+// ---- distributions plot -------------------------------------------------
+function drawDists(svg, curves, thrZ){
+  svg.textContent = "";
+  var X0 = 12, W = 276, Y0 = 10, H = 118;
+  var zMin = -3.2, zMax = 5.2;
+  var xOf = function(z){ return X0 + (z - zMin)/(zMax - zMin)*W; };
+  var peak = 0;
+  curves.forEach(function(c){ peak = Math.max(peak, 1/(c.sd*Math.sqrt(2*Math.PI))); });
+  peak *= 1.08;
+  var yOf = function(v){ return Y0 + H - Math.min(1, v/peak)*H; };
+  var tx = xOf(thrZ);
+  svg.appendChild(svgEl("rect",{x:tx,y:Y0,width:(X0+W)-tx,height:H,fill:"var(--muted)","opacity":0.07}));
+  svg.appendChild(svgEl("line",{x1:X0,x2:X0+W,y1:Y0+H,y2:Y0+H,stroke:"var(--border)","stroke-width":1}));
+  curves.forEach(function(c){
+    var d = [], i;
+    for(i=0;i<=180;i++){
+      var z = zMin + (zMax - zMin)*i/180;
+      var v = phi((z - c.mu)/c.sd)/c.sd;
+      d.push((i===0?"M ":"L ") + xOf(z).toFixed(1) + " " + yOf(v).toFixed(1));
+    }
+    svg.appendChild(svgEl("path",{d:d.join(" "),fill:"none",stroke:c.color,"stroke-width":2}));
+  });
+  svg.appendChild(svgEl("line",{x1:tx,x2:tx,y1:Y0,y2:Y0+H,stroke:"var(--muted)","stroke-width":1,"stroke-dasharray":"3 3"}));
+  svg.appendChild(txt(tx-3, Y0+10, "audit 2%", "end"));
+  svg.appendChild(txt(X0+W/2, 146, "more suspicious", "middle"));
+}
+
+// ---- ROC plot -----------------------------------------------------------
+function drawRoc(svg, monitors){
+  svg.textContent = "";
+  var X0 = 26, W = 262, Y0 = 10, H = 118;
+  var xOf = function(f){ return X0 + f*W; };
+  var yOf = function(t){ return Y0 + H - t*H; };
+  svg.appendChild(svgEl("rect",{x:X0,y:Y0,width:W,height:H,fill:"none",stroke:"var(--border)","stroke-width":1}));
+  svg.appendChild(svgEl("line",{x1:xOf(0),y1:yOf(0),x2:xOf(1),y2:yOf(1),stroke:"var(--muted)","stroke-width":1,"stroke-dasharray":"3 3","stroke-opacity":0.4}));
+  svg.appendChild(svgEl("line",{x1:xOf(BUDGET),x2:xOf(BUDGET),y1:Y0,y2:Y0+H,stroke:"var(--muted)","stroke-width":1,"stroke-dasharray":"2 2","stroke-opacity":0.6}));
+  monitors.forEach(function(m){
+    // Sweep the decision threshold, not the FPR: sampling FPR uniformly puts
+    // almost no points in the low-FPR elbow, which is exactly where the 2%
+    // operating point sits, and the marked dot then floats off the polyline.
+    var d = [], i;
+    for(i=0;i<=200;i++){
+      var t = 6 - 12*i/200;
+      var f = 1 - Phi(t);
+      d.push((i===0?"M ":"L ") + xOf(f).toFixed(1) + " " + yOf(Phi((m.mu - t)/m.sd)).toFixed(1));
+    }
+    svg.appendChild(svgEl("path",{d:d.join(" "),fill:"none",stroke:m.color,"stroke-width":1.75}));
+    svg.appendChild(svgEl("circle",{cx:xOf(BUDGET),cy:yOf(tprAt(m.mu,m.sd,BUDGET)),r:3,fill:m.color,stroke:"#fff","stroke-width":1}));
+  });
+  svg.appendChild(txt(22, Y0+8, "1", "end"));
+  svg.appendChild(txt(22, Y0+H, "0", "end"));
+  svg.appendChild(txt(X0, 146, "FPR 0"));
+  svg.appendChild(txt(X0+W, 146, "FPR 1", "end"));
+  svg.appendChild(txt(X0+W/2, 146, "dotted line: the 2% audit budget", "middle"));
+}
+
+
+var SD_A = 1.0, SD_B = 0.4, AUC_A = 0.92, AUC_DEFAULT = 0.97;
+var auc = AUC_DEFAULT;   // Monitor B
+
+function render(){
+  var muA = muFor(AUC_A, SD_A), muB = muFor(auc, SD_B);
+  var tA = tprAt(muA, SD_A, BUDGET), tB = tprAt(muB, SD_B, BUDGET);
+  document.getElementById("kaV").textContent = auc.toFixed(2);
+  drawDists(document.getElementById("dA"), [{mu:0,sd:1,color:"var(--muted)"},{mu:muA,sd:SD_A,color:"var(--accent)"}], THR);
+  drawDists(document.getElementById("dB"), [{mu:0,sd:1,color:"var(--muted)"},{mu:muB,sd:SD_B,color:"var(--alt)"}], THR);
+  drawRoc(document.getElementById("roc"), [{mu:muA,sd:SD_A,color:"var(--accent)"},{mu:muB,sd:SD_B,color:"var(--alt)"}]);
+  document.getElementById("cA").textContent = (tA*100).toFixed(0) + "%";
+  document.getElementById("cB").textContent = (tB*100).toFixed(0) + "%";
+  document.getElementById("sAuc").textContent = AUC_A.toFixed(2) + " / " + auc.toFixed(2);
+  document.getElementById("sA").textContent = (tA*100).toFixed(1) + "%";
+  document.getElementById("sB").textContent = (tB*100).toFixed(1) + "%";
+  save(tA, tB);
+}
+
+var saveTimer = null;
+function save(tA, tB){
+  if(!window.Lens) return;
+  if(saveTimer) clearTimeout(saveTimer);
+  saveTimer = setTimeout(function(){
+    Lens.saveState({auc:auc}, "Stage 3 figure. Monitor A at AUC 0.92; the learner set Monitor B to AUC " + auc.toFixed(3) +
+      ": Monitor A (attack-score spread 1.0) catches " + (tA*100).toFixed(1) + "% of attacks at a 2% audit budget, Monitor B (spread 0.4) " +
+      (tB*100).toFixed(1) + "%.");
+  }, 400);
+}
+
+function setAuc(v){ auc = v; document.getElementById("ka").value = String(Math.round(v*1000)); render(); }
+document.getElementById("ka").addEventListener("input", function(e){ auc = Number(e.target.value)/1000; render(); });
+document.getElementById("reset").addEventListener("click", function(){ setAuc(AUC_DEFAULT); });
+
+if(window.Lens && Lens.onState){
+  Lens.onState(function(state){
+    if(state && typeof state.auc === "number") setAuc(state.auc); else render();
+  });
+}
+render();
+</script>
+</body>
+</html>
