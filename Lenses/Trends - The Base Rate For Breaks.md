@@ -22,7 +22,6 @@ Before reading, commit to two numbers.
 
 Then say in one sentence which of the two numbers you expect to matter more for reasoning about AI.
 
-max-time:: 6:00
 
 assessment-instructions::
 The student is about to read Katja Grace's "Discontinuous progress in history: an update," which finds large robust discontinuities occur at roughly 0.1 percent per trend-year, while the chance that a given level of progress arrives via such a discontinuity is around 14 percent. Grace's exact wording matters here: the 14 percent is a probability about how any particular increment of progress arrives, NOT a share of total progress. Those sound alike and are different quantities.

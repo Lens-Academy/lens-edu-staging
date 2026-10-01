@@ -23,7 +23,6 @@ Here is a setup. Suppose that tomorrow, without any new ideas, algorithms, or in
 
 Question 3 is the one to spend time on.
 
-max-time:: 12:00
 
 assessment-instructions::
 The student is about to read Daniel Kokotajlo's "Fun with +12 OOMs of Compute" and then Holden Karnofsky's two pieces on biological anchors, the second of which argues the method bounds rather than locates.

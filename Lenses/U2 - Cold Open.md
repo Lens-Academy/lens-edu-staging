@@ -37,7 +37,6 @@ Do not look anything up. Produce a number, and show how you got to it. Think abo
 
 Then, separately: which single step in your working is most likely to be badly wrong, and roughly how badly?
 
-max-time:: 12:00
 
 assessment-instructions:: This is a pre-test administered before any instruction. The student has been taught nothing.
 
@@ -63,7 +62,6 @@ An administrator extrapolates: 3 percentage points a year, so 100% on-time by 20
 
 Write down what that calculation assumes about the operations that are still starting late. Then say whether 2033 is likely to be too early or too late, and why.
 
-max-time:: 10:00
 
 assessment-instructions:: Pre-test, before instruction. The student has been taught nothing about functional form.
 

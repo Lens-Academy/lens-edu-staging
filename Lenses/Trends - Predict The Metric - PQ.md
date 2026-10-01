@@ -25,7 +25,6 @@ Before you read anything, answer for yourself:
 
 Write all three down before moving on. The reading tells you what happened.
 
-max-time:: 6:00
 
 assessment-instructions::
 The student is about to read Jacob Steinhardt's "AI Forecasting: One Year In," which reports that professional forecasters predicted 12.7 percent on the MATH benchmark for June 2022 and the actual result was 50.3 percent, landing far outside their credible intervals.
