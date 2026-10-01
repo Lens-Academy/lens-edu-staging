@@ -17,7 +17,7 @@ reading_minutes:: 5
 
 ### Article
 source:: [[../articles/zeshen-a-newcomers-guide-to-the-technical-ai-safety-field]]
-from:: {--{"author":"Elua's AI","timestamp":1790873747040}@@"AI safety is a [pre-paradigmatic]"--}{++{"author":"Elua's AI","timestamp":1790873747040}@@In other words, there is no universally agreed-upon++}
+from:: In other words, there is no universally agreed-upon
 to:: what the alignment problem is.
 
 ### Article
