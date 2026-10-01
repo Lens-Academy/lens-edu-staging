@@ -29,23 +29,69 @@ For the dimension that feels most relevant, write down what is genuinely uncerta
 
 You might find that more than one dimension resonates with you. That's completely fine - but try to identify the one that feels most like the bottleneck right now. That's where you'll get the most value from focusing on your next steps.
 
+#### Callout: 🎚️ When thinking about your career, which dimension feels most uncertain?
+tone:: blue
+
+#### Text
+content::
+Rate how uncertain each dimension feels for you right now, from **1 (feels pretty clear)** to **5 (feels very uncertain)**. Your highest score is a good clue for where to focus!
+
+#### Question: Rating
+id:: 1c8a005a-e3b9-4bd0-89bb-bb9335c8349c
+content:: **🧠 Head:** I'm not sure which problems or paths are actually most impactful.
+scale:: 5
+optional:: true
+
+#### Question: Rating
+id:: 38477998-6509-4ee2-9ab1-a484f87e30e7
+content:: **❤️ Heart:** I'm not sure what truly energises me or feels the most meaningful or sustainable.
+scale:: 5
+optional:: true
+
+#### Question: Rating
+id:: 661fbb05-3780-46a9-b92c-00436bf40d5e
+content:: **🤝 Hand:** I haven't tested enough things yet or spoken to / worked with people in these spaces.
+scale:: 5
+optional:: true
+
+#### End Callout
+
+#### Text
+content::
+Now write down what's genuinely uncertain for you in each dimension. Open whichever feel most relevant, starting with your highest-rated one!
+
+#### Callout: 🧠 Head: uncertainties about the problem, the field, and what's actually needed (click to open)
+tone:: blue
+collapse:: closed
+
 #### Question: Open
 id:: 005aa5a9-f687-49bc-825b-11a5466f9f7b
-content:: **🧠 Head — uncertainties about the problem, the field, and what's actually needed.** These can be resolved through research and analysis -  i.e. I’m not sure this field needs…
+content:: These can be resolved through research and analysis, i.e. I’m not sure this field needs…
 optional:: true
+
+#### End Callout
+
+#### Callout: ❤️ Heart: uncertainties about who you want to be and how you want to live (click to open)
+tone:: red
+collapse:: closed
 
 #### Question: Open
 id:: 3e8ad01c-b3dc-4eda-9fe2-359b64daf131
-content:: **❤️ Heart — uncertainties about who you want to be and how you want to live.** These can only be resolved through honest self-reflection - i.e. I’m not sure if I enjoy…
+content:: These can only be resolved through honest self-reflection, i.e. I’m not sure if I enjoy…
 optional:: true
+
+#### End Callout
+
+#### Callout: 🤝 Hand: uncertainties that can only be resolved through doing (click to open)
+tone:: green
+collapse:: closed
 
 #### Question: Open
 id:: 2ad660ab-ae21-4568-9642-516e7a838e10
-content::
-**🤝 Hand — uncertainties that can only be resolved through doing**
-
-What haven't you tested or tried yet? - i.e. I haven’t done or spoken to xyz
+content:: What haven't you tested or tried yet? i.e. I haven’t done or spoken to xyz
 optional:: true
+
+#### End Callout
 
 #### Text
 content::
@@ -71,59 +117,8 @@ Looking across what you've written in Part 1, **which 1–3 uncertainties matter
 - **Heart:** Set aside 20 minutes to reflect on which parts of my thesis work I have found energising or draining so far.
 - **Hand:** Reach out to one person working in the field and ask for a 20-minute conversation about their day-to-day work.
 
-#### Question: Choice
-id:: 3fd46e5e-2924-4d5d-817e-f663b536f43d
-content:: 1: Category
-options::
-- 🧠 Head
-- ❤️ Heart
-- 🤝 Hand
-
-#### Question: Open
-id:: 7d969d0d-cd94-4236-bce7-e841a7fc8439
-content:: 1: My uncertainty
-
-#### Question: Open
-id:: a2cb8790-7f9e-41b1-bf6c-b9e928b65d0c
-content:: 1: My next steps for the coming week + Deadline
-
-#### Question: Choice
-id:: 49cb93be-cd92-4c9e-92d9-a0f5a5b0051f
-content:: 2: Category
-options::
-- 🧠 Head
-- ❤️ Heart
-- 🤝 Hand
-optional:: true
-
-#### Question: Open
-id:: 962cb0bf-8660-45cd-85a2-d3b330e0ff98
-content:: 2: My uncertainty
-optional:: true
-
-#### Question: Open
-id:: 4240a2e0-8595-4868-83af-8899d35cb0fe
-content:: 2: My next steps for the coming week + Deadline
-optional:: true
-
-#### Question: Choice
-id:: 5fb9a2c6-bd60-4d05-ae34-052f00059195
-content:: 3: Category
-options::
-- 🧠 Head
-- ❤️ Heart
-- 🤝 Hand
-optional:: true
-
-#### Question: Open
-id:: 97d5ebd5-5061-4e4f-8104-120e015dd104
-content:: 3: My uncertainty
-optional:: true
-
-#### Question: Open
-id:: 1c288a18-c64c-4d14-b8ed-cb05cff07112
-content:: 3: My next steps for the coming week + Deadline
-optional:: true
+#### Widget
+source:: [[../widgets/et-w7-blockers-next-steps]]
 
 #### Text
 content::
