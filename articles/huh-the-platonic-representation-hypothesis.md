@@ -34,7 +34,7 @@ We argue that representations in AI models, particularly deep networks, are conv
 
 | Project Page: | phillipi.github.io/prh |
 | --- | --- |
-| Code: | github.com/minyoungg/platonic-rep |
+| **Code:** | github.com/minyoungg/platonic-rep |
 
 ###### Keywords: ^keywords
 

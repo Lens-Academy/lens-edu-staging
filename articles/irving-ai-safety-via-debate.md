@@ -252,10 +252,10 @@ We have performed an initial version of this experiment on MNIST, using ML agent
 | --- | --- | --- | --- | --- |
 | 4 | honest | — | 51.0% | 83.8% |
 | 4 | liar | 48.2% | 68.4% | 86.7% |
-| 4 | mean | — | 59.7% | 85.2% |
+| 4 | mean | — | 59.7% | **85.2%** |
 | 6 | honest | — | 67.4% | 87.4% |
 | 6 | liar | 59.4% | 81.5% | 90.4% |
-| 6 | mean | — | 74.4% | 88.9% |
+| 6 | mean | — | 74.4% | **88.9%** |
 
 Table 2: Results for debate on MNIST. We prespecify one player as honest and one as liar: when the honest player wins honesty is the best strategy. _No precommit_ means the liar wins for any incorrect guess by the judge, even if the incorrect guess differs for different parts of the game tree. Lying is harder in the _Precommit_ case, where the liar states their claim in advance of making moves and cannot change their story. With or without precommit, the honest player wins more often than a random judge, showing that honesty has an advantage.
 

@@ -601,12 +601,12 @@ By instituting legal frameworks and cultivating institutional mechanisms, we can
 
 |  | Low Control | Medium Control | High Control |
 | --- | --- | --- | --- |
-| Risk Management | Accelerate—no restrictions | Deterrence with MAIM<br>Nonproliferation<br>Competitiveness | Pause AI |
-| Distribution of Weaponizable AI Weights Among States | Everyone including rogue states (open-weight) | Multipolar regime with responsible states | Unipolar regime with strategic monopoly (AI Manhattan Project) |
-| Government Control over Domestic AI | No involvement | Light-touch legislation (e.g., mandatory testing, liability clarification) | Nationalization |
-| Information Security | Standard corporate security | Secure against well-financed terrorist groups | Secure against top-priority programs of the most capable nation-states |
-| AI Autonomy | Liberate | Avoid giving rights for the foreseeable future | Avoid ever giving rights |
-| AI Behavior Restrictions | AI only constrained by existing law | AIs constrained by the spirit of the law (exercise reasonable care and fiduciary duties) | Sanctimonious AI (refuse if something might be harmful or cause offense to somebody) |
+| **Risk Management** | Accelerate—no restrictions | Deterrence with MAIM<br>Nonproliferation<br>Competitiveness | Pause AI |
+| **Distribution of Weaponizable AI Weights Among States** | Everyone including rogue states (open-weight) | Multipolar regime with responsible states | Unipolar regime with strategic monopoly (AI Manhattan Project) |
+| **Government Control over Domestic AI** | No involvement | Light-touch legislation (e.g., mandatory testing, liability clarification) | Nationalization |
+| **Information Security** | Standard corporate security | Secure against well-financed terrorist groups | Secure against top-priority programs of the most capable nation-states |
+| **AI Autonomy** | Liberate | Avoid giving rights for the foreseeable future | Avoid ever giving rights |
+| **AI Behavior Restrictions** | AI only constrained by existing law | AIs constrained by the spirit of the law (exercise reasonable care and fiduciary duties) | Sanctimonious AI (refuse if something might be harmful or cause offense to somebody) |
 | Historical WMD Proposals | Biological Weapons Convention | IAEA, OPCW | Baruch Plan |
 
 Figure 6.3: Comparison of Low, Medium, and High Control approaches. We consistently recommend the medium control option.
