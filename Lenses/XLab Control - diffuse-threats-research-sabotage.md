@@ -21,7 +21,7 @@ feedback-instructions:: One turn, at most four sentences: say plainly what the l
 id:: baeca979-c275-48a9-9d12-aaf0736ede11
 content:: What two properties define a "diffuse" threat model?
 assessment-instructions:: Score out of 100. 50: causing a catastrophe takes many bad actions, not one or a few. 50: each bad action, when investigated, is only weak evidence of malign intent, since it could be an honest mistake. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer defines diffuse threats by low severity or low stakes instead of by these two properties. Model answer, for the feedback, not a grading checklist: "Catastrophe requires numerous bad actions, and each bad action is only weak evidence of malign intent when investigated."
-feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer from the rubric so they leave with it, in your own words if it is long. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Article
 from:: ## Deployer strategies: Training and incrimination
