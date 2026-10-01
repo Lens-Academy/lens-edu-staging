@@ -17,6 +17,9 @@ source:: [[../Lenses/XLab Control - trading-with-ais]]
 source:: [[../Lenses/XLab Control - making-deals-with-early-schemers]]
 
 # Lens:
+source:: [[../Lenses/XLab Control - making-deals-with-early-schemers-2]]
+
+# Lens:
 source:: [[../Lenses/XLab Control - barriers-to-trading]]
 
 # Lens:
