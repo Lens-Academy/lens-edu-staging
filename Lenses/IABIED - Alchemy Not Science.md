@@ -19,7 +19,7 @@ Return here after reading.
 
 ---
 
-#### Question
+#### Question: Open
 id:: c6979f00-e88e-4f14-bf68-bf1f31c5ac5d
 content::
 \## Phase 1: Recall
@@ -65,7 +65,7 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### Question: Open
 id:: b6f65118-181c-4d35-b8e4-55bb0e4fe477
 content::
 \## Phase 2: Processing
@@ -142,7 +142,7 @@ What not to do:
 - Turn this into a review of Chapter 2.
 - Say anything about how this connection relates to the next lens in this unit. It does, and that is the next lens's work, not yours.
 
-#### Question
+#### Question: Open
 id:: 060e4240-03c1-4a7f-8d82-21919b0027b5
 content::
 \## Phase 4: Learning Question

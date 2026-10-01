@@ -15,7 +15,7 @@ This Q&A addresses whether AI alignment differs from historical challenges like 
 #### Article
 source:: [[../articles/iabied-ch10-faq-historical-precedents]]
 
-#### Question
+#### Question: Open
 id:: 385a04e2-6f2d-447e-a53e-a22ece3083ee
 content:: The authors list many ways AI is unlike nuclear weapons. Which difference lands hardest for you, and is there a historical precedent you find a better fit than nuclear weapons?
 force-feedback:: first

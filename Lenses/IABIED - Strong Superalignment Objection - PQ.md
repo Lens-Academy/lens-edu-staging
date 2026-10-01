@@ -6,7 +6,7 @@ tldr: "Before reading, think about whether you can use a smarter version of an u
 authors:
   - Yatharth+Claude
 ---
-#### Question
+#### Question: Open
 id:: 6ee4592c-ab68-4e70-96f4-5c3d783962a5
 content:: When a problem is hard, one tempting response is: "let's get a smarter solver to handle it." For some problems this works: a more skilled mathematician really can solve a problem the rest of us cannot. For other problems, this hits an obstacle.
 

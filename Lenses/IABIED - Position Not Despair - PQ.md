@@ -6,7 +6,7 @@ tldr: "Before reading, think about how you tell apart 'this is hopeless' from 't
 authors:
   - Yatharth+Claude
 ---
-#### Question
+#### Question: Open
 id:: 33f77b8f-ceb9-47b8-89dc-f2c199b0c383
 content:: When experts say a project should not be attempted, you can hear two very different things in that sentence:
 
