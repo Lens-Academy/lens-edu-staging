@@ -92,7 +92,7 @@ feedback-instructions:: Two to four sentences. Apply the test XLab sets: would t
 id:: f7e159be-064a-45dd-b4aa-31a15d282526
 content:: Where does the nuclear analogy strain hardest across these four stations? Name the station and the reason.
 assessment-instructions:: Score out of 100. 20: names one of the four stations (finder, judge, enforcer, standard) as the place where the nuclear analogy fits worst. 80: a reason: something the nuclear regime had at that station that the AI case lacks or cannot easily get (for example the legitimacy the IAEA built from a treaty and decades of cases, agreed access for inspectors, an enforcement body like the Security Council, a body of past cases), which is what makes the station hard to fill for AI. Model answer, for the feedback, not a grading checklist: "The judge: the IAEA Board’s standing took a treaty, a statute and decades of cases, and nothing with comparable legitimacy exists for AI. Other defensible picks: the finder (no finder has agreed access, and AI evidence comes from many streams), the enforcer (no Security Council of compute), or the standard (no body of past cases to build consistency on)."
-feedback-instructions:: Two sentences. Acknowledge the pick and offer the strain XLab identifies for that station from the commentary below.
+feedback-instructions:: Three sentences. Acknowledge the pick, say what is missing or wrong in the learner's reason if anything, and offer the strain XLab identifies for that station from the commentary below.
 
 #### Text
 content::
