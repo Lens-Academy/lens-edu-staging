@@ -56,3 +56,7 @@ content::
 - **Prepare for your Weekly Discussion.** Please begin working on **this week’s worksheet** before the weekly discussion.
 - **Explore the Week 1 Journaling tab** for journaling prompts for the week
 - **Attend your Weekly Discussion** (Please inform your facilitator if you are unable to make it for the week)
+
+👉 **Ready? Head to this week's worksheet:**
+
+::card[[../Lenses/ET W1 - Worksheet - My Foundations to Impact|Week 1 Worksheet: My Foundations to Impact]]
