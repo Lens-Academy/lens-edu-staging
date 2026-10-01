@@ -1,7 +1,7 @@
 ---
 id: 'adce1b1e-d365-440d-8d28-e428832529aa'
 title: "Week 2 Worksheet"
-reading_minutes: 5
+reading_minutes: 60
 tutor_minutes: 0
 tags: [wip]
 ---
