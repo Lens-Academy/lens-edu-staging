@@ -92,3 +92,7 @@ content::
 - **Prepare for your Weekly Discussion.** Please begin working on **this week’s worksheet** before the weekly discussion, especially if you’re in the mastermind for this week!
 - **Explore the Week 2 Journaling tab** for journaling prompts for the week
 - **Attend your Weekly Discussion** (please inform your facilitator if you are unable to make it for the week)
+
+👉 **Ready? Head to this week's worksheet:**
+
+::card[[../Lenses/ET W2 - Worksheet - Selecting Your High-Impact Problem|Week 2 Worksheet: Selecting Your High-Impact Problem]]
