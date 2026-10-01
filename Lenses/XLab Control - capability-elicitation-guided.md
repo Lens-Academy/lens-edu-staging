@@ -204,7 +204,7 @@ id:: bf612948-2354-48de-9d65-4bbf8f5d2922
 content:: What is sandbagging?
 optional:: true
 assessment-instructions:: Score out of 100. 60: the model (or other actor) deliberately, for strategic reasons, performs worse than it is able to, rather than failing out of real inability. 40: it does this on a task or evaluation where its ability is being judged, so it appears less capable than it really is. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Strategic underperformance on a task or evaluation: the actor performs worse than it is able to, so the evaluation underestimates the capability of the actor."
-feedback-instructions:: Reply in one or two sentences. Do not over-validate. Avoid generic praise (great job, excellent, well done). Do not ask a follow-up question.
+feedback-instructions:: Reply in one or two sentences; if anything is missing or wrong, name the most important thing. Do not over-validate. Avoid generic praise (great job, excellent, well done). Do not ask a follow-up question.
 
 #### Question: Open
 id:: cae89261-d3d8-4484-abbe-0ea1e3c6d669

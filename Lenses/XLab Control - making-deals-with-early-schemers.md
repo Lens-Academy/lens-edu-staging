@@ -156,7 +156,7 @@ id:: 4797bc47-f9ab-4f38-8eaa-f7895f0fc426
 content:: Name factors that would harm human credibility in deals with AIs.
 max-chars:: 600
 assessment-instructions:: Score out of 100. 50 for each of up to two distinct factors: humans' record of cunning and breaking promises, historically and possibly in a tense future with competing AI developers; AIs knowing that humans deliberately teach them synthetic facts, that is, lies; a politically significant fraction of humans actively dismissing AI welfare or rights. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Humans' record of breaking promises, AIs knowing that humans try to teach them lies, and a politically significant fraction of humans actively dismissing AI welfare or rights."
-feedback-instructions:: Two or three sentences is enough. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). This is a one-turn response; tell them to move on. If the learner says they do not understand, ask what a lab currently does to its models that an AI would count against it, rather than repeating the question.
+feedback-instructions:: Two or three sentences is enough; if anything is missing or wrong, name the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). This is a one-turn response; tell them to move on. If the learner says they do not understand, ask what a lab currently does to its models that an AI would count against it, rather than repeating the question.
 
 #### Question: Open
 id:: 213224e6-625a-4bcd-aadb-fcb40321547a
