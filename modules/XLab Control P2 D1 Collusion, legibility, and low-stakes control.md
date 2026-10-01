@@ -5,7 +5,7 @@ title: "Collusion, legibility, and low-stakes control"
 tags:
   - work-in-progress
 ---
-%% Day 1 of AI Control Part 2 (five-day split of XLab's seven-module track, September 2026). Core self-study 257 minutes. Lens order follows XLab's track. %%
+%% Day 1 of AI Control Part 2 (five-day split of XLab's seven-module track, September 2026). Core self-study 285 minutes (lens times re-estimated 2026-10-01 with tutor time counted per exercise, discussion included: 155 reading, 130 tutor). Lens order follows XLab's track. %%
 
 
 

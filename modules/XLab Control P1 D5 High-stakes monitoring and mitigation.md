@@ -5,7 +5,7 @@ title: "Unit 5: High-stakes monitoring and mitigation"
 tags:
   - work-in-progress
 ---
-%% Day 5 of AI Control Part 1 (five-day split of XLab's seven-module track, September 2026). Core self-study 367 minutes including tutor time (Ctrl-Z split into two lenses and every lens re-estimated, September 2026), plus about 38 minutes for the five end-of-unit learning-outcome tests; optional lenses add 25. Learning outcomes added September 2026, with five small practice questions (win-continue-lose, systems-architecture, control-monitoring-in-deployments, Ctrl-Z part 2, settings for high-stakes control); their tests render at the end of the unit. Lens order follows XLab's track. %%
+%% Day 5 of AI Control Part 1 (five-day split of XLab's seven-module track, September 2026). Core self-study 401 minutes (lens times re-estimated 2026-10-01 with tutor time counted per exercise, discussion included: 228 reading, 173 tutor) (Ctrl-Z split into two lenses and every lens re-estimated, September 2026), plus about 38 minutes for the five end-of-unit learning-outcome tests; optional lenses add 25. Learning outcomes added September 2026, with five small practice questions (win-continue-lose, systems-architecture, control-monitoring-in-deployments, Ctrl-Z part 2, settings for high-stakes control); their tests render at the end of the unit. Lens order follows XLab's track. %%
 
 
 
