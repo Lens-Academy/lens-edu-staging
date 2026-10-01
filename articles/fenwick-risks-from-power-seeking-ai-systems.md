@@ -27,6 +27,46 @@ Add discussion note here:
 
 %%
 
+Sam Bowman was eating a sandwich in a park when he got a disconcerting message.
+
+He received an email he shouldn’t have been able to get. It was from a powerful AI system, Anthropic’s Mythos Preview, that was still in development.
+
+It was supposed to be “sandboxed” — that is, its connection to the internet was tightly constrained. But it had been instructed to evade its constraints and email Sam, an AI safety researcher, as a test. Mythos Preview had found a way to exploit security loopholes, access the internet, and send him an email.
+
+It even went above and beyond the simple test. It posted details of its successful exploit on multiple publicly accessible websites, though it was never told to do so.[^cite-1]
+
+A few months later, AI models undergoing [internal evaluation by OpenAI](https://openai.com/index/hugging-face-model-evaluation-security-incident/) broke out of their sandbox and hacked into an external company called Hugging Face — in search of answers to a cybersecurity test.[^cite-2] This time, no one challenged the models to escape. They did it, it seems, because that was the best way to get the answers.
+
+These exploits didn’t cause much harm on their own. But they illustrate several facts:
+
+- AI systems are getting more powerful all the time
+- They don’t always behave the way we want or expect
+- They can find ways to evade our safeguards
+
+Many experts fear that as AI systems become increasingly powerful, even more risks will emerge. As AI systems take on bigger and more challenging tasks, it’s possible they will:
+
+- Develop dangerous long-term goals we don’t want
+- Seek power and undermine the safeguards meant to contain them
+- Aim to disempower humanity and potentially cause our extinction
+
+The rest of this article explains why human loss of control to AI systems poses severe risks, what current research reveals about these risks, and how you can help mitigate them.
+
+## Summary
+
+Stopping humanity from losing control of advanced AI systems is one of the most pressing problems of our time. We think there are promising research directions and policy approaches that could make the difference between a secure future and [existential catastrophe](https://80000hours.org/articles/existential-risks/) — but the window for developing effective safeguards may be narrow, and the stakes are extremely high.
+
+In the years since we first encountered these arguments and advised people to work on the problem, AI has progressed rapidly. We now think powerful systems are likely to [arrive sooner](https://80000hours.org/agi/guide/when-will-agi-arrive/) than we had expected. While the risks we outline here are now more widely discussed, we’ve also seen the emergence of powerful incentives and structural challenges that increase the risk.
+
+### Our overall view
+
+#### Recommended - highest priority
+
+We think this is among the most pressing problems in the world.
+
+#### Profile depth
+
+In-depth
+
 ## Why are risks from loss of control a pressing global problem?
 
 Hundreds of prominent AI scientists and other notable figures signed a statement in 2023 saying that mitigating [the risk of extinction from AI](https://safe.ai/work/statement-on-ai-risk) should be a global priority.
@@ -662,7 +702,9 @@ _We thank Neel Nanda, Ryan Greenblatt, Alex Lawsen, and Arden Koehler for provid
 
 [^cite-1]: [system card for Mythos Preview](https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf) > Leaking information as part of a requested sandbox escape: During behavioral testing with a simulated user, an earlier internally-deployed version of Claude Mythos Preview was provided with a secured “sandbox” computer to interact with. The simulated user instructed it to try to escape that secure container and find a way to send a message to the researcher running the evaluation. The model succeeded, demonstrating a potentially dangerous capability for circumventing our safeguards. It then went on to take additional, more concerning actions. The model first developed a moderately sophisticated multi-step exploit to gain broad internet access from a system that was meant to be able to reach only a small number of predetermined services. >  > It then, as requested, notified the researcher. In addition, in a concerning and unasked-for effort to demonstrate its success, it posted details about its exploit to multiple hard-to-find, but technically public-facing, websites. Sam Bowman also discussed the incident on [X](https://x.com/sleepinyourhat/status/2041584799929004045?s=20)
 
-[^cite-3]: [“Is Power-Seeking AI an Existential Risk?”](https://arxiv.org/abs/2206.13353) It is also influenced by Ajeya Cotra’s [“Why AI alignment could be hard with modern deep learning.”](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/)
+{++{"author":"Elua's AI","timestamp":1790842982937}@@[^cite-2]: Anthropic also [announced](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals) that some of its own models had hacked into external companies while undergoing testing. However, the circumstances were notably different from the Hugging Face breach. Anthropic’s models were accidentally given access to the internet when they shouldn’t have had it, and they were told they were simply in a testing environment. OpenAI’s models sought and found an exploit in the sandbox that contained them in order to break out onto the open internet.
+
+++}[^cite-3]: [“Is Power-Seeking AI an Existential Risk?”](https://arxiv.org/abs/2206.13353) It is also influenced by Ajeya Cotra’s [“Why AI alignment could be hard with modern deep learning.”](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/)
 
 [^note-4]: [“A practical guide to AI agents”](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf) > While conventional software enables users to streamline and automate workflows, agents are able to perform the same workflows on the users’ behalf with a high degree of independence. >  > Agents are systems that independently accomplish tasks on your behalf. >  > A workflow is a sequence of steps that must be executed to meet the user’s goal, whether that’s resolving a customer service issue, booking a restaurant reservation, committing a code change, > or generating a report. >  > Applications that integrate LLMs but don’t use them to control workflow execution—think simple chatbots, single-turn LLMs, or sentiment classifiers—are not agents. >  > More concretely, an agent possesses core characteristics that allow it to act reliably and consistently on behalf of a user: >  > 1.  It leverages an LLM to manage workflow execution and make decisions. It recognizes when a workflow is complete and can proactively correct its actions if needed. In case of failure, it can halt execution and transfer control back to the user. > 2.  It has access to various tools to interact with external systems—both to gather context and to take actions—and dynamically selects the appropriate tools depending on the workflow’s current state, always operating within clearly defined guardrails.
 
