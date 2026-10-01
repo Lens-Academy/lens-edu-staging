@@ -193,7 +193,7 @@ Ask what they found surprising or new. Check if they can explain `<key concept>`
 - Introduction before the reading
 - Prompt after the reading (how to engage with the chatbot)
 
-**Article segment**: Links to the source article; `from::`/`to::` anchors define the excerpt. Subsequent `#### Article` segments inherit the source.
+**Article segment**: Links to the source article; `from::`/`to::` anchors define the excerpt. Subsequent `#### Article` segments inherit the source. Add `hide-author:: true` to quote it without crediting the author (sidebar and byline; title, date and "Read original" stay).
 
 **Chat section**: Instructions for the AI tutor
 - TLDR summary of the reading

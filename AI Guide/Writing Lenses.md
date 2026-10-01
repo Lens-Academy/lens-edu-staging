@@ -97,7 +97,7 @@ Fields per segment:
 
 - `#### Text`: required `content`. Optional: `optional`.
 - `#### Chat`: required `instructions`. Optional: `hidePreviousContentFromUser`, `hidePreviousContentFromTutor`.
-- `#### Article`: none required. Optional: `source`, `from`, `to`, `optional`.
+- `#### Article`: none required. Optional: `source`, `from`, `to`, `optional`, `hide-author`.
 - `#### Video`: none required. Optional: `source`, `from`, `to`, `optional`.
 - Question segments: use [[../Lenses/Response to question segments]] as the single reference for types, fields, defaults, syntax, and grading behavior.
 - `#### Roleplay`: required `id`, `content`, `ai-instructions`. Optional: `opening-message`, `assessment-instructions`, `user-customizable`, `feedback`, `optional`.
@@ -113,6 +113,8 @@ A bare `#### Question` is legacy syntax. Do not write it in new or edited conten
 **Chat**: open AI-tutor discussion. `instructions::` briefs the tutor (topics to explore, persona, boundaries).
 
 **Article**: embeds an excerpt of an `articles/` file. `from::`/`to::` are exact text anchors quoted from the article ("start here", "stop here"). **Both anchors are inclusive:** the excerpt contains the text matched by `from::` and the text matched by `to::` (this is not a half-open range). Each anchor is independent: only `from::` reads to the end, only `to::` reads from the start, neither embeds the whole article. Text outside the excerpt is shown collapsed, so anchors need only bracket the assigned part. Anchors must match the article file character-exactly (watch curly quotes); copy them from the stored article via `read`, never from a summarizing web fetch.
+
+**Hiding the author:** `hide-author:: true` on an `#### Article` (or `#### Embed`) segment quotes the article without crediting its author. The name leaves this lens's sidebar entry, the byline, the read-aloud intro and the tutor's source line; the title, date and "Read original" link stay. One `hide-author::` on any excerpt hides that article's author for the whole lens, and other lenses using the same article still credit it. Live example: "Quoting without the author" in [[../modules/main-demo-module]].
 
 **Video**: same idea for `video_transcripts/` files; `from::`/`to::` are timestamps (`M:SS` or `H:MM:SS`), `from::` defaults to `0:00`, `to::` to the end.
 
