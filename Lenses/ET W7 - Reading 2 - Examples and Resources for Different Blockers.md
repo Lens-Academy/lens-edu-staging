@@ -281,3 +281,7 @@ Your impactful career, like your thesis, isn't a fixed destination you arrive at
 - **Week 7 Worksheet on Unblocking Your Career Path.** Work on your worksheet before the discussion, especially if you’re in the mastermind for this week!
 - **Explore this week’s Journaling tab** for journaling prompts for the week
 - **Attend your Weekly Discussion** (please inform your facilitator if you are unable to make it for the week)
+
+👉 **Ready? Head to this week's worksheet:**
+
+::card[[../Lenses/ET W7 - Worksheet - Unblocking Your Impactful Career|Week 7 Worksheet: Unblocking Your Impactful Career]]
