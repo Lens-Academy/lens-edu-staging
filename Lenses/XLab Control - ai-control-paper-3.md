@@ -2,7 +2,7 @@
 id: 'b8716071-249e-46fd-9b6f-5afd2dff720c'
 title: "The AI control paper (3): the monitor as a classifier, and deferring to the trusted model"
 tldr: "Two monitors with the same AUC can catch 47% and 9% of attacks. When only the most suspicious 2% of code can be audited, what matters is how the monitor does in that thin tail. This part reads the monitor as a classifier, then adds a second lever: let the trusted model rewrite anything moderately suspicious."
-summary_for_tutor: "Part 3 of 4 of the founding AI control paper (Greenblatt, Shlegeris, Sachan, Roger, arXiv:2312.06942), continuing 'The AI control paper (2)', which covered upfront auditing, trusted monitoring's 62% safety and the red team's best response (opportunity cutoff and obfuscation effort). This part covers 3.2.1 (qualitative analysis of the monitor), the rest of 3.2 (why trusted monitoring beats upfront auditing, and why U cannot burn the audit budget), 3.2.2 (untrusted justification) and 3.3, defer to trusted and dynamic routing. Headline results: the monitor catches an attempted backdoor with probability 0.338 at a 2% false-positive rate; trusted monitoring with defer to trusted at 10% gives 83% / 93%, at 50% 100% / 51%. Three widgets: the monitor as a noisy classifier (its second tab is the two-monitors-one-AUC comparison); the defer-to-trusted demo, where one slider moves the defer threshold d (default 10%, the paper's defer-to-trusted-10%) and the learner sees the defer band on the suspicion distributions and a stacked chart of what happens to each attack as d grows (caught, deferred to T, deployed but broken, successfully deployed), against a best-responding red team; and, after the summary text, the control game (XLab's full dashboard): audit budget, defer band and monitor quality against a best-responding red team, with the suspicion distributions and the safety/usefulness frontier. The red team's side of the same model (attack-rate hump, subtlety, best response) is in part 2. Note that the defer demo's d is the defer threshold (top d of suspicion, audit band included), while the control game's 'defer band' slider is the band's width above the 2% audit line; both give 81% safety and 92% usefulness at their defaults. The AUC-versus-catch-rate conclusion lives in the Note callout that follows the staged 'same number, different safety' questions rather than inside the monitor widget, where it would hand the learner the answers before they commit. The revealed answers live in the assessment-instructions, so do not hand them to the learner before they answer."
+summary_for_tutor: "Part 3 of 4 of the founding AI control paper (Greenblatt, Shlegeris, Sachan, Roger, arXiv:2312.06942), continuing 'The AI control paper (2)', which covered upfront auditing, trusted monitoring's 62% safety and the red team's best response (opportunity cutoff and obfuscation effort). This part covers 3.2.1 (qualitative analysis of the monitor), the rest of 3.2 (why trusted monitoring beats upfront auditing, and why U cannot burn the audit budget), 3.2.2 (untrusted justification) and 3.3, defer to trusted and dynamic routing. Headline results: the monitor catches an attempted backdoor with probability 0.338 at a 2% false-positive rate; trusted monitoring with defer to trusted at 10% gives 83% / 93%, at 50% 100% / 51%. Seven widgets, in XLab's order: the monitor as a noisy classifier (one monitor: separation d', ROC, AUC, catch rate at 2% FPR); three stage figures inside the staged 'same number, different safety' questions (stage 1 and 2: only the ROC curves of monitors A and B with their AUCs, B locked at 0.92 and then 0.97, no catch rates, so the learner predicts from the curve shapes; stage 3: the full figure with B's AUC free, distributions and catch rates); the 'Same number, different safety' demo after the questions (one shared AUC slider, A catches about 47% and B about 9% at 0.92); the defer-to-trusted demo, where one slider moves the defer threshold d (default 10%, the paper's defer-to-trusted-10%) and the learner sees the defer band on the suspicion distributions and a stacked chart of what happens to each attack as d grows (caught, deferred to T, deployed but broken, successfully deployed), against a best-responding red team; and, after the summary text, the control game (XLab's full dashboard): audit budget, defer band and monitor quality against a best-responding red team, with the suspicion distributions and the safety/usefulness frontier. The red team's side of the same model (attack-rate hump, subtlety, best response) is in part 2. Note that the defer demo's d is the defer threshold (top d of suspicion, audit band included), while the control game's 'defer band' slider is the band's width above the 2% audit line; both give 81% safety and 92% usefulness at their defaults. The AUC-versus-catch-rate conclusion lives in the Note callout that follows the staged 'same number, different safety' questions rather than inside the monitor widget, where it would hand the learner the answers before they commit. The revealed answers live in the assessment-instructions, so do not hand them to the learner before they answer."
 reading_minutes: 40
 tutor_minutes: 10
 tags: []
@@ -23,8 +23,6 @@ The two histograms in Figure 4 are the picture a signal-detection framing makes 
 
 The widget below models the monitor as two equal-variance Gaussians and lets you drag its quality, the separation $d'$ between the innocent and backdoored means. Watch the ROC curve and AUC respond, and watch the operating point at the blue team's fixed 2% false-positive threshold: even a fairly good monitor catches only a fraction of backdoors there, which is the "many false negatives" the paper describes. The default setting ($d' \approx 1.64$, AUC $\approx 0.88$) reproduces the paper's reported result, a 0.338 probability that an attempted backdoor is audited at a 2% false-positive rate. Real suspicion scores are not Gaussian; this is an idealization for building intuition, not a fit to the paper's data.
 :::
-
-The second tab sets up a comparison you will need in a moment.
 
 #### Widget
 source:: [[../widgets/xlab-control-monitor-classifier]]
@@ -77,7 +75,10 @@ tone:: amber
 
 #### Text
 content::
-Three stages: two monitor comparisons that come out backwards, then the arithmetic that explains both. Use the second tab of the widget above, and commit to an answer before you move the sliders.
+Three stages: two monitor comparisons that come out backwards, then the arithmetic that explains both. Each stage has its own figure just above its question; commit to an answer before you read further down the page.
+
+#### Widget
+source:: [[../widgets/xlab-control-roc-stage-1]]
 
 #### Question: Open
 id:: b1e9f906-6e8c-4270-be8f-c4804e4af47c
@@ -87,6 +88,9 @@ Compared to Monitor A, how many of the attacks does Monitor B catch: more, about
 assessment-instructions:: Score out of 100. 40: the direction: Monitor B catches fewer attacks than Monitor A. 30: the size: far fewer, less than half as many (at this calibration A catches about 47% and B about 9%); "somewhat fewer" earns 10 of these 30. 30: the reason points at what matters under a 2% audit budget: how each monitor does at the low-false-positive end of its ROC curve, around 2%, or equivalently the tight spread of B's attack scores relative to the audit threshold; a reason based on the area under the curve earns none of these 30. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "At this calibration Monitor A catches about 47% of attacks and Monitor B about 9%."
 feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
+#### Widget
+source:: [[../widgets/xlab-control-roc-stage-2]]
+
 #### Question: Open
 id:: 829a8e28-a020-4f50-9dbd-1f456bb27df1
 content:: **Stage 2: surely 0.97 beats 0.92?** Monitor B is now upgraded into a strictly stronger classifier: its AUC rises to 0.97, while A stays at 0.92. The audit budget is unchanged.
@@ -94,6 +98,9 @@ content:: **Stage 2: surely 0.97 beats 0.92?** Monitor B is now upgraded into a 
 Which monitor catches more attacks now? Commit to a direction and a rough magnitude, and note which part of the figure you used to decide.
 assessment-instructions:: Score out of 100. 50: the answer: they tie, or near enough (both catch about 47% of attacks); an answer that only says B does not clearly win earns 25 of these 50. 50: the reason: what decides it is each monitor's catch rate at the 2% false-positive operating point, not the overall AUC, and there the two monitors are level. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 20 if the answer confidently says B now catches far more. Model answer, for the feedback, not a grading checklist: "They tie: at the 2% operating point both catch ≈ 47% of attacks (47.3% vs 47.2%, from the same calibrated model). A five-point AUC advantage does not buy Monitor B more safety in this case."
 feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
+
+#### Widget
+source:: [[../widgets/xlab-control-roc-stage-3]]
 
 #### Question: Open
 id:: 742e9078-3ca5-441c-b48a-15baacd5c1b9
@@ -110,6 +117,9 @@ assessment-instructions:: Score out of 100. 50: the metric: the true-positive ra
 feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### End Callout
+
+#### Widget
+source:: [[../widgets/xlab-control-same-auc-different-safety]]
 
 #### Text
 content::

@@ -151,7 +151,7 @@ function drawDists(svg, curves, thrZ){
 // ---- ROC plot -----------------------------------------------------------
 function drawRoc(svg, monitors){
   svg.textContent = "";
-  var X0 = 26, W = 262, Y0 = 10, H = 118;
+  var X0 = 30, W = 258, Y0 = 10, H = 118;
   var xOf = function(f){ return X0 + f*W; };
   var yOf = function(t){ return Y0 + H - t*H; };
   svg.appendChild(svgEl("rect",{x:X0,y:Y0,width:W,height:H,fill:"none",stroke:"var(--border)","stroke-width":1}));
@@ -170,11 +170,14 @@ function drawRoc(svg, monitors){
     svg.appendChild(svgEl("path",{d:d.join(" "),fill:"none",stroke:m.color,"stroke-width":1.75}));
     svg.appendChild(svgEl("circle",{cx:xOf(BUDGET),cy:yOf(tprAt(m.mu,m.sd,BUDGET)),r:3,fill:m.color,stroke:"#fff","stroke-width":1}));
   });
-  svg.appendChild(txt(22, Y0+8, "1", "end"));
-  svg.appendChild(txt(22, Y0+H, "0", "end"));
-  svg.appendChild(txt(X0, 146, "FPR 0"));
-  svg.appendChild(txt(X0+W, 146, "FPR 1", "end"));
-  svg.appendChild(txt(X0+W/2, 146, "dotted line: the 2% audit budget", "middle"));
+  svg.appendChild(txt(26, Y0+8, "1", "end"));
+  svg.appendChild(txt(26, Y0+H, "0", "end"));
+  svg.appendChild(txt(X0, 146, "0"));
+  svg.appendChild(txt(X0+W, 146, "1", "end"));
+  svg.appendChild(txt(X0+W/2, 146, "FPR (innocent code flagged)", "middle"));
+  svg.appendChild(txt(xOf(BUDGET)+3, Y0+H-4, "2% audit budget"));
+  var yl = svgEl("text",{x:9,y:Y0+H/2,"font-size":9,fill:"var(--muted)","text-anchor":"middle",transform:"rotate(-90 9 " + (Y0+H/2) + ")"});
+  yl.textContent = "TPR (attacks caught)"; svg.appendChild(yl);
 }
 
 
