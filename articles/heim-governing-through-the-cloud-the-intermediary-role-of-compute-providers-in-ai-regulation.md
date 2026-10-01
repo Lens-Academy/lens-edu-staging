@@ -54,11 +54,11 @@ Governance Capacities — We propose that compute providers can leverage their c
 
 | Governance Capacities |  |  |  |
 | --- | --- | --- | --- |
-| Security | Record Keeping | Verification | Enforcement |
+| **Security** | **Record Keeping** | **Verification** | **Enforcement** |
 | Helping provide physical and cybersecurity measures to secure the AI model, related intellectual property, and personal and confidential data. | The selective collection, organization, and maintenance of high-level information of a compute provider’s infrastructure usage, such as a customer’s compute usage data.[^note-1] | Actively verifying customer identities, specific activities, and high-level AI systems’ properties. | Restriction or limitation of compute access to customers or workloads for non-compliant customers. |
-| Enables |  |  |  |
+| **Enables** |  |  |  |
 | Enables shared security standards to protect the public good, such as safeguarding critical infrastructure and helping prevent model theft. | Increases visibility into AI development, links customers and their usage to real-world actors, and enables post-incident attributions and forensics. | Ensures that the deployment and development of AI systems adhere to regulations or company policies and reported properties. | Directly impacts the capability of customers to develop or deploy advanced AI systems, ensuring adherence to rules. |
-| Examples |  |  |  |
+| **Examples** |  |  |  |
 | Help prevent IP (e.g., algorithms), model weights, and training data from being stolen by malicious actors.Help prevent attacks on large-scale deployments of foundational models that could shut down dozens of critical services nationwide. | Obtain insights into national compute use trends for policy formulation, such as compute distribution (e.g., US NAIRR).Enable monitoring for suspected violations of the reporting requirements under Executive Order 14110.Collect information on the environmental impact of AI compute use. | Confirm compliance with mandatory reporting over training compute thresholds.Verify compliance with data usage guidelines for frontier AI training.Verify if the deployed frontier AI system has an adequate license or certification. | Restrict access to customers lacking licenses as an AI developer for their system.Refuse to deploy an unlicensed or non-compliant AI model.Disable AI systems that demonstrate activity that is undesirable, uncontrollable, or in violation of regulations (e.g., computer worm-like AI system). |
 
 Table 1: Summary of the key governance capacities that compute providers can enable.

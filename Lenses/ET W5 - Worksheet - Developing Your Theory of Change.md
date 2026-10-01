@@ -53,13 +53,39 @@ content::
 
 Start with your outputs → which stakeholders will integrate them → what changes happen → what larger impact results. Feel free to add as many outputs and outcomes boxes as you need, and link each box to the specific boxes it leads to!
 
-#### Callout: 💡 See an example ToC diagram (click to open)
+#### Callout: 💡 See example ToC diagrams (click to open)
 tone:: neutral
 collapse:: closed
 
 #### Text
 content::
-![Diagram of ToC](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w5-worksheet-toc-diagram.png)
+\#### Example 1: A ToC diagram with named assumptions on each arrow
+
+This is what your finished diagram could look like: each arrow is labelled with how certain you are that one step leads to the next (Low / Med / High). The lowest-certainty link (here, whether a think tank will actually use the findings) is highlighted, since it's the one most worth testing first!
+
+![Example ToC for AI Safety policy research, with Low, Med and High certainty labels on each arrow: complete research analysing top policy recommendations for AI Safety, then think tank utilises findings to inform policy (Low), then policymakers implement safer AI Safety policies (Med), then AI Labs develop safer AI systems (Med), then overall societal safety and well-being (High)](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w5-toc-example-ai-safety-think-tank-65bf06f6.webp)
+
+| No. | Assumption | Level of Certainty | How to increase certainty |
+|---|---|---|---|
+| 1 | *Sample: A policy think tank will integrate my research findings.* | ***Low certainty** - I’m unsure if my research question is actually relevant to their work.* | ***Conduct expert interviews** with policy think tanks to ask a) what research they actually need, **and collaborate** with them on this research!* |
+
+---
+
+\#### Example 2: Global health
+
+*A stronger ToC may look like:* “My thesis evaluates the effectiveness of a new intervention implemented by a global health charity in Country X. I will partner with Charity Y and analyse internal data to assess whether the intervention significantly reduces mortality rates, and share the findings with the charity through a tailored report and presentation. If the findings are positive, the charity may scale the program nationally or use the results to secure additional funding. If the findings are negative, they could use the results to redesign or discontinue the intervention, improving the allocation of their limited resources.”
+
+![Example ToC for global health: publish thesis analysing a charity's intervention aimed at decreasing mortality rates in X country, then publish a tailored report or presentation to the charity, then charities utilise findings to improve interventions, then improved health through the charity's interventions, then improved progress on solving the world's most pressing problems](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w5-toc-example-global-health-charity-31ee7d29.webp)
+
+---
+
+\#### Example 3: AI safety
+
+*A stronger ToC might look like:* “My thesis focuses on a comparative analysis of safety protocols in AI model deployment. My goal is to work with Company X to influence the design of their internal governance policies. If adopted, these protocols could reduce risks of unintended model behavior.”
+
+![Example ToC for AI safety: publish thesis about AI Safety (i.e. mechanistic interpretability research), then disseminate findings to X company, then X company adopts findings, then reduced risk from AI models implemented by X company, then AI risk reduced, then improved well-being and flourishing](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w5-toc-example-ai-safety-company-ae979a06.webp)
+
+- This version is much stronger. It includes a clear research question, identifies a specific stakeholder (Company X), and outlines a pathway to impact: changing internal governance practices to make AI deployment safer. However, it still assumes a relatively linear and optimistic path, one that may not reflect the actual complexity or uncertainty involved.
 
 #### End Callout
 
