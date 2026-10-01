@@ -123,22 +123,26 @@ function drawRoc(svg){
     lab.setAttribute("font-size", 12); lab.setAttribute("font-weight", 600);
     svg.appendChild(lab);
   });
-  svg.appendChild(txt(22, Y0+8, "1", "end"));
-  svg.appendChild(txt(22, Y0+H, "0", "end"));
-  svg.appendChild(txt(X0, 152, "FPR: innocent flagged \u2192"));
-  var yl = svgEl("text",{x:10,y:Y0+H/2,"font-size":9,fill:"var(--muted)","text-anchor":"middle",transform:"rotate(-90 10 " + (Y0+H/2) + ")"});
+  svg.appendChild(txt(26, Y0+8, "1", "end"));
+  svg.appendChild(txt(26, Y0+H, "0", "end"));
+  svg.appendChild(txt(X0, 146, "0"));
+  svg.appendChild(txt(X0+W, 146, "1", "end"));
+  svg.appendChild(txt(X0+W/2, 146, "FPR (innocent code flagged)", "middle"));
+  var yl = svgEl("text",{x:9,y:Y0+H/2,"font-size":9,fill:"var(--muted)","text-anchor":"middle",transform:"rotate(-90 9 " + (Y0+H/2) + ")"});
   yl.textContent = "TPR (attacks caught)"; svg.appendChild(yl);
 }
 
 function render(){
-  drawRoc(document.getElementById("roc"));
-  var a = document.getElementById("auc");
-  a.textContent = "";
-  a.appendChild(document.createTextNode("AUC: "));
-  var b = document.createElement("b");
-  b.textContent = Math.abs(aucB - AUC_A) < 0.0005 ? "A = B = " + AUC_A.toFixed(2) : "A " + AUC_A.toFixed(2) + ", B " + aucB.toFixed(2);
-  a.appendChild(b);
-  document.getElementById("kbV").textContent = aucB.toFixed(2);
+  var muA = muFor(aucA, SD_A), muB = muFor(aucB, SD_B);
+  document.getElementById("kAV").textContent = aucA.toFixed(2);
+  document.getElementById("kBV").textContent = aucB.toFixed(2);
+  drawDists(document.getElementById("dA"), [{mu:0,sd:1,color:"var(--muted)"},{mu:muA,sd:SD_A,color:"var(--accent)"}], THR);
+  drawDists(document.getElementById("dB"), [{mu:0,sd:1,color:"var(--muted)"},{mu:muB,sd:SD_B,color:"var(--alt)"}], THR);
+  drawRocPlain(document.getElementById("roc"));
+  var a = document.getElementById("auc"); a.textContent = "AUC: ";
+  var bb = document.createElement("b");
+  bb.textContent = Math.abs(aucA - aucB) < 0.0005 ? "A = B = " + aucA.toFixed(2) : "A " + aucA.toFixed(2) + ", B " + aucB.toFixed(2);
+  a.appendChild(bb);
   save();
 }
 
@@ -147,18 +151,23 @@ function save(){
   if(!window.Lens || LOCKED) return;
   if(saveTimer) clearTimeout(saveTimer);
   saveTimer = setTimeout(function(){
-    Lens.saveState({aucB:aucB}, "Stage 1 ROC figure: Monitor A at AUC 0.92, the learner set Monitor B to AUC " + aucB.toFixed(3) + ".");
+    Lens.saveState({aucA:aucA, aucB:aucB}, "Stage 1 figure: the learner set Monitor A to AUC " + aucA.toFixed(3) + " and Monitor B to AUC " + aucB.toFixed(3) + ".");
   }, 400);
 }
 
-var inp = document.getElementById("kb");
-document.getElementById("kbN").textContent = LOCKED ? "Monitor B quality (locked for this stage)" : "Monitor B quality (AUC)";
-inp.disabled = LOCKED;
-inp.addEventListener("input", function(e){ aucB = Number(e.target.value)/1000; render(); });
+["A","B"].forEach(function(k){
+  var inp = document.getElementById("k" + k);
+  inp.disabled = LOCKED;
+  if(LOCKED) document.getElementById("k" + k + "N").textContent = "Monitor " + k + " quality (locked for this stage)";
+  inp.addEventListener("input", function(e){ var v = Number(e.target.value)/1000; if(k === "A") aucA = v; else aucB = v; render(); });
+});
 
 if(window.Lens && Lens.onState){
   Lens.onState(function(state){
-    if(!LOCKED && state && typeof state.aucB === "number"){ aucB = state.aucB; inp.value = String(Math.round(aucB*1000)); }
+    if(!LOCKED && state){
+      if(typeof state.aucA === "number"){ aucA = state.aucA; document.getElementById("kA").value = String(Math.round(aucA*1000)); }
+      if(typeof state.aucB === "number"){ aucB = state.aucB; document.getElementById("kB").value = String(Math.round(aucB*1000)); }
+    }
     render();
   });
 }
