@@ -55,6 +55,8 @@ Choose one or two areas you're seriously considering and spend time mapping the 
 - Apply for Mentorship with [Magnify Mentoring](https://www.magnifymentoring.org/)
 - Apply for 1:1 advising with [probably good](https://probablygood.org/advising/) [or 80,000 hours](https://80000hours.org/speak-with-us-o/?cs740_arm=a&cs740_experiment_version=v2)
 
+:::
+
 \### ❤️ Heart Blockers
 
 *Best resolved through honest self-reflection, speaking to close friends/therapist, exploring your emotions. Signs you may be blocked by a heart-related uncertainty:*
@@ -66,7 +68,7 @@ Choose one or two areas you're seriously considering and spend time mapping the 
 - Burnout or low energy, or uncertainty about whether this kind of work feels sustainable for you
 - Isolation, feeling like the people around you don't quite understand why this matters to you
 
-\#### A gentle four-step tool for working with Heart blockers
+:::callout {title="💛 A gentle four-step tool for working with Heart blockers" tone="purple"}
 
 When you're feeling stuck, you don't always need to immediately *fix* the feeling. Sometimes it helps to slow down enough to understand what's going on underneath it. This four-step tool, adapted from Sophie Aengenheyster at Rethink Wellbeing, offers a simple way to do that ([see full slidedeck here](https://drive.google.com/file/d/117KtR22hnvmoKHc31yM4r6Mqwj4N9B24/view?usp=drive_link))
 
