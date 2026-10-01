@@ -147,6 +147,8 @@ Examples of helpful resources for heart blockers
 - [*Self-Compassion* by Kristin Neff](http://self-compassion.org)
 - *The Gifts of Imperfection* by Brené Brown
 
+:::
+
 \### 🤝 Hand Blockers
 
 *Best resolved through action and experimentation! Signs you may be blocked by a hand-related uncertainty:*
@@ -155,9 +157,9 @@ Examples of helpful resources for heart blockers
 - Haven't applied to a fellowship or program yet
 - Haven't volunteered or tried the real work hands-on
 
-Potential next steps you can take to make progress on these blockers:
+\#### Potential next steps you can take to make progress on these blockers
 
-\#### Continue stakeholder interviews - Build relationships & get career advice
+:::callout {title="1. Continue stakeholder interviews - Build relationships & get career advice" tone="green" collapse="closed"}
 
 **Why:** **Build relationships while learning about your possible path.** Stakeholder interviews are a low-commitment way to test your career hypotheses, learn what different roles are actually like, and start building relationships with people you might eventually want to work with. Your thesis can also give you a natural reason to reach out and have a substantive conversation.
 
