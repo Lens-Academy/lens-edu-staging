@@ -313,10 +313,13 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
   }
 
   // ---------- state ----------
-  var store = { current: null, runs: {} };
-  var ui = { section: null, poolView: "excerpts", armed: null, focus: null, resetArmed: false, status: "", openWhy: {}, openQ: {} };
+  // runs: the active run per report. other: the run of the other mode, parked
+  // while the learner plays this one, so switching modes never loses a notebook.
+  var store = { current: null, runs: {}, other: {} };
+  var ui = { section: null, poolView: "excerpts", armed: null, focus: null, resetArmed: false, status: "", openWhy: {}, openQ: {}, lettersShownAt: 0, tightArmed: false, tightArmedAt: 0 };
   var completedSent = false;
   var resetTimer = null;
+  var tightTimer = null;
   var root = document.getElementById("root");
 
   function reportById(id) { for (var i = 0; i < REPORTS.length; i++) if (REPORTS[i].id === id) return REPORTS[i]; return null; }
