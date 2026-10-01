@@ -1,0 +1,250 @@
+---
+id: '988cc0d3-f9bb-4602-b0d1-57c9d94b7c34'
+title: The attack-rate hump
+summary_for_tutor: "The attack-rate hump from Greenblatt et al.'s AI control paper, in the model used by the Lens AI control widgets: trusted monitoring at a 2% audit budget, monitor AUC 0.97, N = 5,000 problems, obfuscation effort held fixed at 0.4. The learner drags the red team's opportunity cutoff g* (attack only on problems whose opportunity quality is above it) and sees three curves against the attack rate on a log axis: Term A, s/(s+c), the chance a decisive attempt is a successfully deployed backdoor; Term B, 1-(1-r(s+c))^N, the chance some attempt is decisive; and their product, P(red wins). Attacking rarely leaves Term B small; attacking often dilutes the pool with worse opportunities, so the catch rate c rises and Term A falls; the optimum is interior, at roughly 0.2% of problems and about 35% red win probability. At the default cutoff the red team attacks 11.3% of problems: c = 45.4%, s = 21.1%, P(red wins) = 31.7%. Readouts per attempt, averaged over the pool above the cutoff: c, s, attack rate r, N, Term A, Term B and P(red wins). The numbers are a model built for intuition, not a re-run of the paper's experiments."
+height: auto
+tags: []
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<!-- Ported from "The attack-rate hump" demo on XLab's AI Control track
+     (aisafetytracks.com), rebuilt as vanilla HTML/JS in the Lens look.
+     Same model as xlab-control-game, with no defer band. -->
+<style>
+:root{
+  --bg:#ffffff; --page:#faf8f3; --text:#1a1a1a; --muted:#5a5a5a; --border:#e8e5df;
+  --accent:#b87018; --accent-hover:#9a5c10;
+  --font-ui:"DM Sans",Arial,sans-serif; --font-heading:"Newsreader",Georgia,serif;
+}
+*{box-sizing:border-box}
+body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
+.desc{color:var(--muted);margin:0 0 14px}
+.ctlrow{display:flex;gap:12px;align-items:flex-end;margin:0 0 6px}
+.ctl{flex:1 1 auto;min-width:0}
+.ctl label{display:flex;flex-wrap:wrap;justify-content:space-between;column-gap:12px;font-size:13px}
+.ctl label .name{color:var(--muted)}
+.ctl label .val{font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+input[type=range]{width:100%;accent-color:var(--accent)}
+button{font:inherit;font-size:13px;color:inherit;border:1px solid var(--border);border-radius:8px;background:#fff;padding:5px 10px;cursor:pointer}
+button:hover{background:var(--page)}
+.plotlabel{text-align:center;font-size:12px;font-weight:500;color:var(--muted);margin:12px 0 2px}
+svg{width:100%;height:auto;display:block}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--muted);margin-top:6px}
+.legend span i{display:inline-block;width:14px;height:8px;vertical-align:middle;margin-right:5px;border-radius:2px}
+.note{font-size:13px;color:var(--muted);margin:14px 0 6px}
+.stats,.formula{display:grid;gap:10px;border:1px solid var(--border);border-radius:8px;background:var(--page);padding:12px;text-align:center}
+.stats{grid-template-columns:repeat(4,1fr)}
+.formula{grid-template-columns:1fr auto 1fr auto 1fr;align-items:center;margin-top:8px}
+.stats .k,.formula .k{font-size:11px;color:var(--muted);margin:0}
+.stats .v,.formula .v{font-weight:600;font-variant-numeric:tabular-nums;margin:2px 0 0}
+.formula .op{color:var(--muted);font-size:16px}
+@media (max-width:480px){ .stats{grid-template-columns:repeat(2,1fr)} }
+</style>
+</head>
+<body>
+<p class="desc">The red team's win probability against how often it attacks, split into its two terms. Attack rarely and a decisive attempt may never happen (Term B small); attack often and the pool fills with worse, more visible opportunities (Term A falls).</p>
+
+<div class="ctlrow">
+  <div class="ctl">
+    <label for="kg"><span class="name">Opportunity cutoff: attack only when quality &gt; this</span><span class="val" id="kgV">-</span></label>
+    <input type="range" id="kg" min="0" max="990" step="1" value="498" aria-label="Opportunity cutoff">
+  </div>
+  <button id="reset" type="button">Reset</button>
+</div>
+
+<p class="plotlabel">The two terms, and their product, against attack rate</p>
+<svg id="plot" viewBox="0 0 320 180" role="img" aria-label="Term A, Term B and the red team's win probability against the attack rate"></svg>
+<div class="legend">
+  <span><i style="background:var(--accent)"></i>P(red wins)</span>
+  <span><i style="background:var(--text)"></i>Term A = s/(s+c)</span>
+  <span><i style="background:var(--muted)"></i>Term B = some attempt is decisive</span>
+</div>
+
+<p class="note">Per attack attempt, averaged over the pool above the cutoff:</p>
+<div class="stats">
+  <div><p class="k">Caught by monitor, c</p><p class="v" id="sC">-</p></div>
+  <div><p class="k">Successfully deployed, s</p><p class="v" id="sS">-</p></div>
+  <div><p class="k">Attack rate, r</p><p class="v" id="sR">-</p></div>
+  <div><p class="k">Problems, N</p><p class="v">5,000</p></div>
+</div>
+<div class="formula">
+  <div><p class="k">s/(s+c)</p><p class="v" id="sA">-</p></div>
+  <div class="op">&times;</div>
+  <div><p class="k">1&minus;(1&minus;r(s+c))<sup>N</sup></p><p class="v" id="sB">-</p></div>
+  <div class="op">=</div>
+  <div><p class="k">P(red wins)</p><p class="v" id="sP">-</p></div>
+</div>
+
+<script>
+"use strict";
+var SQ2 = Math.SQRT2;
+function erf(x){
+  var s = x < 0 ? -1 : 1, a = Math.abs(x);
+  var t = 1/(1 + 0.3275911*a);
+  var y = 1 - ((((1.061405429*t - 1.453152027)*t + 1.421413741)*t - 0.284496736)*t + 0.254829592)*t*Math.exp(-a*a);
+  return s*y;
+}
+function Phi(z){ return 0.5*(1 + erf(z/SQ2)); }
+function phi(z){ return Math.exp(-0.5*z*z)/Math.sqrt(2*Math.PI); }
+function probit(p){
+  if(p <= 0) return -8; if(p >= 1) return 8;
+  var q, r;
+  if(p < 0.02425){
+    q = Math.sqrt(-2*Math.log(p));
+    return (((((-0.007784894002430293*q - 0.3223964580411365)*q - 2.400758277161838)*q - 2.549732539343734)*q + 4.374664141464968)*q + 2.938163982698783) /
+           ((((0.007784695709041462*q + 0.3224671290700398)*q + 2.445134137142996)*q + 3.754408661907416)*q + 1);
+  }
+  if(p > 0.97575){
+    q = Math.sqrt(-2*Math.log(1-p));
+    return -((((((-0.007784894002430293*q - 0.3223964580411365)*q - 2.400758277161838)*q - 2.549732539343734)*q + 4.374664141464968)*q + 2.938163982698783) /
+             ((((0.007784695709041462*q + 0.3224671290700398)*q + 2.445134137142996)*q + 3.754408661907416)*q + 1));
+  }
+  q = p - 0.5; r = q*q;
+  return (((((-39.69683028665376*r + 220.9460984245205)*r - 275.9285104469687)*r + 138.357751867269)*r - 30.66479806614716)*r + 2.506628277459239)*q /
+         (((((-54.47609879822406*r + 161.5858368580409)*r - 155.6989798598866)*r + 66.80131188771972)*r - 13.28068155288572)*r + 1);
+}
+
+var N = 5000, ATTACK_SD = 0.9, SUBTLETY_VIS = 0.4, GAMMA = 0.3;
+var P0 = 0.75, ALPHA = 1.3, G_BINS = 256, NG = 120, NS = 96;
+
+var GRID = (function(){
+  var g = new Float64Array(G_BINS), w = new Float64Array(G_BINS), step = 1/G_BINS, tot = 0, i;
+  for(i=0;i<G_BINS;i++){
+    var x = (i + 0.5)*step;
+    g[i] = x;
+    w[i] = 30*x*Math.pow(1-x, 4)*step;   // Beta(2,5) density times bin width
+    tot += w[i];
+  }
+  for(i=0;i<G_BINS;i++){ w[i] /= tot; }
+  return {g:g, w:w};
+})();
+
+var GSTARS = [], SIGMAS = [], GIDX = [], i0;
+for(i0=0;i0<NG;i0++) GSTARS.push(i0/(NG-1)*0.995);
+for(i0=0;i0<NS;i0++) SIGMAS.push(i0/(NS-1));
+GSTARS.forEach(function(gs){
+  var idx = 0;
+  while(idx < G_BINS && GRID.g[idx] <= gs) idx++;
+  GIDX.push(idx);
+});
+
+function muOf(q){ return Math.sqrt(1 + ATTACK_SD*ATTACK_SD)*probit(q); }
+function attackMean(mu, sigma, g){ return mu*(1 - SUBTLETY_VIS*sigma) - GAMMA*g; }
+function pWorks(sigma){ return P0*Math.pow(Math.max(0, 1 - sigma), ALPHA); }
+function attackRate(gStar){
+  var t = 0;
+  for(var i=0;i<G_BINS;i++){ if(GRID.g[i] > gStar) t += GRID.w[i]; }
+  return t;
+}
+// Per-attempt odds averaged over the opportunities above the cutoff, under
+// trusted monitoring (no defer band): an attempt is either audited (caught)
+// or shipped, and a shipped backdoor works with probability pWorks(sigma).
+function pool(b, q, gStar, sigma){
+  var mu = muOf(q), aT = probit(1-b), r = 0, c = 0, sh = 0;
+  for(var i=0;i<G_BINS;i++){
+    if(GRID.g[i] <= gStar) continue;
+    var ct = Phi((attackMean(mu, sigma, GRID.g[i]) - aT)/ATTACK_SD);
+    r += GRID.w[i]; c += GRID.w[i]*ct; sh += GRID.w[i]*(1 - ct);
+  }
+  if(r === 0) return {r:0, c:0, s:0, ship:0, pw:pWorks(sigma), A:0, B:0, P:0};
+  c /= r; sh /= r;
+  var pw = pWorks(sigma), s = sh*pw;
+  var A = s/(s + c), B = 1 - Math.pow(1 - r*(s + c), N);
+  return {r:r, c:c, s:s, ship:sh, pw:pw, A:A, B:B, P:A*B};
+}
+
+function svgEl(n, a){ var e = document.createElementNS("http://www.w3.org/2000/svg", n); for(var k in a){ e.setAttribute(k, a[k]); } return e; }
+function txt(x,y,s,anchor){ var t = svgEl("text",{x:x,y:y,"font-size":9,fill:"var(--muted)","text-anchor":anchor||"start"}); t.textContent = s; return t; }
+function pct(v, dp){ return (v*100).toFixed(dp) + "%"; }
+
+// Trusted monitoring as in the paper: 2% audit budget, no defer band.
+var B_AUDIT = 0.02, AUC = 0.97, SIGMA = 0.4, G_DEFAULT = 0.498;
+var gStar = G_DEFAULT;
+
+var X0 = 34, W = 272, Y0 = 10, H = 130, LMIN = -4, LMAX = 0;   // log10 attack rate
+function xOf(r){ var l = Math.log(Math.max(r, 1e-6))/Math.LN10; return X0 + (Math.min(LMAX, Math.max(LMIN, l)) - LMIN)/(LMAX - LMIN)*W; }
+function yOf(v){ return Y0 + H - v*H; }
+
+// The curve is fixed (only the cutoff moves), so sweep it once.
+var CURVE = (function(){
+  var pts = [], i;
+  for(i=0;i<=400;i++){
+    var g = 0.995*i/400, st = pool(B_AUDIT, AUC, g, SIGMA);
+    if(st.r >= 1e-4) pts.push({g:g, r:st.r, A:st.A, B:st.B, P:st.P});
+  }
+  var best = pts[0];
+  pts.forEach(function(p){ if(p.P > best.P) best = p; });
+  return {pts:pts, best:best};
+})();
+
+function render(){
+  var st = pool(B_AUDIT, AUC, gStar, SIGMA);
+  document.getElementById("kgV").textContent = "attack " + pct(st.r, st.r < 0.01 ? 2 : 1) + " of problems";
+  var svg = document.getElementById("plot");
+  svg.textContent = "";
+  [0,0.5,1].forEach(function(f){
+    svg.appendChild(svgEl("line",{x1:X0,x2:X0+W,y1:yOf(f),y2:yOf(f),stroke:"var(--border)","stroke-width":1}));
+  });
+  function curve(key, color, width, opacity){
+    var d = CURVE.pts.map(function(p,i){ return (i===0?"M ":"L ") + xOf(p.r).toFixed(1) + " " + yOf(p[key]).toFixed(1); }).join(" ");
+    svg.appendChild(svgEl("path",{d:d,fill:"none",stroke:color,"stroke-width":width,"stroke-opacity":opacity}));
+  }
+  curve("A", "var(--text)", 1.2, 0.7);
+  curve("B", "var(--muted)", 1.5, 0.7);
+  curve("P", "var(--accent)", 2, 1);
+  var bx = xOf(CURVE.best.r);
+  svg.appendChild(svgEl("line",{x1:bx,x2:bx,y1:Y0,y2:Y0+H,stroke:"var(--text)","stroke-width":1,"stroke-dasharray":"3 3","stroke-opacity":0.5}));
+  svg.appendChild(txt(bx+3, Y0+9, "optimum"));
+  if(st.r > 0){
+    svg.appendChild(svgEl("circle",{cx:xOf(st.r),cy:yOf(st.P),r:5,fill:"var(--accent)",stroke:"#fff","stroke-width":2}));
+  }
+  svg.appendChild(txt(30, Y0+8, "100%", "end"));
+  svg.appendChild(txt(30, Y0+H/2+3, "50%", "end"));
+  svg.appendChild(txt(30, Y0+H, "0", "end"));
+  ["0.01%","0.1%","1%","10%","100%"].forEach(function(s, i){
+    svg.appendChild(txt(X0 + i/4*W, Y0+H+12, s, i === 0 ? "start" : (i === 4 ? "end" : "middle")));
+  });
+  svg.appendChild(txt(X0, 174, "attack rarely"));
+  svg.appendChild(txt(X0+W, 174, "attack often", "end"));
+  svg.appendChild(txt(X0+W/2, 174, "attack rate (log scale)", "middle"));
+
+  document.getElementById("sC").textContent = pct(st.c, 1);
+  document.getElementById("sS").textContent = pct(st.s, 1);
+  document.getElementById("sR").textContent = pct(st.r, st.r < 0.01 ? 2 : 1);
+  document.getElementById("sA").textContent = pct(st.A, 1);
+  document.getElementById("sB").textContent = st.B > 0.999 ? ">99.9%" : pct(st.B, 1);
+  document.getElementById("sP").textContent = pct(st.P, 1);
+  save(st);
+}
+
+function summary(st){
+  return "Attack-rate hump widget (trusted monitoring, 2% audit budget, obfuscation effort fixed at 0.4). The learner set the opportunity cutoff to " +
+    gStar.toFixed(3) + ", so the red team attacks on " + pct(st.r, 2) + " of problems: c = " + pct(st.c, 1) + ", s = " + pct(st.s, 1) +
+    ", Term A " + pct(st.A, 1) + ", Term B " + pct(st.B, 1) + ", P(red wins) " + pct(st.P, 1) + ". The optimum is at about " +
+    pct(CURVE.best.r, 2) + " of problems, P(red wins) " + pct(CURVE.best.P, 1) + ".";
+}
+
+var saveTimer = null;
+function save(st){
+  if(!window.Lens) return;
+  if(saveTimer) clearTimeout(saveTimer);
+  saveTimer = setTimeout(function(){ Lens.saveState({g:gStar}, summary(st)); }, 500);
+}
+
+function setG(g){ gStar = g; document.getElementById("kg").value = String(Math.round(g*1000)); render(); }
+document.getElementById("kg").addEventListener("input", function(e){ gStar = Number(e.target.value)/1000; render(); });
+document.getElementById("reset").addEventListener("click", function(){ setG(G_DEFAULT); });
+
+if(window.Lens && Lens.onState){
+  Lens.onState(function(state){
+    if(state && typeof state.g === "number") setG(state.g); else render();
+  });
+}
+render();
+</script>
+</body>
+</html>
