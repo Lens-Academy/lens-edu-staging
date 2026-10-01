@@ -85,6 +85,23 @@ source:: [[../Lenses/Nested callouts demo]]
 # Lens:
 source:: [[../Lenses/Article excerpt demo]]
 
+%% To quote an article without crediting its author, add `hide-author:: true` to the `#### Article` (or `#### Embed`) segment. The author then disappears from this lens's sidebar entry, the byline and the tutor's source line; the title, date and "Read original" link stay. One `hide-author::` on any excerpt hides that article's author for the whole lens, and other lenses using the same article still credit it. %%
+# Lens: Quoting without the author
+id:: 91382470-aa4f-4457-899a-6ed972df49db
+tldr:: Shows hide-author:: true on an Article segment: the quoted statement appears without the author credit in the sidebar and the byline.
+summary_for_tutor:: Demo lens for the hide-author:: field. A Text segment explains the field, then an Article segment quotes the one-sentence CAIS Statement on AI Risk with hide-author:: true, so the author is not shown.
+reading_minutes:: 1
+
+#### Text
+content::
+This lens quotes a statement without crediting its author. The `#### Article` below has `hide-author:: true`, so neither the sidebar entry nor the byline names the author; the date and "Read original" link stay.
+
+#### Article
+source:: [[../articles/safety-statement-on-ai-extinction-risk-cais]]
+from:: "**Mitigating the risk of extinction from AI"
+to:: "Signatories:"
+hide-author:: true
+
 %% This Lens shows Obsidian-style links that jump to headings or stable block markers within the same Lens. %%
 # Lens:
 source:: [[../Lenses/Same-lens links demo]]
