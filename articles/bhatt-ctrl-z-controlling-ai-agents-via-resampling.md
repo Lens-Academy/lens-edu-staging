@@ -181,10 +181,10 @@ Result: A safety score of 83.2% safety at 95% usefulness.
 
 |  | Defer | Basic DTR | DTR with Incrimination | Auditing after | Time Travel (Incrimination |
 | --- | --- | --- | --- | --- | --- |
-|  | to Trusted |  | in the Present | Three Strikes | in the Past) |
-| 99% Usefulness | 58.3% | 65.2% | 68.3% | 68.0% | 72.2% |
-| 95% Usefulness | 72.7% | 83.2% | 84.0% | 84.9% | 87.1% |
-| 90% Usefulness | 83.4% | 89.0% | 89.0% | 89.0% | 90.4% |
+|  | **to Trusted** |  | **in the Present** | **Three Strikes** | **in the Past)** |
+| 99% Usefulness | 58.3% | 65.2% | 68.3% | 68.0% | **72.2%** |
+| 95% Usefulness | 72.7% | 83.2% | 84.0% | 84.9% | **87.1%** |
+| 90% Usefulness | 83.4% | 89.0% | 89.0% | 89.0% | **90.4%** |
 
 Table 1: Safety scores for different protocols at 90%, 95%, and 99% usefulness
 
@@ -238,9 +238,9 @@ The red team and blue team both have tunable parameters for the use of untrusted
 
 |  | Defer to | Defer to | Time Travel (Incri |
 | --- | --- | --- | --- |
-|  | Trusted | Resample | -mination in the Past) |
+|  | **Trusted** | **Resample** | **-mination in the Past)** |
 | TM | 72.7% | 83.2% | 87.1% |
-| UM | 77.6% | 91.1% | 92.6% |
+| UM | 77.6% | 91.1% | **92.6%** |
 
 Table 2: Comparison at 95% usefulness. TM = Trusted Monitoring, UM = Untrusted Monitoring.
 
