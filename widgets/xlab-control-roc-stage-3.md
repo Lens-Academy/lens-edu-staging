@@ -45,18 +45,24 @@ svg{width:100%;height:auto;display:block}
 .stats .v{font-weight:600;font-variant-numeric:tabular-nums;margin:2px 0 0}
 .note{font-size:13px;color:var(--muted);margin-top:12px}
 @media (max-width:420px){ .stats{grid-template-columns:1fr} }
+input[type=range]:disabled{opacity:.55}
+.auc{text-align:center;font-size:13px;color:var(--muted);margin:6px 0 0}
+.auc b{color:var(--text);font-variant-numeric:tabular-nums}
 </style>
 </head>
 <body>
 <h2>Stage 3: What pins the operating point</h2>
-<p class="desc">Monitor B's slider is unlocked: explore freely. Monitor A stays at AUC 0.92.</p>
+<p class="desc">Both sliders are unlocked: explore freely.</p>
 
 <div class="ctlrow">
   <div class="ctl">
     <label for="ka"><span class="name">Monitor B quality (AUC)</span><span class="val" id="kaV">0.97</span></label>
     <input type="range" id="ka" min="800" max="980" step="1" value="970" aria-label="Monitor B quality (AUC)">
   </div>
-  <button id="reset" type="button">Reset</button>
+  <div class="ctl col">
+    <label for="kB"><span class="name" id="kBN">Monitor B quality (AUC)</span><span class="val" id="kBV">-</span></label>
+    <input type="range" id="kB" min="800" max="980" step="1" value="970" aria-label="Monitor B quality (AUC)">
+  </div>
 </div>
 
 <div class="legend">
@@ -67,21 +73,14 @@ svg{width:100%;height:auto;display:block}
 
 <div class="row">
   <div class="col"><p class="plotlabel">Monitor A: attacks spread wide</p>
-    <svg id="dA" viewBox="0 0 300 150" role="img" aria-label="Innocent and Monitor A attack score distributions with the 2% audit line"></svg>
-    <p class="caught">caught at 2%: <b id="cA">-</b></p></div>
+    <svg id="dA" viewBox="0 0 300 150" role="img" aria-label="Innocent and Monitor A attack score distributions with the 2% audit line"></svg></div>
   <div class="col"><p class="plotlabel">Monitor B: attacks compressed</p>
-    <svg id="dB" viewBox="0 0 300 150" role="img" aria-label="Innocent and Monitor B attack score distributions with the 2% audit line"></svg>
-    <p class="caught">caught at 2%: <b id="cB">-</b></p></div>
+    <svg id="dB" viewBox="0 0 300 150" role="img" aria-label="Innocent and Monitor B attack score distributions with the 2% audit line"></svg></div>
 </div>
 
 <p class="plotlabel" style="margin-top:12px">ROC curves</p>
 <svg id="roc" viewBox="0 0 300 150" role="img" aria-label="ROC curves of Monitor A and Monitor B"></svg>
-
-<div class="stats">
-  <div><p class="k">AUC, A and B</p><p class="v" id="sAuc">-</p></div>
-  <div><p class="k">A caught at 2%</p><p class="v" id="sA">-</p></div>
-  <div><p class="k">B caught at 2%</p><p class="v" id="sB">-</p></div>
-</div>
+<p class="auc" id="auc"></p>
 
 <script>
 "use strict";
@@ -181,38 +180,68 @@ function drawRoc(svg, monitors){
 }
 
 
-var SD_A = 1.0, SD_B = 0.4, AUC_A = 0.92, AUC_DEFAULT = 0.97;
-var auc = AUC_DEFAULT;   // Monitor B
+var SD_A = 1.0, SD_B = 0.4, LOCKED = false, A0 = 0.92, B0 = 0.97;
+var aucA = A0, aucB = B0;
+
+// The ROC chart with the 2% audit line but without the operating points on it:
+// the catch rates stay hidden.
+function drawRocPlain(svg){
+  svg.textContent = "";
+  var X0 = 30, W = 258, Y0 = 10, H = 118;
+  var xOf = function(f){ return X0 + f*W; }, yOf = function(t){ return Y0 + H - t*H; };
+  svg.appendChild(svgEl("rect",{x:X0,y:Y0,width:W,height:H,fill:"none",stroke:"var(--border)","stroke-width":1}));
+  svg.appendChild(svgEl("line",{x1:xOf(0),y1:yOf(0),x2:xOf(1),y2:yOf(1),stroke:"var(--muted)","stroke-width":1,"stroke-dasharray":"3 3","stroke-opacity":0.4}));
+  svg.appendChild(svgEl("line",{x1:xOf(BUDGET),x2:xOf(BUDGET),y1:Y0,y2:Y0+H,stroke:"var(--muted)","stroke-width":1,"stroke-dasharray":"2 2","stroke-opacity":0.6}));
+  svg.appendChild(txt(xOf(BUDGET)+3, Y0+H-4, "2% audit budget"));
+  [["A", muFor(aucA, SD_A), SD_A, "var(--accent)", 0.03, -14], ["B", muFor(aucB, SD_B), SD_B, "var(--alt)", 0.05, 6]].forEach(function(m){
+    var d = [], i;
+    for(i=0;i<=200;i++){
+      var t = 6 - 12*i/200;
+      d.push((i===0?"M ":"L ") + xOf(1 - Phi(t)).toFixed(1) + " " + yOf(Phi((m[1] - t)/m[2])).toFixed(1));
+    }
+    svg.appendChild(svgEl("path",{d:d.join(" "),fill:"none",stroke:m[3],"stroke-width":2}));
+    var lab = txt(xOf(m[4]) + m[5], yOf(tprAt(m[1], m[2], m[4])) + 4, m[0], "start", m[3]);
+    lab.setAttribute("font-size", 12); lab.setAttribute("font-weight", 600);
+    svg.appendChild(lab);
+  });
+  svg.appendChild(txt(26, Y0+8, "1", "end"));
+  svg.appendChild(txt(26, Y0+H, "0", "end"));
+  svg.appendChild(txt(X0, 146, "0"));
+  svg.appendChild(txt(X0+W, 146, "1", "end"));
+  svg.appendChild(txt(X0+W/2, 146, "FPR (innocent code flagged)", "middle"));
+  var yl = svgEl("text",{x:9,y:Y0+H/2,"font-size":9,fill:"var(--muted)","text-anchor":"middle",transform:"rotate(-90 9 " + (Y0+H/2) + ")"});
+  yl.textContent = "TPR (attacks caught)"; svg.appendChild(yl);
+}
 
 function render(){
-  var muA = muFor(AUC_A, SD_A), muB = muFor(auc, SD_B);
-  var tA = tprAt(muA, SD_A, BUDGET), tB = tprAt(muB, SD_B, BUDGET);
-  document.getElementById("kaV").textContent = auc.toFixed(2);
+  var muA = muFor(aucA, SD_A), muB = muFor(aucB, SD_B);
+  document.getElementById("kAV").textContent = aucA.toFixed(2);
+  document.getElementById("kBV").textContent = aucB.toFixed(2);
   drawDists(document.getElementById("dA"), [{mu:0,sd:1,color:"var(--muted)"},{mu:muA,sd:SD_A,color:"var(--accent)"}], THR);
   drawDists(document.getElementById("dB"), [{mu:0,sd:1,color:"var(--muted)"},{mu:muB,sd:SD_B,color:"var(--alt)"}], THR);
-  drawRoc(document.getElementById("roc"), [{mu:muA,sd:SD_A,color:"var(--accent)"},{mu:muB,sd:SD_B,color:"var(--alt)"}]);
-  document.getElementById("cA").textContent = (tA*100).toFixed(0) + "%";
-  document.getElementById("cB").textContent = (tB*100).toFixed(0) + "%";
-  document.getElementById("sAuc").textContent = AUC_A.toFixed(2) + " / " + auc.toFixed(2);
-  document.getElementById("sA").textContent = (tA*100).toFixed(1) + "%";
-  document.getElementById("sB").textContent = (tB*100).toFixed(1) + "%";
-  save(tA, tB);
+  drawRocPlain(document.getElementById("roc"));
+  var a = document.getElementById("auc"); a.textContent = "AUC: ";
+  var bb = document.createElement("b");
+  bb.textContent = Math.abs(aucA - aucB) < 0.0005 ? "A = B = " + aucA.toFixed(2) : "A " + aucA.toFixed(2) + ", B " + aucB.toFixed(2);
+  a.appendChild(bb);
+  save();
 }
 
 var saveTimer = null;
-function save(tA, tB){
-  if(!window.Lens) return;
+function save(){
+  if(!window.Lens || LOCKED) return;
   if(saveTimer) clearTimeout(saveTimer);
   saveTimer = setTimeout(function(){
-    Lens.saveState({auc:auc}, "Stage 3 figure. Monitor A at AUC 0.92; the learner set Monitor B to AUC " + auc.toFixed(3) +
-      ": Monitor A (attack-score spread 1.0) catches " + (tA*100).toFixed(1) + "% of attacks at a 2% audit budget, Monitor B (spread 0.4) " +
-      (tB*100).toFixed(1) + "%.");
+    Lens.saveState({aucA:aucA, aucB:aucB}, "Stage 3 figure: the learner set Monitor A to AUC " + aucA.toFixed(3) + " and Monitor B to AUC " + aucB.toFixed(3) + ".");
   }, 400);
 }
 
-function setAuc(v){ auc = v; document.getElementById("ka").value = String(Math.round(v*1000)); render(); }
-document.getElementById("ka").addEventListener("input", function(e){ auc = Number(e.target.value)/1000; render(); });
-document.getElementById("reset").addEventListener("click", function(){ setAuc(AUC_DEFAULT); });
+["A","B"].forEach(function(k){
+  var inp = document.getElementById("k" + k);
+  inp.disabled = LOCKED;
+  if(LOCKED) document.getElementById("k" + k + "N").textContent = "Monitor " + k + " quality (locked for this stage)";
+  inp.addEventListener("input", function(e){ var v = Number(e.target.value)/1000; if(k === "A") aucA = v; else aucB = v; render(); });
+});
 
 if(window.Lens && Lens.onState){
   Lens.onState(function(state){
