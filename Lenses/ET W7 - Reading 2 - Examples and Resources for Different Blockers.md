@@ -240,7 +240,9 @@ Look for organisations where you could contribute **a specific, useful skill**, 
 
 - [High-Impact Professionals' talent directory](https://www.highimpactprofessionals.org/find-a-job), [EA Forum people directory](https://forum.effectivealtruism.org/people-directory), [Freelancing for Good directory](https://freelancingforgood.com/freelancing-for-good-directory/), [List of EA Infrastructure projects](https://forum.effectivealtruism.org/posts/fs6XoTrz8Kj9Xvhjv/brief-advertisements-for-ea-infrastructure-projects-sept) (message the author)
 
-\#### Craft a strong resume or application
+:::
+
+:::callout {title="7. Craft a strong resume or application" tone="green" collapse="closed"}
 
 **Why:** **Turn your existing experience into evidence that you're a strong candidate.** You may already have relevant experience, but if your CV focuses mainly on responsibilities rather than what you actually achieved, employers may not see its value. Improving your applications can therefore increase the opportunities you get from the same underlying experience.
 
@@ -249,6 +251,8 @@ Look for organisations where you could contribute **a specific, useful skill**, 
 [How to make a good resume](https://probablygood.org/how-to-get-a-job/resume/) (Probably Good)
 
 [How to tackle job application questions](https://probablygood.org/how-to-get-a-job/application-questions/) (Probably Good)
+
+:::
 
 \## 4. Conclusion: Explore and Design Your Career
 
