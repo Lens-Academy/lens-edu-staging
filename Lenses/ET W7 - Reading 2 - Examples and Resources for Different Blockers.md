@@ -183,13 +183,17 @@ Browse programmes that match your interests, experience level and available time
 - [SPAR](https://sparai.org/) - part-time, remote research fellowship pairing you with an AI safety or policy mentor
 - [Sentient Futures: AIxAnimals](https://www.sentientfutures.ai/courses/aixanimals/) - 8-week course on AI and animal welfare careers
 
-More places to look -  filter for Fellowships or Internships:
+More places to look for Fellowships or Internships:
 
 - [80,000 Hours Job Board](https://jobs.80000hours.org/)
 - [Probably Good Job board](https://jobs.probablygood.org/)
 - [EA Opportunities Board](https://www.effectivealtruism.org/opportunities)
 
-\#### Volunteering
+💡 **Tip: make the most of the filters!** On each board, filter by **role type** (e.g. "Fellowship" or "Internship"), **cause area**, **location / remote**, and **experience level** (e.g. "Entry level" or "Student"), so you only see opportunities that actually fit you. Many boards also let you **save a search or sign up for email alerts**, so new opportunities that match your filters come straight to your inbox, which is a great way to keep exploring without having to check every week!
+
+:::
+
+:::callout {title="3. Volunteering" tone="green" collapse="closed"}
 
 **Why:** **Build trust and experiment before committing.** Volunteering can be a particularly useful career next step when you're still figuring out what you want. You can contribute to a real organisation, develop relevant skills, see what the work is actually like, and build relationships and trust — without needing to make a major career commitment first.
 
@@ -203,7 +207,9 @@ Look for organisations where you could contribute **a specific, useful skill**, 
 - [Probably Good Job board](https://jobs.probablygood.org/)
 - [EA Opportunities Board](https://www.effectivealtruism.org/opportunities)
 
-\#### Start or join your local/ university Effective Altruism Group
+:::
+
+:::callout {title="4. Start or join your local/ university Effective Altruism Group" tone="green" collapse="closed"}
 
 **Why:** **Build community, relationships and practical experience.** A local or university group can give you a low-barrier way to meet people interested in similar problems, learn about different career paths, practise organising and leadership, and become part of a community where opportunities often emerge organically.
 
