@@ -75,7 +75,6 @@ Before you read, what do you expect happens when you make the kinds of AI/ML sof
 Set a 5 minute timer if you've got one handy. Your phone will do nicely. Think, but don't overthink.
 
 
-max-time:: 8:00
 
 feedback-instructions:: The student is mid-exercise. They have read the hypothetical but NOT the author's answers, which come next in this lens.
 
@@ -119,7 +118,6 @@ Consider his five, and consider your answer from above. Answer three to five of 
 - Where do you think he might still be wrong?
 - What confused you, and why?
 
-max-time:: 6:00
 
 assessment-instructions:: The student has their own list and has now read the author's five answers.
 
@@ -157,7 +155,6 @@ In particular, write down in what ways you're reasoning from an *inside view* or
 
 Then two more lines, and they are part of the answer, not a bonus: which of his five scenarios carries your number, and one thing you could learn within the next year that would move it by twenty points. What would make at least 20% of the possible-worlds you're imagining turn out to be impossible?
 
-max-time:: 8:00
 
 assessment-instructions:: The student has read the author's five answers and is now committing to their own probability. They have NOT yet read the author's own answer to this question (his 90 percent, his inside view near 99, and his comparison with Ajeya Cotra's 50 percent). Do not reveal any of those numbers, and do not hint whether their number is high or low.
 
@@ -200,7 +197,6 @@ You committed to a number before reading his. He says 90 percent, with an inside
 
 Does your number move? Say by how much, and name which of his arguments moved it. If it does not move, say why none of them did.
 
-max-time:: 8:00
 
 assessment-instructions:: The student committed to their own probability in the previous question, BEFORE reading the author's answer. They have now read his Question Two: his 90 percent, his inside view near 99, and his comparison with Ajeya Cotra's 50 percent. They are saying whether their number moved.
 

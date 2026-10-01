@@ -39,7 +39,6 @@ Three pre-read questions.
 
 Your reasoning is at least as important as your number. Then scroll down to see the answer.
 {>>{"author":"lauren (chrome@what)","timestamp":1787828656913}@@we need the article to be spoiler-tagged or something?<<}
-max-time:: 5:00
 
 assessment-instructions:: The student has not seen METR's figures. They are in the next segment.
 

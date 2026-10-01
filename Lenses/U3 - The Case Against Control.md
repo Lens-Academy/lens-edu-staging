@@ -126,7 +126,6 @@ correct has done this exercise properly.
 
 Write 60 to 110 words. Short paragraphs. No lists.
 
-max-time:: 6
 
 #### Article
 source:: [[../articles/wentworth--the-case-against-ai-control-research]]

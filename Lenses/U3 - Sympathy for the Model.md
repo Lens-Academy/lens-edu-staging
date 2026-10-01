@@ -105,7 +105,6 @@ They have honored every request. Now describe, concretely, what happens to the s
 
 Then the real question. This looks like a tradeoff between being good to the systems and staying safe from them. Is that framing correct, or does it contain an assumption worth challenging? Argue for a position.
 
-max-time:: 10:00
 
 assessment-instructions:: The student has read both pieces and has re-examined the unit's empirical results under the welfare frame. This wedge question is not the test question.
 
