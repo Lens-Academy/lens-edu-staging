@@ -40,7 +40,6 @@ First let's have you guess the "base rates": how common would you guess jumps ar
 
 One line per guess. Give your reasoning too.
 
-max-time:: 6:00
 
 assessment-instructions:: The student has not seen any of the measured data. It is in the next segment.
 
@@ -99,7 +98,6 @@ Did any of the technologies you expected to have large jumps turn up in their re
 
 And, based on this article, does anything change about the intuitions you shared in the opening question?
 {>>{"author":"lauren (chrome@what)","timestamp":1787822052780}@@7:14:10<<}
-max-time:: 8:00
 
 assessment-instructions:: The student has committed to three guesses and has now read the measured figures.
 

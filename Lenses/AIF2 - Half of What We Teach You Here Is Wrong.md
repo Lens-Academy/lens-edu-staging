@@ -119,7 +119,6 @@ Three things, written as guesses. Nobody will hold you to them. At the end of ev
 
 Don't research this. It is a pre-test; sketch what seems plausible from what you already know. Be precise enough to be wrong. Expect to be surprised.
 
-max-time:: 12:00
 
 feedback-instructions:: The student is at the very start of the course and has just been told that half of what follows may be wrong, and that they will be asked to guess before most readings. They have now written three guesses: what should be done about AI in the next two years, what that is supposed to leave standing in two hundred years, and the mechanism they think connects the two.
 

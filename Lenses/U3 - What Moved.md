@@ -95,4 +95,3 @@ student whose model barely moved has done this correctly.
 
 Write 90 to 150 words. Short paragraphs. No lists.
 
-max-time:: 10

@@ -69,7 +69,6 @@ One line on where your own next hour goes. A track, a project from the menu, or 
 
 And one line quoting the sentence in your day-zero guess that most surprises you now.
 
-max-time:: 15:00
 
 feedback-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.

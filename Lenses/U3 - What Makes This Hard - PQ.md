@@ -21,7 +21,6 @@ Answer these three from wherever you currently are. Do not look anything up, and
 
 **3.** Someone claims to have solved it. Describe what they would have to show you. Be concrete: what is the demonstration, and what would you check?
 
-max-time:: 12:00
 assessment-instructions:: This is a pre-test taken BEFORE the student reads Soares on the sharp left turn or Wentworth on the pointers problem. Its purpose is to capture their untutored position so it can be compared afterwards.
 
 Do not preview either reading. Do not name either author, or use the terms "sharp left turn", "pointers problem", "latent variables", "distributional shift", "generalization", or "specification". If the student produces one of these ideas on their own, reflect it back in their words.

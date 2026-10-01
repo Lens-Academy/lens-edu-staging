@@ -31,7 +31,6 @@ Every factual claim your colleague makes is true. The fit really is 0.97, it rea
 
 Where does the argument stop being licensed by the data? And what would you have to know, that they have not told you, before the fourteen-month figure meant anything?
 
-max-time:: 10:00
 
 assessment-instructions:: The student has completed the compute lens (Fun with +12 OOMs, what compute buys) and How Long A Task (the METR task-length curve). Those are the tools this wedge wants. The student has not been assigned a reading on base rates for trend breaks, so do not expect one. Refer to lenses by name, never by number; numbering conventions differ across files.
 
@@ -77,7 +76,6 @@ content::
 
 The critique was the easy half. Now construct. Write two genuinely different trajectories for this benchmark over the next two years. They must differ in mechanism, not just in speed: name what drives each one (the trend's own momentum, the approach hitting a ceiling, the benchmark ceasing to measure the skill, anything you can defend). For each trajectory, give one observation checkable within a year or two that would count against it. Then the quiet part: name one assumption both of your trajectories share.
 
-max-time:: 15:00
 
 assessment-instructions:: The student has just critiqued the colleague's extrapolation and is now constructing the two-trajectory version of the same situation. This is the direct rehearsal for the module's graded test: two mechanism-distinct trajectories, a named driver for each, a checkable observation against each, and one shared assumption.
 
