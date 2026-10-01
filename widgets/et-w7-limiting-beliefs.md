@@ -1,0 +1,133 @@
+---
+id: 'f153cf1b-1777-44d7-a99c-0a686022334d'
+title: "Week 7 Limiting Beliefs & Reframes Table"
+summary_for_tutor: "A reflective journalling table for Week 7 of the Effective Thesis Accelerator. Each row is one limiting belief the learner holds about themselves and their ability to have an impact, with columns: Limiting Belief, Underlying Need (what need the belief might be protecting or signalling), and Possible Reframe (a kinder, more empowering version, as they would say to a close friend). Starts with 3 rows; the learner can add more. The saved summary lists every filled row. This is personal reflection: respond with warmth and curiosity, not judgement."
+height: auto
+tags: [wip]
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<style>
+:root { --text: #1a1a1a; --muted: #5a5a5a; --border: #e8e5df; --accent: #b87018; --soft: #faf8f3; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 4px 0; font: 14px/1.5 "DM Sans", Arial, sans-serif; color: var(--text); background: #fff; }
+.eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+.hint { color: var(--muted); font-size: 13px; margin: 0 0 10px; }
+.scroll { overflow-x: auto; border: 1px solid var(--border); border-radius: 8px; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border-right: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 0; vertical-align: top; }
+th:last-child, td:last-child { border-right: none; }
+tbody tr:last-child td { border-bottom: none; }
+th { background: var(--soft); font-weight: 600; font-size: 12px; text-align: left; padding: 8px; }
+th .sub { display: block; font-weight: 400; color: var(--muted); font-size: 11px; margin-top: 2px; }
+td.n { background: var(--soft); font-weight: 600; font-size: 12px; color: var(--muted); padding: 8px; text-align: center; white-space: nowrap; }
+textarea { width: 100%; min-height: 64px; border: none; resize: vertical; padding: 8px; font: inherit; color: inherit; background: transparent; }
+textarea:focus { outline: 2px solid var(--accent); outline-offset: -2px; }
+button { font: inherit; color: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 8px 12px; cursor: pointer; }
+button:hover { background: var(--soft); }
+button.primary { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+button.primary:hover { background: var(--accent); color: #fff; }
+button.remove { display: block; margin: 6px auto 0; padding: 2px 8px; font-size: 11px; color: var(--muted); }
+button:disabled { opacity: 0.5; cursor: default; }
+.actions { margin-top: 10px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.legend { font-size: 12px; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="eyebrow" id="eyebrow"></div>
+<p class="hint" id="hint"></p>
+<div class="scroll"><table id="t"></table></div>
+<div class="actions"><button type="button" class="primary" id="add"></button><span class="legend" id="msg"></span></div>
+<script>
+(function () {
+  var CONFIG = {"eyebrow": "My limiting beliefs & reframes", "hint": "Work through one belief per row: name the limiting belief, get curious about the need it might be protecting, then try a kinder, more empowering reframe. Add as many rows as you like. Your answers save automatically.", "addLabel": "+ Add another belief", "start": 3, "max": 15, "cols": [{"k": "belief", "label": "Limiting Belief", "sub": "What's the thought? e.g. \u201cI'm not qualified to work on this\u201d", "w": 220}, {"k": "need", "label": "Underlying Need", "sub": "What need might this belief be protecting or signalling?", "w": 200}, {"k": "reframe", "label": "Possible Reframe", "sub": "What would you say to a close friend who believed this?", "w": 240}]};
+  var COLS = CONFIG.cols, N = CONFIG.start, MAX = CONFIG.max;
+  document.getElementById("eyebrow").textContent = CONFIG.eyebrow;
+  document.getElementById("hint").textContent = CONFIG.hint;
+  var addBtn = document.getElementById("add");
+  addBtn.textContent = CONFIG.addLabel;
+  var msg = document.getElementById("msg");
+  var table = document.getElementById("t");
+  function blank() { var r = {}; COLS.forEach(function (c) { r[c.k] = ""; }); return r; }
+  var rows = [];
+  for (var i = 0; i < N; i++) rows.push(blank());
+
+  function summary() {
+    var parts = [];
+    rows.forEach(function (row, idx) {
+      var bits = [];
+      COLS.forEach(function (c) { if (/\S/.test(row[c.k] || "")) bits.push(c.label + ": " + row[c.k].replace(/\s+/g, " ").slice(0, 160)); });
+      if (bits.length) parts.push("Row " + (idx + 1) + " (" + bits.join("; ") + ")");
+    });
+    return parts.length ? CONFIG.eyebrow + ". " + parts.join(". ") + "." : CONFIG.eyebrow + " is still empty.";
+  }
+  function save() { if (window.Lens) window.Lens.saveState({ rows: rows }, summary()); }
+
+  function build() {
+    table.textContent = "";
+    var thead = document.createElement("thead");
+    var hr = document.createElement("tr");
+    var th0 = document.createElement("th"); th0.textContent = "#"; hr.appendChild(th0);
+    COLS.forEach(function (c) {
+      var th = document.createElement("th");
+      th.style.minWidth = c.w + "px";
+      th.appendChild(document.createTextNode(c.label));
+      if (c.sub) { var s = document.createElement("span"); s.className = "sub"; s.textContent = c.sub; th.appendChild(s); }
+      hr.appendChild(th);
+    });
+    thead.appendChild(hr);
+    table.appendChild(thead);
+    var tb = document.createElement("tbody");
+    rows.forEach(function (row, idx) {
+      var tr = document.createElement("tr");
+      var n = document.createElement("td"); n.className = "n"; n.textContent = String(idx + 1);
+      if (idx >= N) {
+        var rm = document.createElement("button");
+        rm.type = "button"; rm.className = "remove"; rm.textContent = "Remove";
+        rm.setAttribute("aria-label", "Remove row " + (idx + 1));
+        rm.addEventListener("click", function () { rows.splice(idx, 1); build(); save(); });
+        n.appendChild(rm);
+      }
+      tr.appendChild(n);
+      COLS.forEach(function (c) {
+        var td = document.createElement("td");
+        var ta = document.createElement("textarea");
+        ta.value = row[c.k] || "";
+        ta.setAttribute("aria-label", c.label + ", row " + (idx + 1));
+        ta.addEventListener("input", function () { row[c.k] = ta.value; save(); });
+        td.appendChild(ta); tr.appendChild(td);
+      });
+      tb.appendChild(tr);
+    });
+    table.appendChild(tb);
+    addBtn.disabled = rows.length >= MAX;
+    msg.textContent = rows.length >= MAX ? "You've reached the maximum of " + MAX + " rows." : "";
+  }
+  addBtn.addEventListener("click", function () {
+    if (rows.length >= MAX) return;
+    rows.push(blank()); build(); save();
+    var tas = table.querySelectorAll("tbody tr:last-child textarea");
+    if (tas.length) tas[0].focus();
+  });
+  build();
+  if (window.Lens) {
+    window.Lens.onState(function (state) {
+      if (state && state.rows && state.rows.length) {
+        rows = state.rows.slice(0, MAX).map(function (r) {
+          var o = blank();
+          COLS.forEach(function (c) { if (r && typeof r[c.k] === "string") o[c.k] = r[c.k]; });
+          return o;
+        });
+        while (rows.length < N) rows.push(blank());
+        build();
+      }
+    });
+  }
+})();
+</script>
+</body>
+</html>
