@@ -99,13 +99,17 @@ A key thing to remember here is that you don’t have to turn every feeling into
 
 **How & Resources:** Return to your Week 1 Ikigai exercise. Rather than starting from scratch, ask: “What has changed in how I see myself since Week 1?”
 
-\#### Join Rethink Wellbeing's CBT Lab
+:::
+
+:::callout {title="3. Join Rethink Wellbeing's CBT Lab" tone="red" collapse="closed"}
 
 **Why:** A structured, evidence-informed program specifically for people doing or pursuing high-impact work, and may struggle with procrastination, stress, burnout, or other emotional blockers related to high-impact work.
 
 **How & Resources:** [Rethink Wellbeing's free 12-week](https://www.rethinkwellbeing.org/services) CBT Lab program is built specifically for people doing or pursuing high-impact work.
 
-\#### Talk it through with someone you trust
+:::
+
+:::callout {title="4. Talk it through with someone you trust" tone="red" collapse="closed"}
 
 **Why:** Saying an uncertainty out loud can make it much easier to understand what is really bothering you.
 
