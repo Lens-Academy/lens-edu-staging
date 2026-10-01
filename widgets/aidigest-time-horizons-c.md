@@ -229,7 +229,7 @@ function render() {
   svg.addEventListener("mousemove", function (ev) {
     if (tip.dataset.kind === "point") return;
     var r = svg.getBoundingClientRect(), px = ev.clientX - r.left - M.left;
-    if (px < 0 || px > iw) { vx.setAttribute("visibility", "hidden"); hx.setAttribute("visibility", "hidden"); hideTip(); return; }
+    if (px < -M.left || px > iw + M.right) { vx.setAttribute("visibility", "hidden"); hx.setAttribute("visibility", "hidden"); hideTip(); return; }
     var t = xD0 + px / iw * (xD1 - xD0), v = L(t), py = Y(v);
     vx.setAttribute("x1", px); vx.setAttribute("x2", px); vx.setAttribute("visibility", "visible");
     hx.setAttribute("y1", py); hx.setAttribute("y2", py); hx.setAttribute("visibility", py >= 0 ? "visible" : "hidden");

@@ -229,7 +229,7 @@ function render() {
   svg.addEventListener("mousemove", function (ev) {
     if (tip.dataset.kind === "point") return;
     var r = svg.getBoundingClientRect(), px = ev.clientX - r.left - M.left;
-    if (px < 0 || px > iw) { vx.setAttribute("visibility", "hidden"); hx.setAttribute("visibility", "hidden"); hideTip(); return; }
+    if (px < -M.left || px > iw + M.right) { vx.setAttribute("visibility", "hidden"); hx.setAttribute("visibility", "hidden"); hideTip(); return; }
     var t = xD0 + px / iw * (xD1 - xD0), v = L(t);
     if (t24 && t >= G.refDate) v = Math.max(v, I(t)); // follow the higher line where the 2024 trend exists, even off the top of the chart
     var py = Y(v);
