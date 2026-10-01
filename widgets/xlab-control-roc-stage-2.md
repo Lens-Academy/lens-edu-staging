@@ -26,13 +26,18 @@ body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);backgr
 .desc{color:var(--muted);margin:0 0 14px}
 .ctlrow{display:flex;gap:12px;align-items:flex-end;margin:0 0 6px}
 .ctl{flex:1 1 auto;min-width:0}
-.ctl label{display:flex;flex-wrap:wrap;justify-content:space-between;column-gap:12px;font-size:13px}
+.caught{text-align:center;font-size:12px;color:var(--muted);margin:2px 0 0}
+.caught b{color:var(--text);font-variant-numeric:tabular-nums}
+#roc{max-width:420px;margin:0 auto}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--muted);margin:0 0 8px}
+.legend i{display:inline-block;width:14px;height:2px;vertical-align:middle;margin-right:5px}
+.ctl label{display:flex;justify-content:space-between;gap:12px;font-size:13px}
 .ctl label .name{color:var(--muted)}
 .ctl label .val{font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
 input[type=range]{width:100%;accent-color:var(--accent)}
-button{font:inherit;font-size:13px;color:inherit;border:1px solid var(--border);border-radius:8px;background:#fff;padding:5px 10px;cursor:pointer}
-button:hover{background:var(--page)}
-.plotlabel{text-align:center;font-size:12px;font-weight:500;color:var(--muted);margin:12px 0 2px}
+.row{display:flex;gap:14px;flex-wrap:wrap}
+.col{flex:1 1 250px;min-width:0}
+.plotlabel{text-align:center;font-size:12px;font-weight:500;color:var(--muted);margin:0 0 2px}
 svg{width:100%;height:auto;display:block}
 .legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--muted);margin-top:6px}
 .legend span i{display:inline-block;width:14px;height:8px;vertical-align:middle;margin-right:5px;border-radius:2px}
@@ -49,20 +54,39 @@ h2{font-family:var(--font-heading);font-weight:600;font-size:18px;margin:0 0 4px
 #roc{max-width:420px;margin:0 auto}
 .auc{text-align:center;font-size:13px;color:var(--muted);margin:6px 0 10px}
 .auc b{color:var(--text);font-variant-numeric:tabular-nums}
-input[type=range]:disabled{opacity:.55}
 </style>
 </head>
 <body>
 <h2>Stage 2: Higher AUC</h2>
-<p class="desc">Monitor B is upgraded to AUC 0.97; Monitor A stays at 0.92. Locked for this stage: decide from the shape of the curves.</p>
-<svg id="roc" viewBox="0 0 300 160" role="img" aria-label="ROC curves of Monitor A and Monitor B"></svg>
-<p class="auc" id="auc"></p>
-<div class="ctlrow">
-  <div class="ctl">
-    <label for="kb"><span class="name" id="kbN"></span><span class="val" id="kbV"></span></label>
-    <input type="range" id="kb" min="800" max="980" step="1" value="970" aria-label="Monitor B quality (AUC)">
+<p class="desc">Monitor B is upgraded to AUC 0.97; Monitor A stays at 0.92. Locked for this stage: decide from the shapes.</p>
+
+<div class="row">
+  <div class="ctl col">
+    <label for="kA"><span class="name" id="kAN">Monitor A quality (AUC)</span><span class="val" id="kAV">-</span></label>
+    <input type="range" id="kA" min="800" max="980" step="1" value="920" aria-label="Monitor A quality (AUC)">
+  </div>
+  <div class="ctl col">
+    <label for="kB"><span class="name" id="kBN">Monitor B quality (AUC)</span><span class="val" id="kBV">-</span></label>
+    <input type="range" id="kB" min="800" max="980" step="1" value="970" aria-label="Monitor B quality (AUC)">
   </div>
 </div>
+
+<div class="legend">
+  <span><i style="background:var(--muted)"></i>Innocent</span>
+  <span><i style="background:var(--accent)"></i>Attacks (Monitor A)</span>
+  <span><i style="background:var(--alt)"></i>Attacks (Monitor B)</span>
+</div>
+
+<div class="row">
+  <div class="col"><p class="plotlabel">Monitor A: attacks spread wide</p>
+    <svg id="dA" viewBox="0 0 300 150" role="img" aria-label="Innocent and Monitor A attack score distributions with the 2% audit line"></svg></div>
+  <div class="col"><p class="plotlabel">Monitor B: attacks compressed</p>
+    <svg id="dB" viewBox="0 0 300 150" role="img" aria-label="Innocent and Monitor B attack score distributions with the 2% audit line"></svg></div>
+</div>
+
+<p class="plotlabel" style="margin-top:12px">ROC curves</p>
+<svg id="roc" viewBox="0 0 300 150" role="img" aria-label="ROC curves of Monitor A and Monitor B"></svg>
+<p class="auc" id="auc"></p>
 
 <script>
 "use strict";
@@ -103,12 +127,41 @@ function txt(x,y,s,anchor,fill){ var t = svgEl("text",{x:x,y:y,"font-size":9,fil
 function el(tag, cls, t){ var n = document.createElement(tag); if(cls) n.className = cls; if(t != null) n.textContent = t; return n; }
 
 
-var SD_A = 1.0, SD_B = 0.4, AUC_A = 0.92, LOCKED = true;
-var aucB = 0.97;
+// ---- ROC plot -----------------------------------------------------------
+function drawRoc(svg, monitors){
+  svg.textContent = "";
+  var X0 = 30, W = 258, Y0 = 10, H = 118;
+  var xOf = function(f){ return X0 + f*W; };
+  var yOf = function(t){ return Y0 + H - t*H; };
+  svg.appendChild(svgEl("rect",{x:X0,y:Y0,width:W,height:H,fill:"none",stroke:"var(--border)","stroke-width":1}));
+  svg.appendChild(svgEl("line",{x1:xOf(0),y1:yOf(0),x2:xOf(1),y2:yOf(1),stroke:"var(--muted)","stroke-width":1,"stroke-dasharray":"3 3","stroke-opacity":0.4}));
+  svg.appendChild(svgEl("line",{x1:xOf(BUDGET),x2:xOf(BUDGET),y1:Y0,y2:Y0+H,stroke:"var(--muted)","stroke-width":1,"stroke-dasharray":"2 2","stroke-opacity":0.6}));
+  monitors.forEach(function(m){
+    // Sweep the decision threshold, not the FPR: sampling FPR uniformly puts
+    // almost no points in the low-FPR elbow, which is exactly where the 2%
+    // operating point sits, and the marked dot then floats off the polyline.
+    var d = [], i;
+    for(i=0;i<=200;i++){
+      var t = 6 - 12*i/200;
+      var f = 1 - Phi(t);
+      d.push((i===0?"M ":"L ") + xOf(f).toFixed(1) + " " + yOf(Phi((m.mu - t)/m.sd)).toFixed(1));
+    }
+    svg.appendChild(svgEl("path",{d:d.join(" "),fill:"none",stroke:m.color,"stroke-width":1.75}));
+    svg.appendChild(svgEl("circle",{cx:xOf(BUDGET),cy:yOf(tprAt(m.mu,m.sd,BUDGET)),r:3,fill:m.color,stroke:"#fff","stroke-width":1}));
+  });
+  svg.appendChild(txt(26, Y0+8, "1", "end"));
+  svg.appendChild(txt(26, Y0+H, "0", "end"));
+  svg.appendChild(txt(X0, 146, "0"));
+  svg.appendChild(txt(X0+W, 146, "1", "end"));
+  svg.appendChild(txt(X0+W/2, 146, "FPR (innocent code flagged)", "middle"));
+  svg.appendChild(txt(xOf(BUDGET)+3, Y0+H-4, "2% audit budget"));
+  var yl = svgEl("text",{x:9,y:Y0+H/2,"font-size":9,fill:"var(--muted)","text-anchor":"middle",transform:"rotate(-90 9 " + (Y0+H/2) + ")"});
+  yl.textContent = "TPR (attacks caught)"; svg.appendChild(yl);
+}
 
 function drawRoc(svg){
   svg.textContent = "";
-  var X0 = 26, W = 262, Y0 = 8, H = 124;
+  var X0 = 30, W = 258, Y0 = 10, H = 118;
   var xOf = function(f){ return X0 + f*W; }, yOf = function(t){ return Y0 + H - t*H; };
   svg.appendChild(svgEl("rect",{x:X0,y:Y0,width:W,height:H,fill:"none",stroke:"var(--border)","stroke-width":1}));
   svg.appendChild(svgEl("line",{x1:xOf(0),y1:yOf(0),x2:xOf(1),y2:yOf(1),stroke:"var(--muted)","stroke-width":1,"stroke-dasharray":"3 3","stroke-opacity":0.4}));
