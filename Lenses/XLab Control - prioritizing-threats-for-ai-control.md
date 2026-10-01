@@ -30,7 +30,7 @@ Four short questions on the vocabulary of the section you just read. Answer each
 id:: 10bb7d59-2f6b-4d15-929b-91baefce1dae
 content:: In the control literature, what does "ensuring control" mean?
 assessment-instructions:: Score out of 100. 40: making sure AIs are not able to cause catastrophic (existential) outcomes. 60: this has to hold even if the AIs are actively trying to subvert the countermeasures, so it does not rely on the AIs being aligned. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Preventing AIs from being able to cause existential problems, even if the AIs attempt to subvert our countermeasures."
-feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer from the rubric so they leave with it, in your own words if it is long. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 1b9f5342-42e2-403a-b5ff-8b655b701517

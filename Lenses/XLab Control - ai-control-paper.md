@@ -45,7 +45,7 @@ feedback-instructions:: One turn, at most four sentences: say plainly what the l
 id:: eb34dbef-efa0-402b-babe-0d0a1de20bc0
 content:: Under what two conditions might an AI system intentionally subvert its safety pipeline?
 assessment-instructions:: Score out of 100. 50: the AI itself is pursuing goals other than the ones it was meant to have (it is misaligned or scheming). 50: attackers have compromised it, by tampering with its weights or its training data. Give credit for each whenever the answer shows the idea, in any wording. A user jailbreaking the model through its prompts does not count as either condition. Model answer, for the feedback, not a grading checklist: "If it is pursuing objectives that don't align with its intended goals (scheming), or if its weights or training data have been compromised by attackers."
-feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer from the rubric so they leave with it, in your own words if it is long. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### End Callout
 
