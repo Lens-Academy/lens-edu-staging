@@ -19,7 +19,7 @@ Return here after reading.
 
 ---
 
-#### Question
+#### Question: Open
 id:: b77cafa1-705d-4dab-9287-2cacc4e73cc7
 content::
 \## Phase 1: Recall
@@ -61,7 +61,7 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### Question: Open
 id:: 3e63c5cf-bd5b-4aaf-a714-4994311aae80
 content::
 \## Phase 2: Processing
@@ -140,7 +140,7 @@ What not to do:
 - List the candidates for them.
 - Resolve the self-reinforcing trap, that denial is what would stop anyone meeting the higher burden of proof. That is this chapter's own move and the next phase's material.
 
-#### Question
+#### Question: Open
 id:: e01aa66f-dc27-4c7e-b28b-b1c31b7b1d8f
 content::
 \## Phase 4: Learning Question
