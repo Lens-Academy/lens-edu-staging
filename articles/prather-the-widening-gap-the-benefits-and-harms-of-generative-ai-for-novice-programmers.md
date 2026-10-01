@@ -162,15 +162,15 @@ Table 2. Definitions of Old and New Metacognitive Difficulties
 | Name | Description |
 | --- | --- |
 | Previous (Prather et al. 2018) |  |
-| Forming | Forming the wrong conceptual model about the right problem. |
-| Dislodging | Dislodging an incorrect conceptual model of the problem may not be solved. |
-| Assumption | Forming the correct conceptual model for the wrong problem. |
-| Location | Moving too quickly through one or more stages incorrectly leads to a false sense of accomplishment and poor conception of location in the problem-solving process. |
-| Achievement | Unwillingness to abandon a wrong solution due to a false sense of being nearly done. |
-| New |  |
-| Progression | Being conceptually behind in the course material but unaware of it due to a false sense of confidence |
-| Interruption | An inability to concentrate on problem solving due to frequent interruptions and code suggestions. |
-| Mislead | The tool leads the user down the wrong path. |
+| **Forming** | Forming the wrong conceptual model about the right problem. |
+| **Dislodging** | Dislodging an incorrect conceptual model of the problem may not be solved. |
+| **Assumption** | Forming the correct conceptual model for the wrong problem. |
+| **Location** | Moving too quickly through one or more stages incorrectly leads to a false sense of accomplishment and poor conception of location in the problem-solving process. |
+| **Achievement** | Unwillingness to abandon a wrong solution due to a false sense of being nearly done. |
+| **New** |  |
+| **Progression** | Being conceptually behind in the course material but unaware of it due to a false sense of confidence |
+| **Interruption** | An inability to concentrate on problem solving due to frequent interruptions and code suggestions. |
+| **Mislead** | The tool leads the user down the wrong path. |
 
 Table 3. Count of types of metacognitive difficulties, Completion time, and Accept-Rate
 

@@ -133,28 +133,28 @@ Table 1: Relevant problem areas organized by reader background
 |  | Verification | 5.1.1; 5.2.2; 5.3.1; 5.3.3; 5.4.1; 5.4.2 |
 |  | Security | 6.1.1; 6.3.1; 6.3.2; 6.3.3; 6.4.1; 6.4.2; 6.4.3 |
 |  | Operationalization | 7.2 |
-| Applied ML | Assessment | 3.1.2; 3.3.1; 3.3.2; 3.4.1 |
+| **Applied ML** | Assessment | 3.1.2; 3.3.1; 3.3.2; 3.4.1 |
 |  | Access | 4.3.1; 4.4.1 |
 |  | Security | 6.4.3 |
 |  | Operationalization | 7.1; 7.2 |
 |  | Ecosystem Monitoring | 8.1; 8.2; 8.3 |
-| Cybersecurity | Verification | 5.2.2 |
+| **Cybersecurity** | Verification | 5.2.2 |
 |  | Security | 6.2.1; 6.2.3; 6.3.1; 6.4.3 |
 |  | Operationalization | 7.2 |
-| Cryptography | Assessment | 3.1.1; 3.2.2 |
+| **Cryptography** | Assessment | 3.1.1; 3.2.2 |
 |  | Access | 4.1.1; 4.1.2; 4.2.1; 4.3.1; 4.4.1 |
 |  | Verification | 5.1.1; 5.2.1; 5.2.2; 5.3.3; 5.4.1; 5.4.2 |
 |  | Security | 6.2.1; 6.2.3; 6.3.2; 6.4.3 |
-| Hardware | Assessment | 3.1.2; 3.2.1; 3.2.2 |
-| Engineering | Access | 4.2.1 |
+| **Hardware** | Assessment | 3.1.2; 3.2.1; 3.2.2 |
+| **Engineering** | Access | 4.2.1 |
 |  | Verification | 5.2.1; 5.2.2 |
 |  | Security | 6.2.1; 6.2.2; 6.2.3; 6.3.1; 6.3.2 |
-| Software | Assessment | 3.1.1; 3.1.2; 3.3.2; 3.4.1 |
-| Engineering | Access | 4.2.1 |
+| **Software** | Assessment | 3.1.1; 3.1.2; 3.3.2; 3.4.1 |
+| **Engineering** | Access | 4.2.1 |
 |  | Verification | 5.2.2 |
 |  | Security | 6.2.1; 6.3.1 |
-| Mathematics and | Assessment | 3.1.2; 3.4.1 |
-| Statistics | Ecosystem Monitoring | 8.2; 8.3 |
+| **Mathematics and** | Assessment | 3.1.2; 3.4.1 |
+| **Statistics** | Ecosystem Monitoring | 8.2; 8.3 |
 
 This paper provides a broad overview of open problems across the taxonomy defined in Section [[#^2-taxonomy|2]]. Given the extensive nature of the main content (Sections [[#^3-assessment|3]]\-[[#^8-ecosystem-monitoring|8]]), we have structured it for selective reading:
 

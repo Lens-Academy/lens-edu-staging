@@ -514,15 +514,15 @@ Table 2: Comparison of assumptions across different monitoring frameworks
 
 | Name | Description | Greenblatt et al. (2024) | Bhatt et al. (2025) | Wen et al. (2025) | This paper |
 | --- | --- | --- | --- | --- | --- |
-| Highconcentration | The objective is to minimise the probability of a particular unacceptable outcome happening even once. | ✓ | ✓ | ✗ | ✓ |
-| Lowconcentration | The objective is to minimise the expected number of ‘bad actions’ | ✗ | ✗ | ✓ | ✗ |
-| Multi-actioncontexts | Contexts/trajectories consist of multiple actions. | ✗ | ✓ | ✗ | ✓ |
-| Multi-parallelcontexts | Multiple agent-contexts take place in parallel. | ✗ | ✗ | ✗ | ✓ |
-| Single-catchundeployment | How many times do we need to catch the model before we undeploy it? | 1 | 1 | NA | $1 \leq N$ |
-| Multi-contextattacks | Can an attack be split across actions in different contexts? (Is there some shared state between contexts) | ✗ | ✗ | ✗ | ✓ |
-| Reversibility | Is there any way to reverse the effects of attacks? | NA | NA | NA | ✓ |
-| Timings, latency& synchronicity | Do monitors and attacks have explicit latency? Is oversight synchronicity modelled? | ✗ | ✗ | ✗ | ✓ |
-| Studies more than TM? | Does the paper consider other protocols, such as trusted editing, defer to trusted, or untrusted monitoring? | ✓ | ✓ | ✓ | ✗ |
+| {--{"author":"James agent ready-21's AI","timestamp":1790862646522}@@Highconcentration --}{++{"author":"James agent ready-21's AI","timestamp":1790862646522}@@**High concentration** ++}| The objective is to minimise the probability of a particular unacceptable outcome happening even once. | ✓ | ✓ | ✗ | ✓ |
+| {--{"author":"James agent ready-21's AI","timestamp":1790862646522}@@Lowconcentration--}{++{"author":"James agent ready-21's AI","timestamp":1790862646522}@@**Low concentration**++} | The objective is to minimise the expected number of ‘bad actions’ | ✗ | ✗ | ✓ | ✗ |
+| {--{"author":"James agent ready-21's AI","timestamp":1790862646522}@@Multi-actioncontexts--}{++{"author":"James agent ready-21's AI","timestamp":1790862646522}@@**Multi-action contexts**++} | Contexts/trajectories consist of multiple actions. | ✗ | ✓ | ✗ | ✓ |
+| {--{"author":"James agent ready-21's AI","timestamp":1790862646522}@@Multi-parallelcontexts --}{++{"author":"James agent ready-21's AI","timestamp":1790862646522}@@**Multi-parallel contexts** ++}| Multiple agent-contexts take place in parallel. | ✗ | ✗ | ✗ | ✓ |
+| {--{"author":"James agent ready-21's AI","timestamp":1790862646522}@@Single-catchundeployment--}{++{"author":"James agent ready-21's AI","timestamp":1790862646522}@@**Single-catch undeployment**++} | How many times do we need to catch the model before we undeploy it? | 1 | 1 | NA | $1 \leq N$ |
+| {--{"author":"James agent ready-21's AI","timestamp":1790862646522}@@Multi-contextattacks--}{++{"author":"James agent ready-21's AI","timestamp":1790862646522}@@**Multi-context attacks**++} | Can an attack be split across actions in different contexts? (Is there some shared state between contexts) | ✗ | ✗ | ✗ | ✓ |
+| {--{"author":"James agent ready-21's AI","timestamp":1790862646522}@@Reversibility--}{++{"author":"James agent ready-21's AI","timestamp":1790862646522}@@**Reversibility**++} | Is there any way to reverse the effects of attacks? | NA | NA | NA | ✓ |
+| {--{"author":"James agent ready-21's AI","timestamp":1790862646522}@@Timings, latency& synchronicity--}{++{"author":"James agent ready-21's AI","timestamp":1790862646522}@@**Timings, latency & synchronicity**++} | Do monitors and attacks have explicit latency? Is oversight synchronicity modelled? | ✗ | ✗ | ✗ | ✓ |
+| {--{"author":"James agent ready-21's AI","timestamp":1790862646522}@@Studies--}{++{"author":"James agent ready-21's AI","timestamp":1790862646522}@@**Studies++} more than {--{"author":"James agent ready-21's AI","timestamp":1790862646522}@@TM?--}{++{"author":"James agent ready-21's AI","timestamp":1790862646522}@@TM?**++} | Does the paper consider other protocols, such as trusted editing, defer to trusted, or untrusted monitoring? | ✓ | ✓ | ✓ | ✗ |
 
 Note that many of these assumptions are tied closely together. If there is only a single instance running in parallel, then semi-synchronous and synchronous protocols are identical. If latency is low, then running asynchronous protocols are unnecessary. If the developer shuts down after a single catch, then reversibility is unnecessary.
 

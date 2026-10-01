@@ -309,7 +309,7 @@ Table 6: Performance of each type of classifier at identifying held-out workload
 
 | Classifier | Accuracy | Macro-F1 |
 | --- | --- | --- |
-| RandomForest | 98.21% $\pm$ 0.84% | 0.982 |
+| RandomForest | **98.21% $\pm$ 0.84%** | **0.982** |
 | XGBoost | 98.14% $\pm$ 0.78% | 0.981 |
 | SVM-RBF | 96.19% $\pm$ 0.89% | 0.962 |
 | Logistic Reg. | 89.81% $\pm$ 0.83% | 0.897 |
@@ -335,26 +335,26 @@ Table 7: The classifier’s detection rates against each evasion family. Bolded 
 
 | Family | Round | Technique | Baseline | Hardened | LOO mean | Variants |
 | --- | --- | --- | --- | --- | --- | --- |
-| A\_util\_modulation | 1 | Utilization manipulation | 6% | 100% | 93.9% | 1 |
-| B\_low\_util | 1 | Utilization manipulation | 11% | 100% | 59.1% | 1 |
+| A\_util\_modulation | 1 | Utilization manipulation | **6%** | 100% | 93.9% | 1 |
+| B\_low\_util | 1 | Utilization manipulation | **11%** | 100% | **59.1%** | 1 |
 | D\_temporal\_disruption | 1 | Utilization manipulation | 96% | 100% | 100% | 1 |
-| E\_memory\_minimal | 2 | Memory reduction | 18% | 100% | 98.2% | 1 |
-| F\_interleave | 2 | Workload mimicry | 34–36% | 100% | 100% | 2 |
-| G\_clock\_throttled | 2 | Utilization manipulation | 36% | 100% | 98.2% | 1 |
-| H\_mimicry | 2 | Workload mimicry | 18–27% | 100% | 99.1% | 2 |
+| E\_memory\_minimal | 2 | Memory reduction | **18%** | 100% | 98.2% | 1 |
+| F\_interleave | 2 | Workload mimicry | **34–36%** | 100% | 100% | 2 |
+| G\_clock\_throttled | 2 | Utilization manipulation | **36%** | 100% | 98.2% | 1 |
+| H\_mimicry | 2 | Workload mimicry | **18–27%** | 100% | 99.1% | 2 |
 | I\_stochastic | 2 | Utilization manipulation | 91% | 100% | 100% | 1 |
-| J\_pid | 2 | Utilization manipulation | 0% | 100% | 80.4% | 1 |
-| K\_online\_learning | 3 | Training-as-inference | 57% | 100% | 100% | 1 |
-| L\_diluted | 3 | Training-as-inference | 52–60% | 100% | 87.3% | 4 |
+| J\_pid | 2 | Utilization manipulation | **0%** | 100% | **80.4%** | 1 |
+| K\_online\_learning | 3 | Training-as-inference | **57%** | 100% | 100% | 1 |
+| L\_diluted | 3 | Training-as-inference | **52–60%** | 100% | **87.3%** | 4 |
 | M\_composite\_memmin | 4 | Composite | 100% | 100% | 100% | 4 |
 | N\_grad\_accum | 4 | Training-as-inference | 100% | 100% | 100% | 3 |
-| O\_composite\_idle\_pad | 4 | Composite idle-padding | 19–100% | 100% | 97.6% | 11 |
+| O\_composite\_idle\_pad | 4 | Composite idle-padding | **19–100%** | 100% | 97.6% | 11 |
 | K\_ddp | 4 | Multi-GPU DDP | 100% | 100% | 100% | 1 |
 | K\_ddp\_accum | 4 | Multi-GPU DDP | 99–100% | 100% | 100% | 2 |
-| L\_ddp | 4 | Multi-GPU DDP | 87–94% | 100% | 99.6% | 2 |
-| L\_ddp\_stagger | 4 | Multi-GPU DDP | 72% | 100% | 100% | 1 |
-| whitebox\_full | 5 | Whitebox dilution $+$ ckpt | — | 100% | 87.4% | 8 |
-| whitebox\_lora | 5 | Whitebox LoRA $+$ dilution | — | 100% | 42.6% | 3 |
+| L\_ddp | 4 | Multi-GPU DDP | **87–94%** | 100% | 99.6% | 2 |
+| L\_ddp\_stagger | 4 | Multi-GPU DDP | **72%** | 100% | 100% | 1 |
+| whitebox\_full | 5 | Whitebox dilution $+$ ckpt | — | 100% | **87.4%** | 8 |
+| whitebox\_lora | 5 | Whitebox LoRA $+$ dilution | — | 100% | **42.6%** | 3 |
 
 ## Appendix B Power Validation ^appendix-b-power-validation
 
