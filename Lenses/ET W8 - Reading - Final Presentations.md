@@ -44,7 +44,7 @@ This week's Journalling Tab has space to reflect properly on what you've learned
 
 We would love to continue to support your journey after the end of the program. A few concrete next steps for after the program that we would love to explore with you:
 
-- **Apply for [1:1 Advising](https://www.effectivethesis.org/services)** with Effective Thesis if you'd like continued, personalised support as your thesis and career direction keep developing beyond this program.
+- **Apply for [1:1 Advising with Effective Thesis](https://www.effectivethesis.org/services)** if you'd like continued, personalised support as your thesis and career direction keep developing beyond this program.
 - **Apply for our [Effective Thesis Fellowship](https://www.effectivethesis.org/key-services/effective-thesis-fellowship)** if you're looking for a more structured next step: work directly on a vetted, high-impact research project alongside an expert mentor or organisation.
 - **Post about your journey on LinkedIn.** We’ll send out your completion certificates in the next few weeks, and encourage you to share what you worked on and what you learned from the program! This can be especially useful if you’re still looking for collaborators and feedback!
 - [Take the pledge at Giving What We Can](https://www.givingwhatwecan.org/pledge/effectivethesis): **Take the pledge as a way to have impact now, not just someday.** You don't have to wait until you've landed your ideal high-impact role to start making a real difference, giving effectively is something you can commit to today, as a student.
@@ -54,13 +54,13 @@ We would love to continue to support your journey after the end of the program. 
    - Apply for Mentorship with [Magnify Mentoring](https://www.magnifymentoring.org/)
    - [EA Introductory Program](https://www.effectivealtruism.org/courses/introductory-program): Free online courses to explore ways to have more impact with your careers and donations
    - Find a local EA group: Browse the [EA Forum’s directory of local and university groups](https://forum.effectivealtruism.org/allGroups) to find a group near you or at your university.
-   - Join [Rethink Wellbeing's free 12-week](https://www.rethinkwellbeing.org/services) CBT Lab program is built specifically for people doing or pursuing high-impact work.
-   - Apply for Mentorship with [Magnify Mentoring](https://www.magnifymentoring.org/)
-   - Apply for 1:1 advising with [probably good](https://probablygood.org/advising/) [or 80,000 hours](https://80000hours.org/speak-with-us-o/?cs740_arm=a&cs740_experiment_version=v2)
-   - More places to look Fellowships or Internships:
+   - Join [Rethink Wellbeing's free 12-week CBT Lab](https://www.rethinkwellbeing.org/services), a program built specifically for people doing or pursuing high-impact work.
+   - Apply for 1:1 advising with [Probably Good](https://probablygood.org/advising/) or [80,000 Hours](https://80000hours.org/speak-with-us/)
+   - More places to look for Fellowships or Internships:
       - [80,000 Hours Job Board](https://jobs.80000hours.org/)
       - [Probably Good Job board](https://jobs.probablygood.org/)
       - [EA Opportunities Board](https://www.effectivealtruism.org/opportunities)
+      - 💡 **Tip: make the most of the filters!** On each board, filter by **role type** (e.g. "Fellowship" or "Internship"), **cause area**, **location / remote**, and **experience level** (e.g. "Entry level" or "Student"), so you only see opportunities that actually fit you. Many boards also let you **save a search or sign up for email alerts**, so new opportunities matching your filters come straight to your inbox!
 
 \## A Big Thank You!
 
