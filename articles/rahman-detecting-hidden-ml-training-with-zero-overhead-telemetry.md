@@ -196,7 +196,7 @@ Table 5: Arms-race summary showing each classifier state’s detection rate agai
 | 3 | Training-as-inference (K online, L diluted) | 52–60% | 48–57% | 100% | **87–100%** |
 | 4 (single-GPU) | Composite $+$ grad accum (M, N, composite 0–95% idle) | 19–100% | 83–100% | 100% | **98–100%** |
 | 4 (multi-GPU) | Multi-GPU distributed evasion (K/L DDP $+$ stagger) | 72–100% | 71–100% | 100% | **100%** |
-| 5 | White-box (WB-full, WB-LoRA) with R4 internals exposed | N/A c | 6–100% | 100% | 43–87% |
+| 5 | White-box (WB-full, WB-LoRA) with R4 internals exposed | N/A c | 6–100% | 100% | **43–87%** |
 
 a Prior to Round 1, this refers to the baseline classifier’s accuracy at evaluating held-out non-adversarial workloads when trained on all other non-adversarial workloads. b Prior to Round 2, there was no hardened classifier; the previous round’s classifier was the baseline classifier trained only on non-adversarial workloads. c The white-box evader in Round 5 has access to the evasion-resistant classifier produced in Round 4. If evaluated against the _baseline_ classifier with access to its internals, detection would be very low, likely 0–20%.
 
