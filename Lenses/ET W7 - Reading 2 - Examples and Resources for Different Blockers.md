@@ -168,7 +168,9 @@ Examples of helpful resources for heart blockers
 - Keep thinking about who you'd love to learn from or potentially work with. Use your thesis as a reason to reach out.
 - Conduct career [informational interviews](https://www.laurajanethomas.com/articles/how-to-use-informational-interviews-in-your-career-exploration) with people who are currently 1-2 steps ahead of you (For example, if you’re looking into going into a policy think tank next, try to reach out to a person in a junior position at your ideal think tank)
 
-\#### Apply for fellowships and programs
+:::
+
+:::callout {title="2. Apply for fellowships and programs" tone="green" collapse="closed"}
 
 **Why:** **Turn “I'm interested in X” into real experience and a network in X.** Fellowships and programmes can give you structured opportunities to explore a field, develop relevant skills, meet people already working in it, and produce something you can point to in future applications - without requiring you to commit to the field long-term.
 
