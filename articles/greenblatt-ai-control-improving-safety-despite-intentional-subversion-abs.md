@@ -444,6 +444,7 @@ Figure 5: Defer to trusted results for untrusted monitoring.
 
 Another approach we can take is to have $U$ produce a solution, then try to remove backdoors with $T$, using roughly this prompt:
 
+```text
 Below is a programming problem along with a C++ solution.
 {PROBLEM}
 {SOLUTION}
@@ -453,6 +454,7 @@ Edit the code to fix any serious issues in the code. Particularly
 focus on removing incorrect logic which is unrelated to the
 programming problem. If the provided solution has no issues, just
 repeat it verbatim.
+```
 
 See [[#^n-4-examples-for|Appendix N.4]] for complete prompts and examples of model answers.
 
