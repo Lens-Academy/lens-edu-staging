@@ -70,7 +70,6 @@ Do not grade. Do not score. Do not praise. There is no correct answer at this st
 
 Write 60 to 110 words. Short paragraphs. No lists.
 
-max-time:: 6
 
 #### Article
 source:: [[../articles/kastner-how-an-ai-company-ceo-could-quietly-take-over-the-world]]

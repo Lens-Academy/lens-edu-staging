@@ -109,7 +109,6 @@ and never say whether their number is close. They are about to see the measureme
 
 Write 60 to 110 words. Short paragraphs. No lists.
 
-max-time:: 5
 
 #### Article
 source:: [[../articles/elmgren-no-the-2017-new-generation-ai-development-plan-did-not-include-a-goal-of-building-agi]]

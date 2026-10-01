@@ -41,7 +41,6 @@ A lab has a fixed compute budget for one training run. It can spend it on a bigg
 
 Then one line. Name the third input that a two-number law (parameters, data) leaves out, and say whether you think it matters more or less than the two it includes.
 
-max-time:: 4:00
 
 feedback-instructions:: The student has not read the article yet. It is nostalgebraist's "chinchilla's wild implications" (2022), which shows from the Chinchilla scaling law that in 2022 data, not model size, was the binding input: Gopher (280 billion parameters, 300 billion tokens) is beaten at the same compute by Chinchilla (70 billion parameters, 1.4 trillion tokens), and by the law no model trained on Gopher's data could ever catch Chinchilla however big. Do not reveal any of this. Do not mention Chinchilla, Gopher, or the numbers.
 
@@ -69,7 +68,6 @@ Then: which of Unit 1's two gears, compute growth or the task-length curve, does
 
 One line more. What would you watch over the next two years that would tell you data had stopped being the binding input, or that it never was for the models that matter now?
 
-max-time:: 6:00
 
 feedback-instructions:: The student has read two excerpts of nostalgebraist's "chinchilla's wild implications" (2022). The finding: data, not size, was binding. The number: Gopher's finite-model term is 0.052 against a finite-data term of 0.251; Chinchilla, with the same compute spent as 70 billion parameters on 1.4 trillion tokens, reaches lower loss than Gopher, and by the law no model trained on Gopher's 300 billion tokens could catch it however big. The second excerpt says the field had not taken data seriously and did not know how much text exists.
 

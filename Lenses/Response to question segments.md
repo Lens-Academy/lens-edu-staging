@@ -42,7 +42,6 @@ id:: b8854587-3e8f-471d-b37c-fb63684ecf19
 content:: In two sentences, what is your strongest objection to the claim "If anyome builds this everyone dies" as made in the book?
 max-chars:: 500
 placeholder:: Name claim, then explain objection.
-max-time:: 3:00
 enforce-voice:: true
 assessment-instructions:: Check whether learner names claim and gives relevant objection.
 feedback-instructions:: State strongest part of response, then suggest one improvement.
