@@ -149,7 +149,7 @@ tone:: amber
 id:: 0dea4f20-4db7-4cb4-a48e-dccccb8409f8
 content:: Is the optimal strategy predicted by the model reflected in how the paper's red team actually behaved? How did the red team actually attack?
 assessment-instructions:: Score out of 100. 40: the verdict: no, the model says to attack as often as possible and the paper's red team did not. 60: how the red team actually attacked: the red team attacks rarely and selectively, only on a small share of the problems and only when there is a good opportunity. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "No. The model says every extra attack only helps, so the red team should backdoor almost every problem. But the paper's red team inserts a backdoor "only when there is a good opportunity to do so"."
-feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer from the rubric so they leave with it, in your own words if it is long. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 21ca9565-90da-41c8-8a1a-9ec145e4a080

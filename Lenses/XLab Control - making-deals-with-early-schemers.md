@@ -139,7 +139,7 @@ id:: 41e9d03c-f5d6-4602-8762-5f00509f21b3
 content:: Why is deal-making with a powerful (non-early) scope-sensitive misaligned AI unpromising?
 max-chars:: 600
 assessment-instructions:: Score out of 100. 40: such an AI has a good alternative: it can simply ignore the offer and try to take over. 30: so an offer only beats that if it is objectively huge, on the order of a large fraction of control over the future. 30: and the terms must be more generous still to make up for the AI's risk that we do not follow through. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "It can just ignore the offer and try to take over. Beating that would require an objectively huge payoff, like a large fraction of control over the future, plus even more generous terms to compensate the AI for the risk that we don't follow through."
-feedback-instructions:: Two or three sentences is enough. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). This is a one-turn response; tell them to move on. If the learner says they do not understand, ask what such an AI's alternative to accepting is, rather than repeating the question.
+feedback-instructions:: Two or three sentences is enough. Say plainly what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). This is a one-turn response; tell them to move on. If the learner says they do not understand, ask what such an AI's alternative to accepting is, rather than repeating the question.
 
 #### Article
 source:: [[../articles/finnveden-notes-on-cooperating-with-unaligned-ais]]
