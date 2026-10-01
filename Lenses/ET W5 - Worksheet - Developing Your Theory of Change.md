@@ -65,11 +65,12 @@ content::
 
 #### Widget
 source:: [[../widgets/et-w5-toc-diagram]]
-optional:: true
 
 #### Text
 content::
 \### Assumptions & Uncertainties
+
+You've already named the assumptions on each arrow in your diagram above. Use this table to go a step further for your most important ones: how certain are you, and what could you do to increase your certainty?
 
 We highly encourage listing key assumptions or uncertainties within your ToC, which can inform your next steps in your research process.
 
