@@ -127,7 +127,7 @@ source:: [[../widgets/et-w5-assumptions-uncertainties]]
 content::
 ---
 
-\# Part 2. Continue Stakeholder Outreach
+\# Part 2. Continue Stakeholder Outreach ^part-2
 
 Instructions: Please continue your stakeholder mapping and outreach in your Stakeholder Outreach Tracker from Week 4’s worksheet. It's the same tracker, so anything you add here also shows up in Week 4 (and vice versa)! We recommend identifying and reaching out to >20 stakeholders. If you haven’t received any replies from your Week 4 outreach, we encourage you to reach out to additional stakeholders - this is completely normal and expected. Many professionals are busy or respond slowly, and lack of replies is not a reflection of the quality or relevance of your work. The goal of this exercise is to practice reaching out to people whose work you are interested in and increase the chances of meaningful conversations over time.
 
@@ -138,7 +138,7 @@ source:: [[../widgets/et-w4-stakeholder-tracker]]
 content::
 ---
 
-\# Part 3. Next Steps
+\# Part 3. Next Steps ^part-3
 
 #### Question: Open
 id:: ff898fab-0938-4dc5-850f-961e978f181b
