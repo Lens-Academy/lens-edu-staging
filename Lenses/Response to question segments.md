@@ -28,7 +28,7 @@ content:: What is your strongest objection?
 - `max-chars:: 500`: limit length. Defaults to no limit.
 - `placeholder:: ...`: empty-input hint. Defaults to none.{>>{"author":"Luc","timestamp":1787775945283}@@I don't understand this one.<<}{>>{"author":"Luc","timestamp":1787775956874}@@aah I think I understand, okay.<<}
 - `description:: ...`: surveys only, on every question type. A help line shown under the question in smaller, lighter text, for guidance like "100–200 words" that would otherwise make the question long. In lenses and learning-outcome tests it is ignored, with a warning.
-- `max-time:: 3:00`: timer in `M:SS`. Defaults to none.{>>{"author":"Luc","timestamp":1787777490889}@@Has this actually been implemented by now? I now in the past it wasn't.<<}
+- No timer: course content has no time limits, and `max-time::` is a validation error.{>>{"author":"Luc","timestamp":1787777490889}@@Has this actually been implemented by now? I now in the past it wasn't.<<}
 - `enforce-voice:: true`: require speech instead of typing. Defaults to `false`.{>>{"author":"Luc","timestamp":1787777517388}@@has this actually been implemented by now?<<}
 - `assessment-instructions:: ...`: extra instructions appended to base assessor prompt. Omit for ungraded `Question: Open`.
 - `feedback-instructions:: ...`: learner-facing AI feedback. Omit for none.
