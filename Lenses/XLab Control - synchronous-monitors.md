@@ -60,7 +60,7 @@ to:: Claude Code auto mode is an example of a blocking synchronous monitor.
 id:: 418db0da-4c23-457e-9b73-f03205daf88e
 content:: What makes a monitor "blocking"?
 assessment-instructions:: Score out of 100. 40: it runs before the proposed action is executed. 60: it has the authority to stop suspicious actions from being executed, not just to report them. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "It runs before the proposed action is executed and has the authority to prevent suspicious actions from being executed (e.g. Claude Code auto mode). Blocking monitors cost more than asynchronous ones: they add latency to every action and inference cost from monitoring each action individually rather than long trajectories at once."
-feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer from the rubric so they leave with it, in your own words if it is long. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Article
 from:: There are many options for what to do with actions that look too suspicious to execute.

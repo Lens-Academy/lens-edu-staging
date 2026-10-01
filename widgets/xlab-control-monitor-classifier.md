@@ -21,6 +21,7 @@ tags: []
 }
 *{box-sizing:border-box}
 body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
+h2{font-family:var(--font-heading);font-weight:600;font-size:18px;margin:0 0 4px}
 .desc{color:var(--muted);margin:0 0 12px}
 .tabs{display:flex;gap:6px;margin:0 0 14px;flex-wrap:wrap}
 button{font:inherit;color:inherit;border:1px solid var(--border);border-radius:8px;background:#fff;padding:7px 10px;cursor:pointer}
@@ -43,6 +44,7 @@ svg{width:100%;height:auto;display:block}
 </style>
 </head>
 <body>
+<h2 id="title"></h2>
 <p class="desc" id="lede"></p>
 
 <div class="tabs">
@@ -157,6 +159,7 @@ function stat(box, k, v){
 }
 
 function renderOne(pane){
+  document.getElementById("title").textContent = "The monitor as a noisy classifier: ROC & AUC";
   document.getElementById("lede").textContent =
     "Drag the separation and watch the operating point at the 2% false-positive threshold.";
   var ctl = el("div","ctl");
@@ -191,6 +194,7 @@ function renderOne(pane){
 }
 
 function renderTwo(pane){
+  document.getElementById("title").textContent = "Same number, different safety";
   document.getElementById("lede").textContent =
     "Give both monitors the same AUC, then give B a better one, and compare what each catches at the 2% budget.";
   [["A", "aucA", aucA, "var(--accent)"], ["B", "aucB", aucB, "var(--alt)"]].forEach(function(spec){

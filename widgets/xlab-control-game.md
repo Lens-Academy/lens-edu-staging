@@ -42,6 +42,7 @@ svg{width:100%;height:auto;display:block}
 </style>
 </head>
 <body>
+<h2>The control game: full dashboard</h2>
 <p class="desc">Set the protocol; the red team re-optimises against whatever you set.</p>
 
 <div class="knobs">

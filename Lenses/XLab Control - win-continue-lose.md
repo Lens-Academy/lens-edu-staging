@@ -77,7 +77,7 @@ id:: 88f5ca30-cbb0-40bc-b543-ae6855bd333e
 content:: When the AI attacks under an execute/replace/audit protocol, what are the three possible outcomes?
 max-chars:: 800
 assessment-instructions:: Score out of 100. 30: win: the attack is audited and the AI is caught. 30: lose: the attack is executed and succeeds. 40: continue, 20: the attack fails silently (it is replaced or simply does not work), and 20: without being caught, so the deployment goes on. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Win: the attack is audited and the developer catches the AI. Lose: the attack is executed and succeeds. Continue: the attack fails silently, so the AI isn't caught and the deployment goes on, with the AI probably attacking again later."
-feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer from the rubric so they leave with it, in your own words if it is long. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Article
 from:: ## Example: analyzing the safety of defer-to-trusted using the probes from “Simple probes can catch sleeper agents”
