@@ -21,9 +21,9 @@ For this section, we’ll provide an overview of different next steps you could 
 - Haven't compared your specific options against clear criteria, still stuck comparing vague categories like "policy" vs. "research"
 - Unsure how your existing skills would transfer or reframe into a different cause area
 
-Potential next steps you can take to make progress on these blockers:
+\#### Potential next steps you can take to make progress on these blockers
 
-\#### Develop deeper subject expertise
+:::callout {title="1. Develop deeper subject expertise" tone="blue" collapse="closed"}
 
 **Why:** **Get to know your target field well enough to identify where you could add value.** Understanding the key problems, bottlenecks, approaches and organisations will help you move beyond “I'm interested in this area” towards a more specific career hypothesis. It can also make your conversations and applications much stronger.
 
