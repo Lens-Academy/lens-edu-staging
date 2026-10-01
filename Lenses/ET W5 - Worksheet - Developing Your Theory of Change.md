@@ -59,9 +59,15 @@ collapse:: closed
 
 #### Text
 content::
-\#### Example 1: A ToC diagram with named assumptions on each arrow
+\#### Example 1: ToC for AI Safety policy research
 
-This is what your finished diagram could look like: each arrow is labelled with how certain you are that one step leads to the next (Low / Med / High). The lowest-certainty link (here, whether a think tank will actually use the findings) is highlighted, since it's the one most worth testing first!
+This example of a ToC is for a thesis that analyses and identifies the top policy recommendations for AI safety. Reading the diagram from left to right:
+
+- **Output:** the student completes research analysing the most promising policy recommendations for AI safety.
+- **Outcomes:** a policy think tank uses the findings to inform its policy work, which helps policymakers implement safer AI safety policies, which in turn leads AI labs to develop safer AI systems.
+- **Vision:** overall societal safety and well-being.
+
+Each arrow is labelled with how certain the student is that one step leads to the next (Low / Med / High). The lowest-certainty link, whether a think tank will actually use the findings, is highlighted, since it's the one most worth testing first! The table below shows how the student turned that link into an assumption they can work on.
 
 ![Example ToC for AI Safety policy research, with Low, Med and High certainty labels on each arrow: complete research analysing top policy recommendations for AI Safety, then think tank utilises findings to inform policy (Low), then policymakers implement safer AI Safety policies (Med), then AI Labs develop safer AI systems (Med), then overall societal safety and well-being (High)](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w5-toc-example-ai-safety-think-tank-65bf06f6.webp)
 
@@ -71,21 +77,11 @@ This is what your finished diagram could look like: each arrow is labelled with 
 
 ---
 
-\#### Example 2: Global health
+\#### Example 2: ToC for a Global Health Thesis
 
-*A stronger ToC may look like:* “My thesis evaluates the effectiveness of a new intervention implemented by a global health charity in Country X. I will partner with Charity Y and analyse internal data to assess whether the intervention significantly reduces mortality rates, and share the findings with the charity through a tailored report and presentation. If the findings are positive, the charity may scale the program nationally or use the results to secure additional funding. If the findings are negative, they could use the results to redesign or discontinue the intervention, improving the allocation of their limited resources.”
+This example of a ToC is for a thesis that evaluates the effectiveness of a new intervention implemented by a global health charity in Country X. Here, the example shows that you will partner with Charity Y and analyse internal data to assess whether the intervention significantly reduces mortality rates, and share the findings with the charity through a tailored report and presentation. If the findings are positive, the charity may scale the program nationally or use the results to secure additional funding. If the findings are negative, they could use the results to redesign or discontinue the intervention, improving the allocation of their limited resources.
 
 ![Example ToC for global health: publish thesis analysing a charity's intervention aimed at decreasing mortality rates in X country, then publish a tailored report or presentation to the charity, then charities utilise findings to improve interventions, then improved health through the charity's interventions, then improved progress on solving the world's most pressing problems](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w5-toc-example-global-health-charity-31ee7d29.webp)
-
----
-
-\#### Example 3: AI safety
-
-*A stronger ToC might look like:* “My thesis focuses on a comparative analysis of safety protocols in AI model deployment. My goal is to work with Company X to influence the design of their internal governance policies. If adopted, these protocols could reduce risks of unintended model behavior.”
-
-![Example ToC for AI safety: publish thesis about AI Safety (i.e. mechanistic interpretability research), then disseminate findings to X company, then X company adopts findings, then reduced risk from AI models implemented by X company, then AI risk reduced, then improved well-being and flourishing](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w5-toc-example-ai-safety-company-ae979a06.webp)
-
-- This version is much stronger. It includes a clear research question, identifies a specific stakeholder (Company X), and outlines a pathway to impact: changing internal governance practices to make AI deployment safer. However, it still assumes a relatively linear and optimistic path, one that may not reflect the actual complexity or uncertainty involved.
 
 #### End Callout
 
