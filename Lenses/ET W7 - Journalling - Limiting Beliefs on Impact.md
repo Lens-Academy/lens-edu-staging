@@ -47,47 +47,5 @@ By noticing these beliefs and **reframing them**, you can choose actions that ar
 
 Here you can take 10-15 minutes to journal on some limiting beliefs you may hold about yourself and your ability to have an impact, and the possible reframes you can take.
 
-#### Question: Open
-id:: cb26a9cb-dc05-489d-8486-976f28cccb52
-content:: 1: Limiting Belief
-optional:: true
-
-#### Question: Open
-id:: 9ff85552-97f4-434f-ae88-ce81efdb4782
-content:: 1: Underlying Need
-optional:: true
-
-#### Question: Open
-id:: 43cf4e54-0b44-42b0-b286-2554f1b08184
-content:: 1: Possible Reframe
-optional:: true
-
-#### Question: Open
-id:: 83aeafca-df38-4d87-802a-46186d30542b
-content:: 2: Limiting Belief
-optional:: true
-
-#### Question: Open
-id:: 2405430c-7b8a-43f5-9758-5ad37a5e4948
-content:: 2: Underlying Need
-optional:: true
-
-#### Question: Open
-id:: cea727aa-40eb-47bc-a82b-2a507d3c991d
-content:: 2: Possible Reframe
-optional:: true
-
-#### Question: Open
-id:: f4566457-302e-4002-9b9d-c25923ad3e86
-content:: 3: Limiting Belief
-optional:: true
-
-#### Question: Open
-id:: 8283338f-147d-4116-b374-3fbb14f4ba9e
-content:: 3: Underlying Need
-optional:: true
-
-#### Question: Open
-id:: 9157468d-0ac2-4066-88cc-442b59705eb1
-content:: 3: Possible Reframe
-optional:: true
+#### Widget
+source:: [[../widgets/et-w7-limiting-beliefs]]
