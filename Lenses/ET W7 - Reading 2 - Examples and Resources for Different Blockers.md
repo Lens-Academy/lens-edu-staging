@@ -34,7 +34,9 @@ Choose one or two areas you're seriously considering and spend time mapping the 
 - [80,000 Hours problem profiles](https://80000hours.org/problem-profiles/)
 - [EA Forum topic/wiki pages](https://forum.effectivealtruism.org/topics)
 
-\#### Build a career Weighted Factor Model
+:::
+
+:::callout {title="2. Build a career Weighted Factor Model" tone="blue" collapse="closed"}
 
 **Why:** **Make your career decision more concrete.** Once you have a few *real, named options* in front of you, a Weighted Factor Model can help you compare what actually matters to you — rather than getting stuck comparing vague ideas like “policy” vs. “research.” It can also make trade-offs and uncertainties more visible.
 
@@ -42,7 +44,9 @@ Choose one or two areas you're seriously considering and spend time mapping the 
 
 - [Career Weighted Factor Model](https://www.effectivethesis.org/advice-articles/weighted-factor-models-wfm-for-careers) by Effective Thesis: Identify 3–5 **specific options** you're genuinely considering (e.g. particular organisations, programmes or roles). Choose the factors that matter to you, weight them, and score each option.
 
-\#### Become a mentor and/or mentee
+:::
+
+:::callout {title="3. Become a mentor and/or mentee" tone="blue" collapse="closed"}
 
 **Why:** **Learn faster through relationships and get perspectives you can't get alone.** A mentor can offer feedback, advice, introductions and lessons from their own experience. Being a mentor can be equally valuable: teaching someone else forces you to articulate what you know, develops your leadership skills, and can help you recognise the value you already have to offer.
 
