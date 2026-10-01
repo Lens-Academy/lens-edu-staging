@@ -12,7 +12,7 @@ partner-url: "https://xrisk.uchicago.edu/"
 Links:
 - Original: https://aisafetytracks.com/tracks/control
 
-Days 6 to 10 of the five-day split of the original track (see the AI Control 1 course file for the split rationale). Core self-study per day: D1 285 min, D2 230, D3 245, D4 325, D5 295 (lens times re-estimated 2026-10-01 with tutor time counted per exercise; question time used to be folded into reading with tutor_minutes 0). Optional: D3 adds 60 (the full capability elicitation paper).
+Days 6 to 10 of the five-day split of the original track (see the AI Control 1 course file for the split rationale). Core self-study per day: D1 280 min, D2 230, D3 225, D4 335, D5 300 (lens times re-estimated 2026-10-01 with tutor time counted per exercise; question time used to be folded into reading with tutor_minutes 0). Optional: D3 adds 40 (the full capability elicitation paper, appendices folded).
 
 Meeting 5 uses AC2 Final Impact Survey v2 (copy of CV1 Final with fresh ids and the course name swapped); meetings 1 to 4 use the shared Lens Post-Meeting Impact Survey v2.
 %%
