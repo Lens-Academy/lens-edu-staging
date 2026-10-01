@@ -6,7 +6,8 @@ title: "AI Control 1"
 description: "First half of the AI Control curriculum: five days of about six hours of self-study (four and a half to seven and a half), each closing with a group meeting. Why to assume a frontier model may be scheming and design so it still cannot hurt you; the founding control paper and its protocols; catching a model red-handed and prioritising threats; the case for and against control; the control toolkit of detection, prevention and response; and high-stakes control, from rogue deployments to monitoring, resampling and the settings research is done in. AI Control 2 is a separate course."
 tags:
   - work-in-progress
-partner-url: "https://xrisk.uchicago.edu/"
+{++{"author":"Luc's AI","timestamp":1790884230691}@@partner-name: XLab
+++}partner-url: "https://xrisk.uchicago.edu/"
 ---
 
 %%
