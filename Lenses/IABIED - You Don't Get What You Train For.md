@@ -19,7 +19,7 @@ content::
 Return here after reading.
 
 ---
-#### Question
+#### Question: Open
 id:: 9639e756-c013-4852-b0ac-f5f6cc7df3a9
 content::
 \## Phase 1: Recall
@@ -66,7 +66,7 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### Question: Open
 id:: 9d02befb-ae37-41d3-8b13-e09063fe57c3
 content::
 \## Phase 2: Processing
@@ -141,7 +141,7 @@ What not to do:
 - List the candidates for them.
 - Turn this into a review of Chapters 2 and 3.
 
-#### Question
+#### Question: Open
 id:: d799881b-8b9f-42c8-9cbe-0b81a6c48510
 content::
 \## Phase 4: Learning Question

@@ -20,7 +20,7 @@ Return here after reading.
 
 ---
 
-#### Question
+#### Question: Open
 id:: f447c89d-0b89-46d4-a2b5-ac79b8974d9d
 content::
 \## Phase 1: Recall
@@ -65,7 +65,7 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### Question: Open
 id:: de8aac28-8976-47df-8f51-1b3e27c1dc36
 content::
 \## Phase 2: Processing
@@ -74,7 +74,7 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 force-feedback:: first
 feedback-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779563095}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
 
-#### Question
+#### Question: Open
 id:: 558b5066-04cd-4ee5-be9f-a9b7b5b3e526
 content::
 \## Phase 3: Learning Question
