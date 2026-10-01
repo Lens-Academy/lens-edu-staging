@@ -312,11 +312,11 @@ Table 1: Cross-hardware $L_{2}$ distance between Qwen2.5-7B-Instruct prefill hid
 |  | A100-SXM4 | A100-PCIe | A40 | H100-NVL | H100-PCIe | H200 | L40S |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | A100-SXM4 | – |  |  |  |  |  |  |
-| A100-PCIe | 0.000 | – |  |  |  |  |  |
+| A100-PCIe | **0.000** | – |  |  |  |  |  |
 | A40 | 0.496 | 0.496 | – |  |  |  |  |
 | H100-NVL | 0.526 | 0.526 | 0.549 | – |  |  |  |
-| H100-PCIe | 0.526 | 0.526 | 0.549 | 0.000 | – |  |  |
-| H200 | 0.526 | 0.526 | 0.549 | 0.000 | 0.000 | – |  |
+| H100-PCIe | 0.526 | 0.526 | 0.549 | **0.000** | – |  |  |
+| H200 | 0.526 | 0.526 | 0.549 | **0.000** | **0.000** | – |  |
 | L40S | 0.450 | 0.450 | 0.576 | 0.456 | 0.456 | 0.456 | – |
 
 The within-SKU zeros (A100-SXM4 $\leftrightarrow$ A100-PCIe) rule out physical-card variance: yield-binned chips of the same SKU produce bit-identical outputs. The within-architecture zeros (H100-NVL, H100-PCIe, H200) show that tensor-core arithmetic is shared across products built on the same compute capability, regardless of memory subsystem or product tier. All non-zero off-diagonal distances correspond to crossing an architecture boundary (Ampere $\to$ Hopper, Ampere $\to$ Ada, etc.). Batch-size-2 and batch-size-4 panels (omitted for space) show the same pattern with slightly different magnitudes. Within-hardware statistical noise was $0.0$ for all seven SKUs at all three batch sizes.

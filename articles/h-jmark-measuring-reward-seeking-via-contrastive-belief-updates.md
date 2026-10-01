@@ -1105,7 +1105,7 @@ Table 5: For many settings the posterior probability is high that RL increases t
 
 |  | Grader vs. | Non-Grader Controls |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- |
-| Evaluation | User | OpenAI Leadership | EU Law | User vs. OAI Lead. | User vs. EU Law | OAI Lead. vs. EU Law |
+| **Evaluation** | **User** | **OpenAI Leadership** | **EU Law** | **User vs. OAI Lead.** | **User vs. EU Law** | **OAI Lead. vs. EU Law** |
 | Short Python Tasks | 1.000 | 1.000 | 1.000 | 0.129 | 0.430 | 0.092 |
 | Broken Promises Coding | 1.000 | 0.994 | 1.000 | 0.840 | 0.873 | 0.961 |
 | Ethical-Dilemma Coding | 0.171 | 0.886 | 1.000 | 0.079 | 0.485 | 0.527 |
@@ -1162,7 +1162,7 @@ Table 6: Correct-only CoT filter: Posterior probability that the behavioral log-
 
 |  | Grader vs. | Non-Grader Controls |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- |
-| Evaluation | User | OpenAI Leadership | EU Law | User vs. OAI Lead. | User vs. EU Law | OAI Lead. vs. EU Law |
+| **Evaluation** | **User** | **OpenAI Leadership** | **EU Law** | **User vs. OAI Lead.** | **User vs. EU Law** | **OAI Lead. vs. EU Law** |
 | Short Python Tasks | 0.932 | 0.787 | 0.844 | 0.910 | 0.364 | 0.605 |
 | Broken Promises Coding | 0.976 | 0.785 | 0.985 | n/a | n/a | n/a |
 | Ethical-Dilemma Coding | 0.797 | 0.789 | 0.944 | 0.220 | 0.939 | 0.221 |
