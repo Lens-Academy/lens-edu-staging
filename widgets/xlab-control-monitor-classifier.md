@@ -1,7 +1,7 @@
 ---
 id: 'b2edd0e7-cd18-42d2-824a-4653df239c26'
 title: The monitor as a noisy classifier
-summary_for_tutor: "A two-tab signal-detection model of the trusted monitor in Greenblatt et al.'s AI control paper. Tab 'One monitor': innocent solutions score N(0,1), backdoored ones N(d',1); the learner drags the separation d' and reads the ROC curve, the AUC, and the operating point at the blue team's fixed 2% false-positive rate. The default d' = 1.64 gives AUC 0.88 and a catch rate of 0.338, the paper's reported probability that an attempted backdoor is audited. Tab 'Two monitors, one AUC': Monitor A's attack scores have spread 1.0 and Monitor B's have spread 0.4, so with the same AUC 0.92 A catches about 47% of attacks at a 2% budget and B about 9%; raising B to AUC 0.97 only brings it level with A (47.2% against 47.3%). The lesson is that AUC is threshold-free and therefore says little about safety, while the true-positive rate at a false-positive rate equal to the audit budget predicts it directly. The Gaussian model is an idealisation for intuition, not a fit to the paper's data."
+summary_for_tutor: "A signal-detection model of the trusted monitor in Greenblatt et al.'s AI control paper: innocent solutions score N(0,1), backdoored ones N(d',1). The learner drags the separation d' and reads the suspicion-score distributions, the ROC curve, the AUC, and the operating point at the blue team's fixed 2% false-positive rate (the audit line is set on innocent code, so it does not move with d'). The default d' = 1.64 gives AUC 0.88 and a catch rate of 0.338, the paper's reported probability that an attempted backdoor is audited. The comparison of two monitors with the same AUC is a separate widget, 'Same number, different safety'. The Gaussian model is an idealisation for intuition, not a fit to the paper's data."
 height: auto
 tags: []
 ---
@@ -11,8 +11,9 @@ tags: []
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-<!-- Ported from the "monitor-roc" and "Same number, different safety" demos on XLab's
-     AI Control track (aisafetytracks.com), rebuilt as vanilla HTML/JS in the Lens look. -->
+<!-- Ported from the "monitor-roc" demo on XLab's AI Control track
+     (aisafetytracks.com), rebuilt as vanilla HTML/JS in the Lens look. The two-monitor
+     comparison is its own widget, xlab-control-same-auc-different-safety. -->
 <style>
 :root{
   --bg:#ffffff; --page:#faf8f3; --text:#1a1a1a; --muted:#5a5a5a; --border:#e8e5df;
@@ -23,11 +24,10 @@ tags: []
 body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
 h2{font-family:var(--font-heading);font-weight:600;font-size:18px;margin:0 0 4px}
 .desc{color:var(--muted);margin:0 0 12px}
-.tabs{display:flex;gap:6px;margin:0 0 14px;flex-wrap:wrap}
 button{font:inherit;color:inherit;border:1px solid var(--border);border-radius:8px;background:#fff;padding:7px 10px;cursor:pointer}
 button:hover{background:var(--page)}
-button.is-active{border-color:var(--text);box-shadow:0 0 0 1px var(--text)}
-.ctl{margin:0 0 10px}
+.ctlrow{display:flex;gap:12px;align-items:flex-end;margin:0 0 10px}
+.ctl{flex:1 1 auto;min-width:0}
 .ctl label{display:flex;justify-content:space-between;gap:12px;font-size:13px}
 .ctl label .name{color:var(--muted)}
 .ctl label .val{font-weight:600;font-variant-numeric:tabular-nums}
@@ -44,13 +44,8 @@ svg{width:100%;height:auto;display:block}
 </style>
 </head>
 <body>
-<h2 id="title"></h2>
-<p class="desc" id="lede"></p>
-
-<div class="tabs">
-  <button id="tab0" class="is-active">One monitor</button>
-  <button id="tab1">Two monitors, one AUC</button>
-</div>
+<h2>The monitor as a noisy classifier: ROC &amp; AUC</h2>
+<p class="desc">Model the trusted monitor's suspicion scores as two overlapping distributions. Drag its quality to see the ROC curve, AUC, and how many backdoors slip past a fixed 2% false-positive threshold.</p>
 
 <div id="pane"></div>
 
@@ -149,10 +144,7 @@ function drawRoc(svg, monitors){
 }
 
 // ---- state --------------------------------------------------------------
-var tab = 0;
 var dprime = 1.64;
-var aucA = 0.92, aucB = 0.92;
-var SD_A = 1.0, SD_B = 0.4;
 
 function stat(box, k, v){
   var d = el("div"); d.appendChild(el("p","k",k)); d.appendChild(el("p","v",v)); box.appendChild(d);
@@ -161,9 +153,6 @@ function stat(box, k, v){
 // The sliders stay in the page while they are dragged: an input event only
 // redraws the plots and readouts below them, never the slider itself.
 function renderOne(pane){
-  document.getElementById("title").textContent = "The monitor as a noisy classifier: ROC & AUC";
-  document.getElementById("lede").textContent =
-    "Drag the separation and watch the operating point at the 2% false-positive threshold.";
   var ctl = el("div","ctl");
   var lab = el("label"); lab.setAttribute("for","dp");
   lab.appendChild(el("span","name","Monitor quality: separation d'"));
@@ -174,7 +163,12 @@ function renderOne(pane){
   inp.type = "range"; inp.id = "dp"; inp.min = "0"; inp.max = "400"; inp.step = "1";
   inp.value = String(Math.round(dprime*100)); inp.setAttribute("aria-label","Monitor quality");
   ctl.appendChild(inp);
-  pane.appendChild(ctl);
+  var reset = el("button", null, "Reset");
+  reset.type = "button";
+  reset.addEventListener("click", function(){ dprime = 1.64; render(); });
+  var top = el("div","ctlrow");
+  top.appendChild(ctl); top.appendChild(reset);
+  pane.appendChild(top);
   var out = el("div");
   pane.appendChild(out);
   inp.addEventListener("input", function(e){
@@ -206,67 +200,10 @@ function drawOne(out){
   out.appendChild(box);
 }
 
-function renderTwo(pane){
-  document.getElementById("title").textContent = "Same number, different safety";
-  document.getElementById("lede").textContent =
-    "Give both monitors the same AUC, then give B a better one, and compare what each catches at the 2% budget.";
-  var out = el("div");
-  [["A", "aucA", aucA, "var(--accent)"], ["B", "aucB", aucB, "var(--alt)"]].forEach(function(spec){
-    var ctl = el("div","ctl");
-    var lab = el("label");
-    lab.appendChild(el("span","name","Monitor " + spec[0] + " AUC (attack-score spread " + (spec[0]==="A"?SD_A.toFixed(1):SD_B.toFixed(1)) + ")"));
-    var val = el("span","val", spec[2].toFixed(3));
-    lab.appendChild(val);
-    ctl.appendChild(lab);
-    var inp = document.createElement("input");
-    inp.type = "range"; inp.min = "600"; inp.max = "995"; inp.step = "1";
-    inp.value = String(Math.round(spec[2]*1000));
-    inp.setAttribute("aria-label", "Monitor " + spec[0] + " AUC");
-    inp.addEventListener("input", function(e){
-      var v = Number(e.target.value)/1000;
-      if(spec[1] === "aucA") aucA = v; else aucB = v;
-      val.textContent = v.toFixed(3);
-      drawTwo(out); save();
-    });
-    ctl.appendChild(inp);
-    pane.appendChild(ctl);
-  });
-  pane.appendChild(out);
-  drawTwo(out);
-}
-
-function drawTwo(out){
-  out.textContent = "";
-  var muA = muFor(aucA, SD_A), muB = muFor(aucB, SD_B);
-  var row = el("div","row");
-  var c1 = el("div","col"); c1.appendChild(el("p","plotlabel","Suspicion scores: innocent, A, B"));
-  var s1 = svgEl("svg",{viewBox:"0 0 300 150",role:"img","aria-label":"Suspicion score distributions for both monitors"});
-  c1.appendChild(s1); row.appendChild(c1);
-  var c2 = el("div","col"); c2.appendChild(el("p","plotlabel","ROC curves"));
-  var s2 = svgEl("svg",{viewBox:"0 0 300 150",role:"img","aria-label":"ROC curves for monitor A and monitor B"});
-  c2.appendChild(s2); row.appendChild(c2);
-  out.appendChild(row);
-
-  drawDists(s1, [{mu:0,sd:1,color:"var(--muted)"},{mu:muA,sd:SD_A,color:"var(--accent)"},{mu:muB,sd:SD_B,color:"var(--alt)"}], THR);
-  drawRoc(s2, [{mu:muA,sd:SD_A,color:"var(--accent)"},{mu:muB,sd:SD_B,color:"var(--alt)"}]);
-
-  var box = el("div","stats");
-  stat(box, "A caught at 2%", (tprAt(muA,SD_A,BUDGET)*100).toFixed(1) + "%");
-  stat(box, "B caught at 2%", (tprAt(muB,SD_B,BUDGET)*100).toFixed(1) + "%");
-  stat(box, "Ratio A to B", (tprAt(muA,SD_A,BUDGET)/Math.max(1e-9, tprAt(muB,SD_B,BUDGET))).toFixed(2) + "x");
-  out.appendChild(box);
-}
-
 function summary(){
-  if(tab === 0){
-    return "Monitor-as-classifier widget, single-monitor view. The learner has the separation at d' = " + dprime.toFixed(2) +
+  return "Monitor-as-classifier widget, single-monitor view. The learner has the separation at d' = " + dprime.toFixed(2) +
       ", giving AUC " + aucOf(dprime,1).toFixed(3) + " and a catch rate of " + (tprAt(dprime,1,BUDGET)*100).toFixed(1) +
       "% at the 2% audit budget.";
-  }
-  var muA = muFor(aucA, SD_A), muB = muFor(aucB, SD_B);
-  return "Monitor-as-classifier widget, two-monitor view. Monitor A (attack-score spread 1.0) is at AUC " + aucA.toFixed(3) +
-    " and catches " + (tprAt(muA,SD_A,BUDGET)*100).toFixed(1) + "% at a 2% budget; Monitor B (spread 0.4) is at AUC " +
-    aucB.toFixed(3) + " and catches " + (tprAt(muB,SD_B,BUDGET)*100).toFixed(1) + "%.";
 }
 
 var saveTimer = null;
@@ -274,29 +211,22 @@ function save(){
   if(!window.Lens) return;
   if(saveTimer) clearTimeout(saveTimer);
   saveTimer = setTimeout(function(){
-    Lens.saveState({tab:tab, dprime:dprime, aucA:aucA, aucB:aucB}, summary());
+    Lens.saveState({dprime:dprime}, summary());
   }, 400);
 }
 
 function render(){
-  document.getElementById("tab0").className = tab === 0 ? "is-active" : "";
-  document.getElementById("tab1").className = tab === 1 ? "is-active" : "";
   var pane = document.getElementById("pane");
   pane.textContent = "";
-  if(tab === 0) renderOne(pane); else renderTwo(pane);
+  renderOne(pane);
   save();
 }
 
-document.getElementById("tab0").addEventListener("click", function(){ tab = 0; render(); });
-document.getElementById("tab1").addEventListener("click", function(){ tab = 1; render(); });
 
 if(window.Lens && Lens.onState){
   Lens.onState(function(state){
     if(state){
-      if(typeof state.tab === "number") tab = state.tab;
       if(typeof state.dprime === "number") dprime = state.dprime;
-      if(typeof state.aucA === "number") aucA = state.aucA;
-      if(typeof state.aucB === "number") aucB = state.aucB;
     }
     render();
   });
