@@ -37,7 +37,7 @@ id:: 78fc4ba1-776c-47ab-b71c-c4aa5034cc5d
 content:: In AI control terminology, what is an "attack"?
 max-chars:: 400
 assessment-instructions:: Score out of 100. 50: an attack is an attempt by the AI itself: something the AI deliberately tries to do, successful or not, as opposed to an accident or a mistake. 50: what it aims at: causing the unacceptable (catastrophic) outcome the safety measures exist to prevent. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "An attempt by the AI to cause the unacceptable outcome. A scheming AI would normally behave as if aligned and attack only on rare occasions, so that its attacks are hard to catch."
-feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer from the rubric so they leave with it, in your own words if it is long. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Article
 from:: For concreteness, let’s talk about a particularly important simple class

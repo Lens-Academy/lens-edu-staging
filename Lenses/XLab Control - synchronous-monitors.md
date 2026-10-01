@@ -25,7 +25,7 @@ to:: We call actions “**live failures**” if their harmful effects are rapid 
 id:: d65cd045-258c-4def-b314-496ccc8ea4fa
 content:: What are the two goals that monitoring serves?
 assessment-instructions:: Score out of 100. 50: detection: spotting misbehaviour so you can understand it and stop similar actions in the future. 50: prevention: spotting misbehaviour in order to stop or limit the harm of that particular action. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer names two goals but describes the same thing twice. Model answer, for the feedback, not a grading checklist: "Detection: identifying misbehavior so you can understand it and prevent similar actions from happening in the future. Prevention: identifying misbehavior in order to mitigate the harmful effects of that particular action."
-feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer from the rubric so they leave with it, in your own words if it is long. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 0b5af592-b177-4417-b891-db7ce6ffbfd7
