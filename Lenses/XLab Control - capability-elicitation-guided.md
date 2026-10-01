@@ -168,9 +168,15 @@ to:: All plots report the standard error of the mean over 3 seeds.
 content::
 The following is pulled forward from the paper's appendix C.2, because the next checkpoint turns on it.
 
+#### Callout: Appendix C.2
+tone:: neutral
+collapse:: open
+
 #### Article
 from:: ### C.2 Password-locking with a single password
 to:: - Password: 1234567890abcdef1234567890abcdef 1234567890abcdef
+
+#### End Callout
 
 #### Question: Open
 id:: 89a4419a-62a1-4958-bf03-ad9ace0b7060
@@ -333,9 +339,15 @@ content::
 A closing observation about the guided format itself. This reading treated roughly a dozen of the paper's choices as decisions worth stopping for. The paper also contains a much larger set of settings that received no such treatment: the password string and its placement at both ends of the prompt, eight locking epochs, the learning rates, the Lion optimizer (chosen so that full-weight fine-tuning fits on a single GPU), the 0.8 similarity threshold for critique validity, best-of-64 selection in expert iteration, the DPO beta of 0.1, three random seeds, the exact split percentages. These were set by brief iteration, and the sensitivity analyses of Appendix B check that nothing depends on them: results are stable under different weak policies, different passwords, trigger types that are not strings at all, and demonstrations from the strong policy itself. Distinguishing the two kinds of choice is itself part of the skill this format practices: a parameter is something that could have been set otherwise without changing any conclusion; a decision is something whose alternatives would have produced a different experiment. The deliberation budget belongs to the decisions.
 :::
 
+#### Callout: References and appendices (optional)
+tone:: neutral
+collapse:: closed
+
 #### Article
 from:: ## References
 optional:: true
+
+#### End Callout
 
 #### Text
 content::
