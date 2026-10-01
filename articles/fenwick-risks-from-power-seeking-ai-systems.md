@@ -132,11 +132,11 @@ In this sense, AI systems will have _long-term goals_. They will model outcomes,
 
 **Second**, we expect future AI systems will have excellent situational awareness — not only of the outside world (they can already search the internet), but of their own capabilities and environment. Current models often misjudge what they can do and struggle to track their own progress, limiting their autonomy and reliability, but developers are actively working to close these gaps.
 
-And **third**, their advanced capabilities will mean they can do so much more than current systems. Software engineering is one domain where existing AI systems are quite capable, but AI companies have said they want to build AI systems that can outperform humans at most cognitive tasks.[^note-7] This means systems that can do much of the work of teachers, therapists, journalists, managers, scientists, engineers, CEOs, and more.
+And **third**, their advanced capabilities will mean they can do so much more than current systems. Software engineering is one domain where existing AI systems are quite capable, but AI companies have said they want to build AI systems that can outperform humans at most cognitive {--{"author":"Elua's AI","timestamp":1790874192229}@@tasks.[^note-7]--}{++{"author":"Elua's AI","timestamp":1790874192229}@@tasks.[^cite-7]++} This means systems that can do much of the work of teachers, therapists, journalists, managers, scientists, engineers, CEOs, and more.
 
 The economic incentives for building these advanced AI systems are enormous, because they could potentially replace much of human labour and supercharge innovation. Some might think that such advanced systems are impossible to build, but as we discuss [[#^arguments-against|below]], we see no reason to be confident in that claim.
 
-And as long as such technology looks feasible, we should expect some companies will try to build it — and perhaps quite soon.[^note-8]
+And as long as such technology looks feasible, we should expect some companies will try to build it — and perhaps quite {--{"author":"Elua's AI","timestamp":1790874194311}@@soon.[^note-8]--}{++{"author":"Elua's AI","timestamp":1790874194311}@@soon.[^cite-8]++}
 
 ### 2\. AIs with long-term goals may be inclined to seek power and aim to disempower humanity ^claim-2-power-seeking
 
@@ -217,7 +217,7 @@ However, in the same report, METR noted that no major AI company had reported cl
 
 To see why advanced AI systems might want to disempower humanity, let’s consider again the three characteristics we said these systems will have: long-term goals, situational awareness, and highly advanced capabilities.
 
-What kinds of **long-term goals** might such an AI system be trying to achieve? We don’t really have a clue — part of the problem is that it’s very hard to predict exactly how AI systems will develop.[^note-17]
+What kinds of **long-term goals** might such an AI system be trying to achieve? We don’t really have a clue — part of the problem is that it’s very hard to predict exactly how AI systems will {--{"author":"Elua's AI","timestamp":1790874196213}@@develop.[^note-17]--}{++{"author":"Elua's AI","timestamp":1790874196213}@@develop.[^cite-17]++}
 
 But let’s consider two kinds of scenarios:
 
@@ -226,7 +226,7 @@ But let’s consider two kinds of scenarios:
 
 So what would an AI do to achieve these goals? As we’ve seen, one place to start is by pursuing the instrumental goals that are useful for almost anything: self-preservation, the ability to keep one’s goals from being forcibly changed, and, most worryingly, seeking power.
 
-And if the AI system has enough **situational awareness**, it may be aware of many options for seeking more power. For example, gaining more financial and computing resources may make it easier for the AI system to exploit its reward mechanisms, gain new skills, or carry out detailed plans.[^note-18]
+And if the AI system has enough **situational awareness**, it may be aware of many options for seeking more power. For example, gaining more financial and computing resources may make it easier for the AI system to exploit its reward mechanisms, gain new skills, or carry out detailed {--{"author":"Elua's AI","timestamp":1790874198403}@@plans.[^note-18]--}{++{"author":"Elua's AI","timestamp":1790874198403}@@plans.[^cite-18]++}
 
 But since designers didn’t want the AI to have these goals, it may anticipate humans will try to reprogram it or turn it off. If humans suspect an AI system is seeking power, they will be even more likely to try to stop it.
 
