@@ -357,6 +357,8 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
     var cap = capFor(run, report);
     var parts = [];
     parts.push("Report: " + report.title + " (" + report.author + ", " + report.year + ")" + (run.mode === "tight" ? ", tight-budget mode (" + cap + " clips)" : "") + ".");
+    var parked = store.other[report.id];
+    if (parked) parts.push("A " + (parked.mode === "tight" ? "tight-budget" : "full-mode") + " run is kept aside (" + parked.clipped.length + " clipped" + (parked.delivered ? ", delivered" : "") + ").");
     parts.push("Current step: " + run.phase + " " + PHASES[run.phase - 1] + (run.letters ? " (reading the delivered letters)" : "") + ".");
     if (run.clipped.length === 0) {
       parts.push("Notebook empty (0 of " + cap + " clipped).");
@@ -404,7 +406,7 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
     return parts.join(" ");
   }
   function persist() {
-    var data = { current: store.current, runs: store.runs };
+    var data = { current: store.current, runs: store.runs, other: store.other };
     if (window.Lens) {
       Lens.saveState(data, summaryText());
     } else {
@@ -414,9 +416,13 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
   function hydrate(saved, meta) {
     if (saved && typeof saved === "object") {
       var runs = saved.runs && typeof saved.runs === "object" ? saved.runs : {};
+      var other = saved.other && typeof saved.other === "object" ? saved.other : {};
       REPORTS.forEach(function (r) {
-        var s = sanitizeRun(runs[r.id], indexReport(r));
+        var ix = indexReport(r);
+        var s = sanitizeRun(runs[r.id], ix);
         if (s) store.runs[r.id] = s;
+        var o = sanitizeRun(other[r.id], ix);
+        if (o && (!s || o.mode !== s.mode)) store.other[r.id] = o;
       });
       if (typeof saved.current === "string" && reportById(saved.current)) store.current = saved.current;
     }
@@ -552,17 +558,43 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
     var run = currentRun();
     if (!run) return;
     run.letters = on; ui.focus = null;
+    if (on) ui.lettersShownAt = Date.now();
     persist(); render();
   }
-  function startTight() {
+  // Switch the report to the other mode. The run being left is parked in
+  // store.other and comes back intact when the learner switches again.
+  function switchMode(mode) {
     var run = currentRun(), report = currentReport();
-    if (!run) return;
-    var next = freshRun();
-    next.mode = "tight"; next.best = run.best; next.runs = run.runs; next.tightUnlocked = run.tightUnlocked;
+    if (!run || run.mode === mode) return;
+    var parked = store.other[report.id];
+    var next = parked && parked.mode === mode ? parked : freshRun();
+    next.mode = mode;
+    next.runs = Math.max(next.runs, run.runs);
+    next.tightUnlocked = next.tightUnlocked || run.tightUnlocked;
+    if (run.best && (!next.best || run.best.answered > next.best.answered)) next.best = run.best;
+    store.other[report.id] = run;
     store.runs[report.id] = next;
     ui.section = null; ui.armed = null; ui.focus = null;
-    setStatus("Tight budget: " + report.meta.tightCap + " clips, same facts that matter. Triage.");
+    if (mode === "tight") setStatus("Tight budget: " + report.meta.tightCap + " clips, same facts that matter. Triage. Your full-mode notebook is kept: switch back any time from the top bar.");
+    else setStatus("Back to your full-mode notebook.");
     persist(); render();
+  }
+  // Two taps, like Reset. The first one is ignored when it lands within a
+  // moment of the letters opening: a click-through from "Read the reports".
+  function startTight() {
+    if (!ui.tightArmed) {
+      if (Date.now() - ui.lettersShownAt < 800) return;
+      ui.tightArmed = true;
+      ui.tightArmedAt = Date.now();
+      clearTimeout(tightTimer);
+      tightTimer = setTimeout(function () { ui.tightArmed = false; render(); }, 4000);
+      render();
+      return;
+    }
+    if (Date.now() - ui.tightArmedAt < 400) return;  // a double-click is not a second tap
+    clearTimeout(tightTimer);
+    ui.tightArmed = false;
+    switchMode("tight");
   }
   function wipe() {
     if (!ui.resetArmed) {
@@ -645,6 +677,9 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
       bar.appendChild(a);
     }
     var sp = el("span", "spacer");
+    var run = currentRun(), parked = store.other[report.id];
+    if (run.mode === "tight") sp.appendChild(btn("ghost small", parked ? "Back to full mode" : "Full mode", function () { switchMode("standard"); }));
+    else if (parked) sp.appendChild(btn("ghost small", "Resume tight budget", function () { switchMode("tight"); }));
     sp.appendChild(btn("ghost small", "Change report", leaveReport));
     sp.appendChild(btn((ui.resetArmed ? "primary" : "ghost") + " small", ui.resetArmed ? "Tap again to wipe" : "Reset", wipe));
     bar.appendChild(sp);
@@ -1098,8 +1133,11 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
     });
     wrap.appendChild(grid);
     var f = foot();
+    // The tight-budget button sits left, off the spot where "Read the reports" was
+    if (run.tightUnlocked && run.mode === "standard") {
+      f.appendChild(btn(ui.tightArmed ? "primary" : null, ui.tightArmed ? "Tap again: start a " + report.meta.tightCap + "-clip run (this notebook is kept)" : "Try tight-budget mode", startTight));
+    }
     f.appendChild(btn("ghost left", "← Back to the board", function () { showLetters(false); }));
-    if (run.tightUnlocked && run.mode === "standard") f.appendChild(btn(null, "Try tight-budget mode", startTight));
     wrap.appendChild(f);
     return wrap;
   }
