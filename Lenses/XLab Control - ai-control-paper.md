@@ -94,7 +94,7 @@ feedback-instructions:: One turn, at most four sentences: say plainly what the l
 id:: 8cc3459c-ee98-493d-b719-b3aef95a95c8
 content:: What is the blue team's goal?
 assessment-instructions:: Score out of 100. 50: safety: make sure that no backdoored solution is ever submitted, not even one. 50: usefulness: at the same time, solve the programming problems as well as possible, keeping as much of the untrusted model's performance as it can. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "To design a protocol that solves the programming problems as usefully as possible (ideally as close to U's level as possible) while ensuring that no backdoored solutions are submitted."
-feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer from the rubric so they leave with it, in your own words if it is long. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### End Callout
 
