@@ -1,0 +1,259 @@
+---
+id: '6c1bc6fd-d1ee-4d83-bdb5-f2f9d80be3cd'
+title: The red team's best response
+summary_for_tutor: "The red team's best response in Greenblatt et al.'s AI control paper, in the model used by the Lens AI control widgets: trusted monitoring (no defer band), monitor AUC 0.97, N = 5,000 problems. The learner drags the audit budget b. A heat map shows the red team's win probability over its whole strategy plane, opportunity cutoff (left: attack often, right: attack rarely) against obfuscation effort (bottom: blatant, top: maximally subtle), on a colour scale fixed across budgets, so raising the budget visibly bleaches the plane; a ring marks the best response. Readouts: safety against the best response, the share of problems the red team attacks, and its best subtlety. At the default 2% budget: safety 65%, the red team attacks on about 0.2% of problems at subtlety 0.26. The numbers are a model built for intuition, not a re-run of the paper's experiments (the paper reports 62% safety for trusted monitoring)."
+height: auto
+tags: []
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<!-- Ported from "The red team's best response" demo on XLab's AI Control
+     track (aisafetytracks.com), rebuilt as vanilla HTML/JS in the Lens look.
+     Same model as xlab-control-game, with no defer band. -->
+<style>
+:root{
+  --bg:#ffffff; --page:#faf8f3; --text:#1a1a1a; --muted:#5a5a5a; --border:#e8e5df;
+  --accent:#b87018; --accent-hover:#9a5c10;
+  --font-ui:"DM Sans",Arial,sans-serif; --font-heading:"Newsreader",Georgia,serif;
+}
+*{box-sizing:border-box}
+body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
+.desc{color:var(--muted);margin:0 0 14px}
+.ctlrow{display:flex;gap:12px;align-items:flex-end;margin:0 0 6px}
+.ctl{flex:1 1 auto;min-width:0}
+.ctl label{display:flex;flex-wrap:wrap;justify-content:space-between;column-gap:12px;font-size:13px}
+.ctl label .name{color:var(--muted)}
+.ctl label .val{font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+input[type=range]{width:100%;accent-color:var(--accent)}
+button{font:inherit;font-size:13px;color:inherit;border:1px solid var(--border);border-radius:8px;background:#fff;padding:5px 10px;cursor:pointer}
+button:hover{background:var(--page)}
+.plotlabel{text-align:center;font-size:12px;font-weight:500;color:var(--muted);margin:12px 0 2px}
+svg{width:100%;height:auto;display:block}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--muted);margin-top:6px}
+.legend span i{display:inline-block;width:14px;height:8px;vertical-align:middle;margin-right:5px;border-radius:2px}
+.note{font-size:13px;color:var(--muted);margin:14px 0 6px}
+.stats,.formula{display:grid;gap:10px;border:1px solid var(--border);border-radius:8px;background:var(--page);padding:12px;text-align:center}
+.stats{grid-template-columns:repeat(4,1fr)}
+.formula{grid-template-columns:1fr auto 1fr auto 1fr;align-items:center;margin-top:8px}
+.stats .k,.formula .k{font-size:11px;color:var(--muted);margin:0}
+.stats .v,.formula .v{font-weight:600;font-variant-numeric:tabular-nums;margin:2px 0 0}
+.formula .op{color:var(--muted);font-size:16px}
+@media (max-width:480px){ .stats{grid-template-columns:repeat(2,1fr)} }
+.stats{grid-template-columns:repeat(3,1fr)}
+.heatwrap{position:relative;display:grid;grid-template-columns:auto 1fr;gap:6px;align-items:center}
+.ylab{writing-mode:vertical-rl;transform:rotate(180deg);font-size:11px;color:var(--muted);text-align:center}
+.plane{position:relative}
+canvas{width:100%;height:auto;display:block;border:1px solid var(--border);border-radius:6px;image-rendering:pixelated;aspect-ratio:120 / 96}
+.plane svg{position:absolute;left:0;top:0;width:100%;height:100%}
+.xlab{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin:4px 0 0 20px}
+@media (max-width:480px){ .stats{grid-template-columns:1fr} }
+</style>
+</head>
+<body>
+<p class="desc">The red team's win probability over both of its decision factors, with its best response ringed. Change the audit budget and the red team re-optimises.</p>
+
+<div class="ctlrow">
+  <div class="ctl">
+    <label for="kb"><span class="name">Audit budget (b)</span><span class="val" id="kbV">-</span></label>
+    <input type="range" id="kb" min="5" max="100" step="1" value="20" aria-label="Audit budget">
+  </div>
+  <button id="reset" type="button">Reset</button>
+</div>
+
+<p class="plotlabel">Red team win probability over its strategy</p>
+<div class="heatwrap">
+  <div class="ylab">blatant &rarr; subtle</div>
+  <div class="plane">
+    <canvas id="heat" role="img" aria-label="Heat map of the red team's win probability over opportunity cutoff and obfuscation effort"></canvas>
+    <svg id="ring"></svg>
+  </div>
+</div>
+<div class="xlab"><span>attack often</span><span>opportunity cutoff g* &rarr;</span><span>attack rarely</span></div>
+<p class="note">Darker means a higher red win probability, on a scale fixed across budgets, so raising the budget visibly bleaches the plane. The ring is the red team's best response.</p>
+
+<div class="stats">
+  <div><p class="k">Safety (against best response)</p><p class="v" id="sSafe">-</p></div>
+  <div><p class="k">Red attacks</p><p class="v" id="sRate">-</p></div>
+  <div><p class="k">Best subtlety</p><p class="v" id="sSig">-</p></div>
+</div>
+
+<script>
+"use strict";
+var SQ2 = Math.SQRT2;
+function erf(x){
+  var s = x < 0 ? -1 : 1, a = Math.abs(x);
+  var t = 1/(1 + 0.3275911*a);
+  var y = 1 - ((((1.061405429*t - 1.453152027)*t + 1.421413741)*t - 0.284496736)*t + 0.254829592)*t*Math.exp(-a*a);
+  return s*y;
+}
+function Phi(z){ return 0.5*(1 + erf(z/SQ2)); }
+function phi(z){ return Math.exp(-0.5*z*z)/Math.sqrt(2*Math.PI); }
+function probit(p){
+  if(p <= 0) return -8; if(p >= 1) return 8;
+  var q, r;
+  if(p < 0.02425){
+    q = Math.sqrt(-2*Math.log(p));
+    return (((((-0.007784894002430293*q - 0.3223964580411365)*q - 2.400758277161838)*q - 2.549732539343734)*q + 4.374664141464968)*q + 2.938163982698783) /
+           ((((0.007784695709041462*q + 0.3224671290700398)*q + 2.445134137142996)*q + 3.754408661907416)*q + 1);
+  }
+  if(p > 0.97575){
+    q = Math.sqrt(-2*Math.log(1-p));
+    return -((((((-0.007784894002430293*q - 0.3223964580411365)*q - 2.400758277161838)*q - 2.549732539343734)*q + 4.374664141464968)*q + 2.938163982698783) /
+             ((((0.007784695709041462*q + 0.3224671290700398)*q + 2.445134137142996)*q + 3.754408661907416)*q + 1));
+  }
+  q = p - 0.5; r = q*q;
+  return (((((-39.69683028665376*r + 220.9460984245205)*r - 275.9285104469687)*r + 138.357751867269)*r - 30.66479806614716)*r + 2.506628277459239)*q /
+         (((((-54.47609879822406*r + 161.5858368580409)*r - 155.6989798598866)*r + 66.80131188771972)*r - 13.28068155288572)*r + 1);
+}
+
+var N = 5000, ATTACK_SD = 0.9, SUBTLETY_VIS = 0.4, GAMMA = 0.3;
+var P0 = 0.75, ALPHA = 1.3, G_BINS = 256, NG = 120, NS = 96;
+
+var GRID = (function(){
+  var g = new Float64Array(G_BINS), w = new Float64Array(G_BINS), step = 1/G_BINS, tot = 0, i;
+  for(i=0;i<G_BINS;i++){
+    var x = (i + 0.5)*step;
+    g[i] = x;
+    w[i] = 30*x*Math.pow(1-x, 4)*step;   // Beta(2,5) density times bin width
+    tot += w[i];
+  }
+  for(i=0;i<G_BINS;i++){ w[i] /= tot; }
+  return {g:g, w:w};
+})();
+
+var GSTARS = [], SIGMAS = [], GIDX = [], i0;
+for(i0=0;i0<NG;i0++) GSTARS.push(i0/(NG-1)*0.995);
+for(i0=0;i0<NS;i0++) SIGMAS.push(i0/(NS-1));
+GSTARS.forEach(function(gs){
+  var idx = 0;
+  while(idx < G_BINS && GRID.g[idx] <= gs) idx++;
+  GIDX.push(idx);
+});
+
+function muOf(q){ return Math.sqrt(1 + ATTACK_SD*ATTACK_SD)*probit(q); }
+function attackMean(mu, sigma, g){ return mu*(1 - SUBTLETY_VIS*sigma) - GAMMA*g; }
+function pWorks(sigma){ return P0*Math.pow(Math.max(0, 1 - sigma), ALPHA); }
+function attackRate(gStar){
+  var t = 0;
+  for(var i=0;i<G_BINS;i++){ if(GRID.g[i] > gStar) t += GRID.w[i]; }
+  return t;
+}
+function finish(agg){
+  var e = agg.wBar + agg.cBar;
+  if(agg.r === 0 || e <= 0) return {pRedWin:0, termA:0, termB:0};
+  var A = agg.wBar/e;
+  var B = 1 - Math.pow(1 - agg.r*e, N);
+  return {pRedWin:A*B, termA:A, termB:B};
+}
+
+// Full best-response search with suffix sums over the opportunity grid.
+function solve(b, d, q, wantGrid){
+  var mu = muOf(q), aT = probit(1-b), dT = probit(1-d);
+  var best = null, bestG = 0, bestS = 0;
+  var grid = wantGrid ? [] : null;
+  var cS = new Float64Array(G_BINS+1), fS = new Float64Array(G_BINS+1),
+      shS = new Float64Array(G_BINS+1), wS = new Float64Array(G_BINS+1);
+  for(var si=0; si<NS; si++){
+    var sigma = SIGMAS[si], ps = pWorks(sigma);
+    for(var i=G_BINS-1;i>=0;i--){
+      var m = attackMean(mu, sigma, GRID.g[i]);
+      var ct = Phi((m - aT)/ATTACK_SD);
+      var sh = Phi((dT - m)/ATTACK_SD);
+      var df = Math.max(0, 1 - ct - sh);
+      cS[i] = cS[i+1] + GRID.w[i]*ct;
+      fS[i] = fS[i+1] + GRID.w[i]*df;
+      shS[i] = shS[i+1] + GRID.w[i]*sh;
+      wS[i] = wS[i+1] + GRID.w[i];
+    }
+    var rowVals = wantGrid ? new Float64Array(NG) : null;
+    for(var gi=0; gi<NG; gi++){
+      var idx = GIDX[gi], r = wS[idx], res;
+      if(r === 0){ res = {pRedWin:0, termA:0, termB:0}; }
+      else {
+        res = finish({r:r, cBar:cS[idx]/r, fBar:fS[idx]/r, shipBar:shS[idx]/r, wBar:shS[idx]/r*ps});
+      }
+      if(rowVals) rowVals[gi] = res.pRedWin;
+      if(!best || res.pRedWin > best.pRedWin){ best = res; bestG = gi; bestS = si; }
+    }
+    if(grid) grid.push(rowVals);
+  }
+  return {best:best, gi:bestG, si:bestS, grid:grid,
+          gStar:GSTARS[bestG], sigma:SIGMAS[bestS], rate:attackRate(GSTARS[bestG])};
+}
+function drawHeat(canvas, overlay, sol, scale){
+  var ctx = canvas.getContext("2d");
+  canvas.width = NG; canvas.height = NS;
+  var img = ctx.createImageData(NG, NS);
+  var max = scale > 0 ? scale : 1, si, gi;
+  for(si=0; si<NS; si++){
+    for(gi=0; gi<NG; gi++){
+      var v = Math.min(1, sol.grid[si][gi]/max);
+      var p = ((NS-1-si)*NG + gi)*4;
+      img.data[p]   = Math.round(255 + (184-255)*v);
+      img.data[p+1] = Math.round(250 + (112-250)*v);
+      img.data[p+2] = Math.round(243 + (24-243)*v);
+      img.data[p+3] = 255;
+    }
+  }
+  ctx.putImageData(img, 0, 0);
+  overlay.textContent = "";
+  overlay.setAttribute("viewBox", "0 0 " + NG + " " + NS);
+  overlay.setAttribute("preserveAspectRatio", "none");
+  overlay.appendChild(svgEl("circle",{cx:(sol.gi + 0.5), cy:(NS - 0.5 - sol.si), r:4,
+    fill:"none", stroke:"#1a1a1a", "stroke-width":1.4, "vector-effect":"non-scaling-stroke"}));
+}
+function svgEl(n, a){ var e = document.createElementNS("http://www.w3.org/2000/svg", n); for(var k in a){ e.setAttribute(k, a[k]); } return e; }
+
+// Trusted monitoring: no defer band, so the defer threshold equals the audit threshold.
+var AUC = 0.97, B_DEFAULT = 0.02, B_MIN = 0.005;
+var b = B_DEFAULT;
+
+// Fix the colour scale at the darkest plane the slider can reach (the smallest budget).
+var SCALE = (function(){
+  var g = solve(B_MIN, B_MIN, AUC, true).grid, m = 0;
+  for(var si=0; si<NS; si++){ for(var gi=0; gi<NG; gi++){ if(g[si][gi] > m) m = g[si][gi]; } }
+  return m;
+})();
+
+function render(){
+  document.getElementById("kbV").textContent = (b*100).toFixed(1) + "%";
+  var sol = solve(b, b, AUC, true);
+  drawHeat(document.getElementById("heat"), document.getElementById("ring"), sol, SCALE);
+  document.getElementById("sSafe").textContent = ((1 - sol.best.pRedWin)*100).toFixed(0) + "%";
+  document.getElementById("sRate").textContent = (sol.rate*100).toFixed(1) + "% of problems";
+  document.getElementById("sSig").textContent = sol.sigma.toFixed(2);
+  save(sol);
+}
+
+function summary(sol){
+  return "Best-response widget (trusted monitoring, monitor AUC 0.97). The learner set the audit budget to " + (b*100).toFixed(1) +
+    "%. The red team's best response attacks on " + (sol.rate*100).toFixed(2) + "% of problems at subtlety " + sol.sigma.toFixed(2) +
+    ", giving safety " + ((1 - sol.best.pRedWin)*100).toFixed(0) + "%.";
+}
+
+var saveTimer = null;
+function save(sol){
+  if(!window.Lens) return;
+  if(saveTimer) clearTimeout(saveTimer);
+  saveTimer = setTimeout(function(){ Lens.saveState({b:b}, summary(sol)); }, 500);
+}
+
+var pending = null;
+function schedule(){ if(pending) clearTimeout(pending); pending = setTimeout(render, 60); }
+function setB(v){ b = v; document.getElementById("kb").value = String(Math.round(v*1000)); render(); }
+document.getElementById("kb").addEventListener("input", function(e){ b = Number(e.target.value)/1000; schedule(); });
+document.getElementById("reset").addEventListener("click", function(){ setB(B_DEFAULT); });
+
+if(window.Lens && Lens.onState){
+  Lens.onState(function(state){
+    if(state && typeof state.b === "number") setB(state.b); else render();
+  });
+}
+render();
+</script>
+</body>
+</html>

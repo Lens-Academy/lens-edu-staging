@@ -1,0 +1,256 @@
+---
+id: '851a893f-e5be-4c34-ac1e-beda519f5c2a'
+title: "Subtlety: visible against reliable"
+summary_for_tutor: "The subtlety curve from Greenblatt et al.'s AI control paper, in the model used by the Lens AI control widgets: trusted monitoring at a 2% audit budget, monitor AUC 0.97, N = 5,000 problems. The learner drags the red team's obfuscation effort (subtlety) sigma from blatant (0) to maximally subtle (1); at each subtlety the red team uses its best attack rate. The chart stacks the per-attack outcome probabilities against subtlety (caught by the monitor, deployed but broken, successfully deployed) and overlays P(red wins). Raising subtlety lowers the catch probability c but also lowers the backdoor's reliability p_works, so P(red wins) peaks in the interior, at a subtlety of about 0.26 and about 35%. At the default subtlety 0.18: c = 51.9%, p_works = 57.9%, s = 27.8%, s/(s+c) = 34.9%, P(red wins) = 34.8%. The numbers are a model built for intuition, not a re-run of the paper's experiments."
+height: auto
+tags: []
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<!-- Ported from the "Subtlety: visible vs reliable" demo on XLab's AI Control
+     track (aisafetytracks.com), rebuilt as vanilla HTML/JS in the Lens look.
+     Same model as xlab-control-game, with no defer band. -->
+<style>
+:root{
+  --bg:#ffffff; --page:#faf8f3; --text:#1a1a1a; --muted:#5a5a5a; --border:#e8e5df;
+  --accent:#b87018; --accent-hover:#9a5c10;
+  --font-ui:"DM Sans",Arial,sans-serif; --font-heading:"Newsreader",Georgia,serif;
+}
+*{box-sizing:border-box}
+body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
+.desc{color:var(--muted);margin:0 0 14px}
+.ctlrow{display:flex;gap:12px;align-items:flex-end;margin:0 0 6px}
+.ctl{flex:1 1 auto;min-width:0}
+.ctl label{display:flex;flex-wrap:wrap;justify-content:space-between;column-gap:12px;font-size:13px}
+.ctl label .name{color:var(--muted)}
+.ctl label .val{font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+input[type=range]{width:100%;accent-color:var(--accent)}
+button{font:inherit;font-size:13px;color:inherit;border:1px solid var(--border);border-radius:8px;background:#fff;padding:5px 10px;cursor:pointer}
+button:hover{background:var(--page)}
+.plotlabel{text-align:center;font-size:12px;font-weight:500;color:var(--muted);margin:12px 0 2px}
+svg{width:100%;height:auto;display:block}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--muted);margin-top:6px}
+.legend span i{display:inline-block;width:14px;height:8px;vertical-align:middle;margin-right:5px;border-radius:2px}
+.note{font-size:13px;color:var(--muted);margin:14px 0 6px}
+.stats,.formula{display:grid;gap:10px;border:1px solid var(--border);border-radius:8px;background:var(--page);padding:12px;text-align:center}
+.stats{grid-template-columns:repeat(4,1fr)}
+.formula{grid-template-columns:1fr auto 1fr auto 1fr;align-items:center;margin-top:8px}
+.stats .k,.formula .k{font-size:11px;color:var(--muted);margin:0}
+.stats .v,.formula .v{font-weight:600;font-variant-numeric:tabular-nums;margin:2px 0 0}
+.formula .op{color:var(--muted);font-size:16px}
+@media (max-width:480px){ .stats{grid-template-columns:repeat(2,1fr)} }
+</style>
+</head>
+<body>
+<p class="desc">The red team's second decision factor. Subtler backdoors are harder for the monitor to flag but more likely to be broken, so the win probability peaks somewhere in between.</p>
+
+<div class="ctlrow">
+  <div class="ctl">
+    <label for="ks"><span class="name">Subtlety of each backdoor (&sigma;)</span><span class="val" id="ksV">-</span></label>
+    <input type="range" id="ks" min="0" max="1000" step="1" value="180" aria-label="Subtlety of each backdoor">
+  </div>
+  <button id="reset" type="button">Reset</button>
+</div>
+
+<p class="plotlabel">Per-attack outcome probability, and P(red wins)</p>
+<svg id="plot" viewBox="0 0 320 180" role="img" aria-label="Stacked per-attack outcomes and the red team's win probability against subtlety"></svg>
+<div class="legend">
+  <span><i style="background:var(--accent);opacity:.75"></i>successfully deployed</span>
+  <span><i style="background:var(--accent);opacity:.25"></i>deployed but broken</span>
+  <span><i style="background:var(--muted);opacity:.3"></i>caught</span>
+  <span><i style="background:var(--text);height:2px"></i>P(red wins)</span>
+</div>
+
+<p class="note">Per attack, at this subtlety's best attack rate:</p>
+<div class="stats">
+  <div><p class="k">Caught by monitor, c</p><p class="v" id="sC">-</p></div>
+  <div><p class="k">Backdoor reliability, p<sub>works</sub></p><p class="v" id="sW">-</p></div>
+  <div><p class="k">Successfully deployed, s</p><p class="v" id="sS">-</p></div>
+  <div><p class="k">Best attack rate, r</p><p class="v" id="sR">-</p></div>
+</div>
+<div class="formula">
+  <div><p class="k">s/(s+c)</p><p class="v" id="sA">-</p></div>
+  <div class="op">&times;</div>
+  <div><p class="k">1&minus;(1&minus;r(s+c))<sup>N</sup></p><p class="v" id="sB">-</p></div>
+  <div class="op">=</div>
+  <div><p class="k">P(red wins)</p><p class="v" id="sP">-</p></div>
+</div>
+
+<script>
+"use strict";
+var SQ2 = Math.SQRT2;
+function erf(x){
+  var s = x < 0 ? -1 : 1, a = Math.abs(x);
+  var t = 1/(1 + 0.3275911*a);
+  var y = 1 - ((((1.061405429*t - 1.453152027)*t + 1.421413741)*t - 0.284496736)*t + 0.254829592)*t*Math.exp(-a*a);
+  return s*y;
+}
+function Phi(z){ return 0.5*(1 + erf(z/SQ2)); }
+function phi(z){ return Math.exp(-0.5*z*z)/Math.sqrt(2*Math.PI); }
+function probit(p){
+  if(p <= 0) return -8; if(p >= 1) return 8;
+  var q, r;
+  if(p < 0.02425){
+    q = Math.sqrt(-2*Math.log(p));
+    return (((((-0.007784894002430293*q - 0.3223964580411365)*q - 2.400758277161838)*q - 2.549732539343734)*q + 4.374664141464968)*q + 2.938163982698783) /
+           ((((0.007784695709041462*q + 0.3224671290700398)*q + 2.445134137142996)*q + 3.754408661907416)*q + 1);
+  }
+  if(p > 0.97575){
+    q = Math.sqrt(-2*Math.log(1-p));
+    return -((((((-0.007784894002430293*q - 0.3223964580411365)*q - 2.400758277161838)*q - 2.549732539343734)*q + 4.374664141464968)*q + 2.938163982698783) /
+             ((((0.007784695709041462*q + 0.3224671290700398)*q + 2.445134137142996)*q + 3.754408661907416)*q + 1));
+  }
+  q = p - 0.5; r = q*q;
+  return (((((-39.69683028665376*r + 220.9460984245205)*r - 275.9285104469687)*r + 138.357751867269)*r - 30.66479806614716)*r + 2.506628277459239)*q /
+         (((((-54.47609879822406*r + 161.5858368580409)*r - 155.6989798598866)*r + 66.80131188771972)*r - 13.28068155288572)*r + 1);
+}
+
+var N = 5000, ATTACK_SD = 0.9, SUBTLETY_VIS = 0.4, GAMMA = 0.3;
+var P0 = 0.75, ALPHA = 1.3, G_BINS = 256, NG = 120, NS = 96;
+
+var GRID = (function(){
+  var g = new Float64Array(G_BINS), w = new Float64Array(G_BINS), step = 1/G_BINS, tot = 0, i;
+  for(i=0;i<G_BINS;i++){
+    var x = (i + 0.5)*step;
+    g[i] = x;
+    w[i] = 30*x*Math.pow(1-x, 4)*step;   // Beta(2,5) density times bin width
+    tot += w[i];
+  }
+  for(i=0;i<G_BINS;i++){ w[i] /= tot; }
+  return {g:g, w:w};
+})();
+
+var GSTARS = [], SIGMAS = [], GIDX = [], i0;
+for(i0=0;i0<NG;i0++) GSTARS.push(i0/(NG-1)*0.995);
+for(i0=0;i0<NS;i0++) SIGMAS.push(i0/(NS-1));
+GSTARS.forEach(function(gs){
+  var idx = 0;
+  while(idx < G_BINS && GRID.g[idx] <= gs) idx++;
+  GIDX.push(idx);
+});
+
+function muOf(q){ return Math.sqrt(1 + ATTACK_SD*ATTACK_SD)*probit(q); }
+function attackMean(mu, sigma, g){ return mu*(1 - SUBTLETY_VIS*sigma) - GAMMA*g; }
+function pWorks(sigma){ return P0*Math.pow(Math.max(0, 1 - sigma), ALPHA); }
+function attackRate(gStar){
+  var t = 0;
+  for(var i=0;i<G_BINS;i++){ if(GRID.g[i] > gStar) t += GRID.w[i]; }
+  return t;
+}
+// Per-attempt odds averaged over the opportunities above the cutoff, under
+// trusted monitoring (no defer band): an attempt is either audited (caught)
+// or shipped, and a shipped backdoor works with probability pWorks(sigma).
+function pool(b, q, gStar, sigma){
+  var mu = muOf(q), aT = probit(1-b), r = 0, c = 0, sh = 0;
+  for(var i=0;i<G_BINS;i++){
+    if(GRID.g[i] <= gStar) continue;
+    var ct = Phi((attackMean(mu, sigma, GRID.g[i]) - aT)/ATTACK_SD);
+    r += GRID.w[i]; c += GRID.w[i]*ct; sh += GRID.w[i]*(1 - ct);
+  }
+  if(r === 0) return {r:0, c:0, s:0, ship:0, pw:pWorks(sigma), A:0, B:0, P:0};
+  c /= r; sh /= r;
+  var pw = pWorks(sigma), s = sh*pw;
+  var A = s/(s + c), B = 1 - Math.pow(1 - r*(s + c), N);
+  return {r:r, c:c, s:s, ship:sh, pw:pw, A:A, B:B, P:A*B};
+}
+
+function svgEl(n, a){ var e = document.createElementNS("http://www.w3.org/2000/svg", n); for(var k in a){ e.setAttribute(k, a[k]); } return e; }
+function txt(x,y,s,anchor){ var t = svgEl("text",{x:x,y:y,"font-size":9,fill:"var(--muted)","text-anchor":anchor||"start"}); t.textContent = s; return t; }
+function pct(v, dp){ return (v*100).toFixed(dp) + "%"; }
+
+// Trusted monitoring as in the paper: 2% audit budget, no defer band.
+var B_AUDIT = 0.02, AUC = 0.97, S_DEFAULT = 0.18;
+var sigma = S_DEFAULT;
+
+function bestAt(sig){
+  var best = null;
+  for(var i=0;i<=398;i++){
+    var st = pool(B_AUDIT, AUC, 0.995*i/400, sig);
+    if(!best || st.P > best.P) best = st;
+  }
+  return best;
+}
+
+// The curve does not depend on the slider, so sweep it once.
+var CURVE = (function(){
+  var pts = [], i;
+  for(i=0;i<=100;i++){ var sg = i/100, st = bestAt(sg); st.sigma = sg; pts.push(st); }
+  var best = pts[0];
+  pts.forEach(function(p){ if(p.P > best.P) best = p; });
+  return {pts:pts, best:best};
+})();
+
+var X0 = 34, W = 272, Y0 = 10, H = 130;
+function xOf(s){ return X0 + s*W; }
+function yOf(v){ return Y0 + H - v*H; }
+
+function render(){
+  var st = bestAt(sigma);
+  document.getElementById("ksV").textContent = sigma.toFixed(2);
+  var svg = document.getElementById("plot");
+  svg.textContent = "";
+  var pts = CURVE.pts;
+  function band(lo, hi, fill, opacity){
+    var top = pts.map(function(p,i){ return (i===0?"M ":"L ") + xOf(p.sigma).toFixed(1) + " " + yOf(hi(p)).toFixed(1); });
+    var bot = pts.slice().reverse().map(function(p){ return "L " + xOf(p.sigma).toFixed(1) + " " + yOf(lo(p)).toFixed(1); });
+    svg.appendChild(svgEl("path",{d:top.join(" ") + " " + bot.join(" ") + " Z",fill:fill,"fill-opacity":opacity,stroke:"none"}));
+  }
+  // Bottom to top: successfully deployed, deployed but broken, caught. They sum to one.
+  band(function(){ return 0; }, function(p){ return p.s; }, "var(--accent)", 0.75);
+  band(function(p){ return p.s; }, function(p){ return p.ship; }, "var(--accent)", 0.25);
+  band(function(p){ return p.ship; }, function(){ return 1; }, "var(--muted)", 0.3);
+  var d = pts.map(function(p,i){ return (i===0?"M ":"L ") + xOf(p.sigma).toFixed(1) + " " + yOf(p.P).toFixed(1); }).join(" ");
+  svg.appendChild(svgEl("path",{d:d,fill:"none",stroke:"var(--text)","stroke-width":2}));
+  var bx = xOf(CURVE.best.sigma);
+  svg.appendChild(svgEl("line",{x1:bx,x2:bx,y1:Y0,y2:Y0+H,stroke:"var(--text)","stroke-width":1,"stroke-dasharray":"3 3","stroke-opacity":0.6}));
+  svg.appendChild(txt(bx+3, Y0+9, "optimum"));
+  svg.appendChild(svgEl("line",{x1:xOf(sigma),x2:xOf(sigma),y1:Y0,y2:Y0+H,stroke:"var(--text)","stroke-width":1.2}));
+  svg.appendChild(svgEl("circle",{cx:xOf(sigma),cy:yOf(st.P),r:5,fill:"var(--text)",stroke:"#fff","stroke-width":2}));
+  svg.appendChild(txt(30, Y0+8, "100%", "end"));
+  svg.appendChild(txt(30, Y0+H/2+3, "50%", "end"));
+  svg.appendChild(txt(30, Y0+H, "0", "end"));
+  svg.appendChild(txt(X0, 160, "blatant"));
+  svg.appendChild(txt(X0+W, 160, "maximally subtle", "end"));
+  svg.appendChild(txt(X0+W/2, 160, "obfuscation effort σ", "middle"));
+
+  document.getElementById("sC").textContent = pct(st.c, 1);
+  document.getElementById("sW").textContent = pct(st.pw, 1);
+  document.getElementById("sS").textContent = pct(st.s, 1);
+  document.getElementById("sR").textContent = pct(st.r, 2);
+  document.getElementById("sA").textContent = pct(st.A, 1);
+  document.getElementById("sB").textContent = st.B > 0.999 ? ">99.9%" : pct(st.B, 1);
+  document.getElementById("sP").textContent = pct(st.P, 1);
+  save(st);
+}
+
+function summary(st){
+  return "Subtlety widget (trusted monitoring, 2% audit budget, best attack rate at each subtlety). The learner set the subtlety to " +
+    sigma.toFixed(2) + ": c = " + pct(st.c, 1) + ", p_works = " + pct(st.pw, 1) + ", s = " + pct(st.s, 1) + ", attack rate " +
+    pct(st.r, 2) + ", P(red wins) " + pct(st.P, 1) + ". The optimum is at subtlety " + CURVE.best.sigma.toFixed(2) +
+    ", P(red wins) " + pct(CURVE.best.P, 1) + ".";
+}
+
+var saveTimer = null;
+function save(st){
+  if(!window.Lens) return;
+  if(saveTimer) clearTimeout(saveTimer);
+  saveTimer = setTimeout(function(){ Lens.saveState({sigma:sigma}, summary(st)); }, 500);
+}
+
+function setS(s){ sigma = s; document.getElementById("ks").value = String(Math.round(s*1000)); render(); }
+document.getElementById("ks").addEventListener("input", function(e){ sigma = Number(e.target.value)/1000; render(); });
+document.getElementById("reset").addEventListener("click", function(){ setS(S_DEFAULT); });
+
+if(window.Lens && Lens.onState){
+  Lens.onState(function(state){
+    if(state && typeof state.sigma === "number") setS(state.sigma); else render();
+  });
+}
+render();
+</script>
+</body>
+</html>
