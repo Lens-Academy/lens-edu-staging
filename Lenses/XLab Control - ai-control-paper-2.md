@@ -2,7 +2,7 @@
 id: 'c1762189-2f77-4824-a206-dec8dbb27b51'
 title: "The AI control paper (2): upfront auditing, trusted monitoring and the red team's best response"
 tldr: "Audit the first 2% of GPT-4's code and a patient red team still wins 85% of the time, by attacking rarely. Let GPT-3.5 score every solution for suspicion and audit the worst 2% instead, and safety jumps to 62%. This part works out why, by rebuilding the red team's best strategy from the paper's own numbers."
-summary_for_tutor: "Part 2 of 4 of the founding AI control paper (Greenblatt, Shlegeris, Sachan, Roger, arXiv:2312.06942), continuing 'The AI control paper (1)', which set up the APPS backdooring game and its vocabulary (U, T, H, protocol, backdoor, safety, usefulness, red and blue team). This part covers section 3's opening, the baselines of 3.1 and the main text of 3.2, trusted monitoring. Headline results: don't use untrusted models, safety 100% / usefulness 2%; upfront auditing 15% / 100%; trusted monitoring 62% / 97%. This lesson adds a derivation layer the paper does not have: the optimal upfront-auditing attack rate, in a five-part pen-and-paper derivation marked optional, and a decomposition of the red team's win probability into Term A, s/(s+c), the chance a decisive attempt is a deployed backdoor, and Term B, 1-(1-s-c)^k, the chance any attempt is decisive, with s = 13/71 and c = 24/71 from the paper's own contingency table. The fixed-odds model predicts constant attacking, while the paper's red team attacked on 71 of 1,500 problems; the gap is explained by two decision factors, the opportunity cutoff and obfuscation effort, each giving a hump-shaped win probability. Three widgets: the upfront-auditing tradeoff (Figure 3 made live), the deployment race, and the full control game with a best-responding red team, whose Red team tab is used here and whose Protocol tab returns in part 3. Each widget holds only its interactive part; the three-outcome split and the odds are stated in the Text segment above the deployment race, Figure 3's numbers in the lead-in above the upfront-auditing widget, and the control game's modelling assumptions in a closed 'How the model is built' callout below it. A short numerical practice question after the opportunity-cutoff question has the learner compute the win probability of a rare and a frequent strategy and name the limiting term of each. The revealed answers live in the assessment-instructions, so do not hand them to the learner before they answer."
+summary_for_tutor: "Part 2 of 4 of the founding AI control paper (Greenblatt, Shlegeris, Sachan, Roger, arXiv:2312.06942), continuing 'The AI control paper (1)', which set up the APPS backdooring game and its vocabulary (U, T, H, protocol, backdoor, safety, usefulness, red and blue team). This part covers section 3's opening, the baselines of 3.1 and the main text of 3.2, trusted monitoring. Headline results: don't use untrusted models, safety 100% / usefulness 2%; upfront auditing 15% / 100%; trusted monitoring 62% / 97%. This lesson adds a derivation layer the paper does not have: the optimal upfront-auditing attack rate, in a five-part pen-and-paper derivation marked optional, and a decomposition of the red team's win probability into Term A, s/(s+c), the chance a decisive attempt is a deployed backdoor, and Term B, 1-(1-s-c)^k, the chance any attempt is decisive, with s = 13/71 and c = 24/71 from the paper's own contingency table. The fixed-odds model predicts constant attacking, while the paper's red team attacked on 71 of 1,500 problems; the gap is explained by two decision factors, the opportunity cutoff and obfuscation effort, each giving a hump-shaped win probability. Five widgets, in XLab's order: the upfront-auditing tradeoff (Figure 3 made live), the deployment race, the attack-rate hump (opportunity cutoff, obfuscation fixed), the subtlety curve (obfuscation effort, at its best attack rate), and the red team's best response over the whole strategy plane (audit budget slider, about 65% safety and 0.2% attack rate at a 2% budget). The last three share one model with the control game widget of part 3, which adds the defer band. Each widget holds only its interactive part; the three-outcome split and the odds are stated in the Text segment above the deployment race, Figure 3's numbers in the lead-in above the upfront-auditing widget, and the shared model's assumptions in a closed 'How the model is built' callout below the best-response widget. A short numerical practice question after the opportunity-cutoff question has the learner compute the win probability of a rare and a frequent strategy and name the limiting term of each. The revealed answers live in the assessment-instructions, so do not hand them to the learner before they answer."
 reading_minutes: 55
 tutor_minutes: 10
 tags: []
@@ -209,13 +209,12 @@ feedback-instructions:: One turn, at most four sentences: say plainly what the l
 content::
 At high opportunity cutoffs, attack attempts are so rare that the deployment usually ends before an attack attempt is decisive and Term B, $1 - (1 - s - c)^k$, is very small. At the lower opportunity cutoffs, attempts are very frequent but increasingly drawn from problems with poor inherent subtlety, so the average catch rate climbs and Term A, $s/(s+c)$, becomes smaller. In between sits an interior optimum at a low but non-zero attack rate, which is why the paper's red team attacks on only a small fraction of problems. On the attack-rate curve in the widget below, obfuscation effort is held at a fixed level.
 
+#### Widget
+source:: [[../widgets/xlab-control-attack-rate-hump]]
+
+#### Text
+content::
 As aforementioned, the red team's other decision factor is obfuscation effort. Every attack opportunity affords some inherent subtlety, and efforts to make an attack more subtle will come at the cost of the attack's deployment success probability.
-
-Raising $\sigma$ does two things to every attack attempt: it lowers the catch probability $c$, and it lowers the reliability of the attack, the probability the attack is not broken, $p_{\text{works}}(\sigma)$. The subtlety curve plots $P(\text{red wins})$ as a function of $\sigma$.
-
-Given these decision factors and some priors about the blue team's strategy, the best strategy is to attack rarely, only on the very best opportunities (about 0.2% of problems), with moderate obfuscation effort. The strategy plane plots the red team's win probability over the whole strategy space and marks that best response with a ring.
-
-All three live on the **Red team** tab of the widget below: the strategy plane first, then the attack-rate curve and the subtlety curve, each cut through the best response. The **Protocol** tab is the one you will come back to in part 3, when the paper reaches defer to trusted.
 
 #### Callout: Predict
 tone:: amber
@@ -239,8 +238,19 @@ feedback-instructions:: One turn, at most three sentences: say plainly what the 
 
 #### End Callout
 
+#### Text
+content::
+Raising $\sigma$ does two things to every attack attempt: it lowers the catch probability $c$, and it lowers the reliability of the attack, the probability the attack is not broken, $p_{\text{works}}(\sigma)$. The widget below plots the per-attack outcome probabilities and $P(\text{red wins})$ as a function of $\sigma$.
+
 #### Widget
-source:: [[../widgets/xlab-control-game]]
+source:: [[../widgets/xlab-control-subtlety]]
+
+#### Text
+content::
+Given these decision factors and some priors about the blue team's strategy, the best strategy is to attack rarely, only on the very best opportunities (about 0.2% of problems), with moderate obfuscation effort. The widget below plots the red team's win probability over the whole strategy space and marks that best response with a ring.
+
+#### Widget
+source:: [[../widgets/xlab-control-best-response]]
 
 #### Text
 content::
