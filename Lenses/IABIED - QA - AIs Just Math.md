@@ -16,7 +16,7 @@ This Q&A counters the dismissal that AIs are "just math." Just as humans are "ju
 #### Article
 source:: [[../articles/iabied-ch2-faq-just-math]]
 
-#### Question
+#### Question: Open
 id:: 387339e4-b29c-4e13-af0b-978560113a49
 content:: If you accept that math can encode anything, what happens to the claim that an AI cannot truly understand or create? Does the biochemistry comparison actually settle it, or dodge it?
 force-feedback:: first

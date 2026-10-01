@@ -24,7 +24,7 @@ Return here after reading.
 
 ---
 
-#### Question
+#### Question: Open
 id:: 55191876-0a31-4466-bd5a-b28bc5289bb9
 content::
 \## Phase 1: Recall
@@ -69,7 +69,7 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### Question: Open
 id:: 327daf16-422f-4432-82d2-fd48a8791a4f
 content::
 \## Phase 2: Processing
@@ -105,7 +105,7 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### Question
+#### Question: Open
 id:: c6a12f18-9a83-49e8-a926-33ec39cbe4be
 content::
 \## Phase 3: Learning Question
