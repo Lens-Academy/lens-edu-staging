@@ -17,7 +17,7 @@ reading_minutes:: 5
 
 ### Article
 source:: [[../articles/zeshen-a-newcomers-guide-to-the-technical-ai-safety-field]]
-from:: AI safety is a [pre-paradigmatic]
+from:: "AI safety is a [pre-paradigmatic]"
 to:: what the alignment problem is.
 
 ### Article
