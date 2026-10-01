@@ -89,7 +89,9 @@ labels::
 - Very good
 - Excellent
 
-#### Text
+#### {++{"author":"Luc's AI","timestamp":1790875199127}@@Page
+
+#### ++}Text
 content:: **The full course**
 
 #### Question: Rating
