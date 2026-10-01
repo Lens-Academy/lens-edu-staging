@@ -47,7 +47,6 @@ Answer all five. Numbers where numbers are asked for. One sentence of reasoning 
 
 **5.** The one that matters most. Whatever numbers you gave, what would have to be true of a system for those numbers to come out that way? Describe the machinery. If you predicted near-zero, what is absent from the system that would otherwise produce the behavior?
 
-max-time:: 15:00
 assessment-instructions:: This is a pre-test taken BEFORE the student reads about alignment faking or in-context scheming. Your single job is to make sure every prediction is a real commitment with a reason attached. You must NOT reveal or hint at any actual result.
 
 Absolutely do not: state or approximate the real findings; indicate whether a number is too high or too low; react with surprise, concern, or reassurance to any number; name the papers, labs, or models involved. If the student asks what really happened, tell them plainly that you are not going to say, and that they are about to find out.

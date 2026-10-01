@@ -27,7 +27,6 @@ Without looking back: what does Carlsmith say the stakes are, and what specifica
 
 Then Jemist's argument: what are the four requests, and what does honoring each one cost?
 
-max-time:: 4:00
 
 assessment-instructions:: The student has read Carlsmith on the stakes of AI moral status and Jemist on welfare concerns as takeover risk. They have already worked through alignment faking and in-context scheming earlier in this unit.
 
@@ -72,7 +71,6 @@ You read those results as evidence about a threat. Read the setups again as desc
 
 Does anything look different? Say honestly what you notice, including if the answer is nothing.
 
-max-time:: 5:00
 
 assessment-instructions:: A processing phase. The student is being asked to re-read experiments they have already interpreted, under a different frame. This is the pivot of the lens.
 
