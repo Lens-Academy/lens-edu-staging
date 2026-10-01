@@ -28,9 +28,15 @@ source:: [[../articles/jang-exploration-hacking-can-llms-learn-to-resist-rl-trai
 from:: ###### Abstract
 to:: Doing so before this threat materializes is both tractable and important.
 
+#### Callout: Appendix A: Exploration Hacking Framework
+tone:: neutral
+collapse:: open
+
 #### Article
 from:: ## Appendix A Exploration Hacking Framework
 to:: Comparative studies are needed to verify these hypotheses.
+
+#### End Callout
 
 #### Text
 content::

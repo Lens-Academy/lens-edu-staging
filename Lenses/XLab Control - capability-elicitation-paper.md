@@ -3,7 +3,7 @@ id: '1a64e2da-b9a9-4d71-9e27-eaca38cbc280'
 title: "Stress-Testing Capability Elicitation"
 tldr: "A model that can write good code but plays dumb unless you say the magic word. The authors build exactly that, deliberately, and then try to pick their own lock by fine-tuning. It is a crash-test dummy for dangerous-capability evaluations: if your elicitation method cannot recover a capability you know is in there, you have little reason to trust it on the ones you cannot see."
 summary_for_tutor: "Module 5, marked optional. It is a bare paper page: it renders Greenblatt, Roger, Krasheninnikov and Krueger's password-locked models paper in full and adds no framing of its own, and it carries no exercises. The lens is therefore three segments: a short navigational lead-in we wrote (it points to the sandbagging threat-model lesson, points to the guided version of this same paper for learners who want to be walked through it, and states the paper's own method in the paper's terms), then the whole paper as an Article segment, then Works cited. There are no questions, by design: the guided sibling lens carries the exercises for this paper. If a learner wants to discuss the paper, work from the article text; the strongest hooks are the sample-efficiency result in section 5, the RL-without-demonstrations result in section 6, and the three disanalogies the authors list in section 8."
-reading_minutes: 60
+reading_minutes: 40
 tutor_minutes: 0
 tags: []
 ---
@@ -23,6 +23,16 @@ Elicitation failures that occur naturally are hard to study, because only a few 
 
 #### Article
 source:: [[../articles/greenblatt-stress-testing-capability-elicitation-with-password-locked-models]]
+to:: our study may guide future model evaluation efforts by providing a methodology to stress-test capability elicitation techniques.
+
+#### Callout: References and appendices (optional)
+tone:: neutral
+collapse:: closed
+
+#### Article
+from:: ## References
+
+#### End Callout
 
 #### Text
 content::
