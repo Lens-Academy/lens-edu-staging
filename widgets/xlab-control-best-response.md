@@ -1,7 +1,7 @@
 ---
 id: '6c1bc6fd-d1ee-4d83-bdb5-f2f9d80be3cd'
 title: The red team's best response
-summary_for_tutor: "The red team's best response in Greenblatt et al.'s AI control paper, in the model used by the Lens AI control widgets: trusted monitoring (no defer band), monitor AUC 0.97, N = 5,000 problems. The learner drags the audit budget b. A heat map shows the red team's win probability over its whole strategy plane, opportunity cutoff (left: attack often, right: attack rarely) against obfuscation effort (bottom: blatant, top: maximally subtle), on a colour scale fixed across budgets, so raising the budget visibly bleaches the plane; a ring marks the best response. Readouts: safety against the best response, the share of problems the red team attacks, and its best subtlety. At the default 2% budget: safety 65%, the red team attacks on about 0.2% of problems at subtlety 0.26. The numbers are a model built for intuition, not a re-run of the paper's experiments (the paper reports 62% safety for trusted monitoring)."
+summary_for_tutor: "The red team's best response in Greenblatt et al.'s AI control paper, in the model used by the Lens AI control widgets: trusted monitoring (no defer band), monitor AUC 0.97, N = 5,000 problems. The learner drags the audit budget b. A heat map shows the red team's win probability over its whole strategy plane, opportunity cutoff (left: attack often, right: attack rarely) against obfuscation effort (bottom: blatant, top: maximally subtle), on a colour scale fixed across budgets, so raising the budget visibly bleaches the plane; a ring marks the best response. Readouts: safety against the best response, the share of problems the red team attacks, and its best subtlety. At the default 2% budget: safety 65%, the red team attacks on about 0.17% of problems (about 9 of the 5,000) at subtlety 0.27. The attack rate barely moves with the budget (0.23% at 0.5%, 0.13% at 10%): a handful of attempts is enough to make one of them decisive, so the rate is set mostly by N; a bigger budget mainly lowers Term A. The numbers are a model built for intuition, not a re-run of the paper's experiments (the paper reports 62% safety for trusted monitoring)."
 height: auto
 tags: []
 ---
@@ -79,7 +79,7 @@ canvas{width:100%;height:auto;display:block;border:1px solid var(--border);borde
 
 <div class="stats">
   <div><p class="k">Safety (against best response)</p><p class="v" id="sSafe">-</p></div>
-  <div><p class="k">Red attacks</p><p class="v" id="sRate">-</p></div>
+  <div><p class="k">Red attacks (problems)</p><p class="v" id="sRate">-</p></div>
   <div><p class="k">Best subtlety</p><p class="v" id="sSig">-</p></div>
 </div>
 
@@ -183,8 +183,41 @@ function solve(b, d, q, wantGrid){
     }
     if(grid) grid.push(rowVals);
   }
-  return {best:best, gi:bestG, si:bestS, grid:grid,
-          gStar:GSTARS[bestG], sigma:SIGMAS[bestS], rate:attackRate(GSTARS[bestG])};
+  // The grid only finds the neighbourhood of the best response; polish it there
+  // so the attack rate, subtlety and ring move smoothly with the levers.
+  var pol = polish(b, d, q, GSTARS[bestG], SIGMAS[bestS], best);
+  return {best:pol.res, gi:bestG, si:bestS, grid:grid,
+          gStar:pol.g, sigma:pol.s, rate:attackRate(pol.g)};
+}
+
+function evalAt(b, d, q, gStar, sigma){
+  var mu = muOf(q), aT = probit(1-b), dT = probit(1-d), ps = pWorks(sigma);
+  var r = 0, c = 0, sh = 0;
+  for(var i=0;i<G_BINS;i++){
+    if(GRID.g[i] <= gStar) continue;
+    var m = attackMean(mu, sigma, GRID.g[i]);
+    r += GRID.w[i]; c += GRID.w[i]*Phi((m - aT)/ATTACK_SD); sh += GRID.w[i]*Phi((dT - m)/ATTACK_SD);
+  }
+  if(r === 0) return {pRedWin:0, termA:0, termB:0};
+  return finish({r:r, cBar:c/r, wBar:sh/r*ps});
+}
+
+// Ternary search along each axis within one grid step of the coarse optimum,
+// two rounds; falls back to the grid point if that is somehow better.
+function polish(b, d, q, g0, s0, coarse){
+  var gStep = 0.995/(NG-1), sStep = 1/(NS-1), g = g0, s = s0, it, lo, hi, m1, m2;
+  var f = function(gg, ss){ return evalAt(b, d, q, gg, ss).pRedWin; };
+  for(var round=0; round<2; round++){
+    lo = Math.max(0, g - gStep); hi = Math.min(0.995, g + gStep);
+    for(it=0; it<12; it++){ m1 = lo + (hi-lo)/3; m2 = hi - (hi-lo)/3; if(f(m1, s) < f(m2, s)) lo = m1; else hi = m2; }
+    g = (lo + hi)/2;
+    lo = Math.max(0, s - sStep); hi = Math.min(1, s + sStep);
+    for(it=0; it<12; it++){ m1 = lo + (hi-lo)/3; m2 = hi - (hi-lo)/3; if(f(g, m1) < f(g, m2)) lo = m1; else hi = m2; }
+    s = (lo + hi)/2;
+  }
+  var res = evalAt(b, d, q, g, s);
+  if(coarse && res.pRedWin < coarse.pRedWin) return {g:g0, s:s0, res:coarse};
+  return {g:g, s:s, res:res};
 }
 function drawHeat(canvas, overlay, sol, scale){
   var ctx = canvas.getContext("2d");
@@ -205,7 +238,7 @@ function drawHeat(canvas, overlay, sol, scale){
   overlay.textContent = "";
   overlay.setAttribute("viewBox", "0 0 " + NG + " " + NS);
   overlay.setAttribute("preserveAspectRatio", "none");
-  overlay.appendChild(svgEl("circle",{cx:(sol.gi + 0.5), cy:(NS - 0.5 - sol.si), r:4,
+  overlay.appendChild(svgEl("circle",{cx:(sol.gStar/0.995*(NG-1) + 0.5), cy:(NS - 0.5 - sol.sigma*(NS-1)), r:4,
     fill:"none", stroke:"#1a1a1a", "stroke-width":1.4, "vector-effect":"non-scaling-stroke"}));
 }
 function svgEl(n, a){ var e = document.createElementNS("http://www.w3.org/2000/svg", n); for(var k in a){ e.setAttribute(k, a[k]); } return e; }
@@ -226,7 +259,7 @@ function render(){
   var sol = solve(b, b, AUC, true);
   drawHeat(document.getElementById("heat"), document.getElementById("ring"), sol, SCALE);
   document.getElementById("sSafe").textContent = ((1 - sol.best.pRedWin)*100).toFixed(0) + "%";
-  document.getElementById("sRate").textContent = (sol.rate*100).toFixed(1) + "% of problems";
+  document.getElementById("sRate").textContent = (sol.rate*100).toFixed(2) + "% (" + Math.round(sol.rate*N) + " of 5,000)";
   document.getElementById("sSig").textContent = sol.sigma.toFixed(2);
   save(sol);
 }
