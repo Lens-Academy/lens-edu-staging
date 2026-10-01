@@ -158,6 +158,8 @@ function stat(box, k, v){
   var d = el("div"); d.appendChild(el("p","k",k)); d.appendChild(el("p","v",v)); box.appendChild(d);
 }
 
+// The sliders stay in the page while they are dragged: an input event only
+// redraws the plots and readouts below them, never the slider itself.
 function renderOne(pane){
   document.getElementById("title").textContent = "The monitor as a noisy classifier: ROC & AUC";
   document.getElementById("lede").textContent =
@@ -165,15 +167,26 @@ function renderOne(pane){
   var ctl = el("div","ctl");
   var lab = el("label"); lab.setAttribute("for","dp");
   lab.appendChild(el("span","name","Monitor quality: separation d'"));
-  lab.appendChild(el("span","val", dprime.toFixed(2)));
+  var val = el("span","val", dprime.toFixed(2));
+  lab.appendChild(val);
   ctl.appendChild(lab);
   var inp = document.createElement("input");
   inp.type = "range"; inp.id = "dp"; inp.min = "0"; inp.max = "400"; inp.step = "1";
   inp.value = String(Math.round(dprime*100)); inp.setAttribute("aria-label","Monitor quality");
-  inp.addEventListener("input", function(e){ dprime = Number(e.target.value)/100; render(); });
   ctl.appendChild(inp);
   pane.appendChild(ctl);
+  var out = el("div");
+  pane.appendChild(out);
+  inp.addEventListener("input", function(e){
+    dprime = Number(e.target.value)/100;
+    val.textContent = dprime.toFixed(2);
+    drawOne(out); save();
+  });
+  drawOne(out);
+}
 
+function drawOne(out){
+  out.textContent = "";
   var row = el("div","row");
   var c1 = el("div","col"); c1.appendChild(el("p","plotlabel","Suspicion scores"));
   var s1 = svgEl("svg",{viewBox:"0 0 300 150",role:"img","aria-label":"Suspicion score distributions"});
@@ -181,7 +194,7 @@ function renderOne(pane){
   var c2 = el("div","col"); c2.appendChild(el("p","plotlabel","ROC curve"));
   var s2 = svgEl("svg",{viewBox:"0 0 300 150",role:"img","aria-label":"ROC curve"});
   c2.appendChild(s2); row.appendChild(c2);
-  pane.appendChild(row);
+  out.appendChild(row);
 
   drawDists(s1, [{mu:0, sd:1, color:"var(--muted)"}, {mu:dprime, sd:1, color:"var(--accent)"}], THR);
   drawRoc(s2, [{mu:dprime, sd:1, color:"var(--accent)"}]);
@@ -190,18 +203,20 @@ function renderOne(pane){
   stat(box, "AUC", aucOf(dprime, 1).toFixed(3));
   stat(box, "Caught at a 2% budget", (tprAt(dprime,1,BUDGET)*100).toFixed(1) + "%");
   stat(box, "Missed", ((1 - tprAt(dprime,1,BUDGET))*100).toFixed(1) + "%");
-  pane.appendChild(box);
+  out.appendChild(box);
 }
 
 function renderTwo(pane){
   document.getElementById("title").textContent = "Same number, different safety";
   document.getElementById("lede").textContent =
     "Give both monitors the same AUC, then give B a better one, and compare what each catches at the 2% budget.";
+  var out = el("div");
   [["A", "aucA", aucA, "var(--accent)"], ["B", "aucB", aucB, "var(--alt)"]].forEach(function(spec){
     var ctl = el("div","ctl");
     var lab = el("label");
     lab.appendChild(el("span","name","Monitor " + spec[0] + " AUC (attack-score spread " + (spec[0]==="A"?SD_A.toFixed(1):SD_B.toFixed(1)) + ")"));
-    lab.appendChild(el("span","val", spec[2].toFixed(3)));
+    var val = el("span","val", spec[2].toFixed(3));
+    lab.appendChild(val);
     ctl.appendChild(lab);
     var inp = document.createElement("input");
     inp.type = "range"; inp.min = "600"; inp.max = "995"; inp.step = "1";
@@ -210,12 +225,18 @@ function renderTwo(pane){
     inp.addEventListener("input", function(e){
       var v = Number(e.target.value)/1000;
       if(spec[1] === "aucA") aucA = v; else aucB = v;
-      render();
+      val.textContent = v.toFixed(3);
+      drawTwo(out); save();
     });
     ctl.appendChild(inp);
     pane.appendChild(ctl);
   });
+  pane.appendChild(out);
+  drawTwo(out);
+}
 
+function drawTwo(out){
+  out.textContent = "";
   var muA = muFor(aucA, SD_A), muB = muFor(aucB, SD_B);
   var row = el("div","row");
   var c1 = el("div","col"); c1.appendChild(el("p","plotlabel","Suspicion scores: innocent, A, B"));
@@ -224,7 +245,7 @@ function renderTwo(pane){
   var c2 = el("div","col"); c2.appendChild(el("p","plotlabel","ROC curves"));
   var s2 = svgEl("svg",{viewBox:"0 0 300 150",role:"img","aria-label":"ROC curves for monitor A and monitor B"});
   c2.appendChild(s2); row.appendChild(c2);
-  pane.appendChild(row);
+  out.appendChild(row);
 
   drawDists(s1, [{mu:0,sd:1,color:"var(--muted)"},{mu:muA,sd:SD_A,color:"var(--accent)"},{mu:muB,sd:SD_B,color:"var(--alt)"}], THR);
   drawRoc(s2, [{mu:muA,sd:SD_A,color:"var(--accent)"},{mu:muB,sd:SD_B,color:"var(--alt)"}]);
@@ -233,7 +254,7 @@ function renderTwo(pane){
   stat(box, "A caught at 2%", (tprAt(muA,SD_A,BUDGET)*100).toFixed(1) + "%");
   stat(box, "B caught at 2%", (tprAt(muB,SD_B,BUDGET)*100).toFixed(1) + "%");
   stat(box, "Ratio A to B", (tprAt(muA,SD_A,BUDGET)/Math.max(1e-9, tprAt(muB,SD_B,BUDGET))).toFixed(2) + "x");
-  pane.appendChild(box);
+  out.appendChild(box);
 }
 
 function summary(){
