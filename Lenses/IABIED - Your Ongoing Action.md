@@ -27,7 +27,7 @@ Some honest options, roughly in increasing order of commitment:
 - Put your professional skills to work: your action plan from Module 4 named where your strengths bite. Pick the smallest real step toward that and take it this month.
 - Support the work with money, if that is the lever you actually have.
 
-#### Question
+#### Question: Open
 id:: 13ebab87-b749-4e32-8564-284914043b0d
 content::
 \## Make it yours

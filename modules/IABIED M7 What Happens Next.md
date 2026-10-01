@@ -29,7 +29,7 @@ Over this course, we've built up a chain of reasoning: intelligence is uniquely 
 
 First the argument, then your plan.
 
-#### Question
+#### Question: Open
 id:: 793f06b1-3ec0-4353-803d-6e8031d05488
 content::
 \## The whole argument
