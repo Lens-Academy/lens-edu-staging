@@ -40,7 +40,9 @@ First, meet the cast.
 | **T** | the trusted model | An older, much weaker model that isn't capable of scheming effectively, so its work is honest but not as good as U. |
 | **H** | human auditors | Honest and skilled, but scarce: they can only ever look at a small fraction of any work. |
 
-**The question, every time:** assuming U is actively scheming, does this setup hold the control property? What variables and conditions dictate whether this is the case?
+:::callout {title="The question, every time" tone="neutral"}
+Assuming U is actively scheming, does this setup hold the control property? What variables and conditions dictate whether this is the case?
+:::
 
 \#### Scenario 1: straight to production
 
