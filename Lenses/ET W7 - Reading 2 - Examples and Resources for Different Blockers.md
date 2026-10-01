@@ -219,7 +219,9 @@ Look for organisations where you could contribute **a specific, useful skill**, 
 - **Start an EA group:** If there isn't a suitable group, explore the official resources for [starting an EA group](https://www.effectivealtruism.org/groups-effective-altruism-community-building).
 - **Find events:** Check the [EA “Take Action” page](https://www.effectivealtruism.org/take-action) for local and online events.
 
-\#### Take the Giving What We Can pledge
+:::
+
+:::callout {title="5. Take the Giving What We Can pledge" tone="green" collapse="closed"}
 
 **Why:** You don't have to wait until you've landed your ideal role to start having impact, giving effectively is something you can, and many other students have committed to.
 
@@ -228,7 +230,9 @@ Look for organisations where you could contribute **a specific, useful skill**, 
 - [Take the pledge at Giving What We Can](https://www.givingwhatwecan.org/pledge/effectivethesis) - you can take a trial pledge to explore what it may feel like to commit to giving a portion of your income to doing the most good!
 - Read [Why take the pledge?](https://www.givingwhatwecan.org/why-pledge) first if you want more context before committing.
 
-\#### Sign up to talent and services directories
+:::
+
+:::callout {title="6. Sign up to talent and services directories" tone="green" collapse="closed"}
 
 **Why:** **Make it easier for relevant people to find you.** Some organisations and individuals actively look through talent directories when they need someone with a particular skill. Being listed is relatively low effort and can create opportunities you wouldn't otherwise encounter.
 
