@@ -1,7 +1,7 @@
 ---
 id: '2e0475d4-7ac1-44c1-8f26-e33d10a3aa2d'
 title: "Week 4 Worksheet"
-reading_minutes: 9
+reading_minutes: 60
 tutor_minutes: 0
 tags: [wip]
 ---

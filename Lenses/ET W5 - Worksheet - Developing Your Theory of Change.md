@@ -1,7 +1,7 @@
 ---
 id: 'cef5b0ab-938e-4cb6-96d6-6a1d1a9c6a63'
 title: "Week 5 Worksheet"
-reading_minutes: 3
+reading_minutes: 60
 tutor_minutes: 0
 tags: [wip]
 ---
