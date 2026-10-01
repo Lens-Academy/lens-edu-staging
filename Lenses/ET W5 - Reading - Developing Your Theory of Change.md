@@ -149,3 +149,7 @@ content::
 - **Work on your worksheet before the discussion,** especially if you’re in the mastermind for this week!
 - **Explore this week’s Journaling tab** for journaling prompts for the week
 - **Attend your Weekly Discussion** (please inform your facilitator if you are unable to make it for the week)
+
+👉 **Ready? Head to this week's worksheet:**
+
+::card[[../Lenses/ET W5 - Worksheet - Developing Your Theory of Change|Week 5 Worksheet: Developing Your Theory of Change]]
