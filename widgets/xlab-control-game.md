@@ -23,7 +23,6 @@ tags: []
 }
 *{box-sizing:border-box}
 body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
-h2{font-family:var(--font-heading);font-weight:600;font-size:18px;margin:0 0 4px}
 .desc{color:var(--muted);margin:0 0 12px}
 .knobs{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 0 14px}
 .ctl label{display:flex;justify-content:space-between;gap:8px;font-size:13px}
@@ -42,7 +41,6 @@ svg{width:100%;height:auto;display:block}
 </style>
 </head>
 <body>
-<h2>The control game: full dashboard</h2>
 <p class="desc">Set the protocol; the red team re-optimises against whatever you set.</p>
 
 <div class="knobs">
@@ -170,8 +168,41 @@ function solve(b, d, q, wantGrid){
     }
     if(grid) grid.push(rowVals);
   }
-  return {best:best, gi:bestG, si:bestS, grid:grid,
-          gStar:GSTARS[bestG], sigma:SIGMAS[bestS], rate:attackRate(GSTARS[bestG])};
+  // The grid only finds the neighbourhood of the best response; polish it there
+  // so the attack rate, subtlety and ring move smoothly with the levers.
+  var pol = polish(b, d, q, GSTARS[bestG], SIGMAS[bestS], best);
+  return {best:pol.res, gi:bestG, si:bestS, grid:grid,
+          gStar:pol.g, sigma:pol.s, rate:attackRate(pol.g)};
+}
+
+function evalAt(b, d, q, gStar, sigma){
+  var mu = muOf(q), aT = probit(1-b), dT = probit(1-d), ps = pWorks(sigma);
+  var r = 0, c = 0, sh = 0;
+  for(var i=0;i<G_BINS;i++){
+    if(GRID.g[i] <= gStar) continue;
+    var m = attackMean(mu, sigma, GRID.g[i]);
+    r += GRID.w[i]; c += GRID.w[i]*Phi((m - aT)/ATTACK_SD); sh += GRID.w[i]*Phi((dT - m)/ATTACK_SD);
+  }
+  if(r === 0) return {pRedWin:0, termA:0, termB:0};
+  return finish({r:r, cBar:c/r, wBar:sh/r*ps});
+}
+
+// Ternary search along each axis within one grid step of the coarse optimum,
+// two rounds; falls back to the grid point if that is somehow better.
+function polish(b, d, q, g0, s0, coarse){
+  var gStep = 0.995/(NG-1), sStep = 1/(NS-1), g = g0, s = s0, it, lo, hi, m1, m2;
+  var f = function(gg, ss){ return evalAt(b, d, q, gg, ss).pRedWin; };
+  for(var round=0; round<2; round++){
+    lo = Math.max(0, g - gStep); hi = Math.min(0.995, g + gStep);
+    for(it=0; it<12; it++){ m1 = lo + (hi-lo)/3; m2 = hi - (hi-lo)/3; if(f(m1, s) < f(m2, s)) lo = m1; else hi = m2; }
+    g = (lo + hi)/2;
+    lo = Math.max(0, s - sStep); hi = Math.min(1, s + sStep);
+    for(it=0; it<12; it++){ m1 = lo + (hi-lo)/3; m2 = hi - (hi-lo)/3; if(f(g, m1) < f(g, m2)) lo = m1; else hi = m2; }
+    s = (lo + hi)/2;
+  }
+  var res = evalAt(b, d, q, g, s);
+  if(coarse && res.pRedWin < coarse.pRedWin) return {g:g0, s:s0, res:coarse};
+  return {g:g, s:s, res:res};
 }
 
 function usefulness(b, d){ return 1 - Math.min(1, Math.max(0, d - b)); }

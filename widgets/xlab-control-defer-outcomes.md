@@ -336,7 +336,7 @@ function render(doSave){
   document.getElementById("sSafe").textContent = pct0(safety);
   document.getElementById("sUse").textContent = pct0(useful);
   document.getElementById("sDef").textContent = pct0(deferFrac) + " of problems";
-  document.getElementById("sRed").textContent = (attackRate(br.red.gStar)*100).toFixed(1) + "% · " + br.red.sigma.toFixed(2);
+  document.getElementById("sRed").textContent = (attackRate(br.red.gStar)*100).toFixed(2) + "% · " + br.red.sigma.toFixed(2);
   if(d <= 0.05) seenNarrow = true;
   if(d >= 0.25) seenWide = true;
   if(doSave) save(br, safety, useful);
@@ -350,7 +350,7 @@ function save(br, safety, useful){
   saveTimer = setTimeout(function(){
     var a = br.result.agg;
     var summary = "Defer-to-trusted demo at defer threshold d = " + (d*100).toFixed(1) + "% (audit budget 2%, so " + pct0(Math.max(0, d - B)) +
-      " of problems are rewritten by T). Against the red team's best response (attack rate " + (attackRate(br.red.gStar)*100).toFixed(1) +
+      " of problems are rewritten by T). Against the red team's best response (attack rate " + (attackRate(br.red.gStar)*100).toFixed(2) +
       "%, subtlety " + br.red.sigma.toFixed(2) + "), safety is " + pct0(safety) + " and usefulness " + pct0(useful) +
       ". Per attack: caught " + pct0(a.cBar) + ", deferred to T " + pct0(a.fBar) + ", deployed but broken " + pct0(a.shipBar - a.wBar) +
       ", successfully deployed " + pct0(a.wBar) + ". Has viewed a narrow band (d at most 5%): " + (seenNarrow ? "yes" : "no") +
