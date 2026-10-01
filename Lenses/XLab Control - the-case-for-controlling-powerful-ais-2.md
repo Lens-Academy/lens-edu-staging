@@ -99,7 +99,7 @@ to:: We expect that companies that want to achieve control will need to consider
 id:: e16bdbf2-7160-44f6-914a-b3a6d7ca2bd2
 content:: Control techniques may fail against an AI that is qualitatively wildly superhuman in certain domains. Which domains are the most problematic?
 assessment-instructions:: Score out of 100. 35 for each problematic domain the answer names, up to 100: hacking; persuasion; manipulating scientific results or conceptual arguments. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Hacking, persuasion, and manipulating scientific results or conceptual arguments. In most domains, wildly superhuman performance is not a problem for control."
-feedback-instructions:: In at most three sentences: confirm what the learner got right, then state the model answer. The problematic domains are hacking, persuasion, and manipulating scientific results or conceptual arguments. In most domains, wildly superhuman performance is not a problem for control. No follow-up questions; tell them to move on.
+feedback-instructions:: In at most four sentences: confirm what the learner got right and, if anything is missing or wrong, the most important thing, then state the model answer. The problematic domains are hacking, persuasion, and manipulating scientific results or conceptual arguments. In most domains, wildly superhuman performance is not a problem for control. No follow-up questions; tell them to move on.
 
 #### Question: Open
 id:: b18f031e-e53c-455f-bbed-bea97b9a4c34

@@ -18,11 +18,11 @@ to:: Various examples of monitoring results for both normal solutions and backdo
 
 #### Text
 content::
-\## The monitor is a binary classifier
-
+:::callout {title="The monitor is a binary classifier" tone="neutral"}
 The two histograms in Figure 4 are the picture a signal-detection framing makes precise: the monitor is a binary classifier separating backdoored from innocent solutions, and the more its two suspicion-score distributions overlap, the worse it does. The standard summary of that overlap is the ROC curve, true-positive rate against false-positive rate as the decision threshold sweeps, and its AUC (area under the curve). If those terms are unfamiliar, Google's ML Crash Course has a short primer: [ROC and AUC](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc).
 
 The widget below models the monitor as two equal-variance Gaussians and lets you drag its quality, the separation $d'$ between the innocent and backdoored means. Watch the ROC curve and AUC respond, and watch the operating point at the blue team's fixed 2% false-positive threshold: even a fairly good monitor catches only a fraction of backdoors there, which is the "many false negatives" the paper describes. The default setting ($d' \approx 1.64$, AUC $\approx 0.88$) reproduces the paper's reported result, a 0.338 probability that an attempted backdoor is audited at a 2% false-positive rate. Real suspicion scores are not Gaussian; this is an idealization for building intuition, not a fit to the paper's data.
+:::
 
 The second tab sets up a comparison you will need in a moment.
 
@@ -130,7 +130,7 @@ tone:: blue
 id:: 2d6138bc-8f06-4c06-af51-3450519778e2
 content:: In defer to trusted, what does the protocol do with code whose suspicion score is elevated but below the audit threshold?
 assessment-instructions:: Score out of 100. 50: $U$'s code is thrown away, not submitted. 50: a solution written by $T$ is submitted in its place. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer says this code is sent to audit (that happens only above the audit threshold). Model answer, for the feedback, not a grading checklist: "It discards $U$'s code and submits a solution written by $T$ instead."
-feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer from the rubric so they leave with it, in your own words if it is long. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: d561aa2c-f9d4-407c-a009-666a82021a58
