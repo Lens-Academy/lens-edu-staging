@@ -128,7 +128,6 @@ catastrophe less likely is making a serious argument, not a mistake.
 
 Write 60 to 110 words. Short paragraphs. No lists.
 
-max-time:: 5
 
 #### Article
 source:: [[../articles/wildeford-should-the-us-do-a-manhattan-project-for-agi]]

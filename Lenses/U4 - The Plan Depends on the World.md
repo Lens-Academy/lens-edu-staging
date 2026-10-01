@@ -65,7 +65,6 @@ Do not grade. Do not score. Do not praise. There is no correct answer at this st
 
 Write 60 to 110 words. Short paragraphs. No lists.
 
-max-time:: 5
 
 #### Article
 source:: [[../articles/greenblatt-plans-a-b-c-and-d-for-misalignment-risk]]

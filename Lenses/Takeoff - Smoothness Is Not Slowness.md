@@ -19,7 +19,6 @@ Answer before reading:
 2. Now separate two questions that your definition may have been treating as one. First: does capability arrive as a sudden jump, or as a continuous ramp? Second: does the whole transition take months, or decades? Are those the same question? Can you fill in all four combinations of the two answers, or do some of them seem impossible?
 3. If they are two separate questions, which one do you think people arguing about takeoff actually care about, and which one does the word "slow" sound like it is about?
 
-max-time:: 8:00
 
 assessment-instructions::
 The student is about to read Raemon's "'Slow' takeoff is a terrible term for 'maybe even faster takeoff'" and Rob Bensinger's "Quick Nate/Eliezer comments on discontinuity."

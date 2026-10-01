@@ -103,7 +103,6 @@ properly.
 
 Write 60 to 110 words. Short paragraphs. No lists.
 
-max-time:: 4
 
 #### Article
 source:: [[../articles/shlegeris-ten-people-on-the-inside]]

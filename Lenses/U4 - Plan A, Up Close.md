@@ -82,7 +82,6 @@ Do not grade. Do not score. Do not praise. Never say whether the treaty is reali
 
 Write 60 to 110 words. Short paragraphs. No lists.
 
-max-time:: 5
 
 #### Article
 source:: [[../articles/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence]]
