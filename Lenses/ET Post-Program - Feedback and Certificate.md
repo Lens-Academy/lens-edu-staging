@@ -24,10 +24,9 @@ tone:: amber
 
 #### Text
 content::
-**Please fill in the form below to share your feedback and receive your Certificate of Completion.**
+**Please fill in the feedback form on the next page to share your feedback and receive your Certificate of Completion.**
 
-#### Widget
-source:: [[../widgets/et-post-program-feedback-form]]
+If the form doesn't load for you, you can [open it in a new tab](https://airtable.com/appcKo5GTmHnUaBlg/pagGHPBww4E31JabV/form).
 
 #### End Callout
 
