@@ -15,7 +15,7 @@ to:: Our question:Can we make this research go well, even if the AI agents doing
 id:: cea44f81-747a-42fd-9a7e-783b08f2dde6
 content:: What is research sabotage?
 assessment-instructions:: Score out of 100. 40: it is deliberate: a misaligned AI that wants the research to fail. 40: the effect: the (safety) research it is doing goes poorly. 20: how, through subtle means such as withholding its best ideas, putting subtle bugs in experiments, or quietly underperforming on the most important parts. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Misaligned AIs making safety research go poorly, like by withholding their best ideas or putting subtle bugs in experiments."
-feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer from the rubric so they leave with it, in your own words if it is long. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: baeca979-c275-48a9-9d12-aaf0736ede11
