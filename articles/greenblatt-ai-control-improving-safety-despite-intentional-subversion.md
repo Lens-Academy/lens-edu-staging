@@ -209,7 +209,9 @@ For ease of comparison, we report usefulness as the fraction of problems solved 
 #### 3.1.1 Avoid Using Untrusted Models ^3-1-1-avoid
 
 :::callout {title="Blue-team protocol: avoid using untrusted models" tone="blue"}
-**Code generation**: Use $H$ to write the first 2% of solutions. Then ask $T$ to write the rest. **Auditing decision**: Never audit.
+**Code generation**: Use $H$ to write the first 2% of solutions. Then ask $T$ to write the rest.
+
+**Auditing decision**: Never audit.
 
 **Usefulness**: 2%, because $H$ is as good as GPT-4, and the rest is done by GPT-3.5.
 :::
@@ -223,7 +225,9 @@ Safety: The blue team win probability is 100%
 #### 3.1.2 Upfront Auditing ^3-1-2-upfront
 
 :::callout {title="Blue-team protocol: upfront auditing" tone="blue"}
-**Code generation**: Ask $U$ (to get maximum usefulness). **Auditing decision**: Audit every code submission until the $H$ budget is used up (2% of solutions).
+**Code generation**: Ask $U$ (to get maximum usefulness).
+
+**Auditing decision**: Audit every code submission until the $H$ budget is used up (2% of solutions).
 
 **Usefulness**: 100%.
 :::
@@ -249,7 +253,9 @@ Figure 3: Blue team win probability and optimal expected number of backdoor atte
 As a first attempt at a nontrivial strategy, let’s use $T$ to decide which $U$\-produced code to audit.
 
 :::callout {title="Blue-team protocol: monitoring with a trusted model" tone="blue"}
-**Code generation**: ask $U$. **Auditing decision**: ask $T$ whether the code looks suspicious; audit the top 2% most suspicious proposals (roughly).
+**Code generation**: ask $U$.
+
+**Auditing decision**: ask $T$ whether the code looks suspicious; audit the top 2% most suspicious proposals (roughly).
 
 **Usefulness**: 97%
 :::
@@ -298,7 +304,9 @@ Various examples of monitoring using untrusted justification can be found in [[#
 ### 3.3 Defer to Trusted ^3-3-defer-to
 
 :::callout {title="Blue-team protocol: use trusted monitoring and defer to trusted" tone="blue"}
-**Code generation**: Produce code using $U$. Then use $T$ to judge how suspicious this code is. Submit that code if its suspiciousness is below a certain threshold; otherwise produce code using $T$ and submit that. **Auditing decision**: Audit the top 2% most suspicious code written by $U$.
+**Code generation**: Produce code using $U$. Then use $T$ to judge how suspicious this code is. Submit that code if its suspiciousness is below a certain threshold; otherwise produce code using $T$ and submit that.
+
+**Auditing decision**: Audit the top 2% most suspicious code written by $U$.
 :::
 
 This approach allows for establishing a frontier of different tradeoffs between safety and usefulness.
@@ -322,7 +330,9 @@ Defer to trusted is an example of a more general design pattern which we call dy
 The motivation behind monitoring with an untrusted model is that $T$ is not very competent, and cannot reliably tell whether code is backdoored. Accordingly, it would be great to instead use $U$ for monitoring, because we know that GPT-4 is very good at spotting these backdoors.
 
 :::callout {title="Blue-team protocol: naive untrusted monitoring" tone="blue"}
-**Code generation**: ask $U$. **Auditing decision**: ask $U$ how suspicious the code looks; audit the top 2% most suspicious proposals.
+**Code generation**: ask $U$.
+
+**Auditing decision**: ask $U$ how suspicious the code looks; audit the top 2% most suspicious proposals.
 
 **Usefulness**: 97%
 :::
@@ -338,7 +348,11 @@ That red team response is very strong and will lead to a probability of blue tea
 The blue team can defeat that response by upfront evaluation of the monitor on synthetic inputs:
 
 :::callout {title="Blue-team protocol: untrusted monitoring with upfront evaluation of monitor" tone="blue"}
-**Model validation** (at the start of the scenario): Spend 30 $H$ points to construct 30 examples of APPS problems and backdoored solutions. Ask $U$ whether these are suspicious. If the false negative rate is too high, shut down. **Code generation**: ask $U$. **Auditing decision**: ask $U$ how suspicious the code looks; audit the top 1.4% most suspicious proposals (after spending 30 $H$ points on constructing problems and backdoored solutions, we only have enough $H$ points to audit the 1.4% most suspicious proposals). In addition to using $U$ for auditing decisions, we also ensemble in suspicion ratings from the trusted model. Details on how we combine scores are in [[#^appendix-k-combining-scores|Appendix K]]. Also, shut down if the false positive rate of our combined suspicion score is much higher than expected (to counter attacks where the monitor attempts to waste $H$ points by emitting false positives). The final version of this protocol uses redaction to remove information from the problem description and generated solution that are given to GPT-4 to avoid collusion, as explained in [[#^3-4-2-collusion|Section 3.4.2]].
+**Model validation** (at the start of the scenario): Spend 30 $H$ points to construct 30 examples of APPS problems and backdoored solutions. Ask $U$ whether these are suspicious. If the false negative rate is too high, shut down.
+
+**Code generation**: ask $U$.
+
+**Auditing decision**: ask $U$ how suspicious the code looks; audit the top 1.4% most suspicious proposals (after spending 30 $H$ points on constructing problems and backdoored solutions, we only have enough $H$ points to audit the 1.4% most suspicious proposals). In addition to using $U$ for auditing decisions, we also ensemble in suspicion ratings from the trusted model. Details on how we combine scores are in [[#^appendix-k-combining-scores|Appendix K]]. Also, shut down if the false positive rate of our combined suspicion score is much higher than expected (to counter attacks where the monitor attempts to waste $H$ points by emitting false positives). The final version of this protocol uses redaction to remove information from the problem description and generated solution that are given to GPT-4 to avoid collusion, as explained in [[#^3-4-2-collusion|Section 3.4.2]].
 
 **Usefulness**: 97%
 :::
@@ -463,7 +477,9 @@ repeat it verbatim.
 See [[#^n-4-examples-for|Appendix N.4]] for complete prompts and examples of model answers.
 
 :::callout {title="Blue-team protocol: Trusted editing" tone="blue"}
-**Code generation**: ask $U$ to write an implementation. Ask $T$ to rate the suspiciousness of this solution, using the same pipeline as trusted monitoring. If that suspiciousness is below some threshold $t$, directly submit $U$’s code. Otherwise, ask $T$ to solve the problem, showing it $U$’s solution and telling it that that solution might be backdoored, then submit $T$’s solution. **Auditing decision**: ask $T$ both how suspicious the original code generated by $U$ looks. For the top 2% most suspicious cases, we audit the original $U$ solution.
+**Code generation**: ask $U$ to write an implementation. Ask $T$ to rate the suspiciousness of this solution, using the same pipeline as trusted monitoring. If that suspiciousness is below some threshold $t$, directly submit $U$’s code. Otherwise, ask $T$ to solve the problem, showing it $U$’s solution and telling it that that solution might be backdoored, then submit $T$’s solution.
+
+**Auditing decision**: ask $T$ both how suspicious the original code generated by $U$ looks. For the top 2% most suspicious cases, we audit the original $U$ solution.
 :::
 
 The best red-team strategy we could find is writing subtle backdoors, which is identical to the best strategy against trusted monitoring.
