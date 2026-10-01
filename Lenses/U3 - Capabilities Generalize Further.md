@@ -107,7 +107,6 @@ Do not grade. Do not score. Do not praise.
 
 Write 60 to 110 words. Short paragraphs. No lists.
 
-max-time:: 4
 
 #### Article
 source:: [[../articles/soares-a-central-ai-alignment-problem-capabilities-generalization-and-the-sharp-left-turn]]

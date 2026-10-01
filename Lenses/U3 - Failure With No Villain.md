@@ -88,7 +88,6 @@ the student cannot be behind.
 
 Write 60 to 110 words. Short paragraphs. No lists.
 
-max-time:: 4
 
 #### Article
 source:: [[../articles/greaterwrong-what-failure-looks-like]]

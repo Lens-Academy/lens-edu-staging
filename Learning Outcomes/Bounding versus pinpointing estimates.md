@@ -21,7 +21,6 @@ Their number is not useless, but it is not what they think it is.
 
 What can this method actually establish, and what can it not? Name the direction the estimate is wrong in, state the assumption that fixes that direction, and describe a situation in which their 2041 figure would tell a decision-maker nothing at all.
 
-max-time:: 12:00
 
 assessment-instructions:: The student has completed a module on timeline estimation methods, including biological anchors and compute-centric extrapolation, and the distinction between bounding and pinpointing an estimate. This test presents an unfamiliar domain (synthetic biology, not AI) so that an answer reconstructing the assigned readings cannot pass.
 

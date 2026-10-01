@@ -31,7 +31,6 @@ Part 2. Now suppose instead that all three attended the same briefing, saw the s
 
 Part 3. The regulator has the three numbers but does not know which of the two worlds she is in. What could she ask the engineers, without asking them to re-forecast, that would tell her?
 
-max-time:: 20:00
 
 assessment-instructions:: The student has completed a module on forecasting method, including aggregation and the extremization result. The chemical-plant setting is unfamiliar so a student who memorised the coin example from the reading cannot simply restate it; they must recognise the same structure in new clothes.
 
