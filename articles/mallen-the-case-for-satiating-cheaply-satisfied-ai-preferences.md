@@ -372,6 +372,7 @@ Its significance was less economic than constitutional. It was the first time Pa
 Practically, it spurred several developments that built the infrastructure of revolution: the Stamp Act Congress of 1765 (one of the first instances of intercolonial coordination), widespread boycotts of British goods, and the formation of groups like the Sons of Liberty who organized popular resistance. Parliament repealed it in 1766 but simultaneously passed the Declaratory Act asserting its right to legislate for the colonies “in all cases whatsoever” — which set the stage for every subsequent confrontation over tea, quartering, and eventually independence.
 
 In short, the Stamp Act mattered less for what it cost colonists and more for the political precedent it set and the organized opposition it created.
+:::
 
 [^note-1]: More speculatively: cooperating when cheap is good from an [Evidential Cooperation in Large worlds (ECL)](https://www.lesswrong.com/posts/mm8sFBpPH3Bb2NhGg/three-reasons-to-cooperate) perspective.
 [^note-2]: Computing gradients on all outputs would increase inference costs [by about 70%](https://claude.ai/share/a44dea13-f490-46d9-8682-9fc4dfdb5c2e). But for some critical labor, inference cost might not be the bottleneck, so this wouldn’t actually be a big deal. E.g., if the AI is bottlenecked by waiting for large ML experiments to run or if humans are in the loop.
