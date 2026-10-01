@@ -24,9 +24,17 @@ content::
 
 ::card[[../Lenses/ET Additional - Using AI Tools Well|Using AI Tools Well]]{allow-external}
 
+:::callout {title="🗺️ What's in this worksheet (click a step to jump to it)" tone="neutral"}
+
+1. [[#^part-1|**Part 1. Draft a Theory of Change for Your Thesis**]]: map how your research could lead to real-world change, as a diagram with named assumptions on each arrow
+2. [[#^part-2|**Part 2. Continue Stakeholder Outreach**]]: keep updating your Stakeholder Outreach Tracker
+3. [[#^part-3|**Part 3. Next Steps**]]: note your open questions to bring to your discussion
+
+:::
+
 ---
 
-\# Part 1. Draft a Theory of Change for Your Thesis
+\# Part 1. Draft a Theory of Change for Your Thesis ^part-1
 
 Here, you can begin to draft a Theory of Change diagram on how your research can lead to the ideal vision you’ve identified. Begin with the outputs you may create from your project (i.e., article, presentation, policy brief). Next, focus on WHO the key stakeholders are that will utilise or be impacted by your findings and what positive changes will happen when they do.
 
