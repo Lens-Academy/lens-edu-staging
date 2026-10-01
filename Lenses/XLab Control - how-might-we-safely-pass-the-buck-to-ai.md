@@ -4,7 +4,7 @@ title: "How might we safely pass the buck to AI?"
 tldr: "Josh Clymer's goal as a safety researcher is to put himself out of a job: not to align superintelligence himself, but to hand the remaining safety work to AI agents who are better at it than he is. The hard part is knowing when that handoff is safer than keeping humans in the loop. His answer is two conditions and four arguments, and you can check each one."
 summary_for_tutor: "Module 1, where the page is a bare paper: there is no framing prose, only Josh Clymer's post rendered inline and one practice question added by Lens. Everything before the Article segment is our own navigational lead-in, drawn from the post's own introduction and section headings, and none of it is ported editorial voice. The lens is lead-in, the whole post, one practice question, works cited. The practice question (added September 2026) is a new case, agents taking over red-teaming of a lab's monitors: the learner says which of the two conditions the evidence speaks to and which kind of trust argument could settle the other; its model answer is in the assessment-instructions. If a learner wants to discuss it, the spine is the two sufficient conditions (capability and trust) and the four arguments for trust, of which argument #2, that agents cannot subvert autonomous control measures, is the one that connects back to the rest of this course."
 reading_minutes: 65
-tutor_minutes: 5
+tutor_minutes: 10
 tags: []
 ---
 #### Text
