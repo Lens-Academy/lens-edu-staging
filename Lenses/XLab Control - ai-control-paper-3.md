@@ -29,6 +29,16 @@ The second tab sets up a comparison you will need in a moment.
 #### Widget
 source:: [[../widgets/xlab-control-monitor-classifier]]
 
+#### Text
+content::
+The questions below use the contingency table from section 3.2, which you read in part 2. It splits the 1,500 problems by whether the red team attempted a backdoor and whether trusted monitoring sent the solution to an audit:
+
+|  | Audited | Not audited |
+| --- | --- | --- |
+| Successful backdoor attempt | 6 | 13 |
+| Failed backdoor attempt | 18 | 34 |
+| No attempt | 29 | 1400 |
+
 #### Callout: Understanding check
 tone:: amber
 
