@@ -138,4 +138,8 @@ After a stakeholder interview, the real value comes from turning the conversatio
 - **Journaling Tab:** You can also use the journaling tab to reflect on the emotional barriers around stakeholder outreach - knowing that you’re not alone in this process!
 - **Attend your Weekly Discussion** (please inform your facilitator if you are unable to make it for the week)
 
+👉 **Ready? Head to this week's worksheet** (the email outreach templates in the Appendix, coming up next, will help you with it too!):
+
+::card[[../Lenses/ET W4 - Worksheet - Stakeholder Mapping and Outreach|Week 4 Worksheet: Stakeholder Mapping and Outreach]]
+
 ⭐Even a low reply rate can turn into a genuinely valuable collaboration. One of our past alumni sent around 100 outreach emails before finding the collaborator who ended up shaping his whole thesis, and eventually co-founded an organisation together! You can read [Otto's story here](https://www.effectivethesis.org/impact-articles/otto-tutzauer-hellstrom). It's a good reminder that the emails that don't get a reply aren't wasted, they're just the cost of finding the one that changes everything!
