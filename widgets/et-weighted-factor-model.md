@@ -1020,10 +1020,17 @@ var WFM = {
     var moreBtn = h("button", { type: "button", className: "small", id: pid + "-details", "aria-expanded": isOpen ? "true" : "false", "aria-controls": pid + "-more",
       text: isOpen ? "Hide details" : (hasWhy ? "Details (rationale written)" : "Details"),
       onclick: function () { if (ui.openF[f.id]) delete ui.openF[f.id]; else ui.openF[f.id] = true; renderAll(); } });
+    var quickRm = h("button", { type: "button", className: "small", id: pid + "-qrm", text: "\u00d7 Remove", title: "Remove this factor", "aria-label": "Remove factor " + (f.name || (idx + 1)),
+      onclick: function () {
+        state.factors.splice(idx, 1);
+        for (var i = 0; i < state.questions.length; i++) delete state.questions[i].scores[f.id];
+        if (ui.detail === "f:" + f.id) ui.detail = null;
+        renderAll(); persist();
+      } });
     var kids = [
       h("div", { className: "frow" }, [
         h("div", null, [h("label", { className: "f", "for": pid + "-name", text: "Factor" }), nameIn]),
-        h("div", { className: "fctl" }, [h("span", { className: "wbox" }, [wIn, h("span", { text: "%" })]), invBtn, moreBtn])
+        h("div", { className: "fctl" }, [h("span", { className: "wbox" }, [wIn, h("span", { text: "%" })]), invBtn, moreBtn, quickRm])
       ])
     ];
     if (isOpen) {
