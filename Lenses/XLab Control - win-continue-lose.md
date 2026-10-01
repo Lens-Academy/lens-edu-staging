@@ -48,7 +48,7 @@ id:: 2234e527-4341-4e20-a037-68da9754b438
 content:: How does an execute/replace/audit protocol work?
 max-chars:: 800
 assessment-instructions:: Score out of 100. 25: an agent loop repeatedly gets a proposed action from the untrusted model. 25: a monitor scores how dangerous or suspicious each proposed action looks. 50: based on that score the protocol makes two decisions, 25 each: whether to execute the action or replace it with a different one, and whether to audit it (send it for review). Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "An agent loop repeatedly gets a proposed action from the untrusted LLM, a monitor scores how dangerous or suspicious the action looks, and the protocol determines whether to execute the action or replace it & whether to audit it by looking at the monitor's score."
-feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer from the rubric so they leave with it, in your own words if it is long. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 1f88446b-db35-4c57-adf6-e8b9a9c0c4dd
