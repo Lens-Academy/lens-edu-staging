@@ -19,7 +19,7 @@ Return here after reading.
 
 ---
 
-#### Question
+#### Question: Open
 id:: e587dfa6-b495-47c6-92d3-f8c4b7645e2e
 content::
 \## Phase 1: Recall
@@ -63,7 +63,7 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### Question: Open
 id:: 722c8f26-8edb-423f-9ec1-87c748f8cb0f
 content::
 \## Phase 2: Processing
@@ -138,7 +138,7 @@ What not to do:
 - List the candidates for them.
 - Turn this into a review of Chapter 1's inventory of machine advantages.
 
-#### Question
+#### Question: Open
 id:: 6713edde-7767-40e1-a5ce-d76a2651a346
 content::
 \## Phase 4: Learning Question

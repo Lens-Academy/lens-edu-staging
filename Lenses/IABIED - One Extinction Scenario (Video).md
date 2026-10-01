@@ -34,7 +34,7 @@ As you watch, hold on to a few things: the moment that sticks with you most, whe
 source:: [[../video_transcripts/species-documenting-agi-pov-what-you-would-see-during-an-ai-takeover]]
 from:: 2:03
 
-#### Question
+#### Question: Open
 id:: f2d545e3-18ea-4a82-a39f-a8c8318be6df
 content::
 \## Your reaction

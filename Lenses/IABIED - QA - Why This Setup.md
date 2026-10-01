@@ -16,7 +16,7 @@ The authors of Part II chose a scenario set close to the present day, not becaus
 #### Article
 source:: [[../articles/iabied-ptii-faq-pick-setup]]
 
-#### Question
+#### Question: Open
 id:: a34bcf58-14c0-4098-b093-2c85811f3cf7
 content:: Setting the story close to the present makes it easy to picture. Does that make the danger feel more real to you, or does a near-term timeline make the whole thing easier to dismiss?
 force-feedback:: first

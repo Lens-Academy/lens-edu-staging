@@ -17,7 +17,7 @@ You've just been through the book's darkest stretch. The authors' point isn't de
 
 ---
 
-#### Question
+#### Question: Open
 id:: 0d57c4cb-2122-4b22-8c5e-9a757a123e26
 content::
 \## Phase 1: Your strengths
@@ -60,7 +60,7 @@ Ground rules:
 - Response length: 100–180 words per turn. Short paragraphs. At most one list of 2–3 items per response.
 - However the conversation winds down, do not end on doom. End on the concrete first step they can take this week.
 
-#### Question
+#### Question: Open
 id:: 693d04eb-4e4a-4b01-b444-9eae34cc180b
 content::
 \## Phase 3: Your action items

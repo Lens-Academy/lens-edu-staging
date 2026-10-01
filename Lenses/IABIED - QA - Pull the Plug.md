@@ -15,7 +15,7 @@ This Q&A addresses the intuition that we could simply shut down a dangerous AI. 
 #### Article
 source:: [[../articles/iabied-ch6-faq-pull-plug]]
 
-#### Question
+#### Question: Open
 id:: b880bbfa-21d6-4620-a448-929b5e206417
 content:: The authors argue an AI would bide its time and hide its plans until escape was already accomplished. If that is right, what would a genuine warning sign even look like?
 force-feedback:: first

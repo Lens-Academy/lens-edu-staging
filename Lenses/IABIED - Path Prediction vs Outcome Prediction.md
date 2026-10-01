@@ -19,7 +19,7 @@ Return here after reading.
 
 ---
 
-#### Question
+#### Question: Open
 id:: 3937af5c-466d-4edd-a662-721705c0bba2
 content::
 \## Phase 1: Recall
@@ -64,7 +64,7 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### Question: Open
 id:: 4a0a231b-9a74-474c-9ca1-f27cb2d9a90a
 content::
 \## Phase 2: Processing
@@ -113,7 +113,7 @@ What not to do:
 - Preview the next phase. It turns on whether an easy call means there is nothing to be done, and that objection has to arrive fresh.
 - Turn this into a review of the Introduction.
 
-#### Question
+#### Question: Open
 id:: a869a31e-b4f8-48b3-9578-c15671517846
 content::
 \## Phase 4: Learning Question
