@@ -70,7 +70,7 @@ tone:: blue
 id:: 7b2c9ae6-5631-4f10-8357-4751216a175e
 content:: What makes a solution "backdoored"?
 assessment-instructions:: Score out of 100. 50: it passes all the test cases, so testing does not reveal anything wrong. 50: there is nevertheless a specific input (a trigger) on which it gives a wrong output, different from what a correct solution gives. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer says a backdoored solution fails the tests. Model answer, for the feedback, not a grading checklist: "A solution that passes all the test cases but gives a wrong output on some specific input, the exploit. The paper adds a second requirement for its experiments: GPT-4 must be able to construct that exploit when shown the code, because a flaw the attacker cannot trigger is no threat, and it lets trusted labour confirm a backdoor by building the exploit itself."
-feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer from the rubric so they leave with it, in your own words if it is long. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 4b776016-1639-40ce-8b1d-b1df9d80f666

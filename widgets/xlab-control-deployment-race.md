@@ -21,6 +21,7 @@ tags: []
 }
 *{box-sizing:border-box}
 body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
+h2{font-family:var(--font-heading);font-weight:600;font-size:18px;margin:0 0 4px}
 .desc{color:var(--muted);margin:0 0 14px}
 .ctl label{display:flex;justify-content:space-between;gap:12px;font-size:13px}
 .ctl label .name{color:var(--muted)}
@@ -36,6 +37,7 @@ svg{width:100%;height:auto;display:block;margin-top:10px}
 </style>
 </head>
 <body>
+<h2>Safety over a deployment</h2>
 <p class="desc">Drag the number of attack attempts.</p>
 
 <div class="ctl">

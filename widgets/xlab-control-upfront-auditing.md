@@ -26,6 +26,7 @@ tags: []
 }
 *{box-sizing:border-box}
 body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
+h2{font-family:var(--font-heading);font-weight:600;font-size:18px;margin:0 0 4px}
 .desc{color:var(--muted);margin:0 0 14px}
 .ctl{margin:0 0 12px}
 .ctl label{display:flex;justify-content:space-between;gap:12px;font-size:13px}
@@ -48,6 +49,7 @@ button.is-active{border-color:var(--text);box-shadow:0 0 0 1px var(--text)}
 </style>
 </head>
 <body>
+<h2>Upfront auditing: the audit/attack-rate tradeoff</h2>
 <p class="desc">Move &alpha; and watch what an optimising red team does about it.</p>
 
 <div class="ctl">

@@ -300,7 +300,7 @@ id:: 22172cae-761a-43fc-814f-20257f6f62ac
 content:: What is a model organism, and why build one?
 optional:: true
 assessment-instructions:: Score out of 100. 50: a system (such as a model) deliberately built to show a phenomenon, for example a dangerous behaviour, that is hard to find or study in the wild. 50: why build one, 25 each: with the phenomenon inside a controlled system, the thing of interest becomes measurable; so ways to detect it and countermeasures against it can be tested on the constructed version. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "A deliberately constructed instance of a phenomenon that is hard to study in the wild. Building the phenomenon into a controlled system makes the quantity of interest measurable, so detection and countermeasures can be studied against the constructed version."
-feedback-instructions:: Reply in one or two sentences. Do not over-validate. Avoid generic praise (great job, excellent, well done). Do not ask a follow-up question.
+feedback-instructions:: Reply in two or three sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent, well done). Do not ask a follow-up question.
 
 #### Question: Open
 id:: 67b7b9f0-880c-46ac-898f-d0d380e0c0c0

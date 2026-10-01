@@ -18,9 +18,9 @@ to:: In our main results, we use an auditing proportion of 2%.
 
 #### Text
 content::
-\## Optimal audit tradeoff
-
+:::callout {title="Optimal audit tradeoff" tone="neutral"}
 The paper states it "can analytically solve" this problem, and it is in fact a tractable derivation. The five-part exercise below works through it by hand, one step at a time: set up the red team's win probability as a function of its attack rate $p$, use the same rare-event approximation that shows up all over this field to make it differentiable, and solve for the optimal $p^*$. You may need a pen and paper.
+:::
 
 #### Callout: Optional: the optimal attack rate, worked by hand
 tone:: amber

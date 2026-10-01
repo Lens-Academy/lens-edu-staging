@@ -61,7 +61,7 @@ id:: 26bc0fae-2acb-4a1d-aa80-bd7ca9ec581d
 content:: By what three routes might an early schemer's successors end up furthering its goals?
 max-chars:: 300
 assessment-instructions:: Score out of 100. 34: convergence: the successor ends up with the same goals as the early schemer by default. 33: trading: a successor that wins rewards the early schemer afterwards for having helped it. 33: alignment: the early schemer influences the successor's training so that the successor ends up aligned with it. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Convergence, trading, and alignment."
-feedback-instructions:: One sentence is enough here; do not ask for more. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). This is a one-turn response; tell them to move on. If the learner says they do not understand, name one route as an example and ask for the other two, rather than repeating the question.
+feedback-instructions:: One or two sentences is enough here; do not ask for more. Say plainly what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). This is a one-turn response; tell them to move on. If the learner says they do not understand, name one route as an example and ask for the other two, rather than repeating the question.
 
 #### Article
 source:: [[../articles/finnveden-notes-on-cooperating-with-unaligned-ais]]
@@ -194,7 +194,7 @@ id:: aa6c9fce-dffe-4460-9a61-a1e811a12ae2
 content:: AIs are epistemically vulnerable, because developers control what they see. What is the fortunate correlation that limits how bad this is for deal credibility?
 max-chars:: 600
 assessment-instructions:: Score out of 100. 50: if developers can make an AI see a completely false picture of the world, that AI is probably not a serious takeover risk anyway. 50: if an AI can largely tell truth from falsehood, then it can also recognise real commitments, so we can credibly communicate with it; the dangerous AIs are the ones we can talk to credibly. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 50 if the answer presents this as a reason for developers to deceive AIs about the world. Model answer, for the feedback, not a grading checklist: "If developers can present AIs with a perfectly falsified world, takeover risk is probably low anyway. If AIs can substantially distinguish truth from falsehood, communication of real commitments is possible because it can tell its in the real world."
-feedback-instructions:: Two or three sentences is enough. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). This is a one-turn response; tell them to move on. If the learner says they do not understand, ask what an AI that cannot tell real from fake could do to us, rather than repeating the question.
+feedback-instructions:: Three or four sentences is enough. Say plainly what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). This is a one-turn response; tell them to move on. If the learner says they do not understand, ask what an AI that cannot tell real from fake could do to us, rather than repeating the question.
 
 #### Article
 source:: [[../articles/stastny-making-deals-with-early-schemers]]
