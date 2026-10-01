@@ -211,7 +211,7 @@ id:: cae89261-d3d8-4484-abbe-0ea1e3c6d669
 content:: What is gradient hacking, and why does it matter for fine-tuning elicitation?
 optional:: true
 assessment-instructions:: Score out of 100. 40: the model interferes with its own training, manipulating the gradient updates it receives. 30: so that training fails to change its behaviour the way the training signal pushes, for example it keeps underperforming even when fine-tuned directly on good demonstrations. 30: why it matters: a model that could gradient-hack could defeat supervised fine-tuning, but this appears to be beyond current models, which is why supervised fine-tuning is treated as a robust way to elicit capabilities a model is hiding. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "A model interfering with its own training gradients so that supervised training fails to change its behavior, for example continuing to underperform even when fine-tuned directly on good demonstrations. It appears to be beyond current models, which is why supervised fine-tuning is treated as a robust way to elicit capabilities a model is hiding."
-feedback-instructions:: Reply in one or two sentences. Do not over-validate. Avoid generic praise (great job, excellent, well done). Do not ask a follow-up question.
+feedback-instructions:: Reply in one to three sentences: say what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent, well done). Do not ask a follow-up question.
 
 #### Question: Open
 id:: d20f8e71-1600-42fb-9af8-4e656ded8ae3
