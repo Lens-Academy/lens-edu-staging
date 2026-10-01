@@ -63,6 +63,7 @@ h4 { margin: 18px 0 4px; font-size: 14px; }
 <body>
 <div class="eyebrow">My Theory of Change diagram</div>
 <p class="hint">1) Fill in your boxes, from your research outputs to your ultimate impact. 2) Click <b>"Link to..."</b> on a box, then click the box it leads to, to draw an arrow. 3) Name each arrow below with the assumption or uncertainty it depends on. Everything saves automatically.</p>
+<p class="hint" style="margin-top:-6px"><b>👉 Can't see all four columns?</b> Scroll sideways inside the diagram (or swipe left on a phone) to reach <b>Long-Term Outcomes</b> and your <b>Ultimate Impact</b>.</p>
 <div id="root">
   <div class="wrap"><div class="stage" id="stage">
     <div class="flow" id="flow"></div>
