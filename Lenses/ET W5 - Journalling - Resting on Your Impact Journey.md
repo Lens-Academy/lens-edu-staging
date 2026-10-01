@@ -23,6 +23,10 @@ Rest is often reduced to just sleep, but sleep is only one piece of what actuall
 - **Creative rest** - exposure to beauty or inspiration that isn't about producing anything
 - **Spiritual rest** - a sense of connection to something larger than yourself, meaning, purpose, or belonging
 
+![7 Types of Rest infographic: Physical rest (sleep, lying down, yoga, walking), Mental rest (mindfulness, meditation, breaks), Emotional rest (expressing emotions, getting support), Sensory rest (avoiding stimuli, digital detoxing), Creative rest (engaging with art, music, nature to be inspired), Social rest (spending time alone to recharge), Spiritual rest (finding purpose in daily routines). Image credit: @thepresentpsychologist](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w5-journalling-7-types-of-rest-16b4e472.webp)
+
+*Image credit: @thepresentpsychologist*
+
 If you're depleted in one area, more of a different kind of rest usually won't fix it. For example, someone that is lacking social rest won't feel restored by more sleep, and someone overloaded on sensory input won't feel restored by socialising more.
 
 This week, we encourage you to notice what types of rest you are actually craving and needing, and to see if you can experiment with adding some moments of rest into your week!
