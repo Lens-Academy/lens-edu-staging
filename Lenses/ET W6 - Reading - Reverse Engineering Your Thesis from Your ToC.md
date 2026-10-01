@@ -128,3 +128,7 @@ content::
 - **Week 6 Worksheet on Reverse Engineering your Thesis.** Work on your worksheet before the discussion, especially if you’re in the mastermind for this week!
 - **Explore this week’s Journaling tab** for journaling prompts for the week
 - **Attend your Weekly Discussion** (please inform your facilitator if you are unable to make it for the week)
+
+👉 **Ready? Head to this week's worksheet:**
+
+::card[[../Lenses/ET W6 - Worksheet - Reverse Engineering Your Thesis|Week 6 Worksheet: Reverse Engineering Your Thesis]]
