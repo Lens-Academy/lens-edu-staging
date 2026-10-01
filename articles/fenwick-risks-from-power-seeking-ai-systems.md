@@ -63,7 +63,7 @@ In the years since we first encountered these arguments and advised people to wo
 
 We think this is among the most pressing problems in the world.
 
-#### Profile depth
+##### Profile depth
 
 In-depth
 
