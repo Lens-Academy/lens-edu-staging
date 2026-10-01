@@ -296,6 +296,7 @@ This doesn’t need to be the case, and I’d much prefer the genuinely cooperat
 
 ---
 
+:::callout {title="Appendix: Samples from Claude 4.6 Opus" collapse="closed"}
 # Appendix: Samples from Claude 4.6 Opus ^appendix-samples-from-claude
 
 ## Sample 1 (without CoT) ^sample-1-without-cot
