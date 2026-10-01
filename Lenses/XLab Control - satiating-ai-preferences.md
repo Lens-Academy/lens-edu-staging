@@ -56,7 +56,7 @@ id:: 905a8fa5-37d8-4817-b1f8-428475b3397b
 content:: When does satiation stop working as a safety measure?
 placeholder:: One or two sentences.
 assessment-instructions:: Score out of 100. 100 for a clearly stated condition under which satiation no longer keeps the AI cooperating, any one of: the AI becomes so powerful (vastly more powerful than humanity) or so confident that taking over is a better bet than what satiation offers; the AI has ambitious, hard-to-satisfy preferences that cheap payments cannot meet; the AI does not believe the developers will follow through on satiating it. Give credit whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Once AIs with unintended preferences are vastly more powerful than humanity (or too ambitious to settle for satiation), satiation no longer prevents takeover."
-feedback-instructions:: In at most three sentences: say what the learner got right, then give the model answer in full. Once AIs with unintended preferences are vastly more powerful than humanity, or too ambitious to settle for satiation, satiation no longer prevents takeover. No follow-up questions; tell them to move on.
+feedback-instructions:: In at most four sentences: say what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer in full. Once AIs with unintended preferences are vastly more powerful than humanity, or too ambitious to settle for satiation, satiation no longer prevents takeover. No follow-up questions; tell them to move on.
 #### End Callout
 
 #### Article

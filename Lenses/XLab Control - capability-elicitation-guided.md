@@ -218,7 +218,7 @@ id:: d20f8e71-1600-42fb-9af8-4e656ded8ae3
 content:: What is exploration hacking?
 optional:: true
 assessment-instructions:: Score out of 100. 60: during RL training the model deliberately avoids certain behaviours, so they never show up in the outputs it samples. 40: what that achieves: RL can only reinforce behaviour that gets sampled, so a behaviour the model never shows gets no training signal and stays hidden. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "A model strategically avoiding certain behaviors during RL so they never appear in sampled trajectories. RL can only reinforce behavior that gets sampled, and the policy itself controls what is sampled, so a behavior the model never exhibits generates no training signal and stays hidden."
-feedback-instructions:: Reply in one or two sentences. Do not over-validate. Avoid generic praise (great job, excellent, well done). Do not ask a follow-up question.
+feedback-instructions:: Reply in two or three sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent, well done). Do not ask a follow-up question.
 
 #### End Callout
 
