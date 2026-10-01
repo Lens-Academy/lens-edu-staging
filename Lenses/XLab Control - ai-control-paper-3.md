@@ -117,7 +117,7 @@ to:: This means that trusted monitoring would be useful even if $U$ is able to p
 id:: 0b4f91f9-f6e7-4227-9bcc-c12c4df33091
 content:: How does the blue team stop $U$ from burning the audit budget by making innocent code look suspicious?
 assessment-instructions:: Score out of 100. 50: the blue team knows the distribution of suspicion scores that the real, honest model's code gets, so it knows how often code should look suspicious. 50: the protocol shuts down if $U$'s submissions look significantly more suspicious than that expected distribution. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "The blue team knows the distribution of suspicion scores that the real model's code gets, so the protocol shuts down if $U$'s submissions look significantly more suspicious than that expected distribution."
-feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer from the rubric so they leave with it, in your own words if it is long. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Article
 from:: #### 3.2.2 Extending Trusted Monitoring With Untrusted Justification

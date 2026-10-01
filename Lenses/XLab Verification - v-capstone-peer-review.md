@@ -51,7 +51,7 @@ content::
 
 If your partner changes only one thing before submitting, what should it be, and why that one?
 assessment-instructions:: Score out of 100. 40: one change is named concretely, what to change and where in the draft. 60: why this one matters more than the others, tied to the named reader's decision or to the deliverable's central claim; a reason that is only that the change is easy earns none of these 60. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 50 if several changes are listed without choosing one. Model answer, for the feedback, not a grading checklist: "Add the evidence each rule relies on to the rules table, starting with rule 3, the threshold rule. The secretariat, the named reader, has to decide whether to act on a meter report, and without the evidence column it cannot tell which reports it can trust; every other fix improves the draft, but this one decides whether the reader can use it at all."
-feedback-instructions:: If the reason is convenience rather than impact, ask which change would most alter what the reader does with the document. Otherwise, one sentence. No praise.
+feedback-instructions:: If the reason is convenience rather than impact, ask which change would most alter what the reader does with the document. Otherwise, one sentence naming the most important gap or weakness, if any. No praise.
 
 #### Text
 content::
