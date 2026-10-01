@@ -66,7 +66,7 @@ content::
 
 :::callout {title="⭐ This is your main outreach tracker for the whole program!" tone="amber"}
 
-You'll keep using this same tracker from now until Week 8. It also appears in your Week 5, 6 and 7 worksheets, and it's the same tracker each time, so anything you add in one place shows up everywhere. Keep coming back to log new stakeholders, outreach sent, and interviews completed!
+You'll keep using this same tracker from now until Week 8. It also appears in your Week 5, 6 and 7 worksheets, and in its own **📇 My Stakeholder Outreach Tracker** tab at the bottom of the course menu, which you can open at any time. It's the same tracker each time, so anything you add in one place shows up everywhere. Keep coming back to log new stakeholders, outreach sent, and interviews completed!
 
 :::
 

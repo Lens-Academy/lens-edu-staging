@@ -45,3 +45,6 @@ tags: [wip]
 
 # Module: [[../modules/ET Additional - Using AI Tools Well|Additional: Using AI Tools Well]]
 optional:: true
+
+# Module: [[../modules/ET Tool - My Stakeholder Outreach Tracker|📇 My Stakeholder Outreach Tracker]]
+optional:: true
