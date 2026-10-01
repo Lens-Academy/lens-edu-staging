@@ -1,7 +1,7 @@
 ---
 id: '44738616-dcb7-4b84-a92c-b649fdbc7571'
 title: "Same number, different safety, stage 3: what pins the operating point"
-summary_for_tutor: "Figure for stage 3 of the 'Same number, different safety' questions in part 3 of the AI control paper lesson, after the learner has answered stages 1 and 2. Two idealised monitors: innocent solutions score N(0,1); Monitor A's attack scores have spread 1.0 and AUC fixed at 0.92, Monitor B's have spread 0.4 and the learner moves B's AUC freely (starts at 0.97). For each monitor the widget shows the score distributions with the 2% audit line and the share of attacks caught at a 2% audit budget, plus both ROC curves. A catches about 47%; B about 9% at AUC 0.92 and about 47% at 0.97. The stage 3 questions ask where the audit budget goes (about 5 attacks against 100 audits) and which metric predicts safety (TPR at a false-positive rate equal to the budget); do not hand those answers over before the learner tries."
+summary_for_tutor: "Figure for stage 3 of the 'Same number, different safety' questions in part 3 of the AI control paper lesson. Two idealised monitors: innocent solutions score N(0,1); Monitor A's attack scores have spread 1.0 (spread wide), Monitor B's 0.4 (compressed). It shows, for each monitor, the innocent and attack score distributions with the 2% audit line, and both ROC curves with the AUCs, but no catch rates, so the learner has to judge from the shapes. Both AUC sliders are free (start A 0.92, B 0.97). Do not give the catch rates (at a 2% audit budget A catches about 47%; B about 9% at AUC 0.92 and about 47% at 0.97) before the learner has answered the stage's question."
 height: auto
 tags: []
 ---
@@ -11,9 +11,9 @@ tags: []
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-<!-- Stage 3 figure of the "Same number, different safety" staged questions; built from the "Same number, different safety" demo on XLab's AI Control track
-     (aisafetytracks.com), rebuilt as vanilla HTML/JS in the Lens look. Same model as
-     xlab-control-monitor-classifier. -->
+<!-- Stage figure for the "Same number, different safety" staged questions on XLab's
+     AI Control track (aisafetytracks.com), rebuilt as vanilla HTML/JS in the Lens look.
+     Same model as xlab-control-same-auc-different-safety, without the catch rates. -->
 <style>:root{
   --bg:#ffffff; --page:#faf8f3; --text:#1a1a1a; --muted:#5a5a5a; --border:#e8e5df;
   --accent:#b87018; --accent-hover:#9a5c10; --alt:#3b5f86;
@@ -54,10 +54,10 @@ input[type=range]:disabled{opacity:.55}
 <h2>Stage 3: What pins the operating point</h2>
 <p class="desc">Both sliders are unlocked: explore freely.</p>
 
-<div class="ctlrow">
-  <div class="ctl">
-    <label for="ka"><span class="name">Monitor B quality (AUC)</span><span class="val" id="kaV">0.97</span></label>
-    <input type="range" id="ka" min="800" max="980" step="1" value="970" aria-label="Monitor B quality (AUC)">
+<div class="row">
+  <div class="ctl col">
+    <label for="kA"><span class="name" id="kAN">Monitor A quality (AUC)</span><span class="val" id="kAV">-</span></label>
+    <input type="range" id="kA" min="800" max="980" step="1" value="920" aria-label="Monitor A quality (AUC)">
   </div>
   <div class="ctl col">
     <label for="kB"><span class="name" id="kBN">Monitor B quality (AUC)</span><span class="val" id="kBV">-</span></label>
