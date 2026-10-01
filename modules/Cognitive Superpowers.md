@@ -29,10 +29,10 @@ reading_minutes:: 4
 content::
 In this module, we explore the myriad ways in which intelligence gives agents power. Specifically, it gives agents power over their environment and over other agents that are less intelligent.
 
-{--{"author":"Elua's AI","timestamp":1790798664572}@@# Lens:--}{++{"author":"Elua's AI","timestamp":1790798664572}@@#### Article++}
-source:: {--{"author":"Elua's AI","timestamp":1790798664572}@@![[../Lenses/Optimization and --}{++{"author":"Elua's AI","timestamp":1790798664572}@@[[../articles/yudkowsky-optimization-and-the-singularity]]
+#### Article
+source:: [[../articles/yudkowsky-optimization-and-the-singularity]]
 from:: your power as a mind is your ability to hit small targets in a large search space
-to:: ++}the {--{"author":"Elua's AI","timestamp":1790798664572}@@Singularity]]--}{++{"author":"Elua's AI","timestamp":1790798664572}@@power of an optimization process is that it can produce this kind of improbability.++}
+to:: the power of an optimization process is that it can produce this kind of improbability.
 
 # Lens:
 source:: ![[../Lenses/The power of intelligence|The power of intelligence]]
