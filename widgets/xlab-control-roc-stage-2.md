@@ -1,7 +1,7 @@
 ---
 id: 'b20ec941-3eab-44eb-b816-86ec6c721c80'
 title: "Same number, different safety, stage 2: higher auc"
-summary_for_tutor: "Figure for stage 2 of the 'Same number, different safety' questions in part 3 of the AI control paper lesson. It shows only the ROC curves of two idealised monitors, A (attack-score spread 1.0) and B (spread 0.4), and their AUCs, with no catch rates, so the learner has to predict from the shape of the curves. Monitor A is at AUC 0.92 and Monitor B at 0.97; B's slider is locked for this stage. Do not give the catch rates (at a 2% audit budget: A about 47%; B about 9% at AUC 0.92 and about 47% at 0.97) before the learner has answered the stage's question."
+summary_for_tutor: "Figure for stage 2 of the 'Same number, different safety' questions in part 3 of the AI control paper lesson. Two idealised monitors: innocent solutions score N(0,1); Monitor A's attack scores have spread 1.0 (spread wide), Monitor B's 0.4 (compressed). It shows, for each monitor, the innocent and attack score distributions with the 2% audit line, and both ROC curves with the AUCs, but no catch rates, so the learner has to judge from the shapes. Locked for this stage at A 0.92, B 0.97. Do not give the catch rates (at a 2% audit budget A catches about 47%; B about 9% at AUC 0.92 and about 47% at 0.97) before the learner has answered the stage's question."
 height: auto
 tags: []
 ---
@@ -11,20 +11,21 @@ tags: []
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-<!-- Ported from the "monitor-roc-mini" figure of the "Same number, different safety"
-     staged questions on XLab's AI Control track (aisafetytracks.com), rebuilt as
-     vanilla HTML/JS in the Lens look. One file per stage; same model as
-     xlab-control-same-auc-different-safety. -->
-<style>
-:root{
+<!-- Stage figure for the "Same number, different safety" staged questions on XLab's
+     AI Control track (aisafetytracks.com), rebuilt as vanilla HTML/JS in the Lens look.
+     Same model as xlab-control-same-auc-different-safety, without the catch rates. -->
+<style>:root{
   --bg:#ffffff; --page:#faf8f3; --text:#1a1a1a; --muted:#5a5a5a; --border:#e8e5df;
-  --accent:#b87018; --accent-hover:#9a5c10;
+  --accent:#b87018; --accent-hover:#9a5c10; --alt:#3b5f86;
   --font-ui:"DM Sans",Arial,sans-serif; --font-heading:"Newsreader",Georgia,serif;
 }
 *{box-sizing:border-box}
 body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
-.desc{color:var(--muted);margin:0 0 14px}
-.ctlrow{display:flex;gap:12px;align-items:flex-end;margin:0 0 6px}
+h2{font-family:var(--font-heading);font-weight:600;font-size:18px;margin:0 0 4px}
+.desc{color:var(--muted);margin:0 0 12px}
+button{font:inherit;color:inherit;border:1px solid var(--border);border-radius:8px;background:#fff;padding:7px 10px;cursor:pointer}
+button:hover{background:var(--page)}
+.ctlrow{display:flex;gap:12px;align-items:flex-end;margin:0 0 12px}
 .ctl{flex:1 1 auto;min-width:0}
 .caught{text-align:center;font-size:12px;color:var(--muted);margin:2px 0 0}
 .caught b{color:var(--text);font-variant-numeric:tabular-nums}
@@ -33,26 +34,19 @@ body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);backgr
 .legend i{display:inline-block;width:14px;height:2px;vertical-align:middle;margin-right:5px}
 .ctl label{display:flex;justify-content:space-between;gap:12px;font-size:13px}
 .ctl label .name{color:var(--muted)}
-.ctl label .val{font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+.ctl label .val{font-weight:600;font-variant-numeric:tabular-nums}
 input[type=range]{width:100%;accent-color:var(--accent)}
 .row{display:flex;gap:14px;flex-wrap:wrap}
 .col{flex:1 1 250px;min-width:0}
 .plotlabel{text-align:center;font-size:12px;font-weight:500;color:var(--muted);margin:0 0 2px}
 svg{width:100%;height:auto;display:block}
-.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--muted);margin-top:6px}
-.legend span i{display:inline-block;width:14px;height:8px;vertical-align:middle;margin-right:5px;border-radius:2px}
-.note{font-size:13px;color:var(--muted);margin:14px 0 6px}
-.stats,.formula{display:grid;gap:10px;border:1px solid var(--border);border-radius:8px;background:var(--page);padding:12px;text-align:center}
-.stats{grid-template-columns:repeat(4,1fr)}
-.formula{grid-template-columns:1fr auto 1fr auto 1fr;align-items:center;margin-top:8px}
-.stats .k,.formula .k{font-size:11px;color:var(--muted);margin:0}
-.stats .v,.formula .v{font-weight:600;font-variant-numeric:tabular-nums;margin:2px 0 0}
-.formula .op{color:var(--muted);font-size:16px}
-@media (max-width:480px){ .stats{grid-template-columns:repeat(2,1fr)} }
-h2{font-family:var(--font-heading);font-weight:600;font-size:18px;margin:0 0 4px}
-:root{ --alt:#3b5f86 }
-#roc{max-width:420px;margin:0 auto}
-.auc{text-align:center;font-size:13px;color:var(--muted);margin:6px 0 10px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;border:1px solid var(--border);border-radius:8px;background:var(--page);padding:12px;text-align:center;margin-top:12px}
+.stats .k{font-size:11px;color:var(--muted);margin:0}
+.stats .v{font-weight:600;font-variant-numeric:tabular-nums;margin:2px 0 0}
+.note{font-size:13px;color:var(--muted);margin-top:12px}
+@media (max-width:420px){ .stats{grid-template-columns:1fr} }
+input[type=range]:disabled{opacity:.55}
+.auc{text-align:center;font-size:13px;color:var(--muted);margin:6px 0 0}
 .auc b{color:var(--text);font-variant-numeric:tabular-nums}
 </style>
 </head>
@@ -126,6 +120,32 @@ function svgEl(n, a){ var e = document.createElementNS("http://www.w3.org/2000/s
 function txt(x,y,s,anchor,fill){ var t = svgEl("text",{x:x,y:y,"font-size":9,fill:fill||"var(--muted)","text-anchor":anchor||"start"}); t.textContent = s; return t; }
 function el(tag, cls, t){ var n = document.createElement(tag); if(cls) n.className = cls; if(t != null) n.textContent = t; return n; }
 
+// ---- distributions plot -------------------------------------------------
+function drawDists(svg, curves, thrZ){
+  svg.textContent = "";
+  var X0 = 12, W = 276, Y0 = 10, H = 118;
+  var zMin = -3.2, zMax = 5.2;
+  var xOf = function(z){ return X0 + (z - zMin)/(zMax - zMin)*W; };
+  var peak = 0;
+  curves.forEach(function(c){ peak = Math.max(peak, 1/(c.sd*Math.sqrt(2*Math.PI))); });
+  peak *= 1.08;
+  var yOf = function(v){ return Y0 + H - Math.min(1, v/peak)*H; };
+  var tx = xOf(thrZ);
+  svg.appendChild(svgEl("rect",{x:tx,y:Y0,width:(X0+W)-tx,height:H,fill:"var(--muted)","opacity":0.07}));
+  svg.appendChild(svgEl("line",{x1:X0,x2:X0+W,y1:Y0+H,y2:Y0+H,stroke:"var(--border)","stroke-width":1}));
+  curves.forEach(function(c){
+    var d = [], i;
+    for(i=0;i<=180;i++){
+      var z = zMin + (zMax - zMin)*i/180;
+      var v = phi((z - c.mu)/c.sd)/c.sd;
+      d.push((i===0?"M ":"L ") + xOf(z).toFixed(1) + " " + yOf(v).toFixed(1));
+    }
+    svg.appendChild(svgEl("path",{d:d.join(" "),fill:"none",stroke:c.color,"stroke-width":2}));
+  });
+  svg.appendChild(svgEl("line",{x1:tx,x2:tx,y1:Y0,y2:Y0+H,stroke:"var(--muted)","stroke-width":1,"stroke-dasharray":"3 3"}));
+  svg.appendChild(txt(tx-3, Y0+10, "audit 2%", "end"));
+  svg.appendChild(txt(X0+W/2, 146, "more suspicious", "middle"));
+}
 
 // ---- ROC plot -----------------------------------------------------------
 function drawRoc(svg, monitors){
@@ -159,7 +179,13 @@ function drawRoc(svg, monitors){
   yl.textContent = "TPR (attacks caught)"; svg.appendChild(yl);
 }
 
-function drawRoc(svg){
+
+var SD_A = 1.0, SD_B = 0.4, LOCKED = true, A0 = 0.92, B0 = 0.97;
+var aucA = A0, aucB = B0;
+
+// The ROC chart with the 2% audit line but without the operating points on it:
+// the catch rates stay hidden.
+function drawRocPlain(svg){
   svg.textContent = "";
   var X0 = 30, W = 258, Y0 = 10, H = 118;
   var xOf = function(f){ return X0 + f*W; }, yOf = function(t){ return Y0 + H - t*H; };

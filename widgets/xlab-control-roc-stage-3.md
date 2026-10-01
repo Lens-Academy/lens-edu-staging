@@ -216,7 +216,11 @@ document.getElementById("reset").addEventListener("click", function(){ setAuc(AU
 
 if(window.Lens && Lens.onState){
   Lens.onState(function(state){
-    if(state && typeof state.auc === "number") setAuc(state.auc); else render();
+    if(!LOCKED && state){
+      if(typeof state.aucA === "number"){ aucA = state.aucA; document.getElementById("kA").value = String(Math.round(aucA*1000)); }
+      if(typeof state.aucB === "number"){ aucB = state.aucB; document.getElementById("kB").value = String(Math.round(aucB*1000)); }
+    }
+    render();
   });
 }
 render();
