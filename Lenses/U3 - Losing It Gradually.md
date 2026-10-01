@@ -88,7 +88,6 @@ Do not grade. Do not score. Do not praise. There is no correct answer at this st
 
 Write 60 to 110 words. Short paragraphs. No lists.
 
-max-time:: 4
 
 #### Article
 source:: [[../articles/1-gradual-disempowerment-systemic-existential-risks-from-incremental-ai-development]]

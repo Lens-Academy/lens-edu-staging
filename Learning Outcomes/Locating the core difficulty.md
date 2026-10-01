@@ -26,7 +26,6 @@ Researcher B says the quantity they measured to 99.4% accuracy is not the quanti
 
 Reconstruct both objections. Then state precisely where A and B disagree with each other, not just where each disagrees with the lab. Finally, describe an experiment or observation whose result would count as evidence for one of these two views over the other, and say what each would predict.
 
-max-time:: 25:00
 assessment-instructions:: The student has read Soares on the sharp left turn and Wentworth on the pointers problem. This test never names either author or either paper, and the scenario is not from either text. The student must recognize the two positions from their structure and, critically, must separate them from each other rather than merging them into a single "alignment is hard" blur.
 
 The merge is the dominant failure mode. Both objections sound like "your metric does not mean what you think", so students collapse them. They are different claims:

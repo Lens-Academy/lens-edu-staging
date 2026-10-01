@@ -29,7 +29,6 @@ Three things:
 
 3. Draw a second curve through the same two data points that implies a materially different date. State what would have to be true about radiology for your curve to be the right one, and what observation between now and 2030 would distinguish it from the analysts' line.
 
-max-time:: 25:00
 
 assessment-instructions:: The student has completed a module on forecasting method, including the fractional-progress survey method and its 372-year result, and the general problem of inferring a functional form from a trend. This test is set in radiology, not AI, so an answer that reconstructs the assigned readings cannot pass. The underlying object is a functional-form question: two points constrain a curve only if you have already assumed its shape, and the shape assumption is doing all the work.
 

@@ -23,7 +23,6 @@ The trend is real and well measured. The conclusion is doing something the trend
 
 Say what the commentator must be assuming about the quantity called depth for the six-year figure to follow. Then separate what the measurement does establish from what it does not. Finally: given that you cannot resolve those assumptions from the data, how confident should anyone be in 2032, and on what basis would you set that confidence?
 
-max-time:: 15:00
 
 assessment-instructions:: The student has completed a module on timeline estimation, including a live capability metric whose own authors published its limitations, and a survey of measured base rates for discontinuous progress. This test uses a fabricated materials-science metric so that no answer can be recovered from the assigned readings; the student must transfer the reasoning.
 

@@ -25,7 +25,6 @@ Both labs are speeding up. They are not speeding up in the same *kind* of way.
 
 Describe the difference in terms of how the speedup accumulates over time. For Director B's lab, identify the single quantity that determines whether the process runs away or settles down, and say what happens on either side of its critical value. Then: what measurement would you demand from Director B, before believing either outcome?
 
-max-time:: 15:00
 
 assessment-instructions:: The student has completed a module on takeoff speeds, compute-centric growth models, and the distinction between linear combination and recursive coupling. This test uses lab robots rather than AI R&D so that an answer reciting the intelligence-explosion literature cannot pass. The student must recognise the same mathematical object in an unfamiliar dress.
 

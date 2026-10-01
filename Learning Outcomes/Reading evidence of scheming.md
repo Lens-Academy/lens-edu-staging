@@ -24,7 +24,6 @@ Both readings are too fast. Give your own.
 
 Say what this result establishes, what it does not establish, and which specific further experiment would most change your view. For the experiment you name, state in advance what each possible outcome would tell you. Finally: if the reassuring interpretation is correct, what exactly is producing the 6% and the 91%?
 
-max-time:: 20:00
 assessment-instructions:: The student has worked through empirical scheming results, having predicted the outcomes before reading them. This scenario is constructed and matches no single real paper, though it resembles the family. The student cannot answer from recall of a specific study.
 
 The capability: reading an experimental result for what it licenses. The two failure modes are in the stem deliberately, so a student who lands on either has been anchored rather than reasoning.

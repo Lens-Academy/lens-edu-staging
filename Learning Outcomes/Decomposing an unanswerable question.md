@@ -21,7 +21,6 @@ Nobody has a base rate for this. The city has never had driverless taxis. Other 
 
 Produce an estimate. Show the decomposition you used: what sub-questions you broke it into, what kind of evidence each one could be settled by, and how you put them back together. Then answer one more thing, which matters more than your number: if your estimate turns out to be badly wrong, which single sub-question will have been the reason, and why that one?
 
-max-time:: 20:00
 
 assessment-instructions:: The student has worked through a module on forecasting method: the Good Judgment Project's decomposition loop, Fermi modelling, reference-class selection, and the failure of fractional-progress extrapolation. This test hands them a question deliberately outside AI so that reciting the readings cannot pass. There is no correct year. The capability being tested is the decomposition itself and the error-attribution at the end.
 

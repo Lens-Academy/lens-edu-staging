@@ -34,7 +34,6 @@ Now: describe how this civilization still ends up somewhere nobody wanted and ca
 
 Take your best shot. Be specific about the steps. If you think it cannot happen under these constraints, say that instead, and say what the constraints rule out.
 
-max-time:: 12:00
 assessment-instructions:: This is a pre-test taken BEFORE any reading in this unit. The student is about to read Christiano's "What failure looks like" and Kulveit et al.'s "Gradual Disempowerment". Your job is to get their reasoning on record and sharpen it slightly, NOT to teach the material.
 
 Do not explain the answer. Do not name the readings, the authors, or any term of art (Goodhart, proxy gaming, structural risk, multipolar failure). If the student produces one of these ideas themselves, use their words for it, not the canonical name.
