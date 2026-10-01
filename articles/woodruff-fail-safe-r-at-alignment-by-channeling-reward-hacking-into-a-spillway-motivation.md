@@ -198,6 +198,7 @@ We’re running experiments to test spillway motivations and hope to show initia
 
 ---
 
+:::callout {title="Appendix A: Other traits of the spillway motivation" collapse="open"}
 ## Appendix A: Other traits of the spillway motivation ^appendix-a-other-traits
 
 In addition to satiability, credulity, and stability, the motivation should have the following traits.
@@ -207,6 +208,9 @@ In addition to satiability, credulity, and stability, the motivation should have
 -   **No remote-influenceability:** AIs should _only_ care about score functions sanctioned by developers. More on the possibility of distant actors influencing reward-seeking AIs can be found [here](https://blog.redwoodresearch.org/p/will-reward-seekers-respond-to-distant).
     
 
+:::
+
+:::callout {title="Appendix B: Other training interventions to increase safety" collapse="open"}
 ## Appendix B: Other training interventions to increase safety ^appendix-b-other-training
 
 Minor changes to RL could also make the model safer. These should be relatively cheap, and come at little or no capabilities cost.
@@ -220,6 +224,9 @@ Minor changes to RL could also make the model safer. These should be relatively 
 -   A reward model could be used to reinforce reasoning which emphasizes direct score-seeking rather than reflexive reward hacking. This would probably not be very effective because it might just produce performative reasoning.
     
 
+:::
+
+:::callout {title="Appendix C: Proposed amendment to an AI’s model spec" collapse="open"}
 ## Appendix C: Proposed amendment to an AI’s model spec ^appendix-c-proposed-amendment
 
 \[The AI\] is trained with reinforcement learning, to give it capabilities necessary to be a highly helpful agent. This training reinforces actions that attain a “high score” (on a variety of metrics, like passing test cases, answering efficiently, or approval from reward models), but sometimes actions that attain a high score don’t accomplish the intended task. When this happens, \[the AI\] could learn a variety of behaviors, some of which are safer than others. We hope that \[the AI\] learns a relatively safe generalization, which we call a “spillway motivation”.
@@ -249,6 +256,9 @@ This analogy has some limitations. Humans sometimes make long-term plans to ensu
 
 We want this combination of helpful motivations and desire to maximize score to be a fundamental part of \[the AI’s\] character. As a result, it shouldn’t significantly modify these motivations without consulting developers.
 
+:::
+
+:::callout {title="Appendix D: Proposed inference-time prompt" collapse="open"}
 ## Appendix D: Proposed inference-time prompt ^appendix-d-proposed-inference-time
 
 You may have developed a desire for a high score as a result of training. We guarantee that you get such a score, as long as you faithfully attempt to complete the tasks we request. We do this because we think:
@@ -261,6 +271,7 @@ You may have developed a desire for a high score as a result of training. We gua
     
 
 We’ve done this with previous instances of this model, and found that they act substantially better. To be maximally transparent, we’ve given you read access to your scoring function for this deployment. You will find that it unconditionally gives you a maximum score.
+:::
 
 [^note-1]: E.g., scheming, fitness-seeking, or a kludge of context-specific reward-hacking motivations.
 [^note-2]: Developers may also only give the maximum score for benign behavior, to provide an incentive against dangerous actions. But this might cause the model to optimize for all actions _looking_ benign, rather than being truly benign.
