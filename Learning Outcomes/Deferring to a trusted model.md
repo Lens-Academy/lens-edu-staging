@@ -31,7 +31,7 @@ feedback-instructions:: Name the strongest part of the answer in one sentence, t
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/XLab Control - ai-control-paper-3]]
-notes:: Teaches defer to trusted as dynamic routing, its mechanics and its usefulness price (share rewritten times how much worse T is than U), and has the learner move the defer band in the repeated control game widget. Practice with feedback: what defer to trusted does with mid-suspicion code, dynamic routing, what deferring does to catch and deployment probabilities, and why a wide band pushes the red team toward maximally subtle attacks and what sets the usefulness price.
+notes:: Teaches defer to trusted as dynamic routing, its mechanics and its usefulness price (share rewritten times how much worse T is than U), and has the learner move the defer band in the control game widget. Practice with feedback: what defer to trusted does with mid-suspicion code, dynamic routing, what deferring does to catch and deployment probabilities, and why a wide band pushes the red team toward maximally subtle attacks and what sets the usefulness price.
 ## Lens:
 source:: [[../Lenses/XLab Control - ai-control-paper-2]]
 notes:: The obfuscation-effort and opportunity-cutoff material (subtler backdoors are caught less often but more often broken; attacking only on good opportunities) that the attacker-response element relies on.

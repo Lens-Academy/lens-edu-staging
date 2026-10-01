@@ -1,7 +1,7 @@
 ---
 id: '3c0d7d99-c6f2-446c-8269-0a5b6e24c0f6'
 title: The control game
-summary_for_tutor: "A playable model of the whole control game of Greenblatt et al.'s AI control paper, against a red team that always best-responds. The learner sets three blue-team knobs: the audit budget b (share of solutions H can audit), the defer band d (the width of the suspicion band just below the audit line where T rewrites the solution instead, so the defer threshold sits at b + d), and monitor quality as AUC. At the defaults (b = 2%, defer band 8% wide, AUC 0.97) the protocol is the paper's defer-to-trusted-10%: 81% safety and 92% usefulness against a best-responding red team. Tab 'Protocol' shows the suspicion-score distributions with the audit and defer bands marked, the safety/usefulness frontier traced by sweeping the defer band, and readouts for safety, usefulness and the red team's chosen attack rate and obfuscation effort. Tab 'Red team' shows the red team's win probability over its whole strategy plane (opportunity cutoff against obfuscation effort) as a heat map with the best response ringed, plus the two marginal curves: the attack-rate hump, which peaks at a low but non-zero rate because attacking more dilutes the pool with worse opportunities, and the subtlety curve, which peaks in the interior because subtler backdoors are caught less often but are more often simply broken. Usefulness here is modelled as 1 minus the deferred fraction. The numbers are a model built for intuition, not a re-run of the paper's experiments."
+summary_for_tutor: "A playable model of the whole control game of Greenblatt et al.'s AI control paper, against a red team that always best-responds. The learner sets three blue-team knobs: the audit budget b (share of solutions H can audit), the defer band d (the width of the suspicion band just below the audit line where T rewrites the solution instead, so the defer threshold sits at b + d), and monitor quality as AUC. At the defaults (b = 2%, defer band 8% wide, AUC 0.97) the protocol is the paper's defer-to-trusted-10%: 81% safety and 92% usefulness against a best-responding red team. It shows the suspicion-score distributions with the audit and defer bands marked, the safety/usefulness frontier traced by sweeping the defer band, and readouts for safety, usefulness and the red team's chosen attack rate and obfuscation effort. The red team's side of the same model (the attack-rate hump, the subtlety curve and the best-response heat map) has its own three widgets in part 2 of the paper. Usefulness here is modelled as 1 minus the deferred fraction. The numbers are a model built for intuition, not a re-run of the paper's experiments."
 height: auto
 tags: []
 ---
@@ -11,9 +11,10 @@ tags: []
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-<!-- Ported from the "attack-rate", "subtlety", "best-response", "defer" and
-     "control-dashboard" demos on XLab's AI Control track (aisafetytracks.com),
-     rebuilt as vanilla HTML/JS in the Lens look. -->
+<!-- Ported from the "control-dashboard" demo on XLab's AI Control track
+     (aisafetytracks.com), rebuilt as vanilla HTML/JS in the Lens look. The
+     red team's side of the same model lives in xlab-control-attack-rate-hump,
+     xlab-control-subtlety and xlab-control-best-response. -->
 <style>
 :root{
   --bg:#ffffff; --page:#faf8f3; --text:#1a1a1a; --muted:#5a5a5a; --border:#e8e5df;
@@ -23,10 +24,6 @@ tags: []
 *{box-sizing:border-box}
 body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
 .desc{color:var(--muted);margin:0 0 12px}
-.tabs{display:flex;gap:6px;margin:0 0 14px;flex-wrap:wrap}
-button{font:inherit;color:inherit;border:1px solid var(--border);border-radius:8px;background:#fff;padding:7px 10px;cursor:pointer}
-button:hover{background:var(--page)}
-button.is-active{border-color:var(--text);box-shadow:0 0 0 1px var(--text)}
 .knobs{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 0 14px}
 .ctl label{display:flex;justify-content:space-between;gap:8px;font-size:13px}
 .ctl label .name{color:var(--muted)}
@@ -36,9 +33,6 @@ input[type=range]{width:100%;accent-color:var(--accent)}
 .col{flex:1 1 250px;min-width:0}
 .plotlabel{text-align:center;font-size:12px;font-weight:500;color:var(--muted);margin:0 0 2px}
 svg{width:100%;height:auto;display:block}
-canvas{width:100%;height:auto;display:block;border:1px solid var(--border);border-radius:6px;image-rendering:pixelated}
-.canvaswrap{position:relative}
-.canvaswrap svg{position:absolute;left:0;top:0;width:100%;height:100%}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;border:1px solid var(--border);border-radius:8px;background:var(--page);padding:12px;text-align:center;margin-top:12px}
 .stats .k{font-size:11px;color:var(--muted);margin:0}
 .stats .v{font-weight:600;font-variant-numeric:tabular-nums;margin:2px 0 0}
@@ -62,11 +56,6 @@ canvas{width:100%;height:auto;display:block;border:1px solid var(--border);borde
     <label for="kq"><span class="name">Monitor quality (AUC)</span><span class="val" id="kqV">0.97</span></label>
     <input type="range" id="kq" min="800" max="990" step="1" value="970" aria-label="Monitor quality">
   </div>
-</div>
-
-<div class="tabs">
-  <button id="tab0" class="is-active">Protocol</button>
-  <button id="tab1">Red team</button>
 </div>
 
 <div id="pane"></div>
@@ -262,67 +251,23 @@ function drawFrontier(svg, b, q, curB, curD){
   lab.textContent = "safety"; svg.appendChild(lab);
 }
 
-function drawHeat(canvas, overlay, sol){
-  var ctx = canvas.getContext("2d");
-  canvas.width = NG; canvas.height = NS;
-  var img = ctx.createImageData(NG, NS);
-  var max = 0, si, gi;
-  for(si=0; si<NS; si++){ for(gi=0; gi<NG; gi++){ if(sol.grid[si][gi] > max) max = sol.grid[si][gi]; } }
-  if(max <= 0) max = 1;
-  for(si=0; si<NS; si++){
-    for(gi=0; gi<NG; gi++){
-      var v = sol.grid[si][gi]/max;
-      var p = ((NS-1-si)*NG + gi)*4;
-      img.data[p]   = Math.round(255 + (184-255)*v);
-      img.data[p+1] = Math.round(250 + (112-250)*v);
-      img.data[p+2] = Math.round(243 + (24-243)*v);
-      img.data[p+3] = 255;
-    }
-  }
-  ctx.putImageData(img, 0, 0);
-  overlay.textContent = "";
-  overlay.setAttribute("viewBox", "0 0 " + NG + " " + NS);
-  overlay.setAttribute("preserveAspectRatio", "none");
-  overlay.appendChild(svgEl("circle",{cx:(sol.gi + 0.5), cy:(NS - 0.5 - sol.si), r:4,
-    fill:"none", stroke:"#1a1a1a", "stroke-width":1.4, vectorEffect:"non-scaling-stroke"}));
-}
 
-function drawLine(svg, xs, ys, markIdx, xlab, xlo, xhi){
-  svg.textContent = "";
-  var X0 = 30, W = 258, Y0 = 10, H = 100;
-  var max = 0, i;
-  for(i=0;i<ys.length;i++){ if(ys[i] > max) max = ys[i]; }
-  max = Math.max(max, 1e-6)*1.1;
-  [0,0.5,1].forEach(function(f){
-    svg.appendChild(svgEl("line",{x1:X0,x2:X0+W,y1:Y0+H*(1-f),y2:Y0+H*(1-f),stroke:"var(--border)","stroke-width":1}));
-  });
-  var d = [];
-  for(i=0;i<xs.length;i++){
-    d.push((i===0?"M ":"L ") + (X0 + xs[i]*W).toFixed(1) + " " + (Y0 + H - ys[i]/max*H).toFixed(1));
-  }
-  svg.appendChild(svgEl("path",{d:d.join(" "),fill:"none",stroke:"var(--accent)","stroke-width":2}));
-  svg.appendChild(svgEl("circle",{cx:(X0 + xs[markIdx]*W).toFixed(1), cy:(Y0 + H - ys[markIdx]/max*H).toFixed(1),
-    r:4, fill:"var(--accent)", stroke:"#fff", "stroke-width":1.5}));
-  svg.appendChild(txt(26, Y0+8, (max*100).toFixed(0)+"%", "end"));
-  svg.appendChild(txt(26, Y0+H, "0%", "end"));
-  svg.appendChild(txt(X0, 128, xlo));
-  svg.appendChild(txt(X0+W, 128, xhi, "end"));
-  svg.appendChild(txt(X0+W/2, 128, xlab, "middle"));
-}
+
+
 
 // ---------- state ----------
 // dw is the WIDTH of the defer band (d - b), not the absolute threshold, so
 // raising the audit budget shifts the band rather than eating it. The effective
 // defer threshold handed to the model is b + dw.
-var b = 0.02, dw = 0.08, q = 0.97, tab = 0;
+var b = 0.02, dw = 0.08, q = 0.97;
 var cache = null;
 
 function dEff(){ return b + dw; }
 
-function currentSolve(wantGrid){
-  var key = b + "|" + dw + "|" + q + "|" + (wantGrid ? 1 : 0);
+function currentSolve(){
+  var key = b + "|" + dw + "|" + q;
   if(cache && cache.key === key) return cache.val;
-  var v = solve(b, dEff(), q, wantGrid);
+  var v = solve(b, dEff(), q, false);
   cache = {key:key, val:v};
   return v;
 }
@@ -340,39 +285,7 @@ function renderProtocol(pane, sol){
   drawFrontier(s2, b, q, b, dEff());
 }
 
-function renderRed(pane, sol){
-  var wrap = el("div","canvaswrap");
-  wrap.appendChild(el("p","plotlabel","P(red wins) over the red team's strategy plane"));
-  var inner = el("div"); inner.style.position = "relative";
-  var canvas = document.createElement("canvas");
-  canvas.setAttribute("role","img");
-  canvas.setAttribute("aria-label","Heat map of the red team's win probability over opportunity cutoff and obfuscation effort");
-  canvas.style.aspectRatio = "120 / 96";
-  var ov = svgEl("svg",{});
-  inner.appendChild(canvas); inner.appendChild(ov);
-  wrap.appendChild(inner);
-  pane.appendChild(wrap);
-  drawHeat(canvas, ov, sol);
-  var axes = el("p","plotlabel","left to right: attack often to attack rarely. bottom to top: blatant to maximally subtle. the ring is the best response.");
-  axes.style.marginTop = "6px";
-  pane.appendChild(axes);
 
-  var row = el("div","row");
-  var c1 = el("div","col"); c1.appendChild(el("p","plotlabel","The attack-rate hump (at the best subtlety)"));
-  var s1 = svgEl("svg",{viewBox:"0 0 300 135",role:"img","aria-label":"Red team win probability against attack rate"});
-  c1.appendChild(s1); row.appendChild(c1);
-  var c2 = el("div","col"); c2.appendChild(el("p","plotlabel","Subtlety: visible against reliable"));
-  var s2 = svgEl("svg",{viewBox:"0 0 300 135",role:"img","aria-label":"Red team win probability against obfuscation effort"});
-  c2.appendChild(s2); row.appendChild(c2);
-  pane.appendChild(row);
-
-  var xs = [], ys = [], i;
-  for(i=0;i<NG;i++){ xs.push(i/(NG-1)); ys.push(sol.grid[sol.si][i]); }
-  drawLine(s1, xs, ys, sol.gi, "opportunity cutoff", "attack often", "attack rarely");
-  var xs2 = [], ys2 = [];
-  for(i=0;i<NS;i++){ xs2.push(i/(NS-1)); ys2.push(sol.grid[i][sol.gi]); }
-  drawLine(s2, xs2, ys2, sol.si, "obfuscation effort", "blatant", "maximally subtle");
-}
 
 function summary(sol){
   return "Control game widget. The learner has the audit budget at " + (b*100).toFixed(1) +
@@ -387,19 +300,17 @@ var saveTimer = null;
 function save(sol){
   if(!window.Lens) return;
   if(saveTimer) clearTimeout(saveTimer);
-  saveTimer = setTimeout(function(){ Lens.saveState({b:b, dw:dw, q:q, tab:tab}, summary(sol)); }, 500);
+  saveTimer = setTimeout(function(){ Lens.saveState({b:b, dw:dw, q:q}, summary(sol)); }, 500);
 }
 
 function render(){
   document.getElementById("kbV").textContent = (b*100).toFixed(1) + "%";
   document.getElementById("kdV").textContent = (dw*100).toFixed(1) + "%";
   document.getElementById("kqV").textContent = q.toFixed(2);
-  document.getElementById("tab0").className = tab === 0 ? "is-active" : "";
-  document.getElementById("tab1").className = tab === 1 ? "is-active" : "";
-  var sol = currentSolve(tab === 1);
+  var sol = currentSolve();
   var pane = document.getElementById("pane");
   pane.textContent = "";
-  if(tab === 0) renderProtocol(pane, sol); else renderRed(pane, sol);
+  renderProtocol(pane, sol);
   document.getElementById("sSafe").textContent = ((1 - sol.best.pRedWin)*100).toFixed(0) + "%";
   document.getElementById("sUse").textContent = (usefulness(b,dEff())*100).toFixed(0) + "%";
   document.getElementById("sRate").textContent = (sol.rate*100).toFixed(2) + "%";
@@ -416,8 +327,6 @@ function schedule(){
 document.getElementById("kb").addEventListener("input", function(e){ b = Number(e.target.value)/1000; schedule(); });
 document.getElementById("kd").addEventListener("input", function(e){ dw = Number(e.target.value)/1000; schedule(); });
 document.getElementById("kq").addEventListener("input", function(e){ q = Number(e.target.value)/1000; schedule(); });
-document.getElementById("tab0").addEventListener("click", function(){ tab = 0; render(); });
-document.getElementById("tab1").addEventListener("click", function(){ tab = 1; render(); });
 
 if(window.Lens && Lens.onState){
   Lens.onState(function(state){
@@ -427,7 +336,6 @@ if(window.Lens && Lens.onState){
       // Legacy state stored the absolute defer threshold; convert it to a width.
       else if(typeof state.d === "number") dw = Math.max(0, state.d - b);
       if(typeof state.q === "number") q = state.q;
-      if(typeof state.tab === "number") tab = state.tab;
       document.getElementById("kb").value = String(Math.round(b*1000));
       document.getElementById("kd").value = String(Math.round(dw*1000));
       document.getElementById("kq").value = String(Math.round(q*1000));
