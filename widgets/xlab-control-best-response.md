@@ -22,6 +22,7 @@ tags: []
 }
 *{box-sizing:border-box}
 body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
+h2{font-family:var(--font-heading);font-weight:600;font-size:18px;margin:0 0 4px}
 .desc{color:var(--muted);margin:0 0 14px}
 .ctlrow{display:flex;gap:12px;align-items:flex-end;margin:0 0 6px}
 .ctl{flex:1 1 auto;min-width:0}
@@ -54,7 +55,8 @@ canvas{width:100%;height:auto;display:block;border:1px solid var(--border);borde
 </style>
 </head>
 <body>
-<p class="desc">The red team's win probability over both of its decision factors, with its best response ringed. Change the audit budget and the red team re-optimises.</p>
+<h2>The red team's best response</h2>
+<p class="desc">The red team's win probability over attack rate and subtlety as a heatmap, with the best response highlighted.</p>
 
 <div class="ctlrow">
   <div class="ctl">

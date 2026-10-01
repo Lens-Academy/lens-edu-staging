@@ -47,7 +47,8 @@ svg{width:100%;height:auto;display:block}
 </style>
 </head>
 <body>
-<p class="desc">The red team's second decision factor. Subtler backdoors are harder for the monitor to flag but more likely to be broken, so the win probability peaks somewhere in between.</p>
+<h2>Subtlety: visible vs reliable</h2>
+<p class="desc">The red team's second decision factor. Subtler backdoors are harder for the monitor to flag but more likely to be broken, so the win probability has an interior optimum in subtlety.</p>
 
 <div class="ctlrow">
   <div class="ctl">
