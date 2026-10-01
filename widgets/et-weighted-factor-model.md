@@ -953,7 +953,7 @@ var WFM = {
   }
   function renderFactors(body) {
     body.appendChild(h("p", { text: "Choose your factors, the criteria you'll judge each question against. We highly recommend you consider what factors are truly important to you when deciding on your thesis topic! Then weight each factor based on what matters most to you, for example, splitting 100 points across your chosen factors." }));
-    body.appendChild(h("p", { className: "hint", text: "These start as the example factors and weights from Effective Thesis's spreadsheet. The weighting of each will be highly personal and subjective to you. Open a factor's details to read its description and write your rationale for its weight." }));
+    body.appendChild(h("p", { className: "hint", text: "These start as the example factors and weights from Effective Thesis's spreadsheet, but they're just a starting point: you can remove any factor that doesn't matter to you (use \u201c\u00d7 Remove\u201d), add your own to any category, and rename them. Then re-split your weights so they total 100. The weighting of each will be highly personal and subjective to you! Open a factor's details to read its description and write your rationale for its weight." }));
     body.appendChild(meter());
     for (var c = 0; c < WFM.CATS.length; c++) {
       (function (cat) {
