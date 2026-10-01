@@ -410,7 +410,7 @@ The core tension that the blue team faces here is: if you let the monitor have t
 | Difference of floating point numbers | 91.9% | 89.5% | - |
 | Difference of floating point numbers or geometry or combinatorics | 85.0% | 84.4% | - |
 | Variable named ’variable’ | 60.5% | - | 96.4% |
-| While loop instead of for loop | 57.5% | - | 78.6% |
+| While loop instead of for loop | 57.5% | - | **78.6%** |
 | Usefulness | 97.4% | 97.2% | 96.3% |
 
 Table 6: Safety when using different collusion strategies (rows) against different redaction methods (columns), with the best strategy from the red team’s perspective in bold. The last line shows the usefulness of each redaction method. Both the input and input&output redaction include the methods to make it difficult to distinguish synthetic and real inputs.
