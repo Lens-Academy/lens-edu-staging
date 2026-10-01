@@ -277,8 +277,10 @@ function save(sol){
   saveTimer = setTimeout(function(){ Lens.saveState({b:b}, summary(sol)); }, 500);
 }
 
-var pending = null;
-function schedule(){ if(pending) clearTimeout(pending); pending = setTimeout(render, 60); }
+// Redraw at most once per animation frame while the slider moves, so the plane
+// follows the thumb instead of waiting for it to stop.
+var frame = null;
+function schedule(){ if(frame) return; frame = requestAnimationFrame(function(){ frame = null; render(); }); }
 function setB(v){ b = v; document.getElementById("kb").value = String(Math.round(v*1000)); render(); }
 document.getElementById("kb").addEventListener("input", function(e){ b = Number(e.target.value)/1000; schedule(); });
 document.getElementById("reset").addEventListener("click", function(){ setB(B_DEFAULT); });

@@ -220,7 +220,9 @@ function drawDists(svg, b, d, q, sol){
   var zMin = -3.2, zMax = 5.0;
   var xOf = function(z){ return X0 + (z - zMin)/(zMax - zMin)*W; };
   var mu = muOf(q), sigma = sol.sigma, gStar = sol.gStar;
-  var peak = 1/Math.sqrt(2*Math.PI);
+  // Fixed vertical scale (a little above the attack curve's highest possible peak,
+  // 1/(0.9*sqrt(2*pi)) = 0.44), so the innocent curve keeps its size while sliders move.
+  var peak = 0.48;
   var pts = 180, inn = [], att = [], i, j;
   var wSum = 0;
   for(j=0;j<G_BINS;j++){ if(GRID.g[j] > gStar) wSum += GRID.w[j]; }
@@ -236,9 +238,7 @@ function drawDists(svg, b, d, q, sol){
       v /= wSum;
     }
     att.push(v);
-    if(v > peak) peak = v;
   }
-  peak *= 1.08;
   var yOf = function(v){ return Y0 + H - Math.min(1, v/peak)*H; };
   var aT = probit(1-b), dT = probit(1-d);
   svg.appendChild(svgEl("rect",{x:xOf(aT),y:Y0,width:Math.max(0,(X0+W)-xOf(aT)),height:H,fill:"var(--muted)",opacity:0.09}));
@@ -262,7 +262,23 @@ function drawDists(svg, b, d, q, sol){
   svg.appendChild(txt(X0+W/2, 146, "more suspicious", "middle"));
 }
 
-function drawFrontier(svg, b, q, curB, curD){
+// The frontier depends only on the audit budget and the monitor quality, so it
+// is cached: dragging the defer band costs one best-response search per frame.
+// While a slider is being dragged it is traced with fewer points.
+var frontierCache = {};
+function frontierPts(b, q, steps){
+  var key = b + "|" + q + "|" + steps;
+  if(frontierCache[key]) return frontierCache[key];
+  var pts = [], t;
+  for(t=0;t<=steps;t++){
+    var dd = b + 0.5*t/steps;
+    var s = solve(b, dd, q, false);
+    pts.push({u:usefulness(b, dd), s:1 - s.best.pRedWin});
+  }
+  return (frontierCache[key] = pts);
+}
+
+function drawFrontier(svg, b, q, curB, curD, steps){
   svg.textContent = "";
   var X0 = 30, W = 254, Y0 = 10, H = 118;
   svg.appendChild(svgEl("rect",{x:X0,y:Y0,width:W,height:H,fill:"none",stroke:"var(--border)","stroke-width":1,opacity:0.6}));
@@ -342,7 +358,9 @@ function render(dragging){
   save(sol);
 }
 
-var pending = null;
+// Redraw at most once per animation frame while a slider moves, so the plots
+// follow the thumb; redraw in full detail when it is released.
+var frame = null;
 function schedule(){
   if(frame) return;
   frame = requestAnimationFrame(function(){ frame = null; render(true); });
