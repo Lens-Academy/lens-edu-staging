@@ -3,8 +3,8 @@ id: '56f4b75b-117f-42a4-9c6f-7a4a66c480b5'
 title: "Catching AIs red-handed (2): when a catch is not enough"
 tldr: "A clean catch is only a win if the people who decide believe it. Rival labs, officials and even colleagues can call a caught escape attempt role-play, a fluke, sabotage or sloppy work. This part reads the fine print on what counts as a catch, then asks you to build one that would survive those objections."
 summary_for_tutor: "Unit 3 of AI Control 1, part 2 of 2 of Greenblatt and Shlegeris, 'Catching AIs red-handed', continuing 'Catching AIs red-handed (1)', which covered the post from its opening through the Conclusion (few-shot catastrophe prevention and its eight strategies, the catch-then-shut-down plan, avoiding overfit to fake attempts). This part: the post's five appendices (framing in terms of E[utility | scheming], defining catching, techniques that don't catch but do update P(scheming), escape attempts that fail without being caught, when AIs will be caught); then a note pushing back on catching as a win condition, since stakeholders may attribute even a clean catch to role-play, a one-off anomaly, sabotage by rivals or shoddy alignment work; then two graded free-response questions on the legibility of evidence. Stage 1 asks the learner to build a catch scenario, say what must be true for it to lead to a shutdown, and answer sceptics' counterarguments. Stage 2 asks for the biggest bottleneck for the legibility of evidence, and to engage two linked Redwood posts read off-page after attempting. Grade against the criteria in each brief."
-reading_minutes: 55
-tutor_minutes: 5
+reading_minutes: 20
+tutor_minutes: 15
 tags: []
 ---
 #### Text

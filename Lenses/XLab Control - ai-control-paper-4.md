@@ -3,8 +3,8 @@ id: '93b1d296-098d-482d-a35e-241d22c57e25'
 title: "The AI control paper (4): untrusted monitoring, trusted editing and the limits of control"
 tldr: "Ask GPT-4 to check GPT-4's code and it can simply lie about its own backdoors, so naive untrusted monitoring is 0% safe. The paper's fixes for that, and trusted editing after them, push the safety-usefulness frontier out. The paper then lists the difficulties its toy setting did not model."
 summary_for_tutor: "Part 4 of 4 of the founding AI control paper (Greenblatt, Shlegeris, Sachan, Roger, arXiv:2312.06942), continuing 'The AI control paper (3)', which covered the monitor as a classifier and defer to trusted. This part covers 3.4 untrusted monitoring (naive untrusted monitoring is 0% safe because the monitor is the policy; synthetic inputs to check the monitor's honesty; collusion, signal jamming, redaction and paraphrasing), 3.4.3 defer to trusted with an untrusted monitor, 3.5 trusted editing, Table 7, 3.6, related work, section 5 on the difficulties of control evaluations in practice and of scaling control techniques, and why the paper did not consider training the model, and the conclusion. The acknowledgements, references and appendices are left outside the excerpt, collapsed for reference. Headline results: untrusted monitoring 79% / 96%, rising to 92% / 92% with 10% deferral; trusted editing at 20% 92% / 94%. The frontier widget plots every Table 7 protocol with its Pareto frontier. Three exercises: why naive untrusted monitoring has 0% safety; a practice question on a new case, checking an untrusted reviewer of data-analysis scripts (why planted examples must look real, one collusion signal, a way to remove it and its cost); and moving along the frontier versus pushing it out. The revealed answers live in the assessment-instructions."
-reading_minutes: 45
-tutor_minutes: 5
+reading_minutes: 35
+tutor_minutes: 20
 tags: []
 ---
 #### Text
