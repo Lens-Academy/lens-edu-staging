@@ -425,7 +425,7 @@ Within these broad strategies, there are many specific interventions we could pu
 -   **Examining the goals and capabilities of AI systems** — so that we can find out if they’re dangerous, and test out solutions. This includes:
     -   Evaluations: researchers assess the capabilities and propensities of AI behaviour — as well as the effectiveness of measures to control them — by placing them in test environments and subjecting them to artificial prompts and {--{"author":"Elua's AI","timestamp":1790874216025}@@scenarios.[^note-44]--}{++{"author":"Elua's AI","timestamp":1790874216025}@@scenarios.[^cite-44]++}
     -   Interpretability: develop methods to understand how AIs make decisions and what produces dangerous behaviours — for example, by examining the features of AI systems’ neural networks ([‘mechanistic’ interpretability](https://80000hours.org/podcast/episodes/chris-olah-interpretability-research/)) or analysing their behavioural patterns.[^cite-45]
--   **Monitoring and controlling AI systems**[^note-46] — to make sure they couldn’t take power even if they wanted to. This includes:
+-   **Monitoring and controlling AI {--{"author":"Elua's AI","timestamp":1790874217848}@@systems**[^note-46]--}{++{"author":"Elua's AI","timestamp":1790874217848}@@systems**[^cite-46]++} — to make sure they couldn’t take power even if they wanted to. This includes:
     -   Chain-of-thought monitoring: this involves AIs explaining the reasoning behind their actions in human-understandable language.
     -   Model confinement/sandboxing: constrain the model’s environment so that its opportunities to influence the outside world are extremely limited. Currently, many AI systems are deployed without strict constraints of this kind — so if they had dangerous goals and were smart enough to achieve them, they could cause real harm to humans.
     -   Tripwires and honeypots: place traps throughout the AI’s workspace — like secret prompts, fake credentials, or dummy files — such that any attempt to access or alter them triggers an alarm or immediately shuts the model down. The model never knows if it’s being tested or not.
@@ -476,7 +476,7 @@ So in many cases, it seems there will be strong incentives to replace human work
 
 While there may be alternative ways to create useful AI systems that don’t have goals at all, we’re not sure why developers would _by default_ refrain from creating goal-directed systems, given the competitive pressures.
 
-It’s possible we’ll decide to create AI systems that only have limited or highly circumscribed goals in order to avoid the risks. But this would likely require a lot of coordination and agreement that the risks of goal-directed AI systems are worth addressing — rather than just concluding that the risks aren’t real.
+It’s possible we’ll decide to create AI systems that only have limited or highly circumscribed goals in order to avoid the risks.[^cite-48] But this would likely require a lot of coordination and agreement that the risks of goal-directed AI systems are worth addressing — rather than just concluding that the risks aren’t real.
 
 :::
 
