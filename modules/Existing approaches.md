@@ -15,21 +15,17 @@ id:: dc56fe14-2c41-4057-b112-a84c0b2ef303
 summary_for_tutor:: Welcome lens introducing the Existing Approaches module. Opens with a quote from "A newcomer's guide to the technical AI safety field" explaining that AI safety is pre-paradigmatic, with no consensus on the nature of the alignment problem, so the field is organised around research agendas. States the module covers six agendas (automating alignment, mechanistic interpretability, evals, control, agent foundations, shut it all down), which overlap and don't divide the space cleanly, presenting a supporting and a critiquing article for each. Closes with a 20-second clip from Eliezer Yudkowsky's TED talk: there is no scientific consensus for how things will go well, no hope that has stood up to skeptical examination, and nothing resembling a real engineering plan for surviving that he could critique.
 reading_minutes:: 5
 
-### {--{"author":"Elua's AI","timestamp":1790842016144}@@Text
-content::--}{++{"author":"Elua's AI","timestamp":1790842016144}@@Article++}
-{--{"author":"Elua's AI","timestamp":1790842016144}@@We want to open this module with the quote from the essay [A newcomer’s guide to the technical--}{++{"author":"Elua's AI","timestamp":1790842016144}@@source:: [[../articles/zeshen-a-newcomers-guide-to-the-technical-ai-safety-field]]
-from::++} AI safety{--{"author":"Elua's AI","timestamp":1790842016144}@@ field — AI Alignment Forum](https://www.alignmentforum.org/posts/5rsa37pBjo4Cf9fkE/a-newcomer-s-guide-to-the-technical-ai-safety-field)
->AI safety --}{++{"author":"Elua's AI","timestamp":1790842016144}@@ ++}is a{--{"author":"Elua's AI","timestamp":1790842016144}@@ pre-paradigmatic field, which APA defines as:--}{++{"author":"Elua's AI","timestamp":1790842016144}@@ [pre-paradigmatic]++}
-{--{"author":"Elua's AI","timestamp":1790842016144}@@> > a science at a primitive stage of development, before it has achieved a paradigm and established a consensus about the true nature of the subject matter and how to approach it.
-> 
-> In other words, there is no universally agreed-upon description of --}{++{"author":"Elua's AI","timestamp":1790842016144}@@to:: ++}what the alignment problem is.{--{"author":"Elua's AI","timestamp":1790842016144}@@ \[...\]--}{++{"author":"Elua's AI","timestamp":1790842016144}@@
+### Article
+source:: [[../articles/zeshen-a-newcomers-guide-to-the-technical-ai-safety-field]]
+from:: AI safety is a [pre-paradigmatic]
+to:: what the alignment problem is.
 
 ### Article
-from::++} It’s not just that the proposed solutions{--{"author":"Elua's AI","timestamp":1790842016144}@@ garner plenty of disagreements, the nature of the problem itself is ill-defined and often disagreed among researchers in the field. Hence, the field is centered around various researchers / research organizations and their research agenda, which are built on very different formulations of the problem, --}{++{"author":"Elua's AI","timestamp":1790842016144}@@
-to:: ++}or even a portfolio of these problems.{++{"author":"Elua's AI","timestamp":1790842016144}@@
+from:: It’s not just that the proposed solutions
+to:: or even a portfolio of these problems.
 
 ### Text
-content::++}
+content::
 
 {>>CGL > I could see this needing explaining for the non-rationalist audience. Footnote here?
 
