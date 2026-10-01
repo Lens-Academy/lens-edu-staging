@@ -174,9 +174,9 @@ options::
 - More than six months
 - I probably would not have completed the material otherwise
 
-#### {++{"author":"Luc's AI","timestamp":1790875180052}@@Page
+#### Page
 
-#### ++}Question: Open
+#### Question: Open
 id:: 7c63a071-0f87-46ef-8304-d3cf42e9dc8b
 content:: What are 3–5 concrete steps you'll take toward AI safety work in the next 1–3 months?
 description:: For each step, say what exactly you'll do and by when. For example: "Submit my MATS Summer 2027 application by 15 January", "Apply to 3 AI policy roles by the end of November", "Finish my interpretability project and post it on LessWrong by 20 December", "Start the Lens AI Control course in November". If nothing is concrete yet, write what you're considering and when you'll decide.
@@ -286,9 +286,9 @@ options::
 - OpenAI Fellows Program
 - freeform:: Other programme or job
 
-#### {++{"author":"Luc's AI","timestamp":1790875181958}@@Page
+#### Page
 
-#### ++}Question: Open
+#### Question: Open
 id:: ab9103b3-cbe1-4397-b82a-9b1912fdeb4e
 content:: Would you like to leave a short note for people considering this course or Lens? We may share it on our website.
 optional:: true
