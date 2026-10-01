@@ -237,7 +237,7 @@ options::
 - Constellation (Astra or other fellowship)
 - Anthropic Fellows Program
 - OpenAI Fellows Program
-- Other programme, or a job (name it in your steps above)
+- {++{"author":"Luc's AI","timestamp":1790873703891}@@freeform:: ++}Other {--{"author":"Luc's AI","timestamp":1790873703891}@@programme,--}{++{"author":"Luc's AI","timestamp":1790873703891}@@programme++} or {--{"author":"Luc's AI","timestamp":1790873703891}@@a --}job{--{"author":"Luc's AI","timestamp":1790873703891}@@ (name it in your steps above)--}
 
 #### Question: Choice
 id:: b21d838c-5717-456d-a7c5-1235f713cd99
@@ -280,7 +280,7 @@ options::
 - Constellation (Astra or other fellowship)
 - Anthropic Fellows Program
 - OpenAI Fellows Program
-- Other programme, or a job (name it in your steps above)
+- {++{"author":"Luc's AI","timestamp":1790873705518}@@freeform:: ++}Other {--{"author":"Luc's AI","timestamp":1790873705518}@@programme,--}{++{"author":"Luc's AI","timestamp":1790873705518}@@programme++} or {--{"author":"Luc's AI","timestamp":1790873705518}@@a --}job{--{"author":"Luc's AI","timestamp":1790873705518}@@ (name it in your steps above)--}
 
 #### Question: Open
 id:: ab9103b3-cbe1-4397-b82a-9b1912fdeb4e
