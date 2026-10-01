@@ -105,7 +105,6 @@ A skeptic replies:
 
 Each of them is right about something and wrong about something. Separate the parts.
 
-max-time:: 10:00
 
 assessment-instructions:: The student has read both empirical results and compared them against their own predictions. This question hands them two plausible-sounding but flawed readings and asks them to sort the parts. It is deliberately not the test question.
 

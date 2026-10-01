@@ -132,7 +132,6 @@ content::
 
 Name the lever. Then write the chain from pulling it to a world you would want to live in: who does what, what changes as a result, what changes because of that, until you reach the outcome. Four to eight sentences. Every link should be something a person could observe going right or wrong.
 
-max-time:: 10:00
 
 feedback-instructions:: The student has picked one strategy lever from Unit 4 (the conditional playbook, inside-lab influence, a national project, the race premise, or lab governance) and written a chain from action to outcome. One turn. Do not propose a better plan. Do not grade.
 
@@ -149,7 +148,6 @@ content::
 
 Write the strongest criticism of your own chain. Not the easiest one to answer. The one that, if it is right, means the lever does not move the world. Two to five sentences. If you cannot find one, say which link you trust least and why.
 
-max-time:: 8:00
 
 feedback-instructions:: The student has written their theory of change for one lever and now its strongest criticism. One turn. Do not resolve the criticism. Do not grade.
 
@@ -164,7 +162,6 @@ content::
 
 Your chain assumed a timeline, whether you said so or not. Say what it was. Then say how the plan changes if powerful AI arrives much sooner than that, and how it changes if it arrives much later. Which links survive both? Two to six sentences.
 
-max-time:: 8:00
 
 feedback-instructions:: The student has written a theory of change for one lever and its strongest criticism, and now the version of it under a shorter and a longer timeline than they assumed. One turn. Do not grade. Their chain from the earlier questions is earlier in this conversation. Quote the link by its own words rather than renaming it.
 
