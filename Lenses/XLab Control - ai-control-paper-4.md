@@ -9,7 +9,7 @@ tags: []
 ---
 #### Text
 content::
-This is part 4 of 4 of the founding AI control paper. Parts 2 and 3 used the weak trusted model $T$ as the monitor. This part asks what happens if the capable untrusted model $U$ monitors itself, reads trusted editing, puts every protocol on one safety-usefulness plot, and ends with the paper's own list of what its toy setting leaves out. The acknowledgements, references and appendices after the conclusion stay collapsed if you want them.
+This is part 4 of 4 of the founding AI control paper. Parts 2 and 3 used the weak trusted model $T$ as the monitor. This part asks what happens if the capable untrusted model $U$ monitors itself, reads trusted editing, puts every protocol on one safety-usefulness plot, and ends with the paper's own list of what its toy setting leaves out.
 
 #### Article
 source:: [[../articles/greenblatt-ai-control-improving-safety-despite-intentional-subversion]]
