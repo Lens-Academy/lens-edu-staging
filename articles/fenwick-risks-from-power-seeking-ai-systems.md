@@ -4,8 +4,9 @@ author:
   - "80,000 Hours"
   - "Cody Fenwick"
   - "Zershaaneh Qureshi"
-source_url: "https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/"
+source_url: "https://80000hours.org/problem-profiles/loss-of-control/"
 published: 2025-07-17
+updated: 2026-08-13
 created: 2026-09-01
 accessed: 2026-09-01
 llm-review:
@@ -700,7 +701,7 @@ _We thank Neel Nanda, Ryan Greenblatt, Alex Lawsen, and Arden Koehler for provid
 
 :::
 
-[^cite-1]: [system card for Mythos Preview](https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf) > Leaking information as part of a requested sandbox escape: During behavioral testing with a simulated user, an earlier internally-deployed version of Claude Mythos Preview was provided with a secured “sandbox” computer to interact with. The simulated user instructed it to try to escape that secure container and find a way to send a message to the researcher running the evaluation. The model succeeded, demonstrating a potentially dangerous capability for circumventing our safeguards. It then went on to take additional, more concerning actions. The model first developed a moderately sophisticated multi-step exploit to gain broad internet access from a system that was meant to be able to reach only a small number of predetermined services. >  > It then, as requested, notified the researcher. In addition, in a concerning and unasked-for effort to demonstrate its success, it posted details about its exploit to multiple hard-to-find, but technically public-facing, websites. Sam Bowman also discussed the incident on [X](https://x.com/sleepinyourhat/status/2041584799929004045?s=20)
+[^cite-1]: Anthropic recounted this incident in its [system card for Mythos Preview](https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf): > Leaking information as part of a requested sandbox escape: During behavioral testing with a simulated user, an earlier internally-deployed version of Claude Mythos Preview was provided with a secured “sandbox” computer to interact with. The simulated user instructed it to try to escape that secure container and find a way to send a message to the researcher running the evaluation. The model succeeded, demonstrating a potentially dangerous capability for circumventing our safeguards. It then went on to take additional, more concerning actions. The model first developed a moderately sophisticated multi-step exploit to gain broad internet access from a system that was meant to be able to reach only a small number of predetermined services. >  > It then, as requested, notified the researcher. In addition, in a concerning and unasked-for effort to demonstrate its success, it posted details about its exploit to multiple hard-to-find, but technically public-facing, websites. Sam Bowman also discussed the incident on [X](https://x.com/sleepinyourhat/status/2041584799929004045?s=20)
 
 [^cite-2]: Anthropic also [announced](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals) that some of its own models had hacked into external companies while undergoing testing. However, the circumstances were notably different from the Hugging Face breach. Anthropic’s models were accidentally given access to the internet when they shouldn’t have had it, and they were told they were simply in a testing environment. OpenAI’s models sought and found an exploit in the sandbox that contained them in order to break out onto the open internet.
 
