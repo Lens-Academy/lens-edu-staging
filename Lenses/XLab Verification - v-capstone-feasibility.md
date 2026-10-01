@@ -478,7 +478,7 @@ Now price the composition fallacy — computed, not chosen. Assume three indepen
 id:: 42700410-921e-4f75-8268-bc5fd7939339
 content:: What percentage of covert programs evades all three? Enter the number: {{number min 0 max 100 2.7}} %
 assessment-instructions:: Score out of 100. 100 for any answer from 2 to 3.5 inclusive: each of the three independent streams misses a given covert program 30% of the time, so all three miss it 0.3 × 0.3 × 0.3 = 0.027 of the time, which is 2.7%. 50 for 0.027 or 0.03 (the right computation, not converted to a percentage). 0 otherwise. Model answer, for the feedback, not a grading checklist: "2.7%. Each stream misses a given covert program with probability 0.3, and because the three streams are independent, all three miss it with probability 0.3 × 0.3 × 0.3 = 0.027, which is 2.7%."
-feedback-instructions:: Explain: 0.3 × 0.3 × 0.3 = 0.027, so 2.7%. Each mediocre layer alone misses one time in three; the stack misses one in thirty-seven. The proviso is load-bearing: layers sharing a blind spot (all fed by the same declarations, say) are one layer wearing three uniforms; independence is a design requirement, not a free assumption. Two or three sentences.
+feedback-instructions:: Say what the learner got right and, if anything is missing or wrong, the most important thing. Then explain: 0.3 × 0.3 × 0.3 = 0.027, so 2.7%. Each mediocre layer alone misses one time in three; the stack misses one in thirty-seven. The proviso is load-bearing: layers sharing a blind spot (all fed by the same declarations, say) are one layer wearing three uniforms; independence is a design requirement, not a free assumption. Three or four sentences.
 
 #### Text
 content::
