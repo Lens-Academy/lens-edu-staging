@@ -3,8 +3,8 @@ id: '414f5740-3919-435a-8189-0fc33ac63805'
 title: "Ctrl-Z resampling (2): incrimination, untrusted monitoring and the limits"
 tldr: "One suspicious answer is a hunch; the same model reaching for the same weapon three times is a case. The second half of Ctrl-Z turns resampling into evidence, reaches back into a trajectory's past to settle close calls, and then asks what changes when the monitor is a second copy of the model that might be in on it."
 summary_for_tutor: "Part 2 of 2 of the Ctrl-Z paper (arXiv:2504.10374); part 1 is the lens ctrl-z-resampling, which covered the setting, usefulness and safety, the inherited protocols, Defer to resample and the attack continuation probability, with the Defer to resample widget. This part embeds sections 3.2.1 to 7 in four excerpts with seven one-turn recall questions. Everything outside the excerpts and the questions is our own navigational lead-in, sourced from the paper. Sequence: a lead-in placing this part; section 3.2.1, then incrimination in the present; section 3.2.2, then Auditing after three strikes and Time travel; section 4, then four questions on the untrusted monitoring protocol, upfront validation with honeypots, collusion signals and trusted paraphrasing; sections 5 to 7, the authors' own limitations and conclusion. The acknowledgments, references and twelve appendices fall outside the excerpts and render collapsed, so assume a learner has not read them. The companion talk by Aryan Bhatt is a separate lens, monitoring-and-mitigation. Untrusted monitoring and collusion are developed further in the collusion-guided lens in AI Control 2. After the limitations, one added practice question (ours, in an amber callout) asks what resampling still buys, and what is lost, against an attack done in a single command, and for one change that would recover some of it with its cost; its model answer is in the assessment instructions."
-reading_minutes: 40
-tutor_minutes: 6
+reading_minutes: 25
+tutor_minutes: 40
 tags: []
 ---
 #### Text
