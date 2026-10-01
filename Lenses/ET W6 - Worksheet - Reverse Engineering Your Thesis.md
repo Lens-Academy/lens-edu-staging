@@ -71,65 +71,24 @@ content::
 
 Based on stakeholder insights and your drafted ToC above, what can your thesis produce to contribute to this pathway? **Examples:** reports, datasets, policy briefs, presentations, intervention pilots, or advocacy materials.
 
-#### Question: Open
-id:: 63b499e2-ba90-4950-affe-c57ba00a4a36
-content:: 1: Thesis Output & Deliverables
+#### Callout: 💡 Example: thesis outputs & deliverables (click to open)
+tone:: neutral
+collapse:: closed
 
-#### Question: Open
-id:: 7a86e2ac-09d1-4e9d-bc5f-aed24e94aa4d
+#### Text
 content::
-1: Relevant Stakeholders
+*Here's what this could look like for the global health example from Week 5: a thesis evaluating a new intervention run by a global health charity (Charity Y) in Country X.*
 
-Who will benefit from or be engaged by your thesis outputs?
+| # | Thesis Output & Deliverables | Relevant Stakeholders | Impact to Stakeholders |
+|---|---|---|---|
+| 1 | *Thesis evaluating whether Charity Y's intervention significantly reduces mortality rates, using their internal data* | *Charity Y's programme and research team* | *They have rigorous evidence on whether the intervention works, to decide whether to scale, redesign or discontinue it* |
+| 2 | *Tailored report and presentation of the findings for Charity Y's leadership* | *Charity Y's leadership team and their funders* | *Positive findings help them scale the programme or secure additional funding; negative findings help them reallocate limited resources to what works* |
+| 3 | *Short policy brief summarising the key findings and recommendations* | *Health officials in Country X working on national health programmes* | *They consider the intervention (or lessons from it) when designing or updating national health programmes* |
 
-#### Question: Open
-id:: 6ce412b6-585c-41c9-8504-5a76fbdd208d
-content::
-1: Impact to Stakeholders
+#### End Callout
 
-What change will this output ideally lead to in the stakeholders?
-
-#### Question: Open
-id:: 8050ab4b-80e7-442e-a64c-c3efd5037419
-content:: 2: Thesis Output & Deliverables
-optional:: true
-
-#### Question: Open
-id:: 19a0be03-a18d-471c-aad3-c85d17415afe
-content::
-2: Relevant Stakeholders
-
-Who will benefit from or be engaged by your thesis outputs?
-optional:: true
-
-#### Question: Open
-id:: 8166bef7-e934-4b1f-b3de-899aacd41748
-content::
-2: Impact to Stakeholders
-
-What change will this output ideally lead to in the stakeholders?
-optional:: true
-
-#### Question: Open
-id:: 101567f0-b718-46dc-91c8-5de1c89c9957
-content:: 3: Thesis Output & Deliverables
-optional:: true
-
-#### Question: Open
-id:: 07e24a98-8da1-4e32-876e-a78bfc05dfa0
-content::
-3: Relevant Stakeholders
-
-Who will benefit from or be engaged by your thesis outputs?
-optional:: true
-
-#### Question: Open
-id:: c3346dd1-2f30-4a93-a285-7514e2a0746c
-content::
-3: Impact to Stakeholders
-
-What change will this output ideally lead to in the stakeholders?
-optional:: true
+#### Widget
+source:: [[../widgets/et-w6-thesis-outputs]]
 
 #### Text
 content::
