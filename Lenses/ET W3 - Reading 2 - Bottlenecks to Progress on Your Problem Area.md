@@ -201,3 +201,7 @@ By the end, you should have your top 1-2 research questions jotted down, along w
 - **Prepare for your Weekly Discussion.** Please begin working on **this week’s worksheet** before the weekly discussion, especially if you’re in the mastermind for this week!
 - **Explore this week’s Journaling tab** for journaling prompts for the week
 - **Attend your Weekly Discussion** (please inform your facilitator if you are unable to make it for the week)
+
+👉 **Ready? Head to this week's worksheet:**
+
+::card[[../Lenses/ET W3 - Worksheet - Generating and Prioritising Research Questions|Week 3 Worksheet: Generating & Prioritising Research Questions]]
