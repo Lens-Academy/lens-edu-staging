@@ -266,15 +266,10 @@ function drawFrontier(svg, b, q, curB, curD){
   svg.textContent = "";
   var X0 = 30, W = 254, Y0 = 10, H = 118;
   svg.appendChild(svgEl("rect",{x:X0,y:Y0,width:W,height:H,fill:"none",stroke:"var(--border)","stroke-width":1,opacity:0.6}));
-  var pts = [], t;
-  for(t=0;t<=16;t++){
-    var dd = b + 0.5*t/16;
-    var s = solve(b, dd, q, false);
-    pts.push({u:usefulness(b, dd), s:1 - s.best.pRedWin});
-  }
+  var pts = frontierPts(b, q, steps || 16);
   var dpath = pts.map(function(p,i){ return (i===0?"M ":"L ") + (X0 + p.u*W).toFixed(1) + " " + (Y0 + H - p.s*H).toFixed(1); }).join(" ");
   svg.appendChild(svgEl("path",{d:dpath,fill:"none",stroke:"var(--muted)","stroke-width":1.5}));
-  var cur = solve(curB, curD, q, false);
+  var cur = currentSolve();
   var cu = usefulness(curB, curD), cs = 1 - cur.best.pRedWin;
   svg.appendChild(svgEl("circle",{cx:(X0 + cu*W).toFixed(1),cy:(Y0 + H - cs*H).toFixed(1),r:4,
     fill:"var(--accent)",stroke:"#fff","stroke-width":1.5}));
@@ -303,7 +298,7 @@ function currentSolve(){
   return v;
 }
 
-function renderProtocol(pane, sol){
+function renderProtocol(pane, sol, steps){
   var row = el("div","row");
   var c1 = el("div","col"); c1.appendChild(el("p","plotlabel","Suspicion scores: innocent and attacked"));
   var s1 = svgEl("svg",{viewBox:"0 0 300 150",role:"img","aria-label":"Suspicion distributions with the audit and defer bands"});
@@ -313,7 +308,7 @@ function renderProtocol(pane, sol){
   c2.appendChild(s2); row.appendChild(c2);
   pane.appendChild(row);
   drawDists(s1, b, dEff(), q, sol);
-  drawFrontier(s2, b, q, b, dEff());
+  drawFrontier(s2, b, q, b, dEff(), steps);
 }
 
 function summary(sol){
@@ -332,14 +327,14 @@ function save(sol){
   saveTimer = setTimeout(function(){ Lens.saveState({b:b, dw:dw, q:q}, summary(sol)); }, 500);
 }
 
-function render(){
+function render(dragging){
   document.getElementById("kbV").textContent = (b*100).toFixed(1) + "%";
   document.getElementById("kdV").textContent = (dw*100).toFixed(1) + "%";
   document.getElementById("kqV").textContent = q.toFixed(2);
   var sol = currentSolve();
   var pane = document.getElementById("pane");
   pane.textContent = "";
-  renderProtocol(pane, sol);
+  renderProtocol(pane, sol, dragging ? 8 : 16);
   document.getElementById("sSafe").textContent = ((1 - sol.best.pRedWin)*100).toFixed(0) + "%";
   document.getElementById("sUse").textContent = (usefulness(b,dEff())*100).toFixed(0) + "%";
   document.getElementById("sRate").textContent = (sol.rate*100).toFixed(2) + "%";
@@ -349,13 +344,19 @@ function render(){
 
 var pending = null;
 function schedule(){
-  if(pending) clearTimeout(pending);
-  pending = setTimeout(render, 90);
+  if(frame) return;
+  frame = requestAnimationFrame(function(){ frame = null; render(true); });
+}
+function settle(){
+  if(frame){ cancelAnimationFrame(frame); frame = null; }
+  render(false);
 }
 
-document.getElementById("kb").addEventListener("input", function(e){ b = Number(e.target.value)/1000; schedule(); });
-document.getElementById("kd").addEventListener("input", function(e){ dw = Number(e.target.value)/1000; schedule(); });
-document.getElementById("kq").addEventListener("input", function(e){ q = Number(e.target.value)/1000; schedule(); });
+[["kb", function(v){ b = v; }], ["kd", function(v){ dw = v; }], ["kq", function(v){ q = v; }]].forEach(function(k){
+  var inp = document.getElementById(k[0]);
+  inp.addEventListener("input", function(e){ k[1](Number(e.target.value)/1000); schedule(); });
+  inp.addEventListener("change", settle);
+});
 
 if(window.Lens && Lens.onState){
   Lens.onState(function(state){
