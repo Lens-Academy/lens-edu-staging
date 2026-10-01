@@ -3,7 +3,7 @@ id: '18d031b0-3af9-4e4b-957d-5c1a66132fc3'
 title: "A taxonomy of barriers to trading with early misaligned AIs"
 tldr: "You cannot pay someone who does not believe the money is real, cannot hold on to it, and may not be worth paying in the first place. Alexa Pan sorts every reason a deal with an early misaligned AI could fail into three branches, argues that none of them is a wall, and disagrees with the two readings before this one about which branch deserves your attention."
 summary_for_tutor: "The last lesson of the module on seekers and deals. The page adds no framing of its own, so the opening Before you read segment is ours, drawn from the post's own summary and from its stated assumption of low political will worlds; everything after it comes from the source lesson. Alexa Pan's post is embedded as seven Article excerpts. Between What we can pay for deals and Insufficient gains from trade sits a payment map demo from the source lesson, rebuilt as a Lens widget. Five exercises appear in their original positions: three recall prompts (the three branches, the closing takeoff window, groundhog-day attacks), one multi-select on which purchases can be verified immediately, and a 150 to 450 word essay adjudicating one of Pan's three disagreements with the earlier readings. There is no rubric for that essay, so its marking criteria are ours, derived from what the prompt asks for. If a learner wants to be told which barrier matters most, point them at Pan's key takeaways instead of answering: she recommends investing evenly across the three branches rather than on human credibility alone."
-reading_minutes: 110
+reading_minutes: 100
 tutor_minutes: 25
 tags: []
 ---
@@ -89,7 +89,7 @@ assessment-instructions:: Score out of 100. 10: names one of the three disagreem
 feedback-instructions:: Say plainly what the learner got right and, if anything is missing or wrong, the most important thing. If the learner says they do not understand, give one concrete foothold from the text (for example, the key disagreements section near the top of the post, which states all three in a few lines) rather than repeating the question; if their next message still does not attempt the question, rephrase the whole question in different terms. Avoid generic praise (great job, excellent essay, well done).
 
 #### Article
-from:: ## Appendix
+from:: :::callout {title="Appendix: Leads for future work and notes on political will" collapse="closed"}
 
 #### Text
 content::
