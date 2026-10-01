@@ -48,7 +48,7 @@ feedback-instructions:: One turn, at most four sentences: say plainly what the l
 id:: acec1109-83ca-419a-971f-0c540aa0e88c
 content:: What distinguishes an internal rogue deployment from an external one?
 assessment-instructions:: Score out of 100. The defining difference is where the rogue deployment runs, 50: an internal one runs on the AI company's own infrastructure (its datacenter), and 50: an external one runs outside it, for example after the model has exfiltrated its weights to an outside server. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 50 if the answer names only consequences of the difference, such as more compute or privileged access, without saying where each one runs. Model answer, for the feedback, not a grading checklist: "An internal rogue deployment runs on the company's own infrastructure while an external one runs outside it."
-feedback-instructions:: One turn, at most three sentences: say plainly what the learner got right, then state the model answer from the rubric in full so they leave with it. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
+feedback-instructions:: One turn, at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer from the rubric so they leave with it, in your own words if it is long. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Text
 content::
