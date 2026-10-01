@@ -62,7 +62,7 @@ feedback-instructions:: Reply in 40 to 100 words, short paragraphs, no lists. Do
 id:: 36713e15-2916-4a21-9d4f-37730c1e768e
 content:: Why is detecting sandbagging a weaker primary countermeasure than training it out?
 assessment-instructions:: Score out of 100. 50: it is hard to get conclusive evidence that a model is sandbagging. 50: even with such evidence, it is hard to do anything useful with it. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Gaining conclusive evidence that a model is sandbagging is hard and doing something useful with that evidence once obtained is also hard. So training the behavior out, rather than detecting it, is a more reliable lever."
-feedback-instructions:: Reply in 40 to 100 words, short paragraphs, no lists. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). If the learner says they do not understand, ask what a lab could actually do with a suspicion it cannot prove, rather than repeating the question. If their next message still does not attempt the question, rephrase the whole question in different terms.
+feedback-instructions:: Reply in 40 to 130 words, short paragraphs, no lists. Say plainly what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). If the learner says they do not understand, ask what a lab could actually do with a suspicion it cannot prove, rather than repeating the question. If their next message still does not attempt the question, rephrase the whole question in different terms.
 
 #### Text
 content::
