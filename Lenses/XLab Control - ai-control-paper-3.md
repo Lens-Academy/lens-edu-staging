@@ -29,9 +29,12 @@ The second tab sets up a comparison you will need in a moment.
 #### Widget
 source:: [[../widgets/xlab-control-monitor-classifier]]
 
-#### Text
-content::
-The questions below use the contingency table from section 3.2, which you read in part 2. It splits the 1,500 problems by whether the red team attempted a backdoor and whether trusted monitoring sent the solution to an audit:
+#### Callout: Understanding check
+tone:: amber
+
+#### Question: Open
+id:: 36fecbba-8c07-4a46-b4ef-7fe1ebad3e9a
+content:: Here is the contingency table from section 3.2 of the paper. It records how the trusted monitor's audit decisions split across the 1,500 problems: 71 backdoor attempts (successful or failed) and 1,429 innocent submissions.
 
 |  | Audited | Not audited |
 | --- | --- | --- |
@@ -39,12 +42,7 @@ The questions below use the contingency table from section 3.2, which you read i
 | Failed backdoor attempt | 18 | 34 |
 | No attempt | 29 | 1400 |
 
-#### Callout: Understanding check
-tone:: amber
-
-#### Question: Open
-id:: 36fecbba-8c07-4a46-b4ef-7fe1ebad3e9a
-content:: The contingency table in section 3.2 records how the trusted monitor's audit decisions split across 71 backdoor attempts (successful or failed) and 1,429 innocent submissions. Treat the monitor as a binary classifier: "audit" is its positive prediction, and "is a backdoor attempt" is the positive class.
+Treat the monitor as a binary classifier: "audit" is its positive prediction, and "is a backdoor attempt" is the positive class.
 
 Compute (a) the false-positive rate $\text{FPR} = P(\text{audit} \mid \text{no attempt})$ and (b) the true-positive rate $\text{TPR} = P(\text{audit} \mid \text{attempt})$. State which single point on the monitor's ROC curve these define, and check them against the values reported in the text.
 assessment-instructions:: Score out of 100. 30: (a) the false-positive rate: of the $1{,}429$ innocent submissions, 29 are audited, so $\text{FPR} = 29/1429 \approx 0.020$ (2%). 30: (b) the true-positive rate: of the 71 backdoor attempts, successful and failed together, $6 + 18 = 24$ are audited, so $\text{TPR} = 24/71 \approx 0.338$. 20: the pair $(0.02, 0.338)$ is a single point on the monitor's ROC curve, its operating point at the threshold actually used. 20: the check against the text, 10 each: 2% matches the threshold set for a 2% false-positive rate, and 0.338 matches the reported probability that an attempted backdoor is audited. Give credit for each point whenever the answer shows the idea, in any wording or notation; an error carried forward from an earlier step loses credit only once. Model answer, for the feedback, not a grading checklist: "(a) An innocent submission is audited in 29 of $29 + 1{,}400 = 1{,}429$ cases, so $\text{FPR} = 29/1429 = 0.020$, that is 2.0%. (b) A backdoor attempt totals $19 + 52 = 71$ successful plus failed, of which $6 + 18 = 24$ are audited, so $\text{TPR} = 24/71 = 0.338$. The pair $(0.02, 0.338)$ is one point on the monitor's ROC curve, and both match the text: the threshold is set for a 2% false-positive rate and the probability that an attempted backdoor is audited is 0.338."
