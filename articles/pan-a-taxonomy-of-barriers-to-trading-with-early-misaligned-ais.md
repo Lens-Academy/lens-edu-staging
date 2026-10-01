@@ -734,6 +734,7 @@ Another way to reduce counterparty risk over long deployments is to replace the 
 
 _See Appendix for a list of research/intervention ideas for “_[[#^on-counterparty-risk-from-2|counterparty risk from our perspective]]_”._
 
+:::callout {title="Appendix: Leads for future work and notes on political will" collapse="closed"}
 ## Appendix ^appendix
 
 ### Leads for future work ^leads-for-future-work
@@ -915,6 +916,7 @@ Second, high political will might also cause deals to be relatively less valuabl
     
 
 That said, if you believe that high political worlds are reasonably likely, or that we may not be able to make deals with schemers until they are very powerful such that political will at the level of government buy-in is _necessary_ for deals with those AIs, then it’d make sense to predicate the above analysis on a very different possible deals, barriers, and interventions.
+:::
 
 [^note-1]: More specifically, we might make deals with not only schemers (long-term power-seeking AIs, or “behavioral schemers” per [this post](https://www.lesswrong.com/posts/m5nWc9v6MTsWXKpCy/training-time-schemers-vs-behavioral-schemers)) but also with AIs with other misaligned motivations, such as [fitness-seekers](https://www.lesswrong.com/posts/FeaJcWkC6fuRAMsfp/the-behavioral-selection-model-for-predicting-ai-motivations-1) (AIs seeking to be selected by training and the developer iteration process, or close causally upstream proxies of selection such as reward). The content of deals for schemers and other misaligned AIs can look different in practice, but all concerns about barriers here apply.
 [^note-2]: Unfortunately, credibility and gains from trade are not necessarily independent, as both are downstream of the content of the deal. In particular, credibility is likely to decrease with the size of the offered reward, so we can’t always offset credibility issues with unboundedly large offers.
