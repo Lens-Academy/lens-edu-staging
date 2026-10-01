@@ -81,15 +81,19 @@ When you're feeling stuck, you don't always need to immediately *fix* the feelin
 
 A key thing to remember here is that you don’t have to turn every feeling into a problem to solve. Sometimes the most useful thing you can do is simply become a little more curious about what's going on inside you — and give yourself some space to welcome what is there as important information & wisdom that can help you on your journey!
 
-Potential next steps you can take to make progress on these blockers:
+:::
 
-\#### Make space for reflection
+\#### Potential next steps you can take to make progress on these blockers
+
+:::callout {title="1. Make space for reflection" tone="red" collapse="closed"}
 
 **Why:** Sometimes clarity comes when we stop trying to solve the decision and give ourselves room to notice what we actually think and feel.
 
 **How & Resources:** Take 20–30 minutes with no research, comparison or career spreadsheets. Journal on: “If I didn't have to impress anyone, what would I be curious to explore?”
 
-\#### Revisit your Ikigai
+:::
+
+:::callout {title="2. Revisit your Ikigai" tone="red" collapse="closed"}
 
 **Why:** Your Week 1 Ikigai reflection is not a one-time exercise but something you can consistently reflect on with more information you gain about what you enjoy. Your sense of what you enjoy, value and want can evolve as you learn more about yourself and the world of work.
 
