@@ -1,7 +1,7 @@
 ---
 id: '96cfd3d6-1ca6-4c9e-bacf-78f228327420'
 title: "Week 6 Worksheet"
-reading_minutes: 5
+reading_minutes: 60
 tutor_minutes: 0
 tags: [wip]
 ---

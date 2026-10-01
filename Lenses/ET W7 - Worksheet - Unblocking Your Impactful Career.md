@@ -1,7 +1,7 @@
 ---
 id: '5e290b3c-43cb-4d44-b787-5032cea61729'
 title: "Week 7 Worksheet"
-reading_minutes: 4
+reading_minutes: 45
 tutor_minutes: 0
 tags: [wip]
 ---
