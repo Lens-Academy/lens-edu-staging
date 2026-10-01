@@ -5,7 +5,7 @@ title: "Beyond scheming: reward seekers"
 tags:
   - work-in-progress
 ---
-%% Day 4 of AI Control Part 2 (five-day split of XLab's seven-module track, September 2026). Core self-study 325 minutes (lens times re-estimated 2026-10-01 with tutor time counted per exercise, discussion included: 260 reading, 65 tutor). Lens order follows XLab's track. %%
+%% Day 4 of AI Control Part 2 (five-day split of XLab's seven-module track, September 2026). Core self-study 335 minutes (lens times re-estimated 2026-10-01 with tutor time counted per exercise, discussion included, appendices folded and not counted unless meant to be read: 270 reading, 65 tutor). Lens order follows XLab's track. %%
 
 
 

@@ -5,7 +5,7 @@ title: "Deals with AIs and next steps"
 tags:
   - work-in-progress
 ---
-%% Day 5 of AI Control Part 2 (five-day split of XLab's seven-module track, September 2026). Core self-study 295 minutes (lens times re-estimated 2026-10-01 with tutor time counted per exercise, discussion included: 205 reading, 90 tutor). Lens order follows XLab's track. %%
+%% Day 5 of AI Control Part 2 (five-day split of XLab's seven-module track, September 2026). Core self-study 300 minutes (lens times re-estimated 2026-10-01 with tutor time counted per exercise, discussion included, long essays 12 to 15 min, appendices folded and not counted: 195 reading, 105 tutor; Making deals with early schemers split into two lenses of 65 and 100 minutes). Lens order follows XLab's track. %%
 
 
 

@@ -5,7 +5,7 @@ title: "Research sabotage and exploration hacking in practice"
 tags:
   - work-in-progress
 ---
-%% Day 3 of AI Control Part 2 (five-day split of XLab's seven-module track, September 2026). Core self-study 245 minutes (lens times re-estimated 2026-10-01 with tutor time counted per exercise, discussion included: 130 reading, 115 tutor), optional lenses add 60. Lens order follows XLab's track. %%
+%% Day 3 of AI Control Part 2 (five-day split of XLab's seven-module track, September 2026). Core self-study 225 minutes (lens times re-estimated 2026-10-01 with tutor time counted per exercise, discussion included, appendices folded and not counted unless meant to be read: 110 reading, 115 tutor), optional lenses add 40. Lens order follows XLab's track. %%
 
 
 
