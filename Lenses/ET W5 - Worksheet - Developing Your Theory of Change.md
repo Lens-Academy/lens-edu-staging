@@ -30,43 +30,28 @@ content::
 
 Here, you can begin to draft a Theory of Change diagram on how your research can lead to the ideal vision you’ve identified. Begin with the outputs you may create from your project (i.e., article, presentation, policy brief). Next, focus on WHO the key stakeholders are that will utilise or be impacted by your findings and what positive changes will happen when they do.
 
-\### Written Version of ToC
+#### Callout: ✨ Two ways to do this part - choose whichever works best for you!
+tone:: amber
+
+#### Text
+content::
+**Option A: Build it right here on this page.** Use the interactive diagram below: fill in your boxes, draw arrows between them, and name each arrow with the assumption or uncertainty it depends on. Everything saves automatically.
+
+**Option B: Work in a Google Doc instead.** Make a copy of this template: [Theory of Change Template (Google Doc)](https://docs.google.com/document/d/1wYqNkXnMRwmqSlTqNgRbtEbcYGdgnPau53js_8t6xP0/edit?usp=sharing) (File > Make a copy), then paste the link to your copy in the box below.
 
 #### Question: Open
-id:: d742be34-1c76-45b2-bded-05d7bf6db2e5
-content::
-**Research Output**
+id:: e0b81df0-06cb-47fc-8083-03073a76ba3b
+content:: *Option B only:* Paste the link to your copy of the Google Doc here (make sure it's set to view or comment only!)
+placeholder:: https://…
+optional:: true
 
-What will you tangibly produce?
-
-(e.g., report, prototype, policy brief…)
-
-#### Question: Open
-id:: d703a607-7a10-42e9-a036-882cfc06b9cb
-content::
-**Short-Term Outcome**
-
-What decision or behaviour change does your output directly enable, and to whom?
-
-#### Question: Open
-id:: bc8ef2db-91e0-448f-a6ed-fa0a980ee0e3
-content::
-**Long-Term Outcome**
-
-What long-term decision or behaviour change, and to whom?
-
-#### Question: Open
-id:: 179f6789-c00e-49e8-958b-789221ba759b
-content::
-**Ultimate Impact**
-
-What is your ultimate vision of a better world?
+#### End Callout
 
 #### Text
 content::
 \### Diagram of ToC
 
-Next, you can take your written version and put it into a diagram. Start with your outputs → which stakeholders will integrate them → what changes happen → what larger impact results. Feel free to add as many outputs and outcomes boxes as you need!
+Start with your outputs → which stakeholders will integrate them → what changes happen → what larger impact results. Feel free to add as many outputs and outcomes boxes as you need, and link each box to the specific boxes it leads to!
 
 #### Callout: 💡 See an example ToC diagram (click to open)
 tone:: neutral
@@ -79,12 +64,7 @@ content::
 #### End Callout
 
 #### Widget
-source:: [[../widgets/et-w5-toc-builder]]
-
-#### Question: Open
-id:: e0b81df0-06cb-47fc-8083-03073a76ba3b
-content:: *Optional:* Prefer to draw your diagram in another tool (e.g. Miro, Canva, Google Drawings)? Paste the link here instead (make sure it's set to view or comment only!)
-placeholder:: https://…
+source:: [[../widgets/et-w5-toc-diagram]]
 optional:: true
 
 #### Text
