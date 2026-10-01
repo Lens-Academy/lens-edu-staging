@@ -23,6 +23,7 @@ tags: []
 }
 *{box-sizing:border-box}
 body{margin:0;padding:16px;font:14px/1.5 var(--font-ui);color:var(--text);background:var(--bg)}
+h2{font-family:var(--font-heading);font-weight:600;font-size:18px;margin:0 0 4px}
 .desc{color:var(--muted);margin:0 0 12px}
 .knobs{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 0 14px}
 .ctl label{display:flex;justify-content:space-between;gap:8px;font-size:13px}
@@ -41,6 +42,7 @@ svg{width:100%;height:auto;display:block}
 </style>
 </head>
 <body>
+<h2>The control game: full dashboard</h2>
 <p class="desc">Set the protocol; the red team re-optimises against whatever you set.</p>
 
 <div class="knobs">
