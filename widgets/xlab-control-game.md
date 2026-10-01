@@ -251,10 +251,6 @@ function drawFrontier(svg, b, q, curB, curD){
   lab.textContent = "safety"; svg.appendChild(lab);
 }
 
-
-
-
-
 // ---------- state ----------
 // dw is the WIDTH of the defer band (d - b), not the absolute threshold, so
 // raising the audit budget shifts the band rather than eating it. The effective
@@ -284,8 +280,6 @@ function renderProtocol(pane, sol){
   drawDists(s1, b, dEff(), q, sol);
   drawFrontier(s2, b, q, b, dEff());
 }
-
-
 
 function summary(sol){
   return "Control game widget. The learner has the audit budget at " + (b*100).toFixed(1) +
