@@ -1,0 +1,133 @@
+---
+id: '9fd85808-0431-4a06-89ed-3bcc9e96d774'
+title: "Week 6 Thesis Outputs & Deliverables Table"
+summary_for_tutor: "A table for Week 6 of the Effective Thesis Accelerator where the learner lists the outputs their thesis could produce. Each row is one output, with columns: Thesis Output & Deliverables (e.g. report, dataset, policy brief, presentation, pilot, advocacy materials), Relevant Stakeholders (who will benefit from or be engaged by it), and Impact to Stakeholders (what change it could ideally lead to). Starts with 3 rows; the learner can add more. The saved summary lists every filled row."
+height: auto
+tags: [wip]
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<style>
+:root { --text: #1a1a1a; --muted: #5a5a5a; --border: #e8e5df; --accent: #b87018; --soft: #faf8f3; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 4px 0; font: 14px/1.5 "DM Sans", Arial, sans-serif; color: var(--text); background: #fff; }
+.eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+.hint { color: var(--muted); font-size: 13px; margin: 0 0 10px; }
+.scroll { overflow-x: auto; border: 1px solid var(--border); border-radius: 8px; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border-right: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 0; vertical-align: top; }
+th:last-child, td:last-child { border-right: none; }
+tbody tr:last-child td { border-bottom: none; }
+th { background: var(--soft); font-weight: 600; font-size: 12px; text-align: left; padding: 8px; }
+th .sub { display: block; font-weight: 400; color: var(--muted); font-size: 11px; margin-top: 2px; }
+td.n { background: var(--soft); font-weight: 600; font-size: 12px; color: var(--muted); padding: 8px; text-align: center; white-space: nowrap; }
+textarea { width: 100%; min-height: 64px; border: none; resize: vertical; padding: 8px; font: inherit; color: inherit; background: transparent; }
+textarea:focus { outline: 2px solid var(--accent); outline-offset: -2px; }
+button { font: inherit; color: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 8px 12px; cursor: pointer; }
+button:hover { background: var(--soft); }
+button.primary { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+button.primary:hover { background: var(--accent); color: #fff; }
+button.remove { display: block; margin: 6px auto 0; padding: 2px 8px; font-size: 11px; color: var(--muted); }
+button:disabled { opacity: 0.5; cursor: default; }
+.actions { margin-top: 10px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.legend { font-size: 12px; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="eyebrow" id="eyebrow"></div>
+<p class="hint" id="hint"></p>
+<div class="scroll"><table id="t"></table></div>
+<div class="actions"><button type="button" class="primary" id="add"></button><span class="legend" id="msg"></span></div>
+<script>
+(function () {
+  var CONFIG = {"eyebrow": "My thesis outputs & deliverables", "hint": "Add one row per output your thesis could produce, then fill in who it's for and what change it could lead to. Your answers save automatically, and you can scroll sideways to see all columns.", "addLabel": "+ Add another output", "start": 3, "max": 15, "cols": [{"k": "out", "label": "Thesis Output & Deliverables", "sub": "What will you produce? (e.g. report, dataset, policy brief, presentation, pilot, advocacy materials)", "w": 220}, {"k": "who", "label": "Relevant Stakeholders", "sub": "Who will benefit from or be engaged by your thesis outputs?", "w": 220}, {"k": "impact", "label": "Impact to Stakeholders", "sub": "What change will this output ideally lead to in the stakeholders?", "w": 220}]};
+  var COLS = CONFIG.cols, N = CONFIG.start, MAX = CONFIG.max;
+  document.getElementById("eyebrow").textContent = CONFIG.eyebrow;
+  document.getElementById("hint").textContent = CONFIG.hint;
+  var addBtn = document.getElementById("add");
+  addBtn.textContent = CONFIG.addLabel;
+  var msg = document.getElementById("msg");
+  var table = document.getElementById("t");
+  function blank() { var r = {}; COLS.forEach(function (c) { r[c.k] = ""; }); return r; }
+  var rows = [];
+  for (var i = 0; i < N; i++) rows.push(blank());
+
+  function summary() {
+    var parts = [];
+    rows.forEach(function (row, idx) {
+      var bits = [];
+      COLS.forEach(function (c) { if (/\S/.test(row[c.k] || "")) bits.push(c.label + ": " + row[c.k].replace(/\s+/g, " ").slice(0, 160)); });
+      if (bits.length) parts.push("Row " + (idx + 1) + " (" + bits.join("; ") + ")");
+    });
+    return parts.length ? CONFIG.eyebrow + ". " + parts.join(". ") + "." : CONFIG.eyebrow + " is still empty.";
+  }
+  function save() { if (window.Lens) window.Lens.saveState({ rows: rows }, summary()); }
+
+  function build() {
+    table.textContent = "";
+    var thead = document.createElement("thead");
+    var hr = document.createElement("tr");
+    var th0 = document.createElement("th"); th0.textContent = "#"; hr.appendChild(th0);
+    COLS.forEach(function (c) {
+      var th = document.createElement("th");
+      th.style.minWidth = c.w + "px";
+      th.appendChild(document.createTextNode(c.label));
+      if (c.sub) { var s = document.createElement("span"); s.className = "sub"; s.textContent = c.sub; th.appendChild(s); }
+      hr.appendChild(th);
+    });
+    thead.appendChild(hr);
+    table.appendChild(thead);
+    var tb = document.createElement("tbody");
+    rows.forEach(function (row, idx) {
+      var tr = document.createElement("tr");
+      var n = document.createElement("td"); n.className = "n"; n.textContent = String(idx + 1);
+      if (idx >= N) {
+        var rm = document.createElement("button");
+        rm.type = "button"; rm.className = "remove"; rm.textContent = "Remove";
+        rm.setAttribute("aria-label", "Remove row " + (idx + 1));
+        rm.addEventListener("click", function () { rows.splice(idx, 1); build(); save(); });
+        n.appendChild(rm);
+      }
+      tr.appendChild(n);
+      COLS.forEach(function (c) {
+        var td = document.createElement("td");
+        var ta = document.createElement("textarea");
+        ta.value = row[c.k] || "";
+        ta.setAttribute("aria-label", c.label + ", row " + (idx + 1));
+        ta.addEventListener("input", function () { row[c.k] = ta.value; save(); });
+        td.appendChild(ta); tr.appendChild(td);
+      });
+      tb.appendChild(tr);
+    });
+    table.appendChild(tb);
+    addBtn.disabled = rows.length >= MAX;
+    msg.textContent = rows.length >= MAX ? "You've reached the maximum of " + MAX + " rows." : "";
+  }
+  addBtn.addEventListener("click", function () {
+    if (rows.length >= MAX) return;
+    rows.push(blank()); build(); save();
+    var tas = table.querySelectorAll("tbody tr:last-child textarea");
+    if (tas.length) tas[0].focus();
+  });
+  build();
+  if (window.Lens) {
+    window.Lens.onState(function (state) {
+      if (state && state.rows && state.rows.length) {
+        rows = state.rows.slice(0, MAX).map(function (r) {
+          var o = blank();
+          COLS.forEach(function (c) { if (r && typeof r[c.k] === "string") o[c.k] = r[c.k]; });
+          return o;
+        });
+        while (rows.length < N) rows.push(blank());
+        build();
+      }
+    });
+  }
+})();
+</script>
+</body>
+</html>
