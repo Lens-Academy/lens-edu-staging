@@ -25,3 +25,7 @@ content::
 # Lens:
 source:: [[../Lenses/Lens Projects - Optional AI safety fieldbuilding]]
 optional:: true
+
+# Lens:
+source:: [[../Lenses/Lens Projects - Optional lean startup research]]
+optional:: true
