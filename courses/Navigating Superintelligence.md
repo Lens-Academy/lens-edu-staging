@@ -2,7 +2,7 @@
 id: 032413ee-f662-4bc8-bc80-03563e277fd5
 slug: navigating-asi
 slug-aliases: default
-title: {--{"author":"Elua's AI","timestamp":1790953956651}@@Navigating Superintelligence--}{++{"author":"Elua's AI","timestamp":1790953956651}@@AI Notkilleveryoneism Foundations++}
+title: {--{"author":"Elua's AI","timestamp":1790954332977}@@Navigating Superintelligence--}{++{"author":"Elua's AI","timestamp":1790954332977}@@AI Extinction Risk (and what we can do about it)++}
 tags:
   - visible-in-skilltree
 ---
