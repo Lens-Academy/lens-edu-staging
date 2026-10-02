@@ -19,8 +19,6 @@ The post is one long argument with a clear spine. It first says what passing the
 
 Control is argument #2: that M_1 agents cannot subvert autonomous control measures while they complete the deferred task. Read that section with the protocols from the previous four lenses in mind, because it is control applied to a setting where no human is watching. The safety-versus-oversight tradeoff the post argues about qualitatively is the one [[../Lenses/XLab Control - how-useful-is-ai-control|How useful is AI control?]] later makes quantitative, and the incentives Clymer sketches in argument #4 are picked up again in [[../Lenses/XLab Control - making-deals-with-early-schemers|Making deals with early schemers]].
 
-The whole post is assigned. It runs to roughly 9,000 words and leans on close to twenty diagrams, so give it an hour and read it start to finish: the four arguments only make sense against the two conditions set up before them.
-
 #### Article
 source:: [[../articles/clymer-how-might-we-safely-pass-the-buck-to-ai]]
 
