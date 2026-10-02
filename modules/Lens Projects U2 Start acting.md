@@ -58,6 +58,19 @@ Compliments ("great idea!") tell you almost nothing. Look for **commitment**: th
 
 A short message works: who you are, that you are doing a small project on their problem, and one specific question, or a request for 15 minutes. A reply to one message counts as a conversation.
 
+\## If you can't reach your audience in time
+
+On a one-week project, or with an audience that is hard to reach (policymakers, senior researchers), you may not get a conversation in time. You can still test your assumption. These options are listed from strongest evidence to weakest; use the strongest one you can.
+
+1. **A stand-in.** Someone who works closely with your audience: a staffer instead of the politician, a PhD student instead of the lab lead, a group organiser instead of the members. A cohort member who fits your audience also counts.
+2. **What they have already said.** Look for places your audience has written about the problem in their own words: forum threads and comments, public consultation responses, GitHub issues, course reviews, job postings, FAQs. Look for complaints and workarounds: these are specific past events, written down.
+3. **What they do, not what they say.** Put a tiny version where your audience can see it (a short post, a sign-up form, a session announcement) and count who responds. Behaviour is better evidence than opinions.
+4. **Your own experience,** if you are part of the audience yourself. On the Fit track this is often the main test: try a two-hour task from the path you are curious about and note how it went.
+
+Whichever you use, **label it** in your notes and your report card ("stand-in", "public posts", "sign-ups", "my own experience"), and keep the assumption marked as only partly tested in your proposal. If you later reach a real audience member, ask them about it.
+
+Stuck for a contact? Ask your group or your navigator in Meeting 2 for an introduction.
+
 \## Notes template
 
 After each conversation, write down:
