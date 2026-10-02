@@ -20,9 +20,9 @@ to:: "count this as a cessation experience._"
 
 #### Text
 content::
-Did reading this article shift your views (consider reviewing what you said before reading)? If yes, how did they {--{"author":"Elua's AI","timestamp":1790940685755}@@shift.--}{++{"author":"Elua's AI","timestamp":1790940685755}@@shift?++} If not, tell us more.
+Did reading this article shift your views (consider reviewing what you said before reading)? If yes, how did they shift? If not, tell us more.
 #### Chat
 instructions::
 Now that they've finished the article, talk to them about how their views have changed. You can also follow up by asking what they found surprising or new. 
 
-The user just answered the question: "Did reading this article shift your views (consider {--{"author":"Elua's AI","timestamp":1790940687339}@@scrolling up to reread--}{++{"author":"Elua's AI","timestamp":1790940687339}@@reviewing++} what you said before reading)? If yes, how did they {--{"author":"Elua's AI","timestamp":1790940687339}@@shift.--}{++{"author":"Elua's AI","timestamp":1790940687339}@@shift?++} If not, tell us more."
+The user just answered the question: "Did reading this article shift your views (consider reviewing what you said before reading)? If yes, how did they shift? If not, tell us more."

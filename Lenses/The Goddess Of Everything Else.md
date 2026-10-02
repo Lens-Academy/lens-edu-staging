@@ -4,7 +4,7 @@ reading_minutes: 20
 tutor_minutes: 5
 # tldr: "Two forces shape all of life: the Goddess of Cancer, who commands only 'kill, consume, multiply, conquer,' and her subtle sister, who keeps bending that ruthless drive into cooperation, art, and civilization. This animated parable asks whether the same capacity that lifted us out of the swamp is what we'll need to meet what comes next."
 summary_for_tutor: "Covers Scott Alexander's parable 'The Goddess of Everything Else,' a mythological allegory about the struggle between ruthless competition (the Goddess of Cancer) and the creative, cooperative principle (the Goddess of Everything Else). Animated by Rational Animations. Each time the Goddess of Cancer commands 'KILL CONSUME MULTIPLY CONQUER', her sister turns that drive toward cooperation because cooperation wins: cells form bodies, animals form packs and hives, tribes form civilizations with science, art and trade. Defection, tumors and war keep pushing back but never undo it. It ends with humans no longer bound by competitive nature, spreading to the stars. The parable does not mention AI. The follow-up chat is an open invitation to discuss anything from the course."
-title: The Goddess {--{"author":"Elua's AI","timestamp":1790940758884}@@Of--}{++{"author":"Elua's AI","timestamp":1790940758884}@@of++} Everything Else
+title: The Goddess of Everything Else
 ---
 %% #### Text
 content:: %%

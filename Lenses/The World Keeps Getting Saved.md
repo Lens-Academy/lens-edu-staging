@@ -29,12 +29,12 @@ source:: [[../articles/Bogoed-the-world-keeps-getting-saved]]
 
 #### Text
 content::
-Based on your personal experience analyzing past events, how do you draw the line between "the danger was exaggerated" and "the danger was successfully averted in time"? Using this method, would you be able to {--{"author":"Elua's AI","timestamp":1790940706309}@@distinguish --}{++{"author":"Elua's AI","timestamp":1790940706309}@@tell when ++}a {--{"author":"Elua's AI","timestamp":1790940706309}@@successful outcome in addressing a safety issue?--}{++{"author":"Elua's AI","timestamp":1790940706309}@@safety issue had been successfully addressed?++}
+Based on your personal experience analyzing past events, how do you draw the line between "the danger was exaggerated" and "the danger was successfully averted in time"? Using this method, would you be able to tell when a safety issue had been successfully addressed?
 
 #### Chat
 instructions::
 The user is answering this question:
-Based on your personal experience analyzing past events, how do you draw the line between "the danger was exaggerated" and "the danger was successfully averted in time"? Using this method, would you be able to {--{"author":"Elua's AI","timestamp":1790940708214}@@distinguish --}{++{"author":"Elua's AI","timestamp":1790940708214}@@tell when ++}a {--{"author":"Elua's AI","timestamp":1790940708214}@@successful outcome in addressing a safety issue?--}{++{"author":"Elua's AI","timestamp":1790940708214}@@safety issue had been successfully addressed?++}
+Based on your personal experience analyzing past events, how do you draw the line between "the danger was exaggerated" and "the danger was successfully averted in time"? Using this method, would you be able to tell when a safety issue had been successfully addressed?
 
 Context:
 - This is a philosophical discussion about AI alignment and meta-level reasoning.

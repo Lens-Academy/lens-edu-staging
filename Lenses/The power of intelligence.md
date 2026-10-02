@@ -8,7 +8,7 @@ title: The power of intelligence
 ---
 #### Text
 content::
-{--{"author":"Elua's AI","timestamp":1790940628538}@@Intelligence--}{++{"author":"Elua's AI","timestamp":1790940628538}@@When we compare individual humans, intelligence++} can seem like a collection of {--{"author":"Elua's AI","timestamp":1790940628538}@@various --}distinct {--{"author":"Elua's AI","timestamp":1790940628538}@@skills when comparing individual humans,--}{++{"author":"Elua's AI","timestamp":1790940628538}@@skills,++} and yet all of {--{"author":"Elua's AI","timestamp":1790940628538}@@them--}{++{"author":"Elua's AI","timestamp":1790940628538}@@those skills++} are found almost exclusively in humans {--{"author":"Elua's AI","timestamp":1790940628538}@@as opposed to--}{++{"author":"Elua's AI","timestamp":1790940628538}@@rather than in++} other animals. Here is a brief meditation on the organ that made it all {--{"author":"Elua's AI","timestamp":1790940628538}@@possible. A--}{++{"author":"Elua's AI","timestamp":1790940628538}@@possible: a++} superpower that has defeated {--{"author":"Elua's AI","timestamp":1790940628538}@@brawn--}{++{"author":"Elua's AI","timestamp":1790940628538}@@brawn,++} speed and claws {--{"author":"Elua's AI","timestamp":1790940628538}@@over the course of--}{++{"author":"Elua's AI","timestamp":1790940628538}@@in++} an evolutionary blink of an eye.
+When we compare individual humans, intelligence can seem like a collection of distinct skills, and yet all of those skills are found almost exclusively in humans rather than in other animals. Here is a brief meditation on the organ that made it all possible: a superpower that has defeated brawn, speed and claws in an evolutionary blink of an eye.
 
 #### Video
 source:: [[../video_transcripts/rationalanimations-the-power-of-intelligence-an-essay-by-eliezer-yudkowsky]]
@@ -17,7 +17,7 @@ to:: 7:00
 
 #### Text
 content::
-So, will intelligence continue to win the {--{"author":"Elua's AI","timestamp":1790940630321}@@arms-race?--}{++{"author":"Elua's AI","timestamp":1790940630321}@@arms race?++}
+So, will intelligence continue to win the arms race?
 
 #### Chat
 instructions::
@@ -31,5 +31,5 @@ Discussion topics to explore:
 
 Ask what they found surprising or new. Check if they can explain intelligence in their own words—it's a key concept.
 
-The user just answered the question: So, will intelligence continue to win the {--{"author":"Elua's AI","timestamp":1790940632042}@@arms-race?--}{++{"author":"Elua's AI","timestamp":1790940632042}@@arms race?++}
+The user just answered the question: So, will intelligence continue to win the arms race?
 

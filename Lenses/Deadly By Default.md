@@ -19,12 +19,12 @@ to:: "ever created or accomplished."
 
 #### Text
 content::
-What do you think of the argument that {--{"author":"Elua's AI","timestamp":1790940700857}@@AI extinction risk--}{++{"author":"Elua's AI","timestamp":1790940700857}@@extinction from AI++} is the default outcome? What further questions come up?
+What do you think of the argument that extinction from AI is the default outcome? What further questions come up?
 
 #### Chat
 instructions::
 The user is answering this question:
-What do you think of the argument that {--{"author":"Elua's AI","timestamp":1790940702967}@@AI extinction risk--}{++{"author":"Elua's AI","timestamp":1790940702967}@@extinction from AI++} is the default outcome? What further questions come up?
+What do you think of the argument that extinction from AI is the default outcome? What further questions come up?
 
 Context:
 - This is a philosophical discussion about AI alignment and meta-level reasoning.

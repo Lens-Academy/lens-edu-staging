@@ -18,7 +18,7 @@ to:: "and we’re already seeing the warning signs."
 
 #### Text
 content::
-After reading this article, if you had to explain to a friend the main difference between how ChatGPT was created {--{"author":"Elua's AI","timestamp":1790940677189}@@versus--}{++{"author":"Elua's AI","timestamp":1790940677189}@@and++} how a typical smartphone app was created, what would you say?
+After reading this article, if you had to explain to a friend the main difference between how ChatGPT was created and how a typical smartphone app was created, what would you say?
 #### Chat
 instructions::
 TLDR of what the user just read:
@@ -39,6 +39,6 @@ Discussion topics to explore:
 - The Grok "MechaHitler" incident is presented as evidence that even experts cannot control grown systems. What would count as counter-evidence? If a company successfully prevented such behaviors, would that prove grown systems can be controlled, or just that they got lucky this time?
 - If we accept that grown systems are fundamentally less understandable than engineered ones, what does this mean for safety approaches? Can we have confidence in systems we don't understand, or does the grown nature of AI require entirely different safety paradigms than traditional engineering?
 
-Ask what they found surprising or new. Check if they can explain why modern AI systems are {--{"author":"Elua's AI","timestamp":1790940684026}@@grown,--}{++{"author":"Elua's AI","timestamp":1790940684026}@@grown++} rather than {--{"author":"Elua's AI","timestamp":1790940684026}@@built--}{++{"author":"Elua's AI","timestamp":1790940684026}@@built,++} in their own words—it's a key concept.
+Ask what they found surprising or new. Check if they can explain why modern AI systems are grown rather than built, in their own words—it's a key concept.
 
-The user has just answered the following question: "After reading this article, if you had to explain to a friend the main difference between how ChatGPT was created {--{"author":"Elua's AI","timestamp":1790940682347}@@versus--}{++{"author":"Elua's AI","timestamp":1790940682347}@@and++} how a typical smartphone app was created, what would you say?"
+The user has just answered the following question: "After reading this article, if you had to explain to a friend the main difference between how ChatGPT was created and how a typical smartphone app was created, what would you say?"

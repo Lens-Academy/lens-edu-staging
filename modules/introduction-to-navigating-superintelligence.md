@@ -30,11 +30,9 @@ Artificial intelligence is transforming many aspects of civilisation at once. Wh
 # Lens:
 source:: [[../Lenses/The AI Book That's Freaking Out National Security Advisors]]
 
-{--{"author":"Elua's AI","timestamp":1790941111424}@@%% AI Chronicles embed section removed until the Embed feature ships (branch iframe-embed-segment). Embed isn't on staging yet, so this import failed validation. To restore the interactive once embed ships, re-add the section below (and remove the validator-ignore tag on the lens):
---}# Lens:
+# Lens:
 optional:: true
-source:: [[../Lenses/AI Chronicles - Torchbearer]]{--{"author":"Elua's AI","timestamp":1790941111424}@@
-%%--}
+source:: [[../Lenses/AI Chronicles - Torchbearer]]
 
 # Lens:
 source:: ![[../Lenses/10 reasons]]
