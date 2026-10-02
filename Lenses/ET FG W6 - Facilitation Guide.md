@@ -164,6 +164,9 @@ content::
 - **Reflection on Reading & Worksheet**
    - What were your key takeaways from this week’s reading and worksheet?
    - How do these ideas apply to your own problem area?
+- **Stakeholder reality check**
+   - What have stakeholders told you so far? Did anything contradict what you assumed your output should be?
+   - If you haven't spoken to anyone yet, what's your plan for the next week?
 - **Uncertainties with Reverse Engineering your Thesis from your ToC**
    - What are your top uncertainties or questions right now about turning your Theory of Change into a concrete thesis project?
    - Which parts of your pathway from outputs to impact feel most unclear or risky? Why?
@@ -172,19 +175,21 @@ content::
    - What did you learn from someone else’s problem or approach today?
    - Did you hear anything that challenged your assumptions or made you think differently?
    - What is one idea, perspective, or resource you want to take away for your own work?
+- **Your research question**
+   - Does your question clearly produce your output? Run it through FINER together.
+   - Which parts of your pathway from output to impact still feel the most uncertain or risky? Why?
 - **Next Steps & Action**
    - What might you do differently moving forward? What’s one area you might explore further to increase potential impact?
    - What are your next steps for your thesis or project this week?
 
-\### 5m · Outro: Intro to next week + Weekly survey
+\### 10m · Outro: Intro to Next Week
 
-- **Briefly introduce Week 7:** The main focus of Week 7 is to work on your final presentation, which synthesizes all the frameworks you’ve explored over the past weeks and applies them to your own thesis or research idea. This week is about bringing together your Theory of Change, stakeholder insights, and thesis planning into a coherent story that clearly communicates your research, its real-world impact, and your career exploration.  You will also continue mapping career paths, identifying uncertainties, and planning actionable next steps to test your hypotheses. The goal is practice, iteration, and reflection, not perfection.
-- **Remind participants:**
-   - Remind **the two who are in the Mastermind session** for next week
-   - **Cross-cohort sessions for Week 6 (Optional):** High Impact Career Planning Workshop with Probably Good
-   - Continue using their workbook (that they have duplicated for themselves) for readings and completing worksheets
-   - Ideally, ask them to complete or draft worksheets before the discussions
-   - Explore the Journaling prompts in their own time, which focus on personal reflection prompts for their life, not just academics
-- **\[If time allows\]** Ask participants to complete the weekly pulse survey: [Anonymous Weekly feedback form](https://forms.gle/2BSkjtYHje8Dsm2w9) (this is linked on each header page of their workbook as well)
+- **Briefly introduce Week 7: Unblocking Your Impactful Career.** We'll zoom out from the thesis to the career it's building toward, using the Head, Heart and Hand framework to diagnose what's actually blocking their career direction and take real next steps on it.
+- **Remind participants to:**
+   - Remind **the two that are in the Mastermind session** for next week
+   - Do next week’s readings and worksheet before the session on Lens
+      - Ideally, ask them to complete or draft worksheets before the discussions
+   - Explore this week’s Journaling prompts in their own time, which focus on personal reflection prompts for their life, not just academics
+   - Weekly survey on Lens platform to share their feedback
 
 #### End Callout
