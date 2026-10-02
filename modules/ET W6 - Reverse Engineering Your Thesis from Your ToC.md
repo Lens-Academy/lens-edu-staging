@@ -15,6 +15,9 @@ source:: [[../Lenses/ET W6 - Welcome]]
 # Lens:
 source:: [[../Lenses/ET W6 - Reading - Reverse Engineering Your Thesis from Your ToC]]
 
+# Lens:
+source:: [[../Lenses/ET W6 - Reading 2 - Examples of Reverse Engineering from Outputs]]
+
 # Submodule: Week 6 Worksheet
 
 # Lens:
