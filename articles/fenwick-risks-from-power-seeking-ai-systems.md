@@ -58,15 +58,10 @@ Stopping humanity from losing control of advanced AI systems is one of the most 
 
 In the years since we first encountered these arguments and advised people to work on the problem, AI has progressed rapidly. We now think powerful systems are likely to [arrive sooner](https://80000hours.org/agi/guide/when-will-agi-arrive/) than we had expected. While the risks we outline here are now more widely discussed, we’ve also seen the emergence of powerful incentives and structural challenges that increase the risk.
 
-### Our overall view
-
-#### Recommended - highest priority
-
-We think this is among the most pressing problems in the world.
-
-##### Profile depth
-
-In-depth
+> **Our overall view:** Recommended – highest priority  
+> We think this is among the most pressing problems in the world.
+>
+> **Profile depth:** In-depth
 
 ## Why are risks from loss of control a pressing global problem?
 
