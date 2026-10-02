@@ -73,7 +73,6 @@ Readings:
 # Module: [[../modules/Lens Projects U3 Re-scope]]
 
 # Meeting: Unit 3: Re-scope
-meeting-doc:: [[../meetings/Lens Projects/Meeting 3]]
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 %% Shape: a quick round on decisions (who re-scoped or switched, in one sentence); partners read each other's drafts live for about fifteen minutes and give first reactions out loud; each person's hardest current problem and the group's best suggestion. %%
