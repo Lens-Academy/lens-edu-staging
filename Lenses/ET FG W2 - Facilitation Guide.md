@@ -139,14 +139,20 @@ Ask participants to open the Week 2 Worksheet on Lens and introduce the Workshee
 
 #### End Callout
 
-#### Callout: Part 2: Mastermind for Two Participants
+#### End Callout
+
+#### Callout: Part 3: Mastermind for Two Participants
 tone:: neutral
 
 #### Text
 content::
 *If you have a larger group (>4 participants), please see [[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]] for alternative formats.*
 
-\### 20m · Mastermind Session 1
+#### Callout: 4. 20m · Mastermind Session 1
+collapse:: closed
+
+#### Text
+content::
 
 **Goal:** Help the participant clarify thinking, generate options, and move forward by providing thoughtful, constructive input.
 
@@ -171,18 +177,27 @@ content::
    - What questions remain that you want to explore further?
    - Goal: Try to support the participant in leaving with clear, actionable takeaways or next steps, and ending with an encouraging note.
 
-\### 20m · Mastermind Session 2
+#### End Callout
 
+#### Callout: 5. 20m · Mastermind Session 2
+collapse:: closed
+
+#### Text
+content::
 **Repeat the structure above for the second Mastermind participant.**
 
 #### End Callout
 
-#### Callout: Part 3: Group Discussion
+#### End Callout
+
+#### Callout: Part 4: Group Discussion & Close
 tone:: neutral
+
+#### Callout: 6. 20m · Group Discussion and Synthesis
+collapse:: closed
 
 #### Text
 content::
-\### 20m · Group Discussion and Synthesis
 
 **Goal**: Help participants reflect on the Week 2 reading, apply the ITN framework, and synthesize insights for their thesis and impact thinking. You can use any of the questions below to guide the group discussion based on what feels most alive:
 
