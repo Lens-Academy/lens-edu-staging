@@ -111,7 +111,7 @@ Page boundaries come first, so every later edit runs against final pages. Steps 
 
 ### Stage 4. Question formats
 
-Not every question loses its grade. Each one gets the format that fits what it is for, judged against [[AI Guide/Writing Rubrics]]: grade only where there is a real right and wrong the learner should be measured on, and prefer ungraded when in doubt.
+Not every question loses its grade. Each one gets the format that fits what it is for, judged against [[AI Guide/Writing Rubrics]]: grade only where there is a real right and wrong the learner should be measured on, an{>>{"author":"Elias","timestamp":1790948081307}@@If it's an object level question I like grading as it helps learners to estimate how close their answer is to the ideas (simple feedback that doesn't require reading tutor response<<}d prefer ungraded when in doubt.
 
 1. **Build the worklist from per-file counts of both fields**, `assessment-instructions::` and `feedback-instructions::`, not from a search for the one being removed, which was AIRF's costliest miss. For each question, record three facts: whether it is graded, whether its key is visible on the page, and whether it is optional. Baseline: 44 graded segments in 20 lenses, 39 open and 5 choice.
 2. **Sort the graded questions into four groups, each with a default:**
