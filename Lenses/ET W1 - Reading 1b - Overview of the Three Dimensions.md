@@ -11,7 +11,7 @@ content::
 
 When others discuss “impactful research,” many often focus only on whether the topic solves a big global problem. It is incredibly important to be grounded in this motivation and ambition - but it’s not the whole story. We think a thesis can be highly impactful across three key dimensions - impact on the world, on yourself, and on your community!
 
-![2. Overview of The Three Dimensions of an Impactful Thesis](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w1-reading-02.png)
+![Dimensions of High-Impact Research: three nested circles. 1. Impact on the World (does it contribute to a real-world solution for an important, neglected and tractable problem?), 2. Impact on Your Community (does it inspire others around you to pursue impact too?), 3. Impact on You (does it help you develop your awareness, skills, opportunities, or test out impactful and meaningful career paths?)](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-dimensions-of-high-impact-research-c7c5f5bd.webp)
 
 \### Overview of the Three Dimensions of Impact
 
