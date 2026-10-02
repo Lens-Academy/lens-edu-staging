@@ -95,6 +95,12 @@ With more than 5 people, break into smaller units so everyone still gets meaning
 - ⭐ **Option 2a: Pods of 3** - everyone gets a 15m slot every week (best for around 6 people)
 - **Option 2b: Mastermind groups of 4-5** - two parallel groups running Option 1 (for 8-10 people)
 
+:::callout {title="💻 Running this virtually?" tone="blue"}
+
+If your sessions run over 1h, or you'd like to use breakout rooms (for example, for pods of 3 or parallel Mastermind groups), we recommend [Jitsi Meet](https://jitsi.org/). It's free, has no time limit, supports breakout rooms, and participants can join from a browser without creating an account.
+
+:::
+
 #### Callout: Explore Option 2a: Pods of 3
 tone:: neutral
 collapse:: closed
