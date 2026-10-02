@@ -14,11 +14,11 @@ content::
 - [Why group size matters](#why-group-size-matters)
 - [Quick decision guide](#quick-decision-guide)
 - [Overview of the options](#overview-of-the-options)
-- [Option 1: Groups of 4-5 (standard mastermind)](#option-1)
-- [Option 2: Larger groups (6+ people)](#option-2)
+- [Option 1: Groups of 4-5 (standard mastermind)](#option-1-groups-of-4-5-standard-mastermind)
+- [Option 2: Larger groups (6+ people)](#option-2-larger-groups-6-people)
    - ⭐ Option 2a. Pods of 3 (best for around 6 people)
    - Option 2b. Mastermind groups of 4-5
-- [Option 3: Discussion-focused format (when worksheets are still early)](#option-3)
+- [Option 3: Discussion-focused format (when worksheets are still early)](#option-3-discussion-focused-format-when-worksheets-are-still-early)
 - [Facilitation tips for every format](#facilitation-tips-for-every-format)
 
 \### Why group size matters
@@ -35,25 +35,26 @@ Start with your group size, then check how developed your participants' workshee
 
 | Your group | Recommended format | Hot seats per week | How often each person goes |
 |---|---|---|---|
-| 4-5 people | Standard mastermind (Option 1) | 2 x 20m | Every other week (4 people) or roughly every 2-3 weeks (5 people) |
-| About 6 people | Pods of 3 (Option 2a) | Everyone, every week | Every week |
-| 7-10 people | Split into mastermind groups of 4-5 (Option 2b), or pods of 3 | 2 per group | Every other week |
-| Any size, worksheets still early | Discussion-focused (Option 3) | None, or 1 short one | Shared discussion each week |
+| 4-5 people | [Standard mastermind (Option 1)](#option-1-groups-of-4-5-standard-mastermind) | 2 x 20m | Every other week (4 people) or roughly every 2-3 weeks (5 people) |
+| About 6 people | [Pods of 3 (Option 2a)](#option-2-larger-groups-6-people) | Everyone, every week | Every week |
+| 7-10 people | [Split into mastermind groups of 4-5 (Option 2b)](#option-2-larger-groups-6-people), or [pods of 3](#option-2-larger-groups-6-people) | 2 per group | Every other week |
+| Any size, worksheets still early | [Discussion-focused (Option 3)](#option-3-discussion-focused-format-when-worksheets-are-still-early) | None, or 1 short one | Shared discussion each week |
 
 You can also mix formats across the six weeks, for example starting discussion-focused in Weeks 2-3 and moving into hot seats once worksheets have more substance.
 
 \### Overview of the options
 
-- **[Option 1: Groups of 4-5 (standard mastermind)](#option-1)** - our recommended default. Two 20m hot seats per session, so everyone gets a turn roughly every other week.
-- **[Option 2a: Pods of 3](#option-2)** ⭐ - best for around 6 people. Everyone gets a 15m slot every single week.
-- **[Option 2b: Mastermind groups of 4-5](#option-2)** - for 8-10 people. Split into two groups running Option 1 side by side.
-- **[Option 3: Discussion-focused format](#option-3)** - for any group size when worksheets are still early. Runs more like a reading group, with a lighter "mini hot seat".
+- **[Option 1: Groups of 4-5 (standard mastermind)](#option-1-groups-of-4-5-standard-mastermind)** - our recommended default. Two 20m hot seats per session, so everyone gets a turn roughly every other week.
+- **[Option 2: Larger groups (6+ people)](#option-2-larger-groups-6-people)** - for when your group is bigger than 4-5 people, so you break into smaller units and everyone still gets meaningful time. There are two ways to do this:
+   - ⭐ **Option 2a: Pods of 3** - best for around 6 people. Everyone gets a 15m slot every single week.
+   - **Option 2b: Mastermind groups of 4-5** - for 8-10 people. Split into two groups running Option 1 side by side.
+- **[Option 3: Discussion-focused format](#option-3-discussion-focused-format-when-worksheets-are-still-early)** - for any group size when worksheets are still early. Runs more like a reading group, with a lighter "mini hot seat".
 
 Tap each option below to open it.
 
-\### Option 1
+\### Option 1: Groups of 4-5 (standard mastermind)
 
-#### Callout: Option 1: Groups of 4-5 - standard mastermind with two 20m hot seats (recommended default)
+#### Callout: Explore Option 1: Mastermind
 tone:: neutral
 collapse:: closed
 
@@ -87,11 +88,14 @@ See [the Mastermind Structure guide](https://staging.lensacademy.org/courses/et-
 
 #### Text
 content::
-\### Option 2
+\### Option 2: Larger groups (6+ people)
 
-**Larger groups (6+ people):** With more than 5 people, break into smaller units so everyone still gets meaningful time. You have two choices.
+With more than 5 people, break into smaller units so everyone still gets meaningful time. You have two choices:
 
-#### Callout: ⭐ Option 2a: Pods of 3 - everyone gets a 15m slot every week (best for around 6 people)
+- ⭐ **Option 2a: Pods of 3** - everyone gets a 15m slot every week (best for around 6 people)
+- **Option 2b: Mastermind groups of 4-5** - two parallel groups running Option 1 (for 8-10 people)
+
+#### Callout: Explore Option 2a: Pods of 3
 tone:: neutral
 collapse:: closed
 
@@ -109,7 +113,7 @@ Because there are only two listeners, encourage each person to take on the role 
 
 #### End Callout
 
-#### Callout: Option 2b: Mastermind groups of 4-5 - two parallel groups running Option 1 (for 8-10 people)
+#### Callout: Explore Option 2b: Mastermind groups of 4-5
 tone:: neutral
 collapse:: closed
 
@@ -125,9 +129,9 @@ If you have 8-10 people (or prefer the fuller mastermind experience), split into
 
 #### Text
 content::
-\### Option 3
+\### Option 3: Discussion-focused format (when worksheets are still early)
 
-#### Callout: Option 3: Discussion-focused format - a reading-group style session (when worksheets are still early)
+#### Callout: Explore Option 3: Discussion-focused format
 tone:: neutral
 collapse:: closed
 

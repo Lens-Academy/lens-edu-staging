@@ -9,7 +9,23 @@ tags: [wip]
 content::
 \## Icebreaker/ Speed Friending Question List
 
-\### Icebreaker Game Ideas
+**Contents**
+
+1. [Icebreaker Game Ideas](#1-icebreaker-game-ideas)
+   - Ready-made resources
+   - Quick games that work in person or online
+   - Online-friendly tweaks
+2. [Icebreaker Question List](#2-icebreaker-question-list)
+   - Fun & Personal
+   - Values & Meaning
+   - Curiosity & Reflection
+   - Light & Playful
+   - Impact & Thesis
+   - Deeper Connection (great for later weeks)
+
+---
+
+\### 1. Icebreaker Game Ideas
 
 **Ready-made resources**
 
@@ -34,7 +50,9 @@ content::
 - Breakout rooms of 2-3 for speed friending, with the questions pasted in the chat before you open the rooms
 - Keep cameras optional, and offer a "pass" for anyone who isn't feeling it today
 
-\### Question List
+---
+
+\### 2. Icebreaker Question List
 
 **Fun & Personal**
 
