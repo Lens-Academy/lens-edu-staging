@@ -19,7 +19,7 @@ to:: Combining RL with SFT on intermediate-quality demonstrations (as in §[[#^5
 #### Text
 content::
 :::callout {title="Note" tone="neutral"}
-The dependence deserves to be stated together with its origin. The exploration signal that RL feeds on exists because the weak policy was constructed to imitate the strong one, a choice made in section 4.1 (read in part 2) to keep the organism realistic. A sandbagging model able to hold its visible policy far enough below competence would starve RL of that signal; how reliably a trained model can do so is precisely the exploration-hacking question, taken up empirically by [[../Lenses/XLab Control - exploration-hacking-paper|a later reading in this module]]. Note also the proxy-reward variation above: a continuous reward speeds early training and then, on code, degrades final performance. An imperfect reward optimized hard enough stops measuring what it was a proxy for.
+The dependence deserves to be stated together with its origin. The exploration signal that RL feeds on exists because the weak policy was constructed to imitate the strong one, a choice made in section 4.1 (read in part 2) to keep the organism realistic. A sandbagging model able to hold its visible policy far enough below competence would starve RL of that signal; how reliably a trained model can do so is precisely the exploration-hacking question, taken up empirically by [[../Lenses/XLab Control - exploration-hacking-paper-2|a later reading in this module]]. Note also the proxy-reward variation above: a continuous reward speeds early training and then, on code, degrades final performance. An imperfect reward optimized hard enough stops measuring what it was a proxy for.
 :::
 
 #### Question: Open
