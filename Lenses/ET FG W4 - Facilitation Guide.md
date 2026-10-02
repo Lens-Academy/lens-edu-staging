@@ -36,11 +36,11 @@ tone:: amber
 #### Text
 content::
 - **Select the 2 Mastermind Participants from this Week’s discussion using [[../Lenses/ET FG Resources - Mastermind Tracker|your Mastermind Tracker]]**
-- **Communication (Friday before):** Send participants a reminder to do weekly readings before the session (see template message in CDHQ)
+- **Communication (Friday before):** Send participants a reminder to do weekly readings before the session (see template message in CD HQ)
    - **For Chosen Mastermind Participants:** Let them know they are selected and to prepare lightly for it, and inform you if they can’t make it
-- **Read through Module 4** to familiarise yourself with the readings and worksheet
+- **Read through Module 4** to familiarise yourself with the content
 - **Prepare and lead** the 1.5h weekly discussion using the Weekly Facilitation Guide below
-- **Engage Proactively in the CD Whatsapp Group** for support and shared learnings
+- **Use the CD Whatsapp Group** for support and shared learnings ♥️
 
 #### End Callout
 
@@ -54,6 +54,8 @@ tone:: neutral
 #### Text
 content::
 *The following is our recommended structure for hosting the discussion. Feel free to adapt timing, extend or shorten sections, or dive deeper into areas of interest based on participant engagement and group needs. The goal is to keep the session interactive and valuable to the participants joining! You can also refer to the [facilitator guidelines](https://docs.google.com/document/d/121dVaBW9Fn8WEPziy1t5UrpD0Ibmpig2evmTRqyK8_s/edit?tab=t.ybfxdh5qmr1g) and icebreaker questions if you need additional ideas.*
+
+*If you have a larger group (>4 participants), please see [[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]] for alternative formats.*
 
 #### End Callout
 
