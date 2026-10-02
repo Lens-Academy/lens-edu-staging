@@ -17,9 +17,7 @@ Add discussion note here:
 
 %%
 
-{--{"author":"Elua's AI","timestamp":1790936887533}@@Last updated March 2026
-
---}![[../widgets/aidigest-time-horizons-a]]
+![[../widgets/aidigest-time-horizons-a]]
 
 When ChatGPT came out in 2022, it could do 30 second coding tasks.
 
