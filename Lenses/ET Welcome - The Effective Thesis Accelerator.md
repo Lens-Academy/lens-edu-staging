@@ -141,7 +141,7 @@ The Mastermind is the core format of our weekly peer-group discussions. From Wee
 | 7 | Unblocking Your Impactful Career — use the Head, Heart, and Hand framework to diagnose what's actually blocking your career direction, and take real next steps on it |
 | 8 | Final Presentations — present your 8 weeks of work to your peers, give and receive feedback, celebrate progress, and set next steps beyond the program |
 
-\### 🌟 Before We Begin
+\### 🌟 Before We Begin ^before
 
 We wanted to share that you don't need to arrive with everything figured out. You don't need to have the perfect research question, a perfectly defined career plan, or a clear picture of exactly where you want to end up. That's what these 8 weeks are for!
 
