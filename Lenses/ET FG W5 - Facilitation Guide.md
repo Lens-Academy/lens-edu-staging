@@ -73,8 +73,18 @@ content::
 - For a Google Docs version for printouts, you can use [this](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?tab=t.2b71rt36knt9). But we recommend everyone access via Lens!
 - Week 5 Slides: [\[Shared - 2026\] Week 5: Developing your Theory of Change](https://docs.google.com/presentation/d/1CpEDm4zYTwsk_9lHqdDXEO1GSfM7laSXI7ulvLkPcMY/edit?slide=id.g3c2dd68837b_0_36#slide=id.g3c2dd68837b_0_36)
 
-\### 3m · Welcome & Group Check-In
+\### Recommended Structure for the Session
 
+*This is the flow we recommend for your 1.5h session, split into parts. Tap each stage to open it. Feel free to adapt the structure to your group - if you have a larger group (>4 participants) or worksheets are still early, see [[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]] for alternative formats.*
+
+#### Callout: Part 1: Welcome & Connection
+tone:: neutral
+
+#### Callout: 1. 3m · Welcome & Group Check-In
+collapse:: closed
+
+#### Text
+content::
 - **Welcome participants and check-in:** What is something you’re grateful for from your week or that you’re excited about?
 
 **Share the overview and intention of this session:**
@@ -85,8 +95,13 @@ content::
    - Two 20m Mastermind Sessions
    - Whole group discussion to synthesise
 
-\### 7m · 1:1 Speed Friending
+#### End Callout
 
+#### Callout: 2. 7m · 1:1 Speed Friending
+collapse:: closed
+
+#### Text
+content::
 **Pair participants (or groups of 3 if numbers require) and suggest some icebreaker questions to discuss:**
 
 - If you could instantly become an expert at something, what would it be?
@@ -95,25 +110,34 @@ content::
 
 **If you would like to do a group activity/game instead, [[../Lenses/ET FG Resources - Icebreaker Speed Friending Question List|here]] are some ideas.**
 
-#### Callout: Part 1: Worksheet
+#### End Callout
+
+#### End Callout
+
+#### Callout: Part 2: Worksheet
 tone:: neutral
+
+#### Callout: 3. 15m · Working on Worksheet Live
+collapse:: closed
 
 #### Text
 content::
-\### 15m · Part 1: Working on Worksheet Live
-
 Ask participants to open the Week 5 Worksheet in their workbook and introduce Worksheet: This worksheet is designed to help you draft a Theory of Change for your high-impact thesis/research project. It will help you take the abstract ideas of your research and connect them to real-world impact by walking you through the key steps of a ToC.
 
 - Set aside 10-15 minutes for each person to work on their worksheet independently (if already completed, learners can fine-tune and/or discuss their thinking)
 
 #### End Callout
 
-#### Callout: Part 2: Mastermind for Two Participants
+#### End Callout
+
+#### Callout: Part 3: Mastermind for Two Participants
 tone:: neutral
+
+#### Callout: 4. 20m · Mastermind Session 1
+collapse:: closed
 
 #### Text
 content::
-\### 20m · Mastermind Session 1
 
 **Goal:** Help the participant clarify thinking, generate options, and move forward by providing thoughtful, constructive input.
 
