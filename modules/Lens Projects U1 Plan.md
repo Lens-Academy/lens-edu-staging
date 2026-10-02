@@ -21,3 +21,7 @@ content::
 - Write the proposal canvas: a problem, a specific audience, an observable short-term change, and a $0 version (proposal draft 1)
 
 *The pages for this unit are being written and will appear here soon.*
+
+# Lens:
+source:: [[../Lenses/Lens Projects - Optional AI safety fieldbuilding]]
+optional:: true
