@@ -32,7 +32,7 @@ tone:: amber
 
 #### Text
 content::
-- **Select the 2 Mastermind Participants from this Week’s discussion using [[../Lenses/ET FG Resources - Mastermind Tracker|your Mastermind Tracker]]**
+- **Select the 2 Mastermind Participants from this Week’s discussion using your [[../Lenses/ET FG Resources - Mastermind Tracker|Mastermind Tracker]]**
 - **Communication (Friday before):** Send participants a reminder to do weekly readings before the session (see template message in CD HQ)
    - **For Chosen Mastermind Participants:** Let them know they are selected and to prepare lightly for it, and inform you if they can’t make it
 - **Read through this week’s module** to familiarise yourself with the content.
@@ -161,7 +161,7 @@ content::
       - Which FINER criterion is your question weakest on?
       - Would a different output type be more useful to your stakeholder, or more exciting to you?
       - Are there people, resources or organisations you've come across that could help?
-   - Prompting questions/ideas for the group: See [[../Lenses/ET FG Resources - Mastermind Tracker|Mastermind session prompts here]] for more ideas and guidance.
+   - Prompting questions/ideas for the group: See the Mastermind session prompts in the [[../Lenses/ET FG Resources - Mastermind Tracker|Mastermind Tracker]] for more ideas and guidance.
       - How can this group support you in reaching out to these stakeholders? What support may you need?
       - What would you do if you were in their position?
       - Are there people, resources, or organisations you’ve come across that could help?
