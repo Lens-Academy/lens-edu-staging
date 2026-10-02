@@ -28,6 +28,7 @@ One common way of understanding the impact of a thesis is about the research tha
 \#### Failure Mode #2. Poor Research Execution/Understanding
 
 ![Failure mode 2: research targets an important problem but with poor execution or the wrong solution, so there is no real-world impact](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w1-failure-mode-2-poor-execution-ad6132f7.webp)
+![[attachments/ET W1 - Reading 2 - Impact on the World-Screenshot 2026-10-02 at 12.37.00.png]]
 
 **Description:** You target a high-impact problem, but do a poor job on research execution. This pitfall is most likely when you lack a deep understanding of the problem’s root causes and interactions.
 
