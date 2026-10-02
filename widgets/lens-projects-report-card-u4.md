@@ -96,7 +96,7 @@ tags: [wip]
   </div>
   <div class="field" id="disc-field">
     <label for="f-disc">AI disclosure line <span class="req">*</span></label>
-    <p class="cue">One sentence, the way it would appear on your project card. Example: "AI helped write the plotting code and red-team my claims; the question, analysis and writing are mine."</p>
+    <p class="cue">One sentence, the way it would appear on your project card. Example: "AI helped write the plotting code and look for weak spots in my claims; the question, analysis and writing are mine."</p>
     <input id="f-disc" type="text">
   </div>
   <div class="field">
@@ -148,7 +148,7 @@ tags: [wip]
   var UNIT_GOALS = "write a review of the partner's draft against the track's rubric and send it within three days; revise from the review received; finish the artifact (done over perfect) and draft the write-up";
   var PROMPTS = ["What are you leaving imperfect on purpose?", "Did your predicted change happen? If not, what did you learn?"];
   var ITEM = "report-card-u4";
-  var AI_USES = ["Didn't use AI today", "Writing or fixing code", "Finding or summarising sources", "Red-teaming my plan or draft", "Editing for clarity", "Other"];
+  var AI_USES = ["Didn't use AI today", "Writing or fixing code", "Finding or summarising sources", "Finding weak spots in my plan or draft (red-teaming)", "Editing for clarity", "Other"];
   var NO_AI = AI_USES[0];
   var STORE_KEY = "lens-widget-lens-projects-report-card-u4";
 
