@@ -46,20 +46,22 @@ optional:: true
 source:: [[../Lenses/rationalanimations-everything-might-change-forever-this-century-or-well-go-extinct]]
 
 # Lens:
-optional:: true
+{++{"author":"Elua's AI","timestamp":1790935152373}@@source:: ![[../Lenses/A new Moores Law for AI agents]]
+
+# Lens:
+++}optional:: true
 source:: ![[../Lenses/What are the differences between a singularity, an intelligence explosion, and a hard takeoff|What are the differences between a singularity, an intelligence explosion, and a hard takeoff]]
 
 # Lens:
-optional:: true
-source:: ![[../Lenses/Cascades and Cycles]]
+{--{"author":"Elua's AI","timestamp":1790935152373}@@optional:: true
+source:: ![[../Lenses/Cascades and Cycles]]--}{++{"author":"Elua's AI","timestamp":1790935152373}@@source:: ![[../Lenses/The most important century]]++}
 
 # Lens:
 optional:: true
-source:: ![[../Lenses/Recursion Magic|Recursion Magic]]
+source:: {--{"author":"Elua's AI","timestamp":1790935152373}@@![[../Lenses/Recursion Magic|Recursion Magic]]--}{++{"author":"Elua's AI","timestamp":1790935152373}@@![[../Lenses/Cascades and Cycles]]++}
 
 # Lens:
-source:: ![[../Lenses/A new Moores Law for AI agents]]
+{--{"author":"Elua's AI","timestamp":1790935152373}@@source:: ![[../Lenses/A new Moores Law for AI agents]]
 
-# Lens:
-{--{"author":"Elua's AI","timestamp":1790935032199}@@optional:: true
---}source:: ![[../Lenses/The most important century]]
+# Lens:--}{++{"author":"Elua's AI","timestamp":1790935152373}@@optional:: true++}
+source:: {--{"author":"Elua's AI","timestamp":1790935152373}@@![[../Lenses/The most important century]]--}{++{"author":"Elua's AI","timestamp":1790935152373}@@![[../Lenses/Recursion Magic|Recursion Magic]]++}
