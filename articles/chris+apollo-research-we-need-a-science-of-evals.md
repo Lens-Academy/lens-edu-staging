@@ -120,5 +120,5 @@ Note: One way of quantifying aspects of Science of Evals adequately might be ask
 Evals are going to be an important piece of ensuring the safety of AI systems. They enable us to improve our decision-making because they provide important information and are already tied to safety-related decisions, e.g. in RSPs. For evals to be useful for high-stakes decisions, we need to have high trust in the evals process. Evals is a nascent field and we think a “Science of Evals” would greatly accelerate the maturation process of the field and allow us to make higher-confidence statements about the results of evals.  
   
 
-[^note-apollo-evals-apollo-1]: If you think further papers should be added to this list, feel free to contact us.
+%%[^note-apollo-evals-apollo-1]: If you think further papers should be added to this list, feel free to contact us.%%
 [^note-apollo-evals-apollo-2]: We intend to share a more detailed explanation of this idea soon.
