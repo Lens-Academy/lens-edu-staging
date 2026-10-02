@@ -25,8 +25,9 @@ Across this module, we move from historical prediction to default risk, from cat
 %%
 
 This module concludes the course and addresses two questions:
-Where could AI development lead?
-What can I do to shape that future? 
+
+* Where could AI development lead?
+* What can I do to shape that future? 
 
 
 

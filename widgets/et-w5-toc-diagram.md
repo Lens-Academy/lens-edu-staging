@@ -73,7 +73,7 @@ h4 { margin: 18px 0 4px; font-size: 14px; }
 </head>
 <body>
 <div class="eyebrow">My Theory of Change diagram</div>
-<p class="hint">1) Fill in your boxes, from your research outputs to your ultimate impact. 2) Click <b>"Link to..."</b> on a box, then click the box it leads to, to draw an arrow. 3) Name each arrow below with the assumption or uncertainty it depends on. Everything saves automatically.</p>
+<p class="hint">1) Fill in your boxes, from your research outputs to your ultimate impact. 2) Click <b>"Link to..."</b> on a box, then click the box it leads to, to draw an arrow. 3) Each arrow becomes a row in the table below, where you name the assumption or uncertainty it depends on. Everything saves automatically.</p>
 <p class="hint" style="margin-top:-6px"><b>👉 Can't see all four columns?</b> Scroll sideways inside the diagram (or swipe left on a phone) to reach <b>Long-Term Outcomes</b> and your <b>Ultimate Impact</b>.</p>
 <div id="root">
   <div class="wrap"><div class="stage" id="stage">
@@ -316,8 +316,6 @@ h4 { margin: 18px 0 4px; font-size: 14px; }
       tag.style.left = mx + "px"; tag.style.top = my + "px";
       var n = document.createElement("span"); n.className = "num"; n.textContent = String(i + 1); tag.appendChild(n);
       if (l.cert) { var cb = document.createElement("span"); cb.className = "cert " + l.cert.toLowerCase(); cb.textContent = l.cert; tag.appendChild(cb); }
-      var t = l.label.replace(/\s+/g, " ").trim();
-      if (t) tag.appendChild(document.createTextNode(t.length > 40 ? t.slice(0, 40) + "..." : t));
       labels.appendChild(tag);
     });
   }
