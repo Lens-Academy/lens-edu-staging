@@ -33,7 +33,6 @@ content::
 ![[attachments/ET W5 - Reading - Developing Your Theory of Change-Screenshot 2026-10-02 at 12.37.58.png]]
 
 
-![What is a Theory of Change? A step-by-step hypothesis of how your actions now contribute to progress towards an ideal vision in the future: 1. Outputs (I complete my research project), then 2. Outcomes (short-term and long-term changes in key stakeholders), then 3. Vision (my vision of a better world)](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-what-is-a-theory-of-change-96de1ad9.webp)
 \### Why do ToCs Matter?
 
 **At Effective Thesis, we believe that creating a ToC is one of the most important ways to increase the impact of any thesis (or research or project for that matter!) – yet it’s rarely taught at universities.**
