@@ -15,3 +15,8 @@ This is the core reading for this unit. It makes the case for testing your idea 
 
 #### Article
 source:: [[../articles/harris-you-need-user-buy-in-to-scale-your-impact]]
+to:: img1-23903583.jpg)
+
+#### Article
+source:: [[../articles/harris-you-need-user-buy-in-to-scale-your-impact]]
+from:: Why: You have users too
