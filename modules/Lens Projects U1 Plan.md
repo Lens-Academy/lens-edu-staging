@@ -120,6 +120,7 @@ These are real pieces of work by people in AI safety, to show the range of proje
 |---|---|
 | [Rerunning AI safety papers on new frontier models](https://www.lesswrong.com/posts/oKxc8maZGtnzgpNzx/rerunning-ai-safety-papers-on-every-frontier-release-would-1) | Rerunning a published result on a newer model checks whether it still holds |
 | [How To Become A Mechanistic Interpretability Researcher](https://www.lesswrong.com/posts/jP9KDyMkchuv6tHwm/how-to-become-a-mechanistic-interpretability-researcher) | Neel Nanda's guide, including how small projects start |
+| [Cain's Jawbone Eval (ARENA capstone projects)](https://www.arena.education/alumni-capstone-projects) | A new benchmark built in a few days at the end of ARENA: a task based on a puzzle mystery book, to test how well models plan and stay coherent over long tasks. Even the best model scored very low on the hardest part. The same page lists other capstones, including replications |
 
 \### Policy
 
