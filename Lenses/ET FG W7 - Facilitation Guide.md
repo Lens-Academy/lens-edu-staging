@@ -135,14 +135,20 @@ Ask participants to open the Week 7 Worksheet: "By the end of this worksheet, yo
 
 #### End Callout
 
-#### Callout: Part 2: Mastermind for Two Participants
+#### End Callout
+
+#### Callout: Part 3: Mastermind for Two Participants
 tone:: neutral
 
 #### Text
 content::
 **Focus this session’s mastermind session on their career thoughts and uncertainties, and how it aligns with their thesis journey today.**
 
-\### 20m · Mastermind Session 1
+#### Callout: 4. 20m · Mastermind Session 1
+collapse:: closed
+
+#### Text
+content::
 
 **Goal:** Help the participant clarify thinking, generate options, and move forward by providing thoughtful, constructive input.
 
