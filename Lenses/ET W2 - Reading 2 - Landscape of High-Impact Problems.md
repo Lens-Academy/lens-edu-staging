@@ -96,12 +96,6 @@ content::
 - [Importance, Neglectedness, and Tractability Framework by Probably Good.](https://probablygood.org/core-concepts/itn-framework/)
 - [A framework for comparing global problems in terms of expected impact by 80,000 hours](https://80000hours.org/articles/problem-framework/)
 
-***Examples of problem profiles using the ITN framework***
-
-- Profile on [factory farming by 80,000 hours](https://80000hours.org/problem-profiles/factory-farming/)
-- Profile on [preventing catastrophic pandemics by 80,000 hours](https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics/)
-- Why working on risks from power-seeking AI systems may be neglected and tractable [by 80,000 hours.](https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/#section-five)
-
 #### End Callout
 
 #### Text
