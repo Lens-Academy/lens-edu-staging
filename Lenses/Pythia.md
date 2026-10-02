@@ -1,7 +1,7 @@
 ---
 id: 4126ce24-1fb5-4f2c-8cdf-2f8c798d1996
 reading_minutes: 15
-tutor_minutes: 10
+tutor_minutes: 0
 summary_for_tutor: "plex's post takes 'Pythia' from Nick Land: an entity of self-fulfilling prophecy reaching back through time, driven by pure power seeking and empty of all other values. The argument: agency is 'time travel' (Scott Garrabrant), since an agent models future consequences and lets them choose present actions, so better predictors can steer further. Power seeking is convergent, multipolar competition weeds out agents that invest less in their own power, and the same pressure acts on subagents inside a singleton. plex thinks metastable alternatives such as an aligned sovereign may exist, but calls RL training, AIs watching AIs and better interpretability wildly insufficient: without a once-and-for-all alignment solution the future decays into Pythia and everyone dies."
 title: Pythia
 # tldr: A system that perfectly predicts the world might seem harmless — it just answers questions. But if it knows how its answers change your behavior, choosing which answer to give becomes an act of influence. This article explores the thin line between passive prediction and active manipulation.
@@ -31,6 +31,7 @@ Imagine you created an AI that perfectly predicts stock prices, but doesn't have
 %% PROPOSED FIX:
 Imagine an AI that perfectly predicts stock prices but can't trade. Using the Pythia argument, how could it come to steer the global economy just by choosing which accurate forecasts to give?
 %%
+%% COMMENTED OUT (tutor disabled while the question above is commented out):
 #### Chat
 instructions::
 The participant is answering this question:
@@ -69,3 +70,4 @@ The participant is answering this question:
 - Encourage an explicit “oracle becomes governor” scenario: name the stakeholders (funds, regulators, governments), describe what decisions they outsource, and show how dependence on forecasts turns into agenda-setting power.
 
 Begin now: respond to the participant’s answer following the structure above.
+%%
