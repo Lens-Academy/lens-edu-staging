@@ -1,6 +1,7 @@
 ---
 id: cd11efd8-f449-4964-8962-97cbe865a9bf
-slug: last-module-what-comes-next
+slug: your-journey-onwards
+slug-aliases: [last-module-what-comes-next]
 title: "Your journey onwards"
 discussion: https://discordapp.com/channels/1440725236843806762/1476535068779483259 
 ---

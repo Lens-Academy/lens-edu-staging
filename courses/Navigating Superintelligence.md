@@ -33,4 +33,4 @@ tags:
 
 # Module:  [[../modules/Last module]]
 
-# Meeting: What do we do next?
+# Meeting: {--{"author":"Elua's AI","timestamp":1790957476501}@@What do we do next?--}{++{"author":"Elua's AI","timestamp":1790957476501}@@Your journey onwards++}
