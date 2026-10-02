@@ -9,7 +9,7 @@ tags: [wip]
 content::
 \# 2. Step-by-step Guide: How to Generate and Select Your Top Question
 
-Now that you've seen how a problem becomes a research question, here's the step-by-step process you'll follow this week. Each step matches a step in your Week 3 Worksheet, so feel free to move between the reading and the worksheet as you go!
+Now that you've seen how a problem becomes a research question, here's the step-by-step process you'll follow this week. Each step matches a step in your Week 3 Worksheet, so feel free to move between the reading and the worksheet as you go! Click any step below to jump straight to it.
 
 - [[#^step-1|**Step 1: Bottlenecks to Progress on your problem area**]]
 - [[#^step-2|**Step 2: Generating a Wide Set of Candidate Questions**]]
