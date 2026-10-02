@@ -50,11 +50,13 @@ This week's Journalling Tab has space to reflect properly on what you've learned
 7. **When you're stuck on your career, diagnose whether it's Head, Heart, or Hand** (Week 7). Different uncertainties need different responses. **Head** uncertainties need information and analysis. **Heart** uncertainties need reflection and self-understanding. **Hand** uncertainties need action and experimentation. More research or action won't fix an emotional blocker, and more reflection or action won't answer a research question.
 8. **Your thesis is one experiment - not the finish line (Week 8).** Your career will continue to be an experiment. **Ideate → Test → Reflect → Iterate.** Keep applying design thinking to your career, learning from what happens, and letting your direction evolve as you gain new information, rather than needing to know the fixed perfect answer now!
 
-\## After the Program Ends
+***
+
+\## 2. Support after the Program Ends ^support
 
 We would love to continue to support your journey after the end of the program. A few concrete next steps for after the program that we would love to explore with you:
 
-- **Apply for [1:1 Advising with Effective Thesis](https://www.effectivethesis.org/services)** if you'd like continued, personalised support as your thesis and career direction keep developing beyond this program.
+- **Apply for 1\:1 Advising with [Effective Thesis](https://www.effectivethesis.org/services)** if you'd like continued, personalised support as your thesis and career direction keep developing beyond this program.
 - **Apply for our [Effective Thesis Fellowship](https://www.effectivethesis.org/key-services/effective-thesis-fellowship)** if you're looking for a more structured next step: work directly on a vetted, high-impact research project alongside an expert mentor or organisation.
 - **Post about your journey on LinkedIn.** We’ll send out your completion certificates in the next few weeks, and encourage you to share what you worked on and what you learned from the program! This can be especially useful if you’re still looking for collaborators and feedback!
 - [Take the pledge at Giving What We Can](https://www.givingwhatwecan.org/pledge/effectivethesis): **Take the pledge as a way to have impact now, not just someday.** You don't have to wait until you've landed your ideal high-impact role to start making a real difference, giving effectively is something you can commit to today, as a student.
@@ -65,7 +67,7 @@ We would love to continue to support your journey after the end of the program. 
    - [EA Introductory Program](https://www.effectivealtruism.org/courses/introductory-program): Free online courses to explore ways to have more impact with your careers and donations
    - Find a local EA group: Browse the [EA Forum’s directory of local and university groups](https://forum.effectivealtruism.org/allGroups) to find a group near you or at your university.
    - Join [Rethink Wellbeing's free 12-week CBT Lab](https://www.rethinkwellbeing.org/services), a program built specifically for people doing or pursuing high-impact work.
-   - Apply for 1:1 advising with [Probably Good](https://probablygood.org/advising/) or [80,000 Hours](https://80000hours.org/speak-with-us/)
+   - Apply for 1\:1 advising with [Probably Good](https://probablygood.org/advising/) or [80,000 Hours](https://80000hours.org/speak-with-us/)
    - More places to look for Fellowships or Internships:
       - [80,000 Hours Job Board](https://jobs.80000hours.org/)
       - [Probably Good Job board](https://jobs.probablygood.org/)
