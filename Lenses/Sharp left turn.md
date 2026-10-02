@@ -21,9 +21,9 @@ Nate Soares' central claim: capabilities generalise further than alignment. Trai
 
 #### Article
 source:: [[../articles/soares-a-central-ai-alignment-problem-capabilities-generalization-and-the-sharp-left-turn]]
-{--{"author":"Elua's AI","timestamp":1790936530341}@@to:: "generally intelligent, does not make them motivated by your objectives."--}{++{"author":"Elua's AI","timestamp":1790936530341}@@from:: "I expect navigating the acute risk period"
+from:: "I expect navigating the acute risk period"
 to:: "or render it aligned afterwards."
-hide-author:: true++}
+hide-author:: true
 
 %% #### Text
 content:: %%
