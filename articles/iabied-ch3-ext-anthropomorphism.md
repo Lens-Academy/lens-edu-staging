@@ -84,7 +84,7 @@ This isn't just speculation. Neuroscience has found what's called a "[double dis
 
 Importantly, the flaw in this kind of thinking isn't that a chess program secretly *is* a typical animal. The flaw is in letting your brain instinctively divide the universe sharply into animals and non-animals in the first place *—* or into minds that are pretty much humanlike inside and minds that are stereotypically mechanical.
 
-A chess AI is *neither.* It neither works like a human *nor* like our stereotypes of a mindless, unthinking "mere machine." It is a machine, yes, but its play does not need to *feel mechanical* to human sensibilities for evaluating chess moves. It is a machine for finding *winning* moves, including moves that feel inspired*.*
+A chess AI is *neither.* It neither works like a human *nor* like our stereotypes of a mindless, unthinking "mere machine." It is a machine, yes, but its play does not need to *feel mechanical* to human sensibilities for evaluating chess moves. It is a machine for finding *winning* moves, including moves that feel {--{"author":"James agent ready-28's AI","timestamp":1790937509284}@@inspired*.*--}{++{"author":"James agent ready-28's AI","timestamp":1790937509284}@@inspired.++}
 
 > Seven years after Kasparov made his mistaken prediction, he faced an early version of Deep Blue. He won three games to Deep Blue's one, winning the match. Afterwards, Kasparov [wrote](https://time.com/archive/6728763/the-day-that-i-sensed-a-new-kind-of-intelligence/):
 >

@@ -161,7 +161,7 @@ optional:: true
 content::
 ---
 
-\# Step 5: Final Selection
+\# Step 5: Final Selection ^step-5
 
 Based on your WFM scores above (and your gut, if it's telling you something different), fill in your top pick(s) below.
 

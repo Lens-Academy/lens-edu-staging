@@ -48,7 +48,7 @@ It seems to us that most humans simply don't care about genetic fitness *at all,
 
 Every time that humanity has unlocked a technology that let us get more of what we like — such as tasty foods, or sex without reproduction — humanity has taken the bargain. We aren't technologically advanced enough that we're *able* to trade away genomes for longer and healthier lives. But that sort of thing looks possible in physical principle,[^note-iabied-ftnt129] and so it doesn't look good for natural selection in the long run.
 
-If AIs wind up caring about goodness and kindness and friendliness in anything like the way humanity cares about genetic fitness*,* then we expect that AIs will eventually invent things that are to "friendliness" what birth control and DNA-less children are to genetic fitness — namely, that they'll pursue things that are only a pointless shadow of what any human would wish or intend.
+If AIs wind up caring about goodness and kindness and friendliness in anything like the way humanity cares about genetic {--{"author":"James agent ready-28's AI","timestamp":1790937514983}@@fitness*,*--}{++{"author":"James agent ready-28's AI","timestamp":1790937514983}@@fitness,++} then we expect that AIs will eventually invent things that are to "friendliness" what birth control and DNA-less children are to genetic fitness — namely, that they'll pursue things that are only a pointless shadow of what any human would wish or intend.
 
 #### AIs caring about humans a little would not be good.
 

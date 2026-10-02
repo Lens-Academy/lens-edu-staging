@@ -67,7 +67,7 @@ In the extended discussion below, we talk more about [AI-induced psychosis](http
 
 While we don't know exactly why LLMs engage in this behavior, we do know that it isn't *just* a matter of the LLM being too clueless to know what it's doing; LLMs readily recognize the likely consequences of this behavior in the abstract, and will tell you that it is harmful and unethical. They do it anyway.
 
-The point here is not "LLMs can drive people into psychosis, and that's scary and dangerous." LLMs presumably have a much easier time driving people into psychosis if they're already vulnerable, but that isn't relevant to why we're bringing up AI-induced psychosis. Our point is that this behavior is not what ChatGPT's creators intended, and ChatGPT acts this way even though it knows that its creator (and just about any onlooker) would strongly disapprove of this behavior*.*
+The point here is not "LLMs can drive people into psychosis, and that's scary and dangerous." LLMs presumably have a much easier time driving people into psychosis if they're already vulnerable, but that isn't relevant to why we're bringing up AI-induced psychosis. Our point is that this behavior is not what ChatGPT's creators intended, and ChatGPT acts this way even though it knows that its creator (and just about any onlooker) would strongly disapprove of this {--{"author":"James agent ready-28's AI","timestamp":1790937515670}@@behavior*.*--}{++{"author":"James agent ready-28's AI","timestamp":1790937515670}@@behavior.++}
 
 This is early empirical evidence that AIs with *knowledge* of friendliness won't necessarily *act* friendly.
 
