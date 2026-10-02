@@ -11,6 +11,8 @@ content::
 
 This journaling tab is an optional but highly recommended space for weekly personal reflection alongside the curriculum. Use it as a chance to slow down, check in with yourself, and think about what truly matters to you. Your thesis or project isn’t just something to complete - it can also be a tool for exploring your values, testing your fit, and learning about the life and impact you want to create. Take 10–15 minutes to reflect on the questions below. Write honestly and openly, as there are no “right” answers!
 
+![Your Ikigai: four overlapping circles for what you love, what you're good at, what the world needs, and what you can be paid for, with your Ikigai where all four overlap](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w1-reading-03.png)
+
 #### Question: Open
 id:: e8e8189a-88e3-449e-adea-9f562fd4bb69
 content::
