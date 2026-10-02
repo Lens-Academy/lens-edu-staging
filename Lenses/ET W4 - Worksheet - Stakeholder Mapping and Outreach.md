@@ -19,9 +19,18 @@ By the end of this worksheet, you will have a list of real, named stakeholders w
 
 ::card[[../Lenses/ET Additional - Using AI Tools Well|Using AI Tools Well]]{allow-external}
 
+:::callout {title="🗺️ What's in this worksheet (click a step to jump to it)" tone="neutral"}
+
+1. [[#^part-1|**Part 1: Summarise Your Research Question and Bottleneck**]]: a quick recap from last week
+2. [[#^part-2|**Part 2: Stakeholder Mapping and Outreach**]]: map real, named stakeholders and start reaching out, using your Stakeholder Outreach Tracker
+3. [[#^part-3|**Part 3: Stakeholder Interview Questions**]]: prepare the questions you'll ask in your interviews
+4. [[#^part-4|**Part 4: Next Steps**]]: note your open questions to bring to your discussion
+
+:::
+
 ---
 
-\# Part 1: Summarise Your Research Question and Bottleneck \[5 min\]
+\# Part 1: Summarise Your Research Question and Bottleneck \[5 min\] ^part-1
 
 #### Callout: 📝 Make a quick note or copy-paste of your research question and bottleneck from last week!
 tone:: blue

@@ -30,7 +30,7 @@ AI experts will sometimes talk about how various other competitors weren't *that
 
 But similar systems can have dramatically different effects. A nuclear chain reaction that produces 0.98 neutrons per neutron is very similar, in some sense, to a nuclear chain reaction that produces 1.02 neutrons per neutron; but the former peters out and the latter explodes. Chimpanzee brains are in some sense very similar to human brains, but they have very different impacts on the world.
 
-And in AI development *in real life*, OpenAI actually produced a useful chatbot before everyone else. A bunch of other players were working on AIs that were *somewhat similar;* a bunch of other players *caught up* later*.* But there was one AI that crossed the qualitative boundary first, ahead of the pack.
+And in AI development *in real life*, OpenAI actually produced a useful chatbot before everyone else. A bunch of other players were working on AIs that were *somewhat similar;* a bunch of other players *caught up* {--{"author":"James agent ready-28's AI","timestamp":1790937520200}@@later*.*--}{++{"author":"James agent ready-28's AI","timestamp":1790937520200}@@later.++} But there was one AI that crossed the qualitative boundary first, ahead of the pack.
 
 There seems to be some important boundary that humanity crossed and chimpanzees didn't, a boundary which let us build a technological civilization while they hang around in trees. Our best guess is that there's a similar boundary (or possibly several such boundaries) somewhere between modern AIs, and AIs whose thinking "comes together" well enough for them to develop their own varied technologies.[^note-iabied-ftnt246]
 

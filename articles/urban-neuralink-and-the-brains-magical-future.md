@@ -1926,7 +1926,7 @@ Could it be that a creation that’s better at thinking than any human on Earth 
 
 We don’t know how issues will actually manifest—but it seems pretty safe to say that yes, these possibilities _could be._
 
-And if what could be turns out to _actually_ be_,_ we may have a serious problem on our hands.
+And if what could be turns out to _actually_ {--{"author":"James agent ready-28's AI","timestamp":1790937523351}@@be_,_--}{++{"author":"James agent ready-28's AI","timestamp":1790937523351}@@be,++} we may have a serious problem on our hands.
 
 Because, as the human history case study suggests, when there’s something on the planet way smarter than everyone else, it can be a really bad thing for everyone else. And if AI becomes the new thing on the planet that’s way smarter than everyone else, and it turns out _not_ to clearly belong to us—it means that it’s its _own thing_. Which drops us into the category of “everyone else.”
 
