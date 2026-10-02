@@ -9,11 +9,30 @@ tags: [wip]
 content::
 \## Icebreaker/ Speed Friending Question List
 
-\#### Icebreaker Game Ideas
+\### Icebreaker Game Ideas
+
+**Ready-made resources**
 
 - **[Change Places If…](https://digthegames.com/p/title-dde51e4c30072d3b)**
 - **[Where do you stand?](https://www.icebreakerspot.com/activities/where-do-you-stand#google_vignette)** But you can have participants give their own statements instead of premade ones.
 - **[List of game](https://newnarratives.philosophy.columbia.edu/sites/newnarratives.philosophy.columbia.edu/files/content/Just%20Ideas%20media/documents/Embodied%20Learning%20exercises.pdf)** ideas
+
+**Quick games that work in person or online (5-10m)**
+
+- **Two Truths and a Thesis:** Each person shares two true facts about themselves and one "fake thesis topic" they'd never write about. The group guesses which is which.
+- **One Word Check-In:** Everyone shares one word for how they're arriving today, then (optionally) one sentence on why. Great for reading the room fast.
+- **Show and Tell:** Everyone grabs one object near them that says something about who they are and shares it in 30 seconds. Works brilliantly on Zoom!
+- **Rose, Bud, Thorn:** Share something going well (rose), something you're excited to grow (bud), and something that's been tricky (thorn) this week.
+- **Common Ground:** In pairs or trios, find three things you all have in common that aren't obvious (not "we're all students"!). Share the most surprising one with the group.
+- **The Impact Line-Up:** Ask everyone to line up (or rank themselves in the chat) by how certain they feel about their thesis topic right now. Then invite a few people at each end to share why. A gentle way to normalise uncertainty.
+- **Would You Rather (impact edition):** e.g. "Would you rather have a small, certain impact or a small chance of a huge one?" or "Would you rather work on a problem nobody's heard of, or a famous one?" Invite people to say why.
+- **Gratitude Round:** Each person thanks someone in the group (or in their life) for something specific from the past week. Lovely for later weeks once people know each other.
+
+**Online-friendly tweaks**
+
+- Use reactions or the chat for quick polls and rankings, so quieter people can join in without unmuting
+- Breakout rooms of 2-3 for speed friending, with the questions pasted in the chat before you open the rooms
+- Keep cameras optional, and offer a "pass" for anyone who isn't feeling it today
 
 \### Question List
 
@@ -51,3 +70,20 @@ content::
 - If you had a theme song for your life right now, what would it be?
 - What’s a guilty pleasure you secretly enjoy?
 - If you had a superpower for a day, what would you pick?
+
+**Impact & Thesis**
+
+- What first got you curious about the problem you care about most?
+- If your thesis could change one thing in the world, what would you want it to be?
+- Who is someone whose work or path you really admire, and why?
+- What's a belief about doing good that you've changed your mind on?
+- What would you work on if you knew you couldn't fail?
+- What's one skill you hope to come out of your thesis with?
+
+**Deeper Connection (great for later weeks)**
+
+- What's something you've learned about yourself during this program?
+- When do you feel most alive or energised in your work?
+- What's a fear you've been carrying about your thesis or career, and what helps you hold it?
+- What does a meaningful life look like to you right now?
+- What's one thing you'd love this group to know about you that hasn't come up yet?

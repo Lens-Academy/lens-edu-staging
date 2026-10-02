@@ -9,17 +9,23 @@ tags: [wip]
 content::
 \## Weekly Message Templates
 
-Here are message templates you could use for communication with your cohort each week. Feel free to adapt as needed!
+Here are message templates you could use for communication with your cohort each week. Feel free to adapt as needed! Tap each one to open it.
 
 **Contents**
 
-- Week 1 Message Template
-- Weeks 2-7 Message Template
-- Week 8 Message Template
-- Final Message
+- [Week 1 Message Template](#week-1)
+- [Weeks 2-7 Message Template](#weeks-2-7)
+- [Week 8 Message Template](#week-8)
+- [Final Message](#final-message)
 
-\### Week 1 Message Template
+\### Week 1
 
+#### Callout: Week 1 Message Template - kick-off message (send the Friday before Week 1)
+tone:: neutral
+collapse:: closed
+
+#### Text
+content::
 Hi everyone,
 
 Welcome to Week 1! 🎉
@@ -40,8 +46,18 @@ We’re so excited to have you join us on this journey. This week, we’ll be ki
 
 This first session is all about connection, reflection, and setting the foundation for the weeks ahead. Come ready to share, explore your impact mindset, and get to know your cohort. We can’t wait to see you there!
 
-\### Weeks 2-7 Message Template
+#### End Callout
 
+#### Text
+content::
+\### Weeks 2-7
+
+#### Callout: Weeks 2-7 Message Template - weekly reminder + Mastermind participants (send each Friday before)
+tone:: neutral
+collapse:: closed
+
+#### Text
+content::
 Hi everyone!
 
 **Focus of this week:** \[Paste in based on the week\]
@@ -74,8 +90,18 @@ This week, \[Name\] and \[Name\] will be in the Mastermind session. Please come 
 
 Looking forward to seeing you there and diving in!
 
-\### Week 8 Message Template
+#### End Callout
 
+#### Text
+content::
+\### Week 8
+
+#### Callout: Week 8 Message Template - final presentations reminder (send the Friday before Week 8)
+tone:: neutral
+collapse:: closed
+
+#### Text
+content::
 Hi everyone,
 
 We’ve made it to Week 8! 🎉
@@ -96,8 +122,18 @@ We’re excited to see your work, hear your reflections, and wrap up the program
 
 See you there!
 
+#### End Callout
+
+#### Text
+content::
 \### Final Message
 
+#### Callout: Final Message - wrap-up, feedback form and where to go next (send after the final session)
+tone:: neutral
+collapse:: closed
+
+#### Text
+content::
 Hi everyone,
 
 We did it, we’ve officially completed the Effective Thesis Accelerator! 🎉
@@ -127,3 +163,5 @@ Feel free to keep using our group chat to share updates, wins and questions with
 
 With gratitude,
 \[Your name\]
+
+#### End Callout
