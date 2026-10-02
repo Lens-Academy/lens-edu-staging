@@ -30,7 +30,7 @@ feedback-instructions:: Name the strongest part of the answer in one sentence, t
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/XLab Control - determining-the-usefulness]]
-notes:: Unit 3 of AI Control 1. Teaches the three parts of a regime (what is true, what can be known, what can be afforded), political will as the budget, and the five caricatured worlds. It is in an earlier module, so it shows no tag.
+notes:: Teaches the three parts of a regime (what is true, what can be known, what can be afforded), political will as the budget, and the five caricatured worlds.
 
 ## Lens:
 source:: [[../Lenses/XLab Control - plans-a-b-c-and-d-for-misalignment-risk]]

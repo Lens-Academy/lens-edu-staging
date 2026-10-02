@@ -15,7 +15,7 @@ This lesson is an outline rather than a finished treatment: the plan for this se
 
 \## Exposition
 
-In previous modules we mainly focus on schemers.[^note-scheming] Schemers seem to hold a small probability mass for existence given our current empirics, but whether this holds in the future is up for debate. Schemers are also the clear most threatening model archetype to us for reasons illustrated in previous modules.
+Until now we have mainly focused on schemers.[^note-scheming] Schemers seem to hold a small probability mass for existence given our current empirics, but whether this holds in the future is up for debate. Schemers are also the clear most threatening model archetype to us for reasons illustrated in earlier lessons.
 
 There exists a set of potential models that are misaligned and are not necessarily "schemers". These models, although explicitly less dangerous, are claimed to be more likely to appear in models (if not prevalent already). Each of these archetypes present their own set of threat models of which are quite important to handle well in order to reduce existential risk[^note-x-risk] from AIs. Control applies not only to schemers, but these archetypes as well, and very effectively at that while addressing different threats.
 

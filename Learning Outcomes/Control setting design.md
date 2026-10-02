@@ -33,4 +33,4 @@ source:: [[../Lenses/XLab Control - environment-construction]]
 notes:: The persistent-state setting: why the single-trajectory assumption fails for agents that return to the same repository, and what that does to monitors.
 ## Lens:
 source:: [[../Lenses/XLab Control - environments]]
-notes:: Unit 4. Surveys the control settings that already exist; background for this outcome, and it will not show this outcome's tag, since tagging is per module.
+notes:: Surveys the control settings that already exist; background for this outcome, and it will not show this outcome's tag, since tagging is per module.
