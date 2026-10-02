@@ -11,7 +11,7 @@ content::
 
 \### Week 2 Focus
 
-The focus on Week 2 is to help participants think strategically about how their thesis can create real-world impact by choosing problems that are important, neglected, and tractable (ITN). The goal is practice and mindset-building, not pressure to solve massive global problems in 8 weeks. *The core idea this week is to tackle one of the potential pitfalls of research - selecting the wrong problem (such that solving it doesn’t result in any impact).*
+Week 2 helps participants turn a broad sense of "wanting to have impact" into an actual problem worth spending their thesis on - one that's important, neglected and tractable (ITN), and that they're genuinely well-placed and excited to work on. The goal is practice and mindset-building, not pressure to solve massive global problems in 8 weeks. *The core idea this week is to tackle two pitfalls of research: selecting the wrong problem (so solving it doesn’t lead to real impact), and not considering enough options before narrowing.*
 
 \#### Key Ideas from Week 2
 
@@ -21,6 +21,8 @@ The focus on Week 2 is to help participants think strategically about how their 
    - Neglectedness: How few resources are currently dedicated to it?
    - Tractability: How realistically can progress be made?
 - **Integrating ITN with Ikigai from Week 1:** The goal here is to focus on problems that are both meaningful for the world and personally motivating and doable, rather than just problems that are important in theory, but have no strong personal fit!
+- **Expand before committing:** the cost of considering and discarding a bad idea is low, the cost of missing a really impactful one is high. Watch for confirmation bias.
+- **Landscape of high-impact problems:** Strongly encourage participants to pick one list to read through (e.g. 80,000 Hours, Non-Trivial, Our World in Data) to expand their landscape of problems they may not have yet considered.
 
 \### Overview of Week 2 Responsibilities
 
