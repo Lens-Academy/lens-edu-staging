@@ -149,7 +149,13 @@ Your thesis is not just an academic exercise. It can also be a real-world experi
 
 \### Decide on 1-3 Next Steps and Do It!
 
-Looking across what you've written in Part 1, **which 1–3 uncertainties matter most right now?**  Now look back at the **Head, Heart, and Hand next steps and resources** in this week's reading. Which ones could help you make progress on the uncertainties you've identified? Choose **1–3 concrete actions to take over the next week**. Try to make them specific and small enough that you can actually do them. For example:
+Looking across what you've written in Part 1, **which 1–3 uncertainties matter most right now?**
+
+Now look back at the **Head, Heart, and Hand next steps and resources** in this week's reading (each section has a numbered list of "Potential next steps you can take to make progress on these blockers"):
+
+::card[[../Lenses/ET W7 - Reading 2 - Examples and Resources for Different Blockers|3. Examples & Resources for Different Blockers]]
+
+Which ones could help you make progress on the uncertainties you've identified? Choose **1–3 concrete actions to take over the next week**. Try to make them specific and small enough that you can actually do them. For example:
 
 - **Head:** Spend 30 minutes mapping the key organisations working on this problem and identify what kinds of roles they hire for.
 - **Heart:** Set aside 20 minutes to reflect on which parts of my thesis work I have found energising or draining so far.
