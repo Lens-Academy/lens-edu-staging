@@ -31,4 +31,7 @@ feedback-instructions:: Name the strongest part of the answer in one sentence, t
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/XLab Control - how-might-we-safely-pass-the-buck-to-ai]]
-notes:: Teaches passing the buck, the capability and trust conditions relative to the human-oversight-preserving alternative, and the four arguments for trust. Practice with feedback: the practice question at the end of the lens (a different handoff: what would have to be true, which of it the evidence speaks to, and what argument could establish the rest). Judging behavioural and red-team evidence is also practised in Unit 1 (Control as a distinct safety case, Control evaluation methodology).
+notes:: Part 1 of 2. Teaches passing the buck and the capability and trust conditions relative to the human-oversight-preserving alternative; the opening summary sketches the four arguments for trust.
+## Lens:
+source:: [[../Lenses/XLab Control - how-might-we-safely-pass-the-buck-to-ai-2]]
+notes:: Part 2 of 2. Teaches the four arguments for trust in full. Practice with feedback: the practice question at the end of part 2 (a different handoff: what would have to be true, which of it the evidence speaks to, and what argument could establish the rest). Judging behavioural and red-team evidence is also practised in Unit 1 (Control as a distinct safety case, Control evaluation methodology).

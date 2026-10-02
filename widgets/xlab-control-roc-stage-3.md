@@ -1,7 +1,7 @@
 ---
 id: '44738616-dcb7-4b84-a92c-b649fdbc7571'
 title: "Same number, different safety, stage 3: what pins the operating point"
-summary_for_tutor: "Figure for stage 3 of the 'Same number, different safety' questions in part 3 of the AI control paper lesson. Two idealised monitors: innocent solutions score N(0,1); Monitor A's attack scores have spread 1.0 (spread wide), Monitor B's 0.4 (compressed). It shows, for each monitor, the innocent and attack score distributions with the 2% audit line, and both ROC curves with the AUCs, but no catch rates, so the learner has to judge from the shapes. Both AUC sliders are free (start A 0.92, B 0.97). Do not give the catch rates (at a 2% audit budget A catches about 47%; B about 9% at AUC 0.92 and about 47% at 0.97) before the learner has answered the stage's question."
+summary_for_tutor: "Figure for stage 3 of the 'Same number, different safety' questions in 'The AI control paper (4)'. Two idealised monitors: innocent solutions score N(0,1); Monitor A's attack scores have spread 1.0 (spread wide), Monitor B's 0.4 (compressed). It shows, for each monitor, the innocent and attack score distributions with the 2% audit line, and both ROC curves with the AUCs, but no catch rates, so the learner has to judge from the shapes. Both AUC sliders are free (start A 0.92, B 0.97). Do not give the catch rates (at a 2% audit budget A catches about 47%; B about 9% at AUC 0.92 and about 47% at 0.97) before the learner has answered the stage's question."
 height: auto
 tags: []
 ---

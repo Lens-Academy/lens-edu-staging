@@ -41,7 +41,10 @@ feedback-instructions:: Name the strongest part of the answer in one sentence, t
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/XLab Control - ai-control-paper-2]]
-notes:: Teaches the first-decisive-attempt decomposition, the fixed-odds prediction and why it fails, the opportunity cutoff and obfuscation effort, and the red team's best response over both decision factors. Practice with feedback: the deployment-race and red-team questions (why the first decisive attempt settles the game, interpreting the two terms, the numerical practice comparing a rare and a frequent attack strategy, what lowering the opportunity cutoff or the obfuscation effort does, what an uninformed red team loses), plus the optional upfront-auditing derivation.
+notes:: Teaches the first-decisive-attempt decomposition, the fixed-odds prediction and why it fails. Practice with feedback: the deployment-race questions (why the first decisive attempt settles the game, interpreting the two terms, how often to attack under fixed odds, whether the paper's red team matches the model and what causes the gap), plus the optional upfront-auditing derivation.
+## Lens:
+source:: [[../Lenses/XLab Control - ai-control-paper-2-2]]
+notes:: Teaches the opportunity cutoff and obfuscation effort, and the red team's best response over both decision factors. Practice with feedback: naming the decision factors, the numerical practice comparing a rare and a frequent attack strategy, what lowering the opportunity cutoff or the obfuscation effort does, and what an uninformed red team loses.
 ## Lens:
 source:: [[../Lenses/XLab Control - ai-control-paper]]
 notes:: Sets up the game this outcome reasons about: the blue team's protocol and 2% audit budget, the red team's secret attack policy, and safety defined as the chance of never shipping a backdoor, measured against the red team's best response.
