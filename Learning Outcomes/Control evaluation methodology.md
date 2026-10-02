@@ -31,4 +31,7 @@ feedback-instructions:: Name the strongest part of the answer in one sentence, t
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais]]
+notes:: Introduces the two-step approach (decide which models are untrusted, then evaluate the protocol) and has the learner run a five-scenario evaluation.
+## Lens:
+source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais-2]]
 notes:: The article passage on control evaluations teaches it; the three-question interview is the practice.

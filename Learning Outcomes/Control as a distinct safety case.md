@@ -29,4 +29,7 @@ feedback-instructions:: Name the strongest part of the answer in one sentence, t
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais]]
-notes:: Teaches the alignment versus control distinction and why control is easier to evaluate; practised in the recall questions and the trust practice question. The unit's welcome lens also frames it but is inline, so it cannot be listed here.
+notes:: Teaches the alignment versus control distinction and introduces why control is easier to evaluate (it reduces to a capability question, art. l.44); practised in the control-versus-alignment recall. The unit's welcome lens also frames it but is inline, so it cannot be listed here.
+## Lens:
+source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais-2]]
+notes:: Teaches in full why control is easier to evaluate than alignment; practised in the tractability recall and the trust practice question.
