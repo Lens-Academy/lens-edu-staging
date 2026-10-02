@@ -83,67 +83,6 @@ feedback-instructions:: Reply in at most 60 words. Say what the learner got righ
 #### End Callout
 
 #### Question: Open
-id:: 992ae249-8438-4589-bb21-258b544ced73
-content::
-\#### Quietly underdelivering
-
-Across months, your model performs slightly worse on alignment research than it should. There aren't any specific instances you can point to, there's just worse performance overall.
-
-Where does this sit on the spectrum, and which method fits best? What risks does that method leave open?
-assessment-instructions:: Score out of 100. 25: placement: the far diffuse end, since the harm is spread thinly over many actions with no single incident. 35: the method: online training, sampling some of the model's work, rating it and training on the rating, which pushes the scheming model's performance toward what a non-scheming model would deliver. 40: residual risks, 20 each for up to two that the answer explains, such as: underperformance so small on each sample that training barely pushes against it; exploration or gradient hacking; training making the sabotage sneakier and rarer instead of removing it; and, if auditing alone is used instead, not knowing what performance an honest model would deliver, so sandbagging hides in that uncertainty. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "This is the far diffuse end, and it is the case asynchronous online training was made for: sampling a fraction of actions, rating them, and training on the rating forces the scheming model's behavior toward a non-schemer's on the trained metric. The residual risks are the post's list of what a schemer can still get away with: degradation too small per sample for SGD to push against, exploration or gradient hacking, and, if you rely on auditing alone instead, the problem that you do not know what performance a non-scheming model would deliver, so sandbagging can hide inside that uncertainty."
-feedback-instructions:: Reply in at most 120 words, short paragraphs, no lists. Say what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). If the learner says they do not understand, give one concrete foothold from the reading (for instance, ask what a rating on a sampled action can be used for besides reading it) rather than repeating the question; if their next message still does not attempt it, rephrase the whole question in different terms.
-
-#### Question: Open
-id:: 576e3319-799f-46b3-aecf-3846279c48c4
-content::
-\#### A dozen well-placed mistakes
-
-The model makes occasional honest-looking mistakes at unusually damaging moments. Each is plausibly deniable, and there are perhaps a dozen across the whole deployment.
-
-Where does this sit, and which of the post's levers matter most here?
-assessment-instructions:: Score out of 100. 40: placement: in the middle, between the concentrated and diffuse ends, 25 for the placement and 15 for the reason: a dozen bad actions give almost no training signal against the policy, yet none of them is decisive on its own. 60: levers, 30 each for up to two, such as: training the monitoring models online on the few real bad actions; choosing the most informative (most suspicious) trajectories to audit rather than random ones; and getting the most out of the few caught examples (improving sample efficiency, for example by proliferating them). Give credit for each point whenever the answer shows the idea, in any wording. Cap at 40 if the answer treats this as plainly diffuse and relies only on online training of the policy. Model answer, for the feedback, not a grading checklist: "The middle of the spectrum, and the hardest case. A dozen actions provide almost no training signal against the policy, and no single incident is decisive, so the governing constraint is the product of per-action escape chances staying high. The post's levers for exactly this regime: online training of monitoring models (most important when there are enough bad actions that training the monitor helps but too few for random sampling to encounter many), selecting the most informative trajectories to audit, and spending effort on sample efficiency for the few caught examples, since monitors were trained on offline examples and real caught ones plausibly improve them quickly."
-feedback-instructions:: Reply in at most 150 words, short paragraphs, no lists. Say plainly what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). If the learner says they do not understand, give one concrete foothold from the reading (for instance, ask how many training samples a dozen bad actions provide) rather than repeating the question; if their next message still does not attempt it, rephrase the whole question in different terms.
-
-#### Question: Open
-id:: 60b72d27-e3fa-4844-9a02-4849900709fc
-content::
-\#### The monitor that looks away
-
-You use an untrusted model to select which of the policy's actions humans review, but you suspect that it systematically under-flags the most pertinent actions.
-
-What does the post recommend for this case, and what limits the recommendation?
-assessment-instructions:: Score out of 100. 50: the recommendation: red-team the monitor by inserting issues, as subtle as possible, into real outputs of the policy and checking that the monitor flags them. 50: the limit: a monitor that can tell the inserted issues apart from the policy's own bad actions can flag the first and hide the second, so red-teaming only works if it cannot recognise them, the same collusion problem as in untrusted monitoring. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Red-team the monitor: insert issues that are as subtle as possible into real outputs from the policy and check they get flagged. The limit is the recognition problem: to under-flag safely, the monitor must distinguish the policy's natural bad actions from the ones you inserted, which is the same collusion problem as untrusted monitoring. The post notes one difference from the high-stakes version: in a diffuse setting, catching only a subset of the policy's bad actions can suffice, so the collusion has to be reliable on the policy's real bad actions too, not just under red-teaming."
-feedback-instructions:: Reply in at most 120 words, short paragraphs, no lists. Say plainly what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). If the learner says they do not understand, give one concrete foothold from the reading (for instance, ask what the monitor would have to tell apart in order to hide the policy's issues and still pass your tests) rather than repeating the question; if their next message still does not attempt it, rephrase the whole question in different terms.
-
-#### End Callout
-
-#### Callout: Responding to optimism about diffuse control
-tone:: amber
-
-#### Text
-content::
-Below are confident claims that one method or another dissolves diffuse failures. For each, write the best response using the post's analysis.
-
-Your rebuttals don't need to be fully dismissive of the claims. Think about the specific weaknesses of each claim and attack there.
-
-:::callout {title="Post toolbox" tone="neutral" collapse="closed"}
-**The two classes of methods.** Either you do online training, which constrains the model to perform well according to the exact local loss of the training process, or you do not, leaving the model free to generalize arbitrarily, and instead do online auditing with responses to suspicious behavior. The reasons not to train: your best affordable proxy may degrade non-scheming performance, the logistics are hard, and training may teach the model about your countermeasures and oversight.
-
-**What a schemer can get away with under online training.** Behavior whose oversight scores are only negligibly lower than a non-schemer's, so training pushes against it negligibly (how much worse depends on SGD's sample efficiency relative to discrimination); rare bad actions whose chance of discovery stays low in aggregate across deployment; and exploration or gradient hacking. SGD may also update the model to be sneakier and less frequent rather than removing the scheming.
-
-**Debate's promise and the collusion catch.** Most errors and sabotage in software engineering and ML research are relatively easy to verify once pointed out and explained, which makes debate very powerful if exploration hacking is avoided. But debaters can exploration hack by never raising certain issues, and red-teaming them creates the same recognition problem as untrusted monitoring: flag the issues you inserted while hiding the policy's natural ones. In a diffuse setting the collusion must also be reliable on the policy's real bad actions, since catching a subset can suffice for the deployer.
-
-Ideas you can draw on:
-
-- **What training forces.** Online training means a schemer cannot repeatedly behave systematically worse on the trained oversight metric as the difference gets updated away.
-- **SGD vs discrimination.** It is unclear whether SGD removes bad behavior too weak to detect statistically, or whether inductive biases favoring scheming preserve a small persistent loss offset.
-- **The escape-probability product.** Rare subtle bad actions survive if the product of per-action chances of going unnoticed stays high across the deployment.
-- **Exploration hacking.** A behavior the model never samples generates no training signal, which means debaters can exploration hack by never raising certain kinds of arguments.
-- **Collusion and recognition.** An untrusted monitor or debater that hides the policy's real issues must distinguish them from red-team-inserted ones.
-- **Expected cost if benign.** Design responses so the expected cost is low if the model is not harmful.
-:::
-
-#### Question: Open
 id:: 8f411fb8-cbdb-4e20-8ca1-d589331fc377
 content::
 **The critic argues:** We can avoid online training by reviewing a random sample of the model's actions, and if it sandbags or sabotages, we'll see suspicious behavior or a performance drop and respond then.
