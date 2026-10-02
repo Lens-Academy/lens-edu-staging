@@ -91,7 +91,7 @@ Playing the inner game well produces evidence; most dramatically, a scheming mod
 content::
 \## The three states and the safety budget
 
-Related reading (optional, revisited later in this lesson): [[../Lenses/XLab Control - safety-usefulness-tradeoff-model|Efficient tradeoffs and the safety-usefulness tradeoff model]].
+Builds on the previous lesson, [[../Lenses/XLab Control - safety-usefulness-tradeoff-model|Efficient tradeoffs and the safety-usefulness tradeoff model]], which this lesson comes back to later.
 
 We can split potential regimes, the bundle of conditions that we use to describe the world, into three parts or sections of information that we interact with very differently.
 
