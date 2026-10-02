@@ -8,7 +8,8 @@ title: "Leveraging Scale"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Leveraging Scale|Leveraging Scale]]
+{++{"author":"Iris's AI","timestamp":1790942515227}@@render-as-non-article-text:: true
+++}source:: [[../articles/AI Safety Atlas - Capabilities - Leveraging Scale|Leveraging Scale]]
 
 #### Question: Open
 id:: 7d2c8384-b9cc-4928-813e-208456e40a83

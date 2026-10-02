@@ -8,7 +8,8 @@ tutor_minutes: 6
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Evaluations - Benchmarks|Benchmarks]]
+{++{"author":"Iris's AI","timestamp":1790942526461}@@render-as-non-article-text:: true
+++}source:: [[../articles/AI Safety Atlas - Evaluations - Benchmarks|Benchmarks]]
 
 #### Text
 optional:: true

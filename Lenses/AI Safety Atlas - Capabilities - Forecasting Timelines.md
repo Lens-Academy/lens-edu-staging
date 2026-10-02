@@ -8,7 +8,8 @@ title: "Forecasting Timelines"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Forecasting Timelines|Forecasting Timelines]]
+{++{"author":"Iris's AI","timestamp":1790942513272}@@render-as-non-article-text:: true
+++}source:: [[../articles/AI Safety Atlas - Capabilities - Forecasting Timelines|Forecasting Timelines]]
 
 #### Text
 optional:: true

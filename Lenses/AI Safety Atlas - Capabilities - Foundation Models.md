@@ -8,7 +8,8 @@ title: "Foundation Models"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Foundation Models|Foundation Models]]
+{++{"author":"Iris's AI","timestamp":1790942514216}@@render-as-non-article-text:: true
+++}source:: [[../articles/AI Safety Atlas - Capabilities - Foundation Models|Foundation Models]]
 
 #### Text
 optional:: true
