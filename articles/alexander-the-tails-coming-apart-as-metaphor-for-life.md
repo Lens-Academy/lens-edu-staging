@@ -25,9 +25,9 @@ Add discussion note here:
 
 %%
 
-[Link post](http://slatestarcodex.com/2018/09/25/the-tails-coming-apart-as-metaphor-for-life/)
+{--{"author":"Elua's AI","timestamp":1790943207835}@@[Link post](http://slatestarcodex.com/2018/09/25/the-tails-coming-apart-as-metaphor-for-life/)
 
-_\[Epistemic status: Pretty good, but I make no claim this is original\]_
+--}_\[Epistemic status: Pretty good, but I make no claim this is original\]_
 
 A neglected gem from Less Wrong: [Why The Tails Come Apart](https://www.lesswrong.com/posts/dC7mP5nSwvpL65Qu5/why-the-tails-come-apart), by commenter Thrasymachus. It explains why even when two variables are strongly correlated, the most extreme value of one will rarely be the most extreme value of the other. Take these graphs of grip strength vs. arm strength and reading score vs. writing score:
 

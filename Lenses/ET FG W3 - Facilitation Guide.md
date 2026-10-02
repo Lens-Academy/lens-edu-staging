@@ -11,17 +11,21 @@ content::
 
 \### Week 3 Focus
 
-The focus of Week 3 is on turning broad problems into a small handful of concrete, answerable research questions. You'll help participants map their problem area, diagnose its key bottleneck, generate a wide set of candidate questions, and use a Weighted Factor Model to narrow down to their top 1-2. The worksheet is the main focus this week, the reading is written as its companion, so feel free to move between the two as you go.
+Week 3 turns a broad problem area into a small handful of concrete, answerable research questions. You'll help participants diagnose their problem's key bottleneck, generate a wide set of candidate questions, narrow them in stages, and use a Weighted Factor Model (WFM) to choose their top 1-2.
+
+The worksheet is the main focus this week, and the reading is written as its companion (same steps, same order). Encourage participants to move between the two and to hold their top questions loosely, since Week 4's stakeholder conversations will likely reshape them.
+
+*The core idea this week: a problem area is a territory to explore, not a question. Make a long list first to broaden your options, then narrow it iteratively based on criteria that are important to you.*
 
 \#### Key Ideas from Week 3
 
+- **The funnel of iterative depth for research questions.** Go wide before going deep! Participants brainstorm a long list of questions, then narrow it down in rounds, giving each idea a few minutes at first and more time as the list shrinks. This matters because it's easy to fall for the first idea that feels good enough and miss a much more impactful one. Considering an idea costs very little, but never considering the right one can cost hundreds of hours on the wrong thesis.
 - **Bottleneck Analysis – identifying what limits progress:** Understanding bottlenecks helps avoid the common research trap of treating symptoms instead of causes or designing solutions that don’t address the real barriers.
-- **Main types of bottlenecks:**
-   - Lack of understanding
-   - Lack of effective solutions
-   - Lack of implementation of effective solutions
-- **Question Ideation and the Iterative Depth Approach**
-- **Understanding and Building Weighted Factor Models**
+- **Main types of bottlenecks on progress on important problems.** This matters because each type points to a completely different kind of useful research.
+   1. Lack of understanding
+   2. Lack of effective solutions
+   3. Lack of implementation of effective solutions
+- **Weighted Factor Models.** Participants pick the factors that matter most to them, weigh them, and score their shortlist. This matters because it makes their reasoning visible instead of staying a vague gut feeling. If the top-scoring question isn't their gut favourite, that tension is really useful to get curious about!
 
 \### Overview of Week 3 Responsibilities
 
