@@ -1,6 +1,6 @@
 ---
 id: '9e8ff317-9a66-4cd7-a40b-59aaac733262'
-title: "Week 3: Prioritising Research Questions"
+title: "Week 3: Generating & Prioritising Research Questions"
 reading_minutes: 7
 tutor_minutes: 0
 tags: [wip]

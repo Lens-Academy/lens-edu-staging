@@ -1,6 +1,6 @@
 ---
 id: '2b35972f-8686-408e-8f6f-7669df49de5f'
-title: "Week 4: Stakeholder Outreach and Interviews"
+title: "Week 4: Stakeholder Mapping and Outreach"
 reading_minutes: 8
 tutor_minutes: 0
 tags: [wip]
