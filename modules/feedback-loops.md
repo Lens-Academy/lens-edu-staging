@@ -46,6 +46,7 @@ optional:: true
 source:: [[../Lenses/rationalanimations-everything-might-change-forever-this-century-or-well-go-extinct]]
 
 # Lens:
+optional:: true
 source:: ![[../Lenses/What are the differences between a singularity, an intelligence explosion, and a hard takeoff|What are the differences between a singularity, an intelligence explosion, and a hard takeoff]]
 
 # Lens:
