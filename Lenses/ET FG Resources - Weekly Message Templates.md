@@ -52,7 +52,7 @@ Hi everyone!
 | Week 3 | **Generating & Prioritising Research Questions:** We’ll be mapping your problem area, diagnosing its key bottleneck, generating a wide set of candidate questions, and using a Weighted Factor Model to narrow down to your top 1-2. |
 | Week 4 | **Stakeholder Mapping and Outreach:** We’ll be translating stakeholder mapping into real-world outreach and expert interviews, as well as addressing the emotional barriers to outreach. |
 | Week 5 | **Developing your Theory of Change:** We’ll be developing a Theory of Change (ToC) to connect your thesis research to real-world change. |
-| Week 6 | **Reverse Engineering Your Thesis from Your ToC:** We’ll be reverse engineer their thesis from their ToC. Focus on defining tangible outputs and formulating actionable research questions. |
+| Week 6 | **Reverse Engineering Your Thesis from Your ToC:** We’ll be reverse engineering your thesis from your ToC. Focus on defining tangible outputs and formulating actionable research questions. |
 | Week 7 | **Unblocking Your Impactful Career:** We’ll go through the Head, Heart, Hand framework to diagnose your own blockers and take real, concrete next steps |
 
 **📌 Todos**
