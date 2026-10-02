@@ -108,4 +108,4 @@ You'll find everything else you need in the Resources section - dip in whenever 
 - **[[../Lenses/ET FG Resources - Weekly Message Templates|Weekly Message Templates]]:** ready-to-send messages for every week, plus a final message
 - **[[../Lenses/ET FG Resources - Facilitator Guidelines|Facilitator Guidelines]]:** our core principles for holding the space
 - **[[../Lenses/ET FG Resources - Icebreaker Speed Friending Question List|Icebreaker/ Speed Friending Question List]]:** games and questions to open sessions
-- **[[../Lenses/ET FG Resources - Inviting Experts|Inviting Experts]]:** who to invite, how to run the session, and an outreach email template
+- **[Inviting Experts](https://staging.lensacademy.org/courses/et-accelerator-facilitator-guides/module/et-fg-resources#inviting-guests-to-join-your-sessions):** who to invite, how to run the session, and an outreach email template
