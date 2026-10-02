@@ -13,9 +13,11 @@ tags:
 
 # Module: [[../modules/what-even-is-ai]]
 
+# Meeting: What is AI?
+
 # Module: [[../modules/feedback-loops]]
 
-# Meeting: AI and Feedback Loops
+# Meeting: {--{"author":"Elua's AI","timestamp":1790952841506}@@AI--}{++{"author":"Elua's AI","timestamp":1790952841506}@@Feedback Loops++} and {--{"author":"Elua's AI","timestamp":1790952841506}@@Feedback Loops--}{++{"author":"Elua's AI","timestamp":1790952841506}@@Recursive Self-Improvement++}
 
 # Module: [[../modules/Cognitive Superpowers]]
 
