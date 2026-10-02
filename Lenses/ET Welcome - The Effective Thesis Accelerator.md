@@ -50,6 +50,24 @@ We’re committed to making sure you feel supported, confident, and connected th
 
 ---
 
+\# 📝 Onboarding Form (Required)
+
+#### Callout: ⭐ Please complete this onboarding form before beginning the course
+tone:: amber
+
+#### Text
+content::
+**Everyone must complete this onboarding form before starting Week 1.** It helps us get to know you, your thesis plans and what you're hoping to get out of the Accelerator, so we can support you as well as possible!
+
+#### Widget
+source:: [[../widgets/et-onboarding-form]]
+
+#### End Callout
+
+#### Text
+content::
+---
+
 \# 🎥 Quick Overview of How to Use This Platform
 
 New to Lens? Before diving in, we recommend watching this short walkthrough of how to navigate the platform, from finding your weekly readings and worksheets to saving your answers along the way!
