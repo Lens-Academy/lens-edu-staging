@@ -55,7 +55,18 @@ h4 { margin: 18px 0 4px; font-size: 14px; }
 .lrow .row { display: flex; gap: 8px; align-items: flex-start; }
 .lrow textarea { flex: 1; min-height: 40px; border: 1px solid var(--border); border-radius: 6px; resize: vertical; padding: 6px 8px; font: inherit; font-size: 13px; }
 .lrow textarea:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
-.lrow .rm { font: inherit; font-size: 11px; color: var(--muted); border: 1px solid var(--border); background: #fff; border-radius: 6px; padding: 4px 8px; cursor: pointer; }
+.lrow .rm { font: inherit; font-size: 11px; color: var(--muted); border: 1px solid var(--border); background: #fff; border-radius: 6px; padding: 4px 8px; cursor: pointer; margin-top: 6px; }
+.agrid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; }
+@media (max-width: 640px) { .agrid { grid-template-columns: 1fr; } }
+.fld { display: block; }
+.fld > span { display: block; font-size: 11.5px; font-weight: 600; color: var(--muted); margin: 0 0 3px; }
+.fld textarea { width: 100%; min-height: 54px; border: 1px solid var(--border); border-radius: 6px; resize: vertical; padding: 6px 8px; font: inherit; font-size: 13px; }
+.fld select { width: 100%; border: 1px solid var(--border); border-radius: 6px; padding: 6px 8px; font: inherit; font-size: 13px; background: #fff; margin-bottom: 8px; }
+.fld textarea:focus, .fld select:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+.cert { display: inline-block; font-size: 10px; font-weight: 600; border-radius: 4px; padding: 0 4px; margin-right: 4px; }
+.cert.low { background: #f6d5d5; color: #8a2a2a; }
+.cert.med { background: #f8e3c8; color: #7a4a10; }
+.cert.high { background: #d7ecd9; color: #2a6a35; }
 .empty { font-size: 13px; color: var(--muted); }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 </style>
