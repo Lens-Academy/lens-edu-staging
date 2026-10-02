@@ -31,7 +31,7 @@ Each unit is about 3 to 5 hours of work plus a 90-minute group meeting. The cour
 \## The path
 
 :::callout {title="Unit 1: Plan" tone="blue"}
-Choose your track, agree the AI use policy, see what earlier participants made, and write your proposal canvas: a problem, a specific audience, the change you expect, and a version you can make with what you already have. Meeting 1: two-minute pitches, and the group challenges your audience and your predicted change.
+Choose your track, agree the AI use policy, browse a gallery of potential projects, and write your proposal canvas: a problem, a specific audience, the change you expect, and a version you can make with what you already have. Meeting 1: two-minute pitches, and the group challenges your audience and your predicted change.
 :::
 
 :::callout {title="Unit 2: Start acting" tone="blue"}

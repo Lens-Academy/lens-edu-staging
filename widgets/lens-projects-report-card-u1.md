@@ -145,7 +145,7 @@ tags: [wip]
 
 <script>
   var UNIT = "Unit 1: Plan";
-  var UNIT_GOALS = "choose a track; agree the AI use policy (use AI as a tool, not a decision-maker); look at what earlier participants made; build a theory of change; write the proposal canvas";
+  var UNIT_GOALS = "choose a track; agree the AI use policy (use AI as a tool, not a decision-maker); browse a gallery of potential projects; build a theory of change; write the proposal canvas";
   var PROMPTS = ["Why this, why now, why me?", "What would make this project a waste of time?"];
   var AI_USES = ["Didn't use AI today", "Writing or fixing code", "Finding or summarising sources", "Red-teaming my plan or draft", "Editing for clarity", "Other"];
   var NO_AI = AI_USES[0];
