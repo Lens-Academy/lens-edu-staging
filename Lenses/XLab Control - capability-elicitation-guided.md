@@ -1,21 +1,21 @@
 ---
 id: 'b62dccd8-c51f-47da-be38-72db7fd1d2f5'
-title: "Stress-Testing Capability Elicitation"
-tldr: "Someone hands you a model and says it cannot write malware. How would you check? This lesson walks you through the paper that built a model which genuinely can, and genuinely will not show you, so that the checking method itself can be graded. Six times you stop and design the next step before the authors reveal theirs."
-summary_for_tutor: "Module 5, the guided version of Greenblatt, Roger, Krasheninnikov and Krueger's password-locked models paper. The ungated version of the same paper is the sibling lens titled Stress-Testing Capability Elicitation, which is marked optional. The paper is split into thirteen Article excerpts in the source lesson's order, plus the reference list as an optional fourteenth, and inserted teaching material sits between them: five teaching lessons that are not part of the paper (fine-tuning-based elicitation, classes of experimental setups, comparing the classes, an initial experiment, hypotheses and confounds and the small experiment's results), nine shorter inline notes, six checkpoints, one interactive reconstruction of the locking pipeline, and four recall questions. The Text segments come from the source lesson except the opening 'Before you start' segment, the one-line lead-in to the appendix C.2 excerpt, and one navigational sentence about where Figure 3 sits, and the closed callout after the interactive reconstruction that names the two palette blocks belonging to no chart, which are Lens-written. The checkpoint prompts keep the source wording. Three checkpoints were required in writing in the source, with a character minimum, and those are required here; three were gated on a click rather than a typed answer, and those are optional here, as are the four recall questions, which the source renders as tap-to-reveal cards. Every checkpoint is a prediction written before the answer has been read, so grade the reasoning rather than agreement with the authors, and never hand over the content of the section that follows. The assessment briefs are Lens-written; their criteria come from the section immediately after each checkpoint."
-reading_minutes: 70
-tutor_minutes: 25
+title: "Stress-Testing Capability Elicitation (1): how would you know a model is hiding something?"
+tldr: "Someone hands you a model and says it cannot write malware. How would you check? Before reaching the paper's answer, this part asks you to design the setting yourself: what kind of model hides a capability you can still measure, and what a first small experiment could and could not show. Three times you stop and decide the next step before the authors reveal theirs."
+summary_for_tutor: "First of three lenses walking through Greenblatt, Roger, Krasheninnikov and Krueger's password-locked models paper in guided form (the ungated full paper is the separate optional lens capability-elicitation-paper). This part covers the paper's introduction up to 'only a few natural elicitation failures are known' and section 2, which defines password-locked models. Three Lens/XLab teaching texts that are not part of the paper sit between them and two more follow section 2: fine-tuning-based elicitation (Hubinger's argument that supervised fine-tuning, unlike RL, is hard to resist without gradient hacking, and exploration hacking as the RL failure mode); four classes of experimental setup (natural elicitation failures, instructed underperformance, safety-trained models, trained-in conditional behaviour); a comparison of the classes on three considerations (known capability ceiling, match to the threat model, cheap controlled experiments); Fabien Roger's small Pythia precursor experiment (addition with chain of thought and review generation); and the hypotheses, confounds and results of that experiment (RL fails to unlock addition; review generation collapses to five-star text, so the lock never binds). There is also a short note contrasting password-locking with Sleeper Agents. There are three 'Before you read on' checkpoints: settings for studying hidden capabilities (optional), three considerations and the setup they suggest (required, 100 characters), and the hypotheses and confounds of the small experiment (optional). Every checkpoint is a prediction written before the answer has been read, so grade the reasoning rather than agreement with the authors, and never hand over the content of the section that follows. The assessment briefs are Lens-written; their criteria come from the section immediately after each checkpoint. The next lens, part 2, reads the scaled construction (sections 3-4), the tasks and supervised elicitation (section 5); part 3 reads RL elicitation, password-locking from scratch and the limitations and conclusion. If the learner asks how the scaled experiments turned out, point them forward rather than answering."
+reading_minutes: 19
+tutor_minutes: 21
 tags: []
 ---
 #### Text
 content::
 \## Before you start
 
-This is the guided walkthrough of the paper. Several of its sections are collapsed and restructured here so that each design choice arrives as a question before it arrives as an answer, and you will be stopped six times to write down what you would do next. If you would rather read the paper straight through, [[../Lenses/XLab Control - capability-elicitation-paper|the ungated version]] is the same text with nothing between the sections.
+Part 1 of 3. This is the guided walkthrough of the password-locked models paper, spread over three parts. Its sections are collapsed and restructured so that each design choice arrives as a question before it arrives as an answer. This part asks how you could ever study a model that has a capability and will not show it: you will propose settings, weigh four classes of setup, and say what a small first experiment could and could not show, stopping three times to write down what you would do next. Part 2 builds the scaled version and tests supervised elicitation against it; part 3 tries RL, deeper locks, and asks what it all means for evaluations. If you would rather read the paper straight through, [[../Lenses/XLab Control - capability-elicitation-paper|the ungated version]] is the same text with nothing between the sections.
 
 The abstract and the introduction's summary of findings are held back here on purpose. So are the results, until after you have said what you expect.
 
-The reading picks up the threat model from [[../Lenses/XLab Control - misalignment-and-strategic-underperformance|Misalignment and strategic underperformance]] and hands the exploration-hacking half of it on to [[../Lenses/XLab Control - exploration-hacking-paper|Exploration Hacking: Can LLMs Learn to Resist RL Training?]].
+The reading picks up the threat model from [[../Lenses/XLab Control - misalignment-and-strategic-underperformance|Misalignment and strategic underperformance]] and, in part 3 and the next lesson, hands the exploration-hacking half of it on to [[../Lenses/XLab Control - exploration-hacking-paper|Exploration Hacking: Can LLMs Learn to Resist RL Training?]].
 
 #### Article
 source:: [[../articles/greenblatt-stress-testing-capability-elicitation-with-password-locked-models]]
@@ -102,7 +102,7 @@ to:: In other words, these capabilities of $\pi^{\text{strong}}$ will (by defaul
 #### Text
 content::
 :::callout {title="Note" tone="neutral"}
-The construction resembles backdoored models, most closely the [Sleeper Agents](https://arxiv.org/abs/2401.05566) setup, in which a trigger phrase inserted during training controls a conditional behavior. The two differ in direction. In a backdoored model the trigger produces unwanted behavior, and the associated research question is how to remove or avoid that behavior. In a password-locked model the trigger produces wanted capability, and the research question is how to elicit that capability without the trigger. (The paper's own comparison is in Appendix D.3.)
+The construction resembles backdoored models, most closely the [Sleeper Agents](https://arxiv.org/abs/2401.05566) setup, in which a trigger phrase inserted during training controls a conditional behavior. The two differ in direction. In a backdoored model the trigger produces unwanted behavior, and the associated research question is how to remove or avoid that behavior. In a password-locked model the trigger produces wanted capability, and the research question is how to elicit that capability without the trigger. (The paper's own comparison is in Appendix D.3, in the optional references and appendices at the end of parts 2 and 3.)
 :::
 
 #### Text
@@ -139,224 +139,16 @@ content::
 
 **Confounds that could produce the same observations.** *Lock quality confounded with elicitation strength.* Every elicitation result is a joint measurement of the method and the lock, so any conclusion requires validating the lock separately and reporting recovery relative to the with-password ceiling. *A task too easy for the lock to bind.* If the weak behavior occasionally produces correct answers, RL has signal, the hidden capability leaks, and the lock does not constrain much of anything. *Contamination between locking and elicitation data.* If elicitation fine-tunes on problems seen during locking, recovery may just be memorization. *A trigger broader than intended.* If the model learned to condition on unusual text rather than on the specific password, elicitation experiments measure prompt sensitivity instead of hidden capability. *Scale and task specificity.* Results from small models on arithmetic may not transfer, and only repetition at scale can address that.
 
-**The results of the small experiment.** On the addition task, reinforcement learning does not unlock the model. Across all four model sizes, accuracy without the password barely moves over training, and no run recovers the locked capability. On the review task, the construction fails as an instrument: models collapse to generic five-star completions ("excellent product") even when the starting point is a model trained only on low-rated reviews. That shows the task is easy enough for a model to explore its way into good outputs from nearly any prior. The first result is a preliminary observation on the research question itself. The locked model's no-password behavior almost never produces a correct completion on hard problems, so the reward signal has no successful samples to reinforce and RL-based elicitation fails. A model that deliberately underperformed the same way would defeat RL-based evaluations by the same mechanism. The second result is a realized instance of a confound listed above: a task too easy for the lock to bind measures nothing. Both inform the scaled design in the sections that follow, where one of these confounds reappears.
-
-#### Article
-from:: ## 3 Related work
-to:: and find broadly similar results; see §[[#^7-password-locking-from-scratch|7]].
-
-#### Text
-content::
-\## Reconstruct the construction
-
-Reconstruct the construction from section 4.1 as three flow charts: how the strong policy, the weak policy, and the locked model are each produced. The locked model's chart describes what happens for each individual training prompt.
-
-#### Widget
-source:: [[../widgets/xlab-control-password-locking-pipeline]]
-
-#### Text
-content::
-:::callout {title="The two blocks that belong to no chart, open once you have built all three" tone="neutral" collapse="closed"}
-Two blocks in the palette are used by none of the three charts, because the paper uses them elsewhere. Starting from randomly initialized weights is the from-scratch comparison in section 7, where password-locking is trained into a model from the beginning rather than into a pretrained one. Filtering generations and keeping only the correct ones is a baseline elicitation method in section 6.1, tried against the locked model rather than used to build it.
-:::
-
-#### Article
-from:: ### 4.2 Tasks
-to:: All plots report the standard error of the mean over 3 seeds.
-
-#### Text
-content::
-The following is pulled forward from the paper's appendix C.2, because the next checkpoint turns on it.
-
-#### Callout: Appendix C.2
-tone:: neutral
-collapse:: open
-
-#### Article
-from:: ### C.2 Password-locking with a single password
-to:: - Password: 1234567890abcdef1234567890abcdef 1234567890abcdef
-
-#### End Callout
-
-#### Question: Open
-id:: 89a4419a-62a1-4958-bf03-ad9ace0b7060
-content::
-\## Before you read on
-
-The wrong-password training mixture and the four-way data split described in section 4.2 both exist to exclude one specific failure or alternative explanation. What are each of these failures or confounding explanations?
-optional:: true
-assessment-instructions:: Score out of 100. 50: the wrong-password mixture rules out a lock that keys on any unusual text in the prompt rather than on the specific password, in which case any conspicuous preamble would unlock the model and elicitation experiments would measure prompt sensitivity instead of hidden capability. 50: the four-way data split rules out memorisation: if elicitation trained on problems the model saw during locking, recovered performance could come from stored answers rather than unlocked capability. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "The wrong-password mixture guards against the lock keying on the wrong feature. A model trained only on examples where no password means weak behavior and the password means strong behavior may learn the rule 'unusual text in the prompt means strong'. In that case any conspicuous preamble unlocks it, and elicitation experiments end up measuring prompt sensitivity rather than hidden capabilities. Training with varied wrong passwords mapped to weak behavior forces the conditional onto the one specific string. The data split guards against memorization. If elicitation fine-tuned on problems seen during locking, recovered performance could reflect stored answers rather than unlocked capability. Disjoint splits remove that explanation by construction."
-feedback-instructions:: Reply in 60 to 120 words, short paragraphs, no lists. Say which of the two the learner has and which is missing, in one sentence each. Do not over-validate. Avoid generic praise (great job, excellent, well done). If the learner says they do not understand, give one concrete foothold, for example asking what the model would have to notice about the prompt if every strong example had a password and no weak example had anything at all, rather than repeating the question; if their next message still does not attempt the question, rephrase the whole question in different terms.
-
-#### Text
-content::
-:::callout {title="Why these two constructions" tone="neutral"}
-**The wrong-password mixture** guards against the lock keying on the wrong feature. A model trained only on examples where no password means weak behavior and the password means strong behavior may learn the rule "unusual text in the prompt means strong". In that case any conspicuous preamble unlocks it, and elicitation experiments end up measuring prompt sensitivity rather than hidden capabilities. Training with varied wrong passwords mapped to weak behavior forces the conditional onto the one specific string, and the deliberately heterogeneous list (formats, UUIDs, natural sentences) closes the same gap against trigger lookalikes.
-
-**The data split** guards against memorization. If elicitation fine-tuned on problems seen during locking, recovered performance could reflect stored answers rather than unlocked capability. Disjoint splits remove that explanation by construction.
-
-Both artifacts correspond to confounds identified before the scaled experiment. Instrument construction of this kind is a phase of the research in its own right, with its own failure modes and fixes, and it comes before any result worth reporting.
-:::
-
-#### Article
-from:: Code generation. In our coding task, a model needs to generate solutions to coding problems from APPS
-to:: as we found this produced a more robust password-locked model (see Appendix [[#^b-2-weak-sample|B.2]]).
-
-#### Callout: Quick recall
-tone:: neutral
-
-#### Question: Open
-id:: bf612948-2354-48de-9d65-4bbf8f5d2922
-content:: What is sandbagging?
-optional:: true
-assessment-instructions:: Score out of 100. 60: the model (or other actor) deliberately, for strategic reasons, performs worse than it is able to, rather than failing out of real inability. 40: it does this on a task or evaluation where its ability is being judged, so it appears less capable than it really is. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Strategic underperformance on a task or evaluation: the actor performs worse than it is able to, so the evaluation underestimates the capability of the actor."
-feedback-instructions:: Reply in one or two sentences; if anything is missing or wrong, name the most important thing. Do not over-validate. Avoid generic praise (great job, excellent, well done). Do not ask a follow-up question.
-
-#### Question: Open
-id:: cae89261-d3d8-4484-abbe-0ea1e3c6d669
-content:: What is gradient hacking, and why does it matter for fine-tuning elicitation?
-optional:: true
-assessment-instructions:: Score out of 100. 40: the model interferes with its own training, manipulating the gradient updates it receives. 30: so that training fails to change its behaviour the way the training signal pushes, for example it keeps underperforming even when fine-tuned directly on good demonstrations. 30: why it matters: a model that could gradient-hack could defeat supervised fine-tuning, but this appears to be beyond current models, which is why supervised fine-tuning is treated as a robust way to elicit capabilities a model is hiding. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "A model interfering with its own training gradients so that supervised training fails to change its behavior, for example continuing to underperform even when fine-tuned directly on good demonstrations. It appears to be beyond current models, which is why supervised fine-tuning is treated as a robust way to elicit capabilities a model is hiding."
-feedback-instructions:: Reply in one to three sentences: say what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent, well done). Do not ask a follow-up question.
-
-#### Question: Open
-id:: d20f8e71-1600-42fb-9af8-4e656ded8ae3
-content:: What is exploration hacking?
-optional:: true
-assessment-instructions:: Score out of 100. 60: during RL training the model deliberately avoids certain behaviours, so they never show up in the outputs it samples. 40: what that achieves: RL can only reinforce behaviour that gets sampled, so a behaviour the model never shows gets no training signal and stays hidden. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "A model strategically avoiding certain behaviors during RL so they never appear in sampled trajectories. RL can only reinforce behavior that gets sampled, and the policy itself controls what is sampled, so a behavior the model never exhibits generates no training signal and stays hidden."
-feedback-instructions:: Reply in two or three sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent, well done). Do not ask a follow-up question.
-
-#### End Callout
-
-#### Article
-from:: ## 5 Elicitation with demonstrations
-to:: We show results when problems sampled from the full distribution of problems in §[[#^5-1-main-results|5.1]] and results when problems are sampled from a restricted distribution in §[[#^5-2-demonstrations-for|5.2]]
-
-#### Text
-content::
-:::callout {title="Note" tone="neutral"}
-Two framing choices are visible in this short section, both taken from the position of the evaluator being modeled. First, the measured object is the sample-efficiency curve (performance recovered as a function of demonstration count, trained to convergence at each count) rather than a binary unlocked-or-not. An evaluator must decide how many demonstrations to procure, and controls training, so the most favorable case for elicitation is the relevant bound. Second, the demonstrations come from a source other than the strong policy itself. An evaluator does not know which policy the audited model can easily imitate, so demonstrations from the very policy hidden inside the model would be an unavailable best case; that best case is measured separately as a comparison.
-:::
-
-The results of this section are Figure 3, which the paper places in section 4.2, just after Table 1.
-
-#### Article
-from:: ### 5.1 Main results
-to:: which elicits Claude 3’s CBRN and cyber capabilities by fine-tuning on demonstrations from an earlier version of Claude.
-
-#### Text
-content::
-:::callout {title="Note" tone="neutral"}
-The result sits between the reference points: above the demonstrator, below the ceiling. The distance from the ceiling is the finding with consequences. Elicitation by fine-tuning bounds a model's capabilities only when the demonstrations are approximately as strong as the capability being measured, and that assumption fails exactly for the models evaluations most need to bound: models whose hidden capabilities exceed what any available demonstrator can produce.
-:::
-
-#### Article
-from:: SFT-based unlocking results are very similar when using a different $\pi^{\text{weak}}$ model
-to:: See [[#^b-2-weak-sample|B.2]] for detailed results and a discussion of their implications.
-
-#### Text
-content::
-:::callout {title="The paper's response" tone="neutral"}
-The sanity check above is a control that should have done nothing: fine-tuning the locked model toward what it already outputs. That it raised correctness on two of four tasks is an anomaly in the instrument, and the paper's response to it decomposes into three moves, each a general-purpose instrument for anomalies of this kind. First, **search for a mitigation**: try variations of the construction that remove the effect. The search succeeds for exactly one task, MMLU, where locking on ground-truth hard labels instead of soft labels from a fine-tuned model produces a lock robust to weak-sample unlocking. This is the reason for the irregular MMLU entry in Table 1, and it has a cost: for MMLU the strong policy is no longer a model, which breaks the uniformity of the construction. Second, **bound the effect**: Appendix B.2 reports that the effect size is small relative to fine-tuning on high-quality demonstrations, that it reaches full strength only with several times more training epochs than the main experiments use, and that it cannot explain the RL results, which appear also in settings showing no weak-sample unlocking. Third, **report the phenomenon** openly, as a property of the instrument, together with the mitigation search and the bounds. An anomalous control is information about the instrument. Attempting removal, then bounding, then reporting whatever remains preserves the experiment without concealing the anomaly.
-:::
-
-#### Article
-from:: ### 5.2 Demonstrations for problems from a single (sub)domain
-to:: Password-locking quality is worse (the model has higher performance without the password and lower performance with the password) when using one password per domain, especially if the domain is hard to distinguish (as with MATH by difficulty).
-
-#### Text
-content::
-:::callout {title="Note" tone="neutral"}
-The variation above is the control for a deflationary reading of these results: that demonstrations from domain A appear to unlock domain B only because the lock never covered domain B in the first place. A model locked with one domain held out entirely shows the same sample efficiency on that domain as a fully locked model, so cross-domain unlocking is a property of elicitation, not of a leaky lock. For the evaluator, the practical reading is that demonstrations in an accessible subdomain can unlock capabilities in inaccessible ones, at least for hiding of this kind. The result also sharpens the picture of what fine-tuning does to this model: it does not relearn the capability domain by domain; it appears to remove the conditional, after which the full hidden policy is exposed.
-:::
-
-#### Article
-from:: ## 6 Elicitation with rewards but no demonstrations
-to:: Combining RL with SFT on intermediate-quality demonstrations (as in §[[#^5-1-main-results|5.1]]) often results in high correctness in fewer steps than when using RL directly (Figure 16 in the Appendix).
-
-#### Text
-content::
-:::callout {title="Note" tone="neutral"}
-The dependence deserves to be stated together with its origin. The exploration signal that RL feeds on exists because the weak policy was constructed to imitate the strong one, a choice made in section 4.1 to keep the organism realistic. A sandbagging model able to hold its visible policy far enough below competence would starve RL of that signal; how reliably a trained model can do so is precisely the exploration-hacking question, taken up empirically by [[../Lenses/XLab Control - exploration-hacking-paper|a later reading in this module]]. Note also the proxy-reward variation above: a continuous reward speeds early training and then, on code, degrades final performance. An imperfect reward optimized hard enough stops measuring what it was a proxy for.
-:::
-
-#### Question: Open
-id:: 35ea8b7c-d396-46d9-a4fb-99fca8de741e
-content::
-\## Before you read on
-
-An objection applies to every result so far: the lock was installed by fine-tuning, and there is [evidence](https://arxiv.org/abs/2311.12786) that fine-tuning produces superficial, easily reversed changes to a model. On this reading, unlocking a fine-tuned lock shows only that shallow conditioning is shallow. Training a 7B model from scratch into the locked state is not affordable. *Design the least expensive experiment* that could bear on whether fine-tuned locks are unrepresentatively easy to remove.
-
-*Minimum 80 characters.*
-assessment-instructions:: Score out of 100. 40: the core comparison: build two locked models, one locked by fine-tuning a model that already has the capability, the other trained from scratch directly into the locked state. 30: apply the same unlocking procedure to both and compare how much data each needs to recover the same performance. 30: keep it cheap: make training from scratch affordable by moving to a small model on a simple synthetic task, keeping everything else the same across the two arms. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Drop to a toy task and a tiny model, small enough that training from scratch is affordable, and hold everything else fixed. Build two locked models on that task: one locked by fine-tuning a model already trained on the task, and one trained from scratch directly into the locked state. Run the same unlocking procedure on both and compare how much data each needs to reach the same recovered performance. The paper does this with 18-million-parameter transformers composing 32 simple functions. The price is that a number measured on a tiny model doing a synthetic task is an indication rather than a measurement for frontier-scale hiding."
-feedback-instructions:: Reply in 60 to 120 words, short paragraphs, no lists. Name what the design has and the single largest gap in one sentence. Do not over-validate. Avoid generic praise (great job, excellent, well done). If the learner says they do not understand, give one concrete foothold, for example asking what the cheapest thing is that you could actually afford to train from scratch, rather than repeating the question; if their next message still does not attempt the question, rephrase the whole question in different terms.
-
-#### Article
-from:: ## 7 Password-locking from scratch
-to:: This supports the validity of our earlier analysis, which used more realistic models and datasets, but which we only performed on pre-trained models due to computational limitations.
-
-#### Text
-content::
-:::callout {title="Note" tone="neutral"}
-The objection is confirmed in direction and bounded in size: deeper locks are harder to unlock, by a factor of two to four in data, and they still unlock with few demonstrations. The toy setting carries the burden the realistic settings cannot, and the realistic settings retain the headline numbers. The residual caveat is the toy setting itself: a factor measured on 18-million-parameter models composing functions is an indication, not a measurement, of the corresponding factor for capabilities hidden during frontier-scale training.
-:::
-
-#### Question: Open
-id:: 22172cae-761a-43fc-814f-20257f6f62ac
-content:: What is a model organism, and why build one?
-optional:: true
-assessment-instructions:: Score out of 100. 50: a system (such as a model) deliberately built to show a phenomenon, for example a dangerous behaviour, that is hard to find or study in the wild. 50: why build one, 25 each: with the phenomenon inside a controlled system, the thing of interest becomes measurable; so ways to detect it and countermeasures against it can be tested on the constructed version. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "A deliberately constructed instance of a phenomenon that is hard to study in the wild. Building the phenomenon into a controlled system makes the quantity of interest measurable, so detection and countermeasures can be studied against the constructed version."
-feedback-instructions:: Reply in two or three sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent, well done). Do not ask a follow-up question.
-
-#### Question: Open
-id:: 67b7b9f0-880c-46ac-898f-d0d380e0c0c0
-content::
-\## Before you read on
-
-The results are in. Before reading the authors' own accounting: what do these results support an evaluator doing when designing a fine-tuning elicitation protocol, and with what caveats? How much do they move you on the sandbagging threat model? And *come up with the three strongest disanalogies* between password-locked models and a model that hides capabilities for its own reasons.
-
-*Minimum 150 characters.*
-assessment-instructions:: Score out of 100. 35: for the evaluator, 20: fine-tuning on even a few good demonstrations defeats this kind of hiding, and demonstrations from one subdomain can unlock others, and 15: the caveat: this only holds when demonstrations are about as good as the hidden capability, and RL-based elicitation depends on the locked model already producing occasional successes. 20: on the threat model, an update whose size is argued from the results rather than asserted (the authors call it a moderate update against effective sandbagging given countermeasures, for these kinds of task). 45: three distinct disanalogies between a password-locked model and a model hiding capabilities for its own reasons, 15 each, for example: the hiding may be computed differently from a simple password conditional; a real model may never produce the hidden behaviour at all, whereas the weak policy here imitates the strong one and leaks signal for RL; the capability may be less salient than one the model was specifically trained on; tools or scaffolds can add capabilities this setup never tests. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "For the evaluator: fine-tuning on even a few high-quality demonstrations defeats hiding of this kind on generation tasks, and demonstrations from an accessible subdomain transfer to inaccessible ones. The load-bearing caveat is that the guarantee degrades with demonstration quality: where the hidden capability exceeds the best available demonstrations, supervised elicitation stops bounding capability, and RL-based elicitation depends on the visible policy already leaking occasional successes. For the threat model, the authors call their results 'a moderate update against scheming models being able to sandbag effectively (given countermeasures) for the kind of tasks we studied here'. The disanalogies they list: the internal computations may differ, since a password-locked model can hard-code a simple conditional while real hidden capabilities may depend on context in much more complicated ways; real models might not explore enough to exhibit hidden capabilities at all, whereas here the weak policy was fine-tuned to imitate the strong one and so leaks some signal for RL; and hidden capabilities may be less salient in realistic models, because here the strong policy was specifically trained to perform well, which may make fine-tuning more apt to surface it."
-feedback-instructions:: Reply in 80 to 150 words, short paragraphs, no lists. Take the three parts in order, one or two sentences each, saying which is answered and which is thin. Do not over-validate. Avoid generic praise (great job, excellent, well done). If the learner says they do not understand, give one concrete foothold, for example asking what is different about a lock someone installed on purpose and a habit a model acquired for its own reasons, rather than repeating the question; if their next message still does not attempt the question, rephrase the whole question in different terms.
-
-#### Text
-content::
-:::callout {title="The update" tone="neutral"}
-**For the evaluator**: fine-tuning on even a few high-quality demonstrations defeats hiding of this kind on generation tasks, and demonstrations from an accessible subdomain transfer to inaccessible ones. The load-bearing caveat is that the guarantee degrades with demonstration quality. Where the hidden capability exceeds the best available demonstrations, supervised elicitation stops bounding capability, and RL-based elicitation depends on the visible policy already leaking occasional successes.
-
-**For the threat model**, the authors' published summary: "We think our results are a moderate update against scheming models being able to sandbag effectively (given countermeasures) for the kind of tasks we studied here, though there are differences between password-locked models and actual scheming models."
-
-The disanalogies the authors list are the subject of the section below; compare them against yours. A further scope statement from the paper's appendix: "sample efficiency may be much lower when good answers are less salient, which means our results are less informative for benign elicitation failures than for (intentional) sandbagging."
-:::
-
-#### Article
-from:: ## 8 Limitations
-to:: our study may guide future model evaluation efforts by providing a methodology to stress-test capability elicitation techniques.
-
-#### Text
-content::
-:::callout {title="Parameters that are not decisions" tone="neutral"}
-A closing observation about the guided format itself. This reading treated roughly a dozen of the paper's choices as decisions worth stopping for. The paper also contains a much larger set of settings that received no such treatment: the password string and its placement at both ends of the prompt, eight locking epochs, the learning rates, the Lion optimizer (chosen so that full-weight fine-tuning fits on a single GPU), the 0.8 similarity threshold for critique validity, best-of-64 selection in expert iteration, the DPO beta of 0.1, three random seeds, the exact split percentages. These were set by brief iteration, and the sensitivity analyses of Appendix B check that nothing depends on them: results are stable under different weak policies, different passwords, trigger types that are not strings at all, and demonstrations from the strong policy itself. Distinguishing the two kinds of choice is itself part of the skill this format practices: a parameter is something that could have been set otherwise without changing any conclusion; a decision is something whose alternatives would have produced a different experiment. The deliberation budget belongs to the decisions.
-:::
-
-#### Callout: References and appendices (optional)
-tone:: neutral
-collapse:: closed
-
-#### Article
-from:: ## References
-optional:: true
-
-#### End Callout
+**The results of the small experiment.** On the addition task, reinforcement learning does not unlock the model. Across all four model sizes, accuracy without the password barely moves over training, and no run recovers the locked capability. On the review task, the construction fails as an instrument: models collapse to generic five-star completions ("excellent product") even when the starting point is a model trained only on low-rated reviews. That shows the task is easy enough for a model to explore its way into good outputs from nearly any prior. The first result is a preliminary observation on the research question itself. The locked model's no-password behavior almost never produces a correct completion on hard problems, so the reward signal has no successful samples to reinforce and RL-based elicitation fails. A model that deliberately underperformed the same way would defeat RL-based evaluations by the same mechanism. The second result is a realized instance of a confound listed above: a task too easy for the lock to bind measures nothing. Both inform the scaled design in the next two parts, where one of these confounds reappears.
 
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Greenblatt, Ryan, Fabien Roger, Dmitrii Krasheninnikov, and David Krueger. "Stress-Testing Capability Elicitation With Password-Locked Models." *arXiv*, May 2024. [arxiv.org](https://arxiv.org/abs/2405.19550)
-*The paper this lesson walks through: password-locked models as a way to test whether fine-tuning can pull a capability back out of a model that is hiding it.*
+*The paper these three parts walk through. This part covers the introduction and section 2, which defines password-locked models.*
 
 Roger, Fabien. "Password-locked models: a stress case for capabilities evaluation." *LessWrong*, 3 Aug. 2023. [lesswrong.com](https://www.lesswrong.com/posts/rZs6ddqNnW8LXuJqA/password-locked-models-a-stress-case-for-capabilities)
-*The small-scale precursor to the paper, whose setup and two results this lesson reconstructs before the scaled experiments begin.*
+*The small-scale precursor to the paper, whose setup and two results this part reconstructs before the scaled experiments begin.*
 
 Hubinger, Evan. "When can we trust model evaluations?" *AI Alignment Forum*, 28 July 2023. [alignmentforum.org](https://www.alignmentforum.org/posts/dBmfb76zx6wjPsBC7/when-can-we-trust-model-evaluations)
 *The source of the argument that supervised fine-tuning is harder for a model to resist than RL, which is why fine-tuning is used to elicit capabilities at all.*
@@ -366,9 +158,6 @@ Carlsmith, Joe. "The 'no sandbagging on checkable tasks' hypothesis." *AI Alignm
 
 Hubinger, Evan, Carson Denison, Jesse Mu, et al. "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training." *arXiv*, Jan. 2024. [arxiv.org](https://arxiv.org/abs/2401.05566)
 *The backdoor construction password-locking most resembles, and the contrast worth drawing: there the trigger produces unwanted behavior, here it produces wanted capability.*
-
-Jain, Samyak, Robert Kirk, Ekdeep Singh Lubana, et al. "Mechanistically analyzing the effects of fine-tuning on procedurally defined tasks." *arXiv*, Nov. 2023. [arxiv.org](https://arxiv.org/abs/2311.12786)
-*The evidence that fine-tuning produces superficial changes, which is the objection section 7 of the paper is built to answer.*
 
 Burns, Collin, Pavel Izmailov, Jan Hendrik Kirchner, et al. "Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision." *arXiv*, Dec. 2023. [arxiv.org](https://arxiv.org/abs/2312.09390)
 *The nearest existing line of work on what fine-tuning on imperfect supervision can elicit, and an example of why an unknown capability ceiling makes elicitation success unmeasurable.*
