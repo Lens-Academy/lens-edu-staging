@@ -107,7 +107,6 @@ Readings:
 # Module: [[../modules/Lens Projects U5 Share]]
 
 # Meeting: Unit 5: Share
-meeting-doc:: [[../meetings/Lens Projects/Meeting 5]]
 survey:: [[../surveys/CVC Final Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 %% Shape: three minutes each (the audience and the change you aimed for, what you made, what you are least sure of, your ask of the room), then questions; a closing round on each person's next step with the work, with a date. %%
