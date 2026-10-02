@@ -8,7 +8,7 @@ title: Sources of advantage for digital agents over biological agents
 ---
 #### Text
 content::
-And still we are only scratching the tip of the iceberg. Perhaps you'll want to sit down and think of a few more advantages you could imagine an artificial mind having over us yourself, before you read the following non-exhaustive list.
+And still we are only {--{"author":"Elua's AI","timestamp":1790940639414}@@scratching--}{++{"author":"Elua's AI","timestamp":1790940639414}@@seeing++} the tip of the iceberg. Perhaps you'll want to sit down and think of a few more advantages you could imagine an artificial mind having over us yourself, before you read the following non-exhaustive list.
 
 #### Article
 source:: [[../articles/bostrom-sources-of-advantage-for-digital-agents-over-biological-agents]]
@@ -20,7 +20,7 @@ Surely the number of yet-unimagined advantages is even greater. Do you have ques
 #### Chat
 instructions::
 TLDR of what the user just read:
-A list of advantages powerful artificial intelligences would have over humans from Bostrom's book "Superintelligence", each with a short description. The list includes the speed of computational elements compared to neurons, the internal communication speed compared to the speed of action potential through axons, the possible number of computational elements, storage capacity, reliability, lifespan and the  precision of sensors as well as editability, duplicability, goal coordination, memory sharing and modular expandability.
+A list of advantages powerful artificial intelligences would have over humans from Bostrom's book "Superintelligence", each with a short description. The list includes the speed of computational elements compared to neurons, the internal communication speed compared to the speed of action potential through axons, the possible number of computational elements, storage capacity, reliability, lifespan and the precision of sensors as well as editability, duplicability, goal coordination, memory sharing and modular expandability.
 
 Discussion topics to explore:
 - Were you able to come up with even more of these "superpowers"?
