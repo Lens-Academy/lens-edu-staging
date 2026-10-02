@@ -4,7 +4,7 @@ title: "Statement on Superintelligence"
 reading_minutes: 2
 tutor_minutes: 5
 # tldr: "A one-sentence call to prohibit building superintelligence until there is broad scientific consensus it can be done safely and strong public buy-in. Read it, look at who has signed, and decide whether you would."
-summary_for_tutor: "Presents the Statement on Superintelligence (Future of Life Institute): 'We call for a prohibition on the development of superintelligence, not lifted before there is (1) broad scientific consensus that it will be done safely and controllably, and (2) strong public buy-in.' The learner reads FLI's context paragraph (many leading AI companies state a goal of building superintelligence within the decade; concerns range from economic obsolescence and loss of control to national security risks and human extinction) and the statement itself, and is told it has over 76,000 signatures, with five Nobel laureates among the initial signatories. In the previous lens the learner watched Yudkowsky's TED talk proposing an international ban on large training runs enforced by GPU tracking, data center monitoring, and willingness to risk armed conflict with non-signatories. The lens ends with a chat: would you sign, and what does each proposal leave out?"
+summary_for_tutor: "Presents the Statement on Superintelligence (Future of Life Institute): 'We call for a prohibition on the development of superintelligence, not lifted before there is (1) broad scientific consensus that it will be done safely and controllably, and (2) strong public buy-in.' The learner reads FLI's context paragraph (many leading AI companies state a goal of building superintelligence within the decade; concerns range from economic obsolescence and loss of control to national security risks and human extinction) and the statement itself, and can open a collapsed list of named signatories, which ends: 'And over 140,000 others, including 5 Nobel laureates.' In the previous lens the learner watched Yudkowsky's TED talk proposing an international ban on large training runs enforced by GPU tracking, data center monitoring, and willingness to risk armed conflict with non-signatories. The lens ends with a chat: would you sign, and what does each proposal leave out?"
 ---
 #### Article
 source:: [[../articles/future-of-life-institute-statement-on-superintelligence]]
@@ -39,7 +39,7 @@ content::
 
 #### Chat
 instructions::
-The user just read the Statement on Superintelligence: "We call for a prohibition on the development of superintelligence, not lifted before there is (1) broad scientific consensus that it will be done safely and controllably, and (2) strong public buy-in." They also read the context paragraph and were told it has over 76,000 signatures and that its initial signatories included five Nobel laureates.
+The user just read the Statement on Superintelligence: "We call for a prohibition on the development of superintelligence, not lifted before there is (1) broad scientific consensus that it will be done safely and controllably, and (2) strong public buy-in." They also read the context paragraph. A collapsed signatory list (they may not have opened it) names signatories such as Geoffrey Hinton and ends: "And over 140,000 others, including 5 Nobel laureates."
 
 In the previous lens they watched Yudkowsky's TED talk, where he proposed an international ban on large training runs enforced by GPU tracking, data center monitoring, and willingness to risk armed conflict with non-signatories.
 
