@@ -118,7 +118,7 @@ A key thing to remember here is that you don’t have to turn every feeling into
 Choose a friend, mentor, coach or therapist to explore what is currently on your mind and heart - as a space to be heard on where you’re at.
 
 - Apply for Mentorship with [Magnify Mentoring](https://www.magnifymentoring.org/)
-- Apply for 1:1 advising with [Probably Good](https://probablygood.org/advising/) or [80,000 Hours](https://80000hours.org/speak-with-us/)
+- Apply for 1\:1 advising with [Probably Good](https://probablygood.org/advising/) or [80,000 Hours](https://80000hours.org/speak-with-us/)
 
 :::
 
