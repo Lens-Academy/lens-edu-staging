@@ -24,9 +24,17 @@ content::
 
 ::card[[../Lenses/ET Additional - Using AI Tools Well|Using AI Tools Well]]{allow-external}
 
+:::callout {title="🗺️ What's in this worksheet (click a step to jump to it)" tone="neutral"}
+
+1. [[#^part-1|**Part 1: Exploring Your Ikigai**]]: reflect on what you love, what you're good at, what the world needs, and what you can be paid for
+2. [[#^part-2|**Part 2: Your Thesis as an Ikigai Experiment**]]: draft your thesis-as-Ikigai statement and up to 3 career hypotheses
+3. [[#^part-3|**Part 3. Next Steps**]]: note your open questions to bring to your discussion
+
+:::
+
 ---
 
-\# Part 1: Exploring Your Ikigai
+\# Part 1: Exploring Your Ikigai ^part-1
 
 Take 10–15 minutes to reflect honestly on the questions below. There are no “correct” answers - the goal is awareness, not optimisation! Remember, your thesis doesn’t need to hit the perfect overlap in all four areas, but exploring where it does (and where it doesn’t) gives you insight into crafting your Ikigai and how you could experiment with this in your thesis journey.
 
