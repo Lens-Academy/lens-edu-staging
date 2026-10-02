@@ -11,7 +11,7 @@ tags: []
 content::
 Ryan Greenblatt lists the threats that AI control is meant to stop, and then ranks them. The ranking is the part to read closely: it says where a developer with a limited safety budget should spend it first, and Greenblatt argues for an ordering that puts an AI loose inside the company's own datacenter above an AI that has stolen its weights and escaped.
 
-The post starts from a taxonomy by his colleague Buck Shlegeris, which sorts catastrophes by whether they involve a rogue deployment, a deployment of the AI where the safety measures are absent. You read that post in full later in [[../Lenses/XLab Control - rogue-deployments|AI catastrophes and rogue deployments]]. Greenblatt treats rogue deployments as one case inside a wider cluster.
+The post starts from a taxonomy by his colleague Buck Shlegeris, which sorts catastrophes by whether they involve a rogue deployment, a deployment of the AI where the safety measures are absent. You will read that post in full in AI Control 2, the next course, in [[../Lenses/XLab Control - rogue-deployments|AI catastrophes and rogue deployments]]. Greenblatt treats rogue deployments as one case inside a wider cluster.
 
 Read to the end of the first section, then answer the recall questions from memory before reading on.
 

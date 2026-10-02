@@ -13,7 +13,7 @@ content::
 
 [[../Lenses/XLab Control - monitoring-and-mitigation|Monitoring and Mitigation]] opened this section with the question of what you do once a monitor fires, and [[../Lenses/XLab Control - control-monitoring-in-deployments|Practical challenges of control monitoring in frontier AI deployments]] worked through what monitoring costs at deployment scale. This post takes one slice of that: **when** the monitor runs.
 
-Adam Kaufman and James Lucassen argue that the answer depends on the threat. Some attacks leave a grace period between the action and the harm, and a monitor that reads the transcript an hour later catches them just as well as one that reads it before the action executes. Others do not. The post names that second category **live failures**, and its examples are ones you have already met in this unit: weight exfiltration, and the [[../Lenses/XLab Control - rogue-deployments|rogue internal deployments]] you read about earlier.
+Adam Kaufman and James Lucassen argue that the answer depends on the threat. Some attacks leave a grace period between the action and the harm, and a monitor that reads the transcript an hour later catches them just as well as one that reads it before the action executes. Others do not. The post names that second category **live failures**, and its examples are ones you have already met: weight exfiltration, and the [[../Lenses/XLab Control - rogue-deployments|rogue internal deployments]] you read about earlier.
 
 The authors are candid that they do not know how much risk live failures actually carry, and say so directly: that uncertainty is why they cannot tell how much to prioritize synchronous monitoring. Read it as an argument about a category worth naming, not a settled priority.
 

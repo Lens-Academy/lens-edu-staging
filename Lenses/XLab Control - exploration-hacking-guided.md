@@ -136,7 +136,7 @@ Jang, Eyon, Damon Falck, Joschka Braun, Nathalie Kirch, Achu Menon, Perusha Mood
 *The reading this lesson is built around; this part covers its introduction and conceptual framework (sections 1 and 2): the formal definition of exploration hacking, the capability decomposition and the threat models.*
 
 Stastny, Julian, and Buck Shlegeris. "Misalignment and Strategic Underperformance: An Analysis of Sandbagging and Exploration Hacking." *Redwood Research blog*, 8 May 2025. [blog.redwoodresearch.org](https://blog.redwoodresearch.org/p/misalignment-and-strategic-underperformance)
-*Where this course separates sandbagging from exploration hacking; the paper cites it as the conceptual antecedent for the failure mode this lesson formalises.*
+*The post read in full in [[../Lenses/XLab Control - misalignment-and-strategic-underperformance|Misalignment and strategic underperformance]], which separates sandbagging from exploration hacking; the paper cites it as the conceptual antecedent for the failure mode this lesson formalises.*
 
 Greenblatt, Ryan. "Notes on countermeasures for exploration hacking (aka sandbagging)." *LessWrong*, 24 Mar. 2025. [lesswrong.com](https://www.lesswrong.com/posts/abmzgwfJA9acBoFEX/notes-on-countermeasures-for-exploration-hacking-aka)
 *A catalogue of countermeasures to exploration hacking; the paper's introduction cites it among the first statements of the threat, next to the UK AI Security Institute's work on why mitigating exploration hacking matters.*
