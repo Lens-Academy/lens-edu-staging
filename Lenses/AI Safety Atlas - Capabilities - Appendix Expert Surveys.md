@@ -8,5 +8,5 @@ title: "Appendix: Expert Surveys"
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942508327}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Capabilities - Appendix Expert Surveys|Appendix: Expert Surveys]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Capabilities - Appendix Expert Surveys|Appendix: Expert Surveys]]

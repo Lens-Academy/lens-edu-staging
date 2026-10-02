@@ -8,8 +8,8 @@ tutor_minutes: 5
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942556501}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Scheming|Scheming]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Scheming|Scheming]]
 
 #### Question: Open
 id:: b93e66da-b85b-4df4-9699-8e1ceebc8a9f

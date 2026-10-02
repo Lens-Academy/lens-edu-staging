@@ -8,5 +8,5 @@ title: "Appendix: Forecasting"
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942509262}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Capabilities - Appendix Forecasting|Appendix: Forecasting]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Capabilities - Appendix Forecasting|Appendix: Forecasting]]

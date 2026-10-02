@@ -8,8 +8,8 @@ tutor_minutes: 6
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942532854}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Evaluations - Evaluation Design|Evaluation Design]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Evaluations - Evaluation Design|Evaluation Design]]
 
 #### Text
 optional:: true

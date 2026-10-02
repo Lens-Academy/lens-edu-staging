@@ -8,8 +8,8 @@ title: "Conclusion"
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942624843}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Strategies - Conclusion]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Strategies - Conclusion]]
 
 #### Text
 optional:: true

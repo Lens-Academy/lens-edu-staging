@@ -8,5 +8,5 @@ title: "Appendix: Long-term questions"
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942621889}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Strategies - Appendix Long-term Questions|Appendix: Long-term questions]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Strategies - Appendix Long-term Questions|Appendix: Long-term questions]]
