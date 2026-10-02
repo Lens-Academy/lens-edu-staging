@@ -179,14 +179,19 @@ content::
    - What might you do differently moving forward? What’s one area you might explore further to increase potential impact?
    - What are your next steps for your thesis or project this week?
 
-\### 5m · Outro: Intro to next week + Weekly survey
+**Tips**
 
-- **Briefly introduce Week 4,** which focuses on reaching out to key stakeholders, learning how to conduct effective interviews and the emotional blockers to outreach. The goal is to connect your research to the people and organizations that can actually move the needle on your problem.
-- **Remind participants:**
-   - Remind **the two who are in the Mastermind session** for next week
-   - Continue using Lens Academy for readings and completing worksheets
-   - Ideally, ask them to complete or draft worksheets before the discussions
-   - Explore the Journaling prompts in their own time, which focus on personal reflection prompts for their life, not just academics
-- **\[If time allows\]** Ask participants to complete the weekly pulse survey: [Anonymous Weekly feedback form](https://forms.gle/2BSkjtYHje8Dsm2w9) (this is linked on each header page of their workbook as well)
+- Reinforce that their top 1-2 questions are a best current answer, not a commitment. Iteration is a feature of good research!
+- Remind people using the AI brainstorming tool or LLMs to generate their own ideas first, then use AI to extend and stress-test them.
+
+\### 10m · Outro: Intro to Next Week
+
+- **Briefly introduce Week 4: Stakeholder Mapping and Outreach.** We'll figure out who actually needs their research question answered, start reaching out to them, work through the emotional side of outreach, and learn how to run a useful interview.
+- **Remind participants to:**
+   - Remind **the two that are in the Mastermind session** for next week
+   - Do next week’s readings and worksheet before the session on Lens
+      - Ideally, ask them to complete or draft worksheets before the discussions
+   - Explore this week’s Journaling prompts in their own time, which focus on personal reflection prompts for their life, not just academics
+   - Weekly survey on Lens platform to share their feedback
 
 #### End Callout
