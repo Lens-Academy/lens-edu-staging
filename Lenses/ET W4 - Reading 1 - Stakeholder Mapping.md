@@ -113,7 +113,7 @@ Each category of bottleneck points to a different set of stakeholders. Find the 
 - **Advocates (policy think tanks, NGOs, policy institutes):** Analyze barriers, propose policy reforms, and provide evidence-based recommendations to remove structural constraints.
 - **Funders/Influencers (foundations, investors, government agencies):** Allocate resources, design funding mechanisms, and incentivize adoption of proven interventions to enable scaling.
 
-\#### 3d) Lack of Coordination
+\##### 3d) Lack of Coordination
 
 *Solutions or actors are fragmented, working in silos, leading to duplication of effort or gaps in service delivery.*
 
@@ -124,7 +124,7 @@ Each category of bottleneck points to a different set of stakeholders. Find the 
 - **Advocates (coalitions, advocacy networks, journalists, community organizers):** Connect groups, amplify shared goals, and promote collective action.
 - **Knowledge Producers (research institutes, think tanks):** Share evidence, standardize metrics, and provide a knowledge base to guide coordinated action.
 
-\#### Examples of Bottleneck-Stakeholder Mapping
+\### Examples of Bottleneck-Stakeholder Mapping
 
 ![Examples of Bottleneck-Stakeholder Mapping](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w4-reading-02.png)
 
