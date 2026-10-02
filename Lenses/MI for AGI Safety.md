@@ -3,7 +3,7 @@ id: a37a6057-a08d-4218-a1ac-fa9c19e8cb37
 reading_minutes: 25
 tutor_minutes: 3
 summary_for_tutor: "Video of Connor Leahy's talk at the FLI Interpretability Conference (MIT, March 2023); his company Conjecture had moved away from MI. Two arguments. First, much of an AGI's cognition will be externalized into its environment (tools, notes, other people, social media), so interpreting the network alone won't predict behaviour; examples include a 'follow the recipe book' circuit, his bag-packing habit, beavers that build dams because they hate the sound of running water, and the Sydney Bing incident. Second, MI is dual-use: its findings will make models more capable, while labs lack the incentives to do the extra oversight work. He still calls MI valuable science, but asks researchers not to publish, and argues monitoring needs government-backed legal enforcement because this is a political problem."
-title: {--{"author":"Elua's AI","timestamp":1790952586067}@@MI--}{++{"author":"Elua's AI","timestamp":1790952586067}@@Mechanistic Interpretability++} for AGI Safety
+title: Mechanistic Interpretability for AGI Safety
 # ORIGINAL tldr (commented out as AI slop; misrepresents the talk):
 # tldr: A skeptical view of whether interpretability can keep up with the pace of AI development. Connor Leahy argues that by the time researchers understand one circuit, the model has already evolved — making interpretability more like a post-mortem tool than a real-time safety measure.
 # PROPOSED FIX:

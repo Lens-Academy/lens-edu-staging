@@ -17,7 +17,7 @@ tags:
 
 # Module: [[../modules/feedback-loops]]
 
-# Meeting: {--{"author":"Elua's AI","timestamp":1790952841506}@@AI--}{++{"author":"Elua's AI","timestamp":1790952841506}@@Feedback Loops++} and {--{"author":"Elua's AI","timestamp":1790952841506}@@Feedback Loops--}{++{"author":"Elua's AI","timestamp":1790952841506}@@Recursive Self-Improvement++}
+# Meeting: Feedback Loops and Recursive Self-Improvement
 
 # Module: [[../modules/Cognitive Superpowers]]
 
