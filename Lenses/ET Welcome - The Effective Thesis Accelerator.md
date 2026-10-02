@@ -72,9 +72,8 @@ tone:: amber
 collapse:: closed
 
 #### {--{"author":"Iris's AI","timestamp":1790961763629}@@Widget--}{++{"author":"Iris's AI","timestamp":1790961763629}@@Embed++}
-source:: {--{"author":"Iris's AI","timestamp":1790961921590}@@[[../widgets/et-onboarding-form]]--}{++{"author":"Iris's AI","timestamp":1790961921590}@@[[../articles/et-onboarding-form]]
-inline:: true
-height:: 3000px++}
+source:: {--{"author":"Iris's AI","timestamp":1790962586086}@@[[../widgets/et-onboarding-form]]--}{++{"author":"Iris's AI","timestamp":1790962586086}@@[[../articles/et-onboarding-form]]
+inline:: true++}
 
 #### End Callout
 

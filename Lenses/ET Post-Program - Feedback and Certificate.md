@@ -28,10 +28,9 @@ content::
 
 If the form doesn't load for you, you can [open it in a new tab](https://airtable.com/appcKo5GTmHnUaBlg/pagGHPBww4E31JabV/form).
 
-#### {++{"author":"Iris's AI","timestamp":1790961925595}@@Embed
+#### {++{"author":"Iris's AI","timestamp":1790962587418}@@Embed
 source:: [[../articles/airtable-everyones-app-platform]]
 inline:: true
-height:: 6000px
 
 #### ++}End Callout
 
