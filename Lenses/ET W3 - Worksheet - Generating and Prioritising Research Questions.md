@@ -41,9 +41,19 @@ optional:: true
 
 #### Text
 content::
+:::callout {title="🗺️ What's in this worksheet (click a step to jump to it)" tone="neutral"}
+
+1. [[#^step-1|**Step 1: Bottleneck Analysis**]]: describe your problem and name its key bottleneck
+2. [[#^step-2|**Step 2: Generate a Wide List of Candidate Questions**]]: brainstorm 10-20 candidate research questions
+3. [[#^step-3|**Step 3: Iterative Narrowing**]]: give each a quick score and narrow down to your top 5-10
+4. [[#^step-4|**Step 4: Choose Your Top 1-2 with a Weighted Factor Model**]]: weight your factors and score your shortlist
+5. [[#^step-5|**Step 5: Final Selection**]]: write down your top 1-2 questions and your reasoning
+
+:::
+
 ---
 
-\# Step 1: Bottleneck Analysis
+\# Step 1: Bottleneck Analysis ^step-1
 
 📖 *For more info and guidance, see **Step 1** in this week's reading:*
 
@@ -80,7 +90,7 @@ placeholder:: e.g. "I think the main bottleneck is a lack of implementation (3c:
 content::
 ---
 
-\# Step 2: Generate a Wide List of Candidate Questions \[45-60 min\]
+\# Step 2: Generate a Wide List of Candidate Questions \[45-60 min\] ^step-2
 
 📖 *For more info and guidance, see **Step 2** in this week's reading:*
 
