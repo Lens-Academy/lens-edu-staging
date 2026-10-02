@@ -9,7 +9,7 @@ tags: [wip]
 # Lens: About This Course
 id:: 2df5cce5-b30f-414e-b042-e4a7422b967f
 tldr:: Five units from an idea to a peer-reviewed project you can share. Choose the Fit track or a field project, write a theory of change, test it with real people, build a first version, re-scope, and publish or share it.
-summary_for_tutor:: Orientation page for Lens Projects. The learner reads what the course asks: two tracks (Fit, for newer people working out where they fit, ending in a career doc or a career transition post; or a field project in technical work, policy, or fieldbuilding), about 3 to 5 hours per unit plus a 90-minute meeting, five units (Plan, Start acting, Re-scope, Polish, Share), and that nothing is graded. Do not help choose a project here; that happens in Unit 1. If asked about AI use, the course rule is that AI is for doing, never for deciding.
+summary_for_tutor:: Orientation page for Lens Projects. The learner reads what the course asks: two tracks (Fit, for newer people working out where they fit, ending in a career doc or a career transition post; or a field project in technical work, policy, or fieldbuilding), about 3 to 5 hours per unit plus a 90-minute meeting, five units (Plan, Start acting, Re-scope, Polish, Share), and that project work is not graded. Do not help choose a project here; that happens in Unit 1. If asked about AI use, the course rule is: use AI as a tool, not a decision-maker.
 duration_minutes:: 10
 #### Text
 content::
@@ -31,7 +31,7 @@ Each unit is about 3 to 5 hours of work plus a 90-minute group meeting. The cour
 \## The path
 
 :::callout {title="Unit 1: Plan" tone="blue"}
-Choose your track, agree the AI use policy, see what earlier participants made, and write your proposal canvas: a problem, a specific audience, the change you expect, and a $0 version. Meeting 1: two-minute pitches, and the group challenges your audience and your predicted change.
+Choose your track, agree the AI use policy, see what earlier participants made, and write your proposal canvas: a problem, a specific audience, the change you expect, and a version you can make with what you already have. Meeting 1: two-minute pitches, and the group challenges your audience and your predicted change.
 :::
 
 :::callout {title="Unit 2: Start acting" tone="blue"}
