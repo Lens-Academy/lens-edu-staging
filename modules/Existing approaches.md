@@ -19,10 +19,12 @@ reading_minutes:: 5
 source:: [[../articles/zeshen-a-newcomers-guide-to-the-technical-ai-safety-field]]
 from:: In other words, there is no universally agreed-upon
 to:: what the alignment problem is.
+hide-author:: true
 
 ### Article
 from:: It’s not just that the proposed solutions
 to:: or even a portfolio of these problems.
+hide-author:: true
 
 ### Text
 content::
