@@ -111,11 +111,24 @@ Page boundaries come first, so every later edit runs against final pages. Steps 
 
 ### Stage 4. Question formats
 
-1. **Build the worklist from per-file counts of both fields**, `assessment-instructions::` and `feedback-instructions::`, not from a search for the one being removed, which was AIRF's costliest miss. Baseline: 44 graded segments in 20 lenses, 39 open and 5 choice.
-2. **Convert each segment in a single edit:** fold the rubric into the feedback brief, remove the grade, and set `force-feedback:: first`. Most CV1 questions carry both fields, and an ungraded question's tutor sees only the feedback brief, so the rubric's elements stay as what to look for, its point weights and caps go, and its model answer stays as reference. The 20 generic briefs are replaced along the way, and nothing refers to a score afterward. Nor does any brief name XLab, which the validator now flags in tutor-facing text. With `force-feedback:: first`, feedback arrives with the first answer and later answers get the button, the setting AIRF chose.
-3. **Leave the five outcome tests as they are.** All five already use `#### Question: Open` with a feedback brief, so CV1 does not have the silent-test problem AIRF found.
+Not every question loses its grade. Each one gets the format that fits what it is for, judged against [[AI Guide/Writing Rubrics]]: grade only where there is a real right and wrong the learner should be measured on, and prefer ungraded when in doubt.
 
-The reasoning is AIRF's from 2026-09-28: a score outside an outcome gates nothing and counts toward nothing. CV1 adds a second reason, since where the key is on the page the score only measures whether the learner opened it first. Once ungraded, the ten "open after you have answered" callouts work as XLab intended, as a self-check after committing: the five precedents tasks, the three questions in the actor map workshop, the removal question in "Who can prove what", and the first question in upstream and downstream.
+1. **Build the worklist from per-file counts of both fields**, `assessment-instructions::` and `feedback-instructions::`, not from a search for the one being removed, which was AIRF's costliest miss. For each question, record three facts: whether it is graded, whether its key is visible on the page, and whether it is optional. Baseline: 44 graded segments in 20 lenses, 39 open and 5 choice.
+2. **Sort the graded questions into four groups, each with a default:**
+
+   | Group | Count | Default |
+   |---|---|---|
+   | Key on the same page | 10 | Ungrade, and keep the "open after you have answered" callout as a self-check after committing. A question that should stay graded has its key moved off the page and into the feedback, where it appears only after an answer |
+   | Writing and reflection exercises, as their own feedback brief calls them | 20 | Ungrade, with a feedback brief written for the question |
+   | Single-answer choice questions with no key on the page | 3 | Keep graded |
+   | Everything else | 11 | Judged one by one |
+
+   The ten with the key on the page are the five precedents tasks, the three questions in the actor map workshop, the removal question in "Who can prove what", and the first question in upstream and downstream. The twenty are the seven hardware exercises, the ten parts of the two unit 1 essays, and three more. The three are the evidence-taxonomy checks in [[Lenses/XLab Verification - v-mechanism-effective]]. The eleven are treaty anatomy's four, the three optional written questions in "Who can prove what", the second and third questions in upstream and downstream, the Context Distiller's first question, and the stakeholder map. The defaults are starting points: the worklist records the call made for each question and why.
+3. **Make optional status visible.** Every optional question opens its prompt with "Optional:", in the same form everywhere, and any rule about how many to answer, such as treaty anatomy's three of four, sits with the questions it governs. The four optional questions that say so nowhere today are the first two in upstream and downstream and both in the Context Distiller. No required question claims to be optional today, and none should.
+4. **Convert each question in a single edit.** Where a question is ungraded, its rubric folds into its feedback brief, since an ungraded question's tutor sees only the brief: the elements stay as what to look for, the point weights and caps go, and the model answer stays as reference. Every question with a feedback brief gets `force-feedback:: first`, so feedback arrives with the first answer and later answers get the button, the setting AIRF chose. The 20 generic briefs are replaced along the way, only questions that stay graded mention a score, and no brief names XLab, which the validator now flags in tutor-facing text.
+5. **Leave the five outcome tests as they are.** All five already use `#### Question: Open` with a feedback brief, so CV1 does not have the silent-test problem AIRF found.
+
+AIRF removed grading from every question outside its outcomes on 2026-09-28, on the grounds that such a score gates nothing and counts toward nothing. CV1 takes the narrower route above, but the same reasoning settles the first group: where the key is on the page, a score only measures whether the learner opened it first.
 
 ### Stage 5. Close the claim ledger in CV1
 
@@ -158,7 +171,7 @@ The mechanical passes run last among the content stages, so they catch everythin
 3. **Meeting 1: split the navigator note for Room 4**, which runs straight into the wrap-up script.
 4. **Update time figures and next-unit previews** from stage 8. Two are already incomplete: meeting 2 lists only the MIRI paper as unit 3's optional reading, leaving out the chip supply chain lens, and meeting 4 leaves out unit 5's open-problems reading.
 5. **Apply stages 6 and 7** to the docs' own text.
-6. **Run the guide's agent checks**, as far as decision 7 says.
+6. **Run the guide's three agent checks on all five docs:** template match, room quality and the cold reader. The docs and the master template, [[meetings/Master template]], are Markdown in the vault, so each check runs as a sub-agent given exactly what the guide specifies: its instruction text, the doc, the course file, and the unit's modules with their lenses, outcomes and readings. The cold reader gets the Session Doc tab and nothing else. The checks run last so they see the final docs, and their findings are triaged rather than applied wholesale.
 
 ### Stage 10. Test on staging
 
