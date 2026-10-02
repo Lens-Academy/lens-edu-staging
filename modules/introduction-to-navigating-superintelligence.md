@@ -1,6 +1,6 @@
 ---
 id: 69615c7b-49e1-431b-8748-3f6de6fef21e
-slug: introduction
+slug: overview
 # Module slug-aliases did not resolve on staging when tested 2026-10-02; kept for when the platform supports them.
 slug-aliases: [introduction-to-navigating-superintelligence]
 title: Introduction to AI Extinction Risk Foundations
