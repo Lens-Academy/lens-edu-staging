@@ -11,7 +11,7 @@ tags: []
 content::
 \## Before you read
 
-This is the post that gives the rest of this unit something concrete to point at. [[../Lenses/XLab Control - rogue-deployments|AI catastrophes and rogue deployments]] named the threat of an unauthorized agent running without your safety measures, and [[../Lenses/XLab Control - rogue-internal-deployments-via-external-apis|Rogue internal deployments via external APIs]] worked through one route to it. Here Buck Shlegeris draws the machines, so that "the AI hacked its own environment" becomes a claim about a specific box.
+This is the post that gives the high-stakes lessons around it something concrete to point at. [[../Lenses/XLab Control - rogue-deployments|AI catastrophes and rogue deployments]] named the threat of an unauthorized agent running without your safety measures, and [[../Lenses/XLab Control - rogue-internal-deployments-via-external-apis|Rogue internal deployments via external APIs]] worked through one route to it. Here Buck Shlegeris draws the machines, so that "the AI hacked its own environment" becomes a claim about a specific box.
 
 His main point, in his own words, is that three responsibilities "will almost surely be hosted on logically different computers, and probably on different physical machines": the inference server, the scaffold server, and the execution server. Keep that split in view while you read. Four recall checks and an interactive version of his diagram are spaced through the post.
 
