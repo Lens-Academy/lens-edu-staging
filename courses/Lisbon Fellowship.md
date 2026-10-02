@@ -59,6 +59,16 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 # Module: [[../modules/AI Safety Atlas - Scalable Oversight|Chapter 8: Scalable Oversight]]
 # Meeting: Week 6
 meeting-doc:: [[../meetings/Lisbon Fellowship/Meeting 6]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
+
+%% Week 7: guest speaker, no course content %%
+# Meeting: Week 7
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
+
+%% Week 8: guest speaker, no course content; the final survey %%
+# Meeting: Week 8
 survey:: [[../surveys/ASA Final Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
