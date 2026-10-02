@@ -33,7 +33,7 @@ Six things, none of them about what the course teaches.
 - **No published id changes, and nothing is retired.** Lenses and modules keep their ids. Slugs stay too: they still point at the right content, and module-level `slug-aliases` was never confirmed (see [[AIRF Restructure Log]], section 3), so renaming one would break every saved link to it once promoted.
 - **XLab's text stays XLab's.** Changes to it are limited to labels, spelling and page boundaries. The plain-language work in stage 6 targets Lens's own text and reaches XLab's only where a passage proves to be a problem.
 - **[[Lenses/Four Background Claims]] is not touched.** Two modules outside Compute Verification import it.
-- **Compute Verification 2 is reference only.** It is unfinished, so its structure is not adopted.
+- **{>>{"author":"Elias","timestamp":1790945706588}@@Shouldn't that be prepared too?<<}Compute Verification 2 is reference only.** It is unfinished, so its structure is not adopted.
 - **Release status is not ours.** The course-scoped validator shows 25 production errors, every one caused by a `wip` tag, plus 31 production warnings. Fourteen of those warnings come from a rule that appeared after 2026-09-30 and flags the partner name "XLab" in tutor-facing text, such as tutor summaries and the generic feedback brief; stages 4 and 6 rewrite that text, and lenses still tagged `wip` will raise more of the same once the tag comes off. That is the baseline, and apart from those warnings falling, it must not change.
 
 ## The work, in order
