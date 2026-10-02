@@ -28,7 +28,7 @@ content::
 
 1. [[#^part-1|**Part 1. Reverse Engineer Your Thesis!**]]: work backwards from your Theory of Change to your thesis outputs, deliverables and research question
 2. [[#^part-2|**Part 2. Continue Stakeholder Outreach**]]: keep updating your Stakeholder Outreach Tracker
-3. [[#^part-3|**Part 3. \[Optional\] Prepare for Week 8 Presentations**]]: get a head start on your final presentation
+3. [[#^part-3|**Part 3. (Optional) Prepare for Week 8 Presentations**]]: get a head start on your final presentation
 4. [[#^part-4|**Part 4. Next Steps**]]: note your open questions to bring to your discussion
 
 :::
