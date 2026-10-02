@@ -4,7 +4,7 @@ slug: lens-projects-u5-share
 title: "Unit 5: Share"
 tags: [wip]
 ---
-%% Unit 5 of Lens Projects, from the Course units doc (Unit 5). About 5 hours: about 1 of content, 4 of publishing and presenting. The core reading (Justis, "Editing Advice for EA Forum Users") and the optional reading ("How to write better blog posts") are added once their imports finish. %%
+%% Unit 5 of Lens Projects, from the Course units doc (Unit 5). About 5 hours: about 1 of content, 4 of publishing and presenting. The core reading is Justis, "Editing Advice for EA Forum Users"; the optional reading is "How to write better blog posts". %%
 
 # Lens: Welcome to Unit 5
 id:: 86153237-ac49-4f0b-98a7-3d2724b2aac2
