@@ -19,3 +19,9 @@ source:: [[../Lenses/ET FG Resources - Facilitator Guidelines]]
 
 # Lens:
 source:: [[../Lenses/ET FG Resources - Icebreaker Speed Friending Question List]]
+
+# Lens:
+source:: [[../Lenses/ET FG Resources - Weekly Message Templates]]
+
+# Lens:
+source:: [[../Lenses/ET FG Resources - Inviting Experts]]
