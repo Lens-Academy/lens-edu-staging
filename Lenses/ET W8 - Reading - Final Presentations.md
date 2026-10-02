@@ -74,7 +74,16 @@ We would love to continue to support your journey after the end of the program. 
       - [EA Opportunities Board](https://www.effectivealtruism.org/opportunities)
       - 💡 **Tip: make the most of the filters!** On each board, filter by **role type** (e.g. "Fellowship" or "Internship"), **cause area**, **location / remote**, and **experience level** (e.g. "Entry level" or "Student"), so you only see opportunities that actually fit you. Many boards also let you **save a search or sign up for email alerts**, so new opportunities matching your filters come straight to your inbox!
 
-\## A Big Thank You!
+***
+
+\## 3. Next Steps for Week 8 Meeting ^next-steps
+
+- **Prepare for Week 8 Presentations**: For this final week, everyone will each present an overview of what you’ve worked on over the past 8 weeks, summarised in a short presentation using the template below. Please come prepared to the session with your presentation using this template: [\[TEMPLATE\] Week 8 Presentation ET Accelerator: Oct-Dec 26'](https://docs.google.com/presentation/d/16l-eKuJcJnzKP5F-IOoNuUoHZqw-sPGi3Kb0Q-xw64Q/edit?slide=id.g3fb78c7d3ee_1_0#slide=id.g3fb78c7d3ee_1_0)
+- Use the Week 8 Journalling tab to reflect on your progress and to celebrate what you’ve achieved and learned!
+
+***
+
+\## A Big Thank You! ^thanks
 
 **Thank you for being here, for sharing your ideas, for supporting each other, and for caring enough to try to make the world a better place!** Thank you for your hearts that drive you to want to make the world a better place, for putting your minds into researching how this could happen, and for using your hands to take action!
 
