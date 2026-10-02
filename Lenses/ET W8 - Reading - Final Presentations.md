@@ -92,10 +92,3 @@ The Accelerator is ending, but this is not the end of the journey. We hope that 
 We hope that you take the time to celebrate what you've done and be proud of how far you've come. And then to take the next step! 🌱
 
 **We’re so excited to see what you do next and to continue to support your journey! 🚀💛**
-
-***
-
-\## Next Steps for Week 8 Meeting
-
-- **Prepare for Week 8 Presentations**: For this final week, everyone will each present an overview of what you’ve worked on over the past 8 weeks, summarised in a short presentation using the template below. Please come prepared to the session with your presentation using this template: [\[TEMPLATE\] Week 8 Presentation ET Accelerator: Oct-Dec 26'](https://docs.google.com/presentation/d/16l-eKuJcJnzKP5F-IOoNuUoHZqw-sPGi3Kb0Q-xw64Q/edit?slide=id.g3fb78c7d3ee_1_0#slide=id.g3fb78c7d3ee_1_0)
-- Use the Week 8 Journalling tab to reflect on your progress and to celebrate what you’ve achieved and learned!
