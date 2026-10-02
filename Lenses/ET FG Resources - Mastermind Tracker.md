@@ -9,7 +9,7 @@ tags: [wip]
 content::
 \## Mastermind Session Tracker
 
-Create a duplicate of the Mastermind Tracker for your own use. This tracker is used to ensure that everyone has the chance to participate in mastermind sessions across the cohort. The idea is that from **Weeks 2 to 7**, each participant should have the opportunity to be featured in at least **one mastermind session**, with the goal that most participants go **twice** over the course of the program. Masterminds are one of the most powerful learning and support mechanisms in the program. Tracking participation carefully ensures that no one is overlooked, no one dominates the space, and everyone experiences being deeply supported by their peers
+Use the interactive tracker below to plan your Mastermind rotations. This tracker is used to ensure that everyone has the chance to participate in mastermind sessions across the cohort. The idea is that from **Weeks 2 to 7**, each participant should have the opportunity to be featured in at least **one mastermind session**, with the goal that most participants go **twice** over the course of the program. Masterminds are one of the most powerful learning and support mechanisms in the program. Tracking participation carefully ensures that no one is overlooked, no one dominates the space, and everyone experiences being deeply supported by their peers
 
 \### How to schedule Masterminds
 
@@ -26,15 +26,13 @@ To increase engagement and the quality of sessions:
 
 \### Mastermind Session Tracker
 
-| Participants | Weeks |  |  |  |  |  |
-|---|---|---|---|---|---|---|
-|  | 2 | 3 | 4 | 5 | 6 | 7 |
-| .. |  |  |  |  |  |  |
-| .. |  |  |  |  |  |  |
-| .. |  |  |  |  |  |  |
-| .. |  |  |  |  |  |  |
-| .. |  |  |  |  |  |  |
+Add your participants and tick the weeks each person is in the hot seat. The totals show who still needs a turn and how many are scheduled each week. Your tracker saves automatically, so you can come back to it each week.
 
+#### Widget
+source:: [[../widgets/et-mastermind-tracker]]
+
+#### Text
+content::
 \### Mastermind Session Prompts
 
 *These are questions and prompts you could use during the mastermind session to support in the feedback and ideation process.*
