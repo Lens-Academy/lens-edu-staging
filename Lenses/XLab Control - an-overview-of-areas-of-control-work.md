@@ -13,7 +13,7 @@ content::
 
 This unit has worked through the pieces of control from the inside: [[../Lenses/XLab Control - detection-mitigations|Detection Mitigations]], [[../Lenses/XLab Control - prevention-response-mitigations|Prevention and Response Mitigations]], [[../Lenses/XLab Control - control-evaluations|Control Evaluations]], and [[../Lenses/XLab Control - environments|Environments]].
 
-This lens steps back to the whole field. Ryan Greenblatt lists the areas of control research and implementation that seem promising to him, and says up front that the list is roughly in descending order of how much investment each area should get. It leans on the framings in [[../Lenses/XLab Control - prioritizing-threats-for-ai-control|Prioritizing threats for AI control]], which you met in Unit 3.
+This lens steps back to the whole field. Ryan Greenblatt lists the areas of control research and implementation that seem promising to him, and says up front that the list is roughly in descending order of how much investment each area should get. It leans on the framings in [[../Lenses/XLab Control - prioritizing-threats-for-ai-control|Prioritizing threats for AI control]], which you met in AI Control 1.
 
 This is part 1 of 2. It covers the introduction and the first three areas, all research on models themselves: settings for control evaluations, control-relevant capabilities, and countermeasures studied in isolation. Part 2 covers the other five areas and then asks you to choose one area, build a causal chain from work beginning today to a reduction in existential risk, and attack your own chain at its weakest link. Note candidate areas as you read.
 

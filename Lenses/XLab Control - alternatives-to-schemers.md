@@ -188,7 +188,7 @@ Greenblatt, Ryan. "Current AIs seem pretty misaligned to me." *Redwood Research 
 *The source for the apparent-success seeker: the archetype current models already exhibit, while schemers remain hypothetical.*
 
 Greenblatt, Ryan, and Buck Shlegeris. "The case for ensuring that powerful AIs are controlled." *AI Alignment Forum*, 24 Jan. 2024. [alignmentforum.org](https://www.alignmentforum.org/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled)
-*Where the definitions of scheming and of a control evaluation come from; it is also the first lesson of Module 1 here.*
+*Where the definitions of scheming and of a control evaluation come from; it is also the first reading of AI Control 1.*
 
 XLab. "Alternatives to Schemers." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-5/alternatives-to-schemers)
 *The source lesson this page adapts.*
