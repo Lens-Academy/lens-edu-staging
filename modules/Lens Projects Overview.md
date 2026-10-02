@@ -52,7 +52,7 @@ Publish or share your work, check whether your prediction came true, write your 
 
 \## How your work is read
 
-Nothing in this course is graded. Your proposal and your write-up are read by your navigator, and your draft by your review partner. The AI tutor's job on every page is to make your answer more specific, not to grade it, and not to do the work for you: in this course, AI is for doing, never for deciding.
+Your project work is not graded. A few short knowledge checks give instant right or wrong feedback. You bring your work to each meeting, where your group sees it, and your review partner reads your draft. The AI tutor's job on every page is to make your answer more specific, not to grade it and not to do the work for you.
 
 # Lens: Introduction Form
 id:: b076af07-009b-424f-8934-de7a4b3649c2

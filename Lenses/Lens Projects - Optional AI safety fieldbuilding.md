@@ -2,7 +2,7 @@
 id: '73f59a79-384b-43f6-95e6-e9d01b8c1d96'
 title: "Optional: What AI safety fieldbuilders do"
 tldr: "80,000 Hours' career review of AI safety fieldbuilding: what the work looks like, why it can matter, its downsides, and how to start. Useful if you are on the Fit track or doing a fieldbuilding project."
-summary_for_tutor: "Optional reading in Unit 1 of Lens Projects: an excerpt of 80,000 Hours' career review of AI safety fieldbuilding (Aaron Gertler), from what fieldbuilders work on through how to get started. It helps Fit-track learners see one possible path, and fieldbuilding-track learners see the range of projects. If the learner asks whether fieldbuilding suits them, ask what they enjoyed in tasks they have tried rather than answering for them; in this course, AI is for doing, never for deciding."
+summary_for_tutor: "Optional reading in Unit 1 of Lens Projects: an excerpt of 80,000 Hours' career review of AI safety fieldbuilding (Aaron Gertler), from what fieldbuilders work on through how to get started. It helps Fit-track learners see one possible path, and fieldbuilding-track learners see the range of projects. If the learner asks whether fieldbuilding suits them, ask what they enjoyed in tasks they have tried rather than answering for them; the course rule is to use AI as a tool, not a decision-maker."
 reading_minutes: 25
 tutor_minutes: 0
 tags: [wip]
