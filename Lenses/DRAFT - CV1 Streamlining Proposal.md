@@ -161,9 +161,10 @@ content::
 1. **Structure**: A1 to A3, first, so later edits run against final page boundaries.
 2. **Question formats**: B.
 3. **Consistency**: C.
-4. **The ledger**: D.
-5. **Time figures**: A4, once nothing else will move them.
-6. **Meeting docs**: E4 last; E1 to E3 at any point.
+4. **The ledger**: D, written to F's standard from the start.
+5. **Plain language**: F, after B and C, so it reads final labels and rewritten prompts move with their briefs.
+6. **Time figures**: A4, once nothing else will move them.
+7. **Meeting docs**: E, with F applied to them; E4 last, E1 to E3 at any point.
 
 Each stage ends with `validate_content` run course-scoped and unscoped, and a staging check: ungraded questions still complete their lens, `force-feedback:: first` fires once, both unit 5 modules appear before the meeting, and no id has changed.
 
@@ -179,3 +180,4 @@ content::
 6. **Course name in learner text:** "Compute Verification 1" or "Part 1"?
 7. **Meeting docs:** run the guide's three agent checks this time, or leave them upstream as AIRF did?
 8. **Long core pages:** revisit after the cohort, as proposed, or include now?
+9. **Plain language:** Lens's own text only, as proposed, or XLab's text too?
