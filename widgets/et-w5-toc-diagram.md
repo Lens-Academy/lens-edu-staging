@@ -230,28 +230,49 @@ h4 { margin: 18px 0 4px; font-size: 14px; }
     el.appendChild(document.createTextNode(" \u2192 "));
     var z = document.createElement("b"); z.textContent = boxName(l.to); el.appendChild(z);
   }
+  function field(lbl, el) {
+    var w = document.createElement("label"); w.className = "fld";
+    var s = document.createElement("span"); s.textContent = lbl; w.appendChild(s); w.appendChild(el);
+    return w;
+  }
   function renderLinks() {
     linksEl.textContent = "";
     if (!data.links.length) {
       var p = document.createElement("p"); p.className = "empty";
-      p.textContent = "No arrows yet. Click \u201cLink to...\u201d on a box above, then click the box it leads to.";
+      p.textContent = "No arrows yet. Click \u201cLink to...\u201d on a box above, then click the box it leads to. Each arrow you draw becomes a row in your assumptions table here.";
       linksEl.appendChild(p); return;
     }
     data.links.forEach(function (l, i) {
       var row = document.createElement("div"); row.className = "lrow";
       var path = document.createElement("div"); path.className = "path"; setPath(path, l, i); row.appendChild(path);
-      var r = document.createElement("div"); r.className = "row";
+      var g = document.createElement("div"); g.className = "agrid";
       var ta = document.createElement("textarea");
       ta.value = l.label;
-      ta.placeholder = "Assumption or uncertainty on this arrow, e.g. \u201cThe think tank finds my research relevant\u201d";
-      ta.setAttribute("aria-label", "Assumption or uncertainty for arrow " + (i + 1));
+      ta.placeholder = "e.g. \u201cThe think tank finds my research relevant\u201d";
       ta.addEventListener("input", function () { l.label = ta.value; draw(); save(); });
-      r.appendChild(ta);
+      g.appendChild(field("Assumption", ta));
+      var cw = document.createElement("div");
+      var sel = document.createElement("select");
+      ["", "Low", "Med", "High"].forEach(function (v) { var o = document.createElement("option"); o.value = v; o.textContent = v === "" ? "Choose..." : v + " certainty"; sel.appendChild(o); });
+      sel.value = l.cert || "";
+      sel.addEventListener("change", function () { l.cert = sel.value; draw(); save(); });
+      cw.appendChild(field("Level of certainty", sel));
+      var why = document.createElement("textarea");
+      why.value = l.why || "";
+      why.placeholder = "Why? e.g. \u201cI haven't spoken to any think tanks yet\u201d";
+      why.addEventListener("input", function () { l.why = why.value; save(); });
+      cw.appendChild(field("Why this level?", why));
+      g.appendChild(cw);
+      var how = document.createElement("textarea");
+      how.value = l.how || "";
+      how.placeholder = "e.g. \u201cInterview 2-3 think tanks about what research they need\u201d";
+      how.addEventListener("input", function () { l.how = how.value; save(); });
+      g.appendChild(field("How to increase certainty", how));
+      row.appendChild(g);
       var rm = document.createElement("button"); rm.type = "button"; rm.className = "rm"; rm.textContent = "Remove arrow";
       rm.setAttribute("aria-label", "Remove arrow " + (i + 1));
       rm.addEventListener("click", function () { data.links.splice(i, 1); renderLinks(); draw(); save(); });
-      r.appendChild(rm);
-      row.appendChild(r);
+      row.appendChild(rm);
       linksEl.appendChild(row);
     });
   }
