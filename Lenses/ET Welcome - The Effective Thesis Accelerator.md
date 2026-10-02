@@ -96,7 +96,7 @@ source:: [[../widgets/et-platform-walkthrough-video]]
 content::
 ---
 
-\# 📌 Key Information
+\# 📌 Key Information ^key-info
 
 Here's everything you need to know about how the Accelerator runs!
 
@@ -128,7 +128,7 @@ The Mastermind is the core format of our weekly peer-group discussions. From Wee
 
 ---
 
-\## 🗓️ Overview of the 8-Weeks
+\## 🗓️ Overview of the 8-Weeks ^overview
 
 | Week | Focus |
 |---|---|
