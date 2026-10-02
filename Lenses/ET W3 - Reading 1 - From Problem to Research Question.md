@@ -28,8 +28,11 @@ The worksheet follows a funnel process for discovering your research question, a
 
 **The underlying principle is simple: make a long list first, then narrow it iteratively.** Here, it is key to spend **limited, time-capped attention** on each idea in the early rounds, and progressively more time per idea as your list gets shorter. It's worth time-capping early rounds because your time has a real opportunity cost, you can't afford to deeply research every idea. But it's also worth giving every idea at least some minimal consideration before discarding it, since even researching a less-promising idea for a few minutes can surface something useful.
 
-**A real example of this principle at scale.**
+#### Callout: A real example of this principle at scale
+tone:: blue
 
+#### Text
+content::
 Ambitious Impact (AIM, formerly Charity Entrepreneurship) runs the Charity Entrepreneurship Incubator and several other programs, launching evidence-led nonprofits by connecting aspiring founders with effective ideas, training, and funding. Most of the charity ideas they launch are the result of in-house prioritization research, focused primarily on global development and animal welfare. Their process looks roughly like this: they start with a list of 200-300 candidate ideas, split them into thematic sub-groups of 20-50, then have 2-3 researchers independently spend just 5-15 minutes on each idea, taking quick notes and assigning a rough score from 1 to 10. They then average scores, compare notes, and narrow the list down to 50-70 ideas, before repeating the process again in more depth on the smaller pool.
 
 - Their exact numbers are their scale, not a rule to copy, your organisation, and certainly your thesis, will have different needs and constraints: a different number of stages, a different number of ideas at each stage, different time budgets, and possibly different tools. What's worth borrowing is the underlying principle, not the specific parameters.
