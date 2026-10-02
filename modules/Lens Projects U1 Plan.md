@@ -44,6 +44,8 @@ content::
 
 AI safety researchers use AI all the time, so this course does not ban it. But AI can also create an illusion of productivity: code piling up on your laptop, drafts that never get posted, the feeling of mastery without the effort of trying. A project only teaches you something if you do the hard parts yourself.
 
+Remember the three stages from the course overview: **knowledge, opinion, voice**. AI is genuinely good at the first one. It can find sources, summarise them and explain ideas quickly. But your **opinion** (the stance you take) and your **voice** (how you say it, in your own words) are the whole point of this course. If AI forms your opinion or writes in your voice, the project shows what a model thinks, not what you think. That is also why some programmes screen applications for AI-written text, and why LessWrong moderates AI-written posts: readers and selectors are looking for a person's stance and voice.
+
 There is also a reason specific to this field. Handing your decisions to a model is a small, everyday version of the loss of human control that AI safety work tries to prevent. A course about AI safety should practise the opposite.
 
 \## The rule
