@@ -1,7 +1,7 @@
 ---
 id: 69615c7b-49e1-431b-8748-3f6de6fef21e
 slug: introduction-to-navigating-superintelligence
-title: Introduction to Navigating Superintelligence
+title: Introduction to {--{"author":"Elua's AI","timestamp":1790954739501}@@Navigating Superintelligence--}{++{"author":"Elua's AI","timestamp":1790954739501}@@AI Extinction Risk Foundations++}
 discussion: https://discord.com/channels/1440725236843806762/1465349126073094469
 ---
 
