@@ -70,6 +70,7 @@ content::
 ::card[[../Lenses/ET W1 - Journalling - Journaling on My Ikigai]]{allow-external}
 
 - Week 1 Slides [\[Shared - 2026\] Week 1: Foundations to Impact](https://docs.google.com/presentation/d/1OtnNuc_V2DwkJX3lipKqitjmDqYVnpkXawLvV1X1Iik/edit?slide=id.g374d8fb5114_0_595#slide=id.g374d8fb5114_0_595)
+- For a Google Docs version for printouts, you can use [this](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?tab=t.2b71rt36knt9). But we recommend everyone access via Lens!
 
 #### End Callout
 
@@ -82,17 +83,13 @@ content::
 - Briefly introduce yourself and your role as facilitator.
 - Share the overview and intention of this session: (1) Group connection (2) Introduction to the Accelerator, and (3) Exploration of Week 1’s module and worksheet, which focuses on foundations to impact
 
-\### 5m · Pre-accelerator forms
-
-**Ask all learners to fill in pre-accelerator forms** if they haven’t already.  This helps us at Effective Thesis get a better understanding of where everyone is starting from, so that we can tailor the programme better.  Learners who have already filled it in you can engage in a bit of simple small talk.
-
 \### 7m · Personal Introductions
 
 **Have participants share (<1-2 mins per person) with the whole group.**
 
 Prompt to group: “Share your name, a research topic you’ve been curious about exploring in your thesis, and what you’re excited about in this program.”
 
-Feel free to add in a fun question here!
+Feel free to add in a fun question here - like your favourite dessert, book, movie, etc.
 
 \### 7m · Speed Friending/ Icebreaker or Group activity
 
