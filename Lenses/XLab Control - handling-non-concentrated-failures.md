@@ -82,64 +82,12 @@ feedback-instructions:: Reply in at most 60 words. Say what the learner got righ
 
 #### End Callout
 
-#### Question: Open
-id:: 8f411fb8-cbdb-4e20-8ca1-d589331fc377
-content::
-**The critic argues:** We can avoid online training by reviewing a random sample of the model's actions, and if it sandbags or sabotages, we'll see suspicious behavior or a performance drop and respond then.
-
-Write your counterargument in two or three sentences, at least 80 characters.
-max-chars:: 450
-placeholder:: Your response, in 2 to 3 sentences.
-assessment-instructions:: Score out of 100. 50 each, for up to two specific weaknesses of relying on auditing alone that the answer explains, such as: there is no reliable baseline for how well, or how unsuspiciously, an honest model would perform, so a small performance drop can hide inside that uncertainty; honest models also do suspicious-looking things and nothing trained the model to look less suspicious, so triggers are noisy and costly responses must be rare; the evidence that should trigger a response will often be illegible, making a strong response hard to justify. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer only asserts that the model could hide, with no reason. Model answer, for the feedback, not a grading checklist: "Responding requires knowing what to expect, and that is the weak point: you need a prior over how suspicious a non-scheming model would look, and non-scheming models do objectively suspicious things. Generic sandbagging can hide inside that uncertainty, especially since nothing has trained the model to be less suspicious in-distribution. And the evidence that should trigger a strong response will often be illegible, which makes the response politically hard to motivate. The post's design rule, aiming for low expected cost if the model is not malign, exists precisely because these triggers are noisy. Auditing-only is a real regime with real advantages (higher usefulness if the model is not scheming), but it buys them at the price of these detection gaps."
-feedback-instructions:: Reply in at most 100 words, no lists. Say what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). If the learner says they do not understand, give one concrete foothold from the reading (for instance, ask what number the deployer would have to compare the observed performance against) rather than repeating the question; if their next message still does not attempt it, rephrase the whole question in different terms.
-
-#### Question: Open
-id:: 02d60f89-25f7-42f0-bd4e-5ad038c22651
-content::
-**The critic argues:** Online training against our oversight signal leads to systematic underperformance showing up in the loss and therefore gets trained away, so a scheming model is forced to behave exactly like a non-scheming one.
-
-Write your counterargument in two or three sentences, at least 80 characters.
-max-chars:: 450
-placeholder:: Your response, in 2 to 3 sentences.
-assessment-instructions:: Score out of 100. 50 each, for up to two different mechanisms the answer gives by which a scheming model can survive online training, such as: bad behaviour that is only slightly worse on the oversight signal, so it barely shows in the loss and training may not remove it; rare, subtle bad actions that are unlikely to be noticed; exploration or gradient hacking, so the bad behaviour never produces a training signal; training making the sabotage sneakier and rarer instead of removing the scheming; or online training being unaffordable, because training hard on the available proxy degrades an honest model's work or teaches the model what oversight catches. Each mechanism counts in full when the answer states it in a clause or a sentence; the question allows only two or three sentences. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer only says training is imperfect without naming a mechanism. Model answer, for the feedback, not a grading checklist: "Training pushes a schemer closer to a non-scheming model, not all the way: bad behaviour that is small or rare barely shows in the loss and may never be trained away, and training may just make the sabotage sneakier."
-feedback-instructions:: Reply in at most 130 words, no lists. Say plainly what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). If the learner says they do not understand, give one concrete foothold from the reading (for instance, ask what happens to behavior whose oversight score is only negligibly lower) rather than repeating the question; if their next message still does not attempt it, rephrase the whole question in different terms.
-
-#### Question: Open
-id:: c3ef6064-eb21-4d47-8918-19bb2dfcebbc
-content::
-**The critic argues:** Most sabotage in ML research is easy to verify once pointed out, and a debater is rewarded for pointing it out, so using a debater can prevent subtly bad actions from getting through.
-
-Write your counterargument in two or three sentences, at least 80 characters.
-max-chars:: 450
-placeholder:: Your response, in 2 to 3 sentences.
-assessment-instructions:: Score out of 100. 50 each, for up to two specific gaps the answer explains, such as: the debaters are untrusted and can exploration hack by never raising certain kinds of issues; red-teaming the debaters with inserted issues only works if they cannot tell those apart from the policy's real ones, the same collusion problem as untrusted monitoring; the judge must be able to tell real issues from fake ones, since debaters also raise fake issues whenever that persuades; training the policy against debate teaches it what debate catches. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 40 if the answer denies that debate is useful at all. Model answer, for the feedback, not a grading checklist: "If exploration hacking is avoided, every potentially convincing issue gets raised, and verification-once-pointed-out is exactly the property that makes debate powerful for research sabotage. Debaters can exploration hack, systematically declining to raise certain kinds of issues. Red-teaming them creates the same recognition problem as untrusted monitoring, and in a diffuse setting the collusion must be reliable on the policy's real bad actions, not just under red-teaming, since catching a subset can suffice for the deployer. And the judge must have real signal on whether a pointed-out issue is genuine, because debaters will also raise fake issues whenever that persuades; training the policy against debate trims false positives but also teaches the policy what debate catches."
-feedback-instructions:: Reply in at most 130 words, no lists. Say plainly what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). If the learner says they do not understand, give one concrete foothold from the reading (for instance, ask what a debater who does not want an issue found would simply do) rather than repeating the question; if their next message still does not attempt it, rephrase the whole question in different terms.
-
-#### Question: Choice
-id:: 896f5b1a-ca04-407b-b44f-68741baecccf
-content:: Now construct your own argument against one assumption of the diffuse-control picture. Which assumption does your argument attack?
-options::
-- The oversight process has real signal on whether an action is bad
-- A non-scheming performance baseline can be estimated well enough to set thresholds
-- The model cannot tell which of its actions will be audited
-- SGD is sample-efficient enough to train away detectable underperformance in time
-- Online training is affordable without crippling non-scheming usefulness
-
-#### Question: Open
-id:: d6e41a9e-9545-40cc-a6f3-ad84eced89d7
-content:: Make the argument. Name the assumption you chose, say what breaks if it is false, and say what a deployer would have to observe to find out.
-max-chars:: 900
-assessment-instructions:: Score out of 100. There is no single right choice; grade the argument. 25: the assumption is named and stated precisely enough that it could be false. 45: what breaks if it is false, specific to this assumption rather than a general statement that control gets harder. 30: an observation or measurement that would tell a deployer whether the assumption holds. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer restates the assumption in other words without an argument. Model answer, for the feedback, not a grading checklist: "One example: the assumption that a non-scheming performance baseline can be estimated well enough to set thresholds. If it is false, a deployer relying on auditing has nothing reliable to compare the observed performance against: a schemer can sandbag by less than the uncertainty in the baseline, and a threshold tight enough to catch it would also fire on an honest model that is simply weak, so the deployer either tolerates the sandbagging or pays for constant false alarms. To find out, the deployer could check how much a little online training or changed instructions improves performance in a domain: a large jump shows the model was performing below what it can do."
-feedback-instructions:: Reply in at most 120 words, short paragraphs, no lists: name the strongest part, then the weakest link, then one question that would test it. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). If the learner says they do not understand, give one concrete foothold from the reading (for instance, ask what the deployer in the post is doing that would stop working) rather than repeating the question; if their next message still does not attempt it, rephrase the whole question in different terms.
-
-#### End Callout
-
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Greenblatt, Ryan. "Notes on Handling Non-Concentrated Failures with AI Control: High Level Methods and Different Regimes." *Redwood Research Blog*, Redwood Research, 29 Mar. 2025. [blog.redwoodresearch.org](https://blog.redwoodresearch.org/p/notes-on-handling-non-concentrated)
-*The reading itself, reproduced in full above: the high level methods for handling failures that arise from many diffuse actions, the regime each method produces, and how each regime fails.*
+*The reading itself, reproduced above through the section on debate: the high level methods for handling failures that arise from many diffuse actions, and the regime each method produces. The closing sections on KL penalties and careful sabotage are in part 2.*
 
 XLab. "Notes on handling non-concentrated failures with AI control." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/low-stakes-control/handling-non-concentrated-failures)
-*The source lesson this page adapts.*
+*The source lesson this page adapts, including the detection-race demo and the recall questions.*
 :::
