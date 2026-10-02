@@ -24,6 +24,7 @@ This module aims to give you a reasonable grasp of what modern AI systems are, b
 source:: [[../articles/janus-simulators]]
 from:: GPT *is* behavior cloning.
 to:: than instantiated in our particular time and place and Everett branch.
+hide-author:: true
 
 # Lens:
 source:: ![[../Lenses/AI Is Grown, Not Built|AI Is Grown, Not Built]]
