@@ -11,6 +11,26 @@ content::
 
 Here are message templates you could use for communication with your cohort each week. Feel free to adapt as needed! Tap each one to open it.
 
+#### Callout: ✏️ Before you send: update the placeholders!
+tone:: amber
+
+#### Text
+content::
+Anything in square brackets needs to be swapped out for your own details before sending, for example:
+
+- **\[Link\]**: the Lens Academy portal link for your cohort
+- **\[Insert date/time in participant time zones\]**: your session date and time
+- **Location/ Zoom Link**: your room or call link
+- **\[Paste in based on the week\]**: the focus line for that week (from the table in the Weeks 2-7 template)
+- **\[Name\] and \[Name\]**: this week's Mastermind participants
+- **\[Your name\]**: your name!
+
+Quick tip: do a final scan for any "\[" before you hit send.
+
+#### End Callout
+
+#### Text
+content::
 **Contents**
 
 - [Week 1 Message Template](#week-1)

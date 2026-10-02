@@ -111,6 +111,8 @@ Everyone gets a turn every single week, which builds momentum fast.
 
 Because there are only two listeners, encourage each person to take on the role fully: one focuses on clarifying questions, the other on ideas and resources, then swap each round.
 
+Pods use a shorter version of the hot seat, so [the Mastermind Structure guide](https://staging.lensacademy.org/courses/et-accelerator-facilitator-guides/module/et-fg-resources#mastermind-structure) and its prompts are still useful here - just scale the timings down to 5m sharing and 10m feedback.
+
 #### End Callout
 
 #### Callout: Explore Option 2b: Mastermind groups of 4-5
@@ -124,6 +126,8 @@ If you have 8-10 people (or prefer the fuller mastermind experience), split into
 - Each group needs a timekeeper. If/when you can't sit in both groups, nominate a student facilitator in the second one and give them this guide
 - Keep groups stable across the six weeks so trust can build
 - Check in with both groups for the last few minutes to hear how it went
+
+Each group follows the standard hot seat structure, so see [the Mastermind Structure guide](https://staging.lensacademy.org/courses/et-accelerator-facilitator-guides/module/et-fg-resources#mastermind-structure) for the full 20m structure and prompts.
 
 #### End Callout
 
