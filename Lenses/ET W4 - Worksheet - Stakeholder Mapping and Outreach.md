@@ -79,6 +79,8 @@ You'll keep using this same tracker from now until Week 8. It also appears in yo
 
 :::
 
+::card[[../Lenses/ET Tool - My Stakeholder Outreach Tracker|📇 My Stakeholder Outreach Tracker (the same tracker, in its own tab)]]{allow-external}
+
 #### Callout: 💡 Example: a filled-in stakeholder tracker (click to open)
 tone:: neutral
 collapse:: closed
