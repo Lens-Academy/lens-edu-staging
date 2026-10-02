@@ -36,7 +36,7 @@ One influential attempt at structuring the space is the classification proposed 
 In this module, we will focus on 5 directions. The list is deliberately incomplete: in particular, it does not aim to cover governance in a comprehensive way. The boundaries between the directions are also not clean. They frequently overlap, borrow tools from one another, or approach the same underlying phenomena using very different conceptual languages.
 %%
 
-This module covers six of those agendas. For each agenda, we’ll look at material making the pitch for it and one describing its challenges and limitations. Feel encouraged to pick only the subset of modules which you are interested in, and skip some agendas entirely.
+This module covers six of those agendas. For each agenda, we’ll look at one piece making the pitch for it and one describing its challenges and limitations. Feel encouraged to pick only the agendas you are interested in, and skip some agendas entirely.
 
 %% Footnote removed with the "workable map" sentence (2026-10-02): Readers who have a better map, particularly for teaching purposes, are strongly encouraged to author an alternative version of this module. %%
 
