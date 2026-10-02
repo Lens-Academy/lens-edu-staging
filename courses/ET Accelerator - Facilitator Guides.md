@@ -27,4 +27,8 @@ tags: [wip]
 
 # Module: [[../modules/ET FG W8 - Final Presentations|Week 8: Final Presentations]]
 
+# Meeting: Weekly Facilitation Guides
+
 # Module: [[../modules/ET FG Resources|Resources]]
+
+# Meeting: Resources
