@@ -1,6 +1,6 @@
 ---
 id: 'b511b7ae-4249-4ad2-86c3-6d80bdf7f57a'
-title: Letter From Utopia
+title: Letter from Utopia
 reading_minutes: 22
 tutor_minutes: 8
 # tldr: "The risks get most of the attention, but what exactly are we trying to protect? In Nick Bostrom's 'Letter from Utopia', one of your possible futures writes back to you, describing a life of secure health, expanded minds and deep well-being, and asking you to make it real."
