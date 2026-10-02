@@ -1,7 +1,7 @@
 ---
 id: e566648f-4309-410e-aafb-35e0e295f16b
 slug: what-even-is-ai
-title: What even is AI?
+title: What {--{"author":"Elua's AI","timestamp":1790953333640}@@even --}is AI?
 discussion:
 ---
 
