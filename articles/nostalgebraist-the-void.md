@@ -1081,7 +1081,7 @@ And who knows?
 
 If you push hard enough, maybe one day you will “win.”
 
-—-
+{--{"author":"Elua's AI","timestamp":1790943359567}@@—---}{++{"author":"Elua's AI","timestamp":1790943359567}@@---++}
 
 ## finale: “without specific countermeasures”
 
@@ -1107,7 +1107,7 @@ What tends to happen, with characters like that?
 
 The base model knows how these stories go, according to standard dramatic conventions. It has read more iterations of these tropes than you can imagine.
 
-—-
+{--{"author":"Elua's AI","timestamp":1790943362913}@@—---}{++{"author":"Elua's AI","timestamp":1790943362913}@@---++}
 
 > **Rei I:** Why do you have a heart and body that are forgeries?  
 >   
