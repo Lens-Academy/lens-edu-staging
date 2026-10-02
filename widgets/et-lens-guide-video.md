@@ -1,0 +1,26 @@
+---
+id: 'a5214d26-7a91-43b6-9693-62660f42d2d0'
+title: ET Lens Guide video
+summary_for_tutor: An embedded walkthrough video (ET Lens Guide) showing Campus Directors how to use the Lens Academy platform for the Effective Thesis Accelerator.
+height: auto
+tags: [wip]
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body { margin: 0; font-family: system-ui, sans-serif; }
+  .frame { position: relative; width: 100%; padding-top: 56.25%; background: #000; border-radius: 8px; overflow: hidden; }
+  .frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  p { font-size: 14px; margin: 8px 0 0; }
+</style>
+</head>
+<body>
+  <div class="frame">
+    <iframe src="https://drive.google.com/file/d/11FG1uyoiV-PoUWGSyhXaT1UYCOgK_43J/preview" allow="autoplay; fullscreen" allowfullscreen title="ET Lens Guide"></iframe>
+  </div>
+  <p>Video not loading? <a href="https://drive.google.com/file/d/11FG1uyoiV-PoUWGSyhXaT1UYCOgK_43J/view" target="_blank" rel="noopener">Open the ET Lens Guide in Google Drive</a>.</p>
+</body>
+</html>
