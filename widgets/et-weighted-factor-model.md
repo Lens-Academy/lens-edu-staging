@@ -143,7 +143,7 @@ tags: [wip]
 <div id="root">
 <p class="eyebrow">Effective Thesis Accelerator, Week 3</p>
 <h1>Weighted Factor Model for A High-Impact Thesis</h1>
-<p class="lede">Three steps: choose and weight your factors, add and score your shortlisted questions, then see what rises to the top. Open one at a time; everything saves as you go.</p>
+<p class="lede">Four steps: choose and weight your factors, add your shortlisted questions, score each one, then see what rises to the top. Open one at a time; everything saves as you go.</p>
 <div id="warn" class="warn" role="status" hidden></div>
 <div id="app"></div>
 </div>
@@ -822,7 +822,7 @@ var WFM = {
     ui.shortMsg = "";
     ui.openQ = {};
     if (ui.detail && ui.detail.slice(0, 2) === "q:") ui.detail = null;
-    openOnly("score");
+    openOnly("questions");
     renderAll();
     focusById("load-example");
     persist();
