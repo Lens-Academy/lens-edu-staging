@@ -109,8 +109,12 @@ tone:: neutral
 content::
 \### 15m · Part 1: Working on Worksheet Live
 
-Ask participants to open the Week 4 Worksheet in their workbook and introduce Worksheet: This worksheet is designed to help you continue to conduct stakeholder outreach and prepare for your upcoming interviews! The goal of today is to support each other in continuing our stakeholder outreach and preparing for interviews.
+Ask participants to open the Week 4 Worksheet in their workbook and introduce Worksheet: This worksheet is designed to help you continue to conduct stakeholder outreach and prepare for your upcoming interviews! By the end of this worksheet, you'll have a list of real, named stakeholders worth talking to, at least 15-20 outreach attempts logged, and a set of interview questions ready to go!"
 
+- **Part 1:** copy over their top 1-2 research questions and bottleneck from Week 3, and name who would need to act on the answer.
+- **Part 2:** list 10-20 real stakeholders, specific people and organisations, not "an NGO". For each: what change is required, and how could their research lead to it? Resources: EA Organization Directory, EA Organizations Map, EA Forum topic pages.
+- **Part 3:** name their desired outcomes from interviews, then draft 5-8 open-ended interview questions tied to them.
+- **If already done:** send emails live!
 - Set aside 10-15 minutes for each person to work on their worksheet independently (if already completed, learners can fine-tune, or discuss their thinking)
 
 #### End Callout
@@ -120,6 +124,8 @@ tone:: neutral
 
 #### Text
 content::
+*If you have a larger group (>4 participants), please see [[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]] for alternative formats.*
+
 **ALTERNATIVE OPTION: If your cohort has not yet sent out any emails by this point, you can also make this whole session a co-working session where participants leave the sessions having sent >15 emails out.**
 
 \### 20m · Mastermind Session 1
@@ -134,6 +140,11 @@ content::
 3. **13m of Group Feedback & Ideas:** Encourage the group to provide questions, feedback, and ideas to the Mastermind participant
    - Encourage them to: Ask clarifying questions, offer perspectives, ideas, and suggestions for next steps, and address the participant’s specific questions and needs
    - Encourage asking before suggesting – help the participant think through options rather than giving solutions directly.
+   - **Week 4 specific prompts**
+      - Given your bottleneck, which 2-3 stakeholders matter most? Is anyone missing, like beneficiaries or status quo actors?
+      - What's the one thing you most want to learn from them?
+      - What's getting in the way of hitting send? How can this group support you (intros, reviewing a draft, a send-together session)?
+      - Are there people, resources or organisations you've come across that could help?
    - Prompting questions/ideas for the group: See [[../Lenses/ET FG Resources - Mastermind Tracker|Mastermind session prompts here]] for more ideas and guidance.
       - How can this group support you in reaching out to these stakeholders? What support may you need?
       - What would you do if you were in their position?
