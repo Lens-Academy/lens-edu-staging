@@ -435,7 +435,7 @@ We have included pseudocode describing the sampling process (steps 2–6) below.
 
 Listing 1: Bootstrapping procedure pseudocode
 
-```text
+```
 function calculate_bootstrapped_safety(
     defer_threshold: float,
     malign_suspicion_scores: array[float],
