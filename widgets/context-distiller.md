@@ -420,9 +420,10 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
       REPORTS.forEach(function (r) {
         var ix = indexReport(r);
         var s = sanitizeRun(runs[r.id], ix);
-        if (s) store.runs[r.id] = s;
         var o = sanitizeRun(other[r.id], ix);
-        if (o && (!s || o.mode !== s.mode)) store.other[r.id] = o;
+        if (s) store.runs[r.id] = s;
+        else if (o) { store.runs[r.id] = o; o = null; }
+        if (o && o.mode !== s.mode) store.other[r.id] = o;
       });
       if (typeof saved.current === "string" && reportById(saved.current)) store.current = saved.current;
     }
@@ -587,7 +588,7 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
       ui.tightArmed = true;
       ui.tightArmedAt = Date.now();
       clearTimeout(tightTimer);
-      tightTimer = setTimeout(function () { ui.tightArmed = false; render(); }, 4000);
+      tightTimer = setTimeout(function () { if (!ui.tightArmed) return; ui.tightArmed = false; render(); }, 4000);
       render();
       return;
     }
@@ -609,6 +610,7 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
     var run = currentRun(), report = currentReport();
     if (!run) return;
     var next = freshRun();
+    next.mode = run.mode;
     next.tightUnlocked = run.tightUnlocked;
     store.runs[report.id] = next;
     ui.section = null; ui.armed = null; ui.focus = null;
@@ -628,6 +630,8 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
   function render() {
     root.textContent = "";
     var report = currentReport();
+    var shown = report ? currentRun() : null;
+    if (ui.tightArmed && !(shown && shown.letters && shown.delivered)) { ui.tightArmed = false; clearTimeout(tightTimer); }
     if (!report) { renderPicker(); return; }
     var run = currentRun();
     if (!run) return;
