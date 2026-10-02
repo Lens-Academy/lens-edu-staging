@@ -6,11 +6,9 @@ summary_for_tutor: "Excerpt from Nick Bostrom's 'Superintelligence' (2014), repr
 title: Sources of advantage for digital agents over biological agents
 # tldr: Speed is the obvious advantage, but it's only the beginning. Digital agents could share memories, coordinate perfectly with copies of themselves, swap in specialized modules, and never lose information. This reading catalogues the ways artificial minds could differ from biological ones — not just in degree, but in kind.
 ---
-%%
 #### Text
 content::
 And still we are only scratching the tip of the iceberg. Perhaps you'll want to sit down and think of a few more advantages you could imagine an artificial mind having over us yourself, before you read the following non-exhaustive list.
-%%
 
 #### Article
 source:: [[../articles/bostrom-sources-of-advantage-for-digital-agents-over-biological-agents]]
