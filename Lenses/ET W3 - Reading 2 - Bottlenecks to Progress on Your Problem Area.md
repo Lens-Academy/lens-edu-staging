@@ -11,14 +11,14 @@ content::
 
 Now that you've seen how a problem becomes a research question, here's the step-by-step process you'll follow this week. Each step matches a step in your Week 3 Worksheet, so feel free to move between the reading and the worksheet as you go!
 
-- **Step 1: Bottlenecks to Progress on your problem area**
-- **Step 2: Generating a Wide Set of Candidate Questions**
-- **Step 3: Iterative Narrowing**
-- **Step 4: Choosing Your Top Question(s) with a Weighted Factor Model**
+- [[#^step-1|**Step 1: Bottlenecks to Progress on your problem area**]]
+- [[#^step-2|**Step 2: Generating a Wide Set of Candidate Questions**]]
+- [[#^step-3|**Step 3: Iterative Narrowing**]]
+- [[#^step-4|**Step 4: Choosing Your Top Question(s) with a Weighted Factor Model**]]
 
 ---
 
-\## Step 1: Bottlenecks to Progress on your problem area
+\## Step 1: Bottlenecks to Progress on your problem area ^step-1
 
 Before you can generate good research questions, it helps to have a rough map of what's already being tried in your problem area, and where the gaps are. You don't need to become a domain expert this week, just enough of a sense of the current state to brainstorm from something real, rather than from our biases of whatever's already in your head, and to avoid landing on a question that turns out not to be useful once we look closer.
 
