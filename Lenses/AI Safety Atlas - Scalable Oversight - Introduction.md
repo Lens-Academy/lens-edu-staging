@@ -8,7 +8,8 @@ tutor_minutes: 5
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Scalable Oversight - Introduction]]
+{++{"author":"Iris's AI","timestamp":1790942592377}@@render-as-non-article-text:: true
+++}source:: [[../articles/AI Safety Atlas - Scalable Oversight - Introduction]]
 
 #### Question: Open
 id:: a0271d81-93f0-461b-aaff-574486de84a4

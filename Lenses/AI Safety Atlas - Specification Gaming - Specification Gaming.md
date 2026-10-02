@@ -8,7 +8,8 @@ tutor_minutes: 7
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Specification Gaming - Specification Gaming|Specification Gaming]]
+{++{"author":"Iris's AI","timestamp":1790942618825}@@render-as-non-article-text:: true
+++}source:: [[../articles/AI Safety Atlas - Specification Gaming - Specification Gaming|Specification Gaming]]
 
 #### Text
 optional:: true

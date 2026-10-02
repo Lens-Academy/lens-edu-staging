@@ -8,7 +8,8 @@ tutor_minutes: 6
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Scalable Oversight - Task Decomposition|Task Decomposition]]
+{++{"author":"Iris's AI","timestamp":1790942596772}@@render-as-non-article-text:: true
+++}source:: [[../articles/AI Safety Atlas - Scalable Oversight - Task Decomposition|Task Decomposition]]
 
 #### Text
 optional:: true

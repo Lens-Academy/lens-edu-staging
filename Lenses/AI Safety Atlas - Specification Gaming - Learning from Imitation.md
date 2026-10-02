@@ -8,7 +8,8 @@ tutor_minutes: 7
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Specification Gaming - Learning from Imitation|Learning from imitation]]
+{++{"author":"Iris's AI","timestamp":1790942615691}@@render-as-non-article-text:: true
+++}source:: [[../articles/AI Safety Atlas - Specification Gaming - Learning from Imitation|Learning from imitation]]
 
 #### Text
 optional:: true
