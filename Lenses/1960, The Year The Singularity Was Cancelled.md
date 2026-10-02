@@ -26,7 +26,7 @@ In this piece, Scott Alexander follows a growth trend that held for thousands of
 
 #### Article
 source:: [[../articles/1960, The Year The Singularity Was Cancelled]]
-from:: "***Epis"
+from:: {--{"author":"Elua's AI","timestamp":1790942169109}@@"***Epis"--}{++{"author":"Elua's AI","timestamp":1790942169109}@@"### I"++}
 
 #### Text
 content::
