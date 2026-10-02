@@ -82,8 +82,8 @@ h4 { margin: 18px 0 4px; font-size: 14px; }
     <div id="labels"></div>
   </div></div>
   <div class="banner" id="banner" role="status"><span id="bannerText"></span><button type="button" id="cancel">Cancel</button></div>
-  <h4>Arrows: assumptions & uncertainties</h4>
-  <p class="hint" style="margin-bottom:8px">What has to be true for one box to lead to the next? Name the assumption or uncertainty on each arrow.</p>
+  <h4>My assumptions & uncertainties table</h4>
+  <p class="hint" style="margin-bottom:8px">Every arrow you draw above automatically appears here as a row. For each one: what has to be true for one box to lead to the next? How certain are you (Low / Med / High), and why? And what could you do to increase your certainty? Your certainty level also shows up on the arrow itself.</p>
   <div class="links" id="links"></div>
 </div>
 <script>
