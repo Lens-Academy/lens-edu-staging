@@ -6,6 +6,9 @@ tags: [wip]
 ---
 
 # Lens:
+source:: [[../Lenses/ET FG Resources - Group Size Recommendations]]
+
+# Lens:
 source:: [[../Lenses/ET FG Resources - Mastermind Structure]]
 
 # Lens:
