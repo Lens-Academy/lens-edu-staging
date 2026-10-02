@@ -34,7 +34,7 @@ tone:: amber
 
 #### Text
 content::
-- **Select the 2 Mastermind Participants from this Week’s discussion using [[../Lenses/ET FG Resources - Mastermind Tracker|your Mastermind Tracker]]**
+- **Select the 2 Mastermind Participants from this Week’s discussion using your [[../Lenses/ET FG Resources - Mastermind Tracker|Mastermind Tracker]]**
 - **Communication (Friday before):** Send participants a reminder to do weekly readings before the session (see template message in CD HQ)
    - **For Chosen Mastermind Participants:** Let them know they are selected and to prepare lightly for it, and inform you if they can’t make it
 - **Read through this week’s module** to familiarise yourself with the content!
@@ -108,7 +108,7 @@ content::
 - What’s the last thing that made you genuinely laugh out loud?
 - Do you have a “hidden talent” or random skill most people wouldn’t guess?
 
-**If you would like to do a group activity/game instead, [[../Lenses/ET FG Resources - Icebreaker Speed Friending Question List|here]] are some ideas.**
+**If you would like to do a group activity/game instead, see the [[../Lenses/ET FG Resources - Icebreaker Speed Friending Question List|Icebreaker/ Speed Friending Question List]] for some ideas.**
 
 #### End Callout
 
@@ -154,7 +154,7 @@ content::
       - Who specifically needs to act differently? Could you name a real person or organisation?
       - What would move your riskiest assumption from low to high certainty? (Often: talk to them, or partner with them directly)
       - Are there people, resources or organisations you've come across that could help?
-   - Prompting questions/ideas for the group: See [[../Lenses/ET FG Resources - Mastermind Tracker|Mastermind session prompts here]] for more ideas and guidance.
+   - Prompting questions/ideas for the group: See the Mastermind session prompts in the [[../Lenses/ET FG Resources - Mastermind Tracker|Mastermind Tracker]] for more ideas and guidance.
       - How can this group support you in reaching out to these stakeholders? What support may you need?
       - What would you do if you were in their position?
       - Are there people, resources, or organisations you’ve come across that could help?
