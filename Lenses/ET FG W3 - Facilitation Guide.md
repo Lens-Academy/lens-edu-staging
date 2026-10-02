@@ -174,18 +174,27 @@ content::
    - What questions remain that you want to explore further?
    - Goal: Try to support the participant in leaving with clear, actionable takeaways or next steps, and ending with an encouraging note.
 
-\### 20m · Mastermind Session 1
+#### End Callout
 
+#### Callout: 5. 20m · Mastermind Session 2
+collapse:: closed
+
+#### Text
+content::
 **Repeat the structure above for the second Mastermind participant.**
 
 #### End Callout
 
-#### Callout: Part 3: Group Discussion
+#### End Callout
+
+#### Callout: Part 4: Group Discussion & Close
 tone:: neutral
+
+#### Callout: 6. 20m · Group Discussion and Synthesis
+collapse:: closed
 
 #### Text
 content::
-\### 20m · Group Discussion and Synthesis
 
 **Goal**: Help participants reflect on the week’s reading. You can use any of the questions below to guide the group discussion based on what feels most alive:
 
@@ -210,8 +219,13 @@ content::
 - Reinforce that their top 1-2 questions are a best current answer, not a commitment. Iteration is a feature of good research!
 - Remind people using the AI brainstorming tool or LLMs to generate their own ideas first, then use AI to extend and stress-test them.
 
-\### 10m · Outro: Intro to Next Week
+#### End Callout
 
+#### Callout: 7. 10m · Outro: Intro to Next Week
+collapse:: closed
+
+#### Text
+content::
 - **Briefly introduce Week 4: Stakeholder Mapping and Outreach.** We'll figure out who actually needs their research question answered, start reaching out to them, work through the emotional side of outreach, and learn how to run a useful interview.
 - **Remind participants to:**
    - Remind **the two that are in the Mastermind session** for next week
