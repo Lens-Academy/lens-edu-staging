@@ -61,5 +61,5 @@ source:: ![[../Lenses/Recursion Magic|Recursion Magic]]
 source:: ![[../Lenses/A new Moores Law for AI agents]]
 
 # Lens:
-optional:: true
-source:: ![[../Lenses/The most important century]]
+{--{"author":"Elua's AI","timestamp":1790935032199}@@optional:: true
+--}source:: ![[../Lenses/The most important century]]
