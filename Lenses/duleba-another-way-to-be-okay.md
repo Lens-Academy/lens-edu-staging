@@ -7,3 +7,7 @@ reading_minutes: 8
 
 #### Article
 source:: [[../articles/duleba-another-way-to-be-okay]]
+
+#### Text
+content::
+Did this land for you? If not, don't worry: different people need different things. Maybe read through this [compilation of resources](https://www.lesswrong.com/posts/pLLeGA7aGaJpgCkof/mental-health-and-the-alignment-problem-a-compilation-of) to find something that fits you better.
