@@ -87,7 +87,7 @@ content::
 
 A project card is the short version of your work that you can paste into an application or link from your CV. Keep each field to a sentence or two.
 
-The last field is your **"How I used AI"** line. Build it from the AI lines in your report cards, in your own words. Example: *"AI helped write the plotting code and red-team my claims; the question, analysis and writing are mine."*
+The last field is your **"How I used AI"** line. Build it from the AI lines in your report cards, in your own words. Example: *"AI helped write the plotting code and look for weak spots in my claims; the question, analysis and writing are mine."*
 
 #### Question: Open
 id:: 1df67ad8-d022-466c-9339-b904b9f52d45

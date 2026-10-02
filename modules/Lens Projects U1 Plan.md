@@ -63,18 +63,22 @@ Think of AI like a map app on a new route home. Use it the first few times, then
 |---|---|
 | Coding, debugging and running experiments | Which problem to work on, and for whom |
 | Finding and summarising sources (then read the key ones yourself) | Which sources and results you trust |
-| Red-teaming your plan and drafts | Your theory of change, scope and pivots |
+| Red-teaming your plan and drafts (see below) | Your theory of change, scope and pivots |
 | Explaining a concept you are stuck on | What you claim to understand |
 | Editing for clarity and formatting | Your argument, your claims and your voice |
 
 A quick test: if a decision would change what you publish under your name, you make it.
+
+:::callout {title="What \"red-teaming\" means" tone="neutral"}
+**Red-teaming** means deliberately looking for the weak spots in something, the way an opponent would. The term comes from military and security exercises, where a "red team" plays the attacker so the defenders can find their gaps before a real attacker does. In AI safety research it often means trying hard to make an AI system fail or misbehave. In this course it means something simpler: stress-testing your own plan, argument or draft before anyone else does. Asking "who would disagree with this, and why?" is red-teaming.
+:::
 
 \## Habits that help
 
 - **Attempt first.** When stuck, write your own attempt for 10 minutes before opening an AI tool.
 - **Ask for questions, not answers.** Have AI find holes in your plan rather than solve it.
 - **Treat a rush as a signal.** When pressed for time, cut scope instead of handing off the thinking.
-- **Disclose.** Your project card ends with one line on how you used AI, for example: *"AI helped write the plotting code and red-team my claims; the question, analysis and writing are mine."*
+- **Disclose.** Your project card ends with one line on how you used AI, for example: *"AI helped write the plotting code and look for weak spots in my claims; the question, analysis and writing are mine."*
 
 Your write-up is written by you, with AI for critique only. Some programmes, such as MATS, check applications for LLM-written text, and LessWrong moderates LLM-written posts. A piece in your own voice is also an honest writing sample.
 
@@ -201,7 +205,7 @@ source:: [[../widgets/lens-projects-theory-of-change]]
 content::
 \## Optional: red-team your theory of change
 
-Want a tougher read? Ask the tutor below to play a sceptic. It will ask who might not care about your project, and why. It only asks questions; the answers and any changes are yours.
+Want a tougher read? Red-teaming (see the AI policy page) means looking for the weak spots on purpose. Ask the tutor below to play a sceptic. It will ask who might not care about your project, and why. It only asks questions; the answers and any changes are yours.
 
 #### Chat
 instructions:: Optional red-team chat in Unit 1 of Lens Projects. The learner has just built a theory of change for their own project in the widget above (its contents are in the widget-state block). Play a friendly sceptic. Ask one question at a time about who might not care about this project and why, which link in their chain is weakest, and what evidence would change their mind. Keep each reply under 80 words. Never propose a different project, rewrite their chain, or tell them what to decide: the course rule is to use AI as a tool, not a decision-maker. If the learner says they are done, summarise in two sentences the one challenge they have not answered yet, and stop.

@@ -1,14 +1,16 @@
 ---
 id: '156a4835-0b5b-4c25-981e-7afc77beeb9c'
-title: "Notes on handling non-concentrated failures with AI control"
-tldr: "A schemer that blows up the datacentre gets one shot, and you only have to catch it once. A schemer that is quietly a little worse at alignment research gets as many shots as the deployment is long, and you may catch none of them. These are Ryan Greenblatt's working notes on the second kind: train the model online, audit it and respond, or force schemers and non-schemers to behave identically."
-summary_for_tutor: "Module 5. This page reproduces Ryan Greenblatt's post verbatim rather than summarising it, so the post is embedded as four Article excerpts and everything around it is scaffolding rather than Greenblatt's own words. Sequence: our lead-in linking back to the Module 1 diffuse-threats lens; article part 1 (the two classes of methods, and the no-online-training regime); the first Quick recall pair; article part 2 (online training, and what a schemer can still get away with, ending on the three regimes); our set-up of the quantitative detection-race model (C bad actions to catastrophe, chance q that one is noticed, decisive response at the K-th notice, and why its levers reach only two of the three regimes); the detection-race widget, an interactive port of the source lesson's DetectionRaceDemo, which the learner completes by reaching both reachable regimes; our note that the schemer's pace has no lever, since slowing down delays detection and catastrophe alike; article part 3 (debate); the second Quick recall pair; article part 4 (KL penalties, careful sabotage, footnotes); the four-scenario 'Which regime handles it?' exercise; the three-round 'Responding to optimism about diffuse control' exercise plus its own-argument construction step. The recall and exercise wording, the model answers inside the assessment briefs, and the toolbox come from the source lesson; the lead-in prose, the two framing texts around the widget, and the framing sentences around the excerpts are Lens-written. Do not hand out the model answers in the briefs before the learner has attempted the question."
-reading_minutes: 40
-tutor_minutes: 60
+title: "Notes on handling non-concentrated failures (1): the regimes, the detection race, and debate"
+tldr: "A schemer that blows up the datacentre gets one shot, and you only have to catch it once. A schemer that is quietly a little worse at alignment research gets as many shots as the deployment is long, and you may catch none of them. Ryan Greenblatt's working notes on the second kind, part 1: what you can do without online training, what a schemer can still get away with when you do train online, where catastrophe outruns detection, and what debate can and cannot force."
+summary_for_tutor: "Part 1 of 2 of Ryan Greenblatt's 'Notes on handling non-concentrated failures with AI control'; part 2 is the lens handling-non-concentrated-failures-2 (KL penalties, careful sabotage, and the two synthesis exercises). This page reproduces the post verbatim rather than summarising it, so the post is embedded as three Article excerpts and everything around it is scaffolding rather than Greenblatt's own words. Sequence: our lead-in linking back to the diffuse-threats lens (How can we solve diffuse threats like research sabotage with AI control?); article part 1 (the two classes of methods, and the no-online-training regime); the first Quick recall pair; article part 2 (online training, and what a schemer can still get away with, ending on the three regimes); our set-up of the quantitative detection-race model (C bad actions to catastrophe, chance q that one is noticed, decisive response at the K-th notice, and why its levers reach only two of the three regimes); the detection-race widget, an interactive port of the source lesson's DetectionRaceDemo, which the learner completes by reaching both reachable regimes; our note that the schemer's pace has no lever, since slowing down delays detection and catastrophe alike; article part 3 (debate, for binary questions and for oversight of a policy); the second Quick recall pair. The rest of the post (KL penalties, careful sabotage, the footnotes) is collapsed at the end of the last excerpt; the debate footnotes show as popups. The recall wording and the model answers inside the assessment briefs come from the source lesson; the lead-in prose, the two framing texts around the widget, and the framing sentences around the excerpts are Lens-written. Do not hand out the model answers in the briefs before the learner has attempted the question."
+reading_minutes: 30
+tutor_minutes: 12
 tags: []
 ---
 #### Text
 content::
+Part 1 of 2. This part reads Greenblatt's notes through the section on debate: the two classes of methods, what each regime lets a scheming model get away with, the race between detection and catastrophe, and what debate can and cannot force. Part 2 reads his two closing sections and then asks you to put the whole post to work.
+
 [[../Lenses/XLab Control - diffuse-threats-research-sabotage|How can we solve diffuse threats like research sabotage with AI control?]] drew the line between concentrated failures, where a single action is enough for catastrophe, and diffuse ones, where the damage only accumulates over many actions. This reading is Ryan Greenblatt's working notes on the second kind: which high level methods exist, which regime each method puts you in, and how each regime fails.
 
 The organising claim of the post is that non-concentrated failures can in principle be handled by asynchronous online training: sample a small fraction of the AI's actions after they have already run, rate them with an oversight process that has some signal on whether an action was bad, and use that rating as a reward. Most of what follows is a catalogue of two things: what a scheming model can still get away with under that method, and what you are left with if you decide not to train online at all.
@@ -79,27 +81,6 @@ assessment-instructions:: Score out of 100. 50: auditing notices suspicious beha
 feedback-instructions:: Reply in at most 60 words. Say what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). If the learner says they do not understand, give one concrete foothold from the reading (for instance, ask what the two levers a deployer holds are, reviewing actions and training on the ratings) rather than repeating the question; if their next message still does not attempt it, rephrase the whole question in different terms.
 
 #### End Callout
-
-#### Article
-from:: ## KL penalties and forcing identical behavior
-
-#### Callout: Which regime handles it?
-tone:: blue
-
-#### Text
-content::
-For each failure scenario, place it on the concentrated-diffuse spectrum and argue which method could handle it.
-
-#### Question: Open
-id:: b0840bee-8a8b-4683-a000-da6c436ad2c5
-content::
-\#### One careful commit
-
-A model working in your infrastructure codebase inserts a subtle backdoor into a widely used library, handing bad actors access to production systems once shipped.
-
-Where does this sit on the concentrated-diffuse spectrum, and which method could handle it?
-assessment-instructions:: Score out of 100. 40: placement: the concentrated (high-stakes) end, 25 for the placement and 15 for the reason, that a single action is enough for the catastrophe. 60: which method could handle it, 35: a measure that acts on the action before it takes effect, such as monitoring actions with a cheaper process, blocking suspicious actions for review, or cutting audit latency; any one such measure earns the 35; 25: why it has to act before: review after the fact or online training comes too late, since the damage lands with the one action and there is no repeated behaviour to train away. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer proposes online training as the fix without noticing that it comes too late. Model answer, for the feedback, not a grading checklist: "This is on the concentrated end: catastrophe arrives in one action, so asynchronous review is too late by construction, and online training has nothing to work with (there is no repeated behavior to train away before the damage lands). What handles it is acting before the action takes effect: select what to review with a cheaper process applied more often, block suspicious actions for review, or cut auditing latency."
-feedback-instructions:: Reply in at most 120 words, short paragraphs, no lists. Say plainly what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). If the learner says they do not understand, give one concrete foothold from the reading (for instance, ask how many bad actions the deployer gets to review before the damage lands) rather than repeating the question; if their next message still does not attempt it, rephrase the whole question in different terms.
 
 #### Question: Open
 id:: 992ae249-8438-4589-bb21-258b544ced73
