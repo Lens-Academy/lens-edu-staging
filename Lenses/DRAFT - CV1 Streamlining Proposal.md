@@ -34,7 +34,7 @@ content::
 \## What does not change
 
 - **No learning outcome is rewritten.** Units 3 to 5 have none, and that is recorded here as a hole rather than filled.
-- **No published id changes, and nothing is retired.** Lenses and modules keep their ids. Slugs stay as they are: module-level `slug-aliases` was never confirmed (see [[../AIRF Restructure Log]], section 3), and a cohort is running.
+- **No published id changes, and nothing is retired.** Lenses and modules keep their ids. Slugs stay as they are: module-level `slug-aliases` was never confirmed (see [[../AIRF Restructure Log]], section 3), and a cohort may still be running.
 - **XLab's text stays XLab's.** The changes are to labels, page boundaries, question settings and Lens's own scaffolding.
 - **[[../Lenses/Four Background Claims]] is not touched.** Two modules outside Compute Verification import it.
 - **Compute Verification 2 is reference only.** It is unfinished, so its structure is not adopted.
@@ -69,7 +69,7 @@ The existing module keeps its id and the first half. One new module is created. 
 
 **A2. Split Strategic Foundations into its four pathways.** The page already tells learners to read the pathway they are weakest on and to skip any they can already apply. Four short lenses make that choice visible in the sidebar instead of inside an 80-minute scroll. Each pathway keeps its readings unchanged. The page's one written output is the same actor, authority and evidence map that unit 4 asks for as required work in [[../Lenses/XLab Verification - v-scoping-upstream-downstream]]. We suggest dropping it from the optional module, or keeping it framed as an early attempt to bring to unit 4.
 
-**A3. Settle the unit 1 essay as optional.** The Plan A lens says to choose an essay option, the module marks both options optional, the course file counts one as core, and the meeting 1 run-sheet calls every essay prompt optional. Making it officially optional keeps the unit before the first meeting at about 125 minutes, the same reasoning the AIRF restructure applied to its own first unit. The Plan A lens's wording changes to offer the essay rather than assign it. Meeting 5 already has a fallback for learners who never voted on Plan A.
+**A3. Settle the unit 1 essay as optional.** The Plan A lens says to choose an essay option, the module marks both options optional, the course file counts one as core, and the meeting 1 run-sheet calls every essay prompt optional. Making it officially optional keeps the unit before the first meeting at about 125 minutes, the same reasoning the AIRF restructure applied to its own first unit. The Plan A lens's wording changes to offer the essay rather than assign it. Meeting 5 already has a fallback for learners with no Plan A vote to recall.
 
 **A4. Correct every time figure once A1 to A3 land:** the course file note, the overview, unit 5's first page, and the meeting docs' wrap-ups and run-sheets. Two are already wrong: meeting 2 tells learners unit 3 adds an optional 75 minutes (it is 190), and meeting 4 says unit 5 adds 30 (it is 45).
 
