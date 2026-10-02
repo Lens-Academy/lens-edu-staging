@@ -21,7 +21,7 @@ from:: "* **"FOOM"**"
 
 #### Text
 content::
-Discuss any questions you may have with the chatbot, or feel free to skip this chat instance:
+Discuss any questions you may have with the {--{"author":"Elua's AI","timestamp":1790940658548}@@chatbot,--}{++{"author":"Elua's AI","timestamp":1790940658548}@@AI tutor,++} or feel free to skip this {--{"author":"Elua's AI","timestamp":1790940658548}@@chat instance:--}{++{"author":"Elua's AI","timestamp":1790940658548}@@chat:++}
 #### Chat
 instructions::
 The user just read "What are the differences between a singularity, an intelligence explosion, and a hard takeoff?" Help them with any questions they have, ideally Socratic style.
