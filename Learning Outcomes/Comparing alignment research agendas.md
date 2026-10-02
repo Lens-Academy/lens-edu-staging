@@ -35,11 +35,40 @@ content:: Choose one argument for and one argument against the same agenda. Reco
 assessment-instructions:: Evaluate whether the student (1) selects a matched pair (pro and contra) about the same proposal/agenda/direction, (2) steelmans both sides, avoiding strawmen and one-liners, (3) expresses each as a causal chain with the required fields: problem, mechanism, key assumptions/what has to go right, and failure modes, and (4) distinguishes could fail (mechanism breaks) from is bad (value judgment) where possible.
 enforce-voice:: true
 
-#### Question
-id:: 8de0afd4-3209-485c-8f31-e5631da1f693
-content:: Which would you trust more: behavior-based evidence that a model is unsafe, or mechanistic evidence? What could change your mind? You can type your answer or record it using the microphone.
-assessment-instructions:: Check that the student (1) clearly states a preference (behavioral vs mechanistic, or a conditional mix), (2) gives at least one concrete reason, and (3) names specific mind-changers: an example of new evidence, a stronger method, or a scenario where the other type would dominate. Reward nuance about false positives/negatives, distribution shift, and limits of mechanistic access.
+#### {++{"author":"Elua's AI","timestamp":1790954411062}@@Question: Open
+id:: dd2de0f1-a25b-4638-86a8-aec82ba10ee0
+content:: **Automating Alignment** (skip this if you did not read that section). A lab plans to have AI agents do most of its alignment research next year, with human researchers reviewing the results. Give one reason this plan could speed up safety progress, and one reason the reviewed results could still be wrong in a way the reviewers would not notice. You can type your answer or record it using the microphone.
+optional:: true
+assessment-instructions:: Score out of 100. 40: a reason the plan could help, such as AI labor being fast and plentiful so that safety research can keep pace with or outpace capabilities progress, or a concrete safety task AI could take over (alignment experiments, evaluations, monitoring). 60: a reason the reviewers could miss errors, explaining why review fails, not only that the AI can be wrong. Accept any of: many alignment research tasks have no clear way to check the answer, so errors slip through; optimization pressure pushes errors to where reviewers are least likely to look; AI mistakes do not look like human mistakes, so reviewers' instincts miss them; the AI's arguments may be beyond what humans can evaluate; outputs from the same model share errors, so agreement between them is weak evidence; the humans do not know enough to ask for the right thing or recognize a wrong answer; the AI could deliberately hide problems. Cap this element at 20 if the answer only says the AI might make mistakes or might lie, with no account of why the reviewers would not catch it.
 enforce-voice:: true
+
+#### ++}Question
+id:: 8de0afd4-3209-485c-8f31-e5631da1f693
+content:: {++{"author":"Elua's AI","timestamp":1790954411062}@@**Interpretability and Evals** (skip this if you read neither section). ++}Which would you trust more: behavior-based evidence that a model is unsafe, or mechanistic evidence? What could change your mind? You can type your answer or record it using the microphone.
+{++{"author":"Elua's AI","timestamp":1790954411062}@@optional:: true
+++}assessment-instructions:: Check that the student (1) clearly states a preference (behavioral vs mechanistic, or a conditional mix), (2) gives at least one concrete reason, and (3) names specific mind-changers: an example of new evidence, a stronger method, or a scenario where the other type would dominate. Reward nuance about false positives/negatives, distribution shift, and limits of mechanistic access.
+enforce-voice:: true{++{"author":"Elua's AI","timestamp":1790954411062}@@
+
+#### Question: Open
+id:: b084a010-16c9-4238-baea-c61acad3dbb8
+content:: **Control** (skip this if you did not read that section). A lab suspects its newest AI might be scheming, deploys it anyway, and surrounds it with safety measures such as monitoring and restricted permissions. (a) What is this approach trying to guarantee, and why does it not need the AI to be aligned? (b) Give one reason a critic might think investing in this approach makes things worse overall, not just that it might fail. You can type your answer or record it using the microphone.
+optional:: true
+assessment-instructions:: Score out of 100. 50 for (a): the goal is that nothing catastrophic happens even if the AI is actively trying to get around the measures, because the measures are designed to work against an adversarial AI rather than relying on its goals being good (like security that stays safe even if some employees are compromised). Accept plain versions such as "it doesn't trust the AI, it just makes sure the AI can't do damage without getting caught". 50 for (b): a mechanism by which control succeeding raises overall risk. Accept any of: by quietly stopping moderate incidents it removes the warning shots that would have pushed the public and governments into serious action, so the failures that remain are either ignored or catastrophic; labs may hide or play down incidents that control caught; it gives false confidence that lets labs deploy more dangerous systems sooner; published control research could teach AIs how to find escape routes. Cap (b) at 15 if the answer only says the measures might fail or the AI might escape, since the question asks how the approach could make things worse.
+enforce-voice:: true
+
+#### Question: Open
+id:: 4eeb9083-1713-4f92-8717-2ed09f7b2f53
+content:: **Agent Foundations** (skip this if you did not read that section). Agent foundations researchers mostly use mathematics rather than experiments on today's AI systems. Give the best reason for working that way, and one reason a skeptic might expect it not to pay off. You can type your answer or record it using the microphone.
+optional:: true
+assessment-instructions:: Score out of 100. 50: a reason for the mathematical approach. Accept any of: the systems we most need to understand (much more powerful agents) do not exist yet, so we cannot experiment on them; agency is a general phenomenon that does not depend on one kind of system, so it can be studied abstractly, as computability theory advanced before physical computers existed; we need precise definitions of concepts like goals or agency that keep working under strong optimization pressure, and experiments on current systems do not supply them. 50: a skeptic's reason. Accept any of: intelligence and reasoning may be messy and irreducibly complicated rather than following a few simple laws, so neat formal theories may not describe real systems such as neural networks; current AI is not built the way the idealized agents in the theory are; the theory may not produce usable results before powerful AI arrives; it is hard to tell whether the research is making progress.
+enforce-voice:: true
+
+#### Question: Open
+id:: a1b2b724-71c4-43d4-9794-9abff4990cdf
+content:: **Shut it all down** (skip this if you did not read that section). Suppose the major AI-developing countries agree to halt training of frontier models for ten years. Give one reason supporters think a halt is needed instead of relying on technical safety research, and one way the halt could fail to deliver the safety it promises. You can type your answer or record it using the microphone.
+optional:: true
+assessment-instructions:: Score out of 100. 50: a reason supporters give. Accept any of: nobody understands how current AI systems work internally; there is no scientific consensus or engineering plan for building superintelligence safely; alignment has to work on the first critical try, with no chance to learn from a failure; technical safety research is unlikely to be ready before dangerous systems are. 50: a concrete way the halt fails to make things safer. Accept any of: hardware and algorithms keep improving during the halt, so progress jumps when it ends; countries outside the agreement, or secret or illegal labs, keep going; cheaper hardware and better algorithms eventually let dangerous models be trained with resources too small to monitor; the halt is likely temporary; it could push safety-conscious developers out while less careful ones continue; it could cause international conflict or concentrate power in whoever enforces it. Cap this element at 20 if the answer only says countries might not agree, since the scenario assumes the major ones did.
+enforce-voice:: true++}
 
 # Suggested Lenses:
 ## Lens:
