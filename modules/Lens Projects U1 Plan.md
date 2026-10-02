@@ -71,7 +71,7 @@ Think of AI like a map app on a new route home. Use it the first few times, then
 
 A quick test: if a decision would change what you publish under your name, you make it.
 
-:::callout {title="What \"red-teaming\" means" tone="neutral"}
+:::callout {title="What red-teaming means" tone="neutral"}
 **Red-teaming** means deliberately looking for the weak spots in something, the way an opponent would. The term comes from military and security exercises, where a "red team" plays the attacker so the defenders can find their gaps before a real attacker does. In AI safety research it often means trying hard to make an AI system fail or misbehave. In this course it means something simpler: stress-testing your own plan, argument or draft before anyone else does. Asking "who would disagree with this, and why?" is red-teaming.
 :::
 
