@@ -189,15 +189,20 @@ content::
    - What might you do differently moving forward? What’s one area you might explore further to increase potential impact?
    - What are your next steps for your thesis or project this week?
 
+**Tips**
+
+- For the emotional barriers questions, invite rather than push. Normalise that most people feel this, and share your own experience if you're comfortable.
+- Celebrate every email sent, not just replies!
+- Encourage people to keep the Week 4 outreach table as their ongoing tracker for the rest of the program.
+
 \### 5m · Outro: Intro to next week + Weekly survey
 
-- **Briefly introduce Week 5,** which focuses on one of the most important—but least taught—skills for turning academic work into real-world impact: developing a Theory of Change (ToC). While many theses aim to address important problems, they often stop at producing research, leaving the pathway from findings to impact implicit or assumed. This week challenges that default by helping you make those pathways explicit, intentional, and strategic.
-- **Remind participants:**
-   - Remind **the two who are in the Mastermind session** for next week
-   - **Attend Cross-cohort Virtual sessions (Q&As/AMAs)**
-   - Continue using Lens Academy for readings and completing worksheets
-   - Ideally, ask them to complete or draft worksheets before the discussions
-   - Explore the Journaling prompts in their own time, which focus on personal reflection prompts for their life, not just academics
-- **\[If time allows\]** Ask participants to complete the weekly pulse survey: [Anonymous Weekly feedback form](https://forms.gle/2BSkjtYHje8Dsm2w9) (this is linked on each header page of their workbook as well)
+- **Briefly introduce Week 5,** which focuses on one of the most important - but least taught - skills for turning academic work into real-world impact: developing a Theory of Change (ToC). While many theses aim to address important problems, they often stop at producing research, leaving the pathway from findings to impact implicit or assumed. This week challenges that default by helping you make those pathways explicit, intentional, and strategic.
+- **Remind participants to:**
+   - Remind **the two that are in the Mastermind session** for next week
+   - Do next week’s readings and worksheet before the session on Lens
+      - Ideally, ask them to complete or draft worksheets before the discussions
+   - Explore this week’s Journaling prompts in their own time, which focus on personal reflection prompts for their life, not just academics
+   - Weekly survey on Lens platform to share their feedback
 
 #### End Callout
