@@ -18,7 +18,7 @@ to:: "and we’re already seeing the warning signs."
 
 #### Text
 content::
-After reading this article, if you had to explain to a friend the main difference between how ChatGPT was created versus how a typical smartphone app was created, what would you say?
+After reading this article, if you had to explain to a friend the main difference between how ChatGPT was created {--{"author":"Elua's AI","timestamp":1790940677189}@@versus--}{++{"author":"Elua's AI","timestamp":1790940677189}@@and++} how a typical smartphone app was created, what would you say?
 #### Chat
 instructions::
 TLDR of what the user just read:
