@@ -56,7 +56,7 @@ This week's Journalling Tab has space to reflect properly on what you've learned
 
 We would love to continue to support your journey after the end of the program. A few concrete next steps for after the program that we would love to explore with you:
 
-- **Apply for 1\:1 Advising with [Effective Thesis](https://www.effectivethesis.org/services)** if you'd like continued, personalised support as your thesis and career direction keep developing beyond this program.
+- **Apply for 1\:1 Advising with [Effective Thesis](https://www.effectivethesis.org/key-services/1-1-advising)** if you'd like continued, personalised support as your thesis and career direction keep developing beyond this program.
 - **Apply for our [Effective Thesis Fellowship](https://www.effectivethesis.org/key-services/effective-thesis-fellowship)** if you're looking for a more structured next step: work directly on a vetted, high-impact research project alongside an expert mentor or organisation.
 - **Post about your journey on LinkedIn.** We’ll send out your completion certificates in the next few weeks, and encourage you to share what you worked on and what you learned from the program! This can be especially useful if you’re still looking for collaborators and feedback!
 - [Take the pledge at Giving What We Can](https://www.givingwhatwecan.org/pledge/effectivethesis): **Take the pledge as a way to have impact now, not just someday.** You don't have to wait until you've landed your ideal high-impact role to start making a real difference, giving effectively is something you can commit to today, as a student.
