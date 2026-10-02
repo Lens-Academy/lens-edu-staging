@@ -15,7 +15,7 @@ Career uncertainties usually show up as one vague problem: *"I don't know what I
 
 Creating your impactful career isn't simply a matter of choosing the "right" cause area on paper. It requires a balance of three genuinely different categories of questions - which can fall into the dimensions of your Head, your Heart, and your Hand.
 
-![1. The Head, Heart and Hand Framework for Impactful Careers](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w7-reading-01.png)
+![Head, Heart and Hand Framework for Impactful Careers: three overlapping circles. Head: I know that working on this problem leads to real-world impact. Heart: I feel like this path motivates, energises, and sustains me. Hand: I have tested this path and taken action in the real world. Act and experiment: use mini experiments (like your thesis!) to gain information on your top career uncertainties. Ask: what am I actually blocked by? Each type of uncertainty benefits from a different response.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-head-heart-hand-framework-ad8a6682.webp)
 
 **🧠 Your Head** asks: will working on this problem actually lead to real-world impact? These uncertainties are resolved through research and analysis. Questions here may look like:
 
