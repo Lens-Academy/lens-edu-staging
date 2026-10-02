@@ -29,13 +29,13 @@ Add discussion note here:
 
 Last month, Ben West of the Center for Effective Altruism **[hosted a debate](https://forum.effectivealtruism.org/s/vw6tX5SyvTwMeSxJk)** among long-termists, forecasters, and x-risk activists about pausing AI.
 
-{--{"author":"Elua's AI","timestamp":1790943200139}@@[
+[
 
 ![](https://substackcdn.com/image/fetch/$s_!TOio!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9659fcab-837d-4722-8ef4-c5d3b421ae2c_670x461.png)
 
 ](https://substackcdn.com/image/fetch/$s_!TOio!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9659fcab-837d-4722-8ef4-c5d3b421ae2c_670x461.png)
 
---}Everyone involved thought AI was dangerous and might even destroy the world, so you might expect a pause - maybe even a full stop - would be a no-brainer. It wasn’t. Participants couldn’t agree on basics of what they meant by “pause”, whether it was possible, or whether it would make things better or worse.
+Everyone involved thought AI was dangerous and might even destroy the world, so you might expect a pause - maybe even a full stop - would be a no-brainer. It wasn’t. Participants couldn’t agree on basics of what they meant by “pause”, whether it was possible, or whether it would make things better or worse.
 
 There was at least some agreement on what a successful pause would have to entail. Participating governments would ban “frontier AI models”, for example models using more training compute than GPT-4. Smaller models, or novel uses of new models would be fine, or else face an FDA-like regulatory agency. States would enforce the ban against domestic companies by monitoring high-performance microchips; they would enforce it against non-participating governments by banning export of such chips, plus the usual diplomatic levers for enforcing treaties (eg nuclear nonproliferation).
 
