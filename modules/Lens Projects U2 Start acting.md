@@ -4,7 +4,7 @@ slug: lens-projects-u2-start-acting
 title: "Unit 2: Start acting"
 tags: [wip]
 ---
-%% Unit 2 of Lens Projects, from the Course units doc (Unit 2). About 5 hours: about 2 of content, 3 of project work. The core reading (Jamie Harris, "You need user buy-in to scale your impact") and the optional track readings are added once their imports finish. %%
+%% Unit 2 of Lens Projects, from the Course units doc (Unit 2). About 5 hours: about 2 of content, 3 of project work. The core reading is Jamie Harris, "You need user buy-in to scale your impact"; the optional technical reading is the rerunning-papers post. The DIP introduction (policy) and the Lens course review (fieldbuilding) are still to add: the first needs a source, and the second failed to import. %%
 
 # Lens: Welcome to Unit 2
 id:: fda18542-98c3-40f4-b2dc-a77d59ecf0ef
@@ -29,6 +29,9 @@ content::
 \## The intensive version
 
 If you are doing the course in one week, you have about a day for this unit. One message sent today counts. A cohort member who fits your audience can stand in for a conversation; note it as a stand-in.
+
+# Lens:
+source:: [[../Lenses/Lens Projects - User buy-in]]
 
 # Lens: Talk to your audience
 id:: 26af1de2-584a-4444-94a2-f19555bf117e
@@ -172,6 +175,10 @@ content::
 \## If your project needs money
 
 Some projects need a small budget, such as compute or event costs. Look for rapid grants for AI safety projects early, since applications take time. In the five-week version, apply this week.
+
+# Lens:
+source:: [[../Lenses/Lens Projects - Optional rerunning papers]]
+optional:: true
 
 # Lens: Before Meeting 2
 id:: b16c47a5-840f-40dd-b23e-9c4a5c450e20

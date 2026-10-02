@@ -4,7 +4,7 @@ slug: lens-projects-u4-polish
 title: "Unit 4: Polish"
 tags: [wip]
 ---
-%% Unit 4 of Lens Projects, from the Course units doc (Unit 4). About 5 hours: about 1 of content, 4 of project work. The optional reading (Neel Nanda, "Highly Opinionated Advice on How to Write ML Papers") is added once its import finishes. The review rubric here is the general one from the Course units doc; track-specific rubrics from the Rubrics tab can replace it later. %%
+%% Unit 4 of Lens Projects, from the Course units doc (Unit 4). About 5 hours: about 1 of content, 4 of project work. The optional reading is Neel Nanda, "Highly Opinionated Advice on How to Write ML Papers". The review rubric here is the general one from the Course units doc; track-specific rubrics from the Rubrics tab can replace it later. %%
 
 # Lens: Welcome to Unit 4
 id:: 3a891e7b-7571-480e-bdb2-a8e46bec9759
@@ -123,6 +123,10 @@ Paste a section of your draft below and ask for a critique. The tutor points out
 
 #### Chat
 instructions:: Optional critique chat in Unit 4 of Lens Projects. The learner pastes part of their write-up. Critique it for clarity and unsupported claims only: quote the exact phrase, say what a reader would stumble on or doubt, and ask one question. At most three points per reply, under 150 words. Never rewrite sentences or offer replacement text, even if asked; explain that the course rule is to use AI as a tool, not a decision-maker, and the write-up must stay in their own voice.
+
+# Lens:
+source:: [[../Lenses/Lens Projects - Optional writing ML papers]]
+optional:: true
 
 # Lens: Before Meeting 4
 id:: ae43f4e1-2b1a-4715-a245-16469c9e814f

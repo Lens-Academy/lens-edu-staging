@@ -4,7 +4,7 @@ slug: lens-projects-u3-re-scope
 title: "Unit 3: Re-scope"
 tags: [wip]
 ---
-%% Unit 3 of Lens Projects, from the Course units doc (Unit 3). About 5 hours: about 1 of content, 4 of project work. The optional readings (Neel Nanda on research taste; Jacob Steinhardt, "Research as a Stochastic Decision Process") are added once their imports finish. %%
+%% Unit 3 of Lens Projects, from the Course units doc (Unit 3). About 5 hours: about 1 of content, 4 of project work. The optional reading is Neel Nanda on research taste. Jacob Steinhardt, "Research as a Stochastic Decision Process", failed to import and is still to add. %%
 
 # Lens: Welcome to Unit 3
 id:: 2ba0c968-143d-4b2b-b77c-0f1c4863dce1
@@ -59,6 +59,10 @@ Ask the tutor below to help you estimate how long each remaining task will take.
 
 #### Chat
 instructions:: Optional estimating chat in Unit 3 of Lens Projects. The learner wants help estimating how long their remaining tasks will take. Ask them to list the tasks and the hours they have left. For each task, ask one question that would sharpen the estimate (what is unknown, what it depends on), then give a rough range in hours and say why. Remind them that write-ups often take longer than expected. Do not decide what to cut: if asked, list the trade-offs and hand the decision back to them, because the course rule is to use AI as a tool, not a decision-maker. Keep replies under 120 words.
+
+# Lens:
+source:: [[../Lenses/Lens Projects - Optional research taste]]
+optional:: true
 
 # Lens: Your scope decision
 id:: 77a6bb29-53c8-42f0-8ff9-28ffb417ce01
