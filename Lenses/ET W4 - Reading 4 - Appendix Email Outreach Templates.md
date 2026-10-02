@@ -9,8 +9,14 @@ tags: [wip]
 content::
 \## Appendix: Email Outreach Templates
 
-\### 1) Template for Expert Interview Request
+Click a template below to open it, then copy it and fill in the details in square brackets.
 
+#### Callout: 1) Template for Expert Interview Request
+tone:: neutral
+collapse:: closed
+
+#### Text
+content::
 **Subject: Expert Interview on \[Your Thesis Topic\]**
 
 Dear \[Expert's Name\],
@@ -29,7 +35,11 @@ Best regards,
 
 \[University/Institution Name\]
 
-\### 2) Template for Collaboration without a specific idea
+#### End Callout
+
+#### Callout: 2) Template for Collaboration without a specific idea
+tone:: neutral
+collapse:: closed
 
 #### Callout: ⭐ Recommended:
 tone:: amber
@@ -66,9 +76,13 @@ Best regards,
 
 \[University/Institution Name\]
 
-\### 3) Template for Collaboration on a Specific Idea
+#### End Callout
 
 #### Callout: 3) Template for Collaboration on a Specific Idea
+tone:: neutral
+collapse:: closed
+
+#### Callout: ⭐ Recommended:
 tone:: amber
 
 #### Text
@@ -100,3 +114,5 @@ Best regards,
 \[Name\]
 
 \[University/Institution Name\]
+
+#### End Callout

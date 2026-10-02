@@ -30,7 +30,7 @@ content::
 - A key part of building a ToC is asking - who needs to act differently in order for change to happen, and how can your work influence them? Examples may include informing key decision-makers in policy, influencing how a company acts, etc.
 - **History**: ToCs are widely used in global development, nonprofits, and policy to improve decision-making and effectiveness!
 
-![[attachments/ET W5 - Reading - Developing Your Theory of Change-Screenshot 2026-10-02 at 12.37.58.png]]
+{--{"author":"Christine's AI","timestamp":1790941785565}@@![[attachments/ET W5 - Reading - Developing Your Theory--}{++{"author":"Christine's AI","timestamp":1790941785565}@@![What is a Theory of Change? A step-by-step hypothesis++} of {--{"author":"Christine's AI","timestamp":1790941785565}@@Change-Screenshot 2026-10-02 at 12.37.58.png]]--}{++{"author":"Christine's AI","timestamp":1790941785565}@@how your actions now contribute to progress towards an ideal vision in the future: 1. Outputs (I complete my research project) lead to 2. Outcomes (short-term, then long-term changes in a stakeholder) which lead to 3. Vision (my vision of a better world)](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w5-reading-theory-of-change.png)++}
 
 
 \### Why do ToCs Matter?

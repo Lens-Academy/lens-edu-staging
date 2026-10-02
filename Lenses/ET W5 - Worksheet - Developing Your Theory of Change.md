@@ -26,7 +26,7 @@ content::
 
 :::callout {title="🗺️ What's in this worksheet (click a step to jump to it)" tone="neutral"}
 
-1. [[#^part-1|**Part 1. Draft a Theory of Change for Your Thesis**]]: map how your research could lead to real-world change, as a diagram with named assumptions on each arrow
+1. [[#^part-1|**Part 1. Draft a Theory of Change for Your Thesis**]]: map how your research could lead to real-world change, as a diagram, with a table naming the assumption behind each arrow
 2. [[#^part-2|**Part 2. Continue Stakeholder Outreach**]]: keep updating your Stakeholder Outreach Tracker
 3. [[#^part-3|**Part 3. Next Steps**]]: note your open questions to bring to your discussion
 
@@ -43,7 +43,7 @@ tone:: amber
 
 #### Text
 content::
-**Option A: Build it right here on this page.** Use the interactive diagram below: fill in your boxes, draw arrows between them, and name each arrow with the assumption or uncertainty it depends on. Everything saves automatically.
+**Option A: Build it right here on this page.** Use the interactive diagram below: fill in your boxes, draw arrows between them, and name the assumption or uncertainty behind each arrow in the table underneath. Everything saves automatically.
 
 **Option B: Work in a Google Doc instead.** Make a copy of this template: [Theory of Change Template (Google Doc)](https://docs.google.com/document/d/1wYqNkXnMRwmqSlTqNgRbtEbcYGdgnPau53js_8t6xP0/edit?usp=sharing) (File > Make a copy), then paste the link to your copy in the box below.
 
@@ -59,7 +59,7 @@ optional:: true
 content::
 \### Diagram of ToC
 
-Start with your outputs → which stakeholders will integrate them → what changes happen → what larger impact results. Feel free to add as many outputs and outcomes boxes as you need, and link each box to the specific boxes it leads to!
+**Step 1: Build your diagram.** Start with your outputs → which stakeholders will integrate them → what changes happen → what larger impact results. Feel free to add as many outputs and outcomes boxes as you need, and link each box to the specific boxes it leads to!
 
 #### Callout: 💡 See example ToC diagrams (click to open)
 tone:: neutral
@@ -93,16 +93,11 @@ This example of a ToC is for a thesis that evaluates the effectiveness of a new 
 
 #### End Callout
 
-#### Widget
-source:: [[../widgets/et-w5-toc-diagram]]
-
 #### Text
 content::
-\### Assumptions & Uncertainties
+**Step 2: Fill in your assumptions and uncertainties.** We highly encourage listing key assumptions or uncertainties within your ToC, which can inform your next steps in your research process.
 
-We highly encourage listing key assumptions or uncertainties within your ToC, which can inform your next steps in your research process.
-
-✨ **Your assumptions table is synced with your diagram!** Every arrow you draw above automatically becomes a row in **"My assumptions & uncertainties table"**, right underneath the diagram. Fill in the assumption, your level of certainty (Low / Med / High) and why, and how you could increase your certainty. Your certainty level also shows up on the arrow itself.
+✨ **Your assumptions table is synced with your diagram!** Every arrow you draw automatically becomes a row in **"My assumptions & uncertainties table"**, right underneath the diagram. Fill in the assumption, your level of certainty (Low / Med / High) and why, and how you could increase your certainty. Your certainty level also shows up on the arrow itself.
 
 #### Callout: 💡 Examples of assumptions & uncertainties (click to open)
 tone:: neutral
@@ -122,10 +117,10 @@ For example, if my ToC relies on a policy think tank integrating my research fin
 
 #### Text
 content::
-**Optional: any other assumptions?** If you have assumptions that aren't tied to a specific arrow (e.g. about your data, methods or timeline), you can add them here.
+Now fill in your diagram and your assumptions table below. Everything saves automatically.
 
 #### Widget
-source:: [[../widgets/et-w5-assumptions-uncertainties]]
+source:: [[../widgets/et-w5-toc-diagram]]
 
 #### Text
 content::

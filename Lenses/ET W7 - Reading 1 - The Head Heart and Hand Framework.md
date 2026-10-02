@@ -15,7 +15,7 @@ Career uncertainties usually show up as one vague problem: *"I don't know what I
 
 Creating your impactful career isn't simply a matter of choosing the "right" cause area on paper. It requires a balance of three genuinely different categories of questions - which can fall into the dimensions of your Head, your Heart, and your Hand.
 
-![[attachments/ET W7 - Reading 1 - The Head Heart and Hand Framework-Screenshot 2026-10-02 at 12.38.52.png]]
+{--{"author":"Christine's AI","timestamp":1790941792601}@@![[attachments/ET W7 - Reading 1 - The --}{++{"author":"Christine's AI","timestamp":1790941792601}@@![Head, Heart and Hand Framework for Impactful Careers: a Venn diagram of ++}Head {++{"author":"Christine's AI","timestamp":1790941792601}@@(I know this problem leads to real-world impact), ++}Heart {++{"author":"Christine's AI","timestamp":1790941792601}@@(I feel this path motivates, energises and sustains me) ++}and Hand {--{"author":"Christine's AI","timestamp":1790941792601}@@Framework-Screenshot 2026-10-02 at 12.38.52.png]]--}{++{"author":"Christine's AI","timestamp":1790941792601}@@(I have tested this path and taken action in the real world). Act and experiment with mini experiments like your thesis, and ask what you're actually blocked by.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w7-reading-01-head-heart-hand-1.png)++}
 
 **🧠 Your Head** asks: will working on this problem actually lead to real-world impact? These uncertainties are resolved through research and analysis. Questions here may look like:
 
@@ -46,4 +46,4 @@ Having just one or two out of three can often be a key reason why people are stu
 
 A key thing to remember is that your impactful career isn’t a fixed destination - it’s something you can continue to shape, refine, and build throughout your journey. At different points, you may be blocked on different things!
 
-![[attachments/ET W7 - Reading 1 - The Head Heart and Hand Framework-Screenshot 2026-10-02 at 12.39.25.png]]
+{--{"author":"Christine's AI","timestamp":1790941797097}@@![[attachments/ET W7 - Reading 1 - The--}{++{"author":"Christine's AI","timestamp":1790941797097}@@![Why all dimensions matter: Head and Heart without Hand means you haven't tested it yet;++} Head {++{"author":"Christine's AI","timestamp":1790941797097}@@and Hand without ++}Heart {++{"author":"Christine's AI","timestamp":1790941797097}@@means rigorous impactful work that may drain you; Heart ++}and Hand {--{"author":"Christine's AI","timestamp":1790941797097}@@Framework-Screenshot 2026-10-02 at 12.39.25.png]]--}{++{"author":"Christine's AI","timestamp":1790941797097}@@without Head means motivated and active but unsure it's impactful; all three in the centre means doing impactful work and being energised by what you're doing and how.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w7-reading-01-head-heart-hand-2.png)++}
