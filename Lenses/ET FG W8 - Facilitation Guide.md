@@ -95,7 +95,7 @@ content::
 - **Biggest Insight:** What are some key insights you’ve had during this program?
 - **Unexpected Learning:** Was there something you learned about your problem, your thesis, or yourself that surprised you?
 
-**If you would like to do a group activity/game instead, [[../Lenses/ET FG Resources - Icebreaker Speed Friending Question List|here]] are some ideas.**
+**If you would like to do a group activity/game instead, see the [[../Lenses/ET FG Resources - Icebreaker Speed Friending Question List|Icebreaker/ Speed Friending Question List]] for some ideas.**
 
 #### End Callout
 
