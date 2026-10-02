@@ -106,7 +106,7 @@ content::
 - What’s a personal value or principle that guides your choices?
 - Is there a cause or issue you care about that you wish more people paid attention to?
 
-**If you would like to do a group activity/game instead, [[../Lenses/ET FG Resources - Icebreaker Speed Friending Question List|here]] are some ideas.**
+**If you would like to do a group activity/game instead, see the [[../Lenses/ET FG Resources - Icebreaker Speed Friending Question List|Icebreaker/ Speed Friending Question List]] for some ideas.**
 
 #### End Callout
 
