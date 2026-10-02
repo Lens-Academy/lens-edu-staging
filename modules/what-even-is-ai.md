@@ -1,6 +1,8 @@
 ---
 id: e566648f-4309-410e-aafb-35e0e295f16b
-slug: what-even-is-ai
+slug: what-is-ai
+# Module slug-aliases did not resolve on staging when tested 2026-10-02; kept for when the platform supports them.
+slug-aliases: [what-even-is-ai]
 title: What is AI?
 discussion:
 ---

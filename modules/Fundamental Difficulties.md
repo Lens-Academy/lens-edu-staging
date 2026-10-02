@@ -1,6 +1,8 @@
 ---
 id: 4a6836a1-9572-43da-9560-0bcaef788555
-slug: module-fundamental-difficulties
+slug: fundamental-difficulties
+# Module slug-aliases did not resolve on staging when tested 2026-10-02; kept for when the platform supports them.
+slug-aliases: [module-fundamental-difficulties]
 title: "Fundamental Difficulties"
 discussion: https://discord.com/channels/1440725236843806762/1467932217312547019
 ---
