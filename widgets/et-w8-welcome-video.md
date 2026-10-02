@@ -1,0 +1,34 @@
+---
+id: '10495677-df89-41ab-b90c-5738cb09ae88'
+title: "ET W8 Welcome Video (Loom embed)"
+summary_for_tutor: "An embedded Loom welcome video for Week 8 (Final Presentations) of the Effective Thesis Accelerator. A button below opens the same video in Loom in a new tab."
+height: auto
+tags: [wip]
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<style>
+:root { --text: #1a1a1a; --muted: #5a5a5a; --border: #e8e5df; --accent: #b87018; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 4px 0; font: 14px/1.5 "DM Sans", Arial, sans-serif; color: var(--text); background: #fff; }
+.video { position: relative; width: 100%; padding-top: 56.25%; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: #000; }
+.video iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+.fallback { margin-top: 10px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; color: var(--muted); font-size: 13px; }
+a.btn { display: inline-block; text-decoration: none; font-weight: 600; color: var(--accent); border: 1px solid var(--accent); border-radius: 8px; padding: 8px 12px; }
+a.btn:hover { background: var(--accent); color: #fff; }
+</style>
+</head>
+<body>
+<div class="video">
+<iframe src="https://www.loom.com/embed/47afa45c809d4744a678ccdc15b424f7" title="Welcome to Week 8 video" allow="autoplay; fullscreen" allowfullscreen loading="lazy"></iframe>
+</div>
+<div class="fallback">
+<span>Video not playing?</span>
+<a class="btn" href="https://www.loom.com/share/47afa45c809d4744a678ccdc15b424f7" target="_blank" rel="noopener">Watch it on Loom</a>
+</div>
+</body>
+</html>
