@@ -4,7 +4,7 @@ slug: lens-projects-u1-plan
 title: "Unit 1: Plan"
 tags: [wip]
 ---
-%% Unit 1 of Lens Projects, built from the Course units doc (Unit 1), the AI Use Policy doc and the Example gallery tab. About 3 hours of core work. Pages: welcome; AI policy; gallery and track choice; the reused Theory of Change I learning outcome and its two lenses; the theory of change widget; the canvas; before Meeting 1. The daily report card is still to be added. %%
+%% Unit 1 of Lens Projects, built from the Course units doc (Unit 1), the AI Use Policy doc and the Example gallery tab. About 3 hours of core work. Pages: welcome; AI policy; gallery and track choice; the reused Theory of Change I learning outcome and its two lenses; the theory of change widget with an optional red-team chat; the canvas; before Meeting 1; the required daily report card (widgets/lens-projects-report-card-u1). Each unit gets its own report card widget, because widget state and completion are stored per widget file. %%
 
 # Lens: Welcome to Unit 1
 id:: 46ea47e5-ef89-4b78-bdf2-aa7f1b3e3ff8
