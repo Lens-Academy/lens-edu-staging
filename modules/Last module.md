@@ -48,3 +48,7 @@ source:: [[../Lenses/Next steps]]
 # Lens:
 optional:: true
 source:: ![[../Lenses/Letter From Utopia]]
+
+# Lens:
+optional:: true
+source:: [[../Lenses/tsvibt-please-dont-throw-your-mind-away]]
