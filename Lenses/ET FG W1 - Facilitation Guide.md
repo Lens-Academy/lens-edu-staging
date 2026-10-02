@@ -76,23 +76,43 @@ content::
 
 #### Text
 content::
-\### 5m · Welcome
+\### Recommended Structure for the Session
 
+*This is the flow we recommend for your 1.5h session, split into parts. Tap each stage to open it. Feel free to adapt the structure to your group - if you have a larger group (>4 participants) or worksheets are still early, see [[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]] for alternative formats.*
+
+#### Callout: Part 1: Welcome & Connection
+tone:: neutral
+
+#### Callout: 1. 5m · Welcome
+collapse:: closed
+
+#### Text
+content::
 **Welcome participants**
 
 - Briefly introduce yourself and your role as facilitator.
 - Share the overview and intention of this session: (1) Group connection (2) Introduction to the Accelerator, and (3) Exploration of Week 1’s module and worksheet, which focuses on foundations to impact
 
-\### 7m · Personal Introductions
+#### End Callout
 
+#### Callout: 2. 7m · Personal Introductions
+collapse:: closed
+
+#### Text
+content::
 **Have participants share (<1-2 mins per person) with the whole group.**
 
 Prompt to group: “Share your name, a research topic you’ve been curious about exploring in your thesis, and what you’re excited about in this program.”
 
 Feel free to add in a fun question here - like your favourite dessert, book, movie, etc.
 
-\### 7m · Speed Friending/ Icebreaker or Group activity
+#### End Callout
 
+#### Callout: 3. 7m · Speed Friending/ Icebreaker or Group activity
+collapse:: closed
+
+#### Text
+content::
 **Pair participants (or groups of 3 if numbers require) and suggest some icebreaker questions to discuss:**
 
 - What’s one thing most people don’t know about you?
@@ -106,8 +126,18 @@ Feel free to add in a fun question here - like your favourite dessert, book, mov
 - **[Where do you stand?](https://www.icebreakerspot.com/activities/where-do-you-stand#google_vignette)** But you can have participants give their own statements instead of premade ones.
 - **[list of games](https://newnarratives.philosophy.columbia.edu/sites/newnarratives.philosophy.columbia.edu/files/content/Just%20Ideas%20media/documents/Embodied%20Learning%20exercises.pdf)**
 
-\### 10m · Introduction to the program
+#### End Callout
 
+#### End Callout
+
+#### Callout: Part 2: Introduction to the Program
+tone:: neutral
+
+#### Callout: 4. 10m · Introduction to the program
+collapse:: closed
+
+#### Text
+content::
 **Provide context on the program in this section. You can use/adapt the [Week 1 slides](https://docs.google.com/presentation/d/1OtnNuc_V2DwkJX3lipKqitjmDqYVnpkXawLvV1X1Iik/edit?slide=id.g374d8fb5114_0_595#slide=id.g374d8fb5114_0_595).**
 
 - The purpose of the Effective Thesis Accelerator and what we hope they leave with: a high-impact research project with a clear Theory of Change, understanding of how to do high-impact research (ITN, ToC), engagement with real-world stakeholders, and more agency towards their own vision of impact
@@ -121,28 +151,58 @@ Feel free to add in a fun question here - like your favourite dessert, book, mov
 
 Emphasise that the program is designed to support learning, experimentation, and agency, not just output.
 
-\### 5m · Pre-accelerator forms
+#### End Callout
 
+#### Callout: 5. 5m · Pre-accelerator forms
+collapse:: closed
+
+#### Text
+content::
 **Ask all learners to fill in pre-accelerator forms** if they haven’t already. This helps us at Effective Thesis get a better understanding of where everyone is starting from, so that we can tailor the programme better. Learners who have already filled it in can engage in a bit of simple small talk.
 
-\### 10m · Part 1: Worksheet - Working on Worksheet Live
+#### End Callout
 
+#### End Callout
+
+#### Callout: Part 3: Worksheet
+tone:: neutral
+
+#### Callout: 6. 10m · Working on Worksheet Live
+collapse:: closed
+
+#### Text
+content::
 Ask participants to open the Week 1 Worksheet and introduce Week 1’s Worksheet: “This worksheet is designed to help you explore and clarify the foundations of your impactful thesis and emerging career path. The goal is to guide you in designing a thesis that is not only meaningful and energising for you (aligned with your Ikigai) but also a practical stepping stone toward a high-impact career.”
 
 - Set aside 7-10m for each person to work on their worksheet independently. (Or fine-tune or discuss it if done already)
    - If they haven't started: focus on Part 1 (the four Ikigai dimensions) and a first draft of the thesis-as-Ikigai statement (2a).
    - If they've done it: refine the statement and add at least one career hypothesis to the table in 2b, using the career paths list in the reading.
 
-\### 20m · Individual Sharing of Worksheets
+#### End Callout
 
+#### Callout: 7. 20m · Individual Sharing of Worksheets
+collapse:: closed
+
+#### Text
+content::
 **20m Individual sharing**: Break participants into groups of 3–4, and each person shares for ~5 minutes.
 
 - “Share anything that stood out to you from the worksheet - especially moments of clarity, confusion, or surprise.”
 - "Share one career hypothesis and your biggest uncertainty about it."
 - Encourage active listening rather than advice-giving.
 
-\### 20m · Group sharing & Discussion
+#### End Callout
 
+#### End Callout
+
+#### Callout: Part 4: Group Discussion & Close
+tone:: neutral
+
+#### Callout: 8. 20m · Group sharing & Discussion
+collapse:: closed
+
+#### Text
+content::
 **20m Facilitated Group Discussion:** In small groups, focus on group discussion to expand on their individual sharing. Some suggested questions:
 
 - **What did you learn about yourself through this worksheet?** This could be about what energises you, what drains you, what you’re good at, or what you care about more than you realised.
