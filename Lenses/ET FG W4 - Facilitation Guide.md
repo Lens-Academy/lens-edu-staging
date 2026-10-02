@@ -178,6 +178,9 @@ content::
    - Who are the people or organizations that could most influence progress on your problem?
    - What uncertainties do you have about reaching out to stakeholders? (e.g., rejection, not knowing what to say, imposter syndrome)
    - How can this group support you in reaching out to these stakeholders? What support may you need?
+- **Emotional barriers to Outreach**
+   - When you imagine hitting send, what emotional barriers may come up? What does that voice actually say?
+   - If that voice is trying to protect you from something, what might it be? What would help you act alongside it? What might be ways to reframe this belief or voice?
 - **Mastermind Session Debrief**
    - What did you learn from someone else’s problem or approach today?
    - Did you hear anything that challenged your assumptions or made you think differently?
