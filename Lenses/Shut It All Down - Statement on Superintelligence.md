@@ -15,6 +15,16 @@ to:: "who oppose a rush to superintelligence."
 from:: "**We call for a prohibition"
 to:: "strong public buy-in.**"
 
+#### Callout: Signatories (click to open)
+tone:: neutral
+collapse:: closed
+
+#### Article
+source:: [[../articles/future-of-life-institute-statement-on-superintelligence]]
+from:: "**Geoffrey Hinton**"
+
+#### End Callout
+
 #### Text
 content::
 %% COMMENTED OUT (AI-generated framing): In October 2025, the Future of Life Institute published a one-sentence statement calling for a ban on building superintelligence. %%
