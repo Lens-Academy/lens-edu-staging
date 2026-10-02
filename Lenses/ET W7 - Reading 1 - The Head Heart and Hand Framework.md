@@ -13,7 +13,7 @@ Career uncertainties usually show up as one vague problem: *"I don't know what I
 
 \## 1. The Head, Heart and Hand Framework for Impactful Careers
 
-Creating your impactful career isn't simply a matter of choosing the "right" cause area on paper. It requires a balance of three genuinely different categories of questions - which can fall into the dimensions of your Head, your Heart, and your Hand.![[attachments/ET W7 - Reading 1 - The Head Heart and Hand Framework-Screenshot 2026-10-02 at 12.39.25.png]]
+Creating your impactful career isn't simply a matter of choosing the "right" cause area on paper. It requires a balance of three genuinely different categories of questions - which can fall into the dimensions of your Head, your Heart, and your Hand.
 
 ![[attachments/ET W7 - Reading 1 - The Head Heart and Hand Framework-Screenshot 2026-10-02 at 12.38.52.png]]
 
@@ -46,3 +46,4 @@ Having just one or two out of three can often be a key reason why people are stu
 
 A key thing to remember is that your impactful career isn’t a fixed destination - it’s something you can continue to shape, refine, and build throughout your journey. At different points, you may be blocked on different things!
 
+![[attachments/ET W7 - Reading 1 - The Head Heart and Hand Framework-Screenshot 2026-10-02 at 12.39.25.png]]
