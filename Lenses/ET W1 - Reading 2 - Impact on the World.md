@@ -39,7 +39,7 @@ One common way of understanding the impact of a thesis is about the research tha
 
 \#### Failure Mode #3. No Pathway to Impact
 
-{--{"author":"Christine's AI","timestamp":1790941778852}@@![[attachments/ET W1 - Reading 2 - Impact on the World-Screenshot 2026-10-02 at 12.37.24.png]]--}{++{"author":"Christine's AI","timestamp":1790941778852}@@![Pitfall #3: No one uses the research. It targets an important problem and is executed well, but no decisions or actions of key stakeholders change, so there is no real-world impact.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w1-reading-02-pitfall-3.png)++}
+![Pitfall #3: No one uses the research. It targets an important problem and is executed well, but no decisions or actions of key stakeholders change, so there is no real-world impact.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w1-reading-02-pitfall-3.png)
 
 **Description:** You target the right problem and produce good research, but your findings are never implemented in the real world. No decisions or actions are changed in the real world. We think this is one of the most common pitfalls in academia.
 
