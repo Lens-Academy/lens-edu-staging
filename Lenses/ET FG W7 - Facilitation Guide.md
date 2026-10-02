@@ -179,18 +179,27 @@ content::
 
 *Facilitator note: Heart blockers can bring up tender material (imposter syndrome, fear, burnout). Your role is to listen and normalise, not to fix. Where it feels useful, signpost the support options in the reading: Rethink Wellbeing's CBT Lab, Magnify Mentoring, or 1:1 advising with Probably Good or 80,000 Hours.*
 
-\### 20m · Mastermind Session 1
+#### End Callout
 
+#### Callout: 5. 20m · Mastermind Session 2
+collapse:: closed
+
+#### Text
+content::
 **Repeat the structure above for the second Mastermind participant.**
 
 #### End Callout
 
-#### Callout: Part 3: Group Discussion
+#### End Callout
+
+#### Callout: Part 4: Group Discussion & Close
 tone:: neutral
+
+#### Callout: 6. 20m · Group Discussion and Synthesis
+collapse:: closed
 
 #### Text
 content::
-\### 20m · Group Discussion and Synthesis
 
 **Purpose:** Help participants reflect on their career hypotheses, uncertainties, and ways their thesis can serve as a testing ground for future impact. Facilitate peer learning and collective problem-solving. You can use any of the questions below to guide the group discussion based on what feels most alive:
 
@@ -210,8 +219,13 @@ content::
    - Did you hear anything that challenged your assumptions or made you think differently?
    - What is one idea, perspective, or resource you want to take away for your own work?
 
-\### 10m · Outro: Intro to Next Week
+#### End Callout
 
+#### Callout: 7. 10m · Outro: Intro to Next Week
+collapse:: closed
+
+#### Text
+content::
 - **Briefly introduce Week 8: Final Presentations.** Each participant will share an overview of their 8 weeks (around 7 minutes each) using the template, then receive feedback. There's no worksheet, the presentation is the main deliverable. The goal is to celebrate how far we’ve come and to synthesise all we’ve worked on together as everyone looks ahead to applying these skills and ideas beyond the program.
    - Emphasise that presentations aren't about a perfectly finished project. Celebrate and share where you're at: the insights you're excited about, what didn't work, the assumptions you changed your mind about, and the questions still alive for you.
 - **Remind participants:**
