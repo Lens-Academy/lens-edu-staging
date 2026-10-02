@@ -235,3 +235,27 @@ content::
 #### End Callout
 
 #### End Callout
+
+#### Callout: ⭐ Quick check-in on this week's facilitation guide
+tone:: purple
+
+#### Question: Rating
+id:: fd0ec602-e188-4046-ae31-15d4236bb093
+content:: How useful was this week's facilitation guide for running your session?
+low-label:: Not useful
+high-label:: Very useful
+optional:: true
+
+#### Callout: 💬 Want to share more? (optional, click to open)
+tone:: neutral
+collapse:: closed
+
+#### Question: Open
+id:: 86620430-e8de-411b-a1ec-21c14b1442b8
+content:: Anything you'd like to share about this week's guide? What worked in your session, what didn't, or what you'd change?
+placeholder:: Share as much or as little as you like
+optional:: true
+
+#### End Callout
+
+#### End Callout
