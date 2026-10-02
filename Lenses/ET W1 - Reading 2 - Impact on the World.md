@@ -13,7 +13,7 @@ One common way of understanding the impact of a thesis is about the research tha
 
 \#### Failure Mode #1. Poor Problem Selection
 
-{--{"author":"Christine's AI","timestamp":1790941770602}@@![[attachments/ET W1 - Reading 2 - Impact on the World-Screenshot 2026-10-02 at 12.35.11.png]]--}{++{"author":"Christine's AI","timestamp":1790941770602}@@![Pitfall #1: Target the wrong problem, i.e. one that isn't important, neglected or tractable. Research that targets an unimportant problem leads to no real-world impact.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w1-reading-02-pitfall-1.png)++}
+![Pitfall #1: Target the wrong problem, i.e. one that isn't important, neglected or tractable. Research that targets an unimportant problem leads to no real-world impact.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w1-reading-02-pitfall-1.png)
 
 **Description:** You target a problem that is not important, neglected, or tractable, such that solving the problem doesn’t actually lead to any improvement in the real world.
 
@@ -27,7 +27,7 @@ One common way of understanding the impact of a thesis is about the research tha
 
 \#### Failure Mode #2. Poor Research Execution/Understanding
 
-{--{"author":"Christine's AI","timestamp":1790941774777}@@![[attachments/ET W1 - Reading 2 - Impact--}{++{"author":"Christine's AI","timestamp":1790941774777}@@![Pitfall #2: Poor execution or wrong solution. Research targets the right problem but in an ineffective way, i.e. the solutions don't work or don't address the bottleneck++} on {--{"author":"Christine's AI","timestamp":1790941774777}@@the World-Screenshot 2026-10-02 at 12.37.00.png]]--}{++{"author":"Christine's AI","timestamp":1790941774777}@@progress, so there is no real-world impact.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w1-reading-02-pitfall-2.png)++}
+![Pitfall #2: Poor execution or wrong solution. Research targets the right problem but in an ineffective way, i.e. the solutions don't work or don't address the bottleneck on progress, so there is no real-world impact.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w1-reading-02-pitfall-2.png)
 
 **Description:** You target a high-impact problem, but do a poor job on research execution. This pitfall is most likely when you lack a deep understanding of the problem’s root causes and interactions.
 
