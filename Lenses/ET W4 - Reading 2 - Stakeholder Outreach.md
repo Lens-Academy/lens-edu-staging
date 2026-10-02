@@ -44,5 +44,5 @@ After completing your stakeholder mapping, the next step is to start reaching ou
 
 \### Templates for Outreach
 
-Please see our appendix below \[link\] for email templates for outreach. You can use these templates when performing outreach this week as a part of your worksheet.
+Please see our appendix below, [[../Lenses/ET W4 - Reading 4 - Appendix Email Outreach Templates|Appendix: Email Outreach Templates]], for email templates for outreach. You can use these templates when performing outreach this week as a part of your worksheet.
 
