@@ -17,11 +17,7 @@ Add discussion note here:
 ...
 
 %%
-{--{"author":"Elua's AI","timestamp":1790943196213}@@## Meditations On Moloch
-
-July 30, 2014
-
---}*Also available as podcast [here](http://sscpodcast.libsyn.com/meditations-on-moloch).*
+*Also available as podcast [here](http://sscpodcast.libsyn.com/meditations-on-moloch).*
 
 ### I
 
