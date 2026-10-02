@@ -15,7 +15,6 @@ Career uncertainties usually show up as one vague problem: *"I don't know what I
 
 Creating your impactful career isn't simply a matter of choosing the "right" cause area on paper. It requires a balance of three genuinely different categories of questions - which can fall into the dimensions of your Head, your Heart, and your Hand.![[attachments/ET W7 - Reading 1 - The Head Heart and Hand Framework-Screenshot 2026-10-02 at 12.38.52.png]]
 
-
 **🧠 Your Head** asks: will working on this problem actually lead to real-world impact? These uncertainties are resolved through research and analysis. Questions here may look like:
 
 - Is this problem important, neglected, and tractable?
