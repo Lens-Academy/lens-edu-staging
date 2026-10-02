@@ -38,9 +38,17 @@ optional:: true
 
 #### Text
 content::
+:::callout {title="🗺️ What's in this worksheet (click a step to jump to it)" tone="neutral"}
+
+1. [[#^part-1|**Part 1. Brainstorm a list of problems**]]: list 5-10 problems that matter to you
+2. [[#^part-2|**Part 2. Score - ITN & Ikigai**]]: shortlist 3-5 problems and score them in the scoring table
+3. [[#^part-3|**Part 3. Choose your top problem**]]: pick the problem you'll carry forward and explain why
+
+:::
+
 ---
 
-\# Part 1. Brainstorm a list of problems
+\# Part 1. Brainstorm a list of problems ^part-1
 
 We recommend listing **5-10 problems** in this part!
 
@@ -99,7 +107,7 @@ optional:: true
 content::
 ---
 
-\# Part 2. Score - ITN & Ikigai
+\# Part 2. Score - ITN & Ikigai ^part-2
 
 Now it's time to shortlist a few problems and review them from the lens of ITN & Ikigai.
 
