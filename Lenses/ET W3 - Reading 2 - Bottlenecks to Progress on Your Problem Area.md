@@ -171,7 +171,6 @@ With your shortlist of 5-10 candidate questions in hand, the final step is makin
 
 1. List your shortlisted questions in a table, one per row.
 2. **Choose your factors**, the criteria you'll judge each question against. We highly recommend you consider what factors are truly important to you when deciding on your thesis topic! For example, some people may want to focus mostly on just their career path, while others may want to focus more on the problem area being important. Open the example below to see one possible set of factors.
-
 3. **Weight each factor** based on what matters most to you, by splitting 100 points across your chosen factors. Again, a key reminder here that the weighting of each will be highly personal and subjective to you!
 4. **Now you can begin scoring each question** against each factor, typically on a 1-10 scale.
 5. **Calculate a weighted score** for each question (score × weight, summed across factors) to see which one(s) rise to the top.
