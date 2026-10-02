@@ -9,7 +9,7 @@ tags:
 
 # Module: [[../modules/introduction-to-navigating-superintelligence]]
 
-# Meeting: Introduction
+# Meeting: {--{"author":"Elua's AI","timestamp":1790966040244}@@Introduction--}{++{"author":"Elua's AI","timestamp":1790966040244}@@Overview++}
 
 # Module: [[../modules/what-even-is-ai]]
 
