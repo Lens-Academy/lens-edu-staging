@@ -9,6 +9,8 @@ tags: [wip]
 ---
 %% Generated from ET's "Facilitator Weekly Guides (For Lens Upload)" (doc 1XczVyjtpiY6r1sca7ug1dfUV2X4J8enKkGLbnfjESpw, revision ANLCKQmolGUGvlYImRUtmrcqStCFQpfqyyoLR5wIpM1pQqMt2FIxekE00oX1bhFaFQDEPSXG2Lz2mmWCcMEpH0rhFUUBfCpMBhcTavWr4tgHK0g). NOT access-gated: hide:: is UI-only and the module API is public. %%
 
+# Module: [[../modules/ET FG Overview|Welcome & Overview]]
+
 # Module: [[../modules/ET FG W1 - Foundations to Impact|Week 1: Foundations to Impact]]
 
 # Module: [[../modules/ET FG W2 - Selecting a High-Impact Problem|Week 2: Selecting a High-Impact Problem]]
