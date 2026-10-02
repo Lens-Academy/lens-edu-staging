@@ -165,18 +165,27 @@ content::
    - What questions remain that you want to explore further?
    - Goal: Try to support the participant in leaving with clear, actionable takeaways or next steps, and ending with an encouraging note.
 
-\### 20m · Mastermind Session 1
+#### End Callout
 
+#### Callout: 5. 20m · Mastermind Session 2
+collapse:: closed
+
+#### Text
+content::
 **Repeat the structure above for the second Mastermind participant.**
 
 #### End Callout
 
-#### Callout: Part 3: Group Discussion
+#### End Callout
+
+#### Callout: Part 4: Group Discussion & Close
 tone:: neutral
+
+#### Callout: 6. 20m · Group Discussion and Synthesis
+collapse:: closed
 
 #### Text
 content::
-\### 20m · Group Discussion and Synthesis
 
 **Goal:** Help participants reflect on the week’s reading and worksheet, and start connecting their research to real-world impact through a Theory of Change. Use the questions below to guide discussion based on what feels most relevant to your group.
 
