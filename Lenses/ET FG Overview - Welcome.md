@@ -77,6 +77,10 @@ If you still want access to the document versions for printing, don’t worry! Y
 | Pre-discussion | Prepare for the discussion - read modules & facilitation guide \[2h\] |
 | Chosen day | Facilitate weekly discussion \[1.5h\] |
 
+\#### 💻 Video Call Platform
+
+If your sessions run over 1h, or you'd like to use breakout rooms (for example, for pods of 3 or parallel Mastermind groups), we recommend [Jitsi Meet](https://jitsi.org/). It's free, has no time limit, supports breakout rooms, and participants can join from a browser without creating an account.
+
 \#### Weekly Facilitation Guides
 
 As an overview, Weeks 2-7 will have the same structure (with 2 Mastermind sessions per 1.5h discussion), while Weeks 1 and 8 will have different formats for the intro kick-off and final presentations.
