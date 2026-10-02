@@ -11,7 +11,23 @@ content::
 
 \### Week 8 Focus
 
-The focus of Week 8 is to bring everything together and celebrate the progress participants have made over the program. This week centers on presenting each participant’s thesis or project plan, synthesizing the frameworks, tools, and insights developed over the past seven weeks. Participants will have the opportunity to share their work, receive constructive feedback from facilitators and peers, and reflect on their learning journey. The goal is to showcase clarity, feasibility, and potential impact, while also fostering a sense of accomplishment, community, and inspiration as everyone looks ahead to applying these skills and ideas beyond the program.
+This is it, the final week! Week 8 is all about bringing everything together and celebrating how far everyone has come. Each participant shares what they've discovered over the 8 weeks, gets feedback from the group, and takes a moment to reflect on their journey.
+
+We really want to emphasise that presentations don't need to be polished or finished! Invite participants to share where they're genuinely at: the insights they're excited about, what didn't work, the assumptions they changed their mind about, and the questions that are still alive for them. The more honest they are, the more the group can support and celebrate them. We hope everyone leaves feeling proud of what they've done, connected to each other, and inspired for what comes next.
+
+There's no worksheet this week, the presentation is the main deliverable!
+
+\#### Key Takeaways from the Accelerator
+
+These are the key takeaways from the Accelerator. Useful to have in mind for feedback and the closing:
+
+1. **Your thesis is an experiment for your impactful path (Week 1 & 8).** Your thesis doesn't have to be the perfect answer. It can be a low-risk, high-information way to learn what kind of impact you want to have and what kind of life feels meaningful to you. The invitation is to approach it with curiosity and playfulness, not pressure! Keep learning from what happens, and let your direction evolve as you go.
+2. **There are three dimensions of an impactful thesis (Week 1).** A thesis can be impactful through what it does for the world, for you, and for your community, and the best ones often touch all three. Even if it doesn't solve a global problem, it can still build your skills, test your fit, and inspire the people around you.
+3. **Choosing the right problem is one of your highest-leverage decisions (Week 2).** Before diving into a research question, it's worth stepping back and asking whether this is a problem worth working on. ITN (Importance, Neglectedness, Tractability) helps you find where your effort can go the furthest, alongside what genuinely energises you.
+4. **Stakeholder outreach is where the real test happens (Week 4).** Research only creates impact when it reaches the people who can use it. So map your stakeholders, then actually hit send! The nerves, the imposter syndrome, the fear of rejection - all of that is part of the process, not a sign you're doing it wrong.
+5. **A Theory of Change makes your path to impact explicit (Week 5).** Impact doesn't magically happen once the research is "done." It happens when a specific person, organisation or system acts differently because of your work. A ToC helps you name who that is and how you'll reach them.
+6. **Work backwards from a concrete output to your research question (Week 6).** Instead of starting with a question and figuring out what to do with the answer later, start with what a real stakeholder could actually use. Then design your research question to produce it, so your thesis has a clear path to impact from the start.
+7. **When you're stuck on your career, ask whether it's Head, Heart or Hand (Week 7).** "I don't know what to do" can hide very different problems. Head blockers need research, Heart blockers need honest reflection, and Hand blockers need action. Naming the right one means you can stop spinning and actually move forward!
 
 \### Overview of Week 8 Responsibilities
 
@@ -20,10 +36,10 @@ tone:: amber
 
 #### Text
 content::
-- **Communication (Friday before):** Send participants a reminder to complete their presentations before the session (see template message in CDHQ)
-- **Remind Participants to submit their presentations for the central Effective Thesis Team to review** (There will be a link in the CDHQ you can share, and on Lens Academy which they will all have access to)
+- **Communication (Friday before):** Send participants a reminder to complete their presentations before the session (see template message in CD HQ)
+- **Remind Participants to submit their presentations for the central Effective Thesis Team to review** (There will be a link in the CD HQ you can share, and on Lens Academy which they will all have access to)
 - **Prepare and lead** the 1.5h Final Week 8 Presentation using the Weekly Facilitation Guide below
-- **During your discussion - ask everyone to fill in their post-programme feedback form**
+- **During your discussion - please ask everyone to fill in their post-programme feedback form**
 
 #### End Callout
 
@@ -38,13 +54,17 @@ tone:: neutral
 content::
 *The following is our recommended structure for hosting the discussion. Feel free to adapt timing, extend or shorten sections, or dive deeper into areas of interest based on participant engagement and group needs. The goal is to keep the session interactive and valuable to the participants joining! You can also refer to the facilitator guidelines and icebreaker questions if you need additional ideas.*
 
+*If you have a larger group (>4 participants), please see [[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]] for alternative formats.*
+
 #### End Callout
 
 #### Text
 content::
 \#### Week 8 Structure
 
+- For a Google Docs version for printouts, you can use [this](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?tab=t.2b71rt36knt9). But we recommend everyone access via Lens!
 - Week 8 Slides: [\[Shared - 2026\] Week 8: Final Presentations!](https://docs.google.com/presentation/d/1ZJUR8o63iX1Qhb0yC7J3l8Zx8yWt613Fi6s37eukvH8/edit?slide=id.g3c2de3e637f_0_152#slide=id.g3c2de3e637f_0_152)
+- Week 8 Template for participants: [\[TEMPLATE\] Week 8 Presentation ET Accelerator: Oct-Dec 26'](https://docs.google.com/presentation/d/16l-eKuJcJnzKP5F-IOoNuUoHZqw-sPGi3Kb0Q-xw64Q/edit?slide=id.g3fb78c7d3ee_1_0#slide=id.g3fb78c7d3ee_1_0)
 
 \### 3m · Welcome & Group Check-In
 
@@ -69,13 +89,17 @@ tone:: neutral
 content::
 \### 60m · Presentations
 
-**Focus Time:** Aim to give each participant 10–15 minutes of focus time on their presentation, shorter if the group is larger. For larger groups, we recommend only scheduling 4–5 presentations per session to allow meaningful discussion.
+**Focus Time:** Aim to give each participant 10–15 minutes of focus time on their presentation, shorter if the group is larger. For larger groups, we recommend only scheduling 4–5 presentations per session to allow meaningful discussion, or to split into breakout groups.
+
+*If you have a larger group (>4 participants), please see [[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]] for alternative formats.*
 
 **Per Participant**
 
-- **\[7m\] Presentation:** Each participant presents their thesis/project plan (time per participant depends on group size, we recommend around 7m of presentation\]
-   - Using this template: [\[TEMPLATE\] Week 8 Presentation ET Accelerator: Jan-March 26'](https://docs.google.com/presentation/d/1BwJU_0Q25yE7XeRV4SxMRi2C2Yd8RCdJR-QfTYd1oFc/edit?usp=sharing)
-- **\[8m\] Focused Feedback:** Facilitators and peers provide live, constructive feedback, focusing on clarity, feasibility, and potential impact.
+- **\[5-6m\] Presentation:** Each participant presents their thesis/project plan (time per participant depends on group size, we recommend around 5-6m of presentation)
+- **\[8m\] Focused Feedback:** Facilitators and peers provide live, constructive feedback, focusing on clarity, feasibility, and potential impact. You could also invite each listener to offer:
+   - One thing to celebrate
+   - One question to take forward
+   - One resource, person or organisation that could help
 
 #### End Callout
 
@@ -100,7 +124,7 @@ content::
 **Outro, gratitudes, and wrapping up the 8 weeks!**
 
 - Congratulate participants on completing the 8-week program.
-- Highlight the journey: problem clarity → stakeholder mapping → Theory of Change → reverse-engineered thesis → career planning → final presentations.
+- Highlight the journey: Foundations & Ikigai → a high-impact problem (ITN) → research questions (bottlenecks + WFM) → stakeholder mapping & outreach → Theory of Change → reverse-engineered thesis → unblocking their career (Head, Heart, Hand) → final presentations.
 - Emphasize that their thesis/project is a stepping stone for real-world impact, not just a document.
 - Encourage applying feedback and insights: refine research questions, reach out to stakeholders, and explore career paths.
 - Remind participants to stay connected as a cohort and support each other beyond the program.
