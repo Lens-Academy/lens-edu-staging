@@ -11,10 +11,9 @@ content::
 
 One common way of understanding the impact of a thesis is about the research that you will complete - its relevance and potential to contribute to solving an important problem, and how it can be translated into real-world impact. For this dimension of impact, it’s crucial to be aware of the potential failure modes of research.
 
-\#### Failure Mode #1. Poor Problem Selection![[attachments/ET W1 - Reading 2 - Impact on the World-Screenshot 2026-10-02 at 12.35.11.png]]
+\#### Failure Mode #1. Poor Problem Selection
 
-
-![Failure mode 1: research targets an unimportant problem, so there is no real-world impact](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w1-failure-mode-1-wrong-problem-00779fee.webp)
+![[attachments/ET W1 - Reading 2 - Impact on the World-Screenshot 2026-10-02 at 12.35.11.png]]
 
 **Description:** You target a problem that is not important, neglected, or tractable, such that solving the problem doesn’t actually lead to any improvement in the real world.
 
