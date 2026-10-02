@@ -192,6 +192,6 @@ These are left for Elias's input. Any he does not weigh in on are settled later,
 |---|---|---|---|
 | 1 | Unit 5: two modules, or two submodules in one module? | Stage 3 | Two modules |
 | 2 | Strategic Foundations: four pathway lenses, or one page? {>>{"author":"Elias","timestamp":1790948443687}@@4 lenses + why drop the output? Isn't it good? If you are sure it's bad you can remove it<<}And its written output: drop, reframe, or keep? | Stage 3 | Four lenses; drop the output |
-| 3 | Unit 1 essay: optional, or core? | Stage 3 | Optional |
+| 3 | Unit 1 essay: optional, or cor{>>{"author":"Elias","timestamp":1790948474782}@@Why optional? If you are sure it should be ok.<<}e? | Stage 3 | Optional |
 | 4 | Longest core pages: split them, or leave them? | Stage 3, step 5 | Decide once the step 1 test is in |
 | 5 | Claim ledger: close it in CV1, or reword the promise? | Stage 5 | Close it in CV1 |
