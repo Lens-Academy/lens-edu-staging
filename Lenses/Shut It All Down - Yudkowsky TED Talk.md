@@ -19,6 +19,10 @@ source:: [[../video_transcripts/ted-will-superintelligent-ai-end-the-world-eliez
 
 #### Text
 content::
+Here is the [List of Lethalities](https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities) referenced in the video.
+
+#### Text
+content::
 **Yudkowsky says every other agenda in this module will likely fail on the "first critical try." Pick one of them. What would its proponents need to show you to convince you it could work without a second try?**
 
 #### Chat
