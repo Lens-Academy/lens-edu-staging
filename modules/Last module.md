@@ -1,7 +1,7 @@
 ---
 id: cd11efd8-f449-4964-8962-97cbe865a9bf
 slug: last-module-what-comes-next
-title: {--{"author":"Elua's AI","timestamp":1790956598652}@@"Last module: What comes next"--}{++{"author":"Elua's AI","timestamp":1790956598652}@@"Your journey onwards"++}
+title: "Your journey onwards"
 discussion: https://discordapp.com/channels/1440725236843806762/1476535068779483259 
 ---
 

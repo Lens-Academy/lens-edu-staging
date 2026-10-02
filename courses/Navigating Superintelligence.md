@@ -1,7 +1,7 @@
 ---
 id: 032413ee-f662-4bc8-bc80-03563e277fd5
-slug: {--{"author":"Elua's AI","timestamp":1790956561851}@@navigating-asi--}{++{"author":"Elua's AI","timestamp":1790956561851}@@extinction-risk++}
-slug-aliases: {--{"author":"Elua's AI","timestamp":1790956561851}@@default--}{++{"author":"Elua's AI","timestamp":1790956561851}@@[default, navigating-asi]++}
+slug: extinction-risk
+slug-aliases: [default, navigating-asi]
 title: AI Extinction Risk Foundations
 tags:
   - visible-in-skilltree
