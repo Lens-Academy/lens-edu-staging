@@ -82,7 +82,7 @@ Stage 8 repeats this measurement once everything else has landed.
 ### Stage 2. Agree the plan
 
 1. **Forewarn Elias.** 29 notes signed Elias's AI sit in 19 of the 36 lenses CV1 uses; there are none in its modules, meeting docs or outcomes. Most explain how a passage was ported and need nothing. These need him first:
-   - His open proposal to drop the per-lesson XLab source footer, noted in six lenses (introduction, building intuitions, precedents, prevention, Strategic Foundations, theories of change), and the one to stop hotlinking the theories-of-change image. Two further notes ask for a Works cited segment to be moved when a suggestion is accepted; whether those suggestions are still in the review queue cannot be seen from the relay.
+   - His open proposal to drop the per-lesson XLab source f{>>{"author":"Elias","timestamp":1790947555871}@@not sure what this is and if I want this<<}ooter, noted in six lenses (introduction, building intuitions, precedents, prevention, Strategic Foundations, theories of change), and the one to stop hotlinking the theories-of-change image. Two further notes ask for a Works cited segment to be moved when a suggestion is accepted; whether those suggestions are still in the review queue cannot be seen from the relay.
    - Structure he has treated as his to decide. In Compute Verification 2's covert-development lenses, renumbering and naming were left to him. Stages 3 and 7 touch the same ground in CV1.
    - Strategic Foundations' written output, which duplicates required unit 4 work, and the stage 5 closing lens, which repeats the resolution he placed in Compute Verification 2.
    - The twelve unit 1 lenses no module imports, which this proposal leaves alone, and whether they are still needed.
