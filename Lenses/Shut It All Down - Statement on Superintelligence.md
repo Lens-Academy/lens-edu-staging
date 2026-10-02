@@ -21,7 +21,7 @@ collapse:: closed
 
 #### Article
 source:: [[../articles/future-of-life-institute-statement-on-superintelligence]]
-from:: "**Geoffrey Hinton**"
+from:: "- **Geoffrey Hinton**"
 
 #### End Callout
 
