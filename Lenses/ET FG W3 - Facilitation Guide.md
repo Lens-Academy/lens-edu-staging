@@ -135,14 +135,20 @@ Ask participants to open their worksheet sections in Lens Academy
 
 #### End Callout
 
-#### Callout: Part 2: Mastermind for Two Participants
+#### End Callout
+
+#### Callout: Part 3: Mastermind for Two Participants
 tone:: neutral
 
 #### Text
 content::
 *If you have a larger group (>4 participants), please see [[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]] for alternative formats.*
 
-\### 20m · Mastermind Session 1
+#### Callout: 4. 20m · Mastermind Session 1
+collapse:: closed
+
+#### Text
+content::
 
 **Goal:** Help the participant clarify thinking, generate options, and move forward by providing thoughtful, constructive input.
 
