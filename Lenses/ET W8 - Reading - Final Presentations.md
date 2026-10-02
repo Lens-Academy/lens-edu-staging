@@ -15,9 +15,19 @@ You started with potentially a vague set of questions and perhaps a lot of uncer
 
 And hopefully, along the way, you’ve learned a little more about how you think, what you care about, what you’re capable of, and what you still want to figure out. We’re so grateful that you have been on this journey with us and for your continued desire for making an impact in the world.
 
+:::callout {title="🗺️ What's in this reading (click a section to jump to it)" tone="neutral"}
+
+1. [[#^this-week|**1. This Week: Presenting and Learning From Each Other**]]
+   - [[#^takeaways|Key Takeaways from the Accelerator]]
+2. [[#^support|**2. Support after the Program Ends**]]
+3. [[#^next-steps|**3. Next Steps for Week 8 Meeting**]]
+4. [[#^thanks|**A Big Thank You!**]]
+
+:::
+
 ***
 
-\## 1. This Week: Presenting and Learning From Each Other
+\## 1. This Week: Presenting and Learning From Each Other ^this-week
 
 For this week, your final presentation is a chance to share what you've discovered. You don't need to present a perfectly finished project or pretend you have everything figured out. Instead, we encourage you to share where you’re at in a way that allows others to support and celebrate you and to bring the questions that are still alive. Share the insights you’re excited about. Talk about the things that didn’t work, the assumptions you changed your mind about, and the ideas you’re still exploring.
 
