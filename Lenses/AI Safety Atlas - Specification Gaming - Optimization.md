@@ -8,8 +8,8 @@ tutor_minutes: 7
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942616694}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Specification Gaming - Optimization|Optimization]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Specification Gaming - Optimization|Optimization]]
 
 #### Text
 optional:: true

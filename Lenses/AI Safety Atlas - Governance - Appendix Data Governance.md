@@ -8,5 +8,5 @@ title: "Appendix: Data Governance"
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942557602}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Governance - Appendix Data Governance|Appendix: Data Governance]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Governance - Appendix Data Governance|Appendix: Data Governance]]

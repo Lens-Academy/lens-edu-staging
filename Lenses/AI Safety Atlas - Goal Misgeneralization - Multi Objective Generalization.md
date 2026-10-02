@@ -8,8 +8,8 @@ tutor_minutes: 10
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942555496}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Multi Objective Generalization|Multi Objective Generalization]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Multi Objective Generalization|Multi Objective Generalization]]
 
 #### Text
 optional:: true

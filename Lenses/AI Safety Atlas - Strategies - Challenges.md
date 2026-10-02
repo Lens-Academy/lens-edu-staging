@@ -8,8 +8,8 @@ title: "Challenges"
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942622913}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Strategies - Challenges|Challenges]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Strategies - Challenges|Challenges]]
 
 #### Text
 optional:: true

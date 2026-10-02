@@ -8,8 +8,8 @@ tutor_minutes: 7
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942617761}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Specification Gaming - Reinforcement Learning|Reinforcement Learning]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Specification Gaming - Reinforcement Learning|Reinforcement Learning]]
 
 #### Text
 optional:: true

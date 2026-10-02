@@ -8,8 +8,8 @@ title: "Takeoff"
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942516512}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Capabilities - Takeoff|Takeoff]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Capabilities - Takeoff|Takeoff]]
 
 #### Text
 optional:: true

@@ -8,8 +8,8 @@ title: "AGI Safety Strategies"
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942619823}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Strategies - AGI Safety Strategies|AGI Safety Strategies]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Strategies - AGI Safety Strategies|AGI Safety Strategies]]
 
 #### Text
 optional:: true

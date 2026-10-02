@@ -8,8 +8,8 @@ title: "Dangerous Capabilities"
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942584125}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Risks - Dangerous Capabilities|Dangerous Capabilities]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Risks - Dangerous Capabilities|Dangerous Capabilities]]
 
 #### Text
 optional:: true

@@ -8,8 +8,8 @@ title: "Defining and Measuring AGI"
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942512303}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Capabilities - Defining and Measuring AGI|Defining and Measuring AGI]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Capabilities - Defining and Measuring AGI|Defining and Measuring AGI]]
 
 #### Question: Open
 id:: 982166b9-ee07-45e8-ac2d-6a6f523f7407

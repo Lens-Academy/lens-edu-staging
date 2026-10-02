@@ -8,8 +8,8 @@ title: "Introduction"
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942585369}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Risks - Introduction]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Risks - Introduction]]
 
 #### Text
 optional:: true

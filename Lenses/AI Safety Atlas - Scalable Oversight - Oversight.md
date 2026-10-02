@@ -8,8 +8,8 @@ tutor_minutes: 6
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942594772}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Scalable Oversight - Oversight|Oversight]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Scalable Oversight - Oversight|Oversight]]
 
 #### Text
 optional:: true
