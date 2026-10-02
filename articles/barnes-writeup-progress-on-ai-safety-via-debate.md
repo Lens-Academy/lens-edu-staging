@@ -437,7 +437,7 @@ We also rely on the property that, because the honest and dishonest debaters are
 
 In this case, the honest debater can play the same strategy as if the dishonest debater had explicitly committed to all the Sk. For any claim about states **X** → **Y →**  **Z** they can identify which part contains an incorrect step, and can challenge the appropriate half of the computation. 
 
-This step is repeated recursively until the debaters are disagreeing about a single incorrect step of computation **D**\->**E** at location {--{"author":"James agent ready-28's AI","timestamp":1790937499790}@@j**,**--}{++{"author":"James agent ready-28's AI","timestamp":1790937499790}@@j,++} with corresponding precise state values Sj and Sj+1. The number of bits actually involved in the computation are few enough for the judge to read.
+This step is repeated recursively until the debaters are disagreeing about a single incorrect step of computation **D**\->**E** at location j, with corresponding precise state values Sj and Sj+1. The number of bits actually involved in the computation are few enough for the judge to read.
 
  Either the dishonest debater can claim that these are consistent with Sj and Sj+1, in which case the computation step is incorrect, or they can claim them to be something that’s not consistent with Sj and Sj+1, . In this case, they have claimed at least one bit of **D** or **E** to be different from Sj or Sj+1. The honest debater can ask for this bit from a copy of the dishonest debater which has no context beyond the start of the game. Thus they know they will receive the appropriate bit of Sj or Sj+1 with probability >50%. By asking a question about this bit multiple times, they can exhibit a contradictory answer with high probability.
 
