@@ -19,7 +19,14 @@ Week 1 aims to set the foundation for the next 8 weeks by establishing group con
 
 *The core shift this week is from: “How do I get through my thesis?” To “How can this be the start of the work I want to be doing in the world - and how can I do it alongside others who also care about impact?”*
 
-We’re also trying to use a 5 minute window of this session to **encourage all learners to fill in their pre-accelerator forms** if they haven’t done so already
+Please set a 5 minute window of this session to **encourage all learners to fill in their pre-accelerator forms** if they haven’t done so already.
+
+\### Key Ideas from Week 1
+
+- **The three dimensions of an impactful thesis:** Impact on the World, Impact on You and Impact on Your Community. A thesis can be impactful even if it doesn't solve a global problem, if it helps someone test fit, build skills and gain connections.
+- **Three failure modes of research:** (1) poor problem selection, (2) poor execution or understanding of the problem, (3) no pathway to impact, which we think is one of the most common pitfalls in academia.
+- **Ikigai:** Designing an impactful career can be supported by finding the overlap of what you love, what you're good at, what the world needs, and what you can be paid for (your Ikigai!). The invitation is to treat the thesis as an Ikigai experiment - "What could my thesis help me learn about my Ikigai?" rather than "What is my Ikigai?"
+- **Landscape of impactful career paths:** This reading will introduce a landscape of impactful career paths to widen your horizons and consider paths you may not have yet - i.e. technical AI safety, field-building, research management, founding, effective nonprofits, grantmaking, policy, prioritisation research, direct research, movement-building, management and earning to give. Paths are rarely linear and often don't have a name yet!
 
 \### Overview of Week 1 Responsibilities
 
@@ -28,10 +35,10 @@ tone:: amber
 
 #### Text
 content::
-- **Communication (Friday before):** Send participants a reminder to do Week 1 readings and fill in the pre-accelerator forms before the session (see template message in your [CDHQ](https://docs.google.com/document/d/1tyzDZR0QcARPnWT-WeuKA-wGc_lpl3RxT-JUAaxsMWw/edit?usp=sharing))
-- **Read through Module 1** to familiarise yourself with the content. The key ideas are: (1) the 3 dimensions of impact of a thesis (2) Ikigai (a framework for meaning and purpose) and how it connects to their thesis journey today.
+- **Communication (Friday before):** Send participants a reminder to do Week 1 readings and fill in the pre-accelerator forms before the session (see template message in your [CD HQ](https://docs.google.com/document/d/1tyzDZR0QcARPnWT-WeuKA-wGc_lpl3RxT-JUAaxsMWw/edit?usp=sharing))
+- **Read through Module 1 (Readings and Worksheet) on Lens** to familiarise yourself with the content. The key ideas are: (1) the 3 dimensions of impact of a thesis (2) Ikigai (a framework for meaning and purpose) and how it connects to their thesis journey today.
 - **Prepare and lead** the 1.5h weekly discussion using the Weekly Facilitation Guide below
-- Fill in your Mastermind Tracker for the 8-weeks
+- Set up your Mastermind Tracker for the 8 weeks and pick your two (or more) Week 2 Mastermind participants, so you can let them know at the end of this session
 
 #### End Callout
 
