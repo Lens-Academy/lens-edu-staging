@@ -36,7 +36,7 @@ Any of these is fine. Showing up with a half-finished canvas is better than not 
 # Lens: Use AI as a tool, not a decision-maker
 id:: 085752ae-82e0-439d-b542-45f836e9db63
 tldr:: Use AI as much as you like for the work. The decisions, your argument and your voice stay yours, and you say how you used AI.
-summary_for_tutor:: The Lens Projects AI use policy. The rule: use AI as a tool, not a decision-maker. Before each task, the learner asks whether it is practice (a skill they are here to build, done themselves with AI as a check afterwards) or leverage (a skill they have or do not need, where AI can be used freely). It lists what AI can help with and which decisions stay theirs, habits against handing off the thinking, and that every project card ends with one line disclosing how AI was used. The page ends with one question and the starting draft of the cohort agreement for Meeting 1.
+summary_for_tutor:: The Lens Projects AI use policy. The rule: use AI as a tool, not a decision-maker. The reason given uses the course's three stages: AI is good at knowledge (finding, summarising, explaining), but the learner's opinion (their stance) and voice (their own words) must be theirs. Before each task, the learner asks whether it is practice (a skill they are here to build, done themselves with AI as a check afterwards) or leverage (a skill they have or do not need, where AI can be used freely). It lists what AI can help with and which decisions stay theirs, habits against handing off the thinking, and that every project card ends with one line disclosing how AI was used. The page ends with one question and the starting draft of the cohort agreement for Meeting 1.
 duration_minutes:: 20
 #### Text
 content::
