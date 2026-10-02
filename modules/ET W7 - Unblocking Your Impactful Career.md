@@ -31,3 +31,8 @@ source:: [[../Lenses/ET W7 - Worksheet - Unblocking Your Impactful Career]]
 # Lens:
 optional:: true
 source:: [[../Lenses/ET W7 - Journalling - Limiting Beliefs on Impact]]
+
+# Submodule: Week 7 Survey
+
+# Lens:
+source:: [[../Lenses/ET W7 - Weekly Survey]]
