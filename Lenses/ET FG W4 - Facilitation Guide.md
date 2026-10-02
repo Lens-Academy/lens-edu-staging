@@ -35,7 +35,7 @@ tone:: amber
 
 #### Text
 content::
-- **Select the 2 Mastermind Participants from this Week’s discussion using [[../Lenses/ET FG Resources - Mastermind Tracker|your Mastermind Tracker]]**
+- **Select the 2 Mastermind Participants from this Week’s discussion using your [[../Lenses/ET FG Resources - Mastermind Tracker|Mastermind Tracker]]**
 - **Communication (Friday before):** Send participants a reminder to do weekly readings before the session (see template message in CD HQ)
    - **For Chosen Mastermind Participants:** Let them know they are selected and to prepare lightly for it, and inform you if they can’t make it
 - **Read through Module 4** to familiarise yourself with the content

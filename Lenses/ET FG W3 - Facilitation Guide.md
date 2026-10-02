@@ -112,7 +112,7 @@ content::
 - If you could design your “ideal day,” what would it look like?
 - When do you feel most like yourself?
 
-**If you would like to do a group activity/game instead, [[../Lenses/ET FG Resources - Icebreaker Speed Friending Question List|here]] are some ideas.**
+**If you would like to do a group activity/game instead, see the [[../Lenses/ET FG Resources - Icebreaker Speed Friending Question List|Icebreaker/ Speed Friending Question List]] for some ideas.**
 
 #### End Callout
 
