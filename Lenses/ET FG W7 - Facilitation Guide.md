@@ -77,8 +77,18 @@ content::
 - Week 7 Slides: [\[Shared - 2026\] Week 7: Planning for a Career with Impact](https://docs.google.com/presentation/d/1__GpzK1C2GksMVk-0e5FDWyJV0EqEOlYoY87K_BPmV4/edit?slide=id.g3bf79a69fa2_0_8#slide=id.g3bf79a69fa2_0_8)
 - Week 8 Template for participants: [\[TEMPLATE\] Week 8 Presentation ET Accelerator: Oct-Dec 26'](https://docs.google.com/presentation/d/16l-eKuJcJnzKP5F-IOoNuUoHZqw-sPGi3Kb0Q-xw64Q/edit?slide=id.g3fb78c7d3ee_1_0#slide=id.g3fb78c7d3ee_1_0)
 
-\### 3m · Welcome & Group Check-In
+\### Recommended Structure for the Session
 
+*This is the flow we recommend for your 1.5h session, split into parts. Tap each stage to open it. Feel free to adapt the structure to your group - if you have a larger group (>4 participants) or worksheets are still early, see [[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]] for alternative formats.*
+
+#### Callout: Part 1: Welcome & Connection
+tone:: neutral
+
+#### Callout: 1. 3m · Welcome & Group Check-In
+collapse:: closed
+
+#### Text
+content::
 - **Welcome participants and check-in:** What is something you’re grateful for from your week or that you’re excited about?
 
 **Share the overview and intention of this session:**
@@ -89,8 +99,13 @@ content::
    - Two 20m Mastermind Sessions
    - Whole group discussion to synthesise
 
-\### 7m · 1:1 Speed Friending
+#### End Callout
 
+#### Callout: 2. 7m · 1:1 Speed Friending
+collapse:: closed
+
+#### Text
+content::
 **Pair participants (or groups of 3 if numbers require) and suggest some icebreaker questions to discuss:**
 
 - What's a decision you made that seemed small at the time but ended up mattering a lot?
@@ -99,13 +114,18 @@ content::
 
 **If you would like to do a group activity/game instead, [[../Lenses/ET FG Resources - Icebreaker Speed Friending Question List|here]] are some ideas.**
 
-#### Callout: Part 1: Worksheet
+#### End Callout
+
+#### End Callout
+
+#### Callout: Part 2: Worksheet
 tone:: neutral
+
+#### Callout: 3. 15m · Working on Worksheet Live
+collapse:: closed
 
 #### Text
 content::
-\### 15m · Part 1: Working on Worksheet Live
-
 Ask participants to open the Week 7 Worksheet: "By the end of this worksheet, you should have named your top Head, Heart and Hand uncertainties, chosen your top 1-3 to focus on, and figured out how your thesis (or another concrete next step) can help you test them."
 
 - **Part 1:** write down their uncertainties under Head, Heart and Hand (half-formed is fine!), then circle the one that feels most like the bottleneck right now.
