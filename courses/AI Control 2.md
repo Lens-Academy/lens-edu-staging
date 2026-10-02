@@ -2,7 +2,7 @@
 id: '5c00d5b6-ccb1-4372-a69e-9a044d33df40'
 slug: ai-control-2
 title: "AI Control 2"
-description: "Second half of the AI Control curriculum, and it assumes AI Control 1. Five days of about four and a half hours of self-study, each closing with a group meeting: guided exercises on collusion in untrusted monitoring and legibility protocols; low-stakes control and failures that only matter in aggregate; sandbagging, capability elicitation and exploration hacking, with a benchmark for research sabotage; threat models beyond scheming, reward seekers and spillway motivations; and deals with early misaligned AIs, closing with where to go next in control research."
+description: "Controlling a deployment. The second of three AI Control courses; it assumes AI Control 1. Five units of about three and a half hours of self-study (three to four), each closing with a group meeting: the control toolkit of detection, prevention and response, control evaluations, and the areas of control research; high-stakes failures, from execute, replace and audit protocols to rogue deployments and the systems agents run on; monitoring and resampling in real deployments; building the settings control evaluations run in, and protocols against collusion and for legibility; and low-stakes control, where harm accumulates over many actions and a model may deliberately underperform. AI Control 3 continues from here."
 tags:
   - work-in-progress
 partner-name: XLab
@@ -13,7 +13,11 @@ partner-url: "https://xrisk.uchicago.edu/"
 Links:
 - Original: https://aisafetytracks.com/tracks/control
 
-Days 6 to 10 of the five-day split of the original track (see the AI Control 1 course file for the split rationale). Core self-study per day: D1 280 min, D2 230, D3 225, D4 335, D5 300 (lens times re-estimated 2026-10-01 with tutor time counted per exercise; question time used to be folded into reading with tutor_minutes 0). Optional: D3 adds 40 (the full capability elicitation paper, appendices folded).
+Re-cut (October 2026, approved by Elias 2026-10-02): the seven-module XLab track is now three courses of five units each, in XLab's lens order, except one optional paper moved next to its guided version: AI Control 1, The case for control (XLab modules 1 and 2: why control, the founding paper, catching schemers, prioritising threats, and whether control is worth it); AI Control 2, Controlling a deployment (XLab modules 3 and 4 and the start of module 5: the toolkit, high stakes, monitoring and resampling, building control evaluations, collusion and legibility, low stakes through strategic underperformance); AI Control 3, Hidden capabilities, reward seekers and deals (the rest of module 5, modules 6 and 7: capability elicitation, sabotage and exploration hacking, reward seekers, deals, next steps). AI Control 2 requires AI Control 1; AI Control 3 requires both. The old day modules (XLab Control P1 D1 to D5, P2 D1 to D5) are in _deprecated, like the M1 to M7 modules before them; lens files are unchanged except position text. Meetings carry no meeting-doc links until the meeting docs are re-cut (the old ones under meetings/AI Control 1 and 2 are untouched).
+
+Self-study per unit, from the lens frontmatter on 2026-10-02 (reading plus tutor time, tutor time counted per exercise) plus about 7.5 minutes per learning-outcome test: U1 197 (182 lens + 15 for 2 learning-outcome tests); U2 185 (170 lens + 15 for 2 learning-outcome tests); U3 238 (223 lens + 15 for 2 learning-outcome tests), optional lenses add 25; U4 202 (177 lens + 7.5 for 1 learning-outcome test + 17 set aside for learning-outcome tests still to be written); U5 200 (179 lens + 21 set aside for learning-outcome tests still to be written). Total about 1022 minutes.
+
+Learning outcomes: seven of AI Control 1's earlier learning outcomes now sit here, in the unit where the teaching in their suggested lenses completes (units 1 to 4). Learning outcomes for the other lenses come in a later step; units 4 and 5 count 12% of the lens time from the collusion exercise onward for their tests.
 
 Meeting 5 uses AC2 Final Impact Survey v2 (copy of CV1 Final with fresh ids and the course name swapped); meetings 1 to 4 use the shared Lens Post-Meeting Impact Survey v2.
 %%
@@ -22,37 +26,32 @@ application-survey:: [[../surveys/Application Form]]
 
 # Module: [[../modules/XLab Control P2 Overview]]
 
-# Module: [[../modules/XLab Control P2 D1 Collusion, legibility, and low-stakes control]]
+# Module: [[../modules/XLab Control AC2 U1 The control toolkit and where to invest|Unit 1: The control toolkit and where to invest]]
 
-# Meeting: Unit 1: Collusion, legibility, and low-stakes control
-meeting-doc:: [[../meetings/AI Control 2/Meeting 1]]
+# Meeting: Unit 1
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
-# Module: [[../modules/XLab Control P2 D2 Sandbagging and capability elicitation]]
+# Module: [[../modules/XLab Control AC2 U2 High stakes: how a catastrophe happens|Unit 2: High stakes: how a catastrophe happens]]
 
-# Meeting: Unit 2: Sandbagging and capability elicitation
-meeting-doc:: [[../meetings/AI Control 2/Meeting 2]]
+# Meeting: Unit 2
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
-# Module: [[../modules/XLab Control P2 D3 Research sabotage and exploration hacking in practice]]
+# Module: [[../modules/XLab Control AC2 U3 Monitoring and resampling in real deployments|Unit 3: Monitoring and resampling in real deployments]]
 
-# Meeting: Unit 3: Research sabotage and exploration hacking in practice
-meeting-doc:: [[../meetings/AI Control 2/Meeting 3]]
+# Meeting: Unit 3
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
-# Module: [[../modules/XLab Control P2 D4 Beyond scheming: reward seekers]]
+# Module: [[../modules/XLab Control AC2 U4 Building the test, and designing against collusion|Unit 4: Building the test, and designing against collusion]]
 
-# Meeting: Unit 4: Beyond scheming: reward seekers
-meeting-doc:: [[../meetings/AI Control 2/Meeting 4]]
+# Meeting: Unit 4
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
-# Module: [[../modules/XLab Control P2 D5 Deals with AIs and next steps]]
+# Module: [[../modules/XLab Control AC2 U5 Low stakes: diffuse failures and sandbagging|Unit 5: Low stakes: diffuse failures and sandbagging]]
 
-# Meeting: Unit 5: Deals with AIs and next steps
-meeting-doc:: [[../meetings/AI Control 2/Meeting 5]]
+# Meeting: Unit 5
 survey:: [[../surveys/AC2 Final Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]

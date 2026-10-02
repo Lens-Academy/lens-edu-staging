@@ -5,61 +5,62 @@ title: "Course Overview"
 tags:
   - work-in-progress
 ---
-%% Orientation module before Unit 1, added September 2026 to match the Compute Verification courses. Based on XLab's public track page (https://aisafetytracks.com/tracks/control). Unit summaries mirror the Day N overview lenses in each unit; keep them in sync. Learners see units, not days: the course also runs in less intensive formats. %%
+%% Orientation module before Unit 1 of AI Control 1. Added September 2026; rewritten October 2026 when XLab's AI Control track was re-cut from two courses into three five-unit courses (AI Control 1, 2, 3, strict XLab lens order). Based on XLab's public track page (https://aisafetytracks.com/tracks/control). Unit summaries are written from the tldr, summary_for_tutor and openers of the lenses in each unit module; keep them in sync when a unit changes. Unit length including the end-of-unit learning-outcome tests (about 7.5 minutes each, counts per lo-placement.md): 213 to 264 minutes (U1 220, U2 240, U3 264 with four tests, U4 220, U5 213). Unit 3 is the long one, so the learner text names it. Learners see units, not days: the course also runs in less intensive formats. %%
 
 # Lens: About This Course
 id:: 75e01a0e-4d70-44c5-b7ed-d21cbc91a234
-tldr:: Assume a frontier model may be scheming and design so it still cannot hurt you. This course works through the first half of XLab's AI Control curriculum: why control, the founding paper, catching schemers, the toolkit, and high-stakes monitoring.
-summary_for_tutor:: Orientation page before Unit 1. The learner reads what the course is about, that it is built on XLab's open-source AI Control curriculum, what each of the five units covers and how the units run, what the prerequisites are, and that AI Control 2 is a separate course that continues from here. Do not teach later content in detail; if asked, point to the day that covers it, or say that collusion, legibility, low-stakes control, sandbagging, reward seekers and deals belong to the second course.
-reading_minutes:: 3
+tldr:: Assume a frontier model may be scheming and design so it still cannot hurt you. This first of three courses on XLab's AI Control track makes the case for control, works through the founding paper's protocols, and ends by asking whether control is worth what it costs.
+summary_for_tutor:: Orientation page before Unit 1 of AI Control 1, the first of three Lens Academy courses on XLab's open-source AI Control track (AI Control 2 assumes this course; AI Control 3 assumes this course and AI Control 2). The learner reads what the course is about, what to know before starting, what the course teaches, how the units run (about three and a half hours of self-study each, some units up to about four, Unit 3 about four and a half, a group meeting at the end, short learning-outcome tests closing each unit), what each of the five units covers, and what the next two courses cover. Do not teach later content in detail; if asked, point to the unit that covers it, or say that the control toolkit, rogue deployments, monitoring and resampling in real deployments, collusion, legibility and low-stakes control belong to AI Control 2, and capability elicitation, exploration hacking, reward seekers and deals with AIs belong to AI Control 3.
+reading_minutes:: 5
 tutor_minutes:: 0
 #### Text
 content::
 \## What this course is about
 
-Alignment tries to make a model want what we want. AI control asks what holds if that failed: can we deploy a model that may be deliberately working against us, get useful work out of it, and still make sure it cannot cause a catastrophe? This is AI Control 1, the first of two Lens Academy courses on that question. It runs from the case for control to the concrete machinery of high-stakes monitoring; AI Control 2 picks up where it stops. Both are built on the open-source [AI Control track](https://aisafetytracks.com/tracks/control) of [XLab](https://xrisk.uchicago.edu/), the Existential Risk Laboratory at the University of Chicago.
+Alignment tries to make a model want what we want. AI control asks what holds if that failed: can we deploy a model that may be deliberately working against us, get useful work out of it, and still make sure it cannot cause a catastrophe? This is AI Control 1, the first of three Lens Academy courses on that question. It makes the case for control, takes apart the paper that started the field, and ends by asking whether control research is worth what it costs. AI Control 2 and AI Control 3 continue from here. All three are built on the open-source [AI Control track](https://aisafetytracks.com/tracks/control) of [XLab](https://xrisk.uchicago.edu/), the Existential Risk Laboratory at the University of Chicago, and follow its order.
+
+:::callout {title="Before you start" tone="blue"}
+You do not need another Lens course first. We recommend that you are comfortable reading research papers and familiar with AI safety. If you have done [AI Risk Fundamentals](https://lensacademy.org/ai-risk-fundamentals) or an equivalent, you are ready.
+:::
 
 \## What you will learn
 
 By the end of this course you will be able to:
 
-- Explain why control is a distinct line of defense from alignment, and why it is easier to evaluate.
-- Read the founding control paper and its protocols (trusted and untrusted monitoring, editing, deferral) and say what a red team is measuring.
-- Build an attack tree for a deployed model and prioritise the threats on it.
-- Argue both for and against control research, and place a protocol on the safety-usefulness frontier.
-- Sort control work into detection, prevention, response, evaluations and environments.
-- Follow how monitoring, resampling and rogue-deployment defenses work in a real high-stakes deployment.
+- Explain what control is, how it differs from alignment, and why a control claim can be tested with a red team while an alignment claim currently cannot.
+- Build an attack tree for a model trying to slip a backdoor into production.
+- Use the founding control paper's game (an untrusted model, a trusted model and a small human audit budget) to work out why a protocol reaches the safety it does and how a red team best responds.
+- Compare trusted monitoring, defer to trusted, untrusted monitoring and trusted editing on the safety-usefulness frontier.
+- Say when handing safety work to AI agents would be safer than keeping humans in the loop.
+- Explain why catching a model red-handed is a win, rank the threats a deployed model poses, and tell concentrated failures from diffuse ones.
+- Argue for and against control research, and decide where research effort should go as the available political will changes.
 
 \## How the course runs
 
-Five units. Each unit is about four to five hours of reading and exercises on your own, and ends with a group meeting to work through the arguments the readings leave open. We have also added some optional readings if you want to dive deeper.
-
-\## Requirements
-
-To take this course, we recommend that you are comfortable reading papers and familiar with AI safety. If you have done [AI Risk Fundamentals](https://lensacademy.org/ai-risk-fundamentals) or an equivalent, you are ready.
+Five units. Each unit is about three and a half hours of reading and exercises on your own, some up to about four; Unit 3, the longest, is about four and a half. Each unit closes with short tests on what it taught, and ends with a group meeting to work through the arguments the readings leave open. A few lessons fold away extra material, such as a post's appendices, which you can open if you want to go deeper.
 
 \## The five units
 
 :::callout {title="Unit 1: Why control" tone="blue"}
-Why assume a frontier model may be scheming and design so it still cannot hurt you: the case for control as a second line of defense behind alignment, and attack trees as the way to think about what a model could do to you.
+Why assume a frontier model may be scheming and design so that it still cannot hurt you. A short welcome, then Greenblatt and Shlegeris's case for control in four parts: what control is and how it sits beside alignment, with five deployment setups for you to judge; how a red team runs a control evaluation and why that makes control testable; whether the first transformatively useful AIs will already be too capable to control; and how long a window of controllable, useful AI might last.
 :::
 
-:::callout {title="Unit 2: The founding paper and passing the buck" tone="blue"}
-The paper that started the field: trusted monitoring, untrusted monitoring, editing and deferral, measured against a red team that tries to insert backdoors. Then the question of when it is safe to let AIs take over the work of keeping AIs safe.
+:::callout {title="Unit 2: Attack trees and the control game" tone="blue"}
+You build an attack tree for a model trying to get a backdoor into production. Then the founding control paper: a capable model that might be sabotaging you, a weaker trusted one and a human who can check 2% of the work. You read its baselines and trusted monitoring, rebuild trusted monitoring's 62% safety with one line of algebra, and work out why the paper's red team was right to attack rarely.
 :::
 
-:::callout {title="Unit 3: Catching schemers, prioritising threats, and the case against control" tone="blue"}
-Why catching a model red-handed is a win rather than a failure, which threats to prioritise and how diffuse threats like research sabotage differ from concentrated ones, then the arguments for and against control, the safety-usefulness tradeoff, and how to judge what control buys you.
+:::callout {title="Unit 3: Monitors you can't trust, and handing the work to AI" tone="blue"}
+The rest of the founding paper: the monitor as a classifier and why its catch rate at the audit budget matters more than how well it ranks attacks overall (its AUC), deferring to the trusted model, untrusted monitoring and what stops a model lying about its own backdoors, trusted editing, and the difficulties the paper's toy setting left out. Then Josh Clymer on when it would be safer to hand safety research to AI agents than to keep humans in the loop.
 :::
 
-:::callout {title="Unit 4: Plans, the control toolkit, and high-stakes framing" tone="blue"}
-The Plans A to D landscape for misalignment risk, then the taxonomy of control work: detection, prevention and response mitigations, control evaluations, environments, and the map of areas of control work. Closes with the framing for high-stakes control.
+:::callout {title="Unit 4: Catching schemers and ranking threats" tone="blue"}
+Why one clear catch of a model trying to escape tilts the game your way, and what it takes for that catch to convince the people who decide; you design one that would survive their objections. Then Ryan Greenblatt's ranking of the threats a misaligned AI poses, which you re-derive under a different level of political will, and Vivek Hebbar on diffuse threats such as research sabotage, where no single bad action proves anything.
 :::
 
-:::callout {title="Unit 5: High-stakes monitoring and mitigation" tone="blue"}
-Win, continue and lose scenarios; rogue deployments inside and outside the lab; a systems architecture for autonomous research agents; monitoring and mitigation in real deployments; resampling as a control technique; and why settings for high-stakes control research are hard to build.
+:::callout {title="Unit 5: Is control worth it?" tone="blue"}
+Four criticisms of control, each of which you answer before you see the defenders' reply, and one of your own. Then Buck Shlegeris on trading safety against usefulness, a way to account for what control buys across different worlds, and Greenblatt's Plans A to D, which sort the possible worlds by how much political will there is. The unit closes with a long exercise: allocate ten researchers across seven research agendas in three scenarios, and see whether your allocation moves when the world does.
 :::
 
 \## What comes after
 
-This is the first of two courses on XLab's AI Control curriculum. AI Control 2 continues with guided exercises on collusion and legibility, low-stakes control, sandbagging and capability elicitation, threat models beyond scheming, and deals with early misaligned AIs.
+This is the first of three courses on XLab's AI Control track. AI Control 2 assumes this course. It covers the control toolkit and where to invest in it, how a catastrophe happens in a high-stakes deployment, monitoring and resampling in real deployments, how control settings are built and how to design against collusion, and low-stakes failures and sandbagging. AI Control 3 assumes both earlier courses and covers capability elicitation and exploration hacking, research sabotage, reward seekers, and deals with misaligned AIs.
