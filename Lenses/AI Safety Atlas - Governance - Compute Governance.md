@@ -8,8 +8,8 @@ title: "Compute Governance"
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942559657}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Governance - Compute Governance|Compute Governance]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Governance - Compute Governance|Compute Governance]]
 
 #### Question: Open
 id:: 53871717-d37d-411c-a536-6ccb76481015

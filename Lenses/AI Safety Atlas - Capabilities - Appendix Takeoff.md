@@ -8,5 +8,5 @@ title: "Appendix: Takeoff"
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942510475}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Capabilities - Appendix Takeoff|Appendix: Takeoff]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Capabilities - Appendix Takeoff|Appendix: Takeoff]]

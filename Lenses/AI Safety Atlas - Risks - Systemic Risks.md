@@ -8,8 +8,8 @@ title: "Systemic Risks"
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942590442}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Risks - Systemic Risks|Systemic Risks]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Risks - Systemic Risks|Systemic Risks]]
 
 #### Question: Open
 id:: 68389f0e-58ba-4b72-a6cb-a18a08900347
