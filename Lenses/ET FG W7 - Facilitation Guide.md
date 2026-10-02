@@ -15,12 +15,16 @@ This week's focus is on helping participants figure out what's actually blocking
 
 You’ll be encouraging participants to start **preparing for Final Presentations:** Synthesizing all the frameworks (Ikigai, WFM, ToC, Stakeholder outreach) covered over the past weeks and applying them to their own thesis or research idea that they can present to the group.
 
+*The core shift: career direction isn't something you think your way into, it's something you experiment your way into.*
+
 \#### Key Ideas from Week 7
 
 - **3 different types of blockers exist to high-impact career paths:**
-   - Head
-   - Heart
-   - Hand
+   - **Head:** will working on this actually lead to real-world impact? Resolved through research and analysis
+   - **Heart:** does this path motivate, energise and sustain me? Resolved through honest self-reflection
+   - **Hand:** have I actually tested this in reality? Resolved through action and experimentation
+   - **Two out of three traps:** Head + Heart without Hand = staying theoretical indefinitely. Head + Hand without Heart = burnout that looks like success from the outside. Heart + Hand without Head = busy, but not sure it's impactful.
+   - **Misdiagnosis is common:** e.g. reading more articles (Head) when what's needed is a conversation (Hand), or building spreadsheets (Head) when the real issue is imposter syndrome (Heart). If they've been "researching" the same decision for weeks, they may be stuck somewhere else.
 - **Use your thesis as a learning tool:** Your thesis outputs and stakeholder engagement can provide evidence and experiences to inform your career exploration. Consider how your research can generate skills, connections, and insights that test your career hypotheses while advancing your field.
 - **Exploration and tests are often key:** Sometimes thinking hits a natural limit, this is where action, short tests, mini-experiments are super important
 
@@ -32,10 +36,11 @@ tone:: amber
 #### Text
 content::
 - **Select the 2 Mastermind Participants from this Week’s discussion using [[../Lenses/ET FG Resources - Mastermind Tracker|your Mastermind Tracker]]**
-- **Communication (Friday before):** Send participants a reminder to do weekly readings before the session (see template message in CDHQ)
+- **Communication (Friday before):** Send participants a reminder to do weekly readings before the session (see template message in CD HQ)
    - **For Chosen Mastermind Participants:** Let them know they are selected and to prepare lightly for it, and inform you if they can’t make it
-- **Read through Week 7’s worksheet and readings** to familiarise yourself
+- **Read through this week’s module** to familiarise yourself with the content.
 - **Prepare and lead** the 1.5h weekly discussion using the Weekly Facilitation Guide below
+- **Use the CD Whatsapp Group** for support and shared learnings ♥️
 
 #### End Callout
 
@@ -49,6 +54,8 @@ tone:: neutral
 #### Text
 content::
 *The following is our recommended structure for hosting the discussion. Feel free to adapt timing, extend or shorten sections, or dive deeper into areas of interest based on participant engagement and group needs. The goal is to keep the session interactive and valuable to the participants joining! You can also refer to the facilitator guidelines and icebreaker questions if you need additional ideas.*
+
+*If you have a larger group (>4 participants), please see [[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]] for alternative formats.*
 
 #### End Callout
 
@@ -66,8 +73,9 @@ content::
 
 ::card[[../Lenses/ET W7 - Journalling - Limiting Beliefs on Impact]]{allow-external}
 
+- For a Google Docs version for printouts, you can use [this](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?tab=t.2b71rt36knt9). But we recommend everyone access via Lens!
 - Week 7 Slides: [\[Shared - 2026\] Week 7: Planning for a Career with Impact](https://docs.google.com/presentation/d/1__GpzK1C2GksMVk-0e5FDWyJV0EqEOlYoY87K_BPmV4/edit?slide=id.g3bf79a69fa2_0_8#slide=id.g3bf79a69fa2_0_8)
-- [\[TEMPLATE\] Week 8 Presentation ET Accelerator: Jan-March 26'](https://docs.google.com/presentation/d/1BwJU_0Q25yE7XeRV4SxMRi2C2Yd8RCdJR-QfTYd1oFc/edit?usp=sharing)
+- Week 8 Template for participants: [\[TEMPLATE\] Week 8 Presentation ET Accelerator: Oct-Dec 26'](https://docs.google.com/presentation/d/16l-eKuJcJnzKP5F-IOoNuUoHZqw-sPGi3Kb0Q-xw64Q/edit?slide=id.g3fb78c7d3ee_1_0#slide=id.g3fb78c7d3ee_1_0)
 
 \### 3m · Welcome & Group Check-In
 
@@ -85,9 +93,9 @@ content::
 
 **Pair participants (or groups of 3 if numbers require) and suggest some icebreaker questions to discuss:**
 
-- What is your definition of impact or success?
-- What’s a personal value or principle that guides your choices?
-- Is there a cause or issue you care about that you wish more people paid attention to?
+- What's a decision you made that seemed small at the time but ended up mattering a lot?
+- When have you felt most proud of yourself in the last year?
+- What's something you'd like to contribute to the world in your lifetime?
 
 **If you would like to do a group activity/game instead, [[../Lenses/ET FG Resources - Icebreaker Speed Friending Question List|here]] are some ideas.**
 
@@ -98,8 +106,11 @@ tone:: neutral
 content::
 \### 15m · Part 1: Working on Worksheet Live
 
-Ask participants to open the Week 7 Worksheet in their workbook and introduce Worksheet: Focus on Part 1: which focuses on career hypotheses and how participants can use their thesis to test out their top career hypotheses.
+Ask participants to open the Week 7 Worksheet: "By the end of this worksheet, you should have named your top Head, Heart and Hand uncertainties, chosen your top 1-3 to focus on, and figured out how your thesis (or another concrete next step) can help you test them."
 
+- **Part 1:** write down their uncertainties under Head, Heart and Hand (half-formed is fine!), then circle the one that feels most like the bottleneck right now.
+- **Part 2:** choose 1-3 small, specific actions for the coming week, each with a deadline, using the next-step menus in the reading.
+- **Done already:** start on the Week 8 presentation template.
 - Set aside 10-15 minutes for each person to work on their worksheet independently (if already done, participants can fine-tune or discuss their thinking)
 
 #### End Callout
@@ -123,6 +134,12 @@ content::
 3. **13m of Group Feedback & Ideas:** Encourage the group to provide questions, feedback, and ideas to the Mastermind participant
    - Encourage them to: Ask clarifying questions, offer perspectives, ideas, and suggestions for next steps, and address the participant’s specific questions and needs
    - Encourage asking before suggesting – help the participant think through options rather than giving solutions directly.
+   - **Week 7 specific recommended prompts:**
+      - Is this really a Head problem, or could it be Heart or Hand in disguise?
+      - What's the smallest experiment that would give you new information in the next two weeks?
+      - How could your thesis act as that experiment?
+      - What would you tell a close friend who said this?
+      - Are there people, programs or resources you've come across that could help?
    - Prompting questions/ideas for the group: See [[../Lenses/ET FG Resources - Mastermind Tracker|Mastermind session prompts here]] for more ideas and guidance.
       - How can this group support you in reaching out to these stakeholders? What support may you need?
       - What would you do if you were in their position?
@@ -133,6 +150,8 @@ content::
    - Which idea or suggestion felt most useful?
    - What questions remain that you want to explore further?
    - Goal: Try to support the participant in leaving with clear, actionable takeaways or next steps, and ending with an encouraging note.
+
+*Facilitator note: Heart blockers can bring up tender material (imposter syndrome, fear, burnout). Your role is to listen and normalise, not to fix. Where it feels useful, signpost the support options in the reading: Rethink Wellbeing's CBT Lab, Magnify Mentoring, or 1:1 advising with Probably Good or 80,000 Hours.*
 
 \### 20m · Mastermind Session 1
 
@@ -149,24 +168,29 @@ content::
 
 **Purpose:** Help participants reflect on their career hypotheses, uncertainties, and ways their thesis can serve as a testing ground for future impact. Facilitate peer learning and collective problem-solving. You can use any of the questions below to guide the group discussion based on what feels most alive:
 
-- **Reflection on Career Planning and Thesis Alignment**
+- **Diagnosing your blocker**
+   - Which of Head, Heart or Hand feels most like your bottleneck right now? How do you know?
+   - Which "two out of three" pattern best describes where you are?
+   - Have you been applying the wrong response, e.g. researching something that actually needs a conversation or some honest reflection?
+- **Try the Heart tool (optional, 5 min in pairs)**
+   - Notice the feeling and thought, defuse it ("I'm noticing I'm having the thought that..."), flex (what else could be true?), and choose one small values-aligned step.
+- **Thesis and career alignment**
+   - Looking back at your Week 1 career hypotheses, what's changed? How could your thesis outputs or research process test your top one?
    - How could your thesis outputs or research process help you test these career paths?
-   - What are your biggest uncertainties about these career paths? (e.g., fit, impact potential, opportunities)
-   - How can this group support you in clarifying your career hypotheses or testing them?
+- **Next steps & accountability**
+   - What are your 1-3 actions for the next week, and by when? How can this group support you?
 - **Mastermind Session Debrief**
    - What did you learn from someone else’s problem or approach today?
    - Did you hear anything that challenged your assumptions or made you think differently?
    - What is one idea, perspective, or resource you want to take away for your own work?
-- **Next Steps & Action**
-   - What might you do differently moving forward? What’s one area you might explore further to increase potential impact?
-   - What are your next steps for your thesis or project this week?
 
-\### 5m · Outro: Intro to next week + Weekly survey
+\### 10m · Outro: Intro to Next Week
 
-- **Briefly introduce Week 8,** which focuses on final presentations, where each participant will share their final slides, which synthesise their work so far.
+- **Briefly introduce Week 8: Final Presentations.** Each participant will share an overview of their 8 weeks (around 7 minutes each) using the template, then receive feedback. There's no worksheet, the presentation is the main deliverable. The goal is to celebrate how far we’ve come and to synthesise all we’ve worked on together as everyone looks ahead to applying these skills and ideas beyond the program.
+   - Emphasise that presentations aren't about a perfectly finished project. Celebrate and share where you're at: the insights you're excited about, what didn't work, the assumptions you changed your mind about, and the questions still alive for you.
 - **Remind participants:**
-   - Remind participants to work on their slides using the template, and to come to the next session ready to present. [\[TEMPLATE\] Week 8 Presentation ET Accelerator: Jan-March 26'](https://docs.google.com/presentation/d/1BwJU_0Q25yE7XeRV4SxMRi2C2Yd8RCdJR-QfTYd1oFc/edit?usp=sharing)
-   - Explore the Journaling prompts in their own time, which focus on personal reflection prompts for their life, not just academics
-- **\[If time allows\]** Ask participants to complete the weekly pulse survey: [Anonymous Weekly feedback form](https://forms.gle/2BSkjtYHje8Dsm2w9) (this is linked on each header page of their workbook as well)
+   - Remind participants to work on their slides using the template, and to come to the next session ready to present. [\[TEMPLATE\] Week 8 Presentation ET Accelerator: Oct-Dec 26'](https://docs.google.com/presentation/d/16l-eKuJcJnzKP5F-IOoNuUoHZqw-sPGi3Kb0Q-xw64Q/edit?slide=id.g3fb78c7d3ee_1_0#slide=id.g3fb78c7d3ee_1_0)
+   - Explore this week’s Journaling prompts in their own time, which focus on personal reflection prompts for their life, not just academics
+   - Weekly survey on Lens platform to share their feedback
 
 #### End Callout

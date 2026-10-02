@@ -40,6 +40,10 @@ source:: [[../Lenses/pauliina-stop-applying-and-get-to-work]]
 
 # Lens:
 optional:: true
+source:: [[../Lenses/tsvibt-please-dont-throw-your-mind-away]]
+
+# Lens:
+optional:: true
 source:: ![[../Lenses/The Goddess Of Everything Else]]
 
 # Lens:
@@ -51,4 +55,4 @@ source:: ![[../Lenses/Letter From Utopia]]
 
 # Lens:
 optional:: true
-source:: [[../Lenses/tsvibt-please-dont-throw-your-mind-away]]
+source:: [[../Lenses/duleba-another-way-to-be-okay]]
