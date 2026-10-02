@@ -162,8 +162,15 @@ content::
 
 **\[Super Important 🙂\] Ask participants to complete** [the final program survey here](https://airtable.com/appcKo5GTmHnUaBlg/pagGHPBww4E31JabV/form). We will also send this out personally.
 
-\### ~ · Optional: Social
+#### End Callout
 
+#### Callout: 6. Optional: Social
+collapse:: closed
+
+#### Text
+content::
 **Optional Social:** We encourage participants to stick around after the final session to connect, celebrate their work, and enjoy some informal time together, perhaps over dinner/pizza. If you need extra support to host the social, reach out to Alex (alex@effectivethesis.org)
+
+#### End Callout
 
 #### End Callout
