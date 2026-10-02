@@ -157,6 +157,8 @@ And remember: this is just the beginning. Your thesis is one step, these 8 weeks
 
 We’re incredibly excited to learn alongside you, to see what you discover, and to see what you go on to build. Let’s get started! 🚀
 
-\### Special Thank You
+\### Special Thank You ^thanks
+
+A huge thank you to [Lens Academy](https://lensacademy.org/) for their incredible platform and support! 💛 This interactive course, with its worksheets, tools and AI tutor, wouldn't be possible without them, and we're so grateful for their partnership in helping more people use their research as a pathway to impact.
 
 We want to give a special shoutout to the organisations whose incredible resources and work have shaped this program: [Leaf](https://leaf.courses/), [Non-Trivial](https://non-trivial.org/), the [Centre for Effective Altruism](https://www.centreforeffectivealtruism.org/), [80,000 Hours](https://80000hours.org/), [Probably Good](https://probablygood.org/), [Ambitious Impact](https://www.ambitiousimpact.com/), [High Impact Professionals](https://www.highimpactprofessionals.org/) and [Giving What We Can](https://www.givingwhatwecan.org/). If you haven't come across any of them yet, we highly recommend giving them a look as they are doing incredible work in shaping the impact-driven ecosystem!
