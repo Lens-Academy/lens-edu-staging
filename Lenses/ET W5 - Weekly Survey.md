@@ -12,6 +12,5 @@ content::
 Thank you for all your work this week! 💛 Please take a few minutes to fill in this short survey. It really helps us understand how the Accelerator is going for you and how we can keep improving it.
 
 #### {--{"author":"Iris's AI","timestamp":1790961756910}@@Widget--}{++{"author":"Iris's AI","timestamp":1790961756910}@@Embed++}
-source:: {--{"author":"Iris's AI","timestamp":1790961915551}@@[[../widgets/et-weekly-survey-form]]--}{++{"author":"Iris's AI","timestamp":1790961915551}@@[[../articles/et-weekly-survey-form]]
-inline:: true
-height:: 2000px++}
+source:: {--{"author":"Iris's AI","timestamp":1790962580149}@@[[../widgets/et-weekly-survey-form]]--}{++{"author":"Iris's AI","timestamp":1790962580149}@@[[../articles/et-weekly-survey-form]]
+inline:: true++}
