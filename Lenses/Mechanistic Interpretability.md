@@ -24,7 +24,7 @@ content::
 #### Chat
 instructions::
 The user is answering this question:
-We have full access to every parameter and activation in the model, why isn’t that enough to just read off what it believes, wants, or will do?
+We have full access to every parameter and activation in the {--{"author":"Elua's AI","timestamp":1790940712531}@@model, why--}{++{"author":"Elua's AI","timestamp":1790940712531}@@model. Why++} isn’t that enough to just read off what it believes, wants, or will do?
 
 Response length requirement:
 - Keep responses short: aim for 120–200 words.
