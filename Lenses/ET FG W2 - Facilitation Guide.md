@@ -51,6 +51,8 @@ tone:: neutral
 content::
 *The following is our recommended structure for hosting the discussion. Feel free to adapt timing, extend or shorten sections, or dive deeper into areas of interest based on participant engagement and group needs. The goal is to keep the session interactive and valuable to the participants joining! You can also refer to the [facilitator guidelines](https://docs.google.com/document/d/121dVaBW9Fn8WEPziy1t5UrpD0Ibmpig2evmTRqyK8_s/edit?tab=t.ybfxdh5qmr1g) and icebreaker questions if you need additional ideas.*
 
+*If you have a larger group (>4 participants), please see [[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]] for alternative formats.*
+
 #### End Callout
 
 #### Text
@@ -67,6 +69,7 @@ content::
 
 ::card[[../Lenses/ET W2 - Journalling - Explore vs Exploit Tradeoff]]{allow-external}
 
+- For a Google Docs version for printouts, you can use [this](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?tab=t.2b71rt36knt9). But we recommend everyone access via Lens!
 - Week 2 Slides: [\[Shared - 2026\] Week 2: Selecting a High-Impact Problem](https://docs.google.com/presentation/d/1d9HtulBzECf0GErwn5ADMlDCw2q4PzUY4bcFOPIezVs/edit?usp=drive_link)
 
 \### 3m · Welcome & Group Check-In
