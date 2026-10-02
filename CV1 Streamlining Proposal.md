@@ -29,7 +29,7 @@ Six things, none of them about what the course teaches.
 
 ## What stays fixed
 
-- **No learning outcome is rewritten.** Units 3 to 5 have none, and that is recorded as a hole rather than filled.
+- **No learning outcome is rewritt{>>{"author":"Elias","timestamp":1790945647886}@@Should be fixed as well at some point<<}en.** Units 3 to 5 have none, and that is recorded as a hole rather than filled.
 - **No published id changes, and nothing is retired.** Lenses and modules keep their ids. Slugs stay too: they still point at the right content, and module-level `slug-aliases` was never confirmed (see [[AIRF Restructure Log]], section 3), so renaming one would break every saved link to it once promoted.
 - **XLab's text stays XLab's.** Changes to it are limited to labels, spelling and page boundaries. The plain-language work in stage 6 targets Lens's own text and reaches XLab's only where a passage proves to be a problem.
 - **[[Lenses/Four Background Claims]] is not touched.** Two modules outside Compute Verification import it.
