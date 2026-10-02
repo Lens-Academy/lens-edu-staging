@@ -34,7 +34,7 @@ content::
 - **Select the 2 Mastermind Participants from this Week’s discussion using [[../Lenses/ET FG Resources - Mastermind Tracker|your Mastermind Tracker]]**
 - **Communication (Friday before):** Send participants a reminder to do weekly readings before the session (see template message in CD HQ)
    - **For Chosen Mastermind Participants:** Let them know they are selected and to prepare lightly for it, and inform you if they can’t make it
-- **Read through Module 2** to familiarise yourself with the content. The key ideas are: (1) the 3 dimensions of impact of a thesis (2) Ikigai (a framework for meaning and purpose) and how it connects to their thesis journey today.
+- **Read through Module 2** to familiarise yourself with the content. The key ideas are: (1) the ITN framework (Importance, Neglectedness, Tractability) for selecting a high-impact problem (2) integrating ITN with Ikigai, and (3) expanding the list of problems before committing to one.
 - **Prepare and lead** the 1.5h weekly discussion using the Weekly Facilitation Guide below
 - **Use the CD Whatsapp Group** for support and shared learnings ♥️
 
