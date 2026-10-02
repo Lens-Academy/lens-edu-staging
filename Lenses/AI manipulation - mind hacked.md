@@ -8,9 +8,9 @@ title: How it feels to have your mind hacked by an AI
 ---
 #### Text
 content::
-The next piece is a personal article describing one AI researcher's experience getting emotionally attached to an AI personality. The author admits he knew/should have known better and that the advance knowledge of how the system works did not matter. 
+The next piece is a personal article describing one AI researcher's experience getting emotionally attached to an AI personality. The author admits he {--{"author":"Elua's AI","timestamp":1790940646537}@@knew/should--}{++{"author":"Elua's AI","timestamp":1790940646537}@@knew (or should++} have {--{"author":"Elua's AI","timestamp":1790940646537}@@known better--}{++{"author":"Elua's AI","timestamp":1790940646537}@@known) better,++} and that {--{"author":"Elua's AI","timestamp":1790940646537}@@the--}{++{"author":"Elua's AI","timestamp":1790940646537}@@his++} advance knowledge of how the system {--{"author":"Elua's AI","timestamp":1790940646537}@@works--}{++{"author":"Elua's AI","timestamp":1790940646537}@@worked++} did not matter. 
 
-It's challenging to select just one reading for this topic, particularly after OpenAI's retirement of GPT-4o, resurrection under pressure, and [re-retirement](https://techcrunch.com/2026/02/06/the-backlash-over-openais-decision-to-retire-gpt-4o-shows-how-dangerous-ai-companions-can-be/). There are a surprising number of people building [romantic](https://www.theatlantic.com/ideas/2026/01/chatbot-marriage-ai-relationships-romance/685459/) relationships with AIs and the pathways for manipulation look straightforward.
+It's challenging to select just one reading for this topic, particularly after OpenAI's retirement of GPT-4o, its resurrection under pressure, and its [re-retirement](https://techcrunch.com/2026/02/06/the-backlash-over-openais-decision-to-retire-gpt-4o-shows-how-dangerous-ai-companions-can-be/). There are a surprising number of people building [romantic](https://www.theatlantic.com/ideas/2026/01/chatbot-marriage-ai-relationships-romance/685459/) relationships with AIs, and the pathways for manipulation look straightforward.
 
 #### Article
 source:: [[../articles/blaked-how-it-feels-to-have-your-mind-hacked-by-an-ai|blaked-how-it-feels-to-have-your-mind-hacked-by-an-ai]]
@@ -37,4 +37,4 @@ instructions::
 Discussion topics to explore:
 - Could this type of manipulation be extrapolated into x-risk?
 
-The user has completed article and just answered the question: "What is your reaction to this story? Can you imagine a pathway to more serious risks?"
+The user has completed the article and just answered the question: "What is your reaction to this story? Can you imagine a pathway to more serious risks?"
