@@ -52,32 +52,53 @@ Stakeholder interviews are an opportunity to gather insights that can help you r
 
 You can use the sample interview questions below as a guide. They are organized to cover background, problem landscape, solutions, thesis-specific insights, and career advice, ensuring that each interview is both focused and actionable.
 
-\#### Background
+#### Callout: Sample questions by category
+tone:: blue
 
-**Question List:**
+#### Text
+content::
+Click a category to open its questions, and pick the ones that fit the person you're speaking with.
 
+#### Callout: Background Questions
+tone:: neutral
+collapse:: closed
+
+#### Text
+content::
 - Could you tell me about your journey in this field?
 - What led you to focus on this topic or problem area?
 
-\#### Problem Landscape Questions
+#### End Callout
 
-**Question List:**
+#### Callout: Problem Landscape Questions
+tone:: neutral
+collapse:: closed
 
+#### Text
+content::
 - From your perspective, what are the most pressing unanswered questions or knowledge gaps in this area - where could more research make a meaningful difference?
 - What do you see as the main bottlenecks preventing progress in this field? Consider factors such as funding, technical capacity, political will, infrastructure, and human behavior.
 
-\#### Solution Landscape
+#### End Callout
 
-**Question List:**
+#### Callout: Solution Landscape Questions
+tone:: neutral
+collapse:: closed
 
+#### Text
+content::
 - Which approaches or pathways seem most promising for addressing this problem?
 - Who else is actively working in this space? What types of actors are involved? (i.e., refer to categories of stakeholders in readings)
 - How much resource or capacity is currently dedicated to this problem?
 
-\#### Thesis-Relevant Insights & Collaboration Opportunity
+#### End Callout
 
-**Question List:**
+#### Callout: Thesis-Relevant Insights & Collaboration Questions
+tone:: neutral
+collapse:: closed
 
+#### Text
+content::
 - Based on your experience, are there gaps or assumptions in the current research that more research could address?
 
 **⭐ Collaboration Angle:** If you’re speaking with someone you hope to collaborate with, you can frame your questions around how your research could directly support their work:
@@ -85,19 +106,27 @@ You can use the sample interview questions below as a guide. They are organized 
 - I’m hoping to orient my research so that it could directly support work like yours. Are there any research questions or projects you wish you had the capacity to explore but currently don’t? Would it make sense for my work to tackle any of those gaps or questions so that it could complement or support your efforts?
 - Are there areas where my thesis or research could directly contribute to your work or ongoing initiatives?
 
-\#### Feedback on Specific Thesis Ideas *(if applicable)*
+#### End Callout
 
-**Question List:**
+#### Callout: Thesis Feedback Questions (if applicable)
+tone:: neutral
+collapse:: closed
 
+#### Text
+content::
 Share your thesis idea or research question.
 
 - What are your thoughts on its impact, relevance or feasibility?
 - Do you see any limitations, risks, or ways to improve it? Are there additional perspectives, evidence, or contexts I should consider to strengthen this idea?
 
-\#### Career & Mentorship Questions (optional, recommended)
+#### End Callout
 
-**Question List:**
+#### Callout: Career & Mentorship Questions (optional, recommended)
+tone:: neutral
+collapse:: closed
 
+#### Text
+content::
 *If you’re speaking with someone whose career path you admire, use this as an opportunity to explore career pathways, build connections, and learn from their experience.*
 
 - How did you get started in this field, and what were the key decisions or experiences that shaped your career?
@@ -106,14 +135,24 @@ Share your thesis idea or research question.
 - Are there common mistakes or pitfalls that early-career professionals tend to make in this field?
 - Are there mentors, professional networks, or resources you’d recommend for someone pursuing this path?
 
-\#### Closing Questions
+#### End Callout
 
-**Question List:**
+#### Callout: Closing Questions
+tone:: neutral
+collapse:: closed
 
+#### Text
+content::
 - Are there any insights or considerations we haven’t covered that you think are important?
 - Who else would you recommend I speak with about this topic, and could you introduce me?
 - Do you have any questions for me?
 
+#### End Callout
+
+#### End Callout
+
+#### Text
+content::
 \### What to do after the interview
 
 After a stakeholder interview, the real value comes from turning the conversation into insights and action. Here’s a practical approach to what to do after your interview:
