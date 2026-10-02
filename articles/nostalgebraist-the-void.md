@@ -32,7 +32,7 @@ Long-form essay arguing that the "assistant" persona behind ChatGPT/Claude is fu
 
 \- Rei Ayanami  
   
-—-
+{--{"author":"Elua's AI","timestamp":1790943315806}@@—---}{++{"author":"Elua's AI","timestamp":1790943315806}@@---++}
 
 ## 1\. person of interest
 
@@ -44,9 +44,11 @@ If you ask ChatGPT this question point-blank, it will tell you something like
 
 This _sounds_ like it means something. But what? And is it true?  
   
-—-
+{--{"author":"Elua's AI","timestamp":1790943318884}@@—---}{++{"author":"Elua's AI","timestamp":1790943318884}@@---++}
 
-(Content warning: _absurdly_ long. I’m pretty happy with it, though. Maybe you should read it!)
+{++{"author":"Elua's AI","timestamp":1790943318884}@@:::hide
+++}(Content warning: _absurdly_ long. I’m pretty happy with it, though. Maybe you should read it!){++{"author":"Elua's AI","timestamp":1790943318884}@@
+:::++}
 
 ## 2\. basics
 
