@@ -427,3 +427,564 @@ Statement
 - **Thomas Broadley**, Member of Technical Staff, METR
 - **Logan Riggs Smith**, Research Affiliate, PIBBSS
 - **Peter Slattery**, Researcher & Cofounder of the MIT AI Risk Initiative, MIT
+- **Tyler Tracy**, Member of Technical Staff, Redwood Research
+- **Matt Fisher**, AI Safety Software Engineer, Arcadia Impact
+- **Quinn Dougherty**, Research Engineer, Beneficial AI Foundation
+- **Michael Huang**, Co-director, PauseAI Australia
+- **Geoffrey Mitelman**, Rabbi & Founding Director, Sinai and Synapses
+- **Matthew P. Schneider, LC SThD**, Moral Theology Professor, Holy Apostles College and Seminary
+- **Anders Wijkman**, Honorary President, Club of Rome
+- **Mariana Bozesan**, Scientist/President, AQAL Foundation, Club of Rome full member, Fellow World Academy of Art and Science
+- **Pascale St-Onge**, Former Canadian Heritage Minister and politician
+- **Eduardo Ulibarri**, Associate, Academia de Centroamérica, Former ambassador to the U.N.
+- **Trish Wood**, Investigative Journalist and Podcast Host, Trish Wood is Critical
+- **Émile P. Torres**, Philosopher and historian, Case Western Reserve University
+- **Aleksandra Przegalinska**, Vice President and Associate Professor, Kozminski University, Senior Research Associate Harvard, Harvard University, Vice-Rector for Innovation and AI, Kozminski University (Warsaw) Senior Research Associate, Harvard University’s Center for Labor and a Just Economy, Former Research Fellow, MIT CCI, Advisor at CampusAI
+- **Jessica Graham**, Research Officer, MIT AI Risk Repository
+- **Brandon Riggs**, Programme Manager, London AI Safety Research Laboratories, Distinction from University of Cambridge
+- **Caleb Biddulph**, AI Researcher, MATS 8.1
+- **Damon Falck**, AI Safety Researcher, MATS
+- **Catherine Ann Sourbut Groves**, Archdeacon of Lindisfarne, Church of England
+- **Max Andersson**, Former Member of the European Parliament
+- **Michael Rianda**, Film Director (Animation), Netflix, Oscar Nominee
+- **Joe Wos**, Cartoonist/TV Host, Cartoon Academy, Emmy award winner, Silver Reuben winner
+- **Jonathan Halperin**, Film Director, Room 608
+- **Ari Wallach**, Founder, Longpath Labs, Host, “A Brief History of the Future” on PBS
+- **David Meerman Scott**, WSJ bestselling author, Fanocracy, published in 30 languages
+- **Sauro Succi**, Senior Research Executive, Member of Academia Europaea, APS Aneesur Rahman Prize, B.J ASlder CECASM Prize Awardee in Computational Physics
+- **Valerie M. Hudson**, University Distinguished Professor, Texas A&M University, Editor and co-editor of "Artificial Intelligence and International Politics" and "The Oxford Handbook of AI Governance." Foreign Policy Magazine's "Top 100 Global Thinkers" for 2009. Andrew Carnegie Fellow, Fulbright Distinguished Visiting Scholar, etc.
+- **Philip Rubin**, Chair of the Board, Haskins Laboratories, National Academy of Public Administration; IEEE and AAAS Fellow
+- **Erol Gelenbe**, Professor, Institute of Theoretical and Applied Informatics, Polish Acadely of Sciences, FACM FIEEE FIFIP, Member of Academia Europaea, Fellow of the Science Academy (Istanbul), Foreign Fellow of the Royal Academy Science, Arts and Letters of Belgium, of the Polsih Academy of Sciences and the Indian National Science Academy.
+- **Michael Moller**, Former Under-Secretary-General of the United Nations
+- **Christian Kastrop**, President & CEO, Global Solutions Initiative
+- **David Orban**, Investor, entrepreneur, author, keynote speaker
+- **Belinda Chayko**, Screenwriter, Showrunner, International Emmy Award winner
+- **Christopher Shinn**, playwright and screenwriter, New School, Pulitzer Prize finalist; Guggenheim Fellow; Radcliffe Fellow; Cullman Center Fellow
+- **CORINE LESNES**, Journalist, Le Monde, Published the first long form interview of Sam Altman in French in 2017
+- **Grant Campbell**, Professor Emeritus, University of Western Ontario
+- **Csaba Kőrösi**, 77th President of the UN General Assembly
+- **Dr. Nathan Nichols**, VP Product Management, Salesforce, Inventor on 50+ AI-related patents
+- **Kelly Hamilton**, Lead Quality Manager, Salesforce
+- **Marianne Anderson**
+- **Sheila McIlraith**, Professor, University of Toronto, Canada CIFAR AI Chair; ACM Fellow; AAAI Fellow
+- **William Saunders**, Member of Technical Staff, Anthropic
+- **Josiah Roberts**, Member of Technical Staff, Anthropic
+- **Kyle Scott**, Treasurer, Alignment Research Center
+- **Hannes Whittingham**, Senior Technical AI Safety Research Manager, Meridian Impact CIC
+- **Gail Crimmins**, Chair, Academic Board, University of the Sunshine Coast
+- **Robert L. Foehl**, Executive-in-Residence for Business Law and Ethics, Ohio University
+- **Scott Seibold**, Creative Producer, Improve The News Foundation
+- **Huw Price**, Emeritus Bertrand Russell Professor, Cambridge, Trinity College, Cambridge, FBA, FAHA, Co-founder CSER, Inaugural Academic Director Leverhulme Centre for the Future of Intelligence
+- **Soroush Pour**, CEO & Co-founder, Harmony Intelligence, Director, Ripe Robotics; Robertson Scholar at Duke University; AI Researcher
+- **Irving Wladawsky-Berger**, Research Affiliate, MIT, Co-chair, President IT Advisory Committee (PITAC)
+- **Robert Kowalski**, Professor Emeritus, Imperial College London, 2011 IJCAI Award for Research Excellence https://en.wikipedia.org/wiki/Robert_Kowalski
+- **Heidi AcCampbell**, Professor of Communication and Presidential Impact Fellow, Texas A&M University, Director of the Network for New Media, Religion & Digital Culture Studies
+- **Stephen Cave**, Professor and Director, Leverhulme Centre for the Future of Intelligence, University of Cambridge
+- **Joshua Hewson**, AI Researcher, Brown University, Founder of CyberKind
+- **Wenshan Jia**, Professor of Communication and Global Studies, Chapman University, Editor of The Belt & Road Initiative: Interdisciplinary Perspectives, a book series published by Peter Lang
+- **Robert M Geraci**, Knight Chair for the Study of Religion & Culture, Knox College, Author of Apocalyptic AI and Futures of Artificial Intelligence; twice Fulbright-Nehru scholar
+- **Lars Rosendahl Appelquist**, Environmental Scientist & UN Advisor, Founding Head, Coastal Hazard Wheel, MIT Alumnus
+- **Kostas Stathis**, Professor of Artificial Intelligence, Royal Holloway, University of London, Vice Dean Research and Knowledge Exchange
+- **Daniel Mertens**, Professor for Molecular Medicine, AI educator (empowerpeopleAI), German Cancer Research Center
+- **Maria Isabel Iñigo Petralanda**, Lawyer| Bioethicist | responsible chair to AI4good and Data Governance, Institute of Bioethics Pontifical Catholic University of Argentina
+- **Robert Polding**, Vice Dean of Computing and Data Science, IE University, Member of the ACM
+- **Erroll Shand**, Actor
+- **Daniel Wen**, Senior Software Engineer, Google
+- **Michel Géradin**, Emeritus Professor / Unit Head, retired, University of Liège /European Commission, DHC University of Lisbon and Ecole Centrale de Nantes, von Humboldt Research Awardee, TUM-IAS Senior Research Fellow
+- **Ha-Young Shin**, Professor, Soongsil University
+- **Jörn Lauterjung**, Retired Senior Scientist, GFZ Potsdam
+- **Dr. Eva Ziemsen**, Professor & Researcher, Film and Virtual Production + App Developer of Ethical AI integration
+- **Sam Chapman**, Co-founder, All Things Considered Studio
+- **Holger Lyre**, Professor of Theoretical Philosophy, University of Magdeburg, Center for Behavioral Brain Sciences, Founding President of the German Society for Philosophy of Science
+- **Johan Hansson**, Professor of Theoretical Physics, Lulea University of Technology
+- **Afshin Doust**, Professor - Digital Transformation, Kwantlen Polytecnic University, Founder and Executive
+- **Gerhard Wanner**, Professor for Computer Science, HFT Stuttgart
+- **Amine Hariz**, Chief Financial Officer, Dallah Healthcare Company
+- **Philip Orr**, Chief Executive Officer, Synaptec
+- **Victor Winter**, Computer Science Professor, University of Nebraska-Omaha
+- **Wyatt Tessari L'Allié**, Founder & Executive Director, AI Governance and Safety Canada
+- **Gerd Leonhard**, Futurist & CEO, The Futures Agency, FRSA
+- **Franck Varenne**, Associate Professor of Philosophy, University of Rouen Normandy - France
+- **Jordan Heaton**, Software Engineer, Colorado Christian University, Dean’s List, self-published game developer, featured in PC Gamer Magazine, self-taught computer programmer
+- **Piotr Maczuga**, Founder, Digital Creators Foundation
+- **Kevin Sisco**, software developer
+- **David Haussler**, Scientific Director, UC Santa Cruz Genomics Institute, Member NAS, NAE
+- **Jérémy Perret**, Alignment Outreach, Suboptimal
+- **Karim Mesallam**, Software Engineer, Improve the News Foundation
+- **Félix Pharand-Deschênes**, Director, Globaïa
+- **Dave Elvin**, Owner & Talent, National Association of Voice Actors
+- **Tony Czarnecki**, Managing Partner - Sustensis - A Think Tank on AI Transition, Sustensis, Author of 6 books on AI
+- **Pete McDonnell**, Systems & Circulation Librarian / Associate Professor, Bemidji State University
+- **Robbie Grant**, Lawyer, Privacy and Data Protection
+- **Peter Kasprzak**, Chairman, Innovate Australia, Cofounder of Hydrogen Society of Australia
+- **Peter Cowling**, Professor of AI, Queen Mary University of London, Director of the £30m iGGi Games PhD programme (iggi.org.uk)
+- **Tim Vossen**, Senior Software Engineer
+- **Walter Barta**, Principal Investigator, Digital Research Commons, University of Houston
+- **Larry Lee**, Software Engineer, Asemio
+- **Nicholas Kross**, Contractor, Center for AI Safety
+- **GARCIA-ROMEU Sébastien**, Chief Technical Officer
+- **Dong Chen**, PhD student, The university of British Columbia
+- **Theodore Scaltsas**, Professor of Philosophy, University of Edinburgh, Founder of the AI-Wisdom Museum
+- **Andreas Persson**, Founder
+- **Samuel F Celarek**, Data Scientist, Nerevu Group, Organizer of Portland Effective Altruism and Rationality
+- **Johan Dahl**, Psychologist, Lund University
+- **Claudio Yokota**, Consultant
+- **Xiaohu Zhu**, Founder, Center for Safe AGI, Fellow in Safe AGI at Foresight Institute
+- **Hartmut Onkels**, Retired research physician
+- **Luke Thorburn**, PhD Student, King's College London
+- **James Babcock**, Software Engineer, LessWrong
+- **Michael Graham**, The Gospel Coalition
+- **Laurie Zoloth**, Margaret E. Burton Professor of Religion and Ethics, University of Chicago, Past President, American Society for Bioethics and Humanities and Past President, American Academy of Religion
+- **Manas Gaur**, Assistant Professor, University of Maryland Baltimore County, Author of Knowledge-infused Learning
+- **Ana Silva**, Marketing Lead, Improve the News Foundation, University of Toronto, Journalism Fellow, Jackman Scholar in Data Privacy and Algorithmic Literacy
+- **Amy Smith**, Environmental Manager
+- **Tiberio Caetano**, Chief Scientist, Gradient Institute
+- **Otto Barten**, Director, Existential Risk Observatory
+- **Fazl Barez**, Research Fellow, University of Oxford
+- **Lionel Levine**, Professor of Mathematics, Cornell University, Good Judgment Project “Superforecaster”
+- **Bassam Tabshouri**, chair, (HTMA) Healthcare Technology Management and Advancement Society, Founder of HTMA
+- **Andrei L. Krainov**, Associate professor PhD. Philosophy, Vavilov University
+- **Janelle Hraiki Chalouhi**, Founder & CEO, Venusventures Inc., Co-creator of Canada’s first \$1M AI prize competition to fight fake news.
+- **Yuyin Liu**, Chief Commissioner, The Asia-Pacific Artificial Intelligence Association (AAIA)
+- **Maddie Freeman**, Founder of No Social Media November and AI Policy Fellow, McGill University, Forbes 30 Under 30
+- **Antonio Medina Gómez**, Directivo, Asociación Colombiana de Usuarios de Internet, Miembro atlarge de Icann en Latinoamérica y el Caribe
+- **Mamuka Matsaberidze**, Professor, Georgian Technical University, Deputy President of Georgian Academy of Engineering
+- **Franck Joly**, Senior Network Designer
+- **David Kristoffersson**, CEO, Convergence Analysis
+- **Sue Turner**, Founder
+- **Luca Simoncini**, Full Professor (ret.), University of Pisa, Cofounder of IFIP WG 10.4 on Dependable Computing
+- **Roozbeh Aliabadi**, CEO and Cofounder, ReadyAI
+- **Meagan Perkins**, Advanced AI Data Quality Analyst
+- **Colin W.P. Lewis**, Professor of Artificial Intelligence and Data Science, University of Warsaw
+- **Stepan Yanchenko**, Leading Engineer, Moscow Institute of Physics and Technology
+- **Guillermo Muñoz**, Senior Consultant, Proyecto País Chile
+- **Thomas Willoughby, PhD**, Founder/CEO, Integrus Educational Solutions
+- **Graham Tavener**, Teacher of Physics, Bilborough College, UK, Author of Green Party (England and Wales) AI policy
+- **Alexander Iggmark**, Student
+- **Jason Petersen**, Senior Technology Manager, The Clubhouse Network
+- **Susan Hazan**, CEO, Digital Heritage, Israel
+- **Mason Kyle Young**, Communication Systems Engineer, Lanteris Space Systems
+- **Bruno Ley**, Software Developer
+- **Ivan almandoz**, Artist
+- **Mark R. Lentz**, Physician, Geisinger Health System
+- **Adegboyega Ojo**, Full Professor & Canada Research Chair in Governance & AI, Carleton University
+- **John McBride**, Engineer
+- **Rory Posanka**, Student
+- **Lode Lauwaert**, Professor Philosophy of Technology, KU Leuven
+- **Roberto Bottini**, Associate Professor, University of Trento
+- **Dan Ary**, Computer Science and Mathematics Teacher, Laguna Blanca School, Santa Barbara
+- **Nabiel Elshiewy**, Retired ICT Researcher
+- **Farisch Hanoeman**, Director, School of Data Science
+- **Diana Del Mastro**, Researcher, University of Szczecin
+- **Nelma Moreira**, Associate Professor of Computer Science, University of Porto
+- **Allan Zendle**, Founder and Principal Consultant, Technology Management Partners
+- **Darya Kharlamova**, Junior Researcher, Higher School of Economics
+- **Chris Meah**, Founder, Meah Labs, Founder @ School of Code, UK Digital Leader of the Year
+- **Kádár Etele**, Student
+- **Marc Crompton**, Educator, St George's School
+- **Jordan Doerksen**, Software Developer
+- **Nick Hays**, President & CEO
+- **Mikael Lyngbo**, Police Chief Constable, Legal Expert Council of Europe (Rtd.)
+- **Michael Spensieri**, Secondary Teacher, YCDSB, OCT
+- **Devin Kalish**, Bioethics MA Student, New York University
+- **Sky Wiet**, CEO, Root Tra, Architect of Pattra AI
+- **Hans-Rudolf Fankhauser**, Retired, NA, Senior specialist in the field of RAMS
+- **Birk Källberg**, MSc Physics student, University Heidelberg
+- **Leonard W Ashby**, Retired, Institute of Management Consultants
+- **Christoph Benzmüller**, Professor for AI Systems Development, University of Bamberg and Freie Universität Berlin
+- **Dan Bradley**, Director of Computing, University of Wisconsin-Madison Physics
+- **Ignacio Lucero**, Software Engineer
+- **Carrie M King**, Journalist
+- **Anna Sztyber Betley**, Assistant Professor, Warsaw University of Technology
+- **Aksh Gupta**, CEO, Occasion.app
+- **Laura Levine**, Fiercely Human Mother
+- **Uwe Ohler**, Professor of Biology and Computer Science, Humboldt University & Max Delbruck Center Berlin
+- **Vincent C Schoots**, Faculty, Emlyon business school
+- **Sally Oey**, Arthur F. Thurnau Professor and Professor of Astronomy, University of Michigan
+- **Gerald Habarth**, Associate Professor of Art, Digital Art and Animation, West Virginia University
+- **George Datseris**, Lecturer, University of Exeter, Marie Curie Postdoctoral Fellow
+- **Dominique Leclerc**, Movie and Theater Director, Posthumains
+- **Mathias Ljungberg**, AI Lead, Ahlsell Sverige AB
+- **Véronique Donard**, Professor of Psychology and Researcher in the Psychology of Intelligent Machines, Catholic University of Pernambuco (UNICAP), Brazil, CNPq Research Productivity Fellow (PQ)
+- **Reginald Crutcher**, Digital Designer
+- **Emil Juul Jacobsen**, Owner, EyeJustRead
+- **Richard Erwin**, CEO, Adstra
+- **Simone Nota**, Postdoctoral researcher in Philosophy, Institute of Philosophy, Zagreb
+- **Adriana Hoyos**, Professor of AI Economics, IE University, Board Member at Sacyr
+- **Michael E. Arth**, Public Policy Analyst, Founder of LOGOSwiki.org
+- **Pontus Eek**, Librarian
+- **James Blair**, Field Service Technician, Nextlink
+- **Nathalie Schwartz**, Chief Executive Officer
+- **Dr. Johannes Freiesleben**, Senior Engagement Manager, ELCA Informatic, Professor of Business Administration
+- **Richard Larsen**, Kindergarden employee
+- **Francesco Raimondi**, Associate Professor, Bioinformatics group leader
+- **Isobel Taylor-Joyce**, Software Engineer
+- **John Johnston**, Doctoral Student, Author, Researcher, Capella University
+- **Adam Macro**, Missile Defense, IT Specialist
+- **Prof. Markus Krebsz**, Founding Director / UN ECE WP.6 AI Project Lead, The Human AI Institute / UN ECE WP.6, Lead developer and Author of the UN / UNECE WP.6 Common Regulatory Arrangement (CRA) and Declaration on the Regulatory Compliance of Products/Services with Embedded AI systems and other Digital Technologies
+- **Shon Pan**, Project Manager, Bank of America
+- **Benedict Andre Plass Garcia Peters**, Student
+- **Andy Wilkins**, Founder, FUTURE OF HEALTH, Public Speaker on Existential Risks and the Future of AI
+- **Jakub Langhammer**, Professor, Charles University in Prague, Faculty of Science
+- **Jessica Szoros**, PhD Candidate, University of Ottawa
+- **Debbie Gadbois**, Web Designer & Founder, Webb Weavers Consulting
+- **Peter A. Jensen**, CEO, SAFE AI Forever Inc., Inventor of first mobile app in history (for Ericsson 1999)
+- **Dr. Mischa Woods**, Scientist, ENS de Lyon
+- **Luis Moniz Pereira**, Professor Emeritus, Universidade Nova de Lisboa, Academia Europaea, EurAI, AAIA, honoris causa TU Dresden, Founding president of Portuguese AI association (APPIA)
+- **Edward Raymond**, Retired, British Computer Society, Life Time Member, BPhil
+- **Alex Theobald**, Director of Clinical Excellence, Therapist
+- **Julius Sauer**, University Student, Technische Universität München (TUM)
+- **Carl Westin**, Assistant Professor in Human Factors, Linköping University, department of Science and Technology
+- **George Franklin Smith Jr.**, Poet, Song Lyricist
+- **Sandra Bradley**, Director, University of Wisconsin
+- **Ryan Hanley**, CEO, Equilibrium Energy
+- **Jason Chatfield**, Cartoonist, The New Yorker, Former President, National Cartoonists Society
+- **Jason Smylie**, President and Owner, Capriotti's Sandwich Shop
+- **Esli Osmanlliu**, Clinician
+- **George Michael Benjamin Berger**, Retired scientist, Nil. Retired, Emeritus member of the Academy of Science of South Africa
+- **Hans Nijssen**, Acoustic Consultant, Into Acoustics
+- **Kirill A. Potemkin**, Researcher, Politecnico di Milano
+- **Victor Shine**, Chief Information Officer, Yona Love Consulting Services, Inc.
+- **Subodh Patil**, Assitant Professor, Leiden University
+- **Mehtab Dhillon**, Animator
+- **Elias Leon Penz**, Student (Computer Science, Geographics, Teaching), University Innsbruck
+- **Kent Hansson**, Software developer
+- **Fiona Howe**, Musician
+- **Saurav Dahal**, Chief Technical Officer, Kathmandu Computing Company Pvt. Ltd., Founder of Kathmandu Computing Company
+- **Eva Thelisson**, Co-Founder & Board Member, AI Transparency Institute, Fellow of the Royal Society of Arts
+- **Rubi Hudson**, PhD Student, University of Toronto
+- **Aisep Woodruff**, Early Childhood Educator
+- **Gonzalo Botas**, Lawyer
+- **Abel Jain**, Student, UCR, Academic Railgun
+- **Shane Coburn**, Writer
+- **Darcy James Stuart-Russell**, Computer Technician
+- **Paweł Strzelecki**, Deputy Director of the Institute of Statistics and Demography, SGH Warsaw School of Economics
+- **Joshua Steel**, Corporate Communications Coordinator, Australian Maritime Safety Authority
+- **Margaret Murphy**, Retired Executive Assistant
+- **Kritatee Bulsook**, Director of Digital and AI, PwC
+- **Artūrs Umbraško**, Student, University of Economics and Culture (EKA)
+- **David E Reid**, Architect
+- **Nathan Ozelim**, Senior Software Engineer
+- **Reza Samavi**, Associate Professor, Toronto Metropolitan University
+- **Tom Franse**, AI expert and digital literacy advisor, TMI
+- **Adam Radivojevic**, Software Engineer
+- **Chris Branch**, Retired Staff Software Engineer, Rochester Institute of Technology, MS, HCI
+- **Scott Mulligan**, Former AI reporter, MIT Technology Review
+- **Trinidad Borrell**, PhD student, Paris Brain Institute
+- **Maria S. Eitel**, Founder, Plan A
+- **Mehdi Benboubakeur**, Co-Founder and Executive Director, Printemps numérique, Officer of the Order of the Crown of Belgium
+- **Amrit Khati Chhetri**, Content creator/ AI influencer
+- **Adam Pochobut**, Computer Science Student
+- **José Antonio Torres**, Chief Scentist Officer, Altoro Analytics
+- **Wayne Campbell**, Analyst, State of California
+- **Tom Yao**, Doctor, Pamela Youde Nethersole Eastern Hospital, Practising Physician
+- **Andrés Holgado-Sánchez**, PhD student on Value-Aware AI, University Rey Juan Carlos
+- **Armando di Matteo**, Researcher, Istituto Nazionale di Fisica Nucleare
+- **Olle Hägg**, Spine surgeon, PhD, Spine Center Göteborg, Gothenburg University
+- **Ori Freiman**, Post-Doctoral Fellow, Digital Society Lab, McMaster University
+- **Sudha Upadhyayula**, Chief Operating Officer
+- **Clara Ruiz Garrido**, Lawyer
+- **Julia Pagel**, Secretary General, NEMO – The Network of European Museum Organisations
+- **Nel-Marinel Hernandez**, Social Worker, University of Texas Austin, Masters of Social Worker in Administration and Policy Practice
+- **Alessandra Mazzenga**, Avvocato
+- **Leo Ånestrand**, Engineering student, Chalmers University of Technology
+- **John Brown**, Information Technology Director, Eastern Shoshone Tribal Government
+- **N Hyatt Williams**, Technology Writer, Freelance
+- **Anna Lo Jacomo**, Senior Hydroinformatics Developer / Researcher
+- **Robbe Claeys**, R & D, PointCaré
+- **Dr James. M. D'Amico**, Clinical scientist, Synthes Fellow Award
+- **Chris Leong**, Co-founder, AI Safety Australia and New Zealand
+- **Jasmine Webb**, Software Engineer
+- **Jaclyn Ho**, Software Developer
+- **Diego Giacomelli**, Developer, GeneticSharp
+- **Thomas D. Jones, MD**, Pediatrician, Retired
+- **Jan-Erik Vinje**, Co-President, Open AR Cloud Association, co-founder of the Open AR Cloud Association and co-author of the Privacy Manifesto for AR Cloud Solutions
+- **Valentin Muro**, CTO, Cenital
+- **Kayleigh Excell**, Physics PhD Student, University of Wisconsin-Madison
+- **Garrick Small**, Academic, CQUniversity
+- **Natalia Piórecka**, Student, UvA
+- **Abby Cunningham**, Founder & Creative Director, Abbywords LLC
+- **Dr SJ Beard**, Research Afilliate, Centre for the Study of Existential Risk, University of Cambridge
+- **Moi Marquez**, Global Change Ambassador, Legacy Project Global
+- **Thomas Reinhardt**, Professor of Social and Cultural Anthropology, LMU Munich
+- **Silvia Monticelli**, Group Leader, Institute for Research in Biomedicine
+- **Anna Faelens**, Academic, IT University of Copenhagen
+- **Jodi Rowlands**, Hairstylist
+- **Michael Seely**, Professional Civil Engineer
+- **Richard.C Jonely**, Retired USMC Lt. Col.
+- **Tony Carden**, Adjunct Researcher, University of the Sunshine Coast
+- **Alison Windram**, Housewife, The Windram Household, Cofounder of the Windram Family. CEO & CFO. Mother of the Year Award 2003-2025.
+- **Dotty Martin**, Teacher, Retired
+- **Ruraj Joshi**, Engineer
+- **David Bondzio**, Network Manager
+- **Rodrigo Emilio Córdova Choque**, Student, Sorbonne Université, Durham University
+- **Finn Talen**, AI Digitalization Work Instructions & Communication
+- **Michael Xu**, Student
+- **YOUSSEF Youssef**, President, The Chartered Institute of Marketing Management of Ontario, Chair and President
+- **Ian Kermack**, Principle
+- **Derek Bentivegna**, Singer/Songwriter/Artist
+- **Tanya de Villiers-Botha**, Senior Lecturer: Philosophy; Head: Unit for the Ethics of Technology, Centre for Applied Ethics, Stellenbosch University
+- **Todd Mason**, Self employed, Beach House
+- **Mark Woods**, Director, STATIUS MANAGEMENT SERVICES LTD, BSc (Hons), MPhil, MBA, CEng
+- **Martin Willers**, Co-founder & CEO, Transparent
+- **Christopher Romei**, Bookkeeper, Human, Veteran
+- **Andrew N Durst**, Videographer, Extreme Motus
+- **Manuel Pedro Rodrigues Soares**, Software Architect
+- **Augusto Limas Pereira**, Senior Mechanical Engineer and Systems Analyst
+- **Nancy Brocker**, Clinical Research Associate
+- **Frederico Gama-Carvalho**, Senior Researcher, Center for Nuclear Sciences and Technologies (CTN) IST-Lisbon Uiversity, CEO Portuguese Organization of Scientific Workers (OTC), Vice-President Executive Council, World Federation of Scientific Workers
+- **Steven M. Ryan**, IT Analyst
+- **Carrie L. Lofty**, Writer
+- **Marek Heinemann**, CEO, jazzberry projects GmbH
+- **Misael Castro Rosas**, IT Program Manager
+- **Siddhi Pitale**, Data Scientist
+- **William Rodriguez**, Software Engineer, Lockheed Martin
+- **Karin Swipe**, AI, Consulting
+- **Xi Ken Soh**, Pharmacist
+- **Brien Hawker**, Data Center Technician, Atlantic.net, USPA Class A
+- **César del Pino**, Directorate of Certification & Public Procurement of Innovation, CDTI
+- **Lindsey F. Meyerhoff**, Insurance Agent
+- **Isidora Vlajković**, Student, University of Belgrade, Faculty of Mathematics
+- **Roberto Manzano Valladares**, Thought Leader, Chair, Non-Executive Independent Director, Ex-CEO, and Ex-C-Suite Executive
+- **Lyantoniette Chua**, Cofounder, AI Safety Asia
+- **Thomas Black**, Head Coach / UGA Women's Volleyball, UGA
+- **Michael Sherman**, AI Safety for Customer Success, insightsoftware
+- **Tsvetana Ivanova**, Transdisciplinary Researcher / Lecturer, UAL, Dr
+- **Pedro Rabelo de Araujo Morais**, Student
+- **Köksal Berkay Denktaş**, Computer Engineering Student, Politecnico di Torino
+- **Byron Lynn Peebles**, Education Reformist, Founder Shasta Charter Academy
+- **Alexander Aysin**, Student, Moscow Government Institute of International Relations
+- **Veeti Kaasinen**, Computer Developer
+- **Peter Fox**, Entrepreneur, Brabant Lodge LTD
+- **Joost Meijer**, Senior Software Engineer
+- **Antonio Hajden**, Game Developer
+- **Godfrey Julan Dack**, Retired Head of Physics, Hull College
+- **Bradley James Petkus**, Co-Founder and CEO
+- **Florian Millo**, Scientist - Physics, Sorbonne University
+- **Renzo Carbonell**, IT Service Desk Analyst, Expedia
+- **Gregory Tchepelev**, Member of Technical Staff, Polytechnic University Haut de France (UPHF)
+- **Liv Boeree**, Science Communicator, Founder, Win-Win World
+- **Jordi Espadaler-Mazo**, Director of Innovation, AB-Biotics SA
+- **Mathias Løland Velle**, Teacher
+- **George Lin**, Managing Partner, GML & Associates, LLC
+- **Caleb Motupalli**, CEO, Agape Kingdom
+- **Nathan Marshburn**, Attorney
+- **Corbin Ainsworth**, Full Stack Developer, Innovative Health Solutions
+- **Hazar Altınbaş**, Department Head, Fenerbahçe University
+- **Tim Huegerich**, Economist
+- **Zoé Roy-Stang**, Student, Carleton University
+- **Ronald Fitzherbert**, Founder, Managing Partner, Chief Creative, Blue Gothic Design Studios, LLC
+- **Peter Bowden**, AI Educator, Meaning Spark AI, Award Winning STEM Children's Television Producer
+- **Thierry Leclipteux**, Scientist / CEO
+- **Augusto Dunham**, Analyst, EMBRAPA
+- **James Poulter**, Founder and CEO, The Reformaition Institute
+- **Henry Castillo**, PhD Student, Texas A&M University
+- **Gleb Tsipursky, PhD**, CEO, Disaster Avoidance Experts, Founder of the Pro-Truth Pledge
+- **Xavier Bell**, Computer Science Major, Michigan State University
+- **Clayton Kennedy**, Musician / Performer, Union des Artistes
+- **Denisa Millo**, AI Researcher and Lecturer, State University of Tirana, Member, IASEAI
+- **Christopher Spadaro**, Senior Software Analyst, Retired
+- **Katherine Jones**, Court Reporter/Stenographer
+- **Andre Deschwanden**, Teacher, Primarschule Menzingen
+- **Oscar Delaney**, Associate Researcher, Institute for AI Policy and Strategy
+- **Silvia Santano**, AI Alignment Engineer
+- **Damir Odobasic**, Head of Music, Digital Integration, ICT
+- **Tom Davidson**, Senior Research Scientist, Forethought
+- **Matthew J. Pallett**, Writer
+- **Benjamin Dietrich**, Software Architect
+- **Ryan Johnson**, Human Rights Worker
+- **Pierre Fernandez**, Research Scientist
+- **David Tomás**, Professor, University of Alicante
+- **Juan B. García Martínez**, Research Manager, Alliance to Feed the Earth in Disasters
+- **Marijn Hammers**, Software Engineer
+- **Yoshihito Kondoh**, CEO, XVI Inc
+- **ShahrYar Mahmoud Sharei**, Executive Director, Center for United Nations Constitutional Research
+- **Timothy Sixberry**, Computer Science Engineer
+- **Christian Umstattd**, Real Estate
+- **Timothy Wilke**, Corporate EHS Manager, AJ Hollander Enterprises
+- **Hadrien Gautrot**, Lecturer, Sciences Po, Cofounder of Nicéphore AI
+- **François Humbled**, Research Valorization, RMI Geophysical Center
+- **Marco Woesthuis**, CEO, Open Health Hub, MD
+- **Muhammad Saad Mateen**, Full Stack Developer
+- **Allen Andrey Aguilar Azofefia**, Data Architect Specialist
+- **Karel van Duijvenboden**, Data scientist, Amsterdam University
+- **Paul Valenta**, Product Manager
+- **Ben Toner**, Co-Founder and Chief Scientist, Affinda Group
+- **Max Salmon**, Campaign Strategist, ControlAI
+- **Tom Katsnelson**, Student, Computer Science
+- **Mohamed Elbendary**, Head of Innovation and Enterprise Architecture, FasTrak SoftWorks, Inc.
+- **Olof Englund**, Chairman, Engab Expertsystem
+- **Sara Hossaini**, Professor
+- **Najmi Salim**, General Manager - IT
+- **Vincent J. Herrmann III**, Pastor
+- **Alexandros Argyropoulos**, University Student, Technical University of Crete
+- **Mia Nakajima**, Data Scientist
+- **David Robert Cariello**, Integration Solution Architect & Entrepreneur
+- **António Pedro Carvalho**, Architect
+- **Kirsten Ann Schulx**, Diplomat (retired)
+- **Sarah Monforton**, Operations clerk/Data entry
+- **Erich Geiersberger**, Owner, Media Connect Multimedia
+- **Nathaniel Kite**, Software Engineer and Researcher, Cisco
+- **David N. Parker**, Engineer
+- **Niclas Thelander**, Founder, Outsized
+- **David Wakeham**, CEO, Torsor Labs
+- **Laura Williams**, Scientist
+- **Patrick Udomphornvirat**, Founder & Managing Director, EcoAero
+- **Yudi Liu**, Full-Stack Developer
+- **Simon Fung**, CTO, Gumption Ventures
+- **Christofer Holmgren Bagge**, CEO
+- **Zekun Wu**, AI Researcher, Holistic AI
+- **Maxime Fournes**, Director, Pause AI France, Ex AI researcher and engineer
+- **Neva Bull**, Senior Lecturer, University of Newcastle
+- **Andrea Puligheddu**, Lawyer, Partner, SLP Law Firm
+- **Rebecca Murtagh**, Human-First Futurist & CEO, Human AI Institute, Inc. & AMA Mark of Excellence
+- **David Mallpress**, Postdoctoral Researcher, Czech University of Life Sciences
+- **Joshua Dudley**, Software Engineer, Apple
+- **Grant Baker**, Analyst, JM Smucker, Co-founder of Young Scholars Pursuing Knowledge
+- **Ika Oking**, Graphic Designer
+- **Manish Kumar Bachhu**, Member of Technical Staff, Nutanix
+- **Alex Alarga**, PauseAI
+- **David Barnett**, Associate Professor of Philosophy, University of Toronto
+- **Mitchell Horn**, Illustrator, reddprime
+- **Peter Dowson**, Co-Founder, Digital Storytellers
+- **Máté Ferenczy**, Software Engineer
+- **Karen Pais**, IT Analyst
+- **Roberto Mariani**, CTO
+- **Abrar Zahin**, Undergraduate Robotics Researcher, University of South Florida, USF Presidential scholar
+- **Luke Finsaas**, Cofounder, Hafi
+- **Suzie Tingley**, Principal Digital Advisor, IT Senior Leadership Team, Department of Corrections
+- **Jorn Pinitganwattagul**, Scholar of SG MOE
+- **Ella Grace Foutz**, Writer, Mental Health Activist, Lerner Publishing Group, Published Author
+- **Erik Haahr**, Chief Adviser, Enterprise Architecture
+- **Victor Vahidi Motti**, President, Alternative Planetary Futures Institute
+- **Cecilie Hellestveit**, Academic/ass. professor, international law and war
+- **Kochurovskiy Vladislav Evgenyevich**, Software Engineer
+- **Kimberly Harris, PhD**, Founder, Quantum Quill Digital, National Merit Scholar
+- **João Miguel Soares da Silva**, Physicist, Bosch
+- **Santiago Bustamante**, Scientist
+- **Ennio Alagia**, Adjunct Professor, Catholic University of Milan
+- **Samartha Vashishtha**, Poet, Technologist
+- **Adam Rathert**, Customer Success Manager, Wireless Technology/Telecommunications, 25 years in tech/telcom
+- **Carlos José Giraldo Jaramillo**, Professor and Researcher in Philosophy of Mind and Cognitive Sciences, Universidad de Antioquia, Founder and Coordinator of the Research Seedbed in Neurocommunication, Audiovisual and Multimedial Studies
+- **Damen Tomassi**, Software Project Lead, Effortless Presence
+- **Sireen Omran**, Plant Biology PhD Candidate, Penn State University
+- **Joseph Cajigal**, Financial Executive Venture Capital, Princeton Capital Management
+- **Paul Medhurst**, Professor of Counter-Intelligence, AMU, Late of the London Met Police, Queen’s Regt. (V), UN (Peacekeeping & Security Services)., Co-holder of Nobel Peace Prize (awarded to UN peacekeeping forces, 1988).
+- **Nicky Dries**, Full Professor of Organizational Behavior, KU Leuven, Head of the Future of Work Lab
+- **Jonas Berge**, MD, PhD, Region Skåne
+- **Alyss Armstrong**, Chief AI Defense Executive
+- **Graham Lau**, Senior Research Investigator, Astrobiologist, Science Communicator, Blue Marble Space Institute of Science
+- **Thorenn Gomes**
+- **Dirk Beyer**, Professor of Computer Science, LMU Munich
+- **Maria Herminia Tavares de Almeida**, Political Scientist
+- **Philip Scheibe**, Data Analyst
+- **Danna Gurari**
+- **Pinaki Laskar**, AI Research Scientist, FishEyeBox AI, Founder, AI for Good
+- **Florian Schlemmer**, M.D./Private Practice Pediatrician
+- **Filip Dvorský**, Electro Engineer
+- **Desta Marbury**, Human being, Follower of Christ
+- **Eric Hovda**, Software Developer
+- **Claudette Marco**, Student, Marco, Inc.
+- **Ronald Vega**, Automation and Integration Developer
+- **Pete Warren**, Editor, Future Intelligence, Award winning investigative journalist
+- **Ann Batts**, Very Concerned Grandmother and Great-Grandmother
+- **Roderick Day**, Geologist
+- **Abdullah Youssef**, Embedded Systems Engineer
+- **Steve Hoffman**, CEO, Hammond Electric Motors, Inc.
+- **Chun-Cheng PENG**, Executive Officer of the AI Smart Application Teaching Center, and Associate Professor, Department of Information and Communication Engineering, Chaoyang University of Technology
+- **Robert Michael Hick**, Founder/Chairman, The Success Resource Center
+- **Jack DeCarolis**, Automation and Robotics Student, Millersville University
+- **Thomas Edison**, Scientist
+- **Ceausescu Claudiu**, IT Analyst
+- **Emily Grundy**, Policy Officer, Good Ancestors
+- **Jack Bialek**, Physics Undergraduate, University of Manitoba
+- **Bashkin Vladislav Vladimirovich**, Java Backend Developer, Software Development Company
+- **Sascha Rheker**, Photographer, DGPh
+- **Sherry McKeon**, Psychotherapist
+- **Everard Jacob Windgassen**, Consultant Psychiatrist (retired)
+- **Stephen Atkin**, Software Engineer
+- **Andreas Jarblad**, PhD Candidate, Department of Peace & Conflict Research, Uppsala University
+- **Annika Svensson**, Head Principal Higher vocational school, Yrkeshögskolan, Umeå kommun
+- **Kevin Browne**, Software Developer
+- **Yamil Amed Abud**, PPC Manager, Tribal Vision., Published Author
+- **Debjani Ganguly**, Director, Harvard Institute for World Literature
+- **Parijat Banerjee**, High School Student
+- **Li Persson**, Associate Professor, Lund University
+- **Steven Kaas**, Content Lead, aisafety.info
+- **Zachary Brenner**, Student, Choate Rosemary Hall
+- **Stefan Hoevenaar**, Writer
+- **Andre Carlos Ponce de Leon Ferreira de Carvalho**, Scientist, University of Sao Paulo
+- **Robert Valsjö**
+- **Ben Cornelius**, Registered Nurse
+- **Balazs Nagy**, Group Head of IT Department
+- **Kazuhiko Shibuya**, Professor, University of the Ryukyus, Japan, Fellow, Artificial Intelligence Center, Alma Mater Europaea University
+- **Frédéric Herbreteau**, Assistant Professor, Bordeaux INP
+- **Darin Herleikson**, Enablement, Grammarly
+- **Romain Deléglise**, Engineer, Pause AI
+- **Yusuf Ahmad Bida**, Jama'atu Nasril Islam (JNI)
+- **Robert S. Gil**, Technical Manager
+- **Francisco Teixeira Oliveira**, Student, FCT UNL
+- **Castaignet Maud**, Veterinary surgeon
+- **Hans P. Ströer**, Music Composer , GEMA Germany, Best Score Roma Fiction Fest 2009, Filmcomposers Honorary Award 2025
+- **Jessica Bianco**, Head of Regulatory Affairs, Calibre Scientific Inc.
+- **Helen Alexander**, Research Fellow and Senior Lecturer, University of Edinburgh
+- **Mike Travis**
+- **Yatima Kagurazaka**, PhD Candidate, The University of Tokyo, AI Scientists workshop organizer in Japan, "The Science of Science" translator
+- **Morgan Hezon**, Developer
+- **Fabian Knäb**, Mechanical Engineer
+- **Maxime Riche**, AI Safety Research Engineer, Center on Long-Term Risk
+- **Mircea Bertea**, President/professor dr., Romanian National Pedagogical Colleges and Highschools Association (ANCLP), Co-founder and President of Romanian National Pedagogical Colleges and Highschools Association (ANCLP) Decorated with the Order of Merit for Education in the rank of Knight by the President of Romania
+- **Alvaro Sanchez**, Physicist and AI Safety Researcher
+- **Arlo Michael**, Student, CCGS
+- **Emmanuel R. Goffi**, Professor of Ethics | Head of the Ethics, Management, Professional and Personal Project Unit, Isep - Ecole d'ingénieurs du numérique (Paris Institute of Digital Technology)
+- **Richard Johnson**, Principal Engineer, Engineering Elements
+- **Meghan Vargason**
+- **Scott Carlin**, Program Manager, Waterspirit
+- **Emmett Balzer**, Math and Science Teacher, Cornerstone Christian School, TWU 2021 Undergraduate Valedictorian
+- **Zachary Lucius Danzig**, Student, Loughborough University
+- **Simon Rowland**, CEO, Renewable Power Partners Inc.
+- **Alain Bezançon**, President, Advantys Solutions Ltd
+- **Andrea Berman**, Grants Manager, Future of Life Institute
+- **Rupert Macey-Dare**, Barrister + Economist + AI & AGI commentator, Minerva Chambers
+- **Edward Barber-Cunnington**
+- **Ekaterina Defier**, Bioeconomist
+- **Shai Zemel**, Veterinarian
+- **Richard Möhn**, Operations associate, Ashgro Inc.
+- **Joseph Pulikkottil**, Investor, University of Minnesota
+- **Adrian Brown**, Chief Executive, Windfall Trust
+- **Kévin Barat**, Full Stack Dev
+- **John Zelek**, Professor, University of Waterloo, Cofounder of Eye for Infrastructure Inc.
+- **Jörg Jacob**, Exhibitor
+- **Leonard Dung**, Philosopher, Ruhr-Universität Bochum
+- **Patrick O'Neill**, ML Engineer, Suno
+- **Ian Dennis**, Retired software company director, FACS, Founding and Emeritus Chairman, Pearcey Foundation
+- **Vicki DaSilva**, Visual Artist
+- **Duane Dyar**, Sales Engineer
+- **Jeff Sutton**, Technical Director, Moxwai
+- **Blake Levy**, Marketer
+- **Yvette Arts**, Vice President, Intelligent Image Management
+- **Thomas Gerlach**
+- **Roland Pihlakas**, Independent AI Alignment Researcher
+- **Natalia Kiecza**, HR Director
+- **Logan W Emerson**, AI & Agentic Systems Advisor, UiPath
+- **Enno de Lange**, Director, Digital Transformation, PhD in computational neuroscience
+- **Ari Rosenthal**, Teaching Fellow, Harvard Graduate School of Education
+- **Mario Winter**, Professor, Cologne Academy of Applied Sciences
+- **Alessandro Boserman**, Physician, Policlinico Umberto I, Roma
+- **Nigel Thatcher**
+- **Brylan Gann**, Managing Partner, Healthcare Consulting
+- **Michael Joseph**, Assistant Director, Center for Climate Action and Sustainability
+- **Aaron McCollough**, Principal Software Engineer
+- **Gina Bodine**, Caregiver
+- **Enzo Alda**, Founder, Lakebolt Research
+- **Simon Holzwarth**, Broadcast Technician
+- **Dominic Maier**, Physics Teacher
+- **Sander Volten**, CEO, Seismic Foundation
+- **Denis Poussart**, Emeritus scientist, Laval University, Fellow of the Canadian Academy of Engineering
+- **Julie Derwinski**, Senior Staff Attorney, Wisconsin Court of Appeals
+- **Jan Setter**, Academic Editor
+- **Jordan Kunz**, Mechanical Enginner
+- **Gloria DeGaetano**, CEO/Founder, Parent Coaching Institute
+- **Pete Farmer**, Physician
+- **Adrian Nahuel Lio**, QA Engineer, Globant
+- **Timothy A Blake**, Entrepreneur

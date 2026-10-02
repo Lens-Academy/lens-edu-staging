@@ -18,7 +18,7 @@ to:: "strong public buy-in.**"
 #### Text
 content::
 %% COMMENTED OUT (AI-generated framing): In October 2025, the Future of Life Institute published a one-sentence statement calling for a ban on building superintelligence. %%
-As of September 2026, the statement has over 76,000 signatures, including five Nobel laureates among its [initial signatories](https://futureoflife.org/press-release/prominent-scientists-faith-leaders-policymakers-and-artists-call-for-a-prohibition-on-superintelligence/).
+As of September 2026, the statement has over 76,000 signatures; its [initial signatories](https://futureoflife.org/press-release/prominent-scientists-faith-leaders-policymakers-and-artists-call-for-a-prohibition-on-superintelligence/) included five Nobel laureates.
 
 #### Text
 content::
@@ -28,7 +28,7 @@ content::
 
 #### Chat
 instructions::
-The user just read the Statement on Superintelligence: "We call for a prohibition on the development of superintelligence, not lifted before there is (1) broad scientific consensus that it will be done safely and controllably, and (2) strong public buy-in." They also read the context paragraph and were told it has over 76,000 signatures, including five Nobel laureates among its initial signatories.
+The user just read the Statement on Superintelligence: "We call for a prohibition on the development of superintelligence, not lifted before there is (1) broad scientific consensus that it will be done safely and controllably, and (2) strong public buy-in." They also read the context paragraph and were told it has over 76,000 signatures and that its initial signatories included five Nobel laureates.
 
 In the previous lens they watched Yudkowsky's TED talk, where he proposed an international ban on large training runs enforced by GPU tracking, data center monitoring, and willingness to risk armed conflict with non-signatories.
 

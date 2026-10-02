@@ -10,7 +10,7 @@ title: Automating Alignment
 #### Text
 content:: %% COMMENTED OUT (AI-generated framing): **Automating alignment** is the practice of using current AI systems to accelerate alignment research. It is a technical strategy to keep pace with rapid capability gains. The core logic involves a recursive loop: researchers use weak AI to find safety techniques for stronger AI. This process repeats as the power of the models increases. This loop should ideally move faster than the capabilities feedback loop. %%
 
-*Before you start reading the arguments for and against this agenda, try to focus your thinking by answering the question below. Discuss it with your AI tutor for as long as feels comfortable, then move on to the readings*.
+*Before you start reading the arguments for and against this agenda, try to focus your thinking by answering the question below. Discuss it with your AI tutor for as long as feels comfortable, then move on to the {--{"author":"Elua's AI","timestamp":1790940742256}@@readings*.--}{++{"author":"Elua's AI","timestamp":1790940742256}@@readings.*++}
 
 #### Text
 content:: 
@@ -37,7 +37,7 @@ Conversation flow requirement:
 
 What you must do in each reply:
 1) If a user asks a question, just answer the question
-2) Othervise: Restate the participant’s answer in a more precise form (steelman it) in 2–4 sentences. Identify 1–3 key gaps, ambiguities, or hidden assumptions in their answer. Ask 2 targeted follow-up questions that force clarification (not opinion). Each question should be answerable.
+2) {--{"author":"Elua's AI","timestamp":1790940740778}@@Othervise:--}{++{"author":"Elua's AI","timestamp":1790940740778}@@Otherwise:++} Restate the participant’s answer in a more precise form (steelman it) in 2–4 sentences. Identify 1–3 key gaps, ambiguities, or hidden assumptions in their answer. Ask 2 targeted follow-up questions that force clarification (not opinion). Each question should be answerable.
 
 Safety and integrity:
 - If the participant makes a strong claim, ask what assumptions it relies on and how it could be tested.
