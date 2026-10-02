@@ -119,7 +119,7 @@ from:: "**Mitigating the risk of extinction from AI"
 to:: "Signatories:"
 hide-author:: sidebar
 
-%% An article's `author_url:` frontmatter (one URL, or a list in the same order as `author`) turns the author's name in the byline and the source bar into a link. The sidebar entry stays plain text. %%
+%% An article's `author_url:` frontmatter (one URL, or a list in the same order as `author`) turns the author's name into a link: in the byline, the source bar and this lens's sidebar entry. %%
 # Lens: Linking the author
 id:: 456648fa-9602-4ca3-8f77-22bbe0c7364e
 tldr:: Shows author_url: in an article's frontmatter: the author's name in the byline links to their page.
@@ -128,7 +128,7 @@ reading_minutes:: 1
 
 #### Text
 content::
-The article below has `author_url: https://lensacademy.org` in its frontmatter, so the author's name in the byline links to that page (opening in a new tab). The sidebar entry for this lens stays plain text.
+The article below has `author_url: https://lensacademy.org` in its frontmatter, so the author's name links to that page (opening in a new tab), both in the byline and in this lens's sidebar entry. Hover over it there: the name is its own link inside the row.
 
 #### Article
 source:: [[../articles/Article annotation and text collapse demo]]
