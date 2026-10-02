@@ -15,9 +15,9 @@ tags: [wip]
 
 # Module: [[../modules/ET FG W2 - Selecting a High-Impact Problem|Week 2: Selecting a High-Impact Problem]]
 
-# Module: [[../modules/ET FG W3 - Prioritising Research Questions|Week 3: Prioritising Research Questions]]
+# Module: [[../modules/ET FG W3 - Prioritising Research Questions|Week 3: Generating & Prioritising Research Questions]]
 
-# Module: [[../modules/ET FG W4 - Stakeholder Outreach and Interviews|Week 4: Stakeholder Outreach and Interviews]]
+# Module: [[../modules/ET FG W4 - Stakeholder Outreach and Interviews|Week 4: Stakeholder Mapping and Outreach]]
 
 # Module: [[../modules/ET FG W5 - Developing your Theory of Change|Week 5: Developing your Theory of Change]]
 
