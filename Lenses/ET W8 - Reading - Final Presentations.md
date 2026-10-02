@@ -39,7 +39,7 @@ It’s also easy to look at everything that remains to be done and forget how mu
 
 This week's Journalling Tab has space to reflect properly on what you've learned about yourself and about the world through this process, we'd genuinely encourage you to use it, rather than rushing straight past it into the next thing.
 
-\## Key Takeaways from the Accelerator
+\### 🔑 Key Takeaways from the Accelerator ^takeaways
 
 1. **Your thesis is an experiment for your impactful path** (Week 1). Your thesis is a low-risk, high-information experiment for learning what kind of impact you actually want to have and the life and Ikigai you want to live! You can approach it with curiosity and playfulness, not pressure to get it perfect.
 2. **The three dimensions of an impactful thesis** (Week 1). A thesis can be high-impact through what it does for the world, for you, or for your community, and the best ones usually touch all three!
