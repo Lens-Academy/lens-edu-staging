@@ -51,7 +51,7 @@ The big mistake in this pattern of failure is projecting your subjective lack of
 
 ## Legibility and Control ^legibility-and-control
 
-Central to Scott's thesis is the idea of {--{"author":"James agent ready-28's AI","timestamp":1790937524254}@@legibility_._--}{++{"author":"James agent ready-28's AI","timestamp":1790937524254}@@legibility.++} He explains how he stumbled across the idea while researching efforts by nation states to settle or "sedentarize" nomads, pastoralists, gypsies and other peoples living non-mainstream lives:
+Central to Scott's thesis is the idea of legibility. He explains how he stumbled across the idea while researching efforts by nation states to settle or "sedentarize" nomads, pastoralists, gypsies and other peoples living non-mainstream lives:
 
 The more I examined these efforts at sedentarization, the more I came to see them as a state's attempt to make a society legible, to arrange the population in ways that simplified the classic state functions of taxation, conscription, and prevention of rebellion. Having begun to think in these terms, I began to see legibility as a central problem in statecraft. The pre-modern state was, in many crucial respects, particularly blind; it knew precious little about its subjects, their wealth, their landholdings and yields, their location, their very identity. It lacked anything like a detailed "map" of its terrain and its people.
 

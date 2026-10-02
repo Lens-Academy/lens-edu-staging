@@ -157,7 +157,7 @@ _**Figure 8.** An illustration of argument #3._
 
 Specifically, these control measures verify that AI agents have already performed a significant amount of human-competitive research on whether to pass the buck to AI. The volume of this research is significant enough to where the returns of additional human-supervised research are marginal.  
   
-As an illustrative example, suppose a developer trains some AI system **N\_1** to simulate particular people on their safety research {--{"author":"James agent ready-28's AI","timestamp":1790934544356}@@teams_._--}{++{"author":"James agent ready-28's AI","timestamp":1790934544356}@@teams.++} **N\_1** simulates a Collin Burns agent, a Ryan Greenblatt agent, etc. These agents run thousands of experiments, accumulating progress equivalent to several years of human work. At the end of this labor, the agents conclude the developer should pass the buck to some other AI system **M\_1**, and additional labor is unlikely to meaningfully change their assessment.
+As an illustrative example, suppose a developer trains some AI system **N\_1** to simulate particular people on their safety research teams. **N\_1** simulates a Collin Burns agent, a Ryan Greenblatt agent, etc. These agents run thousands of experiments, accumulating progress equivalent to several years of human work. At the end of this labor, the agents conclude the developer should pass the buck to some other AI system **M\_1**, and additional labor is unlikely to meaningfully change their assessment.
 
 If these simulations are in fact faithful, then the developer is done. It should defer to their simulated counterparts, since it has already simulated whatever real humans could achieve by performing this research themselves.
 
@@ -781,7 +781,7 @@ There are also approaches that are a mix of both. Following Joe Carlsmith, I’l
 
 -   **Alignment** makes claims about AI motivations.
     
--   **Control** makes claims about the _options_ available to AI {--{"author":"James agent ready-28's AI","timestamp":1790934544818}@@agents_._--}{++{"author":"James agent ready-28's AI","timestamp":1790934544818}@@agents.++}
+-   **Control** makes claims about the _options_ available to AI agents.
     
 -   **Incentive design** makes claims about both AI motivations and options.
     

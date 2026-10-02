@@ -42,7 +42,7 @@ The AI companies will push AIs to become more and more skilled, more and more ab
 
 And that will naturally push the AIs to become more and more driven — an effect that, recall, we're already starting to see in AIs such as OpenAI's o1.
 
-Recall the capture-the-flag computer security incident from the chapter, and remember that this resulted not from an AI trained to be a hacker, but from an AI trained to be good at solving generic puzzles. The "driven" behavior comes {--{"author":"James agent ready-28's AI","timestamp":1790937510679}@@automatically*.*--}{++{"author":"James agent ready-28's AI","timestamp":1790937510679}@@automatically.++}
+Recall the capture-the-flag computer security incident from the chapter, and remember that this resulted not from an AI trained to be a hacker, but from an AI trained to be good at solving generic puzzles. The "driven" behavior comes automatically.
 
 See also the discussion of "pure predictors" in the [Chapter 1 online resources](https://ifanyonebuildsit.com/1/more-on-intelligence-as-prediction-and-steering#impure-predictors).
 
@@ -56,7 +56,7 @@ The *specific way* humans desire things was perhaps a fluke. Machines that dogge
 
 For all that humans are pretty goal-oriented creatures, some individual humans lack this sort of tenacity and will laze around or give up at the first sign of adversity. But on a large scale, *humanity's* ability to solve big science and engineering problems is driven by tenacious individuals and institutions. We're quite skeptical that a mind could yield anything like humanity's macro-level output (and ability to dramatically reshape the world) without having some tenacity within it.
 
-Human wants were evolutionarily useful, even when those wants weren't *for* evolutionary fitness. Hypothetically, evolution could have instilled within us a single, overriding drive for descendants, and we could have then pursued hot meals and sharper axes *solely for the purpose* of having more descendants. But instead, evolution instilled us with a *separate* desire for hot {--{"author":"James agent ready-28's AI","timestamp":1790937511157}@@meals*.*--}{++{"author":"James agent ready-28's AI","timestamp":1790937511157}@@meals.++}
+Human wants were evolutionarily useful, even when those wants weren't *for* evolutionary fitness. Hypothetically, evolution could have instilled within us a single, overriding drive for descendants, and we could have then pursued hot meals and sharper axes *solely for the purpose* of having more descendants. But instead, evolution instilled us with a *separate* desire for hot meals.
 
 Having drives and purposes is useful. It's so useful that it can be helpful for a task (like "genetic fitness") even when the desire does not exactly match the task.
 
