@@ -13,6 +13,8 @@ One common way of understanding the impact of a thesis is about the research tha
 
 \#### Failure Mode #1. Poor Problem Selection
 
+![Failure mode 1: research targets an unimportant problem, so there is no real-world impact](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w1-failure-mode-1-wrong-problem-00779fee.webp)
+
 **Description:** You target a problem that is not important, neglected, or tractable, such that solving the problem doesn’t actually lead to any improvement in the real world.
 
 **Questions to Consider:**
