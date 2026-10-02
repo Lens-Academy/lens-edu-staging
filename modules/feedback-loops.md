@@ -1,7 +1,7 @@
 ---
 id: 393739ba-02de-4fe2-8aa0-32dd43a8b9de
 slug: feedback-loops
-title: Feedback Loops
+title: Feedback Loops and Recursive Self-Improvement
 discussion:
 ---
 
