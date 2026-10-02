@@ -65,6 +65,7 @@ Contact these people and look for things they might need help with. Let them kno
 
 What I’ve personally found the most effective is reaching out to people with specific offers and/or questions you need answered in order to make those offers[^note-3]. Address problems you’ve noticed that should be addressed. If you have a track record of being a reliable and sensible person (and preferably can provide some evidence to support this), _and_ you offer your time for free, _and_ the people you’re offering to help actually want to get things done, they’re unlikely to refuse[^note-4].
 
+:::hide
 (Will happily share more about my story and what I’m doing currently; don’t hesitate to ask detailed questions/tips/advice.)[^note-5]
 
 _This work was supported by the_ [_**EA Hotel**_](https://www.ceealar.org/)_**, which offers free or low-cost food and accommodation to people working to improve the world**, which happens to be an excellent place_ [_to visit_](https://www.ceealar.org/apply/apply) _if you’d like to extend your runway and be surrounded by great people who are mostly working towards AI safety. They do have applications for free, or you can pay to be there very affordably._
@@ -72,6 +73,7 @@ _This work was supported by the_ [_**EA Hotel**_](https://www.ceealar.org/)_**, 
 _Relatedly, the_ [_**EA Hotel is in urgent need of funding**_](https://forum.effectivealtruism.org/posts/SAkR4zbBAi4R5RdwQ/ceealar-ea-hotel-needs-a-new-roof) _despite being extremely cost effective and having incubated multiple organizations in AI safety. Consider_ [_donating_](https://www.ceealar.org/donate)_, they are blocked on basic maintenance for lack of funds and will run out of money in a few months by default._
 
 _Crossposted to_ [_EA Forum_](https://forum.effectivealtruism.org/posts/NfDbPsFmaXqajQP4J/stop-applying-and-get-to-work)_._
+:::
 
 [^note-1]: If [nobody seems to be on the ball](https://www.lesswrong.com/posts/Zp6wG5eQFLGWwcG6j/focus-on-the-places-where-you-feel-shocked-everyone-s), consider starting your own project.
 [^note-2]: Here it’s quite helpful to focus on what you do best, where you might have an unfair advantage, etc.
