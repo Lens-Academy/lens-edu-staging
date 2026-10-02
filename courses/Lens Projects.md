@@ -39,7 +39,6 @@ Readings:
 # Module: [[../modules/Lens Projects U1 Plan]]
 
 # Meeting: Unit 1: Plan
-meeting-doc:: [[../meetings/Lens Projects/Meeting 1]]
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 %% Shape: getting to know each other; two-minute canvas pitches; the group challenges the audience and the predicted change; participants who prepared pair with those starting fresh. Close with a heads-up that intake answers on hours, track and team will be used to pair review partners. %%
@@ -57,7 +56,6 @@ Readings:
 # Module: [[../modules/Lens Projects U2 Start acting]]
 
 # Meeting: Unit 2: Start acting
-meeting-doc:: [[../meetings/Lens Projects/Meeting 2]]
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 %% Shape: each person shows their rough first version, not an update about it, and says in one sentence what testing their assumption taught them; the group asks "who acts on this?" and "what would make you switch?"; the navigator pairs review partners. %%
