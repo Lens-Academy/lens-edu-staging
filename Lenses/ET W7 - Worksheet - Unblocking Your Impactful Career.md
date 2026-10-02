@@ -19,9 +19,18 @@ By the end of this worksheet, you should have named your top Head, Heart, and Ha
 
 ::card[[../Lenses/ET Additional - Using AI Tools Well|Using AI Tools Well]]{allow-external}
 
+:::callout {title="🗺️ What's in this worksheet (click a step to jump to it)" tone="neutral"}
+
+1. [[#^part-1|**Part 1: What Is My Top Uncertainty or Blocker?**]]: rate your Head, Heart and Hand uncertainties and write down what's really going on
+2. [[#^part-2|**Part 2: Take Next Steps on Your Blockers**]]: choose 1-3 blockers and a small, concrete next step for each
+3. [[#^part-3|**Part 3. Continue Stakeholder Outreach**]]: keep updating your Stakeholder Outreach Tracker
+4. [[#^part-4|**Part 4. Prepare for Week 8 Presentations**]]: get your final presentation ready using the template
+
+:::
+
 ---
 
-\# Part 1: What Is My Top Uncertainty or Blocker?
+\# Part 1: What Is My Top Uncertainty or Blocker? ^part-1
 
 **When you think about your career right now, where do you feel most stuck or uncertain - Head, Heart, or Hand? Take a moment to look back at the readings above if you're not sure which dimension fits.**
 
@@ -97,7 +106,7 @@ optional:: true
 content::
 ---
 
-\# Part 2: Take Next Steps on Your Blockers
+\# Part 2: Take Next Steps on Your Blockers ^part-2
 
 For each of your top uncertainties, ask yourself: What could I do through my thesis or in the next 2 weeks, that would give me useful information about this uncertainty?
 
