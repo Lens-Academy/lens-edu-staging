@@ -63,16 +63,8 @@ content::
 
 *You can aim to summarise your drafted ToC from Week 5 into the paragraph below. Don’t worry about it being perfect - this is a working draft, and uncertainty is expected at this stage. The goal is simply to make your current thinking explicit so it can evolve as you get feedback, do outreach, and refine your thesis over time.*
 
-#### Question: FillBlank
-id:: 62241c1b-f80c-4971-9714-757bbf5cd863
-content::
-Through this thesis, I aim to address the {{blank}} \[problem area\] which is bottlenecked by {{blank}} \[problem bottlenecks\].
-
-I will produce {{blank}} \[Research Output: e.g., a policy brief / dataset / report / prototype\] that is intended for {{blank}} \[specific stakeholder\].
-
-This output will enable {{blank}} \[stakeholder\] to {{blank}} \[Short-Term Outcome: a specific decision, action, or behaviour change\].
-
-Over the longer term, this is expected to contribute to {{blank}} \[Long-Term Outcome: sustained change in decisions, practices, or policies\] among {{blank}} \[who\]. Ultimately, this work aims to contribute to {{blank}} \[Ultimate Impact: your vision of a better world\].
+#### Widget
+source:: [[../widgets/et-w6-toc-statement]]
 
 #### Text
 content::

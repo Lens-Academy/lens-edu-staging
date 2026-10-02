@@ -67,37 +67,66 @@ optional:: true
 
 #### Text
 content::
+\## Expand on your uncertainties
+
 Now write down what's genuinely uncertain for you in each dimension. Open whichever feel most relevant, starting with your highest-rated one!
 
-#### Callout: 🧠 Head: uncertainties about the problem, the field, and what's actually needed (click to open)
+#### Callout: 🧠 Head uncertainties (click to open)
 tone:: blue
 collapse:: closed
 
+#### Text
+content::
+📖 *Need a refresher? Look back at the **🧠 Head** section of this week's reading:*
+
+::card[[../Lenses/ET W7 - Reading 1b - What Is My Actual Blocker|2. What is my actual blocker?]]
+
 #### Question: Open
 id:: 005aa5a9-f687-49bc-825b-11a5466f9f7b
-content:: These can be resolved through research and analysis, i.e. I’m not sure this field needs…
+content::
+**What are your Head-related uncertainties?**
+
+These can often be resolved through more thinking, research and analysis, i.e. uncertainties about the problem, the field, or what is actually needed. *For example: "I’m not sure this field actually needs more researchers..."*
 optional:: true
 
 #### End Callout
 
-#### Callout: ❤️ Heart: uncertainties about who you want to be and how you want to live (click to open)
+#### Callout: ❤️ Heart uncertainties (click to open)
 tone:: red
 collapse:: closed
 
+#### Text
+content::
+📖 *Need a refresher? Look back at the **❤️ Heart** section of this week's reading:*
+
+::card[[../Lenses/ET W7 - Reading 1b - What Is My Actual Blocker|2. What is my actual blocker?]]
+
 #### Question: Open
 id:: 3e8ad01c-b3dc-4eda-9fe2-359b64daf131
-content:: These can only be resolved through honest self-reflection, i.e. I’m not sure if I enjoy…
+content::
+**What are your Heart-related uncertainties?**
+
+These can often only be resolved through honest self-reflection, i.e. uncertainties about who you want to be, how you want to live, what energises you, and any limiting beliefs or "shoulds" quietly shaping your choices. *For example: "I’m not sure if I enjoy research day-to-day, or just the idea of it..."*
 optional:: true
 
 #### End Callout
 
-#### Callout: 🤝 Hand: uncertainties that can only be resolved through doing (click to open)
+#### Callout: 🤝 Hand uncertainties (click to open)
 tone:: green
 collapse:: closed
 
+#### Text
+content::
+📖 *Need a refresher? Look back at the **🤝 Hand** section of this week's reading:*
+
+::card[[../Lenses/ET W7 - Reading 1b - What Is My Actual Blocker|2. What is my actual blocker?]]
+
 #### Question: Open
 id:: 2ad660ab-ae21-4568-9642-516e7a838e10
-content:: What haven't you tested or tried yet? i.e. I haven’t done or spoken to xyz
+content::
+**What are your Hand-related uncertainties?**
+
+These can often only be resolved through doing, i.e. things you haven't yet tested in reality: people you haven't spoken to, work you haven’t tried, or signals you haven't generated yet. *For example: "I haven't spoken to anyone working in this field yet..."*
 optional:: true
 
 #### End Callout
