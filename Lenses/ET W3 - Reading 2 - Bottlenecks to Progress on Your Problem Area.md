@@ -103,7 +103,7 @@ This mapping exercise isn't the end goal and you don’t have to create a perfec
 
 ---
 
-\## Step 2: Generating a Wide Set of Candidate Questions
+\## Step 2: Generating a Wide Set of Candidate Questions ^step-2
 
 **Why generate many ideas before narrowing.** It's tempting to run with the first plausible research question that comes to mind, but this is a well-documented failure mode in decision-making generally. Paul Nutt's 2008 study of business decisions found that 52% of decisions made between just two options ("either/or" choices) failed, compared to only 32% of decisions made with three or more options on the table.
 
@@ -143,7 +143,7 @@ Some organisations and researchers have already spent real time identifying the 
 
 ---
 
-\## Step 3: Iterative Narrowing
+\## Step 3: Iterative Narrowing ^step-3
 
 Once you have a wide list, the next challenge is narrowing it without spending equal time on every idea, most of your candidate questions will turn out not to be the one you pursue, and it would be a poor use of your limited time to research all of them in equal depth before you know that.
 
@@ -153,7 +153,7 @@ Once you have a wide list, the next challenge is narrowing it without spending e
 
 ---
 
-\## Step 4: Choosing Your Top Question(s) with a Weighted Factor Model
+\## Step 4: Choosing Your Top Question(s) with a Weighted Factor Model ^step-4
 
 \### What is a weighted factor model (WFM)?
 
