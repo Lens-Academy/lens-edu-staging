@@ -11,13 +11,18 @@ content::
 
 \### Week 6 Focus
 
-The focus of Week 6 is to help participants translate their Theory of Change into a concrete, high-impact thesis project. Building on Week 5, where you clarified the long-term change you want to contribute to, the bottlenecks slowing progress, and the stakeholders who need to act differently, this week is about working backwards to design a thesis that is focused, feasible, and genuinely useful. Participants will learn how to define tangible thesis outputs, formulate actionable research questions, and iterate on their ideas with stakeholder feedback. The goal is practice and mindset-building, not perfection. By the end of the week, participants should feel confident turning their Theory of Change into a concrete thesis plan that aligns with real-world impact.
+Week 6 helps participants translate their Theory of Change into a concrete, high-impact thesis project. Building on Week 5, this week is about working backwards: start from what real stakeholders said they need, define one tangible output that would move the ToC forward, then formulate a research question strong enough to produce it.
+
+The goal is practice and mindset-building, not perfection. By the end of the week, participants should have a specific output in mind and a research question clearly linked to it, both held as a working hypothesis they'll keep iterating with stakeholders.
+
+*The core shift: instead of picking a topic and hoping something useful falls out the other end, start from the change you want to see and the people you want to reach, and only then ask what research would get you there.*
 
 \#### Key Ideas from Week 6
 
 - **Reverse engineer your thesis from your ToC:** Start with the outcomes and outputs that matter most, and design your thesis to produce something actionable that nudges the system toward your long-term vision. Your research doesn’t have to solve the whole problem - it just needs to create outputs that stakeholders can use to make change happen.
-- **Define tangible outputs:** Focus on what your thesis will actually produce - policy briefs, datasets, research papers, workshops, or other deliverables - and ensure these outputs are directly linked to the stakeholders who can act on them. Outputs are the bridge between your research and real-world impact.
+- **Define tangible outputs:** Focus on what your thesis will actually produce - policy briefs, datasets, research papers, workshops, or other deliverables - and ensure these outputs are directly linked to the stakeholders who can act on them. The best output sits at the intersection of their excitement and the stakeholder's real need.
 - **Formulate an actionable research question:** Your thesis question should clearly connect to your desired outputs. Early stakeholder input is critical to refine your question, increase feasibility, and strengthen impact. A strong question is specific, researchable, and directly tied to the outputs you intend to create.
+   - Good vs poor example: for a policy brief output, "How can AI safety research be translated into policy briefs that maximise comprehension and adoption by policymakers?" works. "What are the most interesting AI safety challenges?" doesn't produce the brief.
 - **Iterate with stakeholder feedback:** Your thesis is a working hypothesis. Be prepared to adjust your outputs and research question based on insights from stakeholders. Feedback may reveal higher-leverage bottlenecks, more actionable outputs, or opportunities to co-develop work with the people you aim to impact.
 
 \### Overview of Week 6 Responsibilities
@@ -28,12 +33,11 @@ tone:: amber
 #### Text
 content::
 - **Select the 2 Mastermind Participants from this Week’s discussion using [[../Lenses/ET FG Resources - Mastermind Tracker|your Mastermind Tracker]]**
-- **Communication (Friday before):** Send participants a reminder to do weekly readings before the session (see template message here)
+- **Communication (Friday before):** Send participants a reminder to do weekly readings before the session (see template message in CD HQ)
    - **For Chosen Mastermind Participants:** Let them know they are selected and to prepare lightly for it, and inform you if they can’t make it
-- **Read through Module 6 on Lens** to familiarise yourself with the readings and worksheet
+- **Read through this week’s module** to familiarise yourself with the content.
 - **Prepare and lead** the 1.5h weekly discussion using the Weekly Facilitation Guide below
-- **Keep engaging proactively in the CD Whatsapp group** for support and idea sharing
-- **Remind your group about Expert Q&As**
+- **Use the CD Whatsapp Group** for support and shared learnings ♥️
 
 #### End Callout
 
@@ -47,6 +51,8 @@ tone:: neutral
 #### Text
 content::
 *The following is our recommended structure for hosting the discussion. Feel free to adapt timing, extend or shorten sections, or dive deeper into areas of interest based on participant engagement and group needs. The goal is to keep the session interactive and valuable to the participants joining! You can also refer to the facilitator guidelines and icebreaker questions if you need additional ideas.*
+
+*If you have a larger group (>4 participants), please see [[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]] for alternative formats.*
 
 #### End Callout
 
@@ -62,6 +68,7 @@ content::
 
 ::card[[../Lenses/ET W6 - Journalling - Process vs Outcomes]]{allow-external}
 
+- For a Google Docs version for printouts, you can use [this](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?tab=t.2b71rt36knt9). But we recommend everyone access via Lens!
 - **Week 6 Slides:** [\[Shared - 2026\] Week 6: Reverse Engineering Your Thesis from Your ToC](https://docs.google.com/presentation/d/1mIMPNdFP6HkaQF7d6gSbBOmSMGlDBR5SNwczp2uFzL8/edit)
 
 \### 3m · Welcome & Group Check-In
@@ -70,7 +77,7 @@ content::
 
 **Share the overview and intention of this session:**
 
-1. **Focus of the Week:** This week, we’ll focus on bringing your thesis out of the abstract and into the real world. Building on your stakeholder mapping from Week 3, you’ll learn how to reach out to the people and organizations who can actually move the needle on your problem, and how to conduct effective stakeholder interviews.
+1. **Focus of the Week:** Turning your Theory of Change into a concrete thesis plan. We'll start from what stakeholders have told you, define the output that would move your ToC forward, and work backwards to a research question that would actually produce it.
 2. **Format for Today:**
    - Working on the worksheet individually
    - Two 20m Mastermind Sessions
@@ -93,7 +100,11 @@ tone:: neutral
 content::
 \### 15m · Part 1: Working on Worksheet Live
 
-Ask participants to open the Week 6 Worksheet in their workbook and introduce Worksheet: This worksheet is designed to help you reverse engineer your thesis focus and research questions based on your Theory of Change. Building on Week 5, where you clarified the long-term change you want to contribute to, the bottlenecks slowing progress, and the stakeholders who need to act differently, this week is about working backwards to design a thesis that is focused, feasible, and genuinely useful.
+Ask participants to open the Week 6 Worksheet: "This worksheet is designed to help you reverse engineer your thesis focus and research question from your Theory of Change. By the end, you should have a specific output in mind, and a research question strong enough to produce it!"
+
+1. Start with **Part 1.1:** what did stakeholders actually say they'd find useful? Any constraints (e.g. "nothing longer than two pages") or surprises? If they haven't interviewed anyone yet, they can use what they've found online and note it as an assumption to test.
+2. Then **1.2:** fill in the one-paragraph ToC statement.
+3. Then **1.3-1.4:** choose the output, and draft the research question. Check it against FINER.
 
 - Set aside 10-15 minutes for each person to work on their worksheet independently (if already completed, learners can fine-tune and/or discuss their thinking)
 
@@ -104,6 +115,8 @@ tone:: neutral
 
 #### Text
 content::
+*If you have a larger group (>4 participants), please see [[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]] for alternative formats.*
+
 \### 20m · Mastermind Session 1
 
 **Goal:** Help the participant clarify thinking, generate options, and move forward by providing thoughtful, constructive input.
@@ -116,6 +129,12 @@ content::
 3. **13m of Group Feedback & Ideas:** Encourage the group to provide questions, feedback, and ideas to the Mastermind participant
    - Encourage them to: Ask clarifying questions, offer perspectives, ideas, and suggestions for next steps, and address the participant’s specific questions and needs
    - Encourage asking before suggesting – help the participant think through options rather than giving solutions directly.
+   - **Week 6 specific prompts:**
+      - What did stakeholders actually say they need? Does your output match it?
+      - If you answered your research question perfectly, would it produce your output?
+      - Which FINER criterion is your question weakest on?
+      - Would a different output type be more useful to your stakeholder, or more exciting to you?
+      - Are there people, resources or organisations you've come across that could help?
    - Prompting questions/ideas for the group: See [[../Lenses/ET FG Resources - Mastermind Tracker|Mastermind session prompts here]] for more ideas and guidance.
       - How can this group support you in reaching out to these stakeholders? What support may you need?
       - What would you do if you were in their position?
