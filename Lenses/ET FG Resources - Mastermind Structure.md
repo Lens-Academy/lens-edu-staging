@@ -9,7 +9,18 @@ tags: [wip]
 content::
 \## Overview of Mastermind Structure (Weeks 2-7)
 
-**The mastermind sessions from Weeks 2-7 will be a core part of this program.** Each week, two students per peer group will be in the hot seat. During a hot seat, the student will share their current thinking or challenges, and the group will then offer targeted feedback, drawing on the week’s frameworks. The goal of this structure is to create space for participants to bring their real, whole selves and live ideas into the room - rather than engaging only at an abstract or theoretical level! This will also hopefully build a much deeper sense of community, compared to purely theoretical discussions.
+#### Callout
+tone:: amber
+
+#### Text
+content::
+**Use this guide if you're running the mastermind (hot seat) format.** This is our recommended default for peer groups of 4-5, but it's not the only way to run Weeks 2-7! If you have a larger group, or your participants' worksheets are still early, see [[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]] for other formats, like pods of 3 or a discussion-focused session.
+
+#### End Callout
+
+#### Text
+content::
+**Mastermind sessions can be a core part of Weeks 2-7.** Each week, two students per peer group are in the hot seat. During a hot seat, the student will share their current thinking or challenges, and the group will then offer targeted feedback, drawing on the week’s frameworks. The goal of this structure is to create space for participants to bring their real, whole selves and live ideas into the room - rather than engaging only at an abstract or theoretical level! This will also hopefully build a much deeper sense of community, compared to purely theoretical discussions.
 
 **Overview of a 20m Mastermind Session (2 per session per 1.5 h discussion)**
 
