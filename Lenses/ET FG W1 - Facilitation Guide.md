@@ -130,20 +130,24 @@ Emphasise that the program is designed to support learning, experimentation, and
 Ask participants to open the Week 1 Worksheet and introduce Week 1’s Worksheet: “This worksheet is designed to help you explore and clarify the foundations of your impactful thesis and emerging career path. The goal is to guide you in designing a thesis that is not only meaningful and energising for you (aligned with your Ikigai) but also a practical stepping stone toward a high-impact career.”
 
 - Set aside 7-10m for each person to work on their worksheet independently. (Or fine-tune or discuss it if done already)
+   - If they haven't started: focus on Part 1 (the four Ikigai dimensions) and a first draft of the thesis-as-Ikigai statement (2a).
+   - If they've done it: refine the statement and add at least one career hypothesis to the table in 2b, using the career paths list in the reading.
 
 \### 20m · Individual Sharing of Worksheets
 
 **20m Individual sharing**: Break participants into groups of 3–4, and each person shares for ~5 minutes.
 
 - “Share anything that stood out to you from the worksheet - especially moments of clarity, confusion, or surprise.”
+- "Share one career hypothesis and your biggest uncertainty about it."
 - Encourage active listening rather than advice-giving.
 
 \### 20m · Group sharing & Discussion
 
-**20m Facilitated Group Discussion:** In small groups, focus on group discussion to expand on their individual sharing. Some questions:
+**20m Facilitated Group Discussion:** In small groups, focus on group discussion to expand on their individual sharing. Some suggested questions:
 
 - **What did you learn about yourself through this worksheet?** This could be about what energises you, what drains you, what you’re good at, or what you care about more than you realised.
 - **How did this exercise shed light on your definition of “impact”?** What dimensions of impact might be missing, neglected, or under-considered in how you usually think about your thesis?
+- **Career paths:** Which career path from the list was new or surprising to you? For your top career hypothesis, what's your biggest uncertainty, and how could your thesis help you test it?
 - **If you think of your thesis as an Ikigai experiment, what might it help you explore or test?** This could be about a problem area, a type of work, a skill set, or a possible career path.
 - **What feels uncertain right now, and what feels energising?**
 - **What is one small but meaningful direction you feel more curious about now than you did before this session?**
@@ -154,11 +158,11 @@ Ask participants to open the Week 1 Worksheet and introduce Week 1’s Worksheet
 - Draw links between personal reflections and the program’s broader arc.
 - The goal of this exercise isn’t to get to any one right answer, but to encourage personal reflection and also group connection!
 
-\### 10m · Outro: Intro to next week + Weekly survey
+\### 10m · Outro: Intro to Next Week
 
-- Briefly introduce Week 2, which focuses on identifying and choosing high-impact problems, where we will dive deeper into a framework to help us select or evaluate problems that may be worth our investment
+- Briefly introduce Week 2: Selecting a High-Impact Problem. We'll tour the landscape of high-impact problems, then use the ITN framework (Importance, Neglectedness, Tractability) to narrow in on one worth pursuing, and bring it back to Ikigai.
 - Remind participants to:
-   - Continue using their workbook (that they have duplicated for themselves) for readings and completing worksheets
-   - Ideally, ask them to complete or draft worksheets before the discussions
+   - Do next week’s readings and worksheet before the session on Lens
+      - Ideally, ask them to complete or draft worksheets before the discussions
    - Explore the Week 1 Journaling prompts in their own time, which focus on personal reflection prompts for their life, not just academics
-- \[If time allows\] Ask participants to complete the weekly pulse survey: [Anonymous Weekly feedback form](https://forms.gle/2BSkjtYHje8Dsm2w9) (this is linked on each header page of their workbook as well)
+   - Weekly survey on Lens platform to share their feedback
