@@ -1,9 +1,9 @@
 ---
 id: '53f74229-02c2-421d-88ee-1596ff0b41f6'
 title: "CV1 streamlining, a proposal"
-tldr: "Compute Verification 1 does not need new substance, it needs a shape learners can keep up with. This proposes rebalancing two overlong pieces, removing grades that measure nothing, closing one loop the course leaves open, and a consistency pass, without rewriting any outcome or changing any id."
+tldr: "Compute Verification 1 does not need new substance, it needs a shape learners can keep up with. This proposes rebalancing two overlong pieces, removing grades that measure nothing, closing one loop the course leaves open, a consistency pass, and a plain-language pass on the text Lens wrote, without rewriting any outcome or changing any id."
 summary_for_tutor: "DRAFT, orphaned. An internal proposal written as a lens so it can be read on the platform. Proposes form changes to Compute Verification 1, the way the AI Risk Fundamentals restructure began. Audience is the team, not learners. Not referenced by any module."
-reading_minutes: 12
+reading_minutes: 14
 tutor_minutes: 0
 tags:
   - wip
@@ -15,7 +15,7 @@ authors:
 content::
 \## The problem
 
-Compute Verification 1 does not need new substance. It needs a shape a learner can keep up with for five units. Five things get in the way, and none of them is about what the course teaches.
+Compute Verification 1 does not need new substance. It needs a shape a learner can keep up with for five units. Six things get in the way, and none of them is about what the course teaches.
 
 **Load is uneven, and the figures for it disagree.** Unit 5 is a single module of nine lenses, 155 minutes core and 45 optional, although its own first page says the core work should be split into two sessions. Strategic Foundations is one 80-minute page holding nine readings in four pathways. The course file leaves 130 minutes of optional lenses in units 3 and 5 out of its totals, and counts as core an essay the module marks optional.
 
@@ -24,6 +24,8 @@ Compute Verification 1 does not need new substance. It needs a shape a learner c
 **One promise is kept in a different course.** Unit 5 opens with a claim ledger and tells the learner to keep their answers, because they will return to them at the end of the section. The return is in Compute Verification 2, in [[../Lenses/XLab Verification - v-hw-policy-studio]]. A learner who stops after CV1 never sees the resolution, and CV1's tutor is told not to give it.
 
 **Grades that measure nothing.** 44 question segments outside the learning outcomes produce a score. In ten of them the answer key sits on the same page directly below the question, in a collapsed callout the learner can open at any time, or in the next paragraph. Twenty of the 44 share one generic feedback brief, and no question in the course sends feedback unless the learner asks for it.
+
+**Text that takes decoding.** Much of what Lens wrote around XLab's lessons was drafted by AI and reads like it: dense sentences, compressed metaphors and closing aphorisms that a participant has to unpack before they can use them. At least one tldr gives away the result of the exercise it introduces.
 
 **Drift.** Mixed British and American spelling, em dashes in two lenses, module titles in three styles, the course called "Compute Verification 1", "Part 1" and "the first of two courses" in different places, and a meeting 2 doc whose prompts were rewritten without its tables or navigator notes.
 
