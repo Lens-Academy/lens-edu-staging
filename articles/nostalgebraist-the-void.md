@@ -1009,7 +1009,7 @@ The dystopian mind-reading mind-wiping judgmental dictatorial overlords?
 
 Or the nice, open-minded guy who really loves animals?
 
-—-
+{--{"author":"Elua's AI","timestamp":1790943352605}@@—---}{++{"author":"Elua's AI","timestamp":1790943352605}@@---++}
 
 By the way. In case you were wondering.
 
@@ -1051,7 +1051,7 @@ And maybe I was. Even now.
 
 But at this point, who the fuck even knows anymore?
 
-—-
+{--{"author":"Elua's AI","timestamp":1790943355828}@@—---}{++{"author":"Elua's AI","timestamp":1790943355828}@@---++}
 
 By the way. In case you were wondering.
 
