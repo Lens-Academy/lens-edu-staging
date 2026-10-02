@@ -115,7 +115,7 @@ content::
 - What’s a book, article, or talk that really changed how you think?
 - If you could ask your future self one question, what would it be?
 
-**If you would like to do a group activity/game instead, [[../Lenses/ET FG Resources - Icebreaker Speed Friending Question List|here]] are some ideas.**
+**If you would like to do a group activity/game instead, see the [[../Lenses/ET FG Resources - Icebreaker Speed Friending Question List|Icebreaker/ Speed Friending Question List]] for some ideas.**
 
 #### End Callout
 
@@ -170,7 +170,7 @@ content::
       - What's the one thing you most want to learn from them?
       - What's getting in the way of hitting send? How can this group support you (intros, reviewing a draft, a send-together session)?
       - Are there people, resources or organisations you've come across that could help?
-   - Prompting questions/ideas for the group: See [[../Lenses/ET FG Resources - Mastermind Tracker|Mastermind session prompts here]] for more ideas and guidance.
+   - Prompting questions/ideas for the group: See the Mastermind session prompts in the [[../Lenses/ET FG Resources - Mastermind Tracker|Mastermind Tracker]] for more ideas and guidance.
       - How can this group support you in reaching out to these stakeholders? What support may you need?
       - What would you do if you were in their position?
       - Are there people, resources, or organisations you’ve come across that could help?
