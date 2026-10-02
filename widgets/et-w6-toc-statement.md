@@ -1,0 +1,124 @@
+---
+id: 'd43a520d-a401-4490-88a6-a10789e2ed22'
+title: "Week 6 ToC Statement Builder"
+summary_for_tutor: "A fill-in-the-blanks sentence builder in the Week 6 worksheet where the learner summarises their Week 5 Theory of Change as one paragraph: the problem area and its bottleneck, the research output and who it is for, the short-term outcome it enables, the longer-term outcome and for whom, and the ultimate impact. The saved summary is the learner's composed statement, with any unfilled blanks shown in square brackets. It is a working draft; uncertainty is expected."
+height: auto
+tags: [wip]
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<style>
+:root { --text: #1a1a1a; --muted: #5a5a5a; --border: #e8e5df; --accent: #b87018; --soft: #faf8f3; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 4px 0; font: 15px/2.1 "DM Sans", Arial, sans-serif; color: var(--text); background: #fff; }
+.eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; line-height: 1.5; }
+.hint { color: var(--muted); font-size: 13px; margin: 0 0 10px; line-height: 1.5; }
+.stmt { border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; background: var(--soft); }
+.stmt p { margin: 0 0 10px; }
+.stmt p:last-child { margin-bottom: 0; }
+.blank { display: inline-block; min-width: 150px; max-width: 100%; border: none; border-bottom: 2px solid var(--accent); background: #fff; border-radius: 4px 4px 0 0; padding: 2px 8px; font: inherit; font-size: 14.5px; line-height: 1.6; color: var(--text); vertical-align: baseline; }
+.blank::placeholder { color: #a39d93; font-style: italic; }
+.blank:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+h4 { margin: 16px 0 6px; font-size: 14px; line-height: 1.5; }
+.preview { border-left: 3px solid var(--accent); padding: 8px 12px; font-size: 14px; line-height: 1.6; background: #fff; white-space: pre-wrap; }
+.preview.empty { color: var(--muted); font-style: italic; }
+.actions { margin-top: 8px; display: flex; gap: 8px; align-items: center; line-height: 1.5; }
+button { font: inherit; font-size: 13px; border: 1px solid var(--accent); color: var(--accent); font-weight: 600; background: #fff; border-radius: 8px; padding: 6px 12px; cursor: pointer; }
+button:hover { background: var(--accent); color: #fff; }
+.msg { font-size: 12px; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="eyebrow">My Theory of Change statement</div>
+<p class="hint">Fill in each blank to complete your statement. The grey hints show what goes where, and they disappear as you type. Your full statement appears below, ready to copy.</p>
+<div class="stmt" id="stmt"></div>
+<h4>Your full ToC statement</h4>
+<div class="preview empty" id="preview"></div>
+<div class="actions"><button type="button" id="copy">Copy my statement</button><span class="msg" id="msg" role="status"></span></div>
+<script>
+(function () {
+  var PARTS = [
+    ["Through this thesis, I aim to address ", { k: "problem", ph: "your problem area" }, ", which is bottlenecked by ", { k: "bottleneck", ph: "its key bottleneck(s)" }, "."],
+    ["I will produce ", { k: "output", ph: "a research output, e.g. a policy brief, dataset, report or prototype" }, " that is intended for ", { k: "audience", ph: "a specific stakeholder" }, "."],
+    ["This output will enable ", { k: "enabled", ph: "that stakeholder" }, " to ", { k: "short", ph: "a specific decision, action or behaviour change" }, "."],
+    ["Over the longer term, this is expected to contribute to ", { k: "long", ph: "a sustained change in decisions, practices or policies" }, " among ", { k: "who", ph: "who" }, ". Ultimately, this work aims to contribute to ", { k: "impact", ph: "your vision of a better world" }, "."]
+  ];
+  var data = {};
+  var inputs = {};
+  var stmt = document.getElementById("stmt");
+  var preview = document.getElementById("preview");
+  var msg = document.getElementById("msg");
+
+  function sizeTo(inp) {
+    var len = Math.max((inp.value || inp.placeholder).length, 12);
+    inp.style.width = Math.min(len + 2, 60) + "ch";
+  }
+  function composed() {
+    var any = false;
+    var out = PARTS.map(function (row) {
+      return row.map(function (p) {
+        if (typeof p === "string") return p;
+        var v = (data[p.k] || "").trim();
+        if (v) any = true;
+        return v || "[" + p.ph + "]";
+      }).join("");
+    }).join(" ");
+    return any ? out : "";
+  }
+  function refresh() {
+    var c = composed();
+    preview.textContent = c || "Your statement will appear here as you fill in the blanks above.";
+    preview.className = c ? "preview" : "preview empty";
+  }
+  function save() {
+    refresh();
+    var c = composed();
+    if (window.Lens) window.Lens.saveState({ fields: data }, c ? "Theory of Change statement: " + c : "Theory of Change statement is still empty.");
+  }
+  function build() {
+    stmt.textContent = "";
+    PARTS.forEach(function (row) {
+      var p = document.createElement("p");
+      row.forEach(function (part) {
+        if (typeof part === "string") { p.appendChild(document.createTextNode(part)); return; }
+        var inp = document.createElement("input");
+        inp.type = "text"; inp.className = "blank"; inp.placeholder = part.ph;
+        inp.value = data[part.k] || "";
+        inp.setAttribute("aria-label", part.ph);
+        inp.addEventListener("input", function () { data[part.k] = inp.value; sizeTo(inp); save(); });
+        sizeTo(inp);
+        inputs[part.k] = inp;
+        p.appendChild(inp);
+      });
+      stmt.appendChild(p);
+    });
+    refresh();
+  }
+  document.getElementById("copy").addEventListener("click", function () {
+    var c = composed();
+    if (!c) { msg.textContent = "Fill in a blank first!"; return; }
+    var done = function () { msg.textContent = "Copied!"; setTimeout(function () { msg.textContent = ""; }, 2000); };
+    var fallback = function () {
+      var ta = document.createElement("textarea"); ta.value = c; document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); done(); } catch (e) { msg.textContent = "Select the text above to copy it."; }
+      document.body.removeChild(ta);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(c).then(done, fallback); else fallback();
+  });
+  build();
+  if (window.Lens) {
+    window.Lens.onState(function (state) {
+      if (state && state.fields) {
+        Object.keys(state.fields).forEach(function (k) { if (typeof state.fields[k] === "string") data[k] = state.fields[k]; });
+        build();
+      }
+    });
+  }
+})();
+</script>
+</body>
+</html>
