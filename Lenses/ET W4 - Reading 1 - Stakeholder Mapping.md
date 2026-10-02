@@ -57,7 +57,9 @@ Here are a few examples of categories of stakeholders you may consider when thin
 - **For example, if the bottleneck is a lack of understanding**, your key stakeholders might be academic researchers who can generate evidence, and the communities experiencing the problem, who can tell you what’s really happening on the ground.
 - **However, if the bottleneck is a lack of implementation,** the stakeholders shift to NGOs, policymakers, funders, or advocacy groups who can actually put solutions into practice. In this case, just focusing on generating more academic research will likely be low impact, given that this isn’t what is required to move the needle on the problem.
 
-\#### Table of Stakeholder-Bottleneck Mapping
+\### Categories of Stakeholder-Bottleneck Mapping
+
+Each category of bottleneck points to a different set of stakeholders. Find the category that matches the bottleneck you named in Week 3 to see who is most relevant to work with.
 
 \#### 1) Lack of Understanding
 
