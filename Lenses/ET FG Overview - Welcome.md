@@ -102,7 +102,7 @@ You can access our training session materials [here](https://drive.google.com/dr
 
 You'll find everything else you need in the Resources section - dip in whenever it's useful!
 
-- ⭐ **[[../Lenses/ET FG Resources - Group Size Recommendations|Facilitation Recommendations Based on Group Size]]:** If you have more than 4-5 participants, or worksheets are still early, start here. It walks you through different formats you can use (pods of 3, parallel mastermind groups, or a discussion-focused format)
+- ⭐ **[[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]]:** If you have more than 4-5 participants, or worksheets are still early, start here. It walks you through different formats you can use (pods of 3, parallel mastermind groups, or a discussion-focused format)
 - **[Guide for Mastermind Structure](https://staging.lensacademy.org/courses/et-accelerator-facilitator-guides/module/et-fg-resources#mastermind-structure):** the 20m hot seat structure and prompts
 - **[[../Lenses/ET FG Resources - Mastermind Tracker|Mastermind Tracker]]:** to plan who's in the hot seat each week
 - **[[../Lenses/ET FG Resources - Weekly Message Templates|Weekly Message Templates]]:** ready-to-send messages for every week, plus a final message

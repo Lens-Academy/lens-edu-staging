@@ -1,6 +1,6 @@
 ---
 id: '16856e9e-9be8-4f11-8a6c-da257b3f9cba'
-title: "Facilitation Recommendations Based on Group Size"
+title: "Recommendations on Group Size"
 reading_minutes: 5
 tutor_minutes: 0
 tags: [wip]
