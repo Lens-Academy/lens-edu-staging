@@ -54,7 +54,7 @@ content:: **Potential Stakeholders: Who would need to act on this research, if y
 content::
 ---
 
-\# Part 2: Stakeholder Mapping and Outreach
+\# Part 2: Stakeholder Mapping and Outreach ^part-2
 
 \## Instructions
 
@@ -103,7 +103,7 @@ source:: [[../widgets/et-w4-stakeholder-tracker]]
 content::
 ---
 
-\# Part 3: Stakeholder Interview Questions
+\# Part 3: Stakeholder Interview Questions ^part-3
 
 #### Question: Open
 id:: a9382544-18e1-42fd-82bb-360a8e52f734
