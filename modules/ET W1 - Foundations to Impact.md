@@ -37,3 +37,8 @@ source:: [[../Lenses/ET W1 - Worksheet - My Foundations to Impact]]
 # Lens:
 optional:: true
 source:: [[../Lenses/ET W1 - Journalling - Journaling on My Ikigai]]
+
+# Submodule: Week 1 Survey
+
+# Lens:
+source:: [[../Lenses/ET W1 - Weekly Survey]]

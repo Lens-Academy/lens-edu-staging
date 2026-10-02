@@ -28,3 +28,8 @@ source:: [[../Lenses/ET W3 - Worksheet - Generating and Prioritising Research Qu
 # Lens:
 optional:: true
 source:: [[../Lenses/ET W3 - Journalling - Bottlenecks in Your Life]]
+
+# Submodule: Week 3 Survey
+
+# Lens:
+source:: [[../Lenses/ET W3 - Weekly Survey]]

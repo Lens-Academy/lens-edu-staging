@@ -31,3 +31,8 @@ source:: [[../Lenses/ET W2 - Worksheet - Selecting Your High-Impact Problem]]
 # Lens:
 optional:: true
 source:: [[../Lenses/ET W2 - Journalling - Explore vs Exploit Tradeoff]]
+
+# Submodule: Week 2 Survey
+
+# Lens:
+source:: [[../Lenses/ET W2 - Weekly Survey]]
