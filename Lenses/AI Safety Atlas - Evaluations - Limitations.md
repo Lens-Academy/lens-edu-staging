@@ -8,8 +8,8 @@ tutor_minutes: 5
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942536408}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Evaluations - Limitations|Limitations]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Evaluations - Limitations|Limitations]]
 
 #### Question: Open
 id:: 2dd42259-a894-467b-a301-cdd38f4a2a11

@@ -8,5 +8,5 @@ title: "Appendix: Forecasting Scenarios"
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942581063}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Risks - Appendix Forecasting Scenarios|Appendix: Forecasting Scenarios]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Risks - Appendix Forecasting Scenarios|Appendix: Forecasting Scenarios]]

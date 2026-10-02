@@ -8,8 +8,8 @@ tutor_minutes: 5
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942614853}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Specification Gaming - Learning from Feedback|Learning from feedback]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Specification Gaming - Learning from Feedback|Learning from feedback]]
 
 #### Question: Open
 id:: 29bf6d0d-121e-41a2-8e68-07c86f3ac89a

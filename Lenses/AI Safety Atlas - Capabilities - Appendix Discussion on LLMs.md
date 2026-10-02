@@ -8,5 +8,5 @@ title: "Appendix: Discussion on LLMs"
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942507367}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Capabilities - Appendix Discussion on LLMs|Appendix: Discussion on LLMs]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Capabilities - Appendix Discussion on LLMs|Appendix: Discussion on LLMs]]

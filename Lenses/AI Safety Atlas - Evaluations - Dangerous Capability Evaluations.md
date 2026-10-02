@@ -8,8 +8,8 @@ tutor_minutes: 6
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942530902}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Evaluations - Dangerous Capability Evaluations|Dangerous Capability Evaluations]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Evaluations - Dangerous Capability Evaluations|Dangerous Capability Evaluations]]
 
 #### Text
 optional:: true
