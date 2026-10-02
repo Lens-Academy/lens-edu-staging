@@ -60,3 +60,26 @@ content::
 👉 **Ready? Head to this week's worksheet:**
 
 ::card[[../Lenses/ET W1 - Worksheet - My Foundations to Impact|Week 1 Worksheet: My Foundations to Impact]]
+
+#### Callout: ⭐ Quick check-in on this week's readings
+tone:: purple
+
+#### Question: Rating
+id:: eb3f287a-6ed6-47d0-8a85-15474c804af4
+content:: How valuable were this week's readings for you?
+low-label:: Not valuable
+high-label:: Very valuable
+
+#### Callout: 💬 Want to share more? (optional, click to open)
+tone:: neutral
+collapse:: closed
+
+#### Question: Open
+id:: 376bd5c8-ddcd-4a95-a7f1-1eaea11ac97e
+content:: Anything you'd like to share about this week's readings? What landed, what didn't, or what you'd change?
+placeholder:: Share as much or as little as you like
+optional:: true
+
+#### End Callout
+
+#### End Callout

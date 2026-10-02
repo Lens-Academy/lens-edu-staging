@@ -111,3 +111,26 @@ content::
 👉 **Ready? Head to this week's worksheet:**
 
 ::card[[../Lenses/ET W2 - Worksheet - Selecting Your High-Impact Problem|Week 2 Worksheet: Selecting Your High-Impact Problem]]
+
+#### Callout: ⭐ Quick check-in on this week's readings
+tone:: purple
+
+#### Question: Rating
+id:: 62465351-7079-4b0b-914b-59d160c88713
+content:: How valuable were this week's readings for you?
+low-label:: Not valuable
+high-label:: Very valuable
+
+#### Callout: 💬 Want to share more? (optional, click to open)
+tone:: neutral
+collapse:: closed
+
+#### Question: Open
+id:: 624154bb-e1e1-48e9-bf91-4724850b58c0
+content:: Anything you'd like to share about this week's readings? What landed, what didn't, or what you'd change?
+placeholder:: Share as much or as little as you like
+optional:: true
+
+#### End Callout
+
+#### End Callout

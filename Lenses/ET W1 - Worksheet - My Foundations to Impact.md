@@ -190,3 +190,26 @@ What a beautiful first step on your journey - we're so glad you're here! 💛
 **Next up: this week's Journalling prompts** 👇 Take a few minutes to go deeper on your Ikigai.
 
 ::card[[../Lenses/ET W1 - Journalling - Journaling on My Ikigai|Week 1 Journalling: Journaling on My Ikigai]]
+
+#### Callout: ⭐ Quick check-in on this week's worksheet
+tone:: purple
+
+#### Question: Rating
+id:: 4b37c963-f85b-4c44-95e5-cdff8dcbf9f4
+content:: How useful was this week's worksheet for you?
+low-label:: Not useful
+high-label:: Very useful
+
+#### Callout: 💬 Want to share more? (optional, click to open)
+tone:: neutral
+collapse:: closed
+
+#### Question: Open
+id:: 481c7906-6491-49a0-8f22-cdbfec1f784a
+content:: Anything you'd like to share about this week's worksheet? What helped, what felt unclear, or what you'd change?
+placeholder:: Share as much or as little as you like
+optional:: true
+
+#### End Callout
+
+#### End Callout
