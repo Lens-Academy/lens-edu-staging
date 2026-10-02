@@ -11,14 +11,15 @@ content::
 
 **Contents**
 
-- Why group size matters
-- Quick decision guide
-- Option 1: Groups of 4-5 (standard mastermind)
-- Option 2: Larger groups (6+ people)
+- [Why group size matters](#why-group-size-matters)
+- [Quick decision guide](#quick-decision-guide)
+- [Overview of the options](#overview-of-the-options)
+- [Option 1: Groups of 4-5 (standard mastermind)](#option-1)
+- [Option 2: Larger groups (6+ people)](#option-2)
    - ⭐ Option 2a. Pods of 3 (best for around 6 people)
    - Option 2b. Mastermind groups of 4-5
-- Option 3: Discussion-focused format (when worksheets are still early)
-- Facilitation tips for every format
+- [Option 3: Discussion-focused format (when worksheets are still early)](#option-3)
+- [Facilitation tips for every format](#facilitation-tips-for-every-format)
 
 \### Why group size matters
 
@@ -41,8 +42,23 @@ Start with your group size, then check how developed your participants' workshee
 
 You can also mix formats across the six weeks, for example starting discussion-focused in Weeks 2-3 and moving into hot seats once worksheets have more substance.
 
-\### Option 1: Groups of 4-5 (standard mastermind)
+\### Overview of the options
 
+- **[Option 1: Groups of 4-5 (standard mastermind)](#option-1)** - our recommended default. Two 20m hot seats per session, so everyone gets a turn roughly every other week.
+- **[Option 2a: Pods of 3](#option-2)** ⭐ - best for around 6 people. Everyone gets a 15m slot every single week.
+- **[Option 2b: Mastermind groups of 4-5](#option-2)** - for 8-10 people. Split into two groups running Option 1 side by side.
+- **[Option 3: Discussion-focused format](#option-3)** - for any group size when worksheets are still early. Runs more like a reading group, with a lighter "mini hot seat".
+
+Tap each option below to open it.
+
+\### Option 1
+
+#### Callout: Option 1: Groups of 4-5 - standard mastermind with two 20m hot seats (recommended default)
+tone:: neutral
+collapse:: closed
+
+#### Text
+content::
 This is our recommended default. Two students are in the hot seat each week, using the 20m structure below.
 
 **How to run it**
@@ -65,12 +81,22 @@ This is our recommended default. Two students are in the hot seat each week, usi
 
 *Tip: Swap the order in later weeks (e.g. B before A) so the same person isn't always first.*
 
-\### Option 2: Larger groups (6+ people)
+See [the Mastermind Structure guide](https://staging.lensacademy.org/courses/et-accelerator-facilitator-guides/module/et-fg-resources#mastermind-structure) for the full 20m hot seat structure and prompts.
 
-With more than 5 people, break into smaller units so everyone still gets meaningful time. You have two choices.
+#### End Callout
 
-\#### ⭐ Option 2a. Pods of 3 (best for around 6 people)
+#### Text
+content::
+\### Option 2
 
+**Larger groups (6+ people):** With more than 5 people, break into smaller units so everyone still gets meaningful time. You have two choices.
+
+#### Callout: ⭐ Option 2a: Pods of 3 - everyone gets a 15m slot every week (best for around 6 people)
+tone:: neutral
+collapse:: closed
+
+#### Text
+content::
 Everyone gets a turn every single week, which builds momentum fast.
 
 - Split into pods of 3
@@ -81,16 +107,32 @@ Everyone gets a turn every single week, which builds momentum fast.
 
 Because there are only two listeners, encourage each person to take on the role fully: one focuses on clarifying questions, the other on ideas and resources, then swap each round.
 
-\#### Option 2b. Mastermind groups of 4-5
+#### End Callout
 
+#### Callout: Option 2b: Mastermind groups of 4-5 - two parallel groups running Option 1 (for 8-10 people)
+tone:: neutral
+collapse:: closed
+
+#### Text
+content::
 If you have 8-10 people (or prefer the fuller mastermind experience), split into two groups of 4-5 and run the standard format from Option 1 in parallel.
 
 - Each group needs a timekeeper. If/when you can't sit in both groups, nominate a student facilitator in the second one and give them this guide
 - Keep groups stable across the six weeks so trust can build
 - Check in with both groups for the last few minutes to hear how it went
 
-\### Option 3: Discussion-focused format (when worksheets are still early)
+#### End Callout
 
+#### Text
+content::
+\### Option 3
+
+#### Callout: Option 3: Discussion-focused format - a reading-group style session (when worksheets are still early)
+tone:: neutral
+collapse:: closed
+
+#### Text
+content::
 Some groups will have participants who are earlier in their thinking, newer to the cause areas, or who haven't had much time for their worksheets yet. That's completely normal! In these cases a hot seat can feel exposing, and there isn't always enough material for 13m of feedback.
 
 Instead, run the session more like a reading group:
@@ -108,6 +150,13 @@ Instead, run the session more like a reading group:
 
 **Moving towards hot seats.** Treat this as a ramp, not a permanent track. Once a few students have more developed worksheets, try one hot seat per session alongside the discussion, and build from there.
 
+#### End Callout
+
+#### Callout
+tone:: amber
+
+#### Text
+content::
 \### Facilitation tips for every format
 
 - **Use a visible timer.** It keeps things fair and takes the pressure off you to cut people short
@@ -118,4 +167,4 @@ Instead, run the session more like a reading group:
 - **Model vulnerability.** If/when the room feels hesitant, share a real uncertainty of your own to set the tone
 - **Check in mid-program.** Around Week 4, ask the group what's working and adjust the format if needed
 
-See [[../Lenses/ET FG Resources - Mastermind Structure|the Mastermind Structure guide]] for the full 20m hot seat structure and prompts.
+#### End Callout
