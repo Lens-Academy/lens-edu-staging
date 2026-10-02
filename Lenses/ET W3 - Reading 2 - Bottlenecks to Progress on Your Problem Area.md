@@ -169,9 +169,8 @@ With your shortlist of 5-10 candidate questions in hand, the final step is makin
 
 \### How to build your WFM
 
-- List your shortlisted questions in a table, one per row.
-- **Choose your factors**, the criteria you'll judge each question against. An example of different factors to choose from may be the following - however, we highly recommend you consider what factors are truly important to you when deciding on your thesis topic!
-   - For example, some people may want to focus mostly on just their career path while others may want to focus more on the problem area being important!
+1. List your shortlisted questions in a table, one per row.
+2. **Choose your factors**, the criteria you'll judge each question against. We highly recommend you consider what factors are truly important to you when deciding on your thesis topic! For example, some people may want to focus mostly on just their career path, while others may want to focus more on the problem area being important. Open the example below to see one possible set of factors.
 
 |  |  |  |
 |---|---|---|
