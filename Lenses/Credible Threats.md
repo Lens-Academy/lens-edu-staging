@@ -8,7 +8,7 @@ title: Commitment and endogenous threats
 ---
 #### Text
 content::
-To merely be more powerful is only half the battle however. Even if you would win an interaction with certainty, fighting it out takes resources that might be better used elsewhere. A powerful AI is not just better at winning the hard way, it is also better at making credible threats and getting what it wants that way.
+To merely be more powerful is only half the {--{"author":"Elua's AI","timestamp":1790940634013}@@battle--}{++{"author":"Elua's AI","timestamp":1790940634013}@@battle,++} however. Even if you {--{"author":"Elua's AI","timestamp":1790940634013}@@would--}{++{"author":"Elua's AI","timestamp":1790940634013}@@were certain to++} win an {--{"author":"Elua's AI","timestamp":1790940634013}@@interaction with certainty, --}{++{"author":"Elua's AI","timestamp":1790940634013}@@interaction, ++}fighting it out takes resources that might be better used elsewhere. A powerful AI is not just better at winning the hard {--{"author":"Elua's AI","timestamp":1790940634013}@@way,--}{++{"author":"Elua's AI","timestamp":1790940634013}@@way;++} it is also better at making credible threats and getting what it wants that way.
 
 #### Article
 source:: [[../articles/houba+bolt-credible-threats-in-negotiations|houba+bolt-credible-threats-in-negotiations]]
