@@ -1,6 +1,8 @@
 ---
 id: cd11efd8-f449-4964-8962-97cbe865a9bf
 slug: your-journey-onwards
+# Module slug-aliases did not resolve on staging when tested 2026-10-02; kept for when the platform supports them.
+slug-aliases: [last-module-what-comes-next]
 title: "Your journey onwards"
 discussion: https://discordapp.com/channels/1440725236843806762/1476535068779483259 
 ---
