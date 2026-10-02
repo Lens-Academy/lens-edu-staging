@@ -20,3 +20,8 @@ to:: img1-23903583.jpg)
 #### Article
 source:: [[../articles/harris-you-need-user-buy-in-to-scale-your-impact]]
 from:: Why: You have users too
+to:: img4-0b28cfc8.jpg)
+
+#### Article
+source:: [[../articles/harris-you-need-user-buy-in-to-scale-your-impact]]
+from:: Won’t this take too much time? What can I cut?
