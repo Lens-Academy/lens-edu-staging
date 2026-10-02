@@ -77,6 +77,7 @@ content::
 
 ::card[[../Lenses/ET W4 - Journalling - Emotional Barriers to Outreach]]{allow-external}
 
+- For a Google Docs version for printouts, you can use [this](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?tab=t.2b71rt36knt9). But we recommend everyone access via Lens!
 - Week 4 Slides: [\[Shared - 2026\] Week 4: Stakeholder Outreach and Interviews](https://docs.google.com/presentation/d/18KhquSGHuxoooI3-JmuRQHmdxKKOx5dd7nMsKCxNAL4/edit?slide=id.g37515589af2_0_0#slide=id.g37515589af2_0_0)
 
 \### 3m · Welcome & Group Check-In
