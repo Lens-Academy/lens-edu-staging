@@ -116,3 +116,26 @@ Best regards,
 \[University/Institution Name\]
 
 #### End Callout
+
+#### Callout: ⭐ Quick check-in on this week's readings
+tone:: purple
+
+#### Question: Rating
+id:: 77b78966-5b16-41f2-a5bb-804d6c3f7d5b
+content:: How valuable were this week's readings for you?
+low-label:: Not valuable
+high-label:: Very valuable
+
+#### Callout: 💬 Want to share more? (optional, click to open)
+tone:: neutral
+collapse:: closed
+
+#### Question: Open
+id:: 9e263e11-c936-4a8a-92b0-ff29679b07a0
+content:: Anything you'd like to share about this week's readings? What landed, what didn't, or what you'd change?
+placeholder:: Share as much or as little as you like
+optional:: true
+
+#### End Callout
+
+#### End Callout

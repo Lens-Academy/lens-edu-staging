@@ -31,3 +31,26 @@ content::
 👉 **Ready? Head to this week's worksheet:**
 
 ::card[[../Lenses/ET W6 - Worksheet - Reverse Engineering Your Thesis|Week 6 Worksheet: Reverse Engineering Your Thesis]]
+
+#### Callout: ⭐ Quick check-in on this week's readings
+tone:: purple
+
+#### Question: Rating
+id:: a88ca195-170d-4cc5-8267-7f8ff5475700
+content:: How valuable were this week's readings for you?
+low-label:: Not valuable
+high-label:: Very valuable
+
+#### Callout: 💬 Want to share more? (optional, click to open)
+tone:: neutral
+collapse:: closed
+
+#### Question: Open
+id:: ffdccc96-3166-4677-af02-c854cf856d62
+content:: Anything you'd like to share about this week's readings? What landed, what didn't, or what you'd change?
+placeholder:: Share as much or as little as you like
+optional:: true
+
+#### End Callout
+
+#### End Callout

@@ -141,3 +141,26 @@ Reaching out to people you've never met is one of the bravest parts of this whol
 **Next up: this week's Journalling prompts** 👇 Take a few minutes to explore any emotional barriers that come up around outreach.
 
 ::card[[../Lenses/ET W4 - Journalling - Emotional Barriers to Outreach|Week 4 Journalling: Emotional Barriers to Outreach]]
+
+#### Callout: ⭐ Quick check-in on this week's worksheet
+tone:: purple
+
+#### Question: Rating
+id:: 6a08c8c8-1181-4dac-bf58-e88b135489b2
+content:: How useful was this week's worksheet for you?
+low-label:: Not useful
+high-label:: Very useful
+
+#### Callout: 💬 Want to share more? (optional, click to open)
+tone:: neutral
+collapse:: closed
+
+#### Question: Open
+id:: 5e5c6ec3-c00a-458f-ba33-388a1bf1ab1d
+content:: Anything you'd like to share about this week's worksheet? What helped, what felt unclear, or what you'd change?
+placeholder:: Share as much or as little as you like
+optional:: true
+
+#### End Callout
+
+#### End Callout

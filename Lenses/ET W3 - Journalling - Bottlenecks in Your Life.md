@@ -34,3 +34,27 @@ content::
 
 Which bottlenecks could you influence, even a little, this week? What small experiments, changes, or actions could help you move past one of these blocks? What support might you need from yourself (i.e., more kindness) or from loved ones to work on this?
 optional:: true
+
+#### Callout: ⭐ Quick check-in on this week's journalling
+tone:: purple
+
+#### Question: Rating
+id:: 71d4db8a-9fdb-4bb1-946b-92cdae78c776
+content:: How meaningful were this week's journalling prompts for you?
+low-label:: Not meaningful
+high-label:: Very meaningful
+optional:: true
+
+#### Callout: 💬 Want to share more? (optional, click to open)
+tone:: neutral
+collapse:: closed
+
+#### Question: Open
+id:: 7b7d3896-caff-4b14-ad8d-a377a1a33417
+content:: Anything you'd like to share about this week's journalling prompts? What resonated, what didn't, or what you'd change?
+placeholder:: Share as much or as little as you like
+optional:: true
+
+#### End Callout
+
+#### End Callout

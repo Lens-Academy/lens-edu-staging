@@ -59,3 +59,27 @@ content::
 
 *What new perspectives or beliefs could help you value growth, learning, and curiosity, as opposed to just outcomes?*
 optional:: true
+
+#### Callout: ⭐ Quick check-in on this week's journalling
+tone:: purple
+
+#### Question: Rating
+id:: a8fa987a-555a-44d0-a183-8089a17ecdbd
+content:: How meaningful were this week's journalling prompts for you?
+low-label:: Not meaningful
+high-label:: Very meaningful
+optional:: true
+
+#### Callout: 💬 Want to share more? (optional, click to open)
+tone:: neutral
+collapse:: closed
+
+#### Question: Open
+id:: f7f210dd-9295-4090-995e-60c78bb72817
+content:: Anything you'd like to share about this week's journalling prompts? What resonated, what didn't, or what you'd change?
+placeholder:: Share as much or as little as you like
+optional:: true
+
+#### End Callout
+
+#### End Callout

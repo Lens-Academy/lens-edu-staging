@@ -190,3 +190,26 @@ Remember, your top questions don't need to be perfect or final. Hold them loosel
 **Next up: this week's Journalling prompts** 👇 Take a few minutes to reflect on the bottlenecks in your own life.
 
 ::card[[../Lenses/ET W3 - Journalling - Bottlenecks in Your Life|Week 3 Journalling: Bottlenecks in Your Life]]
+
+#### Callout: ⭐ Quick check-in on this week's worksheet
+tone:: purple
+
+#### Question: Rating
+id:: c8cfa451-a5ec-40d7-bc1e-4a17b6772568
+content:: How useful was this week's worksheet for you?
+low-label:: Not useful
+high-label:: Very useful
+
+#### Callout: 💬 Want to share more? (optional, click to open)
+tone:: neutral
+collapse:: closed
+
+#### Question: Open
+id:: d658b7be-025c-424a-ba0c-b005059a7fc8
+content:: Anything you'd like to share about this week's worksheet? What helped, what felt unclear, or what you'd change?
+placeholder:: Share as much or as little as you like
+optional:: true
+
+#### End Callout
+
+#### End Callout

@@ -49,3 +49,27 @@ Here you can take 10-15 minutes to journal on some limiting beliefs you may hold
 
 #### Widget
 source:: [[../widgets/et-w7-limiting-beliefs]]
+
+#### Callout: ⭐ Quick check-in on this week's journalling
+tone:: purple
+
+#### Question: Rating
+id:: 4344a934-c546-413a-bf14-28ba9706a704
+content:: How meaningful were this week's journalling prompts for you?
+low-label:: Not meaningful
+high-label:: Very meaningful
+optional:: true
+
+#### Callout: 💬 Want to share more? (optional, click to open)
+tone:: neutral
+collapse:: closed
+
+#### Question: Open
+id:: 0a905674-ae39-4a87-9acf-11a5758d28a0
+content:: Anything you'd like to share about this week's journalling prompts? What resonated, what didn't, or what you'd change?
+placeholder:: Share as much or as little as you like
+optional:: true
+
+#### End Callout
+
+#### End Callout

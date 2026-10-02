@@ -228,3 +228,26 @@ By the end, you should have your top 1-2 research questions jotted down, along w
 👉 **Ready? Head to this week's worksheet:**
 
 ::card[[../Lenses/ET W3 - Worksheet - Generating and Prioritising Research Questions|Week 3 Worksheet: Generating & Prioritising Research Questions]]
+
+#### Callout: ⭐ Quick check-in on this week's readings
+tone:: purple
+
+#### Question: Rating
+id:: 7d13dbcf-06b3-4f0b-b144-c31d87ee2cc4
+content:: How valuable were this week's readings for you?
+low-label:: Not valuable
+high-label:: Very valuable
+
+#### Callout: 💬 Want to share more? (optional, click to open)
+tone:: neutral
+collapse:: closed
+
+#### Question: Open
+id:: 075c1061-c4d0-4a0a-ad5e-1e8ee155d5bc
+content:: Anything you'd like to share about this week's readings? What landed, what didn't, or what you'd change?
+placeholder:: Share as much or as little as you like
+optional:: true
+
+#### End Callout
+
+#### End Callout

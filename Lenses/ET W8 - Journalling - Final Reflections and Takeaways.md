@@ -46,3 +46,27 @@ content::
 
 *What actions can you take in the next 3 months to continue exploring and refining your impact?*
 optional:: true
+
+#### Callout: ⭐ Quick check-in on this week's journalling
+tone:: purple
+
+#### Question: Rating
+id:: ba43d4df-ba4c-45f5-954a-7bc0b8e3d2b1
+content:: How meaningful were this week's journalling prompts for you?
+low-label:: Not meaningful
+high-label:: Very meaningful
+optional:: true
+
+#### Callout: 💬 Want to share more? (optional, click to open)
+tone:: neutral
+collapse:: closed
+
+#### Question: Open
+id:: e109bd66-fbc7-4ae1-9f92-549951e7c5b5
+content:: Anything you'd like to share about this week's journalling prompts? What resonated, what didn't, or what you'd change?
+placeholder:: Share as much or as little as you like
+optional:: true
+
+#### End Callout
+
+#### End Callout

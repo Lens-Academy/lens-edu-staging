@@ -156,3 +156,26 @@ You've just done something most theses never do: mapped out, step by step, how y
 **Next up: this week's Journalling prompts** 👇 Take a few quiet minutes to reflect on how you're resting and sustaining yourself on your impact journey.
 
 ::card[[../Lenses/ET W5 - Journalling - Resting on Your Impact Journey|Week 5 Journalling: Resting on Your Impact Journey]]
+
+#### Callout: ⭐ Quick check-in on this week's worksheet
+tone:: purple
+
+#### Question: Rating
+id:: ce4d3621-24a7-4106-ace3-1394d0eb0c37
+content:: How useful was this week's worksheet for you?
+low-label:: Not useful
+high-label:: Very useful
+
+#### Callout: 💬 Want to share more? (optional, click to open)
+tone:: neutral
+collapse:: closed
+
+#### Question: Open
+id:: 656b3014-b305-4134-abbc-3851c7525a03
+content:: Anything you'd like to share about this week's worksheet? What helped, what felt unclear, or what you'd change?
+placeholder:: Share as much or as little as you like
+optional:: true
+
+#### End Callout
+
+#### End Callout

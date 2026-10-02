@@ -36,3 +36,27 @@ content::
 
 What might this voice or part need from you in order to soften, even slightly? And what's one small way you could act alongside this feeling this week, rather than waiting for it to disappear first (i.e. sending an email while still a little nervous, asking a friend to look at your draft first, or simply reminding yourself why this work matters to you)?
 optional:: true
+
+#### Callout: ⭐ Quick check-in on this week's journalling
+tone:: purple
+
+#### Question: Rating
+id:: ef1c1df7-fcf1-4a9b-a2de-b2216346adfc
+content:: How meaningful were this week's journalling prompts for you?
+low-label:: Not meaningful
+high-label:: Very meaningful
+optional:: true
+
+#### Callout: 💬 Want to share more? (optional, click to open)
+tone:: neutral
+collapse:: closed
+
+#### Question: Open
+id:: 55cccdc8-f786-4b85-a4fe-08eb87e72aa8
+content:: Anything you'd like to share about this week's journalling prompts? What resonated, what didn't, or what you'd change?
+placeholder:: Share as much or as little as you like
+optional:: true
+
+#### End Callout
+
+#### End Callout

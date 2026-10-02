@@ -285,3 +285,26 @@ Your impactful career, like your thesis, isn't a fixed destination you arrive at
 👉 **Ready? Head to this week's worksheet:**
 
 ::card[[../Lenses/ET W7 - Worksheet - Unblocking Your Impactful Career|Week 7 Worksheet: Unblocking Your Impactful Career]]
+
+#### Callout: ⭐ Quick check-in on this week's readings
+tone:: purple
+
+#### Question: Rating
+id:: 9ec49792-a47b-4d7b-b007-27c66e9c3f99
+content:: How valuable were this week's readings for you?
+low-label:: Not valuable
+high-label:: Very valuable
+
+#### Callout: 💬 Want to share more? (optional, click to open)
+tone:: neutral
+collapse:: closed
+
+#### Question: Open
+id:: 4c041faa-ba86-4a65-a62f-c3b792b6879b
+content:: Anything you'd like to share about this week's readings? What landed, what didn't, or what you'd change?
+placeholder:: Share as much or as little as you like
+optional:: true
+
+#### End Callout
+
+#### End Callout

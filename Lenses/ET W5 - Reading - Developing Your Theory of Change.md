@@ -156,3 +156,26 @@ content::
 👉 **Ready? Head to this week's worksheet:**
 
 ::card[[../Lenses/ET W5 - Worksheet - Developing Your Theory of Change|Week 5 Worksheet: Developing Your Theory of Change]]
+
+#### Callout: ⭐ Quick check-in on this week's readings
+tone:: purple
+
+#### Question: Rating
+id:: 3d244943-6ec7-4cb7-a2bf-c84bc619f700
+content:: How valuable were this week's readings for you?
+low-label:: Not valuable
+high-label:: Very valuable
+
+#### Callout: 💬 Want to share more? (optional, click to open)
+tone:: neutral
+collapse:: closed
+
+#### Question: Open
+id:: 3e37b8d0-4ffd-4aeb-9bbc-ec87af66716c
+content:: Anything you'd like to share about this week's readings? What landed, what didn't, or what you'd change?
+placeholder:: Share as much or as little as you like
+optional:: true
+
+#### End Callout
+
+#### End Callout

@@ -60,3 +60,27 @@ content::
 
 What's one small, realistic way you'll actually get some of that this week? Name it specifically enough that you'd know if you did it, and notice anything that might get in the way, is there a belief underneath, like "I haven't earned rest yet," worth gently questioning?
 optional:: true
+
+#### Callout: ⭐ Quick check-in on this week's journalling
+tone:: purple
+
+#### Question: Rating
+id:: e8e92df4-4824-415f-bd17-080d0ddc55ce
+content:: How meaningful were this week's journalling prompts for you?
+low-label:: Not meaningful
+high-label:: Very meaningful
+optional:: true
+
+#### Callout: 💬 Want to share more? (optional, click to open)
+tone:: neutral
+collapse:: closed
+
+#### Question: Open
+id:: 4a7e6a77-2b02-4118-8d8b-7ec3af2a4bf3
+content:: Anything you'd like to share about this week's journalling prompts? What resonated, what didn't, or what you'd change?
+placeholder:: Share as much or as little as you like
+optional:: true
+
+#### End Callout
+
+#### End Callout

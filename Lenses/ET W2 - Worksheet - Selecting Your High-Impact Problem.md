@@ -224,3 +224,26 @@ Choosing a problem to focus on can feel like a big commitment, but remember, you
 **Next up: this week's Journalling prompts** 👇 Take a few minutes to reflect on the balance between exploring and exploiting in your own path.
 
 ::card[[../Lenses/ET W2 - Journalling - Explore vs Exploit Tradeoff|Week 2 Journalling: Explore vs. Exploit Tradeoff]]
+
+#### Callout: ⭐ Quick check-in on this week's worksheet
+tone:: purple
+
+#### Question: Rating
+id:: 66952bae-843a-49c2-9e03-24ddad126577
+content:: How useful was this week's worksheet for you?
+low-label:: Not useful
+high-label:: Very useful
+
+#### Callout: 💬 Want to share more? (optional, click to open)
+tone:: neutral
+collapse:: closed
+
+#### Question: Open
+id:: f7b6a58e-1b5d-48cc-968b-719cc3dfa8f6
+content:: Anything you'd like to share about this week's worksheet? What helped, what felt unclear, or what you'd change?
+placeholder:: Share as much or as little as you like
+optional:: true
+
+#### End Callout
+
+#### End Callout

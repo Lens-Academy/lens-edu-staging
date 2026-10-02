@@ -92,3 +92,26 @@ The Accelerator is ending, but this is not the end of the journey. We hope that 
 We hope that you take the time to celebrate what you've done and be proud of how far you've come. And then to take the next step! 🌱
 
 **We’re so excited to see what you do next and to continue to support your journey! 🚀💛**
+
+#### Callout: ⭐ Quick check-in on this week's readings
+tone:: purple
+
+#### Question: Rating
+id:: c82af9ab-4a89-4917-8943-7f62a126fdd1
+content:: How valuable were this week's readings for you?
+low-label:: Not valuable
+high-label:: Very valuable
+
+#### Callout: 💬 Want to share more? (optional, click to open)
+tone:: neutral
+collapse:: closed
+
+#### Question: Open
+id:: ba088a5f-7883-47e9-97d8-2f100a7c08af
+content:: Anything you'd like to share about this week's readings? What landed, what didn't, or what you'd change?
+placeholder:: Share as much or as little as you like
+optional:: true
+
+#### End Callout
+
+#### End Callout
