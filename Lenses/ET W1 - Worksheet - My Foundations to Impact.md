@@ -79,7 +79,7 @@ content::
 content::
 ---
 
-\# Part 2: Your Thesis as an Ikigai Experiment
+\# Part 2: Your Thesis as an Ikigai Experiment ^part-2
 
 \## 2a. Draft your thesis-as-Ikigai statement
 
@@ -169,7 +169,7 @@ optional:: true
 content::
 ---
 
-\# Part 3. Next Steps
+\# Part 3. Next Steps ^part-3
 
 #### Question: Open
 id:: 4447157e-16ae-4573-bab1-d2a19dc75b41
