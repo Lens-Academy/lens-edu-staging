@@ -658,7 +658,7 @@ var WFM = {
   var completed = false;
   // Nothing is saved until the saved state has arrived, so early typing cannot overwrite it.
   var hydrated = !window.Lens;
-  var open = { factors: true, score: false, results: false };
+  var open = { factors: true, questions: false, score: false, results: false };
   var ui = { confirm: null, detail: null, editingDesc: {}, openF: {}, openQ: {}, shortN: 5, shortMsg: "" };
   var live = { cats: [], readouts: [], totals: {}, statuses: {} };
 
@@ -714,8 +714,9 @@ var WFM = {
   // ---------- step shell ----------
   var STEPS = [
     { id: "factors", num: "Step 1", title: "Choose and weight your factors" },
-    { id: "score", num: "Step 2", title: "Add and score your shortlisted questions" },
-    { id: "results", num: "Step 3", title: "See what rises to the top" }
+    { id: "questions", num: "Step 2", title: "Add your shortlisted questions" },
+    { id: "score", num: "Step 3", title: "Score each question" },
+    { id: "results", num: "Step 4", title: "See what rises to the top" }
   ];
   var app = document.getElementById("app");
   var warnEl = document.getElementById("warn");
@@ -725,6 +726,7 @@ var WFM = {
     var sl = WFM.shortlist(state), named = 0, i;
     for (i = 0; i < state.questions.length; i++) if (WFM.hasText(state.questions[i])) named++;
     if (id === "brainstorm") return { done: sl.length >= 2, text: named + " question" + (named === 1 ? "" : "s") + ", " + sl.length + " shortlisted" };
+    if (id === "questions") return { done: sl.length >= 2, text: sl.length + " shortlisted question" + (sl.length === 1 ? "" : "s") };
     if (id === "factors") {
       var rd = WFM.weightReadout(state.factors);
       return { done: rd.ok, text: state.factors.length + " factors, " + (rd.ok ? "weights add up to 100" : rd.text) };
@@ -737,7 +739,7 @@ var WFM = {
     return { done: c.ok, text: c.ok ? "Complete" : c.missing.length + " thing" + (c.missing.length === 1 ? "" : "s") + " left to finish" };
   }
   function openOnly(id) {
-    open = { factors: false, score: false, results: false };
+    open = { factors: false, questions: false, score: false, results: false };
     if (id) open[id] = true;
   }
   function chooseOpen() {
@@ -997,7 +999,7 @@ var WFM = {
       state.factors = WFM.freshFactors(); ui.editingDesc = {}; ui.openF = {}; renderAll(); persist();
     });
     if (cb) body.appendChild(cb);
-    body.appendChild(nextButton("score", "Next: score your shortlist"));
+    body.appendChild(nextButton("questions", "Next: add your shortlisted questions"));
   }
   function factorBlock(f, idx) {
     var pid = "f-" + f.id;
@@ -1124,14 +1126,17 @@ var WFM = {
     var cc = clearExampleConfirm();
     if (cc) body.appendChild(cc);
   }
-  function renderScore(body) {
+  function renderQuestions(body) {
     questionEditor(body);
-    body.appendChild(h("h4", { text: "Score each question" }));
+    body.appendChild(nextButton("score", "Next: score each question"));
+  }
+  function renderScore(body) {
     body.appendChild(h("p", { text: "Score each question against each factor, on a 1-10 scale. Tap a factor's name to see what it asks." }));
     var sl = WFM.shortlist(state);
     if (sl.length < 1 || !state.factors.length) {
-      body.appendChild(h("p", { className: "note", text: !state.factors.length ? "Add at least one factor first." : "Add your shortlisted questions above (or load the worked example) to start scoring." }));
+      body.appendChild(h("p", { className: "note", text: !state.factors.length ? "Add at least one factor first." : "Add your shortlisted questions in Step 2 (or load the worked example there) to start scoring." }));
       if (!state.factors.length) body.appendChild(h("div", { className: "actions" }, [h("button", { type: "button", id: "goto-factors", text: "Go to your factors", onclick: function () { goTo("factors"); } })]));
+      else body.appendChild(h("div", { className: "actions" }, [h("button", { type: "button", id: "goto-questions", text: "Go to your questions", onclick: function () { goTo("questions"); } })]));
       return;
     }
     body.appendChild(detailBox());
@@ -1353,7 +1358,7 @@ var WFM = {
     return wrap;
   }
 
-  var RENDER = { brainstorm: renderBrainstorm, factors: renderFactors, score: renderScore, results: renderResults };
+  var RENDER = { brainstorm: renderBrainstorm, factors: renderFactors, questions: renderQuestions, score: renderScore, results: renderResults };
 
   // ---------- live refresh (no rebuild of what the learner is typing in) ----------
   function setTotals() {

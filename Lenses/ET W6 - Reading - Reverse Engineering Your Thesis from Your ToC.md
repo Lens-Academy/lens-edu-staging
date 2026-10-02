@@ -24,9 +24,17 @@ content::
 
 Once you’ve completed your Theory of Change (ToC), the next step is to **reverse engineer your thesis** from the outputs that matter. The goal is to transform your high-level pathways to impact into a **concrete, actionable research project**.
 
+:::callout {title="🗺️ Steps in Part 1 (click a step to jump to it)" tone="neutral"}
+
+1. [[#^step-1|**Step 1. Define Desired Thesis Outputs**]]
+2. [[#^step-2|**Step 2. Formulate Your Thesis Question**]]
+3. [[#^step-3|**Step 3. Iterate with Stakeholder Feedback and Collaboration**]]
+
+:::
+
 ![Part 1. Steps to Reverse Engineer Your Thesis from Your ToC](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w6-reading-01.png)
 
-\### Step 1. Define Desired Thesis Outputs
+\### Step 1. Define Desired Thesis Outputs ^step-1
 
 **Question:** What tangible output from your thesis would contribute to the outcomes you are interested in?
 
@@ -51,7 +59,7 @@ Different outputs matter for different stakeholders (i.e. an NGO may just want a
 
 💡 This list isn't exhaustive but meant to help you ideate on different formats and outputs that can be created beyond just an academic paper!
 
-\### Step 2. Formulate Your Thesis Question
+\### Step 2. Formulate Your Thesis Question ^step-2
 
 **Question:** What research question or project could realistically produce these outputs? Focus on making the question **clear, actionable, and researchable, and link to the outputs you want to create.**
 
@@ -99,7 +107,7 @@ content::
 - [University of Guelph: Six Steps to Writing a Research Question](https://guides.lib.uoguelph.ca/c.php?g=743978&p=5379960), practical and step-by-step, useful if you want a structured process to follow rather than just principles.
 - [Formulating a Good Research Question: Pearls and Pitfalls](https://pmc.ncbi.nlm.nih.gov/articles/PMC6691636/), a deeper dive into the FINER criteria above, plus common mistakes to watch for.
 
-\### Step 3. Iterate with Stakeholder Feedback and Collaboration
+\### Step 3. Iterate with Stakeholder Feedback and Collaboration ^step-3
 
 💡 **Key Idea:** Your thesis is a working hypothesis - both your outputs and research question may need to evolve based on feedback from the real-world stakeholders you are trying to impact.
 
@@ -108,27 +116,6 @@ content::
    - Perhaps a different output would be more actionable or impactful.
 - Consider **co-developing outputs** with stakeholders as a part of your thesis process to ensure that your research has direct relevance to their work.
 
-\## Part 2. Examples of Reverse Engineering from Outputs
+👉 **Next up: see these steps in action in Part 2.**
 
-\### Example 1: Policy Briefs for AI Safety
-
-![Example 1: Policy Briefs for AI Safety](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w6-reading-02.png)
-
-|  |  |
-|---|---|
-| Beginning with the ToC | The thesis began by identifying a critical policy bottleneck: policymakers lack an actionable understanding of AI safety research. The ToC helped map the pathway from this bottleneck to key stakeholders (i.e., policy think tanks and policy makers), changes that will happen in these stakeholders, and the long-term vision. |
-| Define Desired Thesis Outputs | 2–3 policy briefs co-developed with policy think tanks<br>These outputs are directly linked to the outcome: policymakers understand AI risks and adopt relevant safety measures. These outcomes then connect to the broader vision: safer AI deployment and regulation. |
-| Formulate Thesis Question | Research Question Identified: “How can AI safety research be translated into policy briefs that maximize comprehension and adoption by policymakers?”<br>Good Example Criteria: The question is clear, actionable, and directly linked to producing the desired output. |
-| Identify and Collaborate with Stakeholders | • Stakeholders: AI Policy Think Tank - Centre for the Governance of AI (GovAI), AI Now Institute<br>• Stakeholder Collaboration: Partner with policy think tanks to co-author policy brief (higher ask), or to read the completed research (lower ask)<br>• Next Step: Begin scheduling expert interviews to refine the thesis idea (policy brief) and research question, and explore collaboration |
-
----
-
-\## 3. Next Steps
-
-- **Week 6 Worksheet on Reverse Engineering your Thesis.** Work on your worksheet before the discussion, especially if you’re in the mastermind for this week!
-- **Explore this week’s Journaling tab** for journaling prompts for the week
-- **Attend your Weekly Discussion** (please inform your facilitator if you are unable to make it for the week)
-
-👉 **Ready? Head to this week's worksheet:**
-
-::card[[../Lenses/ET W6 - Worksheet - Reverse Engineering Your Thesis|Week 6 Worksheet: Reverse Engineering Your Thesis]]
+::card[[../Lenses/ET W6 - Reading 2 - Examples of Reverse Engineering from Outputs|Part 2. Examples of Reverse Engineering from Outputs]]
