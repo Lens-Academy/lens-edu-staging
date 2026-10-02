@@ -135,7 +135,7 @@ content::
 
 ---
 
-\# Part 3. Continue Stakeholder Outreach
+\# Part 3. Continue Stakeholder Outreach ^part-3
 
 **Instructions:** Please continue your stakeholder mapping and outreach in your Stakeholder Outreach Tracker from Week 4’s worksheet. It's the same tracker, so anything you add here also shows up in Week 4 (and vice versa)! We recommend identifying and reaching out to >20 stakeholders. If you haven’t received any replies from your Week 4 outreach, we encourage you to reach out to additional stakeholders.
 
@@ -146,7 +146,7 @@ source:: [[../widgets/et-w4-stakeholder-tracker]]
 content::
 ---
 
-\# Part 4. Prepare for Week 8 Presentations
+\# Part 4. Prepare for Week 8 Presentations ^part-4
 
 In Week 8, you will each present an overview of what you’ve worked on over the past 8 weeks, summarised in a short presentation using the template below.
 
