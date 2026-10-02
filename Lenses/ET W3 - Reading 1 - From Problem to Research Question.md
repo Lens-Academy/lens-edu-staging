@@ -37,12 +37,23 @@ Ambitious Impact (AIM, formerly Charity Entrepreneurship) runs the Charity Entre
 
 - Their exact numbers are their scale, not a rule to copy, your organisation, and certainly your thesis, will have different needs and constraints: a different number of stages, a different number of ideas at each stage, different time budgets, and possibly different tools. What's worth borrowing is the underlying principle, not the specific parameters.
 
+#### End Callout
+
+#### Text
+content::
 ![Principle of Iterative Depth](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w3-reading-01.png)
 
-**Learn more**
+#### Callout: Learn more
+tone:: blue
 
+#### Text
+content::
 Filip Murar's [prioritization workshop slides from EAGxPrague 2025](https://docs.google.com/presentation/d/1lkAMg3yC-FxTV96vnCP8iuhu3y0FAxnE05SKpiltyLI/edit), and AIM's own write-up of their [research process](https://sites.google.com/charityentrepreneurship.com/ambitious-impact-research/our-research-process/prioritization).
 
+#### End Callout
+
+#### Text
+content::
 \### You will likely continue to iterate as the program continues!
 
 Next week, you'll map the bottlenecks and key stakeholders in your problem area, and it's entirely normal, expected even, for that process to reshape your thinking about which question is actually worth pursuing. You'll get to iterate based on what real stakeholders are telling you, rather than staying locked into your own preconceived notions from this week. Treat what you land on here as your best current answer, not a locked-in commitment. Iteration is a feature of good research, not a sign you did this week wrong!
