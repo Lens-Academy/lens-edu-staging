@@ -66,14 +66,29 @@ content::
 - Week 8 Slides: [\[Shared - 2026\] Week 8: Final Presentations!](https://docs.google.com/presentation/d/1ZJUR8o63iX1Qhb0yC7J3l8Zx8yWt613Fi6s37eukvH8/edit?slide=id.g3c2de3e637f_0_152#slide=id.g3c2de3e637f_0_152)
 - Week 8 Template for participants: [\[TEMPLATE\] Week 8 Presentation ET Accelerator: Oct-Dec 26'](https://docs.google.com/presentation/d/16l-eKuJcJnzKP5F-IOoNuUoHZqw-sPGi3Kb0Q-xw64Q/edit?slide=id.g3fb78c7d3ee_1_0#slide=id.g3fb78c7d3ee_1_0)
 
-\### 3m · Welcome & Group Check-In
+\### Recommended Structure for the Session
 
+*This is the flow we recommend for your 1.5h session, split into parts. Tap each stage to open it. Feel free to adapt the structure to your group - if you have a larger group (>4 participants), see [[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]] for alternative formats.*
+
+#### Callout: Part 1: Welcome & Connection
+tone:: neutral
+
+#### Callout: 1. 3m · Welcome & Group Check-In
+collapse:: closed
+
+#### Text
+content::
 - **Welcome participants and check-in**
 - Emphasize that this session is about sharing progress, celebrating learning, and receiving constructive feedback.
 - Remind participants that presentations are not about “perfect” outputs but about demonstrating thoughtful integration of frameworks and application to their idea.
 
-\### 7m · 1:1 Speed Friending
+#### End Callout
 
+#### Callout: 2. 7m · 1:1 Speed Friending
+collapse:: closed
+
+#### Text
+content::
 **Pair participants (or groups of 3 if numbers require) and suggest some icebreaker questions to discuss:**
 
 - **What are you proud of yourself for in the last 8 weeks?**
@@ -82,13 +97,18 @@ content::
 
 **If you would like to do a group activity/game instead, [[../Lenses/ET FG Resources - Icebreaker Speed Friending Question List|here]] are some ideas.**
 
-#### Callout: [60 min] Participant Presentations with Live Feedback
+#### End Callout
+
+#### End Callout
+
+#### Callout: Part 2: Participant Presentations with Live Feedback
 tone:: neutral
+
+#### Callout: 3. 60m · Presentations
+collapse:: closed
 
 #### Text
 content::
-\### 60m · Presentations
-
 **Focus Time:** Aim to give each participant 10–15 minutes of focus time on their presentation, shorter if the group is larger. For larger groups, we recommend only scheduling 4–5 presentations per session to allow meaningful discussion, or to split into breakout groups.
 
 *If you have a larger group (>4 participants), please see [[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]] for alternative formats.*
