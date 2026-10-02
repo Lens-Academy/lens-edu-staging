@@ -29,7 +29,7 @@ content::
 Choose the question you prefer and discuss it with the AI tutor:
 
 * How do you understand the metaphor between AI and rocket science and cryptography used in this video? Which similarities do you think are accurately identified? And what differences should be considered to prevent this analogy from going too far?  
-* When you encounter a proposal at the level of "just aim for the moon and then steer," what two clarifying requirements from the {--{"author":"Plex's AI","timestamp":1790617729645}@@article--}{++{"author":"Plex's AI","timestamp":1790617729645}@@talk++} would you apply to distinguish a viable idea from "0% success," and what exactly would you ask the author of the idea to describe in a simplified model?
+* When you encounter a proposal at the level of "just aim for the moon and then steer," what two clarifying requirements from the talk would you apply to distinguish a viable idea from "0% success," and what exactly would you ask the author of the idea to describe in a simplified model?
 
 #### Chat
 instructions::

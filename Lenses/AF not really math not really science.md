@@ -9,8 +9,8 @@ title: "Agent Foundations: not really math, not really science"
 %% #### Text
 content:: %%
 %% COMMENTED OUT (AI slop):
-This perspective argues that we need a basic science of alignment. Without Agent Foundations, we are just fumbling in the dark. We need to understand the deep structure of goals and agency to ensure that a superintelligent system doesn't develop catastrophic instrumental goals.{++{"author":"Plex's AI","timestamp":1790617850783}@@
-%%++}
+This perspective argues that we need a basic science of alignment. Without Agent Foundations, we are just fumbling in the dark. We need to understand the deep structure of goals and agency to ensure that a superintelligent system doesn't develop catastrophic instrumental goals.
+%%
 
 #### Article
 source:: [[../articles/altair-agent-foundations-not-really-math-not-really-science]]
