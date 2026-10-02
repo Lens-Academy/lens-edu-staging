@@ -11,17 +11,23 @@ content::
 
 In this week’s worksheet, we’ll work on ranking high-impact problems that *you* are drawn to working on! Now that we have a framework we can use to select problems, we can look at the landscape of different problems that exist in the world - that may be really impactful for you to work on.
 
-**Expansion before committing at this early research stage.** One of the most common pitfalls we see is NOT considering enough options in the first place. Oftentimes, we may quickly feel biased towards our initial ideas - a form of **confirmation bias** where you stop looking once something feels good enough. At the beginning stages of creating your research project, we strongly recommend considering more options than you may initially think first. This is because the cost of considering (and then discarding) a bad idea is low, since you're not committing any real time to it yet. But, the cost of missing a really impactful idea is high, since you’ll never spend your hundreds of hours working on it.
+This section gives you an overview of the landscape of high-impact problems. Please look through it to consider problem areas you may not have thought about yet! To begin with, here's an overview of some cause area clusters: see if there's anything you haven't considered before that you're interested in.
 
-\### Landscape of high-impact problems
+:::callout {title="🔭 Expansion before committing at this early research stage" tone="blue"}
 
-**A map of cause area clusters.** There are many different organisations and thinkers who have spent years researching which problems tend to be most important, neglected, and tractable at the margin. This is by no means exhaustive, but helpful as a jumping off point for you to consider problem areas you may not otherwise have!
+One of the most common pitfalls we see is NOT considering enough options in the first place. Oftentimes, we may quickly feel biased towards our initial ideas - a form of **confirmation bias** where you stop looking once something feels good enough. At the beginning stages of creating your research project, we strongly recommend considering more options than you may initially think first. This is because the cost of considering (and then discarding) a bad idea is low, since you're not committing any real time to it yet. But, the cost of missing a really impactful idea is high, since you’ll never spend your hundreds of hours working on it.
 
-![Landscape of high-impact problems](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w2-reading-02.png)
+:::
 
-\#### List of pressing problems by 80,000 hours
+\### Overview map of cause area clusters
 
-One key resource we recommend spending some time on is 80,000 hours - a non-profit that helps people find fulfilling careers that make a big positive impact. They frequently update their list of pressing problems and explain:
+There are many different organisations and thinkers who have spent years researching which problems tend to be most important, neglected, and tractable at the margin. This is by no means exhaustive, but helpful as a jumping off point for you to consider problem areas you may not otherwise have!
+
+![Overview map of cause area clusters](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w2-reading-02.png)
+
+\### List of pressing problems by 80,000 hours
+
+Next, you can read through this list of pressing problems by 80,000 Hours, a non-profit that helps people find fulfilling careers that make a big positive impact. They frequently update their list of pressing problems and explain:
 
 “We prioritise problems that are especially large in scale, neglected by others, and solvable — because [that’s where additional people can usually make the biggest difference](https://80000hours.org/articles/problem-framework/). This list is our best guess at which problems score highest on those factors, and therefore most need more people working on them. This list is constantly evolving, and we expect to revise it over time. There are also [many reasonable ways to disagree](https://80000hours.org/problem-profiles/#most-likely-to-be-wrong).”
 
@@ -31,9 +37,13 @@ One key resource we recommend spending some time on is 80,000 hours - a non-prof
 
 Source: [List of pressing world problems](https://80000hours.org/problem-profiles/) (80,000 Hours)
 
-:::callout {title="Action: Choose one on the list below to read through" tone="amber"}
+\### ✅ Action: Choose at least one on the list below to read through
 
-As a next step, please pick one of the readings below to look through - to help expand your current set of potential impactful problems that you could work on. Remember that none of these lists can tell you exactly what to work on. As you read, it's just as important to notice how *you* relate to a given problem (does it energise you? How does it relate to your Ikigai?) as it is to notice how the problem scores on paper. We'll come back to that in the worksheet!
+:::callout {title="Action: Choose at least one on the list below to read through" tone="amber"}
+
+As a next step, please pick at least one of the readings below to look through - to help expand your current set of potential impactful problems that you could work on. Remember that none of these lists can tell you exactly what to work on. As you read, it's just as important to notice how *you* relate to a given problem (does it energise you? How does it relate to your Ikigai?) as it is to notice how the problem scores on paper. We'll come back to that in the worksheet!
+
+**Lists of problems to explore:**
 
 - ⭐ [List of useful resources on global problems](https://docs.google.com/document/d/1nnfKcjL3ayLTchKLiPC9fghWon6p7NuhwmF9NSxKrlQ/edit?usp=sharing) (Non-trivial)
 - ⭐ [List of pressing world problems](https://80000hours.org/problem-profiles/) (80,000 Hours)
@@ -45,7 +55,18 @@ As a next step, please pick one of the readings below to look through - to help 
 - [Global risks](https://globalchallenges.org/global-risks/) (Global Challenges Foundation)
 - [Top 20 Current Global Issues](https://www.humanrightscareers.com/issues/current-global-issues/) (Human Rights Careers)
 
+**Examples of problem profiles using the ITN framework:**
+
+- Profile on [factory farming by 80,000 hours](https://80000hours.org/problem-profiles/factory-farming/)
+- Profile on [preventing catastrophic pandemics by 80,000 hours](https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics/)
+- Why working on risks from power-seeking AI systems may be neglected and tractable [by 80,000 hours.](https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/#section-five)
+- Profile on [climate change by 80,000 hours](https://80000hours.org/problem-profiles/climate-change/)
+- Profile on [nuclear security by 80,000 hours](https://80000hours.org/problem-profiles/nuclear-security/)
+- [Global health and development cause area profiles by Probably Good](https://probablygood.org/cause-areas/)
+
 :::
+
+---
 
 \## 4. ITN and My Ikigai
 
