@@ -1,6 +1,7 @@
 ---
 title: "Article presentation demo"
 author: Lens Academy
+author_url: https://lensacademy.org
 published: 2026-06-16
 source_url: https://editor.lensacademy.org/24abc9c0/Lens-Edu/articles/Article-annotation-and-text-collapse-demo.md
 ---
