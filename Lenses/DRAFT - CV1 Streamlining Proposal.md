@@ -129,6 +129,18 @@ Session docs are copied up to 21 days before each meeting, so an edit reaches on
 
 #### Text
 content::
+\## F. Plain language
+
+**F1. Rewrite the text Lens wrote so it reads on the first pass.** XLab's lessons are imported with instructions to keep their framing, but a good share of what a learner reads is Lens's own: every tldr, the overview, the meeting docs, callout titles, and the prompts and keys rebuilt from XLab widgets the platform cannot run. Much of it was drafted by AI and reads that way: long sentences stacked with colons and semicolons, compressed metaphors the reader has to unpack, and closing aphorisms. The Context Distiller's tldr, for example, asks the learner to "thread every point to a desk". The standard is the one [[../AI Guide/Writing Meeting Docs]] already sets for prompts, applied to lenses: an intelligent reader gets it in one pass, sentences are short and concrete, and every term is defined or dropped.
+
+**F2. Apply the spoiler test to every tldr.** A tldr can be shown in the lens navigation before the page is opened, and the tutor receives it as context. A tldr that states an exercise's result therefore hands the result over in advance. The tldr of [[../Lenses/XLab Verification - v-actor-edges]] gives the number of actors left with no arrow and names the chip designer holding up three subgoals, which are the findings the exercise asks the learner to reach. AIRF found the same failure in its long welcomes.
+
+**F3. Tell Lens's text from XLab's before rewriting.** Elias's notes mark much of the rebuilt material, and the rest can be checked against XLab's source repository, which the course file links. Where XLab's own text is hard to parse, the default is to leave it and send it through XLab's feedback form, since editing it is a call for you and Elias.
+
+**F4. A reworded prompt takes its feedback brief with it**, in the same edit, so the brief still describes the question the learner sees.
+
+#### Text
+content::
 \## Coordinating with Elias
 
 29 notes signed Elias's AI sit in 19 of the 36 lenses CV1 uses; there are none in its modules, meeting docs or outcomes. Most explain how a passage was ported and need nothing. These need him before work starts:
@@ -137,6 +149,7 @@ content::
 - **Structure he has treated as his to decide.** In Compute Verification 2's covert-development lenses, renumbering and naming were left to him. A1, C2 and C3 touch the same ground in CV1.
 - **A2's written output**, which duplicates required unit 4 work, and **D**, which repeats the resolution he placed in Compute Verification 2.
 - **The twelve unattached unit 1 lenses**, which this proposal leaves alone, and whether they are still needed.
+- **F rewrites text his AI ported or wrote**, such as prompts rebuilt from XLab widgets. His notes on those passages are the record of what is XLab's and what is not.
 - **Notes beside questions that B will edit**, in the actor map workshop, [[../Lenses/XLab Verification - v-actor-edges]], the Context Distiller, the trusted-statement lens, precedents, treaty anatomy, and upstream and downstream. Every edit will be split to go around them, never through them.
 - **One open check:** whether the imported MIRI paper is the v3 the curriculum pins.
 
