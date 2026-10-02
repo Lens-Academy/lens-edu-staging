@@ -33,7 +33,7 @@ A short passage from I.J. Good's paper on the first ultraintelligent machine. Go
 
 topics to explore:
 - We are a shape of intelligence grown by evolution and AI is a shape of intelligence grown by us. Will an intelligence grown or built by a hyper-intelligent AI be another such paradigm change? 
-- Is the creation of further ultra-intelligent closer to a cycle (the same output reinvested again and again) or to a cascade (each breakthrough opening up the next)? 
+- Is the creation of further ultra-intelligent machines closer to a cycle (the same output reinvested again and again) or to a cascade (each breakthrough opening up the next)? 
 - Is there a way to impose design constraints onto the second generation of machines? What would be the benefits and drawbacks?
 
 

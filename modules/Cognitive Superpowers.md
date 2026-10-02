@@ -27,7 +27,7 @@ summary_for_tutor:: Opening lens for the Cognitive Superpowers module. The learn
 reading_minutes:: 4
 #### Text
 content::
-In this module, we explore the myriad ways in which intelligence gives agents power. Specifically, it gives agents power over their environment and over other agents that are less intelligent.
+In this module, we explore the myriad ways in which intelligence gives agents {--{"author":"Elua's AI","timestamp":1790940611815}@@power. Specifically, it gives agents power --}{++{"author":"Elua's AI","timestamp":1790940611815}@@power: ++}over their {--{"author":"Elua's AI","timestamp":1790940611815}@@environment--}{++{"author":"Elua's AI","timestamp":1790940611815}@@environment,++} and over{--{"author":"Elua's AI","timestamp":1790940611815}@@ other agents that are--}{++{"author":"Elua's AI","timestamp":1790940611815}@@ other,++} less {--{"author":"Elua's AI","timestamp":1790940611815}@@intelligent.--}{++{"author":"Elua's AI","timestamp":1790940611815}@@intelligent agents.++}
 
 #### Article
 source:: [[../articles/yudkowsky-optimization-and-the-singularity]]
