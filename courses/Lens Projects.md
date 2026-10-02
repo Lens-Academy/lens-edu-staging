@@ -28,9 +28,9 @@ intro-form:: true
 %%
 Unit 1 goals:
 - Choose your track: Fit, or a field project
-- Agree the AI use policy: AI for doing, never for deciding
+- Agree the AI use policy: use AI as a tool, not a decision-maker
 - See what earlier participants made (example gallery) and browse the project bank
-- Write the proposal canvas: a problem, a specific audience, an observable short-term change, and a $0 version (proposal draft 1)
+- Write the proposal canvas: a problem, a specific audience, an observable short-term change, and a version you can make with what you already have (proposal draft 1)
 
 Readings:
 - Core: "Nailing the basics: theories of change" (already in Lens); example gallery; AI use policy
