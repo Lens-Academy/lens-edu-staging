@@ -53,7 +53,7 @@ Choose one or two areas you're seriously considering and spend time mapping the 
 **How & Resources:**
 
 - Apply for Mentorship with [Magnify Mentoring](https://www.magnifymentoring.org/)
-- Apply for 1:1 advising with [Probably Good](https://probablygood.org/advising/) or [80,000 Hours](https://80000hours.org/speak-with-us/)
+- Apply for 1\:1 advising with [Probably Good](https://probablygood.org/advising/) or [80,000 Hours](https://80000hours.org/speak-with-us/)
 
 :::
 
