@@ -8253,3 +8253,1330 @@ Statement
 - **David Wiseman**
 - **Dan Dereje Gebremichael**
 - **Sean Hutchinson**
+- **Cade Sanders**
+- **Théo Geay**
+- **Kyle Jones**, Software Developer
+- **Mark Miller**
+- **Mohl György**
+- **Karl Hartmann**, Student
+- **Helena Magis**
+- **Michael Schöggl**, CEO, Avataris
+- **Caolan Barron**, Software Developer
+- **Saleh Khan**, UC Santa Cruz
+- **Thomas Hutchins**
+- **Bill Luo**
+- **Sophia Pargaonkar**
+- **Hong Yao Lim**
+- **Avery Vermillion**
+- **Manolo Eschmann**, Data Analyst
+- **Steven Morgan**
+- **Kamiel Maes**, Game Designer
+- **Justin Bradshaw**, Software Developer
+- **Nguyễn Đức Trí**, University Student, VinUniversity
+- **Katie Kazlas**
+- **Tony Pasternak**
+- **Zeo Solomons**
+- **Peter O'Shaughnessy**, Software Developer
+- **Jon Laine**
+- **Tobias Moritz**
+- **Kevin Dooley**
+- **Monica Weller**
+- **Katrina Jevons**
+- **Kyra Power**
+- **David Harvey**
+- **Lev Vladimirovich Berezin**
+- **Miliann Tanguy**
+- **Kathleen McBride**
+- **Miriam Sörries**
+- **Linus Holmqvist**, Student, Chalmers
+- **Ade Rayendra**, Senior Software Engineer
+- **Laurent Bergeron**
+- **Absar Shahid**
+- **Paul Santos Boulat**
+- **Kathy Terry**
+- **Gabriel McCartney Halloway**, Welder
+- **Matthew Santos**
+- **Abigaël Hanae Legrand**
+- **Isar Mani Pradhan**
+- **David William Geithman**
+- **Reid Fortes**
+- **Tristan Arnold Arjona**
+- **Thomas Ersevim**, Physics PhD Student, University of California, Berkeley
+- **Asami Fujii**
+- **Ruben Teselink**, Privacy & information Security Officer
+- **Douglas Scheinberg**
+- **Gabriel McIlquham**
+- **Emil Sehlen**, Aspiring Historian, Musician
+- **Mark McKuin**, Superintendent, Utility Company, Honorably Discharged Veteran
+- **Glenda Hathorn**
+- **Aleksandra Niemir**, Psychologist
+- **Jeffery D Bartling**, IT Support Technician
+- **Olivier Proulx**
+- **George Clement Peer**
+- **Aleksandr Filippov**
+- **Landon Bryan**
+- **Cadence Longo**
+- **Finn Martin**
+- **Justine Reyes**, Creative Artist, Writer
+- **Mark Kreitler**, Software Engineer, Escape Velocity Entertainment
+- **Harrison Te Vrede**
+- **Arild Pfluger Hundeide**
+- **Kavin Udayasuryan**, Grad Student, University of California, San Diego
+- **Anindo Adhi**
+- **Clifford Johnstun**, Computer Scientist, Owner Code Experts, LLC.
+- **Nuttawut Kudetsuntiwong**, College Student, Chiang Mai University
+- **William Nauman**, Electrical Engineer
+- **Mark E Basko**, Electronic Technician
+- **Clare Head**
+- **Gavin Jones**, Lead Standards Development Manager (AI and Quantum Tech), British Standards Institution
+- **Sean Sebastian Fannon Ruiz**
+- **Owen Bullock**
+- **Nikodem Stępień**
+- **Matthew Batten**
+- **Antonia Taneva**
+- **Tomás Yuri Krasijewicz**
+- **Krittin Chuaiphikroh**, King Mongkut’s Institute of Technology Ladkrabang
+- **Merri Abernethy**
+- **Dalton Taylor**, Infrastructure Engineer
+- **Agnes Caswell**
+- **Robert Auerbach**, US Army, Retired
+- **Alex Martinson**, IT
+- **Christopher Gohlke**, Strategic Operations Implementation and Development
+- **Abdulmajeed Alkhalaf**, Computer Science Student, King Faisal University
+- **Benjamin Stadler**
+- **Michał Sapalski**, Software engineer, Google Poland
+- **David Rubel**, University of Delaware
+- **Tom Pettett**
+- **Paul Newman**, Panera bread employee
+- **April Johnstun**
+- **Maxwell Quinn Juedes**, Student, Milwaukee Institute of Art and Design
+- **Ashley Rose Adzima**
+- **Kei Alcoseba**, Music Educator, University of Alberta
+- **Shreyank Sandu**, Student, UIC
+- **Connor Marsh**, Student
+- **Eli Mae Snodgrass**
+- **Stefanie Ebeling**
+- **Grace Kelly**, Waitress
+- **Anthony Parker**
+- **Brennon Stevens**
+- **Benjamin Ignacio Escobar Molero**, Student, Baruch College
+- **Felicia Favreau**
+- **Lucas Wetherell**, Student
+- **Marilyn C Ames**
+- **Daniel Wilkins**
+- **Zachary Fulcher**
+- **Noah Lasorda**
+- **Gouranga Mall**
+- **Clancy Atkinson**
+- **David M. Colon**, Airline Pilot
+- **Michail Kanoupakis**, Data Engineer
+- **Riewert Henau**
+- **Lucas Denhof**
+- **Mikey Lasker**
+- **Lou Petto**, Musician, Salesperson
+- **Josiah Kelly**
+- **Nikka Nanta**
+- **Arwen Taylor**
+- **Michael Wiedholz**
+- **Catalina Massey Pardo**
+- **Subhadip Mandal**, Photographer
+- **Doug Manley**
+- **Janet Louise Fontenot Duhon**, Retired Nurse
+- **Oliver Minton**
+- **Caleb Dagalea**
+- **Zander Berkey**
+- **Ahmed Ägyptish**, Physician
+- **Yoni Doni**
+- **Matthew Herbert**
+- **Anny Trudel**
+- **Tanya Lim**
+- **Michael Wayne DeHaven**, Electronics Engineer
+- **Eduardo Fiuza Salvado**
+- **David Minutello**, Social Worker
+- **Andy DuyAnh Nguyen**, Video Editor, Video Editor for Tyler The Creator
+- **Paula Fitch**
+- **Pham Nguyen Duc Tri**
+- **Stephanie Hervey**, Data Architect, The Artisan Hub, Founder of Creative Arts Council
+- **David John Moore**
+- **Therese Jaede**
+- **Kira Jo**
+- **Damon O’Regan-Mals**
+- **Leo Medvinsky**, Founder, LX Aer
+- **Cameron Burke**
+- **Cameron Leja**
+- **Kajus Čibirka**
+- **Rafael Amorim**
+- **Dylan Nelson**
+- **Gor Mirzakhanyan**
+- **Melvin Gautreau**, Editor
+- **Casian Kovacs**
+- **Danielle Oliveira**, Linguistics Student
+- **Michael Brady**
+- **Oleksandr Prasolov**
+- **Giuliano D'agostini**
+- **H. J. Figglemoore**
+- **Josue Cortorreal**, Artist
+- **Em Passant**
+- **Usenco Iosif-David**, Social Media Manager
+- **Antonio Pollino**
+- **Nicholas A. Fry**, Student
+- **Phoebe Randall**
+- **Ken Hsu**, Student
+- **Ashley Skiver**, Registered Nurse
+- **Andreas Müller-Alwart**, Journalist, Coach, TransForTaiment Journalismus & Consulting
+- **Kaden Beeke**
+- **Anca Moise**, Student
+- **Marley Wragg**
+- **Luka Petković**, Teaching Assistant, University of Belgrade
+- **Tristan Cisternas**
+- **Heath Lesjak**
+- **Emil Schläger**, Student
+- **Will Griffiths**, Producer, Global Fire Creative
+- **Julie Wilkinson**, Admin Assistant
+- **Jonathan Scheef**
+- **Jonah Pascal**, Iut Blagnac
+- **Simon Maneth**
+- **Diana Smyrnova**, Game Designer
+- **Zane Andrew Louis Cannon**
+- **Jonathan Roberts**, Trainer, Equinox SportsClub SF
+- **Dylan Enrigue Huntington**, Student, Alumno Sobresaliente 2022-2023 UNAM
+- **Harshith Mardithaya**, Student, BGS College of Engineering and Technology
+- **Elliott Aaron Malerman**
+- **Liviu Alexandru Badea Badea**
+- **Conner Pearson**
+- **Haider R. Hussain**, Research Trainee, University of Maryland
+- **Rafał Górski**, Prezes Zarządu, Instytut Spraw Obywatelskich
+- **Sauli Pöysä**, Creative Director
+- **Anni Karp**
+- **Gio González**
+- **Gabrielius Ceiko**
+- **Julia Grześkowiak**, Student, Uniwersytet Zielonogórski
+- **Samy Aid**
+- **Yassin Mohamed Samir**
+- **Gerald Greenheck**
+- **Maurizio Discenza**, Formatore Divulgatore, mauriziodiscenza.it, Founder Omega Point
+- **Tim Lopez**
+- **Titus Wayne Plants**, College Student
+- **Daniel Rozen**, Fullstack Engineer, Agentic Security Startup
+- **Adam Clark**
+- **Janek Korzeniak**
+- **Jonathan Spratt**
+- **Veli Kangur**
+- **Philip Schmitz**, Scientific Employee
+- **Hauke Lehnig**
+- **Sofian Braighith**
+- **Alexander Hazlewood**, IT Agent
+- **Susanne Oosterveen**, Education Specialist
+- **Jeffrey Marino**, Retired, Energy Sector
+- **Riley Cartwright**
+- **Benjamin Maitre**
+- **Brayden Ward**
+- **Kieran Hollis**
+- **Alexander Castroman**
+- **Erica Linsenmeyer**
+- **Jonas Lalik**
+- **Franciszek Majewski**
+- **Jayden Glynn**
+- **Otto Winter**, Engineer
+- **Larry Keith Long**, Surgeon
+- **Oyuky Gonzalez**
+- **Pedro Kosciuk Lima**, Desginer, Pontíficia Universidade Católica do Rio Grande do Sul
+- **Sean Dean Domènech**
+- **Fernando Figueroa Garza**
+- **Roman Pikusa-Bishop**
+- **Emily Dimock**
+- **Roman Truninger**, Logistiker EFZ
+- **Edward Lester**
+- **Shivraj Patil**, Student
+- **Ajax Oreo**
+- **Viktoriia Voitsekhovska**
+- **Lucie Grund**
+- **Javier Agüero Cáceres**, Student
+- **Felipe Casias**, IT Inventory Management Technician, Fort Lewis College
+- **Hans Nagel**
+- **Saurabh Kar**, Technical Writer
+- **Dudás Réka**
+- **Evan Micheal Savage**
+- **William Nikodem**
+- **Hauke Rehfeld**
+- **Sunday Jones**
+- **Vince Sanders**, Coach
+- **Brian Joubert**
+- **Louie Burnham**
+- **Fernand Brink**, Physical Therapist Student
+- **Zack Anthony Treharne**
+- **Aditya Kumar**, Developer
+- **Cassandra Lishman**
+- **Collin Good**
+- **Carmen Mata Saez**
+- **Fadil Odjouola**, University of Maryland - College Park
+- **Harrison Cook**, Student
+- **Karl Douvenot**
+- **William Ragan III**
+- **Eugene Longnecker**, Retired/Disabled
+- **Ronaldo Otoni Oliveira**
+- **Connor McGreer**, Student, Michigan State University
+- **Spencer Cook**
+- **Albert Pop**
+- **Colin Fulton Hegarty**
+- **Stefan Hodges**, Student
+- **Kyle Rome**, Engineer
+- **Aldo Chacón Solórzano**
+- **Anna Cochrane**, PhD Student, University of Cambridge
+- **Laurence Reymond**
+- **Franco Battsita**
+- **Adam Kassem**
+- **Sam Spielman**
+- **aduckchicken**, Video editor
+- **Reagan Chrisinger**
+- **Noah Page**
+- **Isaac Ranghetti**
+- **Emily Gibbons**, Teacher
+- **Ben Dominick**
+- **Kevin Gullberg**
+- **Adam Morris**, Cognitive Scientist, Princeton University
+- **Mark Schreiber**, University Student
+- **Shaharyar Ahmad Khan**
+- **Orfeas Georgakopoulos**
+- **BEATRICE CHARDOT MARSILLE**
+- **Lauri Goodwin**
+- **Audrey Beijers**
+- **Soleil Vivero**
+- **Cillian Comiskey**, Student
+- **Charlie Hackney**
+- **Rubén Briongos**
+- **Tessa Pieper**
+- **Odile Chaigneau**
+- **Teira Haddon**
+- **Gabriel Santos Amoedo**
+- **James Mcdonnell**, University of Bristol
+- **Brian J. A. Boyd**, Director, Center for Ethics and Economic Justice, Loyola University New Orleans
+- **Bo Haga-Fadnes**
+- **Jolipop**
+- **Veronica Yunikov**
+- **Ben Hobkinson**, Founder
+- **Jay Ahn**
+- **Christopher Brightly**
+- **Karine Acouvi Baird**
+- **Hamish Watson**
+- **Odalys Ramos**
+- **Sahil Nishar Ahamad**
+- **Sophia Moon**
+- **Anthony Paul Hernandez Sanchez**
+- **Dylan Shaw**
+- **Ágnes Dósa**
+- **Oleksandr Mitsoul**, Student
+- **Mia Oakley**
+- **Malcolm Alphonso**
+- **Alexander Kastner**, AI Safety Researcher
+- **Joshua Klein**
+- **Igor Santos Graf**
+- **Zihan Zhao**
+- **Henry Pruett**, Professor of Chemistry
+- **Caden Ciaramitaro**
+- **Silas Miller**
+- **Konstantin Tumashov**
+- **Mateusz Baranowski**
+- **Nova Esther Ruccius**, College Student, Juniata College
+- **Stanislav Tikunov**
+- **Iris Elaina Fletcher**
+- **Gabriel Rusisca Marques**
+- **Krit Grover**
+- **Marco Depetris**
+- **Craig Ruzicka**
+- **Nicolas Beaudoin**
+- **Lily Weisbart**
+- **Rory Moon**
+- **Skye Marie Paquette**
+- **Hazen Eden**
+- **Timothy Thomas**
+- **Lynn Mitrovich**, Retired
+- **Sean Ahrens**, Software Engineer & Entrepreneur
+- **Ashton Hanson**, Sales Associate, Old Navy
+- **Thierry Côté**
+- **Harrison Faulkner**
+- **Nikolina Nastasić**, Student, PMF Zagreb
+- **Sadie Comeaux**
+- **Vincent Staneika Naldal**
+- **Laurie Elizabeth Howarth**
+- **Lindsey Pierce**
+- **Omji Kahiapo Cardone**, Filmmaker, Railroad Operator, OS. Motion Picture Company, Best Halloween Costume
+- **Igor Krajč**
+- **Realdo Aginda Lim**, Student, Asia Pasific Univeristy
+- **Sadie Brummund**
+- **Victor Hugo Chiocca Pagani**, Artist
+- **Michal Sládek**, Computer Science Student
+- **Derick Longton**
+- **Marcy Braesch**
+- **Arnav Kulkarni**
+- **Robert Heilman**, Former Director, US Department of Transportation Highly Automated Systems Safety Center of Excellenc
+- **Giancarlo Londono**
+- **Finta Tihamer**, Student, Szekely Miko Kollegium
+- **Joshua Dunn**, Student
+- **Kian Kazemzadeh**
+- **Debra Cunningham**, Health Care Worker
+- **Yoav Pilowsky Bankirer**
+- **Lars Myhres**
+- **Nicola Palo**
+- **Diego Del Valle Goribar**, Student, University of Rome Tor Vergata
+- **Surya Suresh**
+- **Manuel Pozzi**
+- **Janet Campoverdi**
+- **Elžbieta Ramanauskaitė**, Quality Analyst
+- **Tilen Rizman**
+- **Ezechiel D. Morar**
+- **Dev Emmanuel Lopez**
+- **Brandon Endrizzi**, Freelance Software Developer
+- **Nahuel Deamelio**
+- **Kayden Hobday**
+- **Li Shi**
+- **Jennifer Fee**
+- **Lori Crespo Molina**
+- **Grayson Ankrim**
+- **Jamie Hernandez**
+- **Syed Haque**
+- **Isaac Sernoffsky**
+- **Jeff Maurer**
+- **Luke Smith**
+- **Flynn O'Donoghue**, Student, University of Newcastle, Activist
+- **Janeen Marquardt**, AI Strategist
+- **Milan Krym**, Munster Technological University
+- **Lori Reynolds**
+- **Imre Geczy**
+- **Rudy Liljeberg**
+- **Dušan Glamočanin**, Musician
+- **Richard Kopp**, Student
+- **Sabrina Nilsen**
+- **Raynathan Martina da Silva**
+- **Neil Berenguer**, Data Analyst
+- **Alan Keane**
+- **Amy Trout**, Business Owner, Cornerstone Consultants
+- **Zachary van Schalkwyk**
+- **Ewan Goodwin**, Student
+- **Robyn Coupe**
+- **Chelsea Pfluger**
+- **Kim Walter**, Artist
+- **Dorian Malavia Gonzalez**, Student
+- **Aurélia Jauffret**, Teacher
+- **Joel See Yong Zhi**, Student
+- **Cailean Angus Stewart**
+- **Matthew Arkell**
+- **Amanda Beattie**
+- **Aushim Lakhana**
+- **Kim Dempsey**
+- **Iain mischel**, Data Scientist, Virginia Tech
+- **Adriana Valenzuela**
+- **Dawid Kubicki**, Software Engineer
+- **Carol Chenot**, AI Educator, AI ADVANTAGE, Founder
+- **Kenneth McNeil II**
+- **Chris King**
+- **Sebastian Bortniak**
+- **Koll Moss**
+- **Sequoia Rader**
+- **Paul Grist**
+- **Dylan Plester**
+- **Linda Huntington**
+- **Josh Lakin**, Paralegal, Taylor Emmet
+- **Briot-Loury Anne**, Nurse
+- **Robert Frolov**, Psychologist
+- **Maximilian Friedman**, Mortgage, Bank Of America
+- **Austin Terry**
+- **Ava Davis**
+- **Gabriel Możdżyński**, student/artist
+- **Josh Bayley**
+- **Lawrence Ayers**, Engineer
+- **Danil Şirin**
+- **Cauan Jordan Nasato**
+- **Stijn Lijbaart**, Graphic Designer
+- **David Kašík**
+- **Arthur T. T. Eychenne**
+- **Muhammad Haris**, Full stack developer
+- **Brian Williams**, Professional musician
+- **Ryan Weiss**
+- **Flynn Anderson**, Biochemistry Major, University of Wisconsin River Falls
+- **Marina Jade Kanegiesser**
+- **Vincent Wiese**
+- **Andrei Stefan**
+- **Philip Degelsegger**
+- **Petra Borgards**
+- **Darin Hansen**
+- **Marie Maulà**
+- **Christine M. Echelbarger**
+- **Nina Germadnik**
+- **Ida Ilmoniemi**
+- **Vito Meulemans**
+- **Jimin Choi**
+- **Enrique Martinez**
+- **Darren Reyes**
+- **Gabriel Pope**, Engineer
+- **Thomas Vassil Brcic**, Director, Artificial Intelligence Safety Initiative Groningen (AISIG)
+- **Sandro Pfeiffer**
+- **Antoni Jarosz**
+- **Diana Poldaru**
+- **Luca Leoni**, Commercialista
+- **Aashita Narayanpur**, Student, BMS College of Engineering
+- **Brayden Helbig**
+- **Zachary Carte**
+- **Martha Estrada Baca**
+- **Nicol Truksová**
+- **Daniel Updegraff**
+- **Cameron Finlay**
+- **Tom Daberstiel**, Voice Actor
+- **Alexis Bouchez**
+- **Robert Eberts**, Facility Maintenance, Veteran
+- **Isaiah Penn**
+- **Ilaria Mazzoccato**
+- **Nicolette Honsbeek**
+- **Natalia Skassa**
+- **Darwin Dickerson**
+- **Ozan Murat Mert**
+- **Dragana Gobic**
+- **Mikey Posada**, Student, University of British Columbia
+- **Penelope N. Lord**, Retired
+- **Miro Paintola**, Senior Software Developer
+- **Hannah Jarratt**, Medical Student, University of Oxford
+- **Felix Corrigan**
+- **Michael S. Lee**
+- **Toby Horton**
+- **Farea Tayeba Amin**
+- **Khailyn Miller**
+- **Kilian Arno Ludwig**
+- **Mark Scott**
+- **Pislariu Vasile**
+- **Pratham Lamgade**
+- **Christopher Vazquez**
+- **Alyse Melvin**
+- **Noah Mourad**
+- **Timothy Griffioen**
+- **Kristen Mattsson**
+- **Markus Österle**, Embedded Hardware Developer
+- **Colleen Murphy**, Marketing Business Owner, KerriAlexa Designs
+- **Nyla Robinson**, Student
+- **August Klausner**
+- **Hania Tauqeer**
+- **Gorana Zivkovic Kotaras**
+- **Louis Legére**
+- **Anabela Gopfert**
+- **Liam La France**
+- **Tony Medhat Fayez Hanna**, Robotics Teacher, Aristo Academy
+- **Paul Dubrulle**
+- **Rhys William fuller**
+- **Olivier Joynes**
+- **Emily D**, Educatir, University of Exeter
+- **Lucie Landry**
+- **Snöiller Fitzroy**
+- **Oliver P.**
+- **Michael Molen**, UX Designer and Systems Administrator
+- **Soba Taiwo**
+- **Scott Henderson**, Student
+- **Piotr Czapla**
+- **Shipra Vaish**
+- **Shane Fitzgerald**, Student
+- **Stefaniia Kiktenko**, University Student, National Kyiv Mohyla Academy
+- **Harry Martin**, Technical Leader
+- **Charles Martin**, Teacher
+- **Sarah Taniguchi**, College Sophomore, University of Hawaii at Manoa
+- **Olha Oslavska**
+- **Nathan Mahloch**
+- **Cassandra Henrichsen**, Behavior Technician, N/
+- **Helena Lavinia Wurl**
+- **Patrick Mahler**, Laborer
+- **Kauni Sillat**
+- **Malik Wiethaus**
+- **Kip Landon**, Pharmacist
+- **Joao Viola**
+- **Kostas Maounis**, Senior Technical Coordinator, EPS Officer, Polembros Shipping Ltd., Ex Chair of Greek Section Of SNAME
+- **Rohan Vermeij**
+- **Kensei Miyagi**
+- **Sophia Phillips**
+- **Nicolas Vagnon**, Research Assistant, Peace Research Institute of Francfort
+- **El hjouji Chirine**, Student
+- **John Santos-Costa**, IT Professional, Analyst, University of Saskatchewan
+- **Aayush Subedi**, Researcher, Engineers Without Borders Nepal
+- **Jordan Sais**
+- **David Michael Crozier**, Retired Government Manager, Dept of Vocational Rehabilitation
+- **Luca Benaglia**
+- **Noah Stevens**
+- **Deven Reed**
+- **Charles Neill**
+- **Esther Susan Jobin**, Student
+- **Jade Akinbo**
+- **Cameron Delaney**, Animator
+- **Jader Figueiredo**, Dispersor de Informações, PillarsAlliance
+- **Richard Leo Alexander**
+- **Samantha A Macy**
+- **Logan Kelly**
+- **Katherine Castillo Sánchez**, Developer
+- **Timothy Reinhard**
+- **Lucas Rodrigues**, Electrician
+- **Narek Sahakyan**
+- **Karlheinz D. Sauter**, AI Engineer
+- **Kasi Ugwueze**
+- **Ian Pyke**, Analyst, DoW
+- **Collin M. Breeding**, Data Engineer
+- **Claudia Dallinger**
+- **Chloe Bourne**
+- **Nils Skulte**
+- **Lael Kirungi**
+- **Angel Garcia**
+- **Nicolás Eduardo Vacca Girón**, Student, SENA
+- **Simon Thijs**
+- **Dale Trott**
+- **Hồ Ấn Triệu**, Student
+- **Ryan Adriaan**
+- **Olaf Czuba**
+- **Max Franks**
+- **Nathalie Paterson**, Overview Mediation Ltd
+- **David García-Brazales Santiago**, Tech Lead
+- **Alexis M Katnich**
+- **Alden Handley**
+- **Raine Mar**
+- **Cameron Wallace**, Neuroscience Student, University of Birmingham
+- **Ismaël Joffroy Chandoutis**, Artist
+- **Dominik Clarke**
+- **Michael Jentzen**
+- **Daniela Parra**
+- **Artur Baginski**, Software Developer
+- **Ava Remillard**, Student
+- **Tiemen de Boer**
+- **Pablo Jose Riboldi**, Director of Learning, Well-educated Heart Academy, PhD
+- **Ahmed Mujević**
+- **Araya Thaworntaweewong**
+- **Jannis Geywitz**, Student, Hochschule der Medien Stuttgart
+- **Shulangki Das**
+- **Michael McVicker**
+- **Molly O'Dea**
+- **Aaron Baes**, Student
+- **Gaetan Henneco**, Stage Tech
+- **Adam Deck**
+- **Atticus Wegat**
+- **Alex Rowan**
+- **Daniel Zwolinski**
+- **Ren Williamson**
+- **Kathy Lyons**, Retired Administrative Worker
+- **Paul Jackson Holland**, Undergraduate, OSU
+- **Rene McSherry**
+- **Nadine Wild**
+- **Jade Van Tonder**, Student
+- **Joaquin Ruiz**
+- **David Slaughter**
+- **Michael Hill**, Upper School Computer Science Teacher, Alcuin School
+- **Claire Chiang Kai Chen**, Software Developer, Grabtaxi Pte Ltd
+- **Chrisanne Hymas**
+- **Nikhil Gangwal**
+- **Joshua Kirk**
+- **Monique Peeters**
+- **Gunner Fox**
+- **Alexander Roman**, Cashier
+- **George DelRosario**
+- **Shing Hin “Hanson” Ho**, Beyblade Tournament Organizer
+- **Meghna Sinha**, Chief AI Officer, Kai Roses, Inc., Senior Industry Fellow, UC Irvine Center for Digital Transformation
+- **Manaal Mubarak**
+- **Jane Karweick**
+- **Jacob Chappell**
+- **Alex van Oel**
+- **Dexter Ngo**
+- **Anson Thompson**
+- **Jean-Philippe Conge**, General Manager
+- **Wiktoria Byczyk**, Student
+- **Linda MacDougall-Leenstra**, Special Educating Advocate, Special Needs NJ LLP
+- **Kayleigh Vince**, University Student, UBCO
+- **Thomas Askew**
+- **António Girardi Marques**, Student
+- **Villedieu Noé**, Student
+- **Sarah Deakins**
+- **Niamh Kierans**, Student
+- **Igor Svetlov**
+- **Cecile Bernard**
+- **Anthony Hardingham**
+- **Jakelle Gearhart**
+- **Gweltaz Daubigné**
+- **Elena Casagrande**, Artist
+- **Amelia Vena**
+- **Dylan Ito**
+- **Joseph Hancock**, Maintenance
+- **Lior Ichiely**, Communications Engineer
+- **Christopher Jack**, Technical Director, Engineering consultancy
+- **Kyle Wegner**
+- **Warner DeWitt**
+- **Johnna Romero**
+- **Michaela Krause**
+- **Vitas Eigner**
+- **David Wildey**
+- **Eithne Kennedy**, Co-founder CEO Avenir Holdings Pte Ltd and Founder/Evangelist, Isle Of Us Pte Ltd
+- **Kyle Thompson**
+- **Kenneth Atwood**
+- **David Theodoor Thomas Saleta**
+- **Sam Zii Yan**
+- **Sambhav Khandelwal**
+- **Veeti Malinen**
+- **Aiden Ahenakew**
+- **Renate Mayalila**
+- **Mart de Roos**
+- **Diego Picasso Guerra**
+- **Linda Taylor**, Retired
+- **Linda Layton**
+- **Nuno Filipe Machado do Nascimento Cavaco**, IT Product Manager
+- **Frank Ebert**
+- **Juan Arbelo**
+- **Prabhleen Singh**
+- **Mary Arney**, PC(USA) Elder
+- **Justyna Przeworek**
+- **Anastasia Bibikov**
+- **Brett Munday**
+- **Rosemary Duncan**
+- **Nicolás Eckholt**
+- **Brenno Souza**
+- **Oliver K. Tshiamala**, Writer
+- **Boris Marić**
+- **Blossom Stokes**
+- **Eitan Blumin**
+- **Gabriel Kruglikov**, Engineer
+- **Karen Violet Lynne Marks**
+- **Krishu Kumari**, Student
+- **Hadi Adel**, AT&T Customer Service Representative
+- **Keith Hawkes**
+- **Danny Fernando Bravo Lopez**, Cofounder, Tribu iA
+- **Jessica Fuentes**
+- **Erik Sklover**
+- **Emanuel Quezada**
+- **Michelle Celeste**
+- **Isabella Sharipova-Williams**, Graduate, University of Edinburgh
+- **Erica Dow**, Glasgow School of Art
+- **Muhammad Agung Dwi Putra**
+- **Casey SCHMIDT**, Distribution Specialist, Boeing
+- **Layla Kent**
+- **Francisco Andree Gonzalez**
+- **Jay Mueller**
+- **Garrett Curtis**
+- **Ed Low**
+- **Erika Trottier**
+- **Elias Daghir**
+- **Rafael Sanchez-Chacon**
+- **Maximiliano Valle Villalon**
+- **Sofia Storgato**
+- **Levi Goin**
+- **James Nicholas Redman**
+- **Naomi Beth Mayer**
+- **Tannmay Deepak**
+- **Ángel E. Del Valle**
+- **Jacob Berry**
+- **Veronica O'Brien**, Musician, French Knighthood: Chevalier in Order of Arts and Letters
+- **Markus Koch**
+- **Balazs Kemenesi**, Presentation Designer
+- **Sila Sönmez**, Social Worker
+- **Ruby Gregory**
+- **Zafer Uzun**, Physics Major (Student), University of Bielefeld, Faculty of Physics
+- **Layne Purdy**
+- **Jason Stewart**
+- **Matthew J Lisson**, Software Engineer
+- **Federico Caloisi**
+- **Eirik Siren**, Student
+- **Alex Banachev**
+- **Alex Oldershaw**
+- **Anahy Hernandez**, Political Science Major
+- **Gabriella Charolotte Jones**
+- **Leonardo Domingues**
+- **David Tran**
+- **Joshua Uber**
+- **Jordan William Ham**
+- **Alissa Degtyarenko**
+- **Connor Petway**, Physics PhD Candidate, Indiana University
+- **Riri Nehorah**
+- **Nayumi Laurice F. Rayos**, Artist
+- **Chris Rapson**, Senior AI Engineer, Formus Labs Ltd
+- **Ethan Kierznowski**
+- **Jennifer Hume**
+- **Banyan Batts**
+- **Fahmy Nabli**
+- **James Chandler**
+- **Aiden Martinez**, Drummer
+- **Oskar Nosidlak**, IT Student
+- **Wendy Farrow**
+- **Aubrey Pantusa**
+- **Ian Stewart**, Musician
+- **Austin Whaley**
+- **Jakub Grman**
+- **Brian Sexson**, Business Owner
+- **Carlos Vilas Álvarez**, Software Developer
+- **Maya Bradford**, Software Developer
+- **Dulieu Quentin**, Directeur de Structures Culturelles
+- **Arin Ton**
+- **Noah Samuel Amiri**, Undergraduate Biologist, Virginia Commonwealth University
+- **Cowta Chranjeevi**
+- **Franco Marrufo**
+- **Toomas Joosua Kivisild**, Student
+- **Jude Rowe**
+- **Renan Ventura**, Teacher
+- **Annika Oerding**
+- **Wendy Meers**, Teacher
+- **Aaron Hwang**
+- **Antonio Daniels**, Special educational paraprofessional
+- **Harvey T. Cain**
+- **Julia Lysén**
+- **Kelly Howard**, Psychotherapist, Center for Mindful Psychotherapy, MA, AMFT, CST
+- **Timur Vlach**, High School Student
+- **Shuaib Khan**
+- **Keegan Johns**, Undergraduate Student, Dalton State
+- **Theo Darrel Hayden Perris**
+- **Tiago Carvalho**
+- **Jack Chambers**
+- **Manuel del Caño Rodríguez**
+- **Oli Sparrow**, Director
+- **Samuel Joseph Guckian**
+- **Samuel Patey**
+- **Thomas Mack**, Retail
+- **Carlos Eduardo da Silva**
+- **Xalyra Brown**, CAD Engineer
+- **Max Tobiasson**
+- **Sheridan Seyfried**, Musician
+- **Mohan Aadithiyaa Parameshwar**, Student
+- **Trenten Ross**
+- **Christopher Martin**
+- **Filip Brataon**, Student
+- **Diaa Hanna**
+- **Simon Tatro**
+- **Olivia Bethune**
+- **Dylan Rapp**, Student
+- **Marv Krebs**
+- **Philippe D. Côté**, Interaction Designer, Bleuet Design
+- **Corinne Tomas**
+- **William J McCartan**, Curator
+- **Jace Koepsell**
+- **Sarah Niaga**
+- **Patrick Richards**, Records Management Team Lead, IUBAC
+- **Nikodem Czerkies**
+- **Joel Almeida**
+- **William Ritchie**, Student
+- **Rayan Rahnamai**
+- **Macey Clark**
+- **Hadrien Everard**, Student
+- **Mihael Brlečić**
+- **Marley Rentz**
+- **Jacob Stutzman**
+- **Ryan Wood**, Student
+- **Aanjaneya Sharma**
+- **Peter Georg Heinrich**, Student
+- **Gabriel Santos de Moura**, Student
+- **Henrique Pickler da Silva**, Data Scientist
+- **Daniel Ayman Ezzat Alfy Henein**
+- **Katrina Morin**
+- **Lily Trieu**
+- **Okino Segun**, Fashion Entrepreneur
+- **Omar Kazi**
+- **Piotr Held**, Student, University of Wrocław
+- **Louis Drommelshausen**
+- **Vivian Selene Barber**
+- **Jelle van Esch**, Data Analist
+- **Christopher Darrigo**
+- **Rojer Newp**
+- **Kristopher Turnbaugh**
+- **Mikyla Lader**, Student
+- **Baca Bolki**
+- **Karol Orszulik**, Student
+- **Ayan Dar**, Post Secondary Student
+- **Kurtis Baca**
+- **Effie Zafiropoulou**, Business Owner and Creative Director
+- **Dustin Shatto**, Mental Health Counselor
+- **Nimish Agarwal**, Student
+- **Jennifer Jackson**
+- **Johna Whittington**
+- **Jane Gordon**
+- **Alexander Wolf**, Chairman, Stiftung AusserGewöhnlich Berlin
+- **Yoshitoshi Russell-Lebrett**
+- **Steeler Shannon**
+- **Félix Orrit Fakhri**
+- **Sem Lammerts**
+- **Adam Waymire**, Group Facilitator, Avenues rehabilitation
+- **Drew Waller**, Software Engineer
+- **Lyndon Mora**, Warehouse Worker
+- **Joseph Anthony Vella**
+- **Karen a Bruno**, Self Employed
+- **Paul VanderWiel**
+- **Keri Maynard**, Video Editor
+- **Rio Lee**
+- **Valerie Strout**, Self employed, Maine Flag & Banner Co., Inc.
+- **Harrison Ingram-Bate**, Student
+- **Maria Valdivia**
+- **Lucas Sato**, Student
+- **Imed Abidi**
+- **Diogo Cascon**
+- **Abdulrahman Yousef A Jameel**, Student
+- **Nate Herweyer**
+- **Naiem Ayoub**
+- **Shannon DaCosta**, Process Engineer, CPL, Seprod Group ltd.
+- **Erin Eyerly**, Principal Architect, Eyerly Architecture
+- **Matthew Chen**
+- **Knick Delorean**
+- **Patrick James McMahon**
+- **Marc Wiik**
+- **Isaac Longman**
+- **Mark Dominick Ong**, Video Editor
+- **Christoph Scheurenbrand**
+- **Andrea Pesci**, IT manager
+- **Kiano Fernandes**
+- **James Carter**
+- **Max F Yagel**
+- **Egemen Aksu**, Medical Doctor
+- **Daniel Topcijev**
+- **Dorothea Stiller**, Writer
+- **Caleb Paul**
+- **Vibha P**
+- **Colin Godwin**
+- **Aleksander Nowacki**, Boardgame Game Designer
+- **Andriy Popadyuk**
+- **David W. Silvey**, Higher Education Professional, Office of Emergency Management Volunteer
+- **Adriel Crawford**
+- **Hazel Trease**, High School Student
+- **Line Proulx**
+- **Felix Färber**
+- **Elizabeth Tchernegovski**, Student
+- **Daniel Vanstone**, Student
+- **Adam Richard Wilson**, Actuarial Analyst
+- **Abdul Maajid Aga**, Robotics Scientist, Student
+- **Kylen Khan**
+- **Jasmin Corriveau**, Student at laval university
+- **Laura Operti**
+- **Karin Kobayashi**
+- **Ariel David**
+- **Lord Pitkeathley**, Member of the UK House of Lords
+- **Jat Phenshllem**, Student/Electronic engineering
+- **Robert Read**
+- **Assia Darin**, Head of Marketing
+- **Charles Catel**
+- **Grant Mussman**
+- **Michele Basilico**, Student
+- **Ryland Kitson**
+- **Ryan Liu**
+- **Commander Kuby**
+- **Ari Hess**
+- **Ruby Hayward**
+- **Callan Dessert**, Student
+- **Jakub Slupinski**
+- **Zachary J. Taylor**
+- **Andrew Sebastian WInoto**
+- **Joonatan Toikko**
+- **Ari Murphy**
+- **Luis Felipe Silva de Castro**, CS Student, Backend Engineer
+- **Suzanna A. Mariscal**
+- **Andrew Sykes**
+- **Beau Headley**
+- **Harrison Meyer**
+- **Robby Tierno**, Programmer
+- **Josef Forslund**
+- **Johana Graterol**
+- **Joseph Doroen**
+- **Jesse Archambault**, College Student
+- **Andrew Scott-Murie**, Warehouse Worker
+- **Joan crooks**
+- **Amin Khayrullin**
+- **Filipa A V N Soares**
+- **Thomas Willis**
+- **Tammy Barnett**
+- **Susan Hegarty**
+- **Yakov Pyatnitskov**
+- **Anna Shakhbazava**
+- **Derrick Priester**, Software Engineer
+- **Cole Harrison**
+- **Nikki Lane**
+- **Tabitha Cashion**
+- **Mohd. Faiz**, Student, Regency Public School
+- **Gregory W Morris**
+- **Marin Ivanov**
+- **Brian Kelly**
+- **Thomas Lavis**, Student, University of Oxford
+- **Jimit Shah**
+- **Brian Skinner**
+- **Georg Kallenbach**, Engineer, Nordbrand Nordhausen GmBH
+- **Federico Vannini**
+- **Anhky Nguyen**
+- **Nicolai Atkinson**
+- **Apollo Hourin**
+- **Jude Morrow**
+- **Ludmila Rocio Lopez**, Sofware Developer
+- **Ernest Nita**
+- **Gabriel Eduardo Lopez Perez**
+- **Donna Goldman**
+- **Joss Luke Cleary**
+- **Tyler N Teague**
+- **Bruno Vargas**
+- **Wessel Bus**, 3D Artist
+- **Mathijs Hendrik Adriaan Willems**
+- **Felix Mauritz**
+- **Jason Chu**
+- **Benjamin Black**
+- **Luigi Alanis Peronio**
+- **Sydney Bales**, Student
+- **Nolan David Worrell**, Streamer, Artist, College Student, University of Wisconsin Whitewater
+- **Rowan Vogt**, Founder, Oregon Outdoor Fund
+- **Amanda King**, Data Quality Control Statistician
+- **Güçer Atak**
+- **Pedro Ignacio Vergara Vaz Galvao**
+- **Darsh Dudhia**
+- **Penny Gregorio**, Business Owner
+- **Rue Moralis**, Welding Engineer
+- **Andrei Kananovich**
+- **Kamran Michael O'Brien**
+- **Chanceux Mbimi**
+- **Abigail Phillips**
+- **Bonno Punt**
+- **Audrey Pierson**, Student
+- **Elisette Torres**, Amazon Fulfillment center Employee
+- **Xavier Seth Mackey**
+- **Mark Kossecki**, Director, Nonprofit, Award of Excellence
+- **Camryn Searles**
+- **Mahfoud Ali**, Seafarer and Maritime Expert
+- **Daniil Rtishchev**, Dishwasher
+- **Tom Mairs**, Co-founder, KumoMTA
+- **Olivia Oudkerk**
+- **Rik Molema**
+- **Jakob Wisdal**
+- **Noah Speers**, Student
+- **Yoonsu Lee**
+- **Melissa Frazier**
+- **Timothy Kossegi**, Registered Nurse, Nursing Home
+- **Hasan Alqahtany**
+- **Gabriel Prairie**
+- **Johnson Lie**
+- **Paul Nurczyk**, Engineer
+- **Joao rodrigo sousa mota**
+- **Victoria Skjetne**
+- **Pardes Takal**
+- **Victor Pellew**
+- **BabuPrasad**
+- **Caleb Nunez**, Student, Texas Tech University, Red Raider Racing Motor Lead
+- **John Sultzbach**
+- **Shawn Connolly**
+- **Oliver Faso**, Software Engineer
+- **Thomas O'Donnell**
+- **Jonatha Robert Blaise Veley-Suggitt**
+- **Fern Perkins**
+- **João Vitor de Souza Barreto**
+- **Kristjan Kuusik**, Welder
+- **Keith Brian R Montojo**
+- **Xander Perez**
+- **Ellie Njeri Kioi**
+- **Okitha Chirath**
+- **Riley Slack**
+- **Dorothee Koch**, Professor, University of Applied Sciences Stuttgart (Hochschule für Technik Stuttgart), Studienstiftung des deutschen Volkes
+- **Vincent Pearson**, College Student, Eastern Michigan University
+- **William J Holland**
+- **Alma Tiwe**
+- **Soma Szabo**
+- **Florian Lastrade**
+- **Nick Gialdini**
+- **Stefan Paerschke**
+- **Raff Jimnenez**, Sines, Vinyl, BNT Promotional Products
+- **Alexander Gaede**
+- **Saksham Sharma**
+- **Karl Lukas Heinze**
+- **Nicolas Amado**, Science Student
+- **Joseph Suydam Stout**, Student, Fairleigh Dickinson University
+- **Marek-Miguel Brozek**
+- **Michael Huelsmann**, Director, Polyglot Creative Ltd
+- **Sebastián Cardoso Ordaz**
+- **Andy Dobler**
+- **Amelia Zaborska**
+- **Joseph Davies**, Welder
+- **Elliot Marie**
+- **Sidney David Bolton**
+- **Rose Prowler**, Electrical Designer
+- **Mukesh Rajpurohit**
+- **Andrea Kunz**
+- **Chevonne Weir**
+- **Willow Walker**
+- **Viktoriya Ivanov**
+- **Martin Valvas**, Student
+- **Alexi Pelletier**
+- **Nicholas Garcia**, Sales Representative, NSERC USRA Researcher
+- **Aiden Strebeyko**
+- **Susanna John**, Student, Ashoka University
+- **Eoin Campbell**
+- **Thais Baigorria**
+- **Lan Gifford**
+- **Sebastian Darocha**, Pharmacy Student, University of Florida
+- **Frank Schmidt**, Developer
+- **Jett Watson**
+- **Tasnim Zain**
+- **Aaron Reuben Hyman**, Student, Chicago Public Schools
+- **Muhammad Wafi bin Rosrizan**, Student, International Islamic University of Malaysia
+- **Bailey Furman**
+- **William Brian Dalton**
+- **Joshua Wachira**
+- **Ethan Gagne**
+- **Axel Nordin Fürdös**
+- **Patrick Mckay**
+- **Trevor Holloway**
+- **Paul Suits**
+- **Cleo Petrie**, Student
+- **Karin Úradníková**, traditional and digital artist
+- **Megan Florento**, Student
+- **Joel Huber**
+- **Karina Alejandra Villouta Mery**, Designer
+- **Matheus Andre Gomes de Oliveira**, Associate of Backoffice and Technology, Nord Investiments
+- **Miguel Ángel Carrión**
+- **Stella Koldijk**
+- **Morgane Baujard**, Eco-Educator
+- **Hunter O’Brien**
+- **Dai Shi**, Software Engineer
+- **Freddie Beddows**
+- **Stephen Petry**
+- **Kirke Kern**
+- **Barbara L Diers**
+- **Sean Ogle**
+- **Alexander Boyd**
+- **Dante Gabriel Vieira de Almeida**
+- **Jacqueline M Deacy**
+- **Jack Lippard**
+- **Emmett Piskura**
+- **Ximena Cestoni**
+- **Alonso Carrasco Coloma**
+- **Blake MacPherson**, Mechatronics Technician
+- **Aleksandr Iurchenok**, Student
+- **Phillip Reese**
+- **Connor Jordan Calaway**
+- **Irfan Eken**
+- **Rose Frost**
+- **Ashton Hopkins**, Student
+- **Rosellen Schwartz**, Manager, Customer Success and Implementation, Grammarly
+- **Andrew R. Wright**
+- **Evan Wright**
+- **Tobias Abbott**
+- **Bradford Lam**, Attorney at Law
+- **Matthew Weston**, Developer
+- **Parker Thompson**, CEO, Pulse Esports
+- **Michelle Forney**
+- **Zunaira Shariq**
+- **Maryam Jafar Khan**
+- **Juliana Lao**
+- **Jason H. Becker**
+- **Raj Madha**
+- **Lydia Garcia**
+- **Rafael Ibrahimov**
+- **Pru Saunders**
+- **Daniel McDonnell**
+- **Maura Ann Renicker**
+- **John Wilson**
+- **Katona Hella**
+- **Carson Davis**
+- **Teia O’Malley**
+- **Luke Jackson**, Weather Forecaster
+- **Kristyna Kendrova**, Student
+- **Flavien Parant**
+- **Ula Smiet**
+- **Eugenio Rossi**, MD
+- **Lukas Mayer**
+- **Dalton Stansbury**
+- **Karol Bednarczyk**
+- **Noah Wall**
+- **Aidan Hickey**
+- **Gary Murillo**, Customer Service Representative, Concentrix
+- **Ricardo Villanueva**, Researcher, Estrategias Lab
+- **Geetika Bhatnagar**, Independent Director / Advisor
+- **Elijah Blackwood**
+- **Evan Bergen**
+- **Achyut Yeleswarapu**
+- **Riccardo Medici**, Data Analyst
+- **Bernardo Riello**
+- **Kenneth Zweifel**
+- **Tanith Amir Davi Mikus**
+- **Justin Santiago**
+- **Jack Harms**
+- **Antonio Franco Lulei**
+- **René Kertész**
+- **Dylan Sabti**
+- **Eleni Paltoglou-Blümel**, Writer, Architect, Illustrator
+- **Kirsten Mathilde Timm**, Do2gether Musikprojekte
+- **Christopher Kelly**
+- **Laurie Markoff**
+- **Skye Burns**
+- **Sakıp Emre Öztürk**
+- **Ron Stone**
+- **Jaydon Wouters**
+- **Anne Marie Colletti**
+- **Alexandru Cl. Radu**
+- **Jacob Terry**
+- **Roksana Ruta**
+- **Theresa Wendt**
+- **Anshu Prakash**
+- **Sarah Templin**
+- **Chris Knight**
+- **Sadiya Akhtar**
+- **Octavian Marc Nicolau**
+- **Darby Mae Martin**
+- **Cassie Myers**
+- **Marcus Buhas**
+- **Caterina Cirone**
+- **Mojtaba Pashaei**
+- **Adéla Housková**
+- **Verena Schindl**
+- **Tristan Eyring**
+- **Janet Schiffer**
+- **Klemen Šutar**
+- **Andrzej Lemański**, Medical Doctor
+- **Isaac Sanchez**, Student
+- **Galileo Finkelstein**
+- **Todd M Ferguson**
+- **Daniil Tkachenko**
+- **Prof.Dr. Maja Göpel**, Professor & Public Intellectual, Erich Fromm Prize, Theodor Heuss Prize
+- **Sara Lucía Pérez Carrillo**, Student, Universidad Católica Andrés Bello
+- **Yulia Hey**, Student and artist, NSCAD
+- **Gabriel Noah Fabricius**, IT-University of Copenhagen
+- **John Schneider**, Engineer
+- **Kayla Ballantyne**
+- **Michael Vernon**, PM, CoraMetix
+- **Simon Valcarcel**
+- **Hannah Crosby**, Library Page, Public Library
+- **Lorin Peters**
+- **Jay Stewart**
+- **Michael Tebble**
+- **Diogo Pereira**
+- **Luka Grgurin**
+- **Mariam Kartvelishvili**
+- **Trenton Dirks**, Software Engineer
+- **Daniel Barker**
+- **Swetha Murali**
+- **Luka Jankovic**
+- **Ben O Harris**, cyber security undergrade, mankato university
+- **Luke Francis Pranger**
+- **Michael Conzelmann**
+- **Wojciech Malinowski**
+- **Frank Idland**
+- **João Gabriel Azeredo dos Santos**
+- **Chris Coulter**
+- **Pearploy Chaicharoensin**, Programming Assistant
+- **Adam S Knighton**
+- **Nivedhitha Mathan Kumar**
+- **Brandon Lacayo**
+- **Maxwell Nawrot**, Student
+- **Rocio Juarez**
+- **Guto Gonçalves**, Artist
+- **Kent Measell**
+- **Joris Jovaisa**
+- **Aleksandr Nechaev**
+- **Joseph Bauckham**
+- **Tamas Kenderes**
+- **Jonathan Davidson Tannehill**, Data Annotation Gig Worker
+- **Liam Ngai**
+- **Ezra Lewis Turner**, Host
+- **Yang Jin-Cristian**, Contabil
+- **Noah Biedenkopf**
+- **Josh Craddock**, CPA
+- **Livylinn Sandy Mosss Silva**
+- **Robert Šoltész**
+- **Dan Palmison**, Retired
+- **Endre Mesina**
+- **Nick Vallone**, Technician
+- **Thomas Broughton**
+- **Joshua Williamson**
+- **Selina Anne Maria Elberg**, Student
+- **Grant Hawkins**
+- **Nalah Hope**
+- **Jasmina Korhonen**
+- **Andrew Obenreder**, Artist
+- **Ulf Bergström**, Researcher
+- **Addam Iskandar**
+- **Arda Başer**
+- **Luke Broad**, Student
+- **Keira Steinberg**
+- **David Varga**
+- **Adrianne Asdza Manuella Ramirez**
+- **Cameron Robert Ballard**
+- **Mireya Castaneda**
+- **Sam Browning**
+- **Aja Hatfield**
+- **Pierre Thérouanne**, University
+- **Ben Rasmussen**
+- **Elviera Verschuuren**
+- **Ruth Thielke**
+- **Joao Pedro Veleirinho Cardoso**, Data Scientist, Bosch
+- **Griffin Lewis**, Student
+- **Felisha Baker**
+- **Suzanna Watt**, Student
+- **Ava Morrison**
+- **Mercedes Peragallo Boxler**, Student
+- **Oskar Johansson**, IT Strategist, Lundgrens Sverige AB
+- **Zora Schmid**, Research Ethics
+- **Fabien De La Fayolle**
+- **Benjamin Schlaich**
+- **Mindi Brudzinski Wright**
+- **Shanler Helderman**, Co-Founder, VP of Integrated Custom Builders
+- **Zachary Bullen**, College Student
+- **Kate Maguire**, Software engineer, photographer
+- **Joseph Ganczarski**
+- **Jessica Cooney**
+- **Joshua Yaacoub**
+- **Cassandra Reeder**
+- **Kelan McCollum**
+- **Joann James**
+- **Juraj Krivda**
+- **Karlynn Kline**
+- **Pradyumna Kurucherlapati**, Manager, Puzzle Designer
+- **Jude Carter**
+- **Bernard Magda**, Student, Swps
+- **Luciana Grand**
+- **Matthew Rogers**, Mechanical Engineer
+- **Jack Feneley**
+- **Marta Lään**
+- **Staf Callewaert**
+- **Etelka Libisch**
+- **Jakob Manderscheid**
+- **Michael J. McVey**
+- **LEONARDO AUGUSTO HEBERLE BUGS**
+- **Makaylah Riley King**
+- **Samuel Silva Farias**, High School Student
+- **Zane Grisat**, Student, Cal State Sacramento
+- **Sune Smed**
+- **François Bry**, Professor Emeritus, Institut für Informatik - Universität München
+- **Henry Edgington**, Student, Lawrence University
+- **Dilshan Gill**
+- **Tommaso Dorigo**, First Researcher, INFN - Sezione di Padova, President of the USERN Organization, https://usern.org
+- **Sarah Johansson**
+- **Enrico Casadei**
+- **Michael Edwards**
+- **Quinn Apon**, Mathematics Student, University of Waterloo
+- **Miro Bastians**
+- **Nadia Ouzaid**
+- **Timothy Bareham**
+- **Oubai Al Shal**, Medical Student
+- **Dante Sobczynski**
+- **László Erdős**, Informatics System, Application Technician, and Software Engineer
+- **Nataniel Matracki**
+- **Gianluca Garibaldi**
+- **Jordan Myers**
+- **Luke Lardieri**
+- **Yeremenko Anton**
+- **William Valenti**
+- **Shashwat K Tiwary**, Student
+- **Greg Brooks**, Hydrologist, University of Oklahoma
+- **Izaiah Soriano**, SOC Analyst
+- **Michael Gabriel Drvenkar**
+- **João Horta**
+- **Ade Maguire**
+- **Michael Osenga**
+- **Ella C laws**
+- **Mikhail Pronin**
+- **Samuel Knaphus**, Founder, CAPS Corals
+- **Ariff Khairozaim Pratama bin Zamhar**, Student
+- **Lara Valls**, Product Manager
+- **Carlos Cibrián Uhalte**
+- **Ethan Wilson**, Computer Repair Specialist
+- **Steffen Mueller**, Entrepreneur, Google Alumni
+- **Logan Beshears**
+- **Eric Manuel de la Cruz**
+- **Thore Boehm**
+- **Aidan Yang Pendleton**
+- **Yernar Katymgaliyev**
+- **Alfred Carcase**
+- **Lisa Maier**, Doctor (Physics)
+- **Brooke Bakogeorge**
+- **Anna Medlock**
+- **Demangeat Arnaud**, Membre AFT Technoprog, AFT Technoprog
+- **Łukasz Wójcicki**, Student
+- **Noelle Birac**
+- **Jonah Martinez**
+- **Kyle McHugh**
+- **William Santatikul**
+- **Christian Nylund**
+- **Peter Crompton**
+- **Yaquelin Salas-Lopez**
