@@ -120,7 +120,7 @@ h4 { margin: 18px 0 4px; font-size: 14px; }
       var items = data.cols[c.k].filter(function (b) { return /\S/.test(b.text); }).map(function (b, i) { return (i + 1) + ") " + b.text.replace(/\s+/g, " ").slice(0, 160); });
       if (items.length) parts.push(c.title + ": " + items.join(" "));
     });
-    var ls = data.links.map(function (l, i) { return "Arrow " + (i + 1) + ": " + boxName(l.from) + " -> " + boxName(l.to) + (/\S/.test(l.label) ? " [assumption: " + l.label.replace(/\s+/g, " ").slice(0, 160) + "]" : " [no assumption named]"); });
+    var ls = data.links.map(function (l, i) { return "Arrow " + (i + 1) + ": " + boxName(l.from) + " -> " + boxName(l.to) + (/\S/.test(l.label) ? " [assumption: " + l.label.replace(/\s+/g, " ").slice(0, 160) + "]" : " [no assumption named]") + (l.cert ? " [certainty: " + l.cert + (/\S/.test(l.why || "") ? ", because " + l.why.replace(/\s+/g, " ").slice(0, 160) : "") + "]" : "") + (/\S/.test(l.how || "") ? " [to increase certainty: " + l.how.replace(/\s+/g, " ").slice(0, 160) + "]" : ""); });
     if (!parts.length && !ls.length) return "Theory of Change diagram is still empty.";
     return "Theory of Change diagram. " + parts.join(". ") + (ls.length ? ". Arrows: " + ls.join("; ") : ". No arrows drawn yet") + ".";
   }
@@ -304,6 +304,7 @@ h4 { margin: 18px 0 4px; font-size: 14px; }
       var tag = document.createElement("div"); tag.className = "lbl";
       tag.style.left = mx + "px"; tag.style.top = my + "px";
       var n = document.createElement("span"); n.className = "num"; n.textContent = String(i + 1); tag.appendChild(n);
+      if (l.cert) { var cb = document.createElement("span"); cb.className = "cert " + l.cert.toLowerCase(); cb.textContent = l.cert; tag.appendChild(cb); }
       var t = l.label.replace(/\s+/g, " ").trim();
       if (t) tag.appendChild(document.createTextNode(t.length > 40 ? t.slice(0, 40) + "..." : t));
       labels.appendChild(tag);
