@@ -65,7 +65,7 @@ This post uses "concentrated"/"diffuse" to describe failures involving few or ma
 
 \## Where this goes next
 
-The concentrated/diffuse split is the seam the rest of the curriculum is cut along. The concentrated end starts in Unit 4, with [[../Lenses/XLab Control - high-stakes-control-talk|The high-stakes control roadmap]]. The diffuse end is in AI Control 2, whose first unit covers [[../Lenses/XLab Control - low-stakes-control-talk|Low-stakes control]] and then takes up the sibling of this reading, [[../Lenses/XLab Control - handling-non-concentrated-failures|Notes on handling non-concentrated failures with AI control]].
+The concentrated/diffuse split is the seam the rest of the curriculum is cut along, and both ends are taken up in AI Control 2, the next course. The concentrated end starts with [[../Lenses/XLab Control - high-stakes-control-talk|The high-stakes control roadmap]]. The diffuse end comes later in that course, with [[../Lenses/XLab Control - low-stakes-control-talk|Low-stakes control]] and then the sibling of this reading, [[../Lenses/XLab Control - handling-non-concentrated-failures|Notes on handling non-concentrated failures with AI control]].
 
 #### Text
 content::
