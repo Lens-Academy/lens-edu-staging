@@ -15,7 +15,7 @@ summary_for_tutor:: Short welcome lens introducing the course. The opening text 
 reading_minutes:: 3
 #### Text
 content::
-This statement, signed by the leaders of the leading labs and top independent AI scientists, was a wake up call for humanity:
+This statement, signed by {++{"author":"Elua's AI","timestamp":1790937208242}@@top AI academics and ++}the {--{"author":"Elua's AI","timestamp":1790937208242}@@leaders--}{++{"author":"Elua's AI","timestamp":1790937208242}@@heads++} of the leading {--{"author":"Elua's AI","timestamp":1790937208242}@@labs and top independent AI scientists, --}{++{"author":"Elua's AI","timestamp":1790937208242}@@labs, ++}was a {--{"author":"Elua's AI","timestamp":1790937208242}@@wake up--}{++{"author":"Elua's AI","timestamp":1790937208242}@@wake-up++} call for humanity:
 
 #### Article
 source:: [[../articles/safety-statement-on-ai-extinction-risk-cais]]
