@@ -25,13 +25,11 @@ Add discussion note here:
 
 %%
 
-%% Hidden from learners (cross-post and see-also notes):
 _Cross-posted on lesswrong.com and_ [_integrationbyparts.substack.com_](https://integrationbyparts.substack.com/).
 
 _Compare and contrast with Duncan Sabien’s essay_ [_A Way to Be Okay_](https://www.lesswrong.com/posts/EvKa7EakoXreCkhC6/a-way-to-be-okay)_, written in parallel and with collaboration._
 
 _See also:_ [_Mental Health and the Alignment Problem_](https://www.lesswrong.com/posts/pLLeGA7aGaJpgCkof/mental-health-and-the-alignment-problem-a-compilation-of)
-%%
 
 ![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/duleba-another-way-to-be-okay-img1-9d4d464c.jpg)
 
