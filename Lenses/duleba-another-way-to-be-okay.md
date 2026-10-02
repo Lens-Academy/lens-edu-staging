@@ -7,6 +7,7 @@ reading_minutes: 8
 
 #### Article
 source:: [[../articles/duleba-another-way-to-be-okay]]
+from:: "![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/duleba-another-way-to-be-okay-img1-9d4d464c.jpg)"
 
 #### Text
 content::
