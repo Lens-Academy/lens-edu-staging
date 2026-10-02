@@ -30,7 +30,7 @@ Nowadays, before getting into a bunch of specific stories, I try to say somethin
 
 ::video[[../video_transcripts/adam-magyar-stainless-alexanderplatz]]
 
-> (cred to an anonymous friend for suggesting this one)
+> %%(cred to an anonymous friend for suggesting this one)%%
 >
 > [At this point, I wait for the person I'm chatting with to watch the video.]
 >
