@@ -8,7 +8,8 @@ title: "Definitions"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Strategies - Definitions|Definitions]]
+{++{"author":"Iris's AI","timestamp":1790942625854}@@render-as-non-article-text:: true
+++}source:: [[../articles/AI Safety Atlas - Strategies - Definitions|Definitions]]
 
 #### Question: Open
 id:: 747c31b2-9373-4aef-8b9d-175829fd6af8

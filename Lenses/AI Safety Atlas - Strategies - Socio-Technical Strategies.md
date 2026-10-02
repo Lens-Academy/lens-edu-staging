@@ -8,7 +8,8 @@ title: "Socio-Technical Strategies"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Strategies - Socio-Technical Strategies|Socio-Technical Strategies]]
+{++{"author":"Iris's AI","timestamp":1790942628746}@@render-as-non-article-text:: true
+++}source:: [[../articles/AI Safety Atlas - Strategies - Socio-Technical Strategies|Socio-Technical Strategies]]
 
 #### Text
 optional:: true

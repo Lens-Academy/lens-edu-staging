@@ -8,7 +8,8 @@ title: "ASI Safety Strategies"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Strategies - ASI Safety Strategies|ASI Safety Strategies]]
+{++{"author":"Iris's AI","timestamp":1790942621011}@@render-as-non-article-text:: true
+++}source:: [[../articles/AI Safety Atlas - Strategies - ASI Safety Strategies|ASI Safety Strategies]]
 
 #### Question: Open
 id:: 5b318ace-9bf5-4647-a2af-7be4a6ef2620
