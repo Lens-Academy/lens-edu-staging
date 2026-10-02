@@ -169,9 +169,14 @@ content::
 - **Reflection on Reading & Worksheet**
    - What were your key takeaways from Week 2’s reading and worksheet?
    - How do these ideas apply to your own problem area?
+- **Expanding before committing**
+   - How many problems did you list before narrowing? Did anything surprising come out of the brainstorm prompts?
+   - Which of the four traps (Good Intentions Wrong Problem, Interesting but Irrelevant, Crowded Field, Impossible Dream) are you most at risk of?
 - **Applying the ITN Framework**
    - How did the Importance, Neglectedness, Tractability (ITN) framework impact the way you think about the problems or research questions you’re considering?
    - Are there problems that feel high-impact on paper but don’t align with your skills, interests, or Ikigai?
+- **ITN and Ikigai**
+   - Is there a problem that looks high-impact on paper but doesn't energise you, or the other way around? How are you weighing that?
 - **Mastermind Session Debrief**
    - What did you learn from someone else’s problem or approach today?
    - Did you hear anything that challenged your assumptions or made you think differently?
@@ -181,15 +186,14 @@ content::
    - What’s one area you might explore further to increase potential impact?
    - What are your next steps for your thesis or project this week?
 
-\### 5m · Outro: Intro to next week + Weekly survey
+\### 10m · Outro: Intro to Next Week
 
-- **Briefly introduce Week 3,** which focuses on two complementary tools - Bottleneck Analysis and Stakeholder Mapping - in order to deeply understand the problem itself, what its causes are, and what is truly blocking progress on the problem.
-- **Remind participants:**
+- **Briefly introduce Week 3: Generating & Prioritising Research Questions.** We'll turn their problem into a small handful of concrete, answerable questions: diagnose the key bottleneck, generate a wide list of candidate questions, and use a Weighted Factor Model to narrow down to their top 1-2.
+- **Remind participants to:**
    - Remind **the two that are in the Mastermind session** for next week
-   - **Cross-cohort Virtual sessions for Week 2 (Optional):** Kick-off social and Foundations to Impact
-   - Continue using their workbook (that they have duplicated for themselves) for readings and completing worksheets
-   - Ideally, ask them to complete or draft worksheets before the discussions
-   - Explore the Journaling prompts in their own time, which focus on personal reflection prompts for their life, not just academics
-- **\[If time allows\]** Ask participants to complete the weekly pulse survey: [Anonymous Weekly feedback form](https://forms.gle/2BSkjtYHje8Dsm2w9) (this is linked on each header page of their workbook as well)
+   - Do next week’s readings and worksheet before the session on Lens
+      - Ideally, ask them to complete or draft worksheets before the discussions
+   - Explore this week’s Journaling prompts in their own time, which focus on personal reflection prompts for their life, not just academics
+   - Weekly survey on Lens platform to share their feedback
 
 #### End Callout
