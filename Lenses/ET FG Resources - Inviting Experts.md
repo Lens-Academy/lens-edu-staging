@@ -37,6 +37,14 @@ For some sessions, especially Week 4 to Week 8, we recommend inviting external g
 
 \### Email Template for Outreach
 
+Here's a template you can adapt when inviting a guest to one of your sessions. Personalise it as much as you can: mention a specific piece of their work, say why it connects to your cohort's topics, and suggest a date (while staying flexible). Short and warm tends to get the best replies! Tap below to open it.
+
+#### Callout: Email template - inviting an expert to your session
+tone:: neutral
+collapse:: closed
+
+#### Text
+content::
 **Subject:** Invitation to Join the Effective Thesis Accelerator for Expert Session
 
 Hi \[Expert Name\],
@@ -55,3 +63,5 @@ Thank you so much for considering this invitation - your work is making a meanin
 Best regards,
 \[Your Name\]
 Campus Director, Effective Thesis
+
+#### End Callout
