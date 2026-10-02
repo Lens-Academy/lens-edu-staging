@@ -22,14 +22,10 @@ Add discussion note here:
 
 %%
 
-{--{"author":"Elua's AI","timestamp":1790942162540}@@## 1960: The Year The Singularity Was Cancelled
+:::hide
+***Epistemic status:** Very speculative, especially Parts 3 and 4. Like many good things, this post is based on a conversation with Paul Christiano; most of the good ideas are his, any errors are mine.*
+:::
 
-April 22, 2019
-
---}{++{"author":"Elua's AI","timestamp":1790942162540}@@:::hide
-++}***Epistemic status:** Very speculative, especially Parts 3 and 4. Like many good things, this post is based on a conversation with Paul Christiano; most of the good ideas are his, any errors are mine.*
-{++{"author":"Elua's AI","timestamp":1790942162540}@@:::
-++}
 ### I
 
 In the 1950s, an Austrian scientist discovered a series of equations that he claimed could model history. They matched past data with startling accuracy. But when extended into the future, they predicted the world would end on November 13, 2026.

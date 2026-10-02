@@ -110,19 +110,24 @@ Feel free to add in a fun question here - like your favourite dessert, book, mov
 
 **Provide context on the program in this section. You can use/adapt the [Week 1 slides](https://docs.google.com/presentation/d/1OtnNuc_V2DwkJX3lipKqitjmDqYVnpkXawLvV1X1Iik/edit?slide=id.g374d8fb5114_0_595#slide=id.g374d8fb5114_0_595).**
 
-- The purpose of the Effective Thesis Accelerator and the ToC of the program
+- The purpose of the Effective Thesis Accelerator and what we hope they leave with: a high-impact research project with a clear Theory of Change, understanding of how to do high-impact research (ITN, ToC), engagement with real-world stakeholders, and more agency towards their own vision of impact
 - Structure of the program: Key things to cover
    1. Weekly peer group discussions
    2. Pre-readings before the discussion and worksheets
    3. Mastermind session format (Slide 11)
    4. Optional Whole Cohort Virtual Sessions
-- How to Use the Participant Workbook
+- How to Use the Lens Platform - Readings, worksheets, journaling
+- The 8-week arc: Foundations → Problem → Research Questions → Stakeholders → Theory of Change → Reverse Engineering → Career → Presentations
 
 Emphasise that the program is designed to support learning, experimentation, and agency, not just output.
 
+\### 5m · Pre-accelerator forms
+
+**Ask all learners to fill in pre-accelerator forms** if they haven’t already. This helps us at Effective Thesis get a better understanding of where everyone is starting from, so that we can tailor the programme better. Learners who have already filled it in can engage in a bit of simple small talk.
+
 \### 10m · Part 1: Worksheet - Working on Worksheet Live
 
-Ask participants to open the Week 1 Worksheet in their workbook and introduce Week 1’s Worksheet: “This worksheet is designed to help you explore and clarify the foundations of your impactful thesis and emerging career path. The goal is to guide you in designing a thesis that is not only meaningful and energising for you (aligned with your Ikigai) but also a practical stepping stone toward a high-impact career.”
+Ask participants to open the Week 1 Worksheet and introduce Week 1’s Worksheet: “This worksheet is designed to help you explore and clarify the foundations of your impactful thesis and emerging career path. The goal is to guide you in designing a thesis that is not only meaningful and energising for you (aligned with your Ikigai) but also a practical stepping stone toward a high-impact career.”
 
 - Set aside 7-10m for each person to work on their worksheet independently. (Or fine-tune or discuss it if done already)
 
