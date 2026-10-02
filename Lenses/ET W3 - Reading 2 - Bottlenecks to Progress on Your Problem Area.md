@@ -176,6 +176,40 @@ With your shortlist of 5-10 candidate questions in hand, the final step is makin
 4. **Now you can begin scoring each question** against each factor, typically on a 1-10 scale.
 5. **Calculate a weighted score** for each question (score × weight, summed across factors) to see which one(s) rise to the top.
 
+**Good news: you don't have to do the maths by hand!** Step 4 of your Week 3 Worksheet has a built-in Weighted Factor Model tool that does this for you automatically. It starts you off with a set of example factors and weights that you can rename, remove or add to, shows a running total so you can see whether your weights add up to 100, gives you a grid to score each shortlisted question on every factor, and then calculates the weighted scores and ranks your questions for you. It also asks for your gut favourite, so you can see straight away whether your gut and the model agree. (If you would rather work in a spreadsheet, the worksheet also links a template you can copy.)
+
+#### Callout: 💡 Example: how one person might weight their factors (click to open)
+tone:: neutral
+collapse:: closed
+
+#### Text
+content::
+*This is an illustrative example of a hypothetical person, not a real participant. Your own factors and weights will, and should, look different!*
+
+Imagine a master's student in economics who is fairly sure they want to work in AI governance research, but has not yet tested whether research is a good fit for them. They see their thesis as one of their best chances to build skills, meet people already working in the field, and test their fit, so they put the most weight on **impact on their career path**. Within the problem area, they give the most weight to **certainty of pathway to impact**, because they want their thesis to actually be used by someone rather than sit on a shelf. They give community impact very little weight, since few of their peers work in this area.
+
+| Category | Factor | Weight |
+|---|---|---|
+| **Impact on the Problem Area (30%)** | The problem: Importance | 4% |
+| | The problem: Neglectedness | 4% |
+| | The problem: Tractability | 4% |
+| | Certainty of Pathway to Impact | 18% |
+| **Impact on my career path (45%)** | Skill Building | 15% |
+| | Relationship Building | 15% |
+| | Testing Fit | 15% |
+| **Impact on my community (5%)** | Community Impact | 5% |
+| **General Thesis Interest (20%)** | Current Fit | 8% |
+| | Motivation | 6% |
+| | Novelty | 3% |
+| | Intuitive Draw | 3% |
+| **Total** | | **100%** |
+
+A different person would weight things differently. For example, someone who is already settled on their career path might shift most of the weight towards the problem area, while someone who cares deeply about their local community might raise community impact. There is no single right answer, and the point is to make your own priorities explicit!
+
+#### End Callout
+
+#### Text
+content::
 ⭐ **A WFM isn't meant to fully outsource the decision to a spreadsheet.** It's meant to make your reasoning explicit enough to compare across options, and to catch cases where your gut favourite scores surprisingly low on a factor you said mattered to you. If that happens, that tension is worth sitting with rather than quietly overriding the model, or quietly overriding your gut.
 
 Your output from this step is your top 1-2 research questions, the ones you'll carry forward into Week 4's bottleneck and stakeholder mapping, where you'll find out who actually needs the answer.
