@@ -1,0 +1,130 @@
+---
+id: 'c7e2a4b9-3f1d-4a6e-9b8c-2d5f7e1a0c34'
+title: Mastermind Session Tracker
+summary_for_tutor: An interactive tracker where a facilitator lists their participants and ticks which of Weeks 2-7 each person is in the Mastermind hot seat. It shows each person's total hot seats and how many are scheduled each week, and flags anyone not yet scheduled.
+height: auto
+tags: [wip]
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { --bg:#fff; --fg:#1f2328; --muted:#6b7280; --line:#e5e7eb; --accent:#d97706; --soft:#fef3c7; --ok:#15803d; --warn:#b45309; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#1c1c1e; --fg:#f3f4f6; --muted:#9ca3af; --line:#3a3a3c; --accent:#f59e0b; --soft:#3b2f12; --ok:#4ade80; --warn:#fbbf24; } }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, sans-serif; color:var(--fg); background:transparent; font-size:15px; }
+  .wrap { overflow-x:auto; }
+  table { border-collapse: collapse; width:100%; min-width:520px; }
+  th, td { border-bottom:1px solid var(--line); padding:8px 6px; text-align:center; }
+  th:first-child, td:first-child { text-align:left; }
+  th { font-size:13px; color:var(--muted); font-weight:600; }
+  input[type=text] { width:100%; min-width:120px; padding:6px 8px; border:1px solid var(--line); border-radius:6px; background:var(--bg); color:var(--fg); font-size:14px; }
+  input[type=checkbox] { width:20px; height:20px; accent-color: var(--accent); cursor:pointer; }
+  .total { font-weight:600; }
+  .zero { color:var(--warn); }
+  tfoot td { font-size:13px; color:var(--muted); }
+  .wk-ok { color:var(--ok); font-weight:600; }
+  .wk-warn { color:var(--warn); font-weight:600; }
+  .del { border:none; background:none; color:var(--muted); cursor:pointer; font-size:18px; line-height:1; }
+  .del:hover { color:var(--warn); }
+  .bar { display:flex; gap:8px; flex-wrap:wrap; margin-top:12px; align-items:center; }
+  button.btn { padding:8px 14px; border-radius:8px; border:1px solid var(--line); background:var(--bg); color:var(--fg); cursor:pointer; font-size:14px; }
+  button.primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+  label.target { font-size:13px; color:var(--muted); display:flex; align-items:center; gap:6px; }
+  label.target input { width:52px; padding:4px 6px; border:1px solid var(--line); border-radius:6px; background:var(--bg); color:var(--fg); }
+  .note { margin-top:10px; font-size:13px; padding:8px 10px; border-radius:8px; background:var(--soft); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <table>
+      <thead>
+        <tr><th>Participant</th><th>Wk 2</th><th>Wk 3</th><th>Wk 4</th><th>Wk 5</th><th>Wk 6</th><th>Wk 7</th><th>Total</th><th></th></tr>
+      </thead>
+      <tbody id="rows"></tbody>
+      <tfoot><tr id="foot"></tr></tfoot>
+    </table>
+  </div>
+  <div class="bar">
+    <button class="btn primary" id="add">+ Add participant</button>
+    <label class="target">Hot seats per week <input type="number" id="target" min="1" max="6"></label>
+    <button class="btn" id="reset">Clear tracker</button>
+  </div>
+  <div class="note" id="note"></div>
+
+<script>
+  var WEEKS = [2,3,4,5,6,7];
+  var data = { people: [ {name:"",w:[]},{name:"",w:[]},{name:"",w:[]},{name:"",w:[]} ], target: 2 };
+
+  function esc(s){ return String(s).replace(/[&<>"]/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
+
+  function summary(){
+    var named = data.people.filter(function(p){ return p.name.trim(); });
+    if (!named.length) return "Mastermind tracker is empty so far.";
+    var parts = named.map(function(p){ return p.name.trim() + ": weeks " + (p.w.length ? p.w.slice().sort(function(a,b){return a-b;}).join(", ") : "none yet"); });
+    return "Mastermind hot seat schedule (target " + data.target + " per week). " + parts.join("; ") + ".";
+  }
+
+  function save(){ if (window.Lens) Lens.saveState(data, summary()); }
+
+  function render(){
+    var rows = document.getElementById("rows");
+    rows.innerHTML = "";
+    data.people.forEach(function(p, i){
+      var tr = document.createElement("tr");
+      var html = '<td><input type="text" placeholder="Name" value="' + esc(p.name) + '" data-i="' + i + '" class="nm"></td>';
+      WEEKS.forEach(function(wk){
+        html += '<td><input type="checkbox" data-i="' + i + '" data-w="' + wk + '"' + (p.w.indexOf(wk) > -1 ? " checked" : "") + ' aria-label="Week ' + wk + '"></td>';
+      });
+      html += '<td class="total' + (p.w.length ? "" : " zero") + '">' + p.w.length + '</td>';
+      html += '<td><button class="del" data-del="' + i + '" title="Remove">×</button></td>';
+      tr.innerHTML = html;
+      rows.appendChild(tr);
+    });
+    var foot = '<td>Per week</td>';
+    WEEKS.forEach(function(wk){
+      var n = data.people.filter(function(p){ return p.w.indexOf(wk) > -1; }).length;
+      foot += '<td class="' + (n == data.target ? "wk-ok" : "wk-warn") + '">' + n + '</td>';
+    });
+    foot += '<td></td><td></td>';
+    document.getElementById("foot").innerHTML = foot;
+    document.getElementById("target").value = data.target;
+    updateNote();
+  }
+
+  function updateNote(){
+    var named = data.people.filter(function(p){ return p.name.trim(); });
+    var missing = named.filter(function(p){ return !p.w.length; }).map(function(p){ return p.name.trim(); });
+    var msg;
+    if (!named.length) msg = "Add your participants' names, then tick the weeks each person is in the hot seat. Your tracker saves automatically.";
+    else if (missing.length) msg = "Not scheduled yet: " + missing.join(", ") + ". Aim for everyone to go at least once, and most people twice.";
+    else msg = "Everyone has at least one hot seat. Nice! Remember to let people know one week in advance.";
+    document.getElementById("note").textContent = msg;
+  }
+
+  document.getElementById("rows").addEventListener("input", function(e){
+    if (e.target.classList.contains("nm")) { data.people[+e.target.dataset.i].name = e.target.value; updateNote(); save(); }
+  });
+  document.getElementById("rows").addEventListener("change", function(e){
+    if (e.target.type === "checkbox") {
+      var p = data.people[+e.target.dataset.i], wk = +e.target.dataset.w;
+      if (e.target.checked) { if (p.w.indexOf(wk) < 0) p.w.push(wk); } else { p.w = p.w.filter(function(x){ return x !== wk; }); }
+      render(); save();
+    }
+  });
+  document.getElementById("rows").addEventListener("click", function(e){
+    if (e.target.dataset.del !== undefined) { data.people.splice(+e.target.dataset.del, 1); render(); save(); }
+  });
+  document.getElementById("add").addEventListener("click", function(){ data.people.push({name:"",w:[]}); render(); save(); });
+  document.getElementById("target").addEventListener("change", function(e){ var v = parseInt(e.target.value, 10); if (v > 0) { data.target = v; render(); save(); } });
+  document.getElementById("reset").addEventListener("click", function(){
+    data = { people: [ {name:"",w:[]},{name:"",w:[]},{name:"",w:[]},{name:"",w:[]} ], target: 2 }; render(); save();
+  });
+
+  render();
+  if (window.Lens) Lens.onState(function(state){ if (state && state.people) { data = state; if (!data.target) data.target = 2; render(); } });
+</script>
+</body>
+</html>
