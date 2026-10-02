@@ -24,9 +24,7 @@ Add discussion note here:
 ...
 
 %%
-{--{"author":"Elua's AI","timestamp":1790936726567}@@by [Jeremy Gillen](https://www.lesswrong.com/users/jeremy-gillen?from=post_header), [peterbarnett](https://www.lesswrong.com/users/peterbarnett?from=post_header) | 26th Jan 2024 | [Review by Jeremy Gillen](https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/#ebYbeASupnTdb9vAx) | [Review by plex ](https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/#BnWtd2ARfuYXfdf2t)
-
---}A pdf version of this report is available [here](https://intelligence.org/wp-content/uploads/2024/02/Misalignment_and_Catastrophe.pdf).
+A pdf version of this report is available [here](https://intelligence.org/wp-content/uploads/2024/02/Misalignment_and_Catastrophe.pdf).
 # Summary
 
 In this report we argue that AI systems capable of large scale scientific research will likely pursue unwanted goals and this will lead to catastrophic outcomes. We argue this is the default outcome, even with significant countermeasures, given the current trajectory of AI development.
