@@ -15,7 +15,7 @@ All of it happens on staging. Nothing reaches learners until it is promoted afte
 
 Six things, none of them about what the course teaches.
 
-**Load is uneven, and the figures for it are unreliable.** Unit 5 is one module of nine lenses, although its own first page says the work should be split into two sessions. Strategic Foundations is a single page holding seven embedded readings, about 39,000 words, with two more linked, and it is labeled 80 minutes. For unit 5, the course file, the lenses and the unit's first page give three different sets of times. Stage 1 has the measurements.
+**Load is uneven, and the figu{>>{"author":"Elias","timestamp":1790945448081}@@Yes, aware of this. Just didn't have the time yet to fix everything.\n\nFix time estimates + session splits + announcement wherever you see problems<<}res for it are unreliable.** Unit 5 is one module of nine lenses, although its own first page says the work should be split into two sessions. Strategic Foundations is a single page holding seven embedded readings, about 39,000 words, with two more linked, and it is labeled 80 minutes. For unit 5, the course file, the lenses and the unit's first page give three different sets of times. Stage 1 has the measurements.
 
 **Learners meet labels they cannot resolve.** XLab's section numbers (2.1.3, 1.2.2) appear in eight hardware lens headings and in link labels or "Section" and "Module" references in six more lenses, and CV1 never shows the numbering they belong to. The overview, the unit 5 module title and four lenses say "week" where the course runs in units.
 
