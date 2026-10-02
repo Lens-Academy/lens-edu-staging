@@ -55,7 +55,7 @@ Instead of making our defenses stronger against attacks, we could reduce attack 
 
 **Exploration hacking and sandbagging countermeasures**: If we naively apply RL, the AI may be able to [exploration hack](https://www.lesswrong.com/posts/dBmfb76zx6wjPsBC7/when-can-we-trust-model-evaluations#2__Behavioral_RL_Fine_Tuning_Evaluations). There are a variety of countermeasures to attempt to force AIs to explore good actions. See [Notes on countermeasures for exploration hacking (aka sandbagging)](https://www.lesswrong.com/posts/abmzgwfJA9acBoFEX/notes-on-countermeasures-for-exploration-hacking-aka) for more.
 
-**Regularization combined with online training**: This can hopefully make subtle bad actions ineffective as a strategy (because the regularization forces some more specific policy rather than allowing for a broad set of effectively optimal policies). See the discussion in [[../Lenses/XLab Control - handling-non-concentrated-failures|Notes on handling non-concentrated failures with AI control]].
+**Regularization combined with online training**: This can hopefully make subtle bad actions ineffective as a strategy (because the regularization forces some more specific policy rather than allowing for a broad set of effectively optimal policies). See the discussion in [[../Lenses/XLab Control - handling-non-concentrated-failures-2|Notes on handling non-concentrated failures with AI control]].
 
 #### Text
 content::
