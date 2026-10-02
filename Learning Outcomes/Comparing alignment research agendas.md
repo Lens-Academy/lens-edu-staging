@@ -37,7 +37,7 @@ enforce-voice:: true
 
 #### Question
 id:: 8de0afd4-3209-485c-8f31-e5631da1f693
-content:: What would you trust more: behavior based evidence that a model is unsafe, or mechanistic evidence, and what could change your mind? You can type your answer or record it using the microphone.
+content:: {--{"author":"Elua's AI","timestamp":1790940770009}@@What--}{++{"author":"Elua's AI","timestamp":1790940770009}@@Which++} would you trust more: {--{"author":"Elua's AI","timestamp":1790940770009}@@behavior based--}{++{"author":"Elua's AI","timestamp":1790940770009}@@behavior-based++} evidence that a model is unsafe, or mechanistic {--{"author":"Elua's AI","timestamp":1790940770009}@@evidence, and what--}{++{"author":"Elua's AI","timestamp":1790940770009}@@evidence? What++} could change your mind? You can type your answer or record it using the microphone.
 assessment-instructions:: Check that the student (1) clearly states a preference (behavioral vs mechanistic, or a conditional mix), (2) gives at least one concrete reason, and (3) names specific mind-changers: an example of new evidence, a stronger method, or a scenario where the other type would dominate. Reward nuance about false positives/negatives, distribution shift, and limits of mechanistic access.
 enforce-voice:: true
 
