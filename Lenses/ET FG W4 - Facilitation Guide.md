@@ -80,8 +80,18 @@ content::
 - For a Google Docs version for printouts, you can use [this](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?tab=t.2b71rt36knt9). But we recommend everyone access via Lens!
 - Week 4 Slides: [\[Shared - 2026\] Week 4: Stakeholder Outreach and Interviews](https://docs.google.com/presentation/d/18KhquSGHuxoooI3-JmuRQHmdxKKOx5dd7nMsKCxNAL4/edit?slide=id.g37515589af2_0_0#slide=id.g37515589af2_0_0)
 
-\### 3m · Welcome & Group Check-In
+\### Recommended Structure for the Session
 
+*This is the flow we recommend for your 1.5h session, split into parts. Tap each stage to open it. Feel free to adapt the structure to your group - if you have a larger group (>4 participants) or worksheets are still early, see [[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]] for alternative formats.*
+
+#### Callout: Part 1: Welcome & Connection
+tone:: neutral
+
+#### Callout: 1. 3m · Welcome & Group Check-In
+collapse:: closed
+
+#### Text
+content::
 - **Welcome participants and check-in:** What is something you’re grateful for from your week or that you’re excited about?
 
 **Share the overview and intention of this session:**
@@ -92,8 +102,13 @@ content::
    - Two 20m Mastermind Sessions
    - Whole group discussion to synthesise
 
-\### 7m · 1:1 Speed Friending
+#### End Callout
 
+#### Callout: 2. 7m · 1:1 Speed Friending
+collapse:: closed
+
+#### Text
+content::
 **Pair participants (or groups of 3 if numbers require) and suggest some icebreaker questions to discuss:**
 
 - What’s a challenge or failure that taught you something important?
@@ -102,13 +117,18 @@ content::
 
 **If you would like to do a group activity/game instead, [[../Lenses/ET FG Resources - Icebreaker Speed Friending Question List|here]] are some ideas.**
 
-#### Callout: Part 1: Worksheet
+#### End Callout
+
+#### End Callout
+
+#### Callout: Part 2: Worksheet
 tone:: neutral
+
+#### Callout: 3. 15m · Working on Worksheet Live
+collapse:: closed
 
 #### Text
 content::
-\### 15m · Part 1: Working on Worksheet Live
-
 Ask participants to open the Week 4 Worksheet in their workbook and introduce Worksheet: This worksheet is designed to help you continue to conduct stakeholder outreach and prepare for your upcoming interviews! By the end of this worksheet, you'll have a list of real, named stakeholders worth talking to, at least 15-20 outreach attempts logged, and a set of interview questions ready to go!"
 
 - **Part 1:** copy over their top 1-2 research questions and bottleneck from Week 3, and name who would need to act on the answer.
