@@ -21,7 +21,7 @@ Six things, none of them about what the course teaches.
 
 **One promise is kept in a different course.** Unit 5 opens with a claim ledger and tells learners to keep their answers for the end of the section. The return happens in Compute Verification 2, in [[Lenses/XLab Verification - v-hw-policy-studio]]. A learner who takes only CV1 never sees the resolution, and CV1's tutor is told not to give it.
 
-**Grades that measure nothing.** 44 question segments outside the learning outcomes produce a score. In ten of them the answer key sits on the same page directly below the question, in a collapsed callout the learner can open at any time, or in the next paragraph. Twenty of the 44 share one generic feedback brief, and no question in the course sends feedback unless the learner asks for it.
+**Question formats that work against themselves.** 44 question segments outside the learning outcomes produce a score. In ten of them the answer key sits on the same page directly below the question, in a collapsed callout the learner can open at any time, or in the next paragraph. Twenty of the 44 share one generic feedback brief, and no question in the course sends feedback unless the learner asks for it. Learners also cannot see which questions they may skip, because the platform does not show the optional flag: of the 20 optional questions in core lenses, 12 say so in their prompt, 4 only in the text above them, and 4 nowhere. Eighteen of those 20 are graded.
 
 **Text that takes decoding.** Much of what Lens wrote around XLab's lessons was drafted by AI and reads like it: dense sentences, compressed metaphors and closing aphorisms that a participant has to unpack before they can use them. At least one tldr gives away the result of the exercise it introduces.
 
@@ -89,12 +89,12 @@ Stage 8 repeats this measurement once everything else has landed.
    - Stage 6 rewrites text his AI ported or wrote, such as prompts rebuilt from XLab widgets. His notes on those passages are the record of what is XLab's and what is not.
    - Notes beside questions that stage 4 edits, in the actor map workshop, "Who can prove what", the Context Distiller, the trusted-statement lens, precedents, treaty anatomy, and upstream and downstream. Every edit will be split to go around them, never through them.
    - One open check: whether the imported MIRI paper is the v3 the curriculum pins.
-2. **Settle the open decisions** at the end of this document.
+2. **Collect Elias's input on the open decisions** at the end of this document. Any he does not weigh in on are settled before the stage they hold up.
 3. **Open a CV1 log and a working-preferences file** on the AIRF pattern.
 
 ### Stage 3. Structure
 
-Page boundaries come first, so every later edit runs against final pages.
+Page boundaries come first, so every later edit runs against final pages. Steps 2 to 5 carry out decisions 1 to 4 in whatever form they are settled; the text describes our suggestion for each.
 
 1. **Test whether an answer survives its question moving to another lens.** On a test lens on staging, a signed-in tester answers a question, the segment is moved to a different lens, and the tester checks the answer is still there. The result settles decision 4.
 2. **Split unit 5 into two modules**, at the seam its own first page asks for.
