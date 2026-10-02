@@ -21,7 +21,7 @@ By the end of this unit you will have a plan small enough to finish: who your pr
 
 - Choose your track: Fit, or a field project
 - Agree the AI use policy: use AI as a tool, not a decision-maker
-- See what earlier participants made
+- Browse a gallery of potential projects
 - Learn why theories of change matter, then build one for your project
 - Write your proposal canvas, ending in a one-sentence theory of change
 
@@ -95,16 +95,16 @@ In Meeting 1 your group agrees a short set of norms. The starting draft:
 - We disclose how we used AI on every project card.
 - We count a published "why my idea changed" post as a success.
 
-# Lens: What earlier participants made
+# Lens: Gallery of potential projects
 id:: 1a55f275-2de0-49c2-8e72-eba16b5c4f54
-tldr:: Real projects, grouped by track, to show the range before you pick yours. Notice how small most of them started.
-summary_for_tutor:: An example gallery for Lens Projects, grouped by track (Fit, technical, policy, fieldbuilding), followed by a choice of track and an open question asking the learner to compare two examples and name the one closest to what they might make. Help them see what made each example worth making and how small its first version probably was. Do not recommend a project or a track.
+tldr:: Real projects by people in the field, grouped by track, to show what a project like yours could look like. Notice how small most of them started.
+summary_for_tutor:: A gallery of potential projects for Lens Projects: real work by people in AI safety, grouped by track (Fit, technical, policy, fieldbuilding), followed by a choice of track and an open question asking the learner to compare two examples and name the one closest to what they might make. These are not past course participants. Help them see what made each example worth making and how small its first version probably was. Do not recommend a project or a track.
 duration_minutes:: 40
 #### Text
 content::
 \## Look before you choose
 
-These are real pieces of work people have made, to show the range before you pick yours. Open a few. Look for one close to what you would want to make, and notice how small most of them started.
+These are real pieces of work by people in AI safety, to show the range of projects you could take on. Open a few. Look for one close to what you would want to make, and notice how small most of them started.
 
 \### Fit
 
