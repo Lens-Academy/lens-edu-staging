@@ -130,7 +130,7 @@ source:: [[../widgets/et-w4-stakeholder-tracker]]
 content::
 ---
 
-\# Part 3. \[Optional\] Prepare for Week 8 Presentations
+\# Part 3. \[Optional\] Prepare for Week 8 Presentations ^part-3
 
 In Week 8, you will each present an overview of what you’ve worked on over the past 8 weeks, summarised in a short presentation using the template below. You can begin working on your presentation here and continue refining it during Weeks 7 and 8.
 
@@ -138,7 +138,7 @@ Use this template: [\[TEMPLATE\] Week 8 Presentation ET Accelerator: Oct-Dec 26'
 
 ---
 
-\# Part 4. Next Steps
+\# Part 4. Next Steps ^part-4
 
 #### Question: Open
 id:: d1943212-3250-43dc-aff4-459f7b422a4c
