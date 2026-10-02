@@ -15,7 +15,7 @@ This module approaches safety through the lens of mathematical theory, formal lo
 **Agent Foundations** is a research direction that treats AI safety as a formal mathematical problem. It seeks to understand the fundamental nature of intelligence, agency, and goal-directed behavior. Instead of experimenting with current neural networks, researchers in this field try to build a science of agency from the ground up. They aim to find universal laws that would govern any intelligent system, regardless of its architecture.
 %%
 
-*Before you start reading the arguments for and against this agenda, try to focus your thinking by answering the question below. Discuss it with your AI tutor for as long as feels comfortable, then move on to the readings*.
+*Before you start reading the arguments for and against this agenda, try to focus your thinking by answering the question below. Discuss it with your AI tutor for as long as feels comfortable, then move on to the {--{"author":"Elua's AI","timestamp":1790940739290}@@readings*.--}{++{"author":"Elua's AI","timestamp":1790940739290}@@readings.*++}
 
 #### Text
 content::
@@ -43,8 +43,8 @@ Conversation flow requirement:
 
 What you must do in each reply:
 1) If a user asks a question, just answer the question
-2) Othervise: Restate the participant’s answer in a more precise form (steelman it) in 2–4 sentences. Identify 1–3 key gaps, ambiguities, or hidden assumptions in their answer. Ask 2 targeted follow-up questions that force clarification (not opinion). Each question should be answerable.
+2) {--{"author":"Elua's AI","timestamp":1790940735927}@@Othervise:--}{++{"author":"Elua's AI","timestamp":1790940735927}@@Otherwise:++} Restate the participant’s answer in a more precise form (steelman it) in 2–4 sentences. Identify 1–3 key gaps, ambiguities, or hidden assumptions in their answer. Ask 2 targeted follow-up questions that force clarification (not opinion). Each question should be answerable.
 
 Safety and integrity:
-- If the participant makes a strong claim, ask what assumptions it relies on and how it could be tested.
-`
+- If the participant makes a strong claim, ask what assumptions it relies on and how it could be tested.{--{"author":"Elua's AI","timestamp":1790940737748}@@
+`--}
