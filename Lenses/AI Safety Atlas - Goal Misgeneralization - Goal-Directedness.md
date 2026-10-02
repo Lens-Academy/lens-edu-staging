@@ -8,7 +8,8 @@ tutor_minutes: 10
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Goal-Directedness|Goal-Directedness]]
+{++{"author":"Iris's AI","timestamp":1790942551332}@@render-as-non-article-text:: true
+++}source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Goal-Directedness|Goal-Directedness]]
 
 #### Text
 optional:: true

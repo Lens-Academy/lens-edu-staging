@@ -8,7 +8,8 @@ title: "Governance Architectures"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Governance - Governance Architectures|Governance Architectures]]
+{++{"author":"Iris's AI","timestamp":1790942561768}@@render-as-non-article-text:: true
+++}source:: [[../articles/AI Safety Atlas - Governance - Governance Architectures|Governance Architectures]]
 
 #### Text
 optional:: true

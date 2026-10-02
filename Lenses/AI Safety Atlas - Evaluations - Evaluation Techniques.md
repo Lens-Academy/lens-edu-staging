@@ -8,7 +8,8 @@ tutor_minutes: 6
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Evaluations - Evaluation Techniques|Evaluation Techniques]]
+{++{"author":"Iris's AI","timestamp":1790942534439}@@render-as-non-article-text:: true
+++}source:: [[../articles/AI Safety Atlas - Evaluations - Evaluation Techniques|Evaluation Techniques]]
 
 #### Text
 optional:: true

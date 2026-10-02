@@ -8,7 +8,8 @@ tutor_minutes: 5
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Introduction]]
+{++{"author":"Iris's AI","timestamp":1790942552181}@@render-as-non-article-text:: true
+++}source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Introduction]]
 
 #### Question: Open
 id:: 13e0dd89-ea8d-47c4-93ec-158b7269e221

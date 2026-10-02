@@ -8,4 +8,5 @@ title: "Appendix: National Governance"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Governance - Appendix National Governance|Appendix: National Governance]]
+{++{"author":"Iris's AI","timestamp":1790942558730}@@render-as-non-article-text:: true
+++}source:: [[../articles/AI Safety Atlas - Governance - Appendix National Governance|Appendix: National Governance]]

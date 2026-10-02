@@ -8,7 +8,8 @@ tutor_minutes: 10
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Detection|Detection]]
+{++{"author":"Iris's AI","timestamp":1790942550152}@@render-as-non-article-text:: true
+++}source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Detection|Detection]]
 
 #### Text
 optional:: true
