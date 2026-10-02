@@ -21,6 +21,11 @@ source:: [[../Lenses/ET W8 - Reading - Final Presentations]]
 optional:: true
 source:: [[../Lenses/ET W8 - Journalling - Final Reflections and Takeaways]]
 
+# Submodule: Week 8 Survey
+
+# Lens:
+source:: [[../Lenses/ET W8 - Weekly Survey]]
+
 # Submodule: Post-Program Feedback & Certificate
 
 # Lens:
