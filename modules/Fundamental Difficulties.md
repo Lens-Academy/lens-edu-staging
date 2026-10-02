@@ -69,14 +69,20 @@ source:: [[../Lenses/byrnes-sympathy-for-both-sides-of-the-egregious-misalignmen
 source:: [[../Lenses/Eliezer Yudkowsky – AI Alignment- Why It's Hard, and Where to Start]]
 
 # Lens:
-source:: [[../Lenses/alexander-nicholas-decker-in-hell]]
+{--{"author":"Elua's AI","timestamp":1790936589624}@@source:: [[../Lenses/alexander-nicholas-decker-in-hell]]
 
 # Lens:
 source:: [[../Lenses/Sharp left turn]]
 
 # Lens:
-optional:: true
-source:: [[../Lenses/Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AIst outcomes]]
+--}optional:: true
+source:: [[../Lenses/Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AIst outcomes]]{++{"author":"Elua's AI","timestamp":1790936589624}@@
+
+# Lens:
+source:: [[../Lenses/alexander-nicholas-decker-in-hell]]
+
+# Lens:
+source:: [[../Lenses/Sharp left turn]]++}
 
 # Lens:
 optional:: true
