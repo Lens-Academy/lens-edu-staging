@@ -38,18 +38,18 @@ source:: ![[../Lenses/Security Mindset and Ordinary Paranoia|Security Mindset an
 source:: ![[../Lenses/robert-miles-ai-safety-just-predicting-tokens]]
 
 # Lens:
-source:: ![[../Lenses/Janus' Simulators - Scott Alexander]]
-
-# Lens:
-source:: ![[../Lenses/nostalgebraist-the-void]]
-
-# Lens:
 optional:: true
 source:: ![[../Lenses/sanderson-but-what-is-a-neural-network]]
 
 # Lens:
 optional:: true
 source:: ![[../Lenses/ericjmichaud-on-neural-scaling-and-the-quanta-hypothesis]]
+
+# Lens:
+source:: ![[../Lenses/Janus' Simulators - Scott Alexander]]
+
+# Lens:
+source:: ![[../Lenses/nostalgebraist-the-void]]
 
 # Lens:
 optional:: true
