@@ -1,7 +1,7 @@
 ---
 id: '6bc857fa-72de-4330-91b5-e8008001437a'
-title: "ET Platform Walkthrough Video (Google Drive embed)"
-summary_for_tutor: "An embedded walkthrough video showing Effective Thesis Accelerator learners how to use the Lens platform. A button below opens the same video in Google Drive in a new tab."
+title: "ET Platform Walkthrough Video (Loom embed)"
+summary_for_tutor: "An embedded walkthrough video showing Effective Thesis Accelerator learners how to use the Lens platform. A button below opens the same video in Loom in a new tab."
 height: auto
 tags: [wip]
 ---
@@ -24,11 +24,11 @@ a.btn:hover { background: var(--accent); color: #fff; }
 </head>
 <body>
 <div class="video">
-<iframe src="https://drive.google.com/file/d/11FG1uyoiV-PoUWGSyhXaT1UYCOgK_43J/preview" title="Effective Thesis Accelerator platform walkthrough video" allow="autoplay; fullscreen" allowfullscreen loading="lazy"></iframe>
+<iframe src="https://www.loom.com/embed/c521c611f3b34f20804fffa61375070d" title="Effective Thesis Accelerator platform walkthrough video" allow="autoplay; fullscreen" allowfullscreen loading="lazy"></iframe>
 </div>
 <div class="fallback">
 <span>Video not playing?</span>
-<a class="btn" href="https://drive.google.com/file/d/11FG1uyoiV-PoUWGSyhXaT1UYCOgK_43J/view?usp=sharing" target="_blank" rel="noopener">Watch it in Google Drive</a>
+<a class="btn" href="https://www.loom.com/share/c521c611f3b34f20804fffa61375070d" target="_blank" rel="noopener">Watch it on Loom</a>
 </div>
 </body>
 </html>

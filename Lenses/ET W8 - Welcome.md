@@ -11,6 +11,16 @@ content::
 
 You made it to Week 8! 🎉
 
+#### Callout: 🎥 Welcome to Week 8
+tone:: purple
+
+#### Widget
+source:: [[../widgets/et-w8-welcome-video]]
+
+#### End Callout
+
+#### Text
+content::
 :::callout {title="🎯 Focus" tone="blue"}
 
 This week's focus is on presenting what you've discovered, and celebrating the journey it took to get here. You don't need a perfectly finished project or to have everything figured out, share where you're at, the insights you're excited about, the assumptions you changed your mind about, and the questions still alive for you, so others can support and celebrate with you too.

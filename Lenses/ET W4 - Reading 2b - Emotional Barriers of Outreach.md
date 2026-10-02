@@ -9,6 +9,16 @@ tags: [wip]
 content::
 \## 3. The Emotional Barriers of Outreach
 
+#### Callout: 🎥 Video: The Emotional Barriers of Outreach
+tone:: purple
+
+#### Widget
+source:: [[../widgets/et-w4-emotional-barriers-video]]
+
+#### End Callout
+
+#### Text
+content::
 We wanted to share that for most people, the hardest part of this week isn't finding stakeholders, it's actually hitting send! Oftentimes, a voice may come up, like “*who am I to be emailing this person*, or *they're going to know how unqualified I am”*. And you’re definitely not alone in experiencing imposter syndrome - we all experience it in different degrees and contexts!
 
 A few things we wanted to share to encourage you when this comes up:
