@@ -9,7 +9,7 @@ title: "...Recursion, Magic"
 %% COMMENTED OUT:
 #### Text
 content::
-{--{"author":"Elua's AI","timestamp":1790940667544}@@Getting to plug--}{++{"author":"Elua's AI","timestamp":1790940667544}@@Plugging++} the outputs of a process back into {--{"author":"Elua's AI","timestamp":1790940667544}@@the--}{++{"author":"Elua's AI","timestamp":1790940667544}@@its++} input does not necessarily lead to an {--{"author":"Elua's AI","timestamp":1790940667544}@@explosion--}{++{"author":"Elua's AI","timestamp":1790940667544}@@explosion,++} though. Consider the case of EURISKO:
+Plugging the outputs of a process back into its input does not necessarily lead to an explosion, though. Consider the case of EURISKO:
 %%
 
 #### Article
@@ -23,7 +23,7 @@ If the leftover grain only produced exactly the same amount of leftover grain on
 #### Chat
 instructions::
 TLDR of what the user just read:
-An article that explains {--{"author":"Elua's AI","timestamp":1790940669041}@@EURISKO, --}an optimising {--{"author":"Elua's AI","timestamp":1790940669041}@@compiler,--}{++{"author":"Elua's AI","timestamp":1790940669041}@@compiler++} and {++{"author":"Elua's AI","timestamp":1790940669041}@@EURISKO, and ++}examines why such {--{"author":"Elua's AI","timestamp":1790940669041}@@a program,--}{++{"author":"Elua's AI","timestamp":1790940669041}@@programs,++} if plugged into {--{"author":"Elua's AI","timestamp":1790940669041}@@itself recursively does--}{++{"author":"Elua's AI","timestamp":1790940669041}@@themselves recursively, do++} not generate an infinite degree of program optimisation. The answers given are that the input-output behaviour is left unchanged. An optimised {--{"author":"Elua's AI","timestamp":1790940670478}@@EURISKO--}{++{"author":"Elua's AI","timestamp":1790940670478}@@compiler++} might {--{"author":"Elua's AI","timestamp":1790940670478}@@optimize--}{++{"author":"Elua's AI","timestamp":1790940670478}@@optimise++} a program faster than its predecessor, but it still outputs the same thing.  
+An article that explains an optimising compiler and EURISKO, and examines why such programs, if plugged into themselves recursively, do not generate an infinite degree of program optimisation. The answers given are that the input-output behaviour is left unchanged. An optimised compiler might optimise a program faster than its predecessor, but it still outputs the same thing.  
 
 topics to explore:
 - What would the optimisation have to be pointed at to cause an intelligence explosion?

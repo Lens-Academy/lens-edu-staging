@@ -3,12 +3,12 @@ id: d53b7baa-a45d-483b-bc16-3fa5bee59ab2
 reading_minutes: 8
 tutor_minutes: 8
 summary_for_tutor: "Excerpt from the introduction to Harold Houba and Wilko Bolt's chapter 'Commitment and Endogenous Threats' in 'Credible Threats in Negotiations'. The ability to commit is a strong bargaining tool: if opponents believe you will not retreat, they may concede, so reducing your own flexibility can be a strength, as Thomas Schelling argued. A commitment that lacks credibility is treated as bluffing. Examples: Cortes destroying all but one of his ships in the conquest of Mexico, which unified his men and led the enemy to retreat, and a labour union publicly announcing a strike it cannot back out of. The lens text then argues that an AI able to rewrite its own code could make any threat credible at a moment's notice."
-title: {++{"author":"Elua's AI","timestamp":1790941350462}@@"Credible Threats in Negotiations: ++}Commitment and {--{"author":"Elua's AI","timestamp":1790941350462}@@endogenous threats--}{++{"author":"Elua's AI","timestamp":1790941350462}@@Endogenous Threats"++}
+title: "Credible Threats in Negotiations: Commitment and Endogenous Threats"
 # tldr: Sometimes the most powerful move isn't to fight — it's to make the other side believe you will. Cortés burned his own ships so his army had no choice but to advance. This reading explores how threats work as tools of negotiation, and what changes when an AI can commit to any threat instantly by rewriting its own code.
 ---
 #### Text
 content::
-To merely be more powerful is only half the {--{"author":"Elua's AI","timestamp":1790940634013}@@battle--}{++{"author":"Elua's AI","timestamp":1790940634013}@@battle,++} however. Even if you {--{"author":"Elua's AI","timestamp":1790940634013}@@would--}{++{"author":"Elua's AI","timestamp":1790940634013}@@were certain to++} win an {--{"author":"Elua's AI","timestamp":1790940634013}@@interaction with certainty, --}{++{"author":"Elua's AI","timestamp":1790940634013}@@interaction, ++}fighting it out takes resources that might be better used elsewhere. A powerful AI is not just better at winning the hard {--{"author":"Elua's AI","timestamp":1790940634013}@@way,--}{++{"author":"Elua's AI","timestamp":1790940634013}@@way;++} it is also better at making credible threats and getting what it wants that way.
+To merely be more powerful is only half the battle, however. Even if you were certain to win an interaction, fighting it out takes resources that might be better used elsewhere. A powerful AI is not just better at winning the hard way; it is also better at making credible threats and getting what it wants that way.
 
 #### Article
 source:: [[../articles/houba+bolt-credible-threats-in-negotiations|houba+bolt-credible-threats-in-negotiations]]
@@ -17,7 +17,7 @@ to:: "the union's demands."
 
 #### Text
 content::
-Humans can make credible threats which allow them in some sense to have their cake and eat it too, but doing so is rarely straightforward and almost always takes a significant amount of setup to legibly take those paths of retreat away from {--{"author":"Elua's AI","timestamp":1790940636039}@@yourself.--}{++{"author":"Elua's AI","timestamp":1790940636039}@@themselves.++} Now imagine a system that {--{"author":"Elua's AI","timestamp":1790940636039}@@can--}{++{"author":"Elua's AI","timestamp":1790940636039}@@can,++} at a moment's {--{"author":"Elua's AI","timestamp":1790940636039}@@notice--}{++{"author":"Elua's AI","timestamp":1790940636039}@@notice,++} rewrite its own code base so as to unambiguously and reliably react in a catastrophic manner if it does not get what it wants. Who could win a negotiation with such an entity? 
+Humans can make credible threats which allow them in some sense to have their cake and eat it too, but doing so is rarely straightforward and almost always takes a significant amount of setup to legibly take those paths of retreat away from themselves. Now imagine a system that can, at a moment's notice, rewrite its own code base so as to unambiguously and reliably react in a catastrophic manner if it does not get what it wants. Who could win a negotiation with such an entity? 
 
 #### Chat
 instructions::
