@@ -112,6 +112,10 @@ content::
 Ask participants to open the Week 2 Worksheet on Lens and introduce the Worksheet: “This worksheet is designed to help you identify high-impact problems for your thesis by combining the ITN framework (Importance, Neglectedness, Tractability) with your ikigai (what the world needs + your skills + personal fulfillment).
 
 - Set aside 10-15m for each person to work on their worksheet independently (if already done they can fine-tune or discuss some of their thinking)
+   - **Not started yet:** set a 10-minute timer for the Part 1 brainstorm. Offer the prompts if they get stuck: What would an ideal world look like? What will people worry about in 50 years? Ask "why" several times. Who's far away, non-human or not born yet?
+   - **Brainstorm done:** move into Part 2 (tidy the list, shortlist 3-5, score ITN and Ikigai) or use the time for rapid research on their biggest uncertainty.
+   - **Scoring done:** work on Part 3, choosing their top problem.
+- **Quick tip to offer the group:** is each item actually a problem? Not a field ("Education"), not a solution in disguise ("Lack of solar power in the UK"), not too broad ("Mental health").
 
 #### End Callout
 
@@ -120,6 +124,8 @@ tone:: neutral
 
 #### Text
 content::
+*If you have a larger group (>4 participants), please see [[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]] for alternative formats.*
+
 \### 20m · Mastermind Session 1
 
 **Goal:** Help the participant clarify thinking, generate options, and move forward by providing thoughtful, constructive input.
@@ -135,6 +141,10 @@ content::
       - What would you do if you were in their position?
       - Are there people, resources, or organisations you’ve come across that could help?
       - Are there alternative approaches or perspectives worth considering?
+   - **Week 2 specific prompts**
+      - Which ITN dimension are you least sure about? What 10 minutes of research could settle it?
+      - Which problem are you most quietly pulled toward, even if it didn't score highest?
+      - Are there people, resources or organisations you've come across that could help?
 3. **2m of Next Steps:** End with the Mastermind participant synthesizing some next steps from the discussion:
    - What are the 1–2 things you’ll act on next?
    - Which idea or suggestion felt most useful?
