@@ -90,7 +90,6 @@ Readings:
 # Module: [[../modules/Lens Projects U4 Polish]]
 
 # Meeting: Unit 4: Polish
-meeting-doc:: [[../meetings/Lens Projects/Meeting 4]]
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 %% Shape: each person brings one review point they rejected and their reason; the group takes the reviewer's side and stress-tests the rejection; then a round on what is finished and what is still a labelled gap. %%
