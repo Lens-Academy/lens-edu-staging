@@ -11,7 +11,11 @@ content::
 
 \### Week 5 Focus
 
-The focus of Week 5 is to help participants connect their thesis to real-world impact by developing a Theory of Change (ToC).  This looks like mapping the steps between your research and the change you want to see, identify who needs to act differently, and determine how your thesis can support that change. This week is about learning to think strategically, not perfectly. By making the pathways from research to impact explicit, participants can design their thesis to increase its relevance, feasibility, and influence. By the end of the week, participants should feel confident in defining a vision, identifying key outcomes, linking stakeholders to action, and positioning their thesis as a tool to support meaningful change.
+The focus of Week 5 is to help participants connect their thesis to real-world impact by developing a Theory of Change (ToC).  This looks like mapping the steps between your research and the change you want to see, identify who needs to act differently, and determine how your thesis can support that change. This week is about learning to think strategically, not perfectly. By making the pathways from research to impact explicit, participants can design their thesis to increase its relevance, feasibility, and influence.
+
+By the end of the week, participants should feel confident in defining a vision, identifying key outcomes, linking stakeholders to action, and positioning their thesis as a tool to support meaningful change.
+
+*The core shift this week is from "I'll do the research, and impact will magically happen afterwards" to "Who needs to act differently for change to happen, and how can my work influence them?"*
 
 \#### Key Ideas from Week 5
 
@@ -31,10 +35,11 @@ tone:: amber
 #### Text
 content::
 - **Select the 2 Mastermind Participants from this Week’s discussion using [[../Lenses/ET FG Resources - Mastermind Tracker|your Mastermind Tracker]]**
-- **Communication (Friday before):** Send participants a reminder to do weekly readings before the session (see template message in CDHQ)
+- **Communication (Friday before):** Send participants a reminder to do weekly readings before the session (see template message in CD HQ)
    - **For Chosen Mastermind Participants:** Let them know they are selected and to prepare lightly for it, and inform you if they can’t make it
-- **Read through Module 5** to familiarise yourself with the readings and worksheet
+- **Read through this week’s module** to familiarise yourself with the content!
 - **Prepare and lead** the 1.5h weekly discussion using the Weekly Facilitation Guide below
+- **Use the CD Whatsapp Group** for support and shared learnings ♥️
 
 #### End Callout
 
@@ -48,6 +53,8 @@ tone:: neutral
 #### Text
 content::
 *The following is our recommended structure for hosting the discussion. Feel free to adapt timing, extend or shorten sections, or dive deeper into areas of interest based on participant engagement and group needs. The goal is to keep the session interactive and valuable to the participants joining! You can also refer to the facilitator guidelines and icebreaker questions if you need additional ideas.*
+
+*If you have a larger group (>4 participants), please see [[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]] for alternative formats.*
 
 #### End Callout
 
@@ -63,6 +70,7 @@ content::
 
 ::card[[../Lenses/ET W5 - Journalling - Resting on Your Impact Journey]]{allow-external}
 
+- For a Google Docs version for printouts, you can use [this](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?tab=t.2b71rt36knt9). But we recommend everyone access via Lens!
 - Week 5 Slides: [\[Shared - 2026\] Week 5: Developing your Theory of Change](https://docs.google.com/presentation/d/1CpEDm4zYTwsk_9lHqdDXEO1GSfM7laSXI7ulvLkPcMY/edit?slide=id.g3c2dd68837b_0_36#slide=id.g3c2dd68837b_0_36)
 
 \### 3m · Welcome & Group Check-In
@@ -71,7 +79,7 @@ content::
 
 **Share the overview and intention of this session:**
 
-1. **Focus of the Week:** This week, we’ll focus on bringing your thesis out of the abstract and into the real world. Building on your stakeholder mapping from Week 3, you’ll learn how to reach out to the people and organizations who can actually move the needle on your problem, and how to conduct effective stakeholder interviews.
+1. **Focus of the Week:** This week, we’ll focus on developing a Theory of Change for your thesis, making the pathway from your research to real-world change explicit. We'll build on your bottleneck (Week 3) and stakeholder mapping and outreach (Week 4) to work backwards from the change you want to see.
 2. **Format for Today:**
    - Working on the worksheet individually
    - Two 20m Mastermind Sessions
@@ -117,6 +125,11 @@ content::
 3. **13m of Group Feedback & Ideas:** Encourage the group to provide questions, feedback, and ideas to the Mastermind participant
    - Encourage them to: Ask clarifying questions, offer perspectives, ideas, and suggestions for next steps, and address the participant’s specific questions and needs
    - Encourage asking before suggesting – help the participant think through options rather than giving solutions directly.
+   - **Week 5 specific prompts:**
+      - Which step in your ToC feels like the weakest link?
+      - Who specifically needs to act differently? Could you name a real person or organisation?
+      - What would move your riskiest assumption from low to high certainty? (Often: talk to them, or partner with them directly)
+      - Are there people, resources or organisations you've come across that could help?
    - Prompting questions/ideas for the group: See [[../Lenses/ET FG Resources - Mastermind Tracker|Mastermind session prompts here]] for more ideas and guidance.
       - How can this group support you in reaching out to these stakeholders? What support may you need?
       - What would you do if you were in their position?
@@ -150,6 +163,9 @@ content::
    - Who are the stakeholders that could most influence progress on your problem?
    - What assumptions or uncertainties exist in your pathway to impact? (For example, are there steps that feel uncertain, stakeholders whose actions are unpredictable, or outcomes that may be hard to achieve?)
    - How could this group support you in refining your ToC or addressing these uncertainties? What guidance, feedback, or resources might be most helpful?
+- **Linking to outreach**
+   - Has anything from your outreach or interviews so far changed your ToC?
+   - Who are the stakeholders who could most influence progress on your problem?
 - **Mastermind Session Debrief**
    - What did you learn from someone else’s problem or approach today?
    - Did you hear anything that challenged your assumptions or made you think differently?
@@ -158,14 +174,19 @@ content::
    - What might you do differently moving forward? What’s one area you might explore further to increase potential impact?
    - What are your next steps for your thesis or project this week?
 
+**Tips**
+
+- Remind people a ToC is a working draft, uncertainty at this stage is expected and useful information.
+- ⭐ If people haven't had replies yet, reassure them that's normal, and encourage more outreach rather than waiting.
+
 \### 5m · Outro: Intro to next week + Weekly survey
 
-- **Briefly introduce Week 6,** which focuses on how to translate your Theory of Change (ToC) into a concrete, high-impact thesis project. After Week 5, you should have a clearer sense of the long-term change you want to contribute to, the bottlenecks holding progress back, and the stakeholders who need to act differently. This week shows you how to work backwards from that understanding to design a thesis that is focused, feasible, and genuinely useful.
-- **Remind participants:**
-   - Remind **the two who are in the Mastermind session** for next week
-   - Continue using their workbook (that they have duplicated for themselves) for readings and completing worksheets
-   - Ideally, ask them to complete or draft worksheets before the discussions
-   - Explore the Journaling prompts in their own time, which focus on personal reflection prompts for their life, not just academics
-- **\[If time allows\]** Ask participants to complete the weekly pulse survey: [Anonymous Weekly feedback form](https://forms.gle/2BSkjtYHje8Dsm2w9) (this is linked on each header page of their workbook as well)
+- **Briefly introduce Week 6 Reverse Engineering Your Thesis from Your ToC:** which focuses on how to translate your Theory of Change (ToC) into a concrete, high-impact thesis project. After Week 5, you should have a clearer sense of the long-term change you want to contribute to, the bottlenecks holding progress back, and the stakeholders who need to act differently. This week shows you how to work backwards from that understanding to design a thesis that is focused, feasible, and genuinely useful.
+- **Remind participants to:**
+   - Remind **the two that are in the Mastermind session** for next week
+   - Do next week’s readings and worksheet before the session on Lens
+      - Ideally, ask them to complete or draft worksheets before the discussions
+   - Explore this week’s Journaling prompts in their own time, which focus on personal reflection prompts for their life, not just academics
+   - Weekly survey on Lens platform to share their feedback
 
 #### End Callout
