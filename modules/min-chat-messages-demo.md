@@ -13,11 +13,13 @@ The defaults:
 The fields:
 - `min_chat_messages` (lens frontmatter, or `min_chat_messages::` on an inline lens; default 0): the learner must send at least this many messages to the Lens Tutor on that lens before "Mark section complete" works. Every message counts — page chat box, a question's feedback conversation, or the sidebar — except the auto-sent feedback request itself.
 - `optional:: true` makes a question skippable; on a whole lens, that lens never blocks completion.
+- `#### Question Set` with `minimum-questions-answered:: N`: the questions under it (one heading level down) need only N answers between them.
+- `:::require_x_optional_lenses{x=N}` around `::card` lines: the lens that holds the list needs N of the listed optional lenses completed.
 
 
 What learners see: while a requirement is unmet, "Mark section complete" is grayed out above a live "To finish this page:" checklist (e.g. "Send 2 messages to the Lens Tutor", "Answer question 2") — each item links to the spot.
 
-The five lenses below demonstrate each case. Preview the module and try them. %%
+The lenses below demonstrate each case. Preview the module and try them. %%
 
 # Lens: Lens with a 2-message minimum
 id:: 593ceb17-ebd3-4c31-b250-3229b758ffc6
@@ -92,3 +94,58 @@ This lens has no `min_chat_messages`, so it shows the default behavior: "Mark se
 #### Chat
 instructions::
 Chat casually with the learner if they say anything; keep replies short.
+
+# Lens: Question Set
+id:: eabd0f43-308f-4199-9f30-3f94983eba2e
+tldr:: Three questions, but you only have to answer two. A Question Set lets the learner pick which questions to answer, and "Mark section complete" unlocks once enough are answered.
+summary_for_tutor:: Demo lens with a Question Set (minimum-questions-answered:: 2) around three Question: Open segments. The learner may answer any two; completion is blocked until two are answered.
+duration_minutes:: 3
+
+#### Text
+content::
+A `#### Question Set` with `minimum-questions-answered:: 2` groups the questions under it. They sit one heading level down (`##### Question: Open`), and the set ends at the next `####` heading, with no end marker. The learner must answer 2 of the 3; the other one stays optional. Until then, "Mark section complete" lists "Answer 2 of the questions in the set".
+
+#### Question Set
+minimum-questions-answered:: 2
+
+##### Question: Open
+id:: e8dedee8-da7a-4dc7-9dec-01abe233649a
+content:: What is a skill you learned recently?
+
+##### Question: Open
+id:: 616518ff-1e54-4eaa-9e37-04362c94951d
+content:: What is a book or film you would recommend to a friend?
+
+##### Question: Open
+id:: 78e4b9e7-808e-49d1-a9eb-fcc3519af88b
+content:: Where would you like to travel next?
+
+# Lens: Finish 2 of 3 optional lenses
+id:: 58e6fdb4-d13d-4589-a3b2-4a2e1d1b6973
+tldr:: How do you ask a learner to read some, but not all, of a list of optional lenses? Put the cards in a require_x_optional_lenses list, and this page unlocks once enough of them are finished.
+summary_for_tutor:: Demo lens holding a :::require_x_optional_lenses{x=2} list of three optional lens cards (demo lenses A, B and C, imported below as optional). The learner must complete two of the three listed lenses before this lens can be marked complete.
+duration_minutes:: 3
+
+#### Text
+content::
+Wrap lens cards in `:::require_x_optional_lenses{x=2}` and `:::`. This page can then be marked complete only once 2 of the listed lenses are finished, wherever the learner finished them. The box says "Finish 2 of these 3 optional lenses to complete the current lens", and shows a green "2 lenses completed" when that is done. Each card must point to an optional lens of this same module; the content check reports an error otherwise.
+
+:::require_x_optional_lenses{x=2}
+::card[[../Lenses/Optional lens list demo - A]]
+
+::card[[../Lenses/Optional lens list demo - B]]
+
+::card[[../Lenses/Optional lens list demo - C]]
+:::
+
+# Lens:
+optional:: true
+source:: [[../Lenses/Optional lens list demo - A]]
+
+# Lens:
+optional:: true
+source:: [[../Lenses/Optional lens list demo - B]]
+
+# Lens:
+optional:: true
+source:: [[../Lenses/Optional lens list demo - C]]
