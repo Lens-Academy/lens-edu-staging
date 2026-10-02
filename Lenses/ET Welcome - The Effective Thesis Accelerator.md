@@ -71,8 +71,10 @@ We’re committed to making sure you feel supported, confident, and connected th
 tone:: amber
 collapse:: closed
 
-#### Widget
-source:: [[../widgets/et-onboarding-form]]
+#### {--{"author":"Iris's AI","timestamp":1790961763629}@@Widget--}{++{"author":"Iris's AI","timestamp":1790961763629}@@Embed++}
+source:: {--{"author":"Iris's AI","timestamp":1790961921590}@@[[../widgets/et-onboarding-form]]--}{++{"author":"Iris's AI","timestamp":1790961921590}@@[[../articles/et-onboarding-form]]
+inline:: true
+height:: 3000px++}
 
 #### End Callout
 

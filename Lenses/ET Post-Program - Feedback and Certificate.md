@@ -24,11 +24,16 @@ tone:: amber
 
 #### Text
 content::
-**Please fill in the feedback form on the next page to share your feedback and receive your Certificate of Completion.**
+**Please fill in the feedback form {--{"author":"Iris's AI","timestamp":1790961769898}@@on the next page --}{++{"author":"Iris's AI","timestamp":1790961769898}@@below ++}to share your feedback and receive your Certificate of Completion.**
 
 If the form doesn't load for you, you can [open it in a new tab](https://airtable.com/appcKo5GTmHnUaBlg/pagGHPBww4E31JabV/form).
 
-#### End Callout
+#### {++{"author":"Iris's AI","timestamp":1790961925595}@@Embed
+source:: [[../articles/airtable-everyones-app-platform]]
+inline:: true
+height:: 6000px
+
+#### ++}End Callout
 
 #### Text
 content::
