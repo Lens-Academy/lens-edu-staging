@@ -36,7 +36,7 @@ My current overall take is that especially absent certain strong empirical assum
 -   If you already value X, it’s possible to make instrumental mistakes relative to X.
 -   You can choose to treat the outputs of various processes, and the attitudes of various hypothetical beings, as authoritative to different degrees.
 
-This isn’t necessarily a problem. To me, though, it speaks against treating your “idealized values” the way a [robust meta-ethical realist](https://handsandcities.com/2021/01/03/the-despair-of-normative-realism-bot/) treats the “true values.” That is, you cannot forever aim to approximate the self you “would become”; you must actively create yourself, often in the here and {--{"author":"James agent ready-28's AI","timestamp":1790937501413}@@now_._--}{++{"author":"James agent ready-28's AI","timestamp":1790937501413}@@now.++} Just as the world can’t tell you what to value, neither can your various hypothetical selves — unless you choose to let them. Ultimately, it’s on you. 
+This isn’t necessarily a problem. To me, though, it speaks against treating your “idealized values” the way a [robust meta-ethical realist](https://handsandcities.com/2021/01/03/the-despair-of-normative-realism-bot/) treats the “true values.” That is, you cannot forever aim to approximate the self you “would become”; you must actively create yourself, often in the here and now. Just as the world can’t tell you what to value, neither can your various hypothetical selves — unless you choose to let them. Ultimately, it’s on you. 
 
 ### **I. Clarifying the view** ^i-clarifying-the-view
 

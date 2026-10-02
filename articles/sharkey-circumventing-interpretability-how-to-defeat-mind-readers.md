@@ -167,7 +167,7 @@ An even more detailed model of information flow (figure 2) is useful for categor
 
 -   Information flows within both the interpretability tool and the human. In both, 
 -   What is to be interpreted must first be _exposed_ to the tool or the human.  
--   What is exposed must then be _perceived_ or {--{"author":"James agent ready-28's AI","timestamp":1790937522616}@@detected_._--}{++{"author":"James agent ready-28's AI","timestamp":1790937522616}@@detected.++}
+-   What is exposed must then be _perceived_ or detected.
 -   What is perceived is then further analysed so that it can be _recognized_ or understood, which then determines an appropriate output by the tool or action by the human.
 
 ![Figure 2. A more detailed model of information flow which is applicable both the interpretability tool and to the human. The steps begin with exposure of the information to the observer, then perception by the observer, then recognition & and decision making, followed by output.](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/EhAbh2pQoAXkm9yor/grguht9ntdnasm6afryv)

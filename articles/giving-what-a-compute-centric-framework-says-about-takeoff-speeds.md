@@ -74,7 +74,7 @@ By our **“speed”** crossing the effective FLOP gap I mean: _how quickly will
 We can cross the gap by increasing three quantities:
 
 1.  The quality of AI **software****,** i.e. algorithms for training AI. If the level of software doubles, we get twice as much effective compute for each FLOP.
-2.  The quality of AI {--{"author":"James agent ready-28's AI","timestamp":1790937504698}@@hardware**,**--}{++{"author":"James agent ready-28's AI","timestamp":1790937504698}@@hardware,++} measured as **FLOP/$**. Improved hardware allows us to buy more FLOP with a fixed budget.
+2.  The quality of AI hardware, measured as **FLOP/$**. Improved hardware allows us to buy more FLOP with a fixed budget.
 3.  **$ spend on FLOP** in the largest training runs.
 
 These three quantities multiply together to give the effective compute in the largest training run:
