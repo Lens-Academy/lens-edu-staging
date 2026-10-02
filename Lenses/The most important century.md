@@ -20,7 +20,7 @@ from:: "I've spent most of my career looking for ways"
 
 #### Text
 content::
-Course author's note, on the line "The feedback loop could come back if some other technology restored the 'more resources -> more ideas' dynamic": arguably nothing broke that needs restoring. By simple proxies for idea output, such as papers published, ideas still track resources closely; what changed was the mediator, from population growth to something more like civilizational slack, not the resources-to-ideas proportionality itself. On this view the right kind of AI would not restore a lost loop so much as accelerate one that never actually stopped.
+Course author's note, on the line "The feedback loop could come back if some other technology restored the 'more resources -> more ideas' dynamic": arguably nothing broke that needs restoring. By simple proxies for idea output, such as papers published, ideas still track resources closely; what changed was the mediator (from population growth to something more like civilizational slack), not the resources-to-ideas proportionality itself. On this view the right kind of AI would not restore a lost loop so much as accelerate one that never actually stopped.
 
 #### Chat
 instructions::

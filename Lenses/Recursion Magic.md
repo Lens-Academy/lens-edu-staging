@@ -9,7 +9,7 @@ title: "...Recursion, Magic"
 %% COMMENTED OUT:
 #### Text
 content::
-Getting to plug the outputs of a process back into the input does not necessarily lead to an explosion though. Consider the case of EURISKO:
+{--{"author":"Elua's AI","timestamp":1790940667544}@@Getting to plug--}{++{"author":"Elua's AI","timestamp":1790940667544}@@Plugging++} the outputs of a process back into {--{"author":"Elua's AI","timestamp":1790940667544}@@the--}{++{"author":"Elua's AI","timestamp":1790940667544}@@its++} input does not necessarily lead to an {--{"author":"Elua's AI","timestamp":1790940667544}@@explosion--}{++{"author":"Elua's AI","timestamp":1790940667544}@@explosion,++} though. Consider the case of EURISKO:
 %%
 
 #### Article
@@ -23,7 +23,7 @@ If the leftover grain only produced exactly the same amount of leftover grain on
 #### Chat
 instructions::
 TLDR of what the user just read:
-An article that explains EURISKO, an optimising compiler, and examines why such a program, if plugged into itself recursively does not generate an infinite degree of program optimisation. The answers given are that the input-output behaviour is left unchanged. An optimised EURISKO might optimize a program faster than its predecessor, but it still outputs the same thing.  
+An article that explains {--{"author":"Elua's AI","timestamp":1790940669041}@@EURISKO, --}an optimising {--{"author":"Elua's AI","timestamp":1790940669041}@@compiler,--}{++{"author":"Elua's AI","timestamp":1790940669041}@@compiler++} and {++{"author":"Elua's AI","timestamp":1790940669041}@@EURISKO, and ++}examines why such {--{"author":"Elua's AI","timestamp":1790940669041}@@a program,--}{++{"author":"Elua's AI","timestamp":1790940669041}@@programs,++} if plugged into {--{"author":"Elua's AI","timestamp":1790940669041}@@itself recursively does--}{++{"author":"Elua's AI","timestamp":1790940669041}@@themselves recursively, do++} not generate an infinite degree of program optimisation. The answers given are that the input-output behaviour is left unchanged. An optimised EURISKO might optimize a program faster than its predecessor, but it still outputs the same thing.  
 
 topics to explore:
 - What would the optimisation have to be pointed at to cause an intelligence explosion?
