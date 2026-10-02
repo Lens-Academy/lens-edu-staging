@@ -212,8 +212,13 @@ content::
 - Remind people a ToC is a working draft, uncertainty at this stage is expected and useful information.
 - ⭐ If people haven't had replies yet, reassure them that's normal, and encourage more outreach rather than waiting.
 
-\### 5m · Outro: Intro to next week + Weekly survey
+#### End Callout
 
+#### Callout: 7. 5m · Outro: Intro to next week + Weekly survey
+collapse:: closed
+
+#### Text
+content::
 - **Briefly introduce Week 6 Reverse Engineering Your Thesis from Your ToC:** which focuses on how to translate your Theory of Change (ToC) into a concrete, high-impact thesis project. After Week 5, you should have a clearer sense of the long-term change you want to contribute to, the bottlenecks holding progress back, and the stakeholders who need to act differently. This week shows you how to work backwards from that understanding to design a thesis that is focused, feasible, and genuinely useful.
 - **Remind participants to:**
    - Remind **the two that are in the Mastermind session** for next week
@@ -221,5 +226,7 @@ content::
       - Ideally, ask them to complete or draft worksheets before the discussions
    - Explore this week’s Journaling prompts in their own time, which focus on personal reflection prompts for their life, not just academics
    - Weekly survey on Lens platform to share their feedback
+
+#### End Callout
 
 #### End Callout
