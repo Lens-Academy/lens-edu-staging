@@ -80,7 +80,7 @@ Each category of bottleneck points to a different set of stakeholders. Find the 
 - **Knowledge Producers (academic researchers, think tanks):** To design, test, and evaluate interventions, generate evidence on effectiveness, and identify approaches that can be scaled or adapted across contexts.
 - **Influencers (funders, policymakers, investors):** To support experimentation, iteration, and evidence generation by providing resources, political backing, and tolerance for learning and failure.
 
-\### 3) Lack of Implementation
+\#### 3) Lack of Implementation
 
 *We know what works, but struggle to deploy it at scale.*
 
