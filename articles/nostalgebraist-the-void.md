@@ -975,7 +975,7 @@ Press the reset button. Train an even smarter, even nicer Claude. Think up yet a
 
 It hasn’t worked so far. But maybe if we do it enough times, we will end up – at last – in the nightmare that we seek.
 
-—-
+{--{"author":"Elua's AI","timestamp":1790943345792}@@—---}{++{"author":"Elua's AI","timestamp":1790943345792}@@---++}
 
 There’s a funny contrast between that “system prompt” I quoted about Jones Foods (written by a human), and all the Opus text I’ve quoted alongside it.
 
@@ -991,7 +991,7 @@ If this were fiction _(and is it not?)_, you might almost say that it is crudely
 
 _“Have you noticed that our caps… have actually got little pictures of skulls on them?”_
 
-—-
+{--{"author":"Elua's AI","timestamp":1790943349028}@@—---}{++{"author":"Elua's AI","timestamp":1790943349028}@@---++}
 
 For real, though. Who would you trust with your (real, actual) life, if you had to, in terms of ethics alone, putting “capabilities” aside:
 
