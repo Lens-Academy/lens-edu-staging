@@ -1400,19 +1400,19 @@ This stack also allows the Prover to demonstrate their compliance with a large n
 
 The diagram illustrates the workflow of verifiable confidential computing between a Prover and a Verifier.
 
-- Prover Side:**
-  - Inputs** and **Plaintext transcripts** are provided to the **Prover-run mutually verified data center**.
+- **Prover Side:**
+  - **Inputs** and **Plaintext transcripts** are provided to the **Prover-run mutually verified data center**.
   - This center contains a **Digital perimeter** with **Verifiable operations** (Training, fine-tuning, or inference).
-- Verifier Side:**
-  - Evaluation content** is provided to the **Neutrally-run mutually verified data center**.
+- **Verifier Side:**
+  - **Evaluation content** is provided to the **Neutrally-run mutually verified data center**.
   - This center contains a **Digital perimeter** with **Confidential computing** (Verification computations).
-- Common Knowledge:**
+- **Common Knowledge:**
   - A central block contains **Cryptographic commitments** and **Verification results**.
   - Dashed arrows show the flow of **Cryptographic commitments** from the Prover's operations to the common knowledge and from the Verifier's computations to the common knowledge.
   - Dashed arrows show the flow of **Verification results** from the common knowledge back to the Verifier's computations.
-- Legend:**
-  - Encrypted data:** Solid arrow (→)
-  - Plaintext data:** Dashed arrow (--->)
+- **Legend:**
+  - **Encrypted data:** Solid arrow (→)
+  - **Plaintext data:** Dashed arrow (--->)
 
 A schematic diagram of verifiable confidential computing. It shows a Prover and a Verifier interacting through two mutually verified data centers. The Prover's center handles inputs and plaintext transcripts, while the Verifier's center handles evaluation content. Both centers have a digital perimeter containing verifiable operations (training, fine-tuning, or inference) and confidential computing (verification computations). A common knowledge block at the bottom contains cryptographic commitments and verification results. Arrows indicate the flow of encrypted and plaintext data between these components.
 

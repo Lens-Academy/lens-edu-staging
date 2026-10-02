@@ -30,16 +30,16 @@ Four people in white protective suits walking on a walkway in a nuclear facility
 
 # TABLE OF CONTENTS
 
-- 2** IAEA Safeguards: serving nuclear non-proliferation  
+- **2** IAEA Safeguards: serving nuclear non-proliferation  
 Rafael Mariano Grossi, IAEA Director General
-- 3** Meeting the challenge of nuclear verification  
+- **3** Meeting the challenge of nuclear verification  
 Massimo Aparo, Deputy Director General and Head of the IAEA  
 Department of Safeguards
-- 4** What are IAEA safeguards?
-- 7** Why do IAEA safeguards matter?
-- 8** How are IAEA safeguards applied in practice?
-- 13** How have IAEA safeguards evolved?
-- 18** What are the current trends in IAEA safeguards?
+- **4** What are IAEA safeguards?
+- **7** Why do IAEA safeguards matter?
+- **8** How are IAEA safeguards applied in practice?
+- **13** How have IAEA safeguards evolved?
+- **18** What are the current trends in IAEA safeguards?
 
 ## IAEA Safeguards: serving nuclear non-proliferation
 
