@@ -221,8 +221,13 @@ content::
    - What’s one area you might explore further to increase potential impact?
    - What are your next steps for your thesis or project this week?
 
-\### 10m · Outro: Intro to Next Week
+#### End Callout
 
+#### Callout: 7. 10m · Outro: Intro to Next Week
+collapse:: closed
+
+#### Text
+content::
 - **Briefly introduce Week 3: Generating & Prioritising Research Questions.** We'll turn their problem into a small handful of concrete, answerable questions: diagnose the key bottleneck, generate a wide list of candidate questions, and use a Weighted Factor Model to narrow down to their top 1-2.
 - **Remind participants to:**
    - Remind **the two that are in the Mastermind session** for next week
@@ -230,5 +235,9 @@ content::
       - Ideally, ask them to complete or draft worksheets before the discussions
    - Explore this week’s Journaling prompts in their own time, which focus on personal reflection prompts for their life, not just academics
    - Weekly survey on Lens platform to share their feedback
+
+#### End Callout
+
+#### End Callout
 
 #### End Callout
