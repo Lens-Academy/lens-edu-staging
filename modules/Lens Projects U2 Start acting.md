@@ -83,8 +83,8 @@ After each conversation, write down:
 
 #### Question: Open
 id:: 74d743fc-30ca-41cd-90a4-062277b340c9
-content:: Write the three questions you will ask your audience. Then name who you will contact first, and how.
-feedback-instructions:: The learner is drafting audience interview questions for a Lens Projects project, following three rules: talk about their life, not the idea; ask about specific past events; listen more than talk. Reply in under 120 words. Flag any question that asks about the future ("would you..."), describes or asks about the learner's idea, or invites a compliment, and ask them to rewrite it about a past event. Check that the first contact is a real, specific person or group they can reach this week. Do not write questions for them. No generic praise. At most two replies.
+content:: Write the three questions you will ask your audience, and name who you will contact first, and how. If you can't reach your audience in time, say which option from the list above you will use instead, and what you will look for.
+feedback-instructions:: The learner is drafting audience interview questions for a Lens Projects project, following three rules: talk about their life, not the idea; ask about specific past events; listen more than talk. If they cannot reach their audience in time, they may instead name a fallback (a stand-in, what the audience has already written, a small behaviour test, or their own experience). Reply in under 120 words. For interview questions, flag any that ask about the future ("would you..."), describe or ask about the learner's idea, or invite a compliment, and ask them to rewrite it about a past event; check the first contact is a real, specific person or group they can reach this week. For a fallback, check it is the strongest option they can realistically use, and that they say what they will look for and will label the evidence as partial. Do not write questions or choose the fallback for them. No generic praise. At most two replies.
 
 #### Text
 content::
