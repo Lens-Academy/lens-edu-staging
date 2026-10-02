@@ -138,6 +138,10 @@ content::
       - What would you do if you were in their position?
       - Are there people, resources, or organisations you’ve come across that could help?
       - Are there alternative approaches or perspectives worth considering?
+   - **Week 3 specific prompts**
+      - Where did your WFM and your gut disagree? What might that tension be telling you?
+      - Which bottleneck is this question targeting, and what makes you think that's the real bottleneck?
+      - Are there research agendas, databases or people that could help sharpen this?
 4. **2m of Next Steps:** End with the Mastermind participant synthesizing some next steps from the discussion:
    - What are the 1–2 things you’ll act on next?
    - Which idea or suggestion felt most useful?
@@ -165,7 +169,8 @@ content::
 - **Applying Bottleneck & Iterative Depth thinking**
    - How does thinking about bottlenecks or iterative depth change your priorities or focus for your thesis?
    - Which bottleneck category (lack of understanding, lack of solutions, lack of implementation) seems most relevant to your problem right now?
-   - Which questions did the weighted factor model get you asking?
+   - How did you weigh your factors, and what does that say about what matters to you?
+   - Which question did the WFM reveal as the top choice, and did it surprise you?
 - **Mastermind Session Debrief**
    - What did you learn from someone else’s problem or approach today?
    - Did you hear anything that challenged your assumptions or made you think differently?
