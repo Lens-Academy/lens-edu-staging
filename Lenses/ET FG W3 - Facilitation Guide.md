@@ -34,7 +34,7 @@ tone:: amber
 
 #### Text
 content::
-- **Select the 2 Mastermind Participants for this Week’s discussion using [[../Lenses/ET FG Resources - Mastermind Tracker|your Mastermind Tracker]]**
+- **Select the 2 Mastermind Participants for this Week’s discussion using your [[../Lenses/ET FG Resources - Mastermind Tracker|Mastermind Tracker]]**
 - **Communication (Friday before):** Send participants a reminder to do weekly readings before the session (see template message in CD HQ)
    - **For Chosen Mastermind Participants:** Let them know they are selected and to prepare lightly for it, and inform you if they can’t make it
 - **Read through Module 3** to familiarise yourself with the content. The key ideas are: (1) bottleneck analysis and the three main types of bottlenecks (2) the funnel of iterative depth for generating and narrowing research questions, and (3) using a Weighted Factor Model to choose their top 1-2 questions.
@@ -160,7 +160,7 @@ content::
 3. **13m of Group Feedback & Ideas:** Encourage the group to provide questions, feedback, and ideas to the Mastermind participant
    - Encourage them to: Ask clarifying questions, offer perspectives, ideas, and suggestions for next steps, and address the participant’s specific questions and needs
    - Encourage asking before suggesting – help the participant think through options rather than giving solutions directly.
-   - Prompting questions/ideas for the group: See [[../Lenses/ET FG Resources - Mastermind Tracker|Mastermind session prompts here]] for more ideas and guidance.
+   - Prompting questions/ideas for the group: See the Mastermind session prompts in the [[../Lenses/ET FG Resources - Mastermind Tracker|Mastermind Tracker]] for more ideas and guidance.
       - What would you do if you were in their position?
       - Are there people, resources, or organisations you’ve come across that could help?
       - Are there alternative approaches or perspectives worth considering?

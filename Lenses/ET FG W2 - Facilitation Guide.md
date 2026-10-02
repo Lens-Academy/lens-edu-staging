@@ -163,7 +163,7 @@ content::
 2. **13m of Group Feedback & Ideas:** Encourage the group to provide questions, feedback, and ideas to the Mastermind participant
    - Encourage them to: Ask clarifying questions, offer perspectives, ideas, and suggestions for next steps, and address the participant’s specific questions and needs
    - Encourage asking before suggesting – help the participant think through options rather than giving solutions directly.
-   - Prompting questions/ideas for the group: See [[../Lenses/ET FG Resources - Mastermind Tracker|Mastermind session prompts here]] for more ideas and guidance.
+   - Prompting questions/ideas for the group: See the Mastermind session prompts in the [[../Lenses/ET FG Resources - Mastermind Tracker|Mastermind Tracker]] for more ideas and guidance.
       - What would you do if you were in their position?
       - Are there people, resources, or organisations you’ve come across that could help?
       - Are there alternative approaches or perspectives worth considering?
