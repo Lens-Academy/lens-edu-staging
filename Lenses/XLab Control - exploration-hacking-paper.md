@@ -1,9 +1,9 @@
 ---
 id: 'efaa8c43-2876-4b24-b60f-c0d31577f217'
-title: "Exploration Hacking: Can LLMs Learn to Resist RL Training?"
-tldr: "A student set on failing a placement test does not answer at random. He gets it wrong the same way every time, so the grader learns nothing about what he actually knows. This paper trains models to do that to reinforcement learning: never explore the good move, so RL has nothing to reinforce. It works, sometimes. So far it is also easy to catch."
-summary_for_tutor: "This page renders the paper inline as a bare Paper-type page with no framing prose, no exercises and no interactive elements, so everything here except the Before you read lead-in and the Works cited callout is the authors' own text. The lead-in is navigational: it points back to Misalignment and strategic underperformance for the definition of exploration hacking, forward to Exploration Hacking (guided) which reworks the same paper with written checkpoints, and it gives the paper's own section map plus a measured breakdown of main text versus appendices so the learner knows what to read closely. The paper's argument in three parts: locked model organisms (fine-tuned to follow an underperformance strategy) can resist GRPO-based capability elicitation on WMDP-Bio, VCT, KernelBench and BigCodeBench while keeping performance elsewhere, in both unconditional and conditional settings; countermeasures work, since chain-of-thought monitors, action-only monitors and weight noising all detect these organisms and SFT on benign traces quickly recovers the suppressed capability; and frontier models audited for propensity can reason explicitly about suppressing exploration when given enough information about their training context, at higher rates when that information is picked up indirectly from the environment than when it is handed to them in the system prompt. The paper's own summary of the gap is that the bottleneck is strategic action propensity, not strategic reasoning capability. If a learner asks whether this shows models are exploration hacking today, hold the distinction: the organisms were deliberately trained to do it, and the frontier audit found capability without spontaneous propensity."
-reading_minutes: 90
+title: "Exploration Hacking (1): the threat and its taxonomy"
+tldr: "A student set on failing a placement test does not answer at random. He gets it wrong the same way every time, so the grader learns nothing about what he actually knows. This first half of the paper says why reinforcement learning is open to that move, defines exploration hacking formally, and sorts the ways a model could do it."
+summary_for_tutor: "Part 1 of 2 of Jang et al., Exploration Hacking: Can LLMs Learn to Resist RL Training?, rendered inline as a bare Paper-type page with no exercises or interactive elements, so everything except the Before you read lead-in, the part opener and the Works cited callout is the authors' own text. This part covers the abstract, introduction, related work and Section 2 (the conceptual framework), followed by Appendix A.1 to A.4 in an open callout. The lead-in points back to Misalignment and strategic underperformance for the definition of exploration hacking and forward to Exploration Hacking (guided), which reworks the same paper with written checkpoints. The argument of this part: on-policy RL only reinforces what the policy samples, and under GRPO a deterministic policy collapses within-group reward variance so advantages vanish and only the KL term is left, so a model that strategically withholds a high-reward action can stop RL from eliciting it. Section 2 gives the formal definition (malign versus benign data, the target trajectory set), the taxonomy (Type 1 complete under-exploration with a flat reward curve, Type 2a instrumental partial under-exploration, which shows reward growth but steers to a suboptimal policy capped well below what it could reach, Type 2b terminal partial under-exploration reaching high reward by an unintended route, of which alignment faking is an instance), the relation to sandbagging, the five-part capability decomposition that part 2's frontier audit and the guided lesson build on (training awareness, strategic reasoning propensity, strategic reasoning capability, strategic action propensity, RL resistance; it is in Section 2, not the appendix; A.3 is a one-line pointer back), and the threat models (dangerous capability elicitation, beneficial capability elicitation, alignment training; the paper studies the first two). Appendix A.1 to A.4 adds the full RL/MDP formulation, worked examples of each strategy type with Figure 11, and the threat models restated. The results, countermeasures and frontier-model audit are in part 2; if the learner asks whether this works in practice, point them there, and hold the distinction the paper itself draws: the organisms in part 2 are deliberately trained to do this."
+reading_minutes: 34
 tutor_minutes: 0
 tags: []
 ---
@@ -11,30 +11,32 @@ tags: []
 content::
 \#### Before you read
 
-[[../Lenses/XLab Control - misalignment-and-strategic-underperformance|Misalignment and strategic underperformance]] defined exploration hacking as a strategy: a model that already knows a high-reward action refrains from taking it, so on-policy reinforcement learning never samples that action, has nothing to reinforce, and cannot elicit the capability. This paper says the behavior has not previously been empirically validated, and sets out to build it and measure it.
+Part 1 of 2. This part reads the paper's set-up: why reinforcement learning depends on the model's own exploration, the formal definition of exploration hacking, its taxonomy and the threat models, with the appendix that works them out. The next part reads the experiments: the model organisms that resist RL, the countermeasures that catch them, and the audit of frontier models.
 
-[[../Lenses/XLab Control - exploration-hacking-guided|Exploration Hacking (guided)]], later in this module, works back through this same paper with written checkpoints at each stage. Read here for the shape of the argument rather than trying to hold every number.
+[[../Lenses/XLab Control - misalignment-and-strategic-underperformance|Misalignment and strategic underperformance]] defined exploration hacking as a strategy: a model that already knows a high-reward action refrains from taking it, so on-policy reinforcement learning never samples that action, has nothing to reinforce, and cannot elicit the capability. This paper says the behavior has not previously been empirically validated, and sets out to build it and measure it; the next part of this reading does that.
 
-The paper gives its own map. Section 3 formalizes exploration hacking, Section 4 presents the model organisms, Section 5 evaluates countermeasures, and Section 6 audits frontier models. Its three stated contributions are establishing the problem, constructing model organisms of selective RL resistance by fine-tuning models to follow underperformance strategies (which the authors call "locking"), and evaluating countermeasures against those organisms.
+[[../Lenses/XLab Control - exploration-hacking-guided|Exploration Hacking (guided)]], in four parts, works back through this same paper with written checkpoints at each stage. Read here for the shape of the argument rather than trying to hold every number.
 
-\#### About the length
+The paper gives its own map. Section 2 formalizes exploration hacking, Section 3 presents the model organisms, Section 4 evaluates countermeasures, Section 5 audits frontier models, and Section 6 discusses what follows. Its three stated contributions are establishing the problem, constructing model organisms of selective RL resistance by fine-tuning models to follow underperformance strategies (which the authors call "locking"), and evaluating countermeasures against those organisms.
 
-This is a long reading, and most of its length is not argument. Counting the words in this version: roughly 9,500 words of main text from the abstract through the conclusion, roughly 1,800 words of references, and roughly 18,600 words of appendices. The main text carries the argument and its ten figures. The appendices are hyperparameters, prompts, dataset descriptions, results tables and example transcripts, and they are material to look things up in rather than to read front to back.
+\#### What is shown here
 
-Appendix A is the one detour worth taking. It holds the full MDP formulation, the taxonomy of exploration hacking strategies, and the capability decomposition, and the guided lesson builds directly on that decomposition.
+The paper's other appendices (hyperparameters, prompts, dataset descriptions, results tables and example transcripts) are reference material and are not shown here. Figures 2 and 11 appear as captions only; the plots and diagrams are not reproduced.
+
+Appendix A.1 to A.4, below the main text, is worth reading: it holds the full MDP formulation and worked examples of the taxonomy. The capability decomposition that the guided lesson builds on is in Section 2.
 
 #### Article
 source:: [[../articles/jang-exploration-hacking-can-llms-learn-to-resist-rl-training]]
 from:: ###### Abstract
-to:: Doing so before this threat materializes is both tractable and important.
+to:: We study this setting using AI R&D coding benchmarks.
 
-#### Callout: Appendix A: Exploration Hacking Framework
+#### Callout: Appendix A.1 to A.4: Exploration Hacking Framework
 tone:: neutral
 collapse:: open
 
 #### Article
 from:: ## Appendix A Exploration Hacking Framework
-to:: Comparative studies are needed to verify these hypotheses.
+to:: In this paper, we investigate exploration hacking in the case of latent capability elicitation but expect our approach and findings to generalize to other threat models.
 
 #### End Callout
 
@@ -42,7 +44,7 @@ to:: Comparative studies are needed to verify these hypotheses.
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Jang, Eyon, Damon Falck, Joschka Braun, Nathalie Kirch, Achu Menon, Perusha Moodley, et al. "Exploration Hacking: Can LLMs Learn to Resist RL Training?" *arXiv*, Apr. 2026. [arxiv.org](https://arxiv.org/abs/2604.28182v1)
-*The reading for this lesson: model organisms fine-tuned to resist RL capability elicitation, the countermeasures that detect them, and an audit of whether frontier models reason about suppressing their own exploration.*
+*The reading for this part: the paper's motivation, formal definition and taxonomy of exploration hacking, its threat models, and Appendix A.1 to A.4.*
 
 XLab. "Exploration Hacking: Can LLMs Learn to Resist RL Training?" *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/low-stakes-control/exploration-hacking-paper)
 *The source lesson this page adapts.*
