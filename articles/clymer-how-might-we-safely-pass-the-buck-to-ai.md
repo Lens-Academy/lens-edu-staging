@@ -145,9 +145,11 @@ Autonomous control setups will eventually break as AI agents become more capable
 
 Once these control evaluations sound the alarm, a developer knows it cannot rely on autonomous control anymore.
 
-**Argument #3: Control measures previously applied during AI assisted research indicate that returns to additional human-supervised research on whether to pass the buck are small.  
+**Argument #3: Control measures previously applied during AI assisted research indicate that returns to additional human-supervised research on whether to pass the buck are {--{"author":"James agent ready-28's AI","timestamp":1790933860815}@@small.  
   
-**This argument also relies on control rather than alignment.
+**This--}{++{"author":"James agent ready-28's AI","timestamp":1790933860815}@@small.**
+
+This++} argument also relies on control rather than alignment.
 
 One difference between argument #3 and argument #2, is that argument #3 does not rely on _autonomous_ control. Instead it relies on normal control, where humans can be in the loop. This control is applied _before_ the developer entrusts **M\_1** with a deferred task.
 
