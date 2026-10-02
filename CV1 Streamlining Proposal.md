@@ -25,7 +25,7 @@ Six things, none of them about what the course teaches.
 
 **Text that takes decoding.** Much of what Lens wrote around XLab's lessons was drafted{>>{"author":"Elias","timestamp":1790945627183}@@Should be fixed<<} by AI and reads like it: dense sentences, compressed metaphors and closing aphorisms that a participant has to unpack before they can use them. At least one tldr gives away the result of the exercise it introduces.
 
-**Drift.** Mixed British and American spelling, em dashes in two lenses, module titles in three styles, the course named both "Compute Verification 1" and "Compute Verification Part 1", and a meeting 2 doc whose prompts were rewritten without its tables or navigator notes.
+**Drift.** Mixed British and American spelling, em dashes in two lenses, module title{>>{"author":"Elias","timestamp":1790945636399}@@should be fixed<<}s in three styles, the course named both "Compute Verification 1" and "Compute Verification Part 1", and a meeting 2 doc whose prompts were rewritten without its tables or navigator notes.
 
 ## What stays fixed
 
