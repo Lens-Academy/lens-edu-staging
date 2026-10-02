@@ -123,12 +123,16 @@ content::
 
 #### End Callout
 
-#### Callout: Part 2: Group Discussion
+#### End Callout
+
+#### Callout: Part 3: Group Discussion & Close
 tone:: neutral
+
+#### Callout: 4. 15m · Group Discussion and Synthesis
+collapse:: closed
 
 #### Text
 content::
-\### 15m · Group Discussion and Synthesis
 
 **Aim:** Encourage participants to reflect on their learning across the program, share insights from seeing others’ presentations, and identify next steps for applying frameworks, stakeholder engagement, and career planning.
 
@@ -139,7 +143,13 @@ content::
 - **Next Steps:** What is one concrete action you will take in the next month to move your thesis or project forward?
 - **Community & Support:** How can this cohort or your peers continue to support you after the program ends?
 
-\### 5-10m · Outro + Survey
+#### End Callout
+
+#### Callout: 5. 5-10m · Outro + Survey
+collapse:: closed
+
+#### Text
+content::
 
 **Outro, gratitudes, and wrapping up the 8 weeks!**
 
