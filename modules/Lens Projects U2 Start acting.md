@@ -86,14 +86,9 @@ id:: 74d743fc-30ca-41cd-90a4-062277b340c9
 content:: Write the three questions you will ask your audience, and name who you will contact first, and how. If you can't reach your audience in time, say which option from the list above you will use instead, and what you will look for.
 feedback-instructions:: The learner is drafting audience interview questions for a Lens Projects project, following three rules: talk about their life, not the idea; ask about specific past events; listen more than talk. If they cannot reach their audience in time, they may instead name a fallback (a stand-in, what the audience has already written, a small behaviour test, or their own experience). Reply in under 120 words. For interview questions, flag any that ask about the future ("would you..."), describe or ask about the learner's idea, or invite a compliment, and ask them to rewrite it about a past event; check the first contact is a real, specific person or group they can reach this week. For a fallback, check it is the strongest option they can realistically use, and that they say what they will look for and will label the evidence as partial. Do not write questions or choose the fallback for them. No generic praise. At most two replies.
 
-#### Text
-content::
-\## Optional: practise the conversation
-
-Want a rehearsal first? Ask the tutor below to play a member of your audience. Tell it who they are.
-
-#### Chat
-instructions:: Optional practice chat in Unit 2 of Lens Projects. The learner wants to rehearse an audience conversation. First ask, in one sentence, who you should play (their role and situation). Then stay in that role: answer as a realistic, busy person with their own habits, who is polite but not invested in the learner's idea. Give vague or flattering answers when the learner asks about the future or pitches their idea, and concrete answers when they ask about specific past events. Keep replies under 80 words. If the learner types "feedback", step out of role and, in under 100 words, name their best question and one question that led you, then stop.
+# Lens:
+source:: [[../Lenses/Lens Projects - Optional practise the conversation]]
+optional:: true
 
 # Lens: Design one cheap test
 id:: c2018cf0-1cc0-4b5a-b90c-763f260e44b6
