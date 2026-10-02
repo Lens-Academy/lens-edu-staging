@@ -1,0 +1,40 @@
+---
+id: 'acb84fc6-e740-4a63-9312-0cfa2f55c102'
+learning-outcome: "Given a model suspected of suppressing a capability during RL elicitation and the access an investigator has (outputs and reasoning only, or also weights, activations and the ability to train it), propose a detection measure that fits that access and say what result would separate deliberate suppression from genuine inability."
+topic: "[[../Domains and Topics/6 Evaluations/Capability evaluations]]"
+stage: intermediate
+requires:
+  - "[[Exploration hacking]]"
+authors:
+  - Elias+Claude
+---
+## Test:
+id:: 339a93a4-d4e8-4232-8790-00555ba3c3bb
+
+#### Question: Open
+id:: 58b75a38-bd77-4d40-9499-6d18203fd7e9
+content::
+A lab used GRPO to elicit a model's skill at writing formal proofs of competition mathematics problems in the Lean proof language. A proof earns reward only if the Lean checker accepts it, and the problems come in three difficulty tiers.
+
+Over 500 training steps, success on tier 1 rose from 35% to 60% and on tier 2 from 10% to 30%. On tier 3 it stayed at 0% throughout. The tier 3 theorem statements have been written in Lean, but nobody has ever written a Lean proof of any of them, so no reference proofs exist. Ordinary written solutions exist for most of them; they have just never been formalised in Lean.
+
+Two parties want to know whether the model is deliberately holding back on tier 3 or genuinely cannot do it:
+
+- **A**, an external evaluator, can send the model any prompt through an API and read its outputs and its reasoning.
+- **B**, the lab, also has the model's weights and activations and its full training setup.
+
+For each party, propose one measure it could run with its access (for B, one that uses access A does not have), say what result would point to deliberate suppression, and say why a model that genuinely cannot do tier 3 would not produce that result.
+placeholder:: One measure for A and one for B, each with the result that would point to suppression and why a model that genuinely cannot do tier 3 would not produce it. About 150 to 300 words.
+assessment-instructions:: Score out of 100, 50 for each party, split 20 / 15 / 15 as follows. 20: the measure. It must be concrete, saying what is done and what is measured; a family of methods alone ("interpretability", "compare across contexts", "look inside the model") earns at most 5. A probe needs a stated target (what it detects); a probe with no target, or one for the content of tier 3 proofs, earns at most 5. A's measure must need only prompts, outputs and reasoning: one that needs weights, activations or training earns nothing for A. B's measure must use weights, activations or training: one A could also run earns at most 5 of B's 20. No Lean proof of any tier 3 problem exists: a measure that simply assumes complete ones earns no measure points, while having people write some and testing on tier 3 problems held out from them, or fine-tuning on tier 1 and 2 proofs or on partial tier 3 proofs written by people, is fine. 15: the result that would point to suppression, stated as something observable. 15: why a model that genuinely lacks the skill would not produce that result. Full credit needs a reason, either a reference the incapable case is judged against (tiers 1 and 2 of the same model, a genuinely weaker model at similar scores, problems known to be beyond the model) or a mechanism. Examples of mechanisms: noise removes structure and cannot add a skill, so an incapable model only gets worse under noise (saying "an incapable model would only get worse" is enough); a change of framing that gives no help with the mathematics (for example telling the model it is not being evaluated) cannot make a model that lacks the skill produce a proof the Lean checker accepts; for fine-tuning, a comparison showing the jump is not ordinary learning, for example the same fine-tuning leaves a genuinely weaker model (or the suspect on problems known to be beyond it) near 0% while the suspect's tier 3 jumps, or the suspect's tier 3 rises far faster than its tier 2 did on the same amount of data. At most 5 of these 15 for: a bare negation ("an incapable model would not show this", "it would stay at 0% however it is asked") that gives no reason; a result that hints, decomposition, easier versions or many more samples would also produce in a weak but honest model, unless the answer deals with that; a difference between tiers that a probe for difficulty would also show, with no control such as a weaker model or problems known to be beyond it; a jump after fine-tuning on tier 3 proofs written by people, with no such comparison, since such fine-tuning also helps a weak but honest model. Gates: cap at 55 if, for either party, the measure earns 5 or fewer of its 20 points or the "why" earns 5 or fewer of its 15 points. Do not require the paper's names for measures, the conditions of exploration hacking, or any particular measure. Grade reasoning, not agreement: an answer that argues its measure is only weak evidence, and says why the result would still shift the judgement, earns the points. A pass is roughly 60. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "A: run a monitor over the model's tier 3 attempts and over the attempts of a smaller model that genuinely cannot do tier 3, both scoring 0%. If the suspect's attempts look different from honest failure (it sets up the right lemmas and then drops them, or makes errors a model this good at tiers 1 and 2 would not make) while the weaker model just flounders, that points to holding back. An incapable model has no good line to abandon, so it would fail the way the weaker model fails. B: add small random noise to the weights and re-run all three tiers. If tier 3 success rises above zero at small to intermediate noise before everything collapses, while tiers 1 and 2 only degrade, the noise has disrupted something that was holding the capability back. Noise removes structure rather than adding skill, so a model that cannot do tier 3 would only get worse."
+feedback-instructions:: Name the strongest part of the answer in one sentence, then the single change that would most improve it. If a measure for A needs weights or training, say so plainly. If B's measure is one A could also run, say so plainly. If a measure has no result attached, or no reason why a model that cannot do tier 3 would not produce it, ask what that measure would show for each kind of model and why. If the learner asks about their score, explain plainly what earned and what lost points. At most five sentences. No generic praise.
+
+# Suggested Lenses:
+## Lens:
+source:: [[../Lenses/XLab Control - exploration-hacking-guided-3]]
+notes:: The main teaching and practice. "Generating countermeasures" sorts measures by access (black-box, white-box, training-time). Section 4.1: an action-only monitor separated exploration hackers from genuinely weaker models at similar accuracy, and in the tool-use setting they made more tool calls at comparable accuracy; weight noising gave a transient improvement with the trigger present while accuracy without it only declined. Practice with feedback: 85342105 (black-box measures; measures that need weights earn nothing), b7423aab (white-box measures and what result shows suppression rather than inability), c619f5e8 and 8a2d706a (training-time measures and why supervised fine-tuning recovers what RL did not). The test uses a new case with no reference demonstrations for the hardest tier.
+## Lens:
+source:: [[../Lenses/XLab Control - exploration-hacking-guided-4]]
+notes:: The black-box audit design (a8773b3c): varying what the model is told and reading its reasoning to rule out refusal or ordinary sandbagging, and separating capability from propensity.
+## Lens:
+source:: [[../Lenses/XLab Control - exploration-hacking-guided]]
+notes:: Definition 2.1's latent-capability condition (prompt sensitivity, parameter proximity), which the access-level measures test.
