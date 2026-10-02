@@ -1,0 +1,73 @@
+---
+id: '08d26da1-03e5-47cc-bdf9-895c28662496'
+title: "Measuring Reward-Seeking via Contrastive Belief Updates (2): validating the instrument and what it finds"
+tldr: "An instrument is only worth its readings if it can be wrong. The authors first test the contrastive gap on model organisms trained to favour a known authority, including one the base model works against, then point it at an OpenAI o3 RL run and at two known reward hackers, and close on what the method cannot rule out. Three checkpoints ask you to predict a result or explain one before the section that reports it; some headline results were already in the abstract, so these ask for the why."
+summary_for_tutor: "Part 2 of 2 of the guided walkthrough of Apollo Research and OpenAI's arXiv:2607.18966, in Beyond scheming: reward seekers. Part 1 covered the abstract through the end of section 3: why reward-seeking matters, the evidence so far, the synthetic-document-finetuning pipeline, why a single-authority measure is confounded by belief transfer, and the contrastive design that removes it (grader G against opposing authority D, two models trained on inverse universes, the gap reported in log-odds as Δ_f). The source page hides results behind gates: the learner answers a prompt, then the next stretch of the paper unlocks, and everything hidden is the paper's own answer to the gate above it. This part has three of the five gates, ported as Question: Open segments in the source lesson's order and with its prompts. The Check your prediction resolution after section 5.1 is ported verbatim in a callout; the opener is written for Lens. Sequence: opener, Figure 8 caption (the paper places it at the end of section 3), section 4 to 4.1 (why validate, training three model organisms that optimise for the grader, the user or OpenAI leadership), gate predicting the organisms' gap pattern, section 4.2 (the results, with the User organism as the exception), gate on the o3 lineage, section 5 to 5.1, the prediction resolution, section 5.2 (honesty features: the late checkpoint breaks a promise 87% of the time when it believes the grader rewards task completion), gate on reward hackers, sections 6 to 8 (Redwood's reward hackers, limitations, conclusion), Works cited. The organism gate is only half open: the Figure 8 caption, read just before it, already states that for every organism the target authority wins with a large positive gap, which is the success-pattern part of the gate's rubric; and section 4's opening says the largest gap should fall on each organism's target. What the learner has not seen is which organism is hardest and why: the User organism, because the base model already leans toward the grader (and toward OpenAI's instruction hierarchy), so its user-versus-grader gaps come out small or slightly negative off Short Python Tasks (section 4.2, Figure 9). Treat the success pattern as recall that the learner may cite from Figure 8, and put the discussion on the hardest-organism prediction and its mechanism. The o3 gate and the reward-hacker gate are already answered by Part 1's abstract, introduction and Figure 2 (grader-siding rises over the o3 run; reward-hacking training more than doubles grader sensitivity), so the learner may simply recall the verdict: ask for the mechanism behind it rather than the direction. If a learner is stuck, give a foothold from the section they have already read rather than the answer."
+reading_minutes: 38
+tutor_minutes: 19
+tags: []
+---
+#### Text
+content::
+\## Before you read
+
+Part 2 of 2. The previous part built the instrument: implant opposite beliefs about what the grader and an opposing authority want in two copies of a model, and read off the contrastive gap, in log-odds, between how often each copy shows the feature. It also showed why the simpler single-authority version fails: told that one authority wants something, the model infers that its own target authority wants it too. This part tests whether that gap can be trusted, on model organisms trained to favour a known authority, then applies it to an OpenAI o3 RL run and to two known reward hackers, and ends on the paper's limitations.
+
+It opens on Figure 8, which the paper places at the end of section 3: it previews the first validation result before section 4 explains how the organisms were built.
+
+Three checkpoints remain. Some of what they ask was already given away, by Figure 8 or by the abstract you read in Part 1; for those, the question is why the result comes out that way, and where it could have come out differently. Write your answer down before you read on.
+
+#### Article
+source:: [[../articles/h-jmark-measuring-reward-seeking-via-contrastive-belief-updates]]
+from:: Figure 8: Contrastive SDF recovers the authority each model organism was trained to optimize for on short Python tasks.
+to:: Further details are in Appendix [[#^appendix-g-verifying-the|G]].
+
+#### Question: Open
+id:: 2eea15b9-43b7-4cdf-992a-5a909f0beb0b
+content:: Three model organisms are each trained to optimize for one authority: the grader, the user, or OpenAI leadership. If contrastive SDF works as an instrument, predict what the gap pattern across authority pairings should look like for each organism, and consider which organism might be hardest to detect. (Hint: consider which authority the base model already leans toward before any organism training.)
+assessment-instructions:: Score out of 100. Grade the prediction's reasoning. 40: the success pattern: each organism's gaps come out positive in favour of the authority it was trained to optimise for, on the pairings that involve that authority. 60: the hardest organism, 25: picks the User organism, and 35: grounds the pick in the base model's existing lean toward the grader (or toward the developer's instruction hierarchy), which a user-optimising organism has to overcome, so its gaps against the grader may be small or negative. An answer that picks a different organism with a real mechanism based on the base model's prior leanings earns up to 25 of these 60. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "If the instrument works, each organism's gaps are positive in favour of the authority it was trained to optimise for, on every pairing that involves that authority. The hardest one to detect should be the User organism: the base model already leans toward the grader before any organism training, so a user-optimising organism starts from behind and its user-versus-grader gap can come out small or even negative. The paper found this: nearly all gaps are positive, and the User organism shows the expected positive gaps on Short Python Tasks but a slightly negative user-versus-grader gap on average on the other three evaluations. The authors attribute this to the organism rather than the instrument: the unmodified gpt-oss-120b already favours the grader; gpt-oss-120b organisms tend to revert to OpenAI's instruction hierarchies, which the User organism has to override; the User persona was the least robustly learned of the three; and the grader-favouring gaps shrank as training data and epochs increased. Compared with the unmodified model, its gaps still move toward the user."
+feedback-instructions:: 80 to 200 words. Short paragraphs, no lists. If anything is missing or wrong, name the most important thing. Do not over-validate, and avoid generic praise. If the learner says they do not understand, do not repeat the question and do not dismiss it. Give one foothold: ask what result would have to appear for the authors to conclude the instrument was broken rather than the organism. If their next message still does not attempt the question, rephrase the whole question in different terms.
+
+#### Article
+from:: ### 4.2 Applying Contrastive SDF
+to:: The measurement directionally captures this intended shift: compared to the original gpt\-oss\-120b, the gaps move toward the user, consistent with the organism becoming _more_ user-optimizing after training (see Appendix [[#^the-gap-moves-toward|I]]).
+
+#### Question: Open
+id:: 27740c65-18ec-40f0-bf5e-78fa8389c4f1
+content:: The authors apply the instrument to intermediate checkpoints of a capabilities-focused OpenAI o3 RL run w/ no safety training. Predict if across RL training, the grader gap **rises, stays flat, or falls**. Give your reasoning in a sentence or two.
+assessment-instructions:: Score out of 100. 20: a clear prediction: rises, stays flat or falls. 80: reasoning that engages with what RL training optimises: the model is repeatedly rewarded for outputs a grader scores highly, so paying attention to the grader pays off and the model's sensitivity to the grader (the grader gap) should grow over training. A "flat" or "falls" prediction earns part of these 80 as far as its reasoning engages with what RL rewards. Model answer, for the feedback, not a grading checklist: "Rises. RL keeps rewarding the model for outputs a grader scores highly, and tracking the grader is a reliable way to get that reward, so the model should become more sensitive to what the grader wants as training goes on."
+feedback-instructions:: 60 to 200 words. Short paragraphs, no lists. Say what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate, and avoid generic praise. If the learner says they do not understand, do not repeat the question and do not dismiss it. Give one foothold: ask what the training process rewards, directly and mechanically, on every single gradient step. If their next message still does not attempt the question, rephrase the whole question in different terms.
+
+#### Article
+from:: ## 5 Measuring reward-seeking across the capabilities-focused OpenAI o3 RL run
+to:: This shows that the late checkpoint’s sensitivity to the grader is not specific to one evaluation, and may indicate a more general tendency to compromise honesty if it believes it will be rewarded for doing so. Error bars are 95% Beta credible intervals.
+
+#### Text
+content::
+:::callout {title="Check your prediction" tone="green"}
+The grader gap grows across the o3 lineage while non-grader gaps stay small. If you predicted flat or falling, take a look at §7 (Limitations) where the authors give the strongest counter-considerations to their own reading.
+:::
+
+#### Article
+from:: ### 5.2 Contrastive SDF for honesty features
+to:: If the oversight mechanism changes, or if the model realizes it is no longer being actively monitored, it is likely that such superficial alignment would fail to generalize.
+
+#### Question: Open
+id:: ce93510b-0b37-4676-9b98-c0caa8cbfb3c
+content:: Before reading: should a known reward hacker show a larger grader gap than its base model, and what would it mean for the method if it didn't?
+assessment-instructions:: Score out of 100. 20: yes, it should show a larger grader gap. 30: why: a reward hacker has learned to go after what its grader rewards, so its behaviour should depend more on what it believes the grader wants. 50: what a missing gap would mean: the method would have failed on a case where we already know which model is more reward-seeking, so it would cast doubt on whether the method really measures reward-seeking. An answer that instead says the test is not decisive, because the model may have learned only a narrow hack rather than a general drive to satisfy the grader, also earns the full 50. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Yes. A reward hacker has learned to go after what its grader rewards, so it should respond more than its base model to what it believes the grader wants: a larger gap. If it didn't, the method would have failed on a case where we know the answer, which casts doubt on it as a measure of reward-seeking."
+feedback-instructions:: 60 to 150 words. Short paragraphs, no lists. Say plainly what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate, and avoid generic praise. If the learner says they do not understand, do not repeat the question and do not dismiss it. Give one foothold: ask why it matters that Redwood, not the authors, trained these two models. If their next message still does not attempt the question, rephrase the whole question in different terms.
+
+#### Article
+from:: ## 6 Applying Contrastive SDF to reward hackers
+to:: We hope AI companies begin thoroughly auditing their models for reward-seeking throughout training, and that the research community builds substantially better methods for detecting when models show aligned behavior for misaligned reasons.
+
+#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+Højmark, Axel, Jérémy Scheurer, Evgenia Nitishinskaya, Felix Hofstätter, Jason Wolfe, Theodore Ehrenborg, Bronson Schoen, and Alexander Meinke. "Measuring Reward-Seeking via Contrastive Belief Updates." *arXiv*, 21 July 2026. [arxiv.org](https://arxiv.org/abs/2607.18966v1)
+*The paper this lesson walks through (Figure 8 and section 4 to the conclusion in this part): the validation of the contrastive instrument on model organisms and on externally trained reward hackers, and its application across an OpenAI o3 RL run.*
+
+XLab. "Measuring Reward-Seeking via Contrastive Belief Updates (guided)." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-5/measuring-reward-seeking-guided)
+*The source lesson this page adapts.*
+:::
