@@ -135,7 +135,7 @@ AIRF removed grading from every question outside its outcomes on 2026-09-28, on 
 1. **Add a short closing lens** at the end of unit 5, carrying the same claim-ledger widget and XLab's resolution, as [[Lenses/XLab Verification - v-hw-policy-studio]] already does in Compute Verification 2. It is written to stage 6's standard from the start.
 2. **Point the promise at it** on unit 5's first page and in that page's tutor summary.
 
-Learners who continue meet the ledger again in Compute Verification 2, as a second look rather than the first answer. The alternative is to reword the promise to say the resolution comes in the next course.
+Learners who continue meet the ledger again in Compute Verification 2, as a second look rather than the first answer. This stage follows our suggestion for decision 5; if the promise is reworded instead, to say the resolution comes in the next course, step 1 drops out.
 
 ### Stage 6. Plain language
 
@@ -177,20 +177,21 @@ The mechanical passes run last among the content stages, so they catch everythin
 
 These need a signed-in tester:
 
-- An ungraded question still completes its lens, including one that sits last in its module.
+- An ungraded question still completes its lens, including one that sits last in its module, and a question that stays graded still shows its score.
+- Skipping an optional question still lets the lens complete.
 - `force-feedback:: first` sends feedback once, and returning to the lens does not send it again.
 - Both unit 5 modules appear ahead of the unit 5 meeting, and the closing ledger lens works.
 - The Strategic Foundations lenses appear as optional.
 - A learner's earlier answers are still in place, which confirms no id changed.
 
-## Decisions needed
+## Decisions left open
 
-| # | Decision | Holds up | Proposed |
+These are left for Elias's input. Any he does not weigh in on are settled later, before the stage each one holds up. The suggestions are ours.
+
+| # | Decision | Holds up | Our suggestion |
 |---|---|---|---|
 | 1 | Unit 5: two modules, or two submodules in one module? | Stage 3 | Two modules |
 | 2 | Strategic Foundations: four pathway lenses, or one page? And its written output: drop, reframe, or keep? | Stage 3 | Four lenses; drop the output |
 | 3 | Unit 1 essay: optional, or core? | Stage 3 | Optional |
 | 4 | Longest core pages: split them, or leave them? | Stage 3, step 5 | Decide once the step 1 test is in |
-| 5 | Grading: remove it from all 44, or keep the five single-answer choice questions graded? | Stage 4 | All 44 |
-| 6 | Claim ledger: close it in CV1, or reword the promise? | Stage 5 | Close it in CV1 |
-| 7 | Meeting docs: run the guide's three agent checks, or leave them upstream as AIRF did? | Stage 9 | Run at least the cold-reader check, on all five docs |
+| 5 | Claim ledger: close it in CV1, or reword the promise? | Stage 5 | Close it in CV1 |
