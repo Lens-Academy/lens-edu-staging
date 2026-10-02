@@ -30,9 +30,22 @@ Most importantly, we hope these 8 weeks give you a space to **experiment, ask qu
 
 We're really looking forward to learning alongside you. 💛
 
+:::callout {title="🗺️ What's on this page (click a section to jump to it)" tone="neutral"}
+
+1. [[#^key-dates|📅 Key Dates]]
+2. [[#^support|💛 Support]]
+3. [[#^onboarding|📝 Onboarding Form (Required)]]
+4. [[#^platform|🎥 Quick Overview of How to Use This Platform]]
+5. [[#^key-info|📌 Key Information]]: program structure, Mastermind sessions and the three key components of the course
+6. [[#^overview|🗓️ Overview of the 8-Weeks]]
+7. [[#^before|🌟 Before We Begin]]
+8. [[#^thanks|Special Thank You]]
+
+:::
+
 ***
 
-\### 📅 Key Dates
+\### 📅 Key Dates ^key-dates
 
 **Your Weekly 1.5h Cohort Sessions**
 
