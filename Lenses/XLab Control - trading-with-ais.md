@@ -28,8 +28,7 @@ Pan argues these combine roughly multiplicatively, so any single term hitting ze
 ::card[[../Lenses/XLab Control - making-deals-with-early-schemers]]
 > The constructive case: the vignette that motivates it, why an early schemer's alternatives are bad, and the practical mechanics of paying an AI.
 
-::card[[../Lenses/XLab Control - barriers-to-trading]]
-> The stress test: every factor that could jointly prevent these deals, how tractable each looks, and which interventions to try first.
+Then, in Unit 5, [[../Lenses/XLab Control - barriers-to-trading|Barriers to trading]]: the stress test. Every factor that could jointly prevent these deals, how tractable each looks, and which interventions to try first.
 
 #### Text
 content::
