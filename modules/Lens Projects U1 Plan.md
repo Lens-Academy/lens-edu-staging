@@ -126,7 +126,7 @@ These are real pieces of work by people in AI safety, to show the range of proje
 | Example | What it shows |
 |---|---|
 | [Run the Lab!](https://labceo.layterms.org/) | A 3-minute game about running an AI lab, built at a hackathon. Every claim links to real research |
-| [Layterms: Hall 1, AGI](https://layterms.org/halls/agi/) | A nonpartisan explainer for lay people, with toy models labelled as toy models |
+| [RTFB: On the New Proposed CAIP AI Bill](https://www.lesswrong.com/posts/SQ9wDmsELBmA4Lega/rtfb-on-the-new-proposed-caip-ai-bill) | A policy critique on LessWrong: a close reading of a proposed AI bill, section by section, saying what it would do, where it goes too far and what is missing. Few people actually read the bills they argue about, so a careful reading is a useful project in itself |
 | [AI Lab Watch](https://ea.greaterwrong.com/posts/GyoHJA5fzFRjgGw9m/introducing-ai-lab-watch) | Started as a one-person, unfunded tracker of lab safety practices |
 
 \### Fieldbuilding
