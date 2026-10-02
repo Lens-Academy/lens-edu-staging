@@ -55,4 +55,8 @@ source:: ![[../Lenses/Letter From Utopia]]
 
 # Lens:
 optional:: true
+source:: [[../Lenses/alkjash-pain-is-not-the-unit-of-effort]]
+
+# Lens:
+optional:: true
 source:: [[../Lenses/duleba-another-way-to-be-okay]]
