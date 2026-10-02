@@ -8,4 +8,5 @@ title: "Appendix: Quantifying Existential Risks"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Risks - Appendix Quantifying Existential Risks|Appendix: Quantifying Existential Risks]]
+{++{"author":"Iris's AI","timestamp":1790942582049}@@render-as-non-article-text:: true
+++}source:: [[../articles/AI Safety Atlas - Risks - Appendix Quantifying Existential Risks|Appendix: Quantifying Existential Risks]]

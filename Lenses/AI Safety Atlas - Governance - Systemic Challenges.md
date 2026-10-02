@@ -8,7 +8,8 @@ title: "Systemic Challenges"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Governance - Systemic Challenges|Systemic Challenges]]
+{++{"author":"Iris's AI","timestamp":1790942566095}@@render-as-non-article-text:: true
+++}source:: [[../articles/AI Safety Atlas - Governance - Systemic Challenges|Systemic Challenges]]
 
 #### Text
 optional:: true

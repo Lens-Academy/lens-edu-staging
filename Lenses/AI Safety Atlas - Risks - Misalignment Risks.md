@@ -8,7 +8,8 @@ title: "Misalignment Risks"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Risks - Misalignment Risks|Misalignment Risks]]
+{++{"author":"Iris's AI","timestamp":1790942586150}@@render-as-non-article-text:: true
+++}source:: [[../articles/AI Safety Atlas - Risks - Misalignment Risks|Misalignment Risks]]
 
 #### Text
 optional:: true

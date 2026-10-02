@@ -8,7 +8,8 @@ title: "Risk Amplifiers"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Risks - Risk Amplifiers|Risk Amplifiers]]
+{++{"author":"Iris's AI","timestamp":1790942588233}@@render-as-non-article-text:: true
+++}source:: [[../articles/AI Safety Atlas - Risks - Risk Amplifiers|Risk Amplifiers]]
 
 #### Text
 optional:: true
