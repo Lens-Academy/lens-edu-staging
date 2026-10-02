@@ -28,3 +28,8 @@ source:: [[../Lenses/ET W6 - Worksheet - Reverse Engineering Your Thesis]]
 # Lens:
 optional:: true
 source:: [[../Lenses/ET W6 - Journalling - Process vs Outcomes]]
+
+# Submodule: Week 6 Survey
+
+# Lens:
+source:: [[../Lenses/ET W6 - Weekly Survey]]
