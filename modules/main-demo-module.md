@@ -122,7 +122,7 @@ hide-author:: sidebar
 %% An article's `author_url:` frontmatter (one URL, or a list in the same order as `author`) turns the author's name into a link: in the byline, the source bar and this lens's sidebar entry. %%
 # Lens: Linking the author
 id:: 456648fa-9602-4ca3-8f77-22bbe0c7364e
-tldr:: Shows author_url: in an article's frontmatter: the author's name in the byline links to their page.
+tldr:: Shows author_url: in an article's frontmatter: the author's name links to their page, in the byline and in the sidebar.
 summary_for_tutor:: Demo lens for the author_url: article field. A Text segment explains the field, then an Article segment shows the opening of the Article presentation demo, whose frontmatter sets author_url: https://lensacademy.org, so the byline's "Lens Academy" is a link.
 reading_minutes:: 1
 
