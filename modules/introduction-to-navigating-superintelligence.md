@@ -15,15 +15,25 @@ summary_for_tutor:: Short welcome lens introducing the course. The opening text 
 reading_minutes:: 3
 #### Text
 content::
-Artificial intelligence is upending many aspects of civilisation at once, and experts warn of extinction-level risks. What's going on, and where are we headed? This course will help you understand the core dynamics at play, and prepare you to act.
+{--{"author":"Elua's AI","timestamp":1790936371773}@@Artificial intelligence is upending many aspects--}{++{"author":"Elua's AI","timestamp":1790936371773}@@This statement, signed by the leaders++} of {--{"author":"Elua's AI","timestamp":1790936371773}@@civilisation at once,--}{++{"author":"Elua's AI","timestamp":1790936371773}@@most major labs++} and {--{"author":"Elua's AI","timestamp":1790936371773}@@experts warn of extinction-level risks. What's going on, and where are we headed? This course will help you understand the core dynamics at play, and prepare you to act.
 
 In May 2023, leading AI scientists and the heads of major AI companies put their names to a single sentence:
+
+#### Article
+source:: [[../articles/safety-statement-on-ai-extinction-risk-cais]]
+from:: "**Mitigating--}{++{"author":"Elua's AI","timestamp":1790936371773}@@top AI scientists, was a wake up call for humanity:
 
 #### Article
 source:: [[../articles/safety-statement-on-ai-extinction-risk-cais]]
 from:: "**Mitigating the risk of extinction from AI"
 to:: "Signatories:"
 hide-author:: true
+
+#### Text
+content::
+Artificial intelligence is transforming many aspects of civilisation at once. What's going on, where are we headed, and what can we do about it? This course will help you understand++} the {--{"author":"Elua's AI","timestamp":1790936371773}@@risk of extinction from AI"
+to:: "Signatories:"
+hide-author:: true--}{++{"author":"Elua's AI","timestamp":1790936371773}@@core dynamics at play, and prepare you to act.++}
 
 # Lens:
 source:: [[../Lenses/The AI Book That's Freaking Out National Security Advisors]]
