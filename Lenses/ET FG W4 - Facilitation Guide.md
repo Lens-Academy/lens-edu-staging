@@ -181,18 +181,27 @@ content::
    - What questions remain that you want to explore further?
    - Goal: Try to support the participant in leaving with clear, actionable takeaways or next steps, and ending with an encouraging note.
 
-\### 20m · Mastermind Session 1
+#### End Callout
 
+#### Callout: 5. 20m · Mastermind Session 2
+collapse:: closed
+
+#### Text
+content::
 **Repeat the structure above for the second Mastermind participant.**
 
 #### End Callout
 
-#### Callout: Part 3: Group Discussion
+#### End Callout
+
+#### Callout: Part 4: Group Discussion & Close
 tone:: neutral
+
+#### Callout: 6. 20m · Group Discussion and Synthesis
+collapse:: closed
 
 #### Text
 content::
-\### 20m · Group Discussion and Synthesis
 
 **Goal**: Help participants reflect on the week’s reading. You can use any of the questions below to guide the group discussion based on what feels most alive:
 
@@ -220,8 +229,13 @@ content::
 - Celebrate every email sent, not just replies!
 - Encourage people to keep the Week 4 outreach table as their ongoing tracker for the rest of the program.
 
-\### 5m · Outro: Intro to next week + Weekly survey
+#### End Callout
 
+#### Callout: 7. 5m · Outro: Intro to next week + Weekly survey
+collapse:: closed
+
+#### Text
+content::
 - **Briefly introduce Week 5,** which focuses on one of the most important - but least taught - skills for turning academic work into real-world impact: developing a Theory of Change (ToC). While many theses aim to address important problems, they often stop at producing research, leaving the pathway from findings to impact implicit or assumed. This week challenges that default by helping you make those pathways explicit, intentional, and strategic.
 - **Remind participants to:**
    - Remind **the two that are in the Mastermind session** for next week
