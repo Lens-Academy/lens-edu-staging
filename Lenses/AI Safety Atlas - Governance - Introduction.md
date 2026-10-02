@@ -8,8 +8,8 @@ title: "Introduction"
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942564828}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Governance - Introduction|Introduction]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Governance - Introduction|Introduction]]
 
 #### Question: Open
 id:: e37057ae-1ec8-435d-ab8a-7b3a92982293

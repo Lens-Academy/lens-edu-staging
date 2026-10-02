@@ -8,8 +8,8 @@ title: "Risk Decomposition"
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942589437}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Risks - Risk Decomposition|Risk Decomposition]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Risks - Risk Decomposition|Risk Decomposition]]
 
 #### Question: Open
 id:: 2a50455e-0b64-42a3-98f3-75afe6fcf860

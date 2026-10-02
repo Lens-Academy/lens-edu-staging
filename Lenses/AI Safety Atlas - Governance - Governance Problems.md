@@ -8,8 +8,8 @@ title: "Governance Problems"
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942562872}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Governance - Governance Problems|Governance Problems]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Governance - Governance Problems|Governance Problems]]
 
 #### Text
 optional:: true

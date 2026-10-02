@@ -8,8 +8,8 @@ title: "Current Capabilities"
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942511424}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Capabilities - Current Capabilities|Current Capabilities]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Capabilities - Current Capabilities|Current Capabilities]]
 
 #### Text
 optional:: true

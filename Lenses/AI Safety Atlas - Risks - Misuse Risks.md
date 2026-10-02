@@ -8,8 +8,8 @@ title: "Misuse Risks"
 ---
 
 #### Article
-{++{"author":"Iris's AI","timestamp":1790942587350}@@render-as-non-article-text:: true
-++}source:: [[../articles/AI Safety Atlas - Risks - Misuse Risks|Misuse Risks]]
+render-as-non-article-text:: true
+source:: [[../articles/AI Safety Atlas - Risks - Misuse Risks|Misuse Risks]]
 
 #### Text
 optional:: true
