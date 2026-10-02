@@ -137,7 +137,9 @@ content::
 
 \# Part 3. Continue Stakeholder Outreach ^part-3
 
-**Instructions:** Please continue your stakeholder mapping and outreach in your Stakeholder Outreach Tracker from Week 4’s worksheet. It's the same tracker, so anything you add here also shows up in Week 4 (and vice versa)! We recommend identifying and reaching out to >20 stakeholders. If you haven’t received any replies from your Week 4 outreach, we encourage you to reach out to additional stakeholders.
+**Instructions:** Please continue your stakeholder mapping and outreach in your Stakeholder Outreach Tracker from Week 4’s worksheet. It's the same tracker that lives in the **📇 My Stakeholder Outreach Tracker** tab, so anything you add here also shows up there and in Week 4 (and vice versa)! We recommend identifying and reaching out to >20 stakeholders. If you haven’t received any replies from your Week 4 outreach, we encourage you to reach out to additional stakeholders.
+
+::card[[../Lenses/ET Tool - My Stakeholder Outreach Tracker|📇 My Stakeholder Outreach Tracker (the same tracker, in its own tab)]]{allow-external}
 
 #### Widget
 source:: [[../widgets/et-w4-stakeholder-tracker]]
