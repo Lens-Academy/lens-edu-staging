@@ -31,7 +31,7 @@ to:: (We’ll have to pay it more accordingly since the schemer will be aware th
 #### Question: Open
 id:: 3714e3ad-3912-4aa6-8e44-26e029133610
 content::
-Pan's post names several disagreements with the earlier material in this module, namely [[../Lenses/XLab Control - making-deals-with-early-schemers|Making deals with early schemers]] and the notes on cooperating with unaligned AIs set inside it (part 1 states them near the top of the post; this part's opener restates them). Pan argues that human credibility is more tractable than they suggest, that counterparty risk on the human side is underrated, and that value incoherence is not a fundamental barrier to minimal forms of dealmaking.
+Pan's post names several disagreements with the earlier material, namely [[../Lenses/XLab Control - making-deals-with-early-schemers|Making deals with early schemers]] and the notes on cooperating with unaligned AIs set inside it (part 1 states them near the top of the post; this part's opener restates them). Pan argues that human credibility is more tractable than they suggest, that counterparty risk on the human side is underrated, and that value incoherence is not a fundamental barrier to minimal forms of dealmaking.
 
 Choose one of these disagreements, explain both positions in your own words, and argue for the position that is more convincing to you.
 
