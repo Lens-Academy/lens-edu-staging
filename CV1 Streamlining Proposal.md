@@ -188,7 +188,7 @@ These need a signed-in tester:
 
 These are left for Elias's input. Any he does not weigh in on are settled later, before the stage each one holds up. The suggestions are ours.
 
-| # | Decision | Holds up | Our suggestion |
+{>>{"author":"Elias","timestamp":1790948407400}@@I think two modules is better (less unnecessary nesting, unless the nesting is meaningful<<}| # | Decision | Holds up | Our suggestion |
 |---|---|---|---|
 | 1 | Unit 5: two modules, or two submodules in one module? | Stage 3 | Two modules |
 | 2 | Strategic Foundations: four pathway lenses, or one page? And its written output: drop, reframe, or keep? | Stage 3 | Four lenses; drop the output |
