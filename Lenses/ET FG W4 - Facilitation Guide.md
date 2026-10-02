@@ -139,7 +139,9 @@ Ask participants to open the Week 4 Worksheet in their workbook and introduce Wo
 
 #### End Callout
 
-#### Callout: Part 2: Mastermind for Two Participants
+#### End Callout
+
+#### Callout: Part 3: Mastermind for Two Participants
 tone:: neutral
 
 #### Text
@@ -148,8 +150,11 @@ content::
 
 **ALTERNATIVE OPTION: If your cohort has not yet sent out any emails by this point, you can also make this whole session a co-working session where participants leave the sessions having sent >15 emails out.**
 
-\### 20m · Mastermind Session 1
+#### Callout: 4. 20m · Mastermind Session 1
+collapse:: closed
 
+#### Text
+content::
 **Goal:** Help the participant clarify thinking, generate options, and move forward by providing thoughtful, constructive input.
 
 1. **Share the structure of the Mastermind session:** “The first 5 minutes, our participant will share their worksheet, their top questions or uncertainties, and what they’d like help with. Then we’ll spend about 13 minutes as a group asking questions, offering ideas, and giving feedback - focusing on supporting them rather than solving it for them. Finally, we’ll spend 2 minutes wrapping up with the participant summarizing their next steps.”
