@@ -38,6 +38,7 @@ reading_minutes:: 4
 source:: [[../articles/russell-of-myths-and-moonshine]]
 from:: "A system that is optimizing a function of n variables"
 to:: "can have an irreversible impact on humanity."
+hide-author:: true
 
 #### Text
 content::

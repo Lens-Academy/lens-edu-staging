@@ -33,6 +33,7 @@ In this module, we explore the myriad ways in which intelligence gives agents po
 source:: [[../articles/yudkowsky-optimization-and-the-singularity]]
 from:: your power as a mind is your ability to hit small targets in a large search space
 to:: the power of an optimization process is that it can produce this kind of improbability.
+hide-author:: true
 
 # Lens:
 source:: ![[../Lenses/The power of intelligence|The power of intelligence]]

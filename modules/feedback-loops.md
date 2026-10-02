@@ -24,6 +24,7 @@ Much of the world is dominated by positive feedback loops. The first bit of grai
 source:: [[../articles/good-speculations-concerning-first-ultraintelligent-machine]]
 from:: "Let an ultraintelligent machine be defined"
 to:: "how to keep it under control."
+hide-author:: true
 
 #### Chat
 instructions::
