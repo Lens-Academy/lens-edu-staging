@@ -33,7 +33,7 @@ We’re committed to making sure you feel supported, confident, and connected th
 - A facilitator training session with live facilitation practice
 - Program mid point and end point check-ins
 - A WhatsApp group to chat with us and your fellow CD’s and facilitators
-- Optional 1:1 support whenever you need!
+- Optional 1:1 support whenever you need it!
 
 You can always reach out to Alex (alex@effectivethesis.org)
 
@@ -73,7 +73,7 @@ If you still want access to the document versions for printing, don’t worry! Y
 
 | Day | Task |
 |---|---|
-| Friday before | Send participants the [[../Lenses/ET FG Resources - Weekly Message Templates|template message]] - to remind them to 1) do readings & worksheet in the Weekly Module, and 2) attend the session |
+| Friday before | Send participants the [template message](https://staging.lensacademy.org/courses/et-accelerator-facilitator-guides/module/et-fg-resources#weekly-message-templates) - to remind them to 1) do readings & worksheet in the Weekly Module, and 2) attend the session |
 | Pre-discussion | Prepare for the discussion - read modules & facilitation guide \[2h\] |
 | Chosen day | Facilitate weekly discussion \[1.5h\] |
 
