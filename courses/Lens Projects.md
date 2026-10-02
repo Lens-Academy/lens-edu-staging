@@ -29,11 +29,11 @@ intro-form:: true
 Unit 1 goals:
 - Choose your track: Fit, or a field project
 - Agree the AI use policy: use AI as a tool, not a decision-maker
-- See what earlier participants made (example gallery) and browse the project bank
+- Browse the gallery of potential projects (and, later, the project bank)
 - Write the proposal canvas: a problem, a specific audience, an observable short-term change, and a version you can make with what you already have (proposal draft 1)
 
 Readings:
-- Core: "Nailing the basics: theories of change" (already in Lens); example gallery; AI use policy
+- Core: "Nailing the basics: theories of change" (already in Lens); gallery of potential projects; AI use policy
 - Optional: Shevlane, "How to succeed as an early-stage researcher: the lean startup approach"; Hamming, You and Your Research; 80,000 Hours, "AI safety fieldbuilding" career review (already in Lens)
 %%
 # Module: [[../modules/Lens Projects U1 Plan]]
