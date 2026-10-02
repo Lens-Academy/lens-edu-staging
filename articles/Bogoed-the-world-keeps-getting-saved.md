@@ -54,6 +54,8 @@ Anyway, here are a few of my takeaways:
 	Say out loud what the risk is, tell us what you did about it. Tell us what would have happened if it weren't for you.
 	If you don’t, people may eventually assume the danger was imaginary. If enough people assume that, they might stop funding, supporting, or doing the quiet work that keeps the floor from collapsing.
 
+:::hide
 P.S. Please, let me know if someone wrote a similar thing better.
 
 P.P.S. Was irritated by NOTHING EVER HAPPENS meme again. Also thought about "myriads of careful hands" -metaphor and liked it.
+:::
