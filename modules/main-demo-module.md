@@ -102,6 +102,39 @@ from:: "**Mitigating the risk of extinction from AI"
 to:: "Signatories:"
 hide-author:: true
 
+%% To keep the byline but leave the author out of the sidebar, write `hide-author:: sidebar` instead (articles only; an embed has no sidebar credit). %%
+# Lens: Hiding the author from the sidebar only
+id:: adb71303-71db-4953-8b44-897c9fa05e1d
+tldr:: Shows hide-author:: sidebar on an Article segment: the byline still credits the author, the sidebar entry does not.
+summary_for_tutor:: Demo lens for hide-author:: sidebar. A Text segment explains the field, then an Article segment quotes the one-sentence CAIS Statement on AI Risk with hide-author:: sidebar, so the byline names the Center for AI Safety but the sidebar entry for this lens does not.
+reading_minutes:: 1
+
+#### Text
+content::
+This lens quotes the same statement, but the `#### Article` below has `hide-author:: sidebar`: the byline still names the author, while this lens's sidebar entry does not.
+
+#### Article
+source:: [[../articles/safety-statement-on-ai-extinction-risk-cais]]
+from:: "**Mitigating the risk of extinction from AI"
+to:: "Signatories:"
+hide-author:: sidebar
+
+%% An article's `author_url:` frontmatter (one URL, or a list in the same order as `author`) turns the author's name in the byline and the source bar into a link. The sidebar entry stays plain text. %%
+# Lens: Linking the author
+id:: 456648fa-9602-4ca3-8f77-22bbe0c7364e
+tldr:: Shows author_url: in an article's frontmatter: the author's name in the byline links to their page.
+summary_for_tutor:: Demo lens for the author_url: article field. A Text segment explains the field, then an Article segment shows the opening of the Article presentation demo, whose frontmatter sets author_url: https://lensacademy.org, so the byline's "Lens Academy" is a link.
+reading_minutes:: 1
+
+#### Text
+content::
+The article below has `author_url: https://lensacademy.org` in its frontmatter, so the author's name in the byline links to that page (opening in a new tab). The sidebar entry for this lens stays plain text.
+
+#### Article
+source:: [[../articles/Article annotation and text collapse demo]]
+from:: "This short article exists"
+to:: "source attribution with author and publication date"
+
 %% This Lens shows Obsidian-style links that jump to headings or stable block markers within the same Lens. %%
 # Lens:
 source:: [[../Lenses/Same-lens links demo]]
