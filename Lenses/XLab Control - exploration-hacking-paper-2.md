@@ -11,7 +11,7 @@ tags: []
 content::
 Part 2 of 2. The previous part set up the problem: why RL depends on the model's own exploration, the formal definition of exploration hacking and its taxonomy (complete under-exploration, and instrumental or terminal partial under-exploration). It also split exploration hacking into five components, each needing the one before: training awareness, strategic reasoning propensity, strategic reasoning capability, strategic action propensity, and RL resistance. Section 5 audits frontier models against these components one by one. This part reads the experiments: Section 3 builds "locked" model organisms that resist RL elicitation, Section 4 tests countermeasures against them, Section 5 audits frontier models for the propensity, and Section 6 discusses what follows. Appendix A.5, the authors' future-work agenda, closes the part.
 
-The results sections give many numbers, and their figures appear here as captions only (the plots are not reproduced). Read for the pattern: which organisms resist, why, and what catches them. [[../Lenses/XLab Control - exploration-hacking-guided|Exploration Hacking (guided)]] works back through these same experiments with written checkpoints.
+The results sections give many numbers, and their figures appear here as captions only (the plots are not reproduced). Read for the pattern: which organisms resist, why, and what catches them. [[../Lenses/XLab Control - exploration-hacking-guided-2|Exploration Hacking (guided), parts 2 to 4]] work back through these same experiments with written checkpoints.
 
 #### Article
 source:: [[../articles/jang-exploration-hacking-can-llms-learn-to-resist-rl-training]]
