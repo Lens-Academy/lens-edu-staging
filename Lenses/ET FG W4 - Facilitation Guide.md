@@ -17,6 +17,8 @@ For learners, outreach is all about learning to **engage, listen, and gather ins
 
 \#### Key Ideas from Week 4
 
+- **Stakeholder mapping** helps answer: "If I answered this research question well, who would actually need to know about it, or be in a position to act on it?"
+- **Six categories of stakeholders:** Beneficiaries, Knowledge Producers, Implementers, Influencers, Advocates and Status Quo Actors.
 - **Bring your thesis into the real world:** Stakeholder outreach and interviews move your research from theory to practice. Engaging experts, practitioners, and potential beneficiaries helps validate your questions, refine your Theory of Change, and identify opportunities for meaningful impact.
 - **Why outreach matters:** Conversations with stakeholders allow you to test assumptions, identify bottlenecks, uncover gaps in current research, and explore collaboration opportunities. Early engagement accelerates learning and helps your thesis be relevant, actionable, and impactful.
 - **Effective outreach strategies:**
