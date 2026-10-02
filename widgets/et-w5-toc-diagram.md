@@ -331,7 +331,7 @@ h4 { margin: 18px 0 4px; font-size: 14px; }
         }
       });
       data.links = Array.isArray(state.links) ? state.links.filter(function (l) { return l && findBox(l.from) && findBox(l.to); }).slice(0, MAXLINKS)
-        .map(function (l) { return { id: typeof l.id === "string" ? l.id : nid("l"), from: l.from, to: l.to, label: typeof l.label === "string" ? l.label : "" }; }) : [];
+        .map(function (l) { return { id: typeof l.id === "string" ? l.id : nid("l"), from: l.from, to: l.to, label: typeof l.label === "string" ? l.label : "", cert: typeof l.cert === "string" ? l.cert : "", why: typeof l.why === "string" ? l.why : "", how: typeof l.how === "string" ? l.how : "" }; }) : [];
       build();
     });
   }
