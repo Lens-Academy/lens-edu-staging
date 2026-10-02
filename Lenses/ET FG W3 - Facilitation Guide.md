@@ -75,6 +75,7 @@ content::
 
 ::card[[../Lenses/ET W3 - Journalling - Bottlenecks in Your Life]]{allow-external}
 
+- For a Google Docs version for printouts, you can use [this](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?tab=t.2b71rt36knt9). But we recommend everyone access via Lens!
 - Week 3 Slides: [\[Shared - 2026\] Week 3: Bottleneck and Stakeholder Mapping](https://docs.google.com/presentation/d/1CFPMGlCy3WPmusS_ZwJTPQL5O98NZyC_5WoubCqMWkk/edit?usp=sharing)
 
 \### 3m · Welcome & Group Check-In
@@ -110,6 +111,8 @@ Ask participants to open their worksheet sections in Lens Academy
 - Set aside 10-15 minutes for each person to work on their worksheet independently.
 - If people have already completed them, they can use this time to discuss them, fine tune them and explain their weighted factor model decisions
 
+**Focus:** This week's worksheet walks you step by step from your problem area to your top 1-2 research questions. You'll find the key bottleneck, brainstorm lots of questions, narrow them down with a quick scoring pass, and choose using your own Weighted Factor Model.
+
 #### End Callout
 
 #### Callout: Part 2: Mastermind for Two Participants
@@ -117,6 +120,8 @@ tone:: neutral
 
 #### Text
 content::
+*If you have a larger group (>4 participants), please see [[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]] for alternative formats.*
+
 \### 20m · Mastermind Session 1
 
 **Goal:** Help the participant clarify thinking, generate options, and move forward by providing thoughtful, constructive input.
