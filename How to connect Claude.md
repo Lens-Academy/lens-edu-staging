@@ -78,4 +78,4 @@ The knowledge base is organized into several key areas:
 
 ### Context about Lens Academy
 
-Lens Academy is built by a small team of part-time collaborators. The platform currently offers a main course ("Navigating Superintelligence") and a book club course based on the book *If Anyone Builds It, Everyone Dies* (IABIED). The content is designed to be accessible to newcomers while maintaining intellectual rigor. The pedagogical approach emphasizes active learning through comprehension questions, discussion, and connecting concepts across multiple sources.
+Lens Academy is built by a small team of part-time collaborators. The platform currently offers a main course ("AI Extinction Risk Foundations", formerly "Navigating Superintelligence") and a book club course based on the book *If Anyone Builds It, Everyone Dies* (IABIED). The content is designed to be accessible to newcomers while maintaining intellectual rigor. The pedagogical approach emphasizes active learning through comprehension questions, discussion, and connecting concepts across multiple sources.
