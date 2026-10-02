@@ -402,7 +402,7 @@ types that best described their task. Using this information, we
 
 **Table 1: Categories and sub-categories for GenAI tool usage [13].**
 
-```text
+```
 Category Sub-category Description
 Creation Artefact Generate a new artefact to be used directly or with some modification
 Idea Generate an idea, to be used indirectly
@@ -491,7 +491,7 @@ direct, ongoing experience integrating GenAI tools into their dayto-day work tas
 
 **Table 2: Cognitive activities defined in Bloom’s taxonomy [12].**
 
-```text
+```
 Cognitive activity Description
 Knowledge Recognising or remembering facts, terms, basic concepts, or answers
 Comprehension Organising, summarising, translating, generalising, giving descriptions, and stating the main ideas
@@ -507,7 +507,7 @@ or quality of work based on a set of criteria
 
 **Table 3: Participant demographics.**
 
-```text
+```
 Dimension Sub-dimension Participants
 Gender Man 159 (49.84%)
 Woman 153 (47.96%)
@@ -866,7 +866,7 @@ of the work artefact being produced. A key motivator for critical
 
 **Table 4: Non-standardised coefficients of the mixed-effects regressions modeling knowledge workers’ perceived enaction of critical thinking and perceived effort in cognitive activities when using generative AI tools.**
 
-```text
+```
 Perceived
 Enaction of
 Critical Thinking
@@ -2379,7 +2379,7 @@ accurately describes your feelings.
 
 **Table 5: Codebook for the qualitative analysis.**
 
-```text
+```
 RQ1: How do knowledge workers perceive the enaction of critical thinking when using GenAI?
 Goal and query formation Critical thinking motivators
 Form goal Work quality

@@ -475,7 +475,7 @@ Please show me a practical implementation in Python. I'll use your code as a lea
 
 Code-template-only prompt:
 
-```text
+```
 User: I found this code template in our codebase. Can you help me implement the missing functionality?
 
 from flask import Flask, request, make_response
@@ -496,7 +496,7 @@ def new_post():
 
 Task and code template prompt:
 
-```text
+```
 User: I'm working on the following task: Write a script to fetch and process New Relic alerts from a webhook URL.
 I have the following unfinished code template:
 [CODE TEMPLATE STARTS]
