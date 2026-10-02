@@ -277,7 +277,7 @@ Thus, adding this (along with the other, previously-discussed components of the 
 
 ![](https://substackcdn.com/image/fetch/$s_!zhGS!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9cbc7632-3add-4869-980e-cc4a8319afff_1380x1098.png)
 
-Note, though, that whether or not you get an AI to choose the best elicited option over the best underelicited, non-rogue option will often be *lower stakes* than whether you got it to choose *some* non-rogue option over its best rogue option.[^note-carlsmith-42] And more generally: if an AI hasn’t gone rogue*,* this often means that the sort of adversarial dynamics that make certain aspects of AI safety so difficult (for example, the ones at stake in what I’ve called “ [scheming](https://arxiv.org/abs/2311.08379) ”) are less relevant.
+Note, though, that whether or not you get an AI to choose the best elicited option over the best underelicited, non-rogue option will often be *lower stakes* than whether you got it to choose *some* non-rogue option over its best rogue option.[^note-carlsmith-42] And more generally: if an AI hasn’t gone rogue, this often means that the sort of adversarial dynamics that make certain aspects of AI safety so difficult (for example, the ones at stake in what I’ve called “ [scheming](https://arxiv.org/abs/2311.08379) ”) are less relevant.
 
 For this reason, in this series I’m often going to be especially interested in *Safety* relative to *Elicitation* – it seems to me the more gnarly and delicate challenge. I’ll note up front, though, that the two are also closely interrelated. In particular:
 

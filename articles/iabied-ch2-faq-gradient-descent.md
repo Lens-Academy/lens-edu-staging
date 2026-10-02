@@ -33,7 +33,7 @@ People who wish to rush ahead with building superintelligence will sometimes rec
 
 If pressed, the expert can defend themselves by pointing out that there's a sense in which all of this is true. After all, AI researchers write perfectly normal code that's easy to understand, and this code is used to create AIs, in a roundabout way.
 
-But the part that is readable and intelligible code is not the AI itself*,* but rather the automated machinery for tweaking trillions of numbers trillions of times, the framework used to grow the AI. And this is a crucial distinction for understanding what scientists do and do not know about modern AIs.
+But the part that is readable and intelligible code is not the AI {--{"author":"James agent ready-28's AI","timestamp":1790937507912}@@itself*,*--}{++{"author":"James agent ready-28's AI","timestamp":1790937507912}@@itself,++} but rather the automated machinery for tweaking trillions of numbers trillions of times, the framework used to grow the AI. And this is a crucial distinction for understanding what scientists do and do not know about modern AIs.
 
 AI experts spend their time experimentally adjusting parts of the system, such as the code of the machinery that grows the AI. From these experiments and from similar experiments done by their peers, they learn many subtle tricks that help produce more capable AIs.
 

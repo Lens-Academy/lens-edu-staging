@@ -128,7 +128,7 @@ While we often express our timelines as single numbers (such as the mode or the 
 
 I think that if he talked through what he actually means by this distribution with a smart policy maker, they would finally get it and say:
 
-> Oh, so you are saying _you have no idea when it will happen_ — it could be next year, or it could be 6 presidential terms from now_._ And you’re saying there is a 1 in 5 chance it isn’t even in that range.
+> Oh, so you are saying _you have no idea when it will happen_ — it could be next year, or it could be 6 presidential terms from {--{"author":"James agent ready-28's AI","timestamp":1790937505556}@@now_._--}{++{"author":"James agent ready-28's AI","timestamp":1790937505556}@@now.++} And you’re saying there is a 1 in 5 chance it isn’t even in that range.
 
 I think that’s actually a pretty good summary, and it would sum up my own distribution as well. While ‘no idea when it will happen’ is underselling the information contained in this distribution, it is a much better summary than ‘4 years’ which would be understood by almost everyone as something like ‘between 3 and 5 years’. While academics might hope people interpret a named year as the median time, most people interpret it as the moment they are allowed to start complaining the predicted event hasn’t happened yet.
 

@@ -113,7 +113,7 @@ optional:: true
 content::
 ---
 
-\# Step 3: Iterative Narrowing \[20 min\]
+\# Step 3: Iterative Narrowing \[20 min\] ^step-3
 
 📖 *For more info and guidance, see **Step 3** in this week's reading:*
 
@@ -131,7 +131,7 @@ source:: [[../widgets/et-w3-quick-narrowing]]
 content::
 ---
 
-\# Step 4: Choose Your Top 1-2 with a Weighted Factor Model \[30 min\]
+\# Step 4: Choose Your Top 1-2 with a Weighted Factor Model \[30 min\] ^step-4
 
 📖 *For more info and guidance, see **Step 4** in this week's reading:*
 

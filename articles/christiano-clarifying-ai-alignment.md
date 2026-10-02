@@ -65,7 +65,7 @@ I use alignment as a statement about the _motives_ of the assistant, not about t
 
 ### Postscript on terminological history
 
-I [originally](https://ai-alignment.com/ai-safety-vs-control-vs-alignment-2a4b42a863cc) described this problem as part of “the AI control problem_,”_ following Nick Bostrom’s usage in _Superintelligence_, and used “the alignment problem” to mean “understanding how to build AI systems that share human preferences/values” (which would include efforts to clarify human preferences/values).
+I [originally](https://ai-alignment.com/ai-safety-vs-control-vs-alignment-2a4b42a863cc) described this problem as part of “the AI control {--{"author":"James agent ready-28's AI","timestamp":1790937503277}@@problem_,”_--}{++{"author":"James agent ready-28's AI","timestamp":1790937503277}@@problem,”++} following Nick Bostrom’s usage in _Superintelligence_, and used “the alignment problem” to mean “understanding how to build AI systems that share human preferences/values” (which would include efforts to clarify human preferences/values).
 
 I adopted the new terminology after some people expressed concern with “the control problem.” There is also a slight difference in meaning: the control problem is about coping with the possibility that an AI would have different preferences from its operator. Alignment is a particular approach to that problem, namely avoiding the preference divergence altogether (so excluding techniques like “put the AI in a really secure box so it can’t cause any trouble”). There currently seems to be a tentative consensus in favor of this approach to the control problem.
 
