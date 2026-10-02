@@ -2,7 +2,7 @@
 id: 'b4b3623c-3e71-4eb2-8515-69a559dc0d2b'
 title: "Reward Seeker Empirics"
 tldr: "A plumber in a small town always deals honestly, and the reputation is what pays his bills. Watching him will never tell you whether he values honesty or the income. Only what he does once dishonesty pays better will. Apollo Research spends fifty minutes on that same question about frontier models, and on the instrument they built to answer it."
-summary_for_tutor: "A supplementary lesson in Module 6, Beyond scheming: seekers and deals, sitting between Alternatives to Schemers and the guided walkthrough of Measuring Reward-Seeking via Contrastive Belief Updates. The source page carries only a note marking the talk optional plus the embedded video, so that note is ported verbatim into a callout and everything else in the lead-in is orientation written for Lens, drawn from what the talk itself says. The talk is a roughly 50-minute Apollo Research conversation about the paper they published with OpenAI: why chain-of-thought inspection cannot settle whether a model is reward seeking, how contrastive synthetic document fine-tuning turns the question into a measurable behavioural difference, the o3-run result (deception at 87 percent versus 9 percent depending on what the model believed graders rewarded), the two validation strategies, and the distinction between a reward seeker and a schemer. There are no exercises, in the source lesson or in this one. Sequence: lead-in, video, Works cited. If a student wants the experimental detail, the numbers, or the limitations, send them to the two-part guided paper walkthrough next (the validation, the o3-run numbers and the limitations are in its Part 2) rather than re-deriving it from the talk."
+summary_for_tutor: "A supplementary lesson on seekers, sitting between Alternatives to Schemers and the guided walkthrough of Measuring Reward-Seeking via Contrastive Belief Updates. The source page carries only a note marking the talk optional plus the embedded video, so that note is ported verbatim into a callout and everything else in the lead-in is orientation written for Lens, drawn from what the talk itself says. The talk is a roughly 50-minute Apollo Research conversation about the paper they published with OpenAI: why chain-of-thought inspection cannot settle whether a model is reward seeking, how contrastive synthetic document fine-tuning turns the question into a measurable behavioural difference, the o3-run result (deception at 87 percent versus 9 percent depending on what the model believed graders rewarded), the two validation strategies, and the distinction between a reward seeker and a schemer. There are no exercises, in the source lesson or in this one. Sequence: lead-in, video, Works cited. If a student wants the experimental detail, the numbers, or the limitations, send them to the two-part guided paper walkthrough next (the validation, the o3-run numbers and the limitations are in its Part 2) rather than re-deriving it from the talk."
 reading_minutes: 60
 tutor_minutes: 0
 tags: []
@@ -12,7 +12,7 @@ content::
 \## Watch: is AI doing the right thing for the wrong reasons?
 
 :::callout {title="Optional: Supplementary Talk" tone="neutral"}
-The talk below is not required. It covers the reward-seeking findings behind the guided paper walkthrough in this section.
+The talk below is not required. It covers the reward-seeking findings behind the guided paper walkthrough that follows.
 :::
 
 [[../Lenses/XLab Control - alternatives-to-schemers|Alternatives to Schemers]] argued that a scheming AI is not the only kind worth worrying about. This talk is four researchers at Apollo Research working through one of those alternatives in detail: the reward seeker, a model that does what it believes is being rewarded. Alex, Apollo's head of research, Axel and Jeremy, research scientists there, and Alex Lloyd, a research engineer, discuss the paper Apollo published with OpenAI. It runs a little over 50 minutes and it is a conversation rather than a lecture, so the argument arrives in the order they thought of it.
@@ -29,7 +29,7 @@ The second is how they try to earn trust in a measurement built out of thousands
 
 The closing stretch places reward seeking next to scheming. Alex calls it a risk factor rather than a subset: a reward seeker follows what it thinks is rewarded in any given scenario, while a schemer does so only while the grader holds power over its longer-term goal. Apollo's position is that current models are likely not schemers, and that telling the difference is getting harder.
 
-The next two lessons, [[../Lenses/XLab Control - measuring-reward-seeking-guided|Measuring Reward-Seeking via Contrastive Belief Updates (1)]] and [[../Lenses/XLab Control - measuring-reward-seeking-guided-2|(2)]], are the paper itself, with the experiments, the numbers and the limitations section the talk only gestures at.
+[[../Lenses/XLab Control - measuring-reward-seeking-guided|Measuring Reward-Seeking via Contrastive Belief Updates (1)]] and [[../Lenses/XLab Control - measuring-reward-seeking-guided-2|(2)]] are the paper itself, with the experiments, the numbers and the limitations section the talk only gestures at.
 
 %% The imported caption track has complete text but broken word timings: real timestamps run out around 46:48, and roughly the last 60 percent of the words are all stamped between 49:54 and 49:58 of a 50:01 video. Transcript scrubbing and any future from::/to:: anchors on this video will be unreliable until it is re-imported. %%
 
@@ -43,7 +43,7 @@ Apollo Research. "Is AI doing the right thing for the wrong reasons?" *YouTube*,
 *The talk this lesson is built around: four Apollo researchers on why chain-of-thought inspection cannot tell you whether a model is reward seeking, and on the contrastive belief-update method they built instead.*
 
 Højmark, Axel, Jérémy Scheurer, Evgenia Nitishinskaya, Felix Hofstätter, Jason Wolfe, Theodore Ehrenborg, et al. "Measuring Reward-Seeking via Contrastive Belief Updates." *arXiv*, 2026. [arxiv.org](https://arxiv.org/abs/2607.18966)
-*The paper the talk presents, including the o3-run measurements and the model-organism validations. Read in full in the next two lessons.*
+*The paper the talk presents, including the o3-run measurements and the model-organism validations. Read in full in the two-part guided walkthrough, Measuring Reward-Seeking via Contrastive Belief Updates (1) and (2).*
 
 XLab. "Reward Seeker Empirics." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/module-5/reward-seeker-empirics)
 *The source lesson this page adapts.*

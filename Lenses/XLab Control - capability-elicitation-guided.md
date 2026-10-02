@@ -15,7 +15,9 @@ Part 1 of 3. This is the guided walkthrough of the password-locked models paper,
 
 The abstract and the introduction's summary of findings are held back here on purpose. So are the results, until after you have said what you expect.
 
-The reading picks up the threat model from [[../Lenses/XLab Control - misalignment-and-strategic-underperformance|Misalignment and strategic underperformance]] and, in part 3 and the next lesson, hands the exploration-hacking half of it on to [[../Lenses/XLab Control - exploration-hacking-paper|Exploration Hacking: Can LLMs Learn to Resist RL Training?]].
+Two terms from [[../Lenses/XLab Control - misalignment-and-strategic-underperformance|Misalignment and strategic underperformance]] run through this reading. Sandbagging is a misaligned model intentionally underperforming, either by hiding a capability it has (the worry for dangerous-capability evaluations and untrusted monitoring) or by deliberately failing to learn one. Exploration hacking is one way to sandbag under reinforcement learning: the model refrains from high-reward actions it already knows about, so on-policy RL never samples them, has nothing to reinforce, and cannot elicit the capability.
+
+The reading picks up that threat model and, in part 3 and the next required lesson, hands the exploration-hacking half of it on to [[../Lenses/XLab Control - exploration-hacking-paper|Exploration Hacking: Can LLMs Learn to Resist RL Training?]].
 
 #### Article
 source:: [[../articles/greenblatt-stress-testing-capability-elicitation-with-password-locked-models]]
@@ -26,7 +28,7 @@ to:: This problem is hard to study systematically using natural examples, as onl
 content::
 \## Fine-tuning-based elicitation
 
-An earlier reading in this module, [[../Lenses/XLab Control - misalignment-and-strategic-underperformance|Misalignment and Strategic Underperformance]], analyzed how a misaligned model might strategically underperform, and Joe Carlsmith's ["no sandbagging on checkable tasks" hypothesis](https://www.alignmentforum.org/posts/h7QETH7GMk9HcMnHH/the-no-sandbagging-on-checkable-tasks-hypothesis) asked whether hidden capabilities on checkable tasks are possible at all. This paper concerns the evaluations themselves: whether a model that strategically underperforms could pass a dangerous-capability evaluation while retaining the capability being evaluated.
+An earlier reading, [[../Lenses/XLab Control - misalignment-and-strategic-underperformance|Misalignment and Strategic Underperformance]], analyzed how a misaligned model might strategically underperform, and Joe Carlsmith's ["no sandbagging on checkable tasks" hypothesis](https://www.alignmentforum.org/posts/h7QETH7GMk9HcMnHH/the-no-sandbagging-on-checkable-tasks-hypothesis) asked whether hidden capabilities on checkable tasks are possible at all. This paper concerns the evaluations themselves: whether a model that strategically underperforms could pass a dangerous-capability evaluation while retaining the capability being evaluated.
 
 As the introduction argues, prompting is not a reliable elicitation method. The standard alternative is elicitation by fine-tuning: rather than searching for a prompt that surfaces the capability, train the model on the task and measure what it can be made to do.
 
