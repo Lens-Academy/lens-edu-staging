@@ -23,13 +23,12 @@ collapse:: closed
 source:: [[../articles/future-of-life-institute-statement-on-superintelligence]]
 from:: "- **Geoffrey Hinton**"
 
-#### Text
-content::
-And over [140,000 others](https://superintelligence-statement.org/), including [5 Nobel laureates](https://futureoflife.org/press-release/prominent-scientists-faith-leaders-policymakers-and-artists-call-for-a-prohibition-on-superintelligence/).
-
 #### End Callout
 
+#### Text
+content::
 %% COMMENTED OUT (AI-generated framing): In October 2025, the Future of Life Institute published a one-sentence statement calling for a ban on building superintelligence. %%
+Over [140,000 people](https://superintelligence-statement.org/) have signed, including [5 Nobel laureates](https://futureoflife.org/press-release/prominent-scientists-faith-leaders-policymakers-and-artists-call-for-a-prohibition-on-superintelligence/).
 
 #### Text
 content::
