@@ -3,6 +3,8 @@ id: '030f83dc-1ec0-4fbc-a6cf-df7d9be7d5d8'
 learning-outcome: "Given a proposed deal with a misaligned AI, diagnose the counterparty risks that threaten it on each side (the AI's risk that the humans will not or cannot deliver, and the humans' risk that the AI will not deliver or that its compliance cannot be checked), judge which one most limits the deal, and identify the change to the deal that would most reduce it."
 topic: "[[../Domains and Topics/11 Strategy/Living with advanced agents]]"
 stage: intermediate
+requires:
+  - "[[Bargaining with early misaligned AIs]]"
 authors:
   - Elias+Claude
 ---
