@@ -218,11 +218,20 @@ content::
 - Draw links between personal reflections and the program’s broader arc.
 - The goal of this exercise isn’t to get to any one right answer, but to encourage personal reflection and also group connection!
 
-\### 10m · Outro: Intro to Next Week
+#### End Callout
 
+#### Callout: 9. 10m · Outro: Intro to Next Week
+collapse:: closed
+
+#### Text
+content::
 - Briefly introduce Week 2: Selecting a High-Impact Problem. We'll tour the landscape of high-impact problems, then use the ITN framework (Importance, Neglectedness, Tractability) to narrow in on one worth pursuing, and bring it back to Ikigai.
 - Remind participants to:
    - Do next week’s readings and worksheet before the session on Lens
       - Ideally, ask them to complete or draft worksheets before the discussions
    - Explore the Week 1 Journaling prompts in their own time, which focus on personal reflection prompts for their life, not just academics
    - Weekly survey on Lens platform to share their feedback
+
+#### End Callout
+
+#### End Callout
