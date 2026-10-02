@@ -35,10 +35,11 @@ tone:: amber
 #### Text
 content::
 - **Select the 2 Mastermind Participants for this Week’s discussion using [[../Lenses/ET FG Resources - Mastermind Tracker|your Mastermind Tracker]]**
-- **Communication (Friday before):** Send participants a reminder to do weekly readings before the session (see template message in CDHQ)
+- **Communication (Friday before):** Send participants a reminder to do weekly readings before the session (see template message in CD HQ)
    - **For Chosen Mastermind Participants:** Let them know they are selected and to prepare lightly for it, and inform you if they can’t make it
 - **Read through Module 3** to familiarise yourself with the readings and worksheet
 - **Prepare and lead** the 1.5h weekly discussion using the Weekly Facilitation Guide below
+- **Use the CD Whatsapp Group** for support and shared learnings ♥️
 - **Encourage your group to join our Expert Q&A’s/Live sessions:** Effective Thesis will put on 2-3 live Q&A’s with experts from various cause areas. Encourage your group to join.
 
 #### End Callout
@@ -53,6 +54,8 @@ tone:: neutral
 #### Text
 content::
 *The following is our recommended structure for hosting the discussion. Feel free to adapt timing, extend or shorten sections, or dive deeper into areas of interest based on participant engagement and group needs. The goal is to keep the session interactive and valuable to the participants joining! You can also refer to the facilitator guidelines and icebreaker questions if you need additional ideas.*
+
+*If you have a larger group (>4 participants), please see [[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]] for alternative formats.*
 
 #### End Callout
 
