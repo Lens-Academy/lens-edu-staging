@@ -63,10 +63,12 @@ content::
 - **Lack of implementation of effective solutions:** This often occurs when we already know what works, but those solutions are not reaching people at scale. The key question here is: **do we know what works but struggle to deploy solutions at scale?** This is important because even highly effective interventions fail to produce impact if they are not actually adopted.
    - It can usually be broken down into several subtypes (3a to 3d), each requiring a different approach: 3a) insufficient delivery capacity, 3b) low awareness or prioritization, 3c) lack of supportive policies or funding, and 3d) poor coordination between actors. Addressing this category often involves improving delivery systems, increasing awareness and advocacy, unlocking policy or resource pathways, or aligning fragmented stakeholders so that proven solutions can achieve their intended impact.
 
-\#### Table Summary of Categories of Bottlenecks
+#### Callout: Table Summary of Categories of Bottlenecks (click to open)
+tone:: neutral
+collapse:: closed
 
-*Category 3 (Lack of Implementation of Effective Solutions) asks: **do we know what works but struggle to deploy solutions at scale?** This is important because even highly effective interventions fail to produce impact if they are not actually adopted. It can usually be broken down into several subtypes (3a to 3d), each requiring a different approach.*
-
+#### Text
+content::
 | Category of bottleneck | Explanation & why this matters | Indicators | Ways to contribute | Examples of problems |
 |---|---|---|---|---|
 | **1) Lack of Understanding of the problem** | **Do we lack a fundamental understanding of the problem itself?** If we lack understanding of the problem and its root causes, interventions may be ineffective or misdirected. | Limited high-quality research on prevalence, causes, or mechanisms of the problem; Disagreement among experts about basic facts | Invest in more foundational research to understand the problem and its causes; Synthesize existing evidence to reduce uncertainty | **Global catastrophic biological risks** – Limited understanding of how synthetic pathogens could spread and interact with society |
@@ -76,6 +78,10 @@ content::
 | **3c) Lack of Policy/Resource Support** | **Are solutions constrained by insufficient funding or policies?** Even effective solutions cannot scale without the resources and enabling structures to support them. | Proven interventions exist but lack sustainable funding, regulatory or policy barriers, and misaligned incentives among stakeholders | Work with policy advocacy groups or think tanks; build partnerships between funders, implementers, and policymakers | **Clean energy adoption** – Proven renewable technologies exist, but scaling requires supportive subsidies, regulations, and investment alignment |
 | **3d) Lack of Coordination** | **Are solutions or actors fragmented, with little alignment across efforts?** Poor coordination wastes resources and duplicates work. | Multiple actors working in silos; duplication of projects; gaps or overlaps in services experienced by beneficiaries | Organize or facilitate collaboration spaces (workshops, conferences, coalition-building); Propose frameworks or governance models to align efforts | **Climate adaptation programs** – NGOs, governments, and donors work separately, leading to overlapping projects and inefficient resource use |
 
+#### End Callout
+
+#### Text
+content::
 \#### Recommended Flowchart for Identifying Bottlenecks
 
 **The Bottleneck Analysis Flowchart is a guide to help you decide where to focus your efforts for maximum impact.** By answering a few key questions, you can determine whether your time and resources are best spent on a problem’s root causes, on developing solutions, or on scaling existing solutions. Sometimes the most effective way to make a difference is not to push harder on a problem that is already being addressed successfully, but to redirect effort and resources toward a problem where there is more unmet need, bigger gaps, or greater potential for leverage.

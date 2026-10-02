@@ -4,7 +4,7 @@ reading_minutes: 20
 tutor_minutes: 10
 # tldr: "In the 1950s a scientist found equations that fit all of human history and predicted the world would hit infinity on November 13, 2026. It didn't -- the trend broke in 1961. Scott Alexander uses that failed prophecy to ask a sharper question: when a pattern has held for millennia, what makes it suddenly snap, and could AI restart the runaway growth that the demographic transition switched off?"
 summary_for_tutor: "Scott Alexander on hyperbolic growth in human history. Von Foerster's equation fit world population near-perfectly from the Stone Age to 1960 and reached infinite population around 2026 (the exact date, Friday November 13, was mostly a joke). The trend broke around 1960 with the demographic transition. Alexander's explanation: growth was hyperbolic because more money meant more food, more people and so more researchers, and that loop stopped once money no longer reliably turned into researchers. He argues AI could restore it (money buys more AIs, which do more research), so hyperbolic growth could return even if AI is not much smarter than humans. The lens question asks whether the learner agrees."
-title: "1960, The Year The Singularity Was Cancelled"
+title: {--{"author":"Elua's AI","timestamp":1790941353268}@@"1960,--}{++{"author":"Elua's AI","timestamp":1790941353268}@@"1960:++} The Year The Singularity Was Cancelled"
 ---
 %% #### Text
 content:: %%

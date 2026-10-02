@@ -3,7 +3,7 @@ id: a541b303-0018-43ef-ba68-fb6883d020d9
 reading_minutes: 10
 tutor_minutes: 3
 summary_for_tutor: "Excerpt from Raemon's 2023 post. Sketches 'carefully bootstrapped alignment' (paraphrasing Buck's EAG 2022 talk): research-assistant AIs, interpreter and watchdog AIs monitoring them, and evaluations for both. Raemon argues the plan only works if, before each capability increase, decision-makers seriously ask whether the next generation is safe to run and are genuinely ready to pause indefinitely; without that, the plan amounts to building AGI and causing a catastrophe. He then lists why this is hard inside an organization: moving carefully is annoying, so staff circumvent or goodhart safety procedures; noticing when to pause is hard; pausing a project with inertia is hard; employees can quit and do the work elsewhere; and capabilities or product teams not bought into the plan may push ahead anyway."
-title: Carefully Bootstrapped Alignment is organizationally hard
+title: "\"Carefully Bootstrapped Alignment\" is organizationally hard"
 # tldr: Even if the technical plan for automating alignment works perfectly, the organization executing it might not. Competitive pressure, psychological bias, and the temptation to keep scaling can undermine even well-designed safety processes — making the human side of the problem just as hard as the technical one.
 ---
 %% #### Text
