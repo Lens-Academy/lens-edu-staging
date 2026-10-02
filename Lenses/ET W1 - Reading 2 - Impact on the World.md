@@ -27,6 +27,8 @@ One common way of understanding the impact of a thesis is about the research tha
 
 \#### Failure Mode #2. Poor Research Execution/Understanding
 
+![Failure mode 2: research targets an important problem but with poor execution or the wrong solution, so there is no real-world impact](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w1-failure-mode-2-poor-execution-ad6132f7.webp)
+
 **Description:** You target a high-impact problem, but do a poor job on research execution. This pitfall is most likely when you lack a deep understanding of the problem’s root causes and interactions.
 
 **Questions to Consider:**
@@ -36,6 +38,8 @@ One common way of understanding the impact of a thesis is about the research tha
 - Do you enjoy this type of work? Great research quality often comes from genuine interest and a sense of meaning.
 
 \#### Failure Mode #3. No Pathway to Impact
+
+![Failure mode 3: research targets an important problem and is well executed, but no decisions or actions change, so there is no real-world impact](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-w1-failure-mode-3-noone-uses-research-a9e4a574.webp)
 
 **Description:** You target the right problem and produce good research, but your findings are never implemented in the real world. No decisions or actions are changed in the real world. We think this is one of the most common pitfalls in academia.
 
