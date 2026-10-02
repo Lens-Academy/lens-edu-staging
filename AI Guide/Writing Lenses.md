@@ -126,7 +126,9 @@ A bare `#### Question` is legacy syntax. Do not write it in new or edited conten
 
 **Roleplay**: learner talks with a persona defined in `ai-instructions::`; `content::` sets the scene for the learner, `opening-message::` is the persona's first line.
 
-**Widget**: embeds an interactive HTML page from `widgets/` inline (a clickable diagram, a sorting exercise, a simulation). The file is frontmatter plus a complete HTML document; the platform renders it in a sandboxed, self-sizing frame and gives the tutor its `summary_for_tutor` and visible text. Authoring rules, validation and the Lens look: [[../AI Guide/How to write widgets]].
+**Widget**: embeds an interactive HTML page from `widgets/` inline (a clickable diagram, a sorting exercise, a simulation). The file is frontmatter plus a complete HTML document; the platform renders it in a sandboxed, self-sizing frame and gives the tutor its `summary_for_tutor` and visible text. Authoring rules, validation and the Lens look: [[../AI Guide/How to write widgets]].{++{"author":"Iris's AI","timestamp":1790961953785}@@
+
+**Embed**: shows another site's page in a frame. `source::` names an `articles/` file whose `source_url` is the page to show. An embed fills the screen, so it must be the only segment in its lens. The exception is `inline:: true`: the frame then sits between the lens's other segments (also inside a callout) at its `height::` (default `800px`). Use it for a third-party form, such as an Airtable or Google form, that belongs under the lens's own text. The frame cannot measure the page inside it, so set `height::` to the form's full height plus some room for error messages; else the form scrolls inside the frame. Do not put a form's `<iframe>` in a widget: the widget sandbox has no storage, and an app that needs it (an Airtable form does) stays blank.++}
 
 **Resource cards:** inside a `content::` value, `::card[[../Lenses/Name]]` followed by a `> blockquote` description renders a linked card, used for "Additional resources" footers.
 
