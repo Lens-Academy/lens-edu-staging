@@ -72,8 +72,18 @@ content::
 - For a Google Docs version for printouts, you can use [this](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?tab=t.2b71rt36knt9). But we recommend everyone access via Lens!
 - Week 2 Slides: [\[Shared - 2026\] Week 2: Selecting a High-Impact Problem](https://docs.google.com/presentation/d/1d9HtulBzECf0GErwn5ADMlDCw2q4PzUY4bcFOPIezVs/edit?usp=drive_link)
 
-\### 3m · Welcome & Group Check-In
+\### Recommended Structure for the Session
 
+*This is the flow we recommend for your 1.5h session, split into parts. Tap each stage to open it. Feel free to adapt the structure to your group - if you have a larger group (>4 participants) or worksheets are still early, see [[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]] for alternative formats.*
+
+#### Callout: Part 1: Welcome & Connection
+tone:: neutral
+
+#### Callout: 1. 3m · Welcome & Group Check-In
+collapse:: closed
+
+#### Text
+content::
 - **Welcome participants and check-in:** What is something you’re grateful for from your week or that you’re excited about?
 
 **Share the overview and intention of this session:**
@@ -88,8 +98,13 @@ content::
    - They’re designed to help participants clarify thinking, generate options, and make progress on real questions related to their thesis, impact direction, or decision-making.
    - Structure: In the first 5 minutes, our participant will share their worksheet, their top questions or uncertainties, and what they’d like help with. Then we’ll spend about 13 minutes as a group asking questions, offering ideas, and giving feedback - focusing on supporting them rather than solving it for them. Finally, we’ll spend 2 minutes wrapping up with the participant summarizing their next steps.
 
-\### 7m · 1:1 Speed Friending
+#### End Callout
 
+#### Callout: 2. 7m · 1:1 Speed Friending
+collapse:: closed
+
+#### Text
+content::
 **Pair participants (or groups of 3 if numbers require) and suggest some icebreaker questions to discuss:**
 
 - What’s a quirky habit or ritual you have?
@@ -102,13 +117,18 @@ content::
 - **[Where do you stand?](https://www.icebreakerspot.com/activities/where-do-you-stand#google_vignette)** But you can have participants give their own statements instead of premade ones.
 - **[list of games](https://newnarratives.philosophy.columbia.edu/sites/newnarratives.philosophy.columbia.edu/files/content/Just%20Ideas%20media/documents/Embodied%20Learning%20exercises.pdf)**
 
-#### Callout: Part 1: Worksheet
+#### End Callout
+
+#### End Callout
+
+#### Callout: Part 2: Worksheet
 tone:: neutral
+
+#### Callout: 3. 15m · Working on Worksheet Live
+collapse:: closed
 
 #### Text
 content::
-\### 15m · Part 1: Working on Worksheet Live
-
 Ask participants to open the Week 2 Worksheet on Lens and introduce the Worksheet: “This worksheet is designed to help you identify high-impact problems for your thesis by combining the ITN framework (Importance, Neglectedness, Tractability) with your ikigai (what the world needs + your skills + personal fulfillment).
 
 - Set aside 10-15m for each person to work on their worksheet independently (if already done they can fine-tune or discuss some of their thinking)
