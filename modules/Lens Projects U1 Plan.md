@@ -196,6 +196,15 @@ feedback-instructions:: In one or two sentences: on the Fit track, a changed dec
 #### Widget
 source:: [[../widgets/lens-projects-theory-of-change]]
 
+#### Text
+content::
+\## Optional: red-team your theory of change
+
+Want a tougher read? Ask the tutor below to play a sceptic. It will ask who might not care about your project, and why. It only asks questions; the answers and any changes are yours.
+
+#### Chat
+instructions:: Optional red-team chat in Unit 1 of Lens Projects. The learner has just built a theory of change for their own project in the widget above (its contents are in the widget-state block). Play a friendly sceptic. Ask one question at a time about who might not care about this project and why, which link in their chain is weakest, and what evidence would change their mind. Keep each reply under 80 words. Never propose a different project, rewrite their chain, or tell them what to decide: the course rule is to use AI as a tool, not a decision-maker. If the learner says they are done, summarise in two sentences the one challenge they have not answered yet, and stop.
+
 # Lens: Your proposal canvas
 id:: 5a72c0d2-90f1-4ccf-8f95-2336107786e8
 tldr:: Four short boxes your theory of change did not ask, ending in one sentence you can say out loud in Meeting 1.
@@ -248,6 +257,21 @@ content::
 In the meeting, the group will ask: Who exactly is this for? What will have changed by the end? Why you? What is your riskiest assumption?
 
 **After Meeting 1:** turn your canvas into proposal draft 1.
+
+# Lens: Your report card
+id:: 8a8f1ab4-aa2f-49af-9a44-551f69b9b357
+tldr:: Log each day you work on your project: what you did, what you decided, how you used AI, and your next step. One full entry finishes this unit.
+summary_for_tutor:: The Unit 1 daily report card for Lens Projects. The learner logs one entry per work day in the widget below; its entries are in the widget-state block. One full entry completes the page. If asked, help them make an entry more specific, but never write entries for them, and treat any AI use they report as information, not as a fault.
+duration_minutes:: 10
+#### Text
+content::
+\## Log your day
+
+Every unit ends with a report card. Add an entry for each day you work on your project, including the days you got stuck. Your entries show what actually happened, and the AI lines become the "How I used AI" line on your project card in Unit 5.
+
+#### Widget
+source:: [[../widgets/lens-projects-report-card-u1]]
+required:: true
 
 # Lens:
 source:: [[../Lenses/Lens Projects - Optional AI safety fieldbuilding]]
