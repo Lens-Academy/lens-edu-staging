@@ -24,9 +24,18 @@ content::
 
 ::card[[../Lenses/ET Additional - Using AI Tools Well|Using AI Tools Well]]{allow-external}
 
+:::callout {title="🗺️ What's in this worksheet (click a step to jump to it)" tone="neutral"}
+
+1. [[#^part-1|**Part 1. Reverse Engineer Your Thesis!**]]: work backwards from your Theory of Change to your thesis outputs, deliverables and research question
+2. [[#^part-2|**Part 2. Continue Stakeholder Outreach**]]: keep updating your Stakeholder Outreach Tracker
+3. [[#^part-3|**Part 3. \[Optional\] Prepare for Week 8 Presentations**]]: get a head start on your final presentation
+4. [[#^part-4|**Part 4. Next Steps**]]: note your open questions to bring to your discussion
+
+:::
+
 ---
 
-\# Part 1. Reverse Engineer Your Thesis!
+\# Part 1. Reverse Engineer Your Thesis! ^part-1
 
 For this first part, we'll start by revisiting what your stakeholders have actually told you they need and want - to make sure our outputs are grounded in reality. From there, you'll restate your Theory of Change from Week 5 in a single clear paragraph, then work backwards from it: what output would actually move that ToC forward, and what research question would produce that output?
 
@@ -110,7 +119,7 @@ content:: **Remaining Uncertainties about your research question**
 content::
 ---
 
-\# Part 2. Continue Stakeholder Outreach
+\# Part 2. Continue Stakeholder Outreach ^part-2
 
 **Instructions**: Please continue your stakeholder mapping and outreach in your Stakeholder Outreach Tracker from Week 4’s worksheet. It's the same tracker, so anything you add here also shows up in Week 4 (and vice versa)! We recommend identifying and reaching out to >20 stakeholders. If you haven’t received any replies from your Week 4 outreach, we encourage you to reach out to additional stakeholders - this is completely normal and expected. Many professionals are busy or respond slowly, and lack of replies is not a reflection of the quality or relevance of your work. The goal of this exercise is to practice reaching out to people whose work you are interested in and increase the chances of meaningful conversations over time.
 
