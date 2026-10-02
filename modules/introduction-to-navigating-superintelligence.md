@@ -15,7 +15,7 @@ summary_for_tutor:: Short welcome lens introducing the course. The opening text 
 reading_minutes:: 3
 #### Text
 content::
-This statement, signed by the leaders of most major labs and top AI scientists, was a wake up call for humanity:
+This statement, signed by the leaders of the leading labs and top independent AI scientists, was a wake up call for humanity:
 
 #### Article
 source:: [[../articles/safety-statement-on-ai-extinction-risk-cais]]
