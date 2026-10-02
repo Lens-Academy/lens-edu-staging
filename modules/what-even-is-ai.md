@@ -18,7 +18,7 @@ summary_for_tutor:: Welcome lens. The learner sees one sentence: the module aims
 reading_minutes:: 2
 #### Text
 content:: 
-This module aims to give you a reasonable grasp of what modern AI systems are, both on an intuitive and technical level.
+This module aims to give you a reasonable grasp of what modern AI systems are, on both an intuitive and a technical level.
 
 #### Article
 source:: [[../articles/janus-simulators]]

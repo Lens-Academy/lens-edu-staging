@@ -18,7 +18,7 @@ summary_for_tutor:: Welcome lens for the module on positive feedback loops. A tw
 reading_minutes:: 5
 #### Text
 content::
-Much of the world is dominated by positive feedback loops. The first bit of grain that was left over and got re-planted sparked the agricultural revolution. Might the development of intelligence also contain such self-amplifying spirals?
+Much of the world is dominated by positive feedback loops. The first bit of grain that was left over and got {--{"author":"Elua's AI","timestamp":1790940608006}@@re-planted--}{++{"author":"Elua's AI","timestamp":1790940608006}@@replanted++} sparked the agricultural revolution. Might the development of intelligence also contain such self-amplifying spirals?
 
 #### Article
 source:: [[../articles/good-speculations-concerning-first-ultraintelligent-machine]]
