@@ -37,3 +37,8 @@ source:: [[../Lenses/ET W4 - Worksheet - Stakeholder Mapping and Outreach]]
 # Lens:
 optional:: true
 source:: [[../Lenses/ET W4 - Journalling - Emotional Barriers to Outreach]]
+
+# Submodule: Week 4 Survey
+
+# Lens:
+source:: [[../Lenses/ET W4 - Weekly Survey]]

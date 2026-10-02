@@ -25,3 +25,8 @@ source:: [[../Lenses/ET W5 - Worksheet - Developing Your Theory of Change]]
 # Lens:
 optional:: true
 source:: [[../Lenses/ET W5 - Journalling - Resting on Your Impact Journey]]
+
+# Submodule: Week 5 Survey
+
+# Lens:
+source:: [[../Lenses/ET W5 - Weekly Survey]]
