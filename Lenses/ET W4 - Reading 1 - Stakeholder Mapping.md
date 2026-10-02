@@ -84,7 +84,7 @@ Each category of bottleneck points to a different set of stakeholders. Find the 
 
 *We know what works, but struggle to deploy it at scale.*
 
-\#### 3a) Lack of Direct Delivery
+\##### 3a) Lack of Direct Delivery
 
 *Proven interventions exist but struggle to be deployed at scale due to gaps in delivery, distribution, or operational capacity.*
 
@@ -94,7 +94,7 @@ Each category of bottleneck points to a different set of stakeholders. Find the 
 - **Funders/Influencers (foundations, investors, policymakers):** Provide financial, policy, or strategic support to expand coverage and remove operational barriers.
 - **Beneficiaries (people affected):** Offer feedback on access, usability, and adoption challenges to improve delivery effectiveness.
 
-\#### 3b) Lack of Awareness
+\##### 3b) Lack of Awareness
 
 *Decision-makers, funders, or the public fail to recognize the urgency or importance of the problem, limiting the adoption of solutions.*
 
@@ -104,7 +104,7 @@ Each category of bottleneck points to a different set of stakeholders. Find the 
 - **Influencers (policymakers, funders, media figures):** Shift norms, priorities, and funding agendas in response to awareness campaigns.
 - **Beneficiaries:** Share lived experiences and concrete examples of harm
 
-\#### 3c) Lack of Policy/Resource Support
+\##### 3c) Lack of Policy/Resource Support
 
 *Solutions cannot scale due to insufficient funding or a lack of supportive policies.*
 
