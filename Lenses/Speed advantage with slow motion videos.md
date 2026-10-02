@@ -12,8 +12,7 @@ In the following reading, we ask you to watch a video in order to get an intuiti
 
 #### Article
 source:: [[../articles/slow-motion-videos-as-ai-risk-intuition-pumps]]
-from:: "Over the past"
-to:: "wildlife or insects."
+to:: "so I thought I'd share it."
 
 
 #### Text
