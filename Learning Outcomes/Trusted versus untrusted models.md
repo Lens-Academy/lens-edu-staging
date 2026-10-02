@@ -30,4 +30,7 @@ feedback-instructions:: Name the strongest part of the answer in one sentence, t
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais]]
-notes:: Teaches the capability criterion for trust; practised in the untrusted-models recall and the trust practice question.
+notes:: Teaches the capability criterion for trust.
+## Lens:
+source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais-2]]
+notes:: Practised in the untrusted-models recall and the trust practice question.

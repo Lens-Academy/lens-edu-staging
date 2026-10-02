@@ -28,4 +28,7 @@ feedback-instructions:: Name the strongest part of the answer in one sentence, t
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais-3]]
-notes:: The control window prompt, the problematic-domains and neuralese checks, and Part A of the two-worlds exercise.
+notes:: The control window prompt and the problematic-domains check.
+## Lens:
+source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais-4]]
+notes:: The neuralese check and Part A of the two-worlds exercise.
