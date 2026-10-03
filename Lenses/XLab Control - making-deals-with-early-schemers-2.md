@@ -23,14 +23,14 @@ to:: or just run copies of the AI in a datacenter with particular inputs).
 #### Question: Open
 id:: 80706492-0056-45e0-862a-0268dd2061e9
 content:: Name several factors that would improve human credibility in deals with AIs.
-max-chars:: 900
+max-words:: 150
 assessment-instructions:: Score out of 100. 34 for the first and 33 each for the second and third distinct factor that makes humans' promises to AIs more believable: mainstream moral concern for AI welfare and AI preferences; a track record of honouring deals with AIs (for example deals with immediate payouts); acausal-trade reasons for humans to keep promises; the incentive to make real rather than fake commitments if AIs can tell real from fake; technical guarantees of thought privacy and memory wiping during negotiations; costly signals such as financial endowments, legal infrastructure for paying AIs, property rights for AIs, or publishing documents like this paper. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Mainstream moral concern for AI welfare, a track record of honoring deals with AIs (easy way to do this is via instant-reward deals), acausal-trade reasons to keep promises, the incentive to make real commitments if AIs are good at detecting fakes, technical guarantees on thought privacy and memory wiping during negotiations, and costly signals like endowments, legal payment infrastructure, property rights, and public commitments."
 feedback-instructions:: Say plainly which factors the learner named and the most important one they missed. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). This is a one-turn response; tell them to move on. If the learner says they do not understand, give the track-record factor as an example and ask what else would make a promise believable, rather than repeating the question.
 
 #### Question: Open
 id:: 41e9d03c-f5d6-4602-8762-5f00509f21b3
 content:: Why is deal-making with a powerful (non-early) scope-sensitive misaligned AI unpromising?
-max-chars:: 600
+max-words:: 100
 assessment-instructions:: Score out of 100. 40: such an AI has a good alternative: it can simply ignore the offer and try to take over. 30: so an offer only beats that if it is objectively huge, on the order of a large fraction of control over the future. 30: and the terms must be more generous still to make up for the AI's risk that we do not follow through. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "It can just ignore the offer and try to take over. Beating that would require an objectively huge payoff, like a large fraction of control over the future, plus even more generous terms to compensate the AI for the risk that we don't follow through."
 feedback-instructions:: Two or three sentences is enough. Say plainly what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). This is a one-turn response; tell them to move on. If the learner says they do not understand, ask what such an AI's alternative to accepting is, rather than repeating the question.
 
@@ -47,14 +47,14 @@ to:: The company should make promises to compensate the model for this.
 #### Question: Open
 id:: 4797bc47-f9ab-4f38-8eaa-f7895f0fc426
 content:: Name factors that would harm human credibility in deals with AIs.
-max-chars:: 600
+max-words:: 100
 assessment-instructions:: Score out of 100. 50 for each of up to two distinct factors: humans' record of cunning and breaking promises, historically and possibly in a tense future with competing AI developers; AIs knowing that humans deliberately teach them synthetic facts, that is, lies; a politically significant fraction of humans actively dismissing AI welfare or rights. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Humans' record of breaking promises, AIs knowing that humans try to teach them lies, and a politically significant fraction of humans actively dismissing AI welfare or rights."
 feedback-instructions:: Two or three sentences is enough; if anything is missing or wrong, name the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). This is a one-turn response; tell them to move on. If the learner says they do not understand, ask what a lab currently does to its models that an AI would count against it, rather than repeating the question.
 
 #### Question: Open
 id:: 213224e6-625a-4bcd-aadb-fcb40321547a
 content:: What is the tradeoff in making short-term offers to AIs, and when can such a trade still be worth it?
-max-chars:: 700
+max-words:: 120
 assessment-instructions:: Score out of 100. 40: the upside: short-term offers are cheap and comparatively easy to verify. 40: the downside: AIs that mostly care about the short term pose less takeover risk by default and have less reason to work against us, so there is less to gain from trading with them. 20: when it is still worth it: when what the trade gets us is valuable anyway, such as learning that alignment failed. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Short-term offers are cheap and comparatively easy to verify, but AIs that mostly care about the short term pose less takeover risk by default, so there is less to gain. Trade can still be worth it when what we get is valuable anyway: for example, paying an AI that has misaligned short-term goals it was trained not to admit, just to learn that alignment failed."
 feedback-instructions:: Three or four sentences is enough. Say what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). This is a one-turn response; tell them to move on. If the learner says they do not understand, ask why an AI with only short-term goals is less dangerous, rather than repeating the question.
 
@@ -66,7 +66,7 @@ to:: This is probably the best option in practice.
 #### Question: Open
 id:: 62001d6a-6cb5-4974-8b17-d57bd83c0d56
 content:: Name four possible payment structures for compensating AIs.
-max-chars:: 500
+max-words:: 80
 assessment-instructions:: Score out of 100. 25 each, whether named or described: pay for labor (in proportion to an effort measure such as FLOPs or tokens); negotiated pay (agreeing a payment scheme with the AI); pay for results (a share of the value the AI adds above a baseline, or set payments for specific outputs); no regret (paying the AI as much as it needed to be paid not to regret cooperating). Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Pay for labor, negotiated pay, pay for results or prespecified payments for specific outputs, and no-regret."
 feedback-instructions:: Say plainly what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). This is a one-turn response; tell them to move on. If the learner says they do not understand, name one structure and ask for the other three, rather than repeating the question.
 
