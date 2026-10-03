@@ -10,16 +10,16 @@ Live example: [[../Lenses/Widget Demo]] (source files in `widgets/`).
 
 ## Files
 
-Widgets live in `widgets/<name>.md`. The `.md` extension is kept on purpose: the file flows through the editor, sync, promotion and validation like every other content file. Only the folder makes it a widget. Frontmatter on top, then the HTML document:
+Widgets live in `widgets/<name>.html`, in the root `widgets/` folder. The Lens Editor shows the file as a page (Preview, Source, Split, Phone), so you see the widget while you write it, and the right sidebar lists the lenses that use it. The frontmatter is YAML inside a comment on the first lines, so the preview does not show it. The first line is exactly `<!--lens-widget`, and the comment closes with a line that holds only `-->`. The HTML document follows:
 
-```markdown
----
+```html
+<!--lens-widget
 id: '3f2a9c1e-7b4d-4e8f-a1c2-5d6e7f8a9b0c'
 title: The types of AI
 summary_for_tutor: A concentric diagram of AI categories; the learner taps a ring or an example system to read why it sits there.
 height: auto
 tags: [wip]
----
+-->
 <!doctype html>
 <html lang="en">
 <head>
@@ -42,6 +42,8 @@ Frontmatter fields:
 - `height`: `auto` (default, the frame follows the content) or a fixed CSS length such as `480px` (the frame keeps that height and the page scrolls inside).
 - `width`: `full`, or leave it out. Without `width`, the frame is as wide as the text column (right for most widgets, and what their `@media` widths assume). With `width: full`, the frame spans the page between the course sidebar and the tutor panel, and the widget decides how much of it to use: use it for wide tables, grids and maps that would otherwise scroll sideways. The frame has no border either way. On a phone both are as wide as the text. The platform sets two CSS variables on the widget's `<html>`: `--lens-text-left` (where the text column starts, from the frame's left edge) and `--lens-text-width` (its width), both in px. They change when a sidebar opens or the window resizes. A full-width widget can use them to keep some parts in line with the text, for example a heading: `margin-left: var(--lens-text-left, 0px); max-width: var(--lens-text-width, 100%)`.
 - `tags`: `wip` while unfinished, like every other file.
+
+Never write `-->` inside a frontmatter value: it ends the comment early. The validator reports it. Older widgets used `widgets/<name>.md` with a `---` block; the platform still reads that form, but a widget must not exist in both forms. To convert one, move it to `<name>.html` (links need no change), then turn the first `---` into `<!--lens-widget` and the closing `---` into `-->`.
 
 Embed it from a lens with a `#### Widget` segment:
 
@@ -89,9 +91,9 @@ Rules that follow from how this is wired:
 - State is per learner and per widget file (`id`), stored on the Lens account (or the anonymous session), saved a moment after the last change and again when the page closes. Keep it small (64 KB) and plain JSON.
 - The tutor sees the summary from `saveState`, not the JSON, and only when it changed since the tutor last saw it, so save the summary in one clean paragraph. A widget that never saves is invisible to the tutor beyond `summary_for_tutor`.
 - `Lens.onState` may fire after your page has rendered its empty state; render from the callback, not before it.
-- Outside the platform (opening the HTML in a browser tab, the editor preview) `window.Lens` does not exist. Guard calls with `if (window.Lens)` so the page still works standalone.
+- Outside the platform (opening the HTML in a browser tab, the editor preview) `window.Lens` does not exist. Guard calls with `if (window.Lens)` so the page still works standalone and in the editor's preview.
 
-Live example with all four calls: `widgets/theories-of-change.md` in [[../Lenses/Widget Demo]].
+Live example with all four calls: `widgets/theories-of-change.html` in [[../Lenses/Widget Demo]].
 
 ## Scoring an answer
 
@@ -135,7 +137,7 @@ The validator (`validate_content`, the `/validate` page, CI) checks every `widge
 
 A lens that embeds a widget with errors gets an error too, and learners see a notice in that spot: "This widget could not be loaded. You can continue with the rest of the lesson." The same notice appears when the widget's own script throws before the page is up, or when the page never finishes loading. Run the validator before handing a widget over.
 
-Pending suggestions (CriticMarkup) inside a widget file are stripped like everywhere else, so an unaccepted change never reaches learners. Obsidian `%% %%` comments are stripped too. Do not put `</script>` inside a JavaScript string; it ends the script element.
+Edits to an `.html` widget apply directly; the editor makes no suggestions in HTML files. (In an old `.md` widget, pending suggestions are stripped, so an unaccepted change never reaches learners.) Obsidian `%% %%` comments are stripped too. Do not put `</script>` inside a JavaScript string; it ends the script element.
 
 ## Lens look
 
