@@ -1,10 +1,10 @@
----
+<!--lens-widget
 id: '8214fd06-43a4-4319-8040-e3413763c975'
 title: 'The detection race: concentrated vs diffuse failures'
 summary_for_tutor: 'An interactive model of the detection race, placed in the lens on handling non-concentrated failures, just after the article excerpt that ends on the regime with so little signal that the behavior would never be trained away. Three sliders set C, the bad actions needed for catastrophe (1 to 100,000, log scale), q, the chance one bad action is noticed (0.01 percent to 50 percent, log scale), and K, the notices before a decisive response (1 to 20). The widget draws P(response before catastrophe) over C and expected bad actions before the response (K/q) over q, shows three read-outs (probability the response is in time, expected damage at response, regime name) and one sentence on the current regime, and tracks which of the two reachable regimes the learner has visited; completion fires when both have been reached. The model itself is set up in the page text directly above the widget: what C, q and K mean, the three regimes, and why these lever ranges reach only the first two (the largest damage bill they allow is K/q = 20 / 0.0001 = 200,000 actions, below the 1,000,000 the third regime needs). The page text directly below the widget carries the point that the schemer''s pace has no lever, because acting more slowly delays detection and catastrophe by the same factor, so the race depends only on C, q and K and the expected damage before the response is K/q however concentrated the threat is. Neither point needs repeating unless the learner asks.'
 height: auto
 tags: []
----
+-->
 <!doctype html>
 <html lang="en">
 <head>
