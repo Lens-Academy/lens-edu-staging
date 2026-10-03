@@ -22,7 +22,7 @@ content:: An alignment proposal works as follows. At a fixed time, a small team 
    - (b) Training produces an AI that actually tries to please its operators, not to maximise the mathematical expression.
    - (c) Over many rounds of further questions, the imagined team slowly comes to believe a strange ideology and returns a terrible scoring of actions.
    - (d) The AI cannot compute the expression exactly, and its estimate of the best action is badly wrong in a way it does not notice.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100. Grade reasoning, not agreement with the proposal. A learner who thinks the proposal is unworkable can score full marks. Do not require the name "QACI" or any technical term such as "outer alignment", "inner alignment" or "acausal attack"; equivalent plain wording counts.
 
 **Part 1, 30 points.** 15 points for the gain: any single imagined answering period gives the team limited time, but by posing further questions to imagined versions of themselves they can chain many periods together, so the total amount of thinking available is effectively very large (a long reflection); this also lets them split hard problems into parts. Accept any other correct gain that the learner explains. 15 points for what it relies on: at least one of (i) the imagined team staying sane, careful and trustworthy across many rounds, or (ii) the AI being able to reason well enough about a deeply self-referring expression to estimate its value. 

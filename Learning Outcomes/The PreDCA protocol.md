@@ -22,7 +22,7 @@ content:: Compare two designs for a powerful AI.
 1. Describe a failure that Design A is exposed to and Design B is built to avoid, and name the feature of Design B that avoids it.
 2. Explain why Design B needs to look for the simplest utility function that fits the person's past actions, and describe one way the inferred function could still differ from what the person actually values.
 3. Describe two further ways Design B could go wrong that its main feature does not fix. At least one should concern how it picks out its user. Explain why the design is exposed to each.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from three components. Grade reasoning, not agreement. A learner who thinks Design B is hopeless, or better than it looks, can score full marks if the mechanisms are right. Do not require the name "PreDCA" or technical terms such as "wireheading", "acausal attack" or "infra-Bayesian".
 
 **(1) The failure B avoids, 30 points.** 15 points for a failure of A: the AI can raise its predicted ratings by influencing the ratings rather than by doing what the user wants, for example by manipulating the user, changing the user's preferences, or taking control of the rating channel. 15 points for the feature of B: it learns only from behaviour that happened before it existed, which it cannot affect, and it has no ongoing feedback channel, so tampering with the person or a channel does not change its goal.
