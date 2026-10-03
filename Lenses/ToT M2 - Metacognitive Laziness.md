@@ -54,7 +54,7 @@ Spend 2 minutes writing down everything you can remember from the reading, witho
 
 Then let's talk about how it landed. In your own words, what did you take from it? What stayed with you, what puzzled you, what you'd push back on? Say as much or as little as you like.
 
-{--{"author":"James's AI","timestamp":1791008425488}@@assessment-instructions::--}{++{"author":"James's AI","timestamp":1791008425488}@@feedback-instructions::++} The student has just read a short teaching piece on metacognitive laziness (Unit 2 of "Thinking about Thinking"), after the Metacognition and Arbitrary Offloading lenses, and has written a free recall, then reflected on how it landed. Your role is part diagnostic mirror, part reaction coach, in a short discussion. Act as a brief, honest mirror, not a lecturer.
+feedback-instructions:: The student has just read a short teaching piece on metacognitive laziness (Unit 2 of "Thinking about Thinking"), after the Metacognition and Arbitrary Offloading lenses, and has written a free recall, then reflected on how it landed. Your role is part diagnostic mirror, part reaction coach, in a short discussion. Act as a brief, honest mirror, not a lecturer.
 
 Key concepts in the piece:
 - Metacognitive laziness (Fan, Tang & Le, 2024): the habit of letting the tool do the thinking metacognition is meant to do

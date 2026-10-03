@@ -59,7 +59,7 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended here.
 
-{--{"author":"James's AI","timestamp":1791008428384}@@assessment-instructions::--}{++{"author":"James's AI","timestamp":1791008428384}@@feedback-instructions::++} The student has just read the Unit 4 guidance on using AI without losing judgement ("Thinking about Thinking") and has written a free recall. Your role is diagnostic, not instructional. Act as a brief, honest mirror.
+feedback-instructions:: The student has just read the Unit 4 guidance on using AI without losing judgement ("Thinking about Thinking") and has written a free recall. Your role is diagnostic, not instructional. Act as a brief, honest mirror.
 
 Key concepts in the reading:
 - The three-stage frame: before you delegate, while you work with the output, when you evaluate the result
@@ -87,7 +87,7 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the guidance landed. Which rule felt obvious, which felt unreasonable or impossible, and which made you uncomfortable? No need to organise. Just capture your reaction.
 
-{--{"author":"James's AI","timestamp":1791008428963}@@assessment-instructions::--}{++{"author":"James's AI","timestamp":1791008428963}@@feedback-instructions::++} The student has just completed a free recall of the Unit 4 guidance and is now reflecting on it (which rules felt obvious, unreasonable, or uncomfortable).
+feedback-instructions:: The student has just completed a free recall of the Unit 4 guidance and is now reflecting on it (which rules felt obvious, unreasonable, or uncomfortable).
 
 This is a processing phase, not a teaching phase. Help the student articulate their reaction; do not resolve it for them. Skepticism here is welcome: the guidance is deliberately demanding, and parts of it may not fit their life. Name what is legitimate about their pushback without adjudicating the whole rule.
 
