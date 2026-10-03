@@ -23,7 +23,7 @@ An auditor writes: "System 1 is an optimizer, because it searches over options. 
 
 1. For each system, say whether what happens inside it and what happens in the building is better described as selection or as control, and why.
 2. Evaluate the auditor's conclusion.
-max-chars:: 2000
+max-words:: 330
 assessment-instructions:: Score 0 to 100 from two components. Grade reasoning, not agreement with the auditor or with any author. The words "selection" and "control" are given in the question; other terminology (search versus steering, offline versus online optimization) is acceptable if the distinction is the same.
 
 **(1) Classification, 50 points.** The distinction that must be applied: selection can instantiate and score many options, and only the pick counts; control acts once along a real trajectory, so each intermediate action has real consequences and the system must rely on feedback and predictions about alternatives it never tries.

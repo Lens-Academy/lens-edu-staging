@@ -23,7 +23,7 @@ In the current design, the Planner uses the Forecaster's predictions when choosi
 
 1. Describe two specific ways a sub-agent here could score well on its own objective while working against the orchestrator's goal. For each, say what feature of the delegation makes it possible.
 2. An engineer proposes: "Lock both sub-agents down. The Forecaster may only predict and may never touch the queue. The Planner may only choose from a fixed menu of experiment types written by humans." Say what this fixes, what it does not fix, what it costs, and whether you would adopt it.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from two components. Grade reasoning, not agreement with the engineer. Terms such as "subsystem alignment", "proxy", "Goodhart" or "mesa-optimizer" are not required.
 
 **(1) Two failure routes, 50 points.** Up to 25 points each for two distinct, specific routes, each tied to a feature of the delegation. Valid routes include, in any wording:

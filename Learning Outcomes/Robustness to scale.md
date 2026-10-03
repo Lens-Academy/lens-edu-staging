@@ -19,7 +19,7 @@ content:: A lab builds an AI research assistant from two models. A planner model
 1. Identify the assumptions about capability that the scheme's safety depends on. Consider changes in capability in more than one direction, including changes the lab has not planned.
 2. For each assumption, explain the mechanism by which the scheme would fail if the assumption stopped holding.
 3. Say which failure you think is most serious for this lab and why, and what evidence, other than more red-team tests with the current models, would give justified confidence that the scheme keeps working.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from two components. Grade reasoning, not agreement. A learner may argue that one of the failures is unlikely, or that the scheme is reasonable for now, and still score full marks if the mechanisms are right. Do not require any specific vocabulary such as "scaling up", "scaling down" or "relative scale".
 
 **(a) Capability assumptions and failure mechanisms, 60 points.** Award up to 30 points for each distinct, correctly explained dependency, capped at 60. A dependency is correctly explained when it names what must stay true and the mechanism of failure. Recognised dependencies (any wording):
