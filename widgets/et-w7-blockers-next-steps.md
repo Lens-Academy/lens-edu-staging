@@ -2,7 +2,8 @@
 id: 'd8f60161-3a83-4977-a0cf-4d4ee30d1832'
 title: "Week 7 Blockers & Next Steps Table"
 summary_for_tutor: "A table for Week 7 of the Effective Thesis Accelerator (Part 2: Take Next Steps on Your Blockers). Each row is one career uncertainty the learner wants to work on, with columns: Category (Head, Heart or Hand), My uncertainty, and My next steps for the coming week + Deadline. Starts with 3 rows; the learner can add more. The saved summary lists every filled row."
-height: auto
+{++{"author":"Iris's AI","timestamp":1791045290927}@@width: full
+++}height: auto
 tags: [wip]
 ---
 <!doctype html>

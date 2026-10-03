@@ -2,7 +2,8 @@
 id: '9fd85808-0431-4a06-89ed-3bcc9e96d774'
 title: "Week 6 Thesis Outputs & Deliverables Table"
 summary_for_tutor: "A table for Week 6 of the Effective Thesis Accelerator where the learner lists the outputs their thesis could produce. Each row is one output, with columns: Thesis Output & Deliverables (e.g. report, dataset, policy brief, presentation, pilot, advocacy materials), Relevant Stakeholders (who will benefit from or be engaged by it), and Impact to Stakeholders (what change it could ideally lead to). Starts with 3 rows; the learner can add more. The saved summary lists every filled row."
-height: auto
+{++{"author":"Iris's AI","timestamp":1791045289503}@@width: full
+++}height: auto
 tags: [wip]
 ---
 <!doctype html>

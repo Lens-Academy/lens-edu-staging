@@ -2,7 +2,8 @@
 id: '33bba966-e4d9-4d61-91a3-7988e726b06b'
 title: "Week 5 Assumptions & Uncertainties Table"
 summary_for_tutor: "A table for Week 5 of the Effective Thesis Accelerator where the learner lists the key assumptions in their Theory of Change. Each row has: Assumption, Level of Certainty and Why, and How to increase certainty. Starts with 5 rows; the learner can add more. The saved summary lists every filled row."
-height: auto
+{++{"author":"Iris's AI","timestamp":1791045286359}@@width: full
+++}height: auto
 tags: [wip]
 ---
 <!doctype html>

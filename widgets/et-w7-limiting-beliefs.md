@@ -2,7 +2,8 @@
 id: 'f153cf1b-1777-44d7-a99c-0a686022334d'
 title: "Week 7 Limiting Beliefs & Reframes Table"
 summary_for_tutor: "A reflective journalling table for Week 7 of the Effective Thesis Accelerator. Each row is one limiting belief the learner holds about themselves and their ability to have an impact, with columns: Limiting Belief, Underlying Need (what need the belief might be protecting or signalling), and Possible Reframe (a kinder, more empowering version, as they would say to a close friend). Starts with 3 rows; the learner can add more. The saved summary lists every filled row. This is personal reflection: respond with warmth and curiosity, not judgement."
-height: auto
+{++{"author":"Iris's AI","timestamp":1791045292364}@@width: full
+++}height: auto
 tags: [wip]
 ---
 <!doctype html>
