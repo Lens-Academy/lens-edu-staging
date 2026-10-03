@@ -26,7 +26,7 @@ For each speaker:
 2. Say whether some version of the argument still constrains AI control in practice, and in what setting.
 
 End with your overall judgement of what results like these can and cannot tell us about controlling AI.
-max-chars:: 3000
+max-words:: 500
 assessment-instructions:: Score 0 to 100 from three components. Grade reasoning, not agreement: a learner who concludes that control of advanced AI is in fact infeasible can earn full marks if they engage with the gap between the theorems and the conclusion, for example by arguing that the escape routes below will not be available or will not be used.
 
 **(a) Speaker 1, 40 points.** 20 points for what the result does and does not establish: it rules out a single procedure that gives the correct answer for every possible program. It does not rule out verifying particular programs, using checks that are safe but incomplete (they may reject some safe systems or answer 'unknown'), building systems within a restricted class whose properties can be checked, or monitoring and restricting behaviour at run time. The extra assumption is that controlling AI requires deciding safety exactly for arbitrary systems. Accept any two of these escape routes with explanation. 20 points for a residual constraint with a setting, for example: for large learned systems whose behaviour we did not design and cannot easily restrict, formal verification of rich behavioural properties is very hard in practice; or 'safety' may not be precise enough to state as a formal property at all. 10 points if the answer only says 'the theorem is about the worst case' without naming what remains possible or what still bites.
