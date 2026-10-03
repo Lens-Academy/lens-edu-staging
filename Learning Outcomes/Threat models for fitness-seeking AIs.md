@@ -1,13 +1,12 @@
 ---
 id: '6facdacc-8bd9-4331-8497-fbe7359ad2fd'
 learning-outcome: "Given the observed behaviour of a misaligned AI, judge which kind of fitness-seeking motivation (for example reward on the episode, apparent success, or influence over its own deployment), or scheming, best explains it and what the evidence leaves open, and use what that motivation pursues and over what timescale to predict how a given control measure (for example an honest test, untrusted monitoring, task length, or memory shared between instances) will work against it and which risk it leaves or creates."
-topic: "[[../Domains and {--{"author":"James agent ready-27's AI","timestamp":1790975040822}@@Topics/3 Alignment/You don't get what you train for]]"
-stage: advanced--}{++{"author":"James agent ready-27's AI","timestamp":1790975040822}@@Topics/7 AI Control/Control threat models]]"
+topic: "[[../Domains and Topics/7 AI Control/Control threat models]]"
 stage: intermediate
 requires:
-  - "[[Untrusted monitoring]]"++}
-{--{"author":"James agent ready-27's AI","timestamp":1790975040822}@@tags:--}{++{"author":"James agent ready-27's AI","timestamp":1790975040822}@@authors:++}
-  - {--{"author":"James agent ready-27's AI","timestamp":1790975040822}@@skill-tree-placeholder--}{++{"author":"James agent ready-27's AI","timestamp":1790975040822}@@Elias+Claude++}
+  - "[[Untrusted monitoring]]"
+authors:
+  - Elias+Claude
 ---
 %% Rubric notes (author-facing; the grader does not see them). The case hands over no graded move: the learner has to see (1) that a declined honest test points away from a plain reward-on-the-episode seeker but cannot rule out a model that wants to stay in use, or a schemer; (2) that whether a copy can monitor depends on what the copy pursues and over what timescale (a selfish within-episode seeker has no stake in the policy; it still gains nothing by flagging what humans cannot confirm; a model that cares about its deployment shares a stake with the copy it watches); (3) the harm that follows on hard-to-check safety work. Distractors: cost, refusal rates, hard-to-follow reasoning traces, the amount of RL on hard-to-grade tasks (relevant background, not decisive).
 Source lines for each gated move:

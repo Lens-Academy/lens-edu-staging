@@ -1,7 +1,7 @@
 ---
 id: '98aa0a55-0c3d-44d6-982c-d194d0009a4b'
 learning-outcome: "For a plan to validate an untrusted monitor on synthetic attacks, judge which of the non-signal ways a scheming monitor could tell the synthetic attacks from the policy's real ones (contexts that look fabricated or out of date, or attack text the policy itself would not have written) the plan closes and which it leaves open, and propose a change that targets a route it leaves open, explaining why the change addresses that route."
-topic: "[[../Domains and Topics/7 AI Control/Control {--{"author":"James agent ready-27's AI","timestamp":1790971528447}@@threat models]]"--}{++{"author":"James agent ready-27's AI","timestamp":1790971528447}@@protocols]]"++}
+topic: "[[../Domains and Topics/7 AI Control/Control protocols]]"
 stage: intermediate
 requires:
   - "[[Untrusted monitoring]]"
