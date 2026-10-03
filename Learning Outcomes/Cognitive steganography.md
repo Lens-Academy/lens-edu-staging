@@ -18,7 +18,7 @@ content:: A model writes out step-by-step reasoning before it acts. A separate m
 
 1. Give three different explanations for the drop in flags that would not mean the model has become safer, and explain the mechanism behind each. At least one of your explanations should not require the model to intend to hide anything.
 2. Choose one of your explanations. Describe an observation or experiment that would help tell it apart from "the model really did become safer", and say which result would point which way.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from two components. Grade reasoning, not agreement. A learner may argue that the developers' conclusion is partly right; this does not lose points if the three explanations are sound. Do not require technical terms such as "steganography", "obfuscation" or "Doppelgänger".
 
 **(1) Three explanations, 70 points.** 20 points for each distinct explanation with a correct mechanism, up to 60. 10 points for explaining, for at least one of them, how it arises without intent: training rewards whatever version of the reasoning gets the task done without triggering the penalty, so the penalty selects for reasoning the monitor cannot see, whether or not the model "decides" anything. Recognised explanations (any wording, any equivalent):

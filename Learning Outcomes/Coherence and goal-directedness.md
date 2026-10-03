@@ -25,7 +25,7 @@ Engineer B: "Coherence theorems are empty. Any behaviour at all maximizes some u
 
 1. Say what each engineer gets right and what each gets wrong.
 2. For each version of Steward, say whether pressure toward more consistent behaviour applies, through what route, and roughly what the behaviour would move toward. Say how strong you expect the pressure to be, and why.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from two components. Grade reasoning, not agreement: a learner may side mostly with A or mostly with B and still earn full marks if the reasoning is correct and addresses the other side. Do not require author names or the terms "VNM", "money pump", "dominated strategy" or "goal-directed"; judge the ideas.
 
 **(1) The two engineers, 50 points (25 each).**

@@ -19,7 +19,7 @@ content:: A group of AI developers proposes the following goal for a future supe
 1. Explain what this design is trying to achieve that a simpler goal, "do what people currently say they want", would not.
 2. Identify two choices built into this design that could substantially change what the AI ends up doing. For each, describe an alternative choice that someone could reasonably defend, and explain how it would lead to a different outcome.
 3. Say whether you think a goal of this general kind is a good idea, and give your strongest reason.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from three components. Grade reasoning, not agreement. Part 3 asks for the learner's view: a learner who argues the whole approach is misguided scores full marks there if the argument is reasoned. Do not require the terms "CEV", "extrapolated volition", "coherence" or any author name.
 
 **(a) What the design aims at, 30 points.** Full credit needs both ideas, in any wording. (1) People's current stated preferences contain errors from missing information, arguments they have not considered, and poor self-knowledge; building those preferences into a powerful AI would lock the errors in, whereas asking what people would want after better information and reflection leaves room for them to change their minds. (2) Basing the goal on everyone's extrapolated preferences, rather than on what the developers think is right, avoids the developers imposing their own values and gives people who disagree now a procedure they can agree on in advance. 15 points for only one of the two.
