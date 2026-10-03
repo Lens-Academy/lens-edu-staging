@@ -2,6 +2,8 @@
 title: "Statement on AI Extinction Risk | CAIS"
 author:
   - "Center for AI Safety"
+author_url:
+  - "https://safe.ai"
 source_url: "https://aistatement.com/work/statement-on-ai-extinction-risk"
 published: 2023-05-30
 created: 2026-09-30
