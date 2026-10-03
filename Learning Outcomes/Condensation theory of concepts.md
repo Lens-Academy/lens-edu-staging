@@ -26,7 +26,7 @@ Clerks store the information in a set of notes. Each note is tagged with the val
 1. Design a set of notes (latent variables) for this data. For each note, say what it holds and which of L1, L2, L3 and D it is tagged with.
 2. Compare your design with two alternatives: (A) a single compressed file holding everything, tagged with all four values; (B) one note per value, each holding everything needed for that value on its own (so the calibration offset is copied into each widget's note). For each alternative, name a set of questions for which it requires retrieving more information than your design, and explain why.
 3. Two analysts each organise this data as efficiently as possible, without consulting each other. Why should their sets of notes correspond closely?
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from three components. Do not require any terminology from a specific paper (for example "condensation", "top latent", "contribution", "comparison theorem"); judge the ideas.
 
 **(a) The design, 40 points, 10 for each element.** A full-credit design has: a note holding the calibration offset, tagged with L1, L2 and L3; a note holding gauge G's drift, tagged with L1 and L2 only; a note for each widget's own variation, each tagged with its single widget value; and a note for the shipping city, tagged with D only, sharing no note with the widget values. Accept an alternative design element if the learner explains why it costs no more retrieval for the kinds of questions described. Deduct the element's points where information needed by several values is copied into several notes, or where unrelated information is bundled into one note (for example, calibration and city together).

@@ -20,7 +20,7 @@ Agent X has already received the compute. It now decides whether to pay back the
 
 1. What do causal decision theory (CDT), evidential decision theory (EDT) and an updateless decision theory such as functional decision theory (FDT/UDT) each recommend here? For each, say which feature of the theory produces its recommendation.
 2. A researcher reports: "We simulated 10,000 agents of each type facing this provider. The FDT agents ended with far more compute than the CDT or EDT agents, so FDT performs better." Evaluate this claim. What does the researcher's measure assume, and how might a defender of CDT reply?
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from two components. Grade reasoning, not which theory the learner prefers. A learner who argues that CDT, EDT or FDT gives the right answer here can earn full marks if the analysis is correct.
 
 **(1) Recommendations, 50 points.**

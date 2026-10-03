@@ -27,7 +27,7 @@ The team cannot agree whether the model has goals, and suspects the word is doin
 - Show where these statements place demands on 'goal' that no single meaning can meet, using a concrete case that one meaning counts as a goal and another does not.
 - Propose a revised concept, or a split into two or more concepts, that removes the conflict.
 - Restate at least three of the five statements with your new concept or concepts, and say for each whether it now looks true, false, or open, and what would settle it.
-max-chars:: 3000
+max-words:: 500
 assessment-instructions:: Score 0 to 100 from three components. There is no single correct refactoring; grade whether the learner's process is specific and whether their revision does the work. Generic text about 'clarifying definitions' without engaging the five statements earns at most 15 in total.
 
 **(a) Conflicting demands, 35 points.** Full credit: identifies at least two demands that pull in different directions, tied to the statements, with a concrete case that falls on different sides. Examples of acceptable conflicts: statement 4 counts any feedback system that keeps a variable near a set point as having a goal, while statement 3 requires a goal to produce resistance to modification, which a thermostat does not show; statement 2 attributes a goal to a character the model plays, while statement 1 attributes a goal to the model across contexts, so it is unclear whether goals belong to the model, the character, or the conversation; statement 5 locates the goal in the training signal, while statement 1 locates it in behaviour, and these can come apart. 18 points for one well-supported conflict. 8 points for naming a conflict with no concrete case.
