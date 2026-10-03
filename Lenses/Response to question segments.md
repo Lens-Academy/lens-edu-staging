@@ -25,7 +25,8 @@ content:: What is your strongest objection?
 
 %% `Question: Open` options:
 - `optional:: true`: allow skipping. Defaults to `false`, which means the Lens can't be completed without first doing the exercise..
-- `max-chars:: 500`: limit length. Defaults to no limit.
+- `max-words:: 150`: limit length in words. The learner sees "37 / 150 words" under the box; over the limit it turns red and Submit waits until they shorten it. The text is never cut off. Defaults to no limit. Surveys use `max-chars:: 500` (characters) instead; in lenses and tests `max-chars::` gives a warning with the word equivalent.
+- `example-answer:: ...`: an example of a good answer. After the learner answers, a "Show example answer" link opens it. In a learning-outcome test it appears only once the whole test is done. Not in surveys.
 - `placeholder:: ...`: empty-input hint. Defaults to none.{>>{"author":"Luc","timestamp":1787775945283}@@I don't understand this one.<<}{>>{"author":"Luc","timestamp":1787775956874}@@aah I think I understand, okay.<<}
 - `description:: ...`: surveys only, on every question type. A help line shown under the question in smaller, lighter text, for guidance like "100–200 words" that would otherwise make the question long. In lenses and learning-outcome tests it is ignored, with a warning.
 - No timer: course content has no time limits, and `max-time::` is a validation error.{>>{"author":"Luc","timestamp":1787777490889}@@Has this actually been implemented by now? I now in the past it wasn't.<<}
@@ -97,6 +98,7 @@ options::
 - `multi:: true`: allow multiple selections. Defaults to `false`.
 - `shuffle:: true`: randomize order. Defaults to `false`.
 - `feedback-instructions:: ...`: AI response to choice. Defaults to none.
+- `explanation:: ...`: why the right option is right. Shown in an "Explanation" box under the options once the learner has answered; in a learning-outcome test, only once the whole test is done. Not in surveys.
 
 Next example grades one correct option. %%
 
