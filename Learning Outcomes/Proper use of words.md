@@ -25,7 +25,7 @@ content:: Read this exchange between two researchers.
 **Ben:** 'Everything is just statistics. Let's look up "agent" in a dictionary and settle this.'
 
 Identify what goes wrong in how the word 'agent' (and 'choose') is used here, explaining each problem. Then rewrite the disagreement as questions about the world whose answers would settle what Ana and Ben actually care about, without using the words 'agent' or 'choose'.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from two components. The learner does not need any standard names for these errors; grade whether each problem is identified and explained. A learner who takes a side on whether chatbots pose these risks is not penalized, as long as the diagnosis is correct.
 
 **(a) Diagnosis, 60 points.** Up to 15 points each for up to four of the following, each with a correct explanation of why it is a problem (8 points if named without explanation):

@@ -25,7 +25,7 @@ System C is a thermostat controller. It chooses a bell-shaped distribution for t
 1. Describe what each system will choose, and explain why.
 2. Explain the sense in which F and C perform the same kind of operation, and state exactly what differs between them.
 3. A colleague says: "If we have an excellent predictor of what temperature people find comfortable, we can control the room well by setting it to the predictor's most likely value." Evaluate this claim using the example, and say under what conditions it would hold.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from three components. Grade reasoning, not agreement. The learner does not need the terms "forward" and "reverse" KL divergence; any correct explanation of the asymmetry counts. Accept "direction of fit", "mind-to-world" and "world-to-mind", or active-inference language, as equivalent framings.
 
 **(a) The two choices, 40 points.** F, 20 points: F centres near 21°C with a width large enough to cover both peaks (a standard deviation of about 3°C), because the log score punishes heavily any occupant whose comfortable temperature gets near-zero density, so F must spread probability over both peaks even though this puts its own peak where P is low. C, 20 points: C sits at one of the peaks (18°C or 24°C, either is equally good) with as little fluctuation as it can, because its score is averaged over its own temperatures, so any time spent in the low-density middle is punished heavily and covering both peaks gains nothing. 10 of each 20 for the correct choice without the reason. An answer that has C choose 21°C gets 0 for C.
