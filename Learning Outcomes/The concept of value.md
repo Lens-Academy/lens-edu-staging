@@ -19,7 +19,7 @@ content:: A startup describes its personal assistant AI like this: "Our assistan
 1. In this method, what is a user's "values" taken to be? State it precisely enough that someone could tell what the method would count as evidence about a user's values.
 2. Describe one other thing that "a person's values" could reasonably mean that this method does not measure.
 3. Construct a concrete situation involving one user in which the two meanings come apart, so that the assistant, working as designed, acts against that user's values in your second sense. Say what the assistant does and why the method produces it.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from three components. Grade reasoning, not agreement with any view about which conception of value is correct. A learner may argue that the startup's conception is the right one, or that no single conception is adequate, and still earn full credit if parts 1 to 3 are done well.
 
 **(1) The method's conception, 25 points.** Full credit: identifies that the method treats values as whatever produces the user's in-the-moment choices between presented options (revealed preference on the responses shown), so evidence about values is only which option was picked, under the conditions of picking. Extra precision within the 25 for noting that it measures choices among the options offered, not preferences about things the user is never shown. 12 points for a vague answer such as "what the user likes".

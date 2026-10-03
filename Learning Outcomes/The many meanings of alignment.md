@@ -25,7 +25,7 @@ A committee member says: "All three are alignment research, so let's fund whiche
 1. For each project, say what problem it is treating as "the alignment problem".
 2. Explain why "the most progress on alignment" does not yet pick out one project, and what further claims the committee would need to settle in order to compare them.
 3. Give one example of an argument in which evidence of progress on one of these problems is treated as evidence of progress on another. State the assumption that step needs.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from three components. Grade reasoning, not agreement. A learner may argue that one of these problems is the real one and the others matter less; this scores well if they state that this is a claim needing support. Do not require any particular list of problems, author or framework name.
 
 **(1) Identifying the problems, 30 points.** 10 points per project for a reasonable description in any wording. Project 1: making AI systems reliably do what their users or developers intend (task reliability, instruction following). Project 2: detecting or preventing AI systems that pursue unintended goals, by making their cognition understandable. Project 3: deciding what or whose values and rules AI should serve (value specification, legitimacy of the target, human agency in shaping AI). Accept other accurate descriptions, including noting that a project serves more than one problem.
