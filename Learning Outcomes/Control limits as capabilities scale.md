@@ -16,7 +16,7 @@ content::
 Some researchers argue that any AI model useful enough to substantially speed up safety research would also be too capable to control, so control can never buy useful time.
 
 1. What would have to be true for them to be wrong? Then name two developments, other than unreadable reasoning or hidden messages between model instances (both come up in part 2), that would make them right or would make control stop working earlier, and explain for each why it defeats control.
-2. For each change below, say whether it mainly (a) raises or lowers the capability level at which affordable safeguards stop working, (b) changes how fast models approach that level, or (c) changes how long developers stay below that level before building past it. Explain each in one sentence.
+2. For each change below, say whether it mainly (a) moves the line itself: how capable a model can be before affordable safeguards fail, (b) changes how fast capabilities grow toward that line, without moving it, or (c) changes how long developers choose, or are made, to stay below the line. Explain each in one sentence.
    - Labs switch their models to reasoning in an internal compressed format that is 30% cheaper to run and that monitors cannot read.
    - Export controls halve the number of chips available to every frontier lab.
    - The two leading labs agree that after each new frontier model they will pause further scaling for twelve months and use that model only for safety research.
