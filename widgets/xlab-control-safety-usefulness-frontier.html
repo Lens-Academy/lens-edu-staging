@@ -1,10 +1,10 @@
----
+<!--lens-widget
 id: '360b5066-9ceb-45cb-a69e-74f1172efe7f'
 title: The safety/usefulness frontier
 summary_for_tutor: "A scatter plot of every protocol in Table 7 of Greenblatt et al.'s AI control paper: scaled usefulness on the x axis, safety on the y axis, both in per cent. Fifteen points in four families, each family drawn with its own marker shape and joined by its within-family tradeoff curve: trusted monitoring (defer to trusted 0/5/10/20/50%), untrusted monitoring (defer to trusted 0/5/10/20%), trusted editing (threshold 5/10/20/50%) and two isolated baselines (the trusted model alone, and upfront auditing). The learner clicks legend entries to hide or show whole families, hovers or tabs to a point to read its label and its two numbers, and ticks 'Highlight Pareto frontier' to draw a dashed line through the protocols that are not beaten on both axes at once, dimming every dominated point. The frontier is recomputed over whichever families are currently visible, so hiding trusted editing changes which points survive. With all four families shown the frontier is trusted monitoring defer 50%, untrusted monitoring defer 20%, then trusted editing at 50%, 20%, 10% and 5%, then upfront auditing: trusted editing owns the whole middle of the curve and pushes three of the four untrusted monitoring points off it. The point of the widget is the difference between sliding along one family's curve (turning the defer knob trades usefulness for safety) and a better method pushing the frontier out (trusted editing reaching points up and to the right of untrusted monitoring). The widget counts as done once the learner has viewed the frontier with trusted editing and untrusted monitoring both visible."
 height: auto
 tags: []
----
+-->
 <!doctype html>
 <html lang="en">
 <head>
