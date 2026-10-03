@@ -1,10 +1,10 @@
----
+<!--lens-widget
 id: '30fd2429-721c-48be-a347-aefe4fb95ca1'
 title: Assurance curves for three verification budgets
 summary_for_tutor: "A static line chart of confidence against coverage for three verification budgets, N_ver = 100, 10K and 10M audited packets, with both axes on log scales running from 0% up to 8 nines. Each curve plots confidence = 1 - exp(-N_ver * F*) against coverage = 1 - F*, where F* is the largest fraction of fake packets that could slip through undetected, so confidence falls as the coverage demanded rises. A budget reaches about 63% confidence at the coverage where N_ver * F* = 1: that is 99% coverage for N_ver = 100, 99.99% for 10K and 7 nines for 10M. One decade of coverage below each of those points the same budget sits at roughly 100% confidence (90%, 99.9% and 6 nines respectively), and one decade above it the confidence has collapsed towards nothing. The three curves have identical shape and are simply shifted sideways, which is the point of the figure: every 10x increase in the verification budget buys exactly one more decade of coverage at the same confidence."
 height: auto
 tags: [wip]
----
+-->
 <!doctype html>
 <html lang="en">
 <head>
