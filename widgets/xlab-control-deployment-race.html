@@ -1,10 +1,10 @@
----
+<!--lens-widget
 id: '6923dc0a-af9d-4ccb-80aa-98253fbd9811'
 title: Safety over a deployment
 summary_for_tutor: "The deployment race from Greenblatt et al.'s AI control paper, run on the paper's own contingency table for trusted monitoring: of 71 backdoor attempts, 24 were audited (caught, c = 0.338) and 13 were working backdoors that were not audited (successfully deployed, s = 0.183); the other 34 failed harmlessly. The learner drags k, the number of attack attempts, and watches P(red wins) = [s/(s+c)] * [1 - (1-s-c)^k] split into Term A, the chance a decisive attempt is a deployed backdoor, and Term B, the chance any attempt is decisive at all. Term B saturates fast, so by the twenty or so attempts the paper's red team actually makes, the red team's win probability sits near its ceiling of s/(s+c) = 35%, i.e. safety near 65%, close to the paper's measured 62%. The point the learner should reach: with per-attempt odds held fixed, attacking more is always weakly better, which is not what the paper's red team does."
 height: auto
 tags: []
----
+-->
 <!doctype html>
 <html lang="en">
 <head>
