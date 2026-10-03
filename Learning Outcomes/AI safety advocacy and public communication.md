@@ -19,7 +19,7 @@ id:: ac50af95-3801-420b-b3b9-4317f4efbcc8
 feedback:: true
 content:: Explain the "inside game vs outside game" distinction in AI safety influence, and summarize the case for the outside game (public advocacy).
 assessment-instructions:: A strong answer defines the inside game (quiet, elite influence: researchers, direct policy engagement, persuading decision-makers behind the scenes) vs the outside game (visible public advocacy: building salience, public pressure, political will). The case for the outside game (Elmore): inside influence alone is insufficient to generate the political will for strong action, so a public movement is needed to raise the issue's salience and pressure decision-makers. Award 4-5 for a clean distinction plus the pro-advocacy theory of change; 3 for the distinction with a vague case; 1-2 if the two games are conflated. Accept paraphrase.
-max-chars:: 600
+{--{"author":"Iris's AI","timestamp":1790987122992}@@max-chars:: 600--}{++{"author":"Iris's AI","timestamp":1790987122992}@@max-words:: 100++}
 #### Question
 id:: c914e12a-31a0-4945-8a24-a24625919bda
 feedback:: true
