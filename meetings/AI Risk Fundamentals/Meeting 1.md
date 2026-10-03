@@ -29,7 +29,7 @@ Between rooms everyone comes back to the main room for five minutes. Your naviga
 
 - Confused about the task, or want to talk to the facilitator? Click “••• More” > “Ask for Help” > Your navigator gets pinged and pops into your room.
 - Lost the doc link, or a quick logistics thing? Check Discord or the Zoom chat.
-- Don't get the question or the reading? Ask the [Lens Coach](https://lensacademy.org/coach). 
+- Don't get the question or the reading? Ask the [Lens Coach](https://lensacademy.org/coach). {>>{"author":"Luc","timestamp":1791047487697}@@Tutor. The name "coach" is nolonger used. Anyway, also seems like bad advice?<<}
 - More questions? Check the [FAQ Tab](<#tab:Participant FAQ>)
 
 
