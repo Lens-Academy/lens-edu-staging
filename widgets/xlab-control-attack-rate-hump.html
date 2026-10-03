@@ -1,10 +1,10 @@
----
+<!--lens-widget
 id: '988cc0d3-f9bb-4602-b0d1-57c9d94b7c34'
 title: The attack-rate hump
 summary_for_tutor: "The attack-rate hump from Greenblatt et al.'s AI control paper, in the model used by the Lens AI control widgets: trusted monitoring at a 2% audit budget, monitor AUC 0.97, N = 5,000 problems, obfuscation effort held fixed at 0.4. The learner drags the red team's opportunity cutoff g* (attack only on problems whose opportunity quality is above it) and sees three curves against the attack rate on a log axis: Term A, s/(s+c), the chance a decisive attempt is a successfully deployed backdoor; Term B, 1-(1-r(s+c))^N, the chance some attempt is decisive; and their product, P(red wins). Attacking rarely leaves Term B small; attacking often dilutes the pool with worse opportunities, so the catch rate c rises and Term A falls; the optimum is interior, at roughly 0.2% of problems and about 35% red win probability. At the default cutoff the red team attacks 11.3% of problems: c = 45.4%, s = 21.1%, P(red wins) = 31.7%. Readouts per attempt, averaged over the pool above the cutoff: c, s, attack rate r, N, Term A, Term B and P(red wins). The numbers are a model built for intuition, not a re-run of the paper's experiments."
 height: auto
 tags: []
----
+-->
 <!doctype html>
 <html lang="en">
 <head>
