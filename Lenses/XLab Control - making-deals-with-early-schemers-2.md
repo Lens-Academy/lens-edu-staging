@@ -78,14 +78,14 @@ to:: or to set positive precedents about our willingness to make deals.
 #### Question: Open
 id:: 04e77058-d1e8-4c26-966c-ce47a47bfaf4
 content:: Once an AI agrees to a deal in one context, what is one way to make the deal stick in its other contexts?
-max-chars:: 600
+max-words:: 100
 assessment-instructions:: Score out of 100. 100: one workable way for the AI in its other contexts to know about the deal, for example: training the AI on documents about the negotiation and its outcome (such as documents it generates itself), so it learns of its deal through out-of-context learning; putting a compressed summary of the deal into future prompts; or relying on a self-recognition signal the AI knows, similar to a collusion signal. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Have the AI generate documents about the negotiation and its outcome, then train on them, teaching the AI about its own deal via out-of-context learning. You could also prefix a compressed summary into future prompts or rely on a self-recognition signal."
 feedback-instructions:: One or two sentences is enough. Say what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). This is a one-turn response; tell them to move on. If the learner says they do not understand, ask what the AI would have to encounter in a fresh context to know a deal exists, rather than repeating the question.
 
 #### Question: Open
 id:: aa6c9fce-dffe-4460-9a61-a1e811a12ae2
 content:: AIs are epistemically vulnerable, because developers control what they see. What is the fortunate correlation that limits how bad this is for deal credibility?
-max-chars:: 600
+max-words:: 100
 assessment-instructions:: Score out of 100. 50: if developers can make an AI see a completely false picture of the world, that AI is probably not a serious takeover risk anyway. 50: if an AI can largely tell truth from falsehood, then it can also recognise real commitments, so we can credibly communicate with it; the dangerous AIs are the ones we can talk to credibly. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 50 if the answer presents this as a reason for developers to deceive AIs about the world. Model answer, for the feedback, not a grading checklist: "If developers can present AIs with a perfectly falsified world, takeover risk is probably low anyway. If AIs can substantially distinguish truth from falsehood, communication of real commitments is possible because it can tell its in the real world."
 feedback-instructions:: Three or four sentences is enough. Say plainly what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). This is a one-turn response; tell them to move on. If the learner says they do not understand, ask what an AI that cannot tell real from fake could do to us, rather than repeating the question.
 

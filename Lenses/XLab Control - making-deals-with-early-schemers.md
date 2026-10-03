@@ -30,7 +30,7 @@ source:: [[../widgets/xlab-control-deals-routes]]
 #### Question: Open
 id:: 9c629f77-4b10-4d18-a158-17606cf3b055
 content:: Around what capability threshold do a misaligned AI's takeover prospects improve drastically, and why?
-max-chars:: 500
+max-words:: 80
 assessment-instructions:: Score out of 100. 40: the threshold is a capability level, the point where AI can fully automate AI R&D. 60: why, 30 each: that capability goes together with the capabilities needed to plan a takeover, and automating AI R&D greatly increases AIs' power while reducing human oversight of them. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Full AI R&D automation. That capability is correlated with the capabilities needed to plan a takeover, and automating AI R&D substantially increases AIs' power while reducing human oversight."
 feedback-instructions:: Two or three sentences is enough. Say plainly what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). This is a one-turn response; tell them to move on. If the learner says they do not understand, give one concrete foothold from the reading, for example the definition of an early AI as one with under a 1 percent chance of gaining significant control, rather than repeating the question.
 
