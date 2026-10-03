@@ -6,8 +6,8 @@ title: "AI Control 1"
 description: "The case for control. The first of three AI Control courses, with no prerequisites. Five units of three and a half to four and a half hours of self-study, each closing with a group meeting: why to assume a frontier model may be scheming and design so it still cannot hurt you; attack trees and the game the founding control paper sets up between a red team and a blue team; trusted and untrusted monitors, deferring to a trusted model, and handing safety work to AI; catching a model red-handed and ranking the threats; and whether control is worth it, from the case against it to pricing safety work under different levels of political will. AI Control 2 continues from here."
 tags:
   - work-in-progress
-{++{"author":"Luc's AI","timestamp":1790884230691}@@partner-name: XLab
-++}partner-url: "https://xrisk.uchicago.edu/"
+partner-name: XLab
+partner-url: "https://xrisk.uchicago.edu/"
 ---
 
 %%

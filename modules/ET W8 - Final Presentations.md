@@ -29,7 +29,4 @@ source:: [[../Lenses/ET W8 - Weekly Survey]]
 # Submodule: Post-Program Feedback & Certificate
 
 # Lens:
-source:: [[../Lenses/ET Post-Program - Feedback and Certificate]]{--{"author":"Iris's AI","timestamp":1790961771549}@@
-
-# Lens:
-source:: [[../Lenses/ET Post-Program - Feedback Form]]--}
+source:: [[../Lenses/ET Post-Program - Feedback and Certificate]]
