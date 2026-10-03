@@ -1,10 +1,10 @@
----
+<!--lens-widget
 id: '643332d2-5a36-4311-bd93-7f9307b0812e'
 title: How much would paying AIs reduce takeover risk?
 summary_for_tutor: "An interactive version of the back-of-the-envelope calculation (BOTEC) in Lukas Finnveden's 'Notes on cooperating with unaligned AIs', placed right after the excerpt that states it. The intervention: the leading lab publicly commits to negotiate payment with its AIs and sets aside 10 percent of its equity for this. Eight sliders, defaults reproducing the text: AI mostly cares about long-term resources (60 percent), those values are scope-sensitive (50 percent), AI believes other AIs do not share its values (75 percent), the promise multiplies expected human payment by 3x, chance this AI's flip was the one that mattered (x0.50), risk reduction if AIs cooperate (17 percentage points, off a 50 percent takeover baseline), probability of widespread scheming-prone values (x0.20), discount for lack-of-understanding worlds (x0.55). The chain: movable-values share = product of the first three (22.5 percent at defaults); flip probability = log10(multiplier)/2, from an AI belief about human-versus-AI payment that is log-uniform between 10x less and 10x more (3x gives about 24 percent); other value types are half as movable, so one AI flips with probability combo x flip + (1 - combo) x flip/2 (about 14.6 percent); times the multiple-AIs discount (about 7.3 percent); times the risk cut gives the main-scenario reduction (about 1.24 percentage points); times the two scenario discounts gives the bottom line, about 0.14 percentage points at defaults. The text's own rounding gives 15 percent and 7.5 percent at the middle steps; the widget computes exactly, so it shows 14.6 and 7.3. Finnveden offers the estimate as an exercise and starting point, not a result. The widget completes once the learner has moved any slider. Ask which assumption moved the bottom line most, and whether the learner believes the multiplier or the risk-cut number."
 height: auto
 tags: []
----
+-->
 <!doctype html>
 <html lang="en">
 <head>
