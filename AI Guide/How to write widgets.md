@@ -40,7 +40,8 @@ Frontmatter fields:
 - `title`: shown to screen readers and in the "could not be loaded" notice.
 - `summary_for_tutor`: what the widget shows and what the learner does with it. The AI tutor cannot see the learner's clicks; it sees this summary plus the widget's visible text. A widget that builds its content in JavaScript has no visible text at parse time, so the summary is then the tutor's only view of it. Write it as if briefing a colleague who cannot see the screen.
 - `height`: `auto` (default, the frame follows the content) or a fixed CSS length such as `480px` (the frame keeps that height and the page scrolls inside).
-- `tags`: `wip` while unfinished, like every other file.
+{++{"author":"Iris's AI","timestamp":1791045304408}@@- `width`: `full`, or leave it out. The frame always spans the page between the course sidebar and the tutor panel, without a border. Without `width`, the platform lays the widget's page out on the text column, so it lines up with the text around it: right for most widgets. With `width: full`, the widget has the whole frame and decides how much of it to use: use it for wide tables, grids and maps that would otherwise scroll sideways. On a phone both are as wide as the text. The platform sets two CSS variables on the widget's `<html>`: `--lens-text-left` (where the text column starts, from the frame's left edge) and `--lens-text-width` (its width), both in px. They change when a sidebar opens or the window resizes. A full-width widget can use them to keep some parts in line with the text, for example a heading: `margin-left: var(--lens-text-left, 0px); max-width: var(--lens-text-width, 100%)`.
+++}- `tags`: `wip` while unfinished, like every other file.
 
 Embed it from a lens with a `#### Widget` segment:
 
