@@ -22,7 +22,7 @@ from:: ## Next steps
 #### Question: Open
 id:: cb1bda55-0779-4507-91c3-4bca7d23e927
 content:: When does delayed adjudication of an AI deal fail?
-max-chars:: 400
+max-words:: 70
 assessment-instructions:: Score out of 100. 100: it fails when the AI strongly prefers using resources now rather than later (it discounts the future heavily), so a payment that only arrives after the delayed adjudication is worth little to it. Give credit for each point whenever the answer shows the idea, in any wording. An answer that instead names another genuine failure from the reading, such as the AI's weights and records of its actions not being kept so that its cooperation cannot be judged later, earns up to 40. Model answer, for the feedback, not a grading checklist: "When the AI strongly prefers using its resources now rather than later, a high temporal discount rate makes a payout nearly worthless to it."
 feedback-instructions:: Two or three sentences is enough. Say what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). This is a one-turn response; tell them to move on. If the learner says they do not understand, ask what an escrow payment in twenty years is worth to something that wants its resources now, rather than repeating the question.
 

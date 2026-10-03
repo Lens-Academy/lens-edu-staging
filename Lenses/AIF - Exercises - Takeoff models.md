@@ -19,7 +19,7 @@ assessment-instructions:: A good answer identifies a concrete similarity (e.g. b
 id:: bb955d0d-d9c0-4ce6-9310-9cdf142da650
 content:: Open the AI Futures Project web app (linked from the article) and set the parameters to your own best guesses. What median takeoff forecast do you get, and which parameter moved your result the most? Any reflections on the model itself?
 assessment-instructions:: A good answer reports a concrete median forecast from playing with the app, names the parameter(s) they changed and the direction of effect, and offers at least one thoughtful reflection on the model's structure or limitations. Don't grade the forecast value itself; grade engagement and understanding of parameter sensitivity.
-max-chars:: 1200
+{--{"author":"Iris's AI","timestamp":1790987429614}@@max-chars:: 1200--}{++{"author":"Iris's AI","timestamp":1790987429614}@@max-words:: 200++}
 
 #### Chat
 instructions::
