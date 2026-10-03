@@ -85,40 +85,6 @@ source:: [[../Lenses/Nested callouts demo]]
 # Lens:
 source:: [[../Lenses/Article excerpt demo]]
 
-%% To quote an article without crediting its author, add `hide-author:: true` to the `#### Article` (or `#### Embed`) segment. The author then disappears from this lens's sidebar entry, the byline and the tutor's source line; the title, date and "Read original" link stay. One `hide-author::` on any excerpt hides that article's author for the whole lens, and other lenses using the same article still credit it. %%
-# Lens: Quoting without the author
-id:: 91382470-aa4f-4457-899a-6ed972df49db
-tldr:: Shows hide-author:: true on an Article segment: the quoted statement appears without the author credit in the sidebar and the byline.
-summary_for_tutor:: Demo lens for the hide-author:: field. A Text segment explains the field, then an Article segment quotes the one-sentence CAIS Statement on AI Risk with hide-author:: true, so the author is not shown.
-reading_minutes:: 1
-
-#### Text
-content::
-This lens quotes a statement without crediting its author. The `#### Article` below has `hide-author:: true`, so neither the sidebar entry nor the byline names the author; the date and "Read original" link stay.
-
-#### Article
-source:: [[../articles/safety-statement-on-ai-extinction-risk-cais]]
-from:: "**Mitigating the risk of extinction from AI"
-to:: "Signatories:"
-hide-author:: true
-
-%% To keep the byline but leave the author out of the sidebar, write `hide-author:: sidebar` instead (articles only; an embed has no sidebar credit). %%
-# Lens: Hiding the author from the sidebar only
-id:: adb71303-71db-4953-8b44-897c9fa05e1d
-tldr:: Shows hide-author:: sidebar on an Article segment: the byline still credits the author, the sidebar entry does not.
-summary_for_tutor:: Demo lens for hide-author:: sidebar. A Text segment explains the field, then an Article segment quotes the one-sentence CAIS Statement on AI Risk with hide-author:: sidebar, so the byline names the Center for AI Safety but the sidebar entry for this lens does not.
-reading_minutes:: 1
-
-#### Text
-content::
-This lens quotes the same statement, but the `#### Article` below has `hide-author:: sidebar`: the byline still names the author, while this lens's sidebar entry does not.
-
-#### Article
-source:: [[../articles/safety-statement-on-ai-extinction-risk-cais]]
-from:: "**Mitigating the risk of extinction from AI"
-to:: "Signatories:"
-hide-author:: sidebar
-
 %% To choose what the sidebar credits for a whole lens, put `sidebar_author:` in the lens's frontmatter (or `sidebar_author::` on an inline lens): a name replaces the article authors and video channels in the sidebar entry, the module overview and card links, and `none` credits nobody. Bylines and the source bar keep the article's author. %%
 # Lens: Choosing the sidebar credit
 id:: e4296b35-2f55-4225-bd44-5aa14231f6d1
