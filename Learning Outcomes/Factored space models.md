@@ -28,7 +28,7 @@ Assume these probabilities are exact, and that every independence in the data re
 1. Using a causal graph whose only variables are S and T (with any hidden common causes allowed), what can you conclude about causal direction from this data?
 2. Using the factored-space (finite factored set) approach, what, if anything, can you infer about causal direction? Show the calculation that supports your answer.
 3. Why can the second approach see something the first cannot?
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from three components. Accept any correct notation or wording.
 
 **(a) Causal graph over S and T, 15 points.** Full credit: S and T are dependent (for example, P(S=1 given T=0) = 0.3 but P(S=1 given T=1) = 0.7), and dependence alone is compatible with S causing T, T causing S, or a common cause, so no direction can be identified. 7 points for "no direction" without showing or stating the dependence.

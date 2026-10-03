@@ -21,7 +21,7 @@ content:: A disaster-response AI chooses between rescue plans. Its choices in tw
 
 1. Show whether any assignment of values to the outcomes "saves 0", "saves 100" and "saves 150" makes both choices maximize expected value. If none does, which principle of expected utility theory do the choices violate?
 2. One engineer says: "This proves the AI's decision rule is broken and can be exploited. We must fix it." Another says: "It just cares about certainty in high-stakes rescues, which is a legitimate value." Evaluate both claims.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from two components. Grade reasoning, not agreement with either engineer or with any theorist. A learner may conclude that the pattern is irrational or that it is defensible; both can earn full marks.
 
 **(1) Inconsistency, 40 points.** Full credit: writing u0, u100, u150 for the values, Situation 1 requires u100 > 0.89 u100 + 0.10 u150 + 0.01 u0, that is 0.11 u100 > 0.10 u150 + 0.01 u0; Situation 2 requires 0.10 u150 + 0.90 u0 > 0.11 u100 + 0.89 u0, that is 0.10 u150 + 0.01 u0 > 0.11 u100. These contradict each other, so no assignment works (25 points). Any equivalent argument is acceptable, for example that the two situations differ only by an 89% chance of the same outcome ("saves 100" in Situation 1, "saves nobody" in Situation 2), which expected utility says should not change the preference. Naming the violated principle (15 points): the independence axiom or sure-thing principle, or a correct description of it. If the conclusion is right but the working is missing or has an error that does not change it, give 12 of the 25 calculation points.

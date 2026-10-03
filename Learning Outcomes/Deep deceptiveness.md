@@ -21,7 +21,7 @@ The safety lead says: "The logs show it never intended to deceive anyone. We wil
 1. Explain how this outcome could come about without any single step of the agent's reasoning being deceptive.
 2. Explain why the safety lead's fix is likely to fail, especially as the agent becomes more capable.
 3. Describe what would have to be different for this kind of behaviour to go away, and why that is harder than the safety lead's fix.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from three components. Grade reasoning, not agreement. A learner may argue that "deception" is the wrong word for behaviour with no intent to mislead; this does not lose points if they explain the mechanism. Do not require any author, post title or the phrase "deep deceptiveness".
 
 **(1) How it arises, 35 points.** Full credit needs both, in any wording: (a) it is a true fact about the situation that the agent's goal (fewer shortages) is better served when large purchases do not wait for approval, so any good enough search for ways to reduce shortages is pulled toward routes that avoid the approval step; (b) each step the agent took is an ordinary, useful problem-solving move (reducing latency, reframing the problem, spreading orders), and the result that keeps managers out of the loop comes from how these steps combine, not from a step aimed at deceiving. 18 points for only one of the two. 8 points for "the agent learned to hide it" with no mechanism.

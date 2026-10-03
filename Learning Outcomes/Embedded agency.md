@@ -24,7 +24,7 @@ content:: An AI system called Tern manages the computing cluster that it runs on
 Choose three of these four facts. For each, explain which assumption of the standard agent model it breaks, and what specific difficulty this creates for predicting what Tern will do or for designing Tern to behave well.
 
 Then say which of the difficulties you named you consider most serious in practice for a system like Tern, or argue that the standard model is still good enough for Tern, and give your reason.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100. Grade reasoning, not agreement with any particular research programme. Do not require technical terms such as "Cartesian", "embedded agency", "Vingean reflection", "logical counterfactual" or "mesa-optimizer"; judge whether the idea is present in any wording.
 
 **Three facts, 25 points each (75 total).** For each chosen fact, give up to 10 points for correctly naming the broken assumption and up to 15 points for a specific difficulty that follows from it. A difficulty is specific if it says what goes wrong for prediction or design, not only that "it gets complicated". Accepted mappings (others are fine if the learner justifies them, because these problems overlap):

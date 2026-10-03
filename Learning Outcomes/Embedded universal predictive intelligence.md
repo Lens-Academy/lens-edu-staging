@@ -29,7 +29,7 @@ The agents cannot communicate or make binding agreements. There are two kinds of
 
 1. In each case, what does Agent E choose, and what does Agent C choose? Explain the reasoning each one uses.
 2. The operator of an E agent asks: "If our agent cooperates because it thinks the other agent is like it, can it be exploited?" Explain when it could be, and what that depends on.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from two components. The question asks what each agent does, not which agent is rational: a learner who argues that Agent C's reasoning is the correct one, or that Agent E's is, loses nothing if the predictions and reasons are right. Terms such as EDT, CDT, "embedded agent" or "functional similarity" are not required.
 
 **(1) Predictions, 55 points.**
