@@ -1,10 +1,10 @@
----
+<!--lens-widget
 id: '85a67a3c-4621-480d-afa5-cee2967bdbaf'
 title: Thresholds, cluster sizes and the verification levers
 summary_for_tutor: "An interactive of Tables 1 and 2 and Figure 2 of Scher et al.'s draft international agreement. The learner sets the Strict Threshold (paper default 1e24 FLOP) and the Monitored Threshold (paper default 1e22 FLOP) on log sliders, and picks one of the six cluster sizes the paper tabulates (100,000, 10,000, 1,000, 100, 16 and 1 H100-equivalents). Time to each threshold is recomputed from the paper's own arithmetic, seconds = threshold FLOP divided by (chips x 9.9e14 FLOP/s), where 9.9e14 FLOP/s is one H100-equivalent at FP8 and 50 percent utilization; that formula reproduces every seconds and days cell of both tables, including the 7.3 days to 1e22 FLOP for 16 chips that the paper uses to justify drawing the covered chip cluster line at 16. The widget also shows when a cluster of that size gets registered, the two tables' levers side by side (domestic round-up against international verification, marked very useful or somewhat useful for the chosen size), and the eleven labelled models of Figure 2 on a log ladder, each one above the Strict Threshold, between the two thresholds, or below the Monitored Threshold as the learner moves them. Selecting a model gives its compute, its Artificial Analysis Intelligence Index score and how far it sits from the threshold. Done fires once the learner has moved a threshold and changed the cluster size. The lesson page around it carries the paper's own Tables 1 and 2, the prose describing each lever, and Figure 2 with its caption, so the widget itself has no title, caption or lede; quote the paper's table from the page, not from the widget."
 height: auto
 tags: [wip]
----
+-->
 <!doctype html>
 <html lang="en">
 <head>
