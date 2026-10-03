@@ -11,6 +11,7 @@ source:: [[../Learning Outcomes/Comparing alignment research agendas]]
 # Submodule: Welcome
 ## Lens: Welcome
 id:: dc56fe14-2c41-4057-b112-a84c0b2ef303
+sidebar_author:: none
 %% tldr:: AI safety has no agreed definition of the problem it's solving, so the field splinters into competing "agendas." This module maps six of them — and for each, pairs an article making the case with one pushing back, so you can judge the disagreements yourself. %%
 summary_for_tutor:: Welcome lens introducing the Existing Approaches module. Opens with a quote from "A newcomer's guide to the technical AI safety field" explaining that AI safety is pre-paradigmatic, with no consensus on the nature of the alignment problem, so the field is organised around research agendas. States the module covers six agendas (automating alignment, mechanistic interpretability, evals, control, agent foundations, shut it all down), which overlap and don't divide the space cleanly, presenting a supporting and a critiquing article for each.
 reading_minutes:: 5
@@ -19,7 +20,6 @@ reading_minutes:: 5
 source:: [[../articles/zeshen-a-newcomers-guide-to-the-technical-ai-safety-field]]
 from:: In other words, there is no universally agreed-upon
 to:: or even a portfolio of these problems.
-hide-author:: true
 
 ### Text
 content::

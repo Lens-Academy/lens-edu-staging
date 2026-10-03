@@ -12,6 +12,7 @@ source:: [[../Learning Outcomes/Objections and Rebuttals]]
 
 # Lens: Welcome
 id:: a1b2c3d4-5678-90ab-cdef-1234567890ab
+sidebar_author:: none
 %% tldr:: AI is reshaping civilisation on many fronts at once, and experts warn of extinction-level risks. What's going on, and where are we headed? This opening lens sets out the course's aim: to help you understand the core dynamics at play, and prepare you to act. %%
 summary_for_tutor:: Short welcome lens introducing the course. The opening text says AI is upending many aspects of civilisation at once and experts warn of extinction-level risks, and that the course aims to help learners understand the core dynamics at play and prepare to act. It then shows the one-sentence CAIS Statement on AI Risk, introduced as signed in May 2023 by leading AI scientists and the heads of major AI companies: "Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war." The signatory list itself is not shown. Framing only; the arguments are taught in the following lenses.
 reading_minutes:: 3
@@ -23,7 +24,6 @@ This statement, signed by top AI academics and the heads of the leading labs, wa
 source:: [[../articles/safety-statement-on-ai-extinction-risk-cais]]
 from:: "**Mitigating the risk of extinction from AI"
 to:: "Signatories:"
-hide-author:: true
 
 #### Text
 content::

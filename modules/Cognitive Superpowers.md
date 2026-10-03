@@ -22,6 +22,7 @@ source:: ![[../Learning Outcomes/Machine advantages over humans]]
 
 # Lens: Welcome
 id:: 1e8bd017-944e-442f-b12c-5a168b0244f0
+sidebar_author:: none
 %% tldr:: Intelligence is power. This module traces how a smarter agent comes to dominate its environment and the less-intelligent agents in it: raw problem-solving, thinking thousands of times faster, manipulation that hacks human minds, credible threats, and the structural edges a digital mind holds over a biological one. %%
 summary_for_tutor:: Opening lens for the Cognitive Superpowers module. The learner sees one sentence (intelligence gives agents power over their environment and over less intelligent agents), then a short extract from Eliezer Yudkowsky's 'Optimization and the Singularity': the power of a mind is its ability to hit small targets in a large search space, either possible futures (planning) or possible designs (invention). Example: jumble a car's parts or atoms at random and you almost never get a travel artifact at all, let alone one that ranks as high in your preferences as the car; relative to those preferences the car is extremely improbable, and an optimization process is what produces that kind of improbability. The following lenses develop this in order: general intelligence as the adaptation that let humans dominate other species, the speed gap between transistors and neurons, AI emotional manipulation (optional), Bostrom's list of advantages digital minds hold over biological ones, and credible threats in negotiation (optional).
 reading_minutes:: 4
@@ -33,7 +34,6 @@ In this module, we explore the myriad ways in which intelligence gives agents po
 source:: [[../articles/yudkowsky-optimization-and-the-singularity]]
 from:: your power as a mind is your ability to hit small targets in a large search space
 to:: the power of an optimization process is that it can produce this kind of improbability.
-hide-author:: true
 
 # Lens:
 source:: ![[../Lenses/The power of intelligence|The power of intelligence]]
