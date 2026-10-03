@@ -24,14 +24,14 @@ to:: or something that fully leverages untrusted monitoring).
 #### Question: Open
 id:: b859d667-061b-45cf-a3f0-fdc2004f0519
 content:: What is a rogue internal deployment via external APIs?
-max-chars:: 500
+max-words:: 80
 assessment-instructions:: Score out of 100. 20: the starting point is an AI used inside the lab that is heavily monitored and has sensitive, privileged access. 30: it sets up a scaffold that sends queries to a weakly monitored external version of itself (or another AI), for example through the public API. 30: it carries out the instructions that come back, using its privileged internal access. 20: the result: the planning happens where monitoring is weak, so the internal monitoring is bypassed and never sees where the actions came from. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "A heavily-monitored internal AI with sensitive access builds an agent scaffold that sends queries to a weakly-monitored external version of itself (or another AI) and executes the external API's instructions using its privileged internal access, bypassing the internal monitoring."
 feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: f06cc6c4-e252-4815-ad29-740181e359df
 content:: How does this threat relate to the other rogue-deployment threats, and how hard is it to mitigate?
-max-chars:: 600
+max-words:: 100
 assessment-instructions:: Score out of 100. 50: where it sits, 25: it is a third route alongside weight exfiltration (rogue external deployment) and ordinary rogue internal deployment, where the AI hacks its own datacenter to run unmonitored; 25: preventing it is about as important, from a misalignment point of view, as preventing those. 50: how hard, 20: it is relatively hard to mitigate; 30: neither trusted monitoring alone nor security alone is enough, it probably needs trusted monitoring combined with dedicated security measures, or a full use of untrusted monitoring. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "It sits alongside weight exfiltration (rogue external deployments) and regular rogue internal deployments where the AI hacks its own datacenter to run unmonitored inference, and preventing it is similarly important from a misalignment perspective. It's relatively hard to mitigate: probably a combination of trusted monitoring with dedicated security measures, or something that fully leverages untrusted monitoring — not "just trusted monitoring" or "just security"."
 feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 

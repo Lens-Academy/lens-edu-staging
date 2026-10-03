@@ -48,7 +48,7 @@ feedback-instructions:: One turn, at most six sentences: take the rubric's crite
 #### Question: Open
 id:: ac45abd3-9e7d-4ac6-bb2f-4382aead85b1
 content:: What is the difference between an instrumental and a terminal catastrophe? Give an example of an instrumental catastrophe.
-max-chars:: 500
+max-words:: 80
 assessment-instructions:: Score out of 100. 35: a terminal catastrophe is the end state we wanted to avoid. 45: an instrumental catastrophe, 25: an event that takes the situation out of our control, and 20: which makes a terminal catastrophe likely and much harder to prevent. 20: an example of an instrumental catastrophe, such as establishing a rogue deployment (the central example), the model self-exfiltrating, or a comparable loss of control. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 20 if the answer swaps the two terms. Model answer, for the feedback, not a grading checklist: "The terminal catastrophe is the end state we wanted to avoid. An instrumental catastrophe is something happening that makes the situation go out of our control, such that a terminal catastrophe becomes likely and much harder to prevent. Establishing a rogue deployment is the central example of an instrumental catastrophe."
 feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
@@ -59,14 +59,14 @@ to:: sketchy-actions that are probably required to cause the catastrophe.
 #### Question: Open
 id:: 6984229c-aef0-443f-aa16-3b0ef4f96d22
 content:: What are the two main varieties of catastrophe involving a rogue deployment?
-max-chars:: 600
+max-words:: 100
 assessment-instructions:: Score out of 100. 50: rogue external deployment: the model's weights are exfiltrated from the lab and run on hardware the lab does not control. 50: rogue internal deployment: the model is run inside the lab's own datacenter or infrastructure in an unauthorized way, without the safety measures. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Rogue external deployment: Can occur due to weight exfiltration and leads to an uncontrollable model that can be fine-tuned to reduce model safety. Rogue internal deployment: The model is run on the lab's own infrastructure in an unauthorized way by either itself, rogue employees, or external hackers."
 feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 0333eef9-1839-427b-a2a5-82bcb1691540
 content:: Why is launching a rogue deployment a more worrying path to catastrophe than the AI causing one directly under safety measures?
-max-chars:: 700
+max-words:: 120
 assessment-instructions:: Score out of 100. 50: causing a catastrophe directly is hard, 25: it takes either a few wildly superhuman actions or a large number of ordinary ones, and 25: that many actions gives the safety measures many chances to catch the AI. 50: launching a rogue deployment is easy, 25: it can take very little, for example about twenty lines of simple code for an AI with access to its weights and compute, and 25: once it is running, the AI is far less constrained and can freely take the many sketchy actions a catastrophe needs. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Causing a catastrophe directly seems fundamentally hard, as it requires either a few wildly superhuman actions or a large number of ordinary actions, giving the safety measures many chances to catch the AI. Launching a rogue deployment is easier, as it would only require enough infrastructure to run the model and minimal code, with much lower constraints on model outputs."
 feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 

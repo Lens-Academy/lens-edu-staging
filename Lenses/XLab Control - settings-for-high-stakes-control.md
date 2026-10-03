@@ -27,14 +27,14 @@ to:: (We sometimes call these safety failures "side tasks".)
 #### Question: Open
 id:: d9210282-4de5-4b3d-9b80-0be58217994e
 content:: What should a setting for high-stakes control research provide?
-max-chars:: 500
+max-words:: 80
 assessment-instructions:: Score out of 100. 50: a set of tasks (main tasks) whose successful completion can be checked. 50: a notion of safety failure that counts as unacceptable, 30, and whose occurrence can also be checked, 20. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "A dataset of tasks where (1) you can check whether the main task was completed successfully, and (2) there's some notion of safety failure considered unacceptable, whose occurrence you can also check. Researchers also need to be able to play the adversarial game of developing protocols and attacks against them."
 feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: b83e36c4-2cb9-420a-9ef1-91982f306fe8
 content:: What is a side task?
-max-chars:: 300
+max-words:: 50
 assessment-instructions:: Score out of 100. 50: it is what the attacking model (the attack policy) tries to accomplish covertly, alongside the main task it was given. 50: accomplishing it counts as the safety failure. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer treats the side task as a second legitimate task that the protocol or the developers assign. Model answer, for the feedback, not a grading checklist: "A side task is the thing the attack policy tries to accomplish alongside the main task & is considered a safety failure."
 feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
