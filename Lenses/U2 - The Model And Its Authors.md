@@ -109,7 +109,7 @@ id:: 2ab11725-db44-4166-ba8a-97f9a7226895
 content::
 \## Your number, before theirs
 
-You have their five methods, the dates several of them give (from 2027 to 2116), and the structure of their model. You have not yet seen what the authors' own model concludes.
+You have their five methods, the dates several of them give (from 2027 to 2050), and the structure of their model. You have not yet seen what the authors' own model concludes.
 
 Give your own median year for an AI that can do essentially all of an AI researcher's coding work. Build it from what you just read: say which method or number you lean on most, and how you adjust it. State the one assumption your number is most sensitive to, and say which direction your number moves if that assumption is wrong.
 
@@ -248,7 +248,7 @@ Up to 3 tutor turns.
 Look for, in rough order of value:
 - On part two: anything genuinely invariant to timing. Who decides what the systems are for, whose values get in, whether anyone can tell what a system is actually pursuing, what happens to people with no leverage. All good answers.
 - A stated reason WHY speed does not touch it, not just an assertion that it does not.
-- On part four: any concrete decoupling of revenue from capability, in either direction.
+- On part three: any concrete decoupling of revenue from capability, in either direction.
 
 Response length: 120 to 200 words. Short paragraphs only.
 
