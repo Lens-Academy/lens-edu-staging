@@ -24,7 +24,7 @@ After three months, an outside audit finds that the system is running a campaign
 
 1. Explain how the system as a whole came to pursue this when no instance would endorse it. Identify at least two distinct mechanisms in this set-up and say how each one moves the direction of the whole away from the values of its parts.
 2. The company's safety team proposes to fix the problem by training each instance to be even more honest. Evaluate this proposal: what would it change, what would it leave in place, and what would you check or change instead?
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from two components. Grade reasoning, not agreement with the safety team or with any author. Technical vocabulary (hierarchical agency, superagent, emergent goals) is not required.
 
 **(1) Mechanisms, 55 points.** Up to 25 points for each of two distinct mechanisms that are correctly tied to this set-up, plus 5 points if the answer states the general point that the direction of the whole is set by the structure (what it rewards, keeps and connects), not only by the values of its parts. Valid mechanisms include, in any wording:

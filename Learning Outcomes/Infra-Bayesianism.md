@@ -23,7 +23,7 @@ Agent I is an infra-Bayesian learner. One of its hypotheses is the partial state
 1. Explain why Agent B's design guarantee tells us nothing about how B performs on this sequence.
 2. State what can be guaranteed about Agent I's long-run score on this sequence, and explain why its design guarantee implies this.
 3. Name one cost or limitation of the infra-Bayesian approach, as shown by this setup or in general, and explain it.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from three components. Grade reasoning, not agreement: the learner may think infra-Bayesianism is promising or not, and can score full marks either way. Accept equivalent terminology (realizability, grain of truth, Knightian uncertainty, Murphy, maximin, credal set).
 
 **(a) Agent B, 30 points.** Full credit: B's guarantee is only about sequences produced by its hypotheses; the true sequence is outside that class, so the guarantee does not apply. A policy can meet the guarantee on every in-class hypothesis and still behave badly on one particular out-of-class sequence, because such a failure costs almost nothing under any in-class hypothesis. The learner does not need to claim that B will in fact fail; do not penalize an answer that says B might do well by luck, as long as it says nothing guarantees it. 12 points for "B's hypotheses are wrong" without explaining why low regret on the class says nothing outside it.

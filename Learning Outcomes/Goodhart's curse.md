@@ -24,7 +24,7 @@ content:: A lab trains a reward model on human ratings of short written plans, s
    (i) train the reward model on ten times as many ratings;
    (ii) instead of the top-scoring plan, pick at random among the plans whose score is above a fixed threshold;
    (iii) train a second reward model independently, and reject any plan that the two models score very differently.
-max-chars:: 3000
+max-words:: 500
 assessment-instructions:: Score 0 to 100 from two components. Grade reasoning, not agreement: a learner may argue that one mitigation works better or worse than the guide below suggests, and earn full credit if the argument is sound.
 
 **(1) Mechanism and prediction, 45 points.** Full credit requires: (a) the prediction that the chosen plan's score overstates its real quality more in B than in A (10 points); (b) the mechanism: the reward model's score is real quality plus error; picking the maximum score selects not only for high quality but also for high error, so the winner's score is expected to overestimate its quality even if the model is unbiased on typical plans (20 points); (c) why B is worse: a larger search contains more candidates with large errors, so the maximum is more likely to be one; and B reaches unusual plans unlike the reward model's training data, where its errors can be much larger, so good agreement on typical plans says little about the extremes B selects (15 points). Accept equivalent formulations such as the winner's curse, regression to the mean, or "the optimiser searches out the model's mistakes". 20 points total for "the AI will game the reward model" without explaining why selecting the maximum selects for error.
