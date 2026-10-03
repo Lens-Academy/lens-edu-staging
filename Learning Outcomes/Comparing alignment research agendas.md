@@ -27,7 +27,7 @@ enforce-voice:: true
 id:: fd1cab0a-5b3e-403f-8f19-e8c73ec31294
 content:: Explain each of these terms in one sentence, in your own words: agenda, theory of change.
 assessment-instructions:: Check that the student gives (1) agenda as a coherent research direction or prioritized plan of work aimed at a problem, not just a vague topic, and (2) theory of change as a causal story linking actions to outcomes: problem, mechanism, assumptions, and how/why it could work. Penalize circular definitions and purely motivational slogans.
-{--{"author":"Iris's AI","timestamp":1790987165816}@@max-chars:: 900--}{++{"author":"Iris's AI","timestamp":1790987165816}@@max-words:: 150++}
+max-words:: 150
 
 #### Question
 id:: 9bd934f8-c844-4d9b-bd6f-1930a195a4b9
