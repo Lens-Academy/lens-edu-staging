@@ -21,7 +21,7 @@ content:: A biotech company says all three of its AI systems are 'just tools, no
 - **System 3.** Given the goal 'find a cure for disease X', it chooses research directions, orders reagents, runs robotic experiments for months, revises its own plans, and reports when it has a candidate drug.
 
 For each system, judge whether it is a tool in the sense that matters for safety, and name the features that decide your judgement. Then explain what the company gives up, from a safety point of view, by giving System 3 a goal that the company itself could not break into well-defined steps.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from four components. Grade the reasoning, not agreement with the view that tool-ness is what matters for safety; a learner who argues that the tool/agent distinction is a matter of degree, or that tools tend to be turned into agents under competitive pressure, earns full credit if they still apply safety-relevant criteria to the three systems.
 
 **(a) System 1, 15 points.** Full credit: judged tool-like, because it works on a subproblem the user defined, its output is visible (explained proposals), a human decides what happens next, and nothing indicates it pursues goals beyond the request. Accept a qualified judgement (for example, noting that explanations could be misleading) if the criteria are applied.

@@ -21,7 +21,7 @@ content:: A research group asks, for three problems, 'could we solve this with u
 3. **A weaker AI checking the plans of a much more capable AI before they are carried out.** 'Yes: the checker simulates every step of the capable AI's reasoning exactly and approves only plans it has verified to be safe.'
 
 For each problem, say whether the proposed answer is a real unbounded solution or whether it hides the difficulty, and explain why. Then say what each case tells the group about where the difficulty of the problem lies.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from three components. Grade the reasoning; the learner does not need the terms 'bounded', 'unbounded' or any author's name.
 
 **(a) Go, 20 points.** Full credit: this is a real unbounded solution; the procedure is fully specified and would work given enough computation. So the difficulty of playing Go well is computational (finding good moves within real limits), not a confusion about what the goal is. 10 points for 'yes, it works' without drawing the conclusion about where the difficulty lies.
