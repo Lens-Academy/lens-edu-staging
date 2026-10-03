@@ -15,6 +15,7 @@ source:: ![[../Learning Outcomes/Simulator theory|Simulator Theory]]
 
 # Lens: Welcome
 id:: e1322022-9d32-4d52-9f8a-403e5379ff42
+sidebar_author:: none
 %% tldr:: Get a reasonable grasp of what modern AI systems are, both intuitively and technically. %%
 summary_for_tutor:: Welcome lens. The learner sees one sentence: the module aims to give a reasonable grasp of what modern AI systems are, on both an intuitive and a technical level. The core lenses that follow are Yudkowsky and Soares on AI being grown rather than built, Robert Miles on why "just predicting tokens" places no ceiling on capability, Scott Alexander's review of Janus' simulator theory, and nostalgebraist's "the void" on the under-specified assistant character. Optional lenses cover 3Blue1Brown on neural network structure, Eric J. Michaud's quanta model of neural scaling, and Steven Byrnes on a possible future brain-like AI paradigm. A lens on the security mindset is optional and hidden by default.
 reading_minutes:: 2
@@ -26,7 +27,6 @@ This module aims to give you a reasonable grasp of what modern AI systems are, o
 source:: [[../articles/janus-simulators]]
 from:: GPT *is* behavior cloning.
 to:: than instantiated in our particular time and place and Everett branch.
-hide-author:: true
 
 # Lens:
 source:: ![[../Lenses/AI Is Grown, Not Built|AI Is Grown, Not Built]]

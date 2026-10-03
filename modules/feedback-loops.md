@@ -13,6 +13,7 @@ source:: ![[../Learning Outcomes/Fizzle or foom]]
 
 # Lens: Welcome
 id:: e0f8913a-66a2-4fc9-bbe8-bf72a95b003e
+sidebar_author:: none
 %% tldr:: The first leftover grain replanted sparked the agricultural revolution. Could intelligence contain the same kind of self-amplifying spiral? This module opens the question of feedback loops in the growth of intelligence. %%
 summary_for_tutor:: Welcome lens for the module on positive feedback loops. A two-sentence opener (replanted grain sparked the agricultural revolution; might intelligence contain similar self-amplifying spirals?) is followed by a short passage from I. J. Good's paper 'Speculations Concerning the First Ultraintelligent Machine'. Good defines an ultraintelligent machine as one that can far surpass all the intellectual activities of any human. Designing machines is one of those activities, so it could design even better machines, producing an 'intelligence explosion' that leaves human intelligence far behind. The first such machine would be the last invention humans need to make, provided it is docile enough to tell us how to keep it under control. A chat follows. Later lenses cover the 1960 hyperbolic-growth story, terminology for takeoff, and measured AI capability trends.
 reading_minutes:: 5
@@ -24,7 +25,6 @@ Much of the world is dominated by positive feedback loops. The first bit of grai
 source:: [[../articles/good-speculations-concerning-first-ultraintelligent-machine]]
 from:: "Let an ultraintelligent machine be defined"
 to:: "how to keep it under control."
-hide-author:: true
 
 #### Chat
 instructions::
