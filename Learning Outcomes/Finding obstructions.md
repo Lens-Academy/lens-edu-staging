@@ -19,7 +19,7 @@ content:: A team proposes to make future, much more capable models honest in thi
 1. Give one criticism of this plan that is a fixable flaw: something a better version of the same approach could remove.
 2. Give one obstruction: a reason this approach, and any approach that shares its key feature, would not succeed as intended. Say which assumptions the obstruction depends on and which class of approaches it rules out.
 3. Explain what makes your answer to 2 an obstruction rather than a fixable flaw, and say what an approach would have to do differently to get around it.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from three components. Grade reasoning; there are several valid obstructions, and a learner who argues that the approach can work anyway earns full credit on (b) and (c) if they correctly state an obstruction-shaped argument and then give a specific reason it does not bind here.
 
 **(a) Fixable flaw, 15 points.** Full credit: a criticism that a better version of the same approach could address, for example the 5% miss rate, a test set unlike real use, false positives, or a classifier too small for the task. 7 points if the criticism is plausible but it is unclear why a better version would fix it.

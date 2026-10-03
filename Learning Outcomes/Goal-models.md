@@ -27,7 +27,7 @@ For each design, predict and explain how it responds to:
 3. a plan to build a metro station under the garden, a situation neither design was built with in mind.
 
 Then say which design you expect to be easier for its human overseers to predict, and why.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100. Grade reasoning, not agreement. Do not require the terms "goal-model", "utility function over world-states", "local", "global", "selection" or "control", or any author name. A learner may point out that a utility function could in principle encode the garden's character too, and that the real difference is in what each representation makes cheap to express and how the agent searches; credit this as insight, and do not penalize the learner for questioning the setup, as long as they still answer for the designs as described.
 
 **Situations 1 to 3, 75 points (25 each).** For each situation, give up to 12 points for design U and up to 13 for design G. Each prediction must be tied to how the design represents what it wants, not just stated.

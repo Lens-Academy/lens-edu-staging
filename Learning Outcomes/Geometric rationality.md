@@ -25,7 +25,7 @@ The assistant may also choose a lottery over plans (for example, a weighted coin
 1. Which plan or lottery does the assistant choose if it maximizes the sum of the two founders' expected utilities? Which does it choose if it maximizes the product of their expected utilities (equivalently, their geometric mean)? Show your working. An approximate answer for a lottery is fine.
 2. Ben then says his numbers were written in a different unit and each should be multiplied by 10. How does each assistant's choice change, and why?
 3. What does this show about when maximizing the product is a better way to combine two people's preferences than maximizing the sum? Give one serious objection or limitation.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from three components. Grade reasoning. Terms such as "Nash bargaining", "geometric expectation" or "independence axiom" are not required.
 
 **(1) Calculation, 40 points.**
