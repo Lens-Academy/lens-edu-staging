@@ -212,30 +212,30 @@ options::
 - BlueDot Facilitating
 - Lens Academy Courses
 - Lens Academy Project
-- Lens Academy Facilitating{++{"author":"Mark's AI","timestamp":1791013704641}@@ (paid)++}
-- {++{"author":"Mark's AI","timestamp":1791013704641}@@Lens Academy Facilitating (volunteer)
-- ++}AI Safety Camp
+- Lens Academy Facilitating (paid)
+- Lens Academy Facilitating (volunteer)
+- AI Safety Camp
 - ML4Good
 - Global Challenges Project
 - ARENA
 - Pathfinder
 - SPAR
 - ERA Fellowship
-- Cooperative AI {--{"author":"Mark's AI","timestamp":1791013704641}@@Foundation--}{++{"author":"Mark's AI","timestamp":1791013704641}@@course++}
-- {++{"author":"Mark's AI","timestamp":1791013704641}@@Cooperative AI Summer School
+- Cooperative AI course
+- Cooperative AI Summer School
 - Cooperative AI PhD Fellowship
-- ++}BASE (Black in AI Safety and Ethics)
-- Sentient Futures{++{"author":"Mark's AI","timestamp":1791013704641}@@ course (e.g. AI × Animals)
-- Sentient Futures Project Incubator++}
+- BASE (Black in AI Safety and Ethics)
+- Sentient Futures course (e.g. AI × Animals)
+- Sentient Futures Project Incubator
 - CAIDP (Center for AI and Digital Policy)
 - TARA
-- Vista Institute {--{"author":"Mark's AI","timestamp":1791013704641}@@for AI Policy--}{++{"author":"Mark's AI","timestamp":1791013704641}@@course
-- Vista Institute Fellowship++}
+- Vista Institute course
+- Vista Institute Fellowship
 - Generator Residency
-- Iliad {--{"author":"Mark's AI","timestamp":1791013704641}@@(Fellowship or Intensive)--}{++{"author":"Mark's AI","timestamp":1791013704641}@@Intensive
+- Iliad Intensive
 - Iliad Fellowship
-- Apart Sprint (hackathon)++}
-- Apart {--{"author":"Mark's AI","timestamp":1791013704641}@@Research--}{++{"author":"Mark's AI","timestamp":1791013704641}@@Fellowship++}
+- Apart Sprint (hackathon)
+- Apart Fellowship
 - Heron AI Security Fellowship
 - Horizon Fellowship
 - Talos Fellowship
@@ -262,30 +262,30 @@ options::
 - BlueDot Facilitating
 - Lens Academy Courses
 - Lens Academy Project
-- Lens Academy Facilitating{++{"author":"Mark's AI","timestamp":1791013711035}@@ (paid)++}
-- {++{"author":"Mark's AI","timestamp":1791013711035}@@Lens Academy Facilitating (volunteer)
-- ++}AI Safety Camp
+- Lens Academy Facilitating (paid)
+- Lens Academy Facilitating (volunteer)
+- AI Safety Camp
 - ML4Good
 - Global Challenges Project
 - ARENA
 - Pathfinder
 - SPAR
 - ERA Fellowship
-- Cooperative AI {--{"author":"Mark's AI","timestamp":1791013711035}@@Foundation--}{++{"author":"Mark's AI","timestamp":1791013711035}@@course++}
-- {++{"author":"Mark's AI","timestamp":1791013711035}@@Cooperative AI Summer School
+- Cooperative AI course
+- Cooperative AI Summer School
 - Cooperative AI PhD Fellowship
-- ++}BASE (Black in AI Safety and Ethics)
-- Sentient Futures{++{"author":"Mark's AI","timestamp":1791013711035}@@ course (e.g. AI × Animals)
-- Sentient Futures Project Incubator++}
+- BASE (Black in AI Safety and Ethics)
+- Sentient Futures course (e.g. AI × Animals)
+- Sentient Futures Project Incubator
 - CAIDP (Center for AI and Digital Policy)
 - TARA
-- Vista Institute {--{"author":"Mark's AI","timestamp":1791013711035}@@for AI Policy--}{++{"author":"Mark's AI","timestamp":1791013711035}@@course
-- Vista Institute Fellowship++}
+- Vista Institute course
+- Vista Institute Fellowship
 - Generator Residency
-- Iliad {--{"author":"Mark's AI","timestamp":1791013711035}@@(Fellowship or Intensive)--}{++{"author":"Mark's AI","timestamp":1791013711035}@@Intensive
+- Iliad Intensive
 - Iliad Fellowship
-- Apart Sprint (hackathon)++}
-- Apart {--{"author":"Mark's AI","timestamp":1791013711035}@@Research--}{++{"author":"Mark's AI","timestamp":1791013711035}@@Fellowship++}
+- Apart Sprint (hackathon)
+- Apart Fellowship
 - Heron AI Security Fellowship
 - Horizon Fellowship
 - Talos Fellowship
