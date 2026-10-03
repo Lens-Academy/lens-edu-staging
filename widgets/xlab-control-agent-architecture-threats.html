@@ -1,10 +1,10 @@
----
+<!--lens-widget
 id: '41b373f6-1523-4cf1-ae5d-0cd6b1ba468d'
 title: Agent architecture, where compromises happen
 summary_for_tutor: "Buck Shlegeris's agent architecture diagram with his threat scenarios drawn on it. Five boxes stay on screen throughout (user, scaffold server, inference server, execution server, internet) joined by the ordinary flow arrows, and the learner switches between seven views of the same picture: the plain architecture, the monitor/audit/defer band on the scaffold, the three weight-exfiltration routes (copying weights out of the execution server, hacking the inference server, committing code that compromises another server), and the two rogue-internal-deployment shapes (a self-written agent loop on the execution machine's own GPUs, and a rogue scaffold that calls the real inference API). Each view carries one line naming what is drawn; the post's own explanation of why each route is easy or hard sits in the article text on the page around the widget, and the page's open questions ask about the three-server split, where safety mechanisms sit and what rogue internal deployments look like. The learner has finished when they have opened all seven views. If a learner is stuck, ask which machine the attack path starts on and which one holds the weights."
 height: auto
 tags: []
----
+-->
 <!doctype html>
 <html lang="en">
 <head>
