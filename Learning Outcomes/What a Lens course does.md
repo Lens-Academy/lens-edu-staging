@@ -29,7 +29,7 @@ Two short answers. A few sentences is plenty.
 
 **Second:** name one thing you would still want evidence of before believing this works at scale, and say what that evidence would look like.
 
-max-chars:: 900
+max-words:: 150
 
 assessment-instructions::
 The person taking this test is most likely a funder, partner or prospective collaborator finishing a twenty-minute product tour. They are not a student, they owe us nothing, and the second half of their answer is more valuable to us than the first.
