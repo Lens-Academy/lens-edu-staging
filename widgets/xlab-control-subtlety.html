@@ -1,10 +1,10 @@
----
+<!--lens-widget
 id: '851a893f-e5be-4c34-ac1e-beda519f5c2a'
 title: "Subtlety: visible against reliable"
 summary_for_tutor: "The subtlety curve from Greenblatt et al.'s AI control paper, in the model used by the Lens AI control widgets: trusted monitoring at a 2% audit budget, monitor AUC 0.97, N = 5,000 problems. The learner drags the red team's obfuscation effort (subtlety) sigma from blatant (0) to maximally subtle (1); at each subtlety the red team uses its best attack rate. The chart stacks the per-attack outcome probabilities against subtlety (caught by the monitor, deployed but broken, successfully deployed) and overlays P(red wins). Raising subtlety lowers the catch probability c but also lowers the backdoor's reliability p_works, so P(red wins) peaks in the interior, at a subtlety of about 0.26 and about 35%. At the default subtlety 0.18: c = 51.9%, p_works = 57.9%, s = 27.8%, s/(s+c) = 34.9%, P(red wins) = 34.8%. The numbers are a model built for intuition, not a re-run of the paper's experiments."
 height: auto
 tags: []
----
+-->
 <!doctype html>
 <html lang="en">
 <head>

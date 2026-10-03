@@ -1,10 +1,10 @@
----
+<!--lens-widget
 id: '3fc1d1d0-2294-4098-8f7c-bfa50a09c6d3'
 title: Audit confidence calculator
 summary_for_tutor: "An audit confidence calculator built from Appendix A1 of Cankaya's paper, which sits directly above it on the page with all three of its tables, the sampling formula and the zkLLM anchor. Four log sliders: checked samples per audit day, the true flaw rate, the number of prover GPUs, and the GPU-seconds one proof costs. The sample count and the GPU count are two views of one budget (n = GPUs x 86,400 / cost), so moving either moves the other, and raising the per-proof cost divides the proofs a fixed fleet can afford. The widget recomputes live the detection probability 1 - (1-p)^n, the 95 percent certified ceiling 1 - 0.05^(1/n), the share of the 200,000-GPU reference fleet spent, and how many requests are sampled, with the fleet request rate following the paper alpha = 0.5 scaling. A log chart plots the detection curve for the chosen flaw rate against the paper 1 percent and 0.1 percent columns, marks the current point and gives a hover readout. Every cell of the three appendix tables comes back at the inputs the paper states. Done when the learner has moved two different sliders. The widget carries one instruction line and no other prose; framing, tables and definitions stay in the article text around it."
 height: auto
 tags: [wip]
----
+-->
 <!doctype html>
 <html lang="en">
 <head>
