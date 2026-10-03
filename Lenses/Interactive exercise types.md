@@ -27,7 +27,7 @@ The learner writes or dictates an answer, and gets a response written to the aut
 #### Question: Open
 id:: e7efb42f-fb46-4132-966b-c1d2aa400228
 content:: Name one thing you would want an AI system tested for before it is deployed to millions of people, and say how you would test it.
-max-chars:: 600
+max-words:: 100
 placeholder:: One property, then how you would check it.
 assessment-instructions:: Pass any answer that names a property and gestures at a way to check it. The property can be anything: refusing harmful requests, honesty about uncertainty, robustness to adversarial prompts, not degrading for some group of users, behaving the same when it thinks it is being watched. Fail only an empty answer or one that names no property at all.
 feedback-instructions:: Two or three sentences, no praise. Say what a tester would find hard about the specific check they proposed, and name one property they did not mention that is harder to test than it sounds.

@@ -13,7 +13,7 @@ Two exercises on the AI Futures Model you just read. These are meant for discuss
 id:: 33587aa5-fdb3-40a0-a9dd-7801585c6703
 content:: How does the AI Futures model compare to other takeoff models you've seen this week (e.g. the Forethought software-intelligence-explosion analysis)? Name at least one structural similarity and one difference.
 assessment-instructions:: A good answer identifies a concrete similarity (e.g. both model AI R&D automation as the central driver, both extrapolate from capability trends) and a concrete difference (e.g. milestone-based simulation vs returns-parameter analysis, different treatment of compute bottlenecks or time-horizon extrapolation). Reward specificity about assumptions/parameters over vague comparisons.
-max-chars:: 1200
+{--{"author":"Iris's AI","timestamp":1790987414249}@@max-chars:: 1200--}{++{"author":"Iris's AI","timestamp":1790987414249}@@max-words:: 200++}
 
 #### Question
 id:: bb955d0d-d9c0-4ce6-9310-9cdf142da650

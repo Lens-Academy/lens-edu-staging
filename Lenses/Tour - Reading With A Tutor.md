@@ -40,7 +40,7 @@ One or two sentences, thirty seconds.
 
 You have just read a source **inside** the page, and what you type next will be read by a tutor that knows exactly which paragraphs you were shown. Name one thing a course can do with that combination that a reading list plus a weekly discussion call cannot.
 
-max-chars:: 400
+max-words:: 70
 
 assessment-instructions::
 The person answering is most likely a funder, partner or prospective collaborator taking a short product tour, not a student on a course. Treat them as a smart peer evaluating a product, not as someone to be taught.
