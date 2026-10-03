@@ -26,7 +26,7 @@ assessment-instructions:: A strong answer covers three things: (1) Dangerous by 
 id:: 3b5a19f2-e333-49b1-914d-bcf30968bccf
 content:: Byrnes points to a specific non-behaviorist reward channel he calls "Approval Reward." What role does he argue it plays, and why does it matter for the alignment debate?
 assessment-instructions:: A strong answer: Approval Reward is a part of the human reward function tied to social approval / norm-following / morality and self-image, and Byrnes argues it is a big reason humans (and today's LLMs) do NOT behave like power-seeking ruthless consequentialists. Why it matters: the alignment culture clash reduces to whether future powerful AIs will have something like Approval Reward (like humans) or not (like pure utility-maximizers) — and studying it is an example of the Family-B move of reverse-engineering a specific innate reward channel so it could be installed on purpose. Award 4-5 for the role plus the debate relevance; 3 for the role only; 1-2 if misdescribed. This question draws on the optional deeper-reading lens; accept a reasonable answer and paraphrase.
-max-chars:: 700
+{--{"author":"Iris's AI","timestamp":1790987142188}@@max-chars:: 700--}{++{"author":"Iris's AI","timestamp":1790987142188}@@max-words:: 120++}
 
 # Suggested Lenses:
 ## Lens:

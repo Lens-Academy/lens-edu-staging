@@ -25,13 +25,13 @@ id:: c914e12a-31a0-4945-8a24-a24625919bda
 feedback:: true
 content:: Communication doctrines differ. Contrast a "tell the blunt truth about extinction risk" approach with a more moderate, broad-appeal messaging approach. What does each gain and risk?
 assessment-instructions:: A strong answer contrasts (a) blunt/candid messaging (e.g. MIRI's stance: state the existential risk plainly) — gains credibility, clarity, and moral seriousness, risks sounding alarmist/fringe and narrowing the audience; vs (b) moderate/broad-appeal messaging — gains reach and coalition breadth, risks diluting the core concern, accuracy-vs-virality trade-offs, and capture by simpler framings. Award 4-5 for both approaches with a genuine gain AND risk each; 3 for both approaches but one-sided; 1-2 if only one approach or no trade-off. Accept paraphrase; do not require the learner to name MIRI specifically.
-max-chars:: 700
+{--{"author":"Iris's AI","timestamp":1790987143511}@@max-chars:: 700--}{++{"author":"Iris's AI","timestamp":1790987143511}@@max-words:: 120++}
 #### Question
 id:: 28591469-b467-4e7a-86df-b3377ff1410a
 feedback:: true
 content:: Name and briefly explain two risks that public AI safety advocacy has to manage.
 assessment-instructions:: Credit any two well-explained risks from the material: political polarization / partisan capture; backfire or reputational damage to the cause; capture by simplistic or fringe framings; accuracy-vs-virality tension; differential-development concerns (raising salience of capabilities). Award 4-5 for two risks each with a mechanism; 3 for two named risks with thin explanation; 1-2 for one or vague. Accept paraphrase.
-max-chars:: 500
+{--{"author":"Iris's AI","timestamp":1790987144713}@@max-chars:: 500--}{++{"author":"Iris's AI","timestamp":1790987144713}@@max-words:: 80++}
 
 # Suggested Lenses:
 ## Lens:
