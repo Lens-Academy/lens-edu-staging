@@ -49,7 +49,7 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down what you remember from both readings, without looking back. Then, separately: rewrite your working definition of "slow takeoff" from before, corrected.
 
-assessment-instructions:: The student has just read Raemon's terminology piece and Bensinger's discontinuity comments, and has recalled both plus corrected their own prior working definition.
+feedback-instructions:: The student has just read Raemon's terminology piece and Bensinger's discontinuity comments, and has recalled both plus corrected their own prior working definition.
 
 Key content:
 - "Slow takeoff" in Christiano's sense means CONTINUOUS: capability arrives on a ramp, with substantial impact from weaker systems before any transition. It is a claim about smoothness, not duration.

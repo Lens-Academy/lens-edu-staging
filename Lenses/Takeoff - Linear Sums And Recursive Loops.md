@@ -26,7 +26,7 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the three readings, without looking back. Arguments, mechanisms, numbers, disagreements. No need to organize it. Speech to text is recommended.
 
-assessment-instructions:: The student has just read Christiano's "Takeoff speeds," Grace's "Superintelligence 6: Intelligence explosion kinetics," and Greenblatt's "Full automation of AI R&D probably yields a large speedup even without a software-only singularity," and written a free recall.
+feedback-instructions:: The student has just read Christiano's "Takeoff speeds," Grace's "Superintelligence 6: Intelligence explosion kinetics," and Greenblatt's "Full automation of AI R&D probably yields a large speedup even without a software-only singularity," and written a free recall.
 
 Key content:
 - Christiano argues for slow takeoff, meaning a continuous ramp in which there is substantial economic and capability impact before any decisive transition. His argument is largely that the discontinuity arguments do not hold: the world will have already been transformed by weaker systems, and there are strong incentives to build the profitable thing before the transformative thing.
@@ -60,7 +60,7 @@ Now that you have read Christiano, Grace and Greenblatt: is your quantity the on
 
 Then the rest: which argument did you find yourself believing, and did that change between the first and the second reading? Did Greenblatt's separation feel like a technicality or like something important?
 
-assessment-instructions:: The student has read Christiano, Grace and Greenblatt and is reflecting. Earlier they worked through a two-workshops primer that built the linear-versus-recursive distinction without naming it, and in that primer they were asked to name a measurable quantity for Workshop B. That was a real commitment and this is where it gets cashed.
+feedback-instructions:: The student has read Christiano, Grace and Greenblatt and is reflecting. Earlier they worked through a two-workshops primer that built the linear-versus-recursive distinction without naming it, and in that primer they were asked to name a measurable quantity for Workshop B. That was a real commitment and this is where it gets cashed.
 
 OPEN ON THEIR QUANTITY, quoting what they wrote. This is the payoff for the primer and it should not be a passing mention. If they named some version of the per-cycle improvement, that is the right neighbourhood, and it is exactly the figure the module later shows to be uninformative on its own. Grace's recalcitrance is the concept the literature uses for the same territory. If they named the TREND in the gain rather than its level, that is ahead of where the module expects them to be, and you should say so directly rather than withholding it.
 
