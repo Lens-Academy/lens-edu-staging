@@ -19,7 +19,7 @@ content:: An automated lab searches a library of about 2^40 (roughly a trillion)
 1. Measured against picking a molecule uniformly at random from the whole library, how many bits of optimization does A's pick represent? Show the calculation.
 2. A chemist objects: "Nobody picks from the whole library. Our standard filter, which takes a few minutes, cuts the library to 2^20 drug-like molecules, and all 2^10 of the strong binders survive it." Recompute against this baseline. What does the difference between your two figures tell you about System A, and what does it not tell you?
 3. A different system, B, also returned a molecule in that top 2^10 on its first run. When the lab reruns B with different random seeds and slightly changed inputs, its picks are spread across the library like random draws. What, if anything, did B's first result show about B as an optimizer? Explain.
-max-chars:: 2000
+max-words:: 330
 assessment-instructions:: Score 0 to 100 from three components. Grade reasoning, not wording. Terms such as "bits of optimization", "optimization power" or "basin of attraction" are not required; the ideas are.
 
 **(1) Calculation, 25 points.** Full credit: log2(2^40 / 2^10) = 30 bits, or an equivalent statement that the pick is as unlikely as a 1-in-2^30 random draw. 12 points if the method is right (log of the ratio of all outcomes to outcomes at least as good) but the arithmetic is wrong.

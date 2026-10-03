@@ -19,7 +19,7 @@ content:: An events company publishes a forecast f of how many people will atten
 1. Each week the company retrains by setting its next forecast equal to the average attendance that followed its previous forecast. Where does the forecast end up, and does the process settle? Explain.
 2. Is that end point the forecast with the lowest expected squared error, once the forecast's own effect on attendance is counted? If not, in which direction does the lowest-error forecast lie, and why?
 3. Now suppose the mean attendance were 1000 - 1.5f instead, with everything else unchanged. What happens to the retraining process? Comparing this with part 1, when can retraining on outcomes that a predictor has itself influenced be trusted to settle?
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from three components. Grade reasoning, not a particular method: algebra, a worked sequence of forecasts, or a clear verbal argument all count. The terms "performatively stable" and "performatively optimal" are not required.
 
 **(a) Where retraining settles, 30 points.** The update is: next forecast = 1000 - 0.5 x previous forecast. It settles at the forecast that equals the mean it causes, f = 1000 - 0.5f, so f = 2000/3, about 667. It does settle: each week the distance from 667 is halved and changes sign, so the forecasts alternate above and below 667 and converge. 15 points for the fixed point, 15 for a correct reason why the process converges. 7 of the second 15 for "it converges" with no reason.

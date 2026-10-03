@@ -21,7 +21,7 @@ After a year of observation and genetic sampling, the system builds a better mod
 1. Explain what has happened to the system's objective, and why this is a problem the designers could not have avoided by writing the objective more carefully at the start.
 2. Consider two rules the system could use to carry its objective over to the new model: (i) count genetically distinct colonies; (ii) count visually separate units, as before. For each rule, describe what the system would plausibly do under it in the reserve, and whether that matches what the agency cared about.
 3. Propose the rule you think is best, or argue that no rule the system could choose on its own is adequate. Say what information about the agency your answer relies on.
-max-chars:: 3000
+max-words:: 500
 assessment-instructions:: Score 0 to 100 from three components. Grade reasoning, not agreement with any particular rule. A learner may defend rule (i), rule (ii), a different rule, or deferral to the agency, and earn full credit if the reasoning is sound.
 
 **(1) The crisis, 35 points.** Full credit requires both: (a) the objective was defined over an entity of the old model ("individual animal" as a separate body), and in the new model that entity either does not correspond to one thing or splits into several candidate concepts (genetic colony, physiological unit, fragment), so the objective no longer determines what to do; (b) this cannot be fully fixed in advance because the designers wrote the objective in their own current concepts and cannot anticipate every way a better model will revise them; any more careful wording uses concepts that a later model may revise in the same way. 18 points if only (a) is present. Do not require the term "ontological crisis".

@@ -21,7 +21,7 @@ Write an assessment of this proposal for the coalition. Cover:
 1. which safety problems this design choice would make easier, and why;
 2. what the strategy is betting on about the world, and what happens to the strategy if that bet is wrong;
 3. whether a system built under this rule could still end up improving its own thinking; if so, how and why, and what that means for the rule.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from three components. Grade reasoning, not agreement: a learner may conclude that the proposal is a good idea or a bad one.
 
 **(a) Problems made easier, 30 points.** Full credit names two problems and says why each becomes easier. Examples: keeping the system's goals stable is easier, because the system is not rewriting itself or choosing successors, so its goals do not need to survive self-modification; understanding what the system is thinking, including finding its goals or concepts, is easier if its algorithms are understood; its capabilities are easier to forecast and bound, because gains come from known resources such as more compute rather than from redesigns of its own cognition. 15 points for one problem with a reason. Full credit may also be earned with one problem plus a well-argued point that the "human-understood algorithms" condition may be much harder to meet than the proposal suggests (for example, with deep learning the training procedure is known but the learned computation is not).

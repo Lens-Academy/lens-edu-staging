@@ -27,7 +27,7 @@ id:: ec9c1dfc-3e1e-43f0-9765-fa1aa2e5cdc3
 feedback:: true
 content:: Explain the "circularity" objection to solving alignment by merging with AI. Which BCI-type sub-threads does it hit, and which does it spare?
 assessment-instructions:: A strong answer states the circularity objection (Shulman): to merge safely you need an AI that is already aligned/trustworthy — so merging presupposes alignment rather than creating it; and once the AI surpasses the human, the human becomes the bottleneck, not a safeguard. It hits the MERGE thread hardest. It largely SPARES enhance/emulate threads (cognitive enhancement, WBE) — raising human capability directly or producing human-derived minds doesn't require fusing with an unaligned AI — and it doesn't defeat soft cyborgism (human steers tools). Award 4-5 for the objection plus correctly saying it targets merge but spares enhance/upload; 3 for the objection only; 1-2 if misstated. Accept paraphrase.
-max-chars:: 700
+{--{"author":"Iris's AI","timestamp":1790987267037}@@max-chars:: 700--}{++{"author":"Iris's AI","timestamp":1790987267037}@@max-words:: 120++}
 
 # Suggested Lenses:
 ## Lens:
