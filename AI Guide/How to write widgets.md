@@ -49,9 +49,9 @@ Embed it from a lens with a `#### Widget` segment:
 source:: [[../widgets/types-of-ai]]
 ```
 
-{++{"author":"Iris's AI","timestamp":1790961952150}@@**No third-party pages inside a widget.** The widget frame has no cookies or storage, and an `<iframe>` inside it inherits that. A third-party app that needs storage to start stays blank there: an Airtable form does. To show such a page between a lens's segments, use `#### Embed` with `inline:: true` (see [[Writing Lenses]]).
+**No third-party pages inside a widget.** The widget frame has no cookies or storage, and an `<iframe>` inside it inherits that. A third-party app that needs storage to start stays blank there: an Airtable form does. To show such a page between a lens's segments, use `#### Embed` with `inline:: true` (see [[Writing Lenses]]).
 
-++}Optional on the segment: `height::` overrides the file's height for that one placement; `required:: true` makes the lens wait for the widget's `Lens.complete()` before the learner can mark it complete (widgets gate nothing by default). A widget can be used by several lenses.
+Optional on the segment: `height::` overrides the file's height for that one placement; `required:: true` makes the lens wait for the widget's `Lens.complete()` before the learner can mark it complete (widgets gate nothing by default). A widget can be used by several lenses.
 
 **Widgets that belong to an article.** If a widget is built because it belongs to a source article (it reproduces or replaces a figure in an article we import), it goes inside that article, at the figure's place, with `![[../widgets/name]]` on its own line in `articles/<name>.md` (see [[Adding Sources]]). It is then imported into every lens together with the article excerpt. Never place such a widget as a separate `#### Widget` segment in the lens next to the article: that puts the figure outside the article it belongs to. And never make it more complex than the figure it stands for: the same chart, the same controls the original has and no others, no buttons, filters, readouts, progress marks or instructions the original does not show. Tables, captions or lead-ins written as a text stand-in for the figure go away when the widget goes in.
 

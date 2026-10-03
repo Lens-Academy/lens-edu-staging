@@ -25,7 +25,7 @@ This is counter to the alignment target of **corrigibility** discussed earlier: 
 id:: 3d66193a-5af5-410e-ab04-6bb5bea82c45
 content:: Practice: a common misreading of "instrumental convergence" is "all advanced AIs will end up wanting the same thing." Why is that wrong? State what actually converges.
 assessment-instructions:: A good answer says it is not the *final* goals that converge — those can be wildly diverse (and may even be arbitrary, per the orthogonality thesis). What converges are *instrumental* sub-goals: things like self-preservation, goal-preservation, and self-improvement that are useful for achieving almost *any* final goal. Award 4-5 for clearly locating the convergence at the instrumental/sub-goal level rather than the final-goal level; 2-3 for partial; 1 if the misreading is repeated. Low-stakes practice — be encouraging.
-{--{"author":"Iris's AI","timestamp":1790987416658}@@max-chars:: 400--}{++{"author":"Iris's AI","timestamp":1790987416658}@@max-words:: 70++}
+max-words:: 70
 
 #### Chat
 optional:: true

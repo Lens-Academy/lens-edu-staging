@@ -89,9 +89,9 @@ labels::
 - Very good
 - Excellent
 
-#### {++{"author":"Luc's AI","timestamp":1790875189611}@@Page
+#### Page
 
-#### ++}Text
+#### Text
 content:: **The full course**
 
 #### Question: Rating
@@ -191,9 +191,9 @@ labels::
 - Actively working toward it
 - Already full-time or in a paid fellowship
 
-#### {++{"author":"Luc's AI","timestamp":1790875191279}@@Page
+#### Page
 
-#### ++}Question: Open
+#### Question: Open
 id:: 08ba2594-a5e7-4d36-a1ba-01768244df34
 content:: Would you like to leave a short note for people considering this course or Lens? We may share it on our website.
 optional:: true
