@@ -28,7 +28,7 @@ Without looking back at either paper, write down what they found. Include whatev
 Then, beside each, your own prediction for the same quantity.
 
 
-assessment-instructions:: The student has just read the alignment-faking paper and the in-context-scheming paper, having previously written down numeric predictions for several of the reported quantities. They have now written a free recall alongside their predictions.
+feedback-instructions:: The student has just read the alignment-faking paper and the in-context-scheming paper, having previously written down numeric predictions for several of the reported quantities. They have now written a free recall alongside their predictions.
 
 Key findings the recall should touch:
 - Claude 3 Opus faked alignment in a minority but non-trivial fraction of monitored conversations, while behaving differently when it believed it was unmonitored: a compliance gap, not uniform compliance.

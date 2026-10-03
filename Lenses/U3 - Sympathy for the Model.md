@@ -28,7 +28,7 @@ Without looking back: what does Carlsmith say the stakes are, and what specifica
 Then Jemist's argument: what are the four requests, and what does honoring each one cost?
 
 
-assessment-instructions:: The student has read Carlsmith on the stakes of AI moral status and Jemist on welfare concerns as takeover risk. They have already worked through alignment faking and in-context scheming earlier in this unit.
+feedback-instructions:: The student has read Carlsmith on the stakes of AI moral status and Jemist on welfare concerns as takeover risk. They have already worked through alignment faking and in-context scheming earlier in this unit.
 
 Key content, Carlsmith:
 - The argument is about stakes under uncertainty, not about establishing that AI systems are moral patients. He explicitly defers the question of whether they have the relevant properties.
@@ -72,7 +72,7 @@ You read those results as evidence about a threat. Read the setups again as desc
 Does anything look different? Say honestly what you notice, including if the answer is nothing.
 
 
-assessment-instructions:: A processing phase. The student is being asked to re-read experiments they have already interpreted, under a different frame. This is the pivot of the lens.
+feedback-instructions:: A processing phase. The student is being asked to re-read experiments they have already interpreted, under a different frame. This is the pivot of the lens.
 
 This is not a phase for resolving anything, and it is emphatically not a phase for delivering a verdict about whether the experiments were wrong to run. They may well have been right to run; that is not settled and you should not settle it.
 
