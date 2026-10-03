@@ -1,10 +1,10 @@
----
+<!--lens-widget
 id: 'acd00bf6-a7c2-4541-8202-25e8c29aecb6'
 title: Catching a rogue internal deployment
 summary_for_tutor: "An interactive chart of the probability that a rogue internal deployment is caught by random recomputation of logged compute packets, plotted against the rogue deployment's size in H100e on a log x axis, with three curves for detection within 1 hour, 1 week and 1 month and a y axis running 0, 50%, 90%, 99%, 99.9%, 99.99%. Two sliders drive it: Year (2030, 2032, 2034, 2040) sets the verified compute pool shown above the chart and the packet size that year's logging implies, and Packet size (1, 10, 100, 1K, 10K H100e-hours) sets how much compute one auditable packet covers, so smaller packets mean more rogue packets to sample and steeper curves. The recomputation budget is fixed at 1% and P(detected) = 1 - exp(-0.01 * size * hours / packet). It opens at 2034, a ~33B H100e pool and packets of 100 H100e-hours, where a 1K H100e rogue deployment is near certain to be caught within a month and a 1 H100e one is not."
 height: auto
 tags: [wip]
----
+-->
 <!doctype html>
 <html lang="en">
 <head>
