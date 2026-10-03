@@ -16,12 +16,12 @@ id:: b37cb37a-c7e6-451c-a4ad-05cc9fa9e43a
 id:: eb92ba8c-6fc0-4bbe-a95a-738fb3836311
 content:: Describe the two-subsystem picture of brain-like AGI (the Learning Subsystem vs the Steering Subsystem) and how they relate as a reinforcement-learning agent.
 assessment-instructions:: A strong answer explains: a from-scratch, cortex-like Learning Subsystem that acquires knowledge and skills through experience, and an innate, genetically-specified Steering Subsystem (brainstem/hypothalamus-like) that supplies the reward/motivation signal; together they form an actor-critic reinforcement learner, with the Steering Subsystem shaping what the Learning Subsystem is motivated toward. Award 4-5 for both subsystems correctly described plus the RL/actor-critic relationship; 3 for both subsystems but a vague relationship; 1-2 if a subsystem is misdescribed (e.g. swapping their roles). Accept paraphrase.
-max-chars:: 600
+{--{"author":"Iris's AI","timestamp":1790987129038}@@max-chars:: 600--}{++{"author":"Iris's AI","timestamp":1790987129038}@@max-words:: 100++}
 #### Question
 id:: 2186b0ac-adbf-4711-9093-2fb57fe63ff2
 content:: Why does Byrnes say brain-like AGI is dangerous "by default," and what is his proposed fix? Also: does his approach require whole-brain emulation?
 assessment-instructions:: A strong answer covers three things: (1) Dangerous by default — a capable, autonomous, goal-pursuing brain-like AGI would tend to acquire radically nonhuman, misaligned motivations unless deliberately steered, and could cause catastrophe without sci-fi superweapons. (2) The fix — reverse-engineer the brain's innate steering / social-instinct circuitry and reward function so beneficial motivations can be installed deliberately (values foundational, not bolted on). (3) No — it does NOT require whole-brain emulation or low-level neural simulation; only high-level algorithmic similarity. Award 4-5 for all three; 3 for two; 1-2 for one or if the learner wrongly says it needs WBE. Accept paraphrase.
-max-chars:: 700
+{--{"author":"Iris's AI","timestamp":1790987130231}@@max-chars:: 700--}{++{"author":"Iris's AI","timestamp":1790987130231}@@max-words:: 120++}
 #### Question
 id:: 3b5a19f2-e333-49b1-914d-bcf30968bccf
 content:: Byrnes points to a specific non-behaviorist reward channel he calls "Approval Reward." What role does he argue it plays, and why does it matter for the alignment debate?
