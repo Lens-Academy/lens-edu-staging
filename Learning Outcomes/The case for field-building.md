@@ -23,7 +23,7 @@ id:: b9224f70-9cf7-40db-b38c-e23bb7f104da
 feedback:: true
 content:: "Field-building" is often equated with "produce more junior researchers." Why is that too narrow? Give at least two other things capacity-building includes.
 assessment-instructions:: A strong answer explains that capacity-building is broader than top-of-funnel junior production, and names at least two of: founders/entrepreneurs, managers, mentors/senior researchers, organizations that can absorb and employ people, community and grantmaking infrastructure. Bonus for noting that over-producing juniors without downstream absorption is a failure mode. Award 4-5 for the reframing plus two valid examples; 3 for two examples with weak framing; 1-2 if it just restates "more researchers." Accept paraphrase.
-max-chars:: 500
+{--{"author":"Iris's AI","timestamp":1790987325257}@@max-chars:: 500--}{++{"author":"Iris's AI","timestamp":1790987325257}@@max-words:: 80++}
 
 # Suggested Lenses:
 ## Lens:

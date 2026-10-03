@@ -27,7 +27,7 @@ id:: 4b336c35-5ee3-4cae-a978-8f00b724efa7
 feedback:: true
 content:: Elmore argues for public advocacy; Leicht argues against a broad movement. Where exactly do they disagree — and is it a factual disagreement, a values disagreement, or a bet about consequences?
 assessment-instructions:: A strong answer locates the crux: both want good AI-safety policy; they disagree about whether a *broad public movement* is net-positive or net-negative for that goal. It is primarily a bet about consequences / empirical-strategic disagreement (will a movement generate political will, or will it backfire and discredit the cause?), not a fundamental values clash. Credit noting that Leicht favors narrow issue-orgs while Elmore favors mass public advocacy, and that evidence about how movements actually behave (backfire, capture, mobilization) would move the disagreement. Award 4-5 for correctly locating the crux AND classifying it as a consequences/empirical bet; 3 for locating the crux only; 1-2 if it misframes the disagreement. Accept paraphrase.
-max-chars:: 700
+{--{"author":"Iris's AI","timestamp":1790987329663}@@max-chars:: 700--}{++{"author":"Iris's AI","timestamp":1790987329663}@@max-words:: 120++}
 #### Question
 id:: 9f43a58b-9849-47e7-951b-bb0e1bd0015e
 feedback:: true
