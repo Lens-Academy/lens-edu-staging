@@ -1,10 +1,10 @@
----
+<!--lens-widget
 id: '7cbbcd04-16a7-4fc1-9aa2-aaf8233f9c9b'
 title: Tap granularity by year, for a GPT-3 sized training run
 summary_for_tutor: "A static figure with three stacked rows, one for 2030, 2032 and 2034, showing how finely a network tap can resolve the same workload as tapping moves deeper into the machine. Every row holds an identical box standing for one GPT-3 sized training run of 100K H100e-hours, and each box is ruled into equal cells, one cell per tap point, so a cell is the share of the run a single tap can account for. In 2030 a per-server tap sees about 4K H100e at a time and the run splits into 25 wide cells. In 2032 a per-shelf tap sees about 400 H100e and the same run splits into 250 cells, 50 across by 5 down. In 2034 a per-GPU tap sees about 100 H100e and the run splits into 1000 cells, 100 across by 10 down. The visual point is that the workload never changes size while the grid grows forty times finer, so each later year lets a verifier attribute a much smaller slice of compute to a specific piece of hardware."
 height: auto
 tags: [wip]
----
+-->
 <!doctype html>
 <html lang="en">
 <head>

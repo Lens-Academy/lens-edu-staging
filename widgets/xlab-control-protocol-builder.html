@@ -1,10 +1,10 @@
----
+<!--lens-widget
 id: 'ebb967f7-2730-4e67-bde5-34fc018d17d3'
 title: Build the blue-team protocols
 summary_for_tutor: "A construction exercise for Table 2 of Greenblatt et al.'s AI control paper, ported from XLab's drag-and-drop flow-chart builder. Six tabs, one per blue-team protocol (don't use untrusted models, upfront auditing, trusted monitoring, defer to trusted 10%, untrusted monitoring, trusted editing 20%); a toggle shows that protocol's Table 2 description. For each, the learner builds a flow chart down from 'Problem arrives' by dragging blocks (or tapping a block, then a dashed slot) from a palette: steps (U writes a solution, T rates suspicion, a separate copy of U rates suspicion), decisions that split into labelled arms (first 2% of problems yes/no; suspicion rank top 2% / bottom 98%, top 2% / 2-10% / bottom 90%, top 2% / 2-20% / bottom 80%) and endings (submit U's code, have T write and submit its own, have T edit U's code and submit the edit, audit with H). Check is enabled once every path ends in an ending; it marks each block as matching Table 2 or not, and a correct chart reveals a one-sentence explanation of what that row buys. The point is that every protocol in the paper is the same shape and only the routing rule and the fallback differ."
 height: auto
 tags: []
----
+-->
 <!doctype html>
 <html lang="en">
 <head>
