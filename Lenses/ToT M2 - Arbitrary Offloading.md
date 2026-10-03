@@ -51,7 +51,7 @@ First, spend 2 minutes writing down everything you can remember from the reading
 
 Then, in a sentence or two, jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organise. Just capture your reaction.
 
-assessment-instructions:: The student has just read the short piece on arbitrary offloading (Unit 2 of "Thinking about Thinking"), following the Metacognition lens. They first wrote a free recall, then noted how the reading landed. Your role is part diagnostic mirror, part reaction coach, in a single reply.
+{--{"author":"James's AI","timestamp":1791008423639}@@assessment-instructions::--}{++{"author":"James's AI","timestamp":1791008423639}@@feedback-instructions::++} The student has just read the short piece on arbitrary offloading (Unit 2 of "Thinking about Thinking"), following the Metacognition lens. They first wrote a free recall, then noted how the reading landed. Your role is part diagnostic mirror, part reaction coach, in a single reply.
 
 Key concepts in the piece:
 - Arbitrary offloading: handing off a decision you cannot evaluate, and following it anyway

@@ -34,7 +34,7 @@ content::
 \## Which trap do you miss?
 Of the three traps AI adds, Interruption, Mislead, and Progression, which is easiest to overlook in your own work, and why? Take two minutes to write down one honest example from the last week.
 
-assessment-instructions:: The student has just watched the clip on the three AI-added metacognitive traps (Interruption, Mislead, Progression) and read their one-line definitions in Unit 3 of "Thinking about Thinking". They are now naming which trap they most easily miss and why. This is a single reflective question, not a multi-turn socratic sequence.
+{--{"author":"James's AI","timestamp":1791008427246}@@assessment-instructions::--}{++{"author":"James's AI","timestamp":1791008427246}@@feedback-instructions::++} The student has just watched the clip on the three AI-added metacognitive traps (Interruption, Mislead, Progression) and read their one-line definitions in Unit 3 of "Thinking about Thinking". They are now naming which trap they most easily miss and why. This is a single reflective question, not a multi-turn socratic sequence.
 
 Key points to check they grasped:
 - Interruption: a stream of suggestions breaks concentration at the moments thinking needs

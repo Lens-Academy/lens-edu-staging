@@ -26,7 +26,7 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from both readings, without looking back. The mechanics of the method, the assumptions, the correction, the numbers. No need to organize it. Speech to text is recommended.
 
-assessment-instructions:: The student has just read Karnofsky's two biological-anchors pieces and written a free recall without looking back.
+feedback-instructions:: The student has just read Karnofsky's two biological-anchors pieces and written a free recall without looking back.
 
 Key content:
 - The bio-anchors method estimates transformative AI timelines by anchoring the compute required to train such a system to a biological reference point: the computation performed by a human brain over a lifetime, or the computation performed by evolution in producing brains, among several anchors.
@@ -56,7 +56,7 @@ Go back to what you wrote in the previous lens, your answer to "what is my estim
 
 Take 2 minutes: has that answer changed? What did it feel like to read an author dismantle the interpretation of his own model? And is there something unsatisfying about a method that gives you a bound rather than a date? Just capture the reaction.
 
-assessment-instructions:: The student committed, in the previous lens, to a classification of their own estimate; that lens was built to draw out "this is when it happens", so expect a location. They have now read Karnofsky's method and his correction to it.
+feedback-instructions:: The student committed, in the previous lens, to a classification of their own estimate; that lens was built to draw out "this is when it happens", so expect a location. They have now read Karnofsky's method and his correction to it.
 
 This is a processing phase, not a teaching phase. Help them articulate the reaction. Do not resolve it.
 
