@@ -1,10 +1,10 @@
----
+<!--lens-widget
 id: '6c367a98-67c5-4665-8092-88eefb7ef885'
 title: Attack tree bench, the safety log goes quiet
 summary_for_tutor: "An optional second attack-tree exercise on the Attack Trees lens, same engine as the backdoor bench. Scenario: an untrusted model U works as an agent with write access to a lab's code repository and may be scheming; every change U makes is reviewed by a weaker trusted model; the outcome is that the job recording U's actions for safety review stops running and nobody notices for a week. Step 1 (red): build the tree from the root and check it. Step 2 (blue): the lab adds human approval for any change to the logging job's configuration files; tag the nodes it prevents, detects or deters and check the tags. Step 3 (red): revise the tree and check it. Checks are graded against must-have conditions with a Lens-written example tree that is one good answer, not the key. The example: root AND of (the job stops running, OR of: disable it via its configuration, break something it depends on, make it fail at run time), U's changes get past the trusted review, and nobody notices for a week (AND of: no alert fires or U suppresses it, and no one looks at the log within the week). Human approval prevents the configuration route and leaves the indirect routes open. The tutor gives feedback on the learner's own tree without writing out the example."
 height: auto
 tags: []
----
+-->
 <!doctype html>
 <html lang="en">
 <head>

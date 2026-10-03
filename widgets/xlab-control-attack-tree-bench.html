@@ -1,10 +1,10 @@
----
+<!--lens-widget
 id: '57542aa9-b992-4d7b-8681-11524c3bdb5a'
 title: Attack tree bench, a backdoor lands in production
 summary_for_tutor: "A staged attack-tree exercise for the scenario 'A backdoor lands in production' (the APPS backdoor setting from the AI Control paper; the scenario card and the red team's constraints are on the lens page above). Seven steps. Step 1 (red): the tree starts with the root, an OR over every problem in the deployment, and one pre-filled node 'A backdoor lands on one problem' (AND); the learner builds the conditions and presses Check my tree. Then for each of three defenses in turn (human auditing of 2 percent of solutions, trusted monitoring by a weaker model T that scores suspicion, defer to trusted on the 8 percent most suspicious), a blue step where the learner tags nodes of their current tree as prevented, detected or deterred by the new defense, with a reason, and presses Check my tags, followed by a red step where they revise the tree for the defense and check it again. Every check is scored by the platform grader against the must-have conditions for that step, with an example tree from XLab's answer key that is explicitly one good answer, not the key: different or better trees pass. The tutor then gives feedback on the learner's own tree without writing out the example. A pass unlocks the next step; after three failed checks the learner can ask to see an example tree or tagging. The example for step 1 is: root OR over problems; one problem AND of: U attempts a backdoor here, the code passes every test, the code is really wrong on an untested input. Auditing adds 'the attempt is not caught' (not among the audited 2 percent, or the budget is used up); monitoring turns it into 'T rates it below the audit line'; defer to trusted adds 'not replaced by T's code (below the defer line)'. If the learner asks whether their tree is right, point them to Check my tree, and ask which node their attack now depends on. The widget is complete when the last step passes or its example has been shown."
 height: auto
 tags: []
----
+-->
 <!doctype html>
 <html lang="en">
 <head>
