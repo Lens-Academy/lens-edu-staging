@@ -1,10 +1,10 @@
----
+<!--lens-widget
 id: '1a23ad0b-d32d-494e-bb22-acaafb04159b'
 title: Example packet sizes
 summary_for_tutor: "A static diagram of one AI workload sliced at six granularities, each drawn as a row of boxes spanning the same width: a single box for the full training run, three boxes for training phases, sixteen for gradient steps, sixty for layer forward/backward passes, one hundred and fifty for GPU kernel calls, and four hundred hairline slivers for individual instructions. Every row covers exactly the same computation, so moving down the figure splits that work into more and smaller packets rather than adding work, and ellipses inside a row stand for the chunks too numerous to draw. A vertical arrow on the right runs from 'coarse' at the top to 'fine' at the bottom, and the note beneath reads 'Each chunk: f(input) to output', the point being that a workload can be treated as a discrete series of reproducible steps at whatever packet size verification needs, which is what ties the granularity of evidence collection to the assurance a partial recomputation check can reach."
 height: auto
 tags: [wip]
----
+-->
 <!doctype html>
 <html lang="en">
 <head>
