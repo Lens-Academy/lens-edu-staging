@@ -97,7 +97,7 @@ Fields per segment:
 
 - `#### Text`: required `content`. Optional: `optional`.
 - `#### Chat`: required `instructions`. Optional: `hidePreviousContentFromUser`, `hidePreviousContentFromTutor`.
-- `#### Article`: none required. Optional: `source`, `from`, `to`, `optional`, `hide-author`, `render-as-non-article-text`.
+- `#### Article`: none required. Optional: `source`, `from`, `to`, `optional`, `render-as-non-article-text`.
 - `#### Video`: none required. Optional: `source`, `from`, `to`, `optional`.
 - Question segments: use [[../Lenses/Response to question segments]] as the single reference for types, fields, defaults, syntax, and grading behavior.
 - `#### Roleplay`: required `id`, `content`, `ai-instructions`. Optional: `opening-message`, `assessment-instructions`, `user-customizable`, `feedback`, `optional`.
@@ -114,7 +114,7 @@ A bare `#### Question` is legacy syntax. Do not write it in new or edited conten
 
 **Article**: embeds an excerpt of an `articles/` file. `from::`/`to::` are exact text anchors quoted from the article ("start here", "stop here"). **Both anchors are inclusive:** the excerpt contains the text matched by `from::` and the text matched by `to::` (this is not a half-open range). Each anchor is independent: only `from::` reads to the end, only `to::` reads from the start, neither embeds the whole article. Text outside the excerpt is shown collapsed, so anchors need only bracket the assigned part. Anchors must match the article file character-exactly (watch curly quotes); copy them from the stored article via `read`, never from a summarizing web fetch.
 
-**Hiding the author:** `hide-author:: true` on an `#### Article` (or `#### Embed`) segment quotes the article without crediting its author. The name leaves this lens's sidebar entry, the byline, the read-aloud intro and the tutor's source line; the title, date and "Read original" link stay. One `hide-author::` on any excerpt hides that article's author for the whole lens, and other lenses using the same article still credit it. `hide-author:: sidebar` keeps the byline, read-aloud intro and tutor's source line and leaves the name out of this lens's sidebar entry only (articles only; on an embed it warns, since an embed has no sidebar credit); if one excerpt says `true` and another `sidebar`, `true` wins. Live examples: "Quoting without the author" and "Hiding the author from the sidebar only" in [[../modules/main-demo-module]].
+**The sidebar credit:** a lens's sidebar entry, module overview and card links credit its article authors and video channels. To change that, set `sidebar_author:` in the lens frontmatter (`sidebar_author::` on an inline lens): a name replaces the credit, `none` credits nobody. Bylines, the source bar, read-aloud and the tutor's source line always keep the article's author. Live example: "Choosing the sidebar credit" in [[../modules/main-demo-module]].
 
 **Showing an article as the lens's own text:** `render-as-non-article-text:: true` on an `#### Article` segment shows the excerpt like a `#### Text` segment. There is no title, author, date, "Read original" link, `[...]` collapsed part or excerpt marker, and the lens is not shown as an article in the navigation. Read-aloud credits the course's partner (or the site that owns the course). Use it only for text that the course's own site or partner publishes, such as the AI Safety Atlas chapters on the Atlas course. A third party's article keeps its byline.
 
