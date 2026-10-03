@@ -1,10 +1,10 @@
----
+<!--lens-widget
 id: '3c0d7d99-c6f2-446c-8269-0a5b6e24c0f6'
 title: The control game
 summary_for_tutor: "A playable model of the whole control game of Greenblatt et al.'s AI control paper, against a red team that always best-responds. The learner sets three blue-team knobs: the audit budget b (share of solutions H can audit), the defer band d (the width of the suspicion band just below the audit line where T rewrites the solution instead, so the defer threshold sits at b + d), and monitor quality as AUC. At the defaults (b = 2%, defer band 8% wide, AUC 0.97) the protocol is the paper's defer-to-trusted-10%: 81% safety and 92% usefulness against a best-responding red team. It shows the suspicion-score distributions with the audit and defer bands marked, the safety/usefulness frontier traced by sweeping the defer band, and readouts for safety, usefulness and the red team's chosen attack rate and obfuscation effort. The red team's side of the same model (the attack-rate hump, the subtlety curve and the best-response heat map) has its own three widgets in 'The AI control paper (3)'. Usefulness here is modelled as 1 minus the deferred fraction. The numbers are a model built for intuition, not a re-run of the paper's experiments."
 height: auto
 tags: []
----
+-->
 <!doctype html>
 <html lang="en">
 <head>
