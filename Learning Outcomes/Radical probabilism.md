@@ -25,7 +25,7 @@ content:: 1. A forecaster has these beliefs about whether an AI model has a hidd
 For each reasoner, say whether the pattern is consistent with radical probabilism. For each one that is not, describe how a bookie could make money from them.
 
 3. A critic says: "Reasoner A is irrational, because A's beliefs changed without any new observation." Respond to the critic.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from three components. Grade reasoning, not agreement: in part 3 the learner may side with the critic, and can score full marks if the argument is sound. Accept equivalent terminology (Jeffrey conditioning, probability kinematics, martingale property, conservation of expected evidence, reflection, Dutch book, money pump).
 
 **(a) Uncertain evidence, 25 points.** 15 points: new credence = 0.7 x 0.9 + 0.3 x 0.2 = 0.69 (up from 0.48 before reading the log). Give 8 of the 15 for the correct formula with an arithmetic slip. 10 points: ordinary conditioning requires learning a proposition with certainty, but here the forecaster is only 70% sure the model passed; Jeffrey updating keeps the conditional probabilities fixed and re-weights by the new probabilities of passing and failing.

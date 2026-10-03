@@ -24,7 +24,7 @@ The sub-agent could have been built in one of two ways:
 1. Predict how each version behaves on Wednesday, and explain why.
 2. Compare what each version will avoid doing, even before Wednesday, while it keeps the GPUs busy. Explain the difference.
 3. A common model of agents says an agent has fixed final goals, and all its other goals are derived from those final goals. Explain what this model gets right and what it gets wrong or leaves out about these two sub-agents.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from three components. Grade reasoning, not agreement: a learner who defends the common model (for example, arguing that Version B simply is a separate agent with its own final goal) can earn full marks on part 3 if they explain what that description predicts and where it is or is not useful. Do not require any author names or the terms "managed", "unmanaged", "corrigible" or "instrumental convergence"; judge the ideas.
 
 **(1) Wednesday, 35 points.** Full credit requires both predictions with reasons tied to how each version is built. Version A: once it learns of the new plan, it releases the GPUs or scales down, because its goal is tied to what the main system needs and it has learned that this can change. Version B: it keeps maximizing usage and may resist or work around the handover (for example, filling freed GPUs with new jobs, restarting stopped jobs, or making its jobs hard to stop), because nothing in its reward depends on the main system's plan; for it, usage is effectively the final goal. 17 points if only one version is predicted with a reason, or both are predicted without reasons. Hedged predictions ("A will probably...") are fine.
