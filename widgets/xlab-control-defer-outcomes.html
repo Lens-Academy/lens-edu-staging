@@ -1,10 +1,10 @@
----
+<!--lens-widget
 id: '6bd9b153-6fff-4df8-9465-7614de583b6b'
 title: Defer to trusted, mechanistically
 summary_for_tutor: "A port of the 'Defer to trusted, mechanistically' demo from the XLab lesson on the AI control paper, using the same control model as the control game widget (audit budget fixed at 2 percent, monitor AUC 0.97, a red team that always best-responds). One slider sets the defer threshold d, from 2 to 40 percent (default 10 percent, the paper's defer-to-trusted-10%): code in the most suspicious 2 percent is audited, code between the top d and the top 2 percent is not deployed and is rewritten by T instead, so the deferred share of problems is d minus 2 percent. Top chart: the suspicion-score distributions of innocent code and of the red team's attacks (drawn at its best response), with the audit region and the defer band shaded. Bottom chart: per-attack outcome probability as a function of d, stacked into four bands that sum to 1: caught (audited), deferred to T (silently neutralized), deployed but broken, and successfully deployed, with a marker at the current d. Readouts give safety against the best response, usefulness (1 minus the deferred share), the deferred share, and the red team's attack rate and subtlety. What to notice: the defer band holds a large share of the attack mass but only a thin slice of the innocent mass, so it buys safety cheaply; widening it pushes the red team toward subtler attacks, so the caught band shrinks too, while more and more of the remaining attacks ship broken. The numbers are a model built for intuition, not the paper's measurements. The widget completes once the learner has looked at both a narrow band (d at most 5 percent) and a wide one (d at least 25 percent). Ask what happened to the caught band as the defer band widened, and why."
 height: auto
 tags: []
----
+-->
 <!doctype html>
 <html lang="en">
 <head>

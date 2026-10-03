@@ -1,10 +1,10 @@
----
+<!--lens-widget
 id: '25077ea6-2c74-4fb3-84fe-02cbf7c27e45'
 title: Same number, different safety
 summary_for_tutor: "Two idealised monitors with the same AUC but different attack-score spread, from the signal-detection model of the trusted monitor in Greenblatt et al.'s AI control paper. Innocent solutions score N(0,1) for both; Monitor A's attack scores have spread 1.0 (spread wide), Monitor B's 0.4 (compressed). One shared slider sets the AUC of both monitors (default 0.92). For each monitor the widget shows the innocent and attack score distributions with the 2% audit line and the share of attacks caught at a 2% audit budget, plus both ROC curves in one chart. At AUC 0.92, A catches about 47% and B about 9%, although their ROC curves enclose the same area; the gap holds across AUCs. The point: under a fixed audit budget what matters is the true-positive rate at a false-positive rate equal to the budget (the low-FPR tail of the ROC curve), not the AUC. The Gaussian model is an idealisation for intuition, not a fit to the paper's data."
 height: auto
 tags: []
----
+-->
 <!doctype html>
 <html lang="en">
 <head>
