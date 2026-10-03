@@ -23,7 +23,7 @@ A legislator then proposes a bill: "Frontier AI developers must submit to an eme
 
 1. Explain how A and B can both be describing the same systems accurately. What does each one mean by "AGI", and what evidence would settle each of their claims?
 2. Rewrite the bill's trigger so that it picks out what the bill cares about. Explain why your version is better than "once AGI has been achieved", and name one weakness it still has.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from two components. Grade reasoning. The learner does not need to cite any published definition of AGI or name any author or framework.
 
 **(1) Disambiguation, 50 points.** Full credit needs: (a) the two forecasters use different thresholds, in any wording: A counts systems that beat experts on short, well-defined tasks; B requires the ability to carry out long, open-ended projects on its own (or real-world impact of that kind). Identifying the dimension that differs, such as task length, autonomy, or real-world impact versus test performance, is what matters (20 points); (b) given those meanings, both claims can be true of the same systems at the same time, so the disagreement is partly about the word rather than about the systems (10 points); (c) evidence that would settle each claim, stated concretely: for A, comparisons with human experts on the relevant short tasks; for B, observed performance on long-horizon autonomous work, such as multi-week projects completed with little human help, or measured economic substitution (20 points; 10 if the evidence is only for one of the two claims). Accept answers that add that the forecasters may also disagree on facts, if (a) to (c) are present.

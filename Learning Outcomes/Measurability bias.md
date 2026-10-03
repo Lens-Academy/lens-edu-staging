@@ -23,7 +23,7 @@ content:: An AI lab states that its mission is "AI systems that are genuinely tr
 1. For each finding, explain the mechanism that produced it. Say whether any two findings share a mechanism.
 2. Which finding do you think would be hardest to reverse, and why?
 3. Propose one change for each distinct mechanism you identified, and explain why it addresses that mechanism rather than another.
-max-chars:: 3000
+max-words:: 500
 assessment-instructions:: Score 0 to 100 from three components. Grade reasoning, not agreement: a learner may rank the findings differently from the guide below, or classify a finding differently, and earn full credit if the argument is sound and grounded in the case.
 
 **(1) Mechanisms, 45 points (15 each).** (a) Neglect: effort and resources flow to what the dashboard measures, so valuable work that produces no number shrinks, even though nobody decided it was unimportant. (b) Value capture: people's understanding of the goal itself has been replaced by the simplified, measurable version, so they no longer see what is missing; this differs from (a) because the value, not only the effort, has changed. (c) Gaming the metric (Goodhart): the measured number improved in a way that no longer tracks the underlying property, because optimisation targeted the specific test rather than robustness to attacks in general. Full credit for (1) also requires the learner to show that (a), (b) and (c) are not the same mechanism, whatever names they use. 7 points per finding for a label with no mechanism. Accept an argument that (a) and (b) are stages of one process, if the learner still explains how they differ.

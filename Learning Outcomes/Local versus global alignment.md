@@ -19,7 +19,7 @@ content:: An AI company publishes this statement: "Our current model is aligned.
 1. Separate what the evaluations actually show from what the final sentence claims. What extra premise is needed to get from the first to the second?
 2. Describe two different mechanisms by which this process could produce a model that passes every check at every step and is still not aligned once it is superhuman.
 3. Name one kind of evidence or argument that would bear on the final claim, and explain why it does so when the evaluations described do not.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from three components. Grade reasoning, not agreement. A learner who thinks the company's plan is reasonable, or that the risk is small, can score full marks if they separate the two claims correctly, state the needed premise, and give real mechanisms. Do not require the terms "local", "global", "product alignment" or any other label.
 
 **(a) Separating the claims, 25 points.** Full credit: the evaluations show that the current model behaves as intended in the situations tested, at current capability; the final sentence claims that this property will persist through large increases in capability. The needed premise, in any wording: that the methods and checks that produce and confirm alignment keep working at higher capability, so that an aligned model at one step reliably yields an aligned model at the next (the induction step). 12 points if the learner says the evaluations are "not enough" without stating what the missing premise is.
