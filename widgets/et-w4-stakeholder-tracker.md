@@ -2,8 +2,8 @@
 id: 'b056d738-c585-4687-b125-2375c271264e'
 title: "Week 4 Stakeholder Outreach Tracker"
 summary_for_tutor: "A spreadsheet-style tracker for Week 4 of the Effective Thesis Accelerator (and ongoing outreach in later weeks). Each row is a real-world stakeholder, with columns: Who (real-world stakeholder, which actors matter to address key bottlenecks), What: Change Required, Link to Thesis (how the research could lead to the change required), Outreach Done (Y/N + date) and Interview Done (Y/N + date + link to notes). Starts with 10 rows; the learner can add more. The saved summary lists every filled row."
-{++{"author":"Iris's AI","timestamp":1791045283367}@@width: full
-++}height: auto
+width: full
+height: auto
 tags: [wip]
 ---
 <!doctype html>

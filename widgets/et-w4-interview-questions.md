@@ -2,8 +2,8 @@
 id: 'dbf29a1a-0c23-4647-839c-98df46b30fe1'
 title: "Week 4 Stakeholder Interview Questions"
 summary_for_tutor: "A table for Week 4 of the Effective Thesis Accelerator where the learner plans their stakeholder interviews. Each row is one open-ended interview question, with columns: Interview Questions, Why this matters (what uncertainties or desired outcomes it helps address) and Relevant Stakeholders. Starts with 8 rows; the learner can add more. The saved summary lists every filled row."
-{++{"author":"Iris's AI","timestamp":1791045284722}@@width: full
-++}height: auto
+width: full
+height: auto
 tags: [wip]
 ---
 <!doctype html>

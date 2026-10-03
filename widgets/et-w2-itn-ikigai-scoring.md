@@ -2,8 +2,8 @@
 id: 'fd37cf89-c433-4567-8b13-6f0728388118'
 title: "Week 2 ITN & Ikigai Scoring Table"
 summary_for_tutor: "A spreadsheet-style table where the learner scores their shortlisted problem areas (5 rows by default, and they can add more rows, up to 15) on Importance, Neglectedness, Tractability and Ikigai fit (each 1-5), with free-text columns for an ITN comment, an Ikigai comment and main uncertainties. A total out of 20 is calculated per row and the highest-scoring row is highlighted. The saved summary lists each problem with its scores and notes."
-{++{"author":"Iris's AI","timestamp":1791045281781}@@width: full
-++}height: auto
+width: full
+height: auto
 tags: [wip]
 ---
 <!doctype html>
