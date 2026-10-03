@@ -32,7 +32,7 @@ content::
 
 Spend 2 minutes writing down everything you can remember from the reading, without looking back. No need to organize it.
 
-assessment-instructions:: The student has just read Kokotajlo's Taboo "Outside View" and written a free recall.
+feedback-instructions:: The student has just read Kokotajlo's Taboo "Outside View" and written a free recall.
 
 Key content:
 - The phrase "outside view" has expanded far beyond its original meaning of reference-class forecasting. Kokotajlo compiles TWO lists, each of about seven items, and the pairing is the point: "Big List O' Things People Describe As Outside View" (trend extrapolation, foxy aggregation, bias correction, deference to the wisdom of the many, the anti-weirdness heuristic, priors, Ajeya's timelines model) against a matching list for INSIDE view (having a gears-level model, having any model at all, deference to the wisdom of the few, intuition-based-on-detailed-imagining, trend extrapolation combined with an argument, drawing on subject-matter expertise, and Ajeya's timelines model again). Both lists end with "and probably many more I don't remember", and Ajeya's model appears on BOTH, which is the sharpest single illustration that the labels have stopped carrying information.

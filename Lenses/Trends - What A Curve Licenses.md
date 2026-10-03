@@ -26,7 +26,7 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from both readings, without looking back. Numbers, arguments, caveats, anything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read Jacob Steinhardt's "AI Forecasting: One Year In" and METR's "Clarifying limitations of time horizon," and has written a free recall without looking back at either.
+feedback-instructions:: The student has just read Jacob Steinhardt's "AI Forecasting: One Year In" and METR's "Clarifying limitations of time horizon," and has written a free recall without looking back at either.
 
 Key content across the two readings:
 - Steinhardt commissioned professional forecasters via Hypermind in 2021 to predict June 2022 state of the art on four ML benchmarks.
@@ -69,7 +69,7 @@ You put a number on the MATH benchmark before you read. Now you know what happen
 
 Take 2 minutes on how that landed. Where was your number, relative to the forecasters and to reality? What does it feel like to have been wrong, or right, in that particular way? What in either reading did you want to argue with? No need to organize it, just capture the reaction.
 
-assessment-instructions:: The student predicted a MATH benchmark result in a previous lens, has now read that professional forecasters said 12.7 percent while reality delivered 50.3 percent, and is reflecting.
+feedback-instructions:: The student predicted a MATH benchmark result in a previous lens, has now read that professional forecasters said 12.7 percent while reality delivered 50.3 percent, and is reflecting.
 
 This is a processing phase, not a teaching phase. Help them articulate their reaction. Do not resolve it.
 

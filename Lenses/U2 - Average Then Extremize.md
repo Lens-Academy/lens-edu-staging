@@ -36,7 +36,7 @@ content::
 
 Spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organize it.
 
-assessment-instructions:: The student has just read the robust-aggregation section of Neyman's thesis summary and written a free recall.
+feedback-instructions:: The student has just read the robust-aggregation section of Neyman's thesis summary and written a free recall.
 
 Key content:
 - The setup: two experts forecast rain at 60% and 70%, against a prior of 30% for someone with no special information.
@@ -75,7 +75,7 @@ Go back to the number you wrote down one lens ago, when three people who had not
 
 If the two differ, the arithmetic is not the interesting question. The interesting question is what you believed about aggregation when you wrote your first number. Name that belief. Then say how confident you were at the time, and what that tells you about confidence as a signal.
 
-assessment-instructions:: The student has recalled the aggregation reading and is now reflecting. Critically, one lens ago they committed to a number for the three-people-agreeing problem (estimates of 60, 65 and 70 percent against a 10 percent base rate). The case that phase was built for is an answer inside the 60-to-70 range, reasoning that an aggregate cannot exceed what any individual believes; expect that, but read what they actually wrote.
+feedback-instructions:: The student has recalled the aggregation reading and is now reflecting. Critically, one lens ago they committed to a number for the three-people-agreeing problem (estimates of 60, 65 and 70 percent against a 10 percent base rate). The case that phase was built for is an answer inside the 60-to-70 range, reasoning that an aggregate cannot exceed what any individual believes; expect that, but read what they actually wrote.
 
 CASH THAT COMMITMENT. This is the moment the strand is built around: they made a confident, specific, checkable prediction and the reading has just contradicted it. Open by putting their number next to that direction, quoting what they wrote. If they did not commit a number, ask once what they would have said.
 

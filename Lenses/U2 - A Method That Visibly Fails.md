@@ -44,7 +44,7 @@ content::
 
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it.
 
-assessment-instructions:: The student has just read Xu and Shulman on fractional progress estimates and written a free recall.
+feedback-instructions:: The student has just read Xu and Shulman on fractional progress estimates and written a free recall.
 
 Key content:
 - The method: survey researchers on what fraction of the path to human-level AI their subfield has covered in a period, then extrapolate the rate linearly.
@@ -80,7 +80,7 @@ content::
 
 Take 2 minutes to write down your reaction to the reading. What felt important to you? What confused you? What did you doubt or disagree with?
 
-assessment-instructions:: The student has recalled the Xu and Shulman reading and is now reflecting.
+feedback-instructions:: The student has recalled the Xu and Shulman reading and is now reflecting.
 
 This is a processing phase, not a teaching phase.
 

@@ -32,7 +32,7 @@ content::
 
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Speech to text is recommended: you can capture more in two minutes.
 
-assessment-instructions:: The student has just read Daniel Kokotajlo's summary of evidence from the Good Judgment Project and has written a free recall: everything they could remember without looking back.
+feedback-instructions:: The student has just read Daniel Kokotajlo's summary of evidence from the Good Judgment Project and has written a free recall: everything they could remember without looking back.
 
 Key content of the reading:
 - A ranked list of what is associated with successful forecasting, in rough decreasing order of combined importance and confidence. Near the top: past performance in the same broad domain; making more predictions on the same question; deliberation time; collaboration on teams. Below those: intelligence, domain expertise, and having taken a one-hour training module. Further down: cognitive reflection scores, active open-mindedness, aggregation of individual judgments, precise probabilistic predictions, use of the outside view, Fermi-izing, Bayesian reasoning, practice.
@@ -66,7 +66,7 @@ content::
 
 Take 2 minutes to write down your reaction to the reading. What felt important to you? What confused you? What did you doubt or disagree with?
 
-assessment-instructions:: The student has just completed a free recall of Kokotajlo's Good Judgment Project summary and is now reflecting on how it landed.
+feedback-instructions:: The student has just completed a free recall of Kokotajlo's Good Judgment Project summary and is now reflecting on how it landed.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their response, not to explain the content.
 
