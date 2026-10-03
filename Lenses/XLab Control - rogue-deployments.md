@@ -27,21 +27,21 @@ to:: So in this terminology, establishing a rogue deployment is the central exam
 #### Question: Open
 id:: 4c12979f-d9d0-4733-9770-3d0e0b15be94
 content:: What does "catastrophe" mean? Give an example.
-max-chars:: 400
+max-words:: 70
 assessment-instructions:: Score out of 100. 70: a catastrophe is an extremely bad, unacceptable outcome, one to avoid at all costs, where even a single occurrence is too many. 30: an example of such an outcome, such as the AI or another adversary amassing power, launching nukes, starting a war, or a comparable case. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "A failure you'd want to avoid at all costs (think launching nukes or starting a war). The post narrows the word for its argument: it reserves the word for the end result, such as the AI or another adversary amassing power, and excludes steps like the AI escaping the datacenter, because it wants to treat that escape (a rogue deployment) as a separate step that makes a catastrophe likely."
 feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 9c24f011-b087-4d46-9b8b-d504d89252bb
 content:: What are safety measures? Give two examples.
-max-chars:: 400
+max-words:: 70
 assessment-instructions:: Score out of 100. 30: safety measures are interventions (measures, techniques or safeguards) applied to how the model is deployed and used. 30: their purpose is to prevent safety problems with the model, such as catastrophes. 40: two examples, 20 each, for example control measures such as trusted monitoring, and security measures that make it harder to steal (exfiltrate) the model weights; any other genuine safety measure counts too. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Interventions applied to all deployments of your model — to any users, including internal ones — that try to prevent safety problems. This includes control measures like trusted monitoring and security measures that make it harder to exfiltrate the model weights. The post stresses that they apply to all deployments, internal ones included, because it defines a rogue deployment as a deployment where they are absent."
 feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Question: Open
 id:: 0450c4a5-53d8-4f24-8214-078641b6d284
 content:: What is a rogue deployment? Give an example.
-max-chars:: 400
+max-words:: 70
 assessment-instructions:: Score out of 100. 30: a rogue deployment is a deployment of the model, the model running and doing work. 50: in which the safety measures are absent. 20: a concrete example, such as an AI hacking its datacenter and running itself while hiding what it is doing, an AI self-exfiltrating and running itself on unmonitored servers, someone stealing the model and running it in their own datacenter, or a comparable case. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 50 if the answer amounts to "the AI escapes" with no sign that the absence of safety measures is what makes a deployment rogue. Model answer, for the feedback, not a grading checklist: "A deployment of your model where the safety measures are absent. Examples: an AI hacking its datacenter and running itself while hiding what it's doing, an AI self-exfiltrating and running itself on unmonitored servers, or someone stealing the AI and running it in their own datacenter."
 feedback-instructions:: One turn, at most six sentences: take the rubric's criteria one by one and say how the answer fared on each, quoting the learner's own words where it helps, then end with the single most valuable improvement. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
