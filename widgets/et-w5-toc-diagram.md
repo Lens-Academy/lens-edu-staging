@@ -2,8 +2,8 @@
 id: '2043da1d-7cd4-4432-9ace-b62dc6e2896a'
 title: "Week 5 Theory of Change Diagram (with linked arrows)"
 summary_for_tutor: "An interactive Theory of Change diagram for Week 5 of the Effective Thesis Accelerator. The learner fills in boxes in four columns, left to right: Research Outputs, Short-Term Outcomes (who uses the output and what changes), Long-Term Outcomes, and Ultimate Impact. They draw arrows between specific boxes and name each arrow with the assumption or uncertainty it depends on. The saved summary lists every box by column, then every arrow (from box, to box, and its named assumption, or that none is named yet). Useful for stress-testing weak or unnamed links, which often point to hidden assumptions."
-{++{"author":"Iris's AI","timestamp":1791045287910}@@width: full
-++}height: auto
+width: full
+height: auto
 tags: [wip]
 ---
 <!doctype html>

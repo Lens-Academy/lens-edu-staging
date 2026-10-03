@@ -2,8 +2,8 @@
 id: '3682075e-67b0-4d28-989e-cf55e5821a98'
 title: The Compute Supply Chain
 summary_for_tutor: "A clickable world map of the AI compute supply chain, ported from XLab's Verification track. The widget holds only the interactive parts: the map, the layer key, the detail card and the eight-stage pipeline. Six supply-chain layers colour the countries (Chip design & EDA, Equipment & materials, Fabrication, Memory (HBM), Packaging, assembly & test, Compute & models). The learner clicks any of 14 coloured countries (United States, China, Taiwan, South Korea, Japan, Netherlands, United Kingdom, Germany, Singapore, Malaysia, Vietnam, Thailand, UAE, Saudi Arabia) to open a card with the layers it sits in, two or three anchor facts, a 'Why it matters for verification' paragraph and its actor roles (capability holder, chokepoint controller, information holder, enforcement authority, evasion pathway, victim/free-rider/beneficiary). Clicking a layer in the key, or one of the eight pipeline stages (materials, design, equipment, fabrication, memory, packaging and test, data centers, trained models), dims every other country and shows a card with the layer's stat, why it matters, and buttons for the countries that would have to be in the room to verify it. The page around the widget carries the three headline stats above it (about 90% of leading-edge logic fabricated on one island, one company builds every EUV machine, three firms make nearly all HBM), and below it the gloss of the six actor roles and the optional link to ETO's Chip Explorer (Anatomy of a Chip). The saved summary tells you which card is open now and which countries, layers and stages the learner has opened so far. There is no finish condition (XLab has none); a learner has explored well when they have opened the chokepoint countries (Netherlands, Taiwan, South Korea, Japan) and at least one of the evasion-pathway countries in Southeast Asia."
-{++{"author":"Iris's AI","timestamp":1791045297794}@@width: full
-++}height: auto
+width: full
+height: auto
 tags: [wip]
 ---
 <!doctype html>
