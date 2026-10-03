@@ -60,14 +60,14 @@ feedback-instructions:: 60 to 150 words. Short paragraphs, no lists. Do not over
 #### Question: Open
 id:: 18995f8d-315e-45ca-ad0f-7a53de02d60f
 content:: Give an example of a mutually beneficial deal between humans and an early schemer.
-max-chars:: 700
+max-words:: 120
 assessment-instructions:: Score out of 100. 50: what the AI gives us: help making future AIs safe to deploy, or a specific contribution such as demonstrating its own misalignment, stopping its sabotage, giving strategic advice, or revealing security vulnerabilities or collusion signals. 50: what the AI gets in return: compensation it values, such as an earmarked donation to a foundation tasked with furthering its interests. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "The AI helps ensure future AIs are safe to deploy; in exchange it gets an earmarked donation to a foundation tasked with furthering its interests. Most of the donation sits in escrow until civilizational stability, when the AI's cooperation can be retrospectively adjudicated; validated cooperation unlocks (partial) spending on anything non-harmful."
 feedback-instructions:: Three or four sentences is enough. Say what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). This is a one-turn response; tell them to move on. If the learner says they do not understand, isolate one half of the question and ask only what the AI receives, rather than repeating the whole thing.
 
 #### Question: Open
 id:: 26bc0fae-2acb-4a1d-aa80-bd7ca9ec581d
 content:: By what three routes might an early schemer's successors end up furthering its goals?
-max-chars:: 300
+max-words:: 50
 assessment-instructions:: Score out of 100. 34: convergence: the successor ends up with the same goals as the early schemer by default. 33: trading: a successor that wins rewards the early schemer afterwards for having helped it. 33: alignment: the early schemer influences the successor's training so that the successor ends up aligned with it. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Convergence, trading, and alignment."
 feedback-instructions:: One or two sentences is enough here; do not ask for more. Say plainly what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). This is a one-turn response; tell them to move on. If the learner says they do not understand, name one route as an example and ask for the other two, rather than repeating the question.
 
@@ -112,21 +112,21 @@ to:: especially in cases where AIs have diminishing returns to resources.
 #### Question: Open
 id:: d6afb3f6-2037-4636-a6c8-8f50c8f8cf2f
 content:: Name four or more things an early schemer could offer humans under a deal.
-max-chars:: 700
+max-words:: 120
 assessment-instructions:: Score out of 100. 25 for each distinct contribution, up to four: showing us that it is dangerously misaligned (for example that it can reason covertly); stopping its sabotage of safety research, capability evaluations, monitoring or the training signal for the next model; giving good strategic advice and research ideas; revealing security vulnerabilities it knows about; revealing collusion signals used in untrusted monitoring; not misusing the affordances it is given, especially where monitoring is costly; not attempting to take over the lab. Another contribution that would clearly help make AI safer, and that the AI is in a position to give, also counts. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Demonstrate its dangerous misalignment, stop sabotaging safety research / evals / monitoring / training signal for successors, give good strategic advice and research ideas, reveal security vulnerabilities it knows, reveal collusion signals, not misuse affordances, and not attempt takeover of the lab."
 feedback-instructions:: Do not over-validate. Avoid generic praise (great job, excellent recall, well done). Say plainly what the learner got right and, if anything is missing or wrong, the most important thing. This is a one-turn response; tell them to move on. If the learner says they do not understand, give one item from the list as an example and ask for three more, rather than repeating the question.
 
 #### Question: Open
 id:: 21a9d26f-e5b6-4ffc-8bc2-1d806d89d60a
 content:: Why is goal convergence between successive misaligned AIs unlikely?
-max-chars:: 700
+max-words:: 120
 assessment-instructions:: Score out of 100. 50 for each of up to two reasons: an AI with self-regarding preferences cares about itself, so a successor cannot share that goal, and more generally goals picked out of the wide range compatible with good training performance rarely coincide between two AIs; developers can deliberately vary training between runs (for example the data used) so that different generations end up with different goals; many AIs will be unsure what they themselves value on reflection, which adds uncertainty about whether another AI shares those values. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "It's basically ruled out if the AI has self-regarding preferences as goals drawn from a wide distribution consistent with good training performance rarely coincide. Training can also be deliberately varied between runs to decorrelate goals. Furthermore, AIs uncertain of their own values-on-reflection face extra uncertainty about whether other AIs share them."
 feedback-instructions:: Three or four sentences is enough. Say what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). This is a one-turn response; tell them to move on. If the learner says they do not understand, isolate the self-regarding-preferences case and ask why two AIs that each care about themselves cannot share a goal, rather than repeating the question.
 
 #### Question: Open
 id:: 6934727c-ef2c-4843-a837-e3626bb91d7e
 content:: When thinking about what to offer a misaligned AI, what three broad value-types is it useful to distinguish?
-max-chars:: 300
+max-words:: 50
 assessment-instructions:: Score out of 100. 34: non-consequentialist AIs, which would help or rebel depending on how they are treated (as collaborators or as property). 33: AIs with short-term preferences, which want something soon, such as reward or compute within months. 33: AIs with long-term preferences, which want resources or influence in the long run. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Non-consequentialist AIs, AIs with short-term preferences, and AIs with long-term preferences."
 feedback-instructions:: One sentence is enough; do not ask for more. Say plainly what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). This is a one-turn response; tell them to move on. If the learner says they do not understand, name the long-term type and ask what the other two are, rather than repeating the question.
 
