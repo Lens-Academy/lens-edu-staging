@@ -18,7 +18,7 @@ content:: A commentator argues: "Any sufficiently intelligent AI will be curious
 
 1. Evaluate this argument. What range of minds does the evidence come from? For each kind of example, what might explain the curiosity, and would that explanation also apply to a future AI system built or trained in a different way?
 2. Is there any version of the conclusion that you think is well supported? State it with its scope and the reason for it, or explain why no version is.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from two components. Grade reasoning, not agreement with the commentator. A learner may conclude that some version of the claim is true, or that none is; both can earn full marks. Terms such as "mind design space", "anthropomorphism" or "instrumental convergence" are not required.
 
 **(1) Evaluating the argument, 60 points.**

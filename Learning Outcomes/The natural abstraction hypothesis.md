@@ -23,7 +23,7 @@ For each concept below, say how likely you think it is that the model has an int
 (c) an operator instruction that the operator would want to be free to correct later.
 
 Then say what your answers imply for the lab's plan to find concept (c) in the model and make the robots act on it.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from four components. The idea that very different minds converge on the same concepts is a hypothesis, and it is contested. Grade reasoning, not agreement: an answer that argues against convergence, or that argues this particular model is a bad test of it, can earn full marks if its reasons address what makes a concept likely or unlikely to be shared. Do not require terms such as "natural latent", "redundancy", "mediation" or "reflective".
 
 **(a) Pallet position, 25 points.** Full credit: likely. The reason must be about the data: a pallet's position is carried by many observations at once (many camera frames and angles, the robots' interactions with it) and it explains much of how those observations relate to each other, so almost any good predictor of these logs has to track it. Credit a note that the model may encode it in a different format or coordinate system, so a translation may be needed. 12 points for "likely, because it is physical or obvious" without the reason.

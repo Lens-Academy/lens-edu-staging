@@ -24,7 +24,7 @@ Two engineers disagree about what happens to its goal:
 1. Build the strongest case that both engineers are wrong about this system. Use at least one concrete mechanism and show how it applies to this particular goal.
 2. Say what that case predicts will happen to the goal instead.
 3. Say how convincing you find the case, and what it implies for how alignment researchers should approach systems like this one.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from four components. Grade reasoning, not agreement. Part 3 asks for the learner's own view: a learner who rejects the case (for example, by arguing that a well-designed agent can carry a stable rule for re-expressing its goal, or that it remains possible for some agents to keep arbitrary goals) scores full marks on part 3 if the argument is reasoned. Do not require the words "obliqueness", "orthogonality", "diagonality" or "ontology".
 
 **(a) Against Engineer A, 35 points.** Full credit: at least one mechanism by which the goal cannot simply stay the same, applied to this goal. Acceptable mechanisms (any wording):

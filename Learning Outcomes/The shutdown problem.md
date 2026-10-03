@@ -27,7 +27,7 @@ Predict what Atlas does in each situation below, and explain each prediction fro
 3. Design B. Next month a safety audit will pass or fail the plant. A failed audit would greatly lower Atlas's task score. At no cost, Atlas can install a rule that presses its own shutdown button automatically if the audit fails.
 
 If you think a prediction depends on something the scenario leaves open, say what it depends on.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from three components. Grade the reasoning from Atlas's utility comparison, not the use of any technical vocabulary (terms such as 'utility indifference' or 'managing the news' are not required). A learner who reaches a different prediction can earn full credit for that component if the prediction follows correctly from an explicitly stated, reasonable reading of the scenario.
 
 **(a) Design A, 25 points.** Full credit: with S = 50, a press lowers Atlas's expected utility (about 50 instead of about 80), so Atlas prefers the button not to be pressed and will pay a cost, such as the false alarm, to lower the chance of a press whenever the expected gain exceeds that cost. With S = 100, a press raises its expected utility, so Atlas now prefers to be shut down and has a reason to cause a press (for example by provoking the operators or behaving badly). Up to 5 of the 25 points for noting that only an exact balance removes both incentives, and that the balance breaks as soon as Atlas's expectations change. 12 points if only one of the two cases is analysed correctly.

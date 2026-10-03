@@ -23,7 +23,7 @@ Researcher B says: "Mathematical structures can be arbitrarily complex, and ther
 1. Explain what the hypothesis on its own does and does not settle about what an observer should expect to see, and what further ingredient any prediction needs.
 2. Evaluate A's argument.
 3. Evaluate B's argument, and say what the simplicity and stability of our observed laws imply, given your answer to part 1.
-max-chars:: 2500
+max-words:: 420
 assessment-instructions:: Score 0 to 100 from three components. Grade reasoning, not agreement: a learner may conclude that the hypothesis is untenable, unfalsifiable, or well supported, and can score full marks either way if the reasoning below is present. Accept any equivalent terminology (weighting, measure, prior over structures, probability over observer locations).
 
 **(a) What the hypothesis settles, 35 points.** 25 points: the hypothesis settles that all the structures exist, but existence alone gives no probabilities about which structure, or which place in a structure, an observer is in. A prediction needs a measure or weighting over structures (or over observers within them). One example of a candidate measure is a simplicity weighting that gives shorter descriptions more weight; naming a specific measure is not required. 10 points: an explanation of why simply counting structures cannot supply this, for example that there are infinitely many structures and there is no uniform probability distribution over a countably infinite collection, or that "most" and "typical" have no meaning until a measure is chosen. 12 of the 25 if the learner says predictions need "probabilities" without saying that the hypothesis itself does not supply them.
