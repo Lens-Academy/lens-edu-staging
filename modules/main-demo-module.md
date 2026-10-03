@@ -119,6 +119,23 @@ from:: "**Mitigating the risk of extinction from AI"
 to:: "Signatories:"
 hide-author:: sidebar
 
+%% To choose what the sidebar credits for a whole lens, put `sidebar_author:` in the lens's frontmatter (or `sidebar_author::` on an inline lens): a name replaces the article authors and video channels in the sidebar entry, the module overview and card links, and `none` credits nobody. Bylines and the source bar keep the article's author. %%
+# Lens: Choosing the sidebar credit
+id:: e4296b35-2f55-4225-bd44-5aa14231f6d1
+sidebar_author:: Lens Academy
+tldr:: Shows sidebar_author:: on a lens: the sidebar entry credits the name it gives, while the byline still names the article's author.
+summary_for_tutor:: Demo lens for the sidebar_author lens field. A Text segment explains the field, then an Article segment quotes the one-sentence CAIS Statement on AI Risk. The lens sets sidebar_author:: Lens Academy, so the sidebar credits Lens Academy while the byline names the Center for AI Safety.
+reading_minutes:: 1
+
+#### Text
+content::
+This lens sets `sidebar_author:: Lens Academy`. Its sidebar entry credits Lens Academy instead of the quoted article's author, while the byline below still names the Center for AI Safety.
+
+#### Article
+source:: [[../articles/safety-statement-on-ai-extinction-risk-cais]]
+from:: "**Mitigating the risk of extinction from AI"
+to:: "Signatories:"
+
 %% An article's `author_url:` frontmatter (one URL, or a list in the same order as `author`) turns the author's name into a link: in the byline, the source bar and this lens's sidebar entry. %%
 # Lens: Linking the author
 id:: 456648fa-9602-4ca3-8f77-22bbe0c7364e
