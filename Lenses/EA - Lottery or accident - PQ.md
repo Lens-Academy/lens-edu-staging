@@ -2,7 +2,7 @@
 id: 'f79a20c8-8448-4196-b838-618db1ae1b26'
 title: "Lottery or accident?"
 tldr: "Predict how much a big win and a big loss change happiness a year later, before you see the data."
-summary_for_tutor: "Pre-reading question taken from the pop quiz Dan Gilbert opens his TED talk with. The learner predicts the happiness of lottery winners and of people paralysed in an accident a year after the event. The talk, a correction based on Brickman et al. 1978, and Diener, Lucas and Scollon 2006 follow. Do not reveal the data."
+summary_for_tutor: "Pre-reading question taken from the pop quiz Dan Gilbert opens his TED talk with. The learner predicts the happiness of lottery winners and of people paralysed in an accident a year after the event. The next lens quotes Gilbert's claim (the talk itself is optional), then gives a correction based on Brickman et al. 1978, Diener, Lucas and Scollon 2006, and Lindqvist et al. 2020. Do not reveal the data."
 reading_minutes: 1
 tutor_minutes: 2
 tags:
@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-The next talk opens with a quiz. Take it before you watch.
+The psychologist Dan Gilbert opens a well-known talk with this quiz. Answer it before you read on.
 
 #### Question: Open
 id:: b3c8087e-e517-42c2-acb3-d14331146d25
