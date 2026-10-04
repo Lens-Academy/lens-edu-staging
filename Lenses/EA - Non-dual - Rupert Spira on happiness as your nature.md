@@ -19,16 +19,6 @@ source:: [[../video_transcripts/science-and-nonduality-your-nature-is-happiness-
 from:: 0:28
 to:: 17:10
 
-#### Text
-content::
-The rest of the talk (22 minutes) goes further. Spira asks you to look for an edge to awareness, argues that nothing has ever been found outside consciousness, suggests that the world may exist only within one infinite consciousness, and describes love and beauty as moments when the sense of being separate falls away.
-optional:: true
-
-#### Video
-from:: 17:40
-to:: 39:44
-optional:: true
-
 #### Question: Open
 id:: 2fe5836f-b7d7-438c-9b99-92d013e89746
 content::
