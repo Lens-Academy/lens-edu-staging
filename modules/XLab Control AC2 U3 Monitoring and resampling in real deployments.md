@@ -13,6 +13,20 @@ source:: [[../Learning Outcomes/Monitoring synchrony and recovery]]
 # Learning Outcome:
 source:: [[../Learning Outcomes/Resampling protocols]]
 
+# Lens: Welcome to Unit 3
+id:: e15f16ce-9383-4ccd-8385-e203635739fc
+tldr:: What you will learn in Unit 3: monitoring and resampling in real deployments.
+summary_for_tutor:: Short opening page of Unit 3 (Monitoring and resampling in real deployments) of AI Control 2. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
+reading_minutes:: 1
+tutor_minutes:: 0
+#### Text
+content::
+\## In this unit you will
+
+- Explain resampling: when a command looks suspicious, ask the model again.
+- Reason about monitoring at deployment scale: many instances in parallel, reviewers who answer late, attacks spread over many steps.
+- Work through the Ctrl-Z paper: how repeated suspicion becomes evidence, and what changes when the monitor is a copy of the model.
+
 # Lens:
 source:: [[../Lenses/XLab Control - monitoring-and-mitigation]]
 
