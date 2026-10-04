@@ -16,6 +16,20 @@ source:: [[../Learning Outcomes/Online training versus auditing alone]]
 # Learning Outcome:
 source:: [[../Learning Outcomes/Exploration hacking risk]]
 
+# Lens: Welcome to Unit 5
+id:: 3b108458-ce00-4430-8b24-2e6b6a26523d
+tldr:: What you will learn in Unit 5: low stakes: diffuse failures and sandbagging.
+summary_for_tutor:: Short opening page of Unit 5 (Low stakes: diffuse failures and sandbagging) of AI Control 2. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
+reading_minutes:: 1
+tutor_minutes:: 0
+#### Text
+content::
+\## In this unit you will
+
+- Say what changes when catching one bad action buys you almost nothing and failures only matter in aggregate.
+- Compare what you can do with and without training the model online, and place failures on the concentrated-to-diffuse spectrum.
+- Tell sandbagging from exploration hacking.
+
 # Lens:
 source:: [[../Lenses/XLab Control - low-stakes-control-talk]]
 
