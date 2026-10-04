@@ -12,6 +12,10 @@ This is the opening of the post that started AI control, by Ryan Greenblatt and 
 
 #### Article
 source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
+to:: Because control could be applied to mitigate risk from scheming right now, it's a particularly promising target for research effort and policy commitments.
+
+#### Article
+from:: # The control property
 to:: it focuses attention on the types of interventions whose effectiveness is easiest to reason about.
 
 #### Callout: Quick recall
