@@ -59,7 +59,7 @@ Five AI agents at an AI company, each possibly working against the company:
 1\. Sort each case: high-stakes, low-stakes, or in between. Say which of the two questions decided it.
 2\. Pick the case your group disagreed on most. What would have to change about it to move it to the other side?
 3\. Take one case from each side. Do its actions have to be stopped until someone checks them, or would a review a week later be good enough?
-4\. If you still have time: Google DeepMind blocks high-risk actions in real time and reviews low-risk, reversible actions later. Would that rule handle your five cases the way your group sorted them?
+4\. If you still have time: Google DeepMind's control roadmap says high-risk actions should be blocked in real time, and low-risk, reversible actions can be reviewed later. Would that rule handle your five cases the way your group sorted them?
 
 Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
 
@@ -89,7 +89,7 @@ One or two people share what their group landed on.
 
 The field in five lines, from this unit:
 
-- Redwood Research, a nonprofit, started control as a research area. A 2025 count put about 10 people there.
+- Redwood Research, a nonprofit, says it introduced control as a research area. A 2025 count put about 10 people there.
 - The UK AI Security Institute, a government body, has a Control team and a £27m fund for alignment and control research.
 - AI companies already monitor their own coding agents. OpenAI says it monitors 99.9% of its internal coding traffic. Google DeepMind ran a prototype monitor over a million coding-agent tasks.
 - Outside evaluators such as METR test those monitors. In early 2026 METR found gaps in coverage and simple ways to disable or jailbreak them.
