@@ -25,11 +25,11 @@ In Unit 1 you met the basic idea of control: use a model that might be working a
 
 \## In this unit you will
 
-- Read Ryan Greenblatt on which threats control should prioritise, and why threats that need few actions call for different defences from threats that need many.
-- Read Buck Shlegeris on rogue deployments, and watch Vivek Hebbar on research sabotage as a low-stakes threat.
+- Read Ryan Greenblatt on the kinds of threat control has to handle, and why threats that need few actions call for different defences from threats that need many.
+- Read Buck Shlegeris on rogue deployments, watch Vivek Hebbar on research sabotage as a low-stakes threat, and read researchers from Anthropic, EPFL and Redwood on why such threats call for training rather than catching the model.
 - Practise telling high-stakes from low-stakes threats.
 - Read two maps of control research, one from Redwood Research and one from the UK AI Security Institute.
-- See what AI companies already run, and read a Lens summary of who works on control and how big the field is.
+- See what AI companies already run and how a UK government team tests their monitors, and read a Lens summary of who works on control and how big the field is.
 
 #### Question: Open
 id:: 62e5237c-1121-452e-9832-847652b41311
