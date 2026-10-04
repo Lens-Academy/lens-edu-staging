@@ -17,7 +17,7 @@ Josh Clymer states his goal as putting himself out of a job. Rather than aiming 
 
 The post is one long argument with a clear spine. It first says what passing the buck means and why he thinks it, not aligning superintelligence, should be the field's primary end goal. It then lays out three strategies for doing it: a one-time hand off to a system he calls M_1, an iterated hand off where M_1 passes the buck to a more capable M_2, and deference to an AI advisor whose deferred task is to say whether M_1 should be trusted at all. Clymer then argues that cutting humans out is responsible under two sufficient conditions, that M_1 is more capable than the human-oversight-preserving alternative and that it is more trustworthy than that alternative, and spends the second half of the post on four arguments a developer might use to establish trust.
 
-This part is the post's opening summary and its numbered sections 1 to 7, up to the two conditions. Go by the section headings: the summary's own numbers for its first sections are one lower than the headings (the summary's "section 1" is the heading "2. What I mean by passing the buck"). The summary sketches all four arguments for trust; part 2 reads them in full (sections 8 to 12), so when the summary points to sections 8, 9 or 11, those sections are in part 2.
+This part covers the post's summary and its sections 1 to 7, which end with the two conditions. Sections 8 to 12, where the four arguments for trust are made in full, are in part 2.
 
 #### Article
 source:: [[../articles/clymer-how-might-we-safely-pass-the-buck-to-ai]]
