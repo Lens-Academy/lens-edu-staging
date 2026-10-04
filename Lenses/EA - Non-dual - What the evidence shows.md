@@ -22,6 +22,7 @@ to:: practicing different forms of meditation can modulate this gross functional
 #### Text
 content::
 Of the 22 meditators whose scans were used, 18 did the non-dual meditation. They practised Tibetan Buddhism (two of the 24 recruited also had some experience of Vedanta), had 8 to 33 years of practice, and were chosen on their teachers' recommendation. The study shows that non-dual awareness is a distinct state with its own pattern in the brain. It did not measure whether anyone became happier.
+
 **Questionnaires.** Adam Hanley, Yoshio Nakamura and Eric Garland built a questionnaire for non-dual awareness, the NADA. Their abstract:
 
 #### Article
