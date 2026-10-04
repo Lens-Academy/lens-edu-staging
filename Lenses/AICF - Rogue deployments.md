@@ -2,17 +2,26 @@
 id: '392c68c3-e1da-4e0e-83a1-8fed7590dfe0'
 title: "Rogue deployments"
 tldr: "Causing a catastrophe directly takes a lot of work while safety measures watch. Starting a copy of yourself that nobody monitors might take twenty lines of code. Buck Shlegeris argues that this second step, a rogue deployment, is the central high-stakes threat."
-summary_for_tutor: "Second teaching lens of Unit 2 of AI Control Fundamentals. The learner reads Buck Shlegeris's post 'AI catastrophes and rogue deployments' (Redwood Research, June 2024) from its first paragraph to the end. Key ideas. A rogue deployment is a deployment of the model where the safety measures are absent. Catastrophes either happen with all safety measures in place or go through a rogue deployment first. The two varieties are weight exfiltration leading to a rogue external deployment, and a rogue internal deployment inside the lab's own datacenter (started by the model, by employees, or by outside hackers). Causing a catastrophe directly is hard because it needs a few wildly superhuman actions or many ordinary ones, while launching a rogue deployment may be easy (twenty lines of Python with weight access). Catastrophes without rogue deployment, in Shlegeris's view, mostly need many actions and so give the lab many chances to spot them, with exceptions such as long-term jailbreaks, steganographic reasoning and subtle long-term manipulation. In this course's terms, launching a rogue deployment is the central high-stakes threat, and the 'extremely subtle long-term failure' case is low-stakes. Two questions follow: the first is scored, the second is not."
-reading_minutes: 12
+summary_for_tutor: "Second teaching lens of Unit 2 of AI Control Fundamentals. The learner reads three excerpts of Buck Shlegeris's post 'AI catastrophes and rogue deployments' (Redwood Research, June 2024): the introduction and the section 'Rogue deployments', the two paragraphs on why launching a rogue deployment is easy, and the opening of 'More on catastrophes without rogue deployment' with its three failure types. The sections on safety cases, the varieties of rogue deployment, attacker profiles and hot takes are collapsed and not required. Key ideas. A rogue deployment is a deployment of the model where the safety measures are absent (examples in the excerpt: an AI hacking its datacenter and running itself, an AI self-exfiltrating, someone stealing and running it). Catastrophes either happen with all safety measures in place or go through a rogue deployment first. Causing a catastrophe directly is hard because it needs a few wildly superhuman actions or many ordinary ones, while launching a rogue deployment may be easy (twenty lines of Python with weight access). Catastrophes without rogue deployment, in Shlegeris's view, mostly need many actions and so give the lab many chances to spot them, with exceptions such as long-term jailbreaks, steganographic reasoning and subtle long-term manipulation. In this course's terms, launching a rogue deployment is the central high-stakes threat, and the 'extremely subtle long-term failure' case is low-stakes. Two questions follow: the first is scored, the second is not."
+reading_minutes: 7
 tutor_minutes: 8
 ---
 #### Text
 content::
-Buck Shlegeris is CEO of Redwood Research ([80,000 Hours](https://80000hours.org/podcast/episodes/buck-shlegeris-ai-control-scheming/)). This post introduces the rogue deployment, a model running somewhere its safety measures do not reach. Shlegeris writes that Redwood's first control paper was mostly motivated by this kind of catastrophe. As you read, notice how many actions each kind of catastrophe needs.
+Buck Shlegeris is CEO of Redwood Research ([80,000 Hours](https://80000hours.org/podcast/episodes/buck-shlegeris-ai-control-scheming/)). This post introduces the rogue deployment, a model running somewhere its safety measures do not reach. You read three parts of it: the idea itself, why launching a rogue deployment may be easy, and how a catastrophe could happen without one. As you read, notice how many actions each kind of catastrophe needs.
 
 #### Article
 source:: [[../articles/shlegeris-ai-catastrophes-and-rogue-deployments]]
 from:: In this post, I want to introduce the concept of a “rogue deployment”
+to:: establishing a rogue deployment is the central example of an instrumental catastrophe.)
+
+#### Article
+from:: The main reason to worry about rogue deployments is that
+to:: it’s much more able to take the huge number of sketchy-actions that are probably required to cause the catastrophe.
+
+#### Article
+from:: As I said above, I suspect that catastrophes that don’t involve rogue deployments
+to:: you falsely believe that some models are aligned or safe when they aren’t.
 
 #### Question: Open
 id:: 6ec1ace8-e78b-47b1-8e34-82b058cb6ffe
