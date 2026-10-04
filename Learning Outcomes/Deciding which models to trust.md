@@ -34,8 +34,8 @@ feedback-instructions:: Name the strongest part of the answer in one sentence, t
 source:: [[../Lenses/robert-miles-ai-safety-using-dangerous-ai-but-safely]]
 notes:: Shows trusted monitoring: a weaker trusted model scores the stronger model's code and humans audit a small share. Practised in its question on the red team's role.
 ## Lens:
-source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais]]
+source:: [[../Lenses/AICF - The case for control - what control is]]
 notes:: Teaches the capability criterion for trust. Its scenario questions have the learner judge trusted monitoring and other setups.
 ## Lens:
-source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais-2]]
+source:: [[../Lenses/AICF - The case for control - how control is tested]]
 notes:: Practised in the untrusted-models recall and the trust practice question.
