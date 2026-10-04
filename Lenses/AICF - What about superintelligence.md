@@ -1,10 +1,10 @@
 ---
 id: '6fa7e7f3-bc4d-4e59-8467-bc4dcc29d2cf'
 title: "What about superintelligence?"
-reading_minutes: 5
+reading_minutes: 6
 tutor_minutes: 8
-tldr: "Control's own authors say it will not work for arbitrarily powerful AI. MIRI agrees and draws a different conclusion: no workaround exists for a misaligned superintelligence, so the effort should go into stopping anyone from building one."
-summary_for_tutor: "Unit 4 of AI Control Fundamentals. The learner reads a short excerpt from Greenblatt and Shlegeris's case for control ('The control approach we're imagining won't work for arbitrarily powerful AIs', it is aimed at the first AIs capable of substantially reducing risk from later AIs), then two excerpts from MIRI's 'The Problem' (2025): MIRI sees no viable workaround to misaligned superintelligence, it would not be possible to safely use it for any complex real-world operation, deceiving it is prone to fail, and 'Plans to align ASI using unaligned AIs are similarly unsound'. Then section 5: 'If anyone builds ASI, everyone dies', so progress toward ASI needs to be halted by an effective worldwide ban. Both sides agree control does not scale to superintelligence. They disagree about whether controlled early AIs can help with what comes after, and about where effort should go. MIRI's criticism has a 'does not work' side (for ASI and for the plan of using unaligned AIs for alignment) and a 'not worth the effort' side (the effort should go to halting). Do not tell the learner who is right."
+tldr: "Control's own authors, and a 2025 paper co-written with the UK AI Security Institute, say it will not work for arbitrarily powerful AI. MIRI agrees and draws a different conclusion: no workaround exists for a misaligned superintelligence, so the effort should go into stopping anyone from building one."
+summary_for_tutor: "Unit 4 of AI Control Fundamentals. The learner reads a short excerpt from Greenblatt and Shlegeris's case for control ('The control approach we're imagining won't work for arbitrarily powerful AIs', it is aimed at the first AIs capable of substantially reducing risk from later AIs), then the last sentence of the abstract of Korbak, Balesni, Shlegeris and Irving, 'How to evaluate control measures for LLM agents? A trajectory from today to superintelligence' (April 2025, authors from UK AISI, Apollo Research and Redwood Research, so not independent of Redwood): a compelling control safety case for superintelligent LLM agents 'will require research breakthroughs', and 'we might eventually need alternative approaches to mitigating misalignment risk'. Then two excerpts from MIRI's 'The Problem' (2025): MIRI sees no viable workaround to misaligned superintelligence, it would not be possible to safely use it for any complex real-world operation, deceiving it is prone to fail, and 'Plans to align ASI using unaligned AIs are similarly unsound'. Then section 5: 'If anyone builds ASI, everyone dies', so progress toward ASI needs to be halted by an effective worldwide ban. Both sides agree control does not scale to superintelligence. They disagree about whether controlled early AIs can help with what comes after, and about where effort should go. MIRI's criticism has a 'does not work' side (for ASI and for the plan of using unaligned AIs for alignment) and a 'not worth the effort' side (the effort should go to halting). Do not tell the learner who is right."
 ---
 #### Text
 content::
@@ -14,6 +14,14 @@ Control's authors and MIRI agree on one limit. Here is how the authors of the ca
 source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
 from:: The control approach we're imagining won't work for arbitrarily powerful AIs
 to:: We define "transformatively useful AI" to mean AIs that are capable of substantially reducing risk from subsequent AIs.
+#### Text
+content::
+A 2025 paper by researchers at the UK AI Security Institute, Apollo Research and Redwood Research ([arXiv](https://arxiv.org/abs/2504.05259)) says the same about control evaluations. Buck Shlegeris, one of the two authors of the case for control, is a co-author, so this is not an independent check on Redwood. The last sentence of its abstract:
+
+#### Article
+source:: [[../articles/korbak-how-to-evaluate-control-measures-for-llm-agents-a-trajectory-from-today-to-superintelligence]]
+from:: Finally, we show why constructing a compelling AI control safety case
+to:: highlighting that we might eventually need alternative approaches to mitigating misalignment risk.
 
 #### Text
 content::
