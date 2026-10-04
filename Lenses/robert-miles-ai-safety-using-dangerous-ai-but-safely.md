@@ -1,7 +1,21 @@
 ---
 id: 611bdcb3-9071-4d0d-a822-4621747f57f5
 title: "Using Dangerous AI, But Safely?"
+reading_minutes: 31
+tutor_minutes: 8
+tldr: "If you cannot be sure a new AI model is on your side, can you still put it to work? Robert Miles walks through the experiment that started AI control: a red team plays a scheming model, a blue team designs the safeguards, and they find out how much safety each design buys."
+summary_for_tutor: "Robert Miles's video 'Using Dangerous AI, But Safely?' (Nov 2024), an accessible walkthrough of the founding AI control paper (Greenblatt, Shlegeris, Sachan and Roger, 'AI Control: Improving Safety Despite Intentional Subversion', 2023). Covers: why control does not work for strongly superintelligent AI but matters for smart-but-not-superintelligent AI; the setup (an untrusted smart model, GPT-4, a trusted weaker model, GPT-3.5, and limited trusted human time to audit 2% of outputs); the task (programming problems) and the catastrophe (inserting a backdoor); the red team that builds an attack policy standing in for a scheming model and the blue team that designs protocols; safety versus usefulness as a trade-off; protocols: use only the trusted model, use only the untrusted model, human auditing alone (red team attacks rarely), trusted monitoring (suspiciousness scores), deferring to the trusted model for medium-suspicion code, and untrusted monitoring with checks for collusion; and Miles's conclusion that control does not solve alignment but could keep us from being caught out before superintelligence. The question asks the learner to explain the red team's role in their own words. Accept answers in any wording; numbers from the paper are not needed."
 ---
+
+#### Text
+content::
+Robert Miles explains the idea behind AI control and walks through the experiment that started the field. The middle of the video spends a few minutes on the odd programming problems the experiment used, so you can skim that part.
 
 #### Video
 source:: [[../video_transcripts/robert-miles-ai-safety-using-dangerous-ai-but-safely]]
+
+#### Question: Open
+id:: fa4eedae-9fb0-46d6-8f92-96f1bb84d94b
+content::
+In the experiment, GPT-4 almost certainly was not trying to sneak backdoors into the code. So why did the researchers let a red team build a version of it that does, and what did that let them measure?
+feedback-instructions:: The learner just watched Robert Miles explain the founding AI control experiment. Key points: nobody can tell whether a model is secretly scheming, so the researchers assume the worst case. The red team builds an attack policy that stands in for a scheming model and tries its best to get a backdoor through. The blue team's protocol is then judged by how often the attack policy succeeds (safety), alongside how much useful work it gets done when the model is honest (usefulness). This measures what the safeguards can withstand, without needing to know what the model wants. In at most five sentences: say what the learner got right, add the most important missing point from this list, and correct any error in one sentence. If the learner says they do not understand, give one foothold, such as "what would you have to know about GPT-4 to test it directly?". No generic praise. Then send them to the next lesson.
