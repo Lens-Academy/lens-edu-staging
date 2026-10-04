@@ -4,7 +4,7 @@ title: "Scott Alexander reads the PNSE paper"
 tldr: "Scott Alexander takes Martin's interviewees at their word about their inner experience, and reads the paper as evidence for a modest kind of enlightenment: a different inner experience, not a different person."
 summary_for_tutor: "Optional lens. Scott Alexander's 2019 Slate Star Codex post 'The PNSE Paper', only his own commentary (the long quotes from Martin are skipped because the learner read them in the previous lens). Points: Martin is a Reiki practitioner, so 'not the most sober of skeptics'; the sample was self-selected people validated by their communities, mostly white male Americans; what he likes is where the paper departs from stereotypes (outward personality unchanged, agency reported absent while behaviour stays agentic); participants are sometimes 'outright wrong' about their experience (stress seen by others); his analogy with severely miserable people who also look fine from outside; participants under-estimate their memory but have a genuine deficit for appointments; each location feels like the most real one; his conclusion: a 'minimalist account of enlightenment' similar to Daniel Ingram's, a different internal experience marked by drawing the self-other boundary in a different place, as unsurprising as a new mental disorder, 'information processing in the brain switching to some new attractor state if you force it hard enough'. Two reflective questions: what the disorder comparison explains well, and what it leaves out."
 reading_minutes: 10
-tutor_minutes: 4
+tutor_minutes: 6
 tags:
   - wip
 ---
