@@ -50,7 +50,7 @@ Routes by which control could lower the risk of an AI catastrophe:
 - **A few insiders:** a small safety team runs cheap measures at a company that does not take the risk seriously.
 - **A condition of deployment:** a company policy or a regulator requires a passing control safety case before a model is used. A control safety case is a written argument, backed by red-team tests, that the model cannot get past its safety measures.
 
-Ryan Greenblatt's worlds, from most to least political will (how much companies and governments want to act on the risk):
+Ryan Greenblatt's plans, from most to least political will (willingness of companies and governments to act):
 
 - **Plan A:** governments agree internationally to slow AI down for about 10 years.
 - **Plan B:** the US government makes keeping US AI companies ahead a top priority, which buys 1 to 3 years.
@@ -60,7 +60,7 @@ Ryan Greenblatt's worlds, from most to least political will (how much companies 
 1\. Each person takes one or two routes. What is the lowest plan at which each still does real work?
 2\. At that plan, who has to act for the route to work?
 3\. Pick one route where you disagree about its plan. What does the disagreement turn on?
-4\. If you still have time: which plan is the world closest to today? What have you seen that makes you think so?
+4\. If you still have time: which plan is the world closest to today, and why?
 
 
 Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
@@ -89,7 +89,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Every route rests on premises, things that must be true for it to work. Some, with who doubted them:
+Each route rests on premises. Some, with who doubted them:
 
 - **Catch it red-handed:** a caught attempt gets the developer or governments to slow down. Buck Shlegeris doubts it: a competitor could say AIs just do weird things, or that the logs were forged. Tom Davidson thinks credible evidence would change many sceptics' minds.
 - **The window:** AIs stay useful but controllable long enough to matter. Greenblatt and Shlegeris themselves say the gap is "reasonably likely to be too short (e.g., 6 months or 1 year)" if AI is built as fast as possible.
@@ -99,10 +99,10 @@ Every route rests on premises, things that must be true for it to work. Some, wi
 Pick a premise from this list, or one from your Room 2 table.
 1\. Which premise does your group trust least? Why?
 2\. One person argues for it as well as they can. The others push back. Does it hold?
-3\. Name one thing someone could observe in the next few years that would change your confidence in it. Would it raise or lower it?
+3\. Name something observable in the next few years that would change your confidence. Would it raise or lower it?
 4\. If you still have time: if this premise fails, which routes are left?
 
-Ending more confident and ending less confident are both fine outcomes.
+Ending more or less confident are both fine.
 
 
 Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
@@ -128,7 +128,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-1\. Next unit: the main criticisms of control, in the critics' own words, each with replies from people who work on control. About 3.5 hours. What is most likely to stop you finishing it?
+1\. Next unit: the main criticisms of control, in the critics' own words, each with replies from people who work on control, then practice sorting and answering them. About 3.5 hours. What is most likely to stop you finishing it?
 2\. What is your plan to prevent that? (Send the plan to your accountability buddy after the meeting.)
 3\. Feedback: what would make the course and this meeting better?
 
