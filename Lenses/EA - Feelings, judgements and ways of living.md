@@ -3,14 +3,14 @@ id: '31571730-e0f9-4a0c-a630-c22fafe36360'
 title: "Feelings, judgements and ways of living"
 tldr: "'Happiness' can mean how you feel, how you judge your life, or how well you live. A claim that is true of one can be false of another."
 summary_for_tutor: "Three readings on the Western kinds of happiness. Haybron (SEP 'Happiness' 1.1 and 2.1): happiness as a state of mind versus happiness as a life that goes well for you (well-being, the sense used for eudaimonia); theories of the state of mind: hedonism, life satisfaction, emotional state (including 'attunement' states like tranquility), hybrids such as subjective well-being. Diener (Noba module, 'Types of Happiness'): subjective well-being has three parts, life satisfaction, frequent positive feelings, infrequent negative feelings, with different causes, and they can come apart. Ryan, Huta and Deci 2008 (abstract, opening, 'Feeling good versus living well'): hedonic well-being is an outcome (positive affect, absence of pain); eudaimonia is a way of living (pursuing excellence, intrinsic goals, autonomy), not a feeling. Then a recall question and a question asking for a person who is high on one kind and low on another."
-reading_minutes: 18
+reading_minutes: 19
 tutor_minutes: 6
 tags:
   - wip
 ---
 #### Text
 content::
-Three short readings: the philosopher Dan Haybron, the psychologist Ed Diener, and the psychologists Richard Ryan, Veronika Huta and Edward Deci (Ryan and Deci developed self-determination theory, which their paper builds on). While you read, keep one question in mind: is the "happiness" in this sentence a feeling, a judgement about a life, or a way of living?
+Three short readings: the philosopher Dan Haybron, the psychologist Ed Diener, and the psychologists Richard Ryan, Veronika Huta and Edward Deci (Ryan and Deci developed [self-determination theory](https://selfdeterminationtheory.org/theory/), which their paper builds on). While you read, keep one question in mind: is the "happiness" in this sentence a feeling, a judgement about a life, or a way of living?
 
 #### Article
 source:: [[../articles/haybron-happiness-stanford-encyclopedia-of-philosophy]]
@@ -19,7 +19,7 @@ to:: or leading a happy life.
 
 #### Article
 from:: Philosophers have most commonly distinguished two accounts of happiness
-to:: “psychic flourishing” in pronounced forms.
+to:: get included in “happiness” in ordinary usage.
 
 #### Article
 source:: [[../articles/diener-happiness-the-science-of-subjective-well-being]]
@@ -33,7 +33,7 @@ to:: people live eudaimonic lives.
 
 #### Article
 from:: A central premise of our thesis is that hedonic versus eudaimonic psychologies
-to:: such as vitality, intimacy, health, and sense of meaning, among others.
+to:: Moreover, it is clear that pleasure, psychological health, and optimal functioning are inter-correlated.
 
 #### Article
 from:: Most importantly, Aristotle distinguished between happiness as experiencing pleasure
