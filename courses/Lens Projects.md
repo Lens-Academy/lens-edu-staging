@@ -39,7 +39,7 @@ Readings:
 # Module: [[../modules/Lens Projects U1 Plan]]
 
 # Meeting: Unit 1: Plan
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+survey:: [[../surveys/Lens Projects Meeting 1 Survey]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 %% Shape: getting to know each other; two-minute canvas pitches; the group challenges the audience and the predicted change; participants who prepared pair with those starting fresh. Close with a heads-up that intake answers on hours, track and team will be used to pair review partners. %%
 
@@ -73,7 +73,7 @@ Readings:
 # Module: [[../modules/Lens Projects U3 Re-scope]]
 
 # Meeting: Unit 3: Re-scope
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+survey:: [[../surveys/Lens Projects Meeting 3 Survey]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 %% Shape: a quick round on decisions (who re-scoped or switched, in one sentence); partners read each other's drafts live for about fifteen minutes and give first reactions out loud; each person's hardest current problem and the group's best suggestion. %%
 
@@ -107,6 +107,6 @@ Readings:
 # Module: [[../modules/Lens Projects U5 Share]]
 
 # Meeting: Unit 5: Share
-survey:: [[../surveys/CVC Final Impact Survey v2]]
+survey:: [[../surveys/Lens Projects Final Survey]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 %% Shape: three minutes each (the audience and the change you aimed for, what you made, what you are least sure of, your ask of the room), then questions; a closing round on each person's next step with the work, with a date. %%
