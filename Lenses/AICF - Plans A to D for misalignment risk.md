@@ -10,48 +10,12 @@ tags:
 ---
 #### Text
 content::
-Every route in this unit depends to some degree on how much AI companies and governments want to act on misalignment risk. Ryan Greenblatt, who works on control at Redwood Research, sorts the possible worlds by that one variable and asks what the best plan is in each. After each plan there is a short question. Answer it from memory before you read on.
+Every route in this unit depends to some degree on how much AI companies and governments want to act on misalignment risk. Ryan Greenblatt, whose dialogue with Habryka you just read, sorts the possible worlds by that one variable and asks what the best plan is in each. Two questions follow the reading. Try the first from memory.
 
 #### Article
 source:: [[../articles/greenblatt-plans-a-b-c-and-d-for-misalignment-risk]]
 from:: "I sometimes think about plans for how to handle misalignment risk."
-to:: "(I have draft docs discussing many of these details.)"
-
-#### Question: Open
-id:: c5ecfe59-31d5-410c-b377-45a13efaa8f8
-content:: Plan A: how much political will is there, who has it, and what does it buy?
-placeholder:: One or two sentences, from memory.
-feedback-instructions:: Plan A has the most will: enough for a strong international agreement that mostly eliminates race dynamics, which buys a long, coordinated slowdown (roughly ten years) and massive investment in security and safety work. In at most three sentences, say what the learner got right and add what is missing. No follow-up question. No generic praise. One turn.
-
-#### Article
-from:: "## Plan B"
-to:: "If this goes very well, we might be able to move to Plan A."
-
-#### Question: Open
-id:: 4271d71f-ff91-433a-9858-69961c2c9326
-content:: Plan B: how much political will is there, who has it, and what does it buy?
-placeholder:: One or two sentences, from memory.
-feedback-instructions:: Plan B: some will but no international agreement. The US government treats buying lead time for US AI companies as one of its top national security priorities, not necessarily out of misalignment concern. It buys one to three years that can be spent on misalignment risk. In at most three sentences, say what the learner got right and add what is missing. No follow-up question. No generic praise. One turn.
-
-#### Article
-from:: "## Plan C"
-to:: "though trying to generate more political will remains promising."
-
-#### Question: Open
-id:: ddda6478-0994-4149-8137-3d3f52767159
-content:: Plan C: how much political will is there, who has it, and what does it buy?
-placeholder:: One or two sentences, from memory.
-feedback-instructions:: Plan C: little will and no serious government involvement. What will there is sits inside the leading AI company, which has a lead of a few months over less careful competitors and is willing and able to spend much of it on misalignment, with a very fast handoff to AIs. In at most three sentences, say what the learner got right and add what is missing. No follow-up question. No generic praise. One turn.
-
-#### Article
-from:: "## Plan D"
 to:: "More responsible trailing AI companies should focus on exporting safety work (in addition to policy/coordination work)."
-
-#### Question: Open
-id:: f78b4a3f-506e-4d88-acd6-b03de0b65acb
-content:: Plan D: how much political will is there, who has it, and what does it buy?
-placeholder:: One or two sentences, from memory.
-feedback-instructions:: Plan D: the least of the four. The leading company does not take misalignment seriously in practice and nothing outside slows takeoff, but 10 to 30 people inside do take it seriously and have enough buy-in to get about 3% of compute for work aimed at misalignment risk. In at most three sentences, say what the learner got right and add what is missing. Mention that the next reading is the post this scenario comes from. No follow-up question. No generic praise. One turn.
 
 #### Article
 from:: "## Plan E"
