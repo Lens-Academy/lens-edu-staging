@@ -6,6 +6,8 @@ tags:
 
 Mode: explicit paths (the 43 learning outcomes linked from the AI Control 1 to 3 modules). Suite version 3 (C2 tightened the same day). Judge: Claude Opus 5.5 via headless Claude Code, one judge per file, single run. Read-only: no stamps written.
 
+**Follow-up, same day:** every fail below was fixed (questions now ask for what is scored, or the element moved to feedback; A3 fails split into new learning outcomes). Each fixed file was re-judged clean. A second C2 pass over all 56 lenses found 7 more fails the first pass missed; those were fixed too. One flag was left on purpose: "What is the red team's goal?" in ai-control-paper, which is the approved example in Writing Rubrics.
+
 Also: the C2 test applied to every graded question (`assessment-instructions::`) in the 73 lenses linked from those modules (56 lenses with graded questions, 240 questions). The LO suite does not cover lens questions; this was a one-off.
 
 ## Learning outcomes
