@@ -37,6 +37,7 @@ Unit 1 goals (What control is):
 # Module: [[../modules/AI Control Fundamentals U1 Feedback|Unit 1 feedback]]
 
 # Meeting: Unit 1
+meeting-doc:: [[../meetings/AI Control Fundamentals/Meeting 1]]
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
@@ -52,6 +53,7 @@ Unit 2 goals (The key ideas and the field):
 # Module: [[../modules/AI Control Fundamentals U2 Feedback|Unit 2 feedback]]
 
 # Meeting: Unit 2
+meeting-doc:: [[../meetings/AI Control Fundamentals/Meeting 2]]
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
@@ -66,6 +68,7 @@ Unit 3 goals (Why people work on control):
 # Module: [[../modules/AI Control Fundamentals U3 Feedback|Unit 3 feedback]]
 
 # Meeting: Unit 3
+meeting-doc:: [[../meetings/AI Control Fundamentals/Meeting 3]]
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
@@ -80,6 +83,7 @@ Unit 4 goals (Criticisms of control):
 # Module: [[../modules/AI Control Fundamentals U4 Feedback|Unit 4 feedback]]
 
 # Meeting: Unit 4
+meeting-doc:: [[../meetings/AI Control Fundamentals/Meeting 4]]
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
@@ -94,5 +98,6 @@ Unit 5 goals (Debates, and your own view):
 # Module: [[../modules/AI Control Fundamentals U5 Feedback|Unit 5 feedback]]
 
 # Meeting: Unit 5
+meeting-doc:: [[../meetings/AI Control Fundamentals/Meeting 5]]
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
