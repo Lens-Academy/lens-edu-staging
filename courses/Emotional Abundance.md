@@ -85,3 +85,6 @@ School library (one module per school, same profile: claims, main people, source
 - Contemplative traditions: early Buddhism and Theravada, the jhanas, Zen, Tibetan Buddhism, Advaita Vedanta and modern non-dual teachers, Yoga, secular and pragmatic meditation, Christian and Sufi mysticism, Taoism
 - Philosophy: Stoicism, Epicureanism, Aristotle and virtue ethics, philosophy of the self, existentialism, absurdism and nihilism
 %%
+
+# Module: [[../modules/Emotional Abundance Library - Fundamental wellbeing|Library: Fundamental wellbeing research]]
+optional:: true
