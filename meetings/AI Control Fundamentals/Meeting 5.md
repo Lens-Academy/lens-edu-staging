@@ -67,7 +67,7 @@ Habryka:
 - within a model generation or two, he expects models to notice they are being tested and pass every safety check while misaligned
 
 A crux is a claim about the world they disagree on: if true, one of them would drop their conclusion, and if false, the other.
-1\. Go around: each person proposes one crux. Use the one you wrote in the unit, or build one from the lines above.
+1\. Go around: each person proposes one crux, from the unit or from the lines above.
 2\. Test each one: does one of them accept it while the other doubts it? Drop the rest and keep the strongest.
 3\. Name something that could be observed in the next few years that should move Gleave towards Habryka.
 4\. Name something that should move Habryka towards Gleave.
