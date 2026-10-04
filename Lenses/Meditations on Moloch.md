@@ -14,7 +14,7 @@ The failure of alignment is not always a result of technical incompetence: often
 
 #### Article
 source:: [[../articles/alexander-meditations-on-moloch]]
-{++{"author":"Elua's AI","timestamp":1791121854638}@@from:: "Allen Ginsberg’s famous"
+from:: "Allen Ginsberg’s famous"
 to:: "brains and imagination?"
 
 #### Article
@@ -75,7 +75,7 @@ to:: "#### 2\. Physical limitations"
 
 #### Article
 from:: "Or to give another"
-++}to:: {--{"author":"Elua's AI","timestamp":1791121650064}@@"! Down--}{++{"author":"Elua's AI","timestamp":1791121650064}@@"damage per generation."
+to:: "damage per generation."
 
 #### Article
 from:: "#### 3\. Utility maximization"
@@ -87,7 +87,7 @@ to:: "advantage rather than ours."
 
 #### Article
 from:: "#### 4\. Coordination"
-to:: "conform++} to the {--{"author":"Elua's AI","timestamp":1791121650064}@@river! --}{++{"author":"Elua's AI","timestamp":1791121650064}@@pattern."
+to:: "conform to the pattern."
 
 #### Article
 from:: "The libertarian-authoritarian"
@@ -95,7 +95,7 @@ to:: "Moloch can devise."
 
 #### Article
 from:: "What would it mean"
-to:: "fall ++}into {++{"author":"Elua's AI","timestamp":1791121857309}@@multipolar traps."
+to:: "fall into multipolar traps."
 
 #### Article
 from:: "That “the opportunity"
@@ -182,7 +182,7 @@ from:: "I am a transhumanist and"
 to:: "want to rule the universe."
 
 #### Article
-from:: "But ++}the {--{"author":"Elua's AI","timestamp":1791121650064}@@street!*"--}{++{"author":"Elua's AI","timestamp":1791121650064}@@current rulers"
+from:: "But the current rulers"
 to:: "pretty high priority."
 
 #### Article
@@ -203,7 +203,7 @@ to:: "but this one is ours."
 
 #### Article
 from:: "The question everyone"
-to:: "and *get to work*."++}
+to:: "and *get to work*."
 
 #### Text
 content::
