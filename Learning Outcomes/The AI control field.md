@@ -30,7 +30,7 @@ source:: [[../Lenses/AICF - Areas of control work]]
 notes:: Greenblatt's eight areas of control work, excerpted.
 ## Lens:
 source:: [[../Lenses/AICF - Control inside AI companies]]
-notes:: Bhatt on what AI companies already run, and Google DeepMind's AI Control Roadmap summary.
+notes:: Bhatt (4:53 to 10:44) on what AI companies already run and how outsiders check it, the UK AI Security Institute's Control Red Team post on testing company monitors, and Google DeepMind's AI Control Roadmap summary.
 ## Lens:
 source:: [[../Lenses/AICF - Who works on AI control]]
 notes:: Lens page on organisations, people and size, October 2026, every line sourced.
