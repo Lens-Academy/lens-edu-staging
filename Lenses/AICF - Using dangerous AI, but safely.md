@@ -152,7 +152,7 @@ content::
 
 #### Video
 from:: 27:39.1
-to:: 29:39
+to:: 29:31
 
 #### Question: Open
 id:: 01221594-0cd4-48e7-9159-e0864105e7a0
