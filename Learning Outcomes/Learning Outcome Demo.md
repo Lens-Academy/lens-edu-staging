@@ -9,7 +9,9 @@ writing_minutes: 12
 
 Any module that links to an LO automatically imports its test. The suggested lenses are mere suggestions, which the course creator can choose to manually link to from the module.
 
-Users don't see learning outcomes. They just see lenses and tests.%%
+Users don't see learning outcomes. They just see lenses and tests.
+
+writing_minutes: sets how long the test takes (default 7 minutes per test). It is shown with a pen icon and counts toward the module's time estimate.%%
 ## Test:
 id:: 88b7204b-2e34-4688-8f1f-1b5bbd75f5c8
 %% Tests are always tied to a learning outcome and defined directly inside of it. They're never imported from a separate file.%%
