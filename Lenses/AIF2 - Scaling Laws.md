@@ -54,7 +54,7 @@ from:: This post is about language model scaling laws
 to:: People put immense effort into training models that big, and were working on even bigger ones, and yet none of this, in principle, could ever get as far Chinchilla did.
 
 #### Article
-from:: It is frustratingly hard to find an answer to this question.
+from:: ## 2\. are we running out of data? ^2-are-we-running
 to:: Did you use all the forum data you could find, or only 0.01% of it, or something in between?
 
 #### Question: Open
