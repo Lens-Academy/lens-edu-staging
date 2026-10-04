@@ -43,18 +43,7 @@ to:: It does not require you to go to any particular place in the past or the fu
 #### Text
 content::
 \## Experiment 2: A bad mood and the space it appears in
-optional:: true
-
-#### Text
-content::
-Sam Harris is a writer with a PhD in cognitive neuroscience ([Wikipedia](https://en.wikipedia.org/wiki/Sam_Harris)) who teaches meditation in his paid app Waking Up, which offers free membership to anyone who cannot afford it ([Waking Up](https://www.wakingup.com/)). This guided session is free on his YouTube channel. It starts with the breath and moves to looking for the self. Midway he asks you to recall something that bothers you and to "be the space in which it arises". His claim is that the awareness that knows a mood never takes the form of that mood.
-
-Before you start, think of the memory you will use and rate how much it bothers you from 0 to 10. Rate it again right after that part of the session, and write one sentence on whether the knowing itself seemed changed by the mood. This rating is our suggestion, not Harris's.
-optional:: true
-
-#### Video
-source:: [[../video_transcripts/sam-harris-waking-up-with-sam-harris-looking-for-the-self-26-minute-meditation]]
-optional:: true
+This one is a 26-minute guided session by Sam Harris. It is in its own optional page after this one: [[../Lenses/EA - Non-dual - Guided session, looking for the self|A bad mood and the space it appears in]].
 
 #### Text
 content::
