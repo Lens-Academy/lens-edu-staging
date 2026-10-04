@@ -27,7 +27,7 @@ Later in the dialogue, Greenblatt replies to Habryka's second point:
 
 #### Article
 source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
-from:: "(control being used for capabilities research), this doesn't seem like an objection"
+from:: "One **(2)** (control being used for capabilities research)"
 to:: "if that doesn't transfer to non-adversarial cases)."
 
 #### Question: Open

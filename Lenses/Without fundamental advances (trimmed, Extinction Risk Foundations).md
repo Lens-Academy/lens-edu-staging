@@ -196,7 +196,7 @@ to:: "using behavioral training."
 #### Article
 source:: [[../articles/gillen+barnett-without-fundamental-advances,-misalignment-and-catastrophe-are-the-default-outcomes-of-training-powerful-ai]]
 from:: "If an AI is caught attempting to break out"
-to:: "stop using it."
+to:: "subvert oversight, stop using it."
 
 #### Article
 source:: [[../articles/gillen+barnett-without-fundamental-advances,-misalignment-and-catastrophe-are-the-default-outcomes-of-training-powerful-ai]]
