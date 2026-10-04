@@ -11,7 +11,16 @@ tags:
 source:: [[../Learning Outcomes/Catching models red-handed]]
 
 # Learning Outcome:
+source:: [[../Learning Outcomes/Convincing sceptics after a catch]]
+
+# Learning Outcome:
 source:: [[../Learning Outcomes/Few-shot catastrophe prevention]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Training on caught attempts]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Overfitting to caught attempts]]
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Prioritising control threats]]
