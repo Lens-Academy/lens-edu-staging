@@ -10,7 +10,7 @@ tags:
 # Lens: Your feedback on Unit 1
 id:: b8fc7cb2-06cd-4407-b366-b5200bca38c7
 tldr:: Tell us how Unit 1 went, so we can improve it.
-summary_for_tutor:: Feedback page after Unit 1 (Stress-testing capability elicitation) of AI Control 3. The learner rates the unit's content and the AI Tutor, and says what was most useful and what was confusing, too long or not worth their time. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
+summary_for_tutor:: Feedback page after Unit 1 (Stress-testing capability elicitation) of AI Control 3. The learner rates the unit's content and the AI Tutor, and says what one thing they would change about the unit. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
 reading_minutes:: 2
 tutor_minutes:: 0
 #### Text
@@ -49,14 +49,11 @@ labels::
 - Essential
 
 #### Question: Open
-id:: 78d5e1fa-fae2-479e-b82b-7b207ecc063a
-content:: What was the most useful part of this unit?
-
-#### Question: Open
-id:: 733b94cf-6659-46be-a117-5f9f94fccb2b
-content:: What was confusing, too long, or not worth your time?
+id:: fbeb5256-fc4b-42b7-9f72-de5053042953
+content:: If we could change one thing about this unit, what should it be?
 
 #### Question: Open
 id:: 6cb45fc6-8350-490e-8fbd-3617109c9884
 content:: Anything else you want to share?
+placeholder:: For example: what was most useful, or what was confusing, too long, or not worth your time.
 optional:: true

@@ -10,7 +10,7 @@ tags:
 # Lens: Your feedback on Unit 2
 id:: 79e4faf3-a9a0-446d-8942-c690f3075b66
 tldr:: Tell us how Unit 2 went, so we can improve it.
-summary_for_tutor:: Feedback page after Unit 2 (Research sabotage and exploration hacking, hands on) of AI Control 3. The learner rates the unit's content and the AI Tutor, and says what was most useful and what was confusing, too long or not worth their time. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
+summary_for_tutor:: Feedback page after Unit 2 (Research sabotage and exploration hacking, hands on) of AI Control 3. The learner rates the unit's content and the AI Tutor, and says what one thing they would change about the unit. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
 reading_minutes:: 2
 tutor_minutes:: 0
 #### Text
@@ -49,14 +49,11 @@ labels::
 - Essential
 
 #### Question: Open
-id:: 00fe4e90-fc26-46e0-9f38-5c4b3fc914f2
-content:: What was the most useful part of this unit?
-
-#### Question: Open
-id:: 4cd3cd8e-85a3-4b7f-b767-748eb47838e6
-content:: What was confusing, too long, or not worth your time?
+id:: 511df775-8f51-42ff-84eb-0abd34974a3b
+content:: If we could change one thing about this unit, what should it be?
 
 #### Question: Open
 id:: 5a052f3a-db3d-421a-9c28-c6e6beb606e5
 content:: Anything else you want to share?
+placeholder:: For example: what was most useful, or what was confusing, too long, or not worth your time.
 optional:: true

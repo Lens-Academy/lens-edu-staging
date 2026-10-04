@@ -10,7 +10,7 @@ tags:
 # Lens: Your feedback on Unit 3
 id:: b9aa114f-9895-481c-b599-9de3f720d951
 tldr:: Tell us how Unit 3 went, so we can improve it.
-summary_for_tutor:: Feedback page after Unit 3 (Monitoring and resampling in real deployments) of AI Control 2. The learner rates the unit's content and the AI Tutor, and says what was most useful and what was confusing, too long or not worth their time. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
+summary_for_tutor:: Feedback page after Unit 3 (Monitoring and resampling in real deployments) of AI Control 2. The learner rates the unit's content and the AI Tutor, and says what one thing they would change about the unit. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
 reading_minutes:: 2
 tutor_minutes:: 0
 #### Text
@@ -49,14 +49,11 @@ labels::
 - Essential
 
 #### Question: Open
-id:: 6def024b-430f-4fc4-a39f-2f4ffbec6ed4
-content:: What was the most useful part of this unit?
-
-#### Question: Open
-id:: 6307f15d-058b-4f4d-a4fb-63b9f71eb29b
-content:: What was confusing, too long, or not worth your time?
+id:: 92e108c3-36fc-4cef-91d7-c5cdebff7da5
+content:: If we could change one thing about this unit, what should it be?
 
 #### Question: Open
 id:: c9fa41ad-d218-4b1f-969d-8356f9b434d1
 content:: Anything else you want to share?
+placeholder:: For example: what was most useful, or what was confusing, too long, or not worth your time.
 optional:: true

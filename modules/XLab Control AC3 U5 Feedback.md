@@ -10,7 +10,7 @@ tags:
 # Lens: Your feedback on Unit 5
 id:: 2cc2aa73-08b6-4b56-a0f2-389545fca82f
 tldr:: Tell us how Unit 5 went, so we can improve it.
-summary_for_tutor:: Feedback page after Unit 5 (Making deals stick, and what's next) of AI Control 3. The learner rates the unit's content and the AI Tutor, and says what was most useful and what was confusing, too long or not worth their time. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words. The next page asks about the whole course.
+summary_for_tutor:: Feedback page after Unit 5 (Making deals stick, and what's next) of AI Control 3. The learner rates the unit's content and the AI Tutor, and says what one thing they would change about the unit. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words. The next page asks about the whole course.
 reading_minutes:: 2
 tutor_minutes:: 0
 #### Text
@@ -49,22 +49,19 @@ labels::
 - Essential
 
 #### Question: Open
-id:: 1502742a-3612-41fe-8cff-2d9fece5df5b
-content:: What was the most useful part of this unit?
-
-#### Question: Open
-id:: e5904e11-2e6b-4eac-a36e-4d3adab9451f
-content:: What was confusing, too long, or not worth your time?
+id:: a770b0cd-360e-4fc6-9716-03a0e8f39612
+content:: If we could change one thing about this unit, what should it be?
 
 #### Question: Open
 id:: 4086a3f6-6a34-495b-9f7f-bb7bde60aa60
-content:: Anything else you want to share about this unit?
+content:: Anything else you want to share?
+placeholder:: For example: what was most useful, or what was confusing, too long, or not worth your time.
 optional:: true
 
 # Lens: Your feedback on AI Control 3
 id:: 0eb2644e-2944-469e-899e-e1dcd01bf4c8
 tldr:: Looking back over all five units, tell us what worked and what to change.
-summary_for_tutor:: Whole-course feedback page at the end of AI Control 3. The learner rates the course, names the most valuable thing they got from it, and the one change that would most improve it. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
+summary_for_tutor:: Whole-course feedback page at the end of AI Control 3. The learner rates the course, and says what one thing they would change about the course. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
 reading_minutes:: 3
 tutor_minutes:: 0
 #### Text
@@ -87,14 +84,11 @@ labels::
 - Excellent
 
 #### Question: Open
-id:: d6f1a2b7-3300-4790-953d-a2c13df7fb72
-content:: What is the most valuable thing you got from this course?
-
-#### Question: Open
-id:: 1fd4cfd0-f2ac-443a-bf7e-a774e414a5da
-content:: What one change would most improve this course?
+id:: eb55d04d-d2ce-4866-9e0d-9c72e344b733
+content:: If we could change one thing about this course, what should it be?
 
 #### Question: Open
 id:: a966ae93-d048-484a-8c97-b685b06443fa
 content:: Anything else you want to share about the course?
+placeholder:: For example: what was most valuable, or what was confusing, too long, or not worth your time.
 optional:: true

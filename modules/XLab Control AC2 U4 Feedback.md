@@ -10,7 +10,7 @@ tags:
 # Lens: Your feedback on Unit 4
 id:: 8ecf9564-2865-4928-ae0f-bda1e51dcc6a
 tldr:: Tell us how Unit 4 went, so we can improve it.
-summary_for_tutor:: Feedback page after Unit 4 (Building the test, and designing against collusion) of AI Control 2. The learner rates the unit's content and the AI Tutor, and says what was most useful and what was confusing, too long or not worth their time. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
+summary_for_tutor:: Feedback page after Unit 4 (Building the test, and designing against collusion) of AI Control 2. The learner rates the unit's content and the AI Tutor, and says what one thing they would change about the unit. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
 reading_minutes:: 2
 tutor_minutes:: 0
 #### Text
@@ -49,14 +49,11 @@ labels::
 - Essential
 
 #### Question: Open
-id:: 18ffa4b0-db70-45f4-9108-831640a9c4e7
-content:: What was the most useful part of this unit?
-
-#### Question: Open
-id:: 317e81c5-7401-4ecb-9748-ca223b78a498
-content:: What was confusing, too long, or not worth your time?
+id:: 90cbfc45-0811-4857-b191-f12fad41c0d4
+content:: If we could change one thing about this unit, what should it be?
 
 #### Question: Open
 id:: 52300175-c992-4f71-9227-3f824f86f28e
 content:: Anything else you want to share?
+placeholder:: For example: what was most useful, or what was confusing, too long, or not worth your time.
 optional:: true

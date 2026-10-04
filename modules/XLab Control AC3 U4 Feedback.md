@@ -10,7 +10,7 @@ tags:
 # Lens: Your feedback on Unit 4
 id:: d20fb879-fe90-4247-929c-0925282404ca
 tldr:: Tell us how Unit 4 went, so we can improve it.
-summary_for_tutor:: Feedback page after Unit 4 (Measuring reward seeking, and why make a deal) of AI Control 3. The learner rates the unit's content and the AI Tutor, and says what was most useful and what was confusing, too long or not worth their time. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
+summary_for_tutor:: Feedback page after Unit 4 (Measuring reward seeking, and why make a deal) of AI Control 3. The learner rates the unit's content and the AI Tutor, and says what one thing they would change about the unit. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
 reading_minutes:: 2
 tutor_minutes:: 0
 #### Text
@@ -49,14 +49,11 @@ labels::
 - Essential
 
 #### Question: Open
-id:: a6411f89-d732-45da-a51f-f8bc57e4a588
-content:: What was the most useful part of this unit?
-
-#### Question: Open
-id:: dedebd2f-e697-4d50-9b78-341bf625a329
-content:: What was confusing, too long, or not worth your time?
+id:: d6dce488-792c-4163-9a6c-bb0cb3aa9dee
+content:: If we could change one thing about this unit, what should it be?
 
 #### Question: Open
 id:: 01f1ad5c-6272-4ca0-8ee2-2b69c2c0b525
 content:: Anything else you want to share?
+placeholder:: For example: what was most useful, or what was confusing, too long, or not worth your time.
 optional:: true

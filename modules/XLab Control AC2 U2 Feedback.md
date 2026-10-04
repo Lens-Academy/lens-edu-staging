@@ -10,7 +10,7 @@ tags:
 # Lens: Your feedback on Unit 2
 id:: 1e61d290-daf0-4ad1-9e46-86cb1030a4b7
 tldr:: Tell us how Unit 2 went, so we can improve it.
-summary_for_tutor:: Feedback page after Unit 2 (High stakes: how a catastrophe happens) of AI Control 2. The learner rates the unit's content and the AI Tutor, and says what was most useful and what was confusing, too long or not worth their time. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
+summary_for_tutor:: Feedback page after Unit 2 (High stakes: how a catastrophe happens) of AI Control 2. The learner rates the unit's content and the AI Tutor, and says what one thing they would change about the unit. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
 reading_minutes:: 2
 tutor_minutes:: 0
 #### Text
@@ -49,14 +49,11 @@ labels::
 - Essential
 
 #### Question: Open
-id:: 12bddbe4-5290-4733-a528-e229a720ab89
-content:: What was the most useful part of this unit?
-
-#### Question: Open
-id:: 7af44890-8e7d-4b48-a1e6-de014a208e6a
-content:: What was confusing, too long, or not worth your time?
+id:: eb8df6cc-9e0c-4ce3-8767-3ddb1076367f
+content:: If we could change one thing about this unit, what should it be?
 
 #### Question: Open
 id:: b937bf8f-b7a6-4da1-8072-a61553f7197c
 content:: Anything else you want to share?
+placeholder:: For example: what was most useful, or what was confusing, too long, or not worth your time.
 optional:: true

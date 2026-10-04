@@ -10,7 +10,7 @@ tags:
 # Lens: Your feedback on Unit 3
 id:: 9f51148b-f1a9-4d37-a720-7943eeb029ad
 tldr:: Tell us how Unit 3 went, so we can improve it.
-summary_for_tutor:: Feedback page after Unit 3 (Seekers, not schemers) of AI Control 3. The learner rates the unit's content and the AI Tutor, and says what was most useful and what was confusing, too long or not worth their time. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
+summary_for_tutor:: Feedback page after Unit 3 (Seekers, not schemers) of AI Control 3. The learner rates the unit's content and the AI Tutor, and says what one thing they would change about the unit. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
 reading_minutes:: 2
 tutor_minutes:: 0
 #### Text
@@ -49,14 +49,11 @@ labels::
 - Essential
 
 #### Question: Open
-id:: 015e25e0-4a1b-4fec-b46c-542a4c1e114c
-content:: What was the most useful part of this unit?
-
-#### Question: Open
-id:: 1461eff2-e949-47d2-ba01-0b79d855a3ec
-content:: What was confusing, too long, or not worth your time?
+id:: c4a14959-9511-4ad8-97ab-a935ecbb97a5
+content:: If we could change one thing about this unit, what should it be?
 
 #### Question: Open
 id:: c57966c1-43a8-4f69-b157-635d06039228
 content:: Anything else you want to share?
+placeholder:: For example: what was most useful, or what was confusing, too long, or not worth your time.
 optional:: true
