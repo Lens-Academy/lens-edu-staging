@@ -95,8 +95,11 @@ Four setups:
 
 - (a) U writes. T scores each change for suspicion. Humans check the top 2%.
 - (b) U writes. A second copy of U scores each change. Humans check the top 2%.
+- (c) T writes. U reviews and points out bugs, which T can fix or ignore.
 - (d) U writes. U has behaved well for a year, so it now checks its own work.
 
+1. For each setup: if U is secretly working against the lab, which model's honesty does safety depend on?
+2. Rank the setups from safest to least safe.
 3. Now be the red team: the people who play U and search for its best attack. In your safest setup, how would U get harmful code through anyway?
 4. If you still have time: a real model might find an attack your red team missed. What would convince you that a red team searched well enough?
 
