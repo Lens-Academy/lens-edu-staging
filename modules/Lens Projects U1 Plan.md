@@ -37,6 +37,11 @@ By the end of this unit you will have a plan small enough to finish: who your pr
 
 Any of these is fine. Showing up with a half-finished canvas is better than not showing up.
 
+#### Question: Open
+id:: 5fa86b4a-6b2d-4b5b-9b44-1f0b3c6e2d71
+content:: Before you start: what do you most want to get out of this course? Be specific: a skill, a piece of work, a decision about your career, a person to meet. You will look back at this in Unit 5.
+feedback-instructions:: The learner is saying what they most want from Lens Projects, a five-unit project course. Reply in under 80 words, one reply. If the answer is vague ("learn more about AI safety"), ask what would be different for them at the end if they got it. Do not suggest goals, and do not promise the course will deliver it. No generic praise. Do not grade.
+
 # Lens: Use AI as a tool, not a decision-maker
 id:: 085752ae-82e0-439d-b542-45f836e9db63
 tldr:: Use AI as much as you like for the work. The decisions, your argument and your voice stay yours, and you say how you used AI.
@@ -264,6 +269,7 @@ content::
 - Your canvas, finished or not
 - Your one-sentence theory of change, ready to say out loud in two minutes
 - One practice task and one leverage task, for the AI agreement
+- Your report card, with at least one entry
 
 In the meeting, the group will ask: Who exactly is this for? What will have changed by the end? Why you? What is your riskiest assumption?
 
