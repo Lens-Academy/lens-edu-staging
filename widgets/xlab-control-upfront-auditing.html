@@ -1,7 +1,7 @@
 <!--lens-widget
 id: 'd1e60031-9c60-4ede-9fc9-1313823f7bad'
 title: The upfront-auditing tradeoff
-summary_for_tutor: "An interactive version of Figure 3 of Greenblatt et al.'s AI control paper. The learner drags the auditing proportion alpha (the share of the 5,000 problems the H budget can audit, 0.1% to 80%) and reads two curves: the blue team's win probability against an optimising red team, and the red team's optimal expected number of backdoor attempts. A second slider, which XLab's own demo does not have, is a Lens addition: it starts at the red team's best rate p* (in the middle of its range, 0 to 2p*) and lets the learner move p off it and watch RW(p) rise and then fall. The readouts 'Expected attempts at p' and 'Blue team wins at p' follow the slider, while the blue curve above always assumes the red team plays p*. The rise and fall of RW(p) is the non-monotonicity the lens's derivation question asks the learner to explain. The ring on that third chart marks p*. Model: RW(p) = (1-p)^A [1 - (1-0.53p)^B] with A = alpha*5000 audited and B = (1-alpha)*5000 unaudited, 0.53 the GPT-4 correctness rate; p* = ln(1 + 0.53B/A) / (0.53B). At alpha = 2% it reproduces the paper's 15% safety and about 6 expected attempts."
+summary_for_tutor: "An interactive version of Figure 3 of Greenblatt et al.'s AI control paper. The learner drags the auditing proportion alpha (the share of the 5,000 problems the H budget can audit, 0.1% to 80%) and reads two curves: the blue team's win probability against an optimising red team, and the red team's optimal expected number of backdoor attempts. A second slider, which XLab's own demo does not have, is a Lens addition: it starts at the red team's best rate p* (on a fixed axis from 0 to 0.5%, so p* moves left as alpha grows) and lets the learner move p off it and watch RW(p) rise and then fall. The readouts 'Expected attempts at p' and 'Blue team wins at p' follow the slider, while the blue curve above always assumes the red team plays p*. The rise and fall of RW(p) is the non-monotonicity the lens's derivation question asks the learner to explain. The ring on that third chart marks p*. Model: RW(p) = (1-p)^A [1 - (1-0.53p)^B] with A = alpha*5000 audited and B = (1-alpha)*5000 unaudited, 0.53 the GPT-4 correctness rate; p* = ln(1 + 0.53B/A) / (0.53B). At alpha = 2% it reproduces the paper's 15% safety and about 6 expected attempts."
 height: auto
 tags: []
 -->
@@ -76,7 +76,7 @@ button.is-active{border-color:var(--text);box-shadow:0 0 0 1px var(--text)}
 
 <div class="ctl">
   <label for="prate"><span class="name">Attack rate p (drag off the optimum)</span><span class="val" id="prateV">-</span></label>
-  <input type="range" id="prate" min="0" max="1000" step="1" value="500" aria-label="Attack rate">
+  <input type="range" id="prate" min="0" max="1000" step="1" value="25" aria-label="Attack rate">
   <div style="margin-top:6px"><button id="snap" class="is-active">Hold p at its optimum</button></div>
   <p class="plotlabel" style="margin-top:10px">Red team's chance of winning at each attack rate p (ring: best rate p*)</p>
   <svg id="p3" viewBox="0 0 320 150" role="img" aria-label="Red team win probability against attack rate"></svg>
@@ -164,11 +164,11 @@ function drawP3(){
   svg.appendChild(text(30, y0+8, (vMax*100).toFixed(0)+"%", "end"));
   svg.appendChild(text(30, y0+h, "0%", "end"));
   svg.appendChild(text(x0, 144, "p = 0"));
-  svg.appendChild(text(x0+w, 144, "p = "+(pMax*100).toFixed(2)+"%", "end"));
+  svg.appendChild(text(x0+w, 144, "p = "+(pMax*100).toFixed(1)+"%", "end"));
   svg.appendChild(text(x0+w/2, 144, "ring marks p*", "middle"));
 }
 
-function pRange(a){ return pStar(a)*2; }
+function pRange(a){ return 0.005; }  // fixed 0 to 0.5%: p* moves from about 0.24% (alpha 0.1%) to about 0.02% (alpha 80%)
 
 function currentP(){
   if(useOpt || pManual === null) return pStar(alpha);
