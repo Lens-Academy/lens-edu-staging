@@ -42,7 +42,7 @@ source:: [[../Lenses/AICF - Safety-washing and false confidence]]
 notes:: Manheim on oversight as "a story", Schmied's list of ways safety work could be net negative.
 ## Lens:
 source:: [[../Lenses/AICF - Would a profit-only lab build it]]
-notes:: Capabilities acceleration through more usable models.
+notes:: Capabilities acceleration through more usable models (Habryka, Cale), with replies (Hobbhahn, Mallen, Oesterheld).
 ## Lens:
 source:: [[../Lenses/AICF - Does control breed better schemers]]
 notes:: Training against caught behaviour as a backfire path.
