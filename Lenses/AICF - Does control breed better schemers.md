@@ -8,11 +8,11 @@ summary_for_tutor: "Unit 4 of AI Control Fundamentals. Mostly 'control does not 
 ---
 #### Text
 content::
-In March 2024 Oliver Habryka and Ryan Greenblatt of Redwood Research held a written dialogue on LessWrong about how useful control is. Partway through, Habryka listed what he sees as the main ways control work goes wrong, and Greenblatt answered each.
+You read the first part of Oliver Habryka and Ryan Greenblatt's March 2024 dialogue in Unit 3. Here is a later part, where Habryka lists what he sees as the main ways control work goes wrong. He numbers six worries, and Greenblatt answers them by number, so keep the list in view as you read the replies.
 
 #### Article
 source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
-from:: What goes wrong with Control Work
+from:: I kind of want to make a quick list what at a high level my dooms are
 to:: unless we get unlucky with the capability profile.
 
 #### Text
