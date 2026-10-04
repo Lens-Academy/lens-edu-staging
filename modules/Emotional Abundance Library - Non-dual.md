@@ -15,6 +15,10 @@ source:: [[../Lenses/EA - Non-dual - Ramana Maharshi, Who am I]]
 # Lens: Rupert Spira: happiness is your nature
 source:: [[../Lenses/EA - Non-dual - Rupert Spira on happiness as your nature]]
 
+# Lens: Rupert Spira: is there anything outside awareness?
+source:: [[../Lenses/EA - Non-dual - Rupert Spira on consciousness and the world]]
+optional:: true
+
 # Lens: Eckhart Tolle on the thinking mind
 source:: [[../Lenses/EA - Non-dual - Eckhart Tolle on the thinking mind]]
 optional:: true
@@ -27,3 +31,7 @@ source:: [[../Lenses/EA - Non-dual - When the sense of self changes]]
 
 # Lens: Experiments to run
 source:: [[../Lenses/EA - Non-dual - Experiments to run]]
+
+# Lens: A bad mood and the space it appears in
+source:: [[../Lenses/EA - Non-dual - Guided session, looking for the self]]
+optional:: true
