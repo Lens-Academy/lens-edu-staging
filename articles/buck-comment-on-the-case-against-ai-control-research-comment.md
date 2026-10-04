@@ -1,7 +1,7 @@
 ---
 title: "Comment on The Case Against AI Control Research"
 author:
-  - "Buck"
+  - "Buck Shlegeris"
 source_url: "https://www.greaterwrong.com/posts/8wBN8cdNAv3c7vt6p/the-case-against-ai-control-research/comment/Jmbyoe3DTZhQMkfKy"
 published: 2025-01-21
 created: 2026-10-04
