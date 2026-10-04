@@ -17,4 +17,4 @@ id:: b3c8087e-e517-42c2-acb3-d14331146d25
 content::
 One person wins a large lottery prize. Another loses the use of their legs in an accident. On a scale from 0 (not at all happy) to 5 (very happy), how happy do you think each of them is about a year later? Give your two numbers and one sentence on why.
 force-feedback:: first
-feedback-instructions:: This is a pre-reading prediction. Restate the learner's two numbers and their reason in one sentence. Do not say whether they are right and do not mention any study results. Say that the talk and the readings that follow will show what the data say and how they have been reported. 30 to 60 words. One turn.
+feedback-instructions:: This is a pre-reading prediction. Restate the learner's two numbers and their reason in one sentence. Do not say whether they are right and do not mention any study results. Say that the readings that follow will show what the data say and how they have been reported. 30 to 60 words. One turn.
