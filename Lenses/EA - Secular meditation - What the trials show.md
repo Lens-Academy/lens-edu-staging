@@ -31,7 +31,7 @@ to:: MBIs are definitively helpful.
 
 #### Text
 content::
-For adults without a diagnosis, there is a 2021 meta-analysis of 136 trials with 11,605 adults in nonclinical settings such as workplaces and universities. Compared with doing nothing, mindfulness courses reduced anxiety (effect size 0.56), depression (0.53) and psychological distress (0.45), and raised wellbeing (0.33). Against specific active alternatives such as exercise, the authors found no statistically significant evidence that mindfulness was better. They rated every trial at high risk of bias, mainly because outcomes were self-reported by participants who knew which group they were in, and because of missing outcome data ([Galante et al. 2021](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003481)).
+For adults without a diagnosis, there is a 2021 meta-analysis of 136 trials with 11,605 adults in nonclinical settings in 29 countries. Compared with doing nothing, mindfulness courses reduced anxiety (effect size 0.56), depression (0.53) and psychological distress (0.45), and raised wellbeing (0.33). Against specific active alternatives such as exercise, the authors found no statistically significant evidence that mindfulness was better. They rated every trial at high risk of bias, mainly because outcomes were self-reported by participants who knew which group they were in, and because of missing outcome data ([Galante et al. 2021](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003481)).
 
 #### Question: Open
 id:: 1530c1fc-6a7a-4446-b835-d599dc6e68e3
