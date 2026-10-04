@@ -103,7 +103,7 @@ Four projects:
 - checking whether a company's claim "our monitors see all agent traffic" is true
 - a written argument about which threats control should handle first
 
-1\. For each project: which kind of organisation is best placed? Decide by the access to company systems, or the independence, it needs.
+1\. For each project: which kind of organisation is best placed? Decide by what the project needs: access to a company's systems, or independence from companies.
 2\. Your group can fund 10 new full-time control researchers. Which project do they work on?
 3\. Go around, one view each: does a field this small need more people? People disagree on this, so disagree freely.
 4\. If you still have time: what would you need to know to be more confident in that answer?
