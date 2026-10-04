@@ -3,7 +3,7 @@ id: '0c66529e-a3c1-4706-962a-eaac41d64d2d'
 title: "Control in a low-investment world"
 tldr: "Buck Shlegeris explains why control moved up the agenda: AI that is dangerous but not hopeless to contain may come soon, and the world is putting less effort into safety than people hoped, so a plan is needed for using AI that might be scheming."
 summary_for_tutor: "First reading of Unit 3 of AI Control Fundamentals (why people work on control). The learner reads an excerpt of the 80,000 Hours podcast #214 (Rob Wiblin with Buck Shlegeris, April 2025), sections 'Why is AI control hot now?' and the start of 'Detecting human vs AI spies'. Shlegeris gives two reasons control became a priority: (1) AI that could cause a catastrophe now looks plausible within two to seven years, so it makes sense to focus on the intermediate zone where AIs could take over without countermeasures but countermeasures are not hopeless, and (2) a 'lower-dignity', lower-investment world than people hoped for, with less regulation, more rush and less ability to stop, so Redwood focuses on harm reduction with limited budgets. He argues that pausing once risk is detected is 'extremely implausible', that he expects to be above 5% on scheming going into the intelligence explosion, and that there are reasons to deploy anyway (careless competitors, failed international coordination, AIs already loose), so options short of giving up on the AIs are needed. This frames the unit's question of how each route depends on political will. Do not say whether his read of the world is correct."
-reading_minutes: 6
+reading_minutes: 7
 tutor_minutes: 6
 tags:
   - reading
