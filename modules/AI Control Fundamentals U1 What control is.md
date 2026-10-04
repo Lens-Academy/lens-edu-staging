@@ -31,8 +31,6 @@ Much of AI safety work tries to make AI models want what we want. That is alignm
 - Read Ryan Greenblatt and Buck Shlegeris's case for control: how it differs from alignment, which models count as trusted and which as untrusted, and how a red team tests whether safety measures hold.
 - Read a first criticism of control, by Jan Kulveit.
 
-Part 1 of the case for control opens with a long introduction that ends in a list of thanks. The five scenarios after it are the core of that lesson. Part 2 includes a short spoken interview, and you can switch to typing. Parts 3 and 4, at the end of the unit, are optional.
-
 #### Question: Open
 id:: f3905d61-5ae7-4179-a7b6-7d9e5263ca99
 content::
@@ -48,10 +46,10 @@ feedback-instructions:: This is an ungraded gut-view note the learner will revis
 source:: [[../Lenses/robert-miles-ai-safety-using-dangerous-ai-but-safely]]
 
 # Lens:
-source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais]]
+source:: [[../Lenses/AICF - The case for control - what control is]]
 
 # Lens:
-source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais-2]]
+source:: [[../Lenses/AICF - The case for control - how control is tested]]
 
 # Lens: A first criticism
 id:: c6c69db7-5ff6-4259-b924-fe1b2cd6d838
@@ -73,11 +71,3 @@ id:: 9b1325c0-05ed-4175-a437-e7a9551c70e5
 content::
 Both Kulveit's argument and Greenblatt and Shlegeris's case for control depend on some things being true about the world. Name one premise each of them depends on. Which of the two do you find less plausible, and why?
 feedback-instructions:: The learner just read Kulveit's "AI Control May Increase Existential Risk" after Greenblatt and Shlegeris's case for control. Premises Kulveit's argument depends on include: (1) without control, a misaligned AI's attempt would often be stopped by other means (security, society, governments) and become a moderate, visible incident rather than a catastrophe, (2) such visible incidents would push labs and governments to act, (3) incidents stopped by control would be kept quiet or described vaguely by the lab, and (4) cases where control is the only thing that stops an AI are rare compared with cases something else would have stopped. Premises the case for control depends on include: (a) a red team can find attacks at least as good as the ones a scheming model would find, and the model's abilities can be measured even if it tries to sabotage the measurement, (b) catching an AI leads to a shutdown, pause or slowdown, or at least to much more support for one, (c) the first very useful AIs are not yet too capable to control. Acknowledge each premise the learner names and whether the argument actually needs it. If they name one the argument does not need, say so in one sentence and point to one it does need. Comment on how well they reasoned about which is less plausible, without saying which side is right. At most five sentences. No generic praise. Tell them the course comes back to this argument in Units 4 and 5.
-
-# Lens:
-optional:: true
-source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais-3]]
-
-# Lens:
-optional:: true
-source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais-4]]
