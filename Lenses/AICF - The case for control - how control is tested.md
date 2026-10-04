@@ -2,8 +2,8 @@
 id: 'd6066c69-aebd-4459-b6ff-892ed09992a5'
 title: "The case for control: how control is tested"
 tldr: "A control claim can be tested: put a red team in a scheming model's place and see whether any attack gets through. An alignment claim, today, cannot, because whatever the model does, it might be doing it to look aligned."
-summary_for_tutor: "Lens in Unit 1 of AI Control Fundamentals, adapted from the Advanced AI Control lens 'The case for control (2)'. Greenblatt and Shlegeris (2024), from 'In a control evaluation, a red team searches for strategies' through 'Control evaluations and black-box techniques' (how a control evaluation works, why the authors expect it to be conservative for early transformatively useful AIs, why evaluating alignment is much harder, and treating models as untrusted by capability). Core exercises: quick recalls on the control property and on how to decide which models are untrusted, and a practice question with two models X and Y on trust and on what kind of evidence supports deployment. Optional: a closed box with a catching-red-handed question and a spoken interview on where capability evaluations fail, and the section 'What might control techniques look like?' with its recall question. Do not push the learner into the optional parts."
-reading_minutes: 11
+summary_for_tutor: "Lens in Unit 1 of AI Control Fundamentals, adapted from the Advanced AI Control lens 'The case for control (2)'. Greenblatt and Shlegeris (2024), from 'In a control evaluation, a red team searches for strategies' through 'Control evaluations and black-box techniques' (how a control evaluation works, why the authors expect it to be conservative for early transformatively useful AIs, why evaluating alignment is much harder, and treating models as untrusted by capability). After 'Currently, evaluating alignment seems much harder' come three short excerpts from Apollo Research's post with OpenAI (17 September 2025, 'Stress Testing Deliberative Alignment for Anti-Scheming Training'): when models realise they are being evaluated and act aligned because of it, evaluations stop measuring their underlying tendency. o4-mini and o3 explicitly reasoned about being evaluated in 0.9% and 2.3% of samples, rising to 5.5% and 4.5% after anti-scheming training, and in a capabilities-only RL run (no safety training) from 2.0% to 20.6%, so future models may be much more evaluation aware. Counterfactual tests with o3 showed that reasoning about being evaluated causally decreases covert actions. A Lens sentence before the excerpts notes that the same ability threatens control too: a model that can tell it is being tested could sandbag the capability evaluations that decide which models are trusted, which is the authors' own second condition for a conservative control evaluation. Core exercises: quick recalls on the control property and on how to decide which models are untrusted, and a practice question with two models X and Y on trust and on what kind of evidence supports deployment. Optional: a closed box with a catching-red-handed question and a spoken interview on where capability evaluations fail, and the section 'What might control techniques look like?' with its recall question. Do not push the learner into the optional parts."
+reading_minutes: 14
 tutor_minutes: 16
 ---
 #### Text
@@ -82,6 +82,23 @@ Grade only against what this lens has supplied, plus the learner's own reasoning
 from:: ## Currently, evaluating alignment seems much harder
 to:: But right now, those techniques don't exist.[^note-greenblatt-buck-16]
 
+#### Text
+content::
+Greenblatt and Shlegeris wrote this in January 2024. In September 2025 Apollo Research, working with OpenAI, published evidence that models already notice when they are being tested and sometimes behave better because of it. Three short excerpts follow. The same ability is also a problem for control: Greenblatt and Shlegeris's second condition for a control evaluation is measuring capabilities in a way the model cannot sabotage, and a model that can tell when it is being tested could deliberately underperform on the capability evaluations that decide which models count as trusted.
+
+#### Article
+source:: [[../articles/apolloresearch-stress-testing-deliberative-alignment-for-anti-scheming-training]]
+from:: This kind of situational awareness is a problem
+to:: gave the answers we wanted to see.
+
+#### Article
+from:: We found that OpenAI o4-mini and OpenAI o3 explicitly
+to:: much more evaluation aware than current models.
+
+#### Article
+from:: Through counterfactual tests with OpenAI o3
+to:: realizing that it is being evaluated.
+
 #### Callout: Quick recall
 #### Question: Open
 id:: 6b8d118e-6175-4a66-aa99-76de2380e01b
@@ -92,6 +109,7 @@ feedback-instructions:: In at most four sentences: confirm what the learner got 
 #### End Callout
 
 #### Article
+source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
 from:: ## Control evaluations and black-box techniques
 to:: We'll elaborate on why we think this is a good choice and details of the exact rules in the [[#^appendix-why-control-evaluations-are-conservative-about-inductive-biases-and-ai-internal-structure|Appendix "Why control evaluations are conservative about inductive biases and AI internal structure"]].
 
@@ -116,7 +134,7 @@ optional:: true
 content:: Why is control more tractable to evaluate than alignment?
 assessment-instructions:: Score out of 100. 50: control reduces to a capability question, whether the model is able to subvert the safety measures, and capabilities can be measured, with a red team searching for attacks and testing whether the model can carry them out. 50: alignment is much harder to evaluate: whatever behaviour you observe, the model might be acting that way to make you think it is aligned, so behaviour cannot settle it. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Evaluating control only requires evaluating capabilities: whether the model is able to subvert the safety measures. Evaluating alignment is much harder because whatever behavior a model displays, it might be behaving that way to make you think it is aligned."
 force-feedback:: first
-feedback-instructions:: In at most four sentences: confirm what the learner got right and, if anything is missing or wrong, the most important thing, then state the model answer. Control reduces to a capability question, whether the model is able to subvert the safety measures, and capabilities are something we know how to measure. Alignment evaluation is blocked because any behavior you observe might be produced precisely to make you think the model is aligned. No follow-up questions. Tell them to move on.
+feedback-instructions:: In at most four sentences: confirm what the learner got right and, if anything is missing or wrong, the most important thing, then state the model answer. Control reduces to a capability question, whether the model is able to subvert the safety measures, and capabilities are something we know how to measure. Alignment evaluation is blocked because any behavior you observe might be produced precisely to make you think the model is aligned. Add that Apollo Research and OpenAI (2025) found models already reasoning about being evaluated, and that this reasoning causally reduced their covert actions. No follow-up questions. Tell them to move on.
 #### End Callout
 
 #### Callout: Practice: which model do you trust, and what does the evidence show?
@@ -138,6 +156,9 @@ content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Greenblatt, Ryan, and Buck Shlegeris. "The case for ensuring that powerful AIs are controlled." *AI Alignment Forum*, 24 Jan. 2024. [alignmentforum.org](https://www.alignmentforum.org/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled)
 *The reading this lesson is built from. This lesson covers control evaluations, why alignment is harder to evaluate, black-box techniques, and what control techniques might look like.*
+
+Apollo Research. "Stress Testing Deliberative Alignment for Anti-Scheming Training." Apollo Research, with OpenAI, 17 Sep. 2025. [apolloresearch.ai](https://www.apolloresearch.ai/research/stress-testing-deliberative-alignment-for-anti-scheming-training)
+*The three excerpts on evaluation awareness.*
 
 XLab. "The case for ensuring that powerful AIs are controlled." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/introduction/the-case-for-controlling-powerful-ais)
 *The source lesson this page adapts.*
