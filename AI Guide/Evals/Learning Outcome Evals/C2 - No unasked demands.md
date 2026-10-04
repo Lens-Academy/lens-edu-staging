@@ -31,6 +31,7 @@ For graded-ladder rubrics, apply the same test to the top level.
 
 - *The goal-space argument* — the pass level requires "uses the alien allegory or an equivalent concrete example", but the question asks only "In your own words, what is the 'goal-space argument'? Why…?" — no example is requested.
 - *Verifying inference to catch exfiltration* — the pass level requires reporting the quantitative results (under 0.5% exfiltration, under 0.01% false-positive rate, 200x slowdown), which the question never asks for.
+- *Attack rate against a control protocol* (before 2026-10-04; Elias's ruling) — the question asks "Which option would a scheming U choose, and why that one rather than the others?" after the learner has computed U's win chance for each option. "It has the highest chance of winning" fully answers that. The rubric gave 30 of the part's 35 points, and a cap at 55, only for explaining why attacking less often and why attacking more often each lower U's chances: the reason behind the reason. The learner still passed, so the old pass-bar version of this check let it through.
 
 ## Pass examples (from the corpus)
 
