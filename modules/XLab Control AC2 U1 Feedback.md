@@ -10,7 +10,7 @@ tags:
 # Lens: Your feedback on Unit 1
 id:: 7c8ad36d-2659-477c-92e1-77f63c89e12e
 tldr:: Tell us how Unit 1 went, so we can improve it.
-summary_for_tutor:: Feedback page after Unit 1 (The control toolkit and where to invest) of AI Control 2. The learner rates the unit's content and the AI Tutor, and says what was most useful and what was confusing, too long or not worth their time. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
+summary_for_tutor:: Feedback page after Unit 1 (The control toolkit and where to invest) of AI Control 2. The learner rates the unit's content and the AI Tutor, and says what one thing they would change about the unit. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
 reading_minutes:: 2
 tutor_minutes:: 0
 #### Text
@@ -49,14 +49,11 @@ labels::
 - Essential
 
 #### Question: Open
-id:: 24335ad6-e023-4a1e-aae4-1ad38ab2dbb0
-content:: What was the most useful part of this unit?
-
-#### Question: Open
-id:: e0bb7918-8fda-4b15-961b-a58a312cd2a2
-content:: What was confusing, too long, or not worth your time?
+id:: a6359d3b-95b7-457a-b42b-1a4b53584611
+content:: If we could change one thing about this unit, what should it be?
 
 #### Question: Open
 id:: 44d38d3c-2146-426a-a5e9-75bad4dca093
 content:: Anything else you want to share?
+placeholder:: For example: what was most useful, or what was confusing, too long, or not worth your time.
 optional:: true

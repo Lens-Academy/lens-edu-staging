@@ -10,7 +10,7 @@ tags:
 # Lens: Your feedback on Unit 4
 id:: 7f8d826b-5676-45b2-8f11-0009bbc14930
 tldr:: Tell us how Unit 4 went, so we can improve it.
-summary_for_tutor:: Feedback page after Unit 4 (Catching schemers and ranking threats) of AI Control 1. The learner rates the unit and says what was most useful and what was confusing, too long or not worth their time. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
+summary_for_tutor:: Feedback page after Unit 4 (Catching schemers and ranking threats) of AI Control 1. The learner rates the unit and says what one thing they would change about the unit. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
 reading_minutes:: 2
 tutor_minutes:: 0
 #### Text
@@ -49,14 +49,11 @@ labels::
 - Essential
 
 #### Question: Open
-id:: 9e252453-3168-42ff-a1c0-9c5ca1d0afe0
-content:: What was the most useful part of this unit?
-
-#### Question: Open
-id:: c677d918-7613-4063-bff3-c65687101bbb
-content:: What was confusing, too long, or not worth your time?
+id:: 9d2dd595-6342-4b29-911b-2b52a8b823ac
+content:: If we could change one thing about this unit, what should it be?
 
 #### Question: Open
 id:: 65b77c92-6c00-48c3-964d-bd8a0d319e52
 content:: Anything else you want to share?
+placeholder:: For example: what was most useful, or what was confusing, too long, or not worth your time.
 optional:: true
