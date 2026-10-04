@@ -131,18 +131,18 @@ source:: [[../Lenses/video demo]]
 %% One Video segment can leave out parts of its excerpt: `skip:: 5:13-8:09` makes the player jump from 5:13 to 8:09, and the transcript and the time estimate leave the skipped part out. Several ranges are comma-separated (`skip:: 5:13-8:09, 10:00-10:30`). Each range must lie inside `from::`/`to::`, and ranges must not overlap. %%
 # Lens: Skipping part of a video
 id:: 1329d873-7c92-4137-9a18-3d02782ab164
-tldr:: Shows skip:: on a Video segment: one player plays 4:41 to 5:13 and then 8:09 to 12:58, without the part in between.
-summary_for_tutor:: Demo lens for the skip:: field on Video segments. The Video segment plays Robert Miles's "Using Dangerous AI, But Safely?" from 4:41 to 12:58 and skips 5:13 to 8:09, so the learner sees one player and a transcript without the skipped part.
+tldr:: Shows skip:: on a Video segment: one player plays 4:41 to 12:58 and jumps over two parts, the coding-puzzle tour and the odd-number example.
+summary_for_tutor:: Demo lens for the skip:: field on Video segments. The Video segment plays Robert Miles's "Using Dangerous AI, But Safely?" from 4:41 to 12:58 and skips 5:12.2 to 8:27 (his tour of odd APPS dataset questions) and 9:57.2 to 10:20.4 (the odd-number backdoor example), so the learner sees one player and a transcript without the skipped parts.
 
 #### Text
 content::
-The video below has `from:: 4:41`, `to:: 12:58` and `skip:: 5:13-8:09`. It plays as one clip: at 5:13 the player jumps to 8:09. The clip's length, its progress bar and its transcript leave the skipped part out.
+The video below has `from:: 4:41`, `to:: 12:58` and `skip:: 5:12.2-8:27, 9:57.2-10:20.4`. It plays as one clip: after "check if a given solution is correct" the player jumps to "so that's our representation of using AI", and later it jumps over the odd-number backdoor example. The clip's length, its progress bar and its transcript leave the skipped parts out.
 
 #### Video
 source:: [[../video_transcripts/robert-miles-ai-safety-using-dangerous-ai-but-safely]]
 from:: 4:41
 to:: 12:58
-skip:: 5:13-8:09
+skip:: 5:12.2-8:27, 9:57.2-10:20.4
 
 %% You can also mix segment types in one lens. This next lens does article, video, article: %%
 # Lens:
