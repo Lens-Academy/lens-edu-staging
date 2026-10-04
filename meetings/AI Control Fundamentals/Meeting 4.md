@@ -103,7 +103,7 @@ One or two people share what their group landed on.
 
 
 The case: a company runs a monitor that blocks every attempt by its agents to escape their test environment, and keeps the blocked attempts internal.
-1\. Gut call, one sentence each: overall, does this monitor make a catastrophe more likely or less likely?
+1\. Gut call, one sentence each: does this monitor make a catastrophe more likely or less likely?
 2\. Each person argues for the answer they did not pick, two minutes each. If you all agree, split anyway. Arguments from the reading:
 
 Against the monitor:
