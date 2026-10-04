@@ -58,6 +58,7 @@ notes:: "Does not work" criticisms: Jozdien on capability evaluations and select
 ## Lens:
 source:: [[../Lenses/AICF - Do control protocols hold up]]
 notes:: Empirical "does not work" evidence: adaptive attacks on monitors and attack selection lower measured safety (Terekhov et al., Ge-Wang et al.), with the authors' own fix. Closest reading for Test Criticism B.
+## Lens:
 source:: [[../Lenses/AICF - Safety-washing and false confidence]]
 notes:: The false-confidence case of the "makes things worse" kind.
 ## Lens:
