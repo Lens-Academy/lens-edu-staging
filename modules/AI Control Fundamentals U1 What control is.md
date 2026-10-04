@@ -5,7 +5,7 @@ title: "Unit 1: What control is"
 tags:
   - work-in-progress
 ---
-%% Unit 1 of AI Control Fundamentals. Lenses: welcome (inline), Robert Miles video, Greenblatt and Shlegeris's case for control parts 1 and 2 (shared with Advanced AI Control 1), Kulveit as a first criticism (inline). Parts 3 and 4 of the case for control are optional. Time: welcome 5+3, video 31+8, part 1 16+38, part 2 13+37, Kulveit 4+8, so 163 lens minutes, plus about 24 for the two learning-outcome tests (12 each). About 187 minutes. %%
+%% Unit 1 of AI Control Fundamentals. Lenses: welcome (inline), Robert Miles video in six parts with exercises (AICF), two AICF adaptations of Greenblatt and Shlegeris's case for control (core exercises only, the rest optional), Kulveit as a first criticism (inline). Time: welcome 5+3, video 27+24, what control is 16+24, how control is tested 11+16, Kulveit 4+8, so 178 lens minutes, plus about 24 for the two learning-outcome tests (12 each). About 202 minutes. %%
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Alignment claims versus control claims]]
@@ -43,7 +43,7 @@ A few sentences are enough. There are no wrong answers here.
 feedback-instructions:: This is an ungraded gut-view note the learner will revisit in Unit 5. Acknowledge it in two or three sentences and reflect back the specific view they expressed, without endorsing or correcting it. Do not preview the course's arguments. Do not ask a follow-up question. Close by sending them to the next lesson. No generic praise.
 
 # Lens:
-source:: [[../Lenses/robert-miles-ai-safety-using-dangerous-ai-but-safely]]
+source:: [[../Lenses/AICF - Using dangerous AI, but safely]]
 
 # Lens:
 source:: [[../Lenses/AICF - The case for control - what control is]]

@@ -28,11 +28,11 @@ feedback-instructions:: Name the strongest part of the answer in one sentence, t
 
 # Suggested Lenses:
 ## Lens:
-source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais]]
+source:: [[../Lenses/AICF - The case for control - what control is]]
 notes:: Teaches the alignment versus control distinction and that control reduces to a capability question.
 ## Lens:
-source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais-2]]
+source:: [[../Lenses/AICF - The case for control - how control is tested]]
 notes:: Teaches why alignment cannot yet be evaluated, the conditions for a conservative control evaluation, the red team's advantages over the model, and the authors' own caveat. Practised in the tractability recall, the spoken interview and the trust practice question.
 ## Lens:
-source:: [[../Lenses/robert-miles-ai-safety-using-dangerous-ai-but-safely]]
+source:: [[../Lenses/AICF - Using dangerous AI, but safely]]
 notes:: Shows a red team standing in for a scheming model. Practised in its question on the red team's role.
