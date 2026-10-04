@@ -98,7 +98,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Any verdict is fine, including net negative or too close to call. Take turns. Each person does 1 to 4:
+Any verdict is fine. Each person in turn does 1 to 4:
 1\. Fill in: "More work on AI control is net positive / net negative / too close to call. I am [how sure, in words or a percentage] because [the crux I stand on]. I would change my mind if I saw [something observable]."
 2\. Someone else picks the consideration below that cuts hardest against that verdict (for too close to call, either list). The speaker answers it.
 
