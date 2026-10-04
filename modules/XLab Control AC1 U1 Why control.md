@@ -19,6 +19,9 @@ source:: [[../Learning Outcomes/Control evaluation methodology]]
 # Learning Outcome:
 source:: [[../Learning Outcomes/Control limits as capabilities scale]]
 
+# Learning Outcome:
+source:: [[../Learning Outcomes/Changes to the control window]]
+
 # Lens: Welcome to AI Control 1
 id:: 661f1953-fa90-4ba5-a4b1-3e7aeb0c2d0a
 reading_minutes:: 5
