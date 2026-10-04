@@ -25,7 +25,7 @@ Last meeting of the course. Go around, three things:
 - Oliver Habryka: stopping it would mostly have hidden the warning, and the same techniques will not hold for stronger models
 - Vincent Cheng: monitors that block bad actions as they happen also hide them, so replay blocked actions in simulation
 - Jasmine Li: misalignment should surface early and loudly, so spend more of the control effort on detection and disclosure
-- Ryan Kidd: should safety researchers quit frontier labs so that warning shots can happen? He sets out the argument and his replies
+- Ryan Kidd: should safety researchers quit frontier labs so that warning shots (visible AI incidents that alarm the world without being a catastrophe) can happen? He sets out the argument and his replies
 - Nate Soares (2022): COVID did not even lead to a ban on gain-of-function research, so do not expect AI warning shots to change policy much
 
 3\. In one word: how did this unit leave you feeling?
@@ -100,11 +100,11 @@ One or two people share what their group landed on.
 
 Any verdict is fine, including net negative or too close to call. Take turns. Each person does 1 to 4:
 1\. Fill in: "More work on AI control is net positive / net negative / too close to call. I am [how sure, in words or a percentage] because [the crux I stand on]. I would change my mind if I saw [something observable]."
-2\. Someone else picks the consideration below that cuts hardest against that verdict. The speaker answers it.
+2\. Someone else picks the consideration below that cuts hardest against that verdict (for too close to call, either list). The speaker answers it.
 
 Against "net positive":
 
-- control may turn visible warning shots into quiet internal catches the public never sees (Jan Kulveit, Vincent Cheng)
+- control may turn warning shots (visible incidents that alarm the world without being a catastrophe) into quiet internal catches the public never sees (Jan Kulveit, Vincent Cheng)
 - monitoring may block the visible problem while the misalignment stays, so labs keep deploying misaligned models (raised by Buck Shlegeris and Ryan Greenblatt themselves)
 - much current safety work trains failures away and hides the evidence (Oliver Habryka, the commenter orthonormal)
 - AI companies may build control anyway for their own reasons, so extra work on it adds little
