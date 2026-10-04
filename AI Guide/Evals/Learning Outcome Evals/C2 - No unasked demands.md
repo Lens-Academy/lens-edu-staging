@@ -12,9 +12,9 @@ tags:
 
 Direction matters: **scored elements ⊆ question.** This is judged on points, not on the pass bar. For each scored element, each cap and each deduction, you must be able to point to the words in the question that ask for it, explicitly or by clear implication. A learner who reads the question carefully and answers everything it asks, correctly and in their own words, must be able to get full marks; if the rubric withholds points from them for leaving out something the question never signaled, this check fails, even when they would still pass.
 
-"Clear implication" means a careful reader would know to provide it: "explain why" asks for a reason, "compare" asks for both sides. It does not stretch to a particular reason, mechanism or depth the question does not signal. If a direct, correct answer to the question as worded loses points because the rubric wants a specific further explanation, the check fails.
+"Clear implication" means a careful reader would know to provide it: "explain why" asks for a reason, "compare" asks for both sides. It does not stretch to a particular reason, mechanism or depth the question does not signal. A "why" is answered by a correct reason that settles it. If the learner's reason is correct and settles the question (for example "why choose that option rather than the others?" answered with "it scores best on the quantity we just computed"), a rubric that also requires the reason behind that reason (why the options score as they do, the mechanism under the criterion) is scoring something unasked. If the rubric wants that deeper explanation, the question has to ask for it.
 
-Test: write the shortest answer that correctly answers everything the question asks, as worded. If the rubric would score it clearly below full marks (below about 85), fail, and name the element or cap that costs it the points.
+Run this test, do not skip it: write out the shortest answer that correctly answers every part of the question as worded, giving for each "why" the most direct correct reason. Then score it with the rubric exactly as written, caps included. If it scores clearly below full marks (below about 85), fail, and name the element or cap that costs it the points.
 
 The reverse is fine: the question **may** ask for more than the rubric scores; headroom is allowed.
 
