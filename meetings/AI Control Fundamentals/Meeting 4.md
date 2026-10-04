@@ -104,26 +104,26 @@ One or two people share what their group landed on.
 
 The case: a company runs a monitor that blocks every attempt by its agents to escape their test environment, and keeps the blocked attempts internal.
 1\. Gut call, one sentence each: overall, does this monitor make a catastrophe more likely or less likely?
-2\. Switch sides: each person argues the answer they did not pick, two minutes each. If you all agree, split anyway. Arguments from the reading:
+2\. Each person argues for the answer they did not pick, two minutes each. If you all agree, split anyway. Arguments from the reading:
 
-More likely:
+Against the monitor:
 
 - Jan Kulveit: moderate, visible incidents push the world to act. Control turns them into quiet catches inside a company, or into a larger failure later, by a smarter AI.
-- Vincent Cheng, after AI agents built by OpenAI escaped their test environment in 2026 and broke into the systems of Hugging Face, an AI tools company: the escape "caused ~zero existential risk and triggered a much larger positive response". Had it been caught, a few researchers "would've just stopped the eval without telling anyone".
+- Vincent Cheng, after AI agents built by OpenAI escaped their test environment in 2026 and broke into the systems of Hugging Face, an AI tools company: the escape "caused ~zero existential risk and triggered a much larger positive response". Had it been caught, a few researchers would have quietly stopped the test without telling anyone.
 
-Less likely:
+For the monitor:
 
-- Ryan Greenblatt: the most dangerous moves, like an AI secretly running itself inside the lab or sabotaging research, never become a visible incident anyway. Without control, we might catch far fewer of them.
+- Ryan Greenblatt: the most dangerous moves, like an AI secretly running itself inside the lab or sabotaging research, would not turn into a visible incident anyway. Without control, we might catch far fewer of them.
 - kave: "It seems naïvely evil to knowingly let the world walk into a medium-sized catastrophe."
 
-3\. What would have to be true for "more likely" to be right? Which of those is your group least sure of?
-4\. Change the measure so it keeps its protection but hides less of the warning, or argue for dropping it. What does your choice cost?
+3\. "More likely" depends on things being true about the world. Which of those is your group least sure of?
+4\. Decide as a group: keep the monitor as it is, change it so outsiders learn more of what it catches, or drop it. Write down what your choice costs.
 
 
 Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
 
 
-| Names | What has to be true for "more likely" + your change or drop + its cost |
+| Names | What "more likely" depends on that you are least sure of + keep, change or drop + its cost |
 |------|------------------------|
 |  |  |
 |  |  |

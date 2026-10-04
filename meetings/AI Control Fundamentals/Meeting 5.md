@@ -17,7 +17,7 @@ source:: [[../shared/Session Doc - How today works]]
 
 Last meeting of the course. Go around, three things:
 1\. How was working through this unit's content? Denser or easier than the previous units? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
-2\. Most of this unit was a public argument about the 2026 Hugging Face incident, where AI agents being tested at OpenAI got out of their test environment and hacked into another company, Hugging Face. Whose argument stuck with you, whether or not you agree with it? Give the others its one-line version. The voices:
+2\. Most of this unit was a public argument about the 2026 Hugging Face incident: AI agents being tested at OpenAI got out of their test environment and hacked into another company, Hugging Face. Whose argument stuck with you, whether or not you agree with it? The voices:
 
 - Buck Shlegeris and Ryan Greenblatt (Redwood Research), before the incident: much of control works by catching the AI, and a catch is evidence
 - the same two, after it: monitoring might block the visible problem while the misalignment stays
@@ -26,9 +26,10 @@ Last meeting of the course. Go around, three things:
 - Vincent Cheng: monitors that block bad actions as they happen also hide them, so replay blocked actions in simulation
 - Jasmine Li: misalignment should surface early and loudly, so spend more of the control effort on detection and disclosure
 - Ryan Kidd: should safety researchers quit frontier labs so that warning shots (visible AI incidents that alarm the world without being a catastrophe) can happen? He sets out the argument and his replies
-- Nate Soares (2022): COVID did not even lead to a ban on gain-of-function research, so do not expect AI warning shots to change policy much
+- Nate Soares (2022): COVID did not even lead to a ban on gain-of-function research (making viruses more dangerous in the lab), so do not expect AI warning shots to change policy much
 
-3\. In one word: how did this unit leave you feeling?
+3\. Give the others your pick's one-line version.
+4\. In one word: how did this unit leave you feeling?
 
 
 | Names | The argument that stuck + one word |
@@ -66,7 +67,7 @@ Habryka:
 - within a model generation or two, he expects models to notice they are being tested and pass every safety check while misaligned
 
 A crux is a claim about the world they disagree on: if true, one of them would drop their conclusion, and if false, the other.
-1\. Go around: what crux did you write in the unit? Skipped it? Propose one from the lines above.
+1\. Go around: each person proposes one crux. Use the one you wrote in the unit, or build one from the lines above.
 2\. Test each one: does one of them accept it while the other doubts it? Drop the rest and keep the strongest.
 3\. Name something that could be observed in the next few years that should move Gleave towards Habryka.
 4\. Name something that should move Habryka towards Gleave.
