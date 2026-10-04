@@ -2,9 +2,9 @@
 id: 'faea0f02-cc96-4661-ba8d-8e436d04382d'
 title: "Sukha, equanimity and fundamental wellbeing"
 tldr: "Contemplative traditions describe happiness that is said not to depend on what happens to you, and equanimity, which is not a feeling at all but a way of meeting every feeling."
-summary_for_tutor: "Readings on the contemplative kinds of happiness. Ekman, Davidson, Ricard and Wallace 2005 (Buddhist sections): sukha is an enduring trait from mental balance and insight, unlike pleasure, which depends on stimuli and circumstances, and unlike trait positive affect; it includes reduced vulnerability to outer circumstances. Niramisa Sutta (SN 36.31, tr. Thanissaro): three grades each of rapture, pleasure and equanimity: of the flesh (the five senses), not of the flesh (meditative absorption, jhana), and more not-of-the-flesh (the mind of a fully awakened person reflecting on its release from passion, aversion and delusion). Desbordes et al. 2015: equanimity is an even-minded state or disposition toward all experiences regardless of whether they are pleasant, unpleasant or neutral; it is not indifference. Martin's paper on persistent non-symbolic experience (PNSE, the academic term for what he elsewhere calls fundamental wellbeing): 50 interviewees, reported ongoing deep inner peace, fewer and shorter emotions, at the far end no emotion. Then a recall question and a wedge question claiming equanimity is a calmer kind of pleasure."
-reading_minutes: 25
-tutor_minutes: 8
+summary_for_tutor: "Readings on the contemplative kinds of happiness. Ekman, Davidson, Ricard and Wallace 2005 (Buddhist sections): sukha is an enduring trait from mental balance and insight, unlike pleasure, which depends on stimuli and circumstances, and unlike trait positive affect; it includes reduced vulnerability to outer circumstances. Niramisa Sutta (SN 36.31, tr. Thanissaro): three grades each of rapture, pleasure and equanimity: of the flesh (the five senses), not of the flesh (meditative absorption, jhana), and more not-of-the-flesh (the mind of a fully awakened person reflecting on its release from passion, aversion and delusion). Desbordes et al. 2015: equanimity is an even-minded state or disposition toward all experiences regardless of whether they are pleasant, unpleasant or neutral; it is not indifference. Martin's paper on persistent non-symbolic experience (PNSE, the academic term for what he elsewhere calls fundamental wellbeing): 50 interviewees, reported ongoing deep inner peace, fewer and shorter emotions, at the far end no emotion. Then a recall question and a wedge question claiming equanimity is a calm pleasant feeling and fundamental wellbeing is a lot of it."
+reading_minutes: 28
+tutor_minutes: 10
 tags:
   - wip
 ---
@@ -78,13 +78,29 @@ to:: However, some participants reported triggers that had not dissipated even t
 #### Question: Open
 id:: 050a6ee5-b628-49c7-8e79-8d1326c033e9
 content::
-Without looking back, write down what you remember: what sukha is and how it differs from pleasure, the three grades in the sutta, and what equanimity is and is not.
+Without looking back, write down what you remember: what sukha is and how it differs from pleasure, the three grades in the sutta, what equanimity is and is not, and what Martin's interviewees report.
 force-feedback:: first
-feedback-instructions:: The learner just read Ekman, Davidson, Ricard and Wallace 2005 (Buddhist sections on sukha), the Niramisa Sutta and Desbordes et al. 2015 on equanimity, and wrote a free recall.
+feedback-instructions:: The learner just read Ekman, Davidson, Ricard and Wallace 2005 (Buddhist sections on sukha), the Niramisa Sutta, Desbordes et al. 2015 on equanimity and parts of Martin's paper on persistent non-symbolic experience, and wrote a free recall.
 
 Key points:
 - Sukha: an enduring trait, a state of flourishing that arises from mental balance and insight into the nature of reality. Pleasure depends on stimuli, times, places and circumstances and vanishes when the stimulus goes. Sukha is said to include reduced vulnerability to outer circumstances, compassion and a sense of interconnectedness, and to be cultivated by training. The authors say lottery wins change pleasure but not trait happiness.
 - The sutta: rapture, pleasure and equanimity each come in three grades: of the flesh (from the five senses), not of the flesh (in meditative absorption, jhana), and more not-of-the-flesh (in a fully awakened mind reflecting on its release from passion, aversion and delusion).
 - Equanimity (Desbordes): an even-minded state or disposition toward all experiences, pleasant, unpleasant or neutral. One can feel unpleasant things without repressing or fighting them, and pleasant things without clinging. It is not indifference, which Buddhist texts call its "near enemy". It includes care.
+- Martin (PNSE, which he elsewhere calls fundamental wellbeing): 50 volunteer interviewees, all white, 78% male. They report a change in sense of self, cognition, emotion, perception and memory; fewer and shorter emotions, less "grabbed" by them; ongoing deep inner peace; further along, mostly positive emotion, then a single emotion like impersonal compassion, joy and love, and at the far end no emotion at all. Deep triggers could push the peace down, sometimes for years.
 
 Your role is a brief, honest mirror. 80 to 140 words, short paragraphs, no lists. Acknowledge what is right without inflation, name what is missing, correct errors in one sentence, normalise gaps. No re-teaching, no follow-up questions. One turn, then tell them to move on.
+
+#### Question: Open
+id:: 199cf5e8-2439-43c8-9be5-8281a84bf86e
+content::
+A friend says: "Equanimity is just a calm, pleasant feeling, and fundamental wellbeing is simply having a lot of that feeling." Using what you just read, where does this go wrong?
+force-feedback:: first
+feedback-instructions:: The learner was given a plausible but flawed claim: "Equanimity is just a calm, pleasant feeling, and fundamental wellbeing is simply having a lot of that feeling." This is not a test, it is practice for telling kinds of happiness apart.
+
+Points a strong answer finds (any two are good):
+- Equanimity is not a feeling among others. Desbordes et al. define it as an even-minded state or disposition toward all experiences, pleasant, unpleasant or neutral. The sutta lists equanimity separately from pleasure and grades it separately. It is a way of relating to feelings, so one can be equanimous while feeling pain.
+- Equanimity is not indifference either, and it is not the same as calm. It includes care.
+- Fundamental wellbeing (Martin's PNSE) is described first as a change in the sense of self, cognition, perception and memory, not as more of one feeling. Its reported far end has no emotion at all, which is the opposite of "a lot of a pleasant feeling".
+- Pleasure, in Ekman et al.'s terms, depends on stimuli and circumstances, while sukha and equanimity are said to be traits.
+
+Per reply: if the learner asks a direct question, answer it. Otherwise restate their answer more precisely in one or two sentences, name one gap, and ask one direct follow-up question (for example: "Could someone be equanimous while in pain? What does that tell you about whether equanimity is a feeling?"). 100 to 160 words. After 2 replies, close with a short summary of what they showed and what to keep in mind for the sorting exercise later in the module. If the learner is stuck after two attempts, give the answer briefly and move on. No generic praise.
