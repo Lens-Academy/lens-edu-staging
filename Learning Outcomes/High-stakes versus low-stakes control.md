@@ -29,10 +29,10 @@ feedback-instructions:: Name the strongest part of the answer in one sentence, t
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/AICF - High-stakes and low-stakes threats]]
-notes:: Greenblatt's clusters of threats and his section on concentrated versus non-concentrated failures (block suspicious actions until reviewed, or review asynchronously), plus the control graph widget.
+notes:: Greenblatt's clusters of threats and his section on concentrated versus non-concentrated failures (block suspicious actions until reviewed, or review asynchronously), plus the control graph widget. His priority ranking is in an optional callout.
 ## Lens:
 source:: [[../Lenses/AICF - Rogue deployments]]
-notes:: Shlegeris's rogue deployments, the central high-stakes example.
+notes:: Shlegeris's rogue deployments, the central high-stakes example, in three excerpts (the idea, why launching one is easy, catastrophes without one).
 ## Lens:
 source:: [[../Lenses/AICF - Low-stakes control and research sabotage]]
-notes:: Hebbar's ControlConf talk, first half: the two axes, research sabotage, incrimination versus online training.
+notes:: Hebbar's ControlConf talk, 0:00 to 16:28: the two axes, research sabotage as a mostly low-stakes threat, why online training matters more for low-stakes threats, and his contrast of incrimination and online training (which the lens's second question uses, beyond this outcome's scope). His speculative strategy and evaluation methods are optional. Plus the introduction of "Diffuse AI Control on Fuzzy Tasks" (Anthropic, EPFL and Redwood authors, 2026) on why diffuse threats call for different defences.
