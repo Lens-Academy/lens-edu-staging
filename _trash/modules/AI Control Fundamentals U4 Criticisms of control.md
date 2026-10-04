@@ -8,10 +8,10 @@ tags:
 %% Unit 4 of AI Control Fundamentals. Time (reading+tutor): welcome 3+3, slop 15+11, better schemers 14+13, superintelligence 5+8, profit-only 9+11, warning shots 12+14, safety-washing 7+12, adversarial 12+8, practice 3+19, plus about 16 for the two learning-outcome tests. About 195 minutes. %%
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Classifying criticisms of AI control]]
+source:: [[../Learning Outcomes/Classifying criticisms of AI {--{"author":"James agent ready-34's AI","timestamp":1791117935156}@@control-2]]--}{++{"author":"James agent ready-34's AI","timestamp":1791117935156}@@control]]++}
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/How AI control could backfire]]
+source:: [[../Learning Outcomes/Ways AI control could backfire]]
 
 # Lens: Welcome to Unit 4
 id:: db5cd027-63d2-431d-9ee8-fde62339bcb3
@@ -31,10 +31,12 @@ We find it useful to sort criticisms of control into three kinds:
 
 Some criticisms have more than one side. The sorting is a tool, not a verdict.
 
+When you answer a criticism, we suggest comparing the world with control against what would realistically happen without it, not against a perfect solution. Any safety measure falls short of perfect, so that comparison cannot tell you whether control helps.
+
 \## In this unit you will
 
 - Read John Wentworth's case against control research, with replies from Buck Shlegeris and Lucius Bushnaq.
-- Read Oliver Habryka, Jozdien and MIRI on why control may not work, with Ryan Greenblatt's replies.
+- Read Oliver Habryka, Jozdien and MIRI on why control may not work, and what control's authors say back.
 - Read Yonatan Cale's question "would a company that only cares about profit build this anyway?", with two answers.
 - Come back to Jan Kulveit's warning-shot argument, with the replies it got and a comment written after a real incident in 2026.
 - Read about safety-washing, and about whether control could make AIs more adversarial.
@@ -86,7 +88,7 @@ content::
 
 **Criticism 2.** "Control papers describe in detail how a model could sneak attacks past monitors. Future models are trained on text that includes these papers, so they learn the attacks."
 
-For each: which kind of criticism is it, what does it get right, what is the strongest reply, and how much of the criticism is left standing?
+For each: which kind of criticism is it and why, what does it get right, what is the strongest reply, and how much of the criticism is left standing? Compare with what would realistically happen without control, not with a perfect solution.
 feedback-instructions:: Practice for the unit's skill of sorting and answering criticisms of control. Reference points, accept other reasoned answers. Criticism 1: mainly "works but is not worth the effort" (control at careful companies does not address the main risk, careless companies), or "does not work" at the level of the world. Gets right: a misaligned model at a careless company is not stopped by others' control. Replies: careful companies' control still prevents catastrophes from their own models, which may be the most capable, control can become a standard or regulation (it is evaluable), and the same objection applies to any safety measure one company adopts. Left: control needs adoption or regulation to matter beyond the companies that choose it. Criticism 2: "makes things worse". Gets right: published attack strategies end up in training data, and the self-fulfilling misalignment study in this unit is weak evidence in that direction. Replies: a capable model could find most of these attacks itself, defenders need the same knowledge, sensitive details can be held back or filtered from training data, and the evidence is preliminary. Left: a real but probably small cost. For each criticism, check the kind fits the reason, name one strong reply the learner missed, and check they compared with the realistic world without control. Up to three turns, 80 to 150 words each. No generic praise. Do not say who is right.
 
 #### Question: Open
@@ -106,5 +108,5 @@ id:: 7937ee49-6567-4244-ac1a-79236287f392
 content::
 \## Your view so far
 
-Which criticism in this unit do you find strongest, and what would change your mind about it? A few sentences. You will use this in Unit 5.
+Which criticism in this unit do you find strongest, and what would change your mind about it? A few sentences. Keep it in mind for Unit 5, where you form your own view.
 feedback-instructions:: Ungraded reflection that the learner carries into Unit 5. Acknowledge the criticism they chose in one sentence and reflect back what would change their mind. If what would change their mind is vague, ask once for an observation that someone could actually make. Do not argue for or against their view. At most three sentences. No generic praise.
