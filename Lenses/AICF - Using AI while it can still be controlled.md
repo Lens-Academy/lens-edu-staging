@@ -10,15 +10,11 @@ tags:
 ---
 #### Text
 content::
-In Unit 1 you read the first parts of Ryan Greenblatt and Buck Shlegeris's case for control. Here are the parts that say what control is for. The first paragraphs below are from the opening, which you have seen. Read them again with a new question: what is control supposed to buy, and for how long?
+In Unit 1 you read the first parts of Ryan Greenblatt and Buck Shlegeris's case for control. Here are two later sections. They say what control is for and for how long it can work, starting with the authors' own view of its limits. "Exogenous risk" in the second section means risk from AI built by other actors.
 
 #### Article
 source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
-from:: "The control approach we're imagining won't work for arbitrarily powerful AIs"
-to:: "shutting down until we have credible solutions is far more likely."
-
-#### Article
-from:: "Consider the following three properties of the capabilities of an AI system:"
+from:: "# Control is likely achievable for early transformatively useful AIs"
 to:: "before they produce models that are uncontrollable**."
 
 #### Article
@@ -30,7 +26,8 @@ id:: c1ebdf42-4a79-48de-802a-dfb1d4028bbc
 content::
 In your own words, what is the window the authors hope for, and how is control supposed to help during it? Then name one thing that decides how long the window lasts, and say whether it depends on how much AI companies and governments want to act on AI risk.
 placeholder:: A few sentences.
-feedback-instructions:: The learner just read excerpts from "The case for ensuring that powerful AIs are controlled". The window: a period when AIs are very dangerous and transformatively useful (able to substantially reduce risk from later AIs, for example by speeding up safety R&D a lot) but not yet uncontrollable. Control lets developers use these AIs safely even if they are scheming, so their work can reduce risk from later AIs, and catching an AI counts as a win. What decides the length: how fast leading actors push on to more powerful AI, whether others impose exogenous risk (the authors guess a default delay of 1 to 3 years), and whether political resources can be turned into spending on control and extra delay, plus whether the AIs themselves can help build delay. The delay clearly depends on political will. The authors think the gap is "reasonably likely to be too short (e.g., 6 months or 1 year)" if capabilities are developed as fast as possible, but that several years is plausible. In at most five sentences, say what the learner got right, correct any error in one sentence, and add the most important missing piece. No generic praise. At most two turns.
+force-feedback:: first
+feedback-instructions:: The learner just read two excerpts from "The case for ensuring that powerful AIs are controlled". The window: a period when AIs are very dangerous and transformatively useful (able to substantially reduce risk from later AIs, for example by speeding up safety R&D a lot) but not yet uncontrollable. The authors call black-box control "a fundamentally limited approach" that will not work for sufficiently powerful models, so at some point more scalable approaches such as alignment are needed. Control lets developers use the early AIs safely even if they are scheming, so their work can reduce risk from later AIs. What decides the length: how fast leading actors push on to more powerful AI, whether others impose exogenous risk (the authors guess a default delay of 1 to 3 years), and whether political resources can be turned into spending on control and extra delay, plus whether the AIs themselves can help build delay. The delay clearly depends on political will. The authors think the gap is "reasonably likely to be too short (e.g., 6 months or 1 year)" if capabilities are developed as fast as possible, but that several years is plausible. In at most five sentences, say what the learner got right, correct any error in one sentence, and add the most important missing piece. No generic praise. At most two turns.
 
 #### Text
 content::
