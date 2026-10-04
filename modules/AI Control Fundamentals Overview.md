@@ -41,7 +41,11 @@ By the end of this course you will be able to:
 
 \## How the course runs
 
-Five units. Each unit is about three and a half to four hours of reading, videos and exercises on your own, with an AI tutor you can talk to. Each unit ends with a short test on what it taught and a group meeting where you discuss the questions the readings leave open. No technical background beyond an introductory AI safety course is needed.
+Five units. Each unit is about three and a half to four hours of reading, videos and exercises on your own, with an AI tutor you can talk to. Each unit ends with a short test on what it taught and a group meeting where you discuss the questions the readings leave open.
+
+:::callout {title="Before you start" tone="blue"}
+You need a basic understanding of AI safety. If you have not taken an introductory AI safety course yet, we recommend our [AI Risk Fundamentals](https://lensacademy.org/ai-risk-fundamentals) course first.
+:::
 
 \## The five units
 
