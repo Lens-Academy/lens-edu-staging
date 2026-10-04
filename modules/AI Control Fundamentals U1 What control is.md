@@ -18,7 +18,7 @@ id:: cd096d83-1e62-4695-8643-70fea5465bfd
 reading_minutes:: 5
 tutor_minutes:: 3
 tldr:: Banks do not assume no trader will ever go rogue. They build systems that hold when one does. AI control asks whether we can do the same with an AI model that might be working against us.
-summary_for_tutor:: Opening lens of Unit 1 of AI Control Fundamentals, written by Lens. It introduces control with the insider-threat analogy (organisations build systems that hold even if an employee goes rogue), contrasts it with alignment, lists what the unit covers, and asks the learner to write down a gut view on whether control is worth working on, which they revisit in Unit 5. Do not grade the gut view or argue with it. Acknowledge it briefly and send the learner to the first lesson.
+summary_for_tutor:: Opening lens of Unit 1 of AI Control Fundamentals, written by Lens. It introduces control with the insider-threat analogy (organisations build systems that hold even if an employee goes rogue), contrasts it with alignment, lists what the unit covers, and asks the learner to write down a gut view on whether control is worth working on, ending with a verdict (net positive, net negative or too close to call) and how sure they are, which they revisit in Unit 5. Do not grade the gut view or argue with it. Acknowledge it briefly and send the learner to the first lesson.
 #### Text
 content::
 Organisations do not assume that none of their employees will ever go rogue. Banks limit what a single trader can do, and they log and audit trades. The bank stays safe even if one person is not trustworthy.
@@ -38,6 +38,7 @@ Before you start, write down your gut view. You will come back to it in Unit 5, 
 
 - Does "use a powerful AI model that might be working against you, and make sure it still cannot cause a catastrophe" sound doable to you, or hopeless?
 - Do you think work on this is likely to help, or could it make things worse? Why?
+- Overall, is work on AI control net positive, net negative, or too close to call? How sure are you: low, medium or high?
 
 A few sentences are enough. There are no wrong answers here.
 force-feedback:: first

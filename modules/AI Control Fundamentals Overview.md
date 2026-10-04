@@ -50,7 +50,7 @@ You need a basic understanding of AI safety: you have taken our [AI Risk Fundame
 \## The five units
 
 :::callout {title="Unit 1: What control is" tone="blue"}
-The core idea of control and how it differs from alignment, trusted and untrusted models, and how a control evaluation tests whether safety measures hold against a model that is trying to get past them. You start by writing down your gut view on control, which you come back to in Unit 5.
+The core idea of control and how it differs from alignment, trusted and untrusted models, and how a control evaluation tests whether safety measures hold against a model that is trying to get past them. It ends with a first criticism, Jan Kulveit's argument that control may make things worse. You start by writing down your gut view on control, which you come back to in Unit 5.
 :::
 
 :::callout {title="Unit 2: The key ideas and the field" tone="blue"}
