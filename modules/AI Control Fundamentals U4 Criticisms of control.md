@@ -28,6 +28,7 @@ We find it useful to sort criticisms of control into three kinds:
 - **Control does not work.** It will not stop a capable scheming model, or it stops working as models get more capable.
 - **Control works but is not worth the effort.** For example, scheming is unlikely, other failures matter more, or the work would happen anyway.
 - **Control works and makes things worse.** It reduces one risk but raises the overall risk.
+Another way to see the three kinds is to ask two questions of any safety plan, in this order: if it worked, would it be good? And then: would it work? (Yonatan Cale [separates two similar questions for safety cases](https://www.lesswrong.com/posts/HmdprC38DbjDnNmgt/improving-our-safety-cases-using-upper-and-lower-bounds): would a measure be sufficient if we had it, and can it be built?) "Does not work" criticisms answer the second question. "Not worth it" and "makes things worse" criticisms answer the first: even if control works, would it be good? This unit gives both questions room.
 
 Some criticisms have more than one side. The sorting helps you see what a criticism disputes. It does not decide whether the criticism is right.
 
