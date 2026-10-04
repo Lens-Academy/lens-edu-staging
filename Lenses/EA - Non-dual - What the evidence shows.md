@@ -12,9 +12,34 @@ tags:
 content::
 The school's main evidence is first-person: what Ramana, Spira, Tolle and their students report, and what you find when you look for yourself. Module 3 covered what such reports can and cannot show. Here is what else there is.
 
-**Brain studies.** Zoran Josipovic and colleagues scanned 22 experienced meditators while they rested with eyes fixed on a dot, did a focused attention meditation, or did a non-dual awareness meditation ([Josipovic et al. 2012](https://www.cns.nyu.edu/heegerlab/content/publications/Josipovic-Frontiers2012.pdf)). The brain has two broad systems, one more active during tasks in the outside world and one more active during self-related thought. Their activity usually rises and falls in opposite directions. In the non-dual meditation this opposition became weaker, in focused attention it became stronger. The meditators practised Tibetan Buddhism (two of the 24 recruited also had some experience of Vedanta), had 8 to 33 years of practice, and were chosen on their teachers' recommendation. The study shows that non-dual awareness is a distinct state that can be told apart in the brain. It did not measure whether anyone became happier.
+**Brain studies.** Zoran Josipovic and colleagues scanned experienced meditators while they rested with their eyes on a dot, did a focused attention meditation, or did a **non-dual awareness** meditation, which aims at the state this school describes: awareness without a split between a self that knows and the things it knows. Their abstract:
 
-**Questionnaires.** Adam Hanley, Yoshio Nakamura and Eric Garland built a questionnaire for non-dual awareness, the NADA ([Hanley et al. 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6265073/)). Its two dimensions are self-transcendence and bliss. People who practise mindfulness scored higher than people who do not, people who practised more often scored higher, and in a randomized experiment with 53 people a body scan meditation raised scores on a version that asks about the present moment, compared with a control task. Bliss is one of the two dimensions, so the questionnaire builds happiness into what it calls non-dual awareness. A link between its scores and happiness is partly built in.
+#### Article
+source:: [[../articles/josipovic-influence-of-meditation-on-anti-correlated-networks-in-the-brain]]
+from:: Human experiences can be broadly divided into those that are external
+to:: practicing different forms of meditation can modulate this gross functional organization in profoundly different ways.
+
+#### Text
+content::
+Of the 22 meditators whose scans were used, 18 did the non-dual meditation. They practised Tibetan Buddhism (two of the 24 recruited also had some experience of Vedanta), had 8 to 33 years of practice, and were chosen on their teachers' recommendation. The study shows that non-dual awareness is a distinct state with its own pattern in the brain. It did not measure whether anyone became happier.
+**Questionnaires.** Adam Hanley, Yoshio Nakamura and Eric Garland built a questionnaire for non-dual awareness, the NADA. Their abstract:
+
+#### Article
+source:: [[../articles/hanley-the-nondual-awareness-dimensional-assessment-nada-new-tools-to-assess-nondual-traits-and-states-of-consciousness-occurring-within-and-beyond-the-context-of-meditation]]
+from:: This manuscript details the development of two measures of nondual awareness
+to:: designed to transform consciousness.
+
+#### Text
+content::
+And what they found about well-being:
+
+#### Article
+from:: Correlational findings demonstrated that the broadest self-representations
+to:: although the relationship between the NADA-T and psychological well-being was non-significant in the first online sample.
+
+#### Text
+content::
+Two things to keep in mind. Bliss is one of the questionnaire's two dimensions, so a link between its scores and feeling good is partly built in. And these are correlations in online samples at one point in time, so they cannot show that non-dual awareness causes well-being.
 
 **Long-term reports.** Jeffery Martin's interviews with people who report lasting states of this kind are in module 2, in the lens on sukha, equanimity and fundamental wellbeing.
 
