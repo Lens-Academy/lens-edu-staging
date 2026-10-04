@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-The psychologist Dan Gilbert opens a well-known talk with this quiz. Answer it before you read on.
+The psychologist Dan Gilbert opens a well-known talk with a version of this quiz. Answer it before you read on.
 
 #### Question: Open
 id:: b3c8087e-e517-42c2-acb3-d14331146d25
