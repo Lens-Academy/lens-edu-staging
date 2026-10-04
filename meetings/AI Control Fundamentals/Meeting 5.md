@@ -17,7 +17,7 @@ source:: [[../shared/Session Doc - How today works]]
 
 Last meeting of the course. Go around, three things:
 1\. How was working through this unit's content? Denser or easier than the previous units? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
-2\. This unit was a public argument about the 2026 Hugging Face incident, where AI agents being tested at OpenAI got out of their test environment and hacked into another company, Hugging Face. Whose argument stuck with you, whether or not you agree with it? Give the others its one-line version. The voices:
+2\. Most of this unit was a public argument about the 2026 Hugging Face incident, where AI agents being tested at OpenAI got out of their test environment and hacked into another company, Hugging Face. Whose argument stuck with you, whether or not you agree with it? Give the others its one-line version. The voices:
 
 - Buck Shlegeris and Ryan Greenblatt (Redwood Research), before the incident: much of control works by catching the AI, and a catch is evidence
 - the same two, after it: monitoring might block the visible problem while the misalignment stays
@@ -67,7 +67,7 @@ Habryka:
 
 A crux is a claim about the world they disagree on: if it turned out true, one of them would have to drop their conclusion, and if false, the other.
 1\. Go around: what crux did you write in the unit? Skipped it? Propose one from the lines above.
-2\. Test each one: would Gleave really deny it? Would Habryka? Drop any that both accept, and keep the strongest.
+2\. Test each one: does one of them accept it while the other doubts it? Drop the rest and keep the strongest.
 3\. Name something that could be observed in the next few years that should move Gleave towards Habryka.
 4\. Name something that should move Habryka towards Gleave.
 
@@ -98,8 +98,8 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Any verdict is fine, including net negative or too close to call. One person at a time:
-1\. Fill in: "More work on AI control is net positive / net negative / too close to call. I am [how sure, in words or a percentage] because [the crux I stand on]."
+Any verdict is fine, including net negative or too close to call. Take turns. Each person does 1 to 4:
+1\. Fill in: "More work on AI control is net positive / net negative / too close to call. I am [how sure, in words or a percentage] because [the crux I stand on]. I would change my mind if I saw [something observable in the next few years]."
 2\. Someone else picks the consideration from the course below that cuts hardest against that verdict. The speaker answers it.
 
 Against "net positive":
@@ -116,10 +116,8 @@ Against "net negative":
 - alignment work prevents warning shots too, and control at least catches the AI (Ryan Greenblatt)
 - detection, disclosure and replaying blocked actions in simulation could keep most of the evidence (Vincent Cheng, Jasmine Li)
 
-Against "too close to call": which one observation would push you off the fence?
-
-3\. What could you observe in the next few years that would change your mind?
-4\. Compare with the gut view you wrote in Unit 1 (is control doable or hopeless, and could work on it help or make things worse). How far have you moved, and what moved you?
+3\. How far has your view moved since the gut view you wrote in Unit 1 (is control doable or hopeless, and could work on it help or make things worse)?
+4\. What moved you? If nothing did, why not?
 
 
 Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
@@ -256,7 +254,7 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 **General, all rooms.** Last meeting of the course, after about three and a half hours of self-study in this unit. The course is balanced on purpose: it presents why people work on control and the criticisms, and the Lens team says in the course overview that it is unsure itself. Never steer anyone towards a verdict on control, never share your own, and treat net positive, net negative and too close to call as equally good answers. The unit's test grades reasoning, never the side taken, and so do you: when you push, push on the reasoning (is the crux a claim about the world, is the observation one you could actually see), never on the conclusion. If a room converges fast on one side, ask for the strongest case on the other side, whichever side that is.
 **Room 1, Icebreaker.** The list of voices is there so that people who did not finish can still pick one. Keep it to a sentence per voice: the arguments belong in Rooms 2 and 3. Two things to correct if you hear them. Buck's January reply and his later reflection are not the same view. And neither Habryka's paraphrase of Buck in the debate ("preventing the incident would have been really bad") nor Alex Mallen's secondhand report of a talk by Buck is Buck's own words.
 **Room 2, Find the crux: Gleave vs Habryka.** Most people did this alone in the "Practice: finding the crux" lens, so the room's value is comparing cruxes and testing them. Weak cruxes to watch for: a point both accept (the incident shows real misalignment, the developers were careless), a difference in mood, or a restatement of the conclusions ("Gleave thinks current techniques are enough"). Ask 2 is there to catch those. For your own use only, after a group has its own answer: candidates the lens names are whether failures will stay visible and catchable as models get more capable, whether progress to superhuman systems is smooth enough to keep learning by trial and error, and whether labs will respond to caught failures with real fixes and disclosure. If a group finishes early, read them the closing statements: Gleave says the disagreement is about what happens when a company is held to a rigorous safety standard, and that this can be tested. Habryka says current techniques are mostly reinforcement learning in disguise and it is time to choose between continuing and really slowing down. Ask whether their crux sits under either one. The two closings do not fully agree on what the disagreement is.
-**Room 3, State and defend your view.** This is the room the course builds towards, so protect its time. With four people, aim for about four minutes per person. Most people wrote a version of this in the "Your view" lens, so they can start from it. The list of considerations is balanced on purpose, four against each verdict. If the challenger picks a weak one, let the speaker say so. Confidence can be words or a percentage. If someone's confidence plainly does not fit what they say about their crux (they call the crux a coin flip and then say 95%), ask how the two fit. For ask 3, "if I learned more" is not an answer: ask what they would have to see. For ask 4, "nothing moved me" is a fine answer if they can say why the arguments did not move them.
+**Room 3, State and defend your view.** This is the room the course builds towards, so protect its time. With four people, aim for about four minutes per person. Most people wrote a version of this in the "Your view" lens, so they can start from it. The list of considerations is balanced on purpose, four against each verdict. If the challenger picks a weak one, let the speaker say so. Confidence can be words or a percentage. If someone's confidence plainly does not fit what they say about their crux (they call the crux a coin flip and then say 95%), ask how the two fit. If someone's verdict is too close to call, the challenger asks which one observation would push them off the fence. For the last part of ask 1, "if I learned more" is not an answer: ask what they would have to see. For ask 4, "nothing moved me" is a fine answer if they can say why the arguments did not move them.
 **Room 4, Your next step.** Insist on a date. The Advanced AI Control courses are one option among several, for people who want to know how control works in practice. Do not present them as the natural next step or as an endorsement of control work. "I decided control is not where I want to work, and here is what I will do instead" is a good outcome. Feedback here is a verbal primer for the survey and the Unit 5 feedback page.
 **The close, in your own words (one minute).** Where the template says to ask for "one thing I'm taking away", you can ask instead where people landed in Room 3, in one sentence. If several people share, do not comment on or rank their verdicts. Thank them for the spread of views, if there is one. Then: no next unit, the Advanced AI Control courses for those who want depth, the survey, and the feedback page.
 
