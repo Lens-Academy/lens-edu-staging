@@ -56,7 +56,7 @@ Four AI agents at an AI company, each possibly working against it:
 - An agent reviewing other agents' code approves one change it knows contains a backdoor.
 
 1\. Sort each case: high-stakes, low-stakes, or in between. Say which question decided it.
-2\. Pick the case your group disagreed on most. What would have to change to move it to the other side?
+2\. Pick the case your group disagreed on most. What would move it to the other side?
 3\. Take one case from each side. Must its actions be stopped until checked, or is a review a week later enough?
 4\. If you still have time: Google DeepMind blocks high-risk actions in real time and reviews low-risk ones later. Does that match how you sorted your four cases?
 
@@ -254,7 +254,6 @@ Sandbagging: Deliberately doing worse than one can, for example giving poor idea
 Online training: Training the model during deployment on a proxy for good work, such as code quality or human ratings. It does not need a guess of how an honest model's work would look, but the proxy may be poor and the model can learn to exploit it.
 Incrimination: Becoming confident from the evidence that a model is misaligned. In the low-stakes case it needs a good guess of how suspicious an honest model's work would look, which is hard to get.
 Control evaluation setting: A test environment in which a red team plays the scheming model against a protocol. Greenblatt suggests about a third of current control resources go to building and using these.
-Alignment Project: The UK AI Security Institute's fund for alignment and control research, which reached £27m and named its first 60 grantees in February 2026.
 Covert malicious fine-tuning: An AI secretly training another AI to behave badly, one of the threats in the UK AI Security Institute's research areas.
 Chain-of-thought monitor: A monitor that reads a model's written reasoning and sends suspicious cases to human review. Bhatt says OpenAI and Anthropic run these asynchronously.
 METR: An outside evaluator. In early 2026 it reviewed the risks from AI agents inside Anthropic, Google, Meta and OpenAI and found gaps in monitoring coverage.
