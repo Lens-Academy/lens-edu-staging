@@ -17,12 +17,14 @@ to:: 200:33.6
 
 #### Question: Open
 id:: 80c22210-481e-4301-8302-875a48ee1990
+force-feedback:: first
 content::
 Without rewatching, write down the reasons Buck and Ryan give for not being very worried. Where do they say the worry has a point?
 feedback-instructions:: The learner just watched the inaugural Redwood Research podcast clip on whether control backfires by preventing warning shots. Buck's reasons: much of control works by catching the AI, so you learn about attempts you would otherwise never see and can study them closely, and overall he thinks this factor is outweighed by others. Where he concedes: taking over an AI company is easier than taking over the world, so the first AIs able to escape may cause moderate havoc rather than catastrophe, and it can be acceptable to put less effort into preventing that kind of minor disaster. Ryan's reasons: the argument applies equally to alignment work, which prevents bad outcomes without catching anything, and much of control's value may come from worlds with no warning shot. Where he concedes: it should shift effort from preventing failures towards detecting them after the fact and asynchronous monitoring. Give a brief, honest mirror: what they got right, the most important missing point in one sentence, any error corrected in one sentence. One turn only, 60 to 120 words, no lists, no generic praise. Tell them to move on.
 
 #### Question: Open
 id:: 6fcf2ea7-ad03-4ce0-951d-956335409aaa
+force-feedback:: first
 content::
 Ryan says the warning-shot worry applies to alignment work at least as much as to control, and that on this point control is "strictly better" because it catches the AI. Is that a good answer to Kulveit? How might a critic of control reply?
 feedback-instructions:: The learner is evaluating Ryan Greenblatt's symmetry reply: alignment work also prevents warning shots, and it does not catch the AI, so on this axis control looks better than alignment. Strong answers see what the reply does and does not do. It shows the worry is not specific to control. It does not show that preventing warning shots is fine, only that the same cost falls on other work too. Critics can reply in several ways, and any reasoned one is fine: accept the symmetry and conclude that much prosaic alignment work is also suspect (Oliver Habryka argues something close to this later in this unit), say a caught attempt helps only if the lab discloses it, or say control is aimed at the moderate incidents most likely to be useful warnings. If the learner simply agrees or disagrees, ask what the reply would need to show to answer Kulveit fully. If they are stuck after two attempts, give one critic's reply and ask whether it works. At most three replies, 60 to 120 words each, no lists, no generic praise. Do not say who is right.
