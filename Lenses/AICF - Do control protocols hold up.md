@@ -20,9 +20,12 @@ content::
 
 (Defer-to-Resample asks the untrusted model for a new answer when the first one looks suspicious. A best-of-n attack tries many times and keeps whichever attempt gets through.)
 
-**2. Catherine Ge-Wang, Tyler Tracy and colleagues, "Attack Selection in Agentic AI Control Evaluations Meaningfully Decreases Safety"** ([arXiv, 2026](https://arxiv.org/abs/2606.06529)). From the abstract:
+**2. Catherine Ge-Wang, Tyler Tracy and colleagues, "Attack Selection in Agentic AI Control Evaluations Meaningfully Decreases Safety"** ([arXiv, 2026](https://arxiv.org/abs/2606.06529)). Its abstract:
 
-> An attacker that strategically chooses when to attack is much harder to catch than one that attacks indiscriminately. [...] Control evaluations stress-test these protocols by pitting a red-team attack policy against the blue-team monitor, but current evaluations typically assume attackers that do not strategically select when to attack. We study this capability, attack selection, in agentic settings by decomposing attack decisions into a start policy, which decides when an attacker should attack, and a stop policy, which decides when an attacker should abort an ongoing attack. Across two agentic settings, BashArena and LinuxArena, both policies substantially lower measured empirical safety without changing the underlying attack capability. At a 1% audit budget, our start policy reduces safety by 20pp on both BashArena and LinuxArena, and our stop policy reduces safety by 20pp on BashArena and 28pp on LinuxArena. These reductions should be interpreted as upper bounds on the effect of attack selection. Existing control evaluations may therefore yield overly optimistic safety estimates against selective attackers. We recommend that future evaluations, system cards, and safety cases elicit attack selection to produce more realistic safety estimates.
+#### Article
+source:: [[../articles/ge-wang-attack-selection-in-agentic-ai-control-evaluations-meaningfully-decreases-safety]]
+from:: An attacker that strategically chooses
+to:: elicit attack selection to produce more realistic safety estimates.
 
 #### Question: Open
 id:: ed531c6a-3d9d-4f1f-b8b0-ed887f614ac1
