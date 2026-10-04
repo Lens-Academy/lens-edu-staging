@@ -31,7 +31,7 @@ When a school says "do X for this long and you will get Y", the course states th
 **Part I: the map.** A core path of 8 modules, taken in order:
 
 1. **Overview** (this module): what the course is, and your starting view.
-2. **The questions**: what people mean by happiness, and the questions about the self, wanting and experience.
+2. **The questions**: what people mean by happiness, whether circumstances can give lasting peace, and the questions about the self, wanting and experience.
 3. **Judging claims**: what each kind of evidence can and cannot show, and how to test a claim on yourself.
 4. **Tour of the schools**: all the schools on one map, and your choice of which ones to study.
 5. **Desire**: what the schools say about wanting.
