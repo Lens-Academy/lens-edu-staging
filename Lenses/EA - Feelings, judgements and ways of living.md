@@ -50,7 +50,7 @@ Key points:
 - Haybron: two senses of 'happiness': a state of mind (psychological) versus a life that goes well for the person (well-being, the sense that translates eudaimonia; saying someone is happy in this sense is a value judgement).
 - Theories of the state of mind: hedonism (balance of pleasant over unpleasant experience), life satisfaction (a favourable judgement of one's life as a whole), emotional state (one's overall emotional condition, including calm 'attunement' states like tranquility), hybrids such as subjective well-being.
 - Diener: subjective well-being has three parts: high life satisfaction, frequent positive feelings, infrequent negative feelings. They have different causes and can come apart (the satisfied but not enjoying elderly person).
-- Ryan, Huta and Deci: hedonic well-being is an outcome (positive affect, absence of pain). Eudaimonia is a way of living (pursuing excellence and intrinsic goals, acting autonomously and reflectively), "not a feeling".
+- Ryan, Huta and Deci: hedonic well-being is an outcome (positive affect, absence of pain). Eudaimonia is a way of living (pursuing excellence and intrinsic goals, acting autonomously and reflectively), "not a feeling". They still call pleasure "a very significant" human outcome.
 
 Your role is a brief, honest mirror. Response length: 80 to 140 words, short paragraphs, no lists. Acknowledge what they got right without inflation, name what is missing, correct errors in one sentence, normalise gaps. Do not re-teach, do not ask follow-up questions. One turn, then tell them to move on.
 
