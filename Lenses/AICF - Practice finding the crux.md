@@ -30,6 +30,7 @@ to:: 41:05
 
 #### Question: Open
 id:: fbbb7caf-b0cd-4066-9cc1-703486814aa5
+force-feedback:: first
 content::
 Find the crux between Gleave and Habryka.
 
@@ -44,6 +45,7 @@ to:: 59:34
 
 #### Question: Open
 id:: 846d9575-ae42-4d27-aa60-f50dbb84e898
+force-feedback:: first
 content::
 In their closing statements, Gleave and Habryka each say what they think the disagreement comes down to. How does that compare with the crux you found? If it differs, which do you think is closer to what actually divides them?
 feedback-instructions:: The learner compares their own crux with the closing statements. Gleave says a load-bearing question is how developers adjust their behaviour, that policy and incentives matter, and that their disagreement is about what happens when a company is held to a rigorous safety standard, which can be tested. Habryka says most current alignment techniques are reinforcement learning in disguise and that it is time to choose between continuing to deploy and really slowing down or halting. Notice that the two closings do not fully agree on what the disagreement is. Credit a learner who sees that, and who can say whether their own crux sits under one of these (for example "will safety cases fail visibly" sits under Gleave's "what happens under a rigorous standard"). If their crux was different, ask which claim would actually change Gleave's or Habryka's mind if it turned out false. At most two replies, 60 to 120 words each, no lists, no generic praise. Do not say who is right.

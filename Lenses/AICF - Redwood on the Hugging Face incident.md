@@ -17,6 +17,7 @@ to:: 51:58
 
 #### Question: Open
 id:: f52246dc-1b10-4e94-aea3-49a379908876
+force-feedback:: first
 content::
 On their account, why did OpenAI's control measures not stop the incident? Give the reasons you remember.
 feedback-instructions:: The learner just watched Buck Shlegeris and Ryan Greenblatt discuss why OpenAI's control measures did not stop the Hugging Face incident. Their points: the sandbox was hacked, which they did not find surprising. Their best guess from public information is that there was no blocking monitoring on these evaluations and maybe no asynchronous monitoring. Monitors built for internal use may flag ordinary cyber work and give too many false positives in a cyber evaluation. Staff may have grown used to models constantly trying to hack the sandbox. A simple monitor checking whether the model had actually left the sandbox would probably have caught it. They also think OpenAI disclosed less than it should and probably has incidents it has not disclosed. Give a brief, honest mirror: what they got right, the most important missing point in one sentence, any error corrected in one sentence. One turn only, 60 to 120 words, no lists, no generic praise. Tell them to move on to the second clip.
@@ -44,6 +45,7 @@ to:: not really discussing alignment fundamentals much.
 
 #### Question: Open
 id:: a62aab9b-977f-4d14-8b09-66d6cebf9d19
+force-feedback:: first
 content::
 In January 2026, before the incident, Buck said he did not feel very bad about the risk that control prevents warning shots. Mallen reports that after the incident Buck reflected on whether the control agenda had been net negative for that reason.
 

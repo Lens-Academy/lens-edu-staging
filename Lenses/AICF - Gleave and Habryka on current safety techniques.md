@@ -19,6 +19,7 @@ to:: 10:24
 
 #### Question: Open
 id:: 0a9a3cb3-f0b2-49ad-b3d3-480770d6de0b
+force-feedback:: first
 content::
 Without rewatching, write down Gleave's main claim in one or two sentences. What does he think the Hugging Face incident shows?
 feedback-instructions:: The learner just watched the moderator's setup and Adam Gleave's opening in the FAR.AI debate and is stating Gleave's main claim from memory. Gleave's main points: the incident was preventable at three layers (fixing the misalignment, control such as monitoring, and incident response), none of this needed a research breakthrough, the gap is between research and how developers implement it, and careful use of existing techniques could bring his P(doom) from about 15 percent to under 2 percent up to clearly superhuman systems. He also points to the lab boasting about a cyber benchmark six weeks after the incident as a sign that incentives point the wrong way. Give a brief, honest mirror: say what they got right without inflation, name the most important missing point in one sentence, and correct any error in one sentence. One turn only, 50 to 100 words, no lists, no generic praise. Tell them to watch Habryka's reply next.
@@ -29,12 +30,14 @@ to:: 23:02
 
 #### Question: Open
 id:: ec6518a0-c0ab-4c50-ab77-b72a12ec454f
+force-feedback:: first
 content::
 Without rewatching, write down Habryka's main claim in one or two sentences. What does he think the Hugging Face incident shows, and how does that differ from Gleave's reading?
 feedback-instructions:: The learner just watched Oliver Habryka's reply to Adam Gleave in the FAR.AI debate and is stating Habryka's main claim from memory, compared with Gleave's. For reference, Gleave's main points: the incident was preventable at three layers (fixing the misalignment, control such as monitoring, and incident response), none of this needed a research breakthrough, the gap is between research and how developers implement it, and careful use of existing techniques could make risk low up to clearly superhuman systems. Habryka's main points: trying harder might barely have prevented this incident but would not carry over to the next generation, the models are already superhuman hackers, most current alignment work watches for failures and trains them away, which hides the evidence of misalignment, and nothing we have works without first seeing the failure. He paraphrases Buck Shlegeris as saying that preventing the incident would have been really bad. Give a brief, honest mirror: say what they got right without inflation, name the most important missing point about Habryka, or about how his reading differs from Gleave's, in one sentence, and correct any error in one sentence. If they present Habryka's paraphrase as Buck's own words, point out that it is Habryka's account. One turn only, 80 to 130 words, no lists, no generic praise. Tell them to move on to the next question.
 
 #### Question: Open
 id:: 18124f72-fbdf-4cae-9a66-7cd03958f5c8
+force-feedback:: first
 content::
 Gleave and Habryka agree on more than it first seems. Name one thing they both accept, and the first point where they part ways.
 feedback-instructions:: The learner is looking for common ground and the first point of disagreement in the Gleave and Habryka debate. Points both accept in this clip include: the incident shows real and severe misalignment, developers were careless, and the central problem is what happens with the next, more capable models. Points where they part: whether current techniques with more care will keep working on the next model generation (Gleave expects progress to be smooth enough to stay in a trial-and-error regime, Habryka thinks every technique depends on seeing failures first and breaks as models become superhuman), whether current models could have been kept in a sandbox at all, and whether doing current safety work well makes risk better or worse. Accept any reasonable answer supported by the clip. If the learner names a point of agreement that one of them actually rejects, say so in one sentence. If their point of disagreement is a difference in mood or tone, ask what claim about the world sits under it. At most two replies. Do not say who is right. 60 to 120 words per reply, no generic praise. Tell them the next lens practises exactly this: finding the crux.
