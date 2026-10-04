@@ -17,7 +17,7 @@ Three pieces of AI control work:
 
 (A) A team trains a small model that is too weak to be scheming on examples of subtly sabotaged code, so that it catches more of the bad changes a stronger model makes, and publishes the method and the data.
 (B) A team decides who reviews the actions that a monitor flags on the coding agents writing most of the code for a frontier model, how quickly each flag must be reviewed, and how a serious finding is escalated, and then runs this routine.
-(C) A team tries to slip attacks past the monitoring systems of several frontier AI developers, and publishes the results.
+(C) A team tries to slip attacks past the monitoring systems that frontier AI developers run on their own agents, and publishes the results.
 
 For each: what kind of control work is it (which research area)? What access to developers' systems, and what independence from developers, does it need? So which kind of organisation is placed to do it? Name one real example of such an organisation.
 placeholder:: Take A, then B, then C
