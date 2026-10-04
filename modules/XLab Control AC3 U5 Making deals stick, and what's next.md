@@ -16,6 +16,21 @@ source:: [[../Learning Outcomes/Counterparty risks in AI deals]]
 # Learning Outcome:
 source:: [[../Learning Outcomes/Preparing for deals with AIs]]
 
+# Lens: Welcome to Unit 5
+id:: 7d00d40d-be42-4f9e-99e3-ed769841bea8
+tldr:: What you will learn in Unit 5: making deals stick, and what's next.
+summary_for_tutor:: Short opening page of Unit 5 (Making deals stick, and what's next) of AI Control 3. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
+reading_minutes:: 1
+tutor_minutes:: 0
+#### Text
+content::
+\## In this unit you will
+
+- Draft the terms of a deal with an early misaligned AI: how a lab would pay it, negotiate, and later judge whether it kept its side.
+- Turn a paper's next steps into policies a lab could adopt within a year.
+- Weigh the barriers to trading with early misaligned AIs, and settle a disagreement about them.
+- Find where to go next in AI control: programs, organisations and opportunity boards.
+
 # Lens:
 source:: [[../Lenses/XLab Control - making-deals-with-early-schemers-2]]
 
