@@ -49,20 +49,20 @@ Module 4 goals (Desire):
 %%
 
 %%
-Module 6 goals (The self):
+Module 5 goals (The self):
 - State what each major school says the self is: not-self, Atman, the bundle theory, the self-model, parts, the narrative self
 - Say what claims of selflessness, non-duality and fundamental wellbeing assert, and how such claims could be checked
 %%
 
 %%
-Module 7 goals (Emotions and circumstances):
+Module 6 goals (Emotions and circumstances):
 - Compare what schools say to do with emotions: acceptance, reappraisal, equanimity, Stoic judgement, non-attachment, and the evidence for each
 - Weigh the evidence on whether circumstances can give lasting peace
 - Recognise the failure modes: indifference that looks like equanimity, numbing, spiritual bypassing, motivation loss
 %%
 
 %%
-Module 8 goals (Your position and your experiments):
+Module 7 goals (Your position and your experiments):
 - Compare your current view with your starting view from module 1
 - State your view on the core questions and what evidence would change it
 - Choose one to three experiments for Part II, each with a protocol: dose, duration, measurement
