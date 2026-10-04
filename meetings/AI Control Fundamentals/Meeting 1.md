@@ -56,13 +56,16 @@ A bank limits what one trader can do and audits trades, so it stays safe even if
     - a university lab
 2. List its checks that people are trustworthy, and its limits that hold even if someone is not.
 3. Now the insider is an AI model that might be secretly working against you, and behaves well whenever it might be tested. Which items on your list still work?
-4. If you still have time: which difference between an AI model and a human insider matters most here?
+4. Jan Kulveit, a critic of control, argues two things:
+    - Without control, many attempts by a misaligned AI would still be stopped by other means, after visible damage that pushes the world to act.
+    - With control, the lab catches them quietly and describes them only vaguely, so nothing changes.
+    Think of a scandal in your organisation's field that changed the rules. Would the rules have changed if the organisation's own limits had quietly stopped it instead?
 
 
 Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
-| Names | Your organisation + what still works when the insider is an AI model |
+| Names | Your organisation + what still works when the insider is an AI model + your scandal answer |
 |------|------------------------|
 |  |  |
 |  |  |
