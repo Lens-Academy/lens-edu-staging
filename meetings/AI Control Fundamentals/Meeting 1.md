@@ -252,6 +252,7 @@ Untrusted model: A model capable enough that it might be secretly working agains
 Trusted model: A model we are confident is not working against us, in practice because it is too weak to do so effectively. Its work is honest but worse than the untrusted model's.
 Red team: In the founding experiment, the team that plays an untrusted model secretly working against us: it builds an attack policy that tries to sneak backdoors past the safeguards without being caught.
 Blue team: The team that designs the protocol, deciding how to use the untrusted model, the trusted model and a little human checking so useful work gets done without a backdoor getting through.
+Protocol: The plan for how the models and human checking are used. Greenblatt and Shlegeris use it for a lab's whole plan for training, evaluating and deploying a model.
 Backdoor: In the founding experiment, code that passes the tests but that the model can feed a specific input to make it return something a correct solution would not.
 Usefulness: How much of the untrusted model's benefit a protocol keeps if the model is honest, measured from what the trusted model alone achieves (0) to what the untrusted model achieves (100).
 Safety: If the untrusted model is trying to cause harm, how unlikely it is to succeed. Safety and usefulness trade off against each other.
@@ -260,6 +261,7 @@ Trusted monitoring: The trusted model gives each of the untrusted model's output
 Defer to trusted: Outputs that are suspicious but not suspicious enough for a human audit are thrown away, and the trusted model's own solution is used instead, trading some usefulness for safety.
 Untrusted monitoring: A copy of the untrusted model does the suspicion scoring. It is much better at spotting attacks, but if the model is working against us, so is the monitor, and it can lie.
 Scheming: A model choosing actions that maximise its chance of eventually seizing power, while concealing its misalignment and subverting the safety measures and evaluations meant to catch it.
+Transformatively useful AI: AI capable of substantially reducing risk from later AIs, for example by greatly speeding up safety research. Greenblatt and Shlegeris argue control could work for the first such AIs, not for arbitrarily powerful ones.
 Control property: A set of safety techniques has it when potentially scheming models are not capable of finding and executing a subversion strategy with more than a small probability of an unacceptable outcome, such as exfiltrating their weights or hacking the datacenter.
 Protocol: A lab's whole plan for training, evaluating and deploying a model, including its safety measures.
 Control evaluation: A test of a protocol in which a red team searches for attacks that untrusted models could use and estimates how likely an unacceptable outcome would be if the models used them.
