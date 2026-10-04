@@ -1,9 +1,10 @@
 ---
 title: "Buck Shlegeris on controlling AI that wants to take over – so we can use it anyway"
 author:
-  - "Robert Wiblin"
+  - "Robert Wiblin"{++{"author":"James agent ready-34's AI","timestamp":1791116263031}@@
+  - "Buck Shlegeris"++}
 source_url: "https://80000hours.org/podcast/episodes/buck-shlegeris-ai-control-scheming/"
-published: 2026-10-04
+published: {--{"author":"James agent ready-34's AI","timestamp":1791116263031}@@2026-10-04--}{++{"author":"James agent ready-34's AI","timestamp":1791116263031}@@2025-04-04++}
 created: 2026-10-04
 accessed: 2026-10-04
 llm-review:
