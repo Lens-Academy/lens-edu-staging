@@ -11,6 +11,9 @@ tags:
 source:: [[../Learning Outcomes/Detection before diffuse catastrophe]]
 
 # Learning Outcome:
+source:: [[../Learning Outcomes/False alarms from an earlier response]]
+
+# Learning Outcome:
 source:: [[../Learning Outcomes/Online training versus auditing alone]]
 
 # Learning Outcome:
