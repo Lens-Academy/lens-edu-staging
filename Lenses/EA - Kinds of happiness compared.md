@@ -2,8 +2,8 @@
 id: '96c49532-5bca-46f9-b69f-09077d02c1cb'
 title: "Kinds of happiness compared"
 tldr: "One table of the kinds of happiness the schools aim at, plus equanimity, which is a way of meeting all of them. Then practice saying which kind a claim is about."
-summary_for_tutor: "A comparison table of the kinds of happiness from this module's readings: positive feeling, life satisfaction, eudaimonia, Epicurean ataraxia and Stoic apatheia, sukha in three grades, contentment (santosha), fundamental wellbeing (Martin's PNSE), and equanimity on its own line as a stance toward all feelings. Columns: what kind of thing it is, what it is, whether it is said to depend on circumstances, who aims at it, sources. Then one practice question with three real quotes the learner sorts, with tutor feedback. The graded test with new quotes follows at the end of this part of the module."
-reading_minutes: 6
+summary_for_tutor: "A comparison table of the kinds of happiness from this module's readings: positive feeling, life satisfaction, eudaimonia, Epicurean ataraxia and Stoic apatheia, sukha in two rows (the Niramisa Sutta's three grades of pleasure, and Ekman et al.'s sukha as an enduring trait), contentment (santosha, not tested), fundamental wellbeing (Martin's PNSE), and equanimity on its own line as a stance toward all feelings. Columns: what kind of thing it is, what it is, whether it is said to depend on circumstances, who aims at it, sources. Then one practice question with three real quotes, shown without authors as in the test, which the learner sorts, with tutor feedback. The graded test with new quotes follows at the end of this part of the module."
+reading_minutes: 7
 tutor_minutes: 6
 tags:
   - wip
