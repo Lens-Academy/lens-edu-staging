@@ -3,7 +3,7 @@ id: 'faea0f02-cc96-4661-ba8d-8e436d04382d'
 title: "Sukha, equanimity and fundamental wellbeing"
 tldr: "Contemplative traditions describe happiness that is said not to depend on what happens to you, and equanimity, which is not a feeling at all but a way of meeting every feeling."
 summary_for_tutor: "Readings on the contemplative kinds of happiness. Ekman, Davidson, Ricard and Wallace 2005 (Buddhist sections): sukha is an enduring trait from mental balance and insight, unlike pleasure, which depends on stimuli and circumstances, and unlike trait positive affect; it includes reduced vulnerability to outer circumstances. Niramisa Sutta (SN 36.31, tr. Thanissaro): three grades each of rapture, pleasure and equanimity: of the flesh (the five senses), not of the flesh (meditative absorption, jhana), and more not-of-the-flesh (the mind of a fully awakened person reflecting on its release from passion, aversion and delusion). Desbordes et al. 2015: equanimity is an even-minded state or disposition toward all experiences regardless of whether they are pleasant, unpleasant or neutral; it is not indifference. Martin's paper on persistent non-symbolic experience (PNSE, the academic term for what he elsewhere calls fundamental wellbeing): 50 interviewees, reported ongoing deep inner peace, fewer and shorter emotions, at the far end no emotion. Then a recall question and a wedge question claiming equanimity is a calm pleasant feeling and fundamental wellbeing is a lot of it."
-reading_minutes: 28
+reading_minutes: 20
 tutor_minutes: 10
 tags:
   - wip
@@ -32,6 +32,7 @@ content::
 Next, a short discourse attributed to the Buddha that grades pleasure and equanimity into three levels. Two terms you need:
 - **Jhana**: "mental absorption. A state of strong concentration focused on a single physical sensation (...) or mental notion" ([Access to Insight glossary](https://www.accesstoinsight.org/glossary.html)).
 - **Fermentation-ended monk**: Thanissaro translates *asava* as "fermentation" ([same glossary](https://www.accesstoinsight.org/glossary.html)). A monk whose fermentations have ended is an arahant, a fully awakened person.
+- **Pleasure** in this translation is *sukha*. The same glossary lists "sukha (pleasure)" among the factors of jhana and translates *sukha* as "pleasure; ease; satisfaction" ([same glossary](https://www.accesstoinsight.org/glossary.html)).
 
 #### Article
 source:: [[../articles/bhikkhu-niramisa-sutta-not-of-the-flesh]]
@@ -40,16 +41,16 @@ to:: that is called liberation more not-of-the-flesh than that not of the flesh.
 
 #### Text
 content::
-The sutta lists equanimity next to pleasure. The next reading, by contemplative scientists, argues that equanimity is a different kind of thing.
+The sutta lists equanimity next to pleasure. The next reading, by contemplative scientists, defines equanimity as a stance toward all experience.
 
 #### Article
 source:: [[../articles/desbordes-moving-beyond-mindfulness-defining-equanimity-as-an-outcome-measure-in-meditation-and-contemplative-research]]
-from:: In brief, to rephrase this definition in modern terms
+from:: In the Buddhist tradition, the term “equanimity”
 to:: or trying to prolong these experiences, or becoming addicted to them.
 
 #### Article
 from:: Buddhist texts clearly distinguish between equanimity and indifference
-to:: but rather of mental imperturbability
+to:: page 263).
 
 #### Text
 content::
@@ -70,10 +71,11 @@ to:: may inform the debate between constructivist, common core, and participator
 #### Article
 from:: This research project eventually grew to have around 1200 participants with PNSE
 to:: Gender diversity was also poor as 78% of participants were male.
+optional:: true
 
 #### Article
 from:: Similar to thoughts, participants reported a significant reduction in both the range and overall experience of emotion
-to:: However, some participants reported triggers that had not dissipated even though it had been many years.
+to:: though their experience of these triggers was of a faint and vague sensation in their body.
 
 #### Question: Open
 id:: 050a6ee5-b628-49c7-8e79-8d1326c033e9
@@ -99,7 +101,7 @@ feedback-instructions:: The learner was given a plausible but flawed claim: "Equ
 
 Points a strong answer finds (any two are good):
 - Equanimity is not a feeling among others. Desbordes et al. define it as an even-minded state or disposition toward all experiences, pleasant, unpleasant or neutral. The sutta lists equanimity separately from pleasure and grades it separately. It is a way of relating to feelings, so one can be equanimous while feeling pain.
-- Equanimity is not indifference either, and it is not the same as calm. It includes care.
+- Equanimity is not indifference either. It includes care. Desbordes et al. do describe even-mindedness as "calm, stable and composed", so calm is part of it, but it is calm toward all experience, including pain, not one pleasant feeling among others. Do not tell the learner that equanimity is not calm.
 - Fundamental wellbeing (Martin's PNSE) is described first as a change in the sense of self, cognition, perception and memory, not as more of one feeling. Its reported far end has no emotion at all, which is the opposite of "a lot of a pleasant feeling".
 - Pleasure, in Ekman et al.'s terms, depends on stimuli and circumstances, while sukha and equanimity are said to be traits.
 
