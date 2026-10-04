@@ -5,7 +5,7 @@ title: "Unit 2: The key ideas and the field"
 tags:
   - work-in-progress
 ---
-%% Unit 2 of AI Control Fundamentals. Lenses: welcome (inline), Greenblatt on threats with the control graph, Shlegeris on rogue deployments, Hebbar's low-stakes talk (first 22.5 min), practice on high- vs low-stakes (inline), Greenblatt's areas (excerpts), UK AISI research areas (excerpts), Bhatt talk excerpt plus Google DeepMind's roadmap post, Lens page on who works on control, practice on placing projects (inline). Time: welcome 3+3, threats 13+10, rogue deployments 12+8, low-stakes talk 24+11, practice 3+13, areas 8+8, AISI 6+5, AI companies 17+9, who works 5+10, practice 3+10 (lenses 182), plus about 28 for the two learning-outcome tests. About 210 minutes. %%
+%% Unit 2 of AI Control Fundamentals. Lenses: welcome (inline), Greenblatt on threats with the control graph, Shlegeris on rogue deployments, Hebbar's low-stakes talk (first 22.5 min), practice on high- vs low-stakes (inline), Greenblatt's areas (excerpts), UK AISI research areas (excerpts), Bhatt talk excerpt plus Google DeepMind's roadmap post, Lens page on who works on control, practice on placing projects (inline). Time: welcome 3+3, threats 13+10, rogue deployments 12+8, low-stakes talk 24+11, practice 3+13, areas 8+8, AISI 6+5, AI companies 17+9, who works 5+10, practice 3+10 (lenses 181), plus about 28 for the two learning-outcome tests. About 209 minutes. %%
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/High-stakes versus low-stakes control]]
