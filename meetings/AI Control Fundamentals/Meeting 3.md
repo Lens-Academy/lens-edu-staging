@@ -99,7 +99,7 @@ Every route rests on premises, things that must be true for it to work. Some, wi
 Pick a premise from this list, or one from your Room 2 table.
 1\. Which premise does your group trust least? Why?
 2\. One person argues for it as well as they can. The others push back. Does it hold?
-3\. Name one thing someone could actually observe in the next few years that would change your confidence in it. Would it raise or lower it?
+3\. Name one thing someone could observe in the next few years that would change your confidence in it. Would it raise or lower it?
 4\. If you still have time: if this premise fails, which routes are left?
 
 Ending more confident and ending less confident are both fine outcomes.
