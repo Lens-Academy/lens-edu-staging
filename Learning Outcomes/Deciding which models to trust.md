@@ -31,7 +31,7 @@ feedback-instructions:: Name the strongest part of the answer in one sentence, t
 
 # Suggested Lenses:
 ## Lens:
-source:: [[../Lenses/robert-miles-ai-safety-using-dangerous-ai-but-safely]]
+source:: [[../Lenses/AICF - Using dangerous AI, but safely]]
 notes:: Shows trusted monitoring: a weaker trusted model scores the stronger model's code and humans audit a small share. Practised in its question on the red team's role.
 ## Lens:
 source:: [[../Lenses/AICF - The case for control - what control is]]
