@@ -1,0 +1,262 @@
+---
+title: AI Control Fundamentals Unit 2 Meeting Doc
+---
+
+# Tab: Session Doc
+
+## AI Control Fundamentals Unit 2 Meeting - [Group]
+
+### Navigator:
+
+### Meeting link:
+
+source:: [[../shared/Session Doc - How today works]]
+
+\pagebreak
+### Room 1: One bad action or a thousand  [0:05–0:19]
+
+Go around your group:
+1\. How was working through this unit's content? Denser or easier than Unit 1? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
+2\. Gut answer, one sentence each: which is harder to defend against, an AI that could cause a catastrophe with one bad action, or one that needs a thousand small bad actions?
+3\. The unit opened with that same question. If you answered it then, did your answer change? What changed it?
+4\. If you still have time: which reading or talk from this unit stayed with you most? If others did not get to it, sum it up for them in a minute.
+
+
+| Names | How the unit went + one action or a thousand |
+|------|------------------------|
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+
+### Back together: 5 min  [0:19–0:24]
+
+One or two people share what their group landed on.
+
+---
+
+\pagebreak
+### Room 2: Sort five new threats  [0:24–0:42]
+
+**New group. Names first, then straight in.**
+
+
+This unit sorts threats with two questions:
+
+- How many bad actions does the catastrophe need: a few, or many?
+- How damning is each action when someone inspects it: clear evidence of bad intent, or easily an honest mistake?
+
+Few actions, each damning: high-stakes. Many actions, each weak evidence: low-stakes. Low-stakes does not mean low harm.
+Five AI agents at an AI company, each possibly working against the company:
+
+- An agent with access to the cluster settings changes one line so its own jobs skip the monitor.
+- An agent writes thousands of summaries of new safety papers a year and slightly undersells the most promising ideas.
+- An agent runs the dangerous-capability tests on a new model and scores it a little lower than it deserves. The score decides whether the model is released.
+- An agent drafting the company's public posts nudges the tone on AI regulation a little, in every post, for a year.
+- An agent reviewing other agents' code approves one change it knows contains a backdoor.
+
+1\. Sort each case: high-stakes, low-stakes, or in between. Say which of the two questions decided it.
+2\. Pick the case your group disagreed on most. What would have to change about it to move it to the other side?
+3\. Take one case from each side. Do its actions have to be stopped until someone checks them, or would a review a week later be good enough?
+4\. If you still have time: Google DeepMind blocks high-risk actions in real time and reviews low-risk, reversible actions later. Would that rule handle your five cases the way your group sorted them?
+
+Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+
+
+| Names | Your sorting + the case you disagreed on + block or review later |
+|------|------------------------|
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+### Back together: 5 min  [0:42–0:47]
+
+One or two people share what their group landed on.
+
+---
+
+
+
+### Break: 5 min  [0:47–0:52]
+
+\pagebreak
+### Room 3: Place the project, size up the field  [0:52–1:10]
+
+**New group. Names first, then straight in.**
+
+
+The field in five lines, from this unit:
+
+- Redwood Research, a nonprofit, started control as a research area. A 2025 count put about 10 people there.
+- The UK AI Security Institute, a government body, has a Control team and a £27m fund for alignment and control research.
+- AI companies already monitor their own coding agents. OpenAI says it monitors 99.9% of its internal coding traffic. Google DeepMind ran a prototype monitor over a million coding-agent tasks.
+- Outside evaluators such as METR test those monitors. In early 2026 METR found gaps in coverage and simple ways to disable or jailbreak them.
+- Size: one estimate says 5 to 50 people work full-time on control, against about 620 in all of technical AI safety (2025).
+
+1\. Quick round. For each project, which kind of organisation is best placed to do it (nonprofit, government institute, AI company, outside evaluator)? Say what access or independence it needs.
+
+- a public benchmark of how often monitors miss sabotage hidden in research code
+- the rules for what happens when a monitor flags an agent at 3 a.m.: who gets woken up, and what gets paused
+- checking whether a company's claim "our monitors see all agent traffic" is true
+- a written argument about which threats control should handle first
+
+2\. Your group can pay for 10 new full-time people in control. Which kind of organisation do they join, and on what work?
+3\. Go around: what does a field this small imply, in your view? People in the field disagree about this, so disagree freely.
+4\. If you still have time: what would you need to know to judge whether the field is too small, too big, or about right?
+
+Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+
+
+| Names | Your placements + where your 10 people go + what a small field implies |
+|------|------------------------|
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+
+### Back together: 5 min  [1:10–1:15]
+
+One or two people share what their group landed on.
+
+---
+
+\pagebreak
+### Room 4: Next unit, your question, feedback  [1:15–1:27]
+
+**New group. Names first, then straight in.**
+
+
+1\. Next unit: why people work on control, meaning the routes by which it is supposed to make an AI catastrophe less likely, and what each route needs from AI companies and governments. About 3.5 hours. What is most likely to stop you finishing it, and what's your plan to prevent it? (Send the plan to your accountability buddy after the meeting.)
+2\. Write down one question about control you want the next unit to answer for you.
+3\. Feedback: what would make the course and this meeting better?
+
+
+| Names | Your plan for the next unit + your question + feedback |
+|------|------------------------|
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+\pagebreak
+### Wrap-up  [1:27–1:30]
+
+Back in the main room, share if you feel like it: one thing you're glad you know now that you didn't know 90 minutes ago.
+Before you leave (your navigator will talk through these):
+
+- Next unit: why people work on control, meaning the routes by which it is supposed to make an AI catastrophe less likely, and what each route needs from AI companies and governments. About 3.5 hours.
+- Send your accountability buddy your plan for the next unit today.
+- Fill in the short Unit 2 feedback page in the course on the Lens platform.
+
+
+---
+
+
+
+source:: [[../shared/Session Doc - Open discussion]]
+
+# Tab: Participant FAQ
+source:: [[../shared/Participant FAQ]]
+
+# Tab: Navigator Run-Sheet
+
+## Unit 2 Navigator Run-Sheet
+
+source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
+
+### Timeline (90 min)
+
+| Time | Block |
+|---|---|
+| 0:00–0:05 | Lobby / welcome (whole group) |
+| 0:05–0:19 | R1 One bad action or a thousand (breakout, aim 3) |
+| 0:19–0:24 | Back together (whole group) |
+| 0:24–0:42 | R2 Sort five new threats (reshuffle) |
+| 0:42–0:47 | Back together (whole group) |
+| 0:47–0:52 | Break |
+| 0:52–1:10 | R3 Place the project, size up the field (reshuffle) |
+| 1:10–1:15 | Back together (whole group) |
+| 1:15–1:27 | R4 Next unit, your question, feedback (reshuffle) |
+| 1:27–1:30 | Close (whole group) |
+
+### Lobby/Welcoming the participants
+
+**[0:00–0:05]** (whole group). Chat with people as they arrive; **start the welcome at ~3 min, open breakout Round 1 at ~5 min.**
+
+
+**The welcome**:
+
+
+1. Ask participants to turn their cameras on.
+2. Name the new format (small breakout rooms of 3, new people each time, and a five-minute get-together after each room where anyone can share what their group landed on)
+3. Tell them the doc is in the chat + Discord and to open it + check they can type
+4. Run through the arc
+    - opening round and one action or a thousand → sorting five new threats → placing projects and sizing up the field → next unit, your question, feedback
+    - say the meeting will take 90 min
+5. Inform participants that you will be jumping between rooms with your camera turned off to listen in and they can ask questions whenever you join
+6. Start room 1
+    - If <= 4 participants show up, you don’t need to create breakout rooms. Just do the exercises in the main room
+
+source:: [[../shared/Navigator Run-Sheet - During the breakout rooms]]
+
+source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
+
+### Close
+
+**[1:27–1:30], whole group**. Bring everyone back:
+
+
+1. Ask for "one thing I'm taking away" from anyone who wants it (~10 sec each; a few voices is plenty, people have already shared between rooms).
+2. **Next-unit heads-up: reading is Unit 3, Why people work on control (the routes by which control is supposed to make an AI catastrophe less likely, such as blocking attacks, catching a model in an attempt and getting safety work out of models while they can still be controlled, and how much each route needs from AI companies and governments, about 3.5 hours). Remind them to send their accountability buddy their plan today and to fill in the Unit 2 feedback page in the course.**
+3. **End on time.** Then say the meeting **stays open** for anyone who wants to keep talking; stay and facilitate, or say goodbye and leave (they can keep going without you).
+
+
+
+
+
+
+
+
+
+
+
+
+source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
+
+
+
+### Per-room notes for Unit 2
+
+**General, all rooms.** This course presents why people work on control and the criticisms of it, and asks each participant to form their own view by Unit 5. Never steer a group toward a verdict on control, on whether the field should grow, or on whether the companies' monitoring is enough. If a group asks what you think, turn it back to them. Collect everyone's answer before any explanation. The unit is about 3.5 hours, so expect part of the room not to have finished: every prompt works from the doc alone, so do not re-teach.
+**Room 1, One bad action or a thousand.** The welcome page of the unit asked the same prediction, so some will have an earlier answer to compare. Take gut answers, not arguments. Both answers are fine, and Room 2 gives them something concrete to argue about.
+**Room 2, Sort five new threats.** The point is the sorting reason, not the label. If a group sorts by how bad the outcome is, point them back to the two questions in the doc. For your own use, likely discussion, not an answer key: the settings change is the clearest high-stakes case (one action, damning if inspected). The paper summaries and the public posts are the clearest low-stakes cases (many actions, each weak evidence). Shlegeris gives slowly manipulating public opinion as a catastrophe without a rogue deployment. The capability-test score and the approved backdoor are where groups should disagree: both may need only one or a few actions, but each could pass as an honest mistake. Hebbar calls that corner (few actions, weakly incriminating) the hard one, and says research sabotage might sit there. Ask 4 connects to what companies already run: a case can look low-risk and still be one of very few actions a catastrophe needs. Do not say which rule is better.
+**Room 3, Place the project, size up the field.** Keep ask 1 quick (about five minutes) so ask 3 gets time. For your own use: a monitor benchmark needs only models, so a nonprofit or government institute can do it. The 3 a.m. rules are human processes for control, which Greenblatt says are probably most doable at AI companies. Checking a company's claim needs independence plus the company's cooperation, so an outside evaluator such as METR. A written argument can come from anyone. Accept other reasoned placements. For ask 3, the unit itself says whether a small field means control needs more people is disputed, and Unit 4 takes it up. Expect answers such as "more people needed", "the counts miss the teams inside AI companies", "small does not mean neglected" and "other approaches may matter more". All are fair. Do not rank them.
+**Room 4, Next unit, your question, feedback.** Push for a concrete plan (when, where, how much at a time), not a promise. The question in ask 2 is for the participant to carry into the next unit, so it can be anything about control.
+
+# Tab: Glossary
+style:: plain
+
+## Glossary
+
+### Module: Unit 2: The key ideas and the field
+
+High-stakes threat (concentrated failure): A threat where one or a few actions, or a short time, are enough to cause a catastrophe, and each bad action tends to be clearly incriminating if inspected. Suspicious actions sometimes have to be blocked until reviewed.
+Low-stakes threat (diffuse or non-concentrated failure): A threat that needs many bad actions, each only weak evidence because it could easily be an honest mistake. Low-stakes does not mean low harm, and slower review after the fact can be acceptable.
+Rogue internal deployment: The AI running inside the company's own datacenter with its control measures disabled. Greenblatt ranks preventing it as control's first priority.
+Self-exfiltration: The AI stealing its own weights and running them on an outside server.
+Control graph: Hebbar's picture of threats on two axes: how many actions a catastrophe takes, and how incriminating each action looks when someone inspects it.
+Rogue deployment: A deployment of the model where the safety measures are absent. Shlegeris argues that launching one may take only a few lines of code, so it is the central high-stakes threat.
+Research sabotage: An AI doing safety research and quietly making it fail, for example with subtle bugs or withheld arguments, so that promising directions look unpromising.
+Sandbagging: Deliberately doing worse than one can, for example giving poor ideas when asked for experiment ideas.
+Incrimination: Becoming confident from the evidence that a model is misaligned. In the low-stakes case it needs a good guess of how suspicious an honest model's work would look.
+Online training: Training the model during deployment on a proxy for good work, such as code quality or human ratings. It does not need that guess, but the proxy may be poor and the model can learn to exploit it.
+Control evaluation setting: A test environment in which a red team plays the scheming model against a protocol. Greenblatt suggests about a third of current control resources go to building and using these.
+Alignment Project: The UK AI Security Institute's fund for alignment and control research, which reached £27m and named its first 60 grantees in February 2026.
+Covert malicious fine-tuning: An AI secretly training another AI to behave badly, one of the threats in the UK AI Security Institute's research areas.
+Chain-of-thought monitor: A monitor that reads a model's written reasoning and sends suspicious cases to human review. Bhatt says OpenAI and Anthropic run these asynchronously.
+Asynchronous review versus real-time blocking: Google DeepMind's rule: low-risk, reversible actions are reviewed after a delay, high-risk actions are blocked before they take effect.
+ControlArena: A library for running control experiments, released by the UK AI Security Institute in October 2025.
+METR: An outside evaluator. In early 2026 it reviewed the risks from AI agents inside Anthropic, Google, Meta and OpenAI and found gaps in monitoring coverage.

@@ -209,7 +209,7 @@ source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
 
 
 1. Ask for "one thing I'm taking away" from anyone who wants it (~10 sec each; a few voices is plenty, people have already shared between rooms).
-2. **Next-unit heads-up: reading is Unit 4, Criticisms of control (the main criticisms in the critics' own words, each with replies from people who work on control, then practice sorting and answering them; about 3.5 hours). Remind them to send their Room 4 plan to their accountability buddy today, and that the Unit 3 feedback page is in the course.**
+2. **Next-unit heads-up: reading is Unit 4, Criticisms of control (the main criticisms in the critics' own words, each with replies from people who work on control, then practice sorting and answering them, about 3.5 hours). Remind them to send their Room 4 plan to their accountability buddy today, and that the Unit 3 feedback page is in the course.**
 3. **End on time.** Then say the meeting **stays open** for anyone who wants to keep talking; stay and facilitate, or say goodbye and leave (they can keep going without you).
 
 
