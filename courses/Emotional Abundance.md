@@ -46,7 +46,6 @@ Module 3 goals (Judging claims):
 Module 4 goals (Tour of the schools):
 - Place each school on one map by its goal, its view of the self, its main method and the kind of evidence it relies on
 - Choose which school modules from the library to take
-- Optional: the three philosophical theories of wellbeing (hedonism, desire satisfaction, objective list) and one objection to each
 %%
 
 %%
