@@ -58,7 +58,7 @@ Four AI agents at an AI company, each possibly working against it:
 1\. Sort each case: high-stakes, low-stakes, or in between. Say which question decided it.
 2\. Pick the case your group disagreed on most. What would have to change to move it to the other side?
 3\. Take one case from each side. Must its actions be stopped until checked, or is a review a week later enough?
-4\. If you still have time: Google DeepMind's roadmap blocks high-risk actions in real time and reviews low-risk, reversible ones later. Does that rule treat your four cases the way you sorted them?
+4\. If you still have time: Google DeepMind blocks high-risk actions in real time and reviews low-risk ones later. Does that match how you sorted your four cases?
 
 Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
 
@@ -246,6 +246,7 @@ High-stakes threat (concentrated failure): A threat where one or a few actions, 
 Low-stakes threat (diffuse or non-concentrated failure): A threat that needs many bad actions, each only weak evidence because it could easily be an honest mistake. Low-stakes does not mean low harm, and slower review after the fact can be acceptable.
 Rogue internal deployment: The AI running inside the company's own datacenter with its control measures disabled. Greenblatt ranks preventing it as control's first priority.
 Self-exfiltration: The AI stealing its own weights and running them on an outside server.
+Rogue deployment: A deployment of the model where the safety measures are absent. Shlegeris argues that launching one may take only a few lines of code, so it is the central high-stakes threat.
 Control graph: Hebbar's picture of threats on two axes: how many actions a catastrophe takes, and how incriminating each action looks when someone inspects it.
 Rogue deployment: A deployment of the model where the safety measures are absent. Shlegeris argues that launching one may take only a few lines of code, so it is the central high-stakes threat.
 Research sabotage: An AI doing safety research and quietly making it fail, for example with subtle bugs or withheld arguments, so that promising directions look unpromising.
@@ -256,6 +257,7 @@ Control evaluation setting: A test environment in which a red team plays the sch
 Alignment Project: The UK AI Security Institute's fund for alignment and control research, which reached £27m and named its first 60 grantees in February 2026.
 Covert malicious fine-tuning: An AI secretly training another AI to behave badly, one of the threats in the UK AI Security Institute's research areas.
 Chain-of-thought monitor: A monitor that reads a model's written reasoning and sends suspicious cases to human review. Bhatt says OpenAI and Anthropic run these asynchronously.
+METR: An outside evaluator. In early 2026 it reviewed the risks from AI agents inside Anthropic, Google, Meta and OpenAI and found gaps in monitoring coverage.
 Asynchronous review versus real-time blocking: Google DeepMind's rule: low-risk, reversible actions are reviewed after a delay, high-risk actions are blocked before they take effect.
 METR: An outside evaluator. In early 2026 it reviewed the risks from AI agents inside Anthropic, Google, Meta and OpenAI and found gaps in monitoring coverage.
 ControlArena: A library for running control experiments, released by the UK AI Security Institute in October 2025.
