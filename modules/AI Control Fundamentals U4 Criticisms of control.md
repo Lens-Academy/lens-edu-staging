@@ -5,7 +5,7 @@ title: "Unit 4: Criticisms of control"
 tags:
   - work-in-progress
 ---
-%% Unit 4 of AI Control Fundamentals. Time (reading+tutor): welcome 3+3, slop 15+11, better schemers 14+13, superintelligence 5+8, profit-only 9+11, warning shots 12+14, safety-washing 7+12, adversarial 12+8, practice 3+19, plus about 16 for the two learning-outcome tests. About 195 minutes. %%
+%% Unit 4 of AI Control Fundamentals. Time (reading+tutor): welcome 3+3, slop 16+11, better schemers 14+13, superintelligence 5+8, profit-only 10+11, warning shots 15+14, safety-washing 8+12, adversarial 12+8, practice 3+19 (lenses 185), plus about 18 for test 1 (classifying criticisms) and 8 for test 2 (backfire). About 211 minutes. %%
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Classifying criticisms of AI control]]
@@ -29,16 +29,16 @@ We find it useful to sort criticisms of control into three kinds:
 - **Control works but is not worth the effort.** For example, scheming is unlikely, other failures matter more, or the work would happen anyway.
 - **Control works and makes things worse.** It reduces one risk but raises the overall risk.
 
-Some criticisms have more than one side. The sorting is a tool, not a verdict.
+Some criticisms have more than one side. The sorting helps you see what a criticism disputes. It does not decide whether the criticism is right.
 
-When you answer a criticism, we suggest comparing the world with control against what would realistically happen without it, not against a perfect solution. Any safety measure falls short of perfect, so that comparison cannot tell you whether control helps.
+When you answer a criticism, we suggest comparing the world with control against what would realistically happen without it, not against a perfect solution. Any safety measure falls short of perfect, so that comparison cannot tell you whether control helps. When you weigh a reply to a criticism, check that the reply makes the same realistic comparison.
 
 \## In this unit you will
 
 - Read John Wentworth's case against control research, with replies from Buck Shlegeris and Lucius Bushnaq.
 - Read Oliver Habryka, Jozdien and MIRI on why control may not work, and what control's authors say back.
-- Read Yonatan Cale's question "would a company that only cares about profit build this anyway?", with two answers.
-- Come back to Jan Kulveit's warning-shot argument, with the replies it got and a comment written after a real incident in 2026.
+- Read Yonatan Cale's question whether a company that only cares about profit would build a safety tool anyway, with two answers.
+- Come back to Jan Kulveit's warning-shot argument, with the replies it got and two comments written after a real incident in 2026.
 - Read about safety-washing, and about whether control could make AIs more adversarial.
 - Practise sorting criticisms and tracing how a control measure could backfire.
 
