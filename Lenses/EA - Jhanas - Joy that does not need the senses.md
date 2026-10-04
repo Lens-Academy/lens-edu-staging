@@ -47,6 +47,7 @@ content::
 If your version of the claim were true, what would you expect to see in someone's daily life? And what would you see if it were false?
 force-feedback:: first
 feedback-instructions:: The learner restated Ayya Khema's claim (after reaching the jhanas, people stop going looking for sense pleasures but still enjoy them, because the joy inside has "absolutely no comparison" to the joy sought through the senses) and now gives observable predictions for true and false.
+
 Good predictions are observable and could come out either way. If true: for example fewer impulsive reaches for food, phone or shopping, less irritation when a pleasure is denied, and pleasant things still enjoyed. If false: seeking unchanged, or enjoyment flattened along with seeking, or a change that lasts only hours after a sit. Name the most observable prediction they gave and suggest how to make a vague one countable (a tally, a daily 0 to 10 rating, a time frame). Point out if their true and false predictions do not exclude each other. Do not say whether the claim is true. 80 to 130 words. At most 2 replies. No generic praise.
 
 #### Text

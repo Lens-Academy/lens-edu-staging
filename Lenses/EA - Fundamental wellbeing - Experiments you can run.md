@@ -23,7 +23,7 @@ to:: Are you also looking out of this wide-open, crystal clear, awareness?
 #### Question: Open
 id:: 0fdd9eeb-d143-453c-900b-c35f4cba87e8
 content::
-Do the experiment now. What did you find when you pointed at where others see your face? Did anything change in your sense of where "you" are, and if so, how long did it last?
+Do the experiment now. What did you find when you pointed at where others see your face?
 force-feedback:: first
 feedback-instructions:: The learner just did Douglas Harding's pointing experiment from the Headless Way site: point at objects (room, foot, knee, chest), then point at where others see your face and notice what is found there. The site's own commentary says one finds no colour or shape there, only "capacity or awareness" full of everything happening in it. Martin's six-week programme taught the Headless Way as one of its main methods.
 
@@ -65,7 +65,7 @@ In Martin's own slides on the early course runs, scores on a dissociation scale 
 #### Question: Open
 id:: 7d510b14-3f5f-47e1-88d1-d43dadf0bdc8
 content::
-Which of these experiments, if any, will you run? Write down what result would make you take Martin's claims more seriously, and what result would make you take them less seriously.
+Which of these experiments, if any, will you run?
 force-feedback:: first
 feedback-instructions:: The learner read the experiments in this lens: the Headless Way pointing experiment (ten minutes), a week of loving-kindness practice for an hour a day as one Finders Course participant describes it, a six-week protocol measuring any daily hour of practice with the questionnaires Martin's study used plus a partner check of six stress signs and a recovery-time log after upsets, and Martin's paid six-week course measured the same way. There was a safety note on rising dissociation and depersonalisation scores in Martin's early course runs. The learner says which they will run. The next question asks what results would change their view.
 
