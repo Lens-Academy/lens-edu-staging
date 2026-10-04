@@ -26,6 +26,7 @@ content::
 Later in the dialogue, Greenblatt replies to Habryka's second point:
 
 #### Article
+source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
 from:: "One **(2)** (control being used for capabilities research)"
 to:: "we might get particularly wrecked."
 
