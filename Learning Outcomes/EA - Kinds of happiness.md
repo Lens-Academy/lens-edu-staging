@@ -5,7 +5,7 @@ writing_minutes: 10
 tags:
   - wip
 ---
-%% Sorting exercise for module 2 of Emotional Abundance. Every claim is a real quote; sources are in the rubric. %%
+%% Sorting exercise for module 2 of Emotional Abundance. Every claim is a real quote. Sources are listed below the test. %%
 
 ## Test:
 id:: 90694eda-04e9-48ec-8d08-8c35feb75d41
