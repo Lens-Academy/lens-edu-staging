@@ -25,7 +25,7 @@ How much the memory bothered me before the session: {{number min 0 max 10}} out 
 #### Question: Open
 id:: 2364737e-3113-4209-9790-df8ceb917808
 content::
-What were your two ratings? When you tried to "be the space" for the bad mood, did the knowing itself seem changed by the mood, or not? Describe what you noticed as plainly as you can.
+When you tried to "be the space" for the bad mood, did the knowing itself seem changed by the mood? Describe what you noticed as plainly as you can.
 force-feedback:: first
 feedback-instructions:: The learner did Sam Harris's 26-minute guided session "Looking for the Self". Midway Harris asks them to recall something that bothers them, feel the mood, and "simply be the space in which it arises", like a mirror that is not changed by what it reflects. His claim: the consciousness aware of happiness or sadness never takes the form of those moods. The learner rated the memory 0 to 10 before and after in the previous question (if you cannot see the ratings, do not ask for them) and now reports whether the knowing seemed changed.
 
