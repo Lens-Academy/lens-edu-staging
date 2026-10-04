@@ -41,6 +41,7 @@ source:: [[../Lenses/EA - The lottery, the accident and the treadmill]]
 # Lens: Gilbert on the surprising science of happiness
 source:: [[../Lenses/EA - Gilbert on the surprising science of happiness]]
 optional:: true
+
 # Lens: Can circumstances give lasting peace?
 source:: [[../Lenses/EA - Can circumstances give lasting peace]]
 
