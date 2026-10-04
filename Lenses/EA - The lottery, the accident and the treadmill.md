@@ -10,18 +10,19 @@ tags:
 ---
 #### Text
 content::
-Many traditions and many popular books say that circumstances cannot give lasting happiness, because we get used to whatever happens. Psychologists call this adaptation, or the hedonic treadmill. This lens shows the best-known case for it and what later research found.
+Psychologists' "hedonic treadmill" model says that good and bad events affect happiness only briefly, before people adapt back to where they were ([Diener, Lucas and Scollon 2006](https://labs.psychology.illinois.edu/~ediener/Documents/Diener-Lucas-Scollon_2006.pdf)). This lens shows the best-known case for it and what later research found.
 
-Watch Dan Gilbert's talk first. It opens with the quiz you just took.
+The quiz you just took comes from the start of Dan Gilbert's TED talk "The surprising science of happiness". After the quiz he says that "a year after losing the use of their legs, and a year after winning the lotto, lottery winners and paraplegics are equally happy with their lives." He then describes the "impact bias": we expect events to affect us more, and for longer, than they do. The whole talk (21 minutes) is optional. The box below the talk is not.
 
 #### Video
 source:: [[../video_transcripts/ted-the-surprising-science-of-happiness-dan-gilbert]]
+optional:: true
 
 #### Callout: What the lottery study actually found
 tone:: amber
 #### Text
 content::
-Gilbert says that "a year after losing the use of their legs, and a year after winning the lotto, lottery winners and paraplegics are equally happy with their lives." The study usually cited for this is [Brickman, Coates and Janoff-Bulman (1978)](https://doi.org/10.1037/0022-3514.36.8.917) ([free copy](https://gwern.net/doc/psychology/1978-brickman.pdf)). It asked 22 lottery winners, 22 controls and 29 people paralysed in accidents how happy they were now, on a scale from 0 to 5. Its own Table 1 reports:
+The study usually cited for Gilbert's sentence is [Brickman, Coates and Janoff-Bulman (1978)](https://doi.org/10.1037/0022-3514.36.8.917) ([free copy](https://gwern.net/doc/psychology/1978-brickman.pdf)). It asked 22 lottery winners, 22 controls and 29 people paralysed in accidents how happy they were now, on a scale from 0 to 5. Its own Table 1 reports:
 
 | Group | Present happiness (0 to 5) |
 |---|---|
@@ -29,7 +30,7 @@ Gilbert says that "a year after losing the use of their legs, and a year after w
 | Controls | 3.82 |
 | Accident victims | 2.96 |
 
-Winners were not significantly happier than controls. Accident victims were significantly less happy than controls, though still above the midpoint of the scale. The accident victims were interviewed between one month and one year after the accident, and each group was measured once, so the study cannot show how anyone changed over time. In our reading, the talk's point that we overestimate how much events affect us still stands. The sentence "equally happy" does not match the paper.
+Winners were not significantly happier than controls. Accident victims were significantly less happy than controls, though still above the midpoint of the scale. The accident victims were interviewed between one month and one year after the accident, and each group was measured once (they were also asked to recall how happy they had been before), so the study cannot show how anyone changed over time. In our reading, the talk's point that we overestimate how much events affect us still stands. The sentence "equally happy" does not match the paper.
 #### End Callout
 
 #### Text
