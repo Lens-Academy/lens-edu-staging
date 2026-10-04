@@ -14,7 +14,196 @@ The failure of alignment is not always a result of technical incompetence: often
 
 #### Article
 source:: [[../articles/alexander-meditations-on-moloch]]
-to:: "! Down to the river! into the street!*"
+{++{"author":"Elua's AI","timestamp":1791121650064}@@from:: "Allen Ginsberg’s famous"
+to:: "brains and imagination?"
+
+#### Article
+from:: "Moloch whose mind is pure machinery!"
+to:: "is a smoking tomb!"
+
+#### Article
+from:: "Moloch whose love is endless oil and stone! Moloch whose soul"
+to:: "hydrogen! Moloch whose name is the Mind!"
+
+#### Article
+from:: "Moloch is introduced"
+to:: "*isn’t* an agent."
+
+#### Article
+from:: "**4\. The Malthusian"
+to:: "a few generations."
+
+#### Article
+from:: "**8\. Arms races**"
+to:: "ten armies!)*"
+
+#### Article
+from:: "A basic principle unites"
+to:: "make things any worse."
+
+#### Article
+from:: "Any human with above"
+to:: "will obey incentives."
+
+#### Article
+from:: "I will now jump from"
+to:: "shameful that we *did*."
+
+#### Article
+from:: "So we have all this"
+to:: "Vegas, I *saw* Moloch."
+
+#### Article
+from:: "The Apocrypha Discordia"
+to:: "when we reach the sea."
+
+#### Article
+from:: "But not only have we not yet"
+to:: "reason – coordination."
+
+#### Article
+from:: "#### 1\. Excess resources"
+to:: "#### 1\. Excess resources"
+
+#### Article
+from:: "As long as resources"
+to:: "most of the time."
+
+#### Article
+from:: "#### 2\. Physical limitations"
+to:: "#### 2\. Physical limitations"
+
+#### Article
+from:: "Or to give another"
+++}to:: {--{"author":"Elua's AI","timestamp":1791121650064}@@"! Down--}{++{"author":"Elua's AI","timestamp":1791121650064}@@"damage per generation."
+
+#### Article
+from:: "#### 3\. Utility maximization"
+to:: "satisfying voters’ values."
+
+#### Article
+from:: "Turning “satisfying"
+to:: "advantage rather than ours."
+
+#### Article
+from:: "#### 4\. Coordination"
+to:: "conform++} to the {--{"author":"Elua's AI","timestamp":1791121650064}@@river! --}{++{"author":"Elua's AI","timestamp":1791121650064}@@pattern."
+
+#### Article
+from:: "The libertarian-authoritarian"
+to:: "Moloch can devise."
+
+#### Article
+from:: "What would it mean"
+to:: "fall ++}into {++{"author":"Elua's AI","timestamp":1791121650064}@@multipolar traps."
+
+#### Article
+from:: "That “the opportunity"
+to:: "infinity is “very bad”."
+
+#### Article
+from:: "**Utility maximization"
+to:: "humans out of work)."
+
+#### Article
+from:: "In the earlier stages"
+to:: "we are still around."
+
+#### Article
+from:: "Memes optimize for"
+to:: "the original goal."
+
+#### Article
+from:: "So as technology (which I take"
+to:: "less-than-infinite."
+
+#### Article
+from:: "**Coordination** is"
+to:: "is what’s left."
+
+#### Article
+from:: "But coordination only"
+to:: "coordination impossible."
+
+#### Article
+from:: "And if we ever get"
+to:: "love in such a world?"
+
+#### Article
+from:: "But even after we have thrown away"
+to:: "us. Bostrom again:"
+
+#### Article
+from:: "We could thus imagine"
+to:: "thousand blind windows!)*"
+
+#### Article
+from:: "They broke their backs lifting Moloch to Heaven!"
+to:: "victory and not ours."
+
+#### Article
+from:: "“Gnon” is [Nick Land"
+to:: "vampires to sunlight."
+
+#### Article
+from:: "Land argues that humans"
+to:: "Gnon-intentional)."
+
+#### Article
+from:: "I have *such mixed"
+to:: "Orthogonality_thesis)."
+
+#### Article
+from:: "As far as I can tell"
+to:: "NEVER DO THAT."
+
+#### Article
+from:: "Warg Franklin analyzes"
+to:: "talked about above."
+
+#### Article
+from:: "This need not be done"
+to:: "is to capture Gnon."
+
+#### Article
+from:: "Gotcha! You die anyway"
+to:: "Gotcha! You die anyway!"
+
+#### Article
+from:: "Suppose you make your"
+to:: "existential catastrophes."
+
+#### Article
+from:: "Warg talks about trying"
+to:: "you’re kind of screwed."
+
+#### Article
+from:: "I am a transhumanist and"
+to:: "want to rule the universe."
+
+#### Article
+from:: "But ++}the {--{"author":"Elua's AI","timestamp":1791121650064}@@street!*"--}{++{"author":"Elua's AI","timestamp":1791121650064}@@current rulers"
+to:: "pretty high priority."
+
+#### Article
+from:: "The opposite of a trap is a garden. The only way"
+to:: "unconstrained by natural law."
+
+#### Article
+from:: "To expect God to care"
+to:: "to try to kill God."
+
+#### Article
+from:: "The Universe is a dark and foreboding place"
+to:: "is a god of humans."
+
+#### Article
+from:: "There are many gods"
+to:: "but this one is ours."
+
+#### Article
+from:: "The question everyone"
+to:: "and *get to work*."++}
 
 #### Text
 content::
