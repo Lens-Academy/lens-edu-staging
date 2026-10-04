@@ -82,7 +82,7 @@ One or two people share what their group landed on.
 ### Break: 5 min  [0:47–0:52]
 
 \pagebreak
-### Room 3: Place the project, size up the field  [0:52–1:10]
+### Room 3: Who should do the work, and how big is the field  [0:52–1:10]
 
 **New group. Names first, then straight in.**
 
@@ -106,12 +106,12 @@ Four projects:
 1\. For each project: which kind of organisation is best placed? Decide by the access to company systems, or the independence, it needs.
 2\. Your group can fund 10 new full-time control researchers. Which project do they work on?
 3\. Go around, one view each: does a field this small need more people? People disagree on this, so disagree freely.
-4\. If you still have time: what would you need to know to be more confident in your answer to ask 3?
+4\. If you still have time: what would you need to know to be more confident in that answer?
 
 Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
-| Names | Your placements + where your 10 people go + what a small field implies |
+| Names | Your placements + the project for your 10 people + does the field need more people |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -179,7 +179,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:24–0:42 | R2 Sort four new threats (reshuffle) |
 | 0:42–0:47 | Back together (whole group) |
 | 0:47–0:52 | Break |
-| 0:52–1:10 | R3 Place the project, size up the field (reshuffle) |
+| 0:52–1:10 | R3 Who should do the work, and how big is the field (reshuffle) |
 | 1:10–1:15 | Back together (whole group) |
 | 1:15–1:27 | R4 Next unit, your question, feedback (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
@@ -196,7 +196,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 2. Name the new format (small breakout rooms of 3, new people each time, and a five-minute get-together after each room where anyone can share what their group landed on)
 3. Tell them the doc is in the chat + Discord and to open it + check they can type
 4. Run through the arc
-    - opening round and one action or a thousand → sorting four new threats → placing projects and sizing up the field → next unit, your question, feedback
+    - opening round and one action or a thousand → sorting four new threats → who should do the work, and how big the field is → next unit, your question, feedback
     - say the meeting will take 90 min
 5. Inform participants that you will be jumping between rooms with your camera turned off to listen in and they can ask questions whenever you join
 6. Start room 1

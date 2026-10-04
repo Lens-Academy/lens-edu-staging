@@ -116,7 +116,7 @@ For the monitor:
 - Ryan Greenblatt: the most dangerous moves, like an AI secretly running itself inside the lab or sabotaging research, would not turn into a visible incident anyway. Without control, we might catch far fewer of them.
 - kave: "It seems naïvely evil to knowingly let the world walk into a medium-sized catastrophe."
 
-3\. "More likely" depends on things being true about the world. Which of those is your group least sure of?
+3\. List what must be true about the world for "more likely" to be right. Circle the one your group is least sure of.
 4\. Decide as a group: keep the monitor as it is, change it so outsiders learn more of what it catches, or drop it. Write down what your choice costs.
 
 
@@ -141,8 +141,10 @@ One or two people share what their group landed on.
 ### Room 4: Next unit and feedback  [1:15–1:27]
 
 **New group. Names first, then straight in.**
+
+
 1\. One question this unit left open for you.
-2\. Next unit, the last of the course: people who disagree about control argue it out, you practise finding what each disagreement turns on, and you write down your own view. About 3.5 hours. What is most likely to stop you finishing it?
+2\. Next unit, the last of the course: people who disagree about control argue it out, you practise finding what each disagreement turns on, and you write down your own view. About 4 hours. What is most likely to stop you finishing it?
 3\. What is your plan to prevent that? (Send the plan to your accountability buddy after the meeting.)
 4\. Feedback: what would make the course and this meeting better?
 
@@ -160,7 +162,7 @@ One or two people share what their group landed on.
 Back in the main room, share if you feel like it: one argument from today that you didn't expect to find as strong as you did.
 Before you leave (your navigator will talk through these):
 
-- Next unit: Debates, and your own view, the last unit of the course. Real debates between people who disagree about control, most of them after the 2026 Hugging Face incident, practice in finding the crux of a disagreement, and a final page where you state your own view and compare it with the gut view you wrote in Unit 1. About 3.5 hours.
+- Next unit: Debates, and your own view, the last unit of the course. Real debates between people who disagree about control, most of them after the 2026 Hugging Face incident, practice in finding the crux of a disagreement, and a final page where you state your own view and compare it with the gut view you wrote in Unit 1. About 4 hours.
 - Send your plan for the next unit to your accountability buddy today.
 - Found something unclear, wrong, or missing? Tell us on the Unit 4 feedback page in the course.
 
@@ -223,7 +225,7 @@ source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
 
 
 1. Ask for "one thing I'm taking away" from anyone who wants it (~10 sec each; a few voices is plenty, people have already shared between rooms).
-2. **Next-unit heads-up: reading is Unit 5, Debates, and your own view, the last unit (Buck Shlegeris and Ryan Greenblatt on whether control prevents warning shots, before and after the 2026 Hugging Face incident, Adam Gleave and Oliver Habryka debating current safety techniques, practice finding the crux, blocking monitors, whether safety researchers should leave frontier labs, whether warning shots change policy, and a final page where they state their own view and compare it with their Unit 1 gut view, about 3.5 hours). Remind them to send their Room 4 plan to their accountability buddy, and that feedback goes on the Unit 4 feedback page in the course.**
+2. **Next-unit heads-up: reading is Unit 5, Debates, and your own view, the last unit (Buck Shlegeris and Ryan Greenblatt on whether control prevents warning shots, before and after the 2026 Hugging Face incident, Adam Gleave and Oliver Habryka debating current safety techniques, practice finding the crux, blocking monitors, whether safety researchers should leave frontier labs, whether warning shots change policy, and a final page where they state their own view and compare it with their Unit 1 gut view, about 4 hours). Remind them to send their Room 4 plan to their accountability buddy, and that feedback goes on the Unit 4 feedback page in the course.**
 3. **End on time.** Then say the meeting **stays open** for anyone who wants to keep talking; stay and facilitate, or say goodbye and leave (they can keep going without you).
 
 

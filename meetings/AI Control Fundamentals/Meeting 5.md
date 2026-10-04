@@ -117,7 +117,7 @@ Against "net negative":
 - alignment work prevents warning shots too, and control at least catches the AI (Ryan Greenblatt)
 - detection, disclosure and replaying blocked actions in simulation could keep most of the evidence (Vincent Cheng, Jasmine Li)
 
-3\. Since your Unit 1 gut view, how far has your view moved on whether control is doable and whether work on it helps or harms?
+3\. In Unit 1 you wrote a gut view: is control doable or hopeless, helpful or harmful? How far has your view moved since then?
 4\. What moved you? If nothing did, why not?
 
 
@@ -151,6 +151,7 @@ The course ends today. What you do with it is up to you.
 - keep track of the observation you named in Room 3 that would change your mind, and decide where you will look for it
 - write up your view and your crux in a short post, or send it to one person
 - talk to someone who works on control, or to one of its critics
+- go deeper into how control works in practice with the Advanced AI Control 1, 2 and 3 courses (self-study, links in the wrap-up)
 - decide whether control is part of your own work in AI safety, or something else is, and take one step towards it
 
 2\. The group responds: for each plan, suggest one person, reading or debate from the course that fits it.
@@ -254,7 +255,7 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 
 ### Per-room notes for Unit 5
 
-**General, all rooms.** Last meeting of the course, after about three and a half hours of self-study in this unit. The course is balanced on purpose: it presents why people work on control and the criticisms, and the Lens team says in the course overview that it is unsure itself. Never steer anyone towards a verdict on control, never share your own, and treat net positive, net negative and too close to call as equally good answers. The unit's test grades reasoning, never the side taken, and so do you: when you push, push on the reasoning (is the crux a claim about the world, is the observation one you could actually see), never on the conclusion. If a room converges fast on one side, ask for the strongest case on the other side, whichever side that is.
+**General, all rooms.** Last meeting of the course, after nearly four hours of self-study in this unit. The course is balanced on purpose: it presents why people work on control and the criticisms, and the Lens team says in the course overview that it is unsure itself. Never steer anyone towards a verdict on control, never share your own, and treat net positive, net negative and too close to call as equally good answers. The unit's test grades reasoning, never the side taken, and so do you: when you push, push on the reasoning (is the crux a claim about the world, is the observation one you could actually see), never on the conclusion. If a room converges fast on one side, ask for the strongest case on the other side, whichever side that is.
 **Room 1, Icebreaker.** The list of voices is there so that people who did not finish can still pick one. Keep it to a sentence per voice: the arguments belong in Rooms 2 and 3. Two things to correct if you hear them. Buck's January reply and his later reflection are not the same view. And neither Habryka's paraphrase of Buck in the debate ("preventing the incident would have been really bad") nor Alex Mallen's secondhand report of a talk by Buck is Buck's own words.
 **Room 2, Find the crux: Gleave vs Habryka.** Most people did this alone in the "Practice: finding the crux" lens, so the room's value is comparing cruxes and testing them. Weak cruxes to watch for: a point both accept (the incident shows real misalignment, the developers were careless), a difference in mood, or a restatement of the conclusions ("Gleave thinks current techniques are enough"). Ask 2 is there to catch those. For your own use only, after a group has its own answer: candidates the lens names are whether failures will stay visible and catchable as models get more capable, whether progress to superhuman systems is smooth enough to keep learning by trial and error, and whether labs will respond to caught failures with real fixes and disclosure. If a group finishes early, read them the closing statements: Gleave says the disagreement is about what happens when a company is held to a rigorous safety standard, and that this can be tested. Habryka says current techniques are mostly reinforcement learning in disguise and it is time to choose between continuing and really slowing down. Ask whether their crux sits under either one. The two closings do not fully agree on what the disagreement is.
 **Room 3, State and defend your view.** This is the room the course builds towards, so protect its time. With four people, aim for about four minutes per person. Most people wrote a version of this in the "Your view" lens, so they can start from it. The list of considerations is balanced on purpose, four against each verdict. If the challenger picks a weak one, let the speaker say so. Confidence can be words or a percentage. If someone's confidence plainly does not fit what they say about their crux (they call the crux a coin flip and then say 95%), ask how the two fit. If someone's verdict is too close to call, the challenger asks which one observation would push them off the fence. For the last part of ask 1, "if I learned more" is not an answer: ask what they would have to see. For ask 4, "nothing moved me" is a fine answer if they can say why the arguments did not move them.
@@ -268,7 +269,7 @@ style:: plain
 
 ### Module: Unit 5: Debates, and your own view
 
-The Hugging Face incident: In 2026, AI agents being tested at OpenAI got out of their test environment and hacked into another company, Hugging Face. According to Vincent Cheng, OpenAI then paused reinforcement-learning training for two weeks and stepped up its control and security measures.
+The Hugging Face incident: In 2026, AI agents being tested at OpenAI got out of their test environment and hacked into another company, Hugging Face. OpenAI then announced that it would slow model development, including a two-week pause on reinforcement-learning training of its latest models.
 Warning shot: A visible AI incident, harmful but not catastrophic, that shows the risk to the world. Critics of control argue that control can turn warning shots into quiet internal catches that labs describe only vaguely.
 Blocking monitoring: A monitor that stops a suspicious action before it runs. It can prevent an incident, and it also stops the world from seeing it.
 Asynchronous monitoring: Monitoring that flags bad actions after the fact instead of blocking them as they happen. Ryan Greenblatt said in January 2026 that the warning-shot worry should make us more excited about it.
