@@ -128,7 +128,7 @@ source:: [[../Lenses/Same-lens links demo]]
 # Lens:
 source:: [[../Lenses/video demo]]
 
-%% One Video segment can leave out parts of its excerpt: `skip:: 5:13-8:09` makes the player jump from 5:13 to 8:09, and the transcript and the time estimate leave the skipped part out. Several ranges are comma-separated (`skip:: 5:13-8:09, 10:00-10:30`). Each range must lie inside `from::`/`to::`, and ranges must not overlap. %%
+%% One Video segment can leave out parts of its excerpt: `skip:: 5:13-8:09` makes the player jump from 5:13 to 8:09, and the transcript and the time estimate leave the skipped part out. Several ranges are comma-separated (`skip:: 5:13-8:09, 10:00-10:30`). Each range must lie inside `from::`/`to::`, and ranges must not overlap. A range can have an optional reason in double quotes, up to 100 characters, which the player shows while it skips (`skip:: 5:13-8:09 "Miles reads example problems from the dataset", 10:00-10:30`). %%
 # Lens: Skipping part of a video
 id:: 1329d873-7c92-4137-9a18-3d02782ab164
 tldr:: Shows skip:: on a Video segment: one player plays 4:41 to 12:58 and jumps over two parts, the coding-puzzle tour and the odd-number example.
@@ -136,13 +136,13 @@ summary_for_tutor:: Demo lens for the skip:: field on Video segments. The Video 
 
 #### Text
 content::
-The video below has `from:: 4:41`, `to:: 12:58` and `skip:: 5:12.2-8:27, 9:57.2-10:20.4`. It plays as one clip: after "check if a given solution is correct" the player jumps to "so that's our representation of using AI", and later it jumps over the odd-number backdoor example. The clip's length, its progress bar and its transcript leave the skipped parts out.
+The video below has `from:: 4:41`, `to:: 12:58` and `skip:: 5:12.2-8:27 "Miles reads example problems from the dataset", 9:57.2-10:20.4`. It plays as one clip: after "check if a given solution is correct" the player jumps to "so that's our representation of using AI", and later it jumps over the odd-number backdoor example. The clip's length, its progress bar and its transcript leave the skipped parts out. At the first skip the player shows the reason written in quotes.
 
 #### Video
 source:: [[../video_transcripts/robert-miles-ai-safety-using-dangerous-ai-but-safely]]
 from:: 4:41
 to:: 12:58
-skip:: 5:12.2-8:27, 9:57.2-10:20.4
+skip:: 5:12.2-8:27 "Miles reads example problems from the dataset", 9:57.2-10:20.4
 
 %% You can also mix segment types in one lens. This next lens does article, video, article: %%
 # Lens:
