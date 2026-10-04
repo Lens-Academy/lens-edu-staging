@@ -18,8 +18,8 @@ source:: [[../shared/Session Doc - How today works]]
 Go around your group:
 1\. How was working through this unit's content? Denser or easier than Unit 1? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
 2\. Gut answer, one sentence each: which is harder to defend against, an AI that could cause a catastrophe with one bad action, or one that needs a thousand small bad actions?
-3\. The unit opened with that same question. If you answered it then, did your answer change? What changed it?
-4\. If you still have time: which reading or talk from this unit stayed with you most? If others did not get to it, sum it up for them in a minute.
+3\. The unit opened with this question. If you answered it then, what changed your answer, if anything?
+4\. If you still have time: which reading or talk stayed with you most? If others missed it, sum it up in a minute.
 
 
 | Names | How the unit went + one action or a thousand |
@@ -94,7 +94,7 @@ The field in five lines, from this unit:
 - Outside evaluators such as METR test those monitors. In early 2026 METR found gaps in coverage and simple ways to disable or jailbreak them.
 - Size: one estimate says 5 to 50 people work full-time on control, against about 620 in all of technical AI safety (2025).
 
-1\. Quick round. For each project, which kind of organisation is best placed to do it (nonprofit, government institute, AI company, outside evaluator)? Say what access or independence it needs.
+1\. Quick round. Which kind of organisation is best placed to do each project (nonprofit, government institute, AI company, outside evaluator)? Say what access or independence it needs.
 
 - a public benchmark of how often monitors miss sabotage hidden in research code
 - the rules for what happens when a monitor flags an agent at 3 a.m.: who gets woken up, and what gets paused
@@ -102,8 +102,8 @@ The field in five lines, from this unit:
 - a written argument about which threats control should handle first
 
 2\. Your group can pay for 10 new full-time people in control. Which kind of organisation do they join, and on what work?
-3\. Go around: what does a field this small imply, in your view? People in the field disagree about this, so disagree freely.
-4\. If you still have time: what would you need to know to judge whether the field is too small, too big, or about right?
+3\. Go around: what does a field this small imply, in your view? This is disputed, so disagree freely.
+4\. If you still have time: what would you need to know to judge whether the field is the right size?
 
 Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
 
