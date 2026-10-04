@@ -4,7 +4,7 @@ title: "Try it yourself"
 tldr: "Brasington's instructions for entering the first jhana, and three experiments: two weeks of daily practice, a test of whether the pull of sense pleasures changes, and an intensive retreat."
 summary_for_tutor: "Practice lens of the jhanas module. Reading: Leigh Brasington, 'Entering the Jhanas' (excerpt from Right Concentration, Lion's Roar). Method: reach access concentration (fully with the meditation object, only wispy background thoughts, often with very subtle breath), sustain it 'long enough', then shift attention to a pleasant sensation, preferably physical (hands, heart centre, third eye, top of head, shoulders), and do nothing else. The sensation grows non-linearly into piti (rapture, mostly physical) with sukha (joy, happiness): that is the first jhana. Stay half a minute if piti is very strong, up to 5 to 10 minutes if weaker. Do not expect it soon. Experiments: (1) 14 days of daily sits of at least 45 minutes (Brasington's minimum for learning jhanas, Right Concentration), with a log; (2) a baseline-then-practice log of one habitual sense pleasure, to test the claim in MN 14, Ayya Khema and Jhourney that inner pleasure reduces the pull of outer pleasures; (3) an intensive retreat, measured before, two weeks after and two months after. Safety notes come from TIME's reporting (Jhourney estimate of 1% difficult experiences, one participant with a month of intense alarm) and Brasington (first piti can be very strong and disturb sleep). Durations of 14 days and the log design are the course's choices, not Brasington's."
 reading_minutes: 15
-tutor_minutes: 6
+tutor_minutes: 8
 tags:
   - wip
 ---
@@ -60,11 +60,20 @@ Most teachers and Jhourney teach the jhanas on retreats (see the readings). Opti
 #### Question: Open
 id:: 3adf06b5-82c3-4ea6-8c39-13d36fed1ef1
 content::
-Which of these experiments, if any, would you run, and when? For the one you pick, write your prediction: what do you expect to happen, and what result would surprise you? If you would run none, say why.
+Which of these experiments, if any, would you run, and when? If you would run none, say why.
+force-feedback:: first
+feedback-instructions:: The learner read Brasington's first-jhana instructions and three experiments: (1) 14 days of daily sits of at least 45 minutes with a log, (2) a baseline-then-practice tally and 0 to 10 rating of one habitual sense pleasure, testing the claim (MN 14, Ayya Khema, Jhourney) that inner pleasure reduces the pull of outer pleasure, (3) an intensive retreat (Burbea's free recordings, a teacher's retreat, or Jhourney at $1,100 online), measured before, two weeks after and two months after. They now say which they would run and when. A separate question after this asks for their prediction, so do not ask for it here.
+
+Respond in a practical way. If they picked Experiment 2 alone, point out it only means something once they can produce piti or joy (Experiment 1). If they picked an intensive, ask whether they have someone to check in with, and mention the safety notes if they have a history of depression, trauma or psychosis. If the timing is vague, suggest naming a start date. If they chose none, accept that, and ask in one sentence what would make it worth trying, without pressing. Do not promise results or say the jhanas will make them happier. 60 to 110 words. At most 2 replies. No generic praise.
+
+#### Question: Open
+id:: 9bfe6dd3-cf3e-4d3f-b2b1-16a0e67b50fa
+content::
+What do you predict will happen in the experiment you picked? If you picked none, predict what would happen if you did Experiment 1.
 force-feedback:: first
 feedback-instructions:: The learner read Brasington's first-jhana instructions and three experiments: (1) 14 days of daily sits of at least 45 minutes with a log, (2) a baseline-then-practice tally and 0 to 10 rating of one habitual sense pleasure, testing the claim (MN 14, Ayya Khema, Jhourney) that inner pleasure reduces the pull of outer pleasure, (3) an intensive retreat (Burbea's free recordings, a teacher's retreat, or Jhourney at $1,100 online), measured before, two weeks after and two months after.
 
-Respond to their choice in a practical way. If they picked one, check that the prediction is specific enough to be wrong (a number, a direction, a time frame) and suggest one sharpening if not. If they picked Experiment 2 alone, point out it only means something once they can produce piti or joy (Experiment 1). If they picked an intensive, ask whether they have someone to check in with, and mention the safety notes if they have a history of depression, trauma or psychosis. If they chose none, accept that, and ask in one sentence what would make it worth trying, without pressing. Do not promise results or say the jhanas will make them happier. 80 to 130 words. At most 2 replies. No generic praise.
+They now write a prediction for the experiment they picked (or for Experiment 1). Check that the prediction is specific enough to be wrong: a number or a direction on the log measures, and a time frame. Suggest one sharpening if not. Ask them to keep the prediction where they will see it when the experiment ends. Do not say whether the prediction is likely, and do not promise results. 50 to 100 words. One or two replies. No generic praise.
 
 #### Text
 content::

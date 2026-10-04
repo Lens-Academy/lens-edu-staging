@@ -13,7 +13,7 @@ content::
 Martin's claims are about inner experience, so part of any test has to happen in you. Each experiment below says where its method comes from. Where we combine sources into a protocol, we say that it is our suggestion.
 
 \## 1. Ten minutes: the pointing experiment
-The Headless Way is a set of experiments devised by Douglas Harding. Martin's six-week programme taught it as one of its main meditation methods, together with a body awareness meditation, a small-group awareness exercise and a modified form of Actualism ([Martin et al., preprint](http://www.nonsymbolic.org/Effects_of_Two_Online_Positive_Psychology_and_Meditation_Programs_on_Persistent_Self-Transcendence-Pre-Print_Draft_Full.pdf), "Program 2"). Here is the first experiment, as the Headless Way site presents it. Do it, do not just read it.
+The **Headless Way** is a set of short experiments, devised by Douglas Harding, that ask you to look at the place you are looking out of instead of at the things you see ([Headless Way site](https://www.headless.org/experiments/pointing.htm)). Martin's six-week programme taught it as one of its main meditation methods ([Martin et al., preprint](http://www.nonsymbolic.org/Effects_of_Two_Online_Positive_Psychology_and_Meditation_Programs_on_Persistent_Self-Transcendence-Pre-Print_Draft_Full.pdf), "Program 2"). Here is the first experiment, as the Headless Way site presents it. Do it, do not just read it.
 
 #### Article
 source:: [[../articles/headless-pointing-home]]
@@ -27,7 +27,16 @@ Do the experiment now. What did you find when you pointed at where others see yo
 force-feedback:: first
 feedback-instructions:: The learner just did Douglas Harding's pointing experiment from the Headless Way site: point at objects (room, foot, knee, chest), then point at where others see your face and notice what is found there. The site's own commentary says one finds no colour or shape there, only "capacity or awareness" full of everything happening in it. Martin's six-week programme taught the Headless Way as one of its main methods.
 
-This is a report of the learner's own experience. There is no right result. Finding nothing special is a valid result, and so is a striking shift. Do not tell them what they should have seen, and do not endorse or dismiss the site's interpretation. In 60 to 110 words, short paragraphs, no lists: reflect back what they reported in precise words, separate what they observed (for example "I saw no face, only the view") from how they interpreted it (for example "so I am awareness"), and note that a brief shift during an exercise is not what Martin calls persistent, which requires the change to last more than a year. If they report distress or feeling unreal in a way that worries them, say plainly that they can stop, and point to the safety note further down this page. No generic praise. One turn.
+This is a report of the learner's own experience. There is no right result. Finding nothing special is a valid result, and so is a striking shift. Do not tell them what they should have seen, and do not endorse or dismiss the site's interpretation. In 50 to 100 words, short paragraphs, no lists: reflect back what they reported in precise words, and separate what they observed (for example "I saw no face, only the view") from how they interpreted it (for example "so I am awareness"). The next question asks whether their sense of where they are changed and for how long, so do not ask that. If they report distress or feeling unreal in a way that worries them, say plainly that they can stop, and point to the safety note further down this page. No generic praise. One turn.
+
+#### Question: Open
+id:: 92cd1c5d-ed8e-430a-87c4-030dca1b50b0
+content::
+Did your sense of where "you" are change at all during the experiment? If it did, how long did the change last?
+force-feedback:: first
+feedback-instructions:: The learner just did Douglas Harding's pointing experiment and reported what they found. Now they say whether their sense of where "you" are changed and, if so, for how long.
+
+There is no right result. No change is a valid result. In 40 to 90 words, short paragraphs, no lists: restate what they report, and note that a brief shift during an exercise is not what Martin calls persistent, which requires the change to last more than a year. If a change lasted beyond the exercise, suggest they note when it fades, since duration is the thing Martin's categories turn on. If they report distress, say plainly that they can stop and point to the safety note further down this page. No generic praise. One turn.
 
 #### Text
 content::
@@ -58,6 +67,24 @@ id:: 7d510b14-3f5f-47e1-88d1-d43dadf0bdc8
 content::
 Which of these experiments, if any, will you run? Write down what result would make you take Martin's claims more seriously, and what result would make you take them less seriously.
 force-feedback:: first
-feedback-instructions:: The learner read three experiments: the Headless Way pointing experiment (ten minutes), a six-week protocol measuring any daily hour of practice with the questionnaires Martin's study used plus a partner check of six stress signs and a recovery-time log after upsets, and Martin's paid six-week course measured the same way. There was a safety note on rising dissociation and depersonalisation scores in Martin's early course runs. The learner says which they will run and what results would raise or lower their confidence in Martin's claims.
+feedback-instructions:: The learner read the experiments in this lens: the Headless Way pointing experiment (ten minutes), a week of loving-kindness practice for an hour a day as one Finders Course participant describes it, a six-week protocol measuring any daily hour of practice with the questionnaires Martin's study used plus a partner check of six stress signs and a recovery-time log after upsets, and Martin's paid six-week course measured the same way. There was a safety note on rising dissociation and depersonalisation scores in Martin's early course runs. The learner says which they will run. The next question asks what results would change their view.
 
-Choosing none is a legitimate answer. In 70 to 120 words, short paragraphs, no lists: if they chose an experiment, check that their two results are things the protocol can actually observe (scores, partner ratings, recovery times, their own reports) and, if one is vague, ask them to make it concrete in one sentence. If they chose none, ask what would have to be true for one of them to be worth their time. Point out, if they did not, that their own report alone cannot rule out the self-report gap Martin found, which is what the partner check is for. Do not push them toward or away from the course. No generic praise. One turn.
+Choosing none is a legitimate answer. In 40 to 80 words, short paragraphs, no lists: if they chose one, check that it fits the time they say they have and name the first concrete step (for example, taking the questionnaires before starting). If they chose none, ask what would have to be true for one of them to be worth their time. Do not push them toward or away from the paid course. No generic praise. One turn.
+
+#### Question: Open
+id:: 3dcec6a5-26e4-41f5-996f-18a0cd2c09f3
+content::
+What result would make you take Martin's claims more seriously?
+force-feedback:: first
+feedback-instructions:: The learner read experiments for testing Jeffery Martin's claims about fundamental wellbeing (pointing experiment, a week of loving-kindness, a six-week measured practice block with questionnaires, a partner check of six stress signs and a recovery-time log, or the paid course measured the same way). They now say what result would raise their confidence in Martin's claims. The next question asks the opposite.
+
+In 40 to 90 words, short paragraphs, no lists: check that the result is something the experiment can actually observe (questionnaire scores, partner ratings, recovery times, their own reports of the sense of self and how long a change lasts). If it is vague, ask them to make it concrete in one sentence. If it relies only on their own report, point out that Martin found self-report and partner reports can come apart, which is what the partner check is for. No generic praise. One turn.
+
+#### Question: Open
+id:: 7545c95e-73af-43d6-bdd5-bc2668af8a51
+content::
+What result would make you take Martin's claims less seriously?
+force-feedback:: first
+feedback-instructions:: The learner read experiments for testing Jeffery Martin's claims about fundamental wellbeing and just said what would raise their confidence. Now they say what result would lower it.
+
+In 40 to 90 words, short paragraphs, no lists: check that the result is observable in their experiment and that it is not simply the absence of a dramatic shift after a short trial, since Martin's own figures say a third or more of course completers do not report the transition. A strong answer names something like: questionnaire scores and partner ratings do not move despite six weeks of practice, or they report deep peace while their partner sees more stress. No generic praise. One turn.
