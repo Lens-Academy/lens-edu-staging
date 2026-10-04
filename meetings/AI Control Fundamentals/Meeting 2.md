@@ -94,13 +94,14 @@ The field in five lines, from this unit:
 - Outside evaluators such as METR test those monitors. In early 2026 METR found gaps in coverage and simple ways to disable or jailbreak them.
 - Size: one estimate says 5 to 50 people work full-time on control, against about 620 in all of technical AI safety (2025).
 
-1\. Quick round. Which kind of organisation is best placed to do each project (nonprofit, government institute, AI company, outside evaluator)? Say what access or independence it needs.
+Four projects:
 
 - a public benchmark of how often monitors miss sabotage hidden in research code
 - the rules for what happens when a monitor flags an agent at 3 a.m.: who gets woken up, and what gets paused
 - checking whether a company's claim "our monitors see all agent traffic" is true
 - a written argument about which threats control should handle first
 
+1\. Quick round. Which kind of organisation is best placed to do each project: nonprofit, government institute, AI company or outside evaluator? Say what access or independence it needs.
 2\. Your group can pay for 10 new full-time people in control. Which kind of organisation do they join, and on what work?
 3\. Go around: what does a field this small imply, in your view? This is disputed, so disagree freely.
 4\. If you still have time: what would you need to know to judge whether the field is the right size?
@@ -128,7 +129,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-1\. Next unit: why people work on control, meaning the routes by which it is supposed to make an AI catastrophe less likely, and what each route needs from AI companies and governments. About 3.5 hours. What is most likely to stop you finishing it, and what's your plan to prevent it? (Send the plan to your accountability buddy after the meeting.)
+1\. Next unit: why people work on control, meaning the routes by which it is supposed to make an AI catastrophe less likely, and what each route needs from AI companies and governments. About 3.5 hours. What is most likely to stop you finishing it, and what's your plan to prevent it? (Send the plan to your accountability buddy today.)
 2\. Write down one question about control you want the next unit to answer for you.
 3\. Feedback: what would make the course and this meeting better?
 
