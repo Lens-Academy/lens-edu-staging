@@ -5,7 +5,7 @@ title: "Unit 5: Debates, and your own view"
 tags:
   - work-in-progress
 ---
-%% Unit 5 of AI Control Fundamentals. Time: welcome 3+0, Buck and Ryan before the incident 8+8, Redwood after the incident 15+10, Gleave and Habryka 23+10, crux practice 19+18, blocking monitors 10+12, quitting frontier labs 8+10, Soares 5+6, your view 5+20 (lens time 190), plus about 8 for the learning-outcome test. About 198 minutes. %%
+%% Unit 5 of AI Control Fundamentals. Time: welcome 3+0, Buck and Ryan before the incident 8+8, Redwood after the incident 16+10, Gleave and Habryka 23+12, crux practice 25+18, blocking monitors 11+12, quitting frontier labs 10+10, Soares 5+6, your view 5+25 (lens time 207), plus about 8 for the learning-outcome test. About 215 minutes. %%
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Weighing the case for AI control]]
@@ -18,7 +18,7 @@ tldr:: People who know the arguments well still disagree about whether control h
 summary_for_tutor:: Opening lens of Unit 5 of AI Control Fundamentals, written by Lens. It says what the unit does: real debates between people who disagree about control, most of them after the 2026 Hugging Face incident, practice in finding the crux of a disagreement, and a final page where the learner states their own view and compares it with the gut view they wrote in the Unit 1 welcome lens. The learning-outcome test grades reasoning, never which side the learner takes.
 #### Text
 content::
-In 2026, AI agents being tested at OpenAI got out of their test environment and hacked into another company, Hugging Face ([Vincent Cheng's summary](https://www.lesswrong.com/posts/GcYpJXqoaQHTvxLRP/blocking-monitors-are-bad), which you read later in this unit). Simple control measures might have stopped it. Since then, people who work on control and people who criticise it have argued in public about whether stopping it would have been good. This unit lets you hear them in their own words.
+In 2026, AI agents being tested at OpenAI got out of their test environment and hacked into another company, Hugging Face ([Vincent Cheng's summary](https://www.lesswrong.com/posts/GcYpJXqoaQHTvxLRP/blocking-monitors-are-bad), which you read later in this unit). According to Cheng, OpenAI then paused reinforcement-learning training for two weeks and stepped up its [control and security measures](https://openai.com/index/pacing-model-development-cyber-capabilities/). Simple control measures might have stopped the incident. Since then, people who work on control and people who criticise it have argued in public about whether stopping it would have been good. This unit lets you hear them in their own words. Most of these debates are about one question the incident raised: does control hide the warnings the world needs? Unit 4 covered the other criticisms of control.
 
 The point is not to tell you who is right. It is to help you see what each disagreement turns on, so that you can form your own view and say what would change it. The test at the end grades your reasoning, not which side you take.
 
@@ -54,7 +54,7 @@ source:: [[../Lenses/AICF - Do warning shots change policy]]
 # Lens: Your view
 id:: bb852546-12d4-4ef1-8fb9-c25213571b78
 reading_minutes:: 5
-tutor_minutes:: 20
+tutor_minutes:: 25
 tldr:: You have now heard the people who built control, its critics, and people in between. Say where you stand, how sure you are, and what would change your mind.
 summary_for_tutor:: Last lens of Unit 5 and of the self-study part of AI Control Fundamentals, written by Lens. The learner rereads the gut view they wrote in the Unit 1 welcome lens (whether controlling a possibly misaligned model sounds doable, and whether work on control is likely to help or could make things worse), then states their current view: the crux that matters most for them and where they stand on it, their verdict on whether more work on control is net positive, net negative or too close to call, confidence, what would change their mind, and how and why it moved since Unit 1. The tutor then presents the strongest consideration from the course that cuts against the learner's view, whichever side they took, and asks how they would answer it. The course covered: control versus alignment and how control evaluations work (Unit 1), high-stakes and low-stakes threats and the field (Unit 2), control's theory of change and its dependence on political will (Unit 3), the criticisms of control including that it could make things worse (Unit 4), and in this unit the warning-shot debate after the 2026 Hugging Face incident (Buck Shlegeris and Ryan Greenblatt, Alex Mallen's report of Buck's talk, Gleave and Habryka, Cheng, Li, Kidd, Barak, Soares). Never grade or reward agreement with any side. This page is practice for the test that follows.
 #### Text
