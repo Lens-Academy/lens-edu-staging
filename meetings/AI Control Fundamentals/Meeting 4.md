@@ -117,7 +117,7 @@ For the monitor:
 - kave: "It seems naïvely evil to knowingly let the world walk into a medium-sized catastrophe."
 
 3\. List what must be true about the world for "more likely" to be right. Mark the one your group is least sure of.
-4\. Decide as a group: keep the monitor as it is, change it so outsiders learn more of what it catches, or drop it. Write down what your choice costs.
+4\. Decide: keep the monitor as it is, change it so outsiders learn more of what it catches, or drop it. Write down what that costs.
 
 
 Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
