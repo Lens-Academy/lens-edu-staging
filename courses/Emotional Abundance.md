@@ -37,6 +37,8 @@ Module 2 goals (The questions):
 - The reality questions (what the self is, why we want things, how experience is built) and how different schools link insight to happiness
 %%
 
+# Module: [[../modules/Emotional Abundance M2 The questions|The questions]]
+
 %%
 Module 3 goals (Judging claims):
 - Weigh each kind of evidence (trials and meta-analyses, observational studies, first-person reports, independent traditions that agree, testimonials) by what it can and cannot show, including how published research goes wrong (replication crisis, narrow samples, short follow-ups, measuring what is easy to measure)
