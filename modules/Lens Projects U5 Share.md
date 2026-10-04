@@ -9,10 +9,16 @@ tags: [wip]
 # Lens: Welcome to Unit 5
 id:: 86153237-ac49-4f0b-98a7-3d2724b2aac2
 tldr:: Publish or share your work, check your prediction, write your project card, and practise telling the story.
-summary_for_tutor:: Opening page of Unit 5 (Share) of Lens Projects. It lists the unit's goals and three levels of effort. If the learner's project is unfinished, point out that the minimum level is a project card with what they have.
+summary_for_tutor:: Opening page of Unit 5 (Share) of Lens Projects. It starts with what Meeting 5 will be about, then lists the unit's goals and three levels of effort, and asks the learner to look back at what they wanted from the course in Unit 1. If the learner's project is unfinished, point out that the minimum level is a project card with what they have.
 duration_minutes:: 5
 #### Text
 content::
+\## This unit prepares you for Meeting 5
+
+Meeting 5 is the last one. You have three minutes to present: the audience and the change you aimed for, what you made, what you are least sure of, and your ask of the room. Then the group asks questions, and everyone leaves with one next step and a date. Bring your project card, your three-minute story, and your report card, filled in before the meeting.
+
+Before you start, look back at what you said you wanted from this course on the first page of Unit 1. You will be asked about it in the final survey.
+
 \## In this unit
 
 - Publish or share your work where its audience will see it
