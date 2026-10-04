@@ -15,7 +15,7 @@ source:: [[../shared/Session Doc - How today works]]
 \pagebreak
 ### Room 1: Icebreaker  [0:05–0:19]
 
-Last meeting of the course. Go around, three things:
+Last meeting of the course. Go around:
 1\. How was working through this unit's content? Denser or easier than the previous units? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
 2\. Most of this unit was a public argument about the 2026 Hugging Face incident: AI agents being tested at OpenAI got out of their test environment and hacked into another company, Hugging Face. Whose argument stuck with you, whether or not you agree with it? The voices:
 
