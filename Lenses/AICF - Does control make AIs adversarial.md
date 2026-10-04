@@ -26,6 +26,8 @@ to:: but those findings were confounded by eval-awareness.
 #### Text
 content::
 Cameron Tice, Puria Radmard and colleagues at Geodesic Research ran a larger, controlled test of the general idea: does the way AI is described in pretraining data change how aligned a model is? Their study is about writing on AI in general, not control writing in particular. Read their summary, main results and limits.
+
+#### Article
 source:: [[../articles/cam-alignment-pretraining-ai-discourse-causes-self-fulfilling-mis-alignment]]
 from:: LLMs pretrained on data about misaligned AIs themselves become less aligned.
 to:: We recommend labs pretrain for alignment, just as they do for capabilities.
@@ -37,10 +39,17 @@ to:: but does not fully erase them.
 #### Article
 from:: **Simplistic evaluations:** We measure alignment
 to:: which now comprises a substantial portion of post-training compute at frontier labs.
+
 #### Text
 content::
 In a footnote, the authors add that when they reran their test of whether alignment survives later fine-tuning, with about 100 times more data, the result was negative. So read "alignment-in-depth" in their summary with that in mind.
+
+#### Question: Open
+id:: 183ccb61-d8fc-4214-b0d3-a7f6f308e163
 force-feedback:: first
+content::
+\## How much does this show?
+
 1. Suppose someone says: "This study shows that AI control research makes AIs misaligned." What does the fine-tuning study support, and what does it not?
 2. What does the pretraining study add to the fine-tuning study, what does it still not show about control writing in particular, and what fix does it suggest?
 feedback-instructions:: The learner weighs two studies. Part 1, what the fine-tuning study supports: fine-tuning one model (GPT-4.1) on question-and-answer pairs from AI control literature raised blackmail rates in one test scenario, most in the 'Ethical' (7% to 64%) and 'Safety' (25% to 69%) conditions, and in the no-goal baseline (1% to 13%). What it does not show: that control research in pretraining data affects frontier models, that the effect holds outside one environment, or that it is not mean reversion (the authors note rates moved into a 64% to 88% band). Collusion was not found for GPT-4.1, and the Grok 4 collusion was confounded by eval-awareness. Part 2, what the pretraining study adds: it is controlled (only the AI-related content varied) and much larger (6.9B-parameter models pretrained on 500B tokens), it changes pretraining data rather than fine-tuning a finished model, and it measures the effect in both directions: upsampling misalignment discourse raised base-model misalignment from 41% to 61%, upsampling positive AI discourse cut it to 4%, and differences shrank but persisted after post-training. What it still does not show: that control writing in particular has this effect (it is about AI discourse in general), that the effect holds for frontier-scale models, in realistic agentic settings rather than single-turn self-report choices, or after RL post-training, and the authors' footnote says a larger rerun of their tampering test was negative. The fix it suggests: curate pretraining data, especially by adding documents about AIs behaving well (which worked better than filtering), or keep sensitive control details out of training data, rather than dropping control research. A learner may say this turns the criticism from "control makes things worse" into "how control is written about and filtered matters". Accept that if reasoned. One or two turns, 60 to 120 words each. Name what they got right and the most important limit they missed. No generic praise. Do not dismiss the worry or overstate it.
