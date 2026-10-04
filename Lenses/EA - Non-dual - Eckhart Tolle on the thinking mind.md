@@ -20,9 +20,22 @@ source:: [[../video_transcripts/eckhart-tolle-awakening-from-the-thinking-mind-e
 #### Question: Open
 id:: fcaeca59-c22c-415f-93a0-aaccd36eb406
 content::
-Name one claim from the talk that you could test on yourself within a week, and one that no experiment of yours could test. For the first, what would you look for?
-force-feedback:: first
-feedback-instructions:: The learner watched Eckhart Tolle's talk "Awakening from the Thinking Mind" (his own channel). Testable claims in it include: irritation comes from mentally arguing with what is; people believe every thought and make themselves unhappy with their thoughts; noticing the quality of one's thoughts is the start of change; one cannot think and be aware of the breath at the same time; following the breath into the belly and feeling the "inner body" brings presence and is more pleasant than thinking; doing this for two weeks is "more powerful than any workshop". Untestable or metaphysical claims include: a deeper identity (Buddha nature, Christ identity) dominant in every human; a "vast intelligence" that organises the body's atoms and molecules; after death this presence leaves and eventually seeks another body.
-
-Check that the learner's first claim is something they could observe, and that what they would look for is observable (for example how often they catch themselves in a negative thought story, how long irritation lasts, whether thinking stops while they attend to the breath). If their "untestable" claim is in fact testable, say so briefly. Do not judge whether Tolle is right. 60 to 110 words. One reply, then send them on. No generic praise.
+Name one claim from the talk that you could test on yourself within a week.
 optional:: true
+
+#### Question: Open
+id:: c0a5b0cf-e733-4328-b182-21a032f3544b
+content::
+What would you observe or count to test that claim?
+force-feedback:: first
+feedback-instructions:: The learner watched Eckhart Tolle's talk "Awakening from the Thinking Mind" (his own channel), named a claim they could test on themselves within a week (previous question), and now says what they would observe or count. Testable claims in the talk include: irritation comes from mentally arguing with what is; people believe every thought and make themselves unhappy with their thoughts; noticing the quality of one's thoughts is the start of change; one cannot think and be aware of the breath at the same time; following the breath into the belly and feeling the "inner body" brings presence and is more pleasant than thinking; being aware of breathing for two weeks is "more powerful than any workshop".
+
+Check that what they would look for is observable and could come out against Tolle (for example how often they catch themselves in a negative thought story, how long irritation lasts, whether thinking stops while they attend to the breath). If it could not fail, suggest a version that could. Do not judge whether Tolle is right. 50 to 100 words. One reply. No generic praise.
+optional:: true
+
+#### Question: Open
+id:: 8cc8ef16-553b-42ce-9ea3-968ddf11c6ae
+content::
+Name one claim from the talk that no experiment of yours could test.
+force-feedback:: first
+feedback-instructions:: The learner watched Eckhart Tolle's talk "Awakening from the Thinking Mind" and names a claim no experiment of theirs could test. Such claims in the talk include: a deeper identity (Buddha nature, Christ identity) is in every human; a "vast intelligence" organises the body's atoms and molecules; after death this presence leaves and eventually seeks another body. If the learner's claim is in fact testable on themselves, say so briefly and how. Otherwise confirm in one sentence and say why it is out of reach of a personal experiment. Do not judge whether Tolle is right. 30 to 70 words. One reply, then send them on. No generic praise.
