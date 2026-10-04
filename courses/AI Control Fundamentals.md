@@ -2,7 +2,7 @@
 id: '893023b2-6d85-49a8-9f7b-505af138e99e'
 slug: ai-control-fundamentals
 title: "AI Control Fundamentals"
-description: "What AI control is, who works on it, and whether it is worth working on. Five units of about three and a half to four hours of self-study, each closing with a group meeting: what control is and how it differs from alignment; the key ideas and the field; why people work on control; the case against, including how it could make things worse; and real debates, ending with a view of your own."
+description: "What AI control is, who works on it, why people work on it, and the criticisms of it. Five units of about three and a half to four hours of self-study, each closing with a group meeting: what control is and how it differs from alignment; the key ideas and the field; why people work on control; the main criticisms of control; and real debates, ending with a view of your own."
 tags:
   - work-in-progress
 ---
@@ -14,7 +14,7 @@ Target audience (people with one or more of these):
 - wants an overview of the field, whether or not they later go into technical control work
 
 Value prop:
-- The 80/20 of AI control in five units: what control is and who works on it, whether anyone should work on it (its theory of change and the arguments for and against, including the live 2026 debate after the Hugging Face incident), and your own view
+- The 80/20 of AI control in five units: what control is and who works on it, why people work on it and the criticisms of it (including the live 2026 debate after the Hugging Face incident), and your own view
 - You hear the strongest arguments for and against from the people making them, and leave with a view of your own instead of deferring
 
 
@@ -57,7 +57,7 @@ survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 %%
-Unit 4 goals (The case against):
+Unit 4 goals (Criticisms of control):
 - Sort criticisms by what they dispute (does not work / not worth it / makes things worse), with the strongest reply; and do the same for one argument for control
 - Trace how a control measure could backfire, the premise it rests on, and a fix (dropping the measure is an allowed answer)
 %%
