@@ -144,6 +144,7 @@ content::
 - One review point you rejected, and your reason
 - What is finished, and what is still a labelled gap
 - Your draft write-up
+- Your report card, with at least one entry
 
 # Lens: Your report card
 id:: f5784dd7-cea8-4260-a534-45c9ab95c273
@@ -154,7 +155,7 @@ duration_minutes:: 10
 content::
 \## Log your day
 
-Add an entry for each day you work on your project this unit, including the days you got stuck.
+Add an entry for each day you work on your project this unit, including the days you got stuck. **Fill it in before Meeting 4**, so the meeting starts from what you actually did.
 
 #### Widget
 source:: [[../widgets/lens-projects-report-card-u4]]
