@@ -18,7 +18,7 @@ source:: [[../shared/Session Doc - How today works (AI Risk Fundamentals)]]
 Go around your group, three things:
 
 
-1. **Did you finish the book? What was it like to reach the end? If you didn't finish, what got in the way?** (No judgment, "I didn't finish" is a totally fine answer.)
+1. **Did you finish the book? What was it like to reach the end? If you didn't finish, what got in the way?** (No judgment, "I didn't finish" is a totally fine answer.){>>{"author":"AI","timestamp":1791094715854}@@Clarity: three questions in one item. AI (mild, recurring): the "No judgment" reassurance is the same stock line in every doc.<<}
 
 
 2. **How did your conversation go?** Your action plan asked you to talk to one real person about AI risk. If you already shared last unit, tell us what's happened since. Otherwise, share:
@@ -29,10 +29,10 @@ Go around your group, three things:
 Not yet? Say when it's happening, or what's been in the way.
 
 
-3. If everyone already shared last unit: **Where does finishing the book leave you:** hopeful, alarmed, motivated, numb, something else?
+3. If everyone already shared last unit: **Where does finishing the book leave you:** hopeful, alarmed, motivated, numb, something else?{>>{"author":"AI","timestamp":1791094716527}@@Clarity: hard to parse. Does "if everyone already shared last unit" mean this replaces item 2, or follows it? AI (mild, recurring): the list of feelings ending in "something else?" appears in several icebreakers.<<}
 
 
-Your scribe notes conversation statuses and reactions; carry your own answer to share in the next room.
+Your scribe notes conversation statuses and reactions; carry your own answer to share in the next room.{>>{"author":"AI","timestamp":1791094717189}@@AI (mild, recurring): clipped, report-style phrasing ("notes conversation statuses"). Clarity: "carry your own answer to share in the next room" is unclear, since sharing happens back in the main room.<<}
 
 
 | Names | Conversations + Book reactions |
@@ -54,12 +54,12 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Then, as a group, discuss this question and **write your shared response** in the table:
+Then, as a group, discuss this question and **write your shared response** in the table:{>>{"author":"AI","timestamp":1791094717802}@@AI (mild, recurring): template boilerplate. It also opens with "Then" straight after "Names first, then straight in."<<}
 
 
 > **Would you sign it?**
-> The book ends with a concrete ask: a worldwide halt on frontier AI development, enforced by GPU monitoring and an international treaty. The authors argue the cost would be "not even 1% as costly as WWII".
-> **Go around, gut reaction to the proposal:** realistic, necessary, both, neither? Then, as a group, **find the weakest link in the plan** (nations won't sign? enforcement fails? we'd need a warning shot first?) **and stress-test it**.
+> The book ends with a concrete ask: a worldwide halt on frontier AI development, enforced by GPU monitoring and an international treaty. The authors argue the cost would be "not even 1% as costly as WWII".{>>{"author":"AI","timestamp":1791094718564}@@Content: this isn't the book's line. Chapter 13 argues that saying countries could never do this amounts to saying they "could not possibly care even 1% as much as they cared to fight World War II" (see the WWII Analogy lens). That is about willingness, not cost. The "1% as costly" wording appears only in the book-club design notes.<<}
+> **Go around, gut reaction to the proposal:** realistic, necessary, both, neither? Then, as a group, **find the weakest link in the plan** (nations won't sign? enforcement fails? we'd need a warning shot first?) **and stress-test it**.{>>{"author":"AI","timestamp":1791094719426}@@Clarity: this block packs four asks into one paragraph (gut reaction, weakest link, stress-test, and the alternative below). AI (mild): the bracketed run of question fragments, and "stress-test it".<<}
 > **And if your group rejects the halt, what do you endorse instead?** Anything can be a valid answer (even keep going), but you have to defend it.
 
 
