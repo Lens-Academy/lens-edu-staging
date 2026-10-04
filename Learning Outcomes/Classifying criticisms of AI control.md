@@ -51,7 +51,7 @@ source:: [[../Lenses/AICF - Slop, not scheming]]
 notes:: Wentworth's "wrong threat model" criticism (works but not worth it), Buck Shlegeris's reply, and Lucius Bushnaq's acceleration point (makes things worse) with Buck's answer.
 ## Lens:
 source:: [[../Lenses/AICF - Would a profit-only lab build it]]
-notes:: The neglectedness criticism (Yonatan Cale) and its replies (Marius Hobbhahn, Alex Mallen).
+notes:: The acceleration and neglectedness criticisms (Oliver Habryka, Yonatan Cale) and replies (Marius Hobbhahn, Alex Mallen, Caspar Oesterheld).
 ## Lens:
 source:: [[../Lenses/AICF - Does control breed better schemers]]
 notes:: "Does not work" criticisms: Jozdien on capability evaluations and selection pressure, Habryka's list with Greenblatt's replies.
@@ -60,7 +60,7 @@ source:: [[../Lenses/AICF - Do control protocols hold up]]
 notes:: Empirical "does not work" evidence: adaptive attacks on monitors and attack selection lower measured safety (Terekhov et al., Ge-Wang et al.), with the authors' own fix. Closest reading for Test Criticism B.
 ## Lens:
 source:: [[../Lenses/AICF - Safety-washing and false confidence]]
-notes:: The false-confidence case of the "makes things worse" kind.
+notes:: The false-confidence case of the "makes things worse" kind, and power concentration: an excerpt of Davidson, Finnveden and Hadshar on AI-enabled coups, mainly about loyal AI but with control among its mitigations. Closest reading for Test Criticism A.
 ## Lens:
 source:: [[../Lenses/AICF - What about superintelligence]]
 notes:: A two-sided criticism (MIRI: does not work for superintelligence, and not worth the effort), with Redwood and a UK AISI co-authored paper agreeing on the limit.
