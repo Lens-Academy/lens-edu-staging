@@ -28,7 +28,11 @@ notes:: Buck Shlegeris on 80,000 Hours: why control matters in a world that inve
 
 ## Lens:
 source:: [[../Lenses/AICF - Using AI while it can still be controlled]]
-notes:: The window route, from the case for control, with Emmett Shear's objection as quoted by Richard Ngo, Ngo's reply and aysja's reply.
+notes:: The window route, from the case for control, with the authors' own limits on it.
+
+## Lens:
+source:: [[../Lenses/AICF - Should we invest in control]]
+notes:: The two claims the case for working on control rests on, then Emmett Shear's objection as quoted by Richard Ngo, Ngo's reply and aysja's reply.
 
 ## Lens:
 source:: [[../Lenses/AICF - Habryka and Greenblatt on what control is for]]
@@ -44,7 +48,7 @@ notes:: Shlegeris doubts that a catch would make developers slow down, with repl
 
 ## Lens:
 source:: [[../Lenses/AICF - Plans A to D for misalignment risk]]
-notes:: Plans by level of political will.
+notes:: Plans by level of political will, and which routes still fit when will is lowest.
 
 ## Lens:
 source:: [[../Lenses/AICF - Ten people on the inside]]
