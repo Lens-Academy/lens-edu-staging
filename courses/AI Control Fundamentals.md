@@ -58,7 +58,7 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 %%
 Unit 4 goals (Criticisms of control):
-- Sort criticisms by what they dispute (does not work / not worth it / makes things worse), with the strongest reply; and do the same for one argument for control
+- Sort criticisms by what they dispute (does not work / not worth it / makes things worse), with the strongest reply, and do the same for one argument for control
 - Trace how a control measure could backfire, the premise it rests on, and a fix (dropping the measure is an allowed answer)
 %%
 
@@ -69,7 +69,7 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 %%
 Unit 5 goals (Debates, and your own view):
 - Find the crux in a real debate and what evidence would move each side
-- State and defend a calibrated view of your own, and what would change it; compare it with the Unit 1 gut view
+- State and defend a calibrated view of your own, and what would change it, and compare it with the Unit 1 gut view
 %%
 
 # Meeting: Unit 5
