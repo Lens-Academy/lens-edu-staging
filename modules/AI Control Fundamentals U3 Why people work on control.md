@@ -5,7 +5,7 @@ title: "Unit 3: Why people work on control"
 tags:
   - work-in-progress
 ---
-%% Unit 3 of AI Control Fundamentals: control's theory of change. Time (reading+tutor): welcome 3+3, low-investment world (80k) 6+6, window 15+16, Habryka/Greenblatt 9+12, catching 8+7, would a catch 14+12, Plans A-D (shared XLab) 10+10, ten people 9+10, will companies 6+7, safety case 5+6, practice 3+15 = 192, plus about 8 for the LO test, about 200 minutes. Catching (2) is optional. %%
+%% Unit 3 of AI Control Fundamentals: control's theory of change. Time (reading+tutor): welcome 3+3, low-investment world (80k) 6+6, window 15+16, Habryka/Greenblatt 9+12, catching 8+7, would a catch 14+12, Plans A-D 10+8, ten people 9+10, will companies 6+7, safety case 5+6, practice 3+15 = 190, plus about 8 for the LO test, about 198 minutes. Catching (2) is optional. %%
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Theory of change for AI control]]
@@ -52,7 +52,7 @@ source:: [[../Lenses/AICF - Catching AIs red-handed]]
 source:: [[../Lenses/AICF - Would a catch change anything]]
 
 # Lens:
-source:: [[../Lenses/XLab Control - plans-a-b-c-and-d-for-misalignment-risk]]
+source:: [[../Lenses/AICF - Plans A to D for misalignment risk]]
 
 # Lens:
 source:: [[../Lenses/AICF - Ten people on the inside]]
@@ -93,7 +93,7 @@ Which premise in your routes do you trust least? Say why. Then name one thing so
 
 Finally, look back at the guess you wrote at the start of this unit. Which route was it, and which routes have you added since?
 placeholder:: A few sentences.
-feedback-instructions:: The learner is practising for the Unit 3 test on control's theory of change. A good answer names a premise one of their routes actually needs (for example: companies give permission and fix what the evaluations find, the red team can find attacks as good as a much stronger model would, results showing failures change what companies or governments do, a regulator would require a control safety case, or the window before uncontrollable AI lasts long enough to use), gives a reason it is doubtful, and names an observation someone could actually make that bears on it and says which way it would move confidence. "More research" or "time will tell" is not an observation. Reply in at most five sentences. Say whether the premise is one their routes need, whether the reason holds, and whether the observation is something that could be seen, and fix the weakest of the three. Do not tell the learner which premise is the right one. No generic praise. At most two turns. If the learner compared their first guess with the unit's routes, acknowledge it in one sentence without judging the guess. Close by telling them the test asks for the same three things on a different project, and that at least one of their test routes should work through something other than stopping or flagging a particular attack.
+feedback-instructions:: The learner is practising for the Unit 3 test on control's theory of change. A good answer names a premise one of their routes actually needs (for example: companies give permission and fix what the evaluations find, the red team can find attacks as good as a much stronger model would, results showing failures change what companies or governments do, a regulator would require a control safety case, or the window before uncontrollable AI lasts long enough to use), gives a reason it is doubtful, and names an observation someone could actually make that bears on it and says which way it would move confidence. "More research" or "time will tell" is not an observation. Reply in at most five sentences. Say whether the premise is one their routes need, whether the reason holds, and whether the observation is something that could be seen, and fix the weakest of the three. Do not tell the learner which premise is the right one. No generic praise. At most two turns. If the learner compared their first guess with the unit's routes, acknowledge it in one sentence without judging the guess. Close by telling them the test asks for the same three things on a different project, and that at least one of their test routes should work through something other than the monitor blocking or flagging an attack, or responses to a flagged attack.
 
 # Lens:
 optional:: true
