@@ -19,9 +19,34 @@ content:: Tell us how this unit went. We read your answers and use them to impro
 #### Question: Rating
 id:: 955d4097-7343-4c96-b933-dd3dda7e5840
 content:: How would you rate this unit's content?
-scale:: 5
-low-label:: Poor
-high-label:: Excellent
+scale:: 10
+labels::
+- Extremely poor
+- Very poor
+- Poor
+- Below average
+- Neutral
+- Above average
+- Good
+- Very good
+- Excellent
+- Outstanding
+
+#### Question: Rating
+id:: 8042cd74-3b2c-4fb3-a911-ba44a69302ba
+content:: How useful was the AI Tutor for this unit?
+scale:: 10
+labels::
+- Not useful at all
+- Very unhelpful
+- Unhelpful
+- Slightly unhelpful
+- Neutral
+- Slightly useful
+- Useful
+- Very useful
+- Extremely useful
+- Essential
 
 #### Question: Open
 id:: 5c8b43df-79ac-4c15-91bd-9c8a8cd2c394
@@ -47,10 +72,19 @@ content:: You have finished AI Control 1. Looking back over all five units, tell
 
 #### Question: Rating
 id:: 052367b0-602a-4bb4-bc0e-3054949d7b1b
-content:: How would you rate AI Control 1 as a whole?
-scale:: 5
-low-label:: Poor
-high-label:: Excellent
+content:: How would you rate the AI Control 1 course overall?
+scale:: 10
+labels::
+- Very poor
+- Poor
+- Somewhat poor
+- Slightly poor
+- Neutral
+- Slightly good
+- Somewhat good
+- Good
+- Very good
+- Excellent
 
 #### Question: Open
 id:: b4f9b504-d180-4dea-af3e-ca2e4e6a39b4

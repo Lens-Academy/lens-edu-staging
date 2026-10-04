@@ -19,9 +19,34 @@ content:: Tell us how this unit went. We read your answers and use them to impro
 #### Question: Rating
 id:: a0e3c7b5-d609-48c5-a359-542fc6ea5390
 content:: How would you rate this unit's content?
-scale:: 5
-low-label:: Poor
-high-label:: Excellent
+scale:: 10
+labels::
+- Extremely poor
+- Very poor
+- Poor
+- Below average
+- Neutral
+- Above average
+- Good
+- Very good
+- Excellent
+- Outstanding
+
+#### Question: Rating
+id:: 951c80d9-244e-456e-a4a0-f68f7eafd951
+content:: How useful was the AI Tutor for this unit?
+scale:: 10
+labels::
+- Not useful at all
+- Very unhelpful
+- Unhelpful
+- Slightly unhelpful
+- Neutral
+- Slightly useful
+- Useful
+- Very useful
+- Extremely useful
+- Essential
 
 #### Question: Open
 id:: b48c2377-df30-4d0e-8059-d76bbcd31655
