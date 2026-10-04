@@ -17,7 +17,7 @@ Robert Miles explains the idea behind AI control and walks through the experimen
 
 #### Video
 source:: [[../video_transcripts/robert-miles-ai-safety-using-dangerous-ai-but-safely]]
-to:: 4:41
+to:: 4:40
 
 #### Question: Open
 id:: 1c31fd9a-c512-428b-bf7e-680a0fb21983
@@ -31,16 +31,16 @@ content::
 \## Part 2: the experiment
 
 #### Video
-from:: 4:41
-to:: 5:13
+from:: 4:40
+to:: 5:12
 
 #### Text
 content::
 We skip about three minutes here, where Miles reads out some of the odd example problems from the programming dataset. The video picks up when he explains what counts as a catastrophic action.
 
 #### Video
-from:: 8:09
-to:: 12:58
+from:: 8:33
+to:: 13:31
 
 #### Question: Open
 id:: 5b1b69f7-964e-4d3f-bcd7-8c2b7287dae9
@@ -55,8 +55,8 @@ content::
 \## Part 3: the first protocols
 
 #### Video
-from:: 12:58
-to:: 17:34
+from:: 13:31
+to:: 17:40
 
 #### Text
 content::
@@ -77,8 +77,8 @@ content::
 \## Part 4: using the trusted model as a monitor
 
 #### Video
-from:: 17:34
-to:: 21:43
+from:: 17:40
+to:: 21:07
 
 #### Question: Open
 id:: 4a8ed67f-05ba-4bd8-9e69-8c0e4dd88a8f
@@ -92,8 +92,8 @@ content::
 \## Part 5: using the untrusted model as a monitor
 
 #### Video
-from:: 21:43
-to:: 28:03
+from:: 21:07
+to:: 27:38
 
 #### Question: Open
 id:: 7690d1ff-0d67-438a-aced-d7605a9e6b51
@@ -124,8 +124,8 @@ content::
 \## Part 6: where this leaves us
 
 #### Video
-from:: 28:03
-to:: 29:56
+from:: 27:38
+to:: 29:39
 
 #### Question: Open
 id:: 01221594-0cd4-48e7-9159-e0864105e7a0
