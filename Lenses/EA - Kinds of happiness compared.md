@@ -38,7 +38,7 @@ A. "Gluttons smacking greasy lips are happy, but not eudaimones."
 
 B. "In most ways my life is close to my ideal."
 
-C. "Men are disturbed not by the things which happen, but by the opinions about the things." (Epictetus)
+C. "Men are disturbed not by the things which happen, but by the opinions about the things."
 force-feedback:: first
 feedback-instructions:: Practice before the graded sorting test. The learner sorts three quotes into kinds of happiness and says what in the wording shows it. The quotes were shown without authors, as in the test. Name the source of each in your reply.
 
