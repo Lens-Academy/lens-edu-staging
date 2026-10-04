@@ -2,18 +2,18 @@
 id: '9ce50ca0-cfa8-4095-9d9d-62af136bff5c'
 title: "Low-stakes control and research sabotage"
 tldr: "If AIs do our safety research, they could quietly make it fail: a bug here, a withheld idea there. Each act looks like an honest mistake, so catching one proves little. Vivek Hebbar explains why this is a low-stakes threat and what defenders can do instead of catching the AI in the act."
-summary_for_tutor: "Third teaching lens of Unit 2 of AI Control Fundamentals. The learner watches the first 16 minutes of Vivek Hebbar's ControlConf talk 'Low-stakes Control' (FAR.AI). Spine of the excerpt, in order. (1) Research sabotage as making promising research directions look unpromising (subtle bugs, withheld arguments) and sandbagging on ideas. It is probably easier to make us overlook a good technique than to convince us a bad one is good. (2) The two-axis diagram (how many actions a catastrophe takes, how incriminating each is under audit), with the top-right corner trivially solved by random auditing, the bottom-left probably hopeless, and the tractable diagonal. Low-stakes means many actions and each only weak evidence, plausibly a benign mistake. (3) Research sabotage could be low-stakes or high-stakes, and might be in the hopeless corner. (4) Online training matters more in low-stakes because training works better with more samples. (5) Three uses of control metrics: output filtering, incrimination, online training. (6) Incrimination needs a guess of how suspicious a benign model would look, which is hard, or incriminating patterns across domains. (7) Online training on a proxy does not need that baseline, but the proxy may be poor and training teaches the model to exploit it. The rest of the talk (evaluation methodology) is optional. Two ungraded questions follow."
-reading_minutes: 18
-tutor_minutes: 10
+summary_for_tutor: "Third teaching lens of Unit 2 of AI Control Fundamentals. The learner watches the first 22.5 minutes of Vivek Hebbar's ControlConf 2025 talk 'Low-stakes Control' (FAR.AI). Spine of the excerpt, in order. (1) Research sabotage as making promising research directions look unpromising (subtle bugs, withheld arguments) and sandbagging on ideas. It is probably easier to make us overlook a good technique than to convince us a bad one is good. (2) The two-axis diagram (how many actions a catastrophe takes, how incriminating each is under audit), with the top-right corner trivially solved by random auditing, the bottom-left probably hopeless, and the tractable diagonal. Low-stakes means many actions and each only weak evidence, plausibly a benign mistake. (3) Research sabotage could be low-stakes or high-stakes, and might be in the hopeless corner. (4) Online training matters more in low-stakes because training works better with more samples. (5) Three uses of control metrics: output filtering, incrimination, online training. (6) Incrimination needs a guess of how suspicious a benign model would look, which is hard, or incriminating patterns across domains. (7) Online training on a proxy does not need that baseline, but the proxy may be poor and training teaches the model to exploit it. (8) A speculative overall strategy: for buggy research code, trusted and untrusted monitoring plus auditing, with a choice between training on caught bugs, looking for patterns, or counting mistakes, and having the model write the same experiment several times to check that the results agree. For sandbagging on ideas, short-horizon online training where a trusted model, an untrusted model or a human rates the ideas, and debate-style arguments for and against each idea. His general point: online training on a poor reward signal improves the worst case but makes the benign case worse. The rest of the talk (evaluation methodology) is optional. Two scored questions follow."
+reading_minutes: 24
+tutor_minutes: 11
 ---
 #### Text
 content::
-Vivek Hebbar works at Redwood Research ([Redwood Research blog](https://blog.redwoodresearch.org/p/how-can-we-solve-diffuse-threats)). In this talk at ControlConf, the AI control conference run by FAR.AI and Redwood ([FAR.AI](https://far.ai/news/controlconf-2026)), he takes up one worry about using AI to do safety research: that the AI quietly makes the research fail. Watch the first 16 minutes. The rest of the talk, on how to test low-stakes defences, is optional. At the start of this unit you predicted whether one bad action or a thousand would be harder to defend against. Compare your prediction with what Hebbar says.
+Vivek Hebbar works at Redwood Research ([Redwood Research blog](https://blog.redwoodresearch.org/p/how-can-we-solve-diffuse-threats)). In this talk at ControlConf 2025, an AI control conference ([YouTube](https://www.youtube.com/watch?v=DP3wTPDEjLQ)), he takes up one worry about using AI to do safety research: that the AI quietly makes the research fail, and what defenders could do about it. The rest of the talk, on how to test these defences, is optional.
 
 #### Video
 source:: [[../video_transcripts/far-ai-vivek-hebbar-low-stakes-control-controlconf]]
 from:: 0:00
-to:: 16:28
+to:: 22:36
 
 #### Question: Open
 id:: 0ec07687-8a63-4cb0-957c-74a33e2faf36
@@ -33,7 +33,7 @@ feedback-instructions:: Key points from the talk. Incrimination means becoming c
 collapse:: closed
 
 #### Video
-from:: 16:28
+from:: 22:36
 optional:: true
 
 #### End Callout
