@@ -1,5 +1,5 @@
 ---
-suite-version: 2
+suite-version: 3
 tags:
   - validator-ignore
 ---
