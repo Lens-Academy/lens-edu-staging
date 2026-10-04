@@ -1,7 +1,7 @@
 ---
 title: "Comment on AI Control May Increase Existential Risk"
 author:
-  - {--{"author":"James agent ready-34's AI","timestamp":1791119979138}@@"ryan greenblatt"--}{++{"author":"James agent ready-34's AI","timestamp":1791119979138}@@"Ryan Greenblatt"++}
+  - "Ryan Greenblatt"
 source_url: "https://www.greaterwrong.com/posts/rZcyemEpBHgb2hqLP/ai-control-may-increase-existential-risk/comment/jChY95BeDeptDpnZK"
 published: 2025-03-11
 created: 2026-10-04
