@@ -8,3 +8,7 @@ reading_minutes: 6
 
 #### Article
 source:: [[../articles/pauliina-stop-applying-and-get-to-work]]
+
+#### Text
+content::
+If you do decide to apply for fellowships, Boyd Kane's [How to apply to AI safety fellowships (and beyond)](https://www.lesswrong.com/posts/PiP4JqQFKhoqHGG2n/how-to-apply-to-ai-safety-fellowships-and-beyond) gives practical advice from someone who got into MATS that way.
