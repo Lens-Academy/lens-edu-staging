@@ -59,7 +59,7 @@ Last, a modern secular report. Jeffery Martin interviewed people who say they li
 tone:: amber
 #### Text
 content::
-The paper reports on 50 interviewees who volunteered and described themselves as having PNSE. All were white and 78% were male, as the paper itself states. Almost everything is self-report. The paper was published in a small transpersonal psychology journal, and Martin also runs paid courses that aim to bring people into this state ([Finders Course](https://www.finderscourse.com/)). Module 3 covers how to weigh evidence like this. Here, read it only for what is claimed.
+This version of the paper reports on 50 interviewees who volunteered and described themselves as having PNSE. All were white and 78% were male, as the paper itself states. Almost everything is self-report. A later version, published in 2020 in the journal [*Consciousness: Ideas and Research for the Twenty-First Century*](https://digitalcommons.ciis.edu/conscjournal/vol8/iss8/1/), reports 319 participants. Martin also runs a course that aims to bring people into this state ([Finders Course](https://www.finderscourse.com/)). Module 3 covers how to weigh evidence like this. Here, read it only for what is claimed.
 #### End Callout
 
 #### Article
