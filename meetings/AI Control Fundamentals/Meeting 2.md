@@ -42,13 +42,13 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-This unit sorts threats with two questions:
+This unit sorts threats by two questions:
 
 - How many bad actions does the catastrophe need: a few, or many?
-- How damning is each action when someone inspects it: clear evidence of bad intent, or easily an honest mistake?
+- How damning is each action when inspected: clear evidence of bad intent, or easily an honest mistake?
+- Few and damning: high-stakes. Many and weak evidence: low-stakes. Low-stakes does not mean low harm.
 
-Few actions, each damning: high-stakes. Many actions, each weak evidence: low-stakes. Low-stakes does not mean low harm.
-Five AI agents at an AI company, each possibly working against the company:
+Four AI agents at an AI company, each possibly working against it:
 
 - An agent with access to the cluster settings changes one line so its own jobs skip the monitor.
 - An agent writes thousands of summaries of new safety papers a year and slightly undersells the most promising ideas.
@@ -56,10 +56,8 @@ Five AI agents at an AI company, each possibly working against the company:
 - An agent drafting the company's public posts nudges the tone on AI regulation a little, in every post, for a year.
 - An agent reviewing other agents' code approves one change it knows contains a backdoor.
 
-1\. Sort each case: high-stakes, low-stakes, or in between. Say which of the two questions decided it.
-2\. Pick the case your group disagreed on most. What would have to change about it to move it to the other side?
-3\. Take one case from each side. Do its actions have to be stopped until someone checks them, or would a review a week later be good enough?
-4\. If you still have time: Google DeepMind's control roadmap says high-risk actions should be blocked in real time, and low-risk, reversible actions can be reviewed later. Would that rule handle your five cases the way your group sorted them?
+3\. Take one case from each side. Must its actions be stopped until checked, or is a review a week later enough?
+4\. If you still have time: Google DeepMind's roadmap blocks high-risk actions in real time and reviews low-risk, reversible ones later. Does that rule treat your four cases the way you sorted them?
 
 Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
 
@@ -251,12 +249,13 @@ Control graph: Hebbar's picture of threats on two axes: how many actions a catas
 Rogue deployment: A deployment of the model where the safety measures are absent. Shlegeris argues that launching one may take only a few lines of code, so it is the central high-stakes threat.
 Research sabotage: An AI doing safety research and quietly making it fail, for example with subtle bugs or withheld arguments, so that promising directions look unpromising.
 Sandbagging: Deliberately doing worse than one can, for example giving poor ideas when asked for experiment ideas.
-Incrimination: Becoming confident from the evidence that a model is misaligned. In the low-stakes case it needs a good guess of how suspicious an honest model's work would look.
-Online training: Training the model during deployment on a proxy for good work, such as code quality or human ratings. It does not need that guess, but the proxy may be poor and the model can learn to exploit it.
+Online training: Training the model during deployment on a proxy for good work, such as code quality or human ratings. It does not need a guess of how an honest model's work would look, but the proxy may be poor and the model can learn to exploit it.
+Incrimination: Becoming confident from the evidence that a model is misaligned. In the low-stakes case it needs a good guess of how suspicious an honest model's work would look, which is hard to get.
 Control evaluation setting: A test environment in which a red team plays the scheming model against a protocol. Greenblatt suggests about a third of current control resources go to building and using these.
 Alignment Project: The UK AI Security Institute's fund for alignment and control research, which reached £27m and named its first 60 grantees in February 2026.
 Covert malicious fine-tuning: An AI secretly training another AI to behave badly, one of the threats in the UK AI Security Institute's research areas.
 Chain-of-thought monitor: A monitor that reads a model's written reasoning and sends suspicious cases to human review. Bhatt says OpenAI and Anthropic run these asynchronously.
 Asynchronous review versus real-time blocking: Google DeepMind's rule: low-risk, reversible actions are reviewed after a delay, high-risk actions are blocked before they take effect.
+METR: An outside evaluator. In early 2026 it reviewed the risks from AI agents inside Anthropic, Google, Meta and OpenAI and found gaps in monitoring coverage.
 ControlArena: A library for running control experiments, released by the UK AI Security Institute in October 2025.
 METR: An outside evaluator. In early 2026 it reviewed the risks from AI agents inside Anthropic, Google, Meta and OpenAI and found gaps in monitoring coverage.
