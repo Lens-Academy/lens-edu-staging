@@ -18,7 +18,7 @@ Value prop:
 - You hear the strongest arguments for and against from the people making them, and leave with a view of your own instead of deferring
 
 Agreed with Elias, 2026-10-04 (after the Elias and Luc call that day and the #6-course-design thread "Is Teaching Control Net Negative?"):
-- An 80/20 intro, built mostly from existing lenses. The XLab-based AI Control 1, 2 and 3 stay as they are, as deeper self-study.
+- An 80/20 intro, built mostly from existing lenses.
 - Three questions: A. what control is and who works on it (Units 1 and 2); B. should anyone work on it (Units 3 and 4); C. your own view (Unit 5).
 - Balanced. A short opening note in the overview says control might be net negative, that the course therefore focuses on theory of change and arguments for and against, that we are unsure, and that the course should help learners form their own view. No names or quotes in that note.
 - Learning-outcome tests grade reasoning, never which side the learner lands on.
