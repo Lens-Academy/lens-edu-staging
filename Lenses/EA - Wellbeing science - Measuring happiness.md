@@ -1,0 +1,55 @@
+---
+id: 'f3f365fd-48ed-4823-9bb5-e9d565ccd8e3'
+title: "Measuring happiness"
+tldr: "Wellbeing science asks people how satisfied they are and how often they feel good or bad, then looks for what goes with high scores. Ed Diener, who built the most used scales, says there is no single key."
+summary_for_tutor: "First lens of the wellbeing science library module. The learner reads four sections of Ed Diener's Noba textbook chapter 'Happiness: The Science of Subjective Well-Being' (module 2 already used its introduction and 'Types of Happiness'): causes of subjective well-being (internal and external, with a table), outcomes of high SWB (happy people healthier, more sociable, more productive, and people need not be constantly euphoric), measuring happiness (mostly self-report scales, checked against reports by friends and biological measures), and some ways to be happier (no single prescription, one size does not fit all, a self-examination table). Then three questions: recall, processing, and a question asking what the scales would and would not pick up of the course's target state (deep, stable peace that does not depend on circumstances). The course explores and does not say which school is right."
+reading_minutes: 12
+tutor_minutes: 8
+tags:
+  - wip
+---
+#### Text
+content::
+Wellbeing science measures happiness mostly by asking people. A typical study gives a few numbered scales (how satisfied are you with your life, how often did you feel joyful, sad, angry), then looks for what goes with high scores, what follows from them and what changes them. The psychologist most associated with this approach is Ed Diener, who created the Satisfaction With Life Scale ([Diener, Emmons, Larsen and Griffin 1985](https://eddiener.com/scales/9)) and wrote the textbook chapter below. Module 2 used its first sections, which split happiness into life satisfaction, frequent positive feelings and infrequent negative feelings. Here are its claims about causes, consequences, measurement and what to do.
+
+#### Article
+source:: [[../articles/diener-happiness-the-science-of-subjective-well-being]]
+from:: There are external influences on people’s happiness
+to:: Table 2: Internal and External Causes of Subjective Well-Being
+
+#### Article
+from:: Is the state of happiness truly a good thing?
+to:: because they are free and open for use.
+
+#### Article
+from:: Most people are fairly happy, but many of them also wish they could be a bit more satisfied
+to:: Table 4: Self-Examination
+
+#### Question: Open
+id:: c8be9d90-dbd0-4f69-af24-e5598d6927bb
+content::
+Without looking back, write down what you remember: what Diener says causes happiness, what follows from it, how it is measured, and what he recommends. Two minutes, no need to organise it.
+force-feedback:: first
+feedback-instructions:: The learner just read four sections of Ed Diener's Noba chapter on subjective well-being (SWB) and now writes what they remember without looking back. You are a brief, honest mirror, diagnostic not instructional.
+
+Key points to check against: (1) Causes: both internal (temperament, personality, outlook, the way people think about the world) and external (supportive family and friends, resources to meet one's needs, health, the society one lives in); knowing someone's living conditions is not enough to predict their happiness. (2) Outcomes: happy people tend to be healthier, more sociable, more productive and better citizens, but people need not be constantly euphoric, some sadness and worry is appropriate and helpful, and chronic unhappiness is what is not helpful. (3) Measurement: mostly self-report scales of life satisfaction, positive feelings and negative feelings, checked against reports by family and friends and biological measures. The scales are imperfect (people can lie, fool themselves, or be swayed by mood). (4) Ways to be happier: there is no single prescription, one size does not fit all, recommendations depend on where a person is weak, and prolonged serious unhappiness may need a professional.
+
+Acknowledge what they got right without inflation, name the most important missing point in one sentence, correct any error in one sentence, and say that gaps are normal. 60 to 110 words. No generic praise. One turn, then tell them to move on.
+
+#### Question: Open
+id:: a174a8fb-dba9-4e7d-855d-be0d862053ce
+content::
+How did this land? What seemed convincing, what did you doubt, and what was missing for you?
+force-feedback:: first
+feedback-instructions:: The learner read Diener's account of the causes, outcomes and measurement of subjective well-being and says how it landed. This is a processing step, not a teaching step. Help them say their reaction more precisely, do not resolve it. If they are sceptical (for example of self-report, or of happiness causing health and success, which the chapter partly bases on correlations), treat that as a legitimate stance and ask what evidence would convince them. If they are confused, ask what exactly is unclear. If it resonated, ask what it connected to. If they say the chapter does not address deep or stable peace, say that the next question is about exactly that. 50 to 90 words per reply. At most two replies. No generic praise.
+
+#### Question: Open
+id:: b36a2e6b-f4ef-400b-80f2-97ad344c9904
+content::
+This course is about a particular target: deep, stable peace and happiness that does not depend on outside circumstances. Suppose you filled in Diener's scales (life satisfaction, and how often you felt positive, negative, joyful, afraid and so on) every month for a year. What part of that target would the scores pick up, and what would they miss? Give one concrete example of a person or a month where the scores and the target would come apart.
+force-feedback:: first
+feedback-instructions:: The learner considers how well Diener's subjective well-being scales (life satisfaction, frequency of positive and negative feelings over recent weeks) would capture the course's target state: deep, stable peace and happiness that does not depend on circumstances. There is no single right answer, and the course does not decide whether the target is achievable.
+
+Points a strong answer may notice: the scales would pick up fewer negative feelings and more positive ones, and stability if repeated over time. They would miss how peaceful the positive feelings are (a calm content person and an excited one can score the same), whether the peace depends on circumstances (scores taken in a good year cannot show what happens in a bad one, so you would need scores across hard events), and anything not felt as an emotion word, such as equanimity while pain is present. Life satisfaction is a judgement about one's life, which can be high while feelings are mixed, or low in someone who is at peace but whose life does not match their ideals. Self-report can be biased by mood or by wanting to see oneself as calm.
+
+Reply with the strongest point in their answer, then one point they did not consider, phrased as a question. Accept any well-reasoned example. If they argue the scales capture the target well, ask how the scales would tell apart peace that does not depend on circumstances from a lucky year. 80 to 130 words. At most two replies. No generic praise.
