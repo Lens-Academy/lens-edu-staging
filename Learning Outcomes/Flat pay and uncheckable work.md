@@ -1,6 +1,6 @@
 ---
 id: '766dc756-0e3c-4848-af09-75d884ed6f17'
-learning-outcome: "Given an AI that would be paid a fixed reward instead of a reward for graded quality, judge how that change would affect the quality of work that cannot be checked, weighing the reasons it could improve against the reasons it could get worse, and explain how the change could be measured when that work cannot be graded reliably."
+learning-outcome: "Given an AI that would be paid a fixed reward instead of a reward for graded quality, judge whether the change would make its hard-to-check work better or worse, by weighing what pulls each way (no longer aiming at what graders can see, against less effort or hidden sandbagging) and saying how a lab could settle that question when the work itself cannot be graded reliably."
 topic: "[[../Domains and Topics/11 Strategy/Living with advanced agents]]"
 stage: intermediate
 authors:
