@@ -8,7 +8,7 @@ tutor_minutes: 5
 ---
 #### Text
 content::
-Greenblatt's list was written from inside Redwood. This one comes from a funder: the UK AI Security Institute (AISI), a government body, published it to say which control research its Alignment Project fund wanted to pay for. Read the overview and the short summaries of two threat areas you already know. Notice that it sorts the work partly by threat, where Greenblatt sorted it by kind of work.
+Greenblatt's list was written from inside Redwood. This one comes from a funder: the UK AI Security Institute (AISI), a government body, published it to say which control research its Alignment Project fund wanted to pay for. Notice that it sorts the work partly by threat, where Greenblatt sorted it by kind of work.
 
 #### Article
 source:: [[../articles/stastny-research-areas-in-ai-control-the-alignment-project-by-uk-aisi]]
