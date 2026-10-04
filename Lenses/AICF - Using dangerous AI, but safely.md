@@ -21,10 +21,10 @@ to:: 4:40.3
 
 #### Question: Open
 id:: 1c31fd9a-c512-428b-bf7e-680a0fb21983
-content:: The lab in the video trusts its older, weaker model but not its new, smarter one. Why that way round, and why does the new model's good behaviour so far not settle it?
-assessment-instructions:: Score out of 100. 50: the older model is trusted because it is not capable enough to plausibly be scheming against us, so trust is decided by capability. 50: the new model's good behaviour so far does not settle it, because a model secretly working against us would also behave well whenever it might be watched. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "The older model is trusted because it is not smart enough to plausibly be scheming against us, not because it behaved well. The new model is smart enough that we cannot rule out scheming, and a model that was secretly against us would behave well whenever it might be watched, so its good record does not show that it is safe."
+content:: The lab in the video trusts its older, weaker model but not its new, smarter one. Why that way round?
+assessment-instructions:: Score out of 100. 50: the older model is trusted because it is not smart enough to plausibly be scheming against us. 50: the new model is not trusted because it is smart enough that it might be, and we do not know whether it wants what we want. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "The older model is trusted because it is not smart enough to be scheming, not because of anything it has shown us. The new model is smart enough that it could be secretly working against us, and we have no way yet to know whether it wants what we want, so it is treated as untrusted."
 force-feedback:: first
-feedback-instructions:: The learner just watched the first part of Robert Miles's video on AI control. Key points: the older model is trusted because it is not capable enough to plausibly be scheming against us, not because it behaved well. The new model is smart enough that scheming cannot be ruled out, and a scheming model would behave well whenever it might be watched, so good behaviour so far is not evidence that settles it. In at most four sentences: say what the learner got right, add the most important missing point, and correct any error in one sentence. If they say they do not understand, give one foothold, such as "what would a model that was secretly against you do while you are watching it?". No generic praise. Then send them to the next part.
+feedback-instructions:: The learner just watched the first part of Robert Miles's video on AI control. Key points: the older model is trusted because it is not smart enough to plausibly be scheming against us. The new model is smart enough that it might be, and we do not know whether it wants what we want, so it is untrusted. In at most four sentences: say what the learner got right, add the most important missing point, and correct any error in one sentence. If they say they do not understand, give one foothold, such as "what would a model need to be able to do to secretly work against you?". No generic praise. Then send them to the next part.
 
 #### Text
 content::
@@ -77,8 +77,8 @@ content::
 \## Part 4: using the trusted model as a monitor
 
 #### Video
-from:: 17:40
-to:: 21:07
+from:: 17:41.2
+to:: 21:07.9
 
 #### Question: Open
 id:: 4a8ed67f-05ba-4bd8-9e69-8c0e4dd88a8f
@@ -92,8 +92,8 @@ content::
 \## Part 5: using the untrusted model as a monitor
 
 #### Video
-from:: 21:07
-to:: 27:38
+from:: 21:07.9
+to:: 27:39.1
 
 #### Question: Open
 id:: 7690d1ff-0d67-438a-aced-d7605a9e6b51
@@ -124,8 +124,8 @@ content::
 \## Part 6: where this leaves us
 
 #### Video
-from:: 27:38
-to:: 29:40
+from:: 27:39.1
+to:: 29:39
 
 #### Question: Open
 id:: 01221594-0cd4-48e7-9159-e0864105e7a0
