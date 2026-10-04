@@ -11,7 +11,7 @@ summary_for_tutor: "Robert Miles's video 'Using Dangerous AI, But Safely?' (Nov 
 content::
 We start with something light: a video explainer to get the big picture before the readings. After it, you read the post by the researchers who started the field.
 
-Robert Miles explains the idea behind AI control and walks through the experiment that started the field. The video comes in six parts, with a short exercise after each. We skip about three minutes where he reads out the odd programming problems the experiment used, and the advertisement at the end.
+Robert Miles explains the idea behind AI control and walks through the experiment that started the field. The video comes in six parts, with a short exercise after each.
 
 \## Part 1: the problem
 
@@ -31,6 +31,10 @@ content::
 #### Video
 from:: 4:41
 to:: 5:13
+
+#### Text
+content::
+We skip about three minutes here, where Miles reads out some of the odd example problems from the programming dataset. The video picks up when he explains what counts as a catastrophic action.
 
 #### Video
 from:: 8:09
