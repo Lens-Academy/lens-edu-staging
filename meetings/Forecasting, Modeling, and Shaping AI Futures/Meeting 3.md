@@ -20,7 +20,7 @@ Go around your group. Two things, in this order, and finish the first before any
 1. Did you finish the unit? How was it? It’s absolutely fine if you couldn’t finish. Just share that.{>>{"author":"AI","timestamp":1791094774491}@@AI (mild, recurring): stock reassurance.<<}
 2. Early in the unit you were asked to build a catastrophe with no villain. Nobody plans it, no accident, ordinary systems doing what they were told.{>>{"author":"AI","timestamp":1791094775516}@@AI (mild): a definition built from fragments. Otherwise this item is a good exercise reminder: it says what the exercise was and gives people who skipped it a way in.<<} Read yours out.
     - If you did not write one, build one now. Take two minutes; the group will wait. A fresh one works just as well.{>>{"author":"AI","timestamp":1791094776173}@@AI (mild): reassurance tags ("the group will wait", "works just as well").<<}
-    - Scribe: write one line per person saying where their catastrophe starts. You will need these in the next room.
+    - Scribe: write one line per person saying where their catastrophe starts. You will need these in the next room.{>>{"author":"AI","timestamp":1791094776788}@@Clarity: Room 2 below has no "New group. Names first" line. If Room 2 is a new group, the scribe's table stays behind and each person needs their own line. If it's the same group on purpose, the doc should say so.<<}
 
 
 | Names | Where each person's no-villain catastrophe starts. |
@@ -42,11 +42,11 @@ One or two people share what their group landed on.
 
 
 1. Each of you say in one sentence where your Room 1 catastrophe started.
-2. In your story, is there a point where one person could have stopped it? If yes, what would they have had to give up? Go around, and everyone answers before anyone argues.
-3. Then argue. Two of this unit's readings disagree about this, and the course does not settle it. One says the hard part is inside the system: it gets more capable, and the constraints we put on it do not keep up. The other says the hard part is between systems: every AI does exactly what it was told, and the institutions that served us because they needed us stop needing us.
+2. In your story, is there a point where one person could have stopped it? If yes, what would they have had to give up? Go around, and everyone answers before anyone argues.{>>{"author":"AI","timestamp":1791094777649}@@Clarity: two questions plus a process rule in one item. The "everyone answers before anyone argues" line reads naturally and is worth keeping.<<}
+3. Then argue. Two of this unit's readings disagree about this, and the course does not settle it.{>>{"author":"AI","timestamp":1791094778514}@@Clarity: "about this" has no clear referent. The readings disagree about where the hard part is, not about whether one person could stop it. Naming them would help: "Capabilities Generalize Further" (Soares) and "Losing It Gradually" (Gradual Disempowerment).<<} One says the hard part is inside the system: it gets more capable, and the constraints we put on it do not keep up. The other says the hard part is between systems:{>>{"author":"AI","timestamp":1791094779340}@@AI (mild): mirrored "One says… The other says…" pair with matching colons.<<} every AI does exactly what it was told, and the institutions that served us because they needed us stop needing us.{>>{"author":"AI","timestamp":1791094780007}@@AI (strong): compressed into an aphorism. The plain point is that institutions look after people partly because they need their work, and AI removes that need.<<}
 
 
-Which of those two is your catastrophe? And if you had to work on only one of them, which would you pick and why?
+Which of those two is your catastrophe? And if you had to work on only one of them, which would you pick and why?{>>{"author":"AI","timestamp":1791094780707}@@Clarity: two more unnumbered asks, so the room carries five or six questions against the four-question limit. "Which of those two" also assumes a story fits only one.<<}
 
 
 | Names | Could one person have stopped it, what would it cost them, and which of the two problems is yours. |
@@ -77,8 +77,8 @@ AI systems are watched, restricted, and checked by other systems. They cannot ca
 
 1. Would you take that deal? Yes or no, one sentence each.
 2. What breaks it first? Name the specific thing.
-3. You wrote conditions for when control is the right strategy. Whose conditions in this room are the strictest, and does any real deployment meet them?
-4. Put a number on it: what is the probability that the first AI capable of causing serious harm is contained rather than aligned? Say your number out loud before you defend it.
+3. You wrote conditions for when control is the right strategy.{>>{"author":"AI","timestamp":1791094781375}@@Clarity: needs an exercise reminder. This refers to the "Write the conditions" question at the end of "The Case Against Control" without saying what it asked (capability level, how long containment has to hold, who maintains it, the task), and leaves people who skipped it with nothing to say. It also asks two questions.<<} Whose conditions in this room are the strictest, and does any real deployment meet them?
+4. Put a number on it: what is the probability that the first AI capable of causing serious harm is contained rather than aligned?{>>{"author":"AI","timestamp":1791094782199}@@Content: reads as either-or (it could be both, or neither), and the table header asks something different ("containment comes before alignment"). Which question is meant?<<} Say your number out loud before you defend it.
 
 
 | Names | Would you take the deal, what breaks it first, and your probability that containment comes before alignment. |
@@ -102,12 +102,12 @@ Whole group, no breakout room.
 
 
 1. Closing round, answer out loud if you'd like: at the end of the unit you rewrote your model of the next ten years. Name one specific thing that changed, and the reading that changed it.
-    1. "I am more worried" is not a change. "I moved the point where AI does most AI research from never to about ten years out" is a change.
+    1. "I am more worried" is not a change.{>>{"author":"AI","timestamp":1791094783001}@@AI (mild): "X is not a change. Y is a change." contrast pair. The example itself is useful.<<} "I moved the point where AI does most AI research from never to about ten years out" is a change.
     2. If you did not do that exercise, say one thing you believe now that you did not believe at the start of this course.
-2. Today, send your accountability partner one line: what is most likely to stop you finishing the next unit, and your plan.
+2. Today, send your accountability partner one line{>>{"author":"AI","timestamp":1791094783858}@@Consistency: "partner" here, "buddy" in Meetings 1 and 5 and in the FAQ.<<}: what is most likely to stop you finishing the next unit, and your plan.
 
 
-Use the Lens {--{"author":"AI","timestamp":1791094772981}@@Coach (https://lensacademy.org/coach)--}{++{"author":"AI","timestamp":1791094772981}@@Tutor (https://lensacademy.org/tutor)++} between sessions. One question for the post-meeting survey's feedback box: some of you have said this course is too hard; others have said that is why you are here. Which are you, and what specifically would you change? Be blunt. Your answer reaches the people building this course, and they do change it.
+Use the Lens {--{"author":"AI","timestamp":1791094772981}@@Coach (https://lensacademy.org/coach)--}{++{"author":"AI","timestamp":1791094772981}@@Tutor (https://lensacademy.org/tutor)++} between sessions. One question for the post-meeting survey's feedback box: some of you have said this course is too hard; others have said that is why you are here. Which are you, and what specifically would you change? Be blunt. Your answer reaches the people building this course, and they do change it.{>>{"author":"AI","timestamp":1791094784789}@@AI (strong): an emphatic reassurance ("they do change it") after a two-word command. Meeting 2 has the same move ("We want the honest answer, not the kind one").<<}
 
 
 ---
