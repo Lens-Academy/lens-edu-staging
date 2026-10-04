@@ -10,11 +10,12 @@ tags:
 ---
 #### Text
 content::
-Emotional abundance means not needing anything from your circumstances, because you already have a deep, stable peace and happiness inside. Some traditions say this is reachable. Others say a good life always depends partly on what happens to you. This course looks at both sides.
+This course is for you if you want to become lastingly happier on purpose rather than by reading books at random, if you wonder what the self and experience really are, and if you want to see the evidence before you believe a claim.
 
-It also asks what lies underneath: what the self is, why we want things at all, and how experience is put together.
+You get a map of the main approaches to happiness and to understanding your own mind, compared side by side, experiments to test their claims on yourself, and deep dives into the approaches you choose.
 
-You will meet psychologists, meditation traditions and philosophers. For each one you see what it claims, who says it, what the evidence is, and where it is strong or weak. The course does not pick a winner. You do.
+**Emotional abundance** means not needing anything from your circumstances, because you already have a deep, stable peace and happiness inside. Some traditions say this is reachable. Others say a good life always depends partly on what happens to you. This course looks at both sides. It also asks what lies underneath: what the self is, why we want things at all, and how experience is put together.
+By a **school** we mean any tradition of thought or practice that has its own answer to questions like these: a branch of psychology such as CBT, a meditation tradition such as Zen, or a philosophy such as Stoicism. For each school you see what it claims, who says it, what the evidence is, and where it is strong or weak. The course does not pick a winner. You do.
 
 Where a school says "do this for so long and you will feel that", you get an experiment to test it on yourself. Some take ten minutes, some take a year.
 
