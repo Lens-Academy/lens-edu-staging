@@ -116,7 +116,7 @@ For the monitor:
 - Ryan Greenblatt: the most dangerous moves, like an AI secretly running itself inside the lab or sabotaging research, would not turn into a visible incident anyway. Without control, we might catch far fewer of them.
 - kave: "It seems naïvely evil to knowingly let the world walk into a medium-sized catastrophe."
 
-3\. List what must be true about the world for "more likely" to be right. Circle the one your group is least sure of.
+3\. List what must be true about the world for "more likely" to be right. Mark the one your group is least sure of.
 4\. Decide as a group: keep the monitor as it is, change it so outsiders learn more of what it catches, or drop it. Write down what your choice costs.
 
 
@@ -145,7 +145,7 @@ One or two people share what their group landed on.
 
 1\. One question this unit left open for you.
 2\. Next unit, the last of the course: people who disagree about control argue it out, you practise finding what each disagreement turns on, and you write down your own view. About 4 hours. What is most likely to stop you finishing it?
-3\. What is your plan to prevent that? (Send the plan to your accountability buddy after the meeting.)
+3\. What is your plan to prevent that? (Send the plan to your accountability buddy today.)
 4\. Feedback: what would make the course and this meeting better?
 
 
