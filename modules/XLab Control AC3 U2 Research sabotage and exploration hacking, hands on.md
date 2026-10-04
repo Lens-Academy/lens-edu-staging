@@ -16,6 +16,20 @@ source:: [[../Learning Outcomes/Detecting exploration hacking]]
 # Learning Outcome:
 source:: [[../Learning Outcomes/Auditing research for sabotage]]
 
+# Lens: Welcome to Unit 2
+id:: c62a555c-4e9a-4901-a988-1561bebd1cd5
+tldr:: What you will learn in Unit 2: research sabotage and exploration hacking, hands on.
+summary_for_tutor:: Short opening page of Unit 2 (Research sabotage and exploration hacking, hands on) of AI Control 3. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
+reading_minutes:: 1
+tutor_minutes:: 0
+#### Text
+content::
+\## In this unit you will
+
+- Judge how well frontier models and expert humans spot a research codebase rigged so that a key finding comes out the other way.
+- Work through the exploration hacking paper: why the threat needs a model organism, how to lock a model against reinforcement learning, and which countermeasures work at each level of access.
+- Plan how to audit today's frontier models for exploration hacking.
+
 # Lens:
 source:: [[../Lenses/XLab Control - auditing-sabotage-bench-paper]]
 

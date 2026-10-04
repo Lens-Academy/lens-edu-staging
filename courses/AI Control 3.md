@@ -26,29 +26,39 @@ application-survey:: [[../surveys/Application Form]]
 
 # Module: [[../modules/XLab Control AC3 U1 Stress-testing capability elicitation|Unit 1: Stress-testing capability elicitation]]
 
+# Module: [[../modules/XLab Control AC3 U1 Feedback|Unit 1 feedback]]
+
 # Meeting: Unit 1
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
 # Module: [[../modules/XLab Control AC3 U2 Research sabotage and exploration hacking, hands on|Unit 2: Research sabotage and exploration hacking, hands on]]
 
+# Module: [[../modules/XLab Control AC3 U2 Feedback|Unit 2 feedback]]
+
 # Meeting: Unit 2
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Control AC3 U3 Seekers, not schemers|Unit 3: Seekers, not schemers]]
 
+# Module: [[../modules/XLab Control AC3 U3 Feedback|Unit 3 feedback]]
+
 # Meeting: Unit 3
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Control AC3 U4 Measuring reward seeking, and why make a deal|Unit 4: Measuring reward seeking, and why make a deal]]
 
+# Module: [[../modules/XLab Control AC3 U4 Feedback|Unit 4 feedback]]
+
 # Meeting: Unit 4
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Control AC3 U5 Making deals stick, and what's next|Unit 5: Making deals stick, and what's next]]
+
+# Module: [[../modules/XLab Control AC3 U5 Feedback|Unit 5 and course feedback]]
 
 # Meeting: Unit 5
 survey:: [[../surveys/AC3 Final Impact Survey v2]]
