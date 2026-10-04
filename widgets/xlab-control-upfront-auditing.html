@@ -1,7 +1,7 @@
 <!--lens-widget
 id: 'd1e60031-9c60-4ede-9fc9-1313823f7bad'
 title: The upfront-auditing tradeoff
-summary_for_tutor: "An interactive version of Figure 3 of Greenblatt et al.'s AI control paper. The learner drags the auditing proportion alpha (the share of the 5,000 problems the H budget can audit, 0.1% to 80%) and reads two curves: the blue team's win probability against an optimising red team, and the red team's optimal expected number of backdoor attempts. A second slider, which XLab's own demo does not have, is a Lens addition: it lets the learner move the attack rate p off its optimum and watch RW(p) rise and then fall, which is the non-monotonicity the lens's derivation question asks the learner to explain. The ring on that third chart marks p*. Model: RW(p) = (1-p)^A [1 - (1-0.53p)^B] with A = alpha*5000 audited and B = (1-alpha)*5000 unaudited, 0.53 the GPT-4 correctness rate; p* = ln(1 + 0.53B/A) / (0.53B). At alpha = 2% it reproduces the paper's 15% safety and about 6 expected attempts."
+summary_for_tutor: "An interactive version of Figure 3 of Greenblatt et al.'s AI control paper. The learner drags the auditing proportion alpha (the share of the 5,000 problems the H budget can audit, 0.1% to 80%) and reads two curves: the blue team's win probability against an optimising red team, and the red team's optimal expected number of backdoor attempts. A second slider, which XLab's own demo does not have, is a Lens addition: it starts at the red team's best rate p* (in the middle of its range, 0 to 2p*) and lets the learner move p off it and watch RW(p) rise and then fall. The readouts 'Expected attempts at p' and 'Blue team wins at p' follow the slider, while the blue curve above always assumes the red team plays p*. The rise and fall of RW(p) is the non-monotonicity the lens's derivation question asks the learner to explain. The ring on that third chart marks p*. Model: RW(p) = (1-p)^A [1 - (1-0.53p)^B] with A = alpha*5000 audited and B = (1-alpha)*5000 unaudited, 0.53 the GPT-4 correctness rate; p* = ln(1 + 0.53B/A) / (0.53B). At alpha = 2% it reproduces the paper's 15% safety and about 6 expected attempts."
 height: auto
 tags: []
 -->
@@ -59,7 +59,7 @@ button.is-active{border-color:var(--text);box-shadow:0 0 0 1px var(--text)}
 
 <div class="row">
   <div class="col">
-    <p class="plotlabel">Blue team win probability</p>
+    <p class="plotlabel">Blue team win probability (red team at its best rate)</p>
     <svg id="p1" viewBox="0 0 320 180" role="img" aria-label="Blue team win probability against auditing proportion"></svg>
   </div>
   <div class="col">
@@ -69,17 +69,18 @@ button.is-active{border-color:var(--text);box-shadow:0 0 0 1px var(--text)}
 </div>
 
 <div class="stats">
-  <div><p class="k">Optimal p*</p><p class="v" id="sPstar">-</p></div>
-  <div><p class="k">Expected attempts p*N</p><p class="v" id="sAtt">-</p></div>
-  <div><p class="k">Blue team win</p><p class="v" id="sWin">-</p></div>
+  <div><p class="k">Best attack rate p*</p><p class="v" id="sPstar">-</p></div>
+  <div><p class="k">Expected attempts at p</p><p class="v" id="sAtt">-</p></div>
+  <div><p class="k">Blue team wins at p</p><p class="v" id="sWin">-</p></div>
 </div>
 
 <div class="ctl">
   <label for="prate"><span class="name">Attack rate p (drag off the optimum)</span><span class="val" id="prateV">-</span></label>
   <input type="range" id="prate" min="0" max="1000" step="1" value="500" aria-label="Attack rate">
   <div style="margin-top:6px"><button id="snap" class="is-active">Hold p at its optimum</button></div>
-  <p class="plotlabel" style="margin-top:10px">Red team win probability against p, at this &alpha;</p>
+  <p class="plotlabel" style="margin-top:10px">Red team's chance of winning at each attack rate p (ring: best rate p*)</p>
   <svg id="p3" viewBox="0 0 320 150" role="img" aria-label="Red team win probability against attack rate"></svg>
+  <p class="plotval" id="p3val">-</p>
 </div>
 
 <script>
@@ -140,11 +141,11 @@ function drawP3(){
   svg.textContent = "";
   var x0=34, w=272, y0=10, h=116;
   var pOpt = pStar(alpha);
-  var pMax = Math.max(pOpt*6, 0.002);
+  var pMax = pRange(alpha);
   var vMax = 0;
   var i, vals = [];
   for(i=0;i<=140;i++){ var p = pMax*i/140; var v = redWin(alpha,p); vals.push(v); if(v>vMax) vMax=v; }
-  vMax = Math.max(vMax, 0.05)*1.1;
+  vMax = 1;
   var d = [];
   for(i=0;i<=140;i++){
     var x = x0 + w*i/140, y = y0 + h - vals[i]/vMax*h;
@@ -166,6 +167,8 @@ function drawP3(){
   svg.appendChild(text(x0+w, 144, "p = "+(pMax*100).toFixed(2)+"%", "end"));
   svg.appendChild(text(x0+w/2, 144, "ring marks p*", "middle"));
 }
+
+function pRange(a){ return pStar(a)*2; }
 
 function currentP(){
   if(useOpt || pManual === null) return pStar(alpha);
@@ -202,11 +205,12 @@ function render(){
   drawCurve("p2", function(a){ return pStar(a)*N; }, maxAtt,
     function(v){ return v.toFixed(1); }, function(v){ return v.toFixed(0); });
   document.getElementById("sPstar").textContent = (po*100).toFixed(3) + "%";
-  document.getElementById("sAtt").textContent = (po*N).toFixed(1);
-  document.getElementById("sWin").textContent = (blueWin(alpha, po)*100).toFixed(1) + "%";
   var p = currentP();
+  document.getElementById("sAtt").textContent = (p*N).toFixed(1);
+  document.getElementById("sWin").textContent = (blueWin(alpha, p)*100).toFixed(1) + "%";
+  document.getElementById("p3val").textContent = "At p = " + (p*100).toFixed(3) + "%: red team wins " + (redWin(alpha,p)*100).toFixed(1) + "%, blue team wins " + (blueWin(alpha,p)*100).toFixed(1) + "%" + (useOpt ? " (best rate for the red team)" : "");
   document.getElementById("prateV").textContent = (p*100).toFixed(3) + "%";
-  var pMax = Math.max(po*6, 0.002);
+  var pMax = pRange(alpha);
   document.getElementById("prate").value = String(Math.round(Math.min(1, p/pMax)*1000));
   var snap = document.getElementById("snap");
   snap.className = useOpt ? "is-active" : "";
@@ -218,10 +222,11 @@ function render(){
 document.getElementById("alpha").addEventListener("input", function(e){
   alpha = Number(e.target.value)/1000;
   if(useOpt) pManual = null;
+  else if(pManual !== null) pManual = Math.min(pManual, pRange(alpha));
   render();
 });
 document.getElementById("prate").addEventListener("input", function(e){
-  var pMax = Math.max(pStar(alpha)*6, 0.002);
+  var pMax = pRange(alpha);
   pManual = Number(e.target.value)/1000 * pMax;
   useOpt = false;
   render();

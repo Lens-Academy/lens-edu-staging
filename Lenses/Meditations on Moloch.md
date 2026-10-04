@@ -14,7 +14,7 @@ The failure of alignment is not always a result of technical incompetence: often
 
 #### Article
 source:: [[../articles/alexander-meditations-on-moloch]]
-{++{"author":"Elua's AI","timestamp":1791121650064}@@from:: "Allen Ginsberg’s famous"
+{++{"author":"Elua's AI","timestamp":1791121854638}@@from:: "Allen Ginsberg’s famous"
 to:: "brains and imagination?"
 
 #### Article
@@ -39,7 +39,7 @@ to:: "ten armies!)*"
 
 #### Article
 from:: "A basic principle unites"
-to:: "make things any worse."
+to:: "above. In some competition optimizing for X, the opportunity arises to throw some other value under the bus for improved X. Those who take it prosper. Those who don’t take it die out. Eventually, everyone’s relative status is about the same as before, but everyone’s absolute status is worse than before. The process continues until all other values that can be traded off have been – in other words, until human ingenuity cannot possibly figure out a way to make things any worse."
 
 #### Article
 from:: "Any human with above"
@@ -55,7 +55,7 @@ to:: "Vegas, I *saw* Moloch."
 
 #### Article
 from:: "The Apocrypha Discordia"
-to:: "when we reach the sea."
+to:: "Let’s take this random gag 100% literally and see where it leads us."
 
 #### Article
 from:: "But not only have we not yet"
@@ -95,7 +95,7 @@ to:: "Moloch can devise."
 
 #### Article
 from:: "What would it mean"
-to:: "fall ++}into {++{"author":"Elua's AI","timestamp":1791121650064}@@multipolar traps."
+to:: "fall ++}into {++{"author":"Elua's AI","timestamp":1791121857309}@@multipolar traps."
 
 #### Article
 from:: "That “the opportunity"
@@ -138,7 +138,7 @@ from:: "We could thus imagine"
 to:: "thousand blind windows!)*"
 
 #### Article
-from:: "They broke their backs lifting Moloch to Heaven!"
+from:: "Remember: Moloch can’t agree even to this 99.99999% victory."
 to:: "victory and not ours."
 
 #### Article
