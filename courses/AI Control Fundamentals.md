@@ -20,7 +20,6 @@ Value prop:
 Agreed with Elias, 2026-10-04 (after the Elias and Luc call that day and the #6-course-design thread "Is Teaching Control Net Negative?"):
 - An 80/20 intro.
 - Three questions: A. what control is and who works on it (Units 1 and 2); B. should anyone work on it (Units 3 and 4); C. your own view (Unit 5).
-- Balanced. A short opening note in the overview says control might be net negative, that the course therefore focuses on theory of change and arguments for and against, that we are unsure, and that the course should help learners form their own view. No names or quotes in that note.
 - Learning-outcome tests grade reasoning, never which side the learner lands on.
 - Staging only until Elias promotes. Unit 1 due 2026-10-05, Units 2 to 5 due 2026-10-11.
 
