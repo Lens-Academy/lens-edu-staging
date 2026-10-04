@@ -72,7 +72,7 @@ source:: [[../Lenses/Eliezer Yudkowsky – AI Alignment- Why It's Hard, and Wher
 
 # Lens:
 optional:: true
-source:: [[../Lenses/Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AIst outcomes]]
+source:: [[../Lenses/Without fundamental advances (trimmed, Extinction Risk Foundations)]]
 
 # Lens:
 source:: [[../Lenses/alexander-nicholas-decker-in-hell]]
