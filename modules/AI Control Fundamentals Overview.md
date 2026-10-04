@@ -19,7 +19,7 @@ content::
 
 Alignment tries to make an AI model want what we want. AI control asks a different question: if we cannot be sure a model is not secretly working against us, can we still use it and make sure it cannot cause a catastrophe?
 
-:::callout {title="Why this course looks the way it does" tone="yellow"}
+:::callout {title="Why this course looks the way it does" tone="amber"}
 Control work might do more harm than good. There are serious arguments that it could, and serious arguments that it is one of the most useful things to work on right now. We are unsure ourselves. That is why this course spends most of its time on control's theory of change and on the arguments for and against it, and less on how to do control research. The goal is that you finish with your own view, and with the reasons for it.
 :::
 
