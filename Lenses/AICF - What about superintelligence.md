@@ -14,6 +14,7 @@ Control's authors and MIRI agree on one limit. Here is how the authors of the ca
 source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
 from:: The control approach we're imagining won't work for arbitrarily powerful AIs
 to:: We define "transformatively useful AI" to mean AIs that are capable of substantially reducing risk from subsequent AIs.
+
 #### Text
 content::
 A 2025 paper by researchers at the UK AI Security Institute, Apollo Research and Redwood Research ([arXiv](https://arxiv.org/abs/2504.05259)) says the same about control evaluations. Buck Shlegeris, one of the two authors of the case for control, is a co-author, so this is not an independent check on Redwood. The last sentence of its abstract:
