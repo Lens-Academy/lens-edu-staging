@@ -93,13 +93,16 @@ content::
 
 For each: which kind of criticism is it and why, what does it get right, what is the strongest reply, and how much of the criticism is left standing? Compare with what would realistically happen without control, not with a perfect solution.
 feedback-instructions:: Practice for the unit's skill of sorting and answering criticisms of control. Reference points, accept other reasoned answers. Criticism 1: mainly "works but is not worth the effort" (control at careful companies does not address the main risk, careless companies), or "does not work" at the level of the world. Gets right: a misaligned model at a careless company is not stopped by others' control. Replies: careful companies' control still prevents catastrophes from their own models, which may be the most capable, control can become a standard or regulation (it is evaluable), and the same objection applies to any safety measure one company adopts. Left: control needs adoption or regulation to matter beyond the companies that choose it. Criticism 2: "makes things worse". Gets right: published attack strategies end up in training data, and the self-fulfilling misalignment studies in this unit are weak evidence in that direction (the fine-tuning one used control writing, the pretraining one AI writing in general). Replies: a capable model could find most of these attacks itself, defenders need the same knowledge, sensitive details can be held back or filtered from training data, and the evidence is preliminary. Left: a real but probably small cost. For each criticism, check the kind fits the reason, name one strong reply the learner missed, and check they compared with the realistic world without control. Up to three turns, 80 to 150 words each. No generic praise. Do not say who is right.
+
 #### Text
 content::
 Criticisms are not the only arguments that deserve scrutiny. Here is how Google DeepMind's 2025 safety approach, summarised by Rohin Shah, places control as a second line of defence.
+
 #### Article
 source:: [[../articles/shah-google-deepmind-an-approach-to-technical-agi-safety-and-security]]
 from:: Our approach has two lines of defense.
 to:: since it stands to benefit from increasing AI capabilities.
+
 #### Article
 from:: While amplified oversight and robust training could be a sufficient solution in principle
 to:: Other relevant techniques include sandboxing and hardening the environments in which AI systems act.
@@ -110,7 +113,7 @@ force-feedback:: first
 content::
 \## The weakest premise
 
-Criticisms are not the only arguments that deserve scrutiny. For each argument for control below, name the premise you find weakest and say why.
+For each argument for control below, name the premise you find weakest and say why.
 
 **Argument A.** Google DeepMind's case above: alignment work is the first line of defence, and control (treating the model like an untrusted insider, with access control, monitoring, logging and auditing) is a second line that limits the damage if the first one fails. Defence in depth then makes a catastrophe less likely.
 
