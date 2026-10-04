@@ -127,7 +127,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-1\. Next unit: the main criticisms of control, in the critics' own words, each with replies from people who work on control, then practice sorting and answering them. About 3.5 hours. What is most likely to stop you finishing it?
+1\. Next unit: the main criticisms of control, in the critics' own words, each with replies from people who work on control, then practice sorting and answering them. About 3.5 to 4 hours. What is most likely to stop you finishing it?
 2\. What is your plan to prevent that? (Send the plan to your accountability buddy after the meeting.)
 3\. Feedback: what would make the course and this meeting better?
 
@@ -145,7 +145,7 @@ One or two people share what their group landed on.
 Back in the main room, share if you feel like it: one thing you're glad you know now that you didn't know 90 minutes ago.
 Before you leave (your navigator will talk through these):
 
-- Next unit: Criticisms of control. The main criticisms in the critics' own words, each with replies from people who work on control, then practice sorting and answering them. About 3.5 hours.
+- Next unit: Criticisms of control. The main criticisms in the critics' own words, each with replies from people who work on control, then practice sorting and answering them. About 3.5 to 4 hours.
 - Send your plan for the next unit to your accountability buddy today.
 - Found something unclear, wrong, or missing in this unit? Tell us on the Unit 3 feedback page in the course.
 

@@ -23,7 +23,7 @@ First meeting, so start by getting to know each other. Go around:
     - Disagreeing is welcome, and nobody has to win.
     - Say "I'm not sure" when you're not sure.
     - Everyone answers before anyone replies.
-4. Read out the gut view you wrote at the start of this unit, in a sentence or two (no note? answer now): can we use a powerful AI model that might be secretly working against us, and still stop it from causing a catastrophe? Only listen, no debate yet.
+4. Your gut view, in a sentence or two. Read out the note you wrote at the start of this unit, or answer now: is work on AI control (using a powerful AI model that might be secretly working against us, while making sure it cannot cause a catastrophe) net positive, net negative, or too close to call? Only listen, no debate yet.
 
 
 | Names | Who you are + your ground rule + each gut view in a few words |
