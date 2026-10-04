@@ -58,7 +58,7 @@ A bank limits what one trader can do and audits trades, so it stays safe even if
 3. Now the insider is an AI model that might be secretly working against you and behaves well whenever it might be tested. Which items still work?
 4. Jan Kulveit, a critic of control, argues two things:
     - Without control, many attempts by a misaligned AI would still be stopped by other means, after visible damage that pushes the world to act.
-    - With control, the lab catches them quietly and describes them only vaguely, so they rarely lead to serious action.
+    - With control, the AI company catches them quietly and describes them only vaguely, so they rarely lead to serious action.
     Think of a scandal in your organisation's field that changed the rules. Would the rules have changed if the organisation had stopped it quietly?
 
 
