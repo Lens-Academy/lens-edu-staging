@@ -42,8 +42,7 @@ Module 2 goals (The questions):
 %%
 Module 3 goals (Judging claims):
 - Weigh each kind of evidence (trials and meta-analyses, observational studies, first-person reports, independent traditions that agree, testimonials) by what it can and cannot show, including how published research goes wrong (replication crisis, narrow samples, short follow-ups, measuring what is easy to measure)
-- Decide what is worth trying when evidence is thin, by weighing cost, risk and how quickly you would know
-- Design a test of a claim on yourself: baseline, dose, measurement, confounders, a single-case experiment
+- Decide whether a claim is worth testing (cost, risk, how quickly you would know), and if so design a test of it on yourself: baseline, dose, measurement, confounders, a single-case experiment
 %%
 
 %%
@@ -51,6 +50,8 @@ Module 4 goals (Tour of the schools):
 - Place each school on one map by its goal, its view of the self, its main method and the kind of evidence it relies on
 - Choose which school modules from the library to take
 %%
+
+# Module: [[../modules/Emotional Abundance M4 Tour of the schools|Tour of the schools]]
 
 %%
 Module 5 goals (Desire):
