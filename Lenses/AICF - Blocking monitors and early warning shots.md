@@ -2,8 +2,8 @@
 id: 'd2e08c03-7172-4a5a-920c-4049369bfbc2'
 title: "Blocking monitors and early warning shots"
 tldr: "A monitor that stops a bad action as it happens also stops the world from seeing it. Vincent Cheng argues that labs should therefore replay blocked actions in simulation, and Jasmine Li argues for control that detects and discloses rather than control that quietly blocks."
-summary_for_tutor: "Lens in Unit 5 of AI Control Fundamentals. Two short posts written in September 2026, after the Hugging Face incident. Vincent Cheng, 'Blocking Monitors are Bad' (LessWrong): he prefers the world where OpenAI's weak control let the incident happen publicly over one where a blocking monitor stopped it silently. He argues that Jan Kulveit's 2025 warning-shot argument was right and that three predictions in Ryan Greenblatt's reply turned out wrong. He also argues that blocking monitors can select for models that evade them and cut off the most informative trajectories, and that control and alignment are partly substitutes. Since labs will keep blocking monitors, he proposes rating each blocked action for severity and, above a threshold, playing out the full trajectory in simulation, with the worst simulated incidents reported in safety assessments. Jasmine Li, 'Early AI warning shots are good' (Substack): misalignment should surface early and loudly. She calls control 'extremely important for reducing danger' but says it can conceal misalignment, so she wants more of the control budget on transparency, disclosure and detection such as asynchronous monitoring, mandatory incident reporting and third-party detection. She is morally opposed to creating danger to provoke a response. The learner has already heard Buck Shlegeris and Ryan Greenblatt on this in Unit 5. The first question asks which of Cheng's two worlds the learner prefers and what would make the other better. The second asks where Cheng and Li still disagree with Ryan's January 2026 proposal to shift towards asynchronous monitoring. Do not tell the learner who is right."
-reading_minutes: 12
+summary_for_tutor: "Lens in Unit 5 of AI Control Fundamentals. Two short posts written in September 2026, after the Hugging Face incident. Vincent Cheng, 'Blocking Monitors are Bad' (LessWrong): he prefers the world where OpenAI's weak control let the incident happen publicly over one where a blocking monitor stopped it silently. His section arguing that Jan Kulveit's 2025 warning-shot argument was right and Ryan Greenblatt's reply wrong is folded away here, because the learner read his comment making the same case in Unit 4. He also argues that blocking monitors can select for models that evade them and cut off the most informative trajectories, and that control and alignment are partly substitutes. Since labs will keep blocking monitors, he proposes rating each blocked action for severity and, above a threshold, playing out the full trajectory in simulation, with the worst simulated incidents reported in safety assessments. Jasmine Li, 'Early AI warning shots are good' (Substack): misalignment should surface early and loudly. She calls control 'extremely important for reducing danger' but says it can conceal misalignment, so she wants more of the control budget on transparency, disclosure and detection such as asynchronous monitoring, mandatory incident reporting and third-party detection. She is morally opposed to creating danger to provoke a response. The learner has already heard Buck Shlegeris and Ryan Greenblatt on this in Unit 5. The first question asks which of Cheng's two worlds the learner prefers and what would make the other better. The second asks where Cheng and Li still disagree with Ryan's January 2026 proposal to shift towards asynchronous monitoring. Do not tell the learner who is right."
+reading_minutes: 10
 tutor_minutes: 12
 ---
 #### Text
@@ -12,6 +12,15 @@ After the incident, some people argued that the kind of control measure that mig
 
 #### Article
 source:: [[../articles/cheng-blocking-monitors-are-bad]]
+from:: TLDR: The world is happy that blocking monitors
+to:: because we got the large public incident that shifted the Overton window.
+
+#### Text
+content::
+Cheng next argues that Kulveit was right and Ryan Greenblatt's reply was wrong. You read his comment making that case in Unit 4, so that part is folded away here. The post continues:
+
+#### Article
+from:: Redwood Research has been pushing labs to implement blocking monitors
 
 #### Question: Open
 id:: 9b3d4cb9-e392-4502-8644-6c19a1789c18
