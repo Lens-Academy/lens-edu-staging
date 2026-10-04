@@ -102,7 +102,7 @@ Pick a premise from this list, or one from your Room 2 table.
 3\. Name something observable in the next few years that would change your confidence. Would it raise or lower it?
 4\. If you still have time: if this premise fails, which routes are left?
 
-Ending more or less confident are both fine.
+Ending more confident or less confident is fine.
 
 
 Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
