@@ -65,7 +65,7 @@ Habryka:
 - most current safety work watches for failures and trains them away, which hides the evidence
 - within a model generation or two, he expects models to notice they are being tested and pass every safety check while misaligned
 
-A crux is a claim about the world they disagree on: if it turned out true, one of them would have to drop their conclusion, and if false, the other.
+A crux is a claim about the world they disagree on: if true, one of them would drop their conclusion, and if false, the other.
 1\. Go around: what crux did you write in the unit? Skipped it? Propose one from the lines above.
 2\. Test each one: does one of them accept it while the other doubts it? Drop the rest and keep the strongest.
 3\. Name something that could be observed in the next few years that should move Gleave towards Habryka.
@@ -99,8 +99,8 @@ One or two people share what their group landed on.
 
 
 Any verdict is fine, including net negative or too close to call. Take turns. Each person does 1 to 4:
-1\. Fill in: "More work on AI control is net positive / net negative / too close to call. I am [how sure, in words or a percentage] because [the crux I stand on]. I would change my mind if I saw [something observable in the next few years]."
-2\. Someone else picks the consideration from the course below that cuts hardest against that verdict. The speaker answers it.
+1\. Fill in: "More work on AI control is net positive / net negative / too close to call. I am [how sure, in words or a percentage] because [the crux I stand on]. I would change my mind if I saw [something observable]."
+2\. Someone else picks the consideration below that cuts hardest against that verdict. The speaker answers it.
 
 Against "net positive":
 
