@@ -8,7 +8,7 @@ tags:
 %% Unit 3 of AI Control Fundamentals: control's theory of change. Time (reading+tutor): welcome 3+3, low-investment world (80k) 6+6, window 15+16, Habryka/Greenblatt 9+12, catching 8+7, would a catch 14+12, Plans A-D (shared XLab) 10+10, ten people 9+10, will companies 6+7, safety case 5+6, practice 3+15 = 192, plus about 8 for the LO test, about 200 minutes. Catching (2) is optional. %%
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Control's theory of change]]
+source:: [[../Learning Outcomes/Theory of change for AI control]]
 
 # Lens: Welcome to Unit 3
 id:: 64af1a58-6f9e-4a92-bf67-61399abc7f3b
