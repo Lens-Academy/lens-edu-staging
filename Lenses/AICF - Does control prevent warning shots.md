@@ -12,8 +12,8 @@ In Unit 1 you read Jan Kulveit's argument that control may turn useful warning s
 
 #### Video
 source:: [[../video_transcripts/buck-shlegeris-the-redwood-research-podcast]]
-from:: 3:14:23
-to:: 3:20:32
+from:: 194:24.1
+to:: 200:33.6
 
 #### Question: Open
 id:: 80c22210-481e-4301-8302-875a48ee1990
