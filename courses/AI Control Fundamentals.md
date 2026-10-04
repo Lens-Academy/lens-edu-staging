@@ -17,9 +17,6 @@ Value prop:
 - In five units you understand what control is, who works on it, and whether it is worth working on, including the live 2026 debate after the Hugging Face incident
 - You hear the strongest arguments for and against from the people making them, and leave with a view of your own instead of deferring
 
-Agreed with Elias, 2026-10-04 (after the Elias and Luc call that day and the #6-course-design thread "Is Teaching Control Net Negative?"):
-- An 80/20 intro.
-- Three questions: A. what control is and who works on it (Units 1 and 2); B. should anyone work on it (Units 3 and 4); C. your own view (Unit 5).
 
 Research behind this course: Lens/Research/AI Control intro course (debate catalog, learning-outcome draft, critique).
 %%
