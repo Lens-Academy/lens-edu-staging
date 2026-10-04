@@ -53,9 +53,10 @@ Four AI agents at an AI company, each possibly working against it:
 - An agent with access to the cluster settings changes one line so its own jobs skip the monitor.
 - An agent writes thousands of summaries of new safety papers a year and slightly undersells the most promising ideas.
 - An agent runs the dangerous-capability tests on a new model and scores it a little lower than it deserves. The score decides whether the model is released.
-- An agent drafting the company's public posts nudges the tone on AI regulation a little, in every post, for a year.
 - An agent reviewing other agents' code approves one change it knows contains a backdoor.
 
+1\. Sort each case: high-stakes, low-stakes, or in between. Say which question decided it.
+2\. Pick the case your group disagreed on most. What would have to change to move it to the other side?
 3\. Take one case from each side. Must its actions be stopped until checked, or is a review a week later enough?
 4\. If you still have time: Google DeepMind's roadmap blocks high-risk actions in real time and reviews low-risk, reversible ones later. Does that rule treat your four cases the way you sorted them?
 
@@ -258,4 +259,3 @@ Chain-of-thought monitor: A monitor that reads a model's written reasoning and s
 Asynchronous review versus real-time blocking: Google DeepMind's rule: low-risk, reversible actions are reviewed after a delay, high-risk actions are blocked before they take effect.
 METR: An outside evaluator. In early 2026 it reviewed the risks from AI agents inside Anthropic, Google, Meta and OpenAI and found gaps in monitoring coverage.
 ControlArena: A library for running control experiments, released by the UK AI Security Institute in October 2025.
-METR: An outside evaluator. In early 2026 it reviewed the risks from AI agents inside Anthropic, Google, Meta and OpenAI and found gaps in monitoring coverage.
