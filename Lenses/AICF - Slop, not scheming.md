@@ -37,6 +37,7 @@ source:: [[../articles/buck-comment-on-the-case-against-ai-control-research]]
 
 #### Question: Open
 id:: d9b30556-078c-463a-979d-bc8123ac8fcf
+force-feedback:: first
 content::
 \## Recall
 
@@ -45,6 +46,7 @@ feedback-instructions:: The learner just read Wentworth's "The Case Against AI C
 
 #### Question: Open
 id:: 1031dcd2-7002-4933-aeda-60c53a4058e6
+force-feedback:: first
 content::
 \## Sort the criticisms
 

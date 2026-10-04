@@ -33,6 +33,7 @@ to:: (“we are safe because we are vigilant”).
 
 #### Question: Open
 id:: 028b114f-aaeb-4a37-b181-0b3e9589db74
+force-feedback:: first
 content::
 \## Apply Manheim's test
 
@@ -43,6 +44,7 @@ feedback-instructions:: The learner applies Manheim's four documentation questio
 
 #### Question: Open
 id:: 2878379d-a408-4176-a763-eff6f3c04223
+force-feedback:: first
 content::
 \## Which items apply to control?
 

@@ -33,6 +33,7 @@ to:: Visually: near the initial pink point, the green slope is shallower than th
 
 #### Question: Open
 id:: 917241f5-4296-469a-81f1-a96b9db5a54f
+force-feedback:: first
 content::
 \## Apply the test
 
@@ -43,6 +44,7 @@ feedback-instructions:: The learner applies Yonatan Cale's "would a profit-only 
 
 #### Question: Open
 id:: 35de7efe-1ee7-443e-8fd2-8610ed47a447
+force-feedback:: first
 content::
 \## Weigh the replies
 

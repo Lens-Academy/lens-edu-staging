@@ -42,6 +42,7 @@ to:: and am looking forward to seeing more progress.
 
 #### Question: Open
 id:: bde56e9f-4096-4c4c-ba89-c4b6e9b0ca73
+force-feedback:: first
 content::
 \## Sort Habryka's list
 
@@ -50,6 +51,7 @@ feedback-instructions:: The learner sorts three of Habryka's six worries. Refere
 
 #### Question: Open
 id:: 8f527ae8-2a93-4ba3-861e-62553d980a99
+force-feedback:: first
 content::
 \## The selection argument
 

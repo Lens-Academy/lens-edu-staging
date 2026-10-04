@@ -70,6 +70,7 @@ Three days later Gunnar Zarncke left a new comment on Kulveit's post ([comment](
 
 #### Question: Open
 id:: 9ae69b08-d18d-4f00-93e4-2726f1385b5d
+force-feedback:: first
 content::
 \## Find the disagreement
 
@@ -78,6 +79,7 @@ feedback-instructions:: The learner names the crux between Greenblatt and Kulvei
 
 #### Question: Open
 id:: e2895bc1-257e-43dc-893f-95795e784a08
+force-feedback:: first
 content::
 \## Trace the mechanism
 

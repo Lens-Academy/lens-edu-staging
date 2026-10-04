@@ -44,6 +44,7 @@ When you answer a criticism, we suggest comparing the world with control against
 
 #### Question: Open
 id:: 31dcd176-d8e1-4df6-9bcc-63426148f058
+force-feedback:: first
 content::
 In Unit 1 you read Jan Kulveit's argument that control may increase existential risk. Which of the three kinds of criticism is it, and why? One or two sentences.
 feedback-instructions:: The learner sorts Jan Kulveit's Unit 1 criticism. It is mainly the "works and makes things worse" kind: Kulveit accepts that control can stop a misaligned AI, but argues it mostly turns moderate, visible warning shots into quiet catches inside a company, or into a larger failure later. If the learner says "not worth the effort", acknowledge that Kulveit also mentions control moving resources away from alignment, and that he calls this not the dominant effect. Two or three sentences. Do not say whether Kulveit is right. No generic praise. Send them to the first reading.
@@ -81,6 +82,7 @@ Before the tests, practise on new cases. The tutor will give you feedback on eac
 
 #### Question: Open
 id:: fccf9452-1891-4821-969f-fb9f4d3b8ae6
+force-feedback:: first
 content::
 \## Sort and answer
 
@@ -105,6 +107,7 @@ feedback-instructions:: Practice for the skill of applying the same scrutiny to 
 
 #### Question: Open
 id:: 7937ee49-6567-4244-ac1a-79236287f392
+force-feedback:: first
 content::
 \## Your view so far
 
