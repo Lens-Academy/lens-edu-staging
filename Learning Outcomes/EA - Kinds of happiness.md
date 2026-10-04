@@ -15,6 +15,7 @@ content::
 Ten quotes from real texts follow. For each one, write its number, the kind of happiness it is about, and the word or phrase in the quote that shows it, with a few words on why.
 
 Choose from: **positive feeling**, **life satisfaction**, **eudaimonia**, **ataraxia**, **sukha** (say which grade: of the senses, of meditative absorption, or of a released mind), **fundamental wellbeing**, or **equanimity**. The word a quote uses ("happy", "pleasure", "well-being", "feel") is often not the kind it is about.
+
 1. "We conclude that high income buys life satisfaction but not happiness." Which kind does "happiness" mean here?
 2. "Please think about what you have been doing and experiencing during the past four weeks. Then report how much you experienced each of the following feelings (...)": positive, negative, good, bad, pleasant, unpleasant, happy, sad, afraid, joyful, angry, contented.
 3. "Please imagine a ladder with steps numbered from zero at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?"
