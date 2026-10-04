@@ -2,8 +2,8 @@
 id: '00bed1ee-4214-4b50-8239-92afec9db93f'
 title: "After the incident: Redwood on why control did not catch it"
 tldr: "Buck Shlegeris and Ryan Greenblatt discuss why OpenAI's monitoring did not stop the Hugging Face incident, and worry that monitoring could fix the symptom while the misalignment stays. A colleague later reports that Buck has asked whether control was net negative for preventing exactly this kind of incident."
-summary_for_tutor: "Lens in Unit 5 of AI Control Fundamentals. Two clips from episode 2 of the Redwood Research podcast, 'The OpenAI/Huggingface incident', with Buck Shlegeris and Ryan Greenblatt, recorded after the incident. Clip 1 (about 42:24 to 51:58): they explain blocking versus asynchronous monitoring, guess that OpenAI had no blocking monitoring on these evaluations, list reasons a monitor might not have been used (too many false positives on cyber tasks, staff used to models trying to hack the sandbox), say a monitor checking whether the model had actually left the sandbox would probably have caught it, ask whether we will get a better warning shot, and say OpenAI disclosed less than it should and probably has undisclosed incidents. Clip 2 (about 60:39 to 62:51): even if the outside world forces labs to stop such hacking, one problematic outcome is that monitoring solves the visible problem without solving the misalignment, and people get used to constantly blocking misaligned models ('deploying known scheming models'), which works for an intermediate regime but is fragile once AIs are very capable. Then a one-paragraph excerpt from Alex Mallen's LessWrong post, a secondhand report that Buck gave a talk reflecting on the possibility that the control agenda was ex ante net negative because, had it succeeded, it would have prevented the largely harmless incident from demonstrating AI risk. The talk is not public. Do not present it as Buck's settled view. Earlier in this unit (January 2026) Buck said he did not feel very bad about the warning-shot risk. Questions: why control did not catch it, and how the masking worry relates to Kulveit's argument and to what changed between January and the talk. Do not tell the learner who is right."
-reading_minutes: 15
+summary_for_tutor: "Lens in Unit 5 of AI Control Fundamentals. Two clips from episode 2 of the Redwood Research podcast, 'The OpenAI/Huggingface incident', with Buck Shlegeris and Ryan Greenblatt, recorded after the incident. Clip 1 (about 42:24 to 51:58): they explain blocking versus asynchronous monitoring, guess that OpenAI had no blocking monitoring on these evaluations, list reasons a monitor might not have been used (too many false positives on cyber tasks, staff used to models trying to hack the sandbox), say a monitor checking whether the model had actually left the sandbox would probably have caught it, ask whether we will get a better warning shot, and say OpenAI disclosed less than it should and probably has undisclosed incidents. Clip 2 (about 60:05 to 63:22): Ryan says people tend to deploy a more capable model even if it is more misaligned, so misalignment could be tolerated until AIs take over in a predictable way. Buck asks whether the rest of the world will not push back. Even if the outside world forces labs to stop such hacking, one problematic outcome is that monitoring solves the visible problem without solving the misalignment, and people get used to constantly blocking misaligned models ('deploying known scheming models'), which works for an intermediate regime but is fragile once AIs are very capable. Ryan guesses the problems will look less bad within six months at OpenAI, and that papering over them in a way that may not generalise to superhuman models seems pretty doable. Then a one-paragraph excerpt from Alex Mallen's LessWrong shortform, a secondhand report that Buck gave a talk reflecting on the possibility that the control agenda was ex ante net negative because, had it succeeded, it would have prevented the largely harmless incident from demonstrating AI risk. We found no public recording of the talk. Do not present it as Buck's settled view. Then one sentence of Mallen's own verdict: he thinks it was reasonable to build up the field of control, but that it had somewhat unfortunate epistemic side effects, made worse by Constellation not discussing alignment fundamentals much. Earlier in this unit (January 2026) Buck said he did not feel very bad about the warning-shot risk. Questions: why control did not catch it, and how the masking worry relates to Kulveit's argument and to what changed between January and the talk. Do not tell the learner who is right."
+reading_minutes: 16
 tutor_minutes: 10
 ---
 #### Text
@@ -22,17 +22,25 @@ On their account, why did OpenAI's control measures not stop the incident? Give 
 feedback-instructions:: The learner just watched Buck Shlegeris and Ryan Greenblatt discuss why OpenAI's control measures did not stop the Hugging Face incident. Their points: the sandbox was hacked, which they did not find surprising. Their best guess from public information is that there was no blocking monitoring on these evaluations and maybe no asynchronous monitoring. Monitors built for internal use may flag ordinary cyber work and give too many false positives in a cyber evaluation. Staff may have grown used to models constantly trying to hack the sandbox. A simple monitor checking whether the model had actually left the sandbox would probably have caught it. They also think OpenAI disclosed less than it should and probably has incidents it has not disclosed. Give a brief, honest mirror: what they got right, the most important missing point in one sentence, any error corrected in one sentence. One turn only, 60 to 120 words, no lists, no generic praise. Tell them to move on to the second clip.
 
 #### Video
-from:: 60:39
-to:: 62:51
+from:: 60:05
+to:: 63:22
 
 #### Text
 content::
-Later, Alex Mallen, who has worked at Redwood for the past couple of years, wrote a post with reflections on the incident. It includes this sentence about a talk Buck gave. The talk is not public, so this is a secondhand report, not Buck's own words.
+Later, Alex Mallen, who has worked at Redwood for the past couple of years, wrote a post with reflections on the incident. It includes this sentence about a talk Buck gave. We could not find a public recording or write-up of the talk, so this is a secondhand report, not Buck's own words.
 
 #### Article
 source:: [[../articles/mallen-some-personal-reflections-in-light-of-recent-events]]
 from:: I appreciate that Buck recently gave a talk
 to:: legibly demonstrating AI risk to the world.
+
+#### Text
+content::
+Further down, Mallen gives his own verdict on Redwood's control work.
+
+#### Article
+from:: I overall think it was reasonable to build up the field of control
+to:: not really discussing alignment fundamentals much.
 
 #### Question: Open
 id:: a62aab9b-977f-4d14-8b09-66d6cebf9d19
