@@ -56,6 +56,8 @@ notes:: The neglectedness criticism (Yonatan Cale) and its replies (Marius Hobbh
 source:: [[../Lenses/AICF - Does control breed better schemers]]
 notes:: "Does not work" criticisms: Jozdien on capability evaluations and selection pressure, Habryka's list with Greenblatt's replies.
 ## Lens:
+source:: [[../Lenses/AICF - Do control protocols hold up]]
+notes:: Empirical "does not work" evidence: adaptive attacks on monitors and attack selection lower measured safety (Terekhov et al., Ge-Wang et al.), with the authors' own fix. Closest reading for Test Criticism B.
 source:: [[../Lenses/AICF - Safety-washing and false confidence]]
 notes:: The false-confidence case of the "makes things worse" kind.
 ## Lens:

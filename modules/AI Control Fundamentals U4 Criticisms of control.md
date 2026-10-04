@@ -57,6 +57,9 @@ source:: [[../Lenses/AICF - Slop, not scheming]]
 source:: [[../Lenses/AICF - Does control breed better schemers]]
 
 # Lens:
+source:: [[../Lenses/AICF - Do control protocols hold up]]
+
+# Lens:
 source:: [[../Lenses/AICF - What about superintelligence]]
 
 # Lens:
