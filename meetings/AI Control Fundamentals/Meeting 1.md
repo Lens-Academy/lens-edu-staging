@@ -55,7 +55,7 @@ A bank limits what one trader can do and audits trades, so it stays safe even if
     - a newsroom
     - a university lab
 2. List its checks that people are trustworthy, and its limits that hold even if someone is not.
-3. Now the insider is an AI model that might be secretly working against you, and behaves well whenever it might be tested. Which items on your list still work?
+3. Now the insider is an AI model that might be secretly working against you and behaves well whenever it might be tested. Which items still work?
 4. Jan Kulveit, a critic of control, argues two things:
     - Without control, many attempts by a misaligned AI would still be stopped by other means, after visible damage that pushes the world to act.
     - With control, the lab catches them quietly and describes them only vaguely, so they rarely lead to serious action.

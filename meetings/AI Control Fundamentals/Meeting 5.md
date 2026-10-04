@@ -147,7 +147,6 @@ One or two people share what their group landed on.
 The course ends today. What you do with it is up to you.
 1\. Share one thing you will do next with what you learned here, and its first concrete step with a date. Examples:
 
-- go deeper into how control works in practice with the Advanced AI Control 1, 2 and 3 courses (self-study, links in the wrap-up)
 - keep track of the observation you named in Room 3 that would change your mind, and decide where you will look for it
 - write up your view and your crux in a short post, or send it to one person
 - talk to someone who works on control, or to one of its critics
