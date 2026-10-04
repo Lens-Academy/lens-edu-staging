@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-The last reading counted a catch as a win, partly because it would make shutting down more likely. Here Buck Shlegeris, one of its authors, asks whether that is true. After his post come four comments from the discussion, including his own reply, and then what he said about it on a podcast the next year.
+The last reading counted a catch as a win, partly because it would make shutting down more likely. Here Buck Shlegeris, one of its authors, asks whether that is true. After his post come four comments from the discussion, including his own reply, and then what he said about it on a podcast the next year. All of these were written before the 2026 Hugging Face incident. Unit 5 looks at how people argued about that real case.
 
 #### Article
 source:: [[../articles/buck-would-catching-your-ais-trying-to-escape-convince-ai-developers-to-slow-down-or-undeploy]]
@@ -20,6 +20,7 @@ id:: 30c77db4-7b3c-4d15-93ed-8ab46964e35e
 content::
 Shlegeris imagines a competitor arguing against shutting down. Which of the competitor's arguments do you find most convincing, and what would a developer need to have prepared in advance to answer it?
 placeholder:: A few sentences.
+force-feedback:: first
 feedback-instructions:: The learner just read Shlegeris's post. The competitor's arguments: stopping is extremely costly because China is racing, AIs are known to do weird stuff and one anomaly proves little, there is no evidence of power-seeking, the other company just messed up its own alignment, and the logs may be forged or the model rigged. Any choice is fine. Good answers name what could be prepared in advance, for example many independent catches rather than one, ways to let outsiders verify incidents and logs, agreement beforehand on what evidence would trigger a pause, or an international arrangement so stopping does not mean losing a race. Shlegeris's own takeaways include planning how to persuade people and selling today's arguments now. In at most five sentences, say whether the learner's preparation answers the argument they chose and name one thing that would strengthen it. Do not say whether a catch would work. No generic praise. At most two turns.
 
 #### Article
@@ -52,4 +53,5 @@ id:: ceb1ae71-1e63-4130-b39e-e3554a28b22f
 content::
 Shlegeris now separates two things a catch could do: get a developer to shut down, and help it make later attempts fail. Which of the two depends more on political will, and why? Where does Davidson disagree with him, and what could you observe that would tell you who is closer to right?
 placeholder:: A few sentences.
+force-feedback:: first
 feedback-instructions:: The learner read Shlegeris's post, his reply to Max Nadeau, Tom Davidson's comment and the 80,000 Hours excerpt. Shutting down (catch-then-shut-down) depends much more on political will: the developer, its competitors or governments must believe the evidence and accept the cost of stopping. Shlegeris is now more pessimistic about it (he imagines needing to catch the model around 30 times) but still optimistic about few-shot catastrophe prevention, which the developer's own safety team can do even if leadership keeps deploying. On the podcast he adds that his own update would be only about 3x, that sceptics will likely stay sceptical, and that a competitor could claim the catch was rigged. Davidson disagrees about persuasion: he thinks a lab that caught a systematic schemer could produce scientifically credible evidence, that many sceptics would change their minds, and that it would be a massive shift even if the world did not pause. Habryka replies that he would bet against Davidson, because in practice nobody will be able to prove the model was scheming rather than "role-playing", against a background of models that are obviously not aligned. Useful observations: how labs and governments respond to real misbehaviour incidents, whether incidents get published with verifiable evidence, whether ML researchers update after strong demonstrations of scheming. In at most five sentences, check both parts, correct any misreading in one sentence, and say whether their observation could actually be made. Do not say who is right. No generic praise. At most two turns.
