@@ -5,7 +5,7 @@ title: "Unit 3: Why people work on control"
 tags:
   - work-in-progress
 ---
-%% Unit 3 of AI Control Fundamentals: control's theory of change. Time (reading+tutor): welcome 3+3, low-investment world (80k) 6+6, window 15+16, Habryka/Greenblatt 9+12, catching 8+7, would a catch 14+12, Plans A-D 10+8, ten people 9+10, will companies 6+7, safety case 5+6, practice 3+15 = 190, plus about 8 for the LO test, about 198 minutes. Catching (2) is optional. %%
+%% Unit 3 of AI Control Fundamentals: control's theory of change. Time (reading+tutor): welcome 3+3, low-investment world (80k) 7+6, window 6+6, should we invest 8+10, Habryka/Greenblatt 10+12, catching 8+7, would a catch 14+12, Plans A-D 11+10, ten people 9+10, will companies 6+8, safety case 5+6, practice 3+15 = 195, plus about 15 for the LO test, about 210 minutes. Catching (2) is optional. %%
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Theory of change for AI control]]
@@ -34,6 +34,7 @@ In Unit 1 you saw what control is and how it is tested. This unit asks why peopl
 id:: 5372c08e-c3ae-48ac-8b01-18be0b0cb327
 content::
 Before you read: in one or two sentences, how do you think control is supposed to make an AI catastrophe less likely? A guess is fine. You will meet several answers in this unit, and look back at your guess in the practice at the end.
+force-feedback:: first
 feedback-instructions:: This is an ungraded first guess. In two or three sentences, reflect back the route the learner described, in their words, without saying whether it is right or adding routes they did not name. Do not preview the unit. Do not ask a follow-up question. Close by sending them to the first reading. No generic praise.
 
 # Lens:
@@ -41,6 +42,9 @@ source:: [[../Lenses/AICF - Control in a low-investment world]]
 
 # Lens:
 source:: [[../Lenses/AICF - Using AI while it can still be controlled]]
+
+# Lens:
+source:: [[../Lenses/AICF - Should we invest in control]]
 
 # Lens:
 source:: [[../Lenses/AICF - Habryka and Greenblatt on what control is for]]
@@ -82,6 +86,7 @@ content::
 
 Describe at least two distinct routes by which this project could lower the chance of an AI catastrophe. For each route, write the steps from "the team runs an evaluation" to "less risk". Most routes need someone other than the team to act: say who. Then say, for each route, whether it still works at a company whose leadership cares little about misalignment risk, in a country whose government requires nothing, and why: what does the route need, and from whom?
 placeholder:: Two or three short paragraphs.
+force-feedback:: first
 feedback-instructions:: The learner is practising for the Unit 3 test on control's theory of change. The project: a government institute's team runs control evaluations (red-team attack versions of a company's model against its safety measures) on companies' internal agent deployments, with permission, gives each company its results, and publishes a template safety case. Plausible routes: (a) Fixing weaknesses: the company learns where its measures fail and fixes them, so real attacks are more often blocked or caught. This needs the company to permit the evaluation and act on the findings, which a careless leadership may not do, though a few safety-minded insiders might use the results. (b) A condition of deployment: the template makes it practical for a company policy, an industry body or a regulator to require a passing control safety case before deployment. This needs someone with the authority and will to require it and to refuse deployment when the case fails. (c) Evidence of risk: results showing that attacks get through, or what the models can do, inform company leaders and governments and may build political will, but only if people believe and act on them (compare Shlegeris's doubts about whether even a catch would move developers). (d) Keeping the window usable: better tested measures let companies use untrusted models, including for safety work, while they can still be controlled, which needs the company not to race on to uncontrollable models. Under no political will at all, the project mostly depends on voluntary permission and insiders. Accept other routes if the steps hold. Reply in at most six sentences. Say which of the learner's routes are distinct mechanisms with steps and which are labels or repeats of one mechanism. For each route, say whether the will-dependence reasoning holds up, and name the most useful thing missing. If the learner gives only one route, ask for a second that works by a different mechanism. Accept routes not on this list if the steps hold. Do not say whether the project is worth funding. If the learner says they do not understand, give one foothold: ask what the company does on the day it receives a report saying the red team got an attack through. No generic praise. At most two turns, then send them to Part 2.
 
 #### Question: Open
@@ -93,6 +98,7 @@ Which premise in your routes do you trust least? Say why. Then name one thing so
 
 Finally, look back at the guess you wrote at the start of this unit. Which route was it, and which routes have you added since?
 placeholder:: A few sentences.
+force-feedback:: first
 feedback-instructions:: The learner is practising for the Unit 3 test on control's theory of change. A good answer names a premise one of their routes actually needs (for example: companies give permission and fix what the evaluations find, the red team can find attacks as good as a much stronger model would, results showing failures change what companies or governments do, a regulator would require a control safety case, or the window before uncontrollable AI lasts long enough to use), gives a reason it is doubtful, and names an observation someone could actually make that bears on it and says which way it would move confidence. "More research" or "time will tell" is not an observation. Reply in at most five sentences. Say whether the premise is one their routes need, whether the reason holds, and whether the observation is something that could be seen, and fix the weakest of the three. Do not tell the learner which premise is the right one. No generic praise. At most two turns. If the learner compared their first guess with the unit's routes, acknowledge it in one sentence without judging the guess. Close by telling them the test asks for the same three things on a different project, and that at least one of their test routes should work through something other than the monitor blocking or flagging an attack, or responses to a flagged attack.
 
 # Lens:
