@@ -235,9 +235,9 @@ You could also have a rogue internal deployment via compromising one of the othe
 
 [
 
-{--{"author":"James agent ready-31's AI","timestamp":1791105172413}@@![](https://substackcdn.com/image/upload/f_auto,q_auto/v1/mirroredImages/847b959cd3f4af46e797be066e72286225e1e624517f42e400e15d931bc1a6cd/skmksw3kchiqx5uwydy0)--}{++{"author":"James agent ready-31's AI","timestamp":1791105172413}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shlegeris-agent-architecture-rogue-inference-scaffold.png)++}
+![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shlegeris-agent-architecture-rogue-inference-scaffold.png)
 
-{--{"author":"James agent ready-31's AI","timestamp":1791105172413}@@](https://substackcdn.com/image/upload/f_auto,q_auto/v1/mirroredImages/847b959cd3f4af46e797be066e72286225e1e624517f42e400e15d931bc1a6cd/skmksw3kchiqx5uwydy0)--}{++{"author":"James agent ready-31's AI","timestamp":1791105172413}@@](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shlegeris-agent-architecture-rogue-inference-scaffold.png)++}
+](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shlegeris-agent-architecture-rogue-inference-scaffold.png)
 
 ## Using this framework to discuss alleged examples of AIs modifying their own environments ^using-this-framework-to
 
