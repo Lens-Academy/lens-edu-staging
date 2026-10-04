@@ -31,6 +31,10 @@ Unit 1 goals (What control is):
 
 # Module: [[../modules/AI Control Fundamentals Overview|Course Overview]]
 
+# Module: [[../modules/AI Control Fundamentals U1 What control is|Unit 1: What control is]]
+
+# Module: [[../modules/AI Control Fundamentals U1 Feedback|Unit 1 feedback]]
+
 # Meeting: Unit 1
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
