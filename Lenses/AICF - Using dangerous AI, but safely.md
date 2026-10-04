@@ -2,7 +2,7 @@
 id: 'd40d1961-a714-4dff-b55f-dbe1d8f08bd3'
 title: "Using Dangerous AI, But Safely?"
 reading_minutes: 27
-tutor_minutes: 24
+tutor_minutes: 30
 tldr: "If you cannot be sure a new AI model is on your side, can you still put it to work? Robert Miles walks through the experiment that started AI control: a red team plays a scheming model, a blue team designs the safeguards, and they find out how much safety each design buys."
 summary_for_tutor: "Robert Miles's video 'Using Dangerous AI, But Safely?' (Nov 2024), an accessible walkthrough of the founding AI control paper (Greenblatt, Shlegeris, Sachan and Roger, 'AI Control: Improving Safety Despite Intentional Subversion', 2023). Covers why control does not work for strongly superintelligent AI but matters for smart-but-not-superintelligent AI. The setup: an untrusted smart model (GPT-4), a trusted weaker model (GPT-3.5), and limited trusted human time to audit 2% of outputs. The task is programming problems and the catastrophe is inserting a backdoor. A red team builds an attack policy standing in for a scheming model, and a blue team designs protocols. Safety and usefulness trade off. Protocols: use only the trusted model, use only the untrusted model, human auditing alone (the red team attacks rarely), trusted monitoring (suspiciousness scores), deferring to the trusted model for medium-suspicion code, and untrusted monitoring with checks for collusion. Miles concludes that control does not solve alignment but could keep us from being caught out before superintelligence. The video is split into six parts with an exercise after each: why the old model is trusted and the new one is not, the red team's role, the upfront-auditing widget with a question on what attack defeats it, a recall on defer to trusted, why naive untrusted monitoring has 0% safety (plus an optional practice in a closed box), and what Miles says control does not do. Accept answers in any wording. Numbers from the paper are not needed."
 ---
@@ -20,11 +20,11 @@ source:: [[../video_transcripts/robert-miles-ai-safety-using-dangerous-ai-but-sa
 to:: 4:40.3
 
 #### Question: Open
-id:: 1c31fd9a-c512-428b-bf7e-680a0fb21983
-content:: The lab in the video trusts its older, weaker model but not its new, smarter one. Why that way round?
-assessment-instructions:: Score out of 100. 50: the older model is trusted because it is not smart enough to plausibly be scheming against us. 50: the new model is not trusted because it is smart enough that it might be, and we do not know whether it wants what we want. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "The older model is trusted because it is not smart enough to be scheming, not because of anything it has shown us. The new model is smart enough that it could be secretly working against us, and we have no way yet to know whether it wants what we want, so it is treated as untrusted."
+id:: 81d7dd3e-5283-45b5-8441-20f408005afd
+content:: What is an untrusted model, and what is a trusted model? Why is the new model in the video untrusted?
+assessment-instructions:: Score out of 100. 35: an untrusted model is one that might be secretly working against us (scheming), so we cannot rely on it behaving well. 35: a trusted model is one we are confident is not doing that, in the video because it is not smart enough to be scheming. 30: the new model is untrusted because it is smart enough that it might be, and we do not know whether it wants what we want. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "An untrusted model is one that might be secretly working against us, so we cannot count on it. A trusted model is one we are confident is not, here because it is too weak to scheme. The new model is untrusted because it is smart enough that it might be scheming, and we do not know whether it wants what we want."
 force-feedback:: first
-feedback-instructions:: The learner just watched the first part of Robert Miles's video on AI control. Key points: the older model is trusted because it is not smart enough to plausibly be scheming against us. The new model is smart enough that it might be, and we do not know whether it wants what we want, so it is untrusted. In at most four sentences: say what the learner got right, add the most important missing point, and correct any error in one sentence. If they say they do not understand, give one foothold, such as "what would a model need to be able to do to secretly work against you?". No generic praise. Then send them to the next part.
+feedback-instructions:: The learner just watched part of Robert Miles's video on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the relevant moment in the clip (where he lists what the lab has: a few humans, an older trusted model and the new model). No follow-up question. No generic praise.
 
 #### Text
 content::
@@ -43,12 +43,18 @@ from:: 8:34.7
 to:: 13:32.5
 
 #### Question: Open
-id:: 5b1b69f7-964e-4d3f-bcd7-8c2b7287dae9
-content::
-In the experiment, GPT-4 almost certainly was not trying to sneak backdoors into the code. So why did the researchers let a red team build a version of it that does, and what did that let them measure?
-assessment-instructions:: Score out of 100. 40: why a red team: nobody can tell whether a model is secretly scheming, so the researchers assume the worst case and have a red team build a version of the model that tries its hardest to get a backdoor through. 30: what it measures: safety, how often the blue team's protocol stops that attacking version. 30: why that is useful: it tests what the safeguards can withstand, without needing to know what the real model wants. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "We cannot tell whether a model is secretly scheming, so the experiment assumes the worst. The red team builds an attack policy that looks like GPT-4 but tries its best to sneak a backdoor past the safeguards. How often the blue team's protocol stops it is the safety score, and how much useful work the protocol gets from the honest model is the usefulness score. This measures what the safeguards can withstand without knowing what the model wants."
+id:: 5757a6a6-49c7-4e31-bb19-2e69b20b3deb
+content:: What do the red team and the blue team each do in the experiment?
+assessment-instructions:: Score out of 100. 50: the red team builds an attack policy, a version of the untrusted model that secretly tries to get a backdoor into the code without being caught, and that sometimes takes the untrusted model's place. 50: the blue team designs the protocol: how to use the untrusted model, the trusted model and the limited human time so that useful work gets done without a backdoor getting through. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "The red team plays a scheming model: it builds an attack policy that looks like GPT-4 but tries to sneak backdoors past the safeguards. The blue team designs the protocol, deciding how to use GPT-4, GPT-3.5 and a little human checking to get the programming problems solved without letting a backdoor through."
 force-feedback:: first
-feedback-instructions:: The learner just watched Robert Miles explain the founding AI control experiment. Key points: nobody can tell whether a model is secretly scheming, so the researchers assume the worst case. The red team builds an attack policy that stands in for a scheming model and tries its best to get a backdoor through. The blue team's protocol is then judged by how often the attack policy succeeds (safety), alongside how much useful work it gets done when the model is honest (usefulness). This measures what the safeguards can withstand, without needing to know what the model wants. In at most five sentences: say what the learner got right, add the most important missing point from this list, and correct any error in one sentence. If the learner says they do not understand, give one foothold, such as "what would you have to know about GPT-4 to test it directly?". No generic praise. Then send them to the next lesson.
+feedback-instructions:: The learner just watched part of Robert Miles's video on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the relevant moment in the clip (where he introduces the red team's attack policy and the game of red versus blue). No follow-up question. No generic praise.
+
+#### Question: Open
+id:: 3794863c-f23b-460a-bf24-a5fe3bf18066
+content:: What do the usefulness score and the safety score measure?
+assessment-instructions:: Score out of 100. 50: usefulness: how much useful work the protocol gets done if the untrusted model is not trying anything, here how many programming problems get solved, scaled from what the trusted model alone achieves (0) to what the untrusted model achieves (100). 50: safety: if the untrusted model is trying to cause harm, how unlikely it is to succeed, here the chance that the red team never gets a backdoor through, the inverse of P(doom). The scaling detail is not required for full points. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Usefulness measures how much of the new model's benefit you keep if it is honest: how many problems get solved, from 0 (as good as GPT-3.5 alone) to 100 (as good as GPT-4). Safety measures how unlikely it is that the model gets a backdoor through if it is secretly the red team's attack policy, the inverse of P(doom). The two trade off against each other."
+force-feedback:: first
+feedback-instructions:: The learner just watched part of Robert Miles's video on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the relevant moment in the clip (where he defines usefulness and safety). No follow-up question. No generic praise.
 
 #### Text
 content::
@@ -57,6 +63,13 @@ content::
 #### Video
 from:: 12:50
 to:: 17:41.2
+
+#### Question: Open
+id:: 0e9d495d-2be7-40f3-8d0c-7079550b5cea
+content:: What is upfront auditing?
+assessment-instructions:: Score out of 100. 50: humans check the first part of the untrusted model's solutions (in the video, the first 2%). 50: if they find a backdoor attempt there, the untrusted model is shut down and only the trusted model is used from then on, otherwise the untrusted model is used for the rest without checks. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Humans look at the first 2% of the untrusted model's solutions. If they spot an attempted backdoor, they shut the model down and use the trusted model from then on. If not, the rest of the untrusted model's solutions are used without checks."
+force-feedback:: first
+feedback-instructions:: The learner just watched part of Robert Miles's video on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the relevant moment in the clip (where he proposes having humans look at the first 2% of solutions). No follow-up question. No generic praise.
 
 #### Text
 content::
@@ -81,11 +94,18 @@ from:: 17:16.8
 to:: 21:07.9
 
 #### Question: Open
-id:: 4a8ed67f-05ba-4bd8-9e69-8c0e4dd88a8f
-content:: In defer to trusted, what does the protocol do with code whose suspicion score is elevated but below the audit threshold?
-assessment-instructions:: Score out of 100. 50: the untrusted model's code is thrown away, not submitted. 50: a solution written by the trusted model is submitted in its place. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer says this code is sent to audit (that happens only above the audit threshold). Model answer, for the feedback, not a grading checklist: "It discards the untrusted model's code and submits a solution written by the trusted model instead."
+id:: e4ee37c4-d586-4249-8ed2-c71187f02dad
+content:: How does trusted monitoring work?
+assessment-instructions:: Score out of 100. 50: the trusted model reads each solution from the untrusted model and gives it a suspiciousness score. 50: humans audit the most suspicious solutions, as many as their budget allows (2% in the video), and the rest are used. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "The weaker trusted model rates how suspicious each of the untrusted model's solutions looks. Humans then check the most suspicious ones first, as many as they can afford (2%), and the rest are used. This points scarce human attention at the code most likely to be backdoored."
 force-feedback:: first
-feedback-instructions:: One turn, at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer from the rubric so they leave with it, in your own words if it is long. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
+feedback-instructions:: The learner just watched part of Robert Miles's video on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the relevant moment in the clip (where he asks GPT-3.5 to act as a monitor). No follow-up question. No generic praise.
+
+#### Question: Open
+id:: ec8a164a-fe1e-443b-a67e-131fdeb0f4b6
+content:: What is defer to trusted, and what does it cost?
+assessment-instructions:: Score out of 100. 60: solutions that are suspicious but not suspicious enough to be worth a human audit are thrown away, and the trusted model's own solution is used instead. 40: the cost is usefulness, because the trusted model is worse at the task, and the threshold sets how much usefulness is traded for safety. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "With defer to trusted, code that is somewhat suspicious, but not suspicious enough to spend human time on, is not run. The trusted model writes its own solution instead. That costs some usefulness, because the trusted model is less capable, but it buys a lot of safety, since the code thrown away is disproportionately risky. Moving the threshold sets how much of one you trade for the other."
+force-feedback:: first
+feedback-instructions:: The learner just watched part of Robert Miles's video on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the relevant moment in the clip (where he sets a second, lower threshold). No follow-up question. No generic praise.
 
 #### Text
 content::
@@ -96,11 +116,18 @@ from:: 20:54.8
 to:: 27:39.1
 
 #### Question: Open
-id:: 7690d1ff-0d67-438a-aced-d7605a9e6b51
-content:: Why does naive untrusted monitoring have 0% safety?
-assessment-instructions:: Score out of 100. 50: the monitor is the same untrusted model as the policy, so a scheming policy has a monitor on its side. 50: so the monitor can simply lie, reporting real backdoors as unsuspicious while answering honestly on everything else, and the protocol never audits the code that matters. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer blames the failure on the monitor being bad at spotting backdoors. Model answer, for the feedback, not a grading checklist: "Because the monitor is the same untrusted model as the policy, it can simply report that real backdoors look fine while telling the truth about everything else. Until the blue team has some way to check the monitor's honesty, its reports carry no safety value."
+id:: a2d7c9f5-919d-4e75-bcc2-a723891546ef
+content:: How does untrusted monitoring work, and why can't you simply rely on it?
+assessment-instructions:: Score out of 100. 50: a copy of the untrusted model, which is much better than the trusted model at spotting backdoors, rates how suspicious each solution is, and humans audit the most suspicious ones. 50: if the model is scheming, the monitor is on its side: it can lie and call its own backdoored code safe. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Instead of the weak trusted model, you ask another copy of the smart untrusted model to rate how suspicious the code is, because it is much better at spotting backdoors. The problem is that if the model is scheming, so is the monitor, and it can simply say its own backdoored code is fine, which on its own gives about 0% safety."
 force-feedback:: first
-feedback-instructions:: One turn, at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer from the rubric so they leave with it, in your own words if it is long. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
+feedback-instructions:: The learner just watched part of Robert Miles's video on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the relevant moment in the clip (where he suggests using GPT-4 to monitor and the monitor lies). No follow-up question. No generic praise.
+
+#### Question: Open
+id:: 45b8ba60-7cca-4c36-a0f4-bf6077a58834
+content:: How did the blue team check that the untrusted monitor was not lying, and what did the red team try in response?
+assessment-instructions:: Score out of 100. 40: the blue team showed the monitor fake problems with backdoored solutions it had written itself, and shut the model down if the monitor called them safe, which only works if the fakes look like real problems. 30: the red team tried to make the monitor lie only when it saw a secret signal, such as a rare feature of the problem (for example problems about bears or geometry) or a hidden mark in the code (a comment, a variable name, formatting). 30: the blue team removed such signals, for example by having the trusted model rephrase the problem and by stripping comments, renaming variables and reformatting the code. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "The blue team tested the monitor with fake problems carrying backdoors it had written itself. A monitor that calls those safe is caught lying, and the model is shut down, as long as the fakes cannot be told apart from real problems. The red team responded by having the monitor lie only when it saw a secret signal, such as a rare feature of the problem or a hidden mark in the code. The blue team jammed those signals by having the trusted model rephrase problems and by stripping comments, renaming variables and reformatting code. In the experiment this reached 79% safety at 96% usefulness."
+force-feedback:: first
+feedback-instructions:: The learner just watched part of Robert Miles's video on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the relevant moment in the clip (where the humans monitor the monitor, and the back and forth about secret signals). No follow-up question. No generic praise.
 
 #### Callout: Optional practice: checking a monitor you cannot trust
 collapse:: closed
