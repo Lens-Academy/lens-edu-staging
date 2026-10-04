@@ -1,0 +1,85 @@
+---
+id: 'f8de126d-9f11-4658-a5b4-8894c84698bc'
+slug: ai-control-fundamentals-u1
+title: "Unit 1: What control is"
+tags:
+  - work-in-progress
+---
+%% Unit 1 of AI Control Fundamentals. Lenses: welcome (inline), Robert Miles video, Greenblatt and Shlegeris's case for control parts 1 and 2 (shared with Advanced AI Control 1), the control-evaluations summary (shared), Kulveit as a first criticism (inline). Parts 3 and 4 of the case for control are optional. Time: welcome 4+3, video 31+8, part 1 16+38, part 2 13+37, control evaluations 5+0, Kulveit 4+6, plus about 24 for the three learning-outcome tests. About 189 minutes. %%
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Control as a distinct safety case]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Trusted versus untrusted models]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Control evaluation methodology]]
+
+# Lens: Welcome to Unit 1
+id:: cd096d83-1e62-4695-8643-70fea5465bfd
+reading_minutes:: 4
+tutor_minutes:: 3
+tldr:: Banks do not assume no trader will ever go rogue. They build systems that hold when one does. AI control asks whether we can do the same with an AI model that might be working against us.
+summary_for_tutor:: Opening lens of Unit 1 of AI Control Fundamentals, written by Lens. It introduces control with the insider-threat analogy (organisations build systems that hold even if an employee goes rogue), contrasts it with alignment, lists what the unit covers, and asks the learner to write down a gut view on whether control is worth working on, which they revisit in Unit 5. Do not grade the gut view or argue with it. Acknowledge it briefly and send the learner to the first lesson.
+#### Text
+content::
+Organisations do not assume that none of their employees will ever go rogue. Banks limit what a single trader can do, and they log and audit trades. The bank stays safe even if one person is not trustworthy.
+
+Most AI safety work tries to make AI models want what we want. That is alignment. AI control asks a different question: if we cannot be sure a model is not secretly working against us, can we still use it, get useful work out of it, and make sure it cannot cause a catastrophe? This unit covers what that means and how anyone could test whether it works.
+
+\## In this unit you will
+
+- Watch Robert Miles explain the idea and the experiment that started the field.
+- Read Ryan Greenblatt and Buck Shlegeris's case for control: how it differs from alignment, which models count as trusted and which as untrusted, and how a red team tests whether safety measures hold.
+- Read a first criticism of control, by Jan Kulveit.
+
+#### Question: Open
+id:: f3905d61-5ae7-4179-a7b6-7d9e5263ca99
+content::
+Before you start, write down your gut view. You will come back to it in Unit 5.
+
+- Does "use a powerful AI model that might be working against you, and make sure it still cannot cause a catastrophe" sound doable to you, or hopeless?
+- Do you think work on this is likely to help, or could it make things worse? Why?
+
+A few sentences are enough. There are no wrong answers here.
+feedback-instructions:: This is an ungraded gut-view note the learner will revisit in Unit 5. Acknowledge it in two or three sentences and reflect back the specific view they expressed, without endorsing or correcting it. Do not preview the course's arguments. Do not ask a follow-up question. Close by sending them to the next lesson. No generic praise.
+
+# Lens:
+source:: [[../Lenses/robert-miles-ai-safety-using-dangerous-ai-but-safely]]
+
+# Lens:
+source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais]]
+
+# Lens:
+source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais-2]]
+
+# Lens:
+source:: [[../Lenses/XLab Control - control-evaluations]]
+
+# Lens: A first criticism
+id:: c6c69db7-5ff6-4259-b924-fe1b2cd6d838
+reading_minutes:: 4
+tutor_minutes:: 6
+tldr:: A moderate AI disaster might be what finally gets the world to act. Jan Kulveit argues that control makes such warning shots rarer, leaving quiet near-misses nobody hears about, or a catastrophe too big to learn from.
+summary_for_tutor:: Last lens of Unit 1 of AI Control Fundamentals. The learner reads Jan Kulveit's short post "AI Control May Increase Existential Risk" (Alignment Forum, March 2025) in full. Kulveit's argument: in worlds where alignment goes well, control matters little. In worlds where alignment fails, control mostly turns moderate, visible warning shots, which would push the world to act, into quiet internal catches that labs describe vaguely, or into a later catastrophe. He also expects labs to downplay incidents that control stopped. This is a first look at criticisms of control. Unit 4 covers criticisms in depth and Unit 5 the debates around this argument, including replies from people who work on control. The question asks what would have to be true for Kulveit to be right. Treat any reasoned answer as fine. Do not tell the learner whether Kulveit is right.
+#### Text
+content::
+Most of what you read in this unit comes from people who work on control. Control also has critics. Here is one short criticism, so you can keep it in mind for the rest of the course. Unit 4 goes through the criticisms in depth.
+
+#### Article
+source:: [[../articles/kulveit--ai-control-may-increase-existential-risk]]
+
+#### Question: Open
+id:: 9b1325c0-05ed-4175-a437-e7a9551c70e5
+content::
+Kulveit's argument depends on some things being true about the world. Name one of them, and say whether you find it plausible.
+feedback-instructions:: The learner just read Kulveit's "AI Control May Increase Existential Risk". Premises the argument depends on include: (1) without control, a misaligned AI's attempt would often be stopped by other means (security, society, governments) and become a moderate, visible incident rather than a catastrophe, (2) such visible incidents would push labs and governments to act, (3) incidents stopped by control would be kept quiet or described vaguely by the lab, and (4) control does not catch enough to outweigh this. Acknowledge the premise the learner names and whether it is one the argument actually needs. If they name a premise the argument does not need, say so in one sentence and point to one it does need. Do not say whether Kulveit is right. At most four sentences. No generic praise. Tell them the course comes back to this argument in Units 4 and 5.
+
+# Lens:
+optional:: true
+source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais-3]]
+
+# Lens:
+optional:: true
+source:: [[../Lenses/XLab Control - the-case-for-controlling-powerful-ais-4]]
