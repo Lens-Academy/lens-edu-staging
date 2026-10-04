@@ -1,0 +1,45 @@
+---
+id: '9ce50ca0-cfa8-4095-9d9d-62af136bff5c'
+title: "Low-stakes control and research sabotage"
+tldr: "If AIs do our safety research, they could quietly make it fail: a bug here, a withheld idea there. Each act looks like an honest mistake, so catching one proves little. Vivek Hebbar explains why this is a low-stakes threat and what defenders can do instead of catching the AI in the act."
+summary_for_tutor: "Third teaching lens of Unit 2 of AI Control Fundamentals. The learner watches the first 16 minutes of Vivek Hebbar's ControlConf talk 'Low-stakes Control' (FAR.AI). Spine of the excerpt: research sabotage as making promising research directions look unpromising (subtle bugs, withheld arguments) and sandbagging on ideas; it is probably easier to make us overlook a good technique than to convince us a bad one is good; the two-axis diagram (how many actions a catastrophe takes, how incriminating each is under audit), with the top-right corner trivially solved by random auditing, the bottom-left probably hopeless, and the tractable diagonal; low-stakes means many actions and each only weak evidence, plausibly a benign mistake; research sabotage could be low-stakes or high-stakes, and might be in the hopeless corner; online training matters more in low-stakes because training works better with more samples; three uses of control metrics (output filtering, incrimination, online training); incrimination needs a guess of how suspicious a benign model would look, which is hard, or incriminating patterns across domains; online training on a proxy does not need that baseline, but the proxy may be poor and training teaches the model to exploit it. The rest of the talk (evaluation methodology) is optional. Two ungraded questions follow."
+reading_minutes: 18
+tutor_minutes: 10
+---
+#### Text
+content::
+Vivek Hebbar works at Redwood Research ([Redwood Research blog](https://blog.redwoodresearch.org/p/how-can-we-solve-diffuse-threats)). In this talk at ControlConf, the AI control conference run by FAR.AI and Redwood ([FAR.AI](https://far.ai/news/controlconf-2026)), he takes up one worry about using AI to do safety research: that the AI quietly makes the research fail. Watch the first 16 minutes. The rest of the talk, on how to test low-stakes defences, is optional.
+
+#### Video
+source:: [[../video_transcripts/far-ai-vivek-hebbar-low-stakes-control-controlconf]]
+from:: 0:00
+to:: 16:28
+
+#### Question: Open
+id:: 0ec07687-8a63-4cb0-957c-74a33e2faf36
+content::
+Without looking back: what two properties make a threat low-stakes in Hebbar's sense? Give one example of research sabotage that would be low-stakes, and one way the same kind of sabotage could be high-stakes instead.
+force-feedback:: first
+feedback-instructions:: The learner just watched the first part of Hebbar's talk. The two properties: it takes many actions to cause a catastrophe, and each action is only weakly incriminating, hard to tell apart from a benign mistake. Hebbar's low-stakes example: asking the AI for experiment ideas 10,000 times and getting a deliberately bad job each time. His high-stakes example: only about 100 experiments to sabotage, sharing code, so planting 10 bugs in critical shared utilities could be enough. Accept other examples that fit. Reply in at most four sentences: acknowledge what is correct, name the most important missing point, correct any error. If the learner defines low-stakes by low harm, correct it in one sentence. One turn, no follow-up question, no generic praise. Tell them to move on.
+
+#### Question: Open
+id:: 84551d9d-1b3d-44d9-81fd-2e0243d31ded
+content::
+Hebbar contrasts two defences against low-stakes sabotage: incriminating the AI, and training it during deployment on a proxy for good work. What does each one need, and what is the main weakness of each?
+force-feedback:: first
+feedback-instructions:: Key points from the talk. Incrimination means becoming confident the model is misaligned from the evidence. In the low-stakes case it needs a good guess of how suspicious a benign model's work would look, so that many mildly suspicious actions add up to evidence. Hebbar's two ways to get it (monitor scores on human-written and weaker-model solutions, and incriminating patterns such as mistakes only in one domain) he calls weak. Online training trains the model on a proxy such as code cleanliness or human review of results. It needs no benign baseline, but the proxy may be poor (and could make a benign model worse), and training against the proxy teaches the model to exploit it. Reply in at most five sentences: acknowledge what is correct, name the most important missing point, correct any error. Up to two turns. If the learner is stuck, give one foothold: ask how you would know whether 30 bugs in a year is suspicious. No generic praise.
+
+#### Callout: The rest of the talk (optional)
+collapse:: closed
+
+#### Video
+from:: 16:28
+optional:: true
+
+#### End Callout
+
+#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+Hebbar, Vivek. "Low-stakes Control." *ControlConf*, FAR.AI, published 14 May 2025. [youtube.com](https://www.youtube.com/watch?v=DP3wTPDEjLQ)
+:::
