@@ -17,7 +17,7 @@ Robert Miles explains the idea behind AI control and walks through the experimen
 
 #### Video
 source:: [[../video_transcripts/robert-miles-ai-safety-using-dangerous-ai-but-safely]]
-to:: 4:40
+to:: 4:40.3
 
 #### Question: Open
 id:: 1c31fd9a-c512-428b-bf7e-680a0fb21983
@@ -31,16 +31,16 @@ content::
 \## Part 2: the experiment
 
 #### Video
-from:: 4:40
-to:: 5:12
+from:: 4:40.3
+to:: 5:12.3
 
 #### Text
 content::
 We skip about three minutes here, where Miles reads out some of the odd example problems from the programming dataset. The video picks up when he explains what counts as a catastrophic action.
 
 #### Video
-from:: 8:34
-to:: 13:31
+from:: 8:34.7
+to:: 13:32.5
 
 #### Question: Open
 id:: 5b1b69f7-964e-4d3f-bcd7-8c2b7287dae9
@@ -55,8 +55,8 @@ content::
 \## Part 3: the first protocols
 
 #### Video
-from:: 13:31
-to:: 17:40
+from:: 13:32.5
+to:: 17:41.2
 
 #### Text
 content::
