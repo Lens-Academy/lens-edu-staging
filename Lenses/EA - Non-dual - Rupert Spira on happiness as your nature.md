@@ -20,11 +20,13 @@ from:: 0:28
 to:: 17:10
 
 #### Text
+content::
 Spira's argument runs roughly in four steps.
 1. Every experience is known, and that knowing is what you call "I".
 2. Thoughts, feelings and perceptions keep changing, but being aware stays the same.
 3. Nothing that happens adds to it or takes anything from it.
 4. So its nature is peace and happiness.
+
 #### Question: Open
 id:: 2fe5836f-b7d7-438c-9b99-92d013e89746
 content::
