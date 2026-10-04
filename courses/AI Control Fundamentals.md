@@ -20,8 +20,6 @@ Value prop:
 Agreed with Elias, 2026-10-04 (after the Elias and Luc call that day and the #6-course-design thread "Is Teaching Control Net Negative?"):
 - An 80/20 intro.
 - Three questions: A. what control is and who works on it (Units 1 and 2); B. should anyone work on it (Units 3 and 4); C. your own view (Unit 5).
-- Learning-outcome tests grade reasoning, never which side the learner lands on.
-- Staging only until Elias promotes. Unit 1 due 2026-10-05, Units 2 to 5 due 2026-10-11.
 
 Research behind this course: Lens/Research/AI Control intro course (debate catalog, learning-outcome draft, critique).
 %%
