@@ -15,11 +15,11 @@ source:: [[../shared/Session Doc - How today works (3 rooms)]]
 \pagebreak
 ### Room 1: The catastrophe you built  [0:05–0:19]
 
-Go around your group. Two things, in this order, and finish the first before anyone starts the second.
+Go around your group. Two things, in this order, and finish the first before anyone starts the second.{>>{"author":"AI","timestamp":1791094773724}@@AI (mild): an over-specified rule ("finish the first before anyone starts the second"). With the clipped "Two things." it reads machine-written.<<}
 
-1. Did you finish the unit? How was it? It’s absolutely fine if you couldn’t finish. Just share that.
-2. Early in the unit you were asked to build a catastrophe with no villain. Nobody plans it, no accident, ordinary systems doing what they were told. Read yours out.
-    - If you did not write one, build one now. Take two minutes; the group will wait. A fresh one works just as well.
+1. Did you finish the unit? How was it? It’s absolutely fine if you couldn’t finish. Just share that.{>>{"author":"AI","timestamp":1791094774491}@@AI (mild, recurring): stock reassurance.<<}
+2. Early in the unit you were asked to build a catastrophe with no villain. Nobody plans it, no accident, ordinary systems doing what they were told.{>>{"author":"AI","timestamp":1791094775516}@@AI (mild): a definition built from fragments. Otherwise this item is a good exercise reminder: it says what the exercise was and gives people who skipped it a way in.<<} Read yours out.
+    - If you did not write one, build one now. Take two minutes; the group will wait. A fresh one works just as well.{>>{"author":"AI","timestamp":1791094776173}@@AI (mild): reassurance tags ("the group will wait", "works just as well").<<}
     - Scribe: write one line per person saying where their catastrophe starts. You will need these in the next room.
 
 
@@ -107,7 +107,7 @@ Whole group, no breakout room.
 2. Today, send your accountability partner one line: what is most likely to stop you finishing the next unit, and your plan.
 
 
-Use the Lens Coach (https://lensacademy.org/coach) between sessions. One question for the post-meeting survey's feedback box: some of you have said this course is too hard; others have said that is why you are here. Which are you, and what specifically would you change? Be blunt. Your answer reaches the people building this course, and they do change it.
+Use the Lens {--{"author":"AI","timestamp":1791094772981}@@Coach (https://lensacademy.org/coach)--}{++{"author":"AI","timestamp":1791094772981}@@Tutor (https://lensacademy.org/tutor)++} between sessions. One question for the post-meeting survey's feedback box: some of you have said this course is too hard; others have said that is why you are here. Which are you, and what specifically would you change? Be blunt. Your answer reaches the people building this course, and they do change it.
 
 
 ---
