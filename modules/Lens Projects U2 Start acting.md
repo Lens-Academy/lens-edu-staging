@@ -217,7 +217,7 @@ duration_minutes:: 10
 content::
 \## Log your day
 
-Add an entry for each day you work on your project this unit, including the days you got stuck.
+Add an entry for each day you work on your project this unit, including the days you got stuck. **Fill it in before Meeting 2**, so the meeting starts from what you actually did.
 
 #### Widget
 source:: [[../widgets/lens-projects-report-card-u2]]
