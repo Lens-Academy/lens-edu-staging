@@ -1,7 +1,7 @@
 ---
 title: "Double Crux — A Strategy for Mutual Understanding"
 author:
-  - "Duncan Sabien (Inactive)"
+  - "Duncan Sabien"
 source_url: "https://www.lesswrong.com/posts/exa5kmvopeRyfJgCy/double-crux-a-strategy-for-mutual-understanding"
 published: 2017-01-02
 created: 2026-10-04

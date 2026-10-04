@@ -8,7 +8,7 @@ tags:
 %% Unit 4 of AI Control Fundamentals. Time (reading+tutor): welcome 3+3, slop 15+11, better schemers 14+13, superintelligence 5+8, profit-only 9+11, warning shots 12+14, safety-washing 7+12, adversarial 12+8, practice 3+19, plus about 16 for the two learning-outcome tests. About 195 minutes. %%
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Classifying criticisms of AI {--{"author":"James agent ready-34's AI","timestamp":1791117935156}@@control-2]]--}{++{"author":"James agent ready-34's AI","timestamp":1791117935156}@@control]]++}
+source:: [[../Learning Outcomes/Classifying criticisms of AI control]]
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Ways AI control could backfire]]

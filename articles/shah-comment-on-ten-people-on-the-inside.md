@@ -3,7 +3,7 @@ title: "Comment on Ten people on the inside"
 author:
   - "Rohin Shah"
 source_url: "https://www.greaterwrong.com/posts/WSNnKcKCYAffcnrt2/ten-people-on-the-inside/comment/NHpqQodRJBaCjjvoB"
-published: {--{"author":"James agent ready-34's AI","timestamp":1791116352823}@@2026-10-04--}{++{"author":"James agent ready-34's AI","timestamp":1791116352823}@@2025-01-30++}
+published: 2025-01-30
 created: 2026-10-04
 accessed: 2026-10-04
 llm-review:
