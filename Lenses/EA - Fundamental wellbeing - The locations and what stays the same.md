@@ -2,7 +2,7 @@
 id: '4f88f902-68e8-47d4-aa7b-62bedf0b48f3'
 title: "The locations and what stays the same"
 tldr: "Martin's interviewees describe four broad locations, from a quieter mind with fleeting emotions to no emotion and no sense of agency. The same paper reports what did not change: personality, implicit bias, signs of stress their partners could see, and in some cases the state itself."
-summary_for_tutor: "Reading lens from Martin's preprint 'Clusters of Individual Experiences form a Continuum of Persistent Non-Symbolic Experiences in Adults' (50 interviewees, 6-12 hour interviews). Sections: the continuum and how traditions shape progress along it (Christian version ends about two-thirds of the way, some Buddhist traditions go further); the summary of Locations 1 to 4 (L1: much less self-related thought, emotions pass in seconds, deep peace that triggers can suppress; L2: fewer thoughts, more positive emotions, sense of a correct path; L3: one constant emotion of impersonal compassion, joy and love, union; L4 and beyond: no self-related thought, no emotion, no unity feeling, no agency, memory deficits for non-routine appointments, highest reported wellbeing); agency at the far end with participants still in demanding jobs; dogmatism and the Theravada teacher who called a participant 'stuck in a jhana' then changed his mind; personality unchanged and others rarely noticed, except formerly depressed people; 17 people lost PNSE after 1 to 23 years (3 brain injury or illness, 9 extreme stress, 5 no clear reason); stress disconnect: a participant reported deep peace while his girlfriend saw poor sleep, appetite change, mood change, tense muscles, lower sex drive, poor health, same in three participants; yoga sessions showed participants overestimated body awareness; white male participants who said they could no longer be biased showed bias on Project Implicit tests (Martin says these use physiology, but Project Implicit says its score is based on sorting speed); three people rejected the far end, one felt he had 'lost his humanity' toward his daughter. Then recall, processing, and a learning question on the claim that Location 4 is clearly the best place to be."
+summary_for_tutor: "Reading lens from Martin's preprint 'Clusters of Individual Experiences form a Continuum of Persistent Non-Symbolic Experiences in Adults' (50 interviewees, 6-12 hour interviews). Sections: the continuum and how traditions shape progress along it (Christian version ends about two-thirds of the way, some Buddhist traditions go further); the summary of Locations 1 to 4 (L1: much less self-related thought, emotions pass in seconds, deep peace that triggers can suppress; L2: fewer thoughts, more positive emotions, sense of a correct path; L3: one constant emotion of impersonal compassion, joy and love, union; L4 and beyond: no self-related thought, no emotion, no unity feeling, no agency, memory deficits for non-routine appointments, highest reported wellbeing); agency at the far end with participants still in demanding jobs; dogmatism and the Theravada teacher who called a participant 'stuck in a jhana' then changed his mind; personality unchanged and others rarely noticed, except formerly depressed people; 17 people lost PNSE after 1 to 23 years (3 brain injury or illness, 9 extreme stress, 5 no clear reason); stress disconnect: a participant reported deep peace while his girlfriend saw poor sleep, appetite change, mood change, tense muscles, lower sex drive, poor health, same in three participants; yoga sessions showed participants overestimated body awareness; white male participants who said they could no longer be biased showed bias on Project Implicit tests (Martin says these use physiology, but Project Implicit says its score is based on sorting speed); three people rejected the far end, one felt he had 'lost his humanity' toward his daughter. Then Martin in the 2023 Clearer Thinking podcast with Spencer Greenberg: Location 4 brings 'freedom' from no longer caring what people think, but can make people 'kind of a jerk' to others and they generally want to be alone. Then recall, processing, and a learning question on the claim that Location 4 is clearly the best place to be."
 reading_minutes: 25
 tutor_minutes: 12
 tags:
@@ -58,6 +58,15 @@ Martin writes that Project Implicit "uses physiology". Project Implicit itself s
 from:: Not everyone welcomed non-symbolic experience (NSE).
 to:: Eventually these reconstructed into emotions that could more easily be focused on, and finally enabled them to exit the experience.
 
+#### Text
+content::
+In 2023, Spencer Greenberg asked Martin on the *Clearer Thinking* podcast whether anyone should want to reach Location 4. Here is his answer, up to the point where he moves on to brain imaging.
+
+#### Article
+source:: [[../articles/greenberg-experiments-for-enlightenment-and-fundamental-wellbeing-with-jeffery-martin]]
+from:: **SPENCER:** Locations One through Three, they sound kind of awesome.
+to:: People that are in Location Four or later generally want to be alone.
+
 #### Question: Open
 id:: 4bba6c28-13ef-49fa-a64b-95d8456ba8ff
 content::
@@ -75,6 +84,7 @@ Key points:
 - 17 people lost PNSE after 1 to 23 years: 3 after brain injury or illness, 9 in extremely stressful times, 5 for no clear reason.
 - The stress disconnect: a participant whose father and sister died reported deep peace, while his girlfriend saw poor sleep, appetite and mood changes, tense muscles, lower sex drive and declining health. The same in three participants. In yoga sessions participants thought they were relaxed when the instructor found tension. White male participants who said they could no longer be biased showed bias on Project Implicit tests.
 - Three people rejected the far end. One felt he had "lost his humanity" because he no longer felt intense love for his daughter, took three months to leave, and called the time since the most meaningful of his life.
+- Martin in a 2023 podcast: people at Location 4 most often describe "freedom", which he attributes to no longer caring at all what people think of them. The downsides: this can make someone "kind of a jerk" from other people's perspective, and people at Location 4 or later generally want to be alone.
 
 Your role is a brief, honest mirror. 80 to 140 words, short paragraphs, no lists. Acknowledge what is right without inflation, name the most important missing points (especially the stress disconnect and the losses, if missing), correct errors in one sentence, normalise gaps. No re-teaching, no follow-up questions. One turn, then tell them to move on.
 
@@ -99,6 +109,7 @@ Points a strong answer finds (any two or three are good):
 - Participants in every location tended to see their current location as the ideal, even after moving back and forth. Their rankings are not independent of where they are.
 - What is lost: emotion (including love for one's child, as the man who felt he had "lost his humanity" put it), any sense of agency, and memory for non-routine appointments. Whether that is worth it depends on what you value, which the wellbeing reports cannot settle.
 - Some people rejected the far end and later called their life after it the most meaningful.
+- Martin himself, in 2023, says Location 4 can make people "kind of a jerk" from others' perspective and that they generally want to be alone.
 - The state is not guaranteed to last: 17 people lost PNSE, 9 under extreme stress.
 - The sample: 50 self-selected volunteers, almost all evidence from interviews.
 - Holding demanding jobs shows functioning, but personality and outward behaviour changed little, so jobs say little about inner wellbeing either way.
