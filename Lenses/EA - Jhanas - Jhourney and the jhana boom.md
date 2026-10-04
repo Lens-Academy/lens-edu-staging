@@ -73,4 +73,4 @@ Reflect their choice back precisely. Then give the strongest counterpoint the ar
 content::
 \## If you want more
 ::card[[../Lenses/EA - Jhanas - A week at a jhana retreat]]
-> A researcher and writer describes his own Jhourney retreat day by day, which states he reached, and how it changed his beliefs. He paid for the retreat himself.
+> A blogger describes his own Jhourney retreat day by day, which states he reached, and how it changed his beliefs. He says Jhourney did not sponsor the post.
