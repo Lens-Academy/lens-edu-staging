@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-So far the routes have run through one company's safety team. This paper, by researchers at the UK AI Security Institute and Redwood Research, sketches a different use of control: as the evidence in a "safety case", an argument a developer could be asked to make before deploying a model. The middle part of the post, on how the evaluation is run, is collapsed. You met the method in Unit 1.
+So far the routes have mostly run through one company's safety team. This paper, by researchers at the UK AI Security Institute and Redwood Research, sketches a different use of control: as the evidence in a "safety case", an argument a developer could be asked to make before deploying a model. Shlegeris is one of its authors. About three weeks after it came out, in the interview you just read ([recorded in February 2025](https://80000hours.org/podcast/episodes/buck-shlegeris-ai-control-scheming/)), he said high-assurance safety cases now seem implausible to him. Keep both in mind. The middle part of the post, on how the evaluation is run, is collapsed. You met the method in Unit 1.
 
 #### Article
 source:: [[../articles/korbak-a-sketch-of-an-ai-control-safety-case]]
