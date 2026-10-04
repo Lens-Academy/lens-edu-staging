@@ -9,10 +9,14 @@ tags: [wip]
 # Lens: Welcome to Unit 2
 id:: fda18542-98c3-40f4-b2dc-a77d59ecf0ef
 tldr:: This unit you leave the plan and meet reality: test your riskiest assumption with real people, build a rough first version, and revise your proposal.
-summary_for_tutor:: Opening page of Unit 2 (Start acting) of Lens Projects. It lists the unit's goals and three levels of effort. If the learner is anxious about contacting people, point them to the minimum level and the one-message option.
+summary_for_tutor:: Opening page of Unit 2 (Start acting) of Lens Projects. It starts with what Meeting 2 will be about, then lists the unit's goals and three levels of effort. If the learner is anxious about contacting people, point them to the minimum level and the one-message option.
 duration_minutes:: 5
 #### Text
 content::
+\## This unit prepares you for Meeting 2
+
+In Meeting 2 you show your rough first version, the real thing rather than an update about it, and say in one sentence what testing your assumption taught you. The group asks: Who acts on this? What would make you switch? At the end, your navigator pairs you with a review partner. Bring your rough version open and ready to show, and your report card, filled in before the meeting.
+
 \## In this unit
 
 - Test your riskiest assumption with people from your audience
@@ -200,6 +204,7 @@ content::
 - Your rough first version, open and ready to show
 - One sentence on what testing your assumption taught you
 - Proposal draft 2
+- Your report card, with at least one entry
 
 In the meeting, the group will ask: Who acts on this? What would make you switch? Your navigator pairs review partners at the end.
 
