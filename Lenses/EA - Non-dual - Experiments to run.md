@@ -37,6 +37,15 @@ force-feedback:: first
 feedback-instructions:: The learner did Douglas Harding's pointing experiment as presented by Richard Lang on headless.org: point at things in the room, at the foot, knee and chest, then at where others see your face, and notice whether any colour, shape or movement is seen there. Lang reports finding "no colour or shape" but "boundless capacity or awareness". The learner describes what they saw.
 
 Reflect their description back precisely. Separate what they saw (for example: no face, a blur of nose, the finger, the room) from interpretation (for example: "boundless awareness", "my true nature"). If their report matches Lang's, ask one question: did seeing this change how they felt, or only what they noticed? The school's happiness claim needs the first. If they saw something different (for example the edge of their nose or glasses), treat that as a real finding. Do not tell them what they should have seen. 50 to 100 words. One reply, then send them on. No generic praise.
+#### Callout: More on the headless way
+collapse:: closed
+#### Text
+content::
+In this essay for *Psyche*, the researcher Brentyn Ramm explains how Harding's experiments relate to Zen and Advaita, and gives a second experiment with a mirror. About 10 minutes.
+#### Article
+source:: [[../articles/ramm-to-experience-zen-like-awakening-try-going-the-headless-way]]
+optional:: true
+#### End Callout
 
 #### Callout: Another two-minute experiment
 collapse:: closed
