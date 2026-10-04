@@ -3,7 +3,7 @@ id: 69615c7b-49e1-431b-8748-3f6de6fef21e
 slug: overview
 # Module slug-aliases did not resolve on staging when tested 2026-10-02; kept for when the platform supports them.
 slug-aliases: [introduction-to-navigating-superintelligence]
-title: {--{"author":"Elua's AI","timestamp":1790966037856}@@Introduction to AI Extinction Risk Foundations--}{++{"author":"Elua's AI","timestamp":1790966037856}@@Overview++}
+title: Overview
 discussion: https://discord.com/channels/1440725236843806762/1465349126073094469
 ---
 
