@@ -71,4 +71,4 @@ Real debates between people who disagree about control, including those that fol
 
 \## What comes after
 
-If you want to go deeper into how control works in practice, our Advanced AI Control 1, 2 and 3 courses, built on XLab's AI Control track, cover the founding paper, control protocols, monitoring, collusion and more. They are available for self-study and are less polished than this course.
+If you want to go deeper into how control works in practice, our [Advanced AI Control 1](https://lensacademy.org/ai-control-1), [Advanced AI Control 2](https://lensacademy.org/ai-control-2) and [Advanced AI Control 3](https://lensacademy.org/ai-control-3) courses, built on XLab's AI Control track, cover the founding paper, control protocols, monitoring, collusion and more. They are available for self-study.
