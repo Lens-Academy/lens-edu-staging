@@ -19,7 +19,7 @@ source:: [[../Learning Outcomes/Control evaluation methodology]]
 # Learning Outcome:
 source:: [[../Learning Outcomes/Control limits as capabilities scale]]
 
-# Lens: Welcome to XLab's AI Control course
+# Lens: Welcome to AI Control 1
 id:: 661f1953-fa90-4ba5-a4b1-3e7aeb0c2d0a
 reading_minutes:: 5
 tutor_minutes:: 0
