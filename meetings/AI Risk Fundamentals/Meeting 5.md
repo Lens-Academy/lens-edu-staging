@@ -63,7 +63,7 @@ Then, as a group, discuss this question and **write your shared response** in th
 > **And if your group rejects the halt, what do you endorse instead?** Anything can be a valid answer (even keep going), but you have to defend it.
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens {--{"author":"AI","timestamp":1791094654376}@@Coach](https://lensacademy.org/coach)--}{++{"author":"AI","timestamp":1791094654376}@@Tutor](https://lensacademy.org/tutor)++} and ask for an explanation.
 
 
 | Names | Weakest link in the proposal | Your group's verdict |
