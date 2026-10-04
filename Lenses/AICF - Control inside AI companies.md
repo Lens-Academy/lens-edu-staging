@@ -32,6 +32,7 @@ Finally, a government team that tests these monitors from outside. In July 2026 
 source:: [[../articles/ai-security-institute-how-our-control-red-team-is-stress-testing-frontier-monitors]]
 from:: As LLM agents become more autonomous, they have more opportunities to cause harm.
 to:: so the best attack strategy avoids actions being sent to the monitor entirely.
+
 #### Question: Open
 id:: ede9f6e9-f600-4991-a591-0cc2a9fe8589
 content::
