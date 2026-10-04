@@ -72,9 +72,9 @@ feedback-instructions:: Practice question before the unit's learning-outcome tes
 #### Question: Open
 id:: 5dddb88d-bd0f-46cb-99e4-a2a7be541dd4
 content::
-A friend says: "High-stakes threats are the ones where the most harm is at stake. Low-stakes threats are the minor ones." What is right and what is wrong about this?
+A friend says: "If a bad action is quiet and hard to notice, the threat is low-stakes. If it is loud and obvious, it is high-stakes." What is right and what is wrong about this?
 force-feedback:: first
-feedback-instructions:: Practice question. Reference answer: the names suggest harm, but in control they describe how the damage is spread over actions. High-stakes means a few actions (or a short time) are enough, so each action matters a lot. Low-stakes means many actions are needed and each one alone matters little and is only weak evidence. Both can end in catastrophe, for example Shlegeris's case of a model slowly manipulating public opinion is low-stakes and could still be catastrophic. What the friend gets right: in a high-stakes threat each single action does carry a lot of harm. Reply in at most four sentences: confirm what is right, give the most important correction. One turn. No generic praise.
+feedback-instructions:: Practice question. Reference answer: the friend mixes up how easy an action is to notice with how many actions a threat needs and how incriminating each one is once found. A single quiet action, such as a hidden backdoor, is still high-stakes if one or a few such actions are enough and the action is strong evidence of intent once found. What the friend gets partly right: low-stakes threats are made of actions that each look harmless, but that is because each is only weak evidence even when inspected, not merely because it is hard to spot. The names can also mislead the other way: low-stakes does not mean minor, for example Shlegeris's case of a model slowly manipulating public opinion is low-stakes and could still be catastrophic. Reply in at most four sentences: confirm what is right, give the most important correction. One turn. No generic praise.
 
 # Lens:
 source:: [[../Lenses/AICF - Areas of control work]]
