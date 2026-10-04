@@ -10,7 +10,7 @@ tags:
 Target audience (people with one or more of these):
 - has done AI Risk Fundamentals or an equivalent intro
 - is deciding what to work on in AI safety and keeps hearing about control
-- wants an overview of the field (technical or governance), not hands-on control research
+- wants an overview of the field
 
 Value prop:
 - In five units you understand what control is, who works on it, and whether it is worth working on, including the live 2026 debate after the Hugging Face incident
