@@ -10,7 +10,9 @@ tags:
 ---
 #### Text
 content::
-Wellbeing science measures happiness mostly by asking people. A typical study gives a few numbered scales (how satisfied are you with your life, how often did you feel joyful, sad, angry), then looks for what goes with high scores, what follows from them and what changes them. The psychologist most associated with this approach is Ed Diener, who created the Satisfaction With Life Scale ([Diener, Emmons, Larsen and Griffin 1985](https://eddiener.com/scales/9)) and wrote the textbook chapter below. Module 2 used its first sections, which split happiness into life satisfaction, frequent positive feelings and infrequent negative feelings. Here are its claims about causes, consequences, measurement and what to do.
+Wellbeing science measures happiness mostly by asking people. A typical study gives a few numbered scales (how satisfied are you with your life, how often did you feel joyful, sad, angry), then looks for what goes with high scores, what follows from them and what changes them. Answers that people give about themselves like this are called **self-report**.
+
+The researchers' name for what these scales measure is **subjective wellbeing (SWB)**: high life satisfaction, frequent positive feelings and infrequent negative feelings, taken together. Ed Diener, who created the Satisfaction With Life Scale ([Diener, Emmons, Larsen and Griffin 1985](https://eddiener.com/scales/9)), wrote the textbook chapter below. Module 2 used its first sections. Here are its claims about causes, consequences, measurement and what to do.
 
 #### Article
 source:: [[../articles/diener-happiness-the-science-of-subjective-well-being]]
@@ -39,17 +41,24 @@ Acknowledge what they got right without inflation, name the most important missi
 #### Question: Open
 id:: a174a8fb-dba9-4e7d-855d-be0d862053ce
 content::
-How did this land? What seemed convincing, what did you doubt, and what was missing for you?
+How did this reading land for you? Write whatever comes, for example something that convinced you, something you doubted or something you missed.
 force-feedback:: first
 feedback-instructions:: The learner read Diener's account of the causes, outcomes and measurement of subjective well-being and says how it landed. This is a processing step, not a teaching step. Help them say their reaction more precisely, do not resolve it. If they are sceptical (for example of self-report, or of happiness causing health and success, which the chapter partly bases on correlations), treat that as a legitimate stance and ask what evidence would convince them. If they are confused, ask what exactly is unclear. If it resonated, ask what it connected to. If they say the chapter does not address deep or stable peace, say that the next question is about exactly that. 50 to 90 words per reply. At most two replies. No generic praise.
 
 #### Question: Open
 id:: b36a2e6b-f4ef-400b-80f2-97ad344c9904
 content::
-This course is about a particular target: deep, stable peace and happiness that does not depend on outside circumstances. Suppose you filled in Diener's scales (life satisfaction, and how often you felt positive, negative, joyful, afraid and so on) every month for a year. What part of that target would the scores pick up, and what would they miss? Give one concrete example of a person or a month where the scores and the target would come apart.
+This course is about a particular target: deep, stable peace and happiness that does not depend on outside circumstances. Suppose you filled in Diener's scales (life satisfaction, and how often you felt positive, negative, joyful, afraid and so on) every month for a year. Which parts of that target would the scores pick up, and which would they miss?
 force-feedback:: first
 feedback-instructions:: The learner considers how well Diener's subjective well-being scales (life satisfaction, frequency of positive and negative feelings over recent weeks) would capture the course's target state: deep, stable peace and happiness that does not depend on circumstances. There is no single right answer, and the course does not decide whether the target is achievable.
 
 Points a strong answer may notice: the scales would pick up fewer negative feelings and more positive ones, and stability if repeated over time. They would miss how peaceful the positive feelings are (a calm content person and an excited one can score the same), whether the peace depends on circumstances (scores taken in a good year cannot show what happens in a bad one, so you would need scores across hard events), and anything not felt as an emotion word, such as equanimity while pain is present. Life satisfaction is a judgement about one's life, which can be high while feelings are mixed, or low in someone who is at peace but whose life does not match their ideals. Self-report can be biased by mood or by wanting to see oneself as calm.
 
-Reply with the strongest point in their answer, then one point they did not consider, phrased as a question. Accept any well-reasoned example. If they argue the scales capture the target well, ask how the scales would tell apart peace that does not depend on circumstances from a lucky year. 80 to 130 words. At most two replies. No generic praise.
+Reply with the strongest point in their answer, then one point they did not consider, phrased as a question. If they argue the scales capture the target well, ask how the scales would tell apart peace that does not depend on circumstances from a lucky year. 80 to 130 words. At most two replies. No generic praise.
+
+#### Question: Open
+id:: 0a1bef3e-9d51-4511-ba40-94ea2121fc43
+content::
+Describe one concrete person or month where Diener's scores and the target of deep, stable peace would come apart.
+force-feedback:: first
+feedback-instructions:: The learner gives one concrete example where subjective well-being scores (life satisfaction, frequency of positive and negative feelings) and the course's target state (deep, stable peace that does not depend on circumstances) come apart. Good examples include: someone calm through a bereavement whose negative-feeling score still rises because sadness is present, someone excited and busy in a lucky month who scores high but whose calm would collapse under loss, someone at peace whose life does not match their ideals so life satisfaction is low, or someone who reports high scores because they want to see themselves as calm. Accept any example that is concrete and shows the two diverging. If the example does not actually show a divergence, say which part of it the scores would capture after all, and ask for a sharper case. 50 to 90 words. One reply, at most two. No generic praise.
