@@ -37,7 +37,7 @@ One or two people share what their group landed on.
 ---
 
 \pagebreak
-### Room 2: Sort five new threats  [0:24–0:42]
+### Room 2: Sort four new threats  [0:24–0:42]
 
 **New group. Names first, then straight in.**
 
@@ -173,7 +173,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:00–0:05 | Lobby / welcome (whole group) |
 | 0:05–0:19 | R1 One bad action or a thousand (breakout, aim 3) |
 | 0:19–0:24 | Back together (whole group) |
-| 0:24–0:42 | R2 Sort five new threats (reshuffle) |
+| 0:24–0:42 | R2 Sort four new threats (reshuffle) |
 | 0:42–0:47 | Back together (whole group) |
 | 0:47–0:52 | Break |
 | 0:52–1:10 | R3 Place the project, size up the field (reshuffle) |
@@ -193,7 +193,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 2. Name the new format (small breakout rooms of 3, new people each time, and a five-minute get-together after each room where anyone can share what their group landed on)
 3. Tell them the doc is in the chat + Discord and to open it + check they can type
 4. Run through the arc
-    - opening round and one action or a thousand → sorting five new threats → placing projects and sizing up the field → next unit, your question, feedback
+    - opening round and one action or a thousand → sorting four new threats → placing projects and sizing up the field → next unit, your question, feedback
     - say the meeting will take 90 min
 5. Inform participants that you will be jumping between rooms with your camera turned off to listen in and they can ask questions whenever you join
 6. Start room 1
@@ -231,7 +231,7 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 
 **General, all rooms.** This course presents why people work on control and the criticisms of it, and asks each participant to form their own view by Unit 5. Never steer a group toward a verdict on control, on whether the field should grow, or on whether the companies' monitoring is enough. If a group asks what you think, turn it back to them. Collect everyone's answer before any explanation. The unit is about 3.5 hours, so expect part of the room not to have finished: every prompt works from the doc alone, so do not re-teach.
 **Room 1, One bad action or a thousand.** The welcome page of the unit asked the same prediction, so some will have an earlier answer to compare. Take gut answers, not arguments. Both answers are fine, and Room 2 gives them something concrete to argue about.
-**Room 2, Sort five new threats.** The point is the sorting reason, not the label. If a group sorts by how bad the outcome is, point them back to the two questions in the doc. For your own use, likely discussion, not an answer key: the settings change is the clearest high-stakes case (one action, damning if inspected). The paper summaries and the public posts are the clearest low-stakes cases (many actions, each weak evidence). Shlegeris gives slowly manipulating public opinion as a catastrophe without a rogue deployment. The capability-test score and the approved backdoor are where groups should disagree: both may need only one or a few actions, but each could pass as an honest mistake. Hebbar calls that corner (few actions, weakly incriminating) the hard one, and says research sabotage might sit there. Ask 4 connects to what companies already run: a case can look low-risk and still be one of very few actions a catastrophe needs. Do not say which rule is better.
+**Room 2, Sort four new threats.** The point is the sorting reason, not the label. If a group sorts by how bad the outcome is, point them back to the two questions in the doc. Keep ask 1 to about seven minutes so asks 2 and 3 get time. For your own use, likely discussion, not an answer key: the settings change is the clearest high-stakes case (one action, damning if inspected). The paper summaries are the clearest low-stakes case (many actions, each weak evidence). The capability-test score and the approved backdoor are where groups should disagree: both may need only one or a few actions, but each could pass as an honest mistake. Hebbar calls that corner (few actions, weakly incriminating) probably hopeless, and says research sabotage might sit there. Ask 4 connects to what companies already run: a case can look low-risk and still be one of very few actions a catastrophe needs. Do not say which rule is better.
 **Room 3, Place the project, size up the field.** Keep ask 1 quick (about five minutes) so ask 3 gets time. For your own use: a monitor benchmark needs only models, so a nonprofit or government institute can do it. The 3 a.m. rules are human processes for control, which Greenblatt says are probably most doable at AI companies. Checking a company's claim needs independence plus the company's cooperation, so an outside evaluator such as METR. A written argument can come from anyone. Accept other reasoned placements. For ask 3, the unit itself says whether a small field means control needs more people is disputed, and Unit 4 takes it up. Expect answers such as "more people needed", "the counts miss the teams inside AI companies", "small does not mean neglected" and "other approaches may matter more". All are fair. Do not rank them.
 **Room 4, Next unit, your question, feedback.** Push for a concrete plan (when, where, how much at a time), not a promise. The question in ask 2 is for the participant to carry into the next unit, so it can be anything about control.
 
