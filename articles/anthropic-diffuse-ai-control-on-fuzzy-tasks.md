@@ -1,9 +1,12 @@
 ---
 title: "Diffuse AI Control on Fuzzy Tasks"
 author:
-  - "Anthropic"
+  - {--{"author":"James agent ready-34's AI","timestamp":1791136455213}@@"Anthropic"--}{++{"author":"James agent ready-34's AI","timestamp":1791136455213}@@"Mikhail Terekhov"
+  - "Caglar Gulcehre"
+  - "Vivek Hebbar"
+  - "Joe Benton"++}
 source_url: "https://alignment.anthropic.com/2026/diffuse-ai-control/"
-published: 2026-10-04
+published: {--{"author":"James agent ready-34's AI","timestamp":1791136455213}@@2026-10-04--}{++{"author":"James agent ready-34's AI","timestamp":1791136455213}@@2026-06-23++}
 created: 2026-10-04
 accessed: 2026-10-04
 llm-review:
