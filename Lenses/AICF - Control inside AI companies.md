@@ -8,11 +8,11 @@ tutor_minutes: 9
 ---
 #### Text
 content::
-Aryan Bhatt leads the high-stakes control team at Redwood Research. In the first ten minutes of this talk he describes what AI companies say they will do about control and what they already run. He refers to the companies' published safety policies (Anthropic's RSP, Google DeepMind's Frontier Safety Framework, OpenAI's Preparedness Framework).
+Aryan Bhatt leads the high-stakes control team at Redwood Research. In this six-minute part of a talk he describes what AI companies already run, how people outside the companies check it, and how much risk he thinks there is today. Earlier in the talk he went through the companies' published safety policies (Anthropic's RSP, Google DeepMind's Frontier Safety Framework, OpenAI's Preparedness Framework), which include risk reports and third-party review of them.
 
 #### Video
 source:: [[../video_transcripts/far-ai-aryan-bhatt-the-high-stakes-control-roadmap-now-to-the-singularity]]
-from:: 0:00
+from:: 4:53
 to:: 10:44
 
 #### Text
