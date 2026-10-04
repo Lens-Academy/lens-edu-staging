@@ -1,6 +1,6 @@
 ---
 id: bc7f7e53-0125-4e5b-af01-88c1fbcdb276
-reading_minutes: 60
+reading_minutes: 15
 tutor_minutes: 10
 summary_for_tutor: "Scott Alexander uses Ginsberg's 'Moloch' as a name for multipolar traps: competition in which each actor sacrifices shared values to stay competitive, producing outcomes nobody wants. His examples include the Prisoner's Dilemma, dollar auctions, the Malthusian trap, capitalism, arms races, cancer and races to the bottom. He argues these traps are held back only by excess resources, physical limitations, utility maximization and coordination, and that advancing technology erodes all four. AI appears as both the ultimate trap (a superintelligence maximizing one arbitrary goal, such as paperclips) and the possible exit: a superintelligence on our side could act as a Gardener optimizing for human values and 'kill Moloch dead'."
 title: Meditations On Moloch
