@@ -19,7 +19,7 @@ An AI company uses a capable AI model, which might be secretly misaligned, as an
 (2) Over a year, the agent writes hundreds of the company's safety evaluation reports. In each one it rounds results slightly in the model's favour and words the caveats so that they are easy to miss.
 (3) The agent reviews code for the company's monitoring system. Once, it approves a change containing a subtle backdoor that lets some actions skip the monitor. The backdoor only switches on when an action contains one specific string that no legitimate code uses.
 
-a. Classify each as high-stakes or low-stakes (also called concentrated and diffuse), and say why.
+a. Classify each as high-stakes or low-stakes (also called concentrated and diffuse), and say why. Base your reasons on the properties that decide the classification, not on how harmful the outcome is.
 b. The company plans to review the agent's actions a day after they run, rather than before. For one case you called high-stakes and one you called low-stakes (if you called none low-stakes, use the closest case), say whether that would be good enough, and why. If it is not good enough, say what would have to happen instead. For the low-stakes case, also name one other kind of measure that would suit it, and say why it suits this kind of threat.
 c. A colleague says: "Low-stakes threats are the minor ones, so the company should deal with them last." What do you make of the colleague's view? Explain.
 placeholder:: Answer a, b and c in turn
