@@ -157,7 +157,7 @@ style:: faq
 Your navigator isn't in every room, so:
 
 - **Confused about the task, or want a human?** Click “••• More” > “Ask for Help” > Your navigator gets pinged and pops into your room.
-- **Don't get the question, or something in the reading?** Ask the [Lens {--{"author":"AI","timestamp":1791094661360}@@Coach](https://lensacademy.org/coach).--}{++{"author":"AI","timestamp":1791094661360}@@Tutor](https://lensacademy.org/tutor).++} It's for understanding, not for handing you the answer.
+- **Don't get the question, or something in the reading?**{>>{"author":"AI","timestamp":1791094729068}@@AI (mild, recurring): "for understanding, not for handing you the answer" below is an "X, not Y" contrast.<<} Ask the [Lens {--{"author":"AI","timestamp":1791094661360}@@Coach](https://lensacademy.org/coach).--}{++{"author":"AI","timestamp":1791094661360}@@Tutor](https://lensacademy.org/tutor).++} It's for understanding, not for handing you the answer.
 - **Lost the doc link, or a quick logistics thing?** Check the **Discord channel** or the Zoom chat.
 
 ### Before you arrive
@@ -193,7 +193,7 @@ Your navigator isn't in every room, so:
 ### After we wrap
 
 - **What happens at 1:30?** We close on time. The meeting then stays open; hang around and keep talking if you'd like, no pressure.
-- **How do accountability buddies work?** Your relationship with your accountability buddy doesn’t have to end with the course. Swap whatever the last room asked you to take away: a plan, a next step, or simply what changed your mind.
+- **How do accountability buddies work?** Your relationship with your accountability buddy doesn’t have to end with the course.{>>{"author":"AI","timestamp":1791094729886}@@AI (strong): another "doesn't have to end" line. Clarity: it no longer answers the question it sits under ("How do accountability buddies work?").<<} Swap whatever the last room asked you to take away: a plan, a next step, or simply what changed your mind.
 
 # Tab: Navigator Run-Sheet
 
