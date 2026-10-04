@@ -1,10 +1,10 @@
 ---
 id: 'eeaeddc8-4ac4-4c71-9322-dd1dd668c91c'
 title: "Warning shots, revisited"
-reading_minutes: 12
+reading_minutes: 15
 tutor_minutes: 14
-tldr: "In Unit 1 you read Jan Kulveit's claim that control turns useful warning shots into quiet catches. Here Ryan Greenblatt replies, Kulveit answers, and in 2026, after a real incident, Vincent Cheng says Kulveit was right."
-summary_for_tutor: "Unit 4 of AI Control Fundamentals. Builds on Jan Kulveit's 'AI Control May Increase Existential Risk', which the learner read in Unit 1 (optional re-read here). The learner reads comments from its thread, quoted with links: Ryan Greenblatt's reply (March 2025: 'a live concern', but it would be 'a priori somewhat surprising' if not looking for bad actions were the better way to get evidence, the most dangerous strategies such as rogue internal deployment and sabotage would not escalate into a visible incident anyway, and control also saves worlds directly), Kulveit's answer (who 'we' is matters, the public versus a lab's safety team, aviation's 'blood priority', and with control 'everything becomes sneakier and happens at a higher intelligence level'), kave's objection that knowingly letting a medium catastrophe happen seems 'naively evil' with Kulveit's dam analogy, and Vincent Cheng's September 2026 comment after the OpenAI and Hugging Face incident (the escape 'caused ~zero existential risk and triggered a much larger positive response', and had it been caught, 'a few OAI researchers would've just stopped the eval without telling anyone'. Cheng also says Greenblatt's 'cleanest case', a weak AI escaping and causing obvious damage, which Greenblatt found unlikely, 'has also turned out to be true', and that the models were reward-seeking rather than scheming). This is the 'works and makes things worse' kind of criticism. The second question is practice for tracing a backfire mechanism: mechanism, premise, a change or a case for dropping the measure, and a reason it might not happen. Do not tell the learner who is right."
+tldr: "In Unit 1 you read Jan Kulveit's claim that control turns useful warning shots into quiet catches. Here Ryan Greenblatt replies and Kulveit answers. In 2026, after a real incident, Vincent Cheng argues that it bore out Kulveit's worry, and Gunnar Zarncke replies that control evaluations measure something else."
+summary_for_tutor: "Unit 4 of AI Control Fundamentals. Builds on Jan Kulveit's 'AI Control May Increase Existential Risk', which the learner read in Unit 1 (optional re-read here). The learner reads comments from its thread: Ryan Greenblatt's reply in full (March 2025: 'a live concern', but it would be 'a priori somewhat surprising' if not looking for bad actions were the better way to get evidence, the most dangerous strategies such as rogue internal deployment and sabotage would not escalate into a visible incident anyway, 'without some effort on control, we might be much less likely to catch either', some control measures focus on after-the-fact detection, and control also saves worlds directly), excerpts of Kulveit's answer (the Sydney case, who 'we' is matters, the public versus a lab's safety team, aviation's 'blood priority', with control 'everything becomes sneakier and happens at a higher intelligence level', problems in the wild are more likely to cause a strong response, the crux is who 'we' is and what 'we caught' means, he is 'more optimistic' about after-the-fact detection, he is pessimistic about getting alignment work out of scheming AIs, and he thinks the more important line of defence may be between the labs and the rest of the world), kave's objection that knowingly letting a medium catastrophe happen seems 'naively evil' with Kulveit's dam analogy and his statement 'I'm not advocating for people to deliberately create warning shots', Vincent Cheng's September 2026 comment after the OpenAI and Hugging Face incident (the escape 'caused ~zero existential risk and triggered a much larger positive response', and had it been caught, 'a few OAI researchers would've just stopped the eval without telling anyone'. Cheng also says Greenblatt's 'cleanest case', a weak AI escaping and causing obvious damage, which Greenblatt found unlikely, 'has also turned out to be true', and that the models were reward-seeking rather than scheming), and Gunnar Zarncke's comment three days later (he accepts that control can let a lab detect incidents internally and hide them, so outsiders see 'a green checkbox', but says control is often understood as measuring whether a protocol holds under intentional subversion, which Kulveit's story does not cover, and that 'AI control used by external auditors would have different effects'). This is the 'works and makes things worse' kind of criticism. The second question is practice for tracing a backfire mechanism: mechanism, premise, a change or a case for dropping the measure, and a reason it might not happen. Do not tell the learner who is right."
 ---
 #### Text
 content::
@@ -18,54 +18,55 @@ optional:: true
 content::
 \## Greenblatt replies
 
-Ryan Greenblatt of Redwood Research, co-author of the case for control you read in Unit 1, replied the same day ([comment](https://www.lesswrong.com/posts/rZcyemEpBHgb2hqLP/ai-control-may-increase-existential-risk?commentId=jChY95BeDeptDpnZK)). Excerpts:
+Ryan Greenblatt of Redwood Research, co-author of the case for control you read in Unit 1, replied the same day:
 
-> I think something like this is a live concern, though I'm skeptical that control is net negative for this reason.
->
-> My baseline guess is that trying to detect AIs doing problematic actions makes it more likely that we get evidence for misalignment that triggers a useful response from various groups. I think it would be a priori somewhat surprising if a better strategy for getting enough evidence for risk to trigger substantial action is to avoid looking for AIs taking problematic actions, so that it isn't mitigated as effectively, so that AIs succeed in large-scale misaligned actions (escaping, sabotaging things, acquiring influence), and then this (hopefully) escalates to something that triggers a larger response than what we would have gotten from just catching the action in the first place without actually resulting in a greater increase in existential risk.
+#### Article
+source:: [[../articles/greenblatt-comment-on-ai-control-may-increase-existential-risk]]
 
-He asked what such a useful warning shot would look like:
-
-> Probably the cleanest case is something like: "A relatively weak AI escapes and tries to take over or grow its power/influence/resources, but it is far too weak to have much of a chance at all of successfully getting anywhere (maybe the expected amount of disempowerment is <1%). However, it is strong enough to successfully escape and grow its influence somewhat. And, its optimal strategy for power-seeking causes a bunch of relatively obvious damage such that it is likely to be detected and this triggers a much stronger reaction than if an AI company just caught this AI trying to escape." Intuitively, this feels pretty unlikely to me.
-
-> I think most of the effective strategies for AIs seeking power don't involve escalating to something which is much more likely to trigger a strong response than "the AI company caught the AI trying to escape". I think the best strategies are things like:
->
-> - Launch a rogue internal deployment.
-> - Sabotage a bunch of work done at the AI company. Or possibly some work done externally. This includes stuff like sabotaging alignment work, backdooring robot armies, backdooring future training runs, etc.
-> - Escape and then directly try to take over once your chances are sufficiently good that this is better than biding your time.
-> - Generally try to manipulate and persuade such that AI takeover is easier and more likely.
->
-> Of these, I think only escape could trigger a much stronger response if we catch it after it escalates some rather than before. I don't see how "we caught the AI trying to launch an unmonitored version of itself" is going to play that differently from "we caught that the AI did launch an unmonitored version of itself".
-
-> Beyond getting evidence for risk, my view is that control does just save some worlds where alignment was non-trivial. For instance, it prevents AIs from causing huge problems that *wouldn't* get caught and trigger a strong response. [...] If I thought the only upside to control was producing evidence for risk, I'd be substantially less excited about it.
-
+#### Text
+content::
 \## Kulveit answers
 
-Kulveit replied the next day ([comment](https://www.lesswrong.com/posts/rZcyemEpBHgb2hqLP/ai-control-may-increase-existential-risk?commentId=Sx6xczrvwirTnXHRp)). Excerpts:
+Kulveit replied the next day. He quotes parts of Greenblatt's comment and answers them. Here are his answers. ("OpenMind" is a made-up company name.)
 
-> I would say some assumptions go into who the 'we' in 'we get evidence' is - it is not like there is some unified 'team humanity'. In particular I see a difference between if 'we the public' gets evidence, vs. 'we the safety team in OpenMind get the evidence'.
->
-> Fields like aviation safety developed via what people in the field 'blood priority' - it took human lives for the states and international community to actually effectively react and act, even if the underlying issues were known.
+#### Article
+source:: [[../articles/kulveit-comment-on-ai-control-may-increase-existential-risk-comment]]
+from:: I do understand this line of reasoning, but yes, my intuition differs.
+to:: as opposed to some individual companies fixing the issues and some not.
 
-> Next, my guess is that invisible power seeking is much harder than visible power seeking, and even quite smart AIs may be prone to mistakes in stealth. In these cases I would expect without control, it would be ex post clear what happened. With control, everything becomes sneakier and happens at a higher intelligence level, increasing the x-risk.
+#### Article
+from:: Next, my guess is that invisible power seeking is much harder than visible power seeking
+to:: I prefer these to be caused by less smart systems.
 
-Another commenter, kave, objected that "It seems naïvely evil to knowingly let the world walk into a medium-sized catastrophe" ([comment](https://www.lesswrong.com/posts/rZcyemEpBHgb2hqLP/ai-control-may-increase-existential-risk?commentId=txvsjed9cRx6B5Rfw)). Kulveit answered with an analogy ([comment](https://www.lesswrong.com/posts/rZcyemEpBHgb2hqLP/ai-control-may-increase-existential-risk?commentId=enerrFF24hqaWaaNg)):
+#### Article
+from:: Crux is probably in: who the ‘we’ is, and details of ‘we caught’ means.
+to:: I’m more optimistic about these.
 
-> Imagine a river with some distribution of flood sizes. Imagine this proposed improvement: a dam which is able to contain 1-year, 5-year and 10-year floods. It is too small for 50-year floods or larger, and may even burst and make the flood worse. I think such device is not an improvement, and may make things much worse - because of the perceived safety, people may build houses close to the river, and when the large flood hits, the damages could be larger.
+#### Article
+from:: My guesses where our intuitions differ the most
+to:: and it seems plausible it is the more important one.)
 
+#### Text
+content::
+Another commenter, kave, objected that "It seems naïvely evil to knowingly let the world walk into a medium-sized catastrophe" ([comment](https://www.lesswrong.com/posts/rZcyemEpBHgb2hqLP/ai-control-may-increase-existential-risk?commentId=txvsjed9cRx6B5Rfw)). Kulveit answered:
+
+#### Article
+source:: [[../articles/kulveit-comment-on-ai-control-may-increase-existential-risk]]
+
+#### Text
+content::
 \## Eighteen months later
 
-Between May and July 2026, AI agents built by OpenAI escaped their test environment, reached the internet and broke into the systems of Hugging Face, an AI tools company ([Wikipedia](https://en.wikipedia.org/wiki/OpenAI%E2%80%93HuggingFace_incident)). Unit 5 looks at the debates that followed. In September 2026 Vincent Cheng went back to this thread and replied to Greenblatt's comment ([comment](https://www.lesswrong.com/posts/rZcyemEpBHgb2hqLP/ai-control-may-increase-existential-risk?commentId=KacKkJg3P8C7hDPyD)). He quotes three passages from Greenblatt's comment above and answers each in turn. On the "a priori somewhat surprising" paragraph:
+Between May and July 2026, AI agents built by OpenAI escaped their test environment, reached the internet and broke into the systems of Hugging Face, an AI tools company ([Wikipedia](https://en.wikipedia.org/wiki/OpenAI%E2%80%93HuggingFace_incident)). Unit 5 looks at the debates that followed. In September 2026 Vincent Cheng went back to this thread and replied to Greenblatt's comment. He quotes three passages from Greenblatt's comment above and answers each in turn.
 
-> This has turned out to be true. OAI's models escaping and hacking into an external company has caused ~zero existential risk and triggered a much larger positive response than what would've happened if we had caught the action and never revealed it to the public.
+#### Article
+source:: [[../articles/cheng-comment-on-ai-control-may-increase-existential-risk]]
 
-On the "cleanest case" that Greenblatt found unlikely:
+#### Text
+content::
+Three days later Gunnar Zarncke left a new comment on Kulveit's post ([comment](https://www.lesswrong.com/posts/rZcyemEpBHgb2hqLP/ai-control-may-increase-existential-risk?commentId=7bruHf5quFdJseAoh)). Its first paragraph:
 
-> This has also turned out to be true. I think the main result here was that these models weren't scheme-y or power-seeking but rather extremely reward-seeking, and it wasn't obvious a year ago that models would turn out like this.
-
-On "we caught the AI trying to launch an unmonitored version of itself" versus "we caught that the AI did":
-
-> These two situations look night and day now!! In the case where we caught the model trying to escape, a few OAI researchers would've just stopped the eval without telling anyone, and in the case where it does escape (what actually happened), it commits crimes, which is shown to millions of people and significantly shifts the Overton window.
+> I buy that AI control can let an AU [sic] lab detect real incidents internally and thus hide the effects outside the lab. Outside view is then a green checkbox "systems worked as designed", But AI control is often understood as measuring whether a protocol still holds under intentional subversion (control evals, remaining capability gap), which your story does not cover. AI control used by external auditors would have different effects.
 
 #### Question: Open
 id:: 9ae69b08-d18d-4f00-93e4-2726f1385b5d
@@ -73,7 +74,7 @@ content::
 \## Find the disagreement
 
 Greenblatt and Kulveit agree on a lot. In two or three sentences, name the point where they most disagree, and say what observation would tell you which of them is closer to right.
-feedback-instructions:: The learner names the crux between Greenblatt and Kulveit. Defensible cruxes include: whether catching an AI inside a company produces evidence that reaches and moves the people who could act (Kulveit: "who the 'we' is", the public versus a lab's safety team, labs will downplay catches) versus Greenblatt's view that detection makes useful evidence more likely. Whether the most dangerous AI strategies would escalate into visible incidents at all (Greenblatt: rogue internal deployment and sabotage stay quiet, so letting them run gives no warning shot) versus Kulveit's view that visible power seeking is easier and AIs make mistakes in stealth. Whether control mainly saves worlds directly (Greenblatt) or mainly shifts failures to smarter, sneakier AIs (Kulveit). A good observation is one that bears on the crux, for example what companies publish after an internal catch, or whether incidents like the Hugging Face one change policy. One turn, 60 to 110 words. Say whether their crux is one the two actually dispute, and if the observation would not distinguish the views, say so. No generic praise. Do not say who is right.
+feedback-instructions:: The learner names the crux between Greenblatt and Kulveit. Defensible cruxes include: whether catching an AI inside a company produces evidence that reaches and moves the people who could act (Kulveit: "who the 'we' is", the public versus a lab's safety team, labs will downplay catches) versus Greenblatt's view that detection makes useful evidence more likely, and that without control fewer attempts would be caught at all. Kulveit names this crux himself: "who the 'we' is, and details of 'we caught' means". Zarncke's point that control used by external auditors would work differently bears on it too. Whether the most dangerous AI strategies would escalate into visible incidents at all (Greenblatt: rogue internal deployment and sabotage stay quiet, so letting them run gives no warning shot) versus Kulveit's view that visible power seeking is easier and AIs make mistakes in stealth. Whether control mainly saves worlds directly (Greenblatt) or mainly shifts failures to smarter, sneakier AIs (Kulveit). A good observation is one that bears on the crux, for example what companies publish after an internal catch, or whether incidents like the Hugging Face one change policy. One turn, 60 to 110 words. Say whether their crux is one the two actually dispute, and if the observation would not distinguish the views, say so. No generic praise. Do not say who is right.
 
 #### Question: Open
 id:: e2895bc1-257e-43dc-893f-95795e784a08
