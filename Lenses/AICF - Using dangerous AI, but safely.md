@@ -55,7 +55,7 @@ content::
 \## Part 3: the first protocols
 
 #### Video
-from:: 13:32.5
+from:: 12:50
 to:: 17:41.2
 
 #### Text
