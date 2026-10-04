@@ -112,5 +112,3 @@ force-feedback:: first
 content::
 Buck's answer assumes the model is already egregiously misaligned. Does it answer the worry that control could make models more adversarial in the first place?
 feedback-instructions:: Optional question. Buck argues that controlling a model that only wants to take over does not make things worse for it except by stopping the takeover, and that deals and payment for AIs would make him more comfortable. This addresses fairness toward models that are already misaligned. It does not address the worry in the two studies, which is about models that are not yet adversarial becoming more so because of how they are trained or treated. A learner may argue Buck's proposal of deals and payment speaks to that worry indirectly. Accept that if reasoned. One turn, 60 to 120 words. Name what they got right and the most important point they missed. No generic praise. Do not dismiss the worry or overstate it.
-
-#### End Callout
