@@ -163,7 +163,7 @@ content::
 
 Three minutes each: the audience and the change you aimed for, what you made, what you are least sure of, and your ask of the room. Then questions.
 
-Come with one next step for your work, with a date.
+Come with one next step for your work, with a date, and your report card, with at least one entry.
 
 \## Possible next steps
 
@@ -178,7 +178,7 @@ duration_minutes:: 10
 content::
 \## Log your day
 
-Add an entry for each day you work on your project this unit. Your reflection prompts this time look back over the whole course.
+Add an entry for each day you work on your project this unit. **Fill it in before Meeting 5**, so the meeting starts from what you actually did. Your reflection prompts this time look back over the whole course.
 
 #### Widget
 source:: [[../widgets/lens-projects-report-card-u5]]
