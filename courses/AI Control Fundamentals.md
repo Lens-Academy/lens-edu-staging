@@ -26,6 +26,7 @@ Unit 1 goals (What control is):
 - Tell a control claim from an alignment claim, and say why a control claim can be tested
 - Trusted versus untrusted models
 - How a control evaluation works, at concept level
+- Meet a first criticism: Jan Kulveit's argument that control may turn useful warning shots into quiet catches
 - Write down a gut view on control, revisited in Unit 5
 %%
 

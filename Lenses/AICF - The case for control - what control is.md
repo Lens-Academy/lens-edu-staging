@@ -8,7 +8,7 @@ tutor_minutes: 24
 ---
 #### Text
 content::
-This is the opening of the post that started AI control, by Ryan Greenblatt and Buck Shlegeris of Redwood Research (2024). It defines control and sets it beside alignment. Then you test three deployment setups yourself. Two more setups are optional at the end.
+This is the opening of a founding post of AI control, by Ryan Greenblatt and Buck Shlegeris of Redwood Research (2024). It defines control and sets it beside alignment. Then you test three deployment setups yourself. Two more setups are optional at the end.
 
 #### Article
 source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
