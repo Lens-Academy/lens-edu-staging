@@ -16,8 +16,8 @@ source:: [[../shared/Session Doc - How today works]]
 ### Room 1: Icebreaker  [0:05–0:19]
 
 Go around your group:
-1\. How was working through this unit's content? Denser or easier than the previous units? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
-2\. Something in this unit landed on you: a number, a claim, a limit nobody has solved yet. What was it, and what did it do to you? Hope, unease, irritation and relief are all answers.
+1\. How was working through this unit's content? Denser or easier than the previous units? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.){>>{"author":"AI","timestamp":1791094814456}@@Clarity (recurring): four questions in one item. AI (mild, recurring): stock reassurance.<<}
+2\. Something in this unit landed on you: a number, a claim, a limit nobody has solved yet. What was it, and what did it do to you? Hope, unease, irritation and relief are all answers.{>>{"author":"AI","timestamp":1791094815348}@@AI (strong): "landed on you", "what did it do to you?" and "…are all answers" are typical Claude phrasing. The opening also asserts that something landed instead of asking. Clarity: two questions in this item.<<}
 3\. Five units in: are you more or less hopeful that a pause could actually be checked? Which part of the course did that?
 
 
@@ -41,8 +41,8 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Offline licensing: a chip runs only while a licence server keeps renewing its token; whoever controls that server holds the key. The unit's line: **an off-switch for someone else's compute is only as acceptable as the answers to who holds the key, what happens when the server is down, and who reverses a mistake.**
-Design the key for a US-China pause:
+Offline licensing: a chip runs only while a licence server keeps renewing its token; whoever controls that server holds the key. The unit's line:{>>{"author":"AI","timestamp":1791094816503}@@AI (mild): "The unit's line:" then an "only as X as Y" aphorism in bold. The wording is accurate (it is the summary of the hardware-authorization lens), but it is a long sentence to read in a breakout.<<} **an off-switch for someone else's compute is only as acceptable as the answers to who holds the key, what happens when the server is down, and who reverses a mistake.**
+Design the key for a US-China pause:{>>{"author":"AI","timestamp":1791094817346}@@Clarity (mild): "design the key" leans on the metaphor. The questions below are really about who controls the licence server.<<}
 1\. Who holds it: one government, both, or several who must agree?
 2\. The server is unreachable for a day: do chips keep running (fail open) or stop (fail closed)?
 3\. A false alarm shuts down a hospital's lawful AI cluster: who reverses it, and who pays?
@@ -50,7 +50,7 @@ Design the key for a US-China pause:
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question?{>>{"author":"AI","timestamp":1791094818252}@@AI (mild, recurring): "help or an explanation … ask for an explanation" repeats itself, and it is the same stock line in every doc.<<} Copy it into the [Lens {--{"author":"AI","timestamp":1791094813618}@@Coach](https://lensacademy.org/coach)--}{++{"author":"AI","timestamp":1791094813618}@@Tutor](https://lensacademy.org/tutor)++} and ask for an explanation.
 
 
 | Names | Your key design + fail open or closed + would both sign? |
@@ -99,8 +99,8 @@ One or two people share what their group landed on.
 ### Room 4: Your ongoing action  [1:15–1:27]
 
 **New group. Names first, then straight in.**
-Part 1 ends today, but your action plan doesn't.
-1\. In Unit 1 you read Plan A, a proposed regime for verifying an international agreement, and voted: adopt, amend, or reject. Same vote now? (Don't remember it? Vote on what you would accept today.)
+Part 1 ends today, but your action plan doesn't.{>>{"author":"AI","timestamp":1791094819108}@@AI (strong, recurring): "X ends, but Y doesn't" closer. The same line closes AIRF M5 and AIF M5.<<}
+1\. In Unit 1 you read Plan A, a proposed regime for verifying an international agreement, and voted: adopt, amend, or reject. Same vote now? (Don't remember it? Vote on what you would accept today.){>>{"author":"AI","timestamp":1791094819905}@@Note: a good exercise reminder. Worth keeping as it is.<<}
 2\. Share the one action you choose to keep doing after this course, and its first concrete step with a date. Tell your accountability buddy too. For example:
 
 - read one verification paper a week
