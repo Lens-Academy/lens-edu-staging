@@ -10,7 +10,7 @@ tags:
 # Lens: Your feedback on Unit 2
 id:: d317bc2e-331a-4119-b547-ca71f855af94
 tldr:: Tell us how Unit 2 went, so we can improve it.
-summary_for_tutor:: Feedback page after Unit 2 (Attack trees and the control game) of AI Control 1. The learner rates the unit and says what was most useful and what was confusing, too long or not worth their time. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
+summary_for_tutor:: Feedback page after Unit 2 (Attack trees and the control game) of AI Control 1. The learner rates the unit and says what one thing they would change about the unit. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
 reading_minutes:: 2
 tutor_minutes:: 0
 #### Text
@@ -49,14 +49,11 @@ labels::
 - Essential
 
 #### Question: Open
-id:: b48c2377-df30-4d0e-8059-d76bbcd31655
-content:: What was the most useful part of this unit?
-
-#### Question: Open
-id:: 816ad222-84ca-4db1-895d-c45c76dcb422
-content:: What was confusing, too long, or not worth your time?
+id:: c3928e0d-e934-460b-b679-654426730a7f
+content:: If we could change one thing about this unit, what should it be?
 
 #### Question: Open
 id:: fc703640-e396-422c-8432-730e9e40253c
 content:: Anything else you want to share?
+placeholder:: For example: what was most useful, or what was confusing, too long, or not worth your time.
 optional:: true

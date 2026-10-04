@@ -10,7 +10,7 @@ tags:
 # Lens: Your feedback on Unit 1
 id:: 2ead09b2-7e50-4bed-bc9d-1b2492f7913f
 tldr:: Tell us how Unit 1 went, so we can improve it.
-summary_for_tutor:: Feedback page after Unit 1 (Why control) of AI Control 1. The learner rates the unit and says what was most useful and what was confusing, too long or not worth their time. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
+summary_for_tutor:: Feedback page after Unit 1 (Why control) of AI Control 1. The learner rates the unit and says what one thing they would change about the unit. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
 reading_minutes:: 2
 tutor_minutes:: 0
 #### Text
@@ -49,14 +49,11 @@ labels::
 - Essential
 
 #### Question: Open
-id:: c15454a4-05ec-4ce3-af5a-03de0682543f
-content:: What was the most useful part of this unit?
-
-#### Question: Open
-id:: 1d9835fa-16fc-46be-a712-cb2771db762c
-content:: What was confusing, too long, or not worth your time?
+id:: 0df856de-8aa6-423b-9a8a-f363a03b8e5a
+content:: If we could change one thing about this unit, what should it be?
 
 #### Question: Open
 id:: 215469d0-2506-478f-9b85-090b2cf089a3
 content:: Anything else you want to share?
+placeholder:: For example: what was most useful, or what was confusing, too long, or not worth your time.
 optional:: true

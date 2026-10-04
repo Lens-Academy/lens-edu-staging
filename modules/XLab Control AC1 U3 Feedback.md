@@ -10,7 +10,7 @@ tags:
 # Lens: Your feedback on Unit 3
 id:: 4eb8992e-2966-4edb-823f-8e593fb14db1
 tldr:: Tell us how Unit 3 went, so we can improve it.
-summary_for_tutor:: Feedback page after Unit 3 (Monitors you can't trust, and handing the work to AI) of AI Control 1. The learner rates the unit and says what was most useful and what was confusing, too long or not worth their time. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
+summary_for_tutor:: Feedback page after Unit 3 (Monitors you can't trust, and handing the work to AI) of AI Control 1. The learner rates the unit and says what one thing they would change about the unit. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
 reading_minutes:: 2
 tutor_minutes:: 0
 #### Text
@@ -49,14 +49,11 @@ labels::
 - Essential
 
 #### Question: Open
-id:: 0752b3ac-9b95-45a0-aa04-6c9e2f5bdc3a
-content:: What was the most useful part of this unit?
-
-#### Question: Open
-id:: a945acb4-bc22-4c77-9b0c-433241500014
-content:: What was confusing, too long, or not worth your time?
+id:: f7e43b2c-dc43-4b67-89ba-c1b3a66212b9
+content:: If we could change one thing about this unit, what should it be?
 
 #### Question: Open
 id:: 17907be2-a75f-4498-8ad3-c0288a2e2ad8
 content:: Anything else you want to share?
+placeholder:: For example: what was most useful, or what was confusing, too long, or not worth your time.
 optional:: true
