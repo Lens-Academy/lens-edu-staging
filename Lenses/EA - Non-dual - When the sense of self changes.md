@@ -21,7 +21,7 @@ tone:: neutral
 collapse:: closed
 #### Text
 content::
-Three philosophers of mind argue that depersonalisation and the selflessness meditators seek feel alike on the surface but are opposite states. Their argument is theoretical and has not been tested.
+Three researchers in philosophy and cognitive science argue that depersonalisation and the selflessness meditators seek feel alike on the surface but are opposite states. Their argument is theoretical and has not been tested.
 #### Article
 source:: [[../articles/PLACEHOLDER-deane]]
 from:: PLACEHOLDER
@@ -40,7 +40,7 @@ Help the learner make their criteria concrete. Useful signs in the readings: whe
 #### Text
 content::
 \## Going further
-Spiritual bypassing is a related risk. The psychotherapist John Welwood coined the term for using spiritual ideas and practices to avoid facing emotional problems and human needs. In the optional reading below he argues that the claim "your true nature needs nothing" can be used to dismiss the fact that, as a human, you do need people.
+Spiritual bypassing is a related risk. The psychotherapist John Welwood coined the term for using spiritual ideas and practices to avoid facing emotional problems and human needs. In the optional interview below he speaks from Buddhism, but his point applies directly to this module's claim that happiness does not depend on anything. He argues that "absolute truth" can be used to dismiss "relative human needs", and that while one's deepest nature may not depend on anything, "our human embodiment" does.
 optional:: true
 
 #### Article
