@@ -9,10 +9,14 @@ tags: [wip]
 # Lens: Welcome to Unit 4
 id:: 3a891e7b-7571-480e-bdb2-a8e46bec9759
 tldr:: Review your partner's draft, revise from the review you got, finish the work and write it up honestly.
-summary_for_tutor:: Opening page of Unit 4 (Polish) of Lens Projects. It lists the unit's goals and three levels of effort. If the learner's project did not work out, point out that the minimum level, a write-up of what they tried and why their idea changed, counts as finishing.
+summary_for_tutor:: Opening page of Unit 4 (Polish) of Lens Projects. It starts with what Meeting 4 will be about, then lists the unit's goals and three levels of effort. If the learner's project did not work out, point out that the minimum level, a write-up of what they tried and why their idea changed, counts as finishing.
 duration_minutes:: 5
 #### Text
 content::
+\## This unit prepares you for Meeting 4
+
+In Meeting 4 you bring one point from your review that you rejected, and your reason. The group takes your reviewer's side and tests that reason. Then each person says what is finished and what is still a labelled gap. Bring the rejected point, your draft write-up, and your report card, filled in before the meeting.
+
 \## In this unit
 
 - Write a review of your partner's draft against the rubric, and send it within three days
