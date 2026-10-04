@@ -57,7 +57,7 @@ Ryan Greenblatt's plans, from most to least political will (willingness of compa
 - **Plan C:** governments do little, but the leading company's leadership spends its few months of lead on safety.
 - **Plan D:** the leading company does not take misalignment seriously, but 10 to 30 people inside do, with a small share of compute.
 
-1\. Each person takes one or two routes. What is the lowest plan at which each still does real work?
+1\. Each person takes one or two routes. Going down from Plan A to Plan D, what is the last plan in which each route still makes a real difference?
 2\. At that plan, who has to act for the route to work?
 3\. Pick one route where you disagree about its plan. What does the disagreement turn on?
 4\. If you still have time: which plan is the world closest to today, and why?
