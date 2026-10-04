@@ -58,3 +58,6 @@ notes:: "Does not work" criticisms: Jozdien on capability evaluations and select
 ## Lens:
 source:: [[../Lenses/AICF - Safety-washing and false confidence]]
 notes:: The false-confidence case of the "makes things worse" kind.
+## Lens:
+source:: [[../Lenses/AICF - What about superintelligence]]
+notes:: A two-sided criticism (MIRI: does not work for superintelligence, and not worth the effort), with Redwood and a UK AISI co-authored paper agreeing on the limit.

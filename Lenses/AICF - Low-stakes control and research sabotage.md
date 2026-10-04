@@ -13,7 +13,7 @@ Vivek Hebbar works at Redwood Research ([Redwood Research blog](https://blog.red
 #### Video
 source:: [[../video_transcripts/far-ai-vivek-hebbar-low-stakes-control-controlconf]]
 from:: 0:00
-to:: 22:36
+to:: 16:28
 
 #### Question: Open
 id:: 0ec07687-8a63-4cb0-957c-74a33e2faf36
@@ -35,7 +35,7 @@ feedback-instructions:: Key points from the talk. Incrimination means becoming c
 collapse:: closed
 
 #### Video
-from:: 22:36
+from:: 16:28
 optional:: true
 
 #### End Callout
