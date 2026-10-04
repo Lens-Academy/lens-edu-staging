@@ -10,7 +10,7 @@ summary_for_tutor: "Unit 4 of AI Control Fundamentals. The neglectedness and acc
 content::
 Some safety work would get done even if nobody worried about catastrophe, because it also makes AI more useful to sell. Critics say that kind of work is not neglected, and that doing it may mostly speed AI up. Here are two versions of this criticism and three replies.
 
-First, Oliver Habryka, in a 2024 dialogue with Ryan Greenblatt about control. Greenblatt had argued that future AIs, if kept under control, could do safety research far better than we can today.
+First, Oliver Habryka, in a 2024 dialogue with Ryan Greenblatt about control. Greenblatt had just argued that "it's hard to compete with future AI researchers" on safety work, so a good plan is to keep early, useful AIs under control and have them do much of that work.
 
 #### Article
 source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
