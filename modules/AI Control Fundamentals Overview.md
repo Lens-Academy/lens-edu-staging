@@ -1,16 +1,16 @@
 ---
 id: 'a2fd71fd-a143-4d31-952e-ea58504f8096'
-slug: intro-to-ai-control-overview
+slug: ai-control-fundamentals-overview
 title: "Course Overview"
 tags:
   - work-in-progress
 ---
-%% Orientation module before Unit 1 of Intro to AI Control, the 80/20 intro to AI control (built October 2026 after the Elias and Luc call of 2026-10-04 and the #6-course-design thread "Is Teaching Control Net Negative?"). Goals agreed with Elias on 2026-10-04: A. what control is and who works on it (Units 1 and 2); B. whether anyone should work on it, theory of change, arguments for and against (Units 3 and 4); C. the learner's own view from real debates (Unit 5). Balanced by design: tests grade reasoning, never which side the learner lands on. The opening note on possible net harm was asked for by Elias (2026-10-04): no names, no quotes. Keep the unit summaries in sync with the unit modules as they are built. %%
+%% Orientation module before Unit 1 of AI Control Fundamentals, the 80/20 intro to AI control (built October 2026 after the Elias and Luc call of 2026-10-04 and the #6-course-design thread "Is Teaching Control Net Negative?"). Goals agreed with Elias on 2026-10-04: A. what control is and who works on it (Units 1 and 2); B. whether anyone should work on it, theory of change, arguments for and against (Units 3 and 4); C. the learner's own view from real debates (Unit 5). Balanced by design: tests grade reasoning, never which side the learner lands on. The opening note on possible net harm was asked for by Elias (2026-10-04): no names, no quotes. Keep the unit summaries in sync with the unit modules as they are built. %%
 
 # Lens: About This Course
 id:: 4808f026-c30f-4ec7-8bb1-e63501be6b9b
 tldr:: What AI control is, who works on it, and whether it is worth working on. Five units, each ending in a group meeting, and at the end a view of your own on whether control helps or harms.
-summary_for_tutor:: Orientation page before Unit 1 of Intro to AI Control, Lens Academy's introductory course on AI control. The learner reads what control is in one paragraph, a note that some people (including people at Lens) think control work may do more harm than good, which is why the course spends most of its time on the theory of change and the arguments for and against, and that the course aims to help the learner form their own view; then the three questions the course answers, what they will be able to do at the end, how the units run (about three and a half to four hours of self-study each, a short test at the end of each unit, a group meeting), what each of the five units covers, and that the XLab-based AI Control 1, 2 and 3 courses are the deeper follow-on for self-study. Do not argue for or against control here; if the learner asks what Lens thinks, say the team is genuinely unsure and that the course is built to let them judge for themselves.
+summary_for_tutor:: Orientation page before Unit 1 of AI Control Fundamentals, Lens Academy's introductory course on AI control. The learner reads what control is in one paragraph, a note that some people (including people at Lens) think control work may do more harm than good, which is why the course spends most of its time on the theory of change and the arguments for and against, and that the course aims to help the learner form their own view; then the three questions the course answers, what they will be able to do at the end, how the units run (about three and a half to four hours of self-study each, a short test at the end of each unit, a group meeting), what each of the five units covers, and that the XLab-based AI Control 1, 2 and 3 courses are the deeper follow-on for self-study. Do not argue for or against control here; if the learner asks what Lens thinks, say the team is genuinely unsure and that the course is built to let them judge for themselves.
 reading_minutes:: 5
 tutor_minutes:: 0
 #### Text

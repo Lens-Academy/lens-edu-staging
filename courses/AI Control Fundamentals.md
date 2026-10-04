@@ -1,7 +1,7 @@
 ---
 id: '893023b2-6d85-49a8-9f7b-505af138e99e'
-slug: intro-to-ai-control
-title: "Intro to AI Control"
+slug: ai-control-fundamentals
+title: "AI Control Fundamentals"
 description: "What AI control is, who works on it, and whether it is worth working on. Five units of about three and a half to four hours of self-study, each closing with a group meeting: what control is and how it differs from alignment; the key ideas and the field; why people work on control; the case against, including how it could make things worse; and real debates, ending with a view of your own."
 tags:
   - work-in-progress
@@ -34,7 +34,7 @@ Unit 1 goals (What control is):
 - Write down a gut view on control, revisited in Unit 5
 %%
 
-# Module: [[../modules/Intro to AI Control Overview|Course Overview]]
+# Module: [[../modules/AI Control Fundamentals Overview|Course Overview]]
 
 # Meeting: Unit 1
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
