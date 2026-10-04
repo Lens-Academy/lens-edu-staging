@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-Psychologists' "hedonic treadmill" model says that good and bad events affect happiness only briefly, before people adapt back to where they were ([Diener, Lucas and Scollon 2006](https://labs.psychology.illinois.edu/~ediener/Documents/Diener-Lucas-Scollon_2006.pdf)). This lens shows the best-known case for it and what later research found.
+Psychologists' "hedonic treadmill" model says that good and bad events affect happiness only briefly, before people adapt back to a neutral level ([Diener, Lucas and Scollon 2006](https://labs.psychology.illinois.edu/~ediener/Documents/Diener-Lucas-Scollon_2006.pdf)). This lens shows the best-known case for it and what later research found.
 
 The quiz you just took is a version of the one at the start of Dan Gilbert's TED talk "The surprising science of happiness". After the quiz he says that "a year after losing the use of their legs, and a year after winning the lotto, lottery winners and paraplegics are equally happy with their lives." He then describes the "impact bias": we expect events to affect us more, and for longer, than they do. The whole talk (21 minutes) is optional. The box below the talk is not.
 

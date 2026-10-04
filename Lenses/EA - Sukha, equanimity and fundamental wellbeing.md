@@ -32,7 +32,7 @@ content::
 Next, a short discourse attributed to the Buddha that grades pleasure and equanimity into three levels. Two terms you need:
 - **Jhana**: "mental absorption. A state of strong concentration focused on a single physical sensation (...) or mental notion" ([Access to Insight glossary](https://www.accesstoinsight.org/glossary.html)).
 - **Fermentation-ended monk**: Thanissaro translates *asava* as "fermentation" ([same glossary](https://www.accesstoinsight.org/glossary.html)). A monk whose fermentations have ended is an arahant, a fully awakened person.
-- **Pleasure** in this translation is *sukha*. The same glossary lists "sukha (pleasure)" among the factors of jhana and translates *sukha* as "pleasure; ease; satisfaction" ([same glossary](https://www.accesstoinsight.org/glossary.html)).
+- **Pleasure** in this translation is *sukha*. The same glossary lists "sukha (pleasure)" among the factors of jhana and gives "pleasure", "ease" and "satisfaction" as translations of *sukha* ([same glossary](https://www.accesstoinsight.org/glossary.html)).
 
 #### Article
 source:: [[../articles/bhikkhu-niramisa-sutta-not-of-the-flesh]]
