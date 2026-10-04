@@ -1,10 +1,10 @@
 ---
 id: '594c6358-d4ed-4298-a691-e343e8828f86'
 title: "Experiments you can run"
-tldr: "A ten-minute pointing experiment from a method Martin's course teaches, a way to measure any practice block with the questionnaires his study used, and a check that does not depend on your own report: someone who lives with you."
-summary_for_tutor: "Experiments lens of the fundamental wellbeing library module. (1) The Headless Way pointing experiment from headless.org (commentary by Richard Lang): point at objects, then at where others see your face, and notice what is found there. Martin's 6-week Program 2 taught the Headless Way as one of its main methods (Martin et al. 2023 preprint). (2) Measuring a practice block the way Martin's study did: the study had participants take the Authentic Happiness Inventory, CES-D, PERMA, Satisfaction with Life Scale, Gratitude Questionnaire, Fordyce Emotions Questionnaire and Meaning in Life Questionnaire on the University of Pennsylvania Authentic Happiness site in the week before and the week after the programme, with at least one continuous hour of practice a day for six weeks. Our suggestion adds two checks from Martin's 2013 paper: a partner rates sleep, appetite, mood, muscle tension, sex drive and health (the signs the girlfriend reported), and a recovery-time log after upsets (participants reported 2 to 90 seconds back to baseline). (3) The paid course itself, 45 Days to Awakening (497 US dollars per the Finders Course FAQ, about 1.5 hours a day for six weeks), measured the same way. Safety: Martin's 2015 slides show dissociation and depersonalisation scores rose over the course. Cheetah House supports people with meditation-related difficulties. Ends with a planning question."
-reading_minutes: 15
-tutor_minutes: 5
+tldr: "A ten-minute pointing experiment from a method Martin's course teaches, a week of loving-kindness as one participant did it, a way to measure any practice block with the questionnaires his study used, and a check that does not depend on your own report: someone who lives with you."
+summary_for_tutor: "Experiments lens of the fundamental wellbeing library module. (1) The Headless Way pointing experiment from headless.org (commentary by Richard Lang): point at objects, then at where others see your face, and notice what is found there. Martin's 6-week Program 2 taught the Headless Way as one of its main methods (Martin et al. 2023 preprint). (1b) Loving-kindness for an hour a day for a week, as Kat Spartz describes it in her LessWrong review of the course (start with someone easy to feel warmth for, move to harder people, go back to easier ones when the feeling drops); her friend hated that week. (2) Measuring a practice block the way Martin's study did: the study had participants take the Authentic Happiness Inventory, CES-D, PERMA, Satisfaction with Life Scale, Gratitude Questionnaire, Fordyce Emotions Questionnaire and Meaning in Life Questionnaire on the University of Pennsylvania Authentic Happiness site in the week before and the week after the programme, with at least one continuous hour of practice a day for six weeks. Our suggestion adds two checks from Martin's 2013 paper: a partner rates sleep, appetite, mood, muscle tension, sex drive and health (the signs the girlfriend reported), and a recovery-time log after upsets (participants reported 2 to 90 seconds back to baseline). (3) The paid course itself, 45 Days to Awakening (497 US dollars per the Finders Course FAQ, about 1.5 hours a day for six weeks), measured the same way. Safety: Martin's 2015 slides show dissociation and depersonalisation scores rose over the course. Cheetah House supports people with meditation-related difficulties. Ends with three planning questions: which experiment, what result would raise confidence in Martin's claims, what result would lower it."
+reading_minutes: 18
+tutor_minutes: 10
 tags:
   - wip
 ---
@@ -40,19 +40,33 @@ There is no right result. No change is a valid result. In 40 to 90 words, short 
 
 #### Text
 content::
-\## 2. Six weeks: measure a practice block the way Martin's study did
+\## 2. One week: loving-kindness for an hour a day
+**Loving-kindness** meditation means deliberately building up a feeling of warmth and goodwill toward someone, then extending it to others. In the course Kat Spartz took, the first week was an hour a day of it. This is how she describes the technique and the dose she recommends ([her review](https://www.lesswrong.com/posts/PGv9THs68ArPur7yP/meditation-course-claims-65-enlightenment-rate-my-review)). It is one participant's account, not a tested protocol, and she notes that a friend on the same course hated this week.
+
+#### Article
+source:: [[../articles/katspartz-meditation-course-claims-65-enlightenment-rate-my-review]]
+from:: There are a lot of different loving-kindness techniques.
+to:: Re-establish the feeling of loving-kindness, then start ramping up again.
+
+#### Article
+from:: And a friend of mine went through the course with me
+to:: Try one hour a day for a week and see how you feel.
+
+#### Text
+content::
+\## 3. Six weeks: measure a practice block the way Martin's study did
 Martin's study asked participants to take a set of questionnaires on the University of Pennsylvania's Authentic Happiness site in the week before the programme began and again in the week after it ended. These included the Authentic Happiness Inventory, a depression scale (CES-D), the PERMA wellbeing scale, the Satisfaction with Life Scale, a gratitude questionnaire, the Fordyce Emotions Questionnaire (which asks what percentage of the time you feel happy, unhappy and neutral) and the Meaning in Life Questionnaire. In the six-week programme, participants practised for at least one continuous hour a day ([Martin et al., preprint](http://www.nonsymbolic.org/Effects_of_Two_Online_Positive_Psychology_and_Meditation_Programs_on_Persistent_Self-Transcendence-Pre-Print_Draft_Full.pdf), "Program 2" and "Instruments"). The site is run by the university's Positive Psychology Center, and you need to register an account to take the questionnaires ([Authentic Happiness questionnaires](https://www.authentichappiness.sas.upenn.edu/testcenter)).
 
 Our suggestion for a protocol, built from those sources:
 1. **Before.** Take the same questionnaires on the Authentic Happiness site. Note the date.
-2. **Practice.** Choose one practice and do it for at least an hour a day for six weeks. It can be the pointing experiment and the Headless Way's other experiments, or a practice from another module of this library. Keep a log of minutes per day.
+2. **Practice.** Choose one practice and do it for at least an hour a day for six weeks. It can be the pointing experiment and the Headless Way's other experiments, the loving-kindness practice above, or a practice from another module of this library. Keep a log of minutes per day.
 3. **Partner check.** Martin's participants reported no stress while a partner saw poor sleep, appetite change, mood change, tense muscles, lower sex drive and declining health (Martin's paper, "Stress and PNSE"). So before you start and once a week, rate yourself on those six signs from 1 to 5, and ask someone who lives with you to rate you on the same six without seeing your ratings.
 4. **Recovery log.** Martin's participants said that after an upsetting event they returned to "a baseline of high well-being" within 2 to 90 seconds (Martin's paper, "Perception"). When something upsets you, note roughly how long it takes until you are back to how you were before.
 5. **After.** Retake the questionnaires in the week after you stop, and compare all four records.
 
 What this can show: whether your scores, your partner's ratings and your recovery times move together. If you feel more peaceful but your partner sees more signs of stress, that is the gap Martin describes. What it cannot show: whether the practice caused the change, since you know what you are doing and hoping for. Module 3 covers how to make a single-person experiment stronger.
 
-\## 3. The course itself
+\## 4. The course itself
 Martin's six-week course, 45 Days to Awakening, costs 497 US dollars ([Finders Course FAQ](https://finderscourse.com/faq.php)). The study version asked for at least 1.5 hours a day, including the hour of practice and morning and evening positive psychology exercises ([Martin et al., preprint](http://www.nonsymbolic.org/Effects_of_Two_Online_Positive_Psychology_and_Meditation_Programs_on_Persistent_Self-Transcendence-Pre-Print_Draft_Full.pdf), "Program 2"). If you take it, measure it with the protocol above, so you are not relying only on the course's own end-of-course question.
 
 #### Callout: Safety
