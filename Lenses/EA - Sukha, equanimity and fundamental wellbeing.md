@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-The previous readings came from Western philosophy and psychology. These come from contemplative traditions and from researchers who study them. They describe a happiness that is said not to depend on circumstances, and equanimity.
+The previous readings came from Western philosophy and psychology. These come from contemplative traditions and from researchers who study them. They describe grades of pleasure, a happiness that some of them say does not depend on circumstances, and equanimity.
 
 The first reading was written jointly. As the paper states, two Buddhists, Matthieu Ricard and Alan Wallace, wrote the sections on the Buddhist view, and two psychologists, Paul Ekman and Richard Davidson, wrote the sections on research and theory.
 

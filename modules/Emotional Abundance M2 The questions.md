@@ -5,7 +5,7 @@ id: '7b21b5eb-30ee-490e-b86f-2caaa266e71a'
 tags:
   - wip
 ---
-%% Module 2 poses the course's questions and maps the answers without deciding them. Part 1 (what kind of happiness) has the one testable skill, sorting claims by kind, so it carries the learning outcome. Parts 2 and 3 pose questions that modules 3, 5, 6 and 7 weigh, so they end in reflection, not a test. Required time is about 1.5 to 2 hours, most of it readings and Gilbert's 21-minute talk. Theories of wellbeing (course goal 2) are an optional lens: they answer what is good for a person, a different question from which state of mind people call happiness. Haybron 1.1 in the required path names the three theories. %%
+%% Module 2 poses the course's questions and maps the answers without deciding them. Part 1 (what kind of happiness) has the one testable skill, sorting claims by kind, so it carries the learning outcome. Parts 2 and 3 pose questions that modules 3, 5, 6 and 7 weigh, so they end in reflection, not a test. Required time is about 2 hours 20 minutes by the lenses' own estimates, most of it readings. Gilbert's 21-minute talk and Martin's recruitment section are optional segments. Theories of wellbeing (course goal 2) are an optional lens: they answer what is good for a person, a different question from which state of mind people call happiness. Haybron 1.1 in the required path names the three theories. %%
 
 # Submodule: What kind of happiness?
 # Learning Outcome:
