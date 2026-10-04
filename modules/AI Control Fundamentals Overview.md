@@ -58,7 +58,7 @@ Control's theory of change: the routes by which it is supposed to reduce risk, a
 :::
 
 :::callout {title="Unit 4: Criticisms of control" tone="blue"}
-The main criticisms of control, sorted by what they dispute, including the worry that control could backfire.
+The main criticisms of control, sorted by what they dispute, including the argument that control might make things worse.
 :::
 
 :::callout {title="Unit 5: Debates, and your own view" tone="blue"}
