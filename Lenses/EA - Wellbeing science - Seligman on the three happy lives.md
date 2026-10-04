@@ -51,6 +51,8 @@ content::
 How did the talk land for you? Write whatever comes, for example something that convinced you or something you doubted.
 force-feedback:: first
 feedback-instructions:: The learner watched Seligman's TED talk on the three happy lives and read that his own 2005 paper reports a shorter gratitude visit effect than he states in the talk, and that the Penn Positive Psychology Center advertises PERMA workshops. This is a processing step, not a teaching step: help them articulate their reaction, do not resolve it, and do not tell them whether Seligman is right. If they are sceptical, treat that as legitimate and ask what evidence would convince them, for example what kind of study would show that meaning causes life satisfaction rather than going with it. If they found it convincing, ask which claim they would most want to see tested. If they ask about evidence strength, say a later lens in this module covers effect sizes. 50 to 90 words per reply. At most two replies. No generic praise.
+
+#### Question: Open
 id:: d3d1ee6a-b105-4d41-b91e-f43c6b84e14b
 content::
 Did anything in the talk or on the center's page sound more like a sales pitch than a finding? Name it and say why.
