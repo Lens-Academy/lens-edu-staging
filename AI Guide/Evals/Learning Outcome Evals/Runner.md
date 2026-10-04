@@ -113,6 +113,9 @@ Rules:
   (evals flag defects; uncertainty is not a defect).
 - If the file has a question but no assessment-instructions at all, C2/C3
   are fail with note "no rubric".
+- For C2, actually run its test: write out the shortest correct answer it
+  describes, score it element by element with the rubric (caps included),
+  and start your C2 note with that score ("shortest answer: 70/100 ...").
 - Multiple questions/rubrics: a question/rubric check fails if any instance fails.
 
 Return ONLY this JSON:
