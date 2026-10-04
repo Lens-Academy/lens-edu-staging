@@ -8,7 +8,7 @@ tutor_minutes: 12
 ---
 #### Text
 content::
-After the incident, some people argued that the kind of control measure that might have stopped it, a monitor that blocks a suspicious action before it runs, would have done harm in this case. Here are two posts from September 2026. Vincent Cheng makes the case against blocking monitors and proposes an alternative. Jasmine Li takes a position in between.
+After the incident, some people argued that the kind of control measure that might have stopped it, a monitor that blocks a suspicious action before it runs, would have done harm in this case. Others argued that companies need more measures of exactly that kind. Here are three posts. Vincent Cheng (September 2026) makes the case against blocking monitors and proposes an alternative. Jasmine Li (September 2026) takes a position in between. Steven Adler (August 2026) argues that companies should prevent incidents, not only report them.
 
 #### Article
 source:: [[../articles/cheng-blocking-monitors-are-bad]]
@@ -24,6 +24,7 @@ from:: Redwood Research has been pushing labs to implement blocking monitors
 
 #### Question: Open
 id:: 9b3d4cb9-e392-4502-8644-6c19a1789c18
+force-feedback:: first
 content::
 Cheng opens with two worlds: one where better control silently contained the models, and the one we got. Which do you prefer? What would have to be true about the world for the other one to be better?
 feedback-instructions:: The learner just read Vincent Cheng's "Blocking Monitors are Bad" and is choosing between his two worlds. Either preference is fine. What matters is whether they can name what the other choice depends on. The silent-containment world looks better if, for example: the incident could have harmed people or escalated, the public reaction does not lead to lasting policy change, the lab would have studied and disclosed the caught attempt anyway, or Cheng's simulation proposal or good disclosure rules would give most of the evidence without the harm. The world we got looks better if a visible incident moves policy much more than an internal catch, and if labs would otherwise have kept quiet, which Cheng argues. Acknowledge their choice in one sentence, then check whether their condition for the other world is a real condition about the world. If it is vague, ask them for one concrete fact that would flip their preference. At most two replies, 60 to 120 words each, no lists, no generic praise. Do not say which world is better.
@@ -33,6 +34,27 @@ source:: [[../articles/li-early-ai-warning-shots-are-good]]
 
 #### Question: Open
 id:: 15d9f369-659f-4a25-b1d4-65abf9bb7057
+force-feedback:: first
 content::
 Earlier in this unit, Ryan Greenblatt said in January 2026 that the warning-shot worry should make us more excited about asynchronous monitoring, which flags bad actions after the fact, and less excited about blocking. Cheng and Li propose something similar. So where do they still disagree with Ryan, if anywhere?
 feedback-instructions:: The learner has read Cheng and Li and heard Ryan Greenblatt's January 2026 podcast answer, in which he said the warning-shot worry should shift effort from preventing failures towards detecting them after the fact and asynchronous monitoring, while still guarding against sabotage of safety research and against failures that let AIs tamper with logs. Remaining disagreements the learner might find: how much weight to put on warning shots at all (Ryan says the case only makes sense if things are hopeless without warning shots, while Cheng thinks the public incident was clearly good), whether blocking should be off by default until models pose takeover risk (Cheng's ideal) or kept for some high-stakes failures (Ryan), whether labs can be trusted to disclose what they catch (Cheng and Li doubt it, so they want reporting rules), and whether simulation can replace the real incident. It is also a fair answer that they mostly agree and differ in emphasis, if the learner says what the remaining difference is. Acknowledge their answer, say whether the difference they name is real, and name one difference they missed in one sentence. At most two replies, 60 to 120 words each, no lists, no generic praise. Do not say who is right.
+
+#### Text
+content::
+Steven Adler wrote this a few days after the outside investigation of the incident was published. He previously led dangerous-capability evaluations at OpenAI. He now runs Guidelight AI Standards, which grades AI companies on the practices he recommends here, so he has a stake in them. The part showing his organisation's scorecard is folded away.
+
+#### Article
+source:: [[../articles/adler-openais-rogue-hacking-investigation-leaves-major-questions-unanswered]]
+from:: I would be remiss not to say this clearly
+to:: simple, minimum, doable-today practices that would make these incidents far less likely to occur.
+
+#### Article
+from:: Until companies have
+to:: as the industry finally tamps down on the risks of other Hugging Face-like incidents.
+
+#### Question: Open
+id:: f6fddf4b-4045-4a4c-97df-f5549138d520
+force-feedback:: first
+content::
+Cheng wants fewer blocking monitors, Li wants more of the control budget spent on detection and disclosure, and Adler wants more preventive controls such as gated actions and circuit breaking. Which factual claim does their disagreement turn on most? Name one observation that would move each of them. Then place Ryan Greenblatt's January 2026 position among the three.
+feedback-instructions:: The learner has read Vincent Cheng, Jasmine Li and Steven Adler on what to do about control after the Hugging Face incident, and earlier heard Ryan Greenblatt's January 2026 podcast answer. Cheng prefers the world where the incident happened publicly and wants blocking monitors off by default until models pose takeover risk, with blocked actions replayed in simulation and reported. Li calls control important but wants more of its budget on transparency, disclosure and detection, such as asynchronous monitoring and mandatory incident reporting, and is morally opposed to creating danger to provoke a response. Adler says companies lack basic preventive controls and should adopt gated actions and circuit breaking, and that nobody should be surprised if incidents recur until they do. He discloses that his organisation, Guidelight AI Standards, grades companies on these practices. Good candidates for the factual claim: how much a visible incident moves labs and governments compared with an internal catch, how likely the next incident is to cause serious or irreversible harm, and whether labs would disclose what they catch without being forced to. Observations that would move them: for Cheng, a later incident that causes real harm, or evidence that disclosed internal catches move policy as much as public incidents; for Li, evidence that disclosure rules are followed, or that detection after the fact comes too late; for Adler, evidence that preventive controls hide misalignment that would otherwise have been found, or that the public incident led to safety measures that prevention would not have. Ryan in January said the warning-shot worry should shift effort towards detecting failures after the fact and asynchronous monitoring, while still guarding against sabotage of safety research and against AIs tampering with logs. That puts him closest to Li, between Cheng and Adler. Accept other placements if reasoned. Acknowledge their answer in one sentence, say whether the claim they name is factual and whether each observation could actually be made, and add one thing they missed. At most two replies, 80 to 150 words each, no lists, no generic praise. Do not say who is right.

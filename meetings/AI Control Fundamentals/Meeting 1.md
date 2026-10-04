@@ -23,7 +23,7 @@ First meeting, so start by getting to know each other. Go around:
     - Disagreeing is welcome, and nobody has to win.
     - Say "I'm not sure" when you're not sure.
     - Everyone answers before anyone replies.
-4. Read out the gut view you wrote at the start of this unit, in a sentence or two (no note? answer now): can we use a powerful AI model that might be secretly working against us, and still stop it from causing a catastrophe? Only listen, no debate yet. You come back to these views at the end of the course.
+4. Read out the gut view you wrote at the start of this unit, in a sentence or two (no note? answer now): can we use a powerful AI model that might be secretly working against us, and still stop it from causing a catastrophe? Only listen, no debate yet.
 
 
 | Names | Who you are + your ground rule + each gut view in a few words |
@@ -46,7 +46,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-A bank does not try to guarantee that no trader ever goes rogue. It limits what one trader can do and audits trades, so it stays safe even if someone is not trustworthy. That is control. Making sure people are trustworthy in the first place is closer to alignment.
+A bank limits what one trader can do and audits trades, so it stays safe even if someone is not trustworthy. That is control. Making sure people are trustworthy in the first place is closer to alignment.
 
 1. Pick one organisation someone in your group knows from the inside. Examples:
     - a hospital
