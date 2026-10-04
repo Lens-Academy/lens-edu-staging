@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-Greenblatt's Plan D is a company that does not take misalignment seriously, with a small group inside who do. Buck Shlegeris wrote the post that scenario comes from. After it come two replies from commenters who doubt the ten would have that much room, and a paragraph Shlegeris wrote in June 2026 looking back at the post.
+Greenblatt's Plan D is a company that does not take misalignment seriously, with a small group inside who do. Greenblatt links that scenario to this post by Buck Shlegeris. "Do-ocracy" in the post means a company where people who take the initiative to do something are usually allowed to. After it come two replies from commenters who doubt the ten would have that much room, and a paragraph Shlegeris wrote in June 2026 looking back at the post.
 
 #### Article
 source:: [[../articles/shlegeris-ten-people-on-the-inside]]
@@ -31,6 +31,7 @@ id:: 467f98f6-b1d9-4f4a-8e1b-adb8a145f440
 content::
 What does Shlegeris want the ten people to do, and which of this unit's routes does that use? What, if anything, does it still need from the company's leadership?
 placeholder:: A few sentences.
+force-feedback:: first
 feedback-instructions:: The learner just read "Ten people on the inside". The ten can build concrete evidence of risk (to raise political will), implement safety measures that make escape or other big problems less likely, or do alignment research toward a model they could defer to. Shlegeris focuses on safety measures, which must be cheap (about 3% of compute in his picture) and low in compliance overhead, ideally with the complexity kept inside the team. Routes used: blocking or catching attacks with cheap control measures, and building evidence that could raise political will. Outsiders help by producing research the ten can import. What it still needs from leadership: tolerance. The ten have little political capital ("All they can do is make it so that it’s easier for the company to let them do their thing than to fire them."), so leadership must not roll the measures back or fire them. In at most five sentences, say what the learner got right, add the most important missing piece, and correct any error in one sentence. No generic praise. At most two turns.
 
 #### Question: Open
@@ -38,4 +39,5 @@ id:: f65f383b-0011-4926-9633-2b9f85a43bbe
 content::
 Which premise of Shlegeris's plan do Hatfield-Dodds and Shah attack? How does Shlegeris's June 2026 paragraph change how much weight you would put on this route?
 placeholder:: A few sentences.
+force-feedback:: first
 feedback-instructions:: The learner just read the two comments and Shlegeris's 2026 paragraph. Both commenters attack the premise that ten concerned staff at a careless company would have enough influence and resources to get useful measures in place. Hatfield-Dodds says Buck far overestimates their influence and resources. Shah says there are approximately zero useful things that do not make anyone's workflow harder, doubts that a random group of ten would be well selected, and puts the compute share nearer 0.3% to 1% than 3%, though he allows that asynchronous monitoring of internal deployments might be surmountable. In June 2026 Shlegeris still thinks "a small number of people at AI companies implementing cheap techniques" is reasonably likely to be an important source of risk reduction, but says he is less into this theory of change than when he wrote the post and relatively more into pushing companies to make bigger tradeoffs. Any reasoned weighting is fine, from "still a key route" to "a weak route". In at most five sentences: check that the learner named the premise, note what Shah concedes if they missed it, and ask what they would want to observe to settle it (for example, whether safety teams at less careful companies have kept monitoring running). Do not say who is right. No generic praise. At most two turns.

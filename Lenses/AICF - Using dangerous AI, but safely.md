@@ -31,7 +31,7 @@ content::
 \## Part 2: the experiment
 
 #### Video
-from:: 4:40.3
+from:: 4:22.6
 to:: 5:12.3
 
 #### Text
@@ -77,7 +77,7 @@ content::
 \## Part 4: using the trusted model as a monitor
 
 #### Video
-from:: 17:41.2
+from:: 17:16.8
 to:: 21:07.9
 
 #### Question: Open
@@ -92,7 +92,7 @@ content::
 \## Part 5: using the untrusted model as a monitor
 
 #### Video
-from:: 21:07.9
+from:: 20:54.8
 to:: 27:39.1
 
 #### Question: Open
