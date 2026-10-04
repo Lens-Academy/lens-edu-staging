@@ -16,6 +16,9 @@ source:: [[../Learning Outcomes/Collusion-resistant monitor validation]]
 # Learning Outcome:
 source:: [[../Learning Outcomes/Legibility interventions for monitors]]
 
+# Learning Outcome:
+source:: [[../Learning Outcomes/Legibility value and monitor strength]]
+
 # Lens: Welcome to Unit 4
 id:: 13f30ae1-4a7f-4349-9a15-ac9ce0cfc869
 tldr:: What you will learn in Unit 4: building the test, and designing against collusion.
