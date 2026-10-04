@@ -13,6 +13,21 @@ source:: [[../Learning Outcomes/Control-protocol design]]
 # Learning Outcome:
 source:: [[../Learning Outcomes/Control research theory of change]]
 
+# Lens: Welcome to Unit 1
+id:: efbffb38-f608-41f7-b41f-d8eda4e61034
+tldr:: What you will learn in Unit 1: the control toolkit and where to invest.
+summary_for_tutor:: Short opening page of Unit 1 (The control toolkit and where to invest) of AI Control 2. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
+reading_minutes:: 1
+tutor_minutes:: 0
+#### Text
+content::
+\## In this unit you will
+
+- Sort control measures into detection, prevention and response, from monitors and honeypots to sandboxing and a shutdown process.
+- Explain how a control evaluation runs as a game between red, blue and green teams, and where such evaluations are run today.
+- Pick one of Ryan Greenblatt's eight areas of control work and trace how it would lower existential risk.
+- Say what labs have already shipped for high-stakes control, and what will not get built by default.
+
 # Lens:
 source:: [[../Lenses/XLab Control - detection-mitigations]]
 
