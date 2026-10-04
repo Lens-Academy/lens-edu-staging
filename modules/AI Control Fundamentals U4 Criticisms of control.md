@@ -5,7 +5,7 @@ title: "Unit 4: Criticisms of control"
 tags:
   - work-in-progress
 ---
-%% Unit 4 of AI Control Fundamentals. Time (reading+tutor): welcome 3+3, slop 16+11, better schemers 14+13, protocols hold up 4+6, superintelligence 6+8, profit-only 10+11, warning shots 15+14, safety-washing 8+12, adversarial 9+8 (optional Wiblin extra about 5 more), practice 5+19 (lenses 195), plus about 18 for test 1 (classifying criticisms) and 8 for test 2 (backfire). About 221 minutes. %%
+%% Unit 4 of AI Control Fundamentals. Time (reading+tutor): welcome 4+3, slop 16+11, better schemers 14+13, protocols hold up 4+6, superintelligence 6+8, profit-only 16+17, warning shots 15+14, safety-washing 11+12, adversarial and AI welfare 18+14, practice 5+19 (lenses 226), plus about 18 for test 1 (classifying criticisms) and 8 for test 2 (backfire). About 252 minutes. %%
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Classifying criticisms of AI control]]
