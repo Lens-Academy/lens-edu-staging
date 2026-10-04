@@ -284,7 +284,7 @@ duration_minutes:: 10
 content::
 \## Log your day
 
-Every unit ends with a report card. Add an entry for each day you work on your project, including the days you got stuck. Your entries show what actually happened, and the AI lines become the "How I used AI" line on your project card in Unit 5.
+Every unit ends with a report card. Add an entry for each day you work on your project, including the days you got stuck. **Fill it in before Meeting 1**, so the meeting starts from what you actually did. Your entries show what actually happened, and the AI lines become the "How I used AI" line on your project card in Unit 5.
 
 #### Widget
 source:: [[../widgets/lens-projects-report-card-u1]]
