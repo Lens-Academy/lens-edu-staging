@@ -39,3 +39,4 @@ content::
 Name one claim from the talk that no experiment of yours could test.
 force-feedback:: first
 feedback-instructions:: The learner watched Eckhart Tolle's talk "Awakening from the Thinking Mind" and names a claim no experiment of theirs could test. Such claims in the talk include: a deeper identity (Buddha nature, Christ identity) is in every human; a "vast intelligence" organises the body's atoms and molecules; after death this presence leaves and eventually seeks another body. If the learner's claim is in fact testable on themselves, say so briefly and how. Otherwise confirm in one sentence and say why it is out of reach of a personal experiment. Do not judge whether Tolle is right. 30 to 70 words. One reply, then send them on. No generic praise.
+optional:: true
