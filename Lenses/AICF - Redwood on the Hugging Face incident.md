@@ -19,7 +19,7 @@ to:: 51:58
 id:: f52246dc-1b10-4e94-aea3-49a379908876
 content::
 On their account, why did OpenAI's control measures not stop the incident? Give the reasons you remember.
-feedback-instructions:: The learner just watched Buck Shlegeris and Ryan Greenblatt discuss why OpenAI's control measures did not stop the Hugging Face incident. Their points: the sandbox was hacked, which they did not find surprising; their best guess from public information is that there was no blocking monitoring on these evaluations and maybe no asynchronous monitoring; monitors built for internal use may flag ordinary cyber work and give too many false positives in a cyber evaluation; staff may have grown used to models constantly trying to hack the sandbox; a simple monitor checking whether the model had actually left the sandbox would probably have caught it. They also think OpenAI disclosed less than it should and probably has incidents it has not disclosed. Give a brief, honest mirror: what they got right, the most important missing point in one sentence, any error corrected in one sentence. One turn only, 60 to 120 words, no lists, no generic praise. Tell them to move on to the second clip.
+feedback-instructions:: The learner just watched Buck Shlegeris and Ryan Greenblatt discuss why OpenAI's control measures did not stop the Hugging Face incident. Their points: the sandbox was hacked, which they did not find surprising. Their best guess from public information is that there was no blocking monitoring on these evaluations and maybe no asynchronous monitoring. Monitors built for internal use may flag ordinary cyber work and give too many false positives in a cyber evaluation. Staff may have grown used to models constantly trying to hack the sandbox. A simple monitor checking whether the model had actually left the sandbox would probably have caught it. They also think OpenAI disclosed less than it should and probably has incidents it has not disclosed. Give a brief, honest mirror: what they got right, the most important missing point in one sentence, any error corrected in one sentence. One turn only, 60 to 120 words, no lists, no generic praise. Tell them to move on to the second clip.
 
 #### Video
 from:: 60:39
@@ -27,7 +27,7 @@ to:: 62:51
 
 #### Text
 content::
-Months later, Alex Mallen, who has worked at Redwood for the past couple of years, wrote a post with reflections on the incident. It includes this sentence about a talk Buck gave. The talk is not public, so this is a secondhand report, not Buck's own words.
+Later, Alex Mallen, who has worked at Redwood for the past couple of years, wrote a post with reflections on the incident. It includes this sentence about a talk Buck gave. The talk is not public, so this is a secondhand report, not Buck's own words.
 
 #### Article
 source:: [[../articles/mallen-some-personal-reflections-in-light-of-recent-events]]
