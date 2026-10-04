@@ -14,6 +14,8 @@ Stoicism is a Greek and Roman philosophy founded in Athens by Zeno of Citium aro
 
 This module has four parts: what the Stoics claim, the modern revival and its link to cognitive behavioural therapy, the evidence, and experiments you can run on yourself. All the explanatory excerpts on this page come from one encyclopedia entry, written by Massimo Pigliucci, a philosopher who also writes popular books that recommend Stoicism, such as [*How to Be a Stoic*](https://www.hachettebookgroup.com/titles/massimo-pigliucci/how-to-be-a-stoic/9780465097968/?lens=basic-books).
 
+Three terms come up at once. **Eudaimonia** is the Greek word for a life worth living, usually translated as happiness or flourishing. **Virtue** means excellence of character, which the Stoics divided into four: practical wisdom, courage, justice and temperance (self-control). **Indifferents** are everything else, such as health, wealth and reputation: things that, for the Stoics, neither make a life good nor bad ([IEP, sections 1 and 3](https://iep.utm.edu/stoicism/)).
+
 #### Article
 source:: [[../articles/pigliucci-stoicism]]
 from:: Stoicism is a type of eudaimonic virtue ethics
@@ -37,7 +39,7 @@ to:: and you must neither blame chance nor accuse Providence” (XII.24).
 
 #### Text
 content::
-The second big claim is about emotions. The Stoics said the troubling emotions (they called them "passions") come from our judgements, so they can be changed by examining the judgements.
+The second big claim is about emotions. The Stoics called the troubling emotions **passions**: fear, craving, and pleasure or distress about things that do not deserve it. They said passions come from our judgements, so they can be changed by examining the judgements. In the excerpt, **assent** means agreeing to an impression, for example accepting the thought "this is terrible" when it appears.
 
 #### Article
 from:: As far as the Stoics are concerned, however, it is good to remember that “passion” did not mean what we now mean by that term

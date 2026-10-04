@@ -10,9 +10,9 @@ tags:
 ---
 #### Text
 content::
-This module is about the most widely used family of talking therapies, cognitive behavioural therapy (CBT), and the newer approaches that grew out of it. Aaron Beck, who developed cognitive therapy, describes noticing that "automatic thoughts" stand between what happens to us and what we feel ([Beck 2019](https://doi.org/10.1177/1745691618804187)). His answer, and Albert Ellis's, was to examine such a thought and correct it where it is wrong.
+This module is about the most widely used family of talking therapies, cognitive behavioural therapy (CBT), and the newer approaches that grew out of it. Aaron Beck, who developed cognitive therapy, describes noticing **automatic thoughts**: quick thoughts, often barely noticed, that stand between what happens to us and what we feel ([Beck 2019](https://doi.org/10.1177/1745691618804187)). His answer, and Albert Ellis's, was to examine such a thought and correct it where it is wrong.
 
-The approaches that followed, called the "third wave", include acceptance and commitment therapy (ACT), mindfulness-based cognitive therapy (MBCT) and dialectical behaviour therapy (DBT). Two of their founders describe them as "focused more on the persons' relationship to thought and emotion than on their content" ([Hayes and Hofmann 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC5608815/)). So one camp asks whether a painful thought is true, and the other asks how much it should be allowed to steer you, true or not.
+The approaches that followed, called the **third wave**, include acceptance and commitment therapy (ACT), mindfulness-based cognitive therapy (MBCT) and dialectical behaviour therapy (DBT). Two of their founders describe them as "focused more on the persons' relationship to thought and emotion than on their content" ([Hayes and Hofmann 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC5608815/)). So one camp asks whether a painful thought is true, and the other asks how much it should be allowed to steer you, true or not.
 
 Later in the module you can test both on yourself, on the same thought. Pick it now.
 
@@ -21,8 +21,25 @@ id:: 3c1f8551-304c-4504-b0bf-277187e9b9c8
 content::
 Think of a negative thought about yourself that keeps coming back, such as "I'm lazy", "I'm not good enough" or "people find me boring". Write it down in a few words.
 
-Then give it two numbers from 0 to 100: how much you believe it right now, and how uncomfortable it makes you when you think it. Finally, what do you usually do when this thought shows up?
-force-feedback:: first
-feedback-instructions:: The learner has just picked a recurring negative thought about themselves, rated how much they believe it and how uncomfortable it makes them (0 to 100 each), and said what they usually do when it shows up. They will use this thought again for a self-experiment later in the module, comparing a cognitive therapy thought record with ACT defusion exercises.
+#### Question: FillBlank
+id:: e3866caa-08ac-421d-8386-1bd78437431b
+content::
+Right now, how much do you believe this thought, from 0 (not at all) to 100 (completely)? {{number min 0 max 100}}
 
-Reply in 50 to 90 words. Restate the thought and both numbers in one line so they can find them later, and tell them to note these somewhere outside the course too. In one sentence, name what their usual response is (for example arguing with the thought, distracting themselves, avoiding situations, giving in to it) without judging it. Do not analyse the thought, do not reassure them that it is false, and do not teach either method yet. If they gave no numbers, ask for them in one line. If the thought involves self-harm or suicide, or they describe very low mood, say kindly that this module is not a substitute for help and suggest they talk to a doctor or therapist. One turn, then send them on.
+#### Question: FillBlank
+id:: 5fba6c13-4403-4972-9a4f-730cf34507ab
+content::
+How uncomfortable does the thought make you when you think it, from 0 (not at all) to 100 (extremely)? {{number min 0 max 100}}
+
+#### Text
+content::
+Note the thought and both numbers somewhere outside the course too. You will need them for the experiment page.
+
+#### Question: Open
+id:: d0f496fe-1e53-4cf0-8bea-06b83c387517
+content::
+What do you usually do when this thought shows up?
+force-feedback:: first
+feedback-instructions:: The learner has just written down a recurring negative thought about themselves and rated how much they believe it and how uncomfortable it makes them (0 to 100 each). This question asks what they usually do when the thought shows up. They will use the thought again for a self-experiment later in the module, comparing a cognitive therapy thought record with ACT defusion exercises.
+
+Reply in 40 to 80 words. In one sentence, name what their usual response is (for example arguing with the thought, distracting themselves, avoiding situations, giving in to it) without judging it. Do not analyse the thought, do not reassure them that it is false, and do not teach either method yet. If they describe self-harm, suicidal thoughts or very low mood, say kindly that this module is not a substitute for help and suggest they talk to a doctor or therapist. One turn, then send them on.
