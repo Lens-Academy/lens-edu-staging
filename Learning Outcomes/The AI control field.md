@@ -1,12 +1,12 @@
 ---
 id: 'c05ed183-2911-4707-88f1-6ba5f9d53e1d'
-learning-outcome: "Place a piece of AI control work within the field: identify what kind of control work it is (its research area), use that to say what access to AI developers' systems and what independence from developers it needs, and from that say which kind of organisation is placed to do it, naming a real organisation of that kind. Say roughly how many people work on AI control compared with technical AI safety as a whole, to within an order of magnitude, and why careful counts of the control field differ."
+learning-outcome: "Place a piece of AI control work within the field: identify what kind of control work it is (its research area), use that to say what access to AI developers' systems and what independence from developers it needs, and from that say which kind of organisation is placed to do it, naming a real organisation of that kind."
 topic: "[[../Domains and Topics/7 AI Control/The control agenda]]"
 stage: beginner
 authors:
   - James agent ready-34
 ---
-%% Written for AI Control Fundamentals Unit 2. Part D tests the size of the field (folded in from the earlier separate outcome "Size of the AI control field", which is no longer used). The facts about organisations come from the Lens page "AICF - Who works on AI control" (October 2026), which links every source. Update the rubric when that page is updated. %%
+%% Written for AI Control Fundamentals Unit 2. The size of the field is practised and scored in the lens "AICF - Who works on AI control", not in a test (the separate outcome "Size of the AI control field" is no longer used). The facts about organisations come from the Lens page "AICF - Who works on AI control" (October 2026), which links every source. Update the rubric when that page is updated. %%
 ## Test:
 id:: a3d7a99a-4ddc-4c08-99e5-ba9c1d2d7344
 
