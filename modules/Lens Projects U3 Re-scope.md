@@ -9,10 +9,14 @@ tags: [wip]
 # Lens: Welcome to Unit 3
 id:: 2ba0c968-143d-4b2b-b77c-0f1c4863dce1
 tldr:: Look honestly at what you learned, decide whether to continue, re-scope or switch, cut what will not fit, and hand your partner a readable draft.
-summary_for_tutor:: Opening page of Unit 3 (Re-scope) of Lens Projects. It lists the unit's goals and three levels of effort, and says this is the last point to switch projects. If the learner feels behind, point them to the minimum level.
+summary_for_tutor:: Opening page of Unit 3 (Re-scope) of Lens Projects. It starts with what Meeting 3 will be about, then lists the unit's goals and three levels of effort, and says this is the last point to switch projects. If the learner feels behind, point them to the minimum level.
 duration_minutes:: 5
 #### Text
 content::
+\## This unit prepares you for Meeting 3
+
+In Meeting 3 you say your decision in one sentence: continue, re-scope or switch. Then you and your review partner read each other's drafts live for about fifteen minutes and give first reactions out loud, and the group works on each person's hardest current problem. Bring your decision, a draft already shared with your partner, and your report card, filled in before the meeting.
+
 \## In this unit
 
 - Look at what your test and your rough version showed
@@ -132,6 +136,7 @@ content::
 - Your decision (continue, re-scope or switch) in one sentence
 - Your draft, shared with your review partner
 - Your hardest current problem
+- Your report card, with at least one entry
 
 In the meeting, partners read each other's drafts live for about fifteen minutes and give first reactions out loud.
 
@@ -144,7 +149,7 @@ duration_minutes:: 10
 content::
 \## Log your day
 
-Add an entry for each day you work on your project this unit, including the days you got stuck.
+Add an entry for each day you work on your project this unit, including the days you got stuck. **Fill it in before Meeting 3**, so the meeting starts from what you actually did.
 
 #### Widget
 source:: [[../widgets/lens-projects-report-card-u3]]
