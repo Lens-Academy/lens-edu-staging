@@ -39,7 +39,7 @@ content::
 We skip about three minutes here, where Miles reads out some of the odd example problems from the programming dataset. The video picks up when he explains what counts as a catastrophic action.
 
 #### Video
-from:: 8:33
+from:: 8:34
 to:: 13:31
 
 #### Question: Open
@@ -125,7 +125,7 @@ content::
 
 #### Video
 from:: 27:38
-to:: 29:39
+to:: 29:40
 
 #### Question: Open
 id:: 01221594-0cd4-48e7-9159-e0864105e7a0
