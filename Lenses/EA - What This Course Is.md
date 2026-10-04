@@ -1,7 +1,7 @@
 ---
 id: '3c6d9305-dd2b-4b52-bf44-876d16133500'
 title: "What this course is"
-tldr: "Two strands, wellbeing and understanding reality. The course sets the schools side by side with their claims and evidence, turns claims into experiments you can run, and leaves the verdict to you."
+tldr: "Can you stop needing anything from your circumstances? The course sets psychologists, meditation traditions and philosophers side by side, turns their claims into experiments you can run, and leaves the verdict to you."
 summary_for_tutor: "Orientation page of the Emotional Abundance course. It states the two strands (wellbeing, called emotional abundance: not needing anything from outside circumstances because there is deep, stable peace and happiness inside; and understanding reality: what the self is, why we want, how experience is built), that the course explores rather than preaches (each school shown with its claims, who says it, evidence, strengths and weaknesses), that claims become self-experiments of varying length, and the structure: Part I is a core path of 8 modules plus a library of school modules chosen after module 4, Part II is a practice path. If the learner asks which school is right, do not pick one. Point them to how the course will let them compare."
 reading_minutes: 5
 tutor_minutes: 0
@@ -10,25 +10,17 @@ tags:
 ---
 #### Text
 content::
-\## Two strands
+Emotional abundance means not needing anything from your circumstances, because you already have a deep, stable peace and happiness inside. Some traditions say this is reachable. Others say a good life always depends partly on what happens to you. This course looks at both sides.
 
-This course has two strands.
+It also asks what lies underneath: what the self is, why we want things at all, and how experience is put together.
 
-**Wellbeing.** The course calls the goal "emotional abundance": not needing anything from outside circumstances, because there is deep, stable peace and happiness inside. Whether that is possible, and how to get there, are questions the course examines. It does not assume the answers.
+You will meet psychologists, meditation traditions and philosophers. For each one you see what it claims, who says it, what the evidence is, and where it is strong or weak. The course does not pick a winner. You do.
 
-**Understanding reality.** What the self is, why we want things, and how experience is built.
-
-\## It explores, it does not preach
-
-The course does not tell you which school is right. For each school it shows the same things side by side: what it claims, who says it, on what evidence, and its strengths and weaknesses. You compare them and form your own view.
-
-\## Claims become experiments
-
-When a school says "do X for this long and you will get Y", the course states the claim, who makes it and on what evidence, and gives you an experiment to test it on yourself. Experiments range from a 10-minute try to a year-long protocol. Not every module has one.
+Where a school says "do this for so long and you will feel that", you get an experiment to test it on yourself. Some take ten minutes, some take a year.
 
 \## How the course is built
 
-**Part I: the map.** A core path of 8 modules, taken in order:
+**Part I: the map.** Eight modules, taken in order:
 
 1. **Overview** (this module): what the course is, and your starting view.
 2. **The questions**: what people mean by happiness, whether circumstances can give lasting peace, and the questions about the self, wanting and experience.
