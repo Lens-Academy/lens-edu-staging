@@ -12,7 +12,7 @@ tags:
 content::
 The map's method column lists many contemplative practices. This paper groups practices from Buddhist, Christian, Sufi, Hindu and Greco-Roman traditions and from clinical therapies by what they do to the mind, and by what each does to the sense of self. That makes it a second way to compare the contemplative and therapy rows.
 
-The authors are contemplative neuroscientists at the Center for Healthy Minds (University of Wisconsin-Madison), which Richard Davidson founded. Read their framing paragraph and Table 1. Read the table for the three families and their subtypes. You do not need to know every practice in it.
+Richard Davidson, the senior author, founded the Center for Healthy Minds at the University of Wisconsin-Madison ([its page on him](https://centerhealthyminds.org/about/founder-richard-davidson)). Read the authors' framing paragraph and Table 1. Read the table for the three families and their subtypes. You do not need to know every practice in it.
 
 #### Article
 source:: [[../articles/dahl-reconstructing-and-deconstructing-the-self-cognitive-mechanisms-in-meditation-practice]]

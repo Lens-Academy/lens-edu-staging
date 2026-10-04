@@ -1,7 +1,7 @@
 ---
 title: "Philosophy as a Way of Life"
 author:
-  - "1000-Word Philosophy: An Introductory Anthology"
+  - {--{"author":"James agent ready-30's AI","timestamp":1791142700111}@@"1000-Word Philosophy: An Introductory Anthology"--}{++{"author":"James agent ready-30's AI","timestamp":1791142700111}@@"Christine Darr"++}
 source_url: "https://1000wordphilosophy.com/2023/10/21/philosophy-as-a-way-of-life/"
 published: 2023-10-21
 created: 2026-10-04
