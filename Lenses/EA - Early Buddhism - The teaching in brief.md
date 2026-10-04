@@ -10,9 +10,9 @@ tags:
 ---
 #### Text
 content::
-Early Buddhism here means what the oldest surviving Buddhist texts teach: the discourses (suttas) of the Pali canon. Theravada is the school that still lives by those texts, together with later commentaries. It is the main form of Buddhism in Sri Lanka, Thailand, Myanmar, Cambodia and Laos (both points from the reading below).
+**Early Buddhism** here means what the oldest surviving Buddhist texts teach: the discourses (**suttas**) of the **Pali canon**. **Theravada** is the school that still lives by those texts, together with later commentaries. It is the main form of Buddhism in Sri Lanka, Thailand, Myanmar, Cambodia and Laos (both points from the reading below).
 
-The overview is by John Bullitt, written for Access to Insight, a free online library of Theravada texts. He writes as someone inside the tradition, so read it as the tradition describing itself. Two of its claims matter most for this course: that stress and dissatisfaction come from craving, and that craving can end completely, which Bullitt calls "supreme happiness".
+The overview is by John Bullitt, written for Access to Insight, a free online library of Theravada texts. He writes as someone inside the tradition, so read it as the tradition describing itself. Two of its claims matter most for this course: that stress and dissatisfaction (**dukkha**) come from **craving** (*tanha*, "for sensuality, for becoming, or for not-becoming" in the [Access to Insight glossary](https://www.accesstoinsight.org/glossary.html)), and that craving can end completely, which Bullitt calls "supreme happiness".
 
 #### Article
 source:: [[../articles/accesstoinsight-what-is-theravada-buddhism]]
@@ -41,7 +41,7 @@ Teachers you will read later in this module:
 #### Question: Open
 id:: 36e98c7f-aa82-42a5-ad04-51c83dcdb16d
 content::
-Without looking back, write down what you remember: the four noble truths and the task that goes with each, the three kinds of craving, the three groups of path factors, and what happens at stream-entry. No need to be complete or tidy.
+Without looking back, write down everything you remember from the reading. No need to be complete or tidy.
 force-feedback:: first
 feedback-instructions:: The learner just read John Bullitt's "What is Theravada Buddhism?" and wrote a free recall without looking back.
 
