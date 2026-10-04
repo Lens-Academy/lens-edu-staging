@@ -28,29 +28,39 @@ application-survey:: [[../surveys/Application Form]]
 
 # Module: [[../modules/XLab Control AC2 U1 The control toolkit and where to invest|Unit 1: The control toolkit and where to invest]]
 
+# Module: [[../modules/XLab Control AC2 U1 Feedback|Unit 1 feedback]]
+
 # Meeting: Unit 1
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
 # Module: [[../modules/XLab Control AC2 U2 High stakes: how a catastrophe happens|Unit 2: High stakes: how a catastrophe happens]]
 
+# Module: [[../modules/XLab Control AC2 U2 Feedback|Unit 2 feedback]]
+
 # Meeting: Unit 2
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Control AC2 U3 Monitoring and resampling in real deployments|Unit 3: Monitoring and resampling in real deployments]]
 
+# Module: [[../modules/XLab Control AC2 U3 Feedback|Unit 3 feedback]]
+
 # Meeting: Unit 3
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Control AC2 U4 Building the test, and designing against collusion|Unit 4: Building the test, and designing against collusion]]
 
+# Module: [[../modules/XLab Control AC2 U4 Feedback|Unit 4 feedback]]
+
 # Meeting: Unit 4
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Control AC2 U5 Low stakes: diffuse failures and sandbagging|Unit 5: Low stakes: diffuse failures and sandbagging]]
+
+# Module: [[../modules/XLab Control AC2 U5 Feedback|Unit 5 and course feedback]]
 
 # Meeting: Unit 5
 survey:: [[../surveys/AC2 Final Impact Survey v2]]

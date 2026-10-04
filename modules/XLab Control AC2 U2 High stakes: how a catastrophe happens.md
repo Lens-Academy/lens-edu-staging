@@ -13,6 +13,21 @@ source:: [[../Learning Outcomes/Execute, replace and audit decisions]]
 # Learning Outcome:
 source:: [[../Learning Outcomes/Rogue deployments]]
 
+# Lens: Welcome to Unit 2
+id:: 30c0a440-f30b-4497-a8c6-a302420f1121
+tldr:: What you will learn in Unit 2: high stakes: how a catastrophe happens.
+summary_for_tutor:: Short opening page of Unit 2 (High stakes: how a catastrophe happens) of AI Control 2. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
+reading_minutes:: 1
+tutor_minutes:: 0
+#### Text
+content::
+\## In this unit you will
+
+- Place a deployment on the map of high and low stakes, by how incriminating each action is and how many actions a catastrophe takes.
+- Describe each attack by its outcome (win, continue, lose) and each protocol decision as execute, replace or audit.
+- Explain how a rogue deployment could start, including through a company's own public API.
+- Find where an escape would cut into the servers behind "the machine the agent runs on".
+
 # Lens:
 source:: [[../Lenses/XLab Control - what-is-high-stakes]]
 
