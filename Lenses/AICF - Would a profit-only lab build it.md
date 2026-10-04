@@ -40,6 +40,18 @@ source:: [[../articles/mallen-capabilities-research-expands-the-safety-usefulnes
 from:: It’s tempting to define safety research
 to:: Visually: near the initial pink point, the green slope is shallower than the red slope.
 
+#### Text
+content::
+Caspar Oesterheld replies to the acceleration worry in general, for any safety project. Read his argument and one of his own caveats, which is about control.
+
+#### Article
+source:: [[../articles/oesterheld-a-simple-argument-about-capabilities-externalities-versus-opportunity-costs]]
+from:: Lots of people have the intuition that adding one generic safety researcher
+to:: but won’t render the project net negative.
+
+#### Article
+from:: The above argument is about externalities on “generic capabilities”
+to:: will increase AIs’ ability to escape control schemes.
 #### Question: Open
 id:: 917241f5-4296-469a-81f1-a96b9db5a54f
 force-feedback:: first
