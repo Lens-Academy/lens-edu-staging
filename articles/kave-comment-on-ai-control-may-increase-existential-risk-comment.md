@@ -3,7 +3,7 @@ title: "Comment on AI Control May Increase Existential Risk"
 author:
   - "kave"
 source_url: "https://www.greaterwrong.com/posts/rZcyemEpBHgb2hqLP/ai-control-may-increase-existential-risk/comment/fSt5FNEHMynyrQaAN"
-published: 2026-10-04
+published: 2025-03-14
 created: 2026-10-04
 accessed: 2026-10-04
 llm-review:
