@@ -26,38 +26,6 @@ labels::
 - Excellent
 
 #### Question: Rating
-id:: 94d8b643-dd64-4a8e-a431-eca2b9438b98
-content:: How would you rate this module's content?
-scale:: 10
-labels::
-- Extremely poor
-- Very poor
-- Poor
-- Below average
-- Neutral
-- Above average
-- Good
-- Very good
-- Excellent
-- Outstanding
-
-#### Question: Rating
-id:: c31ef807-ebe1-4da1-be98-1fddbd52bf3f
-content:: How useful was the AI Tutor for this module?
-scale:: 10
-labels::
-- Not useful at all
-- Very unhelpful
-- Unhelpful
-- Slightly unhelpful
-- Neutral
-- Slightly useful
-- Useful
-- Very useful
-- Extremely useful
-- Essential
-
-#### Question: Rating
 id:: 349c1fab-2ff2-451a-8a84-d034b08172b2
 content:: How would you rate this meeting and its group discussions?
 scale:: 10

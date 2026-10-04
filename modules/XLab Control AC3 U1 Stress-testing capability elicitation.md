@@ -13,6 +13,20 @@ source:: [[../Learning Outcomes/Validating supervised elicitation]]
 # Learning Outcome:
 source:: [[../Learning Outcomes/Stress-testing capability elicitation]]
 
+# Lens: Welcome to Unit 1
+id:: 8b9eef1c-8c95-4d8c-9c59-d26d44ea39cb
+tldr:: What you will learn in Unit 1: stress-testing capability elicitation.
+summary_for_tutor:: Short opening page of Unit 1 (Stress-testing capability elicitation) of AI Control 3. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
+reading_minutes:: 1
+tutor_minutes:: 0
+#### Text
+content::
+\## In this unit you will
+
+- Design a test of whether an elicitation method recovers a capability a model is hiding.
+- Rebuild how the password-locked models paper locks a skill, and follow how far fine-tuning and reinforcement learning get in unlocking it.
+- Explain how a model could resist reinforcement learning by never trying.
+
 # Lens:
 source:: [[../Lenses/XLab Control - capability-elicitation-guided]]
 
