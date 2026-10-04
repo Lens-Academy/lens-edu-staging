@@ -24,6 +24,14 @@ source:: [[../articles/shah-securing-the-future-of-ai-agents]]
 from:: How we’re securing internal systems against increasingly capable and imperfectly aligned AI
 to:: We intend to build on these frameworks to confidently deploy capable AI today while we continue to build a secure foundation for the future.
 
+#### Text
+content::
+Finally, a government team that tests these monitors from outside. In July 2026 the UK AI Security Institute described what its new Control Red Team found when it attacked the internal monitors of Google DeepMind and Anthropic. Notice which monitor reviews actions after they run and which reviews them before.
+
+#### Article
+source:: [[../articles/ai-security-institute-how-our-control-red-team-is-stress-testing-frontier-monitors]]
+from:: As LLM agents become more autonomous, they have more opportunities to cause harm.
+to:: so the best attack strategy avoids actions being sent to the monitor entirely.
 #### Question: Open
 id:: ede9f6e9-f600-4991-a591-0cc2a9fe8589
 content::
@@ -37,7 +45,7 @@ content::
 From the talk and the post: name two control measures AI companies already run, and one way people outside the companies check whether those measures work.
 force-feedback:: first
 assessment-instructions:: Score out of 100. 60: two control measures AI companies already run, 30 each. Fitting measures: monitors that read agents' reasoning or actions and send suspicious cases to human review, real-time monitoring or blocking of harmful actions, capability evaluations, standard cybersecurity, sandboxing or containment of agents, humans watching what agents do, or Google DeepMind's prototype monitor run over a million coding-agent tasks. 40: one way outsiders check whether the measures work, such as third-party review of companies' risk reports, benchmarks that test monitors, red-teaming by outside groups that try to get attacks past the monitors, or METR's reports. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Companies already run monitors that read their coding agents' reasoning and send suspicious cases to humans, and they sandbox their agents. Outside groups such as METR red-team those monitors and publish what they find."
-feedback-instructions:: Measures named in the sources: asynchronous chain-of-thought monitors that escalate to human review (OpenAI and Anthropic, per Bhatt), some real-time monitoring, capability evaluations, standard cybersecurity, sandboxing and containment, trusted AI supervisors that review agents' reasoning and actions and can block harmful actions (Google DeepMind), and Google DeepMind's prototype asynchronous monitor over a million coding-agent tasks. Outside checks: third-party review of companies' risk reports, static monitor benchmarks, automated and human red-teaming, and METR's embedded red-teaming exercise and reports. Reply in at most three sentences: confirm what is right, correct anything wrong. One turn, no generic praise. Tell them to move on.
+feedback-instructions:: Measures named in the sources: asynchronous chain-of-thought monitors that escalate to human review (OpenAI and Anthropic, per Bhatt), some real-time monitoring, capability evaluations, standard cybersecurity, sandboxing and containment, trusted AI supervisors that review agents' reasoning and actions and can block harmful actions (Google DeepMind), and Google DeepMind's prototype asynchronous monitor over a million coding-agent tasks. Outside checks: third-party review of companies' risk reports, static monitor benchmarks, automated and human red-teaming, METR's embedded red-teaming exercise and reports, and the UK AI Security Institute's Control Red Team, which attacked Google DeepMind's asynchronous reasoning monitor and successive versions of Anthropic's synchronous coding monitor and found vulnerabilities in every Anthropic version it tested. Reply in at most three sentences: confirm what is right, correct anything wrong. One turn, no generic praise. Tell them to move on.
 
 #### Text
 content::
@@ -45,4 +53,6 @@ content::
 Bhatt, Aryan. "The high stakes control roadmap: now to the singularity." FAR.AI. [youtube.com](https://www.youtube.com/watch?v=rttkT223KHk)
 
 Shah, Rohin, and Four Flynn. "Securing the future of AI agents." *Google DeepMind blog*, 18 June 2026. [deepmind.google](https://deepmind.google/blog/securing-the-future-of-ai-agents/)
+
+AI Security Institute. "How our Control Red Team is stress-testing frontier monitors." *AISI blog*, 23 July 2026. [aisi.gov.uk](https://www.aisi.gov.uk/blog/how-our-new-control-red-team-is-stress-testing-frontier-monitors)
 :::
