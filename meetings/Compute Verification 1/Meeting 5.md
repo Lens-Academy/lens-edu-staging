@@ -18,7 +18,7 @@ source:: [[../shared/Session Doc - How today works]]
 Go around your group:
 1\. How was working through this unit's content? Denser or easier than the previous units? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.){>>{"author":"AI","timestamp":1791094814456}@@Clarity (recurring): four questions in one item. AI (mild, recurring): stock reassurance.<<}
 2\. Something in this unit landed on you: a number, a claim, a limit nobody has solved yet. What was it, and what did it do to you? Hope, unease, irritation and relief are all answers.{>>{"author":"AI","timestamp":1791094815348}@@AI (strong): "landed on you", "what did it do to you?" and "…are all answers" are typical Claude phrasing. The opening also asserts that something landed instead of asking. Clarity: two questions in this item.<<}
-3\. Five units in: are you more or less hopeful that a pause could actually be checked? Which part of the course did that?
+3\. Five units in: are you more or less hopeful that a pause could actually be checked?{>>{"author":"AI","timestamp":1791094828216}@@AI (mild): the "Five units in:" lead-in. Clarity: two questions in this item, and "more or less" leaves out "about the same".<<} Which part of the course did that?
 
 
 | Names | What landed on you + more or less hopeful, and which part did that |
@@ -124,8 +124,8 @@ Part 1 ends today, but your action plan doesn't.{>>{"author":"AI","timestamp":17
 Back in the main room, share if you feel like it: one thing you're glad you know now that you didn't know when this course started.
 Before you leave (your navigator will talk through these):
 
-- This is the last meeting of Part 1. The second course continues through the remaining evidence streams (cloud, intelligence, human and institutional) and how a determined adversary evades them; after both courses comes a guided capstone: designing and defending a verification regime for a three-month emergency pause. Watch Discord for how and when to join.
-- Keep your Unit 1 essays, including the success scenario if you wrote it: XLab's curriculum returns to it at the end of the track.
+- This is the last meeting of Part 1. The second course continues through the remaining evidence streams (cloud, intelligence, human and institutional) and how a determined adversary evades them; after both courses comes a guided capstone: designing and defending a verification regime for a three-month emergency pause.{>>{"author":"AI","timestamp":1791094820705}@@AI (mild): one long sentence chained with a semicolon and two colons, and "evidence streams" is course jargon. Content: the Capstone course file describes picking one brief from a bank (regime spec, threat model, costed monitoring plan, dossier, protocol) or proposing your own, not one fixed task on a three-month pause. Worth checking which is current.<<} Watch Discord for how and when to join.
+- Keep your Unit 1 essays, including the success scenario if you wrote it: XLab's curriculum returns to it at the end of the track.{>>{"author":"AI","timestamp":1791094821330}@@Clarity: "the track" and "returns to it" are vague. Which course, and what happens with the essay?<<}
 - Found something unclear, wrong, or missing? The course is still in development: send it through [XLab's feedback form](https://forms.gle/KkWcHkKh87pygDzw9).
 
 
