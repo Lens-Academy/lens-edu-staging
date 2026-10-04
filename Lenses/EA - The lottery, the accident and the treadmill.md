@@ -42,13 +42,17 @@ source:: [[../articles/diener-beyond-the-hedonic-treadmill]]
 from:: According to the hedonic treadmill model, good and bad events temporarily affect happiness
 to:: These revisions offer hope for psychologists and policymakers who aim to decrease human misery and increase happiness.
 
+#### Text
+content::
+In the section below, "the same sample" is the one the paper describes just before it: a large, representative sample of people in Germany, followed for 17 years. The figure it mentions is not shown here.
+
 #### Article
 from:: Using the same sample of Germans, we have examined the ways that specific life events influence happiness.
 to:: many of the group differences in happiness are substantial.
 
 #### Text
 content::
-Finally, a direct test with money. Lindqvist and colleagues compare Swedish players who won large prizes with similar players who did not. Because the prize money is assigned at random among players (their section 1), the difference can be read as an effect of the money.
+Finally, a direct test with money. Lindqvist and colleagues compare Swedish lottery players whose prize sizes were decided by chance, including large-prize winners and matched players who did not win. Because the prize money is assigned at random among players (their section 1), the difference can be read as an effect of the money.
 
 #### Article
 source:: [[../articles/lindqvist-long-run-effects-of-lottery-wealth-on-psychological-well-being]]
