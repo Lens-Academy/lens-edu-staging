@@ -99,7 +99,7 @@ One or two people share what their group landed on.
 
 
 Any verdict is fine. Each person in turn does 1 to 4:
-1\. Fill in: "More work on AI control is net positive / net negative / too close to call. I am [how sure, as a percentage or in words] because [the crux I stand on]. I would change my mind if I saw [something observable]."
+1\. Fill in: "More work on AI control is net positive / net negative / too close to call. I am [how sure: words or %] because [the crux I stand on]. I would change my mind if I saw [something observable]."
 2\. Someone else picks the consideration below that cuts hardest against that verdict (for too close to call, either list). The speaker answers it.
 
 Against "net positive":
