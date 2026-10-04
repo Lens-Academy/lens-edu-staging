@@ -5,16 +5,13 @@ title: "Unit 2: The key ideas and the field"
 tags:
   - work-in-progress
 ---
-%% Unit 2 of AI Control Fundamentals. Lenses: welcome (inline), Greenblatt on threats with the control graph, Shlegeris on rogue deployments, Hebbar's low-stakes talk (first 16 min), practice on high- vs low-stakes (inline), Greenblatt's areas (excerpts), UK AISI research areas (excerpts), Bhatt talk excerpt plus Google DeepMind's roadmap post, Lens page on who works on control, practice on placing projects (inline). Time: welcome 3+3, threats 15+10, rogue deployments 13+10, low-stakes talk 18+10, practice 3+15, areas 12+10, AISI 6+5, AI companies 18+10, who works 7+9, practice 3+10 (lenses 190), plus about 24 for the three learning-outcome tests. About 214 minutes. %%
+%% Unit 2 of AI Control Fundamentals. Lenses: welcome (inline), Greenblatt on threats with the control graph, Shlegeris on rogue deployments, Hebbar's low-stakes talk (first 22.5 min), practice on high- vs low-stakes (inline), Greenblatt's areas (excerpts), UK AISI research areas (excerpts), Bhatt talk excerpt plus Google DeepMind's roadmap post, Lens page on who works on control, practice on placing projects (inline). Time: welcome 3+3, threats 13+10, rogue deployments 12+8, low-stakes talk 24+11, practice 3+13, areas 8+8, AISI 6+5, AI companies 17+9, who works 5+10, practice 3+10 (lenses 182), plus about 28 for the two learning-outcome tests. About 210 minutes. %%
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/High-stakes versus low-stakes control]]
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/The AI control field]]
-
-# Learning Outcome:
-source:: [[../Learning Outcomes/Size of the AI control field]]
 
 # Lens: Welcome to Unit 2
 id:: b716617e-ad43-4334-9bee-d284a2533f19
@@ -39,6 +36,7 @@ id:: 62e5237c-1121-452e-9832-847652b41311
 content::
 A quick prediction before you start. Which seems harder to defend against: a model that could cause a catastrophe with one bad action, or one that needs a thousand small bad actions? Say why in a sentence or two.
 feedback-instructions:: This is an ungraded prediction. Acknowledge it in one or two sentences and reflect back the reason the learner gave, without saying which answer is right and without previewing the readings. Do not ask a follow-up question. Close by sending them to the first lesson. No generic praise.
+force-feedback:: first
 
 # Lens:
 source:: [[../Lenses/AICF - High-stakes and low-stakes threats]]
