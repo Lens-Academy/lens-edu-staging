@@ -69,6 +69,7 @@ source:: [[../widgets/xlab-control-upfront-auditing]]
 id:: a55456eb-55df-4411-8085-fe8560997645
 content:: What attack defeats upfront auditing, and how?
 assessment-instructions:: Score out of 100. 40: the attack: backdoor rarely, submitting obviously backdoored code on each problem with some small probability and behaving normally otherwise. 60: how it works, 30 each: upfront auditing only checks a fixed prefix, the first 2% of problems, and an attempt that lands there is caught and ends the game for the red team. With a well-chosen low attack rate, usually no attempt falls in that prefix, and a later attempt, which nothing checks, gets a backdoor through. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Backdooring rarely: on each problem, with some small probability $p$, the attack policy submits obviously backdoored code, and otherwise it behaves normally. Upfront auditing only checks the first 2% of problems, so the red team loses only if an attempt lands in that audited prefix. With a well-chosen $p$ its attempts usually miss the prefix and a backdoor gets through later, driving the blue team's win probability down to 15%."
+force-feedback:: first
 feedback-instructions:: One turn, at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer from the rubric so they leave with it, in your own words if it is long. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Text
@@ -83,6 +84,7 @@ to:: 21:43
 id:: 4a8ed67f-05ba-4bd8-9e69-8c0e4dd88a8f
 content:: In defer to trusted, what does the protocol do with code whose suspicion score is elevated but below the audit threshold?
 assessment-instructions:: Score out of 100. 50: the untrusted model's code is thrown away, not submitted. 50: a solution written by the trusted model is submitted in its place. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer says this code is sent to audit (that happens only above the audit threshold). Model answer, for the feedback, not a grading checklist: "It discards the untrusted model's code and submits a solution written by the trusted model instead."
+force-feedback:: first
 feedback-instructions:: One turn, at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer from the rubric so they leave with it, in your own words if it is long. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Text
@@ -97,6 +99,7 @@ to:: 28:03
 id:: 7690d1ff-0d67-438a-aced-d7605a9e6b51
 content:: Why does naive untrusted monitoring have 0% safety?
 assessment-instructions:: Score out of 100. 50: the monitor is the same untrusted model as the policy, so a scheming policy has a monitor on its side. 50: so the monitor can simply lie, reporting real backdoors as unsuspicious while answering honestly on everything else, and the protocol never audits the code that matters. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer blames the failure on the monitor being bad at spotting backdoors. Model answer, for the feedback, not a grading checklist: "Because the monitor is the same untrusted model as the policy, it can simply report that real backdoors look fine while telling the truth about everything else. Until the blue team has some way to check the monitor's honesty, its reports carry no safety value."
+force-feedback:: first
 feedback-instructions:: One turn, at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer from the rubric so they leave with it, in your own words if it is long. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
 #### Callout: Optional practice: checking a monitor you cannot trust
