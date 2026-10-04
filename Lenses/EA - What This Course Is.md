@@ -18,21 +18,21 @@ You will meet psychologists, meditation traditions and philosophers. For each on
 
 Where a school says "do this for so long and you will feel that", you get an experiment to test it on yourself. Some take ten minutes, some take a year.
 
-\## How the course is built
+\## The route
 
-**Part I: the map.** Eight modules, taken in order:
+The first part of the course is a map, in eight modules:
 
-1. **Overview** (this module): what the course is, and your starting view.
-2. **The questions**: what people mean by happiness, whether circumstances can give lasting peace, and the questions about the self, wanting and experience.
-3. **Judging claims**: what each kind of evidence can and cannot show, and how to test a claim on yourself.
-4. **Tour of the schools**: all the schools on one map, and your choice of which ones to study.
-5. **Desire**: what the schools say about wanting.
-6. **The self**: what the schools say the self is.
-7. **Emotions and circumstances**: what the schools say to do with emotions, and whether circumstances can give lasting peace.
-8. **Your position and experiments**: your view now compared with your starting view, and the experiments you choose.
+1. **Overview**, this module.
+2. **The questions.** What people mean by happiness, whether circumstances can give lasting peace, and the big questions about the self.
+3. **Judging claims.** How to weigh a study, a meditation teacher's report and your own experience.
+4. **Tour of the schools.** Every school on one page, so you can choose which ones to study.
+5. **Desire.** Why we want things, and what the schools say about wanting.
+6. **The self.** What the schools say you are.
+7. **Emotions and circumstances.** What to do with feelings, and whether life events decide how you feel.
+8. **Your position.** What you think now, and which experiments you want to run.
 
-Next to the core path is a **library of school modules**, one per school, each with the same profile. It covers psychology and science (for example wellbeing science, CBT and the therapies that grew out of it, psychedelic research), contemplative traditions (for example early Buddhism, Zen, Advaita Vedanta, secular meditation) and philosophy (for example Stoicism, Epicureanism, existentialism). After the tour in module 4 you pick the school modules you want.
+Beside these eight modules there is a library with one module per school: wellbeing science, CBT, Buddhism, Zen, Stoicism, Epicurus and many more. After the tour you pick the ones you want.
 
-**Part II: practice.** A practice path where you run the experiments you chose in module 8.
+The second part of the course is practice: you run the experiments you chose.
 
-On the next page you write down your starting view.
+Before any of that, the next page asks what you think right now.

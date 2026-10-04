@@ -12,7 +12,7 @@ tags:
 content::
 The previous readings came from Western philosophy and psychology. These come from contemplative traditions and from researchers who study them. They describe grades of pleasure, a happiness that some of them say does not depend on circumstances, and equanimity.
 
-The first reading was written jointly. As the paper states, two Buddhists, Matthieu Ricard and Alan Wallace, wrote the sections on the Buddhist view, and two psychologists, Paul Ekman and Richard Davidson, wrote the sections on research and theory.
+The first reading has four authors. Two Buddhists, Matthieu Ricard and Alan Wallace, wrote the parts on the Buddhist view, and two psychologists, Paul Ekman and Richard Davidson, wrote the parts on research.
 
 #### Article
 source:: [[../articles/ekman-buddhist-and-psychological-perspectives-on-emotions-and-well-being]]
@@ -29,7 +29,7 @@ to:: It is a dispositional quality that permeates and pervades all experience an
 
 #### Text
 content::
-Next, a short discourse attributed to the Buddha that grades pleasure and equanimity into three levels. Two terms you need:
+Next, a short discourse attributed to the Buddha that grades pleasure and equanimity into three levels. Three terms help:
 - **Jhana**: "mental absorption. A state of strong concentration focused on a single physical sensation (...) or mental notion" ([Access to Insight glossary](https://www.accesstoinsight.org/glossary.html)).
 - **Fermentation-ended monk**: Thanissaro translates *asava* as "fermentation" ([same glossary](https://www.accesstoinsight.org/glossary.html)). A monk whose fermentations have ended is an arahant, a fully awakened person.
 - **Pleasure** in this translation is *sukha*. The same glossary lists "sukha (pleasure)" among the factors of jhana and gives "pleasure", "ease" and "satisfaction" as translations of *sukha* ([same glossary](https://www.accesstoinsight.org/glossary.html)).
