@@ -17,29 +17,39 @@ application-survey:: [[../surveys/Application Form]]
 
 # Module: [[../modules/XLab Verification Part 2 W06 Hardware judgment and cloud records]]
 
+# Module: [[../modules/XLab Verification Part 2 U6 Feedback|Unit 6 feedback]]
+
 # Meeting: Unit 6: Hardware judgment and cloud records
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
 # Module: [[../modules/XLab Verification Part 2 W07 Cloud limits and intelligence]]
 
+# Module: [[../modules/XLab Verification Part 2 U7 Feedback|Unit 7 feedback]]
+
 # Meeting: Unit 7: Cloud limits and intelligence
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification Part 2 W08 The human layer]]
 
+# Module: [[../modules/XLab Verification Part 2 U8 Feedback|Unit 8 feedback]]
+
 # Meeting: Unit 8: The human layer
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification Part 2 W09 Covert development and the low-trust architecture]]
 
+# Module: [[../modules/XLab Verification Part 2 U9 Feedback|Unit 9 feedback]]
+
 # Meeting: Unit 9: Covert development and the low-trust architecture
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification Part 2 W10 Evasion routes and the red team review]]
+
+# Module: [[../modules/XLab Verification Part 2 U10 Feedback|Unit 10 and course feedback]]
 
 # Meeting: Unit 10: Evasion routes and the red team review
 survey:: [[../surveys/CV2 Final Impact Survey v2]]
