@@ -12,18 +12,19 @@ id:: 90694eda-04e9-48ec-8d08-8c35feb75d41
 #### Question: Open
 id:: b8328d8f-3d28-4dc6-a573-6ed827bd6c11
 content::
-For each quote, write its number and the kind of happiness it is about. Choose from: **positive feeling**, **life satisfaction**, **eudaimonia**, **ataraxia** (Epicurean calm), **sukha** (say which grade: senses, meditative absorption, or released mind), **contentment**, **fundamental wellbeing**, or **equanimity**. If you are unsure, add a few words on why.
+Ten quotes from real texts follow. For each one, write its number, the kind of happiness it is about, and the word or phrase in the quote that shows it, with a few words on why.
 
-1. "Nature has placed mankind under the governance of two sovereign masters, pain and pleasure." (Jeremy Bentham)
-2. "In most ways my life is close to my ideal." (an item of the Satisfaction With Life Scale, Diener and colleagues)
-3. "Evenness of mind, unshakeable freedom of mind, a state of inner equipoise that cannot be upset by gain and loss, honor and dishonor, praise and blame, pleasure and pain." (Bhikkhu Bodhi)
-4. "The happy man both lives well and does well." (Aristotle)
-5. "Rapture & pleasure born from withdrawal." (a discourse attributed to the Buddha, describing the first jhana)
-6. "All remaining vestiges of self-related thoughts are gone by this point, as are experiences of emotion." (Jeffery Martin, on the furthest group of his interviewees)
-7. "We conclude that high income buys life satisfaction but not happiness." (Kahneman and Deaton). Which kind does "happiness" mean in this sentence?
-8. "By pleasure we mean the absence of pain in the body and of trouble in the soul." (Epicurus)
-9. "Whatever of pleasure is there in the world of desires, and whatever of larger happiness is there in the world of heaven, they do not come to the sixteenth part of the joy due to the suppression of desires." (Vyasa, commentary on the Yoga Sutras)
-10. "Whatever pleasure arises in a fermentation-ended monk as he is reflecting on his mind released from passion, reflecting on his mind released from aversion, reflecting on his mind released from delusion." (the same discourse as quote 5)
+Choose from: **positive feeling**, **life satisfaction**, **eudaimonia**, **ataraxia**, **sukha** (say which grade: of the senses, of meditative absorption, or of a released mind), **fundamental wellbeing**, or **equanimity**. The word a quote uses ("happy", "pleasure", "well-being", "feel") is often not the kind it is about.
+1. "We conclude that high income buys life satisfaction but not happiness." Which kind does "happiness" mean here?
+2. "Please think about what you have been doing and experiencing during the past four weeks. Then report how much you experienced each of the following feelings (...)": positive, negative, good, bad, pleasant, unpleasant, happy, sad, afraid, joyful, angry, contented.
+3. "Please imagine a ladder with steps numbered from zero at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?"
+4. "(...) as it is not one swallow or one fine day that makes a spring, so it is not one day or a short time that makes a man blessed and happy."
+5. Six "aspects of well-being": "self-acceptance, positive relations with others, autonomy, environmental mastery, purpose in life, and personal growth".
+6. "By pleasure we mean the absence of pain in the body and of trouble in the soul."
+7. "(...) a state of inner equipoise that cannot be upset by gain and loss, honor and dishonor, praise and blame, pleasure and pain."
+8. "He permeates and pervades, suffuses and fills this very body with the rapture and pleasure born from withdrawal."
+9. "Now whatever pleasure or joy arises in dependence on these five strands of sensuality, that is the allure of sensuality."
+10. "All remaining vestiges of self-related thoughts are gone by this point, as are experiences of emotion."
 assessment-instructions:: Score out of 100: 10 points per quote. The learner names one kind per quote, chosen from a given list. Award 10 for the answer below or a clear equivalent in their own words, and the partial points listed where a partial answer is reasonable. Ignore spelling and formatting. If the learner names two kinds for one quote and one of them is correct, award 5 unless their note explains why both apply in a way that is accurate.
 
 1. Bentham, pain and pleasure as the masters of mankind: positive feeling (pleasure, hedonic happiness). 10.
