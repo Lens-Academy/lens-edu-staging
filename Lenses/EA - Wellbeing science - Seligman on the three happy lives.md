@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-Martin Seligman is a psychologist at the University of Pennsylvania and a former president of the American Psychological Association. In this TED talk he describes the field he calls positive psychology, which he started with colleagues, and his three-part theory of happiness. Watch from where he names the field to the end of his results on life satisfaction (15 minutes).
+Martin Seligman is a psychologist at the University of Pennsylvania and a former president of the American Psychological Association. As president he launched **positive psychology**, "the scientific study of the factors that enable individuals and communities to flourish" ([Penn Positive Psychology Center](https://ppc.sas.upenn.edu/learn-more/perma-theory-well-being-and-perma-workshops)). In this TED talk he describes the field, which he started with colleagues, and his three-part theory of happiness. Watch from where he names the field to the end of his results on life satisfaction (15 minutes).
 
 #### Video
 source:: [[../video_transcripts/authentic-happiness-martin-seligman-the-new-era-of-positive-psychology]]
@@ -32,7 +32,7 @@ to:: Is defined and measured independently of the other elements
 
 #### Text
 content::
-Goodman, Disabato, Kashdan and Kauffman (2017) later measured PERMA and ordinary subjective wellbeing in 517 online survey workers and found the two correlated at .98, so they argued PERMA adds nothing. Seligman replied that the elements are building blocks, not a new kind of wellbeing, and that they are useful because each points to exercises you can do. He also wrote that the list "is certainly not exhaustive" and that "PERMA is merely a good start" ([Seligman 2018](https://ppc.sas.upenn.edu/sites/default/files/permawellbeing.pdf)). The same page from the Positive Psychology Center advertises PERMA wellbeing and resilience workshops and says "empirical studies have demonstrated that these programs improve wellbeing and mental health", without naming the studies ([Penn Positive Psychology Center](https://ppc.sas.upenn.edu/learn-more/perma-theory-well-being-and-perma-workshops)).
+Goodman, Disabato, Kashdan and Kauffman (2017) later measured PERMA and ordinary subjective wellbeing in 517 online survey workers and found the two correlated at .98. A **correlation** runs from -1 to 1 and says how closely two measures rise and fall together across people, so .98 means people scored almost identically on both. They argued PERMA adds nothing. Seligman replied that the elements are building blocks, not a new kind of wellbeing, and that they are useful because each points to exercises you can do. He also wrote that the list "is certainly not exhaustive" and that "PERMA is merely a good start" ([Seligman 2018](https://ppc.sas.upenn.edu/sites/default/files/permawellbeing.pdf)). The same page from the Positive Psychology Center advertises PERMA wellbeing and resilience workshops and says "empirical studies have demonstrated that these programs improve wellbeing and mental health", without naming the studies ([Penn Positive Psychology Center](https://ppc.sas.upenn.edu/learn-more/perma-theory-well-being-and-perma-workshops)).
 
 #### Question: Open
 id:: 8238c842-e9a8-4423-a9b4-0e639fb9b85c
@@ -48,17 +48,29 @@ Acknowledge what is right without inflation, name the most important missing poi
 #### Question: Open
 id:: 06c4cc00-272d-4169-8835-d5b073bec647
 content::
-How did the talk land? What convinced you, what did you doubt, and did anything sound more like a sales pitch than a finding?
+How did the talk land for you? Write whatever comes, for example something that convinced you or something you doubted.
 force-feedback:: first
-feedback-instructions:: The learner watched Seligman's 2004 TED talk on the three happy lives and read that his own 2005 paper reports a shorter gratitude visit effect than he states in the talk, and that his center sells PERMA workshops. This is a processing step, not a teaching step: help them articulate their reaction, do not resolve it, and do not tell them whether Seligman is right. If they are sceptical, treat that as legitimate and ask what evidence would convince them, for example what kind of study would show that meaning causes life satisfaction rather than going with it. If they found it convincing, ask which claim they would most want to see tested. If they ask about evidence strength, say a later lens in this module covers effect sizes. 50 to 90 words per reply. At most two replies. No generic praise.
+feedback-instructions:: The learner watched Seligman's TED talk on the three happy lives and read that his own 2005 paper reports a shorter gratitude visit effect than he states in the talk, and that the Penn Positive Psychology Center advertises PERMA workshops. This is a processing step, not a teaching step: help them articulate their reaction, do not resolve it, and do not tell them whether Seligman is right. If they are sceptical, treat that as legitimate and ask what evidence would convince them, for example what kind of study would show that meaning causes life satisfaction rather than going with it. If they found it convincing, ask which claim they would most want to see tested. If they ask about evidence strength, say a later lens in this module covers effect sizes. 50 to 90 words per reply. At most two replies. No generic praise.
+id:: d3d1ee6a-b105-4d41-b91e-f43c6b84e14b
+content::
+Did anything in the talk or on the center's page sound more like a sales pitch than a finding? Name it and say why.
+force-feedback:: first
+feedback-instructions:: The learner says whether anything in Seligman's TED talk or on the Penn Positive Psychology Center's PERMA page sounded more like a sales pitch than a finding. Possible candidates they may name: the gratitude visit claim of benefits at three months (his own 2005 paper found the effect gone by then), "Everyone weeps when this happens", the "15 replications involving thousands of people" without details, the workshops page saying studies show the programs work without naming them, the list of benefits of well-being given with a block of references but no effect sizes, or the claim that interventions are tested "the same way that we test drugs". There is no right answer, and "nothing" is acceptable if reasoned. Ask what evidence would turn the item they named into a finding (for example, a preregistered trial with an active control and a long follow-up). Do not call Seligman dishonest. 50 to 90 words. At most two replies. No generic praise.
 
 #### Question: Open
 id:: 9e6118af-4efb-4036-8c39-0dc2c53f8fb3
 content::
-Seligman says the pursuit of pleasure adds almost nothing to life satisfaction, while engagement and meaning add a lot. Which of his three lives, if any, comes closest to deep, stable peace that does not depend on circumstances? And what does his claim, based on how much people say they pursue each life, leave open about whether that peace is possible?
+Seligman says the pursuit of pleasure adds almost nothing to life satisfaction, while engagement and meaning add a lot. Which of his three lives, if any, comes closest to deep, stable peace that does not depend on circumstances?
 force-feedback:: first
 feedback-instructions:: The learner relates Seligman's three happy lives (pleasant, engaged, meaningful) to the course's target state: deep, stable peace and happiness that does not depend on circumstances. The course does not decide which school is right, so do not say whether the target is reachable or which life is best.
 
-Points a strong answer may make: none of the three lives is the same as calm independence from circumstances. The pleasant life is about the amount of positive emotion, which Seligman says habituates and is hard to change. Engagement (flow) is absorption while active, which Seligman says involves no felt emotion while it lasts, so it does not describe a stable background state. Meaning depends on belonging to and serving something larger, which some may see as depending on outside things and others as an inner orientation. On the evidence: his result is about life satisfaction (a judgement) and is correlational, based on people's self-rated orientations to pleasure, engagement and meaning, so it says what goes with satisfaction in ordinary samples, not whether an unusual state such as deep equanimity exists or how to reach it.
+Points a strong answer may make: none of the three lives is the same as calm independence from circumstances. The pleasant life is about the amount of positive emotion, which Seligman says habituates and is hard to change. Engagement (flow) is absorption while active, which Seligman says involves no felt emotion while it lasts, so it does not describe a stable background state. Meaning depends on belonging to and serving something larger, which some may see as depending on outside things and others as an inner orientation.
 
-Reply with the strongest point in their answer and one thing to consider that they missed, as a question. Accept any well-argued choice, including "none". 80 to 130 words. At most two replies. No generic praise.
+Reply with the strongest point in their answer and one thing to consider that they missed, as a question. Accept any well-argued choice, including "none". 70 to 120 words. At most two replies. No generic praise.
+
+#### Question: Open
+id:: 555f3deb-2ad8-4389-9051-00a44c1f3153
+content::
+Seligman's result comes from asking people how much they pursue pleasure, engagement and meaning, and how satisfied they are with their lives. What does this kind of evidence leave open about whether deep, stable peace is possible?
+force-feedback:: first
+feedback-instructions:: The learner judges what Seligman's evidence for the three lives can and cannot show about the course's target state (deep, stable peace that does not depend on circumstances). Points a strong answer may make: the result is correlational (people who say they pursue meaning are more satisfied, which does not show that pursuing meaning causes satisfaction), it measures life satisfaction (a judgement about one's life), not felt peace, it describes ordinary samples, so it says nothing about whether rare states such as deep equanimity exist or how to reach them, and it relies on self-report. Credit any of these that the learner states in their own words. Name the most important one they missed, as a question. Do not say whether the target is possible. 60 to 110 words. At most two replies. No generic praise.
