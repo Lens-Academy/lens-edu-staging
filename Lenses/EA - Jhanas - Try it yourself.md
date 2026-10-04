@@ -30,7 +30,7 @@ content::
 
 **Claim tested:** that a lay person practising at home can reach access concentration and the first jhana with Brasington's method.
 
-**Dose:** one sit a day of at least 45 minutes. Brasington writes that for learning jhanas you need "a quality daily on-the-cushion meditation practice worthy of the word daily, hopefully of at least forty-five minutes and preferably an hour or more" (*Right Concentration*, [quoted on Goodreads](https://www.goodreads.com/work/quotes/44961316-right-concentration-a-practical-guide-to-the-jhanas)).
+**Dose:** one sit a day of at least 45 minutes. Brasington writes that for learning jhanas you need "a quality daily on-the-cushion meditation practice worthy of the word daily, hopefully of at least forty-five minutes and preferably an hour or more" (*Right Concentration*, [quoted on Goodreads](https://www.goodreads.com/work/quotes/44961316-right-concentration-a-practical-guide-to-the-jhanas)). Jhourney's CEO suggests more for people learning without a retreat: "probably 1–2 hours daily to see real movement" ([Jhourney, 2026](https://jhourney.io/blog/what-are-the-jhanas)).
 
 **Duration:** 14 days. This is our choice, not Brasington's. For scale: Jhourney claims most of its retreat participants reach jhana in under 40 hours of meditation, on a retreat with daily guidance ([TIME](https://time.com/7007856/jhourney-meditation-jhanas-retreat-bliss/)). Fourteen sits of 45 minutes are about 10 hours, so if nothing happens, that is weak evidence against the method. Brasington himself says not to expect access concentration "anytime soon".
 
