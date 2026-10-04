@@ -1,7 +1,7 @@
 ---
 id: 'f8ac8b16-6b72-412e-9ceb-24c08a5eb6cf'
 learning-outcome: "Given the reward statistics of the rollout groups in an RL run that fails to raise a model's performance on a task, explain why a group-relative method such as GRPO gets little or no learning signal: every rollout in a group whose rollouts all score the same has zero advantage, so only the groups with mixed rewards move the policy."
-topic: "[[../Domains and Topics/7 AI Control/Control threat models]]"
+topic: "[[../Domains and Topics/1 Artificial Intelligence/How modern AI is trained]]"
 stage: intermediate
 authors:
   - Elias+Claude
