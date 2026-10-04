@@ -27,6 +27,8 @@ Part I, core path. Module 1 goals (Overview):
 - Write down a starting view in a few sentences: what happiness is, what would make you lastingly happy, what the self is (revisited in module 8)
 %%
 
+# Module: [[../modules/Emotional Abundance M1 Overview|Overview]]
+
 %%
 Module 2 goals (The questions):
 - Tell apart what people mean by happiness (positive feeling, life satisfaction, eudaimonia, sukha, ataraxia, equanimity, contentment, fundamental wellbeing) and say which one a given claim is about
