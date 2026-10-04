@@ -13,6 +13,20 @@ source:: [[../Learning Outcomes/Threat models for fitness-seeking AIs]]
 # Learning Outcome:
 source:: [[../Learning Outcomes/Satiating cheap AI preferences]]
 
+# Lens: Welcome to Unit 3
+id:: b100173b-1345-4d00-a646-d32776199cf3
+tldr:: What you will learn in Unit 3: seekers, not schemers.
+summary_for_tutor:: Short opening page of Unit 3 (Seekers, not schemers) of AI Control 3. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
+reading_minutes:: 1
+tutor_minutes:: 0
+#### Text
+content::
+\## In this unit you will
+
+- Describe AIs that want the score to say they succeeded, and how they differ from schemers.
+- Explain paying for an AI's cheap wants on condition that it is never caught undermining control.
+- Explain giving reward hacking a safe channel, and how that differs from inoculation prompting.
+
 # Lens:
 source:: [[../Lenses/XLab Control - alternatives-to-schemers]]
 
