@@ -9,13 +9,17 @@ tags: [wip]
 # Lens: Welcome to Unit 1
 id:: 46ea47e5-ef89-4b78-bdf2-aa7f1b3e3ff8
 tldr:: By the end of this unit you have a plan small enough to finish, and a two-minute pitch for Meeting 1.
-summary_for_tutor:: Opening page of Unit 1 of Lens Projects. It says what the unit is for and offers three levels of effort (minimum, core, stretch). If the learner is worried about how much to do, point them to the minimum level and say a half-finished canvas is fine for Meeting 1.
-duration_minutes:: 5
+summary_for_tutor:: Opening page of Unit 1 of Lens Projects. It starts with what Meeting 1 will be about, so every page in the unit prepares for it, then lists the unit's work and three levels of effort, and ends with a question about what the learner wants from the course. If the learner is worried about how much to do, point them to the minimum level and say a half-finished canvas is fine for Meeting 1. For the goals question, help them make the answer specific; do not suggest goals.
+duration_minutes:: 10
 #### Text
 content::
+\## This unit prepares you for Meeting 1
+
+In Meeting 1 you give a two-minute pitch of your project, and the group asks four questions: Who exactly is this for? What will have changed by the end? Why you? What is your riskiest assumption? Everything in this unit helps you answer them. Bring your canvas, finished or not, and your report card, filled in before the meeting.
+
 \## What this unit is for
 
-By the end of this unit you will have a plan small enough to finish: who your project is for, what should change for them, and the smallest way to start. You bring it to Meeting 1 as a two-minute pitch.
+By the end of this unit you will have a plan small enough to finish: who your project is for, what should change for them, and the smallest way to start.
 
 \## In this unit
 
