@@ -9,7 +9,7 @@ tags:
 
 # Lens: About This Course
 id:: 75e01a0e-4d70-44c5-b7ed-d21cbc91a234
-tldr:: Assume a frontier model may be scheming and design so it still cannot hurt you. The first of our three AI Control courses, based on XLab's AI Control track. It makes the case for control, works through the founding paper's protocols, and ends by asking whether control is worth what it costs.
+tldr:: Assume a frontier model may be scheming and design so it still cannot hurt you. This is the first of our three AI Control courses, based on XLab's AI Control track. It makes the case for control, works through the founding paper's protocols, and ends by asking whether control is worth what it costs.
 summary_for_tutor:: Orientation page before Unit 1 of AI Control 1, the first of three Lens Academy AI Control courses, which are Lens's own courses based on XLab's open-source AI Control track (AI Control 2 assumes this course; AI Control 3 assumes this course and AI Control 2). The learner reads what the course is about, what to know before starting, what the course teaches, how the units run (about three and a half hours of self-study each, some units up to about four, Unit 3 about four and a half, a group meeting at the end, short learning-outcome tests closing each unit), what each of the five units covers, and what the next two courses cover. Do not teach later content in detail; if asked, point to the unit that covers it, or say that the control toolkit, rogue deployments, monitoring and resampling in real deployments, collusion, legibility and low-stakes control belong to AI Control 2, and capability elicitation, exploration hacking, reward seekers and deals with AIs belong to AI Control 3.
 reading_minutes:: 5
 tutor_minutes:: 0
