@@ -26,22 +26,6 @@ labels::
 - Excellent
 
 #### Question: Rating
-id:: aa769ab2-12fa-44dc-a1ca-3c7825e4efd3
-content:: How would you rate this module's content?
-scale:: 10
-labels::
-- Extremely poor
-- Very poor
-- Poor
-- Below average
-- Neutral
-- Above average
-- Good
-- Very good
-- Excellent
-- Outstanding
-
-#### Question: Rating
 id:: bcec4d27-5778-447b-9ecd-555c63d24671
 content:: How useful was the AI Tutor for this module?
 scale:: 10
@@ -93,22 +77,6 @@ labels::
 
 #### Text
 content:: **The full course**
-
-#### Question: Rating
-id:: 96d1187e-7698-4798-a233-be64a1e5173f
-content:: How would you rate the AI Control 1 course overall?
-scale:: 10
-labels::
-- Very poor
-- Poor
-- Somewhat poor
-- Slightly poor
-- Neutral
-- Slightly good
-- Somewhat good
-- Good
-- Very good
-- Excellent
 
 #### Question: Rating
 id:: 37f4a713-8099-42d4-a318-685d736478a8
