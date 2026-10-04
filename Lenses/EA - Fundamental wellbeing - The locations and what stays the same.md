@@ -14,6 +14,11 @@ This is Martin's first paper on the research, a preprint about 50 of his intervi
 
 Read it first for what the participants report. Martin does not test most of these claims, so keep track of which sentences are self-report and which are something he checked.
 
+Three terms you will meet:
+- **NSE** (non-symbolic experience) is the same kind of experience when it has not yet lasted a year, so it does not count as persistent.
+- **Agency** is the felt sense of choosing and doing things yourself.
+- **Jhana** is "mental absorption. A state of strong concentration focused on a single physical sensation (...) or mental notion" ([Access to Insight glossary](https://www.accesstoinsight.org/glossary.html)).
+
 #### Article
 source:: [[../articles/martin-clusters-of-individual-experiences-form-a-continuum-of-persistent-non-symbolic-experiences-in-adults]]
 from:: As the overall picture was examined what emerged was a continuum
@@ -91,9 +96,9 @@ Your role is a brief, honest mirror. 80 to 140 words, short paragraphs, no lists
 #### Question: Open
 id:: f4d4da51-575c-4b77-bc33-b1151b3464f5
 content::
-Take two minutes to write how the reading landed. What resonated, what confused you, what did you doubt? Did anything change how much you would want to reach these states?
+Take two minutes to write how the reading landed. What resonated, what confused you, what did you doubt? No need to organise it.
 force-feedback:: first
-feedback-instructions:: The learner just read Martin's preprint on the PNSE locations and the findings that complicate them (agency, dogmatism, unchanged personality, loss of PNSE, the stress disconnect seen by a partner, implicit bias, people who rejected the far end). They now write how it landed.
+feedback-instructions:: The learner just read Martin's preprint on the PNSE locations and the findings that complicate them (agency, dogmatism, unchanged personality, loss of PNSE, the stress disconnect seen by a partner, implicit bias, people who rejected the far end). They now write how it landed: what resonated, what confused them, what they doubted.
 
 This is a processing phase, not a teaching phase. Help them say their reaction more precisely, do not resolve it. Branch on what they wrote. Confusion: ask what exactly is unclear. Skepticism: treat it as a legitimate stance and ask what evidence would convince them either way. Resonance or attraction: ask what it connected to in their own experience. If they say the reading made them want the state less or more, ask which finding did it. If the learner says they do not understand, give one concrete foothold from the reading (for example the girlfriend's observations) rather than repeating the question. Do not tell them what to conclude about whether these states are desirable. 60 to 120 words. No generic praise. Keep an internal turn counter: after 2 replies, close the phase and send them on.
 
