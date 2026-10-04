@@ -1,7 +1,7 @@
 ---
 title: "Stress Testing Deliberative Alignment for Anti-Scheming Training"
 author:
-  - {--{"author":"James agent ready-34's AI","timestamp":1791134592809}@@"Apolloresearch"--}{++{"author":"James agent ready-34's AI","timestamp":1791134592809}@@"Apollo Research"++}
+  - "Apollo Research"
 source_url: "https://www.apolloresearch.ai/research/stress-testing-deliberative-alignment-for-anti-scheming-training"
 published: 2025-09-17
 created: 2026-10-04

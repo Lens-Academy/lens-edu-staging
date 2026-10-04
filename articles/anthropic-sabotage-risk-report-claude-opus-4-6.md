@@ -3,7 +3,7 @@ title: "Sabotage Risk Report: Claude Opus 4.6"
 author:
   - "Anthropic"
 source_url: "https://www-cdn.anthropic.com/f21d93f21602ead5cdbecb8c8e1c765759d9e232/Sabotage%20Risk%20Report%20Claude%20Opus%204.6.pdf"
-published: {--{"author":"James agent ready-34's AI","timestamp":1791136965401}@@2026-10-04--}{++{"author":"James agent ready-34's AI","timestamp":1791136965401}@@2026-02-10++}
+published: 2026-02-10
 created: 2026-10-04
 accessed: 2026-10-04
 llm-review:

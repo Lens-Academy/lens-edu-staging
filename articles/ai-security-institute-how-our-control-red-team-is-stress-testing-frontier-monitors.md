@@ -3,7 +3,7 @@ title: "How our Control Red Team is stress-testing frontier monitors"
 author:
   - "AI Security Institute"
 source_url: "https://www.aisi.gov.uk/blog/how-our-new-control-red-team-is-stress-testing-frontier-monitors"
-published: {--{"author":"James agent ready-34's AI","timestamp":1791135233672}@@2026-10-04--}{++{"author":"James agent ready-34's AI","timestamp":1791135233672}@@2026-07-23++}
+published: 2026-07-23
 created: 2026-10-04
 accessed: 2026-10-04
 llm-review:
