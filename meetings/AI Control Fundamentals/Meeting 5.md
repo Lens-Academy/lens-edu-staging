@@ -117,7 +117,7 @@ Against "net negative":
 - alignment work prevents warning shots too, and control at least catches the AI (Ryan Greenblatt)
 - detection, disclosure and replaying blocked actions in simulation could keep most of the evidence (Vincent Cheng, Jasmine Li)
 
-3\. In Unit 1 you wrote a gut view: is control doable or hopeless, helpful or harmful? How far has your view moved since then?
+3\. In Unit 1 you wrote a gut view on whether control is doable and whether it helps or harms. How far has your view moved since then?
 4\. What moved you? If nothing did, why not?
 
 
