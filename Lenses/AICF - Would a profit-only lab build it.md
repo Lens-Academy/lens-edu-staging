@@ -19,7 +19,7 @@ to:: would strongly push against such a slowdown?
 
 #### Text
 content::
-Yonatan Cale puts a version of this worry to monitors. In January 2026 Marius Hobbhahn posted [The case for AGI safety products](https://www.lesswrong.com/posts/iwfdwzJerpC7FqbZG/the-case-for-agi-safety-products). Yonatan Cale replied:
+Yonatan Cale puts a version of this worry to monitors. In January 2026 Marius Hobbhahn posted [The case for AGI safety products](https://www.lesswrong.com/posts/iwfdwzJerpC7FqbZG/the-case-for-agi-safety-products), and Cale replied:
 
 #### Article
 source:: [[../articles/cale-comment-on-the-case-for-agi-safety-products]]
