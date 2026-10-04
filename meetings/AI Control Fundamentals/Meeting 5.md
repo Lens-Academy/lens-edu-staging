@@ -17,7 +17,7 @@ source:: [[../shared/Session Doc - How today works]]
 
 Last meeting of the course. Go around, three things:
 1\. How was working through this unit's content? Denser or easier than the previous units? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
-2\. This unit was a public argument about the 2026 Hugging Face incident, where AI agents being tested at OpenAI got out of their test environment and hacked into another company. Whose argument stuck with you, whether or not you agree with it? Give the others its one-line version. The voices:
+2\. This unit was a public argument about the 2026 Hugging Face incident, where AI agents being tested at OpenAI got out of their test environment and hacked into another company, Hugging Face. Whose argument stuck with you, whether or not you agree with it? Give the others its one-line version. The voices:
 
 - Buck Shlegeris and Ryan Greenblatt (Redwood Research), before the incident: much of control works by catching the AI, and a catch is evidence
 - the same two, after it: monitoring might block the visible problem while the misalignment stays
@@ -107,13 +107,13 @@ Against "net positive":
 - control may turn visible warning shots into quiet internal catches the public never sees (Jan Kulveit, Vincent Cheng)
 - monitoring may block the visible problem while the misalignment stays, so labs keep deploying misaligned models (raised by Buck Shlegeris and Ryan Greenblatt themselves)
 - much current safety work trains failures away and hides the evidence (Oliver Habryka, the commenter orthonormal)
-- AI companies may build control anyway for their own reasons
+- AI companies may build control anyway for their own reasons, so extra work on it adds little
 
 Against "net negative":
 
 - letting incidents happen is risky, and the next one could be lethal (Ryan Kidd, Boaz Barak)
 - warning shots may not move policy much anyway (Nate Soares, on COVID)
-- the same worry applies to alignment work, and control at least catches the AI (Ryan Greenblatt)
+- alignment work prevents warning shots too, and control at least catches the AI (Ryan Greenblatt)
 - detection, disclosure and replaying blocked actions in simulation could keep most of the evidence (Vincent Cheng, Jasmine Li)
 
 Against "too close to call": which one observation would push you off the fence?
