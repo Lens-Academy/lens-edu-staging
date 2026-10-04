@@ -141,6 +141,8 @@ One or two people share what their group landed on.
 ### Room 4: Your next step  [1:15–1:27]
 
 **New group. Names first, then straight in.**
+
+
 The course ends today. What you do with it is up to you.
 1\. Share one thing you will do next with what you learned here, and its first concrete step with a date. Examples:
 
@@ -273,8 +275,8 @@ The masking worry: Monitoring solves the visible problem without solving the mis
 P(doom): Someone's estimate of the probability that AI leads to catastrophe. In the debate Gleave puts his at about 15%, and says careful use of current techniques could bring it under 2%.
 Prosaic safety work: Safety work on today's kind of models, such as control, scalable oversight and interpretability. Habryka argues that most of it watches for failures and trains them away, which hides the evidence of misalignment.
 Crux: A statement both sides disagree on, such that if it were false one side would give up their conclusion, and if it were true the other would. A good crux is concrete and about something you could observe.
-Safety case: A structured argument that a particular deployment is safe. Gleave says failing safety cases would be strong evidence and would move him towards a pause. Habryka expects models to become aware enough of being tested to pass every safety case while misaligned.
+Safety case: A structured argument that a particular deployment is safe. Gleave says failing safety cases would move him towards a pause, while Habryka expects models to become aware enough of being tested to pass every safety case while misaligned.
 Eval awareness: A model noticing that it is being tested or evaluated. Habryka argues that within a model generation or two it will let models notice and get around control and supervision.
 Simulated replay: Vincent Cheng's proposal: rate each blocked action for severity, and above a threshold play out the full trajectory in simulation, with the worst simulated incidents reported in safety assessments.
-"Worse is better" arguments: Arguments that you should make the situation worse now so it can be better later. Boaz Barak says to strongly suspect them. Leo Gao distinguishes aiming to increase harm from declining to reduce it as much as possible in order to uphold another principle.
+"Worse is better" arguments: Arguments that you should make the situation worse now so it can be better later, which Boaz Barak says to strongly suspect. Leo Gao distinguishes aiming to increase harm from declining to reduce it as much as possible in order to uphold another principle.
 Net positive, net negative, too close to call: The three verdicts the course asks you to choose between on whether more work on AI control helps. The course grades your reasoning, never which verdict you choose.
