@@ -16,16 +16,16 @@ The course has a second strand besides wellbeing: understanding reality. Three q
 |---|---|---|
 | What is the self? | No lasting self can be found in body or mind ([Anattalakkhana Sutta](https://accesstoinsight.org/tipitaka/sn/sn22/sn22.059.mend.html)). The self is "a bundle or collection of different perceptions" ([Hume](https://davidhume.org/texts/t/1/4/6)). The experience of being a self is built by the brain ([Anil Seth](https://www.ted.com/talks/anil_seth_how_your_brain_hallucinates_your_conscious_reality)) | Module 6 |
 | Why do we want things? | Craving is the origin of suffering (as summarised by [Desbordes et al. 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4350240/)). Wanting and liking are separate brain systems, so we can want what we will not enjoy ([Berridge and Robinson 2016](https://sites.lsa.umich.edu/berridge-lab/wp-content/uploads/sites/743/2019/10/2016-Berridge-Robinson-Liking-wanting-IS-theory-of-addiction-Am-Psychol.pdf)) | Module 5 |
-| How is experience built? | Perception is a "controlled hallucination" ([Anil Seth](https://www.ted.com/talks/anil_seth_how_your_brain_hallucinates_your_conscious_reality)). Emotions are constructed by the brain ([Lisa Feldman Barrett](https://www.ted.com/speakers/lisa_feldman_barrett)) | Modules 6 and 7 |
+| How is experience built? | Perception is a "controlled hallucination" ([Anil Seth](https://www.ted.com/talks/anil_seth_how_your_brain_hallucinates_your_conscious_reality)). Emotions are constructed by the brain ([Lisa Feldman Barrett, "You aren't at the mercy of your emotions: your brain creates them"](https://www.ted.com/talks/lisa_feldman_barrett_you_aren_t_at_the_mercy_of_your_emotions_your_brain_creates_them)) | Modules 6 and 7 |
 
-Several schools you have met link the answers to happiness. For the Buddhist authors of Ekman et al. (2005), sukha comes from "insight into the nature of reality". For Epictetus, disturbance comes from our opinions, so correcting them removes it. A well-known review in psychology argues the opposite for one kind of belief: some inaccuracy about yourself helps. Read two short passages that pull in opposite directions.
+Several schools you have met link the answers to happiness. For the Buddhist authors of Ekman et al. (2005), sukha comes from "insight into the nature of reality". For Epictetus, disturbance comes from our opinions, so correcting them removes it. A well-known review in psychology argues something that pulls the other way for one kind of belief: some inaccuracy about yourself helps. Read two short passages that pull in opposite directions.
 
 **Derek Parfit**, a philosopher, on how changing his view of personal identity affected him (from *Reasons and Persons*, 1984, quoted on Wikiquote):
 
 #### Article
 source:: [[../articles/projects-derek-parfit]]
 from:: Is the truth depressing? Some may find it so.
-to:: I am less concerned about the rest of my own life, and more concerned about the lives of others.
+to:: I am less concerned about the rest of my own life, and more concerned about the lives of others.**
 
 #### Article
 from:: Nagel once claimed that it is psychologically impossible to believe the Reductionist View.
