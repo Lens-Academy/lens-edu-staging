@@ -86,7 +86,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-The field in five lines, from this unit:
+The field, from this unit:
 
 - Redwood Research, a nonprofit, says it introduced control as a research area. A 2025 count put about 10 people there.
 - The UK AI Security Institute, a government body, has a Control team and a £27m fund for alignment and control research.
