@@ -262,4 +262,3 @@ Chain-of-thought monitor: A monitor that reads a model's written reasoning and s
 METR: An outside evaluator. In early 2026 it reviewed the risks from AI agents inside Anthropic, Google, Meta and OpenAI and found gaps in monitoring coverage.
 Asynchronous review versus real-time blocking: Google DeepMind's rule: low-risk, reversible actions are reviewed after a delay, high-risk actions are blocked before they take effect.
 ControlArena: A library for running control experiments, released by the UK AI Security Institute in October 2025.
-Alignment Project: The UK AI Security Institute's fund for alignment and control research, which reached £27m and named its first 60 grantees in February 2026.
