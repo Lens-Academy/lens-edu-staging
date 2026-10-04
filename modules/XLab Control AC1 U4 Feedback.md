@@ -1,0 +1,37 @@
+---
+id: 'a63e075b-14e0-4c90-9c29-f2826106a383'
+slug: xlab-control-ac1-u4-feedback
+title: "Unit 4 feedback"
+tags:
+  - work-in-progress
+---
+%% Feedback module after Unit 4 of AI Control 1 (Elias, 2026-10-04): a separate module so it comes after the unit's learning-outcome tests and before the meeting, and so self-study learners, who never get the post-meeting survey, can give feedback too. Questions are required except the last, and the page does not say it is optional. Answers land in question_responses (no staff view yet; query by these segment ids). %%
+
+# Lens: Your feedback on Unit 4
+id:: 7f8d826b-5676-45b2-8f11-0009bbc14930
+tldr:: Tell us how Unit 4 went, so we can improve it.
+summary_for_tutor:: Feedback page after Unit 4 (Catching schemers and ranking threats) of AI Control 1. The learner rates the unit and says what was most useful and what was confusing, too long or not worth their time. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
+reading_minutes:: 2
+tutor_minutes:: 0
+#### Text
+content:: Tell us how this unit went. We read your answers and use them to improve the course.
+
+#### Question: Rating
+id:: c130ac5b-eeb7-4b62-87bb-1d9aaef934b1
+content:: How would you rate this unit's content?
+scale:: 5
+low-label:: Poor
+high-label:: Excellent
+
+#### Question: Open
+id:: 9e252453-3168-42ff-a1c0-9c5ca1d0afe0
+content:: What was the most useful part of this unit?
+
+#### Question: Open
+id:: c677d918-7613-4063-bff3-c65687101bbb
+content:: What was confusing, too long, or not worth your time?
+
+#### Question: Open
+id:: 65b77c92-6c00-48c3-964d-bd8a0d319e52
+content:: Anything else you want to share?
+optional:: true
