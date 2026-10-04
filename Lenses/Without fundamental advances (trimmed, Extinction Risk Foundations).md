@@ -81,7 +81,7 @@ to:: "tokens describing goal-directed behavior."
 #### Article
 source:: [[../articles/gillen+barnett-without-fundamental-advances,-misalignment-and-catastrophe-are-the-default-outcomes-of-training-powerful-ai]]
 from:: "There are several categories of problems that make"
-to:: "for the AI to be misaligned."
+to:: "one failure of goal specification for the AI to be misaligned."
 
 #### Article
 source:: [[../articles/gillen+barnett-without-fundamental-advances,-misalignment-and-catastrophe-are-the-default-outcomes-of-training-powerful-ai]]
