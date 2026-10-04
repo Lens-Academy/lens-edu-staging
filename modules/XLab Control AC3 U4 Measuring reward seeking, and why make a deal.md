@@ -16,6 +16,20 @@ source:: [[../Learning Outcomes/Interpreting reward-seeking measurements]]
 # Learning Outcome:
 source:: [[../Learning Outcomes/Bargaining with early misaligned AIs]]
 
+# Lens: Welcome to Unit 4
+id:: 71a1decc-154e-49a8-a809-082f3a59c3f5
+tldr:: What you will learn in Unit 4: measuring reward seeking, and why make a deal.
+summary_for_tutor:: Short opening page of Unit 4 (Measuring reward seeking, and why make a deal) of AI Control 3. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
+reading_minutes:: 1
+tutor_minutes:: 0
+#### Text
+content::
+\## In this unit you will
+
+- Design a measurement of whether a model seeks reward, and find the confound in it.
+- Predict what such a measurement shows on test models and on a real training run.
+- Explain why an early schemer might accept a deal, and why getting it to believe the offer is the hard part.
+
 # Lens:
 source:: [[../Lenses/XLab Control - measuring-reward-seeking-guided]]
 
