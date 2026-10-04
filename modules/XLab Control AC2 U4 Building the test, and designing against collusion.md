@@ -16,6 +16,20 @@ source:: [[../Learning Outcomes/Collusion-resistant monitor validation]]
 # Learning Outcome:
 source:: [[../Learning Outcomes/Legibility interventions for monitors]]
 
+# Lens: Welcome to Unit 4
+id:: 13f30ae1-4a7f-4349-9a15-ac9ce0cfc869
+tldr:: What you will learn in Unit 4: building the test, and designing against collusion.
+summary_for_tutor:: Short opening page of Unit 4 (Building the test, and designing against collusion) of AI Control 2. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
+reading_minutes:: 1
+tutor_minutes:: 0
+#### Text
+content::
+\## In this unit you will
+
+- Say what a good control setting needs, and why building one can be harder than the protocols tested in it.
+- Design untrusted monitoring, then take the red team's seat and find a monitor that passes validation and still lets real attacks through.
+- Predict whether making the untrusted model comment its code helps the weak monitor or the attacker more.
+
 # Lens:
 source:: [[../Lenses/XLab Control - environment-construction]]
 
