@@ -22,7 +22,7 @@ Links:
 %%
 
 %%
-Part I, core path. Module 1 goals (Overview and baseline):
+Part I, core path. Module 1 goals (Overview):
 - Say what the course covers (two strands: wellbeing and understanding reality), its two parts (the map, then a practice path) and how claims become experiments
 - Write down a starting view in a few sentences: what happiness is, what would make you lastingly happy, what the self is (revisited in module 7)
 %%
