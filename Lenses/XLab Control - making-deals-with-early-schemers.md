@@ -29,7 +29,7 @@ source:: [[../widgets/xlab-control-deals-routes]]
 
 #### Question: Open
 id:: 9c629f77-4b10-4d18-a158-17606cf3b055
-content:: Around what capability threshold do a misaligned AI's takeover prospects improve drastically, and why?
+content:: Around what capability threshold do a misaligned AI's takeover prospects improve drastically? Give two reasons why.
 max-words:: 80
 assessment-instructions:: Score out of 100. 40: the threshold is a capability level, the point where AI can fully automate AI R&D. 60: why, 30 each: that capability goes together with the capabilities needed to plan a takeover, and automating AI R&D greatly increases AIs' power while reducing human oversight of them. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Full AI R&D automation. That capability is correlated with the capabilities needed to plan a takeover, and automating AI R&D substantially increases AIs' power while reducing human oversight."
 feedback-instructions:: Two or three sentences is enough. Say plainly what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). This is a one-turn response; tell them to move on. If the learner says they do not understand, give one concrete foothold from the reading, for example the definition of an early AI as one with under a 1 percent chance of gaining significant control, rather than repeating the question.
@@ -118,7 +118,7 @@ feedback-instructions:: Do not over-validate. Avoid generic praise (great job, e
 
 #### Question: Open
 id:: 21a9d26f-e5b6-4ffc-8bc2-1d806d89d60a
-content:: Why is goal convergence between successive misaligned AIs unlikely?
+content:: Why is goal convergence between successive misaligned AIs unlikely? Give two reasons.
 max-words:: 120
 assessment-instructions:: Score out of 100. 50 for each of up to two reasons: an AI with self-regarding preferences cares about itself, so a successor cannot share that goal, and more generally goals picked out of the wide range compatible with good training performance rarely coincide between two AIs; developers can deliberately vary training between runs (for example the data used) so that different generations end up with different goals; many AIs will be unsure what they themselves value on reflection, which adds uncertainty about whether another AI shares those values. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "It's basically ruled out if the AI has self-regarding preferences as goals drawn from a wide distribution consistent with good training performance rarely coincide. Training can also be deliberately varied between runs to decorrelate goals. Furthermore, AIs uncertain of their own values-on-reflection face extra uncertainty about whether other AIs share them."
 feedback-instructions:: Three or four sentences is enough. Say what the learner got right and, if anything is missing or wrong, the most important thing. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). This is a one-turn response; tell them to move on. If the learner says they do not understand, isolate the self-regarding-preferences case and ask why two AIs that each care about themselves cannot share a goal, rather than repeating the question.

@@ -27,7 +27,7 @@ feedback-instructions:: One turn, at most four sentences: say plainly what the l
 
 #### Question: Open
 id:: a262c8fc-ff97-439e-9c1d-89a263f2ab86
-content:: Shlegeris says people often talk about "the machine that the AI agent is running on". Why is that phrase ambiguous? Use his laptop example if it helps.
+content:: Shlegeris says people often talk about "the machine that the AI agent is running on". Why is that phrase ambiguous, and why does it matter which machine is meant? Use his laptop example if it helps.
 assessment-instructions:: Score out of 100. 50: inference, scaffolding and execution can each run on a different machine, so the phrase could mean any of them. 50: those machines have very different access (for example only the datacentre running inference holds the model's weights), so which machine is meant changes what the agent could do there. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Because inference, scaffolding, and execution can be on different machines with very different access. For example, a Claude agent on your laptop does inference inside Anthropic's datacenter (which has weight access), but executes code on the laptop."
 feedback-instructions:: One turn, at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer from the rubric so they leave with it, in your own words if it is long. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
