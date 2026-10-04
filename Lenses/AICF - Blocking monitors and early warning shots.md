@@ -8,7 +8,7 @@ tutor_minutes: 12
 ---
 #### Text
 content::
-After the incident, some people argued that the kind of control measure that would have stopped it, a monitor that blocks a suspicious action before it runs, would have done harm in this case. Here are two posts from September 2026. Vincent Cheng makes the case against blocking monitors and proposes an alternative. Jasmine Li takes a position in between.
+After the incident, some people argued that the kind of control measure that might have stopped it, a monitor that blocks a suspicious action before it runs, would have done harm in this case. Here are two posts from September 2026. Vincent Cheng makes the case against blocking monitors and proposes an alternative. Jasmine Li takes a position in between.
 
 #### Article
 source:: [[../articles/cheng-blocking-monitors-are-bad]]
