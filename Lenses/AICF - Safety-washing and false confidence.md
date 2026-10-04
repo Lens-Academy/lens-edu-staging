@@ -1,10 +1,10 @@
 ---
 id: 'c192c948-d095-40f3-b6f5-f843c9069855'
 title: "Safety-washing and false confidence"
-reading_minutes: 7
+reading_minutes: 8
 tutor_minutes: 12
 tldr: "Oversight that nobody can describe in detail is, in David Manheim's words, \"a story\". A control measure can make a deployment safer, or it can mostly make people feel safe enough to deploy."
-summary_for_tutor: "Unit 4 of AI Control Fundamentals. The 'false confidence' and safety-washing criticism. The learner reads David Manheim's short post 'No, We're Not Getting Meaningful Oversight of AI' (July 2025, a linkpost for his paper with Aidan Homewood): oversight is invoked everywhere as the thing that prevents unacceptable outcomes, but meaningful oversight is often absent or impossible, so anyone claiming their AI is supervised should document what kind of supervision it is (control or oversight), which risks it addresses, its failure modes, and why it will work. 'If you can't do that, you don't have oversight. You have a story.' Then Elias Schmied's 'A brief list of ways AI safety efforts could be net negative' (June 2026), which includes safety-washing and false security, capabilities externalities, an adversarial relationship with AIs, and AI moral patienthood. Schmied says he puts maybe 60% on AI safety having been net positive so far. Then a short excerpt from Greenblatt and Shlegeris's case for control: relying on control 'requires continued vigilance', which may be less likely if people conflate alignment with safety. Optional: the opening of Richard Ngo's 'What just happened? Pragmatism and Pessimization' (August 2026), arguing that 'pragmatic alignment' helped AI companies push toward AGI 'under the banner of safety'. Ngo's post is about alignment research generally, not control specifically. The pro-control reply to Manheim is that control evaluations produce exactly this kind of documentation. Do not tell the learner who is right."
+summary_for_tutor: "Unit 4 of AI Control Fundamentals. The 'false confidence' and safety-washing criticism. The learner reads David Manheim's short post 'No, We're Not Getting Meaningful Oversight of AI' (July 2025, a linkpost for his paper with Aidan Homewood): oversight is invoked everywhere as the thing that prevents unacceptable outcomes, but meaningful oversight is often absent or impossible, so anyone claiming their AI is supervised should document what kind of supervision it is (control or oversight), which risks it addresses, its failure modes, and why it will work. 'If you can't do that, you don't have oversight. You have a story.' Then the list from Elias Schmied's 'A brief list of ways AI safety efforts could be net negative' (June 2026), which includes safety-washing and false security, capabilities externalities, an adversarial relationship with AIs, and AI moral patienthood. Schmied says he puts maybe 60% on AI safety having been net positive so far. Then a short excerpt from Greenblatt and Shlegeris's case for control: relying on control 'requires continued vigilance', which may be less likely if people conflate alignment with safety. Optional: the opening of Richard Ngo's 'What just happened? Pragmatism and Pessimization' (August 2026), arguing that 'pragmatic alignment' helped AI companies push toward AGI 'under the banner of safety'. Ngo's post is about alignment research generally, not control specifically. The pro-control reply to Manheim is that control evaluations produce exactly this kind of documentation. Do not tell the learner who is right."
 ---
 #### Text
 content::
@@ -15,10 +15,12 @@ source:: [[../articles/davidmanheim-no-were-not-getting-meaningful-oversight-of-
 
 #### Text
 content::
-Elias Schmied lists ways AI safety work in general could do harm. Several apply to control.
+Elias Schmied lists ways AI safety work in general could do harm. The items closest to control are the adversarial relationship with AI, AI moral patienthood, safety-washing, and capabilities externalities.
 
 #### Article
 source:: [[../articles/schmied-a-brief-list-of-ways-ai-safety-efforts-could-be-net-negative]]
+from:: I’m not aware of a good list of downside risks for AI safety broadly
+to:: contributed to the foundings of all three of DeepMind, OpenAI and Anthropic.
 
 #### Text
 content::
