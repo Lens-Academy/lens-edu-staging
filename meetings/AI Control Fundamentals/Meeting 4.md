@@ -60,25 +60,26 @@ One or two people share what their group landed on.
 Yonatan Cale's test for any safety project: could the team of a company that only cares about making money build it anyway? If yes, the work is not neglected, and doing it may mostly make AI more profitable.
 Two replies from the unit:
 
-- Marius Hobbhahn: monitors built outside the frontier companies are unlikely to push AI forward, so the risk is low and the benefits are high.
+- Marius Hobbhahn, who builds monitors: monitors may make everyday AI products more capable, but are unlikely to make the most advanced AI more capable. So the risk is low and the benefits are high.
 - Alex Mallen: any research widens the set of safety and usefulness trade-offs a company can choose from. What matters is which one the company then picks. Safety research usually makes it pick more safety.
 
 Control measures:
 
 - a weaker model the company trusts reads everything a stronger model does and flags suspicious actions for a human
 - a red team plays a model that is deliberately hiding attacks, to test whether that monitor catches them
-- a human reviews the rare, subtle attacks the monitor scores as only a little suspicious
+- the company pays humans to check many of the actions the monitor finds only a little suspicious, where rare, subtle attacks would hide
 - the company pauses a model after catching it trying something
 
 1\. For each measure: would the profit-only company build it? Yes, partly, or no?
-2\. Switch sides. Each person argues the position they find less convincing: Cale's worry, or one of the replies.
-3\. Which measure does your group still disagree about? What fact would settle it?
+2\. Pick the measure your group split on most. Mallen's question for it: does it mainly make safety cheaper, or mainly make the AI more useful to sell?
+3\. For that measure, whose view fits best: Cale's, Hobbhahn's or Mallen's? Your group may disagree.
+4\. What fact could someone check that would change your answer?
 
 
 Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
 
 
-| Names | Built anyway or not + the measure you still disagree about + what would settle it |
+| Names | Built anyway or not + the measure you split on + whose view fits it + a fact that would change your answer |
 |------|------------------------|
 |  |  |
 |  |  |

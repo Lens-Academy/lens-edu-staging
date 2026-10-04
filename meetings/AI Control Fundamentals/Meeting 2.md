@@ -87,13 +87,13 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-The field, from this unit:
+Who works on control:
 
-- Redwood Research, a nonprofit, says it introduced control as a research area. A 2025 count put about 10 people there.
-- The UK AI Security Institute, a government body, has a Control team and a £27m fund for alignment and control research.
-- AI companies already monitor their own coding agents. OpenAI says it monitors 99.9% of its internal coding traffic. Google DeepMind ran a prototype monitor over a million coding-agent tasks.
-- Outside evaluators such as METR test those monitors. In early 2026 METR found gaps in coverage and simple ways to disable or jailbreak them.
-- Size: one estimate says 5 to 50 people work full-time on control, against about 620 in all of technical AI safety (2025).
+- Redwood Research, a nonprofit that says it started control as a research area
+- the UK AI Security Institute, a government body with a Control team and a £27m fund for alignment and control research
+- AI companies, which monitor their own coding agents (OpenAI says it monitors 99.9% of its internal coding traffic)
+- outside evaluators such as METR, which test those monitors (in early 2026 METR found gaps in them)
+Size (2025): one estimate puts 5 to 50 people full-time on control. A count found about 620 in all of technical AI safety.
 
 Four projects:
 
@@ -102,12 +102,12 @@ Four projects:
 - checking whether a company's claim "our monitors see all agent traffic" is true
 - a written argument about which threats control should handle first
 
-1\. Quick round. Which kind of organisation is best placed to do each project: nonprofit, government institute, AI company or outside evaluator? Say what access or independence it needs.
-2\. Your group can pay for 10 new full-time people in control. Which kind of organisation do they join, and on what work?
-3\. Go around: what does a field this small imply, in your view? This is disputed, so disagree freely.
-4\. If you still have time: what would you need to know to judge whether the field is the right size?
+1\. For each project: which kind of organisation is best placed? Decide by the access to company systems, or the independence, it needs.
+2\. Your group can fund 10 new full-time control researchers. Which project do they work on?
+3\. Go around, one view each: does a field this small need more people? People disagree on this, so disagree freely.
+4\. If you still have time: what would you need to know to be more confident in your answer to ask 3?
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Your placements + where your 10 people go + what a small field implies |
