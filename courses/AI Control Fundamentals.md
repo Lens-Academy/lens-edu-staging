@@ -46,6 +46,10 @@ Unit 2 goals (The key ideas and the field):
 - The field: main organisations and people, and its size compared with the rest of AI safety
 %%
 
+# Module: [[../modules/AI Control Fundamentals U2 The key ideas and the field|Unit 2: The key ideas and the field]]
+
+# Module: [[../modules/AI Control Fundamentals U2 Feedback|Unit 2 feedback]]
+
 # Meeting: Unit 2
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
@@ -55,6 +59,10 @@ Unit 3 goals (Why people work on control):
 - Control's theory of change: preventing attacks, catching a model red-handed, getting safety work out of untrusted models in a window
 - How each route depends on political will, and each route's weakest premise
 %%
+
+# Module: [[../modules/AI Control Fundamentals U3 Why people work on control|Unit 3: Why people work on control]]
+
+# Module: [[../modules/AI Control Fundamentals U3 Feedback|Unit 3 feedback]]
 
 # Meeting: Unit 3
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
@@ -66,6 +74,10 @@ Unit 4 goals (Criticisms of control):
 - Trace how a control measure could backfire, the premise it rests on, and a fix (dropping the measure is an allowed answer)
 %%
 
+# Module: [[../modules/AI Control Fundamentals U4 Criticisms of control|Unit 4: Criticisms of control]]
+
+# Module: [[../modules/AI Control Fundamentals U4 Feedback|Unit 4 feedback]]
+
 # Meeting: Unit 4
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
@@ -75,6 +87,10 @@ Unit 5 goals (Debates, and your own view):
 - Find the crux in a real debate and what evidence would move each side
 - State and defend a calibrated view of your own, and what would change it, and compare it with the Unit 1 gut view
 %%
+
+# Module: [[../modules/AI Control Fundamentals U5 Debates and your own view|Unit 5: Debates, and your own view]]
+
+# Module: [[../modules/AI Control Fundamentals U5 Feedback|Unit 5 feedback]]
 
 # Meeting: Unit 5
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
