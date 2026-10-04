@@ -1,0 +1,27 @@
+---
+id: '62ce118c-5d9a-437d-9cc6-2aca65efd3a7'
+learning-outcome: "Estimate how large the AI control field is compared with technical AI safety as a whole, to within an order of magnitude, and explain how the way people are counted (which organisations are included, how each organisation is categorised, and whether control and monitoring work inside AI companies and government institutes is counted) changes the estimate, so as to judge a claim about the field's size."
+topic: "[[../Domains and Topics/7 AI Control/The control agenda]]"
+stage: beginner
+authors:
+  - James agent ready-34
+---
+%% Written for AI Control Fundamentals Unit 2. The numbers come from the Lens page "AICF - Who works on AI control" (October 2026), which links every source: about 620 technical AI safety staff at 68 organisations in a 2025 count that files only Redwood (10) and Luthien (1) under AI control, the Shallow Review 2025 estimate of 5 to 50 staff on control, and ControlConf 2026 with about 200 attendees including engineers and policy people. Update the rubric when that page is updated. %%
+## Test:
+id:: fcd86271-5416-471f-9386-d47e3415a0dc
+
+#### Question: Open
+id:: 35a9d990-709e-4114-9f01-47974c823591
+content::
+A friend writing a careers guide says: "AI control is now one of the biggest parts of AI safety. Every frontier AI company runs monitors on its own AI agents, and 200 people came to the last control conference."
+
+a. Roughly how many people work full-time on AI control, compared with technical AI safety as a whole?
+b. What is right and what is wrong in your friend's reasoning? In your answer, say how the estimate changes depending on who is counted.
+placeholder:: Answer a, then b
+assessment-instructions:: Score out of 100. 35: the estimate. Control is a small part of technical AI safety: roughly tens of people working full-time on it against several hundred in technical AI safety (one 2025 count found about 620), so a few percent. Accept any estimate of that order, such as "5 to 50 out of about 600", "about 1 to 10 percent" or "a small slice". Also accept a larger estimate, up to roughly a fifth, if the answer says it counts monitoring and control work inside AI companies and government institutes and gives that as the reason. 20 if the answer gives a direction ("small") with no rough numbers or share. 25: what is right in the friend's reasoning: control work now also happens inside AI companies, for example monitors on their own agents, so a count of dedicated research groups alone misses some of it, or the field is growing. 40: what is wrong, and how counting changes the estimate. 20 for why the friend's evidence does not show that control is one of the biggest parts: running monitors does not mean many full-time control researchers, conference attendance includes engineers, policy people and newcomers rather than only full-time researchers, or a conference of 200 is small next to a field of several hundred to a thousand or more. 20 for how the count depends on who is included, with a specific mechanism: counts that file each organisation under one main area put only a few groups under control, so control teams inside AI companies and government institutes are counted elsewhere, or counting nearby work such as chain-of-thought monitoring and evaluations raises the number, or counting only dedicated organisations gives about a dozen people. A general remark that boundaries are fuzzy, with no mechanism, earns 10 of these 20. Give credit for each point whenever the answer shows the idea, in any wording. Grade the reasoning, not whether the learner thinks control deserves more people. Cap at 50 if the answer agrees that control is one of the biggest parts of AI safety without a stated definition that would support it. Model answer, for the feedback, not a grading checklist: "a. Tens of people work full-time on control, against roughly 600 in technical AI safety, so a few percent. b. Your friend is right that control is no longer only a research topic: AI companies now run monitors on their own agents, so a count of research groups alone misses some control work. But that does not make it one of the biggest parts of AI safety. Running monitors can be done by small teams, and the 200 conference attendees include engineers, policy people and newcomers. How big it looks depends on the count: a 2025 count that filed each organisation under one area put only Redwood and Luthien, about 11 people, under control, because control teams at AI companies and government institutes were filed under other areas. Counting those teams, or chain-of-thought monitoring work, gives a larger share, but still a small one."
+feedback-instructions:: Name the strongest part of the answer in one sentence, then the single change that would most improve it. If the learner accepted the friend's claim, ask how many full-time researchers a conference of 200 and a few company monitoring teams add up to, compared with several hundred people in technical AI safety. If they gave no counting mechanism, ask why one 2025 count found only about 11 people working on control. If the learner asks about their score, explain plainly what earned and what lost points. At most five sentences. No generic praise.
+
+# Suggested Lenses:
+## Lens:
+source:: [[../Lenses/AICF - Who works on AI control]]
+notes:: The "How big is it?" section, with the 2025 counts and their caveats, and two practice questions with feedback.
