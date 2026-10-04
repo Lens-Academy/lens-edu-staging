@@ -5,7 +5,7 @@ title: "Unit 1: What control is"
 tags:
   - work-in-progress
 ---
-%% Unit 1 of AI Control Fundamentals. Lenses: welcome (inline), Robert Miles video in six parts with exercises (AICF), two AICF adaptations of Greenblatt and Shlegeris's case for control (core exercises only, the rest optional), Kulveit as a first criticism (inline). Time: welcome 5+3, video 27+24, what control is 16+24, how control is tested 11+16, Kulveit 4+8, so 178 lens minutes, plus about 24 for the two learning-outcome tests (12 each). About 202 minutes. %%
+%% Unit 1 of AI Control Fundamentals. Lenses: welcome (inline), Robert Miles video in six parts with exercises (AICF), two AICF adaptations of Greenblatt and Shlegeris's case for control (core exercises only, the rest optional), Kulveit as a first criticism (inline). Time: welcome 5+3, video 27+30, what control is 16+24, how control is tested 11+16, Kulveit 4+8, so 184 lens minutes, plus about 24 for the two learning-outcome tests (12 each). About 208 minutes. %%
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Alignment claims versus control claims]]
