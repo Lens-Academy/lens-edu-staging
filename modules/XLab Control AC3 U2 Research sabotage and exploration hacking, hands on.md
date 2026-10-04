@@ -11,6 +11,9 @@ tags:
 source:: [[../Learning Outcomes/Exploration hacking]]
 
 # Learning Outcome:
+source:: [[../Learning Outcomes/Learning signal in GRPO]]
+
+# Learning Outcome:
 source:: [[../Learning Outcomes/Detecting exploration hacking]]
 
 # Learning Outcome:
