@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-The tradition holds that these were the Buddha's first two talks, both given to the same group of five monks. The translator, Thanissaro Bhikkhu, writes "stress" where many translations write "suffering" for the Pali word *dukkha*. Three more terms, all from the [Access to Insight glossary](https://www.accesstoinsight.org/glossary.html): "Tathagata" usually means the Buddha. "Unbinding" translates *nibbana*, the unbinding of the mind from defilements and from the round of rebirth. "Fabrications" (*sankhara*) are the forces that fashion things, and as one of the five aggregates, thought-formations in the mind.
+The tradition holds that these were the Buddha's first two talks, both given to the same group of five monks. The translator, Thanissaro Bhikkhu, writes "stress" where many translations write "suffering" for the Pali word *dukkha*. Three more terms, all from the [Access to Insight glossary](https://www.accesstoinsight.org/glossary.html): **Tathagata** usually means the Buddha. **Unbinding** translates *nibbana*, the unbinding of the mind from defilements and from the round of rebirth. **Fabrications** (*sankhara*) are the forces that fashion things, and as one of the five aggregates, thought-formations in the mind.
 
 #### Article
 source:: [[../articles/bhikkhu-dhammacakkappavattana-sutta-setting-the-wheel-of-dhamma-in-motion]]
@@ -19,7 +19,7 @@ to:: This noble truth of stress has been comprehended.'
 
 #### Text
 content::
-The second talk goes through the five "aggregates" (*khandha*), which the same glossary calls the "physical and mental components of the personality and of sensory experience in general": form (physical phenomena), feeling (pleasure, pain, or neither), perception, fabrications and consciousness.
+The second talk goes through the five **aggregates** (*khandha*), which the same glossary calls the "physical and mental components of the personality and of sensory experience in general": form (physical phenomena), feeling (pleasure, pain, or neither), perception, fabrications and consciousness.
 
 #### Article
 source:: [[../articles/accesstoinsight-pa-cavaggi-sutta-five-brethren]]
@@ -47,7 +47,7 @@ to:: to suffering' — then you should abandon them.
 #### Question: Open
 id:: 18b1df98-4fc1-4234-9d77-07666884b5dc
 content::
-Take two minutes to note how these texts landed. What made sense from your own experience? What seemed wrong, strange or too strong? What would you want to test?
+Take two minutes to jot down how these texts landed for you. No need to organise it.
 force-feedback:: first
 feedback-instructions:: The learner read four short primary texts: the Dhammacakkappavattana Sutta (four noble truths, the middle way), the Pancavaggi Sutta (the five aggregates are not self), Ajahn Chah's river simile, and the Kalama Sutta (know for yourself, but also consider what the wise criticize). They now write how the texts landed.
 
@@ -56,7 +56,7 @@ This is a processing phase, not a teaching phase. Help them put their reaction i
 #### Question: Open
 id:: d3176ca2-d5f0-44c0-92da-a32c4cf37de5
 content::
-A friend sums up what you just read: "Buddhism says life is suffering, so the cure is to stop wanting anything. And you are supposed to believe this because the Buddha said so." Using the texts, say where this summary is wrong or too simple. Quote or point to the passages.
+A friend sums up what you just read: "Buddhism says life is suffering, so the cure is to stop wanting anything. And you are supposed to believe this because the Buddha said so." Using the texts, where is this summary wrong or too simple?
 force-feedback:: first
 feedback-instructions:: The learner was given a plausible but flawed summary of the texts they just read. This is practice, not a test.
 
