@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-Many rows of the map, above all the contemplative ones, rest on what practitioners report from the inside: no self found, a peace that does not depend on circumstances, oneness. Two questions decide how much such reports can carry. Do people in different traditions have the same experience and only describe it differently? And is an experience, however convincing, evidence for what it seems to show?
+Many rows of the map, above all the contemplative ones, rest on what practitioners report from the inside: no self found, a peace that does not depend on circumstances, oneness. How much weight such reports deserve depends on two questions. Do people in different traditions have the same experience and only describe it differently? And is an experience, however convincing, evidence for what it seems to show?
 
 The Stanford Encyclopedia of Philosophy entry on mysticism sets out the positions. Read the opening, then four short parts. The entry uses "mystical experience" broadly, for experiences said to give insight that ordinary perception does not, including Buddhist insight with no God in it.
 
@@ -59,7 +59,7 @@ to:: is severely defective.
 content::
 The entry gives replies to this objection in its [section 9.4](https://plato.stanford.edu/entries/mysticism/#EvalDisaArgu), and covers meditation and psychedelic research in [section 9.7](https://plato.stanford.edu/entries/mysticism/#ScieStudMediPsyc). Both are optional.
 
-\## A critic from inside
+\## A critique from inside the science and Buddhism dialogue
 
 Evan Thompson is a philosopher of mind. In 1991 he co-wrote *The Embodied Mind* with Francisco Varela and Eleanor Rosch, which he calls "the first book that related Buddhist philosophy to cognitive science", and he took part in the Mind and Life dialogues with the Dalai Lama (both from the interview below). In *Why I Am Not a Buddhist* (2020) he criticises how Buddhism is presented in the West. Read two parts of an interview with him.
 

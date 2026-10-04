@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-In the map, the philosophy rows rely mostly on argument. But the French philosopher Pierre Hadot argued that the ancient schools were also ways of life, with exercises practised daily. On that reading they are closer to the contemplative and therapy rows than they first look. This short essay explains his idea and turns it into four steps you can use with any school.
+In the map, the philosophy rows rely mostly on argument. The French philosopher Pierre Hadot argued that ancient schools such as the Stoics and Epicureans were also ways of living, with exercises meant to change how their members lived. If so, you can test a philosophy partly the way you test a meditation practice or a therapy: by trying it. This short essay explains his idea and turns it into four steps you can use with any school.
 
 #### Article
 source:: [[../articles/anthology-philosophy-as-a-way-of-life]]

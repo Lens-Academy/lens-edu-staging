@@ -10,9 +10,9 @@ tags:
 ---
 #### Text
 content::
-The map's method column lists many contemplative practices. This paper groups practices from Buddhist, Christian, Sufi, Hindu and Greco-Roman traditions and from clinical therapies by what they do to the mind, and by what each does to the sense of self. That makes it a second way to compare the contemplative and therapy rows.
+The map's method column lists many contemplative practices. This paper by Cortland Dahl, Antoine Lutz and Richard Davidson sorts practices from Buddhist, Christian, Sufi, Hindu and Greco-Roman traditions, and from clinical therapies, into three families by what they do to the mind and to the sense of self. You can use it to compare the contemplative and therapy rows by method.
 
-Richard Davidson, the senior author, founded the Center for Healthy Minds at the University of Wisconsin-Madison ([its page on him](https://centerhealthyminds.org/about/founder-richard-davidson)). Read the authors' framing paragraph and Table 1. Read the table for the three families and their subtypes. You do not need to know every practice in it.
+Davidson founded the Center for Healthy Minds at the University of Wisconsin-Madison ([its page on him](https://centerhealthyminds.org/about/founder-richard-davidson)) and the nonprofit Humin, which appears in the map's contemplative science row. Read the authors' framing paragraph, then Table 1 for the three families and their subtypes. You do not need to know every practice in the table.
 
 #### Article
 source:: [[../articles/dahl-reconstructing-and-deconstructing-the-self-cognitive-mechanisms-in-meditation-practice]]
