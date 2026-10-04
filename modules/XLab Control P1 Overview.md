@@ -20,7 +20,7 @@ content::
 Alignment tries to make a model want what we want. AI control asks what holds if that failed: can we deploy a model that may be deliberately working against us, get useful work out of it, and still make sure it cannot cause a catastrophe? This is AI Control 1, the first of three Lens Academy courses on that question. It makes the case for control, takes apart the paper that started the field, and ends by asking whether control research is worth what it costs. AI Control 2 and AI Control 3 continue from here. All three are built on the open-source [AI Control track](https://aisafetytracks.com/tracks/control) of [XLab](https://xrisk.uchicago.edu/), the Existential Risk Laboratory at the University of Chicago, and follow its order.
 
 :::callout {title="Before you start" tone="blue"}
-You do not need another Lens course first. We recommend that you are comfortable reading research papers and familiar with AI safety. If you have done [AI Risk Fundamentals](https://lensacademy.org/ai-risk-fundamentals) or an equivalent, you are ready.
+We recommend that you are comfortable reading research papers and familiar with AI safety. If you have done [AI Risk Fundamentals](https://lensacademy.org/ai-risk-fundamentals) or an equivalent, you are ready.
 :::
 
 \## What you will learn
