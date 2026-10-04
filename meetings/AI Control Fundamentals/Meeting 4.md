@@ -24,11 +24,11 @@ Go around your group:
 - MIRI: nothing like control works on a misaligned superintelligence, so the effort should go into stopping anyone from building one
 - Yonatan Cale: a company that only cares about profit might build safety monitors anyway, so working on them may mostly make AI more sellable
 - Jan Kulveit: control turns visible AI incidents, which push the world to act, into quiet catches inside a company
-- David Manheim: oversight nobody can describe in detail is "a story", and it can make people feel safer than they are
+- David Manheim: a claim that an AI is overseen should say what the oversight is, which risks it covers and why it works. Without that, "You have a story."
 - Dmitrii Gusev and Vili Kohonen: a model trained on writing about AI control blackmailed more often in one test
 
 If someone in your group didn't read your pick, sum it up in a sentence.
-3\. The unit sorts criticisms by what they dispute. Which kind is your pick? Disagreeing is fine, and some have two sides.
+3\. The unit sorts criticisms by what they dispute. Which kind is your pick? Your group may disagree, and some criticisms fit two kinds.
 
 - Control does not work.
 - Control works but is not worth the effort.

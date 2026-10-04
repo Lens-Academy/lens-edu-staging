@@ -58,7 +58,7 @@ A bank limits what one trader can do and audits trades, so it stays safe even if
 3. Now the insider is an AI model that might be secretly working against you, and behaves well whenever it might be tested. Which items on your list still work?
 4. Jan Kulveit, a critic of control, argues two things:
     - Without control, many attempts by a misaligned AI would still be stopped by other means, after visible damage that pushes the world to act.
-    - With control, the lab catches them quietly and describes them only vaguely, so nothing changes.
+    - With control, the lab catches them quietly and describes them only vaguely, so they rarely lead to serious action.
     Think of a scandal in your organisation's field that changed the rules. Would the rules have changed if the organisation's own limits had quietly stopped it instead?
 
 
@@ -96,10 +96,10 @@ A lab has AI models write its code:
 
 Four setups:
 
-- (a) U writes. T scores each change for suspicion. Humans check the top 2%.
-- (b) U writes. A second copy of U scores each change. Humans check the top 2%.
-- (c) T writes. U reviews and points out bugs, which T can fix or ignore.
-- (d) U writes. U has behaved well for a year, so it now checks its own work.
+- **T checks**: U writes. T scores each change for suspicion. Humans check the 2% that score most suspicious.
+- **Copy checks**: U writes. A second copy of U scores each change. Humans check the 2% that score most suspicious.
+- **T writes**: T writes. U reviews and points out bugs, which T can fix or ignore.
+- **Track record**: U writes. U has behaved well for a year, so it now checks its own work.
 
 1. For each setup: if U is secretly working against the lab, which model's honesty does safety depend on?
 2. Rank the setups from safest to least safe.
@@ -132,7 +132,7 @@ One or two people share what their group landed on.
 
 1. Accountability buddies: pair up (a trio is fine) and swap contact details in the table. Before each meeting you check in: did you finish, are you coming?
 2. Next unit: why a threat that needs one bad action calls for different defences from one that needs a thousand, and who works on control and on what. About 3.5 hours. What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
-3. Feedback: this was the course's first meeting. What should we keep, and what would make the next one better?
+3. Feedback: what would make the course and this meeting better?
 
 
 | Names | Buddy contacts + your plan for the next unit + feedback |

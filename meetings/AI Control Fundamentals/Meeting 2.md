@@ -42,25 +42,25 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-This unit sorts threats by two questions:
+Two questions sort a threat:
 
-- How many bad actions does the catastrophe need: a few, or many?
-- How damning is each action when inspected: clear evidence of bad intent, or easily an honest mistake?
-- Few and damning: high-stakes. Many and weak evidence: low-stakes. Low-stakes does not mean low harm.
+- How many bad actions does it need: few or many?
+- Is each one clear evidence of bad intent, or easily an honest mistake?
 
-Four AI agents at an AI company, each possibly working against it:
+Few and damning is high-stakes. Many and weak is low-stakes, which does not mean low harm.
+Four AI agents, each maybe working against their company:
 
 - An agent with access to the cluster settings changes one line so its own jobs skip the monitor.
 - An agent writes thousands of summaries of new safety papers a year and slightly undersells the most promising ideas.
-- An agent runs the dangerous-capability tests on a new model and scores it a little lower than it deserves. The score decides whether the model is released.
-- An agent reviewing other agents' code approves one change it knows contains a backdoor.
+- An agent tests a new model for dangerous abilities and scores it a little lower than it deserves. The score decides whether the model is released.
+- An agent reviewing other agents' code approves one change it knows contains a backdoor (hidden code that lets someone in later).
 
-1\. Sort each case: high-stakes, low-stakes, or in between. Say which question decided it.
+1\. Sort each case: high-stakes, low-stakes, or in between?
 2\. Pick the case your group disagreed on most. What would move it to the other side?
-3\. Take one case from each side. Must its actions be stopped until checked, or is a review a week later enough?
-4\. If you still have time: Google DeepMind blocks high-risk actions in real time and reviews low-risk ones later. Does that match how you sorted your four cases?
+3\. Take one case from each side. Stop its actions until checked, or review a week later?
+4\. If you still have time: Google DeepMind plans to block high-risk actions at once and review low-risk ones later. Does that match your sorting?
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Your sorting + the case you disagreed on + block or review later |

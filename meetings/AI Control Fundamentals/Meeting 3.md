@@ -89,7 +89,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Each route rests on premises. Some, with who doubted them:
+Each route rests on premises. Some of them, with who doubts and who defends them:
 
 - **Catch it red-handed:** a caught attempt gets the developer or governments to slow down. Buck Shlegeris doubts it: a competitor could say AIs just do weird things, or that the logs were forged. Tom Davidson thinks credible evidence would change many sceptics' minds.
 - **The window:** AIs stay useful but controllable long enough to matter. Greenblatt and Shlegeris themselves say this period is "reasonably likely to be too short (e.g., 6 months or 1 year)" if AI is built as fast as possible. They also think holding off uncontrollable AI for several years is plausible.
@@ -128,7 +128,7 @@ One or two people share what their group landed on.
 
 
 1\. Next unit: the main criticisms of control, in the critics' own words, each with replies from people who work on control, then practice sorting and answering them. About 3.5 to 4 hours. What is most likely to stop you finishing it?
-2\. What is your plan to prevent that? (Send the plan to your accountability buddy after the meeting.)
+2\. What is your plan to prevent that? (Send the plan to your accountability buddy today.)
 3\. Feedback: what would make the course and this meeting better?
 
 
