@@ -17,13 +17,13 @@ source:: [[../shared/Session Doc - How today works]]
 
 First meeting, so start by getting to know each other. Go around:
 
-1. Who you are: name, where you're joining from, what you work on, and what brought you to a course on AI control. Skeptics welcome.
+1. Who you are: name, where you're joining from, what you work on, and what brought you here. Skeptics welcome.
 2. How was working through this unit's content? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
-3. Agree on one ground rule for the rooms in this course, so everyone can say what they actually think. Examples:
+3. Agree on one ground rule for this course's rooms. Examples:
     - Disagreeing is welcome, and nobody has to win.
     - Say "I'm not sure" when you're not sure.
     - Everyone answers before anyone replies.
-4. Your gut view, from the note you wrote at the start of this unit. Could we use a powerful AI model that might be secretly working against us, and still make sure it cannot cause a catastrophe? Could work on that help, or make things worse? One or two sentences each. (No note? Answer now.) Only listen, no debate yet: you come back to these views at the end of the course.
+4. Read out the gut view you wrote at the start of this unit, in a sentence or two (no note? answer now): can we use a powerful AI model that might be secretly working against us, and still stop it from causing a catastrophe? Only listen, no debate yet. You come back to these views at the end of the course.
 
 
 | Names | Who you are + your ground rule + each gut view in a few words |
@@ -46,7 +46,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-The course opens on an analogy. A bank does not try to guarantee that no trader ever goes rogue. It limits what one trader can do, and it logs and audits trades, so it stays safe even if one person is not trustworthy. That is the idea of control. Making sure people are trustworthy in the first place is closer to alignment.
+A bank does not try to guarantee that no trader ever goes rogue. It limits what one trader can do and audits trades, so it stays safe even if someone is not trustworthy. That is control. Making sure people are trustworthy in the first place is closer to alignment.
 
 1. Pick one organisation someone in your group knows from the inside. Examples:
     - a hospital
@@ -54,9 +54,9 @@ The course opens on an analogy. A bank does not try to guarantee that no trader 
     - an airline
     - a newsroom
     - a university lab
-2. List what it does of each kind: checks that its people are trustworthy, and limits that hold even if someone is not.
-3. Now the insider is an AI model. It might be secretly working against you, and it would behave well whenever it might be tested. Go through your list: which items still work?
-4. If you still have time: name one way an AI model differs from a human insider that helps the defenders, and one way that helps the model.
+2. List its checks that people are trustworthy, and its limits that hold even if someone is not.
+3. Now the insider is an AI model that might be secretly working against you, and behaves well whenever it might be tested. Which items on your list still work?
+4. If you still have time: which difference between an AI model and a human insider matters most here?
 
 
 Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
@@ -85,22 +85,19 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-A lab uses AI models to write its own code. It has:
+A lab has AI models write its code:
 
-- **U**: a new, very capable model. It passes the lab's tests of the abilities a model would need to secretly work against the lab, so the lab treats it as untrusted.
-- **T**: an older, weaker model that clearly fails those tests, so the lab treats it as trusted.
-- **Humans** who can check only 2% of the work.
+- **U**: new and very capable. It passes the lab's tests of the abilities needed to secretly work against the lab, so it is untrusted.
+- **T**: older and weaker. It clearly fails those tests, so it is trusted.
+- **Humans**: can check only 2% of the work.
 
-Four ways to set it up:
+Four setups:
 
-- (a) U writes the code. T scores every change for how suspicious it looks, and humans check the top 2%.
-- (b) U writes the code. A second copy of U scores every change, and humans check the top 2%.
-- (c) T writes the code. U reviews it and points out bugs, which T can fix or ignore.
-- (d) U writes the code. U has behaved well for a year, so the lab now lets U check its own work.
+- (a) U writes. T scores each change for suspicion. Humans check the top 2%.
+- (b) U writes. A second copy of U scores each change. Humans check the top 2%.
+- (d) U writes. U has behaved well for a year, so it now checks its own work.
 
-1. For each setup: if U is secretly working against the lab, which model's honesty does safety depend on? Is that model trusted or untrusted?
-2. Rank the four setups from safest to least safe.
-3. Now be the red team, the people who play U and search for its best attack. Take your safest setup. How would U get harmful code into the lab's systems anyway?
+3. Now be the red team: the people who play U and search for its best attack. In your safest setup, how would U get harmful code through anyway?
 4. If you still have time: a real model might find an attack your red team missed. What would convince you that a red team searched well enough?
 
 
