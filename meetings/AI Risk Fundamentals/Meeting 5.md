@@ -157,7 +157,7 @@ style:: faq
 Your navigator isn't in every room, so:
 
 - **Confused about the task, or want a human?** Click “••• More” > “Ask for Help” > Your navigator gets pinged and pops into your room.
-- **Don't get the question, or something in the reading?** Ask the [Lens Coach](https://lensacademy.org/coach). It's for understanding, not for handing you the answer.
+- **Don't get the question, or something in the reading?** Ask the [Lens {--{"author":"AI","timestamp":1791094661360}@@Coach](https://lensacademy.org/coach).--}{++{"author":"AI","timestamp":1791094661360}@@Tutor](https://lensacademy.org/tutor).++} It's for understanding, not for handing you the answer.
 - **Lost the doc link, or a quick logistics thing?** Check the **Discord channel** or the Zoom chat.
 
 ### Before you arrive
@@ -182,8 +182,8 @@ Your navigator isn't in every room, so:
 
 ### The reading and the questions
 
-- **I don't understand the question or a claim.** Ask the Lens Coach! It'll explain in plain terms.
-- **Where's the reading?** It's in the course on the Lens platform: the chapter text is loaded right in the lesson. Can't find it? Ask the Coach or Ask for Help.
+- **I don't understand the question or a claim.** Ask the Lens {--{"author":"AI","timestamp":1791094661977}@@Coach!--}{++{"author":"AI","timestamp":1791094661977}@@Tutor!++} It'll explain in plain terms.
+- **Where's the reading?** It's in the course on the Lens platform: the chapter text is loaded right in the lesson. Can't find it? Ask the {--{"author":"AI","timestamp":1791094662583}@@Coach--}{++{"author":"AI","timestamp":1791094662583}@@Tutor++} or Ask for Help.
 
 ### Tech
 
