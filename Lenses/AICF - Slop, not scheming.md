@@ -1,14 +1,14 @@
 ---
 id: 'ce6ffe68-5c14-4150-8257-1666326e81cf'
 title: "Slop, not scheming"
-reading_minutes: 15
+reading_minutes: 16
 tutor_minutes: 11
 tldr: "John Wentworth argues that control guards against a small slice of the risk. In his view, the likely way we lose is early AI producing alignment work that looks right and is not. Buck Shlegeris replies, and Lucius Bushnaq adds a different worry."
-summary_for_tutor: "Unit 4 of AI Control Fundamentals, the first criticism lens. The learner reads John Wentworth's 'The Case Against AI Control Research' (LessWrong, January 2025) in full, then three comments from its thread, quoted with links: Buck Shlegeris's reply (control deserves a substantial share of safety effort because stopping scheming early transformative AI from extreme subversion is 'quite robustly good'), Lucius Bushnaq's question (techniques for getting useful research out of AIs will speed up superintelligence research at least as much as alignment research), and Buck's short answer (a general counterargument to any intervention that widens developers' options, 'which isn't to say that it's wrong'). Wentworth's claim: control only targets scheming in early transformative AI, and that is a small slice of the risk. The median doom path is slop: early AI produces alignment work that looks fine and is not, and the lab believes it has solved the problem. Wentworth does not say control backfires. It is a 'works but not worth it' criticism. Bushnaq's point is a 'makes things worse' criticism (acceleration). The unit sorts criticisms into three kinds: control does not work, control works but is not worth the effort, control works and makes things worse. Do not tell the learner who is right."
+summary_for_tutor: "Unit 4 of AI Control Fundamentals, the first criticism lens. The learner reads John Wentworth's 'The Case Against AI Control Research' (LessWrong, January 2025) in full, then three comments from its thread: Buck Shlegeris's reply in full (control deserves a substantial share of safety effort because stopping scheming early transformative AI from extreme subversion is 'quite robustly good', getting useful research out of scheming AIs is in scope for control, and his nitpicks that control techniques probably also reduce risk for 'moderately superintelligent' models and that some non-scheming threat models are addressed as a special case), Lucius Bushnaq's question (techniques for getting useful research out of AIs will speed up superintelligence research at least as much as alignment research), and Buck's short answer (a general counterargument to any intervention that widens developers' options, 'which isn't to say that it's wrong'). Wentworth's claim: control only targets scheming in early transformative AI, and that is a small slice of the risk. The median doom path is slop: early AI produces alignment work that looks fine and is not, and the lab believes it has solved the problem. Wentworth does not say control backfires. It is a 'works but not worth it' criticism. Bushnaq's point is a 'makes things worse' criticism (acceleration). The unit sorts criticisms into three kinds: control does not work, control works but is not worth the effort, control works and makes things worse. Do not tell the learner who is right."
 ---
 #### Text
 content::
-John Wentworth wrote this criticism of control research in January 2025. Read it, then three comments from the discussion under it.
+John Wentworth wrote this criticism of control research in January 2025. He starts by quoting the case for control you read in Unit 1. Read it, then three comments from the discussion under it.
 
 #### Article
 source:: [[../articles/wentworth--the-case-against-ai-control-research]]
@@ -17,25 +17,23 @@ source:: [[../articles/wentworth--the-case-against-ai-control-research]]
 content::
 \## Replies from the thread
 
-Buck Shlegeris of Redwood Research, one of the two authors of the case for control you read in Unit 1, replied the same day ([comment](https://www.lesswrong.com/posts/8wBN8cdNAv3c7vt6p/the-case-against-ai-control-research?commentId=Jmbyoe3DTZhQMkfKy)). His first two paragraphs:
+Buck Shlegeris of Redwood Research, one of the two authors of the case for control you read in Unit 1, replied the same day:
 
-> Thanks John, I think that this is a reasonable articulation of the main limitations of AI control as I've described it. But I find it very unconvincing as an argument that AI control should be less than, say, 20% of total research effort on safety.
->
-> My central crux is that **preventing scheming early transformative AIs from succeeding at extreme subversion (e.g. escaping or massively sabotaging research due to scheming) seems quite robustly good for reducing AI risk**. I think this problem is important enough that it deserves a substantial share of AI safety research and implementation effort. I think that my stance here is pretty common-sensical, and to some extent I feel like there's a burden of proof on skeptics to argue that scheming early transformative AI *isn't* a problem, that we should just ignore anything that goes wrong as a result of them intentionally trying to subvert us.
+#### Article
+source:: [[../articles/buck-comment-on-the-case-against-ai-control-research-comment]]
 
-Buck added that getting useful research out of AIs that are scheming against you is also part of control research. Lucius Bushnaq replied to that point ([comment](https://www.lesswrong.com/posts/8wBN8cdNAv3c7vt6p/the-case-against-ai-control-research?commentId=FpZmBx2Q4eswZWmy6)):
+#### Text
+content::
+Lucius Bushnaq replied to Buck's point about getting useful research out of scheming AIs ([comment](https://www.lesswrong.com/posts/8wBN8cdNAv3c7vt6p/the-case-against-ai-control-research?commentId=FpZmBx2Q4eswZWmy6)):
 
 > What would you say to the objection that people will immediately try to use such techniques to speed up ASI research just as much as they will try to use them to speed up alignment research if not more? Meaning they wouldn't help close the gap between alignment research and ASI development and might even make it grow larger faster?
 >
 > If we were not expecting to solve the alignment problem before ASI is developed in a world where nobody knows how to get very useful research out of AIs, why would techniques for getting useful research out of AIs speed up alignment research more than ASI research and close the gap?
 
-Buck answered ([comment](https://www.lesswrong.com/posts/8wBN8cdNAv3c7vt6p/the-case-against-ai-control-research?commentId=Ln4gfGqsHCTrdZfsB)):
+(ASI means artificial superintelligence.) Buck answered:
 
-> I think this is a pretty general counterargument to any intervention that increases the space of options that AI developers have during the early singularity. Which isn't to say that it's wrong.
->
-> In general, I think that it is a pretty good bet to develop safety methods that improve the safety-usefulness tradeoffs available when using AI.
-
-(ASI means artificial superintelligence.)
+#### Article
+source:: [[../articles/buck-comment-on-the-case-against-ai-control-research]]
 
 #### Question: Open
 id:: d9b30556-078c-463a-979d-bc8123ac8fcf

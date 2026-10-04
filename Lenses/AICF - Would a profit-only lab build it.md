@@ -1,31 +1,29 @@
 ---
 id: '53ab5ec2-f9b3-476b-8db6-a6a93e56f099'
 title: "Would a profit-only lab build it?"
-reading_minutes: 9
+reading_minutes: 10
 tutor_minutes: 11
 tldr: "If a company that only cares about profit would build a safety tool anyway, your work on it may just make AI more profitable. Yonatan Cale puts this test to monitoring. Marius Hobbhahn and Alex Mallen answer in different ways."
-summary_for_tutor: "Unit 4 of AI Control Fundamentals. The neglectedness and acceleration criticism and two replies. The learner reads Yonatan Cale's comment (January 2026) on Marius Hobbhahn's post 'The case for AGI safety products', quoted with a link: safety monitors might in practice be 'things that make AI more reliable for using in a commercial context', and his test 'Could this project also be built by the capabilities team of [some AGI company that doesn't care about safety beyond what they need for making money]?'. Then Hobbhahn's reply, quoted: monitors may make consumer applications more capable, but are unlikely to push the frontier, so 'the risk is pretty low and the benefits are high'. Then an excerpt of Alex Mallen's 'Capabilities research expands the safety-usefulness Pareto frontier too' (Redwood Research blog, 2 October 2026): any research widens the set of safety and usefulness combinations developers can choose from, so 'safety without hurting usefulness' is too weak a definition of safety research. What matters is which point developers choose. Safety research usually makes them choose more safety, capabilities research usually less. Cale's criticism is mainly 'works but not worth the effort' (the work would happen anyway), with a 'makes things worse' side (more profitable AI, faster deployment). Do not tell the learner who is right."
+summary_for_tutor: "Unit 4 of AI Control Fundamentals. The neglectedness and acceleration criticism and two replies. The learner reads Yonatan Cale's comment (January 2026) on Marius Hobbhahn's post 'The case for AGI safety products', in full: Cale was considering building safety monitors himself, he is especially worried if a product automates large parts of technical AI safety work, he sees an upside in finding reproducible examples of misalignment at scale, and he says he is not against for-profit safety companies in general. His concern: safety monitors might in practice be 'things that make AI more reliable for using in a commercial context', and his test 'Could this project also be built by the capabilities team of [some AGI company that doesn't care about safety beyond what they need for making money]?'. Then Hobbhahn's reply, in full: monitors may make consumer applications more capable, but are unlikely to push the frontier, so 'the risk is pretty low and the benefits are high'. Then an excerpt of Alex Mallen's 'Capabilities research expands the safety-usefulness Pareto frontier too' (Redwood Research blog, 2 October 2026): any research widens the set of safety and usefulness combinations developers can choose from, so 'safety without hurting usefulness' is too weak a definition of safety research. What matters is which point developers choose. Safety research usually makes them choose more safety, capabilities research usually less. Cale's criticism is mainly 'works but not worth the effort' (the work would happen anyway), with a 'makes things worse' side (more profitable AI, faster deployment). Do not tell the learner who is right."
 ---
 #### Text
 content::
 Some safety work would get done even if nobody worried about catastrophe, because it also makes AI more useful to sell. Critics say that kind of work is not neglected, and that doing it may mostly speed AI up. Here is one version of this criticism, applied to monitors, and two replies.
 
-In January 2026 Marius Hobbhahn posted [The case for AGI safety products](https://www.lesswrong.com/posts/iwfdwzJerpC7FqbZG/the-case-for-agi-safety-products). Yonatan Cale, who was considering building safety monitors himself, replied ([comment](https://www.lesswrong.com/posts/iwfdwzJerpC7FqbZG/the-case-for-agi-safety-products?commentId=WNaA7ccFEp7o3iWjt)):
+In January 2026 Marius Hobbhahn posted [The case for AGI safety products](https://www.lesswrong.com/posts/iwfdwzJerpC7FqbZG/the-case-for-agi-safety-products). Yonatan Cale replied:
 
-> The main thing I'm concerned about is: I might call them "safety monitors", but in practice they might be "things that make AI more reliable for using in a commercial context". In the counterfactual world where nobody builds these safety monitors, do people simply deploy AI less because they know AIs are unreliable? If AIs are less reliable, is making them less profitable?
->
-> Another way to phrase this is: "Could this project also be built by the capabilities team of [some AGI company that doesn't care about safety beyond what they need for making money]?".
+#### Article
+source:: [[../articles/cale-comment-on-the-case-for-agi-safety-products]]
 
-Cale also saw an upside: such a project could find "reproducible examples of misalignment in realistic tasks at scale". Hobbhahn answered ([comment](https://www.lesswrong.com/posts/iwfdwzJerpC7FqbZG/the-case-for-agi-safety-products?commentId=qoZTXqKCZKoKQAZYJ)):
+#### Text
+content::
+Hobbhahn answered:
 
-> I think it's plausible that good monitors will make consumer applications of AI more capable and effective. In some sense, safety is a relevant blocker for parts of that at the moment.
->
-> Though, I think it is quite unlikely to push the frontier and I think the negative externalities of non-lab developers being faster at coding are very small. On average, it just seems to increase productivity.
->
-> I'd also expect that the monitors we build and are not directly targeted at making frontier AIs more effective, don't happen to be more effective at that then the 100s of employees who push the boundaries of the frontier full-time.
->
-> So on balance, I think the risk is pretty low and the benefits are high.
+#### Article
+source:: [[../articles/hobbhahn-comment-on-the-case-for-agi-safety-products]]
 
+#### Text
+content::
 Alex Mallen of Redwood Research gives a more general way to think about this. Read the first part of his post. (The "Pareto frontier" is the set of best available trade-offs: for each level of usefulness, the most safety you can get.)
 
 #### Article
