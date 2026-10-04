@@ -14,7 +14,7 @@ Target audience (people with one or more of these):
 - wants an overview of the field, whether or not they later go into technical control work
 
 Value prop:
-- In five units you understand what control is, who works on it, and whether it is worth working on, including the live 2026 debate after the Hugging Face incident
+- The 80/20 of AI control in five units: what control is and who works on it, whether anyone should work on it (its theory of change and the arguments for and against, including the live 2026 debate after the Hugging Face incident), and your own view
 - You hear the strongest arguments for and against from the people making them, and leave with a view of your own instead of deferring
 
 
