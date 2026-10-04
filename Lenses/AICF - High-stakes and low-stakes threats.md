@@ -19,7 +19,7 @@ to:: countermeasures developed to handle concentrated failures will often also b
 collapse:: closed
 
 #### Article
-from:: My prioritization between these threats
+from:: ## My prioritization between these threats
 to:: Beyond rogue deployments, other security issues seem substantially less threatening.
 optional:: true
 

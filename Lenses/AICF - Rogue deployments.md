@@ -20,7 +20,7 @@ from:: The main reason to worry about rogue deployments is that
 to:: it’s much more able to take the huge number of sketchy-actions that are probably required to cause the catastrophe.
 
 #### Article
-from:: As I said above, I suspect that catastrophes that don’t involve rogue deployments
+from:: ## More on catastrophes without rogue deployment
 to:: you falsely believe that some models are aligned or safe when they aren’t.
 
 #### Question: Open
