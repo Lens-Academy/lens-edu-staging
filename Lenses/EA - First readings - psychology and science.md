@@ -16,14 +16,14 @@ Open any school you want a first look at. Each box has one source. The talks and
 collapse:: closed
 #### Text
 content::
-You read one section of Ed Diener's textbook chapter in module 2. The whole chapter covers what predicts happiness and whether it can be raised: [Happiness: The Science of Subjective Well-Being](https://nobaproject.com/modules/happiness-the-science-of-subjective-well-being) (about 18 minutes).
+You read one section of Ed Diener's textbook chapter in module 2. The whole chapter covers what predicts happiness and whether it can be raised: [Happiness: The Science of Subjective Well-Being](https://nobaproject.com/modules/happiness-the-science-of-subjective-well-being) (about 20 minutes).
 #### End Callout
 
 #### Callout: Evolutionary psychology of happiness
 collapse:: closed
 #### Text
 content::
-David Buss's 2000 paper "The Evolution of Happiness" argues that some evolved mechanisms work against lasting happiness. The section "Three Additional Evolutionary Tragedies" takes about 5 minutes: [Buss 2000 (PDF)](https://people.uncw.edu/bruce/psy%20292/pdfs/happiness.pdf).
+David Buss's 2000 paper "The Evolution of Happiness" argues that some evolved mechanisms work against lasting happiness. The section "Three Additional Evolutionary Tragedies of Happiness" takes about 3 minutes: [Buss 2000 (PDF)](https://people.uncw.edu/bruce/psy%20292/pdfs/happiness.pdf).
 #### End Callout
 
 #### Callout: Neuroscience of wanting and pleasure
@@ -78,7 +78,7 @@ The IFS Institute's own description of Internal Family Systems, on its home page
 collapse:: closed
 #### Text
 content::
-A magazine article on Willoughby Britton's research into the side effects of meditation: ["Omm, No."](https://www.brownalumnimagazine.com/articles/2025-01-16/side-effects-of-meditation) (about 6 minutes).
+A magazine article on Willoughby Britton's research into the side effects of meditation: ["Omm, No."](https://www.brownalumnimagazine.com/articles/2025-01-16/side-effects-of-meditation) (about 11 minutes).
 #### End Callout
 
 #### Callout: Fundamental wellbeing research
