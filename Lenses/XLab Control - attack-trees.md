@@ -7,6 +7,7 @@ reading_minutes: 15
 tutor_minutes: 25
 tags: []
 ---
+%% Author note (Elias, 4 Oct 2026): this attack-tree exercise might have to be reworked. %%
 #### Text
 content::
 Adapted from Bruce Schneier, "Attack Trees," *Dr. Dobb's Journal*, December 1999. The trees are redrawn.
