@@ -32,9 +32,11 @@ application-survey:: [[../surveys/Application Form]]
 
 # Module: [[../modules/XLab Verification P1 W1 Building verification intuitions]]
 
+# Module: [[../modules/XLab Verification P1 U1 Feedback|Unit 1 feedback]]
+
 # Meeting: Unit 1: Why verification
 meeting-doc:: [[../meetings/Compute Verification 1/Meeting 1]]
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
 # Module: [[../modules/XLab Verification P1 W2 Precedents and policy scope]]
@@ -43,30 +45,38 @@ facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
 # Module: [[../modules/XLab Verification P1 W2 Strategic foundations]]
 
+# Module: [[../modules/XLab Verification P1 U2 Feedback|Unit 2 feedback]]
+
 # Meeting: Unit 2: Precedents and policy scope
 meeting-doc:: [[../meetings/Compute Verification 1/Meeting 2]]
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification P1 W3 Treaty anatomy and actors]]
 
 # Module: [[../modules/XLab Verification P1 W3 Treaty actors]]
 
+# Module: [[../modules/XLab Verification P1 U3 Feedback|Unit 3 feedback]]
+
 # Meeting: Unit 3: Treaty anatomy and actors
 meeting-doc:: [[../meetings/Compute Verification 1/Meeting 3]]
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification P1 W4 Evidence and its readers]]
 
 # Module: [[../modules/XLab Verification P1 W4 Mechanism effectiveness]]
 
+# Module: [[../modules/XLab Verification P1 U4 Feedback|Unit 4 feedback]]
+
 # Meeting: Unit 4: Evidence and its readers
 meeting-doc:: [[../meetings/Compute Verification 1/Meeting 4]]
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification P1 W5 Hardware verification]]
+
+# Module: [[../modules/XLab Verification P1 U5 Feedback|Unit 5 and course feedback]]
 
 # Meeting: Unit 5: Hardware verification
 meeting-doc:: [[../meetings/Compute Verification 1/Meeting 5]]
