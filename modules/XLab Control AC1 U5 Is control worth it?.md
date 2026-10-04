@@ -16,6 +16,21 @@ source:: [[../Learning Outcomes/Safety-usefulness tradeoffs]]
 # Learning Outcome:
 source:: [[../Learning Outcomes/Safety priorities by regime]]
 
+# Lens: Welcome to Unit 5
+id:: fde7fa9e-0f38-4ed6-8457-b7a21a5ab06d
+tldr:: What you will learn in Unit 5: the case against control, what control buys, and where research effort should go as political will changes.
+summary_for_tutor:: Short opening page of Unit 5 (Is control worth it?) of AI Control 1. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
+reading_minutes:: 1
+tutor_minutes:: 0
+#### Text
+content::
+\## In this unit you will
+
+- Answer four criticisms of control before you see the defenders' reply, and add one of your own.
+- Weigh safety against usefulness, and account for what control buys across different worlds.
+- Sort possible worlds by how much political will there is, using Plans A to D.
+- Decide where research effort should go, and check whether your answer moves when the world does.
+
 # Lens:
 source:: [[../Lenses/XLab Control - how-useful-is-ai-control]]
 

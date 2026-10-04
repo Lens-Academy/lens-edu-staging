@@ -41,6 +41,12 @@ None of this is settled. The founding paper is from December 2023, and much of w
 
 The people who work out which control measures actually hold, and which ones only look like they do, are unlikely to be a settled profession by the time it matters. Some of them will be people meeting this material for the first time.
 
+\## In this unit you will
+
+- Say what control is, how it differs from alignment, and judge five deployment setups by it.
+- Explain how a red team runs a control evaluation, and why that makes a control claim testable.
+- Weigh whether the first transformatively useful AIs will already be too capable to control, and how long a window of controllable, useful AI might last.
+
 [^note-case]: Both claims, that control and alignment are distinct lines of defense and that control is more evaluable because it reduces to a capability question, come from Greenblatt and Shlegeris, "The case for ensuring that powerful AIs are controlled", which is the next lesson.
 [^note-catching]: From Greenblatt and Shlegeris, "Catching AIs red-handed", in Unit 4.
 

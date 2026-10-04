@@ -16,6 +16,20 @@ source:: [[../Learning Outcomes/Control threat modeling]]
 # Learning Outcome:
 source:: [[../Learning Outcomes/Attack rate against a control protocol]]
 
+# Lens: Welcome to Unit 2
+id:: dc5d5bb3-26d1-484c-a2ca-830ee6448384
+tldr:: What you will learn in Unit 2: attack trees, and the game the founding control paper sets up between a red team and a blue team.
+summary_for_tutor:: Short opening page of Unit 2 (Attack trees and the control game) of AI Control 1. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
+reading_minutes:: 1
+tutor_minutes:: 0
+#### Text
+content::
+\## In this unit you will
+
+- Build an attack tree for a model trying to get a backdoor into production.
+- Work through the founding control paper's setup: a capable model that might be sabotaging you, a weaker model you trust, and a human who can check 2% of the work.
+- Rebuild the safety of trusted monitoring with one line of algebra, and work out why the paper's red team was right to attack rarely.
+
 # Lens:
 source:: [[../Lenses/XLab Control - attack-trees]]
 

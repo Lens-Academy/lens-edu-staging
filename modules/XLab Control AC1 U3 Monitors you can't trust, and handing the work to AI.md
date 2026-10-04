@@ -19,6 +19,21 @@ source:: [[../Learning Outcomes/Untrusted monitoring]]
 # Learning Outcome:
 source:: [[../Learning Outcomes/Safe deference to AI]]
 
+# Lens: Welcome to Unit 3
+id:: b83dc91b-5587-4bc5-bbfb-326da102b457
+tldr:: What you will learn in Unit 3: the rest of the founding control paper, and when handing safety work to AI would be safer than keeping humans in the loop.
+summary_for_tutor:: Short opening page of Unit 3 (Monitors you can't trust, and handing the work to AI) of AI Control 1. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
+reading_minutes:: 1
+tutor_minutes:: 0
+#### Text
+content::
+\## In this unit you will
+
+- Treat a monitor as a classifier, and see why its catch rate at the audit budget matters more than how well it ranks attacks overall.
+- Compare deferring to the trusted model, untrusted monitoring and trusted editing, and work out what stops a model lying about its own backdoors.
+- Name what the founding paper's toy setting left out.
+- Judge when handing safety research to AI agents would be safer than keeping humans in the loop.
+
 # Lens:
 source:: [[../Lenses/XLab Control - ai-control-paper-3]]
 

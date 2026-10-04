@@ -29,11 +29,15 @@ application-survey:: [[../surveys/Application Form]]
 
 # Module: [[../modules/XLab Control AC1 U1 Why control|Unit 1: Why control]]
 
+# Module: [[../modules/XLab Control AC1 U1 Feedback|Unit 1 feedback]]
+
 # Meeting: Unit 1
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
 # Module: [[../modules/XLab Control AC1 U2 Attack trees and the control game|Unit 2: Attack trees and the control game]]
+
+# Module: [[../modules/XLab Control AC1 U2 Feedback|Unit 2 feedback]]
 
 # Meeting: Unit 2
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
@@ -41,17 +45,23 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Control AC1 U3 Monitors you can't trust, and handing the work to AI|Unit 3: Monitors you can't trust, and handing the work to AI]]
 
+# Module: [[../modules/XLab Control AC1 U3 Feedback|Unit 3 feedback]]
+
 # Meeting: Unit 3
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Control AC1 U4 Catching schemers and ranking threats|Unit 4: Catching schemers and ranking threats]]
 
+# Module: [[../modules/XLab Control AC1 U4 Feedback|Unit 4 feedback]]
+
 # Meeting: Unit 4
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Control AC1 U5 Is control worth it?|Unit 5: Is control worth it?]]
+
+# Module: [[../modules/XLab Control AC1 U5 Feedback|Unit 5 and course feedback]]
 
 # Meeting: Unit 5
 survey:: [[../surveys/AC1 Final Impact Survey v2]]

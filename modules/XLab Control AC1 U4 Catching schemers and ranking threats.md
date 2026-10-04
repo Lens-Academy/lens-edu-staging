@@ -19,6 +19,20 @@ source:: [[../Learning Outcomes/Prioritising control threats]]
 # Learning Outcome:
 source:: [[../Learning Outcomes/Concentrated versus diffuse failures]]
 
+# Lens: Welcome to Unit 4
+id:: 526afbe7-3b0c-4646-a8e9-215f0457d789
+tldr:: What you will learn in Unit 4: why catching a model red-handed is a win, how to rank the threats a misaligned AI poses, and diffuse threats such as research sabotage.
+summary_for_tutor:: Short opening page of Unit 4 (Catching schemers and ranking threats) of AI Control 1. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
+reading_minutes:: 1
+tutor_minutes:: 0
+#### Text
+content::
+\## In this unit you will
+
+- Explain why one clear catch of a model trying to escape tilts the game your way, and design a catch that would convince the people who decide.
+- Rank the threats a misaligned AI poses, and redo the ranking under a different level of political will.
+- Tell concentrated failures from diffuse ones such as research sabotage, where no single bad action proves anything.
+
 # Lens:
 source:: [[../Lenses/XLab Control - catching-ais-red-handed]]
 
