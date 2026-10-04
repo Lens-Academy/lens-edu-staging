@@ -51,6 +51,30 @@ to:: or trying to prolong these experiences, or becoming addicted to them.
 from:: Buddhist texts clearly distinguish between equanimity and indifference
 to:: but rather of mental imperturbability
 
+#### Text
+content::
+Last, a modern secular report. Jeffery Martin interviewed people who say they live in a lasting state of the kind contemplative traditions call awakening or enlightenment. His academic term for it is "persistent non-symbolic experience" (PNSE). In his popular work he calls the same thing "fundamental wellbeing" ([Life Itself, summarising Martin](https://lifeitself.org/learn/fundamental-wellbeing)), a phrase this paper does not use.
+
+#### Callout: Read this one with care
+tone:: amber
+#### Text
+content::
+The paper reports on 50 interviewees who volunteered and described themselves as having PNSE. All were white and 78% were male, as the paper itself states. Almost everything is self-report. The paper was published in a small transpersonal psychology journal, and Martin also runs paid courses that aim to bring people into this state ([Finders Course](https://www.finderscourse.com/)). Module 3 covers how to weigh evidence like this. Here, read it only for what is claimed.
+#### End Callout
+
+#### Article
+source:: [[../articles/martin-clusters-of-individual-experiences-form-a-continuum-of-persistent-non-symbolic-experiences-in-adults]]
+from:: Persistent forms of nondual awareness, enlightenment, mystical experience
+to:: may inform the debate between constructivist, common core, and participatory theorists.
+
+#### Article
+from:: This research project eventually grew to have around 1200 participants with PNSE
+to:: Gender diversity was also poor as 78% of participants were male.
+
+#### Article
+from:: Similar to thoughts, participants reported a significant reduction in both the range and overall experience of emotion
+to:: However, some participants reported triggers that had not dissipated even though it had been many years.
+
 #### Question: Open
 id:: 050a6ee5-b628-49c7-8e79-8d1326c033e9
 content::
