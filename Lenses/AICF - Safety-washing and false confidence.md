@@ -31,6 +31,19 @@ source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-a
 from:: Safety researchers often use the word “aligned”
 to:: (“we are safe because we are vigilant”).
 
+#### Text
+content::
+A different kind of harm is power concentration. Tom Davidson, Lukas Finnveden and Rose Hadshar of Forethought describe how advanced AI could let a small group seize power. Their report is mainly about AI that is loyal to a few people, not about AI that schemes against its developers, and the kind of monitoring and logging that control relies on is also among the defences it recommends. Read how they think AI could concentrate power, and then one of those defences.
+
+#### Article
+source:: [[../articles/forethought-ai-enabled-coups-how-a-small-group-could-use-ai-to-seize-power]]
+from:: Today, even dictators rely on others to maintain their power.
+to:: granting the new ruler(s) an unprecedentedly stable and unaccountable grip on power.
+
+#### Article
+from:: Given these challenges, asynchronous logging and review should be used
+to:: to detect problematic use.
+
 #### Question: Open
 id:: 028b114f-aaeb-4a37-b181-0b3e9589db74
 force-feedback:: first
