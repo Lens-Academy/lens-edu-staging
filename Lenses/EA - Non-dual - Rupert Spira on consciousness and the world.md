@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-In the second half of the talk from the previous lens, Spira moves from a claim about happiness to a claim about reality. He asks you to look for an edge to awareness. Then he argues that since nothing has ever been experienced outside consciousness, the world may exist only within one infinite consciousness. This view is called idealism. Module 6 covers other views of the self and the world.
+In the second half of the talk from the previous lens, Spira moves from a claim about happiness to a claim about reality. He asks you to look for an edge to awareness. Then he argues that since nothing has ever been experienced outside consciousness, the world may exist only within one infinite consciousness. The view that reality is ultimately mental is called **idealism** ([SEP, Idealism](https://plato.stanford.edu/entries/idealism/)). Module 6 covers other views of the self.
 
 #### Video
 source:: [[../video_transcripts/science-and-nonduality-your-nature-is-happiness-rupert-spira]]

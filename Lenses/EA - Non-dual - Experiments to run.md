@@ -4,13 +4,13 @@ title: "Experiments to run"
 tldr: "Three ways to test the school's claims on yourself: a two-minute look at where you look from, a guided session with a bad mood, and two weeks of turning to the one who feels whenever a painful feeling comes."
 summary_for_tutor: "Experiments lens of the non-dual library module. Experiment 1 (2 minutes): Douglas Harding's pointing experiment as presented by Richard Lang on headless.org: point at things, then at where others see your face, and notice whether you see anything there; Lang reports finding no colour or shape but 'boundless capacity or awareness'. Optional: Loch Kelly's 'Wordless Awareness' glimpse (recall reaching a summit, feel the peace, let the memory go, notice the well-being is 'also here now'); Kelly says glimpses take ten seconds to ten minutes. Experiment 2 (26 minutes, optional): Sam Harris's free guided meditation 'Looking for the Self' from his YouTube channel; midway he asks you to recall something that bothers you and 'be the space in which it arises', claiming the consciousness aware of a mood never takes its form. Experiment 3 (two weeks): Rupert Spira's answer to a student with constant sadness and fear: whenever a feeling comes, ask 'who is feeling this?', and become interested in the one who knows the feeling rather than the feeling; he predicts sorrow will visit 'less and less often' and last 'less and less time'. The protocol around it (one baseline week of logging, one practice week, compare counts and durations, list confounders) is the course's own design, following module 3. Stop rules point to the previous lens. The question asks the learner which experiment they ran or will run, what they found or expect, and what result would count against the claim."
 reading_minutes: 20
-tutor_minutes: 5
+tutor_minutes: 7
 tags:
   - wip
 ---
 #### Text
 content::
-Each experiment below comes from a teacher of this school, in their own instructions. They test different parts of the claim. Choose at least one. The first takes two minutes. The second takes 26 minutes. The third runs for two weeks and is the only one that tests whether the practice changes how often you suffer, which is what the happiness claim is about.
+Each experiment below comes from a teacher of this school, in their own instructions. They test different parts of the claim. Do the first now: it takes two minutes. The second is an optional 26-minute guided session. The third runs for two weeks and is the only one that tests whether the practice changes how often you suffer, which is what the happiness claim is about.
 
 #### Callout: Before you start
 tone:: amber
@@ -29,11 +29,19 @@ source:: [[../articles/headless-pointing-home]]
 from:: Who are you really? Not who are you in other people’s eyes
 to:: Are you also looking out of this wide-open, crystal clear, awareness?
 
+#### Question: Open
+id:: 2a1548e2-d29f-4bd1-9478-d816dc8f6cfc
+content::
+When you pointed at where others see your face, what did you find there? Describe only what you saw, not what it means.
+force-feedback:: first
+feedback-instructions:: The learner did Douglas Harding's pointing experiment as presented by Richard Lang on headless.org: point at things in the room, at the foot, knee and chest, then at where others see your face, and notice whether any colour, shape or movement is seen there. Lang reports finding "no colour or shape" but "boundless capacity or awareness". The learner describes what they saw.
+
+Reflect their description back precisely. Separate what they saw (for example: no face, a blur of nose, the finger, the room) from interpretation (for example: "boundless awareness", "my true nature"). If their report matches Lang's, ask one question: did seeing this change how they felt, or only what they noticed? The school's happiness claim needs the first. If they saw something different (for example the edge of their nose or glasses), treat that as a real finding. Do not tell them what they should have seen. 50 to 100 words. One reply, then send them on. No generic praise.
 #### Callout: Another two-minute experiment
 collapse:: closed
 #### Text
 content::
-The meditation teacher [Loch Kelly](https://lochkelly.org/loch-kelly) calls short practices like this "glimpses" and says they take "from ten seconds to ten minutes". This one tests his claim that the well-being you felt in a good moment does not depend on that place or moment.
+The meditation teacher [Loch Kelly](https://lochkelly.org/loch-kelly) calls short practices like this **glimpses**: brief shifts of attention to the awareness that is already present. He says they take "from ten seconds to ten minutes". This one tests his claim that the well-being you felt in a good moment does not depend on that place or moment.
 #### Article
 source:: [[../articles/kelly-get-a-glimpse-of-effortless-mindfulness]]
 from:: Effortless mindfulness glimpses can be done with eyes closed or open anytime during your day.
@@ -57,7 +65,7 @@ source:: [[../video_transcripts/rupert-spira-one-way-to-facilitate-the-recogniti
 content::
 Spira predicts that if you keep turning from the feeling to "the one who is sad", the sorrow "will visit you less and less often" and "will last for less and less time". Ramana gives the same move for thoughts in *Who am I?*: ask "To whom do they arise?" That prediction can be tested.
 
-The design below is ours, following the single-case design from module 3.
+The design below is ours, following the single-case design from module 3. A **baseline** is a period in which you measure without practising, so you have something to compare the practice period with.
 - **Days 1 to 7, baseline.** Do not practise. Each evening write down how many times that day a painful feeling (sadness, anxiety, irritation) took over, and roughly how long the longest one lasted.
 - **Days 8 to 14, practice.** Keep the same evening log. During the day, each time you notice a painful feeling, do what Spira did with the student for about two minutes: ask "Who is feeling this?", then turn your interest from the feeling to the one who knows it.
 - **Compare** the two weeks. Before you look, write down what result would count against Spira's prediction.
@@ -68,13 +76,8 @@ The previous lens describes when to stop.
 #### Question: Open
 id:: 6371e296-7b77-46b5-8e2c-6a710131b279
 content::
-Which experiment did you run, or which will you run? If you ran one, what did you find? For the one you chose, what result would count against the school's claim?
+Before you start the two weeks: what result in your log would count against Spira's prediction?
 force-feedback:: first
-feedback-instructions:: The learner is in the experiments lens of the library module on Advaita and modern non-dual teachers. Options were: (1) Harding's pointing experiment (point at things, then at where others see your face, notice whether anything is seen there), with Loch Kelly's "Wordless Awareness" glimpse as an optional extra; (2) Sam Harris's 26-minute guided session "Looking for the Self", with a before and after rating of a bothersome memory and a note on whether the knowing seemed changed by the mood; (3) two weeks of Rupert Spira's practice (when a painful feeling comes, ask "who is feeling this?" and turn interest to the one who knows it, about two minutes each time), with one baseline week and one practice week of evening logs (count of painful feelings that took over, length of the longest), testing Spira's prediction that such feelings come less often and last less long.
+feedback-instructions:: The learner is about to run a two-week test of Rupert Spira's practice (when a painful feeling comes, ask "who is feeling this?" and turn interest from the feeling to the one who knows it, about two minutes each time). Design: days 1 to 7 baseline with no practice, days 8 to 14 practice, each evening logging how many times a painful feeling took over and how long the longest lasted. Spira predicts such feelings will come "less and less often" and last "less and less time". The learner says what result would count against the prediction.
 
-The course explores and never says whether the school is right. Your job: help the learner make their test sharp and their report honest.
-- If they report a finding, restate it precisely and ask one question that separates what they saw from how a teacher would interpret it (for example: "You saw no colour or shape at the place you look from. Did that come with any change in how you felt, or only in what you noticed?").
-- Check that their "result that would count against the claim" is observable and could actually happen (for example: no drop in count or duration from week 1 to week 2). If it could not fail, say so and suggest a version that could.
-- For experiment 3, check they plan a baseline week and an evening log. Name one confounder they did not mention.
-- If they describe distress, feeling unreal or flat emotions that persist, tell them to stop the practice and talk to someone, and point to Cheetah House (cheetahhouse.org).
-80 to 140 words. At most two replies. No generic praise.
+The course explores and never says whether the school is right. Check that their result is observable and could actually happen (for example: no drop in count or in the longest duration from week 1 to week 2, or a drop smaller than the day-to-day variation within week 1). If it could not fail, say so and suggest a version that could. Name one confounder they should note in their log (a harder or easier week, expecting it to work, paying more attention to feelings in both weeks, regression after an unusually bad week). If they mention distress, feeling unreal or flat emotions, tell them to stop and point to Cheetah House (cheetahhouse.org). 70 to 120 words. At most two replies. No generic praise.
