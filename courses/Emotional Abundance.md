@@ -24,45 +24,52 @@ Links:
 %%
 Part I, core path. Module 1 goals (Overview):
 - Say what the course covers (two strands: wellbeing and understanding reality), its two parts (the map, then a practice path) and how claims become experiments
-- Write down a starting view in a few sentences: what happiness is, what would make you lastingly happy, what the self is (revisited in module 7)
+- Write down a starting view in a few sentences: what happiness is, what would make you lastingly happy, what the self is (revisited in module 8)
 %%
 
 %%
-Module 2 goals (Judging claims):
+Module 2 goals (The questions):
+- Tell apart what people mean by happiness (positive feeling, life satisfaction, eudaimonia, sukha, ataraxia, equanimity, contentment, fundamental wellbeing) and say which one a given claim is about
+- The three philosophical theories of wellbeing (hedonism, desire satisfaction, objective list) and one objection to each
+- The circumstances question: the main positions on whether circumstances can give lasting peace, and the evidence each cites
+- The reality questions (what the self is, why we want things, how experience is built) and how different schools link insight to happiness
+%%
+
+%%
+Module 3 goals (Judging claims):
 - Weigh each kind of evidence (trials and meta-analyses, observational studies, first-person reports, independent traditions that agree, testimonials) by what it can and cannot show, including how published research goes wrong (replication crisis, narrow samples, short follow-ups, measuring what is easy to measure)
 - Decide what is worth trying when evidence is thin, by weighing cost, risk and how quickly you would know
 - Design a test of a claim on yourself: baseline, dose, measurement, confounders, a single-case experiment
 %%
 
 %%
-Module 3 goals (Tour of the schools):
-- Tell apart the kinds of happiness schools aim at (positive feeling, life satisfaction, eudaimonia, sukha, ataraxia, equanimity, contentment, fundamental wellbeing) and say which one a given claim is about
+Module 4 goals (Tour of the schools):
 - Place each school on one map by its goal, its view of the self, its main method and the kind of evidence it relies on
 - Choose which school modules from the library to take
 - Optional: the three philosophical theories of wellbeing (hedonism, desire satisfaction, objective list) and one objection to each
 %%
 
 %%
-Module 4 goals (Desire):
+Module 5 goals (Desire):
 - State what each major school says about wanting: craving versus wholesome desire, wanting versus liking, hedonic adaptation, deficiency versus growth needs, Stoic preferred indifferents, evolutionary reasons we are not built to stay content
 - Say where the schools agree, where they disagree, and what evidence would decide it
 %%
 
 %%
-Module 5 goals (The self):
+Module 6 goals (The self):
 - State what each major school says the self is: not-self, Atman, the bundle theory, the self-model, parts, the narrative self
 - Say what claims of selflessness, non-duality and fundamental wellbeing assert, and how such claims could be checked
 %%
 
 %%
-Module 6 goals (Emotions and circumstances):
+Module 7 goals (Emotions and circumstances):
 - Compare what schools say to do with emotions: acceptance, reappraisal, equanimity, Stoic judgement, non-attachment, and the evidence for each
 - Weigh the evidence on whether circumstances can give lasting peace
 - Recognise the failure modes: indifference that looks like equanimity, numbing, spiritual bypassing, motivation loss
 %%
 
 %%
-Module 7 goals (Your position and your experiments):
+Module 8 goals (Your position and your experiments):
 - Compare your current view with your starting view from module 1
 - State your view on the core questions and what evidence would change it
 - Choose one to three experiments for Part II, each with a protocol: dose, duration, measurement
