@@ -42,13 +42,13 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-The unit's routes by which control could lower the risk of an AI catastrophe:
+Routes by which control could lower the risk of an AI catastrophe:
 
 - **Stop attacks:** monitors block or replace dangerous actions while the AI works.
 - **Catch it red-handed:** catch an AI trying to cause harm, then act on the evidence. Shut it down, or study the attempt so later ones fail.
 - **The window:** use AIs that are useful but still controllable to speed up safety work, before AIs get too capable to control.
 - **A few insiders:** a small safety team runs cheap measures at a company that does not take the risk seriously.
-- **A condition of deployment:** a company policy or a regulator requires a passing control safety case before a model is used.
+- **A condition of deployment:** a company policy or a regulator requires a passing control safety case before a model is used. A control safety case is a written argument, backed by red-team tests, that the model cannot get past its safety measures.
 
 Ryan Greenblatt's worlds, from most to least political will (how much companies and governments want to act on the risk):
 
@@ -57,8 +57,8 @@ Ryan Greenblatt's worlds, from most to least political will (how much companies 
 - **Plan C:** governments do little, but the leading company's leadership spends its few months of lead on safety.
 - **Plan D:** the leading company does not take misalignment seriously, but 10 to 30 people inside do, with a small share of compute.
 
-1\. Each person takes one or two routes. For each: what is the lowest plan at which it still does real work, and who has to act?
-2\. As a group: which route still works at the lowest plan? Which needs the most political will?
+1\. Each person takes one or two routes. What is the lowest plan at which each still does real work?
+2\. At that plan, who has to act for the route to work?
 3\. Pick one route where you disagree about its plan. What does the disagreement turn on?
 4\. If you still have time: which plan is the world closest to today? What have you seen that makes you think so?
 
@@ -66,7 +66,7 @@ Ryan Greenblatt's worlds, from most to least political will (how much companies 
 Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
 
 
-| Names | Lowest plan for each route + who has to act |
+| Names | Lowest plan for each route + who has to act + your disagreement |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -89,12 +89,12 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Every route rests on premises: things that must be true for it to work. Some from the readings, with the people who doubted them:
+Every route rests on premises, things that must be true for it to work. Some, with who doubted them:
 
 - **Catch it red-handed:** a caught attempt gets the developer or governments to slow down. Buck Shlegeris doubts it: a competitor could say AIs just do weird things, or that the logs were forged. Tom Davidson thinks credible evidence would change many sceptics' minds.
 - **The window:** AIs stay useful but controllable long enough to matter. Greenblatt and Shlegeris themselves say the gap is "reasonably likely to be too short (e.g., 6 months or 1 year)" if AI is built as fast as possible.
 - **A few insiders:** ten concerned staff at a careless company get cheap measures running and keep them. Two commenters doubt they would have that much room. In 2026 Shlegeris says he is less into this route than before.
-- **A condition of deployment:** the red team's attacks in a control evaluation are at least as strong as anything the real model could do. The safety case sketch names this premise itself.
+- **A condition of deployment:** the red team's attacks in a control evaluation are at least as strong as anything the real model could do. The authors of a published control safety case (a written argument, backed by those tests, that a model cannot get past its safety measures) name this premise themselves.
 
 Pick a premise from this list, or one from your Room 2 table.
 1\. Which premise does your group trust least? Why?
@@ -102,7 +102,7 @@ Pick a premise from this list, or one from your Room 2 table.
 3\. Name one thing someone could actually observe in the next few years that would change your confidence in it. Would it raise or lower it?
 4\. If you still have time: if this premise fails, which routes are left?
 
-A group that ends up more confident in its premise has done the task as well as one that ends up less confident.
+Ending more confident and ending less confident are both fine outcomes.
 
 
 Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
@@ -232,7 +232,7 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 **General, all rooms.** This course is balanced. It shows why people work on control and the criticisms of it, and wants each participant to form their own view. Never steer a group toward a verdict on control, in either direction. If a group asks what you think, ask them what they would need to see to decide. "Control does little in a low-will world" and "control is the best bet in a low-will world" are both fine endpoints if they are argued. The unit is about 3.5 hours, so many people will have read only part of it. Every room works from the doc alone. Do not let people who finished lecture those who did not. Call two minutes before each room ends.
 **Room 1, Your first guess.** The guess was the open question in the unit's welcome page, so people who stopped early still have one. If someone skipped it, a guess made now is fine. Take guesses without correcting them. A guess that is "it stops the AI" is the most common starting point and a useful contrast for Room 2.
 **Room 2, Which routes still work with little political will?** Get each person onto a route in the first two minutes. For your own use only, not an answer key, here is what the readings say. Greenblatt keeps some control until handoff in Plans A to C, but says organisation-wide control "should be mostly given up on" in Plan D, apart from measures that stop AIs gaining more permissions or access. Shlegeris's ten-people post is written for a Plan D company and argues cheap measures still matter there. Groups that notice this tension have found something real. Shutting down after a catch needs at least a willing leadership. Using a catch to make later attempts fail can be done by a safety team alone. The window's length depends on how much delay can be bought, which needs governments. A deployment condition needs a regulator or a willing company. Accept other mappings with reasons. Ask 3 is often the best part of the room.
-**Room 3, The weakest premise.** Push groups to pick within three minutes. Ask 2 needs one person to argue the premise honestly, not as a straw man. Point them to the reading's own defenders if they get stuck (Davidson for the catch, the authors' "several years is plausible" for the window, Shlegeris's original post for the insiders). Observations must be things someone could see, for example how a company responds to a real misbehaviour incident, or whether safety teams at less careful companies keep monitoring running. "More research" is not an observation. A group that ends more confident is as successful as one that ends less.
+**Room 3, The weakest premise.** Push groups to pick within three minutes. Ask 2 needs one person to argue the premise honestly, not as a straw man. Point them to the reading's own defenders if they get stuck (Davidson for the catch, the authors' view that holding off uncontrollable AI for "at least several years" is plausible, for the window, Shlegeris's original post for the insiders). Observations must be things someone could see, for example how a company responds to a real misbehaviour incident, or whether safety teams at less careful companies keep monitoring running. "More research" is not an observation. A group that ends more confident is as successful as one that ends less.
 **Room 4, Next unit, feedback.** Unit 4 is about the same length as this one. Push for a concrete plan (when, where, how much at a time), not a promise.
 
 # Tab: Glossary
