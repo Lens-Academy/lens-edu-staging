@@ -5,7 +5,7 @@ title: "Unit 3: Why people work on control"
 tags:
   - work-in-progress
 ---
-%% Unit 3 of AI Control Fundamentals: control's theory of change. Time (reading+tutor): welcome 3+3, low-investment world (80k) 7+6, window 6+6, should we invest 8+10, Habryka/Greenblatt 10+12, catching 8+7, would a catch 14+12, Plans A-D 11+10, ten people 9+10, will companies 6+8, safety case 5+6, practice 3+15 = 195, plus about 15 for the LO test, about 210 minutes. Catching (2) is optional. %%
+%% Unit 3 of AI Control Fundamentals: control's theory of change. Time (reading+tutor): welcome 3+3, low-investment world (80k) 6+6, window 6+6, should we invest (with Carlsmith) 11+14, Habryka/Greenblatt 10+12, catching 8+7, would a catch 11+12, Plans A-D 10+10, ten people 9+10, will companies 6+8, safety case (with Anthropic risk reports) 9+11, practice 3+15 = 206, plus about 15 for the LO test, about 220 minutes. Catching (2) is optional. %%
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Theory of change for AI control]]
@@ -27,7 +27,7 @@ In Unit 1 you saw what control is and how it is tested. This unit asks why peopl
 - Read a critic and a control researcher discussing what control is for.
 - Read why catching an AI in an attempt counts as a win, and whether a catch would change what AI developers do.
 - Read Ryan Greenblatt's plans for different levels of political will, and what ten safety-minded people inside a careless company could do.
-- Hear how much Shlegeris expects AI companies to actually do, and see how control could become a condition for deploying a model.
+- Hear how much Shlegeris expects AI companies to actually do, see how control could become a condition for deploying a model, and read what one AI company's risk reports rely on monitoring for.
 - Practise mapping the routes and finding the premise most open to doubt.
 
 #### Question: Open
