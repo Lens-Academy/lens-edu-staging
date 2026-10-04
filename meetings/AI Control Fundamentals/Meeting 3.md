@@ -60,7 +60,7 @@ Ryan Greenblatt's plans, from most to least political will (willingness of compa
 1\. Each person takes one or two routes. Going down from Plan A to Plan D, what is the last plan in which each route still makes a real difference?
 2\. At that plan, who has to act for the route to work?
 3\. Pick one route where your group disagrees about that last plan. What does the disagreement turn on?
-4\. If you still have time: which plan is the world closest to today, and why?
+4\. If you still have time: which plan is the world closest to today?
 
 
 Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.

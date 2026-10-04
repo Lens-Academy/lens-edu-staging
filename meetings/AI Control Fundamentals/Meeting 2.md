@@ -48,6 +48,7 @@ Two questions sort a threat:
 - Is each one clear evidence of bad intent, or easily an honest mistake?
 
 Few and damning is high-stakes. Many and weak is low-stakes, which does not mean low harm.
+
 Four AI agents, each maybe working against their company:
 
 - An agent with access to the cluster settings changes one line so its own jobs skip the monitor.
