@@ -40,6 +40,7 @@ Before you start, write down your gut view. You will come back to it in Unit 5, 
 - Do you think work on this is likely to help, or could it make things worse? Why?
 
 A few sentences are enough. There are no wrong answers here.
+force-feedback:: first
 feedback-instructions:: This is an ungraded gut-view note the learner will revisit in Unit 5. Acknowledge it in two or three sentences and reflect back the specific view they expressed, without endorsing or correcting it. Do not preview the course's arguments. Do not ask a follow-up question. Close by sending them to the next lesson. No generic praise.
 
 # Lens:
