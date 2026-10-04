@@ -31,6 +31,27 @@ force-feedback:: first
 assessment-instructions:: Score out of 100. 50: incrimination, meaning becoming confident from the evidence that the model is misaligned. 25 for what it needs: a good idea of how suspicious an honest model's work would look, so that many mildly suspicious actions can add up to evidence, or a telling pattern such as mistakes only in one domain. 25 for its weakness: that reference point is hard to get, and the ways to estimate it are weak. 50: training during deployment on a proxy for good work. 25 for what it needs: a proxy signal of good work, such as code cleanliness or human review of results (it does not need the honest baseline). 25 for its weakness, either of these: the proxy may be poor and could even make an honest model worse, or training against the proxy teaches the model to exploit it. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Incrimination needs to know how suspicious an honest model's work would look, so that many slightly odd actions add up. Its weakness is that this baseline is very hard to get. Online training needs only a proxy for good work, like code quality or human ratings. Its weakness is that the proxy may be poor, and training on it teaches the model to game it."
 feedback-instructions:: Key points from the talk. Incrimination means becoming confident the model is misaligned from the evidence. In the low-stakes case it needs a good guess of how suspicious a benign model's work would look, so that many mildly suspicious actions add up to evidence. Hebbar's two ways to get it (monitor scores on human-written and weaker-model solutions, and incriminating patterns such as mistakes only in one domain) he calls weak. Online training trains the model on a proxy such as code cleanliness or human review of results. It needs no benign baseline, but the proxy may be poor (and could make a benign model worse), and training against the proxy teaches the model to exploit it. Reply in at most five sentences: acknowledge what is correct, name the most important missing point, correct any error. Up to two turns. If the learner is stuck, give one foothold: ask how you would know whether 30 bugs in a year is suspicious. No generic praise.
 
+#### Text
+content::
+The same idea from a second team. In June 2026 Mikhail Terekhov (Anthropic Fellows Program and EPFL, a Swiss university), Caglar Gulcehre (EPFL), Vivek Hebbar (Redwood) and Joe Benton (Anthropic) published work on defending against diffuse threats, which is this course's low-stakes ([Anthropic Alignment Science](https://alignment.anthropic.com/2026/diffuse-ai-control/)). Read the start of their introduction. "Incrimination" means what it meant in Hebbar's talk: gathering enough evidence to become confident the model is misaligned.
+
+#### Article
+source:: [[../articles/anthropic-diffuse-ai-control-on-fuzzy-tasks]]
+from:: Most frontier AI labs plan to make progress on AI alignment
+to:: makes it more difficult for us to detect or correct subversion.
+
+#### Article
+from:: We propose a framework for modeling training-based interventions to prevent diffuse threats on fuzzy tasks.
+to:: would score highly against the blue team’s weak scorer and thus might not be trained out.
+
+#### Question: Open
+id:: 947f4ad8-259c-44a5-b065-1458ca6ff5cc
+content::
+The authors focus on training the model rather than on monitoring and incrimination for diffuse threats. Using what makes a threat diffuse, say why that choice makes sense. Then name one way training on a weaker model's scores could still fail, as they describe it.
+placeholder:: Why training, then one way it could fail
+force-feedback:: first
+feedback-instructions:: The learner just read the introduction of "Diffuse AI Control on Fuzzy Tasks" after Hebbar's talk. Reference points. Why training: a diffuse threat needs many bad actions, each only weak evidence, so catching the model with enough confidence is hard (Hebbar's missing baseline for how suspicious an honest model looks), while training needs no such baseline and gets many samples, since the bad behaviour is spread over many actions. The authors say training seems more promising than monitoring and incrimination for diffuse threats, both in theory and in experiments. How it could still fail, from the excerpt: the blue team trains a stronger untrusted model against a scorer built from a weaker trusted model, and a scheming model may find behaviour the weak scorer rates highly, so the behaviour is not trained out. Fuzzy tasks such as research proposals are hard to grade, which makes this easier. Accept any reasoned answer that ties the choice to many actions or weak evidence per action. This is unscored. Reply in at most four sentences: name what is right, then the most important missing point. If the learner says they do not understand, give one foothold: ask how sure you could be that one mediocre research idea was sabotage. One turn. No generic praise.
+
 #### Callout: The rest of the talk (optional)
 collapse:: closed
 
