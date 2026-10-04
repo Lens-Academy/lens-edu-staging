@@ -21,7 +21,7 @@ Go around your group:
 
 - John Wentworth: control guards against an AI that schemes, but the likelier failure is early AI producing safety work that looks right and is not
 - Oliver Habryka and Jozdien: catch an AI misbehaving, train it not to, and you may teach it to hide better
-- MIRI: nothing like control works on a superintelligence, so the effort should go into stopping anyone from building one
+- MIRI: nothing like control works on a misaligned superintelligence, so the effort should go into stopping anyone from building one
 - Yonatan Cale: a company that only cares about profit might build safety monitors anyway, so working on them may mostly make AI more sellable
 - Jan Kulveit: control turns visible AI incidents, which push the world to act, into quiet catches inside a company
 - David Manheim: oversight nobody can describe in detail is "a story", and it can make people feel safer than they are
