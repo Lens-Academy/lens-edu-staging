@@ -20,7 +20,7 @@ source:: [[../video_transcripts/closer-to-truth-jeffery-martin-what-is-enlighten
 #### Question: Open
 id:: 3809c054-3207-4e43-a338-c61ff472ef09
 content::
-Martin says the far end of the continuum has "no emotion" and "no sense of agency whatsoever", but "tremendous well-being", and that people there would never want to go back. The interviewer says "count me out". Where do you stand right now, and what would you want to know before you would trust either reaction?
+Martin says the far end of the continuum has "no emotion" and "no sense of agency whatsoever", but "tremendous well-being", and that people there would never want to go back. The interviewer says "count me out". Where do you stand right now?
 force-feedback:: first
 feedback-instructions:: The learner just watched a short Closer To Truth interview in which Jeffery Martin describes persistent non-symbolic consciousness: the individualized sense of self dissipates, agency declines until it disappears, it is a continuum, and the far end has no emotion and no agency but, he says, "tremendous well-being". Outsiders say "count me out", while people in the state say they would never go back. The learner says where they stand. The next question asks what they would want to know.
 

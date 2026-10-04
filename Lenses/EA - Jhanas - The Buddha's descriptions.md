@@ -78,7 +78,6 @@ Points a strong answer finds (any two are good):
 - The text sets two conditions, not one: having clearly seen with right discernment that sensuality has many drawbacks, and having attained a rapture and pleasure apart from sensuality (or something more peaceful). The jhana alone is not said to be enough.
 - "Cannot be tempted" is not the same as "no longer enjoys". Loving good food is not obviously being tempted, and the text does not say pleasant sense contact stops.
 - The word "jhana" may not mean the same state for the teacher and for the text. Different teachers mean states of very different depth (the next lens covers this), so her jhana may not be what the text means.
-- Testing would need a definition of being tempted that can be observed, a check on both conditions, and comparison with people or periods without the attainment.
 
 Do not tell the learner the text is right or wrong. Per reply: if the learner asks a direct question, answer it. Otherwise restate their answer more precisely in one or two sentences, name one gap, and ask one direct follow-up question (for example: "How many conditions does the text set, and does the teacher meet both?"). 100 to 160 words. After 2 replies, close with a short summary of what they found. If the learner is stuck after two attempts, give the answer briefly and move on. No generic praise.
 

@@ -25,4 +25,5 @@ feedback-instructions:: The learner is about to read texts and teachers who clai
 id:: 47a0ac9a-2fcb-4b37-85c4-02735c12c3d2
 content::
 Suppose you could produce a pleasure like that whenever you sat down for it. What, if anything, would change in how much you want things from the outside world?
+force-feedback:: first
 feedback-instructions:: The learner is about to read texts and teachers who claim that knowing a pleasure independent of the senses reduces the pull of sense pleasures. This question only records the learner's own prediction before the reading. Acknowledge it in one or two sentences and name what kind of prediction it is (for example: wanting less, wanting the same, or enjoying outer things differently). Do not preview the readings, do not tell them what the jhana teachers claim, and do not judge the prediction. 30 to 60 words. One turn, then send them to the next page.
