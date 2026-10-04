@@ -59,14 +59,14 @@ Ryan Greenblatt's plans, from most to least political will (willingness of compa
 
 1\. Each person takes one or two routes. Going down from Plan A to Plan D, what is the last plan in which each route still makes a real difference?
 2\. At that plan, who has to act for the route to work?
-3\. Pick one route where you disagree about its plan. What does the disagreement turn on?
+3\. Pick one route where your group disagrees about that last plan. What does the disagreement turn on?
 4\. If you still have time: which plan is the world closest to today, and why?
 
 
 Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
 
 
-| Names | Lowest plan for each route + who has to act + your disagreement |
+| Names | Last plan for each route + who has to act + your disagreement |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -92,14 +92,13 @@ One or two people share what their group landed on.
 Each route rests on premises. Some, with who doubted them:
 
 - **Catch it red-handed:** a caught attempt gets the developer or governments to slow down. Buck Shlegeris doubts it: a competitor could say AIs just do weird things, or that the logs were forged. Tom Davidson thinks credible evidence would change many sceptics' minds.
-- **The window:** AIs stay useful but controllable long enough to matter. Greenblatt and Shlegeris themselves say the gap is "reasonably likely to be too short (e.g., 6 months or 1 year)" if AI is built as fast as possible.
-- **A few insiders:** ten concerned staff at a careless company get cheap measures running and keep them. Two commenters doubt they would have that much room. In 2026 Shlegeris says he is less into this route than before.
+- **The window:** AIs stay useful but controllable long enough to matter. Greenblatt and Shlegeris themselves say this period is "reasonably likely to be too short (e.g., 6 months or 1 year)" if AI is built as fast as possible. They also think holding off uncontrollable AI for several years is plausible.
+- **A few insiders:** ten concerned staff at a careless company get cheap measures running and keep them. Shlegeris argued ten such people are much better than zero. Two commenters doubt they would have that much room. In 2026 Shlegeris says he is less into this route than before.
 - **A condition of deployment:** the red team's attacks in a control evaluation are at least as strong as anything the real model could do. The authors of a published control safety case (a written argument, backed by those tests, that a model cannot get past its safety measures) name this premise themselves.
 
-Pick a premise from this list, or one from your Room 2 table.
-1\. Which premise does your group trust least? Why?
+1\. Which premise does your group trust least? Take it from this list, or name another premise one of the routes needs.
 2\. One person argues for it as well as they can. The others push back. Does it hold?
-3\. Name something observable in the next few years that would change your confidence. Would it raise or lower it?
+3\. What could someone observe in the next few years that would raise or lower your confidence in it?
 4\. If you still have time: if this premise fails, which routes are left?
 
 Ending more confident or less confident is fine.
