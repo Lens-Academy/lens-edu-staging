@@ -25,7 +25,7 @@ to:: either while still in the Jhana or immediately thereafter.
 
 #### Text
 content::
-Two researchers at the Meditation Research Program of Massachusetts General Hospital and Harvard Medical School compared eight modern jhana manuals and proposed a common vocabulary. In what follows, "ACAM" is their term for advanced concentrative absorption meditation, and "pīti" is the rapture you met in the suttas.
+Next, two researchers, the philosopher Terje Sparby ([TIME](https://time.com/7007856/jhourney-meditation-jhanas-retreat-bliss/)) and Matthew Sacchet of the Meditation Research Program at Harvard Medical School, compared eight modern jhana manuals and proposed a common vocabulary. In what follows, "ACAM" is their term for advanced concentrative absorption meditation, and "pīti" is the rapture you met in the suttas.
 
 #### Article
 source:: [[../articles/sparby-toward-a-unified-account-of-advanced-concentrative-absorption-meditation-a-systematic-definition-and-classification-of-jh-na]]
