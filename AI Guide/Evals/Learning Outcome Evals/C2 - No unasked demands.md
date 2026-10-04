@@ -6,21 +6,26 @@ tags:
 ---
 # C2 — No unasked demands
 
-**Binary question:** Does the rubric's pass bar require only things a reasonable reader of the question would know to provide?
+**Binary question:** Does every point the rubric awards, and every cap or deduction it applies, depend only on things the question asks for?
 
 ## Pass boundary
 
-Direction matters: **pass-bar ⊆ question.** Every requirement in the rubric's pass decision must be something the question asks for, explicitly or by clear implication. A student who reads the question carefully and answers everything it asks must be able to pass; if the rubric fails them for omitting something the question never signaled, this check fails.
+Direction matters: **scored elements ⊆ question.** This is judged on points, not on the pass bar. For each scored element, each cap and each deduction, you must be able to point to the words in the question that ask for it, explicitly or by clear implication. A learner who reads the question carefully and answers everything it asks, correctly and in their own words, must be able to get full marks; if the rubric withholds points from them for leaving out something the question never signaled, this check fails, even when they would still pass.
 
-The reverse is fine: the question **may** ask for more than the pass bar requires — headroom is allowed.
+"Clear implication" means a careful reader would know to provide it: "explain why" asks for a reason, "compare" asks for both sides. It does not stretch to a particular reason, mechanism or depth the question does not signal. If a direct, correct answer to the question as worded loses points because the rubric wants a specific further explanation, the check fails.
 
-For graded-ladder rubrics, evaluate this check against the stated or implied pass level (usually level 3).
+Test: write the shortest answer that correctly answers everything the question asks, as worded. If the rubric would score it clearly below full marks (below about 85), fail, and name the element or cap that costs it the points.
+
+The reverse is fine: the question **may** ask for more than the rubric scores; headroom is allowed.
+
+For graded-ladder rubrics, apply the same test to the top level.
 
 ## Does NOT fail for
 
-- Requirements clearly implied by the question's wording ("explain why" implies giving the mechanism; "compare" implies covering both sides).
-- Enrichment or feedback-only content above the pass bar.
-- The question over-asking relative to the pass bar.
+- Requirements clearly implied by the question's wording, in the narrow sense above.
+- Content outside the scored elements: a model answer labelled as not a grading checklist, or `feedback-instructions::`.
+- The question over-asking relative to what the rubric scores.
+- Caps or deductions for a genuine error in something the question asks for.
 
 ## Fail examples (from the corpus)
 

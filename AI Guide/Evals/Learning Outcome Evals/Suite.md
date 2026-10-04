@@ -25,7 +25,7 @@ A run is orchestrated by a **director agent** and executed by subagents with str
 | A2 | statement | Would the capability make sense for someone who learned the material elsewhere, or does it depend on what a specific text/author says? |
 | A3 | statement | Is the statement a single unit of completion — one capability that stands or falls together — rather than a bundle a learner could independently have or lack? |
 | B1 | question | Could someone who has the capability but never read the assigned text answer the question as posed? |
-| C2 | rubric | Does the pass bar require only things a reasonable reader of the question would know to provide? |
+| C2 | rubric | Does every point the rubric awards, and every cap or deduction, depend only on things the question asks for? |
 | C3 | rubric | Does each criterion define an idea-in-any-wording, with analogies, examples, and details as illustrations rather than requirements? |
 
 Each check has its own file in this folder (`A1 - Concrete capability.md`, …) containing the pass boundary, explicit non-failures, and pass/fail exemplars from the corpus. The eval file body is the authoritative judging standard.
@@ -35,6 +35,8 @@ Each check has its own file in this folder (`A1 - Concrete capability.md`, …) 
 **One suite-wide version number** — the `suite-version` in this file's frontmatter. Any meaningful change to any eval file in this folder (boundary, exemplars, adding/removing/renumbering checks) bumps it. All stamps carrying an older `suite-version` are stale in full; we accept the cost of re-running everything. Typo fixes that don't change a boundary don't bump.
 
 **v2 (2026-08-24):** removed C1 (binary rubric). Learning-outcome rubrics are no longer required to be binary pass/fail — graded scales are an accepted rubric form — so the check was retired; its eval file is archived in `Archive/`. Also added A3 (single completion unit), promoted from the annotation-pass ruling on *Comparing alignment research agendas*.
+
+**v3 (2026-10-04):** tightened C2 from the pass bar to every scored element, cap and deduction, and narrowed "clear implication". Reason: the *Attack rate against a control protocol* test gave 30 of 35 points of a part, plus a cap at 55, for two reasons the question ("why that one rather than the others?") never asked for; a learner answering "it has the highest chance of winning" lost them while still passing, which the old pass-bar wording allowed.
 
 ## Result stamps
 
