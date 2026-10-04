@@ -1,18 +1,25 @@
 ---
 id: 611bdcb3-9071-4d0d-a822-4621747f57f5
 title: "Using Dangerous AI, But Safely?"
-reading_minutes: 31
+reading_minutes: 27
 tutor_minutes: 8
 tldr: "If you cannot be sure a new AI model is on your side, can you still put it to work? Robert Miles walks through the experiment that started AI control: a red team plays a scheming model, a blue team designs the safeguards, and they find out how much safety each design buys."
-summary_for_tutor: "Robert Miles's video 'Using Dangerous AI, But Safely?' (Nov 2024), an accessible walkthrough of the founding AI control paper (Greenblatt, Shlegeris, Sachan and Roger, 'AI Control: Improving Safety Despite Intentional Subversion', 2023). Covers why control does not work for strongly superintelligent AI but matters for smart-but-not-superintelligent AI. The setup: an untrusted smart model (GPT-4), a trusted weaker model (GPT-3.5), and limited trusted human time to audit 2% of outputs. The task is programming problems and the catastrophe is inserting a backdoor. A red team builds an attack policy standing in for a scheming model, and a blue team designs protocols. Safety and usefulness trade off. Protocols: use only the trusted model, use only the untrusted model, human auditing alone (the red team attacks rarely), trusted monitoring (suspiciousness scores), deferring to the trusted model for medium-suspicion code, and untrusted monitoring with checks for collusion. Miles concludes that control does not solve alignment but could keep us from being caught out before superintelligence. The question asks the learner to explain the red team's role in their own words. Accept answers in any wording; numbers from the paper are not needed."
+summary_for_tutor: "Robert Miles's video 'Using Dangerous AI, But Safely?' (Nov 2024), an accessible walkthrough of the founding AI control paper (Greenblatt, Shlegeris, Sachan and Roger, 'AI Control: Improving Safety Despite Intentional Subversion', 2023). Covers why control does not work for strongly superintelligent AI but matters for smart-but-not-superintelligent AI. The setup: an untrusted smart model (GPT-4), a trusted weaker model (GPT-3.5), and limited trusted human time to audit 2% of outputs. The task is programming problems and the catastrophe is inserting a backdoor. A red team builds an attack policy standing in for a scheming model, and a blue team designs protocols. Safety and usefulness trade off. Protocols: use only the trusted model, use only the untrusted model, human auditing alone (the red team attacks rarely), trusted monitoring (suspiciousness scores), deferring to the trusted model for medium-suspicion code, and untrusted monitoring with checks for collusion. Miles concludes that control does not solve alignment but could keep us from being caught out before superintelligence. The question asks the learner to explain the red team's role in their own words. Accept answers in any wording. Numbers from the paper are not needed."
 ---
 
 #### Text
 content::
-Robert Miles explains the idea behind AI control and walks through the experiment that started the field. The middle of the video spends a few minutes on the odd programming problems the experiment used, so you can skim that part.
+We start with something light: a video explainer to get the big picture before the readings. After it, you read the post by the researchers who started the field.
+
+Robert Miles explains the idea behind AI control and walks through the experiment that started the field. We skip about three minutes in the middle where he reads out the odd programming problems the experiment used.
 
 #### Video
 source:: [[../video_transcripts/robert-miles-ai-safety-using-dangerous-ai-but-safely]]
+to:: 5:13
+
+#### Video
+from:: 8:09
+to:: 29:56
 
 #### Question: Open
 id:: fa4eedae-9fb0-46d6-8f92-96f1bb84d94b
