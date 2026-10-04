@@ -5,7 +5,7 @@ title: "Unit 5: Debates, and your own view"
 tags:
   - work-in-progress
 ---
-%% Unit 5 of AI Control Fundamentals. Time: welcome 3+0, Buck and Ryan before the incident 8+8, Redwood after the incident 16+10, Gleave and Habryka 23+12, crux practice 25+18, blocking monitors 13+17, quitting frontier labs 10+10, Soares and the policy response 11+8, your view 5+25 (lens time 220), plus about 8 for the learning-outcome test. About 228 minutes. %%
+%% Unit 5 of AI Control Fundamentals. Time: welcome 3+0, Buck and Ryan before the incident 8+8, Redwood after the incident 16+10, Gleave and Habryka 23+12, crux practice 25+18, blocking monitors 13+17, quitting frontier labs 10+10, Soares and the policy response 11+8, your view 5+25 (lens time 222), plus about 8 for the learning-outcome test. About 230 minutes. %%
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Weighing the case for AI control]]
@@ -65,6 +65,7 @@ In the first lesson of Unit 1 you wrote down your gut view on two questions: doe
 
 #### Question: Open
 id:: a448c56b-00d0-4fcb-a85b-c6e37e53801e
+force-feedback:: first
 content::
 Now write down your current view.
 
