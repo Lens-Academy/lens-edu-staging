@@ -87,7 +87,7 @@ feedback-instructions:: The student has read section 1 of Chapter 6 ("We'd Lose"
 
 The answer this question is aimed at: **Chapter 1's definition of intelligence as prediction plus steering, and specifically that its power comes from being general.** The analogy licenses predicting an outcome without knowing the mechanism. That inference only holds if the stronger party's advantage is general rather than one trick. Chapter 1 supplied exactly that: a mind that predicts and steers finds some route to its target through whatever the world affords. Greater predictive and steering abilities are what lead to the capability gap. Which route is unknowable to the weaker party, but that there is one follows from what the capability is. Without Chapter 1 the Aztec story is an anecdote about boats rather than an argument.
 
-How to grade what comes back:
+How to read what comes back:
 
 - **On target.** They name intelligence as prediction plus steering, or as a general capacity to steer outcomes, and say what it is doing here: it is why a capability gap licenses a prediction rather than a guess. Confirm briefly, then move on.
 - **Strong near miss: the machine advantages from Chapter 1.** Right chapter, wrong part, and wrong in an interesting way. Accept it, then push once: a list of specific advantages is the very sort of mechanism this chapter says you do not need. What in that chapter tells you the advantage is general rather than a list of tricks?

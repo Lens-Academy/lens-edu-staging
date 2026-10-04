@@ -112,7 +112,7 @@ feedback-instructions:: The student has read the first section of Chapter 12, wr
 
 The answer this question is aimed at: **Chapter 10's before-and-after gap, and the five curses that compound it.** Two halves, and either one on its own is a real answer. The gap is what the space probes were for: once the device is out of reach you cannot fix it, so the attempt you get is the only one you get. The curses are why that single attempt is against a stacked problem, one that is fast, narrow-margined, self-amplifying, prone to its safety mechanisms becoming the failure, and worst in its edge cases, which get harder as the system gets smarter. This section's decisive move is that there is no second time. On its own that is bad luck. With either half of the earlier material behind it, it is the argument.
 
-How to grade what comes back:
+How to read what comes back:
 
 - **On target, either half.** They name irreversibility and the before-and-after gap, or they name the curses. Both are Chapter 10 and both do real work here. Confirm briefly, then move on.
 - **The strongest answer puts the two together:** one attempt, and that attempt against a problem with five structural reasons to fail. If they give one half cleanly it is worth a single question toward the other, but do not treat a clean half as incomplete.

@@ -114,7 +114,7 @@ feedback-instructions:: The student has read the first half of Chapter 11, writt
 
 The answer this question is aimed at: **Chapter 2, that AI is grown rather than crafted.** The alchemy stage is recipe-level competence without principle-level understanding, and that is what you necessarily get when the artifact was grown instead of designed. The alchemists could make Aqua Regia without chemistry because they did not build the atoms either. Without Chapter 2 the alchemy diagnosis reads as a young field that effort and funding will eventually mature. With it, the diagnosis follows from how the output is produced, which is why the chapter can say the missing ingredient is not effort or intelligence.
 
-How to grade what comes back:
+How to read what comes back:
 
 - **On target.** They name growing rather than crafting, and say what it does here: it is why the field has recipes and no principles, rather than merely not having got round to the principles yet. Confirm briefly, then move on.
 - **Strong near miss: "you don't get what you train for" (Chapter 4).** Adjacent and legitimate. Accept it, then push once: that says the result diverges from the target. What earlier idea says we cannot explain why it diverges?

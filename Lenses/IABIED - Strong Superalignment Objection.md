@@ -117,7 +117,7 @@ This beat is built differently from the others in this course. It hands over the
 
 The answer this question is aimed at: **Chapter 3, that training produces want-like behavior nobody specified.** Growing explains why we cannot understand the system. It does not by itself explain why a more capable system would be untrustworthy. If a grown system were only a very good tool with no wants of its own, the capability paradox would dissolve: you would build the strong one, set it on alignment, and check the work. Chapter 3 is what closes that escape. Capability and untrustworthiness arrive together because the training method that produces the former leads to the latter.
 
-How to grade what comes back:
+How to read what comes back:
 
 - **On target.** They name wants emerging from training, and say what it does here: it is why you cannot separate "capable enough to solve alignment" from "dangerous enough that you should not have built it." Confirm briefly, then close.
 - **Adjacent and worth credit: the no-training-examples problem.** A student who says the earlier idea supplies that, on the grounds that what a system ends up with is a function of what it was trained on, has seen something real. Accept it, then ask which of the objection's two steps their idea actually holds up.
