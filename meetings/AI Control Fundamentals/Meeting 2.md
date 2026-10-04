@@ -93,6 +93,7 @@ Who works on control:
 - the UK AI Security Institute, a government body with a Control team and a £27m fund for alignment and control research
 - AI companies, which monitor their own coding agents (OpenAI says it monitors 99.9% of its internal coding traffic)
 - outside evaluators such as METR, which test those monitors (in early 2026 METR found gaps in them)
+
 Size (2025): one estimate puts 5 to 50 people full-time on control. A count found about 620 in all of technical AI safety.
 
 Four projects:

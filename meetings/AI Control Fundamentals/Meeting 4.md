@@ -57,7 +57,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Yonatan Cale's test for any safety project: could the team of a company that only cares about making money build it anyway? If yes, the work is not neglected, and doing it may mostly make AI more profitable.
+Yonatan Cale's test for a safety project: could the team of a company that only cares about making money build it anyway? If yes, the work is not neglected, and doing it may mostly make AI more profitable.
 Two replies from the unit:
 
 - Marius Hobbhahn, who builds monitors: monitors may make everyday AI products more capable, but are unlikely to make the most advanced AI more capable. So the risk is low and the benefits are high.
