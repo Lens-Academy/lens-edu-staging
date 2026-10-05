@@ -6,7 +6,6 @@ summary_for_tutor: "First lens of Unit 1 of AI Control Fundamentals, after the w
 reading_minutes: 10
 tutor_minutes: 10
 glossary_terms:
-  - "[[../glossary/Rogue deployment]]"
   - "[[../glossary/Self-exfiltration]]"
 ---
 #### Text
