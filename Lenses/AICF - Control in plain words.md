@@ -51,7 +51,7 @@ feedback-instructions:: The learner just read part of CSET's explainer on AI con
 #### Callout: Control claim or alignment claim?
 #### Text
 content::
-A lab says each of the following about a model it wants to use. For each one, decide: is it a claim that the model is not trying to cause harm (an alignment claim), or a claim that it would fail even if it tried (a control claim)? The question is what kind of claim it is, not whether it is true.
+A lab says each of the following about a model it wants to use. For each one, decide: is it an alignment claim (a claim that the model is not trying to cause harm), or a control claim (a claim that it would fail even if it tried)? The question is what kind of claim it is, not whether it is true.
 
 #### Question: Choice
 id:: bc460fb0-d072-4813-a813-150eced619ae
