@@ -21,7 +21,7 @@ Here is everything from the last two pages in one table, with three more rows: s
 | **Equanimity**: feel it fully, drop resistance | Buddhist teachers. Shinzen Young | Teaching and students' reports. Researchers have proposed how to measure it, for example by how fast someone returns to baseline after an upset ([Desbordes et al. 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4350240/)), but there are few tests | Acceptance, non-attachment |
 | **Stoic judgement**: find the false judgement and correct it | Epictetus. Modern Stoicism | Stoic Week surveys without a control group ([report](https://modernstoicism.com/report-on-stoic-week-2023-by-tim-lebon/)). One small trial against a waiting list, unpublished ([King 2025](https://pure.royalholloway.ac.uk/en/publications/modern-stoicism-and-mental-health-a-randomised-controlled-trial/)). CBT's founders named the Stoics as their origin ([Robertson](https://donaldrobertson.name/2019/09/16/stoic-philosophy-as-a-cognitive-behavioral-therapy-2/)) | Reappraisal |
 | **Non-attachment**: enjoy and allow without needing to hold, avoid or change | Buddhist teachers. A questionnaire by Sahdra, Shaver and Brown, "informed by classic and contemporary Buddhist scholarship" ([Desbordes et al. 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4350240/)) | One large survey at one point in time: higher scores go with more life satisfaction ([Sahdra et al. 2016](https://non-attachment.com/downloads/sahdra%20et%20al.%20nonattach%20and%20mindful.pdf)) | Equanimity, acceptance |
-| **Self-compassion**: meet the feeling with kindness, as you would a friend | Kristin Neff. Paul Gilbert's compassion-focused therapy | 27 randomised trials: moderate effects on depression (g = 0.66) and large on rumination (g = 1.37) ([Ferrari et al. 2019](https://link.springer.com/article/10.1007/s12671-019-01134-6)). But the most used scale mixes in self-criticism, which may inflate the link to wellbeing ([Muris and Otgaar 2020](https://link.springer.com/article/10.1007/s12671-020-01363-0)) | Acceptance, plus warmth |
+| **Self-compassion**: meet the feeling with kindness, as you would a friend | Kristin Neff. Paul Gilbert's compassion-focused therapy | 27 randomised trials: moderate effects on depression (g = 0.66) and large on rumination (g = 1.37) ([Ferrari et al. 2019](https://link.springer.com/article/10.1007/s12671-019-01134-6)). Critics argue that the most used scale also counts negative items such as self-judgement, which mixes in signs of psychopathology and blurs what it measures ([Muris and Otgaar 2020](https://link.springer.com/article/10.1007/s12671-020-01363-0)) | Acceptance, plus warmth |
 
 Two things stand out in the table, in our reading.
 
@@ -32,7 +32,7 @@ Second, several rows say nearly the same thing in different words. The authors o
 #### Question: Open
 id:: 36ddda25-a3e7-468a-b2d2-9fb7f08b6147
 content::
-Which two rows of the table say the most similar thing in different words? Say what they share.
+What do the two rows of the table that say the most similar thing in different words have in common?
 force-feedback:: first
 feedback-instructions:: The learner names the two rows of the comparison table that overlap most and says what they share. There is no single right pair. Pairs worth crediting, in our reading: Stoic judgement and reappraisal (both change the thought about the situation, and CBT's founders named the Stoics as its origin); acceptance and equanimity (both let the feeling be without resisting, and Lindsay et al. describe acceptance training as fostering equanimity, with Shinzen Young as a co-author); equanimity and non-attachment (Desbordes et al. say the Nonattachment Scale description corresponds well to equanimity); acceptance and self-compassion (both stop fighting the feeling, self-compassion adds kindness).
 
@@ -41,7 +41,7 @@ Check that the shared element they name is a real feature of both instructions a
 #### Question: Open
 id:: aaa4f372-e8d3-4b98-b939-f834fdf54582
 content::
-Now find a real disagreement. Pick two rows that would tell you to do different things with the same feeling, and say what each would have you do.
+Now find a real disagreement. For the same feeling, what would two conflicting rows each have you do?
 force-feedback:: first
 feedback-instructions:: The learner picks two rows of the comparison table that give conflicting instructions for the same feeling and says what each would have them do. Good examples: reappraisal (change the meaning of the situation so the feeling changes) against acceptance or equanimity (let the feeling run its course without trying to change it), which is exactly the contrast Troy et al. 2018 tested; Stoic judgement (the feeling rests on a false judgement and should go once the judgement is corrected) against acceptance (the feeling itself is not a problem to fix); suppression against any other row.
 
