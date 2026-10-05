@@ -92,7 +92,7 @@ to:: 21:07.9
 
 #### Text
 content::
-The paper calls the protocol where the weaker trusted model scores every solution and humans check the most suspicious ones **trusted monitoring**. When the solutions that look somewhat suspicious, but not enough for a human audit, are replaced with the trusted model's own solution, it is called **defer to trusted**.
+In the paper, the two protocols in this clip are called **trusted monitoring** (the weaker model as monitor) and **defer to trusted** (the change Miles adds for solutions that look suspicious).
 
 #### Question: Open
 id:: e4ee37c4-d586-4249-8ed2-c71187f02dad
