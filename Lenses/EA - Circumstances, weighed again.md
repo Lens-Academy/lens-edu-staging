@@ -62,9 +62,16 @@ to:: his health was suffering, and so forth.
 content::
 \## Aiming at peace can backfire
 
-If circumstances only partly decide how you feel, the obvious move is to aim at the feeling directly. Iris Mauss's lab has studied what happens when people do. In one experiment, women who were led to value happiness more reacted less positively to a happy film, and the authors traced this to disappointment at their own feelings ([Mauss et al. 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3160511/)). Brett Ford and Iris Mauss review this work in a book chapter, [The paradoxical effects of pursuing positive emotion](https://eerlab.berkeley.edu/pdf/papers/Ford_Mauss_Pursuit_of_Positive_Emotion.pdf). Read its first two paragraphs and the section "How can we pursue happiness without paradoxical outcomes?" (pages 372 and 373, about 8 minutes).
+If circumstances only partly decide how you feel, the obvious move is to aim at the feeling directly. Iris Mauss's lab has studied what happens when people do. In one experiment, women who were led to value happiness more reacted less positively to a happy film, and the authors traced this to disappointment at their own feelings ([Mauss et al. 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3160511/)). Brett Ford and Iris Mauss review this work in a book chapter. Read its first two paragraphs and the section on how to pursue happiness without these effects (about 8 minutes).
 
-Their summary: "the more people pursue positive emotion, the less likely they are to experience positive outcomes". They name three reasons: people set high standards for their happiness, they pick activities that do not make them happy, and they keep checking how happy they are, which gets in the way. They conclude that "happiness may be within reach if (a) people remove impossible standards and instead accept their emotions and avoid striving for any particular emotional state, (b) people engage in prosocial activities or effective emotion-regulation strategies, and (c) people automatize the pursuit of happiness".
+#### Article
+source:: [[../articles/ford-the-paradoxical-effects-of-pursuing-positive-emotion-when-and-why-wanting-to-feel-happy-backfires]]
+from:: The experience of positive emotion is generally associated with, and even leads to, positive outcomes
+to:: this monitoring can impair their ability to actually achieve happiness.
+
+#### Article
+from:: The finding that pursuing happiness is associated with negative outcomes may lead us down a pessimistic path.
+to:: perhaps by habitualizing the activities or strategies mentioned in (b).
 
 #### Text
 content::

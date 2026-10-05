@@ -1,7 +1,7 @@
 ---
 title: "Estimating the reproducibility of psychological science"
 author:
-  - "Stanford"
+  - {--{"author":"James agent ready-30's AI","timestamp":1791190577518}@@"Stanford"--}{++{"author":"James agent ready-30's AI","timestamp":1791190577518}@@"Open Science Collaboration"++}
 source_url: "https://langcog.stanford.edu/papers_new/osc-2015-science.pdf"
 published: 2015-08-21
 created: 2026-10-05
