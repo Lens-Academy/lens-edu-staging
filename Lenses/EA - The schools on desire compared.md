@@ -63,13 +63,19 @@ Jonas is up for a promotion. He wants it mostly because his parents keep asking 
 id:: 2ca64486-ffaf-453b-bf0e-caebfde3712f
 content:: Which part of Jonas's wanting is closer to craving, and which is closer to wholesome desire? Say what in the case tells you.
 force-feedback:: first
-feedback-instructions:: Practice before the graded test. Case: Jonas wants a promotion mostly because his parents keep asking about his career and because he would feel like a failure if a younger colleague got it first. On good days he enjoys the work itself, especially solving hard problems with his team. Reference: wanting the promotion as a result, to be seen as successful and to avoid feeling like a failure, is result-focused, so closer to craving (tanha). Enjoying the problem-solving itself is focused on the doing, so closer to wholesome desire (chanda). Confirm or correct in one or two sentences. If the learner calls all of it craving, point out that one kind of desire is treated as wholesome. 60 to 100 words. One turn. No generic praise.
+feedback-instructions:: Practice before the graded test. Case: Jonas wants a promotion mostly because his parents keep asking about his career and because he would feel like a failure if a younger colleague got it first. On good days he enjoys the work itself, especially solving hard problems with his team. Reference: wanting the promotion as a result, to be seen as successful and to avoid feeling like a failure, is focused on a result, so closer to craving (tanha). Confirm or correct in one or two sentences. If the learner calls all of his wanting craving, point out that one kind of desire is treated as wholesome and that the next question asks about it. 50 to 90 words. One turn. No generic praise.
+
+#### Question: Open
+id:: 8d950bd5-8f3d-4c3e-a0f8-9f958b495110
+content:: Which part of Jonas's wanting is closer to wholesome desire? Say what in the case tells you.
+force-feedback:: first
+feedback-instructions:: Practice before the graded test. Case as in the previous question. Reference: enjoying the work itself, especially solving hard problems with his team, is focused on the doing, so closer to wholesome desire (chanda). Confirm or correct in one or two sentences. 40 to 80 words. One turn. No generic praise.
 
 #### Question: Open
 id:: cad511ea-941f-425a-ab4b-7064ba4d0243
-content:: Place two of Jonas's reasons on the continuum from external regulation to intrinsic motivation, and say why each belongs there.
+content:: Jonas would feel like a failure if a younger colleague got the promotion first. Where does this reason belong on the continuum from external regulation to intrinsic motivation? Say why.
 force-feedback:: first
-feedback-instructions:: Practice before the graded test. Reference: his parents' expectations are external regulation, or introjected if the learner argues he has taken their voice in. Avoiding feeling like a failure is introjected (avoiding guilt or shame, contingent self-worth). Enjoying the problem-solving is intrinsic. So the promotion is wanted mostly for controlled reasons, the work for autonomous ones. Confirm or correct each placement in one sentence. The most common slip is calling the failure reason identified: identified means valuing the goal as personally important, not avoiding a bad feeling. 60 to 100 words. One turn. No generic praise.
+feedback-instructions:: Practice before the graded test. Reference: avoiding feeling like a failure is introjected regulation (avoiding shame, self-worth that depends on the result). For contrast, his parents' expectations are closer to external regulation, and enjoying the problem-solving is intrinsic. Confirm or correct the placement in one or two sentences. The most common slip is calling the failure reason identified: identified means valuing the goal as personally important, not avoiding a bad feeling. 60 to 100 words. One turn. No generic praise.
 
 #### Question: Open
 id:: 5f62bd32-56a7-47fe-8aaf-ef3625787070
