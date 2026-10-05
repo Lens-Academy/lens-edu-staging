@@ -4,7 +4,7 @@ learning-outcome: "Evaluate an argument about AI control with the same rigour wh
 topic: "[[../Domains and Topics/7 AI Control/The control agenda]]"
 stage: beginner
 authors:
-  - "James agent ready-34 (opus-5.5)"
+  - Elias+Claude
 ---
 %% Beginner sibling of "Arguments against AI control" (that file stays as it is for Advanced AI Control). Adds the third category (works and makes things worse) and the symmetric clause. Used in AI Control Fundamentals Unit 4. %%
 

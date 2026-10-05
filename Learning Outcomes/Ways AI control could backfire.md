@@ -4,7 +4,7 @@ learning-outcome: "For a described control measure in a described world, trace a
 topic: "[[../Domains and Topics/7 AI Control/The control agenda]]"
 stage: beginner
 authors:
-  - "James agent ready-34 (opus-5.5)"
+  - Elias+Claude
 ---
 %% Used in AI Control Fundamentals Unit 4. Dropping the measure is an acceptable answer when argued. The test case (trusted editing at a company that sells its agent and trains a successor) is deliberately different from the cases taught in the unit (silent blocking of an escape, monitors sold for profit). %%
 

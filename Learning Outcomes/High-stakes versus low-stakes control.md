@@ -4,7 +4,7 @@ learning-outcome: "Classify a way a scheming AI could cause a catastrophe as hig
 topic: "[[../Domains and Topics/7 AI Control/Control threat models]]"
 stage: beginner
 authors:
-  - James agent ready-34
+  - Elias+Claude
 ---
 %% Beginner sibling of [[Concentrated versus diffuse failures]], written for AI Control Fundamentals Unit 2. It leaves out incrimination case-building and the details of training regimes. %%
 ## Test:

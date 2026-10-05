@@ -57,6 +57,7 @@ feedback-instructions:: The learner just read the introduction of "Diffuse AI Co
 collapse:: closed
 
 #### Video
+source:: [[../video_transcripts/far-ai-vivek-hebbar-low-stakes-control-controlconf]]
 from:: 16:28
 optional:: true
 

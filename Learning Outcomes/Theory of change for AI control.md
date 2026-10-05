@@ -4,7 +4,7 @@ learning-outcome: "For a proposed AI control measure or project, lay out the dis
 topic: "[[../Domains and Topics/7 AI Control/The control agenda]]"
 stage: beginner
 authors:
-  - James agent ready-34 (Opus 5.5)
+  - Elias+Claude
 ---
 ## Test:
 id:: e0c79f80-090e-413b-97b3-73b43e8db435

@@ -4,7 +4,7 @@ learning-outcome: "Place a piece of AI control work within the field: identify w
 topic: "[[../Domains and Topics/7 AI Control/The control agenda]]"
 stage: beginner
 authors:
-  - James agent ready-34
+  - Elias+Claude
 ---
 %% Written for AI Control Fundamentals Unit 2. The size of the field is practised and scored in the lens "AICF - Who works on AI control", not in a test (the separate outcome "Size of the AI control field" is no longer used). The facts about organisations come from the Lens page "AICF - Who works on AI control" (October 2026), which links every source. Update the rubric when that page is updated. %%
 ## Test:
