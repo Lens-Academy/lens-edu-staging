@@ -79,7 +79,7 @@ id:: db4711a0-088d-42c2-92c7-01f90b476f05
 content::
 What did you actually find when you pointed at where you look from?
 force-feedback:: first
-feedback-instructions:: The learner just did Harding's pointing experiment, rated the three NADA-S items (boundaries of self dissolving, mind expanding into space, blissful warmth) and read Ramm's report of a "colourless, unchanging capacity for the world". Now they describe what they found and compare it with their prediction.
+feedback-instructions:: The learner just did Harding's pointing experiment, rated the three NADA-S items (boundaries of self dissolving, mind expanding into space, blissful warmth) and read Ramm's report of a "colourless, unchanging capacity for the world". Now they describe what they found.
 
 Reflect back what they report in their own terms in one or two sentences. If they found nothing special, treat that as an equally valid result. Ask which reading fits their result better: the sceptic's (eyes do not see themselves) or Harding's (this shows what you are). Do not tell them what they "really" saw, and do not say whether Harding's interpretation is true. If they report fear, unreality or detachment that is still present, point them to the safety section of the method page and suggest not repeating the experiment. 50 to 100 words. One or two replies. No generic praise.
 
