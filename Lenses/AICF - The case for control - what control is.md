@@ -13,14 +13,18 @@ glossary_terms:
 ---
 #### Text
 content::
-This is the opening of a founding post of AI control, by Ryan Greenblatt and Buck Shlegeris of Redwood Research (2024). It defines control, sets it beside alignment and says which models to treat as untrusted. A short recall question follows each part of the reading. Then you test three deployment setups yourself. Two more setups are optional at the end.
+This is a founding post of AI control, by Ryan Greenblatt and Buck Shlegeris of Redwood Research (2024). Its opening sets control beside alignment as a second line of defence, which you already met in the CSET explainer, so that part is optional and folded below. Then the post defines the control property and says which models to treat as untrusted, with a short recall question after each part. Then you test three deployment setups yourself. Two more setups are optional at the end.
 
+#### Callout: Optional: the opening of the post (two lines of defence, transformatively useful AI)
+collapse:: closed
 #### Article
+optional:: true
 source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
 to:: argue that it might be tractable to use control to substantially reduce risk.
 
 #### Callout: Quick recall
 #### Question: Open
+optional:: true
 id:: 82bc48d1-8dd9-4c85-b867-982318eb2e44
 content:: What distinguishes the control line of defense from the alignment line of defense against scheming AIs?
 assessment-instructions:: Score out of 100. 50: alignment tries to make sure the models are not scheming in the first place. 50: control tries to make sure that even if the models are scheming, they are not able to subvert the safety measures and cause a catastrophe. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Alignment aims to ensure that models are not scheming in the first place. Control aims to ensure that even if models are scheming, they are not capable of subverting the safety measures. With both lines in place, a scheming model can only cause a catastrophe if alignment and control both fail."
@@ -29,11 +33,13 @@ feedback-instructions:: In at most four sentences: say plainly what the learner 
 #### End Callout
 
 #### Article
+optional:: true
 from:: One difficulty we face when arguing for control
 to:: Because control could be applied to mitigate risk from scheming right now, it's a particularly promising target for research effort and policy commitments.
 
 #### Callout: Quick recall
 #### Question: Open
+optional:: true
 id:: d3436a3e-f4ab-4dce-b452-dec7fca0af5c
 content:: What do Greenblatt and Shlegeris mean by "transformatively useful AI", and why do they aim control at those AIs rather than at arbitrarily powerful ones?
 assessment-instructions:: Score out of 100. 50: the meaning: AIs capable of substantially reducing risk from the more powerful AIs that come after them, for example by greatly speeding up AI safety research. 50: why aim there: the authors do not expect control to work for arbitrarily powerful AIs, but think it could work for the first AIs that are this useful. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Transformatively useful AIs are AIs capable of substantially reducing risk from the AIs that come after them, for example by massively speeding up AI safety research. The authors do not think control can work for arbitrarily powerful AIs, but they think it could work for these first transformatively useful ones, so that is where they aim it."
@@ -44,6 +50,7 @@ feedback-instructions:: In at most four sentences: say what the learner got righ
 #### Callout: Optional: why catching counts
 collapse:: closed
 #### Question: Open
+optional:: true
 id:: 098d5fa2-9ad2-409e-9a51-0d327a3d58fd
 optional:: true
 content::
