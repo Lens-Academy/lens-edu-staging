@@ -11,6 +11,7 @@ glossary_terms:
 #### Text
 content::
 Buck Shlegeris of Redwood Research, one of the people who started the field, in conversation with Rob Wiblin on the 80,000 Hours podcast (April 2025). In this four-minute clip he says what control is, and what it is meant to stop AIs inside an AI company from doing.
+
 #### Text
 content::
 :::callout {title="Prefer reading?" tone="blue"}
