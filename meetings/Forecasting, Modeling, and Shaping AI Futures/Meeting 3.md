@@ -102,7 +102,7 @@ Whole group, no breakout room.
 
 
 1. Closing round, answer out loud if you'd like: at the end of the unit you rewrote your model of the next ten years. Name one specific thing that changed, and the reading that changed it.
-    1. "I am more worried" is not a change.{>>{"author":"AI","timestamp":1791094783001}@@AI (mild): "X is not a change. Y is a change." contrast pair. The example itself is useful.<<} "I moved the point where AI does most AI research from never to about ten years out" is a change.
+    1. "I am more worried" is not a traceable change.{>>{"author":"AI","timestamp":1791094783001}@@AI (mild): "X is not a change. Y is a change." contrast pair. The example itself is useful.<<} "I moved the point where AI does most AI research from never to about ten years out" is a change.
     2. If you did not do that exercise, say one thing you believe now that you did not believe at the start of this course.
 2. Today, send your accountability buddy one line{>>{"author":"AI","timestamp":1791094783858}@@Consistency: "partner" here, "buddy" in Meetings 1 and 5 and in the FAQ.<<}: what is most likely to stop you finishing the next unit, and your plan.
 
