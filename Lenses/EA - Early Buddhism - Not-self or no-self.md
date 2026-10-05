@@ -46,9 +46,16 @@ to:: this precludes an utterly transcendent, ineffable self.
 #### Question: Open
 id:: 0dd2b259-7b06-41b0-a16a-cf0b90311ffb
 content::
-In one sentence each: what does Thanissaro say the not-self teaching is for, and what does the Stanford Encyclopedia say the discourse argues?
+In one sentence, what does Thanissaro say the not-self teaching is for?
 force-feedback:: first
-feedback-instructions:: The learner summarises two readings. Thanissaro: the Buddha put aside the question whether there is a self, and anatta is a strategy for letting go of what causes stress by asking whether something is really me or mine. Stanford Encyclopedia: the discourse contains arguments (from impermanence and from control) whose conclusion is that there is no self, and classical Indian philosophy read the Buddha that way. Confirm what is right and correct any error in one sentence. 40 to 80 words. One turn, then send them to the next question. No generic praise.
+feedback-instructions:: The learner summarises Thanissaro Bhikkhu's "No-self or Not-self?" in one sentence. His answer: the Buddha put aside the question whether there is a self, and anatta is a strategy for letting go of what causes stress, by asking "Is it really me, myself, or mine? If it's stressful but not really me or mine, why hold on?" The aim is to end clinging and so end stress. Confirm what is right and correct any error in one sentence. If they say Thanissaro teaches that there is no self, point out that he says the Buddha set that question aside. 40 to 80 words. One turn, then send them to the next question. No generic praise.
+
+#### Question: Open
+id:: 0a827ac1-9717-4aca-8764-f14cddae47ef
+content::
+In one sentence, what does the Stanford Encyclopedia say the discourse argues?
+force-feedback:: first
+feedback-instructions:: The learner summarises the Stanford Encyclopedia of Philosophy reading in one sentence. Its answer: the discourse (SN 22.59) contains two arguments, from impermanence (a self would be permanent, none of the five aggregates is permanent) and from control (one could not wish a self to be otherwise, each aggregate can be wished otherwise), whose conclusion is that there is no self, given that a person is no more than the five aggregates. The entry adds that classical Indian philosophy read the Buddha this way. Confirm what is right and correct any error in one sentence. If they leave out the assumption that a person is no more than the aggregates, name it, since the next question turns on it. 40 to 80 words. One turn, then send them to the next question. No generic praise.
 
 #### Question: Open
 id:: 43bd49cb-9818-4348-a11c-2dbafa4e5ad9
