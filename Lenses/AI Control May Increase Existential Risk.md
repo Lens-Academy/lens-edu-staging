@@ -23,6 +23,7 @@ Jan Kulveit argues control could make things worse. Without it, an early misalig
 #### Article
 source:: [[../articles/kulveit--ai-control-may-increase-existential-risk]]
 from:: "Consider two broad possibilities:"
+to:: different strains of alignment research have different generalization profiles.
 
 #### Text
 content::
