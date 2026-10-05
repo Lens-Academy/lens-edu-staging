@@ -72,7 +72,7 @@ collapse:: closed
 content::
 **What it tests:** how much of what you pursue you pursue for controlled reasons (pressure, guilt) and how much for autonomous ones (valuing, enjoyment), and whether goals with autonomous reasons feel and go differently.
 
-**The instruction.** Researchers in self-determination theory measure this with four ratings per goal. In one study, people listed personal goals and rated each from 1 ("not at all for this reason") to 9 ("completely because of this reason") on four reasons ([Koestner et al. 2002](https://www.selfdeterminationtheory.org/SDT/documents/2002_KoestnerLekesPowersChicoine_JPSP.pdf), p. 234):
+**The instruction.** Researchers in self-determination theory measure this with four ratings per goal. In one study, people listed personal goals and rated each from 1 ("not at all for this reason") to 9 ("completely because of this reason") on four reasons ([Koestner et al. 2002](https://www.selfdeterminationtheory.org/SDT/documents/2002_KoestnerLekesPowersChicoine_JPSP.pdf), p. 235):
 
 - **external**: "because somebody else wants you to, or because you'll get something from somebody if you do"
 - **introjected**: "because you would feel ashamed, guilty, or anxious if you didn't"
@@ -124,6 +124,8 @@ to:: tend to experience physical and mental health disturbances during periods o
 #### Text
 content::
 **What to record.** Rate how much you enjoy the pleasure on the first day, and again when you have it after the week's break, from 0 to 10.
+
+**Safety.** As the page above notes, stopping caffeine, nicotine or cannabis can cause withdrawal. Pick a pleasure you can stop without it, such as a sweet, a series or a game.
 #### End Callout
 
 #### Question: Open
