@@ -21,7 +21,7 @@ As the wellbeing science page notes, if you change several things at once you ca
 
 \## From module 5: desire
 
-::card[[../Lenses/EA - Experiments with desire]]
+::card[[../Lenses/EA - Experiments with desire]]{allow-external}
 > Six experiments on wanting, each with its source's instruction.
 
 | Experiment | School | Claim it tests | Dose | Measure | Risk noted on the page |
@@ -35,7 +35,7 @@ As the wellbeing science page notes, if you change several things at once you ca
 
 \## From module 6: the self
 
-::card[[../Lenses/EA - Self experiments - safety and method]]
+::card[[../Lenses/EA - Self experiments - safety and method]]{allow-external}
 > The stop rule, the warning signs and the baseline for all four experiments below.
 
 | Experiment | School | Claim it tests | Dose | Measure | Risk noted on the page |
@@ -45,21 +45,21 @@ As the wellbeing science page notes, if you change several things at once you ca
 | Noting | Theravada (Mahasi) | There is only a process of mental events, and no self besides them | 15 minutes (the course's suggestion) | NADA-S ratings | As above. Intensive noting on retreats is where most changes in the sense of self began |
 | A glimpse of open awareness | Effortless mindfulness (Loch Kelly) | A short shift of attention shows a peace that is always there | One guided session | NADA-S ratings | As above |
 
-::card[[../Lenses/EA - Self experiment - Pointing at where you look from]]
+::card[[../Lenses/EA - Self experiment - Pointing at where you look from]]{allow-external}
 > Harding's pointing experiment.
 
-::card[[../Lenses/EA - Self experiment - Who am I]]
+::card[[../Lenses/EA - Self experiment - Who am I]]{allow-external}
 > Ramana's self-enquiry.
 
-::card[[../Lenses/EA - Self experiment - Noting]]
+::card[[../Lenses/EA - Self experiment - Noting]]{allow-external}
 > Mahasi Sayadaw's noting.
 
-::card[[../Lenses/EA - Self experiment - A glimpse of open awareness]]
+::card[[../Lenses/EA - Self experiment - A glimpse of open awareness]]{allow-external}
 > Loch Kelly's guided glimpse.
 
 \## From module 7: emotions
 
-::card[[../Lenses/EA - Experiments with feelings]]
+::card[[../Lenses/EA - Experiments with feelings]]{allow-external}
 > Five experiments on what to do with a feeling, plus three measures for any of them.
 
 | Experiment | School | Claim it tests | Dose | Measure | Risk noted on the page |
@@ -74,14 +74,14 @@ As the wellbeing science page notes, if you change several things at once you ca
 
 These come from the library modules. Each page has its own safety box.
 
-::card[[../Lenses/EA - CBT and ACT - Experiments]]
+::card[[../Lenses/EA - CBT and ACT - Experiments]]{allow-external}
 > Two weeks on one recurring thought: a week of CBT, a week of ACT.
 
 | Experiment | School | Claim it tests | Dose | Measure | Risk noted on the page |
 |---|---|---|---|---|---|
 | A thought record, then defusion | CBT and ACT | Changing a thought's content (CBT) against changing how you hold it (ACT) | One week each, on one recurring thought | Each evening, belief in the thought and discomfort 0 to 100, and how often it came | Self-help, not treatment. Stop and see a doctor for lasting low mood or thoughts of self-harm |
 
-::card[[../Lenses/EA - Early Buddhism - Experiments you can run]]
+::card[[../Lenses/EA - Early Buddhism - Experiments you can run]]{allow-external}
 > Five experiments from the early Buddhist texts and teachers.
 
 | Experiment | School | Claim it tests | Dose | Measure | Risk noted on the page |
@@ -92,7 +92,7 @@ These come from the library modules. Each page has its own safety box.
 | Loving-kindness toward a widening circle | Early Buddhism (Buddharakkhita) | Practised in order, goodwill reaches even people you dislike | 15 minutes a day, three weeks | Goodwill toward one disliked person, 0 to 10, before and after | May be hard at first for some people |
 | Is this really me or mine? | Early Buddhism (Thanissaro) | Asking whether something is "me or mine" loosens the clinging that causes stress | One week, each time you are upset | Upset 0 to 10 before and a few minutes after | As above |
 
-::card[[../Lenses/EA - Secular meditation - Experiments to run on yourself]]
+::card[[../Lenses/EA - Secular meditation - Experiments to run on yourself]]{allow-external}
 > Four experiments from secular and pragmatic meditation teachers.
 
 | Experiment | School | Claim it tests | Dose | Measure | Risk noted on the page |
@@ -102,7 +102,7 @@ These come from the library modules. Each page has its own safety box.
 | A month of sitting | Pragmatic meditation (Culadasa) | Progress runs through stages you can recognise yourself | 20 to 45 minutes a day for 30 days | Culadasa's stage criteria, time on the breath | As above |
 | What is the self made of? | Shinzen Young and Daniel Ingram | The self seems a thing because sensations, images and inner talk get tangled | 15 minutes a day for two weeks | After each session, what each strong sense of "me" was made of | As above. Do not take noting to retreat intensity alone |
 
-::card[[../Lenses/EA - Self-compassion - Experiments]]
+::card[[../Lenses/EA - Self-compassion - Experiments]]{allow-external}
 > Four experiments on kindness toward yourself.
 
 | Experiment | School | Claim it tests | Dose | Measure | Risk noted on the page |
@@ -112,7 +112,7 @@ These come from the library modules. Each page has its own safety box.
 | Does kindness make you lazy? | Self-compassion (Breines and Chen) | Self-compassion raises the motivation to improve | Three weeks, a coin toss after each setback | Wish to work on the problem 0 to 10, and what you did next | As above |
 | Soothing rhythm breathing | Compassion-focused therapy (Gilbert) | Engaging the soothing system rebalances threat, drive and soothing | 5 minutes a day, two weeks | Threat, drive and soothing, 0 to 10 each, before and after | Breath focus makes some people more anxious |
 
-::card[[../Lenses/EA - Stoicism - Experiments to run]]
+::card[[../Lenses/EA - Stoicism - Experiments to run]]{allow-external}
 > Six Stoic exercises from the Stoic Week handbook.
 
 | Experiment | School | Claim it tests | Dose | Measure | Risk noted on the page |
@@ -124,7 +124,7 @@ These come from the library modules. Each page has its own safety box.
 | The view from above | Stoicism (Marcus Aurelius) | Picturing your life from far above makes everyday troubles matter less | Once a day | Strongest irritation of the day, 0 to 100 | As above |
 | Voluntary discomfort | Stoicism (Seneca) | Losing comforts is less bad than you fear | Coffee or snacks given up for a week, or Seneca's three or four days | Expected badness 0 to 100 before, actual badness after | As above |
 
-::card[[../Lenses/EA - Wellbeing science - Experiments to run]]
+::card[[../Lenses/EA - Wellbeing science - Experiments to run]]{allow-external}
 > Five exercises from positive psychology trials.
 
 | Experiment | School | Claim it tests | Dose | Measure | Risk noted on the page |
@@ -135,7 +135,7 @@ These come from the library modules. Each page has its own safety box.
 | Act extraverted for a week | Positive psychology (Margolis and Lyubomirsky) | Acting talkative and spontaneous raises wellbeing | One week | As above | As above |
 | Treat a cashier as a person | Social psychology (Sandstrom and Dunn) | A brief real exchange with a stranger raises mood and belonging | One purchase, repeated | As above | As above |
 
-::card[[../Lenses/EA - Non-dual - Experiments to run]]
+::card[[../Lenses/EA - Non-dual - Experiments to run]]{allow-external}
 > Three experiments from non-dual teachers, from two minutes to two weeks.
 
 | Experiment | School | Claim it tests | Dose | Measure | Risk noted on the page |
