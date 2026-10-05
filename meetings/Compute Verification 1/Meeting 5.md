@@ -21,7 +21,7 @@ Go around your group:
 3\. Having now completed Compute Verification 1 are you more or less hopeful that a pause could actually be verified?{>>{"author":"AI","timestamp":1791094828216}@@AI (mild): the "Five units in:" lead-in. Clarity: two questions in this item, and "more or less" leaves out "about the same".<<} Which part of the course swayed you most? If nothing changed for you, what evidence would move the needle for you?
 
 
-| Names | What stuck w you + more or less hopeful, and which part did that |
+| Names | What stuck with you + more or less hopeful, and which part did that |
 |------|------------------------|
 |  |  |
 |  |  |
