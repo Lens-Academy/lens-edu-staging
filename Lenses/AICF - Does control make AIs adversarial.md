@@ -85,8 +85,8 @@ In a 2025 interview, Rob Wiblin of 80,000 Hours asked Buck Shlegeris, who works 
 
 #### Video
 source:: [[../video_transcripts/80-000-hours-controlling-ai-that-wants-to-take-over-so-we-can-use-it-anyway-buck-shlegeris]]
-from:: 1:38:51.0
-to:: 1:42:37.5
+from:: 98:51.0
+to:: 102:37.5
 
 #### Question: Open
 id:: cff69c7e-efa7-466c-9182-fa2c44045d8f

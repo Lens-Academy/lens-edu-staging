@@ -14,9 +14,9 @@ Every route in this unit assumes someone runs the control measures. In the same 
 
 #### Video
 source:: [[../video_transcripts/80-000-hours-controlling-ai-that-wants-to-take-over-so-we-can-use-it-anyway-buck-shlegeris]]
-from:: 1:01:14.6
-to:: 1:17:43.6
-skip:: 1:04:45.7-1:17:04.4
+from:: 61:14.6
+to:: 77:43.6
+skip:: 64:45.7-77:04.4
 
 #### Question: Open
 id:: 5329100b-6c43-4b3a-9d84-0dc0dac6ce6e
