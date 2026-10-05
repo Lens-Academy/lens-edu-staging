@@ -13,7 +13,26 @@ content::
 Ryan and Deci's second passage rested on studies by Tim Kasser and Richard Ryan. In 2016 Kasser reviewed the research on materialistic values that followed. Keep in mind that he is reviewing a field he helped build.
 
 \## Reading assignment
-Open [Kasser 2016, "Materialistic values and goals"](https://selfdeterminationtheory.org/wp-content/uploads/2019/08/2016_Kasser_ARP.pdf) (Annual Review of Psychology, free PDF). Read the abstract, then the section headed "Personal Well-Being", then the "Summary Points" near the end. About 12 minutes. Return here after reading.
+Open [Kasser 2016, "Materialistic values and goals"](https://selfdeterminationtheory.org/wp-content/uploads/2019/08/2016_Kasser_ARP.pdf) (Annual Review of Psychology, free PDF). About 12 minutes in all.
+
+**Part 1**, the abstract on the first page, from
+> Materialism comprises a set of values and goals focused on wealth, possessions, image, and status.
+
+to
+> diminished contemporary culture’s focus on consumption, profit, and economic growth.
+
+**Part 2**, the section headed "Personal Well-Being" (journal pages 496 to 498). Start at
+> Since the publication of the earliest studies showing that materialism is negatively associated
+
+and stop at the end of the section, before the heading "Future Research":
+> as one’s motives are increasingly driven by status and rewards rather than freedom and interest
+
+**Part 3**, the "Summary Points" near the end (journal pages 506 to 507), points 1 to 6, from
+> Materialistic aims are a fundamental part of human value/goal systems
+
+to
+> and/or increase a sense of felt security and safety.
+
 
 #### Question: Open
 id:: 8ae42f97-26ea-4fc0-ade9-d81df7f6c005
