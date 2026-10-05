@@ -68,7 +68,7 @@ A randomised trial took a mindfulness app apart: one group learned to watch thei
 
 #### Article
 source:: [[../articles/lindsay-mindfulness-training-reduces-loneliness-and-increases-social-contact-in-a-randomized-controlled-trial]]
-from:: Loneliness and social isolation are a growing public health concern
+from:: Loneliness and social isolation are a growing public health concern, yet there are few evidence-based interventions
 to:: encourage greater engagement with others in daily life.
 optional:: true
 

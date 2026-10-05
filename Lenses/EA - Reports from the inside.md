@@ -72,7 +72,7 @@ Thomas Metzinger, a philosopher of mind who meditates, argues that serious spiri
 #### Article
 source:: [[../articles/metzinger-spirituality-and-intellectual-honesty]]
 from:: Spirituality is, at its core, an epistemic stance.
-to:: that is observable in a person's actions.
+to:: and there is no widely accepted doctrine.
 
 #### Text
 content::

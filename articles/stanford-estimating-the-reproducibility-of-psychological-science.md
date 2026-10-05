@@ -3,6 +3,7 @@ title: "Estimating the reproducibility of psychological science"
 author:
   - "Open Science Collaboration"
 source_url: "https://langcog.stanford.edu/papers_new/osc-2015-science.pdf"
+allowAuthorInTitle: true
 published: 2015-08-21
 created: 2026-10-05
 accessed: 2026-10-05
