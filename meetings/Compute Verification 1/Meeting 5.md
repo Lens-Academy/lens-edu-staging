@@ -42,7 +42,7 @@ One or two people share what their group landed on.
 
 
 Offline licensing: a chip runs only while a licence server keeps renewing its token; whoever controls that server holds the key. The unit's line:{>>{"author":"AI","timestamp":1791094816503}@@AI (mild): "The unit's line:" then an "only as X as Y" aphorism in bold. The wording is accurate (it is the summary of the hardware-authorization lens), but it is a long sentence to read in a breakout.<<} **an off-switch for someone else's compute is only as acceptable as the answers to who holds the key, what happens when the server is down, and who reverses a mistake.**
-As a group, Design the key for a US-China pause:{>>{"author":"AI","timestamp":1791094817346}@@Clarity (mild): "design the key" leans on the metaphor. The questions below are really about who controls the licence server.<<}
+As a group, design the key for a US-China pause:{>>{"author":"AI","timestamp":1791094817346}@@Clarity (mild): "design the key" leans on the metaphor. The questions below are really about who controls the licence server.<<}
 1\. Who holds it: one government, both, or several who must agree?
 2\. The server is unreachable for a day: do chips keep running (fail open) or stop (fail closed)?
 3\. A false alarm shuts down a hospital's lawful AI cluster: who reverses it, and who pays?
