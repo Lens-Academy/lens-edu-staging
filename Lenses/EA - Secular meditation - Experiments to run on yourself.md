@@ -4,7 +4,7 @@ title: "Experiments to run on yourself"
 tldr: "Four tests of this school's claims, each built from the teachers' own instructions: the pain-and-resistance test, a home version of the eight-week MBSR course, a month of daily sitting measured against Culadasa's stage criteria, and a short noting practice."
 summary_for_tutor: "Experiments lens of the secular and pragmatic meditation module. Four experiments, each sourced. (1) Shinzen Young's claim that suffering equals pain times resistance: his own exercise for meditating on pain (Natural Pain Relief synopsis), on any discomfort the learner already has, rating intensity and unpleasantness separately 0 to 10 before and after each session; Zeidan et al. 2011 found that after four days of mindfulness training, meditating during lab heat pain cut unpleasantness ratings by 57% and intensity ratings by 40% compared with rest. Prediction from Shinzen: unpleasantness falls more than intensity. (2) MBSR at home: the free Palouse Mindfulness course modelled on MBSR (8 weeks, 32-minute body scan), with the UMass dose of about 45 to 60 minutes a day; measure with the Satisfaction with Life Scale and a daily stress rating before and after; Parsons et al. 2017: participants did about 64% of assigned home practice, about 30 minutes a day six days a week, and more practice went with better outcomes (r = 0.26). Goyal 2014 found no evidence that meditation programmes beat active treatments such as exercise. (3) A month of daily sitting with Harris's nine instructions, scored against Culadasa's stage criteria (stage 1 mastered when no daily sit is missed; stage 2 mastered when in a sit attention is on the object longer than it is lost and wandering lasts seconds while attention lasts minutes). (4) Noting: Shinzen's See Hear Feel labels at one label every one to five seconds, or Ingram's rising/falling notes at up to one to five per second; observe what 'self' is made of. Safety: Shinzen's remedy for too much too soon (change technique or reduce practice time), Britton's finding that lasting bad effects went with hyperarousal and dissociation, Ingram's warnings against retreat extremes. Marked own suggestions: session lengths, durations of 30 days and two weeks, and the comparison condition. Closing question: the learner writes their protocol."
 reading_minutes: 10
-tutor_minutes: 6
+tutor_minutes: 10
 tags:
   - wip
 ---
@@ -85,16 +85,29 @@ feedback-instructions:: The learner read four experiment protocols from the secu
 #### Question: Open
 id:: fae79162-ed72-4fbe-8200-d217227fdcff
 content::
-What exactly will you do, how often, and for how many days or weeks?
+Which practice will you do?
 force-feedback:: first
-feedback-instructions:: The learner is writing a protocol for one of four experiments: (1) Shinzen Young's pain exercise, four sessions on four days, 15 to 20 minutes each; (2) the eight-week Palouse Mindfulness course with about 45 to 60 minutes of practice a day (people in MBSR studies actually did about 30 minutes a day, six days a week); (3) daily sitting with Sam Harris's instructions, 20 to 45 minutes, 30 days; (4) See Hear Feel or noting, 15 minutes a day for two weeks. They now give the practice and the dose. Check that the practice is concrete (which technique, from which source) and that frequency and total length are both there. If one is missing, name it and suggest the figure from the lens. If they plan far more than the lens suggests, for example several hours a day of noting, point to the warning in the lens against retreat intensity on one's own. Reply in 40 to 80 words. No generic praise. One turn.
+feedback-instructions:: The learner is writing a protocol for one of four experiments: (1) Shinzen Young's pain exercise from his Natural Pain Relief synopsis; (2) the eight-week Palouse Mindfulness course (body scan, sitting meditation, mindful movement); (3) daily sitting with Sam Harris's nine instructions; (4) Shinzen's See Hear Feel labels or Ingram's rising and falling notes. They now name the practice. Check that it is concrete: which technique, from which source, so they would do the same thing each day. If it is vague ('meditate'), ask which instructions they will follow. Reply in 30 to 70 words. No generic praise. One turn.
+
+#### Question: Open
+id:: 0bb8d0e6-6319-48e8-aa4c-e7dff80fffe1
+content::
+What is your schedule: how often will you practise, and for how many days or weeks?
+feedback-instructions:: The learner is writing a protocol for one of four experiments. Doses in the lens: (1) Shinzen Young's pain exercise, four sessions on four days, 15 to 20 minutes each; (2) the eight-week Palouse Mindfulness course with about 45 to 60 minutes of practice a day (people in MBSR studies actually did about 30 minutes a day, six days a week); (3) daily sitting with Sam Harris's instructions, 20 to 45 minutes, 30 days; (4) See Hear Feel or noting, 15 minutes a day for two weeks. They now give their schedule. Check that session length, frequency and total length are all there. If one is missing, name it and suggest the figure from the lens. If they plan far more than the lens suggests, for example several hours a day of noting, point to the warning in the lens against retreat intensity on one's own. Reply in 40 to 80 words. No generic praise. One turn.
 
 #### Question: Open
 id:: f2b4a08b-37de-4b78-b2c9-d4d3f2799ded
 content::
 What will you measure, and when?
 force-feedback:: first
-feedback-instructions:: The learner is writing a protocol for one of four meditation experiments. The lens suggested measures: (1) intensity and unpleasantness of a discomfort rated separately 0 to 10 before and after each session; (2) the Satisfaction with Life Scale before week 1 and after week 8 plus an evening stress rating 0 to 10; (3) after each sit, the share of time on the breath and how often they noticed wandering, comparing week 1 with week 4; (4) after each session, a line on what the sense of 'me' was made of. They now give their measure and its timing. Check that the measure is written down, not remembered, and that there is a before-measurement or baseline. If the baseline is missing, say that without it they cannot see a change. If they chose experiment 2, add that expecting to feel better can move self-ratings by itself, and that tracking the same numbers during a period of another activity helps. Reply in 50 to 90 words. No generic praise. One turn.
+feedback-instructions:: The learner is writing a protocol for one of four meditation experiments. The lens suggested measures: (1) intensity and unpleasantness of a discomfort rated separately 0 to 10; (2) the Satisfaction with Life Scale plus an evening stress rating 0 to 10; (3) the share of time on the breath and how often they noticed wandering; (4) a line on what the sense of 'me' was made of. They now name their measure. Check that it is something they will write down, not remember, and that it fits the claim they chose. If they chose experiment 2, add that expecting to feel better can move self-ratings by itself, and that tracking the same numbers during a period of another activity helps. The next question asks about timing, so do not ask about it here. Reply in 40 to 80 words. No generic praise. One turn.
+
+#### Question: Open
+id:: 1f11d4ec-c2c2-4501-9322-ff8624ba066d
+content::
+When will you take each measurement?
+force-feedback:: first
+feedback-instructions:: The learner is writing a protocol for a meditation experiment and now says when they will measure. Timings in the lens: (1) before and after each session of the pain exercise; (2) the Satisfaction with Life Scale before week 1 and after week 8, stress each evening; (3) after each sit, comparing week 1 with week 4; (4) after each session. Check that there is a before-measurement or baseline. If it is missing, say that without it they cannot see a change, and suggest one. Reply in 40 to 80 words. No generic praise. One turn.
 
 #### Question: Open
 id:: fe15eb18-5e08-4b2d-996a-6506c2596d87
