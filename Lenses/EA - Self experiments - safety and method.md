@@ -3,7 +3,7 @@ id: 'f6d9d60b-4c3a-414f-90b9-dd810baf126b'
 title: "Before you experiment: safety and method"
 tldr: "The experiments in this module are short, but changes in the sense of self can be unpleasant and occasionally last. Know the warning signs and where to get help, write a prediction first, and take a baseline rating so you can compare."
 summary_for_tutor: "Method and safety page for the module's self experiments (Harding's pointing, Ramana's self-enquiry, optional Mahasi noting, optional Loch Kelly glimpse). Safety: Lindahl and Britton 2019 found that in meditators reporting challenges, changes in sense of self came with distress in 55% and impairment in 45%, more global changes went with more impairment, and psychiatric or trauma history did not predict who was affected. Cheetah House (Britton's non-profit) lists signs of dissociation: emotional flattening, loss of interest or enjoyment, loss of motivation and meaning, loss of sense of self, embodiment, agency or identity, and a dreamlike or unreal world. Britton's advice in a 2023 podcast: 'don't keep doing what you're doing that's making this happen, let's dial it back.' Help: Cheetah House Get Help and crisis pages, a doctor or therapist. Method: write a prediction first (expectation shapes reports: Thompson's retreat in module 4, appraisals shaped by teachers in Lindahl and Britton); rate the three NADA-S state items (Hanley et al. 2018, 1 to 10) after each experiment; take a baseline first by sitting still with eyes open for 5 minutes, as in the NADA study's pre-test. If the learner reports lasting distress, unreality or detachment, do not encourage further experiments; point them to the help options."
-reading_minutes: 6
+reading_minutes: 11
 tutor_minutes: 3
 tags:
   - wip

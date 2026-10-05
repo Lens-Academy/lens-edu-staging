@@ -3,7 +3,7 @@ id: '83feb109-d86a-4ebf-a738-92014b3af509'
 title: "Experiment: noting"
 tldr: "The Burmese teacher Mahasi Sayadaw taught meditators to note each movement of the belly and each passing thought by a plain label. He claimed this shows there is no lasting self, only a stream of events. Try it for fifteen minutes and see what you find."
 summary_for_tutor: "Optional first-person experiment from Theravada Buddhism: Mahasi Sayadaw's noting, from his booklet Satipatthana Vipassana (Access to Insight). Instruction: keep the mind on the abdomen, note 'rising' and 'falling' with the breath without changing it, do not say the labels aloud, know the movement more than the word; when the mind wanders, note 'wandering', and note each mental activity as it occurs ('thinking', 'planning', 'feeling happy'), then return to rising and falling. Claim, in Mahasi's words: people wrongly hold the mind to be a person or self; 'in reality, such a living entity does not exist, but there does exist a continuous process of elements of mind which occur singly, one at a time, in succession'. This tests the not-self claim of SN 22.59 in practice: is there anything besides changing sensations and mental events that could be the noter? Our suggested dose is 15 minutes (not from the source). Intensive noting on long retreats is the setting in which most changes in sense of self in Lindahl and Britton's study began, which is why this lens is optional and short. The learner predicts, practises, rates NADA-S, reports. If the learner reports distress, follow the safety guidance on the method page."
-reading_minutes: 8
+reading_minutes: 23
 tutor_minutes: 4
 tags:
   - wip

@@ -3,7 +3,7 @@ id: '0490998b-c62f-4f1c-8e0e-a1e08c2ceaf4'
 title: "Experiment: who am I?"
 tldr: "Ramana Maharshi's self-enquiry: whenever a thought arises, ask to whom it arises, and turn attention to the one it seems to happen to. Predict first, try it for ten minutes, then rate what happened."
 summary_for_tutor: "First-person experiment from Advaita Vedanta: Ramana Maharshi's self-enquiry, with Ramana's instruction from Who Am I? and David Godman's explanation of the practice. Instruction: when thoughts arise, do not pursue them but ask 'To whom has this thought arisen?'; the answer is 'to me'; then ask 'Who am I?' and the mind goes back to its source. Godman: the practice is attention on the 'I' that thinks and perceives, not on an idea of it; the common trap is to fix on a sensation, a location or a feeling of peace and call it 'I'; 'That which is doing the looking is the I, not the thing that it eventually looks at.' Ramana's claim: the 'I'-thought is a fiction, and when it subsides, the real Self is revealed. Our suggested dose is 10 minutes (not from the sources). The learner predicts, practises, rates the three NADA-S items, and reports. Claim tested: whether the 'I' that thoughts seem to happen to can be found as an object, and what happens to thoughts when attention turns to it. If the learner reports distress, follow the safety guidance on the method page."
-reading_minutes: 8
+reading_minutes: 18
 tutor_minutes: 4
 tags:
   - wip
