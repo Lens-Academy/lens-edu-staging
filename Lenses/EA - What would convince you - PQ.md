@@ -17,6 +17,12 @@ id:: 404b64bf-2ca9-45fe-ae6f-bec84845809e
 content::
 A friend says: "A study found that eight weeks of mindfulness training reduces anxiety. And my meditation teacher, who has practised for thirty years, says meditation gave her a peace that nothing can shake."
 
-Would either of these convince you to meditate every day? For each one, what would you want to know before you trusted it?
+What would you want to know about the study before you trusted it?
 force-feedback:: first
-feedback-instructions:: This is a pre-reading question. In one or two sentences, restate what the learner would want to know about the study and about the teacher's report. Do not say whether their questions are the right ones and do not name any problem with studies or first-person reports that they did not raise. Say that the next pages look at what each kind of evidence can and cannot show, and that they can compare their list with it. 30 to 60 words. One turn.
+feedback-instructions:: This is a pre-reading question. In one sentence, restate what the learner would want to know about the study. Do not say whether their questions are the right ones and do not name any problem with studies that they did not raise. Say that the next page looks at how published research goes wrong and comes back to their list. 20 to 50 words. One turn.
+
+#### Question: Open
+id:: 846a912d-82c6-4bce-86a3-3d17184fa6b4
+content::
+What would you want to know about the teacher's report before you trusted it?
+feedback-instructions:: This is a pre-reading question about a friend's meditation teacher who has practised for thirty years and says meditation gave her a peace that nothing can shake. In one sentence, restate what the learner would want to know about her report. Do not say whether their questions are the right ones and do not name any problem with first-person reports that they did not raise. Say that a later page, "Reports from the inside", looks at what such reports can and cannot show. 20 to 50 words. One turn.
