@@ -12,8 +12,6 @@ id:: 6326974b-14ab-4ddd-8bb8-a754ddf23416
 #### Question: Open
 id:: e0561bbb-1b69-4fd3-85c5-6777a6692fb8
 content::
-Two claims, each with the evidence offered for it.
-
 **Case A.** A popular book says that a daily five-minute breathing exercise "makes people calmer and happier". Its evidence is one randomised trial: 60 university students in the United States were assigned either to the breathing exercise for six weeks or to a waiting list. At the end of the six weeks, the breathing group reported less stress and more positive emotions on questionnaires than the waiting-list group.
 
 What kind of evidence is this, and what can it show?
