@@ -73,6 +73,7 @@ Engage with their judgement. There is no right answer. Ask what in their own exp
 id:: 775e84c2-a939-4fc5-a0a2-0c23cba172d1
 content::
 Given what you want from this course, where do you think Bodhi is wrong?
+force-feedback:: first
 feedback-instructions:: The learner restated Bhikkhu Bodhi's two objections to eclecticism (practices are parts of an integral whole and lose something when lifted out; the visions behind traditions are incompatible, so a mix lacks one aim), said where they think he is right, and now say where he is wrong for their own purposes.
 
 Engage with their judgement. There is no right answer. Bodhi also offers three criteria for judging a path before committing to it (a full picture of suffering, a correct analysis of its causes, a means to remove them at the root). If useful, point out that these criteria could be applied to every school in this course. Reasonable positions include: Bodhi is right if your goal is the tradition's own goal (nibbana), but less so if you want a specific, measurable change such as calmer mornings; testing single practices can show what they do on their own, though not what they do inside the whole path; trying many things may be a stage before committing to one, which Bodhi himself describes. If they dismiss Bodhi quickly, ask what his first objection would predict about a practice lifted out of its context, and how they could check that. If they accept him wholly, ask how they would choose a path before having tried any. Do not take a side. 80 to 140 words. At most two replies. No generic praise.
