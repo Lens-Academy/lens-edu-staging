@@ -17,7 +17,7 @@ In this talk at the Science and Nonduality conference he first guides the audien
 #### Video
 source:: [[../video_transcripts/science-and-nonduality-your-nature-is-happiness-rupert-spira]]
 from:: 0:28
-to:: 17:10
+to:: 17:11
 
 #### Text
 content::
@@ -39,7 +39,7 @@ Reflect their report back precisely in one or two sentences. If they found somet
 #### Question: Open
 id:: 72fb0647-723b-483c-91a8-a2a6b1a40a4c
 content::
-Which of the four steps do you find weakest, and why?
+What is wrong with the step you find weakest?
 force-feedback:: first
 feedback-instructions:: The learner watched the first 17 minutes of Rupert Spira's talk "Your Nature is Happiness" (Science and Nonduality conference). Spira guides the audience to notice that all experience is known, to become interested in the knowing itself (which he says is what "I" refers to), says being aware is the only element of experience that is ever present and "in the same condition" since childhood, that no experience adds to or removes anything from it, and concludes: "thus its nature is peace", it is "innately fulfilled", "thus its nature is happiness", "a peace that is prior to all experience". The learner was shown the argument in four steps (knowing is "I"; being aware stays the same; nothing adds to or takes from it; so its nature is peace and happiness) and names the weakest step.
 

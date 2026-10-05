@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-Eckhart Tolle wrote *The Power of Now* (1997) and *A New Earth* (2005), The first has sold 16 million copies, according to [Wikipedia](https://en.wikipedia.org/wiki/The_Power_of_Now). In our reading his central claim is close to Advaita's: you are not your thoughts, and much unhappiness comes from identifying with them.
+Eckhart Tolle wrote *The Power of Now* (1997) and *A New Earth* (2005). By 2025 the first had sold 16 million copies ([Wikipedia](https://en.wikipedia.org/wiki/The_Power_of_Now)). We read his central claim as close to Advaita's: you are not your thoughts, and much unhappiness comes from identifying with them.
 
 In this talk from his own channel he makes that claim and teaches a practice: follow the breath down into the belly, then feel the body from inside. He mixes claims you could check on yourself with claims about God-like identity and what happens after death. Listen for which is which.
 

@@ -20,7 +20,7 @@ to:: 39:44
 #### Question: Open
 id:: 733a0c25-3353-4132-8235-0b1a0de30048
 content::
-Spira moves from "I cannot find anything outside awareness" to "the world may exist only in consciousness". Does the first support the second? Say why or why not in a few sentences.
+Spira moves from "I cannot find anything outside awareness" to "the world may exist only in consciousness". How well does the first claim support the second?
 force-feedback:: first
 feedback-instructions:: The learner watched the second half of Rupert Spira's talk "Your Nature is Happiness". He argues: look for the edge of awareness and you find none; anyone who did this would conclude they cannot find anything outside the field of awareness; belief in matter outside consciousness is a belief, not experience; reality may be one infinite consciousness in which each mind is like a dream.
 
