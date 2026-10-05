@@ -21,12 +21,17 @@ to:: nor have we the most distant notion of the place, where these scenes are re
 content::
 Hume was not sure of his own result. In an appendix to the same book he wrote that "upon a more strict review of the section concerning personal identity, I find myself involv'd in such a labyrinth, that, I must confess, I neither know how to correct my former opinions, nor how to render them consistent" ([*Treatise*, Appendix 10](https://davidhume.org/texts/t/app)). His problem was explaining what ties the perceptions together: "I cannot discover any theory, which gives me satisfaction on this head" ([Appendix 20](https://davidhume.org/texts/t/app)).
 
-The philosopher Derek Parfit took up the bundle view in the twentieth century and defended it with real and imagined cases. In module 2 you read how this view changed the way he felt about his own death. This short essay gives his argument. Read it whole. Two terms: the **Ego Theory** and the **Bundle Theory** are defined in the section of that name.
+The philosopher Derek Parfit took up the bundle view in the twentieth century and defended it with real and imagined cases. In module 2 you read how this view changed the way he felt about his own death. This short essay gives his argument. Two terms: the **Ego Theory** and the **Bundle Theory** are defined in the section of that name. The last section, where Parfit returns to split-brain patients, is optional.
 
 #### Article
 source:: [[../articles/parfit-divided-minds-and-the-nature-of-persons]]
 from:: It was the split-brain cases which drew me into philosophy.
+to:: is about as bad as being destroyed and having a Replica.
+
+#### Article
+from:: The truth of the Bundle Theory seems to me
 to:: They challenge some of our deepest assumptions about ourselves.
+optional:: true
 
 #### Question: Open
 id:: a67d6240-6dbc-46cc-ac49-93bcd6025192
