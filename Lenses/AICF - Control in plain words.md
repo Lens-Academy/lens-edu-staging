@@ -16,6 +16,7 @@ Two introductions to AI control. The first is a policy explainer by Georgetown's
 source:: [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agents]]
 from:: ### Introduction
 to:: As other types of organizations adopt AI agents, more risks will emerge.
+
 #### Question: Open
 id:: 640e686b-6e97-48f0-b32b-b60b0e2812b2
 content:: What are "internal rogue deployment" and "successor sabotage"?
