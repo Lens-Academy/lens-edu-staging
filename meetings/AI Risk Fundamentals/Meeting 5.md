@@ -29,7 +29,7 @@ Go around your group, three things:
 Not yet? Say when it's happening, or what's been in the way.
 
 
-3. If everyone already shared their conversation last meeting: **Where does finishing the book leave you:** hopeful, alarmed, motivated, numb, or something else?{>>{"author":"AI","timestamp":1791094716527}@@Clarity: hard to parse. Does "if everyone already shared last unit" mean this replaces item 2, or follows it? AI (mild, recurring): the list of feelings ending in "something else?" appears in several icebreakers.<<}
+3. If everyone already shared their conversation last meeting: **Where does finishing the book leave you:** hopeful, alarmed, motivated, numb, or something else?{--{"author":"Andreas's AI","timestamp":1791185513015}@@{>>{"author":"AI","timestamp":1791094716527}@@Clarity: hard to parse. Does "if everyone already shared last unit" mean this replaces item 2, or follows it? AI (mild, recurring): the list of feelings ending in "something else?" appears in several icebreakers.<<}--}
 
 
 | Names | Conversations + Book reactions |
@@ -84,7 +84,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-You've now heard the whole case, from "intelligence is power" to "shut it down". Time to test how well you can argue it.{>>{"author":"AI","timestamp":1791094721059}@@AI (strong): short punchy fragment, a typical Claude rhythm. The "from X to Y" framing just before it comes back in the wrap-up.<<} Go around in two rounds, then respond to each other:
+You've now heard the whole case, from "intelligence is power" to "shut it down". Time to test how well you can argue it.{--{"author":"Andreas's AI","timestamp":1791185514612}@@{>>{"author":"AI","timestamp":1791094721059}@@AI (strong): short punchy fragment, a typical Claude rhythm. The "from X to Y" framing just before it comes back in the wrap-up.<<}--} Go around in two rounds, then respond to each other:
 
 
 **1. The three-minute version:**
@@ -119,10 +119,10 @@ The last room of the whole course. Some possibilities for what to do next:{>>{"a
 
 
 1. **Your ongoing action:** the course ends today but your action plan doesn't have to!{--{"author":"Andreas's AI","timestamp":1791183876821}@@{>>{"author":"AI","timestamp":1791094724258}@@AI (strong, recurring): "X ends, but Y doesn't" closer. The same line closes AIF M5 and CV1 M5.<<}--} **Share the one action you choose to keep doing after this course** (have conversations, write representatives, refer someone, aim your skills at the problem)**, and its first concrete step with a date.**
-2. **Feedback:** this was our last session. **What should the next cohort get more of, and less of?** What almost made you drop, and what kept you coming?{>>{"author":"AI","timestamp":1791094725059}@@AI (mild, recurring): odd phrase that reads like an internal note. Clarity: this item asks three questions.<<}
+2. **Feedback:** this was our last session. **What should the next cohort get more of, and less of?** What almost made you drop, and what kept you coming?{--{"author":"Andreas's AI","timestamp":1791185516119}@@{>>{"author":"AI","timestamp":1791094725059}@@AI (mild, recurring): odd phrase that reads like an internal note. Clarity: this item asks three questions.<<}--}
 3. Two things you can keep doing with Lens, both in the Meeting 5 Survey:
     - Keep learning: **we are running an advanced course, Forecasting, Modeling & Shaping AI Futures as well as two intermediate courses, Compute Verification 1 and AI Control 1**. These courses rrun part-time or as a one-unit intensive.
-    - **Become a Navigator!** Guiding others is one of the highest value things we think you can do today.{>>{"author":"AI","timestamp":1791094725940}@@AI (mild): sweeping promotional claim. The course rules want claims like this marked as our view ("We think…") or cut.<<} If you would consider it, [let us know!](https://lensacademy.org/navigators)
+    - **Become a Navigator!** Guiding others is one of the highest value things we think you can do today.{--{"author":"Andreas's AI","timestamp":1791185517597}@@{>>{"author":"AI","timestamp":1791094725940}@@AI (mild): sweeping promotional claim. The course rules want claims like this marked as our view ("We think…") or cut.<<}--} If you would consider it, [let us know!](https://lensacademy.org/navigators)
 
 
 | Names | Ongoing action + first step | Feedback for us |
