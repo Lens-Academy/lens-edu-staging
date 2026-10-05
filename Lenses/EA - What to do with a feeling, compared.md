@@ -50,8 +50,8 @@ Check that the two instructions really conflict for the same feeling, and that e
 #### Text
 content::
 \## Going further
-::card[[../Lenses/EA - Self-compassion and the soothing system]]
-> Paul Gilbert's three emotion systems in his own handout, with the trial evidence and its critics.
+::card[[../Lenses/EA - Self-compassion - Gilbert three systems]]
+> Paul Gilbert's three emotion systems, threat, drive and soothing, in his own words, from the library module on self-compassion.
 
 ::card[[../Lenses/EA - Are emotions built]]
 > Lisa Feldman Barrett's TED talk on emotions as predictions the brain builds, and a recent review of how far the evidence supports it.
