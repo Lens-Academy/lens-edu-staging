@@ -3,7 +3,7 @@ id: '8cd8228b-7140-413c-a8e6-ced19f59605a'
 title: "Is it worth testing?"
 tldr: "A test on yourself is worth running when it could change what you do, when the practice is cheap and safe enough, and when a test could show an effect soon enough to matter."
 summary_for_tutor: "First lens of the second half of module 3. Our text introduces value of information from Gwern's LessWrong post 'Value of Information: 8 examples' (the value of an experiment is the value of the decisions it changes; his meditation example: he gave about 60% to the idea that meditation reduces his need for sleep and estimated that his year-long experiment had about a 60% chance of detecting the effect) and turns it into four questions: what it costs, what could go wrong, how likely it is to help and how much that would matter, and whether and how soon a test could show it. Readings: Farias et al. 2020 abstract on adverse events in meditation (8.3% overall, 3.7% in experimental studies, 33.2% in observational studies, mostly anxiety, depression and cognitive anomalies, also in people without previous mental health problems). Scott Alexander, 'Pascalian Medicine': the argument for trying cheap, safe things that probably do not work, and the counterargument that bothers him most (weak science produces positive results for almost anything that gets studied). Two practice questions on a practice the learner is curious about. Not graded."
-reading_minutes: 10
+reading_minutes: 8
 tutor_minutes: 6
 tags:
   - wip
