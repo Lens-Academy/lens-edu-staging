@@ -41,7 +41,7 @@ In our reading, the two reviews ask different questions. White and colleagues as
 Third, a 2023 review by Dunigan Folk and Elizabeth Dunn kept only the strongest studies: large and preregistered. Here is a news report on it, with comments from Folk.
 
 #### Article
-source:: [[../articles/time-the-data-dont-really-support-the-most-popular-happiness-strategies]]
+source:: [[../articles/park-the-data-dont-really-support-the-most-popular-happiness-strategies]]
 
 #### Text
 content::
