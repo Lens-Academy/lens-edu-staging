@@ -20,7 +20,15 @@ tone:: blue
 content::
 **Claim.** Shinzen Young: suffering is pain multiplied by resistance, so suffering falls as resistance falls, even when the pain stays the same ([Natural Pain Relief](https://www.shinzen.org/wp-content/uploads/2016/12/art_synopsis-pain.pdf)).
 
-**What to do.** Use his short exercise from the reading: pick one area of discomfort, get a clear sense of its size and shape, watch it change from moment to moment, and each time it changes relax your whole body into it ([same source](https://www.shinzen.org/wp-content/uploads/2016/12/art_synopsis-pain.pdf)). Use a discomfort you already have, such as an ache from sitting, a sore muscle, or an emotional pain like worry or grief, which Shinzen says the method also covers. Do not cause pain on purpose, and see a doctor about any pain that is new or unexplained (our advice).
+**What to do.** Use his short exercise for meditating on pain, from a synopsis of his book *Natural Pain Relief*:
+
+#### Article
+source:: [[../articles/young-natural-pain-relief]]
+from:: I would like to give you a tangible sense of the experience of mindfulness.
+to:: This, however, is a temporary phenomenon.
+
+#### Text
+content::
 
 **Dose.** Four sessions on four days, 15 to 20 minutes each. Four days is the training length in a lab study by Zeidan and colleagues of a different mindfulness training, where meditating during heat pain cut how unpleasant people rated it by 57% and how intense they rated it by 40%, compared with resting ([Zeidan et al. 2011](https://www.jneurosci.org/content/31/14/5540)). The session length is our suggestion.
 
