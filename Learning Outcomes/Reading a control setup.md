@@ -6,7 +6,7 @@ stage: beginner
 authors:
   - Elias+Claude
 ---
-%% Beginner outcome for AI Control Fundamentals Unit 1. It applies the unit's vocabulary (untrusted and trusted models, unacceptable outcomes, monitors, auditing, responses, control versus alignment claims, red teams, the worst-case assumptions control makes and does not make, the limits of control) to a realistic deployment. Practice: the "Control in use today" lens (Google DeepMind and OpenAI) and the roleplay "Practice: take apart a deployment pitch", which uses a different set-up (weights access, a copy of the model as monitor, weekly review). %%
+%% Beginner outcome for AI Control Fundamentals Unit 1. It applies the unit's vocabulary (untrusted and trusted models, unacceptable outcomes, monitors, auditing, responses, control versus alignment claims, red teams, the worst-case assumptions control makes and does not make, the limits of control) to a realistic deployment. Practice: the "Control in use today" lens (Google DeepMind and OpenAI) and the roleplay "Practice: take apart a deployment pitch", which uses a different set-up (weights access, a copy of the model as monitor, weekly review) and scores the same moves, including naming an assumption or uncovered risk the plan rests on (part 5). %%
 ## Test:
 id:: 0cf1bc5b-a3ca-41fc-b5c6-5533bd52e69b
 
@@ -31,5 +31,10 @@ feedback-instructions:: Name the strongest part of the answer in one sentence, t
 source:: [[../Lenses/AICF - Control in use today]]
 notes:: Practice in reading real company set-ups with control questions.
 ## Lens:
+source:: [[../Lenses/AICF - The case for control - how control is tested]]
+notes:: Teaches the assumptions behind part 5: that a red team can find attacks as good as the model's, and that capability evaluations are not sandbagged.
+## Lens:
+source:: [[../Lenses/AICF - Worst case, but not all-powerful]]
+notes:: Teaches what control evaluations assume about the model and what they do not, which part 5 asks the learner to apply.
 source:: [[../Lenses/AICF - Take apart a deployment pitch]]
-notes:: Roleplay practice on a different set-up, with feedback.
+notes:: Scored roleplay practice on a different set-up, with feedback, covering parts 1 to 5.
