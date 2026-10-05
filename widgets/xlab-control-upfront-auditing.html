@@ -240,7 +240,7 @@ if(window.Lens && Lens.onState){
     if(state){
       if(typeof state.alpha === "number") alpha = state.alpha;
       if(typeof state.useOpt === "boolean") useOpt = state.useOpt;
-      if(typeof state.pManual === "number") pManual = state.pManual;
+      if(typeof state.pManual === "number") pManual = Math.min(state.pManual, pRange(alpha));
       document.getElementById("alpha").value = String(Math.round(alpha*1000));
     }
     render();
