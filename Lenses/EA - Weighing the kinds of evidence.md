@@ -1,10 +1,10 @@
 ---
 id: 'e2a90af9-ac73-4544-8421-53d56513c93e'
 title: "Weighing the kinds of evidence"
-tldr: "Every kind of evidence has its own blind spot. Trials can show average effects but not your effect, reports can show what an experience is like but not that it is accurate, stories can suggest what to test but not prove it. Ask of each claim which kind of evidence it rests on and what that kind cannot see."
+tldr: "Six kinds of evidence side by side, each with what it can show, what it misses and how it misleads. Ask of each claim which kind of evidence it rests on and what that kind cannot see."
 summary_for_tutor: "Summary lens of the first half of module 3. A table of six kinds of evidence (randomised trials and meta-analyses, observational studies, first-person reports, independent traditions that agree, testimonials, your own test), each with what it can show, what it cannot show, how it typically misleads, and an example from modules 2 and 3, all linked. Then the learner applies the table to Martin's study of persistent non-symbolic experience (PNSE), which module 2 promised module 3 would weigh: 50 volunteers who described themselves as having PNSE, all white, 78% male, mostly interviews with a few observer checks, researcher also runs a course aimed at the state. Four short practice questions: which kinds of evidence, what it can show that nothing else could, what it cannot show, what would strengthen it. Not graded. The module test follows."
 reading_minutes: 8
-tutor_minutes: 8
+tutor_minutes: 10
 tags:
   - wip
 ---
@@ -23,7 +23,7 @@ The readings so far each looked at one kind of evidence. The table puts them sid
 
 Whether agreement between traditions is evidence of a shared reality is an open question in philosophy. The Stanford Encyclopedia of Philosophy entry on [mysticism](https://plato.stanford.edu/entries/mysticism/) sets out both sides (optional, and module 4 has a page on it).
 
-We think no row is useless and no row is enough. A claim is stronger when kinds of evidence with different blind spots point the same way. For a practice that is cheap and safe, we think your own test is often the best tie-breaker, because it answers the question you care about: what it does for you. The second half of this module is about running one well.
+We think each kind of evidence adds something and none settles a question alone. A claim is stronger when kinds of evidence with different blind spots point the same way. For a practice that is cheap and safe, we think your own test is often the best tie-breaker, because it answers the question you care about: what it does for you. The second half of this module is about running one well.
 
 #### Question: Open
 id:: 4a8ca4d5-3760-4d15-8752-e535a74fd5e2
