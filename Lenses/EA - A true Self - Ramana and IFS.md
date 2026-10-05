@@ -3,8 +3,8 @@ id: 'fbcf3aac-0569-400f-b74e-bddce94ab63e'
 title: "A true Self: Ramana and IFS"
 tldr: "Two very different schools say there is a true Self under the everyday 'I'. For the Advaita teacher Ramana Maharshi it is pure awareness, found by asking 'Who am I?'. For the therapist Richard Schwartz it is a calm, compassionate core that appears when inner 'parts' step back."
 summary_for_tutor: "Two readings for the views that affirm a true Self. (1) Ramana Maharshi, Who Am I? (Nan Yar, tr. T. M. P. Mahadevan), opening and questions 1 to 10: all beings want lasting happiness, which is one's nature and is experienced in deep sleep; 'I am not' the body, senses, vital airs, mind or nescience; 'that Awareness which alone remains, that I am'; its nature is Existence-Consciousness-Bliss; the world is like the snake seen in a rope; the mind is nothing but thoughts and projects the world; the 'I'-thought is the first thought; the enquiry 'Who am I?' destroys all other thoughts and finally itself, 'like the stick used for stirring the burning pyre', and Self-realisation arises. (2) Richard Schwartz, 'Evolution of the Internal Family Systems Model' (IFS Institute), sections on parts and the Self: the mind as 'an ecology of relatively discrete minds'; managers, exiles and firefighters; everyone has at their core a Self with qualities such as perspective, confidence, compassion and acceptance; discovered clinically when clients asked parts to 'step back' and a calm, caring state appeared, which clients called 'who I really am'; Schwartz later found it 'well-known in many spiritual traditions'; the eight Cs. Optional: Wikipedia on IFS's later metaphysical claims and research evidence (a 2013 RCT in rheumatoid arthritis; a 2021 uncontrolled PTSD pilot; a 2025 scoping review calling it promising but needing larger trials; 2025 malpractice allegations at a treatment centre). Then recall and a wedge question comparing Ramana's Self, Schwartz's Self and the Buddhist not-self. Do not say which is right."
-reading_minutes: 14
-tutor_minutes: 10
+reading_minutes: 12
+tutor_minutes: 9
 tags:
   - wip
 ---

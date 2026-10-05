@@ -3,8 +3,8 @@ id: '8e7c655b-d49a-413b-af86-af6b1a4e37ae'
 title: "Six ways the sense of self can change"
 tldr: "\"Losing the self\" is not one experience. Meditators interviewed by Lindahl and Britton described six different changes, from a new story about who they are to not feeling there at all. The same change was insight for some and illness for others."
 summary_for_tutor: "Reading from Lindahl and Britton (2019), 'I have this feeling of not really being here': Buddhist meditation and changes in sense of self, Journal of Consciousness Studies. Part of the Varieties of Contemplative Experience (VCE) study, which deliberately recruited Western Buddhist meditators (Theravada, Zen, Tibetan) who reported meditation-related challenges, so it shows what can happen, not how often. Six categories: change in narrative self (one's 'story of me'); loss of sense of ownership (thoughts, body, emotions not felt as mine); loss of sense of agency (no one doing the actions); change in sense of embodiment (self located elsewhere or out of the body); change in self-other or self-world boundaries (expansion, 'this is all me', or permeability); loss of sense of basic self (not feeling there at all). 49 of 68 practitioners (72%) reported at least one change; 65% of those reported two or more; boundary changes were most common (69%). Of the 49, 55% reported distress and 45% impairment; distress and impairment were most likely with changes in basic self and least likely with boundary changes; the number of categories predicted impairment (r = 0.35); tradition, gender, retreat versus daily practice, and psychiatric or trauma history did not. Appraisals ranged from Buddhist insight to psychopathology such as depersonalization, depended on expectations, teachers and context, and changed over time. Then recall, processing and a wedge question."
-reading_minutes: 17
-tutor_minutes: 10
+reading_minutes: 15
+tutor_minutes: 9
 tags:
   - wip
 ---
