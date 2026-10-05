@@ -61,7 +61,7 @@ Jonas is up for a promotion. He wants it mostly because his parents keep asking 
 
 #### Question: Open
 id:: 2ca64486-ffaf-453b-bf0e-caebfde3712f
-content:: Which part of Jonas's wanting is closer to craving, and which is closer to wholesome desire? Say what in the case tells you.
+content:: Which part of Jonas's wanting is closer to craving? Say what in the case tells you.
 force-feedback:: first
 feedback-instructions:: Practice before the graded test. Case: Jonas wants a promotion mostly because his parents keep asking about his career and because he would feel like a failure if a younger colleague got it first. On good days he enjoys the work itself, especially solving hard problems with his team. Reference: wanting the promotion as a result, to be seen as successful and to avoid feeling like a failure, is focused on a result, so closer to craving (tanha). Confirm or correct in one or two sentences. If the learner calls all of his wanting craving, point out that one kind of desire is treated as wholesome and that the next question asks about it. 50 to 90 words. One turn. No generic praise.
 
