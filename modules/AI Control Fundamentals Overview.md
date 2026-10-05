@@ -2,8 +2,6 @@
 id: 'a2fd71fd-a143-4d31-952e-ea58504f8096'
 slug: ai-control-fundamentals-overview
 title: "Course Overview"
-tags:
-  - work-in-progress
 ---
 %% Orientation module before Unit 1 of AI Control Fundamentals. Keep the unit summaries in sync with the unit modules. %%
 

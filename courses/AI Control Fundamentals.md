@@ -3,8 +3,6 @@ id: '893023b2-6d85-49a8-9f7b-505af138e99e'
 slug: ai-control-fundamentals
 title: "AI Control Fundamentals"
 description: "What AI control is, who works on it, why people work on it, and the criticisms of it. Five units of about three and a half to four hours of self-study, each closing with a group meeting. They cover what control is and how it differs from alignment, the key ideas and the field, why people work on control, the main criticisms of control, and real debates, ending with a view of your own."
-tags:
-  - work-in-progress
 ---
 %%
 Target audience (people with one or more of these):
