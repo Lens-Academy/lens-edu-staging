@@ -19,6 +19,7 @@ to:: than by characteristics of the original and replication teams.
 
 #### Text
 content::
+Other researchers replied that many replications did not follow the original methods closely and that this explains much of the failure ([Gilbert et al. 2016](https://projects.iq.harvard.edu/files/psychology-replications/files/gilbert_king_pettigrew_wilson_2016_with_appendix.pdf)). We think the lesson that survives both sides of this debate is that a single published result is weak evidence on its own.
 
 This page shows several ways a study, or a whole set of studies, can mislead you without anyone cheating. Scott Alexander, a psychiatrist and blogger, starts with what happens when many groups study the same thing.
 
