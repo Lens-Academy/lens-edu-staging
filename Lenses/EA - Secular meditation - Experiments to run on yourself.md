@@ -93,12 +93,13 @@ feedback-instructions:: The learner is writing a protocol for one of four experi
 id:: 0bb8d0e6-6319-48e8-aa4c-e7dff80fffe1
 content::
 What is your schedule: how often will you practise, and for how many days or weeks?
+force-feedback:: first
 feedback-instructions:: The learner is writing a protocol for one of four experiments. Doses in the lens: (1) Shinzen Young's pain exercise, four sessions on four days, 15 to 20 minutes each; (2) the eight-week Palouse Mindfulness course with about 45 to 60 minutes of practice a day (people in MBSR studies actually did about 30 minutes a day, six days a week); (3) daily sitting with Sam Harris's instructions, 20 to 45 minutes, 30 days; (4) See Hear Feel or noting, 15 minutes a day for two weeks. They now give their schedule. Check that session length, frequency and total length are all there. If one is missing, name it and suggest the figure from the lens. If they plan far more than the lens suggests, for example several hours a day of noting, point to the warning in the lens against retreat intensity on one's own. Reply in 40 to 80 words. No generic praise. One turn.
 
 #### Question: Open
 id:: f2b4a08b-37de-4b78-b2c9-d4d3f2799ded
 content::
-What will you measure, and when?
+What will you measure?
 force-feedback:: first
 feedback-instructions:: The learner is writing a protocol for one of four meditation experiments. The lens suggested measures: (1) intensity and unpleasantness of a discomfort rated separately 0 to 10; (2) the Satisfaction with Life Scale plus an evening stress rating 0 to 10; (3) the share of time on the breath and how often they noticed wandering; (4) a line on what the sense of 'me' was made of. They now name their measure. Check that it is something they will write down, not remember, and that it fits the claim they chose. If they chose experiment 2, add that expecting to feel better can move self-ratings by itself, and that tracking the same numbers during a period of another activity helps. The next question asks about timing, so do not ask about it here. Reply in 40 to 80 words. No generic praise. One turn.
 
