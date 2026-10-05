@@ -29,7 +29,6 @@ options::
 - Control claim
 - [x] Alignment claim
 explanation:: It is about what the model wants and will try to do. If the training failed, nothing in the claim stops the sabotage.
-force-feedback:: first
 feedback-instructions:: One or two sentences. Say whether the choice was right, and why: the claim is about what the model will try to do, so it is an alignment claim. If the learner chose "control", point out that nothing in the claim would stop a model that does try. No generic praise.
 
 #### Question: Choice
@@ -39,7 +38,6 @@ options::
 - [x] Control claim
 - Alignment claim
 explanation:: It says the weights stay in even if the model tries to get them out, and it has been tested by people playing that model.
-force-feedback:: first
 feedback-instructions:: One or two sentences. Say whether the choice was right, and why: the claim is that the model would fail even if it tried, tested by people playing a model that tries, so it is a control claim. No generic praise.
 
 #### Question: Choice
@@ -49,7 +47,6 @@ options::
 - Control claim
 - [x] Alignment claim
 explanation:: It concludes that the model is not trying. A model that is trying, and waiting for a better chance, could have the same clean year.
-force-feedback:: first
 feedback-instructions:: One or two sentences. Say whether the choice was right, and why: the conclusion is about what the model is trying to do, so it is an alignment claim, and a model waiting for a better chance would have the same clean record. No generic praise.
 
 #### Question: Choice
@@ -59,7 +56,6 @@ options::
 - [x] Control claim
 - Alignment claim
 explanation:: It is about whether harmful actions would get through if the model tried, and it was tested by people playing a model that tries.
-force-feedback:: first
 feedback-instructions:: One or two sentences. Say whether the choice was right, and why: the claim is that attempts would fail, tested by people playing a model that tries, so it is a control claim. No generic praise.
 
 #### Question: Choice
@@ -69,7 +65,6 @@ options::
 - Control claim
 - [x] Alignment claim
 explanation:: It is evidence about what the model wants. It says nothing about whether the model could cause harm if it did have hidden goals.
-force-feedback:: first
 feedback-instructions:: One or two sentences. Say whether the choice was right, and why: the claim is about what the model wants, so it is an alignment claim. It says nothing about what would happen if the model did have hidden goals. No generic praise.
 
 #### Question: Choice
@@ -79,7 +74,6 @@ options::
 - [x] Control claim
 - Alignment claim
 explanation:: It says the model could not act alone even if it wanted to. Whether one human reviewer can really catch a sneaky change is a separate question, which control evaluations test.
-force-feedback:: first
 feedback-instructions:: One or two sentences. Say whether the choice was right, and why: the claim is that the model cannot act alone whatever it wants, so it is a control claim. If it fits, add that whether a human reviewer would really catch a sneaky change is exactly what a control evaluation would test. No generic praise.
 #### End Callout
 
