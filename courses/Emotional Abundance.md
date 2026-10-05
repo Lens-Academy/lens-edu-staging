@@ -94,6 +94,9 @@ School library (one module per school, same profile: claims, main people, source
 - Philosophy: Stoicism, Epicureanism, Aristotle and virtue ethics, philosophy of the self, existentialism, absurdism and nihilism
 %%
 
+# Module: [[../modules/Emotional Abundance Library - Wellbeing science|Library: Wellbeing science and positive psychology]]
+optional:: true
+
 # Module: [[../modules/Emotional Abundance Library - Fundamental wellbeing|Library: Fundamental wellbeing research]]
 optional:: true
 
