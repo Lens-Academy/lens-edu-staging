@@ -90,6 +90,7 @@ assessment-instructions:: Score out of 100. Grade the ideas in the learner's own
 - 100: A sensible alternative with a reason: track a faster sign along the way that the claim or its tradition predicts, use a long baseline followed by the practice while accepting that this shows less, or decide on the other available evidence (reports, studies, how well the claim's sources hold up) and say openly that it was not tested. 50 if an alternative is named without a reason.
 feedback-instructions:: The learner proposed how to judge a claim that cannot be tested quickly (the sense of self falls away after five years of practice), and received a score. In 30 to 60 words: say whether their alternative is workable and name one other option. If they scored 100, confirm briefly. No generic praise. If they ask, explain the score from the grading reason.
 force-feedback:: first
+
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/EA - Is it worth testing]]
