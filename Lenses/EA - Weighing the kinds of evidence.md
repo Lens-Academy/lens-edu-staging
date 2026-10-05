@@ -28,15 +28,34 @@ We think no row is useless and no row is enough. A claim is stronger when kinds 
 #### Question: Open
 id:: 4a8ca4d5-3760-4d15-8752-e535a74fd5e2
 content::
-In module 2 you read Jeffery Martin's study of **persistent non-symbolic experience** (PNSE), his term for a lasting change in the sense of self that he elsewhere calls fundamental wellbeing. That page said this module would come back to how to weigh it. The facts: 50 interviewees who volunteered and described themselves as having PNSE, all white and 78% male, almost everything self-reported, and Martin also runs a course that aims to bring people into this state.
+In module 2 you read Jeffery Martin's study of **persistent non-symbolic experience** (PNSE), his term for a lasting change in the sense of self that he elsewhere calls fundamental wellbeing. That page said this module would come back to how to weigh it. The facts: 50 interviewees who volunteered and described themselves as having PNSE, all white and 78% male. The evidence is mostly what they said in interviews, with a few checks such as the observations by partners you read in "Reports from the inside". Martin also runs a course that aims to bring people into this state.
 
 Martin's interviewees report an ongoing deep peace that does not depend on circumstances. Using the table, which kinds of evidence does this claim rest on? What can that evidence show, what can it not show, and what evidence would make the claim stronger?
 force-feedback:: first
-feedback-instructions:: The learner applies the evidence table to Martin's PNSE study, which module 2 promised module 3 would weigh. Facts given on the page: 50 interviewees who volunteered and described themselves as having PNSE, all white and 78% male, almost all self-report, Martin runs a course (the Finders Course) aimed at the state. The claim: interviewees report an ongoing deep peace that does not depend on circumstances. This is practice, not graded.
+feedback-instructions:: The learner applies the evidence table to Martin's PNSE study, which module 2 promised module 3 would weigh. Facts given on the page: 50 interviewees who volunteered and described themselves as having PNSE, all white and 78% male, mostly interviews with a few checks (in three participants a partner saw clear signs of stress the participant did not report), Martin runs a course (the Finders Course) aimed at the state. The claim: interviewees report an ongoing deep peace that does not depend on circumstances. This question asks only which kinds of evidence the claim rests on. Practice, not graded.
 
-A good answer says: the evidence is mainly first-person reports, gathered as interviews, from a self-selected group (close to testimonials). It can show that some people sincerely describe such a state and what they say it is like, which is the only evidence of what it is like. It cannot show that the peace is as constant as reported (introspection can be wrong, and people who identify with a state may report it as they expect), that it does not depend on circumstances (no one measured them through bad events), how common it is, or what caused it. Weaknesses: volunteers who believe they have it (selection, survivorship), a narrow sample, expectation, and a researcher who also sells a course (a stake in the result). Stronger evidence: measures that do not rely only on self-report (reports by people who know them, behaviour, physiology), following people over time including through hard events, comparison with a matched group, independent researchers, a sample not selected by self-description, testing whether a course reliably produces the state.
+A good answer: mainly first-person reports, gathered as interviews, from a self-selected group, so close to testimonials. The few observer checks are a small amount of a different kind of evidence, and they partly contradicted the reports. Reply in 40 to 80 words. Confirm or correct their classification and add what they missed. One reply. No generic praise.
 
-Reply in 120 to 180 words. Name the strongest point in their answer and the most important thing they missed. Do not say whether PNSE is real. If they dismiss the study entirely, ask what, if anything, the reports can tell us that no other evidence could. One reply, then offer one more exchange if they want it. No generic praise. When the learner is stuck, give one concrete foothold from the table.
+#### Question: Open
+id:: dac348f9-f65f-4f91-a263-dd4447d8f7ee
+content::
+What can this evidence show that no other evidence could?
+force-feedback:: first
+feedback-instructions:: Same case as the previous question: Martin's PNSE study (50 self-selected interviewees, mostly interviews, a few observer checks). A good answer: that some people sincerely describe a lasting change of this kind, and what they say it is like, in distinctions only they can report. Reports are the only evidence of what the state is like from inside, and they tell researchers what to test. Reply in 40 to 80 words. Name the strongest point and add one they missed. If they say it shows nothing, ask what we would know about such states without any reports. One reply. No generic praise.
+
+#### Question: Open
+id:: e04aa057-4956-4a57-860f-58ce6221e68e
+content::
+What can it not show?
+force-feedback:: first
+feedback-instructions:: Same case: Martin's PNSE study (50 volunteers who described themselves as having PNSE, all white, 78% male, mostly interviews, observers saw stress some participants did not report, Martin sells a course aimed at the state). A good answer: it cannot show that the peace is as constant as reported (introspection can be wrong, and the partners' observations suggest it sometimes was), that it does not depend on circumstances (no one measured people systematically through bad events), how common the state is, what caused it, or that it applies beyond this narrow sample. Reasons: self-selection and survivorship, expectation and the language of traditions, a narrow sample, and a researcher with a stake in the result. Reply in 60 to 110 words. Name the most important limit they gave and the most important one they missed. Do not say whether PNSE is real. One reply. No generic praise.
+
+#### Question: Open
+id:: f2a0e5f5-31fd-4a85-91b1-308db1210fbb
+content::
+What further evidence would most strengthen the claim, and why?
+force-feedback:: first
+feedback-instructions:: Same case: Martin's PNSE study. A good answer picks evidence that addresses a specific weakness: measures that do not rely only on self-report (ratings by people who know them, behaviour, physiology), following people over time including through hard events, comparison with a matched group, independent researchers without a stake, a sample not selected by self-description, or a trial of whether a course reliably produces the state. Reply in 60 to 110 words. Check that the evidence they propose addresses a weakness they can name, and say which weakness it does not address. If the learner is stuck, give one concrete foothold from the table. One reply, then offer one more exchange if they want it. No generic praise.
 
 #### Text
 content::

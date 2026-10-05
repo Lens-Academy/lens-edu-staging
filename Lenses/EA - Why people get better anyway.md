@@ -3,7 +3,7 @@ id: '1d2e135e-ba56-4451-bd89-31d33e770b9b'
 title: "Why people get better anyway"
 tldr: "People try a new practice when they feel worst, so many feel better afterwards whatever they did. And when people expect a benefit and know what they are taking, their self-reports improve even on a dummy pill."
 summary_for_tutor: "Third reading lens of module 3, on testimonials. A testimonial is a person's report that something helped them. Readings: (1) Colquhoun 2015 (pharmacologist, strongly critical of alternative medicine): the improvement seen in a placebo group comes from a small real placebo effect and from the much larger get-better-anyway effect, regression to the mean: people seek treatment when at their worst and are likely to be better a bit later, treated or not. Medawar's quote: no reasoning can convince someone who was ill, was treated and got better that it was not the treatment. He also quotes a Cochrane review: placebo can influence patient-reported outcomes such as pain. (2) Szigeti et al. 2021 abstract: 191 people microdosing psychedelics blinded themselves with a setup that mixed real doses and empty capsules. Wellbeing and life satisfaction improved from baseline in the microdose group, but the placebo group improved as well, with no significant difference between groups. Effects that did show up could be explained by people guessing which capsule they had. Then our paragraph on survivorship bias, and one practice question."
-reading_minutes: 10
+reading_minutes: 8
 tutor_minutes: 6
 tags:
   - wip
