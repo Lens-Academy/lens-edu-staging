@@ -2,8 +2,8 @@
 id: '5ecf3182-ddb4-4edf-bdb1-9ad208a5b51c'
 title: "Reports from the inside"
 tldr: "Only the person having an experience can describe it, which makes first-person reports both indispensable and hard to check. They can be wrong even when sincere, a tradition's maps can shape what people experience, and who judges a report changes the verdict. Careful methods can still make reports useful."
-summary_for_tutor: "Second reading lens of module 3. A first-person report is a person's description of their own experience. Readings: (1) Schwitzgebel 2008, 'The Unreliability of Naive Introspection': the opening of section ii (introspection is necessary but highly untrustworthy, a commonplace in Eastern meditative traditions, which hope that trained introspection does better) and section iii (we cannot say with confidence what our own emotions feel like, and have a poor sense of what brings us pleasure and suffering). (2) Martin's PNSE paper (module 2): a participant whose father and sister died reported deep peace while his girlfriend saw poor sleep, appetite and mood changes, tense muscles and declining health. Martin saw the same in three participants. In yoga sessions participants believed they were relaxed where the instructor felt tension. (3) Our text quoting Anālayo 2020: fast noting can construct experiences that match a tradition's map, so subjective attainment reports should not be overvalued, with a card to the library lens on Ingram for his side. (4) Cheetah House summary of Lindahl et al. 2020: whether a meditation experience is judged spiritual or pathological rarely depends on the experience itself, more on duration, impact and who judges, and meditators and teachers often disagreed. (5) Our text on what reports can do: Lutz and Thompson 2003, trained subjects' reports of their readiness sorted EEG trials into groups with distinct brain patterns that averaging would hide, and Metzinger's claim that spirituality aims at knowledge and that the classical test for telling insight from self-deception is ethical integrity visible in action. Two practice questions on a teacher who says she no longer feels anger. Not graded."
-reading_minutes: 12
+summary_for_tutor: "Second reading lens of module 3. A first-person report is a person's description of their own experience. Readings: (1) Schwitzgebel 2008, 'The Unreliability of Naive Introspection': the opening of section ii (introspection is necessary but highly untrustworthy, a commonplace in Eastern meditative traditions, which hope that trained introspection does better) and section iii (we cannot say with confidence what our own emotions feel like, and have a poor sense of what brings us pleasure and suffering). (2) Martin's PNSE paper (module 2): a participant whose father and sister died reported deep peace while his girlfriend saw poor sleep, appetite and mood changes, tense muscles and declining health. Martin saw the same in three participants. In yoga sessions participants believed they were relaxed where the instructor felt tension. (3) Anālayo 2020, first half of the abstract: fast noting can construct experiences that match a tradition's map, so subjective attainment reports should not be overvalued, with a card to the library lens on Ingram for his side. (4) Cheetah House summary of Lindahl et al. 2020: whether a meditation experience is judged spiritual or pathological rarely depends on the experience itself, more on duration, impact and who judges, and meditators and teachers often disagreed. (5) Our text on what reports can do: Lutz and Thompson 2003, trained subjects' reports of their readiness sorted EEG trials into groups with distinct brain patterns that averaging would hide, and Metzinger's claim that spirituality aims at knowledge and that the classical test for telling insight from self-deception is ethical integrity visible in action. Two practice questions on a teacher who says she no longer feels anger. Not graded."
+reading_minutes: 14
 tutor_minutes: 6
 tags:
   - wip
@@ -34,7 +34,15 @@ to:: did not feel any muscle tension.
 
 #### Text
 content::
-A second worry is that a tradition's description of the path can shape what practitioners experience and report. Bhikkhu Anālayo, a Buddhist monk and scholar, examined the stage maps that the meditation teacher Daniel Ingram uses and concluded that "a forceful form of mindfulness combined with high-speed mental noting can result in the construction of meditative experiences to accord with expectations created by maps of the progress of insight, culminating in claims to having reached levels of awakening". He adds that this "cautions against overvaluing subjective reports by yogis" ([Anālayo 2020](https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/meditationmaps.pdf)). Anālayo also defends a rival reading of the Buddhist texts, so his critique is partly a dispute between schools. Ingram's side is in his free book, [*Mastering the Core Teachings of the Buddha*](https://www.mctb.org/wp-content/uploads/2021/09/MCTB2_Complete_PDF_Final.pdf), and the library module on secular meditation has a page on the dispute.
+A second worry is that a tradition's description of the path can shape what practitioners experience and report. Bhikkhu Anālayo, a Buddhist monk and scholar, examined the stage maps that the meditation teacher Daniel Ingram uses. Here is the first half of his abstract.
+
+#### Article
+source:: [[../articles/an-layo-meditation-maps-attainment-claims-and-the-adversities-of-mindfulness-analayo]]
+from:: A case study of the descriptions of the progress of Buddhist insight meditation
+to:: cautions against overvaluing subjective reports by yogis.
+
+#### Text
+content::
 
 A third worry is who judges a report. Jared Lindahl, Willoughby Britton and colleagues interviewed Buddhist meditators and teachers about difficult experiences in meditation. Their clinic, Cheetah House, summarises the findings.
 
@@ -58,7 +66,16 @@ to:: fruitfulness of the neurophenomenological approach.
 content::
 The reports here did something no other measure could: they told the researchers where to look.
 
-Thomas Metzinger, a philosopher of mind who meditates, argues that serious spiritual practice is itself a search for knowledge: "Spiritual persons do not want to believe, but to know." He asks how one could tell genuine insight from self-deception and reports the classical answer: "the criterion is ethical integrity, the sincere pursuit of a prosocial, ethically coherent way of life that is observable in a person's actions" ([Metzinger 2017](https://www.philosophie-e.fb05.uni-mainz.de/files/2013/07/Metzinger_SIR_2017_English.pdf), pages 6 and 7). That criterion can be checked from the outside, which is what Martin's observers did.
+Thomas Metzinger, a philosopher of mind who meditates, argues that serious spiritual practice is itself a search for knowledge. Read his paragraph on what it seeks and how one could tell genuine insight from self-deception.
+
+#### Article
+source:: [[../articles/metzinger-spirituality-and-intellectual-honesty]]
+from:: Spirituality is, at its core, an epistemic stance.
+to:: that is observable in a person's actions.
+
+#### Text
+content::
+The criterion he reports, ethical integrity visible in action, can be checked from the outside, which is what Martin's observers did.
 
 #### Question: Open
 id:: 4daef35e-4847-4f86-9545-b22eb312c957
