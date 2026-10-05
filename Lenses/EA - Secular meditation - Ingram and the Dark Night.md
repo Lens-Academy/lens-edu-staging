@@ -11,9 +11,9 @@ tags:
 ---
 #### Text
 content::
-Daniel Ingram is a physician who worked in emergency medicine. His book *Mastering the Core Teachings of the Buddha* (MCTB) came out in 2008, and the second edition (2018) is free online. With Kenneth Folk he is associated with the "pragmatic dharma" movement, and he says he is an arahat, fully awakened in the Theravada scheme, which few Buddhist teachers say about themselves ([Wikipedia](https://en.wikipedia.org/wiki/Daniel_Ingram_(author))).
+Daniel Ingram is a physician who worked in emergency medicine. His book *Mastering the Core Teachings of the Buddha* (MCTB) came out in 2008, and the second edition (2018) is free online. With Kenneth Folk he is associated with the "pragmatic dharma" movement. He says he is an **arahat**, the last of the four stages of awakening in Theravada Buddhism, which few Buddhist teachers say about themselves ([Wikipedia](https://en.wikipedia.org/wiki/Daniel_Ingram_(author))).
 
-His approach treats meditation like a skill with known stages. You practise hard and precisely, you use maps of the stages to know where you are, and you talk openly about attainments. His main technique is noting. Here are his instructions.
+The readings below show his style: precise instructions, a map of stages that tells a meditator where they are, and open talk about attainments. His main technique is **noting**: naming each experience with a short mental label as it happens. Here are his instructions.
 
 #### Article
 source:: [[../articles/mctb-org-7-the-seven-factors-of-awakening]]
@@ -22,7 +22,7 @@ to:: Note honestly and precisely.
 
 #### Text
 content::
-Ingram's best-known claim is that insight practice goes through a fixed series of stages, the "progress of insight". The fourth stage, the Arising and Passing Away (A&P), often feels clear, energised and blissful. This is how he describes its far end and what follows.
+A central claim of the book is that insight practice goes through a fixed series of stages, the **progress of insight**. The fourth stage is the **Arising and Passing Away (A&P)**, a peak of clarity and rapture. Stages five to ten he calls the **Dark Night**, a stretch where that clarity drops away and practice can become fearful, miserable or restless. This is how he describes the end of the A&P and the start of the Dark Night.
 
 #### Article
 source:: [[../articles/mctb-org-4-the-arising-and-passing-away]]
@@ -55,8 +55,8 @@ to:: Nanavira Thera is another relatively recent example.
 #### Question: Open
 id:: 8d7e56f2-546b-47b0-a1ed-0264ad356e84
 content::
-Ingram says practice can reduce the suffering added on top of pain, but not make every pain blissful, and that stopping halfway through his stages can leave you worse off. Which of these claims, if true, would most change whether or how you would practise? Why?
+Ingram makes two claims here. Practice can reduce the suffering added on top of pain, but it cannot make every pain blissful. And stopping halfway through his stages can leave you worse off than not starting. If one of them is true, which would most change how you would practise?
 force-feedback:: first
 feedback-instructions:: The learner read Daniel Ingram (MCTB2): his noting instructions, his description of the Arising and Passing Away stage (can look like mania, 'Better not to begin. Once begun, better to finish!'), the opening of his Dark Night chapter (some pass quickly, some struggle for years, giving up may leave unease, depression, paranoia, even suicidal thoughts), and his rejection of perpetual bliss and no-pain models of awakening (practice reduces added suffering, but realism about being 'born a mammal'). They now say which claim would most change their practice. This is reflection, not a test.
 
-Reply in 80 to 130 words. Name the claim they chose and restate it accurately in one sentence (correct it if they misread it, for example if they say Ingram promises the end of all suffering). Then ask one question that helps them turn it into something checkable: what evidence would tell them whether the claim is true for them, or what they would do differently on Monday. Do not tell them whether Ingram is right. The next part of the lens presents a critic. No generic praise. At most two replies.
+Reply in 80 to 130 words. Name the claim they chose and restate it accurately in one sentence (correct it if they misread it, for example if they say Ingram promises the end of all suffering). If they gave no reason, ask why that one. Otherwise ask one question that helps them turn it into something checkable: what evidence would tell them whether the claim is true for them, or what they would do differently on Monday. Do not tell them whether Ingram is right. The next part of the lens presents a critic. No generic praise. At most two replies.

@@ -71,11 +71,34 @@ content::
 Shinzen's remedy when "too much too soon" comes up is to change the technique, reduce your practice time, or both ([What is Mindfulness?](https://www.shinzen.org/wp-content/uploads/2016/08/WhatIsMindfulness_SY_Public_ver1.5.pdf)). In Britton's study, lasting bad effects went with signs of hyperarousal (for example agitation or poor sleep) and dissociation (for example feeling unreal or detached) ([Britton et al. 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8845498/)). If you notice these, cut back. If you have thoughts of harming yourself, stop and contact a doctor or a crisis line.
 #### End Callout
 
+#### Text
+content::
+Choose one experiment, or adapt one, and write down your plan in the questions below. Your stopping rule is the one you wrote in the previous lens.
+
 #### Question: Open
 id:: ffbe14a0-33d8-4e3f-862e-ed876c020716
 content::
-Choose one experiment, or adapt one. Write your protocol in a few lines: the claim you are testing, what you will do, how often and for how long, what you will measure and when, what result would count against the claim, and your stopping rule.
+Which claim will you test?
 force-feedback:: first
-feedback-instructions:: The learner read four experiment protocols from the secular and pragmatic meditation module: (1) Shinzen Young's pain exercise on an existing discomfort, four sessions, rating intensity and unpleasantness separately before and after (prediction: unpleasantness falls more); (2) eight weeks of the free Palouse Mindfulness MBSR course with about 45 to 60 minutes of daily practice, Satisfaction with Life Scale before and after, daily stress ratings, optional comparison period of another activity; (3) 30 days of daily sitting with Sam Harris's instructions, scored against Culadasa's stage 1 and stage 2 criteria; (4) two weeks of See Hear Feel or noting practice, 15 minutes a day, noting what the sense of 'me' is made of. They now write their own protocol.
+feedback-instructions:: The learner read four experiment protocols from the secular and pragmatic meditation module: (1) Shinzen Young's claim that suffering is pain multiplied by resistance, tested with his pain exercise; (2) MBSR's claim that it reduces stress and helps you live with more calm, tested with the free Palouse Mindfulness course; (3) Culadasa's claim that progress runs through stages you can recognise yourself, tested with 30 days of sitting; (4) Shinzen's and Ingram's claim that the sense of a solid self comes from tangled sensations, tested with noting. They now name the claim they will test. Check that it is a claim someone made, stated so that it could turn out false. If it is vague ('meditation helps'), ask which result would show it. If they say they do not understand, ask which of the four experiments interests them most. Reply in 40 to 80 words. No generic praise. One turn.
 
-Check the protocol for six parts: the claim, the practice, the dose (frequency and duration), the measure and its timing, a result that would count against the claim, and a stopping rule. Name the parts that are present in one sentence, then name the most important missing or vague part and suggest a concrete fix taken from the lens (for example 'rate intensity and bother separately, before and after each session'). If they have no baseline, point out that a before-measurement is needed to see a change. If they choose experiment 2, mention that expectations alone can move self-ratings and that a comparison period helps. Reply in 90 to 150 words. No generic praise. At most two replies.
+#### Question: Open
+id:: fae79162-ed72-4fbe-8200-d217227fdcff
+content::
+What exactly will you do, how often, and for how many days or weeks?
+force-feedback:: first
+feedback-instructions:: The learner is writing a protocol for one of four experiments: (1) Shinzen Young's pain exercise, four sessions on four days, 15 to 20 minutes each; (2) the eight-week Palouse Mindfulness course with about 45 to 60 minutes of practice a day (people in MBSR studies actually did about 30 minutes a day, six days a week); (3) daily sitting with Sam Harris's instructions, 20 to 45 minutes, 30 days; (4) See Hear Feel or noting, 15 minutes a day for two weeks. They now give the practice and the dose. Check that the practice is concrete (which technique, from which source) and that frequency and total length are both there. If one is missing, name it and suggest the figure from the lens. If they plan far more than the lens suggests, for example several hours a day of noting, point to the warning in the lens against retreat intensity on one's own. Reply in 40 to 80 words. No generic praise. One turn.
+
+#### Question: Open
+id:: f2b4a08b-37de-4b78-b2c9-d4d3f2799ded
+content::
+What will you measure, and when?
+force-feedback:: first
+feedback-instructions:: The learner is writing a protocol for one of four meditation experiments. The lens suggested measures: (1) intensity and unpleasantness of a discomfort rated separately 0 to 10 before and after each session; (2) the Satisfaction with Life Scale before week 1 and after week 8 plus an evening stress rating 0 to 10; (3) after each sit, the share of time on the breath and how often they noticed wandering, comparing week 1 with week 4; (4) after each session, a line on what the sense of 'me' was made of. They now give their measure and its timing. Check that the measure is written down, not remembered, and that there is a before-measurement or baseline. If the baseline is missing, say that without it they cannot see a change. If they chose experiment 2, add that expecting to feel better can move self-ratings by itself, and that tracking the same numbers during a period of another activity helps. Reply in 50 to 90 words. No generic praise. One turn.
+
+#### Question: Open
+id:: fe15eb18-5e08-4b2d-996a-6506c2596d87
+content::
+What result would count against the claim?
+force-feedback:: first
+feedback-instructions:: The learner is finishing a protocol for a meditation experiment (the pain-and-resistance test, home MBSR, a month of sitting scored by Culadasa's stages, or a noting practice) and now says which result would count against the claim. A good answer is specific and decided in advance: for the pain test, the unpleasantness rating does not fall more than the intensity rating; for MBSR, no change in life satisfaction or stress beyond what a comparison period shows; for Culadasa, no increase in time on the breath from week 1 to week 4; for noting, finding something in the sense of 'me' that is not a body feeling, image or inner talk. If their answer is 'nothing could', point out that then the experiment cannot test the claim. If it is vague, suggest a threshold. Reply in 40 to 80 words. No generic praise. One turn.
