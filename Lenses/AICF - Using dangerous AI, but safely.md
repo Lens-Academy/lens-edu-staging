@@ -57,6 +57,10 @@ content::
 from:: 12:50
 to:: 17:41.2
 
+#### Text
+content::
+The paper calls the protocol where humans check the untrusted model's first 2% of solutions **upfront auditing**.
+
 #### Question: Open
 id:: 0e9d495d-2be7-40f3-8d0c-7079550b5cea
 content:: What is upfront auditing?
@@ -86,6 +90,10 @@ content::
 from:: 17:16.8
 to:: 21:07.9
 
+#### Text
+content::
+The paper calls the protocol where the weaker trusted model scores every solution and humans check the most suspicious ones **trusted monitoring**. When the solutions that look somewhat suspicious, but not enough for a human audit, are replaced with the trusted model's own solution, it is called **defer to trusted**.
+
 #### Question: Open
 id:: e4ee37c4-d586-4249-8ed2-c71187f02dad
 content:: How does trusted monitoring work, and what is the red team's best strategy against it?
@@ -107,6 +115,9 @@ content::
 #### Video
 from:: 20:54.8
 to:: 27:39.1
+#### Text
+content::
+Using a copy of the untrusted model as the monitor is called **untrusted monitoring**.
 
 #### Question: Open
 id:: a2d7c9f5-919d-4e75-bcc2-a723891546ef
