@@ -111,11 +111,6 @@ feedback-instructions:: One or two sentences. Say whether the choice was right, 
 #### Article
 source:: [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agents]]
 from:: #### Novel AI Control Protocols
-to:: it is most important for researchers to be confident that the trusted model is not working toward unintended goals.
-
-#### Article
-source:: [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agents]]
-from:: For step one of this two-step AI control protocol
 to:: **Human escalation:** The issue can be flagged for human review.
 
 #### Question: Open
@@ -140,11 +135,6 @@ feedback-instructions:: The learner just read part of CSET's explainer on AI con
 #### Article
 source:: [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agents]]
 from:: #### Building Blocks for Risk Management
-to:: while mitigating risks.
-
-#### Article
-source:: [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agents]]
-from:: ### Putting AI Control into Practice
 to:: as the field evolves.
 
 #### Question: Open
