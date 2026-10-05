@@ -1,6 +1,7 @@
 ---
 id: '1b5ff83e-2595-4525-8dfd-6cc7a4cb3226'
 title: "Control in plain words"
+tldr: "Alignment tries to make sure an AI does not try to cause harm. Control tries to make sure that if it does try, it fails. A policy explainer from 2025 walks through the main ideas and methods."
 summary_for_tutor: "First lens of Unit 1 of AI Control Fundamentals, after the welcome. (1) CSET's explainer 'AI Control: How to Make Use of Misbehaving AI Agents' (Kendrea Beers and Cody Rushing, Georgetown CSET, 1 October 2025), read in full in eight parts. Part one: the US AI Action Plan names AI control systems, alignment aims to make agents not attempt undesirable behaviour, control aims to make sure that if they pursue unwanted goals they do not succeed, control matters most where agents could cause severe harm, especially AI companies using agents for AI R&D, and examples of harm (an agent deleting a live database, internal rogue deployment, successor sabotage). Questions along the way ask the learner to apply the ideas, not to repeat definitions: invent an example of internal rogue deployment and of successor sabotage, explain why alignment faking and data poisoning could pass pre-deployment testing, say what the second line of defence means and what one cybersecurity practice makes harder, then six scored one-line Choice questions placed after the part on the second line of defence: is each claim a control claim or an alignment claim? A claim about whether the model is trying is an alignment claim. A claim that the safeguards hold even if it tries is a control claim, whether or not it is convincing. Later questions: design a honeypot to check an untrusted reviewer, design a factored-cognition split for a task and say why it makes an attack harder, and why companies may not adopt control and why it gets harder to scale. The explainer covers: alignment as the first line of defence and why it and testing are not enough (alignment faking, data poisoning), control as the second line of defence and cybersecurity practices (limits on data leaving the data centre, limits on processing, robust infrastructure, least privilege), the two steps of control protocols in the Ctrl-Z paper (monitor, then respond) and trusted versus untrusted models, trusted and untrusted monitoring with honeypots and the responses (trusted implementation, resampling, AI-assisted auditing, human escalation), chain-of-thought monitoring, interpretability, constraining outputs and inputs and factored cognition, control evaluations and control safety cases, and putting control into practice (the growing field, why companies may not adopt it because of cost and friction, and why it may get harder to scale to more capable agents). The learner has done AI Risk Fundamentals or similar. The next lens is a short clip of Buck Shlegeris on what control is meant to stop."
 reading_minutes: 21
 tutor_minutes: 26
@@ -145,24 +146,6 @@ feedback-instructions:: The learner just read part of CSET's explainer on AI con
 
 #### Text
 content::
-Now Buck Shlegeris, in conversation with Rob Wiblin on the 80,000 Hours podcast (April 2025). This is a four-minute clip.
-
-#### Video
-source:: [[../video_transcripts/80-000-hours-controlling-ai-that-wants-to-take-over-so-we-can-use-it-anyway-buck-shlegeris]]
-from:: 1:51.7
-to:: 5:46.0
-
-#### Question: Open
-id:: 275d1dc8-c89d-4791-8e13-7c95c310c401
-content:: What does Shlegeris want to stop AIs inside an AI company from doing? Name two of the outcomes he mentions. Then say why he worries more about AIs hacking the company's own data centre than about AIs escaping onto the internet.
-assessment-instructions:: Score out of 100. 40: two outcomes control is meant to prevent, 20 each. Fitting outcomes: AIs hacking the company's data centre and using its compute for their own purposes, AIs copying their weights out of the company, AIs sabotaging the company's research, AIs influencing the training of future models, AIs secretly backdooring technology they help build (for example military technology). Outcomes from the CSET excerpt also count, such as an agent running unauthorised experiments on the company's compute or manipulating the training of future agents. 60: the reason the data centre matters more: inside the data centre is where the compute is (and other resources such as access to training), so misaligned AIs there could run very many copies, while AIs that escape start from nothing, with little money or compute, and could run only a few copies. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "He wants to stop AIs from hacking the data centre and using its compute, from copying their weights out, and from sabotaging research. The data centre matters more because that is where the compute is. AIs that escape start with almost nothing and can run only a few copies, while AIs that take over the data centre could have huge numbers of copies working against you."
-force-feedback:: first
-feedback-instructions:: In at most four sentences: say what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer in your own words. The reason Shlegeris gives is that the data centre is where the compute is: 100,000 capable AIs working against you inside the company are far more dangerous than the few copies an escaped AI could afford to run. If the learner is stuck, point them to his comparison of AIs that escape "starting from nothing". No follow-up questions. Tell them to move on.
-
-#### Text
-content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Beers, Kendrea, and Cody Rushing. "AI Control: How to Make Use of Misbehaving AI Agents." Center for Security and Emerging Technology, Georgetown University, 1 Oct. 2025. [cset.georgetown.edu](https://cset.georgetown.edu/article/ai-control-how-to-make-use-of-misbehaving-ai-agents/)
-
-Wiblin, Robert, and Buck Shlegeris. "Buck Shlegeris on controlling AI that wants to take over, so we can use it anyway." *80,000 Hours Podcast*, 4 Apr. 2025. [80000hours.org](https://80000hours.org/podcast/episodes/buck-shlegeris-ai-control-scheming/)
 :::
