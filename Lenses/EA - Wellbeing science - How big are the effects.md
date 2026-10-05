@@ -18,12 +18,7 @@ This lens is about how much brief positive psychology exercises (writing about g
 - An **inactive control** group does nothing or waits. An **active control** group does something comparable but supposedly inert, such as writing about early memories. Beating an inactive control is easier, because expectation and attention also count.
 - A study is **preregistered** when the researchers publish their plan and analysis before collecting data, so they cannot pick the analysis that gives the best result afterwards.
 
-First, a reanalysis of the two most cited meta-analyses:
-
-#### Article
-source:: [[../articles/white-meta-analyses-of-positive-psychology-interventions]]
-from:: Two highly cited meta-analyses examined the effectiveness of PPIs
-to:: generally not statistically significant.
+First, a reanalysis of the two most cited meta-analyses. Carmela White, Bob Uttl and Mark Holder (2019) took the studies in Sin and Lyubomirsky (2009) and Bolier and colleagues (2013) and analysed them again. The two original meta-analyses had reported effects on wellbeing of r = .29 and r = .17 (r = .10 for a broader measure called psychological wellbeing), and on depression of r = .31 and r = .11. White and colleagues found that "many of the primary studies used a small sample size" and that small-sample bias "was pronounced in many of the analyses". Once that bias was taken into account, "the effect of PPIs on well-being were small but significant (approximately r = .10), whereas the effect of PPIs on depression were variable, dependent on outliers, and generally not statistically significant" ([White, Uttl and Holder 2019, abstract](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216588)). PPIs is their abbreviation for positive psychology interventions. The full paper is open access at the link.
 
 #### Text
 content::
