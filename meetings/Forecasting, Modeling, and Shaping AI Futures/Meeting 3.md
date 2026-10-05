@@ -81,7 +81,7 @@ AI systems are watched, restricted, and checked by other systems. They cannot ca
 4. Put a number on it: what is the probability that the first AI capable of causing serious harm is contained rather than aligned?{>>{"author":"AI","timestamp":1791094782199}@@Content: reads as either-or (it could be both, or neither), and the table header asks something different ("containment comes before alignment"). Which question is meant?<<} Say your number out loud before you defend it.
 
 
-| Names | Would you take the deal, what breaks it first, and your probability that containment comes before alignment. |
+| Names | Would you take the deal, what breaks it first, and your probability that a potentially containment comes before alignment. |
 |------|------------------------|
 |  |  |
 |  |  |
