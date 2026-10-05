@@ -99,3 +99,6 @@ optional:: true
 
 # Module: [[../modules/Emotional Abundance Library - CBT and ACT|Library: CBT, ACT and the third wave]]
 optional:: true
+
+# Module: [[../modules/Emotional Abundance Library - Early Buddhism|Library: Early Buddhism and Theravada]]
+optional:: true
