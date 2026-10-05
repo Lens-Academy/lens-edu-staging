@@ -77,6 +77,8 @@ Each entry gives the decision, who made it, the reason, and what it commits us t
 
 **Shared files may be edited.** *Andreas, 2026-10-03.* They also feed AI Control 1 and 2, which are not live yet. Commits us to keeping section 5 current.
 
+**"Accountability buddy" is the standard term.** *Andreas, 2026-10-04.* Most docs and the shared FAQ already say "buddy". AI Futures Meetings 2 and 3 say "partner" and change at their rewrite. Recorded in the style sheet as B7.
+
 **Next week's meetings first.** *Andreas, 2026-10-03.* A cohort's docs are created from the masters at the top of each week. An edit accepted after that reaches nobody already enrolled, and a live copy has to be patched separately (see the note on masters and copies in [[AIRF Restructure Log]]). So the order follows the cohorts. For the week of 2026-10-05 that is AIRF Meeting 5, AI Futures Meeting 3 and CV1 Meeting 5.
 
 **Flag only what fails a named check.** *Proposed by Claude, 2026-10-03. Not yet confirmed.* Unflagged text stays as it is. In the AI Futures course-page rewrite, the first bulk rewrite changed meanings, so the smallest change that fixes a problem is the safer one. The checks: can a participant act on it after one read; is there one question per item; does it state its point plainly; would a navigator say it out loud like this; does it rely on something the doc does not give; would anything be lost if it were cut; does it match the rest of the doc.
@@ -170,7 +172,9 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 | 2026-10-04 | Rebuilt this file as a plan and log | This file | Andreas asked for the reasons behind the changes, not only a record of them, in a plan visible for posterity | Direct |
 | 2026-10-04 | Rename suggestions accepted | The three docs, the three shared How today works blocks, the shared Participant FAQ, the Master template | Coach was merged into Tutor | Accepted by Andreas. A search afterwards finds no "Coach" left in those files |
 | 2026-10-04 | Attribution: relay sessions open under Andreas's name from now on, and `Andreas+Claude` added to this file | This file | Andreas's instruction, matching the AIRF and CV1 files | Direct |
-| 2026-10-04 | Drafted the style sheet | [[Meeting Doc Text Review - Style Sheet]] | Gives flags and reviews a written standard to cite (section 2) | Direct, new file. Awaiting Andreas's review |
+| 2026-10-04 | Drafted the style sheet | [[Meeting Doc Text Review - Style Sheet]] | Gives flags and reviews a written standard to cite (section 2) | Direct, new file |
+| 2026-10-04 | Style sheet accepted as a working draft; "accountability buddy" made the standard term | [[Meeting Doc Text Review - Style Sheet]] | Andreas's review. Generalizing the sheet for other courses is deferred until it settles (section 7) | Direct |
+| 2026-10-04 | Tested how Claude can remove its own flags, on a scratch file, then trashed the file | Lens Edu/_scratch - comment removal test | Andreas had no known way to remove comments authored by Claude, so clearing flags falls to Claude | Removal works only when the edit quotes the comment exactly, and it lands pending. Scratch file in the trash |
 
 ---
 
@@ -187,6 +191,10 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 
 - Whether pointing participants to the Tutor helps, since it cannot see the session. The help note has them paste the question in, which covers part of this.
 - "Today's shape" should become "Schedule" or "Agenda", one line per item with its length. Flagged on the shared blocks.
+
+### Style sheet
+
+- **Make it usable by any course.** *Andreas, 2026-10-04.* It is written for these three courses and quotes their docs throughout. Generalize it once it has settled through this work: separate the course-independent entries from the examples, and say how another course would adapt it.
 
 ### For the owner of [[AI Guide/Writing Meeting Docs]]
 
