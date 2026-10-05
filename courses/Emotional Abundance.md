@@ -69,6 +69,7 @@ Module 6 goals (The self):
 - Say what claims of selflessness, non-duality and fundamental wellbeing assert, and how such claims could be checked
 %%
 
+# Module: [[../modules/Emotional Abundance M6 The self|The self]]
 %%
 Module 7 goals (Emotions and circumstances):
 - Compare what schools say to do with emotions: acceptance, reappraisal, equanimity, Stoic judgement, non-attachment, and the evidence for each
@@ -109,4 +110,7 @@ optional:: true
 optional:: true
 
 # Module: [[../modules/Emotional Abundance Library - Stoicism|Library: Stoicism]]
+optional:: true
+
+# Module: [[../modules/Emotional Abundance Library - Secular meditation|Library: Secular and pragmatic meditation]]
 optional:: true
