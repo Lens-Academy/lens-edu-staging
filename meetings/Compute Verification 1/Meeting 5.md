@@ -41,7 +41,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-With offline licensing a chip runs only while a licence server keeps renewing its token; whoever controls that server holds the key. As described earlier in the u:{>>{"author":"AI","timestamp":1791094816503}@@AI (mild): "The unit's line:" then an "only as X as Y" aphorism in bold. The wording is accurate (it is the summary of the hardware-authorization lens), but it is a long sentence to read in a breakout.<<} **an off-switch for someone else's compute is only as acceptable as the answers to who holds the key, what happens when the server is down, and who reverses a mistake.**
+With offline licensing a chip runs only while a licence server keeps renewing its token; whoever controls that server holds the key. As described earlier in the unit:{>>{"author":"AI","timestamp":1791094816503}@@AI (mild): "The unit's line:" then an "only as X as Y" aphorism in bold. The wording is accurate (it is the summary of the hardware-authorization lens), but it is a long sentence to read in a breakout.<<} **an off-switch for someone else's compute is only as acceptable as the answers to who holds the key, what happens when the server is down, and who reverses a mistake.**
 As a group, design the key protocol for a US-China pause:{>>{"author":"AI","timestamp":1791094817346}@@Clarity (mild): "design the key" leans on the metaphor. The questions below are really about who controls the licence server.<<}
 1\. Who holds the keys? One government, both, or several who must agree?
 2\. If the server is unreachable for a day, do chips keep running (fail open) or stop (fail closed)?
