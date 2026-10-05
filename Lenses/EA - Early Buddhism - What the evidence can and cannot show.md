@@ -71,7 +71,7 @@ Thanissaro Bhikkhu's translations and books, which make up most of this module, 
 
 #### Text
 content::
-We think the evidence supports a modest claim: meditation and loving-kindness practices taken from Buddhism do somewhat reduce anxiety, depression and pain for many people, about as much as other active treatments. The evidence that seeing craving clearly loosens it is promising but mixed. The claim that craving can end completely has not been tested, and we do not see how a trial could test it soon. The experiments in the next lens let you test smaller versions of these claims on yourself.
+We think the evidence supports a modest claim: meditation and loving-kindness practices taken from Buddhism reduce anxiety, depression and pain by a small amount on average, and the trials found no sign that they do more than other active treatments such as exercise. The evidence that seeing craving clearly loosens it is promising but mixed. The claim that craving can end completely has not been tested, and we do not see how a trial could test it soon. The experiments in the next lens let you test smaller versions of these claims on yourself.
 
 #### Question: Open
 id:: 98df5fe1-76c1-4365-a33d-3404eab67026
