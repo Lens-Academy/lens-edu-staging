@@ -25,6 +25,8 @@ to:: either while still in the Jhana or immediately thereafter.
 
 #### Text
 content::
+For the deep camp in its own words: Ajahn Brahm, a Theravada monk in Western Australia, writes that within jhana "all the five senses are totally shut down. One cannot see, one cannot hear, one cannot smell, taste nor feel touch", and that there is no thought, no decision-making and no sense of time, only "bliss that doesn't move" ([Ajahn Brahmavamso, *The Jhanas*, free booklet](http://dhammatalks.net/Books/Ajahn_Brahm_The_Jhanas.pdf)). Brasington places him close to the Visuddhimagga depth, though Brahm says he teaches from the suttas (reading above).
+
 Next, two researchers, the philosopher Terje Sparby ([TIME](https://time.com/7007856/jhourney-meditation-jhanas-retreat-bliss/)) and Matthew Sacchet of the Meditation Research Program at Harvard Medical School, compared eight modern jhana manuals and proposed a common vocabulary. In what follows, "ACAM" is their term for advanced concentrative absorption meditation, and "pīti" is the rapture you met in the suttas.
 
 #### Article
@@ -45,7 +47,7 @@ id:: 41db42ba-6004-46b6-a88c-07c96bacd479
 content::
 Without looking back, write down what you remember about how the light and deep styles of jhana differ.
 force-feedback:: first
-feedback-instructions:: The learner read Brasington's "Interpretations of the Jhanas", a passage from Ajahn Brahm's "The Jhanas" and parts of Sparby and Sacchet 2024, and wrote a free recall about how light and deep styles differ.
+feedback-instructions:: The learner read Brasington's "Interpretations of the Jhanas", a short quote from Ajahn Brahm's "The Jhanas" and parts of Sparby and Sacchet 2024, and wrote a free recall about how light and deep styles differ.
 
 Key points:
 - Two camps (Brasington): Visuddhimagga style uses a nimitta (a mental image, usually of light) and very deep concentration; the Visuddhimagga implies at best one in a million who try reach absorption. Sutta style needs no nimitta and is accessible to many people. Teachers tend to call weaker methods "not real jhana" and stronger ones "indulging". Brasington concludes we do not know exactly what the Buddha practised, and that the Buddha treated jhana as a tool for insight.
