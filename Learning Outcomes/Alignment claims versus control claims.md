@@ -28,8 +28,11 @@ feedback-instructions:: Name the strongest part of the answer in one sentence, t
 
 # Suggested Lenses:
 ## Lens:
+source:: [[../Lenses/AICF - Control in plain words]]
+notes:: Teaches the alignment versus control distinction (CSET's first and second line of defence) and practises it in six claim-sorting questions.
+## Lens:
 source:: [[../Lenses/AICF - The case for control - what control is]]
-notes:: Teaches the alignment versus control distinction and that control reduces to a capability question.
+notes:: Teaches the control property and that control reduces to a capability question. Its opening on the two lines of defence is optional.
 ## Lens:
 source:: [[../Lenses/AICF - The case for control - how control is tested]]
 notes:: Teaches why alignment cannot yet be evaluated, the conditions for a conservative control evaluation, the red team's advantages over the model, and the authors' own caveat. Practised in the tractability recall, the optional spoken interview and the trust practice question.
