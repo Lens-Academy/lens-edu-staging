@@ -131,7 +131,6 @@ source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-a
 from:: ## Control evaluations and black-box techniques
 to:: We'll elaborate on why we think this is a good choice and details of the exact rules in the [[#^appendix-why-control-evaluations-are-conservative-about-inductive-biases-and-ai-internal-structure|Appendix "Why control evaluations are conservative about inductive biases and AI internal structure"]].
 
-#### Callout: Quick recall
 #### Question: Open
 optional:: true
 id:: 6caca5e1-cd71-4576-9a8c-9cb632e36584
