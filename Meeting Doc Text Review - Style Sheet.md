@@ -25,7 +25,7 @@ Examples are quoted from the current docs. Each "instead" names the move to make
 
 ---
 
-## A. Habits that read as AI-written
+## A. Habits that can read as AI-written
 
 **A1. Verdict lines and slogans.** Short lines that pass judgment or round something off. "Time to own it." "Disagree about the bin? Good. That disagreement is the discussion." "If nobody has anything, that is a finding too." *Instead:* cut, or replace with the plain instruction the line stands in for. *Sources:* Luc, survey.
 
