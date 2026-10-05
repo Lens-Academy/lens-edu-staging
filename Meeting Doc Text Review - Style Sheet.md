@@ -29,7 +29,7 @@ Examples are quoted from the current docs. Each "instead" names the move to make
 
 **A1. Verdict lines and slogans.** Short lines that pass judgment or round something off. "Time to own it." "Disagree about the bin? Good. That disagreement is the discussion." "If nobody has anything, that is a finding too." *Instead:* cut, or replace with the plain instruction the line stands in for. *Sources:* Luc, survey.
 
-**A2. "X, not Y" and its relatives.** "The point is the discussion, not a tidy answer." "We want the honest answer, not the kind one." The shared closer, "the course ends today, but your action plan doesn't". *Instead:* say X. Keep a contrast only when Y is something a participant would otherwise do or believe. In Luc's rewrite, applying this bluntly also stripped contrasts that carried meaning, so it calls for judgment, not deletion on sight. *Sources:* Luc, survey.
+**A2. "X, not Y" and its relatives.** "The point is the discussion, not a tidy answer." "We want the honest answer, not the kind one." The shared closer, "the course ends today, but your action plan doesn't". *Instead:* say X. Keep a contrast only when Y is something a participant would otherwise do or believe. In Luc's rewrite, applying this bluntly also stripped contrasts that carried meaning, so it calls for judgment, not deletion on sight. The form is not banned: CV1 Meeting 5 keeps "Part 1 ends today, but your action plan doesn't have to." (Andreas, 2026-10-04). *Sources:* Luc, survey.
 
 **A3. Reassurance, and telling people how to feel.** "No judgment, 'I didn't finish' is a totally fine answer." "Take two minutes; the group will wait." "Hope, unease, irritation and relief are all answers." *Instead:* cut. Where the permission matters, let the question carry it ("Did you finish? If not, what got in the way?"). Where the worry is that people will hold back a thin answer, give a quantity cue ("one sentence each"). *Sources:* Andreas (no reassurance clauses), Findings rule 3.
 
@@ -54,6 +54,8 @@ Examples are quoted from the current docs. Each "instead" names the move to make
 The guide already requires most of these. They are repeated here so a flag can cite one place.
 
 **B1. One question per numbered item, at most four per room.** Lettered sub-steps count as asks. Optional asks go last, marked "If you still have time:". *Guide rule 7.*
+
+Follow-ups that sort people by their situation can share an item, because they leave room for different answers rather than adding work: "Did you finish, and if not, what stopped you?", "If nothing changed, what evidence would move the needle for you?". Flag an item for packing several separate asks, not for carrying follow-ups like these. *Andreas, 2026-10-04.*
 
 **B2. At most 120 words per room prompt.** Bulleted example lists do not count. *Guide rule 0.*
 
