@@ -13,7 +13,7 @@ glossary_terms:
 ---
 #### Text
 content::
-Back to the 80,000 Hours interview with Buck Shlegeris. Companies already have to deal with spies among their own staff. Shlegeris compares that problem with guarding against AIs that might be scheming, then describes how a lab could catch an AI in the act. After that, a short guide from the UK AI Security Institute gives the standard names for the parts of a control set-up.
+Back to the 80,000 Hours interview with Buck Shlegeris. Companies already have to deal with spies among their own staff. Shlegeris compares that problem with guarding against AIs that might be scheming, then describes how a lab could catch an AI in the act. An optional short guide from the UK AI Security Institute at the end gives the standard names for the parts of a control set-up.
 
 #### Video
 source:: [[../video_transcripts/80-000-hours-controlling-ai-that-wants-to-take-over-so-we-can-use-it-anyway-buck-shlegeris]]

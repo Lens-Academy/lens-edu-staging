@@ -123,19 +123,24 @@ assessment-instructions:: Score out of 100. 40: two explanations, 20 each: the m
 force-feedback:: first
 feedback-instructions:: The learner just read excerpts from Apollo Research's post on anti-scheming training and answered a question about them. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the parts on situational awareness and on the counterfactual tests, and the note before the excerpts. No follow-up question. No generic praise.
 
+#### Callout: Optional: why control evaluations only look at what a model can do
+collapse:: closed
 #### Article
+optional:: true
 source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
 from:: ## Control evaluations and black-box techniques
 to:: We'll elaborate on why we think this is a good choice and details of the exact rules in the [[#^appendix-why-control-evaluations-are-conservative-about-inductive-biases-and-ai-internal-structure|Appendix "Why control evaluations are conservative about inductive biases and AI internal structure"]].
 
 #### Callout: Quick recall
 #### Question: Open
+optional:: true
 id:: 6caca5e1-cd71-4576-9a8c-9cb632e36584
 content:: Why do the authors want control evaluations to rely only on what a model is not capable of doing, rather than on how it generalises or what its internals look like?
 assessment-instructions:: Score out of 100. 60: evidence for control must not rest on assumptions about scheming models that might be wrong, and techniques that rely on how a model generalises or on its internal structure depend on exactly such assumptions about a model that may be working against you. 40: whether a model is capable of something can be checked with standard capability evaluations, so evidence of the form "the model cannot do this" is much easier to be confident in. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "To be confident in control, the evidence must not rest on wrong assumptions about how a scheming model behaves. Techniques that depend on how a model generalises or on its internal structure need such assumptions, and a scheming model could break them. Whether a model is capable of something can be measured with standard capability evaluations, so relying only on what the model cannot do is much easier to trust."
 force-feedback:: first
 feedback-instructions:: In at most four sentences: say what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer in your own words. Evidence for control must not rest on assumptions about scheming models that could be wrong, and techniques built on generalisation or internal structure need such assumptions. Capabilities can be measured with standard capability evaluations, so "the model cannot do this" is the easiest kind of evidence to trust. No follow-up questions. Tell them to move on.
 #### End Callout
+
 
 #### Callout: Practice: which model do you trust, and what does the evidence show?
 #### Question: Open
