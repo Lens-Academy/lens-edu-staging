@@ -69,8 +69,8 @@ high-label:: Very much
 #### Question: Open
 id:: 725d2457-6f1f-440d-8bc3-a0f1dad00997
 content::
-What did you find when you looked for the one your thoughts happen to? How does it compare with your prediction?
+What did you find when you looked for the one your thoughts happen to?
 force-feedback:: first
-feedback-instructions:: The learner just tried Ramana's self-enquiry for about 10 minutes, rated the three NADA-S items, and now reports what they found and compares it with their prediction.
+feedback-instructions:: The learner just tried Ramana's self-enquiry for about 10 minutes, rated the three NADA-S items, and now reports what they found.
 
 Reflect back what they report in their own terms in one or two sentences. Then, fitting their report, name one thing worth checking: whether they may have settled on an object (a sensation, a location, a feeling of peace), which Godman calls the common trap; or whether what they found matches Hume's report (only particular perceptions) or Ramana's (the 'I' subsides and something remains), or neither. "I found nothing" and "nothing happened" are valid results. Do not tell them what they "really" found and do not say whether Ramana's claim is true. If they report fear, unreality or detachment that is still present, point them to the safety section on the method page and suggest not repeating the experiment. 60 to 110 words. One or two replies. No generic praise.
