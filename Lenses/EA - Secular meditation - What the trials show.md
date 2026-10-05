@@ -43,7 +43,7 @@ id:: 1530c1fc-6a7a-4446-b835-d599dc6e68e3
 content::
 A friend says: "Science has settled it. Mindfulness makes people happier, and it works better than anything else you could do with that time."
 
-Using what you just read, what is wrong with this claim?
+Using what you just read, explain everything that is wrong with this claim.
 assessment-instructions:: The learner is answering a question about the claim: "Science has settled it. Mindfulness makes people happier, and it works better than anything else you could do with that time." They have read evidence that mindfulness programmes reduce anxiety, depression and stress by small to moderate amounts compared with doing nothing (effect sizes roughly 0.3 to 0.6), raise wellbeing by a smaller amount (about 0.33 in nonclinical adults), show low, no or insufficient evidence for positive mood, and have not been shown to beat active alternatives such as exercise or other therapies. They also read that the research quality is weak (high risk of bias, self-reported outcomes) and that 'mindfulness' covers very different practices.
 
 Score out of 100.
