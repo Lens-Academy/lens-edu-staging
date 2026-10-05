@@ -4,7 +4,7 @@ title: "Not-self and the no-self debate"
 tldr: "The Buddha's best-known argument says that nothing in body or mind is your self, because none of it stays the same or obeys you. Two monk-translators disagree about what follows: a method for letting go, or a claim that there is no self at all."
 summary_for_tutor: "Three readings on the Buddhist teaching of anatta. (1) SN 22.59, the Anattalakkhana Sutta, tr. Thanissaro, whole: each of the five aggregates (form, feeling, perception, fabrications, consciousness) is not self, because if it were self it would not lend itself to dis-ease and one could say 'let it be thus, let it not be thus'; each is inconstant, so stressful, so it is not fitting to regard it as 'this is mine, this is my self, this is what I am'; seeing this leads to disenchantment, dispassion and release. (2) Thanissaro, 'No-self or Not-self?', whole: when asked point-blank whether there is a self (SN 44.10, Vacchagotta) the Buddha stayed silent; holding either 'there is a self' or 'there is no self' is a wrong view; self-identification of any kind brings stress; the useful questions are 'Am I suffering because I hold onto this? Is it really me or mine?'; anatta is 'not a doctrine of no-self, but a not-self strategy for shedding suffering'. (3) Sujato, 'On not-self, existence, and ontological strategies' (2019), excerpts: the not-self/no-self distinction is not found in Pali; Bhikkhu Bodhi's note on SN 44.10: the Buddha did not say 'there is no self' to avoid siding with the annihilationists and to avoid confusing Vacchagotta, not because he held a transcendent self or only a strategy; 'all phenomena are nonself' means a self will not be found anywhere; Sujato: the split between strategy and ontology is a Western import, dhamma is both fact and value; the Buddha saw clinging to 'a self that is just not there' as what traps us. Then recall, processing and a wedge question. Do not say which reading is right."
 reading_minutes: 15
-tutor_minutes: 12
+tutor_minutes: 10
 tags:
   - wip
 ---
@@ -73,8 +73,9 @@ Be a brief, honest mirror: say what they got right without inflation, name what 
 #### Question: Open
 id:: 16cc9970-5557-4134-a983-f99304874a5f
 content::
-\## How it landed
+\## How it landed (optional)
 Take 2 minutes to note how the readings landed. What convinced you, what did you doubt, what confused you?
+optional:: true
 force-feedback:: first
 feedback-instructions:: The learner just read SN 22.59, Thanissaro's "not-self strategy" essay and Sujato's reply (with Bodhi's note), and is noting their reaction.
 
