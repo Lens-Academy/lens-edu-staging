@@ -4,7 +4,7 @@ title: "What your experiments showed"
 tldr: "Compare your ratings with your baseline, name which kind of change in the sense of self (if any) you noticed, and say which claim your results bear on. One try proves little, so the page ends with how to make a better test."
 summary_for_tutor: "Closing reflection for the module's self experiments. The learner took a baseline (5 minutes sitting with eyes open, then the three NADA-S items, 1 to 10) and did Harding's pointing, optionally also Ramana's self-enquiry, Mahasi noting and a Loch Kelly glimpse, rating the same items after each and writing predictions. Four separate questions: how the ratings compare with the baseline; which of Lindahl and Britton's six changes in sense of self (narrative self, ownership, agency, embodiment, self-other or self-world boundaries, basic self), if any, they noticed; which claim from the comparison table their results bear on; whether they count for or against it. Then a short text on the limits of a single unblinded try and how the NADA study controlled for them (an 11-minute reading as an active control, both framed as attention training). If the learner reports distress, unreality or detachment that persists, point to the safety section of the method page."
 reading_minutes: 3
-tutor_minutes: 10
+tutor_minutes: 8
 tags:
   - wip
 ---

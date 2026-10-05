@@ -1,7 +1,7 @@
 ---
 id: '750ee5e4-3850-422b-a355-63a62eb14de9'
 learning-outcome: "Given a claim that someone has lost or gone beyond the self, separate the distinct claims it contains (which aspect of the sense of self changed, and what is claimed about wellbeing), propose a check that does not rest only on the person's own report, and say what that check cannot show."
-writing_minutes: 12
+writing_minutes: 11
 tags:
   - wip
 ---

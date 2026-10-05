@@ -1,7 +1,7 @@
 ---
 id: '1975b59e-368b-445b-b9ba-a837debd965b'
 learning-outcome: "Given a statement about the self, identify which view it expresses (not-self as a method, no-self as a claim about what exists, the bundle or reductionist view, a true Self as a core with qualities, a true Self as pure awareness, the self as a brain model, the narrative self), and tell apart disagreements between views that are about words from those that evidence could settle."
-writing_minutes: 15
+writing_minutes: 13
 tags:
   - wip
 ---
