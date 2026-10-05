@@ -102,3 +102,6 @@ optional:: true
 
 # Module: [[../modules/Emotional Abundance Library - Early Buddhism|Library: Early Buddhism and Theravada]]
 optional:: true
+
+# Module: [[../modules/Emotional Abundance Library - Self-compassion|Library: Self-compassion and compassion-focused therapy]]
+optional:: true
