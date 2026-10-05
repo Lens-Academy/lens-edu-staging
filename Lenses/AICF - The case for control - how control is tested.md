@@ -103,15 +103,6 @@ to:: much more evaluation aware than current models.
 from:: Through counterfactual tests with OpenAI o3
 to:: realizing that it is being evaluated.
 
-#### Callout: Quick recall
-#### Question: Open
-id:: cf059567-5f9d-4cbc-b766-8f931f67a70e
-content:: What does it mean for a set of safety techniques to have the control property?
-assessment-instructions:: Score out of 100. 50: the capability framing: even if the model is actively trying, it cannot find and carry out a way around the techniques, so the safety does not depend on the model choosing to behave well. 20: this holds for models that may be misaligned and scheming. 30: the threshold: any such attempt has at most a small probability of an unacceptable outcome, such as the model exfiltrating its weights or hacking the datacenter. An answer saying the model is very unlikely to cause the unacceptable outcome even if it is misaligned and scheming shows all three points and earns full marks. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 40 only if the answer describes the model behaving safely in normal use, with no idea of it trying and still failing. Model answer, for the feedback, not a grading checklist: "Potentially scheming models are not capable of finding and executing a subversion strategy that has more than a small probability of an unacceptable outcome, such as exfiltrating their weights or hacking the datacenter."
-force-feedback:: first
-feedback-instructions:: In at most four sentences: confirm what the learner got right and, if anything is missing or wrong, the most important thing, then state the model answer so they leave with it. A set of techniques has the control property when potentially scheming models are not capable of finding and executing a subversion strategy with more than a small probability of an unacceptable outcome, such as exfiltrating their weights or hacking the datacenter. No follow-up questions. Tell them to move on.
-#### End Callout
-
 #### Article
 source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
 from:: ## Control evaluations and black-box techniques
