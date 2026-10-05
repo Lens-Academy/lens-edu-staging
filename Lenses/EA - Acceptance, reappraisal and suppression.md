@@ -64,7 +64,16 @@ Experiments point the same way. A meta-analysis of 306 experimental comparisons 
 collapse:: closed
 #### Text
 content::
-A randomised trial took a mindfulness app apart. Of 153 adults, one group learned to watch their experience and accept it, one learned only to watch, and one got a control training. Only watching plus accepting reduced daily loneliness, by 22%, and added about two social interactions a day ([Lindsay et al. 2019](https://static1.squarespace.com/static/5b352f70b105987a3c71d3d1/t/5c6b402ee4966b1492b279ac/1550532654929/Lindsay+et+al+acceptance+loneliness+PNAS+2019.pdf), free PDF, the abstract takes 3 minutes). Shinzen Young, whose teaching you read on the next page, is a co-author. The paper states that he owns part of a company that will release a commercial version of the app.
+A randomised trial took a mindfulness app apart: one group learned to watch their experience and accept it, one learned only to watch, and one got a control training. Here is its abstract (about 3 minutes).
+
+#### Article
+source:: [[../articles/lindsay-mindfulness-training-reduces-loneliness-and-increases-social-contact-in-a-randomized-controlled-trial]]
+from:: Loneliness and social isolation are a growing public health concern
+to:: encourage greater engagement with others in daily life.
+optional:: true
+
+#### Text
+content::
 #### End Callout
 
 #### Question: Open
