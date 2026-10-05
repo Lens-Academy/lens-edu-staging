@@ -24,7 +24,7 @@ to:: The investigator then surveys all that subject’s moments of experience an
 #### Question: Open
 id:: c22e3601-8690-42b1-9ebe-6d200bd20c3d
 content::
-Which of Schwitzgebel's worries does this method address, and which does it leave open? Write a few lines.
+Which of Schwitzgebel's worries does this method address?
 optional:: true
 feedback-instructions:: The learner read optional excerpts from Hurlburt and Akhter 2006 on Descriptive Experience Sampling (random beeps in daily life, notes at the moment, an interview within 24 hours, many moments over several days) after reading Schwitzgebel's argument that naive introspection is unreliable, even about current emotions. This question asks only which worries the method addresses. Reply in 50 to 100 words. Credit what they found. Points worth naming if missed: DES targets single, concrete, recent moments rather than generalisations about oneself, and the interview tries to strip away presuppositions. Do not say who is right. One reply. No generic praise.
 
