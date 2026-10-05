@@ -90,3 +90,6 @@ School library (one module per school, same profile: claims, main people, source
 
 # Module: [[../modules/Emotional Abundance Library - Fundamental wellbeing|Library: Fundamental wellbeing research]]
 optional:: true
+
+# Module: [[../modules/Emotional Abundance Library - Non-dual|Library: Advaita and modern non-dual teachers]]
+optional:: true
