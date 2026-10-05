@@ -43,13 +43,6 @@ source:: [[../articles/controlarena-intro-to-control]]
 from:: ### Control Protocols
 to:: We want to benefit from the untrusted model’s superior capabilities while using the trusted model and high-quality human labour strategically to ensure safety.
 
-#### Question: Open
-id:: 2d14b82e-8176-4eba-9757-35888d5ae73c
-content:: ControlArena says a control protocol works with three resources. Name them. For each one, say why a protocol cannot simply rely on it more.
-assessment-instructions:: Score out of 100. Three resources, about a third each (34, 33, 33). For each: the resource, and why the protocol cannot just use more of it. The untrusted model: it is the most capable, but it might be misaligned or deceptive, so relying on it more (for example to do more unchecked work or to check itself) gives it more chances to cause harm. The trusted model: it is safe to rely on but weaker, so it does worse work and may miss subtle attacks by the untrusted model. High-quality human labour: trusted and capable, but available only in small amounts, so humans can review only a small share of actions. Naming a resource without the reason earns 15 of its points. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "The untrusted model is the capable one, but it might be working against you, so more reliance on it means more chances to cause harm. The trusted model is safe but weaker, so it does worse work and can miss clever attacks. Expert humans are trusted and capable, but there are very few of them, so they can only look at a small share of actions."
-force-feedback:: first
-feedback-instructions:: In at most four sentences: say what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer in your own words. Then add one sentence: ControlArena says confidence in a trusted model may come from "extensive testing and deployment history", while Greenblatt and Shlegeris argue that only a lack of capability to scheme is a reliable reason today, and the lens "Control in use today" comes back to this. No follow-up questions. Tell them to move on.
-
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
