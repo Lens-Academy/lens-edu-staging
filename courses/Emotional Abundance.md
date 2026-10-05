@@ -105,3 +105,6 @@ optional:: true
 
 # Module: [[../modules/Emotional Abundance Library - Self-compassion|Library: Self-compassion and compassion-focused therapy]]
 optional:: true
+
+# Module: [[../modules/Emotional Abundance Library - Stoicism|Library: Stoicism]]
+optional:: true
