@@ -76,7 +76,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-1\. On your own, two minutes: write down every question this course left you with. Big, small, technical, political, anything you are still turning over.
+1\. On your own, spend two minutes writing down every question this course left you with. Big, small, technical, political, anything you are still turning over.
 2\. Read them out to each other. No answering yet.
 3\. Pick the one the group most wants to talk about, and spend the rest of the room on it. Put the question and where you got to in the table.
 
