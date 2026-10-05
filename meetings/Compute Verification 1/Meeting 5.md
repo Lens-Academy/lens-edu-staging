@@ -45,7 +45,7 @@ Offline licensing: a chip runs only while a licence server keeps renewing its to
 As a group, design the key protocol for a US-China pause:{>>{"author":"AI","timestamp":1791094817346}@@Clarity (mild): "design the key" leans on the metaphor. The questions below are really about who controls the licence server.<<}
 1\. Who holds it: one government, both, or several who must agree?
 2\. If the server is unreachable for a day, do chips keep running (fail open) or stop (fail closed)?
-3\. One day a false alarm shuts down a hospital's lawful AI cluster. W reverses it, and who pays?
+3\. One day a false alarm shuts down a hospital's lawful AI cluster. Which party reverses it, and who pays?
 4\. Verdict: would the rival government and the cluster operator both sign?
 
 
