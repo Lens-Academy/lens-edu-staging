@@ -2,20 +2,20 @@
 id: 'd6066c69-aebd-4459-b6ff-892ed09992a5'
 title: "How control is tested"
 tldr: "A control claim can be tested: put a red team in a scheming model's place and see whether any attack gets through. An alignment claim, today, cannot, because whatever the model does, it might be doing it to look aligned."
-summary_for_tutor: "Lens in Unit 1 of AI Control Fundamentals, adapted from the Advanced AI Control lens 'The case for control (2)'. Greenblatt and Shlegeris (2024), from 'In a control evaluation, a red team searches for strategies' through 'Control evaluations and black-box techniques' (how a control evaluation works, why the authors expect it to be conservative for early transformatively useful AIs, why evaluating alignment is much harder, and treating models as untrusted by capability). After 'Currently, evaluating alignment seems much harder' come three short excerpts from Apollo Research's post with OpenAI (17 September 2025, 'Stress Testing Deliberative Alignment for Anti-Scheming Training'): when models realise they are being evaluated and act aligned because of it, evaluations stop measuring their underlying tendency. o4-mini and o3 explicitly reasoned about being evaluated in 0.9% and 2.3% of samples, rising to 5.5% and 4.5% after anti-scheming training, and in a capabilities-only RL run (no safety training) from 2.0% to 20.6%, so future models may be much more evaluation aware. Counterfactual tests with o3 showed that reasoning about being evaluated causally decreases covert actions. A Lens sentence before the excerpts notes that the same ability threatens control too: a model that can tell it is being tested could sandbag the capability evaluations that decide which models are trusted, which is the authors' own second condition for a conservative control evaluation. Core exercises: quick recalls on the control property and on how to decide which models are untrusted, and a practice question with two models X and Y on trust and on what kind of evidence supports deployment. Optional: a closed box with a catching-red-handed question and a spoken interview on where capability evaluations fail, and the section 'What might control techniques look like?' with its recall question. Do not push the learner into the optional parts."
+summary_for_tutor: "Lens in Unit 1 of AI Control Fundamentals, adapted from the Advanced AI Control lens 'The case for control (2)'. Greenblatt and Shlegeris (2024), from 'In a control evaluation, a red team searches for strategies' through 'Control evaluations and black-box techniques'. Each part of the reading is followed by the question about it. (1) How a control evaluation works: a red team searches for attacks, catching the AI counts as a win, the two conditions for a conservative evaluation (the red team at least as good at finding attacks as scheming models, capabilities measured robustly to sabotage), the AIs' three disadvantages against the red team, and the authors' caveat that a measured risk under 1% probably means 5 to 20% conditional on scheming. Then an optional closed box with a spoken interview on where capability evaluations stop being informative. (2) 'Currently, evaluating alignment seems much harder', then three short excerpts from Apollo Research's post with OpenAI (17 September 2025, 'Stress Testing Deliberative Alignment for Anti-Scheming Training'): when models realise they are being evaluated and act aligned because of it, evaluations stop measuring their underlying tendency. o4-mini and o3 explicitly reasoned about being evaluated in 0.9% and 2.3% of samples, rising to 5.5% and 4.5% after anti-scheming training, and in a capabilities-only RL run (no safety training) from 2.0% to 20.6%, so future models may be much more evaluation aware. Counterfactual tests with o3 showed that reasoning about being evaluated causally decreases covert actions. A Lens sentence before the excerpts notes that the same ability threatens control too: a model that can tell it is being tested could sandbag the capability evaluations that decide which models are trusted, which is the authors' own second condition for a conservative control evaluation. Then a quick recall on why control is more tractable to evaluate than alignment. (3) 'Control evaluations and black-box techniques' (rely only on what the model is not capable of), then a practice question with two models X and Y on trust (taught in the previous lens) and on what kind of evidence supports deployment. Optional at the end: the section 'What might control techniques look like?'. Do not push the learner into the optional parts."
 reading_minutes: 14
 tutor_minutes: 16
 ---
 #### Text
 content::
-This continues the same post by Greenblatt and Shlegeris. It explains how a red team can test whether a model is controlled, and why there is no comparable test yet for whether a model is aligned. A few short recall questions and one practice question follow the reading. The longer reasoning exercises are optional.
+This continues the same post by Greenblatt and Shlegeris. It explains how a red team can test whether a model is controlled, and why there is no comparable test yet for whether a model is aligned. A recall question follows the part on alignment, and a practice question closes the lens. A spoken interview on where control evaluations can fail is optional.
 
 #### Article
 source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
 from:: In a control evaluation, a red team searches for strategies
 to:: and doing technique development to improve the weaknesses that they uncover.
 
-#### Callout: Optional: why catching counts, and where evaluation runs out
+#### Callout: Optional: where evaluation runs out
 collapse:: closed
 #### Question: Open
 id:: 098d5fa2-9ad2-409e-9a51-0d327a3d58fd
@@ -33,7 +33,7 @@ feedback-instructions:: In at most six sentences, name what the learner's reason
 
 #### Text
 content::
-\#### Part B: when do capability evaluations stop being informative?
+\#### When do capability evaluations stop being informative?
 
 The reading argues control is evaluable: given a scary model and a protocol, you can check whether the model is controlled by running capability evaluations. This part is a short spoken interview rather than a written answer. Each question builds on your previous answer, so you will be pushed from finding a weak spot, to testing it against the authors' own defenses, to deciding what you would do about it.
 
@@ -132,6 +132,11 @@ force-feedback:: first
 feedback-instructions:: In at most four sentences: confirm what the learner got right and, if anything is missing or wrong, the most important thing, then state the model answer. Control reduces to a capability question, whether the model is able to subvert the safety measures, and capabilities are something we know how to measure. Alignment evaluation is blocked because any behavior you observe might be produced precisely to make you think the model is aligned. Add that Apollo Research and OpenAI (2025) found models already reasoning about being evaluated, and that this reasoning causally reduced their covert actions. No follow-up questions. Tell them to move on.
 #### End Callout
 
+#### Article
+source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
+from:: ## Control evaluations and black-box techniques
+to:: We'll elaborate on why we think this is a good choice and details of the exact rules in the [[#^appendix-why-control-evaluations-are-conservative-about-inductive-biases-and-ai-internal-structure|Appendix "Why control evaluations are conservative about inductive biases and AI internal structure"]].
+
 #### Callout: Practice: which model do you trust, and what does the evidence show?
 #### Question: Open
 id:: 9e060d94-5686-430b-8af7-d50c7a8e02a7
@@ -146,6 +151,10 @@ force-feedback:: first
 feedback-instructions:: In at most five sentences: say what the learner got right, then correct the most important gap. If they trusted Y because of its record, say plainly that good behaviour is what a scheming model would also show, and that passing the capability tests is what makes a model untrusted. If they missed the control alternative, state it in one sentence. No follow-up questions. Tell them to move on.
 #### End Callout
 
+#### Article
+optional:: true
+from:: # What might control techniques look like?
+to:: See the Appendices [[#^appendix-a-long-list-of-control-techniques|"A long list of control techniques"]] and [[#^appendix-control-techniques-from-our-paper|"Control techniques from our paper"]] for more thoughts on what control techniques could look like.
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
