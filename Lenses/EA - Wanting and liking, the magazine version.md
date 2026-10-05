@@ -17,7 +17,7 @@ source:: [[../articles/love-you-can-want-things-you-dont-like-and-like-things-yo
 
 #### Question: Open
 id:: cbac7744-0501-46d0-a5cb-f30add67fc41
-content:: Name one thing you want mainly because a cue triggers it, and one thing you want because you decided it is worth having.
+content:: Name one thing you want mainly because a cue triggers it.
 optional:: true
 force-feedback:: first
 feedback-instructions:: Optional reflection after the Psyche article on wanting and liking. The learner names one cue-triggered want. Check it against the article's distinction in one sentence: cue-triggered wanting (incentive salience) is pulled by a reminder such as a sight, sound or place, while cognitive wanting ("cognitive plans", in Robinson's words) comes from deciding what you value. If the example fits the other kind better, say why. 40 to 80 words. One turn. No generic praise.
