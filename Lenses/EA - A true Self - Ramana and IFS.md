@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-The views so far deny that there is a lasting self, or say it is a construction. Two schools say the opposite: under the everyday "I" there is a true Self. They come from very different places.
+The views so far deny that a lasting self can be found. Two schools say the opposite: under the everyday "I" there is a true Self. They come from very different places.
 
 The first is **Advaita Vedanta**, an Indian philosophy. In the words of the Internet Encyclopedia of Philosophy, it holds that "the experiencing self (jīva) and the transcendental self of the Universe (ātman) are in reality identical (both are Brahman)", where **Brahman** is the ultimate reality ([Advaita Vedanta](https://iep.utm.edu/advaita-vedanta/)). Ramana Maharshi was a modern teacher in this tradition. His short text *Who Am I?* began as written answers to a visitor's questions in 1902. Read the opening and the first ten questions.
 
