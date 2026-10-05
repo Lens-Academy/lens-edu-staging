@@ -1,7 +1,7 @@
 ---
 id: '8f36fce3-3a9c-49d4-a6f5-c666f2986585'
 learning-outcome: "Given a description of someone's wanting, classify it with three distinctions from different schools (craving versus wholesome desire, the continuum from controlled to autonomous motivation, Epicurus's classes of desire) and give the reason in the description for each classification."
-writing_minutes: 12
+writing_minutes: 15
 tags:
   - wip
 ---
