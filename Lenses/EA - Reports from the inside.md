@@ -47,7 +47,16 @@ to:: be given priority.
 content::
 None of this makes first-person reports worthless. Some questions can only be answered with them, and careful methods can make them more useful.
 
-Antoine Lutz and Evan Thompson describe an experiment in which four people were trained to notice how ready they felt at the moment a 3D image appeared in a dot pattern. After each trial they reported their state in their own categories, such as "steady readiness" or "unreadiness". The researchers then sorted the brain recordings (EEG) by these reports. Each group of trials showed a distinct pattern of brain activity and different reaction times, a variation that would otherwise have been treated as noise and averaged away ([Lutz and Thompson 2003](https://evanthompson.me/wp-content/uploads/2012/11/jcs-neurophenomenology.pdf), section V). Reports here did something no other measure could: they told the researchers where to look.
+Antoine Lutz and Evan Thompson describe an experiment in which four people were trained to notice how ready they felt at the moment a 3D image appeared in a dot pattern. After each trial they reported their state in their own categories, such as "steady readiness" or "unreadiness". The researchers then sorted the brain recordings (EEG) by these reports. Each group of trials showed a distinct pattern of brain activity and different reaction times. Without the reports, this variation would have been treated as noise and averaged away. Their summary of the study:
+
+#### Article
+source:: [[../articles/lutz-integrating-subjective-experience-and-brain-dynamics-in-the-neuroscience-of-consciousness]]
+from:: This study demonstrated that
+to:: fruitfulness of the neurophenomenological approach.
+
+#### Text
+content::
+The reports here did something no other measure could: they told the researchers where to look.
 
 Thomas Metzinger, a philosopher of mind who meditates, argues that serious spiritual practice is itself a search for knowledge: "Spiritual persons do not want to believe, but to know." He asks how one could tell genuine insight from self-deception and reports the classical answer: "the criterion is ethical integrity, the sincere pursuit of a prosocial, ethically coherent way of life that is observable in a person's actions" ([Metzinger 2017](https://www.philosophie-e.fb05.uni-mainz.de/files/2013/07/Metzinger_SIR_2017_English.pdf), pages 6 and 7). That criterion can be checked from the outside, which is what Martin's observers did.
 

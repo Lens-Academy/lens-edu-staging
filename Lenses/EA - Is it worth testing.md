@@ -10,11 +10,26 @@ tags:
 ---
 #### Text
 content::
-The first half of this module showed that most evidence about practices is weaker than it looks. That leaves a practical question: when should you try something yourself, and when should you test it carefully?
+The first half of this module showed many ways in which evidence about a practice can mislead. That leaves a practical question: when should you try something yourself, and when should you test it carefully?
 
-Gwern Branwen, a writer who has run many experiments on himself, uses an idea from decision theory. The **value of information** from an experiment is "the value of the decisions it changes" ([Gwern 2012](https://www.lesswrong.com/posts/xiojTDJP6FWdb2Fmb/value-of-information-8-examples)). A test is worth running when its result could change what you do, and when that change matters more than the test costs. In one of his examples he gave about 60% to the idea that meditation would reduce how much sleep he needed, and estimated that his year-long experiment had "roughly a 60% chance of detecting the effect size" he expected. Even a careful test can miss a real effect.
+Gwern Branwen, a writer who has run many experiments on himself, answers with an idea from decision theory, the **value of information**.
 
-We turn his idea into four questions you can ask about any practice.
+#### Article
+source:: [[../articles/gwern-value-of-information-8-examples]]
+from:: The value of an experiment is the information it produces.
+to:: that’s worth 99% as much.)
+
+#### Text
+content::
+He then works out the value of his own experiments, with a price for his time. One of them was about meditation.
+
+#### Article
+from:: I find meditation useful when I am screwing around
+to:: that’s less than the calculated value of information.
+
+#### Text
+content::
+You do not need his arithmetic. What carries over is that a test is worth running when its result could change what you do, when that change matters more than the test costs, and when the test has a fair chance of detecting the effect. His own year-long test had only about a 60% chance. We turn his idea into four questions you can ask about any practice.
 
 1. **What does it cost?** Time each day, money, and the other things you would not do instead.
 2. **What could go wrong?** Even practices that sound harmless have risks (see the review below).
