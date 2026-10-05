@@ -38,10 +38,14 @@ assessment-instructions:: Score out of 100. 30: the monitor is the weaker truste
 force-feedback:: first
 feedback-instructions:: In at most four sentences: say what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer in your own words. Add that Shlegeris calls the human checks "auditing", and that "we can audit so infrequently" is in his words the core quantitative issue. No follow-up questions. Tell them to move on.
 
+#### Callout: Optional: the standard names for the parts of a control set-up (UK AI Security Institute)
+collapse:: closed
 #### Article
+optional:: true
 source:: [[../articles/controlarena-intro-to-control]]
 from:: ### Control Protocols
 to:: We want to benefit from the untrusted model’s superior capabilities while using the trusted model and high-quality human labour strategically to ensure safety.
+#### End Callout
 
 #### Text
 content::
