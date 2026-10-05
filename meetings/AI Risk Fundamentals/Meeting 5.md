@@ -32,9 +32,6 @@ Not yet? Say when it's happening, or what's been in the way.
 3. If everyone already shared their conversation last meeting: **Where does finishing the book leave you:** hopeful, alarmed, motivated, numb, or something else?{>>{"author":"AI","timestamp":1791094716527}@@Clarity: hard to parse. Does "if everyone already shared last unit" mean this replaces item 2, or follows it? AI (mild, recurring): the list of feelings ending in "something else?" appears in several icebreakers.<<}
 
 
-Your scribe notes conversation statuses and reactions; carry your own answer to share in the next room.{>>{"author":"AI","timestamp":1791094717189}@@AI (mild, recurring): clipped, report-style phrasing ("notes conversation statuses"). Clarity: "carry your own answer to share in the next room" is unclear, since sharing happens back in the main room.<<}
-
-
 | Names | Conversations + Book reactions |
 |------|------------------------|
 |  |  |
