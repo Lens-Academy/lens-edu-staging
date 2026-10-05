@@ -84,7 +84,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-You've now heard the whole case, from "intelligence is power" to "shut it down". Time to test how well you trul.{>>{"author":"AI","timestamp":1791094721059}@@AI (strong): short punchy fragment, a typical Claude rhythm. The "from X to Y" framing just before it comes back in the wrap-up.<<} Go around in two rounds, then respond to each other:
+You've now heard the whole case, from "intelligence is power" to "shut it down". Time to test how well you understand it.{>>{"author":"AI","timestamp":1791094721059}@@AI (strong): short punchy fragment, a typical Claude rhythm. The "from X to Y" framing just before it comes back in the wrap-up.<<} Go around in two rounds, then respond to each other:
 
 
 **1. The three-minute version:**
