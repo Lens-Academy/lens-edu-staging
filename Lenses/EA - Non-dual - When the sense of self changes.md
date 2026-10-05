@@ -23,11 +23,14 @@ tone:: neutral
 collapse:: closed
 #### Text
 content::
-Three researchers in philosophy and cognitive science argue that depersonalisation and the selflessness meditators seek feel alike on the surface but are opposite states. Their argument is theoretical and has not been tested.
+Three researchers in philosophy and cognitive science argue that depersonalisation and the selflessness meditators seek feel alike on the surface but are opposite states. Their argument is theoretical and has not been tested. Below are their abstract and the passage from their conclusion on when meditation might cause depersonalisation.
 #### Article
-source:: [[../articles/PLACEHOLDER-deane]]
-from:: PLACEHOLDER
-to:: PLACEHOLDER
+source:: [[../articles/deane-losing-ourselves-active-inference-depersonalization-and-meditation]]
+from:: Disruptions in the ordinary sense of selfhood underpin both pathological
+to:: elucidate both the therapeutic potential, and possible dangers, of meditation.
+#### Article
+from:: In terms of control, depersonalization and selfless experiences sought after by meditators are, computationally speaking, polar opposites.
+to:: rather than toward the liberating states of self-understanding it is meant to.
 #### End Callout
 
 #### Question: Open
