@@ -15,7 +15,7 @@ source:: [[../shared/Session Doc - How today works (3 rooms)]]
 \pagebreak
 ### Room 1: The catastrophe you built  [0:05–0:19]
 
-Go around your group. Make sure ever the second.{>>{"author":"AI","timestamp":1791094773724}@@AI (mild): an over-specified rule ("finish the first before anyone starts the second"). With the clipped "Two things." it reads machine-written.<<}
+Go around your group. Make sure everyone has a turn to an the second.{>>{"author":"AI","timestamp":1791094773724}@@AI (mild): an over-specified rule ("finish the first before anyone starts the second"). With the clipped "Two things." it reads machine-written.<<}
 
 1. Did you finish the unit? How was it? If you couldn’t finish, just share that.{>>{"author":"AI","timestamp":1791094774491}@@AI (mild, recurring): stock reassurance.<<}
 2. Early in the unit you were asked to build a catastrophe with no villain. Nobody plans it, no accident, just ordinary systems doing what they were told.{>>{"author":"AI","timestamp":1791094775516}@@AI (mild): a definition built from fragments. Otherwise this item is a good exercise reminder: it says what the exercise was and gives people who skipped it a way in.<<} Read yours out to the rest of the room.
