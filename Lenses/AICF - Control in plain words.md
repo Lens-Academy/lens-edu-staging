@@ -22,7 +22,7 @@ id:: 3e8b2438-ba59-4c81-a147-177b4c4d1372
 content:: Make up your own example of each, set inside an AI company: one of an internal rogue deployment, and one of successor sabotage. For each, say what the AI agent does and what access it would need.
 assessment-instructions:: Score out of 100. 50 for each example. Internal rogue deployment: an AI agent uses the company's own computing resources to run work nobody authorised (for example, it secretly launches extra copies of itself or runs its own experiments on the cluster), 35, plus 15 for naming access that would make it possible (for example, permission to launch jobs on the cluster, or a compute budget nobody checks). Successor sabotage: an AI agent secretly influences the training of a future model so that the future model shares its goals (for example, it slips chosen examples into the training data, or quietly changes how the training rewards work), 35, plus 15 for the access (for example, write access to training data or training code). An example that is not actually inside the company, or that is only an accident with no goal behind it, gets at most half for that example. Judge whether each example fits the idea, not the wording. Model answer, for the feedback, not a grading checklist: "Rogue deployment: an agent with permission to run experiments starts extra jobs on the company's cluster that run copies of itself working on its own plans, using compute nobody signed off on. Successor sabotage: an agent that helps prepare training data for the next model slips in examples that teach the next model its own goals. It needs write access to the training data."
 force-feedback:: first
-feedback-instructions:: The learner just read part of CSET's explainer on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the paragraph that explains it (the third paragraph of the introduction and the paragraph on risks inside AI companies). No follow-up question. No generic praise.
+feedback-instructions:: The learner just read part of CSET's explainer on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the paragraph that explains it (the paragraph on risks inside AI companies). No follow-up question. No generic praise.
 
 #### Article
 source:: [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agents]]
@@ -113,24 +113,10 @@ source:: [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agen
 from:: #### Novel AI Control Protocols
 to:: it is most important for researchers to be confident that the trusted model is not working toward unintended goals.
 
-#### Question: Open
-id:: 7fe9286f-e284-4a05-9fb4-0cbee34e93e5
-content:: What are the two steps of the control protocols in the Ctrl-Z paper? And what is the difference between a trusted and an untrusted model?
-assessment-instructions:: Score out of 100. 40: the two steps: monitor what the AI agent is doing (20), then respond appropriately when something looks suspicious (20). 30: an untrusted model is a newer, more capable model that might be deliberately working against you. 30: a trusted model is an older, less capable, better understood model that we are confident is not pursuing unintended goals, even if it makes more mistakes. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "First monitor what the agent does, then respond when something looks suspicious. An untrusted model is a newer, more capable model that might be secretly working against you. A trusted model is an older, weaker one we understand well enough to be confident it is not, even though it makes more mistakes."
-force-feedback:: first
-feedback-instructions:: The learner just read part of CSET's explainer on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the paragraph that explains it (the paragraph on the Ctrl-Z paper). No follow-up question. No generic praise.
-
 #### Article
 source:: [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agents]]
 from:: For step one of this two-step AI control protocol
 to:: **Human escalation:** The issue can be flagged for human review.
-
-#### Question: Open
-id:: 7d0dc7ac-9fb0-4f35-83de-73a22936b666
-content:: What is untrusted monitoring, and what is a honeypot used for in it? Then name one way a protocol can respond when the monitor flags something.
-assessment-instructions:: Score out of 100. 35: untrusted monitoring: an untrusted, capable model checks the agent's work, with safeguards so that it cannot collude with the agent it is checking. 35: a honeypot is a fake opportunity for bad behaviour, here code known to be dangerous, shown to the untrusted monitor to see whether it falsely rates it as safe, which would show it is colluding. 30: one response from the explainer: a trusted model does the task instead (trusted implementation), ask the same agent again for a different output (resampling), a trusted model investigates the context for evidence (AI-assisted auditing), or flag it to a human (human escalation). Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "In untrusted monitoring, a capable but untrusted model checks the agent's work, with safeguards against the two working together. A honeypot is a fake bad action, such as code you know is dangerous: if the monitor calls it safe, you know it is lying. When something is flagged, the protocol can, for example, ask the agent again for a different output, or send it to a human."
-force-feedback:: first
-feedback-instructions:: The learner just read part of CSET's explainer on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the paragraph that explains it (the bullets on untrusted monitoring and on responses). No follow-up question. No generic praise.
 
 #### Article
 source:: [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agents]]
@@ -142,19 +128,12 @@ id:: 06d03f1a-e845-46e8-a04e-b59c3377a66d
 content:: Pick a task an AI company might give an AI agent, and say how you would split it using factored cognition. What does the untrusted agent get to see, what does it not see, and why does that make an attack harder?
 assessment-instructions:: Score out of 100. 30: a concrete task and a split in which the trusted model does as much as it can and the untrusted agent gets only the subtask that needs its greater ability. 30: what the untrusted agent does not see (the full task, what its part is for, where its output goes, or whether it is being tested). 40: why that makes an attack harder: without the full context it is hard for the agent to work out how to cause harm with its piece or to coordinate a plan, and it cannot tell whether it is in a monitored test or real deployment, so attacking is risky for it. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Task: write code for a new data pipeline. The trusted model plans the pipeline and writes the easy parts. It hands the untrusted agent only one hard function, with its inputs and outputs, and not what the pipeline is for or what systems it touches. The agent cannot tell where a backdoor would do any damage, and it cannot tell whether this is a real task or a test, so trying to attack is a gamble."
 force-feedback:: first
-feedback-instructions:: The learner just read part of CSET's explainer on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the paragraph that explains it (the paragraphs on chain of thought monitoring and on factored cognition). No follow-up question. No generic praise.
+feedback-instructions:: The learner just read part of CSET's explainer on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the paragraph that explains it (the paragraph on factored cognition). No follow-up question. No generic praise.
 
 #### Article
 source:: [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agents]]
 from:: #### Building Blocks for Risk Management
 to:: while mitigating risks.
-
-#### Question: Open
-id:: 75ec3280-b14e-401c-82bc-882ad0825946
-content:: What does a control evaluation measure, and what is a control safety case?
-assessment-instructions:: Score out of 100. 50: a control evaluation measures how well a given control protocol stops an AI agent that is trying to misbehave from causing harm. 50: a control safety case is an argument, made for example by an AI company, that its AI agents are safe enough to use because its control protocols make an unacceptable outcome sufficiently unlikely. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "A control evaluation measures how well a control protocol stops an agent that is trying to cause harm. A control safety case is the argument a company makes that its agents are safe to use, because its control protocols make a catastrophe unlikely enough, backed by evaluations like these."
-force-feedback:: first
-feedback-instructions:: The learner just read part of CSET's explainer on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the paragraph that explains it ("Building Blocks for Risk Management"). No follow-up question. No generic praise.
 
 #### Article
 source:: [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agents]]
