@@ -56,6 +56,7 @@ Be a brief, honest mirror: say what they got right without inflation, name what 
 id:: 1b5da642-aa0d-45e3-9b24-ef8f33eda480
 content::
 \## How it landed (optional)
+Take 2 minutes to note how these sources landed. What convinced you, what did you doubt, what confused you?
 optional:: true
 force-feedback:: first
 feedback-instructions:: The learner just read Metzinger (no one ever was a self, the self is a process and a brain representation), watched Seth (the experience of being a self is a controlled hallucination grounded in the body) and read Thompson (the self is like a dance, a construction, not an illusion), and is noting their reaction.
