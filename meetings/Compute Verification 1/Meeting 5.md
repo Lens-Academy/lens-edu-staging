@@ -107,6 +107,7 @@ Part 1 ends today, but your action plan doesn't.{>>{"author":"AI","timestamp":17
 - write up your key design from Room 2
 - talk to someone who builds chips or runs a cloud
 - apply somewhere
+- sign up for Compute Verification 2
 
 3\. Feedback: what would make Part 1 better for the next cohort, and what should the next course (Part 2) keep from it?
 
