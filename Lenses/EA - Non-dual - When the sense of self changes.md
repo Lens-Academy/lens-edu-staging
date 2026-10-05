@@ -52,11 +52,6 @@ feedback-instructions:: The learner imagines noticing a change in sense of self 
 #### Text
 content::
 \## Going further
-A related risk is **spiritual bypassing**, a term the psychotherapist John Welwood coined for using spiritual ideas and practices to avoid facing emotional problems and human needs. In the optional interview below he speaks from Buddhism, but his point applies directly to this module's claim that happiness does not depend on anything. He argues that "absolute truth" can be used to dismiss "relative human needs", and that while one's deepest nature may not depend on anything, "our human embodiment" does.
+A related risk is **spiritual bypassing**, a term the psychotherapist John Welwood coined for using spiritual ideas and practices to avoid facing emotional problems and human needs. In an interview with *Tricycle* ([Human Nature, Buddha Nature](https://www.johnwelwood.com/articles/TRIC_interview_uncut.pdf), optional, about 25 minutes) he speaks from Buddhism, but his point applies directly to this module's claim that happiness does not depend on anything. He argues that "absolute truth" can be used to dismiss "relative human needs", and that while one's deepest nature may not depend on anything, "our human embodiment" does.
 optional:: true
-
-#### Article
-source:: [[../articles/PLACEHOLDER-welwood]]
-from:: PLACEHOLDER
-to:: PLACEHOLDER
-optional:: true
+%% Import of the Welwood PDF (job 831d62d2) was stuck in the importer queue on 2026-10-05. Once it exists in articles/, embed it here as an optional Article segment instead of the link. %%
