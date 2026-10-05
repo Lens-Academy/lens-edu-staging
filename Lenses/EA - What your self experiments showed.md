@@ -35,7 +35,7 @@ id:: 30d51e71-e79f-4485-bc4c-455f5412d1d6
 content::
 Which claim from the comparison table of views of the self do your results bear on?
 force-feedback:: first
-feedback-instructions:: The learner has done the module's self experiments and now says which claim from the module's comparison table (not-self as a method, no-self, Advaita's Self as awareness, IFS's Self, Hume's bundle, Parfit, Dennett, Strawson, Metzinger, Seth, Thompson, Wright) their results bear on, and in which direction.
+feedback-instructions:: The learner has done the module's self experiments and now says which claim from the module's comparison table (not-self as a method, no-self, Advaita's Self as awareness, IFS's Self, Hume's bundle, Parfit, Dennett, Strawson, Metzinger, Seth, Thompson, Wright) their results bear on.
 
 Engage with the reasoning. Point out where a first-person result can bear on a claim (for example whether looking inward finds only passing perceptions, as Hume says, or a remaining awareness, as Ramana says; or whether letting go of identification eased stress, as Thanissaro's reading predicts) and where it cannot (claims about what exists beyond experience, about the brain, or about words like "illusion"). Do not say which view is right. 50 to 100 words. One or two replies. No generic praise.
 
