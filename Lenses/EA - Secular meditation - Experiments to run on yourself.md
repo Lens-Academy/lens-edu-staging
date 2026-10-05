@@ -29,6 +29,7 @@ to:: This, however, is a temporary phenomenon.
 
 #### Text
 content::
+Use a discomfort you already have, such as an ache from sitting, a sore muscle, or an emotional pain like worry or grief, which Shinzen says the method also covers. Do not cause pain on purpose, and see a doctor about any pain that is new or unexplained (our advice).
 
 **Dose.** Four sessions on four days, 15 to 20 minutes each. Four days is the training length in a lab study by Zeidan and colleagues of a different mindfulness training, where meditating during heat pain cut how unpleasant people rated it by 57% and how intense they rated it by 40%, compared with resting ([Zeidan et al. 2011](https://www.jneurosci.org/content/31/14/5540)). The session length is our suggestion.
 
