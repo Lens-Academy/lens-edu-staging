@@ -85,11 +85,18 @@ Your role is a brief, honest mirror. 80 to 140 words, short paragraphs, no lists
 #### Question: Open
 id:: e8874780-ea17-401b-8a1f-7e97a612b07d
 content::
-Take two minutes to write how this landed. What surprised you, what did you doubt? Look again at the moment you described on the first page of this module: what did you do with the feeling, in these terms?
+Look again at the moment you described on the first page of this module. Which of the three, if any, describes what you did with the feeling?
 force-feedback:: first
-feedback-instructions:: The learner read about reappraisal, acceptance and suppression (Troy et al. 2018, Ford et al. 2018, Gross and John 2003, Webb et al. 2012) and now says how it landed and classifies what they did in a recent upsetting moment (their earlier answer is in the previous lens; if you cannot see it, work from what they write here).
+feedback-instructions:: The learner classifies what they did in a recent upsetting moment as reappraisal, acceptance, suppression or none of these (their earlier answer is in the previous lens; if you cannot see it, work from what they write here). Check the classification against the definitions in one or two sentences: reappraisal changes what the situation means, acceptance lets the feeling be without judging or changing it, suppression hides the feeling or pushes it or its cause out of mind. For example, distracting yourself is none of the three, and arguing yourself out of a feeling can be reappraisal or suppression depending on whether the meaning changed or the feeling was only pushed away. Do not say what they should have done. 40 to 90 words. One reply.
 
-This is a processing phase, not a teaching phase. If they classify their own moment, check the classification against the definitions in one sentence (for example, distracting yourself is none of the three, and arguing yourself out of a feeling can be reappraisal or suppression depending on whether the meaning changed or the feeling was only pushed away). Do not say what they should have done. Branch on what they expressed: confusion, ask what exactly is unclear; skepticism (for example about lab film clips), treat it as legitimate and ask what study would convince them; resonance, ask what it connected to. If the learner says they do not understand, give one concrete foothold from the readings. 60 to 120 words. No generic praise. Keep an internal turn counter: after 2 replies, close and send them on.
+#### Question: Open
+id:: fa6dcbdb-f01a-43e5-ba19-2f9f2ba886f5
+content::
+Take two minutes to write how these readings landed. What surprised you, what did you doubt? No need to organise it.
+force-feedback:: first
+feedback-instructions:: The learner read about reappraisal, acceptance and suppression (Troy et al. 2018, Ford et al. 2018, Gross and John 2003, Webb et al. 2012) and says how it landed.
+
+This is a processing phase, not a teaching phase. Branch on what they expressed: confusion, ask what exactly is unclear; skepticism (for example about lab film clips), treat it as legitimate and ask what study would convince them; resonance, ask what it connected to. Do not say what they should do with their feelings. If the learner says they do not understand, give one concrete foothold from the readings. 60 to 120 words. No generic praise. Keep an internal turn counter: after 2 replies, close and send them on.
 
 #### Question: Open
 id:: 649ab0a7-481b-4c7e-9397-2242b632015a
