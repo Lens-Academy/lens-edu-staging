@@ -5,7 +5,7 @@ id: '08174225-cd76-472a-972b-d185d7bc982f'
 tags:
   - wip
 ---
-%% Module 7. Goal 1 (what to do with emotions): two reading lenses (psychology's reappraisal, acceptance and suppression; then equanimity, Stoic judgement and non-attachment in their own words) and a comparison table that shows the evidence differs in kind and the rows overlap. Self-compassion and Barrett's constructed emotion are optional lenses. Goal 2 (circumstances) builds on module 2 and adds only what is new: set points move (Headey), people reporting lasting peace still react (Martin's trigger passages), aiming at a feeling backfires (Ford and Mauss). Goal 3 (failure modes) gets the most room and carries the module's one testable skill, telling equanimity from its look-alikes, as a learning outcome. Hafenbrack's motivation and guilt studies are optional. The module ends with experiment cards for module 8. Required time by the lenses' estimates: about 1 h 50 min reading, 1 h 5 min tutor, 8 min test. %%
+%% Module 7. Goal 1 (what to do with emotions): two reading lenses (psychology's reappraisal, acceptance and suppression; then equanimity, Stoic judgement and non-attachment in their own words) and a comparison table that shows the evidence differs in kind and the rows overlap. Optional lenses: Gilbert's three systems (reused from the self-compassion library module) and Barrett's constructed emotion. Goal 2 (circumstances) builds on module 2 and adds only what is new: set points move (Headey), people reporting lasting peace still react (Martin's trigger passages), aiming at a feeling backfires (Ford and Mauss). Goal 3 (failure modes) gets the most room and carries the module's one testable skill, telling equanimity from its look-alikes, as a learning outcome. Hafenbrack's motivation and guilt studies are optional. The module ends with experiment cards for module 8. Required time by the lenses' estimates: about 1 h 50 min reading, 1 h 5 min tutor, 8 min test. %%
 
 # Submodule: What to do with a feeling
 # Lens: Your last strong feeling
@@ -20,8 +20,8 @@ source:: [[../Lenses/EA - Equanimity, Stoic judgement and non-attachment]]
 # Lens: What to do with a feeling, compared
 source:: [[../Lenses/EA - What to do with a feeling, compared]]
 
-# Lens: Self-compassion and the soothing system
-source:: [[../Lenses/EA - Self-compassion and the soothing system]]
+# Lens: Gilbert's three systems
+source:: [[../Lenses/EA - Self-compassion - Gilbert three systems]]
 optional:: true
 
 # Lens: Are emotions built?
