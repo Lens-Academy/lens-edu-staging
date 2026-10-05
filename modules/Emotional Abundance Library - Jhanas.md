@@ -38,10 +38,6 @@ optional:: true
 # Lens: What the evidence shows
 source:: [[../Lenses/EA - Jhanas - What the evidence shows]]
 
-# Lens: A brain study of one jhana expert
-source:: [[../Lenses/EA - Jhanas - A brain study of one jhana expert]]
-optional:: true
-
 # Submodule: Try it yourself
 # Lens: Try it yourself
 source:: [[../Lenses/EA - Jhanas - Try it yourself]]
