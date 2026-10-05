@@ -41,6 +41,7 @@ We skip about three minutes here, where Miles reads out some of the odd example 
 #### Video
 from:: 8:34.7
 to:: 13:32.5
+skip:: 5:12.3-8:34.7 "Miles reads example problems from the dataset"
 
 #### Question: Open
 id:: 5757a6a6-49c7-4e31-bb19-2e69b20b3deb
