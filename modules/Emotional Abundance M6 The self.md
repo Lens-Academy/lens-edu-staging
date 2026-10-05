@@ -26,6 +26,7 @@ source:: [[../Lenses/EA - A true Self - Ramana and IFS]]
 
 # Lens: The narrative self: Dennett and Strawson
 source:: [[../Lenses/EA - The narrative self - Dennett and Strawson]]
+optional:: true
 
 # Lens: The self as a model: Metzinger, Seth and Thompson
 source:: [[../Lenses/EA - The self as a model - Metzinger, Seth and Thompson]]
@@ -49,6 +50,7 @@ source:: [[../Lenses/EA - Fundamental wellbeing and the self]]
 
 # Lens: What brain scans can show about the self
 source:: [[../Lenses/EA - What brain scans can show about the self]]
+optional:: true
 
 # Submodule: Experiments
 # Lens: Before you experiment: safety and method
@@ -59,6 +61,7 @@ source:: [[../Lenses/EA - Self experiment - Pointing at where you look from]]
 
 # Lens: Who am I?
 source:: [[../Lenses/EA - Self experiment - Who am I]]
+optional:: true
 
 # Lens: Noting
 source:: [[../Lenses/EA - Self experiment - Noting]]
