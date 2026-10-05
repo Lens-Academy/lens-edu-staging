@@ -33,6 +33,7 @@ By the end of this course you will be able to:
 
 - Tell a control argument ("it could not cause harm even if it tried") from an alignment argument ("it will not try"), and say why the first can be tested today.
 - Explain which models count as trusted or untrusted, and why.
+- Read a control setup: who monitors whom, what it protects against, and where an attacker would try to get through.
 - Tell high-stakes threats, where one action can be a catastrophe, from low-stakes ones, where harm builds up over many actions, and say why the difference changes the defence.
 - Describe the control field: the main organisations and people, its rough size, and its main research areas.
 - Lay out how control is supposed to reduce risk, and where each step could fail.
@@ -50,7 +51,7 @@ You need a basic understanding of AI safety: you have taken our [AI Risk Fundame
 \## The five units
 
 :::callout {title="Unit 1: What control is" tone="blue"}
-The core idea of control and how it differs from alignment, trusted and untrusted models, and how a control evaluation tests whether safety measures hold against a model that is trying to get past them. It ends with a first criticism, Jan Kulveit's argument that control may make things worse. You start by writing down your gut view on control, which you come back to in Unit 5.
+The core idea of control and the words you need for it, how it differs from alignment, what AI companies already run, trusted and untrusted models, and how a control evaluation tests whether safety measures hold against a model that is trying to get past them. It ends with a first criticism, Jan Kulveit's argument that control may make things worse. You start by writing down your gut view on control, which you come back to in Unit 5.
 :::
 
 :::callout {title="Unit 2: The key ideas and the field" tone="blue"}
