@@ -125,7 +125,7 @@ The last room of the whole course. Some possibilities:{>>{"author":"AI","timesta
 2. **Feedback:** this was our last session. **What should the next cohort get more of, and less of?** What almost made you drop, and what kept you coming? Verbal primer for the survey!{>>{"author":"AI","timestamp":1791094725059}@@AI (mild, recurring): odd phrase that reads like an internal note. Clarity: this item asks three questions.<<}
 3. Two things you can keep doing with Lens, both in the Meeting 5 Survey:
     - Keep learning: **we are running an advanced course, Forecasting, Modeling & Shaping AI Futures**. Runs part-time or as a one-unit intensive.
-    - **Become a Navigator!** Guiding others is one of the highest value things you can do today.{>>{"author":"AI","timestamp":1791094725940}@@AI (mild): sweeping promotional claim. The course rules want claims like this marked as our view ("We think…") or cut.<<} If you would consider it, [let us know!](https://lensacademy.org/navigators)
+    - **Become a Navigator!** Guiding others is one of the highest value things we think you can do today.{>>{"author":"AI","timestamp":1791094725940}@@AI (mild): sweeping promotional claim. The course rules want claims like this marked as our view ("We think…") or cut.<<} If you would consider it, [let us know!](https://lensacademy.org/navigators)
 
 
 | Names | Ongoing action + first step | Feedback for us |
