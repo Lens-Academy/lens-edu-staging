@@ -68,7 +68,7 @@ Their summary: "the more people pursue positive emotion, the less likely they ar
 
 #### Text
 content::
-The 2011 experiments studied only women, 59 in the first study and 70 in the second ([Mauss et al. 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3160511/)). The chapter reviews the authors' own research programme. In our reading, the finding also applies to inner peace: wanting very much to feel equanimous is still wanting a particular emotional state.
+The 2011 experiments studied only women, 59 in the first study and 70 in the second ([Mauss et al. 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3160511/)). Much of the work the chapter reviews comes from the authors' own lab. In our reading, the finding also applies to inner peace: wanting very much to feel equanimous is still wanting a particular emotional state.
 
 \## Where the evidence lands
 

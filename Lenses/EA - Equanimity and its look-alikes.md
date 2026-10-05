@@ -92,7 +92,7 @@ Your role is a brief, honest mirror. 80 to 140 words, short paragraphs, no lists
 #### Question: Open
 id:: 806d80bc-89f2-4069-85c4-9fc33a088411
 content::
-Look back at the signs you wrote before reading. Which of them match what these sources say, and which would you now change?
+Look back at the signs you wrote before reading. Which of them would you now change, given these sources?
 force-feedback:: first
 feedback-instructions:: The learner compares the signs they wrote in the pre-reading question (how to tell real calm from shutting a feeling out) with the readings: Kornfield and Nyanaponika (indifference as the near enemy, equanimity as engaged and caring), Desbordes et al. (equanimity is not suppression, signature is faster return to baseline, no reaction where one is expected is a warning sign), Kashdan et al. (experiential avoidance) and Welwood (spiritual bypassing, coldness and distance, needs driven underground). Their earlier answer may not be visible to you; if they do not restate it, ask for it in one line.
 
