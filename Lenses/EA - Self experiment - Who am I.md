@@ -74,3 +74,12 @@ force-feedback:: first
 feedback-instructions:: The learner just tried Ramana's self-enquiry for about 10 minutes, rated the three NADA-S items, and now reports what they found.
 
 Reflect back what they report in their own terms in one or two sentences. Then, fitting their report, name one thing worth checking: whether they may have settled on an object (a sensation, a location, a feeling of peace), which Godman calls the common trap; or whether what they found matches Hume's report (only particular perceptions) or Ramana's (the 'I' subsides and something remains), or neither. "I found nothing" and "nothing happened" are valid results. Do not tell them what they "really" found and do not say whether Ramana's claim is true. If they report fear, unreality or detachment that is still present, point them to the safety section on the method page and suggest not repeating the experiment. 60 to 110 words. One or two replies. No generic praise.
+
+#### Question: Open
+id:: a281964b-218d-427b-942e-16aa4ce69a7a
+content::
+How does what you found compare with the prediction you wrote before?
+force-feedback:: first
+feedback-instructions:: The learner wrote a prediction before trying Ramana's self-enquiry, practised for about 10 minutes, rated the three NADA-S items, and now compares the result with the prediction.
+
+Restate the match or mismatch in one sentence. Then name one thing that would make the result more trustworthy, chosen to fit it: whether the prediction or Godman's description may have shaped what they found, whether it happens again on another day, or how their ratings compare with their baseline ratings on the method page. A result that differs from the prediction is as useful as one that matches. 40 to 90 words. One reply. No generic praise.

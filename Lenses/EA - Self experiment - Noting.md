@@ -69,4 +69,13 @@ Did you find anything besides changing sensations and mental events, anything th
 force-feedback:: first
 feedback-instructions:: The learner just tried Mahasi Sayadaw's noting for about 15 minutes, rated the three NADA-S items, and reports whether they found anything besides passing sensations and mental events, compared with their prediction.
 
-Reflect back what they report in their own terms in one or two sentences. Then, fitting their report, name one thing that would make it more trustworthy: the instructions themselves say no living entity will be found, so expectation may shape the report; a sense of "the noter" can itself be noted, which is the point of the method, but a persistent awareness is what Ramana's tradition would predict instead; repetition on other days and comparison with the baseline ratings. "Nothing special happened" is a valid result. Do not tell them what they "really" found and do not say whether Mahasi's claim is true. If they report fear, unreality or detachment that is still present, point them to the safety section on the method page and suggest not repeating it. 60 to 110 words. One or two replies. No generic praise.
+Reflect back what they report in their own terms in one or two sentences. Then, fitting their report, name one point worth considering: a sense of "the noter" can itself be noted, which is the point of the method, while a persistent awareness that cannot be noted is what Ramana's tradition would predict instead. "Nothing special happened" is a valid result. Do not tell them what they "really" found and do not say whether Mahasi's claim is true. If they report fear, unreality or detachment that is still present, point them to the safety section on the method page and suggest not repeating it. 60 to 110 words. One or two replies. No generic praise.
+
+#### Question: Open
+id:: f144e03e-9ed2-4f35-9224-67671ee60325
+content::
+How does what you found compare with the prediction you wrote before?
+force-feedback:: first
+feedback-instructions:: The learner wrote a prediction before trying Mahasi Sayadaw's noting, practised for about 15 minutes, rated the three NADA-S items, and now compares the result with the prediction.
+
+Restate the match or mismatch in one sentence. Then name one thing that would make the result more trustworthy, chosen to fit it: the instructions themselves say no living entity will be found, so expectation may shape the report; repetition on other days; or comparison with the baseline ratings on the method page. A result that differs from the prediction is as useful as one that matches. 40 to 90 words. One reply. No generic praise.

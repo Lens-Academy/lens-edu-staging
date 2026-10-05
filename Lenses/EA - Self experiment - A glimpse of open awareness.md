@@ -61,8 +61,8 @@ high-label:: Very much
 #### Question: Open
 id:: 2a615e90-23e3-42a5-bc25-7b586070e535
 content::
-What did you notice, and how does it compare with your prediction?
+What did you notice while following the guidance?
 force-feedback:: first
 feedback-instructions:: The learner just followed Loch Kelly's guided glimpse, rated the three NADA-S items, and reports what they noticed compared with their prediction.
 
-Reflect back what they report in their own terms in one or two sentences. Then, fitting their report, name one thing that would make it more trustworthy: the guidance itself names what to notice ("awareness that's aware by itself"), so the words may shape the report; whether the same happens with a shorter, unguided try; or how the ratings compare with their baseline on the method page. "Nothing much happened" is a valid result. Do not tell them what they "really" experienced, and do not say whether Kelly's claims are true. If they report fear, unreality or detachment that is still present, point them to the safety section on the method page and suggest not repeating the experiment. 60 to 110 words. One or two replies. No generic praise.
+Reflect back what they report in their own terms in one or two sentences, and ask which of Lindahl and Britton's six changes in the sense of self, if any, it resembles (for example boundaries or embodiment). "Nothing much happened" is a valid result. Do not tell them what they "really" experienced, and do not say whether Kelly's claims are true. If they report fear, unreality or detachment that is still present, point them to the safety section on the method page and suggest not repeating the experiment. 60 to 110 words. One or two replies. No generic praise.
