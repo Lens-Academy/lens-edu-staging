@@ -19,7 +19,7 @@ to:: release, & letting go of that very craving.
 
 #### Text
 content::
-Read on its own, this sounds as if all wanting is the problem. The next reading says it is not. Ajahn Jayasaro, a monk who was ordained in Thailand in 1980 with the Thai teacher Ajahn Chah as his preceptor, the senior monk who ordained him (see the note at the end of the article), distinguishes craving from **wholesome desire** (Pali *chanda*). The text was adapted from a talk he gave in 2012. The excerpt is about half of the article. Read it with your own work in mind: he talks about work as well as meditation.
+Read on its own, this sounds as if all wanting is the problem. The next reading says it is not. Ajahn Jayasaro, a monk ordained in 1980 by the Thai teacher Ajahn Chah who has lived as a monk in Thailand ever since (see the note at the end of the article), distinguishes craving from **wholesome desire** (Pali *chanda*). The text was adapted from a talk he gave in 2012. The excerpt is about half of the article. Read it with your own work in mind: he talks about work as well as meditation.
 
 #### Article
 source:: [[../articles/jayas-ro-skilful-desires]]
