@@ -16,12 +16,14 @@ source:: [[../Lenses/EA - The map of the schools]]
 
 # Lens: Three families of meditation
 source:: [[../Lenses/EA - Three families of meditation]]
+optional:: true
 
 # Lens: Philosophy as a way of life
 source:: [[../Lenses/EA - Philosophy as a way of life]]
 
 # Lens: What can contemplative experience show?
 source:: [[../Lenses/EA - What can contemplative experience show]]
+optional:: true
 
 # Submodule: First readings
 # Lens: First readings: psychology and science
