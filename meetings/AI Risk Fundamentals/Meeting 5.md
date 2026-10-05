@@ -62,7 +62,7 @@ Then, as a group, discuss this question and **write your shared response** in th
 > **Go around, gut reaction to the proposal:** realistic, necessary, both, neither? Then, as a group, **find the weakest link in the plan** (nations won't sign? enforcement fails? we'd need a warning shot first?) **and stress-test it**.{>>{"author":"AI","timestamp":1791094719426}@@Clarity: this block packs four asks into one paragraph (gut reaction, weakest link, stress-test, and the alternative below). AI (mild): the bracketed run of question fragments, and "stress-test it".<<}
 > **And if your group rejects the halt, what do you endorse instead?** Anything can be a valid answer (even keep going), but you have to defend it.
 
-Want help or clarification for this question? Ask your navigator or copy it into the [Lens Tutor](https://lensacademy.org/tutor) for an explanation.
+
 Want help or clarification for this question?{--{"author":"Andreas's AI","timestamp":1791183873881}@@{>>{"author":"AI","timestamp":1791094720202}@@AI (mild, recurring): "help or an explanation … ask for an explanation" repeats itself, and it is the same stock line in every doc.<<}--} Ask your navigator or copy it into the [Lens Tutor](https://lensacademy.org/tutor) for an explanation.
 
 
