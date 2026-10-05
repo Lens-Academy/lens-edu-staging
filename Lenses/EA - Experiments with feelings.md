@@ -64,7 +64,15 @@ collapse:: closed
 #### Text
 content::
 **Claim tested:** suffering is pain multiplied by resistance (S = P x R), so dropping resistance lowers suffering even when pain stays.
-**Instruction:** the "Short Example of How to Meditate on Pain" on page 2 of Shinzen Young's [synopsis](https://www.shinzen.org/wp-content/uploads/2016/12/art_synopsis-pain.pdf). It is written for physical pain. Use it the same way on the body sensations of a difficult feeling, as he says the method allows. In short: pick the area where the sensation is strongest, get a clear sense of its size, shape and borders, watch it closely for small changes, and each time it changes, relax your whole body and mind into it without judging.
+**Instruction:** the "Short Example of How to Meditate on Pain" from Shinzen Young's synopsis, which you read earlier in this module. It is written for physical pain. Use it the same way on the body sensations of a difficult feeling, as he says the method allows.
+
+#### Article
+source:: [[../articles/young-natural-pain-relief]]
+from:: I would like to give you a tangible sense of the experience of mindfulness.
+to:: This, however, is a temporary phenomenon.
+
+#### Text
+content::
 **Dose:** 10 minutes, whenever there is pain or a strong feeling, for one to two weeks.
 **Measure:** rate pain (how strong the sensation is) and suffering (how bad it is to have it) separately, 0 to 10 each, before and after. If S = P x R holds for you, suffering should drop more than pain.
 **Safety:** Shinzen notes that pain may at first seem to get worse when you focus on it, and says this is temporary. Use this on pain that is already known and checked. New or unexplained pain belongs with a doctor first.
