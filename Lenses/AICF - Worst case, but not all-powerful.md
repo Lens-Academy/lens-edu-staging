@@ -8,7 +8,7 @@ tutor_minutes: 5
 ---
 #### Text
 content::
-In a control evaluation, the red team plays the scheming model. How much should we assume about that model? Buck Shlegeris answers in a January 2025 post on Redwood Research's blog. He lists the worst-case assumptions control research makes, says why he makes them and where he has become less sure of them, and then names the one worst-case assumption control does not make.
+In a control evaluation, the red team plays the scheming model. How much should we assume about that model? Buck Shlegeris answers in a January 2025 post on Redwood Research's blog. He lists the worst-case assumptions control research makes, says why he makes them and where he has become less sure of them, and then, in an optional folded part, names the one worst-case assumption control does not make.
 
 #### Article
 source:: [[../articles/shlegeris-thoughts-on-the-conservative-assumptions-in-ai-control]]
