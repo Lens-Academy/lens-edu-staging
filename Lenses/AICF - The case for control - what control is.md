@@ -26,6 +26,14 @@ feedback-instructions:: In at most four sentences: say plainly what the learner 
 #### Article
 from:: One difficulty we face when arguing for control
 to:: Because control could be applied to mitigate risk from scheming right now, it's a particularly promising target for research effort and policy commitments.
+#### Callout: Quick recall
+#### Question: Open
+id:: d3436a3e-f4ab-4dce-b452-dec7fca0af5c
+content:: What do Greenblatt and Shlegeris mean by "transformatively useful AI", and why do they aim control at those AIs rather than at arbitrarily powerful ones?
+assessment-instructions:: Score out of 100. 50: the meaning: AIs capable of substantially reducing risk from the more powerful AIs that come after them, for example by greatly speeding up AI safety research. 50: why aim there: the authors do not expect control to work for arbitrarily powerful AIs, but think it could work for the first AIs that are this useful. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Transformatively useful AIs are AIs capable of substantially reducing risk from the AIs that come after them, for example by massively speeding up AI safety research. The authors do not think control can work for arbitrarily powerful AIs, but they think it could work for these first transformatively useful ones, so that is where they aim it."
+force-feedback:: first
+feedback-instructions:: In at most four sentences: say what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer in your own words. Transformatively useful AIs are AIs capable of substantially reducing risk from later AIs, for example by speeding up safety research. The authors expect control to fail for arbitrarily powerful AIs but to be workable for these first ones. No follow-up questions. Tell them to move on.
+#### End Callout
 
 #### Callout: Optional: why catching counts
 collapse:: closed

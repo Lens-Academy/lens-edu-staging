@@ -14,6 +14,14 @@ This continues the same post by Greenblatt and Shlegeris. It explains how a red 
 source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
 from:: In a control evaluation, a red team searches for strategies
 to:: and doing technique development to improve the weaknesses that they uncover.
+#### Callout: Quick recall
+#### Question: Open
+id:: d2beb61b-ae14-4b9b-bbbf-021602c1c19b
+content:: In a control evaluation, what does the red team do? And what two conditions must hold for the evaluation to be conservative, so that it does not underestimate the risk?
+assessment-instructions:: Score out of 100. 40: the red team's job: it searches for attacks, strategies the untrusted models could follow to cause an unacceptable outcome, and checks whether the models are able to carry them out, so that safety can be estimated from how likely an unacceptable outcome would be if the models used those attacks. An answer that says the red team looks for ways a scheming model could get past the safety measures and tests whether the model can do them earns the full 40. 30: the first condition: the red team must be at least as good at finding attacks as a scheming model would be. 30: the second condition: the models' capabilities must be measured in a way the model cannot sabotage, for example by deliberately doing worse on the tests. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "The red team searches for attacks, strategies the untrusted models could use to cause an unacceptable outcome, and checks whether the models can carry them out. Safety is estimated from the chance of an unacceptable outcome if the models used those attacks. For this to be conservative, the red team must be at least as good at finding attacks as scheming models, and the models' capabilities must be measured in a way that holds up even if the model tries to sabotage the measurement."
+force-feedback:: first
+feedback-instructions:: In at most five sentences: say what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer in your own words. The red team searches for attacks the untrusted models could use and checks whether the models can carry them out. The two conditions: the red team is at least as good at finding attacks as scheming models, and capabilities are measured in a way the model cannot sabotage. Add that the authors expect both to be achievable for early transformatively useful AIs because those AIs have less serial thinking time, less information about the countermeasures and no chance to practise, and that they still read a measured risk under 1% as more like 5 to 20%. No follow-up questions. Tell them to move on.
+#### End Callout
 
 #### Callout: Optional: where evaluation runs out
 collapse:: closed
@@ -102,6 +110,15 @@ feedback-instructions:: In at most four sentences: confirm what the learner got 
 source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
 from:: ## Control evaluations and black-box techniques
 to:: We'll elaborate on why we think this is a good choice and details of the exact rules in the [[#^appendix-why-control-evaluations-are-conservative-about-inductive-biases-and-ai-internal-structure|Appendix "Why control evaluations are conservative about inductive biases and AI internal structure"]].
+
+#### Callout: Quick recall
+#### Question: Open
+id:: 6caca5e1-cd71-4576-9a8c-9cb632e36584
+content:: Why do the authors want control evaluations to rely only on what a model is not capable of doing, rather than on how it generalises or what its internals look like?
+assessment-instructions:: Score out of 100. 60: evidence for control must not rest on assumptions about scheming models that might be wrong, and techniques that rely on how a model generalises or on its internal structure depend on exactly such assumptions about a model that may be working against you. 40: whether a model is capable of something can be checked with standard capability evaluations, so evidence of the form "the model cannot do this" is much easier to be confident in. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "To be confident in control, the evidence must not rest on wrong assumptions about how a scheming model behaves. Techniques that depend on how a model generalises or on its internal structure need such assumptions, and a scheming model could break them. Whether a model is capable of something can be measured with standard capability evaluations, so relying only on what the model cannot do is much easier to trust."
+force-feedback:: first
+feedback-instructions:: In at most four sentences: say what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer in your own words. Evidence for control must not rest on assumptions about scheming models that could be wrong, and techniques built on generalisation or internal structure need such assumptions. Capabilities can be measured with standard capability evaluations, so "the model cannot do this" is the easiest kind of evidence to trust. No follow-up questions. Tell them to move on.
+#### End Callout
 
 #### Callout: Practice: which model do you trust, and what does the evidence show?
 #### Question: Open
