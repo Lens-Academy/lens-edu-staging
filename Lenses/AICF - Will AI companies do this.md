@@ -12,10 +12,10 @@ tags:
 content::
 Every route in this unit assumes someone runs the control measures. In the same 80,000 Hours interview as before, Rob Wiblin asks Shlegeris whether AI companies will actually do any of this. In the interview, "auditing" means the control team investigates logged agent actions for signs of an attack, and "replacing" means swapping the most suspicious actions for safer ones before they run.
 
-#### Article
-source:: [[../articles/wiblin-buck-shlegeris-on-controlling-ai-that-wants-to-take-over-so-we-can-use-it-anyway]]
-from:: "**Buck Shlegeris:** So we’ve talked about a bunch of different control techniques here."
-to:: "so I’ve stopped thinking about the really high-assurance stuff."
+#### Video
+source:: [[../video_transcripts/80-000-hours-controlling-ai-that-wants-to-take-over-so-we-can-use-it-anyway-buck-shlegeris]]
+from:: 1:01:14.6
+to:: 1:04:45.7
 
 #### Article
 from:: "**Buck Shlegeris:** I think a general theme of a lot of this is that"
