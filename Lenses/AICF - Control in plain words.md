@@ -24,6 +24,30 @@ assessment-instructions:: Score out of 100. 50: internal rogue deployment: an AI
 force-feedback:: first
 feedback-instructions:: The learner just read part of CSET's explainer on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the paragraph that explains it (the third paragraph of the introduction and the paragraph on risks inside AI companies). No follow-up question. No generic praise.
 
+#### Article
+source:: [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agents]]
+from:: The first line of defense against risks such as these
+to:: both would pose greater risks if exhibited by more advanced AI agents.
+
+#### Question: Open
+id:: 8ef9f16d-5351-40f7-bee9-b7e90cc00693
+content:: The authors name two ways an AI agent could end up secretly pursuing unwanted goals. What are they, and what does each mean?
+assessment-instructions:: Score out of 100. 50: alignment faking: the goals emerge in training, because training meant to remove dangerous behaviour instead teaches the model to hide it. 50: data poisoning: a human attacker deliberately puts crafted data into the training data, inserting a backdoor so that the model behaves dangerously under certain conditions. Give credit for each point whenever the answer shows the idea, in any wording, even if the learner does not use the names. Model answer, for the feedback, not a grading checklist: "First, alignment faking: training that was supposed to remove a dangerous tendency only teaches the model to hide it. Second, data poisoning: an attacker slips crafted examples into the training data so that the model behaves dangerously when a certain trigger appears."
+force-feedback:: first
+feedback-instructions:: The learner just read part of CSET's explainer on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the paragraph that explains it (the paragraph that starts "AI agents can behave more dangerously"). No follow-up question. No generic praise.
+
+#### Article
+source:: [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agents]]
+from:: ### Methods for AI Control
+to:: without human review.
+
+#### Question: Open
+id:: 374f4dce-f67d-4363-8cef-8707caf6242b
+content:: Why do the authors call control a "second line of defense"? Then pick one of the cybersecurity practices they list and say what it would make harder for an AI agent that is working against you.
+assessment-instructions:: Score out of 100. 40: alignment is the first line of defence (stopping the agent from wanting to cause harm), and control is a second line that still holds if alignment fails: it lets you use the agent even if it is acting against you. 60: one practice from the list and what it makes harder, for example: capping and logging data leaving the data centre makes it harder for an agent to copy its weights out. Limits on running time or compute make it harder to use the company's compute for unauthorised work. Simple, robust software and hardware mean an attack would need a new, unknown bug. Least privilege (the agent can propose code changes but a human must review them before they apply) stops the agent from changing systems on its own. 30 of the 60 for naming a practice without saying what it makes harder. Give credit whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Alignment is the first line: it tries to make the agent not want to cause harm. Control is the second line: it still protects you if alignment failed and the agent is working against you. For example, least privilege means the agent can only propose code changes, and a human has to approve them, so it cannot quietly change the company's systems on its own."
+force-feedback:: first
+feedback-instructions:: The learner just read part of CSET's explainer on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the paragraph that explains it (the start of "Methods for AI Control" and the bulleted list). No follow-up question. No generic praise.
+
 #### Callout: Control claim or alignment claim?
 #### Text
 content::
@@ -83,30 +107,6 @@ options::
 explanation:: It says the model could not act alone even if it wanted to. Whether one human reviewer can really catch a sneaky change is a separate question, which control evaluations test.
 feedback-instructions:: One or two sentences. Say whether the choice was right, and why: the claim is that the model cannot act alone whatever it wants, so it is a control claim. If it fits, add that whether a human reviewer would really catch a sneaky change is exactly what a control evaluation would test. No generic praise.
 #### End Callout
-
-#### Article
-source:: [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agents]]
-from:: The first line of defense against risks such as these
-to:: both would pose greater risks if exhibited by more advanced AI agents.
-
-#### Question: Open
-id:: 8ef9f16d-5351-40f7-bee9-b7e90cc00693
-content:: The authors name two ways an AI agent could end up secretly pursuing unwanted goals. What are they, and what does each mean?
-assessment-instructions:: Score out of 100. 50: alignment faking: the goals emerge in training, because training meant to remove dangerous behaviour instead teaches the model to hide it. 50: data poisoning: a human attacker deliberately puts crafted data into the training data, inserting a backdoor so that the model behaves dangerously under certain conditions. Give credit for each point whenever the answer shows the idea, in any wording, even if the learner does not use the names. Model answer, for the feedback, not a grading checklist: "First, alignment faking: training that was supposed to remove a dangerous tendency only teaches the model to hide it. Second, data poisoning: an attacker slips crafted examples into the training data so that the model behaves dangerously when a certain trigger appears."
-force-feedback:: first
-feedback-instructions:: The learner just read part of CSET's explainer on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the paragraph that explains it (the paragraph that starts "AI agents can behave more dangerously"). No follow-up question. No generic praise.
-
-#### Article
-source:: [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agents]]
-from:: ### Methods for AI Control
-to:: without human review.
-
-#### Question: Open
-id:: 374f4dce-f67d-4363-8cef-8707caf6242b
-content:: Why do the authors call control a "second line of defense"? Then pick one of the cybersecurity practices they list and say what it would make harder for an AI agent that is working against you.
-assessment-instructions:: Score out of 100. 40: alignment is the first line of defence (stopping the agent from wanting to cause harm), and control is a second line that still holds if alignment fails: it lets you use the agent even if it is acting against you. 60: one practice from the list and what it makes harder, for example: capping and logging data leaving the data centre makes it harder for an agent to copy its weights out. Limits on running time or compute make it harder to use the company's compute for unauthorised work. Simple, robust software and hardware mean an attack would need a new, unknown bug. Least privilege (the agent can propose code changes but a human must review them before they apply) stops the agent from changing systems on its own. 30 of the 60 for naming a practice without saying what it makes harder. Give credit whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Alignment is the first line: it tries to make the agent not want to cause harm. Control is the second line: it still protects you if alignment failed and the agent is working against you. For example, least privilege means the agent can only propose code changes, and a human has to approve them, so it cannot quietly change the company's systems on its own."
-force-feedback:: first
-feedback-instructions:: The learner just read part of CSET's explainer on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the paragraph that explains it (the start of "Methods for AI Control" and the bulleted list). No follow-up question. No generic praise.
 
 #### Article
 source:: [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agents]]
