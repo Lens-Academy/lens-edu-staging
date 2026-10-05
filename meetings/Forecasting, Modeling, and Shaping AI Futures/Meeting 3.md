@@ -78,7 +78,7 @@ AI systems are watched, restricted, and checked by other systems. They cannot ca
 2. What breaks it first? Name the specific thing.
 3. You wrote conditions for when control is the right strategy at in "The Case Against Control", naming the capability level, containment duration, who maintains it, and what the system is being asksed to do.{>>{"author":"AI","timestamp":1791094781375}@@Clarity: needs an exercise reminder. This refers to the "Write the conditions" question at the end of "The Case Against Control" without saying what it asked (capability level, how long containment has to hold, who maintains it, the task), and leaves people who skipped it with nothing to say. It also asks two questions.<<} Whose conditions in this room are the strictest, and does any real deployment meet them?
 4. Put a number on it: what is the probability that the first AI capable of causing serious harm is contained rather than aligned?{--{"author":"Andreas's AI","timestamp":1791188065348}@@{>>{"author":"AI","timestamp":1791094782199}@@Content: reads as either-or (it could be both, or neither), and the table header asks something different ("containment comes before alignment"). Which question is meant?<<}--} Say your number out loud before you defend it.
-naming what has to be true about a situation for control to be the right strategy in it. Capability level, how long the containment has to hold, who maintains it, what the system is being asked to do. 
+
 
 | Names | Would you take the deal, what breaks it first, and your probability that a potentially harmful AI is contained rather than aligned. |
 |------|------------------------|
