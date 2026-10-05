@@ -88,7 +88,11 @@ Greenblatt and Shlegeris wrote this in January 2024. In September 2025 Apollo Re
 
 #### Article
 source:: [[../articles/apolloresearch-stress-testing-deliberative-alignment-for-anti-scheming-training]]
-from:: This kind of situational awareness is a problem
+from:: **Situational awareness:** The AI has significant knowledge
+to:: can take actions on this basis.
+
+#### Article
+from:: Models sometimes display situational awareness
 to:: gave the answers we wanted to see.
 
 #### Article
