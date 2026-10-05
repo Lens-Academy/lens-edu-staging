@@ -4,7 +4,7 @@ title: "Acceptance, reappraisal and suppression"
 tldr: "Psychology has tested three things people do with a feeling: change what the situation means, let the feeling be, or hide it. The first two both help, in different ways. Hiding it mostly does not."
 summary_for_tutor: "First reading lens of module 7. Defines emotion regulation, reappraisal, acceptance and suppression. Readings: Troy, Shallcross, Brunner, Friedman and Jones 2018 (abstract, the implications paragraph and the two verbatim instructions): in a within-subjects lab study with sad film clips (two samples, N = 142), reappraisal lowered negative and raised positive emotion more than acceptance, while acceptance felt less difficult and in one sample showed a skin conductance pattern the authors read as more successful regulation; the authors conclude both are 'effective' for different reasons. Ford, Lam, John and Mauss 2018 abstract: habitual acceptance of mental experiences predicted psychological health (N = 1,003), lower negative but not positive emotion to a lab stressor (N = 156) and to daily stressors, which accounted for better psychological health 6 months later (N = 222); the link was unique to accepting mental experiences, not accepting situations. Gross and John 2003, quoted in our text: suppressors experience and express less positive emotion yet experience more negative emotion, and suppression goes with worse relationships and wellbeing. Webb, Miles and Sheeran 2012 meta-analysis numbers in our text. Optional: Lindsay et al. 2019 abstract (acceptance training as the active ingredient in a mindfulness app reduced loneliness by 22%). Then recall, processing and a learning question."
 reading_minutes: 14
-tutor_minutes: 14
+tutor_minutes: 16
 tags:
   - wip
 ---
