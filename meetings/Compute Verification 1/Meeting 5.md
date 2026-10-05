@@ -16,9 +16,9 @@ source:: [[../shared/Session Doc - How today works]]
 ### Room 1: Icebreaker  [0:05–0:19]
 
 Go around your group:
-1\. How was working through this unit's content? Denser or easier than the previous units? Did you finish, and if not, what stopped you? (No judgment, "I didn't finish" is a fine answer.){--{"author":"Andreas's AI","timestamp":1791183330320}@@{>>{"author":"AI","timestamp":1791094814456}@@Clarity (recurring): four questions in one item. AI (mild, recurring): stock reassurance.<<}--}
-2\. Recall something from this unit that stuck with you: a number, a claim, or an unsolved limit. What was it, and how did it impact you?{--{"author":"Andreas's AI","timestamp":1791183331877}@@{>>{"author":"AI","timestamp":1791094815348}@@AI (strong): "landed on you", "what did it do to you?" and "…are all answers" are typical Claude phrasing. The opening also asserts that something landed instead of asking. Clarity: two questions in this item.<<}--}
-3\. Having now completed Compute Verification 1, are you more or less hopeful that a pause could actually be verified?{--{"author":"Andreas's AI","timestamp":1791183333578}@@{>>{"author":"AI","timestamp":1791094828216}@@AI (mild): the "Five units in:" lead-in. Clarity: two questions in this item, and "more or less" leaves out "about the same".<<}--} Which part of the course swayed you most? If nothing changed, what evidence would move the needle for you?
+1\. How was working through this unit's content? Denser or easier than the previous units? Did you finish, and if not, what stopped you? (No judgment, "I didn't finish" is a fine answer.)
+2\. Recall something from this unit that stuck with you: a number, a claim, or an unsolved limit. What was it, and how did it impact you?
+3\. Having now completed Compute Verification 1, are you more or less hopeful that a pause could actually be verified? Which part of the course swayed you most? If nothing changed, what evidence would move the needle for you?
 
 
 | Names | What stuck with you + more or less hopeful, and which part did that |
@@ -41,8 +41,8 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-With offline licensing a chip runs only while a licence server keeps renewing its token; whoever controls that server holds the keys. As described earlier in the unit:{--{"author":"Andreas's AI","timestamp":1791183335612}@@{>>{"author":"AI","timestamp":1791094816503}@@AI (mild): "The unit's line:" then an "only as X as Y" aphorism in bold. The wording is accurate (it is the summary of the hardware-authorization lens), but it is a long sentence to read in a breakout.<<}--} **an off-switch for someone else's compute is only as acceptable as the answers to who holds the key, what happens when the server is down, and who reverses a mistake.**
-As a group, design the key protocol for a US-China pause:{--{"author":"Andreas's AI","timestamp":1791183337032}@@{>>{"author":"AI","timestamp":1791094817346}@@Clarity (mild): "design the key" leans on the metaphor. The questions below are really about who controls the licence server.<<}--}
+With offline licensing a chip runs only while a licence server keeps renewing its token; whoever controls that server holds the keys. As described earlier in the unit: **an off-switch for someone else's compute is only as acceptable as the answers to who holds the key, what happens when the server is down, and who reverses a mistake.**
+As a group, design the key protocol for a US-China pause:
 1\. Who holds the keys? One government, both, or several who must agree?
 2\. If the server is unreachable for a day, do chips keep running (fail open) or stop (fail closed)?
 3\. One day a false alarm shuts down a hospital's lawful AI cluster. Which party reverses it, and who pays?
@@ -50,7 +50,7 @@ As a group, design the key protocol for a US-China pause:{--{"author":"Andreas's
 
 
 
-Want help or clarification for this question?{--{"author":"Andreas's AI","timestamp":1791181898316}@@{>>{"author":"AI","timestamp":1791094818252}@@AI (mild, recurring): "help or an explanation … ask for an explanation" repeats itself, and it is the same stock line in every doc.<<}--} Ask your navigator or copy it into the [Lens Tutor](https://lensacademy.org/tutor) for an explanation.
+Want help or clarification for this question? Ask your navigator or copy it into the [Lens Tutor](https://lensacademy.org/tutor) for an explanation.
 
 
 | Names | Your key design + fail open or closed + would both sign? |
@@ -99,8 +99,8 @@ One or two people share what their group landed on.
 ### Room 4: Your ongoing action  [1:15–1:27]
 
 **New group. Names first, then straight in.**
-Part 1 ends today, but your action plan doesn't have to.{--{"author":"Andreas's AI","timestamp":1791183338754}@@{>>{"author":"AI","timestamp":1791094819108}@@AI (strong, recurring): "X ends, but Y doesn't" closer. The same line closes AIRF M5 and AIF M5.<<}--}
-1\. In Unit 1 you read AI 2040's Plan A, a proposed regime for verifying an international agreement, and voted to adopt, amend, or reject it. Would you vote the same way now? (Don't remember it? Vote on what you would accept today.){--{"author":"Andreas's AI","timestamp":1791181899591}@@{>>{"author":"AI","timestamp":1791094819905}@@Note: a good exercise reminder. Worth keeping as it is.<<}--}
+Part 1 ends today, but your action plan doesn't have to.
+1\. In Unit 1 you read AI 2040's Plan A, a proposed regime for verifying an international agreement, and voted to adopt, amend, or reject it. Would you vote the same way now? (Don't remember it? Vote on what you would accept today.)
 2\. Share the one action you choose to keep doing after this course, and its first concrete step with a date. Tell your accountability buddy too. For example:
 
 - read one verification paper a week
@@ -125,7 +125,7 @@ Part 1 ends today, but your action plan doesn't have to.{--{"author":"Andreas's 
 Back in the main room, share if you feel like it: one thing you're glad you know now that you didn't know when this course started.
 Before you leave (your navigator will talk through these):
 
-- This is the last meeting of Part 1 of the Compute Verification Track. The second course, [Compute Verification 2](https://lensacademy.org/courses/compute-verification-2), continues through the remaining evidence streams (cloud, intelligence, human and institutional) and looks at how a determined adversary evades them. After both courses is a guided capstone to design and defend a verification regime for a three-month emergency pause.{--{"author":"Andreas's AI","timestamp":1791183340771}@@{>>{"author":"AI","timestamp":1791094820705}@@AI (mild): one long sentence chained with a semicolon and two colons, and "evidence streams" is course jargon. Content: the Capstone course file describes picking one brief from a bank (regime spec, threat model, costed monitoring plan, dossier, protocol) or proposing your own, not one fixed task on a three-month pause. Worth checking which is current.<<}--} Watch Discord for details on joining or sign up on the above link to get notified when Part 2 of the Compute Verification Track goes live.
+- This is the last meeting of Part 1 of the Compute Verification Track. The second course, [Compute Verification 2](https://lensacademy.org/courses/compute-verification-2), continues through the remaining evidence streams (cloud, intelligence, human and institutional) and looks at how a determined adversary evades them. After both courses is a guided capstone to design and defend a verification regime for a three-month emergency pause. Watch Discord for details on joining or sign up on the above link to get notified when Part 2 of the Compute Verification Track goes live.
 - Keep your Unit 1 essays, including the success scenario if you wrote it: XLab's curriculum will revisit it in a future course down the track.
 - Found something unclear, wrong, or missing? The course is still in development: send it through [XLab's feedback form](https://forms.gle/KkWcHkKh87pygDzw9).
 
