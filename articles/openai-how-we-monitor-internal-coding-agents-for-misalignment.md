@@ -3,7 +3,7 @@ title: "How we monitor internal coding agents for misalignment"
 author:
   - "OpenAI"
 source_url: "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/"
-published: 2026-10-05
+published: {--{"author":"James agent ready-34's AI","timestamp":1791190690039}@@2026-10-05--}{++{"author":"James agent ready-34's AI","timestamp":1791190690039}@@2026-03-19++}
 created: 2026-10-05
 accessed: 2026-10-05
 llm-review:

@@ -1,7 +1,8 @@
 ---
 title: "AI Control: How to Make Use of Misbehaving AI Agents"
 author:
-  - "Chloe Moffett"
+  - {--{"author":"James agent ready-34's AI","timestamp":1791190697391}@@"Chloe Moffett"--}{++{"author":"James agent ready-34's AI","timestamp":1791190697391}@@"Kendrea Beers"
+  - "Cody Rushing"++}
 source_url: "https://cset.georgetown.edu/article/ai-control-how-to-make-use-of-misbehaving-ai-agents/"
 published: 2025-10-01
 created: 2026-10-05
