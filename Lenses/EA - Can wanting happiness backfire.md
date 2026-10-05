@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-If wanting causes trouble, what about wanting happiness itself? Three studies, read through their abstracts. Each link opens the full paper.
+If wanting causes trouble, what about wanting happiness itself? Three studies, read through their abstracts.
 
 In 2011 a team led by the psychologist Iris Mauss asked whether valuing happiness could backfire. Both of their studies had only female participants.
 
