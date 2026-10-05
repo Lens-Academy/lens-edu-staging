@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-The Buddhist teaching on the self is called **anatta**, which the Access to Insight glossary renders as "not-self; ownerless" ([glossary](https://www.accesstoinsight.org/glossary.html)). Its best-known statement is a short discourse which, as the translator's note says, was "the first of the Buddha's discourses during which his listeners became arahants", that is, fully awakened. It goes through five **aggregates**, the "physical and mental components of the personality and of sensory experience in general" ([same glossary](https://www.accesstoinsight.org/glossary.html)): form, feeling, perception, fabrications and consciousness. **Fabrications** are, in the same glossary, "the forces and factors that fashion things (physical or mental), the process of fashioning, and the fashioned things that result".
+The Buddhist teaching on the self is called **anatta**, which the Access to Insight glossary renders as "not-self" and "ownerless" ([glossary](https://www.accesstoinsight.org/glossary.html)). Its best-known statement is a short discourse which, as the translator's note says, was "the first of the Buddha's discourses during which his listeners became arahants", that is, fully awakened. It goes through five **aggregates**, the "physical and mental components of the personality and of sensory experience in general" ([same glossary](https://www.accesstoinsight.org/glossary.html)): form, feeling, perception, fabrications and consciousness. **Fabrications** are, in the same glossary, "the forces and factors that fashion things (physical or mental), the process of fashioning, and the fashioned things that result".
 
 Read it whole. The argument is the same for each aggregate, so the text abbreviates the middle ones.
 
