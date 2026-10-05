@@ -30,7 +30,7 @@ id:: 4a8ca4d5-3760-4d15-8752-e535a74fd5e2
 content::
 In module 2 you read Jeffery Martin's study of **persistent non-symbolic experience** (PNSE), his term for a lasting change in the sense of self that he elsewhere calls fundamental wellbeing. That page said this module would come back to how to weigh it. The facts: 50 interviewees who volunteered and described themselves as having PNSE, all white and 78% male. The evidence is mostly what they said in interviews, with a few checks such as the observations by partners you read in "Reports from the inside". Martin also runs a course that aims to bring people into this state.
 
-Martin's interviewees report an ongoing deep peace that does not depend on circumstances. Using the table, which kinds of evidence does this claim rest on? What can that evidence show, what can it not show, and what evidence would make the claim stronger?
+Martin's interviewees report an ongoing deep peace that does not depend on circumstances. Using the table, which kinds of evidence does this claim rest on?
 force-feedback:: first
 feedback-instructions:: The learner applies the evidence table to Martin's PNSE study, which module 2 promised module 3 would weigh. Facts given on the page: 50 interviewees who volunteered and described themselves as having PNSE, all white and 78% male, mostly interviews with a few checks (in three participants a partner saw clear signs of stress the participant did not report), Martin runs a course (the Finders Course) aimed at the state. The claim: interviewees report an ongoing deep peace that does not depend on circumstances. This question asks only which kinds of evidence the claim rests on. Practice, not graded.
 
