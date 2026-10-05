@@ -2,8 +2,8 @@
 id: '3d1eb290-bffc-497c-b520-5ad1e3e10b33'
 title: "Fundamental wellbeing and the self"
 tldr: "People who say they live in lasting non-dual peace report a changed sense of self and far fewer self-related thoughts. But when the researcher asked their partners, and watched their bodies, the picture changed."
-summary_for_tutor: "Reading from Jeffery Martin's paper on persistent non-symbolic experience (PNSE, which he elsewhere calls fundamental wellbeing; 50 interviewees, all white, 78% male, self-selected). Excerpts: (1) sense of self: a change from an individualised to a 'larger', less individuated, non-localised sense of self, described in the terms of each person's tradition; sudden in about 70%, gradual over days to four months in 30%; those without a tradition often thought they had a mental disorder; clinicians likened it to depersonalisation and derealisation 'except for the positive nature of the experience'; at the far end (Location 4) all individualised sense of self vanished, nine participants. (2) Cognition: reduction limited to self-related thoughts, estimated at 80 to 95% by those who could quantify it. (3) Stress and PNSE: some lost PNSE during very stressful events; a participant whose father and sister died reported deep peace while his partner reported poor sleep, appetite, mood, tense muscles, reduced sex drive; seen in three participants; participants believed they were far more aware of their bodies than they were (yoga instructor); participants who said they could no longer be racist or sexist showed bias on Project Implicit tests. Martin calls it a disconnect between inner experience and other parts of psychology and physiology. Then recall and a wedge question about what self-reports can and cannot show."
-reading_minutes: 12
+summary_for_tutor: "Reading from Jeffery Martin's paper on persistent non-symbolic experience (PNSE, which he elsewhere calls fundamental wellbeing; 50 interviewees, all white, 78% male, self-selected). Excerpts: (1) sense of self: a change from an individualised to a 'larger', less individuated, non-localised sense of self, described in the terms of each person's tradition; sudden in about 70%, gradual over days to four months in 30%; those without a tradition often thought they had a mental disorder; clinicians likened it to depersonalisation and derealisation 'except for the positive nature of the experience'; at the far end (Location 4) all individualised sense of self vanished, nine participants. (2) Cognition: the reduction in thought seemed limited to self-related thoughts; asked to quantify the reduction in the quantity of their thoughts, those who could answered 80 to 95%. (3) Stress and PNSE: some lost PNSE during very stressful events; a participant whose father and sister died reported deep peace while his partner reported poor sleep, appetite, mood, tense muscles, reduced sex drive; seen in three participants; participants believed they were far more aware of their bodies than they were (yoga instructor); participants who said they could no longer be racist or sexist showed bias on Project Implicit tests. Martin calls it a disconnect between inner experience and other parts of psychology and physiology. Then recall and a wedge question about what self-reports can and cannot show."
+reading_minutes: 9
 tutor_minutes: 10
 tags:
   - wip
@@ -37,20 +37,22 @@ to:: Project Implicit uses physiology to test these responses.
 
 #### Text
 content::
+One correction to the last sentence: Project Implicit's tests measure how fast people sort words and pictures, not physiology ([Project Implicit](https://implicit.harvard.edu/implicit/iatdetails.html)).
+
 The library module on fundamental wellbeing research goes further, including Scott Alexander's reading of this paper and the course Martin sells.
 
 #### Question: Open
 id:: dcd72b23-c351-4ee1-af9d-ce9f0ad29514
 content::
 \## Recall
-Without looking back, write down what PNSE participants reported about their sense of self and their thoughts, and what Martin found when he looked beyond their reports.
+Spend 2 minutes writing down everything you remember from the three excerpts, without looking back. No need to organise it.
 force-feedback:: first
 feedback-instructions:: The learner read three excerpts from Martin's PNSE paper and wrote a free recall.
 
 Key points:
 - Sense of self: a change from an individualised sense of self to something "larger" and less individuated, often felt as extending beyond the body, described in the language of each person's tradition (spaciousness for Buddhists, union with God for Christians). Sudden in about 70%, gradual over days to four months in the rest. Those without a framework often thought they had a mental disorder. Clinicians likened it to depersonalisation and derealisation except that it felt positive. At the far end (Location 4, nine participants) all individualised sense of self had vanished.
-- Thought: not all thoughts disappeared, only self-related ones, by an estimated 80 to 95%.
-- The check: some lost PNSE in very stressful periods. One participant, after deaths in his family, reported deep peace while his partner saw poor sleep, appetite, mood, tense muscles and lower sex drive. Martin saw this in three participants. In yoga sessions participants thought they were more aware of their bodies than they were. Some who said they could no longer be racist or sexist showed bias on Project Implicit tests. Martin calls it a disconnect between inner experience and the rest of their psychology and physiology.
+- Thought: not all thoughts disappeared. The reduction seemed limited to self-related thoughts, and participants who could put a number on how much less they thought answered 80 to 95%.
+- The check: some lost PNSE in very stressful periods. One participant, after deaths in his family, reported deep peace while his partner saw poor sleep, appetite, mood, tense muscles and lower sex drive. Martin saw this in three participants. In yoga sessions participants thought they were more aware of their bodies than they were. Participants who said they could no longer be racist or sexist each showed some bias on Project Implicit tests. Martin calls it a disconnect between inner experience and the rest of their psychology and physiology.
 
 Be a brief, honest mirror. 80 to 140 words, short paragraphs, no lists. Acknowledge what is right without inflation, name what is missing, correct errors in one sentence, normalise gaps. No follow-up questions, no generic praise. One reply, then tell them to move on.
 
