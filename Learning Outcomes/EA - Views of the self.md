@@ -1,25 +1,39 @@
 ---
 id: '1975b59e-368b-445b-b9ba-a837debd965b'
-learning-outcome: "Given a statement about the self, identify which view it expresses (not-self as a method, the bundle or reductionist view, a true Self as a core with qualities, a true Self as pure awareness, the self as a brain model, the narrative self), and tell apart disagreements between views that are about words from those that evidence could settle."
-writing_minutes: 12
+learning-outcome: "Given a statement about the self, identify which view it expresses (not-self as a method, no-self as a claim about what exists, the bundle or reductionist view, a true Self as a core with qualities, a true Self as pure awareness, the self as a brain model, the narrative self), and tell apart disagreements between views that are about words from those that evidence could settle."
+writing_minutes: 15
 tags:
   - wip
 ---
-%% Test for module 6 of Emotional Abundance, part 1. The six statements are our own paraphrases, written without names so the learner has to recognise the view, not recall an author: 1 Thanissaro's reading of SN 22.59, 2 Parfit, 3 Schwartz (IFS), 4 Ramana Maharshi, 5 Metzinger, 6 Dennett. The two open questions test the main analytical point of the module: some disagreements (Metzinger vs Thompson on "illusion") are verbal, others (whether introspection finds a remaining awareness) are about what can be observed. %%
+%% Test for module 6 of Emotional Abundance, part 1. The seven statements are our own paraphrases, written without names. Review 2026-10-05: the first draft's statements could be matched on keywords by a well-read person who had not taken the module, so the statements now hinge on the module's own distinctions, with surface words that point to the wrong option: 1 Thanissaro (not-self as a method, judged by stress) versus 2 Sujato and Bodhi (no-self as a fact, strategy reading rejected), 3 Parfit's spectrum case, 4 Schwartz (a Self with qualities, described with the word "awareness") versus 5 Ramana (awareness without personal qualities, world like the rope-snake), 6 Metzinger, 7 Dennett (answerable from the comparison table, since the Dennett and Strawson lens is optional). The open questions test the main analytical point: some disagreements are verbal, others are about what can be observed. The verbal one uses two meditation teachers rather than Metzinger and Thompson, so it is not the same item as the lens's practice question. %%
 
 ## Test:
 id:: f98cc400-ad26-4ac2-8337-d77faa39bd62
 #### Question: Choice
 id:: ba2f5a38-996c-479b-8c09-11b672f67c29
-content:: "Nothing I find in myself, not my body, my moods or my thoughts, stays the same or does what I tell it. So none of it is worth calling mine, and whether a self exists is a question to set aside." Which view does this express?
+content:: "I will not tell you whether you have a self. Take the irritation you feel right now. Does it stay the same? Can you order it to stop? If not, why hold it as yours? Ask that of each thing you cling to, and judge the practice by whether your stress goes down." Which view does this express?
 options::
 - [x] Not-self as a method
+- No-self as a claim about what exists
 - The bundle or reductionist view
 - A true Self as a core with qualities
 - A true Self as pure awareness
 - The self as a brain model
 - The narrative self
-explanation:: Each thing examined is "not mine" because it changes and cannot be controlled, and the question of whether a self exists is set aside. That is the reading of the Buddha's not-self teaching as a method for letting go, not a claim about what exists.
+explanation:: The speaker refuses to say whether a self exists, examines one thing at a time for change and lack of control, and judges the practice by whether stress lessens. That is not-self read as a method (Thanissaro). The no-self reading (Sujato, Bodhi) would add that no self is there to be found anywhere.
+
+#### Question: Choice
+id:: 9cfd1658-e5a8-4357-8e49-0349608f6341
+content:: "Calling the teaching a strategy that says nothing about what exists gets it wrong. A method for letting go only works if it fits how things are, and the fact is that a self will not be found anywhere, in the body, in the mind or beyond them." Which view does this express?
+options::
+- Not-self as a method
+- [x] No-self as a claim about what exists
+- The bundle or reductionist view
+- A true Self as a core with qualities
+- A true Self as pure awareness
+- The self as a brain model
+- The narrative self
+explanation:: The speaker rejects the reading of the teaching as a strategy only and makes a claim about what exists: no self anywhere, not even beyond body and mind. That is the no-self reading of Sujato and Bodhi, against Thanissaro's not-self method.
 
 #### Question: Choice
 id:: 939f802d-84ab-4a4e-81be-587d410e78c7

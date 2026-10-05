@@ -4,7 +4,7 @@ title: "The 40 percent pie and its revision"
 tldr: "A 2005 paper split the differences in happiness between people into 50% genes, 10% circumstances and 40% what people do. Two critics showed the 40% was a leftover, not a measurement, and the original authors now agree it was likely too high."
 summary_for_tutor: "Third lens of the wellbeing science library module. Key terms defined first: variance explained (a share of the differences between people in a population, not of one person's happiness) and heritability. The claim: Lyubomirsky, Sheldon and Schkade 2005 (Review of General Psychology, p. 116) drew a pie chart in which genetics account for about 50% of the population variation in chronic happiness and circumstances about 10%, which 'leaves as much as 40% of the variance for intentional activity'. The critique: Brown and Rohrer 2019 (Journal of Happiness Studies, open access) argue (1) a between-person variance split says nothing direct about how much one person can change, and the share a factor explains depends on how much people differ in it, so a method everyone used would explain little variance; (2) the three factors are not independent and additive, the equation has no error term and omits other causes, and figures from different studies cannot simply be added; (3) the 50% heritability figure is uncertain and probably a lower bound (stable component of happiness 70 to 80% in later reviews), and the 10% for circumstances came from demographic variables (age, income, education, race, sex, family stage) in two 1970s US surveys, not from all life circumstances; their reanalysis of those data with 15 to 18 circumstance variables found 18 to 26%; (4) with other plausible numbers the leftover could be as little as 5%. They also note the pie on the cover of Lyubomirsky's book The How of Happiness and its use in coaching. The reply: Sheldon and Lyubomirsky 2019/2021 (Journal of Positive Psychology) agree with many critiques, say the 40% was likely an over-estimate and the numbers were speculative, and hold that intentional activity can raise wellbeing lastingly, though effects are smaller than they first believed and need buy-in and effort. They describe high wellbeing as 'like a bicycle tire that needs continued pumping' and write that joyful lives 'involve more than mere contentment or peacefulness'. Questions: recall, processing, two graded questions (why the pie would not show what one person controls even if the numbers were right, and how the 40% was obtained), one graded question on why the 10% for circumstances is likely too low, and a reflective question comparing the tyre picture with the course target."
 reading_minutes: 20
-tutor_minutes: 14
+tutor_minutes: 16
 tags:
   - wip
 ---
@@ -42,7 +42,20 @@ to:: would necessarily be more reasonable or more interpretable.
 
 #### Text
 content::
-The original authors replied the same year.
+Sheldon and Lyubomirsky replied the same year. Here are their abstract, their answer on the 40%, and their current picture of how people stay happier.
+
+#### Article
+source:: [[../articles/sheldon-revisiting-the-sustainable-happiness-model-and-pie-chart-can-happiness-be-successfully-pursued]]
+from:: The Sustainable Happiness Model (SHM) has been influential
+to:: makes a difference for their well-being.
+
+#### Article
+from:: Brown and Rohrer (2019) criticized our initial estimate
+to:: rather than a set point of well-being.
+
+#### Article
+from:: how do some people actually manage to reach the top half of their potential happiness range
+to:: as measured and sustained over time.
 
 #### Question: Open
 id:: ad6abdb6-246f-4a00-af0f-962c4c17ba24
