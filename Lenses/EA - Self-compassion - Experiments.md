@@ -62,7 +62,16 @@ tone:: blue
 content::
 **Claim.** The most common fear about self-compassion is that it will undermine the motivation to improve. Neff says it does the opposite ([Neff 2023](https://self-compassion.org/wp-content/uploads/2023/01/Neff-2023.pdf)). Gilbert says the same about self-criticism, which he calls focused on punishing past errors rather than on improving ([Gilbert 2010](https://www.getselfhelp.co.uk/docs/gilbert-compassion-handout.pdf), page 55).
 
-**The study behind it.** Juliana Breines and Serena Chen asked students to write for 3 minutes about their biggest weakness. One group got this prompt: "Imagine that you are talking to yourself about this weakness from a compassionate and understanding perspective. What would you say?" A control group got: "Imagine that you are talking to yourself about this weakness from a perspective of validating your positive (rather than negative) qualities." Across four experiments, people prompted to be self-compassionate saw their weakness as more changeable, reported more motivation to make amends or improve, and, after a failed vocabulary test, studied longer for a second one ([Breines and Chen 2012](https://self-compassion.org/wp-content/uploads/publications/selfimp.motivation.pdf)). The experiments were small, about 70 to 90 people each, and three of the four used students at one university. Some of the differences from the self-esteem group were only marginal (same source).
+**The study behind it.** Juliana Breines and Serena Chen asked students to write for 3 minutes about their biggest weakness. One group got this prompt: "Imagine that you are talking to yourself about this weakness from a compassionate and understanding perspective. What would you say?" A control group got: "Imagine that you are talking to yourself about this weakness from a perspective of validating your positive (rather than negative) qualities." Their summary of all four experiments:
+
+#### Article
+source:: [[../articles/breines-self-compassion-increases-self-improvement-motivation]]
+from:: In four experiments, the authors examined the hypothesis
+to:: may make people more motivated to improve themselves.
+
+#### Text
+content::
+**Incremental beliefs** here means seeing the weakness as something you can change. The experiments were small, about 70 to 90 people each, and three of the four used students at one university. Some of the differences from the self-esteem group were only marginal ([Breines and Chen 2012](https://self-compassion.org/wp-content/uploads/publications/selfimp.motivation.pdf)).
 
 **What to do.** Our own design, built on their two prompts. For the next three weeks, each time you notice a real setback or a weakness that bothers you, toss a coin. Heads: write for 3 minutes using the compassion prompt. Tails: write for 3 minutes using the self-esteem prompt.
 
