@@ -115,7 +115,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-The last room of the whole course. Some possibilities:{>>{"author":"AI","timestamp":1791094723436}@@AI (mild): a sentence fragment as the opener. Clarity: "Some possibilities" sounds optional, but items 1 and 2 are the room's asks and item 3 is information.<<}
+The last room of the whole course. Some possibilities for what to do en:{>>{"author":"AI","timestamp":1791094723436}@@AI (mild): a sentence fragment as the opener. Clarity: "Some possibilities" sounds optional, but items 1 and 2 are the room's asks and item 3 is information.<<}
 
 
 1. **Your ongoing action:** the course ends today but your action plan doesn't!{--{"author":"Andreas's AI","timestamp":1791183876821}@@{>>{"author":"AI","timestamp":1791094724258}@@AI (strong, recurring): "X ends, but Y doesn't" closer. The same line closes AIF M5 and CV1 M5.<<}--} **Share the one action you choose to keep doing after this course** (have conversations, write representatives, refer someone, aim your skills at the problem)**, and its first concrete step with a date.**
