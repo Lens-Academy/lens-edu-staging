@@ -92,5 +92,4 @@ Do not say the claim is false: say it is not shown. Per reply: if the learner as
 #### Text
 content::
 \## If you want more
-::card[[../Lenses/EA - Jhanas - A brain study of one jhana expert]]
-> A 2025 study that scanned one practitioner with over 23,000 hours many times with fMRI and EEG, and linked the brain data to their ratings of bliss.
+The same Harvard group has published several single-practitioner studies. The most detailed scanned one meditator with over 23,000 hours of practice many times with fMRI and EEG, and linked the brain data to his ratings of bliss ([Chowdhury et al., 2025, *NeuroImage*](https://meditation.mgh.harvard.edu/files/Chowdhury_24_NeuroImage.pdf)). It is one person (n = 1), so it has the same limits as Hagerty's study.
