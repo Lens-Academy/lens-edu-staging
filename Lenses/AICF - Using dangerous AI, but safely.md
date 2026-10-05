@@ -59,7 +59,7 @@ to:: 17:41.2
 
 #### Text
 content::
-The paper calls the protocol where humans check the untrusted model's first 2% of solutions **upfront auditing**.
+In the paper, the protocol Miles starts with here, where humans check part of the solutions, is called **upfront auditing**.
 
 #### Question: Open
 id:: 0e9d495d-2be7-40f3-8d0c-7079550b5cea
