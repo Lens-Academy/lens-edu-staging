@@ -90,7 +90,7 @@ You've now heard the whole case, from "intelligence is power" to "shut it down".
 **1. The three-minute version:**
 One of you makes the book's whole argument in about 3 minutes to the others, who play people who have never heard of it and ask honest questions. If somebody else wants to try: swap roles. **When someone's three-minute version skips a step, or lands a line worth remembering, say it!** You're each other's rehearsal audience for every future conversation about this.{>>{"author":"AI","timestamp":1791094721820}@@AI (strong): a grand line telling people why the exercise matters. "Ask honest questions" and "lands a line worth remembering" in the same item read the same way.<<}
 **2. But where do you land?**
-Go around: your #1 takeaway from the course, and the step in the argument you're least convinced by.{--{"author":"Andreas's AI","timestamp":1791183875288}@@{>>{"author":"AI","timestamp":1791094722630}@@Clarity: two asks in one line.<<}--}
+Go around: your #1 takeaway from the course, and the the argument you're least convinced by.{--{"author":"Andreas's AI","timestamp":1791183875288}@@{>>{"author":"AI","timestamp":1791094722630}@@Clarity: two asks in one line.<<}--}
 
 
 Your scribe writes each person's #1 takeaway and the step they're least convinced by.
