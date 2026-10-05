@@ -88,6 +88,7 @@ Module 8 goals (Your position and your experiments):
 %%
 
 # Module: [[../modules/Emotional Abundance M8 Your position|Your position]]
+
 %%
 School library (one module per school, same profile: claims, main people, sources and method, evidence, strengths and weaknesses, suggested experiments):
 - Psychology and science: wellbeing science and positive psychology, evolutionary psychology of happiness, the neuroscience of wanting and pleasure, CBT and the third wave (ACT, MBCT, DBT), humanistic and existential psychology, attachment and psychodynamic, compassion-focused therapy and self-compassion, parts and body-based work (IFS, Focusing, somatic), contemplative science and adverse effects, fundamental wellbeing research, psychedelic research
