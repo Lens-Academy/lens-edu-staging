@@ -17,7 +17,28 @@ Many popular books on happiness say that 40% of your happiness is up to you. The
 
 The original paper says: "existing evidence suggests that genetics account for approximately 50% of the population variation [...] and circumstances account for approximately 10% [...]. This leaves as much as 40% of the variance for intentional activity, supporting our proposal that volitional efforts offer a promising possible route to longitudinal increases in happiness" ([Lyubomirsky, Sheldon and Schkade 2005, p. 116](https://greatergood.berkeley.edu/images/uploads/Pursuing_Happiness-_The_Architecture_of_Sustainable_Change.pdf)). By **intentional activity** they mean things people choose to do and that take effort. Their examples include exercising regularly and striving for important personal goals ([Brown and Rohrer 2019, section 2.1](https://link.springer.com/article/10.1007/s10902-019-00128-4)).
 
-In 2019 the psychologists Nicholas Brown and Julia Rohrer traced where the numbers came from.
+In 2019 the psychologists Nicholas Brown and Julia Rohrer traced where the numbers came from. Five passages of their paper follow: how the pie spread, why a split of differences between people says little about one person, why the three slices need not add up, where the 10% for circumstances came from, and their summary.
+
+#### Article
+source:: [[../articles/brown-easy-as-happiness-pie-a-critical-evaluation-of-a-popular-model-of-the-determinants-of-well-being]]
+from:: In wider society, the happiness pie has been a prominent element
+to:: is hoping to co-opt.
+
+#### Article
+from:: examination of the determinants of chronic happiness levels draws on the well-known logic of variance decomposition
+to:: which we explore in the next section.
+
+#### Article
+from:: The conceptualization of the happiness pie and its underlying variance decomposition is only correct
+to:: without ensuring that they are referring to the same populations.
+
+#### Article
+from:: In summary, although it is not clear exactly how
+to:: Further details are provided in the Supplementary Information of the present article.
+
+#### Article
+from:: As we have shown in this article, there is a considerable list of issues
+to:: would necessarily be more reasonable or more interpretable.
 
 #### Text
 content::
