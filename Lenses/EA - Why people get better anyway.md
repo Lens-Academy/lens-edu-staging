@@ -14,7 +14,7 @@ A **testimonial** is a person's report that something helped them: "after the re
 
 \## Getting better anyway
 
-David Colquhoun is a pharmacologist and a strong critic of alternative medicine. In this blog post he argues that most of the improvement people credit to a treatment would have happened anyway.
+[David Colquhoun](https://en.wikipedia.org/wiki/David_Colquhoun) is a pharmacologist and a strong critic of alternative medicine. In this blog post he argues that most of the improvement people credit to a treatment would have happened anyway.
 
 #### Article
 source:: [[../articles/dc-placebo-effects-are-weak-regression-to-the-mean-is-the-main-reason-ineffective-treatments-appear-to-work]]
