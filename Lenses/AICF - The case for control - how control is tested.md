@@ -116,7 +116,6 @@ to:: much more evaluation aware than current models.
 from:: Through counterfactual tests with OpenAI o3
 to:: realizing that it is being evaluated.
 
-#### Callout: Quick recall
 #### Question: Open
 id:: 64410269-abc0-45ec-a352-1a05805246e6
 content:: A lab runs its safety tests on a new model, and the model behaves perfectly. Using Apollo's findings, give two different explanations for the clean result. Then say why a model that can tell when it is being tested is also a problem for control, not only for alignment.
