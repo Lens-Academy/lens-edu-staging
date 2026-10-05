@@ -63,11 +63,16 @@ Reply in 80 to 130 words. Name the claim they chose and restate it accurately in
 
 #### Text
 content::
-Ingram's map has critics. Bhikkhu Anālayo is a German-born Theravada monk and a scholar of early Buddhism. He is a retired professor of the University of Hamburg and a resident scholar at the Barre Center for Buddhist Studies ([University of Hamburg](https://www.buddhismuskunde.uni-hamburg.de/en/personen/analayo.html)). In 2020 he published a case study of Ingram's book in the journal *Mindfulness* ([Anālayo 2020](https://doi.org/10.1007/s12671-020-01389-4)).
+Ingram's map has critics. Bhikkhu Anālayo is a German-born Theravada monk and a scholar of early Buddhism. He is a retired professor of the University of Hamburg and a resident scholar at the Barre Center for Buddhist Studies ([University of Hamburg](https://www.buddhismuskunde.uni-hamburg.de/en/personen/analayo.html)). In 2020 he published a case study of Ingram's book in the journal *Mindfulness*. Here is his summary.
 
-His main argument is that "a forceful form of mindfulness combined with high-speed mental noting can result in the construction of meditative experiences to accord with expectations created by maps of the progress of insight" (abstract). Put plainly: a meditator who knows the map and notes hard and fast may produce the very experiences the map predicts, and may then take them as proof of having reached a stage of awakening. He concludes that researchers should be careful not to overvalue "subjective reports by yogis". He also rejects the idea that people in ordinary mindfulness courses, who do not practise deep and intensive insight meditation, can suffer from going through these stages.
+#### Article
+source:: [[../articles/an-layo-meditation-maps-attainment-claims-and-the-adversities-of-mindfulness]]
+from:: A case study of the descriptions of the progress of Buddhist insight meditation provided by Daniel Ingram
+to:: avoid the two extremes of uncritical enthusiasm and exaggerated apprehensions.
 
-Ingram answered the critique in a podcast interview ([Guru Viking, episode 73](https://www.guruviking.com/podcast/ep73-daniel-ingram-dangerous-and-delusional)).
+#### Text
+content::
+Put plainly: a meditator who knows the map and notes hard and fast may produce the very experiences the map predicts, and may then take them as proof of having reached a stage of awakening. Anālayo also rejects the idea that people in ordinary mindfulness courses, who do not practise deep and intensive insight meditation, can suffer from going through these stages. Ingram answered the critique in a podcast interview ([Guru Viking, episode 73](https://www.guruviking.com/podcast/ep73-daniel-ingram-dangerous-and-delusional)).
 
 #### Question: Open
 id:: d2f8f7a5-e850-4c4e-ba53-e4e87b018b08
