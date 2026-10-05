@@ -144,7 +144,7 @@ These come from the library modules. Each page has its own safety box.
 | A bad mood and the space it appears in | Non-dual teaching (Sam Harris) | The awareness that knows a mood never takes its form | One 26-minute guided session | What happened to the mood | As above |
 | Turning to the one who feels | Non-dual teaching (Rupert Spira) | Sorrow visits less often and lasts less time | One week of baseline, then one week of practice | Each evening, how often a painful feeling took over and how long the longest lasted | As above |
 
-::card[[../Lenses/EA - Fundamental wellbeing - Experiments you can run]]
+::card[[../Lenses/EA - Fundamental wellbeing - Experiments you can run]]{allow-external}
 > From a ten-minute pointing experiment to a measured six-week practice block.
 
 | Experiment | School | Claim it tests | Dose | Measure | Risk noted on the page |
@@ -153,7 +153,7 @@ These come from the library modules. Each page has its own safety box.
 | A measured practice block | Fundamental wellbeing research (Martin) | Daily practice can bring a lasting shift to fundamental wellbeing | At least an hour a day, six weeks | Martin's questionnaires before and after, a partner's ratings, recovery time after upsets | Dissociation scores rose over Martin's early courses. Stop and get help if you feel unreal or detached |
 | The paid course | Fundamental wellbeing research (Martin) | As above | About 1.5 hours a day, six weeks, 497 US dollars | As above | As above |
 
-::card[[../Lenses/EA - Jhanas - Try it yourself]]
+::card[[../Lenses/EA - Jhanas - Try it yourself]]{allow-external}
 > Brasington's instructions and three experiments, up to a retreat.
 
 | Experiment | School | Claim it tests | Dose | Measure | Risk noted on the page |
