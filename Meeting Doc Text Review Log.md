@@ -138,7 +138,7 @@ Stages 1 to 4 run once per batch of docs. The first batch is next week's three.
 | Doc | Runs | Rename | Flags | Rewrite | Review | Accepted |
 |---|---|---|---|---|---|---|
 | AIRF Meeting 5 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | done for this pass 2026-10-05 | done 2026-10-05 | flag removals pending; 6 flags kept for the full pass |
-| AI Futures Meeting 3 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | first pass 2026-10-05 | first round 2026-10-05 | todo |
+| AI Futures Meeting 3 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | done for this pass 2026-10-05 | done 2026-10-05 | flag removals pending; 2 minor flags kept for the full pass |
 | CV1 Meeting 5 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | done 2026-10-04 | done 2026-10-04 | flag removals pending |
 | Shared How today works (three variants) and Participant FAQ | with the above | done 2026-10-04 | done 2026-10-03 | todo | todo | todo |
 | Master template | n/a | done 2026-10-04 | not flagged | n/a | n/a | n/a |
