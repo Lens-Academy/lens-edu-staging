@@ -43,6 +43,7 @@ to:: cautions against overvaluing subjective reports by yogis.
 
 #### Text
 content::
+Anālayo also defends a rival reading of the Buddhist texts, so his critique is partly a dispute between schools. Ingram's side is in his free book, [*Mastering the Core Teachings of the Buddha*](https://www.mctb.org/wp-content/uploads/2021/09/MCTB2_Complete_PDF_Final.pdf), and the library module on secular meditation has a page on the dispute.
 
 A third worry is who judges a report. Jared Lindahl, Willoughby Britton and colleagues interviewed Buddhist meditators and teachers about difficult experiences in meditation. Their clinic, Cheetah House, summarises the findings.
 
