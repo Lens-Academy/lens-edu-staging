@@ -74,6 +74,7 @@ optional:: true
 
 #### Text
 content::
+Shinzen Young, whose teaching you read on the next page, is a co-author. The paper states that he owns part of a company that will release a commercial version of the app.
 #### End Callout
 
 #### Question: Open
