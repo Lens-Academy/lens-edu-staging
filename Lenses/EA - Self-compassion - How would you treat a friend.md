@@ -2,7 +2,7 @@
 id: 'ffccf8e5-ce58-4715-ac9a-ad8c01af35a2'
 title: "How would you treat a friend?"
 tldr: "Before any theory: write how you speak to a struggling friend, then how you speak to yourself, and look at the difference."
-summary_for_tutor: "Opening lens of the self-compassion library module, before any theory. The learner does Kristin Neff's written 'Exercise 1: How would you treat a friend?' from self-compassion.org in five answers: how they respond to a struggling friend (what they do, say, tone), how they respond to themselves, what differences they notice, what reasons or fears explain a difference, and what might change if they treated themselves like the friend. The next lenses are Neff's TEDx talk, Crocker on contingent self-worth, Gilbert's three systems, the evidence and experiments. Do not preview Neff's three components, the self-esteem argument or any research."
+summary_for_tutor: "Opening lens of the self-compassion library module, before any theory. The learner does Kristin Neff's written 'Exercise 1: How would you treat a friend?' from self-compassion.org in five answers: how they respond to a struggling friend (what they do, say, tone), how they respond to themselves, what differences they notice, what reasons or fears explain a difference, and what might change if they treated themselves like the friend. The next lenses are Neff's TEDx talk, Crocker on contingent self-worth, Paul Gilbert's emotion model, the evidence and experiments. Do not preview Neff's three components, the self-esteem argument or any research."
 reading_minutes: 8
 tutor_minutes: 3
 tags:
