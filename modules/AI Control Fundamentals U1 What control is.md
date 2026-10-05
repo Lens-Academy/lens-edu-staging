@@ -83,25 +83,33 @@ tldr:: Mary Phuong of Google DeepMind names the weaknesses of control from insid
 summary_for_tutor:: Last reading lens of Unit 1 of AI Control Fundamentals. First a two-minute clip from the end of Mary Phuong's FAR.AI talk "AI Control: Addressing Risks from Agentic Internal Deployments" (May 2025). Phuong works on AI control at Google DeepMind. Weaknesses she names: monitoring probably will not scale, because the gap between the best trusted model and the untrusted models we want to deploy keeps growing, until the trusted model is not doing much useful work. Risk compensation: control might let labs deploy imperfectly aligned models, or models they know are misaligned, and still think they are safe, which is especially concerning because control does not address the longer-term root cause or help align superhuman systems. Strengths: in the near term it gives much stronger assurances than alignment or alignment testing can, so it is probably the most effective thing to do to reduce risk from misaligned AI now, and catching a model doing something very concerning, such as trying to take over a data centre, could galvanise more work on safety. An unscored question asks whether risk compensation is a criticism of control itself or of how labs might use it, and whether the difference matters. Any reasoned answer is fine. Then the learner reads Jan Kulveit's short post "AI Control May Increase Existential Risk" (Alignment Forum, March 2025) in full. Kulveit's argument: in worlds where alignment goes well, control matters little. In worlds where alignment fails, control mostly turns moderate, visible warning shots, which would push the world to act, into quiet internal catches that labs describe vaguely, or into a later catastrophe. He also expects labs to downplay incidents that control stopped. This is a first look at criticisms of control. Unit 4 covers criticisms in depth and Unit 5 the debates around this argument, including replies from people who work on control. The lens intro points out that Kulveit disputes a step the learner met in the case for control: that catching an AI counts as a win because it makes a pause or slowdown more likely. The question asks for one premise from each side and which is less plausible. Treat any reasoned answer as fine. Do not tell the learner whether Kulveit is right.
 #### Text
 content::
-Most of what you read in this unit comes from people who work on control. To finish, two views on its limits, so you can keep them in mind for the rest of the course. Unit 4 goes through the criticisms in depth.
+Most of what you read in this unit comes from people who work on control. To finish, a view from outside the field on how control could make things worse, so you can keep it in mind for the rest of the course. Unit 4 goes through the criticisms in depth.
 
-First, Mary Phuong, who works on AI control at Google DeepMind. At the end of a May 2025 talk she says what she sees as the weaknesses and strengths of the control agenda.
+#### Callout: Optional: Mary Phuong of Google DeepMind on the weaknesses and strengths of control
+collapse:: closed
+#### Text
+optional:: true
+content::
+Mary Phuong works on AI control at Google DeepMind. At the end of a May 2025 talk she says what she sees as the weaknesses and strengths of the control agenda.
 
 #### Video
+optional:: true
 source:: [[../video_transcripts/far-ai-mary-phuong-ai-control-addressing-risks-from-agentic-internal-deployments-technical-ai-policy]]
 from:: 13:03.5
 to:: 15:00.5
 
 #### Question: Open
+optional:: true
 id:: 8419de4d-a8e9-41c3-a030-e83ab8666e70
 content::
 Phuong worries about risk compensation: control might let labs deploy models they know are misaligned and still think they are being safe. Is that a criticism of control itself, or of how labs might use it? Does the difference matter? Say why.
 force-feedback:: first
 feedback-instructions:: This is an unscored reflection. The learner just heard Mary Phuong (Google DeepMind) name two weaknesses of control (trusted models fall further behind the untrusted models we want to deploy, and risk compensation: labs might deploy imperfectly aligned or known-misaligned models and feel safe, while control does not fix the root cause or help align superhuman systems) and two strengths (much stronger near-term assurances than alignment or alignment testing can give, and the chance to catch a model doing something very concerning, which could galvanise safety work). Engage with the learner's reasoning in at most four sentences. If they say it is only about use, ask whether a safety method that predictably changes how people behave can be judged apart from that behaviour. If they say it is about control itself, ask what would have to be true of control for the problem to go away. Accept any reasoned answer and do not say which view is right. Mention that Kulveit, next, makes a related argument from outside the field. Up to two turns. No generic praise.
+#### End Callout
 
 #### Text
 content::
-Next, Jan Kulveit. In the case for control you read that catching an AI counts as a win, because after a catch, shutting down until there are solutions becomes far more likely. Kulveit disputes that step.
+Jan Kulveit. Greenblatt and Shlegeris argue that catching an AI counts as a win, because after a catch, shutting down until there are solutions becomes far more likely. Kulveit disputes that step.
 
 #### Article
 source:: [[../articles/kulveit--ai-control-may-increase-existential-risk]]
