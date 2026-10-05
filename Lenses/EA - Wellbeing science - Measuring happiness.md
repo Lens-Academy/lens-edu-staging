@@ -48,13 +48,14 @@ feedback-instructions:: The learner read Diener's account of the causes, outcome
 #### Question: Open
 id:: b36a2e6b-f4ef-400b-80f2-97ad344c9904
 content::
-This course is about a particular target: deep, stable peace and happiness that does not depend on outside circumstances. Suppose you filled in Diener's scales (life satisfaction, and how often you felt positive, negative, joyful, afraid and so on) every month for a year. Which parts of that target would the scores pick up, and which would they miss?
+This course is about a particular target: deep, stable peace and happiness that does not depend on outside circumstances. Suppose you filled in Diener's scales (life satisfaction, and how often you felt positive, negative, joyful, afraid and so on) every month for a year. Which parts of that target would the scores pick up?
 force-feedback:: first
 feedback-instructions:: The learner considers which parts of the course's target state (deep, stable peace and happiness that does not depend on circumstances) Diener's subjective well-being scales would pick up if filled in monthly for a year. The scales measure life satisfaction and how often positive and negative feelings occurred over recent weeks. There is no single right answer, and the course does not decide whether the target is achievable.
 
 Points a strong answer may notice: the scales would pick up fewer negative feelings and more positive ones, contentment (one of the SPANE words), and stability if the scores stay level across the year. If the year includes hard events, steady scores through them would say something about independence from circumstances.
 
 Reply with the strongest point in their answer, then one point they did not consider, phrased as a question. The next question asks what the scores would miss, so do not cover that here. 60 to 100 words. At most two replies. No generic praise.
+
 #### Question: Open
 id:: 3ae01227-4eea-4525-a917-a0bd77848ee3
 content::
@@ -63,6 +64,7 @@ force-feedback:: first
 feedback-instructions:: The learner considers which parts of the course's target state (deep, stable peace and happiness that does not depend on circumstances) Diener's subjective well-being scales would miss if filled in monthly for a year. The scales measure life satisfaction and how often positive and negative feelings occurred over recent weeks. There is no single right answer, and the course does not decide whether the target is achievable.
 
 Points a strong answer may notice: the scales would miss how peaceful the positive feelings are (a calm content person and an excited one can score the same), whether the peace depends on circumstances (scores taken in a good year cannot show what happens in a bad one), and anything not felt as an emotion word, such as equanimity while pain is present. Life satisfaction is a judgement about one's life, which can be high while feelings are mixed, or low in someone who is at peace but whose life does not match their ideals. Self-report can be biased by mood or by wanting to see oneself as calm.
+
 Reply with the strongest point in their answer, then one point they did not consider, phrased as a question. If they say the scales miss nothing, ask how the scales would tell apart peace that does not depend on circumstances from a lucky year. 60 to 110 words. At most two replies. No generic praise.
 
 #### Question: Open
