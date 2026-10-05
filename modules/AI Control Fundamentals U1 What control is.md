@@ -55,6 +55,7 @@ feedback-instructions:: This is an ungraded gut-view note the learner will revis
 source:: [[../Lenses/AICF - Control in plain words]]
 
 # Lens:
+optional:: true
 source:: [[../Lenses/AICF - What control is meant to stop]]
 
 # Lens:
@@ -122,4 +123,5 @@ force-feedback:: first
 feedback-instructions:: The learner just read Kulveit's "AI Control May Increase Existential Risk" after Greenblatt and Shlegeris's case for control. Premises Kulveit's argument depends on include: (1) without control, a misaligned AI's attempt would often be stopped by other means (security, society, governments) and become a moderate, visible incident rather than a catastrophe, (2) such visible incidents would push labs and governments to act, (3) incidents stopped by control would be kept quiet or described vaguely by the lab, and (4) cases where control is the only thing that stops an AI are rare compared with cases something else would have stopped. Premises the case for control depends on include: (a) a red team can find attacks at least as good as the ones a scheming model would find, and the model's abilities can be measured even if it tries to sabotage the measurement, (b) catching an AI leads to a shutdown, pause or slowdown, or at least to much more support for one, (c) the first very useful AIs are not yet too capable to control. Acknowledge each premise the learner names and whether the argument actually needs it. If they name one the argument does not need, say so in one sentence and point to one it does need. Comment on how well they reasoned about which is less plausible, without saying which side is right. At most five sentences. No generic praise. Tell them the course comes back to this argument in Units 4 and 5.
 
 # Lens:
+optional:: true
 source:: [[../Lenses/AICF - Take apart a deployment pitch]]
