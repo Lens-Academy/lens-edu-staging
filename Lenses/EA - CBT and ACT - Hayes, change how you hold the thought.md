@@ -4,7 +4,7 @@ title: "Hayes: change how you hold the thought"
 tldr: "The third wave keeps CBT's interest in thoughts but stops arguing with them. ACT's founder Steven Hayes describes how panic disorder taught him to stop running from his own experience, and what ACT calls psychological flexibility."
 summary_for_tutor: "Third page of the library module on CBT and the third wave. The learner reads part of Hayes and Hofmann 2017 (World Psychiatry): the three waves (behaviour therapy, classic CBT focused on detecting and changing maladaptive thinking, third wave focused on the relationship to thought and emotion rather than content, e.g. ACT, DBT, mindfulness-based methods), the claim that third wave processes are now part of CBT and that traditional CBT works partly through them, and the move to process-based therapy (targeting changeable transdiagnostic processes, and 'prosperity' rather than only pathology). Then Steven Hayes's TEDx talk 'Psychological flexibility: how love turns pain into purpose' (his panic disorder, the promise 'I will not run from me', psychological flexibility as emotional openness, looking at thoughts rather than from them, flexible attention, moving toward what matters, self-compassion; his claim that flexibility predicts outcomes in more than a thousand studies). Then the ACBS page on ACT's six core processes (acceptance, defusion, being present, self as context, values, committed action). Then recall, processing and a learning question on acceptance versus passivity."
 reading_minutes: 32
-tutor_minutes: 10
+tutor_minutes: 12
 tags:
   - wip
 ---
@@ -47,16 +47,21 @@ Acknowledge what they got right without inflating it, name the one or two most i
 #### Question: Open
 id:: ac22165c-fff2-4d84-8a04-3f707e94a8e2
 content::
-How did this page land? What seemed right to you, and what did you doubt?
+How did this page land for you?
 force-feedback:: first
 feedback-instructions:: The learner read Hayes and Hofmann 2017, watched Hayes's TEDx talk and read the six ACT processes, and now says how it landed. This is a processing phase, not a teaching phase: help them state their reaction, do not resolve it. If they are sceptical of the talk (for example it feels like a sermon, or "more than a thousand studies" sounds like a sales line), treat that as fair and ask what kind of evidence would convince them (a later page covers the trials). If they are confused, ask what exactly is unclear and give one concrete foothold from the page. If something resonated, ask what it connected to. Keep each reply to 60 to 110 words. Keep an internal turn counter. After 2 replies, close the phase and send them on. No generic praise.
 
 #### Question: Open
 id:: ccd46eb3-56f8-4932-96ae-108d6eb52979
 content::
-Think of the thought you picked on the first page. Which seems more likely to loosen its hold: checking it against the evidence, as Beck and Ellis do, or changing how you hold it, as ACT does? Why?
+Think of the thought you picked on the first page. Which seems more likely to loosen its hold on you: checking it against the evidence, as Beck and Ellis do, or changing how you hold it, as ACT does?
+
+#### Question: Open
+id:: 081048e1-f1eb-4b14-8098-6adfa72ea01c
+content::
+What makes you expect that?
 force-feedback:: first
-feedback-instructions:: The learner says which approach seems more likely to help with the recurring negative thought they picked on the first page of the module: checking it against evidence and replacing it (Beck, Ellis) or changing their relationship to it through defusion and acceptance (ACT). Do not say which approach is better. In 50 to 90 words, restate their reason in one sentence and ask what result in the two-week experiment later in this module would change their mind. If their reason rests on a misunderstanding (for example that ACT means believing the thought, or that CBT means positive thinking), correct it in one sentence. One turn, then send them on. No generic praise.
+feedback-instructions:: In the previous question the learner said which approach seems more likely to help with the recurring negative thought they picked on the first page of the module: checking it against evidence and replacing it (Beck, Ellis) or changing their relationship to it through defusion and acceptance (ACT). Here they give their reason. Do not say which approach is better. In 50 to 90 words, restate their reason in one sentence and ask what result in the two-week experiment later in this module would change their mind. If their reason rests on a misunderstanding (for example that ACT means believing the thought, or that CBT means positive thinking), correct it in one sentence. One turn, then send them on. No generic praise.
 
 #### Question: Open
 id:: 9b2a8ceb-daed-4815-b5cd-608f8955258b

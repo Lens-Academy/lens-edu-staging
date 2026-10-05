@@ -37,7 +37,7 @@ to:: much more difficult to learn and practice than a manual‐based, standardiz
 #### Question: Open
 id:: 0c9fdd08-64f7-4d51-8893-e6ca609347df
 content::
-Which side do you find more convincing, and why?
+What makes one side more convincing to you than the other?
 optional:: true
 force-feedback:: first
 feedback-instructions:: The learner read Hofmann and Hayes 2019 on process-based therapy (target changeable processes with matched procedures for the particular person, move from group averages to idiographic study of individuals) and Emmelkamp's 2021 reply (no robust evidence that individualised treatment beats manualised protocols, similar non-response rates for third wave therapies, CBT and ACT working through overlapping processes, individualised therapy is harder to learn). They say which side convinces them and why.
