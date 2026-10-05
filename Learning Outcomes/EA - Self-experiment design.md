@@ -14,27 +14,41 @@ id:: f6571597-ce1c-4544-9498-1f76c9e04530
 content::
 A guest on a podcast says: "Ten minutes of loving-kindness meditation every morning makes you noticeably less irritable within a week."
 
-1. Is this claim worth testing on yourself? Decide briefly, considering cost, risk and how quickly you would know.
-2. Design a test of it on yourself: the baseline, the design and why it fits this claim, the dose, what you will measure and when, the confounders you will watch, and how you will deal with expectation.
-3. Another teacher says: "After about five years of daily practice, the sense of a separate self falls away for good." Could you test this claim the same way? Explain why or why not, and what you could do instead.
-assessment-instructions:: Score out of 100. Grade the ideas in the learner's own words. Accept any reasonable concrete choice where several are valid.
+Is this claim worth testing on yourself? Decide, considering what it costs, what could go wrong and how quickly you would know.
+assessment-instructions:: Score out of 100. Grade the ideas in the learner's own words. The claim: ten minutes of loving-kindness meditation every morning makes you noticeably less irritable within a week.
+- 70: Weighs the three things the question names: cost (about ten minutes a day), risk (low but not zero, since meditation can have adverse effects) and how quickly a test could show the effect (the claim says within a week, so a test can be short). 70 for all three, 45 for two, 20 for one.
+- 30: A decision that follows from what they weighed. Any decision is acceptable if it follows.
+feedback-instructions:: The learner decided whether to test the claim that ten minutes of loving-kindness meditation each morning makes you noticeably less irritable within a week, and received a score. In 30 to 70 words: say whether the decision follows from what they weighed and name the consideration they handled least well. If they scored 100, confirm briefly. No generic praise. If they ask, explain the score from the grading reason.
+force-feedback:: first
 
-Part 1 (15):
-- 10: Weighs cost (about ten minutes a day), risk (low but not zero, meditation can have adverse effects) and how quickly a test could detect the effect (the claim says within a week, so a test can be short). 10 for all three, 6 for two, 3 for one.
-- 5: A decision that follows from what they weighed. Any decision is acceptable if it follows.
+#### Question: Open
+id:: 95fe0809-9bd1-4fda-a665-61472a6cbf44
+content::
+Suppose you test the loving-kindness claim. Which design would you use, and why does it fit this claim?
+assessment-instructions:: Score out of 100. Grade the ideas in the learner's own words. The claim: ten minutes of loving-kindness meditation every morning makes you noticeably less irritable within a week. The effect is claimed to come within days, and nothing suggests it should be permanent, so it should fade if the practice stops.
+- 60: A design that can show cause: alternating periods or days with and without the practice (ideally in an order fixed in advance or random), a reversal design (baseline, practice, stop, practise again), or a multiple-baseline design. 0 for a plain before-and-after comparison with no return to baseline and no alternation.
+- 40: A reason tied to the claim: the effect is claimed to come quickly and should fade when the practice stops, so switching it on and off can show whether irritability follows.
+feedback-instructions:: The learner chose a design for testing the loving-kindness claim (less irritable within a week) on themselves, and received a score. In 40 to 90 words: say whether the design can show cause and fits a fast effect that should fade when stopped. If they chose before-and-after, explain in one sentence why it cannot separate the practice from other changes. If they scored 100, confirm briefly. No generic praise. If they ask, explain the score from the grading reason.
+force-feedback:: first
 
-Part 2 (65):
-- 10 Baseline: measure irritability for several days before starting, ideally until the numbers are steady (any concrete plan of about 5 days or more, or "until stable").
-- 15 Design: a design that can show cause and fits a fast effect that should fade when stopped: alternating days with and without the practice (ideally in random order), or a reversal design (baseline, practice, stop, practise again), with a reason tied to the claim (the effect is claimed within a week and should not be permanent). A multiple-baseline design with a sound reason also earns 15. 8 if a suitable design is given without a reason. 0 for a plain before-and-after comparison with no return to baseline or alternation.
-- 5 Dose: ten minutes each morning, as claimed, kept the same throughout.
-- 15 Measure: a specific measure of irritability chosen in advance and taken repeatedly at fixed times, for example a daily rating at the same time, random prompts during the day, or an evening rating of each part of the day. 7 if the measure is specific but taken only once or twice, or repeated but vague. 0 for "see how I feel".
-- 10 Confounders: names at least two plausible ones (sleep, stress or workload, illness, caffeine or alcohol, conflicts or big events) and says they will record them or hold them steady. 5 for one.
-- 10 Expectation: recognises that meditation cannot be hidden from oneself, and proposes at least one remedy: an active alternative of similar length (such as ten minutes of quiet reading), writing the prediction in advance, or a measure less open to expectation (such as someone else's rating or a count of specific incidents). 5 if expectation is mentioned without a remedy.
+#### Question: Open
+id:: 69bb0a6b-fd07-4ba9-8d89-84a14f809ea7
+content::
+What would you measure, and when?
+assessment-instructions:: Score out of 100. Grade the ideas in the learner's own words. Context: the learner is designing a self-test of the claim that ten minutes of loving-kindness meditation every morning makes you noticeably less irritable within a week.
+- 50: A specific measure of irritability chosen in advance, for example a rating on a fixed scale, a count of irritable moments, or someone else's rating. 0 for "see how I feel".
+- 50: Taken repeatedly at fixed times or by a fixed rule, for example a daily rating at the same time, random prompts during the day, or an evening review of each part of the day. 20 if taken only once or twice.
+feedback-instructions:: The learner chose a measure for a self-test of the loving-kindness claim (less irritable within a week), and received a score. In 30 to 70 words: say whether the measure is specific and repeated, and suggest one concrete improvement, such as a fixed daily time or a second measure less open to expectation. If they scored 100, confirm briefly. No generic praise. If they ask, explain the score from the grading reason.
+force-feedback:: first
 
-Part 3 (20):
-- 12: Explains why it cannot be tested the same way: the effect is claimed only after years, so a test would take years and much else changes in that time, and a permanent change cannot be reversed to show cause. 8 if only one of these reasons is given.
-- 8: A sensible alternative: track a faster sign the claim predicts along the way, use a design that does not need reversal, or decide on the other evidence available and say that it was not tested.
-feedback-instructions:: The learner decided whether to test a claim (ten minutes of loving-kindness meditation each morning makes you noticeably less irritable within a week), designed a self-experiment for it, and judged whether a slow claim (the sense of self falls away after five years of practice) can be tested the same way, and received a score. In 150 to 220 words: name the strongest part of their design, then the change that would most improve it, especially the design choice, the measure or the handling of expectation. If Part 3 missed why a years-long, permanent change cannot be tested by a short reversal, say so in one sentence. If they scored 100, confirm briefly. No generic praise.
+#### Question: Open
+id:: 95b7f464-afd5-4ce8-a945-3e4f970228dc
+content::
+How long would you measure before starting the practice, and why?
+assessment-instructions:: Score out of 100. Grade the ideas in the learner's own words. Context: a self-test of the claim that ten minutes of loving-kindness meditation every morning makes you noticeably less irritable within a week.
+- 50: A concrete baseline period before the practice starts: about five days or more, or "until the numbers stop drifting up or down".
+- 50: The reason: to know the normal level and variation of irritability without the practice, so that a change can be seen, or so that a bad starting week (regression to the mean) is not mistaken for an effect.
+feedback-instructions:: The learner planned a baseline for a self-test of the loving-kindness claim, and received a score. In 30 to 60 words: say whether the length and reason are sound. If they gave a fixed short period, mention measuring until the numbers are steady. If they scored 100, confirm briefly. No generic praise. If they ask, explain the score from the grading reason.
 force-feedback:: first
 
 # Suggested Lenses:
