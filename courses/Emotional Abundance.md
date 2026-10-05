@@ -61,6 +61,7 @@ Module 5 goals (Desire):
 - Say where the schools agree, where they disagree, and what evidence would decide it
 %%
 
+# Module: [[../modules/Emotional Abundance M5 Desire|Desire]]
 %%
 Module 6 goals (The self):
 - State what each major school says the self is: not-self, Atman, the bundle theory, the self-model, parts, the narrative self
