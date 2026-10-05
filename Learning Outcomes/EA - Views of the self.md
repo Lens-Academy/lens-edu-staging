@@ -110,7 +110,7 @@ feedback-instructions:: The learner said what two meditation teachers disagree a
 #### Question: Open
 id:: e77d55b6-0be1-423e-bf22-80df4b604f7d
 content::
-Name two views of the self that disagree about something an observation could help settle, and say what they disagree about.
+Name a point on which two views of the self from this module disagree and which an observation could help settle. Say which two views.
 assessment-instructions:: Score out of 100. 30: names two views of the self that really do disagree on the point the answer gives (for example Hume's bundle and Ramana's true Self, the IFS Self and the Buddhist not-self, or Thanissaro's not-self method and a view that says letting go of the self does not help). 70: the point of disagreement is about something that could be observed, not only about how to use words like "self" or "illusion". Points that count: whether looking inward finds only passing perceptions or also an awareness that remains; whether that awareness has qualities such as calm and compassion; whether letting go of identification with thoughts and feelings reduces distress; whether people differ in feeling their past as their own. If the point named is only about words (for example whether a constructed self should be called an illusion), give at most 10 for the second element.
 feedback-instructions:: The learner named two views of the self and a disagreement between them that an observation could help settle. Name the strongest part. Below 100, say what was missing: either the two views do not actually disagree on that point, or the disagreement is about words rather than something observable. 50 to 100 words. No generic praise.
 
