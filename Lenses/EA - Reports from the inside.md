@@ -34,10 +34,7 @@ to:: did not feel any muscle tension.
 
 #### Text
 content::
-A second worry is that a tradition's description of the path can shape what practitioners experience and report. Bhikkhu Anālayo, a Buddhist monk and scholar, examined the stage maps that the meditation teacher Daniel Ingram uses and concluded that "a forceful form of mindfulness combined with high-speed mental noting can result in the construction of meditative experiences to accord with expectations created by maps of the progress of insight, culminating in claims to having reached levels of awakening". He adds that this "cautions against overvaluing subjective reports by yogis" ([Anālayo 2020](https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/meditationmaps.pdf)). Anālayo also defends a rival reading of the Buddhist texts, so his critique is partly a dispute between schools. The library lens on Ingram gives both sides.
-
-::card[[../Lenses/EA - Secular meditation - Ingram and the Dark Night]]
-> Ingram's map of insight stages, his claims about awakening, and Anālayo's critique.
+A second worry is that a tradition's description of the path can shape what practitioners experience and report. Bhikkhu Anālayo, a Buddhist monk and scholar, examined the stage maps that the meditation teacher Daniel Ingram uses and concluded that "a forceful form of mindfulness combined with high-speed mental noting can result in the construction of meditative experiences to accord with expectations created by maps of the progress of insight, culminating in claims to having reached levels of awakening". He adds that this "cautions against overvaluing subjective reports by yogis" ([Anālayo 2020](https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/meditationmaps.pdf)). Anālayo also defends a rival reading of the Buddhist texts, so his critique is partly a dispute between schools. Ingram's side is in his free book, [*Mastering the Core Teachings of the Buddha*](https://www.mctb.org/wp-content/uploads/2021/09/MCTB2_Complete_PDF_Final.pdf), and the library module on secular meditation has a page on the dispute.
 
 A third worry is who judges a report. Jared Lindahl, Willoughby Britton and colleagues interviewed Buddhist meditators and teachers about difficult experiences in meditation. Their clinic, Cheetah House, summarises the findings.
 
