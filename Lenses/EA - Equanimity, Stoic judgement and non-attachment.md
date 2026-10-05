@@ -14,9 +14,14 @@ The last page was psychology's own vocabulary. This page gives three older tradi
 
 \## Equanimity
 
-In module 2 you read Desbordes and colleagues' definition of **equanimity**: an even-minded state or disposition toward all experiences, pleasant, unpleasant or neutral. Shinzen Young, "an American mindfulness teacher and neuroscience research consultant" ([shinzen.org](https://www.shinzen.org/)), turns it into a working instruction. Read the first three pages of his synopsis [Natural Pain Relief](https://www.shinzen.org/wp-content/uploads/2016/12/art_synopsis-pain.pdf) (about 10 minutes), up to the section "Pain Without Suffering". It is about physical pain, but he writes that "the same basic concepts and skills work equally well when applied to emotional pain such as anger, grief, fear and guilt."
+In module 2 you read Desbordes and colleagues' definition of **equanimity**: an even-minded state or disposition toward all experiences, pleasant, unpleasant or neutral. Shinzen Young, "an American mindfulness teacher and neuroscience research consultant" ([shinzen.org](https://www.shinzen.org/)), turns it into a working instruction. Read the first part of his synopsis of his book *Natural Pain Relief* (about 10 minutes). It is about physical pain, but he writes that "the same basic concepts and skills work equally well when applied to emotional pain such as anger, grief, fear and guilt."
 
-Here is what to look for. His central claim: "Suffering is a function of pain and the degree to which the pain is being resisted. (S = P x R)". **Resistance** is fighting the sensation: in the mind as judging thoughts ("I can't stand this pain"), in the body as tension and holding. His method is to observe the pain precisely while "dropping resistance", relaxing into each small change in it. He promises a lot: eventually "a decrease in negative emotions" and "a sense of happiness independent of your circumstances". And he adds a limit: "Dropping resistance to the subjective flow of pain in no way implies that you stop resisting the objective source of the pain."
+Here is what to look for. His central claim: "Suffering is a function of pain and the degree to which the pain is being resisted. (S = P × R)". **Resistance** is fighting the sensation: in the mind as judging thoughts ("I can't stand this pain"), in the body as tension and holding. His method is to observe the pain precisely while "dropping resistance", relaxing into each small change in it. He promises a lot: eventually "a decrease in negative emotions" and "a sense of happiness independent of your circumstances". And he adds a limit in the last paragraph: dropping resistance to the pain does not mean you stop resisting its cause.
+
+#### Article
+source:: [[../articles/young-natural-pain-relief]]
+from:: As soon as pain arises in the body, our minds become preoccupied with how to get relief.
+to:: This reduces your suffering and increases your energy.
 
 #### Text
 content::
