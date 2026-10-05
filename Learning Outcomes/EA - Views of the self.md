@@ -37,45 +37,49 @@ explanation:: The speaker rejects the reading of the teaching as a strategy only
 
 #### Question: Choice
 id:: 939f802d-84ab-4a4e-81be-587d410e78c7
-content:: "A person is nothing over and above a brain, a body and a connected series of experiences. Whether a perfect copy of me would really be me can be an empty question." Which view does this express?
+content:: "Suppose surgeons replace my cells one by one with exact copies. There may be no answer to the question at which point I stop existing, even when every physical and mental fact is known. Knowing those facts, I know everything there is to know." Which view does this express?
 options::
 - Not-self as a method
+- No-self as a claim about what exists
 - [x] The bundle or reductionist view
 - A true Self as a core with qualities
 - A true Self as pure awareness
 - The self as a brain model
 - The narrative self
-explanation:: A person consists in brain, body and a series of linked experiences, with no further fact, so identity questions about copies can be empty. That is the reductionist form of the bundle view.
+explanation:: Once the facts about brain, body and experiences are known there is no further fact about whether I survive, so the question can be empty. That is Parfit's spectrum argument for the reductionist form of the bundle view.
 
 #### Question: Choice
 id:: 8d1f187e-f67e-4bc0-a89d-cdcb8a3714b1
-content:: "Under the anxious and critical voices inside you there is a calm, curious, compassionate core. It was never damaged, and it is who you really are." Which view does this express?
+content:: "When the anxious and critical voices inside you are asked to step back, what is left is not empty. It is an awareness that is calm, curious and caring, and it can listen to those voices and help them. That is who you really are." Which view does this express?
 options::
 - Not-self as a method
+- No-self as a claim about what exists
 - The bundle or reductionist view
 - [x] A true Self as a core with qualities
 - A true Self as pure awareness
 - The self as a brain model
 - The narrative self
-explanation:: Inner voices are treated as parts, and beneath them is an undamaged core with personal qualities such as calm, curiosity and compassion. That is a true Self with qualities, as in Internal Family Systems.
+explanation:: Although it uses the word "awareness", what remains has personal qualities (calm, curiosity, care) and acts in everyday inner life by helping the parts that step back. That is a true Self with qualities, as in Internal Family Systems. Ramana's Self has no personal qualities.
 
 #### Question: Choice
 id:: f538b5a1-a3f6-42d9-84fb-6b220186b539
-content:: "Set aside the body, the senses and even the thinking mind, since I am none of these. What alone remains is awareness, and that is what I am." Which view does this express?
+content:: "What you really are is not a calmer or kinder version of your personality. It has no qualities of a person at all. It is what is left when even the thought 'I' has died away, and the world that seemed separate from it turns out to be like a snake seen in a rope." Which view does this express?
 options::
 - Not-self as a method
+- No-self as a claim about what exists
 - The bundle or reductionist view
 - A true Self as a core with qualities
 - [x] A true Self as pure awareness
 - The self as a brain model
 - The narrative self
-explanation:: Everything that can be observed is negated as "not I", and what remains is awareness, which is said to be what one is. That is a true Self as pure awareness, as in Advaita Vedanta.
+explanation:: A true Self is affirmed, but it has no personal qualities, it is found when the "I"-thought itself subsides, and the world is compared to a snake seen in a rope. That is a true Self as pure awareness, as in Ramana Maharshi's Advaita Vedanta, not the IFS Self with qualities.
 
 #### Question: Choice
 id:: 4c449d59-47e5-4241-aa16-99205f6aa066
-content:: "There is no thing that you are. Your brain represents the whole organism, and because it cannot experience that representation as a representation, it feels like being someone." Which view does this express?
+content:: "Nobody has ever been or had a self. What exists is a picture the brain makes of the whole organism, and because the brain cannot experience that picture as a picture, it feels like being someone." Which view does this express?
 options::
 - Not-self as a method
+- No-self as a claim about what exists
 - The bundle or reductionist view
 - A true Self as a core with qualities
 - A true Self as pure awareness
@@ -85,9 +89,10 @@ explanation:: The feeling of being someone is explained as a representation the 
 
 #### Question: Choice
 id:: c4a6add8-3d4c-4cd1-b9b8-c1c599fa3d01
-content:: "The self is the main character in the account we keep giving of what this body does. It is real the way a centre of gravity is real: useful for explaining, but not something you could find in the brain." Which view does this express?
+content:: "The self is the main character in the story told about what this body does. It is real the way a centre of gravity is real: useful for explaining, but not something you could find in the brain." Which view does this express?
 options::
 - Not-self as a method
+- No-self as a claim about what exists
 - The bundle or reductionist view
 - A true Self as a core with qualities
 - A true Self as pure awareness
