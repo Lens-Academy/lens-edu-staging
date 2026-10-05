@@ -79,6 +79,7 @@ Module 7 goals (Emotions and circumstances):
 %%
 
 # Module: [[../modules/Emotional Abundance M7 Emotions and circumstances|Emotions and circumstances]]
+
 %%
 Module 8 goals (Your position and your experiments):
 - Compare your current view with your starting view from module 1
