@@ -14,6 +14,7 @@ This continues the same post by Greenblatt and Shlegeris. It explains how a red 
 source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
 from:: In a control evaluation, a red team searches for strategies
 to:: and doing technique development to improve the weaknesses that they uncover.
+
 #### Callout: Quick recall
 #### Question: Open
 id:: d2beb61b-ae14-4b9b-bbbf-021602c1c19b

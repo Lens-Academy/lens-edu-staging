@@ -26,6 +26,7 @@ feedback-instructions:: In at most four sentences: say plainly what the learner 
 #### Article
 from:: One difficulty we face when arguing for control
 to:: Because control could be applied to mitigate risk from scheming right now, it's a particularly promising target for research effort and policy commitments.
+
 #### Callout: Quick recall
 #### Question: Open
 id:: d3436a3e-f4ab-4dce-b452-dec7fca0af5c
