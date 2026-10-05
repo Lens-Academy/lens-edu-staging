@@ -1,8 +1,8 @@
 ---
 title: "Stoic Philosophy as a Cognitive-Behavioral Therapy"
 author:
-  - {--{"author":"James agent ready-30's AI","timestamp":1791145846879}@@"donald"--}{++{"author":"James agent ready-30's AI","timestamp":1791145846879}@@"Donald Robertson"
-  - "Tim Codd"++}
+  - "Donald Robertson"
+  - "Tim Codd"
 source_url: "https://donaldrobertson.name/2019/09/16/stoic-philosophy-as-a-cognitive-behavioral-therapy-2/"
 published: 2019-09-16
 created: 2026-10-04
