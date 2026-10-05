@@ -32,6 +32,11 @@ optional:: true
 # Lens: Circumstances, weighed again
 source:: [[../Lenses/EA - Circumstances, weighed again]]
 
+# Lens: Scott Alexander reads the PNSE paper
+source:: [[../Lenses/EA - Fundamental wellbeing - Scott Alexander reads the PNSE paper]]
+optional:: true
+hide:: true
+
 # Submodule: When calm goes wrong
 # Learning Outcome:
 source:: [[../Learning Outcomes/EA - Telling equanimity from its look-alikes]]
