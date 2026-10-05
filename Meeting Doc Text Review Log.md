@@ -134,7 +134,7 @@ Stages 1 to 4 run once per batch of docs. The first batch is next week's three.
 |---|---|---|---|---|---|---|
 | AIRF Meeting 5 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | todo | todo | todo |
 | AI Futures Meeting 3 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | todo | todo | todo |
-| CV1 Meeting 5 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | todo | todo | todo |
+| CV1 Meeting 5 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | in progress, first pass 2026-10-04 | first round 2026-10-04 | todo |
 | Shared How today works (three variants) and Participant FAQ | with the above | done 2026-10-04 | done 2026-10-03 | todo | todo | todo |
 | Master template | n/a | done 2026-10-04 | not flagged | n/a | n/a | n/a |
 | AIRF Meetings 1 to 4 | later | todo | todo | todo | todo | todo |
