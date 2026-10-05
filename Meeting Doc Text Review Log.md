@@ -43,6 +43,7 @@ Modeled on [[AIRF Restructure Log]] and [[CV1 Streamlining Proposal]], but kept 
 - **Edit around existing comments, never through them.** An edit whose span contains a comment routes to review as one unit, so rejecting it loses the whole edit.
 - **Mark who made each decision.** A proposal from Claude is not a decision until Andreas confirms it.
 - **Open relay sessions under Andreas's name**, so edits show as his AI's in the review queue. Sessions before 2026-10-04 were opened without a name, and their edits stay unattributed.
+- **Keep the page light.** *Andreas, 2026-10-04.* In-doc flags are only for what a rewrite has to deal with. Typos, punctuation and other small fixes go in the chat review, and a review round does not re-flag the page. Replacing flags in place also proved fragile: a hand edit next to a pending flag replacement on 2026-10-04 left a broken suggestion fragment in CV1 Meeting 5, which had to be removed.
 - **Claude clears its own flags.** A flag is removed once its passage is rewritten or deliberately kept. Removing a comment touches a comment, so the removal arrives as a pending change for Andreas to accept, not a direct edit. Tested on a scratch file on 2026-10-04: the edit has to quote the comment exactly, author and timestamp included.
 
 ---
@@ -78,6 +79,10 @@ Each entry gives the decision, who made it, the reason, and what it commits us t
 **Shared files may be edited.** *Andreas, 2026-10-03.* They also feed AI Control 1 and 2, which are not live yet. Commits us to keeping section 5 current.
 
 **"Accountability buddy" is the standard term.** *Andreas, 2026-10-04.* Most docs and the shared FAQ already say "buddy". AI Futures Meetings 2 and 3 say "partner" and change at their rewrite. Recorded in the style sheet as B7.
+
+**Follow-up questions that sort participants may share an item.** *Andreas, 2026-10-04.* There is a tension between one question per item and leaving room for different answers. Follow-ups such as "if not, what stopped you?" or "if nothing changed, what would?" filter responses by a participant's situation, so they stay. Recorded in the style sheet under B1. Applied to CV1 Meeting 5, Room 1, items 1 and 3.
+
+**"X ends, but Y doesn't" is allowed.** *Andreas, 2026-10-04.* Not a wholly prohibitive form. CV1 Meeting 5's Room 4 closer stays for now. Recorded in the style sheet under A2.
 
 **Next week's meetings first.** *Andreas, 2026-10-03.* A cohort's docs are created from the masters at the top of each week. An edit accepted after that reaches nobody already enrolled, and a live copy has to be patched separately (see the note on masters and copies in [[AIRF Restructure Log]]). So the order follows the cohorts. For the week of 2026-10-05 that is AIRF Meeting 5, AI Futures Meeting 3 and CV1 Meeting 5.
 
@@ -134,7 +139,7 @@ Stages 1 to 4 run once per batch of docs. The first batch is next week's three.
 |---|---|---|---|---|---|---|
 | AIRF Meeting 5 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | todo | todo | todo |
 | AI Futures Meeting 3 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | todo | todo | todo |
-| CV1 Meeting 5 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | in progress, second pass 2026-10-04 | second round 2026-10-04 | todo |
+| CV1 Meeting 5 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | done 2026-10-04 | done 2026-10-04 | flag removals pending |
 | Shared How today works (three variants) and Participant FAQ | with the above | done 2026-10-04 | done 2026-10-03 | todo | todo | todo |
 | Master template | n/a | done 2026-10-04 | not flagged | n/a | n/a | n/a |
 | AIRF Meetings 1 to 4 | later | todo | todo | todo | todo | todo |
