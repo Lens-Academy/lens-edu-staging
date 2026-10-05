@@ -52,6 +52,16 @@ feedback-instructions:: The learner imagines noticing a change in sense of self 
 #### Text
 content::
 \## Going further
-A related risk is **spiritual bypassing**, a term the psychotherapist John Welwood coined for using spiritual ideas and practices to avoid facing emotional problems and human needs. In an interview with *Tricycle* ([Human Nature, Buddha Nature](https://www.johnwelwood.com/articles/TRIC_interview_uncut.pdf), optional, about 25 minutes) he speaks from Buddhism, but his point applies directly to this module's claim that happiness does not depend on anything. He argues that "absolute truth" can be used to dismiss "relative human needs", and that while one's deepest nature may not depend on anything, "our human embodiment" does.
+A related risk is **spiritual bypassing**, a term the psychotherapist John Welwood coined for using spiritual ideas and practices to avoid facing emotional problems and human needs. He speaks from Buddhism in this interview with Tina Fossella, but his point applies directly to this module's claim that happiness does not depend on anything. Below are his definition and the passage where he argues that while one's deepest nature may not depend on anything, "our human embodiment" does (about 4 minutes).
 optional:: true
-%% Import of the Welwood PDF (job 831d62d2) was stuck in the importer queue on 2026-10-05. Once it exists in articles/, embed it here as an optional Article segment instead of the link. %%
+
+#### Article
+source:: [[../articles/welwood-human-nature-buddha-nature-on-spiritual-bypassing-relationship-and-the-dharma]]
+from:: TF: You introduced the term “spiritual bypassing” 30 years ago now.
+to:: happen on a number of occasions.
+optional:: true
+
+#### Article
+from:: But if we hold a perspective that includes the two developmental tracks, then we will
+to:: human embodiment is — that's relative truth.
+optional:: true
