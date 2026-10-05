@@ -3,14 +3,14 @@ id: '36013e2e-982f-4bd6-9168-858b6fd21e02'
 title: "Describing experience carefully"
 tldr: "Introspection failed as a science a century ago. One psychologist's answer is to sample random moments of ordinary life and interview people carefully about exactly those moments."
 summary_for_tutor: "Optional depth lens in module 3, after 'Reports from the inside'. Hurlburt and Akhter 2006, 'The Descriptive Experience Sampling method': abstract, why introspection was banned from psychology (a spectacular failure a century ago) and why it may be possible but not trivially easy to describe inner experience accurately, the aim of capturing 'pristine' experience at the moment of a random beep, and the procedure (random beeps in daily life, notes, an expositional interview within 24 hours, typically 4 to 8 sampling days and 25 to 50 moments, then the salient characteristics of that person's experience). Contrast with Schwitzgebel, who doubts introspection, and with contemplative training, which claims to improve it. Hurlburt and Schwitzgebel later wrote a book debating each other. Open question, not graded."
-reading_minutes: 10
+reading_minutes: 8
 tutor_minutes: 4
 tags:
   - wip
 ---
 #### Text
 content::
-This page is optional. Schwitzgebel argued that ordinary introspection is unreliable. Russell Hurlburt, a psychologist, has spent decades on a method meant to make reports of inner experience more trustworthy without meditation training. Hurlburt and Schwitzgebel later debated each other in a joint book, [*Describing Inner Experience? Proponent Meets Skeptic*](https://faculty.ucr.edu/~eschwitz/SchwitzAbs/DescExp.htm) (MIT Press, 2007), in which they interview one person about randomly sampled moments and argue about what her reports show.
+This page is optional. Schwitzgebel argued that ordinary introspection is unreliable. Russell Hurlburt, a psychologist, developed a method meant to make ordinary people's reports of their inner experience more trustworthy. Hurlburt and Schwitzgebel later debated each other in a joint book, [*Describing Inner Experience? Proponent Meets Skeptic*](https://faculty.ucr.edu/~eschwitz/SchwitzAbs/DescExp.htm) (MIT Press, 2007), in which they interview one person about randomly sampled moments and argue about what her reports show.
 
 #### Article
 source:: [[../articles/hurlburt-the-descriptive-experience-sampling-method]]

@@ -3,7 +3,7 @@ id: '7dd2599f-43aa-4802-9ce9-707170b01882'
 title: "When a whole literature misleads"
 tldr: "Even many studies and a careful meta-analysis can support something false. Parapsychology shows how."
 summary_for_tutor: "Optional depth lens in module 3. (1) Scott Alexander 2014, 'The Control Group Is Out Of Control': parapsychology as the control group for science. A field studying an effect most people think does not exist produces positive evidence about as easily as other fields. Bem's 2014 meta-analysis of 90 replications meets almost every standard reformers demand, yet concludes psychic powers exist. Alexander thinks Bem is wrong, and concludes that almost no study could survive the criticism it would take to show a wrong study wrong. Then links (not embedded) to Van Dam et al. 2018 'Mind the Hype', a critique of meditation research by meditation researchers, and Ioannidis 2005 'Why most published research findings are false'. Open discussion, no grading."
-reading_minutes: 15
+reading_minutes: 8
 tutor_minutes: 5
 tags:
   - wip

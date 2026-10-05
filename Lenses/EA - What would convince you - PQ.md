@@ -2,9 +2,9 @@
 id: '1ad10a79-8756-409a-9ad5-69a8e144364d'
 title: "What would convince you?"
 tldr: "Before the readings, notice what you already count as good evidence about happiness and practice."
-summary_for_tutor: "Pre-reading question for module 3 (Judging claims). The learner is given two pieces of evidence for daily meditation, a study result and a long-time teacher's report, and says what each would need to show before it convinced them. The next lenses cover how published research goes wrong, what first-person reports can and cannot show, why people get better anyway, and how to weigh each kind of evidence. Do not preview those answers."
+summary_for_tutor: "Pre-reading question for module 3 (Judging claims). The learner is given two pieces of evidence for daily meditation, a study result and a long-time teacher's report, and says, in two separate questions, what they would want to know about each before trusting it. The next lenses cover how published research goes wrong, what first-person reports can and cannot show, why people get better anyway, and how to weigh each kind of evidence. Do not preview those answers."
 reading_minutes: 1
-tutor_minutes: 3
+tutor_minutes: 4
 tags:
   - wip
 ---
