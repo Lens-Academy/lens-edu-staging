@@ -44,7 +44,7 @@ The philosopher Galen Strawson quotes exactly that passage of Dennett's as one o
 #### Article
 source:: [[../articles/strawson-against-narrativity]]
 from:: I argue against two popular claims.
-to:: I think it obvious that I* was not there, as a matter of metaphysical fact.
+to:: think it obvious that I* was not there, as a matter of metaphysical fact.
 
 #### Question: Open
 id:: b3239560-6cee-41dd-96e8-279f765bc088
