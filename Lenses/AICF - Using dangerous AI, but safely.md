@@ -32,14 +32,6 @@ content::
 
 #### Video
 from:: 4:22.6
-to:: 5:12.3
-
-#### Text
-content::
-We skip about three minutes here, where Miles reads out some of the odd example problems from the programming dataset. The video picks up when he explains what counts as a catastrophic action.
-
-#### Video
-from:: 8:34.7
 to:: 13:32.5
 skip:: 5:12.3-8:34.7 "Miles reads example problems from the dataset"
 
