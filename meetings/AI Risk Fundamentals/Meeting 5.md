@@ -15,7 +15,7 @@ source:: [[../shared/Session Doc - How today works (AI Risk Fundamentals)]]
 \pagebreak
 ### Room 1: Icebreaker  [0:05–0:19]
 
-Go around your group, three things:
+Go around your group, three things:{>>{"author":"Andreas's AI","timestamp":1791186538736}@@For the full pass: this says "three things", but item 3 only applies if everyone already shared. Item 3 also says "last meeting" where item 2 says "last unit" (B7).<<}
 
 
 1. **Did you finish the book? What was it like to reach the end? If you didn't finish, what got in the way?** ("I didn't finish" is a totally fine answer.){--{"author":"Andreas's AI","timestamp":1791183870385}@@{>>{"author":"AI","timestamp":1791094715854}@@Clarity: three questions in one item. AI (mild, recurring): the "No judgment" reassurance is the same stock line in every doc.<<}--}
@@ -55,7 +55,7 @@ As a group, discuss this question and **write your shared response** in the tabl
 
 
 > **Would you sign it?**
-> The book ends with a concrete ask: a worldwide halt on frontier AI development, enforced by GPU monitoring and an international treaty. The authors argue the level of care required from countries would not be "even 1% as much as they cared to fight World War II".{>>{"author":"AI","timestamp":1791094718564}@@Content: this isn't the book's line. Chapter 13 argues that saying countries could never do this amounts to saying they "could not possibly care even 1% as much as they cared to fight World War II" (see the WWII Analogy lens). That is about willingness, not cost. The "1% as costly" wording appears only in the book-club design notes.<<}
+> The book ends with a concrete ask: a worldwide halt on frontier AI development, enforced by GPU monitoring and an international treaty. The authors argue the level of care required from countries would not be "even 1% as much as they cared to fight World War II".{--{"author":"Andreas's AI","timestamp":1791186537049}@@{>>{"author":"AI","timestamp":1791094718564}@@Content: this isn't the book's line. Chapter 13 argues that saying countries could never do this amounts to saying they "could not possibly care even 1% as much as they cared to fight World War II" (see the WWII Analogy lens). That is about willingness, not cost. The "1% as costly" wording appears only in the book-club design notes.<<}--}
 > **Go around, gut reaction to the proposal:** realistic, necessary, both, neither? Then, **find the weakest link in the plan** (nations won't sign? enforcement fails? we'd need a warning shot first?) **and stress-test it**.{>>{"author":"AI","timestamp":1791094719426}@@Clarity: this block packs four asks into one paragraph (gut reaction, weakest link, stress-test, and the alternative below). AI (mild): the bracketed run of question fragments, and "stress-test it".<<}
 > **And if your group rejects the halt, what do you endorse instead?** Anything can be a valid answer (even keep going), but you have to defend it.
 
