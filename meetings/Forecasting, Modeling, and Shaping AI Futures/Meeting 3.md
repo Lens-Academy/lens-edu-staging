@@ -107,7 +107,7 @@ Whole group, no breakout room.
 2. Today, send your accountability buddy one line{>>{"author":"AI","timestamp":1791094783858}@@Consistency: "partner" here, "buddy" in Meetings 1 and 5 and in the FAQ.<<}: what is most likely to stop you finishing the next unit, and your plan.
 
 
-Use the Lens Tutor (https://lensacademy.org/tutor) between sessions. One question for the post-meeting survey's feedback box: some of you have said this course is too hard; others have said that is why you are here. Which are you, and what change do you specifically want to see? Your answer reaches the people building this course, and they want the honest answer, not the kind one.{>>{"author":"AI","timestamp":1791094784789}@@AI (strong): an emphatic reassurance ("they do change it") after a two-word command. Meeting 2 has the same move ("We want the honest answer, not the kind one").<<}
+Use the Lens Tutor (https://lensacademy.org/tutor) between sessions. One question for the post-meeting survey's feedback box: some of you have said this course is too hard; others have said that is why you are here. Which are you, and what change do you specifically want to see? Your answer reaches the people building this course, and they would rather the honest answer, not the kind one.{>>{"author":"AI","timestamp":1791094784789}@@AI (strong): an emphatic reassurance ("they do change it") after a two-word command. Meeting 2 has the same move ("We want the honest answer, not the kind one").<<}
 
 
 ---
