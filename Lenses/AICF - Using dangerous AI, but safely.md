@@ -115,6 +115,7 @@ content::
 #### Video
 from:: 20:54.8
 to:: 27:39.1
+
 #### Text
 content::
 Using a copy of the untrusted model as the monitor is called **untrusted monitoring**.
