@@ -70,6 +70,7 @@ Module 6 goals (The self):
 %%
 
 # Module: [[../modules/Emotional Abundance M6 The self|The self]]
+
 %%
 Module 7 goals (Emotions and circumstances):
 - Compare what schools say to do with emotions: acceptance, reappraisal, equanimity, Stoic judgement, non-attachment, and the evidence for each
