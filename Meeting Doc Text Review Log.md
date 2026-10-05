@@ -72,11 +72,11 @@ Each entry gives the decision, who made it, the reason, and what it commits us t
 
 **Suggestions, not direct edits, for anything that replaces existing text.** *Andreas, 2026-10-03.* Reviewers see old and new side by side instead of triaging which text is new. Flags are comments; they only add text, so they land direct.
 
-**Lens Coach becomes Lens Tutor everywhere.** *Project owner, 2026-10-03.* Lens Coach was merged into Lens Tutor, and `lensacademy.org/coach` redirects to `lensacademy.org/tutor`. The rename changes the name and the link only, with no rewording.
+**Lens Coach becomes Lens Tutor everywhere.** *Andreas, 2026-10-03.* Lens Coach was merged into Lens Tutor, and `lensacademy.org/coach` redirects to `lensacademy.org/tutor`. The rename changes the name and the link only, with no rewording.
 
-**Shared files may be edited.** *Project owner, 2026-10-03.* They also feed AI Control 1 and 2, which are not live yet. Commits us to keeping section 5 current.
+**Shared files may be edited.** *Andreas, 2026-10-03.* They also feed AI Control 1 and 2, which are not live yet. Commits us to keeping section 5 current.
 
-**Next week's meetings first.** *Project owner, 2026-10-03.* A cohort's docs are created from the masters at the top of each week. An edit accepted after that reaches nobody already enrolled, and a live copy has to be patched separately (see the note on masters and copies in [[AIRF Restructure Log]]). So the order follows the cohorts. For the week of 2026-10-05 that is AIRF Meeting 5, AI Futures Meeting 3 and CV1 Meeting 5.
+**Next week's meetings first.** *Andreas, 2026-10-03.* A cohort's docs are created from the masters at the top of each week. An edit accepted after that reaches nobody already enrolled, and a live copy has to be patched separately (see the note on masters and copies in [[AIRF Restructure Log]]). So the order follows the cohorts. For the week of 2026-10-05 that is AIRF Meeting 5, AI Futures Meeting 3 and CV1 Meeting 5.
 
 **Flag only what fails a named check.** *Proposed by Claude, 2026-10-03. Not yet confirmed.* Unflagged text stays as it is. In the AI Futures course-page rewrite, the first bulk rewrite changed meanings, so the smallest change that fixes a problem is the safer one. The checks: can a participant act on it after one read; is there one question per item; does it state its point plainly; would a navigator say it out loud like this; does it rely on something the doc does not give; would anything be lost if it were cut; does it match the rest of the doc.
 
