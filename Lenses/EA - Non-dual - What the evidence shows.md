@@ -46,7 +46,7 @@ Two things to keep in mind. Bliss is one of the questionnaire's two dimensions, 
 
 **What is missing.** We found no randomized trial with a well-being outcome of Ramana's self-enquiry, of Douglas Harding's experiments (in the experiments lens), or of Spira's or Tolle's teaching. A 2025 paper that proposes self-enquiry for psychotherapy says "empirical studies directly focusing on Self-Enquiry remain limited" ([Zhao 2025](https://www.nature.com/articles/s41599-025-04387-w)).
 
-**Who earns from it.** Several teachers in this module sell teaching. Eckhart Tolle sells an online membership ([Eckhart Tolle Now](https://members.eckharttolle.com/preview-eckhart-tolle-h83hcfbe/)). Sam Harris, whose guided session is in the experiments, runs the paid app Waking Up ([Waking Up](https://www.wakingup.com/)). Loch Kelly's and Rupert Spira's sites sell their books. Ramana's ashram gives *Who am I?* away free ([gururamana.org](https://www.gururamana.org/Teachings/who_am_I.pdf)).
+**Who earns from it.** Several teachers in this module sell teaching. Eckhart Tolle sells an online membership ([Eckhart Tolle Now](https://members.eckharttolle.com/preview-eckhart-tolle-h83hcfbe/)). Sam Harris, whose guided session is in the experiments, runs the paid app Waking Up ([Waking Up](https://www.wakingup.com/)). Rupert Spira's and Loch Kelly's sites sell their books and courses ([Spira](https://rupertspira.com/store), [Kelly](https://lochkelly.org/effortless-mindfulness-self-paced-online-retreat)). Ramana's ashram gives *Who am I?* away free ([gururamana.org](https://www.gururamana.org/Teachings/who_am_I.pdf)).
 
 #### Callout: Our view of strengths and weaknesses
 tone:: neutral
