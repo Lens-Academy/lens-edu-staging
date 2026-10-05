@@ -18,7 +18,7 @@ source:: [[../shared/Session Doc - How today works (AI Risk Fundamentals)]]
 Go around your group, three things:
 
 
-1. **Did you finish the book? What was it like to reach the end? If you didn't finish, what got in the way?** (No judgment, "I didn't finish" is a totally fine answer.){--{"author":"Andreas's AI","timestamp":1791183870385}@@{>>{"author":"AI","timestamp":1791094715854}@@Clarity: three questions in one item. AI (mild, recurring): the "No judgment" reassurance is the same stock line in every doc.<<}--}
+1. **Did you finish the book? What was it like to reach the end? If you didn't finish, what got in the way?** ("I didn't finish" is a totally fine answer.){--{"author":"Andreas's AI","timestamp":1791183870385}@@{>>{"author":"AI","timestamp":1791094715854}@@Clarity: three questions in one item. AI (mild, recurring): the "No judgment" reassurance is the same stock line in every doc.<<}--}
 
 
 2. **How did your conversation go?** Your action plan asked you to talk to one real person about AI risk. If you already shared last unit, tell us what's happened since. Otherwise, share:
