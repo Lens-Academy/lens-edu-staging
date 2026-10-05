@@ -26,4 +26,11 @@ id:: c22e3601-8690-42b1-9ebe-6d200bd20c3d
 content::
 Which of Schwitzgebel's worries does this method address, and which does it leave open? Write a few lines.
 optional:: true
-feedback-instructions:: The learner read optional excerpts from Hurlburt and Akhter 2006 on Descriptive Experience Sampling (random beeps in daily life, notes at the moment, an interview within 24 hours, many moments over several days) after reading Schwitzgebel's argument that naive introspection is unreliable, even about current emotions. Reply in 80 to 130 words. Credit what they found. Points worth naming if missed: DES targets single, concrete, recent moments rather than generalisations about oneself, and the interview tries to strip away presuppositions, which addresses some of Schwitzgebel's worries. It does not remove them all: the report is still the subject's, given after the moment, and there is no independent check of what the experience was. Do not say who is right. One reply. No generic praise.
+feedback-instructions:: The learner read optional excerpts from Hurlburt and Akhter 2006 on Descriptive Experience Sampling (random beeps in daily life, notes at the moment, an interview within 24 hours, many moments over several days) after reading Schwitzgebel's argument that naive introspection is unreliable, even about current emotions. This question asks only which worries the method addresses. Reply in 50 to 100 words. Credit what they found. Points worth naming if missed: DES targets single, concrete, recent moments rather than generalisations about oneself, and the interview tries to strip away presuppositions. Do not say who is right. One reply. No generic praise.
+
+#### Question: Open
+id:: cdbafb31-17f8-4833-b8c3-8f96de3cb173
+content::
+Which of his worries does it leave open?
+optional:: true
+feedback-instructions:: Same reading as the previous question (Hurlburt's Descriptive Experience Sampling after Schwitzgebel's case against naive introspection). This question asks which worries the method leaves open. Reply in 50 to 100 words. Credit what they found. Points worth naming if missed: the report is still the subject's own, given after the moment, and there is no independent check of what the experience was. The interviewer's questions may also shape the description. Do not say who is right. One reply. No generic praise.
