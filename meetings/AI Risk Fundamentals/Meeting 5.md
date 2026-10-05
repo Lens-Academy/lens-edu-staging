@@ -18,7 +18,7 @@ source:: [[../shared/Session Doc - How today works (AI Risk Fundamentals)]]
 Go around your group, three things:{>>{"author":"Andreas's AI","timestamp":1791186538736}@@For the full pass: this says "three things", but item 3 only applies if everyone already shared. Item 3 also says "last meeting" where item 2 says "last unit" (B7).<<}
 
 
-1. **Did you finish the book? What was it like to reach the end? If you didn't finish, what got in the way?** ("I didn't finish" is a totally fine answer.){--{"author":"Andreas's AI","timestamp":1791183870385}@@{>>{"author":"AI","timestamp":1791094715854}@@Clarity: three questions in one item. AI (mild, recurring): the "No judgment" reassurance is the same stock line in every doc.<<}--}
+1. **Did you finish the book? What was it like to reach the end? If you didn't finish, what got in the way?** ("I didn't finish" is a totally fine answer.)
 
 
 2. **How did your conversation go?** Your action plan asked you to talk to one real person about AI risk. If you already shared last unit, tell us what's happened since. Otherwise, share:
@@ -29,7 +29,7 @@ Go around your group, three things:{>>{"author":"Andreas's AI","timestamp":17911
 Not yet? Say when it's happening, or what's been in the way.
 
 
-3. If everyone already shared their conversation last meeting: **Where does finishing the book leave you:** hopeful, alarmed, motivated, numb, or something else?{--{"author":"Andreas's AI","timestamp":1791185513015}@@{>>{"author":"AI","timestamp":1791094716527}@@Clarity: hard to parse. Does "if everyone already shared last unit" mean this replaces item 2, or follows it? AI (mild, recurring): the list of feelings ending in "something else?" appears in several icebreakers.<<}--}
+3. If everyone already shared their conversation last meeting: **Where does finishing the book leave you:** hopeful, alarmed, motivated, numb, or something else?
 
 
 | Names | Conversations + Book reactions |
@@ -51,16 +51,16 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-As a group, discuss this question and **write your shared response** in the table:{--{"author":"Andreas's AI","timestamp":1791183872200}@@{>>{"author":"AI","timestamp":1791094717802}@@AI (mild, recurring): template boilerplate. It also opens with "Then" straight after "Names first, then straight in."<<}--}
+As a group, discuss this question and **write your shared response** in the table:
 
 
 > **Would you sign it?**
-> The book ends with a concrete ask: a worldwide halt on frontier AI development, enforced by GPU monitoring and an international treaty. The authors argue the level of care required from countries would not be "even 1% as much as they cared to fight World War II".{--{"author":"Andreas's AI","timestamp":1791186537049}@@{>>{"author":"AI","timestamp":1791094718564}@@Content: this isn't the book's line. Chapter 13 argues that saying countries could never do this amounts to saying they "could not possibly care even 1% as much as they cared to fight World War II" (see the WWII Analogy lens). That is about willingness, not cost. The "1% as costly" wording appears only in the book-club design notes.<<}--}
+> The book ends with a concrete ask: a worldwide halt on frontier AI development, enforced by GPU monitoring and an international treaty. The authors argue the level of care required from countries would not be "even 1% as much as they cared to fight World War II".
 > **Go around, gut reaction to the proposal:** realistic, necessary, both, neither? Then, **find the weakest link in the plan** (nations won't sign? enforcement fails? we'd need a warning shot first?) **and stress-test it**.{>>{"author":"AI","timestamp":1791094719426}@@Clarity: this block packs four asks into one paragraph (gut reaction, weakest link, stress-test, and the alternative below). AI (mild): the bracketed run of question fragments, and "stress-test it".<<}
 > **And if your group rejects the halt, what do you endorse instead?** Anything can be a valid answer (even keep going), but you have to defend it.
 
 
-Want help or clarification for this question?{--{"author":"Andreas's AI","timestamp":1791183873881}@@{>>{"author":"AI","timestamp":1791094720202}@@AI (mild, recurring): "help or an explanation … ask for an explanation" repeats itself, and it is the same stock line in every doc.<<}--} Ask your navigator or copy it into the [Lens Tutor](https://lensacademy.org/tutor) for an explanation.
+Want help or clarification for this question? Ask your navigator or copy it into the [Lens Tutor](https://lensacademy.org/tutor) for an explanation.
 
 
 | Names | Weakest link in the proposal | Your group's verdict |
@@ -84,13 +84,13 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-You've now heard the whole case, from "intelligence is power" to "shut it down". Time to test how well you can argue it.{--{"author":"Andreas's AI","timestamp":1791185514612}@@{>>{"author":"AI","timestamp":1791094721059}@@AI (strong): short punchy fragment, a typical Claude rhythm. The "from X to Y" framing just before it comes back in the wrap-up.<<}--} Go around in two rounds, then respond to each other:
+You've now heard the whole case, from "intelligence is power" to "shut it down". Time to test how well you can argue it. Go around in two rounds, then respond to each other:
 
 
 **1. The three-minute version:**
 One of you makes the book's whole argument in about 3 minutes to the others, who play people who have never heard of it and ask honest questions. If somebody else wants to try: swap roles. **When someone's three-minute version skips a step, or lands a line worth remembering, say it!** You're each other's rehearsal audience for every future conversation about this.{>>{"author":"AI","timestamp":1791094721820}@@AI (strong): a grand line telling people why the exercise matters. "Ask honest questions" and "lands a line worth remembering" in the same item read the same way.<<}
 **2. But where do you land?**
-Share your #1 takeaway from the course, and the argument in the book you're least convinced by.{--{"author":"Andreas's AI","timestamp":1791183875288}@@{>>{"author":"AI","timestamp":1791094722630}@@Clarity: two asks in one line.<<}--}
+Share your #1 takeaway from the course, and the argument in the book you're least convinced by.
 
 
 Your scribe writes each person's #1 takeaway and the argument they're least convinced by.
@@ -118,11 +118,11 @@ One or two people share what their group landed on.
 The last room of the whole course. Some possibilities for what to do next:{>>{"author":"AI","timestamp":1791094723436}@@AI (mild): a sentence fragment as the opener. Clarity: "Some possibilities" sounds optional, but items 1 and 2 are the room's asks and item 3 is information.<<}
 
 
-1. **Your ongoing action:** the course ends today but your action plan doesn't have to!{--{"author":"Andreas's AI","timestamp":1791183876821}@@{>>{"author":"AI","timestamp":1791094724258}@@AI (strong, recurring): "X ends, but Y doesn't" closer. The same line closes AIF M5 and CV1 M5.<<}--} **Share the one action you choose to keep doing after this course** (have conversations, write representatives, refer someone, aim your skills at the problem)**, and its first concrete step with a date.**
-2. **Feedback:** this was our last session. **What should the next cohort get more of, and less of?** What almost made you drop, and what kept you coming?{--{"author":"Andreas's AI","timestamp":1791185516119}@@{>>{"author":"AI","timestamp":1791094725059}@@AI (mild, recurring): odd phrase that reads like an internal note. Clarity: this item asks three questions.<<}--}
+1. **Your ongoing action:** the course ends today but your action plan doesn't have to! **Share the one action you choose to keep doing after this course** (have conversations, write representatives, refer someone, aim your skills at the problem)**, and its first concrete step with a date.**
+2. **Feedback:** this was our last session. **What should the next cohort get more of, and less of?** What almost made you drop, and what kept you coming?
 3. Two things you can keep doing with Lens, both in the Meeting 5 Survey and beyond:
     - Keep learning: **we are running an advanced course, Advanced Strategy in AI Safety as well as two intermediate courses, Compute Verification 1 and AI Control 1**. These courses run part-time or as a one-week intensive.
-    - **Become a Navigator!** Guiding others is one of the highest value things we think you can do today.{--{"author":"Andreas's AI","timestamp":1791185517597}@@{>>{"author":"AI","timestamp":1791094725940}@@AI (mild): sweeping promotional claim. The course rules want claims like this marked as our view ("We think…") or cut.<<}--} If you would consider it, [let us know!](https://lensacademy.org/navigators)
+    - **Become a Navigator!** Guiding others is one of the highest value things we think you can do today. If you would consider it, [let us know!](https://lensacademy.org/navigators)
 
 
 | Names | Ongoing action + first step | Feedback for us |
@@ -154,7 +154,7 @@ style:: faq
 Your navigator isn't in every room, so:
 
 - **Confused about the task, or want a human?** Click “••• More” > “Ask for Help” > Your navigator gets pinged and pops into your room.
-- **Don't get the question, or something in the reading?**{--{"author":"Andreas's AI","timestamp":1791183879657}@@{>>{"author":"AI","timestamp":1791094729068}@@AI (mild, recurring): "for understanding, not for handing you the answer" below is an "X, not Y" contrast.<<}--} Ask the [Lens Tutor](https://lensacademy.org/tutor). It's for understanding, not for handing you the answer.
+- **Don't get the question, or something in the reading?** Ask the [Lens Tutor](https://lensacademy.org/tutor). It's for understanding, not for handing you the answer.
 - **Lost the doc link, or a quick logistics thing?** Check the **Discord channel** or the Zoom chat.
 
 ### Before you arrive
@@ -168,7 +168,7 @@ Your navigator isn't in every room, so:
 - **What's a "scribe"?** One person per group jots the names and your answer into the table. A line or two is plenty; rotate it each room if you like.
 - **We finished early / ran out of things to say.** Call your navigator to get ideas for expanding your current conversation. Or use the spare minute to agree what you would say if someone from your group shares between rooms.
 - **No one's talking, or one person is dominating.** Just start talking when you have a thought; if it's really stuck, click Ask for Help.
-- **Do we need a "right answer"?** No! The point is the discussion, not a tidy answer.{--{"author":"Andreas's AI","timestamp":1791183880496}@@{>>{"author":"AI","timestamp":1791094728369}@@AI (mild, recurring): "X, not Y" contrast. Same in the shared FAQ.<<}--}
+- **Do we need a "right answer"?** No! The point is the discussion, not a tidy answer.
 
 ### Between rooms
 
