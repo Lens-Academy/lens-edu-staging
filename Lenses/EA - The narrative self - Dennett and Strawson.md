@@ -64,7 +64,7 @@ Be a brief, honest mirror: say what they got right without inflation, name what 
 id:: 1afae3d9-d811-4601-b818-388a91004f00
 content::
 \## Which are you?
-Using Strawson's two descriptions, would you call yourself more Episodic or more Diachronic? Think of something you did ten years ago: does it feel like it happened to you, the self you are now, or to the human being you are?
+Think of something you did ten years ago and notice whether it feels like it happened to the self you are now, or only to the same human being. Using Strawson's two descriptions, would you call yourself more Episodic or more Diachronic?
 force-feedback:: first
 feedback-instructions:: The learner read Strawson's distinction: Diachronic people naturally figure their self as something that was there in the past and will be there in the future; Episodic people do not, although they know they are the same human being. Strawson says the two are not absolute, can vary with age, health and topic, and that neither is an inferior form of life. The learner now places themselves.
 

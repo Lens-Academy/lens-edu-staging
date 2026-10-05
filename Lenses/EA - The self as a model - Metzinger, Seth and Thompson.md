@@ -21,11 +21,12 @@ to:: The self is not a thing, but a process.
 
 #### Text
 content::
-Next, the neuroscientist Anil Seth, in the second half of a TED talk. Earlier in the talk he explains his term **controlled hallucination**: what we perceive is the brain's best guess about the causes of its sensory signals, kept in check by those signals. Here he applies the idea to the self. **Interoception**, a word he uses, means perceiving the inside of your own body, such as your heartbeat. The first half of the talk is about perception of the world and is optional.
+Next, and optional, the neuroscientist Anil Seth, in the second half of a TED talk (about 9 minutes). Earlier in the talk he explains his term **controlled hallucination**: what we perceive is the brain's best guess about the causes of its sensory signals, kept in check by those signals. Here he applies the idea to the self. **Interoception**, a word he uses, means perceiving the inside of your own body, such as your heartbeat. The first half of the talk is about perception of the world.
 
 #### Video
 source:: [[../video_transcripts/ted-your-brain-hallucinates-your-conscious-reality-anil-seth-ted]]
 from:: 8:53
+optional:: true
 
 #### Text
 content::
