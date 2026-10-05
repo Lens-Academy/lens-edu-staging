@@ -10,7 +10,7 @@ glossary_terms:
 ---
 #### Text
 content::
-An introduction to AI control: a policy explainer by Georgetown's Center for Security and Emerging Technology (CSET), written for people outside the field. It introduces many of the ideas this course uses, so you read it in parts, with questions along the way that ask you to use those ideas.
+An introduction to AI control: a policy explainer by Georgetown's Center for Security and Emerging Technology (CSET), written for people outside the field. It introduces many of the ideas this course uses, so you read it in parts, with questions along the way that ask you to use those ideas. Its second half, on how control protocols work and on control in practice, is optional and folded at the end.
 
 #### Article
 source:: [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agents]]

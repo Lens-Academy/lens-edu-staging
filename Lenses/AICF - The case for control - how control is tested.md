@@ -10,7 +10,7 @@ glossary_terms:
 ---
 #### Text
 content::
-This continues the same post by Greenblatt and Shlegeris. It explains how a red team can test whether a model is controlled, and why there is no comparable test yet for whether a model is aligned. A short recall question follows each part of the reading, and a practice question closes the lens. A spoken interview on where control evaluations can fail is optional.
+This continues the same post by Greenblatt and Shlegeris. It explains how a red team can test whether a model is controlled, and why there is no comparable test yet for whether a model is aligned. A short recall question follows each part of the reading, and a practice question closes the lens. A spoken interview on where control evaluations can fail, and a section on why control evaluations only look at what a model can do, are optional and folded.
 
 #### Article
 source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
