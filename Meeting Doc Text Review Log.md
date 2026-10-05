@@ -196,10 +196,6 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 
 - How the meeting-doc renderer handles comments. The course rules say comments are stripped before parsing, but nobody has watched a doc render with them in. It stops mattering for any flag whose passage is rewritten.
 
-### To confirm
-
-- The name to open relay sessions under. The sessions so far were opened without one, so their edits show unattributed.
-
 ### Outside this project
 
 - The AI Control and Lisbon docs, and the Lisbon shared files, still say Lens Coach.
