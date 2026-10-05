@@ -100,7 +100,7 @@ One or two people share what their group landed on.
 
 **New group. Names first, then straight in.**
 Part 1 ends today, but your action plan doesn't.{>>{"author":"AI","timestamp":1791094819108}@@AI (strong, recurring): "X ends, but Y doesn't" closer. The same line closes AIRF M5 and AIF M5.<<}
-1\. In Unit 1 you read Plan A, a proposed regime for verifying an international agreement, and voted: adopt, amend, or reject. Same vote now? (Don't remember it? Vote on what you would accept today.){>>{"author":"AI","timestamp":1791094819905}@@Note: a good exercise reminder. Worth keeping as it is.<<}
+1\. In Unit 1 you read AI 2040's Plan A, a proposed regime for verifying an international agreement, and voted to adopt, amend, or reject it. W? (Don't remember it? Vote on what you would accept today.){>>{"author":"AI","timestamp":1791094819905}@@Note: a good exercise reminder. Worth keeping as it is.<<}
 2\. Share the one action you choose to keep doing after this course, and its first concrete step with a date. Tell your accountability buddy too. For example:
 
 - read one verification paper a week
