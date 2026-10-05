@@ -2,21 +2,17 @@
 id: '7367ce67-c192-48f0-8080-4c0f28f486f6'
 title: "What control is"
 tldr: "Banks do not try to guarantee that no employee ever goes rogue. They build systems that hold even when one does. Greenblatt and Shlegeris ask what happens if you treat a powerful AI model the same way: assume it might be scheming, and set things up so it still cannot cause a catastrophe."
-summary_for_tutor: "Lens in Unit 1 of AI Control Fundamentals, adapted from the Advanced AI Control lens 'The case for control (1)'. Greenblatt and Shlegeris (2024), 'The case for ensuring that powerful AIs are controlled', from the opening of the post through the first paragraphs of 'Evaluating whether you have control is doable' (the two-step evaluation approach and how to decide which models are untrusted). Exercises: a quick recall on control versus alignment, then a scenario exercise with three setups (no safeguards, trusted monitoring with a weaker trusted model T and 2% human audits, untrusted monitoring by a copy of U), each asking whether the setup holds the control property and what that depends on. Two further setups (trusted editing, resampling) sit in a closed optional box. The learner has watched Robert Miles's video on the founding control paper just before this lens. The next lens continues the same post: how a red team runs a control evaluation and why alignment cannot yet be checked the same way."
+summary_for_tutor: "Lens in Unit 1 of AI Control Fundamentals, adapted from the Advanced AI Control lens 'The case for control (1)'. Greenblatt and Shlegeris (2024), 'The case for ensuring that powerful AIs are controlled', from the opening of the post through the first paragraphs of 'Evaluating whether you have control is doable'. Each part of the reading is followed by the question about it. (1) The opening up to the two lines of defense (alignment and control), then a quick recall on what distinguishes control from alignment. (2) The rest of the opening (why control is worth arguing for, transformatively useful AI, counting a caught AI as a win, evaluating control with capability evaluations), then an optional closed question on why catching a model red-handed counts as a win. (3) The section 'The control property' with the security analogy, then a quick recall on what the control property means. (4) The first paragraphs of 'Evaluating whether you have control is doable' (the two-step evaluation approach, and treating models as untrusted if they pass capability evaluations), then a quick recall on how to decide which models are untrusted. (5) A scenario exercise with three setups (no safeguards, trusted monitoring with a weaker trusted model T and 2% human audits, untrusted monitoring by a copy of U), each asking whether the setup holds the control property and what that depends on. Two further setups (trusted editing, resampling) sit in a closed optional box. The learner has watched Robert Miles's video on the founding control paper just before this lens. The next lens continues the same post: how a red team runs a control evaluation and why alignment cannot yet be checked the same way."
 reading_minutes: 16
-tutor_minutes: 24
+tutor_minutes: 26
 ---
 #### Text
 content::
-This is the opening of a founding post of AI control, by Ryan Greenblatt and Buck Shlegeris of Redwood Research (2024). It defines control and sets it beside alignment. Then you test three deployment setups yourself. Two more setups are optional at the end.
+This is the opening of a founding post of AI control, by Ryan Greenblatt and Buck Shlegeris of Redwood Research (2024). It defines control, sets it beside alignment and says which models to treat as untrusted. A short recall question follows each part of the reading. Then you test three deployment setups yourself. Two more setups are optional at the end.
 
 #### Article
 source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
-to:: Because control could be applied to mitigate risk from scheming right now, it's a particularly promising target for research effort and policy commitments.
-
-#### Article
-from:: # The control property
-to:: it focuses attention on the types of interventions whose effectiveness is easiest to reason about.
+to:: argue that it might be tractable to use control to substantially reduce risk.
 
 #### Callout: Quick recall
 #### Question: Open
@@ -25,7 +21,34 @@ content:: What distinguishes the control line of defense from the alignment line
 assessment-instructions:: Score out of 100. 50: alignment tries to make sure the models are not scheming in the first place. 50: control tries to make sure that even if the models are scheming, they are not able to subvert the safety measures and cause a catastrophe. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Alignment aims to ensure that models are not scheming in the first place. Control aims to ensure that even if models are scheming, they are not capable of subverting the safety measures. With both lines in place, a scheming model can only cause a catastrophe if alignment and control both fail."
 force-feedback:: first
 feedback-instructions:: In at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it, in your own words if it is long. Alignment ensures models are not scheming. Control ensures that even if they are scheming, they cannot subvert the safety measures. With both, a catastrophe requires both to fail. No follow-up questions. Tell them to move on.
+#### End Callout
 
+#### Article
+from:: One difficulty we face when arguing for control
+to:: Because control could be applied to mitigate risk from scheming right now, it's a particularly promising target for research effort and policy commitments.
+
+#### Callout: Optional: why catching counts
+collapse:: closed
+#### Question: Open
+id:: 098d5fa2-9ad2-409e-9a51-0d327a3d58fd
+optional:: true
+content::
+\#### Catching a model red-handed
+
+The reading claims that when evaluating control, catching an AI red-handed should count as a win condition. The same status as no catastrophe occurring at all. On its face this is strange: the model just tried to cause a catastrophe and was stopped this once. It is presumably still scheming, still deployed, still capable.
+
+Why should catching a scheming model count as a win, when a near miss with catastrophe might seem more like a failure? Answer by naming two things that change after a catch.
+placeholder:: Write your reasoning
+assessment-instructions:: Score out of 100. 50 for each of two different consequences of a catch that make the lab better off, up to 100. Any two of these count: (a) the evidential shift: before a catch, scheming is an unconfirmed risk that can be doubted or denied. After it, there is concrete proof that scheming really happens, so calls to pause or shut down until safety catches up get far more support. (b) the lab has a concrete incident to study, for example by resampling the model in the same situation and examining what it tried, and can strengthen its protocols. (c) the caught model has to be far more covert from then on, which makes further high-stakes attempts harder. Another real consequence that makes the lab better off, argued, also counts. Two consequences that are the same idea in different words count once. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Before a catch, serious misalignment and dangerous scheming are an unconfirmed risk. After a catch, scheming becomes a demonstrated phenomenon that has occurred naturally. Efforts to pause or shut down models till safety research catches up will gain much more support and evidence. A catch also yields a concrete incident to study. Labs can resample the model in its environment, examine what it tried, and strengthen their control protocols. From the model's perspective, being caught means that it has to be much more covert to avoid being caught, which might prevent high-stakes risks. Catching a model turns a diffuse, deniable, uncertain risk into legible, undeniable evidence."
+force-feedback:: first
+feedback-instructions:: In at most six sentences, name what the learner's reasoning got right, then supply anything they missed from this list: after a catch, scheming stops being an unconfirmed risk and becomes a demonstrated phenomenon, so pausing gains support and evidence. The catch is a concrete incident to study, and the model can be resampled in its environment to harden protocols. The caught model must now be far more covert, which itself suppresses high-stakes attempts. A catch converts a diffuse, deniable risk into legible evidence. Close by telling them that Unit 3 comes back to why catching a model matters.
+#### End Callout
+
+#### Article
+from:: # The control property
+to:: it focuses attention on the types of interventions whose effectiveness is easiest to reason about.
+
+#### Callout: Quick recall
 #### Question: Open
 id:: cf059567-5f9d-4cbc-b766-8f931f67a70e
 content:: What does it mean for a set of safety techniques to have the control property?
@@ -37,6 +60,15 @@ feedback-instructions:: In at most four sentences: confirm what the learner got 
 #### Article
 from:: # Evaluating whether you have control is doable
 to:: See [here](https://www.alignmentforum.org/posts/LhxHcASQwpNa3mRNk/untrusted-smart-models-and-trusted-dumb-models) for more discussion.[^note-greenblatt-buck-7]
+
+#### Callout: Quick recall
+#### Question: Open
+id:: 0f51149d-04a7-4b37-a811-9b57f9ee878f
+content:: How can a lab decide which of its models to treat as untrusted, and why that way?
+assessment-instructions:: Score out of 100. 40: capability is the criterion, because lack of capability is the only known way to confidently rule out scheming without fundamental breakthroughs. 35: models that pass the relevant capability evaluations are treated as untrusted. 25: only models clearly too weak to plausibly be scheming are treated as trusted. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 20 if the answer inverts the test, saying that passing the capability evaluations makes a model trusted. Cap at 30 if the answer decides trust by how well the model behaves in tests or in use, since a schemer would behave well there too. Model answer, for the feedback, not a grading checklist: "The only known way to confidently rule out scheming without fundamental breakthroughs is lack of capability. Models that pass the relevant capability evaluations are treated as untrusted; models that are clearly too weak to plausibly be scheming can be treated as trusted."
+force-feedback:: first
+feedback-instructions:: In at most three sentences: confirm what the learner got right, correct any inversion of the test, and state the model answer. Lack of capability is the only known way to rule out scheming without fundamental breakthroughs, so a model that passes the relevant capability evaluations is treated as untrusted, and only models clearly too weak to plausibly be scheming are treated as trusted. No follow-up questions. Tell them to move on.
+#### End Callout
 
 #### Callout: Scenario exercise: run the evaluation
 #### Text
