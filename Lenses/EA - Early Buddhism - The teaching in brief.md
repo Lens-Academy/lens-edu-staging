@@ -35,7 +35,7 @@ to:: Buddhism is the serious pursuit of happiness."
 content::
 Teachers you will read later in this module:
 - **Thanissaro Bhikkhu**, an American monk of the Thai forest tradition and abbot of Metta Forest Monastery in California since 1993 ([Wikipedia](https://en.wikipedia.org/wiki/Thanissaro_Bhikkhu)). He translated most of the discourses in this module.
-- **Ajahn Chah**, a Thai forest monk who founded two major monasteries ([Wikipedia](https://en.wikipedia.org/wiki/Ajahn_Chah)), and **Ajahn Sumedho**, an American monk ordained in 1967 who helped found the forest monasteries Cittaviveka and Amaravati in England ([Wikipedia](https://en.wikipedia.org/wiki/Ajahn_Sumedho)).
+- **Ajahn Chah**, a Thai forest monk who founded two major monasteries, Wat Nong Pah Pong and Wat Pah Nanachat ([Wikipedia](https://en.wikipedia.org/wiki/Ajahn_Chah)).
 - **Bhikkhu Bodhi**, an American monk ordained in Sri Lanka, translator of the Pali discourses and former president of the Buddhist Publication Society ([Wikipedia](https://en.wikipedia.org/wiki/Bhikkhu_Bodhi)), and **Nyanaponika Thera**, a German monk who ordained in Sri Lanka and co-founded that society ([Wikipedia](https://en.wikipedia.org/wiki/Nyanaponika_Thera)).
 
 #### Question: Open
