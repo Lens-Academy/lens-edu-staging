@@ -50,7 +50,7 @@ Design the key for a US-China pause:{>>{"author":"AI","timestamp":1791094817346}
 
 
 
-Want help or clarification for this question?{>>{"author":"AI","timestamp":1791094818252}@@AI (mild, recurring): "help or an explanation … ask for an explanation" repeats itself, and it is the same stock line in every doc.<<} Ask your navigator or copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+Want help or clarification for this question?{>>{"author":"AI","timestamp":1791094818252}@@AI (mild, recurring): "help or an explanation … ask for an explanation" repeats itself, and it is the same stock line in every doc.<<} Ask your navigator or copy it into the [Lens Tutor](https://lensacademy.org/tutor) for an explanation.
 
 
 | Names | Your key design + fail open or closed + would both sign? |
