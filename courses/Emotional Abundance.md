@@ -93,3 +93,6 @@ optional:: true
 
 # Module: [[../modules/Emotional Abundance Library - Non-dual|Library: Advaita and modern non-dual teachers]]
 optional:: true
+
+# Module: [[../modules/Emotional Abundance Library - Jhanas|Library: The jhanas]]
+optional:: true
