@@ -25,4 +25,5 @@ feedback-instructions:: This is a pre-reading question. In one sentence, restate
 id:: 846a912d-82c6-4bce-86a3-3d17184fa6b4
 content::
 What would you want to know about the teacher's report before you trusted it?
+force-feedback:: first
 feedback-instructions:: This is a pre-reading question about a friend's meditation teacher who has practised for thirty years and says meditation gave her a peace that nothing can shake. In one sentence, restate what the learner would want to know about her report. Do not say whether their questions are the right ones and do not name any problem with first-person reports that they did not raise. Say that a later page, "Reports from the inside", looks at what such reports can and cannot show. 20 to 50 words. One turn.
