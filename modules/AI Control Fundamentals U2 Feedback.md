@@ -2,8 +2,6 @@
 id: 'd65ea272-cec6-40c7-a32f-e85840ee3e3c'
 slug: ai-control-fundamentals-u2-feedback
 title: "Unit 2 feedback"
-tags:
-  - work-in-progress
 ---
 %% Feedback module after Unit 2 of AI Control Fundamentals, same pattern as the Advanced AI Control feedback modules. %%
 

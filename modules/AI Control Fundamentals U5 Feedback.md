@@ -2,8 +2,6 @@
 id: 'efbe5dbe-a67c-4568-af57-6396e14fe133'
 slug: ai-control-fundamentals-u5-feedback
 title: "Unit 5 feedback"
-tags:
-  - work-in-progress
 ---
 %% Feedback module after Unit 5 of AI Control Fundamentals, same pattern as the Advanced AI Control feedback modules. %%
 

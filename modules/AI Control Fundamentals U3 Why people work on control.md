@@ -2,8 +2,6 @@
 id: 'cf7ca5d2-9705-4d26-a8cb-39e99681ff20'
 slug: ai-control-fundamentals-u3
 title: "Unit 3: Why people work on control"
-tags:
-  - work-in-progress
 ---
 %% Unit 3 of AI Control Fundamentals: control's theory of change. Time (reading+tutor): welcome 3+3, low-investment world (80k) 6+6, window 6+6, should we invest (with Carlsmith) 11+14, Habryka/Greenblatt 10+12, catching 8+7, would a catch 11+12, Plans A-D 10+10, ten people 9+10, will companies 6+8, safety case (with Anthropic risk reports) 9+11, practice 3+15 = 206, plus about 15 for the LO test, about 220 minutes. Catching (2) is optional. %%
 
