@@ -104,7 +104,7 @@ Soothing rhythm breathing comes from Paul Gilbert's compassion-focused therapy. 
 #### Question: Open
 id:: 6c1712d4-0bd2-4946-a0cb-641c997ad7af
 content::
-Which experiment would you run first, and which claim from this module do you most want it to test?
+Which experiment would you run first?
 force-feedback:: first
 feedback-instructions:: The learner picks a first experiment from this module (affect labelling, acceptance against reappraisal by week, the Stoic judgement table, pain and resistance with S = P x R, the self-compassion break, RAIN or soothing rhythm breathing). Acknowledge the choice in one sentence and name the claim that experiment tests, as its card states it. Do not recommend a school or a different experiment. 30 to 70 words. One reply. Tell them module 8 asks them to choose their experiments for the practice part of the course, and these answers are a first draft.
 
