@@ -63,9 +63,18 @@ to:: were related to distress and impairment.
 from:: Changes in sense of self were appraised in various ways
 to:: may be more difficult to assimilate and appraise as normative signs of progress.
 
+#### Callout: Optional: the six changes in meditators' own words
+collapse:: closed
 #### Text
 content::
-Britton's non-profit, Cheetah House, has a short page on the same six categories with more first-person quotes ([Problems with sense of self](https://www.cheetahhouse.org/sense-of-self-domain)). It is optional.
+Britton's non-profit, Cheetah House, has a page on the same six categories with more first-person quotes from the study (about 15 minutes).
+
+#### Article
+source:: [[../articles/house-adverse-effects-of-meditation-problems-with-sense-of-self]]
+from:: The “narrative self” is the most conceptual, autobiographical, and temporally extended dimension of selfhood
+to:: so that we can find our way through.
+optional:: true
+#### End Callout
 
 #### Question: Open
 id:: 591ac4f9-0fe7-4bbe-bdad-a283ef002c25
