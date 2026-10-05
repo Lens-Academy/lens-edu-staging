@@ -48,7 +48,7 @@ to:: or whether they were able to meditate at all (self-report after each run).
 
 #### Text
 content::
-Third, a meta-analysis that pooled trials of mindfulness training and looked at the DMN at rest ([Rahrig and colleagues 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9293892/)).
+Third, a meta-analysis by Hadley Rahrig and colleagues pooled studies that randomly or otherwise assigned people to mindfulness training or a control, and looked at the DMN at rest ([Scientific Reports 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9293892/)). It found 12 such studies, with 226 people trained and 204 controls. Its main result was not a quieter DMN but more connectivity between a hub of the DMN (the posterior cingulate cortex) and a region of the **salience network**, which the authors link to "the flexible control of internally-oriented attention". The best-controlled evidence, in other words, points to a change in how attention is managed, and says nothing directly about the self.
 
 #### Text
 content::
