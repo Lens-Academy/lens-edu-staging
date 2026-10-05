@@ -1,13 +1,15 @@
 ---
 tags:
   - validator-ignore
+authors:
+  - Andreas+Claude
 ---
 
 # Meeting doc text review: plan and log
 
 Git records what changed. This file records why, what we decided against, and what is still open. Update it alongside the change it describes.
 
-Modeled on [[AIRF Restructure Log]] and [[CV1 Streamlining Proposal]], but kept short, since this project changes wording, not structure.
+Modeled on [[AIRF Restructure Log]] and [[CV1 Streamlining Proposal]], but kept short, since this project changes wording, not structure. The standard that flags, rewrites and reviews are held to lives in the companion file, [[Meeting Doc Text Review - Style Sheet]].
 
 ---
 
@@ -15,14 +17,15 @@ Modeled on [[AIRF Restructure Log]] and [[CV1 Streamlining Proposal]], but kept 
 
 **What this is.** A pass over the participant-facing text of the meeting docs for AI Risk Fundamentals (AIRF), AI Futures (Forecasting, Modeling, and Shaping AI Futures) and Compute Verification 1 (CV1), so the questions read as written by a person. It is not a restructure and not a reformat.
 
-**Why.** Participants have said the questions are easy to tell apart as AI-written, and that this frustrates them even when they understand what is being asked. Reported by the project owner, 2026-10-03.
+**Why.** Participants have said the questions are easy to tell apart as AI-written, and that this frustrates them even when they understand what is being asked. Reported by Andreas, 2026-10-03.
 
-**Status, 2026-10-04.** Stage 1 is done for the three meetings that run the week of 2026-10-05: AIRF Meeting 5, AI Futures Meeting 3 and CV1 Meeting 5. Their flagged passages are waiting for stage 2. The Lens Coach to Lens Tutor rename is pending as suggestions in those docs, in the shared blocks they include, and in the master template.
+**Status, 2026-10-04.** Stage 1 is done for the three meetings that run the week of 2026-10-05: AIRF Meeting 5, AI Futures Meeting 3 and CV1 Meeting 5. Their flagged passages are waiting for stage 2. Andreas accepted the Lens Coach to Lens Tutor rename in those docs, the shared blocks they include and the master template. A draft style sheet is waiting for his review.
 
 **Where things are.**
 
 | Section | What it holds |
 |---|---|
+| Companion file | [[Meeting Doc Text Review - Style Sheet]]: what a flag can cite, and what to leave alone |
 | 1 | What the survey found |
 | 2 | Decisions, with who made them and why, so they are not re-argued |
 | 3 | The plan, stage by stage |
@@ -38,7 +41,8 @@ Modeled on [[AIRF Restructure Log]] and [[CV1 Streamlining Proposal]], but kept 
 - **Never write a literal comment marker into this file**, of either kind. Describe the syntax in words. The AIRF log learned this the hard way: the relay turns a written marker into a real comment.
 - **Say how every edit landed**, `direct` or `pending`. The relay decides, and not always as expected.
 - **Edit around existing comments, never through them.** An edit whose span contains a comment routes to review as one unit, so rejecting it loses the whole edit.
-- **Mark who made each decision.** A proposal from Claude is not a decision until the project owner confirms it.
+- **Mark who made each decision.** A proposal from Claude is not a decision until Andreas confirms it.
+- **Open relay sessions under Andreas's name**, so edits show as his AI's in the review queue. Sessions before 2026-10-04 were opened without a name, and their edits stay unattributed.
 
 ---
 
@@ -62,11 +66,11 @@ Some of the habits are in the guide's own examples ("Half-formed is fine; that's
 
 Each entry gives the decision, who made it, the reason, and what it commits us to.
 
-**Wording only.** *Project owner, 2026-10-03.* The complaint is about how the text reads. Structural problems found along the way are flagged as Content and left for a decision, not fixed in this pass.
+**Wording only.** *Andreas, 2026-10-03.* The complaint is about how the text reads. Structural problems found along the way are flagged as Content and left for a decision, not fixed in this pass.
 
-**Claude flags, a person rewrites, Claude reviews.** *Project owner, 2026-10-03.* Having an AI rewrite text so that it sounds less AI-written is circular. Claude is better placed to spot the patterns than to avoid them. So each flag names a specific pattern that a person can check and overrule, rather than giving a general verdict. In Luc's 2026-09-26 tests, a model's broad "does this read as AI?" judgment did about as well as chance, while narrower questions did better. Commits us to: no voiced text written by Claude, and every flag naming its pattern.
+**Claude flags, Andreas rewrites, Claude reviews.** *Andreas, 2026-10-03.* Having an AI rewrite text so that it sounds less AI-written is circular. Claude is better placed to spot the patterns than to avoid them. So each flag names a specific pattern that a person can check and overrule, rather than giving a general verdict. In Luc's 2026-09-26 tests, a model's broad "does this read as AI?" judgment did about as well as chance, while narrower questions did better. Commits us to: no voiced text written by Claude, and every flag naming its pattern.
 
-**Suggestions, not direct edits, for anything that replaces existing text.** *Project owner, 2026-10-03.* Reviewers see old and new side by side instead of triaging which text is new. Flags are comments; they only add text, so they land direct.
+**Suggestions, not direct edits, for anything that replaces existing text.** *Andreas, 2026-10-03.* Reviewers see old and new side by side instead of triaging which text is new. Flags are comments; they only add text, so they land direct.
 
 **Lens Coach becomes Lens Tutor everywhere.** *Project owner, 2026-10-03.* Lens Coach was merged into Lens Tutor, and `lensacademy.org/coach` redirects to `lensacademy.org/tutor`. The rename changes the name and the link only, with no rewording.
 
