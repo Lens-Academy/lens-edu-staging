@@ -104,7 +104,7 @@ Whole group, no breakout room.
 1. Closing round, answer out loud if you'd like: at the end of the unit you rewrote your model of the next ten years. Name one specific thing that changed, and the reading that changed it.
     1. "I am more worried" is not a change.{>>{"author":"AI","timestamp":1791094783001}@@AI (mild): "X is not a change. Y is a change." contrast pair. The example itself is useful.<<} "I moved the point where AI does most AI research from never to about ten years out" is a change.
     2. If you did not do that exercise, say one thing you believe now that you did not believe at the start of this course.
-2. Today, send your accountability partner one line{>>{"author":"AI","timestamp":1791094783858}@@Consistency: "partner" here, "buddy" in Meetings 1 and 5 and in the FAQ.<<}: what is most likely to stop you finishing the next unit, and your plan.
+2. Today, send your accountability buddy one line{>>{"author":"AI","timestamp":1791094783858}@@Consistency: "partner" here, "buddy" in Meetings 1 and 5 and in the FAQ.<<}: what is most likely to stop you finishing the next unit, and your plan.
 
 
 Use the Lens Tutor (https://lensacademy.org/tutor) between sessions. One question for the post-meeting survey's feedback box: some of you have said this course is too hard; others have said that is why you are here. Which are you, and what specifically would you change? Be blunt. Your answer reaches the people building this course, and they do change it.{>>{"author":"AI","timestamp":1791094784789}@@AI (strong): an emphatic reassurance ("they do change it") after a two-word command. Meeting 2 has the same move ("We want the honest answer, not the kind one").<<}
