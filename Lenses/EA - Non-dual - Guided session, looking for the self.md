@@ -14,6 +14,8 @@ Sam Harris is a writer with a PhD in cognitive neuroscience ([Wikipedia](https:/
 
 Before you start, choose the memory you will use and rate how much it bothers you from 0 to 10. Rate it again right after that part of the session, and note whether the knowing itself seemed changed by the mood. The rating is our suggestion, not Harris's. Sit somewhere you will not be interrupted.
 
+Looking for the self can, for some people, turn into **depersonalisation**: feeling unreal or detached from yourself. If that happens, or emotions go flat, stop the session. If it does not pass soon after, talk to a doctor or therapist. [Cheetah House](https://www.cheetahhouse.org/), founded by the meditation researcher Willoughby Britton, supports meditators in difficulty. The lens "When the sense of self changes" has the background.
+
 #### Video
 source:: [[../video_transcripts/sam-harris-waking-up-with-sam-harris-looking-for-the-self-26-minute-meditation]]
 

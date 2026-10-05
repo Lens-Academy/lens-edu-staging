@@ -16,7 +16,7 @@ Each experiment below comes from a teacher of this school, in their own instruct
 tone:: amber
 #### Text
 content::
-If you have a history of dissociation, psychosis or severe depression, talk to a doctor or therapist before doing these practices for more than a few minutes. A 2025 paper proposing self-enquiry for use in psychotherapy names "acute psychological crises or active psychosis" as reasons not to use it ([Zhao 2025](https://www.nature.com/articles/s41599-025-04387-w)). If during any experiment you feel unreal or cut off from yourself, or emotions go flat, and it does not pass soon after you stop, stop practising and get help. [Cheetah House](https://www.cheetahhouse.org/) supports meditators in difficulty. The previous lens has the background.
+If you have a history of dissociation, psychosis or severe depression, talk to a doctor or therapist before doing these practices for more than a few minutes. A 2025 paper proposing self-enquiry for use in psychotherapy names "acute psychological crises or active psychosis" as reasons not to use it ([Zhao 2025](https://www.nature.com/articles/s41599-025-04387-w)). All three experiments, like Ramana's self-enquiry, loosen the ordinary sense of self, and for some people that can turn into **depersonalisation** (defined in the previous lens). If during any experiment you feel unreal or cut off from yourself, or emotions go flat, stop. If it does not pass soon after you stop, stop practising and get help. [Cheetah House](https://www.cheetahhouse.org/), founded by Willoughby Britton, whose study is in the previous lens, supports meditators in difficulty.
 #### End Callout
 
 #### Text
