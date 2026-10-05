@@ -54,7 +54,7 @@ collapse:: closed
 #### Text
 content::
 **Claim tested:** feelings follow judgements, and correcting the judgement changes the feeling.
-**Instruction:** the Stoic Week practice from earlier in this module. When you notice the early signs of an upsetting feeling, step back ("this is an impression"), postpone acting on it, and later ask the handbook's three questions: is this within my power, what would a wise person do, what strengths do I have to meet it ([Stoic Week 2016 handbook](https://modernstoicism.com/wp-content/uploads/2016/10/Stoic-Week-2016-Handbook-Stoicism-Today.pdf)). Each evening, write down one upset, the judgement it rested on, and how you could judge it differently.
+**Instruction:** the Stoic Week practice from earlier in this module. When you notice the early signs of an upsetting feeling, step back ("this is an impression"), postpone acting on it, and later ask the handbook's three questions: is this within my power, what would a wise person do, what strengths do I have to meet it ([Stoic Week 2016 handbook](https://modernstoicism.com/wp-content/uploads/2016/10/Stoic-Week-2016-Handbook-Stoicism-Today.pdf)). The handbook suggests postponing strong feelings to an evening reflection. In that reflection, write down one upset, the judgement it rested on, and how you could judge it differently.
 **Dose:** one week, about 10 minutes a day.
 **Measure:** for each upset, how strong it was at its peak and an hour later, 0 to 10. Compare with a week before you start, rated the same way.
 #### End Callout
@@ -67,6 +67,7 @@ content::
 **Instruction:** the "Short Example of How to Meditate on Pain" on page 2 of Shinzen Young's [synopsis](https://www.shinzen.org/wp-content/uploads/2016/12/art_synopsis-pain.pdf). It is written for physical pain. Use it the same way on the body sensations of a difficult feeling, as he says the method allows. In short: pick the area where the sensation is strongest, get a clear sense of its size, shape and borders, watch it closely for small changes, and each time it changes, relax your whole body and mind into it without judging.
 **Dose:** 10 minutes, whenever there is pain or a strong feeling, for one to two weeks.
 **Measure:** rate pain (how strong the sensation is) and suffering (how bad it is to have it) separately, 0 to 10 each, before and after. If S = P x R holds for you, suffering should drop more than pain.
+**Safety:** Shinzen notes that pain may at first seem to get worse when you focus on it, and says this is temporary. Use this on pain that is already known and checked. New or unexplained pain belongs with a doctor first.
 #### End Callout
 
 #### Callout: 5. The self-compassion break
@@ -95,7 +96,9 @@ to:: rather than quickly jumping back into work.
 
 #### Text
 content::
-Soothing rhythm breathing comes from Paul Gilbert's compassion-focused therapy. Its instructions are in his free client handout, "Exercise 1: Soothing Rhythm Breathing" on page 38: find a slightly slower, deeper breath, about three seconds in and three seconds out, and let it be smooth and even ([Gilbert, compassion handout](https://www.getselfhelp.co.uk/docs/gilbert-compassion-handout.pdf)).
+Soothing rhythm breathing comes from Paul Gilbert's compassion-focused therapy. Its instructions are in his free client handout, "Exercise 1: Soothing Rhythm Breathing" on page 38: find a slightly slower, deeper breath, about three seconds in, a short hold, and three seconds out, and let it be smooth and even ([Gilbert, compassion handout](https://www.getselfhelp.co.uk/docs/gilbert-compassion-handout.pdf)).
+
+**Dose and measure for either:** as for the self-compassion break, whenever something painful happens, for one to two weeks, rating distress 0 to 10 before and two minutes after. These are our suggestions, not the authors'.
 #### End Callout
 
 #### Question: Open
@@ -103,11 +106,32 @@ id:: 6c1712d4-0bd2-4946-a0cb-641c997ad7af
 content::
 Which experiment would you run first, and which claim from this module do you most want it to test?
 force-feedback:: first
-feedback-instructions:: The learner picks a first experiment from this module (affect labelling, acceptance against reappraisal by week, the Stoic judgement table, pain and resistance with S = P x R, the self-compassion break, RAIN or soothing rhythm breathing) and names the claim it tests. Check that the experiment actually tests the claim they name: for example, the acceptance-reappraisal weeks compare two strategies, the pain and resistance ratings test S = P x R, the Stoic table tests whether correcting a judgement changes a feeling. If it does not fit, say which experiment would. Do not recommend a school. 50 to 100 words. One reply. Tell them module 8 asks them to choose their experiments for the practice part of the course, and this answer is a first draft.
+feedback-instructions:: The learner picks a first experiment from this module (affect labelling, acceptance against reappraisal by week, the Stoic judgement table, pain and resistance with S = P x R, the self-compassion break, RAIN or soothing rhythm breathing). Acknowledge the choice in one sentence and name the claim that experiment tests, as its card states it. Do not recommend a school or a different experiment. 30 to 70 words. One reply. Tell them module 8 asks them to choose their experiments for the practice part of the course, and these answers are a first draft.
+
+#### Question: Open
+id:: 2dba0050-df2b-486d-be81-02d509672e47
+content::
+Which claim from this module do you most want that experiment to test?
+force-feedback:: first
+feedback-instructions:: The learner names the claim they want their chosen experiment (previous answer) to test. Check that the experiment actually tests that claim: for example, the acceptance-reappraisal weeks compare two strategies, the pain and resistance ratings test S = P x R, the Stoic table tests whether correcting a judgement changes a feeling. If it does not fit, say which experiment would. Do not recommend a school. 40 to 90 words. One reply.
 
 #### Question: Open
 id:: caa3a67c-25c6-45ad-ba84-80443cb8baef
 content::
-How will you know whether it worked? Name your measure, how long you will run it, and who, if anyone, will do the partner check.
+What will you measure to know whether it worked?
 force-feedback:: first
-feedback-instructions:: The learner states the measure, duration and outside check for their first experiment. Check three things against module 3's single-case logic: there is a measure taken before and after (a 0 to 10 rating, recovery time, the NAS-7, or similar); there is a baseline or comparison period; and the duration fits the claim (minutes for a single labelling, weeks for the NAS-7). If one is missing, ask for it in one direct question. If they have no one for the partner check, suggest one alternative from the module, for example keeping a sleep and appetite log, without insisting. If they mention a history of mental illness, retreats or heavy rumination, remind them of the safety line in one sentence. 60 to 110 words. At most two replies.
+feedback-instructions:: The learner states the measure for their first experiment. Check against module 3's single-case logic that the measure is taken before and after (a 0 to 10 rating, recovery time, the NAS-7, or similar) and that there is a baseline or comparison period. If either is missing, ask for it in one direct question. 40 to 90 words. At most two replies.
+
+#### Question: Open
+id:: e70377d2-f73f-4ed3-85ed-579441ae8e3f
+content::
+How long will you run it?
+force-feedback:: first
+feedback-instructions:: The learner says how long they will run their first experiment. Check that the duration fits the claim and the measure: minutes for a single labelling or a single breathing session, at least a week or two for anything rated daily, several weeks for the NAS-7 or for the alternating acceptance and reappraisal weeks. If it does not fit, suggest one duration in one sentence. If they mention a history of mental illness, retreats or heavy rumination, remind them of the safety line in one sentence. 30 to 80 words. One reply.
+
+#### Question: Open
+id:: 1bc17e25-0bb8-465e-bf3c-cae247a0f42c
+content::
+Who, if anyone, will do the partner check?
+force-feedback:: first
+feedback-instructions:: The learner says who will do the weekly partner check (asking whether their sleep, appetite, mood and tension seem normal, from Martin's dinner observation). If they name someone, confirm in one sentence and suggest asking the specific questions rather than "how do I seem?", since Britton found specific questions catch what open ones miss. If they have no one, suggest one alternative, for example keeping a sleep and appetite log, without insisting. 30 to 80 words. One reply.
