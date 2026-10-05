@@ -26,7 +26,7 @@ The philosopher Derek Parfit took up the bundle view in the twentieth century an
 #### Article
 source:: [[../articles/parfit-divided-minds-and-the-nature-of-persons]]
 from:: It was the split-brain cases which drew me into philosophy.
-to:: is about as bad as being destroyed and having a Replica.
+to:: is about as bad as being destroyed and having a Replica.*
 
 #### Article
 from:: The truth of the Bundle Theory seems to me
