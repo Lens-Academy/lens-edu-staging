@@ -5,7 +5,7 @@ writing_minutes: 8
 tags:
   - wip
 ---
-%% Library module "CBT, ACT and the third wave" of Emotional Abundance. The cases are new (not from the readings). The distinction is the one Hayes and Hofmann 2017 use to define the third wave ("relationship to thought and emotion" versus "content"). Sources for each move: evidence and alternative explanations (Beck 2019, CCI Back from the Bluez module 6), disputing demands and catastrophising (Ellis, REBT Diminishes Much of the Human Ego), the "I am having the thought that" prefix (Healy et al. 2008), word repetition (Masuda et al. 2004, Hinton and Gaynor 2010), acceptance plus committed action (ACBS six core processes, Hayes TEDx). %%
+%% Library module "CBT, ACT and the third wave" of Emotional Abundance. The cases are new (not from the readings). The distinction is the one Hayes and Hofmann 2017 use to define the third wave ("relationship to thought and emotion" versus "content"). Sources for each move: evidence, alternative explanations and naming unhelpful thinking styles (Beck interview, CCI Back from the Bluez modules 6 and 7), disputing demands and catastrophising (Ellis, REBT Diminishes Much of the Human Ego), the "I am having the thought that" prefix (Healy et al. 2008), word repetition (Masuda et al. 2004, Hinton and Gaynor 2010), acceptance plus committed action (ACBS six core processes, Hayes TEDx). %%
 
 ## Test:
 id:: d08bbaa4-e3fc-4661-a888-6776d79aa4de

@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-This module is about the most widely used family of talking therapies, cognitive behavioural therapy (CBT), and the newer approaches that grew out of it. Aaron Beck, who developed cognitive therapy, describes noticing **automatic thoughts**: quick thoughts, often barely noticed, that stand between what happens to us and what we feel ([Beck 2019](https://doi.org/10.1177/1745691618804187)). His answer, and Albert Ellis's, was to examine such a thought and correct it where it is wrong.
+This module is about the most widely used family of talking therapies, cognitive behavioural therapy (CBT), and the newer approaches that grew out of it. Aaron Beck, who developed cognitive therapy, describes noticing **automatic thoughts**: thoughts "people have about themselves which they do not ordinarily share", which shape how they feel ([Beck Institute interview](https://beckinstitute.org/blog/interview-with-aaron-beck-on-the-history-of-cognitive-therapy/)). His answer, and Albert Ellis's, was to examine such a thought and correct it where it is wrong.
 
 The approaches that followed, called the **third wave**, include acceptance and commitment therapy (ACT), mindfulness-based cognitive therapy (MBCT) and dialectical behaviour therapy (DBT). Two of their founders describe them as "focused more on the persons' relationship to thought and emotion than on their content" ([Hayes and Hofmann 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC5608815/)). So one camp asks whether a painful thought is true, and the other asks how much it should be allowed to steer you, true or not.
 
