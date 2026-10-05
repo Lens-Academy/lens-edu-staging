@@ -17,20 +17,6 @@ to:: and doing technique development to improve the weaknesses that they uncover
 
 #### Callout: Optional: where evaluation runs out
 collapse:: closed
-#### Question: Open
-id:: 098d5fa2-9ad2-409e-9a51-0d327a3d58fd
-optional:: true
-content::
-\#### Part A: catching a model red-handed
-
-The reading claims that when evaluating control, catching an AI red-handed should count as a win condition. The same status as no catastrophe occurring at all. On its face this is strange: the model just tried to cause a catastrophe and was stopped this once. It is presumably still scheming, still deployed, still capable.
-
-Why should catching a scheming model count as a win, when a near miss with catastrophe might seem more like a failure? Answer by naming two things that change after a catch.
-placeholder:: Write your reasoning
-assessment-instructions:: Score out of 100. 50 for each of two different consequences of a catch that make the lab better off, up to 100. Any two of these count: (a) the evidential shift: before a catch, scheming is an unconfirmed risk that can be doubted or denied. After it, there is concrete proof that scheming really happens, so calls to pause or shut down until safety catches up get far more support. (b) the lab has a concrete incident to study, for example by resampling the model in the same situation and examining what it tried, and can strengthen its protocols. (c) the caught model has to be far more covert from then on, which makes further high-stakes attempts harder. Another real consequence that makes the lab better off, argued, also counts. Two consequences that are the same idea in different words count once. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Before a catch, serious misalignment and dangerous scheming are an unconfirmed risk. After a catch, scheming becomes a demonstrated phenomenon that has occurred naturally. Efforts to pause or shut down models till safety research catches up will gain much more support and evidence. A catch also yields a concrete incident to study. Labs can resample the model in its environment, examine what it tried, and strengthen their control protocols. From the model's perspective, being caught means that it has to be much more covert to avoid being caught, which might prevent high-stakes risks. Catching a model turns a diffuse, deniable, uncertain risk into legible, undeniable evidence."
-force-feedback:: first
-feedback-instructions:: In at most six sentences, name what the learner's reasoning got right, then supply anything they missed from this list: after a catch, scheming stops being an unconfirmed risk and becomes a demonstrated phenomenon, so pausing gains support and evidence. The catch is a concrete incident to study, and the model can be resampled in its environment to harden protocols. The caught model must now be far more covert, which itself suppresses high-stakes attempts. A catch converts a diffuse, deniable risk into legible evidence. Close by telling them that Unit 3 comes back to why catching a model matters.
-
 #### Text
 content::
 \#### When do capability evaluations stop being informative?
@@ -103,29 +89,9 @@ to:: much more evaluation aware than current models.
 from:: Through counterfactual tests with OpenAI o3
 to:: realizing that it is being evaluated.
 
-#### Article
-source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
-from:: ## Control evaluations and black-box techniques
-to:: We'll elaborate on why we think this is a good choice and details of the exact rules in the [[#^appendix-why-control-evaluations-are-conservative-about-inductive-biases-and-ai-internal-structure|Appendix "Why control evaluations are conservative about inductive biases and AI internal structure"]].
-
-#### Callout: Quick recall
-#### Question: Open
-id:: 0f51149d-04a7-4b37-a811-9b57f9ee878f
-content:: How can a lab decide which of its models to treat as untrusted, and why that way?
-assessment-instructions:: Score out of 100. 40: capability is the criterion, because lack of capability is the only known way to confidently rule out scheming without fundamental breakthroughs. 35: models that pass the relevant capability evaluations are treated as untrusted. 25: only models clearly too weak to plausibly be scheming are treated as trusted. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 20 if the answer inverts the test, saying that passing the capability evaluations makes a model trusted. Cap at 30 if the answer decides trust by how well the model behaves in tests or in use, since a schemer would behave well there too. Model answer, for the feedback, not a grading checklist: "The only known way to confidently rule out scheming without fundamental breakthroughs is lack of capability. Models that pass the relevant capability evaluations are treated as untrusted; models that are clearly too weak to plausibly be scheming can be treated as trusted."
-force-feedback:: first
-feedback-instructions:: In at most three sentences: confirm what the learner got right, correct any inversion of the test, and state the model answer. Lack of capability is the only known way to rule out scheming without fundamental breakthroughs, so a model that passes the relevant capability evaluations is treated as untrusted, and only models clearly too weak to plausibly be scheming are treated as trusted. No follow-up questions. Tell them to move on.
-#### End Callout
-
-#### Article
-optional:: true
-from:: # What might control techniques look like?
-to:: See the Appendices [[#^appendix-a-long-list-of-control-techniques|"A long list of control techniques"]] and [[#^appendix-control-techniques-from-our-paper|"Control techniques from our paper"]] for more thoughts on what control techniques could look like.
-
 #### Callout: Quick recall
 #### Question: Open
 id:: 7264e7a9-7257-450e-b10e-63a3fca46872
-optional:: true
 content:: Why is control more tractable to evaluate than alignment?
 assessment-instructions:: Score out of 100. 50: control reduces to a capability question, whether the model is able to subvert the safety measures, and capabilities can be measured, with a red team searching for attacks and testing whether the model can carry them out. 50: alignment is much harder to evaluate: whatever behaviour you observe, the model might be acting that way to make you think it is aligned, so behaviour cannot settle it. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Evaluating control only requires evaluating capabilities: whether the model is able to subvert the safety measures. Evaluating alignment is much harder because whatever behavior a model displays, it might be behaving that way to make you think it is aligned."
 force-feedback:: first
@@ -155,6 +121,7 @@ feedback-instructions:: In at most five sentences: say what the learner got righ
 optional:: true
 from:: # What might control techniques look like?
 to:: See the Appendices [[#^appendix-a-long-list-of-control-techniques|"A long list of control techniques"]] and [[#^appendix-control-techniques-from-our-paper|"Control techniques from our paper"]] for more thoughts on what control techniques could look like.
+
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
