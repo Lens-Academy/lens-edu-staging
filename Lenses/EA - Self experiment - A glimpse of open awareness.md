@@ -63,6 +63,6 @@ id:: 2a615e90-23e3-42a5-bc25-7b586070e535
 content::
 What did you notice while following the guidance?
 force-feedback:: first
-feedback-instructions:: The learner just followed Loch Kelly's guided glimpse, rated the three NADA-S items, and reports what they noticed compared with their prediction.
+feedback-instructions:: The learner just followed Loch Kelly's guided glimpse, rated the three NADA-S items, and reports what they noticed.
 
 Reflect back what they report in their own terms in one or two sentences, and ask which of Lindahl and Britton's six changes in the sense of self, if any, it resembles (for example boundaries or embodiment). "Nothing much happened" is a valid result. Do not tell them what they "really" experienced, and do not say whether Kelly's claims are true. If they report fear, unreality or detachment that is still present, point them to the safety section on the method page and suggest not repeating the experiment. 60 to 110 words. One or two replies. No generic praise.

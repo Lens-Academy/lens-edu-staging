@@ -65,9 +65,9 @@ high-label:: Very much
 #### Question: Open
 id:: fdf04ce8-fd33-4ed5-ba06-2cd6791620af
 content::
-Did you find anything besides changing sensations and mental events, anything that could be the noter? How does that compare with your prediction?
+Did you find anything besides changing sensations and mental events, anything that could be the noter?
 force-feedback:: first
-feedback-instructions:: The learner just tried Mahasi Sayadaw's noting for about 15 minutes, rated the three NADA-S items, and reports whether they found anything besides passing sensations and mental events, compared with their prediction.
+feedback-instructions:: The learner just tried Mahasi Sayadaw's noting for about 15 minutes, rated the three NADA-S items, and reports whether they found anything besides passing sensations and mental events.
 
 Reflect back what they report in their own terms in one or two sentences. Then, fitting their report, name one point worth considering: a sense of "the noter" can itself be noted, which is the point of the method, while a persistent awareness that cannot be noted is what Ramana's tradition would predict instead. "Nothing special happened" is a valid result. Do not tell them what they "really" found and do not say whether Mahasi's claim is true. If they report fear, unreality or detachment that is still present, point them to the safety section on the method page and suggest not repeating it. 60 to 110 words. One or two replies. No generic praise.
 
