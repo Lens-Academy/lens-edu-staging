@@ -48,7 +48,7 @@ These exercises were tested in people without a diagnosed condition. They are no
 #### Question: Open
 id:: 1f66df41-aa75-4f6e-828e-e70ef5453ea1
 content::
-The next questions build a protocol for one exercise, one piece at a time. First: which exercise will you test, and at what dose and for how long?
+The next questions build a protocol for one exercise, one piece at a time. First: which exercise will you test?
 force-feedback:: first
 feedback-instructions:: The learner picks one positive psychology exercise from this lens: three good things, gratitude visit, best possible self, acting extraverted for a week, or treating a cashier as a person. Acknowledge the choice in one sentence. If they choose the gratitude visit, mention that its effect in the 2005 trial was gone by three months. If they choose the cashier exercise, mention that it was tested as a single interaction, so a self-test needs many repetitions to be measurable on a weekly or monthly scale. If they choose an exercise not in the lens, ask where its instructions come from. Do not tell them which exercise to choose or whether it will work. 30 to 70 words. One reply. No generic praise.
 
@@ -69,7 +69,7 @@ feedback-instructions:: The learner says what they will compare their chosen pos
 #### Question: Open
 id:: 5c9be56f-537f-41aa-be2a-2c8f27583708
 content::
-What will you measure, and on which days?
+What will you measure?
 force-feedback:: first
 feedback-instructions:: The learner says which measure they will use. The lens offers SPANE (how often 12 feelings occurred over the past four weeks, positive 6 to 30, negative 6 to 30, balance -24 to 24), the Satisfaction With Life Scale (5 statements, 5 to 35), and optionally a daily evening rating of the SPANE words for that day, which the lens marks as our own unvalidated adaptation. It also suggests noting how one was on the hardest days if stability under bad circumstances is what matters. Check that the measure is named and scorable. If they invent their own measure, say that it is fine as an addition but that a published scale makes the result comparable with the trials. 30 to 70 words. One reply. No generic praise.
 
