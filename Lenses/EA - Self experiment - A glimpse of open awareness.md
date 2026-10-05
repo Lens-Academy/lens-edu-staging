@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-Loch Kelly is a meditation teacher who teaches what he calls **effortless mindfulness**. Its main tool is the **glimpse**, which he describes in an article as "a small shift of identity" that takes "from ten seconds to ten minutes" ([Get a Glimpse of Effortless Mindfulness](https://lochkelly.org/get-a-glimpse-of-effortless-mindfulness/)). He claims a glimpse is "not an insight from our conceptual mind; it is the direct experience of the essential peace, love, and wisdom that's always been within us". The article is adapted from his book *The Way of Effortless Mindfulness*, and his podcast is funded by listener donations.
+Loch Kelly is a meditation teacher who teaches what he calls **effortless mindfulness**. Its main tool is the **glimpse**, which he describes in an article as "a small shift of identity" that takes "from ten seconds to ten minutes" ([Get a Glimpse of Effortless Mindfulness](https://lochkelly.org/get-a-glimpse-of-effortless-mindfulness/)). He claims a glimpse is not a thought but "the direct experience of the essential peace, love, and wisdom that's always been within us". The article is adapted from his book *The Way of Effortless Mindfulness*, and his podcast is funded by listener donations.
 
 The guided glimpse below is the second part of an episode of his own podcast. It is done with eyes open and takes about 15 minutes.
 

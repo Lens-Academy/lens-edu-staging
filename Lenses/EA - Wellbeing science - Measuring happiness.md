@@ -4,7 +4,7 @@ title: "Measuring happiness"
 tldr: "Wellbeing science asks people how satisfied they are and how often they feel good or bad, then looks for what goes with high scores. Ed Diener, who built the most used scales, says there is no single key."
 summary_for_tutor: "First lens of the wellbeing science library module. The learner reads four sections of Ed Diener's Noba textbook chapter 'Happiness: The Science of Subjective Well-Being' (module 2 already used its introduction and 'Types of Happiness'): causes of subjective well-being (internal and external, with a table), outcomes of high SWB (happy people healthier, more sociable, more productive, and people need not be constantly euphoric), measuring happiness (mostly self-report scales, checked against reports by friends and biological measures), and some ways to be happier (no single prescription, one size does not fit all, a self-examination table). Then three questions: recall, processing, and a question asking what the scales would and would not pick up of the course's target state (deep, stable peace that does not depend on circumstances). The course explores and does not say which school is right."
 reading_minutes: 12
-tutor_minutes: 8
+tutor_minutes: 10
 tags:
   - wip
 ---
@@ -12,7 +12,7 @@ tags:
 content::
 Wellbeing science measures happiness mostly by asking people. A typical study gives a few numbered scales (how satisfied are you with your life, how often did you feel joyful, sad, angry), then looks for what goes with high scores, what follows from them and what changes them. Answers that people give about themselves like this are called **self-report**.
 
-The researchers' name for what these scales measure is **subjective wellbeing (SWB)**: high life satisfaction, frequent positive feelings and infrequent negative feelings, taken together. Ed Diener, who created the Satisfaction With Life Scale ([Diener, Emmons, Larsen and Griffin 1985](https://eddiener.com/scales/9)), wrote the textbook chapter below. Module 2 used its first sections. Here are its claims about causes, consequences, measurement and what to do.
+The researchers' name for what these scales measure is **subjective wellbeing (SWB)**: high life satisfaction, frequent positive feelings and infrequent negative feelings, taken together. Ed Diener, who created the Satisfaction With Life Scale ([Diener, Emmons, Larsen and Griffin 1985](https://eddiener.com/satisfaction-with-life-scale-swls/)), wrote the textbook chapter below. Module 2 used its first sections. Here are its claims about causes, consequences, measurement and what to do.
 
 #### Article
 source:: [[../articles/diener-happiness-the-science-of-subjective-well-being]]
@@ -30,7 +30,7 @@ to:: Table 4: Self-Examination
 #### Question: Open
 id:: c8be9d90-dbd0-4f69-af24-e5598d6927bb
 content::
-Without looking back, write down what you remember: what Diener says causes happiness, what follows from it, how it is measured, and what he recommends. Two minutes, no need to organise it.
+Without looking back, write down everything you remember from Diener's chapter. Two minutes, no need to organise it.
 force-feedback:: first
 feedback-instructions:: The learner just read four sections of Ed Diener's Noba chapter on subjective well-being (SWB) and now writes what they remember without looking back. You are a brief, honest mirror, diagnostic not instructional.
 
@@ -50,11 +50,20 @@ id:: b36a2e6b-f4ef-400b-80f2-97ad344c9904
 content::
 This course is about a particular target: deep, stable peace and happiness that does not depend on outside circumstances. Suppose you filled in Diener's scales (life satisfaction, and how often you felt positive, negative, joyful, afraid and so on) every month for a year. Which parts of that target would the scores pick up, and which would they miss?
 force-feedback:: first
-feedback-instructions:: The learner considers how well Diener's subjective well-being scales (life satisfaction, frequency of positive and negative feelings over recent weeks) would capture the course's target state: deep, stable peace and happiness that does not depend on circumstances. There is no single right answer, and the course does not decide whether the target is achievable.
+feedback-instructions:: The learner considers which parts of the course's target state (deep, stable peace and happiness that does not depend on circumstances) Diener's subjective well-being scales would pick up if filled in monthly for a year. The scales measure life satisfaction and how often positive and negative feelings occurred over recent weeks. There is no single right answer, and the course does not decide whether the target is achievable.
 
-Points a strong answer may notice: the scales would pick up fewer negative feelings and more positive ones, and stability if repeated over time. They would miss how peaceful the positive feelings are (a calm content person and an excited one can score the same), whether the peace depends on circumstances (scores taken in a good year cannot show what happens in a bad one, so you would need scores across hard events), and anything not felt as an emotion word, such as equanimity while pain is present. Life satisfaction is a judgement about one's life, which can be high while feelings are mixed, or low in someone who is at peace but whose life does not match their ideals. Self-report can be biased by mood or by wanting to see oneself as calm.
+Points a strong answer may notice: the scales would pick up fewer negative feelings and more positive ones, contentment (one of the SPANE words), and stability if the scores stay level across the year. If the year includes hard events, steady scores through them would say something about independence from circumstances.
 
-Reply with the strongest point in their answer, then one point they did not consider, phrased as a question. If they argue the scales capture the target well, ask how the scales would tell apart peace that does not depend on circumstances from a lucky year. 80 to 130 words. At most two replies. No generic praise.
+Reply with the strongest point in their answer, then one point they did not consider, phrased as a question. The next question asks what the scores would miss, so do not cover that here. 60 to 100 words. At most two replies. No generic praise.
+#### Question: Open
+id:: 3ae01227-4eea-4525-a917-a0bd77848ee3
+content::
+Which parts of that target would the scores miss?
+force-feedback:: first
+feedback-instructions:: The learner considers which parts of the course's target state (deep, stable peace and happiness that does not depend on circumstances) Diener's subjective well-being scales would miss if filled in monthly for a year. The scales measure life satisfaction and how often positive and negative feelings occurred over recent weeks. There is no single right answer, and the course does not decide whether the target is achievable.
+
+Points a strong answer may notice: the scales would miss how peaceful the positive feelings are (a calm content person and an excited one can score the same), whether the peace depends on circumstances (scores taken in a good year cannot show what happens in a bad one), and anything not felt as an emotion word, such as equanimity while pain is present. Life satisfaction is a judgement about one's life, which can be high while feelings are mixed, or low in someone who is at peace but whose life does not match their ideals. Self-report can be biased by mood or by wanting to see oneself as calm.
+Reply with the strongest point in their answer, then one point they did not consider, phrased as a question. If they say the scales miss nothing, ask how the scales would tell apart peace that does not depend on circumstances from a lucky year. 60 to 110 words. At most two replies. No generic praise.
 
 #### Question: Open
 id:: 0a1bef3e-9d51-4511-ba40-94ea2121fc43
