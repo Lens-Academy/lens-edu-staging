@@ -175,6 +175,8 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 | 2026-10-04 | Drafted the style sheet | [[Meeting Doc Text Review - Style Sheet]] | Gives flags and reviews a written standard to cite (section 2) | Direct, new file |
 | 2026-10-04 | Style sheet accepted as a working draft; "accountability buddy" made the standard term | [[Meeting Doc Text Review - Style Sheet]] | Andreas's review. Generalizing the sheet for other courses is deferred until it settles (section 7) | Direct |
 | 2026-10-04 | Tested how Claude can remove its own flags, on a scratch file, then trashed the file | Lens Edu/_scratch - comment removal test | Andreas had no known way to remove comments authored by Claude, so clearing flags falls to Claude | Removal works only when the edit quotes the comment exactly, and it lands pending. Scratch file in the trash |
+| 2026-10-04 | First rewrite pass on CV1 Meeting 5 | meetings/Compute Verification 1/Meeting 5 | Stage 2 for next week's batch | Edited by Andreas |
+| 2026-10-04 | First review of that pass | meetings/Compute Verification 1/Meeting 5 | Stage 3 | Review given in chat, no doc changes. Resolved: Room 2 help note and setup, Room 4 item 1. Still open: Room 1 items 1 to 3 and its table header, Room 2 now 132 words against the 120 limit, the Room 4 closer, and the wrap-up. Checked: "AI 2040's Plan A" matches the CV1 Unit 1 module; the Compute Verification 2 link is live; the Room 2 quote is the authorization lens's summary line, not its body text. Found: Compute Verification 2's own course page also describes the capstone differently from the doc (section 7) |
 
 ---
 
@@ -185,7 +187,8 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 - **AIRF Meeting 5, Room 2.** The doc quotes the authors as saying the cost would be "not even 1% as costly as WWII". That wording is not in the book; it appears only in the book-club design notes. Chapter 13 argues that claiming countries could never do this amounts to claiming they "could not possibly care even 1% as much as they cared to fight World War II". That is about willingness, not cost.
 - **AI Futures Meeting 3, Room 3.** The last question reads as either-or (contained rather than aligned), and the table header asks something different (containment before alignment).
 - **AI Futures Meeting 3, Room 2.** No "New group. Names first" line. Unclear whether the room is meant to keep the Room 1 group.
-- **CV1 Meeting 5, wrap-up.** Describes the capstone as one fixed task, a verification regime for a three-month emergency pause. The Capstone course file describes choosing one brief from a set or proposing your own.
+- **CV1 Meeting 5, wrap-up.** Describes the capstone as one fixed task, a verification regime for a three-month emergency pause. The Capstone course file describes choosing one brief from a set or proposing your own, and the Compute Verification 2 course page describes ranking the mechanisms by feasibility and designing a regime of your own. The three-month pause appears on that page as a Compute Verification 2 Unit 1 exercise, not as the capstone. Andreas expects this to be settled in a CV1 rewrite (2026-10-04).
+- **CV1 Meeting 5, wrap-up.** Says the Unit 1 success-scenario essay is revisited later in the track. The Unit 1 lens says the same, but no other course file or lens mentions the essay, so the revisit may not exist yet.
 
 ### Raised by Luc on AIRF Meeting 1
 
