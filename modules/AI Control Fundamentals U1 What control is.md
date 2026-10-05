@@ -30,13 +30,14 @@ Much of AI safety work tries to make AI models want what we want. That is alignm
 
 \## In this unit you will
 
-- Read two short introductions to control, from a Georgetown policy explainer and from Buck Shlegeris, and sort claims into control claims and alignment claims.
+- Read a policy explainer from Georgetown on what control is, and sort claims into control claims and alignment claims.
 - Watch Robert Miles explain the idea and the experiment that started the field.
 - Read Ryan Greenblatt and Buck Shlegeris's case for control: how it differs from alignment, which models count as trusted and which as untrusted, and how a red team tests whether safety measures hold.
-- Learn the words for the parts of a control set-up, from monitors and auditing to honeypots, and what a control evaluation assumes about the AI and what it does not.
-- See how Google DeepMind and OpenAI monitor their own AI agents in 2026.
-- Hear what control does not claim, from Mary Phuong of Google DeepMind, and read a first criticism of control, by Jan Kulveit.
-- Practise reviewing a lab's deployment plan.
+- Learn the words for the parts of a control set-up, from monitors and auditing to honeypots, and the worst-case assumptions a control evaluation makes about the AI.
+- See how Google DeepMind monitors its own AI agents in 2026.
+- Read a first criticism of control, by Jan Kulveit.
+
+Optional extras along the way: a clip of Buck Shlegeris on what control is meant to stop, OpenAI's monitoring set-up, Mary Phuong of Google DeepMind on the weaknesses of control, and a roleplay where you take apart a lab's deployment plan.
 
 #### Question: Open
 id:: f3905d61-5ae7-4179-a7b6-7d9e5263ca99
