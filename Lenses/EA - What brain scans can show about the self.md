@@ -48,7 +48,7 @@ to:: or whether they were able to meditate at all (self-report after each run).
 
 #### Text
 content::
-Third, a meta-analysis by Rahrig and colleagues pooled studies that assigned people to mindfulness training or a control, and looked at the DMN at rest ([Scientific Reports 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9293892/)). It found 12 such studies, with 226 people trained and 204 controls. Its main result was not a quieter DMN but more connectivity between a hub of the DMN (the posterior cingulate cortex) and a region of what the authors call the salience network. They link this to "the flexible control of internally-oriented attention". We read this as the best-controlled evidence of the three, and it is about how attention is managed, not directly about the self.
+Third, a meta-analysis by Rahrig and colleagues pooled studies that compared people given mindfulness training with a control group, either randomised or matched, and looked at the DMN at rest ([Scientific Reports 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9293892/)). It found 12 such studies, with 226 people trained and 204 controls. Its main result was not a quieter DMN but more connectivity between a hub of the DMN (the posterior cingulate cortex) and a region of what the authors call the salience network. They link this to "the flexible control of internally-oriented attention". We read this as the best-controlled evidence of the three, and it is about how attention is managed, not directly about the self.
 
 #### Text
 content::

@@ -4,17 +4,17 @@ title: "Before you experiment: safety and method"
 tldr: "The experiments in this module are short, but changes in the sense of self can be unpleasant and occasionally last. Know the warning signs and where to get help, write a prediction first, and take a baseline rating so you can compare."
 summary_for_tutor: "Method and safety page for the module's self experiments (Harding's pointing, Ramana's self-enquiry, optional Mahasi noting, optional Loch Kelly glimpse). Safety: Lindahl and Britton 2019 found that in meditators reporting challenges, changes in sense of self came with distress in 55% and impairment in 45%, more global changes went with more impairment, and psychiatric or trauma history did not predict who was affected. Cheetah House (Britton's non-profit) lists signs of dissociation: emotional flattening, loss of interest or enjoyment, loss of motivation and meaning, loss of sense of self, embodiment, agency or identity, and a dreamlike or unreal world. Britton's advice in a 2023 podcast: 'don't keep doing what you're doing that's making this happen, let's dial it back.' Help: Cheetah House Get Help and crisis pages, a doctor or therapist. Method: write a prediction first (expectation shapes reports: Thompson's retreat in module 4, appraisals shaped by teachers in Lindahl and Britton); rate the three NADA-S state items (Hanley et al. 2018, 1 to 10) after each experiment; take a baseline first by sitting still with eyes open for 5 minutes, as in the NADA study's pre-test. If the learner reports lasting distress, unreality or detachment, do not encourage further experiments; point them to the help options."
 reading_minutes: 11
-tutor_minutes: 3
+tutor_minutes: 0
 tags:
   - wip
 ---
 #### Text
 content::
-The next pages give you short experiments from the traditions you have read about: Douglas Harding's pointing, Ramana Maharshi's "Who am I?", and optionally noting and a glimpse practice. Each takes between two and fifteen minutes. This page covers two things first: how to stay safe, and how to make your results worth something.
+The next pages give you short experiments from the traditions you have read about: Douglas Harding's pointing, and optionally Ramana Maharshi's "Who am I?", noting and a glimpse practice. Each takes between two and fifteen minutes. This page covers two things first: how to stay safe, and how to make your results worth something.
 
 \## Safety
 
-You read in Lindahl and Britton's study that changes in the sense of self are not always welcome. Among meditators in that study who reported such changes, 55% reported distress and 45% impairment in daily functioning, and more global changes went with more impairment. A psychiatric or trauma history did not predict who was affected. That study recruited people with difficulties, so it does not tell you how likely this is for you. Short practices like the ones here are far less intense than the retreats where most of those changes began (80% first appeared on retreat). We think that makes the risk small, but not zero.
+You read in Lindahl and Britton's study that changes in the sense of self are not always welcome. Among meditators in that study who reported such changes, 55% reported distress and 45% impairment in daily functioning, and people who had more kinds of change at once tended to report more impairment. A psychiatric or trauma history did not predict who was affected. That study recruited people with difficulties, so it does not tell you how likely this is for you. Short practices like the ones here are far less intense than the retreats where most of those changes began (80% first appeared on retreat). We think that makes the risk small, but not zero.
 
 Britton's non-profit Cheetah House lists these as signs of dissociation ([Cheetah House FAQ](https://www.cheetahhouse.org/faq)):
 - emotional flattening or blunting
@@ -27,7 +27,7 @@ Britton's non-profit Cheetah House lists these as signs of dissociation ([Cheeta
 tone:: amber
 #### Text
 content::
-Stop an experiment if you feel frightened, unreal, or detached from your body or your feelings. If any of the signs above lasts after you stop, do not repeat the experiment. Britton's advice to meditators in that situation is "don't keep doing what you're doing that's making this happen, let's dial it back" ([interview, 2023](https://tim.blog/2023/11/23/dr-willoughby-britton-transcript/)).
+Stop an experiment if you feel frightened, unreal, or detached from your body or your feelings. If any of the signs above lasts after you stop, do not repeat the experiment. Britton says that when meditators notice their own warning signs, the response should be "don't keep doing what you're doing that's making this happen, let's dial it back" ([interview, 2023](https://tim.blog/2023/11/23/dr-willoughby-britton-transcript/)).
 
 If it lasts more than a day or two or worries you, talk to a doctor or therapist, or use Cheetah House's [help options](https://www.cheetahhouse.org/meditator-consultations-1), which include consultations and support groups for meditators. If you are in acute distress, their [crisis page](https://www.cheetahhouse.org/crisishelp) lists emergency lines.
 #### End Callout
