@@ -23,5 +23,5 @@ feedback-instructions:: Step out of character. In 80 to 150 words: name the stro
 #### Text
 content::
 :::callout {title="About this exercise" tone="neutral" collapse="closed"}
-Dana and her lab are made up for this exercise. Parts of her plan echo real practices you read about in this unit, such as monitoring with a company's most capable model and reviewing flagged actions after they run.
+Dana and her lab are made up for this exercise. Parts of her plan echo real practices, such as monitoring with a company's most capable model (OpenAI's account in "Control in use today") and reviewing flagged actions after they run.
 :::

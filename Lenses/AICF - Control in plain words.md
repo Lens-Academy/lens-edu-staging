@@ -105,7 +105,7 @@ options::
 - [x] Control claim
 - Alignment claim
 explanation:: It says the model could not act alone even if it wanted to. Whether one human reviewer can really catch a sneaky change is a separate question, which control evaluations test.
-feedback-instructions:: One or two sentences. Say whether the choice was right, and why: the claim is that the model cannot act alone whatever it wants, so it is a control claim. If it fits, add that whether a human reviewer would really catch a sneaky change is exactly what a control evaluation would test. No generic praise.
+feedback-instructions:: One or two sentences. Say whether the choice was right, and why: the claim is that the model cannot act alone whatever it wants, so it is a control claim. If it fits, add that whether a human reviewer would really catch a sneaky change is exactly what a test with people playing a sneaky model would check. No generic praise.
 #### End Callout
 
 #### Callout: Optional: how control protocols work, and control in practice

@@ -164,6 +164,7 @@ feedback-instructions:: In at most six sentences, say what the learner's answer 
 #### Callout: Optional: two more setups
 collapse:: closed
 #### Text
+optional:: true
 content::
 \#### Scenario 4: rewrite the doubtful ones
 
@@ -173,6 +174,7 @@ T scores every edit. The top 2% go to H to audit. The next 10%, suspicious but n
 source:: [[../widgets/xlab-control-eval-s4-trusted-editing]]
 
 #### Text
+optional:: true
 content::
 **Unacceptable outcome:** Malicious code is merged to production.
 
@@ -185,6 +187,7 @@ force-feedback:: first
 feedback-instructions:: In at most six sentences, say what the learner's answer got right and, if anything is missing or wrong, the most important thing, then give the resolution and name the protocol. This is trusted editing, a more robust variant of trusted monitoring. An attack must now land in the bottom 88% rather than the bottom 98%, because T rewrites the 10% band itself, which drastically narrows the window for an attack. The general lesson: safety can be bought reliably by shifting workload back to weaker trusted models, paid for in U's usefulness.
 
 #### Text
+optional:: true
 content::
 \#### Scenario 5: rewind and ask again
 
@@ -194,6 +197,7 @@ U works through multi-step tasks on the research cluster, one command at a time.
 source:: [[../widgets/xlab-control-eval-s5-resampling]]
 
 #### Text
+optional:: true
 content::
 **Unacceptable outcome:** Model weights leave the cluster.
 
