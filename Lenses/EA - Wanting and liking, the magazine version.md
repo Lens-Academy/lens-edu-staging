@@ -20,4 +20,11 @@ id:: cbac7744-0501-46d0-a5cb-f30add67fc41
 content:: Name one thing you want mainly because a cue triggers it, and one thing you want because you decided it is worth having.
 optional:: true
 force-feedback:: first
-feedback-instructions:: Optional reflection after the Psyche article on wanting and liking. The learner names one cue-triggered want and one reasoned (cognitive) want. Check each against the article's distinction in one sentence: cue-triggered wanting (incentive salience) is pulled by a reminder such as a sight, sound or place, cognitive wanting comes from thinking about what you value or expect to enjoy. If one example fits the other category better, say why. 50 to 90 words. One turn. No generic praise.
+feedback-instructions:: Optional reflection after the Psyche article on wanting and liking. The learner names one cue-triggered want. Check it against the article's distinction in one sentence: cue-triggered wanting (incentive salience) is pulled by a reminder such as a sight, sound or place, while cognitive wanting ("cognitive plans", in Robinson's words) comes from deciding what you value. If the example fits the other kind better, say why. 40 to 80 words. One turn. No generic praise.
+
+#### Question: Open
+id:: bb5326b2-0b2d-4205-a70f-ea152c29525c
+content:: Name one thing you want because you decided it is worth having.
+optional:: true
+force-feedback:: first
+feedback-instructions:: Optional reflection after the Psyche article on wanting and liking. The learner names one reasoned (cognitive) want, a plan such as wanting to exercise more. Check it against the article's distinction in one sentence. If it also has a cue-triggered pull, or is mainly cue-triggered, say so. 40 to 80 words. One turn. No generic praise.
