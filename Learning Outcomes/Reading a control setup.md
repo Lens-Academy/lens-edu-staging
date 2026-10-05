@@ -15,7 +15,7 @@ id:: c193c942-e039-4707-84da-9cabd1cf0b5b
 content::
 An AI lab describes a new deployment:
 
-"Our newest model, Orion, will build and run the data pipelines that prepare training data for our next model. Orion can read and change those datasets. Orion is our most capable model: it plans over long tasks and reasons well about its own situation. Every change Orion makes is scored for suspiciousness by Wren, a small model from 2023 that can do neither. The 1% of changes Wren scores as most suspicious are held until a security engineer approves them. All other changes go into the training data straight away. Orion passed all our safety evaluations, and our interpretability team found no signs of deceptive goals, so we are confident this set-up is safe."
+"Our newest model, Orion, will build and run the data pipelines that prepare training data for our next model. Orion can read and change those datasets. Orion is our most capable model: it plans over long tasks and reasons well about its own situation. Every change Orion makes is scored for suspiciousness by Wren, a small model from 2023. The 1% of changes Wren scores as most suspicious are held until a security engineer approves them. All other changes go into the training data straight away. Orion passed all our safety evaluations, and our interpretability team found no signs of deceptive goals, so we are confident this set-up is safe."
 
 1. Name each part of this set-up: the untrusted model, the trusted model, the monitor, the human audit, and what happens to a flagged action. Say why each model gets the role it has.
 2. What unacceptable outcome should this set-up guard against? Be specific to this deployment.
