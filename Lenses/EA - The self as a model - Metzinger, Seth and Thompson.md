@@ -41,9 +41,9 @@ to:: In the book, I have a chapter on self, and it’s exactly on that issue.
 id:: aaf99fbb-eb62-48e7-ad8b-b20adeb69c75
 content::
 \## Recall
-Spend 2 minutes writing down everything you remember from the three sources, without looking back. No need to organise it.
+Spend 2 minutes writing down everything you remember from this page, without looking back. No need to organise it.
 force-feedback:: first
-feedback-instructions:: The learner read an interview with Thomas Metzinger, watched the second half of Anil Seth's TED talk and read one paragraph by Evan Thompson, then wrote a free recall.
+feedback-instructions:: The learner read an interview with Thomas Metzinger and one paragraph by Evan Thompson, perhaps also watched the optional second half of Anil Seth's TED talk, then wrote a free recall.
 
 Key points:
 - Metzinger: there is no thing like the self, nobody ever had or was a self, "I" just points to the speaker. There is a conscious experience of selfhood (a phenomenal self), a representational process in the brain, absent in dreamless sleep. The vivid feeling of being someone makes the mistake easy. Its function: a strong sense of sameness helps an organism plan, and it helps deny mortality. Wittgenstein's rope: strong although no single thread runs through it. The experience of control may be adaptive rather than true. "The self is not a thing, but a process."
