@@ -43,6 +43,7 @@ Modeled on [[AIRF Restructure Log]] and [[CV1 Streamlining Proposal]], but kept 
 - **Edit around existing comments, never through them.** An edit whose span contains a comment routes to review as one unit, so rejecting it loses the whole edit.
 - **Mark who made each decision.** A proposal from Claude is not a decision until Andreas confirms it.
 - **Open relay sessions under Andreas's name**, so edits show as his AI's in the review queue. Sessions before 2026-10-04 were opened without a name, and their edits stay unattributed.
+- **Claude clears its own flags.** A flag is removed once its passage is rewritten or deliberately kept. Removing a comment touches a comment, so the removal arrives as a pending change for Andreas to accept, not a direct edit. Tested on a scratch file on 2026-10-04: the edit has to quote the comment exactly, author and timestamp included.
 
 ---
 

@@ -11,7 +11,7 @@ Companion to [[Meeting Doc Text Review Log]]. The log holds decisions and histor
 
 It lists what makes a prompt read as AI-written and the move to make for each. It does not try to say what a good prompt sounds like. Voice does not reduce to rules, and only the person writing can supply it, which is the same conclusion [[AI Guide/Course Making Findings]] reaches in section 3.
 
-**Draft, 2026-10-04. Not yet reviewed by Andreas.**
+**Working draft, accepted as a starting point by Andreas on 2026-10-04.** It is written for the AIRF, AI Futures and CV1 meeting docs and quotes them throughout. The aim is for any course to be able to pick it up and adapt it for its own meetings; that cleanup waits until the sheet has settled through this work (open item in the log).
 
 Sources, so each entry can be traced:
 
@@ -65,7 +65,7 @@ The guide already requires most of these. They are repeated here so a flag can c
 
 **B6. Table headers match the prompt above them.** *Survey.*
 
-**B7. One term for one thing, in every doc.** "Lens Tutor". "Unit" and "next meeting", never "week". "Tractable", not "gettable". "Accountability buddy", not "partner", which is the majority usage but not yet a decision. *Guide rule 7, the 2026-10-03 rename, survey.*
+**B7. One term for one thing, in every doc.** "Lens Tutor". "Unit" and "next meeting", never "week". "Tractable", not "gettable". "Accountability buddy", never "partner". *Guide rule 7, the 2026-10-03 rename, Andreas's 2026-10-04 decision on "buddy".*
 
 ---
 
