@@ -1,6 +1,6 @@
 ---
 id: '7367ce67-c192-48f0-8080-4c0f28f486f6'
-title: "The case for control: what control is"
+title: "What control is"
 tldr: "Banks do not try to guarantee that no employee ever goes rogue. They build systems that hold even when one does. Greenblatt and Shlegeris ask what happens if you treat a powerful AI model the same way: assume it might be scheming, and set things up so it still cannot cause a catastrophe."
 summary_for_tutor: "Lens in Unit 1 of AI Control Fundamentals, adapted from the Advanced AI Control lens 'The case for control (1)'. Greenblatt and Shlegeris (2024), 'The case for ensuring that powerful AIs are controlled', from the opening of the post through the first paragraphs of 'Evaluating whether you have control is doable' (the two-step evaluation approach and how to decide which models are untrusted). Exercises: a quick recall on control versus alignment, then a scenario exercise with three setups (no safeguards, trusted monitoring with a weaker trusted model T and 2% human audits, untrusted monitoring by a copy of U), each asking whether the setup holds the control property and what that depends on. Two further setups (trusted editing, resampling) sit in a closed optional box. The learner has watched Robert Miles's video on the founding control paper just before this lens. The next lens continues the same post: how a red team runs a control evaluation and why alignment cannot yet be checked the same way."
 reading_minutes: 16
