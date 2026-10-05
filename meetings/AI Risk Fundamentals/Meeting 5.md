@@ -93,7 +93,7 @@ One of you makes the book's whole argument in about 3 minutes to the others, who
 Share your #1 takeaway from the course, and the argument in the book you're least convinced by.{--{"author":"Andreas's AI","timestamp":1791183875288}@@{>>{"author":"AI","timestamp":1791094722630}@@Clarity: two asks in one line.<<}--}
 
 
-Your scribe writes each person's #1 takeaway and the argum they're least convinced by.
+Your scribe writes each person's #1 takeaway and the argument they're least convinced by.
 
 
 | Names | #1 takeaway | Least convinced by |
