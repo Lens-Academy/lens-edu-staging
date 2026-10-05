@@ -63,7 +63,7 @@ Then, as a group, discuss this question and **write your shared response** in th
 > **And if your group rejects the halt, what do you endorse instead?** Anything can be a valid answer (even keep going), but you have to defend it.
 
 
-Want help or an explanation for this question?{>>{"author":"AI","timestamp":1791094720202}@@AI (mild, recurring): "help or an explanation … ask for an explanation" repeats itself, and it is the same stock line in every doc.<<} Copy it into the [Lens {--{"author":"AI","timestamp":1791094654376}@@Coach](https://lensacademy.org/coach)--}{++{"author":"AI","timestamp":1791094654376}@@Tutor](https://lensacademy.org/tutor)++} and ask for an explanation.
+Want help or an explanation for this question?{>>{"author":"AI","timestamp":1791094720202}@@AI (mild, recurring): "help or an explanation … ask for an explanation" repeats itself, and it is the same stock line in every doc.<<} Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Weakest link in the proposal | Your group's verdict |
@@ -157,7 +157,7 @@ style:: faq
 Your navigator isn't in every room, so:
 
 - **Confused about the task, or want a human?** Click “••• More” > “Ask for Help” > Your navigator gets pinged and pops into your room.
-- **Don't get the question, or something in the reading?**{>>{"author":"AI","timestamp":1791094729068}@@AI (mild, recurring): "for understanding, not for handing you the answer" below is an "X, not Y" contrast.<<} Ask the [Lens {--{"author":"AI","timestamp":1791094661360}@@Coach](https://lensacademy.org/coach).--}{++{"author":"AI","timestamp":1791094661360}@@Tutor](https://lensacademy.org/tutor).++} It's for understanding, not for handing you the answer.
+- **Don't get the question, or something in the reading?**{>>{"author":"AI","timestamp":1791094729068}@@AI (mild, recurring): "for understanding, not for handing you the answer" below is an "X, not Y" contrast.<<} Ask the [Lens Tutor](https://lensacademy.org/tutor). It's for understanding, not for handing you the answer.
 - **Lost the doc link, or a quick logistics thing?** Check the **Discord channel** or the Zoom chat.
 
 ### Before you arrive
@@ -182,8 +182,8 @@ Your navigator isn't in every room, so:
 
 ### The reading and the questions
 
-- **I don't understand the question or a claim.** Ask the Lens {--{"author":"AI","timestamp":1791094661977}@@Coach!--}{++{"author":"AI","timestamp":1791094661977}@@Tutor!++} It'll explain in plain terms.
-- **Where's the reading?** It's in the course on the Lens platform: the chapter text is loaded right in the lesson. Can't find it? Ask the {--{"author":"AI","timestamp":1791094662583}@@Coach--}{++{"author":"AI","timestamp":1791094662583}@@Tutor++} or Ask for Help.
+- **I don't understand the question or a claim.** Ask the Lens Tutor! It'll explain in plain terms.
+- **Where's the reading?** It's in the course on the Lens platform: the chapter text is loaded right in the lesson. Can't find it? Ask the Tutor or Ask for Help.
 
 ### Tech
 
