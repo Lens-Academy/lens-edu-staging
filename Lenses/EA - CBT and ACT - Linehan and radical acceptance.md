@@ -17,7 +17,7 @@ source:: [[../video_transcripts/borderlinernotes-how-she-learned-radical-accepta
 
 #### Text
 content::
-"You have to radically accept that you want something you don't have and it's not a catastrophe" is close to Ellis's point that wanting is fine and demanding is the trouble. Linehan's claim that regular practice of radical acceptance "would transform everyone" is her conviction, not a finding. Here is what the trials of DBT itself show:
+We think her line "You have to radically accept that you want something you don't have, and it's not a catastrophe" is close to Ellis's point that wanting is fine and demanding is the trouble. Linehan's claim that regular practice of radical acceptance "would transform everyone" is her conviction, not a finding. Here is what the trials of DBT itself show:
 
 #### Article
 source:: [[../articles/cochrane-psychological-therapies-for-people-with-borderline-personality-disorder]]
