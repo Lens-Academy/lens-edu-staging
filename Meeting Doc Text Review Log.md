@@ -160,7 +160,7 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 | Date | Change | Files | Why | How it landed |
 |---|---|---|---|---|
 | 2026-10-03 | Survey of the guide, master template, all fifteen Session Doc tabs and the shared blocks | Read only | Scope the problem before changing anything | n/a |
-| 2026-10-03 | **Decisions: wording only; Claude flags, a person rewrites, Claude reviews; suggestions rather than direct edits; next week's meetings first** | Plan | Section 2 | Plan only |
+| 2026-10-03 | **Decisions: wording only; Claude flags, Andreas rewrites, Claude reviews; suggestions rather than direct edits; next week's meetings first** | Plan | Section 2 | Plan only |
 | 2026-10-03 | Flagged passages: 19 in AIRF Meeting 5, 15 in AI Futures Meeting 3, 10 in CV1 Meeting 5, 2 in each shared How today works block, 2 in the shared Participant FAQ | Those files | Stage 1 for next week's batch | Direct. Comments only add text |
 | 2026-10-03 | Lens Coach renamed to Lens Tutor, name and link only | AIRF Meeting 5 (4), AI Futures Meeting 3 (1), CV1 Meeting 5 (1), each shared How today works block (1), shared Participant FAQ (3), Master template (3) | Coach was merged into Tutor | Pending, 15 suggestions |
 | 2026-10-03 | Checked four claims against their sources while flagging | AIRF Meeting 5, AI Futures Meeting 3, CV1 Meeting 5 | A flag that calls something wrong needs a source | Log only. The WWII quote is wrong and the capstone description does not match its course file (section 7). The AI Futures Room 2 readings and the CV1 Room 2 quote match their lenses |
