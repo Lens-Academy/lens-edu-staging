@@ -14,7 +14,7 @@ Two short introductions to AI control. The first is from a policy explainer by G
 
 #### Article
 source:: [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agents]]
-from:: U.S. President Donald Trump’s
+from:: ### Introduction
 to:: As other types of organizations adopt AI agents, more risks will emerge.
 
 #### Callout: Control claim or alignment claim?
