@@ -64,13 +64,28 @@ feedback-instructions:: The learner placed Mara's desire to finish the marathon 
 
 #### Question: Open
 id:: ab70c5e2-3dfc-4d67-9168-0ff731fb8e75
-content:: Epicurus suggested asking one question of every desire. Ask that question about Mara's desire to finish the marathon, and say what her answer might show.
-assessment-instructions:: The case: Mara trains for a marathon after a friend's post got many likes. She feels low when slower than planned and would be embarrassed to drop out now that everyone knows. On some mornings she enjoys the run itself.
+content:: Epicurus suggested asking one question of every desire. What is that question?
+assessment-instructions:: The question being tested is from Epicurus's Vatican Saying 71: "Evaluate each of your desires by this question: 'What will happen to me if that which this desire seeks is attained, and what if it is not?'"
 
 Score out of 100.
-50: the question asked is Epicurus's, in any wording: it asks what will happen to you if the desire is fulfilled and what will happen if it is not (both halves needed for full 50, 25 for one half).
-50: applies it to Mara and says what the answer shows, for example: if she does not finish, the main cost is embarrassment, which comes from what others think, so the desire is not necessary. If she does finish, she gets a short-lived good feeling or approval. Any reasonable application that uses both outcomes and draws a conclusion about the desire earns 50. An application with only one outcome or no conclusion earns 25.
-feedback-instructions:: The question is from Vatican Saying 71: ask of every desire what will happen to you if it is fulfilled, and what if it is not. Confirm or correct the learner's version, then respond to their application in one or two sentences. Below 100, name the missing half or the missing conclusion. 50 to 90 words. No generic praise.
+50: the question asks what will happen to you if the desire is fulfilled.
+50: the question asks what will happen to you if the desire is not fulfilled.
+Any wording counts.
+feedback-instructions:: The question is from Vatican Saying 71: ask of every desire what will happen to you if it is fulfilled, and what if it is not. Confirm the learner's version in one sentence, or give the saying if they missed a half. 30 to 60 words. No generic praise.
+
+#### Question: Open
+id:: fbb03dc6-c3c1-49f3-b921-c11fb5947e41
+content:: Ask that question about Mara's desire to finish the marathon. What might her answer show about the desire?
+assessment-instructions:: The case: Mara trains for a marathon after a friend's post got many likes. She feels low when slower than planned and would be embarrassed to drop out now that everyone knows. On some mornings she enjoys the run itself.
+
+The question to apply is Epicurus's: what will happen to me if this desire is fulfilled, and what if it is not?
+
+Score out of 100.
+40: says what would happen if she finishes, for example a short-lived good feeling, approval, relief.
+40: says what would happen if she does not finish, for example embarrassment, which comes from what others think, while she could still run and enjoy running.
+20: draws a conclusion about the desire from the two answers, for example that the desire is not necessary, or that it rests mostly on opinion.
+Any reasonable application from the case earns the marks.
+feedback-instructions:: The learner applied Vatican Saying 71 to Mara's desire to finish the marathon. A strong answer: if she finishes, she gets a good feeling or approval that may not last. If she does not, the main cost is embarrassment, which comes from opinion, and she can still run. So the desire is not necessary in Epicurus's sense. Respond to their application in one or two sentences. Below 100, name the missing outcome or the missing conclusion. 50 to 90 words. No generic praise.
 
 # Suggested Lenses:
 ## Lens:
