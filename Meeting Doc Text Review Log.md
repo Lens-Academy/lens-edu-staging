@@ -138,7 +138,7 @@ Stages 1 to 4 run once per batch of docs. The first batch is next week's three.
 | Doc | Runs | Rename | Flags | Rewrite | Review | Accepted |
 |---|---|---|---|---|---|---|
 | AIRF Meeting 5 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | done for this pass 2026-10-05 | done 2026-10-05 | flag removals pending; 6 flags kept for the full pass |
-| AI Futures Meeting 3 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | todo | todo | todo |
+| AI Futures Meeting 3 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | first pass 2026-10-05 | first round 2026-10-05 | todo |
 | CV1 Meeting 5 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | done 2026-10-04 | done 2026-10-04 | flag removals pending |
 | Shared How today works (three variants) and Participant FAQ | with the above | done 2026-10-04 | done 2026-10-03 | todo | todo | todo |
 | Master template | n/a | done 2026-10-04 | not flagged | n/a | n/a | n/a |
@@ -196,6 +196,9 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 | 2026-10-05 | Second rewrite pass on AIRF Meeting 5 | meetings/AI Risk Fundamentals/Meeting 5 | Andreas's response to the first review | Edited by Andreas. Fixed: the WWII line now describes the care countries would need rather than cost, and quotes the book exactly; the Room 3 scribe line matches item 2; AI Futures named as on the public site; intensives described as one week |
 | 2026-10-05 | **Decision: minor flags stay on the page until the full pass** | AIRF Meeting 5 onward | Saves time this week. Flags that do not get in the way of running the meeting wait for the later full pass, rather than being resolved or removed now | Andreas, 2026-10-05 |
 | 2026-10-05 | Second review, and flags updated | meetings/AI Risk Fundamentals/Meeting 5 | Stage 3 | WWII flag removed (pending). One flag added at Andreas's request, on the Room 1 opener: "three things" against a conditional item 3, and "last meeting" against "last unit" (direct). Kept for the full pass: the Room 2 block, the rehearsal-audience line, the Room 4 opener, and the two wrap-up flags |
+| 2026-10-05 | First rewrite pass on AI Futures Meeting 3 | meetings/Forecasting, Modeling, and Shaping AI Futures/Meeting 3 | Stage 2 | Edited by Andreas. Room 3's last question and its table header now both ask the probability that the first harmful AI is contained rather than aligned. "Partner" became "buddy" |
+| 2026-10-05 | **Room 2 of AI Futures Meeting 3 is a new group** | meetings/Forecasting, Modeling, and Shaping AI Futures/Meeting 3 | Andreas: the "New group. Names first" line was dropped, not withheld on purpose. The Room 1 table still works because the scribe writes one line per person. Whether every room carries the line is a consistency issue across meetings (section 7) | Andreas, 2026-10-05 |
+| 2026-10-05 | First review of that pass | meetings/Forecasting, Modeling, and Shaping AI Futures/Meeting 3 | Stage 3 | Review in chat. Nine flags removed, all pending: the Room 1 opener and item 1, the Room 1 scribe line, Room 2 item 1 (B1), the mirrored pair, the Room 3 last question, the "not a traceable change" pair (A2), "partner", and the closing feedback line. Six kept: the Room 2 "about this", the institutions line, the Room 2 closing question, the Room 3 exercise reminder, and two minor ones for the full pass (the catastrophe definition, "the group will wait"). Found by counting: Room 2 at 126 words and Room 3 at 129, against the 120 limit |
 
 ---
 
@@ -204,8 +207,8 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 ### Content: needs a decision, not a rewrite
 
 - **AIRF Meeting 5, Room 2. Resolved 2026-10-05:** Andreas rewrote the line to describe the care countries would need and quote the book exactly. The original problem, kept for the record: the doc quoted the authors as saying the cost would be "not even 1% as costly as WWII". That wording is not in the book; it appears only in the book-club design notes. Chapter 13 argues that claiming countries could never do this amounts to claiming they "could not possibly care even 1% as much as they cared to fight World War II". That is about willingness, not cost.
-- **AI Futures Meeting 3, Room 3.** The last question reads as either-or (contained rather than aligned), and the table header asks something different (containment before alignment).
-- **AI Futures Meeting 3, Room 2.** No "New group. Names first" line. Unclear whether the room is meant to keep the Room 1 group.
+- **AI Futures Meeting 3, Room 3. Resolved 2026-10-05:** Andreas made the table header match the question (contained rather than aligned).
+- **"New group. Names first" missing from some rooms.** AI Futures Meeting 3, Room 2 is a new group but lacks the line (Andreas, 2026-10-05). Check every meeting for the same gap in the full pass.
 - **CV1 Meeting 5, wrap-up.** Describes the capstone as one fixed task, a verification regime for a three-month emergency pause. The Capstone course file describes choosing one brief from a set or proposing your own, and the Compute Verification 2 course page describes ranking the mechanisms by feasibility and designing a regime of your own. The three-month pause appears on that page as a Compute Verification 2 Unit 1 exercise, not as the capstone. Andreas expects this to be settled in a CV1 rewrite (2026-10-04).
 - **CV1 Meeting 5, wrap-up.** Says the Unit 1 success-scenario essay is revisited later in the track. The Unit 1 lens says the same, but no other course file or lens mentions the essay, so the revisit may not exist yet. Deferred to the CV1 restructure (Andreas, 2026-10-04).
 - **CV1 Meeting 5, Room 2.** 132 words against the guide's 120 limit, mostly because of the bolded summary line from the hardware-authorization lens. Deferred to the CV1 restructure (Andreas, 2026-10-04), so this meeting runs over the limit for now.
