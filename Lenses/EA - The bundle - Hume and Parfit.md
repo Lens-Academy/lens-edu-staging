@@ -3,8 +3,8 @@ id: '9be09a03-1a1e-43db-8254-d10da19e7ea2'
 title: "The bundle: Hume and Parfit"
 tldr: "Hume looked for his self and found only passing perceptions. Two centuries later Parfit used split brains and an imagined teleporter to argue that a person is nothing over and above a brain, a body and a stream of experiences, and that this is the Buddha's view too."
 summary_for_tutor: "Two readings on the bundle view. (1) Hume, Treatise 1.4.6, paragraphs 1 to 4: some philosophers claim we are intimately conscious of a simple, continuing self; Hume: from what impression could such an idea come? Every impression changes; 'when I enter most intimately into what I call myself, I always stumble on some particular perception or other'; 'I never can catch myself at any time without a perception'; people are 'nothing but a bundle or collection of different perceptions'; 'the mind is a kind of theatre', but without a known stage. In the Appendix (App.10, linked, not embedded) Hume later wrote that he found himself in 'a labyrinth' over personal identity. (2) Parfit, 'Divided Minds and the Nature of Persons' (1987), whole: split-brain patients seem to have two streams of consciousness; Ego Theory (a person's unity is explained by a persisting subject) vs Bundle Theory (series of mental states linked by causal relations; persons exist only in a language-dependent way); 'the first Bundle Theorist was Buddha' (Nagasena, carriage quotations); teletransportation and the spectrum of partial cell replacement: our natural belief that 'will it be me?' always has an all-or-nothing answer implies an undiscoverable critical percentage, so on the Bundle Theory it is an empty question, like whether a revived club is the same club; this may undermine concern about our own futures; 'ordinary survival is about as bad as being destroyed and having a Replica'; split brains: the Ego Theory would need two subjects in one person, which makes Egos 'idle cogs'; unity is explained by states of awareness of several experiences; Wiggins's division case shows 'personal identity is not what matters'. Then recall, processing and a wedge question. Do not say whether the bundle view is right."
-reading_minutes: 25
-tutor_minutes: 12
+reading_minutes: 18
+tutor_minutes: 10
 tags:
   - wip
 ---
@@ -39,22 +39,23 @@ content::
 \## Recall
 Spend 2 minutes writing down everything you remember from Hume and Parfit, without looking back. No need to organise it.
 force-feedback:: first
-feedback-instructions:: The learner read Hume, Treatise 1.4.6 paragraphs 1 to 4, and Parfit's essay "Divided Minds and the Nature of Persons" in full, then wrote a free recall.
+feedback-instructions:: The learner read Hume, Treatise 1.4.6 paragraphs 1 to 4, and Parfit's essay "Divided Minds and the Nature of Persons" up to "Ordinary survival is about as bad as being destroyed and having a Replica" (the last section on split brains was optional), then wrote a free recall.
 
 Key points:
 - Hume: when he looks into himself he always finds some particular perception (heat, cold, love, pain) and never a self without a perception. In deep sleep he is insensible of himself. People are "a bundle or collection of different perceptions" in constant flux. The mind is like a theatre, but there is no known stage, only the perceptions. Later (Appendix) he admitted he could not explain what ties the perceptions together.
 - Parfit: split-brain patients seem to have two streams of consciousness. Ego Theory: a persisting subject explains the unity of experience and of a life. Bundle Theory: a life is a series of mental states linked by causal relations, and persons exist only as a way of speaking. He calls the Buddha the first Bundle Theorist.
 - Teletransportation and the spectrum of partial replacement: if "will it be me?" always had an all-or-nothing answer, there would be a critical percentage no one could ever discover. On the Bundle Theory the question is empty, like asking whether a revived club is the same club. Knowing the physical and psychological facts, you know everything.
 - Emotional consequence: it may weaken concern for one's own future. "Ordinary survival is about as bad as being destroyed and having a Replica."
-- Split brains make Egos "idle cogs". Unity is explained by states of awareness of several experiences at once. Wiggins's division case shows personal identity is not what matters.
+- Optional last section (do not count it as missing): split brains make Egos "idle cogs". Unity is explained by states of awareness of several experiences at once. Wiggins's division case shows personal identity is not what matters.
 
 Be a brief, honest mirror: say what they got right without inflation, name what is missing, correct any error in one sentence, and treat gaps as normal. 80 to 140 words, short paragraphs, no lists. No follow-up questions and no generic praise. One reply, then tell them to move on.
 
 #### Question: Open
 id:: dd329360-b4e9-4c7a-8149-2a56aa8f9716
 content::
-\## How it landed
+\## How it landed (optional)
 Take 2 minutes to note how Hume and Parfit landed. Did Hume's report match what you found when you looked? What convinced you, what did you doubt?
+optional:: true
 force-feedback:: first
 feedback-instructions:: The learner just read Hume (looking inward finds only particular perceptions, the self is a bundle) and Parfit (Bundle Theory, teletransportation, split brains, identity is not what matters), and earlier in the module did Hume's one-minute introspection themselves.
 
