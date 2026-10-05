@@ -14,7 +14,7 @@ A self-experiment needs a measure you can take again and again in the same way. 
 
 \## The WHO-5 Well-Being Index
 
-The World Health Organization's five-question wellbeing index is one of the most widely used short questionnaires of wellbeing ([WHO 2024](https://cdn.who.int/media/docs/default-source/mental-health/who-5_english-original4da539d6ed4b49389e3afe47cda2326a.pdf?sfvrsn=ed43f352_11&download=), with a [review of 213 studies by Topp and colleagues](https://doi.org/10.1159/000376585)). The instrument below is reproduced from the WHO version, © WHO 2024, licence CC BY-NC-SA 3.0 IGO.
+The World Health Organization's five-question wellbeing index ([WHO 2024](https://cdn.who.int/media/docs/default-source/mental-health/who-5_english-original4da539d6ed4b49389e3afe47cda2326a.pdf?sfvrsn=ed43f352_11&download=)) is, in the words of a [systematic review by Topp and colleagues](https://doi.org/10.1159/000376585), "among the most widely used questionnaires assessing subjective psychological well-being". The instrument below is reproduced from the WHO version, © WHO 2024, licence CC BY-NC-SA 3.0 IGO.
 
 For each of the five statements, choose the answer closest to how you have been feeling **over the last two weeks**. Higher numbers mean better wellbeing.
 
@@ -39,7 +39,7 @@ feedback-instructions:: The learner reports their WHO-5 score (five items about 
 content::
 \## An equanimity questionnaire
 
-The WHO-5 measures how well you have been. Many of the schools in this course aim at something else: **equanimity**, which Desbordes and colleagues (read in "How published research goes wrong") define as "an even-minded mental state or dispositional tendency toward all experiences or objects, regardless of their origin or their affective valence". Laurence Juneau and colleagues built a short questionnaire for it, the **EQUA-S** ([Juneau et al. 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7350915/), open access, CC BY). It has two parts. **Even-minded state of mind** is staying calm when things go wrong. **Hedonic independence** is not being carried away by pleasant things or the wish for them. The authors wrote the items in French and give the English wording below. They tested the scale on 265 adults from the general population in France, without checking how much they meditated, so it is a young scale.
+The WHO-5 measures how well you have been. Many of the schools in this course aim at something else: **equanimity**, which Desbordes and colleagues (read in "How published research goes wrong") define as "an even-minded mental state or dispositional tendency toward all experiences or objects, regardless of their origin or their affective valence". Catherine Juneau and colleagues built a short questionnaire for it, the **EQUA-S** ([Juneau et al. 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7350915/), open access, CC BY). It has two parts. **Even-minded state of mind** is staying calm when things go wrong. **Hedonic independence** is not being carried away by pleasant things or the wish for them. The authors wrote the items in French and give the English wording below. They tested the scale once, on 265 French-speaking adults from the general population rather than on experienced meditators, so it is a young scale.
 
 Answer each item from 1 (never or very rarely) to 5 (very often or always). The paper gives no time frame. For repeated use we suggest "in the past week".
 
