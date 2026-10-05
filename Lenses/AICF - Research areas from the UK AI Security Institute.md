@@ -16,11 +16,11 @@ from:: **Problem statement:**
 to:: addressing different parts of the research agenda.
 
 #### Article
-from:: **Problem summary:** We are interested in research on concentrated failure
+from:: **Problem summary:** We are interested in research on concentrated failure
 to:: potentially leading to rogue internal deployments or weight exfiltration
 
 #### Article
-from:: **Problem summary:** In the future, potentially scheming AIs will likely be used
+from:: **Problem summary:** In the future, potentially scheming AIs will likely be used
 to:: preventing us from controlling increasingly capable AI systems.
 
 #### Question: Open
