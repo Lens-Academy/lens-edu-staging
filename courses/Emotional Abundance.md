@@ -96,3 +96,6 @@ optional:: true
 
 # Module: [[../modules/Emotional Abundance Library - Jhanas|Library: The jhanas]]
 optional:: true
+
+# Module: [[../modules/Emotional Abundance Library - CBT and ACT|Library: CBT, ACT and the third wave]]
+optional:: true
