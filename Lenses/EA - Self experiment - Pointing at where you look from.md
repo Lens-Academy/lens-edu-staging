@@ -3,8 +3,8 @@ id: '416fd08e-c6d7-495c-a425-4b13916602f7'
 title: "Experiment: pointing at where you look from"
 tldr: "Douglas Harding's pointing experiment takes two minutes: point at the wall, the floor, your foot, then at where you are looking from, and notice what is there. Predict first, then rate what happened."
 summary_for_tutor: "First-person experiment from the 'headless way' of Douglas Harding, with instructions from Brentyn Ramm's Psyche essay (2022). The learner writes a prediction, does the pointing experiment (point at a wall, the floor, a foot, the chest, then at where you are looking from, and ask whether there is any colour, shape, texture, movement or personal feature there), rates the three NADA-S statements (Hanley et al., 1 to 10), then reads Ramm's own report ('a colourless, unchanging capacity for the world') and Harding's critics' point, and writes what they found. Claim tested: whether in first-person experience there is a located looker or an open space where the world appears (in Lindahl and Britton's terms, a change in embodiment and self-location). Expectation effects are strong here, since the instructions suggest the answer. If the learner reports distress, follow the safety guidance on the method page and do not encourage repeating."
-reading_minutes: 10
-tutor_minutes: 4
+reading_minutes: 8
+tutor_minutes: 5
 tags:
   - wip
 ---
