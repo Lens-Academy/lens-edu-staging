@@ -18,7 +18,7 @@ source:: [[../shared/Session Doc - How today works]]
 Go around your group:
 1\. How was working through this unit's content? Denser or easier than the previous units? Did you finish, and if not, what stopped you? (No judgment, "I didn't finish" is a fine answer.){>>{"author":"AI","timestamp":1791094814456}@@Clarity (recurring): four questions in one item. AI (mild, recurring): stock reassurance.<<}
 2\. Recall something from this unit that resonated with you: a number, a claim, or a unsolved limit. What was it, and how did it impact you?{>>{"author":"AI","timestamp":1791094815348}@@AI (strong): "landed on you", "what did it do to you?" and "…are all answers" are typical Claude phrasing. The opening also asserts that something landed instead of asking. Clarity: two questions in this item.<<}
-3\. Having now completed Compute Verification 1 are you now more or less hopeful that a pause could actually be validated?{>>{"author":"AI","timestamp":1791094828216}@@AI (mild): the "Five units in:" lead-in. Clarity: two questions in this item, and "more or less" leaves out "about the same".<<} Which part of the course swayed you most? If nothing changed for you, what missing evidence would move the needle for you?
+3\. Having now completed Compute Verification 1 are you now more or less hopeful that a pause could actually be validated?{>>{"author":"AI","timestamp":1791094828216}@@AI (mild): the "Five units in:" lead-in. Clarity: two questions in this item, and "more or less" leaves out "about the same".<<} Which part of the course swayed you most? If nothing changed for you, what evidence would move the needle for you?
 
 
 | Names | What landed on you + more or less hopeful, and which part did that |
