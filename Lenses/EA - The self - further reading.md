@@ -12,7 +12,7 @@ tags:
 content::
 None of these is required. Each line says what you get from it.
 
-- **Thomas Metzinger, [*The Elephant and the Blind*](https://thomasmetzinger.com/wp-content/uploads/2024/06/Metzinger_MIT_Press_2024-1.pdf)** (MIT Press 2024, free). A book built from more than 500 meditators' reports of "pure awareness". Chapters 25 to 29 cover ego dissolution, nondual experience and the "true self". The leading no-self theorist treats reports of a true self as data.
+- **Thomas Metzinger, [*The Elephant and the Blind*](https://thomasmetzinger.com/wp-content/uploads/2024/06/Metzinger_MIT_Press_2024-1.pdf)** (MIT Press 2024, free). A book built around more than 500 reports by meditators of "pure awareness". Chapters 25 to 29 cover ego dissolution, nondual experience and the "true self". The leading no-self theorist treats reports of a true self as data.
 - **Thomas Metzinger, ["The Ego Tunnel"](https://www.youtube.com/watch?v=ZFjY1fAcESs)** (TEDx talk, 18 minutes). His view of the self-model with the rubber hand and out-of-body examples.
 - **Anil Seth and Manos Tsakiris, ["Being a Beast Machine"](https://osf.io/6snfm_v1/)** (Trends in Cognitive Sciences 2018, accepted manuscript). The technical argument behind Seth's talk: body ownership and emotion as predictions about the body's inside.
 - **Robert Wright and Evan Thompson, ["Why I Am Not a Buddhist"](https://www.nonzero.org/p/why-i-am-not-a-buddhist-robert-wright-5a4)** (2020, about 2 hours 20 minutes). The two disagree about whether science supports the Buddhist view of the self.

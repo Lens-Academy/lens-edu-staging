@@ -1,0 +1,113 @@
+---
+id: '2332b8b0-6122-4f28-9463-0b89245ec6f4'
+title: "Experiments with feelings"
+tldr: "Six ways to test this module's claims on yourself, each with its instructions taken from the source, a measure, and a safety check. Pick one or two to carry into module 8."
+summary_for_tutor: "Experiment cards for module 7, to feed module 8. Each card has a source for the instruction, a dose, a measure and, where relevant, a safety line. (1) Affect labelling: Kircanski et al. 2012's instruction (speak a sentence naming the feeling and its object); caveat that in that study self-reported fear did not change though skin conductance did. (2) Acceptance against reappraisal, alternating weeks (ABAB), with Troy et al. 2018's two instructions, rating distress and difficulty. (3) Stoic judgement practice for a week (Stoic Week 2016 handbook: step back, postpone, three questions, evening note of the judgement). (4) Pain and resistance: Shinzen Young's short pain meditation, rating pain and suffering separately to test S = P x R. (5) Self-compassion break (Kristin Neff, three phrases). (6) Optional extras: RAIN (Tara Brach, on Mindful.org, embedded) and soothing rhythm breathing (Paul Gilbert's handout p. 38, linked: about 3 seconds in, a pause, 3 seconds out). Measures: NAS-7 weekly, recovery time after an upset, a partner's view of sleep, appetite, tension and mood. Safety from Britton et al. 2021 and Pauly et al. 2021. Then two questions: which experiment first and why, and which measure and who checks it. Do not recommend a school; help the learner design a test they will actually run."
+reading_minutes: 15
+tutor_minutes: 8
+tags:
+  - wip
+---
+#### Text
+content::
+Each experiment below takes its instructions from a source you have read. The dose and the measure are our suggestions, built on module 3's single-case designs: rate before and after, keep a baseline, and change one thing at a time. You do not need to run them now. Read them, then pick one or two for module 8.
+
+\## Three measures you can use for any of them
+
+1. **The NAS-7.** Answer the seven non-attachment items from earlier in this module (1 to 6 each) once a week and take the average. It is a self-report, so it is easy to answer the way you wish you were ([Elphinstone, Sahdra and Ciarrochi](https://josephciarrochi.com/wp-content/uploads/2021/12/brief-measure-of-nonattachment.pdf)).
+2. **Recovery time.** After an upset, note roughly how long it took to feel back to normal. Desbordes and colleagues propose a faster return to baseline as the main sign of equanimity ([Desbordes et al. 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4350240/)), and Martin's interviewees reported 2 to 90 seconds for everyday upsets ([Martin](https://nonsymbolic.org/PNSE-Article.pdf)). Not reacting at all is not the goal.
+3. **A partner check.** Once a week, ask someone who lives with you or sees you often whether your sleep, appetite, mood and tension seem normal. These are the signs the partner saw in Martin's dinner observation ([Martin](https://nonsymbolic.org/PNSE-Article.pdf)).
+
+**Safety.** Before and after any practice experiment, ask yourself specifically whether you feel flat, disconnected, anxious or over-stimulated, and whether daily life is harder ([Britton et al. 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8845498/)). Risk is higher with a previous mental disorder, after retreats, and with a tendency to repetitive negative thinking ([Pauly et al. 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8693904/)). If your functioning drops, stop and talk to a doctor or therapist.
+
+#### Callout: 1. Name the feeling (affect labelling)
+collapse:: closed
+#### Text
+content::
+**Claim tested:** putting a feeling into words lowers its grip.
+**Instruction**, from the exposure study you saw in the comparison table (participants afraid of spiders were in front of a tarantula):
+
+#### Article
+source:: [[../articles/kircanski-feelings-into-words-contributions-of-language-to-exposure-therapy]]
+from:: Participants in the affect-labeling group were instructed
+to:: will jump on me").
+
+#### Text
+content::
+**Dose:** whenever a strong feeling comes up, for one to two weeks. Say or write one sentence naming the feeling and what it is about.
+**Measure:** distress 0 to 10 just before and about two minutes after, plus a note of what you did next.
+**Caveat:** in this study, the labelling group's skin conductance dropped more, but their self-reported fear did not ([Kircanski et al. 2012](https://static1.squarespace.com/static/651b09f505bc433349d85ab7/t/651d47e8791e770130934609/1696417769888/Kircanski(2012)PsychSci.pdf)). Your 0 to 10 rating may miss what changes.
+#### End Callout
+
+#### Callout: 2. Accept or reappraise, week by week
+collapse:: closed
+#### Text
+content::
+**Claim tested:** reappraisal lowers a feeling more, acceptance is easier ([Troy et al. 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6188704/)).
+**Instruction:** Troy's two instructions from the first reading of this module, adapted from a film clip to your day. Reappraisal week: "try to think about the situation you see in a more positive light". Acceptance week: "try to experience your feelings fully and do not try to control or change them in any way".
+**Dose:** four weeks, alternating: reappraisal, acceptance, reappraisal, acceptance. Each evening, use that week's instruction on the day's most upsetting moment, or on the moment itself if you remember to.
+**Measure:** distress 0 to 10 before and after, how difficult it was 0 to 10 (Troy asked about difficulty too), and the NAS-7 at the end of each week.
+#### End Callout
+
+#### Callout: 3. The Stoic judgement table
+collapse:: closed
+#### Text
+content::
+**Claim tested:** feelings follow judgements, and correcting the judgement changes the feeling.
+**Instruction:** the Stoic Week practice from earlier in this module. When you notice the early signs of an upsetting feeling, step back ("this is an impression"), postpone acting on it, and later ask the handbook's three questions: is this within my power, what would a wise person do, what strengths do I have to meet it ([Stoic Week 2016 handbook](https://modernstoicism.com/wp-content/uploads/2016/10/Stoic-Week-2016-Handbook-Stoicism-Today.pdf)). Each evening, write down one upset, the judgement it rested on, and how you could judge it differently.
+**Dose:** one week, about 10 minutes a day.
+**Measure:** for each upset, how strong it was at its peak and an hour later, 0 to 10. Compare with a week before you start, rated the same way.
+#### End Callout
+
+#### Callout: 4. Pain and resistance
+collapse:: closed
+#### Text
+content::
+**Claim tested:** suffering is pain multiplied by resistance (S = P x R), so dropping resistance lowers suffering even when pain stays.
+**Instruction:** the "Short Example of How to Meditate on Pain" on page 2 of Shinzen Young's [synopsis](https://www.shinzen.org/wp-content/uploads/2016/12/art_synopsis-pain.pdf). It is written for physical pain. Use it the same way on the body sensations of a difficult feeling, as he says the method allows. In short: pick the area where the sensation is strongest, get a clear sense of its size, shape and borders, watch it closely for small changes, and each time it changes, relax your whole body and mind into it without judging.
+**Dose:** 10 minutes, whenever there is pain or a strong feeling, for one to two weeks.
+**Measure:** rate pain (how strong the sensation is) and suffering (how bad it is to have it) separately, 0 to 10 each, before and after. If S = P x R holds for you, suffering should drop more than pain.
+#### End Callout
+
+#### Callout: 5. The self-compassion break
+collapse:: closed
+#### Text
+content::
+**Claim tested:** meeting a painful moment with kindness reduces distress. The trial evidence and its critics are in the comparison table.
+**Instruction:** Kristin Neff's "Self-Compassion Break" on her site, a short page ([Exercise 2: Self-Compassion Break](https://self-compassion.org/exercises/exercise-2-self-compassion-break/)). Bring a stressful situation to mind and feel it in the body, then say three things to yourself, one for each of her three parts of self-compassion: "This is a moment of suffering" (mindfulness), "Suffering is a part of life" (common humanity), and "May I be kind to myself" (self-kindness), with a hand on your heart if that feels right. The page offers other wordings for each step.
+
+#### Text
+content::
+**Dose:** whenever something painful happens, for one to two weeks.
+**Measure:** distress 0 to 10 before and two minutes after. Neff runs paid trainings ([self-compassion.org](https://self-compassion.org/)).
+#### End Callout
+
+#### Callout: 6. Optional extras: RAIN and soothing rhythm breathing
+collapse:: closed
+#### Text
+content::
+Two more packaged practices. We found no trial of RAIN itself. In our reading, it combines acceptance (its "allow" step) with self-compassion (its "nurture" step). The meditation teacher Tara Brach walks through the four steps on a moment of her own anxiety:
+
+#### Article
+source:: [[../articles/brach-practice-the-rain-meditation]]
+from:: That afternoon in my office, I decided to take a time-out
+to:: rather than quickly jumping back into work.
+
+#### Text
+content::
+Soothing rhythm breathing comes from Paul Gilbert's compassion-focused therapy. Its instructions are in his free client handout, "Exercise 1: Soothing Rhythm Breathing" on page 38: find a slightly slower, deeper breath, about three seconds in and three seconds out, and let it be smooth and even ([Gilbert, compassion handout](https://www.getselfhelp.co.uk/docs/gilbert-compassion-handout.pdf)).
+#### End Callout
+
+#### Question: Open
+id:: 6c1712d4-0bd2-4946-a0cb-641c997ad7af
+content::
+Which experiment would you run first, and which claim from this module do you most want it to test?
+force-feedback:: first
+feedback-instructions:: The learner picks a first experiment from this module (affect labelling, acceptance against reappraisal by week, the Stoic judgement table, pain and resistance with S = P x R, the self-compassion break, RAIN or soothing rhythm breathing) and names the claim it tests. Check that the experiment actually tests the claim they name: for example, the acceptance-reappraisal weeks compare two strategies, the pain and resistance ratings test S = P x R, the Stoic table tests whether correcting a judgement changes a feeling. If it does not fit, say which experiment would. Do not recommend a school. 50 to 100 words. One reply. Tell them module 8 asks them to choose their experiments for the practice part of the course, and this answer is a first draft.
+
+#### Question: Open
+id:: caa3a67c-25c6-45ad-ba84-80443cb8baef
+content::
+How will you know whether it worked? Name your measure, how long you will run it, and who, if anyone, will do the partner check.
+force-feedback:: first
+feedback-instructions:: The learner states the measure, duration and outside check for their first experiment. Check three things against module 3's single-case logic: there is a measure taken before and after (a 0 to 10 rating, recovery time, the NAS-7, or similar); there is a baseline or comparison period; and the duration fits the claim (minutes for a single labelling, weeks for the NAS-7). If one is missing, ask for it in one direct question. If they have no one for the partner check, suggest one alternative from the module, for example keeping a sleep and appetite log, without insisting. If they mention a history of mental illness, retreats or heavy rumination, remind them of the safety line in one sentence. 60 to 110 words. At most two replies.
