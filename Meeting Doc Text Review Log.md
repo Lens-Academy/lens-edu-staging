@@ -137,7 +137,7 @@ Stages 1 to 4 run once per batch of docs. The first batch is next week's three.
 
 | Doc | Runs | Rename | Flags | Rewrite | Review | Accepted |
 |---|---|---|---|---|---|---|
-| AIRF Meeting 5 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | in progress, first pass 2026-10-05 | first round 2026-10-05 | todo |
+| AIRF Meeting 5 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | done for this pass 2026-10-05 | done 2026-10-05 | flag removals pending; 6 flags kept for the full pass |
 | AI Futures Meeting 3 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | todo | todo | todo |
 | CV1 Meeting 5 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | done 2026-10-04 | done 2026-10-04 | flag removals pending |
 | Shared How today works (three variants) and Participant FAQ | with the above | done 2026-10-04 | done 2026-10-03 | todo | todo | todo |
@@ -193,6 +193,9 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 | 2026-10-05 | **Decision: this pass covers the Session Doc tab only** | AIRF Meeting 5 onward | The FAQ, run-sheet and glossary tabs wait for a later pass | Andreas, 2026-10-05 |
 | 2026-10-05 | First rewrite pass on AIRF Meeting 5, including deleting the Room 1 scribe line | meetings/AI Risk Fundamentals/Meeting 5 | Andreas: the line dated from before the back-together format, when participants carried answers into the next room | Edited by Andreas |
 | 2026-10-05 | First review of that pass | meetings/AI Risk Fundamentals/Meeting 5 | Stage 3 | Review in chat. Resolved and their flags removed (pending): Room 1 item 3, "Time to own it", "Verbal primer for the survey", the Navigator claim. Still flagged: the WWII line, the Room 2 block, the rehearsal-audience line, the Room 4 opener, the wrap-up summary line and the "for the person you talked to" list. Found by counting: Room 2 at 121 words and Room 3 at 136, against the 120 limit. Found by checking: the public site calls AI Futures "Advanced Strategy in AI Safety", not the doc's name; intensives run one week, not one unit; the Meeting 5 survey asks about navigating but does not appear to offer the courses the doc says it does |
+| 2026-10-05 | Second rewrite pass on AIRF Meeting 5 | meetings/AI Risk Fundamentals/Meeting 5 | Andreas's response to the first review | Edited by Andreas. Fixed: the WWII line now describes the care countries would need rather than cost, and quotes the book exactly; the Room 3 scribe line matches item 2; AI Futures named as on the public site; intensives described as one week |
+| 2026-10-05 | **Decision: minor flags stay on the page until the full pass** | AIRF Meeting 5 onward | Saves time this week. Flags that do not get in the way of running the meeting wait for the later full pass, rather than being resolved or removed now | Andreas, 2026-10-05 |
+| 2026-10-05 | Second review, and flags updated | meetings/AI Risk Fundamentals/Meeting 5 | Stage 3 | WWII flag removed (pending). One flag added at Andreas's request, on the Room 1 opener: "three things" against a conditional item 3, and "last meeting" against "last unit" (direct). Kept for the full pass: the Room 2 block, the rehearsal-audience line, the Room 4 opener, and the two wrap-up flags |
 
 ---
 
