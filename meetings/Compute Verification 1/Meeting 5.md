@@ -18,7 +18,7 @@ source:: [[../shared/Session Doc - How today works]]
 Go around your group:
 1\. How was working through this unit's content? Denser or easier than the previous units? Did you finish, and if not, what stopped you? (No judgment, "I didn't finish" is a fine answer.){>>{"author":"AI","timestamp":1791094814456}@@Clarity (recurring): four questions in one item. AI (mild, recurring): stock reassurance.<<}
 2\. Something in this unit landed on you: a number, a claim, a limit nobody has solved yet. What was it, and what did it do to you? Hope, unease, irritation and relief are all answers.{>>{"author":"AI","timestamp":1791094815348}@@AI (strong): "landed on you", "what did it do to you?" and "…are all answers" are typical Claude phrasing. The opening also asserts that something landed instead of asking. Clarity: two questions in this item.<<}
-3\. Having now completed Compute Verification 1 are you more or less hopeful that a pause could actually be checked?{>>{"author":"AI","timestamp":1791094828216}@@AI (mild): the "Five units in:" lead-in. Clarity: two questions in this item, and "more or less" leaves out "about the same".<<} Which part of the course did that?
+3\. Having now completed Compute Verification 1 are you more or less hopeful that a pause could actually be validated?{>>{"author":"AI","timestamp":1791094828216}@@AI (mild): the "Five units in:" lead-in. Clarity: two questions in this item, and "more or less" leaves out "about the same".<<} Which part of the course did that?
 
 
 | Names | What landed on you + more or less hopeful, and which part did that |
