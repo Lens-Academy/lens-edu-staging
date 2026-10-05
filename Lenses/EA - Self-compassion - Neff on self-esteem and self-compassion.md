@@ -22,7 +22,7 @@ tone:: amber
 #### Text
 content::
 - **The "epidemic of narcissism".** Whether narcissism rose among US students has been argued over for years. A 2025 analysis of student scores on the Narcissistic Personality Inventory from 1982 to 2023 found a small decline over that period ([Oberleiter et al. 2025](https://onlinelibrary.wiley.com/doi/10.1111/jopy.12982)).
-- **The "reptilian brain".** The idea that the brain has a reptile layer with a mammal layer on top is rejected by neuroscientists who study brain evolution ([Cesario, Johnson and Eisthen 2020](https://journals.sagepub.com/doi/10.1177/0963721420917687)). Her underlying claim, that self-criticism works like a threat and kindness calms it, comes from Paul Gilbert's model, which you read two pages from now.
+- **The "reptilian brain".** The idea that the brain has a reptile layer with a mammal layer on top is rejected by neuroscientists who study brain evolution ([Cesario, Johnson and Eisthen 2020](https://journals.sagepub.com/doi/10.1177/0963721420917687)). Her underlying claim, that self-criticism works like a threat and kindness calms it, does not depend on that layer picture. It is also the centre of Paul Gilbert's model, which you read two pages from now.
 
 Her statement that research supports all of this "unequivocally" is checked in the evidence page of this module.
 #### End Callout
