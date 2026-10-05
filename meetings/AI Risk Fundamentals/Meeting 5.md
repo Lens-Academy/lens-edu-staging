@@ -54,7 +54,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Then, as a group, discuss this question and **write your shared response** in the table:{--{"author":"Andreas's AI","timestamp":1791183872200}@@{>>{"author":"AI","timestamp":1791094717802}@@AI (mild, recurring): template boilerplate. It also opens with "Then" straight after "Names first, then straight in."<<}--}
+As a group, discuss this question and **write your shared response** in the table:{--{"author":"Andreas's AI","timestamp":1791183872200}@@{>>{"author":"AI","timestamp":1791094717802}@@AI (mild, recurring): template boilerplate. It also opens with "Then" straight after "Names first, then straight in."<<}--}
 
 
 > **Would you sign it?**
