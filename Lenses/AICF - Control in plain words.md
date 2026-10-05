@@ -108,12 +108,16 @@ explanation:: It says the model could not act alone even if it wanted to. Whethe
 feedback-instructions:: One or two sentences. Say whether the choice was right, and why: the claim is that the model cannot act alone whatever it wants, so it is a control claim. If it fits, add that whether a human reviewer would really catch a sneaky change is exactly what a control evaluation would test. No generic praise.
 #### End Callout
 
+#### Callout: Optional: how control protocols work, and control in practice
+collapse:: closed
 #### Article
+optional:: true
 source:: [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agents]]
 from:: #### Novel AI Control Protocols
 to:: **Human escalation:** The issue can be flagged for human review.
 
 #### Question: Open
+optional:: true
 id:: bae488e6-ba89-47ad-b4cb-45d1559c51fb
 content:: An untrusted model reviews the code that another copy of it writes and flags anything dangerous. Design a honeypot to check whether this reviewer is honest. What would you show it, what must that look like, and what would its answer tell you?
 assessment-instructions:: Score out of 100. 30: what to show it: code that you know is dangerous (for example, code with a backdoor you planted yourself), presented to the reviewer as if it were normal work. 40: what it must look like: just like real code from the other copy, so the reviewer cannot tell the honeypot from real work. If it could tell, a dishonest reviewer would flag the honeypots and stay quiet on real attacks, and the test would show nothing. 30: what the answer tells you: if the reviewer rates the known-dangerous code as safe, it is lying, so it is colluding with the agent it reviews (and you should stop relying on it, or shut it down). If it flags it, that is some evidence it is honest. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "I would write code with a backdoor in it myself and slip it into the reviewer's queue as if the other copy had written it. It has to look exactly like real work, or a lying reviewer would flag only the fakes and let real attacks through. If the reviewer calls my backdoored code safe, I know it is covering for the other copy and I cannot trust it."
@@ -121,11 +125,13 @@ force-feedback:: first
 feedback-instructions:: The learner just read part of CSET's explainer on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the paragraph that explains it (the bullet on untrusted monitoring). No follow-up question. No generic praise.
 
 #### Article
+optional:: true
 source:: [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agents]]
 from:: Other works describe chain of thought monitoring
 to:: which can deter attempts at deceptive or harmful behavior.
 
 #### Question: Open
+optional:: true
 id:: 06d03f1a-e845-46e8-a04e-b59c3377a66d
 content:: Pick a task an AI company might give an AI agent, and say how you would split it using factored cognition. What does the untrusted agent get to see, what does it not see, and why does that make an attack harder?
 assessment-instructions:: Score out of 100. 30: a concrete task and a split in which the trusted model does as much as it can and the untrusted agent gets only the subtask that needs its greater ability. 30: what the untrusted agent does not see (the full task, what its part is for, where its output goes, or whether it is being tested). 40: why that makes an attack harder: without the full context it is hard for the agent to work out how to cause harm with its piece or to coordinate a plan, and it cannot tell whether it is in a monitored test or real deployment, so attacking is risky for it. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Task: write code for a new data pipeline. The trusted model plans the pipeline and writes the easy parts. It hands the untrusted agent only one hard function, with its inputs and outputs, and not what the pipeline is for or what systems it touches. The agent cannot tell where a backdoor would do any damage, and it cannot tell whether this is a real task or a test, so trying to attack is a gamble."
@@ -133,16 +139,19 @@ force-feedback:: first
 feedback-instructions:: The learner just read part of CSET's explainer on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the paragraph that explains it (the paragraph on factored cognition). No follow-up question. No generic praise.
 
 #### Article
+optional:: true
 source:: [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agents]]
 from:: #### Building Blocks for Risk Management
 to:: as the field evolves.
 
 #### Question: Open
+optional:: true
 id:: 312e3860-9cc6-4424-8c59-0c24894a50ae
 content:: Give one reason the authors say AI companies might not use control, even though they have the resources. Then say why control might get harder as AI agents become more capable.
 assessment-instructions:: Score out of 100. 50: one reason companies might not use it: control adds friction to day-to-day research work, slows the agents down or uses scarce human oversight, and costs compute, and in a race where compute is precious and companies compete for the next breakthrough, any extra cost is hard to justify. 50: why it might get harder: many protocols rely on weaker trusted models overseeing stronger untrusted ones, and the gap grows as agents get more capable, because it is harder to verify that a more capable model can be trusted. Also full credit: very capable agents may get past protocols with advanced hacking or strategy skills, or it gets hard to tell when protocols stop working because control evaluations rely on human red teams. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Control slows the work down and costs compute, and in a race for the next breakthrough that cost is hard to justify. It may get harder because protocols rely on weaker trusted models watching stronger untrusted ones, and as agents get more capable, the gap grows and it gets harder to find models you can trust. Human red teams may also stop being able to tell whether the protocols still hold."
 force-feedback:: first
 feedback-instructions:: The learner just read part of CSET's explainer on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the paragraph that explains it ("Implementing AI Control in the Real World" and "Keeping Up with Future AI Agents"). No follow-up question. No generic praise.
+#### End Callout
 
 #### Text
 content::
