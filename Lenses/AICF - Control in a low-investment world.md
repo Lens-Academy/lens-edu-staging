@@ -12,10 +12,10 @@ tags:
 content::
 Buck Shlegeris is [CEO of Redwood Research](https://80000hours.org/podcast/episodes/buck-shlegeris-ai-control-scheming/), the research organisation behind much of the control work you read in Unit 1. In this part of an 80,000 Hours podcast interview from April 2025, Rob Wiblin asks him why control became a priority only recently. Notice what he assumes about how much AI companies and governments will do.
 
-#### Article
-source:: [[../articles/wiblin-buck-shlegeris-on-controlling-ai-that-wants-to-take-over-so-we-can-use-it-anyway]]
-from:: "### Why is AI control hot now?"
-to:: "kind of the big-picture perspective."
+#### Video
+source:: [[../video_transcripts/80-000-hours-controlling-ai-that-wants-to-take-over-so-we-can-use-it-anyway-buck-shlegeris]]
+from:: 5:46.0
+to:: 6:27.0
 
 #### Article
 from:: "But now that we’re coming up such that"

@@ -83,10 +83,10 @@ to:: if our own actions foreseeably created the conflict in the first place.
 content::
 In a 2025 interview, Rob Wiblin of 80,000 Hours asked Buck Shlegeris, who works on control, whether controlling AIs is "a bit of a dick move". You heard part of this interview in Unit 3.
 
-#### Article
-source:: [[../articles/wiblin-buck-shlegeris-on-controlling-ai-that-wants-to-take-over-so-we-can-use-it-anyway]]
-from:: Slightly different angle: Talking about controlling AIs
-to:: But it’s also not the biggest catastrophe in the universe that is possible.
+#### Video
+source:: [[../video_transcripts/80-000-hours-controlling-ai-that-wants-to-take-over-so-we-can-use-it-anyway-buck-shlegeris]]
+from:: 1:38:51.0
+to:: 1:42:37.5
 
 #### Question: Open
 id:: cff69c7e-efa7-466c-9182-fa2c44045d8f

@@ -15,10 +15,10 @@ glossary_terms:
 content::
 Back to the 80,000 Hours interview with Buck Shlegeris. Companies already have to deal with spies among their own staff. Shlegeris compares that problem with guarding against AIs that might be scheming, then describes how a lab could catch an AI in the act. After that, a short guide from the UK AI Security Institute gives the standard names for the parts of a control set-up.
 
-#### Article
-source:: [[../articles/wiblin-buck-shlegeris-on-controlling-ai-that-wants-to-take-over-so-we-can-use-it-anyway]]
-from:: **Rob Wiblin:** At a high level, what are the advantages and disadvantages
-to:: Whereas that doesn’t help you if you’re Google, if you find that one of your employees is, it’s like all of the other employees are just totally unrelated.
+#### Video
+source:: [[../video_transcripts/80-000-hours-controlling-ai-that-wants-to-take-over-so-we-can-use-it-anyway-buck-shlegeris]]
+from:: 11:46.2
+to:: 15:41.4
 
 #### Question: Open
 id:: 1b29faca-e6bb-4697-a03c-d208401af85b
@@ -27,9 +27,9 @@ assessment-instructions:: Score out of 100. 35: the harder way: copies of one AI
 force-feedback:: first
 feedback-instructions:: In at most five sentences: say what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer in your own words. Harder: copies of one model are correlated, so a second copy is no independent reviewer. Easier: the lab controls the AI's inputs and outputs, so it can test it with fake opportunities many times, and one catch tells it about every copy. If the learner is stuck, point them to Shlegeris's sentence that spies "get to go home". No follow-up questions. Tell them to move on.
 
-#### Article
-from:: The basic strategy is basically the same as how do we get to the point where
-to:: they have to be able to do this kind of auditing process.
+#### Video
+from:: 19:03.2
+to:: 22:01.7
 
 #### Question: Open
 id:: f2710255-9947-4acf-8075-487068e4de5b
