@@ -16,7 +16,7 @@ Psychologists use **emotion regulation** for the ways "individuals influence whi
 - **Acceptance**: engaging with your feelings and accepting them without judging them or trying to change them ([Troy et al. 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6188704/)). Researchers treat it as one of the two skills that mindfulness training teaches, next to watching your experience ([Lindsay et al. 2019](https://static1.squarespace.com/static/5b352f70b105987a3c71d3d1/t/5c6b402ee4966b1492b279ac/1550532654929/Lindsay+et+al+acceptance+loneliness+PNAS+2019.pdf)).
 - **Suppression**: hiding the feeling from others, or trying not to feel it or think about its cause. Experiments test all three kinds separately ([Webb, Miles and Sheeran 2012](https://pubmed.ncbi.nlm.nih.gov/22582737/)).
 
-Keep the moment you described on the last page in mind while you read. Which of the three, if any, did you do?
+Keep the moment you described on the last page in mind while you read.
 
 The first reading is the only study we found that compares reappraisal and acceptance head to head in the same people. Read the abstract. Its first sentence, not shown, says both strategies are associated with better psychological health over time.
 
