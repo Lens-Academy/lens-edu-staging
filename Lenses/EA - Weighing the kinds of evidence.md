@@ -2,7 +2,7 @@
 id: 'e2a90af9-ac73-4544-8421-53d56513c93e'
 title: "Weighing the kinds of evidence"
 tldr: "Every kind of evidence has its own blind spot. Trials can show average effects but not your effect, reports can show what an experience is like but not that it is accurate, stories can suggest what to test but not prove it. Ask of each claim which kind of evidence it rests on and what that kind cannot see."
-summary_for_tutor: "Summary lens of the first half of module 3. A table of six kinds of evidence (randomised trials and meta-analyses, observational studies, first-person reports, independent traditions that agree, testimonials, your own test), each with what it can show, what it cannot show, how it typically misleads, and an example from modules 2 and 3, all linked. Then the learner applies the table to Martin's study of persistent non-symbolic experience (PNSE), which module 2 promised module 3 would weigh: 50 volunteers who described themselves as having PNSE, all white, 78% male, almost all self-report, researcher also runs a course aimed at the state. Practice, not graded. The module test follows."
+summary_for_tutor: "Summary lens of the first half of module 3. A table of six kinds of evidence (randomised trials and meta-analyses, observational studies, first-person reports, independent traditions that agree, testimonials, your own test), each with what it can show, what it cannot show, how it typically misleads, and an example from modules 2 and 3, all linked. Then the learner applies the table to Martin's study of persistent non-symbolic experience (PNSE), which module 2 promised module 3 would weigh: 50 volunteers who described themselves as having PNSE, all white, 78% male, mostly interviews with a few observer checks, researcher also runs a course aimed at the state. Four short practice questions: which kinds of evidence, what it can show that nothing else could, what it cannot show, what would strengthen it. Not graded. The module test follows."
 reading_minutes: 8
 tutor_minutes: 8
 tags:
@@ -28,7 +28,7 @@ We think no row is useless and no row is enough. A claim is stronger when kinds 
 #### Question: Open
 id:: 4a8ca4d5-3760-4d15-8752-e535a74fd5e2
 content::
-In module 2 you read Jeffery Martin's study of **persistent non-symbolic experience** (PNSE), his term for a lasting change in the sense of self that he elsewhere calls fundamental wellbeing. That page said this module would come back to how to weigh it. The facts: 50 interviewees who volunteered and described themselves as having PNSE, all white and 78% male. The evidence is mostly what they said in interviews, with a few checks such as the observations by partners you read in "Reports from the inside". Martin also runs a course that aims to bring people into this state.
+In module 2 you read Jeffery Martin's study of **persistent non-symbolic experience** (PNSE), his term for a lasting change in the sense of self that he elsewhere calls fundamental wellbeing. That page said this module would come back to how to weigh it. The facts: 50 interviewees who volunteered and described themselves as having PNSE, all white and 78% male. The evidence is mostly what they said in interviews, with a few checks such as the girlfriend's observations you read in "Reports from the inside". Martin also runs a course that aims to bring people into this state.
 
 Martin's interviewees report an ongoing deep peace that does not depend on circumstances. Using the table, which kinds of evidence does this claim rest on?
 force-feedback:: first
