@@ -20,22 +20,36 @@ assessment-instructions:: The case: Mara trains for a marathon. She signed up af
 The distinction being tested: craving (tanha) is wanting focused on the result of an action: wanting to get, to be, to become, or to get rid of something, and it brings frustration when the result does not come. Wholesome desire (chanda) is wanting focused on the action itself, wanting to do it, with interest in the doing.
 
 Score out of 100.
-50: identifies as craving the wanting tied to results, such as hitting her pace, finishing, approval or likes, or avoiding embarrassment, and gives a reason that fits the distinction (it is about getting a result or being seen a certain way, or her mood depends on the outcome).
-50: identifies as wholesome desire the absorbed interest in running itself on some mornings, and gives a reason that fits (it is about the doing, not the result).
-The learner may use the Pali terms or plain words. Cap the score at 40 if the answer says that all of Mara's wanting is craving simply because she wants something, since that misses that one kind of desire is treated as wholesome.
-feedback-instructions:: The learner classified the parts of Mara's wanting as craving (result-focused: pace, finishing, approval, avoiding embarrassment) or wholesome desire (interest in the run itself). Say in one sentence what they got right. Below 100, name the one thing the answer missed or got wrong, for example treating all desire as craving, or not saying what in the description shows the result-focus. 60 to 100 words. No generic praise.
+50: names as closer to craving at least one part of her wanting that is tied to a result: hitting her pace, finishing, approval or likes, or avoiding embarrassment.
+50: gives a reason from the description that fits the distinction: the wanting is about getting a result or being seen a certain way rather than about the running itself, or her mood depends on whether the result comes (she feels low when slower than planned).
+The learner may use the Pali terms or plain words. Cap the score at 40 if the answer also calls her absorbed running on some mornings craving, simply because she wants something.
+feedback-instructions:: The learner named the part of Mara's wanting that is closer to craving: the result-focused part (pace, finishing, approval, avoiding embarrassment), shown by her low mood when the result does not come. Say in one sentence what they got right. Below 100, name the one thing the answer missed or got wrong, for example calling all her wanting craving, or not saying what in the description shows the focus on results. 60 to 100 words. No generic praise.
+
+#### Question: Open
+id:: 61245323-cc4b-4235-a3ec-0bca968f4ec2
+content:: Which part of Mara's wanting is closer to wholesome desire? Say what in the description tells you.
+assessment-instructions:: The case: Mara trains for a marathon. She signed up after a friend's post about a marathon got many likes. On most runs she watches her pace and feels low for the rest of the day when slower than planned. She would be embarrassed to drop out now that everyone knows. On some mornings she gets absorbed in the run itself (cold air, rhythm) and forgets the watch.
+
+The distinction being tested: craving (tanha) is wanting focused on the result of an action. Wholesome desire (chanda) is wanting focused on the action itself, wanting to do it, with interest in the doing.
+
+Score out of 100.
+50: names her absorbed interest in the running itself on some mornings as closer to wholesome desire.
+50: gives a reason from the description that fits: on those mornings her attention is on the doing (the cold air, the rhythm), not on a result, for example she forgets to look at the watch.
+The learner may use the Pali terms or plain words. Cap the score at 40 if the answer says none of Mara's wanting can be wholesome because all desire is craving.
+feedback-instructions:: The learner named the part of Mara's wanting that is closer to wholesome desire: her absorption in the run itself on some mornings, shown by her attention to the cold air and the rhythm and by forgetting the watch. Say in one sentence what they got right. Below 100, name the one thing the answer missed or got wrong. 50 to 90 words. No generic praise.
 
 #### Question: Open
 id:: bf095d69-68c7-4b94-b993-ed1bdc336b7f
-content:: Take two of Mara's reasons for running. Place each on the continuum of motivation that runs from external regulation to intrinsic motivation, and say why it belongs there.
+content:: Mara says she would be embarrassed to drop out now that everyone knows she signed up. Where does this reason belong on the continuum of motivation that runs from external regulation to intrinsic motivation? Say why.
 assessment-instructions:: The case: Mara trains for a marathon. She signed up after a friend's post about a marathon got many likes. On most runs she watches her pace and feels low when slower than planned. She would be embarrassed to drop out now that everyone knows. On some mornings she gets absorbed in the run itself (cold air, rhythm) and forgets the watch.
 
 The continuum, from least to most autonomous: external regulation (acting for a reward or to meet a demand from others), introjected regulation (acting to avoid guilt, shame or anxiety, or for pride and self-worth), identified regulation (acting because one consciously values the goal as personally important), integrated regulation (the value fits with one's other values and needs), intrinsic motivation (doing it for its inherent enjoyment). External and introjected count as controlled. Identified, integrated and intrinsic count as autonomous.
 
-Score out of 100. 50 for each of two reasons that is correctly placed with a fitting explanation (25 for a correct placement with no explanation or a wrong one).
-Correct placements from the case: avoiding embarrassment at dropping out is introjected. Signing up for the likes and approval is external or introjected (accept either with a fitting reason: external if it is about getting approval from others, introjected if it is about her own pride or self-image). Getting absorbed in the run for its own sake is intrinsic. If the learner places a reason the case does not give (for example, valuing her health), give at most 25 for that element unless it is clearly marked as an assumption and correctly placed.
-A placement of the embarrassment reason as identified or intrinsic, or of the absorbed running as external or introjected, earns 0 for that element.
-feedback-instructions:: The learner placed two of Mara's reasons on the continuum from external to intrinsic motivation. Reference: avoiding embarrassment is introjected. Signing up for likes and approval is external or introjected. Absorption in the run is intrinsic. Confirm or correct each placement in one sentence. Below 100, name the most important fix, often confusing introjected (avoiding guilt or shame) with identified (valuing the goal). 60 to 100 words. No generic praise.
+Score out of 100.
+50: places the reason at introjected regulation, by name or by describing that level (acting to avoid shame, guilt or anxiety, a pressure she puts on herself).
+50: says why: she keeps running to avoid a bad feeling about herself (embarrassment, loss of face), not for a reward or a demand someone else makes, and not because she values the running or enjoys it.
+If the answer places it at external regulation, give 25 in total when the reason correctly says it is pressure rather than valuing or enjoyment: the pressure is real, but nobody demands or rewards anything, the shame is hers. If it places it at identified, integrated or intrinsic, give 0.
+feedback-instructions:: The learner placed Mara's reason "I would be embarrassed to drop out" on the continuum from external regulation to intrinsic motivation. Reference: it is introjected regulation, controlled motivation from inside, acting to avoid shame. Confirm or correct the placement in one sentence. Below 100, name the most important fix: often confusing introjected (avoiding shame or guilt she feels herself) with external (a reward or demand from others), or with identified (valuing the goal). 60 to 100 words. No generic praise.
 
 #### Question: Open
 id:: 77b0a974-5ea0-4da5-91b3-0335d9770131
