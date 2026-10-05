@@ -47,6 +47,7 @@ One or two people share what their group landed on.
 
 Which of these two scenarios does your catastrophe more closely resemble? And if you had to wok on only one of them, which would you choose and why?{>>{"author":"AI","timestamp":1791094780707}@@Clarity: two more unnumbered asks, so the room carries five or six questions against the four-question limit. "Which of those two" also assumes a story fits only one.<<}
 
+
 | Names | Could one person have stopped it, what would it cost them, and which of the two problems is yours. |
 |------|------------------------|
 |  |  |
