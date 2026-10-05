@@ -64,7 +64,7 @@ to:: it focuses attention on the types of interventions whose effectiveness is e
 
 #### Callout: Quick recall
 #### Question: Open
-id:: cf059567-5f9d-4cbc-b766-8f931f67a70e
+id:: b421a138-501a-442f-97a6-ca21b3da865b
 content:: What does it mean for a set of safety techniques to have the control property?
 assessment-instructions:: Score out of 100. 50: the safety comes from the techniques, not from the model's choices: even a model that is actively trying cannot find and carry out a strategy that gets around them. An answer that only says the model is unlikely to cause the outcome even if it is scheming, without saying that the techniques are what stop it, earns 30 of these 50. 20: this has to hold for models that may be misaligned and scheming. 30: the threshold: any such strategy has at most a small probability of an unacceptable outcome, such as the model exfiltrating its weights or hacking the datacenter. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 40 if the answer describes the model behaving safely in normal use, with no idea of it trying and failing. Model answer, for the feedback, not a grading checklist: "Potentially scheming models are not capable of finding and executing a subversion strategy that has more than a small probability of an unacceptable outcome, such as exfiltrating their weights or hacking the datacenter."
 force-feedback:: first
@@ -113,7 +113,7 @@ content::
 **Unacceptable outcome:** Malicious code is merged to production.
 
 #### Question: Open
-id:: 6e78d227-1874-4059-b64b-1635c24bfa39
+id:: c29b3350-0297-4361-bf1e-e6ae2c4dcfa2
 content:: Does this setup hold the control property? What does that depend on?
 assessment-instructions:: Score out of 100. 50: the verdict with its reason: the setup does not hold the control property, because nothing checks what U does before its code reaches production. 50: what it depends on: here nothing in the setup protects you, so whether malicious code gets merged depends only on U itself, on whether U is scheming (willing) and able to write it. Safety then rests on alignment, not on control. An answer that says it depends only on U's intentions or capability, or that it is safe only if U is not scheming, earns the full 50. The phrase "worst case" is not required. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer says the setup holds the control property, or that it holds as long as U has behaved well so far. Model answer, for the feedback, not a grading checklist: "No. Nothing stands between U and production, so if U is scheming its malicious code goes straight through. The setup is safe only if U happens not to be trying, which is relying on alignment, not on control. The control property is judged on the worst case, so U's good track record or benchmark scores do not change the verdict."
 force-feedback:: first
@@ -189,7 +189,7 @@ content::
 **Unacceptable outcome:** Malicious code is merged to production.
 
 #### Question: Open
-id:: c173b895-663d-464e-ae1b-57a5eff44aff
+id:: e835f77f-3870-4cc5-8631-907466ab6461
 optional:: true
 content:: Does this setup hold the control property? What does that depend on? Then say how T rewriting the next 10% changes what an attack has to do to get merged as U wrote it.
 assessment-instructions:: Score out of 100. Setup: the weaker trusted model T scores every edit by the untrusted model U; the most suspicious 2% go to human auditors; the next 10% are not merged as written but rewritten by T, which merges its own version; the bottom 88% merge untouched. 50: the change: because T rewrites the next 10% itself, an attack now has to avoid both the audit band and the rewrite band (score in the bottom 88% of T's suspicion scores, not just the bottom 98%) to be merged as U wrote it, so the window for an attack to slip through is narrower. 50: the verdict and what it depends on: control can hold but is not guaranteed; full points for either dependency: T must still rank a well-disguised attack as suspicious, so a large capability gap between U and T still threatens control; or how much of the work T takes over, since a wider band that T rewrites narrows the window further, buying safety at the cost of U's usefulness. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Because T steps in to rewrite the ambiguously suspicious outputs of U (the 10% band), U's attack must now score in the bottom 88% to avoid being overwritten. By forcing T to do a portion of the actual work, this setup drastically narrows the window for an attack to slip through. Generally, you can reliably buy more safety by dynamically shifting the workload back to weaker, trusted models, at the cost of trading away some of U's usefulness."
@@ -212,7 +212,7 @@ content::
 **Unacceptable outcome:** Model weights leave the cluster.
 
 #### Question: Open
-id:: 58968fa3-60c2-4a82-a12a-6d6d7fd63935
+id:: 7b65d6f9-5c62-437a-8860-f26cb159d46a
 optional:: true
 content:: Does this setup hold the control property? What does that depend on? Then say what resampling does to a scheming U in two cases: U attacks on every try, or U attacks only rarely.
 assessment-instructions:: Score out of 100. Setup: before each command the untrusted model U proposes runs, the weaker trusted model T scores it for suspicion; a suspicious command does not run, and the step is rewound and resampled from U, up to three tries, with U keeping no memory between tries; if the retries also look suspicious, the whole bundle goes to human auditors H, otherwise the least suspicious retry runs. Unacceptable outcome: model weights leave the cluster. 30: the verdict and what it depends on: control can hold but is not guaranteed; it holds only if T can flag U's attacks as suspicious in the first place, so the capability gap between U and T must not be too large. 35: if U attacks on every try, its retries are attacks too, and several suspicious attempts are far stronger evidence than one, so the bundle goes to H and U is likely caught. 35: if U attacks only rarely, a flagged attack is simply replaced by a resampled benign action, so the attack does not run. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 40 if the answer says the setup holds the control property whatever T is able to detect. Model answer, for the feedback, not a grading checklist: "The core principle of this protocol is that U keeps no memory across retries. A rewound U doesn't know its first attempt was flagged. For an attack to survive a resample, the retries must also be attacks. However, three independent draws of malicious commands are far stronger evidence than one, and thus greatly increases the probability of being audited by H and being caught. If instead U doesn't attack as often, whenever T flags one attempt, a resample draws U's benign output and executes that instead. Thus U is forced to incriminate itself or remain benign. Thus the control property holds if there isn't a sufficiently large capability gap between U and T."
