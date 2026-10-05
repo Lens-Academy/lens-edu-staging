@@ -80,7 +80,11 @@ Each entry gives the decision, who made it, the reason, and what it commits us t
 
 **Flag only what fails a named check.** *Proposed by Claude, 2026-10-03. Not yet confirmed.* Unflagged text stays as it is. In the AI Futures course-page rewrite, the first bulk rewrite changed meanings, so the smallest change that fixes a problem is the safer one. The checks: can a participant act on it after one read; is there one question per item; does it state its point plainly; would a navigator say it out loud like this; does it rely on something the doc does not give; would anything be lost if it were cut; does it match the rest of the doc.
 
-**Exercise reminders.** *Proposed by Claude, 2026-10-03. Not yet confirmed.* When a prompt builds on something participants did alone in the unit, it says in one line what that was and gives people who skipped it a way in. AI Futures Meeting 3, Room 1 is the model, and Room 3, item 3 is the counterexample.
+**Exercise reminders.** *Proposed by Claude, 2026-10-03. Not yet confirmed.* When a prompt builds on something participants did alone in the unit, it says in one line what that was and gives people who skipped it a way in. AI Futures Meeting 3, Room 1 is the model, and Room 3, item 3 is the counterexample. The guide's rule 7 already says a prompt never depends on optional written work; the proposal adds the one-line reminder as the way to meet it.
+
+**A written style sheet.** *Proposed by Claude, 2026-10-03. Drafted 2026-10-04 after Andreas raised it again. Awaiting his review.* Without a written standard, a flag is only Claude's opinion. [[Meeting Doc Text Review - Style Sheet]] gives each habit and check a name a flag can cite, gathers the guide's rules, Andreas's working preferences and Luc's labels in one place, and says what to leave alone. It names the move for each habit, never replacement wording, in keeping with the decision above. Commits us to: flags from the next batch cite an entry, and changes to the sheet are logged here.
+
+**Edits are credited to Andreas.** *Andreas, 2026-10-04.* Relay sessions open under his name, and both files carry `Andreas+Claude`, as the AIRF and CV1 files do. Edits made before 2026-10-04 show unattributed; the relay cannot change that after an edit has landed.
 
 **Scope within a doc is what participants read.** *Claude's working assumption, 2026-10-03. Not yet confirmed.* That means the Session Doc tab and the Participant FAQ. The navigator run-sheet, pro-tips and glossary are not reviewed in this pass.
 
@@ -100,11 +104,11 @@ Stages 1 to 4 run once per batch of docs. The first batch is next week's three.
 
 **Stage 0. Survey.** Done 2026-10-03. See section 1.
 
-**Stage 1. Flag.** Claude adds comments to the Session Doc tab and FAQ of each doc in the batch, and to the shared blocks those docs include, then validates with drafts applied.
+**Stage 1. Flag.** Claude adds comments to the Session Doc tab and FAQ of each doc in the batch, and to the shared blocks those docs include, each citing the style sheet entry the passage fails. Then Claude validates with drafts applied.
 
-**Stage 2. Rewrite.** By hand, by a person. Recurring lines are written once and reused: the "course ends today" closer, the Tutor help note, the "No judgment" reassurance, the Room 2 opener and "Verbal primer for the survey!". Content flags go to whoever owns that content. A flag's comment comes out once its passage is rewritten or deliberately kept.
+**Stage 2. Rewrite.** By hand, by Andreas, against the style sheet. Recurring lines are written once and reused: the "course ends today" closer, the Tutor help note, the "No judgment" reassurance, the Room 2 opener and "Verbal primer for the survey!". Content flags go to whoever owns that content. A flag's comment comes out once its passage is rewritten or deliberately kept.
 
-**Stage 3. Review.** Claude checks each rewrite for:
+**Stage 3. Review.** Claude checks each rewrite against the style sheet, and for:
 
 - meaning drift against the original;
 - claims and numbers against the source reading;
@@ -113,7 +117,7 @@ Stages 1 to 4 run once per batch of docs. The first batch is next week's three.
 - a cold read of the Session Doc tab on its own, as in the guide's third check;
 - the validator, with drafts applied.
 
-**Stage 4. Accept.** The project owner accepts suggestions before the batch's docs are created. Anything accepted later means patching the live copies.
+**Stage 4. Accept.** Andreas accepts suggestions before the batch's docs are created. Anything accepted later means patching the live copies.
 
 **Stage 5. Next batch.** The remaining twelve docs, in the order cohorts reach them, including the Tutor rename in their inline mentions.
 
@@ -125,11 +129,11 @@ Stages 1 to 4 run once per batch of docs. The first batch is next week's three.
 
 | Doc | Runs | Rename | Flags | Rewrite | Review | Accepted |
 |---|---|---|---|---|---|---|
-| AIRF Meeting 5 | week of 2026-10-05 | pending | done 2026-10-03 | todo | todo | todo |
-| AI Futures Meeting 3 | week of 2026-10-05 | pending | done 2026-10-03 | todo | todo | todo |
-| CV1 Meeting 5 | week of 2026-10-05 | pending | done 2026-10-03 | todo | todo | todo |
-| Shared How today works (three variants) and Participant FAQ | with the above | pending | done 2026-10-03 | todo | todo | todo |
-| Master template | n/a | pending | not flagged | n/a | n/a | todo |
+| AIRF Meeting 5 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | todo | todo | todo |
+| AI Futures Meeting 3 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | todo | todo | todo |
+| CV1 Meeting 5 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | todo | todo | todo |
+| Shared How today works (three variants) and Participant FAQ | with the above | done 2026-10-04 | done 2026-10-03 | todo | todo | todo |
+| Master template | n/a | done 2026-10-04 | not flagged | n/a | n/a | n/a |
 | AIRF Meetings 1 to 4 | later | todo | todo | todo | todo | todo |
 | AI Futures Meetings 1, 2, 4 and 5 | later | todo | todo | todo | todo | todo |
 | CV1 Meetings 1 to 4 | later | todo | todo | todo | todo | todo |
@@ -162,7 +166,10 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 | 2026-10-03 | Checked four claims against their sources while flagging | AIRF Meeting 5, AI Futures Meeting 3, CV1 Meeting 5 | A flag that calls something wrong needs a source | Log only. The WWII quote is wrong and the capstone description does not match its course file (section 7). The AI Futures Room 2 readings and the CV1 Room 2 quote match their lenses |
 | 2026-10-03 | Validator run with drafts applied, scoped to the three courses | All three courses | Check that the comments and suggestions break nothing | No meeting-doc errors. The remaining errors predate this work |
 | 2026-10-03 | Created this file | This file | Record which other courses the shared files reach | Direct, new file |
-| 2026-10-04 | Rebuilt this file as a plan and log | This file | The project owner asked for the reasons behind the changes, not only a record of them, in a plan visible for posterity | Direct |
+| 2026-10-04 | Rebuilt this file as a plan and log | This file | Andreas asked for the reasons behind the changes, not only a record of them, in a plan visible for posterity | Direct |
+| 2026-10-04 | Rename suggestions accepted | The three docs, the three shared How today works blocks, the shared Participant FAQ, the Master template | Coach was merged into Tutor | Accepted by Andreas. A search afterwards finds no "Coach" left in those files |
+| 2026-10-04 | Attribution: relay sessions open under Andreas's name from now on, and `Andreas+Claude` added to this file | This file | Andreas's instruction, matching the AIRF and CV1 files | Direct |
+| 2026-10-04 | Drafted the style sheet | [[Meeting Doc Text Review - Style Sheet]] | Gives flags and reviews a written standard to cite (section 2) | Direct, new file. Awaiting Andreas's review |
 
 ---
 
