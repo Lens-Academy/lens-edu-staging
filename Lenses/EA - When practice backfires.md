@@ -59,9 +59,9 @@ Britton's study found that open questions missed most adverse effects, so ask yo
 #### Question: Open
 id:: fde5ef9c-f519-4975-9a1b-e4e0c26b4ce7
 content::
-Run the checklist on yourself now, or on a time when you practised a lot. Which item would be hardest for you to notice from the inside, and who or what could check it for you?
+Run the checklist on yourself now, or on a time when you practised a lot. Which item would be hardest for you to notice from the inside?
 force-feedback:: first
-feedback-instructions:: The learner applies the module's failure-mode checklist (indifference, no reaction at all, experiential avoidance, spiritual bypassing, the self-report blind spot, lost repair, lost motivation, adverse effects) to themselves and names the item hardest to notice from the inside and an outside check. This is personal reflection, not a test, and the learner may have no meditation practice to speak of; then the question applies to any way they keep calm.
+feedback-instructions:: The learner applies the module's failure-mode checklist (indifference, no reaction at all, experiential avoidance, spiritual bypassing, the self-report blind spot, lost repair, lost motivation, adverse effects) to themselves and names the item hardest to notice from the inside. This is personal reflection, not a test, and the learner may have no meditation practice to speak of; then the question applies to any way they keep calm.
 
 Confirm in one or two sentences why the item they chose is hard to see from inside, using the source behind it (for example Martin's participant reported no stress while his partner saw poor sleep and tension; Britton found open questions missed most adverse effects; Hafenbrack's participants felt less guilt and so gave less, without noticing a loss). If they disclose current distress, flat mood, disconnection or worse functioning, say plainly that this is worth taking to a doctor or therapist and that stopping or reducing the practice is reasonable. Do not diagnose. 50 to 100 words. One reply.
 
