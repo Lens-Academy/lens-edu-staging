@@ -45,6 +45,7 @@ Module 3 goals (Judging claims):
 - Decide whether a claim is worth testing (cost, risk, how quickly you would know), and if so design a test of it on yourself: baseline, dose, measurement, confounders, a single-case experiment
 %%
 
+# Module: [[../modules/Emotional Abundance M3 Judging claims|Judging claims]]
 %%
 Module 4 goals (Tour of the schools):
 - Place each school on one map by its goal, its view of the self, its main method and the kind of evidence it relies on
