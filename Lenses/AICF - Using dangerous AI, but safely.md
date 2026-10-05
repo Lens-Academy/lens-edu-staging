@@ -92,7 +92,7 @@ to:: 21:07.9
 
 #### Text
 content::
-In the paper, the two protocols in this clip are called **trusted monitoring** (the weaker model as monitor) and **defer to trusted** (the change Miles adds for solutions that look suspicious).
+In the paper, the two protocols in this clip are called **trusted monitoring** and **defer to trusted**.
 
 #### Question: Open
 id:: e4ee37c4-d586-4249-8ed2-c71187f02dad
