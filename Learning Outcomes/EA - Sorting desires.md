@@ -10,11 +10,11 @@ id:: 26e17d30-46fb-4387-af20-cf104877543d
 #### Question: Open
 id:: 1574b929-6ffc-44b1-a646-291715c79b34
 content::
-Read this case. This question and the next three are about it.
+Read this case. All questions in this test are about it.
 
 Mara is training for a marathon. She signed up after a friend's post about running one got a lot of likes. On most runs she watches the pace on her watch and feels low for the rest of the day when she is slower than planned. She says she would be embarrassed to drop out now that everyone knows she signed up. On some mornings, though, she gets absorbed in the run itself, the cold air and the rhythm of her steps, and forgets to look at the watch.
 
-Using the distinction between craving and wholesome desire, which part of Mara's wanting is closer to craving and which is closer to wholesome desire? Say what in the description tells you.
+Using the distinction between craving and wholesome desire, which part of Mara's wanting is closer to craving? Say what in the description tells you.
 assessment-instructions:: The case: Mara trains for a marathon. She signed up after a friend's post about a marathon got many likes. On most runs she watches her pace and feels low for the rest of the day when slower than planned. She would be embarrassed to drop out now that everyone knows. On some mornings she gets absorbed in the run itself (cold air, rhythm) and forgets the watch.
 
 The distinction being tested: craving (tanha) is wanting focused on the result of an action: wanting to get, to be, to become, or to get rid of something, and it brings frustration when the result does not come. Wholesome desire (chanda) is wanting focused on the action itself, wanting to do it, with interest in the doing.
