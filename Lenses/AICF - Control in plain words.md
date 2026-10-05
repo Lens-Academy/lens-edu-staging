@@ -118,6 +118,13 @@ source:: [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agen
 from:: For step one of this two-step AI control protocol
 to:: **Human escalation:** The issue can be flagged for human review.
 
+#### Question: Open
+id:: bae488e6-ba89-47ad-b4cb-45d1559c51fb
+content:: An untrusted model reviews the code that another copy of it writes and flags anything dangerous. Design a honeypot to check whether this reviewer is honest. What would you show it, what must that look like, and what would its answer tell you?
+assessment-instructions:: Score out of 100. 30: what to show it: code that you know is dangerous (for example, code with a backdoor you planted yourself), presented to the reviewer as if it were normal work. 40: what it must look like: just like real code from the other copy, so the reviewer cannot tell the honeypot from real work. If it could tell, a dishonest reviewer would flag the honeypots and stay quiet on real attacks, and the test would show nothing. 30: what the answer tells you: if the reviewer rates the known-dangerous code as safe, it is lying, so it is colluding with the agent it reviews (and you should stop relying on it, or shut it down). If it flags it, that is some evidence it is honest. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "I would write code with a backdoor in it myself and slip it into the reviewer's queue as if the other copy had written it. It has to look exactly like real work, or a lying reviewer would flag only the fakes and let real attacks through. If the reviewer calls my backdoored code safe, I know it is covering for the other copy and I cannot trust it."
+force-feedback:: first
+feedback-instructions:: The learner just read part of CSET's explainer on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the paragraph that explains it (the bullet on untrusted monitoring). No follow-up question. No generic praise.
+
 #### Article
 source:: [[../articles/moffett-ai-control-how-to-make-use-of-misbehaving-ai-agents]]
 from:: Other works describe chain of thought monitoring
