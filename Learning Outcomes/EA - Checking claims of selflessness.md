@@ -1,11 +1,11 @@
 ---
 id: '750ee5e4-3850-422b-a355-63a62eb14de9'
 learning-outcome: "Given a claim that someone has lost or gone beyond the self, separate the distinct claims it contains (which aspect of the sense of self changed, and what is claimed about wellbeing), propose a check that does not rest only on the person's own report, and say what that check cannot show."
-writing_minutes: 10
+writing_minutes: 12
 tags:
   - wip
 ---
-%% Test for module 6 of Emotional Abundance, part 2. The scenario is invented. It mirrors the module's readings: Lindahl and Britton's six changes in sense of self, Martin's PNSE reports and the partner and body checks that disagreed with them, the NADA questionnaire, and brain studies read as a lesson in limits. The three questions are separate because each asks one thing. %%
+%% Test for module 6 of Emotional Abundance, part 2. The scenario is invented. It mirrors the module's readings: Lindahl and Britton's six changes in sense of self, Martin's PNSE reports and the partner and body checks that disagreed with them, the NADA questionnaire, and brain studies read as a lesson in limits. The questions are separate because each asks one thing. Review 2026-10-05: the first question used to accept any two claims (for example "no self" and "at peace"), which a careful reader passes without the module. It now asks for two different changes in the sense of self (Lindahl and Britton's categories, credited in plain words), and a new second question asks for a finding from the readings (Lindahl and Britton, Martin) that separates a changed sense of self from lasting peace. The brain-scan lens is optional, so no question depends on it. %%
 
 ## Test:
 id:: 2cd296d9-3b55-4e0d-98ec-1f69f33ffa86
