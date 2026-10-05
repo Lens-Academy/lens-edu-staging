@@ -36,5 +36,6 @@ notes:: Teaches the assumptions behind part 5: that a red team can find attacks 
 ## Lens:
 source:: [[../Lenses/AICF - Worst case, but not all-powerful]]
 notes:: Teaches what control evaluations assume about the model and what they do not, which part 5 asks the learner to apply.
+## Lens:
 source:: [[../Lenses/AICF - Take apart a deployment pitch]]
 notes:: Scored roleplay practice on a different set-up, with feedback, covering parts 1 to 5.
