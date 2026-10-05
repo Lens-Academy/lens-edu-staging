@@ -15,11 +15,11 @@ For this course three questions matter. How well do these therapies work for the
 #### Article
 source:: [[../articles/cuijpers-how-effective-are-cognitive-behavior-therapies-for-major-depression-and-anxiety-disorders-a-meta-analytic-update-of-the-evidence]]
 from:: We report the current best estimate of the effects
-to:: these effects are still uncertain and should be considered with caution.
+to:: high‐quality trials, these effects are still uncertain and should be considered with caution.
 
 #### Text
 content::
-In a **waiting list control** the comparison group gets nothing yet, so any treatment that offers hope and attention tends to look good against it. An **effect size** such as g says how far the average treated person moved compared with the controls, in units of the spread of scores. By a common convention 0.2 counts as small, 0.5 as medium and 0.8 as large ([Cohen 1992](https://pubmed.ncbi.nlm.nih.gov/19565683/)). The next summary, from 2024, reports something easier to picture, the **response rate**: the share of patients whose symptoms fell by at least half.
+In a **waiting list control** the comparison group gets no treatment yet. As the summary says, CBT looks much better against a waiting list than against usual care or a pill placebo. An **effect size** such as g says how far the average treated person moved compared with the controls, in units of the spread of scores. By a common convention 0.2 counts as small, 0.5 as medium and 0.8 as large ([Cohen 1992](https://pubmed.ncbi.nlm.nih.gov/19565683/)). The next summary, from 2024, reports something easier to picture, the **response rate**: the share of patients whose symptoms fell by at least half.
 
 #### Article
 source:: [[../articles/cuijpers-absolute-and-relative-outcomes-of-psychotherapies-for-eight-mental-disorders-a-systematic-review-and-meta-analysis]]
@@ -32,7 +32,7 @@ Does any one therapy beat the others? For depression, a 2021 network meta-analys
 
 #### Article
 source:: [[../articles/cuijpers-psychotherapies-for-depression-a-network-meta-analysis-covering-efficacy-acceptability-and-long-term-outcomes-of-all-main-treatment-types]]
-from:: All therapies were more efficacious than care
+from:: All therapies were more efficacious than care‐as‐usual and waiting list control conditions
 to:: with few significant differences between them.
 
 #### Text
