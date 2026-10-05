@@ -3,69 +3,192 @@ tags:
   - validator-ignore
 ---
 
-# Meeting doc text review: log
+# Meeting doc text review: plan and log
 
-Review of the participant-facing text in the meeting docs for AI Risk Fundamentals, Forecasting, Modeling, and Shaping AI Futures, and Compute Verification 1. The aim is text that reads as written by a person, not structure or formatting. This file records what changed outside the docs themselves and why.
+Git records what changed. This file records why, what we decided against, and what is still open. Update it alongside the change it describes.
+
+Modeled on [[AIRF Restructure Log]] and [[CV1 Streamlining Proposal]], but kept short, since this project changes wording, not structure.
 
 ---
 
-## How the work is split (decided 2026-10-03)
+## Summary
 
-- Claude flags passages as CriticMarkup comments in the doc. A human rewrites them by hand, and Claude reviews the rewrite. Claude does not rewrite voiced text itself.
-- Mechanical changes (renames, links) go in as suggestions, not direct edits, so they can be reviewed.
-- Flag labels:
-    - **AI (strong / mild)**: reads as AI-written. Strong means a participant would likely notice it.
-    - **Clarity**: understandable but packed or ambiguous.
-    - **Content**: accuracy or structure, not wording.
-    - **recurring**: the same phrase appears in other docs, so one replacement can be reused.
-    - **Note**: something that already works and should be kept.
+**What this is.** A pass over the participant-facing text of the meeting docs for AI Risk Fundamentals (AIRF), AI Futures (Forecasting, Modeling, and Shaping AI Futures) and Compute Verification 1 (CV1), so the questions read as written by a person. It is not a restructure and not a reformat.
 
-## Lens Coach is now Lens Tutor (2026-10-03)
+**Why.** Participants have said the questions are easy to tell apart as AI-written, and that this frustrates them even when they understand what is being asked. Reported by the project owner, 2026-10-03.
 
-Lens Coach was merged into Lens Tutor. `lensacademy.org/coach` redirects to `lensacademy.org/tutor`. Every mention of "Lens Coach" and every `/coach` link is out of date.
+**Status, 2026-10-04.** Stage 1 is done for the three meetings that run the week of 2026-10-05: AIRF Meeting 5, AI Futures Meeting 3 and CV1 Meeting 5. Their flagged passages are waiting for stage 2. The Lens Coach to Lens Tutor rename is pending as suggestions in those docs, in the shared blocks they include, and in the master template.
 
-Renamed so far, as pending suggestions:
+**Where things are.**
 
-| File | Status |
+| Section | What it holds |
 |---|---|
-| meetings/AI Risk Fundamentals/Meeting 5 | suggested |
-| meetings/Forecasting, Modeling, and Shaping AI Futures/Meeting 3 | suggested |
-| meetings/Compute Verification 1/Meeting 5 | suggested |
-| meetings/shared/Session Doc - How today works | suggested |
-| meetings/shared/Session Doc - How today works (3 rooms) | suggested |
-| meetings/shared/Session Doc - How today works (AI Risk Fundamentals) | suggested |
-| meetings/shared/Participant FAQ | suggested |
-| meetings/Master template | suggested |
+| 1 | What the survey found |
+| 2 | Decisions, with who made them and why, so they are not re-argued |
+| 3 | The plan, stage by stage |
+| 4 | **Status by doc. Start here** |
+| 5 | Shared files, and which other courses they reach |
+| 6 | The chronological log |
+| 7 | Open items |
 
-Still to do: the other meeting docs of the three courses, plus the AI Control and Lisbon docs and the Lisbon shared files if their owners want it. [[AI Guide/Writing Meeting Docs]] still requires a "Lens Coach" note on complex prompts (validation rule 6), so whoever owns that guide should update it.
+**Status key:** `todo`, `in progress`, `pending`, `done`, `blocked`, `dropped`. **Dates:** full `YYYY-MM-DD` on every entry.
 
-## Shared files: who else they reach
+**Conventions.**
 
-Edits to these shared files change every doc that includes them, not only the three courses under review. Recorded here because it is easy to forget.
+- **Never write a literal comment marker into this file**, of either kind. Describe the syntax in words. The AIRF log learned this the hard way: the relay turns a written marker into a real comment.
+- **Say how every edit landed**, `direct` or `pending`. The relay decides, and not always as expected.
+- **Edit around existing comments, never through them.** An edit whose span contains a comment routes to review as one unit, so rejecting it loses the whole edit.
+- **Mark who made each decision.** A proposal from Claude is not a decision until the project owner confirms it.
+
+---
+
+## 1. What the survey found (2026-10-03)
+
+Read for the survey: [[AI Guide/Writing Meeting Docs]], the master template, the Session Doc tab of all fifteen docs, the shared blocks, Luc's comments on AIRF Meeting 1, and the record of Luc's 2026-09-26 rewrite of the AI Futures course pages.
+
+The AI feel comes from three places, and each needs a different fix:
+
+1. **Claude's rhetorical habits.** Punchy verdict lines and reassurances ("Time to own it.", "Hope, unease, irritation and relief are all answers."), "X, not Y" contrasts, and one closer shared by all three courses ("the course ends today, but your action plan doesn't").
+2. **Compressed, insider phrasing.** Mostly in AI Futures and parts of CV1. Accurate, but it has to be decoded ("the institutions that served us because they needed us stop needing us").
+3. **Stiff boilerplate repeated across docs.** Room openers, the help note, "Verbal primer for the survey!". The cheapest to fix, because one replacement covers many docs.
+
+Two clarity problems sit alongside these: several questions packed into one item, and prompts that build on an exercise without saying what it was.
+
+Some of the habits are in the guide's own examples ("Half-formed is fine; that's what the room is for", the "course ends today" closer), so new docs will keep reproducing them until the guide changes. That belongs to the guide's owner (section 7).
+
+---
+
+## 2. Decisions
+
+Each entry gives the decision, who made it, the reason, and what it commits us to.
+
+**Wording only.** *Project owner, 2026-10-03.* The complaint is about how the text reads. Structural problems found along the way are flagged as Content and left for a decision, not fixed in this pass.
+
+**Claude flags, a person rewrites, Claude reviews.** *Project owner, 2026-10-03.* Having an AI rewrite text so that it sounds less AI-written is circular. Claude is better placed to spot the patterns than to avoid them. So each flag names a specific pattern that a person can check and overrule, rather than giving a general verdict. In Luc's 2026-09-26 tests, a model's broad "does this read as AI?" judgment did about as well as chance, while narrower questions did better. Commits us to: no voiced text written by Claude, and every flag naming its pattern.
+
+**Suggestions, not direct edits, for anything that replaces existing text.** *Project owner, 2026-10-03.* Reviewers see old and new side by side instead of triaging which text is new. Flags are comments; they only add text, so they land direct.
+
+**Lens Coach becomes Lens Tutor everywhere.** *Project owner, 2026-10-03.* Lens Coach was merged into Lens Tutor, and `lensacademy.org/coach` redirects to `lensacademy.org/tutor`. The rename changes the name and the link only, with no rewording.
+
+**Shared files may be edited.** *Project owner, 2026-10-03.* They also feed AI Control 1 and 2, which are not live yet. Commits us to keeping section 5 current.
+
+**Next week's meetings first.** *Project owner, 2026-10-03.* A cohort's docs are created from the masters at the top of each week. An edit accepted after that reaches nobody already enrolled, and a live copy has to be patched separately (see the note on masters and copies in [[AIRF Restructure Log]]). So the order follows the cohorts. For the week of 2026-10-05 that is AIRF Meeting 5, AI Futures Meeting 3 and CV1 Meeting 5.
+
+**Flag only what fails a named check.** *Proposed by Claude, 2026-10-03. Not yet confirmed.* Unflagged text stays as it is. In the AI Futures course-page rewrite, the first bulk rewrite changed meanings, so the smallest change that fixes a problem is the safer one. The checks: can a participant act on it after one read; is there one question per item; does it state its point plainly; would a navigator say it out loud like this; does it rely on something the doc does not give; would anything be lost if it were cut; does it match the rest of the doc.
+
+**Exercise reminders.** *Proposed by Claude, 2026-10-03. Not yet confirmed.* When a prompt builds on something participants did alone in the unit, it says in one line what that was and gives people who skipped it a way in. AI Futures Meeting 3, Room 1 is the model, and Room 3, item 3 is the counterexample.
+
+**Scope within a doc is what participants read.** *Claude's working assumption, 2026-10-03. Not yet confirmed.* That means the Session Doc tab and the Participant FAQ. The navigator run-sheet, pro-tips and glossary are not reviewed in this pass.
+
+**Flag labels.** *Claude, 2026-10-03.*
+
+- **AI (strong)**: a participant would likely notice it. **AI (mild)**: adds to the feel.
+- **Clarity**: understandable, but packed or ambiguous.
+- **Content**: accuracy or structure, not wording. Needs a decision, not a rewrite.
+- **recurring**: the same line appears in other docs, so one replacement can be reused.
+- **Note**: already works; keep it.
+
+---
+
+## 3. The plan
+
+Stages 1 to 4 run once per batch of docs. The first batch is next week's three.
+
+**Stage 0. Survey.** Done 2026-10-03. See section 1.
+
+**Stage 1. Flag.** Claude adds comments to the Session Doc tab and FAQ of each doc in the batch, and to the shared blocks those docs include, then validates with drafts applied.
+
+**Stage 2. Rewrite.** By hand, by a person. Recurring lines are written once and reused: the "course ends today" closer, the Tutor help note, the "No judgment" reassurance, the Room 2 opener and "Verbal primer for the survey!". Content flags go to whoever owns that content. A flag's comment comes out once its passage is rewritten or deliberately kept.
+
+**Stage 3. Review.** Claude checks each rewrite for:
+
+- meaning drift against the original;
+- claims and numbers against the source reading;
+- the guide's limits: at most four questions and 120 words per room, no em dashes, a Tutor note on complex prompts;
+- new AI patterns;
+- a cold read of the Session Doc tab on its own, as in the guide's third check;
+- the validator, with drafts applied.
+
+**Stage 4. Accept.** The project owner accepts suggestions before the batch's docs are created. Anything accepted later means patching the live copies.
+
+**Stage 5. Next batch.** The remaining twelve docs, in the order cohorts reach them, including the Tutor rename in their inline mentions.
+
+**Stage 6. Hand-offs.** Anything outside our files, listed in section 7.
+
+---
+
+## 4. Status by doc
+
+| Doc | Runs | Rename | Flags | Rewrite | Review | Accepted |
+|---|---|---|---|---|---|---|
+| AIRF Meeting 5 | week of 2026-10-05 | pending | done 2026-10-03 | todo | todo | todo |
+| AI Futures Meeting 3 | week of 2026-10-05 | pending | done 2026-10-03 | todo | todo | todo |
+| CV1 Meeting 5 | week of 2026-10-05 | pending | done 2026-10-03 | todo | todo | todo |
+| Shared How today works (three variants) and Participant FAQ | with the above | pending | done 2026-10-03 | todo | todo | todo |
+| Master template | n/a | pending | not flagged | n/a | n/a | todo |
+| AIRF Meetings 1 to 4 | later | todo | todo | todo | todo | todo |
+| AI Futures Meetings 1, 2, 4 and 5 | later | todo | todo | todo | todo | todo |
+| CV1 Meetings 1 to 4 | later | todo | todo | todo | todo | todo |
+
+---
+
+## 5. Shared files and who else they reach
+
+Edits to these files change every doc that includes them, not only the three courses under review.
 
 | Shared file | Included by |
 |---|---|
-| Session Doc - How today works | Compute Verification 1 (all five meetings), AI Futures Meetings 4 and 5, AI Control 1 and 2 (all five meetings each) |
+| Session Doc - How today works | CV1 (all five meetings), AI Futures Meetings 4 and 5, AI Control 1 and 2 (all five meetings each) |
 | Session Doc - How today works (3 rooms) | AI Futures Meetings 1 to 3 |
-| Session Doc - How today works (AI Risk Fundamentals) | AI Risk Fundamentals Meetings 2 to 5 (Meeting 1 has its own inline copy) |
-| Participant FAQ | Compute Verification 1, AI Futures, AI Control 1 and 2 (AI Risk Fundamentals has inline FAQ copies) |
+| Session Doc - How today works (AI Risk Fundamentals) | AIRF Meetings 2 to 5. Meeting 1 has its own inline copy |
+| Participant FAQ | CV1, AI Futures, AI Control 1 and 2. AIRF has inline FAQ copies |
 
-The Lisbon Fellowship docs use their own Lisbon variants of these files and are not affected. As of 2026-10-03 neither AI Control course is live, so changing the shared files was judged fine.
+The Lisbon Fellowship docs use their own Lisbon variants and are not affected. As of 2026-10-03 neither AI Control course is live.
 
-## Flag pass status
+---
 
-| Doc | Runs | Flags | Rewrite | Review |
+## 6. Log
+
+| Date | Change | Files | Why | How it landed |
 |---|---|---|---|---|
-| AI Risk Fundamentals Meeting 5 | week of 2026-10-05 | done 2026-10-03 | todo | todo |
-| AI Futures Meeting 3 | week of 2026-10-05 | done 2026-10-03 | todo | todo |
-| Compute Verification 1 Meeting 5 | week of 2026-10-05 | done 2026-10-03 | todo | todo |
-| Shared How today works (3 variants), shared Participant FAQ | all of the above | done 2026-10-03 | todo | todo |
+| 2026-10-03 | Survey of the guide, master template, all fifteen Session Doc tabs and the shared blocks | Read only | Scope the problem before changing anything | n/a |
+| 2026-10-03 | **Decisions: wording only; Claude flags, a person rewrites, Claude reviews; suggestions rather than direct edits; next week's meetings first** | Plan | Section 2 | Plan only |
+| 2026-10-03 | Flagged passages: 19 in AIRF Meeting 5, 15 in AI Futures Meeting 3, 10 in CV1 Meeting 5, 2 in each shared How today works block, 2 in the shared Participant FAQ | Those files | Stage 1 for next week's batch | Direct. Comments only add text |
+| 2026-10-03 | Lens Coach renamed to Lens Tutor, name and link only | AIRF Meeting 5 (4), AI Futures Meeting 3 (1), CV1 Meeting 5 (1), each shared How today works block (1), shared Participant FAQ (3), Master template (3) | Coach was merged into Tutor | Pending, 15 suggestions |
+| 2026-10-03 | Checked four claims against their sources while flagging | AIRF Meeting 5, AI Futures Meeting 3, CV1 Meeting 5 | A flag that calls something wrong needs a source | Log only. The WWII quote is wrong and the capstone description does not match its course file (section 7). The AI Futures Room 2 readings and the CV1 Room 2 quote match their lenses |
+| 2026-10-03 | Validator run with drafts applied, scoped to the three courses | All three courses | Check that the comments and suggestions break nothing | No meeting-doc errors. The remaining errors predate this work |
+| 2026-10-03 | Created this file | This file | Record which other courses the shared files reach | Direct, new file |
+| 2026-10-04 | Rebuilt this file as a plan and log | This file | The project owner asked for the reasons behind the changes, not only a record of them, in a plan visible for posterity | Direct |
 
-## Content issues found while flagging
+---
 
-These are not wording problems and need a decision rather than a rewrite.
+## 7. Open items
 
-- **AI Risk Fundamentals Meeting 5, Room 2.** The doc quotes the authors as saying the cost would be "not even 1% as costly as WWII". That wording is not in the book; it appears only in the book-club design notes. Chapter 13 argues that claiming countries could never do this amounts to claiming they "could not possibly care even 1% as much as they cared to fight World War II", which is about willingness, not cost.
-- **AI Futures Meeting 3, Room 3.** The last question reads as either-or (contained rather than aligned) and the table header asks something different (containment before alignment).
+### Content: needs a decision, not a rewrite
+
+- **AIRF Meeting 5, Room 2.** The doc quotes the authors as saying the cost would be "not even 1% as costly as WWII". That wording is not in the book; it appears only in the book-club design notes. Chapter 13 argues that claiming countries could never do this amounts to claiming they "could not possibly care even 1% as much as they cared to fight World War II". That is about willingness, not cost.
+- **AI Futures Meeting 3, Room 3.** The last question reads as either-or (contained rather than aligned), and the table header asks something different (containment before alignment).
 - **AI Futures Meeting 3, Room 2.** No "New group. Names first" line. Unclear whether the room is meant to keep the Room 1 group.
-- **Compute Verification 1 Meeting 5, wrap-up.** Describes the capstone as one fixed task (a verification regime for a three-month emergency pause). The Capstone course file describes choosing one brief from a bank or proposing your own.
+- **CV1 Meeting 5, wrap-up.** Describes the capstone as one fixed task, a verification regime for a three-month emergency pause. The Capstone course file describes choosing one brief from a set or proposing your own.
+
+### Raised by Luc on AIRF Meeting 1
+
+- Whether pointing participants to the Tutor helps, since it cannot see the session. The help note has them paste the question in, which covers part of this.
+- "Today's shape" should become "Schedule" or "Agenda", one line per item with its length. Flagged on the shared blocks.
+
+### For the owner of [[AI Guide/Writing Meeting Docs]]
+
+- Rule 6 still requires a "Lens Coach" note.
+- Several of the guide's examples carry the habits in section 1.
+
+### Unverified
+
+- How the meeting-doc renderer handles comments. The course rules say comments are stripped before parsing, but nobody has watched a doc render with them in. It stops mattering for any flag whose passage is rewritten.
+
+### To confirm
+
+- The name to open relay sessions under. The sessions so far were opened without one, so their edits show unattributed.
+
+### Outside this project
+
+- The AI Control and Lisbon docs, and the Lisbon shared files, still say Lens Coach.
