@@ -49,7 +49,7 @@ Meditation cannot be blinded in this way: you always know whether you meditated.
 #### Question: Open
 id:: 25e7ec0a-e4ec-457f-883e-63ea77cc915f
 content::
-Think of a practice, habit or book that you, or someone you know, believe really helped. Using this page, list the reasons the improvement might have happened even if the practice did nothing. Then say what you would need to know to tell the difference.
+Think of a practice, habit or book that you, or someone you know, believe really helped. Using this page, list the reasons the improvement might have happened even if the practice did nothing.
 force-feedback:: first
 feedback-instructions:: The learner read Colquhoun on regression to the mean (people seek help when at their worst and are likely to improve anyway), the abstract of Szigeti et al. 2021 (self-blinded microdosing: wellbeing improved as much on placebo as on microdoses), and our paragraph on survivorship bias. They now apply this to a practice they or someone they know believe helped.
 
