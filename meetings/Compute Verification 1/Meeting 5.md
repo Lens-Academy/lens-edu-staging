@@ -46,7 +46,7 @@ As a group, design the key protocol for a US-China pause:{>>{"author":"AI","time
 1\. Who holds the keys? One government, both, or several who must agree?
 2\. If the server is unreachable for a day, do chips keep running (fail open) or stop (fail closed)?
 3\. One day a false alarm shuts down a hospital's lawful AI cluster. Which party reverses it, and who pays?
-4\. Final verdict: would both your rival government and the cluster operator both sign the protocol?
+4\. Final verdict: would both your rival government and the cluster operator sign the protocol?
 
 
 
