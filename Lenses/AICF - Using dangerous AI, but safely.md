@@ -59,7 +59,7 @@ to:: 17:41.2
 
 #### Text
 content::
-In the paper, the protocol Miles starts with here, where humans check part of the solutions, is called **upfront auditing**.
+In the paper, the first protocol in this clip is called **upfront auditing**.
 
 #### Question: Open
 id:: 0e9d495d-2be7-40f3-8d0c-7079550b5cea
@@ -118,7 +118,7 @@ to:: 27:39.1
 
 #### Text
 content::
-Using a copy of the untrusted model as the monitor is called **untrusted monitoring**.
+In the paper, the protocol in this clip is called **untrusted monitoring**.
 
 #### Question: Open
 id:: a2d7c9f5-919d-4e75-bcc2-a723891546ef
