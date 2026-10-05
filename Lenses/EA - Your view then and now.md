@@ -40,7 +40,7 @@ feedback-instructions:: The learner answers again, fresh, the module 1 question 
 content::
 Now reopen your answers from module 1. They are saved on that page.
 
-::card[[../Lenses/EA - Your Starting View]]
+::card[[../Lenses/EA - Your Starting View]]{allow-external}
 > Your three answers from the start of the course.
 
 Read them next to what you just wrote, then come back here.

@@ -17,16 +17,16 @@ The second part matters most for what comes next. Evidence that would change you
 If you want to reread the main pages before you answer:
 
 :::callout {title="Pages to reread" tone="neutral" collapse="closed"}
-::card[[../Lenses/EA - Can circumstances give lasting peace]]
+::card[[../Lenses/EA - Can circumstances give lasting peace]]{allow-external}
 > The four positions on circumstances from module 2, with the texts behind them.
 
-::card[[../Lenses/EA - Does seeing clearly make you happier]]
+::card[[../Lenses/EA - Does seeing clearly make you happier]]{allow-external}
 > Parfit's relief at a new view of the self, set against research on positive illusions.
 
-::card[[../Lenses/EA - Views of the self compared]]
+::card[[../Lenses/EA - Views of the self compared]]{allow-external}
 > The views of the self from module 6 in one table.
 
-::card[[../Lenses/EA - The map of the schools]]
+::card[[../Lenses/EA - The map of the schools]]{allow-external}
 > All the schools on one page, with what each claims and its kind of evidence.
 :::
 

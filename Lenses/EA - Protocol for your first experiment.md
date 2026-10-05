@@ -12,15 +12,15 @@ tags:
 content::
 This page turns the first experiment you chose into a protocol you can follow from day one. The parts are the ones from module 3's checklist, one question each. Dose and duration are now two separate questions. You can copy from your module 3 draft wherever it fits.
 
-::card[[../Lenses/EA - Draft your first experiment]]
+::card[[../Lenses/EA - Draft your first experiment]]{allow-external}
 > The protocol you drafted in module 3.
 
-::card[[../Lenses/EA - Designing a self-experiment]]
+::card[[../Lenses/EA - Designing a self-experiment]]{allow-external}
 > Module 3's checklist and the designs it explains: alternating, reversal, multiple baseline.
 
 First, one broad measure. In module 3 you took the WHO-5, the World Health Organization's five-question wellbeing index. Take it again now, from the table on that page. It gives you a starting point for the practice part of the course.
 
-::card[[../Lenses/EA - Measuring how you are]]
+::card[[../Lenses/EA - Measuring how you are]]{allow-external}
 > The WHO-5 and the other measures from module 3.
 
 #### Question: Open
