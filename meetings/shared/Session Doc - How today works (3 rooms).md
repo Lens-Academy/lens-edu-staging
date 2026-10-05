@@ -16,7 +16,7 @@ Between rooms everyone comes back to the main room for five minutes. Your naviga
 **🆘 Need help during a breakout?**
 
 - Confused about the task, or want to talk to the facilitator? Click  **"••• More” > “Ask for Help"** > Your navigator gets pinged and pops into your room.
-- Don't get the question or the reading? Ask the [Lens {--{"author":"AI","timestamp":1791094851882}@@Coach](https://lensacademy.org/coach).--}{++{"author":"AI","timestamp":1791094851882}@@Tutor](https://lensacademy.org/tutor).++}
+- Don't get the question or the reading? Ask the [Lens Tutor](https://lensacademy.org/tutor).
 - More questions? Check the [FAQ Tab](<#tab:Participant FAQ>)
 
 
