@@ -46,7 +46,6 @@ to:: the differences between the forms of jhāna are much less pronounced.
 id:: 41db42ba-6004-46b6-a88c-07c96bacd479
 content::
 Without looking back, write down what you remember about how the light and deep styles of jhana differ.
-force-feedback:: first
 feedback-instructions:: The learner read Brasington's "Interpretations of the Jhanas", a short quote from Ajahn Brahm's "The Jhanas" and parts of Sparby and Sacchet 2024, and wrote a free recall about how light and deep styles differ.
 
 Key points:
@@ -62,7 +61,6 @@ content::
 A friend reached what her teacher called the first jhana on a week-long retreat: waves of tingling joy, and she could still hear the birds outside. A monk tells her it cannot have been jhana, because in jhana the five senses shut off. She concludes that either she or the monk must be wrong about what she experienced.
 
 Must one of them be wrong? Explain.
-force-feedback:: first
 feedback-instructions:: The learner was given a plausible but flawed conclusion: a friend had what her teacher called the first jhana (tingling joy, could still hear birds), a monk says it cannot be jhana because in jhana the senses shut off, so one of them must be wrong about her experience. This is practice for the test at the end of the next part of the module.
 
 Points a strong answer finds (any two are good):

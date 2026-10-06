@@ -70,14 +70,12 @@ We think the same tension applies to wellbeing practices. Trying many cheap thin
 id:: 431fcb02-c159-4d3c-8083-d7d8d011e3d6
 content::
 Name one practice you are curious about. What does its source claim it does, and how soon?
-force-feedback:: first
 feedback-instructions:: The learner names a practice they are curious about and the claim made for it. Reply in 30 to 70 words. If the claim is vague ("makes you happier"), ask what exactly would change and by how much. If they did not say who makes the claim or how soon the effect should show, ask for it, since the next question and the design page depend on it. Do not judge the practice. One reply. No generic praise.
 
 #### Question: Open
 id:: 924bcf63-c9a0-46f3-b600-da2f8a1d5157
 content::
 Is this practice worth testing on yourself? Decide, and give your reasons using the four questions on this page.
-force-feedback:: first
 feedback-instructions:: The learner decides whether the practice they just named is worth testing, using four questions: what it costs, what could go wrong, how likely it is to help and how much that would matter, and whether and how soon a test could show it. They read Gwern's idea that the value of an experiment is the value of the decisions it changes, Farias et al. on adverse events in meditation (8.3% overall, 3.7% in experimental and 33.2% in observational studies), and Scott Alexander on trying cheap, safe things that probably do not work, with his worry that weak science finds positive results for almost anything.
 
 Reply in 70 to 130 words. Check that the decision follows from what they weighed. Point out the question they weighed least well, most often risk (for intensive meditation, retreats or anything that has made them feel worse before) or how soon a test could show the effect (a claim about years cannot be tested in weeks). If they decided not to test, accept it when the reasons hold, and ask what would change their mind. Any decision is fine if it follows from the reasons. One reply. No generic praise.

@@ -43,7 +43,6 @@ to:: but rather as a way of living.
 id:: c323a386-32ea-4bb7-b441-d61b10b9dfa0
 content::
 Without looking back, write down the different things "happiness" can mean according to these three readings, and one thing that tells each apart from the others.
-force-feedback:: first
 feedback-instructions:: The learner just read Haybron (SEP 'Happiness' 1.1 and 2.1), Diener's Noba module ('Types of Happiness') and Ryan, Huta and Deci 2008 (abstract, opening and 'Feeling good versus living well'), and wrote a free recall.
 
 Key points:
@@ -58,5 +57,4 @@ Your role is a brief, honest mirror. Response length: 80 to 140 words, short par
 id:: ad3631e6-14a1-4b2f-8e79-434e1df1bb11
 content::
 Describe a real or imagined person who scores high on one of these kinds of happiness and low on another. Say which two kinds, and why they come apart in this person.
-force-feedback:: first
 feedback-instructions:: The learner describes a person who is high on one kind of happiness and low on another (positive feelings, low negative feelings, life satisfaction, eudaimonia as a way of living). Examples from the readings: Diener's elderly woman satisfied with her life but not enjoying it; someone who enjoys life but feels they are wasting it; Broadie and Rowe's glutton who is happy but not eudaimon; Haybron's distressed person who keeps busy and stays mostly pleasant. Check that the two kinds they name are really different kinds and that the example shows them coming apart. If the example only shows one kind, or mixes up life satisfaction (a judgement) with a feeling, say so in one sentence and ask one direct question that would fix it. Otherwise confirm what makes the example work in one or two sentences. 60 to 110 words. At most two replies. No generic praise.

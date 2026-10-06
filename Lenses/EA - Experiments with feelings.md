@@ -113,33 +113,28 @@ Soothing rhythm breathing comes from Paul Gilbert's compassion-focused therapy. 
 id:: 6c1712d4-0bd2-4946-a0cb-641c997ad7af
 content::
 Which experiment would you run first?
-force-feedback:: first
 feedback-instructions:: The learner picks a first experiment from this module (affect labelling, acceptance against reappraisal by week, the Stoic judgement table, pain and resistance with S = P x R, the self-compassion break, RAIN or soothing rhythm breathing). Acknowledge the choice in one sentence and name the claim that experiment tests, as its card states it. Do not recommend a school or a different experiment. 30 to 70 words. One reply. Tell them module 8 asks them to choose their experiments for the practice part of the course, and these answers are a first draft.
 
 #### Question: Open
 id:: 2dba0050-df2b-486d-be81-02d509672e47
 content::
 Which claim from this module do you most want that experiment to test?
-force-feedback:: first
 feedback-instructions:: The learner names the claim they want their chosen experiment (previous answer) to test. Check that the experiment actually tests that claim: for example, the acceptance-reappraisal weeks compare two strategies, the pain and resistance ratings test S = P x R, the Stoic table tests whether correcting a judgement changes a feeling. If it does not fit, say which experiment would. Do not recommend a school. 40 to 90 words. One reply.
 
 #### Question: Open
 id:: caa3a67c-25c6-45ad-ba84-80443cb8baef
 content::
 What will you measure to know whether it worked?
-force-feedback:: first
 feedback-instructions:: The learner states the measure for their first experiment. Check against module 3's single-case logic that the measure is taken before and after (a 0 to 10 rating, recovery time, the NAS-7, or similar) and that there is a baseline or comparison period. If either is missing, ask for it in one direct question. 40 to 90 words. At most two replies.
 
 #### Question: Open
 id:: e70377d2-f73f-4ed3-85ed-579441ae8e3f
 content::
 How long will you run it?
-force-feedback:: first
 feedback-instructions:: The learner says how long they will run their first experiment. Check that the duration fits the claim and the measure: minutes for a single labelling or a single breathing session, at least a week or two for anything rated daily, several weeks for the NAS-7 or for the alternating acceptance and reappraisal weeks. If it does not fit, suggest one duration in one sentence. If they mention a history of mental illness, retreats or heavy rumination, remind them of the safety line in one sentence. 30 to 80 words. One reply.
 
 #### Question: Open
 id:: 1bc17e25-0bb8-465e-bf3c-cae247a0f42c
 content::
 Who, if anyone, will do the partner check?
-force-feedback:: first
 feedback-instructions:: The learner says who will do the weekly partner check (asking whether their sleep, appetite, mood and tension seem normal, from Martin's dinner observation). If they name someone, confirm in one sentence and suggest asking the specific questions rather than "how do I seem?", since Britton found specific questions catch what open ones miss. If they have no one, suggest one alternative, for example keeping a sleep and appetite log, without insisting. 30 to 80 words. One reply.

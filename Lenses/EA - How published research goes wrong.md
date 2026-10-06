@@ -83,7 +83,6 @@ The page "Measuring how you are" later in this module gives you a questionnaire 
 id:: 177274be-bdc0-4ae8-9fc6-c6b303889088
 content::
 At the start of this module you said what you would want to know about a study showing that eight weeks of mindfulness training reduces anxiety. Which of the problems on this page would you now add to your list?
-force-feedback:: first
 feedback-instructions:: The learner read about replication failure (Open Science Collaboration 2015, with the Gilbert et al. reply), Scott Alexander on picking single studies from a spread of results, WEIRD samples (Henrich et al.), Galante et al.'s meta-analysis of mindfulness courses (better than doing nothing, no better than other active programmes, high risk of bias, mostly self-reported outcomes by unblinded participants, short follow-ups, part of the effect possibly placebo), and Desbordes et al. on measuring easy outcomes instead of the traditions' aim. At the start of the module they listed what they would want to know about a study claiming eight weeks of mindfulness reduces anxiety. Now they say what they would add.
 
 Reply in 60 to 120 words. Name the addition that would most change how much they trust such a study, and if they missed the comparison group (doing nothing versus another activity), say why it matters: the Galante meta-analysis found mindfulness beat doing nothing but not other active programmes. If they only list problems, ask which single check would make them trust the study more. This is practice and not graded. One reply. No generic praise.

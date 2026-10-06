@@ -34,7 +34,6 @@ to:: those four together, let's say.
 id:: e5ea2ded-1589-4e51-9cf2-bf29854b3ee3
 content::
 Ayya Khema makes a claim about joy and the senses. Write it in one or two sentences, as precisely as you can, so that it could be tested on a person.
-force-feedback:: first
 feedback-instructions:: The learner read Ayya Khema (1996 interview) and a passage of Rob Burbea's 2019 introduction to the jhanas, and now restates Khema's claim so that it could be tested. A separate question after this one asks for predictions, so do not ask for them here.
 
 What Khema says: the first lesson of the jhanas is that the delight we look for in the world lives inside us, and a skilled meditator has it "at their fingertips anytime they want it". The senses are survival systems, not an amusement park. In the second jhana one learns that the joy sought through the senses has "absolutely no comparison" to the joy inside. The result: people stop going looking for sense pleasures, still have pleasant sense contacts, are grateful for them, and enjoy them more because they do not grasp them. Burbea says something close: with these resources "I don't need the food to be nice".
@@ -45,7 +44,6 @@ A good restatement is specific: who (someone who can reliably enter at least the
 id:: 7d365ef9-acb5-4c49-a97d-b56c560246e6
 content::
 If your version of the claim were true, what would you expect to see in someone's daily life? And what would you see if it were false?
-force-feedback:: first
 feedback-instructions:: The learner restated Ayya Khema's claim (after reaching the jhanas, people stop going looking for sense pleasures but still enjoy them, because the joy inside has "absolutely no comparison" to the joy sought through the senses) and now gives observable predictions for true and false.
 
 Good predictions are observable and could come out either way. If true: for example fewer impulsive reaches for food, phone or shopping, less irritation when a pleasure is denied, and pleasant things still enjoyed. If false: seeking unchanged, or enjoyment flattened along with seeking, or a change that lasts only hours after a sit. Name the most observable prediction they gave and suggest how to make a vague one countable (a tally, a daily 0 to 10 rating, a time frame). Point out if their true and false predictions do not exclude each other. Do not say whether the claim is true. 80 to 130 words. At most 2 replies. No generic praise.

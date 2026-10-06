@@ -53,7 +53,6 @@ to:: Pure pleasure, it turns out, isn’t really what humans want.
 id:: 897527f9-8591-41f4-866d-e108de927447
 content::
 Pick one claim from Jhourney's article that could in principle be checked. What evidence would you need to see before you believed it?
-force-feedback:: first
 feedback-instructions:: The learner read Jhourney's CEO on the jhanas (company blog, 2026) and a TIME report from a Jhourney retreat (2024), and picks one checkable claim from the company article, saying what evidence would convince them.
 
 Checkable claims in the article include: 60 to 70% of participants access jhana on their first retreat; jhanas are non-addictive; "when contentment is internally accessible, you stop needing as much from the world"; "altered states alter traits" (temporary states practised repeatedly produce lasting shifts); reduced reactivity, easier habit change, better relationships. The article itself says it cannot yet make causal claims about long-term benefits.
@@ -64,7 +63,6 @@ A good answer names evidence that fits the claim: for the success rate, an indep
 id:: c7ac184c-bca4-4a2c-a478-03e03f8fe24d
 content::
 Which criticism or worry in the TIME report seems strongest to you, and why?
-force-feedback:: first
 feedback-instructions:: The learner read the TIME report on Jhourney (2024) and names the criticism or worry they find strongest. Criticisms in the reading: Tina Rasmussen says Jhourney uses a Buddhist term because it sells, and teaches pleasant states that fall short of true jhana ("false advertising"). Shaila Catherine says mastery of jhana is dispassion toward pleasure, not seeking it on demand. Richard Davidson says that without real scientific evidence "we have no idea", and monetising should raise red flags. Risks: rare reports of depression, anxiety and psychosis with meditation, Daniel Ingram's "the journey to the cliff edge can be incredibly short", a participant with a history of depression who lived in intense alarm for a month and felt discouraged from speaking out, Jhourney's estimate that 1% have difficult emotions, the lack of base rates. The worry about "jhana junkies", answered in the article by Sasha Chapin's report that people tend to put the jhanas away like toys after a while.
 
 Reflect their choice back precisely. Then give the strongest counterpoint the article itself contains (for example: for Rasmussen, Brasington's point in the TIME piece that teachers disagree about definitions; for Davidson, that the same lack of evidence applies to the critics' claims; for the jhana junkie worry, Chapin's report, which is itself one person's impression). Do not decide who is right. 80 to 130 words. At most 2 replies. No generic praise.

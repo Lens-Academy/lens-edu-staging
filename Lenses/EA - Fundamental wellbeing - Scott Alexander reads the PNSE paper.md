@@ -41,7 +41,6 @@ to:: It just sounds like information processing in the brain switching to some n
 id:: 5a114b83-e4b8-4af4-aac1-123b443a962a
 content::
 Alexander compares these reports to a new mental disorder that people describe honestly. What does that comparison explain well?
-force-feedback:: first
 feedback-instructions:: The learner read Scott Alexander's commentary on Martin's PNSE paper, which ends by comparing the reports to a new mental disorder that people describe honestly ("information processing in the brain switching to some new attractor state if you force it hard enough"). They say what the comparison explains well. The next question asks what it leaves out.
 
 A thoughtful answer might say it explains why reports are consistent across many people and traditions, why outward personality and behaviour barely change, and why people can be honest about their inner experience yet wrong about outward facts such as visible stress. Accept other reasoned answers. In 50 to 90 words, short paragraphs, no lists: restate their main point more precisely and add one thing the comparison explains that they did not mention. Do not tell them whether enlightenment is real or desirable. No generic praise. One turn.
@@ -50,7 +49,6 @@ A thoughtful answer might say it explains why reports are consistent across many
 id:: 2724236d-7c2b-4aea-a89e-1c69ea01c156
 content::
 What does the same comparison leave out?
-force-feedback:: first
 feedback-instructions:: The learner read Scott Alexander's commentary on Martin's PNSE paper. He takes the participants at their word about their inner experience, notes they are sometimes wrong about outward facts (stress others can see, body tension, implicit bias), compares their unchanged outward behaviour to severely miserable people who also look fine from outside, and concludes the paper supports a "minimalist account of enlightenment": a different internal experience marked by drawing the self-other boundary in a different place, about as surprising as a new mental disorder, "information processing in the brain switching to some new attractor state if you force it hard enough".
 
 They now say what the comparison leaves out. This is a reflection. There is no single right answer. A thoughtful answer might say it leaves out whether the state is good for the person (a disorder framing suggests harm, while participants report the highest wellbeing), or that "describing honestly" does not settle whether they describe accurately. Accept other reasoned answers. In 60 to 120 words, short paragraphs, no lists: restate their main point more precisely, add one consideration they did not mention, and stop. Do not tell them whether enlightenment is real or desirable. No generic praise. One turn.

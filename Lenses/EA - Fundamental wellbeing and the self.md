@@ -46,7 +46,6 @@ id:: dcd72b23-c351-4ee1-af9d-ce9f0ad29514
 content::
 \## Recall
 Spend 2 minutes writing down everything you remember from the three excerpts, without looking back. No need to organise it.
-force-feedback:: first
 feedback-instructions:: The learner read three excerpts from Martin's PNSE paper and wrote a free recall.
 
 Key points:
@@ -63,7 +62,6 @@ content::
 A friend says: "Martin's participants say their self is gone and they are at peace all the time. Nobody knows their inner life better than they do, so their reports settle it."
 
 Using the reading, where does this go wrong?
-force-feedback:: first
 feedback-instructions:: The learner read Martin's PNSE excerpts on the sense of self, self-related thought and the stress disconnect, and got a plausible but flawed claim: "Martin's participants say their self is gone and they are at peace all the time. Nobody knows their inner life better than they do, so their reports settle it." This is practice, not a test.
 
 Points a strong answer finds (any two are good):

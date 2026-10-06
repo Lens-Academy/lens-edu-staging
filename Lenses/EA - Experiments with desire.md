@@ -131,17 +131,14 @@ content::
 #### Question: Open
 id:: 3b8de78b-b0c8-41e6-9f0c-334933782e58
 content:: Which two experiments will you run this week?
-force-feedback:: first
 feedback-instructions:: The learner picks two of six experiments on desire (noting desire from MN 10, Brewer's curiosity about a craving, an Epicurean audit, four reasons for each goal from self-determination theory, Seneca's voluntary discomfort, Give It Up). Acknowledge the choice in one sentence. If both test the same claim, say so and ask whether they want one that tests a different school. If they chose voluntary discomfort, remind them in one sentence of the safety note: plain food and fewer comforts, no fasting. Do not push a particular experiment. 40 to 80 words. One turn. No generic praise.
 
 #### Question: Open
 id:: 5ed02d4a-e71a-4ad2-b30a-1fc81530ce79
 content:: What exactly will you write down each day for each experiment?
-force-feedback:: first
 feedback-instructions:: The learner says what they will record daily for their two experiments. Check that each record is concrete and the same every day (a number or a fixed question), so that the week can be compared. If a record is vague, suggest one concrete measure taken from that experiment's box on the page. 40 to 80 words. One turn. No generic praise.
 
 #### Question: Open
 id:: 9a5670ab-43b8-4635-829a-8634c9a66f61
 content:: What result would surprise you?
-force-feedback:: first
 feedback-instructions:: The learner names a result of their experiments that would surprise them. Restate it in one sentence as a prediction they can check after the week. If it is not checkable with what they plan to record, say what they would need to record instead. Tell them module 8 returns to their results. 40 to 80 words. One turn. No generic praise.

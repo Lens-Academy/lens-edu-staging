@@ -76,7 +76,6 @@ to:: People that are in Location Four or later generally want to be alone.
 id:: 4bba6c28-13ef-49fa-a64b-95d8456ba8ff
 content::
 Without looking back, write down everything you remember from the reading: the four locations, and what the paper says did not change or went wrong. Anything and everything, no need to organise it.
-force-feedback:: first
 feedback-instructions:: The learner just read sections of Jeffery Martin's preprint on persistent non-symbolic experience (PNSE) and wrote a free recall without looking back.
 
 Key points:
@@ -97,7 +96,6 @@ Your role is a brief, honest mirror. 80 to 140 words, short paragraphs, no lists
 id:: f4d4da51-575c-4b77-bc33-b1151b3464f5
 content::
 Take two minutes to write how the reading landed. What resonated, what confused you, what did you doubt? No need to organise it.
-force-feedback:: first
 feedback-instructions:: The learner just read Martin's preprint on the PNSE locations and the findings that complicate them (agency, dogmatism, unchanged personality, loss of PNSE, the stress disconnect seen by a partner, implicit bias, people who rejected the far end). They now write how it landed: what resonated, what confused them, what they doubted.
 
 This is a processing phase, not a teaching phase. Help them say their reaction more precisely, do not resolve it. Branch on what they wrote. Confusion: ask what exactly is unclear. Skepticism: treat it as a legitimate stance and ask what evidence would convince them either way. Resonance or attraction: ask what it connected to in their own experience. If they say the reading made them want the state less or more, ask which finding did it. If the learner says they do not understand, give one concrete foothold from the reading (for example the girlfriend's observations) rather than repeating the question. Do not tell them what to conclude about whether these states are desirable. 60 to 120 words. No generic praise. Keep an internal turn counter: after 2 replies, close the phase and send them on.
@@ -106,7 +104,6 @@ This is a processing phase, not a teaching phase. Help them say their reaction m
 id:: 6fc23eab-511c-4e56-8a82-1a45d7897b10
 content::
 A friend reads this paper and says: "People at Location 4 report the highest wellbeing of all, and they still hold demanding jobs. So if you could choose, Location 4 is clearly the best place to be." Using only what the paper itself reports, what complicates this argument?
-force-feedback:: first
 feedback-instructions:: The learner was given a plausible but flawed argument: "People at Location 4 report the highest wellbeing of all, and they still hold demanding jobs. So if you could choose, Location 4 is clearly the best place to be." This is practice in reading the paper's own evidence, not a test of whether the far end is good or bad. The learner may still conclude it is desirable. What matters is whether they can see what the paper's evidence can and cannot support.
 
 Points a strong answer finds (any two or three are good):
