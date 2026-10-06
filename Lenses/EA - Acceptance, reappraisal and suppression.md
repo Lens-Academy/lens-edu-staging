@@ -81,7 +81,6 @@ Shinzen Young, whose teaching you read on the next page, is a co-author. The pap
 id:: 12dd5a48-46d5-4db1-9f93-85f406c54b82
 content::
 Without looking back, write down everything you remember from these readings: what reappraisal, acceptance and suppression are, and what each study found. No need to organise it.
-force-feedback:: first
 feedback-instructions:: The learner just read Troy et al. 2018 (abstract, two instructions, conclusion), the abstract of Ford et al. 2018, and our summary of Gross and John 2003 and Webb, Miles and Sheeran 2012, and wrote a free recall.
 
 Key points:
@@ -96,14 +95,12 @@ Your role is a brief, honest mirror. 80 to 140 words, short paragraphs, no lists
 id:: e8874780-ea17-401b-8a1f-7e97a612b07d
 content::
 Look again at the moment you described on the first page of this module. Which of the three, if any, describes what you did with the feeling?
-force-feedback:: first
 feedback-instructions:: The learner classifies what they did in a recent upsetting moment as reappraisal, acceptance, suppression or none of these (their earlier answer is in the previous lens; if you cannot see it, work from what they write here). Check the classification against the definitions in one or two sentences: reappraisal changes what the situation means, acceptance lets the feeling be without judging or changing it, suppression hides the feeling or pushes it or its cause out of mind. For example, distracting yourself is none of the three, and arguing yourself out of a feeling can be reappraisal or suppression depending on whether the meaning changed or the feeling was only pushed away. Do not say what they should have done. 40 to 90 words. One reply.
 
 #### Question: Open
 id:: fa6dcbdb-f01a-43e5-ba19-2f9f2ba886f5
 content::
 Take two minutes to write how these readings landed. What surprised you, what did you doubt? No need to organise it.
-force-feedback:: first
 feedback-instructions:: The learner read about reappraisal, acceptance and suppression (Troy et al. 2018, Ford et al. 2018, Gross and John 2003, Webb et al. 2012) and says how it landed.
 
 This is a processing phase, not a teaching phase. Branch on what they expressed: confusion, ask what exactly is unclear; skepticism (for example about lab film clips), treat it as legitimate and ask what study would convince them; resonance, ask what it connected to. Do not say what they should do with their feelings. If the learner says they do not understand, give one concrete foothold from the readings. 60 to 120 words. No generic praise. Keep an internal turn counter: after 2 replies, close and send them on.
@@ -112,7 +109,6 @@ This is a processing phase, not a teaching phase. Branch on what they expressed:
 id:: 649ab0a7-481b-4c7e-9397-2242b632015a
 content::
 A friend has read the same studies and says: "Reappraisal reduced sadness more than acceptance did. So whenever I feel bad, I should reappraise, and acceptance is the weaker tool." What does this conclusion miss?
-force-feedback:: first
 feedback-instructions:: The learner was given a plausible but flawed conclusion: "Reappraisal reduced sadness more than acceptance did, so whenever I feel bad I should reappraise, and acceptance is the weaker tool." This is practice, not a test. There is no single right answer, and the learner may still prefer reappraisal. What matters is whether they can see what the evidence does and does not support.
 
 Points a strong answer finds (two or three are good):

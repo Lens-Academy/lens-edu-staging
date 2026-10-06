@@ -42,7 +42,6 @@ id:: c8e4e7f4-3f80-411f-a5cc-7f5033babd2d
 content::
 \## Recall
 Spend 2 minutes writing down everything you remember from the two passages, without looking back. No need to organise it.
-force-feedback:: first
 feedback-instructions:: The learner just read two passages from Ryan and Deci 2000 and writes a free recall without looking back.
 
 Key points:

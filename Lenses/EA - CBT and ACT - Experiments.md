@@ -70,7 +70,6 @@ These are self-help exercises, not treatment. If the thought is tied to very low
 id:: be6d4c9e-c2cc-4c51-8cf4-7cf6f9c9880f
 content::
 Before you start: which week do you predict will lower your belief rating more?
-force-feedback:: first
 feedback-instructions:: The learner is about to run a two-week self-experiment on a recurring negative thought about themselves: one week of a CCI thought record (evidence for and against, balanced thought), one week of ACT defusion (saying the thought out loud fast for 20 to 45 seconds three times a day, carrying it on an index card), rating belief and discomfort 0 to 100 each evening. They predict which week will lower their belief rating more. In 40 to 80 words, restate the prediction, and ask them to write down, before starting, how big a difference between the weeks would count as a real difference for them (for example 10 points). Do not say which method is better. If they mention very low mood or thoughts of self-harm, tell them kindly to stop and talk to a doctor or therapist. One turn. No generic praise.
 
 #### Question: Open
@@ -78,5 +77,4 @@ id:: a0e18cc3-18c8-4856-9afb-b139b6b25943
 content::
 After the two weeks: how did your ratings change in each week? Come back to answer this when you have run the experiment.
 optional:: true
-force-feedback:: first
 feedback-instructions:: The learner ran a two-week self-experiment on a recurring negative thought about themselves: one week of a CCI thought record (evidence for and against, balanced thought), one week of ACT defusion (saying the thought out loud fast, carrying it on an index card), rating belief and discomfort 0 to 100 each evening and tallying how often the thought came. They report how the ratings changed. In 80 to 130 words: summarise what changed in each week in one or two sentences, say whether it matches Larsson and colleagues 2016 (defusion lowered believability more than restructuring over five days; restructuring also reduced discomfort), and name the most likely alternative explanation for their result (expectations, the order of the weeks, a change in circumstances, or simply time passing). Remind them that in a CBT versus ACT trial for depression both treatments worked partly through both routes (Emmelkamp's summary on the evidence page), so a mixed result is common. Do not say which method is right. At most two replies. No generic praise.

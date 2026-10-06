@@ -52,7 +52,6 @@ So Beck asks whether a thought is accurate, and Ellis asks whether a demand is r
 id:: 5569ec75-6bb1-4694-9f0c-529bc48591cf
 content::
 Without looking back, write down everything you remember from this page. No need to organise it.
-force-feedback:: first
 feedback-instructions:: The learner just read about Beck's discovery of automatic thoughts, the cognitive model, the CCI thought record and excerpts from Ellis's essay "REBT diminishes much of the human ego", and now writes what they remember without looking. Act as a brief, honest mirror, diagnostic rather than instructional.
 
 Key points: Beck's patient who was afraid she was boring him and never said so; automatic thoughts as internal communication people do not ordinarily share; the cognitive model (interpretations of situations shape reactions more than the situations themselves). The thought record: activating event, beliefs with the hot thought rated 0 to 100, consequences (feelings rated), unhelpful thinking styles, evidence for and against, disputation questions, a balanced thought that takes all evidence into account, re-rating. Ellis: rate deeds and traits, never the whole self; self-defeating beliefs are often absolute musts and needs, such as "I must have the things I really want" or "I equal my traits"; the inelegant solution (I am good because I exist) and the elegant one REBT prefers (no global self-rating at all).
@@ -63,7 +62,6 @@ Acknowledge what they got right without inflating it, name the one or two most i
 id:: 2a243567-746f-496d-8511-884d7f550983
 content::
 How did this page land for you?
-force-feedback:: first
 feedback-instructions:: The learner read about Beck's automatic thoughts, the CCI thought record and Ellis on self-rating and absolute demands, and now says how it landed. This is a processing phase, not a teaching phase: help them state their reaction, do not resolve it. If they are sceptical (for example that a thought record feels like arguing with yourself, or that Ellis's refusal to rate the self is impossible to live by), treat that as fair and ask what result would convince them; the experiment page later in the module tests the thought record on their own thought. If they are confused, ask what exactly is unclear and give one concrete foothold from the page. If something resonated, ask what it connected to. Keep each reply to 60 to 110 words. Keep an internal turn counter. After 2 replies, close the phase and send them on. No generic praise.
 
 #### Question: Open

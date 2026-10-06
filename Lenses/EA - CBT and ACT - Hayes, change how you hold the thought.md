@@ -37,7 +37,6 @@ to:: (acceptance, defusion, and so on).
 id:: a129a172-e069-4554-8f67-d0b2729ea0c6
 content::
 Without looking back, write down everything you remember from this page: the three waves, Hayes's story, and the six processes. No need to organise it.
-force-feedback:: first
 feedback-instructions:: The learner just read Hayes and Hofmann 2017 on the three waves of CBT, watched Steven Hayes's TEDx talk on psychological flexibility and read the ACBS page on ACT's six core processes, and now writes what they remember without looking. Act as a brief, honest mirror, diagnostic rather than instructional.
 
 Key points: first wave, behaviour therapy, applying learning principles to change behaviour. Second wave, classic CBT, detecting and changing maladaptive thinking. Third wave (ACT, DBT, mindfulness-based therapies), focused on the relationship to thoughts and emotions rather than their content. Hayes and Hofmann say these processes are now part of CBT, that traditional CBT works partly through them, and that the field is moving to process-based therapy, which targets changeable processes across diagnoses and aims at people's prosperity, not only at removing disorders. Hayes's story: panic attacks that grew as he ran from, fought and hid from anxiety, the night he promised "I will not run from me", and later the memory of himself as a child under the bed. Flexibility: being open to feelings, looking at thoughts rather than from them, directing attention, moving toward what matters, with kindness to oneself. The six processes: acceptance, defusion, being present, self as context, values, committed action.
@@ -48,7 +47,6 @@ Acknowledge what they got right without inflating it, name the one or two most i
 id:: ac22165c-fff2-4d84-8a04-3f707e94a8e2
 content::
 How did this page land for you?
-force-feedback:: first
 feedback-instructions:: The learner read Hayes and Hofmann 2017, watched Hayes's TEDx talk and read the six ACT processes, and now says how it landed. This is a processing phase, not a teaching phase: help them state their reaction, do not resolve it. If they are sceptical of the talk (for example it feels like a sermon, or "more than a thousand studies" sounds like a sales line), treat that as fair and ask what kind of evidence would convince them (a later page covers the trials). If they are confused, ask what exactly is unclear and give one concrete foothold from the page. If something resonated, ask what it connected to. Keep each reply to 60 to 110 words. Keep an internal turn counter. After 2 replies, close the phase and send them on. No generic praise.
 
 #### Question: Open
@@ -60,7 +58,6 @@ Think of the thought you picked on the first page. Which seems more likely to lo
 id:: 081048e1-f1eb-4b14-8098-6adfa72ea01c
 content::
 What makes you expect that?
-force-feedback:: first
 feedback-instructions:: In the previous question the learner said which approach seems more likely to help with the recurring negative thought they picked on the first page of the module: checking it against evidence and replacing it (Beck, Ellis) or changing their relationship to it through defusion and acceptance (ACT). Here they give their reason. Do not say which approach is better. In 50 to 90 words, restate their reason in one sentence and ask what result in the two-week experiment later in this module would change their mind. If their reason rests on a misunderstanding (for example that ACT means believing the thought, or that CBT means positive thinking), correct it in one sentence. One turn, then send them on. No generic praise.
 
 #### Question: Open

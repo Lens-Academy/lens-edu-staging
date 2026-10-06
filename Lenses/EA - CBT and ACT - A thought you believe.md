@@ -39,7 +39,6 @@ Note the thought and both numbers somewhere outside the course too. You will nee
 id:: d0f496fe-1e53-4cf0-8bea-06b83c387517
 content::
 What do you usually do when this thought shows up?
-force-feedback:: first
 feedback-instructions:: The learner has just written down a recurring negative thought about themselves and rated how much they believe it and how uncomfortable it makes them (0 to 100 each). This question asks what they usually do when the thought shows up. They will use the thought again for a self-experiment later in the module, comparing a cognitive therapy thought record with ACT defusion exercises.
 
 Reply in 40 to 80 words. In one sentence, name what their usual response is (for example arguing with the thought, distracting themselves, avoiding situations, giving in to it) without judging it. Do not analyse the thought, do not reassure them that it is false, and do not teach either method yet. If they describe self-harm, suicidal thoughts or very low mood, say kindly that this module is not a substitute for help and suggest they talk to a doctor or therapist. One turn, then send them on.

@@ -29,7 +29,6 @@ id:: e2f4847e-993a-4bdf-b41d-42d2e3f84fca
 content::
 Linehan, Ellis and Hayes all talk about acceptance. In your own words, what does each of them ask you to accept?
 optional:: true
-force-feedback:: first
 feedback-instructions:: The learner watched Marsha Linehan on radical acceptance (accepting the present moment and the past as they are, accepting that you want something you don't have and that this is not a catastrophe, while still working to change the next moment) and earlier read Ellis (unconditional acceptance of self, others and life, refusing to rate one's whole self, dropping absolute demands for preferences) and Hayes and the ACBS definitions (acceptance of thoughts, feelings and other private events without trying to change their form or frequency, in the service of values and committed action). They compare what each asks you to accept.
 
 Reply in 80 to 130 words. Name what they got right, and correct anything that mixes up the objects of acceptance: Ellis is mostly about the worth of persons and about reality not having to match demands, ACT about inner experiences, Linehan about reality as it is right now, including one's own wanting. Point out that all three separate acceptance from passivity about the future. Do not say which version is right. One turn, then send them on. No generic praise.
