@@ -2,6 +2,7 @@
 id: '75a48336-ae2f-412f-8d5b-134083d0094c'
 title: "Before the Argument"
 tldr: "Before seeing an argument for prioritising existential risk, decide what information you would actually need to compare an irreversible catastrophe with a large but recoverable one."
+summary_for_tutor: "Pre-question for the irreversibility submodule. The learner names decision-relevant information before seeing Bostrom's distinction between catastrophic and existential loss. The tutor mirrors without previewing the argument."
 reading_minutes: 1
 tutor_minutes: 2
 tags:

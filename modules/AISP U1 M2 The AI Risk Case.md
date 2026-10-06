@@ -6,8 +6,11 @@ tags:
   - wip
 ---
 
+# Submodule: Welcome
 # Lens: Welcome
 id:: bdd421a7-f2c1-4a37-8dc1-f9337a063530
+tldr:: This module turns the general tools from Module 1 onto AI: build a concrete catastrophic-risk chain, attack its links, then decide what disagreement should do to action.
+summary_for_tutor:: Orientation lens for Unit 1 Module 2. Separates capability, agency, misalignment, power, oversight, institutional response, and irreversibility, then previews the final section on expert and forecaster disagreement.
 reading_minutes:: 4
 #### Text
 content::

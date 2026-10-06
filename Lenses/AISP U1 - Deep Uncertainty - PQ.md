@@ -2,6 +2,7 @@
 id: 'c62a17ca-bc3a-48ee-a4fa-8d33408e777f'
 title: "Before the Numbers"
 tldr: "A tiny probability and a huge consequence do not yet make a decision. Start by naming what else you would need to know."
+summary_for_tutor: "Pre-question for deep uncertainty. The learner says what information is missing from a tiny-probability huge-stakes argument before encountering Pascal's Mugging, Bayesian adjustment, cluster thinking, or cluelessness."
 reading_minutes: 1
 tutor_minutes: 2
 tags:

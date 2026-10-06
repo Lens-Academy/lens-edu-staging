@@ -6,8 +6,11 @@ tags:
   - wip
 ---
 
+# Submodule: Welcome
 # Lens: Welcome
 id:: d23d324b-eb15-49ac-85fb-04d093748bc3
+tldr:: This module starts before the AI-specific argument: what makes irreversible catastrophe morally different, and how should very large stakes interact with uncertain probabilities and fragile models?
+summary_for_tutor:: Orientation lens for Unit 1 Module 1. Frames the module around two decision problems: how irreversibility can matter beyond immediate casualties, and how to reason about low-probability high-stakes claims without either dismissing uncertainty or letting speculative numbers dominate.
 reading_minutes:: 5
 #### Text
 content::

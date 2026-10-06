@@ -2,6 +2,7 @@
 id: '17d1dc9c-0da7-44aa-ab73-393e678661b2'
 title: "Build It Before You Criticise It"
 tldr: "Before reading somebody else's threat model, build your own version of the missing steps between capable AI and civilisation-level danger."
+summary_for_tutor: "Pre-question for the AI threat-model submodule. The learner constructs a causal chain from highly capable AI to civilisation-level danger before seeing the course's decomposition."
 reading_minutes: 1
 tutor_minutes: 2
 tags:
