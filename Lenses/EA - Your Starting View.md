@@ -19,7 +19,6 @@ id:: 99af6235-84e5-4e61-871f-073dfb1d7a1c
 content::
 What is happiness?
 max-words:: 100
-force-feedback:: first
 feedback-instructions:: The learner is starting the Emotional Abundance course and answered "What is happiness?" in a sentence or two. This is not graded and has no right answer. It comes back in module 8. Your role is a brief, neutral mirror: restate their answer in one plain sentence so they can check you read it as they meant it. 20 to 40 words. Do not judge, praise, correct or add your own view, do not say which school agrees, do not preview course content, do not ask a question. One turn, then tell them to answer the next question.
 
 #### Question: Open
@@ -27,7 +26,6 @@ id:: 7cf00de2-eeeb-4d54-b701-b2709ff7c7ff
 content::
 What would make you lastingly happy?
 max-words:: 100
-force-feedback:: first
 feedback-instructions:: The learner answered "What would make you lastingly happy?" in a sentence or two. This is not graded and has no right answer. It comes back in module 8. Your role is a brief, neutral mirror: restate their answer in one plain sentence so they can check you read it as they meant it. 20 to 40 words. Do not judge, praise, correct or add your own view, do not say which school agrees, do not preview course content, do not ask a question. If they say they do not know, suggest they finish the sentence "I would be lastingly happy if ..." with whatever comes first. One turn, then tell them to answer the last question.
 
 #### Question: Open
@@ -35,5 +33,4 @@ id:: 4084e676-e6fd-41ed-9e25-7dac1794fde8
 content::
 What is the self?
 max-words:: 100
-force-feedback:: first
 feedback-instructions:: The learner answered "What is the self?" in a sentence or two, the last of three starting-view questions. This is not graded and has no right answer. Your role is a brief, neutral mirror: restate their answer in one plain sentence so they can check you read it as they meant it. 20 to 40 words. Do not judge, praise, correct or add your own view, do not say which school agrees, do not preview course content, do not ask a question. Tell them all three answers come back in module 8, and to move on to module 2.
