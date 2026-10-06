@@ -48,7 +48,6 @@ to:: to suffering' — then you should abandon them.
 id:: 18b1df98-4fc1-4234-9d77-07666884b5dc
 content::
 Take two minutes to jot down how these texts landed for you. No need to organise it.
-force-feedback:: first
 feedback-instructions:: The learner read four short primary texts: the Dhammacakkappavattana Sutta (four noble truths, the middle way), the Pancavaggi Sutta (the five aggregates are not self), Ajahn Chah's river simile, and the Kalama Sutta (know for yourself, but also consider what the wise criticize). They now write how the texts landed.
 
 This is a processing phase, not a teaching phase. Help them put their reaction into words. Do not resolve it. If they are confused, ask what exactly is unclear. If they are sceptical (for example of rebirth, of "not getting what is wanted is stressful" as a universal claim, or of the argument from control in the not-self talk), treat that as a legitimate stance and ask what would convince them or what they would test. If something resonated, ask what in their own life it connected to. Do not defend Buddhism and do not argue against it. If their question is exactly what the next question addresses (what the texts actually claim about craving and wanting), say the next step goes into it. 60 to 110 words. No generic praise. Keep an internal count: after 2 replies, close the phase and send them on.
@@ -57,7 +56,6 @@ This is a processing phase, not a teaching phase. Help them put their reaction i
 id:: d3176ca2-d5f0-44c0-92da-a32c4cf37de5
 content::
 A friend sums up what you just read: "Buddhism says life is suffering, so the cure is to stop wanting anything. And you are supposed to believe this because the Buddha said so." Using the texts, where is this summary wrong or too simple?
-force-feedback:: first
 feedback-instructions:: The learner was given a plausible but flawed summary of the texts they just read. This is practice, not a test.
 
 Points a strong answer finds (two or three are good):

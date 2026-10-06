@@ -77,7 +77,6 @@ We think the evidence supports a modest claim. Mindfulness programmes taken from
 id:: 98df5fe1-76c1-4365-a33d-3404eab67026
 content::
 Goyal's review found no evidence that meditation programmes do better than exercise or other active treatments. Does that count against the Buddhist claim that the path leads to the end of stress?
-force-feedback:: first
 feedback-instructions:: The learner read an evidence lens on early Buddhism: Goyal et al. 2014 (47 trials with active controls, small effects of mindfulness programmes on anxiety, depression and pain, no evidence of beating drugs, exercise or other behavioural therapies), Galante et al. 2014 on kindness-based meditation, Brewer's smoking trials, a single-case study of cessation events, and Lindahl's study of difficulties in Buddhist practice. Earlier in the module, Bhikkhu Bodhi argued that practices lifted out of a tradition lose their place in an integral whole.
 
 There is no single right answer. Points a strong answer may make: the trials test eight-week programmes, not the whole path of virtue, concentration and discernment, so they test a much weaker claim (Bodhi's objection). The path claims to end stress at its root, while the trials measure symptom scores, so even a large effect would not confirm the claim, and a null result does not refute it. On the other hand, if the practices at the heart of the path do no more than exercise in eight weeks, that is some evidence about what the practices do, and a defender who says only the whole path counts makes the claim harder to test. Equal effects also do not mean the same effect: meditation might work through a different route.
@@ -88,7 +87,6 @@ Restate their position more precisely in one or two sentences. If they say it cl
 id:: 17a49200-528d-4620-a5d4-221821436237
 content::
 What evidence could show whether craving can end completely in a person?
-force-feedback:: first
 feedback-instructions:: The learner read that the tradition's central claim, that craving can end completely, has not been tested, and saw a single-case EEG study of cessation events in one advanced meditator who was also a co-author. They now propose what evidence could test the claim.
 
 There is no single right answer. Useful ideas include: long-term follow-up of people who claim advanced attainments, measuring craving in daily life (for example experience sampling of urges and of how strongly urges drive behaviour, as in Brewer's app trial), behavioural tests such as reactions to loss, pain or temptation, reports from people who live with them, and comparison with matched people who do not claim attainments. Problems a strong answer notices: who decides who counts as awakened, people who claim attainments may misjudge themselves or have reasons to overstate, one case cannot generalise, and the tradition says the end of craving is known first-hand, which outside measures may miss.

@@ -42,7 +42,6 @@ Teachers you will read later in this module:
 id:: 36e98c7f-aa82-42a5-ad04-51c83dcdb16d
 content::
 Without looking back, write down everything you remember from the reading. No need to be complete or tidy.
-force-feedback:: first
 feedback-instructions:: The learner just read John Bullitt's "What is Theravada Buddhism?" and wrote a free recall without looking back.
 
 Key points from the reading:

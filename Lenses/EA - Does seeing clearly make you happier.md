@@ -48,7 +48,6 @@ Taylor and Brown's claim was disputed, for example by [Colvin and Block (1994)](
 id:: c37bef6b-c102-4c26-a787-c5cf33ee3cef
 content::
 In one sentence each, what does Parfit claim and what do Taylor and Brown claim? Then: what would have to be true for both of them to be right?
-force-feedback:: first
 feedback-instructions:: The learner read Parfit's passage (changing his view of personal identity, the "glass tunnel", was "liberating, and consoling"; he became less concerned about his own future and more about others; he says, like the Buddha, that the reductionist view of the self can be believed) and the abstract of Taylor and Brown 1988 (overly positive self-evaluations, exaggerated sense of control and unrealistic optimism are normal and seem to go with mental health, including being happy or contented).
 
 Check the two one-sentence summaries for accuracy and correct any error in one sentence. Then engage with their reconciliation. Possible answers, none required: the two concern different beliefs (the metaphysics of the self versus how good, capable and lucky one is); Parfit is one person's report while Taylor and Brown review group data; the illusions may help ordinary wellbeing while insight serves a different kind of happiness, such as equanimity or sukha; or one of them is wrong. Name the strongest part of their answer and ask one question that would sharpen it. Do not say which side is right; modules 5 to 7 return to this. 80 to 130 words. At most two replies. No generic praise.

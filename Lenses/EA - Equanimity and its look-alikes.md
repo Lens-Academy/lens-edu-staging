@@ -77,7 +77,6 @@ Welwood writes from his therapy practice. These are his clinical impressions, no
 id:: 23e2a643-0892-436a-8a66-dbbc65a2dd45
 content::
 Without looking back, write down what you remember: what each source says equanimity is not, and any signs they give for telling the real thing from a look-alike.
-force-feedback:: first
 feedback-instructions:: The learner just read Kornfield, Nyanaponika, Desbordes et al. 2015 on equanimity versus indifference, the abstract of Kashdan et al. 2006 on experiential avoidance, and Welwood on spiritual bypassing, and wrote a free recall.
 
 Key points:
@@ -93,7 +92,6 @@ Your role is a brief, honest mirror. 80 to 140 words, short paragraphs, no lists
 id:: 806d80bc-89f2-4069-85c4-9fc33a088411
 content::
 Look back at the signs you wrote before reading. Which of them would you now change, given these sources?
-force-feedback:: first
 feedback-instructions:: The learner compares the signs they wrote in the pre-reading question (how to tell real calm from shutting a feeling out) with the readings: Kornfield and Nyanaponika (indifference as the near enemy, equanimity as engaged and caring), Desbordes et al. (equanimity is not suppression, signature is faster return to baseline, no reaction where one is expected is a warning sign), Kashdan et al. (experiential avoidance) and Welwood (spiritual bypassing, coldness and distance, needs driven underground). Their earlier answer may not be visible to you; if they do not restate it, ask for it in one line.
 
 This is a processing phase, not a teaching phase. Name which of their signs the sources support and point to the one source-based sign they did not have, in one sentence. If they doubt the sources (for example: how could anyone measure care?), treat it as legitimate and ask what they would accept as evidence. If the learner says they do not understand, give one concrete foothold from the readings. 60 to 120 words. No generic praise. Keep an internal turn counter: after 2 replies, close and send them on.

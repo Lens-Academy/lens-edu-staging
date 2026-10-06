@@ -59,7 +59,6 @@ id:: 08d8a55c-4df4-4794-9ee7-25a1b0576d33
 content::
 \## Recall
 Spend 2 minutes writing down everything you remember from the Epicurean and Stoic texts, without looking back. No need to organise it.
-force-feedback:: first
 feedback-instructions:: The learner just read Epicurus's Principal Doctrines 15 and 26 to 30, Vatican Sayings 68 and 71, Epictetus's Enchiridion 1 and 2, and an IEP passage on preferred indifferents.
 
 Key points:
@@ -74,7 +73,6 @@ id:: 1ad236df-9dd0-4021-b57c-9f2b796371ac
 content::
 \## Learning question: Epicurus
 Someone says: "Epicurus was a hedonist, so he would tell you to satisfy as many of your desires as you can." What do the texts you read say instead?
-force-feedback:: first
 feedback-instructions:: Learning question on Epicurus. The claim misreads him. Key points: he sorts desires into natural and necessary, natural but not necessary, and empty ones due to opinion. Natural wealth is limited and easy to get, while vain desires recede without limit, so trying to satisfy all desires cannot succeed (PD 15, VS 68). Desires whose non-fulfilment brings no pain are unnecessary and can be dropped (PD 26, 30). The method is to test each desire (VS 71), not to maximise satisfactions. Per reply: if the learner asks a direct question, answer it. Otherwise restate their answer in 2 to 3 sentences, name the main gap, and ask one answerable follow-up, for example which of their own desires would count as empty. If stuck after 2 attempts, give the direct answer. At most 3 replies. 100 to 160 words. No generic praise.
 
 #### Question: Open
@@ -82,5 +80,4 @@ id:: 2da3026e-7cd6-4ff0-990a-646f7453d22e
 content::
 \## Learning question: the Stoics
 Someone says: "Epictetus tells you to suppress desire, so a Stoic would not care about getting ill." Using chapter 2 and the passage on preferred indifferents, where does this go wrong?
-force-feedback:: first
 feedback-instructions:: Learning question on the Stoics. Key points: Epictetus restricts desire and aversion, which aim at good and bad, to what is in our control. Health is not in our control, so it should not be the object of desire in this sense. But he still allows pursuit and avoidance "lightly, and with gentleness and reservation". In Stoic ethics health is a preferred indifferent: according to nature, worth selecting, so a Stoic chooses health and takes care of it. What changes is that losing it is not treated as losing something good, so it does not make the person wretched. "Suppress desire for the present" is advice for a beginner, and "not caring" is the wrong reading. Per reply: if the learner asks a direct question, answer it. Otherwise restate their answer in 2 to 3 sentences, name the main gap, and ask one answerable follow-up, for example how selecting differs from desiring. If stuck after 2 attempts, give the direct answer. At most 3 replies. 100 to 160 words. No generic praise. Do not say whether the Stoics are right.

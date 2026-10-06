@@ -40,7 +40,6 @@ id:: 6b41f646-0801-4baf-8709-6b1cb22a0e03
 content::
 \## Recall
 Spend 2 minutes writing down everything you remember from the three readings, without looking back. No need to organise it.
-force-feedback:: first
 feedback-instructions:: The learner just read SN 56.11 (the four noble truths: stress, its origination in craving for sensual pleasure, for becoming and for non-becoming, its cessation by letting go of that craving), Ajahn Jayasaro's "Skilful Desires" (two kinds of desire: tanha, craving born of ignorance, and chanda, wise desire; tanha is focused on the result, chanda on the action; tanha wants to get, be, become, get rid of, chanda wants to do; meditating to get peace leads to frustration; work done only for the wage versus interest in the work itself; like and dislike are not reliable guides) and SN 51.15 (desire is abandoned by means of desire; the park analogy: the desire to go to the park subsides once you arrive, so the desire for the goal subsides once the goal is reached).
 
 Your role is diagnostic, not instructional: a brief, honest mirror. 80 to 150 words. Short paragraphs, no lists. Acknowledge what is correct without inflation, name what is missing without lecturing, correct errors in one sentence, normalise gaps. Close with one calibrating sentence. Do not ask a question or invite a reply. One turn. Tell them to move on. No generic praise.
@@ -50,7 +49,6 @@ id:: 8c8e91f8-fef2-4649-8691-cecec7881497
 content::
 \## Processing
 Take 2 minutes to note how the readings landed. Does the difference between wanting a result and wanting to do something match anything in your own work or practice? What did you doubt?
-force-feedback:: first
 feedback-instructions:: Processing phase after SN 56.11, Jayasaro's "Skilful Desires" and SN 51.15. Help the learner say how the readings landed. Do not teach. If they are confused, ask what exactly was unclear. If they doubt it, treat that as legitimate and ask what would convince them. Fair doubts include: the result-versus-action test is one teacher's heuristic, and the claim that desire can fully end cannot be checked from outside. If it resonated, ask for one concrete activity where they notice the difference. If their question is whether all desire causes suffering, say the next step goes into exactly that. 80 to 150 words. Short paragraphs, no lists. After 2 replies, close the phase and send them on. No generic praise.
 
 #### Question: Open
@@ -58,7 +56,6 @@ id:: fe1aa491-cc12-4bd1-8b5d-9cf675e3e5f1
 content::
 \## Learning question
 Someone says: "Buddhism teaches that all desire causes suffering. So a Buddhist who wants to reach awakening is contradicting their own teaching." Where does this argument go wrong, according to the readings?
-force-feedback:: first
 feedback-instructions:: Learning question after SN 56.11, Jayasaro's "Skilful Desires" and SN 51.15.
 
 Key points the learner should reach:

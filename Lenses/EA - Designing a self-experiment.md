@@ -83,12 +83,10 @@ Here is a checklist for a protocol, with the source of each part.
 id:: 1b8f8be0-0b01-40e9-af30-d4060bc2271b
 content::
 A friend says that a cold shower each morning lifts her mood for the rest of that day. Which design would you use to test this on yourself, and why?
-force-feedback:: first
 feedback-instructions:: Practice question, not graded. The claim: a cold shower each morning lifts mood for the rest of that day. The effect is claimed to be fast and short-lived, so the best fit is alternating days with and without the shower, ideally in an order fixed in advance (coin flip), with a mood rating at the same time each evening. A reversal design (some days without, some days with, then without again) also works but is slower and more exposed to other changes over time. A simple before-and-after comparison cannot separate the shower from everything else that changed. Reply in 50 to 100 words. Say whether their design fits a fast, short-lived effect and why. If they chose a slower design, say what alternation would gain. Mention expectation briefly if they missed it (they know when they showered, so a measure such as someone else's rating or a count of irritable moments helps). One reply. No generic praise.
 
 #### Question: Open
 id:: 1a44d3e9-e0e0-4896-b101-df33ed8dace9
 content::
 Another friend says that a year of writing in a journal every evening made her calmer for good. Which design would you use to test this on yourself, and why?
-force-feedback:: first
 feedback-instructions:: Practice question, not graded. The claim: a year of daily journaling made the friend calmer for good. The effect is slow (a year) and claimed to be permanent, so a reversal or alternation cannot show it: stopping would not bring the old state back, and a year is long enough for many other things to change. Good answers say this and propose what can be done: a long baseline followed by journaling with a daily calm rating and a weekly questionnaire, noting confounders, while accepting that this shows much less; testing a faster effect the claim implies (for example whether evenings with journaling are followed by calmer next days, which could be alternated); or a multiple-baseline design if journaling can be applied to one area of life at a time. Also acceptable: deciding the claim cannot be tested this way and deciding on other evidence. Reply in 60 to 110 words. Credit recognising that the claim's timing and permanence rule out a reversal. If they proposed alternating days, explain why that tests a different claim. One reply. No generic praise.

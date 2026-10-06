@@ -53,7 +53,6 @@ to:: not bound by selective preferences or prejudices.
 id:: 5580b0b9-67e3-4945-ad15-2b36385fe4c5
 content::
 In your own words, what are Bodhi's two objections to mixing traditions?
-force-feedback:: first
 feedback-instructions:: The learner read Bhikkhu Bodhi on eclecticism and now restates his two objections.
 
 Bodhi's objections: (1) eclecticism compromises the traditions it borrows from, because they present their practices as parts of an integral whole, grounded in a vision of the nature of reality and the final good, not as techniques to be lifted out and recombined to improve how life feels. (2) The visions behind different traditions are not mutually compatible, so practices taken from them point in different directions and a mix lacks one coherent aim.
@@ -64,7 +63,6 @@ Say in one sentence which objections they caught. If one is missing or wrong, st
 id:: 32e5d7ac-7651-431d-8543-47cef306fa97
 content::
 Given what you want from this course, where do you think Bodhi is right?
-force-feedback:: first
 feedback-instructions:: The learner restated Bhikkhu Bodhi's two objections to eclecticism (practices are parts of an integral whole and lose something when lifted out; the visions behind traditions are incompatible, so a mix lacks one aim) and now says where he is right for their own purposes. The next question asks where he is wrong, so do not push them to the other side here.
 
 Engage with their judgement. There is no right answer. Ask what in their own experience or reading supports the point they accept, or what it would predict for a practice they might try from this course. 50 to 100 words. One reply, then send them to the next question. No generic praise.
@@ -73,7 +71,6 @@ Engage with their judgement. There is no right answer. Ask what in their own exp
 id:: 775e84c2-a939-4fc5-a0a2-0c23cba172d1
 content::
 Given what you want from this course, where do you think Bodhi is wrong?
-force-feedback:: first
 feedback-instructions:: The learner restated Bhikkhu Bodhi's two objections to eclecticism (practices are parts of an integral whole and lose something when lifted out; the visions behind traditions are incompatible, so a mix lacks one aim), said where they think he is right, and now say where he is wrong for their own purposes.
 
 Engage with their judgement. There is no right answer. Bodhi also offers three criteria for judging a path before committing to it (a full picture of suffering, a correct analysis of its causes, a means to remove them at the root). If useful, point out that these criteria could be applied to every school in this course. Reasonable positions include: Bodhi is right if your goal is the tradition's own goal (nibbana), but less so if you want a specific, measurable change such as calmer mornings; testing single practices can show what they do on their own, though not what they do inside the whole path; trying many things may be a stage before committing to one, which Bodhi himself describes. If they dismiss Bodhi quickly, ask what his first objection would predict about a practice lifted out of its context, and how they could check that. If they accept him wholly, ask how they would choose a path before having tried any. Do not take a side. 80 to 140 words. At most two replies. No generic praise.

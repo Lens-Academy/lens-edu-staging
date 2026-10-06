@@ -68,7 +68,6 @@ source:: [[../articles/stoicism-the-dispassionate-life-by-margaret-graver]]
 id:: 2bc59c8f-0e63-46b0-9a1f-c55697522c7f
 content::
 Without looking back, write down what you remember: what each of the three traditions tells you to do with a feeling, and what each claims will happen if you do.
-force-feedback:: first
 feedback-instructions:: The learner just read Shinzen Young's synopsis "Natural Pain Relief", the Stoic Week 2016 handbook on emotions and Stoic mindfulness, and the description and items of the Nonattachment Scale, and wrote a free recall.
 
 Key points:
@@ -83,7 +82,6 @@ Your role is a brief, honest mirror. 80 to 140 words, short paragraphs, no lists
 id:: 553c73e2-2084-4429-aa90-6dbee7753844
 content::
 Which of the three instructions would you most like to try?
-force-feedback:: first
 feedback-instructions:: The learner read Shinzen Young on equanimity (S = P x R), Stoic Week on judgements and emotions, and the Nonattachment Scale, and says which instruction they would most like to try.
 
 This is a processing phase, not a teaching phase. Ask what they expect to happen if they try it, and how they would notice. If they say two instructions sound like the same thing, say that the next page compares them and that this is worth holding on to. Do not recommend a tradition. If the learner says they do not understand, give one concrete foothold from the readings. 50 to 100 words. No generic praise. At most 2 replies, then send them on.
@@ -92,7 +90,6 @@ This is a processing phase, not a teaching phase. Ask what they expect to happen
 id:: cf3aab45-b80f-463f-a42b-c89a12818d62
 content::
 Which of the three claims do you doubt most?
-force-feedback:: first
 feedback-instructions:: The learner read Shinzen Young on equanimity (S = P x R, happiness independent of circumstances), Stoic Week on emotions as the product of judgements, and the Nonattachment Scale, and says which claim they doubt most.
 
 This is a processing phase, not a teaching phase. Treat the doubt as legitimate. Ask what result would convince them, in their own experience or in a study. If their doubt matches a limit the page names (no trial of Shinzen's claims, no control group in Stoic Week, correlational non-attachment data), say so in one sentence. Do not defend or recommend a tradition. If the learner says they do not understand, give one concrete foothold from the readings. 50 to 100 words. No generic praise. At most 2 replies, then send them on.
