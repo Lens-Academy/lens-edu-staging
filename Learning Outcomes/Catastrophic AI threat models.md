@@ -1,8 +1,8 @@
 ---
 id: '0068641d-a7df-45d5-a25c-e1fb646c9ad0'
 learning-outcome: "Decompose a catastrophic AI threat model into distinct capability, agency, alignment, power, oversight, response, and consequence assumptions, and identify evidence that would strengthen or weaken specific links."
-domain: Strategy
-stage: Beginner
+topic: "[[../Domains and Topics/11 Strategy/Decomposing AI risk]]"
+stage: beginner
 tags:
   - learning-outcome
   - wip

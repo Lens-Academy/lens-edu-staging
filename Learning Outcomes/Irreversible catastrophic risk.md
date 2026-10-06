@@ -1,8 +1,8 @@
 ---
 id: 'e1824223-19ab-42e1-9640-e3f3563da58c'
 learning-outcome: "Given two catastrophic-risk scenarios, distinguish immediate harm from irreversible long-run loss, explain why irreversibility could affect prioritisation, and identify what additional information is required before a resource-allocation decision follows."
-domain: Strategy
-stage: Beginner
+topic: "[[../Domains and Topics/11 Strategy/The core extinction argument]]"
+stage: beginner
 tags:
   - learning-outcome
   - wip

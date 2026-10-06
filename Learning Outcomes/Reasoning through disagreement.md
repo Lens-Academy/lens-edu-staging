@@ -1,8 +1,8 @@
 ---
 id: '650ff820-7e3d-46e3-917a-dfcc67a01a1e'
 learning-outcome: "Given substantial disagreement among informed forecasters or experts, identify plausible sources of the disagreement, locate decision-relevant cruxes, and choose an appropriate response without either mechanically deferring or ignoring the disagreement."
-domain: Rationality and Epistemics
-stage: Beginner
+topic: "[[../Domains and Topics/15 Rationality and Epistemics/Truth-seeking and disagreement]]"
+stage: beginner
 tags:
   - learning-outcome
   - wip
