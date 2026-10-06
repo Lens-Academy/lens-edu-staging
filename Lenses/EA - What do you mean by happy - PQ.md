@@ -3,7 +3,7 @@ id: '514b9f68-32ef-4a9f-b649-89fb921ec676'
 title: "What do you mean by happy?"
 tldr: "Before reading how others define happiness, pin down what you mean by it."
 summary_for_tutor: "Pre-reading question for the 'what kind of happiness' part of the module. The learner describes the happiness they want. The readings that follow distinguish a feeling, a judgement about one's life, a way of living, and a changed relation to all experience (sukha, equanimity, fundamental wellbeing). Do not preview these distinctions."
-reading_minutes: 1
+reading_minutes: 2
 tutor_minutes: 2
 tags:
   - wip
