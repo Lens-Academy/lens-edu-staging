@@ -25,7 +25,6 @@ This takes about two minutes and is low intensity. Stop if you feel frightened, 
 id:: f47502b3-9a39-4d2a-abe6-a9f58f6730cf
 content::
 Before you do it: what do you predict you will find when you point at the place you are looking from?
-force-feedback:: first
 feedback-instructions:: The learner is writing a prediction before trying Harding's pointing experiment (point at a wall, the floor, a foot, the chest, then at where they are looking from). Acknowledge the prediction in one sentence, without saying whether it is likely. Do not describe what people usually report. Tell them to do the experiment now. 20 to 50 words. One reply only.
 
 #### Text
@@ -78,7 +77,6 @@ Ramm's essay goes on to a second experiment with a mirror, which you can try too
 id:: db4711a0-088d-42c2-92c7-01f90b476f05
 content::
 What did you actually find when you pointed at where you look from?
-force-feedback:: first
 feedback-instructions:: The learner just did Harding's pointing experiment, rated the three NADA-S items (boundaries of self dissolving, mind expanding into space, blissful warmth) and read Ramm's report of a "colourless, unchanging capacity for the world". Now they describe what they found.
 
 Reflect back what they report in their own terms in one or two sentences. If they found nothing special, treat that as an equally valid result. Ask which reading fits their result better: the sceptic's (eyes do not see themselves) or Harding's (this shows what you are). Do not tell them what they "really" saw, and do not say whether Harding's interpretation is true. If they report fear, unreality or detachment that is still present, point them to the safety section of the method page and suggest not repeating the experiment. 50 to 100 words. One or two replies. No generic praise.
@@ -87,7 +85,6 @@ Reflect back what they report in their own terms in one or two sentences. If the
 id:: d648279c-4d00-4c77-9cdb-ca6863be7c10
 content::
 How does what you found compare with the prediction you wrote before?
-force-feedback:: first
 feedback-instructions:: The learner wrote a prediction before Harding's pointing experiment, did it, rated the three NADA-S items, and now compares the result with the prediction.
 
 Restate the match or mismatch in one sentence. Then name one thing that would make the result more trustworthy, chosen to fit it: whether their prediction or the instructions may have shaped what they saw (the instructions ask leading questions such as "Is there anything at all here?"), whether the same result shows up a second time on another day, or how their ratings compare with their baseline ratings on the method page. A result that differs from the prediction is as useful as one that matches. 40 to 90 words. One reply. No generic praise.

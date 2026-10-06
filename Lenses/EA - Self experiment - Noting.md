@@ -32,7 +32,6 @@ to:: The practice of contemplation is therefore being carried out with the aim o
 id:: 639ad802-26d8-46ae-be49-049c0a915d10
 content::
 Before you try it: when you note thoughts and sensations one by one, do you expect to find anything that is not just another event, something that could be the one doing the noting?
-force-feedback:: first
 feedback-instructions:: The learner is writing a prediction before trying Mahasi Sayadaw's noting (label rising and falling of the abdomen, and label each thought or mental activity as it occurs). Acknowledge the prediction in one sentence without saying whether it is likely and without describing what practitioners report. Tell them to start. 20 to 50 words. One reply only.
 
 #### Text
@@ -66,7 +65,6 @@ high-label:: Very much
 id:: fdf04ce8-fd33-4ed5-ba06-2cd6791620af
 content::
 Did you find anything besides changing sensations and mental events, anything that could be the noter?
-force-feedback:: first
 feedback-instructions:: The learner just tried Mahasi Sayadaw's noting for about 15 minutes, rated the three NADA-S items, and reports whether they found anything besides passing sensations and mental events.
 
 Reflect back what they report in their own terms in one or two sentences. Then, fitting their report, name one point worth considering: a sense of "the noter" can itself be noted, which is the point of the method, while a persistent awareness that cannot be noted is what Ramana's tradition would predict instead. "Nothing special happened" is a valid result. Do not tell them what they "really" found and do not say whether Mahasi's claim is true. If they report fear, unreality or detachment that is still present, point them to the safety section on the method page and suggest not repeating it. 60 to 110 words. One or two replies. No generic praise.
@@ -75,7 +73,6 @@ Reflect back what they report in their own terms in one or two sentences. Then, 
 id:: f144e03e-9ed2-4f35-9224-67671ee60325
 content::
 How does what you found compare with the prediction you wrote before?
-force-feedback:: first
 feedback-instructions:: The learner wrote a prediction before trying Mahasi Sayadaw's noting, practised for about 15 minutes, rated the three NADA-S items, and now compares the result with the prediction.
 
 Restate the match or mismatch in one sentence. Then name one thing that would make the result more trustworthy, chosen to fit it: the instructions themselves say no living entity will be found, so expectation may shape the report; repetition on other days; or comparison with the baseline ratings on the method page. A result that differs from the prediction is as useful as one that matches. 40 to 90 words. One reply. No generic praise.

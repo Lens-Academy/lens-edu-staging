@@ -40,7 +40,6 @@ Both are also businesses. The UMass course costs $650 (above). Harris recorded h
 id:: a4b1a3a0-004b-4a46-91e5-1898266bdd4d
 content::
 The UMass page and Harris promise different things. Which kind of happiness does each one aim at? Use the kinds you met earlier in the course (for example a pleasant feeling, life satisfaction, equanimity, sukha, freedom from worry).
-force-feedback:: first
 feedback-instructions:: The learner read the UMass MBSR page (8-week course, daily home practice of 45 to 60 minutes; it says MBSR can help manage stress and anxiety, respond to difficulties instead of reacting automatically, live with greater calm, clarity, energy and enthusiasm, change one's relationship with pain) and Sam Harris's 'How to Meditate' (goal: awaken from the trance of discursive thinking and from grasping at the pleasant and recoiling from the unpleasant, so as to enjoy a mind undisturbed by worry, open like the sky, effortlessly aware of the present). Earlier in the course they learned to tell apart kinds of happiness: positive feeling or affect, life satisfaction, eudaimonia, sukha (an enduring calm trait), ataraxia, equanimity, contentment, fundamental wellbeing.
 
 A strong answer says that MBSR mainly promises less stress and reactivity and better coping, which is closer to reduced negative affect and better functioning than to a new kind of happiness, while Harris aims at a lasting change in how experience is held: freedom from compulsive thinking and from grasping and aversion, close to equanimity or sukha. Credit any reasonable mapping. If they say both promise the same thing, point to Harris's 'grasping at the pleasant and recoiling from the unpleasant'. Reply in 70 to 120 words. No generic praise. One turn, then send them on.
@@ -49,12 +48,10 @@ A strong answer says that MBSR mainly promises less stress and reactivity and be
 id:: 5b7bb447-99a8-42f3-becd-e03f89e9b773
 content::
 Which of the two promises would you find easier to test on yourself?
-force-feedback:: first
 feedback-instructions:: The learner compared two promises: MBSR (UMass page: manage stress and anxiety, respond instead of reacting automatically, live with greater calm, change one's relationship with pain) and Sam Harris (awaken from the trance of discursive thinking and from grasping and aversion, to enjoy a mind undisturbed by worry). They now say which is easier to test on themselves. MBSR's promise is easier to measure with standard questionnaires or daily ratings of stress and anxiety. Harris's promise needs first-person observation over time. Credit either choice if the reason fits. If they give no reason, ask for one. The next question asks how they would notice the change, so do not ask that here. If they say they do not understand, isolate one part: which promise could a questionnaire capture? Reply in 50 to 90 words. No generic praise. One turn.
 
 #### Question: Open
 id:: 2d589fe0-2751-4f7d-b3d9-1036021ae6fd
 content::
 For the promise you chose, what is one sign you could record each day that would show it coming true?
-force-feedback:: first
 feedback-instructions:: The learner chose which promise is easier to test: MBSR's (less stress and anxiety, responding instead of reacting, more calm, a changed relationship with pain) or Harris's (waking from compulsive thinking, less grasping and aversion, a mind undisturbed by worry). They now name a daily sign. Good signs are concrete and recordable: an evening stress rating from 0 to 10, number of times they snapped at someone, how often they noticed being lost in thought during a sit, how long a worry lasted. If the sign is vague ('I'd feel better'), ask for one thing they could write down as a number or a yes/no each evening. Mention that a few days of recording before they start practising gives a baseline. If they say they do not understand, give one example for their chosen promise. Reply in 50 to 90 words. No generic praise. One turn.
