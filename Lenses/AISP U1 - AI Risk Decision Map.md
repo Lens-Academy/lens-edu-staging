@@ -2,6 +2,7 @@
 id: 'ddfdb35b-afad-448c-b1de-2e7bb966c1a2'
 title: "Your AI Risk Decision Map"
 tldr: "Write down the model that currently drives your view of AI risk, the evidence that could change it, and one action that still makes sense if part of the model is wrong."
+summary_for_tutor: "Unit 1 running artifact. The learner records a current conclusion about catastrophic AI risk, three to five load-bearing claims, a weakest link and falsifier, a strong counterargument, and one action intended to remain sensible under an important way their model could be wrong. The artifact is deliberately ungraded and is revisited in later units."
 reading_minutes: 3
 tutor_minutes: 18
 min_chat_messages: 3

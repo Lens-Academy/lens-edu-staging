@@ -2,6 +2,7 @@
 id: 'b6dc1e82-cd77-4a8e-9d85-3b644301e02c'
 title: "Before Seeing the Forecasts"
 tldr: "Before seeing how experts and forecasters disagreed, decide what disagreement itself should do to a decision."
+summary_for_tutor: "Pre-question for the disagreement submodule. The learner decides what expert-versus-superforecaster disagreement should do to a present decision before seeing the XPT case."
 reading_minutes: 1
 tutor_minutes: 2
 tags:
