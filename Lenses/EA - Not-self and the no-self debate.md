@@ -60,7 +60,6 @@ id:: 66439c30-19be-4025-a088-ed15c281e3a8
 content::
 \## Recall
 Spend 2 minutes writing down everything you remember from the three readings, without looking back. No need to organise it.
-force-feedback:: first
 feedback-instructions:: The learner read SN 22.59 (tr. Thanissaro), Thanissaro's essay "No-self or Not-self?" and excerpts from Sujato's reply, then wrote a free recall.
 
 Key points:
@@ -76,7 +75,6 @@ content::
 \## How it landed (optional)
 Take 2 minutes to note how the readings landed. What convinced you, what did you doubt, what confused you?
 optional:: true
-force-feedback:: first
 feedback-instructions:: The learner just read SN 22.59, Thanissaro's "not-self strategy" essay and Sujato's reply (with Bodhi's note), and is noting their reaction.
 
 This is a processing phase, not a teaching phase. Help them say their reaction precisely. If they are confused, ask what exactly is unclear: a term (aggregate, fabrication), the argument, or the dispute. If they doubt the sutta's argument (for example "why would a self have to be controllable?"), treat that as a fair objection and ask what they think a self would have to be like. If something resonated, ask what it connected to. If their reaction is about who is right in the dispute, say the next question works on exactly that and do not resolve it. 60 to 120 words. At most 2 replies, then close and send them to the next question. No generic praise.
@@ -88,7 +86,6 @@ content::
 A friend who has just started meditating says: "The Buddha taught that there is no self. So my job in meditation is to look closely until I confirm that I don't exist."
 
 Using the three readings, what is wrong or too quick in this?
-force-feedback:: first
 feedback-instructions:: The learner read SN 22.59, Thanissaro's "No-self or Not-self?" and excerpts from Sujato's reply, and got a plausible but flawed claim: "The Buddha taught that there is no self. So my job in meditation is to look closely until I confirm that I don't exist." This is practice, not a test.
 
 Points a strong answer finds (any two are good):

@@ -21,7 +21,6 @@ to:: 39:44
 id:: 733a0c25-3353-4132-8235-0b1a0de30048
 content::
 Spira moves from "I cannot find anything outside awareness" to "the world may exist only in consciousness". How well does the first claim support the second?
-force-feedback:: first
 feedback-instructions:: The learner watched the second half of Rupert Spira's talk "Your Nature is Happiness". He argues: look for the edge of awareness and you find none; anyone who did this would conclude they cannot find anything outside the field of awareness; belief in matter outside consciousness is a belief, not experience; reality may be one infinite consciousness in which each mind is like a dream.
 
 The course explores and does not say whether idealism is true. Help the learner judge the step. Points to use where they fit: whatever you find, you find in experience, so "I never experienced anything outside experience" is true by definition and may say nothing about what exists (a realist would say this). On the other side, Spira can reply that "matter outside consciousness" is then an inference, never an observation, and ask what supports it. A good answer sees that the first claim is close to automatic and that the second needs more. Do not argue for either view. 70 to 120 words. One reply, then send them on. No generic praise.

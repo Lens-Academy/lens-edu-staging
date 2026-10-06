@@ -82,7 +82,6 @@ The criterion he reports, ethical integrity visible in action, can be checked fr
 id:: 4daef35e-4847-4f86-9545-b22eb312c957
 content::
 A meditation teacher with twenty years of practice tells you that she no longer feels anger. What could her report tell you that no other kind of evidence could?
-force-feedback:: first
 feedback-instructions:: The learner read Schwitzgebel on unreliable introspection, Martin's observation that a participant reported deep peace while his girlfriend saw clear signs of stress, Anālayo on how a tradition's maps can shape experience and attainment claims, the Cheetah House summary showing that whether an experience is judged spiritual or pathological depends on who judges, Lutz and Thompson's experiment where trained reports sorted EEG data, and Metzinger on ethical integrity as the classical check on insight. The question asks only what her report can tell us that nothing else could.
 
 Good answers: only she can say what her inner life is like now, for example whether anger arises and passes, never arises, or is noticed but not acted on. Her report can make distinctions no questionnaire or brain scan would know to look for, and it tells researchers or learners what to test and where to look (as in Lutz and Thompson). Reply in 50 to 100 words. Name the strongest point and add one they missed. Do not discuss whether she is right, the next question does that. One reply. No generic praise.
@@ -91,7 +90,6 @@ Good answers: only she can say what her inner life is like now, for example whet
 id:: d598c98b-da2d-45a5-823d-689f3f723fcc
 content::
 How could her report be wrong even if she is completely sincere?
-force-feedback:: first
 feedback-instructions:: Same setting as the previous question: a teacher with twenty years of practice says she no longer feels anger. Now the learner says how a sincere report could still be wrong.
 
 Good answers draw on the page: introspection about emotion is unreliable even for careful people (Schwitzgebel); she may not notice anger that others can see in her body or behaviour (Martin's participants reported peace while a partner saw stress); her tradition may describe this stage, so expectation can shape both the experience and how she describes it (Anālayo); her teachers and students may confirm it because they share the framework (Cheetah House); she may mean something specific by "anger", such as no longer acting on it. Ways to check: ask people who live or work with her, watch how she acts under provocation (Metzinger's criterion), or measure physiological signs of stress. Reply in 60 to 120 words. Name the strongest point and the most useful check they did not mention. Do not conclude that she is wrong or lying. One reply. No generic praise.

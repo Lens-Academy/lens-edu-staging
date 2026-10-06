@@ -19,5 +19,4 @@ source:: [[../articles/woods-for-schopenhauer-happiness-is-a-state-of-semi-satis
 id:: b3663079-ec64-49b0-b484-1f21bf9fa990
 content:: Schopenhauer, Nesse and Hobbes describe the same pattern of endless wanting. How does each of them judge it?
 optional:: true
-force-feedback:: first
 feedback-instructions:: Optional question after the Aeon essay on Schopenhauer. Nesse: the pattern is how mood regulation was shaped by natural selection, a means to pursue goals, neither good nor bad in itself. Hobbes: continual progress of desire is what felicity is, so the pattern is good. Schopenhauer, as presented in the essay: life swings between suffering from unmet desire and boredom, so the pattern is bad, and the best available is a well-paced swing between wish and fulfilment, a semi-satisfied life. Check the learner's three judgements against the essay and the earlier page in one or two sentences each. 80 to 130 words. One turn. No generic praise.

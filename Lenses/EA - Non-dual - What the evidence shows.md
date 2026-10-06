@@ -63,7 +63,6 @@ Weaknesses: the evidence is mostly testimony from people who already teach or pr
 id:: a9f50c4f-7593-4a85-a0ca-9e9ec9c3581c
 content::
 A friend says: "Brain scans show non-dual awareness is a real, distinct state, and a validated questionnaire links it to bliss. So science has confirmed that happiness is the nature of the self." What is wrong with this argument? Name at least two problems.
-force-feedback:: first
 feedback-instructions:: The learner read the evidence lens of the non-dual library module and was given a plausible but flawed claim: "Brain scans show non-dual awareness is a real, distinct state, and a validated questionnaire links it to bliss. So science has confirmed that happiness is the nature of the self." This is practice, not a test.
 
 Problems a strong answer finds (any two are good):
