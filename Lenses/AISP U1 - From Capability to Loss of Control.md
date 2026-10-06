@@ -2,6 +2,7 @@
 id: '96f85393-a476-4c8c-8b56-f2a55c014cab'
 title: "From Capability to Loss of Control"
 tldr: "The AI risk case is not one leap from intelligence to extinction. It is a chain of capability, agency, misalignment, power, oversight failure, institutional response, and irreversibility."
+summary_for_tutor: "Builds a concrete catastrophic-AI threat model from Karnofsky's capability and aim arguments, then stress-tests it with Grace's counterarguments and a short-timelines example from Pueyo. The learner separates capability, agency, misalignment, instrumental pressure, oversight, response, and irreversibility, then identifies a weakest link and discriminating evidence."
 reading_minutes: 26
 tutor_minutes: 16
 tags:

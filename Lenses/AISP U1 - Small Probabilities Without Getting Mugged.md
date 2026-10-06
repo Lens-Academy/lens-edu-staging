@@ -2,6 +2,7 @@
 id: '1fcc1318-c60c-4688-975e-0d56fc5ef779'
 title: "Small Probabilities Without Getting Mugged"
 tldr: "Low-probability risks can matter, but enormous stakes do not make weak evidence strong. The hard part is deciding how much weight a fragile model deserves."
+summary_for_tutor: "Synthesis on decision-making under deep uncertainty. Covers Bostrom's meta-uncertainty, Yudkowsky's Pascal's Mugging and Pascal's Wager Fallacy Fallacy, Karnofsky's Bayesian and sequence-versus-cluster critiques, and Greaves's simple versus complex cluelessness. Ends with practical checks for high-stakes arguments, recall, processing, and a graded application."
 reading_minutes: 25
 tutor_minutes: 16
 tags:
