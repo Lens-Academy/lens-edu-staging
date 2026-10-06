@@ -25,7 +25,7 @@ Where a school says "do this for so long and you will feel that", you get an exp
 The first part of the course is a map, in eight modules:
 
 1. **Overview**, this module.
-2. **The questions.** Three questions the rest of the course keeps returning to: What do people mean by happiness? Can circumstances give lasting peace? Does understanding the self make you happier? This module lays out the main answers without choosing one.
+2. **Three questions the schools disagree on.** What kind of happiness are we after? Can good circumstances make you lastingly happy? Does seeing yourself clearly make you happier? For each question you get the main answers and the evidence behind them, and you decide later. This is a first pass. Modules 6 and 7 come back to these questions in more depth.
 3. **Judging claims.** How to weigh a study, a meditation teacher's report and your own experience.
 4. **Tour of the schools.** Every school on one page, so you can choose which ones to study.
 5. **Desire.** Why we want things, and what the schools say about wanting.

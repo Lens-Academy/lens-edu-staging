@@ -1,6 +1,6 @@
 ---
 slug: emotional-abundance-the-questions
-title: "The questions"
+title: "Three questions the schools disagree on"
 id: '7b21b5eb-30ee-490e-b86f-2caaa266e71a'
 tags:
   - wip

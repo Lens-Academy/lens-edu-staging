@@ -8,6 +8,14 @@ tutor_minutes: 2
 tags:
   - wip
 ---
+#### Text
+content::
+The schools you will meet in this course disagree on three questions. What kind of happiness are we after? Can good circumstances make you lastingly happy? Does seeing yourself clearly make you happier? This module takes them one at a time. For each one you get the main answers, who gives them and the evidence behind them. The course does not choose an answer for you.
+
+This is a first pass. Module 3 uses these readings as examples when you learn to judge claims, and module 4 sorts the schools by the kind of happiness they aim at. Modules 6 and 7 come back to the self and to circumstances with new evidence.
+
+We start with the first question. Before you read what others mean by happiness, write down what you mean by it.
+
 #### Question: Open
 id:: 811a0943-ba5e-4ea8-b4c7-3a942772ba45
 content::

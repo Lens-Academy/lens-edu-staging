@@ -30,14 +30,14 @@ Part I, core path. Module 1 goals (Overview):
 # Module: [[../modules/Emotional Abundance M1 Overview|Overview]]
 
 %%
-Module 2 goals (The questions):
+Module 2 goals (Three questions the schools disagree on):
 - Tell apart what people mean by happiness (positive feeling, life satisfaction, eudaimonia, sukha, ataraxia, equanimity, contentment, fundamental wellbeing) and say which one a given claim is about
 - The three philosophical theories of wellbeing (hedonism, desire satisfaction, objective list) and one objection to each
 - The circumstances question: the main positions on whether circumstances can give lasting peace, and the evidence each cites
 - The reality questions (what the self is, why we want things, how experience is built) and how different schools link insight to happiness
 %%
 
-# Module: [[../modules/Emotional Abundance M2 The questions|The questions]]
+# Module: [[../modules/Emotional Abundance M2 The questions|Three questions the schools disagree on]]
 
 %%
 Module 3 goals (Judging claims):
