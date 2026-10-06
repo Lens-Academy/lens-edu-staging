@@ -40,7 +40,6 @@ The rest of the essay applies the argument to modern public figures. It is outsi
 id:: a248854d-eae1-49de-a1b6-2eb228da7934
 content::
 Richardson asks: "If it's rational to be indifferent to outcomes, on what basis would one work for one outcome over another?" Write the strongest reply a Stoic could give, using what you read about preferred indifferents.
-force-feedback:: first
 feedback-instructions:: The learner read Pigliucci's IEP entry on the Aristotelian objection and two excerpts of Alex Richardson's "The Stoic's Lacuna", ending with his question: if it is rational to be indifferent to outcomes, on what basis would one work for one outcome over another? They now write the strongest Stoic reply. Their own verdict comes in the next question.
 
 The strongest reply uses the distinction between selecting and needing: health, wealth and education are "preferred indifferents" with positive value for selection. A Stoic works for preferred outcomes (others' health, a just society) because selecting them well, and acting justly toward others, is what virtue consists in. What the Stoic is indifferent to is whether the outcome arrives, as far as their own happiness goes. Justice is one of the four virtues.
@@ -51,7 +50,6 @@ Reply in 60 to 110 words. Say how strong their reply is. If it misses the select
 id:: ee198aa9-4092-4821-9c1f-23ce5ef852ee
 content::
 Does that reply answer Richardson? Say why or why not.
-force-feedback:: first
 feedback-instructions:: The learner read Pigliucci's IEP entry on the Aristotelian objection (a happy sage on the rack) and two excerpts of Alex Richardson's "The Stoic's Lacuna", ending with his question: if it is rational to be indifferent to outcomes, on what basis would one work for one outcome over another? Earlier in the module they read that health, wealth and education are "preferred indifferents" with positive value for selection, and that justice is one of the four virtues and the discipline of action is prosocial.
 
 The strongest Stoic reply uses the distinction between selecting and needing: a Stoic works for preferred outcomes (others' health, a just society) because selecting them well, and acting justly toward others, is what virtue consists in. What the Stoic is indifferent to is whether the outcome arrives, as far as their own happiness goes. Richardson anticipates a version of this ("take emotion out of our response") and says it makes little sense. Possible weaknesses a learner may raise: if outcomes do not affect happiness, motivation may weaken in practice; "preferred but indifferent" may sound like a distinction without a difference; the reply does not address his historical point about the decline of the polis. Credit any well-reasoned verdict, for or against. Do not say which side is right.

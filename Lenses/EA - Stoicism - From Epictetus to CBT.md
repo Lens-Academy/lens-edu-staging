@@ -46,7 +46,6 @@ to:: As for the outcome, it should be accepted with equanimity.
 id:: bf2a1308-5bca-4713-86e7-d97f9e9cc1f5
 content::
 What central idea do Stoicism and CBT share, according to Ellis and Beck?
-force-feedback:: first
 feedback-instructions:: The learner read Robertson and Codd, "Stoic Philosophy as a Cognitive-Behavioral Therapy" (2019): the abstract, the history of Ellis and Beck citing the Stoics, the confusion with colloquial stoicism, and the proto-passions, then the IEP paragraph on Irvine's trichotomy of control.
 
 The shared idea: emotional disturbance is caused mainly not by events but by our beliefs or judgements about them (Ellis quoting Epictetus: "Men are disturbed not by things, but by the views which they take of them"), so changing the beliefs can change the emotions ("Control of most intense feelings may be achieved by changing one's ideas"). Credit any wording of this. If the learner adds the second half (changing beliefs changes feelings), say it is the practical consequence.
@@ -57,7 +56,6 @@ Reply in 50 to 90 words. Confirm or correct in one or two sentences. No generic 
 id:: c3b166ce-709c-4bdd-a750-7d73ac1f3c75
 content::
 Name one thing in Stoicism, as Robertson and Codd describe it, that Ellis and Beck did not take into CBT.
-force-feedback:: first
 feedback-instructions:: The learner read Robertson and Codd (2019) on Stoicism and CBT and the IEP paragraph on Irvine. In the previous question they named the shared idea. Now they name something Ellis and Beck left out.
 
 What the reading says Ellis and Beck overlooked: the emphasis on mindfulness (attention to one's own judgements), acceptance of what is not up to us, and living according to values, which the abstract says were "largely ignored by them" and later reached CBT's third wave mainly from Buddhist sources. The dichotomy of control is another: the article says it was stressed by early rational therapists but not by Ellis or later CBT. Also acceptable: the goal of virtue as a whole way of life rather than symptom relief, or the treatment of involuntary proto-passions as natural and indifferent. Credit any of these if supported by the reading.

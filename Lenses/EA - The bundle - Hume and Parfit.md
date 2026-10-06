@@ -38,7 +38,6 @@ id:: a67d6240-6dbc-46cc-ac49-93bcd6025192
 content::
 \## Recall
 Spend 2 minutes writing down everything you remember from Hume and Parfit, without looking back. No need to organise it.
-force-feedback:: first
 feedback-instructions:: The learner read Hume, Treatise 1.4.6 paragraphs 1 to 4, and Parfit's essay "Divided Minds and the Nature of Persons" up to "Ordinary survival is about as bad as being destroyed and having a Replica" (the last section on split brains was optional), then wrote a free recall.
 
 Key points:
@@ -56,7 +55,6 @@ content::
 \## How it landed (optional)
 Take 2 minutes to note how Hume and Parfit landed. Did Hume's report match what you found when you looked? What convinced you, what did you doubt?
 optional:: true
-force-feedback:: first
 feedback-instructions:: The learner just read Hume (looking inward finds only particular perceptions, the self is a bundle) and Parfit (Bundle Theory, teletransportation, split brains, identity is not what matters), and earlier in the module did Hume's one-minute introspection themselves.
 
 This is a processing phase, not a teaching phase. Help them say their reaction precisely. If their own introspection found something Hume did not (for example a sense of awareness or of a witness), treat that as data, not error, and ask how they would describe it. Hume himself allowed that another person "may perceive something simple and continu'd, which he calls himself". If they doubt Parfit (for example "but the replica really is not me"), treat it as a fair position and ask what fact they think would make it them. If something resonated, ask what it connected to. Do not resolve whether the bundle view is right. 60 to 120 words. At most 2 replies, then close and send them to the next question. No generic praise.
@@ -68,7 +66,6 @@ content::
 Someone says: "Parfit and Hume claim that I don't exist. But I am obviously here, reading this. So their view refutes itself."
 
 Using the readings, what would Parfit reply?
-force-feedback:: first
 feedback-instructions:: The learner read Hume (Treatise 1.4.6) and Parfit ("Divided Minds and the Nature of Persons") and got a plausible but flawed objection: "Parfit and Hume claim that I don't exist. But I am obviously here, reading this. So their view refutes itself." This is practice, not a test.
 
 What a strong answer says:

@@ -63,7 +63,6 @@ id:: f621b748-e4d7-4049-925d-a83bacdfc0bb
 content::
 \## Recall
 Spend 2 minutes writing down everything you remember from these excerpts without looking back. No need to organise it.
-force-feedback:: first
 feedback-instructions:: The learner has just read four excerpts from Pigliucci's IEP entry "Stoicism" and Epictetus, Handbook chapters 3 and 8, and wrote a free recall without looking back.
 
 Key points: Stoicism holds that virtue (wisdom, courage, justice, temperance) is the only true good and is necessary and sufficient for eudaimonia. Health, wealth and education are "preferred indifferents", sickness, poverty and ignorance "dispreferred": worth choosing or avoiding, but not needed for a good life. This sits between Aristotle (virtue plus external goods are needed) and the Cynics (externals are distractions to avoid). Roman Stoics differed: Epictetus strict and near-Cynic, Musonius politically active and saying women can philosophise as well as men, Seneca wealthy and open to Epicurus, Marcus open to "Providence or atoms". Passions (fear, craving, pleasure, pain in a special sense) are judgements, giving assent to an impression. Automatic first reactions are not under our control. Healthy feelings (discretion, willing, delight) remain, so Stoicism is not emotional suppression. Epictetus 3: remind yourself that what you love is a jug, or a human being, so you are not disturbed when it breaks or dies. Epictetus 8: wish things to happen as they do happen.
@@ -75,7 +74,6 @@ id:: 156ea954-b6c7-4915-b478-2629c080fdb9
 content::
 \## How it landed
 Take 2 minutes to note how this landed. What made sense to you? What do you doubt or push back on? Did anything match or clash with your own experience of strong emotions?
-force-feedback:: first
 feedback-instructions:: The learner has read IEP excerpts on Stoic ethics (virtue the only good, preferred indifferents, the passions as judgements, healthy feelings) and Epictetus, Handbook 3 and 8, and has written how it landed. This is a processing phase, not a teaching phase. Help them say their reaction precisely. Do not resolve it and do not argue for or against Stoicism.
 
 If they are confused, ask what exactly is unclear: a term, the argument, or a clash with what they believed. If they are sceptical (for example, Handbook 3 about a dying child seems cold, or "virtue is the only good" seems false), treat it as a legitimate position and ask what would have to be true for them to accept the claim, or what evidence would settle it. If something resonated, ask what experience it connected to. If their doubt is about whether Stoicism is the same as suppressing feelings, say the next question takes that up.
@@ -89,7 +87,6 @@ content::
 A friend says: "Stoicism means you shouldn't care about anything outside your control. A real Stoic doesn't mind being ill or poor, and doesn't feel grief, they just keep a stiff upper lip."
 
 Which parts of this get the Stoics right, and which get them wrong? Use what you just read.
-force-feedback:: first
 feedback-instructions:: The learner read Pigliucci's IEP entry "Stoicism" (opening summary, Aristotle versus the Cynics versus the Stoics, the styles of the Roman Stoics, the passions as judgements) and Epictetus, Handbook 3 and 8. The friend's summary is a deliberate mix of right and wrong. It is not a graded test.
 
 What the friend gets roughly right: Stoics hold that things outside our control (health, wealth, reputation) are not good or bad in themselves and that virtue alone is enough for eudaimonia. Epictetus, Handbook 3, really does advise reminding yourself that your child is a human being so that you are not disturbed when they die, so the friend is not inventing the hard edge.

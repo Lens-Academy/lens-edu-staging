@@ -166,12 +166,10 @@ These come from the library modules. Each page has its own safety box.
 id:: 84a287b1-36a4-47d9-a3e9-6594852dd321
 content::
 Which one to three experiments will you run?
-force-feedback:: first
 feedback-instructions:: The learner chooses one to three experiments from the menu on this page (module 5 desire experiments, module 6 self experiments, module 7 feelings experiments, and the experiments pages of the library modules: CBT and ACT, early Buddhism, secular meditation, self-compassion, Stoicism, wellbeing science, non-dual, fundamental wellbeing, jhanas). Reply in 50 to 100 words. Restate the choice. Then check, and mention only what applies: more than three (ask which to drop or postpone); more than one intensive practice at the same time (an hour or more a day, a retreat, the paid Finders Course, jhana sits of 45 minutes or more), in which case suggest running them one after another; two experiments that measure the same thing at the same time, so their effects cannot be told apart. If they chose an experiment from a library module they did not take, tell them to read that page and its safety box before writing the protocol. If they chose an experiment not on the page, ask where its instructions come from. Do not recommend a school or say which experiment is better. Do not ask which position each tests: the next question does that. One turn. No generic praise.
 
 #### Question: Open
 id:: 7eedf9fe-3210-44d1-a183-456ff406b5d1
 content::
 For each experiment you chose, which of the positions you stated on the previous page could its result change?
-force-feedback:: first
 feedback-instructions:: The learner chose one to three experiments (answer above on this page) and now links each to a position from the previous page: whether circumstances can give lasting peace, whether seeing clearly what the self is makes a person happier, or one of the claims they find best supported. Reply in 50 to 110 words. For each experiment, check that its result could actually bear on the position. For example, a week of three good things bears on whether a cheap exercise raises happiness, but says little about whether peace can be independent of circumstances, while a recovery-time log after upsets, or ratings on hard days, bears on that more directly. If an experiment bears on none of their positions, say so plainly and ask whether they want it anyway for another reason, which is fine. Do not say which position the result will support. One or two replies. No generic praise.

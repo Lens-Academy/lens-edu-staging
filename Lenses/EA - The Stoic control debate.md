@@ -19,12 +19,10 @@ source:: [[../articles/tremblay-there-is-no-trichotomy-of-control-in-stoicism]]
 id:: 4b316dc1-d491-4a99-85b0-8ede01898bfe
 content:: Take a goal you care about that is partly up to you. How would someone who uses Irvine's three categories handle wanting it?
 optional:: true
-force-feedback:: first
 feedback-instructions:: Optional question after Tremblay's article. On Irvine's trichotomy, a goal you can influence but not control is a third category: you care about the outcome but set internal goals, such as trying your hardest or improving your skill, rather than external ones such as winning. Check the learner's description against this in one or two sentences. 50 to 90 words. One turn. No generic praise.
 
 #### Question: Open
 id:: 00199295-2638-4599-b1b1-562b6b729abd
 content:: How would Tremblay handle wanting the same goal?
 optional:: true
-force-feedback:: first
 feedback-instructions:: Optional question after Tremblay's article. On Tremblay's reading, the dichotomy is about value and identity, not degrees of control: your choices, judgements and the desires that follow from them are yours and are the only truly good or bad things, the outcome is not. So there is no third category, only your choices about the goal, and the outcome, which is not up to you. Check the learner's description against this in one or two sentences. Do not say which reading is right. 50 to 90 words. One turn. No generic praise.

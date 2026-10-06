@@ -81,7 +81,6 @@ id:: 591ac4f9-0fe7-4bbe-bdad-a283ef002c25
 content::
 \## Recall
 Spend 2 minutes writing down everything you remember from the reading, without looking back. No need to organise it.
-force-feedback:: first
 feedback-instructions:: The learner read excerpts from Lindahl and Britton (2019) on changes in sense of self among Buddhist meditators, then wrote a free recall.
 
 Key points:
@@ -99,7 +98,6 @@ content::
 \## How it landed (optional)
 Take 2 minutes to note how the reading landed. What surprised you, what worried you, what did you doubt?
 optional:: true
-force-feedback:: first
 feedback-instructions:: The learner just read Lindahl and Britton's six kinds of change in sense of self, with first-person reports of both welcome and distressing changes, and is noting their reaction.
 
 This is a processing phase, not a teaching phase. Help them say their reaction precisely. If they are worried about trying the experiments later in the module, take it seriously: say the experiments are short and the module's method page explains when to stop and where to get help. If they doubt the study, treat it as a fair position and ask what kind of sample would answer their doubt. If something resonated with their own experience, ask which of the six categories it fits. 60 to 120 words. At most 2 replies, then close and send them to the next question. No generic praise.
@@ -111,7 +109,6 @@ content::
 A friend who meditates says: "Losing the sense of self is the goal. If it ever feels bad, that just means you are still clinging, so you should push through."
 
 Using the reading, what is wrong or missing in this?
-force-feedback:: first
 feedback-instructions:: The learner read Lindahl and Britton (2019) and got a plausible but flawed claim: "Losing the sense of self is the goal. If it ever feels bad, that just means you are still clinging, so you should push through." This is practice, not a test.
 
 Points a strong answer finds (any two are good):

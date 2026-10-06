@@ -25,7 +25,6 @@ Six items (2, 3, 5, 6, 7, 10) describe kindness, common humanity and balance. Th
 id:: 9205dc06-f4e0-477b-b9f8-663f72d53fe2
 content::
 Before you read the critique: which of the twelve items would a person who is depressed probably agree with, whether or not they are self-compassionate?
-force-feedback:: first
 feedback-instructions:: The learner looked at the 12 items of the Self-Compassion Scale Short Form and was asked, before reading the critique, which items a depressed person would probably agree with. There is no single right answer. The reverse-scored items are 1 (consumed by feelings of inadequacy after failure), 4 (feeling others are happier when down), 8 (feeling alone in failure), 9 (obsessing on everything that is wrong when down), 11 (disapproving and judgemental about own flaws) and 12 (intolerant and impatient towards disliked parts of personality). Items 1 and 9 resemble rumination, 4 and 8 resemble isolation, 11 and 12 resemble self-criticism, all common in depression. In 50 to 90 words: say which of the items they picked are reverse-scored, and note any reverse-scored item they did not pick that resembles a symptom. Say that the next reading makes exactly this argument. One turn, no generic praise.
 
 #### Text

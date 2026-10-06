@@ -123,7 +123,6 @@ to:: We shall be rich with all the more comfort, if we once learn how far povert
 id:: 911434fd-7899-4d76-a33b-887f6f691c16
 content::
 Which experiment will you run, and which Stoic claim will it test?
-force-feedback:: first
 feedback-instructions:: The learner has read six Stoic experiments, each with a claim it tests: (1) a whole Stoic Week raises well-being; (2) sorting what is and is not in your power changes how you feel; (3) morning preparation and evening review make you act more in line with your values and react less; (4) premeditation of adversity reduces distress about feared events; (5) the view from above makes everyday troubles matter less; (6) voluntary discomfort shows losing comforts is less bad than feared. They now pick one and name its claim.
 
 Reply in 40 to 80 words. Check that the claim they name fits the experiment. If it is vague ("Stoicism works"), ask them to make it specific in one sentence. Do not push a choice. No generic praise. One turn, then send them to the next question. If the learner says they do not understand, give one foothold: ask which exercise they would most likely still be doing on day five.
@@ -132,7 +131,6 @@ Reply in 40 to 80 words. Check that the claim they name fits the experiment. If 
 id:: d8987699-3daa-4e9a-95b8-c4f60c4ae084
 content::
 Write your plan: what you will do each day, for how many days, and what you will measure before, during and after.
-force-feedback:: first
 feedback-instructions:: The learner chose one of six Stoic experiments in the previous question and now writes a plan. Each experiment in the lens has a dose and a measure from the Stoic Week 2014 Handbook: whole Stoic Week, about 15 minutes three times a day for seven days (5 to 10 minutes is acceptable), with the Satisfaction with Life Scale and SPANE before and after; what is in your power, a few minutes per situation with 0 to 100 ratings; morning and evening meditation, 5 to 10 minutes each; premeditation of adversity, 20 to 30 minutes a day, rating the feeling 0 to 100% at the start and end, starting with small things; view from above, once a day; voluntary discomfort, giving up coffee or snacks for the week, or Seneca's three or four days of the cheapest food and rough clothes. In module 3 they learned to design a single-case test: baseline, dose, measurement, confounders.
 
 A good plan has a daily dose, a duration, a baseline measured before starting, a measure during or after, and one step against obvious confounders (for example, not starting during an unusually good or bad week, or noting other changes). Reply in 80 to 130 words. Name the strongest part of the plan and the most important missing piece. If they picked premeditation of adversity with a major personal loss as the first topic, point to the handbook's advice to start small. No generic praise. One turn, then send them to the next question. If the learner says they do not understand, give one foothold: ask what number they will write down on the first day.
@@ -141,7 +139,6 @@ A good plan has a daily dose, a duration, a baseline measured before starting, a
 id:: f32ee49e-dd84-458c-a139-e2c466590cc9
 content::
 What result would make you doubt the claim?
-force-feedback:: first
 feedback-instructions:: The learner chose a Stoic experiment, named the claim it tests and wrote a plan in the previous two questions. Now they say what result would count against the claim. A good answer names a concrete result on their own measure (for example, "my evening ratings of distress do not fall over seven days", or "giving up coffee was as bad as I expected"), and ideally notes what else could explain a positive result (expectation, a good week, the effect of any daily routine), so that a positive result is not overread.
 
 Reply in 50 to 100 words. Say whether their result is concrete enough that they will know when it happens. If they only say what would confirm the claim, ask for the opposite in one sentence. No generic praise. One turn. If the learner says they do not understand, give one foothold: ask what number on their measure would make them say the exercise did nothing.

@@ -81,7 +81,6 @@ to:: though their experience of these triggers was of a faint and vague sensatio
 id:: 050a6ee5-b628-49c7-8e79-8d1326c033e9
 content::
 Without looking back, write down what you remember: what sukha is and how it differs from pleasure, the three grades in the sutta, what equanimity is and is not, and what Martin's interviewees report.
-force-feedback:: first
 feedback-instructions:: The learner just read Ekman, Davidson, Ricard and Wallace 2005 (Buddhist sections on sukha), the Niramisa Sutta, Desbordes et al. 2015 on equanimity and parts of Martin's paper on persistent non-symbolic experience, and wrote a free recall.
 
 Key points:
@@ -96,7 +95,6 @@ Your role is a brief, honest mirror. 80 to 140 words, short paragraphs, no lists
 id:: 199cf5e8-2439-43c8-9be5-8281a84bf86e
 content::
 A friend says: "Equanimity is just a calm, pleasant feeling, and fundamental wellbeing is simply having a lot of that feeling." Using what you just read, where does this go wrong?
-force-feedback:: first
 feedback-instructions:: The learner was given a plausible but flawed claim: "Equanimity is just a calm, pleasant feeling, and fundamental wellbeing is simply having a lot of that feeling." This is not a test, it is practice for telling kinds of happiness apart.
 
 Points a strong answer finds (any two are good):

@@ -88,7 +88,6 @@ In our reading, the evidence supports a modest claim: a week or two of Stoic exe
 id:: 290f6ee3-4dc9-4d1f-99ac-ce0bef71bec9
 content::
 Stoic Week participants reported 12% more life satisfaction at the end of the week than at the start. Give two explanations for that rise other than "Stoic practice works".
-force-feedback:: first
 feedback-instructions:: The learner read four kinds of evidence on Stoicism, including the Stoic Week 2025 report (before and after, no control group, self-selected, self-report, 410 of 1,424 completed questionnaires). They now give two explanations for the 12% rise in life satisfaction other than Stoic practice working. The next question asks which design would rule each out, so do not discuss designs here.
 
 Good alternative explanations include: only the people who benefited finished the questionnaire (dropout); people expected to feel better or wanted to please the organisers (expectancy, demand); people who sign up are already keen on Stoicism (self-selection); scores drift back toward normal after a bad patch (regression to the mean); any week of daily structured reflection might do the same (effects of attention and routine); something else happened that week.
@@ -99,7 +98,6 @@ Reply in 50 to 100 words. Say whether each explanation could really produce the 
 id:: c33d3183-a993-4258-b5cc-3ee9de8d47ad
 content::
 For each of your two explanations, which of the studies above, or which study design, would rule it out?
-force-feedback:: first
 feedback-instructions:: The learner read four kinds of evidence on Stoicism: the Stoic Week 2025 report (before and after, no control group, self-selected, self-report, 410 of 1,424 completed), the SABS correlations (about 6,000 self-selected participants, colloquial stoicism negatively related to flourishing), two randomised studies (MacLellan and Derakshan 2021, 45 high worriers, active control; King 2025 thesis, 119 participants, waitlist control, not yet peer reviewed) and a note that CBT evidence is indirect. In module 3 they learned to weigh evidence by its blind spots.
 
 Good alternative explanations include: only the people who benefited finished the questionnaire (dropout, 410 of 1,424); people expected to feel better or wanted to please the organisers (expectancy, demand, self-report); people who sign up for Stoic Week are already keen on it (self-selection); scores drift back toward normal after a bad patch (regression to the mean); any week of daily structured reflection might do the same (non-specific effects of attention and routine); something else happened that week. Which design addresses which: a randomised control group (King, MacLellan) handles regression to the mean and outside events. An active control that also takes daily time (MacLellan's control task, the planned registered report) handles non-specific effects of routine. A waitlist control does not handle expectancy, since people know whether they are getting the training. Analysing everyone who started handles dropout. Measures other than self-report would address self-report bias, and none of these studies relies mainly on them.
