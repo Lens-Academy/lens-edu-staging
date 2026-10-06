@@ -2,6 +2,7 @@
 id: 'aad67707-1ef7-4aba-8c64-c7cbdf7a3efc'
 title: "Disagreement Without Paralysis"
 tldr: "When experts and skilled forecasters remain far apart, the useful question is not whose number to copy but what produces the disagreement and which actions still make sense across plausible views."
+summary_for_tutor: "Uses the Existential Risk Persuasion Tournament to examine persistent disagreement, decomposition of top-level probabilities, inside and outside views, deference, crux-finding, and robust or reversible action under unresolved uncertainty. The learner is not given a preferred probability."
 reading_minutes: 20
 tutor_minutes: 15
 tags:
