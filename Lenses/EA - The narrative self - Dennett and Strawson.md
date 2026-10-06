@@ -51,7 +51,6 @@ id:: b3239560-6cee-41dd-96e8-279f765bc088
 content::
 \## Recall
 Spend 2 minutes writing down everything you remember from Dennett and Strawson, without looking back. No need to organise it.
-force-feedback:: first
 feedback-instructions:: The learner read excerpts from Dennett's "The Self as a Center of Narrative Gravity" and the abstract and sections 1 to 4 of Strawson's "Against Narrativity", then wrote a free recall.
 
 Key points:
@@ -65,7 +64,6 @@ id:: 1afae3d9-d811-4601-b818-388a91004f00
 content::
 \## Which are you?
 Think of something you did ten years ago and notice whether it feels like it happened to the self you are now, or only to the same human being. Using Strawson's two descriptions, would you call yourself more Episodic or more Diachronic?
-force-feedback:: first
 feedback-instructions:: The learner read Strawson's distinction: Diachronic people naturally figure their self as something that was there in the past and will be there in the future; Episodic people do not, although they know they are the same human being. Strawson says the two are not absolute, can vary with age, health and topic, and that neither is an inferior form of life. The learner now places themselves.
 
 There is no right answer. Reflect their answer back in one or two sentences, using Strawson's terms accurately. If their answer is mixed, say Strawson allows that (embarrassing memories and thoughts of death can feel Diachronic even for Episodics). Ask one question that sharpens it, for example whether the answer differs for embarrassing memories versus neutral ones. Do not judge either style as better. 50 to 100 words. At most 2 replies. No generic praise.
@@ -77,7 +75,6 @@ content::
 Someone says: "Dennett shows that the self is a story the brain tells. So everyone lives their life as a story, and people who don't have a coherent life story are missing part of themselves."
 
 Using both readings, where does this go wrong?
-force-feedback:: first
 feedback-instructions:: The learner read Dennett (the self as a centre of narrative gravity) and Strawson (Against Narrativity), and got a plausible but flawed claim: "Dennett shows that the self is a story the brain tells. So everyone lives their life as a story, and people who don't have a coherent life story are missing part of themselves." This is practice, not a test.
 
 Points a strong answer finds (any two are good):

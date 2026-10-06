@@ -35,7 +35,6 @@ We think two kinds of disagreement are mixed in this table. Some are about words
 id:: 5c5ccb86-129d-4df4-a7ea-00bb0720d38d
 content::
 In module 1 you wrote what you think the self is. Which row of the table is closest to your view now?
-force-feedback:: first
 feedback-instructions:: The learner has read the module's views of the self and the comparison table (not-self as a method, no-self, Advaita, IFS, Hume's bundle, Parfit's reductionism, Dennett's narrative self, Strawson against narrativity, Metzinger's self-model, Seth's constructed self, Thompson's self as a process, Wright's naturalised Buddhism) and now names the row closest to their view.
 
 Reflect their choice back in one or two sentences, stating precisely what that row commits them to, especially in the column on whether the everyday sense of self is an illusion, a construction or real. If they mix rows, say which combinations fit together and where two rows conflict. Do not say whether their view is right. 50 to 100 words. One or two replies. No generic praise.
@@ -44,7 +43,6 @@ Reflect their choice back in one or two sentences, stating precisely what that r
 id:: 970d523e-5266-43fc-b109-7cec4e7b36f9
 content::
 What evidence or experience would move you to a different row?
-force-feedback:: first
 feedback-instructions:: The learner has named the row of the comparison table closest to their view of the self, and now says what would change their mind.
 
 Check whether what they name could actually happen and would bear on the question. If their view and its rival differ only in words (for example Metzinger and Thompson), point out that no finding would move them, only a decision about how to use "self" or "illusion". If it is a factual difference (for example whether introspection finds a stable awareness), ask how they would make the observation trustworthy, and mention that the experiments later in this module are one place to try. 50 to 100 words. One or two replies. No generic praise.

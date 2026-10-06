@@ -21,7 +21,6 @@ Before you read, answer the thought experiment the reading is built around.
 #### Question: Open
 id:: bf24e95f-d687-4c21-af01-cfe1efc57da1
 content:: Imagine a machine that can give you, for the rest of your life, any experiences you like: writing a great novel, deep friendships, lasting inner peace. You would not know you were plugged in, and it never breaks. Would you plug in? Why or why not?
-force-feedback:: first
 feedback-instructions:: The learner is answering Nozick's experience machine before reading about it. Acknowledge their answer and their reason in one or two sentences, without saying whether it is right. If they would plug in, note that this fits hedonism. If they would not, suggest they look for what they want besides the experience as they read. Do not preview the reading's arguments. 40 to 70 words. One turn, then send them to the reading.
 
 #### Article
@@ -56,5 +55,4 @@ to:: Another option would be to bite the bullet, and point out that a theory cou
 #### Question: Open
 id:: 9433c042-86b3-4b89-a51e-d3b3303800c9
 content:: Go back to your answer about the machine. Which of the three theories does your answer fit, and what is the strongest objection to that theory from the reading?
-force-feedback:: first
 feedback-instructions:: The learner read Crisp's SEP 'Well-Being' section 4 excerpts. Hedonism: well-being is the greatest balance of pleasure over pain; main objection: the experience machine (many would not plug in, which suggests something besides experience matters); the hedonist's best reply is that our reluctance rests on common-sense intuitions that may themselves be justified by pleasure, and Crisp says dismissing hedonism quickly on this basis is not sound. Desire theories: well-being is getting what you want; they avoid the machine objection, but face cases like the fully informed grass-counter: Crisp leaves the case open, and the lens says that if her life seems poor despite her fulfilled desires, that counts against desire theories. Objective list theories: some things like knowledge or friendship are good for you regardless of enjoyment or desire; objection: elitism, telling people what is good for them against their own wants. Check that the learner matched their answer to the right theory and named a fitting objection. If they chose a theory that does not fit their reason, say so in one sentence. Reply in 80 to 130 words, no generic praise, do not tell them which theory is true. One turn.

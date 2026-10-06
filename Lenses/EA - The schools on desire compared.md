@@ -62,35 +62,29 @@ Jonas is up for a promotion. He wants it mostly because his parents keep asking 
 #### Question: Open
 id:: 2ca64486-ffaf-453b-bf0e-caebfde3712f
 content:: Which part of Jonas's wanting is closer to craving? Say what in the case tells you.
-force-feedback:: first
 feedback-instructions:: Practice before the graded test. Case: Jonas wants a promotion mostly because his parents keep asking about his career and because he would feel like a failure if a younger colleague got it first. On good days he enjoys the work itself, especially solving hard problems with his team. Reference: wanting the promotion as a result, to be seen as successful and to avoid feeling like a failure, is focused on a result, so closer to craving (tanha). Confirm or correct in one or two sentences. If the learner calls all of his wanting craving, point out that one kind of desire is treated as wholesome and that the next question asks about it. 50 to 90 words. One turn. No generic praise.
 
 #### Question: Open
 id:: 8d950bd5-8f3d-4c3e-a0f8-9f958b495110
 content:: Which part of Jonas's wanting is closer to wholesome desire? Say what in the case tells you.
-force-feedback:: first
 feedback-instructions:: Practice before the graded test. Case as in the previous question. Reference: enjoying the work itself, especially solving hard problems with his team, is focused on the doing, so closer to wholesome desire (chanda). Confirm or correct in one or two sentences. 40 to 80 words. One turn. No generic praise.
 
 #### Question: Open
 id:: cad511ea-941f-425a-ab4b-7064ba4d0243
 content:: Jonas would feel like a failure if a younger colleague got the promotion first. Where does this reason belong on the continuum from external regulation to intrinsic motivation? Say why.
-force-feedback:: first
 feedback-instructions:: Practice before the graded test. Reference: avoiding feeling like a failure is introjected regulation (avoiding shame, self-worth that depends on the result). For contrast, his parents' expectations are closer to external regulation, and enjoying the problem-solving is intrinsic. Confirm or correct the placement in one or two sentences. The most common slip is calling the failure reason identified: identified means valuing the goal as personally important, not avoiding a bad feeling. 60 to 100 words. One turn. No generic praise.
 
 #### Question: Open
 id:: 5f62bd32-56a7-47fe-8aaf-ef3625787070
 content:: Into which of Epicurus's classes of desire does Jonas's desire for the promotion fall? Give your reason.
-force-feedback:: first
 feedback-instructions:: Practice before the graded test. Reference: as a marker of status and a way to avoid feeling like a failure, the desire is neither natural nor necessary (from opinion, with no natural limit). If the learner argues from income or the work itself, natural but not necessary is also defensible. It is not natural and necessary, since he can live well without it. Mention that Vatican Saying 71's question (what happens if he gets it, and what if not?) is a good way to check. Confirm or correct in one or two sentences. 60 to 100 words. One turn. No generic praise.
 
 #### Question: Open
 id:: e8a980bf-f6e7-4c6e-9597-3091c9a605b2
 content:: Which of the disagreements above matters most for how you want to live, and why?
-force-feedback:: first
 feedback-instructions:: Reflective question. The learner picks the disagreement between the schools on desire (what to do with craving, whether outer things matter, whether wanting can end, or another they name) that matters most for their own life. Restate their choice precisely in one or two sentences. If they lean toward one school, name the strongest point the other side would make, with its source from the table, without saying which is right. 60 to 110 words. At most two replies. No generic praise.
 
 #### Question: Open
 id:: 6ea2d465-96ae-4dd5-b427-97accae98b34
 content:: What result, from a study or from your own experiments, would change your mind on that disagreement?
-force-feedback:: first
 feedback-instructions:: The learner names evidence that would change their mind on the disagreement they chose in the previous question. If the evidence is vague ("if it worked for me"), ask what exactly they would measure and over how long, in one question. If it is concrete, say whether a study or a self-experiment fits it better, using the "what evidence would decide it" list on the page. Module 8 returns to this. 50 to 100 words. One turn. No generic praise.

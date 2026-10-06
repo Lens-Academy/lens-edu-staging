@@ -17,11 +17,9 @@ Think of something you wanted a lot and then got. It can be an object, a result,
 #### Question: Open
 id:: 492c4a3f-44e3-4623-8791-3bac68288398
 content:: How long did the good feeling of having it last?
-force-feedback:: first
 feedback-instructions:: Pre-reading question at the start of a module on desire. The learner names something they wanted and got, and says how long the good feeling lasted. Acknowledge what they wrote in one or two sentences, specifically, without judging it. Do not explain hedonic adaptation, wanting versus liking or any school's view: the next pages do that. Close by sending them to the next question. At most 50 words. No generic praise.
 
 #### Question: Open
 id:: 4613e272-b07c-451e-a640-895782bc7cf4
 content:: Once you had it, how did your enjoyment of it compare with how much you had wanted it?
-force-feedback:: first
 feedback-instructions:: Second pre-reading question. The learner compares how much they wanted something with how much they enjoyed it once they had it. Acknowledge their answer in one or two sentences. If they noticed a gap between the wanting and the enjoying, say only that the next page looks at exactly that gap. Do not explain the research. At most 50 words. No generic praise.

@@ -53,7 +53,6 @@ content::
 A friend says: "All meditation is basically the same thing. You focus on your breath and calm down. So once you have tried one kind, you know what meditation does."
 
 Using the reading, what would you tell them? Give one example practice from each family.
-force-feedback:: first
 feedback-instructions:: The learner read Dahl, Lutz and Davidson 2015: the framing, Table 1 and the opening paragraph of each family. They were given a flawed claim: "All meditation is basically the same thing. You focus on your breath and calm down. So once you have tried one kind, you know what meditation does." This is practice, not a test.
 
 What a strong answer says:

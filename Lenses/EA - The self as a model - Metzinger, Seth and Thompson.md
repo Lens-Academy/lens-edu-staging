@@ -42,7 +42,6 @@ id:: aaf99fbb-eb62-48e7-ad8b-b20adeb69c75
 content::
 \## Recall
 Spend 2 minutes writing down everything you remember from this page, without looking back. No need to organise it.
-force-feedback:: first
 feedback-instructions:: The learner read an interview with Thomas Metzinger and one paragraph by Evan Thompson, perhaps also watched the optional second half of Anil Seth's TED talk, then wrote a free recall.
 
 Key points:
@@ -58,7 +57,6 @@ content::
 \## How it landed (optional)
 Take 2 minutes to note how these sources landed. What convinced you, what did you doubt, what confused you?
 optional:: true
-force-feedback:: first
 feedback-instructions:: The learner just read Metzinger (no one ever was a self, the self is a process and a brain representation), watched Seth (the experience of being a self is a controlled hallucination grounded in the body) and read Thompson (the self is like a dance, a construction, not an illusion), and is noting their reaction.
 
 This is a processing phase, not a teaching phase. Help them say their reaction precisely. If they are confused, ask what exactly is unclear. If they doubt a claim, treat that as a fair position and ask what would convince them. If something resonated, ask what it connected to. If their reaction is about whether these thinkers really disagree, say the next question is about exactly that and do not resolve it. 60 to 120 words. At most 2 replies, then close and send them to the next question. No generic praise.
@@ -70,7 +68,6 @@ content::
 A friend says: "Metzinger says nobody ever was a self. Thompson says the self is real, like a dance. They can't both be right about the brain, so one of them must have the science wrong."
 
 Using what you just read, where does this go wrong?
-force-feedback:: first
 feedback-instructions:: The learner read Metzinger (interview with Taft), Seth (TED, second half) and Thompson (Lion's Roar paragraph), and got a plausible but flawed claim: "Metzinger says nobody ever was a self. Thompson says the self is real, like a dance. They can't both be right about the brain, so one of them must have the science wrong." This is practice, not a test.
 
 What a strong answer sees:

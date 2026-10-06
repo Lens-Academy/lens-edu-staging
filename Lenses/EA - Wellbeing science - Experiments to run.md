@@ -49,47 +49,40 @@ These exercises were tested in people without a diagnosed condition. They are no
 id:: 1f66df41-aa75-4f6e-828e-e70ef5453ea1
 content::
 The next questions build a protocol for one exercise, one piece at a time. First: which exercise will you test?
-force-feedback:: first
 feedback-instructions:: The learner picks one positive psychology exercise from this lens: three good things, gratitude visit, best possible self, acting extraverted for a week, or treating a cashier as a person. Acknowledge the choice in one sentence. If they choose the gratitude visit, mention that its effect in the 2005 trial was gone by three months. If they choose the cashier exercise, mention that it was tested as a single interaction, so a self-test needs many repetitions to be measurable on a weekly or monthly scale. If they choose an exercise not in the lens, ask where its instructions come from. Do not tell them which exercise to choose or whether it will work. 30 to 70 words. One reply. No generic praise.
 
 #### Question: Open
 id:: 34152191-eecd-43ee-852e-f99af7b7cade
 content::
 What schedule will you follow: how often you do the exercise, and over how many days?
-force-feedback:: first
 feedback-instructions:: The learner states the schedule (dose) for their chosen positive psychology exercise. The sourced doses: three good things (about 10 minutes every night for at least one week), gratitude visit (one letter, about 10 minutes to write, at least 30 minutes to read it in person), best possible self (15 minutes a day for two weeks), acting extraverted (one week, after listing five specific ways and times), treating a cashier as a person (one purchase, repeatable). Check that the schedule matches the source, and if not, say what the source used. 30 to 70 words. One reply. No generic praise.
 
 #### Question: Open
 id:: fd8c8abc-f2b2-4dc1-a04b-6142722f39bb
 content::
 What will you compare the exercise with?
-force-feedback:: first
 feedback-instructions:: The learner says what they will compare their chosen positive psychology exercise with. The lens recommends a comparison period, for example a week of a neutral writing task such as the 2005 trial's control (writing about early memories every night for a week), which itself raised happiness right after the week. A baseline period with no exercise is weaker but acceptable. Comparing only "before and after" with no comparison period cannot separate the exercise from expectation, time or events. If their answer has no comparison, say this in one sentence and suggest the early-memories week. 40 to 80 words. One reply. No generic praise.
 
 #### Question: Open
 id:: 5c9be56f-537f-41aa-be2a-2c8f27583708
 content::
 What will you measure?
-force-feedback:: first
 feedback-instructions:: The learner says which measure they will use. The lens offers SPANE (how often 12 feelings occurred over the past four weeks, positive 6 to 30, negative 6 to 30, balance -24 to 24), the Satisfaction With Life Scale (5 statements, 5 to 35), and optionally a daily evening rating of the SPANE words for that day, which the lens marks as our own unvalidated adaptation. It also suggests noting how one was on the hardest days if stability under bad circumstances is what matters. Check that the measure is named and scorable. If they invent their own measure, say that it is fine as an addition but that a published scale makes the result comparable with the trials. 30 to 70 words. One reply. No generic praise.
 
 #### Question: Open
 id:: f22f8870-ca47-4bc1-961d-c891ce3975a7
 content::
 On which days will you take the measurements?
-force-feedback:: first
 feedback-instructions:: The learner says when they will measure. The lens recommends a baseline before starting, a measurement after the exercise period and after the comparison period, and a later follow-up a few weeks after stopping. SPANE asks about the past four weeks, so it should be repeated at four-week intervals. A daily rating, if used, is taken each evening. Check for a baseline, a measurement after the exercise and a later follow-up. If SPANE is planned at intervals shorter than four weeks, point out that it asks about the past four weeks. 30 to 70 words. One reply. No generic praise.
 
 #### Question: Open
 id:: 6d9ab082-db41-4338-a1ed-46f3ee17d0c0
 content::
 What result do you predict? Write it as a number on the scale you chose.
-force-feedback:: first
 feedback-instructions:: The learner writes a prediction for their self-experiment with a positive psychology exercise, as a number on their chosen scale (SPANE positive or negative 6 to 30, balance -24 to 24, or Satisfaction With Life Scale 5 to 35). Check that it is a number on a named scale with a time point. If it is vague ("I'll feel better"), ask for the number. Do not say whether the prediction is realistic, except that if they predict a very large change, mention that corrected meta-analyses find small average effects for single exercises. 30 to 70 words. One reply. No generic praise.
 
 #### Question: Open
 id:: 813e4924-8d38-4dce-a6e2-2eab70dfdcbd
 content::
 What result would make you drop the exercise?
-force-feedback:: first
 feedback-instructions:: The learner states a stopping rule for their self-experiment with a positive psychology exercise. A good rule names a result and a time, for example "if my SPANE balance after four weeks is no higher than after the comparison week, I stop". Check that the rule could actually be met. If it could not (for example "if it does nothing at all ever"), ask for a concrete threshold. Close by telling them the protocol can be used again in module 8. 30 to 70 words. One reply. No generic praise.

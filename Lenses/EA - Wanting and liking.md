@@ -31,7 +31,6 @@ id:: c595344c-be1c-4ed6-afc9-b5e97fc19d93
 content::
 \## Recall
 Spend 2 minutes writing down everything you remember from the interview and the box after it, without looking back. No need to organise it.
-force-feedback:: first
 feedback-instructions:: The learner watched 6 minutes of an interview with Kent Berridge and read a short box on Pool et al. 2016, then writes a free recall.
 
 Key points:
@@ -49,7 +48,6 @@ id:: 79bf1da5-98ba-4961-8e26-dceccb67a785
 content::
 \## Processing
 Take 2 minutes to note how this landed. Does the split between wanting and liking fit your answer to the pre-reading question? What did you doubt?
-force-feedback:: first
 feedback-instructions:: Processing phase after Berridge's interview excerpt (wanting and liking as separate brain processes, dopamine and wanting) and the Pool et al. 2016 caveat. Help the learner say how it landed. Do not teach. If they are confused, ask what exactly was unclear. If they doubt it, treat that as legitimate and ask what evidence would convince them. A fair doubt: most of the evidence comes from rats and addiction. If it resonated, ask for one example from their own life where wanting and enjoying came apart, and how they could tell. 80 to 150 words. Short paragraphs, no lists. After 2 replies, close the phase and send them on. No generic praise.
 
 #### Question: Open
@@ -57,7 +55,6 @@ id:: 1fa4be20-0f37-40f4-8789-1e1cf16e7843
 content::
 \## Learning question
 A friend says: "I check my phone about a hundred times a day, so I must really enjoy it. Otherwise I would not want to do it so much." Where does this reasoning go wrong?
-force-feedback:: first
 feedback-instructions:: Learning question after Berridge's interview and the Pool et al. 2016 caveat.
 
 Key points:
@@ -70,5 +67,4 @@ Per reply: if the learner asks a direct question, answer it. Otherwise restate t
 #### Question: Open
 id:: a0337632-7c81-4e81-857e-2703b8257558
 content:: How strong is the evidence that this mistake applies to an ordinary habit like your friend's?
-force-feedback:: first
 feedback-instructions:: Second part of the learning question after Berridge's interview and the Pool et al. 2016 caveat. Key points: the dissociation of wanting and liking is strong in rats (dopamine changes wanting without changing liking reactions) and in addiction. For ordinary human habits like checking a phone, human studies are contradictory, partly because measures confound wanting and liking with expected pleasantness (Pool et al. 2016). So the friend's inference is not safe, but we cannot say for sure that their phone use is wanting without liking. If the learner overclaims ("science proves the phone gives no pleasure"), ask what the Pool review found. If they dismiss the idea entirely, ask what the rat and addiction findings show. Restate their answer in 2 to 3 sentences, name the main gap, ask one answerable follow-up. At most 3 replies. On close, say what they showed clearly and what is still vague. 100 to 160 words. No generic praise.

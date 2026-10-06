@@ -59,7 +59,6 @@ to:: implicate financial life satisfaction as an important mediator for the long
 id:: 6c0fef91-428a-4ded-a9e2-dccf6527811f
 content::
 Rewrite Gilbert's sentence ("lottery winners and paraplegics are equally happy with their lives") so that it matches the evidence you just read. Then compare it with the two numbers you predicted before reading. What surprised you?
-force-feedback:: first
 feedback-instructions:: The learner may or may not have watched Dan Gilbert's TED talk (it is optional). They read a correction of his retelling of Brickman et al. 1978, the abstract and one section of Diener, Lucas and Scollon 2006, and the abstract of Lindqvist et al. 2020. They now rewrite Gilbert's sentence and compare it with their earlier prediction (their prediction is in the previous lens; if you cannot see it, ask them to restate it in one line).
 
 Facts to check against: Brickman et al. measured present happiness once, on a 0 to 5 scale: winners 4.00, controls 3.82, accident victims 2.96. Winners were not significantly happier than controls. Victims were significantly less happy than controls but above the scale midpoint. Diener, Lucas and Scollon compute this gap as about 0.75 standard deviations, which they call large, and report lasting drops in life satisfaction after widowhood, unemployment, divorce and disability in large panel studies, with people differing a lot in how much they adapt. Lindqvist et al. find that large lottery wins raise life satisfaction for over a decade, with significantly smaller effects on happiness and mental health.
