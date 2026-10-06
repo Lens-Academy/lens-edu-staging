@@ -10,9 +10,9 @@ tags:
 ---
 #### Text
 content::
-The schools you will meet in this course disagree on three questions. What kind of happiness are we after? Can good circumstances make you lastingly happy? Does seeing yourself clearly make you happier? This module takes them one at a time. For each one you get the main answers, who gives them and the evidence behind them. The course does not choose an answer for you.
+The schools you will meet in this course disagree on three questions. What kind of happiness are we after? Can good circumstances make you lastingly happy? Does seeing yourself clearly make you happier? This module takes them one at a time. For each one you get the main answers, who gives them and the evidence behind them. The course does not choose an answer for you. The last question also introduces three topics that later modules cover in depth: why we want things, what the self is and how experience is built.
 
-This is a first pass. Module 3 uses these readings as examples when you learn to judge claims, and module 4 sorts the schools by the kind of happiness they aim at. Modules 6 and 7 come back to the self and to circumstances with new evidence.
+This is a first pass. Module 3 uses these readings as examples when you learn to judge claims, and module 4 sorts the schools by the kind of happiness they aim at. Modules 5 to 7 come back to desire, the self and circumstances with new evidence.
 
 We start with the first question. Before you read what others mean by happiness, write down what you mean by it.
 
