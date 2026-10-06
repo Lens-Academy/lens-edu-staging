@@ -43,7 +43,7 @@ By the end of this course you will be able to:
 Five units. Each unit is about three and a half to four hours of reading, videos and exercises on your own, with an AI tutor you can talk to. Each unit ends with a short test on what it taught and a group meeting where you discuss the questions the readings leave open.
 
 :::callout {title="Before you start" tone="blue"}
-You need a basic understanding of AI safety: you have taken our [AI Risk Fundamentals](https://lensacademy.org/ai-risk-fundamentals) course or something similar. If you haven't, we recommend doing that first.
+You need a basic understanding of AI safety: you have taken our [AI Risk Fundamentals](https://lensacademy.org/courses/ai-risk-fundamentals) course or something similar. If you haven't, we recommend doing that first.
 :::
 
 \## The five units
@@ -70,4 +70,4 @@ Real debates between people who disagree about control, including those that fol
 
 \## What comes after
 
-If you want to go deeper into how control works in practice, our [Advanced AI Control 1](https://lensacademy.org/ai-control-1), [Advanced AI Control 2](https://lensacademy.org/ai-control-2) and [Advanced AI Control 3](https://lensacademy.org/ai-control-3) courses, built on XLab's AI Control track, cover the founding paper, control protocols, monitoring, collusion and more. They are available for self-study.
+If you want to go deeper into how control works in practice, our [Advanced AI Control 1](https://lensacademy.org/courses/ai-control-1), [Advanced AI Control 2](https://lensacademy.org/courses/ai-control-2) and [Advanced AI Control 3](https://lensacademy.org/courses/ai-control-3) courses, built on XLab's AI Control track, cover the founding paper, control protocols, monitoring, collusion and more. They are available for self-study.

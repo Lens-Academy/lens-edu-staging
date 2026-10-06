@@ -171,7 +171,7 @@ Back in the main room, share if you feel like it: where you landed in Room 3, in
 Before you leave (your navigator will talk through these):
 
 - This is the last meeting of AI Control Fundamentals, so there is no next unit to read.
-- Want more depth? [Advanced AI Control 1](https://lensacademy.org/ai-control-1), [Advanced AI Control 2](https://lensacademy.org/ai-control-2) and [Advanced AI Control 3](https://lensacademy.org/ai-control-3), built on XLab's AI Control track, cover the founding paper, control protocols, monitoring, collusion and more. They are open for self-study.
+- Want more depth? [Advanced AI Control 1](https://lensacademy.org/courses/ai-control-1), [Advanced AI Control 2](https://lensacademy.org/courses/ai-control-2) and [Advanced AI Control 3](https://lensacademy.org/courses/ai-control-3), built on XLab's AI Control track, cover the founding paper, control protocols, monitoring, collusion and more. They are open for self-study.
 - After the meeting there is a short survey. Your navigator will point you at it.
 - Found something unclear, wrong, or missing? Tell us on the Unit 5 feedback page in the course.
 
