@@ -2,6 +2,7 @@
 id: '4286638f-3211-4a37-829d-077220cac36b'
 title: "Irreversibility and the Value of the Future"
 tldr: "An existential catastrophe is not just a very large disaster. The distinctive question is what is lost permanently, and whether that loss should change what we prioritise."
+summary_for_tutor: "Substantial synthesis of Bostrom's existential-risk argument. It distinguishes immediate casualties from irreversible loss, presents future-value and non-utilitarian reasons for caring, examines normative objections, and stresses that an existential label does not settle resource allocation. Followed by recall, processing, and a graded wedge question."
 reading_minutes: 18
 tutor_minutes: 14
 tags:
