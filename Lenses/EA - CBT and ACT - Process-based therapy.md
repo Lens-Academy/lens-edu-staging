@@ -39,7 +39,6 @@ id:: 0c9fdd08-64f7-4d51-8893-e6ca609347df
 content::
 What makes one side more convincing to you than the other?
 optional:: true
-force-feedback:: first
 feedback-instructions:: The learner read Hofmann and Hayes 2019 on process-based therapy (target changeable processes with matched procedures for the particular person, move from group averages to idiographic study of individuals) and Emmelkamp's 2021 reply (no robust evidence that individualised treatment beats manualised protocols, similar non-response rates for third wave therapies, CBT and ACT working through overlapping processes, individualised therapy is harder to learn). They say which side convinces them and why.
 
 Reply in 60 to 110 words. Treat either side as a fair position and say what evidence would settle it (trials comparing individualised and standard treatment directly). One turn, then send them on. No generic praise.
@@ -49,5 +48,4 @@ id:: 3e6cc4a8-529a-4149-8a40-7fc4b35d50eb
 content::
 Name one process in yourself that you could track for a few weeks to see what changes it, for example how much you believe a certain thought, or how often you avoid something.
 optional:: true
-force-feedback:: first
 feedback-instructions:: The learner names one psychological process in themselves to track over a few weeks, after reading about process-based therapy and the move from group averages to the study of one person. In 40 to 80 words, check that it can be rated often and simply, and suggest one concrete way to rate it, such as a 0 to 100 rating at a fixed time each day as on the experiment page. One turn. No generic praise.

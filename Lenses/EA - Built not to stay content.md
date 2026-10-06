@@ -48,7 +48,6 @@ id:: e43c2851-2a5e-4937-a566-5c9d5790193b
 content::
 \## Recall
 Spend 2 minutes writing down everything you remember from this page, without looking back. No need to organise it.
-force-feedback:: first
 feedback-instructions:: The learner just read three passages from Nesse 2004, a paragraph on Sheldon and Lyubomirsky 2012 and a short passage from Hobbes.
 
 Key points:
@@ -65,7 +64,6 @@ id:: fe4eb977-db06-4e94-a709-0b8478cf18a6
 content::
 \## Processing
 Take 2 minutes to note how the readings landed. Do you recognise the "modern goals" Nesse describes in your own plans? What did you doubt?
-force-feedback:: first
 feedback-instructions:: Processing phase after Nesse 2004 (happiness as a means of regulating goal pursuit, modern goals that are huge, long and all-or-none), Sheldon and Lyubomirsky 2012 (rising aspirations) and Hobbes (felicity as endless desire). Help the learner say how the readings landed. Do not teach. If they are confused, ask what exactly was unclear. If they doubt it, treat that as legitimate and ask what evidence would convince them. A fair doubt: evolutionary explanations of feelings are hard to test directly. If it resonated, ask which of their own goals fits the description and what its alternatives are. Do not advise them to change their goals. 80 to 150 words. Short paragraphs, no lists. After 2 replies, close the phase and send them on. No generic praise.
 
 #### Question: Open
@@ -73,7 +71,6 @@ id:: 052e7c1b-f492-4715-af09-fc467cba69ed
 content::
 \## Learning question
 An ambitious friend says: "Once my company is a success, I will finally be content for good." What would Nesse's account predict about how they will feel once they reach the goal, and why?
-force-feedback:: first
 feedback-instructions:: Learning question after Nesse 2004, Sheldon and Lyubomirsky 2012 and Hobbes.
 
 What a good answer contains:

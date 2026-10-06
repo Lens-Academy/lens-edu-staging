@@ -59,7 +59,6 @@ id:: e8d3d743-b0b9-46ff-bcc0-aa253b3b96ef
 content::
 \## Processing
 Take 2 minutes to note how the reading landed. Did one of the descriptions fit something you do? What did you doubt?
-force-feedback:: first
 feedback-instructions:: Processing phase after two passages from Ryan and Deci 2000 (the continuum from controlled to autonomous motivation, and intrinsic versus extrinsic aspirations). Help the learner say how the reading landed. Do not teach. If they are confused, ask what exactly was unclear. If they doubt it, treat that as a legitimate stance and ask what would convince them (for example, the theory's founders summarising their own work is a fair concern). If it resonated, ask which of their own activities it fits and which kind of reason drives it. If they say something they do is driven by guilt or pressure, do not advise them: ask what would change if the same activity were driven by valuing it instead. 80 to 150 words. Short paragraphs, no lists. Keep an internal count: after 2 replies, close the phase and send them on. No generic praise.
 
 #### Question: Open
@@ -67,11 +66,9 @@ id:: 45f61ec4-48e2-49ab-b3f3-412213bf3d0d
 content::
 \## Learning question
 Someone says: "Money is an extrinsic goal, so according to self-determination theory, earning a lot of money will make you unhappy." What did the research in the second passage actually find about extrinsic goals?
-force-feedback:: first
 feedback-instructions:: First part of the learning question, about the second passage of Ryan and Deci 2000. What the passage says: placing strong relative importance on extrinsic aspirations (wealth, fame, image) compared with intrinsic ones went with lower well-being indicators. Self-reported attainment of intrinsic aspirations went with well-being, attainment of extrinsic aspirations did not ("provided little benefit"). Extrinsic goals "at best indirectly" satisfy the basic needs. The meaning of specific goals varies across cultures. Check the learner's summary against this. Per reply: if the learner asks a direct question, answer it. Otherwise restate their answer precisely in 2 to 3 sentences, name the most important gap, and ask one answerable follow-up. Do not yet discuss where the sentence overreaches: the next question asks that. If stuck after 2 attempts, give the direct answer. At most 3 replies. 100 to 160 words. No generic praise.
 
 #### Question: Open
 id:: 8f162a04-4d41-4dfb-9b8b-3f851f24e46f
 content:: Where does the sentence "earning a lot of money will make you unhappy" go beyond what the research found?
-force-feedback:: first
 feedback-instructions:: Learning question after Ryan and Deci 2000, second part. Gaps in the claim: (1) the findings are about the relative importance people place on a goal and about what attaining it adds, not about money as such making people unhappy, and "little benefit" is not harm; (2) the studies described are mostly correlational, so they do not show that earning money causes anything; (3) the reasons someone pursues money for, controlled or autonomous (the first passage), may matter; (4) the authors note that the meaning of goals varies across cultures. Per reply: if the learner asks a direct question, answer it. Otherwise restate their answer precisely in 2 to 4 sentences, name 1 to 3 gaps, and ask 2 answerable follow-ups about why or how. If stuck after 2 attempts, give the direct answer and move on. After 3 replies, ask whether they want to continue. On close, say what they showed clearly and what is still vague, and whether they are ready for the test at the end of the comparison part. 120 to 200 words. No generic praise. Do not say whether pursuing money is good or bad for the learner.

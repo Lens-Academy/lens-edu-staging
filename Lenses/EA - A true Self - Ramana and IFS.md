@@ -56,7 +56,6 @@ id:: 30c5beef-4d20-4a3c-84f6-97d0172c4080
 content::
 \## Recall
 Spend 2 minutes writing down everything you remember from Ramana and Schwartz, without looking back. No need to organise it.
-force-feedback:: first
 feedback-instructions:: The learner read the opening and questions 1 to 10 of Ramana Maharshi's Who Am I? and Richard Schwartz's account of IFS (parts and the Self), then wrote a free recall.
 
 Key points:
@@ -72,7 +71,6 @@ content::
 A friend says: "Ramana, Schwartz and the Buddha all teach the same thing. Drop the small ego and you find your true Self underneath."
 
 Using this page and the not-self readings earlier in the module, where does this go wrong?
-force-feedback:: first
 feedback-instructions:: The learner read Ramana's Who Am I? (questions 1 to 10) and Schwartz on IFS, and earlier in the module SN 22.59, Thanissaro and Sujato on not-self. They got a plausible but flawed claim: "Ramana, Schwartz and the Buddha all teach the same thing. Drop the small ego and you find your true Self underneath." This is practice, not a test.
 
 Points a strong answer finds (any two are good):

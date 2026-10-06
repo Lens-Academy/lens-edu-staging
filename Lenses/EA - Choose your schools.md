@@ -24,7 +24,6 @@ You do not need to take all of them. Some ways to choose: the schools whose clai
 id:: 87854374-398c-449d-8e2f-131969416b96
 content::
 Which school modules do you want to take? List them, and for each say in a sentence why. If you want your picks to cover both things this course is about, becoming lastingly happier and understanding how the self and the mind work, say so.
-force-feedback:: first
 feedback-instructions:: The learner has finished the tour of the schools and lists which library modules (one per school, 25 in total) they want to take, with a reason for each. The course has two aims: wellbeing (deep, stable peace and happiness that does not depend on circumstances) and understanding how the mind works (what the self is, why we want, how experience is built). It never says which school is right. In your reply, use plain words for these two aims, not the word "strands".
 
 Reflect the choice back in two or three sentences: what the picks have in common (for example the same kind of happiness, the same method, one family only) and what that leaves out. If the learner said they want both aims, check whether the picks cover both, and if one is missing, name one or two schools from their own reasoning that would cover it. If all picks come from one family, mention that a school from another family that disagrees with them would test their view, without pressing. Do not judge the choice or say which schools are better. 60 to 120 words. At most two replies. No generic praise.
