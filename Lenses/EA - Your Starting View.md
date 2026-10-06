@@ -4,7 +4,7 @@ title: "Your starting view"
 tldr: "Write down what you think now about happiness and the self, before the course shows you any school. In module 8 you compare it with what you think then."
 summary_for_tutor: "The learner answers three separate questions, a sentence or two each: what happiness is, what would make them lastingly happy, and what the self is. It is not graded and has no right answer. It is revisited in module 8 (Your position and experiments), where the learner compares it with their view at the end of Part I. Do not correct, rank or argue with the view."
 reading_minutes: 6
-tutor_minutes: 2
+tutor_minutes: 0
 tags:
   - wip
 ---
