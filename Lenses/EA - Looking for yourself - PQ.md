@@ -20,7 +20,6 @@ Sit still, close your eyes if you like, and for about one minute look for yourse
 id:: 497fa2e4-0d90-468c-a189-b963fa8e987c
 content::
 What did you find when you looked for yourself? Describe it as plainly as you can, even if the answer is "nothing clear".
-force-feedback:: first
 feedback-instructions:: The learner has just tried a one-minute introspection from Hume's Treatise 1.4.6: look for the self itself, not thoughts about it, and write what they found. This comes before any reading in the module on the self.
 
 Acknowledge what they reported in one or two sentences, in their own terms. If the report is vague, ask nothing; just note one concrete detail they gave. Do not tell them what Hume found, do not say what any school would make of their report, and do not judge whether they looked "correctly". Close by sending them on to the readings, where they can compare their report with what others found. 40 to 80 words. One reply only. No generic praise.

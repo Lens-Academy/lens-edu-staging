@@ -32,7 +32,6 @@ Add the five numbers to get a raw score from 0 to 25, then multiply by 4 to get 
 id:: ba746f90-13b8-415a-b5be-bf731535bd0f
 content::
 Fill in the WHO-5 above. What is your score out of 100?
-force-feedback:: first
 feedback-instructions:: The learner reports their WHO-5 score (five items about the last two weeks, each 0 to 5, raw total 0 to 25, times 4 gives 0 to 100). Reply in 30 to 70 words. If the number is not a multiple of 4 or is above 100, ask them to check the arithmetic (raw total times 4). Say that module 8 will ask for this number again as their starting point, so they might note it down. If the score is below 50, say calmly that the WHO document suggests this as a reason for a check with a doctor, and that it is worth doing alongside the course, without alarming them. Do not interpret the score further. One reply.
 
 #### Text
@@ -81,5 +80,4 @@ We suggest one main measure taken every day, chosen to fit the claim (for exampl
 id:: 1be4fe06-73dd-4d9b-8328-b99325874271
 content::
 Think of the practice you chose on "Is it worth testing?". Which measure on this page would best show whether its claimed effect happens, and why?
-force-feedback:: first
 feedback-instructions:: The learner picks a measure for the practice they chose earlier in this module. Options on the page: WHO-5 (five items, last two weeks, broad wellbeing), EQUA-S (equanimity: even-minded state of mind and hedonic independence, about the past week), experience sampling (random prompts during the day, rate a few feelings right now), the Day Reconstruction Method (each evening, list the day's episodes and rate feelings 0 to 6), or a single daily rating. Reply in 50 to 100 words. Check that the measure matches the claimed effect and its timing: a same-day or daily effect needs a daily measure (a rating, experience sampling or day reconstruction), while WHO-5 and EQUA-S summarise weeks and suit slower effects or a broad check. If the measure is vague, suggest one specific daily rating. One reply. No generic praise.

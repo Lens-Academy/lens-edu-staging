@@ -41,7 +41,6 @@ The translator adds a note: "The rapture & pleasure apart from sensuality, apart
 id:: c028cbfd-ac6d-4eb4-8ec6-036a87f3fa28
 content::
 Without looking back, write down everything you remember from the two readings.
-force-feedback:: first
 feedback-instructions:: The learner read AN 5.28 (the four jhanas with their similes) and a passage of MN 14, both in Thanissaro Bhikkhu's translation, and wrote a free recall.
 
 Key points:
@@ -58,7 +57,6 @@ Your role is a brief, honest mirror. 80 to 140 words, short paragraphs, no lists
 id:: 198041a1-4103-491e-a80a-b4a0544a83b1
 content::
 How did these texts land with you? Write whatever made sense, seemed strange or made you doubt.
-force-feedback:: first
 feedback-instructions:: The learner read AN 5.28 (four jhanas with similes) and MN 14 (pleasure apart from sensuality is what ends the pull of sensuality, together with seeing its drawbacks), and now says how the reading landed. This is a processing phase, not a teaching phase: help them say their reaction more precisely, do not resolve it.
 
 Branch on what they wrote. Confusion: ask what specifically is unclear. Scepticism (for example that these are ancient religious texts, or that the claim is unfalsifiable): treat it as a legitimate stance and ask what would convince them, or how the claim could be tested. Resonance: ask what it connected to in their own experience. If they ask whether the states are real or what modern teachers say, tell them the next lenses cover how teachers disagree about the jhanas and what the evidence shows.
@@ -71,7 +69,6 @@ content::
 A friend says: "According to MN 14, anyone who has experienced a jhana can no longer be tempted by sensual pleasure. My meditation teacher says she reaches jhanas regularly, and she still loves good food. So the text is refuted."
 
 Does the friend's conclusion follow? Using the text, say where the argument goes wrong.
-force-feedback:: first
 feedback-instructions:: The learner was given a plausible but flawed argument: "MN 14 says anyone who has experienced a jhana can no longer be tempted by sensual pleasure. A teacher who reaches jhanas still loves good food, so the text is refuted." This is practice in reading a claim precisely, not a test. A separate question after this one asks how the claim could be tested, so do not ask about testing here.
 
 Points a strong answer finds (any two are good):
@@ -85,7 +82,6 @@ Do not tell the learner the text is right or wrong. Per reply: if the learner as
 id:: b6d5fb12-e04f-454a-93f7-fdde30b4aaef
 content::
 Suppose you wanted to test the claim in MN 14 properly. What would you need to observe or measure?
-force-feedback:: first
 feedback-instructions:: The learner read MN 14: a disciple who has both seen with right discernment that sensuality has many drawbacks and attained a rapture and pleasure apart from sensuality (or something more peaceful) "cannot be tempted by sensuality". They now say how the claim could be tested. This is practice, not a test.
 
 A good answer includes some of: an observable definition of "being tempted" (for example how often someone reaches for a pleasure they had decided against, or how strong the pull feels, rated over days); a check that the person meets both conditions, not just the attainment; a comparison, either the same person before and after the attainment or people with and without it; and a time frame long enough to see whether the change lasts. Credit any sensible design. Name the most useful part of their answer and one thing that is missing. Mention that a later lens in this module offers an experiment of this kind they can run on themselves. 80 to 130 words. One or two replies. No generic praise.

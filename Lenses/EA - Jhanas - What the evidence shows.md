@@ -60,7 +60,6 @@ to:: Our sample was small and self-selected; we encourage others to further inve
 id:: 90bfc29f-7560-4097-a3e7-0b071e36fe52
 content::
 Without looking back, write down what you remember from the three readings.
-force-feedback:: first
 feedback-instructions:: The learner read parts of Hagerty et al. 2013, Yang et al. 2025 (preprint) and Jhourney's "Life in HD" survey, and wrote a free recall.
 
 Key points:
@@ -77,7 +76,6 @@ content::
 A friend says: "Brain scans show that jhana switches on the brain's reward system without any outside stimulus. So it is now scientifically proven that learning the jhanas makes you lastingly happier and less dependent on outside pleasures."
 
 What is wrong with this argument?
-force-feedback:: first
 feedback-instructions:: The learner was given a plausible but flawed argument: brain scans show jhana activates the reward system without outside stimulus, so it is proven that learning the jhanas makes you lastingly happier and less dependent on outside pleasures. This is practice for the test at the end of this part of the module.
 
 Points a strong answer finds (any two are good):

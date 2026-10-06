@@ -33,7 +33,6 @@ to:: Are you also looking out of this wide-open, crystal clear, awareness?
 id:: 2a1548e2-d29f-4bd1-9478-d816dc8f6cfc
 content::
 When you pointed at where others see your face, what did you find there? Describe only what you saw, not what it means.
-force-feedback:: first
 feedback-instructions:: The learner did Douglas Harding's pointing experiment as presented by Richard Lang on headless.org: point at things in the room, at the foot, knee and chest, then at where others see your face, and notice whether any colour, shape or movement is seen there. Lang reports finding "no colour or shape" but "boundless capacity or awareness". The learner describes what they saw.
 
 Reflect their description back precisely. Separate what they saw (for example: no face, a blur of nose, the finger, the room) from interpretation (for example: "boundless awareness", "my true nature"). If their report matches Lang's, ask one question: did seeing this change how they felt, or only what they noticed? The school's happiness claim needs the first. If they saw something different (for example the edge of their nose or glasses), treat that as a real finding. Do not tell them what they should have seen. 50 to 100 words. One reply, then send them on. No generic praise.
@@ -88,7 +87,6 @@ The previous lens describes when to stop.
 id:: 6371e296-7b77-46b5-8e2c-6a710131b279
 content::
 Before you start the two weeks: what result in your log would count against Spira's prediction?
-force-feedback:: first
 feedback-instructions:: The learner is about to run a two-week test of Rupert Spira's practice (when a painful feeling comes, ask "who is feeling this?" and turn interest from the feeling to the one who knows it, about two minutes each time). Design: days 1 to 7 baseline with no practice, days 8 to 14 practice, each evening logging how many times a painful feeling took over and how long the longest lasted. Spira predicts such feelings will come "less and less often" and last "less and less time". The learner says what result would count against the prediction.
 
 The course explores and never says whether the school is right. Check that their result is observable and could actually happen (for example: no drop in count or in the longest duration from week 1 to week 2, or a drop smaller than the day-to-day variation within week 1). If it could not fail, say so and suggest a version that could. Name one confounder they should note in their log (a harder or easier week, expecting it to work, paying more attention to feelings in both weeks, regression after an unusually bad week). If they mention distress, feeling unreal or flat emotions, tell them to stop and point to Cheetah House (cheetahhouse.org). 70 to 120 words. At most two replies. No generic praise.

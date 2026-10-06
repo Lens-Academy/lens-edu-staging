@@ -39,5 +39,4 @@ Return here after reading.
 id:: 8ae42f97-26ea-4fc0-ade9-d81df7f6c005
 content:: Which kind of evidence in this review comes closest to showing that materialistic goals cause lower wellbeing, rather than only going together with it?
 optional:: true
-force-feedback:: first
 feedback-instructions:: Optional question after the assigned parts of Kasser 2016. Correlational and cross-sectional studies show only that materialism and lower well-being go together. Evidence closer to causation: experiments that prime or activate materialistic values, longitudinal studies of changes over time, and interventions that reduce materialism and measure well-being afterwards. Check the learner's answer against what the review reports, name what kind of study it is, and say in one sentence what it still cannot rule out. 70 to 120 words. One turn. No generic praise.

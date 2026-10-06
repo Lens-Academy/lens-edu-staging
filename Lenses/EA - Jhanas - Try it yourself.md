@@ -61,7 +61,6 @@ Most teachers and Jhourney teach the jhanas on retreats (see the readings). Opti
 id:: 3adf06b5-82c3-4ea6-8c39-13d36fed1ef1
 content::
 Which of these experiments, if any, would you run, and when? If you would run none, say why.
-force-feedback:: first
 feedback-instructions:: The learner read Brasington's first-jhana instructions and three experiments: (1) 14 days of daily sits of at least 45 minutes with a log, (2) a baseline-then-practice tally and 0 to 10 rating of one habitual sense pleasure, testing the claim (MN 14, Ayya Khema, Jhourney) that inner pleasure reduces the pull of outer pleasure, (3) an intensive retreat (Burbea's free recordings, a teacher's retreat, or Jhourney at $1,100 online), measured before, two weeks after and two months after. They now say which they would run and when. A separate question after this asks for their prediction, so do not ask for it here.
 
 Respond in a practical way. If they picked Experiment 2 alone, point out it only means something once they can produce piti or joy (Experiment 1). If they picked an intensive, ask whether they have someone to check in with, and mention the safety notes if they have a history of depression, trauma or psychosis. If the timing is vague, suggest naming a start date. If they chose none, accept that, and ask in one sentence what would make it worth trying, without pressing. Do not promise results or say the jhanas will make them happier. 60 to 110 words. At most 2 replies. No generic praise.
@@ -70,7 +69,6 @@ Respond in a practical way. If they picked Experiment 2 alone, point out it only
 id:: 9bfe6dd3-cf3e-4d3f-b2b1-16a0e67b50fa
 content::
 What do you predict will happen in the experiment you picked? If you picked none, predict what would happen if you did Experiment 1.
-force-feedback:: first
 feedback-instructions:: The learner read Brasington's first-jhana instructions and three experiments: (1) 14 days of daily sits of at least 45 minutes with a log, (2) a baseline-then-practice tally and 0 to 10 rating of one habitual sense pleasure, testing the claim (MN 14, Ayya Khema, Jhourney) that inner pleasure reduces the pull of outer pleasure, (3) an intensive retreat (Burbea's free recordings, a teacher's retreat, or Jhourney at $1,100 online), measured before, two weeks after and two months after.
 
 They now write a prediction for the experiment they picked (or for Experiment 1). Check that the prediction is specific enough to be wrong: a number or a direction on the log measures, and a time frame. Suggest one sharpening if not. Ask them to keep the prediction where they will see it when the experiment ends. Do not say whether the prediction is likely, and do not promise results. 50 to 100 words. One or two replies. No generic praise.
