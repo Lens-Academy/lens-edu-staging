@@ -60,7 +60,6 @@ Britton's study found that open questions missed most adverse effects, so ask yo
 id:: fde5ef9c-f519-4975-9a1b-e4e0c26b4ce7
 content::
 Run the checklist on yourself now, or on a time when you practised a lot. Which item would be hardest for you to notice from the inside?
-force-feedback:: first
 feedback-instructions:: The learner applies the module's failure-mode checklist (indifference, no reaction at all, experiential avoidance, spiritual bypassing, the self-report blind spot, lost repair, lost motivation, adverse effects) to themselves and names the item hardest to notice from the inside. This is personal reflection, not a test, and the learner may have no meditation practice to speak of; then the question applies to any way they keep calm.
 
 Confirm in one or two sentences why the item they chose is hard to see from inside, using the source behind it (for example Martin's participant reported no stress while his partner saw poor sleep and tension; Britton found open questions missed most adverse effects; Hafenbrack's participants felt less guilt and so gave less, without noticing a loss). If they disclose current distress, flat mood, disconnection or worse functioning, say plainly that this is worth taking to a doctor or therapist and that stopping or reducing the practice is reasonable. Do not diagnose. 50 to 100 words. One reply.
@@ -69,5 +68,4 @@ Confirm in one or two sentences why the item they chose is hard to see from insi
 id:: 6707611e-85de-4610-9e90-3bd630de095f
 content::
 Who or what could check that item for you?
-force-feedback:: first
 feedback-instructions:: The learner names an outside check for the checklist item they said would be hardest to notice from the inside (their previous answer is just above; if you cannot see it, ask which item in one line). Judge whether the check would actually catch that item: a partner asked specific questions about sleep, appetite, mood and tension (Martin), specific rather than open questions about adverse effects (Britton), or a record of whether they still make amends or start ordinary tasks (Hafenbrack). If it would not, suggest one concrete check from the checklist. If they have no one to ask, accept a written log as a fallback without insisting. Do not diagnose. 50 to 100 words. One reply, then send them on.

@@ -78,7 +78,6 @@ content::
 A friend says: "Meditators in Buddhism, Advaita and Christian mysticism all report the same oneness and the same absence of a separate self. So these experiences show us what reality is really like, and science has confirmed there is no self."
 
 Using what you just read, where could this go wrong? Name at least two separate problems.
-force-feedback:: first
 feedback-instructions:: The learner read excerpts from the Stanford Encyclopedia of Philosophy entry "Mysticism" (Jones and Gellman) and an interview with Evan Thompson, then was given a plausible but flawed claim: "Meditators in Buddhism, Advaita and Christian mysticism all report the same oneness and the same absence of a separate self. So these experiences show us what reality is really like, and science has confirmed there is no self." This is practice, not a test.
 
 Problems a strong answer can find (any two are good):

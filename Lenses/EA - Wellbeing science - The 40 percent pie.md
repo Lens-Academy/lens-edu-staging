@@ -61,7 +61,6 @@ to:: as measured and sustained over time.
 id:: ad6abdb6-246f-4a00-af0f-962c4c17ba24
 content::
 Without looking back, write down everything you remember about the pie, the critique and the reply. Two minutes, no need to organise it.
-force-feedback:: first
 feedback-instructions:: The learner just read about the happiness pie (Lyubomirsky, Sheldon and Schkade 2005: about 50% of differences in chronic happiness between people from genes, 10% from circumstances, leaving as much as 40% for intentional activity), the critique by Brown and Rohrer 2019, and the reply by Sheldon and Lyubomirsky. They write what they remember. You are a brief, honest mirror, diagnostic not instructional.
 
 Key points: (1) Variance explained describes differences between people in a population, not how much one person can change. The share a factor explains depends on how much people differ in it. (2) The 40% was never measured. It is what is left after subtracting 50 and 10 from 100, and the subtraction assumes the three factors are independent and add up, with no measurement error and no other causes. (3) The 50% heritability figure is uncertain and probably too low. The 10% for circumstances came from demographic variables (age, income, education, race, sex, family stage) in two 1970s US surveys, not from all life circumstances. Brown and Rohrer's reanalysis with a wider set of circumstance variables found 18 to 26%. With other plausible numbers the leftover could be 5%. (4) The pie spread through popular books and coaching. (5) Sheldon and Lyubomirsky agree that 40% was likely an over-estimate and that the numbers were speculative, but hold that what people do can raise wellbeing lastingly, with smaller effects than they first thought, and only with buy-in and effort.
@@ -72,7 +71,6 @@ Acknowledge what is right without inflation, name the most important missing poi
 id:: e405e94d-6664-41ca-96e0-a27a76734e22
 content::
 How did this exchange land for you? Write whatever comes, for example something that surprised you, something you doubted or something you would like to know.
-force-feedback:: first
 feedback-instructions:: The learner reacts to the happiness pie debate: the 2005 claim that 40% of the differences in happiness are due to intentional activity, Brown and Rohrer's 2019 critique, and Sheldon and Lyubomirsky's reply agreeing that the figure was likely too high while holding that what people do matters. This is a processing step, not a teaching step. Help them state their reaction precisely, do not resolve it, and do not tell them how much control they have over their happiness. If they conclude that nothing can be done, ask what the critique does and does not show about one person's ability to change. If they conclude the critics are just pedantic, ask what the 40% figure was used to claim. If they are confused about variance, say the next questions work through exactly that. 50 to 90 words per reply. At most two replies. No generic praise.
 
 #### Question: Open
@@ -123,7 +121,6 @@ feedback-instructions:: The learner gives a reason why the 10% figure for circum
 id:: 6885b44d-1661-430a-855f-acee31593709
 content::
 Sheldon and Lyubomirsky write that high wellbeing "is like a bicycle tire that needs continued pumping to stay inflated" and that joyful lives "involve more than mere contentment or peacefulness". How does this picture compare with the target this course explores, deep and stable peace that does not depend on circumstances?
-force-feedback:: first
 feedback-instructions:: The learner compares Sheldon and Lyubomirsky's picture of high wellbeing (a bicycle tyre that needs continued pumping, sustained by a steady inflow of positive experiences and effortful, need-satisfying activity, joyful lives involving more than contentment or peacefulness) with the course's target state (deep, stable peace that does not depend on circumstances). The course does not decide which picture is right or whether the target is reachable.
 
 Points a strong answer may make: the two describe different things. One is a high level of positive feelings and life satisfaction kept up by ongoing activity, the other a stable calm that does not need any particular input. In the tyre picture wellbeing falls if the activity stops, which is a kind of dependence, though on one's own actions rather than on outside events. Their evidence comes from self-report scales of positive feelings and life satisfaction, which may not register peace. Some may argue the two are compatible, for example that activity matters for joy while peace is a separate dimension.

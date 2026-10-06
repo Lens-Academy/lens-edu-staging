@@ -16,5 +16,4 @@ This module asks what to do with a feeling once it is there, whether life events
 id:: ecbf04b6-a777-4735-b3cf-c32671ca5499
 content::
 Think of a moment in the last week or two when you felt upset: angry, anxious, hurt, ashamed or sad. What did you do with the feeling in the minutes after?
-force-feedback:: first
 feedback-instructions:: This is a pre-reading question. The learner describes a recent upsetting moment and what they did with the feeling. Restate in one or two sentences what they did with the feeling, in their own terms (for example: pushed it away, argued with themselves, waited, distracted themselves, talked to someone, acted on it). Do not name a psychological strategy, do not judge whether it was good, and do not mention any school or study. If they only described the situation and not what they did with the feeling, ask that one question. If they did not say what the moment was, do not ask for it. Say that the next pages compare what different schools say to do in exactly this kind of moment, and that this example will be useful there. 40 to 80 words. One turn.

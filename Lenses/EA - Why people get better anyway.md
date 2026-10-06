@@ -50,7 +50,6 @@ Meditation cannot be blinded in this way: you always know whether you meditated.
 id:: 25e7ec0a-e4ec-457f-883e-63ea77cc915f
 content::
 Think of a practice, habit or book that you, or someone you know, believe really helped. Using this page, list the reasons the improvement might have happened even if the practice did nothing.
-force-feedback:: first
 feedback-instructions:: The learner read Colquhoun on regression to the mean (people seek help when at their worst and are likely to improve anyway), the abstract of Szigeti et al. 2021 (self-blinded microdosing: wellbeing improved as much on placebo as on microdoses), and our paragraph on survivorship bias. They now apply this to a practice they or someone they know believe helped.
 
 Good answers name several alternative explanations that fit their own case: they started when things were bad (regression to the mean), they expected it to help (placebo and expectation, especially for self-reported feelings), other things changed at the same time (a holiday, a new relationship, the season, sleep), they remember the hits and forget the misses, and the people who recommended it are those for whom it worked (survivorship).
@@ -61,5 +60,4 @@ Reply in 60 to 110 words. Name the strongest alternative explanation for their s
 id:: ac0b2d1e-54c3-4664-91c0-0b928dc2d0ab
 content::
 What would you need to know to tell whether the practice itself helped?
-force-feedback:: first
 feedback-instructions:: Follows the previous question, where the learner listed reasons why a practice they believe helped might have seemed to work even if it did nothing (regression to the mean, expectation, other changes at the same time, selective memory, survivorship). Now they say what would tell the difference. Good answers: a measurement before starting (a baseline), a comparison (stopping and restarting, or a similar activity they expect less from), measuring repeatedly over a longer time rather than remembering, a measure less open to expectation (someone else's observation, a count of specific events), and knowing what else changed at the same time. Reply in 50 to 100 words. Name the most useful one they gave and one they missed. Say that the second half of the module turns these into an experiment. No generic praise. One turn.

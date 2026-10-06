@@ -33,7 +33,6 @@ Second, several rows say nearly the same thing in different words. The authors o
 id:: 36ddda25-a3e7-468a-b2d2-9fb7f08b6147
 content::
 What do the two rows of the table that say the most similar thing in different words have in common?
-force-feedback:: first
 feedback-instructions:: The learner names the two rows of the comparison table that overlap most and says what they share. There is no single right pair. Pairs worth crediting, in our reading: Stoic judgement and reappraisal (both change the thought about the situation, and CBT's founders named the Stoics as its origin); acceptance and equanimity (both let the feeling be without resisting, and Lindsay et al. describe acceptance training as fostering equanimity, with Shinzen Young as a co-author); equanimity and non-attachment (Desbordes et al. say the Nonattachment Scale description corresponds well to equanimity); acceptance and self-compassion (both stop fighting the feeling, self-compassion adds kindness).
 
 Check that the shared element they name is a real feature of both instructions as the page describes them. Then name one difference that remains between the two rows (for example: Stoic judgement claims the original judgement is false, while Troy's reappraisal instruction asks for a more positive light, not a truer one; acceptance in the psychology studies is a skill used in a moment, equanimity in Shinzen's text is also a trait he says deepens over years of practice). Do not say which school is right. 60 to 110 words. One reply, then send them to the next question.
@@ -42,7 +41,6 @@ Check that the shared element they name is a real feature of both instructions a
 id:: aaa4f372-e8d3-4b98-b939-f834fdf54582
 content::
 Now find a real disagreement. For the same feeling, what would two conflicting rows each have you do?
-force-feedback:: first
 feedback-instructions:: The learner picks two rows of the comparison table that give conflicting instructions for the same feeling and says what each would have them do. Good examples: reappraisal (change the meaning of the situation so the feeling changes) against acceptance or equanimity (let the feeling run its course without trying to change it), which is exactly the contrast Troy et al. 2018 tested; Stoic judgement (the feeling rests on a false judgement and should go once the judgement is corrected) against acceptance (the feeling itself is not a problem to fix); suppression against any other row.
 
 Check that the two instructions really conflict for the same feeling, and that each is described as the page describes it. If they picked two rows that mostly agree, say so and ask for a pair that conflicts. Then ask one question: what result, in a study or in their own week, would show which of the two works better for them? Accept any concrete answer. Do not say which is right. 60 to 120 words. At most two replies.

@@ -58,7 +58,6 @@ A general problem sits under all three. The psychologist Russell Poldrack called
 id:: 34b24748-9b75-4479-b64b-2f2ecf334a1f
 content::
 A science article is headlined: "Brain scans prove meditation dissolves the self." It cites the first two studies you just read. Using what the studies and their authors say, what is wrong with the headline?
-force-feedback:: first
 feedback-instructions:: The learner read the abstracts and caveats of Brewer et al. 2011 (less DMN activity in experienced meditators; interpreted as consistent with less mind-wandering; moderately small sample with risk of inflated positives; needs replication; reporting bias), Josipovic et al. 2012 (non-dual awareness meditation weakened the anti-correlation between extrinsic and intrinsic brain systems; the link to the duality of experience is "intuitive, but speculative"; no reliable way to check meditation quality in the scanner), a pointer to a 2022 meta-analysis of trials, and a note on reverse inference. They got a headline: "Brain scans prove meditation dissolves the self." This is practice, not a test.
 
 Points a strong answer finds (any two are good):
