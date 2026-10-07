@@ -33,7 +33,7 @@ source:: [[../Learning Outcomes/AISP U1 - Mapping AI catastrophe pathways]]
 source:: [[../Lenses/AISP U1 v2 - Risk Pathways - PQ]]
 
 # Lens: How could AI cause catastrophe?
-source:: [[../Lenses/AISP U1 v2 - How Could AI Cause Catastrophe]]
+source:: [[../Lenses/AISP U1 final - How Could AI Cause Catastrophe]]
 
 # Submodule: What is the strongest case against prioritising AI existential risk?
 
@@ -44,7 +44,7 @@ source:: [[../Learning Outcomes/AISP U1 - Evaluating x-risk priority arguments]]
 source:: [[../Lenses/AISP U1 v2 - X-Risk Skepticism - PQ]]
 
 # Lens: The case against prioritising AI x-risk
-source:: [[../Lenses/AISP U1 v2 - The Case Against Prioritising AI X-Risk]]
+source:: [[../Lenses/AISP U1 final - X-Risk Skepticism]]
 
 # Submodule: What should disagreement do to action?
 
@@ -55,7 +55,7 @@ source:: [[../Learning Outcomes/AISP U1 - Using disagreement and cruxes]]
 source:: [[../Lenses/AISP U1 v2 - Disagreement - PQ]]
 
 # Lens: Disagreement, cruxes, and action
-source:: [[../Lenses/AISP U1 v2 - Disagreement, Cruxes, and Action]]
+source:: [[../Lenses/AISP U1 final - Disagreement Cruxes and Action]]
 
 # Lens: Your AI risk decision map
-source:: [[../Lenses/AISP U1 v2 - AI Risk Decision Map]]
+source:: [[../Lenses/AISP U1 final - AI Risk Decision Map]]
