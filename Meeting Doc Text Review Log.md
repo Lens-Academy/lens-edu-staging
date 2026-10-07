@@ -192,11 +192,11 @@ Worklist, found 2026-10-06. Counts cover AIRF, AI Futures and CV1 docs only.
 | AIRF Meeting 5 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | done for this pass 2026-10-05 | done 2026-10-05 | done 2026-10-05; 6 Session Doc flags and 1 FAQ flag kept for the full pass |
 | AI Futures Meeting 3 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | done for this pass 2026-10-05 | done 2026-10-05 | done 2026-10-05; 2 minor flags kept for the full pass |
 | CV1 Meeting 5 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | done 2026-10-04 | done 2026-10-04 | done 2026-10-05 |
-| Shared How today works (three variants) and Participant FAQ | with the above | done 2026-10-04 | done 2026-10-03 | todo | todo | todo |
+| Shared How today works (three variants), Participant FAQ, Open discussion | batch 2 | done 2026-10-04 | done 2026-10-03; worklist 2026-10-06 | todo | todo | todo |
 | Master template | n/a | done 2026-10-04 | not flagged | n/a | n/a | n/a |
-| AIRF Meetings 1 to 4 | later | todo | todo | todo | todo | todo |
-| AI Futures Meetings 1, 2, 4 and 5 | later | todo | todo | todo | todo | todo |
-| CV1 Meetings 1 to 4 | later | todo | todo | todo | todo | todo |
+| AIRF Meetings 1 to 4 | cohorts wrapping up | todo | recurring lines only, batch 2 | todo | todo | todo |
+| AI Futures Meetings 1, 2, 4 and 5 | Meeting 4 week of 2026-10-12 | todo | batch 2 | todo | todo | todo |
+| CV1 Meetings 1 to 4 | cohorts wrapping up | todo | recurring lines only, batch 2 | todo | todo | todo |
 
 ---
 
@@ -206,12 +206,13 @@ Edits to these files change every doc that includes them, not only the three cou
 
 | Shared file | Included by |
 |---|---|
-| Session Doc - How today works | CV1 (all five meetings), AI Futures Meetings 4 and 5, AI Control 1 and 2 (all five meetings each) |
+| Session Doc - How today works | CV1 (all five meetings), AI Futures Meetings 4 and 5, AI Control 1, AI Control 2 and AI Control Fundamentals (all five meetings each) |
 | Session Doc - How today works (3 rooms) | AI Futures Meetings 1 to 3 |
 | Session Doc - How today works (AI Risk Fundamentals) | AIRF Meetings 2 to 5. Meeting 1 has its own inline copy |
-| Participant FAQ | CV1, AI Futures, AI Control 1 and 2. AIRF has inline FAQ copies |
+| Participant FAQ | CV1, AI Futures, AI Control 1, AI Control 2, AI Control Fundamentals. AIRF has inline FAQ copies |
+| Session Doc - Open discussion | Every meeting doc of the three courses, and the other courses above |
 
-The Lisbon Fellowship docs use their own Lisbon variants and are not affected. As of 2026-10-03 neither AI Control course is live.
+The Lisbon Fellowship docs use their own Lisbon variants and are not affected. As of 2026-10-03 neither AI Control course is live. AI Control Fundamentals was added to the vault after 2026-10-03 and was found including these files on 2026-10-06.
 
 ---
 
