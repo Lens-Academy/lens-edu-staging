@@ -23,7 +23,7 @@ Know what each model sees, because it decides what a rubric can and cannot do.
 
 - **The grader** sees only a fixed prompt ("a rigorous educational assessor… measure the actual understanding and correctness demonstrated, not effort"), the rubric, the question text and the learner's answer. It never sees the lens, the article, a widget's state, an earlier answer, or a table on the page. Anything the grader needs has to be in the rubric.
 - **The tutor**, when the learner asks for feedback, sees the question, the answer, the rubric, the score and the grader's reason, plus the `feedback-instructions::`.
-- **Retries are anchored.** On "Answer again", the grader sees the learner's earlier answers and scores and is told to grade consistently with them. An identical answer reuses its old grade. So a grade that was too harsh the first time is carried forward. Changing the rubric or the question text resets the anchor.
+- **Retries are anchored.** On "Answer again", the grader sees the learner's earlier answers and scores, to keep scores consistent with them. An identical answer reuses its old grade. Changing the rubric or the question text resets the anchor.
 - **A quiz grade is shown to the learner as a percentage chip.** Learners read it as a verdict on whether they understood.
 
 ## What a good rubric does
