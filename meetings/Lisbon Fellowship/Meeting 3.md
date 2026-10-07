@@ -47,7 +47,7 @@ Defense-in-depth is one of the Atlas's meta-philosophies: stack independent laye
 4\. Every layer costs something. Which of the three tensions does your stack push hardest on (centralisation against decentralisation, speed against safety, openness against control)?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Threat + layers + attack through two holes + tension paid |
@@ -76,7 +76,7 @@ The European AI Office proposes know-your-customer for compute: cloud providers 
 4\. If you still have time: a lab trains outside the EU instead. Does your rule follow it?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Rule text or breaking point + criterion that fails first |
@@ -125,7 +125,7 @@ Before you leave (your facilitator will talk through these):
 - Send your Round 4 plan to your accountability buddy today; they check in with you before next session.
 - Sign the attendance sheet before you go (6 of 8 sessions for the certificate).
 - Want to keep your table's cheese stack or rule text? Photograph it and post it in the fellowship Discord.
-- Stuck on a section during the week? Copy it into the [Lens Coach](https://lensacademy.org/coach).
+- Stuck on a section during the week? Copy it into the [Lens Tutor](https://lensacademy.org/tutor).
 
 
 ---

@@ -56,7 +56,7 @@ Nine real machine learning papers were given rigged twins: the code was changed 
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | How you'd rig it + what would catch you + is 0.77 enough |
@@ -97,7 +97,7 @@ The paper audited today's frontier models and found the reasoning mostly there a
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Which of the five you'd rather was missing + what would close it |

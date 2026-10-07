@@ -46,7 +46,7 @@ Both chapters want the written trace. Chapter 8 grades the steps: process superv
 3\. Back to AI. For a lab's next model: train on the trace, only read it, or something between? One verdict, defended.
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Your job + what grading steps bought and broke + lab verdict |
@@ -75,7 +75,7 @@ Two debaters, one judge (a fourth judges alone, then compares). Debaters, out of
 4\. If you still have time: change one rule so it would.
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Judge's verdict and confidence + the move the liar got away with |

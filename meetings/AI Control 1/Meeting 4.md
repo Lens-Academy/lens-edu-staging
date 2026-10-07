@@ -64,7 +64,7 @@ The longest reading of this unit maps the work the field could be doing:
 3\. What would you have to see to believe it?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Your area + the link you least believe + what would convince you |
@@ -103,7 +103,7 @@ Four failures:
 3\. If you still have time: which of the four would you rather your lab faced, and why?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | How many actions + how incriminating + what a 2% check protects |
