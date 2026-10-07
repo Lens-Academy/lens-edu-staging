@@ -33,7 +33,7 @@ source:: [[../Learning Outcomes/AISP U1 - Distinguishing catastrophic futures]]
 source:: [[../Lenses/AISP U1 v2 - Catastrophic Futures - PQ]]
 
 # Lens: What makes a catastrophe existential?
-source:: [[../Lenses/AISP U1 v2 - What Makes a Catastrophe Existential]]
+source:: [[../Lenses/AISP U1 final - Catastrophic Futures]]
 
 # Submodule: How should we reason when the probability itself is uncertain?
 
@@ -44,7 +44,7 @@ source:: [[../Learning Outcomes/AISP U1 - Reasoning with model uncertainty]]
 source:: [[../Lenses/AISP U1 v2 - Deep Uncertainty - PQ]]
 
 # Lens: Deep uncertainty and huge stakes
-source:: [[../Lenses/AISP U1 v2 - Deep Uncertainty and Huge Stakes]]
+source:: [[../Lenses/AISP U1 final - Deep Uncertainty and Huge Stakes]]
 
 # Submodule: When should uncertainty change what we do?
 
@@ -55,4 +55,4 @@ source:: [[../Learning Outcomes/AISP U1 - Choosing precaution under uncertainty]
 source:: [[../Lenses/AISP U1 v2 - Precaution - PQ]]
 
 # Lens: Precaution without paralysis
-source:: [[../Lenses/AISP U1 v2 - Precaution Without Paralysis]]
+source:: [[../Lenses/AISP U1 final - Precaution Without Paralysis]]
