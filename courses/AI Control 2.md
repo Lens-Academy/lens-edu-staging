@@ -3,8 +3,6 @@ id: '5c00d5b6-ccb1-4372-a69e-9a044d33df40'
 slug: ai-control-2
 title: "AI Control 2"
 description: "Controlling a deployment. The second of three AI Control courses; it assumes AI Control 1. Five units of about three and a half hours of self-study (three to four), each closing with a group meeting: the control toolkit of detection, prevention and response, control evaluations, and the areas of control research; high-stakes failures, from execute, replace and audit protocols to rogue deployments and the systems agents run on; monitoring and resampling in real deployments; building the settings control evaluations run in, and protocols against collusion and for legibility; and low-stakes control, where harm accumulates over many actions and a model may deliberately underperform. AI Control 3 continues from here."
-tags:
-  - work-in-progress
 partner-name: XLab
 partner-url: "https://xrisk.uchicago.edu/"
 ---
