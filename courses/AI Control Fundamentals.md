@@ -30,6 +30,7 @@ Unit 1 goals (What control is):
 - Meet a first criticism: Jan Kulveit's argument that control may turn useful warning shots into quiet catches
 - Write down a gut view on control, revisited in Unit 5
 %%
+application-survey:: [[../surveys/Application Form]]
 
 # Module: [[../modules/AI Control Fundamentals Overview|Course Overview]]
 
