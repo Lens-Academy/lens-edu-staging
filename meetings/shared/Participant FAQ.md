@@ -9,7 +9,7 @@ style:: faq
 Your navigator isn't in every room, so:
 
 - **Confused about the task, or want a human?** Click **"••• More” > “Ask for Help"** > Your navigator gets pinged and pops into your room.
-- **Don't get the question, or something in the reading?**{--{"author":"Andreas's AI","timestamp":1791183892308}@@{>>{"author":"AI","timestamp":1791094877421}@@AI (mild): "for understanding, not for handing you the answer" below is an "X, not Y" contrast.<<}--} Ask the [Lens Tutor](https://lensacademy.org/tutor). It's for understanding, not for handing you the answer.
+- **Don't get the question, or something in the reading?** Ask the [Lens Tutor](https://lensacademy.org/tutor). It's for understanding, not for handing you the answer.
 - **Lost the doc link, or a quick logistics thing?** Check the **Discord channel** or the Zoom chat.
 
 ### Before you arrive
@@ -23,7 +23,7 @@ Your navigator isn't in every room, so:
 - **What's a "scribe"?** One person per group jots the names and your answer into the table. A line or two is plenty; rotate it each room if you like.
 - **We finished early / ran out of things to say.** Call your navigator to get ideas for expanding your current conversation. Or use the spare minute to agree what you would say if someone from your group shares between rooms.
 - **No one's talking, or one person is dominating.** Just start talking when you have a thought; if it's really stuck, click Ask for Help.
-- **Do we need a "right answer"?** No! The point is the discussion, not a tidy answer.{--{"author":"Andreas's AI","timestamp":1791183893366}@@{>>{"author":"AI","timestamp":1791094878182}@@AI (mild): "X, not Y" contrast.<<}--}
+- **Do we need a "right answer"?** No! The point is the discussion, not a tidy answer.
 
 ### Between rooms
 
