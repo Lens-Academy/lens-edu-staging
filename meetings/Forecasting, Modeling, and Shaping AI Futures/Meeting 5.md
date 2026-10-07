@@ -89,7 +89,7 @@ Your final rewrite named two or three checkable signposts you will actually watc
 Then pick the room's best signpost, the one you would all be willing to adopt, and agree on what it would take for it to count as fired.
 
 
-Not sure what makes a signpost checkable? Copy this prompt into the Lens Coach (https://lensacademy.org/coach) and ask for examples.
+Not sure what makes a signpost checkable? Copy this prompt into the Lens Tutor (https://lensacademy.org/tutor) and ask for examples.
 
 
 | Names | Your signposts, whether they are checkable, and the one the room would adopt |
