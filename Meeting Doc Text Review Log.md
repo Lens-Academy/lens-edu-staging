@@ -258,6 +258,8 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 | 2026-10-05 | Third rewrite pass on AI Futures Meeting 3, and third review | meetings/Forecasting, Modeling, and Shaping AI Futures/Meeting 3 | Andreas's response to the second review | Edited by Andreas: Room 2 now names only Soares and Kulveit et al. and says what they disagree about; its closing ask is now two separate questions. Two flags removed, pending. Room 3 item 3 left without a line for people who skipped the conditions exercise: Andreas, because the idea is first introduced in that lens. The exercise is a required question in the lens, not optional work, and the prompt now lists what the conditions cover, so the room can still run |
 | 2026-10-05 | **First batch done.** Andreas fixed the last typos in AI Futures Meeting 3 and accepted its flag removals; AIRF Meeting 5's were already accepted | AIRF Meeting 5, AI Futures Meeting 3, CV1 Meeting 5 | All three meetings for the week of 2026-10-05 are ready before their docs are created | A search afterwards finds no pending changes in any of the three. Only the flags deliberately kept for the full pass remain. "Outgrew" in AI Futures Meeting 3, Room 2 kept by Andreas |
 | 2026-10-05 | Shared Participant FAQ flag removals left pending | meetings/shared/Participant FAQ | Postponed with the rest of the non-Session-Doc tabs to the later pass (2026-10-05 decision) | 2 removals still pending |
+| 2026-10-06 | **Decision: batch 2 is general and shared issues first, then all of AI Futures** | Plan | Section 2 | Andreas, 2026-10-06 |
+| 2026-10-06 | Worklist for batch 2: shared blocks, lines repeated across docs, hand-offs | Section 3 | Found by reading the shared files and searching the three courses' docs for each repeated line | Log only, no doc changes. Also found: AI Control Fundamentals now includes the shared blocks (section 5) |
 
 ---
 
@@ -284,8 +286,13 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 
 ### For the owner of [[AI Guide/Writing Meeting Docs]]
 
-- Rule 6 still requires a "Lens Coach" note.
-- Several of the guide's examples carry the habits in section 1.
+- Rule 6 still requires a "Lens Coach" note, and rule 7 and two examples (Room 2 and 3 patterns) still name Lens Coach and link `/coach`. Batch 1 settled a replacement help note (section 3, group B).
+- The closing-question example says "two hours ago" for a 90-minute meeting, which AI Futures Meetings 1 and 2 copied.
+- Several examples carry the habits in section 1, for example "Half-formed is fine; that's what the room is for" and "you'd genuinely like the group to dig into". The "course ends today" closer is now allowed (A2).
+
+### Course names
+
+- CV1's meeting docs are titled "Compute Verification Part 1", but the course is named "Compute Verification 1". [[CV1 Streamlining Proposal]] lists the same drift. For the CV1 restructure.
 
 ### Unverified
 
@@ -293,4 +300,4 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 
 ### Outside this project
 
-- The AI Control and Lisbon docs, and the Lisbon shared files, still say Lens Coach.
+- The AI Control 1, AI Control 2 and Lisbon docs, AI Control Fundamentals Meetings 3 to 5, and the Lisbon shared files still say Lens Coach.
