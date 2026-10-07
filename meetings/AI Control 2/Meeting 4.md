@@ -100,7 +100,7 @@ So Apollo Research and OpenAI built an instrument together:
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Best rival explanation + what would rule it out + what a lab changes |
