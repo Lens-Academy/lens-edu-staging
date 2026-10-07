@@ -45,7 +45,7 @@ power over people.
 Write two or three sentences. Why does it take human welfare into account at all? Not
 why it should. Why it does.
 
-Then write one more line. If that reason stopped applying, what would change first?
+Then write one more line. If the reason you just gave stopped applying, what would change first?
 
 And one line more. Who could act before that change lands, and what would it cost them?
 
