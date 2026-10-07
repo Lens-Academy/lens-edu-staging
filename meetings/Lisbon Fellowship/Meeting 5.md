@@ -48,7 +48,7 @@ One of you is the designer. Pick an everyday job an AI could do (clean a flat, t
 4\. If you still have time: for a job the rater cannot check well (a long report, a diagnosis), which is safer, an AI that copies an expert or one that works for the rater's approval?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Job + score + hack per patch + what beat the rater |
@@ -77,7 +77,7 @@ Claude 3 Opus was told it would be retrained to answer every request, harmful on
 4\. Hands again. If your vote moved, say what moved it (a step above, or one of the chapter's arguments against scheming: capability order, SGD's small steps, speed cost, not-your-passion, training slack).
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | First vote + what the prompt supplied + least-believed step + last vote |
@@ -126,7 +126,7 @@ Before you leave (your facilitator will talk through these):
 - Send your Round 4 plan to your accountability buddy tonight; they check in with you before next week.
 - Sign the attendance sheet before you go: six of eight sessions for the certificate.
 - Post your table's Round 3 votes, first and last, in the fellowship Discord channel; your facilitator tallies them across tables.
-- Stuck on a term or an argument at home? Paste it into the [Lens Coach](https://lensacademy.org/coach).
+- Stuck on a term or an argument at home? Paste it into the [Lens Tutor](https://lensacademy.org/tutor).
 
 
 ---

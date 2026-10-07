@@ -55,7 +55,7 @@ Then, as a group, discuss this question and **write your shared response** in th
 > How would the authors answer it with the five curses? Write your verdict: does your counterargument survive?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Your best counterargument | Does it survive the five curses? |
@@ -155,7 +155,7 @@ style:: faq
 Your navigator isn't in every room, so:
 
 - **Confused about the task, or want a human?** Click “••• More” > “Ask for Help” > Your navigator gets pinged and pops into your room.
-- **Don't get the question, or something in the reading?** Ask the [Lens Coach](https://lensacademy.org/coach). It's for understanding, not for handing you the answer.
+- **Don't get the question, or something in the reading?** Ask the [Lens Tutor](https://lensacademy.org/tutor). It's for understanding, not for handing you the answer.
 - **Lost the doc link, or a quick logistics thing?** Check the **Discord channel** or the Zoom chat.
 
 ### Before you arrive
@@ -179,7 +179,7 @@ Your navigator isn't in every room, so:
 
 ### The reading and the questions
 
-- **I don't understand the question or a claim.** Ask the Lens Coach! It'll explain in plain terms.
+- **I don't understand the question or a claim.** Ask the Lens Tutor! It'll explain in plain terms.
 - **Where's the reading?** It's in the course on the Lens platform: the chapter text is loaded right in the lesson. Can't find it? Ask the Tutor or Ask for Help.
 
 ### Tech
