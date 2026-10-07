@@ -86,7 +86,7 @@ Simple feedback loop diagram with two boxes connected by arrows. Left box: "AI d
 
 Software has the shortest time lags, and chip production probably has the longest:
 
--   It takes [~3 months](https://epoch.ai/data/notable-ai-models#training-time-growth) to train new SOTAn AI, which is the main time lag in the software feedback loop (though [post-training enhancements](https://epoch.ai/blog/ai-capabilities-can-be-significantly-improved-without-expensive-retraining), such as fine-tuning, take _much_ less time).
+-   It takes [~3 months](https://epoch.ai/data/notable-ai-models#training-time-growth) to train new {--{"author":"James's AI","timestamp":1791364948577}@@SOTAn--}{++{"author":"James's AI","timestamp":1791364948577}@@SOTA++} AI, which is the main time lag in the software feedback loop (though [post-training enhancements](https://epoch.ai/blog/ai-capabilities-can-be-significantly-improved-without-expensive-retraining), such as fine-tuning, take _much_ less time).
     
 -   For the chip technology feedback loop, it’s also necessary to integrate new technology into chip factories and print a stock of new chips, which would take many months.[^note-forethought-three-types-9]
     
