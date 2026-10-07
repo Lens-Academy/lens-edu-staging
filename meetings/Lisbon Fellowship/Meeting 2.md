@@ -48,7 +48,7 @@ The Atlas's whimper: no villain, many decisions that each make sense alone. Star
 4\. Verdict: the Atlas says individually applied technical fixes do not counter systemic pressures. Does your refusal do better, or does someone else fill the gap?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Your risk + circled link + what refusing costs + verdict |
@@ -78,7 +78,7 @@ Two axes on a sheet. Across: who has to act, from one lab on its own to every ma
 If you still have time: which of this week's five amplifiers (race dynamics, accidents, indifference, collective action problems, unpredictability) hits your pick hardest?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Top-left card + the card your table backs + its objection |
@@ -128,7 +128,7 @@ Before you leave (your facilitator will talk through these):
 - Send your Round 4 plan to your accountability buddy tonight; they check in with you before next week.
 - Answer the written prompts on the platform as you read: the rooms use them, and your facilitator reads them.
 - Sign the sheet if you have not yet: six of eight sessions for the certificate.
-- Questions between sessions go in the fellowship Discord channel; explanations of the reading come from the [Lens Coach](https://lensacademy.org/coach).
+- Questions between sessions go in the fellowship Discord channel; explanations of the reading come from the [Lens Tutor](https://lensacademy.org/tutor).
 
 
 ---

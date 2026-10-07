@@ -47,7 +47,7 @@ Your table is an evals team. Pick one property from the Atlas's lists (capabilit
 4\. Verdict: what does a clean result on the patched test establish?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Property, threat model, the model's dodge, what a clean result establishes |
@@ -76,7 +76,7 @@ The control section's bet: **if the model is scheming, it won't successfully cau
 4\. If you reject it, defend what carries the weight instead (propensity evaluations, interpretability, not building past what control can hold). The chapter has a caveat for each; defend yours anyway.
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Best counterargument, the bet's terms, what carries the weight instead |
@@ -126,7 +126,7 @@ Before you leave (your facilitator will talk through these):
 - Send your Round 4 plan to your accountability buddy tonight; they check in with you before next week.
 - Sign the attendance sheet before you go: six of eight sessions for the certificate.
 - Feedback from Round 4 goes to your facilitator. Anything that comes to you later: post it in the fellowship Discord channel.
-- Anything from today still fuzzy (control evaluations, presence versus absence, reward versus value)? Paste it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+- Anything from today still fuzzy (control evaluations, presence versus absence, reward versus value)? Paste it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 ---
