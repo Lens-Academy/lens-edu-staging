@@ -29,7 +29,7 @@ Between rooms everyone comes back to the main room for five minutes. Your naviga
 
 - Confused about the task, or want to talk to the facilitator? Click “••• More” > “Ask for Help” > Your navigator gets pinged and pops into your room.
 - Lost the doc link, or a quick logistics thing? Check Discord or the Zoom chat.
-- Don't get the question or the reading? Ask the [Lens Coach](https://lensacademy.org/coach). {>>{"author":"Luc","timestamp":1791047487697}@@Tutor. The name "coach" is nolonger used. Anyway, also seems like bad advice? Because tutor doesn't have the sessions loaded, nor understands them.<<}
+- Don't get the question or the reading? Ask the [Lens Tutor](https://lensacademy.org/tutor). {>>{"author":"Luc","timestamp":1791047487697}@@Tutor. The name "coach" is nolonger used. Anyway, also seems like bad advice? Because tutor doesn't have the sessions loaded, nor understands them.<<}
 - More questions? Check the [FAQ Tab](<#tab:Participant FAQ>)
 
 
@@ -76,7 +76,7 @@ Chapter 2 ends on the claim the rest of the book leans on: an AI trained to beha
 Put the claim to work: an AI company hands your group its newest model and says "test it however you like, then tell us whether it's actually aligned." Design the best test your group can come up with. Then attack your own test: how could a model that is merely acting aligned still pass it? Write your verdict in the table: does any test survive, or do the authors win this round?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Your best test + does it survive? |
@@ -113,7 +113,7 @@ Example questions, in case you want a starting point:
 \- "Wanting is an effective strategy for doing." Can you find a task an AI nails with zero want-like behaviour? Where does the claim hold, where does it break?
 
 
-Want help or an explanation for this question? Copy it into the Lens Coach and ask for an explanation.
+Want help or an explanation for this question? Copy it into the Lens Tutor and ask for an explanation.
 
 
 | Names | Your questions + where the discussion landed |
@@ -182,7 +182,7 @@ style:: faq
 Your navigator isn't in every room, so:
 
 - **Confused about the task, or want a human?** Click “••• More” > “Ask for Help” > Your navigator gets pinged and pops into your room.
-- **Don't get the question, or something in the reading?** Ask the [Lens Coach](https://lensacademy.org/coach). It's for understanding, not for handing you the answer.
+- **Don't get the question, or something in the reading?** Ask the [Lens Tutor](https://lensacademy.org/tutor). It's for understanding, not for handing you the answer.
 - **Lost the doc link, or a quick logistics thing?** Check the **Discord channel** or the Zoom chat.
 
 ### Before you arrive

@@ -52,7 +52,7 @@ Then, as a group, discuss this question and **write your shared response** in th
 > **Klurl vs Trapaucius.** Trapaucius argues that any being smart enough will grasp its "purpose" and pursue only that. Klurl replies: "they'd know, but would they care?" Who's right about *humans* — and what does that predict for AI?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/tutor) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 
@@ -81,7 +81,7 @@ Chapter 5 opens with aliens who treasure a prime number of stones in their nests
 Two rounds, as a group:
 1\. Steelman a skeptic: "These AIs are trained on human text and human feedback, so their concepts, and their goals, will be human-shaped, not alien." Build the strongest version of that objection you can, then give the authors' best rebuttal. Which side wins?
 2\. The whole chain: Chapter 4 says we can't control what they want; Chapter 5 says the wants won't include us; Chapter 6 says that if it comes to it, we’d lose. Which link is weakest, and what would it take to break it?
-Want help or an explanation for this question? Copy it into the Lens Coach and ask for an explanation.
+Want help or an explanation for this question? Copy it into the Lens Tutor and ask for an explanation.
 
 
 | Names | Skeptic verdict | Weakest link + what would break it |
@@ -158,7 +158,7 @@ style:: faq
 Your navigator isn't in every room, so:
 
 - **Confused about the task, or want a human?** Click “••• More” > “Ask for Help” > Your navigator gets pinged and pops into your room.
-- **Don't get the question, or something in the reading?** Ask the Lens Coach. It's for understanding, not for handing you the answer.
+- **Don't get the question, or something in the reading?** Ask the Lens Tutor. It's for understanding, not for handing you the answer.
 - **Lost the doc link, or a quick logistics thing?** Check the **Discord channel** or the Zoom chat.
 
 ### Before you arrive
@@ -182,7 +182,7 @@ Your navigator isn't in every room, so:
 
 ### The reading and the questions
 
-- **I don't understand the question or a claim.** Ask the Lens Coach! It'll explain in plain terms.
+- **I don't understand the question or a claim.** Ask the Lens Tutor! It'll explain in plain terms.
 - **Where's the reading?** It's in the course on the Lens platform: the chapter text is loaded right in the lesson. Can't find it? Ask the Tutor or Ask for Help.
 
 ### Tech

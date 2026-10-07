@@ -57,7 +57,7 @@ Your job is to break it. Find the weakest link in that chain.
 \- The model says experiment compute becomes the limit. If that is right, what stops being important? What starts being important?
 
 
-If a question is not clear, copy it into the Lens Tutor ([https://lensacademy.org/coach](https://lensacademy.org/coach)) and ask it to explain.
+If a question is not clear, copy it into the Lens Tutor ([https://lensacademy.org/tutor](https://lensacademy.org/tutor)) and ask it to explain.
 
 
 
