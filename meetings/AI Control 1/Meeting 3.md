@@ -60,7 +60,7 @@ What counts as a catch here:
 3\. What has to be true before the catch, not after, for it to actually stop the deployment?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Your catch + the hardest objection + what you need in advance |
@@ -98,7 +98,7 @@ Plenty of people think this whole agenda is a poor bet. The unit's four objectio
 3\. Verdict: does the objection survive your answer?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | The objection you built up + your answer + your verdict |

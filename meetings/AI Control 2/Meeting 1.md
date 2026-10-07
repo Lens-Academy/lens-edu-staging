@@ -57,7 +57,7 @@ Two of you play the two copies; anyone else plays the developer.
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Your signal + whether it survives + what an attacker cannot fake |
@@ -95,7 +95,7 @@ Two ways out, each with a price:
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Where you'd spot sabotage + what you do about a small shortfall |

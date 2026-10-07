@@ -64,7 +64,7 @@ What the lab could pay with:
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | What you'd buy and pay + the AI's first refusal + your revised term |
@@ -104,7 +104,7 @@ Pan argues they multiply, so any one of them at zero kills the deal, and that in
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Where you'd spend + what exactly + the case against your own pick |

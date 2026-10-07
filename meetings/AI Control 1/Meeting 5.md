@@ -52,7 +52,7 @@ A monitor flags a command. Rather than running it, or going straight to a weaker
 3\. If you still have time: which number would you defend to a manager who wants more from the model?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Your two numbers and their price + the one-step attack |
@@ -89,7 +89,7 @@ One or two people share what their group landed on.
 3\. If you still have time: one rule you would add to these three machines tomorrow.
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Where you put it + what it sees + what catches the route around |
