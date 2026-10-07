@@ -9,7 +9,7 @@ Quick answers for the in-person session. Everything you actually do is in the se
 Your facilitator can't be at every table at once, so:
 
 - **Confused about the task, or want a human?** Wave your facilitator over; they circulate between tables.
-- **Don't get the question, or something in the reading?** Ask the [Lens Coach](https://lensacademy.org/coach). It's for understanding, not for handing you the answer.
+- **Don't get the question, or something in the reading?** Ask the [Lens Tutor](https://lensacademy.org/tutor). It's for understanding, not for handing you the answer.
 - **Lost the doc link, or a quick logistics thing?** Check the fellowship **Discord channel**.
 
 ### Before you arrive
@@ -33,7 +33,7 @@ Your facilitator can't be at every table at once, so:
 
 ### The reading and the questions
 
-- **I don't understand the question or a claim.** Ask the [Lens Coach](https://lensacademy.org/coach)! It'll explain in plain terms.
+- **I don't understand the question or a claim.** Ask the [Lens Tutor](https://lensacademy.org/tutor)! It'll explain in plain terms.
 - **Where's the reading?** It's in the course on the Lens platform: the chapter text is loaded right in the lesson. Can't find it? Ask the Tutor or your facilitator.
 
 ### Tech

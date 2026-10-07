@@ -76,7 +76,7 @@ Control measures:
 4\. What fact could someone check that would change your answer?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Built anyway or not + the measure you split on + whose view fits it + a fact that would change your answer |
@@ -120,7 +120,7 @@ For the monitor:
 4\. Decide: keep the monitor as it is, change it so outsiders learn more of what it catches, or drop it. Write down what that costs.
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | What "more likely" depends on that you are least sure of + keep, change or drop + its cost |

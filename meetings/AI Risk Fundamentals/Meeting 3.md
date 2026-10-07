@@ -52,7 +52,7 @@ Then, as a group, discuss this question and **write your shared response** in th
 > **Did the story do its job?** The authors are explicit: **the pathway is illustrative, only the outcome is predicted.** They even bind the telling to a rule: every event in the story with a date on it is an event that happened in real life. Go around: did the scenario make the risk feel more real, or did the specifics hand you new objections? Then find the step in the story's path you find hardest to believe, and test it: if that step went differently, does the ending actually change, or does the story route around it?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/tutor) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Your group's response | Notes / where you disagreed |
@@ -155,7 +155,7 @@ style:: faq
 Your navigator isn't in every room, so:
 
 - **Confused about the task, or want a human?** Click “••• More” > “Ask for Help” > Your navigator gets pinged and pops into your room.
-- **Don't get the question, or something in the reading?** Ask the Lens Coach. It's for understanding, not for handing you the answer.
+- **Don't get the question, or something in the reading?** Ask the Lens Tutor. It's for understanding, not for handing you the answer.
 - **Lost the doc link, or a quick logistics thing?** Check the **Discord channel** or the Zoom chat.
 
 ### Before you arrive
@@ -179,7 +179,7 @@ Your navigator isn't in every room, so:
 
 ### The reading and the questions
 
-- **I don't understand the question or a claim.** Ask the Lens Coach! It'll explain in plain terms.
+- **I don't understand the question or a claim.** Ask the Lens Tutor! It'll explain in plain terms.
 - **Where's the reading?** It's in the course on the Lens platform: the chapter text is loaded right in the lesson. Can't find it? Ask the Tutor or Ask for Help.
 
 ### Tech

@@ -73,7 +73,7 @@ A crux is a claim about the world they disagree on: if true, one of them would d
 4\. Name something that should move Habryka towards Gleave.
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Your crux + what would move Gleave + what would move Habryka |
@@ -121,7 +121,7 @@ Against "net negative":
 4\. What moved you? If nothing did, why not?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Your verdict + confidence + what would change your mind + how far you moved since Unit 1 |
