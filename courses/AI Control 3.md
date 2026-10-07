@@ -3,8 +3,6 @@ id: '5ad0d9d4-9f77-4067-a837-96a2feb62b82'
 slug: ai-control-3
 title: "AI Control 3"
 description: "Hidden capabilities, reward seekers and deals. The third of three AI Control courses; it assumes AI Control 1 and 2. Five units of three and a half to four hours of self-study, each closing with a group meeting: stress-testing capability elicitation, and exploration hacking, where a model resists being trained by reinforcement learning; a benchmark for research sabotage, then building a locked model organism and auditing frontier models for exploration hacking; threat models beyond scheming, from reward seekers to cheaply satisfied preferences; measuring reward seeking, and why to make deals with early misaligned AIs; and how a lab would actually pay such an AI, make the deal stick, and what stands in the way, closing with where to go next in control research."
-tags:
-  - work-in-progress
 partner-name: XLab
 partner-url: "https://xrisk.uchicago.edu/"
 ---
