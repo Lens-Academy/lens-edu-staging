@@ -2,8 +2,6 @@
 id: '41288b48-ff90-412f-99d0-03da227778eb'
 slug: xlab-control-p1-overview
 title: "Course Overview"
-tags:
-  - work-in-progress
 ---
 %% Orientation module before Unit 1 of AI Control 1. Added September 2026; rewritten October 2026 when XLab's AI Control track was re-cut from two courses into three five-unit courses (AI Control 1, 2, 3, strict XLab lens order). Based on XLab's public track page (https://aisafetytracks.com/tracks/control). Unit summaries are written from the tldr, summary_for_tutor and openers of the lenses in each unit module; keep them in sync when a unit changes. Unit length including the end-of-unit learning-outcome tests (as estimated in each unit module's note): 213 to 264 minutes (U1 233, U2 240, U3 264 with four tests, U4 237, U5 213); updated 2026-10-04 for raised lens tutor times and new learning outcomes (U1 was 220, U4 220). Unit 3 is the long one, so the learner text names it. Learners see units, not days: the course also runs in less intensive formats. %%
 

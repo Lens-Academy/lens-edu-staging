@@ -2,8 +2,6 @@
 id: 'fb59db70-e63d-49fc-b900-883db81a3294'
 slug: xlab-control-ac1-u5-feedback
 title: "Unit 5 and course feedback"
-tags:
-  - work-in-progress
 ---
 %% Feedback module after Unit 5 of AI Control 1 (Elias, 2026-10-04): a separate module so it comes after the unit's learning-outcome tests and before the meeting, and so self-study learners, who never get the post-meeting survey, can give feedback too. Unit 5 is the last unit, so a second lens asks about the whole course. Questions are required except the "anything else" ones, and the pages do not say they are optional. Answers land in question_responses (no staff view yet; query by these segment ids). %%
 
