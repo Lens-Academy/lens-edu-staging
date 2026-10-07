@@ -180,8 +180,7 @@ options::
 - BlueDot Facilitating
 - Lens Academy Courses
 - Lens Academy Project
-- Lens Academy Facilitating {--{"author":"Claude's AI","timestamp":1791332498144}@@(paid)
-- Lens Academy Facilitating --}(volunteer)
+- Lens Academy Facilitating (volunteer)
 - AI Safety Camp
 - ML4Good
 - Global Challenges Project
@@ -230,8 +229,7 @@ options::
 - BlueDot Facilitating
 - Lens Academy Courses
 - Lens Academy Project
-- Lens Academy Facilitating {--{"author":"Claude's AI","timestamp":1791332499185}@@(paid)
-- Lens Academy Facilitating --}(volunteer)
+- Lens Academy Facilitating (volunteer)
 - AI Safety Camp
 - ML4Good
 - Global Challenges Project
