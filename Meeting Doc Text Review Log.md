@@ -80,6 +80,10 @@ Each entry gives the decision, who made it, the reason, and what it commits us t
 
 **"Accountability buddy" is the standard term.** *Andreas, 2026-10-04.* Most docs and the shared FAQ already say "buddy". AI Futures Meetings 2 and 3 say "partner" and change at their rewrite. Recorded in the style sheet as B7.
 
+**Batch 2: general and shared issues first, then all of AI Futures.** *Andreas, 2026-10-06.* AIRF and CV1 cohorts are wrapping up, so nothing in those courses is urgent. AI Futures Meeting 4 runs the week of 2026-10-12, which leaves time to do the whole course rather than Meeting 4 alone. Shared and recurring lines come first, so the AI Futures rewrites start from settled wording instead of settling it doc by doc. Plan in section 3.
+
+**Batch 2 covers the shared Participant FAQ, and AIRF's inline copies are synced by hand.** *Claude's working assumption, 2026-10-06. Not yet confirmed.* The FAQ is a shared block, so it belongs with the shared issues, even though the other non-Session-Doc tabs wait for later. AIRF's inline copies get the same changes copied in rather than being switched to the shared files, because switching is a structural change.
+
 **Follow-up questions that sort participants may share an item.** *Andreas, 2026-10-04.* There is a tension between one question per item and leaving room for different answers. Follow-ups such as "if not, what stopped you?" or "if nothing changed, what would?" filter responses by a participant's situation, so they stay. Recorded in the style sheet under B1. Applied to CV1 Meeting 5, Room 1, items 1 and 3.
 
 **"X ends, but Y doesn't" is allowed.** *Andreas, 2026-10-04.* Not a wholly prohibitive form. CV1 Meeting 5's Room 4 closer stays for now. Recorded in the style sheet under A2.
@@ -130,6 +134,54 @@ Stages 1 to 4 run once per batch of docs. The first batch is next week's three.
 **Stage 5. Next batch.** The remaining twelve docs, in the order cohorts reach them, including the Tutor rename in their inline mentions.
 
 **Stage 6. Hand-offs.** Anything outside our files, listed in section 7.
+
+### Batch 2, from 2026-10-06: general and shared issues, then all of AI Futures
+
+Order, decided by Andreas (section 2):
+
+1. Andreas rewrites the shared blocks (group A) and settles one wording for each recurring line (group B).
+2. Claude copies each settled wording into every doc of the three courses that still has the old line, as suggestions. This also finishes the Lens Coach to Lens Tutor rename, and brings AIRF's inline copies of the shared blocks into line.
+3. Claude flags AI Futures Meetings 1, 2, 4 and 5, Meeting 4 first. Andreas rewrites and Claude reviews, as in batch 1. AI Futures Meeting 3's two kept flags go into the same pass.
+4. Hand-offs (group C) go to section 7.
+
+Worklist, found 2026-10-06. Counts cover AIRF, AI Futures and CV1 docs only.
+
+**Group A. Shared blocks.** One rewrite reaches every doc that includes the block (section 5).
+
+- **How today works, all three variants.**
+    - "Today's shape" (Luc: call it Schedule or Agenda, one line per item with its length).
+    - "if your group hit something the others should hear, that is the moment" (Luc: vague; A1).
+    - "want to talk to the facilitator?", where every other line says navigator (B7).
+    - The help box has drifted between variants: the AIRF one has no Tutor link but has a "Lost the doc link" bullet, which the other two lack.
+- **Participant FAQ.**
+    - The two flag removals still pending since 2026-10-03 (both "X, not Y" contrasts that carry meaning, A2).
+    - The buddy answer says "You paired up in the first session". In a first meeting, pairing happens later that hour.
+- **Open discussion.** "If you are too many people" reads awkwardly.
+- **AIRF's inline copies.** Meeting 1 has its own copy of How today works, and all five AIRF docs have their own Participant FAQ. Each needs the same changes copied in.
+
+**Group B. Recurring lines.** Each doc has its own copy. Andreas settles one wording, and Claude copies it into every doc.
+
+- **Tutor help note.** Andreas's wording in CV1 Meeting 5 and AIRF Meeting 5: "Want help or clarification for this question? Ask your navigator or copy it into the Lens Tutor for an explanation." The old wording, still naming Lens Coach, is in:
+    - AIRF Meetings 1 (2), 2 (2), 3 (1) and 4 (1);
+    - CV1 Meetings 1 (2), 2 (2), 3 (2) and 4 (1);
+    - AI Futures Meetings 1 (1) and 4 (1).
+
+  AI Futures Meetings 2 and 5 have their own wording, also naming Lens Coach.
+- **Other Lens Coach mentions.** AIRF Meeting 1's inline How today works (1), and AIRF Meetings 1 to 4's inline FAQs (3 each).
+- **Room 1 check-in** ("How was working through this unit's content? … (No judgment, "I didn't finish" is a fine answer.)").
+    - In several variants across AIRF Meetings 1 to 4, CV1 Meetings 1 to 4 and AI Futures Meeting 1.
+    - AIRF Meeting 5 dropped "No judgment", and CV1 Meeting 5 kept it (A3). The follow-ups stay (B1 decision).
+- **AIRF Room 2 opener.** "Then, as a group, discuss this question and write your shared response in the table:" in AIRF Meetings 2 to 4. AIRF Meeting 5 now starts "As a group".
+- **AIRF Room 4.**
+    - "Brainstorm and share the questions below before noting in the table:" in AIRF Meetings 2 to 4.
+    - "Verbal primer for the survey!" in AIRF Meetings 2 and 3. It was deleted in Meeting 5.
+- **Closing question timing.** AI Futures Meetings 1 and 2 say "two hours ago" for a 90-minute meeting. AIRF and CV1 say 90 minutes.
+- **One-off fixes.**
+    - "Accountability partner" in AI Futures Meeting 2 (B7).
+    - "Gettable" in CV1 Meeting 2. The guide asks for "tractable".
+    - Em dashes in the Session Doc text of AIRF Meetings 2 (4) and 3 (2). Course Authoring bans them.
+
+**Group C. Hand-offs.** See section 7.
 
 ---
 
