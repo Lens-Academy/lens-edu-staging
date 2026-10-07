@@ -2,8 +2,6 @@
 id: '6180e1a0-04ec-46cb-9ff0-0405a327852b'
 slug: xlab-control-ac2-u3-feedback
 title: "Unit 3 feedback"
-tags:
-  - work-in-progress
 ---
 %% Feedback module after Unit 3 of AI Control 2, same pattern as AI Control 1 (Elias, 2026-10-04): a separate module so it comes after the unit's learning-outcome tests and before the meeting, and so self-study learners, who never get the post-meeting survey, can give feedback too. Rating scales are the post-meeting survey's 1-10 scales and labels; the content and AI Tutor ratings moved here from the meeting surveys. Questions are required except the "anything else" ones, and the page does not say they are optional. Answers land in question_responses (no staff view yet; query by these segment ids). %%
 
