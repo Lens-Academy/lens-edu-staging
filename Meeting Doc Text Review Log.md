@@ -19,7 +19,9 @@ Modeled on [[AIRF Restructure Log]] and [[CV1 Streamlining Proposal]], but kept 
 
 **Why.** Participants have said the questions are easy to tell apart as AI-written, and that this frustrates them even when they understand what is being asked. Reported by Andreas, 2026-10-03.
 
-**Status, 2026-10-05.** The first batch is done: AIRF Meeting 5, AI Futures Meeting 3 and CV1 Meeting 5, the meetings that run the week of 2026-10-05, have been flagged, rewritten by Andreas, reviewed and accepted, Session Doc tab only. Minor flags stay on the page for a later full pass, which also covers the other tabs and the shared blocks (section 7 and the log). The style sheet is a working draft Andreas accepted as a starting point. Next: the remaining twelve docs, in the order cohorts reach them.
+**Status, 2026-10-05.** The first batch is done: AIRF Meeting 5, AI Futures Meeting 3 and CV1 Meeting 5, the meetings that run the week of 2026-10-05, have been flagged, rewritten by Andreas, reviewed and accepted, Session Doc tab only. Minor flags stay on the page for a later full pass, which also covers the other tabs and the shared blocks (section 7 and the log). The style sheet is a working draft Andreas accepted as a starting point.
+
+**Status, 2026-10-06.** Batch 2 has started: general and shared issues first, then all of AI Futures, with Meeting 4 running the week of 2026-10-12. The worklist is in section 3.
 
 **Where things are.**
 
@@ -286,7 +288,7 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 
 ### For the owner of [[AI Guide/Writing Meeting Docs]]
 
-- Rule 6 still requires a "Lens Coach" note, and rule 7 and two examples (Room 2 and 3 patterns) still name Lens Coach and link `/coach`. Batch 1 settled a replacement help note (section 3, group B).
+- Rule 6 still requires a "Lens Coach" note, and rule 7 and two examples (Room 2 and 3 patterns) still name Lens Coach and link `/coach`. The candidate replacement is the help note Andreas wrote in batch 1 (section 3, group B).
 - The closing-question example says "two hours ago" for a 90-minute meeting, which AI Futures Meetings 1 and 2 copied.
 - Several examples carry the habits in section 1, for example "Half-formed is fine; that's what the room is for" and "you'd genuinely like the group to dig into". The "course ends today" closer is now allowed (A2).
 
