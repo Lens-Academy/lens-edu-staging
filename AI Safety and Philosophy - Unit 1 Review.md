@@ -34,6 +34,8 @@ Submodules:
 
 The final exercise is [[Lenses/AISP U1 final - AI Risk Decision Map]].
 
+The draft 90-minute facilitated session is [[meetings/AI Safety and Philosophy/Meeting 1]].
+
 ## Source coverage
 
 The unit now draws on the original reading set and the later additions supplied for the revision. Major source clusters include:
