@@ -56,7 +56,7 @@ The course opens on an analogy. Banks and hospitals do not assume every insider 
 4\. If you still have time: you cannot test whether this insider means well. What could you test instead?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Your organisation's mechanisms + what carries over, what breaks |
@@ -90,7 +90,7 @@ You are a model writing code for a lab. Your work ships if the tests pass.
 3\. The lab now has a weaker model score everything you write for suspicion, and a human checks the 2% it scores most suspicious. Which step does that hit, and where does your attack go instead?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Your routes + the steps your best one needs + where the monitor bites |

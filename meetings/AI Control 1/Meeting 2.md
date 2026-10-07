@@ -61,7 +61,7 @@ Your group is the committee that decides what the lab actually deploys. The pape
 3\. What would have to be true for you to ship the first option, not using the strong model at all?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | What you ship + its price + your fallback |
@@ -100,7 +100,7 @@ Who is right, and why?
 3\. If you still have time: what would put the humans back?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | The evidence you would demand + your answer to the colleague |
