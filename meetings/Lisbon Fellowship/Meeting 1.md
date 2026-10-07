@@ -48,7 +48,7 @@ On the platform you wrote a number: years until AI does essentially all remote c
 4\. If you still have time: one thing you could learn in the next 12 months that would move every curve.
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Your number + the belief splitting the curves + what moves you |
@@ -77,7 +77,7 @@ Andrew Ng, quoted in the Atlas: "This is how we build airplanes: we build airpla
 4\. If you still have time: which misuse domain (bio, cyber, autonomous weapons, adversarial attacks) is closest to unpatchable today?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Which capability breaks patching first + the condition Ng survives under |
@@ -126,7 +126,7 @@ Before you leave (your facilitator will talk through these):
 - Next week: Risks, Part 2 (Misalignment Risks, Systemic Risks, Risk Amplifiers, Conclusion, Reflection) and Strategies, Part 1 (Introduction, Definitions, Misuse Prevention Strategies, AGI Safety Strategies, ASI Safety Strategies). About 210 minutes of required reading; the appendices on quantifying existential risks and forecasting scenarios are optional.
 - Message your accountability buddy tonight (the fellowship Discord works) with your Week 6 target and your plan for next week's reading. Before each session, check in with each other: did you finish, are you coming?
 - Sign the attendance sheet before you go. Six of eight sessions for the certificate.
-- Stuck on a term or an argument while reading? Paste it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation. Questions for the group between sessions go in the fellowship Discord.
+- Stuck on a term or an argument while reading? Paste it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation. Questions for the group between sessions go in the fellowship Discord.
 
 
 ---
@@ -146,7 +146,7 @@ Quick answers for the in-person session. Everything you actually do is in the se
 Your facilitator can't be at every table at once, so:
 
 - **Confused about the task, or want a human?** Wave your facilitator over; they circulate between tables.
-- **Don't get the question, or something in the reading?** Ask the [Lens Coach](https://lensacademy.org/coach). It's for understanding, not for handing you the answer.
+- **Don't get the question, or something in the reading?** Ask the [Lens Tutor](https://lensacademy.org/tutor). It's for understanding, not for handing you the answer.
 - **Lost the doc link, or a quick logistics thing?** Check the fellowship **Discord channel**.
 
 ### Before you arrive
@@ -170,7 +170,7 @@ Your facilitator can't be at every table at once, so:
 
 ### The reading and the questions
 
-- **I don't understand the question or a claim.** Ask the [Lens Coach](https://lensacademy.org/coach)! It'll explain in plain terms.
+- **I don't understand the question or a claim.** Ask the [Lens Tutor](https://lensacademy.org/tutor)! It'll explain in plain terms.
 - **Where's the reading?** It's in the course on the Lens platform: the chapter text is loaded right in the lesson. Can't find it? Ask the Tutor or your facilitator.
 
 ### Tech
