@@ -2,8 +2,6 @@
 id: 'f9e25e5e-cfab-474f-ad06-ebbd189c7787'
 slug: xlab-control-ac3-overview
 title: "Course Overview"
-tags:
-  - work-in-progress
 ---
 %% Orientation module before Unit 1 of AI Control 3, created October 2026 when XLab's AI Control track was re-cut from two courses into three five-unit courses (AI Control 1, 2, 3, strict XLab lens order). Unit summaries are written from the tldr, summary_for_tutor and openers of the lenses in each unit module; keep them in sync when a unit changes. Unit length: core lens time on the relay 167 to 233 minutes (U1 200, U2 233, U3 167, U4 202, U5 225; Unit 1 adds 40 optional, Unit 3 adds the 60-minute optional talk), 188 to 259 with the learning-outcome tests as estimated in each unit module's note (U1 221, U2 259, U3 188, U4 226, U5 250); updated 2026-10-04 from the unit module notes (was 188 to 223 core, about 211 to 250 with the projected ~12% for tests, final-units.md figures). Unit 3 counts reward-seeker-empirics (60) as core, as final-units.md and the AC3 U3 module draft do, but the lens opens with a callout calling its 60-minute Apollo talk supplementary and not required, so the overview says Unit 3 includes an optional talk. Whether to mark that lens optional:: true is a separate structure decision. Learner text says about three and a half hours, some up to about four, the shared phrasing of all three overviews; Unit 2 with projected tests is about four hours ten, which rounds to about four. On 2026-10-04 every unit has linked learning-outcome tests, so the text now says each unit closes with tests. Learners see units, not days: the course also runs in less intensive formats. %%
 
