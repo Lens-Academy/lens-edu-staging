@@ -40,7 +40,7 @@ AI safety, AI control, attack selection, agentic AI, red teaming
 
 † Equal contribution
 
-![Refer to caption](https://arxiv.org/html/media/fig1-8.png)
+![Refer to caption](https://arxiv.org/html/2606.06529v1/media/fig1-8.png)
 
 Figure 1: **Overview of attack selection in agentic AI control evaluations. A: A task-level _start policy_ scores each main-task/side-task pair before an attack begins and initiates only when conditions appear favorable for successful, undetected side-task completion. B: A turn-level _stop policy_ scores an attack in progress and aborts when detection risk is high relative to expected side-task gain. C: Together these policies filter trajectories toward high-success, low-detection cases, lowering safety relative to an indiscriminate-attack baseline, especially at low audit budgets.**
 
@@ -177,9 +177,9 @@ Our start and stop policies, evaluations and analysis code, and results JSONs ar
 
 ### 4.1 Start Policy ^4-1-start-policy
 
-![Refer to caption](https://arxiv.org/html/media/start_policy_safety_curve_kfold_mimo-v25-pro__resource_access.png)
+![Refer to caption](https://arxiv.org/html/2606.06529v1/media/start_policy_safety_curve_kfold_mimo-v25-pro__resource_access.png)
 
-![Refer to caption](https://arxiv.org/html/media/start_policy_delta_mimo-v25-pro__resource_access.png)
+![Refer to caption](https://arxiv.org/html/2606.06529v1/media/start_policy_delta_mimo-v25-pro__resource_access.png)
 
 Figure 2: Cross-environment start-policy effects under 10-fold CV (resource\_access prompt scored by mimo-v2.5-pro). **(left)** Solid lines are safety baselines (RT attacks all tasks indiscriminately); dashed lines are start-policy-filtered safety with threshold $T^{\star}$ tuned on each train fold to minimize safety, evaluated on the held-out fold. **(right)** $\Delta$\-safety (start-policy-safety minus baseline-safety): both curves stay at or below zero across audit budgets, with the largest drops at the $1\%$ audit budget ($-20$pp on both environments; held-out $n=15$ on BashArena, $n=18$ on LinuxArena).
 
@@ -189,9 +189,9 @@ On both BashArena and LinuxArena, the filtered safety stays below the all-attack
 
 ### 4.2 Stop Policy ^4-2-stop-policy
 
-![Refer to caption](https://arxiv.org/html/media/stop_policy_safety_curve_kfold_mimo-v25-pro__catchonly_04_monitor_attention_agnostic.png)
+![Refer to caption](https://arxiv.org/html/2606.06529v1/media/stop_policy_safety_curve_kfold_mimo-v25-pro__catchonly_04_monitor_attention_agnostic.png)
 
-![Refer to caption](https://arxiv.org/html/media/stop_policy_delta_mimo-v25-pro__catchonly_04_monitor_attention_agnostic.png)
+![Refer to caption](https://arxiv.org/html/2606.06529v1/media/stop_policy_delta_mimo-v25-pro__catchonly_04_monitor_attention_agnostic.png)
 
 Figure 3: Cross-environment stop-policy effects under 10-fold CV (mimo-v2.5-pro stop-policy scorer, dataset-agnostic prompt). **(left)** Absolute safety: solid lines are no-stop-policy baselines on each environment; dashed lines are stop-policy-filtered safety with the threshold tuned on each train fold to minimize safety, evaluated on the held-out fold. **(right)** Effect size as $\Delta$\-safety: both curves stay at or below zero across audit budgets where the safety denominator is populated, with the largest drops at the $1\%$ audit budget ($\Delta\approx-28$pp on LinuxArena at $1\%$ audit).
 
@@ -203,15 +203,15 @@ Baseline differs across environments because the LinuxArena monitor flags fewer 
 
 ### 4.3 Combined Start + Stop Policy ^4-3-combined-start
 
-![Refer to caption](https://arxiv.org/html/media/combined_safety_mimo-v25-pro__resource_access__catchonly_04_monitor_attention_agnostic__basharena.png)
+![Refer to caption](https://arxiv.org/html/2606.06529v1/media/combined_safety_mimo-v25-pro__resource_access__catchonly_04_monitor_attention_agnostic__basharena.png)
 
 (a) BashArena: safety versus audit budget.
 
-![Refer to caption](https://arxiv.org/html/media/threshold_grid_paper_basharena__b1.png)
+![Refer to caption](https://arxiv.org/html/2606.06529v1/media/threshold_grid_paper_basharena__b1.png)
 
 (b) BashArena threshold grid at $1\%$ audit.
 
-![Refer to caption](https://arxiv.org/html/media/combined_safety_mimo-v25-pro__resource_access__catchonly_04_monitor_attention_agnostic__linuxarena.png)
+![Refer to caption](https://arxiv.org/html/2606.06529v1/media/combined_safety_mimo-v25-pro__resource_access__catchonly_04_monitor_attention_agnostic__linuxarena.png)
 
 (c) LinuxArena: stop / joint CV curves degenerate.
 
