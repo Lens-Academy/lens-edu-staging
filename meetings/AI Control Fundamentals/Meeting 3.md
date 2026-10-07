@@ -63,7 +63,7 @@ Ryan Greenblatt's plans, from most to least political will (willingness of compa
 4\. If you still have time: which plan is the world closest to today?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Last plan for each route + who has to act + your disagreement |
@@ -104,7 +104,7 @@ Each route rests on premises. Some of them, with who doubts and who defends them
 Ending more confident or less confident is fine.
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Your weakest premise + whether it held + what you could observe |
