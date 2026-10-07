@@ -10,3 +10,5 @@ tags:
 #### Text
 content::
 This scratch lens times how long an agent's edit takes to reach staging. It belongs to no module or course.
+
+A second paragraph checks how quickly an edited paragraph reaches learners. Timing marker 215428.
