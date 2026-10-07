@@ -63,7 +63,7 @@ Mechanisms:
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Your smallest set + your rebuild + who produces each piece |
