@@ -58,7 +58,7 @@ d. What can they not see at all?
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Your system: what it sees and misses + what works for AI, what breaks |
@@ -92,7 +92,7 @@ This unit's trade-off: build verification tough enough for a full halt and every
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Which approach you'd sign this year + why |
