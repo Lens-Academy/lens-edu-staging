@@ -171,7 +171,6 @@ options::
 - Global Challenges Project
 - Lens Academy Course
 - Lens Academy Project
-- Lens Academy Facilitating (paid)
 - Lens Academy Facilitating (volunteer)
 - ARENA
 - Pathfinder
