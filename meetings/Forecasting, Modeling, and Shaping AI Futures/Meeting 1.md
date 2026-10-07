@@ -46,7 +46,7 @@ One or two people share what their group landed on.
 3\. Each person, one line: holds or bends, and what would you see in the next two years that would switch you?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Holds or bends + what would switch you |
