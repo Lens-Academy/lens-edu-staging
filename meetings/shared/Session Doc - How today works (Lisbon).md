@@ -16,7 +16,7 @@ Between rounds everyone comes back together. That is where you share what came u
 **🆘 Need help during a round?**
 
 - Confused about the task, or want a human? Wave your facilitator over; they circulate between tables.
-- Don't get the question or the reading? Ask the [Lens Coach](https://lensacademy.org/coach).
+- Don't get the question or the reading? Ask the [Lens Tutor](https://lensacademy.org/tutor).
 - More questions? Check the [FAQ Tab](<#tab:Participant FAQ>)
 
 

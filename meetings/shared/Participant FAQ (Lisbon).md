@@ -34,7 +34,7 @@ Your facilitator can't be at every table at once, so:
 ### The reading and the questions
 
 - **I don't understand the question or a claim.** Ask the [Lens Coach](https://lensacademy.org/coach)! It'll explain in plain terms.
-- **Where's the reading?** It's in the course on the Lens platform: the chapter text is loaded right in the lesson. Can't find it? Ask the Coach or your facilitator.
+- **Where's the reading?** It's in the course on the Lens platform: the chapter text is loaded right in the lesson. Can't find it? Ask the Tutor or your facilitator.
 
 ### Tech
 
