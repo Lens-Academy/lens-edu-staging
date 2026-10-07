@@ -16,13 +16,9 @@ reading_minutes:: 5
 content::
 \## From abstract risk to AI
 
-The first module gave us a way to talk about catastrophic stakes and deep uncertainty without assuming that either side of the debate has already won. We can now ask the AI-specific question.
+The first module gave us a way to talk about catastrophic stakes and deep uncertainty without assuming that either side of the debate has already won. We can now ask the AI-specific question. There is no single "AI risk argument": some pathways involve malicious people using obedient systems, some involve companies or states taking risks because competition makes caution expensive, some involve ordinary organizational failure, and some involve autonomous systems whose objectives diverge from ours. There are also slower possibilities in which no system stages a coordinated takeover but human influence over the economy, politics, or culture erodes anyway.
 
-There is no single "AI risk argument". Some pathways involve malicious people using obedient systems. Some involve companies or states taking risks because of competition. Some involve ordinary organizational failure. Some involve autonomous systems with goals that diverge from ours. Others involve gradual loss of human influence with no coordinated takeover at all.
-
-We will map those pathways first. Then we will look at the strongest reasons for thinking AI existential-risk work gets too much attention or arrives too early. We finish with evidence from forecasters and domain experts who understood one another and still did not converge.
-
-The final exercise asks you to make a decision before the uncertainty is resolved.
+This module starts by mapping those pathways so that we know what kind of evidence each one needs. It then gives serious space to the strongest arguments for thinking AI x-risk work is over-prioritised, too speculative, or premature. We finish with evidence from forecasters and domain experts who understood one another's arguments and still did not converge. The final exercise asks you to make a provisional decision while that uncertainty is still present, which is much closer to the situation real researchers and policymakers face.
 
 # Submodule: How could AI cause catastrophe?
 

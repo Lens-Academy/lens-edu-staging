@@ -16,13 +16,9 @@ reading_minutes:: 6
 content::
 \## Why intervene at all?
 
-Before we talk about alignment techniques, AI control, governance, or what a good future should look like, there is a prior question. Why should anyone spend serious time or resources on catastrophic AI risk now?
+Before we talk about alignment techniques, AI control, governance, or what a good future should look like, there is a prior question: why should anyone spend serious time or resources on catastrophic AI risk now? "Because extinction would be bad" is not enough. It tells us something about stakes and almost nothing about probability, tractability, tradeoffs, timing, or what to do with uncertainty. It also leaves out futures where humans survive but lose meaningful control, and futures where enormous suffering occurs without extinction.
 
-The answer cannot simply be "because extinction would be bad". That tells us something about stakes and almost nothing about probability, tractability, tradeoffs, or timing. It also misses bad futures where humans survive but lose meaningful control, and futures where enormous suffering occurs without extinction.
-
-This module builds the decision problem in three steps. First, we ask what kinds of outcomes deserve special concern and why irreversibility matters. Second, we ask how to reason when the relevant probabilities are partly judgments about systems that have never existed. Third, we ask what uncertainty should make us *do*: act early, gather information, preserve options, accept risk, or some combination.
-
-You are not expected to come out with one preferred decision theory. The goal is to become able to say why a particular action is justified under a particular kind of uncertainty.
+This module builds the decision problem in three steps. We start with the outcomes themselves and ask what makes some losses unusually hard to recover from. Then we look at what happens when the probabilities come from arguments about systems that have never existed, rather than from a long track record of repeated events. Finally, we ask what uncertainty should change about action: when to move early, when to gather information, when preserving options matters, and when caution can create risks of its own. You do not need to leave with one preferred decision theory. You should leave able to explain why a particular action is or is not justified under the particular kind of uncertainty you face.
 
 # Submodule: What makes a catastrophe existential, and is extinction the whole problem?
 
