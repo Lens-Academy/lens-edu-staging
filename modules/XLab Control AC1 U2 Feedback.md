@@ -2,8 +2,6 @@
 id: '14316fbb-78f9-4406-8b3c-63c586f4c744'
 slug: xlab-control-ac1-u2-feedback
 title: "Unit 2 feedback"
-tags:
-  - work-in-progress
 ---
 %% Feedback module after Unit 2 of AI Control 1 (Elias, 2026-10-04): a separate module so it comes after the unit's learning-outcome tests and before the meeting, and so self-study learners, who never get the post-meeting survey, can give feedback too. Questions are required except the last, and the page does not say it is optional. Answers land in question_responses (no staff view yet; query by these segment ids). %%
 

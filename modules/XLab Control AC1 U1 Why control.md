@@ -2,8 +2,6 @@
 id: '824b0b0a-7d91-4437-9581-5a29ed5b8f41'
 slug: xlab-control-ac1-u1
 title: "Unit 1: Why control"
-tags:
-  - work-in-progress
 ---
 %% Unit 1 of AI Control 1 (no prerequisites), from the October 2026 three-course re-cut of XLab's AI Control track (AI Control 1, 2 and 3, five units each; approved by Elias 2026-10-02). Its lenses were in "XLab Control P1 D1 Why control", old unit modules now in _deprecated; lens files are unchanged except position text. Lens order follows XLab's track. Core self-study 197 minutes from the lens frontmatter on 2026-10-04 (74 reading, 123 tutor), lens by lens as reading+tutor: welcome (inline) 5+0; the-case-for-controlling-powerful-ais 16+38; the-case-for-controlling-powerful-ais-2 13+37; the-case-for-controlling-powerful-ais-3 17+28; the-case-for-controlling-powerful-ais-4 23+20. Plus about 36 minutes for the five end-of-unit learning-outcome tests (Control as a distinct safety case 8, Trusted versus untrusted models 8, Control evaluation methodology 8, Control limits as capabilities scale 6, Changes to the control window 6), about 233 in total. On 2026-10-04 the tutor time of the first two lenses rose (33 to 38, 35 to 37), Trusted versus untrusted models grew to three parts, and Changes to the control window was added (was 190 lens + 30 tests, about 220). Each existing learning outcome is attached to the unit where the teaching in its suggested lenses completes; their tests render at the end of the unit. The inline welcome lens moved here from the old Unit 1 module with its id; five lines of position text in it were updated for the new unit numbers. %%
 
