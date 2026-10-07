@@ -46,7 +46,7 @@ Two readings in this unit quietly disagree about where the danger inside a lab l
 Split the room: half of you argue the ten should keep watching the models, half argue they should be watching the org chart. Argue it properly, then drop the roles and write the group's verdict: if the ten people took both threats seriously, what would they actually do differently?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | If the ten took both threats seriously, what would they do differently? |
