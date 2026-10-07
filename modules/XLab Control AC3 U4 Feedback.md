@@ -2,8 +2,6 @@
 id: '02c24383-34e1-4d81-8732-cd4bb14f9b90'
 slug: xlab-control-ac3-u4-feedback
 title: "Unit 4 feedback"
-tags:
-  - work-in-progress
 ---
 %% Feedback module after Unit 4 of AI Control 3, same pattern as AI Control 1 (Elias, 2026-10-04): a separate module so it comes after the unit's learning-outcome tests and before the meeting, and so self-study learners, who never get the post-meeting survey, can give feedback too. Rating scales are the post-meeting survey's 1-10 scales and labels; the content and AI Tutor ratings moved here from the meeting surveys. Questions are required except the "anything else" ones, and the page does not say they are optional. Answers land in question_responses (no staff view yet; query by these segment ids). %%
 
