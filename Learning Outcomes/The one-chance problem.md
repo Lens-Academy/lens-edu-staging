@@ -19,7 +19,7 @@ eval-results:
 
 ## Test:
 id:: 7f627b30-5641-48ef-901d-e710813fb828
-#### Question
+#### Question: Open
 id:: 4fc0ef19-14a5-44cd-96e0-e8d3c6a99f38
 content:: Chapter 12 opens by asking why smart, well-meaning people build things that could destroy the world. To make the denial pattern concrete, it draws on two historical disasters: the Chernobyl meltdown and the Titanic sinking. Even when the warning signs are present, both cases show how humans fail to believe that unthinkable disasters can actually happen. The chapter then makes a pivot: it argues these analogies hold only up to a point, because there is one critical way in which an ASI failure differs from both of them.
 
@@ -37,6 +37,18 @@ Score according to the following rubric.
 **4**: As above, plus explains why the one-chance structure changes the epistemic burden: with repeatable disasters, learning-by-failure is a viable if tragic strategy; with ASI, the expected cost of a single failure is total, so the standard for proceeding can't be the same as for technologies where post-failure correction is possible. *Example: Adds "The disanalogy matters because it changes what you should do about uncertainty. With Chernobyl and Titanic, you could build, observe the failure, and improve. That's a painful but viable path to safer technology. With ASI you can't run that experiment. You have to be confident before you act, not after you've survived the first failure."*
 
 **5**: As above, plus articulates the self-reinforcing trap the chapter creates: the denial pattern the analogies establish is precisely the psychological barrier to meeting the higher burden of proof the disanalogy requires: the two halves of the argument reinforce each other into a coherent diagnosis. *Example: Adds "There's a painful loop: the analogies show that humans are reliably bad at believing unthinkable disasters can happen, and the disanalogy shows that with ASI, that belief failure would be fatal. The denial pattern isn't just one problem among many; it's the specific barrier to meeting the one-chance problem correctly. The chapter uses the historical cases to prove we are susceptible to exactly the error that would kill us when the stakes are total."*
+
+force-feedback:: first
+feedback-instructions:: Respond to what the learner actually wrote. Open on the strongest thing in it, in one sentence. Then push once, chosen by where they stopped:
+
+- If they ran the two cases together into "people ignored warnings", ask what Chernobyl shows about the people running the system and what Titanic shows about how people saw the technology beforehand.
+- If they had one case or no disanalogy, ask what happened after each disaster that could not happen after an ASI failure.
+- If they had both contributions and the disanalogy, ask what changes about the decision to proceed when you cannot learn from a failure.
+- If they had that, ask how the two halves fit together: what does the denial pattern mean for meeting that higher bar?
+
+At full marks, just confirm briefly. Don't cite level numbers or band names (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: after the Titanic, ships were required to carry more lifeboats. Ask who would be around to write the new rules after an ASI failure. If they still don't attempt it, rephrase the question.
+
+One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
 
 # Suggested Lenses:

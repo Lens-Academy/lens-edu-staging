@@ -19,7 +19,7 @@ eval-results:
 
 ## Test:
 id:: 38dc6bd8-b793-448e-a44a-89d3cd4c6a03
-#### Question
+#### Question: Open
 id:: 8cb60110-0a9e-46c1-bf92-29af1920ea39
 content:: Chapter 12 closes with a striking image: every competing AI company is climbing a ladder in the dark. Nobody knows which rung will be the last safe one: the point at which an AI system crosses into unrecoverable territory. You might expect this uncertainty to provide protection: if no one knows where the lethal rung is, perhaps caution will prevail. Chapter 12 argues the opposite. 
 
@@ -37,6 +37,18 @@ Score according to the following rubric.
 **4**: As above, plus explains the individual-rationality/collective-tragedy structure: each actor's decision to continue is locally rational given the competitive context, but the aggregate of locally rational decisions produces a catastrophic collective outcome, making this a structural problem that no individual can solve. *Example: Adds "The key insight is that each actor has individually rational reasons to keep going: unilateral stopping is unilateral disarmament. This isn't irrationality or malice: it's a situation where individually sensible choices aggregate into collective death. No single actor can fix it alone, which is why the chapter sets up the treaty argument in Chapter 13."*
 
 **5**: As above, plus connects to the CERN comparison the chapter uses to close: CERN spent 10 years calculating whether the LHC could destroy the Earth before proceeding, which illustrates what appropriate epistemic caution under existential uncertainty looks like. The contrast reveals that AI development has no equivalent pause-and-calculate mechanism. *Example: Adds "The CERN comparison clarifies the counterfactual. Physicists delayed the LHC a decade while they verified it couldn't destroy the world. That's the appropriate model for proceeding under existential uncertainty: pause and calculate until you can show it's safe. AI development has no equivalent process: there's no coordinated threshold, no verification requirement, no pause mechanism. The ladder keeps climbing because the competitive structure provides nothing to stop it."*
+
+force-feedback:: first
+feedback-instructions:: Respond to what the learner actually wrote. Open on the strongest thing in it, in one sentence. Then push once, chosen by where they stopped:
+
+- If they treated uncertainty as a reason for hope, ask what each company does at the next rung when it cannot tell whether that rung is the lethal one.
+- If they named the race but not why uncertainty fails to protect, ask whether the climbing depends on anyone knowing where the lethal rung is, or on something else.
+- If they traced why each actor keeps climbing, ask why no single actor can fix this even when each is acting sensibly.
+- If they had that, ask what a pause-and-calculate process looks like elsewhere, as in the chapter's CERN example, and what AI development has in its place.
+
+At full marks, just confirm briefly. Don't cite level numbers or band names (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: the executive who believes there is a 20 percent chance of killing everyone and keeps building. Ask what keeps them building. If they still don't attempt it, rephrase the question.
+
+One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
 
 # Suggested Lenses:
