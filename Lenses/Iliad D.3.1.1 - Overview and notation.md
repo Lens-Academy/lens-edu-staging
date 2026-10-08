@@ -2,7 +2,7 @@
 id: '2c13711f-1b36-4f52-b0c5-8c6f2ef1823e'
 title: "D.3.1.1 Overview and notation"
 tldr: "Introduces Solomonoff induction as sequence prediction with a Bayesian mixture over environments, the error measure to be bounded, the roadmap of results and the notation."
-summary_for_tutor: "Opening of Iliad worksheet D.3.1 Solomonoff Induction: prerequisites, learning goals, difficulty ratings (Knuth scale), and the setup of predicting a binary sequence from a true environment mu with a mixture xi over a countable class M with prior weights w_nu. States the planned results: the bound S_infinity <= -ln w_mu, the Solomonoff-prior bound K(mu) ln 2, Pareto optimality, and the misspecified case. Keep the notation x_{<t}, xi, mu, nu, w_nu, M. No exercises in this lens."
+summary_for_tutor: "Opening of worksheet D.3.1 (solomonoff induction): prerequisites, learning goals, difficulty ratings (Knuth scale), and the setup of predicting a binary sequence from a true environment mu with a mixture xi over a countable class M with prior weights w_nu. States the planned results: the bound S_infinity <= -ln w_mu, the Solomonoff-prior bound K(mu) ln 2, Pareto optimality, and the misspecified case. Keep the notation x_{<t}, xi, mu, nu, w_nu, M. No exercises in this lens."
 authors:
   - David Quarel (ARENA)
   - Leon Lang (Iliad)

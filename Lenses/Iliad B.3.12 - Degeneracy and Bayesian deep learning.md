@@ -2,7 +2,7 @@
 id: '913f3fa1-a881-4303-9c83-ceafd8dbf602'
 title: "B.3.12 Degeneracy and Bayesian deep learning"
 tldr: "States Watanabe's free energy formula linking the learning coefficient to Bayesian learning, and explains Bayesian phase transitions as the sample size grows."
-summary_for_tutor: "This is Section 4.1 and 4.2 of Iliad worksheet B.3 Singular Learning Theory. It gives Theorem 4.1 (local free energy formula F_n(U) = n L_n(w*) + lambda_U log n - (mu_U - 1) log log n + O_p(1)), the interpretation as data fit plus complexity, internal model selection, the BIC remark for regular models, and Bayesian phase transitions with the critical sample size n*. It contains Exercises 4.1 (numerical demonstration for the cubic model) and 4.2 (exploring phase transitions) with collapsed solutions. Keep the notation F_n, lambda, n*. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "This is Section 4.1 and 4.2 of worksheet B.3 (singular learning theory). It gives Theorem 4.1 (local free energy formula F_n(U) = n L_n(w*) + lambda_U log n - (mu_U - 1) log log n + O_p(1)), the interpretation as data fit plus complexity, internal model selection, the BIC remark for regular models, and Bayesian phase transitions with the critical sample size n*. It contains Exercises 4.1 (numerical demonstration for the cubic model) and 4.2 (exploring phase transitions) with collapsed solutions. Keep the notation F_n, lambda, n*. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Kai Ogden (University of Oxford)
   - Matthew Farrugia-Roberts (University of Oxford)

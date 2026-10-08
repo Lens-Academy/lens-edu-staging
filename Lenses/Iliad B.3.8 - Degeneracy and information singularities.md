@@ -2,7 +2,7 @@
 id: '40435bd2-e092-44ed-9e9a-45ddf932152f'
 title: "B.3.8 Degeneracy and information singularities"
 tldr: "Extends degeneracy to parameter-distribution maps and proves that the Fisher information matrix is singular exactly when the map is degenerate."
-summary_for_tutor: "This is Section 2.4 of Iliad worksheet B.3 Singular Learning Theory. It defines degeneracy of a parameter-distribution map Psi, Definition 2.3 (score function and directional score) and Definition 2.4 (Fisher information matrix I(w)). It contains Exercises 2.11 (properties of the score function) and 2.12 (the kernel of I(w) equals the set of degenerate directions) with hints and collapsed solutions, and a remark on Watanabe's strictly singular models. Keep the notation s, s_v, I(w). Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "This is Section 2.4 of worksheet B.3 (singular learning theory). It defines degeneracy of a parameter-distribution map Psi, Definition 2.3 (score function and directional score) and Definition 2.4 (Fisher information matrix I(w)). It contains Exercises 2.11 (properties of the score function) and 2.12 (the kernel of I(w) equals the set of degenerate directions) with hints and collapsed solutions, and a remark on Watanabe's strictly singular models. Keep the notation s, s_v, I(w). Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Kai Ogden (University of Oxford)
   - Matthew Farrugia-Roberts (University of Oxford)

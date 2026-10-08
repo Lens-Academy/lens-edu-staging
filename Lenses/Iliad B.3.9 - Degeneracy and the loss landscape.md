@@ -2,7 +2,7 @@
 id: '535619da-2555-4ff7-bee4-a7fae5af6e8b'
 title: "B.3.9 Degeneracy and the loss landscape"
 tldr: "Relates degeneracy to the loss landscape: Hessians, regular versus degenerate minima, and when map degeneracy and loss degeneracy do or do not imply each other."
-summary_for_tutor: "This is Section 2.5 of Iliad worksheet B.3 Singular Learning Theory. It defines the Hessian H(w) and regular (Morse) versus degenerate minima. It contains Exercises 2.13 (directional derivatives of the loss), 2.14 (the losses a^(2k) + b^(2l)), 2.15 (realisable models: the Bartlett identity gives H(w_0) = I(w_0)) and 2.16 (examples contrasting parametric and loss degeneracy) with hints and collapsed solutions. Keep the notation H, L_{k,l}, w_0. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "This is Section 2.5 of worksheet B.3 (singular learning theory). It defines the Hessian H(w) and regular (Morse) versus degenerate minima. It contains Exercises 2.13 (directional derivatives of the loss), 2.14 (the losses a^(2k) + b^(2l)), 2.15 (realisable models: the Bartlett identity gives H(w_0) = I(w_0)) and 2.16 (examples contrasting parametric and loss degeneracy) with hints and collapsed solutions. Keep the notation H, L_{k,l}, w_0. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Kai Ogden (University of Oxford)
   - Matthew Farrugia-Roberts (University of Oxford)

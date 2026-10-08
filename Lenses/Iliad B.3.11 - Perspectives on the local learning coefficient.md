@@ -2,7 +2,7 @@
 id: '7c34db78-66a8-4445-a531-63ef8ff5922b'
 title: "B.3.11 Perspectives on the local learning coefficient"
 tldr: "Gives other views of the local learning coefficient (bits, real log canonical threshold, fractal dimension) and its value for two-layer deep linear networks."
-summary_for_tutor: "This is Section 3.2 and 3.3 of Iliad worksheet B.3 Singular Learning Theory. It covers the information-theoretic reading of the LLC, the algebro-geometric view (resolution of singularities, local zeta function, real log canonical threshold, optional), Definitions 3.2 (Holder exponent) and 3.3 (loss pseudo-metric) and Theorem 3.4 (Aoyagi and Watanabe 2005, the LLC of two-layer deep linear networks). It contains Exercises 3.8 (LLC via the RLCT), 3.9 (Holder exponent equals LLC) and 3.10 (LLCs of two-layer DLNs) with collapsed solutions. Keep the notation lambda, mu, RLCT. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "This is Section 3.2 and 3.3 of worksheet B.3 (singular learning theory). It covers the information-theoretic reading of the LLC, the algebro-geometric view (resolution of singularities, local zeta function, real log canonical threshold, optional), Definitions 3.2 (Holder exponent) and 3.3 (loss pseudo-metric) and Theorem 3.4 (Aoyagi and Watanabe 2005, the LLC of two-layer deep linear networks). It contains Exercises 3.8 (LLC via the RLCT), 3.9 (Holder exponent equals LLC) and 3.10 (LLCs of two-layer DLNs) with collapsed solutions. Keep the notation lambda, mu, RLCT. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Kai Ogden (University of Oxford)
   - Matthew Farrugia-Roberts (University of Oxford)

@@ -2,7 +2,7 @@
 id: '3e2b9bdb-8caa-4d4e-84d8-b6886d05b28f'
 title: "B.3.7 Localised degeneracy"
 tldr: "Studies degeneracy that exists only at some parameters: the product a*b, two-layer deep linear networks (counting degenerate directions) and redundant MLP units."
-summary_for_tutor: "This is Section 2.3 of Iliad worksheet B.3 Singular Learning Theory. It covers localised symmetries and localised degeneracy. It contains Exercises 2.8 (localised symmetry for a*b), 2.9 (two-layer DLN; the degenerate directions have dimension m^2 + (m-r_A)(m-r_B), with a hint and a collapsed solution including an SVD alternative) and 2.10 (redundant units in an MLP). Remarks cover localised symmetries, the rank of a parameter and measure zero degenerate sets. Keep the notation r_A, r_B, delta A, delta B. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "This is Section 2.3 of worksheet B.3 (singular learning theory). It covers localised symmetries and localised degeneracy. It contains Exercises 2.8 (localised symmetry for a*b), 2.9 (two-layer DLN; the degenerate directions have dimension m^2 + (m-r_A)(m-r_B), with a hint and a collapsed solution including an SVD alternative) and 2.10 (redundant units in an MLP). Remarks cover localised symmetries, the rank of a parameter and measure zero degenerate sets. Keep the notation r_A, r_B, delta A, delta B. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Kai Ogden (University of Oxford)
   - Matthew Farrugia-Roberts (University of Oxford)

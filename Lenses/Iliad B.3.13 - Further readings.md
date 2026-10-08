@@ -2,7 +2,7 @@
 id: '94c7cf46-4a2e-49bf-bcad-caef2fd07b0e'
 title: "B.3.13 Further readings"
 tldr: "Points to other introductions to singular learning theory, recent research on singular deep learning, and a reference list."
-summary_for_tutor: "This is Section 5 (Further readings) and the references of Iliad worksheet B.3 Singular Learning Theory. It lists other introductions and monographs (Watanabe's grey and green books), and surveys work on estimating degeneracy, Bayesian phase transitions and stagewise development, interpretability tools (refined LLCs, susceptibilities, Bayesian influence functions) and foundations. It contains no exercises."
+summary_for_tutor: "This is Section 5 (Further readings) and the references of worksheet B.3 (singular learning theory). It lists other introductions and monographs (Watanabe's grey and green books), and surveys work on estimating degeneracy, Bayesian phase transitions and stagewise development, interpretability tools (refined LLCs, susceptibilities, Bayesian influence functions) and foundations. It contains no exercises."
 authors:
   - Kai Ogden (University of Oxford)
   - Matthew Farrugia-Roberts (University of Oxford)
