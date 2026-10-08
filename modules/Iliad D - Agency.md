@@ -182,6 +182,7 @@ source:: [[../Lenses/johnswentworth-how-we-picture-bayesian-agents]]
 
 # Lens: What selection theorems do we expect/want
 source:: [[../Lenses/johnswentworth-what-selection-theorems-do-we-expectwant]]
+
 # Lens: D.4.1.4 Gödel's second incompleteness theorem and Löb's theorem
 source:: [[../Lenses/Iliad D.4.1.4 - Gödel's second incompleteness theorem and Löb's theorem]]
 
@@ -255,6 +256,7 @@ source:: [[../Lenses/jesseclifton-when-would-agis-engage-in-conflict]]
 
 # Lens: Individually incentivized safe Pareto improvements in open-source bargaining
 source:: [[../Lenses/mac-individually-incentivized-safe-pareto-improvements-in-open-source-bargaining]]
+
 # Lens: D.5.2.1 Open-source game theory, commitment races and safe Pareto improvements
 source:: [[../Lenses/Iliad D.5.2.1 - Open-source game theory, commitment races and safe Pareto improvements]]
 
