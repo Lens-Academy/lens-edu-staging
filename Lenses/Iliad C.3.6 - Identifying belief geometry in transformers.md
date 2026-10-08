@@ -43,6 +43,8 @@ Prioritise the main reading. If you can answer its evaluation question, you have
 
 \#### 5.1.2 [Extension] [Neural networks leverage nominally quantum and post-quantum representations](https://arxiv.org/pdf/2507.07432)
 
+::card[[../Lenses/riechers-neural-networks-leverage-nominally-quantum-and-post-quantum-representations|Neural networks leverage nominally quantum and post-quantum representations]]
+
 **Reading route**
 
 - **Skim.** Sections 1–3.
