@@ -50,7 +50,8 @@ labels::
 
 #### Question: Open
 id:: 7cb696a7-6e31-4116-9b71-03edfd2b1fbf
-content:: If we could change one thing about this unit, what should it be?
+content:: If you could change one thing about this unit, what would it be?
+optional:: true
 
 #### Question: Open
 id:: ed258ea9-739a-44a0-a7dc-4f0ddf83c26b
@@ -85,7 +86,8 @@ labels::
 
 #### Question: Open
 id:: 74714b1e-00f7-4698-bd2a-b028eb8993de
-content:: If we could change one thing about this course, what should it be?
+content:: If you could change one thing about this course, what would it be?
+optional:: true
 
 #### Question: Open
 id:: f538c20e-eaae-4897-80bf-4111c43fae37
