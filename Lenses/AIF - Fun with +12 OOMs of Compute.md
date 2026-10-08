@@ -63,7 +63,7 @@ source:: [[../articles/kokotajlo-fun-with-12-ooms-of-compute]]
 from:: *In 2016 the Compute Fairy visits Earth and bestows a blessing:
 to:: think about fun things that could be built in this scenario.
 
-#### Question
+#### Question: Open
 id:: 09162e7c-fa48-43ce-8667-0d84d4155ebd
 content::
 \## His exercise
