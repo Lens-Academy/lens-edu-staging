@@ -75,7 +75,7 @@ Those conditions may hold for some pathways. A capability evaluation can reveal 
 
 The argument weakens when checkpoints are hard to observe, widely distributed, or themselves eroded by the transition. A capability can diffuse across many actors before regulation arrives. Competitive pressure can make unilateral restraint costly. Economic dependence can make shutdown politically expensive. A gradual-disempowerment process can reduce the leverage available to intervene later. If strategic deception is possible, behavioural warning signs can become less trustworthy. The fact that there are logical checkpoints does not guarantee that they remain effective intervention points.
 
-Swoboda and coauthors conclude that the argument identifies a real source of reassurance but does not establish that waiting is generally safe.[^swoboda] The key empirical question is how much option value remains at each checkpoint.
+The existence of future checkpoints is a real source of reassurance, but it does not establish that waiting is generally safe.[^cite-swoboda-2025] The key empirical question is how much intervention capacity remains at each checkpoint.
 
 \## Priority arguments need a second layer
 
@@ -89,13 +89,13 @@ This is where many public debates become misleading. People argue over a single 
 
 There is a useful way to interpret the debate that avoids forcing current harms and future catastrophic risks into competition. Some harms are morally important now and have little connection to catastrophe. They deserve attention for ordinary ethical reasons. Some current harms are also early manifestations of mechanisms that matter for long-run safety. Manipulation can affect political resilience. Surveillance can enable durable concentration of power. Economic dependence can alter who has bargaining power. Weak security can create both current incidents and future catastrophic vulnerabilities.
 
-Kasirzadeh's accumulative account makes this overlap explicit.[^kasirzadeh] The right question is not "is this a current harm or an x-risk?" It is "what role does this harm play in the causal system, and what reason do we have to address it?" A present-day injustice does not need an existential-risk justification to matter. A present-day institutional weakness can also become relevant to existential safety if it changes later resilience.
+An accumulative account makes this overlap explicit.[^cite-kasirzadeh-2025] A present-day injustice does not need an existential-risk justification to matter. A present-day institutional weakness can also become relevant to existential safety if it changes later resilience. The useful question is what role the harm plays in the causal system and what reason we have to address it.
 
 \## The best skeptical arguments improve the safety agenda
 
 A good skeptical argument does not merely lower a probability. It tells us what evidence to seek and what work would become less valuable if the objection succeeds.
 
-If the Distraction Argument is right in a particular institution, we should change funding and representation. If the Human Frailty Argument is right, more resources should go toward organizational safety, incentives, and governance that work across technologies. If the Checkpoints Argument is right, information-gathering and flexible intervention may dominate expensive early restrictions. If Grace's objections are right about agency or power acquisition, some technical agendas lose urgency while misuse or structural pathways can remain.
+If the Distraction Argument is right in a particular institution, funding and representation should change. If the Human Frailty Argument is right, organizational safety, incentives, and governance may deserve more weight. If the Checkpoints Argument is right, information-gathering and flexible intervention may dominate expensive early restrictions. If technical objections weaken agency or power-acquisition pathways, some technical agendas lose urgency while misuse or structural pathways remain.
 
 This is why Unit 1 should include serious skepticism. The point of "why intervene at all?" is not to build the strongest possible case and stop. It is to identify what survives after the strongest objections have been given their full force.
 
