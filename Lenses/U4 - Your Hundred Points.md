@@ -30,7 +30,7 @@ The course does not take a side on this, and you do not need to settle it. What 
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
 
-#### Question
+#### Question: Open
 id:: 5037a624-ba92-47cb-b09b-2ba3618fb935
 content::
 \## Your hundred points
@@ -78,7 +78,7 @@ Do not grade. Do not score. Do not praise. There is no correct allocation at thi
 Write 60 to 110 words. Short paragraphs. No lists.
 
 
-#### Question
+#### Question: Open
 id:: 9f903c63-bb03-4ca8-ba0c-d74e08dd7093
 content::
 \## Revision 3
