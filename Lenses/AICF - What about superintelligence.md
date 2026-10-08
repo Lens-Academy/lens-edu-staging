@@ -17,7 +17,9 @@ to:: We define "transformatively useful AI" to mean AIs that are capable of subs
 
 #### Text
 content::
-A 2025 paper by researchers at the UK AI Security Institute, Apollo Research and Redwood Research ([arXiv](https://arxiv.org/abs/2504.05259)) says the same about control evaluations. Buck Shlegeris, one of the two authors of the case for control, is a co-author, so this is not an independent check on Redwood. The last sentence of its abstract:
+A 2025 paper by researchers at the UK AI Security Institute, Apollo Research and Redwood Research[^cite-korbak-2025] says the same about control evaluations. Buck Shlegeris, one of the two authors of the case for control, is a co-author, so this is not an independent check on Redwood. The last sentence of its abstract:
+
+[^cite-korbak-2025]: Tomek Korbak, Mikita Balesni, Buck Shlegeris and Geoffrey Irving (2025), *How to evaluate control measures for LLM agents? A trajectory from today to superintelligence*. [arXiv](https://arxiv.org/abs/2504.05259)
 
 #### Article
 source:: [[../articles/korbak-how-to-evaluate-control-measures-for-llm-agents-a-trajectory-from-today-to-superintelligence]]
