@@ -234,6 +234,7 @@ source:: [[../Lenses/turner-parametrically-retargetable-decision-makers-tend-to-
 
 # Lens: Power-seeking can be probable and predictive for trained agents
 source:: [[../Lenses/krakovna-power-seeking-can-be-probable-and-predictive-for-trained-agents]]
+
 # Lens: D.6.7 Further reading
 source:: [[../Lenses/Iliad D.6.7 - Further reading]]
 

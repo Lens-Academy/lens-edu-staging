@@ -44,6 +44,7 @@ source:: [[../Lenses/Iliad E.1.12 - Experimental results, the AISI safety case a
 
 # Lens: Debating with More Persuasive LLMs Leads to More Truthful Answers
 source:: [[../Lenses/khan-debating-with-more-persuasive-llms-leads-to-more-truthful-answers]]
+
 # Submodule: E.2 Steganography & Backdoors
 
 # Lens: E.2.1 Overview and prerequisites
@@ -57,6 +58,7 @@ source:: [[../Lenses/rinberg-verifying-llm-inference-to-detect-model-weight-exfi
 
 # Lens: Models can hide COT with steganography
 source:: [[../Lenses/skaf-large-language-models-can-learn-and-generalize-steganographic-chain-of-thought-under-process-supervision]]
+
 # Lens: E.2.3 Perfect information-theoretic steganography
 source:: [[../Lenses/Iliad E.2.3 - Perfect information-theoretic steganography]]
 
