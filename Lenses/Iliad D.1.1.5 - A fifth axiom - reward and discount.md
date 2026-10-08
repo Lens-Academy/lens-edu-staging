@@ -2,7 +2,7 @@
 id: '02807df7-8033-4b5a-9259-6402140fb56c'
 title: "D.1.1.5 A fifth axiom: reward and discount"
 tldr: "Adds a fifth axiom, temporal gamma-indifference, and shows that it is exactly what gives a reward and discount representation of utility; also separates preference, utility and reward."
-summary_for_tutor: "This is Section 6 of Iliad worksheet D.1.1 Preferences to Rewards. It defines Axiom 5 (temporal gamma-indifference), Theorem 6.1 (Markov reward representation after Bowling et al.: u(t.h) = r(t) + gamma(t) u(h)), the unrolled utility of a trajectory, the constant-gamma and gamma=1 special cases, a remark on MDPs versus POMDPs, and a note that utility is not reward. It contains Exercise 6.1 (guided proof, parts a-h, including the reward transformation r' = b r + (1 - gamma) a) with collapsed solutions. Keep the notation T, t.h, r(t), gamma(t). Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "This is Section 6 of worksheet D.1.1 (preferences to rewards). It defines Axiom 5 (temporal gamma-indifference), Theorem 6.1 (Markov reward representation after Bowling et al.: u(t.h) = r(t) + gamma(t) u(h)), the unrolled utility of a trajectory, the constant-gamma and gamma=1 special cases, a remark on MDPs versus POMDPs, and a note that utility is not reward. It contains Exercise 6.1 (guided proof, parts a-h, including the reward transformation r' = b r + (1 - gamma) a) with collapsed solutions. Keep the notation T, t.h, r(t), gamma(t). Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Fernando E. Rosas
 source_url: https://iliad-intensive.org/agency/preferences-to-rewards/

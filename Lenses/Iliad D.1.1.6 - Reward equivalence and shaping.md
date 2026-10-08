@@ -2,7 +2,7 @@
 id: 'dcf20af3-e369-481d-81c0-66f9d31a1615'
 title: "D.1.1.6 Reward equivalence and shaping"
 tldr: "Shows that many reward functions encode the same preferences, through affine changes of utility and potential-based reward shaping, with an exercise on the boundary term."
-summary_for_tutor: "This is Section 7 of Iliad worksheet D.1.1 Preferences to Rewards. It covers uniqueness of reward once u and gamma are fixed, Proposition 7.1 (affine transformations of utility and the induced reward), Proposition 7.2 (potential-based shaping changes utility only by a boundary term, for gamma=1 and constant gamma) and reward design as underdetermined. It contains Exercise 7.1 (a-c) with collapsed solutions. Keep the notation Phi, r_Phi, u'. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "This is Section 7 of worksheet D.1.1 (preferences to rewards). It covers uniqueness of reward once u and gamma are fixed, Proposition 7.1 (affine transformations of utility and the induced reward), Proposition 7.2 (potential-based shaping changes utility only by a boundary term, for gamma=1 and constant gamma) and reward design as underdetermined. It contains Exercise 7.1 (a-c) with collapsed solutions. Keep the notation Phi, r_Phi, u'. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Fernando E. Rosas
 source_url: https://iliad-intensive.org/agency/preferences-to-rewards/
