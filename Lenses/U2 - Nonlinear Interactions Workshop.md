@@ -28,7 +28,7 @@ Four short scenarios follow. Each one is a system made of parts, and in each one
 
 Work through the scenarios in order. Write out the arithmetic itself, not a description of it.
 
-#### Question
+#### Question: Open
 id:: 4a4077d1-b926-4ff1-9552-e822f3789186
 content::
 \## Scenario 1 of 4
