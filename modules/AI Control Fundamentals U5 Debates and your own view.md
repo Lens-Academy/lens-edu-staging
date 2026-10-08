@@ -1,8 +1,10 @@
 ---
 id: '29194224-89d2-45d9-98ca-c13c526cb63c'
 slug: ai-control-fundamentals-u5
-title: "Unit 5: Debates, and your own view"
+title: "The Hugging Face incident debate"
 ---
+%% Part 1 of Unit 5 of AI Control Fundamentals; the unit continues in 'Warning shots, and your view' (split into modules by topic, Elias 2026-10-08). The note below describes the whole unit as it was before the split. %%
+
 %% Unit 5 of AI Control Fundamentals. Time: welcome 3+0, Buck and Ryan before the incident 8+8, Redwood after the incident 16+10, Gleave and Habryka 23+12, crux practice 25+18, blocking monitors 13+17, quitting frontier labs 10+10, Soares and the policy response 11+8, your view 5+25 (lens time 222), plus about 8 for the learning-outcome test. About 230 minutes. %%
 
 # Learning Outcome:

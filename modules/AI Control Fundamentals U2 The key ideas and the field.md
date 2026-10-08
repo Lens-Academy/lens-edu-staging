@@ -1,8 +1,10 @@
 ---
 id: '2e54ea22-158e-403a-af56-fa67c28da8bb'
 slug: ai-control-fundamentals-u2
-title: "Unit 2: The key ideas and the field"
+title: "High-stakes and low-stakes threats"
 ---
+%% Part 1 of Unit 2 of AI Control Fundamentals; the unit continues in 'The AI control field' (split into modules by topic, Elias 2026-10-08). The note below describes the whole unit as it was before the split. %%
+
 %% Unit 2 of AI Control Fundamentals. Lenses: welcome (inline), Greenblatt on threats with the control graph (ranking optional), Shlegeris on rogue deployments (three excerpts), Hebbar's low-stakes talk (first 16.5 min) plus the intro of Anthropic/EPFL/Redwood "Diffuse AI Control on Fuzzy Tasks", practice on high- vs low-stakes (inline), Greenblatt's areas (excerpts), UK AISI research areas (excerpts), Bhatt talk 4:53 to 10:44 plus the "Scaling security" section of Google DeepMind's roadmap post (its first half moved to Unit 1, "Control in use today", on 2026-10-05) plus UK AISI Control Red Team post, optional: Ward's overview of company monitoring practices (whole post, added 2026-10-08, 12+5, not counted), Lens page on who works on control, practice on placing projects (inline). Time: welcome 3+3, threats 9+10, rogue deployments 7+8, low-stakes 20+14, practice 3+13, areas 8+8, AISI 6+5, AI companies 12+9, who works 6+10, practice 3+10 (lenses 167), plus about 28 for the two learning-outcome tests. About 195 minutes. %%
 
 # Learning Outcome:

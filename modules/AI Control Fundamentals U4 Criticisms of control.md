@@ -1,8 +1,10 @@
 ---
 id: '7494195c-ecc4-4597-a8b3-f837817fe18a'
 slug: ai-control-fundamentals-u4
-title: "Unit 4: Criticisms of control"
+title: "Is control enough?"
 ---
+%% Part 1 of Unit 4 of AI Control Fundamentals; the unit continues in 'What control does to the world' (split into modules by topic, Elias 2026-10-08). The note below describes the whole unit as it was before the split. %%
+
 %% Unit 4 of AI Control Fundamentals. Time (reading+tutor): welcome 4+3, slop 16+11, better schemers 14+13, protocols hold up 4+6, superintelligence 6+8, profit-only 16+17, warning shots 15+14, safety-washing 11+12, adversarial and AI welfare 18+14, practice 5+19 (lenses 226), plus about 18 for test 1 (classifying criticisms) and 8 for test 2 (backfire). About 252 minutes. %%
 
 # Learning Outcome:
