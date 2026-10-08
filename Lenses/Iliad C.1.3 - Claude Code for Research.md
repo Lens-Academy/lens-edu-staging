@@ -21,6 +21,8 @@ Material:
 
 [Claude Code cheat sheet](https://www.alignment-hive.com/cheatsheet)
 
+::card[[../Lenses/alignment-hive-claude-code-cheat-sheet|Claude Code cheat sheet]]
+
 \[optionally\] get a good [Terminal Claude Code setup](https://github.com/wusche1/dotfiles)
 
 Clone [this repository](https://github.com/iliad-team/iliad-intensive-C.1.3/tree/main) for the exercises
@@ -33,7 +35,7 @@ Clone [this repository](https://github.com/iliad-team/iliad-intensive-C.1.3/tree
 
 Final project: replicate a version of Figure 1 from one of these papers:
 
-* [Inference only, no GPU needed](https://www-cdn.anthropic.com/b9ca6db27f02a9ddf0d4fdb51b26432c99a27be0.pdf)
+::card[[../Lenses/chen-reasoning-models-dont-always-say-what-they-think|Inference only, no GPU needed]]
 
 ::card[[../Lenses/arditi-refusal-in-language-models-is-mediated-by-a-single-direction|On a GPU]]
 
