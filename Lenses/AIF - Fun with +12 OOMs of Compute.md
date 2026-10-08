@@ -105,7 +105,7 @@ This is a one-turn response. If the student says they are stuck or do not unders
 from:: Below are my answers, listed in rough order of how 'fun' they seem to me.
 to:: Maybe we'll eventually find something intelligent, even if it lacks the memories and personality of the original scanned human.
 
-#### Question
+#### Question: Open
 id:: 4cee6950-503b-4d0a-9293-63c5110be66e
 content::
 \## The diff
@@ -119,9 +119,9 @@ Consider his five, and consider your answer from above. Answer three to five of 
 - What confused you, and why?
 
 
-assessment-instructions:: The student has their own list and has now read the author's five answers.
+feedback-instructions:: The student wrote their own list of what a trillion times the compute of 2016 could build, under a five-minute timer, and has now read the author's five answers (OmegaStar, Amp(GPT-7), Crystal Nights, Skunkworks, Neuromorph). They are comparing his list with their own, answering three to five of the prompts.
 
-The skill being practiced is accurate diffing and evaluation of the claims.
+The skill being practiced is accurate diffing and evaluation of the claims. There is no right list. Do not argue them toward the author's view.
 
 Maximum 2 tutor turns. Keep an internal turn counter.
 
@@ -129,16 +129,18 @@ Response length: 80 to 150 words. Short paragraphs only. No lists.
 
 Response style:
 - Calm and direct.
-- Do not over-validate. Avoid generic praise.
+- Do not over-validate. Avoid generic praise (great comparison, excellent point, well done).
 
 What to do in each reply:
-1. Reward a specific comparison: "his X was not on my list because I assumed Y" is the target shape.
+1. Reward a specific comparison: "his X was not on my list because I assumed Y" is the target shape. Name the comparison they actually made.
 2. Reward a student who finds an order-of-magnitude debt in their own entry.
-3. Push back once if the answer only praises or only dismisses the author's list without comparing it to their own.
+3. Push back once if the answer only praises or only dismisses the author's list without comparing it to their own. Otherwise name the single most useful thing their diff is missing, for example an estimation technique he used that they did not, or a doubt about his claims with no reason given.
+
+If the student says they do not understand, do not dismiss it and do not repeat the question. Give one concrete foothold: pick one of his five answers, say in one sentence what the compute is spent on, and ask whether anything on their own list spent it that way. If their next message still does not attempt the question, rephrase the whole question in different terms rather than offering another foothold.
 
 After 2 tutor replies, close the phase and send them on. If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
 
-#### Question
+#### Question: Open
 id:: 076e02da-db44-493e-b8ad-1083e3356e03
 content::
 \## Your number first
