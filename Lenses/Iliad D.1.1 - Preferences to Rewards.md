@@ -2,7 +2,7 @@
 id: '1f549b8c-d6bc-444a-b6a8-63a3ff6509a7'
 title: "D.1.1.1 Preferences over trajectories"
 tldr: "A video on the rationality axioms behind reinforcement learning, then preferences over trajectories, why some preferences are problematic, and how coherence differs from selection."
-summary_for_tutor: "This opens Iliad worksheet D.1.1 Preferences to Rewards: an embedded video, the learning goals (preference versus utility versus reward), the overview, Section 1 Introduction, Section 2 'Preferences over trajectories' and Section 3 'When are preferences problematic?'. It defines trajectories H_n and H*, Definition 2.1 (preference relation), the derived indifference and strict preference, and discusses representability failures, self-defeat, money pumps and the notes on coherence versus selection. Keep the notation H*, the preference symbol, h. No exercises."
+summary_for_tutor: "This opens worksheet D.1.1 (preferences to rewards): an embedded video, the learning goals (preference versus utility versus reward), the overview, Section 1 Introduction, Section 2 'Preferences over trajectories' and Section 3 'When are preferences problematic?'. It defines trajectories H_n and H*, Definition 2.1 (preference relation), the derived indifference and strict preference, and discusses representability failures, self-defeat, money pumps and the notes on coherence versus selection. Keep the notation H*, the preference symbol, h. No exercises."
 authors:
   - Fernando E. Rosas
 source_url: https://iliad-intensive.org/agency/preferences-to-rewards/
