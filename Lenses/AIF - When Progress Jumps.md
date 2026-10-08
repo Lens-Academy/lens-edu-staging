@@ -114,7 +114,7 @@ Take the learner's stated guesses as given.
 
 20: Compares the guessed number of jumps with roughly one per 1,000 trend-years and gets the direction of the error right.
 25: Compares the guessed share with 14% of total progress (or 38% among trends with a jump), read as a share of progress, and gets the direction right. Reading 14% as an event rate (14% of years, events, steps or data points being jumps) earns nothing here.
-30: Chooses between 14% and 38% and ties the choice to whether AI is the kind of trend that has jumps. For example: 14% because we cannot yet tell whether AI belongs among the jump-prone trends, or 38% with a reason for thinking it does. A choice with no reason earns 10.
+30: Chooses between 14% and 38% consistently with the question's premise that we cannot yet tell whether AI is a jump-prone trend: 14% (no further reason needed, the premise is the reason), or 38% with a reason for thinking AI is jump-prone. 38% with no reason, or a reason unrelated to whether AI has jumps (such as "AI is moving fast"), earns 10.
 15: Says which of their technologies appear among the ten jumps above, matching by area (for example "bridges", "nuclear bombs", "the telegraph", "ships"), and which do not.
 10: Says whether and how the result changes their opening intuitions about AI, with something specific.
 feedback-instructions:: The student committed to three guesses before reading, and has now read the measured figures from the historical study of 100-year jumps. They are diffing their guesses against the figures, choosing between 14% and 38%, checking their technologies against the list of ten, and saying what this does to the day-zero model of AI they wrote at the start of the course.
