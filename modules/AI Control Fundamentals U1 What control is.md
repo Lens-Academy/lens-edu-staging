@@ -3,7 +3,7 @@ id: 'f8de126d-9f11-4658-a5b4-8894c84698bc'
 slug: ai-control-fundamentals-u1
 title: "Unit 1: What control is"
 ---
-%% Unit 1 of AI Control Fundamentals. Lenses: welcome (inline), control in plain words (full CSET explainer in parts with questions and the choice set), what control is meant to stop (80,000 Hours "What's AI control?" video clip), Robert Miles video in six parts with exercises (AICF), two AICF adaptations of Greenblatt and Shlegeris's case for control, spies, insiders and auditing (80,000 Hours plus ControlArena), worst case but not all-powerful (Shlegeris), control in use today (Google DeepMind first half, OpenAI), first criticisms (Phuong clip plus Kulveit, inline), roleplay practice. Time (core only): about 214 lens minutes plus 15 for the three tests. Optional: the Buck clip lens, the roleplay, CSET parts 5 to 8, the opening of 'What control is', ControlArena in Spies, part 2 of 'Worst case', OpenAI in 'Control in use today', the black-box section of 'How control is tested', and the Phuong clip. %%
+%% Unit 1 of AI Control Fundamentals. Lenses: welcome (inline), control in plain words (full CSET explainer in parts with questions and the choice set), what control is meant to stop (80,000 Hours "What's AI control?" video clip), Robert Miles video in six parts with exercises (AICF), two AICF adaptations of Greenblatt and Shlegeris's case for control, spies, insiders and auditing (80,000 Hours plus ControlArena), worst case but not all-powerful (Shlegeris), control in use today (Google DeepMind first half), OpenAI's monitor (optional, whole post, own lens since 2026-10-08), first criticisms (Phuong clip plus Kulveit, inline), roleplay practice. Time (core only): about 214 lens minutes plus 15 for the three tests. Optional: the Buck clip lens, the roleplay, CSET parts 5 to 8, the opening of 'What control is', ControlArena in Spies, part 2 of 'Worst case', OpenAI in 'Control in use today', the black-box section of 'How control is tested', and the Phuong clip. %%
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Alignment claims versus control claims]]
@@ -75,6 +75,9 @@ source:: [[../Lenses/AICF - Worst case, but not all-powerful]]
 # Lens:
 source:: [[../Lenses/AICF - Control in use today]]
 
+# Lens:
+optional:: true
+source:: [[../Lenses/AICF - OpenAI's monitor for its internal coding agents]]
 # Lens: First criticisms
 id:: c6c69db7-5ff6-4259-b924-fe1b2cd6d838
 reading_minutes:: 5
