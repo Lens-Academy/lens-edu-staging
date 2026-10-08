@@ -84,7 +84,8 @@ labels::
 
 #### Question: Open
 id:: d1b9cd17-175d-47a6-9d9f-65c969cde0f2
-content:: If we could change one thing about this course, what should it be?
+content:: If you could change one thing about this course, what would it be?
+optional:: true
 
 #### Question: Open
 id:: 46953ef6-57c2-4dba-a928-4a48aa6b7ece
