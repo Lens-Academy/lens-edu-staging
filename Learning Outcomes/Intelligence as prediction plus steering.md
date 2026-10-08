@@ -29,18 +29,18 @@ Two systems accurately predict that a severe storm will close a bridge. One rout
 Using the chapter's framework, analyze the three systems. What are the first two doing when they predict and when they steer? Does choosing different destinations show that one is less intelligent? What distinguishes the third system from a more general reasoner?
 
 assessment-instructions::
-Grade the student's reasoning, not whether they use the authors' exact wording or agree with the broader argument.
+Score out of 100: the sum of the three elements below.
 
-Pass only if the answer demonstrates all three checks:
-1. **Prediction and steering:** Correctly distinguishes forming expectations about what will happen from selecting actions that lead toward a chosen outcome. It may also explain how the two kinds of work support each other.
-2. **Goals and competence:** Recognizes that the first two systems can agree about the storm while steering toward different destinations because steering success is relative to the outcome pursued. Different destinations do not by themselves show that one system predicts or reasons less competently.
-3. **Generality:** Explains that exceptional performance in one routing domain can still be narrow. A more general intelligence can predict and steer successfully across a wider range of domains.
+The scenario: two systems both correctly predict that a storm will close a bridge. One routes delivery trucks away from the bridge to keep delays low. The other routes rescue vehicles toward it to reach stranded people. A third system routes vehicles exceptionally well but cannot reason about anything outside transportation. The framework the question refers to defines intelligence as prediction plus steering: predicting is forming correct expectations about what will happen, steering is choosing actions that bring about an outcome the system is aiming for. A mind is more general the wider the range of domains in which it can predict and steer.
 
-Fail if the answer conflates prediction with preference, assumes equally intelligent agents must choose the same destination, or treats high performance on one task as sufficient evidence of generality.
+35: What the first two systems do when they predict and when they steer. Predicting: both form the same correct expectation that the bridge will close. Steering: each picks routes that lead to its own goal (avoiding delay, reaching the stranded people). Any wording that keeps "what will happen" apart from "what to do about it" earns this.
 
-Do not require the student to claim that direction-agnostic intelligence is necessarily dangerous. That safety conclusion is not established by this assigned section alone. A student who reconstructs the framework accurately and then challenges it with a coherent argument can pass.
+35: Different destinations do not show that either system is less intelligent. Both predicted equally well, and each steers well toward its own goal. Success at steering is measured against the goal being pursued, so a difference in goals is not a difference in competence. An answer that says this and then argues against the framework with a coherent reason still earns these points.
 
-Give concise qualitative feedback naming which checks were demonstrated and which need work.
+30: What separates the third system from a general reasoner: its skill covers one narrow domain. A more general reasoner can predict and steer across many different kinds of problems, not only routing. Being excellent at one task does not make a system general.
+Cap at 40 if the answer treats the choice of destination as part of the prediction, for example says the two systems predict differently because they want different things.
+
+Model answer, for the feedback, not a grading checklist: "Both systems make the same prediction: the storm will close the bridge. They differ in steering, in what they do with that prediction. One steers trucks around the closure to avoid delays, the other steers rescue vehicles to it. Neither is less intelligent: they predict equally well and each steers well toward what it is aiming for. Steering success depends on the goal, and different goals are not a lack of skill. The third system is excellent but narrow. It can only predict and steer inside transportation, while a general reasoner can carry the same predicting and steering into almost any domain, which is what makes general intelligence so powerful."
 
 force-feedback:: first
 feedback-instructions:: Respond to what the learner actually wrote. Open on the strongest thing in it, in one sentence. Then push once, chosen by where they stopped:
