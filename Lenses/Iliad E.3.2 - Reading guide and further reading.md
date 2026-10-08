@@ -33,7 +33,8 @@ content::
 **3. From proofs to heuristic arguments** The vacuousness of worst-case bounds suggests we need something between full proofs and mere average-case evaluation. ARC's heuristic arguments agenda proposes such an intermediate approach.
 
 * Read: above mentioned [blog post](https://www.lesswrong.com/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise)
-* [ARC’s general agenda](https://www.lesswrong.com/posts/ztokaf9harKTmRcn4/a-bird-s-eye-view-of-arc-s-research)
+
+::card[[../Lenses/hilton-a-birds-eye-view-of-arcs-research|ARC’s general agenda]]
 * Recent progress: [no-coincidence principle](https://www.lesswrong.com/posts/Xt9r4SNNuYxW83tmo/a-computational-no-coincidence-principle)
 
 \## Further reading

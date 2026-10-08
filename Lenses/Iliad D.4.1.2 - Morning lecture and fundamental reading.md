@@ -37,5 +37,10 @@ Read top to bottom, this section runs: the unifying threads (the morning lecture
 
 > read entirely. Why this abstract, theory-first approach is worth pursuing.
 
-- [Reflectively consistent degree of freedom](https://www.lesswrong.com/w/reflectively-consistent-degree-of-freedom): read entirely. The precise notion behind a property an agent would not self-modify away, which is the day's recurring theme of reflective stability.
-- [General purpose search](https://www.lesswrong.com/posts/6mysMAqvo9giHC4iX/what-s-general-purpose-search-and-why-might-we-expect-to-see): read entirely. Why a capable mind plausibly contains a retargetable search process.
+::card[[../Lenses/lesswrong-reflectively-consistent-degree-of-freedom|Reflectively consistent degree of freedom]]
+
+> read entirely. The precise notion behind a property an agent would not self-modify away, which is the day's recurring theme of reflective stability.
+
+::card[[../Lenses/johnswentworth-whats-general-purpose-search-and-why-might-we-expect-to-see-it-in-trained-ml-systems|General purpose search]]
+
+> read entirely. Why a capable mind plausibly contains a retargetable search process.

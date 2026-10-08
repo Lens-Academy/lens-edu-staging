@@ -42,6 +42,9 @@ source:: [[../Lenses/Iliad B.2.6 - Representational alignment and in-context lea
 # Lens: The Platonic Representation Hypothesis
 source:: [[../Lenses/huh-the-platonic-representation-hypothesis]]
 
+# Lens: In-context Learning and Induction Heads
+source:: [[../Lenses/olsson-in-context-learning-and-induction-heads]]
+
 # Lens: B.2.7 Further reading
 source:: [[../Lenses/Iliad B.2.7 - Further reading]]
 

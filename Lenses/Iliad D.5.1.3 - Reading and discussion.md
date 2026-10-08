@@ -18,12 +18,19 @@ content::
 Readings (arranged roughly chronologically; the FDT paper is the primary reference):
 
 - [Functional decision theory: a new theory of instrumental rationality](https://arxiv.org/abs/1710.05060) (chapters 1-5).
-- [Towards a new decision theory](https://www.lesswrong.com/posts/de3xjFaACCAk6imzv/towards-a-new-decision-theory).
+
+::card[[../Lenses/dai-towards-a-new-decision-theory|Towards a new decision theory]]
 - [Updateless decision theory](https://www.lesswrong.com/w/updateless-decision-theory).
-- [Conceptual problems with UDT and policy selection](https://www.lesswrong.com/posts/9sYzoRnmqmxZm4Whf/conceptual-problems-with-udt-and-policy-selection).
-- [Pitfalls of building UDT agents](https://www.lesswrong.com/posts/y3zTP6sixGjAkz7xE/pitfalls-of-building-udt-agents).
+
+::card[[../Lenses/abramdemski-conceptual-problems-with-udt-and-policy-selection|Conceptual problems with UDT and policy selection]]
+
+::card[[../Lenses/wyeth-pitfalls-of-building-udt-agents|Pitfalls of building UDT agents]]
 
 Discussion prompt (transparency and cooperation): consider two agents A1 and A2 whose code, preferences, and decision algorithms become perfectly transparent to each other at time T (state your interpretation of "transparent" where it matters). Under these conditions, when might A1 and A2 end up in a *Pareto-inefficient* outcome? Where inefficiency looks plausible but a non-obvious argument rules it out, give that argument. (This prompt is the bridge to the afternoon: it is exactly the open-source-game-theory setting.) Supporting afternoon readings: [When would AGIs engage in conflict?](https://www.lesswrong.com/posts/cLDcKgvM6KxBhqhGq/when-would-agis-engage-in-conflict) and [Individually incentivized safe Pareto improvements in open-source bargaining](https://www.lesswrong.com/posts/uGfDx9es2pnYWaWJr/individually-incentivized-safe-pareto-improvements-in-open).
+
+::card[[../Lenses/jesseclifton-when-would-agis-engage-in-conflict|When would AGIs engage in conflict?]]
+
+::card[[../Lenses/mac-individually-incentivized-safe-pareto-improvements-in-open-source-bargaining|Individually incentivized safe Pareto improvements in open-source bargaining]]
 
 \## 3. Learn more
 
