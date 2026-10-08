@@ -38,6 +38,40 @@ inline:: true
 content::
 ---
 
+\# ✅ Before You Get Your Certificate
+
+To receive your Certificate of Participation, please complete the questions below. It only takes a few minutes, and it helps us see how far you've come! 💛
+
+#### Question: Choice
+id:: ac7efb34-616f-45ff-a297-21e028a3d934
+content:: 1. Have you completed the post-program feedback form? If not yet, you can [open it here](https://airtable.com/appcKo5GTmHnUaBlg/pagGHPBww4E31JabV/form).
+options::
+- ✅ Yes, I've submitted the post-program feedback form
+
+#### Question: Open
+id:: 8abafa69-885a-4307-89c1-dda962b4a807
+content:: 2. What are the key changes you've made as a result of this program? This could be a change in your thesis topic, your career plans, your next steps, or anything else. Please describe what changed and why.
+max-words:: 250
+
+#### Question: Open
+id:: 697c7c53-a6f1-4e2a-aeb2-3ef1bdc4a9fc
+content:: 3. Please paste in a short summary of your current thesis topic and research question.
+max-words:: 250
+
+#### Question: Open
+id:: 7c78609a-dc72-40dd-9aa3-675ed01f9e25
+content:: 4. Please paste a link to your final presentation and/or proposal. The link to your final presentation is required for your Certificate of Participation, so please make sure it's viewable (e.g. "anyone with the link can view").
+placeholder:: https://
+
+#### Question: Open
+id:: 61699c16-e699-419b-8f20-bf3c7e8d28d8
+content:: 5. Anything else you'd like to share with us? (Optional, not graded) A reflection, a thank you, a wish for future cohorts, or anything on your mind!
+optional:: true
+
+#### Text
+content::
+---
+
 \# Thank you 💛
 
 Your impact journey doesn't end here! Keep experimenting, keep reaching out, and keep coming back to what truly matters to you. We're so excited to see what you do next and to continue supporting you along the way. 🚀
