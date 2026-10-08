@@ -14,11 +14,11 @@ tags:
 content::
 \## Make your current model visible
 
-You have now worked through several different reasons for caring about catastrophic AI risk, and several reasons to be cautious about those arguments. Some failures are decisive, others gradual. Some involve extinction, others permanent disempowerment or enormous suffering. Some depend on autonomous misaligned systems, while others depend on human misuse, competition, or ordinary institutional failure. You have also seen why a precise probability can hide model uncertainty, why precaution has costs of its own, and why thoughtful people can understand one another and still disagree.
+You have now worked through several reasons for taking catastrophic AI risk seriously and several reasons for caution about those arguments. The risk landscape includes abrupt and gradual failures, extinction, permanent disempowerment, catastrophic suffering, malicious use, competitive pressure, organizational failure, and autonomous loss of control. You have also examined why a precise probability can hide uncertainty about the model, why precaution has costs of its own, and why informed people can understand one another and still disagree.
 
-This exercise is where the unit becomes useful. You are going to write down the model that currently drives your own judgment. There is no preferred conclusion. A map that ends with "I currently think catastrophic AI risk is low and most proposed interventions are premature" can be excellent. So can a map that ends with "I think this is one of the most urgent problems in the world." What matters is whether the route to the conclusion is explicit enough that later evidence or later units can change a specific part of it.
+Now write down the model that currently drives your own judgment. There is no preferred conclusion. You may end up thinking catastrophic AI risk is low and many proposed interventions are premature, or that it deserves unusually high priority. The standard is whether your conclusion is explicit enough that later evidence can change a specific claim, and whether your proposed action follows from the uncertainty you actually have.
 
-Save this map. Unit 4 will return to your assumptions about agency and power-seeking. Unit 5 will return to what you count as evidence about an AI's internal state and intentions. Unit 6 will return to control, corrigibility, autonomy, and deference. Unit 7 will return to the institutions you expect to act. Unit 8 will return to what kinds of future you are trying to protect.
+Save this map. Unit 4 will return to your assumptions about agency and power-seeking, Unit 5 to evidence about an AI's internal state and intentions, Unit 6 to control and deference, Unit 7 to the institutions you expect to act, and Unit 8 to the kinds of future you are trying to protect.
 
 #### Question: Open
 id:: 3bc6038c-37a3-4da6-8fe7-6b103675263c
