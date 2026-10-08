@@ -22,7 +22,7 @@ eval-results:
 
 ## Test:
 id:: 0d32640e-9e23-44c8-8dea-dc1f67564986
-#### Question
+#### Question: Open
 id:: 826bc7bd-990e-460f-bd0b-c63e52107e21
 content:: The Coda steps outside the story to address a question readers often have: what, exactly, is the book predicting?
 
@@ -39,6 +39,18 @@ Score according to the following rubric.
 **4** — As above, plus articulates why fiction is a useful vehicle for this kind of argument: a story can make abstract dynamics visceral and concrete without committing to specific events. Notes that the story admitting it's "not strange enough" is part of this: the familiarity is a limitation of the medium, not a claim about realism. *Example: Adds "Fiction can make abstract dynamics feel real without claiming the specific events will occur. The authors admit the story is too familiar to be realistic. That's not a concession: it's evidence they're aware the pathway is a simplification and the outcome is the claim they actually stand behind."*
 
 **5** — As above, plus connects to the course's rhetorical architecture: the fiction-as-argument move required the scenario's emotional work before it could be explained. The Coda's philosophical precision only lands because the film and Chapter 9 already made the dynamics feel real. *Example: Adds "The Coda's clarification only works because the story made you feel it first. If the story had been presented as pure thought experiment from the start, the claim that 'the ending is a real prediction' would carry no weight. The fiction did its affective job; now the Coda can be honest about what kind of argument it was."*
+
+force-feedback:: first
+feedback-instructions:: Respond to what the learner actually wrote. Open on the strongest thing in it, in one sentence. Then push once, chosen by where they stopped:
+
+- If they read the story as a literal forecast or as having no predictive content, ask which part the authors would actually bet on: the sequence of events, or where it ends.
+- If they said it is not a literal prediction but could not say what is left, ask what is still being predicted once the specific events are set aside.
+- If they separated the pathway from the outcome, ask how they would answer "it's just sci-fi": what can a story do that an abstract argument cannot, and what does the authors' admission that the story is not strange enough tell you?
+- If they covered why fiction is used, ask why the Coda's explanation comes after the story rather than before it.
+
+At full marks, just confirm briefly. Don't cite level numbers or band names (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: the authors say they chose the pathway for clarity. Ask what they did not choose for clarity, and so stand behind. If they still don't attempt it, rephrase the question.
+
+One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
 
 # Suggested Lenses:
