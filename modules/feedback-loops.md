@@ -55,6 +55,11 @@ source:: ![[../Lenses/What are the differences between a singularity, an intelli
 # Lens:
 source:: ![[../Lenses/The most important century]]
 
+# Lens: AI Self Improvement
+id:: 9e76e7fb-708f-4539-996b-087ae72f2891
+#### Video
+source:: [[../video_transcripts/computerphile-ai-self-improvement]]
+
 # Lens:
 optional:: true
 source:: ![[../Lenses/Cascades and Cycles]]
