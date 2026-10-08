@@ -34,7 +34,3 @@ Discuss in groups of 3–5 for **10 minutes**. Prompts:
 * Can you think of model organisms for misalignment that were published after the post came out in 2023? Does this change our understanding of the risks?  
 * Does the analogy between the AI alignment and rocket alignment problems feel accurate? In what ways does it or does it not?  
 * What safety approaches (e.g., on a spectrum from theoretical to empirical) feel most appealing to you, and why? Does this depend on details of the problem you are trying to solve?
-
-\## Daily Checkpoint
-
-Do [the linked quiz](https://docs.google.com/forms/d/e/1FAIpQLSeM_LJhem9MzbH4FcTL58qJ9Tb0bj9GTKKqtz7yhXC2E5OA-Q/viewform?usp=header).
