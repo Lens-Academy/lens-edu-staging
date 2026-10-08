@@ -20,7 +20,7 @@ eval-results:
 ## Test:
 id:: c2d3e4f5-a6b7-8901-cdef-012345678901
 
-#### Question
+#### Question: Open
 id:: 66253fbc-ee8f-4ea1-88f2-222b8f7b31c0
 content:: The Closing Words offer two prayers. The first asks that the authors be proven wrong, shamed, and forgotten. The second, which the authors call their "true last prayer," is the book's final line.
 
@@ -37,6 +37,18 @@ Score according to the following rubric.
 **4** — Correctly identifies both prayers and the conditions for both, and explains why the second is called "true": the authors refuse to rely on doing nothing and prefer to trust in human action over passive hope. *Example: "First prayer: the authors would be wrong, shamed, and forgotten, meaning AI doesn't pose the threat they described, and humanity lives happily ever after without having to do anything. Second prayer: humanity rises to the occasion, meaning people act, fight, and win against the AI risk. The second is 'true' because they won't stake everything on the first outcome happening on its own. They'd rather call for action than just hope to be wrong."*
 
 **5** — As above, plus articulates the deeper epistemic point: the two prayers are compatible — the authors would prefer the first (to be wrong) but refuse to rely on it, so they issue the second as their actual position. The "true last prayer" is the authors' statement of what they stand for given that being passively wrong may not happen. *Example adds: "The two prayers aren't in tension. The authors genuinely want to be wrong. That would be the best news. But wanting to be wrong doesn't mean doing nothing. The second prayer is 'true' because it's what they're actually asking of the reader: not just to hope things work out, but to act. Both can be held at once: hope you're wrong, and act as if you're not."*
+
+force-feedback:: first
+feedback-instructions:: Respond to what the learner actually wrote. Open on the strongest thing in it, in one sentence. Then push once, chosen by where they stopped:
+
+- If they ran the two prayers together, ask what the first asks to happen to the authors and what the second asks of humanity.
+- If they named both but not the conditions, ask what the world would look like if each were answered: in one the authors were simply wrong, in the other people acted and won.
+- If they had both conditions but not why the second is the true one, ask why the authors would not rest on the first.
+- If they had that, ask whether the two prayers conflict: can someone hope to be wrong and still act as if they are right?
+
+At full marks, just confirm briefly. Don't cite level numbers or band names (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: the second prayer is the book's last line, "Rise to the occasion, humanity, and win." Ask what it requires that the first does not. If they still don't attempt it, rephrase the question.
+
+One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
 
 # Suggested Lenses:
