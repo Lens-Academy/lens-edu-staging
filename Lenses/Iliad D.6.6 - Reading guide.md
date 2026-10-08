@@ -44,4 +44,6 @@ Classical philosophical arguments for instrumental convergence and power-seeking
 
 > The founding argument that sufficiently advanced goal-driven systems of any design will develop convergent "drives" (self-improvement, rationality, self-protection, resource acquisition, goal-preservation) unless explicitly counteracted.
 
-- [The Superintelligent Will: Motivation and Instrumental Rationality in Advanced Artificial Agents — Nick Bostrom (2012)](https://nickbostrom.com/superintelligentwill.pdf): Crystallizes the orthogonality thesis (intelligence and final goals vary independently) and the instrumental convergence thesis (a wide range of final goals produce similar intermediary goals).
+::card[[../Lenses/bostrom-the-superintelligent-will-motivation-and-instrumental-rationality-in-advanced-artificial-agents|The Superintelligent Will: Motivation and Instrumental Rationality in Advanced Artificial Agents — Nick Bostrom (2012)]]
+
+> Crystallizes the orthogonality thesis (intelligence and final goals vary independently) and the instrumental convergence thesis (a wide range of final goals produce similar intermediary goals).

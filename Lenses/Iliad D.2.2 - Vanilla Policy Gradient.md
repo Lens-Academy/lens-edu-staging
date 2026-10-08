@@ -17,3 +17,5 @@ content::
 Work through [Section [2.2.2] of the ARENA program](https://learn.arena.education/chapter2_rl/22_vpg/) on Vanilla Policy Gradient.
 Follow the provided link, and then through to the exercises on colab.
 * The network is small enough, and the training loop fast enough, that you can run this material locally on your laptop without problems if you prefer.
+
+::card[[../Lenses/arena-chapter-2-reinforcement-learning|ARENA 2.2.2 Vanilla Policy Gradient]]
