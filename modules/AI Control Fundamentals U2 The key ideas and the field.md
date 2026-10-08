@@ -86,6 +86,8 @@ source:: [[../Lenses/AICF - Control inside AI companies]]
 # Lens:
 optional:: true
 source:: [[../Lenses/AICF - How three AI companies monitor their agents]]
+
+# Lens:
 source:: [[../Lenses/AICF - Who works on AI control]]
 
 # Lens: Practice: place the project
