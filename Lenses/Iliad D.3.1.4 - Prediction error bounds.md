@@ -126,7 +126,7 @@ We say the mixture makes a **mistake** at time $$t$$ if $$\hat{x}_{t} \neq x_{t}
 **Exercise 5.1 (Bounded prediction mistakes) [15].** Show that the number of mistakes made by the threshold predictor on the $$\mu$$-trajectory is at most
 
 $$
-\#\{\, t \geq 1 \;:\; \hat{x}_{t} \neq x_{t}^{*} \,\} ~\leq~ -2 \ln w_{\mu}.
+{}\#\{\, t \geq 1 \;:\; \hat{x}_{t} \neq x_{t}^{*} \,\} ~\leq~ -2 \ln w_{\mu}.
 $$
 
 :::callout {title="Hint" tone="neutral" collapse="closed"}
@@ -165,7 +165,7 @@ where the last step is Section 4. Rearranging, $$N \leq -2 \ln w_{\mu}$$.
 **Remark (Solomonoff specialization).** Under the Solomonoff prior $$w_{\mu} = 2^{-K(\mu)}$$, so $$-\ln w_{\mu} = K(\mu)\ln 2$$ and the bound becomes
 
 $$
-\#\{\, t \geq 1 \;:\; \hat{x}_{t} \neq x_{t}^{*} \,\} ~\leq~ 2 K(\mu) \ln 2.
+{}\#\{\, t \geq 1 \;:\; \hat{x}_{t} \neq x_{t}^{*} \,\} ~\leq~ 2 K(\mu) \ln 2.
 $$
 
 With $$\ln 2 \approx 0.693$$ the constant is just under $$1.4$$, so if the true environment $$\mu$$ is computable, and can be described by a program at most $$k$$ bits long, then the predictor $$\xi$$ will make at worst $$\approx 1.4 k$$ mistakes over predicting the entire sequence $$x^{*}_{1:\infty}$$. Note that the bound is purely existence-style: it does not say *when* the mistakes happen. They could all occur at the start, or be arbitrarily far into the future.
