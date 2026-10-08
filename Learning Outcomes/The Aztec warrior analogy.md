@@ -56,7 +56,7 @@ feedback-instructions:: Respond to what the learner actually wrote. Open on the 
 - If they stated that a large capability gap predicts the outcome, ask what the skeptic concluded from not being able to name the weapon, and why that does not follow.
 - If they had the skeptic's mistake, ask how they would answer someone today who says "tell me exactly how AI would beat us, or I am not worried".
 
-At full marks, just confirm briefly. Don't cite level numbers or band names (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: the ship. A vessel that size, built by people who crossed an ocean to arrive, says something about their abilities before anyone sees a weapon. If they still don't attempt it, rephrase the question.
+At full marks, just confirm briefly. Don't cite point values. If asked about the score, say in plain words what the answer did and the one most important thing it missed. If they say they don't understand, give one concrete foothold: the ship. A vessel that size, built by people who crossed an ocean to arrive, says something about their abilities before anyone sees a weapon. If they still don't attempt it, rephrase the question.
 
 One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
