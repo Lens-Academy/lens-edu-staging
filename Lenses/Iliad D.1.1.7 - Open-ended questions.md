@@ -2,7 +2,7 @@
 id: '0cc12c0f-356f-4a41-bcb9-3d8a05089ebc'
 title: "D.1.1.7 Open-ended questions"
 tldr: "A conclusion on the layers from preference to reward, followed by three open discussion questions on prescriptive and descriptive implications and on safer weakenings of the axioms."
-summary_for_tutor: "This is Section 8 'Conclusion' of Iliad worksheet D.1.1 Preferences to Rewards, followed by the reference list. It summarizes the layers (ordinal utility, vNM utility, reward) and contains open-ended Exercises 8.1-8.3 about implications for agent design, weaker axioms that might be safer, and further example preferences, each with collapsed discussion notes rather than unique answers. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "This is Section 8 'Conclusion' of worksheet D.1.1 (preferences to rewards), followed by the reference list. It summarizes the layers (ordinal utility, vNM utility, reward) and contains open-ended Exercises 8.1-8.3 about implications for agent design, weaker axioms that might be safer, and further example preferences, each with collapsed discussion notes rather than unique answers. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Fernando E. Rosas
 source_url: https://iliad-intensive.org/agency/preferences-to-rewards/

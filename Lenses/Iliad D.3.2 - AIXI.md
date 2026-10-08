@@ -2,7 +2,7 @@
 id: '42d09889-4fb8-4c6c-85dd-96119cee086a'
 title: "D.3.2.1 Overview and setup"
 tldr: "Gives the roadmap for AIXI and the setup of agents, policies and environments that interact over histories of actions and percepts."
-summary_for_tutor: "Opening of Iliad worksheet D.3.2 AIXI: prerequisites (Solomonoff Induction first), learning goals, the Knuth difficulty scale, the starred-problem convention, and the roadmap of Sections 0-11 (on-policy value convergence, AIXI cannot be fooled, self-optimizing property). Setup Definitions 0.1-0.4: spaces A, O, R, E and histories, policy pi, environment nu, and the interaction measure nu^pi. Keep the notation ae_{<t}, a_t, e_t = (o_t, r_t). No exercises in this lens."
+summary_for_tutor: "Opening of worksheet D.3.2 (AIXI): prerequisites (Solomonoff induction first), learning goals, the Knuth difficulty scale, the starred-problem convention, and the roadmap of Sections 0-11 (on-policy value convergence, AIXI cannot be fooled, self-optimizing property). Setup Definitions 0.1-0.4: spaces A, O, R, E and histories, policy pi, environment nu, and the interaction measure nu^pi. Keep the notation ae_{<t}, a_t, e_t = (o_t, r_t). No exercises in this lens."
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/
