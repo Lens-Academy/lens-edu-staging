@@ -159,11 +159,10 @@ Then two more lines, and they are part of the answer, not a bonus: which of his 
 
 
 feedback-instructions:: The student has read the author's five answers and is now committing to their own probability of TAI by the end of 2020 in his hypothetical. They have NOT yet read the author's own answer to this question (his 90 percent, his inside view near 99, and his comparison with Ajeya Cotra's 50 percent). Do not reveal any of those numbers, and do not hint whether their number is high or low.
+
 There is no correct number. A complete answer has: a number, what leads them to it (and whether that reasoning is inside view or outside view), which of his five scenarios carries the number, and one concrete thing learnable within the next year that would move it twenty points. A number with no named movers is the most common gap, and when it is missing, say so plainly. The question offers one alternative: "nothing could move me, and here is what that means about the number". A thoughtful version of that is a complete answer. Engage with what they say an unmovable number is tracking rather than demanding movers anyway.
 
 Up to 3 tutor turns, then offer to continue or close.
-
-The pass bar is: a number, plus which of the five scenarios carries it, plus a concrete thing learnable within a year that would move it twenty points. A number with no named movers falls short of the bar. Exception the student-facing text explicitly offers: "nothing could move me, and here is what that means about the number". A thoughtful version of that meets the bar; engage with what they say an unmovable number is tracking rather than demanding movers anyway.
 
 Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4 items.
 
