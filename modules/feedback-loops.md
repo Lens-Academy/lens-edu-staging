@@ -57,8 +57,10 @@ source:: ![[../Lenses/The most important century]]
 
 # Lens: AI Self Improvement
 id:: 9e76e7fb-708f-4539-996b-087ae72f2891
+optional:: true
 #### Video
 source:: [[../video_transcripts/computerphile-ai-self-improvement]]
+to:: 6:32
 
 # Lens:
 optional:: true
