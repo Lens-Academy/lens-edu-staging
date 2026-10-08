@@ -220,12 +220,3 @@ force-feedback:: first
 feedback-instructions:: In at most seven sentences, say what the learner's answer got right and, if anything is missing or wrong, the most important thing, then give the resolution and name the protocol. This is resampling. Because U keeps no memory across retries, a rewound U does not know it was flagged, so surviving a resample requires the retries to be attacks too, and three independent malicious draws are far stronger evidence than one. If U attacks rarely instead, a resample simply draws its benign output and runs that. U is pushed either to incriminate itself or to stay benign, and the control property holds provided the capability gap between U and T is not too large.
 #### End Callout
 
-#### Text
-content::
-:::callout {title="Works cited" tone="neutral" collapse="closed"}
-Greenblatt, Ryan, and Buck Shlegeris. "The case for ensuring that powerful AIs are controlled." *AI Alignment Forum*, 24 Jan. 2024. [alignmentforum.org](https://www.alignmentforum.org/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled)
-*The reading this lesson is built from. This lesson covers the opening of the post through the start of "Evaluating whether you have control is doable": the control property, control versus alignment, and how to decide which models are untrusted.*
-
-XLab. "The case for ensuring that powerful AIs are controlled." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/introduction/the-case-for-controlling-powerful-ais)
-*The source lesson this page adapts, including the scenario exercise.*
-:::

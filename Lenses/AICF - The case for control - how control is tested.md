@@ -161,15 +161,3 @@ optional:: true
 from:: # What might control techniques look like?
 to:: See the Appendices [[#^appendix-a-long-list-of-control-techniques|"A long list of control techniques"]] and [[#^appendix-control-techniques-from-our-paper|"Control techniques from our paper"]] for more thoughts on what control techniques could look like.
 
-#### Text
-content::
-:::callout {title="Works cited" tone="neutral" collapse="closed"}
-Greenblatt, Ryan, and Buck Shlegeris. "The case for ensuring that powerful AIs are controlled." *AI Alignment Forum*, 24 Jan. 2024. [alignmentforum.org](https://www.alignmentforum.org/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled)
-*The reading this lesson is built from. This lesson covers control evaluations, why alignment is harder to evaluate, black-box techniques, and what control techniques might look like.*
-
-Apollo Research. "Stress Testing Deliberative Alignment for Anti-Scheming Training." Apollo Research, with OpenAI, 17 Sep. 2025. [apolloresearch.ai](https://www.apolloresearch.ai/research/stress-testing-deliberative-alignment-for-anti-scheming-training)
-*The three excerpts on evaluation awareness.*
-
-XLab. "The case for ensuring that powerful AIs are controlled." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/introduction/the-case-for-controlling-powerful-ais)
-*The source lesson this page adapts.*
-:::
