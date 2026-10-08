@@ -36,10 +36,13 @@ Exercises and external links (in lecture order)
 
 Discussion reading
 
-* Nanda et al., [A Pragmatic Vision for Interpretability](https://www.alignmentforum.org/posts/StENzDcD3kpfGJssR/a-pragmatic-vision-for-interpretability)
-* Ségerie, [Against Almost Every Theory of Impact of Interpretability](https://www.lesswrong.com/posts/LNA8mubrByG7SFacm/against-almost-every-theory-of-impact-of-interpretability-1)
-* Hendrycks, [The Misguided Quest for Mechanistic AI Interpretability](https://ai-frontiers.org/articles/the-misguided-quest-for-mechanistic-ai-interpretability)
-* Chughtai, [Activation Space Interpretability May Be Doomed](https://www.alignmentforum.org/posts/gYfpPbww3wQRaxAFD/activation-space-interpretability-may-be-doomed)
+::card[[../Lenses/nanda-a-pragmatic-vision-for-interpretability|A Pragmatic Vision for Interpretability]]
+
+::card[[../Lenses/charbel-rapha-l-against-almost-every-theory-of-impact-of-interpretability|Against Almost Every Theory of Impact of Interpretability]]
+
+::card[[../Lenses/hendrycks-the-misguided-quest-for-mechanistic-ai-interpretability|The Misguided Quest for Mechanistic AI Interpretability]]
+
+::card[[../Lenses/bilalchughtai-activation-space-interpretability-may-be-doomed|Activation Space Interpretability May Be Doomed]]
 
 Intent:
 

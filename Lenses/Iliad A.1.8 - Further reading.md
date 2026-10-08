@@ -34,33 +34,16 @@ Non-misalignment safety problems
 
 \### Alignment targets
 
-::card[[../Lenses/yudkowsky-coherent-extrapolated-volition|Coherent Extrapolated Volition]]
-
-> Proposes AI should optimize for what humanity would want "if we knew more, thought faster, were more the people we wished we were".
-
-::card[[../Lenses/christiano-clarifying-ai-alignment|Clarifying AI Alignment]]
-
-> Defines "intent alignment" as AI trying to do what the operator wants.
-
-::card[[../Lenses/anthropic-claudes-new-constitution|Claude’s Constitution]]
-
-> aligning to a constitution rather than to individual human judgments.
-
-> [Alternative: OpenAI’s Model Spec](https://model-spec.openai.com/2025-12-18.html)
-
-::card[[../Lenses/lesswrong-corrigibility|Corrigibility]]
-
-> Defines corrigibility as cooperating with human corrective interventions despite instrumental incentives to resist
-
+* [Coherent Extrapolated Volition](https://intelligence.org/files/CEV.pdf): Proposes AI should optimize for what humanity would want "if we knew more, thought faster, were more the people we wished we were".
+* [Clarifying AI Alignment](https://ai-alignment.com/clarifying-ai-alignment-cec47cd69dd6): Defines "intent alignment" as AI trying to do what the operator wants.
+* [Claude’s Constitution](https://www.anthropic.com/news/claude-new-constitution): aligning to a constitution rather than to individual human judgments.
+  * [Alternative: OpenAI’s Model Spec](https://model-spec.openai.com/2025-12-18.html)
+* [Corrigibility](https://www.lesswrong.com/w/corrigibility-1): Defines corrigibility as cooperating with human corrective interventions despite instrumental incentives to resist
 * [Artificial Intelligence, Values, and Alignment](https://arxiv.org/abs/2001.09768): Distinguishes alignment with instructions, intentions, revealed preferences, ideal preferences, interests, and values.
 * [AI alignment as the fair treatment of claims](https://link.springer.com/article/10.1007/s11098-025-02300-4)
 * [Societal Alignment Frameworks](https://arxiv.org/abs/2503.00069v1): "we argue that improving LLM alignment requires incorporating insights from societal alignment frameworks, including social, economic, and contractual alignment"
 * [Beyond Preferences in AI Alignment](https://arxiv.org/abs/2408.16984): "AI systems should be aligned with normative standards appropriate to their social roles, such as the role of a general-purpose assistant."
-
-::card[[../Lenses/shlegeris-the-case-for-ensuring-that-powerful-ais-are-controlled|AI Control]]
-
-> "Labs should make sure that powerful models can't cause unacceptably bad outcomes even if the AIs try to."
-
+* [AI Control](https://blog.redwoodresearch.org/p/the-case-for-ensuring-that-powerful): "Labs should make sure that powerful models can't cause unacceptably bad outcomes even if the AIs try to."
 * [A love for humanity](https://www.snexplores.org/article/artificial-intelligence-ai-safety-good-behavior): "Scott Aaronson says OpenAI’s cofounder, Ilya Sutskever, has asked him how to use math to define what it means for AI to love humanity. Right now, he has no idea how to answer that. But he sees it as a "North Star," or leading goal, he says. It’s a question "that should always be guiding us.""
 * [Truthful AI](https://arxiv.org/abs/2110.06674): AI that does not lie
 
@@ -70,10 +53,8 @@ A popular way to decompose AI alignment is into inner and outer alignment, where
 
 Outer Misalignment
 
-::card[[../Lenses/krakovna-specification-gaming-the-flip-side-of-ai-ingenuity|Specification gaming: the flip side of AI ingenuity]]
-
-> [List of specification gaming examples](https://docs.google.com/spreadsheets/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml)
-
+* [Specification gaming: the flip side of AI ingenuity](https://deepmind.google/blog/specification-gaming-the-flip-side-of-ai-ingenuity/)
+  * [List of specification gaming examples](https://docs.google.com/spreadsheets/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml)
 * [The Surprising Creativity of Digital Evolution](https://arxiv.org/abs/1803.03453): "many researchers in the field of digital evolution have observed their evolving algorithms and organisms subverting their intentions, exposing unrecognized bugs in their code, producing unexpected adaptations, or exhibiting outcomes uncannily convergent with ones in nature."
 * [Reward misspecification](https://arxiv.org/abs/2201.03544), where the agent is rewarded positively for bad actions due to the general difficulty of designing reward functions that capture the developer’s intentions, is another key reason why AI systems may end up with wrong goals, already *on the training distribution* (making this conceptually distinct from generalization concerns). This is also called the *outer alignment problem*.
 * [Categorizing variants of Goodhart’s law](https://arxiv.org/abs/1803.04585): Identifies four distinct failure modes (regressional, extremal, causal, adversarial) when proxies are over-optimized
@@ -98,12 +79,9 @@ Inner Misalignment
 
 Inductive Biases
 
-::card[[../Lenses/wilson-deep-learning-is-not-so-mysterious-or-different|Soft inductive biases]]
-
+* [Soft inductive biases](https://arxiv.org/abs/2503.02113)
 * [Inductive biases for deep learning of higher-level cognition](https://arxiv.org/abs/2011.15091)
-
-::card[[../Lenses/betley-emergent-misalignment-narrow-finetuning-can-produce-broadly-misaligned-llms-1-this-paper-contains-model-generated-content-that-might-be-offensive-1|Emergent misalignment]]
-
+* [Emergent misalignment](https://arxiv.org/abs/2502.17424)
 * [Natural emergent misalignment from reward hacking in production RL](https://assets.anthropic.com/m/74342f2c96095771/original/Natural-emergent-misalignment-from-reward-hacking-paper.pdf)
 * Trained AI systems are [internally a mess](https://www.alignmentforum.org/posts/NJYmovr9ZZAyyTBwM/what-i-mean-by-alignment-is-in-large-part-about-making). They presumably contain a mix of beliefs, heuristics and online learning and planning algorithms, or something else.
 
@@ -111,8 +89,7 @@ Discussion on outer and inner alignment notions
 
 * The decomposition of alignment into inner and outer alignment can be useful both for categorizing failure modes and solution strategies, but has been called into question due to [ambiguities arising in edge cases](https://www.lesswrong.com/posts/JKwrDwsaRiSxTv9ur/categorizing-failures-as-outer-or-inner-misalignment-is) and the opinion of many that [the problem should not be decomposed into two in practice](https://www.lesswrong.com/posts/gHefoxiznGfsbiAu9/inner-and-outer-alignment-decompose-one-hard-problem-into).
 * [Reward is not the optimization target](https://www.alignmentforum.org/posts/pdaGN6pQyQarFHXF4)
-
-::card[[../Lenses/evhub-how-do-we-become-confident-in-the-safety-of-a-machine-learning-system|Training stories as an alternative decomposition to outer and inner alignment]]
+* [Training stories as an alternative decomposition to outer and inner alignment](https://www.alignmentforum.org/posts/FDJnZt8Ks2djouQTZ/how-do-we-become-confident-in-the-safety-of-a-machine)
 
 \### Goal-directedness
 
@@ -120,8 +97,7 @@ AI misalignment is arguably particularly bad if AI systems develop goals since t
 
 Will AI systems develop goals?
 
-::card[[../Lenses/shah-will-humans-build-goal-directed-agents|Will humans build goal-directed agents?]]
-
+* [Will humans build goal-directed agents?](https://www.alignmentforum.org/posts/9zpT9dikrrebdq3Jf/will-humans-build-goal-directed-agents)
 * [Why tool AIs want to be agent AIs](https://gwern.net/tool-ai) is a classical text by Gwern arguing that AI agents are so useful that they will eventually be developed.
 * A short informal explanation of this can be found in [How could a machine end up with its own priorities?](https://ifanyonebuildsit.com/3/how-could-a-machine-end-up-with-its-own-priorities) (appendix of "If Anyone Builds It, Everyone Dies")
 * [Chapter 2.1, 2.2 and 2.4](https://raw.githubusercontent.com/yanshengjia/ml-road/47cadb02faa756f85fd2f058e31221cc8223b97a/resources/Artificial%20Intelligence%20-%20A%20Modern%20Approach%20%283rd%20Edition%29.pdf#%5B%7B%22num%22%3A705%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22Fit%22%7D%5D) of Russel and Norvig is also a good explanation of this and generally explains on a conceptual level what intelligent agents are.
@@ -133,12 +109,8 @@ Counter points:
 
 Instrumental Convergence / Power-Seeking
 
-::card[[../Lenses/omohundro-the-basic-ai-drives|The Basic AI Drives]]
-
-> Pioneering argument that sufficiently advanced AI will exhibit convergent instrumental drives.
-
-> [Formalizing Convergent Instrumental Goals](https://cdn.aaai.org/ocs/ws/ws0218/12634-57409-1-PB.pdf)
-
+* [The Basic AI Drives](https://selfawaresystems.com/wp-content/uploads/2008/01/ai_drives_final.pdf): Pioneering argument that sufficiently advanced AI will exhibit convergent instrumental drives.
+  * [Formalizing Convergent Instrumental Goals](https://cdn.aaai.org/ocs/ws/ws0218/12634-57409-1-PB.pdf)
 * [The Superintelligent Will](https://nickbostrom.com/superintelligentwill.pdf): Formalizes the orthogonality thesis and the instrumental convergence thesis
 * [Optimal Policies Tend to Seek Power](https://arxiv.org/abs/1912.01683): First formal proof that for most reward functions in MDPs, optimal policies seek power
 * [Parametrically retargetable decision-makers tend to seek power](https://arxiv.org/abs/2206.13477): Extends power-seeking results beyond optimal policies to more realistic parameterized agents.
@@ -154,11 +126,7 @@ On how hard it is to achieve alignment
 * [AGI ruin: A list of lethalities](https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities): 43 reasons AGI alignment is lethally difficult, covering first-try requirements, deceptive alignment, inability to iterate, and the analogy to evolution producing misaligned general intelligence.
 * [AI Alignment remains hard and unsolved](https://www.lesswrong.com/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem)
 * [Where I agree and disagree with Eliezer](https://www.lesswrong.com/posts/CoZhXrhpQxpy9xw9y/where-i-agree-and-disagree-with-eliezer): Paul Christiano’s response
-
-::card[[../Lenses/anthropic-core-views-on-ai-safety-when-why-what-and-how|Core views on Safety]]
-
-> by Anthropic: Presents a three-tier portfolio approach: optimistic (current techniques largely sufficient), intermediate (substantial scientific work needed), pessimistic (alignment may be impossible)
-
+* [Core views on Safety](https://www.anthropic.com/news/core-views-on-ai-safety) by Anthropic: Presents a three-tier portfolio approach: optimistic (current techniques largely sufficient), intermediate (substantial scientific work needed), pessimistic (alignment may be impossible)
 * [AI is easy to control](https://optimists.ai/2023/11/28/ai-is-easy-to-control/)
 
 Overall risk assessments
@@ -181,18 +149,13 @@ Scenarios
 Case for empirical work
 
 * [Prosaic AI alignment](https://ai-alignment.com/prosaic-ai-control-b959644d79c2): argues that we should focus on trying to align AI systems that are similar to the ones already built today (2016, tbc.!) since perhaps AGI will be developed without a fundamental understanding of AGI.
-
-::card[[../Lenses/anthropic-core-views-on-ai-safety-when-why-what-and-how|Anthropic’s core view on safety]]
-
-> "We are most optimistic about a multi-faceted, empirically-driven approach to AI safety"
-
+* [Anthropic’s core view on safety](https://www.anthropic.com/news/core-views-on-ai-safety): "We are most optimistic about a multi-faceted, empirically-driven approach to AI safety"
 * [Our approach to alignment research](https://openai.com/index/our-approach-to-alignment-research/) by OpenAI (2022): following feedback, assisting evaluations, doing alignment research
 * [Why I’m optimistic about our alignment approach](https://aligned.substack.com/p/alignment-optimism), Jan Leike
 
 Case for mathematical work
 
-::card[[../Lenses/yudkowsky-the-rocket-alignment-problem-gg9a4y8rewktle3tn|The rocket alignment problem]]
-
+* [The rocket alignment problem](https://www.alignmentforum.org/posts/Gg9a4y8reWKtLe3Tn/the-rocket-alignment-problem)
 * [Why agent foundations? An overly abstract explanation](https://www.lesswrong.com/posts/FWvzwCDRgcjb9sigb/why-agent-foundations-an-overly-abstract-explanation)
 * [Agent foundations for aligning machine intelligence with human interests](https://intelligence.org/files/TechnicalAgenda.pdf): "the authors believe that there are theoretical prerequisites for designing aligned smarter-than-human systems over and above what is required to design misaligned systems"
 * [AI alignment metastrategy](https://www.lesswrong.com/posts/TALmStNf6479uTwzT/ai-alignment-metastrategy): argues for halting capability work and developing theory of intelligent agents
@@ -209,10 +172,7 @@ Against many plans, empirical and theoretical
 
 \### Timelines and takeoff
 
-::card[[../Lenses/ai-2027 article lens|AI 2027]]
-
-> , and its [August 2026 update](https://blog.aifutures.org/p/q25-2026-timelines-update-uplift).
-
+* [AI 2027](https://ai-2027.com/), and its [August 2026 update](https://blog.aifutures.org/p/q25-2026-timelines-update-uplift).
 * [Nuno Sempere's Epoch research thread](https://x.com/NunoSempere/status/2103155734586220630) and the [roadmapping essay](https://epoch.ai/gradient-updates/the-missing-half-of-ai-futurism-debates) it highlights.
 * [Davidson's compute-centric takeoff framework](https://coefficientgiving.org/research/what-a-compute-centric-framework-says-about-takeoff-speeds/) and [Epoch's interactive implementation](https://takeoffspeeds.com/).
 * FRI: [LEAP](https://leap.forecastingresearch.org/), [Wave 8 timelines](https://leap.forecastingresearch.org/reports/wave8), and [forecast accuracy retrospective](https://forecastingresearch.org/research/ai-progress-accuracy-update).
