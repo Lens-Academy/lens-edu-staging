@@ -28,7 +28,7 @@ Spend **25 minutes** reading the following texts, concentrating on the one most 
 
 ::card[[../Lenses/wilson-deep-learning-is-not-so-mysterious-or-different|On soft inductive biases]]
 
-> [Emergent misalignment](https://arxiv.org/abs/2502.17424)
+::card[[../Lenses/betley-emergent-misalignment-narrow-finetuning-can-produce-broadly-misaligned-llms-1-this-paper-contains-model-generated-content-that-might-be-offensive-1|Emergent misalignment]]
 
 Discuss in groups of 3–5 for **15 minutes**. Possible prompts:
 
