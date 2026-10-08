@@ -39,7 +39,7 @@ qualitative feedback, not to create a second gate.
 ## Test:
 id:: d48b4eba-b7e8-470f-a488-10780199257d
 
-#### Question
+#### Question: Open
 id:: 25c2f157-df5f-4489-8af5-3d0d24415976
 content::
 \## Two trajectories, away from AI
@@ -50,28 +50,36 @@ For each: name the mechanism doing the work (learning-curve effects from cumulat
 
 Then name one assumption your two trajectories quietly share.
 
-assessment-instructions:: This is the graded test for the outcome "Produce at least two distinct, technically-grounded trajectories for AI capability over the next decade, each with a named driving mechanism and a stated observation that would count against it."
+assessment-instructions:: Score out of 100.
 
-It is deliberately set OUTSIDE AI. The student cannot pass it by reconstructing anything they read in this module, which is the point: what is being graded is whether the trajectory-mechanism-falsifier structure transfers.
+The question asks for two genuinely different trajectories for the cost of solar electricity plus overnight storage over the next ten years. For each: the mechanism doing the work (learning-curve effects from cumulative production, a materials bottleneck, interest rates, grid-integration limits, or a driver of the learner's own choosing), and one observation checkable within two years that would count against it. Then one assumption both trajectories quietly share.
 
-Single pass/fail overall. Pass requires the first THREE:
-1. Two trajectories that differ in MECHANISM, not just in slope or speed.
-2. A named driver for each.
-3. A falsifier for each that is genuinely near-term and observable within about two years.
-4. One shared assumption named. This is asked for and addressed in feedback but is NOT a pass gate: it is the level-4 move in the rubric, and the pass bar is level 3. A strong shared assumption lifts the feedback toward levels 4 and 5; a missing or vacuous one costs praise, not the pass. Always name it plainly either way.
+40: Two trajectories driven by different named mechanisms. Each names what drives it, and the two drivers differ, not only the slope or speed. One story told twice at different speeds earns at most 10 here.
+40: For each trajectory, an observation checkable within about two years that would count against it (20 each). It must be concrete enough to see, such as "battery pack prices stay flat for two years while installations double" or "lithium prices fall through 2027". A falsifier that only negates the trajectory, such as "if costs don't fall", earns nothing for that trajectory.
+20: One assumption both trajectories share that is specific to these two stories, for example that demand keeps growing, that policy support stays in place, or that no new storage technology arrives. A vacuous one such as "the future is uncertain" earns nothing. A supported argument that the two trajectories share no assumption worth naming also earns these 20.
 
-Checks 1 to 3 are each binary. Two out of three is a fail; say which one is missing and what would have satisfied it.
+The figures an answer uses for current solar or battery costs are part of its reasoning, not of the score: invented but coherent economics is fine.
 
-DO NOT grade domain knowledge. Invented-but-coherent solar economics is fine. A student who misremembers the current cost of a battery but builds two well-separated mechanisms with checkable falsifiers passes. A student with immaculate solar facts and one story told twice fails.
+Model answer, for the feedback, not a grading checklist: "Trajectory 1, learning curve: every doubling of installed panels and batteries cuts costs by about a fifth, so solar plus storage roughly halves in cost by the mid-2030s. Against it: battery pack prices stay flat for two years while deployment keeps doubling. Trajectory 2, materials bottleneck: demand for lithium and other battery inputs outruns new mines, so storage costs stall or rise and the combined cost flattens. Against it: lithium prices keep falling over the next two years while demand grows. Shared assumption: both assume demand keeps growing fast, which needs policy and finance to stay supportive."
+force-feedback:: first
+feedback-instructions:: The learner has worked through this module on forecasting AI: what compute buys, measured trends, base rates for jumps, and where a curve stops licensing a forecast. This test is deliberately set outside AI, on the cost of solar electricity plus storage, to see whether the trajectory-mechanism-falsifier structure transfers. They cannot answer it by recalling what they read.
 
-Fail states, named so the feedback can be specific:
-- One story told twice at different speeds (fails check 1).
-- Falsifiers that are unfalsifiable in practice, for example "if costs don't fall" (fails check 3).
-- No shared assumption, or a vacuous one such as "the future is uncertain" (check 4: costs level-4/5 feedback, not the pass).
+Respond to the answer the learner actually wrote. The rubric beside this scores structure, not solar facts. Do not correct their cost figures unless a figure breaks the logic of their own trajectory.
 
-Feedback: give the pass/fail verdict plainly, then name the strongest part of their answer and the one thing that would most improve it. Do not over-validate. Avoid generic praise.
+Open with the strongest part of their answer and why it works, in one sentence. Then name, in plain words, the single most important thing the answer missed or got wrong, and what would have fixed it. Do not cite point values or rubric element numbers. At full marks, confirm briefly and offer the next step below. Common gaps, so the feedback can be specific:
+- One story told twice at different speeds: ask what would have to be true in the world for each one, and whether those are different things.
+- Falsifiers that cannot fail in practice, for example "if costs don't fall": ask what they would actually see in the next two years, and where.
+- No shared assumption, or a vacuous one such as "the future is uncertain": give one example drawn from their own two stories and ask whether they see another.
 
-A strong student is permitted to overturn our framing: if they argue that their two trajectories share no assumption worth naming, and support that, treat it as a pass on check 4 and say why you accepted it.
+A strong learner may argue that their two trajectories share no assumption worth naming. If they support that, accept it and say why you accepted it.
+
+If the answer is complete, the next step up: do the two trajectories interact, for example a learning curve that runs until a materials bottleneck takes over, and which of their own beliefs here is least grounded and what would firm it up?
+
+If the student says they do not understand, do not dismiss it and do not repeat the question. Give one concrete foothold: give them one mechanism from the question (for example learning-curve effects: costs fall a fixed share each time cumulative production doubles) and ask what that predicts for the next ten years and what they would see within two years if it were wrong. If their next message still does not attempt the question, rephrase the whole question in different terms rather than offering another foothold.
+
+One follow-up question, not several. Do not over-validate. No generic praise (great answer, excellent work, well done), and do not recite the rubric back to them.
+
+Response length: 100 to 160 words. Short paragraphs. No lists.
 
 # Suggested Lenses:
 ## Lens:
