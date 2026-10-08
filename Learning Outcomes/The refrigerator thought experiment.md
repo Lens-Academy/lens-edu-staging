@@ -39,6 +39,17 @@ assessment-instructions::
 
 **5** — As above, plus articulates the epistemological consequence: inability to describe the mechanism doesn't undermine the prediction. The blacksmith's confusion about the refrigerator doesn't mean cold air is impossible. *Example: Adds "This also answers 'I can't imagine a specific mechanism, so I'm not convinced.' The blacksmith who built the refrigerator couldn't explain why it produced cold air, but the cold air was real. We don't need to describe the exact attack vector for 'a superintelligence with capabilities we don't understand would defeat us' to be a valid conclusion."*
 
+force-feedback:: first
+feedback-instructions:: Respond to what the learner actually wrote. Open on the strongest thing in it, in one sentence. Then push once, chosen by where they stopped:
+
+- If they retold the story without linking it to AI, ask what the blacksmith lacked, and what an AI would need to have over us to put us in the same position.
+- If they said we will not understand AI, ask what the blacksmith could not understand: the machine he built, or the law of nature that made it work.
+- If they had the principle, ask where human knowledge is thinnest, and so where a smarter mind would have the most room. The chapter points at biology and the human brain.
+- If they had the domains, ask what the blacksmith's confusion says about someone who dismisses the danger because they cannot picture a specific attack.
+
+At full marks, just confirm briefly. Don't cite level numbers or band names (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: the blacksmith could follow the blueprint step by step and still be astonished by the cold air, because the rule that makes it cold was unknown to him. If they still don't attempt it, rephrase the question.
+
+One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
 # Suggested Lenses:
 ## Lens:
