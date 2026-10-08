@@ -35,7 +35,7 @@ One term before you start. The authors use "AGI" throughout: artificial general 
 
 Before you read any of it, you will build your own version of their set of methods.
 
-#### Question
+#### Question: Open
 id:: 0718d0de-6524-4ab6-be19-20fb05f56fca
 content::
 \## Every way you can think of
@@ -71,7 +71,7 @@ source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## AGI timelines forecasting methods
 to:: possibility of time horizon doublings getting easier or harder at higher horizons.
 
-#### Question
+#### Question: Open
 id:: 171d04f7-fda7-4811-becb-754971b05188
 content::
 \## The diff
@@ -104,7 +104,7 @@ source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## How our model works
 to:: as the project gets bottlenecked by their limited supply of experiment compute.
 
-#### Question
+#### Question: Open
 id:: 2ab11725-db44-4166-ba8a-97f9a7226895
 content::
 \## Your number, before theirs
