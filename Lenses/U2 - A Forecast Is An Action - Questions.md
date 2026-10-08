@@ -9,7 +9,7 @@ authors:
   - Claude
 ---
 
-#### Question
+#### Question: Open
 id:: 9b598627-a7ab-4911-bead-b162080d13f9
 content::
 \## Phase 1: Recall
