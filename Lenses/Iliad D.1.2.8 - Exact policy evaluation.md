@@ -133,5 +133,3 @@ which has a direct interpretation: $$(\mathbf{P}^{\pi})^{k} \mathbf{r}^{\pi}$$ i
 M. L. Puterman (1994). *Markov Decision Processes --- Discrete Stochastic Dynamic Programming*. Wiley.
 
 John N. Tsitsiklis (1994). *Asynchronous Stochastic Approximation and Q-Learning*. Machine Learning.
-
-[^1]: Noting that ${\mathcal{S}} \times {\mathcal{A}} \times {\mathcal{S}}$ is a finite set, this implies that the rewards are bounded above by $R_{\text{max}}= \max_{s,a,s'}R(s,a,s')$.
