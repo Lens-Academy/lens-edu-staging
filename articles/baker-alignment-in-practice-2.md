@@ -13,7 +13,7 @@ llm-review:
   source:
     fetched: 2026-10-08
     kind: "live"
-description: "April 2026 cohort — AI Safety theory of deep learning, agency, alignment."
+description: {--{"author":"James's AI","timestamp":1791466287409}@@"April 2026 cohort — AI Safety theory of deep learning, agency, alignment."--}{++{"author":"James's AI","timestamp":1791466287409}@@"Transformer architecture and training, the alignment problems seen during training, and the methods used to correct them, including AI control."++}
 tags:
   - "article-importer"
 ---
@@ -92,7 +92,7 @@ An AI model has as its basic unit a series of "blocks". These blocks are just fu
 
 You should have in your head this picture
 
-![Drawing 2026-07-30 11.35.23](https://iliad-intensive.org/uploads/alignment-in-practice-ii/drawing-2026-07-30-11.35.23.excalidraw.svg)
+![Drawing 2026-07-30 11.35.23]({--{"author":"James's AI","timestamp":1791466264889}@@https://iliad-intensive.org/uploads/alignment-in-practice-ii/drawing-2026-07-30-11.35.23.excalidraw.svg--}{++{"author":"James's AI","timestamp":1791466264889}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-a3-drawing-2026-07-30-258e255c.png++})
 
 where block $i$ is also known as layer $i$, and has associated with it the weights $w_i$.
 
@@ -163,13 +163,13 @@ Note also that each row is normalized, so that it sums to 1. Often such constrai
 
 Next we have a transformer block. You should picture this inside your head for this
 
-![iliad transformer block](https://iliad-intensive.org/uploads/alignment-in-practice-ii/iliad-transformer-block.excalidraw.svg)
+![iliad transformer block]({--{"author":"James's AI","timestamp":1791466275516}@@https://iliad-intensive.org/uploads/alignment-in-practice-ii/iliad-transformer-block.excalidraw.svg--}{++{"author":"James's AI","timestamp":1791466275516}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-a3-transformer-block-2ba5719a.png++})
 
 That is to say, the transformer block for word $t$ gets to read information from any word coming before $t$ including $t$ itself. This should make sense, when someone is speaking to you, you don't get information about the end of their sentence until you actually get to the end of their sentence, but you always have information from the beginning of their sentence. This is called having "causal attention".
 
 The next however-many blocks in our transformer are just repeats of these transformer blocks. That's why it's called a transformer! And it's called _deep_ learning because usually by just adding more transformer blocks--that is, making the model _deeper_--the model gets better at its task: predicting the next token.
 
-![iliad transformer block 2](https://iliad-intensive.org/uploads/alignment-in-practice-ii/iliad-transformer-block-2.excalidraw.svg)
+![iliad transformer block 2]({--{"author":"James's AI","timestamp":1791466275987}@@https://iliad-intensive.org/uploads/alignment-in-practice-ii/iliad-transformer-block-2.excalidraw.svg--}{++{"author":"James's AI","timestamp":1791466275987}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-a3-transformer-block-2-be5c570d.png++})
 
 Before it can do that though, we need to turn the random numbers it's spitting out into words, because while the transformer can read numbers perfectly fine, we do ultimately want this thing to talk!
 
@@ -177,7 +177,7 @@ This is simple, we just have an "unembedding" block, which takes each vector $x_
 
 In the ideal case, we want the model's output to look like this:
 
-![iliad transformer full](https://iliad-intensive.org/uploads/alignment-in-practice-ii/iliad-transformer-full.excalidraw.svg)
+![iliad transformer full]({--{"author":"James's AI","timestamp":1791466276452}@@https://iliad-intensive.org/uploads/alignment-in-practice-ii/iliad-transformer-full.excalidraw.svg--}{++{"author":"James's AI","timestamp":1791466276452}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-a3-transformer-full-7b37e3c5.png++})
 
 supposing the true sentence was "My dog ate my homework".
 
@@ -185,7 +185,7 @@ that is to say, each output position $i$ has a corresponding input position $i$,
 
 Note that this along with "causal attention" means we are able to truncate the transformer's position at any point in the input, and get what the transformer _would've predicted_ had it not had access to any future information.
 
-![iliad transformer truncate](https://iliad-intensive.org/uploads/alignment-in-practice-ii/iliad-transformer-truncate.excalidraw.svg)
+![iliad transformer truncate]({--{"author":"James's AI","timestamp":1791466276824}@@https://iliad-intensive.org/uploads/alignment-in-practice-ii/iliad-transformer-truncate.excalidraw.svg--}{++{"author":"James's AI","timestamp":1791466276824}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-a3-transformer-truncate-20a6a787.png++})
 
 in this way we can see and more importantly grade the transformer's output for 4 different tasks at once!
 
