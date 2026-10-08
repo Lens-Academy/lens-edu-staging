@@ -111,3 +111,12 @@ source:: [[../Lenses/Iliad E.3.2 - Reading guide and further reading]]
 
 # Lens: Transformer Circuit Faithfulness Metrics Are Not Robust
 source:: [[../Lenses/miller-transformer-circuit-faithfulness-metrics-are-not-robust]]
+
+# Lens: ARC: Formal verification, heuristic explanations and surprise
+source:: [[../Lenses/hilton-formal-verification-heuristic-explanations-and-surprise-accounting]]
+
+# Lens: A bird's eye view of ARC's research
+source:: [[../Lenses/hilton-a-birds-eye-view-of-arcs-research]]
+
+# Lens: A computational no-coincidence principle
+source:: [[../Lenses/neyman-a-computational-no-coincidence-principle]]
