@@ -30,8 +30,3 @@ Pick one area from this list and find where it fits in Greenblatt's list of eigh
 force-feedback:: first
 feedback-instructions:: The learner maps one AISI area onto Greenblatt's eight areas: (1) settings and control evaluations, (2) control-relevant capabilities and model properties, (3) countermeasures in isolation, (4) experiments on actual AI usage, (5) software infrastructure and security, (6) human processes, (7) conceptual research, (8) nearer-term applications. Plausible mappings. High-stakes failures and research sabotage are threat models whose empirical work falls mostly under settings and control evaluations. Uplift of trusted models and chain-of-thought monitoring are mostly countermeasures developed in isolation, and partly capability studies. Modelling of risks is mostly conceptual research. Covert malicious fine-tuning has no single home and touches capabilities and countermeasures. Accept any mapping with a reason, and accept "it fits several" with a reason. The point is that the two lists cut the same field differently: one by threat, one by kind of work. Reply in at most four sentences. One turn. No generic praise.
 
-#### Text
-content::
-:::callout {title="Works cited" tone="neutral" collapse="closed"}
-Stastny, Julian, Tomek Korbak, Mojmir, Buck Shlegeris and Alan Cooney. "Research Areas in AI Control (The Alignment Project by UK AISI)." *AI Alignment Forum*, 1 Aug. 2025. [alignmentforum.org](https://www.alignmentforum.org/posts/rGcg4XDPDzBFuqNJz/research-areas-in-ai-control-the-alignment-project-by-uk)
-:::

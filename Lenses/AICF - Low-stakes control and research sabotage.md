@@ -63,10 +63,3 @@ optional:: true
 
 #### End Callout
 
-#### Text
-content::
-:::callout {title="Works cited" tone="neutral" collapse="closed"}
-Hebbar, Vivek. "Low-stakes Control." *ControlConf*, FAR.AI, published 14 May 2025. [youtube.com](https://www.youtube.com/watch?v=DP3wTPDEjLQ)
-
-Terekhov, Mikhail, Caglar Gulcehre, Vivek Hebbar and Joe Benton. "Diffuse AI Control on Fuzzy Tasks." *Anthropic Alignment Science blog*, 23 June 2026. [alignment.anthropic.com](https://alignment.anthropic.com/2026/diffuse-ai-control/)
-:::
