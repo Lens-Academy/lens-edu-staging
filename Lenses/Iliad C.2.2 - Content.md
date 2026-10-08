@@ -6,7 +6,7 @@ summary_for_tutor: "Content of worksheet C.2. It has a fast track (the slides) a
 authors:
   - Julian Schulz (Meridian Research)
 source_url: https://iliad-intensive.org/interpretability/mechanistic-interpretability/
-upstream_commit: '11944e29333e1e2a2a0c0d93b6398a6df5598ab3'
+upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
 provenance_recorded_at: '2026-10-08'
 ---
 

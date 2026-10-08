@@ -6,7 +6,7 @@ summary_for_tutor: "This opens worksheet D.1.1 (preferences to rewards): an embe
 authors:
   - Fernando E. Rosas
 source_url: https://iliad-intensive.org/agency/preferences-to-rewards/
-upstream_commit: '11944e29333e1e2a2a0c0d93b6398a6df5598ab3'
+upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
 provenance_recorded_at: '2026-10-08'
 ---
 
@@ -41,41 +41,41 @@ The first and second steps are closely related to the classical theory developed
 
 \## 2. Preferences over trajectories
 
-Let ${\mathcal{O}}$ be a finite set of observations and ${\mathcal{A}}$ a finite set of actions. A one-step interaction is then given by $t=(o,a)\in {\mathcal{O}}\times {\mathcal{A}}$. For each $n\in\mathbb{N}_{\geq 0}$, define the space of trajectories of length $n$ by
+Let $${\mathcal{O}}$$ be a finite set of observations and $${\mathcal{A}}$$ a finite set of actions. A one-step interaction is then given by $$t=(o,a)\in {\mathcal{O}}\times {\mathcal{A}}$$. For each $$n\in\mathbb{N}_{\geq 0}$$, define the space of trajectories of length $$n$$ by
 
 $$
 {\mathcal{H}}_{n} \coloneqq ({\mathcal{O}}\times {\mathcal{A}})^{n}.
 $$
 
-We write $\varepsilon$ for the unique trajectory of length $0$. The space of all *finite* trajectories is
+We write $$\varepsilon$$ for the unique trajectory of length $$0$$. The space of all *finite* trajectories is
 
 $$
 {\mathcal{H}}^{*} \coloneqq \bigcup_{n=0}^{\infty} {\mathcal{H}}_{n}.
 $$
 
-A typical element of ${\mathcal{H}}^{*}$ has the form $h=(o_{1},a_{1},o_{2},a_{2},\dots,o_{n},a_{n})$. We will keep the notation ${\mathcal{H}}^{*}$ for the set of all finite trajectories throughout.
+A typical element of $${\mathcal{H}}^{*}$$ has the form $$h=(o_{1},a_{1},o_{2},a_{2},\dots,o_{n},a_{n})$$. We will keep the notation $${\mathcal{H}}^{*}$$ for the set of all finite trajectories throughout.
 
 :::callout {title="Definition" tone="blue"}
 
-**Definition 2.1 (Preference).** A preference relation on ${\mathcal{H}}^{*}$ is a binary relation $\succcurlyeq$ where
+**Definition 2.1 (Preference).** A preference relation on $${\mathcal{H}}^{*}$$ is a binary relation $$\succcurlyeq$$ where
 
 $$
 h \succcurlyeq h'
 $$
 
-means that trajectory $h$ is judged at least as good as trajectory $h'$.
+means that trajectory $$h$$ is judged at least as good as trajectory $$h'$$.
 
 :::
 
-From $\succcurlyeq$ we derive the usual companion relations:
+From $$\succcurlyeq$$ we derive the usual companion relations:
 
 $$
 h \sim h' \iff h \succcurlyeq h' \text{ and }h' \succcurlyeq h, \qquad h \succ h' \iff h \succcurlyeq h' \text{ and not }h' \succcurlyeq h.
 $$
 
-We call $\sim$ `indifference', as an agent has no reason to prefer one over the other.
+We call $$\sim$$ `indifference', as an agent has no reason to prefer one over the other.
 
-At this point, $\succcurlyeq$ has no properties whatsoever. One may naturally wonder what kinds of properties it is reasonable to require of $\succcurlyeq$, and what follows from them — which is what we study in the next sections.
+At this point, $$\succcurlyeq$$ has no properties whatsoever. One may naturally wonder what kinds of properties it is reasonable to require of $$\succcurlyeq$$, and what follows from them — which is what we study in the next sections.
 
 \## 3. When are preferences problematic?
 

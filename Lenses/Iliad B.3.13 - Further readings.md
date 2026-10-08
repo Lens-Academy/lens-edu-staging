@@ -8,7 +8,7 @@ authors:
   - Matthew Farrugia-Roberts (University of Oxford)
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/singular-learning-theory/
-upstream_commit: '11944e29333e1e2a2a0c0d93b6398a6df5598ab3'
+upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
 provenance_recorded_at: '2026-10-08'
 ---
 
@@ -80,7 +80,7 @@ Lau 2025, Chapter 5 and Urdshals et al. 2025 develop a theory of minimum descri
 
 \## References
 
-Maxwell Adam, Zach Furman, and Jesse Hoogland (2025). [*The Loss Kernel: A Geometric Probe for Deep Learning Interpretability*](https://arxiv.org/abs/2509.26537). arXiv:2509.26537.
+Maxwell Adam, Zach Furman, and Jesse Hoogland (2025). [*The Loss Kernel: A Geometric Probe for Deep Learning Interpretability*](https://arxiv.org/abs/2509.26537). arXiv\:2509.26537.
 
 Miki Aoyagi and Sumio Watanabe (2005). *Stochastic complexities of reduced rank regression in Bayesian estimation*. Neural Networks.
 
@@ -88,23 +88,23 @@ Miki Aoyagi (2009). *Log canonical threshold of Vandermonde matrix type singular
 
 Miki Aoyagi (2024). *Consideration on the learning efficiency of multiple-layered neural networks with linear units*. Neural Networks.
 
-Garrett Baker, George Wang, Jesse Hoogland, and Daniel Murfet (2025). [*Structural Inference: Interpreting Small Language Models with Susceptibilities*](https://arxiv.org/abs/2504.18274). arXiv:2504.18274.
+Garrett Baker, George Wang, Jesse Hoogland, and Daniel Murfet (2025). [*Structural Inference: Interpreting Small Language Models with Susceptibilities*](https://arxiv.org/abs/2504.18274). arXiv\:2504.18274.
 
 Liam Carroll (2021). [*Phase Transitions in Neural Networks*](https://therisingsea.org/notes/MSc-Carroll.pdf). School of Mathematics and Statistics, the University of Melbourne.
 
 Liam Carroll (2023). [*Distilling Singular Learning Theory*](https://www.lesswrong.com/s/czrXjvCLsqGepybHC).
 
-Liam Carroll, Jesse Hoogland, Matthew Farrugia-Roberts, and Daniel Murfet (2025). [*Dynamics of Transient Structure in In-Context Linear Regression Transformers*](https://arxiv.org/abs/2501.17745). arXiv:2501.17745.
+Liam Carroll, Jesse Hoogland, Matthew Farrugia-Roberts, and Daniel Murfet (2025). [*Dynamics of Transient Structure in In-Context Linear Regression Transformers*](https://arxiv.org/abs/2501.17745). arXiv\:2501.17745.
 
-Zhongtian Chen and Daniel Murfet (2025). [*Modes of Sequence Models and Learning Coefficients*](https://arxiv.org/abs/2504.18048). arXiv:2504.18048.
+Zhongtian Chen and Daniel Murfet (2025). [*Modes of Sequence Models and Learning Coefficients*](https://arxiv.org/abs/2504.18048). arXiv\:2504.18048.
 
-Zhongtian Chen, Edmund Lau, Jake Mendel, Susan Wei, and Daniel Murfet (2023). [*Dynamical versus Bayesian Phase Transitions in a Toy Model of Superposition*](https://arxiv.org/abs/2310.06301). arXiv:2310.06301.
+Zhongtian Chen, Edmund Lau, Jake Mendel, Susan Wei, and Daniel Murfet (2023). [*Dynamical versus Bayesian Phase Transitions in a Toy Model of Superposition*](https://arxiv.org/abs/2310.06301). arXiv\:2310.06301.
 
-James Clift, Daniel Murfet, and James Wallbridge (2021). [*Geometry of Program Synthesis*](https://arxiv.org/abs/2103.16080). arXiv:2103.16080.
+James Clift, Daniel Murfet, and James Wallbridge (2021). [*Geometry of Program Synthesis*](https://arxiv.org/abs/2103.16080). arXiv\:2103.16080.
 
 Nelson Elhage, Tristan Hume, Catherine Olsson, Nicholas Schiefer, Tom Henighan, Shauna Kravec, Zac Hatfield-Dodds, Robert Lasenby, Dawn Drain, Carol Chen, Roger Grosse, Sam McCandlish, Jared Kaplan, Dario Amodei, Martin Wattenberg, and Christopher Olah (2022). *Toy Models of Superposition*. Transformer Circuits Thread.
 
-Chris Elliott, Einar Urdshals, David Quarel, Matthew Farrugia-Roberts, and Daniel Murfet (2026). [*Stagewise Reinforcement Learning and the Geometry of the Regret Landscape*](https://arxiv.org/abs/2601.07524). arXiv:2601.07524.
+Chris Elliott, Einar Urdshals, David Quarel, Matthew Farrugia-Roberts, and Daniel Murfet (2026). [*Stagewise Reinforcement Learning and the Geometry of the Regret Landscape*](https://arxiv.org/abs/2601.07524). arXiv\:2601.07524.
 
 Matthew Farrugia-Roberts (2022). [*Structural Degeneracy in Neural Networks*](https://far.in.net/mthesis). School of Computing and Information Systems, the University of Melbourne.
 
@@ -118,15 +118,15 @@ Zach Furman (2024). [*Singular learning theory: Exercises*](https://www.lesswron
 
 Zach Furman (2026). *Deep learning as program synthesis*.
 
-Andrew Gordon, Garrett Baker, George Wang, William Snell, Stan van Wingerden, and Daniel Murfet (2026). [*Towards Spectroscopy: Susceptibility Clusters in Language Models*](https://arxiv.org/abs/2601.12703). arXiv:2601.12703.
+Andrew Gordon, Garrett Baker, George Wang, William Snell, Stan van Wingerden, and Daniel Murfet (2026). [*Towards Spectroscopy: Susceptibility Clusters in Language Models*](https://arxiv.org/abs/2601.12703). arXiv\:2601.12703.
 
-Rohan Hitchcock and Jesse Hoogland (2025). [*From Global to Local: A Scalable Benchmark for Local Posterior Sampling*](https://arxiv.org/abs/2507.21449). arXiv:2507.21449.
+Rohan Hitchcock and Jesse Hoogland (2025). [*From Global to Local: A Scalable Benchmark for Local Posterior Sampling*](https://arxiv.org/abs/2507.21449). arXiv\:2507.21449.
 
 Jesse Hoogland, Alexander Gietelink Oldenziel, Daniel Murfet, and Stan van Wingerden (2023). [*Towards Developmental Interpretability*](https://www.alignmentforum.org/posts/TjaeCWvLZtEDAS5Ex/).
 
 Jesse Hoogland, George Wang, Matthew Farrugia-Roberts, Liam Carroll, Susan Wei, and Daniel Murfet (2025). *Loss Landscape Degeneracy and Stagewise Development in Transformers*. Transactions on Machine Learning Research.
 
-Philipp Alexander Kreer, Wilson Wu, Maxwell Adam, Zach Furman, and Jesse Hoogland (2025). [*Bayesian Influence Functions for Hessian-Free Data Attribution*](https://arxiv.org/abs/2509.26544). arXiv:2509.26544.
+Philipp Alexander Kreer, Wilson Wu, Maxwell Adam, Zach Furman, and Jesse Hoogland (2025). [*Bayesian Influence Functions for Hessian-Free Data Attribution*](https://arxiv.org/abs/2509.26544). arXiv\:2509.26544.
 
 Edmund Lau and Zhongtian Chen (2023). [*Singular Learning Theory: The Low Road*](https://www.youtube.com/playlist?list=PL4vaU_gO_6LIf5CHU3Z3CT39fha55pe16).
 
@@ -134,31 +134,31 @@ Edmund Lau (2025). *A Singular Perspective on Machine Learning*. School of Mathe
 
 Edmund Lau, Zach Furman, George Wang, Daniel Murfet, and Susan Wei (2025). [*The Local Learning Coefficient: A Singularity-Aware Complexity Measure*](https://openreview.net/forum?id=1av51ZlsuL). The 28th International Conference on Artificial Intelligence and Statistics.
 
-Jin Hwa Lee, Matthew Smith, Maxwell Adam, and Jesse Hoogland (2025). [*Influence Dynamics and Stagewise Data Attribution*](https://arxiv.org/abs/2510.12071). arXiv:2510.12071.
+Jin Hwa Lee, Matthew Smith, Maxwell Adam, and Jesse Hoogland (2025). [*Influence Dynamics and Stagewise Data Attribution*](https://arxiv.org/abs/2510.12071). arXiv\:2510.12071.
 
 Daniel Murfet and Liam Carroll (2023). [*Singular Learning Theory: The High Road*](https://www.youtube.com/playlist?list=PL4vaU_gO_6LJ4isj5DESGg4OwfVEk98Y-).
 
-Daniel Murfet and Will Troiani (2025). [*Programs as Singularities*](https://arxiv.org/abs/2504.08075). arXiv:2504.08075.
+Daniel Murfet and Will Troiani (2025). [*Programs as Singularities*](https://arxiv.org/abs/2504.08075). arXiv\:2504.08075.
 
 Daniel Murfet (2024). [*Simple versus short: Higher-order degeneracy and error-correction*](https://www.alignmentforum.org/posts/nWRj6Ey8e5siAEXbK/).
 
 Nina Panickssery and Dmitry Vaintrob (2023). [*Investigating the learning coefficient of modular addition*](https://www.alignmentforum.org/posts/4v3hMuKfsGatLXPgt).
 
-Simon Pepin Lehalleur, Jesse Hoogland, Matthew Farrugia-Roberts, Susan Wei, Alexander Gietelink Oldenziel, George Wang, Liam Carroll, and Daniel Murfet (2025). [*You Are What You Eat--AI Alignment Requires Understanding How Data Shapes Structure and Generalisation*](https://arxiv.org/abs/2502.05475). arXiv:2502.05475.
+Simon Pepin Lehalleur, Jesse Hoogland, Matthew Farrugia-Roberts, Susan Wei, Alexander Gietelink Oldenziel, George Wang, Liam Carroll, and Daniel Murfet (2025). [*You Are What You Eat--AI Alignment Requires Understanding How Data Shapes Structure and Generalisation*](https://arxiv.org/abs/2502.05475). arXiv\:2502.05475.
 
 Joar Skalse (2023). [*My criticism of singular learning theory*](https://www.alignmentforum.org/posts/ALJYj4PpkqyseL7kZ/).
 
-Einar Urdshals and Jasmina Urdshals (2025). [*Structure Development in List-Sorting Transformers*](https://arxiv.org/abs/2501.18666). arXiv:2501.18666.
+Einar Urdshals and Jasmina Urdshals (2025). [*Structure Development in List-Sorting Transformers*](https://arxiv.org/abs/2501.18666). arXiv\:2501.18666.
 
-Einar Urdshals, Edmund Lau, Jesse Hoogland, Stan van Wingerden, and Daniel Murfet (2025). [*Compressibility Measures Complexity: Minimum Description Length Meets Singular Learning Theory*](https://arxiv.org/abs/2510.12077). arXiv:2510.12077.
+Einar Urdshals, Edmund Lau, Jesse Hoogland, Stan van Wingerden, and Daniel Murfet (2025). [*Compressibility Measures Complexity: Minimum Description Length Meets Singular Learning Theory*](https://arxiv.org/abs/2510.12077). arXiv\:2510.12077.
 
-George Wang and Daniel Murfet (2026). [*Patterning: The Dual of Interpretability*](https://arxiv.org/abs/2601.13548). arXiv:2601.13548.
+George Wang and Daniel Murfet (2026). [*Patterning: The Dual of Interpretability*](https://arxiv.org/abs/2601.13548). arXiv\:2601.13548.
 
 George Wang, Matthew Farrugia-Roberts, Jesse Hoogland, Liam Carroll, Susan Wei, and Daniel Murfet (2024). [*Loss landscape geometry reveals stagewise development of transformers*](https://openreview.net/forum?id=2JabyZjM5H). High-dimensional Learning Dynamics 2024: The Emergence of Structure and Reasoning.
 
 George Wang, Jesse Hoogland, Stan van Wingerden, Zach Furman, and Daniel Murfet (2025). [*Differentiation and Specialization of Attention Heads via the Refined Local Learning Coefficient*](https://openreview.net/forum?id=SUc1UOWndp). International Conference on Learning Representations.
 
-George Wang, Garrett Baker, Andrew Gordon, and Daniel Murfet (2025). [*Embryology of a Language Model*](https://arxiv.org/abs/2508.00331). arXiv:2508.00331.
+George Wang, Garrett Baker, Andrew Gordon, and Daniel Murfet (2025). [*Embryology of a Language Model*](https://arxiv.org/abs/2508.00331). arXiv\:2508.00331.
 
 Thomas Waring (2021). [*Geometric Perspectives on Program Synthesis and Semantics*](https://therisingsea.org/notes/MSc-Waring.pdf). School of Mathematics and Statistics, the University of Melbourne.
 
@@ -176,4 +176,4 @@ Sumio Watanabe (2024). *Recent Advances in Algebraic Geometry and Bayesian Stati
 
 Susan Wei, Daniel Murfet, Mingming Gong, Hui Li, Jesse Gell-Redman, and Thomas Quella (2023). *Deep Learning Is Singular, and That's Good*. IEEE Transactions on Neural Networks and Learning Systems.
 
-Adrian K. Xu (2021). [*Smooth relaxation preserving Turing machines*](https://arxiv.org/abs/2106.00956). arXiv:2106.00956.
+Adrian K. Xu (2021). [*Smooth relaxation preserving Turing machines*](https://arxiv.org/abs/2106.00956). arXiv\:2106.00956.

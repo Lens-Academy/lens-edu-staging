@@ -6,7 +6,7 @@ summary_for_tutor: "This is the intro of worksheet B.4 (training dynamics): two 
 authors:
   - Guillaume Corlouer (Stormglass)
 source_url: https://iliad-intensive.org/learning/training-dynamics/
-upstream_commit: '11944e29333e1e2a2a0c0d93b6398a6df5598ab3'
+upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
 provenance_recorded_at: '2026-10-08'
 ---
 
@@ -52,22 +52,24 @@ The goal of this day is to present a toy model perspective on the training dynam
 
 \## 2. Setup and notation
 
-We study deep linear networks (DLNs) with $L$ weight matrices $W_{1} \in \mathbb{R}^{d_1 \times d_0}, W_{2} \in \mathbb{R}^{d_2 \times d_1}, \ldots, W_{L} \in \mathbb{R}^{d_L \times d_{L-1}}$. The network computes:
+We study deep linear networks (DLNs) with $$L$$ weight matrices $$W_{1} \in \mathbb{R}^{d_1 \times d_0}, W_{2} \in \mathbb{R}^{d_2 \times d_1}, \ldots, W_{L} \in \mathbb{R}^{d_L \times d_{L-1}}$$. The network computes:
 
 $$
 f(x) = W_{L} W_{L-1}\cdots W_{1} \, x =: W x
 $$
 
-where $W = W_{L} \cdots W_{1} \in \mathbb{R}^{d_L \times d_0}$ is the end-to-end (or "student") matrix. We train on a dataset $\{(x_{\mu}, y_{\mu})\}_{\mu=1}^{N}$ with the squared loss:
+where $$W = W_{L} \cdots W_{1} \in \mathbb{R}^{d_L \times d_0}$$ is the end-to-end (or "student") matrix. We train on a dataset $$\{(x_{\mu}, y_{\mu})\}_{\mu=1}^{N}$$ with the squared loss:
 
 $$
 \mathcal{L}(\theta) = \frac{1}{2N}\sum_{\mu=1}^{N}\|y_{\mu} - f(x_{\mu})\|^{2}
 $$
 
-In the population limit $N \to \infty$ with whitened inputs $\Sigma_{X} = I$, this becomes, up to an additive constant[^1]:
+In the population limit $$N \to \infty$$ with whitened inputs $$\Sigma_{X} = I$$, this becomes, up to an additive constant[^1]:
 
 $$
 \mathcal{L}(W) = \frac{1}{2}\|M - W\|_{F}^{2}
 $$
 
-where $M = \Sigma_{YX}\Sigma_{X}^{-1}= \Sigma_{YX}$ is the "teacher" matrix (the OLS solution) with SVD $M = U \,\text{diag}(s_{1}, \ldots, s_{r}, 0, \ldots, 0)\, V^{\top}$, and $s_{1} \geq s_{2} \geq \cdots \geq s_{r} > 0$.
+where $$M = \Sigma_{YX}\Sigma_{X}^{-1}= \Sigma_{YX}$$ is the "teacher" matrix (the OLS solution) with SVD $$M = U \,\text{diag}(s_{1}, \ldots, s_{r}, 0, \ldots, 0)\, V^{\top}$$, and $$s_{1} \geq s_{2} \geq \cdots \geq s_{r} > 0$$.
+
+[^1]: The constant is $$\frac{1}{2}\mathbb{E}\|y - Mx\|^{2}$$, which is the residual of the OLS. It vanishes on realizable data.
