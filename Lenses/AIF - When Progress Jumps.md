@@ -25,7 +25,7 @@ Some definitions for how this article uses words:
 (They don't count speedups where there are multiple events of rapidly increasing size unless one of those individual events beats the trend of the events right before it.)
 
 
-#### Question
+#### Question: Open
 id:: 612dd0df-c35f-4159-a891-ccaf6f7c5d35
 content::
 \## Guess the base rates
