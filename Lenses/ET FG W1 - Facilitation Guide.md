@@ -55,22 +55,8 @@ content::
 
 **Additional Materials:**
 
-- Week 1 Readings and Worksheet are on Lens Academy
-
-::card[[../Lenses/ET W1 - Reading 1 - Introduction to the Program]]{allow-external}
-
-::card[[../Lenses/ET W1 - Reading 2 - Impact on the World]]{allow-external}
-
-::card[[../Lenses/ET W1 - Reading 3 - Impact on You]]{allow-external}
-
-::card[[../Lenses/ET W1 - Reading 4 - Impact on Your Community]]{allow-external}
-
-::card[[../Lenses/ET W1 - Worksheet - My Foundations to Impact]]{allow-external}
-
-::card[[../Lenses/ET W1 - Journalling - Journaling on My Ikigai]]{allow-external}
-
+- Week 1 Readings, Worksheet and Journalling: [on Lens Academy](https://lensacademy.org/courses/effective-thesis-accelerator/curriculum) (recommended), or the [Google Doc version](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?usp=sharing) for printouts
 - Week 1 Slides [\[Shared - 2026\] Week 1: Foundations to Impact](https://docs.google.com/presentation/d/1OtnNuc_V2DwkJX3lipKqitjmDqYVnpkXawLvV1X1Iik/edit?slide=id.g374d8fb5114_0_595#slide=id.g374d8fb5114_0_595)
-- For a Google Docs version for printouts, you can use [this](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?tab=t.2b71rt36knt9). But we recommend everyone access via Lens!
 
 #### End Callout
 
