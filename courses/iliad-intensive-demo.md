@@ -25,3 +25,7 @@ partner-url: https://www.iliad.ac/
 # Module: [[../modules/Iliad D - Agency|D — Agency]]
 
 # Meeting: Unit D
+
+# Module: [[../modules/Iliad E - Safety Guarantees and their Limits|E — Safety Guarantees and their Limits]]
+
+# Meeting: Unit E
