@@ -105,6 +105,7 @@ optional:: true
 #### Article
 source:: [[../articles/lesswrong-goodharts-curse]]
 to:: "that don't break in less extreme engineering domains.""
+
 # Lens:
 optional:: true
 source:: [[../Lenses/Meditations on Moloch]]
