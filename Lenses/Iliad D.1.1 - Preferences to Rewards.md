@@ -1,14 +1,17 @@
 ---
 id: '1f549b8c-d6bc-444a-b6a8-63a3ff6509a7'
-title: "D.1.1 Preferences to Rewards"
-tldr: "Building from preferences and a minimal set of axioms to a utility function expressible as a sum of discounted rewards: the familiar framing in reinforcement learning."
-summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet D.1.1, Preferences to Rewards. Preserve its mathematical notation, exercise sequence, hints, and solutions."
+title: "D.1.1.1 Preferences over trajectories"
+tldr: "A video on the rationality axioms behind reinforcement learning, then preferences over trajectories, why some preferences are problematic, and how coherence differs from selection."
+summary_for_tutor: "This opens Iliad worksheet D.1.1 Preferences to Rewards: an embedded video, the learning goals (preference versus utility versus reward), the overview, Section 1 Introduction, Section 2 'Preferences over trajectories' and Section 3 'When are preferences problematic?'. It defines trajectories H_n and H*, Definition 2.1 (preference relation), the derived indifference and strict preference, and discusses representability failures, self-defeat, money pumps and the notes on coherence versus selection. Keep the notation H*, the preference symbol, h. No exercises."
 authors:
   - Fernando E. Rosas
-source_url: https://github.com/iliad-team/iliad-intensive/blob/1eb9e340305e03de3f81a761167e13c54c71f19d/tex/preferences-to-rewards/main.tex
-upstream_commit: '1eb9e340305e03de3f81a761167e13c54c71f19d'
-provenance_recorded_at: '2026-08-17'
+source_url: https://iliad-intensive.org/agency/preferences-to-rewards/
+upstream_commit: '11944e29333e1e2a2a0c0d93b6398a6df5598ab3'
+provenance_recorded_at: '2026-10-08'
 ---
+
+#### Video
+source:: [[../video_transcripts/iliad-the-five-rules-of-rationality-behind-reinforcement-learning]]
 
 #### Text
 content::
@@ -20,8 +23,9 @@ content::
 
 :::
 
-**Abstract.** This note develops a short route from preferences over complete trajectories to expected utility, reward, and discount. We begin with preference relations on deterministic trajectories and explain how completeness and transitivity yield an ordinal utility representation. We then show how lotteries, together with the von Neumann–Morgenstern axioms, produce a cardinal utility over trajectories, and we clarify the distinction betw
-een ordinal preference utility and vNM utility. Next, following Bowling et al., we add a fifth temporal axiom that is necessary and sufficient for a recursive representation in terms of local rewards and discounting. Finally, we explain why reward is not unique: different reward functions can encode the same utility or the same preference ordering, affine changes of utility induce corresponding changes of reward, and potential-based shaping provides a canonical example of reward equivalence.
+\## Overview
+
+This note develops a short route from preferences over complete trajectories to expected utility, reward, and discount. We begin with preference relations on deterministic trajectories and explain how completeness and transitivity yield an ordinal utility representation. We then show how lotteries, together with the von Neumann–Morgenstern axioms, produce a cardinal utility over trajectories, and we clarify the distinction between ordinal preference utility and vNM utility. Next, following Bowling et al., we add a fifth temporal axiom that is necessary and sufficient for a recursive representation in terms of local rewards and discounting. Finally, we explain why reward is not unique: different reward functions can encode the same utility or the same preference ordering, affine changes of utility induce corresponding changes of reward, and potential-based shaping provides a canonical example of reward equivalence.
 
 \## 1. Introduction
 
@@ -33,27 +37,27 @@ Recent work in reinforcement learning has revived this fundamental question, tre
 2. Second, once one allows lotteries over trajectories, one asks when these lotteries can be ranked by the expectation of that trajectory utility.
 3. Third, one asks what additional requirements are needed in order to decompose this expected utility into rewards assigned at each time step.
 
-The first and second steps are closely related to the classical theory developed by von Neumann and Morgenstern ([[#^bib-vonneumann1944theory|von Neumann & Morgenstern 1944]]). The third asks what extra temporal structure is needed before utility over whole trajectories can be decomposed into stagewise rewards, following the line of work developed in modern reinforcement learning by [[#^bib-pitis2019rethinking|Pitis 2019]], [[#^bib-shakerinava2022utility|Shakerinava & Ravanbakhsh 2022]], and [[#^bib-bowling2023settling|Bowling et al. 2023]].
+The first and second steps are closely related to the classical theory developed by von Neumann and Morgenstern (von Neumann & Morgenstern 1944). The third asks what extra temporal structure is needed before utility over whole trajectories can be decomposed into stagewise rewards, following the line of work developed in modern reinforcement learning by Pitis 2019, Shakerinava & Ravanbakhsh 2022, and Bowling et al. 2023.
 
 \## 2. Preferences over trajectories
 
-Let $\mathcal{O}$ be a finite set of observations and $\mathcal{A}$ a finite set of actions. A one-step interaction is then given by $t=(o,a)\in \mathcal{O}\times \mathcal{A}$. For each $n\in\mathbb{N}_{\geq 0}$, define the space of trajectories of length $n$ by
+Let ${\mathcal{O}}$ be a finite set of observations and ${\mathcal{A}}$ a finite set of actions. A one-step interaction is then given by $t=(o,a)\in {\mathcal{O}}\times {\mathcal{A}}$. For each $n\in\mathbb{N}_{\geq 0}$, define the space of trajectories of length $n$ by
 
 $$
-\mathcal{H}_{n} \coloneqq (\mathcal{O}\times \mathcal{A})^{n}.
+{\mathcal{H}}_{n} \coloneqq ({\mathcal{O}}\times {\mathcal{A}})^{n}.
 $$
 
 We write $\varepsilon$ for the unique trajectory of length $0$. The space of all *finite* trajectories is
 
 $$
-\mathcal{H}^{*} \coloneqq \bigcup_{n=0}^{\infty} \mathcal{H}_{n}.
+{\mathcal{H}}^{*} \coloneqq \bigcup_{n=0}^{\infty} {\mathcal{H}}_{n}.
 $$
 
-A typical element of $\mathcal{H}^{*}$ has the form $h=(o_{1},a_{1},o_{2},a_{2},\dots,o_{n},a_{n})$. We will keep the notation $\mathcal{H}^{*}$ for the set of all finite trajectories throughout.
+A typical element of ${\mathcal{H}}^{*}$ has the form $h=(o_{1},a_{1},o_{2},a_{2},\dots,o_{n},a_{n})$. We will keep the notation ${\mathcal{H}}^{*}$ for the set of all finite trajectories throughout.
 
-:::callout {title="Definition" tone="purple"}
+:::callout {title="Definition" tone="blue"}
 
-**Definition 2.1 (Preference).** A preference relation on $\mathcal{H}^{*}$ is a binary relation $\succcurlyeq$ where
+**Definition 2.1 (Preference).** A preference relation on ${\mathcal{H}}^{*}$ is a binary relation $\succcurlyeq$ where
 
 $$
 h \succcurlyeq h'
@@ -79,17 +83,17 @@ Can a preference relation be intrinsically `bad'? The relevant concern here is w
 
 1. *Representability failures.* A first and weakest concern is that a preference relation may fail to be representable in a convenient form. This does not, by itself, imply that the preference is irrational.
 
-Representation failures may merely be inconvenient, but they become more significant when they are symptoms of deeper issues of the kinds described next ([[#^bib-aumann1962utility|Aumann 1962]]; [[#^bib-fishburn1970utility|Fishburn 1970]]).
-2. *Self-defeat and avoidable loss.* A more serious concern is that preferences may guide choice poorly — as judged by the agent's own interest. One important case is *static self-defeat*: choosing an option that is worse than another available one, or adopting a policy that is systematically improvable. A classic case of suboptimality is dominance: one option or policy dominates another when it is at least as good in every relevant respect and strictly better in some, so choosing the dominated option is a clear mistake ([[#^bib-kreps1988notes|Kreps 1988]]; [[#^bib-mascolell1995micro|Mas-Colell et al. 1995]]). A second case is *diachronic self-defeat*: a plan that the agent endorses now is predictably undone later in a way that leaves the agent worse off overall.
+Representation failures may merely be inconvenient, but they become more significant when they are symptoms of deeper issues of the kinds described next (Aumann 1962; Fishburn 1970).
+2. *Self-defeat and avoidable loss.* A more serious concern is that preferences may guide choice poorly — as judged by the agent's own interest. One important case is *static self-defeat*: choosing an option that is worse than another available one, or adopting a policy that is systematically improvable. A classic case of suboptimality is dominance: one option or policy dominates another when it is at least as good in every relevant respect and strictly better in some, so choosing the dominated option is a clear mistake (Kreps 1988; Mas-Colell et al. 1995). A second case is *diachronic self-defeat*: a plan that the agent endorses now is predictably undone later in a way that leaves the agent worse off overall.
 3. *Vulnerability.* The most vivid coherence arguments show that a collection of individually acceptable choices can be combined into a guaranteed loss. Dutch-book arguments play this role for credences; money-pump arguments play the analogous role for preferences. The standard example is a preference cycle
 
 $$
 h_{1} \succ h_{2},\qquad h_{2} \succ h_{3},\qquad h_{3} \succ h_{1}.
 $$
 
-If the agent is willing to pay a small fee to move each time to a strictly preferred trajectory, then an adversary can guide it around the cycle and back to where it started, poorer than before ([[#^bib-gustafsson2010money|Gustafsson 2010]]). This is why intransitivity is usually regarded as a particularly severe pathology: it is not merely hard to represent, but also vulnerable to exploitation under natural trading assumptions.
+If the agent is willing to pay a small fee to move each time to a strictly preferred trajectory, then an adversary can guide it around the cycle and back to where it started, poorer than before (Gustafsson 2010). This is why intransitivity is usually regarded as a particularly severe pathology: it is not merely hard to represent, but also vulnerable to exploitation under natural trading assumptions.
 
-:::callout {title="Note" tone="neutral"}
+:::callout {title="Note" tone="blue"}
 
 **Coherence is not selection.**
 
