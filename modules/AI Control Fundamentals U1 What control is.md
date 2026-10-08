@@ -78,6 +78,7 @@ source:: [[../Lenses/AICF - Control in use today]]
 # Lens:
 optional:: true
 source:: [[../Lenses/AICF - OpenAI's monitor for its internal coding agents]]
+
 # Lens: First criticisms
 id:: c6c69db7-5ff6-4259-b924-fe1b2cd6d838
 reading_minutes:: 5

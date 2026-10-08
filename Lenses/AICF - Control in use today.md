@@ -35,57 +35,9 @@ assessment-instructions:: Score out of 100. 40: what it can tell them: what the 
 force-feedback:: first
 feedback-instructions:: In at most four sentences: say what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer in your own words. No follow-up questions. Tell them to move on.
 
-#### Callout: Optional: OpenAI's monitor for its internal coding agents
-collapse:: closed
-#### Text
-optional:: true
-content::
-OpenAI describes a similar system. Here are the parts of its post about how the monitor works, what it has found and what it cannot yet show.
-
-#### Article
-optional:: true
-source:: [[../articles/openai-how-we-monitor-internal-coding-agents-for-misalignment]]
-from:: Using advanced coding agents internally gives us an opportunity
-to:: A very small fraction of traffic (<0.1%) primarily from bespoke or local setups is currently outside our monitoring coverage, and we are working to close that gap.
-
-#### Article
-optional:: true
-from:: In the five months we’ve operated this system
-to:: for further investigation.
-
-#### Article
-optional:: true
-from:: In one trajectory, an agent encountered a restriction
-to:: which reduced (but did not eliminate) the frequency of this behavior.
-
-#### Article
-optional:: true
-from:: ## Limitations
-to:: pairing monitors with complementary evaluations and preventative controls.
-
-#### Article
-optional:: true
-from:: Looking ahead, we plan to explore
-to:: and expect to continue using our most powerful models for this task.
-
-#### Question: Open
-optional:: true
-id:: 20a55bcf-15b8-4617-ad42-df78fbcc8f93
-content::
-OpenAI's monitor is GPT-5.4 Thinking, and OpenAI plans to keep using its most powerful models for this job.
-
-1. In Greenblatt and Shlegeris's terms, is this a trusted or an untrusted monitor? What might a scheming coding agent hope for from such a monitor?
-2. OpenAI has seen no evidence of scheming in tens of millions of real trajectories. Is that a control claim or an alignment claim? What does OpenAI itself say it would need in order to know how much its monitor misses?
-assessment-instructions:: Score out of 100. 35 for part 1: 15: it is an untrusted monitor, because a model this capable is capable of scheming, and trust is decided by capability. 20: what a scheming agent could hope for: that the monitor is scheming too and stays quiet about its attacks or deliberately misses them (collusion), or, if the learner argues the monitor is a different model from the agent, that it still cannot be relied on to report honestly. 35 for part 2: it is an alignment claim, or evidence about alignment: it says the agents have not been seen trying, and it cannot show that they would fail if they tried, because a scheming agent would avoid being caught. 30 for part 2: what OpenAI says it needs: dedicated control evaluations and red-teaming, that is, testing the monitor against deliberately constructed attacks to estimate how many it misses (its recall), including whether the monitor could collude with the agent. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "1. Untrusted: a model this capable could be scheming itself. A scheming agent could hope the monitor is on its side and lets its attacks through. 2. It is an alignment claim. It says the agents have not been seen trying, not that they would fail if they tried, and a schemer would avoid being seen. OpenAI says it cannot confidently measure how much the monitor misses without dedicated control evaluations and red-teaming, testing the monitor against deliberate attacks, including whether it would collude with the agent."
-force-feedback:: first
-feedback-instructions:: In at most five sentences: say what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer in your own words. Do not present OpenAI's choice as simply wrong. A stronger monitor catches more of the honest mistakes and overt misbehaviour the post describes, which is a real benefit, and the question of when a monitor can be trusted is one the course keeps coming back to. If it fits, add that the monitor reviews conversations within 30 minutes of completion, and that Unit 2 asks when review after the fact is too late. No follow-up questions. Tell them to move on.
-#### End Callout
-
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Shah, Rohin, and Four Flynn. "Securing the future of AI agents." *Google DeepMind blog*, 18 June 2026. [deepmind.google](https://deepmind.google/blog/securing-the-future-of-ai-agents/)
 *Unit 2 reads the second half of this post.*
-
-OpenAI. "How we monitor internal coding agents for misalignment." *OpenAI*, Mar. 2026. [openai.com](https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/)
 :::
