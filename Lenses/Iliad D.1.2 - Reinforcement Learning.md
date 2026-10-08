@@ -2,7 +2,7 @@
 id: 'e3409f24-af9d-4389-8e58-29c2c2a9a736'
 title: "D.1.2.1 Setup"
 tldr: "Sets up the reinforcement learning problem: an agent acting in a Markov decision process with states, actions, a transition kernel, a reward function, policies and trajectories."
-summary_for_tutor: "Iliad worksheet D.1.2 Reinforcement Learning, opening setup. Contains the learning goals, Definitions 0.1-0.4 (spaces and notation, MDP environment (T, R), policy, trajectory), and the stationarity and Markov properties. Keep the notation S, A, gamma, T(s'|s,a), R(s,a,s'), pi(a|s). No exercises in this lens."
+summary_for_tutor: "Worksheet D.1.2 (reinforcement learning), opening setup. Contains the learning goals, Definitions 0.1-0.4 (spaces and notation, MDP environment (T, R), policy, trajectory), and the stationarity and Markov properties. Keep the notation S, A, gamma, T(s'|s,a), R(s,a,s'), pi(a|s). No exercises in this lens."
 authors:
   - Leon Lang (Iliad)
   - David Quarel (ARENA)

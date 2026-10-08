@@ -2,7 +2,7 @@
 id: '4307fdd6-a3a4-464f-bfca-3a3b5865179c'
 title: "D.1.2.2 The Bellman equation"
 tldr: "Defines return, value function and action-value function, then proves the Bellman equation for V and derives the matching equation for Q."
-summary_for_tutor: "Section 1 of Iliad worksheet D.1.2 Reinforcement Learning: The Bellman equation. Definitions 1.1-1.3 (return G_t, value function V_pi, action-value function Q_pi) and Exercises 1.1 (prove the Bellman equation, with hint and collapsed solution) and 1.2 (V in terms of Q, Q in terms of V, recursion for Q_pi). Keep the notation G_t = r_{t+1} + gamma G_{t+1}. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "Section 1 of worksheet D.1.2 (reinforcement learning): The Bellman equation. Definitions 1.1-1.3 (return G_t, value function V_pi, action-value function Q_pi) and Exercises 1.1 (prove the Bellman equation, with hint and collapsed solution) and 1.2 (V in terms of Q, Q in terms of V, recursion for Q_pi). Keep the notation G_t = r_{t+1} + gamma G_{t+1}. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Leon Lang (Iliad)
   - David Quarel (ARENA)
