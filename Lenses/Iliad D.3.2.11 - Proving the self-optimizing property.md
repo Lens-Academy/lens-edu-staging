@@ -2,7 +2,7 @@
 id: 'a6af2403-1a67-4cef-ba4c-711a4395009c'
 title: "D.3.2.11 Proving the self-optimizing property"
 tldr: "Completes the proof of the self-optimizing property for finite model classes by combining the posterior, likelihood ratio and change-of-measure results."
-summary_for_tutor: "Section 11 of Iliad worksheet D.3.2: Proving the self-optimizing property (Theorem 9.2). Defines the suboptimality gap delta_{nu,t} and has Exercises 11.1 (chain of inequalities with pi_xi^* and the self-optimizing policy), 11.2 (vanishing posterior when X_{nu,infinity} = 0), 11.3 (transferring convergence via Exercise 10.3), 11.4 (single-term convergence) and 11.5 (combine to prove Theorem 9.2), with a remark on countable M. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "Section 11 of worksheet D.3.2: Proving the self-optimizing property (Theorem 9.2). Defines the suboptimality gap delta_{nu,t} and has Exercises 11.1 (chain of inequalities with pi_xi^* and the self-optimizing policy), 11.2 (vanishing posterior when X_{nu,infinity} = 0), 11.3 (transferring convergence via Exercise 10.3), 11.4 (single-term convergence) and 11.5 (combine to prove Theorem 9.2), with a remark on countable M. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/

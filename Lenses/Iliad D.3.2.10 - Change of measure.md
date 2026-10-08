@@ -2,7 +2,7 @@
 id: '1f69e5d0-0e0f-4dbe-8d18-7bd73a435a43'
 title: "D.3.2.10 Change of measure"
 tldr: "Shows that probabilities under one environment equal expectations of the likelihood ratio under another, and derives a Markov-type inequality for changing measure."
-summary_for_tutor: "Section 10 of Iliad worksheet D.3.2: Change of measure. Exercise 10.1 (nu^pi[ae_{1:m} in A] = E_{mu^pi}[X_{nu,m} 1_A]), Exercise 10.2 (given without proof: the identity extends to infinite histories with X_{nu,infinity} as a Radon-Nikodym derivative) and Exercise 10.3 (mu^pi[E and X_{nu,infinity} >= epsilon] <= nu^pi[E]/epsilon). Hints and collapsed solutions are given for 10.1 and 10.3. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "Section 10 of worksheet D.3.2: Change of measure. Exercise 10.1 (nu^pi[ae_{1:m} in A] = E_{mu^pi}[X_{nu,m} 1_A]), Exercise 10.2 (given without proof: the identity extends to infinite histories with X_{nu,infinity} as a Radon-Nikodym derivative) and Exercise 10.3 (mu^pi[E and X_{nu,infinity} >= epsilon] <= nu^pi[E]/epsilon). Hints and collapsed solutions are given for 10.1 and 10.3. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/
