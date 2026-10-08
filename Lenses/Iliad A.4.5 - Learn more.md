@@ -1,0 +1,54 @@
+---
+id: 'cb38d0da-95c5-4468-98bb-7c8ffbaed7b0'
+title: "A.4.5 Learn more"
+tldr: "A reading list for further study of reward learning: methods, underspecification and misspecification, alignment targets, and critiques of the reward framing."
+summary_for_tutor: "This is the 'Learn more' list of Iliad worksheet A.4 Reward Learning Theory, with the single reference Lang et al. 2024. It groups optional papers on reward learning frameworks (RLHF, IRL, CIRL, assistance games), underspecification and misspecification, how reward learning fits into alignment (alignment targets, the reward hypothesis, inner and outer alignment) and Joar Skalse's sequence on theoretical reward learning. No exercises."
+authors:
+  - Leon Lang (Iliad)
+  - Joar Skalse (Deducto Limited, King’s College London)
+source_url: https://iliad-intensive.org/alignment/reward-learning-theory/
+upstream_commit: '11944e29333e1e2a2a0c0d93b6398a6df5598ab3'
+provenance_recorded_at: '2026-10-08'
+---
+
+#### Text
+content::
+\## Learn more
+
+Here we list further readings, which are largely papers mentioned in Leon’s lecture slides.
+
+- [Faulty reward functions in the wild](https://openai.com/index/faulty-reward-functions/?video=745142691): A basic reward specification problem.
+- Reward Learning methods and frameworks:
+  - [Deep reinforcement learning from human preferences](https://arxiv.org/abs/1706.03741) — the most basic and popular approach to reward learning
+  - [Reward-rational (implicit) choice: A unifying formalism for reward learning](https://arxiv.org/abs/2002.04833) — a generalization that contains RLHF as a special case
+    - [Algorithms for Inverse Reinforcement Learning](https://ai.stanford.edu/~ang/papers/icml00-irl.pdf): Another special case
+    - [Preferences Implicit in the State of the World](https://arxiv.org/abs/1902.04198): Another special case
+    - [Cooperative Inverse Reinforcement Learning](https://arxiv.org/abs/1606.03137): A *generalization*
+    - [Benefits of Assistance over Reward Learning](https://people.eecs.berkeley.edu/~russell/papers/neurips20ws-assistance): An adapted framework for said generalization
+- Underspecification and misspecification
+  - [Occam’s razor is insufficient to infer the preferences of irrational agents](https://proceedings.neurips.cc/paper/2018/hash/d89a66c7c80a29b1bdbab0f2a1a94af8-Abstract.html): This is a case of an underspecification of the relationship between the human’s reward function and the human’s policy
+  - [When Your AIs Deceive You: Challenges of Partial Observability in Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2402.17747): In this misspecification, humans are assumed to fully observe the environment even if they only do so partially.
+  - [Modeling Human Beliefs about AI Behavior for Scalable Oversight](https://arxiv.org/abs/2502.21262): An approach to correct for the previous misspecification via human models; this can then, however, sometimes lead to an *underspecification* in which the reward function is too uncertain to be safely learned.
+  - [AI Alignment with Changeable and Influenceable Reward Functions](https://arxiv.org/abs/2405.17713): This paper breaks with the typical assumption of a fixed reward function.
+  - [Social Choice Should Guide AI Alignment in Dealing with Diverse Human Feedback](https://arxiv.org/abs/2404.10271): This paper breaks with the typical assumption of a *single* reward function.
+    - Potential answer: [Collective Constitutional AI: Aligning a Language Model with Public Input](https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input)
+- On how reward learning falls within AI alignment:
+  - Alignment targets
+    - [OpenAI Model Spec](https://model-spec.openai.com/2025-12-18.html)
+    - [Claude’s new constitution](https://www.anthropic.com/news/claude-new-constitution)
+    - [Coherent Extrapolated Volition](https://intelligence.org/files/CEV.pdf)
+  - The reward learning agenda assumes that human values can be expressed via reward functions. However, some papers argue:
+    - [The Reward Hypothesis is False](https://openreview.net/forum?id=5l1NgpzAfH)
+  - If human values are captured by a reward function, it is still contentious that we should attempt to *decompose* the alignment problem into first learning said reward function and then optimizing it:
+    - [Inner and outer alignment decompose one hard problem into two extremely hard problems](https://www.lesswrong.com/posts/gHefoxiznGfsbiAu9/inner-and-outer-alignment-decompose-one-hard-problem-into)
+    - [Reward is not the optimization target](https://www.lesswrong.com/posts/pdaGN6pQyQarFHXF4/reward-is-not-the-optimization-target)
+  - Even if we’d solve outer alignment via reward learning, we’d still be left with the inner alignment problem of finding a policy that “cares for” this objective:
+    - [Risks from Learned Optimization in Advanced Machine Learning Systems](https://arxiv.org/abs/1906.01820)
+    - [Reinforcement Learning textbook](http://incompleteideas.net/book/RLbook2020.pdf): This book is on reinforcement learning, which can be regarded as a very basic conceptualization of the *inner* alignment problem
+    - [Goal misgeneralization in Deep Reinforcement Learning](https://arxiv.org/abs/2105.14111)
+- Learn more also in Joar Skalse’s sequence on [the theoretical foundations of reward learning](https://www.lesswrong.com/s/TEybbkyHpMEB2HTv3)
+- I can also recommend reading [the work of Anca Dragan](https://scholar.google.com/citations?user=UgHB5oAAAAAJ&hl=en) and her many students on reward learning.
+
+\## References
+
+Leon Lang, Davis Foote, Stuart Russell, Anca Dragan, Erik Jenner, and Scott Emmons (2024). *When Your AIs Deceive You: Challenges of Partial Observability in Reinforcement Learning from Human Feedback*. Advances in Neural Information Processing Systems.
