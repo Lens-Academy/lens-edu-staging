@@ -18,6 +18,9 @@ source:: [[../Lenses/Iliad E.1.3 - Provably safe AI and verification]]
 # Lens: VeriPlan: Integrating Formal Verification and LLMs into End-User Planning
 source:: [[../Lenses/lee-veriplan-integrating-formal-verification-and-llms-into-end-user-planning]]
 
+# Lens: GRACE: an Agentic AI for Particle Physics Experiment Design and Simulation
+source:: [[../Lenses/hill-grace-an-agentic-ai-for-particle-physics-experiment-design-and-simulation]]
+
 # Lens: E.1.4 The debate setup and interactive proofs
 source:: [[../Lenses/Iliad E.1.4 - The debate setup and interactive proofs]]
 
@@ -47,6 +50,12 @@ source:: [[../Lenses/Iliad E.1.12 - Experimental results, the AISI safety case a
 
 # Lens: Debating with More Persuasive LLMs Leads to More Truthful Answers
 source:: [[../Lenses/khan-debating-with-more-persuasive-llms-leads-to-more-truthful-answers]]
+
+# Lens: AI Debate Aids Assessment of Controversial Claims
+source:: [[../Lenses/rahman-ai-debate-aids-assessment-of-controversial-claims]]
+
+# Lens: Debate Training Reduces Reward Hacking in RLAIF
+source:: [[../Lenses/kenton-debate-training-reduces-reward-hacking-in-rlaif]]
 
 # Submodule: E.2 Steganography & Backdoors
 

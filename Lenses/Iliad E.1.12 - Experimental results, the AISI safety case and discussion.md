@@ -20,7 +20,11 @@ Optimising for Debate increases Judge Accuracy, Optimizing for Consultancy decre
 
 Debate helps judges even with systematic biases: [AI Debate Aids Assessment of Controversial Claims](https://arxiv.org/pdf/2506.02175)
 
+::card[[../Lenses/rahman-ai-debate-aids-assessment-of-controversial-claims|AI Debate Aids Assessment of Controversial Claims]]
+
 Debate can prevent reward hacking: [Debate Training Reduces Reward Hacking in RLAIF](https://arxiv.org/pdf/2608.17776)
+
+::card[[../Lenses/kenton-debate-training-reduces-reward-hacking-in-rlaif|Debate Training Reduces Reward Hacking in RLAIF]]
 
 Presentation of the papers: [Iliad Intensive August 2026 - Debate](https://docs.google.com/presentation/d/16squLf7HnnGf395UqkM1x7WY4OSuawGCb_fWBq63mns/edit?slide=id.g3f86985783a_0_86\#slide=id.g3f86985783a_0_86)
 
