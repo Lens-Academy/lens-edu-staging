@@ -143,6 +143,7 @@ content::
 
 #### Question: Open
 id:: ff898fab-0938-4dc5-850f-961e978f181b
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content:: **What are some next steps you would like to take in the next week to further explore your open questions and uncertainties around your Theory of Change?** What are your top uncertainties or assumptions that you could validate with more research or interviews?
 
 #### Text
