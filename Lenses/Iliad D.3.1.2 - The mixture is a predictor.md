@@ -2,7 +2,7 @@
 id: '3d35575a-44da-472a-9a42-ea5db0ce0045'
 title: "D.3.1.2 The mixture is a predictor"
 tldr: "Defines environments and the Bayesian mixture, and proves that the mixture gives a valid predictor whose posterior weights update multiplicatively."
-summary_for_tutor: "Section 1 of Iliad worksheet D.3.1: The mixture is a predictor. Definitions 1.1 (environment) and 1.2 (Bayesian mixture xi with posterior weights w(nu|x_{<t})). Exercises 1.1 (generalized chain rule), 1.2 (the mixture's conditional is the posterior-weighted average and sums to 1), 1.3 (multiplicative posterior update by likelihood ratio) and 1.4 (multi-step posterior linearity), with hints and collapsed solutions. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "Section 1 of worksheet D.3.1: The mixture is a predictor. Definitions 1.1 (environment) and 1.2 (Bayesian mixture xi with posterior weights w(nu|x_{<t})). Exercises 1.1 (generalized chain rule), 1.2 (the mixture's conditional is the posterior-weighted average and sums to 1), 1.3 (multiplicative posterior update by likelihood ratio) and 1.4 (multi-step posterior linearity), with hints and collapsed solutions. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - David Quarel (ARENA)
   - Leon Lang (Iliad)

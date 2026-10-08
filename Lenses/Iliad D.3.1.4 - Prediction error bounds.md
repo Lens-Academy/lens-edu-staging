@@ -2,7 +2,7 @@
 id: 'f96b33cc-fff2-4d6a-bca0-b875d9c5da30'
 title: "D.3.1.4 Prediction error bounds"
 tldr: "Proves that the mixture's total expected squared prediction error is at most -ln of the prior weight on the truth, and that it makes boundedly many mistakes on a deterministic truth."
-summary_for_tutor: "Sections 4 and 5 of Iliad worksheet D.3.1. Pinsker's inequality (Theorem 4.1, proved in Appendix A), Definition 4.2 (S_n and s_t), Exercises 4.1 (S_infinity <= -ln w_mu), 4.2 (K(mu) ln 2 for the Solomonoff prior), 4.3 (per-step error tends to 0), and Exercise 5.1 (the threshold predictor makes at most -2 ln w_mu mistakes on a deterministic mu). Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "Sections 4 and 5 of worksheet D.3.1. Pinsker's inequality (Theorem 4.1, proved in Appendix A), Definition 4.2 (S_n and s_t), Exercises 4.1 (S_infinity <= -ln w_mu), 4.2 (K(mu) ln 2 for the Solomonoff prior), 4.3 (per-step error tends to 0), and Exercise 5.1 (the threshold predictor makes at most -2 ln w_mu mistakes on a deterministic mu). Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - David Quarel (ARENA)
   - Leon Lang (Iliad)

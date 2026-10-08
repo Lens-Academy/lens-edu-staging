@@ -2,7 +2,7 @@
 id: '9cba0d15-655b-41a9-80cd-00e2f2a8c06a'
 title: "D.3.1.3 KL divergence and mixture dominance"
 tldr: "Defines cumulative and per-step KL divergence and shows the joint KL splits into a sum of per-step KLs, then shows the mixture assigns at least prior times each environment's probability."
-summary_for_tutor: "Sections 2 and 3 of Iliad worksheet D.3.1. Definition 2.1 (cumulative KL D_n and per-step KL d_t), Theorem 2.2 (KL is non-negative, proof in Appendix B), Exercise 2.1 (telescoping KL by induction) and Exercise 3.1 (mixture dominance xi(x) >= w_nu nu(x)), plus a remark on the Solomonoff prior w_nu = 2^{-K(nu)}. Hints and collapsed solutions are given. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "Sections 2 and 3 of worksheet D.3.1. Definition 2.1 (cumulative KL D_n and per-step KL d_t), Theorem 2.2 (KL is non-negative, proof in Appendix B), Exercise 2.1 (telescoping KL by induction) and Exercise 3.1 (mixture dominance xi(x) >= w_nu nu(x)), plus a remark on the Solomonoff prior w_nu = 2^{-K(nu)}. Hints and collapsed solutions are given. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - David Quarel (ARENA)
   - Leon Lang (Iliad)
