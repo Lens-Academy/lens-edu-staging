@@ -2,7 +2,7 @@
 id: '468897ad-ff7b-4fcf-ac8e-e0c2690b79e3'
 title: "D.1.1.3 Lotteries and the von Neumann-Morgenstern axioms"
 tldr: "Introduces lotteries over trajectories, the four von Neumann-Morgenstern axioms and the expected utility theorem, with a guided proof and the difference between ordinal and vNM utility."
-summary_for_tutor: "This is Section 5 of Iliad worksheet D.1.1 Preferences to Rewards. It defines lotteries, Axioms 1-4 (completeness, transitivity, continuity, independence), Theorem 5.1 (von Neumann-Morgenstern, with affine uniqueness) and its proof, and the distinction between ordinal utility (F1) and vNM utility (F2). It contains Exercise 5.1 (guided proof, parts a-h) and Exercise 5.2 (ordinal versus vNM utility), with collapsed solutions. Keep the notation Delta(X), u, U(mu), b and w for best and worst. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "This is Section 5 of worksheet D.1.1 (preferences to rewards). It defines lotteries, Axioms 1-4 (completeness, transitivity, continuity, independence), Theorem 5.1 (von Neumann-Morgenstern, with affine uniqueness) and its proof, and the distinction between ordinal utility (F1) and vNM utility (F2). It contains Exercise 5.1 (guided proof, parts a-h) and Exercise 5.2 (ordinal versus vNM utility), with collapsed solutions. Keep the notation Delta(X), u, U(mu), b and w for best and worst. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Fernando E. Rosas
 source_url: https://iliad-intensive.org/agency/preferences-to-rewards/

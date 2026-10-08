@@ -2,7 +2,7 @@
 id: 'dec610fb-1982-4a4a-949c-3d638cbca30c'
 title: "D.1.1.2 Completeness, transitivity and ordinal utility"
 tldr: "Defines completeness and transitivity, proves that complete and transitive preferences have an ordinal utility, and looks at what happens when either property fails."
-summary_for_tutor: "This is Section 4 of Iliad worksheet D.1.1 Preferences to Rewards. It gives Definitions 4.1 (completeness) and 4.2 (transitivity), weak orders, Proposition 4.3 (ordinal representation on H*) with a proof, why ordinal utility is unique only up to increasing transformations, failures of completeness or transitivity including the money pump, and an optional Helmholtz-Hodge view of cycles. No exercises."
+summary_for_tutor: "This is Section 4 of worksheet D.1.1 (preferences to rewards). It gives Definitions 4.1 (completeness) and 4.2 (transitivity), weak orders, Proposition 4.3 (ordinal representation on H*) with a proof, why ordinal utility is unique only up to increasing transformations, failures of completeness or transitivity including the money pump, and an optional Helmholtz-Hodge view of cycles. No exercises."
 authors:
   - Fernando E. Rosas
 source_url: https://iliad-intensive.org/agency/preferences-to-rewards/

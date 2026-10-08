@@ -2,7 +2,7 @@
 id: '897dfdba-e0d6-40f0-87a1-56434e8e9209'
 title: "D.1.1.4 If continuity or independence fails"
 tldr: "Explains what breaks when continuity or independence fails: lexicographic preferences and the Allais pattern, followed by an exercise on failures of all the axioms."
-summary_for_tutor: "This is the second part of Section 5 of Iliad worksheet D.1.1 Preferences to Rewards, 'If continuity or independence fails'. It covers lexicographic or non-Archimedean utilities when continuity fails, the Allais example (lotteries A, B, C, D) when independence fails, and links to prospect theory. It contains Exercise 5.3 (a-d: incomplete preference, three-cycle and money pump, lexicographic preference, Allais pattern) with collapsed solutions. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "This is the second part of Section 5 of worksheet D.1.1 (preferences to rewards), 'If continuity or independence fails'. It covers lexicographic or non-Archimedean utilities when continuity fails, the Allais example (lotteries A, B, C, D) when independence fails, and links to prospect theory. It contains Exercise 5.3 (a-d: incomplete preference, three-cycle and money pump, lexicographic preference, Allais pattern) with collapsed solutions. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Fernando E. Rosas
 source_url: https://iliad-intensive.org/agency/preferences-to-rewards/
