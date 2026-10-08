@@ -10,9 +10,8 @@ upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
 provenance_recorded_at: '2026-10-08'
 ---
 
-#### Text
-content::
-[Video: When Bad Goals ALSO Fit Your Training Data](https://www.youtube.com/watch?v=FaXazOpzLvQ)
+#### Video
+source:: [[../video_transcripts/iliad-when-bad-goals-also-fit-your-training-data]]
 
 #### Text
 content::

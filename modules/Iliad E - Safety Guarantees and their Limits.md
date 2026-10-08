@@ -9,6 +9,12 @@ title: "E — Safety Guarantees and their Limits"
 # Lens: E.1.1 Overview and prerequisites
 source:: [[../Lenses/Iliad E.1.1 - Overview and prerequisites]]
 
+# Lens: How Turing machines work
+source:: [[../Lenses/engmicrolectures-turing-machines]]
+
+# Lens: Introduction to computational complexity
+source:: [[../Lenses/hackerdashery-p-vs-np-and-the-computational-complexity-zoo]]
+
 # Lens: E.1.2 Find the mistake in the proof
 source:: [[../Lenses/Iliad E.1.2 - Find the mistake in the proof]]
 

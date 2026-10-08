@@ -183,6 +183,8 @@ source:: [[../Lenses/johnswentworth-how-we-picture-bayesian-agents]]
 # Lens: What selection theorems do we expect/want
 source:: [[../Lenses/johnswentworth-what-selection-theorems-do-we-expectwant]]
 
+# Lens: Coherent decisions imply consistent utilities
+source:: [[../Lenses/yudkowsky-coherent-decisions-imply-consistent-utilities]]
 # Lens: D.4.1.4 Gödel's second incompleteness theorem and Löb's theorem
 source:: [[../Lenses/Iliad D.4.1.4 - Gödel's second incompleteness theorem and Löb's theorem]]
 
