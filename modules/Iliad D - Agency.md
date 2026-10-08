@@ -168,6 +168,20 @@ source:: [[../Lenses/xu-an-intuitive-guide-to-garrabrant-induction]]
 # Lens: The ground of optimization
 source:: [[../Lenses/flint-the-ground-of-optimization]]
 
+# Lens: Generalized heat engine
+source:: [[../Lenses/johnswentworth-generalized-heat-engine]]
+
+# Lens: Algorithmic thermodynamics and three types of optimization
+source:: [[../Lenses/c-algorithmic-thermodynamics-and-three-types-of-optimization]]
+
+# Lens: Selection theorems: a program for understanding agents
+source:: [[../Lenses/johnswentworth-selection-theorems-a-program-for-understanding-agents]]
+
+# Lens: How we picture Bayesian agents
+source:: [[../Lenses/johnswentworth-how-we-picture-bayesian-agents]]
+
+# Lens: What selection theorems do we expect/want
+source:: [[../Lenses/johnswentworth-what-selection-theorems-do-we-expectwant]]
 # Lens: D.4.1.4 Gödel's second incompleteness theorem and Löb's theorem
 source:: [[../Lenses/Iliad D.4.1.4 - Gödel's second incompleteness theorem and Löb's theorem]]
 
@@ -227,6 +241,20 @@ source:: [[../Lenses/Iliad D.5.1.2 - Morning lecture - from CDT to UDT]]
 # Lens: D.5.1.3 Reading and discussion
 source:: [[../Lenses/Iliad D.5.1.3 - Reading and discussion]]
 
+# Lens: Towards a new decision theory
+source:: [[../Lenses/dai-towards-a-new-decision-theory]]
+
+# Lens: Conceptual problems with UDT and policy selection
+source:: [[../Lenses/abramdemski-conceptual-problems-with-udt-and-policy-selection]]
+
+# Lens: Pitfalls of building UDT agents
+source:: [[../Lenses/wyeth-pitfalls-of-building-udt-agents]]
+
+# Lens: When would AGIs engage in conflict?
+source:: [[../Lenses/jesseclifton-when-would-agis-engage-in-conflict]]
+
+# Lens: Individually incentivized safe Pareto improvements in open-source bargaining
+source:: [[../Lenses/mac-individually-incentivized-safe-pareto-improvements-in-open-source-bargaining]]
 # Lens: D.5.2.1 Open-source game theory, commitment races and safe Pareto improvements
 source:: [[../Lenses/Iliad D.5.2.1 - Open-source game theory, commitment races and safe Pareto improvements]]
 
