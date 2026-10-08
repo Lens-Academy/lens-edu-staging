@@ -19,7 +19,7 @@ eval-results:
 
 ## Test:
 id:: f9c4b820-5a71-4d83-9e12-7b3f0c5d8a91
-#### Question
+#### Question: Open
 id:: 6cd27693-bd59-41dd-a46b-ce1b29efb50a
 content:: Chapter 13 opens with a parable about the Allied Powers in World War II: military drafts, food rationing, soldiers sent to die, enormous expense, all to prevent totalitarianism from conquering the world. The chapter then addresses those who believe international coordination on AI restriction is politically impossible. The WWII story is the chapter's direct answer to that objection.
 
@@ -36,6 +36,18 @@ Score according to the following rubric.
 **4** — As above, plus identifies the specific motivational claim: that human beings sometimes do things they don't usually do when they understand their freedom or survival is at stake, and that this is the chapter's basis for hope rather than mere optimism. *Example: Adds "The chapter's key assumption is that 'human beings sometimes do things they don't usually do, if they realize their freedom or their way of life is at stake.' This moves the political-impossibility objection from a factual claim to a claim about motivation, and WWII is the historical counterexample."*
 
 **5** — As above, plus connects the analogy's argumentative function to the chapter's arc: it converts impossibility from a factual claim to a motivational claim and answers it with historical precedent, while explicitly acknowledging the proposed action is not easy or cheap. *Example: Adds "The WWII analogy does specific work: it shifts 'this can't happen' to 'this requires people to care enough,' then shows it has happened before. The chapter explicitly says what it's proposing is not easy or cheap. The analogy doesn't deny the difficulty; it rebuts the claim that difficulty makes coordination impossible."*
+
+force-feedback:: first
+feedback-instructions:: Respond to what the learner actually wrote. Open on the strongest thing in it, in one sentence. Then push once, chosen by where they stopped:
+
+- If they did not connect the analogy to the objection, ask what the objection says is impossible and what WWII shows countries actually did.
+- If they said only that countries can cooperate, ask what the scale and cost of the mobilization show, and what the chapter's "even 1% as much" comparison claims. If the answer lacks the figures, give them: roughly 6 trillion dollars and 60 to 80 million personnel.
+- If they had the scale and the 1% comparison, ask what the chapter assumes about people: why would they do something they do not usually do?
+- If they had that, ask whether the analogy claims the task is easy, and how it turns "impossible" into a question of how much people care.
+
+At full marks, just confirm briefly. Don't cite level numbers or band names (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: the 1% comparison. Ask whether countries could care about AI restriction even one percent as much as they cared about the war. If they still don't attempt it, rephrase the question.
+
+One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
 
 # Suggested Lenses:

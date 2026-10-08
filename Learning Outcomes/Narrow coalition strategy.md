@@ -21,7 +21,7 @@ eval-results:
 
 ## Test:
 id:: a5d28e63-9b47-4f05-c834-1e7a2b0d9f46
-#### Question
+#### Question: Open
 id:: 3fae78ed-9f1c-4d5d-9a73-3ae2d1b5dc37
 content:: Chapter 13's final section argues that the coalition working to prevent AI-caused extinction must be built in a very specific way. The chapter names what the coalition should ask for, what it should not bundle with that ask, and explains why keeping the coalition narrow is a strategic necessity rather than a weakness.
 
@@ -38,6 +38,18 @@ Score according to the following rubric.
 **4** — As above, plus articulates the asymmetry that makes the argument tight: the cost of including additional positions is extinction risk if the package fails; the cost of keeping it narrow is only that other issues must be addressed separately. *Example: Adds "The chapter's logic is asymmetric: if you bundle and the coalition fails, you get extinction. If you keep it narrow and succeed, other issues (jobs, killer robots) can still be addressed separately later. The asymmetry means the right call is to keep it narrow even if it feels incomplete."*
 
 **5** — As above, plus connects the coalition strategy to the chapter's critique of advocates who hedge and conceal their real concerns. *Example: Adds "The chapter criticizes advocates who package extinction concerns inside broader regulatory proposals: legislators 'smell something rotten and throw the whole package out.' The coalition strategy is the chapter's answer to this failure mode: state the real concern directly, build around the one thing nearly everyone agrees on, and don't muddy it with adjacent positions."*
+
+force-feedback:: first
+feedback-instructions:: Respond to what the learner actually wrote. Open on the strongest thing in it, in one sentence. Then push once, chosen by where they stopped:
+
+- If they argued for the broadest possible coalition, ask what single ask almost everyone could agree on.
+- If they had a general sense of focus, ask what exactly the ask is, which positions should stay out of it, and why.
+- If they had all three parts, ask what each choice costs: what is lost if a bundled package fails, and what is lost by keeping it narrow?
+- If they had that asymmetry, ask how it answers advocates who wrap their extinction concerns inside broader regulation.
+
+At full marks, just confirm briefly. Don't cite level numbers or band names (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: the chapter's line that legislators "smell something rotten and throw the whole package out". Ask what made the package smell rotten. If they still don't attempt it, rephrase the question.
+
+One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
 
 # Suggested Lenses:
