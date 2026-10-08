@@ -6,7 +6,7 @@ summary_for_tutor: "Opening of worksheet A.1 AI Alignment Intro. It lists the da
 authors:
   - Leon Lang (Iliad)
 source_url: https://iliad-intensive.org/alignment/ai-alignment-intro/
-upstream_commit: '11944e29333e1e2a2a0c0d93b6398a6df5598ab3'
+upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
 provenance_recorded_at: '2026-10-08'
 ---
 
@@ -52,7 +52,7 @@ Today we start with discussing the larger AI safety landscape, and then discuss 
 
 \### Opening: AI safety landscape and course overview
 
-**10:00–10:30**  Intro and landscape overview. The [AISafety.com field map](https://aisafety.com/map) shows how research, institutions, communication and support work address different parts of AI safety. 
+**10\:00–10\:30**  Intro and landscape overview. The [AISafety.com field map](https://aisafety.com/map) shows how research, institutions, communication and support work address different parts of AI safety. 
 
 Its 16 category names are reproduced below. 
 
