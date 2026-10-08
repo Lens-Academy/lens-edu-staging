@@ -21,6 +21,9 @@ source:: [[../Lenses/lee-veriplan-integrating-formal-verification-and-llms-into-
 # Lens: GRACE: an Agentic AI for Particle Physics Experiment Design and Simulation
 source:: [[../Lenses/hill-grace-an-agentic-ai-for-particle-physics-experiment-design-and-simulation]]
 
+# Lens: Do LLMs Game Formalization? Evaluating Faithfulness in Logical Reasoning
+source:: [[../Lenses/kim-do-llms-game-formalization-evaluating-faithfulness-in-logical-reasoning]]
+
 # Lens: E.1.4 The debate setup and interactive proofs
 source:: [[../Lenses/Iliad E.1.4 - The debate setup and interactive proofs]]
 
