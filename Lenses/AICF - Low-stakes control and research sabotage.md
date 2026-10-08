@@ -8,7 +8,7 @@ tutor_minutes: 14
 ---
 #### Text
 content::
-Vivek Hebbar works at Redwood Research ([Redwood Research blog](https://blog.redwoodresearch.org/p/how-can-we-solve-diffuse-threats)). In this talk at ControlConf 2025, an AI control conference ([YouTube](https://www.youtube.com/watch?v=DP3wTPDEjLQ)), he takes up one worry about using AI to do safety research: that the AI quietly makes the research fail, and what defenders could do about it. The rest of the talk, a speculative overall strategy and how to test these defences, is optional.
+Vivek Hebbar works at Redwood Research.[^cite-hebbar-2025] In this talk at ControlConf 2025, an AI control conference,[^cite-hebbar-controlconf-talk] he takes up one worry about using AI to do safety research: that the AI quietly makes the research fail, and what defenders could do about it. The rest of the talk, a speculative overall strategy and how to test these defences, is optional.
 
 #### Video
 source:: [[../video_transcripts/far-ai-vivek-hebbar-low-stakes-control-controlconf]]
@@ -33,7 +33,7 @@ feedback-instructions:: Key points from the talk. Incrimination means becoming c
 
 #### Text
 content::
-The same idea from a second team. In June 2026 Mikhail Terekhov (Anthropic Fellows Program and EPFL, a Swiss university), Caglar Gulcehre (EPFL), Vivek Hebbar (Redwood) and Joe Benton (Anthropic) published work on defending against diffuse threats, what this course calls low-stakes threats ([Anthropic Alignment Science](https://alignment.anthropic.com/2026/diffuse-ai-control/)). Read the start of their introduction. "Incrimination" means what it meant in Hebbar's talk: gathering enough evidence to become confident the model is misaligned.
+The same idea from a second team. In June 2026 Mikhail Terekhov (Anthropic Fellows Program and EPFL, a Swiss university), Caglar Gulcehre (EPFL), Vivek Hebbar (Redwood) and Joe Benton (Anthropic) published work on defending against diffuse threats, what this course calls low-stakes threats.[^cite-terekhov-2026-diffuse] Read the start of their introduction. "Incrimination" means what it meant in Hebbar's talk: gathering enough evidence to become confident the model is misaligned.
 
 #### Article
 source:: [[../articles/anthropic-diffuse-ai-control-on-fuzzy-tasks]]
