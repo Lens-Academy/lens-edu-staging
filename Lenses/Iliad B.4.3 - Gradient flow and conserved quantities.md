@@ -2,7 +2,7 @@
 id: '2c5cbe51-c9fc-4841-87a7-9e03352af927'
 title: "B.4.3 Gradient flow and conserved quantities"
 tldr: "Derives gradient flow for a two-layer linear network, shows the balancedness matrix is conserved, and obtains the NTK form of the flow in function space."
-summary_for_tutor: "This is Section 4 'Gradient flow and conserved quantities' of Iliad worksheet B.4 Training Dynamics. It contains Exercises 4.1-4.7: gradient flow equations for W_1 and W_2, conservation of G = W_2^T W_2 - W_1 W_1^T, the velocity of W = W_2 W_1, the identities W_1^T W_1 = (W^T W)^(1/2) and W_2 W_2^T = (W W^T)^(1/2) under balanced initialization, the balanced function-space ODE and the NTK operator K[F], with the depth-L generalization. Collapsed solutions and a hint on 4.2 are included. Keep the notation G, K[F], E = M - W. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "This is Section 4 'Gradient flow and conserved quantities' of worksheet B.4 (training dynamics). It contains Exercises 4.1-4.7: gradient flow equations for W_1 and W_2, conservation of G = W_2^T W_2 - W_1 W_1^T, the velocity of W = W_2 W_1, the identities W_1^T W_1 = (W^T W)^(1/2) and W_2 W_2^T = (W W^T)^(1/2) under balanced initialization, the balanced function-space ODE and the NTK operator K[F], with the depth-L generalization. Collapsed solutions and a hint on 4.2 are included. Keep the notation G, K[F], E = M - W. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Guillaume Corlouer (Stormglass)
 source_url: https://iliad-intensive.org/learning/training-dynamics/

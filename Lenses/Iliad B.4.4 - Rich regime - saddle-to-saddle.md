@@ -2,7 +2,7 @@
 id: '7b24c07c-a40a-401e-924d-3cf218a5f734'
 title: "B.4.4 Rich regime: saddle-to-saddle"
 tldr: "Solves the rich regime under small initialization: with aligned singular vectors the dynamics split into logistic equations, so large modes are learned first, one after another."
-summary_for_tutor: "This is Section 5 'Rich regime: saddle-to-saddle' of Iliad worksheet B.4 Training Dynamics. It contains Exercises 5.1-5.4: the aligned NTK under the alignment assumption, decoupled scalar ODEs dw/dt = 2w(s - w), the logistic solution and separation of timescales (larger s_alpha learned faster), and incremental learning with the low-rank implicit bias and the link to the saddles P_S M. Collapsed solutions and a hint on 5.1 are included. Keep the notation w_alpha(t), s_alpha, w_0. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "This is Section 5 'Rich regime: saddle-to-saddle' of worksheet B.4 (training dynamics). It contains Exercises 5.1-5.4: the aligned NTK under the alignment assumption, decoupled scalar ODEs dw/dt = 2w(s - w), the logistic solution and separation of timescales (larger s_alpha learned faster), and incremental learning with the low-rank implicit bias and the link to the saddles P_S M. Collapsed solutions and a hint on 5.1 are included. Keep the notation w_alpha(t), s_alpha, w_0. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Guillaume Corlouer (Stormglass)
 source_url: https://iliad-intensive.org/learning/training-dynamics/

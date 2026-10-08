@@ -2,7 +2,7 @@
 id: '7c70510b-52be-4f83-a39f-4deae8af4ea4'
 title: "B.4.5 Lazy regime and mixed dynamics"
 tldr: "Shows that large initialization freezes the NTK and gives exponential learning with no timescale separation, then an interpolating ODE that unifies the lazy and rich regimes."
-summary_for_tutor: "This covers Sections 6 'Lazy regime' and 7 'Mixed dynamics' of Iliad worksheet B.4 Training Dynamics. It contains Exercises 6.1-6.3 (linearized NTK for w_0 much larger than s, frozen-NTK exponential solution with rate 2 w_0, no timescale separation) and Exercises 7.1-7.3 (interpolating ODE dw/dt = 2 sqrt(w^2 + tau^2)(s - w) after Tu, Aranguri and Jacot 2024, two-phase dynamics, mode-by-mode transition), plus a remark on grokking. Collapsed solutions are included. Keep the notation w_0, tau, sigma, n. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "This covers Sections 6 'Lazy regime' and 7 'Mixed dynamics' of worksheet B.4 (training dynamics). It contains Exercises 6.1-6.3 (linearized NTK for w_0 much larger than s, frozen-NTK exponential solution with rate 2 w_0, no timescale separation) and Exercises 7.1-7.3 (interpolating ODE dw/dt = 2 sqrt(w^2 + tau^2)(s - w) after Tu, Aranguri and Jacot 2024, two-phase dynamics, mode-by-mode transition), plus a remark on grokking. Collapsed solutions are included. Keep the notation w_0, tau, sigma, n. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Guillaume Corlouer (Stormglass)
 source_url: https://iliad-intensive.org/learning/training-dynamics/
