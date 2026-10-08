@@ -2,7 +2,7 @@
 id: 63e18abf-7750-4915-b32b-273e1f5b2f95
 slug: ai-futures
 slug-aliases: ai-futurism
-title: "AI Futures: Forecasting & Strategy"
+title: "Advanced Strategy in AI Safety"
 description: "Advanced strategy course for improving your forecasting, threat modeling, and theory of change thinking."
 tags:
   - visible-in-skilltree
