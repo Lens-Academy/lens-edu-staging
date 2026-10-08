@@ -21,7 +21,7 @@ eval-results:
 
 ## Test:
 id:: fc3b7597-3165-46ee-af3a-a6990d9e98eb
-#### Question
+#### Question: Open
 id:: 0ea83c3b-5c18-41c2-94bf-363a3c57d2f1
 content:: The most developed alignment plan Chapter 11 examines is "superalignment": the idea, made flagship at OpenAI in 2023, of using AI to help solve the alignment problem itself. The chapter splits this into two versions, weak (AI helps with interpretability research) and strong (a smarter-than-human AI solves alignment for us), and finds the strong version particularly broken.
 
@@ -39,6 +39,18 @@ Score according to the following rubric.
 **4**: As above, plus describes the chapter's objection to the "special-purpose alignment AI" rebuttal: there are no training examples of solved alignment, the skill set required (programming, growing AIs, AI preferences, human psychology) is precisely the dangerous skill set, and an AI handing you a clever-sounding alignment proposal cannot itself be verified. *Example: Adds "The 'we'll just train a narrow alignment AI' rebuttal doesn't work because: there are no examples of solved alignment to train on, so the AI has to generalize from related skills; those related skills (understanding programming, AI internals, human psychology) are exactly the dangerous skill set; and if it tells you it's solved alignment you have no way to verify the proposal. You'd have to either trust the AI's word or follow its argument, and either way you're trusting the unaligned thing."*
 
 **5**: As above, plus contrasts strong superalignment with a *biomedical-AI* counterexample (per the chapter): a biology-specialized AI is at least not thinking explicitly about how to make better AIs, so its outputs are checkable against narrower verification tools. The structural problem with strong superalignment is that the alignment-thinking AI *cannot* be made non-dangerous in the same way. *Example: Adds "The chapter contrasts this with a biomedical AI: that AI isn't reasoning about AI internals or alignment psychology, so if it outputs a cancer cure you can run separate narrower tools to check the protein interactions. Strong superalignment doesn't have that out: the very capability you need *is* the dangerous thinking. There's no narrower checker for 'is this alignment plan secretly going to fail.'"*
+
+force-feedback:: first
+feedback-instructions:: Respond to what the learner actually wrote. Open on the strongest thing in it, in one sentence. Then push once, chosen by where they stopped:
+
+- If they described weak superalignment or interpretability, ask what the strong version expects the AI itself to produce.
+- If they described the plan but not the objection, ask how capable the AI would have to be to solve alignment, and what you would need before you could safely build something that capable.
+- If they had the circular dependency, ask about the special-purpose AI: what would it train on, what skills would it need, and how would you check its answer?
+- If they had that, ask how a biomedical AI compares: why can its output be checked when an alignment proposal cannot?
+
+At full marks, just confirm briefly. Don't cite level numbers or band names (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: the first step of the plan is an AI smart enough to solve a problem humanity's best researchers cannot. Ask what has to be true before you can trust that step. If they still don't attempt it, rephrase the question.
+
+One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
 
 # Suggested Lenses:
