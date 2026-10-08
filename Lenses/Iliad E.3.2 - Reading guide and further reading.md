@@ -35,6 +35,7 @@ content::
 * Read: above mentioned [blog post](https://www.lesswrong.com/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise)
 
 ::card[[../Lenses/hilton-a-birds-eye-view-of-arcs-research|ARC’s general agenda]]
+
 * Recent progress: [no-coincidence principle](https://www.lesswrong.com/posts/Xt9r4SNNuYxW83tmo/a-computational-no-coincidence-principle)
 
 \## Further reading

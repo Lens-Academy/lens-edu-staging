@@ -20,6 +20,7 @@ Readings (arranged roughly chronologically; the FDT paper is the primary referen
 - [Functional decision theory: a new theory of instrumental rationality](https://arxiv.org/abs/1710.05060) (chapters 1-5).
 
 ::card[[../Lenses/dai-towards-a-new-decision-theory|Towards a new decision theory]]
+
 - [Updateless decision theory](https://www.lesswrong.com/w/updateless-decision-theory).
 
 ::card[[../Lenses/abramdemski-conceptual-problems-with-udt-and-policy-selection|Conceptual problems with UDT and policy selection]]
