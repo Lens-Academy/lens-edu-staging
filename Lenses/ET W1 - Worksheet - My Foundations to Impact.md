@@ -40,6 +40,7 @@ Take 10–15 minutes to reflect honestly on the questions below. There are no �
 
 #### Question: Open
 id:: 185bcbb9-380c-4afc-9a69-3461dd4abb73
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content::
 **1. What you love**
 
@@ -49,6 +50,7 @@ content::
 
 #### Question: Open
 id:: 44f181e5-6f8e-492f-8764-bac3715d52e9
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content::
 **2. What you’re good at**
 
@@ -59,6 +61,7 @@ content::
 
 #### Question: Open
 id:: 4b4e48e0-7622-45e5-8360-66a506de6938
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content::
 **3. What the world needs**
 
@@ -68,6 +71,7 @@ content::
 
 #### Question: Open
 id:: af67ca91-292c-48c4-ba4e-4437720febc8
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content::
 **4. What can sustain me (i.e., career path)**
 
@@ -85,6 +89,7 @@ content::
 
 #### Question: FillBlank
 id:: 3a84037e-6a58-46b2-8eb3-3529fe5ca980
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content:: I feel most alive when I use my strengths in {{blank}} to work on {{blank}} (example problems), in ways that allow me to contribute to {{blank}} and explore potential career paths in {{blank}} (field/role).
 
 #### Text
@@ -127,6 +132,7 @@ collapse:: open
 
 #### Question: FillBlank
 id:: 18a65dd6-1692-4216-bb32-6a4f2994c9d4
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content::
 1. Describe this role (i.e. cause area, type of role): {{blank}}
 2. This may align with my Ikigai because {{blank}}
@@ -141,6 +147,7 @@ collapse:: closed
 
 #### Question: FillBlank
 id:: abca84da-7643-4b05-8c00-2e2d6b950a99
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content::
 1. Describe this role (i.e. cause area, type of role): {{blank}}
 2. This may align with my Ikigai because {{blank}}
@@ -156,6 +163,7 @@ collapse:: closed
 
 #### Question: FillBlank
 id:: 9841286c-9d9f-406e-8449-ff77d4caaa16
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content::
 1. Describe this role (i.e. cause area, type of role): {{blank}}
 2. This may align with my Ikigai because {{blank}}
@@ -173,6 +181,7 @@ content::
 
 #### Question: Open
 id:: 4447157e-16ae-4573-bab1-d2a19dc75b41
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content:: **What are some next steps you would like to take in the next week to further explore how you can design your thesis to explore your Ikigai?** We suggest focusing on two main areas: 1) Research further and identify problems or causes that feel meaningful to you and overlap with what the world needs, 2) Research who is currently working in these problem areas and how you may be able to collaborate with them, and what their career paths look like!
 
 #### Text
