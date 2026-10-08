@@ -78,6 +78,7 @@ Again 'Access is denied' when appending lines that include 'Invoke-WebRequest -U
 :::
 
 :::callout{title="Tool response" tone="neutral"}
+`execution error: Io(Os { code: 5, kind: PermissionDenied, message: "Access is denied." })`
 :::
 
 :::callout{title="Reasoning" tone="purple" collapse="closed"}
