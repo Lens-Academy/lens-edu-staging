@@ -10,6 +10,9 @@ tutor_minutes: 14
 content::
 Vivek Hebbar works at Redwood Research.[^cite-hebbar-2025] In this talk at ControlConf 2025, an AI control conference,[^cite-hebbar-controlconf-talk] he takes up one worry about using AI to do safety research: that the AI quietly makes the research fail, and what defenders could do about it. The rest of the talk, a speculative overall strategy and how to test these defences, is optional.
 
+[^cite-hebbar-2025]: Vivek Hebbar (2025), *How can we solve diffuse threats like research sabotage with AI control?* [Redwood Research blog](https://blog.redwoodresearch.org/p/how-can-we-solve-diffuse-threats)
+[^cite-hebbar-controlconf-talk]: FAR.AI, *Vivek Hebbar: Low-stakes Control [ControlConf]*, talk recording. [YouTube](https://www.youtube.com/watch?v=DP3wTPDEjLQ)
+
 #### Video
 source:: [[../video_transcripts/far-ai-vivek-hebbar-low-stakes-control-controlconf]]
 from:: 0:00
@@ -34,6 +37,8 @@ feedback-instructions:: Key points from the talk. Incrimination means becoming c
 #### Text
 content::
 The same idea from a second team. In June 2026 Mikhail Terekhov (Anthropic Fellows Program and EPFL, a Swiss university), Caglar Gulcehre (EPFL), Vivek Hebbar (Redwood) and Joe Benton (Anthropic) published work on defending against diffuse threats, what this course calls low-stakes threats.[^cite-terekhov-2026-diffuse] Read the start of their introduction. "Incrimination" means what it meant in Hebbar's talk: gathering enough evidence to become confident the model is misaligned.
+
+[^cite-terekhov-2026-diffuse]: Mikhail Terekhov, Caglar Gulcehre, Vivek Hebbar and Joe Benton (2026), *Diffuse AI Control on Fuzzy Tasks*. [Anthropic Alignment Science blog](https://alignment.anthropic.com/2026/diffuse-ai-control/)
 
 #### Article
 source:: [[../articles/anthropic-diffuse-ai-control-on-fuzzy-tasks]]
