@@ -17,7 +17,7 @@ When people say they are skeptical of AI existential risk, they can mean very di
 
 Those positions should not be collapsed. They point to different evidence and different practical conclusions. If the problem is an implausible takeover mechanism, technical results matter. If the problem is poor intervention quality, we need evidence about tractability and side effects. If the problem is political distraction, we need evidence about budgets, agendas, representation, and institutional power.
 
-Some objections attack the mechanism itself: whether useful systems need persistent goals, whether misalignment becomes catastrophic, whether cognitive advantage converts into power, and whether human institutions can respond.[^cite-grace] Other objections grant more of the technical case and challenge the priority claim. Three especially useful versions ask whether x-risk work distracts from current harms, whether ordinary human and institutional frailty explains most of the danger, and whether society can wait for later intervention checkpoints.[^cite-swoboda-2025] These objections need different evidence, so they should be kept separate.
+Some objections attack the mechanism itself: whether useful systems need goals that remain stable across situations and over time, whether misalignment becomes catastrophic, whether cognitive advantage converts into power, and whether human institutions can respond.[^cite-grace] Other objections grant more of the technical case and challenge the priority claim. Three especially useful versions ask whether x-risk work distracts from current harms, whether ordinary human and institutional frailty explains most of the danger, and whether society can wait for later intervention checkpoints.[^cite-swoboda-2025] These objections need different evidence, so they should be kept separate.
 
 \## Technical skepticism: the chain may be weaker than it looks
 
@@ -33,7 +33,7 @@ The **Distraction Argument** goes beyond the claim that current harms matter too
 
 There are plausible mechanisms. Dramatic future-risk narratives can give frontier companies a large role in defining the regulatory conversation. They can crowd out perspectives from people affected by discrimination, labour harms, privacy violations, or misinformation. Policymakers have limited attention. Philanthropic and research budgets are finite. If one framing becomes dominant, other work can lose resources and legitimacy.
 
-The empirical case for a broad displacement effect is not yet strong. Current-harm concerns have continued to receive political and institutional attention even as x-risk discussion has grown, although local tradeoffs in funding, agenda-setting, and representation can still occur.[^cite-swoboda-2025]
+The empirical case that x-risk attention broadly displaces attention to current harms is not yet strong. Current-harm concerns have continued to receive political and institutional attention even as x-risk discussion has grown, although local tradeoffs in funding, agenda-setting, and representation can still occur.[^cite-swoboda-2025]
 
 That does not make the concern irrelevant. It makes it empirical. We should ask whether budgets are substitutes, whether specific policies crowd one another out, whose expertise is represented, and whether catastrophic-risk framing changes which problems regulators notice. There can also be synergies. Better incident reporting, model evaluations, biosecurity, security culture, and accountability can help with both present and future risks.
 
