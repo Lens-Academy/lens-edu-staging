@@ -24,7 +24,7 @@ tone:: amber
 
 #### Text
 content::
-**Please fill in the feedback form below to share your feedback and receive your Certificate of Completion.**
+**Please fill in the feedback form below to share your feedback and receive your Certificate of Participation.**
 
 If the form doesn't load for you, you can [open it in a new tab](https://airtable.com/appcKo5GTmHnUaBlg/pagGHPBww4E31JabV/form).
 

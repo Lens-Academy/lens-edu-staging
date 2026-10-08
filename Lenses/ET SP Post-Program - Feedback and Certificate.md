@@ -7,7 +7,7 @@ tags: [wip]
 ---
 #### Text
 content::
-\# Post-Program Feedback & Certificate of Completion
+\# Post-Program Feedback & Certificate of Participation
 
 You did it! 🎉 Thank you so much for being part of the Effective Thesis Self-Paced Course. Over these 8 weeks, you've explored your Ikigai, chosen a high-impact problem, generated and prioritised research questions, reached out to real stakeholders, built a Theory of Change, and designed a thesis that can be a genuine stepping stone toward an impactful career. That's a lot of courage, curiosity and hard work, and we're so grateful you brought it here!
 
@@ -24,7 +24,7 @@ tone:: amber
 
 #### Text
 content::
-**Please fill in the feedback form below to share your feedback and receive your Certificate of Completion.**
+**Please fill in the feedback form below to share your feedback and receive your Certificate of Participation.**
 
 If the form doesn't load for you, you can [open it in a new tab](https://airtable.com/appcKo5GTmHnUaBlg/pagDxQpplT6YuUL1y/form).
 
