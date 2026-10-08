@@ -6,7 +6,7 @@ summary_for_tutor: "Session 6 of worksheet A.1: Hugging Face as a misalignment c
 authors:
   - Leon Lang (Iliad)
 source_url: https://iliad-intensive.org/alignment/ai-alignment-intro/
-upstream_commit: '11944e29333e1e2a2a0c0d93b6398a6df5598ab3'
+upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
 provenance_recorded_at: '2026-10-08'
 ---
 
@@ -14,7 +14,7 @@ provenance_recorded_at: '2026-10-08'
 content::
 \### Session 6: Hugging Face as a misalignment case study
 
-**16:30–17:40.** 20 min explanation, 40 min reading, 10 min debrief.
+**16\:30–17\:40.** 20 min explanation, 40 min reading, 10 min debrief.
 
 The Hugging Face incident brings together generalization, goal-directed behavior, instrumental subgoals and correction. Start with the reading guide’s explanation of training, benchmarks and evaluations, then use those distinctions to interpret the incident. 
 
@@ -85,3 +85,9 @@ The sources have different vantage points. Hugging Face can describe effects vis
 **Goal-directedness**: we can also see a clear case of the agents being incredibly persistent in what they are trying to achieve. 
 
 **Corrigibility, control and risk.** A helpful system should be able to accept a blocked task and correction; containment should also limit the damage when behavior fails. Behavioral training, isolation, least-privilege access, independent logging and incident response address different parts of that argument.
+
+\### Closing: reflection and next steps
+
+**17\:40–18\:00.**  Daily quiz and feedback
+
+**Daily checkpoint, 5 minutes.** Complete the [daily quiz](https://forms.gle/QsH1SEBwm7ZSg1dt9).
