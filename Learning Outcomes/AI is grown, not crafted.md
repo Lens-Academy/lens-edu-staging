@@ -22,7 +22,7 @@ eval-results:
 ## Test:
 id:: 01dd1801-36f3-4a83-b7e7-33eed08ba1b0
 
-#### Question
+#### Question: Open
 id:: b0d29102-aee5-4db4-859c-dd3f51a1a746
 content:: Chapter 2 draws a sharp contrast between AI systems that are "grown" and systems that are "crafted."
 
@@ -39,6 +39,18 @@ Score according to the following rubric.
 **4** — As above, plus explains why this matters for safety: you can't verify what the system has learned or what goals it has developed. *Example: Adds "So even if the training went exactly as planned, you still can't look inside and confirm the model has the values you wanted it to have."*
 
 **5** — As above, plus articulates the process-knowledge/cognition-knowledge distinction: understanding how a system was produced is not the same as understanding what it is. *Example: "There are two kinds of understanding here. Engineers have process-knowledge: they know exactly how the training works. But they lack cognition-knowledge: they don't know what the model actually represents or wants. Confusing these two is the mistake that makes people overconfident about AI safety."*
+
+force-feedback:: first
+feedback-instructions:: Respond to what the learner actually wrote. Open on the strongest thing in it, in one sentence. Then push once, chosen by where they stopped:
+
+- If they said engineers understand the model because they built it, ask what an engineer could find out by reading the trained weights directly.
+- If they said the AI learns from data but not what that leaves unknown, ask what an engineer knows about a model once training is done, and what they cannot tell from it.
+- If they named the gap (the training process is understood, the resulting behavior cannot be read off the weights) but stopped there, ask what this means for checking whether the model ended up with the goals they wanted.
+- If they covered that too, the step left is that knowing how something was produced is a different kind of knowledge from knowing what it is. Ask whether knowing the training recipe tells you what the model wants.
+
+At full marks, just confirm briefly. Don't cite level numbers or band names (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: the genome comparison. A genome can be read letter by letter, yet reading it does not tell you what the organism will be like. If they still don't attempt it, rephrase the question.
+
+One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
 
 # Suggested Lenses:
