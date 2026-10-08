@@ -27,7 +27,7 @@ source:: [[../Lenses/Iliad D.1.1.6 - Reward equivalence and shaping]]
 # Lens: D.1.1.7 Open-ended questions
 source:: [[../Lenses/Iliad D.1.1.7 - Open-ended questions]]
 
-# Lens: D.1.2 Reinforcement Learning
+# Lens: D.1.2.1 Setup
 source:: [[../Lenses/Iliad D.1.2 - Reinforcement Learning]]
 
 # Lens: D.1.2.2 The Bellman equation
@@ -74,7 +74,7 @@ source:: [[../Lenses/Iliad D.3.1.6 - Pareto optimality under squared loss]]
 # Lens: D.3.1.7 Appendices
 source:: [[../Lenses/Iliad D.3.1.7 - Appendices]]
 
-# Lens: D.3.2 AIXI
+# Lens: D.3.2.1 Overview and setup
 source:: [[../Lenses/Iliad D.3.2 - AIXI]]
 
 # Lens: D.3.2.2 Measures, the Bayesian mixture and value functions
