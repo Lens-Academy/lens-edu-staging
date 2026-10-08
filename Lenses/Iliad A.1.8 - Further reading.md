@@ -12,8 +12,7 @@ provenance_recorded_at: '2026-10-08'
 
 #### Text
 content::
-\## 
-Further reading
+\## Further reading
 
 \### Problem overviews
 
