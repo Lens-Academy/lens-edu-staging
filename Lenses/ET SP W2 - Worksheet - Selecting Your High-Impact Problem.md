@@ -225,6 +225,26 @@ Choosing a problem to focus on can feel like a big commitment, but remember, you
 
 ::card[[../Lenses/ET SP W2 - Journalling - Explore vs Exploit Tradeoff|Week 2 Journalling: Explore vs. Exploit Tradeoff]]
 
+#### Callout: 🪞 After your peer group discussion: reflection
+tone:: green
+
+#### Text
+content::
+If you're doing the course with a peer group, come back to this once you've had this week's discussion! Some of the best insights come from each other, so take a few minutes to capture what stuck with you before it fades. If you're working through the course on your own, feel free to skip this one.
+
+#### Question: Open
+id:: 7a1d8c03-cea9-47c5-a6ee-a8f92dd8256e
+content::
+**What did you take away from this week's peer group discussion?**
+
+- What idea, perspective or question stuck with you?
+- Did anything shift in how you're thinking about your thesis or career path?
+- Is there anything you will try or do differently as a result?
+placeholder:: e.g. something I will do differently in my project is...
+optional:: true
+
+#### End Callout
+
 #### Callout: ⭐ Quick check-in on this week's worksheet
 tone:: purple
 
