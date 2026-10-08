@@ -6,7 +6,7 @@ summary_for_tutor: "End matter of worksheet D.3.2 (AIXI): Further reading, Appen
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/
-upstream_commit: '11944e29333e1e2a2a0c0d93b6398a6df5598ab3'
+upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
 provenance_recorded_at: '2026-10-08'
 ---
 
@@ -15,7 +15,7 @@ content::
 \## Further reading
 
 - Hutter, [*An Introduction to Universal Artificial Intelligence*](https://www.hutter1.net/publ/uaibook2.pdf) (2024): Chapter 2.7 (Kolmogorov complexity), Chapters 3.7–3.8 (the model class and universal prior), and Chapter 7.4 (AIXI).
-- Hutter, [*Universal Artificial Intelligence: Sequential Decisions Based on Algorithmic Probability*](http://www.hutter1.net/ai/uaibook.htm) (Springer, 2005) — the original book-length treatment; Lem. 5.28 handles the countable-${\mathcal{M}}$ self-optimizing case.
+- Hutter, [*Universal Artificial Intelligence: Sequential Decisions Based on Algorithmic Probability*](http://www.hutter1.net/ai/uaibook.htm) (Springer, 2005) — the original book-length treatment; Lem. 5.28 handles the countable-$${\mathcal{M}}$$ self-optimizing case.
 - Blackwell & Dubins, [*Merging of Opinions with Increasing Information*](https://doi.org/10.1214/aoms/1177704456) (Ann. Math. Statist., 1962) — the merging-of-opinions theorem behind on-policy value convergence.
 - Leike & Hutter, [*Bad Universal Priors and Notions of Optimality*](https://arxiv.org/abs/1510.04931) (COLT 2015) — adversarial choices of the universal Turing machine can make AIXI behave arbitrarily badly.
 
@@ -25,37 +25,37 @@ content::
 
 **Setup.**
 
-- **Actions:** ${\mathcal{A}} = \{H, T\}$ (predict the next coin flip)
-- **Observations:** ${\mathcal{O}} = \{H, T\}$ (actual coin flip)
-- **Rewards:** ${\mathcal{R}} = \{0, 1\}$, with $r_{t} = \llbracket a_{t} = o_{t} \rrbracket$
-- **Model class:** ${\mathcal{M}} = \{\nu_{HH}, \nu_{HT}\}$ (two-headed coin, fair coin)
-- **Prior:** $w_{\nu_{HH}}= w_{\nu_{HT}}= \tfrac{1}{2}$
+- **Actions:** $${\mathcal{A}} = \{H, T\}$$ (predict the next coin flip)
+- **Observations:** $${\mathcal{O}} = \{H, T\}$$ (actual coin flip)
+- **Rewards:** $${\mathcal{R}} = \{0, 1\}$$, with $$r_{t} = \llbracket a_{t} = o_{t} \rrbracket$$
+- **Model class:** $${\mathcal{M}} = \{\nu_{HH}, \nu_{HT}\}$$ (two-headed coin, fair coin)
+- **Prior:** $$w_{\nu_{HH}}= w_{\nu_{HT}}= \tfrac{1}{2}$$
 
 :::
 
-**Before any interaction** ($t=1$, ${\text{\ae}}_{<1}= \epsilon$):
+**Before any interaction** ($$t=1$$, $${\text{\ae}}_{<1}= \epsilon$$):
 
 $$
 \begin{aligned}\xi(o_{1} = H \mid a_{1}) ~&=~ \tfrac{1}{2}\cdot 1 + \tfrac{1}{2}\cdot \tfrac{1}{2}~=~ \tfrac{3}{4}.\end{aligned}
 $$
 
-**After observing a head** ($t=2$), the posterior updates:
+**After observing a head** ($$t=2$$), the posterior updates:
 
 $$
 \begin{aligned}w(\nu_{HH}\mid {\text{\ae}}_{1}) ~&=~ \tfrac{1}{2}\cdot \frac{1}{3/4}~=~ \tfrac{2}{3},&w(\nu_{HT}\mid {\text{\ae}}_{1}) ~&=~ \tfrac{1}{2}\cdot \frac{1/2}{3/4}~=~ \tfrac{1}{3}.\end{aligned}
 $$
 
-**Updated prediction:** $\xi(o_{2} = H \mid {\text{\ae}}_{1}a_{2}) = \tfrac{2}{3}\cdot 1 + \tfrac{1}{3}\cdot \tfrac{1}{2}= \tfrac{5}{6}$.
+**Updated prediction:** $$\xi(o_{2} = H \mid {\text{\ae}}_{1}a_{2}) = \tfrac{2}{3}\cdot 1 + \tfrac{1}{3}\cdot \tfrac{1}{2}= \tfrac{5}{6}$$.
 
-**Value function.** Continuing the same setup, suppose the agent always predicts $H$ (policy $\pi_{H}$).
+**Value function.** Continuing the same setup, suppose the agent always predicts $$H$$ (policy $$\pi_{H}$$).
 
-Under $\nu_{HH}$: always correct, $r_{t} = 1$ every step: $V_{\nu_{HH}}^{\pi_H}(\epsilon) = (1-\gamma) \sum_{k=0}^{\infty} \gamma^{k} \cdot 1 = 1$.
+Under $$\nu_{HH}$$: always correct, $$r_{t} = 1$$ every step: $$V_{\nu_{HH}}^{\pi_H}(\epsilon) = (1-\gamma) \sum_{k=0}^{\infty} \gamma^{k} \cdot 1 = 1$$.
 
-Under $\nu_{HT}$: correct half the time: $V_{\nu_{HT}}^{\pi_H}(\epsilon) = (1-\gamma) \sum_{k=0}^{\infty} \gamma^{k} \cdot \tfrac{1}{2}= \tfrac{1}{2}$.
+Under $$\nu_{HT}$$: correct half the time: $$V_{\nu_{HT}}^{\pi_H}(\epsilon) = (1-\gamma) \sum_{k=0}^{\infty} \gamma^{k} \cdot \tfrac{1}{2}= \tfrac{1}{2}$$.
 
-The mixture value (by Exercise 4.2) is: $V_{\xi}^{\pi_H}(\epsilon) = \tfrac{1}{2}\cdot 1 + \tfrac{1}{2}\cdot \tfrac{1}{2}= \tfrac{3}{4}$.
+The mixture value (by Exercise 4.2) is: $$V_{\xi}^{\pi_H}(\epsilon) = \tfrac{1}{2}\cdot 1 + \tfrac{1}{2}\cdot \tfrac{1}{2}= \tfrac{3}{4}$$.
 
-As the agent observes more heads ($\mu = \nu_{HH}$), the posterior on $\nu_{HH}$ increases towards 1, and $V_{\xi}^{\pi_H}\to V_{\nu_{HH}}^{\pi_H}= 1$. This is on-policy value convergence (Theorem 7.6) in action.
+As the agent observes more heads ($$\mu = \nu_{HH}$$), the posterior on $$\nu_{HH}$$ increases towards 1, and $$V_{\xi}^{\pi_H}\to V_{\nu_{HH}}^{\pi_H}= 1$$. This is on-policy value convergence (Theorem 7.6) in action.
 
 \## B. Knuth's Difficulty Scale
 
