@@ -157,6 +157,26 @@ You've just done something most theses never do: mapped out, step by step, how y
 
 ::card[[../Lenses/ET W5 - Journalling - Resting on Your Impact Journey|Week 5 Journalling: Resting on Your Impact Journey]]
 
+#### Callout: 🪞 After your group discussion: reflection
+tone:: green
+
+#### Text
+content::
+Come back to this once you've had this week's cohort discussion! Some of the best insights in the Accelerator come from each other, so take a few minutes to capture what stuck with you before it fades.
+
+#### Question: Open
+id:: b3387b21-7c29-4cf3-a0ab-8a7a0f89f08b
+content::
+**What did you take away from this week's group discussion?**
+
+- What idea, perspective or question stuck with you?
+- Did anything shift in how you're thinking about your thesis or career path?
+- Is there anything you will try or do differently as a result?
+placeholder:: e.g. something I will do differently in my project is...
+optional:: true
+
+#### End Callout
+
 #### Callout: ⭐ Quick check-in on this week's worksheet
 tone:: purple
 

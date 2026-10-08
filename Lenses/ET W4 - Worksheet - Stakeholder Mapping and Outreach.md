@@ -142,6 +142,26 @@ Reaching out to people you've never met is one of the bravest parts of this whol
 
 ::card[[../Lenses/ET W4 - Journalling - Emotional Barriers to Outreach|Week 4 Journalling: Emotional Barriers to Outreach]]
 
+#### Callout: 🪞 After your group discussion: reflection
+tone:: green
+
+#### Text
+content::
+Come back to this once you've had this week's cohort discussion! Some of the best insights in the Accelerator come from each other, so take a few minutes to capture what stuck with you before it fades.
+
+#### Question: Open
+id:: 3b50f841-70ef-4079-96df-3596cb51209d
+content::
+**What did you take away from this week's group discussion?**
+
+- What idea, perspective or question stuck with you?
+- Did anything shift in how you're thinking about your thesis or career path?
+- Is there anything you will try or do differently as a result?
+placeholder:: e.g. something I will do differently in my project is...
+optional:: true
+
+#### End Callout
+
 #### Callout: ⭐ Quick check-in on this week's worksheet
 tone:: purple
 

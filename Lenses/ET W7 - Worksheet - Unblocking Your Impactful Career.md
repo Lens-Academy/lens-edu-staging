@@ -198,3 +198,23 @@ Looking honestly at what's blocking you, whether it's in your head, your heart o
 **Next up: this week's Journalling prompts** 👇 Take a few minutes to gently explore any limiting beliefs you hold about your impact.
 
 ::card[[../Lenses/ET W7 - Journalling - Limiting Beliefs on Impact|Week 7 Journalling: Limiting Beliefs on Impact]]
+
+#### Callout: 🪞 After your group discussion: reflection
+tone:: green
+
+#### Text
+content::
+Come back to this once you've had this week's cohort discussion! Some of the best insights in the Accelerator come from each other, so take a few minutes to capture what stuck with you before it fades.
+
+#### Question: Open
+id:: 6c20d305-c1f1-4749-8888-5ad604d130db
+content::
+**What did you take away from this week's group discussion?**
+
+- What idea, perspective or question stuck with you?
+- Did anything shift in how you're thinking about your thesis or career path?
+- Is there anything you will try or do differently as a result?
+placeholder:: e.g. something I will do differently in my project is...
+optional:: true
+
+#### End Callout

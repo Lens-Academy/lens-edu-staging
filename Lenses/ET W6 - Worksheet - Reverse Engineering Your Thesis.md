@@ -150,6 +150,26 @@ You've just connected the dots between the change you want to see in the world a
 
 ::card[[../Lenses/ET W6 - Journalling - Process vs Outcomes|Week 6 Journalling: Process vs. Outcomes]]
 
+#### Callout: 🪞 After your group discussion: reflection
+tone:: green
+
+#### Text
+content::
+Come back to this once you've had this week's cohort discussion! Some of the best insights in the Accelerator come from each other, so take a few minutes to capture what stuck with you before it fades.
+
+#### Question: Open
+id:: e60ec4e4-88c0-47db-8c52-f7d97d385000
+content::
+**What did you take away from this week's group discussion?**
+
+- What idea, perspective or question stuck with you?
+- Did anything shift in how you're thinking about your thesis or career path?
+- Is there anything you will try or do differently as a result?
+placeholder:: e.g. something I will do differently in my project is...
+optional:: true
+
+#### End Callout
+
 #### Callout: ⭐ Quick check-in on this week's worksheet
 tone:: purple
 
