@@ -64,6 +64,7 @@ source:: [[../Lenses/skaf-large-language-models-can-learn-and-generalize-stegano
 
 # Lens: Steganography can arise and not easily prevented by paraphrasing
 source:: [[../Lenses/mathew-hidden-in-plain-text-emergence-mitigation-of-steganographic-collusion-in-llms]]
+
 # Lens: E.2.3 Perfect information-theoretic steganography
 source:: [[../Lenses/Iliad E.2.3 - Perfect information-theoretic steganography]]
 
