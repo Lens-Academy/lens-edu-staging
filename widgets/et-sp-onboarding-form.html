@@ -1,0 +1,34 @@
+<!--lens-widget
+id: '155c6f31-cff7-43d3-8fb4-d16e00364f2f'
+title: "Self-Paced Course Onboarding Form (Airtable embed)"
+summary_for_tutor: "An embedded Airtable onboarding form that every learner must complete before beginning the course. A button below opens the same form in a new tab in case the embedded version does not load or submit."
+height: auto
+tags: [wip]
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<style>
+:root { --text: #1a1a1a; --muted: #5a5a5a; --border: #e8e5df; --accent: #b87018; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 4px 0; font: 14px/1.5 "DM Sans", Arial, sans-serif; color: var(--text); background: #fff; }
+.frame { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: #fff; }
+iframe { display: block; width: 100%; height: 900px; border: 0; background: transparent; }
+.fallback { margin-top: 10px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; color: var(--muted); font-size: 13px; }
+a.btn { display: inline-block; text-decoration: none; font-weight: 600; color: var(--accent); border: 1px solid var(--accent); border-radius: 8px; padding: 8px 12px; }
+a.btn:hover { background: var(--accent); color: #fff; }
+</style>
+</head>
+<body>
+<div class="frame">
+<iframe src="https://airtable.com/embed/appcKo5GTmHnUaBlg/pagNcxRynQFK1GETM/form" title="Onboarding form" loading="lazy"></iframe>
+</div>
+<div class="fallback">
+<span>Form not loading or not submitting?</span>
+<a class="btn" href="https://airtable.com/appcKo5GTmHnUaBlg/pagNcxRynQFK1GETM/form" target="_blank" rel="noopener">Open the onboarding form in a new tab</a>
+</div>
+</body>
+</html>
