@@ -43,6 +43,7 @@ content::
 [^cite-mcaleese-2025]: Stephen McAleese (2025), *AI Safety Field Growth Analysis 2025*. [EA Forum](https://forum.effectivealtruism.org/posts/7YDyziQxkWxbGmF3u/ai-safety-field-growth-analysis-2025)
 [^cite-shallow-review-2025]: *Control*, in the Shallow Review of Technical AI Safety 2025. [Shallow Review](https://shallowreview.ai/Black_box_safety/Control)
 [^cite-80k-loss-of-control]: 80,000 Hours, *Loss of control*, problem profile. [80,000 Hours](https://80000hours.org/problem-profiles/loss-of-control/)
+
 #### Question: Open
 id:: 056253bc-2b4d-48e7-80d6-a7be6a31cd4c
 content::
