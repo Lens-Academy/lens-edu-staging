@@ -20,7 +20,7 @@ eval-results:
 ## Test:
 id:: 4a9b2c83-5d0e-4f31-c6b7-d8e9f0123456
 
-#### Question
+#### Question: Open
 id:: d9da4232-9cb8-4b6e-a489-177a769365a1
 content:: Chapter 14 opens with Vesna Vulović, a flight attendant who survived a 10.1-kilometer fall when terrorists bombed her plane. The chapter then invokes the nuclear arms race: in 1952, a nuclear war seemed rationally predictable based on centuries of evidence about human conflict, yet it didn't happen. The chapter calls what prevented it "un-writing a fate already written."
 
@@ -37,6 +37,18 @@ Score according to the following rubric.
 **4** — As above, plus identifies the key mechanism: the incentive change (everyone who could start a nuclear war expected to personally suffer its consequences) and/or the specific sustained diplomatic effort (arms agreements, monitors, direct communication lines between superpowers over decades). *Example adds: "The chapter says it worked because for the first time, the people who could start the war stood to personally lose everything. And they worked for decades, not just one summit but sustained effort."*
 
 **5** — As above, plus explicitly connects the nuclear precedent to AI: the chapter isn't claiming the future is optimistic, but that a fate that appears locked can be actively un-written by organized human effort, and that this precedent is the basis for treating hope as an active, rational posture rather than wishful thinking. *Example adds: "The chapter's point is that 'un-writing our fate' isn't optimism. It's a description of what the Cold War generation actually did. The nuclear war was as predictably catastrophic as the book claims AI disaster is. If they could un-write it through sustained effort, we can too. But only through the same kind of hard work, not by hoping things work out."*
+
+force-feedback:: first
+feedback-instructions:: Respond to what the learner actually wrote. Open on the strongest thing in it, in one sentence. Then push once, chosen by where they stopped:
+
+- If they read the phrase as luck or waiting for things to turn out fine, ask whether nuclear war was avoided by chance or by something people did.
+- If they said only that we can change the future, ask what people actually did during the Cold War.
+- If they named the deliberate effort, ask why it worked: what had changed for the people who could start a nuclear war, and how long did the effort have to last?
+- If they had that, ask how it carries over to AI: is the chapter saying things will turn out fine, or something else?
+
+At full marks, just confirm briefly. Don't cite level numbers or band names (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: in 1952, centuries of evidence about human conflict pointed to war. Ask what was different this time. If they still don't attempt it, rephrase the question.
+
+One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
 
 # Suggested Lenses:

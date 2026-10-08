@@ -20,7 +20,7 @@ eval-results:
 ## Test:
 id:: 6c1d4ea5-7f20-5153-e8d9-f0a1b2345678
 
-#### Question
+#### Question: Open
 id:: f5ecf31b-f5ec-4983-99aa-e156d3d26247
 content:: The second half of Chapter 14 issues different calls to action to different audiences: government leaders, elected officials who are already persuaded, politicians who are not yet persuaded, journalists, and ordinary citizens.
 
@@ -37,6 +37,18 @@ Score according to the following rubric.
 **4** — Correctly names the distinctive lever for all three groups with specificity: government signaling (not a unilateral halt, but expressing willingness so others won't be disadvantaged by agreeing); GPU concentration for skeptics (preserving optionality without requiring full acceptance of the risk argument); and citizen action (vote especially in primaries, write representatives, protest lawfully, talk about it). *Example of the skeptic politician lever: "The chapter says even if you're not persuaded of the full risk, concentrate GPU clusters now, because if you later change your mind, it will be too late to halt if they've proliferated everywhere."*
 
 **5** — As above, plus articulates what makes each lever non-fungible: why government signaling requires state-level credibility to move other states; why GPU concentration requires regulatory authority that citizens don't have; and why citizen pressure creates the political permission structure that allows politicians and governments to act. *Example adds: "The chapter implies these groups form a chain: citizen pressure gives politicians permission to speak, politicians give governments cover to signal, and government signals make a treaty negotiable. No group can substitute for another because each lever requires a kind of authority or credibility the other groups lack."*
+
+force-feedback:: first
+feedback-instructions:: Respond to what the learner actually wrote. Open on the strongest thing in it, in one sentence. Then push once, chosen by where they stopped:
+
+- If they gave all three groups the same role, ask what a head of government can do that an ordinary citizen cannot.
+- If they gave generic roles (treaties, votes, protests), ask what the chapter specifically asks of each group, for instance whether it asks governments for a unilateral halt.
+- If they had two of the three levers, tell them which group they missed and ask what the chapter asks of that group.
+- If they had all three, ask why none of the groups could stand in for another: what authority or credibility does each lever need?
+
+At full marks, just confirm briefly. Don't cite level numbers or band names (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: the skeptical politician. The chapter asks them to concentrate GPU clusters now, even unconvinced. Ask why that would matter if they later change their mind. If they still don't attempt it, rephrase the question.
+
+One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
 
 # Suggested Lenses:
