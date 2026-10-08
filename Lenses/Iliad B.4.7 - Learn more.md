@@ -111,5 +111,3 @@ Achour, Malgouyres, and Gerchinovitz (2024). [*The loss landscape of deep linear
 Saxe, McClelland, and Ganguli (2014). *Exact solutions to the nonlinear dynamics of learning in deep linear neural networks*. International Conference on Learning Representations (ICLR).
 
 Tu, Aranguri, and Jacot (2024). [*Mixed Dynamics In Linear Networks: Unifying the Lazy and Active Regimes*](https://arxiv.org/abs/2405.17580).
-
-[^1]: The constant is $\frac{1}{2}\mathbb{E}\|y - Mx\|^{2}$, which is the residual of the OLS. It vanishes on realizable data.
