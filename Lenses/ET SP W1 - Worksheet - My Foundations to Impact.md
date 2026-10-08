@@ -191,6 +191,26 @@ What a beautiful first step on your journey - we're so glad you're here! 💛
 
 ::card[[../Lenses/ET SP W1 - Journalling - Journaling on My Ikigai|Week 1 Journalling: Journaling on My Ikigai]]
 
+#### Callout: 🪞 After your peer group discussion: reflection
+tone:: green
+
+#### Text
+content::
+If you're doing the course with a peer group, come back to this once you've had this week's discussion! Some of the best insights come from each other, so take a few minutes to capture what stuck with you before it fades. If you're working through the course on your own, feel free to skip this one.
+
+#### Question: Open
+id:: 26b156cf-cf02-4102-ae9c-650b49b72c72
+content::
+**What did you take away from this week's peer group discussion?**
+
+- What idea, perspective or question stuck with you?
+- Did anything shift in how you're thinking about your thesis or career path?
+- Is there anything you will try or do differently as a result?
+placeholder:: e.g. something I will do differently in my project is...
+optional:: true
+
+#### End Callout
+
 #### Callout: ⭐ Quick check-in on this week's worksheet
 tone:: purple
 
