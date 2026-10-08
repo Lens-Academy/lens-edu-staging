@@ -84,13 +84,3 @@ Marcus Hutter, David Quarel, and Elliot Catt (2024). [*An Introduction to Univer
 D. E. Knuth (1973). *The Art of Computer Programming, Volume I: Fundamental Algorithms*. Addison-Wesley.
 
 Jan Leike and Marcus Hutter (2015). [*Bad Universal Priors and Notions of Optimality*](https://arxiv.org/abs/1510.04931). CoRR.
-
-[^1]: See Appendix A for a worked example. For simplicity, we consider only geometric discounting.
-
-[^2]: The optimal value is defined as a $\sup$ over policies. In general, a supremum need not be attained (e.g. $\sup_{x \in (0,1)}x = 1$ but no $x \in (0,1)$ achieves it). Section 2 shows that the sup is attained in our setting.
-
-[^3]: We are deliberately avoiding a formal treatment of measure theory here. Not all subsets of $({\mathcal{A}} \times {\mathcal{E}})^{\infty}$ are measurable; we restrict to "nice" (measurable) sets built from finite-prefix conditions via countable set operations, which suffice for everything in this sheet. For a rigorous treatment using $\sigma$-algebras and probability measures, see (Hutter et al. 2024, Chapter 2.2).
-
-[^4]: The standard name is *absolute continuity* of $P$ with respect to $Q$, written $P \ll Q$.
-
-[^5]: If the true environment is $\mu$ then we don't care about the behaviour of the Bayesian agent on histories that have $\mu^{\pi}$-probability zero: such histories will never be observed anyway.
