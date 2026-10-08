@@ -13,6 +13,7 @@ The criticisms so far in this unit are arguments. Here are two experiments that 
 Some terms you will need. The *monitor* is the model that reads what the untrusted model does and flags suspicious actions. A *prompt injection* is text written to give instructions to whichever model reads it. The *audit budget* is the share of actions that humans can afford to check. "pp" means percentage points.
 
 [^cite-pivotal-tracy]: Pivotal Research, *Tyler Tracy*, profile page. [Pivotal](https://www.pivotal-research.org/tyler-tracy)
+
 #### Text
 content::
 **1. Mikhail Terekhov, Jonas Geiping and colleagues, "Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols"**[^cite-terekhov-2025]. From the abstract:
