@@ -2,7 +2,7 @@
 id: '1432f900-b8e8-4156-8cfa-b8330418b157'
 title: "D.3.2.2 Measures, the Bayesian mixture and value functions"
 tldr: "Proves basic identities for interaction measures, then defines the Bayesian mixture, expected return, discounted value function and the Bayes-optimal policy that defines AIXI."
-summary_for_tutor: "Section 0 of Iliad worksheet D.3.2: Properties of measures, plus the Bayesian mixture and value function. Exercises 0.1-0.5 (factorization nu^pi = pi * nu, chain rule, marginalizing percepts, deterministic interaction measure, general chain rule), with collapsed solutions. Definitions of xi and posterior w(nu|ae_{<t}), expectation, discounted return G_{t:m}, value V_nu^{pi,m} = (1-gamma)E[G], optimal value, and AIXI as pi_xi^* with prior 2^{-K(nu)}. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "Section 0 of worksheet D.3.2: Properties of measures, plus the Bayesian mixture and value function. Exercises 0.1-0.5 (factorization nu^pi = pi * nu, chain rule, marginalizing percepts, deterministic interaction measure, general chain rule), with collapsed solutions. Definitions of xi and posterior w(nu|ae_{<t}), expectation, discounted return G_{t:m}, value V_nu^{pi,m} = (1-gamma)E[G], optimal value, and AIXI as pi_xi^* with prior 2^{-K(nu)}. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/

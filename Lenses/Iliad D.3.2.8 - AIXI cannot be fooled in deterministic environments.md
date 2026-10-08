@@ -2,7 +2,7 @@
 id: '190ad745-580b-4eb5-b757-08fcec2c80c5'
 title: "D.3.2.8 AIXI cannot be fooled in deterministic environments"
 tldr: "Proves that in a deterministic environment the Bayes-optimal agent has value at least the prior weight on the truth times the optimal value."
-summary_for_tutor: "Section 8 of Iliad worksheet D.3.2: AIXI cannot be fooled in deterministic environments. Theorem 8.1 (if mu is deterministic and V_mu^* > epsilon along the history then V_xi^* >= w_mu epsilon). Exercises 8.1 (V_xi^* >= w(mu|ae_{<t}) V_mu^*, using linearity from Exercise 4.2) and 8.2 (w(mu|ae_{<t}) >= w_mu for deterministic mu, completing the proof), with collapsed solutions and a remark that w_mu may be tiny. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "Section 8 of worksheet D.3.2: AIXI cannot be fooled in deterministic environments. Theorem 8.1 (if mu is deterministic and V_mu^* > epsilon along the history then V_xi^* >= w_mu epsilon). Exercises 8.1 (V_xi^* >= w(mu|ae_{<t}) V_mu^*, using linearity from Exercise 4.2) and 8.2 (w(mu|ae_{<t}) >= w_mu for deterministic mu, completing the proof), with collapsed solutions and a remark that w_mu may be tiny. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/

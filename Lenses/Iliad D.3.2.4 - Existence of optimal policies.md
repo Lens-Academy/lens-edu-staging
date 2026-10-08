@@ -2,7 +2,7 @@
 id: 'b5900138-d124-4487-8caf-e9859cd480c6'
 title: "D.3.2.4 Existence of optimal policies"
 tldr: "Proves a deterministic optimal policy exists for finite and infinite horizons by showing the Bellman equation, backward induction, and convergence of the optimal values."
-summary_for_tutor: "Section 2 of Iliad worksheet D.3.2: Existence of optimal policies. Exercises 2.1 (sup over policies of a one-step expectation equals the max), 2.2 (Bellman equation for V^{pi,m}), 2.3 (backward induction gives a deterministic optimal policy for finite m), 2.4 (Bellman optimality equation), 2.5 (V* exists as a monotone limit), 2.6 (infinite-horizon Bellman optimality equation) and 2.7 (a deterministic optimal policy exists for infinite horizon). Hints and collapsed solutions are given. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "Section 2 of worksheet D.3.2: Existence of optimal policies. Exercises 2.1 (sup over policies of a one-step expectation equals the max), 2.2 (Bellman equation for V^{pi,m}), 2.3 (backward induction gives a deterministic optimal policy for finite m), 2.4 (Bellman optimality equation), 2.5 (V* exists as a monotone limit), 2.6 (infinite-horizon Bellman optimality equation) and 2.7 (a deterministic optimal policy exists for infinite horizon). Hints and collapsed solutions are given. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/

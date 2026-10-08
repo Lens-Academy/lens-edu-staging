@@ -2,7 +2,7 @@
 id: '7f53f90a-ae1d-406d-ad35-9f8b1b91fa9e'
 title: "D.3.2.9 Likelihood ratios are martingales"
 tldr: "States the self-optimizing property for a finite model class and proves that likelihood ratios against the true environment are martingales that converge."
-summary_for_tutor: "Section 9 of Iliad worksheet D.3.2 (start of the advanced Sections 9-11 for a finite model class). Definition 9.1 (self-optimizing), Theorem 9.2 (if some policy is self-optimizing then pi_xi^* is), Definition 9.3 (supermartingale), Fact 9.4 (Doob convergence). Exercises 9.1 (X_{nu,t} = nu/mu is a mu^pi-martingale), 9.2 (it converges almost surely) and 9.3 (X_{xi,t} = sum w_nu X_{nu,t} >= w_mu). Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "Section 9 of worksheet D.3.2 (start of the advanced Sections 9-11 for a finite model class). Definition 9.1 (self-optimizing), Theorem 9.2 (if some policy is self-optimizing then pi_xi^* is), Definition 9.3 (supermartingale), Fact 9.4 (Doob convergence). Exercises 9.1 (X_{nu,t} = nu/mu is a mu^pi-martingale), 9.2 (it converges almost surely) and 9.3 (X_{xi,t} = sum w_nu X_{nu,t} >= w_mu). Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/

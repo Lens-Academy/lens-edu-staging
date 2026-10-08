@@ -2,7 +2,7 @@
 id: '07677b18-9575-45d2-897e-cf98136de0b0'
 title: "D.3.2.7 On-policy value convergence"
 tldr: "Bounds value differences by total variation distance, then proves that the mixture's value for any fixed policy converges to the true environment's value, using Blackwell-Dubins."
-summary_for_tutor: "Sections 6 and 7 of Iliad worksheet D.3.2: Bounding expectation differences by total variation, and on-policy value convergence. Definitions 6.1-6.2 (total variation, expectation), 7.1-7.5 (probability of events, covering, almost-sure convergence), Theorem 7.6 and Fact 7.7 (Blackwell-Dubins, stated without proof). Exercises 6.1 (|E_P f - E_Q f| <= c TV), 7.1 (finite-horizon TV bound), 7.2 (xi^pi covers mu^pi), 7.3 (prove Theorem 7.6) and 7.4 (prove Fact 7.7, rated [40]). Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "Sections 6 and 7 of worksheet D.3.2: Bounding expectation differences by total variation, and on-policy value convergence. Definitions 6.1-6.2 (total variation, expectation), 7.1-7.5 (probability of events, covering, almost-sure convergence), Theorem 7.6 and Fact 7.7 (Blackwell-Dubins, stated without proof). Exercises 6.1 (|E_P f - E_Q f| <= c TV), 7.1 (finite-horizon TV bound), 7.2 (xi^pi covers mu^pi), 7.3 (prove Theorem 7.6) and 7.4 (prove Fact 7.7, rated [40]). Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/

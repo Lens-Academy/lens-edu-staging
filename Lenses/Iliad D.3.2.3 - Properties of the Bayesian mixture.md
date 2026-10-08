@@ -2,7 +2,7 @@
 id: '9b4f0449-b975-4300-82ce-bf3b88c7d82c'
 title: "D.3.2.3 Properties of the Bayesian mixture"
 tldr: "Proves the multiplicative posterior update and the one-step predictive form of the mixture, that values lie in [0,1], and that the mixture is linear in the posterior over multiple steps."
-summary_for_tutor: "Section 1 of Iliad worksheet D.3.2: Properties of the Bayesian mixture. Exercises 1.1 (posterior update), 1.2 (one-step predictive distribution of xi), 1.3 (value bounded in [0,1]) and 1.4 (multi-step posterior linearity of xi^pi), with hints and collapsed solutions. Exercises 1.1 and 1.4 are marked as skippable on a first pass. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "Section 1 of worksheet D.3.2: Properties of the Bayesian mixture. Exercises 1.1 (posterior update), 1.2 (one-step predictive distribution of xi), 1.3 (value bounded in [0,1]) and 1.4 (multi-step posterior linearity of xi^pi), with hints and collapsed solutions. Exercises 1.1 and 1.4 are marked as skippable on a first pass. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/

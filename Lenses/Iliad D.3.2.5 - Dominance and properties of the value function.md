@@ -2,7 +2,7 @@
 id: '8a23db64-2995-4c9f-ae45-9f72d795399d'
 title: "D.3.2.5 Dominance and properties of the value function"
 tldr: "Shows the mixture dominates each environment, that the mixture's policy value is a posterior-weighted average of values, and that the optimal mixture value is convex but not linear."
-summary_for_tutor: "Sections 3 and 4 of Iliad worksheet D.3.2: Dominance of the Bayesian mixture and properties of V_xi. Exercises 3.1-3.2 (xi(ae) >= w_nu nu(ae) and xi^pi >= w_nu nu^pi), 4.1 (V_xi^{pi,m} = sum w(nu|ae) V_nu^{pi,m}), 4.2 (infinite-horizon linearity, using dominated convergence for sums, Fact 4.1), 4.3 (V_xi^* is convex) and 4.4 (a two-coin example where it is strictly less). Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "Sections 3 and 4 of worksheet D.3.2: Dominance of the Bayesian mixture and properties of V_xi. Exercises 3.1-3.2 (xi(ae) >= w_nu nu(ae) and xi^pi >= w_nu nu^pi), 4.1 (V_xi^{pi,m} = sum w(nu|ae) V_nu^{pi,m}), 4.2 (infinite-horizon linearity, using dominated convergence for sums, Fact 4.1), 4.3 (V_xi^* is convex) and 4.4 (a two-coin example where it is strictly less). Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/

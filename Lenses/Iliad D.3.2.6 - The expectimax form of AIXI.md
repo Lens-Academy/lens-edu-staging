@@ -2,7 +2,7 @@
 id: 'bda44307-f658-42bb-a24b-3fa44b3e29c5'
 title: "D.3.2.6 The expectimax form of AIXI"
 tldr: "Unrolls the definition of AIXI into the expectimax expression: alternating maximization over actions and mixture expectation over percepts."
-summary_for_tutor: "Section 5 of Iliad worksheet D.3.2: The expectimax form of AIXI. Exercise 5.1 proves V_xi^{*,m} = (1-gamma) max sum xi ... max sum xi G by backward induction on t, using the expectimax operator with composition (E1) and affine pass-through (E2), then takes m to infinity to get the action pi_xi^*(ae_{<t}) as an argmax. Hint and collapsed solution are given. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "Section 5 of worksheet D.3.2: The expectimax form of AIXI. Exercise 5.1 proves V_xi^{*,m} = (1-gamma) max sum xi ... max sum xi G by backward induction on t, using the expectimax operator with composition (E1) and affine pass-through (E2), then takes m to infinity to get the action pi_xi^*(ae_{<t}) as an argmax. Hint and collapsed solution are given. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/
