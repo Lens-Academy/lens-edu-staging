@@ -32,23 +32,31 @@ Every factual claim your colleague makes is true. The fit really is 0.97, it rea
 Where does the argument stop being licensed by the data? And what would you have to know, that they have not told you, before the fourteen-month figure meant anything?
 
 
-assessment-instructions:: The student has completed the compute lens (Fun with +12 OOMs, what compute buys) and How Long A Task (the METR task-length curve). Those are the tools this wedge wants. The student has not been assigned a reading on base rates for trend breaks, so do not expect one. Refer to lenses by name, never by number; numbering conventions differ across files.
+assessment-instructions:: Score out of 100.
 
-This is a deliberate wedge, not the test question. It hands the student a plausible-sounding but flawed extrapolation in which every stated fact is true, and asks them to locate where the license runs out.
+The scenario the learner is answering: a colleague shows an AI's score on a 0-to-100 coding benchmark, measured every quarter for three years. It is a clean exponential with R-squared 0.97, it held across two architecture changes, and the score is now 61. The colleague extrapolates to saturation in fourteen months and is confident "because the fit is excellent". The question states that every factual claim is true. It asks where the argument stops being licensed by the data, and what one would need to know before the fourteen-month figure meant anything.
 
-Four load-bearing moves. ANY TWO of them pass:
-1. Fit quality is silent about the unobserved range. R-squared 0.97 licenses interpolation inside the measured range, not a claim about the next fourteen months.
-2. A score approaching its ceiling is a different regime. The benchmark tops out at 100 by construction, so the remaining 39 points are not interchangeable with the last 39.
-3. Construct stability: whether the quantity being measured at 61 is the same skill it will be at 95. Saturating a benchmark and solving the underlying capability are different claims, and only the first is in what the colleague told them.
-4. Confidence about continuation should come from an outside view on how often strong regular trends break, which the student may bring from their own knowledge, rather than from the quality of the fit.
+Any of these five points earns 50 points, up to 100 in total. A point counts whether the answer states it as a flaw in the argument or as something one would need to know.
+1. A good fit only describes the data already measured. It says nothing by itself about the next fourteen months, outside the measured range.
+2. A score near its fixed ceiling of 100 is a different regime: the remaining points may be harder (or otherwise unlike the earlier ones), so the curve may bend. An answer that argues the remaining items are not harder, but says this needs checking, also earns this point.
+3. The benchmark may stop measuring the same skill: a saturated benchmark is not the same as a solved capability (for example through contamination, overfitting to the test, or the last items testing something different).
+4. Confidence in continuation should come from an outside view, such as how often strong regular trends have broken in other fields, not from the quality of the fit.
+5. The fit names no cause: one would need to know what drives the improvement (such as compute, investment or data) and whether that driver will keep going.
 
-Reward a student who brings an outside view unprompted, for example "how often have trends this clean broken in other fields?".
+Cap at 40 if the answer's main claim is that the colleague's facts or arithmetic are wrong, since the question states they are true. Cap at 30 if the answer only says the future cannot be known, without naming anything specific that would license or undermine the figure.
 
-Note for the grader: move 2 as stated is our expectation, not a measured fact about this fictional benchmark. A strong student may argue that the residual items are not harder, and if they argue it well that is a pass, not an error.
+Model answer, for the feedback, not a grading checklist: "Everything up to 61 is fine. The step that is not licensed is extending the fit fourteen months past the data: an R-squared of 0.97 only says the curve matches the points we have. And a score capped at 100 cannot keep growing exponentially, so near the top the last items may be the hardest and the curve may flatten. Before trusting fourteen months I would want to know whether the last 39 points are like the first 61, whether the benchmark still measures the skill and not memorised answers, and how often clean trends like this have broken elsewhere."
+feedback-instructions:: The student has completed Fun with +12 OOMs of Compute (what compute buys) and How Long A Task (the measured task-length curve). Those are the tools this question wants. They have not been assigned a reading on base rates for trend breaks, so an outside view on trend breaks is a move they may or may not bring. Refer to lenses by name, never by number, because numbering conventions differ across files.
+
+This is a deliberate wedge, not the test question. It hands the student a plausible-sounding but flawed extrapolation in which every stated fact is true, and asks them to locate where the license runs out. The rubric beside this lists the moves that do that.
+
+Reward a student who brings an outside view unprompted, for example "how often have trends this clean broken in other fields?". A strong student may argue that the remaining benchmark items are not harder. If they argue it well, engage with it as a real position, not an error.
 
 Failure modes and how to handle them:
 - A student who says the colleague is lying has missed the setup. Re-anchor on "every claim is true" and ask again.
-- Do NOT accept "we can't know anything". The wedge asks what WOULD license the figure; listing that is the pass.
+- Do NOT accept "we can't know anything". The question asks what WOULD license the figure, and listing that is the answer.
+
+Below full marks, name the single most important move the answer missed or got wrong, in plain words. Do not cite rubric numbers. At full marks, confirm briefly what they found and go to the follow-ups.
 
 Conversation flow: 3 tutor replies, then ask whether they want to continue or stop. Keep an internal turn counter. If they continue, reset and proceed.
 
@@ -65,11 +73,13 @@ What to do in each reply:
 3. Name 1 to 3 gaps or hidden assumptions plainly.
 4. Ask 2 follow-up questions that require causal reasoning, each directly answerable.
 
+If the student says they do not understand, do not dismiss it and do not repeat the question. Give one concrete foothold: isolate one part of the colleague's claim, for example "the fit is 0.97, so I am confident about fourteen months from now", and ask what the 0.97 was calculated from. If their next message still does not attempt the question, rephrase the whole question in different terms rather than offering another foothold.
+
 If the student is stuck after 2 attempts, give a brief direct answer and move on.
 
-On close: name what they demonstrated and what is still underdeveloped, then send them to the next question, where they build the fixed version themselves. Do not give a test-readiness verdict here; the next beat is the evidence for that.
+On close: name what they demonstrated and what is still underdeveloped, then send them to the next question, where they build the fixed version themselves. Do not give a test-readiness verdict here. The next question is the evidence for that.
 
-#### Question
+#### Question: Open
 id:: 2d3c35a8-9efa-4f9a-92f5-7c251c960c02
 content::
 \## Build the version your colleague should have shown you
@@ -77,11 +87,17 @@ content::
 The critique was the easy half. Now construct. Write two genuinely different trajectories for this benchmark over the next two years. They must differ in mechanism, not just in speed: name what drives each one (the trend's own momentum, the approach hitting a ceiling, the benchmark ceasing to measure the skill, anything you can defend). For each trajectory, give one observation checkable within a year or two that would count against it. Then the quiet part: name one assumption both of your trajectories share.
 
 
-assessment-instructions:: The student has just critiqued the colleague's extrapolation and is now constructing the two-trajectory version of the same situation. This is the direct rehearsal for the module's graded test: two mechanism-distinct trajectories, a named driver for each, a checkable observation against each, and one shared assumption.
+assessment-instructions:: Score out of 100.
 
-Pass shape: the mechanisms genuinely differ (not one story at two speeds), the falsifiers are observable within about two years, and the shared assumption is non-vacuous ("the future is uncertain" does not count; "both assume the benchmark keeps being run and reported" does).
+The situation: an AI's score on a 0-to-100 coding benchmark has followed a clean exponential for three years and is now at 61. The question asks for two trajectories of this benchmark score over the next two years that differ in mechanism, each with its driver named, one observation for each that would count against it and could be checked within a year or two, and one assumption both trajectories share.
 
-The shared-assumption move is new to the student; expect a miss on the first try. If they name none, or a vacuous one, give one worked example drawn from their own two stories, then ask them to find a second. That is teaching, not failure.
+45: Two trajectories driven by different named mechanisms, for example the trend's own momentum continuing, the approach hitting a ceiling, or the benchmark ceasing to measure the skill. Any mechanism the answer defends counts. Two versions of one story at different speeds, with no different driver behind them, earn at most 10 here.
+30: For each trajectory, an observation checkable within about two years that would count against it (15 each). It has to be something one could see, such as "the next two quarterly scores are flat" or "the score passes 80 next year". A restatement of the trajectory's negation with no observable, such as "if it doesn't happen", earns nothing for that trajectory.
+25: One assumption both trajectories share that is specific to this situation, for example that the benchmark keeps being run and reported in the same way, or that the test items are not leaking into training data. A vacuous one such as "the future is uncertain" earns nothing.
+feedback-instructions:: The student has just critiqued the colleague's extrapolation in the previous question and is now constructing the two-trajectory version of the same situation. This is the direct rehearsal for the module's graded test: two mechanism-distinct trajectories, a named driver for each, a checkable observation against each, and one shared assumption.
+What good feedback looks for: the mechanisms genuinely differ (not one story at two speeds), the falsifiers are observable within about two years, and the shared assumption is non-vacuous ("the future is uncertain" does not count, "both assume the benchmark keeps being run and reported" does).
+The shared-assumption move is new to the student. Expect a miss on the first try. If they name none, or a vacuous one, give one worked example drawn from their own two stories, then ask them to find a second. That is teaching, not failure.
+Below full marks, name the single most important thing the answer missed or got wrong, in plain words. At full marks, confirm briefly.
 
 Maximum 3 tutor turns. Keep an internal turn counter.
 
@@ -89,6 +105,8 @@ Response length: 100 to 180 words. Short paragraphs only. No lists longer than 4
 
 Response style:
 - Calm, rigorous, and educational.
-- Do not over-validate. Avoid generic praise.
+- Do not over-validate. Avoid generic praise (great trajectories, excellent work, well done).
+
+If the student says they do not understand, do not dismiss it and do not repeat the question. Give one concrete foothold: give them the first trajectory's driver (for example "the approach hits a ceiling because the last items need skills the current method lacks") and ask what score they would then expect in a year, and what they would see if that were wrong. If their next message still does not attempt the question, rephrase the whole question in different terms rather than offering another foothold.
 
 On close: give an explicit test-readiness verdict grounded in this attempt: name which of the four moves (distinct mechanisms, named drivers, checkable falsifiers, shared assumption) they landed and which still needs work.
