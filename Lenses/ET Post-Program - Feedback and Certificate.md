@@ -47,6 +47,7 @@ id:: ac7efb34-616f-45ff-a297-21e028a3d934
 content:: 1. Have you completed the post-program feedback form? If not yet, you can [open it here](https://airtable.com/appcKo5GTmHnUaBlg/pagGHPBww4E31JabV/form).
 options::
 - ✅ Yes, I've submitted the post-program feedback form
+- Not yet (please complete it, as it's required for your certificate!)
 
 #### Question: Open
 id:: 8abafa69-885a-4307-89c1-dda962b4a807
