@@ -57,6 +57,8 @@ labels::
 - Very good
 - Excellent
 
+#### Page
+
 #### Text
 content:: **The full course**
 
