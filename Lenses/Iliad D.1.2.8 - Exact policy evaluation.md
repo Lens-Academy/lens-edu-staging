@@ -2,7 +2,7 @@
 id: '9f9cd19e-6b4c-4d11-9635-675a98948b68'
 title: "D.1.2.8 Exact policy evaluation"
 tldr: "Solves policy evaluation exactly as a linear system, v = (I - gamma P)^{-1} r, and proves the matrix is invertible using the Neumann series."
-summary_for_tutor: "Section 7 of Iliad worksheet D.1.2: Exact policy evaluation for a deterministic policy. Definition 7.1 (v^pi, P^pi, R^pi, r^pi), Fact 7.2 (Neumann series), Exercise 7.1 (v^pi = (I - gamma P^pi)^{-1} r^pi) and Exercise 7.2 (I - gamma P^pi is invertible, giving v^pi as a sum of gamma^k (P^pi)^k r^pi). Ends with a remark on stochastic policies and the references. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "Section 7 of worksheet D.1.2: Exact policy evaluation for a deterministic policy. Definition 7.1 (v^pi, P^pi, R^pi, r^pi), Fact 7.2 (Neumann series), Exercise 7.1 (v^pi = (I - gamma P^pi)^{-1} r^pi) and Exercise 7.2 (I - gamma P^pi is invertible, giving v^pi as a sum of gamma^k (P^pi)^k r^pi). Ends with a remark on stochastic policies and the references. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Leon Lang (Iliad)
   - David Quarel (ARENA)
