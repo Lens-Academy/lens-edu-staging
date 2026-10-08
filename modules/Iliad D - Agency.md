@@ -243,6 +243,7 @@ source:: [[../Lenses/krakovna-power-seeking-can-be-probable-and-predictive-for-t
 
 # Lens: The Superintelligent Will
 source:: [[../Lenses/bostrom-the-superintelligent-will-motivation-and-instrumental-rationality-in-advanced-artificial-agents]]
+
 # Lens: D.6.7 Further reading
 source:: [[../Lenses/Iliad D.6.7 - Further reading]]
 
