@@ -83,6 +83,7 @@ svg.graph.picking g.region polygon.hit { stroke: var(--accent); stroke-dasharray
 
     <p class="status" id="status"></p>
     <p class="why" id="why" hidden></p>
+    <p class="why" id="diagnote" hidden>The dashed arrow: causing the same catastrophe in fewer actions takes bigger actions, and bigger actions are more incriminating. So threats tend to fall along this band, from Low-stakes up to High-stakes.</p>
 
     <div class="controls">
       <button type="button" id="check" disabled>Check</button>
@@ -143,7 +144,10 @@ svg.graph.picking g.region polygon.hit { stroke: var(--accent); stroke-dasharray
 
   var graph = document.getElementById("graph");
   var regionsLayer = document.getElementById("regions");
-  var fixesLayer = document.getElementById("fixes");
+  var ringLayer = document.getElementById("ring");
+  var diagNote = document.getElementById("diagnote");
+  var focusedId = null;
+  var selectedId = null;
   var diag = document.getElementById("l-diag");
   var tray = document.getElementById("tray");
   var statusLine = document.getElementById("status");
@@ -210,6 +214,13 @@ svg.graph.picking g.region polygon.hit { stroke: var(--accent); stroke-dasharray
     g.appendChild(text);
 
     g.addEventListener("click", function () { hitRegion(r.id); });
+    g.addEventListener("focus", function () {
+      var kb = true;
+      try { kb = g.matches(":focus-visible"); } catch (e) { kb = true; }
+      focusedId = kb ? r.id : null;
+      renderRing();
+    });
+    g.addEventListener("blur", function () { focusedId = null; renderRing(); });
     g.addEventListener("keydown", function (ev) {
       if (ev.key === "Enter" || ev.key === " " || ev.key === "Spacebar") {
         ev.preventDefault();
@@ -226,6 +237,8 @@ svg.graph.picking g.region polygon.hit { stroke: var(--accent); stroke-dasharray
       var r = regionById(regionId);
       whyLine.textContent = r.why;
       whyLine.hidden = false;
+      selectedId = regionId;
+      renderRing();
       return;
     }
     if (picked) {
@@ -306,55 +319,43 @@ svg.graph.picking g.region polygon.hit { stroke: var(--accent); stroke-dasharray
     if (!here) { return; }
 
     var mark = right ? "✓ " : (wrong ? "✗ " : "");
-    var lines = wrap(mark + labelText(here), 20);
-    text.setAttribute("fill", wrong ? "#5a5a5a" : (right ? "#9a5c10" : "#1a1a1a"));
+    var lines = [];
+    wrap(mark + labelText(here), 20).forEach(function (line) {
+      lines.push({ text: line, fill: wrong ? "#5a5a5a" : (right ? "#9a5c10" : "#1a1a1a"), strike: wrong });
+    });
+    if (wrong) {
+      wrap("✓ " + labelText(r.id), 20).forEach(function (line) {
+        lines.push({ text: line, fill: "#9a5c10", strike: false });
+      });
+    }
     var lh = narrow() ? 16 : 12;
     var y0 = r.ly - (lines.length - 1) * (lh / 2);
     lines.forEach(function (line, i) {
       var t = document.createElementNS(NS, "tspan");
       t.setAttribute("x", String(r.lx));
       t.setAttribute("y", String(y0 + i * lh));
-      t.textContent = line;
+      t.setAttribute("fill", line.fill);
+      if (line.strike) { t.setAttribute("text-decoration", "line-through"); }
+      t.textContent = line.text;
       text.appendChild(t);
     });
   }
 
-  function renderFixes() {
-    while (fixesLayer.firstChild) { fixesLayer.removeChild(fixesLayer.firstChild); }
-    if (!checked) { return; }
-    REGIONS.forEach(function (r) {
-      var here = placed[r.id];
-      if (!here || here === r.id) { return; }
-      var home = regionById(here);
-      var x1 = r.lx;
-      var y1 = r.ly + 8;
-      var x2 = home.lx;
-      var y2 = home.ly + 8;
-      var dx = x2 - x1;
-      var dy = y2 - y1;
-      var len = Math.sqrt(dx * dx + dy * dy) || 1;
-      var ux = dx / len;
-      var uy = dy / len;
-      x1 += ux * 12 - uy * 7;
-      y1 += uy * 12 + ux * 7;
-      x2 -= ux * 16 + uy * 7;
-      y2 -= uy * 16 - ux * 7;
-      var line = document.createElementNS(NS, "line");
-      line.setAttribute("x1", String(Math.round(x1 * 10) / 10));
-      line.setAttribute("y1", String(Math.round(y1 * 10) / 10));
-      line.setAttribute("x2", String(Math.round(x2 * 10) / 10));
-      line.setAttribute("y2", String(Math.round(y2 * 10) / 10));
-      line.setAttribute("stroke", "#b87018");
-      line.setAttribute("stroke-width", "1.5");
-      line.setAttribute("stroke-dasharray", "5 4");
-      line.setAttribute("marker-end", "url(#fix-arrow)");
-      fixesLayer.appendChild(line);
+  function renderRing() {
+    while (ringLayer.firstChild) { ringLayer.removeChild(ringLayer.firstChild); }
+    var ids = [];
+    if (checked && selectedId) { ids.push(selectedId); }
+    if (focusedId && ids.indexOf(focusedId) < 0) { ids.push(focusedId); }
+    ids.forEach(function (id) {
+      var p = document.createElementNS(NS, "polygon");
+      p.setAttribute("points", regionById(id).points);
+      ringLayer.appendChild(p);
     });
   }
 
   function render() {
     REGIONS.forEach(renderRegion);
-    renderFixes();
+    renderRing();
     renderTray();
     diag.setAttribute("opacity", checked ? "1" : "0");
     if (picked && !checked) { graph.classList.add("picking"); }
@@ -364,7 +365,8 @@ svg.graph.picking g.region polygon.hit { stroke: var(--accent); stroke-dasharray
     checkBtn.textContent = checked ? "Checked" : "Check";
 
     if (checked) {
-      statusLine.textContent = correctCount() + " of " + REGIONS.length + " labels are in the right region.";
+      statusLine.textContent = correctCount() + " of " + REGIONS.length + " labels are in the right region." +
+        (correctCount() < REGIONS.length ? " Where a label is crossed out, the right one is shown under it." : "");
     } else if (picked) {
       statusLine.textContent = "Now click the region where " + labelText(picked) + " belongs.";
     } else if (placedCount() > 0) {
@@ -372,7 +374,8 @@ svg.graph.picking g.region polygon.hit { stroke: var(--accent); stroke-dasharray
     } else {
       statusLine.textContent = "";
     }
-    if (!checked) { whyLine.hidden = true; whyLine.textContent = ""; }
+    diagNote.hidden = !checked;
+    if (!checked) { whyLine.hidden = true; whyLine.textContent = ""; selectedId = null; }
   }
 
   function summary() {
