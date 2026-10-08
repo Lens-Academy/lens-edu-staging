@@ -127,6 +127,12 @@ The Mastermind is the core format of our weekly peer-group discussions. From Wee
 - **Worksheet:** The worksheets are your space to actively apply what you’re learning to your own thesis, interests, and career goals. They help you reflect, analyze, and make tangible progress. We encourage you to work on them before your discussion so you can get the most out of your peer group conversations.
 - **Journaling (Optional):** Journaling prompts offer a personal space to explore your thoughts, values, motivations, and challenges. This is a chance to slow down, reflect, and deepen your self-awareness, helping you integrate what you’re learning week by week into your own life.
 
+:::callout {title="👀 A quick heads-up about your answers" tone="neutral"}
+
+Just so you know, the Effective Thesis team and your cohort facilitator can see the answers you write in both the worksheets and the journaling prompts. We use them to understand how you're getting on, support you better, and keep improving the course. Please write freely, and if there's anything you'd rather keep fully private (especially in your journaling), feel free to write it somewhere else instead!
+
+:::
+
 ---
 
 \## 🗓️ Overview of the 8-Weeks ^overview
