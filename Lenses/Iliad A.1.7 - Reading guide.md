@@ -12,14 +12,6 @@ provenance_recorded_at: '2026-10-08'
 
 #### Text
 content::
-%% Facilitator logistics (hidden from learners):
-\### Closing: reflection and next steps
-
-**17:40–18:00.**  Daily quiz and feedback
-
-**Daily checkpoint, 5 minutes.** Complete the [daily quiz](https://forms.gle/QsH1SEBwm7ZSg1dt9).
-%%
-
 \## Reading guide
 
 \### Different AI risks
