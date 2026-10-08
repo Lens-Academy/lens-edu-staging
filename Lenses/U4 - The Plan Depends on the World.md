@@ -34,7 +34,7 @@ The previous unit already discussed the difficulty of controlling misaligned AIs
 The first reading is by Ryan Greenblatt of Redwood Research. Instead of describing a single plan, he describes multiple plans the world could have for making AI go well, and which plan is available to execute depends on how much of the world we can rally to help.
 
 
-#### Question
+#### Question: Open
 id:: 5dbfa060-9b5f-428f-a979-0ebbfda52168
 content::
 \## Your turn first

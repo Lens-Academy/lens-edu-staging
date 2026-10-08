@@ -41,7 +41,7 @@ Read it as an inventory, not a recommendation. It does not argue that insiders a
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
-#### Question
+#### Question: Open
 id:: 753bad97-e81f-4d39-b6d7-93e47619dc44
 content::
 \## Your turn first
