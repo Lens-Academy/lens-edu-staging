@@ -138,11 +138,34 @@ source:: [[../Lenses/garrabrant+demski--embedded-agency]]
 # Lens: Why agent foundations
 source:: [[../Lenses/johnswentworth-why-agent-foundations-an-overly-abstract-explanation]]
 
+# Lens: Reflectively consistent degree of freedom
+source:: [[../Lenses/lesswrong-reflectively-consistent-degree-of-freedom]]
+
+# Lens: General purpose search
+source:: [[../Lenses/johnswentworth-whats-general-purpose-search-and-why-might-we-expect-to-see-it-in-trained-ml-systems]]
 # Lens: D.4.1.3 The five strands and the exercise plan
 source:: [[../Lenses/Iliad D.4.1.3 - The five strands and the exercise plan]]
 
 # Lens: Introduction to Löb's theorem
 source:: [[../Lenses/lavictoire-an-introduction-to-l-bs-theorem-in-miri-research]]
+
+# Lens: The measuring stick of utility
+source:: [[../Lenses/johnswentworth-the-measuring-stick-of-utility-problem]]
+
+# Lens: Complete class: consequentialist foundations
+source:: [[../Lenses/abramdemski-complete-class-consequentialist-foundations]]
+
+# Lens: Vingean reflection
+source:: [[../Lenses/lesswrong-vingean-reflection]]
+
+# Lens: Walkthrough of the tiling agents paper
+source:: [[../Lenses/so8res-walkthrough-of-the-tiling-agents-for-self-modifying-ai-paper]]
+
+# Lens: An intuitive guide to Garrabrant induction
+source:: [[../Lenses/xu-an-intuitive-guide-to-garrabrant-induction]]
+
+# Lens: The ground of optimization
+source:: [[../Lenses/flint-the-ground-of-optimization]]
 
 # Lens: D.4.1.4 Gödel's second incompleteness theorem and Löb's theorem
 source:: [[../Lenses/Iliad D.4.1.4 - Gödel's second incompleteness theorem and Löb's theorem]]
