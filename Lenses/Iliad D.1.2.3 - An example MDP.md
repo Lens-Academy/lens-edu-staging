@@ -17,7 +17,7 @@ content::
 
 Consider the MDP with state space $${\mathcal{S}} = \{s_{0}, s_{L}, s_{R}\}$$, action space $${\mathcal{A}} = \{a_{L}, a_{R}\}$$, and deterministic transitions as shown:
 
-![diagram](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-rl-example-mdp-d72947fb.png)
+![diagram](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-reinforcement-learning-tikz-7f28027bb4ad-a5eb5bce.png)
 
 From $$s_{0}$$, action $$a_{L}$$ leads deterministically to $$s_{L}$$ with reward $$+1$$, and action $$a_{R}$$ leads deterministically to $$s_{R}$$ with reward $$+0$$. From $$s_{L}$$ (resp. $$s_{R}$$), any action returns to $$s_{0}$$ with reward $$+0$$ (resp. $$+2$$).
 
