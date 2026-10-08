@@ -59,6 +59,9 @@ source:: [[../Lenses/Iliad D.2.1 - Overview and prerequisites]]
 # Lens: D.2.2 Vanilla Policy Gradient
 source:: [[../Lenses/Iliad D.2.2 - Vanilla Policy Gradient]]
 
+# Lens: ARENA 2.2.2 Vanilla Policy Gradient
+source:: [[../Lenses/arena-chapter-2-reinforcement-learning]]
+
 # Lens: D.2.3 Goal Misgeneralization
 source:: [[../Lenses/Iliad D.2.3 - Goal Misgeneralization]]
 
@@ -137,6 +140,9 @@ source:: [[../Lenses/johnswentworth-why-agent-foundations-an-overly-abstract-exp
 
 # Lens: D.4.1.3 The five strands and the exercise plan
 source:: [[../Lenses/Iliad D.4.1.3 - The five strands and the exercise plan]]
+
+# Lens: Introduction to Löb's theorem
+source:: [[../Lenses/lavictoire-an-introduction-to-l-bs-theorem-in-miri-research]]
 
 # Lens: D.4.1.4 Gödel's second incompleteness theorem and Löb's theorem
 source:: [[../Lenses/Iliad D.4.1.4 - Gödel's second incompleteness theorem and Löb's theorem]]
@@ -235,6 +241,8 @@ source:: [[../Lenses/turner-parametrically-retargetable-decision-makers-tend-to-
 # Lens: Power-seeking can be probable and predictive for trained agents
 source:: [[../Lenses/krakovna-power-seeking-can-be-probable-and-predictive-for-trained-agents]]
 
+# Lens: The Superintelligent Will
+source:: [[../Lenses/bostrom-the-superintelligent-will-motivation-and-instrumental-rationality-in-advanced-artificial-agents]]
 # Lens: D.6.7 Further reading
 source:: [[../Lenses/Iliad D.6.7 - Further reading]]
 
