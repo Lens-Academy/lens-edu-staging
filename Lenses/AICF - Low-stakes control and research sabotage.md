@@ -42,7 +42,7 @@ The same idea from a second team. In June 2026 Mikhail Terekhov (Anthropic Fello
 
 #### Article
 source:: [[../articles/anthropic-diffuse-ai-control-on-fuzzy-tasks]]
-from:: Most frontier AI labs plan to make progress on AI alignment
+from:: ## Introduction
 to:: makes it more difficult for us to detect or correct subversion.
 
 #### Article
