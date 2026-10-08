@@ -97,7 +97,3 @@ Concretely, a good example of the sort of things people are doing here is [Why D
 nevertheless these sorts of analyses are still very informal, and essentially retrospective. They can't yet *predict* ahead of time under what circumstances a model will cheat or not, nor what training environments incentivise what cheating to what extent.
 
 **Reading (30 min):** Read Anthropic's [Responsible Scaling Policy](https://www.anthropic.com/responsible-scaling-policy), OpenAI's [Preparedness Framework](https://openai.com/index/updating-our-preparedness-framework/), or if you want to go more in depth the recent case made for [pacing the frontier](https://pacing.tech/).
-
-::card[[../Lenses/anthropic-responsible-scaling-policy|Anthropic Responsible Scaling Policy]]
-
-::card[[../Lenses/openai-our-updated-preparedness-framework|OpenAI Preparedness Framework]]

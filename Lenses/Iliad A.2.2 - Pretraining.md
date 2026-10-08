@@ -24,17 +24,11 @@ What the model learns during pretraining is deep, broad, and hard to change afte
 
 **Data filtering** is the most intuitive intervention: identify dangerous content and remove it before training. [Pretraining data filtering](https://alignment.anthropic.com/2025/pretraining-data-filtering/) from Anthropic demonstrates this for CBRN content, achieving a 33% relative reduction in harmful-capabilities performance (from 33.7% to 30.8%, where chance is 25%) while preserving standard benchmarks. [Token-level filtering](https://arxiv.org/abs/2601.21571) refines this by removing dangerous tokens rather than entire documents, which Pareto-dominates document filtering — same capability reduction, lower cost to benign performance.
 
-::card[[../Lenses/anthropic-enhancing-model-safety-through-pretraining-data-filtering|Pretraining data filtering]]
-
 **Gradient routing and SGTM** address data filtering's core weakness: what if your classifier misses something? Rather than trying to perfectly exclude dangerous data, [gradient routing](https://arxiv.org/abs/2410.04332) localizes dangerous knowledge to specific model parameters during training, so it can be removed afterward by ablating those parameters. [SGTM](https://alignment.anthropic.com/2025/selective-gradient-masking/) refines this for LLMs. The key finding is an *absorption effect*: once dangerous knowledge begins localizing based on labeled examples, even unlabeled dangerous content naturally gravitates toward the same "forget" parameters. This provides robustness to label noise that data filtering cannot achieve. On a 254M model, "unlearning" using SGTM is in some ways similarly robust to the gold standard of data filtering.
-
-::card[[../Lenses/anthropic-beyond-data-filtering-knowledge-localization-for-capability-removal-in-llms|SGTM]]
 
 **Alignment pretraining** targets not the model's knowledge but its *character*. [Tice et al. (2026)](https://arxiv.org/abs/2601.10160) show that upsampling documents about aligned AI behavior during pretraining reduces misalignment scores from 45% to 9%, while upsampling misalignment discourse increases misaligned behavior — "self-fulfilling alignment." These effects persist through post-training.
 
 Why does this work? The [persona selection model (PSM)](https://alignment.anthropic.com/2026/psm/) provides the conceptual frame. Building on the [simulators hypothesis](https://www.lesswrong.com/posts/vJFdjigzmcXMhNTsx/simulators) — that an LLM is a *simulator* capable of producing diverse *simulacra* (characters, agents) — PSM holds that pretraining builds a repertoire of personas, and post-training helps shape the "Assistant." Alignment pretraining works because it shapes the **prior over personas**: saturating the training data with positive AI archetypes biases the model toward an aligned Assistant. PSM recommends treating this deliberately — curating AI discourse in pre-training data as a first-class alignment intervention.
-
-::card[[../Lenses/marks-the-persona-selection-model-why-ai-assistants-might-behave-like-humans|Persona selection model]]
 
 **Reading (30 min):** Read [Pretraining data filtering](https://alignment.anthropic.com/2025/pretraining-data-filtering/), or [SGTM](https://alignment.anthropic.com/2025/selective-gradient-masking/), or [persona selection model (PSM)](https://alignment.anthropic.com/2026/psm/).
 

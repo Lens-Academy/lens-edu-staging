@@ -51,8 +51,6 @@ The takeaway is that there's no proof that a deployed model is safe. There's onl
 **Misuse of AI**
 The first reports of misuse of frontier AI systems has come out last month. Anthropic reports different militaries having used Claude in strategic decision making, and reports many other misuse cases. The full report can be found [here](https://www.anthropic.com/threat-intelligence-report-september-2026).
 
-::card[[../Lenses/anthropic-countering-misuse-of-ai-september-2026|Detecting and countering misuse of AI]]
-
 **Reading (30 mins)**: [Detecting and countering misuse of AI](https://www.anthropic.com/threat-intelligence-report-september-2026), [Constitutional Classifiers](https://arxiv.org/abs/2501.18837), or read about the [famous](https://time.com/collections/time100-ai-2025/7305870/pliny-the-liberator/) anonymous jailbreaker [Pliny the Liberator](https://medium.com/@JMerilehto/decoding-the-elder-plinius-repository-an-autopsy-of-the-ai-control-plane-88c503224940).
 
 ::card[[../Lenses/anthropic-countering-misuse-of-ai-september-2026|Detecting and countering misuse of AI]]
