@@ -23,9 +23,9 @@ After creating successful treatments for a variety of cancers, the lab issues th
 Explain what could still go wrong here, and why the model having good intentions and a positive track record does not eliminate the risk.
 
 assessment-instructions::
-Score according to the following rubric.
+Score {--{"author":"Andreas's AI","timestamp":1791495858525}@@according to --}{++{"author":"Andreas's AI","timestamp":1791495858525}@@out of 100. Pick the level that best describes the answer as a whole, then a score inside that level's range: near the top if the answer fully reaches the level, near the bottom if it only just does. Judge what the answer shows the learner understands, not only what it spells out: a correct extension that depends on a point shows that point is understood, even if ++}the {--{"author":"Andreas's AI","timestamp":1791495858525}@@following rubric.--}{++{"author":"Andreas's AI","timestamp":1791495858525}@@answer states it briefly. An extension shows nothing about points it does not depend on.++}
 
-**1** — Concludes nothing much goes wrong, since the model is aligned and well-behaved. Or predicts it turns on the lab with no account of why. *Example: "If it genuinely wants the research to go well and it defers to people, the main risks are ordinary ones like bugs or bad data."*
+{--{"author":"Andreas's AI","timestamp":1791495858525}@@**1** —--}{++{"author":"Andreas's AI","timestamp":1791495858525}@@**Level 1 (0-20):**++} Concludes nothing much goes wrong, since the model is aligned and well-behaved. Or predicts it turns on the lab with no account of why. *Example: "If it genuinely wants the research to go well and it defers to people, the main risks are ordinary ones like bugs or bad data."*
 
 **2** — Answers with goal misspecification: the model's goal is subtly wrong, or it misunderstands what the lab meant. A real failure mode, but it sidesteps the question, which stipulates that the intentions are good. Say so and push for what goes wrong even granting them. *Example: "It'll optimize the literal objective and miss what they actually wanted."*
 
