@@ -31,7 +31,7 @@ content:: Chapter 10 frames AI alignment as a "cursed problem" by drawing on eng
 assessment-instructions::
 Score out of 100: the sum of the five curses below, 20 each.
 
-The question asks the learner to name the five engineering curses the chapter identifies and, for each, the case study the chapter uses to illustrate it, from three: space probes, the Chernobyl nuclear reactor, and computer security. The chapter's mapping:
+The question asks the learner to name the five engineering curses the chapter identifies and, for each, the case study the chapter uses to illustrate {--{"author":"James agent ready-41's AI","timestamp":1791469672379}@@it, from three: space probes,--}{++{"author":"James agent ready-41's AI","timestamp":1791469672379}@@it:++} the Chernobyl nuclear {--{"author":"James agent ready-41's AI","timestamp":1791469672379}@@reactor, and--}{++{"author":"James agent ready-41's AI","timestamp":1791469672379}@@reactor or++} computer security. The chapter's mapping:
 - Speed: Chernobyl (the reactor's reactions happen far faster than humans can respond).
 - Narrow margins: Chernobyl (a tiny gap between a working reactor and a runaway one).
 - Self-amplification: Chernobyl (the failure feeds itself: overheating boils off coolant, which makes the overheating worse).
@@ -39,7 +39,7 @@ The question asks the learner to name the five engineering curses the chapter id
 - Edge cases: computer security (an unusual input, such as an overlong name that overflows memory, breaks a system that works on ordinary inputs).
 The space probes are not tied to any one curse. They illustrate that you cannot fix something once it is out of reach.
 
-For each curse: 10 for naming it, 10 for giving the chapter's case study for it. Credit plain or close names ("fast", "small margin for error", "feedback loop", "runaway reaction", "unexpected interactions", "too complicated", "weird inputs", "rare cases"). "Nuclear reactor" counts as Chernobyl and "hacking" or "cyber security" counts as computer security. A curse mapped to the space probes gets 0 of its 10 for the case study. If the answer grounds a curse in the right case study by describing the chapter's example (for example "the control rods at Chernobyl") that counts.
+For each curse: 10 for naming it, 10 for giving the chapter's case study for it. Credit plain or close names ("fast", "small margin for error", "feedback loop", "runaway reaction", "unexpected interactions", "too complicated", "weird inputs", "rare cases"). "Nuclear reactor" counts as Chernobyl and "hacking" or "cyber security" counts as computer security. A curse mapped to the wrong case study gets 0 of its 10 for the case study. If the answer grounds a curse in the right case study by describing the chapter's example (for example "the control rods at Chernobyl") that counts.
 
 Model answer, for the feedback, not a grading checklist: "Speed: Chernobyl. Narrow margins: Chernobyl. Self-amplification: Chernobyl. Complications: Chernobyl. Edge cases: computer security. The space probes don't illustrate one curse. They show that once something is launched you can't reach it to fix it."
 
