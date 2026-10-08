@@ -59,7 +59,7 @@ feedback-instructions:: Respond to what the learner actually wrote. Open on the 
 - If they made the distinction, ask what kind of action a position-statement calls for that despair does not, and what the chapter is preparing for later.
 - If they had that, ask why a crafted system this hard might be fixed by working harder, and why a grown one cannot.
 
-At full marks, just confirm briefly. Don't cite level numbers or band names (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: compare "we will fail no matter what" with "this attempt, with this level of understanding, will fail, so don't make it". Ask which one tells you to do something. If they still don't attempt it, rephrase the question.
+At full marks, just confirm briefly. Don't cite point values. If asked about the score, say in plain words what the answer did and the one most important thing it missed. If they say they don't understand, give one concrete foothold: compare "we will fail no matter what" with "this attempt, with this level of understanding, will fail, so don't make it". Ask which one tells you to do something. If they still don't attempt it, rephrase the question.
 
 One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
