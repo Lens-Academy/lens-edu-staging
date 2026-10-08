@@ -3,7 +3,7 @@ id: 'f77cdbf3-98ec-4d15-9e85-2b9f72a222c5'
 title: "How Could AI Cause Catastrophe?"
 tldr: "AI catastrophe is a set of pathways, not one story. Misuse, competitive pressure, institutional failure, loss of control, gradual disempowerment, and accumulative collapse call for different evidence and different interventions."
 summary_for_tutor: "Maps major catastrophic-AI pathways using the supplied readings. The learner should separate malicious use, race dynamics, organizational failure, rogue AI, gradual disempowerment, and accumulative systemic risk, then identify where those pathways interact."
-reading_minutes: 27
+reading_minutes: 16
 tutor_minutes: 22
 tags:
   - wip

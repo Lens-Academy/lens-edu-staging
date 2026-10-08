@@ -3,7 +3,7 @@ id: '12315689-5fd7-4671-995d-3a67945fb8e0'
 title: "Precaution Without Paralysis"
 tldr: "Deep uncertainty can justify action before scientific certainty, but caution still has costs. A good precautionary decision has to consider competing risks, reversibility, and what could be learned before options disappear."
 summary_for_tutor: "Moves from uncertain belief to action. Covers scientific versus policy thresholds, inductive risk, limits of simple precautionary rules, safety margins, multiple barriers, reversibility, adaptive action, and value of information."
-reading_minutes: 22
+reading_minutes: 14
 tutor_minutes: 22
 tags:
   - wip
