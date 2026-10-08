@@ -229,6 +229,11 @@ source:: [[../Lenses/omohundro-the-basic-ai-drives]]
 # Lens: Optimal Policies Tend to Seek Power
 source:: [[../Lenses/turner-optimal-policies-tend-to-seek-power]]
 
+# Lens: Parametrically Retargetable Decision-Makers Tend To Seek Power
+source:: [[../Lenses/turner-parametrically-retargetable-decision-makers-tend-to-seek-power]]
+
+# Lens: Power-seeking can be probable and predictive for trained agents
+source:: [[../Lenses/krakovna-power-seeking-can-be-probable-and-predictive-for-trained-agents]]
 # Lens: D.6.7 Further reading
 source:: [[../Lenses/Iliad D.6.7 - Further reading]]
 

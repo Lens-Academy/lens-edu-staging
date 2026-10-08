@@ -42,6 +42,8 @@ source:: [[../Lenses/Iliad E.1.11 - Prover-estimator debate]]
 # Lens: E.1.12 Experimental results, the AISI safety case and discussion
 source:: [[../Lenses/Iliad E.1.12 - Experimental results, the AISI safety case and discussion]]
 
+# Lens: Debating with More Persuasive LLMs Leads to More Truthful Answers
+source:: [[../Lenses/khan-debating-with-more-persuasive-llms-leads-to-more-truthful-answers]]
 # Submodule: E.2 Steganography & Backdoors
 
 # Lens: E.2.1 Overview and prerequisites
@@ -53,6 +55,8 @@ source:: [[../Lenses/Iliad E.2.2 - Introduction to steganography and the Stego G
 # Lens: Model weight extractions
 source:: [[../Lenses/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration]]
 
+# Lens: Models can hide COT with steganography
+source:: [[../Lenses/skaf-large-language-models-can-learn-and-generalize-steganographic-chain-of-thought-under-process-supervision]]
 # Lens: E.2.3 Perfect information-theoretic steganography
 source:: [[../Lenses/Iliad E.2.3 - Perfect information-theoretic steganography]]
 
@@ -61,6 +65,12 @@ source:: [[../Lenses/Iliad E.2.4 - Computational steganography]]
 
 # Lens: E.2.5 Backdoor via random ReLU measurements
 source:: [[../Lenses/Iliad E.2.5 - Backdoor via random ReLU measurements]]
+
+# Lens: Unelicitable Backdoors via Cryptographic Transformer Circuits
+source:: [[../Lenses/draguns-unelicitable-backdoors-in-language-models-via-cryptographic-transformer-circuits]]
+
+# Lens: Undetectable Backdoors in Model Parameters: Hiding Sparse Secrets in High Dimensions
+source:: [[../Lenses/choudhary-undetectable-backdoors-in-model-parameters-hiding-sparse-secrets-in-high-dimensions]]
 
 # Lens: E.2.6 Solution to the random ReLU exercise and further reading
 source:: [[../Lenses/Iliad E.2.6 - Solution to the random ReLU exercise and further reading]]
