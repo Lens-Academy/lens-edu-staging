@@ -77,6 +77,14 @@ source:: [[../Lenses/Without fundamental advances (trimmed, Extinction Risk Foun
 # Lens:
 source:: [[../Lenses/alexander-nicholas-decker-in-hell]]
 
+# Lens: Nearest unblocked strategy
+id:: 6f199d23-fab0-4c65-94fd-6f8dd30d9079
+optional:: true
+#### Article
+source:: [[../articles/lesswrong-nearest-unblocked-strategy]]
+from:: "'Nearest unblocked strategy' seems like it should be a"
+to:: "that doesn't trigger $P$."
+
 # Lens:
 source:: [[../Lenses/Sharp left turn]]
 
