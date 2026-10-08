@@ -1,14 +1,14 @@
 ---
 id: 'e3409f24-af9d-4389-8e58-29c2c2a9a736'
-title: "D.1.2 Reinforcement Learning"
-tldr: "The Bellman equations and what follows from them: the existence of optimal policies, the policy improvement theorem, the rate of convergence of Bellman updates, and the convergence of Q-learning."
-summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet D.1.2, Reinforcement Learning. Preserve its mathematical notation, exercise sequence, hints, and solutions."
+title: "D.1.2.1 Setup"
+tldr: "Sets up the reinforcement learning problem: an agent acting in a Markov decision process with states, actions, a transition kernel, a reward function, policies and trajectories."
+summary_for_tutor: "Iliad worksheet D.1.2 Reinforcement Learning, opening setup. Contains the learning goals, Definitions 0.1-0.4 (spaces and notation, MDP environment (T, R), policy, trajectory), and the stationarity and Markov properties. Keep the notation S, A, gamma, T(s'|s,a), R(s,a,s'), pi(a|s). No exercises in this lens."
 authors:
-  - Leon Lang
-  - David Quarel
-source_url: https://github.com/iliad-team/iliad-intensive/blob/1eb9e340305e03de3f81a761167e13c54c71f19d/tex/reinforcement-learning/main.tex
-upstream_commit: '1eb9e340305e03de3f81a761167e13c54c71f19d'
-provenance_recorded_at: '2026-08-17'
+  - Leon Lang (Iliad)
+  - David Quarel (ARENA)
+source_url: https://iliad-intensive.org/agency/reinforcement-learning/
+upstream_commit: '11944e29333e1e2a2a0c0d93b6398a6df5598ab3'
+provenance_recorded_at: '2026-10-08'
 ---
 
 #### Text
@@ -26,51 +26,42 @@ content::
 
 In this exercise sheet, we prove a variety of results that are behind the [ARENA Intro to RL materials](https://learn.arena.education/chapter2_rl/01_intro_rl/).
 
-An **agent** interacts with an **environment** in discrete time steps $t = 0, 1, 2, \ldots$. On timestep $t$, the agent observes the current state $s_{t} \in \mathcal{S}$ and selects an action $a_{t} \in \mathcal{A}$ according to its policy. The environment then responds with a reward $r_{t+1}\in \mathbb{R}$ and a new state $s_{t+1}\in \mathcal{S}$. (The reward and next state are indexed by $t+1$ because they are produced by the environment after the agent's action.) The goal is to act so as to maximize expected discounted future reward.
+An **agent** interacts with an **environment** in discrete time steps $t = 0, 1, 2, \ldots$. On timestep $t$, the agent observes the current state $s_{t} \in {\mathcal{S}}$ and selects an action $a_{t} \in {\mathcal{A}}$ according to its policy. The environment then responds with a reward $r_{t+1}\in \mathbb{R}$ and a new state $s_{t+1}\in {\mathcal{S}}$. (The reward and next state are indexed by $t+1$ because they are produced by the environment after the agent's action.) The goal is to act so as to maximize expected discounted future reward.
 
 These environments are called **Markov decision processes** (MDPs). They satisfy two key properties: (i) **stationarity** — the transition and reward functions do not change over time, and (ii) the **Markov property** — the distribution over the next state and reward depends only on the current state and action, not on the full history of past interactions. Together, these properties mean that the current state $s_{t}$ is a sufficient summary of the past for the purpose of choosing optimal actions.
 
-:::callout {title="Definition" tone="purple"}
+:::callout {title="Definition" tone="blue"}
 
-**Definition 0.1 (Spaces and notation).** - $\mathcal{S}$ — finite **state space**
-- $\mathcal{A}$ — finite **action space**
+**Definition 0.1 (Spaces and notation).** - ${\mathcal{S}}$ — finite **state space**
+- ${\mathcal{A}}$ — finite **action space**
 - $\gamma \in (0, 1)$ — **discount factor**
 - $\Delta X$ — set of all probability distributions over a set $X$
 - $\llbracket P \rrbracket$ — **Iverson bracket**: $1$ if $P$ is true, $0$ if false
 
 :::
 
-^def-spaces
-
-
-:::callout {title="Definition" tone="purple"}
+:::callout {title="Definition" tone="blue"}
 
 **Definition 0.2 (Environment).** An MDP **environment** is specified by a pair $(T, R)$:
 
-- $T : \mathcal{S} \times \mathcal{A} \to \Delta \mathcal{S}$ is the **transition kernel**: given state $s$ and action $a$, the next state is drawn $s' \sim T(\cdot \mid s, a)$.
-- $R : \mathcal{S} \times \mathcal{A} \times \mathcal{S} \to \mathbb{R}$ is the **reward function**: on a transition from $s$ to $s'$ under action $a$, the agent receives reward $R(s, a, s')$. [^1]
+- $T : {\mathcal{S}} \times {\mathcal{A}} \to \Delta {\mathcal{S}}$ is the **transition kernel**: given state $s$ and action $a$, the next state is drawn $s' \sim T(\cdot \mid s, a)$.
+- $R : {\mathcal{S}} \times {\mathcal{A}} \times {\mathcal{S}} \to \mathbb{R}$ is the **reward function**: on a transition from $s$ to $s'$ under action $a$, the agent receives reward $R(s, a, s')$. [^1]
 
 :::
 
-^def-environment
+:::callout {title="Definition" tone="blue"}
 
+**Definition 0.3 (Policy).** A **policy** $\pi : {\mathcal{S}} \to \Delta {\mathcal{A}}$ maps each state to a probability distribution over actions. Given state $s$:
 
-:::callout {title="Definition" tone="purple"}
-
-**Definition 0.3 (Policy).** A **policy** $\pi : \mathcal{S} \to \Delta \mathcal{A}$ maps each state to a probability distribution over actions. Given state $s$:
-
-- $\pi(\cdot \mid s)$ is a distribution over $\mathcal{A}$,
+- $\pi(\cdot \mid s)$ is a distribution over ${\mathcal{A}}$,
 - $\pi(a \mid s) \in [0, 1]$ is the probability of choosing action $a$,
 - the agent samples $a \sim \pi(\cdot \mid s)$.
 
-A policy is **deterministic** if $\pi(a \mid s) \in \{0, 1\}$ for all $a, s$. In this case, we abuse notation and write $\pi(s) := \operatorname*{arg\,max}_{a \in \mathcal{A}}\pi(a \mid s)$ for the unique action selected at state $s$.
+A policy is **deterministic** if $\pi(a \mid s) \in \{0, 1\}$ for all $a, s$. In this case, we abuse notation and write $\pi(s) := {\operatorname*{arg\,max}}_{a \in {\mathcal{A}}}\pi(a \mid s)$ for the unique action selected at state $s$.
 
 :::
 
-^def-policy
-
-
-:::callout {title="Definition" tone="purple"}
+:::callout {title="Definition" tone="blue"}
 
 **Definition 0.4 (Trajectory).** When policy $\pi$ interacts with environment $(T, R)$ starting from initial state $s_{0}$, the resulting **trajectory** $(s_{0}, a_{0}, r_{1}, s_{1}, a_{1}, r_{2}, s_{2}, a_{2}, r_{3}, \ldots)$ is generated by
 
