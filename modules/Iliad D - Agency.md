@@ -143,6 +143,7 @@ source:: [[../Lenses/lesswrong-reflectively-consistent-degree-of-freedom]]
 
 # Lens: General purpose search
 source:: [[../Lenses/johnswentworth-whats-general-purpose-search-and-why-might-we-expect-to-see-it-in-trained-ml-systems]]
+
 # Lens: D.4.1.3 The five strands and the exercise plan
 source:: [[../Lenses/Iliad D.4.1.3 - The five strands and the exercise plan]]
 
