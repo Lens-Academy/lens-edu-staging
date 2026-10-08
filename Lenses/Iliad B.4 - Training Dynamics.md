@@ -2,7 +2,7 @@
 id: 'd72a03aa-8b16-450c-98f7-a6a31cfaa526'
 title: "B.4.1 Intent, setup and notation"
 tldr: "Two videos on learning dynamics and implicit bias, the learning goals for the day, and the setup of deep linear networks with squared loss, end-to-end matrix W and teacher matrix M."
-summary_for_tutor: "This is the intro of Iliad worksheet B.4 Training Dynamics: two videos, the learning goals (implicit regularization, lazy and rich regimes, loss landscape of deep linear networks, emergent misalignment), Section 1 'Module Intent' and Section 2 'Setup and notation'. It defines DLNs f(x) = W_L ... W_1 x with end-to-end matrix W, squared loss, and in the whitened population limit L(W) = 1/2 ||M - W||_F^2 with teacher M = Sigma_YX and SVD singular values s_1 >= ... >= s_r > 0. Keep the notation W_l, W, M, s_alpha. The sheet advises keeping at least 30 minutes for problem 3. No exercises."
+summary_for_tutor: "This is the intro of worksheet B.4 (training dynamics): two videos, the learning goals (implicit regularization, lazy and rich regimes, loss landscape of deep linear networks, emergent misalignment), Section 1 'Module Intent' and Section 2 'Setup and notation'. It defines DLNs f(x) = W_L ... W_1 x with end-to-end matrix W, squared loss, and in the whitened population limit L(W) = 1/2 ||M - W||_F^2 with teacher M = Sigma_YX and SVD singular values s_1 >= ... >= s_r > 0. Keep the notation W_l, W, M, s_alpha. The sheet advises keeping at least 30 minutes for problem 3. No exercises."
 authors:
   - Guillaume Corlouer (Stormglass)
 source_url: https://iliad-intensive.org/learning/training-dynamics/

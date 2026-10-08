@@ -2,7 +2,7 @@
 id: 'd1d53fab-a58e-4bec-b214-868f5aeab65b'
 title: "B.4.2 Loss landscape geometry"
 tldr: "Finds the critical points of deep linear networks: the loss splits into scalar modes, the origin is a saddle, critical points keep a subset of modes, and global minima form a high-dimensional manifold."
-summary_for_tutor: "This is Section 3 'Loss landscape geometry' of Iliad worksheet B.4 Training Dynamics, following Achour et al. 2024. It contains Exercises 3.1-3.4: diagonal decomposition of the loss, scalar critical points and the Hessian at the origin (eigenvalues +s and -s), critical points W = P_S M with loss 1/2 sum of s_alpha^2 over missing modes, and invariance of the student map under the GL_h action. Collapsed solutions and a hint on 3.2 are included. Keep the notation P_S, GL_h, mu(theta). Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "This is Section 3 'Loss landscape geometry' of worksheet B.4 (training dynamics), following Achour et al. 2024. It contains Exercises 3.1-3.4: diagonal decomposition of the loss, scalar critical points and the Hessian at the origin (eigenvalues +s and -s), critical points W = P_S M with loss 1/2 sum of s_alpha^2 over missing modes, and invariance of the student map under the GL_h action. Collapsed solutions and a hint on 3.2 are included. Keep the notation P_S, GL_h, mu(theta). Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Guillaume Corlouer (Stormglass)
 source_url: https://iliad-intensive.org/learning/training-dynamics/

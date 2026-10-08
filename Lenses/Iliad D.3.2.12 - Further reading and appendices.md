@@ -2,7 +2,7 @@
 id: '0ce8d7f6-e329-49a0-9508-2fcbb96932a7'
 title: "D.3.2.12 Further reading and appendices"
 tldr: "Lists further reading, a worked coin example of the mixture and value function, Knuth's difficulty scale and the references."
-summary_for_tutor: "End matter of Iliad worksheet D.3.2 AIXI: Further reading, Appendix A (worked example with a two-headed and a fair coin: prior 1/2 each, xi(o_1 = H) = 3/4, posterior 2/3 and 1/3, xi(o_2 = H) = 5/6, V_xi^{pi_H} = 3/4 and convergence to 1), Appendix B (Knuth difficulty scale) and references with footnotes. No exercises in this lens."
+summary_for_tutor: "End matter of worksheet D.3.2 (AIXI): Further reading, Appendix A (worked example with a two-headed and a fair coin: prior 1/2 each, xi(o_1 = H) = 3/4, posterior 2/3 and 1/3, xi(o_2 = H) = 5/6, V_xi^{pi_H} = 3/4 and convergence to 1), Appendix B (Knuth difficulty scale) and references with footnotes. No exercises in this lens."
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/
