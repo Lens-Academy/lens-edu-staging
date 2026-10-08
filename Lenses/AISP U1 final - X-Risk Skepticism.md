@@ -67,7 +67,7 @@ This creates a healthy research question: **which parts of AI safety are genuine
 
 \## The Checkpoints for Intervention Argument
 
-The third skeptical argument has a very intuitive form: dangerous AI cannot appear from nowhere. People have to build more capable systems, connect them to infrastructure, automate more tasks, grant access to resources, and continue deploying despite warning signs. At each stage, humanity gets another chance to stop. If the danger becomes real, we can intervene then.[^swoboda]
+The third skeptical argument has a very intuitive form: dangerous AI cannot appear from nowhere. People have to build more capable systems, connect them to infrastructure, automate more tasks, grant access to resources, and continue deploying despite warning signs. At each stage, humanity gets another chance to stop. If the danger becomes real, we can intervene then.[^cite-swoboda-2025]
 
 This argument is strongest when three conditions hold. First, the warning signs are observable before the worst damage occurs. Second, society retains the technical and political ability to intervene after those signs appear. Third, waiting produces valuable information without irreversibly worsening the situation.
 
@@ -79,11 +79,11 @@ The existence of future checkpoints is a real source of reassurance, but it does
 
 \## Priority arguments need a second layer
 
-At this point, it is useful to separate **risk assessment** from **priority assessment**. Even if you think a catastrophic pathway is plausible, that does not tell you which intervention deserves resources. Priority depends on tractability, cost, side effects, neglectedness, and the quality of alternatives.
+A separate question concerns **priority**. A catastrophic pathway can be plausible while a particular intervention is still a poor use of resources. Priority depends on tractability, cost, side effects, neglectedness, and the quality of alternatives.
 
 Suppose you assign ten percent to a serious AI catastrophe but think none of the available interventions change that probability. Your concern may be high while your willingness to fund a particular programme remains low. Conversely, you could assign one percent to catastrophe and still support a cheap evaluation programme if it provides valuable information and has few downsides.
 
-This is where many public debates become misleading. People argue over a single "p(doom)" as if every policy recommendation were a monotonic function of that number. It is not. Two people can agree on the probability and disagree completely about the best intervention. Two people can disagree on the probability and still support the same low-cost, robust safety measure.
+Public debates often compress all of this into one number such as "p(doom)". Two people can agree on the probability and disagree completely about the best intervention because they disagree about tractability, costs, or alternatives. Two people can disagree sharply on the probability and still support the same low-cost safety measure because that measure is useful across both views.
 
 \## Current harms, catastrophic risks, and one shared system
 
