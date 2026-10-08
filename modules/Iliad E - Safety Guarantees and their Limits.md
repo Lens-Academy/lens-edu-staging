@@ -15,6 +15,9 @@ source:: [[../Lenses/Iliad E.1.2 - Find the mistake in the proof]]
 # Lens: E.1.3 Provably safe AI and verification
 source:: [[../Lenses/Iliad E.1.3 - Provably safe AI and verification]]
 
+# Lens: VeriPlan: Integrating Formal Verification and LLMs into End-User Planning
+source:: [[../Lenses/lee-veriplan-integrating-formal-verification-and-llms-into-end-user-planning]]
+
 # Lens: E.1.4 The debate setup and interactive proofs
 source:: [[../Lenses/Iliad E.1.4 - The debate setup and interactive proofs]]
 
@@ -59,6 +62,8 @@ source:: [[../Lenses/rinberg-verifying-llm-inference-to-detect-model-weight-exfi
 # Lens: Models can hide COT with steganography
 source:: [[../Lenses/skaf-large-language-models-can-learn-and-generalize-steganographic-chain-of-thought-under-process-supervision]]
 
+# Lens: Steganography can arise and not easily prevented by paraphrasing
+source:: [[../Lenses/mathew-hidden-in-plain-text-emergence-mitigation-of-steganographic-collusion-in-llms]]
 # Lens: E.2.3 Perfect information-theoretic steganography
 source:: [[../Lenses/Iliad E.2.3 - Perfect information-theoretic steganography]]
 
