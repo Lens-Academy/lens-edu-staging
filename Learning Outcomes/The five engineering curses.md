@@ -1,6 +1,6 @@
 ---
 id: 5e722d28-f1ad-487c-8866-43e5d48115ee
-learning-outcome: "Enumerate the five engineering curses Chapter 10 names (speed, narrow margins, self-amplification, complications, and edge cases), and identify which case study (space probes, Chernobyl, computer security) illustrates each."
+learning-outcome: "Enumerate the five engineering curses Chapter 10 names (speed, narrow margins, self-amplification, complications, and edge cases), and identify which case study (Chernobyl or computer security) illustrates each."
 reading-from: "beginning of chapter"
 reading-to: "Those constraints will tend to get in the way of the AI accomplishing one objective or another. And then you are matching your own wits and ability to nail down the edge cases against however much intelligence is flowing through the system, to see if your constraint holds up."
 authors:
@@ -24,7 +24,7 @@ id:: d616e493-ef55-4429-8bae-e93d6fd20b99
 
 #### Question: Open
 id:: 55514d28-1482-41f4-ab4d-68d470fced52
-content:: Chapter 10 frames AI alignment as a "cursed problem" by drawing on three engineering domains (space probes, Chernobyl-style nuclear reactors, and computer security) to identify a small set of named "curses" that make engineering hard. The chapter argues that all of these curses apply to AI alignment, and that the curse of edge cases applies in a uniquely worse form.
+content:: Chapter 10 frames AI alignment as a "cursed problem" by drawing on engineering case studies, among them Chernobyl-style nuclear reactors and computer security, to identify a small set of named "curses" that make engineering hard. The chapter argues that all of these curses apply to AI alignment, and that the curse of edge cases applies in a uniquely worse form.
 
 **Name the five engineering curses Chapter 10 identifies, and for each one, identify which case study (space probes, Chernobyl, or computer security) the chapter uses to illustrate it.**
 
