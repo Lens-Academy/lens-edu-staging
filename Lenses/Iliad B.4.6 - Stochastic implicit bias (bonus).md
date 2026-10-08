@@ -2,7 +2,7 @@
 id: 'f7126dcf-e659-4b89-afdc-f423334620c1'
 title: "B.4.6 Stochastic implicit bias (bonus)"
 tldr: "A bonus section on SGD noise: the Boltzmann equilibrium of the Langevin model, the role of temperature and flat minima, and implicit bias from anisotropic noise."
-summary_for_tutor: "This is Section 8 'Stochastic implicit bias (bonus)' of Iliad worksheet B.4 Training Dynamics. It models SGD as a Langevin SDE and contains Exercises 8.1-8.3: the Boltzmann equilibrium from the Fokker-Planck equation with beta = 2/(eta sigma^2), temperature and flatness, and anisotropic noise with the Ito drift term. Collapsed solutions are included. Keep the notation Sigma(theta), eta, sigma, beta. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "This is Section 8 'Stochastic implicit bias (bonus)' of worksheet B.4 (training dynamics). It models SGD as a Langevin SDE and contains Exercises 8.1-8.3: the Boltzmann equilibrium from the Fokker-Planck equation with beta = 2/(eta sigma^2), temperature and flatness, and anisotropic noise with the Ito drift term. Collapsed solutions are included. Keep the notation Sigma(theta), eta, sigma, beta. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Guillaume Corlouer (Stormglass)
 source_url: https://iliad-intensive.org/learning/training-dynamics/

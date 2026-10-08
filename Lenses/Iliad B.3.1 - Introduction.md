@@ -2,7 +2,7 @@
 id: '362cd9fe-e0c9-47e0-9cf5-a23b33317722'
 title: "B.3.1 Introduction"
 tldr: "Introduces singular learning theory and degeneracy in neural networks, outlines the four technical sections and prerequisites, and gives a fast-track route through the exercises."
-summary_for_tutor: "This is the introduction to Iliad worksheet B.3 Singular Learning Theory. It explains degeneracy (via the mathematical and biological meanings of the word), lists the sections (preliminaries, what is degeneracy, the degeneracy hierarchy and the local learning coefficient, degeneracy and Bayesian deep learning, further readings), the prerequisites, and a fast-track list naming the exercises to do (2.1, 2.2, 2.9 or 2.10, 2.14 and/or 2.15, 3.1, 3.2, 3.4, 3.7, 3.10, 4.2). It contains no exercises itself and has an embedded video, Deep Learning Is Singular - Here's What That Means."
+summary_for_tutor: "This is the introduction to worksheet B.3 (singular learning theory). It explains degeneracy (via the mathematical and biological meanings of the word), lists the sections (preliminaries, what is degeneracy, the degeneracy hierarchy and the local learning coefficient, degeneracy and Bayesian deep learning, further readings), the prerequisites, and a fast-track list naming the exercises to do (2.1, 2.2, 2.9 or 2.10, 2.14 and/or 2.15, 3.1, 3.2, 3.4, 3.7, 3.10, 4.2). It contains no exercises itself and has an embedded video, Deep Learning Is Singular - Here's What That Means."
 authors:
   - Kai Ogden (University of Oxford)
   - Matthew Farrugia-Roberts (University of Oxford)

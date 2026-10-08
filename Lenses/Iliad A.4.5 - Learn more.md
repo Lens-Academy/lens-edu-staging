@@ -2,7 +2,7 @@
 id: 'cb38d0da-95c5-4468-98bb-7c8ffbaed7b0'
 title: "A.4.5 Learn more"
 tldr: "A reading list for further study of reward learning: methods, underspecification and misspecification, alignment targets, and critiques of the reward framing."
-summary_for_tutor: "This is the 'Learn more' list of Iliad worksheet A.4 Reward Learning Theory, with the single reference Lang et al. 2024. It groups optional papers on reward learning frameworks (RLHF, IRL, CIRL, assistance games), underspecification and misspecification, how reward learning fits into alignment (alignment targets, the reward hypothesis, inner and outer alignment) and Joar Skalse's sequence on theoretical reward learning. No exercises."
+summary_for_tutor: "This is the 'Learn more' list of worksheet A.4 (reward learning theory), with the single reference Lang et al. 2024. It groups optional papers on reward learning frameworks (RLHF, IRL, CIRL, assistance games), underspecification and misspecification, how reward learning fits into alignment (alignment targets, the reward hypothesis, inner and outer alignment) and Joar Skalse's sequence on theoretical reward learning. No exercises."
 authors:
   - Leon Lang (Iliad)
   - Joar Skalse (Deducto Limited, King’s College London)

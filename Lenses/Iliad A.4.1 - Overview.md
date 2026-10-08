@@ -2,7 +2,7 @@
 id: '3a5b3e94-ae1e-4409-89eb-9b10233789cd'
 title: "A.4.1 Overview"
 tldr: "Prerequisites, learning goals and the reading list for the reward learning theory session: slides, the exercise sheet and Joar Skalse's lecture and agenda post."
-summary_for_tutor: "This is the overview of Iliad worksheet A.4 Reward Learning Theory. It lists prerequisites (RL, RLHF, AI alignment basics), the learning goals (place of reward learning in alignment, conditions under which RLHF via trajectory comparisons yields an aligned objective, underspecification and misspecification, assistance games), a fast-track and the main content. The exercise sheet is based on Lang et al. 2024 (partial observability in RLHF) and Benefits of Assistance over Reward Learning. The facilitator roadmap is hidden from learners."
+summary_for_tutor: "This is the overview of worksheet A.4 (reward learning theory). It lists prerequisites (RL, RLHF, AI alignment basics), the learning goals (place of reward learning in alignment, conditions under which RLHF via trajectory comparisons yields an aligned objective, underspecification and misspecification, assistance games), a fast-track and the main content. The exercise sheet is based on Lang et al. 2024 (partial observability in RLHF) and Benefits of Assistance over Reward Learning. The facilitator roadmap is hidden from learners."
 authors:
   - Leon Lang (Iliad)
   - Joar Skalse (Deducto Limited, King’s College London)

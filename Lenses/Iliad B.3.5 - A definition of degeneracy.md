@@ -2,7 +2,7 @@
 id: '70a20553-6e0e-4949-9e70-7920ac594c10'
 title: "B.3.5 A definition of degeneracy"
 tldr: "Defines degeneracy of a parameter-function map as a zero directional derivative, and works through toy parametrisations of the constants."
-summary_for_tutor: "This is Section 2.1 of Iliad worksheet B.3 Singular Learning Theory. It defines a parameter-function map as degenerate at w if D_v Phi(w) = 0 for some non-zero direction v, plus the terms somewhere degenerate and everywhere degenerate. It contains Exercises 2.1 (w), 2.2 (w^3), 2.3 (a*b) and 2.4 (a+b) with hints and collapsed solutions. Keep the notation D_v Phi(w). Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "This is Section 2.1 of worksheet B.3 (singular learning theory). It defines a parameter-function map as degenerate at w if D_v Phi(w) = 0 for some non-zero direction v, plus the terms somewhere degenerate and everywhere degenerate. It contains Exercises 2.1 (w), 2.2 (w^3), 2.3 (a*b) and 2.4 (a+b) with hints and collapsed solutions. Keep the notation D_v Phi(w). Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Kai Ogden (University of Oxford)
   - Matthew Farrugia-Roberts (University of Oxford)

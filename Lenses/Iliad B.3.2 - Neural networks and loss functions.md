@@ -2,7 +2,7 @@
 id: '6398339b-6e70-4456-a64e-c577ce2ccdde'
 title: "B.3.2 Neural networks and loss functions"
 tldr: "Defines neural networks as parameter-function maps with examples (linear neuron, deep linear network, MLP), then loss functions, population and empirical loss."
-summary_for_tutor: "This is Section 1.1 and 1.2 of Iliad worksheet B.3 Singular Learning Theory. It defines the parameter-function map Phi from parameter space W to hypothesis class F, Examples 1.1 to 1.4 (linear neuron, multi-linear network, two-layer deep linear network f_{A,B}(x)=BAx, MLP f_{A,B}(x)=B sigma(Ax)), per-example loss, squared error, cross entropy, population loss L(w), empirical loss L_n(w) and SGD. It contains Exercises 1.1 (biased neurons) and 1.2 (empirical versus population loss) with collapsed solutions. Keep the notation Phi, f_w, W, L, L_n. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "This is Section 1.1 and 1.2 of worksheet B.3 (singular learning theory). It defines the parameter-function map Phi from parameter space W to hypothesis class F, Examples 1.1 to 1.4 (linear neuron, multi-linear network, two-layer deep linear network f_{A,B}(x)=BAx, MLP f_{A,B}(x)=B sigma(Ax)), per-example loss, squared error, cross entropy, population loss L(w), empirical loss L_n(w) and SGD. It contains Exercises 1.1 (biased neurons) and 1.2 (empirical versus population loss) with collapsed solutions. Keep the notation Phi, f_w, W, L, L_n. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Kai Ogden (University of Oxford)
   - Matthew Farrugia-Roberts (University of Oxford)

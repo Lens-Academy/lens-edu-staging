@@ -2,7 +2,7 @@
 id: 'b0ac1f34-462c-45e8-9802-94f6e36ee223'
 title: "B.3.6 Degeneracy and continuous symmetries"
 tldr: "Shows how continuous symmetries of a parameter-function map give degenerate directions, with ReLU scaling and linear autoencoder rotation examples."
-summary_for_tutor: "This is Section 2.2 of Iliad worksheet B.3 Singular Learning Theory. It defines symmetry and continuous symmetry {T_t}, trivial versus non-trivial at w, Proposition 2.1 (a non-trivial continuous symmetry at w implies degeneracy at w, with proof) and Corollary 2.2. It contains Exercises 2.5 (the a+b translation symmetry), 2.6 (ReLU scaling symmetry) and 2.7 (rotation symmetry in a linear autoencoder, with a hint) with collapsed solutions. Keep the notation T_t and Phi. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "This is Section 2.2 of worksheet B.3 (singular learning theory). It defines symmetry and continuous symmetry {T_t}, trivial versus non-trivial at w, Proposition 2.1 (a non-trivial continuous symmetry at w implies degeneracy at w, with proof) and Corollary 2.2. It contains Exercises 2.5 (the a+b translation symmetry), 2.6 (ReLU scaling symmetry) and 2.7 (rotation symmetry in a linear autoencoder, with a hint) with collapsed solutions. Keep the notation T_t and Phi. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Kai Ogden (University of Oxford)
   - Matthew Farrugia-Roberts (University of Oxford)

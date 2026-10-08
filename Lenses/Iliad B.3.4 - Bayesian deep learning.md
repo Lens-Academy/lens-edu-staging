@@ -2,7 +2,7 @@
 id: 'e4242be2-d6d7-40d1-9907-30ea662e4fbd'
 title: "B.3.4 Bayesian deep learning"
 tldr: "Covers Bayesian inference for networks: prior, posterior, partition function, free energy, and local versions over a neighbourhood of parameter space."
-summary_for_tutor: "This is Section 1.4 of Iliad worksheet B.3 Singular Learning Theory. It gives Definition 1.5 (posterior pi_n, partition function Z_n, free energy F_n = -log Z_n) and Definition 1.6 (local partition function Z_n(U) and local free energy F_n(U)). It contains Exercises 1.6 (posterior as a Gibbs distribution), 1.7 (local posterior mass and local free energy) and 1.8 (partition function of a partitioned parameter space) with collapsed solutions. Keep the notation phi, pi_n, Z_n, F_n, U. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "This is Section 1.4 of worksheet B.3 (singular learning theory). It gives Definition 1.5 (posterior pi_n, partition function Z_n, free energy F_n = -log Z_n) and Definition 1.6 (local partition function Z_n(U) and local free energy F_n(U)). It contains Exercises 1.6 (posterior as a Gibbs distribution), 1.7 (local posterior mass and local free energy) and 1.8 (partition function of a partitioned parameter space) with collapsed solutions. Keep the notation phi, pi_n, Z_n, F_n, U. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Kai Ogden (University of Oxford)
   - Matthew Farrugia-Roberts (University of Oxford)

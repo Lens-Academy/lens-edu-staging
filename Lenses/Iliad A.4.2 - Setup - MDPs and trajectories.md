@@ -2,7 +2,7 @@
 id: 'e4bf433f-9a60-4992-bcdf-8ec7e6958e46'
 title: "A.4.2 Setup: MDPs and trajectories"
 tldr: "Defines finite-horizon MDPs, state trajectories, return, policies and the true value J of a policy, the basic notation used in the rest of the sheet."
-summary_for_tutor: "This is the Setup of Iliad worksheet A.4 Reward Learning Theory. It gives Definition 0.1: an MDP (S, A, T, R, P_0, T, gamma) with finite S and A, a state trajectory, its return G(s) as the discounted sum of rewards, a policy pi inducing P^pi, and the true value J(pi) = E[G]. Keep the notation S, A, G, J, P^pi. No exercises."
+summary_for_tutor: "This is the Setup of worksheet A.4 (reward learning theory). It gives Definition 0.1: an MDP (S, A, T, R, P_0, T, gamma) with finite S and A, a state trajectory, its return G(s) as the discounted sum of rewards, a policy pi inducing P^pi, and the true value J(pi) = E[G]. Keep the notation S, A, G, J, P^pi. No exercises."
 authors:
   - Leon Lang (Iliad)
   - Joar Skalse (Deducto Limited, King’s College London)

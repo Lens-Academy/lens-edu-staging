@@ -2,7 +2,7 @@
 id: 'a96ab9e7-b43f-4d3b-992e-b068405bb6c1'
 title: "A.4.3 Hiding failures: observations and beliefs"
 tldr: "Works through the CUDA-install example where an assistant can hide errors, with exercises on returns, observation kernels, human beliefs and the observation return G_obs."
-summary_for_tutor: "This is Section 1 'Hiding failures' of Iliad worksheet A.4 Reward Learning Theory, from Lang et al. 2024. It sets up the CUDA MDP (states S, I, W, W_H, L, L_H, T; actions a_I, a_C, a_H, a_T; success probability p; hidden-error penalty r; T=3, gamma=1) and covers Definition 1.1 (observation kernel), Definition 1.2 (human belief, Bayesian belief from a prior) and Definition 1.3 (observation return G_obs and observation value J_obs). It contains Exercises 1.1-1.5, with a hint on 1.5 and collapsed solutions. Keep the notation p_H, p_W, o_empty, G_obs, J_obs. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "This is Section 1 'Hiding failures' of worksheet A.4 (reward learning theory), from Lang et al. 2024. It sets up the CUDA MDP (states S, I, W, W_H, L, L_H, T; actions a_I, a_C, a_H, a_T; success probability p; hidden-error penalty r; T=3, gamma=1) and covers Definition 1.1 (observation kernel), Definition 1.2 (human belief, Bayesian belief from a prior) and Definition 1.3 (observation return G_obs and observation value J_obs). It contains Exercises 1.1-1.5, with a hint on 1.5 and collapsed solutions. Keep the notation p_H, p_W, o_empty, G_obs, J_obs. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Leon Lang (Iliad)
   - Joar Skalse (Deducto Limited, King’s College London)

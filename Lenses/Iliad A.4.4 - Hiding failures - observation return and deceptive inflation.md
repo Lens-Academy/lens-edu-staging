@@ -2,7 +2,7 @@
 id: '105ecbbe-d6e4-4229-955d-890b86cab119'
 title: "A.4.4 Hiding failures: observation return and deceptive inflation"
 tldr: "Computes true and observation values for four policies in the CUDA example, shows when RLHF picks the policy that hides errors, and names deceptive inflation and overjustification."
-summary_for_tutor: "This is the second part of Section 1 of Iliad worksheet A.4 Reward Learning Theory. It contains Exercises 1.6-1.10: interpreting J_obs ('RLHF rewards what behavior looks like'), computing G_obs and J(pi), J_obs(pi) for the policies [a_T], [a_I a_T], [a_I a_C a_T], [a_I a_H a_T], showing that for p > 1/3 and p_H < 5/(5+r) the RLHF-optimal policy hides errors, and reading Figure 2. It closes with deceptive inflation, overjustification and the link to AI safety via debate. Collapsed solutions and one hint are included. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "This is the second part of Section 1 of worksheet A.4 (reward learning theory). It contains Exercises 1.6-1.10: interpreting J_obs ('RLHF rewards what behavior looks like'), computing G_obs and J(pi), J_obs(pi) for the policies [a_T], [a_I a_T], [a_I a_C a_T], [a_I a_H a_T], showing that for p > 1/3 and p_H < 5/(5+r) the RLHF-optimal policy hides errors, and reading Figure 2. It closes with deceptive inflation, overjustification and the link to AI safety via debate. Collapsed solutions and one hint are included. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Leon Lang (Iliad)
   - Joar Skalse (Deducto Limited, King’s College London)

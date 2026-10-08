@@ -2,7 +2,7 @@
 id: '58ce8d41-8e79-4ace-b19c-481298dfa6c0'
 title: "B.3.3 Statistical models and parameter-distribution maps"
 tldr: "Moves from functions to conditional distributions: parameter-distribution maps, noise models, and why maximum likelihood matches minimising common losses."
-summary_for_tutor: "This is Section 1.3 of Iliad worksheet B.3 Singular Learning Theory. It defines the parameter-distribution map Psi with densities p(y|x,w), the Gaussian noise model, likelihood and negative log-likelihood. It contains Exercises 1.3 (maximum likelihood as MSE minimisation), 1.4 (cross entropy) and 1.5 (general loss with partition function Z(x,w)) with collapsed solutions, and a remark on negative log-likelihood loss. Keep the notation Psi, p_w, X_n, Y_n. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "This is Section 1.3 of worksheet B.3 (singular learning theory). It defines the parameter-distribution map Psi with densities p(y|x,w), the Gaussian noise model, likelihood and negative log-likelihood. It contains Exercises 1.3 (maximum likelihood as MSE minimisation), 1.4 (cross entropy) and 1.5 (general loss with partition function Z(x,w)) with collapsed solutions, and a remark on negative log-likelihood loss. Keep the notation Psi, p_w, X_n, Y_n. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Kai Ogden (University of Oxford)
   - Matthew Farrugia-Roberts (University of Oxford)

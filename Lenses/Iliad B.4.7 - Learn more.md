@@ -2,7 +2,7 @@
 id: '2298a506-5328-4c74-aef1-ecf0b2c0011a'
 title: "B.4.7 Learn more"
 tldr: "Reading list for the day, grouped by topic: key readings, loss landscape, implicit bias of gradient flow, learning rate, stochasticity and emergence."
-summary_for_tutor: "This is the 'Learn more' section of Iliad worksheet B.4 Training Dynamics. It asks for 30 minutes reading, 30 minutes discussion in small groups and 30 minutes writing in a shared document. Key readings: Saxe et al. as the default, then silent alignment, alternating gradient flows, two specialist papers and the emergent misalignment paper. Further lists cover loss landscape, gradient flow bias, learning rate, stochasticity, emergence and theory of emergence, then the references (Achour et al. 2024, Saxe et al. 2014, Tu et al. 2024). No exercises."
+summary_for_tutor: "This is the 'Learn more' section of worksheet B.4 (training dynamics). It asks for 30 minutes reading, 30 minutes discussion in small groups and 30 minutes writing in a shared document. Key readings: Saxe et al. as the default, then silent alignment, alternating gradient flows, two specialist papers and the emergent misalignment paper. Further lists cover loss landscape, gradient flow bias, learning rate, stochasticity, emergence and theory of emergence, then the references (Achour et al. 2024, Saxe et al. 2014, Tu et al. 2024). No exercises."
 authors:
   - Guillaume Corlouer (Stormglass)
 source_url: https://iliad-intensive.org/learning/training-dynamics/
