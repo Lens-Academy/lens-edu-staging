@@ -50,13 +50,13 @@ For each: name the mechanism doing the work (learning-curve effects from cumulat
 
 Then name one assumption your two trajectories quietly share.
 
-assessment-instructions:: Score out of 100.
+assessment-instructions:: Score out of 100: the sum of the three elements below.
 
 The question asks for two genuinely different trajectories for the cost of solar electricity plus overnight storage over the next ten years. For each: the mechanism doing the work (learning-curve effects from cumulative production, a materials bottleneck, interest rates, grid-integration limits, or a driver of the learner's own choosing), and one observation checkable within two years that would count against it. Then one assumption both trajectories quietly share.
 
 40: Two trajectories driven by different named mechanisms. Each names what drives it, and the two drivers differ, not only the slope or speed. One story told twice at different speeds earns at most 10 here.
 40: For each trajectory, an observation checkable within about two years that would count against it (20 each). It must be concrete enough to see, such as "battery pack prices stay flat for two years while installations double" or "lithium prices fall through 2027". A falsifier that only negates the trajectory, such as "if costs don't fall", earns nothing for that trajectory.
-20: One assumption both trajectories share that is specific to these two stories, for example that demand keeps growing, that policy support stays in place, or that no new storage technology arrives. A vacuous one such as "the future is uncertain" earns nothing. A supported argument that the two trajectories share no assumption worth naming also earns these 20.
+20: One assumption both trajectories share that is specific to these two stories, for example that demand keeps growing, that policy support stays in place, or that no new storage technology arrives. One plain phrase is enough. A vacuous one such as "the future is uncertain" earns nothing. A supported argument that the two trajectories share no assumption worth naming also earns these 20.
 
 The figures an answer uses for current solar or battery costs are part of its reasoning, not of the score: invented but coherent economics is fine.
 

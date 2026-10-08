@@ -36,12 +36,14 @@ assessment-instructions:: Score out of 100.
 
 The scenario the learner is answering: a colleague shows an AI's score on a 0-to-100 coding benchmark, measured every quarter for three years. It is a clean exponential with R-squared 0.97, it held across two architecture changes, and the score is now 61. The colleague extrapolates to saturation in fourteen months and is confident "because the fit is excellent". The question states that every factual claim is true. It asks where the argument stops being licensed by the data, and what one would need to know before the fourteen-month figure meant anything.
 
-Any of these five points earns 50 points, up to 100 in total. A point counts whether the answer states it as a flaw in the argument or as something one would need to know.
-1. A good fit only describes the data already measured. It says nothing by itself about the next fourteen months, outside the measured range.
-2. A score near its fixed ceiling of 100 is a different regime: the remaining points may be harder (or otherwise unlike the earlier ones), so the curve may bend. An answer that argues the remaining items are not harder, but says this needs checking, also earns this point.
-3. The benchmark may stop measuring the same skill: a saturated benchmark is not the same as a solved capability (for example through contamination, overfitting to the test, or the last items testing something different).
-4. Confidence in continuation should come from an outside view, such as how often strong regular trends have broken in other fields, not from the quality of the fit.
-5. The fit names no cause: one would need to know what drives the improvement (such as compute, investment or data) and whether that driver will keep going.
+The score is the sum of two parts, matching the question's two parts. One idea can earn both.
+50: Says where the license runs out: the fit is good evidence about the measured range, up to 61, but it does not by itself support extending the curve fourteen months forward. Credit any wording that places the break at the extrapolation, such as "the problem is the last 39 points" or "R-squared says nothing about the future".
+50: Names at least one specific thing one would need to know, or a specific reason the curve may not continue. Any one of these earns the full 50:
+- a score near its fixed ceiling of 100 is a different regime: the remaining items may be harder or unlike the earlier ones, so the curve may bend (an answer that argues they are not harder, but says this needs checking, also counts);
+- the benchmark may stop measuring the same skill, so saturating it is not the same as solving the capability (for example contamination, overfitting to the test);
+- an outside view: how often strong regular trends have broken in other fields;
+- what drives the improvement (such as compute, investment or data) and whether that driver will keep going.
+Generic statistical requests (more data points, error bars) with no reason they bear on the forecast earn at most 15 of these 50.
 
 Cap at 40 if the answer's main claim is that the colleague's facts or arithmetic are wrong, since the question states they are true. Cap at 30 if the answer only says the future cannot be known, without naming anything specific that would license or undermine the figure.
 
