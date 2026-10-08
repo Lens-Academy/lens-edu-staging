@@ -8,7 +8,7 @@ summary_for_tutor: "Opening lens of the unit. Armstrong's survey of AI predictio
 authors:
   - Claude
 ---
-#### Question
+#### Question: Open
 id:: f4355c78-627a-465c-8e3a-c49c0595df34
 content::
 \## Before the reading

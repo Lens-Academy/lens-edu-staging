@@ -8,7 +8,7 @@ summary_for_tutor: "Pre-reading question for the decomposition material. The stu
 authors:
   - Claude
 ---
-#### Question
+#### Question: Open
 id:: 232a8c8b-2f16-4922-921f-fd0a2d53bbf6
 content::
 \## Before the reading
