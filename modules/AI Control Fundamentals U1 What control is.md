@@ -3,7 +3,7 @@ id: 'f8de126d-9f11-4658-a5b4-8894c84698bc'
 slug: ai-control-fundamentals-u1
 title: "What control is"
 ---
-%% Part 1 of Unit 1 of AI Control Fundamentals; the unit continues in 'The case for control', 'Control today, and first criticisms' (split into modules by topic, Elias 2026-10-08). The note below describes the whole unit as it was before the split. %%
+%% Part 1 of Unit 1 of AI Control Fundamentals; the unit continues in 'Control claims, and how they are tested', 'Control today, and first criticisms' (split into modules by topic, Elias 2026-10-08). The note below describes the whole unit as it was before the split. %%
 
 %% Unit 1 of AI Control Fundamentals. Lenses: welcome (inline), control in plain words (full CSET explainer in parts with questions and the choice set), what control is meant to stop (80,000 Hours "What's AI control?" video clip), Robert Miles video in six parts with exercises (AICF), two AICF adaptations of Greenblatt and Shlegeris's case for control, spies, insiders and auditing (80,000 Hours plus ControlArena), worst case but not all-powerful (Shlegeris), control in use today (Google DeepMind first half), OpenAI's monitor (optional, whole post, own lens since 2026-10-08), first criticisms (Phuong clip plus Kulveit, inline), roleplay practice. Time (core only): about 214 lens minutes plus 15 for the three tests. Optional: the Buck clip lens, the roleplay, CSET parts 5 to 8, the opening of 'What control is', ControlArena in Spies, part 2 of 'Worst case', the OpenAI lens, the black-box section of 'How control is tested', and the Phuong clip. %%
 

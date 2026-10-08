@@ -37,7 +37,7 @@ application-survey:: [[../surveys/Application Form]]
 
 # Module: [[../modules/AI Control Fundamentals U1 What control is|What control is]]
 
-# Module: [[../modules/AI Control Fundamentals U1 The case for control|The case for control]]
+# Module: [[../modules/AI Control Fundamentals U1 The case for control|Control claims, and how they are tested]]
 
 # Module: [[../modules/AI Control Fundamentals U1 Control today and first criticisms|Control today, and first criticisms]]
 
