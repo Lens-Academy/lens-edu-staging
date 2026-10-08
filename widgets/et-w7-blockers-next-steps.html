@@ -138,6 +138,34 @@ button:disabled { opacity: 0.5; cursor: default; }
       }
     });
   }
+  // Get feedback (ET widget feedback, 2026-10-08): an ungraded Tutor turn on what is in
+  // this widget right now, via Lens.promptTutor (the path et-weighted-factor-model
+  // uses). It reads the current state only; nothing is saved or scored.
+  if (window.Lens && window.Lens.promptTutor) {
+    var fbWork = function () {
+      var out = [];
+      rows.forEach(function (row, idx) {
+        var bits = [];
+        COLS.forEach(function (c) { var v = (row[c.k] || "").trim(); if (v) bits.push("- " + c.label + ": " + v); });
+        if (bits.length) out.push("Row " + (idx + 1) + "\n" + bits.join("\n"));
+      });
+      return out.join("\n\n");
+    };
+    var fbBar = document.querySelector(".actions");
+    var fbBtn = document.createElement("button");
+    fbBtn.type = "button"; fbBtn.id = "feedback"; fbBtn.className = "primary"; fbBtn.textContent = "Get feedback";
+    var fbMsg = document.createElement("span");
+    fbMsg.className = "legend"; fbMsg.setAttribute("role", "status");
+    fbBar.appendChild(fbBtn); fbBar.appendChild(fbMsg);
+    fbBtn.addEventListener("click", function () {
+      var work = fbWork();
+      if (!work) { fbMsg.textContent = "Add an uncertainty first, then ask for feedback!"; return; }
+      fbMsg.textContent = "";
+      window.Lens.promptTutor("Can I get feedback on my blockers and next steps?",
+        "The learner asked for feedback on the blockers & next steps table in their Effective Thesis Week 7 worksheet: each row is a Head, Heart or Hand career uncertainty, one small next step for the coming week, and a deadline. Their current work:" + "\n\n" + work + "\n\n" +
+        "This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.");
+    });
+  }
 })();
 </script>
 </body>

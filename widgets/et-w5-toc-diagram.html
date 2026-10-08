@@ -70,6 +70,10 @@ h4 { margin: 18px 0 4px; font-size: 14px; }
 .cert.high { background: #d7ecd9; color: #2a6a35; }
 .empty { font-size: 13px; color: var(--muted); }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.actions { margin-top: 14px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.actions button.primary { font: inherit; font-weight: 600; border: 1px solid var(--accent); color: var(--accent); background: #fff; border-radius: 8px; padding: 8px 12px; cursor: pointer; }
+.actions button.primary:hover { background: var(--accent); color: #fff; }
+.legend { font-size: 12px; color: var(--muted); }
 </style>
 </head>
 <body>
@@ -343,6 +347,27 @@ h4 { margin: 18px 0 4px; font-size: 14px; }
       data.links = Array.isArray(state.links) ? state.links.filter(function (l) { return l && findBox(l.from) && findBox(l.to); }).slice(0, MAXLINKS)
         .map(function (l) { return { id: typeof l.id === "string" ? l.id : nid("l"), from: l.from, to: l.to, label: typeof l.label === "string" ? l.label : "", cert: typeof l.cert === "string" ? l.cert : "", why: typeof l.why === "string" ? l.why : "", how: typeof l.how === "string" ? l.how : "" }; }) : [];
       build();
+    });
+  }
+  // Get feedback (ET widget feedback, 2026-10-08): an ungraded Tutor turn on what is in
+  // this widget right now, via Lens.promptTutor (the path et-weighted-factor-model
+  // uses). It reads the current state only; nothing is saved or scored.
+  if (window.Lens && window.Lens.promptTutor) {
+    var fbWork = function () { var s = summary(); return /still empty\.$/.test(s) ? "" : s; };
+    var fbBar = document.createElement("div"); fbBar.className = "actions";
+    document.getElementById("root").appendChild(fbBar);
+    var fbBtn = document.createElement("button");
+    fbBtn.type = "button"; fbBtn.id = "feedback"; fbBtn.className = "primary"; fbBtn.textContent = "Get feedback";
+    var fbMsg = document.createElement("span");
+    fbMsg.className = "legend"; fbMsg.setAttribute("role", "status");
+    fbBar.appendChild(fbBtn); fbBar.appendChild(fbMsg);
+    fbBtn.addEventListener("click", function () {
+      var work = fbWork();
+      if (!work) { fbMsg.textContent = "Fill in a box first, then ask for feedback!"; return; }
+      fbMsg.textContent = "";
+      window.Lens.promptTutor("Can I get feedback on my Theory of Change diagram?",
+        "The learner asked for feedback on the Theory of Change diagram in their Effective Thesis Week 5 worksheet: boxes from research outputs through short- and long-term outcomes to ultimate impact, and the arrows between them with the assumption, certainty and next step for each. Their current work:" + "\n\n" + work + "\n\n" +
+        "This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.");
     });
   }
 })();

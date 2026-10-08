@@ -194,6 +194,39 @@ button.remove { display: block; margin-top: 6px; padding: 2px 8px; font-size: 11
       }
     });
   }
+  // Get feedback (ET widget feedback, 2026-10-08): an ungraded Tutor turn on what is in
+  // this widget right now, via Lens.promptTutor (the path et-weighted-factor-model
+  // uses). It reads the current state only; nothing is saved or scored.
+  if (window.Lens && window.Lens.promptTutor) {
+    var fbWork = function () {
+      var out = [];
+      rows.forEach(function (row, idx) {
+        var filled = Object.keys(row).some(function (k) { return /\S/.test(row[k] || ""); });
+        if (!filled) return;
+        var lines = ["Problem " + (idx + 1) + ": " + ((row.problem || "").trim() || "(no name yet)"),
+          "- Scores: Importance " + (row.i || "-") + ", Neglectedness " + (row.n || "-") + ", Tractability " + (row.t || "-") + ", Ikigai " + (row.ik || "-") + " (total " + total(row) + "/20)"];
+        if (/\S/.test(row.itnc || "")) lines.push("- ITN comment: " + row.itnc.trim());
+        if (/\S/.test(row.ikc || "")) lines.push("- Ikigai comment: " + row.ikc.trim());
+        if (/\S/.test(row.unc || "")) lines.push("- Main uncertainties & open questions: " + row.unc.trim());
+        out.push(lines.join("\n"));
+      });
+      return out.join("\n\n");
+    };
+    var fbBar = document.querySelector(".actions");
+    var fbBtn = document.createElement("button");
+    fbBtn.type = "button"; fbBtn.id = "feedback"; fbBtn.className = "primary"; fbBtn.textContent = "Get feedback";
+    var fbMsg = document.createElement("span");
+    fbMsg.className = "legend"; fbMsg.setAttribute("role", "status");
+    fbBar.appendChild(fbBtn); fbBar.appendChild(fbMsg);
+    fbBtn.addEventListener("click", function () {
+      var work = fbWork();
+      if (!work) { fbMsg.textContent = "Fill in a problem area first, then ask for feedback!"; return; }
+      fbMsg.textContent = "";
+      window.Lens.promptTutor("Can I get feedback on my ITN & Ikigai scoring table?",
+        "The learner asked for feedback on the ITN & Ikigai scoring table in their Effective Thesis Week 2 worksheet (Part 2): each shortlisted problem area scored 1-5 on Importance, Neglectedness, Tractability and Ikigai fit, with comments and open questions. Their current work:" + "\n\n" + work + "\n\n" +
+        "This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.");
+    });
+  }
 })();
 </script>
 </body>
