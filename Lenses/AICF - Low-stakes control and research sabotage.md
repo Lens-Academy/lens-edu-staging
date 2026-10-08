@@ -8,7 +8,7 @@ tutor_minutes: 14
 ---
 #### Text
 content::
-Vivek Hebbar works at Redwood Research.[^cite-hebbar-2025] In this talk at ControlConf 2025, an AI control conference,[^cite-hebbar-controlconf-talk] he takes up one worry about using AI to do safety research: that the AI quietly makes the research fail, and what defenders could do about it. The rest of the talk, a speculative overall strategy and how to test these defences, is optional.
+In this talk at ControlConf 2025, an AI control conference,[^cite-hebbar-controlconf-talk] Vivek Hebbar of Redwood Research[^cite-hebbar-2025] takes up one worry about using AI to do safety research: that the AI quietly makes the research fail, and what defenders could do about it. The rest of the talk, a speculative overall strategy and how to test these defences, is optional.
 
 [^cite-hebbar-2025]: Vivek Hebbar (2025), *How can we solve diffuse threats like research sabotage with AI control?* [Redwood Research blog](https://blog.redwoodresearch.org/p/how-can-we-solve-diffuse-threats)
 [^cite-hebbar-controlconf-talk]: FAR.AI, *Vivek Hebbar: Low-stakes Control [ControlConf]*, talk recording. [YouTube](https://www.youtube.com/watch?v=DP3wTPDEjLQ)
