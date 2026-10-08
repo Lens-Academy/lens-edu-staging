@@ -94,7 +94,7 @@ collapse:: closed
 #### Text
 optional:: true
 content::
-Mary Phuong works on AI control at Google DeepMind. At the end of a May 2025 talk she says what she sees as the weaknesses and strengths of the control agenda.
+At the end of a May 2025 talk, Mary Phuong, who works on AI control at Google DeepMind, says what she sees as the weaknesses and strengths of the control agenda.
 
 #### Video
 optional:: true
