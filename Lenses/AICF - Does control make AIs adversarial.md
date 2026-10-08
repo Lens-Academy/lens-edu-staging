@@ -60,7 +60,7 @@ content::
 
 The studies above ask whether control could make AIs more dangerous. A separate question is what control could cost if it works as intended. If some future AI systems matter morally, the measures that make control work, such as confining them, watching everything they do and shutting them down, could harm or wrong them. This is not a reason control would fail. It is a possible moral cost of control succeeding.
 
-Robert Long, Jeff Sebo and Toni Sims argue that there is a real tension between AI safety and AI welfare ([Philosophical Studies, 2025](https://doi.org/10.1007/s11098-025-02302-2)). Read their statement of the tension, what they say about confinement and about monitoring, and their conclusion on when harming AI systems might be permitted.
+Robert Long, Jeff Sebo and Toni Sims argue that there is a real tension between AI safety and AI welfare.[^cite-long-sebo-sims-2025] Read their statement of the tension, what they say about confinement and about monitoring, and their conclusion on when harming AI systems might be permitted.
 
 #### Article
 source:: [[../articles/long-is-there-a-tension-between-ai-safety-and-ai-welfare]]

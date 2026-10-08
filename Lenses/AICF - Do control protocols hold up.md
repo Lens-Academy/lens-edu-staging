@@ -12,6 +12,7 @@ The criticisms so far in this unit are arguments. Here are two experiments that 
 
 Some terms you will need. The *monitor* is the model that reads what the untrusted model does and flags suspicious actions. A *prompt injection* is text written to give instructions to whichever model reads it. The *audit budget* is the share of actions that humans can afford to check. "pp" means percentage points.
 
+[^cite-pivotal-tracy]: Pivotal Research, *Tyler Tracy*, profile page. [Pivotal](https://www.pivotal-research.org/tyler-tracy)
 #### Text
 content::
 **1. Mikhail Terekhov, Jonas Geiping and colleagues, "Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols"**[^cite-terekhov-2025]. From the abstract:
@@ -21,6 +22,9 @@ content::
 (Defer-to-Resample asks the untrusted model for a new answer when the first one looks suspicious. A best-of-n attack tries many times and keeps whichever attempt gets through.)
 
 **2. Catherine Ge-Wang, Tyler Tracy and colleagues, "Attack Selection in Agentic AI Control Evaluations Meaningfully Decreases Safety"**[^cite-ge-wang-2026]. Its abstract:
+
+[^cite-terekhov-2025]: Mikhail Terekhov, Alexander Panfilov, Daniil Dzenhaliou, Caglar Gulcehre, Maksym Andriushchenko, Ameya Prabhu and Jonas Geiping (2025, revised 2026), *Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols*. [arXiv](https://arxiv.org/abs/2510.09462)
+[^cite-ge-wang-2026]: Catherine Ge-Wang, Tyler Crosse, Benjamin Hadad IV, Joachim Schaeffer, Ram Potham and Tyler Tracy (2026), *Attack Selection in Agentic AI Control Evaluations Meaningfully Decreases Safety*. [arXiv](https://arxiv.org/abs/2606.06529)
 
 #### Article
 source:: [[../articles/ge-wang-attack-selection-in-agentic-ai-control-evaluations-meaningfully-decreases-safety]]
