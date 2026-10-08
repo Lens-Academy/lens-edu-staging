@@ -6,7 +6,7 @@ summary_for_tutor: "Session 4 of worksheet A.1: uncertain risks and outlook. Rea
 authors:
   - Leon Lang (Iliad)
 source_url: https://iliad-intensive.org/alignment/ai-alignment-intro/
-upstream_commit: '11944e29333e1e2a2a0c0d93b6398a6df5598ab3'
+upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
 provenance_recorded_at: '2026-10-08'
 ---
 
@@ -14,7 +14,7 @@ provenance_recorded_at: '2026-10-08'
 content::
 \### Session 4: Uncertain risks and outlook
 
-**14:20–15:10.** 5 min introduction, 25 min reading, 10 min discussion, 10 min debrief.
+**14\:20–15\:10.** 5 min introduction, 25 min reading, 10 min discussion, 10 min debrief.
 
 Spend **25 minutes** reading the following texts, concentrating on the one most interesting to you.
 
