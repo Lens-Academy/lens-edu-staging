@@ -33,11 +33,11 @@ The **Distraction Argument** goes beyond the claim that current harms matter too
 
 There are plausible mechanisms. Dramatic future-risk narratives can give frontier companies a large role in defining the regulatory conversation. They can crowd out perspectives from people affected by discrimination, labour harms, privacy violations, or misinformation. Policymakers have limited attention. Philanthropic and research budgets are finite. If one framing becomes dominant, other work can lose resources and legitimacy.
 
-Swoboda and coauthors argue that the empirical case for a broad displacement effect is not yet strong. They examine claims that x-risk discourse increases AI hype and investment, allows corporate leaders to dominate policy, pushes companies to frame regulation around future risks, and shifts political attention away from current harms. Their conclusion is cautious: some local tradeoffs can exist, but the claim that x-risk discourse generally causes current harms to be ignored is not well established.[^swoboda]
+The empirical case for a broad displacement effect is not yet strong. Current-harm concerns have continued to receive political and institutional attention even as x-risk discussion has grown, although local tradeoffs in funding, agenda-setting, and representation can still occur.[^cite-swoboda-2025]
 
 That does not make the concern irrelevant. It makes it empirical. We should ask whether budgets are substitutes, whether specific policies crowd one another out, whose expertise is represented, and whether catastrophic-risk framing changes which problems regulators notice. There can also be synergies. Better incident reporting, model evaluations, biosecurity, security culture, and accountability can help with both present and future risks.
 
-The accumulative-risk perspective adds another complication. Some present harms may be part of a long-run catastrophic pathway if they erode trust, institutional resilience, democratic control, or human leverage. Kasirzadeh explicitly argues that the boundary between social risk and existential risk can be causal rather than simply temporal.[^kasirzadeh] This does not mean every bias or misinformation problem is existential. It means "near-term" and "long-term" are not always separate buckets.
+Some present harms can also become part of a long-run catastrophic pathway if they erode trust, institutional resilience, democratic control, or human leverage. An accumulative-risk model treats the boundary between social risk and existential risk as partly causal, not simply temporal.[^cite-kasirzadeh-2025] This does not make every present harm existential. It asks whether the harm changes the system's ability to avoid later catastrophe.
 
 #### Question: Open
 id:: e9fc204c-224d-4d3f-8f60-bcc72ec728a1
@@ -61,7 +61,7 @@ There is a real insight here. Many AI risks do depend on human frailty. Misuse r
 
 The stronger conclusion is harder to establish. If "human frailty" is defined broadly enough to include every failure to anticipate or manage any AI danger, the claim becomes almost trivially true. Saying "the disaster happened because humans failed to prevent it" tells us very little about what prevention requires. A useful version of the argument has to identify specific frailties and show that generic interventions against them would address the AI-specific risk at lower cost than specialized safety work.
 
-Swoboda and coauthors therefore treat the argument as an important reminder, not a successful reason to ignore x-risk research.[^swoboda] Improving institutions, incentives, regulation, and organizational culture may reduce many catastrophic pathways. Understanding AI-specific mechanisms can still be necessary to know which institutional failures matter and what safeguards to build.
+Improving institutions, incentives, regulation, and organizational culture may reduce many catastrophic pathways, but this does not show that AI-specific safety work is unnecessary.[^cite-swoboda-2025] The remaining question is which dangers can be handled through general institutional competence and which depend on technical properties specific to advanced AI systems.
 
 This creates a healthy research question: **which parts of AI safety are genuinely AI-specific, and which are cases of broader problems such as security, governance, coordination, and institutional design?** If a generic intervention works, that is a reason to prefer it in some cases. If the mechanism is genuinely new, generic good governance may not be enough.
 
