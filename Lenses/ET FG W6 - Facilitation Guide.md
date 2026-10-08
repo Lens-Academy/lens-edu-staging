@@ -60,15 +60,7 @@ content::
 content::
 **Additional Materials:**
 
-- Week 6 Reading and Worksheet in Lens
-
-::card[[../Lenses/ET W6 - Reading - Reverse Engineering Your Thesis from Your ToC]]{allow-external}
-
-::card[[../Lenses/ET W6 - Worksheet - Reverse Engineering Your Thesis]]{allow-external}
-
-::card[[../Lenses/ET W6 - Journalling - Process vs Outcomes]]{allow-external}
-
-- For a Google Docs version for printouts, you can use [this](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?tab=t.2b71rt36knt9). But we recommend everyone access via Lens!
+- Week 6 Readings, Worksheet and Journalling: [on Lens Academy](https://lensacademy.org/courses/effective-thesis-accelerator/curriculum) (recommended), or the [Google Doc version](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?usp=sharing) for printouts
 - **Week 6 Slides:** [\[Shared - 2026\] Week 6: Reverse Engineering Your Thesis from Your ToC](https://docs.google.com/presentation/d/1mIMPNdFP6HkaQF7d6gSbBOmSMGlDBR5SNwczp2uFzL8/edit)
 
 \### Recommended Structure for the Session

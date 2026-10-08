@@ -62,7 +62,7 @@ content::
 content::
 \#### Week 8 Structure
 
-- For a Google Docs version for printouts, you can use [this](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?tab=t.2b71rt36knt9). But we recommend everyone access via Lens!
+- Week 8 Readings and Journalling: [on Lens Academy](https://lensacademy.org/courses/effective-thesis-accelerator/curriculum) (recommended), or the [Google Doc version](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?usp=sharing) for printouts
 - Week 8 Slides: [\[Shared - 2026\] Week 8: Final Presentations!](https://docs.google.com/presentation/d/1ZJUR8o63iX1Qhb0yC7J3l8Zx8yWt613Fi6s37eukvH8/edit?slide=id.g3c2de3e637f_0_152#slide=id.g3c2de3e637f_0_152)
 - Week 8 Template for participants: [\[TEMPLATE\] Week 8 Presentation ET Accelerator: Oct-Dec 26'](https://docs.google.com/presentation/d/16l-eKuJcJnzKP5F-IOoNuUoHZqw-sPGi3Kb0Q-xw64Q/edit?slide=id.g3fb78c7d3ee_1_0#slide=id.g3fb78c7d3ee_1_0)
 

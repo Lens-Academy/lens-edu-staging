@@ -63,17 +63,7 @@ content::
 content::
 **Additional Materials:**
 
-- Week 7 Worksheet and readings on Lens
-
-::card[[../Lenses/ET W7 - Reading 1 - The Head Heart and Hand Framework]]{allow-external}
-
-::card[[../Lenses/ET W7 - Reading 2 - Examples and Resources for Different Blockers]]{allow-external}
-
-::card[[../Lenses/ET W7 - Worksheet - Unblocking Your Impactful Career]]{allow-external}
-
-::card[[../Lenses/ET W7 - Journalling - Limiting Beliefs on Impact]]{allow-external}
-
-- For a Google Docs version for printouts, you can use [this](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?tab=t.2b71rt36knt9). But we recommend everyone access via Lens!
+- Week 7 Readings, Worksheet and Journalling: [on Lens Academy](https://lensacademy.org/courses/effective-thesis-accelerator/curriculum) (recommended), or the [Google Doc version](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?usp=sharing) for printouts
 - Week 7 Slides: [\[Shared - 2026\] Week 7: Planning for a Career with Impact](https://docs.google.com/presentation/d/1__GpzK1C2GksMVk-0e5FDWyJV0EqEOlYoY87K_BPmV4/edit?slide=id.g3bf79a69fa2_0_8#slide=id.g3bf79a69fa2_0_8)
 - Week 8 Template for participants: [\[TEMPLATE\] Week 8 Presentation ET Accelerator: Oct-Dec 26'](https://docs.google.com/presentation/d/16l-eKuJcJnzKP5F-IOoNuUoHZqw-sPGi3Kb0Q-xw64Q/edit?slide=id.g3fb78c7d3ee_1_0#slide=id.g3fb78c7d3ee_1_0)
 
