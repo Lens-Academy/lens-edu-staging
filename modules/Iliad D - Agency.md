@@ -226,6 +226,8 @@ source:: [[../Lenses/Iliad D.6.6 - Reading guide]]
 # Lens: The Basic AI Drives
 source:: [[../Lenses/omohundro-the-basic-ai-drives]]
 
+# Lens: Optimal Policies Tend to Seek Power
+source:: [[../Lenses/turner-optimal-policies-tend-to-seek-power]]
 # Lens: D.6.7 Further reading
 source:: [[../Lenses/Iliad D.6.7 - Further reading]]
 

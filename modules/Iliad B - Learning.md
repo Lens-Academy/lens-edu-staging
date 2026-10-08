@@ -21,6 +21,9 @@ source:: [[../Lenses/Iliad B.2.3 - Approximation]]
 # Lens: Approximation is expensive, but the lunch is cheap
 source:: [[../Lenses/hoogland-approximation-is-expensive-but-the-lunch-is-cheap]]
 
+# Lens: Why and When Can Deep but Not Shallow Networks Avoid the Curse of Dimensionality: a Review
+source:: [[../Lenses/poggio-why-and-when-can-deep-but-not-shallow-networks-avoid-the-curse-of-dimensionality-a-review]]
+
 # Lens: B.2.4 Generalization
 source:: [[../Lenses/Iliad B.2.4 - Generalization]]
 
@@ -152,6 +155,8 @@ source:: [[../Lenses/Iliad B.5.13 - Further readings and references]]
 # Lens: B.6.1 Overview, prerequisites and teaching plan
 source:: [[../Lenses/Iliad B.6.1 - Overview, prerequisites and teaching plan]]
 
+# Lens: There Will Be a Scientific Theory of Deep Learning (Simon et al. 2026), Section 2
+source:: [[../Lenses/simon-there-will-be-a-scientific-theory-of-deep-learning]]
 # Lens: B.6.2 Bayesian learning and free energy
 source:: [[../Lenses/Iliad B.6.2 - Bayesian learning and free energy]]
 
@@ -188,6 +193,8 @@ source:: [[../Lenses/Iliad B.6.12 - Feature learning, muP and grokking]]
 # Lens: B.6.13 Bayesian grokking and MSRJD
 source:: [[../Lenses/Iliad B.6.13 - Bayesian grokking and MSRJD]]
 
+# Lens: Grokking as a First Order Phase Transition in Two Layer Networks (Rubin et al. 2024)
+source:: [[../Lenses/rubin-grokking-as-a-first-order-phase-transition-in-two-layer-networks]]
 # Lens: B.6.14 Double descent and DMFT
 source:: [[../Lenses/Iliad B.6.14 - Double descent and DMFT]]
 

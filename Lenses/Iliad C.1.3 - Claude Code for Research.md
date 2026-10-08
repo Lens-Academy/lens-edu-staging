@@ -34,7 +34,8 @@ Clone [this repository](https://github.com/iliad-team/iliad-intensive-C.1.3/tree
 Final project: replicate a version of Figure 1 from one of these papers:
 
 * [Inference only, no GPU needed](https://www-cdn.anthropic.com/b9ca6db27f02a9ddf0d4fdb51b26432c99a27be0.pdf)
-* [On a GPU](https://arxiv.org/pdf/2406.11717)
+
+::card[[../Lenses/arditi-refusal-in-language-models-is-mediated-by-a-single-direction|On a GPU]]
 
 Content:
 

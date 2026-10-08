@@ -22,15 +22,21 @@ Go through [these slides](https://drive.google.com/drive/folders/127bVYqhJPhzA7S
 
 This paper started the work discussed on this day:
 
-- [Optimal Policies Tend to Seek Power — Alexander Matt Turner, Logan Smith, Rohin Shah, Andrew Critch, Prasad Tadepalli (NeurIPS 2021)](https://arxiv.org/abs/1912.01683): The first formal theory proving that in finite MDPs, environmental symmetries make it optimal for most reward functions to seek "POWER" (defined as average optimal value / option-retention), including avoiding shutdown.
+::card[[../Lenses/turner-optimal-policies-tend-to-seek-power|Optimal Policies Tend to Seek Power — Alexander Matt Turner, Logan Smith, Rohin Shah, Andrew Critch, Prasad Tadepalli (NeurIPS 2021)]]
+
+> The first formal theory proving that in finite MDPs, environmental symmetries make it optimal for most reward functions to seek "POWER" (defined as average optimal value / option-retention), including avoiding shutdown.
 
 Most of the exercise sheet is based on an adapted treatment of the following paper:
 
-- [Parametrically Retargetable Decision-Makers Tend To Seek Power — Alexander Matt Turner & Prasad Tadepalli (NeurIPS 2022)](https://arxiv.org/abs/2206.13477): Generalizes the 2021 result beyond optimal policies and full observability, showing "retargetability" alone is a sufficient condition for power-seeking tendencies across many decision-making procedures.
+::card[[../Lenses/turner-parametrically-retargetable-decision-makers-tend-to-seek-power|Parametrically Retargetable Decision-Makers Tend To Seek Power — Alexander Matt Turner & Prasad Tadepalli (NeurIPS 2022)]]
+
+> Generalizes the 2021 result beyond optimal policies and full observability, showing "retargetability" alone is a sufficient condition for power-seeking tendencies across many decision-making procedures.
 
 You may also be interested in the following paper on which it builds:
 
-- [Power-seeking can be probable and predictive for trained agents — Victoria Krakovna & Janos Kramar (2023)](https://arxiv.org/abs/2304.06528): Extends the power-seeking theory toward trained (not merely optimal) agents, arguing the incentives still likely hold under assumptions like the agent learning a goal.
+::card[[../Lenses/krakovna-power-seeking-can-be-probable-and-predictive-for-trained-agents|Power-seeking can be probable and predictive for trained agents — Victoria Krakovna & Janos Kramar (2023)]]
+
+> Extends the power-seeking theory toward trained (not merely optimal) agents, arguing the incentives still likely hold under assumptions like the agent learning a goal.
 
 Classical philosophical arguments for instrumental convergence and power-seeking tendencies can be found here:
 

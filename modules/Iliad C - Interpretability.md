@@ -15,6 +15,9 @@ source:: [[../Lenses/Iliad C.1.2 - Practical ML]]
 # Lens: C.1.3 Claude Code for Research
 source:: [[../Lenses/Iliad C.1.3 - Claude Code for Research]]
 
+# Lens: Paper for the final project (on a GPU)
+source:: [[../Lenses/arditi-refusal-in-language-models-is-mediated-by-a-single-direction]]
+
 # Submodule: C.2 Mechanistic Interpretability
 
 # Lens: C.2.1 Overview and prerequisites
@@ -39,6 +42,9 @@ source:: [[../Lenses/bilalchughtai-activation-space-interpretability-may-be-doom
 
 # Lens: C.3.1 Overview and prerequisites
 source:: [[../Lenses/Iliad C.3.1 - Overview and prerequisites]]
+
+# Lens: Transformers represent belief state geometry in their residual stream
+source:: [[../Lenses/shai-transformers-represent-belief-state-geometry-in-their-residual-stream]]
 
 # Lens: C.3.2 Predicting the future: sufficient statistics and causal states
 source:: [[../Lenses/Iliad C.3.2 - Predicting the future - sufficient statistics and causal states]]

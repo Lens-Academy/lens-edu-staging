@@ -31,6 +31,8 @@ Prioritise the main reading. If you can answer its evaluation question, you have
 
 \#### 5.1.1 [Main] [Transformers represent belief state geometry in their residual stream](https://arxiv.org/pdf/2405.15943)
 
+::card[[../Lenses/shai-transformers-represent-belief-state-geometry-in-their-residual-stream|Transformers represent belief state geometry in their residual stream]]
+
 **Reading route**
 
 - **Skim.** Sections 1, 2.1, and 2.2.

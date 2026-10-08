@@ -15,6 +15,7 @@ content::
 \## 19. Reading and Discussion "Experimental Results"
 
 Optimising for Debate increases Judge Accuracy, Optimizing for Consultancy decreases it: [Debating with More Persuasive LLMs Leads to More Truthful Answers](https://arxiv.org/pdf/2402.06782)
+::card[[../Lenses/khan-debating-with-more-persuasive-llms-leads-to-more-truthful-answers|Debating with More Persuasive LLMs Leads to More Truthful Answers]]
 
 Debate helps judges even with systematic biases: [AI Debate Aids Assessment of Controversial Claims](https://arxiv.org/pdf/2506.02175)
 

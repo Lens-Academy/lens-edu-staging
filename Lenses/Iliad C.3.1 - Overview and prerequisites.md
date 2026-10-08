@@ -47,6 +47,8 @@ Students should be comfortable with the idea that one can train a linear map fro
 
 Read [Transformers represent belief state geometry in their residual stream](https://arxiv.org/pdf/2405.15943). Focus on being able to answer the following questions:
 
+::card[[../Lenses/shai-transformers-represent-belief-state-geometry-in-their-residual-stream|Transformers represent belief state geometry in their residual stream]]
+
 - What is a hidden Markov model (HMM)?
 - What is a belief state?
 - What is the mixed state presentation (MSP)?

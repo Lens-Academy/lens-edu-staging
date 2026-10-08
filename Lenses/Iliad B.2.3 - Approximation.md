@@ -19,6 +19,7 @@ content::
 ::card[[../Lenses/hoogland-approximation-is-expensive-but-the-lunch-is-cheap|Approximation is expensive, but the lunch is cheap]]
 
 [Why and When Can Deep – but Not Shallow – Networks Avoid the Curse of Dimensionality: a Review](https://arxiv.org/pdf/1611.00740)
+::card[[../Lenses/poggio-why-and-when-can-deep-but-not-shallow-networks-avoid-the-curse-of-dimensionality-a-review|Why and When Can Deep but Not Shallow Networks Avoid the Curse of Dimensionality: a Review]]
 
 *Discussion questions:*
 
