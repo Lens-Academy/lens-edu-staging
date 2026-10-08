@@ -26,7 +26,7 @@ Their approach has three parts.
 - Then **give a particular AI the same task** to finish without input from a human.
 - Then they report as the final time-horizon number the **human-hour length of task on which the AI succeeds half the time**. When you hear them report time horizon that's what it means.
 {>>{"author":"lauren (chrome@what)","timestamp":1787824700273}@@7:58:18<<}
-#### Question
+#### Question: Open
 id:: 7c6ee0fc-c5ee-45ff-88ec-171d88822bec
 content::
 \## What have they found (on AIs up to 2025)
@@ -40,19 +40,21 @@ Three pre-read questions.
 Your reasoning is at least as important as your number. Then scroll down to see the answer.
 {>>{"author":"lauren (chrome@what)","timestamp":1787828656913}@@we need the article to be spoiler-tagged or something?<<}
 
-assessment-instructions:: The student has not seen METR's figures. They are in the next segment.
+feedback-instructions:: The student has not seen the measured figures. They are in the next segment. They have guessed the time horizon for AIs up to the end of 2025, what causes that number to change, and what they would want to know about how it was measured.
 
 One turn, diagnostic. Do NOT reveal the measured horizon, the doubling time, or whether their number is high or low. Do not hint by reacting.
 
-Your only job this turn is to make the second answer sharper. If they named a category rather than a mechanism, for example "more compute" or "better models", ask which specific thing that buys them. If they named a real mechanism, ask what they would expect to see first if it were already happening.
+Your only job this turn is to make the second answer sharper. If they named a category rather than a mechanism, for example "more compute" or "better models", ask which specific thing that buys them. If they named a real mechanism, ask what they would expect to see first if it were already happening. If one of the three answers is missing, say which one.
 
-On the third answer, do not answer it for them. Note in one sentence what they said they would want to know. Do not steer them toward trusting or doubting METR; the point is the habit of asking for causal understanding rather than trusting prestige, not a verdict on one group. The reading that follows describes the method, so tell them to check their question against it.
+On the third answer, do not answer it for them. Note in one sentence what they said they would want to know. Do not steer them toward trusting or doubting the group that made the measurement. The point is the habit of asking for causal understanding rather than trusting prestige, not a verdict on one group. The reading that follows describes the method, so tell them to check their question against it.
+
+If the student says they do not understand, do not dismiss it and do not repeat the question. Give one concrete foothold: ask how long a programming task (in hours a skilled person would need) they have seen an AI finish on its own, or would expect one to, and to start their guess from there. Do not offer a number yourself. If their next message still does not attempt the question, rephrase the whole question in different terms rather than offering another foothold. This stays a one-turn exchange otherwise.
 
 Response length: 60 to 110 words. Short paragraphs. No lists.
 
 Response style:
 - Calm and direct.
-- Do not over-validate. No generic praise.
+- Do not over-validate. No generic praise (great guess, excellent thinking, well done).
 - No correction of the number{>>{"author":"lauren (chrome@what)","timestamp":1787824426516}@@re: the article below: we're statically embedding a dynamic article! that's a problem!<<}.
 
 #### Article
