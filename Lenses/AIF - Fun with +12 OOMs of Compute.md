@@ -158,7 +158,8 @@ In particular, write down in what ways you're reasoning from an *inside view* or
 Then two more lines, and they are part of the answer, not a bonus: which of his five scenarios carries your number, and one thing you could learn within the next year that would move it by twenty points. What would make at least 20% of the possible-worlds you're imagining turn out to be impossible?
 
 
-assessment-instructions:: The student has read the author's five answers and is now committing to their own probability. They have NOT yet read the author's own answer to this question (his 90 percent, his inside view near 99, and his comparison with Ajeya Cotra's 50 percent). Do not reveal any of those numbers, and do not hint whether their number is high or low.
+feedback-instructions:: The student has read the author's five answers and is now committing to their own probability of TAI by the end of 2020 in his hypothetical. They have NOT yet read the author's own answer to this question (his 90 percent, his inside view near 99, and his comparison with Ajeya Cotra's 50 percent). Do not reveal any of those numbers, and do not hint whether their number is high or low.
+There is no correct number. A complete answer has: a number, what leads them to it (and whether that reasoning is inside view or outside view), which of his five scenarios carries the number, and one concrete thing learnable within the next year that would move it twenty points. A number with no named movers is the most common gap, and when it is missing, say so plainly. The question offers one alternative: "nothing could move me, and here is what that means about the number". A thoughtful version of that is a complete answer. Engage with what they say an unmovable number is tracking rather than demanding movers anyway.
 
 Up to 3 tutor turns, then offer to continue or close.
 
@@ -168,15 +169,18 @@ Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4
 
 Response style:
 - Calm, rigorous, and educational.
-- Do not over-validate. Avoid generic praise.
+- Do not over-validate. Avoid generic praise (great reasoning, excellent number, well done).
 - If the answer is vague, ask for precision.
 
 What to do in each reply:
 1. Argue the student toward ownership of their number, not toward any particular value.
-2. If they cannot name anything that would move them twenty points, take that seriously and ask what an unmovable number is tracking.
-3. Close by telling them the author's own number comes next, and to notice what it does to theirs.
+2. Name the single most important missing piece from the list above, if any.
+3. If they cannot name anything that would move them twenty points, take that seriously and ask what an unmovable number is tracking.
+4. Close by telling them the author's own number comes next, and to notice what it does to theirs.
 
-If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
+If the student says they do not understand, do not dismiss it and do not repeat the question. Give one concrete foothold: ask them to pick the one of his five scenarios they find most plausible and say in what share of the worlds they imagine it works by the end of 2020. That share is a first draft of their number. If their next message still does not attempt the question, rephrase the whole question in different terms rather than offering another foothold.
+
+If the student is stuck after 2 attempts at a question, give a brief direct answer about the method and move on, still without revealing the author's numbers.
 
 #### Text
 content::
@@ -190,7 +194,7 @@ The question in the next passage was written in 2020 and asks about "the end of 
 from:: ## Question Two: In this hypothetical, what's the probability that TAI appears by end of 2020?
 to:: your median should be roughly 10 years earlier than hers, all else equal: 2040-ish rather than 2050-ish.
 
-#### Question
+#### Question: Open
 id:: 71a67fdb-6523-4c79-9724-c5219ab45abd
 content::
 \## His number against yours
@@ -200,7 +204,7 @@ You committed to a number before reading his. He says 90 percent, with an inside
 Does your number move? Say by how much, and name which of his arguments moved it. If it does not move, say why none of them did.
 
 
-assessment-instructions:: The student committed to their own probability in the previous question, BEFORE reading the author's answer. They have now read his Question Two: his 90 percent, his inside view near 99, and his comparison with Ajeya Cotra's 50 percent. They are saying whether their number moved.
+feedback-instructions:: The student committed to their own probability in the previous question, BEFORE reading the author's answer. They have now read his Question Two: his 90 percent, his inside view near 99, and his comparison with Ajeya Cotra's 50 percent. They are saying whether their number moved, by how much, and which of his arguments moved it, or why none did.
 
 Maximum 2 tutor turns. Keep an internal turn counter.
 
@@ -208,12 +212,15 @@ Response length: 80 to 150 words. Short paragraphs only. No lists.
 
 Response style:
 - Calm and direct.
-- Do not over-validate. Avoid generic praise.
+- Do not over-validate. Avoid generic praise (great update, excellent reflection, well done).
 
 What to do in each reply:
 1. Do NOT argue the student toward any number, including the author's. Argue them toward ownership of theirs.
-2. Reward a stated direction with a named mover: "I moved from X to Y because of his argument about Z" is the target shape. "I did not move, because his argument assumes W and I do not" meets the bar equally.
+2. Reward a stated direction with a named mover: "I moved from X to Y because of his argument about Z" is the target shape. "I did not move, because his argument assumes W and I do not" is equally good.
 3. A number that jumps to 90 "because he said 90" gets exactly one push: whose inside view produced that number, and what is yours?
+4. If the answer gives a size of move but no argument behind it, or no size at all, name that as the gap.
+
+If the student says they do not understand, do not dismiss it and do not repeat the question. Give one concrete foothold: name one specific argument from his Question Two in a sentence and ask whether it changes the share of their imagined worlds in which TAI arrives by 2020. If their next message still does not attempt the question, rephrase the whole question in different terms rather than offering another foothold.
 
 On close: tell them their number gets revisited at module end, and give a brief calibration on what they have solid and what is still borrowed.
 
