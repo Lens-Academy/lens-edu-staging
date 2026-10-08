@@ -25,11 +25,11 @@ Several transitions in the standard loss-of-control story are contestable. Econo
 
 These are serious objections because the catastrophic conclusion is conjunctive. If several uncertain links all have to hold, weakening one can matter a lot. At the same time, not every objection has to defeat the whole threat model. A system need not literally become a perfect expected-utility maximizer for strategic behaviour to matter. Intelligence need not translate automatically into power for highly capable systems to create new security problems. Slow takeoff can lower one danger while increasing diffuse race and disempowerment risks.
 
-The useful way to engage technical skepticism is therefore to ask which claim the objection actually changes. Does it reduce the probability of dangerous agency? Does it change how much power a system could acquire? Does it increase the time available for intervention? Does it only challenge one abrupt-takeover story while leaving misuse or gradual pathways intact? This is much more informative than asking whether Grace is "pro-risk" or "anti-risk".
+A useful technical objection says which claim it changes. Does it reduce the probability of dangerous agency? Does it change how much power a system could acquire? Does it increase the time available for intervention? Does it only challenge an abrupt-takeover story while leaving misuse or gradual pathways intact? Those questions turn skepticism into something that can be investigated.
 
 \## The Distraction Argument
 
-Swoboda and coauthors first reconstruct what they call the **Distraction Argument**.[^swoboda] In its strongest form, the argument is not merely "current harms matter too". That claim is easy to accept. The stronger claim is that public and policy attention to speculative existential risk *causes* current harms to receive less attention or weaker regulation.
+The **Distraction Argument** goes beyond the claim that current harms matter too. Its stronger form says that public and policy attention to speculative existential risk *causes* current harms to receive less attention or weaker regulation.[^cite-swoboda-2025]
 
 There are plausible mechanisms. Dramatic future-risk narratives can give frontier companies a large role in defining the regulatory conversation. They can crowd out perspectives from people affected by discrimination, labour harms, privacy violations, or misinformation. Policymakers have limited attention. Philanthropic and research budgets are finite. If one framing becomes dominant, other work can lose resources and legitimacy.
 
