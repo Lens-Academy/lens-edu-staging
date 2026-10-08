@@ -21,7 +21,7 @@ eval-results:
 
 ## Test:
 id:: c9306c64-d15c-49d9-ab19-ecf8f946cd14
-#### Question
+#### Question: Open
 id:: c2fb9c73-71e0-41ab-b7c9-925fff31f951
 content::
 Chapter 6 opens with an Aztec warrior watching a large Spanish ship approach. A skeptical comrade demands to know *exactly* how the people on board could possibly defeat them. He cannot imagine the answer. The chapter uses this to make a point about how we should reason about a superintelligence: not by demanding a step-by-step mechanism of defeat, but by reading the capability gap itself.
@@ -38,6 +38,18 @@ assessment-instructions::
 **4** — As above, plus identifies the epistemological error: demanding "tell me exactly how" confuses inability to specify mechanism with inability to predict outcome. *Example: Adds "The Aztec skeptic's mistake was thinking that if you can't describe the weapon in advance, the threat isn't real. But inability to imagine guns doesn't mean guns don't exist. Similarly, we can't describe exactly how a superintelligence would defeat us, but that doesn't mean we should be confident we'd win."*
 
 **5** — As above, plus articulates why this reframes a common AI skeptic argument: "give me a specific scenario" is an unreasonable demand when capability asymmetry alone is sufficient for alarm. *Example: Adds "This answers a frequent objection: 'just tell me exactly how AI causes catastrophe.' The chapter says that's the wrong standard. The Aztec warrior who survived didn't need to know guns existed beforehand; the size of the boat was enough. Overwhelming capability asymmetry is sufficient reason for concern, even without a mechanism."*
+
+force-feedback:: first
+feedback-instructions:: Respond to what the learner actually wrote. Open on the strongest thing in it, in one sentence. Then push once, chosen by where they stopped:
+
+- If they said only that we cannot predict what AI will do, ask what the warrior could have predicted from the size of the ship alone, without knowing anything about guns.
+- If they saw uncertainty but not the difference between how and whether, ask which of the two the skeptical comrade demanded: how the defeat would happen, or whether it would.
+- If they stated that a large capability gap predicts the outcome, ask what the skeptic concluded from not being able to name the weapon, and why that does not follow.
+- If they had the skeptic's mistake, ask how they would answer someone today who says "tell me exactly how AI would beat us, or I am not worried".
+
+At full marks, just confirm briefly. Don't cite level numbers or band names (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: the ship. A vessel that size, built by people who crossed an ocean to arrive, says something about their abilities before anyone sees a weapon. If they still don't attempt it, rephrase the question.
+
+One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
 
 # Suggested Lenses:
