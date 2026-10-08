@@ -3,7 +3,7 @@ id: '393ab747-32d9-419d-8089-4f739096eb21'
 title: "The Case Against Prioritising AI X-Risk"
 tldr: "Skepticism can target the probability of catastrophe, the mechanisms behind it, or the claim that x-risk work deserves priority. A strong case for intervention has to survive all three."
 summary_for_tutor: "Presents and evaluates technical objections from Grace and the Distraction, Human Frailty, and Checkpoints for Intervention arguments reconstructed by Swoboda et al. The aim is to distinguish critiques of probability from critiques of priority, then identify what evidence would resolve each."
-reading_minutes: 38
+reading_minutes: 13
 tutor_minutes: 22
 tags:
   - wip
