@@ -38,14 +38,17 @@ collapse:: open
 
 #### Question: Open
 id:: c2a9cd3e-9257-43d3-9f7b-665e0a6314b8
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content:: **Your top 1-2 research questions (from Week 3):**
 
 #### Question: Open
 id:: 893281ce-ac4e-4ad2-950f-06090db3c32d
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content:: **The bottleneck they target:**
 
 #### Question: Open
 id:: 76f6d912-56fc-4b56-9c48-f75d1c3effef
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content:: **Potential Stakeholders: Who would need to act on this research, if you answered this question perfectly?**
 
 #### End Callout
@@ -109,6 +112,7 @@ content::
 
 #### Question: Open
 id:: a9382544-18e1-42fd-82bb-360a8e52f734
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content:: **Desired outcomes.** What are your biggest uncertainties that a stakeholder interview could help clarify? What do you most want out of these conversations, validating an assumption, understanding a bottleneck, or opening the door to collaboration?
 
 #### Text
@@ -128,6 +132,7 @@ content::
 
 #### Question: Open
 id:: f21d0b2e-ee0e-4197-a23d-a1e12614efde
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content:: What are your next steps for continuing to explore your open questions and uncertainties around stakeholder mapping and outreach?
 
 #### Text
