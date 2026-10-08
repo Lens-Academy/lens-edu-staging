@@ -90,3 +90,6 @@ source:: [[../Lenses/Iliad E.3.1 - Prerequisites and learning outcomes]]
 
 # Lens: E.3.2 Reading guide and further reading
 source:: [[../Lenses/Iliad E.3.2 - Reading guide and further reading]]
+
+# Lens: Transformer Circuit Faithfulness Metrics Are Not Robust
+source:: [[../Lenses/miller-transformer-circuit-faithfulness-metrics-are-not-robust]]
