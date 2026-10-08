@@ -40,7 +40,7 @@ Build that catastrophe yourself, before you read one. If your version turns out 
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
-#### Question
+#### Question: Open
 id:: 5e0d19fc-67a5-47ef-9a57-734e88c8342c
 content::
 \## Your turn first
