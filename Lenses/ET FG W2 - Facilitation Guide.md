@@ -59,17 +59,7 @@ content::
 content::
 **Additional Materials:**
 
-- Week 2 Reading and Worksheet are on Lens Academy
-
-::card[[../Lenses/ET W2 - Reading 1 - Selecting Your High-Impact Problem]]{allow-external}
-
-::card[[../Lenses/ET W2 - Reading 2 - Landscape of High-Impact Problems]]{allow-external}
-
-::card[[../Lenses/ET W2 - Worksheet - Selecting Your High-Impact Problem]]{allow-external}
-
-::card[[../Lenses/ET W2 - Journalling - Explore vs Exploit Tradeoff]]{allow-external}
-
-- For a Google Docs version for printouts, you can use [this](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?tab=t.2b71rt36knt9). But we recommend everyone access via Lens!
+- Week 2 Readings, Worksheet and Journalling: [on Lens Academy](https://lensacademy.org/courses/effective-thesis-accelerator/curriculum) (recommended), or the [Google Doc version](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?usp=sharing) for printouts
 - Week 2 Slides: [\[Shared - 2026\] Week 2: Selecting a High-Impact Problem](https://docs.google.com/presentation/d/1d9HtulBzECf0GErwn5ADMlDCw2q4PzUY4bcFOPIezVs/edit?usp=drive_link)
 
 \### Recommended Structure for the Session
