@@ -60,7 +60,7 @@ feedback-instructions:: Respond to what the learner actually wrote. Open on the 
 - If they had the diagnosis (techniques without understanding, ideals instead of designs, more capable AI taken as progress on safety), ask why that kind of ignorance is hard to correct: what would tell the alchemist he is wrong?
 - If they had that, ask how they would keep the diagnosis from turning into blame or despair: is the field stuck for good, and what would leaving this stage look like?
 
-At full marks, just confirm briefly. Don't cite level numbers or band names (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: Aqua Regia. Alchemists could make it reliably without any chemistry to explain why it worked. Ask what the alignment equivalent is. If they still don't attempt it, rephrase the question.
+At full marks, just confirm briefly. Don't cite point values. If asked about the score, say in plain words what the answer did and the one most important thing it missed. If they say they don't understand, give one concrete foothold: Aqua Regia. Alchemists could make it reliably without any chemistry to explain why it worked. Ask what the alignment equivalent is. If they still don't attempt it, rephrase the question.
 
 One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
