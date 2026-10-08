@@ -3,7 +3,7 @@ id: '10baf4b8-ae11-4899-9f04-289715ab0da8'
 title: "What Makes a Catastrophe Existential?"
 tldr: "Some disasters are terrible because of what they destroy now. Others are terrible because they permanently remove the possibility of recovery, future agency, or a good future. Those are different reasons for concern."
 summary_for_tutor: "Develops existential catastrophe through irreversibility, future value, permanent disempowerment, accumulative systemic collapse, and suffering risks. The text keeps the normative questions open and asks what exactly becomes unrecoverable in each scenario."
-reading_minutes: 22
+reading_minutes: 17
 tutor_minutes: 20
 tags:
   - wip

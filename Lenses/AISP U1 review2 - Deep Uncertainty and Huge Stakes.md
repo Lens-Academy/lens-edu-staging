@@ -3,7 +3,7 @@ id: '8d6d8c21-9c9e-452f-bf11-5e8bc8c76831'
 title: "Deep Uncertainty and Huge Stakes"
 tldr: "A precise-looking probability can conceal uncertainty about the evidence, the model, and the values used in the calculation. Huge stakes matter, but they do not make a weak estimate strong."
 summary_for_tutor: "Develops risk, uncertainty, model uncertainty, ignorance, expected value, Pascal's Mugging, estimate reliability, sequence and cluster thinking, and simple versus complex cluelessness. The learner should leave able to inspect how a number was generated before deciding how much weight to give it."
-reading_minutes: 24
+reading_minutes: 15
 tutor_minutes: 22
 tags:
   - wip
