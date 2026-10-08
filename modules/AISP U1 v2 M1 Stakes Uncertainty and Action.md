@@ -29,7 +29,7 @@ source:: [[../Learning Outcomes/AISP U1 - Distinguishing catastrophic futures]]
 source:: [[../Lenses/AISP U1 v2 - Catastrophic Futures - PQ]]
 
 # Lens: What makes a catastrophe existential?
-source:: [[../Lenses/AISP U1 final - Catastrophic Futures]]
+source:: [[../Lenses/AISP U1 review2 - Catastrophic Futures]]
 
 # Submodule: How should we reason when the probability itself is uncertain?
 
