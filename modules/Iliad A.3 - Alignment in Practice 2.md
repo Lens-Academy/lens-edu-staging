@@ -39,3 +39,6 @@ source:: [[../Lenses/biddulph-untrusted-advice-for-ai-control-short-strong-advic
 
 # Lens: Diffuse AI Control on Fuzzy Tasks
 source:: [[../Lenses/Iliad reading - Diffuse AI Control on Fuzzy Tasks]]
+
+# Lens: Evaluating Chain-of-Thought Monitorability
+source:: [[../Lenses/guan-monitoring-monitorability]]

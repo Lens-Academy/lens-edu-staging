@@ -50,4 +50,6 @@ content::
 
 > (Anthropic) — Adversarially improve the weak scoring process used to train untrusted models against repeated sabotage on hard-to-evaluate work.
 
-5.  [**Evaluating Chain-of-Thought Monitorability**](https://arxiv.org/abs/2512.18311) (OpenAI) — Preserve and measure legible reasoning so chain-of-thought monitoring can serve as a scalable control layer.
+::card[[../Lenses/guan-monitoring-monitorability|Evaluating Chain-of-Thought Monitorability]]
+
+> (OpenAI) — Preserve and measure legible reasoning so chain-of-thought monitoring can serve as a scalable control layer.
