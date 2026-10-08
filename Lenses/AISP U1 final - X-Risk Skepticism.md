@@ -55,7 +55,7 @@ This is ungraded. Push the learner toward observable indicators such as budgets,
 content::
 \## The Human Frailty Argument
 
-The second reconstructed argument says that catastrophic AI risk is ultimately a problem of ordinary human and institutional failure.[^swoboda] People are reckless, overconfident, selfish, biased, bad at coordination, and sometimes malicious. Organizations suppress warnings, mismanage technology, and pursue incentives that conflict with public safety. If those familiar weaknesses are the real source of danger, perhaps we should focus on fixing governance and institutional competence instead of devoting special resources to speculative superintelligence scenarios.
+The second reconstructed argument says that catastrophic AI risk is ultimately a problem of ordinary human and institutional failure.[^cite-swoboda-2025] People are reckless, overconfident, selfish, biased, bad at coordination, and sometimes malicious. Organizations suppress warnings, mismanage technology, and pursue incentives that conflict with public safety. If those familiar weaknesses are the real source of danger, perhaps we should focus on fixing governance and institutional competence instead of devoting special resources to speculative superintelligence scenarios.
 
 There is a real insight here. Many AI risks do depend on human frailty. Misuse requires a person or organization choosing a harmful use. Race dynamics depend on strategic behaviour. Organizational accidents are, by definition, partly organizational. Even a technically misaligned system has to be built, deployed, given access, and inadequately supervised by humans.
 
