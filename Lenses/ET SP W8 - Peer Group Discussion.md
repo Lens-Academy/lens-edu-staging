@@ -40,3 +40,11 @@ id:: 2358c3e9-57ea-43f2-a20b-881462e7dd7e
 content:: **My next step after this course:** What's one concrete action you'll take in the next month?
 placeholder:: Optional - jot it here so you can come back to it
 optional:: true
+
+#### Question: Rating
+id:: d07e71f0-e2db-4b85-bc1b-9d9b60f9fb3a
+content:: **If you met with a peer group this week:** how valuable was it for you?
+scale:: 5
+low-label:: Not valuable
+high-label:: Very valuable
+optional:: true
