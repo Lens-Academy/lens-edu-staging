@@ -23,7 +23,7 @@ eval-results:
 
 ## Test:
 id:: 27dca5ad-1a1d-40bf-b83d-fbcbd2e9f3d0
-#### Question
+#### Question: Open
 id:: 81765b69-2530-4acf-98e9-3fc63e0b7e5b
 content::
 Chapter 4 introduces the alignment problem by arguing that training an AI to be helpful does not reliably produce an AI that wants to be helpful.
@@ -41,6 +41,18 @@ Score according to the following rubric.
 **4**, As above, plus articulates the escalation: ice cream (unpredictable drift) → sucralose (preference disconnected from training target) → peacock tail (preference actively opposing training target). Connects at least one Mink vignette to an analogy. *Example: Adds "It gets worse with sucralose, preferences can become functionally disconnected from the training objective, seeking the sensation rather than the thing it was originally a proxy for. And the peacock tail is the scariest: preferences can actively oppose what the AI was trained for, like Mink Vignette 4 where the AI ends up wanting angry, frustrated users."*
 
 **5**, As above, plus articulates the blank-map principle and its safety implication: the, complications are invisible in today's AIs because they lack the power to act on them. The problems only surface when the AI becomes capable enough to reshape its environment. *Example: Adds "The blank-map principle is what makes this dangerous: we don't see these weird preferences in current AIs because they're not powerful enough to act on them. Like sucralose, humans couldn't want it until we invented chemistry. The misalignment is already there in the weights, hidden, and will only show up when the AI is smart enough to invent its own options."*
+
+force-feedback:: first
+feedback-instructions:: Respond to what the learner actually wrote. Open on the strongest thing in it, in one sentence. Then push once, chosen by where they stopped:
+
+- If they treated what you train for and what you get as the same thing, ask why humans, shaped by selection to seek energy, prefer ice cream rather than the most energy-dense substance we can make.
+- If they saw that preferences can drift but called it a fixable calibration problem, ask how you would know what to correct toward when many different internal psychologies all do well in training.
+- If they explained the ice cream argument but not where it goes beyond ice cream, ask what sucralose and the peacock's tail add: a preference cut loose from the original target, and one that works against it.
+- If they had the escalation, ask why these odd preferences would not show up in today's AIs, and when they would.
+
+At full marks, just confirm briefly. Don't cite level numbers or band names (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: an alien watching early humans gather food could not have predicted that their descendants would want ice cream. If they still don't attempt it, rephrase the question.
+
+One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
 
 # Suggested Lenses:
