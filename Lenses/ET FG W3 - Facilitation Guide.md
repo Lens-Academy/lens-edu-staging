@@ -63,19 +63,7 @@ content::
 content::
 **Additional Materials:**
 
-- Week 3 Reading and Worksheet on Lens Academy
-
-::card[[../Lenses/ET W3 - Reading 1 - From Problem to Research Question]]{allow-external}
-
-::card[[../Lenses/ET W3 - Reading 2 - Bottlenecks to Progress on Your Problem Area]]{allow-external}
-
-::card[[../Lenses/ET W3 - Reading 3 - Generating a Wide Set of Candidate Questions]]{allow-external}
-
-::card[[../Lenses/ET W3 - Worksheet - Generating and Prioritising Research Questions]]{allow-external}
-
-::card[[../Lenses/ET W3 - Journalling - Bottlenecks in Your Life]]{allow-external}
-
-- For a Google Docs version for printouts, you can use [this](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?tab=t.2b71rt36knt9). But we recommend everyone access via Lens!
+- Week 3 Readings, Worksheet and Journalling: [on Lens Academy](https://lensacademy.org/courses/effective-thesis-accelerator/curriculum) (recommended), or the [Google Doc version](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?usp=sharing) for printouts
 - Week 3 Slides: [\[Shared - 2026\] Week 3: Bottleneck and Stakeholder Mapping](https://docs.google.com/presentation/d/1CFPMGlCy3WPmusS_ZwJTPQL5O98NZyC_5WoubCqMWkk/edit?usp=sharing)
 
 \### Recommended Structure for the Session

@@ -63,21 +63,7 @@ content::
 content::
 **Additional Materials:**
 
-- Week 4 Reading and Worksheet are on Lens Academy
-
-::card[[../Lenses/ET W4 - Reading 1 - Stakeholder Mapping]]{allow-external}
-
-::card[[../Lenses/ET W4 - Reading 2 - Stakeholder Outreach]]{allow-external}
-
-::card[[../Lenses/ET W4 - Reading 3 - Conducting Stakeholder Interviews]]{allow-external}
-
-::card[[../Lenses/ET W4 - Reading 4 - Appendix Email Outreach Templates]]{allow-external}
-
-::card[[../Lenses/ET W4 - Worksheet - Stakeholder Mapping and Outreach]]{allow-external}
-
-::card[[../Lenses/ET W4 - Journalling - Emotional Barriers to Outreach]]{allow-external}
-
-- For a Google Docs version for printouts, you can use [this](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?tab=t.2b71rt36knt9). But we recommend everyone access via Lens!
+- Week 4 Readings, Worksheet and Journalling: [on Lens Academy](https://lensacademy.org/courses/effective-thesis-accelerator/curriculum) (recommended), or the [Google Doc version](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?usp=sharing) for printouts
 - Week 4 Slides: [\[Shared - 2026\] Week 4: Stakeholder Outreach and Interviews](https://docs.google.com/presentation/d/18KhquSGHuxoooI3-JmuRQHmdxKKOx5dd7nMsKCxNAL4/edit?slide=id.g37515589af2_0_0#slide=id.g37515589af2_0_0)
 
 \### Recommended Structure for the Session

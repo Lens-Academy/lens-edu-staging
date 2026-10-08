@@ -62,15 +62,7 @@ content::
 content::
 **Additional Materials:**
 
-- Week 5 Reading and Worksheet on Lens
-
-::card[[../Lenses/ET W5 - Reading - Developing Your Theory of Change]]{allow-external}
-
-::card[[../Lenses/ET W5 - Worksheet - Developing Your Theory of Change]]{allow-external}
-
-::card[[../Lenses/ET W5 - Journalling - Resting on Your Impact Journey]]{allow-external}
-
-- For a Google Docs version for printouts, you can use [this](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?tab=t.2b71rt36knt9). But we recommend everyone access via Lens!
+- Week 5 Readings, Worksheet and Journalling: [on Lens Academy](https://lensacademy.org/courses/effective-thesis-accelerator/curriculum) (recommended), or the [Google Doc version](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?usp=sharing) for printouts
 - Week 5 Slides: [\[Shared - 2026\] Week 5: Developing your Theory of Change](https://docs.google.com/presentation/d/1CpEDm4zYTwsk_9lHqdDXEO1GSfM7laSXI7ulvLkPcMY/edit?slide=id.g3c2dd68837b_0_36#slide=id.g3c2dd68837b_0_36)
 
 \### Recommended Structure for the Session
