@@ -54,9 +54,9 @@ feedback-instructions:: Respond to what the learner actually wrote. Open on the 
 - If they read the phrase as luck or waiting for things to turn out fine, ask whether nuclear war was avoided by chance or by something people did.
 - If they said only that we can change the future, ask what people actually did during the Cold War.
 - If they named the deliberate effort, ask why it worked: what had changed for the people who could start a nuclear war, and how long did the effort have to last?
-- If they had that, ask how it carries over to AI: is the chapter saying things will turn out fine, or something else?
+- If they had that, they have full marks. You may offer one extension: how does it carry over to AI? Is the chapter saying things will turn out fine, or something else?
 
-At full marks, just confirm briefly. Don't cite level numbers or band names (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: in 1952, centuries of evidence about human conflict pointed to war. Ask what was different this time. If they still don't attempt it, rephrase the question.
+At full marks, just confirm briefly. Don't cite point values. If asked about the score, say in plain words what the answer did and the one most important thing it missed. If they say they don't understand, give one concrete foothold: in 1952, centuries of evidence about human conflict pointed to war. Ask what was different this time. If they still don't attempt it, rephrase the question.
 
 One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
