@@ -6,7 +6,7 @@ summary_for_tutor: "Lecture notes of worksheet A.3, first part. Blocks with weig
 authors:
   - Garrett Baker
 source_url: https://iliad-intensive.org/alignment/alignment-in-practice-ii/
-upstream_commit: '11944e29333e1e2a2a0c0d93b6398a6df5598ab3'
+upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
 provenance_recorded_at: '2026-10-08'
 ---
 
@@ -18,13 +18,13 @@ Before I can teach you anything about how alignment works in practice I need to 
 
 I will assume you all have basically already learned what a transformer is, and in particular what attention is, from the mechanistic interpretability day, but perhaps you haven't, and in either case, here is the basic picture you need to have in your head:
 
-An AI model has as its basic unit a series of "blocks". These blocks are just functions, which take in an input $x$ and have associated with them a vector of *weights* $w$. $w$ determines the particular behavior of the function that is the block on the input $x$.
+An AI model has as its basic unit a series of "blocks". These blocks are just functions, which take in an input $$x$$ and have associated with them a vector of *weights* $$w$$. $$w$$ determines the particular behavior of the function that is the block on the input $$x$$.
 
 You should have in your head this picture
 
 ![Drawing 2026-07-30 11.35.23](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-a3-drawing-2026-07-30-258e255c.png)
 
-where block $i$ is also known as layer $i$, and has associated with it the weights $w_i$.
+where block $$i$$ is also known as layer $$i$$, and has associated with it the weights $$w_i$$.
 
 For LLMs the input is just a series of "tokens", which you should for now just think of as words. For instance, "My dog ate my" would turn into the input
 $$
@@ -37,9 +37,9 @@ $$
 $$
 But of course our LLM is just a bunch of functions, so unable to read words yet, that's what we're trying to teach it to do. However one thing functions are good at reading are numbers! So we want a simple way to turn this `Input` into a sequence of numbers!
 
-The simplest method is what is called a "one-hot" encoding of each word (in practice people usually use word *pieces* instead of whole words, but for our purposes that is not conceptually important right now). This means we take every word in the dictionary, and label them $1, \dots, V$ where $V$ is the number of words in our dictionary--our vocabulary size. Then we replace each word in `Input` with the vector $[0, \dots, 0, 1, 0, \dots, 0]$ where if the word in $x_0$ is in the $i$th place in our list of all words in the dictionary, then every element of our new vector is zero except for a single 1 in the $i$th entry of our $V$-tuple.
+The simplest method is what is called a "one-hot" encoding of each word (in practice people usually use word *pieces* instead of whole words, but for our purposes that is not conceptually important right now). This means we take every word in the dictionary, and label them $$1, \dots, V$$ where $$V$$ is the number of words in our dictionary--our vocabulary size. Then we replace each word in `Input` with the vector $$[0, \dots, 0, 1, 0, \dots, 0]$$ where if the word in $$x_0$$ is in the $$i$$th place in our list of all words in the dictionary, then every element of our new vector is zero except for a single 1 in the $$i$$th entry of our $$V$$-tuple.
 
-Suppose $V = 6$, and our word list is:
+Suppose $$V = 6$$, and our word list is:
 ```
 "My", "_ate", "_dog", "_homework", "_my", "_zebra"
 ```
@@ -58,7 +58,7 @@ $$
 0 & 0 & 0 & 0 & 1 & 0\\
 \end{bmatrix}
 $$
-This is what we give to block 1, what is usually called the "embedding block". This "embeds" each row of the above matrix. That is, it transforms each one-hot vector into a smaller vector which we will call $x_1^t \in \mathbb R^d$, with $d < V$, and $t$ corresponding to the $t$th row of the new matrix. 
+This is what we give to block 1, what is usually called the "embedding block". This "embeds" each row of the above matrix. That is, it transforms each one-hot vector into a smaller vector which we will call $$x_1^t \in \mathbb R^d$$, with $$d < V$$, and $$t$$ corresponding to the $$t$$th row of the new matrix. 
 
 Conceptually, the embedding matrix encodes the *meaning* of the words, so that words which mean similar things get mapped to similar vectors as each other 
 
@@ -89,7 +89,7 @@ Next we have a transformer block. You should picture this inside your head for t
 
 ![iliad transformer block](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-a3-transformer-block-2ba5719a.png)
 
-That is to say, the transformer block for word $t$ gets to read information from any word coming before $t$ including $t$ itself. This should make sense, when someone is speaking to you, you don't get information about the end of their sentence until you actually get to the end of their sentence, but you always have information from the beginning of their sentence. This is called having "causal attention".
+That is to say, the transformer block for word $$t$$ gets to read information from any word coming before $$t$$ including $$t$$ itself. This should make sense, when someone is speaking to you, you don't get information about the end of their sentence until you actually get to the end of their sentence, but you always have information from the beginning of their sentence. This is called having "causal attention".
 
 %% CLAUDE REVIEW: "That's why it's called a transformer" — the name is from the architecture (Vaswani et al. 2017, "Attention Is All You Need"), not from the blocks repeating. Left as written. %%
 
@@ -99,7 +99,7 @@ The next however-many blocks in our transformer are just repeats of these transf
 
 Before it can do that though, we need to turn the random numbers it's spitting out into words, because while the transformer can read numbers perfectly fine, we do ultimately want this thing to talk!
 
-This is simple, we just have an "unembedding" block, which takes each vector $x_L^t\in \mathbb R^d$ and turns it into a vector in $\mathbb R^V$, constrained so that each entry is positive, and sums to 1. That is, a probability distribution! By interpreting the $i$th entry in $x_L^t$ as the "probability the transformer assigns to the $i$th word in the word list" we now have a probability distribution over all the words in our vocabulary!
+This is simple, we just have an "unembedding" block, which takes each vector $$x_L^t\in \mathbb R^d$$ and turns it into a vector in $$\mathbb R^V$$, constrained so that each entry is positive, and sums to 1. That is, a probability distribution! By interpreting the $$i$$th entry in $$x_L^t$$ as the "probability the transformer assigns to the $$i$$th word in the word list" we now have a probability distribution over all the words in our vocabulary!
 
 In the ideal case, we want the model's output to look like this:
 
@@ -107,7 +107,7 @@ In the ideal case, we want the model's output to look like this:
 
 supposing the true sentence was "My dog ate my homework".
 
-that is to say, each output position $i$ has a corresponding input position $i$, and we want the transformer at output position $i$ to be trying to predict the next input position. That is we want it to be trying to predict input position $i+1$. 
+that is to say, each output position $$i$$ has a corresponding input position $$i$$, and we want the transformer at output position $$i$$ to be trying to predict the next input position. That is we want it to be trying to predict input position $$i+1$$. 
 
 Note that this along with "causal attention" means we are able to truncate the transformer's position at any point in the input, and get what the transformer *would've predicted* had it not had access to any future information.
 
@@ -115,21 +115,21 @@ Note that this along with "causal attention" means we are able to truncate the t
 
 in this way we can see and more importantly grade the transformer's output for 4 different tasks at once! 
 
-Of course, if we have just coded up this transformer, with some random weights $w_i$, we have no guarantee that the transformer actually predicts text well. Its output will just look like a random mess. Even the embeddings will be a random mess. We do constrain a few things, like each transformer block output being normalized, and the "causal attention" flow of information between different transformer blocks.
+Of course, if we have just coded up this transformer, with some random weights $$w_i$$, we have no guarantee that the transformer actually predicts text well. Its output will just look like a random mess. Even the embeddings will be a random mess. We do constrain a few things, like each transformer block output being normalized, and the "causal attention" flow of information between different transformer blocks.
 
-The fix is simple, we give the transformer a bunch of strings of text like "My dog ate my homework", "the quick brown fox jumped over the lazy dog", "We hold these truths to be self evident...", and so on, which we get by scraping a bunch of websites off the internet. We call this collection of texts our dataset $\mathcal D$, then compare the transformer's outputs with the ground truth of those texts, and write down a "loss function" which is minimized when the probability a transformer assigns to a text is its "true" probability of being drawn from the dataset $\mathcal D$. Usually this is what is called "negative log-loss", where
+The fix is simple, we give the transformer a bunch of strings of text like "My dog ate my homework", "the quick brown fox jumped over the lazy dog", "We hold these truths to be self evident...", and so on, which we get by scraping a bunch of websites off the internet. We call this collection of texts our dataset $$\mathcal D$$, then compare the transformer's outputs with the ground truth of those texts, and write down a "loss function" which is minimized when the probability a transformer assigns to a text is its "true" probability of being drawn from the dataset $$\mathcal D$$. Usually this is what is called "negative log-loss", where
 $$
 L(w) = -\,\mathbb{E}_{s \in \mathcal D}\left[\frac{1}{T}\sum_{t=1}^{T-1}\log p_w\!\left(s_{t+1}\mid s_{1:t}\right)\right]
 $$
-where each $s \in \mathcal D$ is a list of words, like ("My", " dog", " ate", " my", " homework"), and $p_w(s_{t+1}|s_{1:t})$ is the probability our model using weights $w$ assigns to the string $s_{t+1}$ given $s_{1:t}$.
+where each $$s \in \mathcal D$$ is a list of words, like ("My", " dog", " ate", " my", " homework"), and $$p_w(s_{t+1}|s_{1:t})$$ is the probability our model using weights $$w$$ assigns to the string $$s_{t+1}$$ given $$s_{1:t}$$.
 
-Then, since this is a function of our weights $w$, and since we have used only differentiable functions of our weights $w$ for our transformer blocks (which we have), we can find $\nabla_w L$, and use this to update our weights like so
+Then, since this is a function of our weights $$w$$, and since we have used only differentiable functions of our weights $$w$$ for our transformer blocks (which we have), we can find $$\nabla_w L$$, and use this to update our weights like so
 $$
 w' \gets w - \varepsilon \nabla_wL
 $$
-where $\varepsilon > 0$ is what is called our "learning rate". It is typically small, usually around $\varepsilon \approx 10^{-4}$ so that we can reasonably expect this update to get us new weights $w'$ which *decrease* our loss function $L$. 
+where $$\varepsilon > 0$$ is what is called our "learning rate". It is typically small, usually around $$\varepsilon \approx 10^{-4}$$ so that we can reasonably expect this update to get us new weights $$w'$$ which *decrease* our loss function $$L$$. 
 
-We then repeatedly apply this process, we take the new model, parameterized by $w'$, evaluate $L(w')$, calculate $\nabla_w L$ again and again and again and again and again. In the big labs this is done for months, and because of the number of updates, the number of datapoints, and the size of the transformer they're updating, they need really big and really fast datacenters to do this efficiently.
+We then repeatedly apply this process, we take the new model, parameterized by $$w'$$, evaluate $$L(w')$$, calculate $$\nabla_w L$$ again and again and again and again and again. In the big labs this is done for months, and because of the number of updates, the number of datapoints, and the size of the transformer they're updating, they need really big and really fast datacenters to do this efficiently.
 
 The magic of deep learning is that this is basically enough to get a language model which can predict text found on the internet *really really well*. 
 

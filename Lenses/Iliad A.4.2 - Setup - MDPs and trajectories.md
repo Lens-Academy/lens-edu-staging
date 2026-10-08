@@ -7,7 +7,7 @@ authors:
   - Leon Lang (Iliad)
   - Joar Skalse (Deducto Limited, King’s College London)
 source_url: https://iliad-intensive.org/alignment/reward-learning-theory/
-upstream_commit: '11944e29333e1e2a2a0c0d93b6398a6df5598ab3'
+upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
 provenance_recorded_at: '2026-10-08'
 ---
 
@@ -17,17 +17,17 @@ content::
 
 This sheet (Section 1) works through one concrete example from Lang et al. 2024 to see how naive RLHF can fail when the human evaluator only *partially* observes the environment they are providing feedback on. By the end of the sheet you will have derived, by hand, the conditions under which an RLHF-optimal policy hides information from the human in a way that systematically inflates the human's perception of the policy's return — the failure mode the paper calls **deceptive inflation**. We close with an informal discussion of the dual failure mode, **overjustification**, in which the agent pays real reward to make its (already-good) behavior look as good as it is, and briefly discuss how such failure modes motivate approaches like AI safety via debate.
 
-We assume familiarity with finite-horizon Markov decision processes; the additional structure needed — observation kernels, human beliefs, the observation return ${G_{\mathrm{obs}}}$ and observation value ${J_{\mathrm{obs}}}$ — is introduced in highlighted boxes as we go.
+We assume familiarity with finite-horizon Markov decision processes; the additional structure needed — observation kernels, human beliefs, the observation return $${G_{\mathrm{obs}}}$$ and observation value $${J_{\mathrm{obs}}}$$ — is introduced in highlighted boxes as we go.
 
 :::callout {title="Definition" tone="blue"}
 
-**Definition 0.1 (MDP and trajectories).** A finite-horizon **Markov decision process** is a tuple $({\mathcal{S}}, {\mathcal{A}}, {\mathcal{T}}, R, P_{0}, T, \gamma)$ with finite state space ${\mathcal{S}}$, finite action space ${\mathcal{A}}$, transition kernel ${\mathcal{T}} : {\mathcal{S}} \times {\mathcal{A}} \to \Delta({\mathcal{S}})$, reward function $R : {\mathcal{S}} \to {\mathbb{R}}$, initial-state distribution $P_{0} \in \Delta({\mathcal{S}})$, horizon $T \in \mathbb{N}$, and discount $\gamma \in (0,1]$. A **state trajectory** is a sequence $\vec s = s_{0} s_{1} \cdots s_{T}$, and its **return** is
+**Definition 0.1 (MDP and trajectories).** A finite-horizon **Markov decision process** is a tuple $$({\mathcal{S}}, {\mathcal{A}}, {\mathcal{T}}, R, P_{0}, T, \gamma)$$ with finite state space $${\mathcal{S}}$$, finite action space $${\mathcal{A}}$$, transition kernel $${\mathcal{T}} : {\mathcal{S}} \times {\mathcal{A}} \to \Delta({\mathcal{S}})$$, reward function $$R : {\mathcal{S}} \to {\mathbb{R}}$$, initial-state distribution $$P_{0} \in \Delta({\mathcal{S}})$$, horizon $$T \in \mathbb{N}$$, and discount $$\gamma \in (0,1]$$. A **state trajectory** is a sequence $$\vec s = s_{0} s_{1} \cdots s_{T}$$, and its **return** is
 
 $$
 G(\vec s) \;=\; \sum_{t=0}^{T}\gamma^{t}\, R(s_{t}).
 $$
 
-A **policy** $\pi : {\mathcal{S}} \to \Delta({\mathcal{A}})$ induces a distribution $P^{\pi}$ over state trajectories. The **policy evaluation function** $J$ assigns to each policy its expected return,
+A **policy** $$\pi : {\mathcal{S}} \to \Delta({\mathcal{A}})$$ induces a distribution $$P^{\pi}$$ over state trajectories. The **policy evaluation function** $$J$$ assigns to each policy its expected return,
 
 $$
 J(\pi) \;=\; {\mathbb{E}}_{\vec s \sim P^\pi}[G(\vec s)],

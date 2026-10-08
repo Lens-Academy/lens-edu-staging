@@ -6,7 +6,7 @@ summary_for_tutor: "RLHF, Constitutional AI and persona selection sections of wo
 authors:
   - Garrett Baker
 source_url: https://iliad-intensive.org/alignment/alignment-in-practice-ii/
-upstream_commit: '11944e29333e1e2a2a0c0d93b6398a6df5598ab3'
+upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
 provenance_recorded_at: '2026-10-08'
 ---
 
@@ -33,15 +33,15 @@ First, we take our expert-cosplaying model, and we give it a bunch of questions 
 
 After we collect a bunch of (question, answer, grade) tuples, we train a new model to predict the grade from the question and answer. This gives us a fast and importantly *differentiable* way to automatically grade the original model's answers.
 
-Let $R$ be the new network which can predict the grade from the question and answer, and $\pi_w$ be the model in charge of actually generating the answers to the questions. Then we can find
+Let $$R$$ be the new network which can predict the grade from the question and answer, and $$\pi_w$$ be the model in charge of actually generating the answers to the questions. Then we can find
 $$
 \nabla_w\,\mathbb{E}_{a\sim\pi_w(\cdot\mid q)}\!\left[R(q,a)\right] = \mathbb{E}_{a\sim\pi_w}\!\left[R(q,a)\,\nabla_w\log\pi_w(a\mid q)\right]
 $$
-where $q$ is the question the model is answering, $a$ is a complete sampled answer (a list of tokens, so $\log\pi_w(a\mid q)=\sum_t \log\pi_w(a_t\mid q, a_{<t})$ is a sum of the same next-token log probabilities we had during pretraining), $\pi_w(\cdot\mid q)$ is the distribution over whole answers our model induces by sampling token-by-token, and $R(q,a)$ is the grade the reward network predicts for answer $a$ to question $q$. We then do gradient *ascent*, basically just as before
+where $$q$$ is the question the model is answering, $$a$$ is a complete sampled answer (a list of tokens, so $$\log\pi_w(a\mid q)=\sum_t \log\pi_w(a_t\mid q, a_{<t})$$ is a sum of the same next-token log probabilities we had during pretraining), $$\pi_w(\cdot\mid q)$$ is the distribution over whole answers our model induces by sampling token-by-token, and $$R(q,a)$$ is the grade the reward network predicts for answer $$a$$ to question $$q$$. We then do gradient *ascent*, basically just as before
 $$
 w' \gets w + \varepsilon\, \nabla_w\,\mathbb{E}_{a\sim\pi_w(\cdot\mid q)}\!\left[R(q,a)\right]
 $$
-Now maximizing $R$ is different from maximizing the grade which the experts will actually give the model. Therefore, occasionally we need to refresh $R$ and train it on a new batch of (question, answer, grade) tuples. 
+Now maximizing $$R$$ is different from maximizing the grade which the experts will actually give the model. Therefore, occasionally we need to refresh $$R$$ and train it on a new batch of (question, answer, grade) tuples. 
 
 But other than that, this is RLHF. This is also the first alignment technique we will discuss. 
 
