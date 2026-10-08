@@ -1,8 +1,8 @@
 ---
-id: '574f8faf-3478-4546-9b8a-ad7a6fb29b0d'
-title: "C.2.1 Overview and prerequisites"
-tldr: "Prerequisites, learning goals and the plan for the mechanistic interpretability day: a lecture alternating with technical exercises."
-summary_for_tutor: "Overview of worksheet C.2 (mechanistic interpretability). Prerequisites: basic machine learning, the transformer architecture, basic linear algebra. Goals: understand the aims of MechInterp, features and circuits, methods for finding them, the current frontier, and common critiques; some participants should implement methods. The day alternates lecture and exercises, with materials in the iliad-intensive-C.2 repository."
+id: 'a9ab8501-e229-478f-ba8f-53c27240b992'
+title: "C.2.2 Content"
+tldr: "The lecture slides, hands-on exercises on feature visualization, logit lens, SAEs, induction heads and Neuronpedia, a topic list, and four discussion readings."
+summary_for_tutor: "Content of worksheet C.2. It has a fast track (the slides) and a main track with exercises in lecture order: feature visualization, logit lens, Neuronpedia SAE features, sparse autoencoders, attribution graphs, induction heads (normal and hard) and natural language autoencoders. It lists lecture topics from features, superposition and SAEs to circuits, circuit tracing and open problems, plus four critical discussion readings. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Julian Schulz (Meridian Research)
 source_url: https://iliad-intensive.org/interpretability/mechanistic-interpretability/
@@ -12,53 +12,6 @@ provenance_recorded_at: '2026-10-08'
 
 #### Text
 content::
-\## Prerequisites
-
-* Knowing the basics of Machine Learning
-* Familiarity with the Transformer Architecture
-* Basic maths / linear algebra
-
-:::callout {title="What you'll learn" tone="neutral"}
-
-**Almost all participants should understand:**
-
-* The Goals of MechInterp
-* What is meant by feature & circuit
-* Have an overview of currently used methods for feature and circuit discovery
-* Have an overview of our current capabilities/frontier of knowledge in MechInterp
-* Be able to engage with/understand common critiques of MechInterp
-
-**Some participants should be able to:**
-
-* implement common mechinterp methods
-* Know when to apply what method
-* read and fully understand new MechInterp publications
-* Be a useful discussion partner to MechInterp researchers
-
-:::
-
-**Why**
-
-Mechinterp is a central field within AI safety. I think everyone should have a rough understanding of the current state of MechInterp, to have an idea where it intersects with their own research direction.
-
-For example: how whitebox methods are useful for AI controls, or how mechinterp findings compare with devinterp findings.
-
-I hope that some participants will take this day as a kickoff point to pursue a project or a career in MechInterp. For these participants, this day should give them enough of a taste of what MechInterp looks like to wake their interest and an overview to orient them towards currently active research directions and open problems.
-
-**How**
-
-We go through a long lecture, getting to know the major developments in MechInterp so far, particularly looking at recent results and methodological developments.
-
-We take turns between lectures, and technical exercises, ending the day in a discussion if the time suffices.
-
-Lecture notes and materials are self-contained within this repository: [https://github.com/iliad-team/iliad-intensive-C.2](https://github.com/iliad-team/iliad-intensive-C.2)
-
-\## Prerequisites
-
-* Knowing the basics of Machine Learning
-* Familiarity with the Transformer Architecture
-* Basic maths / linear algebra
-
 \## Content
 
 \### Fast Track
@@ -92,7 +45,7 @@ Intent:
 
 * The lecture gives an overview of the current state of MechInterp, developments over the last years, and commonly used methods
 * The technical exercises are intended to deepen the understanding of the techniques and give a flavour for how mechinterp work looks like
-* The neuropedia exercises are supposed to de-cherrypick mechinterp results and give a flavour for the average feature/circuit/NLA-oputput and show that a lot of the mechinterp results are still confusing, hard to interpret, and noisy
+* The Neuronpedia exercises are supposed to de-cherrypick mechinterp results and give a flavour for the average feature/circuit/NLA-output and show that a lot of the mechinterp results are still confusing, hard to interpret, and noisy
 
 Content:
 
