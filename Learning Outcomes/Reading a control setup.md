@@ -6,7 +6,7 @@ stage: beginner
 authors:
   - Elias+Claude
 ---
-%% Beginner outcome for AI Control Fundamentals Unit 1. It applies the unit's vocabulary (untrusted and trusted models, unacceptable outcomes, monitors, auditing, responses, control versus alignment claims, red teams, the worst-case assumptions control makes and does not make, the limits of control) to a realistic deployment. Core practice: the scenario exercise in "What control is" (three set-ups, then a new set-up asking for the unacceptable outcome and one assumption or gap) and the Google DeepMind part of "Control in use today". Optional practice: OpenAI's set-up in "Control in use today" and the roleplay "Practice: take apart a deployment pitch", which scores the same moves on a different set-up. %%
+%% Beginner outcome for AI Control Fundamentals Unit 1. It applies the unit's vocabulary (untrusted and trusted models, unacceptable outcomes, monitors, auditing, responses, control versus alignment claims, red teams, the worst-case assumptions control makes and does not make, the limits of control) to a realistic deployment. Core practice: the scenario exercise in "Control versus alignment" (three set-ups, then a new set-up asking for the unacceptable outcome and one assumption or gap) and the Google DeepMind part of "Control in use today". Optional practice: OpenAI's set-up in "Control in use today" and the roleplay "Practice: take apart a deployment pitch", which scores the same moves on a different set-up. %%
 ## Test:
 id:: 0cf1bc5b-a3ca-41fc-b5c6-5533bd52e69b
 
