@@ -191,6 +191,26 @@ What a beautiful first step on your journey - we're so glad you're here! 💛
 
 ::card[[../Lenses/ET W1 - Journalling - Journaling on My Ikigai|Week 1 Journalling: Journaling on My Ikigai]]
 
+#### Callout: 🪞 After your group discussion: reflection
+tone:: green
+
+#### Text
+content::
+Come back to this once you've had this week's cohort discussion! Some of the best insights in the Accelerator come from each other, so take a few minutes to capture what stuck with you before it fades.
+
+#### Question: Open
+id:: 6f39dc8c-9546-41ff-95a2-6a889926304b
+content::
+**What did you take away from this week's group discussion?**
+
+- What idea, perspective or question stuck with you?
+- Did anything shift in how you're thinking about your thesis or career path?
+- Is there anything you will try or do differently as a result?
+placeholder:: e.g. something I will do differently in my project is...
+optional:: true
+
+#### End Callout
+
 #### Callout: ⭐ Quick check-in on this week's worksheet
 tone:: purple
 
