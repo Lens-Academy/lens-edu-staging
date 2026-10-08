@@ -10,9 +10,8 @@ upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
 provenance_recorded_at: '2026-10-08'
 ---
 
-#### Text
-content::
-[Video: The Mathematics of Concepts: How AIs See The World](https://www.youtube.com/watch?v=odsHleu80x8)
+#### Video
+source:: [[../video_transcripts/iliad-the-mathematics-of-concepts-how-ais-see-the-world]]
 
 #### Text
 content::
