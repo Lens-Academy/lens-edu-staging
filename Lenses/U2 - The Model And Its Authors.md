@@ -138,7 +138,7 @@ source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## Timelines and takeoff forecasts
 to:: this list is nowhere near exhaustive but that’s enough for now I guess.
 
-#### Question
+#### Question: Open
 id:: c4105299-b0e6-4779-8440-c45103089990
 content::
 \## Two people, one model, different answers
@@ -177,7 +177,7 @@ source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## Comparison to our previous
 to:: You can read more about these changes and their effects in our [supplementary materials](https://docs.google.com/document/d/1ru6Okbxb6XuH18Cz8439sdQJazMV39hNxsWDokh97r0/edit?tab=t.0#heading=h.fzjrie7c4m4p).
 
-#### Question
+#### Question: Open
 id:: 6cdc5e71-6946-4efb-8651-46bd49871faf
 content::
 \## A three-to-five year shift, in nine months
@@ -203,7 +203,7 @@ Response style:
 What to do in each reply:
 1. If they conclude only "forecasts are unreliable", ask what they would still use a forecast FOR, given that.
 
-#### Question
+#### Question: Open
 id:: d6316651-341f-4d32-90c4-3f29a411e455
 content::
 \## What has to keep happening, and what is left afterwards
