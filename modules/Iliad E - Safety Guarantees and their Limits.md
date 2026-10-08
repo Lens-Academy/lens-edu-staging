@@ -74,6 +74,11 @@ source:: [[../Lenses/draguns-unelicitable-backdoors-in-language-models-via-crypt
 # Lens: Undetectable Backdoors in Model Parameters: Hiding Sparse Secrets in High Dimensions
 source:: [[../Lenses/choudhary-undetectable-backdoors-in-model-parameters-hiding-sparse-secrets-in-high-dimensions]]
 
+# Lens: Statistically Undetectable Backdoors in Deep Neural Networks
+source:: [[../Lenses/bogdanov-statistically-undetectable-backdoors-in-deep-neural-networks]]
+
+# Lens: Backdoor Channels Hidden in Latent Space: Cryptographic Undetectability in Modern Neural Networks
+source:: [[../Lenses/eggen-backdoor-channels-hidden-in-latent-space-extending-cryptographic-undetectability-to-modern-neural-networks]]
 # Lens: E.2.6 Solution to the random ReLU exercise and further reading
 source:: [[../Lenses/Iliad E.2.6 - Solution to the random ReLU exercise and further reading]]
 
