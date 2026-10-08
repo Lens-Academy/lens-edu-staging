@@ -32,6 +32,7 @@ Lucius Bushnaq replied to Buck's point about getting useful research out of sche
 
 (ASI means artificial superintelligence.) Buck answered:
 
+[^cite-bushnaq-comment]: Lucius Bushnaq, comment on John Wentworth's *The Case Against AI Control Research*. [LessWrong](https://www.lesswrong.com/posts/8wBN8cdNAv3c7vt6p/the-case-against-ai-control-research?commentId=FpZmBx2Q4eswZWmy6)
 #### Article
 source:: [[../articles/buck-comment-on-the-case-against-ai-control-research]]
 

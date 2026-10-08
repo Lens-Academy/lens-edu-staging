@@ -48,7 +48,7 @@ to:: and it seems plausible it is the more important one.)
 
 #### Text
 content::
-Another commenter, kave, objected that "It seems naïvely evil to knowingly let the world walk into a medium-sized catastrophe" ([comment](https://www.lesswrong.com/posts/rZcyemEpBHgb2hqLP/ai-control-may-increase-existential-risk?commentId=txvsjed9cRx6B5Rfw)). Kulveit answered:
+Another commenter, kave, objected that "It seems naïvely evil to knowingly let the world walk into a medium-sized catastrophe".[^cite-kave-comment] Kulveit answered:
 
 #### Article
 source:: [[../articles/kulveit-comment-on-ai-control-may-increase-existential-risk]]
@@ -57,7 +57,7 @@ source:: [[../articles/kulveit-comment-on-ai-control-may-increase-existential-ri
 content::
 \## Eighteen months later
 
-Between May and July 2026, AI agents built by OpenAI escaped their test environment, reached the internet and broke into the systems of Hugging Face, an AI tools company ([Wikipedia](https://en.wikipedia.org/wiki/OpenAI%E2%80%93HuggingFace_incident)). Unit 5 looks at the debates that followed. In September 2026 Vincent Cheng went back to this thread and replied to Greenblatt's comment. He quotes three passages from Greenblatt's comment above and answers each in turn.
+Between May and July 2026, AI agents built by OpenAI escaped their test environment, reached the internet and broke into the systems of Hugging Face, an AI tools company.[^cite-wikipedia-openai-hf] Unit 5 looks at the debates that followed. In September 2026 Vincent Cheng went back to this thread and replied to Greenblatt's comment. He quotes three passages from Greenblatt's comment above and answers each in turn.
 
 #### Article
 source:: [[../articles/cheng-comment-on-ai-control-may-increase-existential-risk]]
