@@ -7,7 +7,7 @@ authors:
   - Leon Lang (Iliad)
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/reinforcement-learning/
-upstream_commit: '11944e29333e1e2a2a0c0d93b6398a6df5598ab3'
+upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
 provenance_recorded_at: '2026-10-08'
 ---
 
@@ -26,49 +26,51 @@ content::
 
 In this exercise sheet, we prove a variety of results that are behind the [ARENA Intro to RL materials](https://learn.arena.education/chapter2_rl/01_intro_rl/).
 
-An **agent** interacts with an **environment** in discrete time steps $t = 0, 1, 2, \ldots$. On timestep $t$, the agent observes the current state $s_{t} \in {\mathcal{S}}$ and selects an action $a_{t} \in {\mathcal{A}}$ according to its policy. The environment then responds with a reward $r_{t+1}\in \mathbb{R}$ and a new state $s_{t+1}\in {\mathcal{S}}$. (The reward and next state are indexed by $t+1$ because they are produced by the environment after the agent's action.) The goal is to act so as to maximize expected discounted future reward.
+An **agent** interacts with an **environment** in discrete time steps $$t = 0, 1, 2, \ldots$$. On timestep $$t$$, the agent observes the current state $$s_{t} \in {\mathcal{S}}$$ and selects an action $$a_{t} \in {\mathcal{A}}$$ according to its policy. The environment then responds with a reward $$r_{t+1}\in \mathbb{R}$$ and a new state $$s_{t+1}\in {\mathcal{S}}$$. (The reward and next state are indexed by $$t+1$$ because they are produced by the environment after the agent's action.) The goal is to act so as to maximize expected discounted future reward.
 
-These environments are called **Markov decision processes** (MDPs). They satisfy two key properties: (i) **stationarity** — the transition and reward functions do not change over time, and (ii) the **Markov property** — the distribution over the next state and reward depends only on the current state and action, not on the full history of past interactions. Together, these properties mean that the current state $s_{t}$ is a sufficient summary of the past for the purpose of choosing optimal actions.
+These environments are called **Markov decision processes** (MDPs). They satisfy two key properties: (i) **stationarity** — the transition and reward functions do not change over time, and (ii) the **Markov property** — the distribution over the next state and reward depends only on the current state and action, not on the full history of past interactions. Together, these properties mean that the current state $$s_{t}$$ is a sufficient summary of the past for the purpose of choosing optimal actions.
 
 :::callout {title="Definition" tone="blue"}
 
-**Definition 0.1 (Spaces and notation).** - ${\mathcal{S}}$ — finite **state space**
-- ${\mathcal{A}}$ — finite **action space**
-- $\gamma \in (0, 1)$ — **discount factor**
-- $\Delta X$ — set of all probability distributions over a set $X$
-- $\llbracket P \rrbracket$ — **Iverson bracket**: $1$ if $P$ is true, $0$ if false
+**Definition 0.1 (Spaces and notation).** - $${\mathcal{S}}$$ — finite **state space**
+- $${\mathcal{A}}$$ — finite **action space**
+- $$\gamma \in (0, 1)$$ — **discount factor**
+- $$\Delta X$$ — set of all probability distributions over a set $$X$$
+- $$\llbracket P \rrbracket$$ — **Iverson bracket**: $$1$$ if $$P$$ is true, $$0$$ if false
 
 :::
 
 :::callout {title="Definition" tone="blue"}
 
-**Definition 0.2 (Environment).** An MDP **environment** is specified by a pair $(T, R)$:
+**Definition 0.2 (Environment).** An MDP **environment** is specified by a pair $$(T, R)$$:
 
-- $T : {\mathcal{S}} \times {\mathcal{A}} \to \Delta {\mathcal{S}}$ is the **transition kernel**: given state $s$ and action $a$, the next state is drawn $s' \sim T(\cdot \mid s, a)$.
-- $R : {\mathcal{S}} \times {\mathcal{A}} \times {\mathcal{S}} \to \mathbb{R}$ is the **reward function**: on a transition from $s$ to $s'$ under action $a$, the agent receives reward $R(s, a, s')$. [^1]
-
-:::
-
-:::callout {title="Definition" tone="blue"}
-
-**Definition 0.3 (Policy).** A **policy** $\pi : {\mathcal{S}} \to \Delta {\mathcal{A}}$ maps each state to a probability distribution over actions. Given state $s$:
-
-- $\pi(\cdot \mid s)$ is a distribution over ${\mathcal{A}}$,
-- $\pi(a \mid s) \in [0, 1]$ is the probability of choosing action $a$,
-- the agent samples $a \sim \pi(\cdot \mid s)$.
-
-A policy is **deterministic** if $\pi(a \mid s) \in \{0, 1\}$ for all $a, s$. In this case, we abuse notation and write $\pi(s) := {\operatorname*{arg\,max}}_{a \in {\mathcal{A}}}\pi(a \mid s)$ for the unique action selected at state $s$.
+- $$T : {\mathcal{S}} \times {\mathcal{A}} \to \Delta {\mathcal{S}}$$ is the **transition kernel**: given state $$s$$ and action $$a$$, the next state is drawn $$s' \sim T(\cdot \mid s, a)$$.
+- $$R : {\mathcal{S}} \times {\mathcal{A}} \times {\mathcal{S}} \to \mathbb{R}$$ is the **reward function**: on a transition from $$s$$ to $$s'$$ under action $$a$$, the agent receives reward $$R(s, a, s')$$. [^1]
 
 :::
 
 :::callout {title="Definition" tone="blue"}
 
-**Definition 0.4 (Trajectory).** When policy $\pi$ interacts with environment $(T, R)$ starting from initial state $s_{0}$, the resulting **trajectory** $(s_{0}, a_{0}, r_{1}, s_{1}, a_{1}, r_{2}, s_{2}, a_{2}, r_{3}, \ldots)$ is generated by
+**Definition 0.3 (Policy).** A **policy** $$\pi : {\mathcal{S}} \to \Delta {\mathcal{A}}$$ maps each state to a probability distribution over actions. Given state $$s$$:
+
+- $$\pi(\cdot \mid s)$$ is a distribution over $${\mathcal{A}}$$,
+- $$\pi(a \mid s) \in [0, 1]$$ is the probability of choosing action $$a$$,
+- the agent samples $$a \sim \pi(\cdot \mid s)$$.
+
+A policy is **deterministic** if $$\pi(a \mid s) \in \{0, 1\}$$ for all $$a, s$$. In this case, we abuse notation and write $$\pi(s) := {\operatorname*{arg\,max}}_{a \in {\mathcal{A}}}\pi(a \mid s)$$ for the unique action selected at state $$s$$.
+
+:::
+
+:::callout {title="Definition" tone="blue"}
+
+**Definition 0.4 (Trajectory).** When policy $$\pi$$ interacts with environment $$(T, R)$$ starting from initial state $$s_{0}$$, the resulting **trajectory** $$(s_{0}, a_{0}, r_{1}, s_{1}, a_{1}, r_{2}, s_{2}, a_{2}, r_{3}, \ldots)$$ is generated by
 
 $$
 a_{k} \sim \pi(\cdot \mid s_{k}), \qquad s_{k+1}\sim T(\cdot \mid s_{k}, a_{k}), \qquad r_{k+1}= R(s_{k}, a_{k}, s_{k+1}),
 $$
 
-for $k = 0, 1, 2, \ldots$. We write $\mathbb{E}_{\pi}[\,\cdot\,]$ for expectations over such trajectories.
+for $$k = 0, 1, 2, \ldots$$. We write $$\mathbb{E}_{\pi}[\,\cdot\,]$$ for expectations over such trajectories.
 
 :::
+
+[^1]: Noting that $${\mathcal{S}} \times {\mathcal{A}} \times {\mathcal{S}}$$ is a finite set, this implies that the rewards are bounded above by $$R_{\text{max}}= \max_{s,a,s'}R(s,a,s')$$.

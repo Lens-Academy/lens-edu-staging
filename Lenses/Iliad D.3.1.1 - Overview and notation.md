@@ -7,7 +7,7 @@ authors:
   - David Quarel (ARENA)
   - Leon Lang (Iliad)
 source_url: https://iliad-intensive.org/agency/solomonoff-induction/
-upstream_commit: '11944e29333e1e2a2a0c0d93b6398a6df5598ab3'
+upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
 provenance_recorded_at: '2026-10-08'
 ---
 
@@ -33,7 +33,7 @@ Much of this material is drawn from (Hutter et al. 2024, Chapter 3) and the earl
 
 \## Overview
 
-Solomonoff induction is the *prediction* half of **Universal AI**: what would an *optimally intelligent* agent do if it only had to predict, given unlimited compute and the weakest possible assumptions? The answer is a single **Bayesian mixture** $\xi$ over a countable class $\mathcal{M}$ of candidate environments, weighted by a prior $w_{\nu}$. It (eventually) predicts as well as the true environment $\mu$, and under the **universal** choice — $\mathcal{M}$ = all computable environments, prior $w_{\nu} = 2^{-K(\nu)}$ with $K$ the Kolmogorov complexity — the assumption "$\mu \in \mathcal{M}$" becomes "the universe is computable," and Occam's razor drops out of the mathematics.
+Solomonoff induction is the *prediction* half of **Universal AI**: what would an *optimally intelligent* agent do if it only had to predict, given unlimited compute and the weakest possible assumptions? The answer is a single **Bayesian mixture** $$\xi$$ over a countable class $$\mathcal{M}$$ of candidate environments, weighted by a prior $$w_{\nu}$$. It (eventually) predicts as well as the true environment $$\mu$$, and under the **universal** choice — $$\mathcal{M}$$ = all computable environments, prior $$w_{\nu} = 2^{-K(\nu)}$$ with $$K$$ the Kolmogorov complexity — the assumption "$$\mu \in \mathcal{M}$$" becomes "the universe is computable," and Occam's razor drops out of the mathematics.
 
 This module is a worksheet: you build the theory yourself, one problem at a time. The sequel module, [AIXI](https://iliad-intensive.org/agency/aixi), lifts the same mixture to sequential decision-making (learning to *act*).
 
@@ -41,20 +41,20 @@ This module is a worksheet: you build the theory yourself, one problem at a time
 
 **A recipe for prediction:** Solomonoff induction is an attempt to mathematically formalize the [*problem of induction*](https://en.wikipedia.org/wiki/Problem_of_induction) from philosophy: How to make predictions about the future based on past observations?
 
-We formalize this as sequence prediction: There is some true environment $\mu$ that generates a sequence $x_{1}, x_{2}, \dots$ of (binary) symbols. Each next symbol $x_{t} \sim \mu(\cdot \mid x_{<t})$ is sampled from $\mu$ conditioned on the past $x_{<t}$. A predictor $P$ takes the history $x_{<t}$ and gives a distribution $P(\cdot \mid x_{<t})$ over the next symbol $x_{t}$.
+We formalize this as sequence prediction: There is some true environment $$\mu$$ that generates a sequence $$x_{1}, x_{2}, \dots$$ of (binary) symbols. Each next symbol $$x_{t} \sim \mu(\cdot \mid x_{<t})$$ is sampled from $$\mu$$ conditioned on the past $$x_{<t}$$. A predictor $$P$$ takes the history $$x_{<t}$$ and gives a distribution $$P(\cdot \mid x_{<t})$$ over the next symbol $$x_{t}$$.
 
-We measure the quality of a predictor $P$ by the $\mu$-expected squared prediction error, summed over every timestep:
+We measure the quality of a predictor $$P$$ by the $$\mu$$-expected squared prediction error, summed over every timestep:
 
 $$
 \begin{aligned}S_{\infty}^{\mu} := \sum_{t=1}^{\infty}\sum_{x_{<t} \in \mathbb{B}^*}\mu(x_{<t}) \sum_{x_t \in \mathbb{B}}\big( P(x_{t} \mid x_{<t}) - \mu(x_{t} \mid x_{<t}) \big)^{2}.\end{aligned}
 $$
 
-How to construct a predictor $P$ such that $S^{\mu}_{\infty}$ is small (or at least finite)? Bayesian inference to the rescue: we choose as our predictor a *Bayesian mixture* $\xi$ over a countable class ${\mathcal{M}} = \{\nu_{1}, \nu_{2}, \dots\}$ of candidate environments, weighted by prior beliefs $w_{\nu}$ (formalized in Definition 1.2). The main results we build up to are:
+How to construct a predictor $$P$$ such that $$S^{\mu}_{\infty}$$ is small (or at least finite)? Bayesian inference to the rescue: we choose as our predictor a *Bayesian mixture* $$\xi$$ over a countable class $${\mathcal{M}} = \{\nu_{1}, \nu_{2}, \dots\}$$ of candidate environments, weighted by prior beliefs $$w_{\nu}$$ (formalized in Definition 1.2). The main results we build up to are:
 
-- **Cumulative bound** (Section 4): Assuming $\mu \in {\mathcal{M}}$, $S^{\mu}_{\infty} \leq -\ln w_{\mu}$. The higher the prior on $\mu$, the lower the prediction error.
-- **Explicit bound** (Exercise 4.2): specialize to the Solomonoff prior $w_{\nu} = 2^{-K(\nu)}$ to get $S^{\mu}_{\infty} \leq K(\mu)\ln 2$, where $K$ is the *Kolmogorov complexity*.
-- **Pareto optimality** (Exercises 6.2 and 8.2): no other predictor weakly dominates $\xi$ on every $\nu \in {\mathcal{M}}$, for either KL or squared loss.
-- **Misspecified version** (Section 7): If $\mu \not\in {\mathcal{M}}$, the cumulative bound becomes $-\ln w_{\hat\mu}+ D_{n}(\mu \parallel \hat\mu)$: the constant complexity term plus an approximation term $D_{n}(\mu \parallel \hat\mu) = \sum_{t=1}^{n} d_{t}(\mu \parallel \hat\mu)$ that in general grows linearly in $n$, so $S^{\mu}_{\infty}$ diverges. Here $\hat{\mu}\in {\mathcal{M}}$ is the "closest" environment to $\mu$.
+- **Cumulative bound** (Section 4): Assuming $$\mu \in {\mathcal{M}}$$, $$S^{\mu}_{\infty} \leq -\ln w_{\mu}$$. The higher the prior on $$\mu$$, the lower the prediction error.
+- **Explicit bound** (Exercise 4.2): specialize to the Solomonoff prior $$w_{\nu} = 2^{-K(\nu)}$$ to get $$S^{\mu}_{\infty} \leq K(\mu)\ln 2$$, where $$K$$ is the *Kolmogorov complexity*.
+- **Pareto optimality** (Exercises 6.2 and 8.2): no other predictor weakly dominates $$\xi$$ on every $$\nu \in {\mathcal{M}}$$, for either KL or squared loss.
+- **Misspecified version** (Section 7): If $$\mu \not\in {\mathcal{M}}$$, the cumulative bound becomes $$-\ln w_{\hat\mu}+ D_{n}(\mu \parallel \hat\mu)$$: the constant complexity term plus an approximation term $$D_{n}(\mu \parallel \hat\mu) = \sum_{t=1}^{n} d_{t}(\mu \parallel \hat\mu)$$ that in general grows linearly in $$n$$, so $$S^{\mu}_{\infty}$$ diverges. Here $$\hat{\mu}\in {\mathcal{M}}$$ is the "closest" environment to $$\mu$$.
 
 \## Notation
 
@@ -64,14 +64,14 @@ For more background, see [the corresponding post on Solomonoff induction](https:
 
 **Symbols used throughout.**
 
-- $\mathbb{B}= \{\texttt{0}, \texttt{1}\}$: the binary alphabet; $\mathbb{B}^{*}$ all finite binary strings; $\mathbb{B}^{n}$ length-$n$ strings.
-- $\epsilon$: the empty string.
-- $xy$: string concatenation. if $x := x_{1:n}$ and $y := y_{1:m}$ then $xy = x_{1} \ldots x_{n} y_{1} \ldots y_{m}$.
-- $x_{i:j}:= x_{i} x_{i+1}\ldots x_{j}$.
-- $x_{<t}:= x_{1} x_{2} \cdots x_{t-1}$.
-- $\nu, \rho$: generic environments / predictors. $\mu$: the true (unknown) environment generating the data. $\xi$: a Bayesian mixture of environments.
-- ${\mathcal{M}} = \{\nu_{1}, \nu_{2}, \ldots\}$: a countable class of candidate environments.
-- $w_{\nu} > 0$ with $\sum_{\nu \in {\mathcal{M}}}w_{\nu} = 1$: the prior over ${\mathcal{M}}$. $w(\nu \mid x_{<t})$: the posterior after observing $x_{<t}$.
-- $\Delta \mathcal{X}$: the set of probability distributions over a finite set $\mathcal{X}$.
+- $$\mathbb{B}= \{\texttt{0}, \texttt{1}\}$$: the binary alphabet; $$\mathbb{B}^{*}$$ all finite binary strings; $$\mathbb{B}^{n}$$ length-$$n$$ strings.
+- $$\epsilon$$: the empty string.
+- $$xy$$: string concatenation. if $$x := x_{1:n}$$ and $$y := y_{1:m}$$ then $$xy = x_{1} \ldots x_{n} y_{1} \ldots y_{m}$$.
+- $$x_{i:j}:= x_{i} x_{i+1}\ldots x_{j}$$.
+- $$x_{<t}:= x_{1} x_{2} \cdots x_{t-1}$$.
+- $$\nu, \rho$$: generic environments / predictors. $$\mu$$: the true (unknown) environment generating the data. $$\xi$$: a Bayesian mixture of environments.
+- $${\mathcal{M}} = \{\nu_{1}, \nu_{2}, \ldots\}$$: a countable class of candidate environments.
+- $$w_{\nu} > 0$$ with $$\sum_{\nu \in {\mathcal{M}}}w_{\nu} = 1$$: the prior over $${\mathcal{M}}$$. $$w(\nu \mid x_{<t})$$: the posterior after observing $$x_{<t}$$.
+- $$\Delta \mathcal{X}$$: the set of probability distributions over a finite set $$\mathcal{X}$$.
 
 :::

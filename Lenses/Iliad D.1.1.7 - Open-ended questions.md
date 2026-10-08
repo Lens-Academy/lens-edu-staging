@@ -6,7 +6,7 @@ summary_for_tutor: "This is Section 8 'Conclusion' of worksheet D.1.1 (preferenc
 authors:
   - Fernando E. Rosas
 source_url: https://iliad-intensive.org/agency/preferences-to-rewards/
-upstream_commit: '11944e29333e1e2a2a0c0d93b6398a6df5598ab3'
+upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
 provenance_recorded_at: '2026-10-08'
 ---
 
@@ -30,7 +30,7 @@ Discussion notes, not a unique answer. Prescriptively, the money-pump and domina
 
 :::callout {title="Solution" tone="neutral" collapse="closed"}
 
-Discussion notes. The natural candidates weaken one axiom at a time. Dropping *completeness* is the most studied: an agent with incomplete preferences can remain undecided between continuing and being shut down, so it is not pushed by coherence arguments toward shutdown-resistance; money pumps also lose force because the agent may simply refuse trades between incomparable options. Weakening *continuity* permits lexicographic safety: "never cross the constraint, then optimise" cannot be represented by a single real-valued utility, which is arguably a feature. Weakening *independence* allows certainty-favouring (Allais-like) preferences, which dampen gambling-for-resources behaviour. Weakening *temporal $\gamma$-indifference* removes the local reward representation: goals about the shape of a trajectory as a whole (diversity, "never do X") stop being expressible as accumulated reward. The common pattern: each axiom kept buys a representation theorem and optimisation pressure; each axiom dropped blocks a coherence-based failure mode while making the agent's behaviour less analysable.
+Discussion notes. The natural candidates weaken one axiom at a time. Dropping *completeness* is the most studied: an agent with incomplete preferences can remain undecided between continuing and being shut down, so it is not pushed by coherence arguments toward shutdown-resistance; money pumps also lose force because the agent may simply refuse trades between incomparable options. Weakening *continuity* permits lexicographic safety: "never cross the constraint, then optimise" cannot be represented by a single real-valued utility, which is arguably a feature. Weakening *independence* allows certainty-favouring (Allais-like) preferences, which dampen gambling-for-resources behaviour. Weakening *temporal $$\gamma$$-indifference* removes the local reward representation: goals about the shape of a trajectory as a whole (diversity, "never do X") stop being expressible as accumulated reward. The common pattern: each axiom kept buys a representation theorem and optimisation pressure; each axiom dropped blocks a coherence-based failure mode while making the agent's behaviour less analysable.
 
 :::
 
@@ -40,7 +40,7 @@ Discussion notes. The natural candidates weaken one axiom at a time. Dropping *c
 
 :::callout {title="Solution" tone="neutral" collapse="closed"}
 
-Discussion notes; instructive examples include: (i) lexicographic safety-first preferences — violate continuity (see Exercise 5.3); (ii) Pareto/multi-objective preferences, undominated but unaggregated — violate completeness; (iii) hyperbolic discounting — satisfies the vNM axioms at a single decision time yet violates temporal $\gamma$-indifference, hence admits utility but no stationary reward/discount pair, and is dynamically inconsistent; (iv) the certainty effect (Allais) — violates independence only; (v) satisficing ("anything above the threshold is equally fine") — complete and transitive, so ordinal utility exists, but indifference plateaus interact oddly with lotteries near the threshold; (vi) trajectory-shape goals such as "visit as many distinct states as possible" — can satisfy all four vNM axioms (a utility exists) while violating the temporal axiom, illustrating exactly the gap between utility and reward.
+Discussion notes; instructive examples include: (i) lexicographic safety-first preferences — violate continuity (see Exercise 5.3); (ii) Pareto/multi-objective preferences, undominated but unaggregated — violate completeness; (iii) hyperbolic discounting — satisfies the vNM axioms at a single decision time yet violates temporal $$\gamma$$-indifference, hence admits utility but no stationary reward/discount pair, and is dynamically inconsistent; (iv) the certainty effect (Allais) — violates independence only; (v) satisficing ("anything above the threshold is equally fine") — complete and transitive, so ordinal utility exists, but indifference plateaus interact oddly with lotteries near the threshold; (vi) trajectory-shape goals such as "visit as many distinct states as possible" — can satisfy all four vNM axioms (a utility exists) while violating the temporal axiom, illustrating exactly the gap between utility and reward.
 
 :::
 
@@ -50,7 +50,7 @@ Maurice Allais (1953). *Le comportement de l'homme rationnel devant le risque: c
 
 Robert J Aumann (1962). *Utility theory without the completeness axiom*. Econometrica.
 
-Michael Bowling, John D. Martin, David Abel, and Will Dabney (2023). [*Settling the Reward Hypothesis*](https://arxiv.org/abs/2212.10420). arXiv preprint arXiv:2212.10420.
+Michael Bowling, John D. Martin, David Abel, and Will Dabney (2023). [*Settling the Reward Hypothesis*](https://arxiv.org/abs/2212.10420). arXiv preprint arXiv\:2212.10420.
 
 Gerard Debreu (1954). *Representation of a preference ordering by a numerical function*. Decision Processes.
 
