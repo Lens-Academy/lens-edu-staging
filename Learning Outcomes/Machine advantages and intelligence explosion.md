@@ -33,19 +33,21 @@ A lab freezes one current AI model on today's hardware and observes that it does
 Evaluate that conclusion. What does this observation establish, and what does it leave untested? Explain at least two routes by which machine intelligence could exceed biological intelligence, the condition under which AI development could become a positive feedback loop, and what would remain uncertain even if those mechanisms are possible.
 
 assessment-instructions::
-Grade the student's reasoning, not whether they agree with the chapter's forecast.
+Score out of 100: the sum of the four elements below.
 
-Pass only if the answer demonstrates all four checks:
-1. **Evidence boundary:** Recognizes that one static model on current hardware shows something about that system, not a permanent ceiling on machine intelligence.
-2. **Machine advantages:** Correctly explains at least two relevant advantages from the chapter, such as faster computation, copyable expertise, faster hardware or algorithmic improvement, larger memory, improved thinking algorithms, or experimentation on copied minds. Listing terms without explaining how they could affect capability is insufficient.
-3. **Feedback mechanism:** Explains that an intelligence explosion requires AI capable of materially contributing to the creation of better AI, whose successors can then contribute more. It must not treat recursive improvement as automatic for every AI.
-4. **Calibrated uncertainty:** Distinguishes the physical or structural possibility of machines exceeding humans from uncertainty about the route, threshold, speed, and timing.
+The scenario: a lab freezes one current AI model on today's hardware, sees that it does not improve itself, and concludes that machine intelligence will stay below humanity's, that machines have no advantages that matter, and that only human researchers can build the next generation. The question asks the learner to evaluate that conclusion: what the observation establishes and what it leaves untested, at least two routes by which machine intelligence could exceed biological intelligence, the condition under which AI development could become a positive feedback loop, and what would stay uncertain even if those mechanisms are possible. Grade the reasoning, not agreement with any forecast.
 
-Fail if the answer merely asserts that AI will improve, treats current scaling trends as proof, assumes self-improvement without a mechanism, or presents the chapter as establishing a date for superintelligence.
+20: What the observation shows and what it leaves untested. It shows something about this one frozen model on this hardware, not a lasting limit on machines. Untested are things such as later or larger models, better hardware or algorithms, and whether some AI could contribute to AI research.
 
-A student may pass while assigning the scenario a low probability or arguing that bottlenecks will prevent it, provided they reconstruct the mechanisms accurately and identify the assumptions their disagreement turns on.
+30: At least two ways machine minds could come to exceed biological ones, each with a short reason it would raise capability (15 each). Examples: much faster thinking, copying a skilled model many times, hardware and algorithms improving far faster than brains evolve, larger memory, better designed ways of thinking, experimenting on copies of itself. Any other plausible machine advantage counts if the answer says how it helps. A bare list of words without any reason earns 5 per item.
 
-Give concise qualitative feedback naming which checks were demonstrated and which need work.
+25: The condition for a feedback loop: AI becomes good enough at AI research to materially help build a better AI, and that better AI helps build a better one still. The answer must make clear this needs AI capable of improving AI, not that every AI improves itself.
+
+25: What stays uncertain: even if machines can in principle exceed humans, the route, the threshold at which the loop starts, how fast it would go, where it would level off, and when any of it would happen are open. Naming one or two of these as open, set against the possibility, earns the full 25.
+
+Cap at 50 if the answer treats current trends or the loop as proof that superintelligence will arrive by a given date.
+
+Model answer, for the feedback, not a grading checklist: "The observation is real but narrow: one frozen model on today's hardware doesn't improve itself. That says nothing about the models that come after it, faster chips, better algorithms, or whether a future AI could do AI research. Machines have real advantages: they can think far faster than neurons fire, and a skilled model can be copied a thousand times, so a lab could run an army of expert researchers. If AI gets good enough at AI research to help design a better model, and that model helps design a better one still, development becomes a positive feedback loop. What stays uncertain is the route, the point at which this would start, how fast it would run and when it would happen. The physics allows machines to exceed us, but it doesn't give a date."
 
 force-feedback:: first
 feedback-instructions:: Respond to what the learner actually wrote. Open on the strongest thing in it, in one sentence. Then push once, chosen by where they stopped:
