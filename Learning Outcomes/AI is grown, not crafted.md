@@ -57,10 +57,10 @@ feedback-instructions:: Respond to what the learner actually wrote. Open on the 
 
 - If they said engineers understand the model because they built it, ask what an engineer could find out by reading the trained weights directly.
 - If they said the AI learns from data but not what that leaves unknown, ask what an engineer knows about a model once training is done, and what they cannot tell from it.
-- If they named the gap (the training process is understood, the resulting behavior cannot be read off the weights) but stopped there, ask what this means for checking whether the model ended up with the goals they wanted.
-- If they covered that too, the step left is that knowing how something was produced is a different kind of knowledge from knowing what it is. Ask whether knowing the training recipe tells you what the model wants.
+- If they said what engineers know but not clearly what they don't, ask whether knowing the training recipe tells you what the model wants.
+- If they named the gap (the training process is understood, the resulting behavior cannot be read off the weights), a good follow-up is what this means for checking whether the model ended up with the goals they wanted.
 
-At full marks, just confirm briefly. Don't cite level numbers or band names (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: the genome comparison. A genome can be read letter by letter, yet reading it does not tell you what the organism will be like. If they still don't attempt it, rephrase the question.
+At full marks, just confirm briefly. Don't cite point values or recite the rubric (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: the genome comparison. A genome can be read letter by letter, yet reading it does not tell you what the organism will be like. If they still don't attempt it, rephrase the question.
 
 One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
