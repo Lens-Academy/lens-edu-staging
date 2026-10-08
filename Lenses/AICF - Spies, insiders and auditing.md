@@ -47,10 +47,3 @@ from:: ### Control Protocols
 to:: We want to benefit from the untrusted model’s superior capabilities while using the trusted model and high-quality human labour strategically to ensure safety.
 #### End Callout
 
-#### Text
-content::
-:::callout {title="Works cited" tone="neutral" collapse="closed"}
-Wiblin, Robert, and Buck Shlegeris. "Buck Shlegeris on controlling AI that wants to take over, so we can use it anyway." *80,000 Hours Podcast*, 4 Apr. 2025. [80000hours.org](https://80000hours.org/podcast/episodes/buck-shlegeris-ai-control-scheming/)
-
-UK AI Security Institute. "Intro to Control." *ControlArena documentation*. [control-arena.aisi.org.uk](https://control-arena.aisi.org.uk/intro-to-control.html)
-:::

@@ -30,8 +30,3 @@ assessment-instructions:: Score out of 100. 40: two outcomes control is meant to
 force-feedback:: first
 feedback-instructions:: In at most four sentences: say what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer in your own words. The reason Shlegeris gives is that the data centre is where the compute is: 100,000 capable AIs working against you inside the company are far more dangerous than the few copies an escaped AI could afford to run. If the learner is stuck, point them to his comparison of AIs that escape "starting from nothing". No follow-up questions. Tell them to move on.
 
-#### Text
-content::
-:::callout {title="Works cited" tone="neutral" collapse="closed"}
-Wiblin, Robert, and Buck Shlegeris. "Buck Shlegeris on controlling AI that wants to take over, so we can use it anyway." *80,000 Hours Podcast*, 4 Apr. 2025. [80000hours.org](https://80000hours.org/podcast/episodes/buck-shlegeris-ai-control-scheming/)
-:::

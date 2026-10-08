@@ -40,8 +40,3 @@ force-feedback:: first
 feedback-instructions:: In at most four sentences: say what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer in your own words. Add that this is why Shlegeris says control is about AIs that are not strongly superintelligent: for an AI that could produce a winning attack whenever it wanted, measuring how often attacks succeed would say little. No follow-up questions. Tell them to move on.
 #### End Callout
 
-#### Text
-content::
-:::callout {title="Works cited" tone="neutral" collapse="closed"}
-Shlegeris, Buck. "Thoughts on the conservative assumptions in AI control." *Redwood Research blog*, 17 Jan. 2025. [redwoodresearch.substack.com](https://redwoodresearch.substack.com/p/thoughts-on-the-conservative-assumptions)
-:::
