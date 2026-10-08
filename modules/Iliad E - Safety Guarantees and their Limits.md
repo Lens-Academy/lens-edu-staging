@@ -79,6 +79,7 @@ source:: [[../Lenses/bogdanov-statistically-undetectable-backdoors-in-deep-neura
 
 # Lens: Backdoor Channels Hidden in Latent Space: Cryptographic Undetectability in Modern Neural Networks
 source:: [[../Lenses/eggen-backdoor-channels-hidden-in-latent-space-extending-cryptographic-undetectability-to-modern-neural-networks]]
+
 # Lens: E.2.6 Solution to the random ReLU exercise and further reading
 source:: [[../Lenses/Iliad E.2.6 - Solution to the random ReLU exercise and further reading]]
 
