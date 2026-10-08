@@ -47,8 +47,7 @@ feedback-instructions:: Respond to what the learner actually wrote. Open on the 
 
 - If they gave a general "AI is hard" answer, ask them to name one curse and the case study that shows it.
 - If they named some curses but not all five, or did not map them, tell them plainly which curses they missed and ask which case study the chapter uses for each.
-- If they named and mapped all five, ask what the space probes are there for, since none of the five curses is tied to them: what do the probes show about acting once something is launched?
-- If they had the probes, ask why edge cases belong in a different category from the other four, and how that connects to AI being grown rather than crafted.
+- If they named and mapped all five, ask why edge cases belong in a different category from the other four, and how that connects to AI being grown rather than crafted.
 
 At full marks, just confirm briefly. Don't cite point values. If asked about the score, say in plain words what the answer did and the one most important thing it missed. If they say they don't understand, give one concrete foothold: Chernobyl's control rods, whose graphite tips turned an emergency shutdown into an explosion. Ask which curse that is. If they still don't attempt it, rephrase the question.
 
