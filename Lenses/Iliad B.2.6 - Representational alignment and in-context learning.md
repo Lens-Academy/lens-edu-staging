@@ -38,6 +38,8 @@ Answer: The *observation* that independently trained models learn similar repres
 
 [In-context Learning and Induction Heads](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html)
 
+::card[[../Lenses/olsson-in-context-learning-and-induction-heads|In-context Learning and Induction Heads]]
+
 *Discussion questions:*
 
 :::callout {title="Exercise" tone="amber"}
