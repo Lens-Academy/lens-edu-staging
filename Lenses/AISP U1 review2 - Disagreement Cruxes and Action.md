@@ -3,7 +3,7 @@ id: 'f8b0af97-11cf-443c-aad8-6a1c21517794'
 title: "Disagreement, Cruxes, and Action"
 tldr: "Persistent disagreement is not solved by averaging two probabilities. The useful work is finding what drives the gap, which evidence could move it, and which actions still make sense before consensus."
 summary_for_tutor: "Uses the Existential Risk Persuasion Tournament and the Forecasting Research Institute follow-up. Covers persistent disagreement, cruxes, value of information, different evidential standards, local deference, and robust action."
-reading_minutes: 23
+reading_minutes: 12
 tutor_minutes: 24
 tags:
   - wip
