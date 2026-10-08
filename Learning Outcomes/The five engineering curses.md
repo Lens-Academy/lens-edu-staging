@@ -31,7 +31,7 @@ content:: Chapter 10 frames AI alignment as a "cursed problem" by drawing on eng
 assessment-instructions::
 Score out of 100: the sum of the five curses below, 20 each.
 
-The question asks the learner to name the five engineering curses the chapter identifies and, for each, the case study the chapter uses to illustrate {--{"author":"James agent ready-41's AI","timestamp":1791469672379}@@it, from three: space probes,--}{++{"author":"James agent ready-41's AI","timestamp":1791469672379}@@it:++} the Chernobyl nuclear {--{"author":"James agent ready-41's AI","timestamp":1791469672379}@@reactor, and--}{++{"author":"James agent ready-41's AI","timestamp":1791469672379}@@reactor or++} computer security. The chapter's mapping:
+The question asks the learner to name the five engineering curses the chapter identifies and, for each, the case study the chapter uses to illustrate it: the Chernobyl nuclear reactor or computer security. The chapter's mapping:
 - Speed: Chernobyl (the reactor's reactions happen far faster than humans can respond).
 - Narrow margins: Chernobyl (a tiny gap between a working reactor and a runaway one).
 - Self-amplification: Chernobyl (the failure feeds itself: overheating boils off coolant, which makes the overheating worse).
