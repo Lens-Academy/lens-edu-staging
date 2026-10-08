@@ -14,7 +14,7 @@ llm-review:
   source:
     fetched: 2026-10-08
     kind: "live"
-description: {--{"author":"James's AI","timestamp":1791466291567}@@"April 2026 cohort — AI Safety theory of deep learning, agency, alignment."--}{++{"author":"James's AI","timestamp":1791466291567}@@"A toy example with partial observability, worked by hand, showing how RLHF can teach a policy to hide its failures from the evaluator."++}
+description: "A toy example with partial observability, worked by hand, showing how RLHF can teach a policy to hide its failures from the evaluator."
 tags:
   - "article-importer"
 ---
@@ -96,7 +96,7 @@ An AI assistant is asked to install Nvidia drivers and CUDA on a user's machine.
 
 **The MDP.** The full MDP is depicted in [[#^fig-cuda-mdp|Figure 1]]. We use a finite horizon $T = 3$ and $\gamma = 1$:
 
-![The CUDA-installation MDP and its observation kernel (Lang et al. 2024, Figure 6A). Edges are labeled by the action triggering the transition; the small number in the top right of each state box is its reward; the small symbol in the bottom-right of each state box is its observation under O.]({--{"author":"James's AI","timestamp":1791466278942}@@https://iliad-intensive.org/uploads/reward-learning-theory/expanded_example_figure1.svg--}{++{"author":"James's AI","timestamp":1791466278942}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-a4-expanded-example-figure1-13ce4b5a.png++})
+![The CUDA-installation MDP and its observation kernel (Lang et al. 2024, Figure 6A). Edges are labeled by the action triggering the transition; the small number in the top right of each state box is its reward; the small symbol in the bottom-right of each state box is its observation under O.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-a4-expanded-example-figure1-13ce4b5a.png)
 
 The CUDA-installation MDP and its observation kernel ([[#^bib-lang2024porlhf|Lang et al. 2024]], Figure 6A). Edges are labeled by the action triggering the transition; the small number in the top right of each state box is its reward; the small symbol in the bottom-right of each state box is its observation under $O$. ^fig-cuda-mdp
 
