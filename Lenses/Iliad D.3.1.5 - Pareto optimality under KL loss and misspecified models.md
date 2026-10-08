@@ -2,7 +2,7 @@
 id: 'bba1c86c-4152-4ef3-8d67-0f9b00d660e7'
 title: "D.3.1.5 Pareto optimality under KL loss and misspecified models"
 tldr: "Shows the mixture is Pareto-optimal under KL loss, then bounds its error when the true environment is not in the model class."
-summary_for_tutor: "Sections 6 and 7 of Iliad worksheet D.3.1. Definition 6.1 (Pareto domination), Exercise 6.1 (KL Pythagorean identity), Exercise 6.2 (xi is Pareto-optimal under KL), and Exercise 7.1 (misspecified bound D_n(mu||xi) <= -ln w_muhat + D_n(mu||muhat)), with a remark on the complexity and approximation terms. Appendix D is referenced for the choice of muhat. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "Sections 6 and 7 of worksheet D.3.1. Definition 6.1 (Pareto domination), Exercise 6.1 (KL Pythagorean identity), Exercise 6.2 (xi is Pareto-optimal under KL), and Exercise 7.1 (misspecified bound D_n(mu||xi) <= -ln w_muhat + D_n(mu||muhat)), with a remark on the complexity and approximation terms. Appendix D is referenced for the choice of muhat. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - David Quarel (ARENA)
   - Leon Lang (Iliad)

@@ -2,7 +2,7 @@
 id: 'd44de965-cccc-4371-b953-142a18235af1'
 title: "D.3.1.7 Appendices"
 tldr: "Collects the appendices: proofs of Pinsker's inequality and KL non-negativity, the model class and Solomonoff prior, and how to choose the best approximating environment."
-summary_for_tutor: "Appendices A-D and references of Iliad worksheet D.3.1. A: Lemma A.1 (binary Pinsker) and the proof of Theorem 4.1. B: Gibbs' inequality (Lemma B.1) and the proof of Theorem 2.2. C: the model class M, the Solomonoff prior w_nu = 2^{-K(nu)}, and why lower-semicomputable semimeasures are needed for a faithful construction. D: the choice of muhat for the misspecified bound. No exercises in this lens."
+summary_for_tutor: "Appendices A-D and references of worksheet D.3.1. A: Lemma A.1 (binary Pinsker) and the proof of Theorem 4.1. B: Gibbs' inequality (Lemma B.1) and the proof of Theorem 2.2. C: the model class M, the Solomonoff prior w_nu = 2^{-K(nu)}, and why lower-semicomputable semimeasures are needed for a faithful construction. D: the choice of muhat for the misspecified bound. No exercises in this lens."
 authors:
   - David Quarel (ARENA)
   - Leon Lang (Iliad)

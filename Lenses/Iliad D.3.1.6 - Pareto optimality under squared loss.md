@@ -2,7 +2,7 @@
 id: '712c3e12-9bcf-4ffb-8cfa-3d35aafd7bd9'
 title: "D.3.1.6 Pareto optimality under squared loss"
 tldr: "Proves the mixture is Pareto-optimal under squared prediction loss, using a Pythagorean identity at each history and a switch from posterior to prior weights."
-summary_for_tutor: "Section 8 of Iliad worksheet D.3.1: Pareto optimality under squared loss. Exercise 8.1 (squared Pythagorean identity at an arbitrary history, using posterior weights w(nu|x_{<t})) and Exercise 8.2 (xi is Pareto-optimal under S_n(nu||rho), using the Bayes identity w(nu|x_{<t}) xi(x_{<t}) = w_nu nu(x_{<t})). Hints and collapsed solutions are given. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "Section 8 of worksheet D.3.1: Pareto optimality under squared loss. Exercise 8.1 (squared Pythagorean identity at an arbitrary history, using posterior weights w(nu|x_{<t})) and Exercise 8.2 (xi is Pareto-optimal under S_n(nu||rho), using the Bayes identity w(nu|x_{<t}) xi(x_{<t}) = w_nu nu(x_{<t})). Hints and collapsed solutions are given. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - David Quarel (ARENA)
   - Leon Lang (Iliad)
