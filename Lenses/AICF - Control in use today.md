@@ -35,9 +35,3 @@ assessment-instructions:: Score out of 100. 40: what it can tell them: what the 
 force-feedback:: first
 feedback-instructions:: In at most four sentences: say what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer in your own words. No follow-up questions. Tell them to move on.
 
-#### Text
-content::
-:::callout {title="Works cited" tone="neutral" collapse="closed"}
-Shah, Rohin, and Four Flynn. "Securing the future of AI agents." *Google DeepMind blog*, 18 June 2026. [deepmind.google](https://deepmind.google/blog/securing-the-future-of-ai-agents/)
-*Unit 2 reads the second half of this post.*
-:::

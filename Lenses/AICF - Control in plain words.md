@@ -153,8 +153,3 @@ force-feedback:: first
 feedback-instructions:: The learner just read part of CSET's explainer on AI control and answered a question about it. In at most four sentences: say plainly what they got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it. If they say they do not understand, point them to the paragraph that explains it ("Implementing AI Control in the Real World" and "Keeping Up with Future AI Agents"). No follow-up question. No generic praise.
 #### End Callout
 
-#### Text
-content::
-:::callout {title="Works cited" tone="neutral" collapse="closed"}
-Beers, Kendrea, and Cody Rushing. "AI Control: How to Make Use of Misbehaving AI Agents." Center for Security and Emerging Technology, Georgetown University, 1 Oct. 2025. [cset.georgetown.edu](https://cset.georgetown.edu/article/ai-control-how-to-make-use-of-misbehaving-ai-agents/)
-:::
