@@ -48,7 +48,8 @@ labels::
 
 #### Question: Open
 id:: f7e43b2c-dc43-4b67-89ba-c1b3a66212b9
-content:: If we could change one thing about this unit, what should it be?
+content:: If you could change one thing about this unit, what would it be?
+optional:: true
 
 #### Question: Open
 id:: 17907be2-a75f-4498-8ad3-c0288a2e2ad8
