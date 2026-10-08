@@ -10,9 +10,6 @@ title: "High-stakes and low-stakes threats"
 # Learning Outcome:
 source:: [[../Learning Outcomes/High-stakes versus low-stakes control]]
 
-# Learning Outcome:
-source:: [[../Learning Outcomes/The AI control field]]
-
 # Lens: Welcome to Unit 2
 id:: b716617e-ad43-4334-9bee-d284a2533f19
 reading_minutes:: 3
@@ -75,40 +72,3 @@ A friend says: "If a bad action is quiet and hard to notice, the threat is low-s
 force-feedback:: first
 assessment-instructions:: Score out of 100. The friend's claim: quiet, hard-to-notice threats are low-stakes, and loud, obvious ones are high-stakes. 60: what is wrong. How easy an action is to notice is not what decides it. A threat is high-stakes when one or a few actions are enough and each would be strong evidence of bad intent once inspected, so a single quiet action, such as a hidden backdoor, is still high-stakes. Full 60 for either half of this idea with an example or a clear reason (the axis is how many actions are needed and how incriminating each one is, or a quiet single action can be high-stakes). 40: what is partly right. Low-stakes threats are made of actions that each look harmless, but that is because each one is only weak evidence even when inspected, not merely because it is hard to spot. Full 40 for any accurate point about what the friend gets partly right, with a reason. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Wrong: the line is not how noticeable an action is but how many actions the threat needs and how damning each one is once someone looks. A quiet backdoor is still high-stakes if one is enough and it proves bad intent when found. Partly right: low-stakes threats are made of actions that each look harmless, but that is because each is weak evidence even when inspected."
 feedback-instructions:: Practice question. Reference answer: the friend mixes up how easy an action is to notice with how many actions a threat needs and how incriminating each one is once found. A single quiet action, such as a hidden backdoor, is still high-stakes if one or a few such actions are enough and the action is strong evidence of intent once found. What the friend gets partly right: low-stakes threats are made of actions that each look harmless, but that is because each is only weak evidence even when inspected, not merely because it is hard to spot. The names can also mislead the other way: low-stakes does not mean minor, for example Shlegeris's case of a model slowly manipulating public opinion is low-stakes and could still be catastrophic. Reply in at most four sentences: confirm what is right, give the most important correction. One turn. No generic praise.
-
-# Lens:
-source:: [[../Lenses/AICF - Areas of control work]]
-
-# Lens:
-source:: [[../Lenses/AICF - Research areas from the UK AI Security Institute]]
-
-# Lens:
-source:: [[../Lenses/AICF - Control inside AI companies]]
-
-# Lens:
-optional:: true
-source:: [[../Lenses/AICF - How three AI companies monitor their agents]]
-
-# Lens:
-source:: [[../Lenses/AICF - Who works on AI control]]
-
-# Lens: Practice: place the project
-id:: 1a80fa3c-d847-48d7-b94b-dd7fb264aa9e
-reading_minutes:: 3
-tutor_minutes:: 10
-tldr:: Three pieces of control work to place: which area, and who is placed to do it.
-summary_for_tutor:: Practice lens at the end of Unit 2 of AI Control Fundamentals, before the learning-outcome test on the AI control field. One scored question with tutor feedback: place three pieces of control work in a research area and say which kind of organisation is placed to do each. Give feedback that teaches. Do not give the learner the test.
-#### Question: Open
-id:: 1f07d77a-6981-4703-aecd-dcf56f9453c6
-content::
-Three pieces of control work:
-
-(a) A PhD student measures how well current models can tell a real deployment task from a synthetic test made to look real.
-(b) A team builds the system that records every action of a company's internal AI agents, so that monitors and human reviewers can see them.
-(c) An AI company publishes a report on the risks from its own internal agents. A team reads it, checks its claims against information the company shares privately, and publishes its own verdict on the report.
-
-For each: which research area does it belong to? What access to AI developers' systems, or independence from them, does it need? So which kind of organisation is placed to do it? Give a real example of such an organisation where you can.
-placeholder:: Take (a), (b), then (c)
-force-feedback:: first
-assessment-instructions:: Score out of 100. Three pieces of work: 33 for (a), 33 for (b), 34 for (c). For each: 12 for a fitting research area, 12 for what access to developers' systems or independence from developers it needs, and 9 (10 for c) for a kind of organisation that follows from that, with a real example where possible (a fitting kind without an example earns 6). (a) A PhD student measures how well models can tell a real deployment task from a synthetic test: studying control-relevant capabilities or model properties (also accept countermeasure research, since it feeds synthetic inputs, or evaluation work). It needs only access to models, not a company's systems, so a university group, a nonprofit such as Redwood Research or a government institute such as the UK AI Security Institute can do it. (b) A team builds the system that records every action of a company's internal agents for monitors and reviewers: software infrastructure for control (also accept monitoring or security work inside a company). It needs the company's own systems and agents, so mainly the AI company itself, such as Google DeepMind, OpenAI or Anthropic. (c) A team checks a company's report on its own agents against private information and publishes a verdict: independent review or evaluation of a company's control claims (accept third-party evaluation or auditing). It is only worth something if the team is independent of the company, and it needs the company's cooperation to see private information, so an outside evaluator such as METR or a government institute. Either the independence or the access reason earns the full 12 for (c). Accept other reasoned placements, including the UK AI Security Institute's categories. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "(a) Studying a control-relevant capability. It needs only models, so a university group or Redwood Research can do it. (b) Software infrastructure for control. It needs the company's own systems, so the AI company itself, for example Google DeepMind. (c) Independent review of a company's claims. It is only credible from someone independent who still gets the company's private information, so an outside evaluator such as METR."
-feedback-instructions:: Practice question before the field test. Reference answer: (a) studying control-relevant capabilities and model properties (Greenblatt's second area, which also feeds countermeasures such as synthetic inputs). Anyone with model access can do it: a university group, Redwood Research or the UK AI Security Institute, because it needs no company systems. (b) software infrastructure for control (Greenblatt's fifth area), which only the AI company can build for its own agents, because it needs access to its own systems, as Google DeepMind's prototype monitor over a million coding-agent tasks shows. (c) independent review of a company's control claims: a third-party evaluator such as METR (Bhatt mentions third-party review of companies' risk reports), because the review is only worth something if it is independent of the company, though it needs the company's cooperation to see private information. Accept other reasoned placements, including ones that use the UK AISI list's categories. In 80 to 150 words: name what is right, then the most important correction. Up to two turns. No generic praise.
