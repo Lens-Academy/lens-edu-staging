@@ -7,7 +7,7 @@ tags: [wip]
 ---
 #### Text
 content::
-\# Post-Program Feedback & Certificate of Completion
+\# Post-Program Feedback & Certificate of Participation
 
 You did it! 🎉 Thank you so much for being part of the Effective Thesis Accelerator. Over these 8 weeks, you've explored your Ikigai, chosen a high-impact problem, generated and prioritised research questions, reached out to real stakeholders, built a Theory of Change, and designed a thesis that can be a genuine stepping stone toward an impactful career. That's a lot of courage, curiosity and hard work, and we're so grateful you brought it here!
 
