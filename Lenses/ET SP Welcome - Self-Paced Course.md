@@ -121,6 +121,7 @@ You can find peers through our [WhatsApp channel](https://chat.whatsapp.com/HTDd
 Just so you know, the Effective Thesis team can see the answers you write in both the worksheets and the journaling prompts. We use them to understand how people are getting on and to keep improving the course. Please write freely, and if there's anything you'd rather keep fully private (especially in your journaling), feel free to write it somewhere else instead!
 
 :::
+
 ---
 
 \## 🗓️ Overview of the 8-Weeks ^overview
