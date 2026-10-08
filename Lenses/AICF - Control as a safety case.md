@@ -12,6 +12,8 @@ tags:
 content::
 So far the routes have mostly run through one company's safety team. This paper, by researchers at the UK AI Security Institute and Redwood Research, sketches a different use of control: as the evidence in a "safety case", an argument a developer could be asked to make before deploying a model. Shlegeris is one of its authors. About three weeks after it came out, in the interview you just read, recorded in February 2025,[^cite-80k-shlegeris-2025] he said that using control to get AI companies to "pretty substantially low levels of risk from scheming models" now "just seems pretty implausible", so he had "stopped thinking about the really high-assurance stuff". The sketch calls itself a best guess, not a high-assurance case. The middle part of the post, on how the evaluation is run, is collapsed. You met the method in Unit 1.
 
+[^cite-80k-shlegeris-2025]: 80,000 Hours (2025), *Buck Shlegeris on controlling AI that wants to take over, so we can use it anyway*, podcast episode. [80,000 Hours](https://80000hours.org/podcast/episodes/buck-shlegeris-ai-control-scheming/)
+
 #### Article
 source:: [[../articles/korbak-a-sketch-of-an-ai-control-safety-case]]
 from:: "**Abstract**. As LLM agents gain a greater capacity to cause harm"

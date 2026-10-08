@@ -8,19 +8,19 @@ summary_for_tutor: "Unit 4 of AI Control Fundamentals. Empirical material for th
 ---
 #### Text
 content::
-The criticisms so far in this unit are arguments. Here are two experiments that tested control protocols against a more cunning attacker. Both were written by researchers who work on making control evaluations better. In the second paper, the last author, Tyler Tracy, works at Redwood Research ([bio](https://www.pivotal-research.org/tyler-tracy)). So read them as stress tests that control researchers ran on their own methods, not as arguments against control.
+The criticisms so far in this unit are arguments. Here are two experiments that tested control protocols against a more cunning attacker. Both were written by researchers who work on making control evaluations better. In the second paper, the last author, Tyler Tracy, works at Redwood Research.[^cite-pivotal-tracy] So read them as stress tests that control researchers ran on their own methods, not as arguments against control.
 
 Some terms you will need. The *monitor* is the model that reads what the untrusted model does and flags suspicious actions. A *prompt injection* is text written to give instructions to whichever model reads it. The *audit budget* is the share of actions that humans can afford to check. "pp" means percentage points.
 
 #### Text
 content::
-**1. Mikhail Terekhov, Jonas Geiping and colleagues, "Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols"** ([arXiv, 2025, revised 2026](https://arxiv.org/abs/2510.09462)). From the abstract:
+**1. Mikhail Terekhov, Jonas Geiping and colleagues, "Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols"**[^cite-terekhov-2025]. From the abstract:
 
 > In practice, most AI control protocols are fundamentally based on LLM monitors, which can become a central point of failure. We study adaptive attacks by an untrusted model that knows the protocol and the monitor model, which is plausible if the untrusted model was trained with a later knowledge cutoff or can search for this information autonomously. We instantiate a simple adaptive attack vector by which the attacker embeds publicly known or zero-shot prompt injections in the model outputs. Using this tactic, frontier models consistently evade diverse monitors and complete malicious tasks on two main AI control benchmarks. The attack works universally against current protocols that rely on a monitor. Furthermore, the recent Defer-to-Resample protocol even backfires, as its resampling amplifies the prompt injection and effectively reframes it as a best-of-n attack. In general, adaptive attacks on monitor models represent a major blind spot in current control protocols and should become a standard component of evaluations for future AI control mechanisms.
 
 (Defer-to-Resample asks the untrusted model for a new answer when the first one looks suspicious. A best-of-n attack tries many times and keeps whichever attempt gets through.)
 
-**2. Catherine Ge-Wang, Tyler Tracy and colleagues, "Attack Selection in Agentic AI Control Evaluations Meaningfully Decreases Safety"** ([arXiv, 2026](https://arxiv.org/abs/2606.06529)). Its abstract:
+**2. Catherine Ge-Wang, Tyler Tracy and colleagues, "Attack Selection in Agentic AI Control Evaluations Meaningfully Decreases Safety"**[^cite-ge-wang-2026]. Its abstract:
 
 #### Article
 source:: [[../articles/ge-wang-attack-selection-in-agentic-ai-control-evaluations-meaningfully-decreases-safety]]
