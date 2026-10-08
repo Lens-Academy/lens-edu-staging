@@ -45,5 +45,25 @@ source:: [[../Lenses/Iliad B.3.12 - Degeneracy and Bayesian deep learning]]
 # Lens: B.3.13 Further readings
 source:: [[../Lenses/Iliad B.3.13 - Further readings]]
 
-# Lens: B.4 Training Dynamics
+# Submodule: B.4 Training Dynamics
+
+# Lens: B.4.1 Intent, setup and notation
 source:: [[../Lenses/Iliad B.4 - Training Dynamics]]
+
+# Lens: B.4.2 Loss landscape geometry
+source:: [[../Lenses/Iliad B.4.2 - Loss landscape geometry]]
+
+# Lens: B.4.3 Gradient flow and conserved quantities
+source:: [[../Lenses/Iliad B.4.3 - Gradient flow and conserved quantities]]
+
+# Lens: B.4.4 Rich regime: saddle-to-saddle
+source:: [[../Lenses/Iliad B.4.4 - Rich regime - saddle-to-saddle]]
+
+# Lens: B.4.5 Lazy regime and mixed dynamics
+source:: [[../Lenses/Iliad B.4.5 - Lazy regime and mixed dynamics]]
+
+# Lens: B.4.6 Stochastic implicit bias (bonus)
+source:: [[../Lenses/Iliad B.4.6 - Stochastic implicit bias (bonus)]]
+
+# Lens: B.4.7 Learn more
+source:: [[../Lenses/Iliad B.4.7 - Learn more]]
