@@ -22,7 +22,7 @@ eval-results:
 ## Test:
 id:: d616e493-ef55-4429-8bae-e93d6fd20b99
 
-#### Question
+#### Question: Open
 id:: 55514d28-1482-41f4-ab4d-68d470fced52
 content:: Chapter 10 frames AI alignment as a "cursed problem" by drawing on three engineering domains (space probes, Chernobyl-style nuclear reactors, and computer security) to identify a small set of named "curses" that make engineering hard. The chapter argues that all of these curses apply to AI alignment, and that the curse of edge cases applies in a uniquely worse form.
 
@@ -40,6 +40,18 @@ Score according to the following rubric.
 **4** — As above, plus correctly identifies the role of the space-probe case study (Mars Observer, Climate Orbiter, Polar Lander, Viking 1) as illustrating the *before/after gap*: the irreversibility framing that all five curses sit inside. *Example: Adds "The space probes aren't tied to one specific curse. They're the chapter's setup for the broader before/after gap: once the probe launches you can't reach it, just like once an ASI surpasses humans you can't course-correct."*
 
 **5** — As above, plus articulates *why* the chapter argues edge cases are a different category (they intensify with the system's intelligence, while the other four are physical constraints), and connects this to AI being "grown, not crafted" from M1. *Example: Adds "Speed, narrow margins, self-amplification, and complications are physical constraints that intelligent and unintelligent systems both face. Edge cases are different: they get worse the smarter the adversary is, because a smarter system can find more obscure exploits. And because AI is grown, not crafted, the engineers don't even know what the edge cases of their own system are. That's the curse stack-up."*
+
+force-feedback:: first
+feedback-instructions:: Respond to what the learner actually wrote. Open on the strongest thing in it, in one sentence. Then push once, chosen by where they stopped:
+
+- If they gave a general "AI is hard" answer, ask them to name one curse and the case study that shows it.
+- If they named some curses but not all five, or did not map them, tell them plainly which curses they missed and ask which case study the chapter uses for each.
+- If they named and mapped all five, ask what the space probes are there for, since none of the five curses is tied to them: what do the probes show about acting once something is launched?
+- If they had the probes, ask why edge cases belong in a different category from the other four, and how that connects to AI being grown rather than crafted.
+
+At full marks, just confirm briefly. Don't cite level numbers or band names (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: Chernobyl's control rods, whose graphite tips turned an emergency shutdown into an explosion. Ask which curse that is. If they still don't attempt it, rephrase the question.
+
+One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
 
 # Suggested Lenses:

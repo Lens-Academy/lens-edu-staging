@@ -22,7 +22,7 @@ eval-results:
 ## Test:
 
 id:: 3d3ca945-33d2-4a1b-a098-bc3571529754
-#### Question
+#### Question: Open
 id:: 9c8d98cc-6c71-42c1-a658-d52b2166e761
 content:: Chapter 10 closes by mapping each of its three case-study domains (space probes, nuclear reactors, computer security) onto the ASI alignment problem, then states a blunt conclusion: "NOBODY SHOULD BE ALLOWED TO TRY." This phrasing reads to many people as despair: a counsel that nothing can be done. The authors mean something different.
 
@@ -40,6 +40,18 @@ Score according to the following rubric.
 **4**: As above, plus identifies that despair produces *inaction* while a position-statement produces *a different kind of action* (governance, restriction, treaty), and notes that the chapter is preparing the ground for the policy argument that follows later in the course. *Example: Adds "Despair would tell people to give up; the position-statement tells them to organize. The chapter is telling readers that the rational response to overwhelming engineering difficulty is to stop trying *until* the conditions change. That is a different kind of action than 'engineer harder.' That's also why this works as the setup for the later chapters about treaties and governance."*
 
 **5**: As above, plus connects the despair / position-statement distinction back to the "grown, not crafted" insight and explains why a *crafted* engineering challenge of this difficulty might still be tackled by working harder, while a *grown* one of this difficulty cannot — making the position-statement the only available form of progress. *Example: Adds "If ASI were crafted, the response to compounding curses might be 'work harder, build better tools, get more eyes on it.' Because it's grown, the engineers don't even know what the curses of their own system are, so there's no 'work harder' move available. The position-statement is the only conclusion the evidence supports: under these conditions, the attempt itself is the failure mode."*
+
+force-feedback:: first
+feedback-instructions:: Respond to what the learner actually wrote. Open on the strongest thing in it, in one sentence. Then push once, chosen by where they stopped:
+
+- If they read the closing as despair, ask what "Nobody should be allowed to try" asks someone to do.
+- If they sensed it is not despair but could not say why, ask what premises the conclusion is drawn from, and what would follow if those premises are right.
+- If they made the distinction, ask what kind of action a position-statement calls for that despair does not, and what the chapter is preparing for later.
+- If they had that, ask why a crafted system this hard might be fixed by working harder, and why a grown one cannot.
+
+At full marks, just confirm briefly. Don't cite level numbers or band names (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: compare "we will fail no matter what" with "this attempt, with this level of understanding, will fail, so don't make it". Ask which one tells you to do something. If they still don't attempt it, rephrase the question.
+
+One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
 
 # Suggested Lenses:
