@@ -63,6 +63,7 @@ source:: [[../Lenses/Iliad C.3.6 - Identifying belief geometry in transformers]]
 
 # Lens: Neural networks leverage nominally quantum and post-quantum representations
 source:: [[../Lenses/riechers-neural-networks-leverage-nominally-quantum-and-post-quantum-representations]]
+
 # Lens: C.3.7 Python exercises and further reading
 source:: [[../Lenses/Iliad C.3.7 - Python exercises and further reading]]
 
