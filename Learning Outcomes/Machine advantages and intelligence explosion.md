@@ -59,7 +59,7 @@ feedback-instructions:: Respond to what the learner actually wrote. Open on the 
 
 A learner who reconstructs the argument and then disagrees with it has done what was asked. Engage with the disagreement, don't steer them back to the chapter's view.
 
-At full marks, just confirm briefly. Don't cite the numbered checks or the words pass and fail (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: ask what would change if a thousand copies of a strong AI researcher could each work many times faster than a human. If they still don't attempt it, rephrase the question.
+At full marks, just confirm briefly. Don't cite point values or recite the rubric (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: ask what would change if a thousand copies of a strong AI researcher could each work many times faster than a human. If they still don't attempt it, rephrase the question.
 
 One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
