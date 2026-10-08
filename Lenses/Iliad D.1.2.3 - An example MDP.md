@@ -2,7 +2,7 @@
 id: '52f6c3f4-42ab-422f-abd2-d075fd46b52b'
 title: "D.1.2.3 An example MDP"
 tldr: "Computes the values of two fixed policies in a small three-state MDP and finds the discount factor at which the best action changes."
-summary_for_tutor: "Section 2 of Iliad worksheet D.1.2: An example MDP with states s_0, s_L, s_R, actions a_L, a_R and deterministic transitions, plus policies pi_L and pi_R. Exercise 2.1 verifies V_{pi_L}(s_0) = 1/(1-gamma^2) and V_{pi_R}(s_0) = 2gamma/(1-gamma^2) with the Bellman equation; Exercise 2.2 shows the breakeven discount factor is gamma = 1/2. Both exercises have collapsed solutions. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "Section 2 of worksheet D.1.2: An example MDP with states s_0, s_L, s_R, actions a_L, a_R and deterministic transitions, plus policies pi_L and pi_R. Exercise 2.1 verifies V_{pi_L}(s_0) = 1/(1-gamma^2) and V_{pi_R}(s_0) = 2gamma/(1-gamma^2) with the Bellman equation; Exercise 2.2 shows the breakeven discount factor is gamma = 1/2. Both exercises have collapsed solutions. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Leon Lang (Iliad)
   - David Quarel (ARENA)

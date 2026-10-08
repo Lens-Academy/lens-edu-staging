@@ -2,7 +2,7 @@
 id: '006192b3-8949-4324-a668-50c0953ba05c'
 title: "D.1.2.4 Bellman operators and optimal policies"
 tldr: "Proves that the Bellman optimality and policy operators are contractions, so a unique optimal value function exists and a greedy policy attains it."
-summary_for_tutor: "Section 3 of Iliad worksheet D.1.2: Bellman operators and the existence of optimal policies. States the Banach fixed point theorem (Theorem 3.1) and defines the Bellman optimality operator (Definition 3.2) and policy operator B_pi. Exercises 3.1-3.7: max inequality, B is a gamma-contraction, unique fixed point V*, B_pi contraction with fixed point V_pi, greedy policy satisfies B_{pi_V}V = BV, V_{pi*} = V*, and pi* is optimal. Hints and collapsed solutions are given. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "Section 3 of worksheet D.1.2: Bellman operators and the existence of optimal policies. States the Banach fixed point theorem (Theorem 3.1) and defines the Bellman optimality operator (Definition 3.2) and policy operator B_pi. Exercises 3.1-3.7: max inequality, B is a gamma-contraction, unique fixed point V*, B_pi contraction with fixed point V_pi, greedy policy satisfies B_{pi_V}V = BV, V_{pi*} = V*, and pi* is optimal. Hints and collapsed solutions are given. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Leon Lang (Iliad)
   - David Quarel (ARENA)
