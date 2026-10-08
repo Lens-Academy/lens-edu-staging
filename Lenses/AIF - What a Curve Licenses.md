@@ -95,8 +95,11 @@ The situation: an AI's score on a 0-to-100 coding benchmark has followed a clean
 30: For each trajectory, an observation checkable within about two years that would count against it (15 each). It has to be something one could see, such as "the next two quarterly scores are flat" or "the score passes 80 next year". A restatement of the trajectory's negation with no observable, such as "if it doesn't happen", earns nothing for that trajectory.
 25: One assumption both trajectories share that is specific to this situation, for example that the benchmark keeps being run and reported in the same way, or that the test items are not leaking into training data. A vacuous one such as "the future is uncertain" earns nothing.
 feedback-instructions:: The student has just critiqued the colleague's extrapolation in the previous question and is now constructing the two-trajectory version of the same situation. This is the direct rehearsal for the module's graded test: two mechanism-distinct trajectories, a named driver for each, a checkable observation against each, and one shared assumption.
+
 What good feedback looks for: the mechanisms genuinely differ (not one story at two speeds), the falsifiers are observable within about two years, and the shared assumption is non-vacuous ("the future is uncertain" does not count, "both assume the benchmark keeps being run and reported" does).
+
 The shared-assumption move is new to the student. Expect a miss on the first try. If they name none, or a vacuous one, give one worked example drawn from their own two stories, then ask them to find a second. That is teaching, not failure.
+
 Below full marks, name the single most important thing the answer missed or got wrong, in plain words. At full marks, confirm briefly.
 
 Maximum 3 tutor turns. Keep an internal turn counter.
