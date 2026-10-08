@@ -1,7 +1,7 @@
 <!--lens-widget
 id: 'a0e30f44-c25e-4d26-95a6-a841800fb993'
 title: The control graph
-summary_for_tutor: "The learner labels the four regions of the control graph. The axes are how incriminating each of the model's actions is (vertical) against how many actions the model needs to cause a catastrophe (horizontal). Four labels (High-stakes, Low-stakes, Trivially solved with random auditing, Probably hopeless?) sit in a tray; the learner picks one, clicks the region it belongs to, and presses Check once all four are placed. The check marks each region with a tick or a cross, draws a dashed arrow from every misplaced label to the region it belongs in, reveals the inverse-correlation diagonal, and gives a count. After the check, clicking a region shows one line on why that region is what it is. The definition of high stakes and the argument for the diagonal are on the page around the widget, before and after it. Nothing is graded; completion fires on the first check. If a learner asks where some scenario sits, ask them the two axis questions rather than answering: how incriminating is each action, and how many actions does the catastrophe take?"
+summary_for_tutor: "The learner labels the four regions of the control graph. The axes are how incriminating each of the model's actions is (vertical) against how many actions the model needs to cause a catastrophe (horizontal). Four labels (High-stakes, Low-stakes, Trivially solved with random auditing, Probably hopeless?) sit in a tray; the learner picks one, clicks the region it belongs to, and presses Check once all four are placed. The check marks each region with a tick or a cross, writes the right label under every misplaced one, reveals a short dashed arrow along the band from low-stakes up to high-stakes with a line under the graph on what it means (the inverse correlation: the same catastrophe in fewer actions needs bigger actions, which are more incriminating), and gives a count. After the check, clicking a region shows one line on why that region is what it is. The definition of high stakes and the argument for the diagonal are on the page around the widget, before and after it. Nothing is graded; completion fires on the first check. If a learner asks where some scenario sits, ask them the two axis questions rather than answering: how incriminating is each action, and how many actions does the catastrophe take?"
 height: auto
 tags: []
 -->
@@ -41,7 +41,9 @@ svg.graph #l-diag text { font-size: 10px; }
   svg.graph #l-diag text { font-size: 13px; }
 }
 svg.graph g.region { cursor: pointer; }
-svg.graph g.region:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+svg.graph g.region { outline: none; -webkit-tap-highlight-color: transparent; }
+svg.graph g.region:focus, svg.graph g.region:focus-visible { outline: none; }
+svg.graph #ring polygon { fill: none; stroke: var(--accent); stroke-width: 3; stroke-linejoin: round; pointer-events: none; }
 svg.graph g.region:hover polygon.hit { stroke: var(--muted); }
 svg.graph.picking g.region polygon.hit { stroke: var(--accent); stroke-dasharray: 5 4; }
 .status { margin: 10px 0 0; font-weight: 500; }
@@ -67,18 +69,12 @@ svg.graph.picking g.region polygon.hit { stroke: var(--accent); stroke-dasharray
         <marker id="diag-arrow" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
           <path d="M0,0 L8,4 L0,8 z" fill="#b87018"></path>
         </marker>
-        <marker id="fix-arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
-          <path d="M0,0 L8,4 L0,8 z" fill="#b87018"></path>
-        </marker>
       </defs>
       <g id="regions"></g>
       <g id="l-diag" opacity="0" style="transition: opacity 0.4s">
-        <line x1="457.33" y1="244.22" x2="151.2" y2="91.44" stroke="#b87018" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#diag-arrow)"></line>
-        <text x="330.4" y="138.67" text-anchor="middle" fill="#9a5c10" font-weight="600">
-          <tspan x="330.4" dy="0">fewer actions &#8594;</tspan><tspan x="330.4" dy="13">bigger, more incriminating actions</tspan>
-        </text>
+        <line x1="396" y1="211.2" x2="244" y2="143.4" stroke="#b87018" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#diag-arrow)"></line>
       </g>
-      <g id="fixes"></g>
+      <g id="ring"></g>
       <line x1="72" y1="322" x2="72" y2="18" stroke="#5a5a5a" stroke-width="1.75" marker-end="url(#axis-arrow)"></line>
       <line x1="72" y1="334" x2="542" y2="334" stroke="#5a5a5a" stroke-width="1.75" marker-end="url(#axis-arrow)"></line>
       <text class="axis" x="62" y="172" transform="rotate(-90 62 172)" text-anchor="middle" fill="#1a1a1a" font-weight="500">How incriminating is each action?</text>
