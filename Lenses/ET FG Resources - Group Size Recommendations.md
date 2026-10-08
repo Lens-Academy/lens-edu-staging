@@ -82,7 +82,7 @@ This is our recommended default. Two students are in the hot seat each week, usi
 
 *Tip: Swap the order in later weeks (e.g. B before A) so the same person isn't always first.*
 
-See [the Mastermind Structure guide](https://staging.lensacademy.org/courses/et-accelerator-facilitator-guides/module/et-fg-resources#mastermind-structure) for the full 20m hot seat structure and prompts.
+See [the Mastermind Structure guide](https://lensacademy.org/courses/et-accelerator-facilitator-guides/module/et-fg-resources#mastermind-structure) for the full 20m hot seat structure and prompts.
 
 #### End Callout
 
@@ -117,7 +117,7 @@ Everyone gets a turn every single week, which builds momentum fast.
 
 Because there are only two listeners, encourage each person to take on the role fully: one focuses on clarifying questions, the other on ideas and resources, then swap each round.
 
-Pods use a shorter version of the hot seat, so [the Mastermind Structure guide](https://staging.lensacademy.org/courses/et-accelerator-facilitator-guides/module/et-fg-resources#mastermind-structure) and its prompts are still useful here - just scale the timings down to 5m sharing and 10m feedback.
+Pods use a shorter version of the hot seat, so [the Mastermind Structure guide](https://lensacademy.org/courses/et-accelerator-facilitator-guides/module/et-fg-resources#mastermind-structure) and its prompts are still useful here - just scale the timings down to 5m sharing and 10m feedback.
 
 #### End Callout
 

@@ -63,7 +63,7 @@ source:: [[../widgets/et-lens-guide-video]]
 content::
 \#### Lens Academy Course Platform
 
-We’re using (for the first time) a course hosting platform for the Effective Thesis Curriculum. This includes 1) weekly readings 2) worksheets, and 3) journaling prompts.
+We’re using (for the first time) a course hosting platform for the Effective Thesis Curriculum. This includes 1) weekly readings 2) worksheets, and 3) journaling prompts. You and your participants can find it here: [Effective Thesis Accelerator curriculum on Lens Academy](https://lensacademy.org/courses/effective-thesis-accelerator/curriculum)
 
 If you still want access to the document versions for printing, don’t worry! You can use this Google Doc for the relevant weeks: [\[Shared\] Effective Thesis Accelerator: Oct-Dec 2026 Curriculum](https://docs.google.com/document/d/1KJHzOURygn6_8-B2znYYuaNA9Th8FZkNV-LNYO-w7gA/edit?usp=sharing)
 
@@ -73,7 +73,7 @@ If you still want access to the document versions for printing, don’t worry! Y
 
 | Day | Task |
 |---|---|
-| Friday before | Send participants the [template message](https://staging.lensacademy.org/courses/et-accelerator-facilitator-guides/module/et-fg-resources#weekly-message-templates) - to remind them to 1) do readings & worksheet in the Weekly Module, and 2) attend the session |
+| Friday before | Send participants the [template message](https://lensacademy.org/courses/et-accelerator-facilitator-guides/module/et-fg-resources#weekly-message-templates) - to remind them to 1) do readings & worksheet in the Weekly Module, and 2) attend the session |
 | Pre-discussion | Prepare for the discussion - read modules & facilitation guide \[2h\] |
 | Chosen day | Facilitate weekly discussion \[1.5h\] |
 
@@ -107,9 +107,9 @@ You can access our training session materials [here](https://drive.google.com/dr
 You'll find everything else you need in the Resources section - dip in whenever it's useful!
 
 - ⭐ **[[../Lenses/ET FG Resources - Group Size Recommendations|Recommendations on Group Size]]:** If you have more than 4-5 participants, or worksheets are still early, start here. It walks you through different formats you can use (pods of 3, parallel mastermind groups, or a discussion-focused format)
-- **[Guide for Mastermind Structure](https://staging.lensacademy.org/courses/et-accelerator-facilitator-guides/module/et-fg-resources#mastermind-structure):** the 20m hot seat structure and prompts
+- **[Guide for Mastermind Structure](https://lensacademy.org/courses/et-accelerator-facilitator-guides/module/et-fg-resources#mastermind-structure):** the 20m hot seat structure and prompts
 - **[[../Lenses/ET FG Resources - Mastermind Tracker|Mastermind Tracker]]:** to plan who's in the hot seat each week
 - **[[../Lenses/ET FG Resources - Weekly Message Templates|Weekly Message Templates]]:** ready-to-send messages for every week, plus a final message
 - **[[../Lenses/ET FG Resources - Facilitator Guidelines|Facilitator Guidelines]]:** our core principles for holding the space
 - **[[../Lenses/ET FG Resources - Icebreaker Speed Friending Question List|Icebreaker/ Speed Friending Question List]]:** games and questions to open sessions
-- **[Inviting Experts](https://staging.lensacademy.org/courses/et-accelerator-facilitator-guides/module/et-fg-resources#inviting-guests-to-join-your-sessions):** who to invite, how to run the session, and an outreach email template
+- **[Inviting Experts](https://lensacademy.org/courses/et-accelerator-facilitator-guides/module/et-fg-resources#inviting-guests-to-join-your-sessions):** who to invite, how to run the session, and an outreach email template
