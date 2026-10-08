@@ -8,7 +8,7 @@ authors:
   - Matthew Farrugia-Roberts (University of Oxford)
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/singular-learning-theory/
-upstream_commit: '11944e29333e1e2a2a0c0d93b6398a6df5598ab3'
+upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
 provenance_recorded_at: '2026-10-08'
 ---
 
@@ -78,8 +78,8 @@ The following is an indicative list of mathematical concepts that will be helpfu
 
 - *Linear algebra:* vectors, matrices, rank, orthogonal matrices, rank–nullity, positive definiteness, eigenvalues, spectral decomposition.
 - *Calculus:* partial derivatives, gradient, directional derivative, chain rule, Hessian, second-order Taylor expansion and remainder.
-- *Integration and analysis:* multivariate integrals, change of variables, volume in ${\mathbb{R}}^{d}$, asymptotic notation (big-$O$, little-$o$), computing basic limits and integrals.
-- *Probability:* probability simplex $\Delta(\cdot)$, conditional probability, probability density functions, independence, expectation, Bayes' rule, Gaussians, law of large numbers.
+- *Integration and analysis:* multivariate integrals, change of variables, volume in $${\mathbb{R}}^{d}$$, asymptotic notation (big-$$O$$, little-$$o$$), computing basic limits and integrals.
+- *Probability:* probability simplex $$\Delta(\cdot)$$, conditional probability, probability density functions, independence, expectation, Bayes' rule, Gaussians, law of large numbers.
 
 Section 1 reviews the basic framework of deep learning as parametric function approximation or statistical inference (parameter–function maps, deep linear networks, multi-layer perceptrons, loss functions, likelihood) along with Bayesian inference (prior, posterior, partition function, Bayesian free energy).
 
