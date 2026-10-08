@@ -133,7 +133,7 @@ If you have 8-10 people (or prefer the fuller mastermind experience), split into
 - Keep groups stable across the six weeks so trust can build
 - Check in with both groups for the last few minutes to hear how it went
 
-Each group follows the standard hot seat structure, so see [the Mastermind Structure guide](https://staging.lensacademy.org/courses/et-accelerator-facilitator-guides/module/et-fg-resources#mastermind-structure) for the full 20m structure and prompts.
+Each group follows the standard hot seat structure, so see [the Mastermind Structure guide](https://lensacademy.org/courses/et-accelerator-facilitator-guides/module/et-fg-resources#mastermind-structure) for the full 20m structure and prompts.
 
 #### End Callout
 
