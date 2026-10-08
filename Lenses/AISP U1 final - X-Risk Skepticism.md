@@ -99,9 +99,9 @@ If the Distraction Argument is right in a particular institution, funding and re
 
 This is why Unit 1 should include serious skepticism. The point of "why intervene at all?" is not to build the strongest possible case and stop. It is to identify what survives after the strongest objections have been given their full force.
 
-[^grace]: Katja Grace, *Counterarguments to the Basic AI X-Risk Case*. [AI Impacts](https://aiimpacts.org/counterarguments-to-the-basic-ai-x-risk-case/)
-[^swoboda]: Torben Swoboda et al. (2025), *Examining Popular Arguments Against AI Existential Risk: A Philosophical Analysis*. [arXiv](https://arxiv.org/abs/2501.04064)
-[^kasirzadeh]: Atoosa Kasirzadeh (2025), *Two Types of AI Existential Risk: Decisive and Accumulative*. [Philosophical Studies](https://doi.org/10.1007/s11098-025-02301-3)
+[^cite-grace]: Katja Grace, *Counterarguments to the Basic AI X-Risk Case*. [AI Impacts](https://aiimpacts.org/counterarguments-to-the-basic-ai-x-risk-case/)
+[^cite-swoboda-2025]: Torben Swoboda et al. (2025), *Examining Popular Arguments Against AI Existential Risk: A Philosophical Analysis*. [arXiv](https://arxiv.org/abs/2501.04064)
+[^cite-kasirzadeh-2025]: Atoosa Kasirzadeh (2025), *Two Types of AI Existential Risk: Decisive and Accumulative*. [Philosophical Studies](https://doi.org/10.1007/s11098-025-02301-3)
 
 #### Question: Open
 id:: 3af07680-7353-4c87-8e71-872456f936bf
