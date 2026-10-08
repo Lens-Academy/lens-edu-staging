@@ -49,7 +49,7 @@ What to do in your single reply:
 
 This is a one-turn response. Do not ask a question. Tell them to move on.
 
-#### Question
+#### Question: Open
 id:: ea8114ac-05ef-49c5-99e8-01a428a1840f
 content::
 \## Phase 2: Processing
@@ -86,7 +86,7 @@ What to do in each reply:
 
 What not to do: mini-lectures, adjudication, more than 2 turns.
 
-#### Question
+#### Question: Open
 id:: 24be25b9-edb5-4730-a6a8-6265fc899a3e
 content::
 \## Phase 3: Learning Question
