@@ -10,6 +10,8 @@ partner-url: https://www.iliad.ac/
 ---
 # Module: [[../modules/Iliad A.1 - AI Alignment Introduction|A.1 AI Alignment Introduction]]
 # Module: [[../modules/Iliad A.2 - Alignment in Practice|A.2 Alignment in Practice]]
+# Module: [[../modules/Iliad A.3 - Alignment in Practice 2|A.3 Alignment in Practice 2]]
+# Module: [[../modules/Iliad A.4 - Reward Learning Theory|A.4 Reward Learning Theory]]
 # Meeting: Unit A
 
 # Module: [[../modules/Iliad B - Learning|B — Learning]]
