@@ -17,47 +17,47 @@ content::
 
 **Contents**
 
-- 1. Introduction: the role of thermodynamics in agent foundations
-- 2. Theoretical foundations: probability, entropy, and information
+- 1\. Introduction: the role of thermodynamics in agent foundations
+- 2\. Theoretical foundations: probability, entropy, and information
   - 2.1 Random variables and notation
   - 2.2 Entropy
   - 2.3 The coding interpretation
   - 2.4 Joint and conditional entropy, and mutual information
   - 2.5 Divergence and two fundamental inequalities
-- 3. Characterizing optimization
+- 3\. Characterizing optimization
   - 3.1 Two notions of optimization and their relationship
   - 3.2 Optimizers and convergent attractors
   - 3.3 Optimization as entropy reduction
   - 3.4 The predictive value of optimizers
   - 3.5 The observer-independence of optimization
-- 4. Reversibility and the second law
+- 4\. Reversibility and the second law
   - 4.1 The reversibility of microscopic physics
   - 4.2 The incompatibility of global funneling with reversibility
   - 4.3 Coarse-graining and the emergence of probability
   - 4.4 The second law of thermodynamics
   - 4.5 The scope and limitations of the second law
-- 5. Three types of optimization under information conservation
+- 5\. Three types of optimization under information conservation
   - 5.1 The bookkeeping problem
   - 5.2 Type 1: transfer of entropy into the environment as waste heat
   - 5.3 Type 2: absorption of entropy into the agent's memory through measurement
   - 5.4 Type 3: expenditure of pre-existing mutual information
   - 5.5 A reinterpretation of Maxwell's demon, and a synthesis of the three channels
-- 6. Limitations of subjective entropy
+- 6\. Limitations of subjective entropy
   - 6.1 Entropy as a measure of optimization capacity
   - 6.2 The exogenous status of the reference distribution
   - 6.3 Three failure modes of the ensemble formalism
   - 6.4 The demon's capacity as the central case for agent foundations
-- 7. Algorithmic thermodynamics
+- 7\. Algorithmic thermodynamics
   - 7.1 Kolmogorov complexity
   - 7.2 Justification of $$K$$ as an entropy measure
   - 7.3 The algorithmic second law
   - 7.4 An exact analysis of Maxwell's demon
-- 8. Knowledge as a physical resource: optimization for embedded agents
+- 8\. Knowledge as a physical resource: optimization for embedded agents
   - 8.1 From exogenous to endogenous knowledge
   - 8.2 Refinements of the three channels via universal computation
   - 8.3 Dissolution of the apparent subjectivity
   - 8.4 Thermodynamic implications for optimizing systems
-- 9. Summary and conclusions
+- 9\. Summary and conclusions
 - A. A thermodynamics of biased coins: the generalized heat engine
   - A.1 The designer's viewpoint
   - A.2 Specification of the model: coins, transformations, and conservation laws

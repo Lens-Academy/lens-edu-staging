@@ -17,25 +17,25 @@ content::
 **Contents**
 
 - Introduction
-- 1. Preliminaries
+- 1\. Preliminaries
   - 1.1 Neural networks and parameter–function maps
   - 1.2 Supervised deep learning and loss functions
   - 1.3 Statistical models and parameter–distribution maps
   - 1.4 Bayesian deep learning
-- 2. What is degeneracy?
+- 2\. What is degeneracy?
   - 2.1 A definition of degeneracy
   - 2.2 Degeneracy and continuous symmetries
   - 2.3 Localised degeneracy
   - 2.4 Degeneracy and information singularities
   - 2.5 Degeneracy and the loss landscape
-- 3. The degeneracy hierarchy
+- 3\. The degeneracy hierarchy
   - 3.1 The local learning coefficient via volume scaling asymptotics
   - 3.2 Perspectives on the local learning coefficient
   - 3.3 Local learning coefficients of deep linear networks
-- 4. Degeneracy and Bayesian deep learning
+- 4\. Degeneracy and Bayesian deep learning
   - 4.1 Watanabe's free energy formula
   - 4.2 Bayesian phase transitions
-- 5. Further readings
+- 5\. Further readings
   - 5.1 Other introductions to singular learning theory
   - 5.2 Recent work on singular deep learning
 

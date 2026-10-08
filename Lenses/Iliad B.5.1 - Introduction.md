@@ -13,27 +13,27 @@ content::
 **Contents**
 
 - Introduction
-- 1. Causality and Counterfactuals
+- 1\. Causality and Counterfactuals
   - 1.1 Data attribution as causal analysis
   - 1.2 Counterfactual attribution and its failures
   - 1.3 Beyond leave-one-out: Shapley values
   - 1.4 Notation and goals
-- 2. Influence Functions
+- 2\. Influence Functions
   - 2.1 The influence function formula
   - 2.2 Translation to modern neural networks
-- 3. Bayesian Influence Functions
+- 3\. Bayesian Influence Functions
   - 3.1 Bayesian influence functions
   - 3.2 Exercise: Connecting Bayesian and classical influence functions
   - 3.3 Long Exercise: Influence functions as optimal linear transport
-- 4. Unrolling
+- 4\. Unrolling
   - 4.1 The training-dynamics approach to attribution
   - 4.2 The unrolling formula
     - 4.2.1 Materializing the Jacobian
     - 4.2.2 Implicit JVPs and the REPLAY algorithm
   - 4.3 Long Exercise: From unrolling to influence functions
   - 4.4 Exercise: Influence depends on training time
-- 5. Practical Considerations and Open Problems
-- 6. Further Readings
+- 5\. Practical Considerations and Open Problems
+- 6\. Further Readings
 
 \## Introduction
 

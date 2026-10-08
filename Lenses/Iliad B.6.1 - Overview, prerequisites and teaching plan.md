@@ -18,11 +18,11 @@ content::
 **Contents**
 
 - -1. Prerequisites
-- 0. A one-day teaching plan
+- 0\. A one-day teaching plan
   - 0.1 Schedule
   - 0.2 Main references
-- 1. Intro reading: learning mechanics
-- 2. Statistical mechanics of learning
+- 1\. Intro reading: learning mechanics
+- 2\. Statistical mechanics of learning
   - 2.1 The Bayesian model of learning
   - 2.2 Why the exponential of a loss is a likelihood
   - 2.3 Partition functions, free energy, and cumulants
@@ -30,7 +30,7 @@ content::
   - 2.5 Phases and phase transitions
   - 2.6 The Ising perceptron: a first-order transition in learning
   - 2.7 Comparison with QFT
-- 3. Large width at initialization: the Gaussian process limit
+- 3\. Large width at initialization: the Gaussian process limit
   - 3.1 Notation
   - 3.2 Normalizing the network
   - 3.3 Gaussian processes
@@ -38,7 +38,7 @@ content::
   - 3.5 NNGP via functional integrals
   - 3.6 L/N
   - 3.7 Edge of chaos
-- 4. The NTK and large width during training
+- 4\. The NTK and large width during training
   - 4.1 Gradient flow and the NTK
     - 4.1.1 Geometry of gradient flows
   - 4.2 Features
@@ -46,7 +46,7 @@ content::
   - 4.4 Lazy learning
   - 4.5 Summary
   - 4.6 Bayesian learning at large width: kernel learning
-- 5. Mean-field scaling
+- 5\. Mean-field scaling
   - 5.1 Mean-field theories in physics
     - 5.1.1 Warm-up: the Curie–Weiss magnet
     - 5.1.2 The general shape of a mean-field model
@@ -61,7 +61,7 @@ content::
   - 5.5 What is this framework good for?
   - 5.6 Grokking as a lazy-to-rich transition: a reading exercise
   - 5.7 Bayesian grokking: a first-order transition (alternative reading)
-- 6. Non-equilibrium physics, MSRJD, and DMFT
+- 6\. Non-equilibrium physics, MSRJD, and DMFT
   - 6.1 From stochastic dynamics to path integrals: the MSRJD formalism
   - 6.2 Double descent as a dynamical phase transition
     - 6.2.1 Model definition and formalism
@@ -69,7 +69,7 @@ content::
   - 6.3 Dynamical mean-field theory (DMFT)
     - 6.3.1 Self-consistency
     - 6.3.2 Recent applications in deep learning
-- 7. Scaling laws
+- 7\. Scaling laws
   - 7.1 The empirical laws
   - 7.2 Joint laws, bottlenecks, and the Chinchilla revision
   - 7.3 Where do the laws come from?
