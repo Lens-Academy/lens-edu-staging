@@ -47,14 +47,17 @@ Before choosing anything, review any insights/interviews from stakeholders you h
 
 #### Question: Open
 id:: 4ede286f-9b93-45a2-85e0-83e7df80f573
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content:: What did stakeholders say they'd actually find useful, a document, a tool, a dataset, something else? Quote them directly if you can.
 
 #### Question: Open
 id:: 9febde05-0efd-41ef-860e-c63d25cd91ee
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content:: Did anyone mention a specific gap, format, or constraint (e.g. "we don't have time to read anything longer than two pages")?
 
 #### Question: Open
 id:: 761a161d-a4ca-4e31-8d12-987676d16cb1
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content:: Did anything surprise you, or contradict what you originally assumed your output should be?
 
 #### Text
@@ -101,10 +104,12 @@ For example, if your desired output is a policy brief, your research question wo
 
 #### Question: Open
 id:: 5819d60c-751c-4427-b5df-20749c60f3f8
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content:: **Research Question**
 
 #### Question: Open
 id:: 83714f44-b5a0-4159-9416-c09237e2890f
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content:: **Remaining Uncertainties about your research question**
 
 #### Text
@@ -136,6 +141,7 @@ Use this template: [\[TEMPLATE\] Week 8 Presentation ET Accelerator: Oct-Dec 26'
 
 #### Question: Open
 id:: 76165885-8093-488d-9c0d-3680be4dbab2
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content:: **What are some next steps you would like to take in the next week to further explore your open questions and uncertainties around reverse engineering your thesis?** What are your top uncertainties or assumptions that you could validate with more research or interviews?
 
 #### Text

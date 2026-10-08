@@ -83,6 +83,7 @@ content::
 
 #### Question: Open
 id:: 1ac358c0-a04c-45b5-bb85-416f7fa45720
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content::
 **What are your Head-related uncertainties?**
 
@@ -103,6 +104,7 @@ content::
 
 #### Question: Open
 id:: 03ffe670-0b67-4321-90ab-cf464904f3ca
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content::
 **What are your Heart-related uncertainties?**
 
@@ -123,6 +125,7 @@ content::
 
 #### Question: Open
 id:: c5ad98e9-d372-42ad-bf2d-a500ee8eeefb
+feedback-instructions:: This is a reflective thesis-planning worksheet with no single right answer, so do not grade it. Name the most specific, useful thing in the learner's answer, then offer one question or one concrete suggestion that would sharpen it or connect it more clearly to their thesis. Keep it brief and encouraging. Effective Thesis supports theses in every cause area, so stay within the problem area(s) the learner chose and do not steer them toward AI safety or any cause area they did not raise; where the worksheet asks them to widen their list, point them to the brainstorming prompts on the page rather than naming cause areas.
 content::
 **What are your Hand-related uncertainties?**
 
