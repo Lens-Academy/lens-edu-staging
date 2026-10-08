@@ -56,10 +56,10 @@ feedback-instructions:: Respond to what the learner actually wrote. Open on the 
 
 - If they argued for the broadest possible coalition, ask what single ask almost everyone could agree on.
 - If they had a general sense of focus, ask what exactly the ask is, which positions should stay out of it, and why.
-- If they had all three parts, ask what each choice costs: what is lost if a bundled package fails, and what is lost by keeping it narrow?
+- If they had all three parts, they have full marks. You may offer one extension: what does each choice cost: what is lost if a bundled package fails, and what is lost by keeping it narrow?
 - If they had that asymmetry, ask how it answers advocates who wrap their extinction concerns inside broader regulation.
 
-At full marks, just confirm briefly. Don't cite level numbers or band names (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: the chapter's line that legislators "smell something rotten and throw the whole package out". Ask what made the package smell rotten. If they still don't attempt it, rephrase the question.
+At full marks, just confirm briefly. Don't cite point values. If asked about the score, say in plain words what the answer did and the one most important thing it missed. If they say they don't understand, give one concrete foothold: the chapter's line that legislators "smell something rotten and throw the whole package out". Ask what made the package smell rotten. If they still don't attempt it, rephrase the question.
 
 One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
