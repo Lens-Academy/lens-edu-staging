@@ -2,7 +2,7 @@
 id: '14838f3b-f8a7-48d3-939c-bcd6bee1f0d3'
 title: "D.1.2.6 Bellman convergence rate"
 tldr: "Derives bounds on how fast repeated Bellman updates approach V*, including a priori and a posteriori bounds and an example where the bound is tight."
-summary_for_tutor: "Section 5 of Iliad worksheet D.1.2: Bellman convergence rate, with iterates V_n = B^n V_0. Exercises 5.1-5.6: ||V_n - V*|| <= gamma^n ||V_0 - V*||, the a priori bound gamma^n/(1-gamma) ||V_1 - V_0||, the a posteriori bound, the a posteriori bound is at least as tight, the bound gamma^n R_max/(1-gamma) for V_0 = 0, and a one-state MDP showing it is tight. The source is Puterman 1994, Chapter 6. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "Section 5 of worksheet D.1.2: Bellman convergence rate, with iterates V_n = B^n V_0. Exercises 5.1-5.6: ||V_n - V*|| <= gamma^n ||V_0 - V*||, the a priori bound gamma^n/(1-gamma) ||V_1 - V_0||, the a posteriori bound, the a posteriori bound is at least as tight, the bound gamma^n R_max/(1-gamma) for V_0 = 0, and a one-state MDP showing it is tight. The source is Puterman 1994, Chapter 6. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Leon Lang (Iliad)
   - David Quarel (ARENA)

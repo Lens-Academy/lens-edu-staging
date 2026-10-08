@@ -2,7 +2,7 @@
 id: '458cb954-0a67-49db-a9b9-dba9897badbc'
 title: "D.1.2.5 Policy improvement theorem"
 tldr: "Shows that acting greedily with respect to a policy's value function never lowers the value, and that policy iteration reaches an optimal policy in finitely many steps."
-summary_for_tutor: "Section 4 of Iliad worksheet D.1.2: Policy improvement theorem. Defines the improved policy pi' greedy with respect to V_pi. Exercise 4.1 (when B V_pi = V_pi), Exercise 4.2 (V_{pi'} >= V_pi), Exercise 4.3 (policy iteration converges in finitely many steps, since there are |A|^|S| deterministic policies). Hints and collapsed solutions are given. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "Section 4 of worksheet D.1.2: Policy improvement theorem. Defines the improved policy pi' greedy with respect to V_pi. Exercise 4.1 (when B V_pi = V_pi), Exercise 4.2 (V_{pi'} >= V_pi), Exercise 4.3 (policy iteration converges in finitely many steps, since there are |A|^|S| deterministic policies). Hints and collapsed solutions are given. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Leon Lang (Iliad)
   - David Quarel (ARENA)

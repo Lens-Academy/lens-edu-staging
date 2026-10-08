@@ -2,7 +2,7 @@
 id: 'f5f3b3cf-a258-4049-bca1-214c7882e778'
 title: "D.1.2.7 Convergence of Q-learning"
 tldr: "States a stochastic approximation theorem for contractions and uses it to prove that Q-learning converges to the optimal action-value function with probability 1."
-summary_for_tutor: "Section 6 of Iliad worksheet D.1.2: Convergence of Q-learning. Theorem 6.1 (Tsitsiklis 1994, Theorem 3, stated without proof) with learning-rate and noise conditions, then the Q-learning update. Exercises 6.1-6.6: B on Q-functions is a gamma-contraction, Q* is its unique fixed point, rewrite Q-learning in the form of Theorem 6.1, zero-mean noise, variance bound C(1 + ||Q_t||^2), and the learning-rate conditions sum alpha = infinity and sum alpha^2 < infinity. Let the student attempt each exercise before revealing or paraphrasing a solution."
+summary_for_tutor: "Section 6 of worksheet D.1.2: Convergence of Q-learning. Theorem 6.1 (Tsitsiklis 1994, Theorem 3, stated without proof) with learning-rate and noise conditions, then the Q-learning update. Exercises 6.1-6.6: B on Q-functions is a gamma-contraction, Q* is its unique fixed point, rewrite Q-learning in the form of Theorem 6.1, zero-mean noise, variance bound C(1 + ||Q_t||^2), and the learning-rate conditions sum alpha = infinity and sum alpha^2 < infinity. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
   - Leon Lang (Iliad)
   - David Quarel (ARENA)
