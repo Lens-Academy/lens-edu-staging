@@ -43,3 +43,11 @@ id:: 816c7041-781a-4093-bdb3-d24648ed03e6
 content:: **My commitment for next week:** What's your one next step, and by when?
 placeholder:: Optional - jot it here so you can come back to it
 optional:: true
+
+#### Question: Rating
+id:: 174e4a04-4370-4a4c-9512-f71edf32feb5
+content:: **If you met with a peer group this week:** how valuable was it for you?
+scale:: 5
+low-label:: Not valuable
+high-label:: Very valuable
+optional:: true
