@@ -21,7 +21,7 @@ eval-results:
 
 ## Test:
 id:: b5981716-08c0-40b1-a005-2cfbdde6d0c7
-#### Question
+#### Question: Open
 id:: 8ba818e9-5340-44ff-a346-7fa476b77acb
 content::
 Two systems accurately predict that a severe storm will close a bridge. One routes delivery trucks away from it to minimize delays. The other routes rescue vehicles toward it to reach stranded people. A third system is exceptionally good at this routing task but cannot reason outside transportation.
@@ -41,6 +41,19 @@ Fail if the answer conflates prediction with preference, assumes equally intelli
 Do not require the student to claim that direction-agnostic intelligence is necessarily dangerous. That safety conclusion is not established by this assigned section alone. A student who reconstructs the framework accurately and then challenges it with a coherent argument can pass.
 
 Give concise qualitative feedback naming which checks were demonstrated and which need work.
+
+force-feedback:: first
+feedback-instructions:: Respond to what the learner actually wrote. Open on the strongest thing in it, in one sentence. Then push once, chosen by where they stopped:
+
+- If they blurred predicting and steering, for example by calling the choice of route a prediction, ask what the first two systems agree about and what they differ on.
+- If they suggested one of the first two systems is less intelligent because of where it sends its vehicles, ask whether either one predicted the storm worse, and what each system's success is measured against.
+- If they treated the third system's excellent routing as a sign of general intelligence, ask what it would do with a problem outside transportation, and what a general reasoner can do there that it cannot.
+
+A learner who reconstructs the argument and then disagrees with it has done what was asked. Engage with the disagreement, don't steer them back to the chapter's view.
+
+At full marks, just confirm briefly. Don't cite the numbered checks or the words pass and fail (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: the bridge itself. Both systems expect the same closure, so whatever differs between them is not their prediction. If they still don't attempt it, rephrase the question.
+
+One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
 
 # Suggested Lenses:
