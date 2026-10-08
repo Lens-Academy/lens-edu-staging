@@ -45,6 +45,15 @@ It is easy to write a course that sounds right. Being careful while writing does
 Source means: a link the student can see (inline or footnote), or for maths, a calculation you ran. Own view means the sentence says so ("We think…"). Hedging ("probably") is neither. (rather cut than hedge)
 Claims hide in sentences that read like structure ("there are two ways to get this wrong", "these are mirror images") or like teaching lore ("students often misread this"). Treat those as claims too; the second kind is usually better rewritten as an instruction to the tutor: "if the student does X, do Y".
 
+**Cite with footnotes.**
+When you cite a source in lens text, put a `[^cite-<id>]` marker right after the claim, after the punctuation, and write the definition at the end of the same segment: authors (year), *title*, then a link named after the site. The learner sees a small [1] and the full reference when hovering or tapping it. Use `[^note-<id>]` for an aside. Ids are lowercase kebab-case, and the same source keeps the same id. Full rules: [[Adding Sources#Citations and explanatory notes]].
+
+```markdown
+Redwood researchers mostly call these high-stakes and low-stakes,[^cite-hebbar-2025] and this course does too.
+
+[^cite-hebbar-2025]: Vivek Hebbar (2025), *How can we solve diffuse threats like research sabotage with AI control?* [Redwood Research blog](https://blog.redwoodresearch.org/p/how-can-we-solve-diffuse-threats)
+```
+
 **Check every number in a separate pass.**
 Reading prose for claims skips numerals. Grep every figure in the course and compare it against the original paper, not a summary. Check two things: that the digits are right, and that the number describes the quantity the text says it does. Example: a paper reported a 14% probability that progress arrives as a discontinuity; the course wrote it as a 14% share of total progress, and a test question graded students against the wrong meaning.
 
