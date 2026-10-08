@@ -8,7 +8,9 @@ tutor_minutes: 8
 ---
 #### Text
 content::
-Buck Shlegeris is CEO of Redwood Research ([80,000 Hours](https://80000hours.org/podcast/episodes/buck-shlegeris-ai-control-scheming/)). This post introduces the rogue deployment, a model running somewhere its safety measures do not reach. You read three parts of it: the idea itself, why launching a rogue deployment may be easy, and how a catastrophe could happen without one. As you read, notice how many actions each kind of catastrophe needs.
+Buck Shlegeris is CEO of Redwood Research.[^cite-80k-shlegeris-2025] This post introduces the rogue deployment, a model running somewhere its safety measures do not reach. You read three parts of it: the idea itself, why launching a rogue deployment may be easy, and how a catastrophe could happen without one. As you read, notice how many actions each kind of catastrophe needs.
+
+[^cite-80k-shlegeris-2025]: 80,000 Hours (2025), *Buck Shlegeris on controlling AI that wants to take over, so we can use it anyway*, podcast episode. [80,000 Hours](https://80000hours.org/podcast/episodes/buck-shlegeris-ai-control-scheming/)
 
 #### Article
 source:: [[../articles/shlegeris-ai-catastrophes-and-rogue-deployments]]

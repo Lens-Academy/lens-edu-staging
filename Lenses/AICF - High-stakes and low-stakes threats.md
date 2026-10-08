@@ -10,6 +10,10 @@ tutor_minutes: 10
 content::
 Ryan Greenblatt is Chief Scientist at Redwood Research,[^cite-mats-greenblatt] which says it introduced AI control as a research area.[^cite-redwood-site] Here he sorts the ways a misaligned AI could cause serious harm into clusters, separates threats that need only a few actions (concentrated failures) from threats that need many (non-concentrated or diffuse), and, in an optional part at the end, ranks which ones control should handle first. Redwood researchers mostly call these high-stakes and low-stakes,[^cite-hebbar-2025] and this course does too.
 
+[^cite-mats-greenblatt]: MATS, *Ryan Greenblatt*, mentor profile. [MATS](https://www.matsprogram.org/mentor/greenblatt)
+[^cite-redwood-site]: Redwood Research, home page. [redwoodresearch.org](https://www.redwoodresearch.org/)
+[^cite-hebbar-2025]: Vivek Hebbar (2025), *How can we solve diffuse threats like research sabotage with AI control?* [Redwood Research blog](https://blog.redwoodresearch.org/p/how-can-we-solve-diffuse-threats)
+
 #### Article
 source:: [[../articles/greenblatt-prioritizing-threats-for-ai-control]]
 from:: We often talk about ensuring control
