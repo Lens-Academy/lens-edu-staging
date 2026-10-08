@@ -19,14 +19,6 @@ source:: [[../articles/greenblatt-prioritizing-threats-for-ai-control]]
 from:: We often talk about ensuring control
 to:: countermeasures developed to handle concentrated failures will often also be possible to repurpose into useful countermeasures for handling non-concentrated problems.)
 
-#### Callout: Greenblatt's ranking of these threats (optional)
-collapse:: closed
-
-#### Article
-from:: ## My prioritization between these threats
-to:: Beyond rogue deployments, other security issues seem substantially less threatening.
-optional:: true
-
 #### Text
 content::
 The rest of the post, folded above, has Greenblatt's ranking of these threats. Not everyone agrees with it. In Unit 4 you will read the argument that the bigger risk is early AIs producing work that looks right and is not, without any scheming.
