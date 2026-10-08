@@ -50,6 +50,7 @@ source:: [[../Lenses/Iliad D.1.2.7 - Convergence of Q-learning]]
 
 # Lens: D.1.2.8 Exact policy evaluation
 source:: [[../Lenses/Iliad D.1.2.8 - Exact policy evaluation]]
+
 # Submodule: D.2 Policy Gradients and Misgeneralization
 
 # Lens: D.2.1 Overview and prerequisites

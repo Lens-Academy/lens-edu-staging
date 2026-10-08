@@ -3,6 +3,7 @@ id: 'c5da2e3a-fb3a-4762-9248-387025ff8ccb'
 slug: iliad-learning
 title: "B — Learning"
 ---
+
 # Submodule: B.2 Mysteries of Deep Learning
 
 # Lens: B.2.1 Overview, prerequisites and lecture
