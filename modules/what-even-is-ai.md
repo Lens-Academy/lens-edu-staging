@@ -45,7 +45,7 @@ source:: ![[../Lenses/sanderson-but-what-is-a-neural-network]]
 
 # Lens:
 optional:: true
-source:: ![[../Lenses/j-nus-how-information-flows-through-transformers]]
+source:: ![[../Lenses/janus-how-information-flows-through-transformers]]
 
 # Lens:
 optional:: true
