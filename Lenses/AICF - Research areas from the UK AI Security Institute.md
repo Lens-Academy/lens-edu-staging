@@ -15,7 +15,7 @@ source:: [[../articles/stastny-research-areas-in-ai-control-the-alignment-projec
 to:: potentially leading to rogue internal deployments or weight exfiltration
 
 #### Article
-from:: **Problem summary:** In the future, potentially scheming AIs will likely be used
+from:: "## Research Sabotage"
 to:: preventing us from controlling increasingly capable AI systems.
 
 #### Question: Open
