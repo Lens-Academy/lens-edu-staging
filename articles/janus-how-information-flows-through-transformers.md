@@ -2,6 +2,8 @@
 title: "How Information Flows Through Transformers"
 author:
   - "j⧉nus"
+author_url:
+  - "https://x.com/repligate"
 source_url: "https://animalabs.ai/field-notes/transformers/"
 published: 2025-09-11
 created: 2026-10-09
