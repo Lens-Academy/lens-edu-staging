@@ -71,7 +71,7 @@ Control measures:
 - the company pauses a model after catching it trying something
 
 1\. For each measure: would the profit-only company build it? Yes, partly, or no?
-2\. Pick the measure your group split on most. Mallen's question for it: does it mainly make safety cheaper, or mainly make the AI more useful to sell?
+2\. Pick the measure your group split on most. Using Mallen's reply: does it mainly make safety cheaper, or mainly make the AI more useful to sell?
 3\. For that measure, whose view fits best: Cale's, Hobbhahn's or Mallen's? Your group may disagree.
 4\. What fact could someone check that would change your answer?
 
@@ -102,8 +102,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-The case: a company runs a monitor that blocks every attempt by its agents to escape their test environment, and keeps the blocked attempts internal.
-1\. Gut call, one sentence each: does this monitor make a catastrophe more likely or less likely?
+The case, from the unit's "Trace the mechanism" exercise: a company runs a monitor that blocks every attempt by its agents to escape their test environment, and keeps the blocked attempts internal.
 2\. Each person argues for the answer they did not pick, two minutes each. If you all agree, split anyway. Arguments from the reading:
 
 Against the monitor:
