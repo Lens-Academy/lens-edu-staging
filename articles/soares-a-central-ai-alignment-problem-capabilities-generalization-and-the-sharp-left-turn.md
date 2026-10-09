@@ -3,6 +3,8 @@ title: "A central AI alignment problem: capabilities generalization, and the sha
 source_url: "https://www.lesswrong.com/posts/GNhMPAWcfBCASy8e6/a-central-ai-alignment-problem-capabilities-generalization"
 author:
   - "So8res"
+author_url:
+  - "https://www.lesswrong.com/users/so8res"
 published: 2022-06-15
 created: 2026-02-13
 description: "Nate Soares argues that one of the core problems with AI alignment is that an AI system's capabilities will likely generalize to new domains much fas…"
