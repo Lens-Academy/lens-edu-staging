@@ -4,7 +4,8 @@ title: "Strategic Foundations"
 tldr: "Optional background in game theory and international relations: why promises between rivals need to be costly to be believed, how evidence turns into compliance judgments, and why a leader can sign in good faith and still fail to deliver. Read the pathway you are weakest on."
 summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Optional reading pathways plus one optional written output (actor, authority, and evidence map)."
 tags: [wip]
-duration_minutes: 80
+reading_minutes: 70
+tutor_minutes: 4
 ---
 #### Text
 content::
