@@ -3,6 +3,8 @@ title: "Janus' Simulators"
 source_url: https://www.astralcodexten.com/p/janus-simulators
 author:
   - "Scott Alexander"
+author_url:
+  - "https://www.astralcodexten.com/"
 published: 2023-01-26
 created: 2026-02-04
 description: "This post isn't exactly about AI, but bear with me"
