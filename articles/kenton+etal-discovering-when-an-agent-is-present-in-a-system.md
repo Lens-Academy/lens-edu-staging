@@ -8,6 +8,13 @@ author:
   - "Jonathan Richens"
   - "Matt MacDermott"
   - "Tom Everitt"
+author_url:
+  - "https://www.lesswrong.com/users/zac-kenton"
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
 published: 2022-08-17
 created: 2026-02-19
 description: "We want to build safe, aligned artificial general intelligence (AGI) systems that pursue the intended goals of its designers. Causal influence diagrams (CIDs) are a way to model decision-making situa…"

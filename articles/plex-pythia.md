@@ -3,6 +3,8 @@ title: "Pythia"
 source_url: "https://www.lesswrong.com/posts/qqEndN5Cuzbat9fyx/pythia"
 author:
   - "plex"
+author_url:
+  - "https://www.lesswrong.com/users/ete"
 published: 2025-11-07
 created: 2026-02-13
 description: "[CW: Retrocausality, omnicide, philosophy] • Alternate format: Talk to this post and its sources …"
