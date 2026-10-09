@@ -42,6 +42,8 @@ optional:: true
 
 # Lens: Diffuse AI Control on Fuzzy Tasks
 source:: [[../Lenses/Iliad reading - Diffuse AI Control on Fuzzy Tasks]]
+optional:: true
 
 # Lens: Evaluating Chain-of-Thought Monitorability
 source:: [[../Lenses/guan-monitoring-monitorability]]
+optional:: true
