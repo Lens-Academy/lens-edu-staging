@@ -1,7 +1,7 @@
 ---
 title: "Security incident disclosure — July 2026"
 author:
-  - {--{"author":"James's AI","timestamp":1791490587740}@@"system"--}{++{"author":"James's AI","timestamp":1791490587740}@@"Hugging Face"++}
+  - "Hugging Face"
 source_url: "https://huggingface.co/blog/security-incident-july-2026"
 published: 2026-07-16
 created: 2026-10-08
