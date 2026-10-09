@@ -26,6 +26,7 @@ to:: {--{"author":"James agent ready-31's AI","timestamp":1791539553930}@@"momen
 --}{++{"author":"James agent ready-31's AI","timestamp":1791539553930}@@"of the world as they became more intelligent than human beings:"
 ++}%% You can also add {--{"author":"James agent ready-31's AI","timestamp":1791539502748}@@multiple--}{++{"author":"James agent ready-31's AI","timestamp":1791539502748}@@several++} article excerpts in a {--{"author":"James agent ready-31's AI","timestamp":1791539553930}@@row. --}{++{"author":"James agent ready-31's AI","timestamp":1791539553930}@@row, as long as something is left out between them, which then shows as folded text. Two excerpts with nothing between them are a validator error: merge them into one excerpt instead. ++}%%{--{"author":"James agent ready-31's AI","timestamp":1791539553930}@@
 #### Article
+from:: "In 1951, foundational computer scientist"
 to:: "of the world as they became more intelligent than human beings:"--}
 
 #### Chat
