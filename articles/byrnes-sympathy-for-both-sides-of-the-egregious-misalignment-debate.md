@@ -2,6 +2,8 @@
 title: "Sympathy for both sides of the egregious misalignment debate"
 author:
   - "Steven Byrnes"
+author_url:
+  - "https://sjbyrnes.com/"
 source_url: "https://www.lesswrong.com/posts/DZaZ3fqHnvfLCftPu/sympathy-for-both-sides-of-the-egregious-misalignment-debate"
 published: 2026-06-12
 created: 2026-09-15
