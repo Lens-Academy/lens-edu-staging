@@ -36,6 +36,7 @@ id:: 72741e7e-6943-422c-bfef-10318040c4de
 content:: A new case. A lab runs 50 parallel instances of an untrusted agent, each taking about 12 actions per hour. A monitor flags 2% of normal actions, and an audit takes about 30 minutes. The harm the lab worries about most: an instance sends details of an unreleased model to an outside mailing list, which takes one action and a few seconds, and cannot be recalled once sent.
 
 (a) Roughly what share of the time can an instance work under fully-synchronous, semi-synchronous and asynchronous monitoring, ignoring attacks?
+
 (b) Which of the three would you use against this harm, and why?
 (c) Name one way your choice could still fail to prevent the harm.
 (d) Would your choice change if the harm instead took a week to take effect and could be undone? Why?
