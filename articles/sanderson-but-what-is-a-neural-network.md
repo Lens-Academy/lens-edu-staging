@@ -5,7 +5,7 @@ author:
   - "Text adaptation by Josh Pullen"
 author_url:
   - "https://en.wikipedia.org/wiki/3Blue1Brown"
-  - ""
+  - "https://www.joshuapullen.com"
 source_url: "https://www.3blue1brown.com/lessons/neural-networks/"
 published: 2017-10-05
 created: 2026-08-21
