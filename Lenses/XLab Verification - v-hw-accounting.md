@@ -68,11 +68,6 @@ to:: Figure 5: AI Computing Cluster. Adapted from: Kulp et al. (2024).
 #### Article
 source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
 from:: #### 2.3.4 Open research questions ^2-3-4-open
-to:: Is there a way to securely update which chips are permitted in the pod so that broken hardware can be replaced?
-
-#### Article
-source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
-from:: ### 2.4 Location verification ^2-4-location-verification
 to:: AI chips could be designed to make it possible for an external regulatory authority to securely and reliably determine their location and take policy actions based on a chip’s location. Alternatively, the chip could determine its own location and respond directly, such as restricting operation when located in an area known to be subject to export controls. There are a number of technical approaches to location verification which can be used alone or in tandem to provide location estimates that are accurate and robust against adversarial tampering.
 
 #### Text
