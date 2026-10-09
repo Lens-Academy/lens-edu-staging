@@ -3,6 +3,8 @@ title: "Introduction to Mechanistic Interpretability"
 source_url: "https://blog.bluedot.org/p/introduction-to-mechanistic-interpretability"
 author:
   - "Sarah"
+author_url:
+  - "https://bluedot.org/"
 published: 2024-08-19
 created: 2026-02-27
 description: "Mechanistic Interpretability is an emerging field that seeks to understand the internal reasoning processes of trained neural networks and gain insight into how and why they produce the outputs that they do."
