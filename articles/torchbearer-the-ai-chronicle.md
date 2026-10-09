@@ -1,9 +1,9 @@
 ---
 title: "The AI Chronicle"
 author:
-  - "Torchbearer"
+  - "Torchbearer Community"
 author_url:
-  - "https://chronicle.torchbearer.community/"
+  - "https://www.torchbearer.community/"
 source_url: "https://chronicle.torchbearer.community/"
 published: 2026-07-07
 created: 2026-07-07
