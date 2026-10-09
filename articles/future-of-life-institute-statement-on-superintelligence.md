@@ -2,6 +2,8 @@
 title: "Statement on Superintelligence"
 author:
   - "Future of Life Institute"
+author_url:
+  - "https://futureoflife.org/"
 source_url: "https://superintelligence-statement.org/"
 published: 2026-09-30
 created: 2026-09-30
