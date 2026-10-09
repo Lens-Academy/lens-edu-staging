@@ -63,10 +63,6 @@ to:: "#### 1\. Excess resources"
 
 #### Article
 from:: "As long as resources"
-to:: "most of the time."
-
-#### Article
-from:: "#### 2\. Physical limitations"
 to:: "#### 2\. Physical limitations"
 
 #### Article
@@ -79,10 +75,6 @@ from:: "#### 3\. Utility maximization"
 
 #### Article
 from:: "Turning “satisfying"
-to:: "advantage rather than ours."
-
-#### Article
-from:: "#### 4\. Coordination"
 to:: "conform to the pattern."
 
 #### Article
