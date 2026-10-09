@@ -37,7 +37,7 @@ Alex Mallen of Redwood Research gives a more general way to think about this. Re
 
 #### Article
 source:: [[../articles/mallen-capabilities-research-expands-the-safety-usefulness-pareto-frontier-too]]
-from:: It’s tempting to define safety research
+from:: "### A model of when and why research improves or hurts safety"
 to:: Visually: near the initial pink point, the green slope is shallower than the red slope.
 
 #### Text

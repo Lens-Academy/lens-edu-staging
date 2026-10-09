@@ -95,7 +95,7 @@ Greenblatt and Shlegeris wrote this in January 2024. In September 2025 Apollo Re
 
 #### Article
 source:: [[../articles/apolloresearch-stress-testing-deliberative-alignment-for-anti-scheming-training]]
-from:: Future, highly capable AI systems might covertly pursue misaligned goals
+from:: "### Motivation"
 to:: not just _whether_ change occurs.
 
 #### Question: Open
@@ -110,7 +110,7 @@ from:: Models sometimes display situational awareness
 to:: gave the answers we wanted to see.
 
 #### Article
-from:: We found that OpenAI o4-mini and OpenAI o3 explicitly
+from:: "##### Situational awareness increases with training"
 to:: realizing that it is being evaluated.
 
 #### Question: Open

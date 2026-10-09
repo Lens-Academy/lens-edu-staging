@@ -36,7 +36,7 @@ from:: As a consequence, MIRI doesn’t see any viable quick fixes or workaround
 to:: explores the hazards of using unaligned AI to do work as complex as alignment research.
 
 #### Article
-from:: If anyone builds ASI, everyone dies.
+from:: "### **5\. Catastrophe can be averted via a sufficiently aggressive policy response.**"
 to:: and tight control over the factors of its production.
 
 #### Question: Open

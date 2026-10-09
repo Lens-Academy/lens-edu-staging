@@ -52,11 +52,11 @@ Criticisms are not the only arguments that deserve scrutiny. Here is how Google 
 
 #### Article
 source:: [[../articles/shah-google-deepmind-an-approach-to-technical-agi-safety-and-security]]
-from:: Our approach has two lines of defense.
+from:: "## **Misalignment**"
 to:: since it stands to benefit from increasing AI capabilities.
 
 #### Article
-from:: While amplified oversight and robust training could be a sufficient solution in principle
+from:: "### _**Defending against a misaligned model**_"
 to:: Other relevant techniques include sandboxing and hardening the environments in which AI systems act.
 
 #### Question: Open
