@@ -10,6 +10,7 @@ id:: ad19bb9d-1f42-48c2-ae70-2fe8636035a0
 tldr:: Two rivals sign a deal to slow down AI. Neither trusts the other. This course is about how each could still check that the other kept its word, and it takes you as far as the first evidence stream: hardware.
 summary_for_tutor:: Orientation page before Week 1. Learner reads what the course asks of them each week, that this is the first of two courses on the same curriculum with a separate capstone course after them, and that the course is based on XLab's open-source verification curriculum. Do not teach later content in detail; if asked, point to the week that covers it, or say that cloud, intelligence, human mechanisms and covert development belong to the second course.
 reading_minutes:: 3
+tutor_minutes:: 0
 #### Text
 content::
 \## What this course is about

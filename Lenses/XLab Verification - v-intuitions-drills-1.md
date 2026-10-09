@@ -3,7 +3,8 @@ id: 'd274604f-c1e4-4538-ad50-dde3c49a6d66'
 title: "Primer Practice: Inspection, Commitment, and Logic"
 tldr: "Commit an answer, read the explanation, and continue through six ungraded checks."
 summary_for_tutor: "Six ungraded primer drills. Preserve all choices and explanations. Ask learner to commit before revealing each explanation; do not assign a score."
-duration_minutes: 6
+reading_minutes: 4
+tutor_minutes: 12
 tags: [wip]
 ---
 #### Text
