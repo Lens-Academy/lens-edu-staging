@@ -4,7 +4,8 @@ title: "Done, and the showcase"
 tldr: "Done is not perfect. Done is: usable by the named reader, with every gap labelled and every number sourced or shown. Run the checklist for your deliverable type, submit, write the limitations and the ten-more-hours note, and prepare three minutes for the showcase."
 summary_for_tutor: "Lens Academy scaffolding for XLab's capstone; not XLab source material. Final week. Sequence: what done means in general, then a checklist per deliverable type matching the bank's type labels (spec, analysis, design, dossier, memo, notebook), then the three parts every submission carries (limitations, sources, ten more hours), the showcase format, and five questions: checklist self-check, final submission with abstract, limitations and ten more hours, showcase outline, and a look back at the week 2 proposal. The facilitator reads the submission; the showcase is meeting 5. Help the learner finish rather than extend: if they want to add a section in the last two hours, ask whether the reader needs it more than the labelled gap. For the abstract, insist it is written for the named reader and leads with the answer. For the look-back, draw out what they learned about scoping, in their own words; do not supply the lesson. The checklists are Lens Academy's own guidance, not a standard from the field; say so if asked."
 tags: [wip]
-duration_minutes: 45
+reading_minutes: 5
+tutor_minutes: 40
 ---
 #### Text
 content::

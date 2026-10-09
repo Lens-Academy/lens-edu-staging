@@ -4,7 +4,8 @@ title: "Congratulations"
 tldr: "You have finished the most complete verification curriculum there is. Two things remain: tell us what you would work on next and what the course should do better, then pick the door out: a residency, a fellowship, a placement, or the listing where everything else lives."
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Closing page of the course: a congratulation, a link to the course feedback form, and five off-site opportunities (Frontier AI Security Residency, MATS, GovAI Fellowships, Horizon Fellowship, aisafety.com listing) with one-line descriptions. No questions. If the learner asks which opportunity fits them, ask about their background (technical, policy, or both) and time horizon, and point at the matching card; deadlines and cohorts change, so send them to the listing for current status."
 tags: [wip]
-duration_minutes: 15
+reading_minutes: 15
+tutor_minutes: 0
 ---
 #### Text
 content::
