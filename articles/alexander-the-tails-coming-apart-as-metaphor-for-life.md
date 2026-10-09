@@ -2,6 +2,8 @@
 title: "The Tails Coming Apart As Metaphor For Life"
 author:
   - "Scott Alexander"
+author_url:
+  - "https://www.astralcodexten.com/"
 source_url: "https://www.lesswrong.com/posts/asmZvCPHcB4SkSCMW/the-tails-coming-apart-as-metaphor-for-life"
 published: 2018-09-25
 created: 2026-09-15
