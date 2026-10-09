@@ -3,6 +3,8 @@ title: "AI for AI safety"
 source_url: "https://www.alignmentforum.org/posts/F3j4xqpxjxgQD3xXh/ai-for-ai-safety"
 author:
   - "Joe Carlsmith"
+author_url:
+  - "https://joecarlsmith.com/"
 published: 2025-03-14
 created: 2026-02-27
 description: "We should try extremely hard to use AI labor to help address the alignment problem."
