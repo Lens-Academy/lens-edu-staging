@@ -101,8 +101,6 @@ Each route rests on premises. Some of them, with who doubts and who defends them
 3\. What could someone observe in the next few years that would raise or lower your confidence in it?
 4\. If you still have time: if this premise fails, which routes are left?
 
-Ending more confident or less confident is fine.
-
 
 Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
