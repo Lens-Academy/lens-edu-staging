@@ -193,7 +193,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 2. Name the new format (small breakout rooms of 3, new people each time, and a five-minute get-together after each room where anyone can share what their group landed on)
 3. Tell them the doc is in the chat + Discord and to open it + check they can type
 4. Run through the arc
-    - introductions, a ground rule and everyone's gut view → control versus alignment through the insider analogy, and a first criticism → which model each setup trusts, then playing the red team → buddies, planning, feedback
+    - introductions and everyone's gut view → control versus alignment through the insider analogy, and a first criticism → which model each setup trusts, then playing the red team → buddies, planning, feedback
     - say the meeting will take 90 min
 5. Inform participants that you will be jumping between rooms with your camera turned off to listen in and they can ask questions whenever you join
 6. Start room 1
