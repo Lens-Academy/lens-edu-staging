@@ -6,4 +6,4 @@ reading_minutes: 6
 ---
 
 #### Article
-source:: [[../articles/j-nus-how-information-flows-through-transformers]]
+source:: [[../articles/janus-how-information-flows-through-transformers]]
