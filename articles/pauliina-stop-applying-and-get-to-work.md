@@ -3,6 +3,9 @@ title: "Stop Applying And Get To Work"
 author:
   - "Pauliina"
   - "plex"
+author_url:
+  - "https://www.lesswrong.com/users/pauliina"
+  - "https://www.lesswrong.com/users/ete"
 source_url: "https://www.lesswrong.com/posts/ey2kjkgvnxK3Bhman/stop-applying-and-get-to-work"
 published: 2025-11-23
 created: 2026-09-15
