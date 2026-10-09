@@ -13,10 +13,6 @@ Greenblatt's list was written from inside Redwood. This one comes from a funder:
 #### Article
 source:: [[../articles/stastny-research-areas-in-ai-control-the-alignment-project-by-uk-aisi]]
 from:: **Problem statement:**
-to:: addressing different parts of the research agenda.
-
-#### Article
-from:: **Problem summary:** We are interested in research on concentrated failure
 to:: potentially leading to rogue internal deployments or weight exfiltration
 
 #### Article
