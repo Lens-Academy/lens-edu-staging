@@ -4,7 +4,8 @@ title: "From a chip to a trusted statement"
 tldr: "A valid signature proves that a key signed some claims, nothing more. Follow the chain from measurement component to treaty response, learn the minimum attestation vocabulary, see what NVIDIA's shipping GPU attestation does and does not attest, and then dissect one trust chain yourself."
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading on RATS roles (Attester, Verifier, Relying Party), the minimum vocabulary, NVIDIA's deployed attestation chain and its multi-GPU limits, what a signature does not establish, and how the adversary profile changes assurance. Ends with the trust-chain autopsy open question (nine items). Use NVIDIA's architecture diagram in the reading for the trust-chain autopsy. Grade for naming a concrete owner of each link and one common-mode failure."
 tags: [wip]
-duration_minutes: 25
+reading_minutes: 21
+tutor_minutes: 18
 ---
 #### Text
 content::
