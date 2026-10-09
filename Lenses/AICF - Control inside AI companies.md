@@ -1,23 +1,16 @@
 ---
 id: 'd672123c-00bd-48bc-9d32-6056802d2f62'
 title: "Control inside AI companies"
-tldr: "By 2026 control was no longer only a research topic. AI companies run monitors over their own coding agents, and outside groups test those monitors. A Redwood researcher describes what is already running, Google DeepMind describes its plan, and a UK government team reports what it found when it attacked company monitors."
+tldr: "By 2026 control was no longer only a research topic. AI companies run monitors over their own coding agents, and outside groups test those monitors. Google DeepMind describes how its plan grows with model capability, and a UK government team reports what it found when it attacked company monitors."
 summary_for_tutor: "Field part of Unit 2 of AI Control Fundamentals. Three sources. (1) Aryan Bhatt's FAR.AI talk 'The high stakes control roadmap: now to the singularity', 4:53 to 10:44. Bhatt leads Redwood's high-stakes control team. The lens intro mentions that earlier in the talk he covered the companies' published plans (frontier safety frameworks, risk reports, third-party review of them), but the learner does not watch that part. The excerpt covers what companies actually run (asynchronous chain-of-thought monitors at OpenAI and Anthropic that escalate to human review, some real-time monitoring, capability evaluations, standard cybersecurity, humans noticing what agents do, sandboxing), outside evaluation (static monitor benchmarks, automated and human red-teaming, METR's embedded red-teaming and reports), and his view that near-term catastrophic risk from misalignment is quite low mostly because current AIs are not capable enough, while current techniques may not suffice later. (2) The section 'Scaling security as AI gets smarter' of Google DeepMind's blog post 'Securing the future of AI agents' (June 2026), summarising its AI Control Roadmap: today it monitors visible chain of thought, but models that know they are monitored or reason without visible text will need behaviour analysis and inspection of internals. Asynchronous review for low-risk reversible actions and real-time blocking for high-risk ones. Detection levels D1 to D4 and response levels R1 to R3 tied to model capability. The learner read the first half of this post in Unit 1 (agents treated as potential insider threats, trusted AI supervisors, the three metrics coverage, recall and time-to-response, and the prototype monitor over a million coding-agent tasks), and OpenAI's internal monitoring post. (3) The opening and the section 'Our evaluations of frontier control monitors' of the UK AI Security Institute's blog post 'How our Control Red Team is stress-testing frontier monitors' (July 2026): developers already deploy agents under LLM monitors, AISI's new Control Red Team attacks those monitors, it tested Google DeepMind's asynchronous reasoning monitor (reviewing reasoning after the agent acts) and found several vulnerabilities, including an agent pretending to hallucinate a user instruction, and it tested successive versions of Anthropic's synchronous internal agentic coding monitor (reviewing each action before it executes) and found vulnerabilities in every version. Attacks exploited gaps in monitor prompts, weaknesses in the LLM itself, and hard-coded rules that decide which actions reach the monitor. Two questions: the first is not scored, the second (two outside checks, and what testing against deliberate attacks shows that a company's record of flags cannot) is scored. The first connects Google DeepMind's severity-based rule to the unit's high-stakes and low-stakes distinction. Any reasoned answer is fine."
 reading_minutes: 12
 tutor_minutes: 9
 ---
 #### Text
 content::
-In this six-minute part of a talk, Aryan Bhatt, who leads the high-stakes control team at Redwood Research, describes what AI companies already run, how people outside the companies check it, and how much risk he thinks there is today. Earlier in the talk he went through the companies' published safety policies (Anthropic's RSP, Google DeepMind's Frontier Safety Framework, OpenAI's Preparedness Framework), which include risk reports and third-party review of them.
+By 2026, control was no longer only a research topic. In Unit 1 you saw that Google DeepMind and OpenAI run monitors over their own coding agents. This lesson looks at two sides of that work: how a company plans to grow its defences, and how people outside the company test them.
 
-#### Video
-source:: [[../video_transcripts/far-ai-aryan-bhatt-the-high-stakes-control-roadmap-now-to-the-singularity]]
-from:: 4:53
-to:: 10:44
-
-#### Text
-content::
-Next, one AI company's own account. In Unit 1 you read the first half of Google DeepMind's June 2026 summary of its AI Control Roadmap. Here is the part about how its defences change as models get more capable. As you read, look for where it uses the idea from the first half of this unit.
+First, one AI company's own account. In Unit 1 you read the first half of Google DeepMind's June 2026 summary of its AI Control Roadmap. Here is the part about how its defences change as models get more capable. As you read, look for where it uses the idea from the first half of this unit.
 
 #### Article
 source:: [[../articles/shah-securing-the-future-of-ai-agents]]
