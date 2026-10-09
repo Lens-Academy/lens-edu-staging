@@ -5,7 +5,7 @@ tldr: "IAEA inspectors did their job perfectly in Iraq and still missed a bomb p
 summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Three source documents, then five packet tasks: Task 5 is required, Tasks 1 to 4 optional (learner does at least one). Model answers and Baker (2023) excerpts are reveal material: share them only after the learner has answered."
 tags: [wip]
 reading_minutes: 20
-tutor_minutes: 35
+tutor_minutes: 21
 ---
 #### Text
 content::

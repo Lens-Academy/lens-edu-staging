@@ -5,7 +5,7 @@ tldr: "A global ban on fossil fuels would end emissions tomorrow and be dead by 
 summary_for_tutor: "Three exercises around the effectiveness versus feasibility frame. (1) Everything comes with a cost: a flip-card widget where the learner names a policy they believe in, flips the card to name one real cost of enforcing it, then rates how hard that was (optional and personal; the card reaches you in the widget state). (2) Scoping an anti-ASI policy: a sorting widget. The two five-rung scales and the eleven policy buckets with their historical parallels are on this page as closed callouts above the widget; in the widget the learner places every bucket on the feasibility x effectiveness plane and checks, which ticks the on-the-mark chips and draws an arrow from every other chip to the cell XLab's reference has it in (one rung off counts as close). The securitization question (coordinated halt is the design target) is asked inside the widget once the learner has checked once. (3) The module's stakeholder map memo for a hypothetical pause treaty (about 800 words, peer reviewed on XLab). Reference placements and rationales are in the closed callout below the sort; share them only after the learner has checked. The corners are settled, the middle band is contestable, so accept argued deviations."
 tags: [wip]
 reading_minutes: 30
-tutor_minutes: 30
+tutor_minutes: 25
 ---
 #### Text
 content::
