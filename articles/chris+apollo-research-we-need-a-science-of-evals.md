@@ -3,6 +3,8 @@ title: "We Need A ‘Science of Evals’"
 source_url: "https://www.apolloresearch.ai/blog/we-need-a-science-of-evals/"
 author:
   - "Chris"
+author_url:
+  - "https://www.apolloresearch.ai/"
 published: 2024-01-22
 created: 2026-02-27
 description: "In this post, we argue that if AI model evaluations (evals) want to have meaningful real-world impact, we need a “Science of Evals”, i.e. the field needs rigorous scientific processes that provide more confidence in evals methodology and results."
