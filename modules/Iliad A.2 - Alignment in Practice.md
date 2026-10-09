@@ -20,6 +20,7 @@ optional:: true
 
 # Lens: Persona selection model
 source:: [[../Lenses/marks-the-persona-selection-model-why-ai-assistants-might-behave-like-humans]]
+optional:: true
 
 # Lens: A.2.3 Post-training
 source:: [[../Lenses/Iliad A.2.3 - Post-training]]

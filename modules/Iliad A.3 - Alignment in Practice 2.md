@@ -30,6 +30,7 @@ source:: [[../Lenses/shlegeris-the-case-for-ensuring-that-powerful-ais-are-contr
 
 # Lens: AI Control: Improving Safety Despite Intentional Subversion
 source:: [[../Lenses/Iliad reading - AI Control - Improving Safety Despite Intentional Subversion]]
+optional:: true
 
 # Lens: Ctrl-Z: Controlling AI Agents via Resampling
 source:: [[../Lenses/bhatt-ctrl-z-controlling-ai-agents-via-resampling-abs]]
