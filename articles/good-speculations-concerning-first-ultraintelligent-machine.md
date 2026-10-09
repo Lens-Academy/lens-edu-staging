@@ -1,6 +1,7 @@
 ---
 title: "Speculations Concerning the First Ultraintelligent Machine"
 author: Irving John Good
+author_url: "https://en.wikipedia.org/wiki/I._J._Good"
 published: 1964
 source_url: https://flyingpenguin.com/wp-content/uploads/2022/04/good-1964-.pdf
 ---
