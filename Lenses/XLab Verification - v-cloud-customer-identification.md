@@ -61,11 +61,6 @@ to:: • Maintaining records on the provision or denial of above-threshold compu
 #### Article
 source:: [[../articles/egan-oversight-for-frontier-ai-through-a-know-your-customer-scheme-for-compute-providers]]
 from:: #### 2.2.1 Technical feasibility
-to:: Thus, the implementation of the KYC scheme would not require the compute provider to access the underlying code, data, or any system level insights, maintaining appropriate privacy standards.
-
-#### Article
-source:: [[../articles/egan-oversight-for-frontier-ai-through-a-know-your-customer-scheme-for-compute-providers]]
-from:: #### 2.2.2 Mitigating attempts to evade detection
 to:: Given the relatively small numbers of entities seeking to access significant amounts of advanced AI compute in the near term, a government enforcement team could consider undertaking their own investigations and spot checks on companies.
 
 #### Text

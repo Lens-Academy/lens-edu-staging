@@ -35,11 +35,6 @@ to:: - Continuing research into effective thresholds for compute monitoring is r
 #### Article
 source:: [[../articles/moon-strategies-and-detection-gaps-in-a-game-theoretic-model-of-compute-governance-rra3686-1]]
 from:: #### Cloud Service Provider Monitoring Strategies ^cloud-service-provider-monitoring
-to:: See the section on data transfers and cluster sizes (“Large Data Transfers and Number of Graphics Processing Units”) for a discussion of a variant of the detection game involving more than one CSP.
-
-#### Article
-source:: [[../articles/moon-strategies-and-detection-gaps-in-a-game-theoretic-model-of-compute-governance-rra3686-1]]
-from:: ### Finding Detection Gaps ^finding-detection-gaps
 to:: In this calculation, the number of accounts used by the evader is not strictly determined. Increasing the number of FLOPs per session from  $10^{22}$  to just under  $10^{23}$  will decrease the number of accounts required for training at the cost of extending the length of a session. The calculations to determine this relationship are straightforward, and we omit them.
 
 #### Article
