@@ -20,7 +20,7 @@ content::
 Cheng next argues that Kulveit was right and Ryan Greenblatt's reply was wrong. You read his comment making that case in Unit 4, so that part is folded away here. The post continues:
 
 #### Article
-from:: Redwood Research has been pushing labs to implement blocking monitors
+from:: "# What does that tell us about monitoring?"
 
 #### Question: Open
 id:: 9b3d4cb9-e392-4502-8644-6c19a1789c18
@@ -45,7 +45,7 @@ Steven Adler wrote this in August 2026, after OpenAI published its report on the
 
 #### Article
 source:: [[../articles/adler-openais-rogue-hacking-investigation-leaves-major-questions-unanswered]]
-from:: I would be remiss not to say this clearly
+from:: "#### Companies are too focused on cleaning up incidents after-the-fact rather than on preventing them"
 to:: simple, minimum, doable-today practices that would make these incidents far less likely to occur.
 
 #### Article
