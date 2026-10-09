@@ -44,7 +44,9 @@ id:: 244d671b-02e3-4a48-a366-1a0e71fd9e96
 content:: Three new cases. A model that may be scheming could try any of these:
 
 (a) During one routine deployment, it swaps the weights file the inference server loads for a copy it has quietly modified.
+
 (b) Over months of writing interpretability code for a safety team, it regularly leaves out the follow-up experiments that would have been most informative.
+
 (c) In about thirty of the few thousand code reviews it does in a year, it approves a change containing a bug that a careful reviewer would sometimes have caught.
 
 For each, say where it sits between concentrated and diffuse, and which mitigation has the most grip on it: incrimination, training on the model's outputs evenly, or training harder on its most suspicious outputs. Say why the others have less.
