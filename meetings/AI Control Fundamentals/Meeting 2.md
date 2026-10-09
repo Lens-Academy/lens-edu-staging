@@ -264,5 +264,4 @@ Chain-of-thought monitor: A monitor that reads a model's written reasoning and s
 Asynchronous review versus real-time blocking: Google DeepMind's rule: low-risk, reversible actions are reviewed after a delay, high-risk actions are blocked before they take effect.
 Control Red Team: A UK AI Security Institute team that attacks AI companies' internal monitors. In 2026 it found weaknesses in a Google DeepMind monitor and in every version of an Anthropic monitor it tested.
 METR: An outside evaluator. In early 2026 it reviewed the risks from AI agents inside Anthropic, Google, Meta and OpenAI and found gaps in monitoring coverage.
-Asynchronous review versus real-time blocking: Google DeepMind's rule: low-risk, reversible actions are reviewed after a delay, high-risk actions are blocked before they take effect.
 ControlArena: A library for running control experiments, released by the UK AI Security Institute in October 2025.
