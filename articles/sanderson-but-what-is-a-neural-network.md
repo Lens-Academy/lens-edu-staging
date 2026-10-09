@@ -3,6 +3,9 @@ title: "But what is a Neural Network?"
 author:
   - "Lesson by Grant Sanderson"
   - "Text adaptation by Josh Pullen"
+author_url:
+  - "https://en.wikipedia.org/wiki/3Blue1Brown"
+  - ""
 source_url: "https://www.3blue1brown.com/lessons/neural-networks/"
 published: 2017-10-05
 created: 2026-08-21
