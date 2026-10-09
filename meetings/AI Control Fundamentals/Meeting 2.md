@@ -243,7 +243,7 @@ style:: plain
 
 ## Glossary
 
-### Module: Unit 2: The key ideas and the field
+### Module: Unit 2: High-stakes and low-stakes threats
 
 High-stakes threat (concentrated failure): A threat where one or a few actions, or a short time, are enough to cause a catastrophe, and each bad action tends to be clearly incriminating if inspected. Suspicious actions sometimes have to be blocked until reviewed.
 Low-stakes threat (diffuse or non-concentrated failure): A threat that needs many bad actions, each only weak evidence because it could easily be an honest mistake. Low-stakes does not mean low harm, and slower review after the fact can be acceptable.
@@ -255,10 +255,14 @@ Research sabotage: An AI doing safety research and secretly making it fail, for 
 Sandbagging: Deliberately doing worse than one can, for example giving poor ideas when asked for experiment ideas.
 Online training: Training the model during deployment on a proxy for good work, such as code quality or human ratings. It does not need a guess of how an honest model's work would look, but the proxy may be poor and the model can learn to exploit it.
 Incrimination: Becoming confident from the evidence that a model is misaligned. In the low-stakes case it needs a good guess of how suspicious an honest model's work would look, which is hard to get.
+### Module: Unit 2: The AI control field
+
 Control evaluation setting: A test environment in which a red team plays the scheming model against a protocol. Greenblatt suggests about a third of current control resources go to building and using these.
 Alignment Project: The UK AI Security Institute's fund for alignment and control research, which reached £27m and named its first 60 grantees in February 2026.
 Covert malicious fine-tuning: An AI secretly training another AI to behave badly, one of the threats in the UK AI Security Institute's research areas.
 Chain-of-thought monitor: A monitor that reads a model's written reasoning and sends suspicious cases to human review. Google DeepMind says it monitors its models' visible chain of thought today, but that this will not be enough once models know they are monitored or reason without visible text.
+Asynchronous review versus real-time blocking: Google DeepMind's rule: low-risk, reversible actions are reviewed after a delay, high-risk actions are blocked before they take effect.
+Control Red Team: A UK AI Security Institute team that attacks AI companies' internal monitors. In 2026 it found weaknesses in a Google DeepMind monitor and in every version of an Anthropic monitor it tested.
 METR: An outside evaluator. In early 2026 it reviewed the risks from AI agents inside Anthropic, Google, Meta and OpenAI and found gaps in monitoring coverage.
 Asynchronous review versus real-time blocking: Google DeepMind's rule: low-risk, reversible actions are reviewed after a delay, high-risk actions are blocked before they take effect.
 ControlArena: A library for running control experiments, released by the UK AI Security Institute in October 2025.
