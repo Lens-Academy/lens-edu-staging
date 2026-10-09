@@ -4,6 +4,9 @@ source_url: "https://www.alignmentforum.org/posts/kcKrE9mzEHrdqtDpE/the-case-for
 author:
   - "Ryan Greenblatt"
   - "Buck Shlegeris"
+author_url:
+  - "https://www.lesswrong.com/users/ryan_greenblatt"
+  - "https://www.lesswrong.com/users/buck"
 published: 2024-01-24
 created: 2026-02-27
 description: "In this post, we argue that AI labs should ensure that powerful AIs are controlled. That is, labs should make sure that the safety measures they appl…"
