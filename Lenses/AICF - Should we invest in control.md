@@ -54,7 +54,7 @@ Joe Carlsmith, then a senior advisor at Open Philanthropy and not part of Redwoo
 
 #### Article
 source:: [[../articles/carlsmith-ai-for-ai-safety]]
-from:: "I also want to highlight another concept that I find useful in thinking about AI for AI safety"
+from:: "# 4\. The AI for AI safety sweet spot"
 to:: "and that AI labor can help with this."
 
 #### Article

@@ -37,7 +37,7 @@ A different kind of harm is power concentration. Tom Davidson, Lukas Finnveden a
 
 #### Article
 source:: [[../articles/forethought-ai-enabled-coups-how-a-small-group-could-use-ai-to-seize-power]]
-from:: Today, even dictators rely on others to maintain their power. Military force requires personnel
+from:: "### An AI workforce could be made singularly loyal to institutional leaders"
 to:: an unprecedentedly stable and unaccountable grip on power.
 
 #### Article
