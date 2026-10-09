@@ -5,7 +5,7 @@ tldr: "Can a verifier tell whether the declared training process really produced
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Optional technical extension: evidence for reconstructing a declared run, Shavit's decomposition, proof-of-learning and its adversarial breaks, and three claims to keep separate (declared-run correctness, declared-run completeness, fleet completeness). Ends with an optional open question allocating a verification-compute budget across seven checks. Push the learner to state which of the three claims each check addresses and which remains untested."
 tags: []
 reading_minutes: 3
-tutor_minutes: 12
+tutor_minutes: 8
 ---
 #### Text
 content::
