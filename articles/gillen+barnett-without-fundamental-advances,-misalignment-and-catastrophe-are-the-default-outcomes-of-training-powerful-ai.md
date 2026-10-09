@@ -4,6 +4,9 @@ source_url: "https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/without-fundament
 author:
   - "Jeremy Gillen"
   - "Peter Barnett"
+author_url:
+  - "https://www.lesswrong.com/users/jeremy-gillen"
+  - "https://peterbarnett.org/"
 published: 2024-01-26
 created: 2026-02-13
 description: "A pdf version of this report is available here. …"
