@@ -246,10 +246,17 @@ Transformatively useful: Capable enough to substantially reduce risk from later 
 The window: The period when AIs are very dangerous and transformatively useful but not yet too capable to control. Greenblatt and Shlegeris hope control can be used to get safety work out of AIs during it.
 Exogenous risk: Risk from AI built by other actors.
 Sharp left turn: Nate Soares's term for a sudden jump in capabilities that earlier alignment work does not carry over to.
+Sweet spot: Joe Carlsmith's term for a period when AIs are capable enough to help a lot with safety work, but cannot take over given our countermeasures. It is close to Greenblatt and Shlegeris's window.
 Treacherous turn: An AI behaving well until it can act against its developers.
+
+### Module: Unit 3: Catching AIs red-handed
+
 Catching an AI red-handed: Finding strong evidence that a model deliberately tried to do something catastrophic, such as escaping. Control counts a catch as a win.
 Catch-then-shut-down: After a catch, stop using the model, and use the evidence to argue for caution.
 Few-shot catastrophe prevention: Keep using the model after a catch, but use the few caught attempts to make further attempts fail.
+
+### Module: Unit 3: Political will and buy-in
+
 Plan A: Enough political will for a strong international agreement that mostly removes race dynamics and allows a slowdown of about 10 years.
 Plan B: The US government treats buying lead time for US AI companies as a top national security priority, so 1 to 3 years can be spent on misalignment risk.
 Plan C: No serious government involvement, but the leading AI company is willing to spend much of its lead of a few months on misalignment risk.
