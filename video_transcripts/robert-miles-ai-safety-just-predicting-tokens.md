@@ -1,6 +1,7 @@
 ---
 title: "\"Just Predicting Tokens\""
 channel: "Robert Miles AI Safety"
+channel_url: "https://www.youtube.com/@RobertMilesAI"
 url: "https://www.youtube.com/watch?v=nc8KPtnBK38"
 ---
 
