@@ -4,6 +4,9 @@ source_url: https://archive.is/blU6r
 author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
+author_url:
+  - "https://www.yudkowsky.net/"
+  - "https://www.lesswrong.com/users/so8res"
 published: 2025-09-15
 created: 2026-02-04
 description:

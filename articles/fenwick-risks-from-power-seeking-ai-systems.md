@@ -4,6 +4,10 @@ author:
   - "80,000 Hours"
   - "Cody Fenwick"
   - "Zershaaneh Qureshi"
+author_url:
+  - "https://80000hours.org/"
+  - "https://80000hours.org/author/cody-fenwick/"
+  - ""
 source_url: "https://80000hours.org/problem-profiles/loss-of-control/"
 published: 2025-07-17
 updated: 2026-08-13
