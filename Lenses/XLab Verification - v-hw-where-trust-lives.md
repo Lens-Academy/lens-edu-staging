@@ -5,7 +5,7 @@ tldr: "Moving trust does not remove it. Compare four places to put the monitor, 
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading comparing on-chip, off-chip digital, off-chip analog and hybrid architectures for one verification target, plus the confidentiality trade. Then four excerpts of Baker et al., Sections 4.1 and 4.2 with their analyses. The page text after the excerpts carries the framing the widget no longer holds: the two-subgoal decomposition, the definition of a verification layer as one of six largely independent assurances, and the Figure 2 caption. The six-layers-grid widget follows, a clickable Figure 2: the learner opens each of the six layers to read the paper summary, key advantages, key disadvantages and what the layer would require (Table 2 for Layers 1 to 3, Section 4.3 for Layers 4 to 6), or opens a subgoal to read its Section 3.2 definition. Each layer row also has an On/Off switch: switching a layer off greys and strikes out its mechanisms and updates four coverage tiles and a verdict line, so the learner can test the paper's claim that each layer is independently sufficient. Any single layer left on still covers all four subgoals; only switching every layer off loses coverage. The status line counts layers opened and layers switched on, and the widget is done once all six layers have been opened and at least one has been switched off. Ends with the bilateral pilot review open question (eight items for each of two designs, then a pilot choice). Insist on counting independent failure modes, not mechanism names, and on a pilot rather than universal deployment."
 tags: [wip]
 reading_minutes: 37
-tutor_minutes: 30
+tutor_minutes: 20
 ---
 #### Text
 content::

@@ -5,7 +5,7 @@ tldr: "An off-switch for someone else's compute is only as acceptable as the ans
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading on offline licensing, the twelve questions a policy designer must answer, Petrie's 2024 firmware-based design (author estimate, not deployment evidence), and why control authority is part of the mechanism. Ends with the build-the-authorization-chain open question. Check that the learner distinguishes components that measure from components that only authenticate, and names the common-mode failure if the manufacturer's root key is compromised. A license widget sits after the offline licensing excerpt: the learner edits or re-signs the four fields of the example license from the paper and sees which of the chip's three defenses rejects it, in the paper's own words."
 tags: []
 reading_minutes: 11
-tutor_minutes: 18
+tutor_minutes: 12
 ---
 #### Text
 content::
