@@ -36,7 +36,9 @@ content::
 Three pieces of control work:
 
 (a) A PhD student measures how well current models can tell a real deployment task from a synthetic test made to look real.
+
 (b) A team builds the system that records every action of a company's internal AI agents, so that monitors and human reviewers can see them.
+
 (c) An AI company publishes a report on the risks from its own internal agents. A team reads it, checks its claims against information the company shares privately, and publishes its own verdict on the report.
 
 For each: which research area does it belong to? What access to AI developers' systems, or independence from them, does it need? So which kind of organisation is placed to do it? Give a real example of such an organisation where you can.
