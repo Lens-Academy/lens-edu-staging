@@ -10,11 +10,11 @@ author:
   - "Tom Everitt"
 author_url:
   - "https://www.lesswrong.com/users/zac-kenton"
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
+  - "https://www.lesswrong.com/users/ramana-kumar"
+  - "https://sebastianfarquhar.com"
+  - "https://www.lesswrong.com/users/jonathan-richens"
+  - "https://mattmacdermott.com/"
+  - "https://www.tomeveritt.se/"
 published: 2022-08-17
 created: 2026-02-19
 description: "We want to build safe, aligned artificial general intelligence (AGI) systems that pursue the intended goals of its designers. Causal influence diagrams (CIDs) are a way to model decision-making situa…"
