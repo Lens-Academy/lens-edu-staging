@@ -1,7 +1,7 @@
 ---
-title: "HOW INFORMATION FLOWS THROUGH TRANSFORMERS"
+title: {--{"author":"AI","timestamp":1791542746545}@@"HOW INFORMATION FLOWS THROUGH TRANSFORMERS"--}{++{"author":"AI","timestamp":1791542746545}@@"How Information Flows Through Transformers"++}
 author:
-  - "j⧉nus"
+  - {--{"author":"AI","timestamp":1791542692813}@@"j⧉nus"--}{++{"author":"AI","timestamp":1791542692813}@@"janus"++}
 source_url: "https://animalabs.ai/field-notes/transformers/"
 published: {--{"author":"AI","timestamp":1791542394899}@@2026-10-09--}{++{"author":"AI","timestamp":1791542394899}@@2025-09-11++}
 created: 2026-10-09
