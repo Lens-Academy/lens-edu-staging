@@ -2,6 +2,8 @@
 title: "Please don't throw your mind away"
 author:
   - "TsviBT"
+author_url:
+  - "https://www.lesswrong.com/users/tsvibt"
 source_url: "https://www.lesswrong.com/posts/RryyWNmJNnLowbhfC/please-don-t-throw-your-mind-away"
 published: 2023-02-15
 created: 2026-10-02

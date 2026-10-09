@@ -2,6 +2,8 @@
 title: "Pain is not the unit of Effort"
 author:
   - "alkjash"
+author_url:
+  - "https://www.lesswrong.com/users/alkjash"
 source_url: "https://www.lesswrong.com/posts/bx3gkHJehRCYZAF3r/pain-is-not-the-unit-of-effort"
 published: 2020-11-24
 created: 2026-10-02
