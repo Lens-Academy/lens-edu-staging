@@ -131,10 +131,6 @@ to:: "victory and not ours."
 
 #### Article
 from:: "“Gnon” is [Nick Land"
-to:: "vampires to sunlight."
-
-#### Article
-from:: "Land argues that humans"
 to:: "Gnon-intentional)."
 
 #### Article
@@ -155,10 +151,6 @@ to:: "is to capture Gnon."
 
 #### Article
 from:: "Gotcha! You die anyway"
-to:: "Gotcha! You die anyway!"
-
-#### Article
-from:: "Suppose you make your"
 to:: "existential catastrophes."
 
 #### Article
@@ -171,10 +163,6 @@ to:: "want to rule the universe."
 
 #### Article
 from:: "But the current rulers"
-to:: "pretty high priority."
-
-#### Article
-from:: "The opposite of a trap is a garden. The only way"
 to:: "unconstrained by natural law."
 
 #### Article
