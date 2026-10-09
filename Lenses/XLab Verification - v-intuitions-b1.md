@@ -3,7 +3,8 @@ id: '83491b96-6c8a-4109-a14e-1b66b73eb028'
 title: "Option B: Compare Plan A and Plan S"
 tldr: "Compare the two plans' verification targets, evidence, monitoring burdens, and political cooperation, then defend a recommendation."
 summary_for_tutor: "One optional essay route. Complete B1–B4 as preparatory responses, then B5 as the final essay in this same lens. Final essay is intended for peer review. Grade reasoning, not agreement with the source."
-duration_minutes: 110
+reading_minutes: 15
+tutor_minutes: 85
 tags: [wip]
 add_to_ai_context:
   - "[[../articles/dean-ai-2040-verification-plan]]"
