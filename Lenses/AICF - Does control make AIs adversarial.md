@@ -12,7 +12,7 @@ A different worry: writing about AIs as adversaries to be watched and contained 
 
 #### Article
 source:: [[../articles/gusev-investigating-self-fulfilling-misalignment-and-collusion-in-ai-control]]
-from:: Does training on AI control literature induce more misaligned models
+from:: "## **TL;DR**"
 to:: but it was brittle and confounded by eval-awareness.
 
 #### Article
