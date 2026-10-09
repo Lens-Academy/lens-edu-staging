@@ -42,7 +42,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-A bank limits what one trader can do and audits trades, so it stays safe even if someone is not trustworthy. That is control. Making sure people are trustworthy in the first place is closer to alignment.
+A bank limits what one trader can do and audits trades, so it stays safe even if someone is not trustworthy. That is control. Making sure people are trustworthy is closer to alignment.
 
 1. Pick one organisation someone in your group knows from the inside. Examples:
     - a hospital
@@ -52,7 +52,7 @@ A bank limits what one trader can do and audits trades, so it stays safe even if
     - a university lab
 2. List its checks that people are trustworthy, and its limits that hold even if someone is not.
 3. Now the insider is an AI model that might be secretly working against you and behaves well whenever it might be tested. Which items still work?
-4. Jan Kulveit, a critic of control, argues two things:
+4. Jan Kulveit, a critic of control, argues:
     - Without control, many attempts by a misaligned AI would still be stopped by other means, after visible damage that pushes the world to act.
     - With control, the AI company catches them inside the company and describes them only vaguely, so they rarely lead to serious action.
     Think of a scandal in your organisation's field that changed the rules. Would the rules have changed if the organisation had stopped it quietly?
