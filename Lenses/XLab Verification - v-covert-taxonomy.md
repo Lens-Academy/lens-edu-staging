@@ -4,7 +4,8 @@ title: "Evasion scenario taxonomy"
 tldr: "Ten routes around an AI agreement, each with the layers it targets and the people it needs. Learn them as moves rather than as a list: a realistic scheme is one primary route plus several supporting tactics, and naming which is which is most of the analysis."
 summary_for_tutor: "XLab's unit 3.1.1, restored from git history: the ten-route evasion taxonomy table, with the primary layers each route targets and the actors each needs. This is the before-the-case version, so the instruction is to identify the move, the channel and the actors, and NOT to rank the routes; the scored version, with technical feasibility, organizational feasibility, verification effectiveness and durability, comes after the red-team exercise in the last lens of this module. One open question is a Lens addition: it asks the learner to decompose the Training Through the Pause scenario from the module opener into one primary route plus supporting tactics. Two defensible primaries there, route 7 and route 5; what is graded is whether the decomposition is coherent, not which primary is chosen."
 tags: [wip]
-duration_minutes: 15
+reading_minutes: 5
+tutor_minutes: 10
 authors:
   - Elias+Claude
 ---

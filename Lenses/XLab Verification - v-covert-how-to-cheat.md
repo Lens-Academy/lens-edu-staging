@@ -4,7 +4,8 @@ title: "How could a determined actor cheat?"
 tldr: "A capable actor will not attack a mechanism on its own terms. It will go around it. Before you can detect cheating you have to define it, and before you trust a layered defence you have to check that its layers fail in different ways. The A. Q. Khan network is the archetype, and the nuclear verification stack is the template."
 summary_for_tutor: "XLab's unit 3.1, restored from git history. Three moves. First, that defining what counts as cheating comes before detecting it: a compute cap, a declaration requirement, a research ban and a model-security obligation create different evasion opportunities, and the same activity can be prohibited under one agreement and permitted under another. Second, the supplier-chokepoint story: the Nuclear Suppliers Group as governance of a narrow upstream, and the A. Q. Khan network as the proxy route around it, which is why beneficial-ownership checks and reseller-chain analysis matter. Third, the Swiss-cheese model, correctly stated: the point is not more evidence but layers that rely on different information, actors and access assumptions, illustrated by a seven-row nuclear and arms-control stack with AI analogues. Two questions are Lens additions, one graded choice on the Swiss-cheese principle and one open question on what Iraq, South Africa and Krasnoyarsk each show. The ten-route taxonomy lives in the next lens."
 tags: [wip]
-duration_minutes: 20
+reading_minutes: 9
+tutor_minutes: 11
 authors:
   - Elias+Claude
 ---
