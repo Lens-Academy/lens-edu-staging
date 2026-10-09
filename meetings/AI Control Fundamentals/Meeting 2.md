@@ -58,13 +58,13 @@ Four AI agents, each maybe working against their company:
 
 1\. Sort each case: high-stakes, low-stakes, or in between?
 2\. Pick the case your group disagreed on most. What would move it to the other side?
-3\. Take one case from each side. Stop its actions until checked, or review a week later?
+3\. Take one case from each side. Would you stop its actions until checked, review them a week later, or train the agent against a quality score across all its work?
 4\. If you still have time: Google DeepMind plans to block high-risk actions at once and review low-risk ones later. Does that match your sorting?
 
 Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
-| Names | Your sorting + the case you disagreed on + block or review later |
+| Names | Your sorting + the case you disagreed on + stop, review later or train |
 |------|------------------------|
 |  |  |
 |  |  |
