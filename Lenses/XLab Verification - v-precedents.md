@@ -23,11 +23,6 @@ International Atomic Energy Agency (2024)
 #### Article
 source:: [[../articles/grossi-iaea-safeguards-serving-nuclear-non-proliferation]]
 from:: Preventing the spread of nuclear weapons is a complex task.
-to:: facilities and other items subject to safeguards are used only for peaceful purposes.
-
-#### Article
-source:: [[../articles/grossi-iaea-safeguards-serving-nuclear-non-proliferation]]
-from:: ### What are IAEA safeguards?
 to:: to place all of their nuclear material and activities under IAEA safeguards and to allow the IAEA to verify their commitments.
 
 #### Article
