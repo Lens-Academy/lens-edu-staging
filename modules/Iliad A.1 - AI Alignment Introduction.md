@@ -28,6 +28,7 @@ optional:: true
 
 # Lens: Corrigibility
 source:: [[../Lenses/lesswrong-corrigibility]]
+optional:: true
 
 # Submodule: A.1 Session 2: Alignment problem decompositions
 
@@ -92,9 +93,11 @@ source:: [[../Lenses/Iliad A.1.6 - Session 6 - Hugging Face as a misalignment ca
 
 # Lens: Hugging Face's disclosure
 source:: [[../Lenses/system-security-incident-disclosure-july-2026]]
+optional:: true
 
 # Lens: Hugging Face technical timeline
 source:: [[../Lenses/larcher-anatomy-of-a-frontier-lab-agent-intrusion-a-technical-timeline-of-the-july-2026-incident]]
+optional:: true
 
 # Lens: OpenAI's August investigation
 source:: [[../Lenses/openai-the-hugging-face-incident-and-the-road-ahead]]
