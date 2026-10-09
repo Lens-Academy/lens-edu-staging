@@ -127,7 +127,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-1\. Next unit: the main criticisms of control, in the critics' own words, each with replies from people who work on control, then practice sorting and answering them. About 3.5 to 4 hours. What is most likely to stop you finishing it?
+1\. Next unit: the main criticisms of control, in the critics' own words, each with replies from people who work on control, and how control could backfire. You practise sorting and answering criticisms. About 4 hours. What is most likely to stop you finishing it?
 2\. What is your plan to prevent that? (Send the plan to your accountability buddy today.)
 3\. Feedback: what would make the course and this meeting better?
 
@@ -145,7 +145,7 @@ One or two people share what their group landed on.
 Back in the main room, share if you feel like it: one thing you're glad you know now that you didn't know 90 minutes ago.
 Before you leave (your navigator will talk through these):
 
-- Next unit: Criticisms of control. The main criticisms in the critics' own words, each with replies from people who work on control, then practice sorting and answering them. About 3.5 to 4 hours.
+- Next unit: Criticisms of control. The main criticisms in the critics' own words, each with replies from people who work on control, and how control could backfire. You practise sorting and answering criticisms. About 4 hours.
 - Send your plan for the next unit to your accountability buddy today.
 - Found something unclear, wrong, or missing in this unit? Tell us on the Unit 3 feedback page in the course.
 
@@ -208,7 +208,7 @@ source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
 
 
 1. Ask for "one thing I'm taking away" from anyone who wants it (~10 sec each; a few voices is plenty, people have already shared between rooms).
-2. **Next-unit heads-up: reading is Unit 4, Criticisms of control (the main criticisms in the critics' own words, each with replies from people who work on control, then practice sorting and answering them, about 3.5 to 4 hours). Remind them to send their Room 4 plan to their accountability buddy today, and that the Unit 3 feedback page is in the course.**
+2. **Next-unit heads-up: reading is Unit 4, Criticisms of control (John Wentworth, Oliver Habryka and MIRI on why control may not work or not be worth it, recent stress-tests of control protocols, Jan Kulveit's warning-shot argument revisited, safety-washing, whether control makes AIs more adversarial, and practice sorting criticisms and tracing how a control measure could backfire, about 4 hours). Remind them to send their Room 4 plan to their accountability buddy today, and that the Unit 3 feedback page is in the course.**
 3. **End on time.** Then say the meeting **stays open** for anyone who wants to keep talking; stay and facilitate, or say goodbye and leave (they can keep going without you).
 
 
