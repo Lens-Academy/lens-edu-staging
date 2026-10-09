@@ -18,6 +18,7 @@ content::
 
 Spend **25 minutes** reading the following texts. Pick one most interesting to you. 
 
+:::require_x_optional_lenses{x=1}
 ::card[[../Lenses/yudkowsky-coherent-extrapolated-volition|Coherent extrapolated volition]]
 
 > Most important: The first 2.5 pages in Section 3.
