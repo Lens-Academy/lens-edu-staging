@@ -80,6 +80,7 @@ source:: [[../Lenses/alexander-nicholas-decker-in-hell]]
 # Lens: Nearest unblocked strategy
 id:: 6f199d23-fab0-4c65-94fd-6f8dd30d9079
 optional:: true
+reading_minutes:: 1
 #### Article
 source:: [[../articles/lesswrong-nearest-unblocked-strategy]]
 from:: "'Nearest unblocked strategy' seems like it should be a"
