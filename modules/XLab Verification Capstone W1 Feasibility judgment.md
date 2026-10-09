@@ -19,7 +19,8 @@ source:: [[../Lenses/XLab Verification - v-research-tips]]
 id:: 4d4f4144-3a08-4056-9932-5c8a8b447b6c
 tldr:: Meeting 1 is abt youfor defended-ranking memo: you present the portfolio you recommended, and the group looks for the blind spot you did not name. Bring the memo and one mechanism you rated differently from the reference map.
 summary_for_tutor:: A short note before the first meeting of the capstone course; no questions. The learner has written the defended-ranking memo in the feasibility lens and read the research tips. If they ask what to prepare, point at the two items below and at their own memo; do not summarise the memo for them or re-teach the four feasibility metrics. If they ask about choosing a brief, say the bank and sign-up open next week and that reading the research tips' advice on action-relevant questions is the best preparation.
-duration_minutes:: 5
+reading_minutes:: 10
+tutor_minutes:: 0
 #### Text
 content::
 \## Before meeting 1

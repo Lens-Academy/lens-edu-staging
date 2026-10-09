@@ -10,7 +10,8 @@ tags: [wip]
 id:: ebc83cc4-bae4-46c7-905c-e8aab484458f
 tldr:: One taught week that ends in a defended feasibility ranking, then four weeks on one piece of real technical AI governance work. You pick a brief from XLab's capstone bank or propose your own, scope it, build a crappy version, hand a draft to a peer, revise, and show the finished thing to your group.
 summary_for_tutor:: Orientation page for the capstone course. The learner reads what the course asks (a taught first week on feasibility judgment, then a 10 to 22 hour capstone from XLab's bank across weeks 2 to 5), the weekly load assumption, the five milestones and what each meeting is for, and that the material is an alpha from XLab with a feedback form. Prerequisites are the two taught Compute Verification courses. Do not help choose a brief here; the bank and sign-up are in week 2. If asked about load, be honest: about 3.5 hours in week 1 and about 4.5 hours a week in the project weeks, plus a 90-minute meeting; the bank's median brief (about 16 hours) needs a little more than that, or a partner.
-duration_minutes:: 10
+reading_minutes:: 5
+tutor_minutes:: 0
 #### Text
 content::
 \## What this course is
@@ -67,7 +68,8 @@ Week 1 has drill questions with answers; nothing in the project weeks is scored.
 id:: 36da2d0c-01d3-40dc-9d4b-ca2abe9d9e3e
 tldr:: A short form about you and the project you are about to take on. Five minutes. Your facilitator uses it to pair review partners and to spot briefs that need a mentor before anyone is committed.
 summary_for_tutor:: A project-intake form, not teaching material. If the learner asks about a question, explain what it asks for and why the facilitator needs it; do not answer it for them, and do not speculate about how answers affect pairing or anything else.
-duration_minutes:: 5
+reading_minutes:: 1
+tutor_minutes:: 4
 #### Text
 content::
 \## Before you start
