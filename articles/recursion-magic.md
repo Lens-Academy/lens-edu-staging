@@ -3,6 +3,8 @@ title: "...Recursion, Magic"
 source_url: https://www.lesswrong.com/posts/rJLviHqJMTy8WQkow/recursion-magic
 author:
   - "Eliezer Yudkowsky"
+author_url:
+  - "https://www.yudkowsky.net/"
 published: 2008-11-25
 llm-review:
   date: 2026-08-28
