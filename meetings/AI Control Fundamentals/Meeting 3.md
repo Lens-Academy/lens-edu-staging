@@ -232,14 +232,14 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 **Room 1, Your first guess.** The guess was the open question in the unit's welcome page, so people who stopped early still have one. If someone skipped it, a guess made now is fine. Take guesses without correcting them. A guess that is "it stops the AI" is the most common starting point and a useful contrast for Room 2.
 **Room 2, Which routes still work with little political will?** Get each person onto a route in the first two minutes. For your own use only, not an answer key, here is what the readings say. Greenblatt keeps some control until handoff in Plans A to C, but says organisation-wide control "should be mostly given up on" in Plan D, apart from measures that stop AIs gaining more permissions or access. Shlegeris's ten-people post is written for a Plan D company and argues cheap measures still matter there. Groups that notice this tension have found something real. Shutting down after a catch needs at least a willing leadership. Using a catch to make later attempts fail can be done by a safety team alone. The window's length depends on how much delay can be bought, which needs governments. A deployment condition needs a regulator or a willing company. Accept other mappings with reasons. Protect time for ask 3.
 **Room 3, The weakest premise.** Push groups to pick within three minutes. Ask 2 needs one person to argue the premise honestly, not as a straw man. Point them to the reading's own defenders if they get stuck (Davidson for the catch, the authors' view that holding off uncontrollable AI for "at least several years" is plausible, for the window, Shlegeris's original post for the insiders). Observations must be things someone could see, for example how a company responds to a real misbehaviour incident, or whether safety teams at less careful companies keep monitoring running. "More research" is not an observation. A group that ends more confident is as successful as one that ends less.
-**Room 4, Next unit, feedback.** Unit 4 is about the same length as this one. Push for a concrete plan (when, where, how much at a time), not a promise.
+**Room 4, Next unit, feedback.** Unit 4 is a little longer than this one, about 4 hours. Push for a concrete plan (when, where, how much at a time), not a promise.
 
 # Tab: Glossary
 style:: plain
 
 ## Glossary
 
-### Module: Unit 3: Why people work on control
+### Module: Unit 3: Using AI while it can still be controlled
 
 Theory of change: The routes by which work on control is supposed to make an AI catastrophe less likely, and what each route needs in order to work.
 Political will: How much AI companies and governments want to act on AI risk. The unit asks how much each route of control depends on it.
