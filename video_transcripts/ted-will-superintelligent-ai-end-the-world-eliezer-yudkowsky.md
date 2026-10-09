@@ -1,7 +1,7 @@
 ---
 title: "Will Superintelligent AI End the World?"
 channel: "TED"
-author_url: "https://www.ted.com/talks/eliezer_yudkowsky_will_superintelligent_ai_end_the_world"
+channel_url: "https://www.ted.com/talks/eliezer_yudkowsky_will_superintelligent_ai_end_the_world"
 url: "https://www.youtube.com/watch?v=Yd0yQ9yxSYY"
 ---
 
