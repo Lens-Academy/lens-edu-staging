@@ -245,7 +245,7 @@ style:: plain
 AI control: Asks whether, if we cannot be sure a model is not secretly working against us, we can still use it and make sure it cannot cause a catastrophe.
 Alignment: Trying to make an AI model want what we want, so that it is not working against us in the first place.
 
-### Module: Unit 1: What control is
+### Module: What control is
 
 Untrusted model: A model capable enough that it might be secretly working against us, so we cannot count on it behaving well.
 Trusted model: A model we are confident is not working against us, in practice because it is too weak to do so effectively. Its work is honest but worse than the untrusted model's.
