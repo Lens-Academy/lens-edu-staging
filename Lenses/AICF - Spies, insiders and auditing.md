@@ -43,7 +43,7 @@ collapse:: closed
 #### Article
 optional:: true
 source:: [[../articles/controlarena-intro-to-control]]
-from:: ### Control Protocols
+from:: "## Core Concepts of AI Control"
 to:: We want to benefit from the untrusted model’s superior capabilities while using the trusted model and high-quality human labour strategically to ensure safety.
 #### End Callout
 
