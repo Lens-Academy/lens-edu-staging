@@ -24,9 +24,9 @@ A friend follows the argument of an AI takeover to a point. They accept that a s
 Explain why the reasoning that predicts the takeover also predicts what follows it. In your answer, be specific about what would have to be true for the expansion to stop.
 
 assessment-instructions::
-Score according to the following rubric.
+Score {--{"author":"Andreas's AI","timestamp":1791581405184}@@according to --}{++{"author":"Andreas's AI","timestamp":1791581405184}@@out of 100. Pick the level that best describes the answer as a whole, then a score inside that level's range: near the top if the answer fully reaches the level, near the bottom if it only just does. Judge what the answer shows the learner understands, not only what it spells out: a correct extension that depends on a point shows that point is understood, even if ++}the {--{"author":"Andreas's AI","timestamp":1791581405184}@@following rubric.--}{++{"author":"Andreas's AI","timestamp":1791581405184}@@answer states it briefly. An extension shows nothing about points it does not depend on.++}
 
-**1** — Treats the aftermath as unknowable, or answers with imagery rather than reasoning. *Example: "Nobody can say what a superintelligence would want. Maybe it would get bored, maybe it would leave."*
+{--{"author":"Andreas's AI","timestamp":1791581405184}@@**1** —--}{++{"author":"Andreas's AI","timestamp":1791581405184}@@**Level 1 (0-20):**++} Treats the aftermath as unknowable, or answers with imagery rather than reasoning. *Example: "Nobody can say what a superintelligence would want. Maybe it would get bored, maybe it would leave."*
 
 **2** — Asserts that expansion continues but gives no mechanism, or grounds it in the AI wanting to expand for its own sake. *Example: "It would keep growing because that's what intelligent systems do."*
 
