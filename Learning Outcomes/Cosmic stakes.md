@@ -28,7 +28,7 @@ Score {--{"author":"Andreas's AI","timestamp":1791581405184}@@according to --}{+
 
 {--{"author":"Andreas's AI","timestamp":1791581405184}@@**1** —--}{++{"author":"Andreas's AI","timestamp":1791581405184}@@**Level 1 (0-20):**++} Treats the aftermath as unknowable, or answers with imagery rather than reasoning. *Example: "Nobody can say what a superintelligence would want. Maybe it would get bored, maybe it would leave."*
 
-**2** — Asserts that expansion continues but gives no mechanism, or grounds it in the AI wanting to expand for its own sake. *Example: "It would keep growing because that's what intelligent systems do."*
+{--{"author":"Andreas's AI","timestamp":1791581413104}@@**2** —--}{++{"author":"Andreas's AI","timestamp":1791581413104}@@**Level 2 (21-40):**++} Asserts that expansion continues but gives no mechanism, or grounds it in the AI wanting to expand for its own sake. *Example: "It would keep growing because that's what intelligent systems do."*
 
 **3** — Identifies the mechanism: whatever the AI's terminal goals are, more resources and more secure control serve almost any of them, so acquisition does not stop when the local obstacle is removed. Humanity's absence removes a constraint rather than fulfills a goal. *Example: "The reason it took over was that we were in the way of something it was pursuing. Removing us does not complete that pursuit. Whatever it was optimizing for, more matter and energy help, so it carries on."*
 
