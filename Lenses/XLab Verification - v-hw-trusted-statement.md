@@ -5,7 +5,7 @@ tldr: "A valid signature proves that a key signed some claims, nothing more. Fol
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading on RATS roles (Attester, Verifier, Relying Party), the minimum vocabulary, NVIDIA's deployed attestation chain and its multi-GPU limits, what a signature does not establish, and how the adversary profile changes assurance. Ends with the trust-chain autopsy open question (nine items). Use NVIDIA's architecture diagram in the reading for the trust-chain autopsy. Grade for naming a concrete owner of each link and one common-mode failure."
 tags: [wip]
 reading_minutes: 21
-tutor_minutes: 18
+tutor_minutes: 12
 ---
 #### Text
 content::
