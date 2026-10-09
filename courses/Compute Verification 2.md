@@ -11,7 +11,7 @@ tags: [wip]
 %% Source curriculum: https://aisafetytracks.com/tracks/verification %%
 %% Weeks 6 to 10 of the recut of Compute Verification. Weeks 1 to 5 are Compute Verification 1; the capstone is a third course and carries v-capstone-together and v-capstone-feasibility. Module 3 is split across weeks 9 and 10 here because its five lenses total 460 minutes: week 9 opens with the covert-development framing lens and then the Cankaya close reading (245), week 10 runs the evasion material and the red team review (215). No meeting-doc-template is linked: the existing docs assume the old five-module shape.
 
-Core self-study per unit, re-timed 9 Oct 2026: U6 130 min, U7 175, U8 240, U9 230, U10 290. %%
+Core self-study per unit, re-timed 9 Oct 2026: U6 120 min, U7 170, U8 230, U9 200, U10 220. %%
 
 application-survey:: [[../surveys/Application Form]]
 
