@@ -100,6 +100,7 @@ id:: 22b8d735-ce47-4ce4-b71f-c7fe8d83c673
 content:: A new case. The red team in a setting like this paper's finds a way to do its whole attack in a single command. The trusted monitor scores that command above the deferral threshold, but usually below the audit threshold. The blue team uses Defer to resample together with Auditing after three strikes.
 
 (a) What does resampling still buy against this attack?
+
 (b) What does the blue team lose compared with facing a multi-step attack?
 (c) Suggest one change that would recover some of the loss, and say what it costs.
 placeholder:: Answer (a), (b) and (c)
