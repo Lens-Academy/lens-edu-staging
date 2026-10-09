@@ -91,10 +91,6 @@ feedback-instructions:: In at most eight sentences, say what the learner's answe
 
 #### Article
 from:: # Implications and proposed actions
-to:: We think that AI control is a particularly tractable approach to managing risk from scheming models, and we are excited about further research on this.
-
-#### Article
-from:: :::callout {title="Appendix: Ready-to-go strategies" collapse="closed"}
 
 #### Text
 content::

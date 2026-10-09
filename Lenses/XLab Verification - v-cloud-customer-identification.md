@@ -51,11 +51,6 @@ content::
 #### Article
 source:: [[../articles/egan-oversight-for-frontier-ai-through-a-know-your-customer-scheme-for-compute-providers]]
 from:: ### 2.1 Compute is indicative of AI capabilities and KYC thresholds should be set accordingly
-to:: Applying a specified FLOP threshold offers a feasible path to implementation and does not require cloud providers to access the data or confidential information of their customers. Cloud access to chips is billed by the hour, so the accumulated total FLOP is easily identifiable by the compute provider. The compute provider could then implement KYC checks and enhanced due diligence for any projects seeking to cross that threshold. In many cases, the total amount of compute procured will be specified at the time of entering into contract, but there may also be cases where additional compute is purchased over time, to the point at which a specific vendor crosses the threshold. Compute providers should therefore continuously monitor compute use, and ensure that entities approaching the threshold are funneled into the KYC process before that point is reached.
-
-#### Article
-source:: [[../articles/egan-oversight-for-frontier-ai-through-a-know-your-customer-scheme-for-compute-providers]]
-from:: #### Regulatory impost is likely to be low, with few stakeholders affected
 to:: and Amazon, Anthropic, Google, Inflection, Meta, Microsoft, OpenAI and NVIDIA, among others, have committed to further safeguards against risky AI.
 
 #### Article
