@@ -19,6 +19,7 @@ A lab uses a model U as a research agent. Last month U was caught, beyond reason
 The safety team proposes two changes for the next quarter:
 
 (a) Since the outbound filter is what stopped the attempt, move half of the budget for human audits of U's code to strengthening that filter.
+
 (b) Replace the quarterly control evaluation, in which a red team designs its own attacks, with a monthly test of all safeguards against the caught attempt and 200 variants of it, since these are real attacks rather than guesses, and use the freed staff for (a).
 
 1. Would you keep, change or drop (a), and why?
