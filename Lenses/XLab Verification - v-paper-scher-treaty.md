@@ -4,7 +4,8 @@ title: "An International Agreement to Prevent the Premature Creation of Artifici
 tldr: "The one draft treaty on the table that is written like a treaty: articles, definitions, thresholds, a chip-consolidation regime, verification of chip use, and a withdrawal clause. Optional reading for the Anatomy of a (pause) agreement assignment: you do not read it cover to cover, you work it article by article against the four assignment questions."
 summary_for_tutor: "Optional full-paper reading for the Anatomy of a (pause) agreement assignment (the previous page of Week 3): MIRI Technical Governance Team's draft International Agreement to Prevent the Premature Creation of Artificial Superintelligence (Scher, Abecassis, Barnett, Abeyta, 2025). The treaty text is Appendix A; the assignment sends learners to the Preamble, Article I, the prohibitions in Articles IV, V, VI, VIII, the verification method in Articles VII and IX, and withdrawal in Article XV. Help the learner inspect clauses and map obligations to evidence without requiring agreement with the proposal. A widget sits directly after Figure 2: the learner sets the Strict and Monitored FLOP thresholds and one of the six cluster sizes the paper tabulates, and it recomputes the time to each threshold from the paper's own arithmetic, the day such a cluster gets registered, the Appendix D levers that reach it domestically and internationally, and which of the eleven labelled Figure 2 models fall above each threshold."
 tags: [wip]
-duration_minutes: 75
+reading_minutes: 55
+tutor_minutes: 0
 ---
 #### Article
 source:: [[../articles/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence]]
