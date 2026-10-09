@@ -12,9 +12,11 @@ source:: [[../Lenses/Iliad A.2.2 - Pretraining]]
 
 # Lens: Pretraining data filtering
 source:: [[../Lenses/anthropic-enhancing-model-safety-through-pretraining-data-filtering]]
+optional:: true
 
 # Lens: SGTM
 source:: [[../Lenses/anthropic-beyond-data-filtering-knowledge-localization-for-capability-removal-in-llms]]
+optional:: true
 
 # Lens: Persona selection model
 source:: [[../Lenses/marks-the-persona-selection-model-why-ai-assistants-might-behave-like-humans]]
