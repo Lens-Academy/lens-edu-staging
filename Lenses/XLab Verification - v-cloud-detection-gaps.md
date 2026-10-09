@@ -73,11 +73,6 @@ to:: Restricting only rentals to foreign data centers would naturally encourage 
 #### Article
 source:: [[../articles/tan-the-geopolitical-debates-over-controlling-cloud-compute]]
 from:: Some analysts also [contend](https://carnegieendowment.org/research/2024/12/ai-artificial-intelligence-export-united-states) that cloud restrictions risk pushing users in third-party countries toward China’s competing AI stack.
-to:: policymakers will need to weigh the net security benefits of cloud controls against the diplomatic costs of unilaterally extending U.S. regulatory reach into an inherently transnational service.
-
-#### Article
-source:: [[../articles/tan-the-geopolitical-debates-over-controlling-cloud-compute]]
-from:: ### Cloud Controls Must Contend With “Who” and “What” They Restrict
 to:: Whatever the answers may be, Washington will play an important role in determining the future of U.S.-China AI competition.
 
 #### Text
