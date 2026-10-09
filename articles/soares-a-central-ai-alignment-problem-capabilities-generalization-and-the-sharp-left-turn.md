@@ -2,7 +2,7 @@
 title: "A central AI alignment problem: capabilities generalization, and the sharp left turn"
 source_url: "https://www.lesswrong.com/posts/GNhMPAWcfBCASy8e6/a-central-ai-alignment-problem-capabilities-generalization"
 author:
-  - "So8res"
+  - "Nate Soares"
 author_url:
   - "https://www.lesswrong.com/users/so8res"
 published: 2022-06-15
