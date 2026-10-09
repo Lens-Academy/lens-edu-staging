@@ -3,7 +3,8 @@ id: 'b70db51f-a981-4675-93c9-ac224ccfae3e'
 title: "Read Plan A's Verification Plan"
 tldr: "Read the mechanisms and implementation sequence before judging Plan A's verification regime."
 summary_for_tutor: "Read the mechanisms and implementation sequence before judging Plan A's verification regime. Preserve the framing and respond to the learner's reasoning. The reading is three excerpts of the AI 2040 verification supplement: the summary of the plan, the concrete inference-only retrofit, and the 2029 to 2030 implementation sequence. The supplement's figures sit inside the article at their places: the treemap of where the world's AI compute sits on January 1, 2029; the deal implementation timeline; the January 2029 and mid 2029 chip declaration waffle charts; the 2029 and 2032 chip flow restriction scatter charts; the assurance curves for N_ver = 100, 10K and 10M; and the rogue internal deployment detection chart, which has a year slider and a packet size slider."
-duration_minutes: 45
+reading_minutes: 50
+tutor_minutes: 0
 tags: [wip]
 add_to_ai_context:
   - "[[../articles/dean-ai-2040-verification-plan]]"
