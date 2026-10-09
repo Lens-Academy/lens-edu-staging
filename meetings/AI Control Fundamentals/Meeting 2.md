@@ -37,7 +37,7 @@ One or two people share what their group landed on.
 ---
 
 \pagebreak
-### Room 2: Sort four new threats  [0:24–0:42]
+### Room 2: Sort four threats  [0:24–0:42]
 
 **New group. Names first, then straight in.**
 
@@ -176,7 +176,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:00–0:05 | Lobby / welcome (whole group) |
 | 0:05–0:19 | R1 One bad action or a thousand (breakout, aim 3) |
 | 0:19–0:24 | Back together (whole group) |
-| 0:24–0:42 | R2 Sort four new threats (reshuffle) |
+| 0:24–0:42 | R2 Sort four threats (reshuffle) |
 | 0:42–0:47 | Back together (whole group) |
 | 0:47–0:52 | Break |
 | 0:52–1:10 | R3 Who should do the work, and how big is the field (reshuffle) |
@@ -196,7 +196,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 2. Name the new format (small breakout rooms of 3, new people each time, and a five-minute get-together after each room where anyone can share what their group landed on)
 3. Tell them the doc is in the chat + Discord and to open it + check they can type
 4. Run through the arc
-    - opening round and one action or a thousand → sorting four new threats → who should do the work, and how big the field is → next unit, your question, feedback
+    - opening round and one action or a thousand → sorting four threats → who should do the work, and how big the field is → next unit, your question, feedback
     - say the meeting will take 90 min
 5. Inform participants that you will be jumping between rooms with your camera turned off to listen in and they can ask questions whenever you join
 6. Start room 1
