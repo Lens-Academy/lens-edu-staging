@@ -2,6 +2,7 @@
 title: "Machines of Loving Grace"
 source_url: "https://darioamodei.com/essay/machines-of-loving-grace"
 author: Dario Amodei
+author_url: "https://www.darioamodei.com/"
 published: 2024-10
 created: 2026-03-07
 description: "How AI Could Transform the World for the Better"

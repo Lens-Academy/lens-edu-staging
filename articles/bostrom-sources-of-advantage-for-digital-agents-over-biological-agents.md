@@ -1,7 +1,11 @@
 ---
 title: "Sources of advantage for digital agents over biological agents"
 author:
+  - "Nick Bostrom"
   - "AI Impacts"
+author_url:
+  - "https://en.wikipedia.org/wiki/Nick_Bostrom"
+  - "https://aiimpacts.org/"
 source_url: https://aiimpacts.org/sources-of-advantage-for-artificial-intelligence/
 published: 2016-09-04
 created: 2026-02-06
