@@ -5,7 +5,7 @@ tldr: "The nuclear regime has a finder, a judge, an enforcer, and a standard; AI
 summary_for_tutor: "Two readings (Brundage et al., audit design principles; Carlson, Defining Noncompliance) then two exercises rebuilt from XLab. (1) From Nuclear to AI Inspections, required, entirely native: four open questions, one per station (finder, judge, enforcer, standard), a strain question, XLab's commentary per station in closed callouts, and a final guideline of at most 50 words. (2) Optional The Standard of Proof, a widget. The page above it carries the allegation against Meridian Compute, the task list and the 60 to 90 word guidance; the widget holds the four dockets, the move buttons, the defences, the submit gate, the 2x2 reveal, the self-check questions and XLab's tickable marking key (2 points per docket, grounds behind each criterion, no-credit list, self-marked score out of 8, and an assessor pass that scores each defence on its own docket). The page below the widget carries the two closing open questions natively: the decision standard in at most 50 words and the transfer question about a structural change and the property it repairs. Grade the open answers against the commentary and the two self-check questions; push back when a learner's move reweighs the evidence in a docket where the institution was the weak part (C and D)."
 tags: [wip]
 reading_minutes: 28
-tutor_minutes: 46
+tutor_minutes: 41
 ---
 #### Text
 content::

@@ -5,7 +5,7 @@ tldr: "You have a lead. Now act like a regime that wants to survive its first am
 summary_for_tutor: "Imported from XLab's Verification curriculum. A short reading (compare against declarations; the escalation ladder of tasking more collection, seeking corroboration, triggering an audit or challenge inspection; recording confidence, dissent and unresolved blind spots), followed by the module's peer-reviewed written output: red-line the NTM article (about 700 words). The learner works from the treaty text quoted in 2.3.4: item 17 of MIRI's Article II definitions plus Article X ¶1(b)(i) to (iii), the noninterference, no-deliberate-concealment and encouraged-but-not-obligated cooperation clauses. They then mark at least three gaps, redraft one provision, write or defend the absence of a sharing clause, test it against the rule that states sign what is symmetric, cheap and checkable, and end with one paragraph each on why Washington and Beijing accept it. Assess on the five listed criteria. Expect the discovery that noninterference is easy and drafting dies on sharing; do not hand it to the learner before they write. The Unfinished writing callout is XLab's own note that this task is proposed but not settled."
 tags: [wip]
 reading_minutes: 5
-tutor_minutes: 30
+tutor_minutes: 25
 ---
 #### Text
 content::
