@@ -67,46 +67,46 @@ Some key notes when thinking about your career path:
 
 \## List of Potential Impactful Career Paths
 
-Here's a list worth looking through for this week's worksheet, not to pick from right now, but to surface ideas you might not have considered yet.{--{"author":"Christine's AI","timestamp":1790939452745}@@ Take some time to read through some of the profiles below that interest you, and pick one or two random profiles to skim through. --}{++{"author":"Christine's AI","timestamp":1790939452745}@@
+Here's a list worth looking through for this week's worksheet, not to pick from right now, but to surface ideas you might not have considered yet.
 
-:::callout {title="📚 ++}Some helpful {++{"author":"Christine's AI","timestamp":1790939452745}@@overarching ++}resources before going into specific {--{"author":"Christine's AI","timestamp":1790939452745}@@paths:--}{++{"author":"Christine's AI","timestamp":1790939452745}@@paths" tone="blue"}++}
+:::callout {title="📚 Some helpful overarching resources before going into specific paths" tone="blue"}
 
 - [Top career paths by 80,000 hours](https://80000hours.org/career-reviews/)
 - If you’re excited by research-based roles, you can look into different types of research in general to expand your view beyond just academic research!
    - [How to do research that matters](https://www.youtube.com/watch?v=ldk5DpwUjB0&t=46s&ab_channel=CentreforEffectiveAltruism)
    - [Different types of research are different](https://forum.effectivealtruism.org/posts/pHnMXaKEstJGcKP2m/different-types-of-research-are-different)
 
-{++{"author":"Christine's AI","timestamp":1790939452745}@@:::
+:::
 
-++}\## Description of potential career paths and relevant {--{"author":"Christine's AI","timestamp":1790939452745}@@resources:--}{++{"author":"Christine's AI","timestamp":1790939452745}@@resources++}
+\## Description of potential career paths and relevant resources
 
-{--{"author":"Christine's AI","timestamp":1790939452745}@@\#### --}{++{"author":"Christine's AI","timestamp":1790939452745}@@Below is a list of potential impactful career paths. **We recommend opening and reading through at least 1-2 that draw you**, and maybe one you'd never have considered, just to stretch your thinking! Click on any path to open it.
+Below is a list of potential impactful career paths. **We recommend opening and reading through at least 1-2 that draw you**, and maybe one you'd never have considered, just to stretch your thinking! Click on any path to open it.
 
-:::callout {title="1. ++}Technical AI safety {--{"author":"Christine's AI","timestamp":1790939452745}@@research--}{++{"author":"Christine's AI","timestamp":1790939452745}@@research" tone="green" collapse="closed"}++}
+:::callout {title="1. Technical AI safety research" tone="green" collapse="closed"}
 
 Researching technical solutions to prevent AI systems from behaving in unintended or harmful ways (the "alignment problem")
 
 - [80,000 Hours: Technical AI safety research](https://80000hours.org/career-reviews/ai-safety-researcher/)
 
-{--{"author":"Christine's AI","timestamp":1790939452745}@@\#### --}{++{"author":"Christine's AI","timestamp":1790939452745}@@:::
+:::
 
-:::callout {title="2. ++}AI safety {--{"author":"Christine's AI","timestamp":1790939452745}@@field-building--}{++{"author":"Christine's AI","timestamp":1790939452745}@@field-building" tone="green" collapse="closed"}++}
+:::callout {title="2. AI safety field-building" tone="green" collapse="closed"}
 
 Growing the field itself through teaching, mentoring, events, or managing researchers
 
 - [80,000 Hours: AI safety field-building](https://80000hours.org/career-reviews/ai-safety-fieldbuilding/)
 
-{--{"author":"Christine's AI","timestamp":1790939452745}@@\####--}{++{"author":"Christine's AI","timestamp":1790939452745}@@:::
+:::
 
-:::callout {title="3.++} Research {--{"author":"Christine's AI","timestamp":1790939452745}@@management--}{++{"author":"Christine's AI","timestamp":1790939452745}@@management" tone="green" collapse="closed"}++}
+:::callout {title="3. Research management" tone="green" collapse="closed"}
 
 Multiplying other researchers' impact by prioritising projects, coordinating work, and fundraising for an institution
 
 - [80,000 Hours: Research management](https://80000hours.org/career-reviews/research-management/)
 
-{--{"author":"Christine's AI","timestamp":1790939452745}@@\####--}{++{"author":"Christine's AI","timestamp":1790939452745}@@:::
+:::
 
-:::callout {title="4.++} Starting/Founding a new {--{"author":"Christine's AI","timestamp":1790939452745}@@organisation--}{++{"author":"Christine's AI","timestamp":1790939452745}@@organisation" tone="green" collapse="closed"}++}
+:::callout {title="4. Starting/Founding a new organisation" tone="green" collapse="closed"}
 
 Starting a new project or organisation to tackle a pressing problem directly
 
@@ -116,9 +116,9 @@ Starting a new project or organisation to tackle a pressing problem directly
 - [Founder of new projects tackling top problems (80k)](https://80000hours.org/career-reviews/founder-impactful-organisations/)
 - [Consider founding new organizations (AAC)](https://animaladvocacycareers.org/career-advice/found-new-organisations/?doing_wp_cron=1743416163.1180350780487060546875)
 
-{--{"author":"Christine's AI","timestamp":1790939452745}@@\####--}{++{"author":"Christine's AI","timestamp":1790939452745}@@:::
+:::
 
-:::callout {title="5.++} Working at an effective {--{"author":"Christine's AI","timestamp":1790939452745}@@nonprofit--}{++{"author":"Christine's AI","timestamp":1790939452745}@@nonprofit" tone="green" collapse="closed"}++}
+:::callout {title="5. Working at an effective nonprofit" tone="green" collapse="closed"}
 
 Joining an existing high-impact nonprofit, often more accessible than founding one
 
@@ -126,9 +126,9 @@ Joining an existing high-impact nonprofit, often more accessible than founding o
 - [Monitoring & Evaluation (PG)](https://probablygood.org/career-profiles/monitoring-and-evaluation/)
 - [Working at effective nonprofits (80k)](https://80000hours.org/career-reviews/effective-non-profits/)
 
-{--{"author":"Christine's AI","timestamp":1790939452745}@@\#### Grantmaking--}{++{"author":"Christine's AI","timestamp":1790939452745}@@:::
+:::
 
-:::callout {title="6. Grantmaking" tone="green" collapse="closed"}++}
+:::callout {title="6. Grantmaking" tone="green" collapse="closed"}
 
 Vetting funding proposals so donors can find the promising ones, high-impact since good vetting is scarce
 
@@ -138,9 +138,9 @@ Vetting funding proposals so donors can find the promising ones, high-impact sin
 - [So You Want To Run A Micro Grants Program (Astral Codex)](https://astralcodexten.substack.com/p/so-you-want-to-run-a-microgrants?s=r)
 - [Grantmaking Approach (EAF)](https://funds.effectivealtruism.org/grantmaking-approach)
 
-{--{"author":"Christine's AI","timestamp":1790939452745}@@\#### Policy--}{++{"author":"Christine's AI","timestamp":1790939452745}@@:::
+:::
 
-:::callout {title="7. Policy" tone="green" collapse="closed"}++}
+:::callout {title="7. Policy" tone="green" collapse="closed"}
 
 Shaping the rules and systems that affect how societies function, from civil service to lobbying
 
@@ -148,9 +148,9 @@ Shaping the rules and systems that affect how societies function, from civil ser
 - [Politics, policy, and lobbying (for animals) (AAC)](https://animaladvocacycareers.org/career-path-guides/politics-policy-lobbying/?doing_wp_cron=1743416250.6638739109039306640625)
 - [Probably Good career profiles on Policy](https://probablygood.org/career-profiles/policy/)
 
-{--{"author":"Christine's AI","timestamp":1790939452745}@@\####--}{++{"author":"Christine's AI","timestamp":1790939452745}@@:::
+:::
 
-:::callout {title="8.++} Prioritisation {--{"author":"Christine's AI","timestamp":1790939452745}@@research--}{++{"author":"Christine's AI","timestamp":1790939452745}@@research" tone="green" collapse="closed"}++}
+:::callout {title="8. Prioritisation research" tone="green" collapse="closed"}
 
 Comparing causes and interventions to guide where funding and effort should go
 
@@ -158,18 +158,18 @@ Comparing causes and interventions to guide where funding and effort should go
 - [Think tank research (80k)](https://80000hours.org/career-reviews/think-tank-research/)
 - [Research into global priorities (80k)](https://80000hours.org/career-reviews/global-priorities-researcher/)
 
-{--{"author":"Christine's AI","timestamp":1790939452745}@@\####--}{++{"author":"Christine's AI","timestamp":1790939452745}@@:::
+:::
 
-:::callout {title="9.++} Direct/academic {--{"author":"Christine's AI","timestamp":1790939452745}@@research--}{++{"author":"Christine's AI","timestamp":1790939452745}@@research" tone="green" collapse="closed"}++}
+:::callout {title="9. Direct/academic research" tone="green" collapse="closed"}
 
 Research roles inside or outside academia, evaluating what actually works
 
 - [Academic research (80k)](https://80000hours.org/career-reviews/academic-research/)
 - [Should you do an economics PhD (EA forum)](https://forum.effectivealtruism.org/posts/xcXo2y5fraRoXrrAY/should-you-do-an-economics-phd-or-master-s)
 
-{--{"author":"Christine's AI","timestamp":1790939452745}@@\#### Movement-building--}{++{"author":"Christine's AI","timestamp":1790939452745}@@:::
+:::
 
-:::callout {title="10. Movement-building" tone="green" collapse="closed"}++}
+:::callout {title="10. Movement-building" tone="green" collapse="closed"}
 
 Growing the base of people actively working on a cause, whether a specific movement like animal advocacy or the broader impact-focused community
 
@@ -177,9 +177,9 @@ Growing the base of people actively working on a cause, whether a specific movem
 - [80,000 Hours: Organise a local group](https://80000hours.org/career-reviews/organise-an-effective-altruism-group/)
 - [Movement building for Animal Advocacy Careers](https://animaladvocacycareers.org/career-path-guides/animal-advocacy-community/) for Animal Welfare
 
-{--{"author":"Christine's AI","timestamp":1790939452745}@@\#### --}{++{"author":"Christine's AI","timestamp":1790939452745}@@:::
+:::
 
-:::callout {title="11. ++}Management & {--{"author":"Christine's AI","timestamp":1790939452745}@@leadership--}{++{"author":"Christine's AI","timestamp":1790939452745}@@leadership" tone="green" collapse="closed"}++}
+:::callout {title="11. Management & leadership" tone="green" collapse="closed"}
 
 Multiplying colleagues' impact by leading teams well, at an advocacy org, a nonprofit, or anywhere else
 
@@ -187,9 +187,9 @@ Multiplying colleagues' impact by leading teams well, at an advocacy org, a nonp
 - [80,000 Hours: Organisation-building](https://80000hours.org/skills/organisation-building/)
 - [Management and Leadership in Animal Advocacy Careers](https://animaladvocacycareers.org/career-paths/management-leadership/)
 
-{--{"author":"Christine's AI","timestamp":1790939452745}@@\####--}{++{"author":"Christine's AI","timestamp":1790939452745}@@:::
+:::
 
-:::callout {title="12.++} Earning to {--{"author":"Christine's AI","timestamp":1790939452745}@@give--}{++{"author":"Christine's AI","timestamp":1790939452745}@@give" tone="green" collapse="closed"}++}
+:::callout {title="12. Earning to give" tone="green" collapse="closed"}
 
 Choosing a high-earning career specifically to donate a significant share of your income to highly effective charities
 
@@ -198,14 +198,14 @@ Choosing a high-earning career specifically to donate a significant share of you
 - [Report on Founding to Give (AIM)](https://www.aimfoundingtogive.com/)
 - [Earning to give for animals (AAC)](https://animaladvocacycareers.org/career-paths/earning-to-give/)
 
-{--{"author":"Christine's AI","timestamp":1790939452745}@@\### 💡--}{++{"author":"Christine's AI","timestamp":1790939452745}@@:::
+:::
 
-:::callout {title="💡++} On earning to {--{"author":"Christine's AI","timestamp":1790939452745}@@give--}{++{"author":"Christine's AI","timestamp":1790939452745}@@give" tone="amber"}++}
+:::callout {title="💡 On earning to give" tone="amber"}
 
 Not every high-impact career involves working directly on a cause. Some people choose a high-earning career specifically so they can donate a significant share of their income to highly effective charities, and organisations like **Giving What We Can (GWWC)** support this path through giving pledges and charity recommendations. Others also continue to donate even while working on direct causes. Some of the people doing the most good are doing it through their wallet, not just their job title!
 
-You can [take the pledge here as a student](https://www.givingwhatwecan.org/pledge/effectivethesis) and read [why take the pledge](https://www.givingwhatwecan.org/why-pledge) and [taking the pledge as a student](https://www.givingwhatwecan.org/faq/pledge/is-there-a-pledge-for-students) first if you’re curious!{++{"author":"Christine's AI","timestamp":1790939452745}@@
+You can [take the pledge here as a student](https://www.givingwhatwecan.org/pledge/effectivethesis) and read [why take the pledge](https://www.givingwhatwecan.org/why-pledge) and [taking the pledge as a student](https://www.givingwhatwecan.org/faq/pledge/is-there-a-pledge-for-students) first if you’re curious!
 
-:::++}
+:::
 
 [^1]: <https://medium.com/@terrayou/an-introduction-to-ikigai-your-reason-for-being-3c9e850392d8>
