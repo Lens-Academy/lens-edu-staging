@@ -28,6 +28,7 @@ Spend **25 minutes** reading the following texts. Pick one most interesting to y
 ::card[[../Lenses/anthropic-claudes-new-constitution|Claude’s constitution overview]]
 
 ::card[[../Lenses/lesswrong-corrigibility|Corrigibility]]
+:::
 
 Discuss in groups of 3–5 for **15 minutes**. Possible prompts:
 

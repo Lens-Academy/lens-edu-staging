@@ -32,8 +32,10 @@ Why does this work? The [persona selection model (PSM)](https://alignment.anthro
 
 **Reading (30 min):** Read [Pretraining data filtering](https://alignment.anthropic.com/2025/pretraining-data-filtering/), or [SGTM](https://alignment.anthropic.com/2025/selective-gradient-masking/), or [persona selection model (PSM)](https://alignment.anthropic.com/2026/psm/).
 
+:::require_x_optional_lenses{x=1}
 ::card[[../Lenses/anthropic-enhancing-model-safety-through-pretraining-data-filtering|Pretraining data filtering]]
 
 ::card[[../Lenses/anthropic-beyond-data-filtering-knowledge-localization-for-capability-removal-in-llms|SGTM]]
 
 ::card[[../Lenses/marks-the-persona-selection-model-why-ai-assistants-might-behave-like-humans|Persona selection model]]
+:::
