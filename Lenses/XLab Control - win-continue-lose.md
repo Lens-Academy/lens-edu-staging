@@ -91,7 +91,9 @@ id:: 07a155ff-b63f-440d-9f78-ba0ffefe3482
 content:: A new case. A lab monitors an untrusted research agent. Human reviewers can check 0.5% of its actions; at that threshold the monitor flags 20% of attacks, and a reviewed attack is always recognised, ending the game in the lab's favour. The lab also replaces every action in the most suspicious 10% with one written by a trusted model; at that threshold the monitor flags 94% of attacks. An attack that runs succeeds one time in three, and a failed attack goes unnoticed.
 
 (a) If the agent is scheming and keeps attacking now and then until something settles the game, what is the chance the lab catches it before an attack succeeds?
+
 (b) What would that chance be if the lab kept the reviews but stopped replacing?
+
 (c) In the original protocol, what happens to an attack that is replaced but not reviewed, and why does that matter for (a)?
 (d) Back in the original protocol, suppose one in five replaced attacks still succeeds when run. What does your answer to (a) become?
 placeholder:: Show your working for (a), (b) and (d), and answer (c)
