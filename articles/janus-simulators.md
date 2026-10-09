@@ -2,6 +2,7 @@
 title: "Simulators"
 source_url: https://www.lesswrong.com/s/N7nDePaNabJdnbXeE/p/vJFdjigzmcXMhNTsx
 author: "janus"
+author_url: "https://x.com/repligate"
 published: 2022-09-02
 created: 2026-02-04
 description: "Self-supervised learning may create AGI or its foundation. What would that look like?Unlike the limit of RL, the limit of self-supervised learning has received surprisingly little conceptual attention, and recent progress has made deconfusion in this domain more pressing."
