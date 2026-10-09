@@ -263,6 +263,7 @@ style:: plain
 Three kinds of criticism: The unit's way of sorting criticisms of control by what they dispute: control does not work, control works but is not worth the effort, or control works and makes things worse. The sorting shows what a criticism disputes, not whether it is right.
 Slop: John Wentworth's name for what he thinks is the likely way things go wrong: early AI produces alignment work that looks fine and is not, and the lab believes it has solved the problem.
 Selection argument: If you respond to a caught AI by training against the behaviour, rolling back or retraining, while keeping the models that perform well, you may end up with models that are better at evading your controls. Oliver Habryka and Jozdien press versions of it.
+Prompt injection: Text written to give instructions to whichever model reads it. In one 2025 experiment, an untrusted model hid prompt injections in its outputs and got past the monitors of current control protocols.
 ASI: Artificial superintelligence. Control's own authors say their approach will not work for arbitrarily powerful AI, and MIRI concludes that no workaround exists for a misaligned ASI, so progress toward it should be halted by a worldwide ban.
 
 ### Module: Unit 4: What control does to the world

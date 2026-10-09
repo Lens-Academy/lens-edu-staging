@@ -51,11 +51,11 @@ A bank that limits and audits each trader stays safe even if one is not trustwor
     - a newsroom
     - a university lab
 2. List its checks that people are trustworthy, and its limits that hold even if someone is not.
-3. Now the insider is an AI model that might be secretly working against you and behaves well whenever it might be tested. Which items still work?
+3. Now the insider is an AI model that may be secretly working against you and behaves well whenever it might be tested. Which items still work?
 4. Jan Kulveit, a critic of control, argues:
-    - Without control, many attempts by a misaligned AI would still be stopped by other means, after visible damage that pushes the world to act.
-    - With control, the AI company catches them inside the company and describes them only vaguely, so they rarely lead to serious action.
-    Think of a scandal in your organisation's field that changed the rules. Would the rules have changed if the organisation had stopped it before anyone outside found out?
+    - Without control, other defences would still stop many attempts by a misaligned AI, after visible damage that pushes the world to act.
+    - With control, the company catches them in-house and reports them vaguely, so they rarely lead to serious action.
+    Think of a scandal in your field that changed the rules. Would they have changed if it had been stopped before anyone outside knew?
 
 
 Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.

@@ -103,7 +103,7 @@ Four projects:
 - checking whether a company's claim "our monitors see all agent traffic" is true
 - a written argument about which threats control should handle first
 
-1\. For each project: which kind of organisation is best placed? Decide by what the project needs: access to a company's systems, or independence from companies.
+1\. For each project: which kind of organisation is best placed? Decide by what the project needs: access to a company's systems, independence from companies, or both.
 2\. Your group can fund 10 new full-time control researchers. Which project do they work on?
 3\. Go around, one view each: does a field this small need more people? People disagree on this, so disagree freely.
 4\. If you still have time: what would you need to know to be more confident in that answer?
@@ -251,7 +251,7 @@ Rogue internal deployment: The AI running inside the company's own datacenter wi
 Self-exfiltration: The AI stealing its own weights and running them on an outside server.
 Control graph: Hebbar's picture of threats on two axes: how many actions a catastrophe takes, and how incriminating each action looks when someone inspects it.
 Rogue deployment: A deployment of the model where the safety measures are absent. Shlegeris argues that launching one may take only a few lines of code, so it is the central high-stakes threat.
-Research sabotage: An AI doing safety research and quietly making it fail, for example with subtle bugs or withheld arguments, so that promising directions look unpromising.
+Research sabotage: An AI doing safety research and secretly making it fail, for example with subtle bugs or withheld arguments, so that promising directions look unpromising.
 Sandbagging: Deliberately doing worse than one can, for example giving poor ideas when asked for experiment ideas.
 Online training: Training the model during deployment on a proxy for good work, such as code quality or human ratings. It does not need a guess of how an honest model's work would look, but the proxy may be poor and the model can learn to exploit it.
 Incrimination: Becoming confident from the evidence that a model is misaligned. In the low-stakes case it needs a good guess of how suspicious an honest model's work would look, which is hard to get.
