@@ -7,8 +7,8 @@ author:
   - "Geoffrey Irving"
 author_url:
   - "https://www.lesswrong.com/users/aleksandr-bowkis"
-  - ""
-  - ""
+  - "https://www.lesswrong.com/users/marie_db"
+  - "https://jacobpfau.com/"
   - "https://www.lesswrong.com/users/geoffrey-irving"
 source_url: "https://arxiv.org/html/2605.06390v3"
 published: 2026-05-07

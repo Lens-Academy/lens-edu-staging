@@ -9,10 +9,10 @@ author:
   - "AlexMeinke"
 author_url:
   - "https://www.mariushobbhahn.com/"
-  - ""
-  - ""
-  - ""
-  - ""
+  - "https://jeremyscheurer.com/"
+  - "https://mikitabalesni.com/"
+  - "https://www.lesswrong.com/users/rusheb"
+  - "https://alexmeinke.de/"
 published: 2024-01-08
 created: 2026-02-27
 description: "This is a starter guide for model evaluations (evals). Our goal is to provide a general overview of what evals are, what skills are helpful for evalu…"
