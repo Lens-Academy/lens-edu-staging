@@ -29,7 +29,7 @@ content::
 
 #### Article
 source:: [[../articles/ge-wang-attack-selection-in-agentic-ai-control-evaluations-meaningfully-decreases-safety]]
-from:: An attacker that strategically chooses
+from:: "###### Abstract"
 to:: elicit attack selection to produce more realistic safety estimates.
 
 #### Question: Open
