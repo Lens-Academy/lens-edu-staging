@@ -25,6 +25,7 @@ Last meeting of the course. Go around:
 - Oliver Habryka: stopping it would mostly have hidden the warning, and the same techniques will not hold for stronger models
 - Vincent Cheng: monitors that block bad actions as they happen also hide them, so replay blocked actions in simulation
 - Jasmine Li: misalignment should surface early and loudly, so spend more of the control effort on detection and disclosure
+- Steven Adler: companies clean up incidents instead of preventing them, and still lack basic preventive controls, such as making risky actions wait for approval
 - Ryan Kidd: should safety researchers quit frontier labs so that warning shots (visible AI incidents that alarm the world without being a catastrophe) can happen? He sets out the argument and his replies
 - Nate Soares (2022): COVID did not even lead to a ban on gain-of-function research (making viruses more dangerous in the lab), so do not expect AI warning shots to change policy much
 
