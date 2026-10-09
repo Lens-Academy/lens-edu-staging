@@ -32,6 +32,7 @@ Spend **40 minutes reading**. Read the Hugging Face explanation below and choose
 > focus on the background, contributing factors and proposed changes. The [initial disclosure, with corrections](https://openai.com/index/hugging-face-model-evaluation-security-incident/) and [September review update](https://openai.com/hugging-face-incident-and-misalignment/) show how the account developed.
 
 * [METR's independent investigation](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/): focus on the core takeaways, scope and limitations. What did access to agent logs add, and what could the reviewers still not establish?
+:::
 
 **Debrief, 10 minutes.** How is this related to what we have discussed? What types of misalignment have we seen here?
 
