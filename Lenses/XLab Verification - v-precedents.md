@@ -4,7 +4,8 @@ title: "History, Precedents, Parallels"
 tldr: "IAEA inspectors did their job perfectly in Iraq and still missed a bomb program next door, because you can only audit what was declared. Read three short documents and work out what that means for a regime that counts AI chips."
 summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Three source documents, then five packet tasks: Task 5 is required, Tasks 1 to 4 optional (learner does at least one). Model answers and Baker (2023) excerpts are reveal material: share them only after the learner has answered."
 tags: [wip]
-duration_minutes: 75
+reading_minutes: 20
+tutor_minutes: 35
 ---
 #### Text
 content::
