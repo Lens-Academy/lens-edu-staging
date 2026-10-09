@@ -20,19 +20,11 @@ Evals can show that a model *can* do something: a pass sets a lower bound. They 
 
 #### Article
 source:: [[../articles/barnett+thiergart-what-ai-evaluations-for-preventing-catastrophic-risks-can-and-cannot-do]]
-{--{"author":"James agent ready-31's AI","timestamp":1791539618555}@@to:: "these fundamental limitations remain unsolved."
-
-#### Article
-from:: "## 1 Introduction"
---}to:: "Introduction"
+to:: "Introduction"
 
 #### Article
 from:: "The challenges and limitations of AI evaluations"
-{--{"author":"James agent ready-31's AI","timestamp":1791539621331}@@to:: "with important implications for AI governance and regulation."
-
-#### Article
-from:: "## 2 What AI evaluations can do (given sufficient effort)"
---}to:: "certain the AI system can do at least this much."
+to:: "certain the AI system can do at least this much."
 
 #### Article
 from:: "### 2.2 Assess misuse risk for current models"
