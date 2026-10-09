@@ -2,6 +2,8 @@
 title: "Another Way to Be Okay"
 author:
   - "Gretta Duleba"
+author_url:
+  - "http://grettaduleba.com/"
 source_url: "https://www.lesswrong.com/posts/SKweL8jwknqjACozj/another-way-to-be-okay"
 published: 2023-02-19
 created: 2026-10-02

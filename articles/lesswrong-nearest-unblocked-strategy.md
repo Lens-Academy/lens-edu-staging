@@ -1,7 +1,9 @@
 ---
 title: "Nearest unblocked strategy"
 author:
-  - "Lesswrong"
+  - {--{"author":"Elua's AI","timestamp":1791553774341}@@"Lesswrong"--}{++{"author":"Elua's AI","timestamp":1791553774341}@@"Eliezer Yudkowsky"
+author_url:
+  - "https://www.yudkowsky.net/"++}
 source_url: "https://www.lesswrong.com/w/nearest-unblocked-strategy"
 published: 2016-05-02
 created: 2026-09-23
