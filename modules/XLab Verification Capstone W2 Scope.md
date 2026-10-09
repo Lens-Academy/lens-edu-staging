@@ -7,7 +7,7 @@ tags: [wip]
 %% Week 2: the project starts. Self-study about 275 minutes: bank and sign-up 35, proposal 60, two project sessions 180. XLab material: v-capstone-project. Ours: v-capstone-proposal and the inline sessions lens. %%
 
 # Lens:
-source:: [[../Lenses/XLab Verification- v-c apstone-project]]
+source:: [[../Lenses/XLab Verification - v-capstone-project]]
 
 # Lens:
 source:: [[../Lenses/XLab Verification - v-capstone-proposal]]
