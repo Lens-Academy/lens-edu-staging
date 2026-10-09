@@ -7,7 +7,7 @@ title: Article excerpt demo
 ---
 #### Text
 content::
-This lens shows three short excerpts from the same article.
+This lens shows {--{"author":"James agent ready-31's AI","timestamp":1791539556088}@@three--}{++{"author":"James agent ready-31's AI","timestamp":1791539556088}@@two++} short excerpts from the same article.
 
 #### Article
 source:: [[../articles/wikipedia-existential-risk-from-ai]]
@@ -21,13 +21,12 @@ The UI can show collapsed content before or after excerpts when the source artic
 #### Article
 %%The processor carries the article source forward, so later `#### Article` segments can omit `source::`. %%
 from:: "> The upshot is simply a question of time"
-to:: "moment question."
+to:: {--{"author":"James agent ready-31's AI","timestamp":1791539553930}@@"moment question."
 
-%% You can also add {--{"author":"James agent ready-31's AI","timestamp":1791539502748}@@multiple--}{++{"author":"James agent ready-31's AI","timestamp":1791539502748}@@several++} article excerpts in a {--{"author":"James agent ready-31's AI","timestamp":1791539502748}@@row. --}{++{"author":"James agent ready-31's AI","timestamp":1791539502748}@@row, as long as something is left out between them (here the sentence that introduces Turing's quote, which shows as folded text). Two excerpts with nothing between them are a validator error: merge them into one excerpt instead. ++}%%
+--}{++{"author":"James agent ready-31's AI","timestamp":1791539553930}@@"of the world as they became more intelligent than human beings:"
+++}%% You can also add {--{"author":"James agent ready-31's AI","timestamp":1791539502748}@@multiple--}{++{"author":"James agent ready-31's AI","timestamp":1791539502748}@@several++} article excerpts in a {--{"author":"James agent ready-31's AI","timestamp":1791539553930}@@row. --}{++{"author":"James agent ready-31's AI","timestamp":1791539553930}@@row, as long as something is left out between them, which then shows as folded text. Two excerpts with nothing between them are a validator error: merge them into one excerpt instead. ++}%%{--{"author":"James agent ready-31's AI","timestamp":1791539553930}@@
 #### Article
-from:: {--{"author":"James agent ready-31's AI","timestamp":1791539502748}@@"In 1951, foundational computer scientist"
-to:: "of--}{++{"author":"James agent ready-31's AI","timestamp":1791539502748}@@"> Let us now assume, for++} the {--{"author":"James agent ready-31's AI","timestamp":1791539502748}@@world as they became more intelligent than human beings:"--}{++{"author":"James agent ready-31's AI","timestamp":1791539502748}@@sake of argument"
-to:: "converse with each other to sharpen their wits."++}
+to:: "of the world as they became more intelligent than human beings:"--}
 
 #### Chat
 instructions::
