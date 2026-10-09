@@ -5,6 +5,11 @@ author:
   - "Marie Davidsen Buhl"
   - "Jacob Pfau"
   - "Geoffrey Irving"
+author_url:
+  - "https://www.lesswrong.com/users/aleksandr-bowkis"
+  - ""
+  - ""
+  - "https://www.lesswrong.com/users/geoffrey-irving"
 source_url: "https://arxiv.org/html/2605.06390v3"
 published: 2026-05-07
 created: 2026-09-28

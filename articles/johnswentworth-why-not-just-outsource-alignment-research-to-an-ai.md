@@ -2,6 +2,8 @@
 title: "Why Not Just Outsource Alignment Research To An AI?"
 author:
   - "johnswentworth"
+author_url:
+  - "https://www.lesswrong.com/users/johnswentworth"
 source_url: "https://www.lesswrong.com/posts/3gAccKDW6nRKFumpP/why-not-just-outsource-alignment-research-to-an-ai"
 published: 2023-03-09
 created: 2026-09-28
