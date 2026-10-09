@@ -71,11 +71,11 @@ to:: "#### 2\. Physical limitations"
 
 #### Article
 from:: "Or to give another"
-to:: "damage per generation."
+{--{"author":"James agent ready-31's AI","timestamp":1791539601162}@@to:: "damage per generation."
 
 #### Article
 from:: "#### 3\. Utility maximization"
-to:: "satisfying voters’ values."
+--}to:: "satisfying voters’ values."
 
 #### Article
 from:: "Turning “satisfying"
