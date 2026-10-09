@@ -19,7 +19,9 @@ A lab uses a capable model U to write data-pipeline jobs. U may be scheming and 
 The lab is considering three changes, one at a time:
 
 (i) Widen the rewrite band so that it covers the 24% of jobs just below the audited 1%.
+
 (ii) Keep the band at 9%, but have a newer trusted model T2, correct 65% of the time, write the replacement jobs. T keeps doing the scoring.
+
 (iii) Narrow the rewrite band so that it covers only the 2% of jobs just below the audited 1%.
 
 1. For each change, say what happens to safety and to usefulness (the share of jobs that end up correct), and explain why. Where you can, estimate the change in usefulness.
