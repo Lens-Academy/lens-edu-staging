@@ -1,8 +1,8 @@
 ---
 id: b2c3d4e5-f6a7-8901-bcde-f23456789012
 duration_minutes: 5
-tldr: "A demo lens pulling three short excerpts from one Wikipedia article on existential risk from AI, showing how excerpt boundaries, carried-forward source metadata, and collapsed skipped text appear to the reader."
-summary_for_tutor: "Demonstrates the article-excerpt feature by drawing three ranges from a single source article (Wikipedia's 'Existential risk from artificial intelligence'), interleaved with text segments and a closing demo chat. It shows how excerpt from/to anchors work, how a later Article segment inherits the earlier source, and how skipped material collapses. The subject text is incidental; the lens exists to illustrate excerpting mechanics."
+tldr: "A demo lens pulling {--{"author":"James agent ready-31's AI","timestamp":1791539558179}@@three--}{++{"author":"James agent ready-31's AI","timestamp":1791539558179}@@two++} short excerpts from one Wikipedia article on existential risk from AI, showing how excerpt boundaries, carried-forward source metadata, and collapsed skipped text appear to the reader."
+summary_for_tutor: "Demonstrates the article-excerpt feature by drawing {--{"author":"James agent ready-31's AI","timestamp":1791539560135}@@three--}{++{"author":"James agent ready-31's AI","timestamp":1791539560135}@@two++} ranges from a single source article (Wikipedia's 'Existential risk from artificial intelligence'), interleaved with text segments and a closing demo chat. It shows how excerpt from/to anchors work, how a later Article segment inherits the earlier source, and how skipped material collapses. The subject text is incidental; the lens exists to illustrate excerpting mechanics."
 title: Article excerpt demo
 ---
 #### Text
