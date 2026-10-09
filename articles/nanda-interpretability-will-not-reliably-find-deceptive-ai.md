@@ -3,6 +3,8 @@ title: "Interpretability Will Not Reliably Find Deceptive AI"
 source_url: "https://www.alignmentforum.org/posts/PwnadG4BFjaER3MGf/interpretability-will-not-reliably-find-deceptive-ai"
 author:
   - "Neel Nanda"
+author_url:
+  - "https://www.neelnanda.io/"
 published: 2025-05-04
 created: 2026-02-27
 description: "Disclaimer: Post written in a personal capacity. These are personal opinions and do not in any way represent my employer's views • TL;DR: …"

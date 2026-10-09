@@ -7,6 +7,12 @@ author:
   - "Mikita Balesni"
   - "rusheb"
   - "AlexMeinke"
+author_url:
+  - "https://www.mariushobbhahn.com/"
+  - ""
+  - ""
+  - ""
+  - ""
 published: 2024-01-08
 created: 2026-02-27
 description: "This is a starter guide for model evaluations (evals). Our goal is to provide a general overview of what evals are, what skills are helpful for evalu…"
