@@ -42,7 +42,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-A bank limits what one trader can do and audits trades, so it stays safe even if someone is not trustworthy. That is control. Making sure people are trustworthy is closer to alignment.
+A bank that limits and audits each trader stays safe even if one is not trustworthy. That is control. Making people trustworthy is closer to alignment.
 
 1. Pick one organisation someone in your group knows from the inside. Examples:
     - a hospital
