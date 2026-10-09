@@ -3,6 +3,8 @@ title: "6 reasons why “alignment-is-hard” discourse seems alien to human int
 source_url: "https://www.lesswrong.com/posts/d4HNRdw6z7Xqbnu5E/6-reasons-why-alignment-is-hard-discourse-seems-alien-to"
 author:
   - "Steven Byrnes"
+author_url:
+  - "https://sjbyrnes.com/"
 published: 2025-12-03
 created: 2026-02-13
 description: "TL;DR: AI alignment has a culture clash. On one side, the “technical-alignment-is-hard” / “rational agents” school-of-thought argues that we should expect future powerful AIs to be power-seeking ruthless consequentialists. On the other side, people observe that both humans and LLMs are obviously capable of behaving like, well, not that. The latter group accuses the former of head-in-the-clouds abstract theorizing gone off the rails, while the former accuses the latter of mindlessly assuming that the future will always be the same as the present, rather than trying to understand things …"
