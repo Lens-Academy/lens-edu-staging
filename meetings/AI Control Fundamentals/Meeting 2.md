@@ -255,6 +255,7 @@ Research sabotage: An AI doing safety research and secretly making it fail, for 
 Sandbagging: Deliberately doing worse than one can, for example giving poor ideas when asked for experiment ideas.
 Online training: Training the model during deployment on a proxy for good work, such as code quality or human ratings. It does not need a guess of how an honest model's work would look, but the proxy may be poor and the model can learn to exploit it.
 Incrimination: Becoming confident from the evidence that a model is misaligned. In the low-stakes case it needs a good guess of how suspicious an honest model's work would look, which is hard to get.
+
 ### Module: Unit 2: The AI control field
 
 Control evaluation setting: A test environment in which a red team plays the scheming model against a protocol. Greenblatt suggests about a third of current control resources go to building and using these.
