@@ -22,7 +22,7 @@ First meeting, so start by getting to know each other. Go around:
 3. Your gut view, in a sentence or two. Read out the note you wrote at the start of this unit, or answer now: is work on AI control (using a powerful AI model that might be secretly working against us, while making sure it cannot cause a catastrophe) net positive, net negative, or too close to call?
 
 
-| Names | Who you are + your ground rule + each gut view in a few words |
+| Names | Who you are + each gut view in a few words |
 |------|------------------------|
 |  |  |
 |  |  |
