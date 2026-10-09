@@ -5,7 +5,7 @@ tldr: "Counting FLOP and knowing whether they were training are two different pr
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading on compute accounting rules, the Rahman and Tajdari telemetry study and its limitations, and a table separating adversary moves by what they attack. Ends with the from-result-to-policy-claim open question (observation, supported inference, unsupported policy leap, deployment dependencies). Reject answers that claim the study proves treaty-grade detection across frontier clusters or against a state controlling the measurement path."
 tags: []
 reading_minutes: 32
-tutor_minutes: 12
+tutor_minutes: 8
 ---
 #### Text
 content::
