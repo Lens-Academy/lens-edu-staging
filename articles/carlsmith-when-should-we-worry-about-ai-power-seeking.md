@@ -4,6 +4,8 @@ source_url: "https://joecarlsmith.substack.com/p/when-should-we-worry-about-ai-p
 audio-url: "https://www.buzzsprout.com/2034731/episodes/16651469-when-should-we-worry-about-ai-power-seeking.mp3"
 author:
   - "Joe Carlsmith"
+author_url:
+  - "https://joecarlsmith.com/"
 published: 2025-02-19
 created: 2026-02-13
 description: "Examining the conditions required for rogue AI behavior."
