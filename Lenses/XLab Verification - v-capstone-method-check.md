@@ -4,7 +4,8 @@ title: "Method check"
 tldr: "The crappy version exists, and it taught you something the proposal could not. This is the one point in the course where you may still change brief. Say what you learned, decide: continue, re-scope, or switch, and restate the realistic version so the next three weeks have a target."
 summary_for_tutor: "Lens Academy scaffolding for XLab's capstone; not XLab source material. Start-of-week-3 checkpoint, right after meeting 2. The learner has spent about three hours building the crappy version of their capstone and chasing the unknowns from their week 2 proposal, and has pitched the proposal to their group. Sequence: framing on the three outcomes (continue, re-scope, switch) and the signals for each, then five questions: status of the crappy version, what building it taught them, the decision, the revised plan, and hours versus plan. The facilitator reads all of it; the group heard the pitch at meeting 2, and the decision is the learner's. Help the learner read their own evidence honestly: a crappy version that was easy suggests the realistic version is too small; one that could not be started suggests the question is not yet a question. Switching brief is allowed here and nowhere later, and only to a brief the bank rates at 10 to 14 hours, because about ten hours of project time remain; if they switch, they must give a full proposal for the new brief in the revised-plan answer. If hours are below plan, find the cause and one concrete fix; never guilt."
 tags: [wip]
-duration_minutes: 30
+reading_minutes: 5
+tutor_minutes: 25
 ---
 #### Text
 content::
