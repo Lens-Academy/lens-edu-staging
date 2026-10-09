@@ -4,6 +4,8 @@ source_url: "https://www.slatestarcodexabridged.com/Meditations-On-Moloch"
 audio-url: "http://sscpodcast.libsyn.com/meditations-on-moloch"
 author:
   - "Scott Alexander"
+author_url:
+  - "https://www.astralcodexten.com/"
 published: 2014-07-30
 created: 2026-02-13
 description:

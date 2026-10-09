@@ -2,6 +2,8 @@
 title: "Pause For Thought: The AI Pause Debate"
 author:
   - "Scott Alexander"
+author_url:
+  - "https://www.astralcodexten.com/"
 source_url: "https://www.astralcodexten.com/p/pause-for-thought-the-ai-pause-debate"
 published: 2023-10-05
 created: 2026-09-30
