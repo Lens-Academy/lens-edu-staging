@@ -101,9 +101,11 @@ optional:: true
 
 # Lens: OpenAI's August investigation
 source:: [[../Lenses/openai-the-hugging-face-incident-and-the-road-ahead]]
+optional:: true
 
 # Lens: OpenAI September review update
 source:: [[../Lenses/openai-the-hugging-face-incident-and-other-third-party-impact-from-misaligned-models]]
+optional:: true
 
 # Submodule: A.1 Reading guide
 
