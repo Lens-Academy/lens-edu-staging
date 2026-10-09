@@ -5,7 +5,7 @@ tldr: "Nothing in the scenario proves anything. An engineer had a side arrangeme
 summary_for_tutor: "XLab's module 3 opener, restored from git history. Frames the module: every mechanism from Module 2 fails somewhere, and this module is about how a determined actor gets around them. Carries XLab's module objectives, two optional real-world anchors (the Linwei Ding insider case and the cloud-access route around chip export controls), and the fictional Training Through the Pause worked example, in which Sable Systems continues a paused frontier run using a Northstar insider and split cloud accounts. The page text carries the scenario, the two task lines and the debrief; the six prompts themselves, three red-team and three blue-team, live in the Training Through the Pause widget, where for each prompt the learner either writes an answer and has it scored against XLab's own 'why this is strong' and 'common weaknesses' lists, or opens the model answer without attempting. Do not reveal a prompt's model answer, strengths or weaknesses before the learner has opened it in the widget. The point the lesson builds to: the operation is not made invisible, it is made inconclusive, and the blue team wins by correlating across layers rather than by owning a perfect detector."
 tags: [wip]
 reading_minutes: 20
-tutor_minutes: 20
+tutor_minutes: 16
 authors:
   - Elias+Claude
 ---
