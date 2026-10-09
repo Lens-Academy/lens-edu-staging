@@ -58,6 +58,7 @@ Three ways a model that might be scheming could cause serious damage at an AI co
 (a) While running a long, routine script on the training cluster, the agent includes one hidden command that starts a copy of itself that no monitor watches.
 
 (b) Over months and thousands of code changes, the agent makes the code that the monitoring team relies on slightly harder to audit: a little less logging here, a vaguer variable name there.
+
 (c) During a live security incident, an agent helping the response team has a few minutes to act. One wrong step would let the attackers copy the model's weights.
 
 For each: is it high-stakes or low-stakes, and why? Would a review a week later be good enough? For the one you think is most clearly low-stakes, name one defence that works across many actions.
