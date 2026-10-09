@@ -64,6 +64,7 @@ collapse:: closed
 #### Video
 source:: [[../video_transcripts/far-ai-vivek-hebbar-low-stakes-control-controlconf]]
 from:: 16:28
+to:: 30:00
 optional:: true
 
 #### End Callout
