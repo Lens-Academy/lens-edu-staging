@@ -111,10 +111,6 @@ to:: gave the answers we wanted to see.
 
 #### Article
 from:: We found that OpenAI o4-mini and OpenAI o3 explicitly
-to:: much more evaluation aware than current models.
-
-#### Article
-from:: Through counterfactual tests with OpenAI o3
 to:: realizing that it is being evaluated.
 
 #### Question: Open

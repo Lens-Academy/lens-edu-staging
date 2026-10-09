@@ -15,10 +15,6 @@ Every route in this unit depends to some degree on how much AI companies and gov
 #### Article
 source:: [[../articles/greenblatt-plans-a-b-c-and-d-for-misalignment-risk]]
 from:: "I sometimes think about plans for how to handle misalignment risk."
-to:: "More responsible trailing AI companies should focus on exporting safety work (in addition to policy/coordination work)."
-
-#### Article
-from:: "## Plan E"
 to:: "(as this will might be spent incompetently)."
 
 #### Article
