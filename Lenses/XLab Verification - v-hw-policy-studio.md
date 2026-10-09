@@ -5,7 +5,7 @@ tldr: "The most common error is calling a demo a regime. Separate five maturity 
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. The five maturity stages, the August 2026 assessment, the dossier anatomy, then the hardware assurance brief as a graded open question with XLab's rubric weights in the assessment instructions (claim fidelity 25, trust chain 20, adversary 20, feasibility 15, layering 10, audience and update 10). Finally the return to the opening puzzle: the same claim-ledger widget from lesson 2.1 is placed again here. It opens blank, because Lens keeps a widget's answers with the page it sits on, so the learner reclassifies the seven conclusions now and compares them with the ledger they kept in 2.1 Hardware. XLab's resolution follows the widget in a closed callout titled Open after you have classified; do not give those verdicts away before the learner has judged all seven rows. Review the brief against the eight required elements before scoring."
 tags: [wip]
 reading_minutes: 15
-tutor_minutes: 40
+tutor_minutes: 30
 ---
 #### Text
 content::
