@@ -4,7 +4,7 @@ title: "Option A: Stress-test Plan A's Verification Regime"
 tldr: "Build a recommendation on Plan A from its strongest mechanism, weakest link, timeline, and covert-compute margin."
 summary_for_tutor: "One optional essay route. Complete A1–A4 as preparatory responses, then A5 as the final essay in this same lens. Final essay is intended for peer review. Grade reasoning, not agreement with the source."
 reading_minutes: 5
-tutor_minutes: 85
+tutor_minutes: 64
 tags: [wip]
 add_to_ai_context:
   - "[[../articles/dean-ai-2040-verification-plan]]"
