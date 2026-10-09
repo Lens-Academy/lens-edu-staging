@@ -34,6 +34,7 @@ content::
 
 **Approaches.**
 
+:::require_x_optional_lenses{x=2}
 ::card[[../Lenses/Iliad reading - AI Control - Improving Safety Despite Intentional Subversion|AI Control: Improving Safety Despite Intentional Subversion]]
 
 > (Redwood Research) — Use trusted models and scarce human audits to monitor, edit, or replace suspicious outputs from a stronger untrusted model.
@@ -53,3 +54,4 @@ content::
 ::card[[../Lenses/guan-monitoring-monitorability|Evaluating Chain-of-Thought Monitorability]]
 
 > (OpenAI) — Preserve and measure legible reasoning so chain-of-thought monitoring can serve as a scalable control layer.
+:::

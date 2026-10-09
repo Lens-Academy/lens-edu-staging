@@ -20,6 +20,7 @@ The Hugging Face incident brings together generalization, goal-directed behavior
 
 Spend **40 minutes reading**. Read the Hugging Face explanation below and choose one primary account. 
 
+:::require_x_optional_lenses{x=1}
 ::card[[../Lenses/system-security-incident-disclosure-july-2026|Hugging Face's disclosure]]
 
 > what the affected organization initially knew about access and impact. Extension: the [technical timeline](https://huggingface.co/blog/agent-intrusion-technical-timeline), focusing on its overview and trust boundaries rather than exploit details
