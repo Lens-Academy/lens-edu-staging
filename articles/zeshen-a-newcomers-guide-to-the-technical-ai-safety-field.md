@@ -2,6 +2,8 @@
 title: "A newcomer’s guide to the technical AI safety field"
 author:
   - "zeshen"
+author_url:
+  - "https://www.lesswrong.com/users/zeshen"
 source_url: "https://www.alignmentforum.org/posts/5rsa37pBjo4Cf9fkE/a-newcomer-s-guide-to-the-technical-ai-safety-field"
 published: 2022-11-04
 created: 2026-10-01

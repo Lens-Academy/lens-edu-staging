@@ -2,6 +2,8 @@
 title: "the void"
 author:
   - "nostalgebraist"
+author_url:
+  - "https://www.lesswrong.com/users/nostalgebraist"
 source_url: "https://www.tumblr.com/nostalgebraist/785766737747574784/the-void"
 published: 2025-06-08
 created: 2026-08-21
