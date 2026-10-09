@@ -13,10 +13,6 @@ The first half of this unit was about what control defends against. The second h
 #### Article
 source:: [[../articles/greenblatt-an-overview-of-areas-of-control-work]]
 from:: In this post, I'll list all the areas of control research
-to:: Now I'll elaborate on projects within each of these areas.
-
-#### Article
-from:: ## Developing and using settings for control evaluations
 to:: for the setting to be immediately useful.)
 
 #### Article

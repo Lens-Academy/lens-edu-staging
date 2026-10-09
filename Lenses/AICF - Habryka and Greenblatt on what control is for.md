@@ -15,10 +15,6 @@ In March 2024 Oliver Habryka and Ryan Greenblatt, co-author of the case for cont
 #### Article
 source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
 from:: "## The Case for Control Work"
-to:: "the details are probably best left to another discussion)"
-
-#### Article
-from:: "## What goes wrong with Control Work"
 to:: "shortening timelines and giving us less time to work on this"
 
 #### Text
