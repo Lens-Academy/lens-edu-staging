@@ -2,6 +2,7 @@
 title: How can LLMs be understood as “simulators”?
 source_url: https://aisafety.info/questions/9FQK/How-can-LLMs-be-understood-as-%E2%80%9Csimulators%E2%80%9D
 author: AISafety.info
+author_url: "https://aisafety.info/"
 published: 2025-11-01
 created: 2026-02-04
 description: A "simulator" is an AI which produces simulations of real-world phenomena. The concept was proposed as a way to understand some behaviors of (base) large language models (LLMs) which other conceptions of AI — such as agent, oracle, or tool AI — don't characterize well. In certain circumstances, a simulator might behave like an agent, o...
