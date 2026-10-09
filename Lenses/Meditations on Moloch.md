@@ -59,10 +59,6 @@ to:: "Let’s take this random gag 100% literally and see where it leads us."
 
 #### Article
 from:: "But not only have we not yet"
-to:: "reason – coordination."
-
-#### Article
-from:: "#### 1\. Excess resources"
 to:: "#### 1\. Excess resources"
 
 #### Article

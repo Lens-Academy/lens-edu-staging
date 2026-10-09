@@ -10,14 +10,6 @@ to:: "deserves a modicum of consideration."
 
 #### Article
 from:: "# 1.3 A far-more-powerful, yet-to-be-discovered, “simple(ish) core of intelligence"
-to:: "it will be able to do that same thing."
-
-#### Article
-from:: "# 1.4 Counter-arguments to there being a far-more-powerful future AI paradigm, and my responses"
-to:: "# 1.4 Counter-arguments to there being a far-more-powerful future AI paradigm, and my responses"
-
-#### Article
-from:: "## 1.4.1 Possible counter: “If a different, much more powerful, AI paradigm existed, then someone would have already found it.”"
 to:: "## 1.4.1 Possible counter: “If a different, much more powerful, AI paradigm existed, then someone would have already found it.”"
 
 #### Article
