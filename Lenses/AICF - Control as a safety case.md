@@ -40,7 +40,7 @@ The sketch is a proposal. Here is what one AI company actually wrote. Anthropic 
 
 #### Article
 source:: [[../articles/anthropic-sabotage-risk-report-claude-opus-4-6]]
-from:: "Given the current security, monitoring, and checks on Claude Opus 4.6"
+from:: "## 5 Our risk mitigations"
 to:: "voluntary disclosure by users or external researchers."
 
 #### Text
