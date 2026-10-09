@@ -16,12 +16,15 @@ source:: [[../Lenses/Iliad A.1.1 - Session 1 - Alignment targets]]
 
 # Lens: Coherent extrapolated volition
 source:: [[../Lenses/yudkowsky-coherent-extrapolated-volition]]
+optional:: true
 
 # Lens: Intent alignment
 source:: [[../Lenses/christiano-clarifying-ai-alignment]]
+optional:: true
 
 # Lens: Claude's constitution overview
 source:: [[../Lenses/anthropic-claudes-new-constitution]]
+optional:: true
 
 # Lens: Corrigibility
 source:: [[../Lenses/lesswrong-corrigibility]]
