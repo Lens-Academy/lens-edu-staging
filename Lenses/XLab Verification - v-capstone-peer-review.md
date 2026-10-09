@@ -5,7 +5,7 @@ tldr: "Read your partner's draft twice: once as the reader it is written for, on
 summary_for_tutor: "Lens Academy scaffolding for XLab's capstone; not XLab source material. Week 4. Two halves. First the learner reviews their partner's draft (received at meeting 3) against six lenses: reader and decision, claim discipline, adversary, maturity honesty, residual gaps, fit to deliverable type; one strength, one fix, one question per lens, then the single most valuable change. They write the review here (the facilitator reads it) and send a copy to the partner within three days of meeting 3. Second, they respond to the review they received: accept, reject with reason, or defer for each proposed fix, then a ranked revision plan for the remaining hours. Help the reviewer be specific (quote the sentence, name the row) and avoid rewriting the partner's project into their own; help the author reject well (a rejection with a reason is normal and expected) and rank changes by how much they improve the deliverable for its reader, not by how easy they are. Reviews are not scored against each other; do not compare partners."
 tags: [wip]
 reading_minutes: 40
-tutor_minutes: 50
+tutor_minutes: 45
 ---
 #### Text
 content::

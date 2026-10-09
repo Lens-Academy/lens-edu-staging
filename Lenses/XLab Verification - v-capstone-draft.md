@@ -5,7 +5,7 @@ tldr: "A draft is not a finished thing with worse prose. It is something a stran
 summary_for_tutor: "Lens Academy scaffolding for XLab's capstone; not XLab source material. Week 3 midpoint. The learner has about six hours of project work behind them and is handing a draft to a review partner (paired by the facilitator at meeting 2) before meeting 3, where partners read each other's drafts live. Sequence: rules for a readable draft, then three questions: link plus reader's guide, weakest part plus the question for the reviewer, hours versus plan. Help the learner write a reader's guide that gets a reviewer to the right place in ten minutes, and turn a vague worry ('is it good?') into a question a reviewer can answer ('does the evasion in row 3 actually get past the countermeasure in row 2?'). If the draft is not shareable yet, help them decide what to include so it is readable start to end even if short; a complete short draft beats a long fragment."
 tags: [wip]
 reading_minutes: 5
-tutor_minutes: 15
+tutor_minutes: 10
 ---
 #### Text
 content::
