@@ -1,9 +1,9 @@
 ---
 title: "Goodhart's Curse"
 author:
-  - {--{"author":"Elua's AI","timestamp":1791553779652}@@"Lesswrong"--}{++{"author":"Elua's AI","timestamp":1791553779652}@@"Eliezer Yudkowsky"
+  - "Eliezer Yudkowsky"
 author_url:
-  - "https://www.yudkowsky.net/"++}
+  - "https://www.yudkowsky.net/"
 source_url: "https://www.lesswrong.com/w/goodhart-s-curse"
 published: 2017-02-22
 created: 2026-09-23
