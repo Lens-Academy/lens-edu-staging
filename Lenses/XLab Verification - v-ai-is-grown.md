@@ -3,8 +3,8 @@ id: 'f7c03cdf-ff91-4c4c-9e43-837884e28dc6'
 title: "AI Is Grown, Not Built"
 tldr: "Nobody sat down and programmed ChatGPT to have conversations. Instead, engineers set up a training process and let billions of parameters arrange themselves. The result can talk, reason, and surprise its creators, but nobody can fully explain how. This article asks what it means to deploy something powerful when you can't explain how it works."
 summary_for_tutor: "Optional further reading offered from 0.1 Introduction, for learners who want the case for advanced AI risk at full strength. Covers how modern AI systems are grown through training rather than designed line by line: engineers understand the training process but not the resulting system, which produces emergent and sometimes surprising behaviour. Establishes that this opacity is a feature of the current paradigm, not a temporary limitation. The learner reads the article, answers one explain-it-to-a-friend question, then discusses it with you."
-reading_minutes: 10
-tutor_minutes: 5
+reading_minutes: 8
+tutor_minutes: 8
 tags: []
 ---
 #### Text
