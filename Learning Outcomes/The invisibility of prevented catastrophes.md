@@ -1,6 +1,6 @@
 ---
 id: '83a95610-f85e-4b4e-b0cf-b50b1842a037'
-writing_minutes: 15
+writing_minutes: 10
 learning-outcome: "Explain why a prevented catastrophe leaves no visible event, why this biases people against taking invisible risks like AI seriously, and identify what evidence distinguishes a risk that was averted from one that was overstated."
 topic: "[[../Domains and Topics/10 Governance and Policy/International coordination]]"
 stage: beginner
