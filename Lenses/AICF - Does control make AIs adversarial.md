@@ -20,7 +20,7 @@ from:: It is not straightforward to interpret the results.
 to:: the goals related to “goodness” jumped significantly from very small base rates.
 
 #### Article
-from:: The study used a single model family (GPT-4.1)
+from:: "## **Limitations**"
 to:: but those findings were confounded by eval-awareness.
 
 #### Text
@@ -33,7 +33,7 @@ from:: LLMs pretrained on data about misaligned AIs themselves become less align
 to:: We recommend labs pretrain for alignment, just as they do for capabilities.
 
 #### Article
-from:: ![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/cam-alignment-pretraining-ai-discourse-causes-self-fulfilling-mis-alignment-img4-64bea0e4.png)
+from:: "### Base Models: AI Discourse Causally Affects Alignment"
 to:: but does not fully erase them.
 
 #### Article
