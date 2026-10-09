@@ -23,10 +23,11 @@ The UI can show collapsed content before or after excerpts when the source artic
 from:: "> The upshot is simply a question of time"
 to:: "moment question."
 
-%% You can also add multiple article excerpts in a row. %%
+%% You can also add {--{"author":"James agent ready-31's AI","timestamp":1791539502748}@@multiple--}{++{"author":"James agent ready-31's AI","timestamp":1791539502748}@@several++} article excerpts in a {--{"author":"James agent ready-31's AI","timestamp":1791539502748}@@row. --}{++{"author":"James agent ready-31's AI","timestamp":1791539502748}@@row, as long as something is left out between them (here the sentence that introduces Turing's quote, which shows as folded text). Two excerpts with nothing between them are a validator error: merge them into one excerpt instead. ++}%%
 #### Article
-from:: "In 1951, foundational computer scientist"
-to:: "of the world as they became more intelligent than human beings:"
+from:: {--{"author":"James agent ready-31's AI","timestamp":1791539502748}@@"In 1951, foundational computer scientist"
+to:: "of--}{++{"author":"James agent ready-31's AI","timestamp":1791539502748}@@"> Let us now assume, for++} the {--{"author":"James agent ready-31's AI","timestamp":1791539502748}@@world as they became more intelligent than human beings:"--}{++{"author":"James agent ready-31's AI","timestamp":1791539502748}@@sake of argument"
+to:: "converse with each other to sharpen their wits."++}
 
 #### Chat
 instructions::
