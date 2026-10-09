@@ -4,7 +4,8 @@ title: "From signal to intelligence assessment"
 tldr: "A sensor records a hot roof; you infer chips; you judge a covert run. Those are three different claims, and most fights about evidence are really fights about the assumption in the middle. Learn to keep observation, inference and judgment apart, ask what else explains the signal, and know what a source is worth before you escalate."
 summary_for_tutor: "Imported from XLab's Verification curriculum; a five-minute reading with no questions. It separates observation, inference and judgment; names what breaks the chain (alternative explanations, dual-use ambiguity, base rates such as the roughly 500 datacenters above 10 MW); gives four source-quality questions (reliability, timeliness, corroboration, confidence); and states the progression anomaly, verification lead, suspected non-compliance. One optional reading: the CIA Tradecraft Primer sections on Quality of Information Check, Indicators or Signposts of Change, and Analysis of Competing Hypotheses. The Unfinished writing callout is XLab's note that the case-brief packet task is not yet built; do not improvise a packet. If the learner brings a scenario, coach them to label each statement as observation, inference or judgment."
 tags: [wip]
-duration_minutes: 5
+reading_minutes: 10
+tutor_minutes: 0
 ---
 #### Text
 content::
