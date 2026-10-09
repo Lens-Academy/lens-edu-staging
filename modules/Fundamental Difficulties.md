@@ -103,6 +103,7 @@ source:: [[../Lenses/alexander-the-tails-coming-apart-as-metaphor-for-life]]
 # Lens: Goodhart's Curse
 id:: 2d59925c-6c0c-47b5-95f5-f081380e8585
 optional:: true
+reading_minutes:: 7
 #### Article
 source:: [[../articles/lesswrong-goodharts-curse]]
 to:: "that don't break in less extreme engineering domains.""
