@@ -268,4 +268,10 @@ Transformatively useful AI: AI capable of substantially reducing risk from later
 Catching an AI red-handed: Finding clear evidence that a model tried to cause a bad outcome. Greenblatt and Shlegeris count it as a win in control evaluations, because after a catch, shutting down until there are solutions becomes far more likely.
 Control property: A set of safety techniques has it when potentially scheming models are not capable of finding and executing a subversion strategy with more than a small probability of an unacceptable outcome, such as exfiltrating their weights or hacking the datacenter.
 Control evaluation: A test of a protocol in which a red team searches for attacks that untrusted models could use and estimates how likely an unacceptable outcome would be if the models used them.
+Honeypot: A fake opportunity to misbehave, set up by the lab so it can test whether a model takes it. Because the lab controls what the model sees, it can do this many times, and one catch says something about every copy.
+Auditing: Shlegeris's word for checks by humans or an expensive process, which can only cover a small share of a model's actions.
+
+### Module: Control today, and first criticisms
+
+Insider threat: The risk that someone inside an organisation misuses the access they legitimately have. Google DeepMind treats its own AI agents as possible insider threats.
 Warning shot: In Jan Kulveit's post, a visible AI incident short of catastrophe. He argues moderate warning shots would push the world to act, and that control makes them rarer.
