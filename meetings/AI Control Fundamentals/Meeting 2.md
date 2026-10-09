@@ -258,7 +258,7 @@ Incrimination: Becoming confident from the evidence that a model is misaligned. 
 Control evaluation setting: A test environment in which a red team plays the scheming model against a protocol. Greenblatt suggests about a third of current control resources go to building and using these.
 Alignment Project: The UK AI Security Institute's fund for alignment and control research, which reached £27m and named its first 60 grantees in February 2026.
 Covert malicious fine-tuning: An AI secretly training another AI to behave badly, one of the threats in the UK AI Security Institute's research areas.
-Chain-of-thought monitor: A monitor that reads a model's written reasoning and sends suspicious cases to human review. Bhatt says OpenAI and Anthropic run these asynchronously.
+Chain-of-thought monitor: A monitor that reads a model's written reasoning and sends suspicious cases to human review. Google DeepMind says it monitors its models' visible chain of thought today, but that this will not be enough once models know they are monitored or reason without visible text.
 METR: An outside evaluator. In early 2026 it reviewed the risks from AI agents inside Anthropic, Google, Meta and OpenAI and found gaps in monitoring coverage.
 Asynchronous review versus real-time blocking: Google DeepMind's rule: low-risk, reversible actions are reviewed after a delay, high-risk actions are blocked before they take effect.
 ControlArena: A library for running control experiments, released by the UK AI Security Institute in October 2025.
