@@ -3,7 +3,7 @@ title: "HOW INFORMATION FLOWS THROUGH TRANSFORMERS"
 author:
   - "j⧉nus"
 source_url: "https://animalabs.ai/field-notes/transformers/"
-published: 2026-10-09
+published: {--{"author":"AI","timestamp":1791542394899}@@2026-10-09--}{++{"author":"AI","timestamp":1791542394899}@@2025-09-11++}
 created: 2026-10-09
 accessed: 2026-10-09
 llm-review:
