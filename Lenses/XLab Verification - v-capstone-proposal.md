@@ -5,7 +5,7 @@ tldr: "One hour of scoping saves five hours of drifting. Turn the brief you sign
 summary_for_tutor: "Lens Academy scaffolding for XLab's capstone; not XLab source material. The learner read Aaron Scher's research tips and wrote the defended-ranking memo in week 1, and has just signed up for a brief from the bank (or proposed their own) in the previous lens. Sequence: framing text on what a proposal is for, an obviously made-up illustrative example, then seven questions: question and reader, deliverable and done, crappy and realistic versions, inputs and unknowns, hours plan, team size, mentor. The facilitator reads every answer and the learner pitches a two-minute version at meeting 2. Your job is to make each answer more specific, never to write it. Push on: a reader named by role and decision rather than 'policymakers'; a question rather than a topic; a crappy version small enough to finish in one sitting; unknowns that could actually sink the project. If the learner has not chosen a brief, send them back to the bank lens. If they propose their own idea, check it is relevant to technical AI governance and aimed at an AI-safety-related theme. Do not grade or rank the choice of brief."
 tags: [wip]
 reading_minutes: 10
-tutor_minutes: 50
+tutor_minutes: 35
 ---
 #### Text
 content::
