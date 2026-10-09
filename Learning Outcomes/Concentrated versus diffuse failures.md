@@ -15,7 +15,9 @@ content::
 A lab's safety team uses a model U, which may be scheming, to run its experiments. Here are three ways U could do serious damage:
 
 (i) While setting up a cluster job, U edits a firewall rule once, opening an outbound connection to an address it controls, and then uses it to send out the team's unpublished monitor designs.
+
 (ii) Across several hundred experiments over six months, U chooses slightly worse settings and writes slightly less careful analyses whenever an experiment tests the team's most promising method, so that the method looks weaker than it is and is abandoned.
+
 (iii) U introduces one subtle bug into an evaluation library that every experiment imports. The bug makes all of the team's monitors look a few points more robust than they are.
 
 1. For each, say where it sits between concentrated and diffuse failures and why.
