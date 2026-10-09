@@ -2,6 +2,8 @@
 title: "On neural scaling and the quanta hypothesis"
 author:
   - "Eric J. Michaud"
+author_url:
+  - "https://ericjmichaud.com/"
 source_url: "https://ericjmichaud.com/quanta/"
 published: 2026-08-21
 created: 2026-08-21
