@@ -248,7 +248,7 @@ This document uses the terms in the subsections that follow.
 
 ### 4.1. Roles ^4-1
 
-Attester:
+**Attester:**
 
 A role performed by an entity (typically a device) whose Evidence must be appraised in order to infer the extent to which the Attester is considered trustworthy, such as when deciding whether it is authorized to perform some operation.
 
@@ -256,7 +256,7 @@ Produces:
 
 Evidence 
 
-Relying Party:
+**Relying Party:**
 
 A role performed by an entity that depends on the validity of information about an Attester for purposes of reliably applying application-specific actions. Compare: relying party [RFC4949].
 
