@@ -119,7 +119,7 @@ One or two people share what their group landed on.
 
 
 1. Accountability buddies: pair up (a trio is fine) and swap contact details in the table. Before each meeting you check in: did you finish, are you coming?
-2. Next unit: why a threat that needs one bad action calls for different defences from one that needs a thousand, and who works on control and on what. About 3.5 hours. What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
+2. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
 3. Feedback: what would make the course and this meeting better?
 
 
