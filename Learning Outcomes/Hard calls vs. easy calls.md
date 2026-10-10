@@ -43,7 +43,24 @@ Score {--{"author":"Andreas's AI","timestamp":1791596804578}@@according to --}{+
 {--{"author":"Andreas's AI","timestamp":1791596828970}@@**4**: As above, --}{++{"author":"Andreas's AI","timestamp":1791596828970}@@**Level 5 (86-100):** All of level 4, ++}plus {--{"author":"Andreas's AI","timestamp":1791596828970}@@articulates the whether/when asymmetry. *Example: Adds "They're saying timelines are--}{++{"author":"Andreas's AI","timestamp":1791596828970}@@a correct extension beyond what the question asks. An extension is++} a {--{"author":"Andreas's AI","timestamp":1791596828970}@@hard call but whether it's dangerous is an easy call, like predicting powered flight would happen without knowing the Wright Brothers would do it."*
 
 **5**: As above, plus productively interrogates--}{++{"author":"Andreas's AI","timestamp":1791596828970}@@further point with its own reasoning; restating the points above in more precise or technical terms is still level 4, and so is the point about timing. Two that fit: questioning++} the classification {--{"author":"Andreas's AI","timestamp":1791596828970}@@itself: what assumptions--}{++{"author":"Andreas's AI","timestamp":1791596828970}@@itself (what would++} make {--{"author":"Andreas's AI","timestamp":1791596828970}@@something "reliable enough" to be--}{++{"author":"Andreas's AI","timestamp":1791596828970}@@a mechanism reliable enough for++} an easy call, {--{"author":"Andreas's AI","timestamp":1791596828970}@@or--}{++{"author":"Andreas's AI","timestamp":1791596828970}@@and++} whether the authors have {--{"author":"Andreas's AI","timestamp":1791596828970}@@actually established that.--}{++{"author":"Andreas's AI","timestamp":1791596828970}@@shown that for AI), which counts whichever way the learner comes down if the reasoning holds; or why the warning seems implausible even though it is an easy call (what feels unlikely is the unfamiliar route, while the call rests on how the system works). Another extension of the same substance counts equally. Within this range the score reflects the whole answer: near the top only when the level 4 points and the extension are both well developed, and near the bottom when a strong extension rests on a thin base.++} *Example: "I'd want to push back on whether the mechanism really does make the outcome inevitable. The easy/hard framework assumes we know enough about how capable AI behaves to treat it like an ice cube melting, but do we?"*
+{++{"author":"Andreas's AI","timestamp":1791596844618}@@
+force-feedback:: first
+feedback-instructions:: Respond to the argument the learner actually made, and credit only what the answer says: do not attribute to them a point they did not make. Aim the reply at the idea they are missing, not at the score: frame the push as something about the material, never as what would earn more points. If they ask about their score, explain it by what the answer showed and what it left out, without naming levels or bands.
 
+Open on the strongest thing in their answer and why it holds, in one sentence. If the answer goes beyond the question while one of its three parts (what makes a call easy or hard, where the authors place their warning, why) is only asserted, that part is the push: deepening the base comes before going further. Otherwise, push once, chosen by where they stopped:
+
+- If they treated easy calls as likely outcomes and hard calls as unlikely ones, ask whether an ice cube in a warm room is an easy call because melting is likely, or because of what they know about how melting works.
+- If they had the rough idea but not what makes an outcome predictable, ask what does the work in an easy call: knowing the details of what will happen, or knowing how the thing works.
+- If they explained the distinction but not where the authors place their warning or why, ask which side the warning falls on, and what about how such an AI would work lets the authors put it there.
+- If they answered all three parts and went no further, the moves left go beyond the question: whether the authors have shown the mechanism is reliable enough for an easy call, or why the warning feels implausible even though it is one. Ask about whichever their answer comes closest to.
+
+A learner who reconstructs the framework and then disagrees with where the authors put AI has done what was asked. Engage with the disagreement rather than steering them back to the authors' view.
+
+If they made one of these moves, or another of the same substance, with all three parts solid, say so plainly in a sentence or two after the opening, without walking back through the parts they got right, and stop, with no follow-up question: inventing a further push would be false, so this reply can be shorter than the length below.
+
+At most one follow-up question. No generic praise, and do not recite the rubric back to them.
+
+Response length: 100 to 160 words. Short paragraphs. No lists.++}
 
 # Suggested Lenses:
 ## Lens:
