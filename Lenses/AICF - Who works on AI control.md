@@ -192,9 +192,6 @@ The UK AI Security Institute is a government body. Its Control team "aims to adv
 
 #### End Callout
 
-#### Callout: Apollo Research
-collapse:: closed
-
 #### Text
 content::
 \### Universities and smaller groups
