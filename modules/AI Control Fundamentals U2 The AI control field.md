@@ -28,8 +28,8 @@ source:: [[../Lenses/AICF - Who works on AI control]]
 id:: 1a80fa3c-d847-48d7-b94b-dd7fb264aa9e
 reading_minutes:: 3
 tutor_minutes:: 10
-tldr:: Three pieces of control work to place: which area, and who is placed to do it.
-summary_for_tutor:: Practice lens at the end of Unit 2 of AI Control Fundamentals, before the learning-outcome test on the AI control field. One scored question with tutor feedback: place three pieces of control work in a research area and say which kind of organisation is placed to do each. Give feedback that teaches. Do not give the learner the test.
+tldr:: Three pieces of control work: what access each needs, and who is placed to do it.
+summary_for_tutor:: Practice lens at the end of Unit 2 of AI Control Fundamentals, before the learning-outcome test on the AI control field. One scored question with tutor feedback: for three pieces of control work, say what access to AI developers' systems or independence from them each needs, and which kind of organisation is placed to do it. Give feedback that teaches. Do not give the learner the test.
 #### Question: Open
 id:: 1f07d77a-6981-4703-aecd-dcf56f9453c6
 content::
