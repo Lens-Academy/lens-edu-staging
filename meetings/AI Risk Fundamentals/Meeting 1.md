@@ -167,7 +167,7 @@ Before you leave (your navigator will talk through these):
 
 - **Fill in the Meeting 1 Survey on the Lens platform (it counts for your certificate). It unlocks right after this meeting and pops up the next time you open the course.**
 - Next unit's reading: Chapter 4: You Don't Get What You Train For + Chapter 5: Its Favorite Things + Chapter 6: We’d Lose
-- Message your accountability buddy on Discord today, so you have each other's handles. See you next unit!
+- Message your accountability buddy today, so you have each other's contact details. See you next unit!
 
 
 ---
