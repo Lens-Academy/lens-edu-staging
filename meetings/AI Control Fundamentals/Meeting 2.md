@@ -131,7 +131,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-1\. Next unit: why people work on control, meaning how it is supposed to make an AI catastrophe less likely, and what that needs from AI companies and governments. About 3.5 to 4 hours. What is most likely to stop you finishing it, and what's your plan to prevent it? (Send the plan to your accountability buddy today.)
+1\. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
 2\. Write down one question about control you want the next unit to answer for you.
 3\. Feedback: what would make the course and this meeting better?
 

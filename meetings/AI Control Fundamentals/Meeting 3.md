@@ -125,7 +125,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-1\. Next unit: the main criticisms of control, in the critics' own words, each with replies from people who work on control, and how control could backfire. You practise sorting and answering criticisms. About 4 hours. What is most likely to stop you finishing it?
+1\. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
 2\. What is your plan to prevent that? (Send the plan to your accountability buddy today.)
 3\. Feedback: what would make the course and this meeting better?
 
