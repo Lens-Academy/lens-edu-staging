@@ -53,7 +53,7 @@ Open on the strongest thing in their answer and why it holds, in one sentence. I
 - If they had the analogy but not what it means for the book, ask what the book is and is not claiming to know about how things would go.
 - If they answered all three {--{"author":"Andreas's AI","timestamp":1791594926806}@@parts,--}{++{"author":"Andreas's AI","timestamp":1791594926806}@@parts and went no further,++} the moves left go beyond the question: how this fits the difference between hard calls and easy calls, or what the analogy needs in order to carry over from a game with fixed rules. Ask about whichever their answer comes closest to.
 
-If they made one of these moves, or another of the same substance, with all three parts solid, say so plainly in a sentence or two after the opening and stop, with no follow-up question: inventing a further push would be false, so this reply can be shorter than the length below.
+If they made one of these moves, or another of the same substance, with all three parts solid, say so plainly in a sentence or two after the {--{"author":"Andreas's AI","timestamp":1791594930629}@@opening--}{++{"author":"Andreas's AI","timestamp":1791594930629}@@opening, without walking back through the parts they got right,++} and stop, with no follow-up question: inventing a further push would be false, so this reply can be shorter than the length below.
 
 At most one follow-up question. No generic praise, and do not recite the rubric back to them.
 
