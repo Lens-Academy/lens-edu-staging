@@ -29,10 +29,11 @@ The Introduction introduces a framework for thinking about predictions: some thi
 In your own words, what makes a prediction an easy call versus a hard call? And where do the authors place their central warning about AI on that spectrum, and why?
 
 assessment-instructions::
-Score according to the following rubric.
-**1**: Conflates easy/hard calls with likely/unlikely outcomes; no understanding of the mechanism. *Example: "Easy calls are things that will definitely happen."*
+Score {--{"author":"Andreas's AI","timestamp":1791596804578}@@according to --}{++{"author":"Andreas's AI","timestamp":1791596804578}@@out of 100. Pick the level that best describes the answer as a whole, then a score inside that level's range: near the top if the answer fully reaches the level, near the bottom if it only just does. Judge what the answer shows the learner understands, not only what it spells out: a correct extension that depends on a point shows that point is understood, even if ++}the {--{"author":"Andreas's AI","timestamp":1791596804578}@@following rubric.
+**1**:--}{++{"author":"Andreas's AI","timestamp":1791596804578}@@answer states it briefly. An extension shows nothing about points it does not depend on.
 
-**2**: Has the rough intuition (some futures are more knowable than others) but cannot explain what makes a prediction path-independent. *Example: "Easy calls are things we're pretty confident about. Hard calls depend on too many unknowns."*
+**Level 1 (0-20):**++} Conflates easy/hard calls with likely/unlikely outcomes; no understanding of the mechanism. *Example: "Easy calls are things that will definitely happen."*
+{--{"author":"Andreas's AI","timestamp":1791596810293}@@**2**:--}{++{"author":"Andreas's AI","timestamp":1791596810293}@@**Level 2 (21-40):**++} Has the rough intuition (some futures are more knowable than others) but cannot explain what makes {--{"author":"Andreas's AI","timestamp":1791596810293}@@a prediction path-independent.--}{++{"author":"Andreas's AI","timestamp":1791596810293}@@some outcomes predictable whatever route events take.++} *Example: "Easy calls are things we're pretty confident about. Hard calls depend on too many unknowns."*
 
 **3**: Correctly explains the distinction (easy call = outcome follows reliably from mechanism regardless of path; hard call = depends on specific contingencies) and correctly places ASI danger as an easy call. *Example: "An easy call is when the outcome follows from how things work, even if we can't predict exactly how it unfolds. The authors say ASI danger is an easy call because if capable AI is built with current techniques, the risk follows from its nature, not from any particular accident."*
 
