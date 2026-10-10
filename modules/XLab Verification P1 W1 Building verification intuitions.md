@@ -15,13 +15,11 @@ source:: [[../Lenses/XLab Verification - v-intuitions]]
 # Lens:
 source:: [[../Lenses/XLab Verification - v-intuitions-plan-a]]
 
-# Lens:
+# Choose: 1
+## Lens:
 source:: [[../Lenses/XLab Verification - v-intuitions-a1]]
-optional:: true
-
-# Lens:
+## Lens:
 source:: [[../Lenses/XLab Verification - v-intuitions-b1]]
-optional:: true
 
 # Lens:
 source:: [[../Lenses/XLab Verification - v-intuitions-success]]
