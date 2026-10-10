@@ -135,6 +135,9 @@ One or two people share what their group landed on.
 
 Back in the main room, share if you feel like it: one thing you're glad you know now that you didn't know 90 minutes ago.
 
+Before you leave (your navigator will talk through these):
+
+- Message your accountability buddy today, so you both know the channel works before the next meeting.
 
 ---
 
