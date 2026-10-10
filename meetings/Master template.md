@@ -207,7 +207,7 @@ source:: [[shared/Navigator Run-Sheet - Zoom breakout timer]]
 
 
 1. Ask for "one thing I'm taking away" from anyone who wants it (~10 sec each; a few voices is plenty, people have already shared between rooms).
-2. **Next-unit heads-up: {{remind them of next unit's reading and any action-plan step}}.**
+2. **Remind them to send their plan for the next unit to their accountability buddy{{, and any other action-plan step}}.**
 3. **End on time.** Then say the meeting **stays open** for anyone who wants to keep talking; stay and facilitate, or say goodbye and leave (they can keep going without you).
 
 
