@@ -44,4 +44,4 @@ Your navigator isn't in every room, so:
 ### After we wrap
 
 - **What happens at 1:30?** We close on time. The meeting then stays open; hang around and keep talking if you'd like, no pressure.
-- **How do accountability buddies work?** Buddy groups are formed in trouped into a trio or a pair. For the rest of the course, your buddies check in with you before each meeting. Swap whatever the last room asked you to take away: a plan, a next step, or simply what changed your mind. If your accountability buddies are no longer taking the course, ask your navigator to place you with new group.
+- **How do accountability buddies work?** Buddy groups are formed in the first sessionsrouped into a trio or a pair. For the rest of the course, your buddies check in with you before each meeting. Swap whatever the last room asked you to take away: a plan, a next step, or simply what changed your mind. If your accountability buddies are no longer taking the course, ask your navigator to place you with new group.
