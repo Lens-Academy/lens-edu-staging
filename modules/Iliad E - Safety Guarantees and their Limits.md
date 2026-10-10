@@ -118,6 +118,8 @@ source:: [[../Lenses/Iliad E.3.2 - Reading guide and further reading]]
 # Lens: Transformer Circuit Faithfulness Metrics Are Not Robust
 source:: [[../Lenses/miller-transformer-circuit-faithfulness-metrics-are-not-robust]]
 
+# Lens: Compact proofs of model performance via mechanistic interpretability
+source:: [[../Lenses/gross-compact-proofs-of-model-performance-via-mechanistic-interpretability]]
 # Lens: ARC: Formal verification, heuristic explanations and surprise
 source:: [[../Lenses/hilton-formal-verification-heuristic-explanations-and-surprise-accounting]]
 

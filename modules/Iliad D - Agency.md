@@ -165,6 +165,8 @@ source:: [[../Lenses/so8res-walkthrough-of-the-tiling-agents-for-self-modifying-
 # Lens: An intuitive guide to Garrabrant induction
 source:: [[../Lenses/xu-an-intuitive-guide-to-garrabrant-induction]]
 
+# Lens: Logical induction
+source:: [[../Lenses/garrabrant-logical-induction]]
 # Lens: The ground of optimization
 source:: [[../Lenses/flint-the-ground-of-optimization]]
 
