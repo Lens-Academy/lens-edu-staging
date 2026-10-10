@@ -3,7 +3,7 @@ id: '9feb77d8-c356-4f82-92ed-91425116932d'
 title: Role Attribution Survey
 ---
 
-%% Sent to an alumnus once we see they got a paid full-time AI safety job or fellowship (category A1 or A2), at the 3, 6 or 12 month checkpoint. Not attached to any meeting. Why it exists, who gets it and how we report it: [[../../Lens/Growth/Impact Tracking/Career Outcomes and Attribution]]. Keep Q1 first: it must be answered before Lens is named. %%
+%% Sent to an alumnus once we see they got a paid full-time AI safety job or fellowship (category A1 or A2), at the 3, 6 or 12 month checkpoint. Not attached to any meeting. Why it exists, who gets it and how we report it: [[../../Lens/04-Growth/Impact Tracking/Career Outcomes and Attribution]]. Keep Q1 first: it must be answered before Lens is named. %%
 
 #### Question: Open
 id:: c7493b02-fd97-4b79-aeda-bff42748ff36
