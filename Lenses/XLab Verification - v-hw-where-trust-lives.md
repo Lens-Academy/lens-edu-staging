@@ -70,7 +70,7 @@ Possible components include network taps, server or rack gateways, input/output 
 Recent work has proposed fingerprinting or committing cluster input and output through external taps and secure gateways. These designs are research proposals. Their value is to make the trust-placement problem concrete, not to show that the engineering and political problems are solved.
 
 :::callout {title="Source" tone="neutral" collapse="closed"}
-N. Cankaya et al., *Fingerprinting All AI Cluster I/O Without Mutually Trusted Processors*, [arXiv:2606.10724](https://arxiv.org/abs/2606.10724), June 2026. Treat the architecture and implementation schedule as a research proposal.
+N. Cankaya et al., *Fingerprinting All AI Cluster I/O Without Mutually Trusted Processors*, [arXiv 2606.10724](https://arxiv.org/abs/2606.10724), June 2026. Treat the architecture and implementation schedule as a research proposal.
 :::
 
 \#### Architecture C: off-chip analog monitoring
