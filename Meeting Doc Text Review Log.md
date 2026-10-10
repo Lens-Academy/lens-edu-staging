@@ -23,6 +23,8 @@ Modeled on [[AIRF Restructure Log]] and [[CV1 Streamlining Proposal]], but kept 
 
 **Status, 2026-10-06.** Batch 2 has started: general and shared issues first, then all of AI Futures, with Meeting 4 running the week of 2026-10-12. The worklist is in section 3.
 
+**Status, 2026-10-10.** Andreas rewrote the shared blocks (How today works, Open discussion, Participant FAQ), and the other two How today works variants were brought into line as suggestions. Repeated lines are now reviewed one at a time, starting with the Tutor help note.
+
 **Where things are.**
 
 | Section | What it holds |
@@ -85,6 +87,14 @@ Each entry gives the decision, who made it, the reason, and what it commits us t
 **Batch 2: general and shared issues first, then all of AI Futures.** *Andreas, 2026-10-06.* AIRF and CV1 cohorts are wrapping up, so nothing in those courses is urgent. AI Futures Meeting 4 runs the week of 2026-10-12, which leaves time to do the whole course rather than Meeting 4 alone. Shared and recurring lines come first, so the AI Futures rewrites start from settled wording instead of settling it doc by doc. Plan in section 3.
 
 **Batch 2 covers the shared Participant FAQ, and AIRF's inline copies are synced by hand.** *Claude's working assumption, 2026-10-06. Not yet confirmed.* The FAQ is a shared block, so it belongs with the shared issues, even though the other non-Session-Doc tabs wait for later. AIRF's inline copies get the same changes copied in rather than being switched to the shared files, because switching is a structural change.
+
+**Repeated lines are reviewed one at a time, including the ones settled in batch 1.** *Andreas, 2026-10-10.* There is time to refine them into better versions rather than copying batch 1's wording everywhere. This replaces Claude's 2026-10-06 proposal to copy batch 1's versions into every doc by default. "Two hours" becomes "90 minutes" either way: meetings last 90 minutes.
+
+**Buddy groups favor trios over pairs.** *Andreas, 2026-10-10.* People drop out over a course. When one person in a pair drops out, the other is left alone; a trio still leaves two. The shared FAQ's buddy answer now says so. Still to follow: AI Futures Meeting 1 ("Your navigator pairs you up", and its "Buddy pairs" table), AIRF's inline FAQ copies, and the master template's FAQ placeholder. AIRF Meeting 1 and CV1 Meeting 1 already form buddy groups from the Room 4 breakout room.
+
+**How today works drops the "Lost the doc link" line.** *Andreas, 2026-10-10.* What it was for is unclear. Its advice, the Zoom chat, does not reach people inside breakout rooms, and the Participant FAQ covers the question anyway.
+
+**CV1's docs are retitled when CV1 gets its own pass.** *Andreas, 2026-10-10.* Their titles say "Compute Verification Part 1"; the course is "Compute Verification 1".
 
 **Follow-up questions that sort participants may share an item.** *Andreas, 2026-10-04.* There is a tension between one question per item and leaving room for different answers. Follow-ups such as "if not, what stopped you?" or "if nothing changed, what would?" filter responses by a participant's situation, so they stay. Recorded in the style sheet under B1. Applied to CV1 Meeting 5, Room 1, items 1 and 3.
 
