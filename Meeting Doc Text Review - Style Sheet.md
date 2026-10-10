@@ -67,7 +67,7 @@ Follow-ups that sort people by their situation can share an item, because they l
 
 **B6. Table headers match the prompt above them.** *Survey.*
 
-**B7. One term for one thing, in every doc.** "Lens Tutor". "Unit" and "next meeting", never "week". "Tractable", not "gettable". "Accountability buddy", never "partner". *Guide rule 7, the 2026-10-03 rename, Andreas's 2026-10-04 decision on "buddy".*
+**B7. One term for one thing, in every doc.** "Lens Tutor". "Unit" and "next meeting", never "week". "Tractable", not "gettable". "Accountability buddy", never "partner". "Navigator", never "facilitator". Buddy groups are trios where possible, so avoid wording that assumes pairs ("pair up", "your pair"). *Guide rule 7, the 2026-10-03 rename, Andreas's decisions on "buddy" (2026-10-04) and trios (2026-10-10).*
 
 ---
 
