@@ -11,4 +11,4 @@ Not the demo course: that one is written for course authors who read it inside t
 
 Design constraints and the feature checklist live in the module file. %%
 
-# Module: [[../modules/lens-tour|How Lens works]]
+# Module: [[../../modules/lens-tour|How Lens works]]
