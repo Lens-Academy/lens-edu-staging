@@ -34,7 +34,7 @@ Score {--{"author":"Andreas's AI","timestamp":1791596863091}@@according to --}{+
 
 **Level 1 (0-20):**++} Conflates hostile and indifferent AI, or claims the danger is that AI will "turn evil" or "rebel." *Example: "AI will want to destroy humanity because it sees us as a threat."*
 
-**2** — Understands abstractly that AI might not share human values, but cannot explain why indifference alone is dangerous. *Example: "The AI wouldn't care about us, but I'm not sure why that's as bad as it being hostile."*
+{--{"author":"Andreas's AI","timestamp":1791596869208}@@**2** —--}{++{"author":"Andreas's AI","timestamp":1791596869208}@@**Level 2 (21-40):**++} Understands abstractly that AI might not share human values, but cannot explain why indifference alone is dangerous. *Example: "The AI wouldn't care about us, but I'm not sure why that's as bad as it being hostile."*
 
 **3** — Correctly explains the core distinction with chapter evidence: a superintelligent AI pursuing non-human goals would consume or redirect resources humans need, not because it wants to harm us but because our survival isn't part of its objectives. It is like a construction project that destroys an anthill: not out of malice but out of indifference. *Example: "The chapter says the AI wouldn't hate us. It just wouldn't care. If it's optimizing for something that has nothing to do with human welfare, it would use up the atoms and energy we need to survive. We'd be like ants in the path of a bulldozer: not targeted, just irrelevant."*
 
