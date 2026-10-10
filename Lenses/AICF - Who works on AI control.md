@@ -372,7 +372,7 @@ content::
 We know of no other government with its own control research team, but some laws now touch on it.
 
 - **European Union.** The EU's Code of Practice for general-purpose AI (July 2025) lists loss of control as a systemic risk. Among the safety measures it names are monitoring a model's inputs and outputs, and defending against a model's attempts to get around its other safety measures.[^cite-eu-cop-2025] It does not cover models a company uses only internally.[^cite-ai-frontiers-2025]
-- **California.** Its law SB 53 (in force since January 2026) requires large AI developers to assess the risk from using their own models internally, including a model getting around oversight. A model using deception to get around its developer's controls or monitoring counts as a critical safety incident if it happens outside a test and clearly raises the risk of catastrophe.[^cite-sb53][^cite-cooley-sb53]
+- **California.** Its law SB 53 (in force since January 2026) requires large AI developers to assess the risk from using their own models internally, including a model getting around oversight. A model using deception to get around its developer's controls or monitoring counts as a critical safety incident if it happens outside a test and shows a materially increased risk of catastrophe.[^cite-sb53][^cite-cooley-sb53]
 - **New York.** Its RAISE Act, in force from January 2027, also requires summaries of the risk from internal use.[^cite-raise]
 - **United States.** A research program run by DARPA and the National Science Foundation with the US Center for AI Standards and Innovation, announced in June 2026, will fund university research on AI control as one of three priority areas.[^cite-ai-forge]
 - **Canada and Australia** help fund the UK's Alignment Project.[^cite-alignment-project-site]
@@ -528,7 +528,7 @@ content::
 - **MATS** trains new AI safety researchers with mentors. Its summer 2026 program, planned with 120 fellows and 100 mentors, was set to be its largest yet.[^cite-mats-summer-2026] Redwood and the UK AI Security Institute run control research streams in it.[^cite-mats-redwood-c][^cite-mats-aisi]
 - **The Anthropic Fellows Program** lists AI control among its research areas and has had more than 200 fellows since early 2025.[^cite-anthropic-fellows-b]
 - **The Astra Fellowship** at Constellation in Berkeley covers AI control, with mentors including Buck Shlegeris and Ryan Greenblatt.[^cite-astra]
-- **Shorter research programs** also produce control papers, for example SPAR, where a team showed that a mix of different monitors catches more than several copies of the same monitor (May 2026),[^cite-ensemble-2026] and Pivotal, where a team showed that attackers who choose when to strike are much harder to catch (2026).[^cite-attack-selection-2026]
+- **Shorter research programs** also produce control papers, for example SPAR, where a team showed that a mix of different monitors catches more than several copies of the same monitor (May 2026),[^cite-ensemble-2026] and Pivotal, where a team showed that when attackers choose when to strike, safety in their test fell from 99% to 59% (2026).[^cite-attack-selection-2026]
 - **Courses:** Redwood's AI control reading list,[^cite-redwood-guide] and BlueDot Impact's Technical AI Safety course, which has a part on AI control.[^cite-bluedot]
 
 [^cite-mats-summer-2026]: MATS, *Summer 2026* program page. [MATS](https://www.matsprogram.org/program/summer-2026)
