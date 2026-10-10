@@ -24,18 +24,18 @@ the Substack root URL. The corresponding post is "All hands on deck to build the
 datacenter lie detector"; the LessWrong version is used here.
 %%
 
-# Module: [[../modules/AIV M1 Why Verification]]
+# Module: [[../../modules/AIV M1 Why Verification]]
 
 # Meeting: Why Verification, and the Compute Chain
 
-# Module: [[../modules/AIV M2 State of Play]]
+# Module: [[../../modules/AIV M2 State of Play]]
 
 # Meeting: The State of Play
 
-# Module: [[../modules/AIV M3 Mechanisms]]
+# Module: [[../../modules/AIV M3 Mechanisms]]
 
 # Meeting: Hardware and Inference Mechanisms
 
-# Module: [[../modules/AIV M4 Building It]]
+# Module: [[../../modules/AIV M4 Building It]]
 
 # Meeting: Building It, and the Treaty It Serves

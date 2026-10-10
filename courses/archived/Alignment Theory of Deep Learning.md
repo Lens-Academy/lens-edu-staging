@@ -28,7 +28,7 @@ Links:
 - Source: https://iliad-intensive.org/
 %%
 
-application-survey:: [[../surveys/Application Form]]
+application-survey:: [[../../surveys/Application Form]]
 
 %%
 Day 1 goals (Leon Lang's A.1 outcomes, verbatim):
@@ -38,10 +38,10 @@ Day 1 goals (Leon Lang's A.1 outcomes, verbatim):
 - are aware of discussions on whether AI systems develop goals and understand the basic arguments for instrumental convergence;
 - are aware of foundational discussions on the level of risk and different high-level approaches to solving the AI alignment problem.
 %%
-# Module: [[../modules/ATDL 1 - AI Alignment Introduction]]
+# Module: [[../../modules/ATDL 1 - AI Alignment Introduction]]
 # Meeting: Day 1: AI Alignment Introduction
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
-facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
+survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
+facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
 
 %%
 Day 2 goals (Zach Furman's B.2 outcomes, verbatim):
@@ -52,10 +52,10 @@ Day 2 goals (Zach Furman's B.2 outcomes, verbatim):
 - Students understand the "program synthesis" hypothesis as one proposed framework connecting deep learning to Solomonoff induction, and can evaluate its strengths and limitations
 - Students can articulate why solving these mysteries matters for AI safety
 %%
-# Module: [[../modules/ATDL 2 - Mysteries of Deep Learning]]
+# Module: [[../../modules/ATDL 2 - Mysteries of Deep Learning]]
 # Meeting: Day 2: Mysteries of Deep Learning
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
-facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
+survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
+facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
 %%
 Day 3 goals (B.3 has no written outcomes list; these are the authors' three fast-track aims, verbatim, plus the landing-page outcome):
@@ -64,10 +64,10 @@ Day 3 goals (B.3 has no written outcomes list; these are the authors' three fast
 - To understand the relation between degeneracy and learning in the Bayesian case
 - Landing page: "You can compute degeneracy in small models and explain what the local learning coefficient measures and why it matters."
 %%
-# Module: [[../modules/ATDL 3 - Singular Learning Theory]]
+# Module: [[../../modules/ATDL 3 - Singular Learning Theory]]
 # Meeting: Day 3: Singular Learning Theory
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
-facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
+survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
+facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
 %%
 Day 4 goals (Guillaume Corlouer's B.4 outcomes, verbatim, abridged to the headline items):
@@ -76,10 +76,10 @@ Day 4 goals (Guillaume Corlouer's B.4 outcomes, verbatim, abridged to the headli
 - Understand that gradient flow can be written as NTK-weighted gradient in function space; DLNs are degenerate and have conserved quantities through gradient flow
 - Understand the role of initialization, width and depth for the lazy and rich (saddle to saddle) regimes in DLNs
 %%
-# Module: [[../modules/ATDL 4 - Training Dynamics]]
+# Module: [[../../modules/ATDL 4 - Training Dynamics]]
 # Meeting: Day 4: Training Dynamics
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
-facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
+survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
+facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
 %%
 Day 5 goals (B.5 has no written outcomes list; the author's route aims plus the landing-page outcome):
@@ -88,7 +88,7 @@ Day 5 goals (B.5 has no written outcomes list; the author's route aims plus the 
 - Landing page: "You can derive influence functions, state when their approximations fail, and compare them with Bayesian and unrolling methods."
 The final meeting's survey is ATDL Final Impact Survey v2, a copy of CV1 Final Impact Survey v2 with fresh ids and the course name swapped (the pattern CV1 used).
 %%
-# Module: [[../modules/ATDL 5 - Data Attribution]]
+# Module: [[../../modules/ATDL 5 - Data Attribution]]
 # Meeting: Day 5: Data Attribution
-survey:: [[../surveys/ATDL Final Impact Survey v2]]
-facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
+survey:: [[../../surveys/ATDL Final Impact Survey v2]]
+facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]

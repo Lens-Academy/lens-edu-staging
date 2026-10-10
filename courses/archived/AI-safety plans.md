@@ -9,6 +9,6 @@ description: "A course on less-explored plans for making AI go well, beyond main
 Course created by Elias for self-study, July 2026.
 
 %%
-# Module: [[../modules/Brain-related AI safety approaches]]
+# Module: [[../../modules/Brain-related AI safety approaches]]
 
-# Module: [[../modules/AI safety field building and advocacy]]
+# Module: [[../../modules/AI safety field building and advocacy]]

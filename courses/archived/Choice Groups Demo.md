@@ -7,4 +7,4 @@ tags: [wip]
 ---
 %% Test course for lens-platform PR #1162. Delete after the PR is merged or closed. %%
 
-# Module: [[../modules/Choice Groups Demo]]
+# Module: [[../../modules/Choice Groups Demo]]
