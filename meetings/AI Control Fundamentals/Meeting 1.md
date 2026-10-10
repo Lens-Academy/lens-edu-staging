@@ -109,10 +109,7 @@ Want help or an explanation for this question? Copy it into the [Lens Tutor](htt
 ### Back together: 5 min  [1:10–1:15]
 
 One or two people share what their group landed on.
-
-Your navigator will explain the accountability buddy system:
-
-- Message your accountability buddy today, so you both know the channel works before the next meeting.
+AfteYour navigator will explain the accountability buddy system.
 
 ---
 
