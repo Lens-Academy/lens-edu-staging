@@ -1,6 +1,6 @@
 ---
 id: 'c05ed183-2911-4707-88f1-6ba5f9d53e1d'
-learning-outcome: "Place a piece of AI control work within the field: identify what kind of control work it is (its research area), use that to say what access to AI developers' systems and what independence from developers it needs, and from that say which kind of organisation is placed to do it, illustrated with a real organisation of that kind."
+learning-outcome: "Place a piece of AI control work within the field: say what access to AI developers' systems and what independence from developers it needs, and from that say which kind of organisation is placed to do it, illustrated with a real organisation of that kind."
 topic: "[[../Domains and Topics/7 AI Control/The control agenda]]"
 stage: beginner
 authors:
