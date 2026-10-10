@@ -9,14 +9,14 @@ tags: [wip]
 ---
 %% Demo cut of [[Compute Verification]]: shares the same lens files (v-welcome, v-introduction), so edits there show up here. %%
 
-# Module: [[../modules/XLab Verification Overview]]
+# Module: [[../../modules/XLab Verification Overview]]
 
-# Module: [[../modules/XLab Verification Demo - Welcome and Introduction]]
+# Module: [[../../modules/XLab Verification Demo - Welcome and Introduction]]
 
-# Module: [[../modules/XLab Verification Demo - M1 Policy and actors]]
+# Module: [[../../modules/XLab Verification Demo - M1 Policy and actors]]
 
-# Module: [[../modules/XLab Verification Demo - M2 Evidence streams]]
+# Module: [[../../modules/XLab Verification Demo - M2 Evidence streams]]
 
-# Module: [[../modules/XLab Verification Demo - M3 Covert development]]
+# Module: [[../../modules/XLab Verification Demo - M3 Covert development]]
 
-# Module: [[../modules/XLab Verification Demo - M4 Capstone]]
+# Module: [[../../modules/XLab Verification Demo - M4 Capstone]]
