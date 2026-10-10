@@ -111,7 +111,7 @@ reading_minutes:: 1
 
 #### Text
 content::
-The article below has `author_url: https://lensacademy.org` in its frontmatter, so the author's name links to that page (opening in a new tab), both in the byline and in this lens's sidebar entry. Hover over it there: the name is its own link inside the row.
+The article below has `author_url: https://lensacademy.org` in its frontmatter, so the author's name {++{"author":"Iris's AI","timestamp":1791603404508}@@in the byline ++}links to that page (opening in a new{--{"author":"Iris's AI","timestamp":1791603404508}@@ tab), both in the byline and in this--}{++{"author":"Iris's AI","timestamp":1791603404508}@@ tab). This++} lens's sidebar {--{"author":"Iris's AI","timestamp":1791603404508}@@entry. Hover over it there:--}{++{"author":"Iris's AI","timestamp":1791603404508}@@entry shows++} the name {--{"author":"Iris's AI","timestamp":1791603404508}@@is its own link inside the row.--}{++{"author":"Iris's AI","timestamp":1791603404508}@@as plain text.++}
 
 #### Article
 source:: [[../articles/Article annotation and text collapse demo]]
