@@ -12,4 +12,4 @@ partner-url: https://voices.uchicago.edu/xlab/
 content; real material to be added later. UChicago trademark sign-off required
 before this is shown publicly. %%
 
-# Module: [[../modules/xlab-introduction|Introduction]]
+# Module: [[../../modules/xlab-introduction|Introduction]]
