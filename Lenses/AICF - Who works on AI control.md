@@ -48,8 +48,8 @@ collapse:: closed
 #### Text
 content::
 - **Research.** In June 2025 Anthropic released SHADE-Arena, a test of whether AI agents can carry out a hidden harmful task during normal work without a monitor noticing.[^cite-anthropic-shade-arena-2025] Its authors include Redwood's Buck Shlegeris and Tyler Tracy.[^cite-kutasov-2025-b] In June 2026 researchers from Anthropic, the Swiss university EPFL and Redwood published work on defending against diffuse threats.[^cite-terekhov-2026-diffuse]
-- **In use.** Since 14 August 2026, Claude Code runs in auto mode by default on Pro, Max and Team plans. Auto mode "routes each tool call through a classifier targeted at blocking actions that are irreversible, destructive, or aimed outside your environment".[^cite-claude-auto-mode-2026]
-- **People.** Fabien Roger, one of the four authors of the first control paper, moved from Redwood to Anthropic, where his research "focuses on AI control and dealing with alignment faking".[^cite-mats-roger]
+- **In use.** Since 14 August 2026, Claude Code runs in auto mode by default on Pro, Max and Team plans. In auto mode, a classifier checks each action the agent takes and blocks actions that are irreversible, destructive or aimed outside the user's environment.[^cite-claude-auto-mode-2026]
+- **People.** Fabien Roger, one of the four authors of the first control paper, moved from Redwood to Anthropic, where he works on AI control and alignment faking.[^cite-mats-roger]
 
 [^cite-anthropic-shade-arena-2025]: Anthropic (2025), *SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents*. [Anthropic](https://www.anthropic.com/research/shade-arena-sabotage-monitoring)
 [^cite-kutasov-2025-b]: Jonathan Kutasov and others (2025), *SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents*. [arXiv](https://arxiv.org/abs/2506.15740)
@@ -69,7 +69,7 @@ collapse:: closed
 
 #### Text
 content::
-Redwood Research is a research nonprofit in Berkeley that studies the risks from powerful AI and ways to reduce them.[^cite-redwood-about] Four of its researchers wrote the 2023 paper that introduced AI control.[^cite-greenblatt-2023] 80,000 Hours calls Redwood "the group I'd say is behind a bit of a renaissance in this agenda called 'AI control'".[^cite-80k-shlegeris-2025]
+Redwood Research is a research nonprofit in Berkeley that studies the risks from powerful AI and ways to reduce them.[^cite-redwood-about] Four of its researchers wrote the 2023 paper that introduced AI control.[^cite-greenblatt-2023] Redwood is behind a renaissance of AI control as a research agenda.[^cite-80k-shlegeris-2025]
 
 What it does:
 
