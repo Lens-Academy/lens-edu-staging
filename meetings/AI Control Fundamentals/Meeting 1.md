@@ -52,11 +52,6 @@ A bank that limits and audits each trader stays safe even if one is not trustwor
     - a university lab
 2. List its checks that people are trustworthy, and its limits that hold even if someone is not.
 3. If somebody was secretly working against the organization, but behaving well whenever they might be tested, would the organization's control systems prevent them from causing damage?
-4. Jan Kulveit, a critic of control, argues:
-    - Without control, other defences would still stop many attempts by a misaligned AI, after visible damage that pushes the world to act.
-    - With control, the company catches them in-house and reports them vaguely, so they rarely lead to serious action.
-    Think of a scandal in your field that changed the rules. Would they have changed if it had been stopped before anyone outside knew?
-
 
 Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
