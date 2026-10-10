@@ -300,7 +300,7 @@ Produces:
 
 Endorsements 
 
-Reference Value Provider:
+**Reference Value Provider:**
 
 A role performed by an entity (typically a manufacturer) whose Reference Values help Verifiers appraise Evidence to determine if acceptable known Claims have been recorded by the Attester.
 
