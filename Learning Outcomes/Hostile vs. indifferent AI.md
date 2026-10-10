@@ -21,7 +21,7 @@ eval-results:
 
 ## Test:
 id:: 64b45784-164e-4744-bc73-347d9604e9b0
-#### Question
+#### {--{"author":"Andreas's AI","timestamp":1791596856772}@@Question--}{++{"author":"Andreas's AI","timestamp":1791596856772}@@Question: Open++}
 id:: b97cdeb0-5619-4e8c-a8ed-fdacfcf58cfd
 content::
 A common misconception about AI risk is that the danger comes from an AI that actively hates or rebels against humanity. Chapter 5 reframes this: the real concern is an AI that is simply indifferent to us. Because human-compatible goals are a tiny sliver of the space of all possible goals, a superintelligent AI would almost certainly not share our values. Not out of malice, but because there was never any reason it would. The chapter then works through the hopes that an indifferent AI might still spare us (that we would be useful to it, that it would trade with us, that it would need us, that it would keep us as pets, or that it would simply leave us alone) and shows why each one fails.
@@ -29,8 +29,10 @@ A common misconception about AI risk is that the danger comes from an AI that ac
 Why does the chapter argue that an AI does not need to be hostile toward humans in order to cause human extinction? Explain why indifference is sufficient.
 
 assessment-instructions::
-Score according to the following rubric.
-**1** — Conflates hostile and indifferent AI, or claims the danger is that AI will "turn evil" or "rebel." *Example: "AI will want to destroy humanity because it sees us as a threat."*
+Score {--{"author":"Andreas's AI","timestamp":1791596863091}@@according to --}{++{"author":"Andreas's AI","timestamp":1791596863091}@@out of 100. Pick the level that best describes the answer as a whole, then a score inside that level's range: near the top if the answer fully reaches the level, near the bottom if it only just does. Judge what the answer shows the learner understands, not only what it spells out: a correct extension that depends on a point shows that point is understood, even if ++}the {--{"author":"Andreas's AI","timestamp":1791596863091}@@following rubric.
+**1** —--}{++{"author":"Andreas's AI","timestamp":1791596863091}@@answer states it briefly. An extension shows nothing about points it does not depend on.
+
+**Level 1 (0-20):**++} Conflates hostile and indifferent AI, or claims the danger is that AI will "turn evil" or "rebel." *Example: "AI will want to destroy humanity because it sees us as a threat."*
 
 **2** — Understands abstractly that AI might not share human values, but cannot explain why indifference alone is dangerous. *Example: "The AI wouldn't care about us, but I'm not sure why that's as bad as it being hostile."*
 
