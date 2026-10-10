@@ -195,6 +195,7 @@ Worklist, found 2026-10-06. Counts cover AIRF, AI Futures and CV1 docs only.
 
 **Group C. Hand-offs.** See section 7.
 
+Progress, 2026-10-10. Group A: Andreas rewrote How today works, Open discussion and the Participant FAQ; the 3-room and AIRF variants were brought into line with his How today works as suggestions. Group B: the help note is first in the one-at-a-time review; the "two hours" lines in AI Futures Meetings 1 and 2 are suggested as "90 minutes".
 ---
 
 ## 4. Status by doc
@@ -272,6 +273,11 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 | 2026-10-05 | Shared Participant FAQ flag removals left pending | meetings/shared/Participant FAQ | Postponed with the rest of the non-Session-Doc tabs to the later pass (2026-10-05 decision) | 2 removals still pending |
 | 2026-10-06 | **Decision: batch 2 is general and shared issues first, then all of AI Futures** | Plan | Section 2 | Andreas, 2026-10-06 |
 | 2026-10-06 | Worklist for batch 2: shared blocks, lines repeated across docs, hand-offs | Section 3 | Found by reading the shared files and searching the three courses' docs for each repeated line | Log only, no doc changes. Also found: AI Control Fundamentals now includes the shared blocks (section 5) |
+| 2026-10-10 | Andreas rewrote the shared How today works, Open discussion and Participant FAQ | meetings/shared | Group A of batch 2 | Edited by Andreas. "Today's agenda" replaces "Today's shape", "navigator" replaces "facilitator", the "hit something" line is rewritten, the buddy answer describes trios |
+| 2026-10-10 | **Decisions: one-at-a-time review of repeated lines; trios; "Lost the doc link" dropped; CV1 retitled in its own pass** | Plan | Section 2 | Andreas, 2026-10-10 |
+| 2026-10-10 | 3-room and AIRF How today works brought into line with Andreas's version; typo fixes in How today works ("greeat") and Open discussion ("conversatio"); old flags on all three How today works variants removed | meetings/shared | Andreas's request. Each variant keeps its own schedule | Pending, 10 suggestions. The AIRF variant now matches the general one, apart from one curly apostrophe. No reason for a separate AIRF file was found in the AIRF restructure log or elsewhere in the vault (section 7) |
+| 2026-10-10 | "Two hours" changed to "90 minutes" | AI Futures Meetings 1 and 2 | Meetings last 90 minutes (Andreas) | Pending, 2 suggestions |
+| 2026-10-10 | Flagged the Kulveit et al. line in AI Futures Meeting 3, Room 2 | meetings/Forecasting, Modeling, and Shaping AI Futures/Meeting 3 | Participant feedback from the week of 2026-10-05, relayed by Andreas: some found it an unfair account of the paper. A known cost of shortening the line for time | Direct, comment only. For the full pass |
 
 ---
 
