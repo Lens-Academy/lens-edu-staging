@@ -245,8 +245,14 @@ source:: [[../Lenses/Iliad D.5.1.2 - Morning lecture - from CDT to UDT]]
 # Lens: D.5.1.3 Reading and discussion
 source:: [[../Lenses/Iliad D.5.1.3 - Reading and discussion]]
 
+# Lens: Functional decision theory: a new theory of instrumental rationality
+source:: [[../Lenses/yudkowsky-functional-decision-theory-a-new-theory-of-instrumental-rationality]]
+
 # Lens: Towards a new decision theory
 source:: [[../Lenses/dai-towards-a-new-decision-theory]]
+
+# Lens: Updateless decision theory
+source:: [[../Lenses/lesswrong-updateless-decision-theory]]
 
 # Lens: Conceptual problems with UDT and policy selection
 source:: [[../Lenses/abramdemski-conceptual-problems-with-udt-and-policy-selection]]
