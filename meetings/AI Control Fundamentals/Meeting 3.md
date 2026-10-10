@@ -141,10 +141,6 @@ One or two people share what their group landed on.
 ### Wrap-up  [1:27–1:30]
 
 Back in the main room, share if you feel like it: one thing you're glad you know now that you didn't know 90 minutes ago.
-Before you leave (your navigator will talk through these):
-
-- Send your plan for the next unit to your accountability buddy today.
-- Found something unclear, wrong, or missing in this unit? Tell us on the Unit 3 feedback page in the course.
 
 
 ---

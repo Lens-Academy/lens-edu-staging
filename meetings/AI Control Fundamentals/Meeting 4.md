@@ -162,10 +162,6 @@ One or two people share what their group landed on.
 ### Wrap-up  [1:27–1:30]
 
 Back in the main room, share if you feel like it: one argument from today that you didn't expect to find as strong as you did.
-Before you leave (your navigator will talk through these):
-
-- Send your plan for the next unit to your accountability buddy today.
-- Found something unclear, wrong, or missing? Tell us on the Unit 4 feedback page in the course.
 
 
 ---
