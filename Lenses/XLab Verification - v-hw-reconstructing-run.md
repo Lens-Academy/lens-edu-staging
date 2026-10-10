@@ -28,13 +28,13 @@ Possible evidence includes:
 Yonadav Shavit’s 2023 compute-monitoring proposal decomposed a possible system into on-chip weight snapshots, records intended to support later verification of training, and supply-chain monitoring intended to prevent accumulation of untracked chips. This decomposition remains useful because it separates verification of a declared run from completeness of the fleet.
 
 :::callout {title="Source" tone="neutral" collapse="closed"}
-Y. Shavit, *What Does It Take to Catch a Chinchilla? Verifying Rules on Large-Scale Neural Network Training via Compute Monitoring*, [arXiv:2303.11341](https://arxiv.org/abs/2303.11341), 2023.
+Y. Shavit, *What Does It Take to Catch a Chinchilla? Verifying Rules on Large-Scale Neural Network Training via Compute Monitoring*, [arXiv 2303.11341](https://arxiv.org/abs/2303.11341), 2023.
 :::
 
 Proof-of-learning research shows both the promise and fragility of checkpoint-based verification. Jia and colleagues proposed proofs based on logged intermediate states. Subsequent work demonstrated adversarial constructions and serious weaknesses in the original approach. Choi, Shavit, and Duvenaud later proposed a broader toolkit for verifying claims about training data, while explicitly treating its tests as heuristic and noting substantial confidentiality and access assumptions.
 
 :::callout {title="Sources" tone="neutral" collapse="closed"}
-H. Jia et al., *Proof-of-Learning: Definitions and Practice*, [arXiv:2103.05633](https://arxiv.org/abs/2103.05633), 2021. R. Zhang et al., *Adversarial Examples for Proof-of-Learning*, [arXiv:2108.09454](https://arxiv.org/abs/2108.09454), IEEE Symposium on Security and Privacy, 2022. C. Fang et al., *Proof-of-Learning Is Currently More Broken Than You Think*, [arXiv:2208.03567](https://arxiv.org/abs/2208.03567), revised 2023. J. Choi, Y. Shavit, and D. Duvenaud, *Tools for Verifying Neural Models’ Training Data*, [arXiv:2307.00682](https://arxiv.org/abs/2307.00682), 2023.
+H. Jia et al., *Proof-of-Learning: Definitions and Practice*, [arXiv 2103.05633](https://arxiv.org/abs/2103.05633), 2021. R. Zhang et al., *Adversarial Examples for Proof-of-Learning*, [arXiv:2108.09454](https://arxiv.org/abs/2108.09454), IEEE Symposium on Security and Privacy, 2022. C. Fang et al., *Proof-of-Learning Is Currently More Broken Than You Think*, [arXiv:2208.03567](https://arxiv.org/abs/2208.03567), revised 2023. J. Choi, Y. Shavit, and D. Duvenaud, *Tools for Verifying Neural Models’ Training Data*, [arXiv:2307.00682](https://arxiv.org/abs/2307.00682), 2023.
 :::
 
 Keep three claims separate:
