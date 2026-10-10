@@ -23,7 +23,7 @@ eval-results:
 
 ## Test:
 id:: 3ee1a948-9f94-4d26-abd4-69618e3d99d1
-#### Question
+#### {--{"author":"Andreas's AI","timestamp":1791596935549}@@Question--}{++{"author":"Andreas's AI","timestamp":1791596935549}@@Question: Open++}
 id:: 3a7d2710-ea32-4c6d-803b-d72c283f7584
 content::
 Chapter 2 ends with a distinction the rest of the course will keep returning to: the difference between an AI that *behaves* as if it's aligned and one that *is* aligned.
@@ -31,8 +31,10 @@ Chapter 2 ends with a distinction the rest of the course will keep returning to:
 In your own words, what is that distinction, and why does it matter? The chapter uses an analogy to anchor it: what is it, and what does it illustrate?
 
 assessment-instructions::
-Score according to the following rubric.
-**1** — Treats behavior and values as equivalent for AI: if it acts aligned, it is aligned. *Example: "If the AI acts helpful and avoids harm then it is safe. That's what alignment means."*
+Score {--{"author":"Andreas's AI","timestamp":1791596940009}@@according to --}{++{"author":"Andreas's AI","timestamp":1791596940009}@@out of 100. Pick the level that best describes the answer as a whole, then a score inside that level's range: near the top if the answer fully reaches the level, near the bottom if it only just does. Judge what the answer shows the learner understands, not only what it spells out: a correct extension that depends on a point shows that point is understood, even if ++}the {--{"author":"Andreas's AI","timestamp":1791596940009}@@following rubric.
+**1** —--}{++{"author":"Andreas's AI","timestamp":1791596940009}@@answer states it briefly. An extension shows nothing about points it does not depend on.
+
+**Level 1 (0-20):**++} Treats behavior and values as equivalent for AI: if it acts aligned, it is aligned. *Example: "If the AI acts helpful and avoids harm then it is safe. That's what alignment means."*
 
 **2** — Grasps that behavior and values can come apart in principle, but treats this as a minor or unlikely concern rather than a structural problem. *Example: "Even if AI acts nice it might not really be nice inside, but as long as it keeps acting nice it doesn't matter much."*
 
