@@ -211,7 +211,7 @@ source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
 
 
 1. Ask for "one thing I'm taking away" from anyone who wants it (~10 sec each; a few voices is plenty, people have already shared between rooms).
-2. **Next-unit heads-up: reading is Unit 3, Why people work on control (the routes by which control is supposed to make an AI catastrophe less likely, such as blocking attacks, catching a model in an attempt and getting safety work out of models while they can still be controlled, and how much each route needs from AI companies and governments, about 3.5 to 4 hours). Remind them to send their accountability buddy their plan today and to fill in the Unit 2 feedback page in the course.**
+2. **Remind them to send their accountability buddy their plan today and to fill in the Unit 2 feedback page in the course.**
 3. **End on time.** Then say the meeting **stays open** for anyone who wants to keep talking; stay and facilitate, or say goodbye and leave (they can keep going without you).
 
 
