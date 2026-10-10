@@ -196,7 +196,7 @@ The UK AI Security Institute is a government body. Its Control team "aims to adv
 content::
 \### Universities and smaller groups
 
-#### Callout: Smaller groups and universities
+#### Callout: LASR Labs, Poseidon, Scale AI, EPFL, ELLIS Tübingen, CMU
 tone:: amber
 collapse:: closed
 
