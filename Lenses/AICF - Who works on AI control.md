@@ -246,13 +246,13 @@ content::
 
 - A 2025 count found about 620 people working full-time on technical AI safety at 68 active organisations. It files each organisation under one main area. Only Redwood (10 people) and Luthien (1) are filed under AI control, while AISI is filed under evaluations and the AI companies under other areas.[^cite-mcaleese-2025]
 - The Shallow Review of Technical AI Safety 2025 estimates 5 to 50 full-time staff on the control agenda.[^cite-shallow-review-2025]
-- 80,000 Hours cites a 2025 total of about 1,100 people working on AI safety, and estimates "a few thousand" working on major AI risks in a broader sense.[^cite-80k-loss-of-control]
+- About 1,100 people worked on AI safety in 2025, and a few thousand worked on major AI risks in a broader sense.[^cite-80k-loss-of-control]
 
 **In 2026**
 
 Nobody has published a new count of people. These numbers show where things are heading:
 
-- **The conference.** ControlConf in April 2026 brought together about 200 "researchers, lab engineers, and policy folks working on AI control". The organisers wrote that a year earlier, control "was mostly a research conversation: scattered papers, a few blog posts, and dedicated teams at UK AISI and Anthropic".[^cite-farai-controlconf-2026-c]
+- **The conference.** ControlConf in April 2026 brought together about 200 researchers, engineers and policy people working on AI control. A year earlier, control had been mostly a research conversation: scattered papers, a few blog posts, and dedicated teams only at UK AISI and Anthropic.[^cite-farai-controlconf-2026-c]
 - **Government grants.** The UK Alignment Project announced 60 funded projects in February 2026, worth £27m in total.[^cite-aisi-60-projects-2026] Its published list has 56 projects. By our count, 2 of them are clearly about control and about 5 more use the word in a broader sense. The rest are alignment research.[^cite-alignment-project-list-b]
 - **Private grants.** No funder publishes how much it gives to control. Manifund's grant tracker, Trace, tags 13 grants from Coefficient Giving in 2025 as AI control, together about $40m. One of them, $36.6m to Redwood, is most of that. In 2026 up to October it tags 6, together about $3.8m. Trace's tag is broad and also covers work on hidden reasoning in models.[^cite-trace-coefficient]
 - **AI safety funding overall.** Coefficient Giving, the largest funder, committed $168m to technical AI safety, security and field-building in 2024 and $351m in 2025, and is on track for over $1bn in 2026.[^cite-coefficient-scaling-2026]
