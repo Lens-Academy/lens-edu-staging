@@ -167,6 +167,7 @@ source:: [[../Lenses/xu-an-intuitive-guide-to-garrabrant-induction]]
 
 # Lens: Logical induction
 source:: [[../Lenses/garrabrant-logical-induction]]
+
 # Lens: The ground of optimization
 source:: [[../Lenses/flint-the-ground-of-optimization]]
 

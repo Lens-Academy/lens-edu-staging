@@ -120,6 +120,7 @@ source:: [[../Lenses/miller-transformer-circuit-faithfulness-metrics-are-not-rob
 
 # Lens: Compact proofs of model performance via mechanistic interpretability
 source:: [[../Lenses/gross-compact-proofs-of-model-performance-via-mechanistic-interpretability]]
+
 # Lens: ARC: Formal verification, heuristic explanations and surprise
 source:: [[../Lenses/hilton-formal-verification-heuristic-explanations-and-surprise-accounting]]
 
