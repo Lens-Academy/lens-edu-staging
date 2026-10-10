@@ -146,7 +146,7 @@ One or two people share what their group landed on.
 
 
 1\. One question this unit left open for you.
-2\. Next unit, the last of the course: people who disagree about control argue it out, you practise finding what each disagreement turns on, and you write down your own view. About 4 hours. What is most likely to stop you finishing it?
+2\. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
 3\. What is your plan to prevent that? (Send the plan to your accountability buddy today.)
 4\. Feedback: what would make the course and this meeting better?
 
