@@ -235,9 +235,9 @@ feedback-instructions:: Explain most important misplaced relationship and why it
 %%
 # Quoting an earlier answer
 Later text can show the learner's own answer to a question, from this lens or from any other. Name the question by its `id::`:
-- `::answer{id="<question id>"}` on a line of its own shows a card: the learner's latest submitted answer, the question folded behind "Show the question", and a link to the lens that holds the question.
-- `:answer{id="<question id>"}` inside a sentence puts the answer text there.
-- `fallback="..."` replaces the default "You haven't answered this yet." The link to the question stays.
+- `::answer{id="<question id>"}` on a line of its own shows the learner's latest submitted answer as a quote.
+- `:answer{id="<question id>"}` inside a sentence puts the answer there, on a tinted background.
+- A click on either opens the whole question with the answer, and "Go to question", which leads to the question in this course.
 
 Quotes work in text, question prompts, `feedback-instructions::` and chat `instructions::`. The AI tutor reads the learner's answer in place of the quote. A widget can read answers with `Lens.getAnswers([ids])`. The validator reports an id that is not a question, a survey question (survey answers cannot be quoted), and a quote of a question the course only reaches later.
 
