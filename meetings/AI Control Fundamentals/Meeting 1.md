@@ -137,7 +137,6 @@ Back in the main room, share if you feel like it: one thing you're glad you know
 
 Before you leave (your navigator will talk through these):
 
-- Next unit: why a threat that needs one bad action calls for different defences from one that needs a thousand, and who works on control and on what. About 3.5 hours.
 - Message your accountability buddy today, so you both know the channel works before the next meeting.
 - Keep your gut-view note where you will find it again. You come back to it at the end of the course.
 - Fill in the short survey about this meeting on the Lens platform.
