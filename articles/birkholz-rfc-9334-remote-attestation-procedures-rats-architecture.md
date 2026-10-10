@@ -292,7 +292,7 @@ Produces:
 
 Appraisal Policy for Evidence 
 
-Endorser:
+**Endorser:**
 
 A role performed by an entity (typically a manufacturer) whose Endorsements may help Verifiers appraise the authenticity of Evidence and infer further capabilities of the Attester.
 
