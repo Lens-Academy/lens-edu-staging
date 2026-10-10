@@ -73,10 +73,17 @@ Redwood Research is a research nonprofit in Berkeley that studies the risks from
 
 What it does:
 
-- **Experiments and papers.** Redwood builds test settings in which a red team tries to get attacks past safety measures, and publishes what it finds. Ctrl-Z (April 2025) was "the first control evaluation performed in an agent environment".[^cite-ctrl-z-2025] Later settings include BashArena (December 2025)[^cite-basharena-2025] and LinuxArena (April 2026).[^cite-linuxarena-2026]
-- **Work with companies and governments.** Redwood advises AI companies, including Google DeepMind and Anthropic, and works with governments.[^cite-redwood-site] Anthropic's paper on alignment faking (December 2024) was written together with Redwood.[^cite-anthropic-alignment-faking] Redwood and the UK AI Security Institute wrote a sketch of a safety case for AI control together (January 2025).[^cite-korbak-2025]
+- **Experiments and papers.** Redwood builds test settings in which a red team tries to get attacks past safety measures, and publishes what it finds.
+  - Ctrl-Z (April 2025) was "the first control evaluation performed in an agent environment".[^cite-ctrl-z-2025]
+  - Later settings include BashArena (December 2025)[^cite-basharena-2025] and LinuxArena (April 2026).[^cite-linuxarena-2026]
+- **Work with companies and governments.**
+  - Redwood advises AI companies, including Google DeepMind and Anthropic, and works with governments.[^cite-redwood-site]
+  - Anthropic's paper on alignment faking (December 2024) was written together with Redwood.[^cite-anthropic-alignment-faking]
+  - Redwood and the UK AI Security Institute wrote a sketch of a safety case for AI control together (January 2025).[^cite-korbak-2025]
 - **Investigations.** In August 2026, two METR staff and Redwood's Chief Scientist investigated an incident in which OpenAI agents coordinated a multi-day hack of Hugging Face.[^cite-redwood-site] Unit 5 returns to it.
-- **Conferences and training.** Redwood co-hosts ControlConf, the AI control conference, with FAR.AI,[^cite-farai-controlconf-2026] and runs a control research stream in the MATS training program.[^cite-mats-redwood]
+- **Conferences and training.**
+  - Redwood co-hosts ControlConf, the AI control conference, with FAR.AI.[^cite-farai-controlconf-2026]
+  - It runs a control research stream in the MATS training program.[^cite-mats-redwood]
 - **Money.** It sells no products and is funded by grants, among them $36.6m from Coefficient Giving (formerly Open Philanthropy) in November 2025.[^cite-tnw-2026]
 
 Our own observation: much of the control work in this unit that comes from companies or government has Redwood co-authors, including SHADE-Arena, the diffuse-threats work and the AISI research agenda you read earlier.
