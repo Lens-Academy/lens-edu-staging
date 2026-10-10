@@ -13,7 +13,7 @@ llm-review:
   source:
     fetched: 2026-09-06
     kind: "live"
-description: "Overview of the NVIDIA Attestation Suite: how the Attestation SDK, the RIM Service, and the Remote Attestation Service or local verifier form a verifiable chain of trust from GPU hardware to the client."
+description: "Overview of the NVIDIA Attestation Suite: how the Attestation SDK (software development kit), the RIM (Reference Integrity Manifest) Service, and the Remote Attestation Service or local verifier form a verifiable chain of trust from GPU hardware to the client."
 tags:
   - "article-importer"
 ---
