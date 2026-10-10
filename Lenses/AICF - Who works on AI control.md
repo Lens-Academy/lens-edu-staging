@@ -74,7 +74,7 @@ Redwood Research is a research nonprofit in Berkeley that studies the risks from
 What it does:
 
 - **Experiments and papers.** Redwood builds test settings in which a red team tries to get attacks past safety measures, and publishes what it finds. Ctrl-Z (April 2025) was "the first control evaluation performed in an agent environment".[^cite-ctrl-z-2025] Later settings include BashArena (December 2025)[^cite-basharena-2025] and LinuxArena (April 2026).[^cite-linuxarena-2026]
-- **Work with companies and governments.** Redwood says it advises "AI companies including Google DeepMind and Anthropic" and works with governments.[^cite-redwood-site] Anthropic's paper on alignment faking (December 2024) was written "in collaboration with Redwood Research".[^cite-anthropic-alignment-faking] Redwood and the UK AI Security Institute wrote a sketch of a safety case for AI control together (January 2025).[^cite-korbak-2025]
+- **Work with companies and governments.** Redwood advises AI companies, including Google DeepMind and Anthropic, and works with governments.[^cite-redwood-site] Anthropic's paper on alignment faking (December 2024) was written together with Redwood.[^cite-anthropic-alignment-faking] Redwood and the UK AI Security Institute wrote a sketch of a safety case for AI control together (January 2025).[^cite-korbak-2025]
 - **Investigations.** In August 2026, two METR staff and Redwood's Chief Scientist investigated an incident in which OpenAI agents coordinated a multi-day hack of Hugging Face.[^cite-redwood-site] Unit 5 returns to it.
 - **Conferences and training.** Redwood co-hosts ControlConf, the AI control conference, with FAR.AI,[^cite-farai-controlconf-2026] and runs a control research stream in the MATS training program.[^cite-mats-redwood]
 - **Money.** It sells no products and is funded by grants, among them $36.6m from Coefficient Giving (formerly Open Philanthropy) in November 2025.[^cite-tnw-2026]
@@ -114,7 +114,7 @@ collapse:: closed
 
 #### Text
 content::
-Ryan Greenblatt is Redwood's Chief Scientist, "focused on technical AI safety research to reduce risks from rogue AIs".[^cite-mats-greenblatt] He is the first author of the 2023 paper that introduced AI control[^cite-greenblatt-2023-c] and of *Alignment faking in large language models* (December 2024), written with researchers at Anthropic.[^cite-greenblatt-2024] He also wrote the overview of areas of control work you read in this unit.
+Ryan Greenblatt is Redwood's Chief Scientist and works on reducing the risks from rogue AIs.[^cite-mats-greenblatt] He is the first author of the 2023 paper that introduced AI control[^cite-greenblatt-2023-c] and of *Alignment faking in large language models* (December 2024), written with researchers at Anthropic.[^cite-greenblatt-2024] He also wrote the overview of areas of control work you read in this unit.
 
 [^cite-mats-greenblatt]: MATS, *Ryan Greenblatt*, mentor profile. [MATS](https://www.matsprogram.org/mentor/greenblatt)
 [^cite-greenblatt-2023-c]: Ryan Greenblatt, Buck Shlegeris, Kshitij Sachan and Fabien Roger (2023), *AI Control: Improving Safety Despite Intentional Subversion*. [arXiv](https://arxiv.org/abs/2312.06942)
@@ -130,7 +130,7 @@ collapse:: closed
 
 #### Text
 content::
-As of May 2026, Apollo Research has a monitoring team with a research side and a product side.[^cite-apollo-may-2026] Its product Watcher watches AI coding agents as they work. It "identifies and blocks undesirable actions or steers the agent back on track", and the risks it targets range from leaked secrets to "scheming and oversight subversion".[^cite-apollo-may-2026]
+As of May 2026, Apollo Research has a monitoring team with a research side and a product side.[^cite-apollo-may-2026] Its product Watcher watches AI coding agents as they work and blocks unwanted actions or steers the agent back on track. The risks it targets range from leaked secrets to scheming and attempts to get around oversight.[^cite-apollo-may-2026]
 
 [^cite-apollo-may-2026]: Apollo Research (2026), *Apollo Update May 2026*. [Apollo Research](https://www.apolloresearch.ai/blog/apollo-update-may-2026/)
 
@@ -142,7 +142,7 @@ collapse:: closed
 
 #### Text
 content::
-Luthien builds AI control for real deployments, "based on Redwood Research's AI Control agenda".[^cite-luthien-manifund] It builds an open-source proxy that adds control to Claude Code.[^cite-luthien-site]
+Luthien builds AI control for real deployments, based on Redwood's AI control agenda.[^cite-luthien-manifund] Its open-source proxy adds control to Claude Code.[^cite-luthien-site]
 
 [^cite-luthien-manifund]: Jai Dhyani (2025), *Luthien*, project page. [Manifund](https://manifund.org/projects/luthien)
 [^cite-luthien-site]: Luthien, *AI Control for Claude Code*. [luthien.cc](https://luthien.cc/)
