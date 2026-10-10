@@ -9,4 +9,4 @@ tags: [wip]
 
 %% Wrapper course for the widget gallery lens, so it renders on staging with the platform's widget frame and Lens SDK. One module, one lens, no meetings. Not for learners. %%
 
-# Module: [[../modules/XLab Verification Widget Gallery|Widget Gallery]]
+# Module: [[../../modules/XLab Verification Widget Gallery|Widget Gallery]]

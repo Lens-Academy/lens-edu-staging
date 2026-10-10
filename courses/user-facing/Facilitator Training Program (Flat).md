@@ -10,12 +10,12 @@ authors:
   - Yatharth+Claude
 ---
 
-# Module: [[../modules/Facilitator Flat M1 Foundations]]
+# Module: [[../../modules/Facilitator Flat M1 Foundations]]
 
-# Module: [[../modules/Facilitator Flat M2 How People Learn]]
+# Module: [[../../modules/Facilitator Flat M2 How People Learn]]
 
-# Module: [[../modules/Facilitator Flat M3 Designing & Opening]]
+# Module: [[../../modules/Facilitator Flat M3 Designing & Opening]]
 
-# Module: [[../modules/Facilitator Flat M4 Running the Session]]
+# Module: [[../../modules/Facilitator Flat M4 Running the Session]]
 
-# Module: [[../modules/Facilitator Flat M5 Hard Moments, Coaching & Closing]]
+# Module: [[../../modules/Facilitator Flat M5 Hard Moments, Coaching & Closing]]

@@ -9,4 +9,4 @@ description: "One live example of every interactive exercise type we build cours
 
 One module, one lens, no meetings, no test. The longer walkthrough is the product tour (slug: tour). %%
 
-# Module: [[../modules/interactive-exercises|Interactive exercises]]
+# Module: [[../../modules/interactive-exercises|Interactive exercises]]
