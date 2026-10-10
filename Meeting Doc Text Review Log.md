@@ -196,6 +196,7 @@ Worklist, found 2026-10-06. Counts cover AIRF, AI Futures and CV1 docs only.
 **Group C. Hand-offs.** See section 7.
 
 Progress, 2026-10-10. Group A: Andreas rewrote How today works, Open discussion and the Participant FAQ; the 3-room and AIRF variants were brought into line with his How today works as suggestions. Group B: the help note is first in the one-at-a-time review; the "two hours" lines in AI Futures Meetings 1 and 2 are suggested as "90 minutes".
+
 ---
 
 ## 4. Status by doc
