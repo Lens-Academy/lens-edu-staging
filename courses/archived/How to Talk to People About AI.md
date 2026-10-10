@@ -6,4 +6,4 @@ description: "Most people first hear about AI risk from someone they trust. This
 tags:
   - work-in-progress
 ---
-# Module: [[../modules/Talk About AI M1 The First Conversation]]
+# Module: [[../../modules/Talk About AI M1 The First Conversation]]

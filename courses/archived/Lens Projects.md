@@ -22,7 +22,7 @@ Tracks:
 - Field: a project in technical work, policy, or fieldbuilding.
 %%
 
-# Module: [[../modules/Lens Projects Overview]]
+# Module: [[../../modules/Lens Projects Overview]]
 intro-form:: true
 
 %%
@@ -36,11 +36,11 @@ Readings:
 - Core: "Nailing the basics: theories of change" (already in Lens); gallery of potential projects; AI use policy
 - Optional: Shevlane, "How to succeed as an early-stage researcher: the lean startup approach"; Hamming, You and Your Research; 80,000 Hours, "AI safety fieldbuilding" career review (already in Lens)
 %%
-# Module: [[../modules/Lens Projects U1 Plan]]
+# Module: [[../../modules/Lens Projects U1 Plan]]
 
 # Meeting: Unit 1: Plan
-survey:: [[../surveys/Lens Projects Meeting 1 Survey]]
-facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
+survey:: [[../../surveys/Lens Projects Meeting 1 Survey]]
+facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
 %% Shape: getting to know each other; two-minute canvas pitches; the group challenges the audience and the predicted change; participants who prepared pair with those starting fresh. Close with a heads-up that intake answers on hours, track and team will be used to pair review partners. %%
 
 %%
@@ -53,11 +53,11 @@ Readings:
 - Core: Jamie Harris, "You need user buy-in to scale your impact"
 - Optional, one for your track: DIP introduction (policy); a replication write-up from the gallery (technical); the Lens course review on LessWrong (fieldbuilding)
 %%
-# Module: [[../modules/Lens Projects U2 Start acting]]
+# Module: [[../../modules/Lens Projects U2 Start acting]]
 
 # Meeting: Unit 2: Start acting
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
-facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
+survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
+facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 %% Shape: each person shows their rough first version, not an update about it, and says in one sentence what testing their assumption taught them; the group asks "who acts on this?" and "what would make you switch?"; the navigator pairs review partners. %%
 
 %%
@@ -70,11 +70,11 @@ Readings:
 - Core: a short page we write on timeboxing and cutting scope
 - Optional: Neel Nanda, "My Research Process: Understanding and Cultivating Research Taste"; Jacob Steinhardt, "Research as a Stochastic Decision Process"
 %%
-# Module: [[../modules/Lens Projects U3 Re-scope]]
+# Module: [[../../modules/Lens Projects U3 Re-scope]]
 
 # Meeting: Unit 3: Re-scope
-survey:: [[../surveys/Lens Projects Meeting 3 Survey]]
-facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
+survey:: [[../../surveys/Lens Projects Meeting 3 Survey]]
+facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 %% Shape: a quick round on decisions (who re-scoped or switched, in one sentence); partners read each other's drafts live for about fifteen minutes and give first reactions out loud; each person's hardest current problem and the group's best suggestion. %%
 
 %%
@@ -87,11 +87,11 @@ Readings:
 - Core: write-up template and track rubric (ours)
 - Optional: Neel Nanda, "Highly Opinionated Advice on How to Write ML Papers" (technical)
 %%
-# Module: [[../modules/Lens Projects U4 Polish]]
+# Module: [[../../modules/Lens Projects U4 Polish]]
 
 # Meeting: Unit 4: Polish
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
-facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
+survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
+facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 %% Shape: each person brings one review point they rejected and their reason; the group takes the reviewer's side and stress-tests the rejection; then a round on what is finished and what is still a labelled gap. %%
 
 %%
@@ -104,9 +104,9 @@ Readings:
 - Core: Justis, "Editing Advice for EA Forum Users"; our page on where to publish, the project card, and a short STAR template for the interview roleplay
 - Optional: "How to write better blog posts" (EA Forum)
 %%
-# Module: [[../modules/Lens Projects U5 Share]]
+# Module: [[../../modules/Lens Projects U5 Share]]
 
 # Meeting: Unit 5: Share
-survey:: [[../surveys/Lens Projects Final Survey]]
-facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
+survey:: [[../../surveys/Lens Projects Final Survey]]
+facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 %% Shape: three minutes each (the audience and the change you aimed for, what you made, what you are least sure of, your ask of the room), then questions; a closing round on each person's next step with the work, with a date. %%
