@@ -12,8 +12,6 @@ content::
 
 \## Organisations
 
-#### Text
-content::
 \### AI companies
 
 #### Callout: Google DeepMind
