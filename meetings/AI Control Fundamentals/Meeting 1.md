@@ -73,6 +73,8 @@ One or two people share what their group landed on.
 \pagebreak
 ### Room 3: Whose honesty does safety rest on?  [0:52–1:10]
 
+**New group. Names first, then straight in.**
+
 A lab has AI models write its code:
 
 - **U**: new and very capable. It passes the lab's tests of the abilities needed to secretly work against the lab, so it is untrusted.
