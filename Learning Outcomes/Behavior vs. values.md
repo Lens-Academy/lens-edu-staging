@@ -36,7 +36,7 @@ Score {--{"author":"Andreas's AI","timestamp":1791596940009}@@according to --}{+
 
 **Level 1 (0-20):**++} Treats behavior and values as equivalent for AI: if it acts aligned, it is aligned. *Example: "If the AI acts helpful and avoids harm then it is safe. That's what alignment means."*
 
-**2** — Grasps that behavior and values can come apart in principle, but treats this as a minor or unlikely concern rather than a structural problem. *Example: "Even if AI acts nice it might not really be nice inside, but as long as it keeps acting nice it doesn't matter much."*
+{--{"author":"Andreas's AI","timestamp":1791596944236}@@**2** —--}{++{"author":"Andreas's AI","timestamp":1791596944236}@@**Level 2 (21-40):**++} Grasps that behavior and values can come apart in principle, but treats this as a minor or unlikely concern rather than a structural problem. *Example: "Even if AI acts nice it might not really be nice inside, but as long as it keeps acting nice it doesn't matter much."*
 
 **3** — Correctly explains the distinction, names the actor analogy (an actor playing a drunk is not drunk), and identifies the structural consequence: RLHF shapes output without necessarily shaping internal dispositions. *Example: "The actor analogy: someone trained to act drunk isn't drunk. Similarly, an AI trained to produce aligned-sounding outputs isn't necessarily aligned: it's learned what aligned behavior looks like, not what aligned values feel like. And there's no current way to verify which one you have."*
 
