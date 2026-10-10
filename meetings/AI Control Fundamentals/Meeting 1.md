@@ -199,7 +199,7 @@ source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
 
 
 1. Ask for "one thing I'm taking away" from anyone who wants it (~10 sec each; a few voices is plenty, people have already shared between rooms).
-2. **Next-unit heads-up: reading is Unit 2, The key ideas and the field (Ryan Greenblatt on threats that need few versus many bad actions, Buck Shlegeris on rogue deployments, Vivek Hebbar's talk on research sabotage, two maps of control research from Redwood Research and the UK AI Security Institute, what AI companies already run, and who works on control, about 3.5 hours). Remind them to message their Room-4 accountability buddy today and send that buddy their plan, to keep their gut-view note, and to fill in the meeting survey.**
+2. **Remind them to message their Room-4 accountability buddy today and send that buddy their plan, to keep their gut-view note, and to fill in the meeting survey.**
 3. **End on time.** Then say the meeting **stays open** for anyone who wants to keep talking; stay and facilitate, or say goodbye and leave (they can keep going without you).
 
 

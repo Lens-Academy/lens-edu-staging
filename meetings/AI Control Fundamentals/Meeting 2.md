@@ -149,7 +149,6 @@ One or two people share what their group landed on.
 Back in the main room, share if you feel like it: one thing you're glad you know now that you didn't know 90 minutes ago.
 Before you leave (your navigator will talk through these):
 
-- Next unit: why people work on control, meaning how it is supposed to make an AI catastrophe less likely, and what that needs from AI companies and governments. About 3.5 to 4 hours.
 - Send your accountability buddy your plan for the next unit today.
 - Fill in the short Unit 2 feedback page in the course on the Lens platform.
 
