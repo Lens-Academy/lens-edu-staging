@@ -40,7 +40,7 @@ Go through each tab of the master template ([[meetings/Master template]]) and ch
 2. The fixed parts match the master template exactly.
 3. The glossary is filled: ordered by module, each term defined once at its first appearance, in one or two sentences, in the source's framing.
 4. The doc title names the right course and unit, and the [Group] placeholder is still unfilled.
-5. The run-sheet's next-unit heads-up matches the next unit's actual reading; in the final unit it says there is none.
+5. Nothing in the doc summarises the next unit's reading (Elias, 2026-10-10). Room 4 only asks what could stop people finishing it and their plan to prevent that.
 
 ### Agent 2: Room quality
 Judge each room against its role. Most examples below are real prompts from past unit docs: they show the quality bar, not required shapes. A room passes if it serves its role well, whatever shape it takes.
@@ -182,8 +182,9 @@ Actors:
 3. **Room 4 leaves participants with a clear plan/next step.** Example prompts:
 
 ```
-1. Next unit: in the next unit you will learn about [one line on the next unit's topic]. What is most likely to stop you from finishing it, and what's your plan to prevent it? (Send the plan to your accountability buddy after the meeting.)
-2. Feedback: what would make the course and this meeting better?
+1. Accountability buddies: pair up (a trio is fine) and swap contact details in the table. Before each meeting you check in: did you finish, are you coming?
+2. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
+3. Feedback: what would make the course and this meeting better?
 ```
 
 Final unit variant:
