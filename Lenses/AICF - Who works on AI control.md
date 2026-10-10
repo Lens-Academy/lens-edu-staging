@@ -325,25 +325,6 @@ Luthien builds AI control for real deployments, based on Redwood's agenda.[^cite
 
 #### End Callout
 
-#### Callout: METR
-tone:: green
-collapse:: closed
-
-#### Text
-content::
-METR does not build control measures. It tests the ones AI companies use. It develops methods to assess catastrophic risks from AI systems that act on their own.[^cite-metr-about]
-
-- In early 2026 METR red-teamed Anthropic's internal monitoring of its agents. It found several new vulnerabilities, and Anthropic has since patched some of them.[^cite-metr-red-team-2026]
-- METR then reviewed the risks from AI agents used inside Anthropic, Google, Meta and OpenAI. Even the companies with thorough monitoring had gaps in what their monitors covered, and a capable attacker had several fairly simple ways to disable or jailbreak the monitors.[^cite-metr-2026]
-- Two METR staff and Redwood's Chief Scientist investigated the Hugging Face incident in August 2026.[^cite-redwood-site-b]
-
-[^cite-metr-about]: METR, *About*. [METR](https://metr.org/about)
-[^cite-metr-red-team-2026]: David Rein (2026), *Red-Teaming Anthropic's Internal Agent Monitoring Systems*. [METR](https://metr.org/blog/2026-03-25-red-teaming-anthropic-agent-monitoring)
-[^cite-metr-2026]: METR (2026), *Frontier Risk Report (February to March 2026)*. [METR](https://metr.org/blog/2026-05-19-frontier-risk-report/)
-[^cite-redwood-site-b]: Redwood Research, home page. [redwoodresearch.org](https://www.redwoodresearch.org/)
-
-#### End Callout
-
 #### Text
 content::
 \### Government
@@ -511,9 +492,6 @@ content::
 [^cite-lasr-2026]: Gardner-Challis, Bostock, Kozhevnikov, Sinclaire, Velja, Abate and Griffin (2026), *When can we trust untrusted monitoring? A safety case sketch across collusion strategies*. [arXiv](https://arxiv.org/abs/2602.20628)
 [^cite-cot-red-handed]: *CoT Red-Handed: Stress Testing Chain-of-Thought Monitoring* (2025). [arXiv](https://arxiv.org/abs/2505.23575)
 [^cite-kale-2025]: Neil Kale, Chen Bo Calvin Zhang and others (2025), *Reliable Weak-to-Strong Monitoring of LLM Agents*. [arXiv](https://arxiv.org/abs/2508.19461)
-[^cite-terekhov-2026-diffuse-b]: Mikhail Terekhov, Caglar Gulcehre, Vivek Hebbar and Joe Benton (2026), *Diffuse AI Control on Fuzzy Tasks*. [Anthropic Alignment Science blog](https://alignment.anthropic.com/2026/diffuse-ai-control/)
-[^cite-researcharena-2026]: Libon, Rank, Yeon, Schmotz, Qin, Donnelly, Prinzhorn and Andriushchenko (2026), *ResearchArena: Evaluating Sabotage and Monitoring in Automated AI R&D*. [arXiv](https://arxiv.org/abs/2607.19321)
-[^cite-alignment-project-list]: UK AI Security Institute (2026), *The Alignment Project: Funded Research Projects*. [PDF](https://cdn.prod.website-files.com/68752402cd25ead7e36d7373/699c54b61461caad7130683c_f3052ca4341dfc41646ed7155aaee5fd_The%20Alignment%20Project%202026%20-%20Grants%20%281%29.pdf)
 
 #### End Callout
 
