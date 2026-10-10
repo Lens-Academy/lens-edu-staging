@@ -289,6 +289,9 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 - **AIRF Meeting 5, Room 2. Resolved 2026-10-05:** Andreas rewrote the line to describe the care countries would need and quote the book exactly. The original problem, kept for the record: the doc quoted the authors as saying the cost would be "not even 1% as costly as WWII". That wording is not in the book; it appears only in the book-club design notes. Chapter 13 argues that claiming countries could never do this amounts to claiming they "could not possibly care even 1% as much as they cared to fight World War II". That is about willingness, not cost.
 - **AI Futures Meeting 3, Room 3. Resolved 2026-10-05:** Andreas made the table header match the question (contained rather than aligned).
 - **AI Futures goes by four names.** The public course page says "Advanced Strategy in AI Safety", the platform's course title is "AI Futures: Forecasting & Strategy", its final survey says "AI Futurism: Forecasting and Strategy", and the meetings folder says "Forecasting, Modeling, and Shaping AI Futures". AIRF Meeting 5 now uses the public name (2026-10-05). For whoever owns the course.
+- **AI Futures Meeting 3, Room 2: Kulveit et al.** Some participants in the week of 2026-10-05 found the line an unfair account of the paper (Andreas, 2026-10-10). The paper's mechanism, as the course's own summary of it puts it: the economy, culture and states serve people largely because they depend on human labor and thinking, and that alignment erodes as AI displaces that participation. Flagged on the page for the full pass.
+- **The AIRF How today works file looks redundant.** Once the 2026-10-10 suggestions are accepted it matches the general file. AIRF Meetings 2 to 5 could include the general file instead (one `source::` line each), and the AIRF file could retire. AIRF Meeting 1 uses neither: it has its own inline copy, which also carries Luc's two comments. Andreas's call, since it is a structural change.
+- **The Participant FAQ still sends people to the Zoom chat for the doc link**, in "Lost the doc link" and "I can't find the doc". The Zoom chat does not reach people inside breakout rooms (Andreas, 2026-10-10).
 - **"New group. Names first" missing from some rooms.** AI Futures Meeting 3, Room 2 is a new group but lacks the line (Andreas, 2026-10-05). Check every meeting for the same gap in the full pass.
 - **CV1 Meeting 5, wrap-up.** Describes the capstone as one fixed task, a verification regime for a three-month emergency pause. The Capstone course file describes choosing one brief from a set or proposing your own, and the Compute Verification 2 course page describes ranking the mechanisms by feasibility and designing a regime of your own. The three-month pause appears on that page as a Compute Verification 2 Unit 1 exercise, not as the capstone. Andreas expects this to be settled in a CV1 rewrite (2026-10-04).
 - **CV1 Meeting 5, wrap-up.** Says the Unit 1 success-scenario essay is revisited later in the track. The Unit 1 lens says the same, but no other course file or lens mentions the essay, so the revisit may not exist yet. Deferred to the CV1 restructure (Andreas, 2026-10-04).
@@ -311,7 +314,7 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 
 ### Course names
 
-- CV1's meeting docs are titled "Compute Verification Part 1", but the course is named "Compute Verification 1". [[CV1 Streamlining Proposal]] lists the same drift. For the CV1 restructure.
+- CV1's meeting docs are titled "Compute Verification Part 1", but the course is named "Compute Verification 1". [[CV1 Streamlining Proposal]] lists the same drift. Retitled when CV1 gets its own pass (Andreas, 2026-10-10).
 
 ### Unverified
 
