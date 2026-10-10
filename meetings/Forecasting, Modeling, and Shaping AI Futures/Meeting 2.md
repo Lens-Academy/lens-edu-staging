@@ -118,7 +118,7 @@ Whole group, no breakout room.
 
 
 1\. Next unit: today, send your accountability partner one line: what is most likely to stop you finishing it, and your plan to prevent that.
-2\. Closing round, answer out loud if you'd like: one thing you are less sure about than you were two hours ago, and one thing you are more sure about.
+2\. Closing round, answer out loud if you'd like: one thing you are less sure about than you were {--{"author":"Andreas's AI","timestamp":1791666674831}@@two hours--}{++{"author":"Andreas's AI","timestamp":1791666674831}@@90 minutes++} ago, and one thing you are more sure about.
 
 
 One question for the post-meeting survey's feedback box. We are deciding the shape of this course now, and your answer will change it. Which helps you more: fewer exercises from us and more good readings, or the present balance? We want the honest answer, not the kind one.

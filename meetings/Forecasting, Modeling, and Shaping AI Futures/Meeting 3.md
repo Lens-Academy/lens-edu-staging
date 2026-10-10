@@ -42,7 +42,7 @@ One or two people share what their group landed on.
 
 
 1. In your catastrophe, is there a point where one person could have stopped it? If yes, what would they have had to give up? Go around and let everyone answer before anyone argues.
-2. Then argue. This unit's readings disagree on where the bulk of the risk lies, and the course does not settle it. Nate Soares says the hard part is inside the system: it gets more capable, and the constraints we put on it do not keep up. Kulveit et al. say the hard part is between systems, where every AI does exactly what it was told, and the institutions that served people outgrew the people who they were originally created for.
+2. Then argue. This unit's readings disagree on where the bulk of the risk lies, and the course does not settle it. Nate Soares says the hard part is inside the system: it gets more capable, and the constraints we put on it do not keep up. Kulveit et al. say the hard part is between systems, where every AI does exactly what it was told, and the institutions that served people outgrew the people who they were originally created for.{>>{"author":"Andreas's AI","timestamp":1791666679420}@@Content, from participant feedback (Andreas, 2026-10-10): some participants found this an unfair account of Kulveit et al. The paper's mechanism is that the economy, culture and states serve people largely because they depend on human work and thinking, and that this weakens as AI takes over that work. "Outgrew" leaves the mechanism out. A known cost of shortening the line for time; fix in the full pass.<<}
 
 
 Which of these two scenarios does your catastrophe more closely resemble? And if you had to work on only one of them, which would you choose and why?
