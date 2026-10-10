@@ -264,7 +264,7 @@ Consumes:
 
 Attestation Results, Appraisal Policy for Attestation Results 
 
-Verifier:
+**Verifier:**
 
 A role performed by an entity that appraises the validity of Evidence about an Attester and produces Attestation Results to be used by a Relying Party.
 
@@ -276,7 +276,7 @@ Produces:
 
 Attestation Results 
 
-Relying Party Owner:
+**Relying Party Owner:**
 
 A role performed by an entity (typically an administrator) that is authorized to configure an Appraisal Policy for Attestation Results in a Relying Party.
 
