@@ -10,18 +10,18 @@ Please go through this file first before clicking into any of the links.
 By the way, anything in-between double percentage marks is treated as a comment and is ignored by our website. 
 
 In this course file, we define modules and meetings.%%
-# Module: [[../modules/main-demo-module|Demo basics]]
-# Module: [[../modules/min-chat-messages-demo|Interaction requirements demo]]
+# Module: [[../../modules/main-demo-module|Demo basics]]
+# Module: [[../../modules/min-chat-messages-demo|Interaction requirements demo]]
 # Meeting: Name of the first meeting
-survey:: [[../surveys/Demo Survey]]
+survey:: [[../../surveys/Demo Survey]]
 
-%% A `survey::` wikilink under a meeting attaches a post-meeting survey (see [[../surveys/Demo Survey]]). It unlocks for learners once their group's meeting has ended. %%
+%% A `survey::` wikilink under a meeting attaches a post-meeting survey (see [[../../surveys/Demo Survey]]). It unlocks for learners once their group's meeting has ended. %%
 
 %% Meetings automatically split the material up into weeks. This first module will be in week 1, followed by the above meeting.
 
 The following two modules will be in week 2, followed by the next meeting %%
-# Module: [[../modules/demo-module-with-submodules|Submodules demo]]
-# Module: [[../modules/demo-module-with-hidden-imports|Hidden imports demo]]
+# Module: [[../../modules/demo-module-with-submodules|Submodules demo]]
+# Module: [[../../modules/demo-module-with-hidden-imports|Hidden imports demo]]
 
 # Meeting: Name of the second meeting
 

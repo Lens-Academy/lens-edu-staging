@@ -9,34 +9,34 @@ tags:
 discussion: <placeholder — add Discord channel URL>
 ---
 
-# Module: [[../modules/EA Intro M1 - The Effectiveness Mindset]]
+# Module: [[../../modules/EA Intro M1 - The Effectiveness Mindset]]
 
 # Meeting: The Effectiveness Mindset
 
-# Module: [[../modules/EA Intro M2 - Differences in Impact]]
+# Module: [[../../modules/EA Intro M2 - Differences in Impact]]
 
 # Meeting: Differences in Impact
 
-# Module: [[../modules/EA Intro M3 - Radical Empathy]]
+# Module: [[../../modules/EA Intro M3 - Radical Empathy]]
 
 # Meeting: Radical Empathy
 
-# Module: [[../modules/EA Intro M4 - Our Final Century]]
+# Module: [[../../modules/EA Intro M4 - Our Final Century]]
 
 # Meeting: Our Final Century?
 
-# Module: [[../modules/EA Intro M5 - What Could the Future Hold]]
+# Module: [[../../modules/EA Intro M5 - What Could the Future Hold]]
 
 # Meeting: What Could the Future Hold?
 
-# Module: [[../modules/EA Intro M6 - Risks from Artificial Intelligence]]
+# Module: [[../../modules/EA Intro M6 - Risks from Artificial Intelligence]]
 
 # Meeting: Risks from Artificial Intelligence
 
-# Module: [[../modules/EA Intro M7 - What Do You Think]]
+# Module: [[../../modules/EA Intro M7 - What Do You Think]]
 
 # Meeting: What Do You Think?
 
-# Module: [[../modules/EA Intro M8 - Putting It Into Practice]]
+# Module: [[../../modules/EA Intro M8 - Putting It Into Practice]]
 
 # Meeting: Putting It Into Practice

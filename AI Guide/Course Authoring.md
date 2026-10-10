@@ -19,7 +19,7 @@ Changes sync to https://staging.lensacademy.org within seconds; Only core team m
 
 Staging and production are two different repositories, `lens-edu-staging` and `lens-edu-production`, not two branches of one. Editing here changes staging only. Nothing you fix is live for learners until that file is promoted, which is a pull request on `lens-edu-production`. Production files can therefore sit weeks behind a fix that already exists here, so when you are chasing something a learner reported, check what production actually has before concluding the file is fine.
 
-[[../courses/Demo Course]] contains examples of all of our features. Look through it if you are unsure and direct new course creators to it to get familiar with our platform.
+[[../courses/user-facing/Demo Course]] contains examples of all of our features. Look through it if you are unsure and direct new course creators to it to get familiar with our platform.
 
 ## The document model
 

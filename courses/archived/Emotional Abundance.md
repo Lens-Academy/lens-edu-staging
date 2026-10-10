@@ -27,7 +27,7 @@ Part I, core path. Module 1 goals (Overview):
 - Write down a starting view in a few sentences: what happiness is, what would make you lastingly happy, what the self is (revisited in module 8)
 %%
 
-# Module: [[../modules/Emotional Abundance M1 Overview|Overview]]
+# Module: [[../../modules/Emotional Abundance M1 Overview|Overview]]
 
 %%
 Module 2 goals (Three questions the schools disagree on):
@@ -37,7 +37,7 @@ Module 2 goals (Three questions the schools disagree on):
 - The reality questions (what the self is, why we want things, how experience is built) and how different schools link insight to happiness
 %%
 
-# Module: [[../modules/Emotional Abundance M2 The questions|Three questions the schools disagree on]]
+# Module: [[../../modules/Emotional Abundance M2 The questions|Three questions the schools disagree on]]
 
 %%
 Module 3 goals (Judging claims):
@@ -45,7 +45,7 @@ Module 3 goals (Judging claims):
 - Decide whether a claim is worth testing (cost, risk, how quickly you would know), and if so design a test of it on yourself: baseline, dose, measurement, confounders, a single-case experiment
 %%
 
-# Module: [[../modules/Emotional Abundance M3 Judging claims|Judging claims]]
+# Module: [[../../modules/Emotional Abundance M3 Judging claims|Judging claims]]
 
 %%
 Module 4 goals (Tour of the schools):
@@ -53,7 +53,7 @@ Module 4 goals (Tour of the schools):
 - Choose which school modules from the library to take
 %%
 
-# Module: [[../modules/Emotional Abundance M4 Tour of the schools|Tour of the schools]]
+# Module: [[../../modules/Emotional Abundance M4 Tour of the schools|Tour of the schools]]
 
 %%
 Module 5 goals (Desire):
@@ -61,7 +61,7 @@ Module 5 goals (Desire):
 - Say where the schools agree, where they disagree, and what evidence would decide it
 %%
 
-# Module: [[../modules/Emotional Abundance M5 Desire|Desire]]
+# Module: [[../../modules/Emotional Abundance M5 Desire|Desire]]
 
 %%
 Module 6 goals (The self):
@@ -69,7 +69,7 @@ Module 6 goals (The self):
 - Say what claims of selflessness, non-duality and fundamental wellbeing assert, and how such claims could be checked
 %%
 
-# Module: [[../modules/Emotional Abundance M6 The self|The self]]
+# Module: [[../../modules/Emotional Abundance M6 The self|The self]]
 
 %%
 Module 7 goals (Emotions and circumstances):
@@ -78,7 +78,7 @@ Module 7 goals (Emotions and circumstances):
 - Recognise the failure modes: indifference that looks like equanimity, numbing, spiritual bypassing, motivation loss
 %%
 
-# Module: [[../modules/Emotional Abundance M7 Emotions and circumstances|Emotions and circumstances]]
+# Module: [[../../modules/Emotional Abundance M7 Emotions and circumstances|Emotions and circumstances]]
 
 %%
 Module 8 goals (Your position and your experiments):
@@ -87,7 +87,7 @@ Module 8 goals (Your position and your experiments):
 - Choose one to three experiments for Part II, each with a protocol: dose, duration, measurement
 %%
 
-# Module: [[../modules/Emotional Abundance M8 Your position|Your position]]
+# Module: [[../../modules/Emotional Abundance M8 Your position|Your position]]
 
 %%
 School library (one module per school, same profile: claims, main people, sources and method, evidence, strengths and weaknesses, suggested experiments):
@@ -96,29 +96,29 @@ School library (one module per school, same profile: claims, main people, source
 - Philosophy: Stoicism, Epicureanism, Aristotle and virtue ethics, philosophy of the self, existentialism, absurdism and nihilism
 %%
 
-# Module: [[../modules/Emotional Abundance Library - Wellbeing science|Library: Wellbeing science and positive psychology]]
+# Module: [[../../modules/Emotional Abundance Library - Wellbeing science|Library: Wellbeing science and positive psychology]]
 optional:: true
 
-# Module: [[../modules/Emotional Abundance Library - Fundamental wellbeing|Library: Fundamental wellbeing research]]
+# Module: [[../../modules/Emotional Abundance Library - Fundamental wellbeing|Library: Fundamental wellbeing research]]
 optional:: true
 
-# Module: [[../modules/Emotional Abundance Library - Non-dual|Library: Advaita and modern non-dual teachers]]
+# Module: [[../../modules/Emotional Abundance Library - Non-dual|Library: Advaita and modern non-dual teachers]]
 optional:: true
 
-# Module: [[../modules/Emotional Abundance Library - Jhanas|Library: The jhanas]]
+# Module: [[../../modules/Emotional Abundance Library - Jhanas|Library: The jhanas]]
 optional:: true
 
-# Module: [[../modules/Emotional Abundance Library - CBT and ACT|Library: CBT, ACT and the third wave]]
+# Module: [[../../modules/Emotional Abundance Library - CBT and ACT|Library: CBT, ACT and the third wave]]
 optional:: true
 
-# Module: [[../modules/Emotional Abundance Library - Early Buddhism|Library: Early Buddhism and Theravada]]
+# Module: [[../../modules/Emotional Abundance Library - Early Buddhism|Library: Early Buddhism and Theravada]]
 optional:: true
 
-# Module: [[../modules/Emotional Abundance Library - Self-compassion|Library: Self-compassion and compassion-focused therapy]]
+# Module: [[../../modules/Emotional Abundance Library - Self-compassion|Library: Self-compassion and compassion-focused therapy]]
 optional:: true
 
-# Module: [[../modules/Emotional Abundance Library - Stoicism|Library: Stoicism]]
+# Module: [[../../modules/Emotional Abundance Library - Stoicism|Library: Stoicism]]
 optional:: true
 
-# Module: [[../modules/Emotional Abundance Library - Secular meditation|Library: Secular and pragmatic meditation]]
+# Module: [[../../modules/Emotional Abundance Library - Secular meditation|Library: Secular and pragmatic meditation]]
 optional:: true
