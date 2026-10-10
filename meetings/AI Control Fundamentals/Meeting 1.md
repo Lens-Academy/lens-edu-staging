@@ -110,7 +110,7 @@ Want help or an explanation for this question? Copy it into the [Lens Tutor](htt
 
 One or two people share what their group landed on. After that, your navigator will explain the accountability buddy system:
 
-1. In Room 4, the people in your breakout room become your accountability buddies. If you are four, split into two pairs.
+1. In Room 4, the people in your breakout room become your accountability buddies. If you are four or more, split into two groups.
 2. You swap contact details.
 3. Before each meeting, you check in with each other: did you finish the unit? Are you coming?
 
@@ -122,7 +122,7 @@ One or two people share what their group landed on. After that, your navigator w
 **New group. Names first, then straight in.**
 
 
-1. Accountability buddies: the people in this breakout room are your accountability buddies (if you are four, split into two pairs). Swap contact details in the table now.
+1. Accountability buddies: the people in this breakout room are your accountability buddies (if you are four or more, split into two groups). Swap contact details in the table now.
 2. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
 3. Feedback: what would make the course and this meeting better?
 
