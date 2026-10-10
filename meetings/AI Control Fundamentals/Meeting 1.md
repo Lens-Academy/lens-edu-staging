@@ -139,6 +139,8 @@ Before you leave (your navigator will talk through these):
 
 - Message your accountability buddy today, so you both know the channel works before the next meeting.
 
+
+
 ---
 
 
