@@ -252,61 +252,61 @@ This document uses the terms in the subsections that follow.
 
 A role performed by an entity (typically a device) whose Evidence must be appraised in order to infer the extent to which the Attester is considered trustworthy, such as when deciding whether it is authorized to perform some operation.
 
-Produces:
+Produces:{--{"author":"James's AI","timestamp":1791667242986}@@
 
-Evidence 
+--}{++{"author":"James's AI","timestamp":1791667242986}@@ ++}Evidence 
 
 **Relying Party:**
 
 A role performed by an entity that depends on the validity of information about an Attester for purposes of reliably applying application-specific actions. Compare: relying party [RFC4949].
 
-Consumes:
+Consumes:{--{"author":"James's AI","timestamp":1791667242986}@@
 
-Attestation Results, Appraisal Policy for Attestation Results 
+--}{++{"author":"James's AI","timestamp":1791667242986}@@ ++}Attestation Results, Appraisal Policy for Attestation Results 
 
 **Verifier:**
 
 A role performed by an entity that appraises the validity of Evidence about an Attester and produces Attestation Results to be used by a Relying Party.
 
-Consumes:
+Consumes:{--{"author":"James's AI","timestamp":1791667242986}@@
 
-Evidence, Reference Values, Endorsements, Appraisal Policy for Evidence 
+--}{++{"author":"James's AI","timestamp":1791667242986}@@ ++}Evidence, Reference Values, Endorsements, Appraisal Policy for Evidence 
 
-Produces:
+Produces:{--{"author":"James's AI","timestamp":1791667242986}@@
 
-Attestation Results 
+--}{++{"author":"James's AI","timestamp":1791667242986}@@ ++}Attestation Results 
 
 **Relying Party Owner:**
 
 A role performed by an entity (typically an administrator) that is authorized to configure an Appraisal Policy for Attestation Results in a Relying Party.
 
-Produces:
+Produces:{--{"author":"James's AI","timestamp":1791667247507}@@
 
-Appraisal Policy for Attestation Results 
+--}{++{"author":"James's AI","timestamp":1791667247507}@@ ++}Appraisal Policy for Attestation Results 
 
 **Verifier Owner:**
 
 A role performed by an entity (typically an administrator) that is authorized to configure an Appraisal Policy for Evidence in a Verifier.
 
-Produces:
+Produces:{--{"author":"James's AI","timestamp":1791667247507}@@
 
-Appraisal Policy for Evidence 
+--}{++{"author":"James's AI","timestamp":1791667247507}@@ ++}Appraisal Policy for Evidence 
 
 **Endorser:**
 
 A role performed by an entity (typically a manufacturer) whose Endorsements may help Verifiers appraise the authenticity of Evidence and infer further capabilities of the Attester.
 
-Produces:
+Produces:{--{"author":"James's AI","timestamp":1791667247507}@@
 
-Endorsements 
+--}{++{"author":"James's AI","timestamp":1791667247507}@@ ++}Endorsements 
 
 **Reference Value Provider:**
 
 A role performed by an entity (typically a manufacturer) whose Reference Values help Verifiers appraise Evidence to determine if acceptable known Claims have been recorded by the Attester.
 
-Produces:
+Produces:{--{"author":"James's AI","timestamp":1791667247507}@@
 
-Reference Values 
+--}{++{"author":"James's AI","timestamp":1791667247507}@@ ++}Reference Values 
 
 ### 4.2. Artifacts ^4-2
 
