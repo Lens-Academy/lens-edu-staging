@@ -155,10 +155,10 @@ collapse:: closed
 
 #### Text
 content::
-METR does not build control measures. It tests the ones AI companies use. Its mission is "to develop scientific methods to assess catastrophic risks stemming from AI systems' autonomous capabilities and enable good decision-making about their development".[^cite-metr-about]
+METR does not build control measures. It tests the ones AI companies use. It develops methods to assess catastrophic risks from AI systems that act on their own.[^cite-metr-about]
 
-- In early 2026 METR red-teamed Anthropic's internal monitoring of its agents. The exercise "discovered several specific novel vulnerabilities, some of which have since been patched".[^cite-metr-red-team-2026]
-- METR then reviewed the risks from AI agents used inside Anthropic, Google, Meta and OpenAI. It found that "even companies with thorough monitoring setups had gaps in coverage and several relatively simple ways for monitors to be disabled or jailbroken by a capable attacker".[^cite-metr-2026]
+- In early 2026 METR red-teamed Anthropic's internal monitoring of its agents. It found several new vulnerabilities, and Anthropic has since patched some of them.[^cite-metr-red-team-2026]
+- METR then reviewed the risks from AI agents used inside Anthropic, Google, Meta and OpenAI. Even the companies with thorough monitoring had gaps in what their monitors covered, and a capable attacker had several fairly simple ways to disable or jailbreak the monitors.[^cite-metr-2026]
 - Two METR staff and Redwood's Chief Scientist investigated the Hugging Face incident in August 2026.[^cite-redwood-site-b]
 
 [^cite-metr-about]: METR, *About*. [METR](https://metr.org/about)
