@@ -15,9 +15,9 @@ Between rooms everyone comes back to the main room for five minutes. Your naviga
 
 **🆘 Need help during a breakout?**
 
-- Confused about the task, or want to talk to the facilitator? Click “••• More” > “Ask for Help” > Your navigator gets pinged and pops into your room.
-- Don't get the question or the reading? Ask the Lens Tutor.
-- Lost the doc link, or a quick logistics thing? Check Discord or the Zoom chat.
+- Confused about the task, or want to talk to the {--{"author":"Andreas's AI","timestamp":1791666644074}@@facilitator?--}{++{"author":"Andreas's AI","timestamp":1791666644074}@@navigator?++} Click{--{"author":"Andreas's AI","timestamp":1791666644074}@@ “•••--}{++{"author":"Andreas's AI","timestamp":1791666644074}@@  **"•••++} More” > “Ask for {--{"author":"Andreas's AI","timestamp":1791666644074}@@Help”--}{++{"author":"Andreas's AI","timestamp":1791666644074}@@Help"**++} > Your navigator gets pinged and pops into your room.
+- Don't get the question or the reading? Ask the {--{"author":"Andreas's AI","timestamp":1791666644074}@@Lens Tutor.
+- Lost the doc link, or a quick logistics thing? Check Discord or the Zoom chat.--}{++{"author":"Andreas's AI","timestamp":1791666644074}@@[Lens Tutor](https://lensacademy.org/tutor).++}
 - More questions? Check the [FAQ Tab](<#tab:Participant FAQ>)
 
 
