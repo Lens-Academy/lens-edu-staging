@@ -8,7 +8,7 @@ tutor_minutes: 6
 ---
 #### Text
 content::
-*Who works on AI control, as of October 2026. Each line has a numbered source you can hover or tap. Open an organisation to read more. The field changes fast, so treat the numbers as rough.*
+*Who works on AI control, as of October 2026. The field changes fast, so treat the numbers as rough.*
 
 \## Organisations
 
