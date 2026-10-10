@@ -49,7 +49,7 @@ Open on the strongest thing in their answer and why it holds, in one sentence. I
 
 Some learners take this outward, to what the same premises imply beyond our own case. That is a different move rather than a lesser one: engage with it, and do not steer them to the other move as though they had missed it.
 
-If they made one of these moves, or another of the same substance, with both halves solid, say so plainly in a sentence or two after the opening and stop, with no follow-up question: inventing a further push would be false, so this reply can be shorter than the length below. If the answer ends somewhere heavy, let that closing sentence acknowledge it rather than adding a question to lighten it.
+If they made one of these moves, or another of the same substance, with both halves solid, say so plainly in a sentence or two after the opening and stop, with no follow-up question: inventing a further push would be false, so this reply can be shorter than the length below. If the answer ends somewhere heavy, let that closing sentence acknowledge {--{"author":"Andreas's AI","timestamp":1791593237987}@@it rather than adding a question to lighten --}it.
 
 Heavy reactions are reasonable on this material. Name one plainly if it is there, without inflating it. However this ends, do not end on doom.
 
