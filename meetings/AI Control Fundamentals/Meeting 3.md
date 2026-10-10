@@ -126,8 +126,7 @@ One or two people share what their group landed on.
 
 
 1\. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
-2\. What is your plan to prevent that? (Send the plan to your accountability buddy today.)
-3\. Feedback: what would make the course and this meeting better?
+2\. Feedback: what would make the course and this meeting better?
 
 
 | Names | Your plan for the next unit + feedback |
