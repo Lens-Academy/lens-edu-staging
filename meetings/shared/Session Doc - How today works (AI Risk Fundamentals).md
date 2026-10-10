@@ -7,17 +7,16 @@ You'll move through a few small **breakout rooms** (**3-4** people), meeting dif
 2. Answer the prompt together; a line or two in the table is plenty, don't overthink formatting.
 
 
-Between rooms everyone comes back to the main room for five minutes. Your navigator asks who wants to share what their group landed on. Speaking up is optional and a sentence or two is plenty, so if your group {--{"author":"Andreas's AI","timestamp":1791666635680}@@hit something the others should hear,--}{++{"author":"Andreas's AI","timestamp":1791666635680}@@generated great insights,++} that is the {--{"author":"Andreas's AI","timestamp":1791666635680}@@moment.{>>{"author":"AI","timestamp":1791094876063}@@AI (mild): "that is the moment" flourish. Luc flagged "hit something" as vague on the AIRF M1 copy.<<}--}{++{"author":"Andreas's AI","timestamp":1791666635680}@@time to share them with others.++}
+Between rooms everyone comes back to the main room for five minutes. Your navigator asks who wants to share what their group landed on. Speaking up is optional and a sentence or two is plenty, so if your group generated great insights, that is the time to share them with others.
 
 
-**Today's {--{"author":"Andreas's AI","timestamp":1791666640007}@@shape--}{++{"author":"Andreas's AI","timestamp":1791666640007}@@agenda++} (90 {--{"author":"Andreas's AI","timestamp":1791666640007}@@min):**{>>{"author":"AI","timestamp":1791094876667}@@Luc (on the AIRF M1 copy): call it Schedule or Agenda, one line per item with "(x min)". "Shape" also reads as AI-flavoured.<<}--}{++{"author":"Andreas's AI","timestamp":1791666640007}@@min):**++} lobby 0:00–0:05 · Room 1 0:05–0:19 · back together 0:19–0:24 · Room 2 0:24–0:42 · back together 0:42–0:47 · break 0:47–0:52 · Room 3 0:52–1:10 · back together 1:10–1:15 · Room 4 1:15–1:27 · goodbye 1:27–1:30.
+**Today's agenda (90 min):** lobby 0:00–0:05 · Room 1 0:05–0:19 · back together 0:19–0:24 · Room 2 0:24–0:42 · back together 0:42–0:47 · break 0:47–0:52 · Room 3 0:52–1:10 · back together 1:10–1:15 · Room 4 1:15–1:27 · goodbye 1:27–1:30.
 
 
 **🆘 Need help during a breakout?**
 
-- Confused about the task, or want to talk to the {--{"author":"Andreas's AI","timestamp":1791666644074}@@facilitator?--}{++{"author":"Andreas's AI","timestamp":1791666644074}@@navigator?++} Click{--{"author":"Andreas's AI","timestamp":1791666644074}@@ “•••--}{++{"author":"Andreas's AI","timestamp":1791666644074}@@  **"•••++} More” > “Ask for {--{"author":"Andreas's AI","timestamp":1791666644074}@@Help”--}{++{"author":"Andreas's AI","timestamp":1791666644074}@@Help"**++} > Your navigator gets pinged and pops into your room.
-- Don't get the question or the reading? Ask the {--{"author":"Andreas's AI","timestamp":1791666644074}@@Lens Tutor.
-- Lost the doc link, or a quick logistics thing? Check Discord or the Zoom chat.--}{++{"author":"Andreas's AI","timestamp":1791666644074}@@[Lens Tutor](https://lensacademy.org/tutor).++}
+- Confused about the task, or want to talk to the navigator? Click  **"••• More” > “Ask for Help"** > Your navigator gets pinged and pops into your room.
+- Don't get the question or the reading? Ask the [Lens Tutor](https://lensacademy.org/tutor).
 - More questions? Check the [FAQ Tab](<#tab:Participant FAQ>)
 
 
