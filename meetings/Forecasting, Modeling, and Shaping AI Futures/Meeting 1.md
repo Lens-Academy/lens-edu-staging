@@ -103,7 +103,7 @@ Whole group, no breakout room.
 
 1\. Accountability buddies:
     - Your navigator pairs you up (a trio is fine). Write your pair in the table below.
-    - You swap contact details in the Zoom chat (Discord works).
+    - You swap contact details in the Zoom chat.
     - Before each meeting, starting with the next one, you check in with each other: did you finish the unit? Are you coming?
 2\. Today, send your buddy one line: what's most likely to stop you finishing Unit 2, and your plan to beat it. That's the plan they'll check in on.
 3\. Closing round, answer out loud if you'd like: one thing you're glad you know now that you didn't know two hours ago.
