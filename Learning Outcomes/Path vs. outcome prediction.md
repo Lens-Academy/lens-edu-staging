@@ -30,10 +30,11 @@ content:: The Coda makes a careful distinction between two kinds of prediction. 
 **What is that distinction? Use the analogy the authors give to explain it. And what does the distinction imply about what the book actually predicts, and what it doesn't?**
 
 assessment-instructions::
-Score according to the following rubric.
-**1** — Cannot distinguish path from outcome, or conflates "we can't predict the exact events" with "we can't predict anything." *Example: "Since we don't know exactly what will happen, the book's predictions are uncertain."*
+Score {--{"author":"Andreas's AI","timestamp":1791594255759}@@according to --}{++{"author":"Andreas's AI","timestamp":1791594255759}@@out of 100. Pick the level that best describes the answer as a whole, then a score inside that level's range: near the top if the answer fully reaches the level, near the bottom if it only just does. Judge what the answer shows the learner understands, not only what it spells out: a correct extension that depends on a point shows that point is understood, even if ++}the {--{"author":"Andreas's AI","timestamp":1791594255759}@@following rubric.
+**1** —--}{++{"author":"Andreas's AI","timestamp":1791594255759}@@answer states it briefly. An extension shows nothing about points it does not depend on.
 
-**2** — Recognizes the distinction exists but cannot explain why outcome confidence is possible when path confidence is not. *Example: "The book says we know things will go badly even if we don't know how."*
+**Level 1 (0-20):**++} Cannot distinguish path from outcome, or conflates "we can't predict the exact events" with "we can't predict anything." *Example: "Since we don't know exactly what will happen, the book's predictions are uncertain."*
+{--{"author":"Andreas's AI","timestamp":1791594259719}@@**2** —--}{++{"author":"Andreas's AI","timestamp":1791594259719}@@**Level 2 (21-40):**++} Recognizes the distinction exists but cannot explain why outcome confidence is possible when path confidence is not. *Example: "The book says we know things will go badly even if we don't know how."*
 
 **3** — Correctly explains the asymmetry: outcome confidence depends on capability asymmetry, not path predictability. The Stockfish analogy makes this precise: you don't need to predict each move to know the result when the capability gap is decisive. Applies this to the superintelligence case: the outcome follows from the capability relationship, not the specific trajectory. *Example: "When capability is sufficiently asymmetric, the result is determined even when the path isn't. You can't predict Stockfish's moves, but you know the human loses. The book applies the same logic: the outcome of humans vs. superintelligence follows from the capability gap, not the specific sequence of events."*
 
