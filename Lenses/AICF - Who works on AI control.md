@@ -8,11 +8,63 @@ tutor_minutes: 6
 ---
 #### Text
 content::
-*Who works on AI control, as of October 2026. The field changes fast, so treat the numbers as rough.*
+*Who works on AI control, as of October 2026. Go through all the organisations below to get a picture of the field. The field changes fast, so treat the numbers as rough.*
 
 \## Organisations
 
+#### Text
+content::
+\### AI companies
+
+#### Callout: Google DeepMind
+tone:: blue
+collapse:: closed
+
+#### Text
+content::
+Google DeepMind published an AI Control Roadmap in June 2026: the measures it plans to put around its own agents as they get more capable.[^cite-deepmind-2026] The roadmap calls AI control "a nascent field" and says putting the measures in place "requires navigating difficult trade-offs between security and developer velocity".[^cite-phuong-2026]
+
+[^cite-deepmind-2026]: Rohin Shah and Four Flynn (2026), *Securing the future of AI agents*. [Google DeepMind blog](https://deepmind.google/blog/securing-the-future-of-ai-agents/)
+[^cite-phuong-2026]: Mary Phuong, Erik Jenner, Laurent Simon and others (2026), *GDM AI Control Roadmap*. [arXiv](https://arxiv.org/abs/2607.13087)
+
+#### End Callout
+
+#### Callout: OpenAI
+tone:: blue
+collapse:: closed
+
+#### Text
+content::
+OpenAI says it monitors 99.9% of its internal coding traffic for signs of misalignment and sends higher-severity cases for human review within 30 minutes. As of March 2026, it had not "yet detected any real world examples of sabotage, scheming or sandbagging".[^cite-openai-monitoring-2026]
+
+[^cite-openai-monitoring-2026]: OpenAI (2026), *How we monitor internal coding agents for misalignment*, shared on LessWrong by Marcus Williams. [LessWrong](https://www.lesswrong.com/posts/syB2r2X4E7nmw58co/openai-how-we-monitor-internal-coding-agents-for)
+
+#### End Callout
+
+#### Callout: Anthropic
+tone:: blue
+collapse:: closed
+
+#### Text
+content::
+- **Research.** In June 2025 Anthropic released SHADE-Arena, a test of whether AI agents can carry out a hidden harmful task during normal work without a monitor noticing.[^cite-anthropic-shade-arena-2025] Its authors include Redwood's Buck Shlegeris and Tyler Tracy.[^cite-kutasov-2025-b] In June 2026 researchers from Anthropic, the Swiss university EPFL and Redwood published work on defending against diffuse threats.[^cite-terekhov-2026-diffuse]
+- **In use.** Since 14 August 2026, Claude Code runs in auto mode by default on Pro, Max and Team plans. Auto mode "routes each tool call through a classifier targeted at blocking actions that are irreversible, destructive, or aimed outside your environment".[^cite-claude-auto-mode-2026]
+- **People.** Fabien Roger, one of the four authors of the first control paper, moved from Redwood to Anthropic, where his research "focuses on AI control and dealing with alignment faking".[^cite-mats-roger]
+
+[^cite-anthropic-shade-arena-2025]: Anthropic (2025), *SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents*. [Anthropic](https://www.anthropic.com/research/shade-arena-sabotage-monitoring)
+[^cite-kutasov-2025-b]: Jonathan Kutasov and others (2025), *SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents*. [arXiv](https://arxiv.org/abs/2506.15740)
+[^cite-terekhov-2026-diffuse]: Mikhail Terekhov, Caglar Gulcehre, Vivek Hebbar and Joe Benton (2026), *Diffuse AI Control on Fuzzy Tasks*. [Anthropic Alignment Science blog](https://alignment.anthropic.com/2026/diffuse-ai-control/)
+[^cite-claude-auto-mode-2026]: Conner Phillippi (2026), *Auto mode is now the default in Claude Code*. [Claude blog](https://claude.com/blog/auto-mode-default-in-claude-code)
+[^cite-mats-roger]: MATS, *Fabien Roger*, mentor profile. [MATS](https://www.matsprogram.org/mentor/roger)
+
+#### End Callout
+
+#### Text
+content::
+\### Independent organisations
+
 #### Callout: Redwood Research
+tone:: green
 collapse:: closed
 
 #### Text
@@ -72,7 +124,56 @@ Ryan Greenblatt is Redwood's Chief Scientist, "focused on technical AI safety re
 
 #### End Callout
 
+#### Callout: Apollo Research
+tone:: green
+collapse:: closed
+
+#### Text
+content::
+As of May 2026, Apollo Research has a monitoring team with a research side and a product side.[^cite-apollo-may-2026] Its product Watcher watches AI coding agents as they work. It "identifies and blocks undesirable actions or steers the agent back on track", and the risks it targets range from leaked secrets to "scheming and oversight subversion".[^cite-apollo-may-2026]
+
+[^cite-apollo-may-2026]: Apollo Research (2026), *Apollo Update May 2026*. [Apollo Research](https://www.apolloresearch.ai/blog/apollo-update-may-2026/)
+
+#### End Callout
+
+#### Callout: Luthien
+tone:: green
+collapse:: closed
+
+#### Text
+content::
+Luthien builds AI control for real deployments, "based on Redwood Research's AI Control agenda".[^cite-luthien-manifund] It builds an open-source proxy that adds control to Claude Code.[^cite-luthien-site]
+
+[^cite-luthien-manifund]: Jai Dhyani (2025), *Luthien*, project page. [Manifund](https://manifund.org/projects/luthien)
+[^cite-luthien-site]: Luthien, *AI Control for Claude Code*. [luthien.cc](https://luthien.cc/)
+
+#### End Callout
+
+#### Callout: METR
+tone:: green
+collapse:: closed
+
+#### Text
+content::
+METR does not build control measures. It tests the ones AI companies use. Its mission is "to develop scientific methods to assess catastrophic risks stemming from AI systems' autonomous capabilities and enable good decision-making about their development".[^cite-metr-about]
+
+- In early 2026 METR red-teamed Anthropic's internal monitoring of its agents. The exercise "discovered several specific novel vulnerabilities, some of which have since been patched".[^cite-metr-red-team-2026]
+- METR then reviewed the risks from AI agents used inside Anthropic, Google, Meta and OpenAI. It found that "even companies with thorough monitoring setups had gaps in coverage and several relatively simple ways for monitors to be disabled or jailbroken by a capable attacker".[^cite-metr-2026]
+- Two METR staff and Redwood's Chief Scientist investigated the Hugging Face incident in August 2026.[^cite-redwood-site-b]
+
+[^cite-metr-about]: METR, *About*. [METR](https://metr.org/about)
+[^cite-metr-red-team-2026]: David Rein (2026), *Red-Teaming Anthropic's Internal Agent Monitoring Systems*. [METR](https://metr.org/blog/2026-03-25-red-teaming-anthropic-agent-monitoring)
+[^cite-metr-2026]: METR (2026), *Frontier Risk Report (February to March 2026)*. [METR](https://metr.org/blog/2026-05-19-frontier-risk-report/)
+[^cite-redwood-site-b]: Redwood Research, home page. [redwoodresearch.org](https://www.redwoodresearch.org/)
+
+#### End Callout
+
+#### Text
+content::
+\### Government
+
 #### Callout: The UK AI Security Institute (AISI)
+tone:: purple
 collapse:: closed
 
 #### Text
@@ -96,83 +197,10 @@ collapse:: closed
 
 #### Text
 content::
-As of May 2026, Apollo Research has a monitoring team with a research side and a product side.[^cite-apollo-may-2026] Its product Watcher watches AI coding agents as they work. It "identifies and blocks undesirable actions or steers the agent back on track", and the risks it targets range from leaked secrets to "scheming and oversight subversion".[^cite-apollo-may-2026]
-
-[^cite-apollo-may-2026]: Apollo Research (2026), *Apollo Update May 2026*. [Apollo Research](https://www.apolloresearch.ai/blog/apollo-update-may-2026/)
-
-#### End Callout
-
-#### Callout: Luthien
-collapse:: closed
-
-#### Text
-content::
-Luthien builds AI control for real deployments, "based on Redwood Research's AI Control agenda".[^cite-luthien-manifund] It builds an open-source proxy that adds control to Claude Code.[^cite-luthien-site]
-
-[^cite-luthien-manifund]: Jai Dhyani (2025), *Luthien*, project page. [Manifund](https://manifund.org/projects/luthien)
-[^cite-luthien-site]: Luthien, *AI Control for Claude Code*. [luthien.cc](https://luthien.cc/)
-
-#### End Callout
-
-#### Callout: Google DeepMind
-collapse:: closed
-
-#### Text
-content::
-Google DeepMind published an AI Control Roadmap in June 2026: the measures it plans to put around its own agents as they get more capable.[^cite-deepmind-2026] The roadmap calls AI control "a nascent field" and says putting the measures in place "requires navigating difficult trade-offs between security and developer velocity".[^cite-phuong-2026]
-
-[^cite-deepmind-2026]: Rohin Shah and Four Flynn (2026), *Securing the future of AI agents*. [Google DeepMind blog](https://deepmind.google/blog/securing-the-future-of-ai-agents/)
-[^cite-phuong-2026]: Mary Phuong, Erik Jenner, Laurent Simon and others (2026), *GDM AI Control Roadmap*. [arXiv](https://arxiv.org/abs/2607.13087)
-
-#### End Callout
-
-#### Callout: OpenAI
-collapse:: closed
-
-#### Text
-content::
-OpenAI says it monitors 99.9% of its internal coding traffic for signs of misalignment and sends higher-severity cases for human review within 30 minutes. As of March 2026, it had not "yet detected any real world examples of sabotage, scheming or sandbagging".[^cite-openai-monitoring-2026]
-
-[^cite-openai-monitoring-2026]: OpenAI (2026), *How we monitor internal coding agents for misalignment*, shared on LessWrong by Marcus Williams. [LessWrong](https://www.lesswrong.com/posts/syB2r2X4E7nmw58co/openai-how-we-monitor-internal-coding-agents-for)
-
-#### End Callout
-
-#### Callout: Anthropic
-collapse:: closed
-
-#### Text
-content::
-- **Research.** In June 2025 Anthropic released SHADE-Arena, a test of whether AI agents can carry out a hidden harmful task during normal work without a monitor noticing.[^cite-anthropic-shade-arena-2025] Its authors include Redwood's Buck Shlegeris and Tyler Tracy.[^cite-kutasov-2025-b] In June 2026 researchers from Anthropic, the Swiss university EPFL and Redwood published work on defending against diffuse threats.[^cite-terekhov-2026-diffuse]
-- **In use.** Since 14 August 2026, Claude Code runs in auto mode by default on Pro, Max and Team plans. Auto mode "routes each tool call through a classifier targeted at blocking actions that are irreversible, destructive, or aimed outside your environment".[^cite-claude-auto-mode-2026]
-- **People.** Fabien Roger, one of the four authors of the first control paper, moved from Redwood to Anthropic, where his research "focuses on AI control and dealing with alignment faking".[^cite-mats-roger]
-
-[^cite-anthropic-shade-arena-2025]: Anthropic (2025), *SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents*. [Anthropic](https://www.anthropic.com/research/shade-arena-sabotage-monitoring)
-[^cite-kutasov-2025-b]: Jonathan Kutasov and others (2025), *SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents*. [arXiv](https://arxiv.org/abs/2506.15740)
-[^cite-terekhov-2026-diffuse]: Mikhail Terekhov, Caglar Gulcehre, Vivek Hebbar and Joe Benton (2026), *Diffuse AI Control on Fuzzy Tasks*. [Anthropic Alignment Science blog](https://alignment.anthropic.com/2026/diffuse-ai-control/)
-[^cite-claude-auto-mode-2026]: Conner Phillippi (2026), *Auto mode is now the default in Claude Code*. [Claude blog](https://claude.com/blog/auto-mode-default-in-claude-code)
-[^cite-mats-roger]: MATS, *Fabien Roger*, mentor profile. [MATS](https://www.matsprogram.org/mentor/roger)
-
-#### End Callout
-
-#### Callout: METR
-collapse:: closed
-
-#### Text
-content::
-METR does not build control measures. It tests the ones AI companies use. Its mission is "to develop scientific methods to assess catastrophic risks stemming from AI systems' autonomous capabilities and enable good decision-making about their development".[^cite-metr-about]
-
-- In early 2026 METR red-teamed Anthropic's internal monitoring of its agents. The exercise "discovered several specific novel vulnerabilities, some of which have since been patched".[^cite-metr-red-team-2026]
-- METR then reviewed the risks from AI agents used inside Anthropic, Google, Meta and OpenAI. It found that "even companies with thorough monitoring setups had gaps in coverage and several relatively simple ways for monitors to be disabled or jailbroken by a capable attacker".[^cite-metr-2026]
-- Two METR staff and Redwood's Chief Scientist investigated the Hugging Face incident in August 2026.[^cite-redwood-site-b]
-
-[^cite-metr-about]: METR, *About*. [METR](https://metr.org/about)
-[^cite-metr-red-team-2026]: David Rein (2026), *Red-Teaming Anthropic's Internal Agent Monitoring Systems*. [METR](https://metr.org/blog/2026-03-25-red-teaming-anthropic-agent-monitoring)
-[^cite-metr-2026]: METR (2026), *Frontier Risk Report (February to March 2026)*. [METR](https://metr.org/blog/2026-05-19-frontier-risk-report/)
-[^cite-redwood-site-b]: Redwood Research, home page. [redwoodresearch.org](https://www.redwoodresearch.org/)
-
-#### End Callout
+\### Universities and smaller groups
 
 #### Callout: Smaller groups and universities
+tone:: amber
 collapse:: closed
 
 #### Text
@@ -193,7 +221,12 @@ content::
 
 #### End Callout
 
+#### Text
+content::
+\### Conferences and training
+
 #### Callout: FAR.AI and MATS
+tone:: neutral
 collapse:: closed
 
 #### Text
