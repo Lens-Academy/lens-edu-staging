@@ -129,7 +129,7 @@ Want help or an explanation for this question? Copy it into the Lens Tutor and a
 One or two people share what their group landed on. After that, your navigator will explain the accountability buddy system:
 
 1. In Room 4, the people in your breakout room become your accountability buddies. If you are four or more, split into two groups.
-2. You swap Discord handles.
+2. You swap contact details.
 3. Before each meeting, you check in with each other: did you finish the unit? Are you coming?
 
 ---
@@ -141,7 +141,7 @@ One or two people share what their group landed on. After that, your navigator w
 Three things before the rooms close:
 
 
-1\. Accountability buddies: the people in this breakout room are your accountability buddies for the rest of the course (if you are four or more, split into two groups). Swap Discord handles in the table now.
+1\. Accountability buddies: the people in this breakout room are your accountability buddies for the rest of the course (if you are four or more, split into two groups). Swap contact details in the table now.
 
 
 2\. Next unit: Chapters 4-6 (You Don't Get What You Train For, Its Favorite Things, We’d Lose): Will it want what we trained it to want, would its wants leave room for us, and how could we actually lose to it? What's most likely to stop you finishing the reading, and what's your plan to beat it? (After the meeting, send your plan to your new buddy.)
@@ -150,7 +150,7 @@ Three things before the rooms close:
 3\. Feedback: this was the course's first meeting. What should we keep, and what would make the next one better?
 
 
-| Names | Buddy handles + your plan + feedback |
+| Names | Buddy contacts + your plan + feedback |
 |------|------------------------|
 |  |  |
 |  |  |
