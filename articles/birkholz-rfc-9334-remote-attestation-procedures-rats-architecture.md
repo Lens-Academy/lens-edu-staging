@@ -284,7 +284,7 @@ Produces:
 
 Appraisal Policy for Attestation Results 
 
-Verifier Owner:
+**Verifier Owner:**
 
 A role performed by an entity (typically an administrator) that is authorized to configure an Appraisal Policy for Evidence in a Verifier.
 
