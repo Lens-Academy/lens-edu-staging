@@ -7,30 +7,30 @@ tags:
   - visible-in-skilltree
 ---
 
-# Module: [[../modules/introduction-to-navigating-superintelligence]]
+# Module: [[../../modules/introduction-to-navigating-superintelligence]]
 
 # Meeting: Overview
 
-# Module: [[../modules/what-even-is-ai]]
+# Module: [[../../modules/what-even-is-ai]]
 
 # Meeting: What is AI?
 
-# Module: [[../modules/feedback-loops]]
+# Module: [[../../modules/feedback-loops]]
 
 # Meeting: Feedback Loops and Recursive Self-Improvement
 
-# Module: [[../modules/Cognitive Superpowers]]
+# Module: [[../../modules/Cognitive Superpowers]]
 
 # Meeting: Cognitive Superpowers
 
-# Module:  [[../modules/Fundamental Difficulties]]
+# Module:  [[../../modules/Fundamental Difficulties]]
 
 # Meeting: Fundamental Difficulties
 
-# Module: [[../modules/Existing approaches]]
+# Module: [[../../modules/Existing approaches]]
 
 # Meeting: Existing Approaches
 
-# Module:  [[../modules/Last module]]
+# Module:  [[../../modules/Last module]]
 
 # Meeting: Your journey onwards

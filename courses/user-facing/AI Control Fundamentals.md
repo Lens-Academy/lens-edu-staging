@@ -31,22 +31,22 @@ Unit 1 goals (What control is):
 - Write down a gut view on control, revisited in Unit 5
 %%
 
-application-survey:: [[../surveys/Application Form]]
+application-survey:: [[../../surveys/Application Form]]
 
-# Module: [[../modules/AI Control Fundamentals Overview|Course Overview]]
+# Module: [[../../modules/AI Control Fundamentals Overview|Course Overview]]
 
-# Module: [[../modules/AI Control Fundamentals U1 What control is|What control is]]
+# Module: [[../../modules/AI Control Fundamentals U1 What control is|What control is]]
 
-# Module: [[../modules/AI Control Fundamentals U1 The case for control|Control claims, and how they are tested]]
+# Module: [[../../modules/AI Control Fundamentals U1 The case for control|Control claims, and how they are tested]]
 
-# Module: [[../modules/AI Control Fundamentals U1 Control today and first criticisms|Control today, and first criticisms]]
+# Module: [[../../modules/AI Control Fundamentals U1 Control today and first criticisms|Control today, and first criticisms]]
 
-# Module: [[../modules/AI Control Fundamentals U1 Feedback|Unit 1 feedback]]
+# Module: [[../../modules/AI Control Fundamentals U1 Feedback|Unit 1 feedback]]
 
 # Meeting: Unit 1: What control is
-meeting-doc:: [[../meetings/AI Control Fundamentals/Meeting 1]]
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
-facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
+meeting-doc:: [[../../meetings/AI Control Fundamentals/Meeting 1]]
+survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
+facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
 
 %%
 Unit 2 goals (The key ideas and the field):
@@ -55,16 +55,16 @@ Unit 2 goals (The key ideas and the field):
 - The field: main organisations and people, and its size compared with the rest of AI safety
 %%
 
-# Module: [[../modules/AI Control Fundamentals U2 The key ideas and the field|High-stakes and low-stakes threats]]
+# Module: [[../../modules/AI Control Fundamentals U2 The key ideas and the field|High-stakes and low-stakes threats]]
 
-# Module: [[../modules/AI Control Fundamentals U2 The AI control field|The AI control field]]
+# Module: [[../../modules/AI Control Fundamentals U2 The AI control field|The AI control field]]
 
-# Module: [[../modules/AI Control Fundamentals U2 Feedback|Unit 2 feedback]]
+# Module: [[../../modules/AI Control Fundamentals U2 Feedback|Unit 2 feedback]]
 
 # Meeting: Unit 2: The key ideas and the field
-meeting-doc:: [[../meetings/AI Control Fundamentals/Meeting 2]]
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
-facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
+meeting-doc:: [[../../meetings/AI Control Fundamentals/Meeting 2]]
+survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
+facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
 %%
 Unit 3 goals (Why people work on control):
@@ -72,18 +72,18 @@ Unit 3 goals (Why people work on control):
 - How each route depends on political will, and each route's weakest premise
 %%
 
-# Module: [[../modules/AI Control Fundamentals U3 Why people work on control|Using AI while it can still be controlled]]
+# Module: [[../../modules/AI Control Fundamentals U3 Why people work on control|Using AI while it can still be controlled]]
 
-# Module: [[../modules/AI Control Fundamentals U3 Catching AIs red-handed|Catching AIs red-handed]]
+# Module: [[../../modules/AI Control Fundamentals U3 Catching AIs red-handed|Catching AIs red-handed]]
 
-# Module: [[../modules/AI Control Fundamentals U3 Political will and buy-in|Political will and buy-in]]
+# Module: [[../../modules/AI Control Fundamentals U3 Political will and buy-in|Political will and buy-in]]
 
-# Module: [[../modules/AI Control Fundamentals U3 Feedback|Unit 3 feedback]]
+# Module: [[../../modules/AI Control Fundamentals U3 Feedback|Unit 3 feedback]]
 
 # Meeting: Unit 3: Why people work on control
-meeting-doc:: [[../meetings/AI Control Fundamentals/Meeting 3]]
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
-facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
+meeting-doc:: [[../../meetings/AI Control Fundamentals/Meeting 3]]
+survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
+facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
 %%
 Unit 4 goals (Criticisms of control):
@@ -91,16 +91,16 @@ Unit 4 goals (Criticisms of control):
 - Trace how a control measure could backfire, the premise it rests on, and a fix (dropping the measure is an allowed answer)
 %%
 
-# Module: [[../modules/AI Control Fundamentals U4 Criticisms of control|Is control enough?]]
+# Module: [[../../modules/AI Control Fundamentals U4 Criticisms of control|Is control enough?]]
 
-# Module: [[../modules/AI Control Fundamentals U4 What control does to the world|What control does to the world]]
+# Module: [[../../modules/AI Control Fundamentals U4 What control does to the world|What control does to the world]]
 
-# Module: [[../modules/AI Control Fundamentals U4 Feedback|Unit 4 feedback]]
+# Module: [[../../modules/AI Control Fundamentals U4 Feedback|Unit 4 feedback]]
 
 # Meeting: Unit 4: Criticisms of control
-meeting-doc:: [[../meetings/AI Control Fundamentals/Meeting 4]]
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
-facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
+meeting-doc:: [[../../meetings/AI Control Fundamentals/Meeting 4]]
+survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
+facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
 %%
 Unit 5 goals (Debates, and your own view):
@@ -108,13 +108,13 @@ Unit 5 goals (Debates, and your own view):
 - State and defend a calibrated view of your own, and what would change it, and compare it with the Unit 1 gut view
 %%
 
-# Module: [[../modules/AI Control Fundamentals U5 Debates and your own view|The Hugging Face incident debate]]
+# Module: [[../../modules/AI Control Fundamentals U5 Debates and your own view|The Hugging Face incident debate]]
 
-# Module: [[../modules/AI Control Fundamentals U5 Warning shots and your view|Warning shots, and your view]]
+# Module: [[../../modules/AI Control Fundamentals U5 Warning shots and your view|Warning shots, and your view]]
 
-# Module: [[../modules/AI Control Fundamentals U5 Feedback|Unit 5 feedback]]
+# Module: [[../../modules/AI Control Fundamentals U5 Feedback|Unit 5 feedback]]
 
 # Meeting: Unit 5: Debates, and your own view
-meeting-doc:: [[../meetings/AI Control Fundamentals/Meeting 5]]
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
-facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
+meeting-doc:: [[../../meetings/AI Control Fundamentals/Meeting 5]]
+survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
+facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
