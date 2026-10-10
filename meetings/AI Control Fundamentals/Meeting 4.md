@@ -164,7 +164,6 @@ One or two people share what their group landed on.
 Back in the main room, share if you feel like it: one argument from today that you didn't expect to find as strong as you did.
 Before you leave (your navigator will talk through these):
 
-- Next unit: Debates, and your own view, the last unit of the course. Real debates between people who disagree about control, most of them after the 2026 Hugging Face incident, practice in finding the crux of a disagreement, and a final page where you state your own view and compare it with the gut view you wrote in Unit 1. About 4 hours.
 - Send your plan for the next unit to your accountability buddy today.
 - Found something unclear, wrong, or missing? Tell us on the Unit 4 feedback page in the course.
 
@@ -227,7 +226,7 @@ source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
 
 
 1. Ask for "one thing I'm taking away" from anyone who wants it (~10 sec each; a few voices is plenty, people have already shared between rooms).
-2. **Next-unit heads-up: reading is Unit 5, Debates, and your own view, the last unit (Buck Shlegeris and Ryan Greenblatt on whether control prevents warning shots, before and after the 2026 Hugging Face incident, Adam Gleave and Oliver Habryka debating current safety techniques, practice finding the crux, blocking monitors, whether safety researchers should leave frontier labs, whether warning shots change policy, and a final page where they state their own view and compare it with their Unit 1 gut view, about 4 hours). Remind them to send their Room 4 plan to their accountability buddy, and that feedback goes on the Unit 4 feedback page in the course.**
+2. **Remind them to send their Room 4 plan to their accountability buddy, and that feedback goes on the Unit 4 feedback page in the course.**
 3. **End on time.** Then say the meeting **stays open** for anyone who wants to keep talking; stay and facilitate, or say goodbye and leave (they can keep going without you).
 
 
