@@ -102,10 +102,10 @@ source:: [[../articles/safety-statement-on-ai-extinction-risk-cais]]
 from:: "**Mitigating the risk of extinction from AI"
 to:: "Signatories:"
 
-%% An article's `author_url:` frontmatter (one URL, or a list in the same order as `author`) turns the author's name into a link: in the byline, the source bar and this lens's sidebar entry. %%
+%% An article's `author_url:` frontmatter (one URL, or a list in the same order as `author`) turns the author's name into a {--{"author":"Iris's AI","timestamp":1791603399838}@@link:--}{++{"author":"Iris's AI","timestamp":1791603399838}@@link++} in the {--{"author":"Iris's AI","timestamp":1791603399838}@@byline,--}{++{"author":"Iris's AI","timestamp":1791603399838}@@byline and++} the source {--{"author":"Iris's AI","timestamp":1791603399838}@@bar and this lens's sidebar entry.--}{++{"author":"Iris's AI","timestamp":1791603399838}@@bar. The sidebar entry shows the name as plain text.++} %%
 # Lens: Linking the author
 id:: 456648fa-9602-4ca3-8f77-22bbe0c7364e
-tldr:: Shows author_url: in an article's frontmatter: the author's name links to their page, in the byline and in the sidebar.
+tldr:: Shows author_url: in an article's frontmatter: the author's name {--{"author":"Iris's AI","timestamp":1791603402232}@@links to their page, --}in the byline {--{"author":"Iris's AI","timestamp":1791603402232}@@and in the sidebar.--}{++{"author":"Iris's AI","timestamp":1791603402232}@@links to their page.++}
 summary_for_tutor:: Demo lens for the author_url: article field. A Text segment explains the field, then an Article segment shows the opening of the Article presentation demo, whose frontmatter sets author_url: https://lensacademy.org, so the byline's "Lens Academy" is a link.
 reading_minutes:: 1
 
