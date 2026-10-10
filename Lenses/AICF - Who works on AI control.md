@@ -182,13 +182,60 @@ The UK AI Security Institute is a government body. Its Control team works on con
 
 - **Tools.** In October 2025 AISI released ControlArena, a library for running control experiments, which researchers at Anthropic, Google DeepMind and Redwood have used.[^cite-aisi-controlarena-2025]
 - **Testing monitors.** Its Control Red Team tests whether the monitors that watch AI agents would flag an agent that carries out a harmful goal instead of the user's request.[^cite-aisi-red-team-2026]
-- **Funding.** Its Alignment Project fund pays for both alignment and control research.[^cite-alignment-project-control] It named its first 60 projects in February 2026. "How big is it?" below says how many of them are about control.
+- **Funding.** It runs the Alignment Project fund, under Funders below.
 
 [^cite-aisi-agenda]: UK AI Security Institute, *AISI Research Agenda*. [AISI](https://www.aisi.gov.uk/research-agenda)
 [^cite-aisi-cooney]: UK AI Security Institute, *Alan Cooney*, team page. [AISI](https://www.aisi.gov.uk/people/alan-cooney)
 [^cite-aisi-controlarena-2025]: UK AI Security Institute (2025), *Introducing ControlArena: A library for running AI control experiments*. [AISI blog](https://www.aisi.gov.uk/blog/introducing-controlarena-a-library-for-running-ai-control-experiments)
 [^cite-aisi-red-team-2026]: UK AI Security Institute (2026), *How our Control Red Team is stress-testing frontier monitors*. [AISI blog](https://www.aisi.gov.uk/blog/how-our-new-control-red-team-is-stress-testing-frontier-monitors)
+
+#### End Callout
+
+#### Text
+content::
+\### Funders
+
+#### Callout: Coefficient Giving
+tone:: amber
+collapse:: closed
+
+#### Text
+content::
+Coefficient Giving, formerly Open Philanthropy, pays for a large share of AI safety research. It committed $351m to technical AI safety, security and field-building in 2025.[^cite-coefficient-scaling-2026-b]
+
+- In February 2025 it offered $40m for technical AI safety research in 21 areas, and control evaluations were one of them.[^cite-op-rfp-2025]
+- In November 2025 it gave Redwood Research $36.6m for general support.[^cite-tnw-2026-b]
+- In February 2026 it gave Francis Rhys Ward $1.55m for AI control evaluations.[^cite-trace-coefficient-b]
+
+[^cite-coefficient-scaling-2026-b]: Coefficient Giving (2026), *We're Urgently Scaling Our Work on AI and Biosecurity*. [Coefficient Giving](https://coefficientgiving.org/research/were-urgently-scaling-our-work-on-ai-and-biosecurity/)
+[^cite-op-rfp-2025]: Open Philanthropy (2025), *Open Philanthropy Technical AI Safety RFP: $40M Available Across 21 Research Areas*. [EA Forum](https://forum.effectivealtruism.org/posts/XtgDaunRKtCPzyCWg/open-philanthropy-technical-ai-safety-rfp-usd40m-available)
+[^cite-tnw-2026-b]: Alina Maria Stan (2026), *The nonprofit that investigated OpenAI's rogue agents runs on a $36m grant*. [The Next Web](https://thenextweb.com/news/coefficient-giving-ai-safety-funding-ipo-correlation)
+[^cite-trace-coefficient-b]: Manifund, *Coefficient Giving* in Trace. [Trace](https://trace.manifund.org/orgs/coefficient-giving)
+
+#### End Callout
+
+#### Callout: The Alignment Project
+tone:: amber
+collapse:: closed
+
+#### Text
+content::
+The Alignment Project is a fund run by the UK AI Security Institute. It pays for both alignment and control research.[^cite-alignment-project-control] In February 2026 it announced its first 60 projects, worth £27m in total.[^cite-aisi-60-projects-2026-b] "How big is it?" below says how many of them are about control.
+
 [^cite-alignment-project-control]: Julian Stastny, Tomek Korbak, Mojmir, Buck Shlegeris and Alan Cooney, *Research Areas in AI Control (The Alignment Project by UK AISI)*. [Alignment Forum](https://www.alignmentforum.org/posts/rGcg4XDPDzBFuqNJz/research-areas-in-ai-control-the-alignment-project-by-uk)
+[^cite-aisi-60-projects-2026-b]: UK AI Security Institute (2026), *Funding 60 projects to advance AI alignment research*. [AISI blog](https://www.aisi.gov.uk/blog/funding-60-projects-to-advance-ai-alignment-research)
+
+#### End Callout
+
+#### Callout: Survival and Flourishing Fund
+tone:: amber
+collapse:: closed
+
+#### Text
+content::
+The Survival and Flourishing Fund passes on grants from donors such as Jaan Tallinn and Dustin Moskovitz. In its 2026 round, Poseidon Research, which works on control and secure monitoring, received about $675,000.[^cite-trace-sff]
+
+[^cite-trace-sff]: Manifund, *Survival and Flourishing Fund* in Trace. [Trace](https://trace.manifund.org/orgs/sff)
 
 #### End Callout
 
@@ -197,7 +244,7 @@ content::
 \### Universities and smaller groups
 
 #### Callout: LASR Labs, Poseidon, Scale AI, EPFL, ELLIS Tübingen, CMU
-tone:: amber
+tone:: neutral
 collapse:: closed
 
 #### Text
