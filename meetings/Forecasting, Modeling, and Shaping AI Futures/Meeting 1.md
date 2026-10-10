@@ -106,7 +106,7 @@ Whole group, no breakout room.
     - You swap contact details in the Zoom chat.
     - Before each meeting, starting with the next one, you check in with each other: did you finish the unit? Are you coming?
 2\. Today, send your buddy one line: what's most likely to stop you finishing Unit 2, and your plan to beat it. That's the plan they'll check in on.
-3\. Closing round, answer out loud if you'd like: one thing you're glad you know now that you didn't know two hours ago.
+3\. Closing round, answer out loud if you'd like: one thing you're glad you know now that you didn't know {--{"author":"Andreas's AI","timestamp":1791666670415}@@two hours--}{++{"author":"Andreas's AI","timestamp":1791666670415}@@90 minutes++} ago.
 
 
 Feedback on the course and this meeting goes in the post-meeting survey. The team reads every line.
