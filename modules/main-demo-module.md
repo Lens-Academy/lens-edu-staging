@@ -85,7 +85,7 @@ source:: [[../Lenses/Nested callouts demo]]
 # Lens:
 source:: [[../Lenses/Article excerpt demo]]
 
-%% To choose what the sidebar credits for a whole lens, put `sidebar_author:` in the lens's frontmatter (or `sidebar_author::` on an inline lens): a name replaces the article authors and video channels in the sidebar entry, the module overview and card links, and `none` credits nobody. Bylines and the source bar keep the article's author. %%
+%% To choose what the sidebar credits for a whole lens, put `sidebar_author:` in the lens's frontmatter (or `sidebar_author::` on an inline lens): a name replaces the article authors and video channels in the sidebar {--{"author":"Iris's AI","timestamp":1791603415023}@@entry, the module overview--}{++{"author":"Iris's AI","timestamp":1791603415023}@@entry++} and card links, and `none` credits nobody. Bylines and the source bar keep the article's author. %%
 # Lens: Choosing the sidebar credit
 id:: e4296b35-2f55-4225-bd44-5aa14231f6d1
 sidebar_author:: Lens Academy
