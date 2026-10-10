@@ -22,7 +22,7 @@ collapse:: closed
 
 #### Text
 content::
-Google DeepMind published an AI Control Roadmap in June 2026: the measures it plans to put around its own agents as they get more capable.[^cite-deepmind-2026] The roadmap calls AI control "a nascent field" and says putting the measures in place "requires navigating difficult trade-offs between security and developer velocity".[^cite-phuong-2026]
+Google DeepMind published an AI Control Roadmap in June 2026: the measures it plans to put around its own agents as they get more capable.[^cite-deepmind-2026] AI control is still a young field, and each of these measures trades some security against how fast the company's developers can work.[^cite-phuong-2026]
 
 [^cite-deepmind-2026]: Rohin Shah and Four Flynn (2026), *Securing the future of AI agents*. [Google DeepMind blog](https://deepmind.google/blog/securing-the-future-of-ai-agents/)
 [^cite-phuong-2026]: Mary Phuong, Erik Jenner, Laurent Simon and others (2026), *GDM AI Control Roadmap*. [arXiv](https://arxiv.org/abs/2607.13087)
@@ -35,7 +35,7 @@ collapse:: closed
 
 #### Text
 content::
-OpenAI says it monitors 99.9% of its internal coding traffic for signs of misalignment and sends higher-severity cases for human review within 30 minutes. As of March 2026, it had not "yet detected any real world examples of sabotage, scheming or sandbagging".[^cite-openai-monitoring-2026]
+OpenAI monitors 99.9% of its internal coding traffic for signs of misalignment and sends higher-severity cases for human review within 30 minutes. As of March 2026, it had not detected any real-world sabotage, scheming or sandbagging by its agents.[^cite-openai-monitoring-2026]
 
 [^cite-openai-monitoring-2026]: OpenAI (2026), *How we monitor internal coding agents for misalignment*, shared on LessWrong by Marcus Williams. [LessWrong](https://www.lesswrong.com/posts/syB2r2X4E7nmw58co/openai-how-we-monitor-internal-coding-agents-for)
 
