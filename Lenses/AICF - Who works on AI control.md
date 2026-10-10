@@ -178,10 +178,10 @@ collapse:: closed
 
 #### Text
 content::
-The UK AI Security Institute is a government body. Its Control team "aims to advance the state of control protocols and control evaluations, such that they remain sufficient as AI capabilities progress towards AGI or ASI".[^cite-aisi-agenda] Alan Cooney is its Head of Autonomous Systems & Control.[^cite-aisi-cooney]
+The UK AI Security Institute is a government body. Its Control team works on control protocols and control evaluations that keep working as AI gets more capable.[^cite-aisi-agenda] Alan Cooney is its Head of Autonomous Systems & Control.[^cite-aisi-cooney]
 
 - **Tools.** In October 2025 AISI released ControlArena, a library for running control experiments, which researchers at Anthropic, Google DeepMind and Redwood have used.[^cite-aisi-controlarena-2025]
-- **Testing monitors.** Its Control Red Team tests the monitors that watch AI agents. In its words, the question is: "if an AI attacker completed a harmful objective instead of a user request, would the monitor flag the attack?"[^cite-aisi-red-team-2026]
+- **Testing monitors.** Its Control Red Team tests whether the monitors that watch AI agents would flag an agent that carries out a harmful goal instead of the user's request.[^cite-aisi-red-team-2026]
 - **Funding.** Its Alignment Project fund pays for both alignment and control research.[^cite-alignment-project-control] It named its first 60 projects in February 2026. "How big is it?" below says how many of them are about control.
 
 [^cite-aisi-agenda]: UK AI Security Institute, *AISI Research Agenda*. [AISI](https://www.aisi.gov.uk/research-agenda)
@@ -203,7 +203,7 @@ collapse:: closed
 #### Text
 content::
 - **LASR Labs**, a London research program, produced a paper on when a monitor that is itself an untrusted model can be trusted (February 2026), with authors from Oxford, Imperial and the UK AI Security Institute.[^cite-lasr-2026]
-- **Poseidon Research**, a nonprofit, does "deep technical research in interpretability, control, and secure monitoring".[^cite-poseidon]
+- **Poseidon Research**, a nonprofit, does research on interpretability, control and secure monitoring.[^cite-poseidon]
 - **Scale AI** published a way to red-team the monitors that watch AI agents (August 2025).[^cite-kale-2025]
 - **EPFL**, a Swiss university, co-wrote the diffuse-threats work with Anthropic and Redwood (June 2026).[^cite-terekhov-2026-diffuse-b]
 - **The ELLIS Institute Tübingen and the Max Planck Institute for Intelligent Systems** built ResearchArena, a test of sabotage and monitoring when AI agents do AI research (July 2026).[^cite-researcharena-2026]
@@ -228,7 +228,7 @@ collapse:: closed
 
 #### Text
 content::
-- **FAR.AI** runs ControlConf, the AI control conference, with Redwood. The first was in London in March 2025, also with the UK AI Security Institute.[^cite-farai-london-2025] The second, in Berkeley in April 2026, "brought together 200 researchers, lab engineers, and policy folks working on AI control".[^cite-farai-controlconf-2026-b]
+- **FAR.AI** runs ControlConf, the AI control conference, with Redwood. The first was in London in March 2025, also with the UK AI Security Institute.[^cite-farai-london-2025] The second, in Berkeley in April 2026, brought together about 200 researchers, engineers and policy people working on AI control.[^cite-farai-controlconf-2026-b]
 - **MATS** trains new AI safety researchers with mentors. Its summer 2026 program, with 120 fellows and 100 mentors, was its largest yet,[^cite-mats-summer-2026] and Redwood mentors run a control stream in it.[^cite-mats-redwood-c]
 
 [^cite-farai-london-2025]: FAR.AI (2025), *London ControlConf 2025*. [FAR.AI](https://www.far.ai/blog/london-controlconf-2025)
