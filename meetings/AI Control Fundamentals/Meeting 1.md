@@ -110,6 +110,8 @@ Want help or an explanation for this question? Copy it into the [Lens Tutor](htt
 
 One or two people share what their group landed on.
 
+- Message your accountability buddy today, so you both know the channel works before the next meeting.
+
 ---
 
 \pagebreak
