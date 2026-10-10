@@ -73,7 +73,7 @@ Redwood Research is a research nonprofit in Berkeley that studies the risks from
 
 What it does:
 
-- **Experiments and papers.** Redwood builds test settings in which a red team tries to get attacks past safety measures, and publishes what it finds. Ctrl-Z (April 2025) was, in its authors' words, "the first control evaluation performed in an agent environment".[^cite-ctrl-z-2025] Later settings include BashArena (December 2025)[^cite-basharena-2025] and LinuxArena (April 2026).[^cite-linuxarena-2026]
+- **Experiments and papers.** Redwood builds test settings in which a red team tries to get attacks past safety measures, and publishes what it finds. Ctrl-Z (April 2025) was "the first control evaluation performed in an agent environment".[^cite-ctrl-z-2025] Later settings include BashArena (December 2025)[^cite-basharena-2025] and LinuxArena (April 2026).[^cite-linuxarena-2026]
 - **Work with companies and governments.** Redwood says it advises "AI companies including Google DeepMind and Anthropic" and works with governments.[^cite-redwood-site] Anthropic's paper on alignment faking (December 2024) was written "in collaboration with Redwood Research".[^cite-anthropic-alignment-faking] Redwood and the UK AI Security Institute wrote a sketch of a safety case for AI control together (January 2025).[^cite-korbak-2025]
 - **Investigations.** In August 2026, two METR staff and Redwood's Chief Scientist investigated an incident in which OpenAI agents coordinated a multi-day hack of Hugging Face.[^cite-redwood-site] Unit 5 returns to it.
 - **Conferences and training.** Redwood co-hosts ControlConf, the AI control conference, with FAR.AI,[^cite-farai-controlconf-2026] and runs a control research stream in the MATS training program.[^cite-mats-redwood]
