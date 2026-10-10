@@ -69,7 +69,7 @@ collapse:: closed
 
 #### Text
 content::
-Redwood Research is a research nonprofit in Berkeley that studies the risks from powerful AI and ways to reduce them.[^cite-redwood-about] Four of its researchers wrote the 2023 paper that introduced AI control.[^cite-greenblatt-2023] Redwood is behind a renaissance of AI control as a research agenda.[^cite-80k-shlegeris-2025]
+Redwood Research is a research nonprofit in Berkeley that studies the risks from powerful AI and ways to reduce them.[^cite-redwood-about] Four of its researchers wrote the 2023 paper that introduced AI control.[^cite-greenblatt-2023] According to Rob Wiblin, host of the 80,000 Hours podcast, Redwood is "behind a bit of a renaissance" of AI control as a research agenda.[^cite-80k-shlegeris-2025]
 
 What it does:
 
