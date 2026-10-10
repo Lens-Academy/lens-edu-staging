@@ -14,7 +14,7 @@ provenance_recorded_at: '2026-10-08'
 content::
 \### Optimization
 
-[Understanding Machine Learning: From Theory to Algorithms](https://www.cambridge.org/core/books/understanding-machine-learning/3059695661405D25673058E43C8BE2A6), Section 8.4 (Hardness of learning)
+[Understanding Machine Learning: From Theory to Algorithms](https://www.cambridge.org/core/books/understanding-machine-learning/3059695661405D25673058E43C8BE2A6), Section 8.4 (Hardness of learning), pages 108-110 of the [free PDF](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/)
 
 *Discussion questions:*
 
