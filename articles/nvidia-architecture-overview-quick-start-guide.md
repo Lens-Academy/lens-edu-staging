@@ -39,9 +39,9 @@ The following diagram illustrates the flow of information and trust between the 
 
 The attestation process provides a complete, verifiable chain of trust.
 
-1.  **Generate Evidence**: Use the Attestation SDK to collect cryptographic evidence from the GPU and other NVIDIA devices.
+1.  **Generate Evidence**: Use the Attestation SDK (software development kit) to collect cryptographic evidence from the GPU and other NVIDIA devices.
     
-2.  **Fetch Golden Measurements**: The RIM Service provides the official, signed “golden” measurements for authentic NVIDIA components.
+2.  **Fetch Golden Measurements**: The RIM (Reference Integrity Manifest) Service provides the official, signed “golden” measurements for authentic NVIDIA components.
     
 3.  **Attest and Verify**: The NVIDIA Remote Attestation Service or the Local verifier compares the evidence against the golden measurements to provide a definitive verification result.
     
