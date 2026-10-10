@@ -6,7 +6,7 @@ stage: beginner
 authors:
   - Elias+Claude
 ---
-%% Written for AI Control Fundamentals Unit 2. The size of the field is practised and scored in the lens "AICF - Who works on AI control", not in a test (the separate outcome "Size of the AI control field" is no longer used). The facts about organisations come from the Lens page "AICF - Who works on AI control" (October 2026), which links every source. Update the rubric when that page is updated. %%
+%% Written for AI Control Fundamentals Unit 2. The size of the field is reading only, in the lens "AICF - Who works on AI control", and is not scored (the separate outcome "Size of the AI control field" is no longer used). The facts about organisations come from the Lens page "AICF - Who works on AI control" (October 2026), which links every source. Update the rubric when that page is updated. %%
 ## Test:
 id:: a3d7a99a-4ddc-4c08-99e5-ba9c1d2d7344
 
