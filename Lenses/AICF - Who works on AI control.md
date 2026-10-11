@@ -94,23 +94,13 @@ collapse:: closed
 #### Text
 content::
 - **Meta**'s safety framework (April 2026) treats loss of control as a risk, including an AI that disables its monitors or behaves differently when it knows it is watched, and Meta says it will regularly assess the risk from its own internal use of frontier models.[^cite-meta-aasf-2026] It let METR review how it monitors AI agents internally in early 2026.[^cite-metr-2026-b] It publishes little safety research: the Future of Life Institute counted 9 Meta technical safety papers from 2023 to May 2026, against 46 from Anthropic.[^cite-fli-2026]
-
-[^cite-meta-aasf-2026]: Meta (2026), *Advanced AI Scaling Framework, version 2*. [Meta](https://ai.meta.com/static-resource/Meta_Advanced-AI-Scaling-Framework-v2)
-[^cite-metr-2026-b]: METR (2026), *Frontier Risk Report (February to March 2026)*. [METR](https://metr.org/blog/2026-05-19-frontier-risk-report/)
-[^cite-fli-2026]: Future of Life Institute (2026), *AI Safety Index, Summer 2026*. [PDF](https://futureoflife.org/wp-content/uploads/2026/07/AI-Safety-Index-Summer-2026-Digital.pdf)
-
-#### End Callout
-
-#### Callout: xAI, Microsoft, Amazon and Mistral
-tone:: blue
-collapse:: closed
-
-#### Text
-content::
 - **xAI**, which makes Grok, has no public plan for monitoring its models' internal use, and did not take part in METR's review of internal agent use.[^cite-xai-faif-2026][^cite-fli-2026-b][^cite-metr-2026-c]
 - **Microsoft** and **Amazon** added loss of control to their safety frameworks in 2026, but neither framework describes how the company monitors its own AI agents.[^cite-microsoft-fgf-2026][^cite-amazon-fmsf-2026]
 - **Mistral** has published no safety framework.[^cite-saferai-2026]
 
+[^cite-meta-aasf-2026]: Meta (2026), *Advanced AI Scaling Framework, version 2*. [Meta](https://ai.meta.com/static-resource/Meta_Advanced-AI-Scaling-Framework-v2)
+[^cite-metr-2026-b]: METR (2026), *Frontier Risk Report (February to March 2026)*. [METR](https://metr.org/blog/2026-05-19-frontier-risk-report/)
+[^cite-fli-2026]: Future of Life Institute (2026), *AI Safety Index, Summer 2026*. [PDF](https://futureoflife.org/wp-content/uploads/2026/07/AI-Safety-Index-Summer-2026-Digital.pdf)
 [^cite-xai-faif-2026]: xAI (2026), *Frontier Artificial Intelligence Framework*. [PDF](https://media.x.ai/v1/website/xai-frontier-artificial-intelligence-framework-30-june-2026-99c40684.pdf)
 [^cite-fli-2026-b]: Future of Life Institute (2026), *AI Safety Index, Summer 2026*. [PDF](https://futureoflife.org/wp-content/uploads/2026/07/AI-Safety-Index-Summer-2026-Digital.pdf)
 [^cite-metr-2026-c]: METR (2026), *Frontier Risk Report (February to March 2026)*. [METR](https://metr.org/blog/2026-05-19-frontier-risk-report/)
