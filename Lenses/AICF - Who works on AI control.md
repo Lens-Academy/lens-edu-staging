@@ -216,8 +216,8 @@ Our own observation: much of the control work in this unit that comes from compa
 [^cite-korbak-2025]: Tomek Korbak, Joshua Clymer, Benjamin Hilton, Buck Shlegeris and Geoffrey Irving (2025), *A sketch of an AI control safety case*. [arXiv](https://arxiv.org/abs/2501.17315)
 
 
-[^cite-mats-redwood]: MATS, *Redwood Research* stream. [MATS](https://www.matsprogram.org/stream/redwood)
-[^cite-tnw-2026]: Alina Maria Stan (2026), *The nonprofit that investigated OpenAI's rogue agents runs on a $36m grant*. [The Next Web](https://thenextweb.com/news/coefficient-giving-ai-safety-funding-ipo-correlation)
+
+
 
 #### Callout: Buck Shlegeris
 collapse:: closed
@@ -265,10 +265,10 @@ Apollo Research is an AI safety research organisation. In January 2026 it announ
 
 [^cite-apollo-pbc]: Apollo Research (2026), *Apollo Research is becoming a PBC*. [Apollo Research](https://www.apolloresearch.ai/blog/apollo-research-is-becoming-a-pbc)
 [^cite-openai-scheming-2025-b]: OpenAI (2025), *Detecting and reducing scheming in AI models*. [OpenAI](https://openai.com/index/detecting-and-reducing-scheming-in-ai-models/)
-[^cite-gdm-agi-2025-b]: Google DeepMind (2025), *Taking a responsible path to AGI*. [Google DeepMind blog](https://deepmind.google/blog/taking-a-responsible-path-to-agi/)
+
 [^cite-apollo-product]: Apollo Research, *Watcher*. [Apollo Research](https://www.apolloresearch.ai/product/)
 [^cite-watcher-live]: Apollo Research (2026), *Announcing Watcher Live*. [Apollo Research](https://watcher.apolloresearch.ai/blog/announcing-watcher-live)
-[^cite-apollo-may-2026]: Apollo Research (2026), *Apollo Update May 2026*. [Apollo Research](https://www.apolloresearch.ai/blog/apollo-update-may-2026/)
+
 
 #### End Callout
 
