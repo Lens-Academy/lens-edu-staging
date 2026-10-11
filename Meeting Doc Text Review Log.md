@@ -116,6 +116,12 @@ Each entry gives the decision, who made it, the reason, and what it commits us t
 
 **AIRF's FAQ tabs fold into the shared Participant FAQ.** *Andreas, 2026-10-11.* The shared buddy answer now reads correctly from any meeting, and AIRF's five inline copies differed from the shared file only in that answer, "the Lens Tutor" and its link, and punctuation. Each becomes one include, as How today works did. For the FAQ, this replaces the 2026-10-06 assumption that AIRF's inline copies are synced by hand. The master template keeps its own FAQ, because its buddy answer is optional for each course, but its wording now matches the shared file.
 
+**The Room 1 check-in comes in three versions.** *Andreas, 2026-10-11.* First meeting: "How was this unit? Did you finish it? If you didn't, what got in the way?" Middle meetings add "What do you think about this unit compared to previous ones?" Last meeting: "How was the final unit? Did you finish it? If you didn't, what got in the way? What do you think about the course as a whole now?" A course that follows a book may ask about the book instead, as AIRF Meeting 5 does ("Did you finish the book?"). The comparison detail ("denser or easier", "harder or easier") goes: this is an icebreaker, people bring their own angles, and its answers are not written into the table. The "No judgment" reassurance goes too (A3).
+
+**"For this Room 4 only" meant this meeting's Room 4.** *Andreas, 2026-10-11.* Claude read "this" as a leftover and suggested "Room 4 only". Andreas let the change stand: the instruction appears only in the Meeting 1 run-sheet, so later Room 4s are not affected either way.
+
+**Claude may suggest edits to the guide.** *Andreas, 2026-10-11.* Elias left the Room 4 question to Andreas and Claude, and the guide still carried several phrasings this work had made obsolete. Edits go in as suggestions, with the decision's author and date in the text, as Elias's own rules do.
+
 **"Buddies", plural.** *Andreas, 2026-10-10.* "Your group" where that reads better. The singular dates from when the wording assumed pairs, even though trios already happened. Recorded in the style sheet under B7.
 
 **What the navigator needs goes in the run-sheet, not the participant view.** *Andreas, 2026-10-10.* AIRF and CV1 Meeting 1 showed participants the buddy explanation just before Room 4 said the same thing. The explanation moves to a "Buddy steps" section of the run-sheet, and the navigator still gives it in the whole-group slot before Room 4, as the guide asks.
