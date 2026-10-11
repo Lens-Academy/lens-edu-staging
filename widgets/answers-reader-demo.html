@@ -1,7 +1,7 @@
 <!--lens-widget
 id: '1d20bf4d-91d1-4009-a87e-e34efa00c53d'
 title: Your earlier answers, read by a widget
-summary_for_tutor: A demo of Lens.getAnswers. The widget reads the learner's answers to two questions earlier in the lens (their strongest objection, and their guess of how many years until transformative AI) and shows them, with the year the guess points to. A button reads the answers again after the learner changes them.
+summary_for_tutor: A demo of Lens.getAnswers and Lens.goToQuestion. The widget reads the learner's answers to two questions earlier in the lens (their strongest objection, and their guess of how many years until transformative AI) together with the questions themselves, and shows each question with the answer and a "Go to question" button. For the years guess it also shows the year and the number of days from today it points to. A button reads the answers again after the learner changes them.
 height: auto
 -->
 <!doctype html>
@@ -23,16 +23,19 @@ h2 { font-family: var(--font-heading); font-weight: 600; font-size: 20px; margin
 .intro { color: var(--muted); margin: 0 0 12px; }
 .card { border: 1px solid var(--border); border-radius: 8px; padding: 12px 16px; margin-bottom: 10px; }
 .eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
-.answer { white-space: pre-wrap; overflow-wrap: anywhere; }
+.title { font-weight: 600; }
+.question { color: var(--muted); white-space: pre-wrap; overflow-wrap: anywhere; margin-bottom: 8px; }
+.answer { white-space: pre-wrap; overflow-wrap: anywhere; border-left: 3px solid var(--border); padding-left: 10px; }
 .missing { color: var(--muted); font-style: italic; }
-.year { margin-top: 6px; color: var(--accent); font-weight: 600; }
+.result { margin-top: 8px; color: var(--accent); font-weight: 600; }
+.go { margin-top: 10px; }
 button { font: inherit; color: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 8px 12px; cursor: pointer; }
 button:hover { background: #faf8f3; }
 </style>
 </head>
 <body>
   <h2>Read by a widget</h2>
-  <p class="intro">This box is a widget. It asks the platform for your answers with <code>Lens.getAnswers</code> and works with them.</p>
+  <p class="intro">This box is a widget. It asks the platform for your answers and their questions with <code>Lens.getAnswers</code>, works with them, and takes you back to a question with <code>Lens.goToQuestion</code>.</p>
   <div id="cards"></div>
   <button id="again" type="button">Read my answers again</button>
 
@@ -41,22 +44,38 @@ button:hover { background: #faf8f3; }
   var YEARS = "8a3ae4f5-4d86-42dc-b126-b293f88a7b61";
   var cards = document.getElementById("cards");
 
-  function card(label, answer, extra) {
-    var box = document.createElement("div");
-    box.className = "card";
-    var eyebrow = document.createElement("div");
-    eyebrow.className = "eyebrow";
-    eyebrow.textContent = label;
-    var text = document.createElement("div");
-    text.className = answer == null ? "answer missing" : "answer";
-    text.textContent = answer == null ? "Not answered yet." : answer;
-    box.appendChild(eyebrow);
-    box.appendChild(text);
-    if (extra) {
-      var more = document.createElement("div");
-      more.className = "year";
-      more.textContent = extra;
-      box.appendChild(more);
+  function el(tag, className, text) {
+    var node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text != null) node.textContent = text;
+    return node;
+  }
+
+  // The years guess as a date: the year it points to and the days until then.
+  function fromYears(answer) {
+    var match = answer == null ? null : String(answer).match(/\d+(\.\d+)?/);
+    if (!match) return null;
+    var years = Number(match[0]);
+    var days = Math.round(years * 365.2425);
+    var when = new Date(Date.now() + days * 86400000);
+    return "That points to around " + when.getFullYear() + ", about " +
+      days.toLocaleString("en") + " days from today.";
+  }
+
+  function card(id, item, result) {
+    var box = el("div", "card");
+    if (item.lensTitle) box.appendChild(el("div", "eyebrow", "Question · " + item.lensTitle));
+    if (item.questionTitle) box.appendChild(el("div", "title", item.questionTitle));
+    if (item.questionText) box.appendChild(el("div", "question", item.questionText));
+    box.appendChild(item.answer == null
+      ? el("div", "answer missing", "Not answered yet.")
+      : el("div", "answer", item.answer));
+    if (result) box.appendChild(el("div", "result", result));
+    if (item.canGoToQuestion) {
+      var go = el("button", "go", "Go to question");
+      go.type = "button";
+      go.addEventListener("click", function () { window.Lens.goToQuestion(id); });
+      box.appendChild(go);
     }
     cards.appendChild(box);
   }
@@ -70,10 +89,7 @@ button:hover { background: #faf8f3; }
 
   function notice(text) {
     cards.textContent = "";
-    var p = document.createElement("p");
-    p.className = "missing";
-    p.textContent = text;
-    cards.appendChild(p);
+    cards.appendChild(el("p", "missing", text));
   }
 
   function read() {
@@ -87,8 +103,9 @@ button:hover { background: #faf8f3; }
     }
     window.Lens.getAnswers([OBJECTION, YEARS]).then(function (answers) {
       cards.textContent = "";
-      card("Your strongest objection", answers[OBJECTION]);
-      card("Years until transformative AI", answers[YEARS], yearFrom(answers[YEARS]));
+      card(OBJECTION, answers[OBJECTION] || {}, null);
+      var years = answers[YEARS] || {};
+      card(YEARS, years, fromYears(years.answer));
     }, function () {
       notice("Your answers could not be loaded.");
     });
