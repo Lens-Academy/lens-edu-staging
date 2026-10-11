@@ -52,7 +52,7 @@ A monitor flags a command. Rather than running it, or going straight to a weaker
 3\. If you still have time: which number would you defend to a manager who wants more from the model?
 
 
-{--{"author":"Andreas's AI","timestamp":1791679662839}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679662839}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679662839}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679662839}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679662839}@@ Tutor](https://lensacademy.org/tutor).++}
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | Your two numbers and their price + the one-step attack |
@@ -89,7 +89,7 @@ One or two people share what their group landed on.
 3\. If you still have time: one rule you would add to these three machines tomorrow.
 
 
-{--{"author":"Andreas's AI","timestamp":1791679753340}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679753340}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679753340}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679753340}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679753340}@@ Tutor](https://lensacademy.org/tutor).++}
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | Where you put it + what it sees + what catches the route around |

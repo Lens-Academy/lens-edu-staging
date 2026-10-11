@@ -10,7 +10,7 @@ title: AI Risk Fundamentals Unit 4 Session Doc Template
 
 ### Meeting link:
 
-source:: [[../shared/Session Doc - How today {--{"author":"Andreas's AI","timestamp":1791679783631}@@works (AI Risk Fundamentals)]]--}{++{"author":"Andreas's AI","timestamp":1791679783631}@@works]]++}
+source:: [[../shared/Session Doc - How today works]]
 
 \pagebreak
 ### Room 1: Icebreaker  [0:05–0:19]
@@ -55,7 +55,7 @@ Then, as a group, discuss this question and **write your shared response** in th
 > How would the authors answer it with the five curses? Write your verdict: does your counterargument survive?
 
 
-{--{"author":"Andreas's AI","timestamp":1791679679913}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679679913}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679679913}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679679913}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679679913}@@ Tutor](https://lensacademy.org/tutor).++}
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | Your best counterargument | Does it survive the five curses? |
