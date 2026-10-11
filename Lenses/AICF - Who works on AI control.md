@@ -381,7 +381,6 @@ We know of no other government with its own control research team, but some laws
 [^cite-raise]: Cooley (2026), *New York's frontier AI law gets a California makeover, with some key differences*. [Cooley](https://www.cooley.com/news/insight/2026/2026-03-31-new-yorks-frontier-ai-law-gets-a-california-makeover-with-some-key-differences)
 [^cite-ai-forge]: DARPA, *AI Forge*. [DARPA](https://www.darpa.mil/research/programs/ai-forge)
 
-
 #### End Callout
 
 #### Question: Open
@@ -407,8 +406,6 @@ Coefficient Giving, formerly Open Philanthropy, is a foundation that Manifund's 
 - In February 2025 it offered $40m for technical AI safety research in 21 areas, and control evaluations were one of them.[^cite-op-rfp-2025]
 - It is Redwood Research's main funder. It gave Redwood $36.6m in November 2025,[^cite-tnw-2026-b] and in September 2026 it said its grantmakers had recently recommended more than $70m for Redwood over the next two years.[^cite-coefficient-scaling-2026-b]
 
-
-
 [^cite-coefficient-scaling-2026-b]: Emily Oehlsen, Coefficient Giving (2026), *We're Urgently Scaling Our Work on AI and Biosecurity*. [Coefficient Giving](https://coefficientgiving.substack.com/p/were-urgently-scaling-our-work-on)
 [^cite-op-rfp-2025]: Open Philanthropy (2025), *Open Philanthropy Technical AI Safety RFP: $40M Available Across 21 Research Areas*. [EA Forum](https://forum.effectivealtruism.org/posts/XtgDaunRKtCPzyCWg/open-philanthropy-technical-ai-safety-rfp-usd40m-available)
 [^cite-tnw-2026-b]: Alina Maria Stan (2026), *The nonprofit that investigated OpenAI's rogue agents runs on a $36m grant. The next wave of that money is waiting on the AI IPOs.*. [The Next Web](https://thenextweb.com/news/coefficient-giving-ai-safety-funding-ipo-correlation)
@@ -423,7 +420,6 @@ collapse:: closed
 #### Text
 content::
 The Alignment Project is a fund run by the UK AI Security Institute. It pays for alignment research, including monitoring and red-teaming of AI systems.[^cite-alignment-project-site-b]
-
 
 - In February 2026 it announced its first 60 projects, worth over £27m in total, with £5.6m from OpenAI and support from Microsoft.[^cite-alignment-project-feb-2026] "How big is it?" below says how many of them are about control.
 - Its other funders include the Canadian and Australian AI safety institutes, Amazon Web Services, Anthropic and Schmidt Sciences.[^cite-alignment-project-site-b]
@@ -549,7 +545,6 @@ content::
 - **The Astra Fellowship** at Constellation in Berkeley covers AI control, with mentors including Buck Shlegeris and Ryan Greenblatt.[^cite-astra]
 - **Shorter research programs** also produce control papers, for example SPAR, where a team showed that a mix of different monitors catches more than several copies of the same monitor (May 2026),[^cite-ensemble-2026] and Pivotal, where a team showed that when attackers choose when to strike, safety in their test fell from 99% to 59% (2026).[^cite-attack-selection-2026]
 - **Courses:** Redwood's AI control reading list,[^cite-redwood-guide] and BlueDot Impact's Technical AI Safety course, which has a part on AI control.[^cite-bluedot]
-
 
 [^cite-mats-redwood-c]: MATS, *Redwood Research* stream. [MATS](https://www.matsprogram.org/stream/redwood)
 [^cite-mats-aisi]: MATS, *UK AISI Control* stream. [MATS](https://matsprogram.org/stream/ukaisi-control)
