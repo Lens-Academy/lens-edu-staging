@@ -80,13 +80,6 @@ button:hover { background: #faf8f3; }
     cards.appendChild(box);
   }
 
-  function yearFrom(answer) {
-    var match = answer == null ? null : String(answer).match(/\d+(\.\d+)?/);
-    if (!match) return null;
-    var year = new Date().getFullYear() + Math.round(Number(match[0]));
-    return "That points to around " + year + ".";
-  }
-
   function notice(text) {
     cards.textContent = "";
     cards.appendChild(el("p", "missing", text));

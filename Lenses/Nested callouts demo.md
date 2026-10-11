@@ -138,6 +138,52 @@ source:: [[../widgets/ai-2040-deal-timeline]]
 
 #### Text
 content::
+\## Long boxes keep their title on screen
+
+While you scroll through a long box, its title row stays at the top of the screen until the box ends. On a foldable box that row holds the fold button, so you can close the box from anywhere inside it. Closing it from there scrolls the page back to the closed box. A box inside a box pins its title just below the title of the box around it, and an omitted part of an article pins its `[...]` bar below both.
+
+#### Callout: Outer box
+tone:: blue
+collapse:: open
+
+#### Text
+content::
+This is the outer box. Scroll down slowly and watch the row that says "Outer box". It stays at the top of the screen while any part of this box is on screen.
+
+The text in this box is only here to make the box long. A real lens would put an exercise here, or a reading with its questions, or a worked example that takes more than one screen.
+
+When the end of the box reaches the top of the screen, the title row leaves with it. It never covers the text that comes after the box.
+
+::::callout{title="Inner box" tone="green" collapse="open"}
+This box sits inside the outer box. Its title row pins just below the outer title, so both stay readable while you scroll through it.
+
+Close this inner box from its pinned row to see the page scroll back to where the box starts.
+
+:::hide
+This text was hidden behind a `[...]` bar. While it is open, the bar stays below the two titles above it.
+
+:::callout{title="Box inside the hidden text" tone="amber"}
+A third box, inside the hidden text, inside the inner box, inside the outer box. Its title has no fold button, and it still stays on screen below the other three rows while you read this box.
+
+It works the same way at any depth. Each row pins below the rows of the boxes it sits in, and each row leaves together with the end of its own box.
+
+This last paragraph gives the box enough length to scroll through.
+:::
+
+The hidden text ends here.
+:::
+
+The inner box ends after this paragraph.
+::::
+
+Back in the outer box. The inner title has left the screen with the end of the inner box, and the outer title is still pinned.
+
+The outer box ends after this paragraph.
+
+#### End Callout
+
+#### Text
+content::
 \## Callouts inside articles
 
 Inside an article body, `:::callout` keeps its directive form. A callout that holds only prose stays plain markdown. A callout that holds an element (a `::video` import, a `![[../widgets/name]]` embed, or a `:::question` block) is drawn as a box around the whole element, and the box follows the excerpt into every lens that embeds it. The **Article presentation demo** lens shows a question inside a callout inside an article.
