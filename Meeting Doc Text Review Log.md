@@ -223,7 +223,7 @@ Progress, later on 2026-10-10. Group A accepted, apart from one FAQ typo. Group 
 | AIRF Meetings 1 to 4 | cohorts wrapping up | todo | recurring lines only, batch 2 | todo | todo | todo |
 | AI Futures Meetings 1, 2, 4 and 5 | Meeting 4 week of 2026-10-12 | todo | batch 2 | todo | todo | todo |
 | CV1 Meetings 1 to 4 | cohorts wrapping up | todo | recurring lines only, batch 2 | todo | todo | todo |
-| AI Control 1 Meetings 1 to 5 | not known | already Lens Tutor | recurring lines only, batch 2 (in scope from 2026-10-10) | n/a | n/a | help note pending 2026-10-10 |
+| AI Control 1 Meetings 1 to 5 | not live: no course file links them (2026-10-10) | already Lens Tutor | recurring lines only, batch 2 (in scope from 2026-10-10) | n/a | n/a | help note pending 2026-10-10 |
 
 ---
 
