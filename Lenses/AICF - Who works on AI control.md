@@ -403,6 +403,14 @@ We know of no other government with its own control research team, but some laws
 
 #### End Callout
 
+#### Question: Open
+id:: 0de76723-7263-4e36-a172-09d1904cf2d7
+content::
+Most of the risk this unit is about comes from AI companies using their own models internally. Which of the laws above actually reach that internal use? For each one, say what it still leaves a company free to do, or not do, about monitoring its own AI agents.
+force-feedback:: first
+assessment-instructions:: Score out of 100. - 40: says which laws reach internal use: SB 53 and the RAISE Act do, the EU Code of Practice does not. - 40: for the laws that reach it, says what they leave open, for example that they require assessing or summarising the risk but not running monitors, testing them from outside, or meeting a standard. - 20: notes a further limit of one law, for example that under SB 53 an evasion during a test is not a critical safety incident, or that the RAISE Act only applies from 2027. Model answer, for the feedback, not a grading checklist: "The EU Code of Practice leaves out models used only internally, so it doesn't reach them. California's SB 53 and New York's RAISE Act do: companies must assess the risk from internal use, or summarise it. But neither says a company must actually monitor its agents, how well, or let anyone test the monitors. Under SB 53, a model evading its monitors during a test does not even count as a critical incident."
+feedback-instructions:: The learner sorts the laws by whether they reach internal use, and says what each leaves open. The EU Code of Practice does not cover models a company uses only internally, so internal agents are outside it. California's SB 53 requires large developers to assess the risk from internal use, including a model getting around oversight, and counts a model deceiving its way past controls outside a test, with materially increased risk of catastrophe, as a critical safety incident. It requires assessment, not any particular monitoring, and an evasion during a test does not count. New York's RAISE Act requires summaries of internal-use risk, from January 2027. None of them, as described, requires a company to run monitors, to have them tested from outside, or says how good they must be. The DARPA program funds research and does not regulate. Accept reasoned readings. Reply in at most four sentences: confirm what is right, name the most important gap the learner missed, correct any wrong fact. One turn, no follow-up question, no generic praise.
+
 #### Text
 content::
 \### Funders
@@ -465,6 +473,14 @@ content::
 
 #### End Callout
 
+#### Question: Open
+id:: 2d8b6e5e-adac-4fcf-b96f-5c681ab7a5b2
+content::
+Coefficient Giving is Redwood Research's main funder, and OpenAI put £5.6m into the UK's Alignment Project. Pick one of these two funding links. How could it shape which control work gets done, or how independent that work is? What on this page makes the effect seem larger or smaller?
+force-feedback:: first
+assessment-instructions:: Score out of 100. - 40: says how the chosen funding link could shape which work gets done or how independent it is, with a reason. - 40: uses at least one fact from the page that makes the effect seem larger or smaller, and says which way it points. - 20: comes to a judgement on how much the link matters. Model answer, for the feedback, not a grading checklist: "OpenAI's money in the Alignment Project could make the fund less likely to back research that judges OpenAI's own monitoring. But the effect looks small. OpenAI gave £5.6m of over £27m, alongside Anthropic, AWS and two governments, and the UK institute picks the projects. Only 2 of 56 projects are clearly about control anyway. Coefficient Giving's hold over Redwood worries me more, because one funder pays for most of the field's best-known control lab."
+feedback-instructions:: The learner judges one funding link. Coefficient Giving and Redwood: one philanthropic funder paying most of a leading control lab's budget ($36.6m in November 2025, more than $70m recommended over two years) can steer the agenda, and Redwood depends on one source. But it is independent of AI companies, so it does not tie Redwood to any developer. The page also shows Coefficient Giving funds many safety areas, and Trace's control tag shows few other control grants, so much of the field's control money flows through one decision-maker. OpenAI and the Alignment Project: a company paying part of a government fund that pays for work which may judge that company's practices. Points that suggest a small effect: OpenAI's £5.6m is a fraction of over £27m, other funders include Anthropic, AWS, Canada, Australia and Schmidt Sciences, and the Institute picks the projects. Only 2 of 56 projects are clearly about control. Accept reasoned answers. Reply in at most four sentences: confirm what holds up, add the strongest counterpoint, correct any wrong fact. One turn, no follow-up question, no generic praise.
+
 #### Text
 content::
 \### Universities and smaller groups
@@ -514,6 +530,13 @@ content::
 [^cite-kale-2025]: Neil Kale, Chen Bo Calvin Zhang and others (2025), *Reliable Weak-to-Strong Monitoring of LLM Agents*. [arXiv](https://arxiv.org/abs/2508.19461)
 
 #### End Callout
+#### Question: Open
+id:: aac79b0b-5d5d-48dd-91f9-10b601353e5a
+content::
+Look at the university projects above. What kind of control work do almost all of them do, and what kind is missing? Why might that be?
+force-feedback:: first
+assessment-instructions:: Score out of 100. - 35: names the common kind of work, such as test settings, benchmarks, attacks on protocols or measuring costs, done with models alone. - 35: names a kind of control work that is missing, such as running monitors on real deployments, human review processes or security infrastructure inside a company. - 30: explains the gap by what that work needs, such as access to a company's systems, data or staff. Model answer, for the feedback, not a grading checklist: "Almost all of them build test settings and benchmarks, or attack and measure control protocols, which you can do with model access alone. Missing is anything that runs on a real deployment: monitoring actual agents, review processes, the infrastructure that logs agents' actions. That needs a company's own systems and staff. When universities do touch real deployments, it's with a company or AISI as a partner."
+feedback-instructions:: The learner spots the pattern in the university projects: nearly all build test settings and benchmarks (ResearchArena, CTRL-ALT-DECEIT, the insider-threat test), measure what control costs (Control Tax), attack protocols or monitors (attacks on the trusted monitor, sandbagging past a reasoning monitor) or design containment (Guillotine). That is work that needs only model access, not a company's systems. Missing: running monitors on real deployments, human review processes, the logging and security infrastructure inside a company, and experiments on how AI is actually used inside companies. That work needs access to a company's own systems, data and staff, which universities don't have. Where universities touch real deployments, they do it with a company or AISI (the Oxford study with Google DeepMind and AISI, EPFL's work with Anthropic and Redwood). Accept other reasoned patterns. Reply in at most four sentences: confirm what is right, name the most important missing point, correct any wrong fact. One turn, no follow-up question, no generic praise.
 
 #### Text
 content::
