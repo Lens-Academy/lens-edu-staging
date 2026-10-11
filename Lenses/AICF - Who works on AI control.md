@@ -540,9 +540,7 @@ collapse:: closed
 
 #### Text
 content::
-- **ControlConf**, the AI control conference, run by FAR.AI and Redwood:
-  - London, March 2025, also with the UK AI Security Institute.[^cite-farai-london-2025]
-  - Berkeley, April 2026, with about 200 researchers, engineers and policy people working on AI control.[^cite-farai-controlconf-2026-b]
+- **ControlConf**, the AI control conference, run by FAR.AI and Redwood, met in London in March 2025[^cite-farai-london-2025] and in Berkeley in April 2026.[^cite-farai-controlconf-2026-b]
 - **AI control hackathons** run by Apart Research with Redwood, in March 2025, also with the UK AI Security Institute, and March 2026. Sign-ups grew from 182 to 792, and submitted projects from 19 to 125.[^cite-apart-2025][^cite-apart-2026]
 
 [^cite-farai-london-2025]: FAR.AI (2025), *London ControlConf 2025*. [FAR.AI](https://www.far.ai/blog/london-controlconf-2025)
