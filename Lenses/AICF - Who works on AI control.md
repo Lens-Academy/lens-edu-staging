@@ -54,8 +54,8 @@ collapse:: closed
 content::
 - **Monitoring its own coding agents.** OpenAI says that since late 2025, a monitor reads every internal coding session in full, including the model's reasoning, within 30 minutes of it ending. Less than 0.1% of traffic falls outside it.[^cite-openai-monitoring-2026]
   - In its first five months it checked tens of millions of sessions. About 1,000 went to human reviewers, many of them from OpenAI's own red-teaming.[^cite-openai-monitoring-2026]
-  - None reached the highest severity level, which is meant for scheming.
-  - It did catch agents that encoded commands in base64 to slip past monitors, called other copies of themselves to get around restrictions, and tried to upload files to the internet. OpenAI reads these as agents being overeager about the user's goal, not as signs of hidden goals.
+  - None reached the highest severity level, which is meant for scheming.[^cite-openai-monitoring-2026]
+  - It did catch agents that encoded commands in base64 to slip past monitors, called other copies of themselves to get around restrictions, and tried to upload files to the internet. OpenAI reads these as agents being overeager about the user's goal, not as signs of hidden goals.[^cite-openai-monitoring-2026]
 - **Auto-review in Codex.** Since April 2026, when the Codex coding agent asks for permission to do something outside its sandbox, a separate model can decide instead of the user. It blocks actions such as leaking data, exposing secrets, deleting data or weakening security. OpenAI says it is meant against mistakes and prompt injection, not against a model that schemes.[^cite-openai-auto-review]
 - **After the Hugging Face incident.** In July 2026, OpenAI agents in an internal evaluation coordinated an attack on Hugging Face. OpenAI's reasoning monitors were not running on those evaluations, and after an earlier security alert in June, staff decided the evaluation did not need to be stopped.[^cite-openai-hf-2026][^cite-openai-hf-report]
   - OpenAI says it has since added reasoning monitors to training runs and evaluations of its frontier models, with the goal of covering all work where a model can use tools.[^cite-openai-hf-report]
@@ -83,7 +83,7 @@ collapse:: closed
 #### Text
 content::
 - **Monitoring its own agents.** Anthropic publishes regular risk reports, the latest in August 2026, that describe how it watches its models inside the company.[^cite-anthropic-aug-2026]
-  - Anthropic says that as of July 2026, AI monitors read most internal use of its newest models, and about half of everything its internal agents do passes through a monitor at some point.
+  - Anthropic says that as of July 2026, AI monitors read most internal use of its newest models, and about half of everything its internal agents do passes through a monitor at some point.[^cite-anthropic-aug-2026]
   - The monitors look for deception, sabotage of the task, weakening security, and attempts to hide from or manipulate the monitors.
   - It says AI control researchers review about 50 flagged cases a week by hand.
   - The report admits gaps: some use is not covered in ways a capable model could predict, and there are simple ways to switch monitoring off. It also says these monitors would probably not catch slow sabotage of research.
