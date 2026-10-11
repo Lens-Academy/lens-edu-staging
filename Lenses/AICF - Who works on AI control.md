@@ -87,15 +87,13 @@ content::
 
 #### End Callout
 
-#### Callout: Meta
+#### Callout: Meta, xAI, Microsoft, Amazon and Mistral
 tone:: blue
 collapse:: closed
 
 #### Text
 content::
-- **Framework.** Meta's safety framework (April 2026) treats loss of control as a risk, including an AI that disables its monitors or behaves differently when it knows it is watched. Meta says it will regularly assess the risk from its own internal use of frontier models.[^cite-meta-aasf-2026]
-- **Tested from outside.** It let METR review how it monitors AI agents internally in early 2026.[^cite-metr-2026-b]
-- **Research.** It publishes little safety research: the Future of Life Institute counted 9 Meta technical safety papers from 2023 to May 2026, against 46 from Anthropic.[^cite-fli-2026]
+- **Meta**'s safety framework (April 2026) treats loss of control as a risk, including an AI that disables its monitors or behaves differently when it knows it is watched, and Meta says it will regularly assess the risk from its own internal use of frontier models.[^cite-meta-aasf-2026] It let METR review how it monitors AI agents internally in early 2026.[^cite-metr-2026-b] It publishes little safety research: the Future of Life Institute counted 9 Meta technical safety papers from 2023 to May 2026, against 46 from Anthropic.[^cite-fli-2026]
 
 [^cite-meta-aasf-2026]: Meta (2026), *Advanced AI Scaling Framework, version 2*. [Meta](https://ai.meta.com/static-resource/Meta_Advanced-AI-Scaling-Framework-v2)
 [^cite-metr-2026-b]: METR (2026), *Frontier Risk Report (February to March 2026)*. [METR](https://metr.org/blog/2026-05-19-frontier-risk-report/)
