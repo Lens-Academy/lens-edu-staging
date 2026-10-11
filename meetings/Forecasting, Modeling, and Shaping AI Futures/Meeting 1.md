@@ -46,7 +46,7 @@ One or two people share what their group landed on.
 3\. Each person, one line: holds or bends, and what would you see in the next two years that would switch you?
 
 
-{--{"author":"Andreas's AI","timestamp":1791679712133}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679712133}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679712133}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679712133}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679712133}@@ Tutor](https://lensacademy.org/tutor).++}
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | Holds or bends + what would switch you |

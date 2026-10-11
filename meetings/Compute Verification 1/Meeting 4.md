@@ -63,7 +63,7 @@ Mechanisms:
 
 
 
-{--{"author":"Andreas's AI","timestamp":1791679701783}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679701783}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679701783}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679701783}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679701783}@@ Tutor](https://lensacademy.org/tutor).++}
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | Your smallest set + your rebuild + who produces each piece |

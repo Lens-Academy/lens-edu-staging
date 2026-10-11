@@ -10,7 +10,7 @@ title: AI Risk Fundamentals Unit 5 Session Doc Template
 
 ### Meeting link:
 
-source:: [[../shared/Session Doc - How today {--{"author":"Andreas's AI","timestamp":1791679787521}@@works (AI Risk Fundamentals)]]--}{++{"author":"Andreas's AI","timestamp":1791679787521}@@works]]++}
+source:: [[../shared/Session Doc - How today works]]
 
 \pagebreak
 ### Room 1: Icebreaker  [0:05–0:19]
@@ -60,7 +60,7 @@ As a group, discuss this question and **write your shared response** in the tabl
 > **And if your group rejects the halt, what do you endorse instead?** Anything can be a valid answer (even keep going), but you have to defend it.
 
 
-{--{"author":"Andreas's AI","timestamp":1791679684298}@@Want help or clarification for this question? Ask--}{++{"author":"Andreas's AI","timestamp":1791679684298}@@If a question is unclear, ask++} your navigator or copy it into {--{"author":"Andreas's AI","timestamp":1791679684298}@@the --}[Lens{--{"author":"Andreas's AI","timestamp":1791679684298}@@ Tutor](https://lensacademy.org/tutor) for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679684298}@@ Tutor](https://lensacademy.org/tutor).++}
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | Weakest link in the proposal | Your group's verdict |

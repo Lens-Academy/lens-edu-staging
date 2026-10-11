@@ -58,7 +58,7 @@ d. What can they not see at all?
 
 
 
-{--{"author":"Andreas's AI","timestamp":1791679692982}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679692982}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679692982}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679692982}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679692982}@@ Tutor](https://lensacademy.org/tutor).++}
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | Your system: what it sees and misses + what works for AI, what breaks |
@@ -92,7 +92,7 @@ This unit's trade-off: build verification tough enough for a full halt and every
 
 
 
-{--{"author":"Andreas's AI","timestamp":1791679770808}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679770808}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679770808}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679770808}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679770808}@@ Tutor](https://lensacademy.org/tutor).++}
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | Which approach you'd sign this year + why |

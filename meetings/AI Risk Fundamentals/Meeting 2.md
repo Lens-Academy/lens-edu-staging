@@ -10,7 +10,7 @@ title: AI Risk Fundamentals Unit 2 Session Doc Template
 
 ### Meeting link:
 
-source:: [[../shared/Session Doc - How today {--{"author":"Andreas's AI","timestamp":1791679797056}@@works (AI Risk Fundamentals)]]--}{++{"author":"Andreas's AI","timestamp":1791679797056}@@works]]++}
+source:: [[../shared/Session Doc - How today works]]
 
 \pagebreak
 ### Room 1: Icebreaker  [0:05–0:19]
@@ -52,7 +52,7 @@ Then, as a group, discuss this question and **write your shared response** in th
 > **Klurl vs Trapaucius.** Trapaucius argues that any being smart enough will grasp its "purpose" and pursue only that. Klurl replies: "they'd know, but would they care?" Who's right about *humans* — and what does that predict for AI?
 
 
-{--{"author":"Andreas's AI","timestamp":1791679671348}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679671348}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679671348}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679671348}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679671348}@@ Tutor](https://lensacademy.org/tutor).++}
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 
@@ -81,7 +81,7 @@ Chapter 5 opens with aliens who treasure a prime number of stones in their nests
 Two rounds, as a group:
 1\. Steelman a skeptic: "These AIs are trained on human text and human feedback, so their concepts, and their goals, will be human-shaped, not alien." Build the strongest version of that objection you can, then give the authors' best rebuttal. Which side wins?
 2\. The whole chain: Chapter 4 says we can't control what they want; Chapter 5 says the wants won't include us; Chapter 6 says that if it comes to it, we’d lose. Which link is weakest, and what would it take to break it?
-{--{"author":"Andreas's AI","timestamp":1791679762015}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679762015}@@If a question is unclear, ask your navigator or copy++} it into {--{"author":"Andreas's AI","timestamp":1791679762015}@@the Lens Tutor and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679762015}@@[Lens Tutor](https://lensacademy.org/tutor).++}
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | Skeptic verdict | Weakest link + what would break it |

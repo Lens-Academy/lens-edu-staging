@@ -60,7 +60,7 @@ What counts as a catch here:
 3\. What has to be true before the catch, not after, for it to actually stop the deployment?
 
 
-{--{"author":"Andreas's AI","timestamp":1791679654135}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679654135}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679654135}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679654135}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679654135}@@ Tutor](https://lensacademy.org/tutor).++}
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | Your catch + the hardest objection + what you need in advance |
@@ -98,7 +98,7 @@ Plenty of people think this whole agenda is a poor bet. The unit's four objectio
 3\. Verdict: does the objection survive your answer?
 
 
-{--{"author":"Andreas's AI","timestamp":1791679745037}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679745037}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679745037}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679745037}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679745037}@@ Tutor](https://lensacademy.org/tutor).++}
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | The objection you built up + your answer + your verdict |
