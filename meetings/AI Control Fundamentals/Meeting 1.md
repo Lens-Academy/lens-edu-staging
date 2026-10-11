@@ -53,7 +53,7 @@ A bank that limits and audits each trader stays safe even if one is not trustwor
 2. List its checks that people are trustworthy (aligned), and its systems to prevent damage even if someone is not. (control systems)
 3. If somebody was secretly working against the organization, but behaving well whenever they might be tested, would the organization's control systems prevent them from causing damage?
 
-| Names | Your organisation + what still works when the insider is an AI model + your scandal answer |
+| Names | Your organisation + what still works when the insider is an AI model + your answer to 3 |
 |------|------------------------|
 |  |  |
 |  |  |
