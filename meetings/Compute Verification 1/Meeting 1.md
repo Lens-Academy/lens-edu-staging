@@ -58,7 +58,7 @@ Its mechanisms:
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+{--{"author":"Andreas's AI","timestamp":1791679688642}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679688642}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679688642}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679688642}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679688642}@@ Tutor](https://lensacademy.org/tutor).++}
 
 
 | Names | Protect / cut + your one amendment + its price |
