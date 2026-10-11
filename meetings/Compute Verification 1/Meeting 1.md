@@ -117,7 +117,7 @@ One or two people share what their group landed on.
 ### Room 4: Buddies, your theory of change, feedback  [1:15–1:27]
 
 **New group. Names first, then straight in.**
-1\. The people in this breakout room are your accountability buddies for the rest of the course. Swap contact details in the table below. Before each meeting check in with one another: did you finish, are you coming?
+1\. The people in this breakout room are your accountability buddies for the rest of the course. Swap contact details in the table below. Before each {--{"author":"Andreas's AI","timestamp":1791697253576}@@meeting--}{++{"author":"Andreas's AI","timestamp":1791697253576}@@meeting,++} check in with one another: did you finish, are you coming?
 2\. Your theory of change for this course (what you expect to be different because you did it), as one if-then chain: if I finish these five units, then [what changes first], then [what is different at the end]. Outcomes (what changes), not outputs (what you produce).
 3\. Which assumption is most likely to break your chain? (Send chain and assumption to your buddy after the meeting.)
 4\. Feedback: what would make the course and this meeting better?
