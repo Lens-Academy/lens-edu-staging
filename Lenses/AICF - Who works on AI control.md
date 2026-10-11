@@ -560,7 +560,7 @@ collapse:: closed
 
 #### Text
 content::
-- **MATS** trains new AI safety researchers with mentors. Its summer 2026 program, planned with 120 fellows and 100 mentors, was set to be its largest yet.[^cite-mats-summer-2026] Redwood and the UK AI Security Institute run control research streams in it.[^cite-mats-redwood-c][^cite-mats-aisi]
+- **MATS** trains new AI safety researchers with mentors. Redwood and the UK AI Security Institute run control research streams in it.[^cite-mats-redwood-c][^cite-mats-aisi]
 - **The Anthropic Fellows Program** lists AI control among its research areas and has had more than 200 fellows since early 2025.[^cite-anthropic-fellows-b]
 - **The Astra Fellowship** at Constellation in Berkeley covers AI control, with mentors including Buck Shlegeris and Ryan Greenblatt.[^cite-astra]
 - **Shorter research programs** also produce control papers, for example SPAR, where a team showed that a mix of different monitors catches more than several copies of the same monitor (May 2026),[^cite-ensemble-2026] and Pivotal, where a team showed that when attackers choose when to strike, safety in their test fell from 99% to 59% (2026).[^cite-attack-selection-2026]
