@@ -18,7 +18,7 @@ source:: [[../shared/Session Doc - How today works]]
 Go around your group, two things:
 
 
-1. **How was {--{"author":"Andreas's AI","timestamp":1791754339116}@@working through --}this {--{"author":"Andreas's AI","timestamp":1791754339116}@@unit's content?** Answer any of: did--}{++{"author":"Andreas's AI","timestamp":1791754339116}@@unit?** Did++} you {--{"author":"Andreas's AI","timestamp":1791754339116}@@finish? more or less enjoyable than last unit? harder or easier? --}{++{"author":"Andreas's AI","timestamp":1791754339116}@@finish it? ++}If you {--{"author":"Andreas's AI","timestamp":1791754339116}@@didn't finish, --}{++{"author":"Andreas's AI","timestamp":1791754339116}@@didn't, ++}what got in the way? {--{"author":"Andreas's AI","timestamp":1791754339116}@@*(No judgment, "I didn't finish" is a totally fine answer.)*--}{++{"author":"Andreas's AI","timestamp":1791754339116}@@What do you think about this unit compared to previous ones?++}
+1. **How was this unit?** Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to previous ones?
 
 
 2. **If an oracle told your group a misaligned superintelligence would end the world in 6 months — what would you all do with the time?** Land on **one plan you all agree on**, ideally a mash-up of everyone's ideas. It's an icebreaker, so wacky / not-cohesive / not-serious is totally fine.
