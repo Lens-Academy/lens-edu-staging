@@ -261,7 +261,7 @@ source:: [[../shared/Navigator Run-Sheet - During the breakout rooms]]
 
 source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
 
-### Buddy steps
+### Accountability Buddy steps
 
 **[1:10–1:15], whole group**, after the sharing. Walk through these (about a minute):
 
