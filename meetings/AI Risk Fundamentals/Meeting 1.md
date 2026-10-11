@@ -44,7 +44,7 @@ This is the first time this cohort meets, so we start with the people in the cou
 1\. Introduce yourself: your name, where you're joining from, and something you spend your time on that has nothing to do with AI. Then the real question: what brought you to a course on AI risk? A book, a conversation, a growing unease, plain curiosity? (Skeptics are very welcome; if you're not sure the risk is real, say so.)
 
 
-2\. How was your first taste of the book? Did you finish the Introduction and Chapters 1-3? If you didn't, what got in the way? If you can, pick one word to describe how the reading lelft you feeling, what would it be?
+2\. How was your first taste of the book? Did you finish the Introduction and Chapters 1-3? If you didn't, what got in the way? If you can, pick one word to describe how the reading left you feeling.
 
 
 | Names | Who you are + what brought you here + your one word |
