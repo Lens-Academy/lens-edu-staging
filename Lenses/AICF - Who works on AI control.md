@@ -100,6 +100,7 @@ collapse:: closed
 #### Text
 content::
 - **Framework.** Meta's safety framework (April 2026) treats loss of control as a risk, including an AI that disables its monitors or behaves differently when it knows it is watched. Meta says it will regularly assess the risk from its own internal use of frontier models.[^cite-meta-aasf-2026]
+- **Tested from outside.** It let METR review how it monitors AI agents internally in early 2026.[^cite-metr-2026-b]
 - **Research.** It publishes little safety research: the Future of Life Institute counted 9 Meta technical safety papers from 2023 to May 2026, against 46 from Anthropic.[^cite-fli-2026]
 
 [^cite-meta-aasf-2026]: Meta (2026), *Advanced AI Scaling Framework, version 2*. [Meta](https://ai.meta.com/static-resource/Meta_Advanced-AI-Scaling-Framework-v2)
@@ -258,6 +259,7 @@ METR is a nonprofit that assesses catastrophic risks from AI systems that act on
 
 - **Red-teaming company monitoring.** In early 2026 a METR researcher spent three weeks trying to get attacks past Anthropic's internal monitoring of its agents, and found ways through.[^cite-metr-red-team-2026]
 - **Reviewing companies.** It then reviewed the risks from AI agents used inside Anthropic, Google, Meta and OpenAI, and found gaps in what every company's monitors covered.[^cite-metr-2026]
+- **Investigations.** With Redwood's Chief Scientist, two METR staff investigated the Hugging Face incident at OpenAI, without payment from OpenAI.[^cite-hf-report-2026-b]
 
 [^cite-metr-about]: METR, *About*. [METR](https://metr.org/about)
 [^cite-metr-red-team-2026]: David Rein (2026), *Red-Teaming Anthropic's Internal Agent Monitoring Systems*. [METR](https://metr.org/blog/2026-03-25-red-teaming-anthropic-agent-monitoring/)
