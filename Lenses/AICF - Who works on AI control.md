@@ -255,12 +255,13 @@ collapse:: closed
 
 #### Text
 content::
-Apollo Research is an AI safety research organisation. In January 2026 it announced it was becoming a public benefit corporation, a kind of for-profit company, and raised investment for a product team.[^cite-apollo-pbc]
+Apollo Research is an AI safety research organisation. Most of its research is alignment research on scheming: whether future models will pursue hidden goals, and how to detect and reduce this, for example in a 2025 paper with OpenAI on training models to scheme less.[^cite-apollo-may-2026][^cite-openai-scheming-2025-b] Its control work sits in a monitoring team with a research side and a product side, which it set up after becoming a public benefit corporation, a kind of for-profit company, in January 2026.[^cite-apollo-pbc][^cite-apollo-may-2026]
 
-- **Research on scheming.** In a 2025 paper with OpenAI, it trained models to scheme less, cutting covert actions in tests from 13% to 0.4% for one model. Part of the drop may come from the trained models noticing more often that they were being tested.[^cite-openai-scheming-2025-b]
-- **Watcher**, its product, monitors AI coding agents such as Claude Code and Codex.[^cite-apollo-product]
-  - Apollo says a new version of Watcher Live (September 2026) checks the agent's actions as they happen and blocks dangerous ones, such as data leaks, deleted repositories or broken production systems.[^cite-watcher-live]
-
+- **Watcher**, its control product, watches AI coding agents such as Claude Code and Codex, and other agents through a software kit.[^cite-watcher-live]
+  - Watcher Live checks each action before it runs, in three steps. Simple rules approve or block some actions straight away, for example approving actions that only read files. A fast, cheap model then passes about 6% of actions on to a stronger model, which makes the final call.[^cite-watcher-live]
+  - By Apollo's own figures, it catches 93% of high-severity failures, wrongly flags under 1% of harmless actions, blocks fewer than 1 in 1,000 actions in everyday use, and adds 3 to 5% to the cost of running the agent.[^cite-watcher-live]
+  - A company can set its own boundaries, for example which repositories are private and which systems are live. A second tool, Watcher Analyze, lets security teams look back over all past agent sessions.[^cite-watcher-live]
+  - It targets problems that matter now, such as leaked secrets and agents acting beyond their task, and is meant to cover scheming and attempts to get around oversight later.[^cite-apollo-may-2026]
 - **Testing a company's monitor.** In July 2026 Apollo red-teamed the monitor behind Anthropic's Claude Code auto mode, its first outside test of a company's monitor.[^cite-apollo-product]
 
 [^cite-apollo-pbc]: Apollo Research (2026), *Apollo Research is becoming a PBC*. [Apollo Research](https://www.apolloresearch.ai/blog/apollo-research-is-becoming-a-pbc)
