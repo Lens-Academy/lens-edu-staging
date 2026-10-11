@@ -487,7 +487,7 @@ content::
   - In a paper with ELLIS Tübingen (October 2025), it showed that an attacking model can get past the monitor of current control protocols by hiding instructions to the monitor in its own output. Asking the model again for suspicious steps, the method from Ctrl-Z, even made this attack stronger.[^cite-adaptive-attacks]
   - It co-wrote the diffuse-threats work with Anthropic and Redwood (June 2026).[^cite-diffuse-2026]
 - **ELLIS Institute Tübingen and the Max Planck Institute for Intelligent Systems** (Germany), in their ResearchArena paper (July 2026), tested monitors on AI agents doing AI research. Sabotage hidden in training data was caught less than half the time, even when the monitor could run tests on what the agent produced.[^cite-researcharena-2026]
-- A **University of Oxford** researcher co-wrote the study of monitoring trade-offs with Google DeepMind and the UK AI Security Institute (December 2025).[^cite-lindner-2025-c]
+
 - **Imperial College London** researchers, in a paper with LawZero and Apollo Research (November 2025), found that monitors could detect agents sabotaging code in machine-learning tasks, but had more trouble with agents that deliberately did worse than they could.[^cite-ctrl-alt-deceit]
 - **University College London** showed in a 2025 paper that when models deliberately did badly on capability tests and knew a monitor was reading their reasoning, 16 to 36% of their successful attempts got past the monitor.[^cite-li-2025]
 - **Mila** (Montreal) co-wrote a 2026 paper testing whether models notice when a control protocol has replaced one of their actions. The newest models, such as GPT-6 Astra, often can, which could help them work out how they are watched.[^cite-ciaware]
