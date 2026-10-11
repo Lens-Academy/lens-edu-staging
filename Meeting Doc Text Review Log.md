@@ -235,9 +235,9 @@ Edits to these files change every doc that includes them, not only the three cou
 
 | Shared file | Included by |
 |---|---|
-| Session Doc - How today works | CV1 (all five meetings), AI Futures Meetings 4 and 5, AI Control 1, AI Control 2 and AI Control Fundamentals (all five meetings each) |
+| Session Doc - How today works | AIRF Meetings 2 to 5 (from 2026-10-10), CV1 (all five meetings), AI Futures Meetings 4 and 5, AI Control 1, AI Control 2 and AI Control Fundamentals (all five meetings each) |
 | Session Doc - How today works (3 rooms) | AI Futures Meetings 1 to 3 |
-| Session Doc - How today works (AI Risk Fundamentals) | AIRF Meetings 2 to 5 until their switch to the general file is accepted (2026-10-10). Meeting 1 has its own inline copy. Goes to the trash once nothing includes it |
+| Session Doc - How today works (AI Risk Fundamentals) | Retired 2026-10-10 and moved to the trash. AIRF Meetings 2 to 5 now include the general file; Meeting 1 keeps its own inline copy |
 | Participant FAQ | CV1, AI Futures, AI Control 1, AI Control 2, AI Control Fundamentals. AIRF has inline FAQ copies |
 | Session Doc - Open discussion | Every meeting doc of the three courses, and the other courses above |
 
