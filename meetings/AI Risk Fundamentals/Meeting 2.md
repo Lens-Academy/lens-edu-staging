@@ -10,7 +10,7 @@ title: AI Risk Fundamentals Unit 2 Session Doc Template
 
 ### Meeting link:
 
-source:: [[../shared/Session Doc - How today works (AI Risk Fundamentals)]]
+source:: [[../shared/Session Doc - How today {--{"author":"Andreas's AI","timestamp":1791679797056}@@works (AI Risk Fundamentals)]]--}{++{"author":"Andreas's AI","timestamp":1791679797056}@@works]]++}
 
 \pagebreak
 ### Room 1: Icebreaker  [0:05–0:19]
