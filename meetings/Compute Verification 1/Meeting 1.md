@@ -17,7 +17,7 @@ source:: [[../shared/Session Doc - How today works]]
 
 First meeting, so start by getting to know each other. Go around:
 1\. Who you are: name, where you're joining from, what you work on. Skeptics welcome.
-2\. How was working through this unit's content? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
+2\. How was {--{"author":"Andreas's AI","timestamp":1791754321770}@@working through --}this {--{"author":"Andreas's AI","timestamp":1791754321770}@@unit's content?--}{++{"author":"Andreas's AI","timestamp":1791754321770}@@unit?++} Did you {--{"author":"Andreas's AI","timestamp":1791754321770}@@finish?--}{++{"author":"Andreas's AI","timestamp":1791754321770}@@finish it?++} If you {--{"author":"Andreas's AI","timestamp":1791754321770}@@didn't finish,--}{++{"author":"Andreas's AI","timestamp":1791754321770}@@didn't,++} what got in the way?{--{"author":"Andreas's AI","timestamp":1791754321770}@@ (No judgment, "I didn't finish" is a fine answer.)--}
 3\. Y2K did nothing because thousands of people fixed it first. Name one prevented catastrophe from your own field or life that people now dismiss because nothing happened.
 4\. If you still have time: how did this unit make you feel?
 

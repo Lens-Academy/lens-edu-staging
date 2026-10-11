@@ -16,10 +16,10 @@ source:: [[../shared/Session Doc - How today works]]
 ### Room 1: Icebreaker  [0:05–0:19]
 
 Go around your group:
-1\. How was this unit: heavier or lighter than Unit 1?
-2\. Did you finish it?
-3\. If you didn't, what got in the way? ("I didn't finish" is a fine answer here.)
-4\. The cost card. Read out your line: "I support \_\_\_ at the cost of \_\_\_." (Skipped it? Make one now.)
+1\. How was this {--{"author":"Andreas's AI","timestamp":1791754326116}@@unit: heavier or lighter than Unit 1?
+2\.--}{++{"author":"Andreas's AI","timestamp":1791754326116}@@unit?++} Did you finish it?{--{"author":"Andreas's AI","timestamp":1791754326116}@@
+3\.--} If you didn't, what got in the way? {--{"author":"Andreas's AI","timestamp":1791754326116}@@("I didn't finish" is a fine answer here.)--}{++{"author":"Andreas's AI","timestamp":1791754326116}@@What do you think about this unit compared to previous ones?++}
+{--{"author":"Andreas's AI","timestamp":1791754326116}@@4\.--}{++{"author":"Andreas's AI","timestamp":1791754326116}@@2\.++} The cost card. Read out your line: "I support \_\_\_ at the cost of \_\_\_." (Skipped it? Make one now.)
 5\. Was naming the price almost instant, took some thought, or genuinely hard?
 6\. If it was hard: who ends up paying, that you hadn't thought about?
 7\. If you still have time: how did this unit make you feel?
