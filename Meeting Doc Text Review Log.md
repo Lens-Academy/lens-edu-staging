@@ -323,6 +323,9 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 | 2026-10-10 | The same two edits copied to the 3-room How today works | meetings/shared/Session Doc - How today works (3 rooms) | Keep the variants matching | Pending, 2 suggestions |
 | 2026-10-10 | **Decisions: the navigator forms buddy groups in threes; "buddies", plural; navigator-only text goes in the run-sheet; navigator-facing text in scope; AI Futures Meeting 1 likely to get four rooms** | Plan, style sheet B7 | Section 2 | Andreas, 2026-10-10 |
 | 2026-10-10 | Buddy setup, part 1 of the buddy wording: the "split into two groups" clause removed from Room 4; the buddy explanation removed from the participants' back-together text and moved, unchanged apart from that clause, into a new "Buddy steps" section of the run-sheet; the run-sheet's "steps in the doc" references now point there | AIRF Meeting 1, CV1 Meeting 1 | Section 2 | Pending, 4 suggestions in AIRF Meeting 1 and 5 in CV1 Meeting 1 (CV1's timeline row also names the step, as AIRF's already did). AI Control 1 Meeting 1 waits for the Room 4 buddy line, since its Room 4 still says "pair up". Validator: no issues |
+| 2026-10-10 | Andreas accepted part 1's suggestions and rewrote the buddy section of AIRF Meeting 1's run-sheet, adding the rule for leftover people | meetings/AI Risk Fundamentals/Meeting 1 | Section 2 | Edited by Andreas. Reviewed in chat |
+| 2026-10-10 | **Decisions: leftover people in the buddy room make pairs, not a four; the Room 4 buddy line** | Plan | Section 2 | Andreas, 2026-10-10 |
+| 2026-10-10 | Room 4 buddy line copied in | AIRF Meeting 1, CV1 Meeting 1, AI Control 1 Meeting 1 | Section 2 | Pending, 3 suggestions. Validator: no issues |
 
 ---
 
