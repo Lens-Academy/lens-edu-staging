@@ -353,7 +353,7 @@ Coefficient Giving, formerly Open Philanthropy, is a foundation that Manifund's 
 - It is Redwood Research's main funder. It gave Redwood $36.6m in November 2025,[^cite-tnw-2026-b] and in September 2026 it said its grantmakers had recently recommended more than $70m for Redwood over the next two years.[^cite-coefficient-scaling-2026-b]
 
 [^cite-coefficient-scaling-2026-b]: Emily Oehlsen, Coefficient Giving (2026), *We're Urgently Scaling Our Work on AI and Biosecurity*. [Coefficient Giving](https://coefficientgiving.substack.com/p/were-urgently-scaling-our-work-on)
-[^cite-op-rfp-2025]: Open Philanthropy (2025), *Open Philanthropy Technical AI Safety RFP: $40M Available Across 21 Research Areas*. [EA Forum](https://forum.effectivealtruism.org/posts/XtgDaunRKtCPzyCWg/open-philanthropy-technical-ai-safety-rfp-usd40m-available)
+
 [^cite-tnw-2026-b]: Alina Maria Stan (2026), *The nonprofit that investigated OpenAI's rogue agents runs on a $36m grant. The next wave of that money is waiting on the AI IPOs.*. [The Next Web](https://thenextweb.com/news/coefficient-giving-ai-safety-funding-ipo-correlation)
 [^cite-trace-coefficient-b]: Manifund, *Coefficient Giving* in Trace. [Trace](https://trace.manifund.org/orgs/coefficient-giving)
 
