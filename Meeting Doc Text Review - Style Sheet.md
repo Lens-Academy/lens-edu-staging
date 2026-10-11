@@ -88,7 +88,7 @@ Follow-ups that sort people by their situation can share an item, because they l
 ## D. Rules for any rewrite
 
 - **No em dashes.** *Course Authoring.*
-- **Keep a Tutor help note on complex prompts.** The guide requires a note "like" its wording, so the wording can change. Whatever replaces it, use it in every doc. *Guide rule 6.*
+- **Keep a Tutor help note on complex prompts, in the settled wording:** "If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor)." Use it in every doc. A note written for one room, such as AI Futures Meeting 5's signpost note, may keep its own wording. *Guide rule 6, which asks for a note "like" its own; wording by Andreas, 2026-10-10.*
 - **Read it aloud as the navigator would say it to the group.** If you would not say it, change it.
 
 ---

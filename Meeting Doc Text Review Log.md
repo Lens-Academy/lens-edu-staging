@@ -15,7 +15,7 @@ Modeled on [[AIRF Restructure Log]] and [[CV1 Streamlining Proposal]], but kept 
 
 ## Summary
 
-**What this is.** A pass over the participant-facing text of the meeting docs for AI Risk Fundamentals (AIRF), AI Futures (Forecasting, Modeling, and Shaping AI Futures) and Compute Verification 1 (CV1), so the questions read as written by a person. It is not a restructure and not a reformat.
+**What this is.** A pass over the participant-facing text of the meeting docs for AI Risk Fundamentals (AIRF), AI Futures (Forecasting, Modeling, and Shaping AI Futures) and Compute Verification 1 (CV1), so the questions read as written by a person. It is not a restructure and not a reformat. AI Control 1 joined the scope for the general and shared edits on 2026-10-10.
 
 **Why.** Participants have said the questions are easy to tell apart as AI-written, and that this frustrates them even when they understand what is being asked. Reported by Andreas, 2026-10-03.
 
