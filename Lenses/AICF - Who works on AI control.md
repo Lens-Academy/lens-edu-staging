@@ -20,7 +20,7 @@ collapse:: closed
 
 #### Text
 content::
-Google DeepMind claims to treat its own AI agents as possible "insider threats", like an employee who might go rogue. It says its AGI Safety and Alignment team, led by Rohin Shah, builds its monitors for AI agents together with Google's security teams.[^cite-gdm-blog-2026][^cite-gdm-asat-2026][^cite-farai-shah]
+Google DeepMind claims to treat its own AI agents as possible "insider threats", like an employee who might go rogue. It says its AGI Safety and Alignment team builds its monitors for AI agents together with Google's security teams.[^cite-gdm-blog-2026][^cite-gdm-asat-2026][^cite-farai-shah]
 
 - **In use now, according to Google DeepMind:**
   - It reads the visible reasoning of its models as they work.[^cite-gdm-blog-2026]
