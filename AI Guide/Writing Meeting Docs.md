@@ -103,7 +103,7 @@ The book's claim this unit: **humanity gets one shot at aligning superintelligen
 
 As a group, build the strongest counterargument you can. Pick your best one and stress-test it: how would the authors answer it? Write your verdict: does your counterargument survive?
 
-If you can't find strong counterarguments, ask the Lens Coach (https://lensacademy.org/coach) to help you.
+If you can't find strong counterarguments, ask {--{"author":"Andreas's AI","timestamp":1791754434980}@@the Lens Coach (https://lensacademy.org/coach)--}{++{"author":"Andreas's AI","timestamp":1791754434980}@@[Lens Tutor](https://lensacademy.org/tutor)++} to help you.
 ```
 
 Find the weakest step:
@@ -125,7 +125,7 @@ Stage the text's own disagreement:
 ```
 Klurl vs Trapaucius. Trapaucius argues that any being smart enough will grasp its "purpose" and pursue only that. Klurl replies: "they'd know, but would they care?" Who's right about humans, and what does that predict for AI?
 
-If you don't understand this question, copy it into the Lens Coach (https://lensacademy.org/coach) to explain it.
+If {--{"author":"Andreas's AI","timestamp":1791754440202}@@you don't understand this question,--}{++{"author":"Andreas's AI","timestamp":1791754440202}@@a question is unclear, ask your navigator or++} copy it into{--{"author":"Andreas's AI","timestamp":1791754440202}@@ the Lens Coach (https://lensacademy.org/coach) to explain it.--}{++{"author":"Andreas's AI","timestamp":1791754440202}@@ [Lens Tutor](https://lensacademy.org/tutor).++}
 ```
 
 Practice (argue to a newcomer):
