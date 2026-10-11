@@ -140,7 +140,7 @@ source:: [[../widgets/ai-2040-deal-timeline]]
 content::
 \## Long boxes keep their title on screen
 
-While you scroll through a long box, its title row stays at the top of the screen until the box ends. On a foldable box that row holds the fold button, so you can close the box from anywhere inside it. Closing it from there scrolls the page back to the closed box. A box inside a box pins its title just below the title of the box around it, and an omitted part of an article pins its `[...]` bar below both.
+While you scroll through a long foldable box, its title row stays at the top of the screen until the box ends. That row holds the fold button, so you can close the box from anywhere inside it. Closing it from there scrolls the page back to the closed box. A box that cannot fold keeps its title in place. A box inside a box pins its title just below the title of the box around it, and an omitted part of an article pins its `[...]` bar below both.
 
 #### Callout: Outer box
 tone:: blue
@@ -162,8 +162,7 @@ Close this inner box from its pinned row to see the page scroll back to where th
 ::::hide
 This text was hidden behind a `[...]` bar. While it is open, the bar stays below the two titles above it.
 
-:::callout{title="Box inside the hidden text" tone="amber"}
-A third box, inside the hidden text, inside the inner box, inside the outer box. Its title has no fold button, and it still stays on screen below the other three rows while you read this box.
+:::callout{title="Box inside the hidden text" tone="amber" collapse="open"}
 
 It works the same way at any depth. Each row pins below the rows of the boxes it sits in, and each row leaves together with the end of its own box.
 
