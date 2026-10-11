@@ -199,10 +199,10 @@ The course ends today but your action plan doesn't! Share the one action you cho
 ```
 
 4. **The wrap-up hands people off well.** At least one of:
-	- The information participants need after this meeting, as a short list of links, calls to action, or reminders, with a note that the navigator talks through them (mirrored in the run-sheet as an after-this-meeting section). Only when there is something new to talk through (Elias, 2026-10-10): no list that repeats what Room 4 already asked, such as sending the plan to the buddy or giving feedback. Explain how accountability buddies work in the first meeting, in the whole-group slot before Room 4.
-	- An open closing question to the whole group that people can answer voluntarily, for a cohesive ending that makes participants leave with a good feeling about the meeting. Example:{>>{"author":"Andreas's AI","timestamp":1791679817158}@@Meetings run 90 minutes (see the top of this guide), and the meeting docs now say "90 minutes ago". The example below still says "two hours ago".<<}
+	- The information participants need after this meeting, as a short list of links, calls to action, or reminders, with a note that the navigator talks through them (mirrored in the run-sheet as an after-this-meeting section). Only when there is something new to talk through (Elias, 2026-10-10): no list that repeats what Room 4 already asked, such as sending the plan to the buddy or giving feedback. Explain how accountability buddies work in the first meeting, in the whole-group slot before Room 4.{++{"author":"Andreas's AI","timestamp":1791754453136}@@ The navigator does this from the run-sheet; the participants' view carries only the Room 4 buddy line (Andreas, 2026-10-10).++}
+	- An open closing question to the whole group that people can answer voluntarily, for a cohesive ending that makes participants leave with a good feeling about the meeting. {--{"author":"Andreas's AI","timestamp":1791754458959}@@Example:{>>{"author":"Andreas's AI","timestamp":1791679817158}@@Meetings run 90 minutes (see the top of this guide), and the meeting docs now say "90 minutes ago". The example below still says "two hours ago".<<}--}{++{"author":"Andreas's AI","timestamp":1791754458959}@@Example:++}
 ```
-One thing you're glad you know now that you didn't know two hours ago.
+One thing you're glad you know now that you didn't know {--{"author":"Andreas's AI","timestamp":1791754458959}@@two hours--}{++{"author":"Andreas's AI","timestamp":1791754458959}@@90 minutes++} ago.
 ```
 	Both together are fine when the information list is short.
 
