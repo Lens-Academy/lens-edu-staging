@@ -18,7 +18,7 @@ source:: [[../shared/Session Doc - How today works]]
 Go around your group, two things:
 
 
-1. **How was working through this unit's content?** Answer any of: did you finish? more or less enjoyable than last unit? harder or easier? If you didn't finish, what got in the way? *(No judgment, "I didn't finish" is a totally fine answer.)*
+1. **How was {--{"author":"Andreas's AI","timestamp":1791754343430}@@working through --}this {--{"author":"Andreas's AI","timestamp":1791754343430}@@unit's content?** Answer any of: did--}{++{"author":"Andreas's AI","timestamp":1791754343430}@@unit?** Did++} you {--{"author":"Andreas's AI","timestamp":1791754343430}@@finish? more or less enjoyable than last unit? harder or easier? --}{++{"author":"Andreas's AI","timestamp":1791754343430}@@finish it? ++}If you {--{"author":"Andreas's AI","timestamp":1791754343430}@@didn't finish, --}{++{"author":"Andreas's AI","timestamp":1791754343430}@@didn't, ++}what got in the way? {--{"author":"Andreas's AI","timestamp":1791754343430}@@*(No judgment, "I didn't finish" is a totally fine answer.)*--}{++{"author":"Andreas's AI","timestamp":1791754343430}@@What do you think about this unit compared to previous ones?++}
 
 
 2. **Which moment stuck?** One scene from the film and reading that stayed with you after it ended, the one you'd retell to a friend. And in one word, how did it leave you feeling: alarmed, skeptical, numb, motivated, something else?
