@@ -89,7 +89,7 @@ One or two people share what their group landed on.
 3\. If you still have time: one rule you would add to these three machines tomorrow.
 
 
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+{--{"author":"Andreas's AI","timestamp":1791679753340}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679753340}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679753340}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679753340}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679753340}@@ Tutor](https://lensacademy.org/tutor).++}
 
 
 | Names | Where you put it + what it sees + what catches the route around |

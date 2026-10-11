@@ -113,7 +113,7 @@ Example questions, in case you want a starting point:
 \- "Wanting is an effective strategy for doing." Can you find a task an AI nails with zero want-like behaviour? Where does the claim hold, where does it break?
 
 
-Want help or an explanation for this question? Copy it into the Lens Tutor and ask for an explanation.
+{--{"author":"Andreas's AI","timestamp":1791679757521}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679757521}@@If a question is unclear, ask your navigator or copy++} it into {--{"author":"Andreas's AI","timestamp":1791679757521}@@the Lens Tutor and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679757521}@@[Lens Tutor](https://lensacademy.org/tutor).++}
 
 
 | Names | Your questions + where the discussion landed |
