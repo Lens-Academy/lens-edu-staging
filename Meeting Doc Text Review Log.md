@@ -104,7 +104,9 @@ Each entry gives the decision, who made it, the reason, and what it commits us t
 
 **The FAQ keeps pointing to the Zoom chat for the doc link.** *Andreas, 2026-10-10.* The link is posted in the main room's chat, where it works. The chat does not carry into breakout rooms, but people there are told to contact the navigator anyway.
 
-**Sharing between rooms should bring out what other groups did not reach.** *Andreas, 2026-10-10.* The How today works line about sharing great insights is there so the back-together slot hears something new, not the same surface result from every group. Whether "great insights" sets too high a bar is still open (section 7).
+**Sharing between rooms should bring out what other groups did not reach.** *Andreas, 2026-10-10.* The How today works line about sharing great insights is there so the back-together slot hears something new, not the same surface result from every group. Andreas rewrote it the same day as "if your group made interesting observations", which drops the quality bar that "great insights" set.
+
+**The guide's new Room 4 and wrap-up rules are applied in this pass.** *Andreas, 2026-10-10.* Elias added two rules to the guide on 2026-10-10: nothing in a doc summarises the next unit's reading, so Room 4 only asks what could stop people finishing it and their plan; and the wrap-up list does not repeat what Room 4 already asked, such as sending the plan to the buddy or giving feedback. What replaces the current lines is likely to be one standard wording anyway, so it belongs with the recurring lines.
 
 **Follow-up questions that sort participants may share an item.** *Andreas, 2026-10-04.* There is a tension between one question per item and leaving room for different answers. Follow-ups such as "if not, what stopped you?" or "if nothing changed, what would?" filter responses by a participant's situation, so they stay. Recorded in the style sheet under B1. Applied to CV1 Meeting 5, Room 1, items 1 and 3.
 
