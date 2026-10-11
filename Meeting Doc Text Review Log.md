@@ -117,6 +117,7 @@ Each entry gives the decision, who made it, the reason, and what it commits us t
 **Navigator-facing text is in scope.** *Andreas, 2026-10-10.* The run-sheet is part of the meeting doc, so it is reviewed with the rest. This replaces Claude's 2026-10-03 working assumption that only the Session Doc tab and the FAQ were in scope.
 
 **AI Futures Meeting 1 is likely to become a four-room meeting.** *Andreas, 2026-10-10.* Buddies are hard to set up when everyone is in the main room, as Meeting 1's close does now. A structural change, for the AI Futures pass; its buddy setup then follows the other courses.
+
 **Follow-up questions that sort participants may share an item.** *Andreas, 2026-10-04.* There is a tension between one question per item and leaving room for different answers. Follow-ups such as "if not, what stopped you?" or "if nothing changed, what would?" filter responses by a participant's situation, so they stay. Recorded in the style sheet under B1. Applied to CV1 Meeting 5, Room 1, items 1 and 3.
 
 **"X ends, but Y doesn't" is allowed.** *Andreas, 2026-10-04.* Not a wholly prohibitive form. CV1 Meeting 5's Room 4 closer stays for now. Recorded in the style sheet under A2.
