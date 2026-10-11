@@ -315,7 +315,7 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 - **The AIRF How today works file. Decided 2026-10-10:** it retires (section 2). Still to do: Andreas accepts the four switches and deletes Luc's three comments on AIRF Meeting 1's inline copy; then Claude swaps that copy for the include and moves the AIRF file to the trash.
 - **The Participant FAQ sends people to the Zoom chat for the doc link. Kept 2026-10-10** (section 2).
 - **"Great insights" in How today works.** Andreas wants the back-together slot to hear what other groups did not reach (section 2). Claude's concern: "great" reads as a quality bar, in the same sentence that says a sentence or two is plenty. Andreas's call.
-- **The FAQ's buddy answer, two small points** raised 2026-10-10, Andreas's call: "in the first sessions" is plural where the groups form in the first meeting; "your buddies check in with you" runs one way, where the run-sheets and AIRF Meeting 1 have people check in with each other.
+- **The FAQ's buddy answer, two small points** raised 2026-10-10, Andreas's call: "in the first sessions" is plural where the groups form in the first meeting; "your buddies check in with you" runs one way, where AIRF Meeting 1 has people "check in with each other".
 - **The guide changed on 2026-10-10 (Elias):** nothing in a doc summarises the next unit's reading, and the wrap-up list does not repeat what Room 4 already asked. Many wrap-ups and Room 4 previews in the four courses do both. That is structure, outside this pass; noted so the AI Futures pass does not treat it as wording.
 - **"New group. Names first" missing from some rooms.** AI Futures Meeting 3, Room 2 is a new group but lacks the line (Andreas, 2026-10-05). Check every meeting for the same gap in the full pass.
 - **CV1 Meeting 5, wrap-up.** Describes the capstone as one fixed task, a verification regime for a three-month emergency pause. The Capstone course file describes choosing one brief from a set or proposing your own, and the Compute Verification 2 course page describes ranking the mechanisms by feasibility and designing a regime of your own. The three-month pause appears on that page as a Compute Verification 2 Unit 1 exercise, not as the capstone. Andreas expects this to be settled in a CV1 rewrite (2026-10-04).
@@ -324,8 +324,9 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 
 ### Raised by Luc on AIRF Meeting 1
 
-- Whether pointing participants to the Tutor helps, since it cannot see the session. The help note has them paste the question in, which covers part of this.
-- "Today's shape" should become "Schedule" or "Agenda", one line per item with its length. Flagged on the shared blocks.
+- Whether pointing participants to the Tutor helps, since it cannot see the session. The help note has them copy the question in, which covers part of this. The How today works help box and the FAQ still say only "Ask the Lens Tutor", without saying to paste the question in.
+- "Today's shape" should become "Schedule" or "Agenda", one line per item with its length. "Today's agenda" adopted 2026-10-10. The schedule stays on one line; Andreas's call.
+- His three comments on AIRF Meeting 1's inline How today works go when that copy is replaced (section 6). The two points above are what they still raise.
 
 ### Style sheet
 
