@@ -162,17 +162,11 @@ content::
 
 #### End Callout
 
-#### Callout: How the companies compare
-tone:: blue
-collapse:: closed
-
 #### Text
 content::
 The Future of Life Institute's AI Safety Index (July 2026) gives every company it rates a D+ or lower for existential safety. Only OpenAI is credited with a public plan to monitor and control its models' internal use. For Anthropic and Google DeepMind it lists commitments in their safety frameworks, and for Meta its promise to report on the risks of internal use.[^cite-fli-2026-d]
 
 [^cite-fli-2026-d]: Future of Life Institute (2026), *AI Safety Index, Summer 2026*. [PDF](https://futureoflife.org/wp-content/uploads/2026/07/AI-Safety-Index-Summer-2026-Digital.pdf)
-
-#### End Callout
 
 #### Question: Open
 id:: 0cd8edd9-376f-4e10-a589-1eeb6362b2c3
