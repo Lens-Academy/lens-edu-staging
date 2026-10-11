@@ -104,8 +104,8 @@ content::
 
 [^cite-anthropic-aug-2026-b]: Anthropic (2026), *Risk Report: August 2026*. [Anthropic](https://www.anthropic.com/aug-2026-risk-report)
 [^cite-anthropic-oct-2026]: Anthropic (2026), *Investigating Unintended Model Actions in Our Evaluations and Internal Use*. [Anthropic](https://www.anthropic.com/research/investigating-unintended-model-actions)
-[^cite-greenblatt-2023-d]: Ryan Greenblatt, Buck Shlegeris, Kshitij Sachan and Fabien Roger (2023), *AI Control: Improving Safety Despite Intentional Subversion*. [arXiv](https://arxiv.org/abs/2312.06942)
-[^cite-mats-roger]: MATS, *Fabien Roger*, mentor profile. [MATS](https://www.matsprogram.org/mentor/roger)
+
+
 
 #### End Callout
 
@@ -206,7 +206,7 @@ Our own observation: much of the control work in this unit that comes from compa
 [^cite-redwood-about]: Redwood Research, *About*. [Redwood Research blog](https://blog.redwoodresearch.org/about)
 [^cite-greenblatt-2023]: Ryan Greenblatt, Buck Shlegeris, Kshitij Sachan and Fabien Roger (2023), *AI Control: Improving Safety Despite Intentional Subversion*. [arXiv](https://arxiv.org/abs/2312.06942)
 [^cite-80k-shlegeris-2025]: 80,000 Hours (2025), *Buck Shlegeris on controlling AI that wants to take over: so we can use it anyway*, podcast episode. [80,000 Hours](https://80000hours.org/podcast/episodes/buck-shlegeris-ai-control-scheming/)
-[^cite-coefficient-scaling-2026]: Emily Oehlsen, Coefficient Giving (2026), *We're urgently scaling our work on AI and biosecurity*. [Coefficient Giving](https://coefficientgiving.substack.com/p/were-urgently-scaling-our-work-on)
+
 [^cite-ctrl-z-2025]: Aryan Bhatt, Cody Rushing, Adam Kaufman, Tyler Tracy, Vasil Georgiev, David Matolcsi, Akbir Khan and Buck Shlegeris (2025), *Ctrl-Z: Controlling AI Agents via Resampling*. [arXiv](https://arxiv.org/abs/2504.10374)
 [^cite-basharena-2025]: Adam Kaufman, James Lucassen, Tyler Tracy, Cody Rushing and Aryan Bhatt (2025), *BashArena: A Control Setting for Highly Privileged AI Agents*. [arXiv](https://arxiv.org/abs/2512.15688)
 [^cite-linuxarena-2026]: Tyler Tracy and others (2026), *LinuxArena: A Control Setting for AI Agents in Live Production Software Environments*. [arXiv](https://arxiv.org/abs/2604.15384)
