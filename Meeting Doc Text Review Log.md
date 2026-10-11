@@ -108,6 +108,15 @@ Each entry gives the decision, who made it, the reason, and what it commits us t
 
 **The guide's new Room 4 and wrap-up rules are applied in this pass.** *Andreas, 2026-10-10.* Elias added two rules to the guide on 2026-10-10: nothing in a doc summarises the next unit's reading, so Room 4 only asks what could stop people finishing it and their plan; and the wrap-up list does not repeat what Room 4 already asked, such as sending the plan to the buddy or giving feedback. What replaces the current lines is likely to be one standard wording anyway, so it belongs with the recurring lines.
 
+**The navigator forms buddy groups, in threes.** *Andreas, 2026-10-10.* The navigator sets up the breakout rooms, so participants never split a room themselves, and the "if you are four or more, split into two groups" clause goes. The shared run-sheet already tells navigators to aim for three per room, with four when the numbers do not divide; a four stays together as one buddy group.
+
+**"Buddies", plural.** *Andreas, 2026-10-10.* "Your group" where that reads better. The singular dates from when the wording assumed pairs, even though trios already happened. Recorded in the style sheet under B7.
+
+**What the navigator needs goes in the run-sheet, not the participant view.** *Andreas, 2026-10-10.* AIRF and CV1 Meeting 1 showed participants the buddy explanation just before Room 4 said the same thing. The explanation moves to a "Buddy steps" section of the run-sheet, and the navigator still gives it in the whole-group slot before Room 4, as the guide asks.
+
+**Navigator-facing text is in scope.** *Andreas, 2026-10-10.* The run-sheet is part of the meeting doc, so it is reviewed with the rest. This replaces Claude's 2026-10-03 working assumption that only the Session Doc tab and the FAQ were in scope.
+
+**AI Futures Meeting 1 is likely to become a four-room meeting.** *Andreas, 2026-10-10.* Buddies are hard to set up when everyone is in the main room, as Meeting 1's close does now. A structural change, for the AI Futures pass; its buddy setup then follows the other courses.
 **Follow-up questions that sort participants may share an item.** *Andreas, 2026-10-04.* There is a tension between one question per item and leaving room for different answers. Follow-ups such as "if not, what stopped you?" or "if nothing changed, what would?" filter responses by a participant's situation, so they stay. Recorded in the style sheet under B1. Applied to CV1 Meeting 5, Room 1, items 1 and 3.
 
 **"X ends, but Y doesn't" is allowed.** *Andreas, 2026-10-04.* Not a wholly prohibitive form. CV1 Meeting 5's Room 4 closer stays for now. Recorded in the style sheet under A2.
@@ -122,7 +131,7 @@ Each entry gives the decision, who made it, the reason, and what it commits us t
 
 **Edits are credited to Andreas.** *Andreas, 2026-10-04.* Relay sessions open under his name, and both files carry `Andreas+Claude`, as the AIRF and CV1 files do. Edits made before 2026-10-04 show unattributed; the relay cannot change that after an edit has landed.
 
-**Scope within a doc is what participants read.** *Claude's working assumption, 2026-10-03. Not yet confirmed.* That means the Session Doc tab and the Participant FAQ. The navigator run-sheet, pro-tips and glossary are not reviewed in this pass.
+**Scope within a doc is what participants read.** *Claude's working assumption, 2026-10-03. Not yet confirmed.* That means the Session Doc tab and the Participant FAQ. The navigator run-sheet, pro-tips and glossary are not reviewed in this pass. *Superseded for the run-sheet on 2026-10-10: Andreas put navigator-facing text in scope (above).*
 
 **Flag labels.** *Claude, 2026-10-03.*
 
