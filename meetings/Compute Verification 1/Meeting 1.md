@@ -96,7 +96,7 @@ The others try to change the official's mind, in plain words (no acting needed, 
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+{--{"author":"Andreas's AI","timestamp":1791679766809}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679766809}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679766809}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679766809}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679766809}@@ Tutor](https://lensacademy.org/tutor).++}
 
 
 | Names | Best line that moved the official + the objection that was hardest to answer |
