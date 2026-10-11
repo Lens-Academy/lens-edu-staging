@@ -48,11 +48,11 @@ Judge each room against its role. Most examples below are real prompts from past
 0. None of the room's prompts is longer than 120 words (examples don't count into word count)
 1. **Room 1 is a good icebreaker**: Warms people up to each other and toward the material.
 
-We currently start most of our icebreaker prompts with this section:
+We currently start most of our icebreaker prompts with this {--{"author":"Andreas's AI","timestamp":1791754418704}@@section:--}{++{"author":"Andreas's AI","timestamp":1791754418704}@@check-in (Andreas, 2026-10-11):++}
 ```
 Go around your group, two things:
 
-	1. How was working through this unit's content? Denser or easier than the previous units? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
+	1. How was {--{"author":"Andreas's AI","timestamp":1791754424146}@@working through --}this {--{"author":"Andreas's AI","timestamp":1791754424146}@@unit's content? Denser or easier than the previous units? --}{++{"author":"Andreas's AI","timestamp":1791754424146}@@unit? ++}Did you {--{"author":"Andreas's AI","timestamp":1791754424146}@@finish?--}{++{"author":"Andreas's AI","timestamp":1791754424146}@@finish it?++} If you {--{"author":"Andreas's AI","timestamp":1791754424146}@@didn't finish,--}{++{"author":"Andreas's AI","timestamp":1791754424146}@@didn't,++} what got in the way? {--{"author":"Andreas's AI","timestamp":1791754424146}@@(No judgment, "I didn't finish" is a fine answer.)--}{++{"author":"Andreas's AI","timestamp":1791754424146}@@What do you think about this unit compared to previous ones?++}
 ```
 
 For the first meeting of a course, lead in with getting to know each other instead, and never call the participants "the humans":
