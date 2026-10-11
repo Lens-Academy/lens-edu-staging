@@ -190,9 +190,10 @@ Redwood Research is a research nonprofit in Berkeley that studies the risks from
 
 What it does:
 
-- **Experiments and papers.** Redwood builds test settings in which a red team tries to get attacks past safety measures, and publishes what it finds.
-  - Ctrl-Z (April 2025) was "the first control evaluation performed in an agent environment".[^cite-ctrl-z-2025]
-  - BashArena (December 2025) has 637 system administration tasks in which a model may try to sabotage the system.[^cite-basharena-2025] LinuxArena (April 2026), built with the contractor EquiStamp, has 20 software environments.[^cite-linuxarena-2026]
+- **Experiments and papers.** Redwood builds test settings in which a red team gives a model a secret harmful goal and tries to get its attacks past safety measures, then publishes what gets through.
+  - In the 2023 paper that introduced control, GPT-4 solved programming problems and was secretly told to hide backdoors in its code, while the weaker GPT-3.5 checked its work. Letting GPT-3.5 rewrite code that looked suspicious, or having a second copy of GPT-4 check the code, stopped more backdoors than simpler checks.[^cite-greenblatt-2023]
+  - Ctrl-Z (April 2025) was "the first control evaluation performed in an agent environment": the model worked over many steps on a computer's command line and tried to secretly download and run malicious code. The best protocol asked the model again for any step that looked suspicious and looked back at earlier steps. It cut successful attacks from 58% to 7%, and made an honest agent's work 5% worse.[^cite-ctrl-z-2025]
+  - BashArena (December 2025) and LinuxArena (April 2026) test the same kind of setup on realistic servers and software systems. In both, the strongest attacking model got its sabotage past a weaker monitor about a quarter of the time. In LinuxArena, attacks written by humans got past the monitors more often than any attack the models came up with.[^cite-basharena-2025][^cite-linuxarena-2026]
 - **Work with companies and governments.**
   - Redwood advises AI companies, including Google DeepMind and Anthropic, and works with governments.[^cite-redwood-site] Google DeepMind named Redwood among the organisations that advised on the misalignment part of its safety framework.[^cite-gdm-agi-2025]
   - Anthropic's paper on alignment faking (December 2024) was written together with Redwood.[^cite-anthropic-alignment-faking]
