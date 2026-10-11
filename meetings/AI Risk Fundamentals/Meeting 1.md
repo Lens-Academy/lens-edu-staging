@@ -267,7 +267,7 @@ source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
 
 
 1. In Room 4, the people in their breakout room become their accountability buddies, so swap contact details. Before each meeting they will be checking in with one another: did they finish the unit? Are they coming?
-2. Aim to create breakout rooms of trios (a couple of pairs are fine).
+2. For thisAim to create breakout rooms of trios (a couple of pairs are fine).
 
 ### Close
 
