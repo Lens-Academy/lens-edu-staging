@@ -254,7 +254,7 @@ Earlier on this page you named your strongest objection:
 
 You also guessed :answer{id="8a3ae4f5-4d86-42dc-b126-b293f88a7b61" fallback="no number yet"} years until transformative AI. Has either changed since you wrote it?
 
-%% A widget can read the same answers with `Lens.getAnswers([ids])`, which resolves to `{id: answer or null}`. This one shows both answers and turns the number into a year (source: [[../widgets/answers-reader-demo]]). %%
+%% A widget can read the same answers with `Lens.getAnswers([ids])`, which resolves each id to `{answer, questionTitle, questionText, lensTitle, canGoToQuestion}` (`answer` is null when there is none), and take the learner to a question with `Lens.goToQuestion(id)`. This one shows both questions with your answers, turns the number into a year and a count of days, and has a "Go to question" button (source: [[../widgets/answers-reader-demo]]). %%
 
 #### Widget
 source:: [[../widgets/answers-reader-demo]]
