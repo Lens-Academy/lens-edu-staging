@@ -296,8 +296,8 @@ METR is a nonprofit that develops methods to assess catastrophic risks from AI s
 [^cite-metr-about]: METR, *About*. [METR](https://metr.org/about)
 [^cite-metr-red-team-2026]: David Rein (2026), *Red-Teaming Anthropic's Internal Agent Monitoring Systems*. [METR](https://metr.org/blog/2026-03-25-red-teaming-anthropic-agent-monitoring/)
 [^cite-metr-2026]: METR (2026), *Frontier Risk Report (February to March 2026)*. [METR](https://metr.org/blog/2026-05-19-frontier-risk-report/)
-[^cite-metr-monitorability-2026]: METR (2026), *Early work on monitorability evaluations*. [METR](https://metr.org/blog/2026-01-19-early-work-on-monitorability-evaluations/)
-[^cite-metr-malt]: Neev Parikh and Hjalmar Wijk (2025), *MALT: A Dataset of Natural and Prompted Behaviors That Threaten Eval Integrity*. [METR](https://metr.org/blog/2025-10-14-malt-dataset-of-natural-and-prompted-behaviors/)
+
+
 [^cite-hf-report-2026-b]: METR (Ryan Greenblatt, Ajeya Cotra and Hjalmar Wijk) (2026), *Brief independent investigation of agents' behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident*. [METR](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/)
 
 #### End Callout
@@ -364,7 +364,7 @@ The UK AI Security Institute is a government body, with an R&D budget of £66m f
 
 [^cite-dsit-2025]: UK Department for Science, Innovation and Technology (2025), *DSIT research and development (R&D) allocations for 2025/2026*. [GOV.UK](https://www.gov.uk/government/publications/dsit-research-and-development-rd-allocations-for-20252026/dsit-research-and-development-rd-allocations-for-20252026)
 [^cite-aisi-agenda]: UK AI Security Institute, *AISI Research Agenda*. [AISI](https://www.aisi.gov.uk/research-agenda)
-[^cite-aisi-cooney]: UK AI Security Institute, *Alan Cooney*, team page. [AISI](https://www.aisi.gov.uk/people/alan-cooney)
+
 [^cite-aisi-red-team-job]: UK AI Security Institute (2026), *Control Red Team - Research Engineer/Research Scientist*, job advert. [Greenhouse](https://job-boards.greenhouse.io/aisi/jobs/4963394101)
 [^cite-aisi-red-team-2026]: UK AI Security Institute (2026), *How our Control Red Team is stress-testing frontier monitors*. [AISI blog](https://www.aisi.gov.uk/blog/how-our-new-control-red-team-is-stress-testing-frontier-monitors)
 [^cite-korbak-2025-b]: Tomek Korbak, Joshua Clymer, Benjamin Hilton, Buck Shlegeris and Geoffrey Irving (2025), *A sketch of an AI control safety case*. [arXiv](https://arxiv.org/abs/2501.17315)

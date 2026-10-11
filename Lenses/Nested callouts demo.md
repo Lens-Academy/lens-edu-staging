@@ -163,6 +163,7 @@ Close this inner box from its pinned row to see the page scroll back to where th
 This text was hidden behind a `[...]` bar. While it is open, the bar stays below the two titles above it.
 
 :::callout{title="Box inside the hidden text" tone="amber" collapse="open"}
+A third box, inside the hidden text, inside the inner box, inside the outer box. Its title stays on screen below the other three rows while you read this box.
 
 It works the same way at any depth. Each row pins below the rows of the boxes it sits in, and each row leaves together with the end of its own box.
 
