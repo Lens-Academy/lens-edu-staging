@@ -18,7 +18,7 @@ source:: [[../shared/Session Doc - How today works]]
 Go around your group, two things:
 
 
-1. **How was {--{"author":"Andreas's AI","timestamp":1791754347497}@@working through --}this {--{"author":"Andreas's AI","timestamp":1791754347497}@@unit's content? --}{++{"author":"Andreas's AI","timestamp":1791754347497}@@unit?** ++}Did you{--{"author":"Andreas's AI","timestamp":1791754347497}@@ finish?** After last unit's story we're back in argument mode: five engineering curses and an alchemist who feels close to a breakthrough. Denser or easier for you? **If --}{++{"author":"Andreas's AI","timestamp":1791754347497}@@ finish it? If ++}you {--{"author":"Andreas's AI","timestamp":1791754347497}@@didn't finish,--}{++{"author":"Andreas's AI","timestamp":1791754347497}@@didn't,++} what got in the {--{"author":"Andreas's AI","timestamp":1791754347497}@@way?** (No judgment, "I didn't finish" is a fine answer.)--}{++{"author":"Andreas's AI","timestamp":1791754347497}@@way? What do you think about this unit compared to previous ones?++}
+1. **How was this unit?** Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to previous ones?
 
 
 2. **Which curse stuck?** The book names five reasons alignment is cursed: fast underlying processes, a narrow margin between safe and catastrophic, self-amplification, complications, and edge cases. Which felt most real to you, and where have you met its small cousin in ordinary life (a project, a bug, a deadline)? **And in one word: how did these chapters leave you feeling?**
