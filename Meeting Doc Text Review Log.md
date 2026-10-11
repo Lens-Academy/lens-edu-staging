@@ -334,8 +334,11 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 
 ### For the owner of [[AI Guide/Writing Meeting Docs]]
 
-- Rule 6 still requires a "Lens Coach" note, and rule 7 and two examples (Room 2 and 3 patterns) still name Lens Coach and link `/coach`. The candidate replacement is the help note Andreas wrote in batch 1 (section 3, group B).
+Comments for the guide's owner were left on the guide itself on 2026-10-10 for the first three items below (section 6).
+
+- Rule 6 still requires a "Lens Coach" note, and rule 7 and two examples (Room 2 and 3 patterns) still name Lens Coach and link `/coach`. The replacement is the help note settled on 2026-10-10 (section 2).
 - The closing-question example says "two hours ago" for a 90-minute meeting, which AI Futures Meetings 1 and 2 copied.
+- The Room 4 example says "pair up (a trio is fine)", against the 2026-10-10 trios decision.
 - Several examples carry the habits in section 1, for example "Half-formed is fine; that's what the room is for" and "you'd genuinely like the group to dig into". The "course ends today" closer is now allowed (A2).
 
 ### Course names
@@ -348,4 +351,4 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 
 ### Outside this project
 
-- The AI Control 1, AI Control 2 and Lisbon docs, AI Control Fundamentals Meetings 3 to 5, and the Lisbon shared files still say Lens Coach.
+- As of 2026-10-10, AI Safety and Philosophy Meeting 1 still says Lens Coach in its two help notes. AI Control 2, AI Control Fundamentals and Lisbon say Lens Tutor but keep the old help note wording (31 notes). AI Control 1 is now in scope (section 2).
