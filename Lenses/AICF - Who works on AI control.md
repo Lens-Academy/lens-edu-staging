@@ -445,7 +445,7 @@ The Alignment Project is a fund run by the UK AI Security Institute. It pays for
 - It says it is unlikely to run a similar round in 2026.[^cite-alignment-project-apply]
 
 [^cite-alignment-project-site-b]: UK AI Security Institute, *The Alignment Project*. [AISI](https://alignmentproject.aisi.gov.uk/)
-[^cite-alignment-project-launch]: UK Government (2025), *AI Security Institute launches international coalition to safeguard AI development*. [GOV.UK](https://www.gov.uk/government/news/ai-security-institute-launches-international-coalition-to-safeguard-ai-development)
+
 [^cite-alignment-project-feb-2026]: UK Government (2026), *OpenAI and Microsoft join UK's international coalition to safeguard AI development*. [GOV.UK](https://www.gov.uk/government/news/openai-and-microsoft-join-uks-international-coalition-to-safeguard-ai-development)
 [^cite-alignment-project-apply]: UK AI Security Institute, *The Alignment Project: How to apply*. [AISI](https://alignmentproject.aisi.gov.uk/how-to-apply)
 
@@ -567,7 +567,7 @@ content::
 - **Shorter research programs** also produce control papers, for example SPAR, where a team showed that a mix of different monitors catches more than several copies of the same monitor (May 2026),[^cite-ensemble-2026] and Pivotal, where a team showed that when attackers choose when to strike, safety in their test fell from 99% to 59% (2026).[^cite-attack-selection-2026]
 - **Courses:** Redwood's AI control reading list,[^cite-redwood-guide] and BlueDot Impact's Technical AI Safety course, which has a part on AI control.[^cite-bluedot]
 
-[^cite-mats-summer-2026]: MATS, *Summer 2026* program page. [MATS](https://www.matsprogram.org/program/summer-2026)
+
 [^cite-mats-redwood-c]: MATS, *Redwood Research* stream. [MATS](https://www.matsprogram.org/stream/redwood)
 [^cite-mats-aisi]: MATS, *UK AISI Control* stream. [MATS](https://matsprogram.org/stream/ukaisi-control)
 [^cite-anthropic-fellows-b]: Anthropic, *Anthropic Fellows Program for AI safety research: applications open for our next cohorts*. [Anthropic Alignment Science blog](https://alignment.anthropic.com/2025/anthropic-fellows-program-2026/)
