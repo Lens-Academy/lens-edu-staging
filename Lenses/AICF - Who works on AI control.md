@@ -151,7 +151,7 @@ collapse:: closed
 
 #### Text
 content::
-- **Little published work.** Concordia AI found no safety research papers from DeepSeek, Moonshot AI or MiniMax since January 2025. Over half of the safety papers from Chinese industry come from six large companies: Alibaba, Ant Group, Huawei, Tencent, China Telecom and ByteDance.[^cite-concordia-2026]
+- **Little published work.** DeepSeek, Moonshot AI and MiniMax have published almost no safety research since January 2025. Over half of the safety papers from Chinese industry come from six large companies: Alibaba, Ant Group, Huawei, Tencent, China Telecom and ByteDance.[^cite-concordia-2026]
 - **Shanghai AI Lab**, a state-backed institute, is the main exception. Its risk framework (July 2025) tests models for strategic deception, scheming and self-replication, and its first assessment put several reasoning models in its warning zone for deception and scheming.[^cite-shanghai-2025]
 - **Z.ai** (Zhipu) told the Future of Life Institute that it logs all internal use of its models and monitors it live for unexpected attempts by the AI. This is self-reported. Z.ai cites its signing of the 2024 Seoul safety commitments, but has not published the safety policy they ask for.[^cite-fli-2026-c][^cite-concordia-2026-b]
 
