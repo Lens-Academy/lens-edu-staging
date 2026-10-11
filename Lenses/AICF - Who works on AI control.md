@@ -416,7 +416,7 @@ content::
 Coefficient Giving, formerly Open Philanthropy, is a foundation that Manifund's grant tracker, Trace, calls the largest philanthropic funder of AI safety work.[^cite-trace-coefficient-b] It committed $168m to technical AI safety, security and field-building in 2024, $351m in 2025, and expects to pass $1bn in 2026.[^cite-coefficient-scaling-2026-b]
 
 - In February 2025 it offered $40m for technical AI safety research in 21 areas, and control evaluations were one of them.[^cite-op-rfp-2025]
-- It gave Redwood Research $36.6m in November 2025,[^cite-tnw-2026-b] and in September 2026 it said its grantmakers had recently recommended more than $70m for Redwood over the next two years.[^cite-coefficient-scaling-2026-b]
+- It is Redwood Research's main funder. It gave Redwood $36.6m in November 2025,[^cite-tnw-2026-b] and in September 2026 it said its grantmakers had recently recommended more than $70m for Redwood over the next two years.[^cite-coefficient-scaling-2026-b]
 
 
 
