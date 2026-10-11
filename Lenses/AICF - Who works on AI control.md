@@ -130,6 +130,7 @@ collapse:: closed
 #### Text
 content::
 - **Little published work.** DeepSeek, Moonshot AI and MiniMax have published almost no safety research since January 2025. Over half of the safety papers from Chinese industry come from six big tech companies, such as Alibaba and ByteDance.[^cite-concordia-2026]
+- **Shanghai AI Lab**, a state-backed institute, tests models for deception, scheming and self-replication.[^cite-shanghai-2025]
 - **Z.ai** (Zhipu) told the Future of Life Institute that it logs and monitors all internal use of its models.[^cite-fli-2026-c]
 
 [^cite-concordia-2026]: Concordia AI (2026), *State of AI Safety in China 2026*. [PDF](https://aisafetychina.com/assets/State-of-AI-Safety-in-China-2026.pdf)
@@ -312,6 +313,7 @@ The UK AI Security Institute is a government body, with an R&D budget of £66m f
 
 - **Testing company monitors.** Its Control Red Team, part of a Red Team of about a dozen people, attacks the monitors that AI companies such as Google DeepMind and Anthropic use on their agents, and reports the weaknesses it finds so the companies can fix them.[^cite-aisi-red-team-job][^cite-aisi-red-team-2026]
 - **Research and tools.** It publishes research on monitoring, and in October 2025 it released ControlArena, a library for running control experiments, which researchers at Anthropic, Google DeepMind and Redwood have used.[^cite-aisi-async-2025][^cite-aisi-controlarena-2025]
+- **Funding.** It runs the Alignment Project fund. See Funders below.[^cite-aisi-60-projects-2026-c]
 
 [^cite-dsit-2025]: UK Department for Science, Innovation and Technology (2025), *DSIT research and development (R&D) allocations for 2025/2026*. [GOV.UK](https://www.gov.uk/government/publications/dsit-research-and-development-rd-allocations-for-20252026/dsit-research-and-development-rd-allocations-for-20252026)
 [^cite-aisi-agenda]: UK AI Security Institute, *AISI Research Agenda*. [AISI](https://www.aisi.gov.uk/research-agenda)
@@ -403,6 +405,7 @@ collapse:: closed
 
 #### Text
 content::
+- **Schmidt Sciences** asked for proposals in 2026 that extend oversight and control to tasks where humans cannot check the answer themselves.[^cite-schmidt-2026]
 - **The Survival and Flourishing Fund** recommended $675,000 in 2026 to Poseidon Research, a nonprofit that studies how AI systems hide information, including from monitors.[^cite-sff-2026][^cite-poseidon-site][^cite-farai-poseidon]
 - **The Frontier Model Forum's AI Safety Fund**, paid for by AI companies and philanthropic funders, funds projects such as Apollo Research's work on monitors that detect scheming.[^cite-fmf-2025]
 
