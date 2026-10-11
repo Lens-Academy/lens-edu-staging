@@ -62,7 +62,7 @@ Your group is a country that signed and now wants to cheat.
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+{--{"author":"Andreas's AI","timestamp":1791679697326}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679697326}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679697326}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679697326}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679697326}@@ Tutor](https://lensacademy.org/tutor).++}
 
 
 | Names | How you'd cheat + your fix + its problems |
