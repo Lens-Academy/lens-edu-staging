@@ -144,7 +144,7 @@ source:: [[../shared/Session Doc - Open discussion]]
 *Closer, if your group wants a big one:* The extension readings argued we'd come into conflict with AI without showing precisely how; the film shows one concrete how. Which did more work on you, the abstract argument or the story, and what does that tell you about how to make this case to someone who hasn't heard it?
 
 # Tab: Participant FAQ
-style:: faq
+{--{"author":"Andreas's AI","timestamp":1791747771157}@@style:: faq
 
 ## Participant FAQ
 
@@ -190,7 +190,7 @@ Your navigator isn't in every room, so:
 ### After we wrap
 
 - **What happens at 1:30?** We close on time. The meeting then stays open; hang around and keep talking if you'd like, no pressure.
-- **How do accountability buddies work?** You paired up in the first session; your buddy checks in with you before each meeting. Swap whatever the last room asked you to take away: a plan, a next step, or simply what changed your mind.
+- **How do accountability buddies work?** You paired up in the first session; your buddy checks in with you before each meeting. Swap whatever the last room asked you to take away: a plan, a next step, or simply what changed your mind.--}{++{"author":"Andreas's AI","timestamp":1791747771157}@@source:: [[../shared/Participant FAQ]]++}
 
 # Tab: Navigator Run-Sheet
 
