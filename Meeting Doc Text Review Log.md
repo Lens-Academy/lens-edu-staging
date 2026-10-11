@@ -386,7 +386,7 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 
 ### For the owner of [[AI Guide/Writing Meeting Docs]]
 
-Comments for the guide's owner were left on the guide itself on 2026-10-10 for the first three items below (section 6).
+Comments for the guide's owner were left on the guide itself on 2026-10-10 for the first three items below (section 6). On 2026-10-11 they were replaced by suggestions that make the changes, pending Andreas's review.
 
 - Rule 6 still requires a "Lens Coach" note, and rule 7 and two examples (Room 2 and 3 patterns) still name Lens Coach and link `/coach`. The replacement is the help note settled on 2026-10-10 (section 2).
 - The closing-question example says "two hours ago" for a 90-minute meeting, which AI Futures Meetings 1 and 2 copied.
