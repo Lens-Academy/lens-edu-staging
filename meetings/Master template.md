@@ -121,7 +121,7 @@ style:: faq
 Your navigator isn't in every room, so:
 
 - **Confused about the task, or want a human?** Click **"••• More” > “Ask for Help"** > Your navigator gets pinged and pops into your room.
-- **Don't get the question, or something in the reading?** Ask the [Lens Tutor](https://lensacademy.org/tutor). It's for understanding, not for handing you the answer.
+- **Don't get the question, or something in the reading?** Ask {--{"author":"Andreas's AI","timestamp":1791747792398}@@the --}[Lens Tutor](https://lensacademy.org/tutor). It's for understanding, not for handing you the answer.
 - **Lost the doc link, or a quick logistics thing?** Check the **Discord channel** or the Zoom chat.
 
 ### Before you arrive
@@ -141,11 +141,11 @@ Your navigator isn't in every room, so:
 
 - **What happens between rooms?** Everyone comes back to the main room for five minutes. Your navigator asks who wants to share what their group landed on, and waits. A sentence or two is plenty.
 - **Do I have to share?** No. Nobody is made to speak, and a silent pause is a normal outcome. If your navigator invites you by name and you would rather not, “pass” is a complete answer.
-- **I can’t remember what we decided.** Read the last line your scribe wrote in your room’s table.
+- **I {--{"author":"Andreas's AI","timestamp":1791747822839}@@can’t--}{++{"author":"Andreas's AI","timestamp":1791747822839}@@cannot++} remember what we decided.** Read the last line your scribe wrote in your room’s table.
 
 ### The reading and the questions
 
-- **I don't understand the question or a claim.** Ask the [Lens Tutor](https://lensacademy.org/tutor)! It'll explain in plain terms.
+- **I don't understand the question or a claim.** Ask {--{"author":"Andreas's AI","timestamp":1791747833905}@@the --}[Lens Tutor](https://lensacademy.org/tutor)! It'll explain in plain terms.
 - **Where's the reading?** It's in the course on the Lens platform: the chapter text is loaded right in the lesson. Can't find it? Ask the Tutor or Ask for Help.
 
 ### Tech

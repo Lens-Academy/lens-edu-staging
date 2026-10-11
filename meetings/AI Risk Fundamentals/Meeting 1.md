@@ -171,7 +171,7 @@ Before you leave (your navigator will talk through these):
 source:: [[../shared/Session Doc - Open discussion]]
 
 # Tab: Participant FAQ
-style:: faq
+{--{"author":"Andreas's AI","timestamp":1791747808803}@@style:: faq
 
 ## Participant FAQ
 
@@ -217,7 +217,7 @@ Your navigator isn't in every room, so:
 ### After we wrap
 
 - **What happens at 1:30?** We close on time. The meeting then stays open; hang around and keep talking if you'd like, no pressure.
-- **How do accountability buddies work?** You'll pair up in Room 4 today. After that, your buddy checks in with you before each meeting, and you swap whatever the last room asked you to take away.
+- **How do accountability buddies work?** You'll pair up in Room 4 today. After that, your buddy checks in with you before each meeting, and you swap whatever the last room asked you to take away.--}{++{"author":"Andreas's AI","timestamp":1791747808803}@@source:: [[../shared/Participant FAQ]]++}
 
 # Tab: Navigator Run-Sheet
 

@@ -143,7 +143,7 @@ We'll come back together for a final wrap and close on time. That's the entire c
 source:: [[../shared/Session Doc - Open discussion]]
 
 # Tab: Participant FAQ
-style:: faq
+{--{"author":"Andreas's AI","timestamp":1791747787986}@@style:: faq
 
 ## Participant FAQ
 
@@ -190,7 +190,7 @@ Your navigator isn't in every room, so:
 ### After we wrap
 
 - **What happens at 1:30?** We close on time. The meeting then stays open; hang around and keep talking if you'd like, no pressure.
-- **How do accountability buddies work?** Your relationship with your accountability buddy doesn’t have to end with the course.{>>{"author":"AI","timestamp":1791094729886}@@AI (strong): another "doesn't have to end" line. Clarity: it no longer answers the question it sits under ("How do accountability buddies work?").<<} Swap whatever the last room asked you to take away: a plan, a next step, or simply what changed your mind.
+- **How do accountability buddies work?** Your relationship with your accountability buddy doesn’t have to end with the course.{>>{"author":"AI","timestamp":1791094729886}@@AI (strong): another "doesn't have to end" line. Clarity: it no longer answers the question it sits under ("How do accountability buddies work?").<<} Swap whatever the last room asked you to take away: a plan, a next step, or simply what changed your mind.--}{++{"author":"Andreas's AI","timestamp":1791747787986}@@source:: [[../shared/Participant FAQ]]++}
 
 # Tab: Navigator Run-Sheet
 
