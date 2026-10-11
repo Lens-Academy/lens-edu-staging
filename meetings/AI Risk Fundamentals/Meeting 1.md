@@ -76,7 +76,7 @@ Chapter 2 ends on the claim the rest of the book leans on: an AI trained to beha
 Put the claim to work: an AI company hands your group its newest model and says "test it however you like, then tell us whether it's actually aligned." Design the best test your group can come up with. Then attack your own test: how could a model that is merely acting aligned still pass it? Write your verdict in the table: does any test survive, or do the authors win this round?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+{--{"author":"Andreas's AI","timestamp":1791679667178}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679667178}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679667178}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679667178}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679667178}@@ Tutor](https://lensacademy.org/tutor).++}
 
 
 | Names | Your best test + does it survive? |

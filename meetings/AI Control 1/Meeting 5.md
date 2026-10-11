@@ -52,7 +52,7 @@ A monitor flags a command. Rather than running it, or going straight to a weaker
 3\. If you still have time: which number would you defend to a manager who wants more from the model?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+{--{"author":"Andreas's AI","timestamp":1791679662839}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679662839}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679662839}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679662839}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679662839}@@ Tutor](https://lensacademy.org/tutor).++}
 
 
 | Names | Your two numbers and their price + the one-step attack |
