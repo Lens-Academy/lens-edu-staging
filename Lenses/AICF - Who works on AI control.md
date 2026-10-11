@@ -349,7 +349,7 @@ collapse:: closed
 
 #### Text
 content::
-The UK AI Security Institute is a government body, with an R&D budget of £66m for 2025/26.[^cite-dsit-2025] Its Control team works on control protocols and control evaluations that keep working as AI gets more capable.[^cite-aisi-agenda] Alan Cooney is its Head of Autonomous Systems & Control.[^cite-aisi-cooney]
+The UK AI Security Institute is a government body, with an R&D budget of £66m for 2025/26.[^cite-dsit-2025] Its Control team works on control protocols and control evaluations that keep working as AI gets more capable.[^cite-aisi-agenda]
 
 - **Testing company monitors.** Its Control Red Team, part of a Red Team of about a dozen people, attacks the monitors that AI companies use on their agents.[^cite-aisi-red-team-job]
   - It tested a Google DeepMind monitor that reviews agents' reasoning after they act.[^cite-aisi-red-team-2026]
@@ -420,8 +420,8 @@ Coefficient Giving, formerly Open Philanthropy, is a foundation that Manifund's 
 
 - In February 2025 it offered $40m for technical AI safety research in 21 areas, and control evaluations were one of them.[^cite-op-rfp-2025]
 - It gave Redwood Research $36.6m in November 2025,[^cite-tnw-2026-b] and in September 2026 it said its grantmakers had recently recommended more than $70m for Redwood over the next two years.[^cite-coefficient-scaling-2026-b]
-- Smaller control grants include $1.55m to Francis Rhys Ward for AI control evaluations (February 2026).[^cite-trace-coefficient-b]
-- In September 2026 it started Project Tailwind, which funds people founding new AI safety organisations.[^cite-coefficient-scaling-2026-b]
+
+
 
 [^cite-coefficient-scaling-2026-b]: Emily Oehlsen, Coefficient Giving (2026), *We're Urgently Scaling Our Work on AI and Biosecurity*. [Coefficient Giving](https://coefficientgiving.substack.com/p/were-urgently-scaling-our-work-on)
 [^cite-op-rfp-2025]: Open Philanthropy (2025), *Open Philanthropy Technical AI Safety RFP: $40M Available Across 21 Research Areas*. [EA Forum](https://forum.effectivealtruism.org/posts/XtgDaunRKtCPzyCWg/open-philanthropy-technical-ai-safety-rfp-usd40m-available)
@@ -438,7 +438,7 @@ collapse:: closed
 content::
 The Alignment Project is a fund run by the UK AI Security Institute. It pays for alignment research, including monitoring and red-teaming of AI systems.[^cite-alignment-project-site-b]
 
-- It started in July 2025 with over £15m.[^cite-alignment-project-launch]
+
 - In February 2026 it announced its first 60 projects, worth over £27m in total, with £5.6m from OpenAI and support from Microsoft.[^cite-alignment-project-feb-2026] "How big is it?" below says how many of them are about control.
 - Its other funders include the Canadian and Australian AI safety institutes, Amazon Web Services, Anthropic and Schmidt Sciences.[^cite-alignment-project-site-b]
 - It says it is unlikely to run a similar round in 2026.[^cite-alignment-project-apply]
