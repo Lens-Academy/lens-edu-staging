@@ -199,7 +199,7 @@ What it does:
   - Anthropic's paper on alignment faking (December 2024) was written together with Redwood.[^cite-anthropic-alignment-faking]
   - Redwood and the UK AI Security Institute wrote a sketch of a safety case for AI control together (January 2025).[^cite-korbak-2025]
 
-- **Money.** It runs on philanthropic money, mostly from Coefficient Giving, which gave it $36.6m in November 2025,[^cite-tnw-2026] and in September 2026 its grantmakers recommended more than $70m over the next two years.[^cite-coefficient-scaling-2026]
+
 
 Our own observation: much of the control work in this unit that comes from companies or government has Redwood co-authors, including SHADE-Arena, the diffuse-threats work and the AISI research agenda you read earlier.
 
