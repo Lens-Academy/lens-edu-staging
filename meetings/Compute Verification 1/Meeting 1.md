@@ -171,7 +171,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:42–0:47 | Back together (whole group) |
 | 0:47–0:52 | Break |
 | 0:52–1:10 | R3 The official who wants no regime (reshuffle) |
-| 1:10–1:15 | Back together (whole group) |
+| 1:10–1:15 | Back together (whole {--{"author":"Andreas's AI","timestamp":1791684594466}@@group)--}{++{"author":"Andreas's AI","timestamp":1791684594466}@@group), then walk through the buddy steps below++} |
 | 1:15–1:27 | R4 Buddies, your theory of change, feedback (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
 
