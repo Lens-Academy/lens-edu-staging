@@ -352,7 +352,7 @@ The UK AI Security Institute is a government body, with an R&D budget of £66m f
   - It tested a Google DeepMind monitor that reviews agents' reasoning after they act.[^cite-aisi-red-team-2026]
   - It tested successive versions of an Anthropic monitor that checks coding agents before their actions run, and found weaknesses in every version, which helped Anthropic improve the monitor from one version to the next.[^cite-aisi-red-team-2026]
 - **Research.**
-  - With Redwood it wrote a sketch of a safety case for AI control (January 2025).[^cite-korbak-2025-b]
+
   - In a December 2025 paper testing monitors that review a coding agent's work after the fact, the first round of monitors missed up to 67% of attacks, and after three rounds of improvement the best monitor missed at most 6%.[^cite-aisi-async-2025]
   - In a paper with Google DeepMind, it studied the practical trade-offs of monitoring in real deployments (December 2025).[^cite-lindner-2025-b]
 - **Tools.** In October 2025 it released ControlArena, a library for running control experiments, which researchers at Anthropic, Google DeepMind and Redwood have used.[^cite-aisi-controlarena-2025]
@@ -383,7 +383,7 @@ We know of no other government with its own control research team, but some laws
 - **California.** Its law SB 53 (in force since January 2026) requires large AI developers to assess the risk from using their own models internally, including a model getting around oversight. A model using deception to get around its developer's controls or monitoring counts as a critical safety incident if it happens outside a test and shows a materially increased risk of catastrophe.[^cite-sb53][^cite-cooley-sb53]
 - **New York.** Its RAISE Act, in force from January 2027, also requires summaries of the risk from internal use.[^cite-raise]
 - **United States.** A research program run by DARPA and the National Science Foundation with the US Center for AI Standards and Innovation, announced in June 2026, will fund university research on AI control as one of three priority areas.[^cite-ai-forge]
-- **Canada and Australia** help fund the UK's Alignment Project.[^cite-alignment-project-site]
+
 
 [^cite-eu-cop-2025]: European Commission (2025), *Code of Practice for General-Purpose AI Models: Safety and Security Chapter*. [European Commission](https://ec.europa.eu/newsroom/dae/redirection/document/118119)
 [^cite-ai-frontiers-2025]: AI Frontiers (2025), *How the EU's Code of Practice advances AI safety*. [AI Frontiers](https://ai-frontiers.org/articles/how-the-eus-code-of-practice-advances-ai-safety)
