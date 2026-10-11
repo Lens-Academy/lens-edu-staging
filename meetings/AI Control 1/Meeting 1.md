@@ -111,7 +111,7 @@ One or two people share what their group landed on.
 ### Room 4: Buddies, next unit, feedback  [1:15–1:27]
 
 **New group. Names first, then straight in.**
-1\. Accountability buddies: pair up (a trio is fine) and swap contact details in the table. Before each meeting you check in: did you finish, are you coming?
+1\. {--{"author":"Andreas's AI","timestamp":1791691876483}@@Accountability buddies: pair up (a trio is fine) and swap--}{++{"author":"Andreas's AI","timestamp":1791691876483}@@The people in this breakout room are your accountability buddies for the rest of the course. Swap++} contact details in the {--{"author":"Andreas's AI","timestamp":1791691876483}@@table.--}{++{"author":"Andreas's AI","timestamp":1791691876483}@@table below.++} Before each meeting {--{"author":"Andreas's AI","timestamp":1791691876483}@@you check in:--}{++{"author":"Andreas's AI","timestamp":1791691876483}@@check in with one another:++} did you finish, are you coming?
 2\. Next unit: the paper that started this field, read in full with exercises and interactive models built into it, and then the question of when it would be safe to let AIs take over the work of keeping AIs safe. About 4 hours. What's most likely to stop you finishing, and what's your plan to beat it? (Send that plan to your buddy today.)
 3\. Feedback: what would make the course and this meeting better?
 
