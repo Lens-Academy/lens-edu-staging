@@ -126,11 +126,7 @@ If a question is unclear, ask your navigator or copy it into [Lens Tutor](https:
 
 ### Back together: 5 min  [1:10–1:15]
 
-One or two people share what their group landed on.{--{"author":"Andreas's AI","timestamp":1791684540167}@@ After that, your navigator will explain the accountability buddy system:
-
-1. In Room 4, the people in your breakout room become your accountability buddies. If you are four or more, split into two groups.
-2. You swap contact details.
-3. Before each meeting, you check in with each other: did you finish the unit? Are you coming?--}
+One or two people share what their group landed on.
 
 ---
 
@@ -141,7 +137,7 @@ One or two people share what their group landed on.{--{"author":"Andreas's AI","
 Three things before the rooms close:
 
 
-1\. Accountability buddies: the people in this breakout room are your accountability buddies for the rest of the {--{"author":"Andreas's AI","timestamp":1791684556513}@@course (if you are four or more, split into two groups).--}{++{"author":"Andreas's AI","timestamp":1791684556513}@@course.++} Swap contact details in the table now.
+1\. Accountability buddies: the people in this breakout room are your accountability buddies for the rest of the course. Swap contact details in the table now.
 
 
 2\. Next unit: Chapters 4-6 (You Don't Get What You Train For, Its Favorite Things, We’d Lose): Will it want what we trained it to want, would its wants leave room for us, and how could we actually lose to it? What's most likely to stop you finishing the reading, and what's your plan to beat it? (After the meeting, send your plan to your new buddy.)
@@ -254,7 +250,7 @@ Your navigator isn't in every room, so:
 | 0:42–0:47 | Back together (whole group) |
 | 0:47–0:52 | Break |
 | 0:52–1:10 | R3 Your own question (reshuffle) |
-| 1:10–1:15 | Back together (whole group), then walk through the {--{"author":"Andreas's AI","timestamp":1791684580968}@@three --}buddy steps {--{"author":"Andreas's AI","timestamp":1791684580968}@@in the doc--}{++{"author":"Andreas's AI","timestamp":1791684580968}@@below++} |
+| 1:10–1:15 | Back together (whole group), then walk through the buddy steps below |
 | 1:15–1:27 | R4 Feedback / next unit (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
 
@@ -265,7 +261,7 @@ source:: [[../shared/Navigator Run-Sheet - During the breakout rooms]]
 
 source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
 
-### {++{"author":"Andreas's AI","timestamp":1791684569241}@@Buddy steps
+### Buddy steps
 
 **[1:10–1:15], whole group**, after the sharing. Walk through these (about a minute):
 
@@ -274,7 +270,7 @@ source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
 2. You swap contact details.
 3. Before each meeting, you check in with each other: did you finish the unit? Are you coming?
 
-### ++}Close
+### Close
 
 **[1:27–1:30], whole group**. Bring everyone back:
 
