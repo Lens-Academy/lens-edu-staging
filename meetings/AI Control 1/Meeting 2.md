@@ -61,7 +61,7 @@ Your group is the committee that decides what the lab actually deploys. The pape
 3\. What would have to be true for you to ship the first option, not using the strong model at all?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+{--{"author":"Andreas's AI","timestamp":1791679649940}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679649940}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679649940}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679649940}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679649940}@@ Tutor](https://lensacademy.org/tutor).++}
 
 
 | Names | What you ship + its price + your fallback |

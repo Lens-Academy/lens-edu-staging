@@ -56,7 +56,7 @@ The course opens on an analogy. Banks and hospitals do not assume every insider 
 4\. If you still have time: you cannot test whether this insider means well. What could you test instead?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+{--{"author":"Andreas's AI","timestamp":1791679645448}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679645448}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679645448}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679645448}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679645448}@@ Tutor](https://lensacademy.org/tutor).++}
 
 
 | Names | Your organisation's mechanisms + what carries over, what breaks |
