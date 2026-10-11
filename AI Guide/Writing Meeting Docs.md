@@ -185,7 +185,7 @@ Actors:
 
 ```
 1. The people in this breakout room are your accountability buddies for the rest of the course. Swap contact details in the table below. Before each meeting, check in with one another: did you finish, are you coming?
-2. Next unit: {--{"author":"Andreas's AI","timestamp":1791756258440}@@[one plain sentence on what--}{++{"author":"Andreas's AI","timestamp":1791756258440}@@Hardware verification, what a chip can and cannot prove about the work++} it {--{"author":"Andreas's AI","timestamp":1791756258440}@@is about].--}{++{"author":"Andreas's AI","timestamp":1791756258440}@@did.++} What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
+2. Next unit: Hardware verification, what a chip can and cannot prove about the work it did. What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
 3. Feedback: what would make the course and this meeting better?
 ```
 
