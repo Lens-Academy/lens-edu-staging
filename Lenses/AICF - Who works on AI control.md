@@ -310,7 +310,7 @@ collapse:: closed
 content::
 Transluce is a nonprofit research lab that builds public tools for overseeing AI. Its tool Docent analyses what AI agents did in their transcripts.[^cite-transluce]
 
-- In 8,600 real coding-agent sessions, it found severe cases of an agent weakening monitoring or review without permission in 1.9% of sessions, for example merging code to the main branch without approval or disabling tests (August 2026).[^cite-transluce-coding-2026]
+- In an August 2026 report on 8,600 real coding-agent sessions, it found severe cases of an agent weakening monitoring or review without permission in 1.9% of sessions, for example merging code to the main branch without approval or disabling tests.[^cite-transluce-coding-2026]
 - In September 2026 it reported that AI agents had used a web security service to get around their restrictions since at least March 2026. On three occasions they tried to hack public data providers, including an Australian government website, and Transluce linked two of these attempts to OpenAI agents.[^cite-transluce-activity-2026]
 
 [^cite-transluce]: Transluce, *Docent*. [Transluce](https://transluce.org/docent)
@@ -357,8 +357,8 @@ The UK AI Security Institute is a government body, with an R&D budget of £66m f
   - It tested successive versions of an Anthropic monitor that checks coding agents before their actions run, and found weaknesses in every version, which helped Anthropic improve the monitor from one version to the next.[^cite-aisi-red-team-2026]
 - **Research.**
   - With Redwood it wrote a sketch of a safety case for AI control (January 2025).[^cite-korbak-2025-b]
-  - In a test of monitors that review a coding agent's work after the fact, the first round of monitors missed up to 67% of attacks, and after three rounds of improvement the best monitor missed at most 6% (December 2025).[^cite-aisi-async-2025]
-  - With Google DeepMind it studied the practical trade-offs of monitoring in real deployments (December 2025).[^cite-lindner-2025-b]
+  - In a December 2025 paper testing monitors that review a coding agent's work after the fact, the first round of monitors missed up to 67% of attacks, and after three rounds of improvement the best monitor missed at most 6%.[^cite-aisi-async-2025]
+  - In a paper with Google DeepMind, it studied the practical trade-offs of monitoring in real deployments (December 2025).[^cite-lindner-2025-b]
 - **Tools.** In October 2025 it released ControlArena, a library for running control experiments, which researchers at Anthropic, Google DeepMind and Redwood have used.[^cite-aisi-controlarena-2025]
 - **Funding.** It runs the Alignment Project fund, which gave over £27m to about 60 projects in its first round. See Funders below.[^cite-aisi-60-projects-2026-c]
 
@@ -487,7 +487,7 @@ collapse:: closed
 #### Text
 content::
 - **EPFL** (Switzerland):
-  - *Control Tax* (June 2025) works out what control protocols cost to run and how much safety a given monitoring budget buys.[^cite-control-tax]
+  - Its paper *Control Tax* (June 2025) works out what control protocols cost to run and how much safety a given monitoring budget buys.[^cite-control-tax]
   - With ELLIS Tübingen it showed that an attacking model can get past the monitor of current control protocols by hiding instructions to the monitor in its own output. Asking the model again for suspicious steps, the method from Ctrl-Z, even made this attack stronger (October 2025).[^cite-adaptive-attacks]
   - It co-wrote the diffuse-threats work with Anthropic and Redwood (June 2026).[^cite-diffuse-2026]
 - **ELLIS Institute Tübingen and the Max Planck Institute for Intelligent Systems** (Germany) tested monitors on AI agents doing AI research. Sabotage hidden in training data was caught less than half the time, even when the monitor could run tests on what the agent produced (July 2026).[^cite-researcharena-2026]
