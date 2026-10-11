@@ -167,7 +167,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:42–0:47 | Back together (whole group) |
 | 0:47–0:52 | Break |
 | 0:52–1:10 | R3 The official who wants no regime (reshuffle) |
-| 1:10–1:15 | Back together (whole group), then walk through the buddy {--{"author":"Andreas's AI","timestamp":1791747813377}@@steps--}{++{"author":"Andreas's AI","timestamp":1791747813377}@@setup++} below |
+| 1:10–1:15 | Back together (whole group), then walk through the buddy setup below |
 | 1:15–1:27 | R4 Buddies, your theory of change, feedback (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
 
@@ -193,16 +193,14 @@ source:: [[../shared/Navigator Run-Sheet - During the breakout rooms]]
 
 source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
 
-### {--{"author":"Andreas's AI","timestamp":1791747754753}@@Buddy steps--}{++{"author":"Andreas's AI","timestamp":1791747754753}@@Accountability buddy setup++}
+### Accountability buddy setup
 
-**[1:10–1:15], whole group**, after the sharing. Walk through {--{"author":"Andreas's AI","timestamp":1791747754753}@@these --}{++{"author":"Andreas's AI","timestamp":1791747754753}@@the accountability buddy system ++}(about a minute):
+**[1:10–1:15], whole group**, after the sharing. Walk through the accountability buddy system (about a minute):
 
 
-{--{"author":"Andreas's AI","timestamp":1791747754753}@@1. --}In Room 4, the people in {--{"author":"Andreas's AI","timestamp":1791747754753}@@your--}{++{"author":"Andreas's AI","timestamp":1791747754753}@@each++} breakout room become {--{"author":"Andreas's AI","timestamp":1791747754753}@@your--}{++{"author":"Andreas's AI","timestamp":1791747754753}@@their++} accountability {--{"author":"Andreas's AI","timestamp":1791747754753}@@buddies.
-2. You--}{++{"author":"Andreas's AI","timestamp":1791747754753}@@buddies, so they should++} swap contact details.{--{"author":"Andreas's AI","timestamp":1791747754753}@@
-3.--} Before each {--{"author":"Andreas's AI","timestamp":1791747754753}@@meeting, you--}{++{"author":"Andreas's AI","timestamp":1791747754753}@@meeting they will++} check in with {--{"author":"Andreas's AI","timestamp":1791747754753}@@each other:--}{++{"author":"Andreas's AI","timestamp":1791747754753}@@one another:++} did {--{"author":"Andreas's AI","timestamp":1791747754753}@@you--}{++{"author":"Andreas's AI","timestamp":1791747754753}@@they++} finish the unit? Are {--{"author":"Andreas's AI","timestamp":1791747754753}@@you--}{++{"author":"Andreas's AI","timestamp":1791747754753}@@they++} coming?{++{"author":"Andreas's AI","timestamp":1791747754753}@@
+In Room 4, the people in each breakout room become their accountability buddies, so they should swap contact details. Before each meeting they will check in with one another: did they finish the unit? Are they coming?
 
-For **Room 4 only**, aim to create breakout rooms of trios (a couple of pairs are fine).++}
+For **Room 4 only**, aim to create breakout rooms of trios (a couple of pairs are fine).
 
 ### Close
 
@@ -234,7 +232,7 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 **Room 1, Icebreaker.** First meeting, so keep introductions short enough that the prevented catastrophe gets airtime. If a room is stuck for examples: the ozone layer, seatbelts, a bug caught before release, a deadline saved by unglamorous prep. Then ask a question the unit invites: how would you tell an averted risk from an overstated one?
 **Room 2, Load-bearing part, weakest weld.** Every Plan A essay prompt is optional, so expect some people to have skimmed the supplement without writing; the candidate list in the prompt is for them, and Option B readers skimmed the same supplement, so they can play. Say: "Which single mechanism, if removed, breaks Plan A?" Expect clustering on the datacenter retrofit and on the 2029 implementation timeline. The amendment step is where design happens: refuse vague amendments ("more inspections") and ask what the amendment costs the 2029 schedule or a signatory's willingness. If a room wants a verdict, ask for the lens's own vote: adopt as written, amend, or reject. If a room agrees too fast, split it on the covert margin: half argue 0.5% of world AI-relevant compute is a frontier-scale cluster in disguise, half argue a covert project that size cannot keep up (A4 asks what disadvantages it would face). Contrarian line from the drill bench, held loosely: a regime that promises zero covert compute is overclaiming; one that prices the residual rate is doing game theory.
 **Room 3, The official who wants no regime.** Two traps. First, the official caves in thirty seconds; tell them to be stubborn, they represent a real position. Second, people name a structure (prisoner's dilemma, security dilemma) instead of stating the mechanism; ask "and why does that make continuing the safer move for a state that fears ASI?" If a room flounders, the three things the unit gives them: why shared fear does not stop the race, why trust, punishment afterwards and mutual transparency each fail between rivals, and what verification changes about each side's incentives. On the "no time" comeback, the unit's own material helps: export controls, cloud know-your-customer, and attestation on shipping GPUs exist today (built for the chip's owner, not for a verifier); cryptographic methods are mostly papers. The honest answer is partial, and that is fine.
-**Room 4, Buddies, your theory of change, feedback.** In the whole-group slot before Room 4, walk through the buddy {--{"author":"Andreas's AI","timestamp":1791747829497}@@steps--}{++{"author":"Andreas's AI","timestamp":1791747829497}@@setup++} above, and ask buddies to message each other today, so both know the channel works. Insist on real contact details in the table. Watch for outputs dressed as outcomes ("I'll finish every unit" is an output); ask what would be different in the world, or in their work, if the chain held. Feedback here is a verbal primer for XLab's form.**Wrap-up, in your own words (one minute).** Next unit is Precedents and policy scope: about 170 minutes, the densest of the five, so start early. Message your buddy today. Feedback goes to XLab's form, link in the doc. The call stays open for anyone who wants to keep talking.
+**Room 4, Buddies, your theory of change, feedback.** In the whole-group slot before Room 4, walk through the buddy setup above, and ask buddies to message each other today, so both know the channel works. Insist on real contact details in the table. Watch for outputs dressed as outcomes ("I'll finish every unit" is an output); ask what would be different in the world, or in their work, if the chain held. Feedback here is a verbal primer for XLab's form.**Wrap-up, in your own words (one minute).** Next unit is Precedents and policy scope: about 170 minutes, the densest of the five, so start early. Message your buddy today. Feedback goes to XLab's form, link in the doc. The call stays open for anyone who wants to keep talking.
 
 # Tab: Glossary
 style:: plain
