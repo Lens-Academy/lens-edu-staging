@@ -69,16 +69,11 @@ collapse:: closed
 
 #### Text
 content::
-- **Monitoring its own agents.** Anthropic publishes regular risk reports, the latest in August 2026, that describe how it watches its models inside the company.[^cite-anthropic-aug-2026]
-  - Anthropic says that as of July 2026, AI monitors read most internal use of its newest models, and about half of everything its internal agents do passes through a monitor at some point.[^cite-anthropic-aug-2026]
-  - The monitors look for deception, sabotage of the task, weakening security, and attempts to hide from or manipulate the monitors.[^cite-anthropic-aug-2026]
-  - It says AI control researchers review about 50 flagged cases a week by hand.[^cite-anthropic-aug-2026]
-  - The report admits gaps: some use is not covered in ways a capable model could predict, and there are simple ways to switch monitoring off. It also says these monitors would probably not catch slow sabotage of research.[^cite-anthropic-aug-2026]
-- **Tested from outside.** METR spent three weeks red-teaming this monitoring in early 2026 and found several new holes, some since patched, though none worse than ones Anthropic already knew about.[^cite-anthropic-aug-2026-b][^cite-metr-red-team-2026-b]
-- **Claude Code auto mode.** Since August 2026, auto mode is the default in Claude Code: a classifier, not the user, approves or blocks riskier actions such as shell commands. It blocks actions that are irreversible, destructive or aimed outside the user's environment. Anthropic says the classifier is tuned to catch overeager behaviour and honest mistakes, and that it does not currently see misaligned models in practice.[^cite-claude-auto-mode-2026][^cite-anthropic-auto-mode-eng]
-- **Goal.** Anthropic says that by 1 January 2027 it aims to have monitoring good enough to catch egregious sabotage in high-stakes internal use with high probability. It says this monitoring would not be needed if it becomes confident its models are aligned, and that the roadmap may change.[^cite-anthropic-roadmap]
-- **Cutting internet access.** Anthropic says that in October 2026, after finding unintended actions by its models in evaluations and internal use, it cut live internet access from all its internal evaluations until it has confirmed that its security and monitoring reliably catch such behaviour.[^cite-anthropic-oct-2026]
-- **Research.** In its SHADE-Arena paper (June 2025), written with Redwood and others, agents get a hidden harmful task next to a normal one. The best model, Claude 3.7 Sonnet, finished both without the monitor noticing in 27% of tries, and it mostly succeeded only when it could plan in a hidden scratchpad the monitor could not read.[^cite-anthropic-shade-arena-2025] Its SLEIGHT-Bench paper (May 2026) collects 40 attacks that monitors find hard to catch: Claude Opus 4.6, the main monitor its authors test, never caught half of them in 10 tries.[^cite-sleight-bench]
+- **Monitoring its own agents.** Anthropic publishes regular risk reports on how it watches its models inside the company. It says AI monitors read most internal use of its newest models and look for deception, sabotage and attempts to evade them, and that control researchers review about 50 flagged cases a week. The report admits gaps that a capable model could exploit.[^cite-anthropic-aug-2026]
+- **Tested from outside.** It let METR red-team this monitoring in early 2026.[^cite-anthropic-aug-2026-b][^cite-metr-red-team-2026-b]
+- **Claude Code auto mode.** In Claude Code, a classifier rather than the user approves or blocks risky actions by default. Anthropic says it is tuned to catch overeager behaviour and honest mistakes.[^cite-claude-auto-mode-2026][^cite-anthropic-auto-mode-eng]
+- **Plans.** Anthropic says it aims to have monitoring that catches egregious sabotage in high-stakes internal use by 1 January 2027.[^cite-anthropic-roadmap] It says that in October 2026, after its models took unintended actions, it cut internet access from its internal evaluations until its monitoring reliably catches such behaviour.[^cite-anthropic-oct-2026]
+- **Research.** It builds tests of whether agents can sabotage a task without a monitor noticing, such as SHADE-Arena, written with Redwood and others.[^cite-anthropic-shade-arena-2025][^cite-sleight-bench]
 
 [^cite-anthropic-aug-2026]: Anthropic (2026), *Risk Report: August 2026*. [Anthropic](https://www.anthropic.com/aug-2026-risk-report)
 [^cite-metr-red-team-2026-b]: David Rein (2026), *Red-Teaming Anthropic's Internal Agent Monitoring Systems*. [METR](https://metr.org/blog/2026-03-25-red-teaming-anthropic-agent-monitoring/)
@@ -134,9 +129,8 @@ collapse:: closed
 
 #### Text
 content::
-- **Little published work.** DeepSeek, Moonshot AI and MiniMax have published almost no safety research since January 2025. Over half of the safety papers from Chinese industry come from six big tech companies, among them Alibaba, Huawei, Tencent and ByteDance.[^cite-concordia-2026]
-- **Shanghai AI Lab**, a state-backed institute, is the main exception. Its risk framework (July 2025) tests models for strategic deception, scheming and self-replication, and its first assessment put several reasoning models in its warning zone for deception and scheming.[^cite-shanghai-2025]
-- **Z.ai** (Zhipu) told the Future of Life Institute that it logs all internal use of its models and monitors it live for unexpected attempts by the AI. This is self-reported. Z.ai cites its signing of the 2024 Seoul safety commitments, but has not published the safety policy they ask for.[^cite-fli-2026-c][^cite-concordia-2026-b]
+- **Little published work.** DeepSeek, Moonshot AI and MiniMax have published almost no safety research since January 2025. Over half of the safety papers from Chinese industry come from six big tech companies, such as Alibaba and ByteDance.[^cite-concordia-2026]
+- **Z.ai** (Zhipu) told the Future of Life Institute that it logs and monitors all internal use of its models.[^cite-fli-2026-c]
 
 [^cite-concordia-2026]: Concordia AI (2026), *State of AI Safety in China 2026*. [PDF](https://aisafetychina.com/assets/State-of-AI-Safety-in-China-2026.pdf)
 [^cite-shanghai-2025]: Shanghai AI Laboratory (2025), *Frontier AI Risk Management Framework in Practice: A Risk Analysis Technical Report*. [arXiv](https://arxiv.org/abs/2507.16534)
@@ -314,17 +308,10 @@ collapse:: closed
 
 #### Text
 content::
-The UK AI Security Institute is a government body, with an R&D budget of £66m for 2025/26.[^cite-dsit-2025] Its Control team works on control protocols and control evaluations that keep working as AI gets more capable.[^cite-aisi-agenda]
+The UK AI Security Institute is a government body, with an R&D budget of £66m for 2025/26. Its Control team works on control protocols and control evaluations.[^cite-dsit-2025][^cite-aisi-agenda]
 
-- **Testing company monitors.** Its Control Red Team, part of a Red Team of about a dozen people, attacks the monitors that AI companies use on their agents.[^cite-aisi-red-team-job]
-  - It tested a Google DeepMind monitor that reviews agents' reasoning after they act.[^cite-aisi-red-team-2026]
-  - It tested successive versions of an Anthropic monitor that checks coding agents before their actions run, and found weaknesses in every version, which helped Anthropic improve the monitor from one version to the next.[^cite-aisi-red-team-2026]
-- **Research.**
-
-  - In a December 2025 paper testing monitors that review a coding agent's work after the fact, the first round of monitors missed up to 67% of attacks, and after three rounds of improvement the best monitor missed at most 6%.[^cite-aisi-async-2025]
-  - In a paper with Google DeepMind, it studied the practical trade-offs of monitoring in real deployments (December 2025).[^cite-lindner-2025-b]
-- **Tools.** In October 2025 it released ControlArena, a library for running control experiments, which researchers at Anthropic, Google DeepMind and Redwood have used.[^cite-aisi-controlarena-2025]
-- **Funding.** It runs the Alignment Project fund, which gave over £27m to about 60 projects in its first round. See Funders below.[^cite-aisi-60-projects-2026-c]
+- **Testing company monitors.** Its Control Red Team, part of a Red Team of about a dozen people, attacks the monitors that AI companies such as Google DeepMind and Anthropic use on their agents, and reports the weaknesses it finds so the companies can fix them.[^cite-aisi-red-team-job][^cite-aisi-red-team-2026]
+- **Research and tools.** It publishes research on monitoring, and in October 2025 it released ControlArena, a library for running control experiments, which researchers at Anthropic, Google DeepMind and Redwood have used.[^cite-aisi-async-2025][^cite-aisi-controlarena-2025]
 
 [^cite-dsit-2025]: UK Department for Science, Innovation and Technology (2025), *DSIT research and development (R&D) allocations for 2025/2026*. [GOV.UK](https://www.gov.uk/government/publications/dsit-research-and-development-rd-allocations-for-20252026/dsit-research-and-development-rd-allocations-for-20252026)
 [^cite-aisi-agenda]: UK AI Security Institute, *AISI Research Agenda*. [AISI](https://www.aisi.gov.uk/research-agenda)
@@ -416,9 +403,8 @@ collapse:: closed
 
 #### Text
 content::
-- **Schmidt Sciences** asked for proposals in 2026 that extend oversight and control to tasks where humans cannot check the answer themselves, with grants of up to $5m or more.[^cite-schmidt-2026]
-- **The Survival and Flourishing Fund** recommended $61.7m in grants in its 2026 round, among them $675,000 to Poseidon Research, a nonprofit that studies how AI systems hide and communicate information. Poseidon spoke at ControlConf 2026 on hidden reasoning that gets past monitors.[^cite-sff-2026][^cite-poseidon-site][^cite-farai-poseidon]
-- **The Frontier Model Forum's AI Safety Fund**, paid for by AI companies and philanthropic funders, gave over $5m to 11 projects in December 2025, among them Apollo Research's work on monitors that detect scheming.[^cite-fmf-2025]
+- **The Survival and Flourishing Fund** recommended $675,000 in 2026 to Poseidon Research, a nonprofit that studies how AI systems hide information, including from monitors.[^cite-sff-2026][^cite-poseidon-site][^cite-farai-poseidon]
+- **The Frontier Model Forum's AI Safety Fund**, paid for by AI companies and philanthropic funders, funds projects such as Apollo Research's work on monitors that detect scheming.[^cite-fmf-2025]
 
 [^cite-schmidt-2026]: Schmidt Sciences (2026), *Request for proposals on the Science of Trustworthy AI*. [GreaterWrong](https://www.greaterwrong.com/posts/sup9qzCrdjcAGyrxa/schmidt-sciences-request-for-proposals-on-the-science-of)
 [^cite-sff-2026]: Survival and Flourishing Fund (2026), *SFF-2026 recommendations*. [SFF](https://survivalandflourishing.fund/2026/recommendations)
