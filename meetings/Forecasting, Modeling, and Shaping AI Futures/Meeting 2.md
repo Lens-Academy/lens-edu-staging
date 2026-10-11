@@ -16,7 +16,7 @@ source:: [[../shared/Session Doc - How today works (3 rooms)]]
 ### Room 1: What is driving this  [0:05–0:19]
 
 Go around your group. Two things.
-1\. How was this unit? Harder or easier than Unit 1? Did you finish it? If you did not finish, what stopped you? "I did not finish" is a normal answer.
+1\. How was this unit? {--{"author":"Andreas's AI","timestamp":1791754356716}@@Harder or easier than Unit 1? --}Did you finish it? If you {--{"author":"Andreas's AI","timestamp":1791754356716}@@did not finish, what stopped you? "I did not finish" is a normal answer.--}{++{"author":"Andreas's AI","timestamp":1791754356716}@@didn't, what got in the way? What do you think about this unit compared to previous ones?++}
 2\. AI systems can do longer and longer tasks each year. Say what you think is actually causing that. Not when it will get somewhere. What is doing the work: more computers, better training methods, more money, more people, something else?
 
 
