@@ -110,9 +110,9 @@ collapse:: closed
 
 #### Text
 content::
-- **xAI**, which makes Grok, says its approach to loss of control rests on oversight, training against deception, and testing agents in sandboxes. It calls the exact scenarios "speculative and difficult to precisely specify".[^cite-xai-faif-2026] It has no public plan for monitoring its models' internal use, and it did not take part in METR's review of internal agent use.[^cite-fli-2026-b][^cite-metr-2026-c]
-- **Microsoft** and **Amazon** added loss of control to their safety frameworks in 2026. Microsoft says it is still researching how to test for it.[^cite-microsoft-fgf-2026] Amazon says it plans to test models for deception and for getting around safeguards in agent settings.[^cite-amazon-fmsf-2026] Neither framework describes how the company monitors its own AI agents.
-- **Mistral** has published no safety framework, although it signed the 2024 Frontier AI Safety Commitments that ask for one.[^cite-saferai-2026]
+- **xAI**, which makes Grok, has no public plan for monitoring its models' internal use, and did not take part in METR's review of internal agent use.[^cite-xai-faif-2026][^cite-fli-2026-b][^cite-metr-2026-c]
+- **Microsoft** and **Amazon** added loss of control to their safety frameworks in 2026, but neither framework describes how the company monitors its own AI agents.[^cite-microsoft-fgf-2026][^cite-amazon-fmsf-2026]
+- **Mistral** has published no safety framework.[^cite-saferai-2026]
 
 [^cite-xai-faif-2026]: xAI (2026), *Frontier Artificial Intelligence Framework*. [PDF](https://media.x.ai/v1/website/xai-frontier-artificial-intelligence-framework-30-june-2026-99c40684.pdf)
 [^cite-fli-2026-b]: Future of Life Institute (2026), *AI Safety Index, Summer 2026*. [PDF](https://futureoflife.org/wp-content/uploads/2026/07/AI-Safety-Index-Summer-2026-Digital.pdf)
@@ -164,18 +164,10 @@ collapse:: closed
 
 #### Text
 content::
-Redwood Research is a research nonprofit in Berkeley that studies the risks from powerful AI and ways to reduce them.[^cite-redwood-about] Four of its researchers wrote the 2023 paper that introduced AI control.[^cite-greenblatt-2023] According to Rob Wiblin, host of the 80,000 Hours podcast, Redwood is "behind a bit of a renaissance" of AI control as a research agenda.[^cite-80k-shlegeris-2025]
+Redwood Research is a research nonprofit in Berkeley. Four of its researchers wrote the 2023 paper that introduced AI control.[^cite-redwood-about][^cite-greenblatt-2023] According to Rob Wiblin, host of the 80,000 Hours podcast, Redwood is "behind a bit of a renaissance" of AI control as a research agenda.[^cite-80k-shlegeris-2025]
 
-What it does:
-
-- **Experiments and papers.** Redwood builds test settings in which a red team gives a model a secret harmful goal and tries to get its attacks past safety measures, then publishes what gets through.
-  - In its 2023 paper that introduced control, GPT-4 solved programming problems and was secretly told to hide backdoors in its code, while the weaker GPT-3.5 checked its work. Letting GPT-3.5 rewrite code that looked suspicious, or having a second copy of GPT-4 check the code, stopped more backdoors than simpler checks.[^cite-greenblatt-2023]
-  - Its Ctrl-Z paper (April 2025) was "the first control evaluation performed in an agent environment": the model worked over many steps on a computer's command line and tried to secretly download and run malicious code. The best protocol asked the model again for any step that looked suspicious and looked back at earlier steps. It cut successful attacks from 58% to 7%, and made an honest agent's work 5% worse.[^cite-ctrl-z-2025]
-  - Its BashArena (December 2025) and LinuxArena (April 2026) papers test the same kind of setup on realistic servers and software systems. In both, the strongest attacking model got its sabotage past a weaker monitor about a quarter of the time. In LinuxArena, attacks written by humans got past the monitors more often than any attack the models came up with.[^cite-basharena-2025][^cite-linuxarena-2026]
-- **Work with companies and governments.**
-  - Redwood advises AI companies, including Google DeepMind and Anthropic, and works with governments.[^cite-redwood-site]
-  - Anthropic's paper on alignment faking (December 2024) was written together with Redwood.[^cite-anthropic-alignment-faking]
-  - Redwood and the UK AI Security Institute wrote a sketch of a safety case for AI control together (January 2025).[^cite-korbak-2025]
+- **Research.** It builds test settings in which a model secretly tries to cause harm, and develops and tests safety measures against it. Its settings have moved from single coding problems to agents working on realistic computer systems, as in Ctrl-Z, BashArena and LinuxArena.[^cite-ctrl-z-2025][^cite-basharena-2025][^cite-linuxarena-2026]
+- **Advising.** It advises AI companies, including Google DeepMind and Anthropic, and governments.[^cite-redwood-site] It also writes papers with them, for example with the UK AI Security Institute on how a company could argue that its control measures make a model safe to use.[^cite-korbak-2025]
 
 Our own observation: much of the control work in this unit that comes from companies or government has Redwood co-authors, including SHADE-Arena, the diffuse-threats work and the AISI research agenda you read earlier.
 
@@ -462,8 +454,8 @@ collapse:: closed
 
 #### Text
 content::
-- **LASR Labs**, a London research program, showed in a 2025 paper that a monitor reading a model's reasoning can be misled by the model's rationalisations, and that scoring the reasoning and the actions separately caught subtle sabotage twice as often as watching the actions alone.[^cite-cot-red-handed] In a February 2026 paper, it also sketched when a monitor that is itself an untrusted model can be trusted.[^cite-lasr-2026]
-- **Scale AI**, a data and evaluation company, showed in an August 2025 paper that an agent that knows it is being monitored makes the monitor less reliable, and that how the monitor is set up matters more than what it is told about the agent.[^cite-kale-2025]
+- **LASR Labs**, a London research program, produces control research, for example on stress-testing monitors that read a model's reasoning, and on when an untrusted model can be trusted as a monitor.[^cite-cot-red-handed][^cite-lasr-2026]
+- **Scale AI**, a data and evaluation company, has published a way to red-team the monitors that watch AI agents.[^cite-kale-2025]
 
 [^cite-lasr-2026]: Gardner-Challis, Bostock, Kozhevnikov, Sinclaire, Velja, Abate and Griffin (2026), *When can we trust untrusted monitoring? A safety case sketch across collusion strategies*. [arXiv](https://arxiv.org/abs/2602.20628)
 [^cite-cot-red-handed]: *CoT Red-Handed: Stress Testing Chain-of-Thought Monitoring* (2025). [arXiv](https://arxiv.org/abs/2505.23575)
@@ -506,7 +498,7 @@ content::
 - **MATS** trains new AI safety researchers with mentors. Redwood and the UK AI Security Institute run control research streams in it.[^cite-mats-redwood-c][^cite-mats-aisi]
 - **The Anthropic Fellows Program** lists AI control among its research areas.[^cite-anthropic-fellows-b]
 - **The Astra Fellowship** at Constellation in Berkeley covers AI control, with mentors including Buck Shlegeris and Ryan Greenblatt.[^cite-astra]
-- **Shorter research programs** also produce control papers, for example SPAR, where a team showed that a mix of different monitors catches more than several copies of the same monitor (May 2026),[^cite-ensemble-2026] and Pivotal, where a team showed that when attackers choose when to strike, safety in their test fell from 99% to 59% (2026).[^cite-attack-selection-2026]
+- **Shorter research programs**, such as SPAR and Pivotal, also produce control papers.[^cite-ensemble-2026][^cite-attack-selection-2026]
 - **Courses:** Redwood's AI control reading list,[^cite-redwood-guide] and BlueDot Impact's Technical AI Safety course, which has a part on AI control.[^cite-bluedot]
 
 [^cite-mats-redwood-c]: MATS, *Redwood Research* stream. [MATS](https://www.matsprogram.org/stream/redwood)
