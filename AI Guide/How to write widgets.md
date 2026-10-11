@@ -146,7 +146,7 @@ Live example: `widgets/answers-reader-demo.html`, at the end of [[../Lenses/Resp
 ## Rules the frame imposes
 
 - **One file, no build step.** Plain HTML, CSS and JavaScript. Libraries are fine when loaded from a CDN `<script src>`; there is no bundler and no npm.
-- **No Lens data, no cookies, no parent page.** The frame is sandboxed (`allow-scripts` only). The widget cannot read who the learner is, call the Lens API, or store anything the platform sees. Use `localStorage` inside the widget if it needs to remember something on that browser.
+- **No Lens data, no cookies, no parent page.** The frame is sandboxed (`allow-scripts` only). The widget cannot read who the learner is, call the Lens API, or store anything the platform sees, except through the `window.Lens` calls above. Use `localStorage` inside the widget if it needs to remember something on that browser.
 - **Let the frame size itself.** In `auto` mode the platform forces `html, body { height: auto }` and hides overflow, then measures the content. Do not design around the viewport height (`100vh`, `height: 100%` layouts): the widget is a block in a reading column, as tall as its content. If the content changes (a panel opens), the frame follows.
 - **No assets from the content repo.** Images in `widgets/` or `attachments/` are not served to learners. Inline small data (SVG, data URIs) or link to an external URL you are allowed to use.
 - **Size limit 400 KB** for the HTML body. Widgets are inlined into every module page that uses them.
