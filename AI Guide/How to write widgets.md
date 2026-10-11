@@ -118,6 +118,31 @@ Lens.requestFeedback(lastResponseId, "Can I get feedback on my canvas?");
 
 What the assessor sees is exactly what you send: the question, the answer and the assessment instructions, nothing from the widget's screen. Write the instructions as a marking scheme (what earns full marks, what loses them). Every `submit` is a new attempt; nothing stops a learner from submitting again. Scores are for practice: the learner, the tutor and ops see them, course standings do not count them.
 
+## Reading the learner's earlier answers
+
+A widget can read what the learner answered to any question in the course, by the question's `id::`, the same answers an `::answer{id="..."}` quote shows in text (see [[../Lenses/Response to question segments]]).
+
+```js
+Lens.getAnswers([objectionId, yearsId]).then(function (answers) {
+  var years = answers[yearsId];
+  // years.answer          the learner's latest submitted answer as text, or null
+  // years.questionTitle   the question's title, or null
+  // years.questionText    the question text (blanks shown as ___), or null
+  // years.lensTitle       the lens the question is in
+  // years.canGoToQuestion true when the learner's course shows the question
+});
+
+// Take the learner to the question card, as the quote popup's "Go to question" does.
+// Show the button only when canGoToQuestion is true.
+Lens.goToQuestion(yearsId);
+```
+
+- The answer is read once per call. The widget is not told when the learner answers again, so offer a way to read again (a button) if that matters.
+- Up to 50 ids per call. An id that is not a question comes back with `answer: null`.
+- Answers are the learner's own text: render them with `textContent`, never as HTML.
+
+Live example: `widgets/answers-reader-demo.html`, at the end of [[../Lenses/Response to question segments]].
+
 ## Rules the frame imposes
 
 - **One file, no build step.** Plain HTML, CSS and JavaScript. Libraries are fine when loaded from a CDN `<script src>`; there is no bundler and no npm.
