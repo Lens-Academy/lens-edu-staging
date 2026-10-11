@@ -211,11 +211,11 @@ Our own observation: much of the control work in this unit that comes from compa
 [^cite-basharena-2025]: Adam Kaufman, James Lucassen, Tyler Tracy, Cody Rushing and Aryan Bhatt (2025), *BashArena: A Control Setting for Highly Privileged AI Agents*. [arXiv](https://arxiv.org/abs/2512.15688)
 [^cite-linuxarena-2026]: Tyler Tracy and others (2026), *LinuxArena: A Control Setting for AI Agents in Live Production Software Environments*. [arXiv](https://arxiv.org/abs/2604.15384)
 [^cite-redwood-site]: Redwood Research, home page. [redwoodresearch.org](https://www.redwoodresearch.org/)
-[^cite-gdm-agi-2025]: Google DeepMind (2025), *Taking a responsible path to AGI*. [Google DeepMind blog](https://deepmind.google/blog/taking-a-responsible-path-to-agi/)
+
 [^cite-anthropic-alignment-faking]: Anthropic (2024), *Alignment faking in large language models*. [Anthropic](https://www.anthropic.com/research/alignment-faking)
 [^cite-korbak-2025]: Tomek Korbak, Joshua Clymer, Benjamin Hilton, Buck Shlegeris and Geoffrey Irving (2025), *A sketch of an AI control safety case*. [arXiv](https://arxiv.org/abs/2501.17315)
-[^cite-hf-report-2026]: METR (Ryan Greenblatt, Ajeya Cotra and Hjalmar Wijk) (2026), *Brief independent investigation of agents' behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident*. [METR](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/)
-[^cite-farai-controlconf-2026]: FAR.AI (2026), *ControlConf 2026: What is AI control and how has the field grown?* [FAR.AI](https://far.ai/news/controlconf-2026)
+
+
 [^cite-mats-redwood]: MATS, *Redwood Research* stream. [MATS](https://www.matsprogram.org/stream/redwood)
 [^cite-tnw-2026]: Alina Maria Stan (2026), *The nonprofit that investigated OpenAI's rogue agents runs on a $36m grant*. [The Next Web](https://thenextweb.com/news/coefficient-giving-ai-safety-funding-ipo-correlation)
 
