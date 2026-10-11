@@ -52,7 +52,7 @@ Then, as a group, discuss this question and **write your shared response** in th
 > **Did the story do its job?** The authors are explicit: **the pathway is illustrative, only the outcome is predicted.** They even bind the telling to a rule: every event in the story with a date on it is an event that happened in real life. Go around: did the scenario make the risk feel more real, or did the specifics hand you new objections? Then find the step in the story's path you find hardest to believe, and test it: if that step went differently, does the ending actually change, or does the story route around it?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+{--{"author":"Andreas's AI","timestamp":1791679675715}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679675715}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679675715}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679675715}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679675715}@@ Tutor](https://lensacademy.org/tutor).++}
 
 
 | Names | Your group's response | Notes / where you disagreed |

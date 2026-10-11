@@ -52,7 +52,7 @@ Then, as a group, discuss this question and **write your shared response** in th
 > **Klurl vs Trapaucius.** Trapaucius argues that any being smart enough will grasp its "purpose" and pursue only that. Klurl replies: "they'd know, but would they care?" Who's right about *humans* — and what does that predict for AI?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+{--{"author":"Andreas's AI","timestamp":1791679671348}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679671348}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679671348}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679671348}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679671348}@@ Tutor](https://lensacademy.org/tutor).++}
 
 
 
