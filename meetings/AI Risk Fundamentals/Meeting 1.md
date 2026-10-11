@@ -266,7 +266,7 @@ source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
 **[1:10–1:15], whole group**, after the sharing. Walk through these (about a minute):
 
 
-1. In Room 4, the people in their breakout room become their accountability buddies, so swap contact  Before each meeting they will be checking in with one another: did they finish the unit? Are they coming?
+1. In Room 4, the people in their breakout room become their accountability buddies, so swap contact details. Before each meeting they will be checking in with one another: did they finish the unit? Are they coming?
 3. Aim to create groups of trios (a couple pairs are fine).
 4. You swap contact details.
 5. Before each meeting, you check in with each other: did you finish the unit? Are you coming?
