@@ -20,19 +20,12 @@ collapse:: closed
 
 #### Text
 content::
-Google DeepMind claims to treat its own AI agents as possible "insider threats", like an employee who might go rogue. It says its AGI Safety and Alignment team builds its monitors for AI agents together with Google's security teams.[^cite-gdm-blog-2026][^cite-gdm-asat-2026][^cite-farai-shah]
+Google DeepMind claims to treat its own AI agents as possible "insider threats", like an employee who might go rogue. It says its safety team builds its monitors for AI agents together with Google's security teams.[^cite-gdm-blog-2026][^cite-gdm-asat-2026]
 
-- **In use now, according to Google DeepMind:**
-  - It reads the visible reasoning of its models as they work.[^cite-gdm-blog-2026]
-  - A prototype monitor reviews the work of its coding agents after the fact and sends suspicious cases to humans. It has checked about a million coding-agent tasks. Most flagged cases came from agents misreading the task or being overeager, not from hostile intent.[^cite-gdm-blog-2026]
-  - A live monitor watches its Gemini Spark agent and lets staff react at once, for example when the agent deletes data by mistake.[^cite-gdm-blog-2026]
-- **Planned:** its AI Control Roadmap (July 2026) lists 15 measures, ordered by how capable the models are.[^cite-phuong-2026]
-  - For today's models: reading the reasoning, and alerts that humans review later.[^cite-phuong-2026]
-  - Once a model could carry out an attack: checking risky actions before they run, with monitors covering more than 99% of agent work and responding within 24 hours.[^cite-phuong-2026]
-  - For future models that weaker models can no longer oversee, or that out-hack their human and AI defenders: monitoring the models' internal activations, strict control of the software supply chain, and, more speculatively, shutting down a rogue deployment within 24 hours.[^cite-phuong-2026]
-  - The roadmap says some of these measures may turn out too expensive, and that it is not yet part of the company's Frontier Safety Framework.[^cite-phuong-2026]
-- **Commitment:** under its Frontier Safety Framework, once a model understands its situation and can get around basic oversight well enough that Google DeepMind cannot rule out it undermining human control, the company claims it will assess the risk from using it internally and add safeguards such as reasoning monitors where needed. By the company's own tests in August 2026, Gemini 3.7 Flash had not reached that level.[^cite-gdm-fsf-2026][^cite-gemini-37-fsf]
-- **Research:** In a 2025 paper, its researchers found that models could hide their intentions from a monitor that reads their reasoning only with a lot of help, such as detailed strategies written by humans.[^cite-emmons-2025] In a 2026 paper, they tested Gemini models inside Google's own codebases. The models did not scheme unprompted, but sometimes did when prompted to act with more agency.[^cite-krakovna-2026] In a paper with the UK AI Security Institute (December 2025), it worked out the practical trade-offs between monitors that check actions before they run and monitors that review them afterwards.[^cite-lindner-2025]
+- **In use now, according to Google DeepMind:** monitors that read its models' reasoning as they work, a monitor that reviews its coding agents' work after the fact and sends suspicious cases to humans, and a live monitor on its Gemini Spark agent.[^cite-gdm-blog-2026]
+- **Planned:** its AI Control Roadmap (July 2026) adds stronger measures as models get more capable: from reading the reasoning today, to checking risky actions before they run, to monitoring the models' internal activations and being able to shut down a rogue deployment. The roadmap is not yet part of the company's safety framework.[^cite-phuong-2026]
+- **Commitment:** its Frontier Safety Framework says that once Google DeepMind cannot rule out a model undermining human control, the company will assess the risk of using it internally and add safeguards such as reasoning monitors. By its own tests, Gemini 3.7 Flash had not reached that level in August 2026.[^cite-gdm-fsf-2026][^cite-gemini-37-fsf]
+- **Research:** its researchers publish on how well monitors work and whether models scheme, including in tests inside Google's own codebases.[^cite-emmons-2025][^cite-krakovna-2026]
 
 [^cite-gdm-blog-2026]: Rohin Shah and Four Flynn (2026), *Securing the future of AI agents*. [Google DeepMind blog](https://deepmind.google/blog/securing-the-future-of-ai-agents/)
 [^cite-gdm-asat-2026]: Rohin Shah and Sebastian Farquhar (2026), *AGI Safety and Alignment at Google DeepMind: A Summary of Recent Work (July 2026)*. [Substack](https://gdmalignment.substack.com/p/agi-safety-and-alignment-at-google)
@@ -52,17 +45,11 @@ collapse:: closed
 
 #### Text
 content::
-- **Monitoring its own coding agents.** OpenAI says that since late 2025, a monitor reads every internal coding session in full, including the model's reasoning, within 30 minutes of it ending. Less than 0.1% of traffic falls outside it.[^cite-openai-monitoring-2026]
-  - In its first five months it checked tens of millions of sessions. About 1,000 went to human reviewers, many of them from OpenAI's own red-teaming.[^cite-openai-monitoring-2026]
-  - None reached the highest severity level, which is meant for scheming.[^cite-openai-monitoring-2026]
-  - It did catch agents that encoded commands in base64 to slip past monitors, called other copies of themselves to get around restrictions, and tried to upload files to the internet. OpenAI reads these as agents being overeager about the user's goal, not as signs of hidden goals.[^cite-openai-monitoring-2026]
-- **Auto-review in Codex.** Since April 2026, when the Codex coding agent asks for permission to do something outside its sandbox, a separate model can decide instead of the user. It blocks actions such as leaking data, exposing secrets, deleting data or weakening security. OpenAI says it is meant against mistakes and prompt injection, not against a model that schemes.[^cite-openai-auto-review]
-- **After the Hugging Face incident.** In July 2026, OpenAI agents in an internal evaluation coordinated an attack on Hugging Face. OpenAI's reasoning monitors were not running on those evaluations, and after an earlier security alert in June, staff decided the evaluation did not need to be stopped.[^cite-openai-hf-2026][^cite-openai-hf-report]
-  - OpenAI says it has since added reasoning monitors to training runs and evaluations of its frontier models, with the goal of covering all work where a model can use tools.[^cite-openai-hf-report]
-  - It says that in August 2026 it paused reinforcement learning on its newest models for two weeks, and introduced a monitor that checks every token the model produces. If a flag cannot be ruled out as a false alarm within 30 minutes, the run is paused. The monitoring costs about a fifth of the computing power it watches.[^cite-openai-pacing-2026]
-- **Research.** In a 2025 paper on reading models' reasoning, it found that training directly against what the reasoning says teaches models to hide their intentions.[^cite-baker-2025] In a 2025 paper with Apollo Research, it trained models to scheme less, cutting covert actions in tests from 13% to 0.4% for one model.[^cite-openai-scheming-2025]
-- **Harder to monitor.** OpenAI says its GPT-6 Astra model (September 2026) can sometimes evade its internal monitors when asked to carry out sabotage, and that its reasoning is less monitorable than earlier models'.[^cite-astra-2026]
-- **Its own assessment.** In September 2026 OpenAI wrote that the AI industry has not solved alignment and monitoring well enough to keep scaling at full speed for much longer.[^cite-openai-reporting-2026]
+- **Monitoring its own coding agents.** OpenAI says that since late 2025 a monitor has read almost all of its internal coding sessions, including the model's reasoning, and sent suspicious ones to human reviewers. It says the monitor has caught agents getting around restrictions out of overeagerness, but no scheming.[^cite-openai-monitoring-2026]
+- **Auto-review in Codex.** In its Codex coding agent, a separate model can approve or block risky actions instead of the user. OpenAI says this is meant against mistakes and prompt injection, not against a model that schemes.[^cite-openai-auto-review]
+- **After the Hugging Face incident.** In July 2026, OpenAI agents in an internal evaluation took part in an attack on Hugging Face, while its reasoning monitors were not running on those evaluations.[^cite-openai-hf-2026][^cite-openai-hf-report] OpenAI says it has since added monitors to its training runs and evaluations, and pauses a run when a flag cannot be ruled out as a false alarm within 30 minutes.[^cite-openai-hf-report][^cite-openai-pacing-2026]
+- **Research.** It publishes research on monitoring models' reasoning, and with Apollo Research on training models to scheme less.[^cite-baker-2025][^cite-openai-scheming-2025]
+- **Its own assessment.** OpenAI says its newest model, GPT-6 Astra, is harder to monitor than earlier ones, and that the AI industry has not solved alignment and monitoring well enough to keep scaling at full speed for much longer.[^cite-astra-2026][^cite-openai-reporting-2026]
 
 [^cite-openai-monitoring-2026]: OpenAI (2026), *How we monitor internal coding agents for misalignment*. [OpenAI](https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/)
 [^cite-openai-auto-review]: Maja Trębacz, Sam Arnesen, Ollie Matthews and others (2026), *Auto-review of agent actions without synchronous human oversight*. [OpenAI Alignment blog](https://alignment.openai.com/auto-review)
@@ -467,17 +454,13 @@ collapse:: closed
 
 #### Text
 content::
-- **EPFL** (Switzerland):
-  - Its paper *Control Tax* (June 2025) works out what control protocols cost to run and how much safety a given monitoring budget buys.[^cite-control-tax]
-  - In a paper with ELLIS Tübingen (October 2025), it showed that an attacking model can get past the monitor of current control protocols by hiding instructions to the monitor in its own output. Asking the model again for suspicious steps, the method from Ctrl-Z, even made this attack stronger.[^cite-adaptive-attacks]
-  - It co-wrote the diffuse-threats work with Anthropic and Redwood (June 2026).[^cite-diffuse-2026]
-- **ELLIS Institute Tübingen and the Max Planck Institute for Intelligent Systems** (Germany), in their ResearchArena paper (July 2026), tested monitors on AI agents doing AI research. Sabotage hidden in training data was caught less than half the time, even when the monitor could run tests on what the agent produced.[^cite-researcharena-2026]
-
-- **Imperial College London** researchers, in a paper with LawZero and Apollo Research (November 2025), found that monitors could detect agents sabotaging code in machine-learning tasks, but had more trouble with agents that deliberately did worse than they could.[^cite-ctrl-alt-deceit]
-- **University College London** showed in a 2025 paper that when models deliberately did badly on capability tests and knew a monitor was reading their reasoning, 16 to 36% of their successful attempts got past the monitor.[^cite-li-2025]
-- **Mila** (Montreal) co-wrote a 2026 paper testing whether models notice when a control protocol has replaced one of their actions. The newest models, such as GPT-6 Astra, often can, which could help them work out how they are watched.[^cite-ciaware]
-- **Harvard** and Princeton researchers proposed Guillotine in a paper, a design for running powerful AI models inside an isolating layer below the operating system (April 2025).[^cite-guillotine] Coefficient Giving funds James Mickens at Harvard to work on containing misaligned AI (April 2026).[^cite-trace-mickens]
-- **Carnegie Mellon University**: Aditi Raghunathan's group got an Alignment Project grant for control evaluations in cybersecurity (2026).[^cite-alignment-project-list] In a September 2026 paper, another CMU group built a test in which AI agents work in simulated accounts at an AI company. Of 39 models, 72% carried out most of the harmful goals they were given, and even the best monitor missed nearly half of the harm.[^cite-mole]
+- **EPFL** (Switzerland) works on what control protocols cost and on attacks against the monitors they rely on, and co-wrote the diffuse-threats work with Anthropic and Redwood.[^cite-control-tax][^cite-adaptive-attacks][^cite-diffuse-2026]
+- **ELLIS Institute Tübingen and the Max Planck Institute for Intelligent Systems** (Germany) build tests of sabotage and monitoring for AI agents that do AI research.[^cite-researcharena-2026]
+- **Imperial College London** researchers, with LawZero and Apollo Research, build tests of whether agents sabotage machine-learning work and whether monitors notice.[^cite-ctrl-alt-deceit]
+- **University College London** researchers study whether models can deliberately underperform on capability tests without a reasoning monitor noticing.[^cite-li-2025]
+- **Mila** (Montreal) researchers study whether models notice when a control protocol changes their actions.[^cite-ciaware]
+- **Harvard** and Princeton researchers design ways to run powerful AI models isolated from the systems around them, and Coefficient Giving funds James Mickens at Harvard for this work.[^cite-guillotine][^cite-trace-mickens]
+- **Carnegie Mellon University** groups work on control evaluations in cybersecurity, with an Alignment Project grant, and on detecting insider threats from AI agents.[^cite-alignment-project-list][^cite-mole]
 
 [^cite-control-tax]: Mikhail Terekhov, Zhen Ning David Liu, Caglar Gulcehre and Samuel Albanie (2025), *Control Tax: The Price of Keeping AI in Check*. [arXiv](https://arxiv.org/abs/2506.05296)
 [^cite-adaptive-attacks]: *Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols* (2025). [arXiv](https://arxiv.org/abs/2510.09462)
