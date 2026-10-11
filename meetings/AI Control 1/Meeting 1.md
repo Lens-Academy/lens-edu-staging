@@ -17,7 +17,7 @@ source:: [[../shared/Session Doc - How today works]]
 
 First meeting, so start by getting to know each other. Go around:
 1\. Who you are: name, where you're joining from, what you work on. Skeptics welcome.
-2\. How was {--{"author":"Andreas's AI","timestamp":1791754304594}@@working through --}this {--{"author":"Andreas's AI","timestamp":1791754304594}@@unit's content?--}{++{"author":"Andreas's AI","timestamp":1791754304594}@@unit?++} Did you {--{"author":"Andreas's AI","timestamp":1791754304594}@@finish?--}{++{"author":"Andreas's AI","timestamp":1791754304594}@@finish it?++} If you {--{"author":"Andreas's AI","timestamp":1791754304594}@@didn't finish,--}{++{"author":"Andreas's AI","timestamp":1791754304594}@@didn't,++} what got in the way?{--{"author":"Andreas's AI","timestamp":1791754304594}@@ (No judgment, "I didn't finish" is a fine answer.)--}
+2\. How was this unit? Did you finish it? If you didn't, what got in the way?
 3\. Keeping a system that may be working against you, and may be smarter than you, boxed in while still getting useful work out of it: tractable, or hopeless? Gut answer, one sentence each.
 4\. If you still have time: what would have to be true to move you to the other answer?
 
