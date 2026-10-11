@@ -90,7 +90,7 @@ You are a model writing code for a lab. Your work ships if the tests pass.
 3\. The lab now has a weaker model score everything you write for suspicion, and a human checks the 2% it scores most suspicious. Which step does that hit, and where does your attack go instead?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+{--{"author":"Andreas's AI","timestamp":1791679737079}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679737079}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679737079}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679737079}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679737079}@@ Tutor](https://lensacademy.org/tutor).++}
 
 
 | Names | Your routes + the steps your best one needs + where the monitor bites |
