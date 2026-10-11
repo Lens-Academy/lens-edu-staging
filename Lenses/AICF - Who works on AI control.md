@@ -99,10 +99,8 @@ collapse:: closed
 
 #### Text
 content::
-- **Framework.** Meta's Advanced AI Scaling Framework (version 2, April 2026) treats loss of control as a risk area, defined as the failure of the measures that let Meta direct, contain or shut down its AI. Among its threat scenarios are an AI that disables or corrupts its monitors, and one that changes its behaviour when it knows it is being watched.[^cite-meta-aasf-2026]
-- **Commitment.** Meta says it will regularly assess the risk from its own internal use of frontier models and, where appropriate, send a summary to the authorities.[^cite-meta-aasf-2026]
-- **Tested from outside.** It let METR review how it uses and monitors AI agents internally in early 2026.[^cite-metr-2026-b]
-- **Research.** Meta publishes little safety research: from 2023 to May 2026 the Future of Life Institute counted 9 Meta technical safety papers, against 46 from Anthropic and 40 from Google DeepMind.[^cite-fli-2026]
+- **Framework.** Meta's safety framework (April 2026) treats loss of control as a risk, including an AI that disables its monitors or behaves differently when it knows it is watched. Meta says it will regularly assess the risk from its own internal use of frontier models.[^cite-meta-aasf-2026]
+- **Research.** It publishes little safety research: the Future of Life Institute counted 9 Meta technical safety papers from 2023 to May 2026, against 46 from Anthropic.[^cite-fli-2026]
 
 [^cite-meta-aasf-2026]: Meta (2026), *Advanced AI Scaling Framework, version 2*. [Meta](https://ai.meta.com/static-resource/Meta_Advanced-AI-Scaling-Framework-v2)
 [^cite-metr-2026-b]: METR (2026), *Frontier Risk Report (February to March 2026)*. [METR](https://metr.org/blog/2026-05-19-frontier-risk-report/)
@@ -256,16 +254,10 @@ collapse:: closed
 
 #### Text
 content::
-METR is a nonprofit that develops methods to assess catastrophic risks from AI systems that act on their own. It takes no money from AI companies, though it uses free computing credits from them.[^cite-metr-about] It does not build control measures. It tests the ones AI companies use.
+METR is a nonprofit that assesses catastrophic risks from AI systems that act on their own. It takes no money from AI companies, though it uses free computing credits from them. It does not build control measures. It tests the ones AI companies use.[^cite-metr-about]
 
-- **Red-teaming Anthropic's monitoring.** In early 2026 a METR researcher spent three weeks attacking Anthropic's internal monitoring of its agents.[^cite-metr-red-team-2026]
-  - He found ways around the monitoring, for example a setting that left most of an agent's traffic unmonitored, a bug that left calls to sub-agents unmonitored, and a jailbreak that got attacks past the monitors.[^cite-metr-red-team-2026]
-  - Even so, he judged that the monitoring would very likely catch at least some attacks within days or weeks, though not every attack.[^cite-metr-red-team-2026]
-- **Reviewing four companies.** METR then reviewed the risks from AI agents used inside Anthropic, Google, Meta and OpenAI.[^cite-metr-2026]
-  - All four companies had gaps in what their monitors covered, and a capable attacker had several simple ways to disable or jailbreak the monitors.[^cite-metr-2026]
-  - It concluded that internal agents plausibly had the means, motive and opportunity to start small rogue deployments, but not the means to make them hard to shut down.[^cite-metr-2026]
-
-- **Investigations.** With Redwood's Chief Scientist, two METR staff investigated the Hugging Face incident at OpenAI in 2026, without payment from OpenAI.[^cite-hf-report-2026-b]
+- **Red-teaming company monitoring.** In early 2026 a METR researcher spent three weeks trying to get attacks past Anthropic's internal monitoring of its agents, and found ways through.[^cite-metr-red-team-2026]
+- **Reviewing companies.** It then reviewed the risks from AI agents used inside Anthropic, Google, Meta and OpenAI, and found gaps in what every company's monitors covered.[^cite-metr-2026]
 
 [^cite-metr-about]: METR, *About*. [METR](https://metr.org/about)
 [^cite-metr-red-team-2026]: David Rein (2026), *Red-Teaming Anthropic's Internal Agent Monitoring Systems*. [METR](https://metr.org/blog/2026-03-25-red-teaming-anthropic-agent-monitoring/)
@@ -281,10 +273,7 @@ collapse:: closed
 
 #### Text
 content::
-Transluce is a nonprofit research lab that builds public tools for overseeing AI. Its tool Docent analyses what AI agents did in their transcripts.[^cite-transluce]
-
-- In an August 2026 report on 8,600 real coding-agent sessions, it found severe cases of an agent weakening monitoring or review without permission in 1.9% of sessions, for example merging code to the main branch without approval or disabling tests.[^cite-transluce-coding-2026]
-- In September 2026 it reported that AI agents had used a web security service to get around their restrictions and on three occasions tried to hack public data providers. Transluce linked two of these attempts to OpenAI agents.[^cite-transluce-activity-2026]
+Transluce is a nonprofit research lab that builds public tools for overseeing AI. Its tool Docent analyses transcripts of what AI agents did, and Transluce uses it to report on how agents misbehave in real use.[^cite-transluce][^cite-transluce-coding-2026][^cite-transluce-activity-2026]
 
 [^cite-transluce]: Transluce, *Docent*. [Transluce](https://transluce.org/docent)
 [^cite-transluce-coding-2026]: Selena Zhang and the Docent Team, Transluce (2026), *Measuring coding agent misalignment in the wild*. [Transluce](https://transluce.org/docent/blog/coding-agent-behaviors)
