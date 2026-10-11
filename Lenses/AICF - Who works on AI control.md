@@ -84,9 +84,9 @@ collapse:: closed
 content::
 - **Monitoring its own agents.** Anthropic publishes regular risk reports, the latest in August 2026, that describe how it watches its models inside the company.[^cite-anthropic-aug-2026]
   - Anthropic says that as of July 2026, AI monitors read most internal use of its newest models, and about half of everything its internal agents do passes through a monitor at some point.[^cite-anthropic-aug-2026]
-  - The monitors look for deception, sabotage of the task, weakening security, and attempts to hide from or manipulate the monitors.
-  - It says AI control researchers review about 50 flagged cases a week by hand.
-  - The report admits gaps: some use is not covered in ways a capable model could predict, and there are simple ways to switch monitoring off. It also says these monitors would probably not catch slow sabotage of research.
+  - The monitors look for deception, sabotage of the task, weakening security, and attempts to hide from or manipulate the monitors.[^cite-anthropic-aug-2026]
+  - It says AI control researchers review about 50 flagged cases a week by hand.[^cite-anthropic-aug-2026]
+  - The report admits gaps: some use is not covered in ways a capable model could predict, and there are simple ways to switch monitoring off. It also says these monitors would probably not catch slow sabotage of research.[^cite-anthropic-aug-2026]
 - **Tested from outside.** METR spent three weeks red-teaming this monitoring in early 2026 and found several new holes, some since patched, though none worse than ones Anthropic already knew about.[^cite-anthropic-aug-2026-b][^cite-metr-red-team-2026-b]
 - **Claude Code auto mode.** Since August 2026, auto mode is the default in Claude Code for Pro, Max and Team users: a classifier, not the user, approves or blocks riskier actions such as shell commands, while reading and editing files inside the project skips it. It blocks actions that are irreversible, destructive or aimed outside the user's environment. Anthropic says the classifier is tuned to catch overeager behaviour and honest mistakes, and that it does not currently see misaligned models in practice.[^cite-claude-auto-mode-2026][^cite-anthropic-auto-mode-eng]
 - **Goal.** Anthropic says that by 1 January 2027 it aims to have monitoring good enough to catch egregious sabotage in high-stakes internal use with high probability. It says this monitoring would not be needed if it becomes confident its models are aligned, and that the roadmap may change.[^cite-anthropic-roadmap]
@@ -289,7 +289,7 @@ content::
 METR is a nonprofit that develops methods to assess catastrophic risks from AI systems that act on their own. It takes no money from AI companies, though it uses free computing credits from them.[^cite-metr-about] It does not build control measures. It tests the ones AI companies use.
 
 - **Red-teaming Anthropic's monitoring.** In early 2026 a METR researcher spent three weeks attacking Anthropic's internal monitoring of its agents.[^cite-metr-red-team-2026]
-  - He found ways around the monitoring. For example, changing one setting made the system treat the agent's traffic as not coming from Claude Code, so it was mostly not monitored, and a bug meant that calls to sub-agents were not monitored. The bug was fixed within a day.
+  - He found ways around the monitoring. For example, changing one setting made the system treat the agent's traffic as not coming from Claude Code, so it was mostly not monitored, and a bug meant that calls to sub-agents were not monitored. The bug was fixed within a day.[^cite-metr-red-team-2026]
   - He also found a jailbreak that got attacks past the monitors.
   - Even so, he judged that the monitoring would very likely catch at least some attacks within days or weeks, though not every attack.
 - **Reviewing four companies.** METR then reviewed the risks from AI agents used inside Anthropic, Google, Meta and OpenAI.[^cite-metr-2026]
