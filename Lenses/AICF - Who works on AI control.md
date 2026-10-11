@@ -29,13 +29,13 @@ Google DeepMind claims to treat its own AI agents as possible "insider threats",
 
 [^cite-gdm-blog-2026]: Rohin Shah and Four Flynn (2026), *Securing the future of AI agents*. [Google DeepMind blog](https://deepmind.google/blog/securing-the-future-of-ai-agents/)
 [^cite-gdm-asat-2026]: Rohin Shah and Sebastian Farquhar (2026), *AGI Safety and Alignment at Google DeepMind: A Summary of Recent Work (July 2026)*. [Substack](https://gdmalignment.substack.com/p/agi-safety-and-alignment-at-google)
-[^cite-farai-shah]: FAR.AI, *Rohin Shah*, speaker page. [FAR.AI](https://far.ai/about/people/rohin-shah)
+
 [^cite-phuong-2026]: Mary Phuong, Erik Jenner, Laurent Simon, Lewis Ho, Rohin Shah, Sebastian Farquhar and Scott Coull (2026), *GDM AI Control Roadmap*. [arXiv](https://arxiv.org/abs/2607.13087)
 [^cite-gdm-fsf-2026]: Google DeepMind (2026), *Frontier Safety Framework, version 3.1*. [PDF](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/strengthening-our-frontier-safety-framework/frontier-safety-framework_3-1.pdf)
 [^cite-gemini-37-fsf]: Google DeepMind (2026), *Gemini 3.7 Flash Frontier Safety Framework report*. [PDF](https://storage.googleapis.com/deepmind-media/gemini/gemini_3-7_flash_fsf_report.pdf)
 [^cite-emmons-2025]: Scott Emmons, Erik Jenner and others (2025), *When Chain of Thought is Necessary, Language Models Struggle to Evade Monitors*. [arXiv](https://arxiv.org/abs/2507.05246)
 [^cite-krakovna-2026]: Victoria Krakovna, David Lindner, Lewis Ho, Sebastian Farquhar and Rohin Shah (2026), *Realistic honeypot evaluations for scheming propensity*. [arXiv](https://arxiv.org/abs/2605.29729)
-[^cite-lindner-2025]: David Lindner and others (2025), *Practical challenges of control monitoring in frontier AI deployments*. [arXiv](https://arxiv.org/abs/2512.22154)
+
 
 #### End Callout
 
@@ -135,7 +135,7 @@ content::
 
 [^cite-concordia-2026]: Concordia AI (2026), *State of AI Safety in China 2026*. [PDF](https://aisafetychina.com/assets/State-of-AI-Safety-in-China-2026.pdf)
 [^cite-shanghai-2025]: Shanghai AI Laboratory (2025), *Frontier AI Risk Management Framework in Practice: A Risk Analysis Technical Report*. [arXiv](https://arxiv.org/abs/2507.16534)
-[^cite-concordia-2026-b]: Concordia AI (2026), *State of AI Safety in China 2026*. [PDF](https://aisafetychina.com/assets/State-of-AI-Safety-in-China-2026.pdf)
+
 [^cite-fli-2026-c]: Future of Life Institute (2026), *AI Safety Index, Summer 2026*. [PDF](https://futureoflife.org/wp-content/uploads/2026/07/AI-Safety-Index-Summer-2026-Digital.pdf)
 
 #### End Callout
