@@ -55,7 +55,9 @@ Go around your group, two things:
 	1. How was {--{"author":"Andreas's AI","timestamp":1791754424146}@@working through --}this {--{"author":"Andreas's AI","timestamp":1791754424146}@@unit's content? Denser or easier than the previous units? --}{++{"author":"Andreas's AI","timestamp":1791754424146}@@unit? ++}Did you {--{"author":"Andreas's AI","timestamp":1791754424146}@@finish?--}{++{"author":"Andreas's AI","timestamp":1791754424146}@@finish it?++} If you {--{"author":"Andreas's AI","timestamp":1791754424146}@@didn't finish,--}{++{"author":"Andreas's AI","timestamp":1791754424146}@@didn't,++} what got in the way? {--{"author":"Andreas's AI","timestamp":1791754424146}@@(No judgment, "I didn't finish" is a fine answer.)--}{++{"author":"Andreas's AI","timestamp":1791754424146}@@What do you think about this unit compared to previous ones?++}
 ```
 
-For the first meeting of a course, lead in with getting to know each other instead, and never call the participants "the humans":
+{++{"author":"Andreas's AI","timestamp":1791754429780}@@The first meeting's check-in drops the last question, since there is no earlier unit to compare. The last meeting's asks "How was the final unit? Did you finish it? If you didn't, what got in the way? What do you think about the course as a whole now?" A course that follows a book may ask about the book instead ("Did you finish the book?").
+
+++}For the first meeting of a course, lead in with getting to know each other {--{"author":"Andreas's AI","timestamp":1791754429780}@@instead,--}{++{"author":"Andreas's AI","timestamp":1791754429780}@@first,++} and never call the participants "the humans":
 ```
 First meeting, so start by getting to know each other. Go around:
 ```
