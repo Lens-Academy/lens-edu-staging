@@ -93,7 +93,6 @@ content::
 - **Cutting internet access.** Anthropic says that in October 2026, after finding unintended actions by its models in evaluations and internal use, it cut live internet access from all its internal evaluations until it has confirmed that its security and monitoring reliably catch such behaviour.[^cite-anthropic-oct-2026]
 - **Research.** In its SHADE-Arena paper (June 2025), written with Redwood and others, agents get a hidden harmful task next to a normal one. The best model, Claude 3.7 Sonnet, finished both without the monitor noticing in 27% of tries, and it mostly succeeded only when it could plan in a hidden scratchpad the monitor could not read.[^cite-anthropic-shade-arena-2025] Its SLEIGHT-Bench paper (May 2026) collects 40 attacks that monitors find hard to catch: Claude Opus 4.6, the main monitor its authors test, never caught half of them in 10 tries.[^cite-sleight-bench]
 
-
 [^cite-anthropic-aug-2026]: Anthropic (2026), *Risk Report: August 2026*. [Anthropic](https://www.anthropic.com/aug-2026-risk-report)
 [^cite-metr-red-team-2026-b]: David Rein (2026), *Red-Teaming Anthropic's Internal Agent Monitoring Systems*. [METR](https://metr.org/blog/2026-03-25-red-teaming-anthropic-agent-monitoring/)
 [^cite-claude-auto-mode-2026]: Conner Phillippi (2026), *Auto mode is now the default in Claude Code for Pro, Max, and Team plans*. [Claude blog](https://claude.com/blog/auto-mode-default-in-claude-code)
@@ -104,8 +103,6 @@ content::
 
 [^cite-anthropic-aug-2026-b]: Anthropic (2026), *Risk Report: August 2026*. [Anthropic](https://www.anthropic.com/aug-2026-risk-report)
 [^cite-anthropic-oct-2026]: Anthropic (2026), *Investigating Unintended Model Actions in Our Evaluations and Internal Use*. [Anthropic](https://www.anthropic.com/research/investigating-unintended-model-actions)
-
-
 
 #### End Callout
 
@@ -198,8 +195,6 @@ What it does:
   - Redwood advises AI companies, including Google DeepMind and Anthropic, and works with governments.[^cite-redwood-site]
   - Anthropic's paper on alignment faking (December 2024) was written together with Redwood.[^cite-anthropic-alignment-faking]
   - Redwood and the UK AI Security Institute wrote a sketch of a safety case for AI control together (January 2025).[^cite-korbak-2025]
-
-
 
 Our own observation: much of the control work in this unit that comes from companies or government has Redwood co-authors, including SHADE-Arena, the diffuse-threats work and the AISI research agenda you read earlier.
 
