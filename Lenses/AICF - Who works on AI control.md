@@ -199,7 +199,7 @@ What it does:
   - Anthropic's paper on alignment faking (December 2024) was written together with Redwood.[^cite-anthropic-alignment-faking]
   - Redwood and the UK AI Security Institute wrote a sketch of a safety case for AI control together (January 2025).[^cite-korbak-2025]
 
-- **Money.** It runs on philanthropic money. Coefficient Giving gave it $36.6m in November 2025,[^cite-tnw-2026] and in September 2026 its grantmakers recommended more than $70m over the next two years.[^cite-coefficient-scaling-2026]
+- **Money.** It runs on philanthropic money, mostly from Coefficient Giving, which gave it $36.6m in November 2025,[^cite-tnw-2026] and in September 2026 its grantmakers recommended more than $70m over the next two years.[^cite-coefficient-scaling-2026]
 
 Our own observation: much of the control work in this unit that comes from companies or government has Redwood co-authors, including SHADE-Arena, the diffuse-threats work and the AISI research agenda you read earlier.
 
@@ -281,8 +281,7 @@ content::
 METR is a nonprofit that develops methods to assess catastrophic risks from AI systems that act on their own. It takes no money from AI companies, though it uses free computing credits from them.[^cite-metr-about] It does not build control measures. It tests the ones AI companies use.
 
 - **Red-teaming Anthropic's monitoring.** In early 2026 a METR researcher spent three weeks attacking Anthropic's internal monitoring of its agents.[^cite-metr-red-team-2026]
-  - He found ways around the monitoring. For example, changing one setting made the system treat the agent's traffic as not coming from Claude Code, so it was mostly not monitored, and a bug meant that calls to sub-agents were not monitored. The bug was fixed within a day.[^cite-metr-red-team-2026]
-  - He also found a jailbreak that got attacks past the monitors.[^cite-metr-red-team-2026]
+  - He found ways around the monitoring, for example a setting that left most of an agent's traffic unmonitored, a bug that left calls to sub-agents unmonitored, and a jailbreak that got attacks past the monitors.[^cite-metr-red-team-2026]
   - Even so, he judged that the monitoring would very likely catch at least some attacks within days or weeks, though not every attack.[^cite-metr-red-team-2026]
 - **Reviewing four companies.** METR then reviewed the risks from AI agents used inside Anthropic, Google, Meta and OpenAI.[^cite-metr-2026]
   - All four companies had gaps in what their monitors covered, and a capable attacker had several simple ways to disable or jailbreak the monitors.[^cite-metr-2026]
