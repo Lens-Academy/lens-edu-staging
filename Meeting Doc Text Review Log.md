@@ -112,6 +112,8 @@ Each entry gives the decision, who made it, the reason, and what it commits us t
 
 **The Room 4 buddy line.** *Andreas, 2026-10-10.* "The people in this breakout room are your accountability buddies for the rest of the course. Swap contact details in the table below. Before each meeting check in with one another: did you finish, are you coming?" It combines AIRF Meeting 1's "for the rest of the course" with AI Control 1's check-in question, now that the participants' copy of the buddy explanation is gone. It drops the "Accountability buddies:" label, which repeated the term, and AI Control 1's "pair up", which made no sense for people already in a room together.
 
+**Room 4's next-unit item: no reading time, and a short "what's next" may stay.** *Andreas, 2026-10-10, pending a check with Elias.* Participants can see the course's own time estimates. A long summary of the next unit defeats the point, but saying in a few words what comes next still has value. This sits between the guide's new rule (nothing summarises the next unit) and its older rule 7 (one plain sentence with a rough time), which the guide has not yet reconciled. Part 2 of the buddy wording waits for Elias's answer.
+
 **"Buddies", plural.** *Andreas, 2026-10-10.* "Your group" where that reads better. The singular dates from when the wording assumed pairs, even though trios already happened. Recorded in the style sheet under B7.
 
 **What the navigator needs goes in the run-sheet, not the participant view.** *Andreas, 2026-10-10.* AIRF and CV1 Meeting 1 showed participants the buddy explanation just before Room 4 said the same thing. The explanation moves to a "Buddy steps" section of the run-sheet, and the navigator still gives it in the whole-group slot before Room 4, as the guide asks.
@@ -326,6 +328,9 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 | 2026-10-10 | Andreas accepted part 1's suggestions and rewrote the buddy section of AIRF Meeting 1's run-sheet, adding the rule for leftover people | meetings/AI Risk Fundamentals/Meeting 1 | Section 2 | Edited by Andreas. Reviewed in chat |
 | 2026-10-10 | **Decisions: leftover people in the buddy room make pairs, not a four; the Room 4 buddy line** | Plan | Section 2 | Andreas, 2026-10-10 |
 | 2026-10-10 | Room 4 buddy line copied in | AIRF Meeting 1, CV1 Meeting 1, AI Control 1 Meeting 1 | Section 2 | Pending, 3 suggestions. Validator: no issues |
+| 2026-10-10 | Andreas added a comma to the Room 4 buddy line ("Before each meeting, check in") and rewrote the run-sheet's buddy section in the third person, with the pairs rule set apart as a separate line for Room 4 only | meetings/AI Risk Fundamentals/Meeting 1 | Andreas's response to the chat review | Edited by Andreas. Claude's suggested Zoom room-count tip dropped: navigators already use automatic assignment |
+| 2026-10-10 | The comma copied in | CV1 Meeting 1, AI Control 1 Meeting 1 | Keep the copies identical | Pending, merged into the earlier suggestions |
+| 2026-10-10 | **Decision: Room 4's next-unit item has no reading time; a short "what's next" may stay** | Plan | Section 2. Andreas is checking with Elias before part 2 goes ahead | Andreas, 2026-10-10 |
 
 ---
 
