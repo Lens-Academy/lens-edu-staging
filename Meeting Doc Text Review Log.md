@@ -96,6 +96,16 @@ Each entry gives the decision, who made it, the reason, and what it commits us t
 
 **CV1's docs are retitled when CV1 gets its own pass.** *Andreas, 2026-10-10.* Their titles say "Compute Verification Part 1"; the course is "Compute Verification 1".
 
+**The help note reads "If a question is unclear, ask your navigator or copy it into Lens Tutor."** *Andreas, 2026-10-10.* Chosen over his other candidate, "Want help or clarification? Ask your navigator or copy it into Lens Tutor.", in which "it" has no question to point back to. "Ask your navigator" stays: the navigator moves between rooms and can monitor the conversations, so there are chances to ask besides the Ask for Help button. Written without "the", as Andreas wrote it, although How today works and the FAQ say "the Lens Tutor". Copied into every note in the four courses in scope, with the link. AI Futures Meeting 5's signpost note keeps its own wording, since it asks for something specific to that room. Recorded in the style sheet under D.
+
+**AI Control 1 joins the scope for general and shared edits.** *Andreas, 2026-10-10.* It includes the shared blocks and carries the same recurring lines. AI Control 2, AI Control Fundamentals, Lisbon and AI Safety and Philosophy stay out.
+
+**AIRF's How today works file retires.** *Andreas, 2026-10-10.* Once the 2026-10-10 suggestions were accepted it matched the general file, and no reason for keeping it separate was found. AIRF Meetings 2 to 5 include the general file instead. AIRF Meeting 1's inline copy held the same old text and Luc's three comments on it, and is to be replaced by the same include. For How today works, this replaces the 2026-10-06 assumption that AIRF's inline copies are synced by hand. The AIRF inline FAQs are not affected.
+
+**The FAQ keeps pointing to the Zoom chat for the doc link.** *Andreas, 2026-10-10.* The link is posted in the main room's chat, where it works. The chat does not carry into breakout rooms, but people there are told to contact the navigator anyway.
+
+**Sharing between rooms should bring out what other groups did not reach.** *Andreas, 2026-10-10.* The How today works line about sharing great insights is there so the back-together slot hears something new, not the same surface result from every group. Whether "great insights" sets too high a bar is still open (section 7).
+
 **Follow-up questions that sort participants may share an item.** *Andreas, 2026-10-04.* There is a tension between one question per item and leaving room for different answers. Follow-ups such as "if not, what stopped you?" or "if nothing changed, what would?" filter responses by a participant's situation, so they stay. Recorded in the style sheet under B1. Applied to CV1 Meeting 5, Room 1, items 1 and 3.
 
 **"X ends, but Y doesn't" is allowed.** *Andreas, 2026-10-04.* Not a wholly prohibitive form. CV1 Meeting 5's Room 4 closer stays for now. Recorded in the style sheet under A2.
