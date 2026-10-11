@@ -185,6 +185,8 @@ Actors:
 
 ```
 1.++} The {--{"author":"Andreas's AI","timestamp":1791754447555}@@first example below ("pair up (a trio is fine)") points--}{++{"author":"Andreas's AI","timestamp":1791754447555}@@people in this breakout room are your accountability buddies for++} the {--{"author":"Andreas's AI","timestamp":1791754447555}@@other way.<<}
+
+```
 1. Accountability buddies: pair up (a trio is fine) and swap--}{++{"author":"Andreas's AI","timestamp":1791754447555}@@rest of the course. Swap++} contact details in the {--{"author":"Andreas's AI","timestamp":1791754447555}@@table.--}{++{"author":"Andreas's AI","timestamp":1791754447555}@@table below.++} Before each{--{"author":"Andreas's AI","timestamp":1791754447555}@@ meeting you--}{++{"author":"Andreas's AI","timestamp":1791754447555}@@ meeting,++} check {--{"author":"Andreas's AI","timestamp":1791754447555}@@in:--}{++{"author":"Andreas's AI","timestamp":1791754447555}@@in with one another:++} did you finish, are you coming?
 2. Next unit: {++{"author":"Andreas's AI","timestamp":1791754447555}@@[one plain sentence on what it is about]. ++}What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your {--{"author":"Andreas's AI","timestamp":1791754447555}@@buddy--}{++{"author":"Andreas's AI","timestamp":1791754447555}@@buddies++} after the meeting.)
 3. Feedback: what would make the course and this meeting better?
