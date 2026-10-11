@@ -17,7 +17,7 @@ source:: [[../shared/Session Doc - How today works (3 rooms)]]
 
 Go around your group. Make sure everyone has a turn to answer the first question before the room moves on to the second.
 
-1. {++{"author":"Andreas's AI","timestamp":1791754360920}@@How was this unit? ++}Did you finish {++{"author":"Andreas's AI","timestamp":1791754360920}@@it? If you didn't, what got in ++}the {--{"author":"Andreas's AI","timestamp":1791754360920}@@unit? How was it? If you couldn’t finish, just share that.--}{++{"author":"Andreas's AI","timestamp":1791754360920}@@way? What do you think about this unit compared to previous ones?++}
+1. How was this unit? Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to previous ones?
 2. Early in the unit you were asked to build a catastrophe with no villain. Nobody plans it, no accident, just ordinary systems doing what they were told.{>>{"author":"AI","timestamp":1791094775516}@@AI (mild): a definition built from fragments. Otherwise this item is a good exercise reminder: it says what the exercise was and gives people who skipped it a way in.<<} Read yours out to the rest of the room.
     - If you did not write one, build one now. Take two minutes; the group will wait.{>>{"author":"AI","timestamp":1791094776173}@@AI (mild): reassurance tags ("the group will wait", "works just as well").<<}
     - Scribe: write one line per person saying where their catastrophe starts. You will need these in the next room.

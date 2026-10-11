@@ -18,7 +18,7 @@ source:: [[../shared/Session Doc - How today works]]
 Go around your group, two things:
 
 
-1. {--{"author":"Andreas's AI","timestamp":1791756249484}@@**How--}{++{"author":"Andreas's AI","timestamp":1791756249484}@@How++} was this {--{"author":"Andreas's AI","timestamp":1791756249484}@@unit?**--}{++{"author":"Andreas's AI","timestamp":1791756249484}@@unit?++} Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to previous ones?
+1. How was this unit? Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to previous ones?
 
 
 2. **Which curse stuck?** The book names five reasons alignment is cursed: fast underlying processes, a narrow margin between safe and catastrophic, self-amplification, complications, and edge cases. Which felt most real to you, and where have you met its small cousin in ordinary life (a project, a bug, a deadline)? **And in one word: how did these chapters leave you feeling?**

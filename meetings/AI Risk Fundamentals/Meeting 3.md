@@ -18,7 +18,7 @@ source:: [[../shared/Session Doc - How today works]]
 Go around your group, two things:
 
 
-1. {--{"author":"Andreas's AI","timestamp":1791756244281}@@**How--}{++{"author":"Andreas's AI","timestamp":1791756244281}@@How++} was this {--{"author":"Andreas's AI","timestamp":1791756244281}@@unit's content?** Answer any of: did--}{++{"author":"Andreas's AI","timestamp":1791756244281}@@unit? Did++} you finish it? If you didn't, what got in the way? What do you think about this unit compared to previous ones?
+1. How was this unit? Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to previous ones?
 
 
 2. **Which moment stuck?** One scene from the film and reading that stayed with you after it ended, the one you'd retell to a friend. And in one word, how did it leave you feeling: alarmed, skeptical, numb, motivated, something else?
