@@ -160,7 +160,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:42–0:47 | Back together (whole group) |
 | 0:47–0:52 | Break |
 | 0:52–1:10 | R3 Attack tree: a backdoor lands in production (reshuffle) |
-| 1:10–1:15 | Back together (whole group) |
+| 1:10–1:15 | Back together (whole {--{"author":"Andreas's AI","timestamp":1791747817640}@@group)--}{++{"author":"Andreas's AI","timestamp":1791747817640}@@group), then walk through the buddy setup below++} |
 | 1:15–1:27 | R4 Buddies, next unit, feedback (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
 

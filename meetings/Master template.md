@@ -156,7 +156,7 @@ Your navigator isn't in every room, so:
 ### After we wrap
 
 - **What happens at 1:30?** We close on time. The meeting then stays open; hang around and keep talking if you'd like, no pressure.
-- **{{KEEP ONLY IF this course uses accountability buddies, otherwise delete this bullet. How do accountability buddies work?** You paired up in the first session; your buddy checks in with you before each meeting. Swap whatever the last room asked you to take away: a plan, a next step, or simply what changed your mind.}}
+- **{{KEEP ONLY IF this course uses accountability buddies, otherwise delete this bullet. How do accountability buddies work?** {--{"author":"Andreas's AI","timestamp":1791747841625}@@You paired up--}{++{"author":"Andreas's AI","timestamp":1791747841625}@@Buddy groups are formed++} in the first {--{"author":"Andreas's AI","timestamp":1791747841625}@@session; your buddy checks--}{++{"author":"Andreas's AI","timestamp":1791747841625}@@meeting as trios or pairs. For the rest of the course, you check++} in with {--{"author":"Andreas's AI","timestamp":1791747841625}@@you--}{++{"author":"Andreas's AI","timestamp":1791747841625}@@each other++} before each meeting. Swap whatever the last room asked you to take away: a plan, a next step, or simply what changed your {--{"author":"Andreas's AI","timestamp":1791747841625}@@mind.}}--}{++{"author":"Andreas's AI","timestamp":1791747841625}@@mind. If your accountability buddies are no longer taking the course, ask your navigator to place you with a new group.}}++}
 
 # Tab: Navigator Run-Sheet
 
