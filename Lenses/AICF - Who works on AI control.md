@@ -519,7 +519,7 @@ collapse:: closed
 #### Text
 content::
 - **LASR Labs**, a London research program, showed in a 2025 paper that a monitor reading a model's reasoning can be misled by the model's rationalisations, and that scoring the reasoning and the actions separately caught subtle sabotage twice as often as watching the actions alone.[^cite-cot-red-handed] In a February 2026 paper, it also sketched when a monitor that is itself an untrusted model can be trusted.[^cite-lasr-2026]
-- **Scale AI**, a data and evaluation company, found that an agent that knows it is being monitored makes the monitor less reliable, and that how the monitor is set up matters more than what it is told about the agent (August 2025).[^cite-kale-2025]
+- **Scale AI**, a data and evaluation company, showed in an August 2025 paper that an agent that knows it is being monitored makes the monitor less reliable, and that how the monitor is set up matters more than what it is told about the agent.[^cite-kale-2025]
 
 [^cite-lasr-2026]: Gardner-Challis, Bostock, Kozhevnikov, Sinclaire, Velja, Abate and Griffin (2026), *When can we trust untrusted monitoring? A safety case sketch across collusion strategies*. [arXiv](https://arxiv.org/abs/2602.20628)
 [^cite-cot-red-handed]: *CoT Red-Handed: Stress Testing Chain-of-Thought Monitoring* (2025). [arXiv](https://arxiv.org/abs/2505.23575)
