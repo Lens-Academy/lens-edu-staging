@@ -92,7 +92,7 @@ This unit's trade-off: build verification tough enough for a full halt and every
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+{--{"author":"Andreas's AI","timestamp":1791679770808}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679770808}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679770808}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679770808}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679770808}@@ Tutor](https://lensacademy.org/tutor).++}
 
 
 | Names | Which approach you'd sign this year + why |
