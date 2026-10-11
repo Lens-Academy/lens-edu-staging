@@ -333,6 +333,13 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 | 2026-10-10 | Andreas added a comma to the Room 4 buddy line ("Before each meeting, check in") and rewrote the run-sheet's buddy section in the third person, with the pairs rule set apart as a separate line for Room 4 only | meetings/AI Risk Fundamentals/Meeting 1 | Andreas's response to the chat review | Edited by Andreas. Claude's suggested Zoom room-count tip dropped: navigators already use automatic assignment |
 | 2026-10-10 | The comma copied in | CV1 Meeting 1, AI Control 1 Meeting 1 | Keep the copies identical | Pending, merged into the earlier suggestions |
 | 2026-10-10 | **Decision: Room 4's next-unit item has no reading time; a short "what's next" may stay** | Plan | Section 2. Andreas is checking with Elias before part 2 goes ahead | Andreas, 2026-10-10 |
+| 2026-10-11 | Andreas fixed the buddy section's heading case and wording in AIRF Meeting 1 | meetings/AI Risk Fundamentals/Meeting 1 | The chat review of 2026-10-10 | Edited by Andreas |
+| 2026-10-11 | Two typos left in that section fixed ("in the each breakout room", "this Room 4 only"), and the section copied out; the timeline rows and CV1's Room 4 note renamed to "buddy setup" | AIRF Meeting 1 (1 suggestion), CV1 Meeting 1 (3), AI Control 1 Meeting 1 (2) | Part 1 of the buddy wording | Pending, 6 suggestions. CV1's section replaces the steps moved there on 2026-10-10; AI Control 1 had none |
+| 2026-10-11 | **Decisions: AIRF's FAQ tabs fold into the shared FAQ; the master template's FAQ matches it** | Plan | Section 2 | Andreas, 2026-10-11 |
+| 2026-10-11 | AIRF's five inline FAQ tabs replaced by the shared Participant FAQ | AIRF Meetings 1 to 5 | Section 2. Part 4 of the buddy wording | Pending, 5 suggestions. AIRF Meeting 5's took Claude's old "doesn't have to end" flag with it |
+| 2026-10-11 | Master template FAQ brought into line with the shared FAQ: "Lens Tutor" without "the" twice, "I cannot remember", and the buddy answer inside its keep-only-if placeholder | meetings/Master template | Section 2 | Pending, 4 suggestions |
+| 2026-10-11 | Tried to queue Luc's comments on AIRF Meeting 1's inline How today works for deletion, so Andreas could approve it | meetings/AI Risk Fundamentals/Meeting 1 | Andreas cannot delete them himself | Refused: the relay will not even suggest removing a comment a person wrote. Set aside (section 7) |
+| 2026-10-11 | Validator run on AIRF with drafts applied | AI Risk Fundamentals | Check the folded FAQ tabs | No meeting-doc issues. Only older warnings in lenses and modules |
 
 ---
 
