@@ -530,6 +530,7 @@ content::
 [^cite-kale-2025]: Neil Kale, Chen Bo Calvin Zhang and others (2025), *Reliable Weak-to-Strong Monitoring of LLM Agents*. [arXiv](https://arxiv.org/abs/2508.19461)
 
 #### End Callout
+
 #### Question: Open
 id:: aac79b0b-5d5d-48dd-91f9-10b601353e5a
 content::
