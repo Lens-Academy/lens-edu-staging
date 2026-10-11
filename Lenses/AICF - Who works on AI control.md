@@ -289,7 +289,7 @@ METR is a nonprofit that develops methods to assess catastrophic risks from AI s
 - **Reviewing four companies.** METR then reviewed the risks from AI agents used inside Anthropic, Google, Meta and OpenAI.[^cite-metr-2026]
   - All four companies had gaps in what their monitors covered, and a capable attacker had several simple ways to disable or jailbreak the monitors.[^cite-metr-2026]
   - It concluded that internal agents plausibly had the means, motive and opportunity to start small rogue deployments, but not the means to make them hard to shut down.[^cite-metr-2026]
-- **Tools for testing monitors.** It builds tests in which an agent tries to finish a hidden side task without the monitor noticing (January 2026),[^cite-metr-monitorability-2026] and a dataset of real and prompted cases of reward hacking and sandbagging to check monitors against (October 2025).[^cite-metr-malt]
+
 - **Investigations.** Two METR staff and Redwood's Chief Scientist, working under contract to METR, investigated the Hugging Face incident between late July and mid-August 2026.[^cite-hf-report-2026-b]
 
 [^cite-metr-about]: METR, *About*. [METR](https://metr.org/about)
