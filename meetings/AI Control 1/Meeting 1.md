@@ -160,7 +160,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:42–0:47 | Back together (whole group) |
 | 0:47–0:52 | Break |
 | 0:52–1:10 | R3 Attack tree: a backdoor lands in production (reshuffle) |
-| 1:10–1:15 | Back together (whole {--{"author":"Andreas's AI","timestamp":1791747817640}@@group)--}{++{"author":"Andreas's AI","timestamp":1791747817640}@@group), then walk through the buddy setup below++} |
+| 1:10–1:15 | Back together (whole group), then walk through the buddy setup below |
 | 1:15–1:27 | R4 Buddies, next unit, feedback (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
 
@@ -186,7 +186,7 @@ source:: [[../shared/Navigator Run-Sheet - During the breakout rooms]]
 
 source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
 
-### {++{"author":"Andreas's AI","timestamp":1791747759219}@@Accountability buddy setup
+### Accountability buddy setup
 
 **[1:10–1:15], whole group**, after the sharing. Walk through the accountability buddy system (about a minute):
 
@@ -195,7 +195,7 @@ In Room 4, the people in each breakout room become their accountability buddies,
 
 For **Room 4 only**, aim to create breakout rooms of trios (a couple of pairs are fine).
 
-### ++}Close
+### Close
 
 **[1:27–1:30], whole group**. Bring everyone back:
 
