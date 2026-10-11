@@ -101,7 +101,7 @@ content::
 [^cite-anthropic-roadmap]: Anthropic (2026), *Frontier Safety Roadmap*. [Anthropic](https://www.anthropic.com/responsible-scaling-policy/roadmap)
 [^cite-anthropic-shade-arena-2025]: Anthropic (2025), *SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents*. [Anthropic](https://www.anthropic.com/research/shade-arena-sabotage-monitoring)
 [^cite-sleight-bench]: Elle Najt, Colin Toft, Tyler Tracy, Fabien Roger and Joe Benton (2026), *SLEIGHT-Bench: Finding Blind Spots in AI Monitors*. [Anthropic Alignment Science blog](https://alignment.anthropic.com/2026/sleight-bench/)
-[^cite-anthropic-fellows]: Anthropic, *Anthropic Fellows Program for AI safety research: applications open for our next cohorts*. [Anthropic Alignment Science blog](https://alignment.anthropic.com/2025/anthropic-fellows-program-2026/)
+
 [^cite-anthropic-aug-2026-b]: Anthropic (2026), *Risk Report: August 2026*. [Anthropic](https://www.anthropic.com/aug-2026-risk-report)
 [^cite-anthropic-oct-2026]: Anthropic (2026), *Investigating Unintended Model Actions in Our Evaluations and Internal Use*. [Anthropic](https://www.anthropic.com/research/investigating-unintended-model-actions)
 [^cite-greenblatt-2023-d]: Ryan Greenblatt, Buck Shlegeris, Kshitij Sachan and Fabien Roger (2023), *AI Control: Improving Safety Despite Intentional Subversion*. [arXiv](https://arxiv.org/abs/2312.06942)
@@ -232,7 +232,7 @@ Buck Shlegeris is Redwood's CEO.[^cite-redwood-team] He is the second author of 
 [^cite-redwood-team]: Redwood Research, *Team*. [redwoodresearch.org](https://www.redwoodresearch.org/team)
 [^cite-greenblatt-2023-b]: Ryan Greenblatt, Buck Shlegeris, Kshitij Sachan and Fabien Roger (2023), *AI Control: Improving Safety Despite Intentional Subversion*. [arXiv](https://arxiv.org/abs/2312.06942)
 [^cite-kutasov-2025]: Jonathan Kutasov, Yuqi Sun, Paul Colognese, Teun van der Weij, Linda Petrini, Chen Bo Calvin Zhang, John Hughes, Xiang Deng, Henry Sleight, Tyler Tracy, Buck Shlegeris and Joe Benton (2025), *SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents*. [arXiv](https://arxiv.org/abs/2506.15740)
-[^cite-mats-redwood-b]: MATS, *Redwood Research* stream. [MATS](https://www.matsprogram.org/stream/redwood)
+
 [^cite-80k-shlegeris-2025-b]: 80,000 Hours (2025), *Buck Shlegeris on controlling AI that wants to take over: so we can use it anyway*, podcast episode. [80,000 Hours](https://80000hours.org/podcast/episodes/buck-shlegeris-ai-control-scheming/)
 
 #### End Callout
