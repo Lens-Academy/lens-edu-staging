@@ -17,7 +17,7 @@ source:: [[../shared/Session Doc - How today works (3 rooms)]]
 
 Go around your group, three things:
 1\. Introductions: name, where you're joining from, and what pulled you into a course about AI futures.
-2\. How was working through Unit 1? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
+2\. How was {--{"author":"Andreas's AI","timestamp":1791754352133}@@working through Unit 1?--}{++{"author":"Andreas's AI","timestamp":1791754352133}@@this unit?++} Did you {--{"author":"Andreas's AI","timestamp":1791754352133}@@finish?--}{++{"author":"Andreas's AI","timestamp":1791754352133}@@finish it?++} If you {--{"author":"Andreas's AI","timestamp":1791754352133}@@didn't finish,--}{++{"author":"Andreas's AI","timestamp":1791754352133}@@didn't,++} what got in the way?{--{"author":"Andreas's AI","timestamp":1791754352133}@@ (No judgment, "I didn't finish" is a fine answer.)--}
 3\. The unit opened with a day-zero guess: what should be done about AI in the next two years, what that leaves standing in two hundred, and the mechanism between them. Share your two-year answer in one sentence and, in one word: how did writing it feel? Didn't get to it? Make one guess on the spot; wrong is fine, guessing first is the course's whole method.
 
 
