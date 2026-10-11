@@ -336,6 +336,7 @@ Luthien builds AI control for real deployments, based on Redwood's agenda.[^cite
 [^cite-luthien-site]: Luthien, *AI Control for Claude Code*. [luthien.cc](https://luthien.cc/)
 
 #### End Callout
+
 #### Question: Open
 id:: 2aad43ed-ab1f-476f-a5ae-a75dac371741
 content::
