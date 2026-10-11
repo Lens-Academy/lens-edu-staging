@@ -486,12 +486,12 @@ collapse:: closed
 #### Text
 content::
 - **EPFL** (Switzerland):
-  - *Control Tax* (June 2025) measures what control protocols cost.[^cite-control-tax]
-  - It showed that attacks aimed at the trusted monitor can break control protocols (October 2025, with ELLIS Tübingen).[^cite-adaptive-attacks]
+  - *Control Tax* (June 2025) works out what control protocols cost to run and how much safety a given monitoring budget buys.[^cite-control-tax]
+  - With ELLIS Tübingen it showed that an attacking model can get past the monitor of current control protocols by hiding instructions to the monitor in its own output. Asking the model again for suspicious steps, the method from Ctrl-Z, even made this attack stronger (October 2025).[^cite-adaptive-attacks]
   - It co-wrote the diffuse-threats work with Anthropic and Redwood (June 2026).[^cite-diffuse-2026]
-- **ELLIS Institute Tübingen and the Max Planck Institute for Intelligent Systems** (Germany) built ResearchArena, a test of sabotage and monitoring when AI agents do AI research (July 2026).[^cite-researcharena-2026]
+- **ELLIS Institute Tübingen and the Max Planck Institute for Intelligent Systems** (Germany) tested monitors on AI agents doing AI research. Sabotage hidden in training data was caught less than half the time, even when the monitor could run tests on what the agent produced (July 2026).[^cite-researcharena-2026]
 - A **University of Oxford** researcher co-wrote the study of monitoring trade-offs with Google DeepMind and the UK AI Security Institute (December 2025).[^cite-lindner-2025-c]
-- **Imperial College London** researchers built CTRL-ALT-DECEIT with LawZero and Apollo Research, tests of whether agents sabotage AI research tasks and whether monitors notice (November 2025).[^cite-ctrl-alt-deceit]
+- **Imperial College London** researchers, with LawZero and Apollo Research, found that monitors could detect agents sabotaging code in machine-learning tasks, but had more trouble with agents that deliberately did worse than they could (November 2025).[^cite-ctrl-alt-deceit]
 - **University College London** showed that models can sometimes sandbag on capability tests without a reasoning monitor noticing (2025).[^cite-li-2025]
 - **Mila** (Montreal) co-wrote a benchmark of whether models notice when a control protocol changes their actions (2026).[^cite-ciaware]
 - **Harvard** and Princeton researchers proposed Guillotine, a design for running powerful AI models inside an isolating layer below the operating system (April 2025).[^cite-guillotine] Coefficient Giving gave James Mickens at Harvard $666,168 in April 2026 for techniques for containing misaligned AI.[^cite-trace-mickens]
