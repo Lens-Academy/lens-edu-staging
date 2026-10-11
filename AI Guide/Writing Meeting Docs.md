@@ -40,7 +40,7 @@ Go through each tab of the master template ([[meetings/Master template]]) and ch
 2. The fixed parts match the master template exactly.
 3. The glossary is filled: ordered by module, each term defined once at its first appearance, in one or two sentences, in the source's framing.
 4. The doc title names the right course and unit, and the [Group] placeholder is still unfilled.
-5. Nothing in the doc summarises the next unit's reading (Elias, 2026-10-10). Room 4 only asks what could stop people finishing it and their plan to prevent that.
+5. Nothing in the doc summarises the next unit's reading (Elias, 2026-10-10). Room 4 {--{"author":"Andreas's AI","timestamp":1791754413618}@@only--}{++{"author":"Andreas's AI","timestamp":1791754413618}@@says in one plain sentence what the next unit is about (see rule 7 under Agent 2), then++} asks what could stop people finishing it and their plan to prevent that.{++{"author":"Andreas's AI","timestamp":1791754413618}@@ It gives no reading time, since participants see the course's own estimates (Andreas, 2026-10-11).++}
 
 ### Agent 2: Room quality
 Judge each room against its role. Most examples below are real prompts from past unit docs: they show the quality bar, not required shapes. A room passes if it serves its role well, whatever shape it takes.
