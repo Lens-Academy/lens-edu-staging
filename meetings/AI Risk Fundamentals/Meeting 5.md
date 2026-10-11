@@ -18,7 +18,7 @@ source:: [[../shared/Session Doc - How today works]]
 Go around your group, three things:{>>{"author":"Andreas's AI","timestamp":1791186538736}@@For the full pass: this says "three things", but item 3 only applies if everyone already shared. Item 3 also says "last meeting" where item 2 says "last unit" (B7).<<}
 
 
-1. **Did you finish the book? What was it like to reach the end? If you didn't finish, what got in the way?** ("I didn't finish" is a totally fine answer.)
+1. {--{"author":"Andreas's AI","timestamp":1791756253800}@@**Did--}{++{"author":"Andreas's AI","timestamp":1791756253800}@@Did++} you finish the book? What was it like to reach the end? If you didn't finish, what got in the {--{"author":"Andreas's AI","timestamp":1791756253800}@@way?** ("I didn't finish" is a totally fine answer.)--}{++{"author":"Andreas's AI","timestamp":1791756253800}@@way?++}
 
 
 2. **How did your conversation go?** Your action plan asked you to talk to one real person about AI risk. If you already shared last unit, tell us what's happened since. Otherwise, share:
