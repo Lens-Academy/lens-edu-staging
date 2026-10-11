@@ -253,3 +253,8 @@ Earlier on this page you named your strongest objection:
 ::answer{id="3e1a5838-95df-4d05-a88a-1b4ca868905f"}
 
 You also guessed :answer{id="8a3ae4f5-4d86-42dc-b126-b293f88a7b61" fallback="no number yet"} years until transformative AI. Has either changed since you wrote it?
+
+%% A widget can read the same answers with `Lens.getAnswers([ids])`, which resolves to `{id: answer or null}`. This one shows both answers and turns the number into a year (source: [[../widgets/answers-reader-demo]]). %%
+
+#### Widget
+source:: [[../widgets/answers-reader-demo]]
