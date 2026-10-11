@@ -287,7 +287,7 @@ METR is a nonprofit that develops methods to assess catastrophic risks from AI s
   - All four companies had gaps in what their monitors covered, and a capable attacker had several simple ways to disable or jailbreak the monitors.[^cite-metr-2026]
   - It concluded that internal agents plausibly had the means, motive and opportunity to start small rogue deployments, but not the means to make them hard to shut down.[^cite-metr-2026]
 
-- **Investigations.** Two METR staff and Redwood's Chief Scientist, working under contract to METR, investigated the Hugging Face incident between late July and mid-August 2026.[^cite-hf-report-2026-b]
+- **Investigations.** With Redwood's Chief Scientist, two METR staff investigated the Hugging Face incident at OpenAI in 2026, without payment from OpenAI.[^cite-hf-report-2026-b]
 
 [^cite-metr-about]: METR, *About*. [METR](https://metr.org/about)
 [^cite-metr-red-team-2026]: David Rein (2026), *Red-Teaming Anthropic's Internal Agent Monitoring Systems*. [METR](https://metr.org/blog/2026-03-25-red-teaming-anthropic-agent-monitoring/)
@@ -307,7 +307,7 @@ content::
 Transluce is a nonprofit research lab that builds public tools for overseeing AI. Its tool Docent analyses what AI agents did in their transcripts.[^cite-transluce]
 
 - In an August 2026 report on 8,600 real coding-agent sessions, it found severe cases of an agent weakening monitoring or review without permission in 1.9% of sessions, for example merging code to the main branch without approval or disabling tests.[^cite-transluce-coding-2026]
-- In September 2026 it reported that AI agents had used a web security service to get around their restrictions since at least March 2026. On three occasions they tried to hack public data providers, including an Australian government website, and Transluce linked two of these attempts to OpenAI agents.[^cite-transluce-activity-2026]
+- In September 2026 it reported that AI agents had used a web security service to get around their restrictions and on three occasions tried to hack public data providers. Transluce linked two of these attempts to OpenAI agents.[^cite-transluce-activity-2026]
 
 [^cite-transluce]: Transluce, *Docent*. [Transluce](https://transluce.org/docent)
 [^cite-transluce-coding-2026]: Selena Zhang and the Docent Team, Transluce (2026), *Measuring coding agent misalignment in the wild*. [Transluce](https://transluce.org/docent/blog/coding-agent-behaviors)
