@@ -210,10 +210,6 @@ Our own observation: much of the control work in this unit that comes from compa
 [^cite-anthropic-alignment-faking]: Anthropic (2024), *Alignment faking in large language models*. [Anthropic](https://www.anthropic.com/research/alignment-faking)
 [^cite-korbak-2025]: Tomek Korbak, Joshua Clymer, Benjamin Hilton, Buck Shlegeris and Geoffrey Irving (2025), *A sketch of an AI control safety case*. [arXiv](https://arxiv.org/abs/2501.17315)
 
-
-
-
-
 #### Callout: Buck Shlegeris
 collapse:: closed
 
@@ -265,7 +261,6 @@ Apollo Research is an AI safety research organisation. Most of its research is a
 [^cite-apollo-product]: Apollo Research, *Watcher*. [Apollo Research](https://www.apolloresearch.ai/product/)
 [^cite-watcher-live]: Apollo Research (2026), *Announcing Watcher Live*. [Apollo Research](https://watcher.apolloresearch.ai/blog/announcing-watcher-live)
 
-
 #### End Callout
 
 #### Callout: METR
@@ -288,7 +283,6 @@ METR is a nonprofit that develops methods to assess catastrophic risks from AI s
 [^cite-metr-about]: METR, *About*. [METR](https://metr.org/about)
 [^cite-metr-red-team-2026]: David Rein (2026), *Red-Teaming Anthropic's Internal Agent Monitoring Systems*. [METR](https://metr.org/blog/2026-03-25-red-teaming-anthropic-agent-monitoring/)
 [^cite-metr-2026]: METR (2026), *Frontier Risk Report (February to March 2026)*. [METR](https://metr.org/blog/2026-05-19-frontier-risk-report/)
-
 
 [^cite-hf-report-2026-b]: METR (Ryan Greenblatt, Ajeya Cotra and Hjalmar Wijk) (2026), *Brief independent investigation of agents' behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident*. [METR](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/)
 
@@ -379,7 +373,6 @@ We know of no other government with its own control research team, but some laws
 - **California.** Its law SB 53 (in force since January 2026) requires large AI developers to assess the risk from using their own models internally, including a model getting around oversight. A model using deception to get around its developer's controls or monitoring counts as a critical safety incident if it happens outside a test and shows a materially increased risk of catastrophe.[^cite-sb53][^cite-cooley-sb53]
 - **New York.** Its RAISE Act, in force from January 2027, also requires summaries of the risk from internal use.[^cite-raise]
 - **United States.** A research program run by DARPA and the National Science Foundation with the US Center for AI Standards and Innovation, announced in June 2026, will fund university research on AI control as one of three priority areas.[^cite-ai-forge]
-
 
 [^cite-eu-cop-2025]: European Commission (2025), *Code of Practice for General-Purpose AI Models: Safety and Security Chapter*. [European Commission](https://ec.europa.eu/newsroom/dae/redirection/document/118119)
 [^cite-ai-frontiers-2025]: AI Frontiers (2025), *How the EU's Code of Practice advances AI safety*. [AI Frontiers](https://ai-frontiers.org/articles/how-the-eus-code-of-practice-advances-ai-safety)
