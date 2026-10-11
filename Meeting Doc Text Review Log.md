@@ -223,6 +223,7 @@ Progress, later on 2026-10-10. Group A accepted, apart from one FAQ typo. Group 
 | AIRF Meetings 1 to 4 | cohorts wrapping up | todo | recurring lines only, batch 2 | todo | todo | todo |
 | AI Futures Meetings 1, 2, 4 and 5 | Meeting 4 week of 2026-10-12 | todo | batch 2 | todo | todo | todo |
 | CV1 Meetings 1 to 4 | cohorts wrapping up | todo | recurring lines only, batch 2 | todo | todo | todo |
+| AI Control 1 Meetings 1 to 5 | not known | already Lens Tutor | recurring lines only, batch 2 (in scope from 2026-10-10) | n/a | n/a | help note pending 2026-10-10 |
 
 ---
 
@@ -234,7 +235,7 @@ Edits to these files change every doc that includes them, not only the three cou
 |---|---|
 | Session Doc - How today works | CV1 (all five meetings), AI Futures Meetings 4 and 5, AI Control 1, AI Control 2 and AI Control Fundamentals (all five meetings each) |
 | Session Doc - How today works (3 rooms) | AI Futures Meetings 1 to 3 |
-| Session Doc - How today works (AI Risk Fundamentals) | AIRF Meetings 2 to 5. Meeting 1 has its own inline copy |
+| Session Doc - How today works (AI Risk Fundamentals) | AIRF Meetings 2 to 5 until their switch to the general file is accepted (2026-10-10). Meeting 1 has its own inline copy. Goes to the trash once nothing includes it |
 | Participant FAQ | CV1, AI Futures, AI Control 1, AI Control 2, AI Control Fundamentals. AIRF has inline FAQ copies |
 | Session Doc - Open discussion | Every meeting doc of the three courses, and the other courses above |
 
