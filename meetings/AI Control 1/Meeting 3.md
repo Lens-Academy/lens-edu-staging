@@ -60,7 +60,7 @@ What counts as a catch here:
 3\. What has to be true before the catch, not after, for it to actually stop the deployment?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+{--{"author":"Andreas's AI","timestamp":1791679654135}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679654135}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679654135}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679654135}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679654135}@@ Tutor](https://lensacademy.org/tutor).++}
 
 
 | Names | Your catch + the hardest objection + what you need in advance |

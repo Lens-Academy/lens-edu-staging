@@ -64,7 +64,7 @@ The longest reading of this unit maps the work the field could be doing:
 3\. What would you have to see to believe it?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+{--{"author":"Andreas's AI","timestamp":1791679658565}@@Want help or an explanation for this question? Copy--}{++{"author":"Andreas's AI","timestamp":1791679658565}@@If a question is unclear, ask your navigator or copy++} it into{--{"author":"Andreas's AI","timestamp":1791679658565}@@ the--} [Lens{--{"author":"Andreas's AI","timestamp":1791679658565}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"Andreas's AI","timestamp":1791679658565}@@ Tutor](https://lensacademy.org/tutor).++}
 
 
 | Names | Your area + the link you least believe + what would convince you |
