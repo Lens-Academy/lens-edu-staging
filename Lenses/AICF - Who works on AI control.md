@@ -36,7 +36,6 @@ Google DeepMind claims to treat its own AI agents as possible "insider threats",
 [^cite-emmons-2025]: Scott Emmons, Erik Jenner and others (2025), *When Chain of Thought is Necessary, Language Models Struggle to Evade Monitors*. [arXiv](https://arxiv.org/abs/2507.05246)
 [^cite-krakovna-2026]: Victoria Krakovna, David Lindner, Lewis Ho, Sebastian Farquhar and Rohin Shah (2026), *Realistic honeypot evaluations for scheming propensity*. [arXiv](https://arxiv.org/abs/2605.29729)
 
-
 #### End Callout
 
 #### Callout: OpenAI
@@ -180,7 +179,7 @@ Our own observation: much of the control work in this unit that comes from compa
 [^cite-linuxarena-2026]: Tyler Tracy and others (2026), *LinuxArena: A Control Setting for AI Agents in Live Production Software Environments*. [arXiv](https://arxiv.org/abs/2604.15384)
 [^cite-redwood-site]: Redwood Research, home page. [redwoodresearch.org](https://www.redwoodresearch.org/)
 
-[^cite-anthropic-alignment-faking]: Anthropic (2024), *Alignment faking in large language models*. [Anthropic](https://www.anthropic.com/research/alignment-faking)
+
 [^cite-korbak-2025]: Tomek Korbak, Joshua Clymer, Benjamin Hilton, Buck Shlegeris and Geoffrey Irving (2025), *A sketch of an AI control safety case*. [arXiv](https://arxiv.org/abs/2501.17315)
 
 #### Callout: Buck Shlegeris
@@ -314,7 +313,7 @@ The UK AI Security Institute is a government body, with an R&D budget of £66m f
 [^cite-aisi-red-team-2026]: UK AI Security Institute (2026), *How our Control Red Team is stress-testing frontier monitors*. [AISI blog](https://www.aisi.gov.uk/blog/how-our-new-control-red-team-is-stress-testing-frontier-monitors)
 
 [^cite-aisi-async-2025]: UK AI Security Institute (2025), *Stress-testing asynchronous monitoring of AI coding agents*. [AISI blog](https://www.aisi.gov.uk/blog/stress-testing-asynchronous-monitoring-of-ai-coding-agents)
-[^cite-lindner-2025-b]: David Lindner and others (2025), *Practical challenges of control monitoring in frontier AI deployments*. [arXiv](https://arxiv.org/abs/2512.22154)
+
 [^cite-aisi-controlarena-2025]: UK AI Security Institute (2025), *Introducing ControlArena: A library for running AI control experiments*. [AISI blog](https://www.aisi.gov.uk/blog/introducing-controlarena-a-library-for-running-ai-control-experiments)
 [^cite-aisi-60-projects-2026-c]: UK AI Security Institute (2026), *Funding 60 projects to advance AI alignment research*. [AISI blog](https://www.aisi.gov.uk/blog/funding-60-projects-to-advance-ai-alignment-research)
 
