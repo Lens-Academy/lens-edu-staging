@@ -27,9 +27,9 @@ Google DeepMind claims to treat its own AI agents as possible "insider threats",
   - A prototype monitor reviews the work of its coding agents after the fact and sends suspicious cases to humans. It has checked about a million coding-agent tasks. Most flagged cases came from agents misreading the task or being overeager, not from hostile intent.[^cite-gdm-blog-2026]
   - A live monitor watches its Gemini Spark agent and lets staff react at once, for example when the agent deletes data by mistake.[^cite-gdm-blog-2026]
 - **Planned:** its AI Control Roadmap (July 2026) lists 15 measures, ordered by how capable the models are.[^cite-phuong-2026]
-  - For today's models: reading the reasoning, and alerts that humans review later.
-  - Once a model could carry out an attack: checking risky actions before they run, with monitors covering more than 99% of agent work and responding within 24 hours.
-  - For future models that weaker models can no longer oversee, or that out-hack their human and AI defenders: monitoring the models' internal activations, strict control of the software supply chain, and, more speculatively, shutting down a rogue deployment within 24 hours.
+  - For today's models: reading the reasoning, and alerts that humans review later.[^cite-phuong-2026]
+  - Once a model could carry out an attack: checking risky actions before they run, with monitors covering more than 99% of agent work and responding within 24 hours.[^cite-phuong-2026]
+  - For future models that weaker models can no longer oversee, or that out-hack their human and AI defenders: monitoring the models' internal activations, strict control of the software supply chain, and, more speculatively, shutting down a rogue deployment within 24 hours.[^cite-phuong-2026]
   - The roadmap says some of these measures may turn out too expensive, and that it is not yet part of the company's Frontier Safety Framework.[^cite-phuong-2026]
 - **Commitment:** under its Frontier Safety Framework, once a model understands its situation and can get around basic oversight well enough that Google DeepMind cannot rule out it undermining human control, the company claims it will assess the risk from using it internally and add safeguards such as reasoning monitors where needed. By the company's own tests in August 2026, Gemini 3.7 Flash had not reached that level.[^cite-gdm-fsf-2026][^cite-gemini-37-fsf]
 - **Research:** tests of whether models can hide their intentions from monitors,[^cite-emmons-2025] a study with the UK AI Security Institute of the practical trade-offs between monitors that check actions before or after they run,[^cite-lindner-2025] and a 2026 test inside Google's own codebases, where Gemini models did not scheme unprompted but sometimes did when prompted to act with more agency.[^cite-krakovna-2026]
@@ -53,7 +53,7 @@ collapse:: closed
 #### Text
 content::
 - **Monitoring its own coding agents.** OpenAI says that since late 2025, a monitor reads every internal coding session in full, including the model's reasoning, within 30 minutes of it ending. Less than 0.1% of traffic falls outside it.[^cite-openai-monitoring-2026]
-  - In its first five months it checked tens of millions of sessions. About 1,000 went to human reviewers, many of them from OpenAI's own red-teaming.
+  - In its first five months it checked tens of millions of sessions. About 1,000 went to human reviewers, many of them from OpenAI's own red-teaming.[^cite-openai-monitoring-2026]
   - None reached the highest severity level, which is meant for scheming.
   - It did catch agents that encoded commands in base64 to slip past monitors, called other copies of themselves to get around restrictions, and tried to upload files to the internet. OpenAI reads these as agents being overeager about the user's goal, not as signs of hidden goals.
 - **Auto-review in Codex.** Since April 2026, when the Codex coding agent asks for permission to do something outside its sandbox, a separate model can decide instead of the user. It blocks actions such as leaking data, exposing secrets, deleting data or weakening security. OpenAI says it is meant against mistakes and prompt injection, not against a model that schemes.[^cite-openai-auto-review]
