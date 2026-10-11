@@ -317,6 +317,10 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 | 2026-10-10 | AIRF How today works file moved to the trash | meetings/shared/Session Doc - How today works (AI Risk Fundamentals) | Section 2. Nothing includes it any more | Direct. Restorable from the trash for 10 days |
 | 2026-10-10 | 3-room How today works brought into line with the new sharing line; two typos in the FAQ's buddy answer ("metting", "your check in with each other you") | meetings/shared | Keep the variants matching; small fixes | Pending, 2 suggestions |
 | 2026-10-10 | **Decisions: "Lens Tutor" without "the"; the guide's new Room 4 and wrap-up rules caught in this pass; AIRF Meeting 1's inline How today works set aside** | Plan, style sheet B7 | Section 2 and section 7 | Andreas, 2026-10-10 |
+| 2026-10-10 | Andreas split the sharing line into two sentences and dropped "the" before Lens Tutor | meetings/shared/Session Doc - How today works, Participant FAQ | Section 2 | Edited by Andreas |
+| 2026-10-10 | The same two edits copied to the 3-room How today works | meetings/shared/Session Doc - How today works (3 rooms) | Keep the variants matching | Pending, 2 suggestions |
+| 2026-10-10 | **Decisions: the navigator forms buddy groups in threes; "buddies", plural; navigator-only text goes in the run-sheet; navigator-facing text in scope; AI Futures Meeting 1 likely to get four rooms** | Plan, style sheet B7 | Section 2 | Andreas, 2026-10-10 |
+| 2026-10-10 | Buddy setup, part 1 of the buddy wording: the "split into two groups" clause removed from Room 4; the buddy explanation removed from the participants' back-together text and moved, unchanged apart from that clause, into a new "Buddy steps" section of the run-sheet; the run-sheet's "steps in the doc" references now point there | AIRF Meeting 1, CV1 Meeting 1 | Section 2 | Pending, 5 suggestions in AIRF Meeting 1 and 6 in CV1 Meeting 1 (CV1's timeline row also names the step, as AIRF's already did). AI Control 1 Meeting 1 waits for the Room 4 buddy line, since its Room 4 still says "pair up". Validator: no issues |
 
 ---
 
