@@ -253,11 +253,6 @@ Your navigator isn't in every room, so:
 | 1:10–1:15 | Back together (whole group), then walk through the buddy setup below |
 | 1:15–1:27 | R4 Feedback / next unit (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
 
 source:: [[../shared/Navigator Run-Sheet - Lobby and welcome]]
 
