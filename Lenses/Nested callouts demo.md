@@ -154,12 +154,12 @@ The text in this box is only here to make the box long. A real lens would put an
 
 When the end of the box reaches the top of the screen, the title row leaves with it. It never covers the text that comes after the box.
 
-::::callout{title="Inner box" tone="green" collapse="open"}
+:::::callout{title="Inner box" tone="green" collapse="open"}
 This box sits inside the outer box. Its title row pins just below the outer title, so both stay readable while you scroll through it.
 
 Close this inner box from its pinned row to see the page scroll back to where the box starts.
 
-:::hide
+::::hide
 This text was hidden behind a `[...]` bar. While it is open, the bar stays below the two titles above it.
 
 :::callout{title="Box inside the hidden text" tone="amber"}
@@ -171,10 +171,10 @@ This last paragraph gives the box enough length to scroll through.
 :::
 
 The hidden text ends here.
-:::
+::::
 
 The inner box ends after this paragraph.
-::::
+:::::
 
 Back in the outer box. The inner title has left the screen with the end of the inner box, and the outer title is still pinned.
 
