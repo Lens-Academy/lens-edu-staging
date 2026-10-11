@@ -16,7 +16,7 @@ source:: [[../shared/Session Doc - How today works]]
 ### Room 1: Icebreaker  [0:05–0:19]
 
 Go around your group:
-1\. How was working through this unit's content? Denser or easier than Unit 1? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
+1\. How was {--{"author":"Andreas's AI","timestamp":1791754308746}@@working through --}this {--{"author":"Andreas's AI","timestamp":1791754308746}@@unit's content? Denser or easier than Unit 1?--}{++{"author":"Andreas's AI","timestamp":1791754308746}@@unit?++} Did you {--{"author":"Andreas's AI","timestamp":1791754308746}@@finish?--}{++{"author":"Andreas's AI","timestamp":1791754308746}@@finish it?++} If you {--{"author":"Andreas's AI","timestamp":1791754308746}@@didn't finish,--}{++{"author":"Andreas's AI","timestamp":1791754308746}@@didn't,++} what got in the way? {--{"author":"Andreas's AI","timestamp":1791754308746}@@(No judgment, "I didn't finish" is a fine answer.)--}{++{"author":"Andreas's AI","timestamp":1791754308746}@@What do you think about this unit compared to previous ones?++}
 2\. The paper's whole setting:
 
 - a strong model solves 5,000 programming problems and may hide a flaw in any of them
