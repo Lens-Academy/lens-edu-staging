@@ -7,7 +7,7 @@ You'll move through a few small **breakout rooms** (**3-4** people), meeting dif
 2. Answer the prompt together; a line or two in the table is plenty, don't overthink formatting.
 
 
-Between rooms everyone comes back to the main room for five minutes. Your navigator asks who wants to share what their group landed on. Speaking up is optional and a sentence or two is {--{"author":"Andreas's AI","timestamp":1791684535668}@@plenty, so--}{++{"author":"Andreas's AI","timestamp":1791684535668}@@plenty. So++} if your group made interesting observations, that is the time to share them with others.
+Between rooms everyone comes back to the main room for five minutes. Your navigator asks who wants to share what their group landed on. Speaking up is optional and a sentence or two is plenty. So if your group made interesting observations, that is the time to share them with others.
 
 
 **Today's agenda (90 min):** lobby 0:00–0:05 · Room 1 0:05–0:19 · back together 0:19–0:24 · Room 2 0:24–0:46 · back together 0:46–0:51 · break 0:51–0:56 · Room 3 0:56–1:18 · back together 1:18–1:23 · next steps and goodbye 1:23–1:30.
@@ -16,7 +16,7 @@ Between rooms everyone comes back to the main room for five minutes. Your naviga
 **🆘 Need help during a breakout?**
 
 - Confused about the task, or want to talk to the navigator? Click  **"••• More” > “Ask for Help"** > Your navigator gets pinged and pops into your room.
-- Don't get the question or the reading? Ask {--{"author":"Andreas's AI","timestamp":1791684551841}@@the --}[Lens Tutor](https://lensacademy.org/tutor).
+- Don't get the question or the reading? Ask [Lens Tutor](https://lensacademy.org/tutor).
 - More questions? Check the [FAQ Tab](<#tab:Participant FAQ>)
 
 
