@@ -90,7 +90,7 @@ Each entry gives the decision, who made it, the reason, and what it commits us t
 
 **Repeated lines are reviewed one at a time, including the ones settled in batch 1.** *Andreas, 2026-10-10.* There is time to refine them into better versions rather than copying batch 1's wording everywhere. This replaces Claude's 2026-10-06 proposal to copy batch 1's versions into every doc by default. "Two hours" becomes "90 minutes" either way: meetings last 90 minutes.
 
-**Buddy groups favor trios over pairs.** *Andreas, 2026-10-10.* People drop out over a course. When one person in a pair drops out, the other is left alone; a trio still leaves two. The shared FAQ's buddy answer now says so. Still to follow: AI Futures Meeting 1 ("Your navigator pairs you up", and its "Buddy pairs" table), AIRF's inline FAQ copies, and the master template's FAQ placeholder. AIRF Meeting 1 and CV1 Meeting 1 already form buddy groups from the Room 4 breakout room.
+**Buddy groups favor trios over pairs.** *Andreas, 2026-10-10.* People drop out over a course. When one person in a pair drops out, the other is left alone; a trio still leaves two. The shared FAQ's buddy answer now says so. Still to follow: AI Futures Meeting 1 ("Your navigator pairs you up", and its "Buddy pairs" table), AI Control 1 Meeting 1 ("pair up (a trio is fine)"), AIRF's inline FAQ copies, and the master template's FAQ placeholder. AIRF Meeting 1 and CV1 Meeting 1 already form buddy groups from the Room 4 breakout room, but split a room of four or more into two groups, which turns four people into two pairs. The singular "your accountability buddy" in many Room 4s and wrap-ups also assumes a pair. These form the next repeated line to review (section 3).
 
 **How today works drops the "Lost the doc link" line.** *Andreas, 2026-10-10.* What it was for is unclear. Its advice, the Zoom chat, does not reach people inside breakout rooms, and the Participant FAQ covers the question anyway.
 
@@ -206,6 +206,8 @@ Worklist, found 2026-10-06. Counts cover AIRF, AI Futures and CV1 docs only.
 **Group C. Hand-offs.** See section 7.
 
 Progress, 2026-10-10. Group A: Andreas rewrote How today works, Open discussion and the Participant FAQ; the 3-room and AIRF variants were brought into line with his How today works as suggestions. Group B: the help note is first in the one-at-a-time review; the "two hours" lines in AI Futures Meetings 1 and 2 are suggested as "90 minutes".
+
+Progress, later on 2026-10-10. Group A accepted, apart from one FAQ typo. Group B: the help note is settled and copied into AIRF (7), AI Futures (3), CV1 (8) and AI Control 1 (10) as suggestions. Next up is the buddy wording, now that groups aim for trios (section 2). AIRF's How today works file is retiring (section 2).
 
 ---
 
