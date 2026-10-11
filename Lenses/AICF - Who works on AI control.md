@@ -290,10 +290,10 @@ METR is a nonprofit that develops methods to assess catastrophic risks from AI s
 
 - **Red-teaming Anthropic's monitoring.** In early 2026 a METR researcher spent three weeks attacking Anthropic's internal monitoring of its agents.[^cite-metr-red-team-2026]
   - He found ways around the monitoring. For example, changing one setting made the system treat the agent's traffic as not coming from Claude Code, so it was mostly not monitored, and a bug meant that calls to sub-agents were not monitored. The bug was fixed within a day.[^cite-metr-red-team-2026]
-  - He also found a jailbreak that got attacks past the monitors.
-  - Even so, he judged that the monitoring would very likely catch at least some attacks within days or weeks, though not every attack.
+  - He also found a jailbreak that got attacks past the monitors.[^cite-metr-red-team-2026]
+  - Even so, he judged that the monitoring would very likely catch at least some attacks within days or weeks, though not every attack.[^cite-metr-red-team-2026]
 - **Reviewing four companies.** METR then reviewed the risks from AI agents used inside Anthropic, Google, Meta and OpenAI.[^cite-metr-2026]
-  - All four companies had gaps in what their monitors covered, and a capable attacker had several simple ways to disable or jailbreak the monitors.
+  - All four companies had gaps in what their monitors covered, and a capable attacker had several simple ways to disable or jailbreak the monitors.[^cite-metr-2026]
   - It concluded that internal agents plausibly had the means, motive and opportunity to start small rogue deployments, but not the means to make them hard to shut down.
 - **Tools for testing monitors.** It builds tests in which an agent tries to finish a hidden side task without the monitor noticing (January 2026),[^cite-metr-monitorability-2026] and a dataset of real and prompted cases of reward hacking and sandbagging to check monitors against (October 2025).[^cite-metr-malt]
 - **Investigations.** Two METR staff and Redwood's Chief Scientist, working under contract to METR, investigated the Hugging Face incident between late July and mid-August 2026.[^cite-hf-report-2026-b]
