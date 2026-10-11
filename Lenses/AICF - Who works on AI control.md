@@ -367,13 +367,14 @@ collapse:: closed
 content::
 The Alignment Project is a fund run by the UK AI Security Institute. It pays for alignment research, including monitoring and red-teaming of AI systems.[^cite-alignment-project-site-b]
 
-- In February 2026 it announced its first 60 projects, worth over £27m in total, with £5.6m from OpenAI and support from Microsoft.[^cite-alignment-project-feb-2026] "How big is it?" below says how many of them are about control.
+- In February 2026 it announced its first 60 projects, worth over £27m in total, with £5.6m from OpenAI and support from Microsoft.[^cite-alignment-project-feb-2026] By our count of its published list, only 2 of them are clearly about control.[^cite-alignment-project-list-c]
 - Its other funders include the Canadian and Australian AI safety institutes, Amazon Web Services, Anthropic and Schmidt Sciences.[^cite-alignment-project-site-b]
 - It says it is unlikely to run a similar round in 2026.[^cite-alignment-project-apply]
 
 [^cite-alignment-project-site-b]: UK AI Security Institute, *The Alignment Project*. [AISI](https://alignmentproject.aisi.gov.uk/)
 
 [^cite-alignment-project-feb-2026]: UK Government (2026), *OpenAI and Microsoft join UK's international coalition to safeguard AI development*. [GOV.UK](https://www.gov.uk/government/news/openai-and-microsoft-join-uks-international-coalition-to-safeguard-ai-development)
+[^cite-alignment-project-list-c]: UK AI Security Institute (2026), *The Alignment Project: Funded Research Projects*. The two clearly about control: "Enhanced Cyber Control Evaluations" (Aditi Raghunathan) and "Investigating Dynamics of Agentic Monitoring in AI Control" (Louis Thomson). [PDF](https://cdn.prod.website-files.com/68752402cd25ead7e36d7373/699c54b61461caad7130683c_f3052ca4341dfc41646ed7155aaee5fd_The%20Alignment%20Project%202026%20-%20Grants%20%281%29.pdf)
 [^cite-alignment-project-apply]: UK AI Security Institute, *The Alignment Project: How to apply*. [AISI](https://alignmentproject.aisi.gov.uk/how-to-apply)
 
 #### End Callout
