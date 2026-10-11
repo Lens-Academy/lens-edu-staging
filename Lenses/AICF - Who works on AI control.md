@@ -257,9 +257,9 @@ collapse:: closed
 
 #### Text
 content::
-Apollo Research has offices in London and San Francisco. In January 2026 it announced it was becoming a public benefit corporation, a kind of for-profit company, and raised investment for a product team. Google DeepMind named Apollo among the organisations that advised on the misalignment part of its safety framework.[^cite-apollo-pbc][^cite-gdm-agi-2025-b]
+Apollo Research is an AI safety research organisation. In January 2026 it announced it was becoming a public benefit corporation, a kind of for-profit company, and raised investment for a product team. Google DeepMind named Apollo among the organisations that advised on the misalignment part of its safety framework.[^cite-apollo-pbc][^cite-gdm-agi-2025-b]
 
-- **Research on scheming.** With OpenAI it trained models to scheme less, and tested this in more than 180 environments (September 2025). Part of the drop may come from the trained models noticing more often that they were being tested.[^cite-openai-scheming-2025-b]
+- **Research on scheming.** With OpenAI it trained models to scheme less, cutting covert actions in tests from 13% to 0.4% for one model. Part of the drop may come from the trained models noticing more often that they were being tested.[^cite-openai-scheming-2025-b]
 - **Watcher**, its product, monitors AI coding agents such as Claude Code and Codex.[^cite-apollo-product]
   - Apollo says a new version of Watcher Live (September 2026) checks the agent's actions as they happen and blocks dangerous ones, such as data leaks, deleted repositories or broken production systems.[^cite-watcher-live]
   - The risks it targets range from leaked secrets to scheming and attempts to get around oversight.[^cite-apollo-may-2026]
@@ -324,7 +324,7 @@ collapse:: closed
 
 #### Text
 content::
-Luthien builds AI control for real deployments, based on Redwood's agenda.[^cite-luthien-manifund] Its open-source proxy sits between Claude Code and Anthropic's servers, logs every request, and enforces rules the user sets, for example by blocking some requests.[^cite-luthien-site] Its founder, Jai Dhyani, started it as a nonprofit in 2025. In mid-2026 he stepped away, judging that there were few good uses for this kind of control, and the proxy is now run by a company, Luthien PBC, under co-founder Scott Wofford.[^cite-luthien-manifund]
+Luthien builds AI control for real deployments, based on Redwood's agenda.[^cite-luthien-manifund] Its open-source proxy sits between Claude Code and Anthropic's servers, logs every request, and enforces rules the user sets, for example by blocking some requests.[^cite-luthien-site] Its founder left in mid-2026, judging that there were few good uses for this kind of control, and a company now runs the proxy.[^cite-luthien-manifund]
 
 [^cite-luthien-manifund]: Jai Dhyani (2025), *Luthien*, project page. [Manifund](https://manifund.org/projects/luthien)
 [^cite-luthien-site]: Luthien, *AI Control for Claude Code*. [luthien.cc](https://luthien.cc/)
