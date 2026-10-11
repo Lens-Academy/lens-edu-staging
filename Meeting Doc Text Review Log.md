@@ -218,7 +218,7 @@ Progress, later on 2026-10-10. Group A accepted, apart from one FAQ typo. Group 
 | AIRF Meeting 5 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | done for this pass 2026-10-05 | done 2026-10-05 | done 2026-10-05; 6 Session Doc flags and 1 FAQ flag kept for the full pass |
 | AI Futures Meeting 3 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | done for this pass 2026-10-05 | done 2026-10-05 | done 2026-10-05; 2 minor flags kept for the full pass |
 | CV1 Meeting 5 | week of 2026-10-05 | done 2026-10-04 | done 2026-10-03 | done 2026-10-04 | done 2026-10-04 | done 2026-10-05 |
-| Shared How today works (three variants), Participant FAQ, Open discussion | batch 2 | done 2026-10-04 | done 2026-10-03; worklist 2026-10-06 | todo | todo | todo |
+| Shared How today works (three variants), Participant FAQ, Open discussion | batch 2 | done 2026-10-04 | done 2026-10-03; worklist 2026-10-06 | done 2026-10-10 (Andreas) | done 2026-10-10 | done 2026-10-10, apart from one FAQ typo; the AIRF variant is retiring |
 | Master template | n/a | done 2026-10-04 | not flagged | n/a | n/a | n/a |
 | AIRF Meetings 1 to 4 | cohorts wrapping up | todo | recurring lines only, batch 2 | todo | todo | todo |
 | AI Futures Meetings 1, 2, 4 and 5 | Meeting 4 week of 2026-10-12 | todo | batch 2 | todo | todo | todo |
