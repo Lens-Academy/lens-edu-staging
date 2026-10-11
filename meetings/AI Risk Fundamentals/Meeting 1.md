@@ -263,7 +263,7 @@ source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
 
 ### Accountability Buddy Setup
 
-**[1:10–1:15], whole group**, after the sharing. Walk through these (about a minute):
+**[1:10–1:15], whole group**, after the sharing. Walk through tt (about a minute):
 
 
 1. In Room 4, the people in the breakout rooms become their accountability buddies, so they should swap contact details. Before each meeting they will check in with one another: did they finish the unit? Are they coming?
