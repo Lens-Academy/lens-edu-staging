@@ -40,7 +40,7 @@ Go through each tab of the master template ([[meetings/Master template]]) and ch
 2. The fixed parts match the master template exactly.
 3. The glossary is filled: ordered by module, each term defined once at its first appearance, in one or two sentences, in the source's framing.
 4. The doc title names the right course and unit, and the [Group] placeholder is still unfilled.
-5. Nothing in the doc summarises the next unit's reading (Elias, 2026-10-10). Room 4 {--{"author":"Andreas's AI","timestamp":1791754413618}@@only--}{++{"author":"Andreas's AI","timestamp":1791754413618}@@says in one plain sentence what the next unit is about (see rule 7 under Agent 2), then++} asks what could stop people finishing it and their plan to prevent that.{++{"author":"Andreas's AI","timestamp":1791754413618}@@ It gives no reading time, since participants see the course's own estimates (Andreas, 2026-10-11).++}
+5. Nothing in the doc summarises the next unit's reading (Elias, 2026-10-10). Room 4 says in one plain sentence what the next unit is about (see rule 7 under Agent 2), then asks what could stop people finishing it and their plan to prevent that. It gives no reading time, since participants see the course's own estimates (Andreas, 2026-10-11).
 
 ### Agent 2: Room quality
 Judge each room against its role. Most examples below are real prompts from past unit docs: they show the quality bar, not required shapes. A room passes if it serves its role well, whatever shape it takes.
@@ -48,16 +48,16 @@ Judge each room against its role. Most examples below are real prompts from past
 0. None of the room's prompts is longer than 120 words (examples don't count into word count)
 1. **Room 1 is a good icebreaker**: Warms people up to each other and toward the material.
 
-We currently start most of our icebreaker prompts with this {--{"author":"Andreas's AI","timestamp":1791754418704}@@section:--}{++{"author":"Andreas's AI","timestamp":1791754418704}@@check-in (Andreas, 2026-10-11):++}
+We currently start most of our icebreaker prompts with this check-in (Andreas, 2026-10-11):
 ```
 Go around your group, two things:
 
-	1. How was {--{"author":"Andreas's AI","timestamp":1791754424146}@@working through --}this {--{"author":"Andreas's AI","timestamp":1791754424146}@@unit's content? Denser or easier than the previous units? --}{++{"author":"Andreas's AI","timestamp":1791754424146}@@unit? ++}Did you {--{"author":"Andreas's AI","timestamp":1791754424146}@@finish?--}{++{"author":"Andreas's AI","timestamp":1791754424146}@@finish it?++} If you {--{"author":"Andreas's AI","timestamp":1791754424146}@@didn't finish,--}{++{"author":"Andreas's AI","timestamp":1791754424146}@@didn't,++} what got in the way? {--{"author":"Andreas's AI","timestamp":1791754424146}@@(No judgment, "I didn't finish" is a fine answer.)--}{++{"author":"Andreas's AI","timestamp":1791754424146}@@What do you think about this unit compared to previous ones?++}
+	1. How was this unit? Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to previous ones?
 ```
 
-{++{"author":"Andreas's AI","timestamp":1791754429780}@@The first meeting's check-in drops the last question, since there is no earlier unit to compare. The last meeting's asks "How was the final unit? Did you finish it? If you didn't, what got in the way? What do you think about the course as a whole now?" A course that follows a book may ask about the book instead ("Did you finish the book?").
+The first meeting's check-in drops the last question, since there is no earlier unit to compare. The last meeting's asks "How was the final unit? Did you finish it? If you didn't, what got in the way? What do you think about the course as a whole now?" A course that follows a book may ask about the book instead ("Did you finish the book?").
 
-++}For the first meeting of a course, lead in with getting to know each other {--{"author":"Andreas's AI","timestamp":1791754429780}@@instead,--}{++{"author":"Andreas's AI","timestamp":1791754429780}@@first,++} and never call the participants "the humans":
+For the first meeting of a course, lead in with getting to know each other first, and never call the participants "the humans":
 ```
 First meeting, so start by getting to know each other. Go around:
 ```
@@ -103,7 +103,7 @@ The book's claim this unit: **humanity gets one shot at aligning superintelligen
 
 As a group, build the strongest counterargument you can. Pick your best one and stress-test it: how would the authors answer it? Write your verdict: does your counterargument survive?
 
-If you can't find strong counterarguments, ask {--{"author":"Andreas's AI","timestamp":1791754434980}@@the Lens Coach (https://lensacademy.org/coach)--}{++{"author":"Andreas's AI","timestamp":1791754434980}@@[Lens Tutor](https://lensacademy.org/tutor)++} to help you.
+If you can't find strong counterarguments, ask [Lens Tutor](https://lensacademy.org/tutor) to help you.
 ```
 
 Find the weakest step:
@@ -125,7 +125,7 @@ Stage the text's own disagreement:
 ```
 Klurl vs Trapaucius. Trapaucius argues that any being smart enough will grasp its "purpose" and pursue only that. Klurl replies: "they'd know, but would they care?" Who's right about humans, and what does that predict for AI?
 
-If {--{"author":"Andreas's AI","timestamp":1791754440202}@@you don't understand this question,--}{++{"author":"Andreas's AI","timestamp":1791754440202}@@a question is unclear, ask your navigator or++} copy it into{--{"author":"Andreas's AI","timestamp":1791754440202}@@ the Lens Coach (https://lensacademy.org/coach) to explain it.--}{++{"author":"Andreas's AI","timestamp":1791754440202}@@ [Lens Tutor](https://lensacademy.org/tutor).++}
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 ```
 
 Practice (argue to a newcomer):
@@ -181,14 +181,11 @@ Actors:
 3. If you still have time: which actor in your set is hardest to convince, and what would it take?
 ```
 
-3. **Room 4 leaves participants with a clear plan/next step.** Example {--{"author":"Andreas's AI","timestamp":1791754447555}@@prompts:{>>{"author":"Andreas's AI","timestamp":1791679804914}@@Buddy groups now aim for trios rather than pairs, since--}{++{"author":"Andreas's AI","timestamp":1791754447555}@@prompts, from++} a {--{"author":"Andreas's AI","timestamp":1791754447555}@@pair is orphaned as soon as one person drops out (Andreas, 2026-10-10).--}{++{"author":"Andreas's AI","timestamp":1791754447555}@@first meeting (the buddy line appears only there):
+3. **Room 4 leaves participants with a clear plan/next step.** Example prompts, from a first meeting (the buddy line appears only there):
 
 ```
-1.++} The {--{"author":"Andreas's AI","timestamp":1791754447555}@@first example below ("pair up (a trio is fine)") points--}{++{"author":"Andreas's AI","timestamp":1791754447555}@@people in this breakout room are your accountability buddies for++} the {--{"author":"Andreas's AI","timestamp":1791754447555}@@other way.<<}
-
-```
-1. Accountability buddies: pair up (a trio is fine) and swap--}{++{"author":"Andreas's AI","timestamp":1791754447555}@@rest of the course. Swap++} contact details in the {--{"author":"Andreas's AI","timestamp":1791754447555}@@table.--}{++{"author":"Andreas's AI","timestamp":1791754447555}@@table below.++} Before each{--{"author":"Andreas's AI","timestamp":1791754447555}@@ meeting you--}{++{"author":"Andreas's AI","timestamp":1791754447555}@@ meeting,++} check {--{"author":"Andreas's AI","timestamp":1791754447555}@@in:--}{++{"author":"Andreas's AI","timestamp":1791754447555}@@in with one another:++} did you finish, are you coming?
-2. Next unit: {++{"author":"Andreas's AI","timestamp":1791754447555}@@[one plain sentence on what it is about]. ++}What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your {--{"author":"Andreas's AI","timestamp":1791754447555}@@buddy--}{++{"author":"Andreas's AI","timestamp":1791754447555}@@buddies++} after the meeting.)
+1. The people in this breakout room are your accountability buddies for the rest of the course. Swap contact details in the table below. Before each meeting, check in with one another: did you finish, are you coming?
+2. Next unit: [one plain sentence on what it is about]. What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
 3. Feedback: what would make the course and this meeting better?
 ```
 
@@ -199,17 +196,17 @@ The course ends today but your action plan doesn't! Share the one action you cho
 ```
 
 4. **The wrap-up hands people off well.** At least one of:
-	- The information participants need after this meeting, as a short list of links, calls to action, or reminders, with a note that the navigator talks through them (mirrored in the run-sheet as an after-this-meeting section). Only when there is something new to talk through (Elias, 2026-10-10): no list that repeats what Room 4 already asked, such as sending the plan to the buddy or giving feedback. Explain how accountability buddies work in the first meeting, in the whole-group slot before Room 4.{++{"author":"Andreas's AI","timestamp":1791754453136}@@ The navigator does this from the run-sheet; the participants' view carries only the Room 4 buddy line (Andreas, 2026-10-10).++}
-	- An open closing question to the whole group that people can answer voluntarily, for a cohesive ending that makes participants leave with a good feeling about the meeting. {--{"author":"Andreas's AI","timestamp":1791754458959}@@Example:{>>{"author":"Andreas's AI","timestamp":1791679817158}@@Meetings run 90 minutes (see the top of this guide), and the meeting docs now say "90 minutes ago". The example below still says "two hours ago".<<}--}{++{"author":"Andreas's AI","timestamp":1791754458959}@@Example:++}
+	- The information participants need after this meeting, as a short list of links, calls to action, or reminders, with a note that the navigator talks through them (mirrored in the run-sheet as an after-this-meeting section). Only when there is something new to talk through (Elias, 2026-10-10): no list that repeats what Room 4 already asked, such as sending the plan to the buddy or giving feedback. Explain how accountability buddies work in the first meeting, in the whole-group slot before Room 4. The navigator does this from the run-sheet; the participants' view carries only the Room 4 buddy line (Andreas, 2026-10-10).
+	- An open closing question to the whole group that people can answer voluntarily, for a cohesive ending that makes participants leave with a good feeling about the meeting. Example:
 ```
-One thing you're glad you know now that you didn't know {--{"author":"Andreas's AI","timestamp":1791754458959}@@two hours--}{++{"author":"Andreas's AI","timestamp":1791754458959}@@90 minutes++} ago.
+One thing you're glad you know now that you didn't know 90 minutes ago.
 ```
 	Both together are fine when the information list is short.
 
 5. General, for every room: prompts are open (more than one defensible answer), not exhausted in a minute, never a comprehension check, never teach their own answer in the setup text, doable by 3 to 4 strangers in the time slot, and the meeting has an arc: each room's output can be retold in a sentence or two when the next room opens. Between rooms everyone comes back to the main room for five minutes and the navigator asks who wants to share what their group landed on; volunteering is optional, so a room that produces nothing sayable simply gets silence. Every room must therefore leave a participant with something they could say out loud in one sentence, without the doc in front of them. Assume half the room did not finish the reading (typical share in live cohorts): every room must still work for them from the doc alone.
-6. Complex questions {--{"author":"Andreas's AI","timestamp":1791754466632}@@contain a note like: "Want help or an explanation for this question? Copy it into the Lens Coach (https://lensacademy.org/coach) and ask for an explanation."{>>{"author":"Andreas's AI","timestamp":1791679791561}@@Lens Coach has been merged into Lens Tutor (https://lensacademy.org/tutor). This rule, --}{++{"author":"Andreas's AI","timestamp":1791754466632}@@end with ++}the {--{"author":"Andreas's AI","timestamp":1791754466632}@@"Lens Coach note" in rule 7 and the two Coach lines in the rule 2 examples bring the old name back into every new doc. The AIRF, AI Futures, CV1 and AI Control 1 docs now use: --}{++{"author":"Andreas's AI","timestamp":1791754466632}@@help note: ++}"If a question is unclear, ask your navigator or copy it into {++{"author":"Andreas's AI","timestamp":1791754466632}@@[Lens Tutor](https://lensacademy.org/tutor)." ++}Lens {--{"author":"Andreas's AI","timestamp":1791754466632}@@Tutor." (Andreas, 2026-10-10; see Meeting Doc Text Review Log.)<<}--}{++{"author":"Andreas's AI","timestamp":1791754466632}@@Coach was merged into Lens Tutor; the wording is Andreas's (2026-10-10).++}
-7. Every prompt is clear at first read: an intelligent participant grasps what is being asked in one pass, without re-reading. Sentences are short and concrete. When a prompt asks several things, break them into numbered sub-points, one question each, in the order the group should take them. Never pack several questions into one sentence or one list item ("Which X, and why, and how did it make you feel?" is three items). Optional or low-priority asks go last, marked "If you still have time:". Keep rooms short: at most four numbered asks per room (lettered sub-steps such as "(a) ... (d)" count as asks), and an empty line before the {--{"author":"Andreas's AI","timestamp":1791754471514}@@Lens Coach--}{++{"author":"Andreas's AI","timestamp":1791754471514}@@help++} note.
-	Self-contained: every term of art the prompt uses is defined in the prompt itself in plain words, or dropped. Course-internal labels ("this unit's move", "the four rings", "bucket", "subgoal 1.A", "the Anatomy Drill") never appear undefined. A prompt never depends on optional written work ("use your stakeholder map if you wrote one"); it may invite it as a bonus. A debate or roleplay names what both sides argue about and makes clear the subject is AI verification today, even when a historical case is the model for one side. Room 4's next-unit preview is one plain sentence a person who has not opened the next unit understands, with {--{"author":"Andreas's AI","timestamp":1791754474111}@@a rough time,--}{++{"author":"Andreas's AI","timestamp":1791754474111}@@no unit-specific names++} and no {--{"author":"Andreas's AI","timestamp":1791754474111}@@unit-specific names.--}{++{"author":"Andreas's AI","timestamp":1791754474111}@@reading time. It says what the unit is about, not what its readings say (Andreas, 2026-10-11).++}
+6. Complex questions end with the help note: "If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor)." Lens Coach was merged into Lens Tutor; the wording is Andreas's (2026-10-10).
+7. Every prompt is clear at first read: an intelligent participant grasps what is being asked in one pass, without re-reading. Sentences are short and concrete. When a prompt asks several things, break them into numbered sub-points, one question each, in the order the group should take them. Never pack several questions into one sentence or one list item ("Which X, and why, and how did it make you feel?" is three items). Optional or low-priority asks go last, marked "If you still have time:". Keep rooms short: at most four numbered asks per room (lettered sub-steps such as "(a) ... (d)" count as asks), and an empty line before the help note.
+	Self-contained: every term of art the prompt uses is defined in the prompt itself in plain words, or dropped. Course-internal labels ("this unit's move", "the four rings", "bucket", "subgoal 1.A", "the Anatomy Drill") never appear undefined. A prompt never depends on optional written work ("use your stakeholder map if you wrote one"); it may invite it as a bonus. A debate or roleplay names what both sides argue about and makes clear the subject is AI verification today, even when a historical case is the model for one side. Room 4's next-unit preview is one plain sentence a person who has not opened the next unit understands, with no unit-specific names and no reading time. It says what the unit is about, not what its readings say (Andreas, 2026-10-11).
 	Word choice: "tractable", not "gettable"; "next unit"/"next meeting", never "next week" (intensive cohorts meet daily).
 	Skimmable: people read the prompt on a phone in a breakout room. When a prompt hands the group a list to choose from or work with (mechanisms, example systems, postures, roles, sample lines for a roleplay), put each item on its own bulleted line under a short lead-in ("Its mechanisms:", "Examples:", "Take seats:"), never as a comma-separated run inside a sentence. Threshold: four or more items, or three items that each run past two words. Numbered asks stay numbered; a bulleted list sits under the ask it belongs to. Short parentheticals of two or three one-word items stay inline. Example of the shape:
 ```
