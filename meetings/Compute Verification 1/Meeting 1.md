@@ -193,14 +193,16 @@ source:: [[../shared/Navigator Run-Sheet - During the breakout rooms]]
 
 source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
 
-### Buddy steps
+### {--{"author":"Andreas's AI","timestamp":1791747754753}@@Buddy steps--}{++{"author":"Andreas's AI","timestamp":1791747754753}@@Accountability buddy setup++}
 
-**[1:10–1:15], whole group**, after the sharing. Walk through these (about a minute):
+**[1:10–1:15], whole group**, after the sharing. Walk through {--{"author":"Andreas's AI","timestamp":1791747754753}@@these --}{++{"author":"Andreas's AI","timestamp":1791747754753}@@the accountability buddy system ++}(about a minute):
 
 
-1. In Room 4, the people in your breakout room become your accountability buddies.
-2. You swap contact details.
-3. Before each meeting, you check in with each other: did you finish the unit? Are you coming?
+{--{"author":"Andreas's AI","timestamp":1791747754753}@@1. --}In Room 4, the people in {--{"author":"Andreas's AI","timestamp":1791747754753}@@your--}{++{"author":"Andreas's AI","timestamp":1791747754753}@@each++} breakout room become {--{"author":"Andreas's AI","timestamp":1791747754753}@@your--}{++{"author":"Andreas's AI","timestamp":1791747754753}@@their++} accountability {--{"author":"Andreas's AI","timestamp":1791747754753}@@buddies.
+2. You--}{++{"author":"Andreas's AI","timestamp":1791747754753}@@buddies, so they should++} swap contact details.{--{"author":"Andreas's AI","timestamp":1791747754753}@@
+3.--} Before each {--{"author":"Andreas's AI","timestamp":1791747754753}@@meeting, you--}{++{"author":"Andreas's AI","timestamp":1791747754753}@@meeting they will++} check in with {--{"author":"Andreas's AI","timestamp":1791747754753}@@each other:--}{++{"author":"Andreas's AI","timestamp":1791747754753}@@one another:++} did {--{"author":"Andreas's AI","timestamp":1791747754753}@@you--}{++{"author":"Andreas's AI","timestamp":1791747754753}@@they++} finish the unit? Are {--{"author":"Andreas's AI","timestamp":1791747754753}@@you--}{++{"author":"Andreas's AI","timestamp":1791747754753}@@they++} coming?{++{"author":"Andreas's AI","timestamp":1791747754753}@@
+
+For **Room 4 only**, aim to create breakout rooms of trios (a couple of pairs are fine).++}
 
 ### Close
 
