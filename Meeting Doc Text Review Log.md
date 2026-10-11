@@ -23,7 +23,7 @@ Modeled on [[AIRF Restructure Log]] and [[CV1 Streamlining Proposal]], but kept 
 
 **Status, 2026-10-06.** Batch 2 has started: general and shared issues first, then all of AI Futures, with Meeting 4 running the week of 2026-10-12. The worklist is in section 3.
 
-**Status, 2026-10-10.** Andreas rewrote the shared blocks (How today works, Open discussion, Participant FAQ), and the other two How today works variants were brought into line as suggestions. Repeated lines are now reviewed one at a time, starting with the Tutor help note.
+**Status, 2026-10-10.** Andreas rewrote the shared blocks (How today works, Open discussion, Participant FAQ), and the other two How today works variants were brought into line as suggestions. Repeated lines are now reviewed one at a time, starting with the Tutor help note. Later the same day the help note was settled and copied into all four courses, AIRF's own How today works file was set to retire, and AI Control 1 joined the scope.
 
 **Where things are.**
 
