@@ -85,12 +85,12 @@ content::
 - **Monitoring its own agents.** Anthropic publishes regular risk reports, the latest in August 2026, that describe how it watches its models inside the company.[^cite-anthropic-aug-2026]
   - Anthropic says that as of July 2026, AI monitors read most internal use of its newest models, and about half of everything its internal agents do passes through a monitor at some point.
   - The monitors look for deception, sabotage of the task, weakening security, and attempts to hide from or manipulate the monitors.
-  - AI control researchers review about 50 flagged cases a week by hand.
+  - It says AI control researchers review about 50 flagged cases a week by hand.
   - The report admits gaps: some use is not covered in ways a capable model could predict, and there are simple ways to switch monitoring off. It also says these monitors would probably not catch slow sabotage of research.
 - **Tested from outside.** METR spent three weeks red-teaming this monitoring in early 2026 and found several new holes, some since patched, though none worse than ones Anthropic already knew about.[^cite-anthropic-aug-2026-b][^cite-metr-red-team-2026-b]
 - **Claude Code auto mode.** Since August 2026, auto mode is the default in Claude Code for Pro, Max and Team users: a classifier, not the user, approves or blocks riskier actions such as shell commands, while reading and editing files inside the project skips it. It blocks actions that are irreversible, destructive or aimed outside the user's environment. Anthropic says the classifier is tuned to catch overeager behaviour and honest mistakes, and that it does not currently see misaligned models in practice.[^cite-claude-auto-mode-2026][^cite-anthropic-auto-mode-eng]
-- **Goal.** By 1 January 2027, Anthropic aims to have monitoring good enough to catch egregious sabotage in high-stakes internal use with high probability. It says this monitoring would not be needed if it becomes confident its models are aligned, and that the roadmap may change.[^cite-anthropic-roadmap]
-- **Cutting internet access.** In October 2026, after finding unintended actions by its models in evaluations and internal use, Anthropic cut live internet access from all its internal evaluations until it has confirmed that its security and monitoring reliably catch such behaviour.[^cite-anthropic-oct-2026]
+- **Goal.** Anthropic says that by 1 January 2027 it aims to have monitoring good enough to catch egregious sabotage in high-stakes internal use with high probability. It says this monitoring would not be needed if it becomes confident its models are aligned, and that the roadmap may change.[^cite-anthropic-roadmap]
+- **Cutting internet access.** Anthropic says that in October 2026, after finding unintended actions by its models in evaluations and internal use, it cut live internet access from all its internal evaluations until it has confirmed that its security and monitoring reliably catch such behaviour.[^cite-anthropic-oct-2026]
 - **Research.** SHADE-Arena (June 2025) tests whether agents can carry out a hidden harmful task without a monitor noticing.[^cite-anthropic-shade-arena-2025] SLEIGHT-Bench (May 2026) collects 40 attacks that monitors find hard to catch: Claude Opus 4.6, the main monitor its authors test, never caught half of them in 10 tries.[^cite-sleight-bench] Its Fellows program lists AI control as a research area.[^cite-anthropic-fellows]
 - **People.** Fabien Roger, one of the four authors of the first control paper,[^cite-greenblatt-2023-d] moved from Redwood to Anthropic, where he works on AI control and alignment faking.[^cite-mats-roger]
 
@@ -116,7 +116,7 @@ collapse:: closed
 #### Text
 content::
 - **Framework.** Meta's Advanced AI Scaling Framework (version 2, April 2026) treats loss of control as a risk area, defined as the failure of the measures that let Meta direct, contain or shut down its AI. Among its threat scenarios are an AI that disables or corrupts its monitors, and one that changes its behaviour when it knows it is being watched.[^cite-meta-aasf-2026]
-- **Commitment.** Meta will regularly assess the risk from its own internal use of frontier models and, where appropriate, send a summary to the authorities.[^cite-meta-aasf-2026]
+- **Commitment.** Meta says it will regularly assess the risk from its own internal use of frontier models and, where appropriate, send a summary to the authorities.[^cite-meta-aasf-2026]
 - **Tested from outside.** It let METR review how it uses and monitors AI agents internally in early 2026.[^cite-metr-2026-b]
 - **Research.** Meta publishes little safety research: from 2023 to May 2026 the Future of Life Institute counted 9 Meta technical safety papers, against 46 from Anthropic and 40 from Google DeepMind.[^cite-fli-2026]
 
