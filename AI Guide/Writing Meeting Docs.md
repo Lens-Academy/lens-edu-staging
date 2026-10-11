@@ -181,11 +181,12 @@ Actors:
 3. If you still have time: which actor in your set is hardest to convince, and what would it take?
 ```
 
-3. **Room 4 leaves participants with a clear plan/next step.** Example prompts:{>>{"author":"Andreas's AI","timestamp":1791679804914}@@Buddy groups now aim for trios rather than pairs, since a pair is orphaned as soon as one person drops out (Andreas, 2026-10-10). The first example below ("pair up (a trio is fine)") points the other way.<<}
+3. **Room 4 leaves participants with a clear plan/next step.** Example {--{"author":"Andreas's AI","timestamp":1791754447555}@@prompts:{>>{"author":"Andreas's AI","timestamp":1791679804914}@@Buddy groups now aim for trios rather than pairs, since--}{++{"author":"Andreas's AI","timestamp":1791754447555}@@prompts, from++} a {--{"author":"Andreas's AI","timestamp":1791754447555}@@pair is orphaned as soon as one person drops out (Andreas, 2026-10-10).--}{++{"author":"Andreas's AI","timestamp":1791754447555}@@first meeting (the buddy line appears only there):
 
 ```
-1. Accountability buddies: pair up (a trio is fine) and swap contact details in the table. Before each meeting you check in: did you finish, are you coming?
-2. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
+1.++} The {--{"author":"Andreas's AI","timestamp":1791754447555}@@first example below ("pair up (a trio is fine)") points--}{++{"author":"Andreas's AI","timestamp":1791754447555}@@people in this breakout room are your accountability buddies for++} the {--{"author":"Andreas's AI","timestamp":1791754447555}@@other way.<<}
+1. Accountability buddies: pair up (a trio is fine) and swap--}{++{"author":"Andreas's AI","timestamp":1791754447555}@@rest of the course. Swap++} contact details in the {--{"author":"Andreas's AI","timestamp":1791754447555}@@table.--}{++{"author":"Andreas's AI","timestamp":1791754447555}@@table below.++} Before each{--{"author":"Andreas's AI","timestamp":1791754447555}@@ meeting you--}{++{"author":"Andreas's AI","timestamp":1791754447555}@@ meeting,++} check {--{"author":"Andreas's AI","timestamp":1791754447555}@@in:--}{++{"author":"Andreas's AI","timestamp":1791754447555}@@in with one another:++} did you finish, are you coming?
+2. Next unit: {++{"author":"Andreas's AI","timestamp":1791754447555}@@[one plain sentence on what it is about]. ++}What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your {--{"author":"Andreas's AI","timestamp":1791754447555}@@buddy--}{++{"author":"Andreas's AI","timestamp":1791754447555}@@buddies++} after the meeting.)
 3. Feedback: what would make the course and this meeting better?
 ```
 
