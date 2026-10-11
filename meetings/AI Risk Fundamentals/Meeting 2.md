@@ -147,7 +147,7 @@ source:: [[../shared/Session Doc - Open discussion]]
 - The Aztec warrior wonders what else the strangers might know how to do. The book's own answer: the real way a superintelligence wins is with attacks you didn't know were allowed. Where is humanity most exposed, and why does the book point at biology and the brain?
 
 # Tab: Participant FAQ
-style:: faq
+{--{"author":"Andreas's AI","timestamp":1791747763528}@@style:: faq
 
 ## Participant FAQ
 
@@ -193,7 +193,7 @@ Your navigator isn't in every room, so:
 ### After we wrap
 
 - **What happens at 1:30? We close on time.** The meeting then stays open; hang around and keep talking if you'd like, no pressure.
-- **How do accountability buddies work?** You paired up in the first session; your buddy checks in with you before each meeting. Swap whatever the last room asked you to take away: a plan, a next step, or simply what changed your mind.
+- **How do accountability buddies work?** You paired up in the first session; your buddy checks in with you before each meeting. Swap whatever the last room asked you to take away: a plan, a next step, or simply what changed your mind.--}{++{"author":"Andreas's AI","timestamp":1791747763528}@@source:: [[../shared/Participant FAQ]]++}
 
 # Tab: Navigator Run-Sheet
 
