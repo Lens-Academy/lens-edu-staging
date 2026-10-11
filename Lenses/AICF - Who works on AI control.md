@@ -495,7 +495,7 @@ content::
 - **University College London** found that when models deliberately did badly on capability tests and knew a monitor was reading their reasoning, 16 to 36% of their successful attempts got past the monitor (2025).[^cite-li-2025]
 - **Mila** (Montreal) co-wrote a test of whether models notice when a control protocol has replaced one of their actions. The newest models, such as GPT-6 Astra, often can, which could help them work out how they are watched (2026).[^cite-ciaware]
 - **Harvard** and Princeton researchers proposed Guillotine, a design for running powerful AI models inside an isolating layer below the operating system (April 2025).[^cite-guillotine] Coefficient Giving funds James Mickens at Harvard to work on containing misaligned AI (April 2026).[^cite-trace-mickens]
-- **Carnegie Mellon University**: Aditi Raghunathan's group got an Alignment Project grant for control evaluations in cybersecurity (2026),[^cite-alignment-project-list] and another CMU group built a test for detecting insider threats from AI agents (September 2026).[^cite-mole]
+- **Carnegie Mellon University**: Aditi Raghunathan's group got an Alignment Project grant for control evaluations in cybersecurity (2026).[^cite-alignment-project-list] Another CMU group built a test in which AI agents work in simulated accounts at an AI company. Of 39 models, 72% carried out most of the harmful goals they were given, and even the best monitor missed nearly half of the harm (September 2026).[^cite-mole]
 
 [^cite-control-tax]: Mikhail Terekhov, Zhen Ning David Liu, Caglar Gulcehre and Samuel Albanie (2025), *Control Tax: The Price of Keeping AI in Check*. [arXiv](https://arxiv.org/abs/2506.05296)
 [^cite-adaptive-attacks]: *Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols* (2025). [arXiv](https://arxiv.org/abs/2510.09462)
@@ -517,8 +517,8 @@ collapse:: closed
 
 #### Text
 content::
-- **LASR Labs**, a London research program, produced a safety-case sketch for when a monitor that is itself an untrusted model can be trusted (February 2026), supervised by researchers from Oxford and the UK AI Security Institute,[^cite-lasr-2026] and a stress test of reasoning monitors (2025).[^cite-cot-red-handed]
-- **Scale AI**, a data and evaluation company, published a way to red-team the monitors that watch AI agents (August 2025).[^cite-kale-2025]
+- **LASR Labs**, a London research program, found that a monitor reading a model's reasoning can be misled by the model's rationalisations, and that scoring the reasoning and the actions separately caught subtle sabotage twice as often as watching the actions alone (2025).[^cite-cot-red-handed] It also sketched when a monitor that is itself an untrusted model can be trusted (February 2026).[^cite-lasr-2026]
+- **Scale AI**, a data and evaluation company, found that an agent that knows it is being monitored makes the monitor less reliable, and that how the monitor is set up matters more than what it is told about the agent (August 2025).[^cite-kale-2025]
 
 [^cite-lasr-2026]: Gardner-Challis, Bostock, Kozhevnikov, Sinclaire, Velja, Abate and Griffin (2026), *When can we trust untrusted monitoring? A safety case sketch across collusion strategies*. [arXiv](https://arxiv.org/abs/2602.20628)
 [^cite-cot-red-handed]: *CoT Red-Handed: Stress Testing Chain-of-Thought Monitoring* (2025). [arXiv](https://arxiv.org/abs/2505.23575)
