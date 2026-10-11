@@ -250,9 +250,14 @@ Your navigator isn't in every room, so:
 | 0:42–0:47 | Back together (whole group) |
 | 0:47–0:52 | Break |
 | 0:52–1:10 | R3 Your own question (reshuffle) |
-| 1:10–1:15 | Back together (whole group), then walk through the accountability buddy setup below |
+| 1:10–1:15 | Back together (whole group), then walk through the buddy setup below |
 | 1:15–1:27 | R4 Feedback / next unit (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 
 source:: [[../shared/Navigator Run-Sheet - Lobby and welcome]]
 
