@@ -141,7 +141,7 @@ One or two people share what their group landed on.{--{"author":"Andreas's AI","
 Three things before the rooms close:
 
 
-1\. Accountability buddies: the people in this breakout room are your accountability buddies for the rest of the course (if you are four or more, split into two groups). Swap contact details in the table now.
+1\. Accountability buddies: the people in this breakout room are your accountability buddies for the rest of the {--{"author":"Andreas's AI","timestamp":1791684556513}@@course (if you are four or more, split into two groups).--}{++{"author":"Andreas's AI","timestamp":1791684556513}@@course.++} Swap contact details in the table now.
 
 
 2\. Next unit: Chapters 4-6 (You Don't Get What You Train For, Its Favorite Things, We’d Lose): Will it want what we trained it to want, would its wants leave room for us, and how could we actually lose to it? What's most likely to stop you finishing the reading, and what's your plan to beat it? (After the meeting, send your plan to your new buddy.)
