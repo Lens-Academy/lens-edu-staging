@@ -77,8 +77,12 @@ button:hover { background: #faf8f3; }
   }
 
   function read() {
-    if (!window.Lens || !window.Lens.getAnswers) {
+    if (!window.Lens) {
       notice("Open this page on the Lens platform to see your answers here.");
+      return;
+    }
+    if (!window.Lens.getAnswers) {
+      notice("This version of the platform cannot read answers yet.");
       return;
     }
     window.Lens.getAnswers([OBJECTION, YEARS]).then(function (answers) {
