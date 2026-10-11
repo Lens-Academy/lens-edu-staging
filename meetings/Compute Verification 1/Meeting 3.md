@@ -16,7 +16,7 @@ source:: [[../shared/Session Doc - How today works]]
 ### Room 1: Icebreaker  [0:05–0:19]
 
 Go around your group:
-1\. How was working through this unit's content? Denser or easier than the previous units? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
+1\. How was {--{"author":"Andreas's AI","timestamp":1791754330717}@@working through --}this {--{"author":"Andreas's AI","timestamp":1791754330717}@@unit's content? Denser or easier than the previous units? --}{++{"author":"Andreas's AI","timestamp":1791754330717}@@unit? ++}Did you {--{"author":"Andreas's AI","timestamp":1791754330717}@@finish?--}{++{"author":"Andreas's AI","timestamp":1791754330717}@@finish it?++} If you {--{"author":"Andreas's AI","timestamp":1791754330717}@@didn't finish,--}{++{"author":"Andreas's AI","timestamp":1791754330717}@@didn't,++} what got in the way? {--{"author":"Andreas's AI","timestamp":1791754330717}@@(No judgment, "I didn't finish" is a fine answer.)--}{++{"author":"Andreas's AI","timestamp":1791754330717}@@What do you think about this unit compared to previous ones?++}
 2\. MIRI's draft treaty is a full legal text for preventing artificial superintelligence:
 
 - bans on big training runs
