@@ -249,7 +249,7 @@ Catching an AI red-handed: Finding strong evidence that a model deliberately tri
 Catch-then-shut-down: After a catch, stop using the model, and use the evidence to argue for caution.
 Few-shot catastrophe prevention: Keep using the model after a catch, but use the few caught attempts to make further attempts fail.
 
-### Module: Unit 3: Political will and buy-in
+### Module: Political will and buy-in
 
 Plan A: Enough political will for a strong international agreement that mostly removes race dynamics and allows a slowdown of about 10 years.
 Plan B: The US government treats buying lead time for US AI companies as a top national security priority, so 1 to 3 years can be spent on misalignment risk.
