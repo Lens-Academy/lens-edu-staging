@@ -186,7 +186,6 @@ Actors:
 ```
 1. The people in this breakout room are your accountability buddies for the rest of the course. Swap contact details in the table below. Before each meeting, check in with one another: did you finish, are you coming?
 2. Next unit: Hardware verification, what a chip can and cannot prove about the work it did. What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
-3. Feedback: what would make the course and this meeting better?
 ```
 
 Do not ask for feedback on the course or the meeting in Room 4: the post-meeting surveys collect it (Elias, 2026-10-12).
@@ -198,7 +197,7 @@ The course ends today but your action plan doesn't! Share the one action you cho
 ```
 
 4. **The wrap-up hands people off well.** At least one of:
-	- The information participants need after this meeting, as a short list of links, calls to action, or reminders, with a note that the navigator talks through them (mirrored in the run-sheet as an after-this-meeting section). Only when there is something new to talk through (Elias, 2026-10-10): no list that repeats what Room 4 already asked, such as sending the plan to the buddy or giving feedback. Explain how accountability buddies work in the first meeting, in the whole-group slot before Room 4. The navigator does this from the run-sheet; the participants' view carries only the Room 4 buddy line (Andreas, 2026-10-10).
+	- The information participants need after this meeting, as a short list of links, calls to action, or reminders, with a note that the navigator talks through them (mirrored in the run-sheet as an after-this-meeting section). Only when there is something new to talk through (Elias, 2026-10-10): no list that repeats what Room 4 already asked, such as sending the plan to the buddy. Explain how accountability buddies work in the first meeting, in the whole-group slot before Room 4. The navigator does this from the run-sheet; the participants' view carries only the Room 4 buddy line (Andreas, 2026-10-10).
 	- An open closing question to the whole group that people can answer voluntarily, for a cohesive ending that makes participants leave with a good feeling about the meeting. Example:
 ```
 One thing you're glad you know now that you didn't know 90 minutes ago.
