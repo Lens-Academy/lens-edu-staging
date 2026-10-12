@@ -17,14 +17,14 @@ source:: [[../articles/shlegeris-ten-people-on-the-inside]]
 
 #### Text
 content::
-In the comments, Zac Hatfield-Dodds, then at Anthropic, doubts how much influence such a group would have:
+Zac Hatfield-Dodds is a member of technical staff at Anthropic, where he led its assurance team.
 
 #### Article
 source:: [[../articles/hatfield-dodds-comment-on-ten-people-on-the-inside]]
 
 #### Text
 content::
-Rohin Shah, who leads AGI safety work at Google DeepMind, agrees with Zac and adds that almost nothing useful leaves everyone's workflow untouched:
+Rohin Shah leads the AGI Safety and Alignment team at Google DeepMind.
 
 #### Article
 source:: [[../articles/shah-comment-on-ten-people-on-the-inside]]
