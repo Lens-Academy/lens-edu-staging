@@ -49,8 +49,6 @@ Your group can hire 10 new control researchers. Pick one of these threats for th
 - An agent tests a new model for dangerous abilities and scores it a little lower than it deserves. The score decides whether the model is released.
 - An agent sets how suspicious an action must be before the monitor sends it to a human, and picks a level slightly too high.
 
-Your group can hire 10 new control researchers. Pick one threat for them to defend against.
-
 Kinds of work:
 
 - building test settings where a red team plays a scheming AI against safety measures
