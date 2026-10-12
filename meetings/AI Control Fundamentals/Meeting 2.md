@@ -18,7 +18,7 @@ source:: [[../shared/Session Doc - How today works]]
 Go around your group:
 1\. How was this unit? Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to the last one? (No judgment, "I didn't finish" is a fine answer.)
 2\. Based on your reading of what the different labs and organizations currently do for control, do you think their investment and effort is sufficient? 
-3\.Where would you want more inventment? (Fundamental )
+3\.Where would you want more inventment? (Fundamental research, )
 4\. If you still have time: which reading or talk stayed with you most? If others missed it, sum it up in a minute.
 
 
