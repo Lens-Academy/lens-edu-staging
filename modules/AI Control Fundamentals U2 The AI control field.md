@@ -26,6 +26,7 @@ source:: [[../Lenses/AICF - Who works on AI control]]
 
 # Lens:
 source:: [[../Lenses/AICF - How big is the AI control field]]
+
 # Lens: Practice: place the project
 id:: 1a80fa3c-d847-48d7-b94b-dd7fb264aa9e
 reading_minutes:: 3
