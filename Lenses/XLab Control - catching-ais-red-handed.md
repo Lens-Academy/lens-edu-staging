@@ -12,7 +12,7 @@ content::
 Part 1 of 2. This part reads Greenblatt and Shlegeris's argument that a single caught escape attempt changes a lab's position, and their eight strategies for using a caught example, through to the post's conclusion. Short recall questions follow each section; answer them from memory before reading on. Part 2 reads the appendices and asks whether a catch is enough to make anyone act.
 
 #### Article
-source:: [[../articles/shlegeris-catching-ais-red-handed]]
+source:: [[../articles/greenblatt-catching-ais-red-handed]]
 from:: We’ve been spending a lot of time recently thinking about how to mitigate risks posed by
 to:: we’d need to avoid training set leakage to ensure the new AIs don’t have advance knowledge of what’s going on).
 
