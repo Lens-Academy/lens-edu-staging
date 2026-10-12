@@ -16,9 +16,7 @@ collapse:: open
 
 #### Article
 source:: [[../articles/greenblatt-catching-ais-red-handed]]
-from:: Appendix: Framing in terms of E\[utility | scheming\]
-
-#### End Callout
+from:: :::callout {title="Appendix" collapse="closed"}
 
 #### Text
 content::
