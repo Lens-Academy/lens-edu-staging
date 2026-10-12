@@ -109,11 +109,12 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-1\. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
-2\. Feedback: what would make the course and this meeting better?
+1\. Go around: each of you shares the question your Room 3 group dug into, and where the discussion went.
+2\. The others respond: what would your Room 3 group have added, or seen differently?
+3\. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
 
 
-| Names | Your plan for the next unit + feedback |
+| Names | Your Room 3 question + what the others added + your plan for the next unit |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -153,7 +154,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:47–0:52 | Break |
 | 0:52–1:10 | R3 {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Inside a company or outside?--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Your questions++} (reshuffle) |
 | 1:10–1:15 | Back together (whole group) |
-| 1:15–1:27 | R4 Next unit, feedback (reshuffle) |
+| 1:15–1:27 | R4 Back to your Room 3 questions, next unit (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
 
 ### Lobby/Welcoming the participants
