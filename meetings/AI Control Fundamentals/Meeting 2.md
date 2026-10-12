@@ -103,9 +103,9 @@ One or two people share what their group landed on.
 
 Example questions:
 
-- Would a capable AI's sabotage look any different from an honest mistake?
-- Who checks the AI companies' own monitoring, and how would we know if it failed?
-- If one action is enough for a catastrophe, can any review be fast enough?
+- If an AI's sabotage can look exactly like an honest mistake, should we let AIs do safety research at all?
+- Would you trust an AI company's own report on how well it monitors its agents? What would change your mind?
+- Would you rather do control work inside an AI company or at an outside group? What would you gain and lose?
 
 
 | Names | Your questions + where the discussion went |
