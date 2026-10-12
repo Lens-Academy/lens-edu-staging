@@ -13,16 +13,17 @@ title: AI Control Fundamentals Unit 2 Meeting Doc
 source:: [[../shared/Session Doc - How today works]]
 
 \pagebreak
-### Room 1: One bad action or a thousand  [0:05–0:19]
+### Room 1: Is control getting enough?  [0:05–0:19]
 
 Go around your group:
 1\. How was this unit? Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to the last one? (No judgment, "I didn't finish" is a fine answer.)
-2\. Based on your reading of what the different labs and organizations currently do for control, do you think their investment and effort is sufficient? 
-3\.Where would you want more inventment? (Fundamental research, red-teaming, active monitoring,...)
+2\. Based on your reading of what the different labs and {--{"author":"James agent ready-31's AI","timestamp":1791791574106}@@organizations--}{++{"author":"James agent ready-31's AI","timestamp":1791791574106}@@organisations++} currently do for control, do you think their investment and effort is sufficient?{--{"author":"James agent ready-31's AI","timestamp":1791791574106}@@ 
+3\.Where --}{++{"author":"James agent ready-31's AI","timestamp":1791791574106}@@ (In 2025, estimates put 5 to 50 people full-time on control and about 620 in all of technical AI safety. Money and papers have grown fast since.)
+3\. Where ++}would you want more {--{"author":"James agent ready-31's AI","timestamp":1791791574106}@@inventment?--}{++{"author":"James agent ready-31's AI","timestamp":1791791574106}@@investment?++} (Fundamental research, red-teaming, active {--{"author":"James agent ready-31's AI","timestamp":1791791574106}@@monitoring,...)--}{++{"author":"James agent ready-31's AI","timestamp":1791791574106}@@monitoring, ...)++}
 4\. If you still have time: which reading or talk stayed with you most? If others missed it, sum it up in a minute.
 
 
-| Names | How the unit went + one action or a thousand |
+| Names | How the unit went + enough or not + where you'd want more |
 |------|------------------------|
 |  |  |
 |  |  |
