@@ -155,10 +155,10 @@ The course ends today. What you do with it is up to you.
 - decide whether control is part of your own work in AI safety, or something else is, and take one step towards it
 
 2\. The group responds: for each plan, suggest one person, reading or debate from the course that fits it.
-3\. Feedback: what would make this course and its meetings better for the next cohort?
 
 
-| Names | Your next step with a date + feedback |
+
+| Names | Your next step with a date |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -219,7 +219,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 2. Name the new format (small breakout rooms of 3, new people each time, and a five-minute get-together after each room where anyone can share what their group landed on)
 3. Tell them the doc is in the chat + Discord and to open it + check they can type
 4. Run through the arc
-    - opening round on the voices of this unit → finding the crux between Gleave and Habryka → stating and defending your own view → your next step and feedback
+    - opening round on the voices of this unit → finding the crux between Gleave and Habryka → stating and defending your own view → your next step
     - say the meeting will take 90 min
 5. Inform participants that you will be jumping between rooms with your camera turned off to listen in and they can ask questions whenever you join
 6. Start room 1
