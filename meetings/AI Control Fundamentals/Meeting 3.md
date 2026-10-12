@@ -120,12 +120,14 @@ One or two people share what their group landed on.
 ---
 
 \pagebreak
-### Room 4: Next unit  [1:15–1:27]
+### Room 4: Where are we, and what would move us?  [1:15–1:27]
 
 **New group. Names first, then straight in.**
 
 
-1\. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
+1\. Share the plan from Room 2's list that you placed today's world in (you answered this in the course), and your strongest piece of evidence.
+2\. As a group: what is the most realistic step that would move the world to a higher plan? Who would have to take it?
+3\. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
 
 
 
