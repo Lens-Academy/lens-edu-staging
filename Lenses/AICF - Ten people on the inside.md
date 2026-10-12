@@ -10,16 +10,27 @@ tags:
 ---
 #### Text
 content::
-Greenblatt's Plan D is a company that does not take misalignment seriously, with a small group inside who do. Greenblatt links that scenario to this post by Buck Shlegeris. "Do-ocracy" in the post means a company where people who take the initiative to do something are usually allowed to. After it come two replies from commenters who doubt the ten would have that much room, and a paragraph Shlegeris wrote in June 2026 looking back at the post.
+Greenblatt's Plan D is a company that does not take misalignment seriously, with a small group inside who do. Greenblatt links that scenario to this post by Buck Shlegeris. "Do-ocracy" in the post means a company where people who take the initiative to do something are usually allowed to. After it come two replies from the comments, by people at AI companies who doubt the ten would have that much room, and a paragraph from a June 2026 post in which Shlegeris looks back.
 
 #### Article
 source:: [[../articles/shlegeris-ten-people-on-the-inside]]
 
+#### Text
+content::
+In the comments, Zac Hatfield-Dodds, then at Anthropic, doubts how much influence such a group would have:
+
 #### Article
 source:: [[../articles/hatfield-dodds-comment-on-ten-people-on-the-inside]]
 
+#### Text
+content::
+Rohin Shah, who leads AGI safety work at Google DeepMind, agrees with Zac and adds that almost nothing useful leaves everyone's workflow untouched:
+
 #### Article
 source:: [[../articles/shah-comment-on-ten-people-on-the-inside]]
+#### Text
+content::
+In June 2026, Shlegeris published a new post, "Efficient tradeoffs and the safety-usefulness tradeoff model", about how safety measures trade off against how useful an AI is. In one paragraph of it he looks back at "Ten people on the inside":
 
 #### Article
 source:: [[../articles/buck-efficient-tradeoffs-and-the-safety-usefulness-tradeoff-model]]
