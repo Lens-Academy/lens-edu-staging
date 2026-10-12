@@ -22,7 +22,7 @@ Go around your group:
 4\. If you still have time: where specifically would you like to work, and why?
 
 
-| Names |How the unit went + inside or outside + where you would like to work ++|
+| Names |How the unit went + inside or outside + where you would like to work|
 |------|------------------------|
 |  |  |
 |  |  |
