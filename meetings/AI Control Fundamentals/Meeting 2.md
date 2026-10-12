@@ -17,7 +17,8 @@ source:: [[../shared/Session Doc - How today works]]
 
 Go around your group:
 1\. How was this unit? Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to the last one? (No judgment, "I didn't finish" is a fine answer.)
-2\. Based on your reading on what different labs and organizations currently do for control, do you think their investment and effort is sufficient?
+2\. {--{"author":"James agent ready-31's AI","timestamp":1791791279834}@@Based on your reading on what different labs and organizations currently do for control, do--}{++{"author":"James agent ready-31's AI","timestamp":1791791279834}@@Gut answer, one sentence each: which is harder to defend against, an AI that could cause a catastrophe with one bad action, or one that needs a thousand small bad actions?
+3\. The unit opened with this question. If++} you {--{"author":"James agent ready-31's AI","timestamp":1791791279834}@@think their investment and effort is sufficient?--}{++{"author":"James agent ready-31's AI","timestamp":1791791279834}@@answered it then, what changed your answer, if anything?++}
 4\. If you still have time: which reading or talk stayed with you most? If others missed it, sum it up in a minute.
 
 
@@ -56,7 +57,7 @@ Four AI agents that might be working against their company:
 - An agent sets how suspicious an action must be before the monitor sends it to a human, and picks a level slightly too high.
 
 1\. Sort each case: high-stakes, low-stakes, or in between?
-2\. Pick the case your group disagreed on most. What would move it to the other side?
+2\. Pick the case your group disagreed on most. What would move it {++{"author":"James agent ready-31's AI","timestamp":1791791279834}@@clearly ++}to {--{"author":"James agent ready-31's AI","timestamp":1791791279834}@@the other side?--}{++{"author":"James agent ready-31's AI","timestamp":1791791279834}@@high-stakes, or clearly to low-stakes?++}
 3\. Take the case your group found hardest to defend against. Which defence fits it, if any?
     - stop its actions until a human checks them
     - review a sample of its work a week later
@@ -108,10 +109,10 @@ Places:
 - METR, an outside evaluator that takes no money from AI companies (it does use their free computing credits)
 - a university group
 
-1\. Which one or two kinds of work would help most against it?
+1\. {--{"author":"James agent ready-31's AI","timestamp":1791791279834}@@Which--}{++{"author":"James agent ready-31's AI","timestamp":1791791279834}@@Your 10 go to++} one or two kinds of {--{"author":"James agent ready-31's AI","timestamp":1791791279834}@@work would--}{++{"author":"James agent ready-31's AI","timestamp":1791791279834}@@work. Which++} help most against it?
 2\. Where should each be done? Decide by what it needs: access to a company's systems, independence from companies, or both.
 3\. Now AI companies close their internal systems and data to outsiders. Public models stay available. Which choices still work?
-4\. If you still have time: in 2025, estimates put 5 to 50 people full-time on control and about 620 in all technical AI safety. Money and papers have grown fast since. Does control need more people? People disagree, so disagree freely.
+4\. If you still have time: in 2025, estimates put 5 to 50 people full-time on control and about 620 in all technical AI safety. Money and papers have grown fast since. Does control need more people? {--{"author":"James agent ready-31's AI","timestamp":1791791279834}@@People disagree, so disagree--}{++{"author":"James agent ready-31's AI","timestamp":1791791279834}@@Disagree++} freely.
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
