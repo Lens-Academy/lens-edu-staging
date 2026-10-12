@@ -126,10 +126,10 @@ One or two people share what their group landed on.
 
 
 1\. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
-2\. Feedback: what would make the course and this meeting better?
 
 
-| Names | Your plan for the next unit + feedback |
+
+| Names | Your plan for the next unit |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -169,7 +169,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:47–0:52 | Break |
 | 0:52–1:10 | R3 The weakest premise (reshuffle) |
 | 1:10–1:15 | Back together (whole group) |
-| 1:15–1:27 | R4 Next unit, feedback (reshuffle) |
+| 1:15–1:27 | R4 Next unit (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
 
 ### Lobby/Welcoming the participants
@@ -184,7 +184,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 2. Name the new format (small breakout rooms of 3, new people each time, and a five-minute get-together after each room where anyone can share what their group landed on)
 3. Tell them the doc is in the chat + Discord and to open it + check they can type
 4. Run through the arc
-    - opening round and your first guess → which routes still work with little political will → the weakest premise → planning and feedback
+    - opening round and your first guess → which routes still work with little political will → the weakest premise → planning
     - say the meeting will take 90 min
 5. Inform participants that you will be jumping between rooms with your camera turned off to listen in and they can ask questions whenever you join
 6. Start room 1
@@ -224,7 +224,7 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 **Room 1, Your first guess.** The guess was the open question in the unit's welcome page, so people who stopped early still have one. If someone skipped it, a guess made now is fine. Take guesses without correcting them. A guess that is "it stops the AI" is the most common starting point and a useful contrast for Room 2.
 **Room 2, Which routes still work with little political will?** Get each person onto a route in the first two minutes. For your own use only, not an answer key, here is what the readings say. Greenblatt keeps some control until handoff in Plans A to C, but says organisation-wide control "should be mostly given up on" in Plan D, apart from measures that stop AIs gaining more permissions or access. Shlegeris's ten-people post is written for a Plan D company and argues cheap measures still matter there. Groups that notice this tension have found something real. Shutting down after a catch needs at least a willing leadership. Using a catch to make later attempts fail can be done by a safety team alone. The window's length depends on how much delay can be bought, which needs governments. A deployment condition needs a regulator or a willing company. The unit's last reading shows one company's own risk reports. No outside review of them has been required or requested so far, apart from pilot reviews of parts. Groups stuck on ask 2 can ask who would have to check such a report for it to bind. Accept other mappings with reasons. Protect time for ask 3.
 **Room 3, The weakest premise.** Push groups to pick within three minutes. Ask 2 needs one person to argue the premise honestly, not as a straw man. Point them to the reading's own defenders if they get stuck (Davidson for the catch, the authors' view that holding off uncontrollable AI for "at least several years" is plausible, for the window, Shlegeris's original post for the insiders). Observations must be things someone could see, for example how a company responds to a real misbehaviour incident, or whether safety teams at less careful companies keep monitoring running. "More research" is not an observation. A group that ends more confident is as successful as one that ends less.
-**Room 4, Next unit, feedback.** Unit 4 is a little longer than this one, about 4 hours. Push for a concrete plan (when, where, how much at a time), not a promise.
+**Room 4, Next unit.** Unit 4 is a little longer than this one, about 4 hours. Push for a concrete plan (when, where, how much at a time), not a promise.
 
 # Tab: Glossary
 style:: plain
