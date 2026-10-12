@@ -1,8 +1,8 @@
 ---
 title: "Catching AIs red-handed"
 author:
-  - {--{"author":"James agent ready-31's AI","timestamp":1791805872137}@@"ryan greenblatt"--}{++{"author":"James agent ready-31's AI","timestamp":1791805872137}@@"Ryan Greenblatt"++}
-  - {--{"author":"James agent ready-31's AI","timestamp":1791805872137}@@"Buck"--}{++{"author":"James agent ready-31's AI","timestamp":1791805872137}@@"Buck Shlegeris"++}
+  - "Ryan Greenblatt"
+  - "Buck Shlegeris"
 source_url: "https://www.lesswrong.com/posts/i2nmBfCXnadeGmhzW/catching-ais-red-handed"
 published: 2024-01-05
 created: 2026-10-12

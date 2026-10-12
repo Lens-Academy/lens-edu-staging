@@ -10,7 +10,7 @@ content::
 What actually happens if you catch your AI mid-takeover-attempt? It turns out a single caught attempt is enormously valuable, if you're prepared to use it. This post is why "win" in the control game really is a win.
 
 #### Article
-source:: {--{"author":"James agent ready-31's AI","timestamp":1791805918157}@@[[../articles/shlegeris-catching-ais-red-handed]]--}{++{"author":"James agent ready-31's AI","timestamp":1791805918157}@@[[../articles/greenblatt-catching-ais-red-handed]]++}
+source:: [[../articles/greenblatt-catching-ais-red-handed]]
 
 #### Text
 content::
