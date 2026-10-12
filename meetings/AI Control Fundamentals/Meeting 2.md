@@ -45,11 +45,11 @@ One or two people share what their group landed on.
 Two questions sort a threat:
 
 - How many bad actions does it need: few or many?
-- Is each one clear evidence of bad intent, or easily an honest mistake?
+- Is each one clear evidence of bad intent, or could it easily be an honest mistake?
 
-Few and damning is high-stakes. Many and weak is low-stakes, which does not mean low harm.
+Few and damning is high-stakes. Many and weak is low-stakes. Low-stakes does not mean low harm.
 
-Four AI agents, each maybe working against their company:
+Four AI agents that might be working against their company:
 
 - An agent with access to the cluster settings changes one line so its own jobs skip the monitor.
 - An agent writes thousands of summaries of new safety papers a year and slightly undersells the most promising ideas.
@@ -58,13 +58,16 @@ Four AI agents, each maybe working against their company:
 
 1\. Sort each case: high-stakes, low-stakes, or in between?
 2\. Pick the case your group disagreed on most. What would move it to the other side?
-3\. Take one case from each side. Would you stop its actions until checked, review them a week later, or train the agent against a quality score across all its work?
-4\. If you still have time: Google DeepMind plans to block high-risk actions at once and review low-risk ones later. Does that match your sorting?
+3\. Take the case your group found hardest to defend against. Which defence fits it, if any?
+    - stop its actions until a human checks them
+    - review a sample of its work a week later
+    - score all its work for quality and keep training it on that score, so many small slips get corrected even if none is caught
+4\. If you still have time: Google DeepMind plans to review low-risk, reversible actions after a delay and block high-risk ones before they run. Is there a case where this rule and your sorting call for different defences?
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
-| Names | Your sorting + the case you disagreed on + stop, review later or train |
+| Names | Your sorting + the case you disagreed on + the defence for your hardest case |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -82,18 +85,18 @@ One or two people share what their group landed on.
 ### Break: 5 min  [0:47–0:52]
 
 \pagebreak
-### Room 3: Ten new control researchers  [0:52–1:10]
+### Room 3: Ten researchers against one threat  [0:52–1:10]
 
 **New group. Names first, then straight in.**
 
 
-In 2025, counts found 5 to 50 people working full-time on control, out of about 620 in technical AI safety. Nobody has counted since.
+In 2025, one estimate put 5 to 50 people full-time on control, and a count found about 620 in all of technical AI safety. Money and papers have grown fast since.
 
-Your group can hire 10 new full-time control researchers.
+Your group can hire 10 new control researchers. Pick one threat from Room 2 for them to defend against.
 
-Kinds of work (Ryan Greenblatt's list of control areas, plus one):
+Kinds of work:
 
-- building test settings for control evaluations
+- building test settings where a red team plays a scheming AI against safety measures
 - measuring what models can do that matters for control
 - experiments on how AI agents are actually used inside a company
 - building the systems that log and secure what agents do
@@ -108,15 +111,13 @@ Places they could work:
 - METR, an outside evaluator that takes no money from AI companies
 - a university group
 
-1\. Choose two or three kinds of work for your 10 researchers.
-2\. For each: does it need access to a company's systems, independence from companies, or both? So which place should do it?
-3\. Now the AI companies stop giving outside groups any access. Which of your choices still work?
-4\. If you still have time: does control need more people at all? People disagree, so disagree freely.
+1\. Which one or two kinds of work would help most against it?
+2\. Where should each be done? Decide by what it needs: access to a company's systems, independence from companies, or both.
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
-| Names | Your kinds of work + where each goes + what still works without access |
+| Names | Your threat + the work you chose + where it goes + what still works without access |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -137,7 +138,7 @@ One or two people share what their group landed on.
 
 
 1\. Next unit: why people work on control, and what has to go right for it to help. What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
-2\. Write down one question about control you want the next unit to answer for you.
+2\. Write down one question about control you want the next unit to answer for you. Share it with the group.
 3\. Feedback: what would make the course and this meeting better?
 
 
@@ -179,7 +180,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:24–0:42 | R2 Sort four threats (reshuffle) |
 | 0:42–0:47 | Back together (whole group) |
 | 0:47–0:52 | Break |
-| 0:52–1:10 | R3 Ten new control researchers (reshuffle) |
+| 0:52–1:10 | R3 Ten researchers against one threat (reshuffle) |
 | 1:10–1:15 | Back together (whole group) |
 | 1:15–1:27 | R4 Next unit, your question, feedback (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
@@ -196,7 +197,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 2. Name the new format (small breakout rooms of 3, new people each time, and a five-minute get-together after each room where anyone can share what their group landed on)
 3. Tell them the doc is in the chat + Discord and to open it + check they can type
 4. Run through the arc
-    - opening round and one action or a thousand → sorting four threats → where ten new control researchers should work → next unit, your question, feedback
+    - opening round and one action or a thousand → sorting four threats → ten new researchers against one of those threats → next unit, your question, feedback
     - say the meeting will take 90 min
 5. Inform participants that you will be jumping between rooms with your camera turned off to listen in and they can ask questions whenever you join
 6. Start room 1
@@ -212,7 +213,7 @@ source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
 
 
 1. Ask for "one thing I'm taking away" from anyone who wants it (~10 sec each; a few voices is plenty, people have already shared between rooms).
-2. **Remind them to send their accountability buddy their plan today and to fill in the Unit 2 feedback page in the course.**
+2. **Remind them to send their plan for the next unit to their accountability buddy, and to fill in the Unit 2 feedback page in the course.**
 3. **End on time.** Then say the meeting **stays open** for anyone who wants to keep talking; stay and facilitate, or say goodbye and leave (they can keep going without you).
 
 
@@ -234,8 +235,8 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 
 **General, all rooms.** This course presents why people work on control and the criticisms of it, and asks each participant to form their own view by Unit 5. Never steer a group toward a verdict on control, on whether the field should grow, or on whether the companies' monitoring is enough. If a group asks what you think, turn it back to them. Collect everyone's answer before any explanation. The unit is about 3.5 hours, so expect part of the room not to have finished: every prompt works from the doc alone, so do not re-teach.
 **Room 1, One bad action or a thousand.** The welcome page of the unit asked the same prediction, so some will have an earlier answer to compare. Take gut answers, not arguments. Both answers are fine, and Room 2 gives them something concrete to argue about.
-**Room 2, Sort four threats.** The point is the sorting reason, not the label. If a group sorts by how bad the outcome is, point them back to the two questions in the doc. Keep ask 1 to about seven minutes so asks 2 and 3 get time. In ask 3, training across all of an agent's work is the unit's answer for many weak actions (Hebbar and the diffuse-threats reading), because no single action proves anything. Accept any reasoned choice. For your own use, likely discussion, not an answer key: the settings change is the clearest high-stakes case (one action, damning if inspected). The paper summaries are the clearest low-stakes case (many actions, each weak evidence). The capability-test score and the monitor threshold are where groups should disagree: both may need only one or a few actions, but each could pass as an honest mistake. Hebbar calls that corner (few actions, weakly incriminating) probably hopeless, and says research sabotage might sit there. Ask 4 connects to what companies already run: a case can look low-risk and still be one of very few actions a catastrophe needs. Do not say which rule is better.
-**Room 3, Ten new control researchers.** The room practises the unit's test skill: what access to companies' systems and what independence from companies a piece of work needs, and so who is placed to do it. Keep ask 1 to about four minutes, so asks 2 and 3 get time. Any choice of work is fine if the group can say why. For your own use, likely discussion, not an answer key: test settings and measuring model abilities need only models, so Redwood, the UK AI Security Institute or a university group can do them. Experiments on real agent use, the logging and security systems, and human review need the company's own systems and staff, so mainly the company's team (Greenblatt says human processes are probably most doable at AI companies). Checking a company's claims needs independence plus the company's cooperation: METR, or the UK AI Security Institute's Control Red Team. In ask 3, everything that needs company systems stops for outsiders. The company's own team keeps working, but nobody outside can then check it, and most of what is known about company monitoring already comes from the companies themselves. Let groups reach this. For ask 4, the counts are from 2025 and file whole organisations under one area, so they miss control teams inside companies and government. The unit says the field has most likely grown since, by an unmeasured amount, and that whether a small field needs more people is disputed (Unit 4 takes it up). Expect "more people", "the counts miss company teams", "small does not mean neglected" and "other work may matter more". All are fair. Do not rank them.
+**Room 2, Sort four threats.** The point is the sorting reason, not the label. If a group sorts by how bad the outcome is, point them back to the two questions in the doc. Keep ask 1 to about seven minutes so asks 2 and 3 get time. In ask 3, training across all of an agent's work is the unit's answer for many weak actions (Hebbar and the diffuse-threats reading), because no single action proves anything. Accept any reasoned choice. For your own use, likely discussion, not an answer key: the settings change is the clearest high-stakes case (one action, damning if inspected). The paper summaries are the clearest low-stakes case (many actions, each weak evidence). The capability-test score and the monitor threshold are where groups should disagree: both may need only one or a few actions, but each could pass as an honest mistake. Hebbar calls that corner (few actions, weakly incriminating) probably hopeless, and says research sabotage might sit there. Ask 3 points at Hebbar's hardest corner: few actions, each of which looks like an honest mistake. He calls it probably hopeless. "No defence fits well" is a real answer. Ask 4 connects to Google DeepMind's plan, which is not yet in use: a case can look low-risk and still be one of very few actions a catastrophe needs. Do not say which rule is better.
+**Room 3, Ten researchers against one threat.** The room joins the unit's two halves: a threat from Room 2, and the field that could defend against it. Ask 2 practises the unit's test skill (what access and independence a piece of work needs, so who is placed to do it), applied to a threat the group chose. Keep ask 1 to about four minutes. Any choice is fine if the group can say why. For your own use, likely discussion, not an answer key: test settings and measuring model abilities need only models, so Redwood, the UK AI Security Institute or a university group can do them. Experiments on real agent use, the logging and security systems, and human review need the company's own systems and staff, so mainly the company's team (Greenblatt says human processes are probably most doable at AI companies). Checking a company's claims needs independence plus the company's cooperation: METR, or the UK AI Security Institute's Control Red Team. The settings change mostly calls for in-company security and fast review. The paper summaries and the capability-test score call for test settings and capability measurement that outsiders can do, plus outside checks of the company's own results. In ask 3, everything that needs company systems stops for outsiders. The company's team keeps working, but nobody outside can check it, and most of what is known about company monitoring already comes from the companies themselves. Let groups reach this. For ask 4, the counts are from 2025 and file whole organisations under one area, so they miss control teams inside companies and government. The unit says the field has most likely grown since, by an unmeasured amount, and that whether a small field needs more people is disputed (Unit 4 takes it up). Expect "more people", "the counts miss company teams", "small does not mean neglected" and "other work may matter more". All are fair. Do not rank them.
 **Room 4, Next unit, your question, feedback.** Push for a concrete plan (when, where, how much at a time), not a promise. The question in ask 2 is for the participant to carry into the next unit, so it can be anything about control.
 
 # Tab: Glossary
@@ -258,7 +259,7 @@ Incrimination: Becoming confident from the evidence that a model is misaligned. 
 
 ### Module: The AI control field
 
-Control evaluation setting: A test environment in which a red team plays the scheming model against a protocol. Greenblatt suggests about a third of current control resources go to building and using these.
+Control evaluation setting: A test environment in which a red team plays the scheming model against a protocol. Greenblatt suggests about a third of control resources should go to building and using these.
 Alignment Project: The UK AI Security Institute's fund for alignment research, including control. In February 2026 it announced its first 60 projects, worth over £27m in total.
 Covert malicious fine-tuning: An AI secretly training another AI to behave badly, one of the threats in the UK AI Security Institute's research areas.
 Chain-of-thought monitor: A monitor that reads a model's written reasoning and sends suspicious cases to human review. Google DeepMind says it monitors its models' visible chain of thought today, but that this will not be enough once models know they are monitored or reason without visible text.
