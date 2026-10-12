@@ -46,19 +46,18 @@ Your group can hire 10 new control researchers.
 
 Kinds of work:
 
-- building test settings where a red team plays a scheming AI against safety measures
-- measuring what models can do that matters for control
-- experiments on how AI agents are actually used inside a company
-- building the systems that log and secure what agents do
-- human review: who checks flagged agent actions, and how fast
-- checking whether a company's claims about its own monitoring are true
+- building control evaluations
+- measuring model capabilities
+- studying how agents are used in practice
+- building logging and security for agents
+- running human review of flagged actions
+- checking companies' monitoring claims
 
 Places:
 
-- Redwood Research, a research nonprofit
-- the UK AI Security Institute, a government body
-- an AI company's own monitoring team
-- METR, an outside evaluator that takes no money from AI companies (it does use their free computing credits)
+- Redwood Research (nonprofit)
+- UK AI Security Institute (government)
+- METR (independent evaluator)
 - a university group
 
 1\. Which one kind of work should your 10 do? Why that one?
