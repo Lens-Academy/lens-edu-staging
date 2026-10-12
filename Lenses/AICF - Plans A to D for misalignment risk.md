@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-Every route in this unit depends to some degree on how much AI companies and governments want to act on misalignment risk. Ryan Greenblatt, whose dialogue with Habryka you just read, sorts the possible worlds by that one variable and asks what the best plan is in each. Two questions follow the reading. Try the first from memory.
+Every route in this unit depends to some degree on how much AI companies and governments want to act on misalignment risk. Ryan Greenblatt, whose dialogue with Habryka you just read, sorts the possible worlds by that one variable and asks what the best plan is in each. Two questions follow the reading.
 
 #### Article
 source:: [[../articles/greenblatt-plans-a-b-c-and-d-for-misalignment-risk]]
