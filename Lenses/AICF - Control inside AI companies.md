@@ -8,7 +8,7 @@ tutor_minutes: 9
 ---
 #### Text
 content::
-By 2026, control was no longer only a research topic. In Unit 1 you saw that Google DeepMind runs monitors over its own coding agents, and OpenAI and Anthropic do too. This lesson looks at two sides of that work: how a company plans to grow its defences, and how people outside the company test them.
+By 2026, control was no longer only a research topic. In Unit 1 you saw that Google DeepMind runs monitors over its own coding agents. OpenAI and Anthropic do too. This lesson looks at two sides of that work: how a company plans to grow its defences, and how people outside the company test them.
 
 First, one AI company's own account. In Unit 1 you read the first half of Google DeepMind's June 2026 summary of its AI Control Roadmap. Here is the part about how its defences change as models get more capable. As you read, look for where it uses the idea from the first half of this unit.
 
