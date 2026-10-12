@@ -27,5 +27,5 @@ feedback-instructions:: Name the strongest part of the answer in one sentence, t
 
 # Suggested Lenses:
 ## Lens:
-source:: [[../Lenses/AICF - Who works on AI control]]
+source:: [[../Lenses/AICF - How big is the AI control field]]
 notes:: The "How big is it?" section, with the 2025 counts and their caveats, and two practice questions with feedback.
