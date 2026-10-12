@@ -36,14 +36,12 @@ One or two people share what their group landed on.
 ---
 
 \pagebreak
-### Room 2: Ten new control researchers  [0:24–0:42]
+### Room 2: Is control getting enough?  [0:24–0:42]
 
 **New group. Names first, then straight in.**
 
 
-Your group can hire 10 new control researchers.
-
-Kinds of work:
+Some areas of control work:
 
 - building control evaluations
 - measuring model capabilities
@@ -52,22 +50,11 @@ Kinds of work:
 - running human review of flagged actions
 - checking companies' monitoring claims
 
-Places:
-
-- Redwood Research (nonprofit)
-- UK AI Security Institute (government)
-- an AI company's monitoring team
-- METR (independent evaluator)
-- a university group
-
-1\. Which one kind of work should your 10 do? Why that one?
-2\. Where should they work? Decide by what the work needs: access to a company's systems, independence from companies, or both.
-3\. If you still have time: AI companies close their internal systems and data to outsiders. Does your plan still work?
-
-If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
+1\. Based on your reading of what the different labs and organisations currently do for control, do you think their investment and effort is enough?
+2\. If you could increase investment in one area, which would it be? Why that one?
 
 
-| Names | The work you chose + why + where they work + does it survive without access |
+| Names | Enough or not + the one area you would invest more in + why |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -85,22 +72,17 @@ One or two people share what their group landed on.
 ### Break: 5 min  [0:47–0:52]
 
 \pagebreak
-### Room 3: Your questions  [0:52–1:10]
+### Room 3: Inside a company or outside?  [0:52–1:10]
 
 **New group. Names first, then straight in.**
 
 
-1\. Take two minutes. Each of you writes down one or two questions from this unit that you would genuinely like the group to dig into.
-2\. Go around and present your questions.
-3\. Discuss the ones the group is most curious about. The point is the discussion, not a tidy answer.
-
-Example questions:
-
-- Would you trust an AI company's own report on how well it monitors its agents? What would change your mind?
-- Would you rather do control work inside an AI company or at an outside group? What would you gain and lose?
+1\. Would you rather work on control inside an AI company or at an outside group? Go around, one answer each.
+2\. What speaks for each side?
+3\. If you still have time: where specifically would you like to work, and why?
 
 
-| Names | Your questions + where the discussion went |
+| Names | Inside or outside + what speaks for each side + where you would like to work |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -159,10 +141,10 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:00–0:05 | Lobby / welcome (whole group) |
 | 0:05–0:19 | R1 Sabotage or honest mistake? (breakout, aim 3) |
 | 0:19–0:24 | Back together (whole group) |
-| 0:24–0:42 | R2 Ten new control researchers (reshuffle) |
+| 0:24–0:42 | R2 Is control getting enough? (reshuffle) |
 | 0:42–0:47 | Back together (whole group) |
 | 0:47–0:52 | Break |
-| 0:52–1:10 | R3 Your questions (reshuffle) |
+| 0:52–1:10 | R3 Inside a company or outside? (reshuffle) |
 | 1:10–1:15 | Back together (whole group) |
 | 1:15–1:27 | R4 Next unit, feedback (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
@@ -179,7 +161,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 2. Name the new format (small breakout rooms of 3, new people each time, and a five-minute get-together after each room where anyone can share what their group landed on)
 3. Tell them the doc is in the chat + Discord and to open it + check they can type
 4. Run through the arc
-    - opening round and whether AIs should do safety research → where ten new control researchers should work → your own questions from this unit → next unit, feedback
+    - opening round and whether AIs should do safety research → whether control gets enough investment, and where you would add more → inside an AI company or outside, for you → next unit, feedback
     - say the meeting will take 90 min
 5. Inform participants that you will be jumping between rooms with your camera turned off to listen in and they can ask questions whenever you join
 6. Start room 1
@@ -216,9 +198,9 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 ### Per-room notes for Unit 2
 
 **General, all rooms.** This course presents why people work on control and the criticisms of it, and asks each participant to form their own view by Unit 5. Never steer a group toward a verdict on control, on whether the field should grow, or on whether the companies' monitoring is enough. If a group asks what you think, turn it back to them. Collect everyone's answer before any explanation. The unit is about 3.5 hours, so expect part of the room not to have finished: every prompt works from the doc alone, so do not re-teach.
-**Room 1, Sabotage or honest mistake?** Ask 2 brings in the unit's first half: research sabotage is a low-stakes threat, where each bad act could pass as an honest mistake, so catching one proves little (Hebbar). Take gut answers, not arguments: "no", "yes, with training across all its work" and "we have no choice" are all fair. Do not give your own view. Room 3 is where groups can dig further.
-**Room 2, Ten new control researchers.** The room practises the unit's test skill: what access to companies' systems and what independence from companies a piece of work needs, and so who is placed to do it. Keep ask 1 to about five minutes. Any choice of work is fine if the group can say why. For your own use, likely discussion, not an answer key: test settings and measuring model abilities need only models, so Redwood, the UK AI Security Institute or a university group can do them. Experiments on real agent use, the logging and security systems, and human review need the company's own systems and staff, so mainly the company's team (Greenblatt says human processes are probably most doable at AI companies). Checking a company's claims needs independence plus the company's cooperation: METR, or the UK AI Security Institute's Control Red Team. In ask 3, everything that needs a company's internal systems or private information stops for outsiders, while work on public models goes on. The company's team keeps working, but nobody outside can check it, and most of what is known about company monitoring already comes from the companies themselves. Let groups reach this.
-**Room 3, Your questions.** Stay out of the content: the room is for the participants' own questions. If a group is stuck, point them to the example questions. If a factual question comes up that nobody can answer, suggest Lens Tutor. In the Back together, ask for the most interesting question a group discussed, not for answers.
+**Room 1, Sabotage or honest mistake?** Ask 2 brings in the unit's first half: research sabotage is a low-stakes threat, where each bad act could pass as an honest mistake, so catching one proves little (Hebbar). Take gut answers, not arguments: "no", "yes, with training across all its work" and "we have no choice" are all fair. Do not give your own view.
+**Room 2, Is control getting enough?** Take views, not arguments: "enough", "not enough" and "can't tell from what's public" are all fair. Public counts of the field are rough and miss teams inside companies, and most of what is known about company monitoring comes from the companies themselves. Do not give your own view. In ask 2 any area is fine if the group says why. If a group finishes early, ask who is placed to do the work in their area: does it need access to a company's systems, independence from companies, or both?
+**Room 3, Inside a company or outside?** A personal question, with no right answer. Points groups may raise, for your own use: inside a company you get the real agents, logs and staff, and your work runs on real systems, but you work for one company and may not be free to publish. Outside (Redwood Research, METR, a university, or the UK AI Security Institute as a government body) you are independent, can publish and can check the companies, but you depend on them for access to anything internal. Do not steer anyone toward either side.
 **Room 4, Next unit, feedback.** Push for a concrete plan (when, where, how much at a time), not a promise.
 
 # Tab: Glossary
