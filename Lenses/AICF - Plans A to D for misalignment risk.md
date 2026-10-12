@@ -15,10 +15,6 @@ Every route in this unit depends to some degree on how much AI companies and gov
 #### Article
 source:: [[../articles/greenblatt-plans-a-b-c-and-d-for-misalignment-risk]]
 from:: "I sometimes think about plans for how to handle misalignment risk."
-to:: "(as this will might be spent incompetently)."
-
-#### Article
-from:: "Here is the takeover risk I expect given a central version of each of these scenarios"
 to:: "look less compelling."
 
 #### Text
