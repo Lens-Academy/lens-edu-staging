@@ -140,7 +140,7 @@ One or two people share what their group landed on.
 ---
 
 \pagebreak
-### Room 4: Next unit and feedback  [1:15–1:27]
+### Room 4: An open question, next unit  [1:15–1:27]
 
 **New group. Names first, then straight in.**
 
@@ -190,7 +190,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:47–0:52 | Break |
 | 0:52–1:10 | R3 Warning shots: argue the other side (reshuffle) |
 | 1:10–1:15 | Back together (whole group) |
-| 1:15–1:27 | R4 Next unit and feedback (reshuffle) |
+| 1:15–1:27 | R4 An open question, next unit (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
 
 ### Lobby/Welcoming the participants
