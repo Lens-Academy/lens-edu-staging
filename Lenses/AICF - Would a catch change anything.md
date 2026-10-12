@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-The last reading counted a catch as a win, partly because it would make shutting down more likely. Here Buck Shlegeris, one of its authors, asks whether that is true. After his post come four comments from the discussion, including his own reply. All of these were written before the 2026 Hugging Face incident. Unit 5 looks at how people argued about that real case.
+"Catching AIs red-handed" counted a catch as a win, partly because it would make shutting down more likely. Here Buck Shlegeris, one of its authors, asks whether that is true. After his post come four comments from the discussion, including his own reply. All of these were written before the 2026 Hugging Face incident. Unit 5 looks at how people argued about that real case.
 
 #### Article
 source:: [[../articles/buck-would-catching-your-ais-trying-to-escape-convince-ai-developers-to-slow-down-or-undeploy]]
