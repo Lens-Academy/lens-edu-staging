@@ -222,8 +222,12 @@ content::
 
 #### End Callout
 
-#### Callout: ⭐ Quick check-in on this week's facilitation guide
+#### Callout: ⭐ Weekly facilitator check-in (click to open)
 tone:: purple
+collapse:: closed
+
+#### Text
+content:: A quick check-in to fill in after your session. All questions are optional, and your answers help us improve the guides and support you better!
 
 #### Question: Rating
 id:: e17dd796-e785-4f23-8f5c-a590d30f1fe2
@@ -232,13 +236,26 @@ low-label:: Not useful
 high-label:: Very useful
 optional:: true
 
-#### Callout: 💬 Want to share more? (optional, click to open)
-tone:: neutral
-collapse:: closed
+#### Question: Rating
+id:: a088fcec-7057-4390-8ee7-01ce1f80cd09
+content:: How engaged was your group this week? (1 = Low energy, mostly quiet or distracted. 3 = Steady, decent participation. 5 = Highly engaged, lively discussion and ownership.) Go with your gut, there's no wrong answer!
+low-label:: Low energy
+high-label:: Highly engaged
+optional:: true
+id:: 87617d24-39e1-424b-aa54-ce51b61bd8f5
+content:: What were some recurring challenges for participants this week? For example: confusion about content, motivation or time pressure, uncertainty about their thesis topic, supervisor constraints, or group dynamics. Specific examples help us improve the program!
+placeholder:: Share any challenges you noticed
+optional:: true
+
+#### Question: Open
+id:: 8d0982ef-04f8-44ae-be02-63677eff6713
+content:: Is there anything we can do to better support your facilitation journey?
+placeholder:: Anything from content questions to a tricky group situation
+optional:: true
 
 #### Question: Open
 id:: f91b4818-11de-4809-a851-dd3debe7d5d0
-content:: Anything you'd like to share about this week's guide? What worked in your session, what didn't, or what you'd change?
+content:: Anything else you'd like to share?
 placeholder:: Share as much or as little as you like
 optional:: true
 
