@@ -243,6 +243,8 @@ content:: How engaged was your group this week? (1 = Low energy, mostly quiet or
 low-label:: Low energy
 high-label:: Highly engaged
 optional:: true
+
+#### Question: Open
 id:: 8d160b83-ed1c-4f87-98d0-b771465140b1
 content:: What were some recurring challenges for participants this week? For example: confusion about content, motivation or time pressure, uncertainty about their thesis topic, supervisor constraints, or group dynamics. Specific examples help us improve the program!
 placeholder:: Share any challenges you noticed
@@ -259,7 +261,5 @@ id:: 54eee3a0-da5c-4ef3-b04e-aa953be9b648
 content:: Anything else you'd like to share?
 placeholder:: Share as much or as little as you like
 optional:: true
-
-#### End Callout
 
 #### End Callout
