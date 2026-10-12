@@ -238,7 +238,7 @@ style:: plain
 
 ## Glossary
 
-### Module: Unit 2: High-stakes and low-stakes threats
+### Module: High-stakes and low-stakes threats
 
 High-stakes threat (concentrated failure): A threat where one or a few actions, or a short time, are enough to cause a catastrophe, and each bad action tends to be clearly incriminating if inspected. Suspicious actions sometimes have to be blocked until reviewed.
 Low-stakes threat (diffuse or non-concentrated failure): A threat that needs many bad actions, each only weak evidence because it could easily be an honest mistake. Low-stakes does not mean low harm, and slower review after the fact can be acceptable.
@@ -251,7 +251,7 @@ Sandbagging: Deliberately doing worse than one can, for example giving poor idea
 Online training: Training the model during deployment on a proxy for good work, such as code quality or human ratings. It does not need a guess of how an honest model's work would look, but the proxy may be poor and the model can learn to exploit it.
 Incrimination: Becoming confident from the evidence that a model is misaligned. In the low-stakes case it needs a good guess of how suspicious an honest model's work would look, which is hard to get.
 
-### Module: Unit 2: The AI control field
+### Module: The AI control field
 
 Control evaluation setting: A test environment in which a red team plays the scheming model against a protocol. Greenblatt suggests about a third of current control resources go to building and using these.
 Alignment Project: The UK AI Security Institute's fund for alignment and control research, which reached £27m and named its first 60 grantees in February 2026.
