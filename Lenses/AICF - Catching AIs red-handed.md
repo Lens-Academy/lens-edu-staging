@@ -13,7 +13,7 @@ content::
 In Unit 1 you saw that a control evaluation counts catching the model as a win for the safety team. Here Ryan Greenblatt and Buck Shlegeris explain why. This is a second route by which control is meant to reduce risk: not only blocking an attack, but catching the attempt and using what you learn. The rest of the post, with its list of ways to use a caught attempt, is collapsed below the excerpt. Open it if you want to read the optional lens at the end of this unit, which continues from that list.
 
 #### Article
-source:: [[../articles/shlegeris-catching-ais-red-handed]]
+source:: [[../articles/greenblatt-catching-ais-red-handed]]
 from:: "We’ve been spending a lot of time recently thinking"
 to:: "some researchers should probably work on developing these techniques."
 
