@@ -117,14 +117,14 @@ One or two people share what their group landed on. After that, your navigator w
 ---
 
 \pagebreak
-### Room 4: Buddies, next unit, feedback  [1:15–1:27]
+### Room 4: Buddies, next unit  [1:15–1:27]
 
 **New group. Names first, then straight in.**
 
 
 1. Accountability buddies: the people in this breakout room are your accountability buddies (if you are four or more, split into two groups). Swap contact details in the table now.
 2. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
-3. Feedback: what would make the course and this meeting better?
+
 
 
 | Names | Buddy contacts + your plan for the next unit + feedback |
