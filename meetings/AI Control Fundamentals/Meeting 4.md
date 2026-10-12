@@ -147,10 +147,10 @@ One or two people share what their group landed on.
 
 1\. One question this unit left open for you.
 2\. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
-3\. Feedback: what would make the course and this meeting better?
 
 
-| Names | One open question + your plan for the next unit + feedback |
+
+| Names | One open question + your plan for the next unit |
 |------|------------------------|
 |  |  |
 |  |  |
