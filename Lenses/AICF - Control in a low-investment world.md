@@ -16,7 +16,6 @@ Buck Shlegeris is [CEO of Redwood Research](https://80000hours.org/podcast/episo
 source:: [[../video_transcripts/80-000-hours-controlling-ai-that-wants-to-take-over-so-we-can-use-it-anyway-buck-shlegeris]]
 from:: 5:46.0
 to:: 11:46.2
-skip:: 6:27.0-7:12.8
 
 #### Question: Open
 id:: 0c7b1b86-f46d-42cf-bc6d-a974711022f9
