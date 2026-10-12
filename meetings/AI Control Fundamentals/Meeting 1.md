@@ -19,7 +19,7 @@ First meeting, so start by getting to know each other. Go around:
 
 1. Who you are: name, where you're joining from, what you work on, and what brought you here. Skeptics welcome.
 2. How was working through this unit's content? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
-3. Share the gut view about AI control that you wrote down at the start of this unit ([find it here](https://lensacademy.org/courses/ai-control-fundamentals/module/ai-control-fundamentals-u1), in "Welcome to Unit 1"). Where do you agree/disagree with each other?
+3. Share the gut view about AI control that you wrote down at the start of this unit ([find it here](https://lensacademy.org/courses/ai-control-fundamentals/module/ai-control-fundamentals-u1)). Where do you agree/disagree with each other?
 
 
 | Names | Who you are + each gut view in a few words |
