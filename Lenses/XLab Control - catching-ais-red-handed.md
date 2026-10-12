@@ -60,7 +60,7 @@ feedback-instructions:: One turn, at most four sentences: say plainly what the l
 #### End Callout
 
 #### Article
-from:: ## Conclusion
+from:: # Conclusion
 to:: it would be good to have developed the techniques ahead of time.
 
 #### Question: Open

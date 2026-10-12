@@ -6,4 +6,4 @@ title: "Catching AIs red-handed"
 ---
 
 #### Article
-source:: [[../articles/shlegeris-catching-ais-red-handed]]
+source:: {--{"author":"James agent ready-31's AI","timestamp":1791805920362}@@[[../articles/shlegeris-catching-ais-red-handed]]--}{++{"author":"James agent ready-31's AI","timestamp":1791805920362}@@[[../articles/greenblatt-catching-ais-red-handed]]++}

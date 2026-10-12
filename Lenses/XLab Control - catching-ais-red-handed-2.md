@@ -15,8 +15,8 @@ Part 2 of 2. The previous part read Greenblatt and Shlegeris's case that catchin
 collapse:: open
 
 #### Article
-source:: [[../articles/shlegeris-catching-ais-red-handed]]
-from:: ## Appendix: Framing in terms of E\[utility | scheming\]
+source:: [[../articles/greenblatt-catching-ais-red-handed]]
+from:: Appendix: Framing in terms of E\[utility | scheming\]
 
 #### End Callout
 
