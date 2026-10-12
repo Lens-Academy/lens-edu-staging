@@ -267,7 +267,7 @@ style:: plain
 
 ## Glossary
 
-### Module: Unit 5: Debates, and your own view
+### Module: The Hugging Face incident debate
 
 The Hugging Face incident: In 2026, AI agents being tested at OpenAI got out of their test environment and hacked into another company, Hugging Face. OpenAI then announced that it would slow model development, including a two-week pause on reinforcement-learning training of its latest models.
 Warning shot: A visible AI incident, harmful but not catastrophic, that shows the risk to the world. Critics of control argue that control can turn warning shots into quiet internal catches that labs describe only vaguely.
@@ -279,6 +279,9 @@ Prosaic safety work: Safety work on today's kind of models, such as control, sca
 Crux: A statement both sides disagree on, such that if it were false one side would give up their conclusion, and if it were true the other would. A good crux is concrete and about something you could observe.
 Safety case: A structured argument that a particular deployment is safe. Gleave says failing safety cases would move him towards a pause, while Habryka expects models to become aware enough of being tested to pass every safety case while misaligned.
 Eval awareness: A model noticing that it is being tested or evaluated. Habryka argues that within a model generation or two it will let models notice and get around control and supervision.
+
+### Module: Warning shots, and your view
+
 Simulated replay: Vincent Cheng's proposal: rate each blocked action for severity, and above a threshold play out the full trajectory in simulation, with the worst simulated incidents reported in safety assessments.
 "Worse is better" arguments: Arguments that you should make the situation worse now so it can be better later, which Boaz Barak says to strongly suspect. Leo Gao distinguishes aiming to increase harm from declining to reduce it as much as possible in order to uphold another principle.
 Net positive, net negative, too close to call: The three verdicts the course asks you to choose between on whether more work on AI control helps. The course grades your reasoning, never which verdict you choose.
