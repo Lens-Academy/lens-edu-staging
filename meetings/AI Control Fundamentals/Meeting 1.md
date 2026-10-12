@@ -127,7 +127,7 @@ One or two people share what their group landed on. After that, your navigator w
 
 
 
-| Names | Buddy contacts + your plan for the next unit + feedback |
+| Names | Buddy contacts + your plan for the next unit |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -168,7 +168,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:47–0:52 | Break |
 | 0:52–1:10 | R3 Whose honesty does safety rest on? (reshuffle) |
 | 1:10–1:15 | Back together (whole group) |
-| 1:15–1:27 | R4 Buddies, next unit, feedback (reshuffle) |
+| 1:15–1:27 | R4 Buddies, next unit (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
 
 ### Lobby/Welcoming the participants
@@ -223,7 +223,7 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 **Room 1, Getting to know each other.** Keep introductions to about thirty seconds each so ask 3 gets time. Ask 3 is the gut-view note from the Unit 1 welcome, revisited in Unit 5. Take every view as it comes: "hopeless", "obviously doable" and "could make things worse" are all fine. If a room starts arguing, ask them to hear everyone's view first and say Unit 4 and Unit 5 are where these views get tested.
 **Room 2, Check the insider, or limit the damage?** Ask groups to pick an organisation someone has worked in, not "a tech company". Checks to listen for: hiring checks, references, interviews, probation periods. Limits to listen for: separation of duties, logging, review by a second person, least privilege, audits. Ask 3 is the room's main point: checks of good behaviour cannot catch someone who behaves well whenever they might be tested, while limits on what they can do still hold. The reading makes the same claim about AI models. Let groups reach it themselves, and do not supply it. If a group has time left, ask what changes when the secret insider is an AI model, and treat "the analogy fails" as a real answer. Differences from a human insider that groups may raise: many copies of the model that could coordinate, speed and volume of work, and that a model can be rewound and asked again with no memory of the first try. Listen for Shlegeris's comparison from the "Spies, insiders and auditing" lesson. Guarding against a model is harder than guarding against a human spy, because every copy is probably on the same side, so a second copy is no independent reviewer. It is easier, because the lab controls everything the model sees and can test it with honeypots many times.
 **Room 3, Whose honesty does safety rest on?** No answer key. "T checks" is trusted monitoring from the reading: it rests on T, which is trusted, but only holds if T is good enough to spot U's attacks. "Copy checks" is untrusted monitoring: it rests on a copy of U, which is untrusted and could simply cover for U. Groups who watched Robert Miles may say the lab can test the copy with fake attacks it planted itself and strip hidden signals from the code. That is right, and in the founding experiment it made this setup much safer. Ask them what safety then depends on (that the copy cannot tell the fake attacks from real ones). "T writes" is new: T writes everything and is trusted, and U's reviews only add information, but expect someone to ask whether U could talk T into a harmful "fix". "Track record" trusts U because of its record, which is an alignment argument: a model working against the lab would also behave well for a year. This is the argument Google DeepMind makes in the unit's reading ("permissions based on their verified behavior"). If a group raises it, ask whether giving access step by step could still be a control argument (only if each step stays safe even if the model is scheming). Rankings will differ, and that is fine as long as groups say why. In ask 3, push for something concrete the model does. Ask 4 connects to the reading's claim that a control evaluation only tells you something if the red team is at least as good at finding attacks as a scheming model would be. Do not resolve whether that is achievable.
-**Room 4, Buddies, next unit, feedback.** In the whole-group slot before Room 4, walk through the three buddy steps in the doc (about a minute), and ask buddies to message each other today, so both know the channel works. Insist on real contact details in the table. Unit 2 is about the same length as Unit 1, so people know what that feels like: push for a concrete plan (when, where, how much at a time).
+**Room 4, Buddies, next unit.** In the whole-group slot before Room 4, walk through the three buddy steps in the doc (about a minute), and ask buddies to message each other today, so both know the channel works. Insist on real contact details in the table. Unit 2 is about the same length as Unit 1, so people know what that feels like: push for a concrete plan (when, where, how much at a time).
 
 # Tab: Glossary
 style:: plain
