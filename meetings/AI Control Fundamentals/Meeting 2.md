@@ -97,7 +97,7 @@ One or two people share what their group landed on.
 
 Example questions:
 
-- If an AI's sabotage can look exactly like an honest mistake, should we let AIs do safety research at all?
+
 - Would you trust an AI company's own report on how well it monitors its agents? What would change your mind?
 - Would you rather do control work inside an AI company or at an outside group? What would you gain and lose?
 
