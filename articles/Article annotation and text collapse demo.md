@@ -40,3 +40,39 @@ optional:: true
 :::
 
 General authored-content features such as hidden text, Lens notes, footnotes, callouts, and math are demonstrated in the separate **Authored content features demo** Lens.
+
+## A dialogue in callouts
+
+Some articles are dialogues. Each turn can sit in its own callout, so the reader always sees who is speaking.
+
+:::callout{title="Ada" tone="blue"}
+
+I think the first step is to write down what we expect to see. Then we can tell whether the result surprised us.
+
+Without that, every result looks obvious after the fact.
+
+:::
+
+:::callout{title="Ben" tone="green"}
+
+I agree about writing it down. But a prediction should also say how sure we are.
+
+:::
+
+:::callout{title="Ben" tone="green"}
+
+One more point: we should agree on the prediction before anyone looks at the data.
+
+:::
+
+::::callout{title="Appendix: notes after the talk" collapse="closed"}
+
+These notes were added a week later.
+
+:::callout{title="Ada" tone="blue"}
+
+Looking back, the second prediction was the more useful one. It told us where to look next.
+
+:::
+
+::::
