@@ -17,9 +17,8 @@ source:: [[../shared/Session Doc - How today works]]
 
 Go around your group:
 1\. How was this unit? Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to the last one? (No judgment, "I didn't finish" is a fine answer.)
-2\. {--{"author":"James agent ready-31's AI","timestamp":1791793153081}@@Based on your reading of what the different labs and organisations currently do for control,--}{++{"author":"James agent ready-31's AI","timestamp":1791793153081}@@If an AI's sabotage can look exactly like an honest mistake, should we let AIs++} do {--{"author":"James agent ready-31's AI","timestamp":1791793153081}@@you think their investment and effort is sufficient? 
-3\. Where would you want more investment? (Fundamental research, red-teaming, active monitoring, ...)--}{++{"author":"James agent ready-31's AI","timestamp":1791793153081}@@safety research at all?++}
-{--{"author":"James agent ready-31's AI","timestamp":1791793153081}@@4\.--}{++{"author":"James agent ready-31's AI","timestamp":1791793153081}@@3\.++} If you still have time: which reading or talk stayed with you most? Sum it up for anyone who missed it.
+2\. If an AI's sabotage can look exactly like an honest mistake, should we let AIs do safety research at all?
+{++{"author":"James agent ready-31's AI","timestamp":1791793153081}@@3\.++} If you still have time: which reading or talk stayed with you most? Sum it up for anyone who missed it.
 
 
 | Names | How the unit went + should AIs do safety research? |
@@ -96,7 +95,6 @@ One or two people share what their group landed on.
 3\. Discuss the ones the group is most curious about. The point is the discussion, not a tidy answer.
 
 Example questions:
-
 
 - Would you trust an AI company's own report on how well it monitors its agents? What would change your mind?
 - Would you rather do control work inside an AI company or at an outside group? What would you gain and lose?
