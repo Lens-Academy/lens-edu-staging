@@ -112,7 +112,7 @@ Places:
 1\. Your 10 go to one or two kinds of work. Which help most against it?
 2\. Where should each be done? Decide by what it needs: access to a company's systems, independence from companies, or both.
 3\. Now AI companies close their internal systems and data to outsiders. Public models stay available. Which choices still work?
-{--{"author":"James agent ready-31's AI","timestamp":1791791578065}@@4\. If you still have time: in 2025, estimates put 5 to 50 people full-time on control and about 620 in all technical AI safety. Money and papers have grown fast since. Does control need more people? People disagree, so disagree freely.--}
+
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
