@@ -20,7 +20,7 @@ Go around your group:
 2\. Based on your reading of what the different labs and organisations currently do for control, do you think their investment and effort is sufficient?{--{"author":"James agent ready-31's AI","timestamp":1791791613841}@@ 
 3\.Where --}{++{"author":"James agent ready-31's AI","timestamp":1791791613841}@@ (Rough 2025 estimates: 5 to 50 people full-time on control, about 620 in all of technical AI safety. Money and papers on control have grown since.)
 3\. Where ++}would you want more {--{"author":"James agent ready-31's AI","timestamp":1791791574106}@@inventment?--}{++{"author":"James agent ready-31's AI","timestamp":1791791574106}@@investment?++} (Fundamental research, red-teaming, active {--{"author":"James agent ready-31's AI","timestamp":1791791574106}@@monitoring,...)--}{++{"author":"James agent ready-31's AI","timestamp":1791791574106}@@monitoring, ...)++}
-4\. If you still have time: which reading or talk stayed with you most? If others missed it, sum it up in a minute.
+4\. If you still have time: which reading or talk stayed with you most? Sum it up for anyone who missed it.
 
 
 | Names | How the unit went + enough or not + where you'd want more |
