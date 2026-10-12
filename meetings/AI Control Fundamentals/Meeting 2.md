@@ -57,6 +57,7 @@ Places:
 
 - Redwood Research (nonprofit)
 - UK AI Security Institute (government)
+- an AI company's monitoring team
 - METR (independent evaluator)
 - a university group
 
