@@ -71,34 +71,31 @@ One or two people share what their group landed on.
 ### Break: 5 min  [0:47–0:52]
 
 \pagebreak
-### Room 3: Whose honesty does safety rest on?  [0:52–1:10]
+### Room 3: Would you keep the checks?  [0:52–1:10]
 
 **New group. Names first, then straight in.**
 
 
-A lab has AI models write its code:
+You run an AI company. Your new model writes most of your code and is the best ever made. In a year it has done nothing harmful that anyone noticed. But it could still be secretly working against you.
 
-- **U**: new and very capable. It passes the lab's tests of the abilities needed to secretly work against the lab, so it is untrusted.
-- **T**: older and weaker. It clearly fails those tests, so it is trusted.
-- **Humans**: can check only 2% of the work.
+How do you use it?
 
-Four setups:
+- **No checks:** full speed.
+- **Trusted monitoring:** an older model you trust flags suspicious code. Humans check the worst 2%. Nearly full speed.
+- **Untrusted monitoring:** a copy of the new model flags suspicious code. It catches more, but it may be on the new model's side. Costs more compute.
+- **Trusted editing:** the older model rewrites suspicious code. Slower, worse code.
+- **Older model writes:** the new model only points out bugs. Much slower, much worse code.
 
-- **T checks**: U writes. T scores each change for suspicion. Humans check the 2% that score most suspicious.
-- **Copy checks**: U writes. A second copy of U scores each change. Humans check the 2% that score most suspicious.
-- **T writes**: T writes. U reviews and points out bugs, which T can fix or ignore.
-- **Track record**: U writes. U has behaved well for a year, so it now checks its own work.
-
-1. For each setup: if U is secretly working against the lab, which model's honesty does safety depend on?
-2. Rank the setups from safest to least safe.
-3. Now be the red team: the people who play U and search for its best attack. In your safest setup, how would U get harmful code through anyway?
-4. If you still have time: a real model might find an attack your red team missed. What would convince you that a red team searched well enough?
+1. Go around: which would you choose, and why?
+2. A competitor uses no checks and pulls ahead. Your investors want you to drop yours. Do you?
+3. What would make you switch to a safer setup, or a faster one?
+4. If you still have time: what could make the race less of a problem?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
-| Names | Your ranking + your best attack + what would convince you |
+| Names | Your choice + do you keep it under pressure + what would make you switch |
 |------|------------------------|
 |  |  |
 |  |  |
