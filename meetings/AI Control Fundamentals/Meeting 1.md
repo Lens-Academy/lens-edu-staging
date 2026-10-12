@@ -120,7 +120,7 @@ One or two people share what their group landed on. After that, your navigator w
 
 
 1. Accountability buddies: the people in this breakout room are your accountability buddies (if you are four or more, split into two groups). Swap contact details in the table now.
-2. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
+2. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? 
 
 
 
