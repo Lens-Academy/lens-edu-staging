@@ -17,12 +17,12 @@ source:: [[../shared/Session Doc - How today works]]
 
 Go around your group:
 1\. How was this unit? Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to the last one? (No judgment, "I didn't finish" is a fine answer.)
-2\. Based on your reading of what the different labs and organisations currently do for control, do you think their investment and effort is sufficient? 
-3\. Where would you want more investment? (Fundamental research, red-teaming, active monitoring, ...)
-4\. If you still have time: which reading or talk stayed with you most? Sum it up for anyone who missed it.
+2\. {--{"author":"James agent ready-31's AI","timestamp":1791793153081}@@Based on your reading of what the different labs and organisations currently do for control,--}{++{"author":"James agent ready-31's AI","timestamp":1791793153081}@@If an AI's sabotage can look exactly like an honest mistake, should we let AIs++} do {--{"author":"James agent ready-31's AI","timestamp":1791793153081}@@you think their investment and effort is sufficient? 
+3\. Where would you want more investment? (Fundamental research, red-teaming, active monitoring, ...)--}{++{"author":"James agent ready-31's AI","timestamp":1791793153081}@@safety research at all?++}
+{--{"author":"James agent ready-31's AI","timestamp":1791793153081}@@4\.--}{++{"author":"James agent ready-31's AI","timestamp":1791793153081}@@3\.++} If you still have time: which reading or talk stayed with you most? Sum it up for anyone who missed it.
 
 
-| Names | How the unit went + enough or not + where you'd want more |
+| Names | How the unit went + should AIs do safety research? |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -159,7 +159,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | Time | Block |
 |---|---|
 | 0:00–0:05 | Lobby / welcome (whole group) |
-| 0:05–0:19 | R1 Is control getting enough? (breakout, aim 3) |
+| 0:05–0:19 | R1 Sabotage or honest mistake? (breakout, aim 3) |
 | 0:19–0:24 | Back together (whole group) |
 | 0:24–0:42 | R2 Ten new control researchers (reshuffle) |
 | 0:42–0:47 | Back together (whole group) |
@@ -181,7 +181,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 2. Name the new format (small breakout rooms of 3, new people each time, and a five-minute get-together after each room where anyone can share what their group landed on)
 3. Tell them the doc is in the chat + Discord and to open it + check they can type
 4. Run through the arc
-    - opening round and whether control is getting enough → where ten new control researchers should work → your own questions from this unit → next unit, feedback
+    - opening round and whether AIs should do safety research → where ten new control researchers should work → your own questions from this unit → next unit, feedback
     - say the meeting will take 90 min
 5. Inform participants that you will be jumping between rooms with your camera turned off to listen in and they can ask questions whenever you join
 6. Start room 1
