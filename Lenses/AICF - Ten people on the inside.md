@@ -28,6 +28,7 @@ Rohin Shah, who leads AGI safety work at Google DeepMind, agrees with Zac and ad
 
 #### Article
 source:: [[../articles/shah-comment-on-ten-people-on-the-inside]]
+
 #### Text
 content::
 In June 2026, Shlegeris published a new post, "Efficient tradeoffs and the safety-usefulness tradeoff model", about how safety measures trade off against how useful an AI is. In one paragraph of it he looks back at "Ten people on the inside":
