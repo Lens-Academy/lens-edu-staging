@@ -109,7 +109,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-1\. Next unit: why people work on control, and what has to go right for it to help. What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
+1\. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
 2\. Feedback: what would make the course and this meeting better?
 
 
