@@ -118,6 +118,32 @@ source:: [[../articles/Article annotation and text collapse demo]]
 from:: "This short article exists"
 to:: "source attribution with author and publication date"
 
+%% An article can put each speaker's turn in a `:::callout` box. An excerpt may start or end in the middle of a turn: the platform reopens the box at the start and closes it at the end, so the reader always sees who is speaking, and the text left out between excerpts keeps its boxes too. %%
+# Lens: Excerpts that cut through callouts
+id:: 36729166-09fb-47d6-87b6-7a41c24acc5a
+tldr:: Shows excerpts of a dialogue whose turns are callout boxes: an excerpt that starts or ends inside a turn still shows that turn's box.
+summary_for_tutor:: Demo lens for article excerpts that cut through :::callout boxes. Three Article segments quote the dialogue at the end of the Article presentation demo. The first starts in the middle of Ada's turn and ends in the middle of Ben's, the second lies inside Ben's second turn, and the third starts inside the closed appendix box and ends in the middle of Ada's turn inside it.
+reading_minutes:: 1
+
+#### Text
+content::
+The excerpts below come from a short dialogue in which every turn is a callout box. The first excerpt starts in the middle of Ada's turn and ends in the middle of Ben's. The second lies inside one turn. The third starts inside a closed appendix box and ends inside a turn in that box.
+
+#### Article
+source:: [[../articles/Article annotation and text collapse demo]]
+from:: "Then we can tell whether"
+to:: "I agree about writing it down."
+
+#### Article
+source:: [[../articles/Article annotation and text collapse demo]]
+from:: "we should agree on the prediction"
+to:: "before anyone looks at the data."
+
+#### Article
+source:: [[../articles/Article annotation and text collapse demo]]
+from:: "These notes were added"
+to:: "the second prediction was the more useful one."
+
 %% This Lens shows Obsidian-style links that jump to headings or stable block markers within the same Lens. %%
 # Lens:
 source:: [[../Lenses/Same-lens links demo]]
