@@ -35,7 +35,10 @@ source:: [[../Lenses/AICF - Control inside AI companies]]
 notes:: Google DeepMind's AI Control Roadmap summary on how its defences grow with model capability, and the UK AI Security Institute's Control Red Team post on testing company monitors from outside.
 ## Lens:
 source:: [[../Lenses/AICF - Who works on AI control]]
-notes:: Lens page on organisations, people and size, October 2026, every line sourced.
+notes:: Lens page on organisations and people, October 2026, every line sourced.
+## Lens:
+source:: [[../Lenses/AICF - How big is the AI control field]]
+notes:: Lens page on the size of the field, October 2026, every line sourced.
 ## Lens:
 source:: [[../Lenses/AICF - Research areas from the UK AI Security Institute]]
 notes:: A second, funder-facing map of control research areas.
