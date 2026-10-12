@@ -189,6 +189,8 @@ Actors:
 3. Feedback: what would make the course and this meeting better?
 ```
 
+Do not ask for feedback on the course or the meeting in Room 4: the post-meeting surveys collect it (Elias, 2026-10-12).
+
 Final unit variant:
 ```
 **Your ongoing action**
