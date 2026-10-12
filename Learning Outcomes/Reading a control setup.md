@@ -6,7 +6,7 @@ stage: beginner
 authors:
   - Elias+Claude
 ---
-%% Beginner outcome for AI Control Fundamentals Unit 1. It applies the unit's vocabulary (untrusted and trusted models, unacceptable outcomes, monitors, auditing, responses, control versus alignment claims, red teams, the worst-case assumptions control makes and does not make, the limits of control) to a realistic deployment. Core practice: the scenario exercise in "Control versus alignment" (three set-ups, then a new set-up asking for the unacceptable outcome and one assumption or gap) and the Google DeepMind part of "Control in use today". Optional practice: OpenAI's set-up in "Control in use today" and the roleplay "Practice: take apart a deployment pitch", which scores the same moves on a different set-up. %%
+%% Beginner outcome for AI Control Fundamentals Unit 1. It applies the unit's vocabulary (untrusted and trusted models, unacceptable outcomes, monitors, auditing, responses, control versus alignment claims, red teams, the worst-case assumptions control makes and does not make, the limits of control) to a realistic deployment. Core practice: the scenario exercise in "Control versus alignment" (three set-ups, then a new set-up asking for the unacceptable outcome and one assumption or gap) and the Google DeepMind part of "Control in use today". Optional practice: OpenAI's set-up in its own optional lesson, "OpenAI's monitor for its internal coding agents", and the roleplay "Practice: take apart a deployment pitch", which scores the same moves on a different set-up. %%
 ## Test:
 id:: 0cf1bc5b-a3ca-41fc-b5c6-5533bd52e69b
 
@@ -32,7 +32,10 @@ source:: [[../Lenses/AICF - The case for control - what control is]]
 notes:: Scenario exercise: judge three set-ups, then name the unacceptable outcome and one assumption or gap for a new one (parts 1, 2 and 5).
 ## Lens:
 source:: [[../Lenses/AICF - Control in use today]]
-notes:: Practice in reading a real company set-up (Google DeepMind). OpenAI's set-up is optional.
+notes:: Practice in reading a real company set-up (Google DeepMind).
+## Lens:
+source:: [[../Lenses/AICF - OpenAI's monitor for its internal coding agents]]
+notes:: Optional. OpenAI's set-up, a second real company set-up to read.
 ## Lens:
 source:: [[../Lenses/AICF - The case for control - how control is tested]]
 notes:: Teaches the assumptions behind part 5: that a red team can find attacks as good as the model's, and that capability evaluations are not sandbagged.
