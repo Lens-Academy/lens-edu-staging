@@ -17,7 +17,7 @@ source:: [[../shared/Session Doc - How today works]]
 
 Go around your group:
 1\. How was this unit? Did you finish it? If you didn't, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
-2\. Would you rather work on control inside an AI company or at an outside group?
+2\. Imagine your only goal is to make the future go well, not pay or prestige. Would you work on control inside an AI company or at an outside group?
 3\. What speaks for each side?
 4\. If you still have time: where specifically would you like to work, and why?
 
