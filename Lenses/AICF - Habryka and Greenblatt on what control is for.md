@@ -12,26 +12,19 @@ tags:
 content::
 In March 2024 Oliver Habryka and Ryan Greenblatt, co-author of the case for control you read in Unit 1, wrote a dialogue on LessWrong about how useful control is. Habryka is the sceptic. He starts by restating the case for control in his own words, and Greenblatt agrees with the restatement. Read it as a list of routes, then notice which one Habryka thinks could backfire. Unit 4 covers the rest of his criticisms.
 
-#### Callout: Oliver Habryka
-tone:: blue
-
 #### Article
 source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
 from:: "## The Case for Control Work"
+to:: "shortening timelines and giving us less time to work on this"
 
 #### Text
 content::
 Later in the dialogue, Greenblatt replies to Habryka's second point:
 
-#### Callout: Ryan Greenblatt
-tone:: green
-
 #### Article
 source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
 from:: "One **(2)** (control being used for capabilities research)"
 to:: "if that doesn't transfer to non-adversarial cases)."
-
-#### End Callout
 
 #### Question: Open
 id:: 653079d9-007a-40f1-9d16-19763f9f94ab
