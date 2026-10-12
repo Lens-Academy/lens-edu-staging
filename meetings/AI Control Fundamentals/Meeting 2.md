@@ -13,13 +13,13 @@ title: AI Control Fundamentals Unit 2 Meeting Doc
 source:: [[../shared/Session Doc - How today works]]
 
 \pagebreak
-### Room 1: {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Sabotage--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Inside a company++} or {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@honest mistake?--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@outside?++}  [0:05–0:19]
+### Room 1: Inside a company or outside?  [0:05–0:19]
 
 Go around your group:
 1\. How was this unit? Did you finish it? If you didn't, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
-2\. {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@If an AI's sabotage can look exactly like--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Would you rather work on control inside++} an {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@honest mistake, should we let AIs do safety research at all?--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@AI company or at an outside group?
-3\. What speaks for each side?++}
-{--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@3\.--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@4\.++} If you still have time:{--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@ which reading or talk stayed with--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@ where specifically would++} you {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@most? Sum it up for anyone who missed it.--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@like to work, and why?++}
+2\. Would you rather work on control inside an AI company or at an outside group?
+3\. What speaks for each side?
+4\. If you still have time: where specifically would you like to work, and why?
 
 
 | Names | How the unit went + {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@should AIs do safety research? --}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@inside or outside + where you would like to work ++}|
