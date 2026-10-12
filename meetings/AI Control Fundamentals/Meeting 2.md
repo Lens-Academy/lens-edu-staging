@@ -13,7 +13,7 @@ title: AI Control Fundamentals Unit 2 Meeting Doc
 source:: [[../shared/Session Doc - How today works]]
 
 \pagebreak
-### Room 1: Is control getting enough?  [0:05–0:19]
+### Room 1: Sabotage or honest mistake?  [0:05–0:19]
 
 Go around your group:
 1\. How was this unit? Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to the last one? (No judgment, "I didn't finish" is a fine answer.)
