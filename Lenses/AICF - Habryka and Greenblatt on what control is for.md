@@ -12,19 +12,163 @@ tags:
 content::
 In March 2024 Oliver Habryka and Ryan Greenblatt, co-author of the case for control you read in Unit 1, wrote a dialogue on LessWrong about how useful control is. Habryka is the sceptic. He starts by restating the case for control in his own words, and Greenblatt agrees with the restatement. Read it as a list of routes, then notice which one Habryka thinks could backfire. Unit 4 covers the rest of his criticisms.
 
+#### Callout: Oliver Habryka
+tone:: blue
+
 #### Article
 source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
-from:: "## The Case for Control Work"
-to:: "shortening timelines and giving us less time to work on this"
+from:: "Let's start by me restating"
+to:: "do one of the three above."
+
+#### End Callout
+
+#### Callout: Ryan Greenblatt
+tone:: green
+
+#### Article
+source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
+from:: "> Does this seem like a non-crazy"
+to:: "serious interest for a while)."
+
+#### End Callout
+
+#### Callout: Ryan Greenblatt
+tone:: green
+
+#### Article
+source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
+from:: "Regarding"
+to:: "longtermist perspective.)"
+
+#### End Callout
+
+#### Callout: Ryan Greenblatt
+tone:: green
+
+#### Article
+source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
+from:: "(Mostly an aside) I think"
+to:: "secure for this AI lab.)"
+
+#### End Callout
+
+#### Callout: Oliver Habryka
+tone:: blue
+
+#### Article
+source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
+from:: "Yep, makes sense. Agree that"
+to:: "other people are working on."
+
+#### End Callout
+
+#### Callout: Ryan Greenblatt
+tone:: green
+
+#### Article
+source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
+from:: "Prior to getting more into"
+to:: "AIs which are very useful.)"
+
+#### End Callout
+
+#### Callout: Ryan Greenblatt
+tone:: green
+
+#### Article
+source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
+from:: "I'm curious what you think"
+to:: "frame before moving forward."
+
+#### End Callout
+
+#### Callout: Oliver Habryka
+tone:: blue
+
+#### Article
+source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
+from:: "Yeah, I was actually just"
+to:: "against such a slowdown?"."
+
+#### End Callout
+
+#### Callout: Ryan Greenblatt
+tone:: green
+
+#### Article
+source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
+from:: "I think there are two somewhat"
+to:: "which can be quite wrong."
+
+#### End Callout
+
+#### Callout: Oliver Habryka
+tone:: blue
+
+#### Article
+source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
+from:: "I do really want to put up"
+to:: "think it's a random strawman."
+
+#### End Callout
+
+#### Callout: Ryan Greenblatt
+tone:: green
+
+#### Article
+source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
+from:: "Agreed that we should absolutely"
+to:: "empirical views, it seems good.)"
+
+#### End Callout
+
+#### Callout: Ryan Greenblatt
+tone:: green
+
+#### Article
+source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
+from:: "(I agree with the case made"
+to:: "this overall plan directly.)"
+
+#### End Callout
+
+#### Callout: Oliver Habryka
+tone:: blue
+
+#### Article
+source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
+from:: "(I assign too much probability"
+to:: "left to another discussion)"
+
+#### End Callout
+
+#### Text
+content::
+\## What goes wrong with control work
+
+#### Callout: Oliver Habryka
+tone:: blue
+
+#### Article
+source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
+from:: "I kind of want to make a"
+to:: "less time to work on this"
+
+#### End Callout
 
 #### Text
 content::
 Later in the dialogue, Greenblatt replies to Habryka's second point:
 
+#### Callout: Ryan Greenblatt
+tone:: green
+
 #### Article
 source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
 from:: "One **(2)** (control being used for capabilities research)"
 to:: "if that doesn't transfer to non-adversarial cases)."
+
+#### End Callout
 
 #### Question: Open
 id:: 653079d9-007a-40f1-9d16-19763f9f94ab
