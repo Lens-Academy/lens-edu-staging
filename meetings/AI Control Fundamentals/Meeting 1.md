@@ -76,7 +76,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-You run an AI company. Your new model writes most of your code and is the best ever made. In a  it has done nothing harmful that anyone noticed. But it could still be secretly working against you.
+You run an AI company. Your new model writes most of your code and is the best ever made. In a month of testing it has done nothing harmful that anyone noticed. But it could still be secretly working against you.
 
 How do you use it?
 
