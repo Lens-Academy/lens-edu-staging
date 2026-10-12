@@ -18,7 +18,7 @@ source:: [[../shared/Session Doc - How today works]]
 Go around your group:
 1\. How was this unit? Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to the last one?
 2\. Based on your reading of what the different labs and organisations currently do for control, do you think their investment and effort is sufficient?{--{"author":"James agent ready-31's AI","timestamp":1791791613841}@@ 
-3\. Where would you want more investment?++} (Fundamental research, red-teaming, active {--{"author":"James agent ready-31's AI","timestamp":1791791574106}@@monitoring,...)--}{++{"author":"James agent ready-31's AI","timestamp":1791791574106}@@monitoring, ...)++}
+3\. Where would you want more investment? (Fundamental research, red-teaming, active {--{"author":"James agent ready-31's AI","timestamp":1791791574106}@@monitoring,...)--}{++{"author":"James agent ready-31's AI","timestamp":1791791574106}@@monitoring, ...)++}
 4\. If you still have time: which reading or talk stayed with you most? Sum it up for anyone who missed it.
 
 
