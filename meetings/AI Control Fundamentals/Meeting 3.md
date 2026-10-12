@@ -231,7 +231,7 @@ style:: plain
 
 ## Glossary
 
-### Module: Unit 3: Using AI while it can still be controlled
+### Module: Using AI while it can still be controlled
 
 Theory of change: The routes by which work on control is supposed to make an AI catastrophe less likely, and what each route needs in order to work.
 Political will: How much AI companies and governments want to act on AI risk. The unit asks how much each route of control depends on it.
@@ -243,7 +243,7 @@ Sharp left turn: Nate Soares's term for a sudden jump in capabilities that earli
 Sweet spot: Joe Carlsmith's term for a period when AIs are capable enough to help a lot with safety work, but cannot take over given our countermeasures. It is close to Greenblatt and Shlegeris's window.
 Treacherous turn: An AI behaving well until it can act against its developers.
 
-### Module: Unit 3: Catching AIs red-handed
+### Module: Catching AIs red-handed
 
 Catching an AI red-handed: Finding strong evidence that a model deliberately tried to do something catastrophic, such as escaping. Control counts a catch as a win.
 Catch-then-shut-down: After a catch, stop using the model, and use the evidence to argue for caution.
