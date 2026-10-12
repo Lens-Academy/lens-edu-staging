@@ -232,18 +232,17 @@ It seems pretty likely that if models scheme, mitigating the risks of their esca
 
 We think that few-shot catastrophe prevention seems like a fairly important problem to research, and some safety-concerned people should probably develop techniques for it, because if we need to use these techniques, we might be under a lot of time pressure, and it would be good to have developed the techniques ahead of time.
 
-:::callout {--{"author":"James agent ready-31's AI","timestamp":1791806847865}@@{title="Appendix" collapse="closed"}
-# Appendix:--}{++{"author":"James agent ready-31's AI","timestamp":1791806847865}@@{title="Appendix:++} Framing in terms of {--{"author":"James agent ready-31's AI","timestamp":1791806847865}@@E\[utility--}{++{"author":"James agent ready-31's AI","timestamp":1791806847865}@@E[utility++} | {--{"author":"James agent ready-31's AI","timestamp":1791806847865}@@scheming\] ^appendix-framing-in-terms--}{++{"author":"James agent ready-31's AI","timestamp":1791806847865}@@scheming]" collapse="closed"}++}
+:::callout {title="Appendix: Framing in terms of E[utility | scheming]" collapse="closed"}
 
 We often think about catching in the context of [AI control](https://www.alignmentforum.org/posts/d9FJHawgkiMSPjagR/ai-control-improving-safety-despite-intentional-subversion). One productive way to think about control evaluations is that they aim to measure E\[utility | scheming\]: the expected goodness of outcomes if we have a scheming AI. From this perspective, the argument for targeting either safety or catching when using control evaluations has two parts:
 
 -   **Catching allows for powerful non-control technical interventions**: After catching the AI, we gain access to techniques that seem very useful but aren’t control-evaluable and evaluation approaches which aren’t control. The section “Few-shot catastrophe prevention” discusses several non-control technical interventions that become possible after catching the AI. Non-control approaches become particularly appealing after catching the AI many times. Given that catching the AI might allow for quite powerful non-control technical approaches, we should either consider catching the AI to be a safe endpoint for control evaluations (which is exactly equivalent to targeting either safety or catching) or at least try to roughly model how the situation will change after catching the AI beyond just continuing the control evaluation.
 -   **Beyond directly improving safety, catching the AI is a very good outcome** and we should factor this into our evaluation.
 
-While catching seems quite valuable, a single catch isn’t sufficient to ensure safety.{++{"author":"James agent ready-31's AI","timestamp":1791806847865}@@
-:::++}
+While catching seems quite valuable, a single catch isn’t sufficient to ensure safety.
+:::
 
-{--{"author":"James agent ready-31's AI","timestamp":1791806847865}@@# Appendix:--}{++{"author":"James agent ready-31's AI","timestamp":1791806847865}@@:::callout {title="Appendix:++} Defining {--{"author":"James agent ready-31's AI","timestamp":1791806847865}@@catching ^appendix-defining-catching--}{++{"author":"James agent ready-31's AI","timestamp":1791806847865}@@catching" collapse="closed"}++}
+:::callout {title="Appendix: Defining catching" collapse="closed"}
 
 For the sake of this post, we’re mostly talking about catastrophic outcomes like the model [exfiltrating its weights](https://aligned.substack.com/p/self-exfiltration), that might involve just a small number of actions. There are other threat models associated with scheming, e.g. models subtly sabotaging work that they do in a way that renders their work useless, or subtly gaining influence over time. We’re ignoring these threat models for the sake of this post, but we think we can handle them with similar strategies.
 
@@ -253,10 +252,10 @@ To ensure that you can distinguish these intentional catastrophic actions, you n
 
 Even if you catch such an action that was clearly intentionally bad, you actually can’t be sure that the model is scheming as opposed to intentionally doing bad actions for some other less problematic reason. But, even if the model isn’t scheming, plausible other reasons why the model might do intentionally bad actions are pretty concerning. Also when you’re thinking about it from the perspective listed in the few-shot catastrophe prevention section, you’re never going to be worse off from catching more cases.
 
-To count as a successful catch, you need to be extremely confident in your catch. (This is so that catch-then-shut-down isn’t too costly ex-ante, legible evidence is actually valid, and such that you can be confident in the conclusions of various experiments based on the catch. We can still study merely sketchy seeming cases, but this will produce substantially less value.) Attaining sufficient confidence will probably involve a huge amount of investigation (which can be done while the AI lab is temporarily shut down). We imagine undertaking this large investigation after a sequence of escalations from smaller investigations. The actions listed in “few-shot catastrophe prevention” might also help to validate that this was really an attempt at causing catastrophic outcomes.{++{"author":"James agent ready-31's AI","timestamp":1791806847865}@@
-:::++}
+To count as a successful catch, you need to be extremely confident in your catch. (This is so that catch-then-shut-down isn’t too costly ex-ante, legible evidence is actually valid, and such that you can be confident in the conclusions of various experiments based on the catch. We can still study merely sketchy seeming cases, but this will produce substantially less value.) Attaining sufficient confidence will probably involve a huge amount of investigation (which can be done while the AI lab is temporarily shut down). We imagine undertaking this large investigation after a sequence of escalations from smaller investigations. The actions listed in “few-shot catastrophe prevention” might also help to validate that this was really an attempt at causing catastrophic outcomes.
+:::
 
-{--{"author":"James agent ready-31's AI","timestamp":1791806847865}@@# Appendix:--}{++{"author":"James agent ready-31's AI","timestamp":1791806847865}@@:::callout {title="Appendix:++} Techniques that don’t catch but do update {--{"author":"James agent ready-31's AI","timestamp":1791806847865}@@P(scheming) ^appendix-techniques-that-dont--}{++{"author":"James agent ready-31's AI","timestamp":1791806847865}@@P(scheming)" collapse="closed"}++}
+:::callout {title="Appendix: Techniques that don’t catch but do update P(scheming)" collapse="closed"}
 
 We’re defining “catch” here in a way that excludes techniques that might update you up on whether your model is scheming, but don’t involve having specific actions that the model takes with massively suspiciously high probability:
 
@@ -264,10 +263,10 @@ We’re defining “catch” here in a way that excludes techniques that might u
 -   **Indirect evidence:** e.g. model psychology, or mechanistic interpretability that doesn’t let you produce examples of inputs on which the model takes bad actions. It’s possible that we could use model psychology to get some sense of our model having nefarious intentions without being able to construct an example.  
 -   **Weird adversarial examples**: We might be able to find strange adversarial examples through search that trigger very undesirable behavior, in particular adversarial examples that involve very unlikely inputs [like a bunch of random tokens](https://arxiv.org/abs/2307.15043). It might also be possible to find [perturbations to the internals of a model that result in very undesirable behavior](https://www.lesswrong.com/posts/atBQ3NHyqnBadrsGP/latent-adversarial-training). We don’t know how to assess whether these adversarial examples are actually getting at latent scheming, or just tricking the model into scheming. In some cases, it might be possible to get more information or have a clear judgment (e.g. if we only used a small amount of search to find a concrete adversarial input and the input is high likelihood according to an LLM trained on our input distribution).
 
-(All of those might be promising research directions, they just don’t lead to catching the AI in the relevant sense.){++{"author":"James agent ready-31's AI","timestamp":1791806847865}@@
-:::++}
+(All of those might be promising research directions, they just don’t lead to catching the AI in the relevant sense.)
+:::
 
-{--{"author":"James agent ready-31's AI","timestamp":1791806847865}@@# Appendix:--}{++{"author":"James agent ready-31's AI","timestamp":1791806847865}@@:::callout {title="Appendix:++} Escape attempts can fail without being {--{"author":"James agent ready-31's AI","timestamp":1791806847865}@@caught ^appendix-escape-attempts-can--}{++{"author":"James agent ready-31's AI","timestamp":1791806847865}@@caught" collapse="closed"}++}
+:::callout {title="Appendix: Escape attempts can fail without being caught" collapse="closed"}
 
 Actions like escape attempts can succeed, be caught (and fail), or fail without being caught. We’d considerably prefer catching the AI to merely causing the AI to fail because catching the AI is useful for a variety of purposes. That said, causing bad actions to fail can still substantially aid safety by avoiding bad outcomes until either the end of deployment or we actually do catch the AI. In our paper, we make use of interventions like untrusted inspiration that don’t directly help in catching the AI, but do reduce its probability of succeeding at backdoors. 
 
@@ -275,10 +274,10 @@ Why might escape attempts end in failure without being caught?
 
 An escape attempt might require coordination between multiple AIs with access to somewhat different information. It’s possible that some AIs in the chain evade monitoring successfully, but the escape attempt “fizzles” without being caught due to a later AI not continuing the attempt (and also not reporting the escape attempt; if it reported the attempt then we might catch the attempt). This later AI might not continue the attempt either because it doesn’t notice that the earlier AIs started an escape attempt, or it does notice the escape attempt but thinks it’s not actually a good opportunity due to information only available to it.
 
-Another reason escape attempts could fail without being caught is that we have a countermeasure that is sufficient to block the action, but does not escalate to a higher level of auditing. For instance, suppose we resample all actions above some threshold of suspiciousness according to trusted monitoring, while only recommending actions for expensive auditing if they’re above a considerably higher threshold. (This is what we call a “hybrid strategy” in our [AI control paper](https://www.lesswrong.com/posts/d9FJHawgkiMSPjagR/ai-control-improving-safety-despite-intentional-subversion).) Then, we might end up stopping escape attempts via resampling, without escalating up the chain to auditing. Something similar can happen if human auditing finds that an action is somewhat suspicious and worth doing in a less suspicious way, but isn’t worth doing a more detailed review and/or pausing the usage of powerful models.{++{"author":"James agent ready-31's AI","timestamp":1791806847865}@@
-:::++}
+Another reason escape attempts could fail without being caught is that we have a countermeasure that is sufficient to block the action, but does not escalate to a higher level of auditing. For instance, suppose we resample all actions above some threshold of suspiciousness according to trusted monitoring, while only recommending actions for expensive auditing if they’re above a considerably higher threshold. (This is what we call a “hybrid strategy” in our [AI control paper](https://www.lesswrong.com/posts/d9FJHawgkiMSPjagR/ai-control-improving-safety-despite-intentional-subversion).) Then, we might end up stopping escape attempts via resampling, without escalating up the chain to auditing. Something similar can happen if human auditing finds that an action is somewhat suspicious and worth doing in a less suspicious way, but isn’t worth doing a more detailed review and/or pausing the usage of powerful models.
+:::
 
-{--{"author":"James agent ready-31's AI","timestamp":1791806847865}@@# Appendix:--}{++{"author":"James agent ready-31's AI","timestamp":1791806847865}@@:::callout {title="Appendix:++} When will AIs be {--{"author":"James agent ready-31's AI","timestamp":1791806847865}@@caught? ^appendix-when-will-ais--}{++{"author":"James agent ready-31's AI","timestamp":1791806847865}@@caught?" collapse="closed"}++}
+:::callout {title="Appendix: When will AIs be caught?" collapse="closed"}
 
 Escape attempts might be caught in the following situations:
 
