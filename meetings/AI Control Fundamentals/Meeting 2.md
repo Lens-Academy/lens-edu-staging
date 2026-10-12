@@ -42,12 +42,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Your group can hire 10 new control researchers. Pick one of these threats for them to defend against, from AI agents that might be working against their company:
-
-- An agent with access to the cluster settings changes one line so its own jobs skip the monitor.
-- An agent writes thousands of summaries of new safety papers a year and slightly undersells the most promising ideas.
-- An agent tests a new model for dangerous abilities and scores it a little lower than it deserves. The score decides whether the model is released.
-- An agent sets how suspicious an action must be before the monitor sends it to a human, and picks a level slightly too high.
+Your group can hire 10 new control researchers.
 
 Kinds of work:
 
