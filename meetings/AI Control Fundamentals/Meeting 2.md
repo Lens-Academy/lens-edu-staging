@@ -103,7 +103,7 @@ Kinds of work:
 - human review: who checks flagged agent actions, and how fast
 - checking whether a company's claims about its own monitoring are true
 
-Places they could work:
+Places:
 
 - Redwood Research, a research nonprofit
 - the UK AI Security Institute, a government body
@@ -113,6 +113,8 @@ Places they could work:
 
 1\. Which one or two kinds of work would help most against it?
 2\. Where should each be done? Decide by what it needs: access to a company's systems, independence from companies, or both.
+3\. Now AI companies stop giving outsiders any access. Which of your choices still work?
+4\. If you still have time: does control need more people? People disagree, so disagree freely.
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
