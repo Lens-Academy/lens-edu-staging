@@ -42,13 +42,6 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Two questions sort a threat:
-
-- How many bad actions does it need: few or many?
-- Is each one clear evidence of bad intent, or could it easily be an honest mistake?
-
-Few and damning is high-stakes. Many and weak is low-stakes. Low-stakes does not mean low harm.
-
 Four AI agents that might be working against their company:
 
 - An agent with access to the cluster settings changes one line so its own jobs skip the monitor.
