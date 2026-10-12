@@ -9,7 +9,7 @@ tags: []
 ---
 #### Text
 content::
-Part 2 of 2. The previous part read Greenblatt and Shlegeris's case that catching a model red-handed changes a lab's position, and their strategies for using a caught example. This part first reads the post's appendices: what exactly counts as a catch, how escape attempts can fail without being caught, what evidence moves the odds of scheming without a catch, and when a catch is likely to happen. It then asks whether a catch is enough, in two written exercises on whether the evidence from a catch would lead anyone to act.
+This part reads the appendices of Greenblatt and Shlegeris's "Catching AIs red-handed": what exactly counts as a catch, how escape attempts can fail without being caught, what evidence moves the odds of scheming without a catch, and when a catch is likely to happen. It then asks whether a catch is enough, in two written exercises on whether the evidence from a catch would lead anyone to act.
 
 #### Article
 source:: [[../articles/greenblatt-catching-ais-red-handed]]

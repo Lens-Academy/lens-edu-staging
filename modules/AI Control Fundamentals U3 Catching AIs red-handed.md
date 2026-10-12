@@ -9,8 +9,8 @@ title: "Catching AIs red-handed"
 source:: [[../Lenses/AICF - Catching AIs red-handed]]
 
 # Lens:
-source:: [[../Lenses/AICF - Would a catch change anything]]
-
-# Lens:
 optional:: true
 source:: [[../Lenses/XLab Control - catching-ais-red-handed-2]]
+
+# Lens:
+source:: [[../Lenses/AICF - Would a catch change anything]]
