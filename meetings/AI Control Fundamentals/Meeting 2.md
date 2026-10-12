@@ -74,25 +74,22 @@ One or two people share what their group landed on.
 ### Break: 5 min  [0:47–0:52]
 
 \pagebreak
-### Room 3:{--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@ Inside a company or outside?--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@ Your questions++}  [0:52–1:10]
+### Room 3: Your questions  [0:52–1:10]
 
 **New group. Names first, then straight in.**
 
 
-1\. {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Would --}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Take two minutes. Each of ++}you {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@rather work on control inside an AI company or at an outside group? Go around, one answer each.--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@writes down one or two questions from this unit that you would genuinely like the group to dig into.++}
-2\. {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@What speaks for each side?--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Go around and present your questions.++}
-3\. {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@If you still have time: where specifically would you like to work, and why?
-
-
-| Names | Inside or outside + what speaks for each side + where --}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Discuss the ones the group is most curious about. The point is the discussion, not a tidy answer.
+1\. Take two minutes. Each of you writes down one or two questions from this unit that you would genuinely like the group to dig into.
+2\. Go around and present your questions.
+3\. Discuss the ones the group is most curious about. The point is the discussion, not a tidy answer.
 
 Example questions:
 
 - If an AI's sabotage can look exactly like an honest mistake, should we let AIs do safety research at all?
-- Would ++}you {++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@trust an AI company's own report on how well it monitors its agents? What ++}would {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@like to work --}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@change your mind?
+- Would you trust an AI company's own report on how well it monitors its agents? What would change your mind?
 
 
-| Names | Your questions + where the discussion went ++}|
+| Names | Your questions + where the discussion went |
 |------|------------------------|
 |  |  |
 |  |  |
