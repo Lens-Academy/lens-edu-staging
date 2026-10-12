@@ -30,7 +30,7 @@ feedback-instructions:: The learner applies the appendix "Should AI-takeover-con
 content::
 \## Does the window route lead anywhere?
 
-When the post came out, Emmett Shear objected on Twitter that control is "a bad way to solve the problem" because against an ever more capable enemy you lose eventually. Richard Ngo posted his reply in the comments, and aysja answered Ngo. aysja mentions "sharp left turns", Nate Soares's term for [a sudden jump in capabilities that earlier alignment work does not carry over to](https://www.lesswrong.com/posts/GNhMPAWcfBCASy8e6).
+When the post came out, Emmett Shear objected on Twitter that control is "a bad way to solve the problem" because against an ever more capable enemy you lose eventually. Below are two comments from under the post. In the first, Richard Ngo answers Shear: he gives two reasons to like control anyway. In the second, aysja answers Ngo and questions what his approach assumes. When she writes "sharp left turns", she means Nate Soares's idea of [a sudden jump in capabilities that earlier alignment work does not carry over to](https://www.lesswrong.com/posts/GNhMPAWcfBCASy8e6).
 
 #### Article
 source:: [[../articles/ngo-comment-on-the-case-for-ensuring-that-powerful-ais-are-controlled]]
