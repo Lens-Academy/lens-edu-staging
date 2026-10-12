@@ -57,7 +57,7 @@ Four AI agents that might be working against their company:
 - An agent sets how suspicious an action must be before the monitor sends it to a human, and picks a level slightly too high.
 
 1\. Sort each case: high-stakes, low-stakes, or in between?
-2\. Pick the case your group disagreed on most. What would move it {++{"author":"James agent ready-31's AI","timestamp":1791791279834}@@clearly ++}to {--{"author":"James agent ready-31's AI","timestamp":1791791279834}@@the other side?--}{++{"author":"James agent ready-31's AI","timestamp":1791791279834}@@high-stakes, or clearly to low-stakes?++}
+2\. Pick the case your group disagreed on most. What would move it clearly to high-stakes, or clearly to low-stakes?
 3\. Take the case your group found hardest to defend against. Which defence fits it, if any?
     - stop its actions until a human checks them
     - review a sample of its work a week later
