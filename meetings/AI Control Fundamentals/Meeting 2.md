@@ -18,7 +18,7 @@ source:: [[../shared/Session Doc - How today works]]
 Go around your group:
 1\. How was this unit? Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to the last one? (No judgment, "I didn't finish" is a fine answer.)
 2\. If an AI's sabotage can look exactly like an honest mistake, should we let AIs do safety research at all?
-{++{"author":"James agent ready-31's AI","timestamp":1791793153081}@@3\.++} If you still have time: which reading or talk stayed with you most? Sum it up for anyone who missed it.
+3\. If you still have time: which reading or talk stayed with you most? Sum it up for anyone who missed it.
 
 
 | Names | How the unit went + should AIs do safety research? |
