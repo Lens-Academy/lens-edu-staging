@@ -13,15 +13,16 @@ title: AI Control Fundamentals Unit 2 Meeting Doc
 source:: [[../shared/Session Doc - How today works]]
 
 \pagebreak
-### Room 1: Sabotage or honest mistake?  [0:05–0:19]
+### Room 1: {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Sabotage--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Inside a company++} or {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@honest mistake?--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@outside?++}  [0:05–0:19]
 
 Go around your group:
 1\. How was this unit? Did you finish it? If you didn't, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
-2\. If an AI's sabotage can look exactly like an honest mistake, should we let AIs do safety research at all?
-3\. If you still have time: which reading or talk stayed with you most? Sum it up for anyone who missed it.
+2\. {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@If an AI's sabotage can look exactly like--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Would you rather work on control inside++} an {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@honest mistake, should we let AIs do safety research at all?--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@AI company or at an outside group?
+3\. What speaks for each side?++}
+{--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@3\.--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@4\.++} If you still have time:{--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@ which reading or talk stayed with--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@ where specifically would++} you {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@most? Sum it up for anyone who missed it.--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@like to work, and why?++}
 
 
-| Names | How the unit went + should AIs do safety research? |
+| Names | How the unit went + {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@should AIs do safety research? --}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@inside or outside + where you would like to work ++}|
 |------|------------------------|
 |  |  |
 |  |  |
@@ -72,17 +73,25 @@ One or two people share what their group landed on.
 ### Break: 5 min  [0:47–0:52]
 
 \pagebreak
-### Room 3: Inside a company or outside?  [0:52–1:10]
+### Room 3:{--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@ Inside a company or outside?--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@ Your questions++}  [0:52–1:10]
 
 **New group. Names first, then straight in.**
 
 
-1\. Would you rather work on control inside an AI company or at an outside group? Go around, one answer each.
-2\. What speaks for each side?
-3\. If you still have time: where specifically would you like to work, and why?
+1\. {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Would --}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Take two minutes. Each of ++}you {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@rather work on control inside an AI company or at an outside group? Go around, one answer each.--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@writes down one or two questions from this unit that you would genuinely like the group to dig into.++}
+2\. {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@What speaks for each side?--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Go around and present your questions.++}
+3\. {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@If you still have time: where specifically would you like to work, and why?
 
 
-| Names | Inside or outside + what speaks for each side + where you would like to work |
+| Names | Inside or outside + what speaks for each side + where --}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Discuss the ones the group is most curious about. The point is the discussion, not a tidy answer.
+
+Example questions:
+
+- If an AI's sabotage can look exactly like an honest mistake, should we let AIs do safety research at all?
+- Would ++}you {++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@trust an AI company's own report on how well it monitors its agents? What ++}would {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@like to work --}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@change your mind?
+
+
+| Names | Your questions + where the discussion went ++}|
 |------|------------------------|
 |  |  |
 |  |  |
@@ -139,12 +148,12 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | Time | Block |
 |---|---|
 | 0:00–0:05 | Lobby / welcome (whole group) |
-| 0:05–0:19 | R1 Sabotage or honest mistake? (breakout, aim 3) |
+| 0:05–0:19 | R1 {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Sabotage--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Inside a company++} or {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@honest mistake?--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@outside?++} (breakout, aim 3) |
 | 0:19–0:24 | Back together (whole group) |
 | 0:24–0:42 | R2 Is control getting enough? (reshuffle) |
 | 0:42–0:47 | Back together (whole group) |
 | 0:47–0:52 | Break |
-| 0:52–1:10 | R3 Inside a company or outside? (reshuffle) |
+| 0:52–1:10 | R3 {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Inside a company or outside?--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Your questions++} (reshuffle) |
 | 1:10–1:15 | Back together (whole group) |
 | 1:15–1:27 | R4 Next unit, feedback (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
@@ -161,7 +170,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 2. Name the new format (small breakout rooms of 3, new people each time, and a five-minute get-together after each room where anyone can share what their group landed on)
 3. Tell them the doc is in the chat + Discord and to open it + check they can type
 4. Run through the arc
-    - opening round and whether AIs should do safety research → whether control gets enough investment, and where you would add more → inside an AI company or outside, for you → next unit, feedback
+    - opening round and {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@whether AIs should do safety research--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@inside an AI company or outside, for you++} → whether control gets enough investment, and where you would add more → {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@inside an AI company or outside, for you--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@your own questions from this unit++} → next unit, feedback
     - say the meeting will take 90 min
 5. Inform participants that you will be jumping between rooms with your camera turned off to listen in and they can ask questions whenever you join
 6. Start room 1
@@ -198,9 +207,9 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 ### Per-room notes for Unit 2
 
 **General, all rooms.** This course presents why people work on control and the criticisms of it, and asks each participant to form their own view by Unit 5. Never steer a group toward a verdict on control, on whether the field should grow, or on whether the companies' monitoring is enough. If a group asks what you think, turn it back to them. Collect everyone's answer before any explanation. The unit is about 3.5 hours, so expect part of the room not to have finished: every prompt works from the doc alone, so do not re-teach.
-**Room 1, Sabotage or honest mistake?** Ask 2 brings in the unit's first half: research sabotage is a low-stakes threat, where each bad act could pass as an honest mistake, so catching one proves little (Hebbar). Take gut answers, not arguments: "no", "yes, with training across all its work" and "we have no choice" are all fair. Do not give your own view.
+**Room 1, {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Sabotage--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Inside a company++} or {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@honest mistake?** Ask 2 brings in the unit's first half: research sabotage is--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@outside?** A personal question, with no right answer. Points groups may raise, for your own use: inside++} a {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@low-stakes threat, where each bad act could pass as an honest mistake, so catching one proves little (Hebbar). Take gut answers, --}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@company you get the real agents, logs and staff, and your work runs on real systems, but you work for one company and may ++}not {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@arguments: "no", "yes, with training across all its work"--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@be free to publish. Outside (Redwood Research, METR, a university, or the UK AI Security Institute as a government body) you are independent, can publish++} and {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@"we have no choice" are all fair. --}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@can check the companies, but you depend on them for access to anything internal. ++}Do not {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@give your own view.--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@steer anyone toward either side.++}
 **Room 2, Is control getting enough?** Take views, not arguments: "enough", "not enough" and "can't tell from what's public" are all fair. Public counts of the field are rough and miss teams inside companies, and most of what is known about company monitoring comes from the companies themselves. Do not give your own view. In ask 2 any area is fine if the group says why. If a group finishes early, ask who is placed to do the work in their area: does it need access to a company's systems, independence from companies, or both?
-**Room 3, Inside a company or outside?** A personal question, with no right answer. Points groups may raise, for your own use: inside a company you get the real agents, logs and staff, and your work runs on real systems, but you work for one company and may not be free to publish. Outside (Redwood Research, METR, a university, or the UK AI Security Institute as a government body) you are independent, can publish and can check the companies, but you depend on them for access to anything internal. Do not steer anyone toward either side.
+**Room 3, {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Inside a company or outside?** A personal question, with no right answer. Points groups may raise, for your--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@Your questions.** Stay out of the content: the room is for the participants'++} own {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@use: inside--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@questions. If++} a {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@company you get the real agents, logs and staff, and your work runs on real systems, but you work for one company and may not be free to publish. Outside (Redwood Research, METR, a university, or the UK AI Security Institute as--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@group is stuck, point them to the example questions. The first brings in the unit's first half: research sabotage is a low-stakes threat, where each bad act could pass as an honest mistake, so catching one proves little (Hebbar). If++} a {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@government body) you are independent,--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@factual question comes up that nobody++} can {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@publish and can check the companies, but you depend on them--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@answer, suggest Lens Tutor. In the Back together, ask++} for {--{"author":"James agent ready-31's AI","timestamp":1791793477297}@@access to anything internal. Do not steer anyone toward either side.--}{++{"author":"James agent ready-31's AI","timestamp":1791793477297}@@the most interesting question a group discussed, not for answers.++}
 **Room 4, Next unit, feedback.** Push for a concrete plan (when, where, how much at a time), not a promise.
 
 # Tab: Glossary
