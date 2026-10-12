@@ -13,7 +13,7 @@ Part 2 of 2. The previous part read Greenblatt and Shlegeris's case that catchin
 
 #### Article
 source:: [[../articles/greenblatt-catching-ais-red-handed]]
-from:: :::callout {title="Appendix" collapse="closed"}
+from:: :::callout {--{"author":"James agent ready-31's AI","timestamp":1791806857397}@@{title="Appendix" collapse="closed"}--}{++{"author":"James agent ready-31's AI","timestamp":1791806857397}@@{title="Appendix: Framing in terms of E[utility | scheming]"++}
 
 #### Text
 content::
