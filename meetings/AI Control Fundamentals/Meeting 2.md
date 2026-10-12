@@ -37,7 +37,7 @@ One or two people share what their group landed on.
 ---
 
 \pagebreak
-### Room 2: Ten researchers against one threat  [0:24–0:42]
+### Room 2: Ten new control researchers  [0:24–0:42]
 
 **New group. Names first, then straight in.**
 
@@ -66,15 +66,14 @@ Places:
 - METR, an outside evaluator that takes no money from AI companies (it does use their free computing credits)
 - a university group
 
-1\. Which one or two kinds of work help most against your threat?
-2\. Where should each be done? Decide by what it needs: access to a company's systems, independence from companies, or both.
-3\. Now AI companies close their internal systems and data to outsiders. Public models stay available. Which choices still work?
-4\. If you still have time: would your choice of work change if your threat took many actions that could each be an honest mistake, rather than a few clearly suspicious ones (or the reverse)?
+1\. Which one kind of work should your 10 do? Why that one?
+2\. Where should they work? Decide by what the work needs: access to a company's systems, independence from companies, or both.
+3\. If you still have time: AI companies close their internal systems and data to outsiders. Does your plan still work?
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
-| Names | Your threat + the work you chose + where it goes + what still works without access |
+| Names | The work you chose + why + where they work + does it survive without access |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -167,7 +166,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:00–0:05 | Lobby / welcome (whole group) |
 | 0:05–0:19 | R1 Is control getting enough? (breakout, aim 3) |
 | 0:19–0:24 | Back together (whole group) |
-| 0:24–0:42 | R2 Ten researchers against one threat (reshuffle) |
+| 0:24–0:42 | R2 Ten new control researchers (reshuffle) |
 | 0:42–0:47 | Back together (whole group) |
 | 0:47–0:52 | Break |
 | 0:52–1:10 | R3 Your questions (reshuffle) |
@@ -187,7 +186,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 2. Name the new format (small breakout rooms of 3, new people each time, and a five-minute get-together after each room where anyone can share what their group landed on)
 3. Tell them the doc is in the chat + Discord and to open it + check they can type
 4. Run through the arc
-    - opening round and whether control is getting enough → ten new researchers against one threat → your own questions from this unit → next unit, feedback
+    - opening round and whether control is getting enough → where ten new control researchers should work → your own questions from this unit → next unit, feedback
     - say the meeting will take 90 min
 5. Inform participants that you will be jumping between rooms with your camera turned off to listen in and they can ask questions whenever you join
 6. Start room 1
@@ -225,7 +224,7 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 
 **General, all rooms.** This course presents why people work on control and the criticisms of it, and asks each participant to form their own view by Unit 5. Never steer a group toward a verdict on control, on whether the field should grow, or on whether the companies' monitoring is enough. If a group asks what you think, turn it back to them. Collect everyone's answer before any explanation. The unit is about 3.5 hours, so expect part of the room not to have finished: every prompt works from the doc alone, so do not re-teach.
 **Room 1, Is control getting enough?** Take views, not arguments: "enough", "not enough" and "can't tell from what's public" are all fair, and public counts of the field are rough and miss teams inside companies. Do not give your own view. In ask 3 any area is fine. Room 2 comes back to where effort should go, tied to a specific threat and to what each kind of work needs.
-**Room 2, Ten researchers against one threat.** The room joins the unit's two halves: a threat, and the field that could defend against it. Ask 2 practises the unit's test skill (what access and independence a piece of work needs, so who is placed to do it), applied to a threat the group chose. Keep ask 1 to about four minutes. Any choice is fine if the group can say why. For your own use, likely discussion, not an answer key: test settings and measuring model abilities need only models, so Redwood, the UK AI Security Institute or a university group can do them. Experiments on real agent use, the logging and security systems, and human review need the company's own systems and staff, so mainly the company's team (Greenblatt says human processes are probably most doable at AI companies). Checking a company's claims needs independence plus the company's cooperation: METR, or the UK AI Security Institute's Control Red Team. The settings change mostly calls for in-company security and fast review. The paper summaries and the capability-test score call for test settings and capability measurement that outsiders can do, plus outside checks of the company's own results. In ask 3, everything that needs a company's internal systems or private information stops for outsiders, while work on public models goes on. The company's team keeps working, but nobody outside can check it, and most of what is known about company monitoring already comes from the companies themselves. Let groups reach this. Ask 4 brings in the unit's first half: few, clearly suspicious actions (high-stakes) call for blocking or fast review inside the company, many actions that each could be honest mistakes (low-stakes) call for measures across all the work, such as training on a quality score, and for test settings outsiders can build. The settings change is the clearest high-stakes case, the paper summaries the clearest low-stakes one. The capability-test score and the monitor threshold sit in between: few actions, each of which could pass as an honest mistake. Hebbar calls that corner probably hopeless, and says research sabotage might sit there, so "no kind of work fits well" is a real answer.
+**Room 2, Ten new control researchers.** The room practises the unit's test skill: what access to companies' systems and what independence from companies a piece of work needs, and so who is placed to do it. Keep ask 1 to about five minutes. Any choice of work is fine if the group can say why. For your own use, likely discussion, not an answer key: test settings and measuring model abilities need only models, so Redwood, the UK AI Security Institute or a university group can do them. Experiments on real agent use, the logging and security systems, and human review need the company's own systems and staff, so mainly the company's team (Greenblatt says human processes are probably most doable at AI companies). Checking a company's claims needs independence plus the company's cooperation: METR, or the UK AI Security Institute's Control Red Team. In ask 3, everything that needs a company's internal systems or private information stops for outsiders, while work on public models goes on. The company's team keeps working, but nobody outside can check it, and most of what is known about company monitoring already comes from the companies themselves. Let groups reach this.
 **Room 3, Your questions.** Stay out of the content: the room is for the participants' own questions. If a group is stuck, point them to the example questions. If a factual question comes up that nobody can answer, suggest Lens Tutor. In the Back together, ask for the most interesting question a group discussed, not for answers.
 **Room 4, Next unit, feedback.** Push for a concrete plan (when, where, how much at a time), not a promise.
 
