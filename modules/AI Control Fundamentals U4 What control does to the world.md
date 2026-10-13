@@ -39,7 +39,7 @@ force-feedback:: first
 content::
 \## Sort and answer
 
-**Criticism 1.** "Control only protects the company that uses it. One careless company that deploys a similar model with no monitoring at all makes everyone else's control pointless."
+"Control only protects the company that uses it. One careless company that deploys a similar model with no monitoring at all makes everyone else's control pointless."
 
 Which kind of criticism is this and why, what does it get right, what is the strongest reply, and how much of the criticism is left standing? Compare with what would realistically happen without control, not with a perfect solution.
 placeholder:: A few sentences.
@@ -78,6 +78,7 @@ content::
 
 Name the premise you find weakest in this argument for control, and say why.
 
+Google DeepMind's case above: alignment work is the first line of defence, and control (treating the model like an untrusted insider, with access control, monitoring, logging and auditing) is a second line that limits the damage if the first one fails. Defence in depth then makes a catastrophe less likely.
 placeholder:: A few sentences.
 feedback-instructions:: Practice for the skill of applying the same scrutiny to arguments for control. Reference points, accept other reasoned answers. Google DeepMind's two lines of defence, in Rohin Shah's summary: defence in depth helps only as much as the layers fail independently, and the same capable model that beats alignment training may also beat monitoring and access control, so the layers may fail together. Another good answer: the argument assumes the second line adds protection with no side effects, which ignores the ways this unit showed control could backfire (fewer visible warning shots, false confidence, faster deployment). A learner may also question whether the "holes" left by alignment work are the kind that system-level security can catch. GDM itself says monitoring benefits from more capable AI, which a learner may use for or against the argument. Name whether the premise they chose is one the argument really needs, and if a stronger candidate exists, point to it in one sentence. One or two turns, 60 to 120 words each. No generic praise.
 
