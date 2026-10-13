@@ -10,7 +10,12 @@ summary_for_tutor: "Unit 4 of AI Control Fundamentals. Empirical material for th
 content::
 The criticisms so far in this unit are arguments. Here are two experiments that tested control protocols against a more cunning attacker. Both were written by researchers who work on making control evaluations better. In the second paper, the last author, Tyler Tracy, works at Redwood Research.[^cite-pivotal-tracy] So read them as stress tests that control researchers ran on their own methods, not as arguments against control.
 
-Some terms you will need. The *monitor* is the model that reads what the untrusted model does and flags suspicious actions. A *prompt injection* is text written to give instructions to whichever model reads it. The *audit budget* is the share of actions that humans can afford to check. "pp" means percentage points.
+Some terms you will need:
+
+- **Monitor:** the model that reads what the untrusted model does and flags suspicious actions.
+- **Prompt injection:** text written to give instructions to whichever model reads it.
+- **Audit budget:** the share of actions that humans can afford to check.
+- **pp:** percentage points.
 
 [^cite-pivotal-tracy]: Pivotal Research, *Tyler Tracy*, profile page. [Pivotal](https://www.pivotal-research.org/tyler-tracy)
 

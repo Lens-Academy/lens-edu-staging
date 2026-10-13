@@ -10,7 +10,11 @@ summary_for_tutor: "Optional lens in Unit 2 of AI Control Fundamentals, after 'C
 content::
 In October 2026 Francis Rhys Ward collected what Anthropic, OpenAI and Google DeepMind have published about how they monitor the AI agents they use internally. The post is a reference list: seven claims in bold, each backed by quotes from the companies' own reports. It is worth reading the claims first and dipping into the quotes where you want the detail. Claims 4 and 5 connect most directly to what you have read so far: how much a human ever looks at, and whether the monitor is a weaker model or the strongest one.
 
-In the post, OAI means OpenAI, GDM means Google DeepMind and CoT means chain of thought.
+Abbreviations in the post:
+
+- **OAI:** OpenAI
+- **GDM:** Google DeepMind
+- **CoT:** chain of thought
 
 #### Article
 source:: [[../articles/ward-an-overview-of-frontier-ai-company-monitoring-practices-in-mid-2026]]

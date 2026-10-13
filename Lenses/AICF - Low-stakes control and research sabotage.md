@@ -36,7 +36,11 @@ feedback-instructions:: Key points from the talk. Incrimination means becoming c
 
 #### Text
 content::
-The same idea from a second team. In June 2026 Mikhail Terekhov (Anthropic Fellows Program and EPFL, a Swiss university), Caglar Gulcehre (EPFL), Vivek Hebbar (Redwood) and Joe Benton (Anthropic) published work on defending against diffuse threats, what this course calls low-stakes threats.[^cite-terekhov-2026-diffuse] Read the start of their introduction. "Incrimination" means what it meant in Hebbar's talk: gathering enough evidence to become confident the model is misaligned.
+The same idea from a second team. In June 2026 Mikhail Terekhov (Anthropic Fellows Program and EPFL, a Swiss university), Caglar Gulcehre (EPFL), Vivek Hebbar (Redwood) and Joe Benton (Anthropic) published work on defending against diffuse threats, what this course calls low-stakes threats.[^cite-terekhov-2026-diffuse] Read the start of their introduction.
+
+A term from the reading:
+
+- **Incrimination:** as in Hebbar's talk, gathering enough evidence to become confident the model is misaligned.
 
 [^cite-terekhov-2026-diffuse]: Mikhail Terekhov, Caglar Gulcehre, Vivek Hebbar and Joe Benton (2026), *Diffuse AI Control on Fuzzy Tasks*. [Anthropic Alignment Science blog](https://alignment.anthropic.com/2026/diffuse-ai-control/)
 
