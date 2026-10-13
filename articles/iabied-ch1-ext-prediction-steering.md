@@ -161,7 +161,7 @@ But to make sense of the substantive claims we're making about the world in *If 
 
 [^note-iabied-ftnt32]: This doesn't mean that we should expect the stock price to stay *unchanged*. It just means that we should be uncertain about the *direction* of the change: Today's stock prices are the *least bad guesses available* about what tomorrow's stock prices will look like, because the possibility that they'll go up is balanced out by the possibility that they'll go down instead.
 
-(This also doesn't contradict the observation that on most days, the stock market goes up rather than down. That effect could be explained by there being a high probability of the price rising tomorrow by a bit, and this is balanced by a low probability that it will instead fall by a larger amount. And, in real life, there's also a number of other effects in play, like monetary inflation, which means that the value of the dollar drops a little each day, making the value of stocks go up a little in dollar terms.)
+    (This also doesn't contradict the observation that on most days, the stock market goes up rather than down. That effect could be explained by there being a high probability of the price rising tomorrow by a bit, and this is balanced by a low probability that it will instead fall by a larger amount. And, in real life, there's also a number of other effects in play, like monetary inflation, which means that the value of the dollar drops a little each day, making the value of stocks go up a little in dollar terms.)
 
 [^note-iabied-ftnt34]: For more discussion of markets and intelligence, see the extended discussion "[Appreciating the Power of Intelligence](https://ifanyonebuildsit.com/1/appreciating-the-power-of-intelligence)."
 
