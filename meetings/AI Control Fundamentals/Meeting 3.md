@@ -121,7 +121,7 @@ Pick one of these, or a question someone in your group really wants to discuss:
 - If companies and governments barely act on AI risk, is control still worth working on?
 - Does control mostly speed up safety work, or mostly help companies build AI faster?
 
-1\. Discuss your pick. Land on an answer and one reason.
+1\. Discuss your pick.
 2\. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
 
 
