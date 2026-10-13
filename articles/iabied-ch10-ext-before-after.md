@@ -57,24 +57,24 @@ This is why it seems *overdetermined,* from our perspective, that researchers sh
 
 [^note-iabied-ftnt251]: You could try to make a weaker AI mistakenly *believe* that it's in a position to gain a decisive advantage, and try to train it not to act that way even when it sees that option. But you would be training an AI system that was [dumb enough to be fooled](https://ifanyonebuildsit.com/3/smart-ais-spot-lies-and-opportunities), and that was seeing fake weapons instead of real weapons. So the potentially-lethal distribution would still be noticeably different from the training distribution; there's a noticeable difference between being *told* you have a weapon that could kill your operators, and actually building a weapon or escape route yourself and understanding it in detail. The AI that is fooled by fake options is not the same as the AI that sees real options.
 
-An alignment mechanism that works on the AIs dumb enough to be fooled is an alignment mechanism that has only ever been tested Before but that nevertheless needs to work After.
+    An alignment mechanism that works on the AIs dumb enough to be fooled is an alignment mechanism that has only ever been tested Before but that nevertheless needs to work After.
 
 [^note-iabied-ftnt252]: For more on why this isn't a very hopeful idea, see our answer to the question "[What if we make it think it's in a simulation?](https://ifanyonebuildsit.com/5/what-if-we-make-it-think-its-in-a-simulation)"
 
 [^note-iabied-ftnt253]: For instance: Newtonian mechanics made all sorts of shockingly good empirical predictions. It was a simple, concise mathematical theory with huge explanatory power that blew every previous theory out of the water. But if you tried to use it to send payloads to distant planets at relativistic speeds, you'd still be screwed, because Newtonian mechanics does not account for relativistic effects.
 
-The only advance warnings you would get would be little hints about light seeming to move at the same speed in all directions at all times of year, and light bending around the sun during eclipses, and the perihelion of Mercury being a little off from what Newtonian mechanics predicted. Small anomalies, weighed against an enormous body of predictive success in a thousand empirical domains.
+    The only advance warnings you would get would be little hints about light seeming to move at the same speed in all directions at all times of year, and light bending around the sun during eclipses, and the perihelion of Mercury being a little off from what Newtonian mechanics predicted. Small anomalies, weighed against an enormous body of predictive success in a thousand empirical domains.
 
-Imagine that, before Newtonian mechanics was discovered, strange aliens offered Earth a bargain, where we'd be given great wealth if we could complete an interstellar delivery, but if we failed then we'd be destroyed. Imagine scientists discovered Newtonian mechanics, arguing that surely *now* they should be allowed to send the delivery now. They'd have heaps and heaps of empirical evidence on their side, in accordance with new scientific knowledge that was in the middle of unlocking powerful new technologies.
+    Imagine that, before Newtonian mechanics was discovered, strange aliens offered Earth a bargain, where we'd be given great wealth if we could complete an interstellar delivery, but if we failed then we'd be destroyed. Imagine scientists discovered Newtonian mechanics, arguing that surely *now* they should be allowed to send the delivery now. They'd have heaps and heaps of empirical evidence on their side, in accordance with new scientific knowledge that was in the middle of unlocking powerful new technologies.
 
-Imagine the amount of *spine* that a regulator would need in order to say, "And yet, you can't explain the advancement of the perihelion of Mercury, so the answer is 'no.'"
+    Imagine the amount of *spine* that a regulator would need in order to say, "And yet, you can't explain the advancement of the perihelion of Mercury, so the answer is 'no.'"
 
-It would feel so unfair, to the scientists! They'd have so much evidence to bring to bear!
+    It would feel so unfair, to the scientists! They'd have so much evidence to bring to bear!
 
-(Indeed, a realistic regulator probably *couldn't tell* that the answer would still have to be "no," which is part of why we are [not hopeful about an international coalition](https://ifanyonebuildsit.com/12/why-not-use-international-cooperation-to-build-ai-safely-rather-than-to-shut-it-all-down) and think that Earth just needs to back off from the problem entirely.)
+    (Indeed, a realistic regulator probably *couldn't tell* that the answer would still have to be "no," which is part of why we are [not hopeful about an international coalition](https://ifanyonebuildsit.com/12/why-not-use-international-cooperation-to-build-ai-safely-rather-than-to-shut-it-all-down) and think that Earth just needs to back off from the problem entirely.)
 
-Nature doesn't care about all the mountains of evidence and predictions accumulated by Newtonian physics. The theory still falls apart when we move to energies and scales far outside what we'd previously been able to observe. It just doesn't work at high energies and long distances.
+    Nature doesn't care about all the mountains of evidence and predictions accumulated by Newtonian physics. The theory still falls apart when we move to energies and scales far outside what we'd previously been able to observe. It just doesn't work at high energies and long distances.
 
-Getting scientific theories to work on the first critical try is hard.
+    Getting scientific theories to work on the first critical try is hard.
 
 {>>{"author":"Luc's AI","timestamp":1787136402514}@@This entire trailing unit was imported from the adjacent canonical “The Tale of Chicago Pile-1” page. The canonical “A Closer Look at Before and After” article ends before it, so the source-inconsistent duplicate is removed here.<<}
