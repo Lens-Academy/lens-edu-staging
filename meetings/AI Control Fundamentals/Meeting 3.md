@@ -241,6 +241,7 @@ Few-shot catastrophe prevention: Keep using the model after a catch, but use the
 
 ### Module: Political will and buy-in
 
+Theory of change: The routes by which work on control is supposed to make an AI catastrophe less likely, and what each route needs in order to work.
 Plan A: Enough political will for a strong international agreement that mostly removes race dynamics and allows a slowdown of about 10 years.
 Plan B: The US government treats buying lead time for US AI companies as a top national security priority, so 1 to 3 years can be spent on misalignment risk.
 Plan C: No serious government involvement, but the leading AI company is willing to spend much of its lead of a few months on misalignment risk.
