@@ -52,10 +52,10 @@ We currently start most of our icebreaker prompts with this check-in (Andreas, 2
 ```
 Go around your group, two things:
 
-	1. How was this unit? Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to previous ones?
+	1. How was this unit? Did you finish it? If you didn't, what got in the way?
 ```
 
-The first meeting's check-in drops the last question, since there is no earlier unit to compare. The last meeting's asks "How was the final unit? Did you finish it? If you didn't, what got in the way? What do you think about the course as a whole now?" A course that follows a book may ask about the book instead ("Did you finish the book?").
+The last meeting's asks "How was the final unit? Did you finish it? If you didn't, what got in the way? What do you think about the course as a whole now?" A course that follows a book may ask about the book instead ("Did you finish the book?").
 
 For the first meeting of a course, lead in with getting to know each other first, and never call the participants "the humans":
 ```
