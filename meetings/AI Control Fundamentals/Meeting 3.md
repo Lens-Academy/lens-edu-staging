@@ -49,7 +49,7 @@ Working on control leans on a few bets. Three of them:
 
 1\. Which bet do you trust least? Agree on one.
 2\. One person defends it as well as they can. The others attack it. Does it hold?
-3\. If you still have time, do the same with the other bets. Which of them hold up what could happen in the next few years that would change your mind about it?
+3\. If you still have time, do the same with the other bets. Which of them hold up under scrutiny?
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
