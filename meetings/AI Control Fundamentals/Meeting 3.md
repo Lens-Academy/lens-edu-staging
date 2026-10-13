@@ -80,10 +80,10 @@ One or two people share what their group landed on.
 An AI company catches its AI trying to copy itself to an outside server. It has the logs.
 
 - Buck Shlegeris doubts this would get AI companies to slow down. A rival could say "AIs do weird stuff" or "the logs could be forged".
-- Tom Davidson thinks the company could show credible evidence that would change many sceptics' minds.
+- Tom Davidson thinks the company could show credible evidence that would change many sceptics' minds, even if the world doesn't pause.
 
 1\. Gut call, go around: would AI companies, not just this one, slow down?
-2\. Pick the strongest excuse a rival could give. What would the company need to have ready in advance to answer it?
+2\. One of you plays the rival and pushes the strongest excuse. The others are the company and answer it. What would the company need ready in advance?
 3\. If you still have time: what real event in the next few years would show who is closer to right?
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
@@ -113,9 +113,9 @@ Pick one of these, or a question someone in your group really wants to discuss:
 
 - Who lowers risk more: a safety engineer running control inside an AI company that doesn't take the risk seriously, or someone pushing governments to require control?
 - If companies and governments barely act on AI risk, is control still worth working on?
-- Does control mostly buy time for safety work, or mostly help companies build AI faster?
+- Does control mostly speed up safety work, or mostly help companies build AI faster?
 
-1\. Discuss your pick.
+1\. Discuss your pick. Land on an answer and one reason.
 2\. Next unit: the main criticisms of control, and how control could backfire. What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
 
 
