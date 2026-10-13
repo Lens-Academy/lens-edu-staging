@@ -36,39 +36,25 @@ One or two people share what their group landed on.
 ---
 
 \pagebreak
-### Room 2: Which routes still work with little political will?  [0:24–0:42]
+### Room 2: The weakest bet  [0:24–0:42]
 
 **New group. Names first, then straight in.**
 
 
-Routes by which control could lower the risk of an AI catastrophe:
+The case for control rests on a few bets. Three of them:
 
-- **Stop attacks:** monitors block or replace dangerous actions while the AI works.
-- **Catch it red-handed:** catch an AI trying to cause harm, then act on the evidence. Shut it down, or study the attempt so later ones fail.
-- **The window:** use AIs that are useful but still controllable to speed up safety work, before AIs get too capable to control.
+- AIs stay useful but still controllable long enough to do real safety work.
+- A few safety-minded staff can keep cheap control measures running at a company that doesn't take the risk seriously.
+- Red teams can find attacks as good as the ones a much smarter AI would try.
 
-What can make a company run them, from least to most political will:
+1\. Which bet do you trust least? Agree on one.
+2\. One person defends it as well as they can. The others attack it. Does it hold?
+3\. If you still have time: what could happen in the next few years that would change your mind about it?
 
-- **A few insiders:** a small safety team runs cheap measures at a company that does not take the risk seriously.
-- **Company policy:** the company's leadership commits to running control.
-- **A requirement from outside:** a standard or a regulator requires a passing control safety case before a model is used. A control safety case is a written argument, backed by red-team tests, that the model cannot get past its safety measures.
-
-Ryan Greenblatt's plans, from most to least political will (willingness of companies and governments to act):
-
-- **Plan A:** governments agree internationally to slow AI down for about 10 years.
-- **Plan B:** the US government makes keeping US AI companies ahead a top priority, which buys 1 to 3 years.
-- **Plan C:** governments do little, but the leading company's leadership spends its few months of lead on safety.
-- **Plan D:** the leading company does not take misalignment seriously, but 10 to 30 people inside do, with a small share of compute.
-
-1\. Each person takes one or two routes. Going down from Plan A to Plan D, what is the last plan in which each route still makes a real difference?
-2\. At that plan, who has to act for the route to work?
-3\. Pick one route where your group disagrees about that last plan. What does the disagreement turn on?
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
-
-
-| Names | Last plan for each route + who has to act + your disagreement |
+| Names | The bet you trust least + whether it held + what would change your mind |
 |------|------------------------|
 |  |  |
 |  |  |
