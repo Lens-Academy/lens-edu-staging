@@ -43,8 +43,14 @@ source:: [[../Lenses/AICF - Catching AIs red-handed]]
 notes:: Why a catch counts as a win: catch-then-shut-down and few-shot catastrophe prevention.
 
 ## Lens:
+source:: [[../Lenses/XLab Control - catching-ais-red-handed-2]]
+notes:: Optional. What counts as a catch, and why even a clean catch may not move decision-makers.
 source:: [[../Lenses/AICF - Would a catch change anything]]
 notes:: Shlegeris doubts that a catch would make developers slow down, with replies from Davidson and Habryka.
+
+## Lens:
+source:: [[../Lenses/AICF - The routes so far]]
+notes:: Names the three routes covered so far (stopping attacks, catching it red-handed, the window), which the later questions use.
 
 ## Lens:
 source:: [[../Lenses/AICF - Plans A to D for misalignment risk]]
@@ -61,3 +67,7 @@ notes:: Shlegeris on levels of control investment and how much buy-in each needs
 ## Lens:
 source:: [[../Lenses/AICF - Control as a safety case]]
 notes:: The regulatory route: control evidence as a condition for deployment, then what Anthropic's own risk reports rely on monitoring for and where they say it falls short.
+
+## Lens:
+source:: [[../Lenses/AICF - Practice mapping control's routes]]
+notes:: Scored practice for the test on a different project: routes with steps and will-dependence, then the weakest premise with an observation, then a look back at the learner's first guess.

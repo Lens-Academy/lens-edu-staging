@@ -40,3 +40,6 @@ notes:: Shlegeris's rogue deployments, the central high-stakes example, in three
 ## Lens:
 source:: [[../Lenses/AICF - Low-stakes control and research sabotage]]
 notes:: Hebbar's ControlConf talk, 0:00 to 16:28: the two axes, research sabotage as a mostly low-stakes threat, why online training matters more for low-stakes threats, and his contrast of incrimination and online training (which the lens's second question uses, beyond this outcome's scope). His speculative strategy and evaluation methods are optional. Plus the introduction of "Diffuse AI Control on Fuzzy Tasks" (Anthropic, EPFL and Redwood authors, 2026) on why diffuse threats call for different defences.
+## Lens:
+source:: [[../Lenses/AICF - Practice high-stakes or low-stakes]]
+notes:: Scored practice: classify three new threats, judge whether a week-later review is enough, name a defence across many actions, then correct the "quiet means low-stakes" mistake (test part c).

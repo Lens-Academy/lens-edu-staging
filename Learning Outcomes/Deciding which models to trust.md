@@ -37,5 +37,7 @@ notes:: Shows trusted monitoring: a weaker trusted model scores the stronger mod
 source:: [[../Lenses/AICF - The case for control - what control is]]
 notes:: Teaches the capability criterion for trust, practised in the untrusted-models recall right after it. Its scenario questions have the learner judge trusted monitoring and other setups.
 ## Lens:
+source:: [[../Lenses/AICF - Spies, insiders and auditing]]
+notes:: Why a copy of an untrusted model is no independent reviewer (copies are correlated), and the trusted-monitoring hierarchy with scarce human auditing. Practised in its two questions.
 source:: [[../Lenses/AICF - The case for control - how control is tested]]
 notes:: Practised in the trust practice question.

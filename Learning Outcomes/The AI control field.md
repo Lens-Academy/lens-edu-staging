@@ -34,6 +34,8 @@ notes:: Greenblatt's eight areas of control work, excerpted.
 source:: [[../Lenses/AICF - Control inside AI companies]]
 notes:: Google DeepMind's AI Control Roadmap summary on how its defences grow with model capability, and the UK AI Security Institute's Control Red Team post on testing company monitors from outside.
 ## Lens:
+source:: [[../Lenses/AICF - How three AI companies monitor their agents]]
+notes:: Optional. Ward's overview of what Anthropic, OpenAI and Google DeepMind run in-house: monitoring, human review of flags, coverage. Real examples of work only the developer can do.
 source:: [[../Lenses/AICF - Who works on AI control]]
 notes:: Lens page on organisations and people, October 2026, every line sourced.
 ## Lens:
@@ -42,3 +44,6 @@ notes:: Lens page on the size of the field, October 2026, every line sourced.
 ## Lens:
 source:: [[../Lenses/AICF - Research areas from the UK AI Security Institute]]
 notes:: A second, funder-facing map of control research areas.
+## Lens:
+source:: [[../Lenses/AICF - Practice placing the project]]
+notes:: Scored practice on three new pieces of work (access, independence, kind of organisation), with feedback.

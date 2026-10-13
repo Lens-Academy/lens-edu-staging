@@ -38,6 +38,12 @@ feedback-instructions:: The learner just took the graded test for "Weighing the 
 
 # Suggested Lenses:
 ## Lens:
+source:: [[../Lenses/AICF - Does control prevent warning shots]]
+notes:: Shlegeris and Greenblatt's answer to the warning-shot worry before the incident, with practice weighing Greenblatt's symmetry reply as a critic would.
+## Lens:
+source:: [[../Lenses/AICF - Redwood on the Hugging Face incident]]
+notes:: Shlegeris and Greenblatt after the incident, and Mallen's report of Buck reconsidering. Practice on how an observation moved one side and which premise it bore on.
+## Lens:
 source:: [[../Lenses/AICF - Practice finding the crux]]
 notes:: Practice for parts 1 and 2 on the Gleave and Habryka debate, with tutor feedback.
 ## Lens:
@@ -51,4 +57,7 @@ source:: [[../Lenses/AICF - Should safety researchers quit frontier labs]]
 notes:: Arguments and replies to weigh, with practice judging which replies hold.
 ## Lens:
 source:: [[../Lenses/AICF - Do warning shots change policy]]
-notes:: Evidence on the policy-response crux behind several of the unit's debates. Part 3 of the test is practised in the "Your view" inline lens at the end of the Unit 5 module, with tutor feedback.
+notes:: Evidence on the policy-response crux behind several of the unit's debates.
+## Lens:
+source:: [[../Lenses/AICF - Your view]]
+notes:: Practice for part 3: the learner's own crux, verdict, confidence and what would change their mind, compared with their Unit 1 gut view, with tutor feedback.
