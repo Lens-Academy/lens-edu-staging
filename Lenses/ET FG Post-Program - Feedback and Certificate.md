@@ -24,14 +24,11 @@ tone:: amber
 
 #### Text
 content::
-**Please fill in the form below to share your feedback, offboard from the program, and get your completion code.**
+**Please fill in the post-program form to share your feedback, offboard from the program, and get your completion code.**
 
-At the end of the form, you'll see a **completion code**. Copy it, then enter it in the question below this box to receive your certificate.
+👉 **[Open the post-program form](https://airtable.com/appwUI4Pc2NJPOfmZ/pagHeZnPA3oHwu5Zc/form)** (opens in a new tab)
 
-If the form doesn't load for you, you can [open it in a new tab](https://airtable.com/appwUI4Pc2NJPOfmZ/pagHeZnPA3oHwu5Zc/form).
-
-#### Widget
-source:: [[../widgets/facilitator-post-program-feedback-form]]
+At the end of the form, you'll see a **completion code**. Copy it, then come back here and enter it in the question below to receive your certificate.
 
 #### End Callout
 
