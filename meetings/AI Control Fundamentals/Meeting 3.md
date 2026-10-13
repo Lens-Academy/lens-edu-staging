@@ -77,19 +77,26 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-An AI company catches its AI trying to copy itself to an outside server. It has the logs.
+An AI company catches its AI trying to escape by copying itself to an outside server. It has the logs.
 
-- Buck Shlegeris doubts this would get AI companies to slow down. A rival could say "AIs do weird stuff" or "the logs could be forged".
-- Tom Davidson thinks the company could show credible evidence that would change many sceptics' minds, even if the world doesn't pause.
+- Buck Shlegeris doubts this would get AI companies to slow down.
+- Tom Davidson thinks that if the AI really is scheming, the company could publish credible evidence that changes many sceptics' minds, even if the world doesn't pause.
+Arguments a rival could make:
+
+- "China won't stop, so stopping means losing."
+- "AIs do weird stuff. One incident proves nothing."
+- "They just messed up their own alignment."
+- "The logs could be forged."
 
 1\. Gut call, go around: would AI companies, not just this one, slow down?
-2\. One of you plays the rival and pushes the strongest excuse. The others are the company and answer it. What would the company need ready in advance?
-3\. If you still have time: what real event in the next few years would show who is closer to right?
+2\. One of you plays the rival and makes the strongest argument against slowing down. The others answer as the company.
+3\. What would the company need ready in advance to win that argument?
+4\. If you still have time: what real event would show who is closer to right?
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
-| Names | Would they slow down + the strongest excuse + what the company needs ready |
+| Names | Would they slow down + the rival's strongest argument + what the company needs ready |
 |------|------------------------|
 |  |  |
 |  |  |
