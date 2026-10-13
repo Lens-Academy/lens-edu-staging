@@ -36,6 +36,7 @@ notes:: Google DeepMind's AI Control Roadmap summary on how its defences grow wi
 ## Lens:
 source:: [[../Lenses/AICF - How three AI companies monitor their agents]]
 notes:: Optional. Ward's overview of what Anthropic, OpenAI and Google DeepMind run in-house: monitoring, human review of flags, coverage. Real examples of work only the developer can do.
+## Lens:
 source:: [[../Lenses/AICF - Who works on AI control]]
 notes:: Lens page on organisations and people, October 2026, every line sourced.
 ## Lens:

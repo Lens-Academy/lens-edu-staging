@@ -51,5 +51,6 @@ notes:: Teaches the worst-case assumptions control evaluations make. What they d
 ## Lens:
 source:: [[../Lenses/AICF - First criticisms]]
 notes:: Phuong's weaknesses of control (trusted monitors fall behind, risk compensation), two of the gaps part 5 credits, then Kulveit's warning-shot argument as a first criticism. Phuong is optional.
+## Lens:
 source:: [[../Lenses/AICF - Take apart a deployment pitch]]
 notes:: Optional scored roleplay practice on a different set-up, with feedback, covering parts 1 to 5.

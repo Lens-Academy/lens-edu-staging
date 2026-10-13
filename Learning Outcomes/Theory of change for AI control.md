@@ -45,6 +45,8 @@ notes:: Why a catch counts as a win: catch-then-shut-down and few-shot catastrop
 ## Lens:
 source:: [[../Lenses/XLab Control - catching-ais-red-handed-2]]
 notes:: Optional. What counts as a catch, and why even a clean catch may not move decision-makers.
+
+## Lens:
 source:: [[../Lenses/AICF - Would a catch change anything]]
 notes:: Shlegeris doubts that a catch would make developers slow down, with replies from Davidson and Habryka.
 
