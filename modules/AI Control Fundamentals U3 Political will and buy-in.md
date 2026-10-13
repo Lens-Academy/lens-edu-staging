@@ -13,7 +13,7 @@ id:: d1b901e8-6075-403d-86dd-f1898021f159
 reading_minutes:: 1
 tutor_minutes:: 0
 tldr:: Three ways control is supposed to lower the risk of an AI catastrophe, which the rest of the unit calls routes: stopping attacks, catching an AI red-handed, and the window.
-summary_for_tutor:: Short Lens-written summary in Unit 3 of AI Control Fundamentals, before Greenblatt's Plans A to D. It names the three routes the unit has covered so far, so later questions can refer to them: stopping attacks (monitors block or replace dangerous actions while the AI works), catching it red-handed (catch an attempt, then shut down or study it so later attempts fail), and the window (use AIs that are useful but still controllable to speed up safety work before AIs become too capable to control). Two more routes come later in the unit. Do not preview them. No question.
+summary_for_tutor:: Short Lens-written summary in Unit 3 of AI Control Fundamentals, before Greenblatt's Plans A to D. It names the three routes the unit has covered so far, so later questions can refer to them: stopping attacks (monitors block or replace dangerous actions while the AI works), catching it red-handed (catch an attempt, then shut down or study it so later attempts fail), and the window (use AIs that are useful but still controllable to speed up safety work before AIs become too capable to control). One more route comes later in the unit. Do not preview them. No question.
 #### Text
 content::
 The readings so far describe three ways control is supposed to lower the risk of an AI catastrophe. The rest of this unit calls them routes:
