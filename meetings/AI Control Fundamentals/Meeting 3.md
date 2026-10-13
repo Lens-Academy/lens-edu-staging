@@ -92,7 +92,7 @@ Each route or plan rests on premises. Some of them, with who doubts and who defe
 
 - **Catch it red-handed:** a caught attempt gets the developer or governments to slow down. Buck Shlegeris doubts it: a competitor could say AIs just do weird things, or that the logs were forged. Tom Davidson thinks credible evidence would change many sceptics' minds.
 - **The window:** AIs stay useful but controllable long enough to matter. Greenblatt and Shlegeris themselves say this period is "reasonably likely to be too short (e.g., 6 months or 1 year)" if AI is built as fast as possible. They also think holding off uncontrollable AI for several years is plausible.
-- **A few insiders:** ten concerned staff at a careless company get cheap measures running and keep them. Shlegeris argued ten such people are much better than zero. Two commenters doubt they would have that much room. In 2026 Shlegeris says he is less into this route than before.
+- **Ten people on the inside:** ten concerned staff at a careless company get cheap measures running and keep them. Shlegeris argued ten such people are much better than zero. Two commenters doubt they would have that much room. In 2026 Shlegeris says he is less into this plan than before.
 - **A condition of deployment:** the red team's attacks in a control evaluation are at least as strong as anything the real model could do. The authors of a published control safety case (a written argument, backed by those tests, that a model cannot get past its safety measures) name this premise themselves.
 
 1\. Which premise does your group trust least? Take it from this list, or name another premise one of the routes needs.
