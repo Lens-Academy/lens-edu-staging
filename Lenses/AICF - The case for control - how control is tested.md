@@ -95,7 +95,9 @@ feedback-instructions:: In at most four sentences: confirm what the learner got 
 
 #### Text
 content::
-Greenblatt and Shlegeris wrote this in January 2024. In September 2025 Apollo Research, working with OpenAI, published evidence that models already notice when they are being tested and sometimes behave better because of it. Four short excerpts follow. The first is Apollo's definition of scheming. The same ability is also a problem for control: Greenblatt and Shlegeris's second condition for a control evaluation is measuring capabilities in a way the model cannot sabotage, and a model that can tell when it is being tested could deliberately underperform on the capability evaluations that decide which models count as trusted.
+Greenblatt and Shlegeris wrote this in January 2024. In September 2025 Apollo Research, working with OpenAI, published evidence that models already notice when they are being tested and sometimes behave better because of it. Four short excerpts follow. The first is Apollo's definition of scheming.
+
+Noticing tests is a problem for control too. Greenblatt and Shlegeris's second condition for a control evaluation is that capabilities are measured in a way the model cannot sabotage. A model that can tell when it is being tested could deliberately underperform on the capability evaluations that decide which models count as trusted.
 
 #### Article
 source:: [[../articles/apolloresearch-stress-testing-deliberative-alignment-for-anti-scheming-training]]

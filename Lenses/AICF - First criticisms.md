@@ -8,7 +8,7 @@ tutor_minutes: 9
 ---
 #### Text
 content::
-Most of what you read in this unit comes from people who work on control. To finish, a view from outside the field on how control could make things worse, so you can keep it in mind for the rest of the course. Unit 4 goes through the criticisms in depth.
+Most of what you read in this unit comes from people who work on control. To finish, here is a view from outside the field on how control could make things worse. Keep it in mind for the rest of the course. Unit 4 goes through the criticisms in depth.
 
 #### Callout: Optional: Mary Phuong of Google DeepMind on the weaknesses and strengths of control
 collapse:: closed
