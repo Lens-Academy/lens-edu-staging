@@ -229,7 +229,7 @@ The others try to change the official's mind, in plain words (no acting needed, 
 	- **Vary the formats.** Use one defend-and-attack or roleplay room per meeting, not two.
 	- **Ask what makes answers differ.** Good asks get different answers from different people: a gut call, a personal pick ("Which of these arguments would have convinced you?"), or a number everyone commits to ("How many catches before you'd want a pause? One, ten, a hundred?").
 	- **No obvious or factual asks.** If one person can answer "yes" or recite the reading and the talk is over, cut the ask. "Is the catch still worth anything?" fails this test.
-	- **Don't repeat the unit's own questions.** If a lens or test already asked it, people read out their written answer. Ask something next to it instead.
+	- **Build on the unit's own questions, don't copy them.** A room that asks the same question a lens or test already asked gets people reading out their written answer. Referring to that question is fine and often good: "Share what you answered on X, then compare: where do you disagree?" The room then does something the lens could not: compare answers, push on them, or take the next step.
 	- **Lean setup.** One short scenario or one short list before the asks, not several lists. Leave out who said what (named authors and their positions) unless the room turns on it, and keep the background in the run-sheet notes.
 	- **"If you still have time" earns its place.** It should be as good as the main asks, often a twist on the case ("Would your answer change if the AI had caused real harm?"). Leave it out rather than add a generic one.
 
