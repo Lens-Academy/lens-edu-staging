@@ -224,6 +224,15 @@ The others try to change the official's mind, in plain words (no acting needed, 
 	1. Every claim the doc attributes to the source(s) is actually made there; prompts never strawman the material.
 	2. The main rooms target the unit's central content (what its learning outcomes care about), not a side detail.
 
+9. **Good practice, not pass/fail.** Mention a room that misses one of these as a suggestion in the report, but never FAIL a room for it. These come from Elias's rework of the AI Control Fundamentals Meeting 3 doc (2026-10-13):
+	- **Use the group.** A room should make people react to each other: disagree, compare picks, defend a view. An exercise each person could do alone ("map each route to a plan") wastes the group. Roleplay is fine but not required.
+	- **Vary the formats.** Use one defend-and-attack or roleplay room per meeting, not two.
+	- **Ask what makes answers differ.** Good asks get different answers from different people: a gut call, a personal pick ("Which of these arguments would have convinced you?"), or a number everyone commits to ("How many catches before you'd want a pause? One, ten, a hundred?").
+	- **No obvious or factual asks.** If one person can answer "yes" or recite the reading and the talk is over, cut the ask. "Is the catch still worth anything?" fails this test.
+	- **Don't repeat the unit's own questions.** If a lens or test already asked it, people read out their written answer. Ask something next to it instead.
+	- **Lean setup.** One short scenario or one short list before the asks, not several lists. Leave out who said what (named authors and their positions) unless the room turns on it, and keep the background in the run-sheet notes.
+	- **"If you still have time" earns its place.** It should be as good as the main asks, often a twist on the case ("Would your answer change if the AI had caused real harm?"). Leave it out rather than add a generic one.
+
 ### Agent 3: Cold reader
 This agent gets the Session Doc tab only: no lenses, no course file, no run-sheet, no glossary. Its brief, verbatim:
 
