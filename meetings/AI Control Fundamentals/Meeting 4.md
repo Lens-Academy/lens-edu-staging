@@ -21,13 +21,13 @@ Go around your group:
 
 - John Wentworth: control guards against an AI that schemes, but the likelier failure is early AI producing safety work that looks right and is not
 - Oliver Habryka and Jozdien: catch an AI misbehaving, train it not to, and you may teach it to hide better
-- MIRI: nothing like control works on a misaligned superintelligence, so the effort should go into stopping anyone from building one
+- MIRI (optional reading): nothing like control works on a misaligned superintelligence, so the effort should go into stopping anyone from building one
 - Yonatan Cale: a company that only cares about profit might build safety monitors anyway, so working on them may mostly make AI more sellable
 - Jan Kulveit: control turns visible AI incidents, which push the world to act, into quiet catches inside a company
 - David Manheim: a claim that an AI is overseen should say what the oversight is, which risks it covers and why it works. Without that, "You have a story."
 - Mikhail Terekhov, Catherine Ge-Wang and colleagues: in two experiments, a smarter attacker got past today's monitors, so control evaluations may report too high a safety figure
 - Tom Davidson, Lukas Finnveden and Rose Hadshar: advanced AI could help a small group seize power, and monitoring tools could help them or guard against them
-- Robert Long, Jeff Sebo and Toni Sims: if AIs matter morally, confining and watching them could be a moral cost even when control works
+- Robert Long, Jeff Sebo and Toni Sims (optional reading): if AIs matter morally, confining and watching them could be a moral cost even when control works
 
 If someone in your group didn't read your pick, sum it up in a sentence.
 3\. The unit sorts criticisms by what they dispute. Which kind is your pick? Your group may disagree, some criticisms fit two kinds, and some fit none.
