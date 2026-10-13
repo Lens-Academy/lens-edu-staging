@@ -344,9 +344,9 @@ But it also seems worth pointing out that it probably will have an utterly overw
 
 [^note-iabied-ftnt239]: At the time, Freitas interpreted his numbers as an *upper* bound on how quickly this process could occur, but this turned out to be wrong. Freitas's analysis had assumed that the nanosystems' mass would be dominated by radiation shielding, but this relied on a (false) assumption in *Nanosystems*: that a single radiation strike would knock out a nanosystem.
 
-Drexler had made this assumption, like many others in *Nanosystems*, to be conservative: Assume that the problem is harder, and show that it's solvable anyway. This may be appropriate in *Nanosystems*, but it means that Freitas's paper isn't conservative in its own estimate.
+    Drexler had made this assumption, like many others in *Nanosystems*, to be conservative: Assume that the problem is harder, and show that it's solvable anyway. This may be appropriate in *Nanosystems*, but it means that Freitas's paper isn't conservative in its own estimate.
 
-Because Freitas's analysis combines numbers that are conservative in different directions, it doesn't provide either a clear upper or lower bound on how long it would take replicators to consume the biosphere. It's more like a middling estimate. Perhaps the actual physical limits on how fast the biosphere can be consumed starting from a single replicator is three hours; perhaps it's thirty days. It's almost surely not three years.
+    Because Freitas's analysis combines numbers that are conservative in different directions, it doesn't provide either a clear upper or lower bound on how long it would take replicators to consume the biosphere. It's more like a middling estimate. Perhaps the actual physical limits on how fast the biosphere can be consumed starting from a single replicator is three hours; perhaps it's thirty days. It's almost surely not three years.
 
 #### Notes
 
