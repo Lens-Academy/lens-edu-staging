@@ -81,6 +81,7 @@ An AI company catches its AI trying to escape by copying itself to an outside se
 
 - Buck Shlegeris doubts this would get AI companies to slow down.
 - Tom Davidson thinks that if the AI really is scheming, the company could publish credible evidence that changes many sceptics' minds, even if the world doesn't pause.
+
 Arguments a rival could make:
 
 - "China won't stop, so stopping means losing."
