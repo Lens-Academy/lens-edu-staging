@@ -45,7 +45,7 @@ The case for control rests on a few bets. Three of them:
 
 - AIs stay useful but still controllable long enough to do real safety work.
 - A few safety-minded staff can keep cheap control measures running at a company that doesn't take the risk seriously.
-- Red teams can find attacks as good as the ones a much smarter AI would try.
+- Red teams, the people who attack the safety measures in tests, can find attacks as good as the ones a much smarter AI would try.
 
 1\. Which bet do you trust least? Agree on one.
 2\. One person defends it as well as they can. The others attack it. Does it hold?
@@ -72,28 +72,24 @@ One or two people share what their group landed on.
 ### Break: 5 min  [0:47–0:52]
 
 \pagebreak
-### Room 3: The weakest premise  [0:52–1:10]
+### Room 3: Would a catch change anything?  [0:52–1:10]
 
 **New group. Names first, then straight in.**
 
 
-Each route, and each way of making a company run control, rests on premises. Some of them, with who doubts and who defends them:
+An AI company catches its AI trying to copy itself to an outside server. It has the logs.
 
-- **Catch it red-handed:** a caught attempt gets the developer or governments to slow down. Buck Shlegeris doubts it: a competitor could say AIs just do weird things, or that the logs were forged. Tom Davidson thinks credible evidence would change many sceptics' minds.
-- **The window:** AIs stay useful but controllable long enough to matter. Greenblatt and Shlegeris themselves say this period is "reasonably likely to be too short (e.g., 6 months or 1 year)" if AI is built as fast as possible. They also think holding off uncontrollable AI for several years is plausible.
-- **Ten people on the inside:** ten concerned staff at a careless company get cheap measures running and keep them. Shlegeris argued ten such people are much better than zero. Two commenters doubt they would have that much room. In 2026 Shlegeris says he is less into this plan than before.
-- **A required safety case:** the red team's attacks in a control evaluation are at least as strong as anything the real model could do. The authors of a published control safety case (a written argument, backed by those tests, that a model cannot get past its safety measures) name this premise themselves.
+- Buck Shlegeris doubts this would get AI companies to slow down. A rival could say "AIs do weird stuff" or "the logs could be forged".
+- Tom Davidson thinks the company could show credible evidence that would change many sceptics' minds.
 
-1\. Which premise does your group trust least? Take it from this list, or name another premise one of the routes needs.
-2\. One person argues for it as well as they can. The others push back. Does it hold?
-3\. What could someone observe in the next few years that would raise or lower your confidence in it?
-4\. If you still have time: if this premise fails, which routes are left?
+1\. Gut call, go around: would AI companies slow down?
+2\. Pick the strongest excuse a rival could give. What would the company need to have ready in advance to answer it?
+3\. If you still have time: what real event in the next few years would show who is closer to right?
 
-
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
-| Names | Your weakest premise + whether it held + what you could observe |
+| Names | Would they slow down + the strongest excuse + what the company needs ready |
 |------|------------------------|
 |  |  |
 |  |  |
