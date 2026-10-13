@@ -22,6 +22,7 @@ source:: [[../Lenses/AICF - Safety-washing and false confidence]]
 
 # Lens:
 source:: [[../Lenses/AICF - Does control make AIs adversarial]]
+optional:: true
 
 # Lens:
 source:: [[../Lenses/AICF - Practice sorting and answering criticisms]]
