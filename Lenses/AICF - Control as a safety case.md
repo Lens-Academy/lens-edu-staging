@@ -46,7 +46,14 @@ feedback-instructions:: The learner just read the argument structure of "A sketc
 content::
 \## A company that relies on monitoring
 
-The sketch is a proposal. Here is what one AI company actually does. Anthropic publishes risk reports under its Responsible Scaling Policy. Its [Risk Report: August 2026](https://www.anthropic.com/aug-2026-risk-report) covers its most capable models at the time, Claude Mythos 5 and an unreleased model it calls Model 2, which Anthropic uses heavily for coding and other agent work. It rates the risk of catastrophic harm from misalignment of its models as "low". It thinks its arguments still support "very low", but raised the rating "to reflect increased overall uncertainty" while it reviews recent incidents in cybersecurity evaluations. The excerpts are from the report's appendix on how it monitors that internal use. "Asynchronous" monitoring checks actions after they have run. "Blocking" stops them before they run.
+Anthropic publishes regular risk reports under its Responsible Scaling Policy. The excerpts below come from its [Risk Report: August 2026](https://www.anthropic.com/aug-2026-risk-report), from the appendix on how it monitors its own models while its staff use them for coding and other agent work. The report covers Claude Mythos 5 and an unreleased model Anthropic calls Model 2.
+
+The report rates the risk of a catastrophe caused by these models being misaligned as "low". Anthropic says its arguments still support "very low", but it raised the rating "to reflect increased overall uncertainty" while it reviews recent incidents in cybersecurity evaluations.
+
+Two terms the report uses:
+
+- **Asynchronous monitoring:** checking an AI's actions after they have run.
+- **Blocking:** stopping an action before it runs.
 
 #### Article
 source:: [[../articles/anthropic-risk-report-august-2026]]
