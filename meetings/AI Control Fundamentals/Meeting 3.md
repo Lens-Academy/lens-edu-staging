@@ -19,7 +19,7 @@ Go around your group:
 1\. How was working through this unit's content? Did you finish? If you didn't finish, what got in the way?
 2\. At the start of the unit you wrote a guess: how is control supposed to make an AI catastrophe less likely? Share it in a sentence. From memory is fine. If you skipped it, make a guess now.
 3\. Did the unit change your guess? Name the reading that changed it most, or say why your guess held.
-4\. If you still have time: in one word, how did the unit leave you feeling about control?
+4\. If you still have time: How did the unit leave you feeling about control?
 
 
 | Names | Your first guess + what changed it |
