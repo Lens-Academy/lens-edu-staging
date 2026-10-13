@@ -23,11 +23,11 @@ We find it useful to sort criticisms of control into three kinds:
 - **Control works but is not worth the effort.** For example, scheming is unlikely, other failures matter more, or the work would happen anyway.
 - **Control works and makes things worse.** It reduces one risk but raises the overall risk.
 
-Another way to see the three kinds is to ask two questions of any safety plan, in this order: if it worked, would it be good? And then: would it work? (Yonatan Cale [separates two similar questions for safety cases](https://www.lesswrong.com/posts/HmdprC38DbjDnNmgt/improving-our-safety-cases-using-upper-and-lower-bounds): would a measure be sufficient if we had it, and can it be built?) "Does not work" criticisms answer the second question. "Not worth it" and "makes things worse" criticisms answer the first: even if control works, would it be good? This unit covers criticisms of both kinds.
+Another way to see the three kinds is to ask two questions of any safety plan, in this order: if it worked, would it be good? And then: would it work? (Yonatan Cale [separates two similar questions for safety cases](https://www.lesswrong.com/posts/HmdprC38DbjDnNmgt/improving-our-safety-cases-using-upper-and-lower-bounds): would a measure be sufficient if we had it, and can it be built?) "Not worth it" and "makes things worse" criticisms answer the first question: even if control works, would it be good? "Does not work" criticisms answer the second. This unit covers criticisms of both kinds.
 
 Some criticisms have more than one side. The sorting helps you see what a criticism disputes. It does not decide whether the criticism is right.
 
-When you answer a criticism, we suggest comparing the world with control against what would realistically happen without it, not against a perfect solution. Any safety measure falls short of perfect, so that comparison cannot tell you whether control helps. When you weigh a reply to a criticism, check that the reply makes the same realistic comparison.
+When you answer a criticism, we suggest comparing the world with control against what would realistically happen without it, not against a perfect solution. Any safety measure falls short of perfect, so comparing control with a perfect solution cannot tell you whether it helps. When you weigh a reply to a criticism, check that the reply makes the same realistic comparison.
 
 \## In this unit you will
 
