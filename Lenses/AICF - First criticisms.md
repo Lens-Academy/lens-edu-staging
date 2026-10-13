@@ -34,7 +34,7 @@ feedback-instructions:: This is an unscored reflection. The learner just heard M
 
 #### Text
 content::
-Jan Kulveit. Greenblatt and Shlegeris argue that catching an AI counts as a win, because after a catch, shutting down until there are solutions becomes far more likely. Kulveit disputes that step.
+Next, a post by Jan Kulveit. Greenblatt and Shlegeris argue that catching an AI counts as a win, because after a catch, shutting down until there are solutions becomes far more likely. Kulveit disputes that step.
 
 #### Article
 source:: [[../articles/kulveit--ai-control-may-increase-existential-risk]]

@@ -15,7 +15,9 @@ id:: 5df098d8-2009-436c-87ac-1fc63b7477bc
 content::
 A lab must decide which of its models it may treat as **trusted**, meaning it can rule out that the model is secretly working against it.
 
-"Scheming-capability evaluations" below means the lab's tests of the abilities a model would need to scheme effectively, such as reasoning about its own situation and planning a multi-step attack while hiding it.
+A term used below:
+
+- **Scheming-capability evaluations:** the lab's tests of the abilities a model would need to scheme effectively, such as reasoning about its own situation and planning a multi-step attack while hiding it.
 
 - **Model P** is two generations old. It clearly fails the scheming-capability evaluations.
 - **Model Q** is the current production model. It passes the scheming-capability evaluations. In a year of heavy use it has never been caught doing anything suspicious.
