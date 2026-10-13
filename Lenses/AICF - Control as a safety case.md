@@ -87,7 +87,7 @@ Under "Model weight security", the excerpt only points to another appendix of th
 
 Anthropic says these controls protect against most attackers who are not governments, and against insiders with little skill. They are not meant to stop skilled insiders or nation states.
 
-Elsewhere, the same report says its mitigations give "less protection than might be intuitively expected" against a model that is misaligned in most situations without Anthropic having noticed. For that case it writes that its low risk estimate "comes primarily from a belief that it is very unlikely, rather than that we are well positioned to mitigate any harm it might cause". It also notes that its Long-Term Benefit Trust, which may request an outside review of risk reports, "has not requested an external review (nor has the RSP required that we conduct one)", though Anthropic has "continued to conduct pilot external reviews" of parts of its reports, for example with METR.
+Elsewhere, the same report says its mitigations give "less protection than might be intuitively expected" against a model that is misaligned in most situations without Anthropic having noticed. For that case it writes that its low risk estimate "comes primarily from a belief that it is very unlikely, rather than that we are well positioned to mitigate any harm it might cause". Anthropic's Long-Term Benefit Trust may request an outside review of risk reports. The report notes that it "has not requested an external review (nor has the RSP required that we conduct one)". Anthropic has, though, "continued to conduct pilot external reviews" of parts of its reports, for example with METR.
 
 #### Question: Open
 id:: ae533388-0b4c-4aa3-9d9e-cbff5696bdb4
@@ -104,7 +104,7 @@ feedback-instructions:: The learner just read Anthropic's August 2026 Risk Repor
 #### Question: Open
 id:: 35268578-a253-45aa-a31e-3092410c86b5
 content::
-The report says its low estimate for an unnoticed, widely misaligned model rests mainly on believing it unlikely, not on its mitigations.
+Take the case of a model that is misaligned in most situations without Anthropic having noticed. The report says its low risk estimate for this case rests mainly on believing it unlikely, not on its mitigations.
 
 1. Which premise of the monitoring part of a report like this would you check first, and why?
 2. What would you look at to check it?
