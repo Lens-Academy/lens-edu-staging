@@ -13,16 +13,15 @@ title: AI Control Fundamentals Unit 3 Meeting Doc
 source:: [[../shared/Session Doc - How today works]]
 
 \pagebreak
-### Room 1: Your first guess  [0:05–0:19]
+### Room 1: Before and after  [0:05–0:19]
 
 Go around your group:
-1\. How was working through this unit's content? Did you finish? If you didn't finish, what got in the way?
-2\. At the start of the unit you wrote a guess: how is control supposed to make an AI catastrophe less likely? Share it in a sentence. From memory is fine. If you skipped it, make a guess now.
-3\. Did the unit change your guess? Name the reading that changed it most, or say why your guess held.
-4\. If you still have time: How did the unit leave you feeling about control?
+1\. How was working through this unit's content? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
+2\. Before this unit, how did you think control makes an AI catastrophe less likely? And how do you see it now? (Your guess from the start of the unit is in [Welcome to Unit 3](https://lensacademy.org/courses/ai-control-fundamentals/module/ai-control-fundamentals-u3).)
+3\. If you still have time: How did the unit leave you feeling about control?
 
 
-| Names | Your first guess + what changed it |
+| Names | Before → now |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -226,7 +225,7 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 ### Per-room notes for Unit 3
 
 **General, all rooms.** This course is balanced. It shows why people work on control and the criticisms of it, and wants each participant to form their own view. Never steer a group toward a verdict on control, in either direction. If a group asks what you think, ask them what they would need to see to decide. "Control does little in a low-will world" and "control is the best bet in a low-will world" are both fine endpoints if they are argued. The unit is about 3.5 to 4 hours, so many people will have read only part of it. Every room works from the doc alone. Do not let people who finished lecture those who did not. Call two minutes before each room ends.
-**Room 1, Your first guess.** The guess was the open question in the unit's welcome page, so people who stopped early still have one. If someone skipped it, a guess made now is fine. Take guesses without correcting them. A guess that is "it stops the AI" is the most common starting point and a useful contrast for Room 2.
+**Room 1, Before and after.** The "before" is the guess from the unit's welcome page, so people who stopped early still have one. If someone skipped it, a guess made now is fine. Take answers without correcting them. A "before" of "it stops the AI" is the most common starting point and a useful contrast for Room 2.
 **Room 2, Which routes still work with little political will?** Get each person onto a route in the first two minutes. For your own use only, not an answer key, here is what the readings say. Greenblatt keeps some control until handoff in Plans A to C, but says organisation-wide control "should be mostly given up on" in Plan D, apart from measures that stop AIs gaining more permissions or access. Shlegeris's ten-people post is written for a Plan D company and argues cheap measures still matter there. Groups that notice this tension have found something real. Shutting down after a catch needs at least a willing leadership. Using a catch to make later attempts fail can be done by a safety team alone. The window's length depends on how much delay can be bought, which needs governments. What makes a company run a route sits on the same scale: a few insiders fit Plan D, a company policy needs a willing leadership, and a requirement from outside needs a regulator or government. The safety case lesson ends with one company's own risk report. No outside review of its reports has been required or requested so far, apart from pilot reviews of parts. Groups stuck on ask 2 can ask who would have to check such a report for it to bind. Accept other mappings with reasons. Protect time for ask 3.
 **Room 3, The weakest premise.** Push groups to pick within three minutes. Ask 2 needs one person to argue the premise honestly, not as a straw man. Point them to the reading's own defenders if they get stuck (Davidson for the catch, the authors' view that holding off uncontrollable AI for "at least several years" is plausible, for the window, Shlegeris's original post for the insiders). Observations must be things someone could see, for example how a company responds to a real misbehaviour incident, or whether safety teams at less careful companies keep monitoring running. "More research" is not an observation. A group that ends more confident is as successful as one that ends less.
 **Room 4, Where are we, and what would move us?** Participants placed today's world on Greenblatt's plans in the "Plans A, B, C and D" lesson, so asks 1 and 2 compare those answers. Do not say which plan we are in. Greenblatt put Plan D at about 45% in October 2025, but any placement with evidence is fair, and a step that skips a plan (for example a government acting while companies still do not care) is a fair answer too. Keep asks 1 and 2 to about eight minutes so ask 3 gets time. Unit 4 is a little longer than this one, about 4 hours. Push for a concrete plan (when, where, how much at a time), not a promise.
