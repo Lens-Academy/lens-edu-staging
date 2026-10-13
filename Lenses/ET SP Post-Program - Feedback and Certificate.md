@@ -50,10 +50,13 @@ options::
 - ✅ Yes, I've submitted the post-program feedback form
 - Not yet (please complete it, as it's required for your certificate!)
 
-#### Question: Open
-id:: 7dfdbd92-ebfe-43a5-a6ba-bb7a9533f091
-content:: 2. Please enter the completion code shown at the end of the post-program feedback form. This is required for your Certificate of Participation.
-placeholder:: Your completion code
+#### Text
+content::
+**2. Please enter the completion code shown at the end of the post-program feedback form.** The code is required for your Certificate of Participation, and you can't complete this page until a correct code is entered.
+
+#### Widget
+source:: [[../widgets/et-sp-completion-code]]
+required:: true
 
 #### Question: Open
 id:: 56d2b546-4fb9-4be8-9baa-7c87abb1a582
