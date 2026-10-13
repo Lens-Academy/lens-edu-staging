@@ -17,7 +17,7 @@ Three pieces of AI control work:
 
 (A) A team releases an open-source software library that researchers use to run control experiments on AI agents. Researchers at several AI companies and research groups then use it.
 
-(B) A team decides who reviews the actions that a monitor flags on the coding agents writing most of the code for a frontier model, how quickly each flag must be reviewed, and how a serious finding is escalated, and then runs this routine.
+(B) Coding agents write most of the code for a frontier model, and a monitor flags some of their actions. A team decides who reviews those flags, how quickly each must be reviewed, and how a serious finding is escalated, and then runs this routine.
 
 (C) Before a frontier developer starts using a new model as an agent internally, a team red-teams the monitors that will watch it: human red-teamers try to get attacks past those monitors on the developer's real setup. The result decides whether the internal deployment goes ahead.
 
