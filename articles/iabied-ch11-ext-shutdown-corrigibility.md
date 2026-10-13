@@ -105,7 +105,7 @@ We named this broad research problem "corrigibility," in the [2014 paper](https:
 
 [^note-iabied-ftnt269]: The point is *not* that real AIs will have "utility functions" exposed to programmers that the programmers can determine at their leisure. Indeed, much of the problem of AI alignment — as discussed in Chapter 4 — is that modern AIs develop preferences that nobody asked for and nobody wanted.
 
-Instead, studying the case with utility functions is a bit more like proposing the sort of physics exercises you find in math textbooks. If you can't understand how to model a perfect sphere rolling down a perfectly smooth inclined plane with zero air resistance, you're going to have even more trouble with more realistic problems. Particularly if you're trying to rally outside researchers to investigate a problem that nobody knows how to solve, it helps to distill the issue down to its simplest and most basic parts, where you can pose a puzzle.
+    Instead, studying the case with utility functions is a bit more like proposing the sort of physics exercises you find in math textbooks. If you can't understand how to model a perfect sphere rolling down a perfectly smooth inclined plane with zero air resistance, you're going to have even more trouble with more realistic problems. Particularly if you're trying to rally outside researchers to investigate a problem that nobody knows how to solve, it helps to distill the issue down to its simplest and most basic parts, where you can pose a puzzle.
 
 [^note-iabied-ftnt270]: Or otherwise thwart the mechanism behind the swap; the AI wouldn't necessarily be made of legible code.
 
