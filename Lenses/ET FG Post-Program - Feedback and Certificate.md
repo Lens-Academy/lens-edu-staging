@@ -47,10 +47,13 @@ options::
 - ✅ Yes, I've submitted the post-program form
 - Not yet (please complete it, as it's required for your certificate!)
 
-#### Question: Open
-id:: 18c2ed19-fd83-4c46-a7d1-996b83d10d11
-content:: 2. Please enter the completion code shown at the end of the post-program form. This is required for your certificate.
-placeholder:: Your completion code
+#### Text
+content::
+**2. Please enter the completion code shown at the end of the post-program form.** The code is required for your certificate, and you can't complete this page until a correct code is entered.
+
+#### Widget
+source:: [[../widgets/et-fg-completion-code]]
+required:: true
 
 #### Question: Open
 id:: efbd3b64-4ec9-4fcd-b7bc-3801629de2d3

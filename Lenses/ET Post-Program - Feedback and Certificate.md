@@ -26,6 +26,8 @@ tone:: amber
 content::
 **Please fill in the feedback form below to share your feedback and receive your Certificate of Participation.**
 
+At the end of the form, you'll see a **completion code**. Copy it, then enter it in question 2 further down this page.
+
 If the form doesn't load for you, you can [open it in a new tab](https://airtable.com/appcKo5GTmHnUaBlg/pagGHPBww4E31JabV/form).
 
 #### Embed
@@ -49,24 +51,32 @@ options::
 - ✅ Yes, I've submitted the post-program feedback form
 - Not yet (please complete it, as it's required for your certificate!)
 
+#### Text
+content::
+**2. Please enter the completion code shown at the end of the post-program feedback form.** The code is required for your Certificate of Participation, and you can't complete this page until a correct code is entered.
+
+#### Widget
+source:: [[../widgets/et-accelerator-completion-code]]
+required:: true
+
 #### Question: Open
 id:: 8abafa69-885a-4307-89c1-dda962b4a807
-content:: 2. What are the key changes you've made as a result of this program? This could be a change in your thesis topic, your career plans, your next steps, or anything else. Please describe what changed and why.
+content:: 3. What are the key changes you've made as a result of this program? This could be a change in your thesis topic, your career plans, your next steps, or anything else. Please describe what changed and why.
 max-words:: 250
 
 #### Question: Open
 id:: 697c7c53-a6f1-4e2a-aeb2-3ef1bdc4a9fc
-content:: 3. Please paste in a short summary of your current thesis topic and research question.
+content:: 4. Please paste in a short summary of your current thesis topic and research question.
 max-words:: 250
 
 #### Question: Open
 id:: 7c78609a-dc72-40dd-9aa3-675ed01f9e25
-content:: 4. Please paste a link to your final presentation and/or proposal. The link to your final presentation is required for your Certificate of Participation, so please make sure it's viewable (e.g. "anyone with the link can view").
+content:: 5. Please paste a link to your final presentation and/or proposal. The link to your final presentation is required for your Certificate of Participation, so please make sure it's viewable (e.g. "anyone with the link can view").
 placeholder:: https://
 
 #### Question: Open
 id:: 61699c16-e699-419b-8f20-bf3c7e8d28d8
-content:: 5. Anything else you'd like to share with us? (Optional, not graded) A reflection, a thank you, a wish for future cohorts, or anything on your mind!
+content:: 6. Anything else you'd like to share with us? (Optional, not graded) A reflection, a thank you, a wish for future cohorts, or anything on your mind!
 optional:: true
 
 #### Text
