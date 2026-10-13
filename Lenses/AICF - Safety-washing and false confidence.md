@@ -33,7 +33,7 @@ to:: (“we are safe because we are vigilant”).
 
 #### Text
 content::
-A different kind of harm is power concentration. Tom Davidson, Lukas Finnveden and Rose Hadshar of Forethought describe how advanced AI could let a small group seize power. Their report is mainly about AI that is loyal to a few people, not about AI that schemes against its developers, and the kind of monitoring and logging that control relies on is also among the defences it recommends. Read how they think AI could concentrate power, and then one of those defences.
+A different kind of harm is power concentration. Tom Davidson, Lukas Finnveden and Rose Hadshar of Forethought describe how advanced AI could let a small group seize power. Their report is mainly about AI that is loyal to a few people, not about AI that schemes against its developers. Still, among the defences it recommends is the kind of monitoring and logging that control relies on. Read how they think AI could concentrate power, and then one of those defences.
 
 #### Article
 source:: [[../articles/forethought-ai-enabled-coups-how-a-small-group-could-use-ai-to-seize-power]]
