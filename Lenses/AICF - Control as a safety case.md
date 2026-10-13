@@ -26,7 +26,8 @@ to:: "risks from internally deployed LLM agents."
 #### Question: Open
 id:: 2d9dea53-72bb-4996-8b72-9f777180296a
 content::
-How could a control safety case reduce risk in a way that a monitoring team working on its own could not? Who would have to want it?
+1. How could a control safety case reduce risk in a way that a monitoring team working on its own could not?
+2. Who would have to want a control safety case?
 placeholder:: A few sentences.
 force-feedback:: first
 assessment-instructions:: Score out of 100. Context for grading: a control safety case is a structured argument, backed by a control evaluation, that a model cannot get past its control measures. A UK AISI and Redwood Research paper (2025) sketches one and hopes it prompts discussion between frontier labs, government agencies and civil society about what assurance is sufficient. A monitoring team working on its own depends on its own influence inside the company. 50: how a safety case adds to that: it can make control a condition of deployment, so a company policy, an industry standard or a regulator requires a passing case before a model is deployed, and deployment does not go ahead when the case fails. 25 of these 50 for saying only that it gives more evidence or transparency, without linking it to a decision about deployment. 50: who would have to want it: someone with the authority to require the case and to refuse deployment when it fails, such as company leadership, a regulator or a government. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "A monitoring team can only push from inside. A safety case can turn control into a condition of deployment: the model is not deployed unless the case holds. That only works if company leadership, a regulator or a government wants it enough to require the case and to stop a deployment when it fails."
