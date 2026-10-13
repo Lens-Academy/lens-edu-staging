@@ -41,11 +41,11 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-The case for control rests on a few bets. Three of them:
+Working on control leans on a few bets. Three of them:
 
 - AIs stay useful but still controllable long enough to do real safety work.
 - A few safety-minded staff can keep cheap control measures running at a company that doesn't take the risk seriously.
-- Red teams, the people who attack the safety measures in tests, can find attacks as good as the ones a much smarter AI would try.
+- Red teams, the people who attack the safety measures in tests, find attacks at least as good as the ones the real AI would try, even as AIs get more capable.
 
 1\. Which bet do you trust least? Agree on one.
 2\. One person defends it as well as they can. The others attack it. Does it hold?
