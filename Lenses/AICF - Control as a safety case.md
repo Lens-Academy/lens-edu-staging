@@ -48,7 +48,7 @@ feedback-instructions:: The learner just read the argument structure of "A sketc
 content::
 \## A company that relies on monitoring
 
-Anthropic publishes regular risk reports under its Responsible Scaling Policy. Below are parts of its [Risk Report: August 2026](https://www.anthropic.com/aug-2026-risk-report), a report of nearly 190 pages: first its introduction and its summary of the risk from misaligned models, then its appendix on how it monitors its own models while its staff use them.
+Anthropic publishes regular risk reports under its Responsible Scaling Policy. Below are parts of its [Risk Report: August 2026](https://www.anthropic.com/aug-2026-risk-report), a report of nearly 190 pages: first its introduction, then its appendix on how it monitors its own models while its staff use them. The report rates the risk of a catastrophe caused by its models being misaligned as "low", up from "very low", to reflect "increased overall uncertainty".
 
 Two terms the report uses:
 
@@ -57,8 +57,8 @@ Two terms the report uses:
 
 #### Article
 source:: [[../articles/anthropic-risk-report-august-2026]]
-from:: "This report evaluates the degree to which Anthropic"
-to:: "Summary of risks of misalignment in high-stakes settings.**"
+from:: "1 Introduction and executive summary"
+to:: "we will address them through separate documents."
 
 #### Text
 content::
