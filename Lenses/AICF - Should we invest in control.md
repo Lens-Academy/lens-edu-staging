@@ -30,7 +30,8 @@ feedback-instructions:: The learner applies the appendix "Should AI-takeover-con
 content::
 \## Does the window route lead anywhere?
 
-When the post came out, Emmett Shear objected on Twitter that control is "a bad way to solve the problem" because against an ever more capable enemy you lose eventually. Below are two comments from under the post. In the first, Richard Ngo answers Shear: he gives two reasons to like control anyway. In the second, aysja answers Ngo and questions what his approach assumes.A term in her comment:
+When the post came out, Emmett Shear objected on Twitter that control is "a bad way to solve the problem" because against an ever more capable enemy you lose eventually. Below are two comments from under the post. In the first, Richard Ngo answers Shear: he gives two reasons to like control anyway. In the second, aysja answers Ngo and questions what his approach assumes.
+
 
 - **Sharp left turn:** Nate Soares's idea of [a sudden jump in capabilities that earlier alignment work does not carry over to](https://www.lesswrong.com/posts/GNhMPAWcfBCASy8e6).
 
@@ -57,7 +58,7 @@ feedback-instructions:: The learner just read Richard Ngo's comment (quoting Emm
 content::
 \## Where the window route could fail
 
-Joe Carlsmith, then a senior advisor at Open Philanthropy and not part of Redwood, wrote ["AI for AI safety"](https://www.alignmentforum.org/posts/F3j4xqpxjxgQD3xXh/ai-for-ai-safety) in March 2025. You read three short parts: the sweet spot itself, the ways we could fail to benefit from it, and his three core objections to using AI for safety work.
+Joe Carlsmith, then a senior advisor at Open Philanthropy and not part of Redwood, wrote ["AI for AI safety"](https://www.alignmentforum.org/posts/F3j4xqpxjxgQD3xXh/ai-for-ai-safety) in March 2025. You read three short parts: what he calls the sweet spot, the ways we could fail to benefit from it, and his three core objections to using AI for safety work.
 
 Two terms in the excerpts:
 
@@ -82,7 +83,7 @@ id:: 5172e65a-c122-472a-956c-febae0602cdf
 content::
 Carlsmith names three ways we might fail to benefit from a sweet spot.
 
-1. Which one would most weaken Greenblatt and Shlegeris's window route, and why?
+1. Which one would most weaken Greenblatt and Shlegeris's hope for a window, and why?
 2. What would an AI company or a government have to do to make that failure less likely?
 placeholder:: A few sentences.
 force-feedback:: first
