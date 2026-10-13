@@ -9,7 +9,7 @@ summary_for_tutor: "Robert Miles's video 'Using Dangerous AI, But Safely?' (Nov 
 
 #### Text
 content::
-Next, a video that shows how the ideas you just read about are tested. After it, you read the post by the researchers who started the field.
+Next, a video shows how the ideas you just read about are tested. After it, you read the founding post of the field, by Ryan Greenblatt and Buck Shlegeris.
 
 Robert Miles explains the idea behind AI control and walks through the experiment that started the field. The video comes in six parts, with a short exercise after each.
 
