@@ -777,9 +777,9 @@ Because of the short time that the human has to evaluate the AI’s work and ass
 [^note-gillen-barnett-6]: By “doing” we mean fully obsoleting or at least dramatically speeding up humans at a task. An AI speeding up human research 30x would be doing 97% of the work and very likely be able to do effectively all of the work.
 
 [^note-gillen-barnett-7]: More examples of diverse obstacles, for different tasks:
-- A designer trying to build a [fusion rocket](https://en.wikipedia.org/wiki/Fusion_rocket) has to interface with the steel producer and run tests to see if the steel is good, and renegotiate or switch suppliers depending on the results.
-- An advanced coding assistant will sometimes have to debug weird hardware glitches, things outside of normal coding. E.g. To build extremely efficient algorithms, you need to be experimenting with different ways to exploit caching, especially in GPUs.
-- Math AI has to communicate extremely complicated results to humans. For this purpose it might need to develop a new formalism for thinking about problems, or define new types of mathematical object that allow people to draw on intuitions (i.e. similar to Feynman diagrams).
+    - A designer trying to build a [fusion rocket](https://en.wikipedia.org/wiki/Fusion_rocket) has to interface with the steel producer and run tests to see if the steel is good, and renegotiate or switch suppliers depending on the results.
+    - An advanced coding assistant will sometimes have to debug weird hardware glitches, things outside of normal coding. E.g. To build extremely efficient algorithms, you need to be experimenting with different ways to exploit caching, especially in GPUs.
+    - Math AI has to communicate extremely complicated results to humans. For this purpose it might need to develop a new formalism for thinking about problems, or define new types of mathematical object that allow people to draw on intuitions (i.e. similar to Feynman diagrams).
 
 [^note-gillen-barnett-8]: Examples of “resources” could include: time, money, energy, skills, knowledge, other people’s labor, food, memory, writing space, or shared context with coworkers.
 
