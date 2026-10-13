@@ -100,19 +100,19 @@ Little bits of imagination and planning start being an evolutionary advantage lo
 
 [^note-iabied-ftnt90]: The prevalence of thermostat-like mechanisms is one of the things that makes biochemistry so hard for humans to figure out. If a scientist observes the effect of cold weather on a house with a thermostat, the real causality is that cold weather makes the house lose heat faster, and the thermostat then switches the heater on more often. But the house-biologist, recording statistics, finds that cold weather has no visible statistical effect on the *temperature* of the house; rather, houses in colder weather…consume more natural gas?
 
-Then some other scientist's statistics will show a wide range of fluctuations in natural gas consumed over the course of each winter's day, but no correlated difference in average house temperatures. So *they'll* conclude that there's no reason to suspect that natural gas consumption affects house temperatures either. No matter how much natural gas the house consumes, it stays the same temperature (at the bottom of the thermostat's range).
+    Then some other scientist's statistics will show a wide range of fluctuations in natural gas consumed over the course of each winter's day, but no correlated difference in average house temperatures. So *they'll* conclude that there's no reason to suspect that natural gas consumption affects house temperatures either. No matter how much natural gas the house consumes, it stays the same temperature (at the bottom of the thermostat's range).
 
-No, but wait! During summer, natural gas consumption drops off a cliff, and houses are measurably hotter (at the top of the thermostat's range)! So maybe…burning natural gas in the winter makes houses *colder?*
+    No, but wait! During summer, natural gas consumption drops off a cliff, and houses are measurably hotter (at the top of the thermostat's range)! So maybe…burning natural gas in the winter makes houses *colder?*
 
-And that's one reason that medicine is such a giant mess. Thermostat-like processes are *everywhere* in biology, and they can make it tricky to infer what causes what.
+    And that's one reason that medicine is such a giant mess. Thermostat-like processes are *everywhere* in biology, and they can make it tricky to infer what causes what.
 
 [^note-iabied-ftnt91]: There is an *outside* optimizer — a human engineer — who built the thermostat, and that human engineer had in mind a prediction about what would happen when the thermostat automatically switched on the heater at 70°F. But the thermostat itself does not know this.
 
-Mentally tracking and distinguishing different levels of optimization is a foundational skill for reasoning about AI. When human engineers built Deep Blue, the humans wanted to beat Garry Kasparov in order to gain scientific fame, get promoted inside IBM, and push the frontiers of knowledge; Deep Blue searched the tree of possible chess moves and steered the chessboard. One would be confused if one thought the human engineers were searching the chess game tree themselves or that Deep Blue wanted the humans to become famous.
+    Mentally tracking and distinguishing different levels of optimization is a foundational skill for reasoning about AI. When human engineers built Deep Blue, the humans wanted to beat Garry Kasparov in order to gain scientific fame, get promoted inside IBM, and push the frontiers of knowledge; Deep Blue searched the tree of possible chess moves and steered the chessboard. One would be confused if one thought the human engineers were searching the chess game tree themselves or that Deep Blue wanted the humans to become famous.
 
-A thermostat selects on-off codes to a heater such that it keeps a house within a narrow temperature range; a human engineer selects components such that they form a thermostat.
+    A thermostat selects on-off codes to a heater such that it keeps a house within a narrow temperature range; a human engineer selects components such that they form a thermostat.
 
-Similarly, natural selection selects genes such that, in the past, they built biochemistry that kept the organism alive. In a new and different environment, those biochemical feedback loops can kill the organism, and the chemicals and genes themselves will not think about what they are doing.
+    Similarly, natural selection selects genes such that, in the past, they built biochemistry that kept the organism alive. In a new and different environment, those biochemical feedback loops can kill the organism, and the chemicals and genes themselves will not think about what they are doing.
 
 #### Notes
 
