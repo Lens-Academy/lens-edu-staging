@@ -57,6 +57,7 @@ Two terms the report uses:
 source:: [[../articles/anthropic-risk-report-august-2026]]
 from:: "Our findings on specific risks are summarized in the three tables below"
 to:: "Summary of risks of misalignment in high-stakes settings.**"
+
 #### Text
 content::
 The "monitoring" in that summary is described in an appendix. It starts with the automated pipeline that reads what the models do:
