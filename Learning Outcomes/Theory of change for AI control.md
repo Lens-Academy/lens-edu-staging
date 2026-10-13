@@ -32,7 +32,7 @@ notes:: The window route, from the case for control, with the authors' own limit
 
 ## Lens:
 source:: [[../Lenses/AICF - Should we invest in control]]
-notes:: The two claims the case for working on control rests on, then Emmett Shear's objection as quoted by Richard Ngo, Ngo's reply and aysja's reply, then Joe Carlsmith on the ways the window (his "sweet spot") could fail.
+notes:: Optional. The two claims the case for working on control rests on, then Emmett Shear's objection as quoted by Richard Ngo, Ngo's reply and aysja's reply, then Joe Carlsmith on the ways the window (his "sweet spot") could fail.
 
 ## Lens:
 source:: [[../Lenses/AICF - Habryka and Greenblatt on what control is for]]

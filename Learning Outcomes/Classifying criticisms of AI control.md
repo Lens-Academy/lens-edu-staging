@@ -63,7 +63,7 @@ source:: [[../Lenses/AICF - Safety-washing and false confidence]]
 notes:: The false-confidence case of the "makes things worse" kind, and power concentration: an excerpt of Davidson, Finnveden and Hadshar on AI-enabled coups, mainly about loyal AI but with control among its mitigations. Closest reading for Test Criticism A.
 ## Lens:
 source:: [[../Lenses/AICF - What about superintelligence]]
-notes:: A two-sided criticism (MIRI: does not work for superintelligence, and not worth the effort), with Redwood and a UK AISI co-authored paper agreeing on the limit.
+notes:: Optional. A two-sided criticism (MIRI: does not work for superintelligence, and not worth the effort), with Redwood and a UK AISI co-authored paper agreeing on the limit.
 ## Lens:
 source:: [[../Lenses/AICF - Practice sorting and answering criticisms]]
 notes:: Scored practice for parts 1 and 2 on new cases: sort and answer two criticisms, then find the weakest premise in two arguments for control, one of them Google DeepMind's.
