@@ -92,6 +92,6 @@ For more on how an ASI could actually *achieve* these instrumental targets, see 
 
 [^note-iabied-ftnt196]: We have met more than one person who professes to be extremely concerned about AI, because they're worried about AI managing to persuade humanity to stop reproducing and slowly extinguish itself over the next hundred years, and then they think any faster scenario than that is — not to the AI's taste, somehow?
 
-But an ASI would much prefer a plan that does not take a hundred years, all else equal. It doesn't have an overwhelming literary taste for slow deaths.
+    But an ASI would much prefer a plan that does not take a hundred years, all else equal. It doesn't have an overwhelming literary taste for slow deaths.
 
 [^note-iabied-ftnt197]: Some people argue that the world should attempt to create a balance of superintelligences, such that no one AI could become dominant. But the reasoning we've provided here would also apply to a coalition of superintelligences at the moment it became a coalition. Having already agreed to divide reachable resources among themselves, existing members of the coalition would not want to be forced to negotiate with new coalition members and divide resources still further with those newcomers.

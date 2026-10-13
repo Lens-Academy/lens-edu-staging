@@ -90,8 +90,8 @@ A more in-depth discussion of the orthogonality thesis can be found [on LessWron
 
 [^note-iabied-ftnt195]: It can make sense to say to a human — who has a whole meta-preference framework going on that you might significantly share — "I think you are valuing the wrong things, here." Maybe some of those arguments have the power to move you in a way you never thought you could be moved. Maybe it even feels like there's a moral star outside yourself, that you were always following without knowing it.
 
-All the same, none of that is going to feel compelling to a superintelligent cube maximizer, any more than you could make it laugh if you just found a good *enough* joke.
+    All the same, none of that is going to feel compelling to a superintelligent cube maximizer, any more than you could make it laugh if you just found a good *enough* joke.
 
-It's not that it doesn't know what humor is. It can predict exactly what you'll find funny. It just doesn't consider that classification an interesting one.
+    It's not that it doesn't know what humor is. It can predict exactly what you'll find funny. It just doesn't consider that classification an interesting one.
 
-In the same way, it isn't moved by how you compute what should or shouldn't be done; nor by which preferences you consider more or less meta-preferable. If something doesn't care about happiness, nor meta-care about your arguments for why it should care about happiness, then you cannot talk it into adopting [a happiness-based decision framework](https://ifanyonebuildsit.com/4/curiosity-isnt-convergent).
+    In the same way, it isn't moved by how you compute what should or shouldn't be done; nor by which preferences you consider more or less meta-preferable. If something doesn't care about happiness, nor meta-care about your arguments for why it should care about happiness, then you cannot talk it into adopting [a happiness-based decision framework](https://ifanyonebuildsit.com/4/curiosity-isnt-convergent).
