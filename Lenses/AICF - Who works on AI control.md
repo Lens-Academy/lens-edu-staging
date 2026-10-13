@@ -205,7 +205,7 @@ collapse:: closed
 
 #### Text
 content::
-Apollo Research is an AI safety research organisation. Most of its research is alignment research on scheming: whether future models will pursue hidden goals, and how to detect and reduce this, for example in a 2025 paper with OpenAI on training models to scheme less.[^cite-apollo-may-2026][^cite-openai-scheming-2025-b] Its control work sits in a monitoring team with a research side and a product side, which it set up after becoming a public benefit corporation, a kind of for-profit company, in January 2026.[^cite-apollo-pbc][^cite-apollo-may-2026]
+Apollo Research is an AI safety research organisation. Most of its research is alignment research on scheming: whether future models will pursue hidden goals, and how to detect and reduce this, for example in a 2025 paper with OpenAI on training models to scheme less.[^cite-apollo-may-2026][^cite-openai-scheming-2025-b] In January 2026 Apollo became a public benefit corporation, a kind of for-profit company. It then set up a monitoring team with a research side and a product side, and that team does its control work.[^cite-apollo-pbc][^cite-apollo-may-2026]
 
 - **Watcher**, its control product, watches AI coding agents such as Claude Code and Codex, and other agents through a software kit.[^cite-watcher-live]
   - Watcher Live checks each action before it runs, in three steps. Simple rules approve or block some actions straight away, for example approving actions that only read files. A fast, cheap model then passes about 6% of actions on to a stronger model, which makes the final call.[^cite-watcher-live]
@@ -347,7 +347,7 @@ collapse:: closed
 
 #### Text
 content::
-Coefficient Giving, formerly Open Philanthropy, is a foundation that Manifund's grant tracker, Trace, calls the largest philanthropic funder of AI safety work.[^cite-trace-coefficient-b] It committed $168m to technical AI safety, security and field-building in 2024, $351m in 2025, and expects to pass $1bn in 2026.[^cite-coefficient-scaling-2026-b]
+Coefficient Giving, formerly Open Philanthropy, is a foundation. Manifund's grant tracker, Trace, calls it the largest philanthropic funder of AI safety work.[^cite-trace-coefficient-b] It committed $168m to technical AI safety, security and field-building in 2024, $351m in 2025, and expects to pass $1bn in 2026.[^cite-coefficient-scaling-2026-b]
 
 
 - It is Redwood Research's main funder. It gave Redwood $36.6m in November 2025,[^cite-tnw-2026-b] and in September 2026 it said its grantmakers had recently recommended more than $70m for Redwood over the next two years.[^cite-coefficient-scaling-2026-b]
