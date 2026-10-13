@@ -46,14 +46,20 @@ feedback-instructions:: The learner just read the argument structure of "A sketc
 content::
 \## A company that relies on monitoring
 
-Anthropic publishes regular risk reports under its Responsible Scaling Policy. The excerpts below come from its [Risk Report: August 2026](https://www.anthropic.com/aug-2026-risk-report), from the appendix on how it monitors its own models while its staff use them for coding and other agent work. The report covers Claude Mythos 5 and an unreleased model Anthropic calls Model 2.
-
-The report rates the risk of a catastrophe caused by these models being misaligned as "low". Anthropic says its arguments still support "very low", but it raised the rating "to reflect increased overall uncertainty" while it reviews recent incidents in cybersecurity evaluations.
+Anthropic publishes regular risk reports under its Responsible Scaling Policy. Below are parts of its [Risk Report: August 2026](https://www.anthropic.com/aug-2026-risk-report), a report of nearly 190 pages: first its summary of the risk from misaligned models, then its appendix on how it monitors its own models while its staff use them.
 
 Two terms the report uses:
 
 - **Asynchronous monitoring:** checking an AI's actions after they have run.
 - **Blocking:** stopping an action before it runs.
+
+#### Article
+source:: [[../articles/anthropic-risk-report-august-2026]]
+from:: "Our findings on specific risks are summarized in the three tables below"
+to:: "Summary of risks of misalignment in high-stakes settings.**"
+#### Text
+content::
+The "monitoring" in that summary is described in an appendix. It starts with the automated pipeline that reads what the models do:
 
 #### Article
 source:: [[../articles/anthropic-risk-report-august-2026]]
