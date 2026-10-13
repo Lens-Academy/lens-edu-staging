@@ -90,7 +90,6 @@ A rival company's arguments:
 1\. Gut call, go around: would AI companies, not just this one, slow down?
 2\. One of you plays the rival and makes the strongest argument against slowing down. The others answer as the company.
 3\. What would the company need ready in advance to win that argument?
-4\. If you still have time: what real event would show whether Shlegeris or Davidson is right?
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
