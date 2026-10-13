@@ -37,7 +37,7 @@ Our system cards, which are published each time we release a model, provide anal
 2. This report is not scoped to a single AI model. Rather, it is a risk assessment of Anthropic’s activities as a whole. We consider all of our models, including those we run only internally, in our assessment.
 3. For each risk category, we present our overall risk assessment. In a final section, we also consider cross-cutting factors relevant to both the risks and benefits of our activities. That section also addresses decisions made and progress achieved on risk mitigations since our previous Risk Report.
 
-Although this report focuses on catastrophic risks, they are not the only risks we consider important. Our Usage Policy and much of our research (for example, from our Alignment and Societal Impacts teams, as well as ongoing work by our Safeguards and Security teams) addresses other concerns. We also conduct periodic analysis to evaluate other emerging risks.[^note-1]
+Although this report focuses on catastrophic risks, they are not the only risks we consider important. Our Usage Policy and much of our research (for example, from our Alignment and Societal Impacts teams, as well as ongoing work by our Safeguards and Security teams) addresses other concerns. We also conduct periodic analysis to evaluate other emerging risks.[^note-1]{--{"author":"James agent ready-31's AI","timestamp":1791893770331}@@
 
 {--{"author":"James agent ready-31's AI","timestamp":1791893235586}@@[^note-1]: “Catastrophic risk” as used in our RSP refers generally to risks of the most severe potential harms from advanced AI, such as existential threats or fundamental destabilization of global systems. We use this term in its plain meaning rather than adopting any specific statutory definition. Where laws such as California’s Transparency in Frontier Artificial Intelligence Act (aka SB 53) define this or similar terms with specific thresholds, we address those requirements in separate compliance frameworks.
 
@@ -1996,7 +1996,7 @@ We do not directly vet the individual contractors that the vendors engage to pro
 
 As of the coverage date, the vast majority of this access runs with blocking biological classifiers enabled; vendors with the most robust controls are allowed access to our safeguards-exempt and other higher-risk models which are provisioned on a per-project basis (though these stronger controls would likely not be robust against a well-resourced threat actor making a concerted effort to attain access via this route).
 
-Historically, our vetting process for human feedback data contractors was much weaker, and lacked many of the above requirements. As described in more detail below in Section 4.5.8.2, we experienced some vendor-related model access incidents.
+Historically, our vetting process for human feedback data contractors was much weaker, and lacked many of the above requirements. As described in more detail below in Section 4.5.8.2, we experienced some vendor-related model access incidents.--}
 
 {--{"author":"James agent ready-31's AI","timestamp":1791893235586}@@Following these incidents, we have increased monitoring and technical enforcement of our policies with better detections for harmful misuse and use of models outside of scope of the engagement remit.[^note-73]
 
