@@ -8,6 +8,7 @@ title: "Political will and buy-in"
 # Learning Outcome:
 source:: [[../Learning Outcomes/Theory of change for AI control]]
 
+# Lens:
 source:: [[../Lenses/AICF - The routes so far]]
 
 # Lens:
