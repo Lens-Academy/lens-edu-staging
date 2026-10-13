@@ -28,7 +28,9 @@ to:: highlighting that we might eventually need alternative approaches to mitiga
 
 #### Text
 content::
-The Machine Intelligence Research Institute (MIRI) set out its view of AI risk in "The Problem" in 2025. Two short excerpts. ASI means artificial superintelligence.
+The Machine Intelligence Research Institute (MIRI) set out its view of AI risk in "The Problem" in 2025. Two short excerpts. A term in them:
+
+- **ASI:** artificial superintelligence.
 
 #### Article
 source:: [[../articles/bensinger-the-problem]]
