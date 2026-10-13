@@ -185,11 +185,11 @@ For more on what the AIs *will* wind up wanting, read on to Chapter 4.
 
 [^note-iabied-ftnt86]: Today, we also have chess programs that work a little more like how Kasparov envisioned, blending search trees (which can be thought of as more "logical") with neural networks (more "intuitive").
 
-Those new programs are, in fact, much more powerful than Deep Blue. The current top chess programs, like Stockfish, have as one component neural networks that evaluate chess positions "on sight" without looking ahead. These networks probably incorporate a similar sense to Kasparov's about loose pawn formations (although, since they are neural networks, nobody knows for sure).
+    Those new programs are, in fact, much more powerful than Deep Blue. The current top chess programs, like Stockfish, have as one component neural networks that evaluate chess positions "on sight" without looking ahead. These networks probably incorporate a similar sense to Kasparov's about loose pawn formations (although, since they are neural networks, nobody knows for sure).
 
-If you subtracted this network from the modern chess machine *—* if you deprived it of perceptual intuitions about momentary chessboard states *—* its play would get worse. Likewise, if you force the modern chess machine to play *purely* intuitively, with no lookahead further than the board resulting from the next move, the measured chess power drops by a lot.
+    If you subtracted this network from the modern chess machine *—* if you deprived it of perceptual intuitions about momentary chessboard states *—* its play would get worse. Likewise, if you force the modern chess machine to play *purely* intuitively, with no lookahead further than the board resulting from the next move, the measured chess power drops by a lot.
 
-So Kasparov was not wrong in the intuition that better "intuitive" board evaluation is helpful when playing chess. But he was wrong about the ability of sheer brute force to find moves that *felt* creative, intuitive, or inspired. Deep Blue had a dumb position evaluator and still found the creative-feeling moves.
+    So Kasparov was not wrong in the intuition that better "intuitive" board evaluation is helpful when playing chess. But he was wrong about the ability of sheer brute force to find moves that *felt* creative, intuitive, or inspired. Deep Blue had a dumb position evaluator and still found the creative-feeling moves.
 
 [^note-iabied-ftnt88]: An example can be found in *[Planet Stories](https://www.heritage-posters.co.uk/product/planet-stories-spring-1942-cover-art-poster-allen-anderson/)* [magazine](https://www.heritage-posters.co.uk/product/planet-stories-spring-1942-cover-art-poster-allen-anderson/).
 
