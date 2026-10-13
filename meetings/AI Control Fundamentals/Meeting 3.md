@@ -223,7 +223,6 @@ style:: plain
 
 ### Module: Using AI while it can still be controlled
 
-Theory of change: The routes by which work on control is supposed to make an AI catastrophe less likely, and what each route needs in order to work.
 Political will: How much AI companies and governments want to act on AI risk. The unit asks how much each route of control depends on it.
 Lower-dignity world: Buck Shlegeris's phrase for a world that invests less in AI safety than people hoped, with less regulation, more rush and less ability to stop.
 Transformatively useful: Capable enough to substantially reduce risk from later AIs, for example by speeding up safety research a lot.
