@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-Greenblatt's Plan D is a company that does not take misalignment seriously, with a small group inside who do. Greenblatt links that scenario to this post by Buck Shlegeris, which asks what a few concerned insiders could still do there with cheap measures. After it come two replies from the comments, by people at AI companies who doubt the ten would have that much room, and a paragraph from a June 2026 post in which Shlegeris looks back.
+In Greenblatt's Plan D, a company does not take misalignment seriously, but a small group inside it does. Greenblatt links that scenario to this post by Buck Shlegeris, "Ten people on the inside", which asks what such a group could still do with cheap measures. After the post come two replies from its comments, by people at AI companies who doubt the ten would have that much room. Last is a paragraph from a June 2026 post in which Shlegeris looks back.
 
 A term in the post:
 
