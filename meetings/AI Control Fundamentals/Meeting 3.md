@@ -80,9 +80,9 @@ One or two people share what their group landed on.
 An AI company catches its AI trying to escape by copying itself to an outside server. It has the logs.
 
 - Buck Shlegeris doubts this would get AI companies to slow down.
-- Tom Davidson thinks that if the AI really is scheming, the company could publish credible evidence that changes many sceptics' minds, even if the world doesn't pause.
+- Tom Davidson thinks that if the AI is truly scheming, the company could publish credible evidence that changes many sceptics' minds, even without a pause.
 
-Arguments a rival could make:
+A rival company's arguments:
 
 - "China won't stop, so stopping means losing."
 - "AIs do weird stuff. One incident proves nothing."
@@ -92,7 +92,7 @@ Arguments a rival could make:
 1\. Gut call, go around: would AI companies, not just this one, slow down?
 2\. One of you plays the rival and makes the strongest argument against slowing down. The others answer as the company.
 3\. What would the company need ready in advance to win that argument?
-4\. If you still have time: what real event would show who is closer to right?
+4\. If you still have time: what real event would show whether Shlegeris or Davidson is right?
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
