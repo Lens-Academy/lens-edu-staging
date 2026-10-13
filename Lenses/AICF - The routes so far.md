@@ -2,7 +2,7 @@
 id: 'd1b901e8-6075-403d-86dd-f1898021f159'
 title: "The routes so far"
 tldr: "Three ways control is supposed to lower the risk of an AI catastrophe, which the rest of the unit calls routes: stopping attacks, catching an AI red-handed, and the window."
-summary_for_tutor: "Short Lens-written summary in Unit 3 of AI Control Fundamentals, before Greenblatt's Plans A to D. It names the three routes the unit has covered so far, so later questions can refer to them: stopping attacks (monitors block or replace dangerous actions while the AI works), catching it red-handed (catch an attempt, then shut down or study it so later attempts fail), and the window (use AIs that are useful but still controllable to speed up safety work before AIs become too capable to control). One more route comes later in the unit. Do not preview them. No question."
+summary_for_tutor: "Short Lens-written summary in Unit 3 of AI Control Fundamentals, before Greenblatt's Plans A to D. It names the three routes the unit has covered so far, so later questions can refer to them: stopping attacks (monitors block or replace dangerous actions while the AI works), catching it red-handed (catch an attempt, then shut down or study it so later attempts fail), and the window (use AIs that are useful but still controllable to speed up safety work before AIs become too capable to control). Later readings ask what makes a company run control at all (a few insiders, the company's own policy, or a requirement such as a control safety case), which is not a new route. Do not preview them. No question."
 reading_minutes: 1
 tutor_minutes: 0
 ---
