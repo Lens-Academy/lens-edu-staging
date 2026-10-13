@@ -10,7 +10,9 @@ tags:
 ---
 #### Text
 content::
-In Unit 1 you read the first parts of Ryan Greenblatt and Buck Shlegeris's case for control. Here are two later sections. They say what control is for and for how long it can work, starting with the authors' own view of its limits. "Exogenous risk" in the second section means risk from AI built by other actors.
+In Unit 1 you read the first parts of Ryan Greenblatt and Buck Shlegeris's case for control. Here are two later sections. They say what control is for and for how long it can work, starting with the authors' own view of its limits.A term in the second section:
+
+- **Exogenous risk:** risk from AI built by other actors.
 
 #### Article
 source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
