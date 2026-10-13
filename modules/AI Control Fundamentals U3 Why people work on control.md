@@ -20,7 +20,7 @@ In Unit 1 you saw what control is and how it is tested. This unit asks why peopl
 \## In this unit you will
 
 - Read Buck Shlegeris on why control matters in a world that invests little in AI safety.
-- Read the argument that controlled AI could do useful safety work during a window before AI becomes too capable to control, and replies to it.
+- Read the argument that controlled AI could do useful safety work during a window before AI becomes too capable to control. Optionally, read replies to it and to the case for working on control at all.
 - Read a critic and a control researcher discussing what control is for.
 - Read why catching an AI in an attempt counts as a win, and whether a catch would change what AI developers do.
 - Read Ryan Greenblatt's plans for different levels of political will, and what ten safety-minded people inside a careless company could do.
@@ -42,6 +42,7 @@ source:: [[../Lenses/AICF - Using AI while it can still be controlled]]
 
 # Lens:
 source:: [[../Lenses/AICF - Should we invest in control]]
+optional:: true
 
 # Lens:
 source:: [[../Lenses/AICF - Habryka and Greenblatt on what control is for]]
