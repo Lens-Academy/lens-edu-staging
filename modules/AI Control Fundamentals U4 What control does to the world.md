@@ -26,9 +26,9 @@ source:: [[../Lenses/AICF - Does control make AIs adversarial]]
 # Lens: Practice: sorting and answering criticisms
 id:: 1de2406a-a5d7-4da3-a4cd-60f23be8e4a1
 reading_minutes:: 5
-tutor_minutes:: 19
+tutor_minutes:: 25
 tldr:: Practise the unit's two skills on new cases. Sort a criticism and answer it, and find the weakest premise in an argument for control.
-summary_for_tutor:: Practice lens at the end of Unit 4 of AI Control Fundamentals, written by Lens. Three ungraded exercises with tutor feedback. (1) Sort and answer two new criticisms (one about careless companies that do not use control, one about control papers teaching future models how to attack). (2) Name the weakest premise in two arguments for control. Argument A is Google DeepMind's: two short excerpts of Rohin Shah's LessWrong summary of "An Approach to Technical AGI Safety and Security" (April 2025) say their approach "has two lines of defense", the second being control, "treating the AI system as an untrusted insider", and that they "aim for defense in depth" with access control, anomaly detection, logging and auditing. Argument B is written by Lens. (3) A short reflection on which criticism the learner finds strongest. The unit's tests follow this lens. Do not tell the learner which side is right.
+summary_for_tutor:: Practice lens at the end of Unit 4 of AI Control Fundamentals, written by Lens. Five ungraded questions with tutor feedback. (1) and (2) Sort and answer two new criticisms, one per question: careless companies that do not use control, and control papers teaching future models how to attack. (3) and (4) Name the weakest premise in two arguments for control, one per question. The first argument is Google DeepMind's: two short excerpts of Rohin Shah's LessWrong summary of "An Approach to Technical AGI Safety and Security" (April 2025) say their approach "has two lines of defense", the second being control, "treating the AI system as an untrusted insider", and that they "aim for defense in depth" with access control, anomaly detection, logging and auditing. The second argument is written by Lens. (5) A short reflection on which criticism the learner finds strongest. The unit's tests follow this lens. Do not tell the learner which side is right.
 #### Text
 content::
 Before the tests, practise on new cases. The tutor will give you feedback on each answer.
