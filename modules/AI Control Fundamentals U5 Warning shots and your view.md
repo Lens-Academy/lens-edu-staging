@@ -13,6 +13,7 @@ source:: [[../Lenses/AICF - Blocking monitors and early warning shots]]
 
 # Lens:
 source:: [[../Lenses/AICF - Should safety researchers quit frontier labs]]
+optional:: true
 
 # Lens:
 source:: [[../Lenses/AICF - Do warning shots change policy]]

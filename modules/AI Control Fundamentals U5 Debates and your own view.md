@@ -24,7 +24,7 @@ The point is not to tell you who is right. It is to help you see what each disag
 - Hear Buck Shlegeris and Ryan Greenblatt answer the worry that control prevents warning shots, before and after the incident.
 - Watch Adam Gleave and Oliver Habryka debate whether current safety techniques are enough.
 - Practise finding the crux of their disagreement.
-- Read the arguments for fewer blocking monitors and for more preventive controls, about whether safety researchers should leave frontier labs, and about whether warning shots change policy at all, with what governments and labs actually did after the incident.
+- Read the arguments for fewer blocking monitors and for more preventive controls, and about whether warning shots change policy at all, with what governments and labs actually did after the incident. Optionally, read about whether safety researchers should leave frontier labs.
 - State your own view, with your confidence and what would change your mind, and compare it with the gut view you wrote in Unit 1.
 
 # Lens:
