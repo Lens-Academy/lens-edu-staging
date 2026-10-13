@@ -44,3 +44,6 @@ source:: ![[../Lenses/Facilitator Flat - M5 How to Get Feedback]]
 
 # Lens: You're done
 source:: ![[../Lenses/Facilitator Flat - M5 Youre Done]]
+
+# Lens: Post-Program Feedback & Certificate
+source:: ![[../Lenses/Facilitator - Post-Program Feedback and Certificate]]
