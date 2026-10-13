@@ -1,8 +1,8 @@
 ---
 id: 'f81fb4ff-8d50-4110-9721-1341e954ba4d'
 title: "Post-Program Feedback & Certificate"
-tldr: "Fill in the post-program form to share your feedback, offboard as a Campus Director or Facilitator, and get the completion code for your certificate."
-summary_for_tutor: "The final lens of the Effective Thesis Accelerator Facilitator Guide. Campus Directors and Facilitators fill in an embedded Airtable post-program form to give feedback and offboard. At the end of the form they receive a completion code, which they enter in the question below to receive their certificate. If the form does not load, they can open it directly at https://airtable.com/appwUI4Pc2NJPOfmZ/pagHeZnPA3oHwu5Zc/form"
+tldr: "Fill in the post-program form to share your feedback, offboard as a Campus Director or Facilitator, and get the confirmation code for your certificate."
+summary_for_tutor: "The final lens of the Accelerator Facilitator Guide. Campus Directors and Facilitators fill in an embedded Airtable post-program form to give feedback and offboard. At the end of the form they receive a confirmation code, which they enter in the question below the form to receive their certificate. If the form does not load, they can open it directly at https://airtable.com/appwUI4Pc2NJPOfmZ/pagHeZnPA3oHwu5Zc/form"
 reading_minutes: 2
 tutor_minutes: 0
 tags: [wip]
@@ -24,13 +24,20 @@ tone:: amber
 
 #### Text
 content::
-**Please fill in the post-program form to share your feedback, offboard from the program, and get your completion code.**
+**Please fill in the post-program form to share your feedback, offboard from the program, and get your confirmation code.**
 
-👉 **[Open the post-program form](https://airtable.com/appwUI4Pc2NJPOfmZ/pagHeZnPA3oHwu5Zc/form)** (opens in a new tab)
+If the form doesn't load for you, you can [open it in a new tab](<https://airtable.com/appwUI4Pc2NJPOfmZ/pagHeZnPA3oHwu5Zc/form>).
 
-At the end of the form, you'll see a **completion code**. Copy it, then come back here and enter it in the question below to receive your certificate.
+#### Embed
+source:: [[../articles/airtable-et-fg-post-program-form]]
+inline:: true
 
 #### End Callout
+
+#### Question: Open
+id:: 01bfb133-4d3b-4bb4-b7fd-6071870bb89f
+content:: Enter the confirmation code shown after you submit the form above.
+placeholder:: Confirmation code
 
 #### Text
 content::
@@ -57,7 +64,7 @@ required:: true
 
 #### Question: Open
 id:: efbd3b64-4ec9-4fcd-b7bc-3801629de2d3
-content:: 3. Anything else you'd like to share with us? (Optional) A reflection, a thank you, a wish for future cohorts, or anything on your mind!
+content:: 2. Anything else you'd like to share with us? (Optional) A reflection, a thank you, a wish for future cohorts, or anything on your mind!
 optional:: true
 
 #### Text
