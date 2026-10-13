@@ -85,27 +85,35 @@ button:hover { background: #faf8f3; }
     cards.appendChild(el("p", "missing", text));
   }
 
+  function show(answers) {
+    cards.textContent = "";
+    card(OBJECTION, answers[OBJECTION] || {}, null);
+    var years = answers[YEARS] || {};
+    card(YEARS, years, fromYears(years.answer));
+  }
+
   function read() {
-    if (!window.Lens) {
-      notice("Open this page on the Lens platform to see your answers here.");
-      return;
-    }
-    if (!window.Lens.getAnswers) {
-      notice("This version of the platform cannot read answers yet.");
-      return;
-    }
-    window.Lens.getAnswers([OBJECTION, YEARS]).then(function (answers) {
-      cards.textContent = "";
-      card(OBJECTION, answers[OBJECTION] || {}, null);
-      var years = answers[YEARS] || {};
-      card(YEARS, years, fromYears(years.answer));
-    }, function () {
+    window.Lens.getAnswers([OBJECTION, YEARS]).then(show, function () {
       notice("Your answers could not be loaded.");
     });
   }
 
-  document.getElementById("again").addEventListener("click", read);
-  read();
+  var again = document.getElementById("again");
+  if (!window.Lens) {
+    again.hidden = true;
+    notice("Open this page on the Lens platform to see your answers here.");
+  } else if (window.Lens.onAnswers) {
+    // Live: called now, and again whenever you change one of these answers.
+    again.hidden = true;
+    window.Lens.onAnswers([OBJECTION, YEARS], show);
+  } else if (window.Lens.getAnswers) {
+    // An older platform: read once, and again on the button.
+    again.addEventListener("click", read);
+    read();
+  } else {
+    again.hidden = true;
+    notice("This version of the platform cannot read answers yet.");
+  }
   </script>
 </body>
 </html>
