@@ -54,7 +54,7 @@ source:: [[../Lenses/AICF - Blocking monitors and early warning shots]]
 notes:: Asks where Cheng and Li still disagree with Greenblatt, a smaller crux exercise.
 ## Lens:
 source:: [[../Lenses/AICF - Should safety researchers quit frontier labs]]
-notes:: Arguments and replies to weigh, with practice judging which replies hold.
+notes:: Optional. Arguments and replies to weigh, with practice judging which replies hold.
 ## Lens:
 source:: [[../Lenses/AICF - Do warning shots change policy]]
 notes:: Evidence on the policy-response crux behind several of the unit's debates.

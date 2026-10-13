@@ -48,4 +48,4 @@ source:: [[../Lenses/AICF - Does control breed better schemers]]
 notes:: Training against caught behaviour as a backfire path.
 ## Lens:
 source:: [[../Lenses/AICF - Does control make AIs adversarial]]
-notes:: Self-fulfilling misalignment: a fine-tuning study on control writing and a larger pretraining study on AI writing in general, with a fix (adding data about AIs behaving well).
+notes:: Optional. Self-fulfilling misalignment: a fine-tuning study on control writing and a larger pretraining study on AI writing in general, with a fix (adding data about AIs behaving well).
