@@ -78,7 +78,12 @@ to:: "tamper with asynchronous monitoring)."
 
 #### Text
 content::
-The weight security appendix the excerpt points to lists controls such as limits on how fast data can leave its systems, which make copying multi-terabyte model weights out of Anthropic slower and easier to detect, and a second employee having to approve access to model weights. It scopes these protections against most non-state attackers and unsophisticated insiders, not against sophisticated insiders or nation-state attackers.
+Under "Model weight security", the excerpt only points to another appendix of the report. Two of the controls listed there:
+
+- **Limits on how fast data can leave Anthropic's systems.** Copying out model weights, which take up many terabytes, then takes longer and is easier to notice.
+- **A second employee has to approve** any access to model weights.
+
+Anthropic says these controls protect against most attackers who are not governments, and against insiders with little skill. They are not meant to stop skilled insiders or nation states.
 
 Elsewhere, the same report says its mitigations give "less protection than might be intuitively expected" against a model that is misaligned in most situations without Anthropic having noticed. For that case it writes that its low risk estimate "comes primarily from a belief that it is very unlikely, rather than that we are well positioned to mitigate any harm it might cause". It also notes that its Long-Term Benefit Trust, which may request an outside review of risk reports, "has not requested an external review (nor has the RSP required that we conduct one)", though Anthropic has "continued to conduct pilot external reviews" of parts of its reports, for example with METR.
 
