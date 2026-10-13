@@ -38,7 +38,7 @@ source:: [[../articles/davidson-comment-on-would-catching-your-ais-trying-to-esc
 
 #### Text
 content::
-Oliver Habryka replied to Davidson:
+Oliver Habryka replied to Tom Davidson's comment:
 
 #### Article
 source:: [[../articles/habryka-comment-on-would-catching-your-ais-trying-to-escape-convince-ai-developers-to-slow-down-or-undeploy]]
