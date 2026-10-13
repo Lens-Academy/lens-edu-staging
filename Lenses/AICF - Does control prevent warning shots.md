@@ -8,7 +8,7 @@ tutor_minutes: 8
 ---
 #### Text
 content::
-In Unit 1 you read Jan Kulveit's argument that control may turn useful warning shots into quiet catches, and in Unit 4 Ryan Greenblatt's written reply. Here is how Ryan and Buck Shlegeris answered it in conversation, in January 2026, months before the Hugging Face incident, in the first Redwood Research podcast. Both had written the case for control you read in Unit 1.
+In Unit 1 you read Jan Kulveit's argument that control may turn useful warning shots into quiet catches. In Unit 4 you read Ryan Greenblatt's written reply. Here Ryan and Buck Shlegeris, who together wrote the case for control you read in Unit 1, answer it in conversation. This is from the first Redwood Research podcast, in January 2026, months before the Hugging Face incident.
 
 #### Video
 source:: [[../video_transcripts/buck-shlegeris-the-redwood-research-podcast]]

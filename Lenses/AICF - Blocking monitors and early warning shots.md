@@ -8,7 +8,7 @@ tutor_minutes: 20
 ---
 #### Text
 content::
-After the incident, some people argued that the kind of control measure that might have stopped it, a monitor that blocks a suspicious action before it runs, would have done harm in this case. Others argued that companies need more measures of exactly that kind. Here are three posts. Vincent Cheng (September 2026) makes the case against blocking monitors and proposes an alternative. Jasmine Li (September 2026) takes a position in between. Steven Adler (August 2026) argues that companies should prevent incidents, not only report them.
+A monitor that blocks a suspicious action before it runs might have stopped the incident. Afterwards, some people argued that such a monitor would have done harm in this case. Others argued that companies need more measures of exactly that kind. Here are three posts. Vincent Cheng (September 2026) makes the case against blocking monitors and proposes an alternative. Jasmine Li (September 2026) takes a position in between. Steven Adler (August 2026) argues that companies should prevent incidents, not only report them.
 
 #### Article
 source:: [[../articles/cheng-blocking-monitors-are-bad]]
