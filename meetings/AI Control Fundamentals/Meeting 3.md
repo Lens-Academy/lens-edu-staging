@@ -166,7 +166,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | Time | Block |
 |---|---|
 | 0:00–0:05 | Lobby / welcome (whole group) |
-| 0:05–0:19 | R1 Your first guess (breakout, aim 3) |
+| 0:05–0:19 | R1 Before and after (breakout, aim 3) |
 | 0:19–0:24 | Back together (whole group) |
 | 0:24–0:42 | R2 Which routes still work with little political will? (reshuffle) |
 | 0:42–0:47 | Back together (whole group) |
@@ -188,7 +188,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 2. Name the new format (small breakout rooms of 3, new people each time, and a five-minute get-together after each room where anyone can share what their group landed on)
 3. Tell them the doc is in the chat + Discord and to open it + check they can type
 4. Run through the arc
-    - opening round and your first guess → which routes still work with little political will → the weakest premise → where the world is today and what would move it up, then planning
+    - opening round, before and after → which routes still work with little political will → the weakest premise → where the world is today and what would move it up, then planning
     - say the meeting will take 90 min
 5. Inform participants that you will be jumping between rooms with your camera turned off to listen in and they can ask questions whenever you join
 6. Start room 1
