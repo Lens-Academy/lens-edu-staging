@@ -8,7 +8,7 @@ summary_for_tutor: "Unit 4 of AI Control Fundamentals. The learner reads a short
 ---
 #### Text
 content::
-Control's authors and MIRI agree on one limit. Here is how the authors of the case for control, which you read in Unit 1, put it:
+Greenblatt and Shlegeris, who wrote the case for control you read in Unit 1, agree with MIRI on one limit. Here is how they put it:
 
 #### Article
 source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
@@ -69,7 +69,7 @@ force-feedback:: first
 content::
 \## What the plan needs
 
-Control's authors accept that it will not work for an arbitrarily powerful AI. What would have to be true for their plan to work, given this limit?
+Greenblatt and Shlegeris accept that control will not work for an arbitrarily powerful AI. What would have to be true for their plan to work, given this limit?
 placeholder:: A few sentences.
 assessment-instructions:: Score out of 100. Context for grading: Greenblatt and Shlegeris write that the control approach they imagine will not work for arbitrarily powerful AIs. It is aimed at "transformatively useful AI", AIs capable of substantially reducing risk from subsequent AIs. A 2025 paper co-written by Shlegeris says a compelling control safety case for superintelligent agents will require research breakthroughs, and that alternative approaches may eventually be needed. MIRI writes that "Plans to align ASI using unaligned AIs are similarly unsound". Conditions for the plan to work: there must be a window in which AIs are useful enough to help and still controllable, the work they produce must be checkable, and developers or governments must use that window well, for example by slowing down before AIs outgrow control. Any two of these conditions earn 100, one earns 50. Also credit another condition that the plan clearly needs, with a reason. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "There has to be a period when AIs are capable enough to do real safety work but still weak enough to control. The work they do in that period has to be something we can check. And someone has to use the period well, for example by slowing down before the AIs outgrow control."
 feedback-instructions:: The learner says what would have to be true for the control plan to work, given that control will not work for an arbitrarily powerful AI. Reference points: there must be a window in which AIs are useful enough to help and still controllable, the work they produce must be checkable, and developers or governments must use that window well, for example by slowing down before AIs outgrow control. Up to two turns, 80 to 140 words each. Steelman the answer, name the most important gap, and ask one direct follow-up question. No generic praise. Do not say who is right.
