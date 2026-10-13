@@ -70,9 +70,9 @@ For more on this topic, see the [extended discussion on reflection](https://ifan
 
 [^note-iabied-ftnt126]: Separately, we have encountered some people who hope that it's possible to *fool* an AI into making itself more good as it matures, for example, by making it falsely believe that it's motivated toward building a wonderful future (despite *actually* being animated by a mess of drives that point elsewhere). The hope is that it acts according to this mistaken belief while self-modifying, and renders itself *actually* good.
 
-We think this idea is fairly foolish. Self-modifying from "completely alien goals" to "goals compatible with human flourishing" is a hard problem — possibly similar in difficulty to just building a brand new human-aligned AI from scratch. An AI that's smart enough to reliably rebuild itself that way is probably also smart enough to realize that it's being fooled. See also the discussion in Chapter 11 about how we probably can't get AI to do our AI alignment homework.
+    We think this idea is fairly foolish. Self-modifying from "completely alien goals" to "goals compatible with human flourishing" is a hard problem — possibly similar in difficulty to just building a brand new human-aligned AI from scratch. An AI that's smart enough to reliably rebuild itself that way is probably also smart enough to realize that it's being fooled. See also the discussion in Chapter 11 about how we probably can't get AI to do our AI alignment homework.
 
-We are skeptical of shortcuts, especially given that in the case of artificial superintelligence, we can't learn by trial and error (as humanity usually does), as discussed further in Chapter 10.
+    We are skeptical of shortcuts, especially given that in the case of artificial superintelligence, we can't learn by trial and error (as humanity usually does), as discussed further in Chapter 10.
 
 #### Notes ^notes
 
