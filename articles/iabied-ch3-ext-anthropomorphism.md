@@ -195,7 +195,7 @@ For more on what the AIs *will* wind up wanting, read on to Chapter 4.
 
 [^note-iabied-ftnt89]: Yes, we realize that by now, the modern internet may have pictures of brawny human men carrying off giant bugs. If those pictures don't exist already, they'll come into existence about twelve and a half seconds after this webpage goes public. But we don't think it was on any magazine covers back then.
 
-Those were simpler times.
+    Those were simpler times.
 
 #### Notes
 
