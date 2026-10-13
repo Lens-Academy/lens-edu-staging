@@ -47,4 +47,4 @@ But before we get there, we'll turn our focus to *terminal* goals, and the quest
 
 [^note-iabied-ftnt132]: This also means that if self-sacrifice *is* somehow the best way to ensure the coffee gets to its destination, then a robot without a survival instinct might die for the cause more readily than a human would.
 
-If an agent is sufficiently smart and knowledgeable, it can adjust its instrumental strategy to match whatever's useful in its current environment. In a well-functioning mind, instrumental goals (unlike terminal goals) only stick around so long as they're useful.
+    If an agent is sufficiently smart and knowledgeable, it can adjust its instrumental strategy to match whatever's useful in its current environment. In a well-functioning mind, instrumental goals (unlike terminal goals) only stick around so long as they're useful.
