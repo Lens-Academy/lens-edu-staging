@@ -48,6 +48,9 @@ feedback-instructions:: The learner is stating their current view on whether mor
 id:: 005524b9-6efa-4caa-bf41-cc9273a3910a
 force-feedback:: first
 content::
-Look again at your Unit 1 gut view at the top of this page. Compared with it, what changed, and what changed it? If nothing changed, why did the arguments not move you?
+Look again at your Unit 1 gut view at the top of this page.
+
+1. Compared with it, what changed, and what changed it?
+2. If nothing changed, why did the arguments not move you?
 placeholder:: A few sentences.
 feedback-instructions:: The learner compares the view they just stated with the gut view they wrote in the first lesson of Unit 1, which asked whether controlling a powerful AI model that might be working against you sounds doable or hopeless, whether work on it is likely to help or could make things worse, for a verdict of net positive, net negative or too close to call, and how sure they were. Do not grade it and do not reward agreement with any side, or reward changing or keeping their view. If their view changed, check that they name what changed it, a specific argument, reading or person from the course, and ask about it if they only say "the readings". If nothing changed, ask which argument came closest to moving them and why it did not. At most two replies, 60 to 120 words each, no lists, no generic praise. Close by telling them the test that follows asks them to do the same thing for an exchange they have not seen.
