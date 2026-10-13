@@ -1,7 +1,7 @@
 ---
 id: '607da6e0-4e14-4a67-9ac4-c0d2457a3308'
 slug: et-accelerator-facilitator-guides
-title: "Effective Thesis Accelerator: Facilitator Weekly Guides"
+title: "Effective Thesis Accelerator - Facilitator Guide"
 partner-name: "Effective Thesis"
 partner-url: "https://www.effectivethesis.org"
 partner-logo: "https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/et-logo.png"
