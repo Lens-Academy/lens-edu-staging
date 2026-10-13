@@ -82,7 +82,7 @@ An AI company catches its AI trying to copy itself to an outside server. It has 
 - Buck Shlegeris doubts this would get AI companies to slow down. A rival could say "AIs do weird stuff" or "the logs could be forged".
 - Tom Davidson thinks the company could show credible evidence that would change many sceptics' minds.
 
-1\. Gut call, go around: would AI companies slow down?
+1\. Gut call, go around: would AI companies, not just this one, slow down?
 2\. Pick the strongest excuse a rival could give. What would the company need to have ready in advance to answer it?
 3\. If you still have time: what real event in the next few years would show who is closer to right?
 
