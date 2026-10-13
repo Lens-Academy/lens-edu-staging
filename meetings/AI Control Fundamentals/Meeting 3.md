@@ -17,9 +17,9 @@ source:: [[../shared/Session Doc - How today works]]
 
 Go around your group:
 1\. How was working through this unit's content? Did you finish? If you didn't finish, what got in the way?
-2\. Before this unit, how did you think control makes an AI catastrophe less likely? {--{"author":"James agent ready-56's AI","timestamp":1791898463590}@@Did the unit present mechanisms you didn't think of before? --}(Your guess from the start of the unit is in [Welcome to Unit 3](https://lensacademy.org/courses/ai-control-fundamentals/module/ai-control-fundamentals-u3).)
-3\. {++{"author":"James agent ready-56's AI","timestamp":1791898463590}@@Did the unit present mechanisms you didn't think of before?
-4\. ++}If you still have time: How did the unit leave you feeling about control?
+2\. Before this unit, how did you think control makes an AI catastrophe less likely? (Your guess from the start of the unit is in [Welcome to Unit 3](https://lensacademy.org/courses/ai-control-fundamentals/module/ai-control-fundamentals-u3).)
+3\. Did the unit present mechanisms you didn't think of before?
+4\. If you still have time: How did the unit leave you feeling about control?
 
 
 | Names | Before → now |
