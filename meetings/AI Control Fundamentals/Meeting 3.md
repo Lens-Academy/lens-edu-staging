@@ -88,7 +88,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Each route rests on premises. Some of them, with who doubts and who defends them:
+Each route or plan rests on premises. Some of them, with who doubts and who defends them:
 
 - **Catch it red-handed:** a caught attempt gets the developer or governments to slow down. Buck Shlegeris doubts it: a competitor could say AIs just do weird things, or that the logs were forged. Tom Davidson thinks credible evidence would change many sceptics' minds.
 - **The window:** AIs stay useful but controllable long enough to matter. Greenblatt and Shlegeris themselves say this period is "reasonably likely to be too short (e.g., 6 months or 1 year)" if AI is built as fast as possible. They also think holding off uncontrollable AI for several years is plausible.
