@@ -8,7 +8,7 @@ tutor_minutes: 10
 ---
 #### Text
 content::
-Ryan Greenblatt is Chief Scientist at Redwood Research,[^cite-mats-greenblatt] one of the main organisations working on AI control.[^cite-mcaleese-2025] Here he sorts the ways a misaligned AI could cause serious harm into clusters, separates threats that need only a few actions (concentrated failures) from threats that need many (non-concentrated or diffuse), and, in the rest of the post, which you can unfold if you want it, ranks which ones control should handle first. Redwood researchers mostly call these high-stakes and low-stakes,[^cite-hebbar-2025] and this course does too.
+Ryan Greenblatt is Chief Scientist at Redwood Research,[^cite-mats-greenblatt] one of the main organisations working on AI control.[^cite-mcaleese-2025] Here he sorts the ways a misaligned AI could cause serious harm into clusters. He separates threats that need only a few actions (concentrated failures) from threats that need many (non-concentrated or diffuse). The rest of the post, which you can unfold if you want it, ranks which ones control should handle first. Redwood researchers mostly call these high-stakes and low-stakes,[^cite-hebbar-2025] and this course does too.
 
 [^cite-mats-greenblatt]: MATS, *Ryan Greenblatt*, mentor profile. [MATS](https://www.matsprogram.org/mentor/greenblatt)
 [^cite-mcaleese-2025]: Stephen McAleese (2025), *AI Safety Field Growth Analysis 2025*. Redwood is one of the two organisations it files under AI control. [EA Forum](https://forum.effectivealtruism.org/posts/7YDyziQxkWxbGmF3u/ai-safety-field-growth-analysis-2025)

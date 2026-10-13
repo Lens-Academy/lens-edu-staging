@@ -8,7 +8,7 @@ tutor_minutes: 8
 ---
 #### Text
 content::
-The first half of this unit was about what control defends against. The second half is about the field: what people in control work on, who they are, and how many of them there are. Ryan Greenblatt's list of research areas is a map drawn from inside the field, from Redwood's point of view, in April 2025, and the next lessons add other views.
+The first half of this unit was about what control defends against. The second half is about the field: what people in control work on, who they are, and how many of them there are. Ryan Greenblatt wrote this list of research areas in April 2025. It is a map drawn from inside the field, from Redwood's point of view. The next lessons add other views.
 
 #### Article
 source:: [[../articles/greenblatt-an-overview-of-areas-of-control-work]]
