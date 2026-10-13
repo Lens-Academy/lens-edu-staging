@@ -14,4 +14,4 @@ The readings so far describe three ways control is supposed to lower the risk of
 - **Catching it red-handed:** catch an AI trying to cause harm, then act on the evidence. Shut it down, or study the attempt so later ones fail.
 - **The window:** use AIs that are useful but still controllable to speed up safety work, before AIs become too capable to control.
 
-Each route needs someone to act on it: a safety team, company leadership or a government. The next readings ask how much each route depends on that, and add one more route.
+Each route needs someone to act on it: a safety team, company leadership or a government. The next readings ask how much each route depends on that, and what can make a company run control at all.
