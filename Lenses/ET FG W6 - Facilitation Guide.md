@@ -268,3 +268,9 @@ placeholder:: Share as much or as little as you like
 optional:: true
 
 #### End Callout
+
+#### Callout: ✅ Mark attendance for this week
+#### Text
+content::
+Ran this week's session? Tick who came on [Your groups](https://lensacademy.org/collab/groups). Open your group, pick this week's session and tick each participant who attended. Sessions nobody has marked yet are flagged there, so you can catch up on earlier weeks too.
+#### End Callout
