@@ -30,7 +30,7 @@ Lucius Bushnaq replied to Buck's point about getting useful research out of sche
 >
 > If we were not expecting to solve the alignment problem before ASI is developed in a world where nobody knows how to get very useful research out of AIs, why would techniques for getting useful research out of AIs speed up alignment research more than ASI research and close the gap?
 
-(ASI means artificial superintelligence.) Buck answered:
+Buck answered (ASI is artificial superintelligence):
 
 [^cite-bushnaq-comment]: Lucius Bushnaq, comment on John Wentworth's *The Case Against AI Control Research*. [LessWrong](https://www.lesswrong.com/posts/8wBN8cdNAv3c7vt6p/the-case-against-ai-control-research?commentId=FpZmBx2Q4eswZWmy6)
 
