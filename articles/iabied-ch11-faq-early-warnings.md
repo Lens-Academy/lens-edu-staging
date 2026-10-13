@@ -95,6 +95,6 @@ And that does not bode well for humanity, in a situation where we do not have th
 
 [^note-iabied-ftnt266]: It's not clear how much these warning signs are coming from the AI roleplaying the way it thinks an AI is supposed to behave versus how much it's thinking strategically. The fact that we can't tell which warning signs are real isn't encouraging; it means engineers are much more likely to charge ahead saying "eh, that one probably wasn't real." They might even be right most of the time, but most of the time isn't good enough when one failure is lethal.
 
-It's also not clear how long this sort of warning sign will keep happening. Modern AIs are still dumb enough to occasionally mistake tests for reality, but this regime won't last forever and is already [starting to end](https://arxiv.org/html/2505.23836). An AI that knows it's being tested might stop exhibiting the worrying behavior in places overseers can see it, even if the underlying tendency remains.
+    It's also not clear how long this sort of warning sign will keep happening. Modern AIs are still dumb enough to occasionally mistake tests for reality, but this regime won't last forever and is already [starting to end](https://arxiv.org/html/2505.23836). An AI that knows it's being tested might stop exhibiting the worrying behavior in places overseers can see it, even if the underlying tendency remains.
 
 [^note-iabied-ftnt267]: Delamination due to pressure cycling. In layman's terms: The stresses from many dives pulled the layers of the hull apart, weakening it until it imploded.

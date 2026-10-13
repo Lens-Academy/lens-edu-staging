@@ -43,9 +43,9 @@ Cutting corners is common in AI, as it is in many competitive industries. Reckle
 
 [^note-iabied-ftnt258]: For instance, in [testimony to Congress](https://www.judiciary.senate.gov/imo/media/doc/2023-07-26_-_testimony_-_amodei.pdf):
 
-> Similar to cars or airplanes, we should consider the AI models of the near future to be powerful machines which possess great utility, but that can be lethal if designed badly or misused. […] New AI models should have to pass a rigorous battery of safety tests both during development and before being released to the public or to customers. […] Ideally, however, the standards would catalyze innovation in safety rather than slowing progress.
+    > Similar to cars or airplanes, we should consider the AI models of the near future to be powerful machines which possess great utility, but that can be lethal if designed badly or misused. […] New AI models should have to pass a rigorous battery of safety tests both during development and before being released to the public or to customers. […] Ideally, however, the standards would catalyze innovation in safety rather than slowing progress.
 
-We appreciate Amodei for being clear that he thinks there are dangers that need addressing. That's a step beyond what many corporate executives will do. But analogizing a technology that he thinks has a 10–25% chance of causing a civilization-level catastrophe to cars and airplanes seems disingenuous.
+    We appreciate Amodei for being clear that he thinks there are dangers that need addressing. That's a step beyond what many corporate executives will do. But analogizing a technology that he thinks has a 10–25% chance of causing a civilization-level catastrophe to cars and airplanes seems disingenuous.
 
 #### Notes
 
