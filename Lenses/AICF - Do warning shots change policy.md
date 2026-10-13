@@ -15,7 +15,7 @@ source:: [[../articles/so8res-warning-shots-probably-wouldnt-change-the-picture-
 
 #### Text
 content::
-Here is what happened after the 2026 incident. First, the policy responses as listed in Wikipedia's article on the incident (copy taken on 4 October 2026, the page is still changing).
+Here is what happened after the 2026 incident. First, here are the policy responses as Wikipedia's article on the incident lists them. Our copy is from 4 October 2026, and the page is still changing.
 
 #### Article
 source:: [[../articles/projects-openai-huggingface-incident]]
