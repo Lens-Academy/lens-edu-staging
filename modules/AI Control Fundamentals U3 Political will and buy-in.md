@@ -64,6 +64,8 @@ content::
 \## Part 2: the weakest premise
 
 Which premise in your routes do you trust least? Say why. Then name one thing someone could actually observe that would change your confidence in it, and say whether it would raise or lower it.
+placeholder:: A few sentences.
+force-feedback:: first
 feedback-instructions:: The learner is practising for the Unit 3 test on control's theory of change. A good answer names a premise one of their routes actually needs (for example: companies give permission and fix what the evaluations find, the red team can find attacks as good as a much stronger model would, results showing failures change what companies or governments do, a regulator would require a control safety case, or the window before uncontrollable AI lasts long enough to use), gives a reason it is doubtful, and names an observation someone could actually make that bears on it and says which way it would move confidence. "More research" or "time will tell" is not an observation. Reply in at most five sentences. Say whether the premise is one their routes need, whether the reason holds, and whether the observation is something that could be seen, and fix the weakest of the three. Do not tell the learner which premise is the right one. No generic praise. At most two turns, then send them to Part 3.
 
 #### Question: Open
