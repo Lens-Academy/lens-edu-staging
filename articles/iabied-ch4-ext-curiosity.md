@@ -191,7 +191,7 @@ In practice, if developers race ahead to grow smarter and smarter AIs as quickly
 
 [^note-iabied-ftnt139]: This isn't to say that because an AI is a machine, it must necessarily have simple, straightforward goals that only concern "objective" things. AIs can have messy, anarchic goals that tug in conflicting directions. AIs can have goals that pertain to the AI's internal state, and even goals that pertain to what goals it has. AIs can have messy, evolving goals. If the AI was rewarded early on for randomly exploring its environment, then it might develop its own set of instincts and desires related to value-of-information.
 
-But if AIs are messy, they won't be messy in the same ways that a human is messy. If AIs have value-of-information instincts and drives, they very likely won't look exactly like the human emotion of curiosity.
+    But if AIs are messy, they won't be messy in the same ways that a human is messy. If AIs have value-of-information instincts and drives, they very likely won't look exactly like the human emotion of curiosity.
 
 [^note-iabied-ftnt140]: The reason we expect many AIs to do things like this isn't that we're imagining most AIs inherently value "efficiency" or "effectiveness" for their own sake. Rather: Regardless of what else an AI wants, if its resources are finite, it will tend to want to use those resources efficiently so that it can get *more* of what it wants. Efficiency and effectiveness are instrumental goals that come pretty trivially with a wide variety of terminal goals. As such, there's a natural pressure for AIs to make their pursuit of valuable information more efficient, if they don't otherwise prefer doing it in an emotional way.
 
