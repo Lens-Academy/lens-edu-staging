@@ -10,7 +10,7 @@ tutor_minutes: 9
 content::
 By 2026, control was no longer only a research topic. In Unit 1 you saw that Google DeepMind runs monitors over its own coding agents. OpenAI and Anthropic do too. This lesson looks at two sides of that work: how a company plans to grow its defences, and how people outside the company test them.
 
-First, one AI company's own account. In Unit 1 you read the first half of Google DeepMind's June 2026 summary of its AI Control Roadmap. Here is the part about how its defences change as models get more capable. As you read, look for where it uses the idea from the first half of this unit.
+First, an AI company's own account. In Unit 1 you read the first half of Google DeepMind's June 2026 summary of its AI Control Roadmap. Here is the part about how its defences change as models get more capable. As you read, look for where it treats high-stakes and low-stakes actions differently.
 
 #### Article
 source:: [[../articles/shah-securing-the-future-of-ai-agents]]
@@ -19,7 +19,7 @@ to:: determines the Prevention and Response level (R1-R3).
 
 #### Text
 content::
-Finally, a government team that tests these monitors from outside. In July 2026 the UK AI Security Institute described what its new Control Red Team found when it attacked the internal monitors of Google DeepMind and Anthropic. Notice which monitor reviews actions after they run and which reviews them before.
+Finally, a government team tests these monitors from outside. In July 2026 the UK AI Security Institute described what its new Control Red Team found when it attacked the internal monitors of Google DeepMind and Anthropic. Notice which monitor reviews actions after they run and which reviews them before.
 
 #### Article
 source:: [[../articles/ai-security-institute-how-our-control-red-team-is-stress-testing-frontier-monitors]]
