@@ -57,7 +57,7 @@ Two terms the report uses:
 
 #### Article
 source:: [[../articles/anthropic-risk-report-august-2026]]
-from:: "1 Introduction and executive summary"
+from:: "# 1 Introduction and executive summary"
 to:: "we will address them through separate documents."
 
 #### Text
