@@ -24,4 +24,5 @@ source:: [[../Lenses/AICF - Will AI companies do this]]
 source:: [[../Lenses/AICF - Control as a safety case]]
 
 # Lens:
+source:: [[../Lenses/AICF - All the routes]]
 source:: [[../Lenses/AICF - Practice mapping control's routes]]

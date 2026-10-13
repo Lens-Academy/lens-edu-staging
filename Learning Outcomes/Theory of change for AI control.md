@@ -71,5 +71,7 @@ source:: [[../Lenses/AICF - Control as a safety case]]
 notes:: The regulatory route: control evidence as a condition for deployment, then what Anthropic's own risk reports rely on monitoring for and where they say it falls short.
 
 ## Lens:
+source:: [[../Lenses/AICF - All the routes]]
+notes:: Summary of the four routes, and which of them work without anyone catching an attack (test part 1 asks for at least one such route).
 source:: [[../Lenses/AICF - Practice mapping control's routes]]
 notes:: Scored practice for the test on a different project: routes with steps and will-dependence, then the weakest premise with an observation, then a look back at the learner's first guess.
