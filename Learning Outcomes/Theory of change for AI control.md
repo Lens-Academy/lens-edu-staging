@@ -60,7 +60,7 @@ notes:: Plans by level of political will, and which routes still fit when will i
 
 ## Lens:
 source:: [[../Lenses/AICF - Ten people on the inside]]
-notes:: The low-will route and its critics.
+notes:: What a few insiders could do with almost no political will, and its critics.
 
 ## Lens:
 source:: [[../Lenses/AICF - Will AI companies do this]]
