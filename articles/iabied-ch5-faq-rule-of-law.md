@@ -63,9 +63,9 @@ This kind of prediction is not certain — there is very little, in human argume
 
 [^note-iabied-ftnt172]: In discussions of AI, the concept of "one individual AI" quickly breaks down. If a neural network or other machinery that implements an AI is replicated, does this count as multiple AIs or as one AI?
 
-For practical purposes, when we say "a single AI" here, we have in mind any amount of powerful cognitive machinery that does not seriously compete with itself as it grows. If there are multiple AI instances, but they're all working toward the same end, then we'll call those instances "pieces of the same AI" in this section of the online resource, if only to simplify exposition. Ultimately, the question is likely more semantic than substantive, since AIs aren't evolved organisms with clear boundaries between individuals.
+    For practical purposes, when we say "a single AI" here, we have in mind any amount of powerful cognitive machinery that does not seriously compete with itself as it grows. If there are multiple AI instances, but they're all working toward the same end, then we'll call those instances "pieces of the same AI" in this section of the online resource, if only to simplify exposition. Ultimately, the question is likely more semantic than substantive, since AIs aren't evolved organisms with clear boundaries between individuals.
 
-We'll return to the topic of multi-AI scenarios in [the online supplement to Chapter 10](https://ifanyonebuildsit.com/10/what-if-there-are-lots-of-different-ais#it-doesnt-much-help-if-we-cant-make-any-of-them-care-about-good-things).
+    We'll return to the topic of multi-AI scenarios in [the online supplement to Chapter 10](https://ifanyonebuildsit.com/10/what-if-there-are-lots-of-different-ais#it-doesnt-much-help-if-we-cant-make-any-of-them-care-about-good-things).
 
 [^note-iabied-ftnt173]: And no, it's [not realistic](https://ifanyonebuildsit.com/6/can-we-enhance-humans-so-they-keep-pace-with-ai) to augment humans to compete with superintelligences. Although it would be possible to back off on AI development and work on human augmentation *instead,* and let those smarter humans sort out this mess. We'll turn to that topic again [after](https://ifanyonebuildsit.com/13/why-would-making-humans-smarter-help) Chapter 13.
 

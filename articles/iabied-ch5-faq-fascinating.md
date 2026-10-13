@@ -51,4 +51,4 @@ We mostly expect artificial superintelligence to just kill us — but only mostl
 
 [^note-iabied-ftnt179]: The most plausible story we know of where humanity gets to keep living in the wake of AI is: Perhaps an AI keeps records of the humans that once lived, and perhaps it sends probes out in all directions to harvest the energy of all the stars it can reach, and perhaps somewhere out there in the depths of space it meets distant alien life forms, defended by their own superintelligence. Perhaps some of those distant civilizations are interested in buying a copy of the record of Earth, for one reason or another. Perhaps those aliens run digital copies of humans for their own alien purposes. Then those digitized humans in the alien zoo can, if they like, debate whether or not it was technically true that "everyone died."
 
-We do not consider this sort of wild possibility to be a happy one.
+    We do not consider this sort of wild possibility to be a happy one.
