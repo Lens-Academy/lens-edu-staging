@@ -4,7 +4,7 @@ title: "Catching AIs red-handed"
 tldr: "Control does not only aim to block attacks. If a model is caught in an attempt, Greenblatt and Shlegeris argue the situation changes: the developer can stop using the model, or keep using it while studying the attempt to stop the next one."
 summary_for_tutor: "Unit 3 of AI Control Fundamentals (why people work on control). The learner reads the opening of Ryan Greenblatt and Buck Shlegeris's 'Catching AIs red-handed' (2024): what counts as catching a model, why a catch is counted as a win condition, the catch-then-shut-down plan (stop using the model, with reasons a lab might adopt it, including that legible evidence could make international cooperation or strong domestic policy more likely, and studying the caught model), and few-shot catastrophe prevention (keep deploying but use the few caught examples to make further attempts fail). This is the 'catch, then act on the evidence' route in the unit's map of routes. The next lens has Shlegeris himself doubting that a catch would make developers slow down. Do not say whether the catch route works."
 reading_minutes: 8
-tutor_minutes: 7
+tutor_minutes: 10
 tags:
   - reading
 ---
