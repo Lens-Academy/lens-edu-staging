@@ -13,7 +13,6 @@ This unit has now covered three routes by which control is supposed to lower the
 - **Stopping attacks:** monitors block or replace dangerous actions while the AI works.
 - **Catching it red-handed:** catch an AI trying to cause harm, then act on the evidence. Shut it down, or study the attempt so later ones fail.
 - **The window:** use AIs that are useful but still controllable to speed up safety work, before AIs become too capable to control.
-- **A condition of deployment:** a control safety case, a company policy, a standard or a regulation makes passing a control evaluation a condition for deploying a model.
 
 The first two work through the monitors blocking or flagging an attack. The window does not need anyone to catch anything. It works because the control measures make it safe enough to put the AI to work at all.
 
