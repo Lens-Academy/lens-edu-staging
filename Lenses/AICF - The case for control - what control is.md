@@ -49,7 +49,7 @@ id:: 098d5fa2-9ad2-409e-9a51-0d327a3d58fd
 content::
 \#### Catching a model red-handed
 
-The reading claims that when evaluating control, catching an AI red-handed should count as a win condition. The same status as no catastrophe occurring at all. On its face this is strange: the model just tried to cause a catastrophe and was stopped this once. It is presumably still scheming, still deployed, still capable.
+The reading claims that a control evaluation should count catching an AI red-handed as a win, with the same status as no catastrophe at all. On its face this is strange: the model just tried to cause a catastrophe and was stopped this once. It is presumably still scheming, still deployed, still capable.
 
 Why should catching a scheming model count as a win, when a near miss with catastrophe might seem more like a failure? Answer by naming two things that change after a catch.
 placeholder:: Write your reasoning
@@ -93,7 +93,7 @@ First, meet the cast.
 
 | | Who | What they are |
 | --- | --- | --- |
-| **U** | the untrusted model | A frontier model that is highly capable, enough to be capable of scheming. |
+| **U** | the untrusted model | A highly capable frontier model, capable enough to scheme. |
 | **T** | the trusted model | An older, much weaker model that isn't capable of scheming effectively, so its work is honest but not as good as U. |
 | **H** | human auditors | Honest and skilled, but scarce: they can only ever look at a small fraction of any work. |
 
