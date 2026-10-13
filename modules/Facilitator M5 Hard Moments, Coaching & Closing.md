@@ -48,3 +48,7 @@ source:: ![[../Lenses/Facilitator - Overview of Optional Resources M5]]
 # Submodule: You're done
 # Lens: You're done
 source:: ![[../Lenses/Facilitator - M5 Youre Done]]
+
+# Submodule: Post-Program Feedback & Certificate
+# Lens: Post-Program Feedback & Certificate
+source:: ![[../Lenses/Facilitator - Post-Program Feedback and Certificate]]
