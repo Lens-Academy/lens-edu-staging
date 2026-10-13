@@ -42,7 +42,7 @@ to:: which now comprises a substantial portion of post-training compute at front
 
 #### Text
 content::
-In a footnote, the authors add that when they reran their test of whether alignment survives later fine-tuning, with about 100 times more data, the result was negative. So read "alignment-in-depth" in their summary with that in mind.
+In a footnote, the authors say they reran one test with about 100 times more data: the test of whether alignment survives later fine-tuning. This time the result was negative. Keep that in mind when you read "alignment-in-depth" in their summary.
 
 #### Question: Open
 id:: a5ec01cf-aa19-4072-88a9-1e45b0f5954a

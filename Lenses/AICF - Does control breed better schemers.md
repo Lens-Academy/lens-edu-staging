@@ -25,7 +25,7 @@ to:: (Though the AI being well practiced does reduce our safety margin substanti
 
 #### Text
 content::
-A month earlier, a researcher writing as Jozdien had published his own critiques of control. Here are his three main points, his version of the selection argument, and how his view changed while writing.
+A month earlier, a researcher writing as Jozdien had published his own critiques of control. Here are his three main points, his version of the selection argument from point 4 (training against caught behaviour may teach a model to hide better), and how his view changed while writing.
 
 #### Article
 source:: [[../articles/jozdien-critiques-of-the-ai-control-agenda]]
