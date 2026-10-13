@@ -106,4 +106,4 @@ If we want AIs to give humanity nice things, we've got to figure out how to buil
 
 [^note-iabied-ftnt184]: We additionally think that humanity ruining all but a millionth or a billionth of the universe would be a [cosmic-scale tragedy](https://ifanyonebuildsit.com/5/losing-the-future). We think it would be a waste of a universe, for humanity to get confined to a terrarium when we could have filled the stars with love and laughter and life.
 
-But set that aside for the moment to consider whether AIs *would* keep some happy humans in a terrarium. Because even that looks like a narrow and unlikely outcome, given how strange AIs are likely to be.
+    But set that aside for the moment to consider whether AIs *would* keep some happy humans in a terrarium. Because even that looks like a narrow and unlikely outcome, given how strange AIs are likely to be.
