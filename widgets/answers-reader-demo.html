@@ -1,7 +1,7 @@
 <!--lens-widget
 id: '1d20bf4d-91d1-4009-a87e-e34efa00c53d'
 title: Your earlier answers, read by a widget
-summary_for_tutor: A demo of Lens.getAnswers and Lens.goToQuestion. The widget reads the learner's answers to two questions earlier in the lens (their strongest objection, and their guess of how many years until transformative AI) together with the questions themselves, and shows each question with the answer and a "Go to question" button. For the years guess it also shows the year and the number of days from today it points to. A button reads the answers again after the learner changes them.
+summary_for_tutor: A demo of Lens.onAnswers and Lens.goToQuestion. The widget reads the learner's answers to two questions earlier in the lens (their strongest objection, and their guess of how many years until transformative AI) together with the questions themselves, and shows each question with the answer and a "Go to question" button. For the years guess it also shows the year and the number of days from today it points to. It updates by itself when the learner changes one of those answers.
 height: auto
 -->
 <!doctype html>
@@ -35,7 +35,7 @@ button:hover { background: #faf8f3; }
 </head>
 <body>
   <h2>Read by a widget</h2>
-  <p class="intro">This box is a widget. It asks the platform for your answers and their questions with <code>Lens.getAnswers</code>, works with them, and takes you back to a question with <code>Lens.goToQuestion</code>.</p>
+  <p class="intro">This box is a widget. It gets your answers and their questions from the platform with <code>Lens.onAnswers</code>, which hands it new ones as soon as you change an answer, works with them, and takes you back to a question with <code>Lens.goToQuestion</code>.</p>
   <div id="cards"></div>
   <button id="again" type="button">Read my answers again</button>
 
