@@ -122,7 +122,7 @@ Pick one of these, or a question someone in your group really wants to discuss:
 - Does control mostly speed up safety work, or mostly help companies build AI faster?
 
 1\. Discuss your pick. Land on an answer and one reason.
-2\. Next unit: the main criticisms of control, and how control could backfire. What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
+2\. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
 
 
 | Names | Your question + where you landed + your plan for the next unit |

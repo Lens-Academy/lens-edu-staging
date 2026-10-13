@@ -185,7 +185,7 @@ Actors:
 
 ```
 1. The people in this breakout room are your accountability buddies for the rest of the course. Swap contact details in the table below. Before each meeting, check in with one another: did you finish, are you coming?
-2. Next unit: Hardware verification, what a chip can and cannot prove about the work it did. What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
+2. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
 ```
 
 Do not ask for feedback on the course or the meeting in Room 4: the post-meeting surveys collect it (Elias, 2026-10-12).
