@@ -26,6 +26,8 @@ tone:: amber
 content::
 **Please fill in the feedback form below to share your feedback and receive your Certificate of Participation.**
 
+At the end of the form, you'll see a **completion code**. Copy it, then enter it in question 2 further down this page.
+
 If the form doesn't load for you, you can [open it in a new tab](https://airtable.com/appcKo5GTmHnUaBlg/pagDxQpplT6YuUL1y/form).
 
 #### Widget
