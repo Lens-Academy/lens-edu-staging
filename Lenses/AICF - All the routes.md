@@ -8,13 +8,19 @@ tutor_minutes: 0
 ---
 #### Text
 content::
-This unit has now covered four routes by which control is supposed to lower the risk of an AI catastrophe:
+This unit has now covered three routes by which control is supposed to lower the risk of an AI catastrophe:
 
 - **Stopping attacks:** monitors block or replace dangerous actions while the AI works.
 - **Catching it red-handed:** catch an AI trying to cause harm, then act on the evidence. Shut it down, or study the attempt so later ones fail.
 - **The window:** use AIs that are useful but still controllable to speed up safety work, before AIs become too capable to control.
 - **A condition of deployment:** a control safety case, a company policy, a standard or a regulation makes passing a control evaluation a condition for deploying a model.
 
-The first two work through the monitors blocking or flagging an attack. The other two do not need anyone to catch anything. The window works because the control measures make it safe enough to put the AI to work at all. The condition of deployment works because other companies copy the measures or someone with authority requires them.
+The first two work through the monitors blocking or flagging an attack. The window does not need anyone to catch anything. It works because the control measures make it safe enough to put the AI to work at all.
 
-Each route needs different people to act, and so depends on political will in a different way. "Ten people on the inside" showed what is left when there is almost no will: a few insiders running cheap measures.
+A separate question is what makes a company run control in the first place. From least to most political will:
+
+- **A few insiders:** a small safety team runs cheap measures at a company that does not take the risk seriously, as in "Ten people on the inside".
+- **Company policy:** the company's own leadership commits to running control, for example by not deploying a model until it passes a control evaluation.
+- **A requirement from outside:** a standard or a regulation requires it, for example a passing control safety case before a model is deployed.
+
+None of these is a route of its own. They decide who runs the measures and how reliably. The risk still goes down through the three routes.
