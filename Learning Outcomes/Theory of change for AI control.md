@@ -72,7 +72,7 @@ notes:: How control could become required: control evidence as a condition for d
 
 ## Lens:
 source:: [[../Lenses/AICF - All the routes]]
-notes:: Summary of the four routes, and which of them work without anyone catching an attack (test part 1 asks for at least one such route).
+notes:: Summary of the three routes, and what can make a company run control.
 
 ## Lens:
 source:: [[../Lenses/AICF - Practice mapping control's routes]]
