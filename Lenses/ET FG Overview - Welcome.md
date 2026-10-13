@@ -7,7 +7,7 @@ tags: [wip]
 ---
 #### Text
 content::
-\## Effective Thesis Accelerator: Campus Director HQ
+\## Effective Thesis Accelerator: Campus Director and Facilitator Guide
 
 We are so excited to have you join us as a Campus Director for the Effective Thesis 8-Week Accelerator! 🎉 Thank you for being a part of our mission to empower more incredible students in their journey towards impact. From mid Oct to mid Dec 2026, you’ll be guiding a cohort of motivated students as they develop high-impact theses as a way to build towards their high-impact career path.
 
