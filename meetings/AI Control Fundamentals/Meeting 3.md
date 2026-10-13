@@ -47,8 +47,11 @@ Routes by which control could lower the risk of an AI catastrophe:
 - **Stop attacks:** monitors block or replace dangerous actions while the AI works.
 - **Catch it red-handed:** catch an AI trying to cause harm, then act on the evidence. Shut it down, or study the attempt so later ones fail.
 - **The window:** use AIs that are useful but still controllable to speed up safety work, before AIs get too capable to control.
+What can make a company run them, from least to most political will:
+
 - **A few insiders:** a small safety team runs cheap measures at a company that does not take the risk seriously.
-- **A condition of deployment:** a company policy or a regulator requires a passing control safety case before a model is used. A control safety case is a written argument, backed by red-team tests, that the model cannot get past its safety measures.
+- **Company policy:** the company's leadership commits to running control.
+- **A requirement from outside:** a standard or a regulator requires a passing control safety case before a model is used. A control safety case is a written argument, backed by red-team tests, that the model cannot get past its safety measures.
 
 Ryan Greenblatt's plans, from most to least political will (willingness of companies and governments to act):
 
