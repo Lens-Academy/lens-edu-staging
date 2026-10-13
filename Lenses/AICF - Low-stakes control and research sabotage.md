@@ -36,7 +36,7 @@ feedback-instructions:: Key points from the talk. Incrimination means becoming c
 
 #### Text
 content::
-The same idea from a second team. In June 2026 Mikhail Terekhov (Anthropic Fellows Program and EPFL, a Swiss university), Caglar Gulcehre (EPFL), Vivek Hebbar (Redwood) and Joe Benton (Anthropic) published work on defending against diffuse threats, what this course calls low-stakes threats.[^cite-terekhov-2026-diffuse] Read the start of their introduction.
+A second team takes up the same problem. In June 2026, four researchers published work on defending against diffuse threats, which this course calls low-stakes threats: Mikhail Terekhov (Anthropic Fellows Program and EPFL, a Swiss university), Caglar Gulcehre (EPFL), Vivek Hebbar (Redwood) and Joe Benton (Anthropic).[^cite-terekhov-2026-diffuse] Read the start of their introduction.
 
 A term from the reading:
 
