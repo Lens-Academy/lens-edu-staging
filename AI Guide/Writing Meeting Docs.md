@@ -40,7 +40,7 @@ Go through each tab of the master template ([[meetings/Master template]]) and ch
 2. The fixed parts match the master template exactly.
 3. The glossary is filled: ordered by module, each term defined once at its first appearance, in one or two sentences, in the source's framing.
 4. The doc title names the right course and unit, and the [Group] placeholder is still unfilled.
-5. Nothing in the doc summarises or previews the next unit (Elias, 2026-10-10 and 2026-10-13). Room 4 asks what could stop people finishing the next unit and their plan to prevent that, without saying what the unit is about. It gives no reading time, since participants see the course's own estimates (Andreas, 2026-10-11).
+5. Nothing in the doc summarises or previews the next unit (Elias, 2026-10-10 and 2026-10-13). Room 4 ends with an "If you still have time:" ask about what could stop people finishing the next unit and their plan to prevent that, without saying what the unit is about (Elias, 2026-10-13). It gives no reading time, since participants see the course's own estimates (Andreas, 2026-10-11).
 
 ### Agent 2: Room quality
 Judge each room against its role. Most examples below are real prompts from past unit docs: they show the quality bar, not required shapes. A room passes if it serves its role well, whatever shape it takes.
@@ -185,7 +185,7 @@ Actors:
 
 ```
 1. The people in this breakout room are your accountability buddies for the rest of the course. Swap contact details in the table below. Before each meeting, check in with one another: did you finish, are you coming?
-2. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
+2. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
 ```
 
 Do not ask for feedback on the course or the meeting in Room 4: the post-meeting surveys collect it (Elias, 2026-10-12).
