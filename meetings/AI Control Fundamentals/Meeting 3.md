@@ -88,13 +88,14 @@ A rival company's arguments:
 - "The logs could be forged."
 
 1\. Gut call, go around: would AI companies, not just this one, slow down?
-2\. One of you plays the rival and makes the strongest argument against slowing down. The others answer as the company.
-3\. What would the company need ready in advance to win that argument?
+2\. Which of the rival's arguments would actually have convinced you? Why that one?
+3\. How many catches like this would it take before you'd want every company to pause? One, ten, a hundred? Why?
+4\. If you still have time: would your answer change if the AI had got out and caused real harm?
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
-| Names | Would they slow down + the rival's strongest argument + what the company needs ready |
+| Names | Would they slow down + the argument that would convince you + how many catches it takes |
 |------|------------------------|
 |  |  |
 |  |  |
