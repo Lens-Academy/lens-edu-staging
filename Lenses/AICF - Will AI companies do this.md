@@ -12,6 +12,7 @@ tags:
 content::
 Every route in this unit assumes someone runs the control measures. In the same 80,000 Hours interview as before, Rob Wiblin asks Shlegeris whether AI companies will actually do any of this.
 
+Two terms from the interview:
 
 - **Auditing:** the control team investigates logged agent actions for signs of an attack.
 - **Replacing:** swapping the most suspicious actions for safer ones before they run.
