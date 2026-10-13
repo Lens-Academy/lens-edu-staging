@@ -30,7 +30,9 @@ feedback-instructions:: The learner applies the appendix "Should AI-takeover-con
 content::
 \## Does the window route lead anywhere?
 
-When the post came out, Emmett Shear objected on Twitter that control is "a bad way to solve the problem" because against an ever more capable enemy you lose eventually. Below are two comments from under the post. In the first, Richard Ngo answers Shear: he gives two reasons to like control anyway. In the second, aysja answers Ngo and questions what his approach assumes. When she writes "sharp left turns", she means Nate Soares's idea of [a sudden jump in capabilities that earlier alignment work does not carry over to](https://www.lesswrong.com/posts/GNhMPAWcfBCASy8e6).
+When the post came out, Emmett Shear objected on Twitter that control is "a bad way to solve the problem" because against an ever more capable enemy you lose eventually. Below are two comments from under the post. In the first, Richard Ngo answers Shear: he gives two reasons to like control anyway. In the second, aysja answers Ngo and questions what his approach assumes.A term in her comment:
+
+- **Sharp left turn:** Nate Soares's idea of [a sudden jump in capabilities that earlier alignment work does not carry over to](https://www.lesswrong.com/posts/GNhMPAWcfBCASy8e6).
 
 #### Article
 source:: [[../articles/ngo-comment-on-the-case-for-ensuring-that-powerful-ais-are-controlled]]
@@ -55,7 +57,12 @@ feedback-instructions:: The learner just read Richard Ngo's comment (quoting Emm
 content::
 \## Where the window route could fail
 
-Joe Carlsmith, then a senior advisor at Open Philanthropy and not part of Redwood, wrote ["AI for AI safety"](https://www.alignmentforum.org/posts/F3j4xqpxjxgQD3xXh/ai-for-ai-safety) in March 2025. His "sweet spot" is close to Greenblatt and Shlegeris's window: AIs useful enough to help with safety, but not able to take over given our countermeasures. By "security factors" he means three abilities from his earlier essay: making new AI capabilities safe, measuring the risk, and restraining AI development when needed. You read three short parts: the sweet spot itself, the ways we could fail to benefit from it, and his three core objections to using AI for safety work.
+Joe Carlsmith, then a senior advisor at Open Philanthropy and not part of Redwood, wrote ["AI for AI safety"](https://www.alignmentforum.org/posts/F3j4xqpxjxgQD3xXh/ai-for-ai-safety) in March 2025. You read three short parts: the sweet spot itself, the ways we could fail to benefit from it, and his three core objections to using AI for safety work.
+
+Two terms in the excerpts:
+
+- **Sweet spot:** close to Greenblatt and Shlegeris's window. AIs useful enough to help with safety, but not able to take over given our countermeasures.
+- **Security factors:** three abilities from his earlier essay: making new AI capabilities safe, measuring the risk, and restraining AI development when needed.
 
 #### Article
 source:: [[../articles/carlsmith-ai-for-ai-safety]]
