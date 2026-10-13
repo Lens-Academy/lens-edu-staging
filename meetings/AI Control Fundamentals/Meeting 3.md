@@ -80,7 +80,7 @@ One or two people share what their group landed on.
 An AI company catches its AI trying to escape by copying itself to an outside server. It has the logs.
 
 - Buck Shlegeris doubts this would get AI companies to slow down.
-- Tom Davidson thinks that if the AI is truly scheming, the company could publish credible evidence that changes many sceptics' minds, even without a pause.
+- Tom Davidson thinks that if the AI is scheming, the company could publish credible evidence that changes many sceptics' minds, even without a pause.
 
 A rival company's arguments:
 
