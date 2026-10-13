@@ -12,6 +12,7 @@ tags:
 content::
 In Unit 1 you read the first parts of Ryan Greenblatt and Buck Shlegeris's case for control. Here are two later sections. They say what control is for and for how long it can work, starting with the authors' own view of its limits. They hope for a window in which AI is useful enough to speed up safety work and not yet too capable to control.
 
+A term in the second section:
 
 - **Exogenous risk:** risk from AI built by other actors.
 
