@@ -32,6 +32,7 @@ content::
 
 When the post came out, Emmett Shear objected on Twitter that control is "a bad way to solve the problem" because against an ever more capable enemy you lose eventually. Below are two comments from under the post. In the first, Richard Ngo answers Shear: he gives two reasons to like control anyway. In the second, aysja answers Ngo and questions what his approach assumes.
 
+A term in her comment:
 
 - **Sharp left turn:** Nate Soares's idea of [a sudden jump in capabilities that earlier alignment work does not carry over to](https://www.lesswrong.com/posts/GNhMPAWcfBCASy8e6).
 
