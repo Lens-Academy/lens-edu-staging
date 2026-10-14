@@ -100,21 +100,17 @@ One or two people share what their group landed on.
 ---
 
 \pagebreak
-### Room 4: {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@An open question,--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Your number again,++} next unit  [1:15–1:27]
+### Room 4: Your number again, next unit  [1:15–1:27]
 
 **New group. Names first, then straight in.**
 
 
-1\. {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@One question this unit left open for you.--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Go around: your 0 to 10 from Room 2, and your number now.++}
-2\. {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Next unit: What--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Whoever moved most explains what moved them. The others: did the same thing move you?
-3\. If you still have time: what++} is most likely to stop you finishing {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@it, --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@the next unit, ++}and what's your plan to prevent that? (Send the plan to your buddy after the meeting.){--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@
+1\. Go around: your 0 to 10 from Room 2, and your number now.
+2\. Whoever moved most explains what moved them. The others: did the same thing move you?
+3\. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
 
 
-
---}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@
-
-
-++}| Names | {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@One open question--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Your number in Room 2 → now + what moved it++} + your plan for the next unit |
+| Names | Your number in Room 2 → now + what moved it + your plan for the next unit |
 |------|------------------------|
 |  |  |
 |  |  |
