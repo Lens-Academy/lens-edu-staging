@@ -1,5 +1,6 @@
 ---
 id: 'dc075880-2c32-442d-b046-8be0ea2cb00f'
+writing_minutes: 10
 learning-outcome: "Classify a way a scheming AI could cause a catastrophe as high-stakes (a few actions, or a short time, are enough, and each bad action would look clearly suspicious if inspected) or low-stakes (it takes many actions, each only weak evidence of bad intent because it could be an honest mistake), using how many actions are needed and how incriminating each one is rather than how much harm the end result does, and explain what the classification means for the defender: in the high-stakes case suspicious actions have to be stopped before they take effect, while in the low-stakes case slower review after the fact and measures that work across many actions, such as training on the model's outputs, can be enough."
 topic: "[[../Domains and Topics/7 AI Control/Control threat models]]"
 stage: beginner

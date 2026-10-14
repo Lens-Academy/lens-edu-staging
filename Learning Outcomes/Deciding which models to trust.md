@@ -1,5 +1,6 @@
 ---
 id: '1ead777c-908d-4ad2-bc6e-dcee11e66cf2'
+writing_minutes: 8
 learning-outcome: "Decide which models in a deployment to treat as trusted and which as untrusted, using whether a model is capable of scheming effectively as the criterion rather than how it has behaved or what inspection of it has found, and apply that decision when choosing which model may oversee an untrusted one, including what relying on a weaker trusted model costs."
 topic: "[[../Domains and Topics/7 AI Control/The control agenda]]"
 stage: beginner
