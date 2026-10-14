@@ -6,8 +6,12 @@ summary_for_tutor: "This is Section 4 of worksheet D.1.1 (preferences to rewards
 authors:
   - Fernando E. Rosas
 source_url: https://iliad-intensive.org/agency/preferences-to-rewards/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "preferences-to-rewards#4-completeness-transitivity-and-ordinal-utility"
+upstream_fingerprint: "A2y20t/965/1/071h0Dhz0HSS0LBd0P9V0PQP0R980SCM0ZvJ0bv50cf00gf40mKy0p5b0p7C1CPB1CkU1Dau1HBr1ko11mtv1qCE21Z224ZH26g429rQ2Ag62Fan2Ff82GzE2NZM2O8X"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/preferences-to-rewards/#4-completeness-transitivity-and-ordinal-utility"
 ---
 
 #### Text

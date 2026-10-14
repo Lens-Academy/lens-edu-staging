@@ -6,8 +6,12 @@ summary_for_tutor: "This is Section 5 of worksheet D.1.1 (preferences to rewards
 authors:
   - Fernando E. Rosas
 source_url: https://iliad-intensive.org/agency/preferences-to-rewards/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "preferences-to-rewards#5-lotteries-and-the-von-neumannmorgenstern-axioms"
+upstream_fingerprint: "fvPqbU8Ry/1946/1/06DL0D3s0HCP0Obr0Qxn0SCM0Xtz0f2I0lXh0ldx0oCx0qzg0t0R0txr0zLF0zx612wS17tq1B3d1Dqk1EhF1IhF1MM91OTZ1Qin1RR61VNv1XZT1fQ01nrd1qyh21CF"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/preferences-to-rewards/#5-lotteries-and-the-von-neumannmorgenstern-axioms"
 ---
 
 #### Text

@@ -6,8 +6,12 @@ summary_for_tutor: "This is Section 4 (Condensation in context) of Iliad workshe
 authors:
   - Satya Benson
 source_url: https://iliad-intensive.org/interpretability/condensation/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "condensation#4-condensation-in-context"
+upstream_fingerprint: "IDajKG0FcutaKjlUYMtLBgGzZB9Sa2E7KAsfctg/1713/1/01hc02on0K4b0MJf0MNB0MX70Mkd0Osb0P3n0RWa0T4Z0bxM0gf40k380nvf0oJu0rMW0rlj0sly0t5t0wpb102k13af17ii1IPX1JTa1JpZ1Kg51Lu61NZ11S4Y1T1U"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/interpretability/condensation/#4-condensation-in-context"
 ---
 
 #### Text

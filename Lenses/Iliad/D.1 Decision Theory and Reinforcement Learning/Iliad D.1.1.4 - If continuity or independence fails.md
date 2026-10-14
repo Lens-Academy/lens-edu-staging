@@ -6,8 +6,12 @@ summary_for_tutor: "This is the second part of Section 5 of worksheet D.1.1 (pre
 authors:
   - Fernando E. Rosas
 source_url: https://iliad-intensive.org/agency/preferences-to-rewards/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "preferences-to-rewards#if-continuity-or-independence-fails"
+upstream_fingerprint: "aRadiu/1182/1/06KA06cy0FzV0JwH0SCM0Tai0bfu0g9X0gsQ0t5t0tWb10ww1B3d1DdB1QFr1Rlu1SlF1nrd1q5h1t8s22Gi28EZ2EZc2N4D2RFE2Xwo2btV2gPg2ihF2kMh2kkb2pzZ"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/preferences-to-rewards/#if-continuity-or-independence-fails"
 ---
 
 #### Text

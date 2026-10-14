@@ -6,8 +6,12 @@ summary_for_tutor: "This is Section 7 of worksheet D.1.1 (preferences to rewards
 authors:
   - Fernando E. Rosas
 source_url: https://iliad-intensive.org/agency/preferences-to-rewards/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "preferences-to-rewards#7-reward-equivalence-and-shaping"
+upstream_fingerprint: "faFc2fjzk/1060/1/00Ko09Gu0Pwn0bJa0bMG0ekz0f2x0rRe0wKN11KF1NUn1QXz1VNv1Yxm1aDK1kGb1kPP1pYc1qBV1yq326qY26uI2CQl2E982LFr2OFb2QAH2RFE2TLO2VGu2YkZ2ZPz"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/preferences-to-rewards/#7-reward-equivalence-and-shaping"
 ---
 
 #### Text

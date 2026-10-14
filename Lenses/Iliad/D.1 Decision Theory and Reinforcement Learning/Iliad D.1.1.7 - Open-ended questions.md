@@ -6,8 +6,12 @@ summary_for_tutor: "This is Section 8 'Conclusion' of worksheet D.1.1 (preferenc
 authors:
   - Fernando E. Rosas
 source_url: https://iliad-intensive.org/agency/preferences-to-rewards/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "preferences-to-rewards#open-ended-questions"
+upstream_fingerprint: "6GL5xROxS95T8aX/863/1/02QC03rZ05fU05fy0TPW0Xan0Zcb0bi00wHE0xsr14dM1AQz1CCm1Qj61UFJ1XLz1jO31mgh1xjy21N524ZH27b32CBN2GXV2I4a2Iu52Jkp2Kei2O1Z2Vqm2Y1G2aMt"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/preferences-to-rewards/#open-ended-questions"
 ---
 
 #### Text

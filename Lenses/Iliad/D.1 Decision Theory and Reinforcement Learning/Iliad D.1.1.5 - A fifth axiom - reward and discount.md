@@ -6,8 +6,12 @@ summary_for_tutor: "This is Section 6 of worksheet D.1.1 (preferences to rewards
 authors:
   - Fernando E. Rosas
 source_url: https://iliad-intensive.org/agency/preferences-to-rewards/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "preferences-to-rewards#6-a-fifth-axiom-reward-and-discount"
+upstream_fingerprint: "0ODs8A/1356/1/01hc0D3s0IyO0SCM0Vi80ahn0g9X0ohS0pNU0q610xDt16xP1AmW1B3d1RIo1RR61Rxh1b331d1w1oLR24ZH26NV29v12C1Q2Ju82Rnw2SFi2UuS2aec2cfO2gsc2hiq"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/preferences-to-rewards/#6-a-fifth-axiom-reward-and-discount"
 ---
 
 #### Text

@@ -6,8 +6,12 @@ summary_for_tutor: "This is the end of Iliad worksheet C.4 Condensation: Section
 authors:
   - Satya Benson
 source_url: https://iliad-intensive.org/interpretability/condensation/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "condensation#6-further-reading"
+upstream_fingerprint: "L0x8aX/436/1/05yS0KEC0bDz0tKe14dM1BmO1RcZ1T1U1WaH1Xw42eN53AwR3erh3tCh3xWb3yjF45JC4RlM4d6e4hmH4wId4wyR5QQz5dAJ5xG7697m6Bdy6pkI6qsN6xMc7LOY7LQS"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/interpretability/condensation/#6-further-reading"
 ---
 
 #### Text

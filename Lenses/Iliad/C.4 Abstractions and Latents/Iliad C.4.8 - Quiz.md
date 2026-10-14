@@ -6,8 +6,12 @@ summary_for_tutor: "This is Section 5 (Quiz) of Iliad worksheet C.4 Condensation
 authors:
   - Satya Benson
 source_url: https://iliad-intensive.org/interpretability/condensation/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "condensation#5-quiz"
+upstream_fingerprint: "orwHe1/310/1/0Dql0Ubf0bMy0srq2mTM2tYR2wrn3pNK447Z4TqQ4boI4eqL53kI544T5FDp5pO869Uf6uHt74uT7cU87e7t7lNJ7oaZ8nZn8vF492al97CA97oV98g2A8jAAU2RAa7e"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/interpretability/condensation/#5-quiz"
 ---
 
 #### Text

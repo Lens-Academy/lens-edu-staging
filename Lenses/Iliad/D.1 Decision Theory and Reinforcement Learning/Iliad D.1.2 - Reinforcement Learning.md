@@ -7,8 +7,12 @@ authors:
   - Leon Lang (Iliad)
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/reinforcement-learning/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "reinforcement-learning#"
+upstream_fingerprint: "oGJeu9/577/1/04KO0QMw0RZH105b12wM1MHV1dl11h582Cso2MLi2TLO2VxY2hN134lB35Wb3EPN3ix13wmV3zM64HPx4QiO4RNW4VIz4h6d4jb04jgI4nCq4ruy59EB5GVS5MRU5NLQ"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/reinforcement-learning/"
 ---
 
 #### Text
@@ -57,7 +61,7 @@ These environments are called **Markov decision processes** (MDPs). They satisfy
 - $$\pi(a \mid s) \in [0, 1]$$ is the probability of choosing action $$a$$,
 - the agent samples $$a \sim \pi(\cdot \mid s)$$.
 
-A policy is **deterministic** if $$\pi(a \mid s) \in \{0, 1\}$$ for all $$a, s$$. In this case, we abuse notation and write $$\pi(s) := {\operatorname*{arg\,max}}_{a \in {\mathcal{A}}}\pi(a \mid s)$$ for the unique action selected at state $$s$$.
+A policy is **deterministic** if $$\pi(a \mid s) \in \{0, 1\}$$ for all $$a, s$$. In this case, we abuse notation and write $$\pi(s) := \operatorname*{arg\,max}_{a \in {\mathcal{A}}}\pi(a \mid s)$$ for the unique action selected at state $$s$$.
 
 :::
 

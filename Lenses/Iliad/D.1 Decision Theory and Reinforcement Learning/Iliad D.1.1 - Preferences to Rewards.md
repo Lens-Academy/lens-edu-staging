@@ -6,12 +6,16 @@ summary_for_tutor: "This opens worksheet D.1.1 (preferences to rewards): an embe
 authors:
   - Fernando E. Rosas
 source_url: https://iliad-intensive.org/agency/preferences-to-rewards/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "preferences-to-rewards#"
+upstream_fingerprint: "oGJUka5Y6Pxm2ry/1356/1/00rR05Vd06CS0LcV0WUp0ZQ00mDW0rew0sLE0t5t0vL3118k11Wl12jA141L19hV19uk1Aze1CxL1JjZ1Rxh1U2S1YmQ1Z541abg1oLR1pZt1qWp1t8s1vZt23Bm2A3W"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/preferences-to-rewards/"
 ---
 
 #### Video
-source:: [[../video_transcripts/iliad-the-five-rules-of-rationality-behind-reinforcement-learning]]
+source:: [[../../../video_transcripts/iliad-the-five-rules-of-rationality-behind-reinforcement-learning]]
 
 #### Text
 content::
