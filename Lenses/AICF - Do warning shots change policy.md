@@ -33,7 +33,7 @@ Alex Nguyen, a journalist at Mother Jones, reads the same months differently. As
 #### Article
 source:: [[../articles/nguyen-dont-be-fooled-congress-isnt-cracking-down-on-openai]]
 from:: A Republican-led Senate subcommittee
-to:: OpenAI denies the allegations.
+to:: OpenAI denies the allegations._
 
 #### Question: Open
 id:: f0684be0-d75a-4dee-8e4a-34c1b3bedc44

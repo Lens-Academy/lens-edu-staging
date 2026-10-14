@@ -12,7 +12,7 @@ A monitor that blocks a suspicious action before it runs might have stopped the 
 
 #### Article
 source:: [[../articles/cheng-blocking-monitors-are-bad]]
-from:: TLDR: The world is happy that blocking monitors
+from:: "**TLDR: The world is happy that blocking monitors"
 to:: because we got the large public incident that shifted the Overton window.
 
 #### Text
