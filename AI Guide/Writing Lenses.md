@@ -17,6 +17,11 @@ The patterns below come from the **AI Risk Fundamentals** course (`IABIED` prefi
 - Explain choices by what students will explore, not how the platform organizes them.
 - Give directions when students need them. Don't repeat visible UI labels or add reminders against hypothetical mistakes.
 - Before finishing, ask of every instruction: "What does this help the student do now?" Cut it if there is no useful answer.
+- Write the way a good teacher talks, not like a spec. Don't copy a brief's internal labels or bullet points into learner text. Start with the thing itself. No meta headings that the next sentence just restates (a heading "Two strands" followed by "This course has two strands."), and no slogan pairs ("It explores, it does not preach").
+- Define a key term before you lean on it. Never drop a term in cold.
+- An overview opens with who the course is for and what they get from it, as prose.
+- The items of one list are one kind of thing (all questions, or all topics), not a mix.
+- When a subagent drafted the text, do a language pass on it yourself before anyone else sees it.
 
 ## Estimate every lens's time
 
