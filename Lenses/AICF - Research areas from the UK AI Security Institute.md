@@ -12,7 +12,7 @@ Greenblatt's list was written from inside Redwood. This one comes from a funder:
 
 #### Article
 source:: [[../articles/stastny-research-areas-in-ai-control-the-alignment-project-by-uk-aisi]]
-to:: potentially leading to rogue internal deployments or weight exfiltration
+to:: rogue-deployments)).
 
 #### Article
 from:: "## Research Sabotage"

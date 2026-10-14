@@ -41,7 +41,7 @@ content::
 Further down, Mallen gives his own verdict on Redwood's control work.
 
 #### Article
-from:: I overall think it was reasonable to build up the field of control
+from:: We (mainly Redwood) didn't focus enough on superintelligence
 to:: not really discussing alignment fundamentals much.
 
 #### Question: Open
