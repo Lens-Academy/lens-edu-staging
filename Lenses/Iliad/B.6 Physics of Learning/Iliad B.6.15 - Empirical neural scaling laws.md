@@ -9,8 +9,12 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "qft#7-scaling-laws"
+upstream_fingerprint: "7rHJxji1WCcQqn5/3296/1/06UT06t90AL20C2C0CBh0D3s0G2G0GdL0K4A0OES0Q8x0STv0Sgm0V2D0Xeu0awz0bBb0doq0hlH0j5a0j750kTZ0lQO0lVd0o1i0qao0vt90xR20xsr0xyz0y0U0ymN"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/qft/#7-scaling-laws"
 ---
 
 #### Text
@@ -104,7 +108,7 @@ The basic answer, common to every proposal surveyed below, is that the loss curv
 
 The prototype of "power laws in" is *Zipf's law*: rank the words of a large corpus by frequency, and the frequency of the word of rank $$k$$ falls off as $$f_{k}\propto 1/k$$, over about four decades of rank (Figure 7). It is a scale-free tail of ever rarer structure, and it is not special to words. Sequences of $$n$$ consecutive words ($$n$$-grams, the unit of pre-neural language modeling) are Zipf-like at every $$n$$, with slopes that flatten as $$n$$ grows. Facts, meaning discrete pieces of world knowledge attested in text, inherit the heavy-tailed popularity of the entities they mention, and a model's ability to answer a factual question tracks the number of training documents that support it (Kandpal et al. 2023). The covariance and kernel spectra of text and image data are measured power laws (Sections 7.7–7.8). A learner working through such data never runs out of structure to absorb. It moves ever further down the tail, at ever slower returns. That is, qualitatively, why the loss is a power law rather than an exponential (there is structure at all scales) and why it does not simply plateau (the tail does not end).
 
-![Zipf's law, illustrated on a synthetic corpus: tokens drawn from a distribution over a vocabulary of words, with the empirical rank–frequency curve against the guide. The curve is a consistency check rather than data, since the words were sampled from a Zipf distribution to begin with. Real corpora look the same over roughly four decades, with deviations at both ends: the Zipf–Mandelbrot correction at low rank, and a steeper tail beyond about words.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-zipf-9dea6d0f.png)
+![Zipf's law, illustrated on a synthetic corpus: tokens drawn from a distribution over a vocabulary of words, with the empirical rank–frequency curve against the guide. The curve is a consistency check rather than data, since the words were sampled from a Zipf distribution to begin with. Real corpora look the same over roughly four decades, with deviations at both ends: the Zipf–Mandelbrot correction at low rank, and a steeper tail beyond about words.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-zipf-1b45f140.png)
 
 Zipf's law, illustrated on a synthetic corpus: $$2\times10^{6}$$ tokens drawn from a $$1/k$$ distribution over a vocabulary of $$5\times10^{4}$$ words, with the empirical rank–frequency curve against the $$f\propto 1/\mathrm{rank}$$ guide. The curve is a consistency check rather than data, since the words were sampled from a Zipf distribution to begin with. Real corpora look the same over roughly four decades, with deviations at both ends: the Zipf–Mandelbrot correction at low rank, and a steeper tail beyond about $$10^{4}$$ words.
 

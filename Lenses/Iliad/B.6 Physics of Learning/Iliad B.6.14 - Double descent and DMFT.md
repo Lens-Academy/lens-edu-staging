@@ -9,8 +9,12 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "qft#62-double-descent-as-a-dynamical-phase-transition"
+upstream_fingerprint: "WjlGgb3j0IekoHNSXWwyR1C4/3399/1/00Ks01u603TP04tF06CS06GV06Oc082w0GEW0GFL0GnF0LOc0Ngo0Qnu0RSB0Zcb0dCg0dza0fa50g9X0gNW0huO0iDa0iuf0lPu0lQO0mMY0nXC0o9T0oGF0sJl0sgv"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/qft/#62-double-descent-as-a-dynamical-phase-transition"
 ---
 
 #### Text

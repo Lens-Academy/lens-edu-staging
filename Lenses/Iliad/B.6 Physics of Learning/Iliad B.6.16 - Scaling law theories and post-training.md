@@ -9,8 +9,12 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "qft#75-the-quantization-model-exponents-from-the-statistics-of-skills"
+upstream_fingerprint: "jOOGwlSIFJP67wdEDDaQev8e84sFotxDY/3527/1/00Ko07aX07v308tV0CBh0CGk0Cp60DTG0E0Q0G2G0GdL0KE40LAp0MX40NH20OxQ0PhR0W2D0W8v0Z3C0ars0hWV0ihc0lPu0lVd0lgx0mGZ0nCa0oCx0pYW0rb20sHR"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/qft/#75-the-quantization-model-exponents-from-the-statistics-of-skills"
 ---
 
 #### Text
@@ -40,6 +44,8 @@ L_{m} = L_{\infty} + \Delta \sum_{k>m}p_{k}\,.
 $$
 
 That is the entire model. Everything else is asking how $$m$$ is limited by each resource.
+
+[^4]: Michaud's blog post [ericjmichaud.com/quanta](https://ericjmichaud.com/quanta/) is an excellent companion to the paper and can substitute for it in this exercise. But attempt Exercise 7.1 *before* reading either; the derivations are short, and they are more instructive to find than to follow.
 
 :::callout {title="Exercise" tone="amber"}
 **Exercise 7.1 (★) (Three scaling laws from three assumptions).** **(a)** Estimate the tail sum in (7.8) to show $$L_{m} - L_{\infty} \propto m^{-\alpha}$$.
@@ -71,7 +77,7 @@ That is the entire model. Everything else is asking how $$m$$ is limited by each
 
 The quantization model's deepest payoff is conceptual. Under QH1, the learning of any *single* quantum is a step function: a capability is absent, then abruptly present. Yet the aggregate loss (7.8) is a smooth power law. There is no contradiction. *A smooth law is a sum of many staggered cliffs*, each weighted by $$p_{k}$$ and individually invisible in the aggregate, since quantum $$k$$ contributes only the small fraction $$p_{k}$$ of the loss. Michaud et al. sharpen this with a genetics metaphor. A test sample is *monogenic* if its loss is governed by a single quantum, so that its loss curve during training is a plateau followed by a cliff; it is *polygenic* if many quanta contribute, in which case its loss falls smoothly. Both kinds of per-token curves are observed in real LLMs. From this perspective, "emergent capabilities" (Wei et al. 2022) are neither magic nor mirage (Schaeffer et al. 2023): any benchmark dominated by a few quanta *must* show abrupt arrival, while any sufficiently aggregated metric *must* look smooth. Emergence is a property of what you measure, not (necessarily) of a phase transition inside the model.
 
-![Multitask sparse parity (Michaud et al. 2023): smooth scaling from staggered cliffs. Setup: subtasks with Zipfian frequencies , ; inputs are a one-hot task indicator ( bits) concatenated with random bits; the label is the parity of a fixed random -subset of the bits, the subset depending on the task. Model: one-hidden-layer ReLU MLP, width , MSE loss on labels, trained online (fresh batches of ; Adam, learning rate , steps; fixed seed). Left: test loss per subtask vs. training step. Each subtask is learned in an abrupt cliff, frequent tasks first. Right: the frequency-weighted aggregate is smooth; the dashed guide is the idealized quanta-model slope from Exercise 7.1(d). The measured decay is visibly steeper, as discussed in the text.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-sparse-parity-135b1d82.png)
+![Multitask sparse parity (Michaud et al. 2023): smooth scaling from staggered cliffs. Setup: subtasks with Zipfian frequencies , ; inputs are a one-hot task indicator ( bits) concatenated with random bits; the label is the parity of a fixed random -subset of the bits, the subset depending on the task. Model: one-hidden-layer ReLU MLP, width , MSE loss on labels, trained online (fresh batches of ; Adam, learning rate , steps; fixed seed). Left: test loss per subtask vs. training step. Each subtask is learned in an abrupt cliff, frequent tasks first. Right: the frequency-weighted aggregate is smooth; the dashed guide is the idealized quanta-model slope from Exercise 7.1(d). The measured decay is visibly steeper, as discussed in the text.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-sparse-parity-4a421859.png)
 
 Multitask sparse parity (Michaud et al. 2023): smooth scaling from staggered cliffs. Setup: $$T=48$$ subtasks with Zipfian frequencies $$p_{i}\propto i^{-(\alpha+1)}$$, $$\alpha=0.4$$; inputs are a one-hot task indicator ($$T$$ bits) concatenated with $$24$$ random $$\pm1$$ bits; the label is the parity of a fixed random $$3$$-subset of the bits, the subset depending on the task. Model: one-hidden-layer ReLU MLP, width $$512$$, MSE loss on $$\pm1$$ labels, trained online (fresh batches of $$256$$; Adam, learning rate $$2\times10^{-3}$$, $$1.2\times10^{5}$$ steps; fixed seed). *Left:* test loss per subtask vs. training step. Each subtask is learned in an abrupt cliff, frequent tasks first. *Right:* the frequency-weighted aggregate $$L(S)=\sum_{i}p_{i}L_{i}(S)$$ is smooth; the dashed guide is the *idealized* quanta-model slope $$-\alpha/(\alpha+1)$$ from Exercise 7.1(d). The measured decay is visibly steeper, as discussed in the text.
 
@@ -161,6 +167,8 @@ Three notable results:
 - *Duality and Chinchilla:* the loss is (to leading order) *symmetric* under $$P\leftrightarrow n$$. This predicts $$\alpha_{P} \approx \alpha_{n}$$, consistent with observation, and opposite in spirit to the quanta model's asymmetric prediction (Exercise 7.1(e)). It makes *equiparameterization* $$P\propto n$$ compute-optimal, a first-principles Chinchilla rule.
 - *Where laws break:* scaling stops when $$\min(P,n)$$ exceeds the latent dimensionality of the data model, and the loss plateaus. Power laws are a statement about the resolvable structure in the data, and they end when the structure is exhausted.
 
+[^5]: This is also a working example for Section 6's toolkit: the same model can be solved dynamically, and its double-descent peak, at the interpolation threshold $$P\sim n$$, is regularized by ridge or early stopping, connecting back to the divergence of the overfitting factor mentioned in Section 7.7.
+
 \### 7.9 All the knobs at once: a dynamical theory
 
 Everything so far is statics, or one knob at a time. The current frontier is the *dynamical* mean-field theory of Section 6 applied to scaling. Bordelon, Atanasov, and Pehlevan (Bordelon et al. 2024) solve a random-feature model trained by gradient flow, with power-law data spectra, in the joint limit of large width, large data, and long time. They obtain a single self-consistent prediction for $$L(t, P, n)$$, with the correlation and response functions of Section 6 as the order parameters. Each resource, when it is the binding constraint, contributes its own power law, recovering the resolution-limited exponents of Section 7.7 in the appropriate corners. Moreover, the theory predicts the full *compute-optimal frontier*: minimizing $$L$$ at fixed compute $$C \propto P t$$ yields Chinchilla-like allocation rules and the frontier exponent, rather than assuming them.
@@ -181,7 +189,4 @@ What does not yet exist is a joint law over all four budgets (pretraining, SFT, 
 
 That every ingredient of the pretraining synthesis — Gibbs measures, kernels, mean-field limits, MSRJD actions — appeared earlier in these notes as a physics import is, we hope, a fair summary of the state of the field. A theory of the scaling laws is not finished, but it is recognizably being built, and it is being built out of statistical physics. The post-training laws are younger still: their regularities are only now being settled, and there is no theory of them yet. For a student entering the field, that is a map of where the open territory begins.
 
-[^4]: Michaud's blog post [ericjmichaud.com/quanta](https://ericjmichaud.com/quanta/) is an excellent companion to the paper and can substitute for it in this exercise. But attempt Exercise 7.1 *before* reading either; the derivations are short, and they are more instructive to find than to follow.
-[^5]: This is also a working example for Section 6's toolkit: the same model can be solved dynamically, and its double-descent peak, at the interpolation threshold $$P\sim n$$, is regularized by ridge or early stopping, connecting back to the divergence of the overfitting factor mentioned in Section 7.7.
-
-::card[[../Lenses/ericjmichaud-on-neural-scaling-and-the-quanta-hypothesis|The Quantization Model of Neural Scaling (Michaud blog post)]]
+::card[[../../ericjmichaud-on-neural-scaling-and-the-quanta-hypothesis|The Quantization Model of Neural Scaling (Michaud blog post)]]

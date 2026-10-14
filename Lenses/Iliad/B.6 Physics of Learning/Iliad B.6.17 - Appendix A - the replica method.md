@@ -9,8 +9,12 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "qft#a-the-replica-method"
+upstream_fingerprint: "fFvohcizeOT71McQzb/2850/1/076G0Irn0JNS0S4C0WMq0WUp0XbR0aEj0blM0fl10g6b0jm00omS0sUa105b13pQ15JJ1A821AVK1B3d1Gpb1RM61USc1VKB1YWs1Yds1aje1evK1f7c1h1x1ha51pb8"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/qft/#a-the-replica-method"
 ---
 
 #### Text
@@ -121,7 +125,7 @@ $$
 
 Figure 9 shows $$S_{\rm ann}$$ for several loads. The entropy–energy competition is the same as for the Ising perceptron, but the outcome is different: the entropy $$-\frac{1}{2}\log(1-R^{2})$$ diverges as $$R\to1$$, so the perfectly aligned state is infinitely penalized, the minimum always sits in the interior, and it slides continuously from $$R=0$$ toward $$R=1$$ as $$\alpha$$ grows. There is no phase transition. This is the answer to the closing question of Exercise 2.3(h): the binary weights of the Ising perceptron give the aligned state finite entropy, $$h(1)=0$$, and that is what allows it to compete as a separate basin.
 
-![The annealed action of the spherical perceptron, (A.8), for (bottom to top at ), with the minimizer marked on each curve. The entropy pins the minimum at when ; increasing the load slides it smoothly toward larger overlap, and the entropic wall at keeps it in the interior. One basin at every , moving continuously: no phase transition.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-spherical-action-38e3cfe7.png)
+![The annealed action of the spherical perceptron, (A.8), for (bottom to top at ), with the minimizer marked on each curve. The entropy pins the minimum at when ; increasing the load slides it smoothly toward larger overlap, and the entropic wall at keeps it in the interior. One basin at every , moving continuously: no phase transition.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-spherical-action-0f09ed0c.png)
 
 The annealed action $$S_{\rm ann}(R)$$ of the spherical perceptron, (A.8), for $$\alpha\in\{0,0.25,0.5,0.75,1\}$$ (bottom to top at $$R=0$$), with the minimizer marked on each curve. The entropy pins the minimum at $$R=0$$ when $$\alpha=0$$; increasing the load slides it smoothly toward larger overlap, and the entropic wall at $$R=1$$ keeps it in the interior. One basin at every $$\alpha$$, moving continuously: no phase transition.
 
