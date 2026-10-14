@@ -5,7 +5,7 @@ title: "Is control enough?"
 ---
 %% Part 1 of Unit 4 of AI Control Fundamentals; the unit continues in 'What control does to the world' (split into modules by topic, Elias 2026-10-08). The note below describes the whole unit as it was before the split. %%
 
-%% Unit 4 of AI Control Fundamentals. Time (reading+tutor): welcome 4+0, slop 16+14, better schemers 14+16, protocols hold up 4+12, superintelligence (optional, not counted) 6+14, profit-only 16+20, warning shots 15+14, safety-washing 11+12, adversarial and AI welfare (optional, not counted) 18+17, practice 5+25 (lenses 256, or 201 without the optional lenses), plus about 18 for test 1 (classifying criticisms) and 8 for test 2 (backfire). About 224 minutes. %%
+%% Unit 4 of AI Control Fundamentals. Time (reading+tutor): welcome 4+0, slop 16+14, better schemers 14+16, protocols hold up 4+12, superintelligence (optional, not counted) 6+14, profit-only 16+20, warning shots 15+14, safety-washing 11+12, adversarial and AI welfare (optional, not counted) 18+17, practice 5+25 (lenses 256, or 201 without the optional lenses), plus 15 for test 1 (classifying criticisms) and 10 for test 2 (backfire). About 223 minutes. %%
 
 # Lens: Welcome to Unit 4
 id:: db5cd027-63d2-431d-9ee8-fde62339bcb3
