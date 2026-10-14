@@ -24,15 +24,16 @@ source:: [[../articles/buck-comment-on-the-case-against-ai-control-research-comm
 
 #### Text
 content::
-Lucius Bushnaq replied to Buck's point about getting useful research out of scheming AIs:[^cite-bushnaq-comment]
+Lucius Bushnaq replied to Buck's point about getting useful research out of scheming AIs (ASI is artificial superintelligence):
 
-> What would you say to the objection that people will immediately try to use such techniques to speed up ASI research just as much as they will try to use them to speed up alignment research if not more? Meaning they wouldn't help close the gap between alignment research and ASI development and might even make it grow larger faster?
->
-> If we were not expecting to solve the alignment problem before ASI is developed in a world where nobody knows how to get very useful research out of AIs, why would techniques for getting useful research out of AIs speed up alignment research more than ASI research and close the gap?
+#### Article
+source:: [[../articles/bushnaq-comments-on-the-case-against-ai-control-research]]
+from:: What would you say to the objection
+to:: speed up alignment research more than ASI research and close the gap?
 
-Buck answered (ASI is artificial superintelligence):
-
-[^cite-bushnaq-comment]: Lucius Bushnaq, comment on John Wentworth's *The Case Against AI Control Research*. [LessWrong](https://www.lesswrong.com/posts/8wBN8cdNAv3c7vt6p/the-case-against-ai-control-research?commentId=FpZmBx2Q4eswZWmy6)
+#### Text
+content::
+Buck answered:
 
 #### Article
 source:: [[../articles/buck-comment-on-the-case-against-ai-control-research]]
