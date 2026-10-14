@@ -6,8 +6,12 @@ summary_for_tutor: "Sections 16 and 17 of Iliad worksheet E.1: a list of critici
 authors:
   - Stephan Wäldchen (Iliad)
 source_url: https://iliad-intensive.org/safety/debate/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "debate#16-criticisms-the-debate-around-debate"
+upstream_fingerprint: "YbQfcJlfY/711/1/0NVa0Nfu0Pdt0bDh0ckB0eHc0ht10oSZ0t5t14Oz16Dl1OuX1Pke1Rlu1VGV1fxl1ga81i9W1jO31jze1rHc1zgo24kA27b32Qro2lUW2u1f322939PK3Uiz3W7B3Xts"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/safety/debate/#16-criticisms-the-debate-around-debate"
 ---
 
 #### Text
