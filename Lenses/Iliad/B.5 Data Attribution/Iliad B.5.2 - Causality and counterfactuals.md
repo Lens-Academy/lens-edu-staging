@@ -4,8 +4,14 @@ title: "B.5.2 Causality and counterfactuals"
 tldr: "Frames data attribution as a causal question, shows how leave-one-out counterfactuals fail through overdetermination and non-transitivity, introduces Shapley values, and fixes the notation used later."
 summary_for_tutor: "Section 1 (1.1 to 1.4) of Iliad worksheet B.5 Data Attribution: attribution as causal analysis, Definition 1.1 (counterfactual attribution), Example 1.2 (bakery overdetermination), Example 1.3 (boulder non-transitivity), Definition 1.4 (Shapley value) with a remark that Shapley dilutes credit and is costly, and the notation: training set, per-example loss, data weights beta, weighted loss L(w; beta), observable phi, and influence as the derivative of phi(pi(beta)) in beta_i at beta = 1. Keep this notation. No exercises."
 source_url: https://iliad-intensive.org/learning/data-attribution/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+authors:
+  - Louis Jaburi
+upstream_key: "data-attribution#1-causality-and-counterfactuals"
+upstream_fingerprint: "uh23bm95kZ44fVk/1332/1/008B087N0I1c0JcY0RWa0UkZ0VL80ZKP0cDw0cQO0rb20vIW0z6G105b13Jb194E196E1BM71NEV1O4E1Rlu1TKp1VS21e881h1x1ous1q8g1qBV1vpX1z4r27De28AR"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/data-attribution/#1-causality-and-counterfactuals"
 ---
 
 #### Text
@@ -19,6 +25,8 @@ At the heart of data attribution, we find a causal question: **Which training ex
 Two asymmetries between the two settings are worth keeping in mind from the start. First, both problems inherit the same conceptual difficulties of causal reasoning in general (explained in the next section) and there is no reason to expect data attribution to escape them. Second, a forward pass is cheap, while a training run is not. Where mechanistic interpretability can validate a claim by running many ablations, data attribution cannot in general afford even one retraining. That being said, there are also advantages: Generally speaking, the training process is more robust and the ablations we run may be more human understandable than high-dimensional modification of activations or weights.
 
 Now, before developing such data attribution methods, we should be aware of the tension between causality and the ways we will validate a hypothesis. Finding a "true" causal relationship in practice can be much more difficult than it may seem at first glance. In the following section we take the question seriously, and find that the naive counterfactual answer fails in ways that matter.
+
+[^1]: In Section 4 we make this analogy explicit.
 
 \### 1.2 Counterfactual attribution and its failures
 
@@ -127,5 +135,3 @@ That being said, all attribution methods in these lecture notes can be phrased a
 $$
 \boxed{\;\frac{\partial\,\phi(\pi(\beta))}{\partial \beta_{i}}\bigg|_{\beta = \mathbf{1}}\;}
 $$
-
-[^1]: In Section 4 we make this analogy explicit.

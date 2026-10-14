@@ -6,8 +6,12 @@ summary_for_tutor: "This is Section 4 'Gradient flow and conserved quantities' o
 authors:
   - Guillaume Corlouer (Stormglass)
 source_url: https://iliad-intensive.org/learning/training-dynamics/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "training-dynamics#4-gradient-flow-and-conserved-quantities"
+upstream_fingerprint: "WY7jIQEsiNPWnDdhralf3JXL/858/1/0S5g0i4Z0izI0oSZ0udb0zLd11TD1HBp1J6Y1eNT2gEs2r5G2xwV31xT35rj3VRa3Vc63kag3lHQ40fx4M4X4Prg4eyz56YX58vq5CeC5IQN5RBz6Gvb6KFJ6f206jKU"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/training-dynamics/#4-gradient-flow-and-conserved-quantities"
 ---
 
 #### Text

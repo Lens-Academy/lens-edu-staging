@@ -8,8 +8,12 @@ authors:
   - Matthew Farrugia-Roberts (University of Oxford)
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/singular-learning-theory/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "singular-learning-theory#4-degeneracy-and-bayesian-deep-learning"
+upstream_fingerprint: "X7WvjyPMApOiXR7/1837/1/06ri0GkS0Nwx0cAu0g9X0iuf0nBf0qn30rWq0t5t10vS1Gpb1Isf1JjZ1Rlu1Tcy1Viw1Vp11YWs1h1x1n2D1pc51rNE1sVI1vAJ1xtV1ywb28T829aD2A3W2DpZ2O8X"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/singular-learning-theory/#4-degeneracy-and-bayesian-deep-learning"
 ---
 
 #### Text

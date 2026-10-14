@@ -6,8 +6,12 @@ summary_for_tutor: "This covers Sections 6 'Lazy regime' and 7 'Mixed dynamics' 
 authors:
   - Guillaume Corlouer (Stormglass)
 source_url: https://iliad-intensive.org/learning/training-dynamics/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "training-dynamics#6-lazy-regime"
+upstream_fingerprint: "vx6KCr6mOz9ECapVeCGzINza/1603/1/03GL0D4w0LAE0RRc0Yu30n9E0oSZ105b12wM13FA14vP1J5U1J6Y1Jed1JuV1Li81Rnc1a7q1djL1j7J1m9m1oPk1owc1pz41v9C21pY24ZH24uS25Ua26we2Eyd2KTb"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/training-dynamics/#6-lazy-regime"
 ---
 
 #### Text

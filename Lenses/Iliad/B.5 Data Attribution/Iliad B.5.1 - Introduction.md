@@ -4,8 +4,14 @@ title: "B.5.1 Introduction"
 tldr: "Contents of the notes, the five parts and how they connect, the assumed background in linear algebra, calculus, probability and deep learning, and three fast-track routes."
 summary_for_tutor: "Introduction of Iliad worksheet B.5 Data Attribution: table of contents, outline of sections 1 to 5 (counterfactuals, influence functions, Bayesian influence functions, unrolling, practical considerations), prerequisites, optional link to the singular learning theory day, and three fast-track routes through the material. No exercises."
 source_url: https://iliad-intensive.org/learning/data-attribution/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+authors:
+  - Louis Jaburi
+upstream_key: "data-attribution#"
+upstream_fingerprint: "oGJCLn/502/1/0QlY0h9s0iNm0kAO0xB10ydh10861FQe1cdy1z4r29g82Cso2DNy2PY62ulI301V3EjN3KD43MrI3SnK3l8P3mXi3wmV3zG03zWh424e45TW4HPx4UUV4j8U53V55CvQ"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/data-attribution/"
 ---
 
 #### Text

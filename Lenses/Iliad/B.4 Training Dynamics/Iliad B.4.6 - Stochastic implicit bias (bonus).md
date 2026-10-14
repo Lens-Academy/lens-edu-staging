@@ -6,8 +6,12 @@ summary_for_tutor: "This is Section 8 'Stochastic implicit bias (bonus)' of work
 authors:
   - Guillaume Corlouer (Stormglass)
 source_url: https://iliad-intensive.org/learning/training-dynamics/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "training-dynamics#8-stochastic-implicit-bias-bonus"
+upstream_fingerprint: "yy2i1blvoAeq/665/1/05Ex0DcB0Hbo0NRJ0RWa0X6N0f2I15D716vo18Dj1A151FJw1IhF1Pfu1h1x1j7J21BR21gG24ZH27Zj2axA2k2O2q6J2qf72r5G2zgE35IJ3MKJ3MuO3gwK3ouZ4YKz"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/training-dynamics/#8-stochastic-implicit-bias-bonus"
 ---
 
 #### Text

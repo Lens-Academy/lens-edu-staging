@@ -6,8 +6,12 @@ summary_for_tutor: "This is Section 3 'Loss landscape geometry' of worksheet B.4
 authors:
   - Guillaume Corlouer (Stormglass)
 source_url: https://iliad-intensive.org/learning/training-dynamics/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "training-dynamics#3-loss-landscape-geometry"
+upstream_fingerprint: "wvl2LqQkS8VIZ4e/850/1/0BH00Lne0UhF0f2I1J6Y1Me61Vam1szb1yak20TG21f22BPi2LFY2MfE2m2I2qsi2zlc33iH39Oo3FxV3GNV3T433W7B3lVY3wmV4Ep64MrG4PTg4kVd4mkT4sL655Qs"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/training-dynamics/#3-loss-landscape-geometry"
 ---
 
 #### Text

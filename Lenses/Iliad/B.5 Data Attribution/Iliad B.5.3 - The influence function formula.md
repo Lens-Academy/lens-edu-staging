@@ -4,8 +4,14 @@ title: "B.5.3 The influence function formula"
 tldr: "Introduces influence functions from robust statistics, defines the parameter influence with the inverse Hessian, relates it to leave-one-out, and has Exercise 2.1 deriving the formula with the implicit function theorem."
 summary_for_tutor: "Start of Section 2 of Iliad worksheet B.5 Data Attribution: Example 2.1 (influence on the mean), Definition 2.2 (influence function, inverse Hessian times gradient, at the minimum w*), the link to leave-one-out through beta = 1 minus e_i, and Exercise 2.1 (a)-(c) deriving the formula via the implicit function theorem and chain rule, with a collapsed solution. Keep the notation w*(beta), H, I(z_i, phi). Let the student attempt each exercise before revealing or paraphrasing a solution."
 source_url: https://iliad-intensive.org/learning/data-attribution/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+authors:
+  - Louis Jaburi
+upstream_key: "data-attribution#2-influence-functions"
+upstream_fingerprint: "ZhxmwpnX6/1147/1/011L0BMm0OeU0Pdt0T4Z0ZsI0cOQ0oCx0udG1F1I1FGd1IOM1RwJ1TgK1Vam1a7q1jp31mXF1qlu22Gi23u12Dwv2G822SwD2Z9U2mxh2tYR2xor31LA34bd3Euy3NGE"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/data-attribution/#2-influence-functions"
 ---
 
 #### Text
@@ -35,7 +41,7 @@ The rate of change at $$\epsilon = 0$$ is $$z - T(F)$$: the influence of $$z$$ o
 We now translate this idea into the setting of Section 1.4, whose notation we use throughout. Recall that the weighted training loss $$L(w;\beta) = \sum_{i} \beta_{i} L(w,z_{i})$$ defines a family of optimization problems parameterized by the weight vector $$\beta$$. In the case of influence functions, we measure the influence of a data point on the *optimal* parameters
 
 $$
-w^{*}(\beta) \;:=\; {\operatorname*{arg\,min}}_{w\in W}\, L(w;\beta),
+w^{*}(\beta) \;:=\; \operatorname*{arg\,min}_{w\in W}\, L(w;\beta),
 $$
 
 and we write $$w^{*} := w^{*}(\mathbf{1})$$ for the trained parameters. We assume throughout this subsection that $$w^{*}$$ is the unique global minimum of $$L$$ and that the Hessian $$H := \nabla_{w}^{2} L(w^{*})$$ is positive definite, so that the implicit function theorem makes $$w^{*}(\beta)$$ well-defined and smooth in a neighborhood of $$\beta=\mathbf{1}$$. In the notation of Equation 1 we set $$\pi(\beta)= w^{*}(\beta)$$ and Equation 3 yields then the following formula:
@@ -79,7 +85,7 @@ $$
 i.e. the parameter influence is, to first order, the change in $$w^{*}$$ that would result from removing $$z_{i}$$ from the training set entirely.
 
 :::callout {title="Exercise" tone="amber"}
-**Exercise 2.1 (Derivation of the influence function).** Let $$w^{*}(\beta) = {\operatorname*{arg\,min}}_{w\in W}\,L(w;\beta)$$ as above and assume the Hessian $$H = \nabla_{w}^{2} L(w^{*})$$ is invertible. Recall that the *implicit function theorem* states: if $$F:W\times B\to\mathbb{R}^{\dim W}$$ is $$C^{1}$$, $$F(w^{*},\mathbf{1})=0$$, and the Jacobian $$\partial F/\partial w$$ at $$(w^{*},\mathbf{1})$$ is invertible, then there is a unique $$C^{1}$$ map $$\beta\mapsto w^{*}(\beta)$$ on a neighborhood of $$\mathbf{1}$$ with $$F(w^{*}(\beta),\beta)\equiv 0$$, whose derivative is obtained by implicit differentiation of $$F$$.
+**Exercise 2.1 (Derivation of the influence function).** Let $$w^{*}(\beta) = \operatorname*{arg\,min}_{w\in W}\,L(w;\beta)$$ as above and assume the Hessian $$H = \nabla_{w}^{2} L(w^{*})$$ is invertible. Recall that the *implicit function theorem* states: if $$F:W\times B\to\mathbb{R}^{\dim W}$$ is $$C^{1}$$, $$F(w^{*},\mathbf{1})=0$$, and the Jacobian $$\partial F/\partial w$$ at $$(w^{*},\mathbf{1})$$ is invertible, then there is a unique $$C^{1}$$ map $$\beta\mapsto w^{*}(\beta)$$ on a neighborhood of $$\mathbf{1}$$ with $$F(w^{*}(\beta),\beta)\equiv 0$$, whose derivative is obtained by implicit differentiation of $$F$$.
 
 **(a)** Apply the implicit function theorem to $$F(w,\beta) := \nabla_{w} L(w;\beta)$$ to conclude that $$\beta\mapsto w^{*}(\beta)$$ is well-defined and $$C^{1}$$ near $$\mathbf{1}$$. Which hypothesis of the theorem uses the invertibility of $$H$$? Where do we use that $$w^{*}$$ is the unique global minimum (rather than merely a critical point)?
 
@@ -96,7 +102,7 @@ $$
 
 *(a)* Set $$F(w,\beta) := \nabla_{w} L(w;\beta) = \sum_{j} \beta_{j}\,\nabla_{w} L(w,z_{j})$$. Then $$F$$ is $$C^{1}$$ in $$(w,\beta)$$ (assuming $$L(\cdot,z_{j})$$ is $$C^{2}$$), and $$F(w^{*},\mathbf{1}) = \nabla_{w} L(w^{*}) = 0$$ because $$w^{*}$$ is a critical point of the unperturbed loss. The Jacobian $$\partial F/\partial w$$ at $$(w^{*},\mathbf{1})$$ equals $$\nabla_{w}^{2} L(w^{*}) = H$$, and the invertibility hypothesis of the implicit function theorem is exactly the assumption that $$H$$ is invertible. The theorem then yields a unique $$C^{1}$$ map $$\beta\mapsto w^{*}(\beta)$$ on a neighborhood of $$\mathbf{1}$$ with $$F(w^{*}(\beta),\beta)\equiv 0$$.
 
-The uniqueness the implicit function theorem provides is only *local*: $$w^{*}(\beta)$$ is uniquely defined as the critical point near $$w^{*}$$. The assumption that $$w^{*}$$ is the unique *global* minimum is what lets us identify this local branch of critical points with the object we actually care about — the argmin. Without it, $${\operatorname*{arg\,min}}_{w} L(w;\beta)$$ could jump to a different basin as $$\beta$$ varies, and the response function would fail to be continuous (let alone differentiable).
+The uniqueness the implicit function theorem provides is only *local*: $$w^{*}(\beta)$$ is uniquely defined as the critical point near $$w^{*}$$. The assumption that $$w^{*}$$ is the unique *global* minimum is what lets us identify this local branch of critical points with the object we actually care about — the argmin. Without it, $$\operatorname*{arg\,min}_{w} L(w;\beta)$$ could jump to a different basin as $$\beta$$ varies, and the response function would fail to be continuous (let alone differentiable).
 
 *(b)* Define the two-slot function
 

@@ -6,15 +6,19 @@ summary_for_tutor: "This is the intro of worksheet B.4 (training dynamics): two 
 authors:
   - Guillaume Corlouer (Stormglass)
 source_url: https://iliad-intensive.org/learning/training-dynamics/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "training-dynamics#"
+upstream_fingerprint: "oGJ5PX8yc/511/1/01LK0Bmn0HCP0NVa1Dpy1Dr11Hmv1NeO1OuX1VPj1Z2j1mcE22cW2ALv2MfE2OTQ2upy34fj38Wq3FGZ3GbW3JkQ3Ouk3mvj40Lo4AE54ElK4JcB4YKq4coP5Xjl5Y3D"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/training-dynamics/"
 ---
 
 #### Video
-source:: [[../video_transcripts/iliad-the-dumbest-neural-network-worth-studying]]
+source:: [[../../../video_transcripts/iliad-the-dumbest-neural-network-worth-studying]]
 
 #### Video
-source:: [[../video_transcripts/iliad-uncovering-the-hidden-biases-of-deep-learning]]
+source:: [[../../../video_transcripts/iliad-uncovering-the-hidden-biases-of-deep-learning]]
 
 #### Text
 content::

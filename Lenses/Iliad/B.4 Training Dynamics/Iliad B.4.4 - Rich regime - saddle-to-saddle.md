@@ -6,8 +6,12 @@ summary_for_tutor: "This is Section 5 'Rich regime: saddle-to-saddle' of workshe
 authors:
   - Guillaume Corlouer (Stormglass)
 source_url: https://iliad-intensive.org/learning/training-dynamics/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "training-dynamics#5-rich-regime-saddle-to-saddle"
+upstream_fingerprint: "nEe0mAQl9RX59zP/1077/1/06Ll0Hnb0S6A0S8C0U5o0U7V0bbq0f2I0i4Z0jco0lQO1FRE1ILy1PEX1a7q1j7J1lWY1yCw2Eyd2LFY2MIb2MQj2MfE2Rj02UXI2UtM2WEs2hWv2jWL2qQS3Be43H8k"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/training-dynamics/#5-rich-regime-saddle-to-saddle"
 ---
 
 #### Text
