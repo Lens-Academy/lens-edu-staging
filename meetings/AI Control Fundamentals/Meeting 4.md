@@ -18,7 +18,7 @@ source:: [[../shared/Session Doc - How today works]]
 Go around your group:
 1\. How was working through this unit's content? If you didn't finish, what got in the way?
 2\. Which criticism of control from this unit stuck with you most? If someone in your group didn't read your pick, sum it up in a sentence.
-4\. If you still have time: one word for how this unit left you.
+4\. If you still have time: 
 
 
 | Names | The criticism that stuck + which kind it is |
