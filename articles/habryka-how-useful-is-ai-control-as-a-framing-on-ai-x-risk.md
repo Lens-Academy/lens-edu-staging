@@ -713,9 +713,6 @@ One operationalization of number of bits is, if we noise the weights somewhat wi
 E.g. for 32 bits that would imply that we would need 2^32 samples to find good performance (on average).
 
 I think this is pretty good crude approximation of how easily SGD will find stuff.
-:::
-
-:::callout{title="Ryan Greenblatt" tone="green"}
 
 (But idk if much easier to reason about lol.)
 :::
