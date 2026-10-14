@@ -35,6 +35,15 @@ hide:: true                           ← hidden from the module page (requires 
 - Submodules are optional ways to further structure modules into sensible chunks
 - Learning outcomes should be linked at the top of a (sub-)module. Their test is rendered at the end of it.
 - A `# Lens:` section has either `source::` (referenced) or `id::` + segments (inline), not both. Segment syntax: [[Writing Lenses]].
+- **Choice groups** let the learner pick k of n lenses on the path, instead of several `optional:: true` lenses with "pick one" in their text:
+  ```
+  # Choose: 1                ← or "# Choose: 3 of 5"
+  ## Lens:
+  source:: [[../Lenses/a]]
+  ## Lens:
+  source:: [[../Lenses/b]]
+  ```
+  Inside a submodule write `## Choose:` with `### Lens:` options. The group ends at the next heading of its level. The module's time counts k times the average of the options (shown with "~"), and progress, grades and reminders count k lenses per group. Use it for "pick one of these readings or reports".
 
 ## Creation flow
 1. Deeply think about/discuss with the user what exactly you want to teach in a given module/submodule and create LOs based on this (see [[Writing (Learning) Outcomes]])
