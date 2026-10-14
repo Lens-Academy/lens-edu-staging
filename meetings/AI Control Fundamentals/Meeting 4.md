@@ -80,12 +80,12 @@ Ways the unit says control could make things worse:
 
 1\. Each of you ranks these privately, from the one that worries you most to the one that worries you least.
 2\. Compare your rankings. Where do you disagree and why?
-3\. If you still have time: which of these worries applies just as much to alignment work as to control?
+3\. If you still have time: imagine AIs ten times more capable than today's. Does your ranking change? Which item moves most?
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
-| Names | Your top worry + where you disagreed + which worry also hits alignment work |
+| Names | Your top worry + where you disagreed + what moves with ten times more capable AIs |
 |------|------------------------|
 |  |  |
 |  |  |
