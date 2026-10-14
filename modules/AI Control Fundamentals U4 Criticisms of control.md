@@ -52,4 +52,3 @@ source:: [[../Lenses/AICF - Do control protocols hold up]]
 
 # Lens:
 source:: [[../Lenses/AICF - What about superintelligence]]
-optional:: true
