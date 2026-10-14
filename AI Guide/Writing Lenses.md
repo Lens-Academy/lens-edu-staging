@@ -22,6 +22,13 @@ The patterns below come from the **AI Risk Fundamentals** course (`IABIED` prefi
 
 When you create or change a lens, estimate the learner's real start-to-finish time and set it at the top: prefer `reading_minutes` + `tutor_minutes` (content time + AI-conversation time, displayed split; either alone works, `tutor_minutes: 0` means no tutor time), or one `duration_minutes` total, never both. Estimate from what the learner actually does, not a word-count formula (dense readings are slower, required back-and-forth costs more than a quick answer, count off-page work like "read chapter 2"), round to a friendly number, and re-estimate in the same edit whenever you change a lens. Rendered example: the Demo Course's "Lens duration demo" module.
 
+What counts where, and rough sizes:
+- **Question time is tutor time,** never reading time. Count it per question, including the tutor's feedback and any back-and-forth: a quick recall question about 3 minutes, an explain-or-apply question 5 to 6, a multi-part, design or prediction question up to about 8. Judge longer written answers one by one by reading the question, not by its word limit (a `max-words` cap is a ceiling, not what people write). Most written answers take 5 to 15 minutes.
+- **Reading time** covers text, video and widgets.
+- **Optional work** counts by expected uptake. Learners don't see an `optional:: true` flag inside a lens, so a question whose text doesn't say it's optional is usually done and counts fully. "Answer any k of these n" counts k/n of the time of all n. "Pick one of these readings" counts the average option, not the shortest.
+- **Appendices** go into a collapsible that is closed by default and count 0 minutes. If the learner is meant to read one, keep it in a collapsible that is open by default and count it fully.
+- When you change lens times, also update any hand-written totals (module `%%` notes, the course description).
+
 ## The reading lens: Recall → Processing → Learning Question
 
 Every IABIED reading lens follows the same five-beat structure. It works because it forces retrieval before reflection, reflection before analysis, and never lets the tutor lecture.

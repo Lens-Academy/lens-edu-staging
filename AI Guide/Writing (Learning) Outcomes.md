@@ -112,6 +112,7 @@ source:: [[../Lenses/My Topic]]
 - Suggested lenses are **author-facing candidates only**: the platform doesn't import them; the module lists its teaching lenses explicitly, before the `# Learning Outcome:` ref. Outcome files without suggested lenses are valid too.
 - Skill-tree frontmatter is rolling out per `Lens/Learning Outcome Domain and Stage Proposal.md`: `domain:` (one of the 15 domains in `Lens/AI Safety Skill Taxonomy - Canonical Working Inventory.md`), `stage:` (Beginner, Intermediate, or Advanced), `requires:` (sparse; only genuine prerequisites, since they gate locked status). Set them on new outcomes.
 - **Test time:** every test counts 7 minutes of writing time in the module's time estimate (shown with a pen icon), whatever its number of questions. When the test takes longer or shorter, set `writing_minutes:` in the frontmatter (a whole number from 1 to 600), e.g. `writing_minutes: 15` for a test with three essay questions. Estimate what the learner actually writes. The field has no effect on an outcome without a test. Rendered example: the Demo Course's [[../Learning Outcomes/Learning Outcome Demo]] (`writing_minutes: 12`).
+  Judge every test on its own and set `writing_minutes:` on each one. The 7 minutes are only the platform's fallback, not a default to keep. Read the questions and estimate how long a learner needs for them: how hard they are, how much thinking they take, and how much the learner has to write. A short recall test may take 3 minutes, a test with several hard essay questions 20 or more.
 
 ### Segments
 
