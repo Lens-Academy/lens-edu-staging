@@ -6,8 +6,12 @@ summary_for_tutor: "Section 14 of Iliad worksheet E.1: Definition 14.1 (exponent
 authors:
   - Stephan Wäldchen (Iliad)
 source_url: https://iliad-intensive.org/safety/debate/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "debate#14-equivalence-of-cross-examination-and-exponential-precommitment"
+upstream_fingerprint: "lfR/999/1/0CDg0DLR0EUF0GWi0I7y0Tpw0V0u0yzz11KF1DS61KKE1NLr1Of71S4Y1Tui1jI31pCf1wcC24ZH2QX12a8G2bDU2bFM2nb72s923OmE3gmU3mtd3sGK3xtr40Oe43i3"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/safety/debate/#14-equivalence-of-cross-examination-and-exponential-precommitment"
 ---
 
 #### Text

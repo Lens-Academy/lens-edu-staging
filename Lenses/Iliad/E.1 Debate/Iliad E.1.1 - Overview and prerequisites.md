@@ -6,8 +6,12 @@ summary_for_tutor: "Opening part of Iliad worksheet E.1 Scalable Oversight and D
 authors:
   - Stephan Wäldchen (Iliad)
 source_url: https://iliad-intensive.org/safety/debate/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "debate#1-prerequisites"
+upstream_fingerprint: "hggEHkNhn/194/1/0KwX0ctt0eHc0nYi0qoN1OKz1WC51YjP1fEo1gAy1h1x2Gyq2I1W2L1P2MEK2s5939lh3Rbh3XFo3c7C4Awy4VPu4Wyc53sA58Uc58ib5AvY5DNt5UOf5nT15oRB5pQV"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/safety/debate/#1-prerequisites"
 ---
 
 #### Text

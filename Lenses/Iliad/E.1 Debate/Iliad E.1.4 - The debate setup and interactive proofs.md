@@ -6,8 +6,12 @@ summary_for_tutor: "Sections 7 to 9 of Iliad worksheet E.1: the debate setup (qu
 authors:
   - Stephan Wäldchen (Iliad)
 source_url: https://iliad-intensive.org/safety/debate/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "debate#7-the-debate-setup"
+upstream_fingerprint: "HkPkpbbP75nOKc8b9o/1495/1/075Z0DLR0EaS0Fkj0GkS0JDx0KmI0LXc0MU60R5a0S5g0UBe0ckB0eHc0g9X0l4r0oSZ0t5t0wwE11KF11go13pW17Mp1Cp21DJ51HJ01Hb21Jed1KNC1Pke1RNL1Rlu"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/safety/debate/#7-the-debate-setup"
 ---
 
 #### Text

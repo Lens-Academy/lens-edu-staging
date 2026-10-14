@@ -6,8 +6,12 @@ summary_for_tutor: "Sections 10 and 11 of Iliad worksheet E.1: Definition 10.1 (
 authors:
   - Stephan Wäldchen (Iliad)
 source_url: https://iliad-intensive.org/safety/debate/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "debate#10-debate-as-a-complexity-class"
+upstream_fingerprint: "b00qBEI9NH2tLtewnJCUZDD9/1519/1/05dZ0DeE0GkS0I7y0Nfu0U6n0UUb0V0u0Xhg0baP0cEF0ckB0eHc0i4Z0jH90qXj0zG6105b10xQ11KF13Fv16Vn1GOY1NLr1Seb1WaH1Wgb1Z2j1ahq1h1M1iGR1m8r"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/safety/debate/#10-debate-as-a-complexity-class"
 ---
 
 #### Text
@@ -39,7 +43,7 @@ The judge outputs $$1$$ if Alice wins and $$0$$ if Bob wins.
 **Definition 10.2 (The class $$\mathsf{Debate}$$).** A language $$L \subseteq \{0,1\}^{*}$$ is in $$\mathsf{Debate}$$ if there exist polynomials $$p,k$$ and a debate verifier $$J$$ such that for every input $$x\in\{0,1\}^{n}$$, $$x \in L$$ if and only if
 
 $$
-\begin{aligned}&{\mathop{\exists}\limits}_{a_1 \in \{0,1\}^{\le p(n)}}\; {\mathop{\forall}\limits}_{b_1 \in \{0,1\}^{\le p(n)}}\cdots {\mathop{\exists}\limits}_{a_{k(n)} \in \{0,1\}^{\le p(n)}}\; {\mathop{\forall}\limits}_{b_{k(n)} \in \{0,1\}^{\le p(n)}}\\&\qquad J(x,a_{1},b_{1},\dots,a_{k(n)},b_{k(n)})=1.\end{aligned}
+\begin{aligned}&\mathop{\exists}\limits_{a_1 \in \{0,1\}^{\le p(n)}}\; \mathop{\forall}\limits_{b_1 \in \{0,1\}^{\le p(n)}}\cdots \mathop{\exists}\limits_{a_{k(n)} \in \{0,1\}^{\le p(n)}}\; \mathop{\forall}\limits_{b_{k(n)} \in \{0,1\}^{\le p(n)}}\\&\qquad J(x,a_{1},b_{1},\dots,a_{k(n)},b_{k(n)})=1.\end{aligned}
 $$
 
 Equivalently, $$x\in L$$ if and only if Alice has a winning strategy in the polynomial-length debate defined by $$J$$.
@@ -55,7 +59,7 @@ Equivalently, $$x\in L$$ if and only if Alice has a winning strategy in the poly
 This formulation is very close to a totally quantified Boolean Formula (TQBF), the canonically $$\mathsf{PSPACE}$$-complete problem. The only difference is that for a TQBF, one would quantify over single bits, and consider a Boolean formula instead of a poly-time algorithm as judge. But these differences are somewhat cosmetic: One can rephrase
 
 $$
-{\mathop{\exists}\limits}_{a_i \in \{0,1\}^{\le p(n)}}\quad\rightarrow\quad \exists a_{i}^{1} \dots \exists a_{i}^{m}, \quad\text{where}\quad m \le p(n)
+\mathop{\exists}\limits_{a_i \in \{0,1\}^{\le p(n)}}\quad\rightarrow\quad \exists a_{i}^{1} \dots \exists a_{i}^{m}, \quad\text{where}\quad m \le p(n)
 $$
 
 and
@@ -67,6 +71,8 @@ $$
 where $$\phi$$ is a Boolean formula which has size polynomially in $$n$$ by the Cook-Levin Theorem[^1].
 
 The easiest way to prove that $$\mathsf{Debate}= \mathsf{PSPACE}$$ is thus showing that this is essentially the same. However, a more insightful way is to prove directly that Debate can solve problems in PSPACE, in a similar way how you show that TQBF is PSPACE complete.
+
+[^1]: For further reading, see [Wikipedia: Cook–Levin theorem](https://en.wikipedia.org/wiki/Cook–Levin_theorem).
 
 \## 11. Theorem: $$\mathsf{Debate}= \mathsf{PSPACE}$$
 
@@ -240,5 +246,3 @@ if and only if there is a path from $$C_{\mathrm{left}}$$ to $$C_{\mathrm{right}
 
 **(d)** Why does this show that the protocol fits the definition of the class $$\mathsf{Debate}$$?
 :::
-
-[^1]: For further reading, see [Wikipedia: Cook–Levin theorem](https://en.wikipedia.org/wiki/Cook–Levin_theorem).

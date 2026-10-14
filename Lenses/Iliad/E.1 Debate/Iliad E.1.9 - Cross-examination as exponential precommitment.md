@@ -6,8 +6,12 @@ summary_for_tutor: "Section 15 of Iliad worksheet E.1: Definitions 15.1 and 15.2
 authors:
   - Stephan Wäldchen (Iliad)
 source_url: https://iliad-intensive.org/safety/debate/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "debate#15-cross-examination-as-exponential-precommitment"
+upstream_fingerprint: "4gr/907/1/0I7y0MKX0S600chd0uSa11KF163s1NLr1TEq1XoE2Jjc2O3o2a8G2qN92rz72tYR33VU34q138Dg3Kso3M163Ni43OrN3ROg3gBi3kag3o3a4Ce44GkQ4MrG4g3r4lka"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/safety/debate/#15-cross-examination-as-exponential-precommitment"
 ---
 
 #### Text

@@ -4,10 +4,14 @@ title: "D.6.7 Further reading"
 tldr: "Gives further reading on power-seeking, grouped into philosophical, formal, empirical, adjacent and critical sources, followed by the worksheet references."
 summary_for_tutor: "Further reading and references of Iliad worksheet D.6 Instrumental Convergence. Lists philosophical works (Bostrom, Yudkowsky, Carlsmith), formal work (Benson-Tilsen and Soares, Turner thesis, Off-Switch Game, Corrigibility), empirical work on agentic misalignment, alignment faking, shutdown resistance and self-replication, adjacent concepts (mesa-optimization, scheming, corrigibility) and critiques, then the references cited in the worksheet. Optional material, not part of the core exercises."
 authors:
-  - "Leon Lang (ILIAD), based on work by Alex Turner et al."
+  - Leon Lang (ILIAD), based on work by Alex Turner et al.
 source_url: https://iliad-intensive.org/agency/power-seeking/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "power-seeking#further-reading"
+upstream_fingerprint: "eZEiWJi1Dq3XOxeDdQ8aX/1168/1/01r00Ee90Kcw0Kfe0LXc0Nqi0OcK0OxA0SKh0WQW0frY0iiU0kZP0tI50xI60xxX14dM1FXI1J2b1JTH1JWH1Lj61PFt1Tsl1WaH1X131g8P1gEB1gPP1hji1oLR1pEU"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/power-seeking/#further-reading"
 ---
 
 #### Text

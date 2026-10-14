@@ -6,8 +6,12 @@ summary_for_tutor: "Reading guide and further reading of Iliad worksheet D.7 Wor
 authors:
   - Fernando Rosas (University of Sussex)
 source_url: https://iliad-intensive.org/agency/world-models/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "world-models#reading-guide"
+upstream_fingerprint: "7knIbSCkMeZE/229/1/0A9m0SbE0Ttr0oc21Inj1L1t1WaH1Yjx1Zlb28JE2Ydj2eBZ31nH32hA3Lr33ysf4wn65QO25WgU5u7i6SA57qCo7sZ587Xu8Rfs8UhO9pkvA0mFARyyAoxhBdWdBg4B"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/world-models/#reading-guide"
 ---
 
 #### Text

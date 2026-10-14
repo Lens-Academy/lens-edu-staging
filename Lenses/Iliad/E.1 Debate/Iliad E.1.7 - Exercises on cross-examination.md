@@ -6,8 +6,12 @@ summary_for_tutor: "Subsection 13.1 of Iliad worksheet E.1: Exercises 13.1 to 13
 authors:
   - Stephan Wäldchen (Iliad)
 source_url: https://iliad-intensive.org/safety/debate/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "debate#131-exercises-on-cross-examination"
+upstream_fingerprint: "MQvtGIYjwYXBsLEDeHCdbzouiNUwdmCcm/774/1/01Fm0G2G0GAn0Gb70Nfu0ckB0jOy0t5t0yQO1Fvk1Gdp1Rlu1ahq1jO31oLR1qlu2Tgc2hAY2skn2tYR2vLn3Cca3I493IMQ3J4p3KGI3RJm3V0U3sWz3tGY4G1D4MrG"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/safety/debate/#131-exercises-on-cross-examination"
 ---
 
 #### Text

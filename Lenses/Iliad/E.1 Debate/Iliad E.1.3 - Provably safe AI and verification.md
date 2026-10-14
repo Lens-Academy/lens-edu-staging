@@ -6,8 +6,12 @@ summary_for_tutor: "Sections 5 and 6 of Iliad worksheet E.1: provably safe AI (a
 authors:
   - Stephan Wäldchen (Iliad)
 source_url: https://iliad-intensive.org/safety/debate/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "debate#5-introduction-to-provably-safe-ai-and-ai-scientist"
+upstream_fingerprint: "oz42ggK3O/408/1/0Dwg0Jg30TNs0c4l0hZD0qoN1M5n1OaB1Rlu1fEo1gnQ1xjy24ZH2HJd2SyN2bVc2kkb2xVy2yYo36aw3JUi3Ni43Seq3TC43khL3qvZ3shO46K84HPx4Hi24JtY4WLT"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/safety/debate/#5-introduction-to-provably-safe-ai-and-ai-scientist"
 ---
 
 #### Text

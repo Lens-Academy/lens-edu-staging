@@ -6,8 +6,12 @@ summary_for_tutor: "Opening of Iliad worksheet D.7 World Models: prerequisites (
 authors:
   - Fernando Rosas (University of Sussex)
 source_url: https://iliad-intensive.org/agency/world-models/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "world-models#prerequisites"
+upstream_fingerprint: "uUNiba/197/1/0HrA0S5g0Ttr0ctt1L1t1T9U1m0s2IhZ2MLi2O4C2Rjl2eBZ3Lr33vB34AE54MJ34Sn74l7J5QPs5To25WgU5aQA5cwg6Gvb6hbs7ZyG7kAe7pfV8UhO8e298nI58r1J"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/world-models/#prerequisites"
 ---
 
 #### Text

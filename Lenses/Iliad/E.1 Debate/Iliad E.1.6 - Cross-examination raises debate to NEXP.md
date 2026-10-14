@@ -6,8 +6,12 @@ summary_for_tutor: "Sections 12 and 13 of Iliad worksheet E.1: the idea of cross
 authors:
   - Stephan Wäldchen (Iliad)
 source_url: https://iliad-intensive.org/safety/debate/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "debate#12-cross-examination"
+upstream_fingerprint: "UpKgPE/1048/1/03IY0I7y0Lku0WUp0YVu0ZsI0baP0cEF0g9X0gWK0h1d0ktr0mUI0nVR0nrx0zG612oB14ic1Gdp1PKn1Paq1VBH1d721luJ270b2A1D2CJg2EZc2Tgc2Tui2b7j2hbb"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/safety/debate/#12-cross-examination"
 ---
 
 #### Text

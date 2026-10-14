@@ -6,8 +6,12 @@ summary_for_tutor: "Section 4 of Iliad worksheet E.1: the 'find the mistake' gam
 authors:
   - Stephan Wäldchen (Iliad)
 source_url: https://iliad-intensive.org/safety/debate/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "debate#4-fun-exercise-find-the-mistake-in-the-presented-proof"
+upstream_fingerprint: "IJHFeStqun4o5lXJu2/947/1/07MM0BvF0LsT0QZm0oCx0xNr16Dl1Ip61JpA1UKI1bZ0248E24ZH29v12BZq2EZc2GOn2JbT2Jjc2NEu2O3i2rkw2tYR2vse355K3NNa3W7B3YZ93gM73i0h3lKw3mVl"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/safety/debate/#4-fun-exercise-find-the-mistake-in-the-presented-proof"
 ---
 
 #### Text
