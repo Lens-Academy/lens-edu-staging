@@ -76,6 +76,7 @@ Regarding
 > Get useful work out of AIs even if they are situationally aware and would like to pursue unbounded objectives in a relatively consequentialist way
 
 Yep, but worth noting that we'd like to make some kind of deal with these AIs so we have their consent to continue. I think it (correctly) seems decently evil to just use AIs which really, really don't want to work for you. (Though not particularly important from a typical longtermist perspective.)
+
 ---
 
 (Mostly an aside) I think there are a bunch of relatively "mundane" usages of powerful AIs which make the situation notably better, but aren't clearly necessary for an end-to-end overall success story. For instance:
