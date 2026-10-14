@@ -75,7 +75,7 @@ Ways the unit says control could make things worse:
 
 - It hides warning shots.
 - It gives false confidence.
-- It makes AI easier to sell.
+- It makes AI more useful, which speeds up AI progress.
 - It breeds better schemers.
 
 1\. Each of you ranks these privately, from the one that worries you most to the one that worries you least.
