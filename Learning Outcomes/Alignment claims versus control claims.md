@@ -1,5 +1,6 @@
 ---
 id: '5e557cf7-b444-4fd2-81fb-f2a6a7bdfc18'
+writing_minutes: 10
 learning-outcome: "Given a safety argument for deploying a model that may be scheming, say whether it is an alignment claim (the model is not trying to act against us) or a control claim (the model could not cause an unacceptable outcome even if it were trying), explain why good behaviour under observation cannot settle an alignment claim while a control claim can be tested by having a red team attack the safeguards, and judge how far such a red-team test can stand in for what the model itself could do."
 topic: "[[../Domains and Topics/7 AI Control/The control agenda]]"
 stage: beginner
