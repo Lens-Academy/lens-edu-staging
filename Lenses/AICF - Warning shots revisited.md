@@ -46,6 +46,21 @@ to:: I’m more optimistic about these.
 from:: My guesses where our intuitions differ the most
 to:: and it seems plausible it is the more important one.)
 
+#### Question: Open
+id:: 1a9377ad-2256-4478-b63c-0d30e26a47bc
+force-feedback:: first
+content::
+\## Find the disagreement
+
+Suppose a lab catches its model trying to copy its own weights to an outside server. It reports the attempt only to a government safety institute, under a confidentiality agreement, and the public never hears of it.
+
+1. Would Kulveit count this as the kind of evidence that leads to a strong response? Why?
+2. Would Greenblatt count it that way? Why?
+3. What would you watch for over the following year to see whose view held up?
+placeholder:: A few sentences.
+assessment-instructions:: Score out of 100. Context for grading: Jan Kulveit argues that control can turn moderate, visible AI incidents, which push the world to act, into quiet catches inside a company. He says it matters who the 'we' in 'we get evidence' is: the public getting evidence differs from a lab's safety team getting it. Fields like aviation became matters of public regulation through visible accidents, and he names the crux as who the 'we' is and what 'we caught' means. Ryan Greenblatt thinks looking for bad actions makes it more likely that evidence of misalignment triggers a useful response from various groups, that catching an attempt plays much like catching a success, and that without control fewer attempts would be caught at all. 35: Kulveit's likely view with a reason: probably not much, because the evidence stays with a small group out of public view, and in his account strong responses come from incidents the public sees. An answer that says a government institute is closer to the 'we' that matters than a lab's safety team, but that confidentiality still blunts the response, also earns these 35. 35: Greenblatt's likely view with a reason: yes, a catch is real evidence of misalignment that can trigger a response, and it was control that made the catch possible. 30: something to watch that would separate the views, such as whether the institute or the government acts (new rules, required changes at labs, disclosure), whether other labs change their practices, or whether nothing changes outside the one lab. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Kulveit would doubt it, because the evidence stays with one institute and the public never sees it, and he thinks strong responses come from visible incidents. Greenblatt would count it, because the catch is clear evidence of misalignment that a government body can act on, and without control there would be nothing to report. I would watch whether the institute pushes for new rules or changes at other labs within the year. If nothing changes outside the one lab, Kulveit's view held up."
+feedback-instructions:: The learner applies the Greenblatt and Kulveit disagreement to a confidential report to a government institute. Kulveit: who the 'we' in 'we get evidence' is matters, the public versus a lab's safety team, strong responses in fields like aviation came from visible accidents, and he names the crux himself: "who the 'we' is, and details of 'we caught' means". A confidential report to a government body sits between his two cases, so a reasoned answer either way is fine. Greenblatt: detecting bad actions makes useful evidence more likely, catching an attempt plays much like catching a success, and without control fewer attempts would be caught at all. Zarncke's point that control used by external auditors would work differently bears on this case too. A good observation is one that would come out differently on the two views, such as whether the institute acts or other labs change. One turn, 60 to 110 words. Say whether the learner's reading of each side fits, and if the observation would not distinguish the views, say so. No generic praise. Do not say who is right.
+
 #### Text
 content::
 Another commenter, kave, objected that "It seems naïvely evil to knowingly let the world walk into a medium-sized catastrophe".[^cite-kave-comment] Kulveit answered:
