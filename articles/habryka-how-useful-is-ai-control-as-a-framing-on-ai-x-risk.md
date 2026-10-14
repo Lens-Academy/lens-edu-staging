@@ -68,9 +68,6 @@ So there are kinda two components:
 
 -   Control to ensure safety and usefulness (at least as a line of defence)
 -   Getting useful work out of these early transformatively useful AIs (which has been a object of serious interest for a while).
-:::
-
-:::callout{title="Ryan Greenblatt" tone="green"}
 
 Regarding
 
