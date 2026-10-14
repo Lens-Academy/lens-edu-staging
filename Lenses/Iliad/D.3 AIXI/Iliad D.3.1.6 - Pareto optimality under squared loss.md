@@ -7,8 +7,12 @@ authors:
   - David Quarel (ARENA)
   - Leon Lang (Iliad)
 source_url: https://iliad-intensive.org/agency/solomonoff-induction/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "solomonoff-induction#8-pareto-optimality-under-squared-loss"
+upstream_fingerprint: "6raiatWdd/834/1/089Y0ADg0WUp0nP00rDA17sh1Dr11QXz20c524ZH2GNx2KPz2YC53SL73W7B3mqB3w743wmV4AE84AJU4PbR4Rnr4fQt4pE54uIc5WZS5acb6KpB6Q4h6kQW6rgI6ul0"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/solomonoff-induction/#8-pareto-optimality-under-squared-loss"
 ---
 
 #### Text

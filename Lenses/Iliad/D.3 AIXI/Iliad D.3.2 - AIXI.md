@@ -6,8 +6,12 @@ summary_for_tutor: "Opening of worksheet D.3.2 (AIXI): prerequisites (Solomonoff
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "aixi#prerequisites"
+upstream_fingerprint: "uUNUkaTmmeu9/959/1/08u30B3n0Kfe0OjH0RZH0VrP0XxP0lXd0ruL141L1KSr1VWO1XzK1jGD1l801xPh1xS8203y24ZH27De2FJo2UVm2omk2q6J2skn34lB3BEd3H3q3RzP3VL03ix13pe7"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/aixi/#prerequisites"
 ---
 
 #### Text
@@ -49,7 +53,7 @@ A good target is to complete Sections 7 and 8. The self-optimizing property (Sec
 
 **Critical path.** The three results share a common foundation (Sections 0–4) and then diverge:
 
-![diagram](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-aixi-roadmap-e692d2f7.png)
+![diagram](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-aixi-tikz-4dc0e19d14b9-aa77790f.png)
 
 **In summary:**
 

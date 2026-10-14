@@ -7,8 +7,12 @@ authors:
   - David Quarel (ARENA)
   - Leon Lang (Iliad)
 source_url: https://iliad-intensive.org/agency/solomonoff-induction/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "solomonoff-induction#prerequisites"
+upstream_fingerprint: "uUNUkaTmmRHI/749/1/0OjH0RWa0VrP11cG1Dd51NgQ1VWO1nBw1tGO1uUt1y7B24ZH2FJo2G822Q4d2dbH2q6J30PP34lB3Ni43Z6n3h9w3mXi3poc3wmV48ra4HPx4Lf64Oq64V2h4Yve4b86"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/solomonoff-induction/#prerequisites"
 ---
 
 #### Text
@@ -46,7 +50,7 @@ We formalize this as sequence prediction: There is some true environment $$\mu$$
 We measure the quality of a predictor $$P$$ by the $$\mu$$-expected squared prediction error, summed over every timestep:
 
 $$
-\begin{aligned}S_{\infty}^{\mu} := \sum_{t=1}^{\infty}\sum_{x_{<t} \in \mathbb{B}^*}\mu(x_{<t}) \sum_{x_t \in \mathbb{B}}\big( P(x_{t} \mid x_{<t}) - \mu(x_{t} \mid x_{<t}) \big)^{2}.\end{aligned}
+\begin{aligned}S_{\infty}^{\mu} := \sum_{t=1}^{\infty}\sum_{x_{<t} \in \mathbb{B}^{t-1}}\mu(x_{<t}) \sum_{x_t \in \mathbb{B}}\big( P(x_{t} \mid x_{<t}) - \mu(x_{t} \mid x_{<t}) \big)^{2}.\end{aligned}
 $$
 
 How to construct a predictor $$P$$ such that $$S^{\mu}_{\infty}$$ is small (or at least finite)? Bayesian inference to the rescue: we choose as our predictor a *Bayesian mixture* $$\xi$$ over a countable class $${\mathcal{M}} = \{\nu_{1}, \nu_{2}, \dots\}$$ of candidate environments, weighted by prior beliefs $$w_{\nu}$$ (formalized in Definition 1.2). The main results we build up to are:

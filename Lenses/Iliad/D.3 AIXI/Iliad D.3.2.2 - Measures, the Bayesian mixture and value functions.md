@@ -6,8 +6,12 @@ summary_for_tutor: "Section 0 of worksheet D.3.2: Properties of measures, plus t
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "aixi#0-properties-of-measures"
+upstream_fingerprint: "K6hUUzigZOvSedJtF580H/1107/1/0Jj30OCV0QMw0VrP0rDA105b1QK41ff1214425Ua27De28HF2Rpe2fdt2nXY2tYR2uli30PP353e35w43Jru3MH83Ouk3PWZ3dGT3nEH3o3a3wmV41Nl424e47Qy49Mz"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/aixi/#0-properties-of-measures"
 ---
 
 #### Text
@@ -168,7 +172,7 @@ $$
 
 The **infinite-horizon value** is the pointwise limit $$V_{\nu}^{\pi,\infty}({\text{\ae}}_{<t}) := \lim_{m \to \infty}V_{\nu}^{\pi,m}({\text{\ae}}_{<t}) = (1-\gamma)\, {\mathbb{E}}_{\nu}^{\pi}[G_{\geq t-1}\mid {\text{\ae}}_{<t}]$$. We write $$V_{\nu}^{\pi} \equiv V_{\nu}^{\pi,\infty}$$ for short.
 
-The **optimal value** is $$V_{\nu}^{*,m}({\text{\ae}}_{<t}) := \sup_{\pi} V_{\nu}^{\pi,m}({\text{\ae}}_{<t})$$ for $$m \in \mathbb{N}\cup \{\infty\}$$, with $$V_{\nu}^{*} \equiv V_{\nu}^{*,\infty}$$. [^2] An **optimal policy** $$\pi_{\nu}^{*}$$ satisfies $$V_{\nu}^{\pi_\nu^*}= V_{\nu}^{*}$$. The **Bayes-optimal policy** is $$\pi_{\xi}^{*} \in {\operatorname*{arg\,max}}_{\pi} V_{\xi}^{\pi}$$.
+The **optimal value** is $$V_{\nu}^{*,m}({\text{\ae}}_{<t}) := \sup_{\pi} V_{\nu}^{\pi,m}({\text{\ae}}_{<t})$$ for $$m \in \mathbb{N}\cup \{\infty\}$$, with $$V_{\nu}^{*} \equiv V_{\nu}^{*,\infty}$$. [^2] An **optimal policy** $$\pi_{\nu}^{*}$$ satisfies $$V_{\nu}^{\pi_\nu^*}= V_{\nu}^{*}$$. The **Bayes-optimal policy** is $$\pi_{\xi}^{*} \in \operatorname*{arg\,max}_{\pi} V_{\xi}^{\pi}$$.
 
 :::
 

@@ -7,8 +7,12 @@ authors:
   - David Quarel (ARENA)
   - Leon Lang (Iliad)
 source_url: https://iliad-intensive.org/agency/solomonoff-induction/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "solomonoff-induction#1-the-mixture-is-a-predictor"
+upstream_fingerprint: "QhU0gvK79aFeLPE/968/1/0ESb0QX80VI20rDA10d11Ewn1HJi1QXz1Rr11bMU1bTX2kkb2tYR34lB3Dpa3OrN3jQv3wmV40fx4bCZ58Lt5FzY5P9n5QvD5SBv5T0y5TY45dpc5u8W61sB6EZm6EnC"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/solomonoff-induction/#1-the-mixture-is-a-predictor"
 ---
 
 #### Text

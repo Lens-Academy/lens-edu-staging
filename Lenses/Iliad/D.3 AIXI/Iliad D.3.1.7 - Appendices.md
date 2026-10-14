@@ -7,8 +7,12 @@ authors:
   - David Quarel (ARENA)
   - Leon Lang (Iliad)
 source_url: https://iliad-intensive.org/agency/solomonoff-induction/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "solomonoff-induction#a-proof-of-pinskers-inequality"
+upstream_fingerprint: "QfKjCX6qpt5q8aX/1469/1/03TP0Ajg0F6L0Jj30iNA0lzK0zG611TE1F1I1MrL1NaS1Z161apk1kzl1mH32GNx2Jsf2ZQD2iQi2mYX2qST2rv32tYR2wWo2wrn30PP32Sk34lB3Alu3Jru3L4r3Ni4"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/solomonoff-induction/#a-proof-of-pinskers-inequality"
 ---
 
 #### Text

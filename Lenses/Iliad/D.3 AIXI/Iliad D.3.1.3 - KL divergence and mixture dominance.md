@@ -7,8 +7,12 @@ authors:
   - David Quarel (ARENA)
   - Leon Lang (Iliad)
 source_url: https://iliad-intensive.org/agency/solomonoff-induction/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "solomonoff-induction#2-kl-divergence"
+upstream_fingerprint: "LCuzBB2b3byA/685/1/03TP0MdE0PTG0pfG0txr1Yij1mS62BZq2Jjc2NA52XGb2wWo30PP3Hyt4IR94WjH58vq5AGC5BBy5CeC5JRN5nbt5oBc61sB65yJ6EZm6Gvb6O0T6Zt86xRo6xhV7NAb"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/solomonoff-induction/#2-kl-divergence"
 ---
 
 #### Text

@@ -7,8 +7,12 @@ authors:
   - David Quarel (ARENA)
   - Leon Lang (Iliad)
 source_url: https://iliad-intensive.org/agency/solomonoff-induction/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "solomonoff-induction#4-cumulative-prediction-error-bound-main-result"
+upstream_fingerprint: "4FykwOgaJjQ0tt8ikB/1028/1/0G2G0HCP0Jj30LnH0OMq0oCx1AJw1Eip1OTZ1ha51rol1uUt1v6X1ywb25GM2Si12Z9U2tYR2ufd31xT34lB3VGh3W7B3Xcj3wmV4Kr34Lb44POQ4QiO4Qs14WjH4fAd"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/solomonoff-induction/#4-cumulative-prediction-error-bound-main-result"
 ---
 
 #### Text
