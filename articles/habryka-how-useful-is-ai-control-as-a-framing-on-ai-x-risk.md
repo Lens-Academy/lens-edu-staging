@@ -650,9 +650,6 @@ I feel like this is one of those situations where you can get a multiplier on yo
 :::callout{title="Ryan Greenblatt" tone="green"}
 
 We'll need proof of this contract in the AI's memories/context, but in the recurrence case, should be pretty doable.
-:::
-
-:::callout{title="Ryan Greenblatt" tone="green"}
 
 I think you need that (AIs think) Humans have some chance and AIs are either:
 
@@ -668,9 +665,6 @@ But there is some sort of "different equilibrium" thing here.
 E.g. if humans would have a chance conditional on AIs not sandbagging, then it seems like we might be able to move to an equilibrium where AIs don't (always) sandbag.
 
 A key detail here is that we potentially just need it to be the case that humans would have a chance _if AIs worked with us_ and (e.g.) didn't sandbag.)
-:::
-
-:::callout{title="Ryan Greenblatt" tone="green"}
 
 I think scheming AIs are reasonably likely to prefer themselves over other AIs (though they might still vastly prefer other AIs over humans), though I haven't thought through the exact decision theory here.
 :::
