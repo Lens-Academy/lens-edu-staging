@@ -6,8 +6,12 @@ summary_for_tutor: "Section 11 of worksheet D.3.2: Proving the self-optimizing p
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "aixi#11-proving-the-self-optimizing-property"
+upstream_fingerprint: "MPk0fAdhgq5VE3bLJH/1014/1/0BvF0CgC0I7y0OqP0lqy0oCx0ruL12wM14Zn1f6p1ha51vAJ22Gi23BI27De2fdt31zQ35cU36pG3J9M3MJj3PIv3Rbh3W7B3asd3bU83d373eD93hlu3qin3ryq3wmV"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/aixi/#11-proving-the-self-optimizing-property"
 ---
 
 #### Text

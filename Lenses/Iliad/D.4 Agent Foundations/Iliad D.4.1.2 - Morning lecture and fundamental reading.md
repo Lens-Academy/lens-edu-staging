@@ -7,8 +7,12 @@ authors:
   - Daniel C
   - Satya Benson (Williams College)
 source_url: https://iliad-intensive.org/agency/agent-foundations/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "agent-foundations#22-main-content"
+upstream_fingerprint: "mMQKZ9G93/553/1/0EaS0OFO0WZK0Wlf0XZt0oCx0xVB139J14mf1H3t1IQ41Pfy1U4r1vrP1wcY1yQp21yD23mt2BiT2U1u2XRZ2esb3GGZ3GlC3oUQ3upN42hz4HPx4IvH4KVP4RNW4aF2"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/agent-foundations/#22-main-content"
 ---
 
 #### Text
@@ -29,18 +33,15 @@ Read top to bottom, this section runs: the unifying threads (the morning lecture
 
 \#### 2.2.2 Fundamental reading
 
-::card[[../Lenses/garrabrant+demski--embedded-agency|Embedded agency]]
+::card[[../../garrabrant+demski--embedded-agency|Embedded agency]]
 
-> read up to and including section 3.3, then section 4.1. The canonical statement of the embedded-agency problem cluster (the Alexei/Emmy framing the lecture uses).
+::card[[../../johnswentworth-why-agent-foundations-an-overly-abstract-explanation|Why agent foundations]]
 
-::card[[../Lenses/johnswentworth-why-agent-foundations-an-overly-abstract-explanation|Why agent foundations]]
+::card[[../../lesswrong-reflectively-consistent-degree-of-freedom|Reflectively consistent degree of freedom]]
 
-> read entirely. Why this abstract, theory-first approach is worth pursuing.
+::card[[../../johnswentworth-whats-general-purpose-search-and-why-might-we-expect-to-see-it-in-trained-ml-systems|General purpose search]]
 
-::card[[../Lenses/lesswrong-reflectively-consistent-degree-of-freedom|Reflectively consistent degree of freedom]]
-
-> read entirely. The precise notion behind a property an agent would not self-modify away, which is the day's recurring theme of reflective stability.
-
-::card[[../Lenses/johnswentworth-whats-general-purpose-search-and-why-might-we-expect-to-see-it-in-trained-ml-systems|General purpose search]]
-
-> read entirely. Why a capable mind plausibly contains a retargetable search process.
+- [Embedded agency](https://www.lesswrong.com/posts/i3BTagvt3HbPMx6PN/embedded-agency-full-text-version): read up to and including section 3.3, then section 4.1. The canonical statement of the embedded-agency problem cluster (the Alexei/Emmy framing the lecture uses).
+- [Why agent foundations](https://www.lesswrong.com/posts/FWvzwCDRgcjb9sigb/why-agent-foundations-an-overly-abstract-explanation): read entirely. Why this abstract, theory-first approach is worth pursuing.
+- [Reflectively consistent degree of freedom](https://www.lesswrong.com/w/reflectively-consistent-degree-of-freedom): read entirely. The precise notion behind a property an agent would not self-modify away, which is the day's recurring theme of reflective stability.
+- [General purpose search](https://www.lesswrong.com/posts/6mysMAqvo9giHC4iX/what-s-general-purpose-search-and-why-might-we-expect-to-see): read entirely. Why a capable mind plausibly contains a retargetable search process.

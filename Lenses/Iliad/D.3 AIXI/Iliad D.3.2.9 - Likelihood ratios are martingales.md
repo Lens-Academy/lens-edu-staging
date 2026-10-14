@@ -6,8 +6,12 @@ summary_for_tutor: "Section 9 of worksheet D.3.2 (start of the advanced Sections
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "aixi#sections-911-self-optimizing-policy-finite-model-class"
+upstream_fingerprint: "2CZ78SEOxs6ymPo/870/1/00OY08u30Ajg0i4Z0lgV0oSZ0r4e1Fr01Khi1VKB1f6p1pWz22Gi2bLg2tYR2ueB2uli305d30PP3Xcj3vCM3y1Q3zCQ4F1F4GE14SQd4VIz4fyO4i5z4pKZ58vq5AGC"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/aixi/#sections-911-self-optimizing-policy-finite-model-class"
 ---
 
 #### Text

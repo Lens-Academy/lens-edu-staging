@@ -7,8 +7,12 @@ authors:
   - Daniel C
   - Satya Benson (Williams College)
 source_url: https://iliad-intensive.org/agency/optimization-thermodynamics/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "optimization-thermodynamics#"
+upstream_fingerprint: "oGJ9XH/1817/1/00OS06yf07MM0BAJ0HTq0Hzw0R0Q0Rhl0TaD0Ury0WmJ0ZCt0m6V0pDI0s1A0tgu0ud00vqd0zfN14I515Qn16Ra16bw18IB1Cja1I0I1Qyn1Rxh1WaH1XfG1ZLG1h4g"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/optimization-thermodynamics/"
 ---
 
 #### Text

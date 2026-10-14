@@ -7,8 +7,12 @@ authors:
   - Daniel C
   - Satya Benson (Williams College)
 source_url: https://iliad-intensive.org/agency/agent-foundations/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "agent-foundations#1-prerequisites"
+upstream_fingerprint: "hggDEjX5X/514/1/07MM0IGE1luJ1oMo1vTD2DmL2MLi2VL92Wg02XSZ2hbK2rum2sGD2yH432CF37hA3CT53GGZ3W7B3pHz3upN3wmV46Rn4H0q4Lf64MXv4VIz4Yfk4bZy4cvY4dXJ4rRA"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/agent-foundations/#1-prerequisites"
 ---
 
 #### Text

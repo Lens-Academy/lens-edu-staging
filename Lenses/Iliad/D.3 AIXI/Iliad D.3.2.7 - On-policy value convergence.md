@@ -6,8 +6,12 @@ summary_for_tutor: "Sections 6 and 7 of worksheet D.3.2: Bounding expectation di
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "aixi#on-policy-value-convergence"
+upstream_fingerprint: "vl26HIkj3EzOCKx4euvIKArP/1901/1/00MG03N608u30IFQ0OCV0TqP0Yu30eSG0hqR0lQO0qqP0rSl0ruL12Yk140a1QXz1UaA1f6i1ff11ha51jxF1veh22Jk231V26PS28I82Azx2CZo2E5V2FpP2HTN2Joe"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/aixi/#on-policy-value-convergence"
 ---
 
 #### Text
@@ -175,6 +179,10 @@ $$
 
 The proof reduces to a finite-horizon TV bound (Exercise 7.1), a covering argument (Exercise 7.2), and the Blackwell–Dubins theorem (Exercise 7.3). The only ingredient we do not prove is Blackwell–Dubins itself, which we state as a given fact.
 
+[^3]: We are deliberately avoiding a formal treatment of measure theory here. Not all subsets of $$({\mathcal{A}} \times {\mathcal{E}})^{\infty}$$ are measurable; we restrict to "nice" (measurable) sets built from finite-prefix conditions via countable set operations, which suffice for everything in this sheet. For a rigorous treatment using $$\sigma$$-algebras and probability measures, see (Hutter et al. 2024, Chapter 2.2).
+[^4]: The standard name is *absolute continuity* of $$P$$ with respect to $$Q$$, written $$P \ll Q$$.
+[^5]: If the true environment is $$\mu$$ then we don't care about the behaviour of the Bayesian agent on histories that have $$\mu^{\pi}$$-probability zero: such histories will never be observed anyway.
+
 :::callout {title="Exercise" tone="amber"}
 **Exercise 7.1 (Finite-horizon TV bound on value difference) [10].** Using Section 6, show that for finite $$m$$:
 
@@ -264,7 +272,3 @@ See (Blackwell & Dubins 1962). The proof uses the Radon–Nikodym derivative $$d
 
 :::
 ::::
-
-[^3]: We are deliberately avoiding a formal treatment of measure theory here. Not all subsets of $$({\mathcal{A}} \times {\mathcal{E}})^{\infty}$$ are measurable; we restrict to "nice" (measurable) sets built from finite-prefix conditions via countable set operations, which suffice for everything in this sheet. For a rigorous treatment using $$\sigma$$-algebras and probability measures, see (Hutter et al. 2024, Chapter 2.2).
-[^4]: The standard name is *absolute continuity* of $$P$$ with respect to $$Q$$, written $$P \ll Q$$.
-[^5]: If the true environment is $$\mu$$ then we don't care about the behaviour of the Bayesian agent on histories that have $$\mu^{\pi}$$-probability zero: such histories will never be observed anyway.

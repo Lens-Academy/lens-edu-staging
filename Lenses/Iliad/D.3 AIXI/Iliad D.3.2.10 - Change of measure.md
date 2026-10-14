@@ -6,8 +6,12 @@ summary_for_tutor: "Section 10 of worksheet D.3.2: Change of measure. Exercise 1
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "aixi#10-change-of-measure"
+upstream_fingerprint: "IxWhd65qUstU/487/1/08u30oCx16W717wp1NRx1ha527g52cdW2rkX2tYR2waB31zQ3Twx3d373vsp3wmV3zwc4dpn4fYH4yRT5Z3T5aGb6iRh6xEd7vX28NBg8wno96EQ96iF98IA9EL09c1D"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/aixi/#10-change-of-measure"
 ---
 
 #### Text

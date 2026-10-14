@@ -7,8 +7,12 @@ authors:
   - Daniel C
   - Satya Benson (Williams College)
 source_url: https://iliad-intensive.org/agency/optimization-thermodynamics/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "optimization-thermodynamics#2-theoretical-foundations-probability-entropy-and-information"
+upstream_fingerprint: "DyuDEn0LdGQ4YUoTig/1667/1/0Cp60Hzw0Jj30Km20LoQ0PAt0QMw0S4C0SvW0YVF0lQO0mo80qFZ0rcG0srq14Xm15WO1F1I1IhF1KHf1NKF1df01i5R1jDC1jO31mJO1szb1vQt24ZH27De27aw28TB"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/optimization-thermodynamics/#2-theoretical-foundations-probability-entropy-and-information"
 ---
 
 #### Text

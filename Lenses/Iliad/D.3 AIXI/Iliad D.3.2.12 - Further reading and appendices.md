@@ -6,8 +6,12 @@ summary_for_tutor: "End matter of worksheet D.3.2 (AIXI): Further reading, Appen
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "aixi#further-reading"
+upstream_fingerprint: "eZEiDzyN88aX/511/1/0Qga0TOh0bMG0lzK0n3s11KF1AJg1CMe1VWO1WC51WaH1dhr1gPP28HF2BHH2FJo2Neg2PoA2XBW30PP3FEw3KpV3Ni43OMC3nEH3rEn3xKu4RNW4coP4fyO4hep4kPN"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/aixi/#further-reading"
 ---
 
 #### Text

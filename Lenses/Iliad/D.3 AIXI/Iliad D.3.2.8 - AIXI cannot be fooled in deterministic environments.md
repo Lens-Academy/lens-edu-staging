@@ -6,8 +6,12 @@ summary_for_tutor: "Section 8 of worksheet D.3.2: AIXI cannot be fooled in deter
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "aixi#8-aixi-cannot-be-fooled-in-deterministic-environments"
+upstream_fingerprint: "ZwDaXLYWl/338/1/0MdE0oSZ1xPh2iQi49Mz4wv75P9n5sE36lJB7m9X7prA7u1P9EL09qONAKJYAohVBIwABULiBW7VCTvDCUWLCXl1CdsgClHtDUcUEeCEFCxcFLzvFr9KGcjzGh3bI8Ti"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/aixi/#8-aixi-cannot-be-fooled-in-deterministic-environments"
 ---
 
 #### Text

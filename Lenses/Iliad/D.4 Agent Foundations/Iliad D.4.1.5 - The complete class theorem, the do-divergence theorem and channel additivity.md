@@ -7,8 +7,12 @@ authors:
   - Daniel C
   - Satya Benson (Williams College)
 source_url: https://iliad-intensive.org/agency/agent-foundations/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "agent-foundations#ex-complete-class"
+upstream_fingerprint: "jar1l7Tlt/2914/1/06NR07KK07vU0ADg0Afe0CaR0Gy30Hzw0Iok0QMw0R0E0R0Q0S5g0bVa0brS0f2I0g9X0lQO0ohS0omS0pSO0rWq0skm0tgu0ylH0zG6105b12lv1BZs1CmW1DUF1Ej6"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/agent-foundations/#ex-complete-class"
 ---
 
 #### Text
@@ -105,7 +109,7 @@ Conclude the Complete Class Theorem: every admissible rule lies on some face of 
 
 :::callout {title="Solution" tone="neutral" collapse="closed"}
 
-Higher reward is better; $$\delta'$$ *dominates* $$\delta$$ if $$r(\delta')\ge{r(\delta)}$$ coordinatewise with strict inequality in some coordinate. $${r(\delta)}$$ is linear in the mixing weights, $$R=\operatorname{conv}\{r(a_{1}),\dots,r(a_{k})\}$$, and $${\operatorname{EU}}(\delta,\pi)=\pi\cdot{r(\delta)}$$.
+Higher reward is better; $$\delta'$$ *dominates* $$\delta$$ if $$r(\delta')\ge{r(\delta)}$$ coordinatewise with strict inequality in some coordinate. $${r(\delta)}$$ is linear in the mixing weights, $$R=\operatorname{conv}\{r(a_{1}),\dots,r(a_{k})\}$$, and $$\operatorname{EU}(\delta,\pi)=\pi\cdot{r(\delta)}$$.
 
 **(a)** *(i)* An admissible $$\delta=\sum_{j}\lambda_{j} a_{j}$$ puts $$\lambda_{j}=0$$ on every non-Pareto-optimal (dominated) $$a_{j}$$.
 
@@ -122,7 +126,7 @@ and strict in coordinate $$i_{0}$$ (since $$\lambda_{j}>0$$). So $$\hat\delta$$ 
 *Solution.*  If $$\delta'$$ dominated such a $$\delta$$, then with $$r(\delta')_{i_0}>{r(\delta)}_{i_0}$$,
 
 $$
-{\operatorname{EU}}(\delta',\pi)-{\operatorname{EU}}(\delta,\pi)=\sum_{i}\pi_{i}\big(r(\delta')_{i}-{r(\delta)}_{i}\big)\ge\pi_{i_0}\big(r(\delta')_{i_0}-{r(\delta)}_{i_0}\big)>0,
+\operatorname{EU}(\delta',\pi)-\operatorname{EU}(\delta,\pi)=\sum_{i}\pi_{i}\big(r(\delta')_{i}-{r(\delta)}_{i}\big)\ge\pi_{i_0}\big(r(\delta')_{i_0}-{r(\delta)}_{i_0}\big)>0,
 $$
 
 since every term is $$\ge0$$ and the $$i_{0}$$ term is $$>0$$. This contradicts Bayes-optimality, so $$\delta$$ is admissible. $$\square$$
@@ -141,10 +145,10 @@ using $$\sum_{l}(\mu_{l}'-\mu_{l})=0$$ to eliminate the $$r(a_{i_1})$$ term. Hen
 
 *Solution.*  *(i)* For $$x,x'\in\mathcal{F}$$ we have $$x-x'\in H$$ by Exercise 3.3(b), so $$\pi\cdot(x-x')=0$$. Thus $$\pi\cdot{r(\delta)}$$ equals a common value $$c$$ for all $$\delta$$ with $${r(\delta)}\in\mathcal{F}$$.
 
-*(ii)* Picture $$\pi$$ as the *outward* normal of the supporting hyperplane $$\{x:\pi\cdot x=c\}$$: by assumption the whole risk set lies on the inner side, $$\pi\cdot x\le c$$ for all $$x\in R$$, touching the hyperplane exactly along the face $$\mathcal{F}$$. Fix any $${r(\delta)}\in\mathcal{F}$$ (so $${\operatorname{EU}}(\delta,\pi)=c$$) and any other rule $$\delta'$$. The step from the face point $${r(\delta)}$$ to $$r(\delta')\in R$$ heads back into the risk set, i.e. against the outward normal, so its dot product with $$\pi$$ is non-positive:
+*(ii)* Picture $$\pi$$ as the *outward* normal of the supporting hyperplane $$\{x:\pi\cdot x=c\}$$: by assumption the whole risk set lies on the inner side, $$\pi\cdot x\le c$$ for all $$x\in R$$, touching the hyperplane exactly along the face $$\mathcal{F}$$. Fix any $${r(\delta)}\in\mathcal{F}$$ (so $$\operatorname{EU}(\delta,\pi)=c$$) and any other rule $$\delta'$$. The step from the face point $${r(\delta)}$$ to $$r(\delta')\in R$$ heads back into the risk set, i.e. against the outward normal, so its dot product with $$\pi$$ is non-positive:
 
 $$
-\pi\cdot\big(r(\delta')-{r(\delta)}\big)\le 0,\qquad\text{equivalently}\qquad {\operatorname{EU}}(\delta',\pi)\le{\operatorname{EU}}(\delta,\pi).
+\pi\cdot\big(r(\delta')-{r(\delta)}\big)\le 0,\qquad\text{equivalently}\qquad \operatorname{EU}(\delta',\pi)\le\operatorname{EU}(\delta,\pi).
 $$
 
 Since this holds for every $$\delta'$$, each rule with $${r(\delta)}\in\mathcal{F}$$ maximizes expected utility, i.e. is Bayes-optimal under $$\pi$$.
@@ -221,7 +225,7 @@ Under the blind baseline (opening the door at random), molecules are roughly equ
 
 Write $$\Pr[X,A,O]=\Pr[X\mid A,O]\Pr[A\mid O]\Pr[O]$$ and the blind baseline $$\Pr[X,A,O\mid\mathrm{do}(A)]=\Pr[X\mid A,O]\Pr[A]\Pr[O]$$.
 
-**Claim.** $${D_{\mathrm{KL}}}\!\big(\Pr[X]\,\big\|\,\Pr[X\mid\mathrm{do}(A)]\big)\le{\operatorname{MI}}(A;O)$$.
+**Claim.** $${D_{\mathrm{KL}}}\!\big(\Pr[X]\,\big\|\,\Pr[X\mid\mathrm{do}(A)]\big)\le\operatorname{MI}(A;O)$$.
 
 *Solution.*  Compute the divergence between the full joints. The factors $$\Pr[X\mid A,O]$$ and $$\Pr[O]$$ cancel in the log-ratio:
 
@@ -232,13 +236,13 @@ $$
 The summand depends only on $$a,o$$; marginalizing $$x$$ and using $$\Pr[a\mid o]/\Pr[a]=\Pr[a,o]/(\Pr[a]\Pr[o])$$,
 
 $$
-=\sum_{a,o}\Pr[a,o]\log\frac{\Pr[a,o]}{\Pr[a]\Pr[o]}={\operatorname{MI}}(A;O).
+=\sum_{a,o}\Pr[a,o]\log\frac{\Pr[a,o]}{\Pr[a]\Pr[o]}=\operatorname{MI}(A;O).
 $$
 
 Marginalizing the two joints down to $$X$$ sends them to $$\Pr[X]$$ and $$\Pr[X\mid\mathrm{do}(A)]=\sum_{a,o}\Pr[X\mid a,o]\Pr[a]\Pr[o]$$ respectively, so monotonicity of KL under marginalization gives
 
 $$
-\begin{aligned}{D_{\mathrm{KL}}}\!\big(\Pr[X]\,\big\|\,\Pr[X\mid\mathrm{do}(A)]\big)&\le{D_{\mathrm{KL}}}\!\big(\Pr[X,A,O]\,\big\|\,\Pr[X,A,O\mid\mathrm{do}(A)]\big)\\&={\operatorname{MI}}(A;O). \end{aligned}
+\begin{aligned}{D_{\mathrm{KL}}}\!\big(\Pr[X]\,\big\|\,\Pr[X\mid\mathrm{do}(A)]\big)&\le{D_{\mathrm{KL}}}\!\big(\Pr[X,A,O]\,\big\|\,\Pr[X,A,O\mid\mathrm{do}(A)]\big)\\&=\operatorname{MI}(A;O). \end{aligned}
 $$
 
 :::
@@ -291,48 +295,48 @@ Under $$Q$$, the inputs are independent. What happens to $$\mathrm{MI}(Y_{1};\, 
 
 The channel factorizes as $$P[Y\mid X]=P[Y_{1}\mid X_{1}]P[Y_{2}\mid X_{2}]$$, and $$P[Y,X]=P[Y\mid X]P[X]$$.
 
-**(a)** $${\operatorname{MI}}(X;Y)={\operatorname{MI}}(X_{1};Y_{1})+{\operatorname{MI}}(X_{2};Y_{2})-{\operatorname{MI}}(Y_{1};Y_{2})$$.
+**(a)** $$\operatorname{MI}(X;Y)=\operatorname{MI}(X_{1};Y_{1})+\operatorname{MI}(X_{2};Y_{2})-\operatorname{MI}(Y_{1};Y_{2})$$.
 
 *Solution.*  Using $$P[x,y]=P[y\mid x]P[x]$$ and the factorization,
 
 $$
-{\operatorname{MI}}(X;Y)=\sum_{x,y}P[x,y]\log\frac{P[y\mid x]}{P[y]}=\sum_{x,y}P[x,y]\log\frac{P[y_{1}\mid x_{1}]P[y_{2}\mid x_{2}]}{P[y_{1},y_{2}]}.
+\operatorname{MI}(X;Y)=\sum_{x,y}P[x,y]\log\frac{P[y\mid x]}{P[y]}=\sum_{x,y}P[x,y]\log\frac{P[y_{1}\mid x_{1}]P[y_{2}\mid x_{2}]}{P[y_{1},y_{2}]}.
 $$
 
 The three terms on the right are, respectively,
 
 $$
-{\operatorname{MI}}(X_{1};Y_{1})=\sum P[x,y]\log\tfrac{P[y_1\mid x_1]}{P[y_1]},\quad {\operatorname{MI}}(X_{2};Y_{2})=\sum P[x,y]\log\tfrac{P[y_2\mid x_2]}{P[y_2]},
+\operatorname{MI}(X_{1};Y_{1})=\sum P[x,y]\log\tfrac{P[y_1\mid x_1]}{P[y_1]},\quad \operatorname{MI}(X_{2};Y_{2})=\sum P[x,y]\log\tfrac{P[y_2\mid x_2]}{P[y_2]},
 $$
 
 $$
-{\operatorname{MI}}(Y_{1};Y_{2})=\sum P[x,y]\log\tfrac{P[y_1,y_2]}{P[y_1]P[y_2]},
+\operatorname{MI}(Y_{1};Y_{2})=\sum P[x,y]\log\tfrac{P[y_1,y_2]}{P[y_1]P[y_2]},
 $$
 
 each written over the full joint (the first depends only on $$x_{1},y_{1}$$, etc.). Then
 
 $$
-\begin{aligned}{\operatorname{MI}}(X_{1};Y_{1})&+{\operatorname{MI}}(X_{2};Y_{2})-{\operatorname{MI}}(Y_{1};Y_{2})\\&=\sum_{x,y}P[x,y]\log\frac{P[y_{1}\mid x_{1}]P[y_{2}\mid x_{2}]}{P[y_{1},y_{2}]}={\operatorname{MI}}(X;Y). {{\square}}\end{aligned}
+\begin{aligned}\operatorname{MI}(X_{1};Y_{1})&+\operatorname{MI}(X_{2};Y_{2})-\operatorname{MI}(Y_{1};Y_{2})\\&=\sum_{x,y}P[x,y]\log\frac{P[y_{1}\mid x_{1}]P[y_{2}\mid x_{2}]}{P[y_{1},y_{2}]}=\operatorname{MI}(X;Y). {{\square}}\end{aligned}
 $$
 
-**(b)** For $$Q[X_{1},X_{2}]:=P[X_{1}]P[X_{2}]$$, $${\operatorname{MI}}_{Q}(X;Y)\ge{\operatorname{MI}}_{P}(X;Y)$$.
+**(b)** For $$Q[X_{1},X_{2}]:=P[X_{1}]P[X_{2}]$$, $$\operatorname{MI}_{Q}(X;Y)\ge\operatorname{MI}_{P}(X;Y)$$.
 
-*Solution.*  $$Q$$ keeps the marginals $$Q[X_{i}]=P[X_{i}]$$ and the channel, so $${\operatorname{MI}}_{Q}(X_{i};Y_{i})={\operatorname{MI}}_{P}(X_{i};Y_{i})$$ for $$i=1,2$$ ($${\operatorname{MI}}(X_{i};Y_{i})$$ depends only on $$P[X_{i}]$$ and $$P[Y_{i}\mid X_{i}]$$). Under $$Q$$ the inputs are independent, so the outputs are too:
+*Solution.*  $$Q$$ keeps the marginals $$Q[X_{i}]=P[X_{i}]$$ and the channel, so $$\operatorname{MI}_{Q}(X_{i};Y_{i})=\operatorname{MI}_{P}(X_{i};Y_{i})$$ for $$i=1,2$$ ($$\operatorname{MI}(X_{i};Y_{i})$$ depends only on $$P[X_{i}]$$ and $$P[Y_{i}\mid X_{i}]$$). Under $$Q$$ the inputs are independent, so the outputs are too:
 
 $$
 Q[y_{1},y_{2}]=\sum_{x_1,x_2}Q[x_{1}]Q[x_{2}]P[y_{1}\mid x_{1}]P[y_{2}\mid x_{2}]=Q[y_{1}]\,Q[y_{2}],
 $$
 
-hence $${\operatorname{MI}}_{Q}(Y_{1};Y_{2})=0$$. Applying Exercise 3.5(a) under each distribution,
+hence $$\operatorname{MI}_{Q}(Y_{1};Y_{2})=0$$. Applying Exercise 3.5(a) under each distribution,
 
 $$
-\begin{aligned}{\operatorname{MI}}_{Q}(X;Y)&={\operatorname{MI}}_{P}(X_{1};Y_{1})+{\operatorname{MI}}_{P}(X_{2};Y_{2})\\&={\operatorname{MI}}_{P}(X;Y)+{\operatorname{MI}}_{P}(Y_{1};Y_{2})\ge{\operatorname{MI}}_{P}(X;Y),\end{aligned}
+\begin{aligned}\operatorname{MI}_{Q}(X;Y)&=\operatorname{MI}_{P}(X_{1};Y_{1})+\operatorname{MI}_{P}(X_{2};Y_{2})\\&=\operatorname{MI}_{P}(X;Y)+\operatorname{MI}_{P}(Y_{1};Y_{2})\ge\operatorname{MI}_{P}(X;Y),\end{aligned}
 $$
 
-the last step using $${\operatorname{MI}}_{P}(Y_{1};Y_{2})\ge0$$. $$\square$$
+the last step using $$\operatorname{MI}_{P}(Y_{1};Y_{2})\ge0$$. $$\square$$
 
 **(c)** A throughput-maximizing input with $$X_{1}\perp X_{2}$$ always exists.
 
-*Solution.*  The input simplex is compact and $${\operatorname{MI}}(X;Y)$$ continuous, so a maximizer $$P^{*}$$ exists. Let $$Q^{*}:=P^{*}[X_{1}]P^{*}[X_{2}]$$. By Exercise 3.5(b), $${\operatorname{MI}}_{Q^*}(X;Y)\ge{\operatorname{MI}}_{P^*}(X;Y)=\max$$, so $$Q^{*}$$ is also a maximizer, and under $$Q^{*}$$ the inputs are independent. $$\square$$
+*Solution.*  The input simplex is compact and $$\operatorname{MI}(X;Y)$$ continuous, so a maximizer $$P^{*}$$ exists. Let $$Q^{*}:=P^{*}[X_{1}]P^{*}[X_{2}]$$. By Exercise 3.5(b), $$\operatorname{MI}_{Q^*}(X;Y)\ge\operatorname{MI}_{P^*}(X;Y)=\max$$, so $$Q^{*}$$ is also a maximizer, and under $$Q^{*}$$ the inputs are independent. $$\square$$
 
 :::
