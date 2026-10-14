@@ -695,6 +695,7 @@ A key detail here is that we potentially just need it to be the case that humans
 ---
 
 I think scheming AIs are reasonably likely to prefer themselves over other AIs (though they might still vastly prefer other AIs over humans), though I haven't thought through the exact decision theory here.
+
 ---
 
 Taking a step back, we have two hopes here:
