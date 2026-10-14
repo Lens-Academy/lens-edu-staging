@@ -9,8 +9,12 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "qft#b-from-linear-regression-to-kernel-regression"
+upstream_fingerprint: "1SzM1woy6B06xMf/2360/1/0CFd0HdS0KsP0QOJ0ho40jm00lQO0mKy0sWg11KF15mS16xP17aE1CNe1JjZ1Ksk1LEC1MUS1N1U1OBa1Sa81Vmw1YHs1b3O1gwm1h1x1hHa1jO31n0X1oCV1q3x1ri3"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/qft/#b-from-linear-regression-to-kernel-regression"
 ---
 
 #### Text
@@ -32,6 +36,8 @@ $$
 $$
 
 with $$\Delta\in{\mathbb{R}}^{n}$$ the residual. Many references (including the notebook this appendix is drawn from) normalize the loss as $$\frac{1}{2n}|f-Y|^{2}$$ instead; this rescales the ridge parameter $$\lambda$$ below by a factor of $$n$$ and the learning rate $$\eta$$ by a factor of $$1/n$$, and changes nothing else.
+
+[^6]: This appendix adapts a lecture and an exercise notebook prepared by Charles Renshaw-Whitman for the Iliad Intensive, translated into the notation of Section 3.1.
 
 \### B.1 Linear regression
 
@@ -63,7 +69,7 @@ $$
 
 The normal equations say that the residual $$\Delta_{*} = X\theta_{*}-Y$$ is orthogonal to every column of $$X$$. Equivalently, the prediction $$X\theta_{*}$$ is the *orthogonal projection* of $$Y$$ onto the column space $$\mathrm{col}(X)\subset{\mathbb{R}}^{n}$$, the set of all prediction vectors the model can produce (Figure 10). Fitting is projecting. The projection $$X\theta_{*}$$ is unique even in cases where $$\theta_{*}$$ is not.
 
-![Least squares, geometrically. The normal equations say that the residual is orthogonal to the column space of , so the fitted prediction vector is the orthogonal projection of onto . 'Orthogonal' refers to the Euclidean metric on the space of function values on the training set.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-lsq-projection-abb51df1.png)
+![Least squares, geometrically. The normal equations say that the residual is orthogonal to the column space of , so the fitted prediction vector is the orthogonal projection of onto . 'Orthogonal' refers to the Euclidean metric on the space of function values on the training set.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-lsq-projection-fd9fa423.png)
 
 Least squares, geometrically. The normal equations $$X^{T}\Delta_{*}=0$$ say that the residual is orthogonal to the column space of $$X$$, so the fitted prediction vector $$X\theta_{*}$$ is the orthogonal projection of $$Y$$ onto $$\mathrm{col}(X)$$. "Orthogonal" refers to the Euclidean metric $$\delta_{\mu\nu}$$ on the space $${\mathbb{R}}^{n}$$ of function values on the training set.
 
@@ -129,13 +135,13 @@ $$
 
 the training predictions are $$f = \Psi\theta$$. Note that $$\Psi^{\mu}{}_{i} = \partial f^{\mu}/\partial\theta^{i}$$: the feature matrix is precisely the Jacobian $$J$$ of Section 4.2, which for a linear model is a constant. Linear regression is the special case $$\psi(x) = x$$, $$\Psi = X$$, and *everything* in Appendix B.1 goes through verbatim with $$X$$ replaced by $$\Psi$$: the normal equations are $$\Psi^{T}\Psi\,\theta = \Psi^{T}Y$$; if $$P\leq n$$ and $$\Psi$$ has full column rank, the unique minimizer is $$\theta_{*} = (\Psi^{T}\Psi)^{-1}\Psi^{T}Y$$; and if $$P>n$$ there are infinitely many interpolants.
 
-![Choosing is choosing the model. The same seven data points (black), interpolated exactly by three different fixed feature maps with : polynomials of degree six, trigonometric functions of period one with three harmonics, and Gaussian bumps centered at the data. All three drive the training loss to zero; they disagree everywhere outside the training range (shaded), and that disagreement was decided before the labels were read.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-feature-maps-a29ab07e.png)
+![Choosing is choosing the model. The same seven data points (black), interpolated exactly by three different fixed feature maps with : polynomials of degree six, trigonometric functions of period one with three harmonics, and Gaussian bumps centered at the data. All three drive the training loss to zero; they disagree everywhere outside the training range (shaded), and that disagreement was decided before the labels were read.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-feature-maps-74eaca17.png)
 
 Choosing $$\psi$$ is choosing the model. The same seven data points (black), interpolated exactly by three different fixed feature maps with $$P=n=7$$: polynomials of degree six, trigonometric functions of period one with three harmonics, and Gaussian bumps centered at the data. All three drive the training loss to zero; they disagree everywhere outside the training range (shaded), and that disagreement was decided before the labels were read.
 
 Replacing $$X$$ by $$\Psi$$ changes the algebra not at all, and changes the model completely. Figure 11 shows three feature maps, each with $$P=n$$, fitted to the same seven points. Each interpolates the data exactly, and they disagree everywhere else. Which is right? The data cannot say: the behavior away from the training set was fixed by the choice of $$\psi$$, which was made before the labels were seen. The feature map is the model's *inductive bias*, made explicit.
 
-![One fixed extra feature can make a hard problem linear. Left: two classes of points in the plane, on concentric rings. No line separates them, since the convex hull of each class contains the origin. Right: after appending the single feature , the rings sit at two different heights, and a horizontal plane separates them. Nothing has been learned: we supplied the radial coordinate.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-radial-lift-9f1ae3c1.png)
+![One fixed extra feature can make a hard problem linear. Left: two classes of points in the plane, on concentric rings. No line separates them, since the convex hull of each class contains the origin. Right: after appending the single feature , the rings sit at two different heights, and a horizontal plane separates them. Nothing has been learned: we supplied the radial coordinate.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-radial-lift-810af0f2.png)
 
 One fixed extra feature can make a hard problem linear. Left: two classes of points in the plane, on concentric rings. No line separates them, since the convex hull of each class contains the origin. Right: after appending the single feature $$\psi_{3}= c\,(u^{2}+v^{2})$$, the rings sit at two different heights, and a horizontal plane $$\psi_{3}= c\,r_{0}^{2}$$ separates them. Nothing has been learned: we supplied the radial coordinate.
 
@@ -164,5 +170,3 @@ Why would one ever want a very large $$P$$? Figure 12 gives the classic answer. 
 **(d)** $$K(x,z) = 1+2xz+x^{2}z^{2} = (1+xz)^{2}$$.
 
 :::
-
-[^6]: This appendix adapts a lecture and an exercise notebook prepared by Charles Renshaw-Whitman for the Iliad Intensive, translated into the notation of Section 3.1.

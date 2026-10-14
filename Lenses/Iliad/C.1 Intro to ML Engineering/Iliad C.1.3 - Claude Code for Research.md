@@ -7,8 +7,12 @@ authors:
   - Julian Schulz (Meridian Research)
   - Adam Newgas (Timaeus)
 source_url: https://iliad-intensive.org/interpretability/intro-to-ml-engineering/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "intro-to-ml-engineering#claude-code-for-research"
+upstream_fingerprint: "6uf/131/1/0iXS0kh031Go3W7B4dpv4xGZ6RdX7cPe8EEw8NHU8Uqg9KXu9zYED1E2E8L1EAzdFDcxICgnIJ5oIXI1KHWnKdSeKjMUKonHKrJtL2AYL2ZmNHvQNc4tNhpTNsCoO4os"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/interpretability/intro-to-ml-engineering/#claude-code-for-research"
 ---
 
 #### Text
@@ -21,7 +25,7 @@ Material:
 
 [Claude Code cheat sheet](https://www.alignment-hive.com/cheatsheet)
 
-::card[[../Lenses/alignment-hive-claude-code-cheat-sheet|Claude Code cheat sheet]]
+::card[[../../alignment-hive-claude-code-cheat-sheet|Claude Code cheat sheet]]
 
 \[optionally\] get a good [Terminal Claude Code setup](https://github.com/wusche1/dotfiles)
 
@@ -35,9 +39,12 @@ Clone [this repository](https://github.com/iliad-team/iliad-intensive-C.1.3/tree
 
 Final project: replicate a version of Figure 1 from one of these papers:
 
-::card[[../Lenses/chen-reasoning-models-dont-always-say-what-they-think|Inference only, no GPU needed]]
+::card[[../../chen-reasoning-models-dont-always-say-what-they-think|Inference only, no GPU needed]]
 
-::card[[../Lenses/arditi-refusal-in-language-models-is-mediated-by-a-single-direction|On a GPU]]
+::card[[../../arditi-refusal-in-language-models-is-mediated-by-a-single-direction|On a GPU]]
+
+* [Inference only, no GPU needed](https://www-cdn.anthropic.com/b9ca6db27f02a9ddf0d4fdb51b26432c99a27be0.pdf)
+* [On a GPU](https://arxiv.org/pdf/2406.11717)
 
 Content:
 

@@ -6,8 +6,12 @@ summary_for_tutor: "Overview of worksheet C.2 (mechanistic interpretability). Pr
 authors:
   - Julian Schulz (Meridian Research)
 source_url: https://iliad-intensive.org/interpretability/mechanistic-interpretability/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "mechanistic-interpretability#prerequisites"
+upstream_fingerprint: "uUN/274/1/107G1abg1eY620du26gh30oD35933Jz63KD43iaE42bO4PKc4Tm24XZk4ntk4rWM51tv5KCQ5QPs5VIL5XPQ5jU56La56NAa6dXO7CzY7fXN7gt57mlx7o267quF85fI"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/interpretability/mechanistic-interpretability/#prerequisites"
 ---
 
 #### Text

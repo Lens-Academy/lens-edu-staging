@@ -9,8 +9,12 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "qft#references"
+upstream_fingerprint: "8aX/2400/1/020b02zG04KR04r8090i0CGk0Cp60Ela0FJD0MVu0RiL0SVx0VgC0ciO0cwx0ih10iuf0ivh0nGr0nnt0o6g0qRt0skX0wPB0xyz0zYc11SE13zI15UZ1A6T1BZs1CdB"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/qft/#references"
 ---
 
 #### Text

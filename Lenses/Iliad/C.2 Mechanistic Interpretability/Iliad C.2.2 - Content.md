@@ -6,8 +6,12 @@ summary_for_tutor: "Content of worksheet C.2. It has a fast track (the slides) a
 authors:
   - Julian Schulz (Meridian Research)
 source_url: https://iliad-intensive.org/interpretability/mechanistic-interpretability/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "mechanistic-interpretability#content"
+upstream_fingerprint: "KiLIbSCkM/569/1/01xE0Bmn0IA60SvW0TB60kpq0n2e10Po1B3d1NaS1NeO1qoH20g625o826gh27mC2Oax2Tyu306U3IJA3Msl3VDN3XFo3Zum3blM3dbq3e6k3lkw3uGo3uJP41Qm4IOi"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/interpretability/mechanistic-interpretability/#content"
 ---
 
 #### Text
@@ -36,13 +40,18 @@ Exercises and external links (in lecture order)
 
 Discussion reading
 
-::card[[../Lenses/nanda-a-pragmatic-vision-for-interpretability|A Pragmatic Vision for Interpretability]]
+::card[[../../nanda-a-pragmatic-vision-for-interpretability|A Pragmatic Vision for Interpretability]]
 
-::card[[../Lenses/charbel-rapha-l-against-almost-every-theory-of-impact-of-interpretability|Against Almost Every Theory of Impact of Interpretability]]
+::card[[../../charbel-rapha-l-against-almost-every-theory-of-impact-of-interpretability|Against Almost Every Theory of Impact of Interpretability]]
 
-::card[[../Lenses/hendrycks-the-misguided-quest-for-mechanistic-ai-interpretability|The Misguided Quest for Mechanistic AI Interpretability]]
+::card[[../../hendrycks-the-misguided-quest-for-mechanistic-ai-interpretability|The Misguided Quest for Mechanistic AI Interpretability]]
 
-::card[[../Lenses/bilalchughtai-activation-space-interpretability-may-be-doomed|Activation Space Interpretability May Be Doomed]]
+::card[[../../bilalchughtai-activation-space-interpretability-may-be-doomed|Activation Space Interpretability May Be Doomed]]
+
+* Nanda et al., [A Pragmatic Vision for Interpretability](https://www.alignmentforum.org/posts/StENzDcD3kpfGJssR/a-pragmatic-vision-for-interpretability)
+* Ségerie, [Against Almost Every Theory of Impact of Interpretability](https://www.lesswrong.com/posts/LNA8mubrByG7SFacm/against-almost-every-theory-of-impact-of-interpretability-1)
+* Hendrycks, [The Misguided Quest for Mechanistic AI Interpretability](https://ai-frontiers.org/articles/the-misguided-quest-for-mechanistic-ai-interpretability)
+* Chughtai, [Activation Space Interpretability May Be Doomed](https://www.alignmentforum.org/posts/gYfpPbww3wQRaxAFD/activation-space-interpretability-may-be-doomed)
 
 Intent:
 

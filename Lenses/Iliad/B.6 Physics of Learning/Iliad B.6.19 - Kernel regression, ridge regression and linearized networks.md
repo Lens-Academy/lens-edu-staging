@@ -9,8 +9,12 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "qft#b3-kernel-regression"
+upstream_fingerprint: "lD8oC8tlD5GZ3ZkIqw6JvI26/3846/1/01hc01r003BV03TP03VX04Qv08X3092y0Cp60G2G0GQ40HCP0Hnb0JCY0LnH0MJf0Mwj0QOJ0R760TNs0Uld0WXV0XAY0ZVq0f2I0g9X0gnr0ijq0iuf0m1k0o1i0oCx"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/qft/#b3-kernel-regression"
 ---
 
 #### Text
@@ -135,7 +139,7 @@ $$
 
 This is also a spectral filter, with $$1/\eta t$$ playing the role of $$\lambda$$: *early stopping* regularizes much as ridge does. But the two filters have different shapes (Figure 13), and no choice of $$\lambda$$ reproduces a given stopping time on every mode at once (Exercise B.5). This is the precise content of the remark closing Section 4.6, that the inverse temperature of Bayesian learning and the training time of gradient descent play analogous roles.
 
-![Ridge regression and early-stopped gradient flow as spectral filters: the fraction of a data mode that is fit, as a function of the mode's kernel eigenvalue . The two are tuned to agree on the mode with , and disagree elsewhere; the dots mark the two-mode example of Exercise B.5.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-ridge-filters-382fcb28.png)
+![Ridge regression and early-stopped gradient flow as spectral filters: the fraction of a data mode that is fit, as a function of the mode's kernel eigenvalue . The two are tuned to agree on the mode with , and disagree elsewhere; the dots mark the two-mode example of Exercise B.5.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-ridge-filters-f521b84d.png)
 
 Ridge regression and early-stopped gradient flow as spectral filters: the fraction of a data mode $$u_{a}\cdot Y$$ that is fit, as a function of the mode's kernel eigenvalue $$s_{a}^{2}$$. The two are tuned to agree on the mode with $$s^{2}=1$$, and disagree elsewhere; the dots mark the two-mode example of Exercise B.5.
 

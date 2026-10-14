@@ -7,8 +7,12 @@ authors:
   - Julian Schulz (Meridian Research)
   - Adam Newgas (Timaeus)
 source_url: https://iliad-intensive.org/interpretability/intro-to-ml-engineering/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "intro-to-ml-engineering#practical-ml"
+upstream_fingerprint: "HBa/78/1/0i5o1Vam1YLS2qaB3dhn4zwu5BFE5KCQ6MIy6ag09n1eA8eRB89HDTaWDhWDH2kbHbx0I6GxJ8wcKpYfM27IMPrzNm7pOjP5OzHSPGjpR4a7RHCvRMkRRjxvSBAlSZbX"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/interpretability/intro-to-ml-engineering/#practical-ml"
 ---
 
 #### Text

@@ -8,8 +8,12 @@ authors:
   - Adam Shai (Simplex)
   - Paul Riechers (Simplex)
 source_url: https://iliad-intensive.org/interpretability/computational-mechanics/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "computational-mechanics#3-predicting-the-future"
+upstream_fingerprint: "HVUlCH4sc/1179/1/0BvF0ePD0uqz105b1CxI1INN1OTZ1PUG1R5x1XOM1XOf1d3q1f4c1hCR1uXW24ZH2EEQ2H9s2VxY2f5Z2sLy2skn2tYR2zJr30ul3DwO3IKS3JGm3M3o3OrN3Yzr3Zs4"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/interpretability/computational-mechanics/#3-predicting-the-future"
 ---
 
 #### Text

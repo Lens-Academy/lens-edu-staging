@@ -8,8 +8,12 @@ authors:
   - Adam Shai (Simplex)
   - Paul Riechers (Simplex)
 source_url: https://iliad-intensive.org/interpretability/computational-mechanics/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "computational-mechanics#1-prerequisites"
+upstream_fingerprint: "hggDEjX5XK8E/352/1/0G2G0HGe0HuR0NVa0UQP0Vac0aMX0ctt0fn10vLZ1Jbz1OuX1P9u1PFt1V611Vd41Z4H1fEo2C8B2DQt2M7Y2PYM2TLO2Z9W2fHd2lM22nSH2uRY30oD34lB35Wb3KD4"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/interpretability/computational-mechanics/#1-prerequisites"
 ---
 
 #### Text
@@ -47,7 +51,7 @@ Students should be comfortable with the idea that one can train a linear map fro
 
 Read [Transformers represent belief state geometry in their residual stream](https://arxiv.org/pdf/2405.15943). Focus on being able to answer the following questions:
 
-::card[[../Lenses/shai-transformers-represent-belief-state-geometry-in-their-residual-stream|Transformers represent belief state geometry in their residual stream]]
+::card[[../../shai-transformers-represent-belief-state-geometry-in-their-residual-stream|Transformers represent belief state geometry in their residual stream]]
 
 - What is a hidden Markov model (HMM)?
 - What is a belief state?
