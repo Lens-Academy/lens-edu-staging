@@ -31,9 +31,6 @@ source:: [[../articles/barak-comment-on-should-safety-researchers-quit-frontier-
 #### Article
 source:: [[../articles/leogao-comment-on-should-safety-researchers-quit-frontier-labs-re-warning-shots]]
 
-#### Article
-source:: [[../articles/orthonormal-comment-on-should-safety-researchers-quit-frontier-labs-re-warning-shots]]
-
 #### Question: Open
 id:: 47d37df0-405b-4df3-9a0c-bbb7b8b71280
 force-feedback:: first
@@ -44,6 +41,8 @@ assessment-instructions:: Score out of 100. Context for grading: Boaz Barak says
 feedback-instructions:: The learner applies Barak's comment and Leo Gao's reply to a researcher who stops building blocking monitors but stays at the lab. Gao: there is a difference between aiming to increase harm and declining to reduce it as much as possible in order to uphold another principle, for example not shielding a company from the consequences of its own recklessness, so his line may allow the choice depending on why the researcher makes it, but not if the aim is to let incidents happen. Barak: suspect any "make it worse now so it is better later" argument, and the next warning shot cannot be controlled, though he also says a researcher who does not feel their work matters should look elsewhere. Accept other reasoned readings. At most two replies, 60 to 120 words each, no lists, no generic praise. Do not say whether anyone should quit.
 
 #### Article
+source:: [[../articles/orthonormal-comment-on-should-safety-researchers-quit-frontier-labs-re-warning-shots]]
+
 #### Question: Open
 id:: 5055a20c-7ac3-414d-96ce-9968aefd6604
 force-feedback:: first
