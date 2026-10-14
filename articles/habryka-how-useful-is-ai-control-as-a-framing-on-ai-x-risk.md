@@ -258,9 +258,6 @@ Should we more specifically pick a topic to talk about in more detail?
 :::callout{title="Oliver Habryka" tone="blue"}
 
 Yeah, let's do it.
-:::
-
-:::callout{title="Oliver Habryka" tone="blue"}
 
 I guess maybe the thing that I keep coming back to is actually this one: 
 
@@ -300,9 +297,6 @@ Agreed, (for scheming) you probably get all of:
 I think there is a quantative question about how much update you get for each of these and I could imagine a variety of different parameter settings.
 
 Also, it's worth noting that we don't necessarily depend on "the AI isn't well practiced at subverting our safety mechanisms". Like we can do our control evaluations targeting the regime where it is well practiced. (Though the AI being well practiced does reduce our safety margin substantially.)
-:::
-
-:::callout{title="Ryan Greenblatt" tone="green"}
 
 Aside: I think it might be pretty important to have a good policy on "what sorts of behavior do we train against vs not train against". There will probably be various cases of somewhat bad behavior which isn't clear evidence of scheming where we're worried that training against it will teach the AI stuff we don't want. Missing warning shots via this mechanism seems sad and we can probably afford a decent amount of rejection sampling (e.g. resampling every 1/100 query is just totally fine). Of course, this isn't really a thing people have started on doing now.
 :::
