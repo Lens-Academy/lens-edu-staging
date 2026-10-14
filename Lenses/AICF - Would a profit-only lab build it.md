@@ -24,35 +24,6 @@ Yonatan Cale applies a version of this worry to monitors. In January 2026 Marius
 #### Article
 source:: [[../articles/cale-comment-on-the-case-for-agi-safety-products]]
 
-#### Text
-content::
-Hobbhahn answered:
-
-#### Article
-source:: [[../articles/hobbhahn-comment-on-the-case-for-agi-safety-products]]
-
-#### Text
-content::
-Alex Mallen of Redwood Research gives a more general way to think about this. Read the first part of his post. (The "Pareto frontier" is the set of best available trade-offs: for each level of usefulness, the most safety you can get.)
-
-#### Article
-source:: [[../articles/mallen-capabilities-research-expands-the-safety-usefulness-pareto-frontier-too]]
-from:: "### A model of when and why research improves or hurts safety"
-to:: Visually: near the initial pink point, the green slope is shallower than the red slope.
-
-#### Text
-content::
-Caspar Oesterheld replies to the acceleration worry in general, for any safety project. Read his argument and one of his own caveats, which is about control.
-
-#### Article
-source:: [[../articles/oesterheld-a-simple-argument-about-capabilities-externalities-versus-opportunity-costs]]
-from:: **TL;DR**: _Lots of people have the intuition
-to:: but won’t render the project net negative.
-
-#### Article
-from:: It’s important to understand some things that the argument does _not_ say:
-to:: will increase AIs’ ability to escape control schemes.
-
 #### Question: Open
 id:: 917241f5-4296-469a-81f1-a96b9db5a54f
 force-feedback:: first
