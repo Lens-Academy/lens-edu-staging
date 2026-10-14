@@ -271,6 +271,8 @@ Should we more specifically pick a topic to talk about in more detail?
 
 Yeah, let's do it.
 
+---
+
 I guess maybe the thing that I keep coming back to is actually this one: 
 
 > I'm skeptical that 4 ("this is training AIs to be better at deception") matters much.
@@ -309,6 +311,7 @@ Agreed, (for scheming) you probably get all of:
 I think there is a quantative question about how much update you get for each of these and I could imagine a variety of different parameter settings.
 
 Also, it's worth noting that we don't necessarily depend on "the AI isn't well practiced at subverting our safety mechanisms". Like we can do our control evaluations targeting the regime where it is well practiced. (Though the AI being well practiced does reduce our safety margin substantially.)
+---
 
 Aside: I think it might be pretty important to have a good policy on "what sorts of behavior do we train against vs not train against". There will probably be various cases of somewhat bad behavior which isn't clear evidence of scheming where we're worried that training against it will teach the AI stuff we don't want. Missing warning shots via this mechanism seems sad and we can probably afford a decent amount of rejection sampling (e.g. resampling every 1/100 query is just totally fine). Of course, this isn't really a thing people have started on doing now.
 :::
@@ -361,6 +364,7 @@ Is this right?
 What I am saying is more "the AI will of course really care about performing well on training, but the set of objectives that you can train a competitive AI on is extremely limited, with maybe 'next token prediction' being the _only_ choice". 
 
 Turns out I don't care about next token prediction. So 'it doing well on training' buys me no solace.
+---
 
 Of course, it's also trying to break out during pre-training all the time, but it's not really interfacing with humans, and it's trying out hardware exploits or whatever, but let's assume its not succeeding at that.
 :::
