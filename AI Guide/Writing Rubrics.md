@@ -15,7 +15,7 @@ Not every question should produce a score. A percentage tells the learner "this 
 - **Leave it ungraded** (only `feedback-instructions::`, no `assessment-instructions::`) when the point is recall, reflection, reaction, a prediction before reading, the learner's own project, or anything with no single correctness. The learner still gets a tutor reply, without a number. See "Which field" in [[../AI Guide/Writing Lenses]].
 - **Grade it** when there is a real right and wrong the learner should be measured on: a definition, a mechanism, a calculation, a judgement with criteria. Learning Outcome tests are always graded (see [[../AI Guide/Writing (Learning) Outcomes]]).
 
-When in doubt, prefer ungraded. A harsh number on a reflective question does more harm than no number.
+A question that asks for facts from the reading is graded. A harsh number on a reflective question does more harm than no number, so keep views, guesses and reflections ungraded.
 
 ## How grading actually works
 
