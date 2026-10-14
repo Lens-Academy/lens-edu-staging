@@ -29,7 +29,7 @@ A month earlier, a researcher writing as Jozdien had published his own critiques
 
 #### Article
 source:: [[../articles/jozdien-critiques-of-the-ai-control-agenda]]
-from:: Evaluating whether you’re in a regime where control is doable
+from:: Here’s a TL;DR of my cruxes:
 to:: selecting for models that can evade our control mechanisms.
 
 #### Article
