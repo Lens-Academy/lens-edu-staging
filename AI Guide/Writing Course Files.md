@@ -55,6 +55,7 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 Optional frontmatter: `slug-aliases`, `partner-name`, `partner-logo`, `partner-logo-small`, `partner-url`.
 
+- The `%%` notes hold only what the template shows: target audience, value prop and links in the preamble, and the goals of each unit. No decision logs, deadlines or process notes. Those go into the task tracker or a research doc.
 - Don't edit the target audience and value prop without explicitly permission from the user. And regularly check if everything matches with landing page or marketing copy. (flag if not)
 - The target audience for a course are people with one or more of the listed features.
 - Everything between two meetings belongs to one meeting's preparation.
