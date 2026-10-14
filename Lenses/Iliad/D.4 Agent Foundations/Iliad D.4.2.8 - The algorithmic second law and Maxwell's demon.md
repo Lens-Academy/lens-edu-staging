@@ -7,8 +7,12 @@ authors:
   - Daniel C
   - Satya Benson (Williams College)
 source_url: https://iliad-intensive.org/agency/optimization-thermodynamics/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "optimization-thermodynamics#73-the-algorithmic-second-law"
+upstream_fingerprint: "TTgOW2/1677/1/03BW05Ck066R09yH0GkS0HTq0JYA0LO50NHl0Obr0Q0e0Qwe0RNK0Ury0Y3L0ZwJ0f2I0g9X0tHp0tgu0wZS11TE1ChR1Gjr1IhF1J7m1Rxh1YRT1ej11fhY1jO31lcN"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/optimization-thermodynamics/#73-the-algorithmic-second-law"
 ---
 
 #### Text
@@ -22,7 +26,7 @@ We now return to the physical setting of Section 4: a coarse-grained state space
 **Theorem 7.2 (Algorithmic Second Law; Levin, Ebtekar–Hutter, Stated Informally).** Let $$(X_{t})$$ be a computable, doubly stochastic Markov chain modeling an isolated system's coarse-grained evolution, and let $$s < t$$ be two times. Then for every $$\delta > 0$$, with probability greater than $$1 - \delta$$,
 
 $$
-K(X_{s}) - K(X_{t}) \;{\mathrel{\stackrel{+}{<}}}\; K(t - s) \;+\; \log \tfrac{1}{\delta}.
+K(X_{s}) - K(X_{t}) \;\mathrel{\stackrel{+}{<}}\; K(t - s) \;+\; \log \tfrac{1}{\delta}.
 $$
 
 :::
@@ -42,7 +46,7 @@ One special case recurs throughout the demon analysis below, and we record it se
 **Corollary 7.3 (Invariance of Entropy under Deterministic Dynamics).** If the evolution over the interval is a computable bijection $$f$$ with a short description (for instance, a few steps of simply describable reversible dynamics), then
 
 $$
-K(f(x)) \;{\mathrel{\stackrel{+}{=}}}\; K(x).
+K(f(x)) \;\mathrel{\stackrel{+}{=}}\; K(x).
 $$
 
 :::
@@ -68,10 +72,10 @@ $$
 Each map is injective on the states that can actually occur (the first on pairs with blank memory, the second on pairs whose two slots agree), hence extendable to a bijection of the joint state space, and each is simply describable. Corollary 7.3 therefore applies to both steps, and the *total* complexity remains unchanged throughout:
 
 $$
-K(0, x) \;{\mathrel{\stackrel{+}{=}}}\; K(x, x) \;{\mathrel{\stackrel{+}{=}}}\; K(x, 0) \;{\mathrel{\stackrel{+}{=}}}\; K(x).
+K(0, x) \;\mathrel{\stackrel{+}{=}}\; K(x, x) \;\mathrel{\stackrel{+}{=}}\; K(x, 0) \;\mathrel{\stackrel{+}{=}}\; K(x).
 $$
 
-We now examine what this chain of equalities asserts. The gas has passed from complexity $$K(x)$$ to complexity $${\mathrel{\stackrel{+}{=}}} 0$$, which constitutes a complete Type-2 optimization. The joint complexity never changed, so the second law was never threatened at any step, without any need to "complete a cycle" or to invoke ad hoc accounting. The balance is now carried entirely by the demon's memory, which holds a record of complexity $$K(x)$$; the gas's erasure was permitted *precisely because a copy existed*, since the operation "clear slot two given that slot one holds a copy" is injective. The step that the second law forbids is the clearing of the *last* copy:
+We now examine what this chain of equalities asserts. The gas has passed from complexity $$K(x)$$ to complexity $$\mathrel{\stackrel{+}{=}} 0$$, which constitutes a complete Type-2 optimization. The joint complexity never changed, so the second law was never threatened at any step, without any need to "complete a cycle" or to invoke ad hoc accounting. The balance is now carried entirely by the demon's memory, which holds a record of complexity $$K(x)$$; the gas's erasure was permitted *precisely because a copy existed*, since the operation "clear slot two given that slot one holds a copy" is injective. The step that the second law forbids is the clearing of the *last* copy:
 
 $$
 (x, 0) \;\mapsto\; (0, 0)
@@ -88,25 +92,25 @@ $$
 Whatever feedback protocol the second step implements, provided that it is a simply describable mixture of reversible operations, the algorithmic second law applied to the *joint* system gives
 
 $$
-K\big(m(x), x\big) \;{\mathrel{\stackrel{+}{<}}}\; K\big(m(x), y\big).
+K\big(m(x), x\big) \;\mathrel{\stackrel{+}{<}}\; K\big(m(x), y\big).
 $$
 
-Expanding both sides with the chain rule ($$K(m,\cdot) {\mathrel{\stackrel{+}{=}}} K(m) + K(\cdot \mid m)$$, with the technical refinements recorded in Definition 7.1), subtracting $$K(m(x))$$ from both sides, and rewriting conditional complexities via mutual information ($$K(x \mid m) {\mathrel{\stackrel{+}{=}}} K(x) - I(m : x)$$), we obtain
+Expanding both sides with the chain rule ($$K(m,\cdot) \mathrel{\stackrel{+}{=}} K(m) + K(\cdot \mid m)$$, with the technical refinements recorded in Definition 7.1), subtracting $$K(m(x))$$ from both sides, and rewriting conditional complexities via mutual information ($$K(x \mid m) \mathrel{\stackrel{+}{=}} K(x) - I(m : x)$$), we obtain
 
 $$
-K(x) - I\big(m(x) : x\big) \;{\mathrel{\stackrel{+}{<}}}\; K(y) - I\big(m(x) : y\big) \;\le\; K(y),
+K(x) - I\big(m(x) : x\big) \;\mathrel{\stackrel{+}{<}}\; K(y) - I\big(m(x) : y\big) \;\le\; K(y),
 $$
 
 where the final step uses the nonnegativity of algorithmic mutual information. Rearranging yields
 
 $$
-\boxed{\;K(x) - K(y) \;{\mathrel{\stackrel{+}{<}}}\; I\big(m(x) : x\big).\;}
+\boxed{\;K(x) - K(y) \;\mathrel{\stackrel{+}{<}}\; I\big(m(x) : x\big).\;}
 $$
 
-That is, *the gas can lose at most as much entropy as was measured from it*. The budget is, moreover, exactly achievable: if the demon expends its correlation completely and reversibly (so that $$K(m(x), x) {\mathrel{\stackrel{+}{=}}} K(m(x), y)$$, with no entropy produced, and $$I(m(x) : y) {\mathrel{\stackrel{+}{=}}} 0$$, with no correlation left unspent), then the displayed inequalities collapse to
+That is, *the gas can lose at most as much entropy as was measured from it*. The budget is, moreover, exactly achievable: if the demon expends its correlation completely and reversibly (so that $$K(m(x), x) \mathrel{\stackrel{+}{=}} K(m(x), y)$$, with no entropy produced, and $$I(m(x) : y) \mathrel{\stackrel{+}{=}} 0$$, with no correlation left unspent), then the displayed inequalities collapse to
 
 $$
-K(x) - K(y) \;{\mathrel{\stackrel{+}{=}}}\; I\big(m(x) : x\big).
+K(x) - K(y) \;\mathrel{\stackrel{+}{=}}\; I\big(m(x) : x\big).
 $$
 
 We now place (1) beside Theorem B.2 (Appendix B) and compare the two statements term by term. In each, the left-hand side is the entropy reduction of the steered system, and the right-hand side is the mutual information between the controller's record (action, measurement) and the system's state. The Touchette–Lloyd theorem is the ensemble (Shannon) version of the constraint, speaking of distributions, averages, and a blind baseline supplied by the dynamics. Inequality (1) is the single-shot, individual-state (algorithmic) version, speaking of the single gas state actually confronting the demon, without reference to any ensemble, the role of the blind baseline being played by the additive constant, which absorbs what the simply describable dynamics can accomplish unaided. It is simultaneously the rigorous form of Type-3 optimization from Section 5: the copy step purchases $$I(m(x):x)$$ and the control step expends it, bit for bit.
@@ -114,7 +118,7 @@ We now place (1) beside Theorem B.2 (Appendix B) and compare the two statements 
 One final reading of the demon's situation will prove central to the concluding section. After the measurement, two distinct entropies attach to the same gas: its *objective* entropy $$K(x)$$, and its entropy *from the demon's perspective*, the conditional complexity
 
 $$
-K\big(x \mid m(x)\big) \;{\mathrel{\stackrel{+}{=}}}\; K(x) - I\big(m(x) : x\big),
+K\big(x \mid m(x)\big) \;\mathrel{\stackrel{+}{=}}\; K(x) - I\big(m(x) : x\big),
 $$
 
 which is smaller by exactly the measured information. The demon's optimization power over the gas is precisely the wedge between the objective and the subjective entropy. The subjective element has therefore not been eliminated from thermodynamics but rather assigned a physical location: the "subjective distribution" of the older formalism has become a physical conditioning on a physical record, carried in a memory that occupies physical space and obeys the second law.

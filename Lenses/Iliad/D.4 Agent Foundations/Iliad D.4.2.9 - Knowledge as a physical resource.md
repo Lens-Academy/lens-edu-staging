@@ -7,8 +7,12 @@ authors:
   - Daniel C
   - Satya Benson (Williams College)
 source_url: https://iliad-intensive.org/agency/optimization-thermodynamics/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "optimization-thermodynamics#8-knowledge-as-a-physical-resource-optimization-for-embedded-agents"
+upstream_fingerprint: "tPW8BkjaS5lz6MJ/1760/1/01P104mu06XR07MM08vv0HTq0Jj30Q0C0Ury0Y870bPa0gf40i4Z0iuf0k4X0ktr0oCM0xHn0xsr0yaF0ylH17ZN17a51F1I1FJw1IUU1KKS1N1U1NKF1P4o1T0L1UKz"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/optimization-thermodynamics/#8-knowledge-as-a-physical-resource-optimization-for-embedded-agents"
 ---
 
 #### Text
@@ -26,7 +30,7 @@ In the Gibbs–Shannon framework, what an agent knows about a system is encoded 
 For an embedded agent no such outside ledger exists. Its knowledge of the environment must be stored physically, in a memory composed of the same matter as the environment and governed by the same laws, and algorithmic thermodynamics enables us to handle this knowledge directly. Writing $$a$$ for the physical state of the agent's memory and $$s$$ for the physical state of the environment, "what the agent knows about the environment" is the algorithmic mutual information
 
 $$
-I(a : s) \;{\mathrel{\stackrel{+}{=}}}\; K(s) - K(s \mid a),
+I(a : s) \;\mathrel{\stackrel{+}{=}}\; K(s) - K(s \mid a),
 $$
 
 the number of bits by which the agent's memory shortens the description of the environment. No distribution appears in this expression: knowledge has become an objective relation between two pieces of matter, as much a fact about the world as a distance or a voltage. Subjective beliefs are not discarded but rather *implemented*: an agent whose memory holds a good model of the environment is one whose state has high $$I(a:s)$$, and $$K(s \mid a)$$ is the environment's entropy *as that agent finds it* (the environment's entropy as evaluated from the demon's perspective, Section 7.4).
@@ -36,7 +40,7 @@ the number of bits by which the agent's memory shortens the description of the e
 *From beliefs to mutual information.* Suppose that the agent's memory $$a$$ encodes a computable belief $$q$$ about the environment (formally, a short fixed program reconstructs $$q$$ from $$a$$). Given $$a$$, one way to describe the true state $$s$$ is to recover $$q$$ and record the Shannon codeword of $$s$$ under $$q$$, which has length approximately $$\log \tfrac{1}{q(s)}$$ bits (Section 2.3). Since the shortest description can be no longer than this particular one,
 
 $$
-\begin{gathered}K(s \mid a) \;{\mathrel{\stackrel{+}{<}}}\; \log \frac{1}{q(s)}, \qquad\text{and hence}\\ I(a : s) \;{\mathrel{\stackrel{+}{=}}}\; K(s) - K(s \mid a) \;{\mathrel{\stackrel{+}{>}}}\; K(s) - \log \frac{1}{q(s)}.\end{gathered}
+\begin{gathered}K(s \mid a) \;\mathrel{\stackrel{+}{<}}\; \log \frac{1}{q(s)}, \qquad\text{and hence}\\ I(a : s) \;\mathrel{\stackrel{+}{=}}\; K(s) - K(s \mid a) \;\mathrel{\stackrel{+}{>}}\; K(s) - \log \frac{1}{q(s)}.\end{gathered}
 $$
 
 The more probability the belief assigns to the true environment, the shorter this codeword becomes, and the more mutual information the memory carries about the world.
@@ -44,12 +48,12 @@ The more probability the belief assigns to the true environment, the shorter thi
 *From mutual information to optimization.* The algorithmic Touchette–Lloyd bound (1) establishes that the agent can remove at most $$I(a:s)$$ bits of complexity from the environment, and that this amount is attainable. Combining the two bridges yields
 
 $$
-\text{optimization the agent can perform}\;{\mathrel{\stackrel{+}{>}}}\; K(s) - \log \frac{1}{q(s)},
+\text{optimization the agent can perform}\;\mathrel{\stackrel{+}{>}}\; K(s) - \log \frac{1}{q(s)},
 $$
 
 so the agent can drive the environment down to a residual complexity of approximately $$\log\tfrac{1}{q(s)}$$, which is precisely the environment's entropy as the agent's belief regards it. It follows that *the more probability the agent's model assigns to the truth, the more of the environment it can optimize*, at a rate fixed by the bookkeeping rather than by any modeling choice.
 
-This correspondence constitutes Bayesian learning expressed in physical terms. As the agent collects evidence and updates its belief, $$q(s)$$ rises, the codeword length $$\log\tfrac{1}{q(s)}$$ and the residual $$K(s\mid a)$$ shrink, $$I(a:s)$$ grows, and the optimization within reach grows with it. In the limit of certainty $$K(s\mid a) {\mathrel{\stackrel{+}{=}}} 0$$ and $$I(a:s) {\mathrel{\stackrel{+}{=}}} K(s)$$, and the agent can in principle steer the environment to vanishing residual complexity. Updating a belief toward the truth and accumulating spendable, physically stored knowledge are therefore one and the same process, constituting the single-state form of the Touchette–Lloyd result of Appendix B and the precise content of the Type-3 channel of Section 5.
+This correspondence constitutes Bayesian learning expressed in physical terms. As the agent collects evidence and updates its belief, $$q(s)$$ rises, the codeword length $$\log\tfrac{1}{q(s)}$$ and the residual $$K(s\mid a)$$ shrink, $$I(a:s)$$ grows, and the optimization within reach grows with it. In the limit of certainty $$K(s\mid a) \mathrel{\stackrel{+}{=}} 0$$ and $$I(a:s) \mathrel{\stackrel{+}{=}} K(s)$$, and the agent can in principle steer the environment to vanishing residual complexity. Updating a belief toward the truth and accumulating spendable, physically stored knowledge are therefore one and the same process, constituting the single-state form of the Touchette–Lloyd result of Appendix B and the precise content of the Type-3 channel of Section 5.
 
 Two further properties complete the characterization of $$I(a:s)$$ as a resource.
 

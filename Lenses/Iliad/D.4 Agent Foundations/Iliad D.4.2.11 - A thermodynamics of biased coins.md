@@ -7,8 +7,12 @@ authors:
   - Daniel C
   - Satya Benson (Williams College)
 source_url: https://iliad-intensive.org/agency/optimization-thermodynamics/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "optimization-thermodynamics#a-a-thermodynamics-of-biased-coins-the-generalized-heat-engine"
+upstream_fingerprint: "jp6hmaMT5W6XdMJkB5Ddv/2185/1/00Ck01P102i103s106gA0BQH0Cyn0G2G0Hzw0PI60R0Q0RXw0S5g0SWr0Urm0Wlf0deR0eS60g9X0i4Z0oGF0tgu0wlO0z6s0zfN105b10OH10g1139J13af14D018GA"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/optimization-thermodynamics/#a-a-thermodynamics-of-biased-coins-the-generalized-heat-engine"
 ---
 
 #### Text

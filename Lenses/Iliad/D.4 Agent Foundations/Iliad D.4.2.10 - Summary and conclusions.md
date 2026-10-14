@@ -7,8 +7,12 @@ authors:
   - Daniel C
   - Satya Benson (Williams College)
 source_url: https://iliad-intensive.org/agency/optimization-thermodynamics/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "optimization-thermodynamics#9-summary-and-conclusions"
+upstream_fingerprint: "AeS/836/1/04lU0512066R07MM07PN0CTG0HTq0Hzw0K4b0TaD0Tb40cac0daq0m6V0s1A0tgu0txr0uVk114a194v1BP31Ra11Sbg1Z0S1aE51eNT1h4g1jO31kWI1skS1y532Gak"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/optimization-thermodynamics/#9-summary-and-conclusions"
 ---
 
 #### Text
@@ -23,6 +27,6 @@ Building on this foundation, we quantified the informational cost of steering be
 
 Motivated by the demands of embedded agency, we then examined the foundations of the entropy concept itself. The Gibbs–Shannon entropy is defined relative to an exogenous, subjective ensemble, and this dependence fails precisely on the states of which agents are composed: intricate knowledge is assigned zero cost, non-concentrated ensembles yield averages true of no actual state, and atypical structure receives no credit. Equilibrium thermodynamics is the special regime, characterized by simple, concentrated, typical ensembles, in which this failure never manifests.
 
-To address these limitations, algorithmic thermodynamics replaces the ensemble with Kolmogorov complexity, so that entropy becomes an objective property of the individual state, agreeing with the classical entropies within their domain of applicability and extending beyond it. The algorithmic second law holds per trajectory with exactly priced fluctuation allowances (the allowance $$K(t-s) + \log\frac{1}{\delta}$$ covers Poincare recurrence and chance decreases in entropy); deterministic simple dynamics cannot create entropy; and the demon obeys $$K(x) - K(y) {\mathrel{\stackrel{+}{<}}} I(m(x):x)$$, the single-state form of the Touchette–Lloyd bound. This objective entropy dissolves the subjectivity problem, being a property of the state rather than of any observer, and the uncomputability of entropy is essential to the framework: a computable entropy admits a perpetual-motion machine.
+To address these limitations, algorithmic thermodynamics replaces the ensemble with Kolmogorov complexity, so that entropy becomes an objective property of the individual state, agreeing with the classical entropies within their domain of applicability and extending beyond it. The algorithmic second law holds per trajectory with exactly priced fluctuation allowances (the allowance $$K(t-s) + \log\frac{1}{\delta}$$ covers Poincare recurrence and chance decreases in entropy); deterministic simple dynamics cannot create entropy; and the demon obeys $$K(x) - K(y) \mathrel{\stackrel{+}{<}} I(m(x):x)$$, the single-state form of the Touchette–Lloyd bound. This objective entropy dissolves the subjectivity problem, being a property of the state rather than of any observer, and the uncomputability of entropy is essential to the framework: a computable entropy admits a perpetual-motion machine.
 
 Finally, for embedded agents knowledge is endogenous: an agent's probabilistic model of its environment is physically encoded in memory, its content is the algorithmic mutual information between the agent's memory and the world, and that mutual information is the consumable, perishable resource that funds optimization beyond blind baselines. Agents possessing greater knowledge of the world are accordingly capable of exerting greater influence upon it, at a fixed exchange rate of one bit of optimization per bit of correlation. Through these results, we have established an account of optimization that is grounded in physics and stated in the language of information, providing both an observer-independent characterization of what optimizers are and a quantitative accounting of what their operation must cost.

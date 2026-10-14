@@ -7,8 +7,12 @@ authors:
   - Daniel C
   - Satya Benson (Williams College)
 source_url: https://iliad-intensive.org/agency/optimization-thermodynamics/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "optimization-thermodynamics#6-limitations-of-subjective-entropy"
+upstream_fingerprint: "H5N2cJuQoRoqeQ2/1560/1/01TB01f302i104Vo08KC0EHa0F5V0GRv0LBd0LO50Lne0MCJ0PBf0Ury0YHn0dD90e5N0g9X0j6m0oq80qFZ0tRP0txr105b12js139J15mw17ii1Djz1OwF1Qz61RlO"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/optimization-thermodynamics/#6-limitations-of-subjective-entropy"
 ---
 
 #### Text

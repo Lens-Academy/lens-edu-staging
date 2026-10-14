@@ -7,8 +7,12 @@ authors:
   - Daniel C
   - Satya Benson (Williams College)
 source_url: https://iliad-intensive.org/agency/optimization-thermodynamics/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "optimization-thermodynamics#b-the-informational-cost-of-steering-the-touchettelloyd-theorem"
+upstream_fingerprint: "oXhhaHPYVCyzxVNcbX/1731/1/03Ry0Hzw0RhW0UYD0XMv0XyW0YcP0ZCt0bD30bsg0gJl0i4Z0lBs0mVx0tgu0wHE0wM012ci13D316Ra17mE1Aa91I8y1IRt1IhF1J6Y1Vd41Viw1jO31k8u1kIP1l2x"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/optimization-thermodynamics/#b-the-informational-cost-of-steering-the-touchettelloyd-theorem"
 ---
 
 #### Text
@@ -22,6 +26,8 @@ Having established in Section 5 that an agent can steer a subsystem by expending
 One of the recurring aspirations of agent foundations is the identification of *selection theorems*: results establishing that any system selected to perform sufficiently well at some task must, as a matter of mathematical necessity, contain certain agent-like structures, such as a world model, a goal representation, or a planning process. The *agent structure problem* poses this question in the converse direction to the usual one: rather than asking whether agents bring about outcomes, it asks whether a system observed to reliably bring about a particular outcome must necessarily be modeling its environment. Wentworth formulated a sharp quantitative version of this question: how many bits of optimization can one bit of observation purchase?
 
 A theorem of Touchette and Lloyd, originally published in the control theory literature and brought to the attention of the agent foundations community by Harwood and Altair, constitutes one of the few existing results that directly addresses this problem.[^3] Informally, the theorem states that *the entropy reduction a policy achieves, beyond what the environment's dynamics would accomplish on their own, is bounded by the mutual information between the policy's action and the environment's state*, so that every bit of optimization beyond the blind baseline requires a corresponding bit of modeling of the environment's state. This appendix develops the exact statement systematically, accompanied by fully worked examples.
+
+[^3]: The result appears as Theorem 10 of H. Touchette and S. Lloyd, *Information-theoretic approach to the study of control systems*, Physica A 331\:140–172 (2004); it is also described in their 2000 paper *Information-theoretic limits of control*, and an earlier, more physics-flavored proof appears in Lloyd's 1989 work on the use of mutual information to decrease entropy, in the context of Maxwell's demon. Related results connecting regulation to modeling include the good regulator theorem of Conant and Ashby and the internal model principle of control theory, but these concern conditions for *optimal* regulation, whereas the Touchette–Lloyd theorem is an inequality constraining *all* policies, optimal or not, which is precisely the property that qualifies it as a genuine selection theorem.
 
 \### B.2 The formal setup: environments, actions, and policies
 
@@ -97,5 +103,3 @@ We now suppose that, before choosing the submitted string, the player is shown t
 | $$\Delta H$$ in bits | 0.06 | 0.15 | 0.37 | 0.89 | 2.17 | 5 |
 
 With all five bits observed, the player matches the secret string on every round, the output is deterministically $$\texttt{00000}$$, and the maximum conceivable reduction $$\Delta H = H(X) = 5$$ bits is achieved. Each additional bit of observation purchases additional steering power, with the marginal returns increasing in this particular game as more of the state becomes known, demonstrating that information about the environment converts into optimization of the environment.
-
-[^3]: The result appears as Theorem 10 of H. Touchette and S. Lloyd, *Information-theoretic approach to the study of control systems*, Physica A 331\:140–172 (2004); it is also described in their 2000 paper *Information-theoretic limits of control*, and an earlier, more physics-flavored proof appears in Lloyd's 1989 work on the use of mutual information to decrease entropy, in the context of Maxwell's demon. Related results connecting regulation to modeling include the good regulator theorem of Conant and Ashby and the internal model principle of control theory, but these concern conditions for *optimal* regulation, whereas the Touchette–Lloyd theorem is an inequality constraining *all* policies, optimal or not, which is precisely the property that qualifies it as a genuine selection theorem.

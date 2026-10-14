@@ -7,8 +7,12 @@ authors:
   - Daniel C
   - Satya Benson (Williams College)
 source_url: https://iliad-intensive.org/agency/optimization-thermodynamics/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "optimization-thermodynamics#b6-mutual-information-as-a-measure-of-sightedness"
+upstream_fingerprint: "a8XG2bt8f/1122/1/0BjP0CxI0DwD0Eik0HOZ0Hzw0Nuv0OFO0Osb0R0Q0UYD0V0u0X7r0Zqb0bD30fRk0gf40hlK0o4H0rXv0wpb0z9D0zfN10Q4139J18wi1DiE1KQp1NKF1OTZ1Viw1aM6"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/optimization-thermodynamics/#b6-mutual-information-as-a-measure-of-sightedness"
 ---
 
 #### Text
