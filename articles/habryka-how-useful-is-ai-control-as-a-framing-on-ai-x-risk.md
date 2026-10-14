@@ -667,9 +667,6 @@ E.g. if humans would have a chance conditional on AIs not sandbagging, then it s
 A key detail here is that we potentially just need it to be the case that humans would have a chance _if AIs worked with us_ and (e.g.) didn't sandbag.)
 
 I think scheming AIs are reasonably likely to prefer themselves over other AIs (though they might still vastly prefer other AIs over humans), though I haven't thought through the exact decision theory here.
-:::
-
-:::callout{title="Ryan Greenblatt" tone="green"}
 
 Taking a step back, we have two hopes here:
 
@@ -714,9 +711,6 @@ Or the "small number of bits" thing?
 One operationalization of number of bits is, if we noise the weights somewhat with the right noise scale (e.g. some multiple of the initialization scale) and do random search on this noise space, how many samples does it take to find good performance?
 
 E.g. for 32 bits that would imply that we would need 2^32 samples to find good performance (on average).
-:::
-
-:::callout{title="Ryan Greenblatt" tone="green"}
 
 I think this is pretty good crude approximation of how easily SGD will find stuff.
 :::
