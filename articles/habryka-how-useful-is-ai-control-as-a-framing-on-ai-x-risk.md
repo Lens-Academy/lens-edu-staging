@@ -745,6 +745,7 @@ E.g. for 32 bits that would imply that we would need 2^32 samples to find good p
 ---
 
 I think this is pretty good crude approximation of how easily SGD will find stuff.
+
 ---
 
 (But idk if much easier to reason about lol.)
