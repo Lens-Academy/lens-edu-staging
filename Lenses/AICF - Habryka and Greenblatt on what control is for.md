@@ -24,7 +24,7 @@ Later in the dialogue, Greenblatt replies to Habryka's second point:
 #### Article
 source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
 from:: "One **(2)** (control being used for capabilities research)"
-to:: "if we don't do the adversarial case, we might get particularly wrecked."
+to:: "non-adversarial cases). Note that AIs might want to make capabilties research outpace safety and thus if we don't do the adversarial case, we might get particularly wrecked."
 
 #### Question: Open
 id:: 653079d9-007a-40f1-9d16-19763f9f94ab
