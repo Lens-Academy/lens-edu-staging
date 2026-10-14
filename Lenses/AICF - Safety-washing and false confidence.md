@@ -68,17 +68,6 @@ to:: an unprecedentedly stable and unaccountable grip on power.
 from:: Given these challenges, asynchronous logging and review should be used
 to:: to detect problematic use.
 
-#### Question: Open
-id:: 2878379d-a408-4176-a763-eff6f3c04223
-force-feedback:: first
-content::
-\## A version of the worry from control's authors
-
-Greenblatt and Shlegeris warn against calling a model "aligned" when it is only kept safe by control. Which item on Schmied's list is their worry a version of? Which of the three kinds of criticism is it, and why?
-placeholder:: A few sentences.
-assessment-instructions:: Score out of 100. Context for grading: in their case for control, Ryan Greenblatt and Buck Shlegeris say it is extremely bad terminology to call a protocol "aligned" when it is "safe and useful": if you rely on control, your safety requires continued vigilance, and conflating alignment ("we don't need to be vigilant") with safety ("we are safe because we are vigilant") makes that vigilance less likely. Elias Schmied lists ways AI safety work could be net negative, among them safety-washing, or a false sense of security from misleading or insufficiently useful safety work. The three kinds of criticism are: control does not work, works but is not worth the effort, works and makes things worse. 40: the item, safety-washing or a false sense of security. 30: the kind, works and makes things worse. 30: why: control works only while people stay vigilant, and calling the model aligned makes them feel safe enough to stop, so the risk rises. An answer that sorts it as "does not work" earns 15 of these 30 if it says the protection fails once vigilance stops. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "It is the safety-washing item: a false sense of security. It is a 'works and makes things worse' worry, because control only keeps you safe while people stay vigilant, and calling a controlled model 'aligned' tells them they can stop."
-feedback-instructions:: The learner links Greenblatt and Shlegeris's warning about the word "aligned" to Schmied's list. It is a version of safety-washing, a false sense of security, and a "works and makes things worse" worry: control keeps you safe only while people stay vigilant, and calling a controlled model aligned invites them to stop. Name the strongest part of the answer, then the single most useful fix. If the learner asks about their score, say plainly what earned and lost points. If they say they do not understand, give one foothold: ask what control needs from the people running it that alignment would not. One or two turns, 60 to 120 words each. No generic praise.
-
 #### Callout: Optional: the wider version of this worry
 collapse:: closed
 
