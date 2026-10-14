@@ -194,6 +194,8 @@ This is pretty similar to what you wrote above, but with somewhat different emph
 
 (By serious alignment, I mean we don't need humans in the loop either because of sufficient corrigibility or the AIs being good successors (aka sovereigns, though maybe less powerful than this implies).)
 
+---
+
 On **(1)** (not having a concrete plan for what to do with smarter systems), I think we should get such a plan (though I'm maybe more optimistic about being fully safety case or empirical results oriented).
 
 One **(2)** (control being used for capabilities research), this doesn't seem like an objection to labs employing control as their plan, but it is a reason why control work could be net negative. Note that one goal with control will be to prevent dangerous side effects from misaligned AIs (e.g. escaping) and applying this doesn't obviously help with capabilities research. I agree that research which just makes AIs more useful is less good than you would otherwise expect due to this issue (but making AIs more useful in adversarial cases seems good if that doesn't transfer to non-adversarial cases). Note that AIs might want to make capabilties research outpace safety and thus if we don't do the adversarial case, we might get particularly wrecked.
@@ -226,6 +228,7 @@ With the literal "argue to testers about welfare objections", my hope is that we
 
 -   We have a welfare department which talks to the AI about its preferences. (If we started this right now, we'd just have a part time welfare officer, but this would scale up over time as needed.) (There are a [number of technical issues with communicating with AIs about their preferences](https://www.lesswrong.com/posts/F6HSHzKezkh6aoTr2/improving-the-welfare-of-ais-a-nearcasted-proposal#Communicating_with_AI_Systems_and_Understanding_Their_Preferences) to be clear.)
 -   Otherwise, the AI is trained to not argue against safety measures. More specifically, if we detect this, we would investigate and see if we think this is downstream of scheming or something less concerning. We'd maybe only want to literally train against this if we don't think it's due to scheming (or at least we're not confident that it is due to scheming). (And if we do catch the AI and determine it is seriously misaligned via this route, that seems pretty good IMO.)
+---
 
 > My guess is sowing internal conflict and creating scissor statements and stuff like that is pretty feasible and doesn't require being that smart. 
 
