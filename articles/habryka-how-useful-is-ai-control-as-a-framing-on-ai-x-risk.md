@@ -151,6 +151,7 @@ Also, my guess is that it would be better to seriously restrict scaling immediat
 or [here](https://www.lesswrong.com/posts/Np5Q3Mhz2AiPtejGN/we-re-not-ready-thoughts-on-pausing-and-responsible-scaling-4#If_it_were_all_up_to_me__the_world_would_pause_now___but_it_isn_t__and_I_m_more_uncertain_about_whether_a__partial_pause__is_good).
 
 (Under my empirical views, this seems better from a variety of moral persectives, but not all moral perspectives. Under my moral and empirical views, it seems good.)
+
 ---
 
 (I agree with the case made for incremental RSP-like measures discussed in the two posts I linked above. And this is part of my motivation for control, building this sort of incremental approach. But, I also think control can be part of a much more complete overall plan and it seems good to discuss this overall plan directly.)
