@@ -18,10 +18,10 @@ source:: [[../shared/Session Doc - How today works]]
 Go around your group:
 1\. How was working through this unit's content? If you didn't finish, what got in the way?
 2\. Which criticism of control from this unit stuck with you most? If someone in your group didn't read your pick, sum it up in a sentence.
-4\. If you still have time: How do you feel about control after this unit
+{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@4\.--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@3\.++} If you still have time: {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@How--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@how++} do you feel about control after this {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@unit--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@unit?++}
 
 
-| Names | The criticism that stuck + which kind it is |
+| Names | The criticism that stuck{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ + which kind it is --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ ++}|
 |------|------------------------|
 |  |  |
 |  |  |
@@ -36,34 +36,36 @@ One or two people share what their group landed on.
 ---
 
 \pagebreak
-### Room 2: Would a profit-only company build it?  [0:24–0:42]
+### Room 2: {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Would a profit-only company build it?--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Argue against yourself++}  [0:24–0:42]
 
 **New group. Names first, then straight in.**
 
 
-Yonatan Cale's test for a safety project: could the team of a company that only cares about making money build it anyway? If yes, the work may not be neglected, and doing it may mostly make AI more profitable.
-Two replies from the unit:
+{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Yonatan Cale's test for a safety project: could the team --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@1\. Each ++}of {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@a company that only cares--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@you: how excited are you++} about{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ making money build it anyway? If yes, the --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ ++}work {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@may not be neglected, and doing it may mostly make --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@on ++}AI {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@more profitable.
+Two replies --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@control, ++}from {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@the unit:
 
-- Marius Hobbhahn, who builds monitors: monitors may make everyday AI products more capable, but are unlikely to make the most advanced AI more capable. So the risk is low and the benefits are high.
-- Alex Mallen: any research widens the set of safety and usefulness trade-offs a company can choose from. What matters is which one the company then picks. Safety research usually makes it pick more safety.
+- Marius Hobbhahn, who builds monitors: monitors may make everyday AI products more capable, but are unlikely --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@0 ++}to {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@make the most advanced AI more capable. So the risk is low and the benefits are high.--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@10?++}
+{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@- Alex Mallen: any research widens the set of safety and usefulness trade-offs a company can choose from. What matters is which one --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@2\. The highest number argues against control, ++}the {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@company then picks. Safety research usually makes it pick more safety.
 
 Control measures:
 
-- a weaker model the company trusts reads everything a stronger model does and flags suspicious actions for a human
-- a red team plays a model that is deliberately hiding attacks, to test whether that monitor catches them
-- the company pays humans to check many of the actions the monitor finds only a little suspicious, where rare, subtle attacks would hide
-- the company pauses a model after catching it trying something
+- a weaker model --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@lowest argues for it, three minutes each. Use anything from ++}the {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@company trusts reads everything a stronger model does and flags suspicious actions for a human
+- a red team plays a model that --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@unit. The others help whoever ++}is {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@deliberately hiding attacks, to test whether that monitor catches them--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@struggling.++}
+{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@- the company pays humans to check many of the actions the monitor finds only a little suspicious, where rare, subtle attacks would hide--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@3\. Say your number again. Did anyone move? What moved them?++}
+{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@- the company pauses a model after catching it trying something
 
-1\. For each measure: would the profit-only company build it? Yes, partly, or no?
-2\. Pick the measure your group split on most. Using Mallen's reply: does it mainly make safety cheaper, or mainly make the AI more useful to sell?
-3\. For that measure, whose view fits best: Cale's, Hobbhahn's or Mallen's? Your group may disagree.
-4\. What fact could someone check that would change your answer?
+1\. For each measure: would--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@4\. If you still have time: which kind was++} the {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@profit-only company build it? Yes, partly, or no?
+2\. Pick the measure your group split on most. Using Mallen's reply:--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@hardest argument: control++} does {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@it mainly make safety cheaper, or mainly make--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@not work, works but is not worth++} the{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ AI more useful to sell?
+3\. For that measure, whose view fits best: Cale's, Hobbhahn's--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ effort,++} or {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Mallen's? Your group may disagree.
+4\. What fact could someone check that would change --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@works and makes things worse?
+
+If a question is unclear, ask ++}your {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@answer?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+Want help --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@navigator ++}or {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@an explanation for this question? Copy --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@copy ++}it into{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ the--} [Lens{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ Tutor](https://lensacademy.org/tutor).++}
 
 
-| Names | Built anyway or not + the measure you split on + whose view fits it + a fact that would change your answer |
+| Names |{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ Built anyway or not + the measure you split on + whose view fits it --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ Your number before → after ++}+ {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@a fact that would change your answer --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@the hardest argument ++}|
 |------|------------------------|
 |  |  |
 |  |  |
@@ -81,33 +83,40 @@ One or two people share what their group landed on.
 ### Break: 5 min  [0:47–0:52]
 
 \pagebreak
-### Room 3: Warning shots: argue the other side  [0:52–1:10]
+### Room 3: {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Warning shots: argue the other side--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Which backfire worries you most?++}  [0:52–1:10]
 
 **New group. Names first, then straight in.**
 
 
-The case, from the unit's "Trace the mechanism" exercise: a company runs a monitor that blocks every attempt by its agents to escape their test environment, and keeps the blocked attempts internal.
+{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@The case, from the unit's "Trace the mechanism" exercise: a company runs a monitor that blocks every attempt by its agents to escape their test environment, and keeps--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Ways++} the {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@blocked attempts internal.
 1\. Gut call, one sentence each: does this monitor make a catastrophe more or less likely?
-2\. Each person argues for the answer they did not pick, two minutes each. If you all agree, split anyway. Arguments from the reading:
+2\. Each person argues for--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@unit says control could make things worse:
+
+- It turns moderate, visible AI incidents into quiet catches, so++} the {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@answer they did not pick, two minutes each. If you all agree, split anyway. Arguments from--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@world never gets++} the {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@reading:
 
 Against the monitor:
 
-- Jan Kulveit: moderate, visible incidents push the world to act. Control turns them into quiet catches inside a company, or into a larger failure later, by a smarter AI.
-- Vincent Cheng, after AI agents built by OpenAI escaped their test environment in 2026 and broke into the systems of Hugging Face, an AI tools company: the escape "caused ~zero existential risk and triggered a much larger positive response". Had it been caught, a few OpenAI researchers would have stopped the test without telling anyone.
+- Jan Kulveit: moderate, visible incidents--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@warning shot that would++} push {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@the world --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@it ++}to act.{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ Control turns them into quiet catches inside--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@
+- It gives false confidence:++} a {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@company,--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@company++} or {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@into a larger failure later, by a smarter AI.--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@the public feels safer than it is.++}
+- {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Vincent Cheng, after--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@It makes++} AI {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@agents built by OpenAI escaped their test environment in 2026 and broke into the systems of Hugging Face, an --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@reliable enough to sell, so ++}AI {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@tools company: the escape "caused ~zero existential risk--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@is deployed more++} and{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ triggered a much larger positive response". Had it been caught, a few OpenAI researchers would have stopped the test without telling anyone.
 
-For the monitor:
+For the monitor:--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ sooner.
+- Training against caught attempts selects for AIs that hide their attacks better.++}
 
-- Ryan Greenblatt: most of an AI's best moves for gaining power, like secretly running itself inside the lab or sabotaging research, would not turn into a visible incident anyway. He grants that escape is the one exception. Without control, we might catch far fewer of these moves.
-- kave: "It seems naïvely evil to knowingly let the world walk into a medium-sized catastrophe."
+{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@- Ryan Greenblatt: most--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@1\. Each++} of {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@an AI's best moves for gaining power, like secretly running itself inside--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@you ranks these privately, from++} the {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@lab or sabotaging research, would not turn into a visible incident anyway. He grants that escape is --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@one that worries you most to ++}the one {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@exception. Without control, we might catch far fewer of these moves.--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@that worries you least.++}
+{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@- kave: "It seems naïvely evil to knowingly let --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@2\. Compare your rankings. Argue out ++}the {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@world walk into a medium-sized catastrophe."
 
-3\. List what must be true for "more likely" to be right, and for "less likely". On each side, mark the one your group is least sure of.
+--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@item you ranked furthest apart.
+++}3\. {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@List what must be true for "more likely" to be right, and for "less likely". On each side, mark the one your group --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Which of these could control researchers most easily guard against? How?
+
+If a question ++}is{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ least sure of.
 4\. Decide: keep the monitor as it is, change it so outsiders learn more of what it catches, or drop it. Write down what that costs.
 
 
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+Want help --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ unclear, ask your navigator ++}or{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ an explanation for this question? Copy --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ copy ++}it into{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ the--} [Lens {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Tutor](https://lensacademy.org/tutor).++}
 
 
-| Names | What each side depends on that you are least sure of + keep, change or drop + its cost |
+| Names | {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@What each side depends on that--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Your top worry + the item++} you {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@are least sure of --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@split on ++}+ {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@keep, change or drop + its cost--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@what would guard against it++} |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -122,17 +131,21 @@ One or two people share what their group landed on.
 ---
 
 \pagebreak
-### Room 4: An open question, next unit  [1:15–1:27]
+### Room 4: {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@An open question,--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Your number again,++} next unit  [1:15–1:27]
 
 **New group. Names first, then straight in.**
 
 
-1\. One question this unit left open for you.
-2\. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
+1\. {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@One question this unit left open for you.--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Go around: your 0 to 10 from Room 2, and your number now.++}
+2\. {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Next unit: What--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Whoever moved most explains what moved them. The others: did the same thing move you?
+3\. If you still have time: what++} is most likely to stop you finishing {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@it, --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@the next unit, ++}and what's your plan to prevent that? (Send the plan to your buddy after the meeting.){--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@
 
 
 
-| Names | One open question + your plan for the next unit |
+--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@
+
+
+++}| Names | {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@One open question--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Your number in Room 2 → now + what moved it++} + your plan for the next unit |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -167,12 +180,12 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:00–0:05 | Lobby / welcome (whole group) |
 | 0:05–0:19 | R1 Icebreaker (breakout, aim 3) |
 | 0:19–0:24 | Back together (whole group) |
-| 0:24–0:42 | R2 Would a profit-only company build it? (reshuffle) |
+| 0:24–0:42 | R2 {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Would a profit-only company build it?--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Argue against yourself++} (reshuffle) |
 | 0:42–0:47 | Back together (whole group) |
 | 0:47–0:52 | Break |
-| 0:52–1:10 | R3 Warning shots: argue the other side (reshuffle) |
+| 0:52–1:10 | R3 {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Warning shots: argue the other side --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Which backfire worries you most? ++}(reshuffle) |
 | 1:10–1:15 | Back together (whole group) |
-| 1:15–1:27 | R4 An open question, next unit (reshuffle) |
+| 1:15–1:27 | R4 {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@An open question,--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Your number again,++} next unit (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
 
 ### Lobby/Welcoming the participants
@@ -187,7 +200,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 2. Name the new format (small breakout rooms of 3, new people each time, and a five-minute get-together after each room where anyone can share what their group landed on)
 3. Tell them the doc is in the chat + Discord and to open it + check they can type
 4. Run through the arc
-    - opening round and sorting the criticism that stuck → would a profit-only company build it? → warning shots, arguing the other side → an open question and planning
+    - opening {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@round and sorting --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@round, ++}the criticism that stuck → {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@would a profit-only company build it?--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@rate control from 0 to 10 and argue against your own number++} → {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@warning shots, arguing the other side--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@rank the ways control could backfire++} → {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@an open question--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@your number again,++} and planning
     - say the meeting will take 90 min
 5. Inform participants that you will be jumping between rooms with your camera turned off to listen in and they can ask questions whenever you join
 6. Start room 1
@@ -224,10 +237,11 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 ### Per-room notes for Unit 4
 
 **General, all rooms.** This course presents the case for control and the criticisms of it, and asks each participant to form their own view in Unit 5. Never say or hint which side is right, in a room or between rooms, and do not reward one side's answers with more warmth than the other's. If someone asks your view, say the course is built so they reach their own, and turn the question back. The unit is about 4 hours across ten lessons in two modules, plus two short tests, so expect uneven reading. Every room works from the doc alone, so do not re-teach.
-**Room 1, Icebreaker.** Ask 3 is the unit's sorting. Take quick answers and let disagreements stand: several criticisms have two sides, and the unit says the sorting shows what a criticism disputes, not whether it is right. For your own use, the unit's reference sortings: Wentworth mainly "not worth the effort", Habryka and Jozdien mostly "does not work" with a "makes things worse" side, MIRI "does not work" for superintelligence plus "not worth the effort", Cale "not worth the effort" with a "makes things worse" side, Kulveit "makes things worse", Manheim "makes things worse", the two experiments (Terekhov, Ge-Wang) mainly "does not work" with Defer-to-Resample backfiring as a small "makes things worse" case, power concentration "makes things worse", and AI welfare none of the three: it is a moral cost of control working, not a claim that it fails or backfires. Do not read these out as answers.
-**Room 2, Would a profit-only company build it?** Keep ask 1 to five minutes. The split to listen for, from the unit: a profit-only company plausibly builds monitors that catch costly mistakes and obvious misbehaviour, because that makes agents reliable enough to sell, and is less likely to pay for the parts aimed at a model that is deliberately hiding attacks (red teams that assume scheming, review budgets for rare subtle attacks, pauses that cost money). Ask 2 applies Mallen's reply, which turns Cale's question into "does this measure mainly make safety cheaper, or mainly make more usefulness possible?" Asks 2 and 3 need the most time. In ask 3, any of the three views is a fine answer, so do not signal a favourite. For ask 4, push for a fact someone could check, such as whether companies already ship such monitors.
-**Room 3, Warning shots: argue the other side.** This is the live debate of the course, and Unit 5 is built around it, so keep the room on arguments, not verdicts. In ask 2, hold people to the side they did not pick, and time the turns. For ask 3, premises to listen for on the "more likely" side, from the unit's own exercise: some blocked attempts were real, a visible incident would have moved companies or governments, the company would not disclose catches by itself, and the incident would have been moderate rather than catastrophic. For "less likely", premises to listen for: the monitor catches real attempts, the company acts on what it catches, and catching attempts gives as much warning as a visible incident would. Greenblatt's point that most power-seeking moves stay quiet anyway applies to moves like rogue internal deployment and sabotage. He grants that escape, the case in this room, is the one move that could trigger a stronger response if it is caught after it escalates. So a group can use his point to ask what else the same monitor catches, not to argue that a blocked escape would never have become visible. Changes that the unit's tutor suggests for ask 4: report catches to an outside body, log and detect instead of only blocking, replay blocked actions in a sandbox, or pause scaling until the cause is understood. Gunnar Zarncke's comment fits here: control used by outside auditors would have different effects. Keeping the monitor as it is and dropping it are both allowed answers if the group says why. Kulveit himself says he is not advocating deliberately creating warning shots, so do not let a group attribute that position to him.
-**Room 4, An open question, next unit.** Ask 1 gives the room something besides logistics. Unit 5 is the last of the course, about 4 hours, and ends with each person writing down their own view and comparing it with the gut view from Unit 1. Push for a concrete plan (when, where, how much at a time), not a promise.
+**Room 1, Icebreaker.**{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ Ask 3 is the unit's sorting.--} Take quick {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@answers and let disagreements stand: several criticisms have two sides, and the unit says the sorting shows what a criticism disputes, not whether it is right. For your own use, the unit's reference sortings: Wentworth mainly "not worth the effort", Habryka and Jozdien mostly "does not work" with a "makes things worse" side, MIRI "does not work" for superintelligence plus "not worth the effort", Cale "not worth the effort" with a "makes things worse" side, Kulveit "makes things worse", Manheim "makes things worse", the--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@answers. If++} two{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ experiments (Terekhov, Ge-Wang) mainly "does not work" with Defer-to-Resample backfiring as a small "makes things worse" case, power concentration "makes things worse", and AI welfare none of--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ people picked++} the {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@three: it is a moral cost of control working, not a claim that it fails or backfires. Do not read these out as answers.--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@same criticism, let them compare why.++}
+**Room 2, {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Would a profit-only company build it?** Keep ask 1 to five minutes. The split to listen for, from the unit: a profit-only company plausibly builds monitors that catch costly mistakes and obvious misbehaviour, because that makes agents reliable enough to sell, and is less likely to pay--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Argue against yourself.** Take every number before anyone argues. If two people tie++} for {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@the parts aimed at a model that--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@highest or lowest, pick either. If everyone++} is{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ deliberately hiding attacks (red teams that assume scheming, review budgets for rare subtle attacks, pauses that cost money). Ask 2 applies Mallen's reply, which turns Cale's question into "does this measure mainly make safety cheaper, or mainly make more usefulness possible?" Asks 2 --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ close, the highest still argues against ++}and{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ 3 need--} the{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ most time. In ask 3, any of--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ lowest for. Time++} the three {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@views is--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@minutes. Arguing++} a {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@fine answer, so do --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@side one does ++}not{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ signal a favourite. For ask 4, push for a fact someone could check, such as whether companies already ship such monitors.
+**Room 3, Warning shots: argue the other side.** This --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ hold ++}is the {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@live debate of the course, and Unit 5 is built around it, --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@point, ++}so {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@keep the room on arguments, --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@do ++}not {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@verdicts. In ask 2, hold --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@let ++}people {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@to the side they did not pick, and time the turns. For ask 3, premises to listen for on--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@slip back into their own view. Ask 4 uses++} the {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@"more likely" side, from the --}unit's {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@own exercise: some blocked attempts were real, a visible incident would --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@three kinds. Several criticisms ++}have{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ moved companies or governments, the company would not disclose catches by itself, and the incident would have been moderate rather than catastrophic. For "less likely", premises to listen for: --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ two sides, so let disagreements stand.
+**Room 3, Which backfire worries you most?** The four items come from ++}the {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@monitor catches real attempts, the company acts on what it catches, --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@unit: Kulveit on warning shots, Manheim, Schmied and Greenblatt ++}and {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@catching attempts gives as much warning as a visible incident would. Greenblatt's point that most power-seeking moves stay quiet anyway applies to moves like rogue internal deployment and sabotage. He grants that escape,--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Shlegeris on false confidence, Cale and Habryka on making AI more profitable, Habryka and Jozdien on selecting for better-hidden schemers. Rankings must be made before anyone talks. In ask 2, push for++} the {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@case in this room, is--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@item ranked furthest apart, not++} the one {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@move that could trigger a stronger response if it is caught after it escalates. So--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@everyone agrees on. Ask 3 has no answer key. Examples++} a group {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@can use his point to ask what else the same monitor catches, not to argue that a blocked escape would never have become visible. Changes that the unit's tutor suggests for ask 4: report catches--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@might reach: disclosing caught attempts++} to an outside body,{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ log and detect instead of only blocking, replay blocked actions in a sandbox, or pause scaling until the cause is understood. Gunnar Zarncke's comment fits here: control used by outside auditors would have different effects. Keeping the monitor as it is and dropping it are both allowed answers if the group says why. Kulveit himself says he is --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ saying what an evaluation does not cover, ++}not {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@advocating deliberately creating warning shots, so do--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@training directly against caught attempts. Do++} not {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@let a group attribute that position to him.--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@rank the items yourself.++}
+**Room 4, {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@An open question,--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Your number again,++} next unit.** {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Ask 1 gives the room something besides logistics. Unit 5 is--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@People who were not in++} the {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@last of the course, about 4 hours, and ends with each person writing down their own view and comparing it with the gut view from Unit 1.--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@same Room 2 compare their numbers, so remind them to say where they started. Moving in either direction, or not moving, is equally fine.++} Push for a concrete plan (when, where, how much at a time), not a promise.
 
 # Tab: Glossary
 style:: plain
