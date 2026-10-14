@@ -74,6 +74,7 @@ One or two people share what their group landed on.
 Ways the unit says control could make things worse:
 
 - It hides warning shots.
+- It gives false confidence.
 - It makes AI easier to sell.
 - It breeds better schemers.
 
