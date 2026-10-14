@@ -21,6 +21,8 @@ The patterns below come from the **AI Risk Fundamentals** course (`IABIED` prefi
 - Define a key term before you lean on it. Never drop a term in cold.
 - An overview opens with who the course is for and what they get from it, as prose.
 - The items of one list are one kind of thing (all questions, or all topics), not a mix.
+- No nested list hidden in a bullet. "- **Work with companies.** Fact one. Fact two. Fact three." should become either prose, or a label bullet with each fact in its own indented sub-bullet. A single fact with its label stays one bullet.
+- Don't explain what the page already shows: that footnotes can be hovered or tapped, that boxes can be opened, or that a page is "a summary, not a source text". An intro says what the page is about and any real caveat ("numbers as of October 2026 are rough").
 - When a subagent drafted the text, do a language pass on it yourself before anyone else sees it.
 
 ## Estimate every lens's time
