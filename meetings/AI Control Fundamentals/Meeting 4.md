@@ -67,40 +67,26 @@ One or two people share what their group landed on.
 ### Break: 5 min  [0:47–0:52]
 
 \pagebreak
-### Room 3: {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Warning shots: argue the other side--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Which backfire worries you most?++}  [0:52–1:10]
+### Room 3: Which backfire worries you most?  [0:52–1:10]
 
 **New group. Names first, then straight in.**
 
 
-{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@The case, from the unit's "Trace the mechanism" exercise: a company runs a monitor that blocks every attempt by its agents to escape their test environment, and keeps--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Ways++} the {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@blocked attempts internal.
-1\. Gut call, one sentence each: does this monitor make a catastrophe more or less likely?
-2\. Each person argues for--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@unit says control could make things worse:
+Ways the unit says control could make things worse:
 
-- It turns moderate, visible AI incidents into quiet catches, so++} the {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@answer they did not pick, two minutes each. If you all agree, split anyway. Arguments from--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@world never gets++} the {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@reading:
+- It turns moderate, visible AI incidents into quiet catches, so the world never gets the warning shot that would push it to act.
+- It gives false confidence: a company or the public feels safer than it is.
+- It makes AI reliable enough to sell, so AI is deployed more and sooner.
+- Training against caught attempts selects for AIs that hide their attacks better.
 
-Against the monitor:
+1\. Each of you ranks these privately, from the one that worries you most to the one that worries you least.
+2\. Compare your rankings. Argue out the item you ranked furthest apart.
+3\. Which of these could control researchers most easily guard against? How?
 
-- Jan Kulveit: moderate, visible incidents--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@warning shot that would++} push {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@the world --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@it ++}to act.{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ Control turns them into quiet catches inside--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@
-- It gives false confidence:++} a {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@company,--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@company++} or {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@into a larger failure later, by a smarter AI.--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@the public feels safer than it is.++}
-- {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Vincent Cheng, after--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@It makes++} AI {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@agents built by OpenAI escaped their test environment in 2026 and broke into the systems of Hugging Face, an --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@reliable enough to sell, so ++}AI {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@tools company: the escape "caused ~zero existential risk--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@is deployed more++} and{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ triggered a much larger positive response". Had it been caught, a few OpenAI researchers would have stopped the test without telling anyone.
-
-For the monitor:--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ sooner.
-- Training against caught attempts selects for AIs that hide their attacks better.++}
-
-{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@- Ryan Greenblatt: most--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@1\. Each++} of {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@an AI's best moves for gaining power, like secretly running itself inside--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@you ranks these privately, from++} the {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@lab or sabotaging research, would not turn into a visible incident anyway. He grants that escape is --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@one that worries you most to ++}the one {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@exception. Without control, we might catch far fewer of these moves.--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@that worries you least.++}
-{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@- kave: "It seems naïvely evil to knowingly let --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@2\. Compare your rankings. Argue out ++}the {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@world walk into a medium-sized catastrophe."
-
---}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@item you ranked furthest apart.
-++}3\. {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@List what must be true for "more likely" to be right, and for "less likely". On each side, mark the one your group --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Which of these could control researchers most easily guard against? How?
-
-If a question ++}is{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ least sure of.
-4\. Decide: keep the monitor as it is, change it so outsiders learn more of what it catches, or drop it. Write down what that costs.
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
-Want help --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ unclear, ask your navigator ++}or{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ an explanation for this question? Copy --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ copy ++}it into{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ the--} [Lens {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Tutor](https://lensacademy.org/tutor).++}
-
-
-| Names | {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@What each side depends on that--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Your top worry + the item++} you {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@are least sure of --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@split on ++}+ {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@keep, change or drop + its cost--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@what would guard against it++} |
+| Names | Your top worry + the item you split on + what would guard against it |
 |------|------------------------|
 |  |  |
 |  |  |
