@@ -7,8 +7,12 @@ authors:
   - Leon Lang (Iliad)
   - Joar Skalse (Deducto Limited, King’s College London)
 source_url: https://iliad-intensive.org/alignment/reward-learning-theory/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "reward-learning-theory#prerequisites"
+upstream_fingerprint: "uUNLJdKiLIbSCkM/251/1/0Cop0S5g0Ufd0ctt0oj51AsK1e9p1utu22xi2UXI2Ysg2dOU3A4F3Ni43tbv3yz846ta4HO54ezF4r055KCQ5Myr5YxB5gWI5ljq66f66FSo6w8l7LFx7gbh7k2j7pfV"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/alignment/reward-learning-theory/#prerequisites"
 ---
 
 #### Text

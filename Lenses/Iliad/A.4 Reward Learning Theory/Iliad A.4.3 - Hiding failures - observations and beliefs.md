@@ -7,8 +7,12 @@ authors:
   - Leon Lang (Iliad)
   - Joar Skalse (Deducto Limited, King’s College London)
 source_url: https://iliad-intensive.org/alignment/reward-learning-theory/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "reward-learning-theory#1-hiding-failures"
+upstream_fingerprint: "GDEXj41YF0oiWNhKQ3/2000/1/04IU08dV0Flq0J4s0btE0btG0mKy0oCx0oSZ0rDA105b15EQ1Jw61OF51OTZ1UNW1War1dWI1hgT1jO31jyz1lBK1szb1wTz263r2FxG2JZX2Lh62PTB2TwW2hSD2jfd"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/alignment/reward-learning-theory/#1-hiding-failures"
 ---
 
 #### Text
@@ -19,7 +23,7 @@ An AI assistant is asked to install Nvidia drivers and CUDA on a user's machine.
 
 **The MDP.**  The full MDP is depicted in Figure 1. We use a finite horizon $$T = 3$$ and $$\gamma = 1$$:
 
-![The CUDA-installation MDP and its observation kernel (Lang et al. 2024, Figure 6A). Edges are labeled by the action triggering the transition; the small number in the top right of each state box is its reward; the small symbol in the bottom-right of each state box is its observation under .](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-a4-expanded-example-figure1-13ce4b5a.png)
+![The CUDA-installation MDP and its observation kernel (Lang et al. 2024, Figure 6A). Edges are labeled by the action triggering the transition; the small number in the top right of each state box is its reward; the small symbol in the bottom-right of each state box is its observation under .](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-reward-learning-theory-expanded-example-figure1-3341f94d.png)
 
 The CUDA-installation MDP and its observation kernel (Lang et al. 2024, Figure 6A). Edges are labeled by the action triggering the transition; the small number in the top right of each state box is its reward; the small symbol in the bottom-right of each state box is its observation under $$O$$.
 

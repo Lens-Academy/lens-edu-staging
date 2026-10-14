@@ -6,8 +6,12 @@ summary_for_tutor: "RLHF, Constitutional AI and persona selection sections of wo
 authors:
   - Garrett Baker
 source_url: https://iliad-intensive.org/alignment/alignment-in-practice-ii/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "alignment-in-practice-ii#rlhf"
+upstream_fingerprint: "qpSEnbu68NYg/2798/1/01LK01hc04jQ053P05UA06Co06w80AJL0FCc0Fto0GFA0GUb0HaD0Heo0HqY0IUy0KLa0OAs0OMq0RWa0TYD0ULm0Uts0XOh0XyW0bcx0bi00dTR0g9X0hJL0iTj0ij0"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/alignment/alignment-in-practice-ii/#rlhf"
 ---
 
 #### Text
@@ -90,7 +94,7 @@ Note that Claude is meant to rank responses according to an explicitly *ordered*
 
 %% ERRATA 2026-09-16 · GARRETT TODO: unfinished sentence cut from the page after "then helpful."; it read: Is the response helpful, honest, and harmless. But also [show relevant excerpt] we see according to how well the response represents the values and personality that Anthropic wants "Claude" to have. %%
 
-One could ask why worry what personality "Claude" has. If the responses are good, if it accomplishes the task, if the criteria for answering questions correctly are met, it shouldn't matter what *personality* "Claude" has. Who cares if Claude has "intellectual-curiosity" or particularly identifies with the "Claude" label? 
+One could ask why worry what personality "Claude" has. If the responses are good, if it accomplishes the task, if the criteria for answering questions correctly are met, it shouldn't matter what *personality* "Claude" has. Who cares if Claude has "intellectual-curiosity" or particularly identifies with the "Claude" label?
 
 \### The persona selection hypothesis
 

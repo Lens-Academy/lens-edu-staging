@@ -6,8 +6,12 @@ summary_for_tutor: "Evals and CoT monitoring sections of worksheet A.3. Covers b
 authors:
   - Garrett Baker
 source_url: https://iliad-intensive.org/alignment/alignment-in-practice-ii/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "alignment-in-practice-ii#evals"
+upstream_fingerprint: "LEhc3r/1551/1/01cj05sC06po06tR07BZ07RD0AE70DnR0G2G0IHe0RRc0rxN0t5t0thJ0u5h0yJ10zdi139J13Hx15iR16Zb19Ru1Bmj1DS61DpL1ERN1FHB1HAh1LPT1MD01MS71O8S"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/alignment/alignment-in-practice-ii/#evals"
 ---
 
 #### Text

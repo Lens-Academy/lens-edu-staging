@@ -6,8 +6,12 @@ summary_for_tutor: "RLVR section of worksheet A.3. Models are graded solely on a
 authors:
   - Garrett Baker
 source_url: https://iliad-intensive.org/alignment/alignment-in-practice-ii/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "alignment-in-practice-ii#rlvr"
+upstream_fingerprint: "fHjpWJ/826/1/00hp01hc04eW0AMA0KLa0Onq0SsW0Uts0hdM0jE00lQO0t5t1ARD1AsK1DpL1Luc1Rlu1Rxh1T7S1V7i1h1x1xh51yxy28hG2F2Q2NHX2NNu2VLQ2a6b2jd82mCb2s5H"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/alignment/alignment-in-practice-ii/#rlvr"
 ---
 
 #### Text

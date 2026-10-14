@@ -6,8 +6,12 @@ summary_for_tutor: "AI control section of worksheet A.3. Control reasons from th
 authors:
   - Garrett Baker
 source_url: https://iliad-intensive.org/alignment/alignment-in-practice-ii/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "alignment-in-practice-ii#ai-control"
+upstream_fingerprint: "lx6pkX/1186/1/00sq08X20AMA0OCZ0ROe0RXO0btE0ghv0joS0nRX0sQR0za50zph12NC16Vk17rE1AsK1Ksk1N3a1UUb1WC51ZDz1aO21abg1bMU1ebN1eqI1jvc1luJ1oIv1oKG1oLR"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/alignment/alignment-in-practice-ii/#ai-control"
 ---
 
 #### Text
@@ -40,7 +44,7 @@ One wonders whether if such mitigations were in place, the OpenAI Hugging Face h
 
 ![Pasted image 20260812120635](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/baker-alignment-in-practice-2-img2-8b09c70d.png)
 
-Even a very stupid model should be able to see that, say "holy shit, that's not good", and pull the alarm bells, or mark this maximally suspicious. 
+Even a very stupid model should be able to see that, say "holy shit, that's not good", and pull the alarm bells, or mark this maximally suspicious.
 
 \## Discussion prompt
 
