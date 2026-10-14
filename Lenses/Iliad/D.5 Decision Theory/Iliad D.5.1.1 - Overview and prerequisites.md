@@ -7,8 +7,12 @@ authors:
   - Daniel C
   - Satya Benson
 source_url: https://iliad-intensive.org/agency/decision-theory/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "decision-theory#1-prerequisites"
+upstream_fingerprint: "hggDEjX5X/448/1/00Zo04wD06Ll0NGM0aFN0cf00e8S0wmS1H3t1VNv1fxR1iWe1j3X1tFr21AE2NOB2nOP2s5B30oD3BHT3c973oNb3wmV4J1R4Q2J4QiO4RNW4VIz4bYW4mzg4ne04pgn"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/decision-theory/#1-prerequisites"
 ---
 
 #### Text

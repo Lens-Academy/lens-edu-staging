@@ -4,10 +4,14 @@ title: "D.6.4 Relabelling states and keeping options open"
 tldr: "Shows how permutations act on rewards and options and preserve quality, then defines what it means for one action to keep at least as many options open as another."
 summary_for_tutor: "Final part of section 2 and section 3 of Iliad worksheet D.6 Instrumental Convergence. Contains Definition 2.8 (permutation action) and Exercise 2.3 with collapsed solution (inner products are preserved), Definition 3.1 (options under an action F(s|a)), Definition 3.2 (containment up to relabelling), Definition 3.3 (one-sided dynamics embedding) and Exercise 3.1 with a collapsed hint and solution (an embedding gives phi.F(s|a') contained in F(s|a)). Keep the notation phi, F(s|a), R'. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
-  - "Leon Lang (ILIAD), based on work by Alex Turner et al."
+  - Leon Lang (ILIAD), based on work by Alex Turner et al.
 source_url: https://iliad-intensive.org/agency/power-seeking/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "power-seeking#relabelling-states"
+upstream_fingerprint: "0BCaR8vI76OD/847/1/02k30BUv0E9M0lWg0oSZ1SLT1hb72FRh2Iwv2Jjc2SwD2VDU2W9V2iEx2tYR3Bdg3HNh3W7B3rcq3rkg40fx47Xl498k4OJL4edo4g5s4yJ55CeC5RN75Wvo5ed65o3M"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/power-seeking/#relabelling-states"
 ---
 
 #### Text

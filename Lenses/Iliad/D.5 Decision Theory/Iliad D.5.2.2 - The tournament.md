@@ -7,8 +7,12 @@ authors:
   - Daniel C
   - Satya Benson
 source_url: https://iliad-intensive.org/agency/open-source-game-theory/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "open-source-game-theory#2-the-tournament"
+upstream_fingerprint: "pdt0UJ/545/1/0OFO0Ope0U0Y0VrF0YJA0cXY0hPr16VG1EEs1H3t1OHS1hpG1qMP2CYM2NxN2RFE2e362ro12wrn2x8M2ylR31PW32uq3QFb3qwW3uhf3xBh42DX47Qy4DK14HSe4PQS"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/open-source-game-theory/#2-the-tournament"
 ---
 
 #### Text

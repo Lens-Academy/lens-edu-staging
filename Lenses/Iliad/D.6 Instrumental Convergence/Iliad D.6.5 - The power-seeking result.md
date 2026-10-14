@@ -4,10 +4,14 @@ title: "D.6.5 The power-seeking result"
 tldr: "Proves that for a score rule and a symmetric reward distribution, the option-richer action is at least as likely as the poorer one for at least half of the reward functions, and works an example about gaining resources."
 summary_for_tutor: "The result section of Iliad worksheet D.6 Instrumental Convergence. Contains Exercise 3.2 (for a score rule p and an involution phi that embeds a' into a and is a symmetry of D, P[A(r) >= A'(r)] >= 1/2) with a collapsed hint and solution using retargeting and pairing, followed by the example 'gaining resources' with conditions (E) and (D), the strict-majority argument and alignment implications. Keep the notation A(r), A'(r), N_r. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
-  - "Leon Lang (ILIAD), based on work by Alex Turner et al."
+  - Leon Lang (ILIAD), based on work by Alex Turner et al.
 source_url: https://iliad-intensive.org/agency/power-seeking/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "power-seeking#the-result"
+upstream_fingerprint: "DvjBiS8uR/862/1/0MLJ0Q0e0QpV0kKv0ze31Rlu1YWs1Ycq1afK1wEy20m923Bb24Eq24ZH2IcU2rSH2skn2tYR2wrn37NB3BQz3Fop3VAQ3W7B3ar03fYM3iiT3sIG3wmV3xzv40Xs4A1F"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/power-seeking/#the-result"
 ---
 
 #### Text
@@ -72,7 +76,7 @@ the inequality because $$G\subseteq{\mathcal{F}}(s\mid a)$$. As $$N_{r}({\mathca
 
 Consider the environment
 
-![diagram](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-power-seeking-tikz-c2cf25fd2b4e-1016695c.png)
+![diagram](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-power-seeking-tikz-c2cf25fd2b4e-385e2574.png)
 
 At $$s$$ the agent may **gain resources** ($$a$$), reaching $$G_{1}$$ — a state it can *rest* in (a $$1$$-cycle) or *leverage* to move on to a further achievement $$G_{2}$$; or **forgo** them ($$a'$$), leading to the single modest outcome $$B$$. Both $$B$$ and $$G_{2}$$ are terminal. Fix any $$\gamma \in (0,1)$$. The options under each action are the visitation distributions
 

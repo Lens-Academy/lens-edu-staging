@@ -4,10 +4,14 @@ title: "D.6.2 Reward distributions and value functions"
 tldr: "Fixes a distribution over reward functions and its symmetries, then defines value functions and state-visitation distributions, showing that value is linear in the reward."
 summary_for_tutor: "Sections 1 and the start of 2 of Iliad worksheet D.6 Instrumental Convergence. Covers the reward distribution D (a Borel measure on R^d), Definition 1.1 (symmetry of D, relabelling phi.r), Definition 2.1 (value function), Definition 2.2 (state-visitation distribution f^pi(s)), Definition 2.3 (option set F(s)) and Exercise 2.1 with collapsed solution (V = f^T r, optimal policy as linear optimisation over F(s)). Keep the notation D, phi.r, f^pi(s), F(s). Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
-  - "Leon Lang (ILIAD), based on work by Alex Turner et al."
+  - Leon Lang (ILIAD), based on work by Alex Turner et al.
 source_url: https://iliad-intensive.org/agency/power-seeking/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "power-seeking#1-for-the-majority-of-reward-functions"
+upstream_fingerprint: "hXlj9qZJWdCMYeAict/974/1/00pm0Hdx0QMw0QVS0UfY0niY0oSZ1IhF1YMm1bmR1evK1kJk1rzF26kW27De2Bad2Jxl2MLi2N5Y2ZCd2cBM2moE2tYR388g3ASX3C363GeH3S2h3Vyx3Xq43c483dfa"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/power-seeking/#1-for-the-majority-of-reward-functions"
 ---
 
 #### Text

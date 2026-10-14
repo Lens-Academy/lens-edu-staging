@@ -4,10 +4,14 @@ title: "D.6.1 Introduction and setup"
 tldr: "Introduces instrumental convergence and power-seeking, the central claim about keeping options open, and the setup of rewardless MDPs and reward functions used throughout the worksheet."
 summary_for_tutor: "Opening part of Iliad worksheet D.6 Instrumental Convergence: prerequisites, learning outcomes, the question of whether a trained agent seeks power, and the central claim that for most reward functions keeping more options open is likelier. Contains Definition 0.1 (rewardless MDP, policy, indicator vector e_s) and Definition 0.2 (reward function as a vector in R^d); the discount factor gamma is fixed once. Keep the three phrases to formalise: majority of reward functions, suitable decision rule, keeping more options open. The lens text also contains the day schedule and facilitator notes."
 authors:
-  - "Leon Lang (ILIAD), based on work by Alex Turner et al."
+  - Leon Lang (ILIAD), based on work by Alex Turner et al.
 source_url: https://iliad-intensive.org/agency/power-seeking/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "power-seeking#"
+upstream_fingerprint: "oGJCLneu9DmY/1059/1/01LK06uN0AyU0EE80JVi0OxA0WPY0X5Y0bp40ctt0kW40mKy0vnR0xvj0znV105b11KF1K1n1LNz1Rxh1Zby1fPT1kI31yP520mx250B260A29PD2DY32E0G2G822JN9"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/power-seeking/"
 ---
 
 #### Text
@@ -23,7 +27,7 @@ The students understand the proofs for power-seeking tendencies based on Alex Tu
 :::
 
 %% Facilitator logistics (hidden from learners):
-\## Roadmap for today
+**Roadmap for today.**
 
 Outline of the day:
 
@@ -37,11 +41,15 @@ Outline of the day:
 - 17:00 – 17:15: Brainstorming of limitations / critiques / ideas and theoretical/empirical hypotheses
 - 17:15 – 17:45: Students present and discuss their ideas
 
+**Intents of subsection**
+
 In the exercises, the participants learn to understand one model of the reward function distribution, decision rule, and conceptualization of "power" in detail, and learn the mathematical arguments connecting them in detail. This is useful as learning one model in detail helps to quickly understand all variations that are discussed in many of Turner's papers.
 
 The readings teach the participants variations of the concepts and results, which may help them to appreciate the breadth and limitations of the results better.
 
 Finally, the brainstorming of limitations and ideas gets participants into a critical mindset and makes them think through whether the theoretical notions of power capture what we mean, and how to go beyond. This is important since the applicability of the results to actual AI training processes is questioned by many people in the community.
+
+**Teaching notes**
 
 I think the setup I chose (together with Claude) in the exercise sheet has some advantages compared to Turner's original treatment of the results:
 

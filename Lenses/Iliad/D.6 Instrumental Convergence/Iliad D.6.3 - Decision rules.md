@@ -4,10 +4,14 @@ title: "D.6.3 Decision rules"
 tldr: "Defines decision rules over the options at a state, expected-utility-determined rules (optimal, Boltzmann, satisficing) and score rules."
 summary_for_tutor: "Part of section 2 of Iliad worksheet D.6 Instrumental Convergence on suitable decision rules. Contains Definition 2.4 (decision rule p(X|s,r), quality f^T r), Definition 2.5 (EU-determined rule via multisets of qualities), Definition 2.6 (FracOpt, Boltzmann Bz_T, satisficing Sat_t), Exercise 2.2 with collapsed solution (these are EU-determined) and Definition 2.7 (score rule with nondecreasing nu; Bz_T and Sat_t are score rules, FracOpt is not). Keep the notation p, nu, EU_r. Let the student attempt each exercise before revealing or paraphrasing a solution."
 authors:
-  - "Leon Lang (ILIAD), based on work by Alex Turner et al."
+  - Leon Lang (ILIAD), based on work by Alex Turner et al.
 source_url: https://iliad-intensive.org/agency/power-seeking/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "power-seeking#decision-rules"
+upstream_fingerprint: "Zkq3hv/676/1/0Nz90Ut10alz0txr0wdB1Fvi1J6Y1l8028tD2Xwo2ltc3EGY3haI3i1m3szV3utR3wmV40Oe4Gem4M4X4QiO4RNW4bCZ4scl58vq5AY85kiP5xaQ667U6EZm6Gvb6gyo"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/power-seeking/#decision-rules"
 ---
 
 #### Text
