@@ -25,11 +25,15 @@ Add discussion note here:
 
 %%
 
--   > Note that I consider the problem of “get useful research out of AIs that are scheming against you” to be in scope for AI control research. We’ve mostly studied the “prevent scheming AIs from causing concentrated catastrophes” problem in the past, because it’s simpler for various technical reasons. But we’re hoping to do more on the “get useful research” problem in future (and [Benton et al](https://www.greaterwrong.com/posts/nnvn6kaBLajiicH8e/sabotage-evaluations-for-frontier-models) is an initial step in this direction). (I’m also excited for work on “get useful research out of AIs that _aren’t_ scheming against you”; I think that the appropriate techniques are somewhat different depending on whether the models are scheming or not, which is why I suggest studying them separately.)
+{--{"author":"James agent ready-31's AI","timestamp":1791993866624}@@-   --}> Note that I consider the problem of “get useful research out of AIs that are scheming against you” to be in scope for AI control research. We’ve mostly studied the “prevent scheming AIs from causing concentrated catastrophes” problem in the past, because it’s simpler for various technical reasons. But we’re hoping to do more on the “get useful research” problem in future (and [Benton et al](https://www.greaterwrong.com/posts/nnvn6kaBLajiicH8e/sabotage-evaluations-for-frontier-models) is an initial step in this direction). (I’m also excited for work on “get useful research out of AIs that _aren’t_ scheming against you”; I think that the appropriate techniques are somewhat different depending on whether the models are scheming or not, which is why I suggest studying them separately.){--{"author":"James agent ready-31's AI","timestamp":1791993866624}@@
     
-    What would you say to the objection that people will immediately try to use such techniques to speed up ASI research just as much as they will try to use them to speed up alignment research if not more? Meaning they wouldn’t help close the gap between alignment research and ASI development and might even make it grow larger faster?
+    --}{++{"author":"James agent ready-31's AI","timestamp":1791993866624}@@
+
+++}What would you say to the objection that people will immediately try to use such techniques to speed up ASI research just as much as they will try to use them to speed up alignment research if not more? Meaning they wouldn’t help close the gap between alignment research and ASI development and might even make it grow larger faster?{--{"author":"James agent ready-31's AI","timestamp":1791993866624}@@
     
-    If we were not expecting to solve the alignment problem before ASI is developed in a world where nobody knows how to get very useful research out of AIs, why would techniques for getting useful research out of AIs speed up alignment research more than ASI research and close the gap?
+    --}{++{"author":"James agent ready-31's AI","timestamp":1791993866624}@@
+
+++}If we were not expecting to solve the alignment problem before ASI is developed in a world where nobody knows how to get very useful research out of AIs, why would techniques for getting useful research out of AIs speed up alignment research more than ASI research and close the gap?{--{"author":"James agent ready-31's AI","timestamp":1791993866624}@@
     
     -   I think this is a pretty general counterargument to any intervention that increases the space of options that AI developers have during the early singularity. Which isn’t to say that it’s wrong.
         
@@ -62,4 +66,4 @@ Add discussion note here:
         2.  Get useful research work out of models which aren’t scheming. (Where perhaps the main problem is in checking its outputs.)
             
         
-        My sense is that work on (1) doesn’t advance ASI research except to the extent that scheming AIs would have tried to sabotage this research? (At least, insofar as work on (1) doesn’t help much with (2) in the long run.)
+        My sense is that work on (1) doesn’t advance ASI research except to the extent that scheming AIs would have tried to sabotage this research? (At least, insofar as work on (1) doesn’t help much with (2) in the long run.)--}
