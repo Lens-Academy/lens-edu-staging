@@ -12,6 +12,7 @@ Much of this unit turns on one question: does a visible AI incident make governm
 
 #### Article
 source:: [[../articles/so8res-warning-shots-probably-wouldnt-change-the-picture-much]]
+
 #### Question: Open
 id:: f0684be0-d75a-4dee-8e4a-34c1b3bedc44
 force-feedback:: first
@@ -42,15 +43,6 @@ Alex Nguyen, a journalist at Mother Jones, reads the same months differently. As
 source:: [[../articles/nguyen-dont-be-fooled-congress-isnt-cracking-down-on-openai]]
 from:: A Republican-led Senate subcommittee
 to:: OpenAI denies the allegations._
-
-#### Question: Open
-id:: f0684be0-d75a-4dee-8e4a-34c1b3bedc44
-force-feedback:: first
-content::
-If Soares is right, which arguments in this unit get weaker, and why? Look at both the criticisms of control and the arguments for it.
-placeholder:: A few sentences.
-assessment-instructions:: Score out of 100. Context for grading: in a 2022 post Nate Soares argues that warning shots probably would not change government response much. If COVID did not even lead governments to ban gain-of-function research, where the economic forces in favour are small, we should not expect AI warning shots to produce a sane response, where the forces are huge. Two arguments in the unit rely on visible incidents moving governments or labs. The warning-shot critique of control (Kulveit, Cheng, Habryka) says control turns incidents that could push governments to act into quiet internal catches. The pro-control argument says that catching an AI red-handed gives evidence that can be shown to labs and policymakers to move them. 40: the warning-shot critique of control gets weaker. 40: the pro-control "catch it and show the evidence" argument also gets weaker. 20: why: both rely on the premise that visible evidence of AI misbehaviour makes governments or labs act, which is the premise Soares doubts. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "It cuts both ways. The critics who say control suppresses useful warning shots lose force, because their case needs an incident to push governments to act. But the argument that control helps by catching AIs and showing the evidence to decision makers loses force too, since it also needs that evidence to move people."
-feedback-instructions:: The learner read Nate Soares's 2022 post arguing that warning shots probably would not change government response much, based on the weak policy response to COVID. If he is right, two kinds of argument get weaker. The warning-shot critique of control (Kulveit, Cheng, Habryka) relies on visible incidents pushing governments to act, so it loses force. And the pro-control argument that catching an AI red-handed gives evidence that moves labs or policymakers also loses force. Credit the learner for seeing that the point cuts both ways. If they see only one side, ask what happens to the "catch it and show the evidence" argument. Do not say whether Soares is right. At most two replies, 60 to 120 words each, no lists, no generic praise.
 
 #### Question: Open
 id:: 4ae720f2-ca41-4b81-87e0-934cd39ce03e
