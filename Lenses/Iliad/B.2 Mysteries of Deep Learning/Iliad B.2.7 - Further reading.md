@@ -6,8 +6,12 @@ summary_for_tutor: "Further reading list at the end of Iliad worksheet B.2 Myste
 authors:
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/mysteries-of-deep-learning/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "mysteries-of-deep-learning#further-reading"
+upstream_fingerprint: "eZE/236/1/0IdM0Nl00R0Q0b8E0vmx198T1WaH2LxN2vkt2zZk3FPB3JDr3khL3wmV4L4r4Sp255OB5K3e65ms68WJ6AQQ6rjy6sap6z2Q8Y4z8iOL95E59Ai89W449np69oicAt9o"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/mysteries-of-deep-learning/#further-reading"
 ---
 
 #### Text

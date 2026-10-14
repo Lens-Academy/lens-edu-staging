@@ -6,8 +6,12 @@ summary_for_tutor: "Representational alignment and In-context learning sections 
 authors:
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/mysteries-of-deep-learning/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "mysteries-of-deep-learning#representational-alignment"
+upstream_fingerprint: "7mCCNA/577/1/0Cqx0Dtb0OEH0SEF0UQP0Vwt0Xbp0cf00cst0dGk0jH10yT517iM1DUF1FVZ1Kea1T1U24ZH25kT2Br42RJt2SwD2XBW2ijA2xDM3Jyn3Ni43fmy3oO43yjF40fx4GVG"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/mysteries-of-deep-learning/#representational-alignment"
 ---
 
 #### Text
@@ -16,7 +20,7 @@ content::
 
 [The Platonic Representation Hypothesis](https://arxiv.org/abs/2405.07987)
 
-::card[[../Lenses/huh-the-platonic-representation-hypothesis|The Platonic Representation Hypothesis]]
+::card[[../../huh-the-platonic-representation-hypothesis|The Platonic Representation Hypothesis]]
 
 *Discussion questions:*
 
@@ -34,11 +38,13 @@ Answer: The *observation* that independently trained models learn similar repres
 
 ::: %%
 
+[^prh-novelty]: One could argue that this hypothesis isn't novel either, see e.g. the natural abstraction hypothesis which significantly predates this, but this paper was the first major academic paper to promote the hypothesis.
+
 \### In-context learning
 
 [In-context Learning and Induction Heads](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html)
 
-::card[[../Lenses/olsson-in-context-learning-and-induction-heads|In-context Learning and Induction Heads]]
+::card[[../../olsson-in-context-learning-and-induction-heads|In-context Learning and Induction Heads]]
 
 *Discussion questions:*
 
@@ -53,5 +59,3 @@ What is an induction head, and what relationship does the paper draw between ind
 An induction head is a circuit implementing the rule \[A\]\[B\] … \[A\] → \[B\] - find the previous occurrence of the current token, see what followed it, predict that again ("complete the pattern" by copying). Mechanically it's two heads composed across layers (a previous-token head feeding the induction head), so it cannot exist in a 1-layer model. In-context learning is operationalized as the drop in loss from early to late token positions (the model predicting better the more context it has seen). Early in training there is a phase change, visible as a bump in the training loss, during which induction heads form and the bulk of in-context-learning ability appears simultaneously - for models of every size with more than one layer. Simultaneity alone would only be suggestive; the case is carried by co-perturbation (when they modify the architecture to move when induction heads can form, the in-context-learning jump moves to match) and by direct ablation (knocking out induction heads in small models sharply reduces in-context learning)
 
 ::: %%
-
-[^prh-novelty]: One could argue that this hypothesis isn't novel either, see e.g. the natural abstraction hypothesis which significantly predates this, but this paper was the first major academic paper to promote the hypothesis.

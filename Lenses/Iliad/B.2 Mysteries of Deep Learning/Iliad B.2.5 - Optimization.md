@@ -6,15 +6,19 @@ summary_for_tutor: "Optimization section of Iliad worksheet B.2 Mysteries of Dee
 authors:
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/mysteries-of-deep-learning/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "mysteries-of-deep-learning#optimization"
+upstream_fingerprint: "jTJ/498/1/00nk02Lf02on0XOM0cLD0iuf0rTF14vP1J3x1LEC1PuJ1iUW20mU22Gi2F5w2MpD2sX22yM130oD3ULO3XFo3jE53khL3q1c3zTT3zkG496d49Gj4JYR4KKp4WP84f4N"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/mysteries-of-deep-learning/#optimization"
 ---
 
 #### Text
 content::
 \### Optimization
 
-[Understanding Machine Learning: From Theory to Algorithms](https://www.cambridge.org/core/books/understanding-machine-learning/3059695661405D25673058E43C8BE2A6), Section 8.4 (Hardness of learning), pages 108-110 of the [free PDF](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/)
+[Understanding Machine Learning: From Theory to Algorithms](https://www.cambridge.org/core/books/understanding-machine-learning/3059695661405D25673058E43C8BE2A6), Section 8.4 (Hardness of learning)
 
 *Discussion questions:*
 

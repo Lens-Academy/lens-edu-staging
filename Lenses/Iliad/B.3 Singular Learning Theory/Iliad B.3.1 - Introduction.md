@@ -8,8 +8,12 @@ authors:
   - Matthew Farrugia-Roberts (University of Oxford)
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/singular-learning-theory/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "singular-learning-theory#"
+upstream_fingerprint: "oGJCLn/994/1/02Ml047r06CS0GuS0T980XZt0bDh0d5R0edq0iOu0iuf0k5x0lQO0lss0uK30zcG105b1EhF1Rxh1Viw1Xw41ha51qMP1vMm210022cW27mz28is2Cso2DNy2NG52O8X"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/singular-learning-theory/"
 ---
 
 #### Text
@@ -40,7 +44,7 @@ content::
   - 5.2 Recent work on singular deep learning
 
 #### Video
-source:: [[../video_transcripts/iliad-deep-learning-is-singular-heres-what-that-means]]
+source:: [[../../../video_transcripts/iliad-deep-learning-is-singular-heres-what-that-means]]
 
 #### Text
 content::
