@@ -74,9 +74,6 @@ Regarding
 > Get useful work out of AIs even if they are situationally aware and would like to pursue unbounded objectives in a relatively consequentialist way
 
 Yep, but worth noting that we'd like to make some kind of deal with these AIs so we have their consent to continue. I think it (correctly) seems decently evil to just use AIs which really, really don't want to work for you. (Though not particularly important from a typical longtermist perspective.)
-:::
-
-:::callout{title="Ryan Greenblatt" tone="green"}
 
 (Mostly an aside) I think there are a bunch of relatively "mundane" usages of powerful AIs which make the situation notably better, but aren't clearly necessary for an end-to-end overall success story. For instance:
 
@@ -97,9 +94,6 @@ Prior to getting more into the object level on possible outs via using AIs produ
 Insofar as you thought (a) humans could already currently improve the situation in the "powerful AIs are beyond control" regime and that (b) the future AI-accelerated labor is strictly much more capable in aggregate, then (c) whatever we could do right now that would useful for moving beyond control we can just do later.
 
 I often think about this as "it's hard to compete with future AI researchers on moving beyond this early regime". (That said, we should of course have some research bets for what to do if control doesn't work for the weakest AIs which are very useful.)
-:::
-
-:::callout{title="Ryan Greenblatt" tone="green"}
 
 I'm curious what you think about this "but we can't do better" frame before moving forward.
 :::
@@ -151,9 +145,6 @@ Also, my guess is that it would be better to seriously restrict scaling immediat
 or [here](https://www.lesswrong.com/posts/Np5Q3Mhz2AiPtejGN/we-re-not-ready-thoughts-on-pausing-and-responsible-scaling-4#If_it_were_all_up_to_me__the_world_would_pause_now___but_it_isn_t__and_I_m_more_uncertain_about_whether_a__partial_pause__is_good).
 
 (Under my empirical views, this seems better from a variety of moral persectives, but not all moral perspectives. Under my moral and empirical views, it seems good.)
-:::
-
-:::callout{title="Ryan Greenblatt" tone="green"}
 
 (I agree with the case made for incremental RSP-like measures discussed in the two posts I linked above. And this is part of my motivation for control, building this sort of incremental approach. But, I also think control can be part of a much more complete overall plan and it seems good to discuss this overall plan directly.)
 :::
