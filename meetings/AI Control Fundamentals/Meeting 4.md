@@ -80,7 +80,7 @@ Ways the unit says control could make things worse:
 
 1\. Each of you ranks these privately, from the one that worries you most to the one that worries you least.
 2\. Compare your rankings. Where do you disagree and why?
-3\. If you still have time: {--{"author":"James agent ready-31's AI","timestamp":1792005050110}@@Which--}{++{"author":"James agent ready-31's AI","timestamp":1792005050110}@@which++} of these {--{"author":"James agent ready-31's AI","timestamp":1792005050110}@@could control researchers most easily guard against? How?--}{++{"author":"James agent ready-31's AI","timestamp":1792005050110}@@worries applies just as much to alignment work as to control?++}
+3\. If you still have time: which of these worries applies just as much to alignment work as to control?
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
