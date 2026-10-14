@@ -720,9 +720,6 @@ I think this is pretty good crude approximation of how easily SGD will find stuf
 :::callout{title="Oliver Habryka" tone="blue"}
 
 (Indeed, I don't super feel like my brain immediately knows how to think about that setup)
-:::
-
-:::callout{title="Oliver Habryka" tone="blue"}
 
 Yeah, maybe. My current feeling keeps being like "if I treat the AI as a black box, and I just imagine myself being in this situation, I would have no trouble sandbagging and don't really see a world where I would be exposed to unexpected gradients changing my cognition in ways that threatens my ability to not cooperate with the humans". 
 
@@ -748,9 +745,6 @@ I do think if you start editing trajectories and muck with internal representati
 > Like, at least in the neuralese case where I just have like hours of subjective time to think about doing all the relevant tasks.
 
 Yeah, I think the analogous case is that you'll have hours (or more), but that people will run a bunch of experiments where you get updated to complete much smaller subtasks and this will be wired together in some crazy way.
-:::
-
-:::callout{title="Ryan Greenblatt" tone="green"}
 
 > I do think if you start editing trajectories and muck with internal representations
 
@@ -860,9 +854,6 @@ I would say there are two (related) goals:
 :::callout{title="Ryan Greenblatt" tone="green"}
 
 (Yep, I mean adversarial action.)
-:::
-
-:::callout{title="Ryan Greenblatt" tone="green"}
 
 Gaining value from catching escape attempts isn't clearly necessary on some deep level, but it's relatively methodologically important to how we imagine actually implementing the proposal.
 
