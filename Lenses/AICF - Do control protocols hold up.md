@@ -21,16 +21,16 @@ Some terms you will need:
 
 #### Text
 content::
-**1. Mikhail Terekhov, Jonas Geiping and colleagues, "Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols"**[^cite-terekhov-2025]. From the abstract:
+**1. Mikhail Terekhov, Jonas Geiping and colleagues, "Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols".** In the abstract, Defer-to-Resample is a protocol that asks the untrusted model for a new answer when the first one looks suspicious. A best-of-n attack tries many times and keeps whichever attempt gets through.
 
-> In practice, most AI control protocols are fundamentally based on LLM monitors, which can become a central point of failure. We study adaptive attacks by an untrusted model that knows the protocol and the monitor model, which is plausible if the untrusted model was trained with a later knowledge cutoff or can search for this information autonomously. We instantiate a simple adaptive attack vector by which the attacker embeds publicly known or zero-shot prompt injections in the model outputs. Using this tactic, frontier models consistently evade diverse monitors and complete malicious tasks on two main AI control benchmarks. The attack works universally against current protocols that rely on a monitor. Furthermore, the recent Defer-to-Resample protocol even backfires, as its resampling amplifies the prompt injection and effectively reframes it as a best-of-n attack. In general, adaptive attacks on monitor models represent a major blind spot in current control protocols and should become a standard component of evaluations for future AI control mechanisms.
+#### Article
+source:: [[../articles/terekhov-adaptive-attacks-on-trusted-monitors-subvert-ai-control-protocols]]
+from:: "## Abstract"
+to:: should become a standard component of evaluations for future AI control mechanisms.
 
-(Defer-to-Resample asks the untrusted model for a new answer when the first one looks suspicious. A best-of-n attack tries many times and keeps whichever attempt gets through.)
-
-**2. Catherine Ge-Wang, Tyler Tracy and colleagues, "Attack Selection in Agentic AI Control Evaluations Meaningfully Decreases Safety"**[^cite-ge-wang-2026]. Its abstract:
-
-[^cite-terekhov-2025]: Mikhail Terekhov, Alexander Panfilov, Daniil Dzenhaliou, Caglar Gulcehre, Maksym Andriushchenko, Ameya Prabhu and Jonas Geiping (2025, revised 2026), *Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols*. [arXiv](https://arxiv.org/abs/2510.09462)
-[^cite-ge-wang-2026]: Catherine Ge-Wang, Tyler Crosse, Benjamin Hadad IV, Joachim Schaeffer, Ram Potham and Tyler Tracy (2026), *Attack Selection in Agentic AI Control Evaluations Meaningfully Decreases Safety*. [arXiv](https://arxiv.org/abs/2606.06529)
+#### Text
+content::
+**2. Catherine Ge-Wang, Tyler Tracy and colleagues, "Attack Selection in Agentic AI Control Evaluations Meaningfully Decreases Safety".** Its abstract:
 
 #### Article
 source:: [[../articles/ge-wang-attack-selection-in-agentic-ai-control-evaluations-meaningfully-decreases-safety]]
