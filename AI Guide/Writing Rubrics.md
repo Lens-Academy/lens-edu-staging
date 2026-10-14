@@ -58,6 +58,10 @@ The learner is always entitled to know why they got their score. Don't write "do
 
 Below 100, the feedback should name the most important thing the answer missed or got wrong. At 100 it just confirms. Don't write instructions that skip the gap, such as "say what they got right, then tell them to move on".
 
+## When a learner says a score is too low
+
+Check honestly whether the answer fully answers the question. If it does, it should get 100: find what in the rubric cost the points (an unasked element, wording instead of ideas, double counting) and fix that, in general terms. If it doesn't, say where it falls short and leave the rubric alone. A complaint by itself is no reason to change anything, and never add a clause shaped around one learner's answer.
+
 ## Checks before you call a rubric done
 
 1. **Alignment.** For each scored element, point to the words in the question that ask for it. Anything you can't point to goes. (This is the check in [[../AI Guide/Evals/Learning Outcome Evals/C2 - No unasked demands]].)
