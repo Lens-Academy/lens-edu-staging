@@ -44,7 +44,6 @@ One or two people share what their group landed on.
 1\. Each of you: how excited are you about work on AI control, from 0 to 10?
 2\. The lowest number makes the case for control. The highest finds the holes in it, then makes the case against. Go back and forth: each answers the other's last point. Use anything from the unit. The others jump in to help whoever is struggling.
 3\. Say your number again. Did anyone move? What moved them?
-4\. If you still have time: which kind was the hardest argument: control does not work, works but is not worth the effort, or works and makes things worse?
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
