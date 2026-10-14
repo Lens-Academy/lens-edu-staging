@@ -146,6 +146,11 @@ A bare `#### Question` is legacy syntax. Do not write it in new or edited conten
 
 **Video**: same idea for `video_transcripts/` files; `from::`/`to::` are timestamps (`M:SS` or `H:MM:SS`), `from::` defaults to `0:00`, `to::` to the end.
 
+Where to cut a video:
+- **Use real word times.** The word times in an imported `.timestamps.json` are evenly spread estimates and can be 15 to 25 seconds off late in a video. Auto-caption lines are stamped when they scroll, 2 to 3 seconds after the words are spoken. Take cuts from per-word caption times (for example `yt-transcript --words`), and check them by watching.
+- **Fractional seconds** work as `M:SS.s` (`5:13.4`). Past an hour, write minutes: `61:14.6`, not `1:01:14.6`. `H:MM:SS` only takes whole seconds.
+- **Cut between sentences,** and make each clip make sense on its own. After a question, the next clip may replay the previous sentence as a lead-in.
+- **Skipping a part** of one video: `skip:: 5:13-8:09 "reason"` on one segment keeps one player. Two Video segments in a row show two players, so put one short Text line between them saying what was skipped. Say nothing about cut ads.
 **Source inheritance:** the first Article (or Video) segment in a lens must have `source::`; later segments of the same type inherit the previous source, so a multi-excerpt reading is several `#### Article` blocks with only `from::`/`to::`.
 
 **Question segments**: use [[../Lenses/Response to question segments]].
