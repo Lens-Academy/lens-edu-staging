@@ -8,8 +8,12 @@ authors:
   - Adam Shai (Simplex)
   - Paul Riechers (Simplex)
 source_url: https://iliad-intensive.org/interpretability/computational-mechanics/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "computational-mechanics#6-python-exercises-hmm-from-scratch"
+upstream_fingerprint: "fb4uaE/206/1/0Dtb13Cv1Io71aje1b5r1qBV2C8B2qc44diN4jPi4ynw4zjI5qMz6Awq7MCX7PH77j657vra8DXF8oma9RXVAOscAQ1oAXVTAbFtArGWAw0pAzk1BMbbC5UhCL2lCWqa"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/interpretability/computational-mechanics/#6-python-exercises-hmm-from-scratch"
 ---
 
 #### Text

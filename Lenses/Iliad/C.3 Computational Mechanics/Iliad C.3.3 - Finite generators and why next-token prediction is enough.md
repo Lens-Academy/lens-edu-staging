@@ -8,8 +8,12 @@ authors:
   - Adam Shai (Simplex)
   - Paul Riechers (Simplex)
 source_url: https://iliad-intensive.org/interpretability/computational-mechanics/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "computational-mechanics#ex-p2-3"
+upstream_fingerprint: "BwDeVY/1638/1/0BVQ0RXO0U790VI20Xel0XyW0cja0g9X0mxh0oCx0xDt0yqx105b15mw1Bxb1NoL1OTZ1PUG1VKB1ekq1fXg1m8X1vy0265S2PYM2TLO2VxY2gdm2tYR2vl334AG35Wb"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/interpretability/computational-mechanics/#ex-p2-3"
 ---
 
 #### Text
@@ -99,7 +103,7 @@ The only repeated continuation set belongs to $$0$$ and $$10$$, whose causal sta
 4. Appending each possible symbol gives the causal-state update:
 
 $$
-\begin{array}{c|cc}\text{state} & 0 & 1\\ \hline \epsilon(\emptyset) & \epsilon(0) & \epsilon(1)\\ \epsilon(0) & \epsilon(00) & \epsilon(01)\\ \epsilon(1) & \epsilon(10) & \epsilon(11)\\ \epsilon(10) & \epsilon(00) & \epsilon(01)\\ \epsilon(00) & \text{–} & \epsilon(01)\\ \epsilon(01) & \epsilon(11) & \epsilon(11)\\ \epsilon(11) & \epsilon(00) & \text{–}\end{array}
+\begin{array}{c|cc}\text{state} & 0 & 1\\ \hline \epsilon(\emptyset) & \epsilon(0) & \epsilon(1)\\ \epsilon(0) & \epsilon(00) & \epsilon(01)\\ \epsilon(1) & \epsilon(10) & \epsilon(11)\\ \epsilon(10) & \epsilon(00) & \epsilon(01)\\ \epsilon(00) & \text{\relax --} & \epsilon(01)\\ \epsilon(01) & \epsilon(11) & \epsilon(11)\\ \epsilon(11) & \epsilon(00) & \text{\relax --}\end{array}
 $$
 
 Here a dash denotes an impossible extension. Drawing one node for each row and the indicated symbol-labelled edges gives the required automaton.
@@ -117,7 +121,7 @@ These four states are distinct. The state represented by $$01$$ cannot emit $$0$
 4. Appending each possible symbol gives the causal-state update:
 
 $$
-\begin{array}{c|cc}\text{state} & 0 & 1\\ \hline \epsilon(\emptyset) & \epsilon(0) & \epsilon(1)\\ \epsilon(1) & \epsilon(0) & \epsilon(\emptyset)\\ \epsilon(0) & \epsilon(0) & \epsilon(01)\\ \epsilon(01) & \text{–} & \epsilon(0)\end{array}
+\begin{array}{c|cc}\text{state} & 0 & 1\\ \hline \epsilon(\emptyset) & \epsilon(0) & \epsilon(1)\\ \epsilon(1) & \epsilon(0) & \epsilon(\emptyset)\\ \epsilon(0) & \epsilon(0) & \epsilon(01)\\ \epsilon(01) & \text{\relax --} & \epsilon(0)\end{array}
 $$
 
 Here a dash denotes an impossible extension. Drawing one node for each row and the indicated symbol-labelled edges gives the required automaton.

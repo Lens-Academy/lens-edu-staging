@@ -6,8 +6,12 @@ summary_for_tutor: "This is Section 2.2 (Two conditions on a latent model) of Il
 authors:
   - Satya Benson
 source_url: https://iliad-intensive.org/interpretability/condensation/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "condensation#22-two-conditions-on-a-latent-model"
+upstream_fingerprint: "9tM7NAQnjKbreZEJgv/1744/1/01hc05UA0DhL0G2G0II40LOc0LXc0SIK0ViX0YoT0f2I0oCx0pi90qzg0v6G0vIQ0vnR0ztG102k18ZG1CV31IoL1WwX1dvp1gTM1h1x1jO31t4u1td31uOj1v8p1zN9"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/interpretability/condensation/#22-two-conditions-on-a-latent-model"
 ---
 
 #### Text
@@ -191,7 +195,7 @@ Both are therefore perfect condensations.
 
 Figure 1 shows a hierarchical model of 36 labelled points, worked through in Section 3. A global shape is assigned to every point, a group center $$G_{g}$$ to the 18 points of its group, and a cluster center $$M_{gc}$$ to the nine points of its cluster.
 
-![One draw from the finite model. The left panel shows the 36 points; the right panel shows which set of observations receives each parameter. The global shape is available to every observation.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-condensation-hierarchical-points-a8f5308d.png)
+![One draw from the finite model. The left panel shows the 36 points; the right panel shows which set of observations receives each parameter. The global shape is available to every observation.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-condensation-hierarchical-points-70c6a09a.png)
 
 One draw from the finite model. The left panel shows the 36 points; the right panel shows which set of observations receives each parameter. The global shape $$S$$ is available to every observation.
 

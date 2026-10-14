@@ -8,8 +8,12 @@ authors:
   - Adam Shai (Simplex)
   - Paul Riechers (Simplex)
 source_url: https://iliad-intensive.org/interpretability/computational-mechanics/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "computational-mechanics#4-representing-the-past"
+upstream_fingerprint: "qzYpvb27P/1752/1/014T072f0APH0BVs0Iwt0J4F0Lb20OnE0Ra70SSX0U3Q0XyW0YbM0Yd00YlL0ZbU0biw0cf00f2I0g9X0i4Z0mbM0pvQ0t5t10bw13yf15mw19D01IuR1J6Y1OTZ1PUG"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/interpretability/computational-mechanics/#4-representing-the-past"
 ---
 
 #### Text

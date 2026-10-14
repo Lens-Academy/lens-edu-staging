@@ -6,12 +6,16 @@ summary_for_tutor: "This is the opening of Iliad worksheet C.4 Condensation: an 
 authors:
   - Satya Benson
 source_url: https://iliad-intensive.org/interpretability/condensation/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "condensation#"
+upstream_fingerprint: "oGJhggcmJSWf/398/1/0vnR1df01t4u24ZH2skn32Qd34lB3B5o3FYD3Jfb3KRJ3QKO447Z4asx4cW34jzq5FDp5PKc5R3y5ljq5syx5t545t9I61o76Qx76xhV7EgD7N4t7XYi7bYX7cU87igd"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/interpretability/condensation/"
 ---
 
 #### Video
-source:: [[../video_transcripts/iliad-the-mathematics-of-concepts-how-ais-see-the-world]]
+source:: [[../../../video_transcripts/iliad-the-mathematics-of-concepts-how-ais-see-the-world]]
 
 #### Text
 content::

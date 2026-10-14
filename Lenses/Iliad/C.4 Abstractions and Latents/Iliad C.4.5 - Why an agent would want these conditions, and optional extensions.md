@@ -6,8 +6,12 @@ summary_for_tutor: "This is Sections 2.4-2.6 of Iliad worksheet C.4 Condensation
 authors:
   - Satya Benson
 source_url: https://iliad-intensive.org/interpretability/condensation/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "condensation#24-why-an-agent-would-want-these-conditions"
+upstream_fingerprint: "bpuHk4vcl3oy6sAnED/1967/1/060M06Dj08mh0BvF0I7y0QVA0RNy0S3b0Su10VR30dOu0efD0f2I0gWk0i4Z0oCx0v6G0xJk0xTt0zG614xL17UO17rm1AgT1OuX1PFJ1Pzm1QOJ1Wj91gMq1h1x1ngv"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/interpretability/condensation/#24-why-an-agent-would-want-these-conditions"
 ---
 
 #### Text

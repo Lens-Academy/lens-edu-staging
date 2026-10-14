@@ -6,8 +6,12 @@ summary_for_tutor: "This is Section 3 (A hierarchical clustering example) of Ili
 authors:
   - Satya Benson
 source_url: https://iliad-intensive.org/interpretability/condensation/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "condensation#3-a-hierarchical-clustering-example"
+upstream_fingerprint: "2PNSmiJlKydsQ40NV8kE9/1088/1/03k808ga0IRE0JTx0SIK0diw0vnR0yfN16K117PQ1App1CNe1FJW1cS61fYe1nYy1rH81td31zN921ci29Le2Neb2Wrv2jmL2m3e2mnC2pcC2qO92skn2tYR2wrn2xZQ"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/interpretability/condensation/#3-a-hierarchical-clustering-example"
 ---
 
 #### Text

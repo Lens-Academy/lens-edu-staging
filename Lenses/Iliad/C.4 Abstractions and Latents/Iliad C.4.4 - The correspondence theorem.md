@@ -6,8 +6,12 @@ summary_for_tutor: "This is Section 2.3 (The correspondence theorem) of Iliad wo
 authors:
   - Satya Benson
 source_url: https://iliad-intensive.org/interpretability/condensation/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "condensation#23-the-correspondence-theorem"
+upstream_fingerprint: "Wo2dGfxaz7BIg3BftUsfc/1494/1/046j09ci0HOZ0MDA0Taj0nKo0oCx0txr0v6G0yJo105b125t15TZ188d1CV31DdK1GOY1JA41JTH1Kwb1Oee1fjr1ha51jGD1jO31mH31oqH1t4u21Yf2Clq2FDu2Jjc"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/interpretability/condensation/#23-the-correspondence-theorem"
 ---
 
 #### Text

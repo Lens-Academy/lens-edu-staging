@@ -8,8 +8,12 @@ authors:
   - Adam Shai (Simplex)
   - Paul Riechers (Simplex)
 source_url: https://iliad-intensive.org/interpretability/computational-mechanics/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "computational-mechanics#5-identifying-belief-geometry-in-transformers"
+upstream_fingerprint: "ZZfGtE0Q4MpAO7B/505/1/03FF06NR09uC0D3s0DHA0Obr0ROe0TEB1AsK1F9n1Xw41Z4H1kgu1ywb2C8B2E0G2I8A2UXI30PP38WK3Zum3efJ3lBi3mYs3pQu4M7n4QLO4X9y4hWK5Fmj5Io65RXi"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/interpretability/computational-mechanics/#5-identifying-belief-geometry-in-transformers"
 ---
 
 #### Text
@@ -31,7 +35,7 @@ Prioritise the main reading. If you can answer its evaluation question, you have
 
 \#### 5.1.1 [Main] [Transformers represent belief state geometry in their residual stream](https://arxiv.org/pdf/2405.15943)
 
-::card[[../Lenses/shai-transformers-represent-belief-state-geometry-in-their-residual-stream|Transformers represent belief state geometry in their residual stream]]
+::card[[../../shai-transformers-represent-belief-state-geometry-in-their-residual-stream|Transformers represent belief state geometry in their residual stream]]
 
 **Reading route**
 
@@ -43,7 +47,7 @@ Prioritise the main reading. If you can answer its evaluation question, you have
 
 \#### 5.1.2 [Extension] [Neural networks leverage nominally quantum and post-quantum representations](https://arxiv.org/pdf/2507.07432)
 
-::card[[../Lenses/riechers-neural-networks-leverage-nominally-quantum-and-post-quantum-representations|Neural networks leverage nominally quantum and post-quantum representations]]
+::card[[../../riechers-neural-networks-leverage-nominally-quantum-and-post-quantum-representations|Neural networks leverage nominally quantum and post-quantum representations]]
 
 **Reading route**
 

@@ -8,8 +8,12 @@ authors:
   - Adam Shai (Simplex)
   - Paul Riechers (Simplex)
 source_url: https://iliad-intensive.org/interpretability/computational-mechanics/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "computational-mechanics#ex-p3-3"
+upstream_fingerprint: "wkVnrs/1796/1/0G2G0JMr0OnE0Phf0Psd0RXO0XyW0Zhp0eEt0f2I0g9X0oGP0pvQ0rTF0txr11KF13yP14Sq17wp1B3d1Gdp1J6Y1JGz1NOw1OTZ1UxE1aM41aWH1baB1bnL1xoq21x0"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/interpretability/computational-mechanics/#ex-p3-3"
 ---
 
 #### Text
@@ -137,7 +141,7 @@ $$
 
 with no coincidences at the displayed depths. The plots show three recursively repeated clusters forming a fractal pattern. The next-token plot is an invertible linear image of the belief plot, so it preserves the distinct points and their recursive organisation.
 
-![figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-computational-mechanics-mess3-belief-and-next-token-ge-930059d4.png)
+![figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-computational-mechanics-mess3-belief-and-next-token-ge-4f2805f5.png)
 
 At a point $$\eta$$, the three outgoing edges are obtained by applying $$F_{0},F_{1},F_{2}$$ and have probabilities given by the three coordinates of $$\eta A$$. Thus the three geometric copies visible at the next depth are also the three symbol-labelled branches of the belief-state automaton.
 5. A belief and the observed symbol determine a unique updated belief $$F_{a}(\eta)$$, so the belief-state presentation is unifilar. The original generator is nonunifilar because its current hidden state and emitted symbol can leave several possible next hidden states. For the Simple Nonunifilar Source the reachable beliefs form a one-dimensional ladder, with each $$1$$-edge resetting to $$\eta_{0}$$. For Mess3 every symbol remains possible and the three update maps generate a rapidly branching, self-similar geometry. Finally, finite words form a countable set, so their image under the belief map is countable. Taking the closure adds limiting beliefs and can produce an uncountable fractal set.
