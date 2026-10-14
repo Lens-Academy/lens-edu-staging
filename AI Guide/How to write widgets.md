@@ -146,11 +146,15 @@ Live example: `widgets/answers-reader-demo.html`, at the end of [[../Lenses/Resp
 ## Rules the frame imposes
 
 - **One file, no build step.** Plain HTML, CSS and JavaScript. Libraries are fine when loaded from a CDN `<script src>`; there is no bundler and no npm.
-- **No Lens data, no cookies, no parent page.** The frame is sandboxed (`allow-scripts` only). The widget cannot read who the learner is, call the Lens API, or store anything the platform sees, except through the `window.Lens` calls above. Use `localStorage` inside the widget if it needs to remember something on that browser.
+- **No Lens data, no cookies, no parent page.** The frame is sandboxed (`allow-scripts allow-popups allow-popups-to-escape-sandbox`, no same origin). The widget cannot read who the learner is, call the Lens API, or store anything the platform sees, except through the `window.Lens` calls above. Use `localStorage` inside the widget if it needs to remember something on that browser.
 - **Let the frame size itself.** In `auto` mode the platform forces `html, body { height: auto }` and hides overflow, then measures the content. Do not design around the viewport height (`100vh`, `height: 100%` layouts): the widget is a block in a reading column, as tall as its content. If the content changes (a panel opens), the frame follows.
 - **No assets from the content repo.** Images in `widgets/` or `attachments/` are not served to learners. Inline small data (SVG, data URIs) or link to an external URL you are allowed to use.
 - **Size limit 400 KB** for the HTML body. Widgets are inlined into every module page that uses them.
 - **Links** open in a new tab (`target="_blank"`); the frame allows pop-ups so external references work.
+- **Width.** At desktop width the reading column gives a widget only about 640px. Lay it out for 640px and for 360px, not for the full screen.
+- **Dragging uses pointer events, not HTML5 drag-and-drop.** In the sandboxed frame, HTML5 drag-and-drop fired only `dragstart`, never `dragover` or `drop`. Use `pointerdown` with `setPointerCapture`, a fixed-position ghost, and `document.elementFromPoint` to find the target. Keep tap-a-block-then-tap-a-slot as well, so a finger on the palette still scrolls the page on touch screens. Working example: [[../widgets/xlab-control-protocol-builder]].
+- **Sliders update live while dragged.** Keep the slider outside whatever you redraw (rebuilding it ends the drag after one step). On `input`, redraw at most once per frame with `requestAnimationFrame`, never with a debounce that waits until the thumb stops. Cache the parts that don't depend on the slider, and keep chart axes fixed so a curve doesn't jump while other values move. Before calling it done, drag each slider for real and check the charts move with it.
+- **Staging can lag.** After an edit, staging sometimes serves the old widget for several minutes. Check that the frame shows something only the new version has before you verify anything.
 
 ## Validation
 
