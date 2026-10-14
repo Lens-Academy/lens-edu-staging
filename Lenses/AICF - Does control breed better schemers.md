@@ -34,10 +34,6 @@ to:: selecting for models that can evade our control mechanisms.
 
 #### Article
 from:: If you do something except shut down your most powerful models
-to:: (unless we commit to shutting down all frontier models at once).
-
-#### Article
-from:: "# Aside: Finding directions promising"
 to:: and am looking forward to seeing more progress.
 
 #### Question: Open
