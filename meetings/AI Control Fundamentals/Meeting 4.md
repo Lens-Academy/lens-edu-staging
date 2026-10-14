@@ -36,36 +36,20 @@ One or two people share what their group landed on.
 ---
 
 \pagebreak
-### Room 2: {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Would a profit-only company build it?--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Argue against yourself++}  [0:24–0:42]
+### Room 2: Argue against yourself  [0:24–0:42]
 
 **New group. Names first, then straight in.**
 
 
-{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Yonatan Cale's test for a safety project: could the team --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@1\. Each ++}of {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@a company that only cares--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@you: how excited are you++} about{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ making money build it anyway? If yes, the --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ ++}work {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@may not be neglected, and doing it may mostly make --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@on ++}AI {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@more profitable.
-Two replies --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@control, ++}from {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@the unit:
+1\. Each of you: how excited are you about work on AI control, from 0 to 10?
+2\. The highest number argues against control, the lowest argues for it, three minutes each. Use anything from the unit. The others help whoever is struggling.
+3\. Say your number again. Did anyone move? What moved them?
+4\. If you still have time: which kind was the hardest argument: control does not work, works but is not worth the effort, or works and makes things worse?
 
-- Marius Hobbhahn, who builds monitors: monitors may make everyday AI products more capable, but are unlikely --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@0 ++}to {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@make the most advanced AI more capable. So the risk is low and the benefits are high.--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@10?++}
-{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@- Alex Mallen: any research widens the set of safety and usefulness trade-offs a company can choose from. What matters is which one --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@2\. The highest number argues against control, ++}the {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@company then picks. Safety research usually makes it pick more safety.
-
-Control measures:
-
-- a weaker model --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@lowest argues for it, three minutes each. Use anything from ++}the {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@company trusts reads everything a stronger model does and flags suspicious actions for a human
-- a red team plays a model that --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@unit. The others help whoever ++}is {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@deliberately hiding attacks, to test whether that monitor catches them--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@struggling.++}
-{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@- the company pays humans to check many of the actions the monitor finds only a little suspicious, where rare, subtle attacks would hide--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@3\. Say your number again. Did anyone move? What moved them?++}
-{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@- the company pauses a model after catching it trying something
-
-1\. For each measure: would--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@4\. If you still have time: which kind was++} the {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@profit-only company build it? Yes, partly, or no?
-2\. Pick the measure your group split on most. Using Mallen's reply:--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@hardest argument: control++} does {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@it mainly make safety cheaper, or mainly make--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@not work, works but is not worth++} the{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ AI more useful to sell?
-3\. For that measure, whose view fits best: Cale's, Hobbhahn's--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ effort,++} or {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Mallen's? Your group may disagree.
-4\. What fact could someone check that would change --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@works and makes things worse?
-
-If a question is unclear, ask ++}your {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@answer?
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
-Want help --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@navigator ++}or {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@an explanation for this question? Copy --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@copy ++}it into{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ the--} [Lens{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ Tutor](https://lensacademy.org/tutor) and ask for an explanation.--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ Tutor](https://lensacademy.org/tutor).++}
-
-
-| Names |{--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ Built anyway or not + the measure you split on + whose view fits it --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@ Your number before → after ++}+ {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@a fact that would change your answer --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@the hardest argument ++}|
+| Names | Your number before → after + the hardest argument |
 |------|------------------------|
 |  |  |
 |  |  |
