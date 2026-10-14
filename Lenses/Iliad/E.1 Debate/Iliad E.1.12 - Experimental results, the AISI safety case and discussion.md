@@ -6,8 +6,12 @@ summary_for_tutor: "Sections 19 to 22 of Iliad worksheet E.1: reading and discus
 authors:
   - Stephan Wäldchen (Iliad)
 source_url: https://iliad-intensive.org/safety/debate/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "debate#19-reading-and-discussion-experimental-results"
+upstream_fingerprint: "dVVaZjd7e3Us/281/1/0eHc0g9X1gnQ1rHc26vB27De2Rjl2Rpe2SyN37hA3Ni43cS43fQW3v0H3ydl4MrG4N2F4RG44TLe4Wyc4dbw4tBQ4yKH5KCQ5S125oRB6mkZ77mV7WNB7jZp7jxx7oaZ"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/safety/debate/#19-reading-and-discussion-experimental-results"
 ---
 
 #### Text
@@ -16,15 +20,15 @@ content::
 
 Optimising for Debate increases Judge Accuracy, Optimizing for Consultancy decreases it: [Debating with More Persuasive LLMs Leads to More Truthful Answers](https://arxiv.org/pdf/2402.06782)
 
-::card[[../Lenses/khan-debating-with-more-persuasive-llms-leads-to-more-truthful-answers|Debating with More Persuasive LLMs Leads to More Truthful Answers]]
+::card[[../../khan-debating-with-more-persuasive-llms-leads-to-more-truthful-answers|Debating with More Persuasive LLMs Leads to More Truthful Answers]]
 
 Debate helps judges even with systematic biases: [AI Debate Aids Assessment of Controversial Claims](https://arxiv.org/pdf/2506.02175)
 
-::card[[../Lenses/rahman-ai-debate-aids-assessment-of-controversial-claims|AI Debate Aids Assessment of Controversial Claims]]
+::card[[../../rahman-ai-debate-aids-assessment-of-controversial-claims|AI Debate Aids Assessment of Controversial Claims]]
 
 Debate can prevent reward hacking: [Debate Training Reduces Reward Hacking in RLAIF](https://arxiv.org/pdf/2608.17776)
 
-::card[[../Lenses/kenton-debate-training-reduces-reward-hacking-in-rlaif|Debate Training Reduces Reward Hacking in RLAIF]]
+::card[[../../kenton-debate-training-reduces-reward-hacking-in-rlaif|Debate Training Reduces Reward Hacking in RLAIF]]
 
 Presentation of the papers: [Iliad Intensive August 2026 - Debate](https://docs.google.com/presentation/d/16squLf7HnnGf395UqkM1x7WY4OSuawGCb_fWBq63mns/edit?slide=id.g3f86985783a_0_86\#slide=id.g3f86985783a_0_86)
 

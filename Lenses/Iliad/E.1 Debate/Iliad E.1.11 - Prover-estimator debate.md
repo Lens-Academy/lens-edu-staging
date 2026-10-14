@@ -6,8 +6,12 @@ summary_for_tutor: "Section 18 of Iliad worksheet E.1: the prover-estimator deba
 authors:
   - Stephan Wäldchen (Iliad)
 source_url: https://iliad-intensive.org/safety/debate/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "debate#18-prover-estimator-debate"
+upstream_fingerprint: "kGm/810/1/0I7y0KwX0O4f0TNu0YoT0ckB0e7c0jnH0oCx0txr0xOq13yL1DWv1QIo1SKe1ZDz1eXN1luJ1x7J1xSJ22z427Rj28Uc2B572ISt2QXS2Zbo2ice2rPH30RS32IQ3Ni4"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/safety/debate/#18-prover-estimator-debate"
 ---
 
 #### Text

@@ -7,8 +7,12 @@ authors:
   - Stephan Wäldchen (Independent)
   - Louis Jaburi (EleutherAI)
 source_url: https://iliad-intensive.org/safety/steganography/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "steganography#4-main-content"
+upstream_fingerprint: "271kfidW1tmgNbKt65/1235/1/00xW05rt07ER0GLV0Hzw0IoG0JtC0Lne0MJ40Nyv0RWa0WUp0Zy50bD30c3j0gTc0vnR11KF17sh193Q1CCi1DMU1DpL1HEp1QFr1cRZ1dSE1jO31luJ1oiB1sbe1tkg"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/safety/steganography/#4-main-content"
 ---
 
 #### Text
