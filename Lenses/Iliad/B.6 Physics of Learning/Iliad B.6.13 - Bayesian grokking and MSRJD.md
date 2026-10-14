@@ -9,8 +9,12 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "qft#57-bayesian-grokking-a-first-order-transition-alternative-reading"
+upstream_fingerprint: "J9ZutvmoTyKLdLw/2978/1/005Z00a802BA02l903Bq06ri06s807vU09Gr0FzV0HCP0Imv0Ohj0PQP0Rhl0T4Z0WUp0YPf0YPn0ZKP0Zcb0dyg0gf40itO0j900kcD0o9T0oFv0p2p0sgW0tnw0ug5"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/qft/#57-bayesian-grokking-a-first-order-transition-alternative-reading"
 ---
 
 #### Text
@@ -137,6 +141,8 @@ Correlators of $$\tilde x$$ compute responses to kicks. Causality is built in: $
 - *Two-time observables.* The natural objects of the formalism are the correlation function $$C(t,t') = \left\langle x(t)x(t') \right\rangle$$ and the response $$R(t,t')$$. In *equilibrium* they are not independent: the fluctuation–dissipation theorem (FDT) locks them together, $$T\, R(t,t') = -\partial_{t'}C(t,t')$$ for $$t>t'$$ (with $$T = D/2$$ in our normalization) (Kubo 1957; Kubo 1966). A measured *violation* of the FDT is therefore the standard diagnostic that a system is genuinely out of equilibrium — the warning light used to great effect in Section 6.2.
 - *Onsager–Machlup.* The action (6.7) is quadratic in $$\tilde x$$, so the response field can be integrated out exactly, giving the probability of a trajectory as $$P[x] \propto e^{-\frac{1}{2D}\int dt\, (\partial_t x - f(x))^2}$$: the Lagrangian form promised above, in which the most probable path extremizes a classical action.
 
+[^3]: As a point of notation, $$\eta$$ and $$\zeta$$ are also commonly used for noise, and we will distinguish between discrete and continuum delta functions as $$\delta_{ij}$$ and $$\delta(t-t')$$ respectively.
+
 :::callout {title="Exercise" tone="amber"}
 **Exercise 6.1 (The Ornstein–Uhlenbeck process and the FDT).** **(a)** Fill in the noise average leading to (6.7).
 
@@ -158,5 +164,3 @@ Correlators of $$\tilde x$$ compute responses to kicks. Causality is built in: $
 **(d)** In the discrete construction each delta function propagates information strictly forward in time (Ito: the noise at step $$i-1$$ affects $$x_{i}$$, never earlier variables). Diagrammatically, $$\langle x \tilde x\rangle$$ is a retarded propagator; $$\langle \tilde x\tilde x\rangle$$ would be a closed loop of retarded propagators, which vanishes — equivalently, "a response to no perturbation is not an observable." Causality of $$R$$ is the same statement.
 
 :::
-
-[^3]: As a point of notation, $$\eta$$ and $$\zeta$$ are also commonly used for noise, and we will distinguish between discrete and continuum delta functions as $$\delta_{ij}$$ and $$\delta(t-t')$$ respectively.
