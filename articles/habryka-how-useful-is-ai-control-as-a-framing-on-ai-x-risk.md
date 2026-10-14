@@ -916,9 +916,6 @@ Separately, I think just promising to pay AIs conditional on them not screwing u
 So, we can dive into the technical side (what we've called [few-shot catastrophe prevention](https://www.lesswrong.com/posts/i2nmBfCXnadeGmhzW/catching-ais-red-handed#Few_shot_catastrophe_prevention)), but I'd like to caveat that this is a bit obviously insane. (As opposed to non-obviously insane like the current situation. (It's not obvious to the public that we're racing toward the singularity with a small investment in safety (small from an absolute perspective).))
 
 The less insane scenario where people continue anyways might look like taking a step back and trying to get a good scientific understanding of scheming and then proceeding only when you have pretty credible approaches for avoid this (though this might be really hard and it's unclear how much one example helps you here).
-:::
-
-:::callout{title="Ryan Greenblatt" tone="green"}
 
 Paul seems pretty optimistic about using a single example where we catch a schemer to greatly help build credible countermeasures, but I'm considerably more skeptical here. I think the story would be more like "you motivate a serious societal response and then some thing good happens via misc science progress (e.g. model organisms work)".
 
