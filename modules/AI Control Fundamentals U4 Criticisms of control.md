@@ -32,7 +32,7 @@ When you answer a criticism, we suggest comparing the world with control against
 \## In this unit you will
 
 - Read John Wentworth's case against control research, with replies from Buck Shlegeris and Lucius Bushnaq.
-- Read Oliver Habryka and Jozdien on why control may not work, and what Greenblatt and Shlegeris say back. Optionally, read MIRI on why it would not work for a superintelligence.
+- Read Oliver Habryka and Jozdien on why control may not work, and what Greenblatt and Shlegeris say back, and MIRI on why it would not work for a superintelligence.
 - Look at two recent experiments in which researchers stress-tested control protocols with smarter attacks.
 - Read Oliver Habryka's worry that control pushes AI capabilities forward, and Yonatan Cale's question whether a company that only cares about profit would build a safety tool anyway, with three answers.
 - Come back to Jan Kulveit's warning-shot argument, with the replies it got and two comments written after a real incident in 2026.
