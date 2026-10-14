@@ -782,6 +782,8 @@ I do think if you start editing trajectories and muck with internal representati
 
 Yeah, I think the analogous case is that you'll have hours (or more), but that people will run a bunch of experiments where you get updated to complete much smaller subtasks and this will be wired together in some crazy way.
 
+---
+
 > I do think if you start editing trajectories and muck with internal representations
 
 I think you'll absolutely have to do some shorter horizon feedback than literally just hours or weeks of neuralese thinking, but I also think this will by default already be part of the normal training process.
@@ -890,6 +892,8 @@ I would say there are two (related) goals:
 :::callout{title="Ryan Greenblatt" tone="green"}
 
 (Yep, I mean adversarial action.)
+
+---
 
 Gaining value from catching escape attempts isn't clearly necessary on some deep level, but it's relatively methodologically important to how we imagine actually implementing the proposal.
 
