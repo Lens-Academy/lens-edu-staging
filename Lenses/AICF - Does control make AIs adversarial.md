@@ -81,15 +81,6 @@ to:: creating AI systems whom we then need to surveil for these reasons might st
 from:: Of course, many moral theories do permit causing harm in some cases.
 to:: if our own actions foreseeably created the conflict in the first place.
 
-#### Text
-content::
-In a 2025 interview, Rob Wiblin of 80,000 Hours asked Buck Shlegeris, who works on control, whether controlling AIs is "a bit of a dick move". You heard part of this interview in Unit 3.
-
-#### Video
-source:: [[../video_transcripts/80-000-hours-controlling-ai-that-wants-to-take-over-so-we-can-use-it-anyway-buck-shlegeris]]
-from:: 98:51.0
-to:: 102:37.5
-
 #### Question: Open
 id:: 62c79e3b-b151-42dd-b679-3d539336c54a
 force-feedback:: first
@@ -105,6 +96,14 @@ assessment-instructions:: Score out of 100. Context for grading: Robert Long, Je
 feedback-instructions:: The learner weighs a possible moral cost of control working, not a reason it fails, using Long, Sebo and Sims's account. By their account, general, by-default surveillance is harder to justify than surveillance targeted on credible evidence of danger, a lot also depends on what the AI systems are like and on whether the measure is necessary, knowingly creating AI systems whom we then need to surveil might still be unacceptable, and we can be culpable if our own actions foreseeably created the conflict. Start with the strongest part of the answer in one sentence, then name the most important thing it missed or got wrong. If the learner treats the welfare point as a risk to rebut (for example "it does not matter because control keeps us safe"), point out that the authors accept that harm can be permitted in some cases, and ask what makes the difference by their account. One turn, 60 to 120 words. No generic praise. Do not say whether control is net positive, and do not dismiss or overstate the welfare concern. If the learner is stuck, give one foothold: ask whether watching only the models that failed an evaluation is the targeted or the untargeted kind of surveillance in the reading, and who chose to create those models.
 
 #### Text
+content::
+In a 2025 interview, Rob Wiblin of 80,000 Hours asked Buck Shlegeris, who works on control, whether controlling AIs is "a bit of a dick move". You heard part of this interview in Unit 3.
+
+#### Video
+source:: [[../video_transcripts/80-000-hours-controlling-ai-that-wants-to-take-over-so-we-can-use-it-anyway-buck-shlegeris]]
+from:: 98:51.0
+to:: 102:37.5
+
 #### Question: Open
 id:: a9909222-3174-464b-b6ce-b2aa408a797b
 force-feedback:: first
