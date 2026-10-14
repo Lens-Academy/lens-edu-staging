@@ -6,8 +6,12 @@ summary_for_tutor: "Opening of Iliad worksheet E.3 Worst-Case Interpretability: 
 authors:
   - Louis Jaburi (EleutherAI)
 source_url: https://iliad-intensive.org/safety/worst-case-interp/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "worst-case-interp#prerequisites"
+upstream_fingerprint: "uUN/117/1/01JU0Vjg1HGB2skn2tO03KD44Lf64j2c5YkZ76QQ79rt82Wz92pA9F0t9GPm9o18BOwmCCxiDzOfE9mCElH7F1ZtFfR9FzCCILq1J70hKWW1KXeoKdwXL6zWLGQRLzy4"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/safety/worst-case-interp/#prerequisites"
 ---
 
 #### Text

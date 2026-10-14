@@ -6,8 +6,12 @@ summary_for_tutor: "Reading guide and further reading of Iliad worksheet E.3 Wor
 authors:
   - Louis Jaburi (EleutherAI)
 source_url: https://iliad-intensive.org/safety/worst-case-interp/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "worst-case-interp#reading-guide"
+upstream_fingerprint: "7knIbSCkMeZE/200/1/0Dw6183B1AUw1WaH1fR11xjy2JMw2Q3X3Ni43Rbh3uW14Lm84N3p4f9W4qPq4xAj56OL6JFP6w8l7EXw7yvc8D6U8EvV8nGA8qCR9Oq6A0rJA2jnA3c6AEDeAH8pAvEI"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/safety/worst-case-interp/#reading-guide"
 ---
 
 #### Text
@@ -34,8 +38,9 @@ content::
 
 * Read: above mentioned [blog post](https://www.lesswrong.com/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise)
 
-::card[[../Lenses/hilton-a-birds-eye-view-of-arcs-research|ARC’s general agenda]]
+::card[[../../hilton-a-birds-eye-view-of-arcs-research|ARC’s general agenda]]
 
+* [ARC’s general agenda](https://www.lesswrong.com/posts/ztokaf9harKTmRcn4/a-bird-s-eye-view-of-arc-s-research)
 * Recent progress: [no-coincidence principle](https://www.lesswrong.com/posts/Xt9r4SNNuYxW83tmo/a-computational-no-coincidence-principle)
 
 \## Further reading

@@ -7,25 +7,26 @@ partner-name: Iliad
 partner-logo: iliad-lockup.svg
 partner-logo-small: iliad-small.svg
 partner-url: https://www.iliad.ac/
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
 ---
-# Module: [[../../modules/Iliad A.1 - AI Alignment Introduction|A.1 AI Alignment Introduction]]
-# Module: [[../../modules/Iliad A.2 - Alignment in Practice|A.2 Alignment in Practice]]
-# Module: [[../../modules/Iliad A.3 - Alignment in Practice 2|A.3 Alignment in Practice 2]]
-# Module: [[../../modules/Iliad A.4 - Reward Learning Theory|A.4 Reward Learning Theory]]
+# Module: [[../../modules/Iliad/Iliad A.1 - AI Alignment Introduction|A.1 AI Alignment Introduction]]
+# Module: [[../../modules/Iliad/Iliad A.2 - Alignment in Practice|A.2 Alignment in Practice]]
+# Module: [[../../modules/Iliad/Iliad A.3 - Alignment in Practice 2|A.3 Alignment in Practice 2]]
+# Module: [[../../modules/Iliad/Iliad A.4 - Reward Learning Theory|A.4 Reward Learning Theory]]
 # Meeting: Unit A
 
-# Module: [[../../modules/Iliad B - Learning|B — Learning]]
+# Module: [[../../modules/Iliad/Iliad B - Learning|B — Learning]]
 
 # Meeting: Unit B
 
-# Module: [[../../modules/Iliad C - Interpretability|C — Interpretability]]
+# Module: [[../../modules/Iliad/Iliad C - Interpretability|C — Interpretability]]
 
 # Meeting: Unit C
 
-# Module: [[../../modules/Iliad D - Agency|D — Agency]]
+# Module: [[../../modules/Iliad/Iliad D - Agency|D — Agency]]
 
 # Meeting: Unit D
 
-# Module: [[../../modules/Iliad E - Safety Guarantees and their Limits|E — Safety Guarantees and their Limits]]
+# Module: [[../../modules/Iliad/Iliad E - Safety Guarantees and their Limits|E — Safety Guarantees and their Limits]]
 
 # Meeting: Unit E
