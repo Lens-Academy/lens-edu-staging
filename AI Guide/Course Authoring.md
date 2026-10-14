@@ -47,6 +47,12 @@ It is easy to write a course that sounds right. Being careful while writing does
 Source means: a link the student can see (inline or footnote), or for maths, a calculation you ran. Own view means the sentence says so ("We think…"). Hedging ("probably") is neither. (rather cut than hedge)
 Claims hide in sentences that read like structure ("there are two ways to get this wrong", "these are mirror images") or like teaching lore ("students often misread this"). Treat those as claims too; the second kind is usually better rewritten as an instruction to the tutor: "if the student does X, do Y".
 
+**How to write sourced claims:**
+- **Facts are plain claims with a footnote.** "Redwood advises AI companies, including Google DeepMind and Anthropic.[^cite-…]", not "Redwood says it advises…" or "in its authors' words". Don't wrap most facts in quotation marks. A short quote is fine where the exact wording matters.
+- **Judgements name who holds them,** or they read as our own view: "According to Rob Wiblin, host of the 80,000 Hours podcast, Redwood is …".
+- **An organisation's claims about its own practice, and its promises and plans, are marked as its claims,** because only it can vouch for them: "Google DeepMind says it treats its own AI agents as possible insider threats." Facts others can check (it published X, a paper found Y) stay plain claims. If the organisation is the only source for a strong claim, look for an outside source first.
+- **No marketing qualifiers.** Don't copy fuzzy wording such as "well over 99%", "well within 24 hours", "highly robust" or "very reliably". State the plain fact or the number: "over 99%", "within 24 hours", "safety fell from 99% to 59%".
+
 **Cite with footnotes.**
 When you cite a source in lens text, put a `[^cite-<id>]` marker right after the claim, after the punctuation, and write the definition at the end of the same segment: authors (year), *title*, then a link named after the site. The learner sees a small [1] and the full reference when hovering or tapping it. Use `[^note-<id>]` for an aside. Ids are lowercase kebab-case, and the same source keeps the same id. Full rules: [[Adding Sources#Citations and explanatory notes]].
 
