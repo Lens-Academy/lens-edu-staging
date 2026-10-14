@@ -185,9 +185,6 @@ All of these are still going to involve some amount of punting (e.g. future AIs 
 This is pretty similar to what you wrote above, but with somewhat different emphasis. In particular, I think arbitrarily scalable "serious" alignment might be very hard, but various other weaker things could suffice.
 
 (By serious alignment, I mean we don't need humans in the loop either because of sufficient corrigibility or the AIs being good successors (aka sovereigns, though maybe less powerful than this implies).)
-:::
-
-:::callout{title="Ryan Greenblatt" tone="green"}
 
 On **(1)** (not having a concrete plan for what to do with smarter systems), I think we should get such a plan (though I'm maybe more optimistic about being fully safety case or empirical results oriented).
 
@@ -221,9 +218,6 @@ With the literal "argue to testers about welfare objections", my hope is that we
 
 -   We have a welfare department which talks to the AI about its preferences. (If we started this right now, we'd just have a part time welfare officer, but this would scale up over time as needed.) (There are a [number of technical issues with communicating with AIs about their preferences](https://www.lesswrong.com/posts/F6HSHzKezkh6aoTr2/improving-the-welfare-of-ais-a-nearcasted-proposal#Communicating_with_AI_Systems_and_Understanding_Their_Preferences) to be clear.)
 -   Otherwise, the AI is trained to not argue against safety measures. More specifically, if we detect this, we would investigate and see if we think this is downstream of scheming or something less concerning. We'd maybe only want to literally train against this if we don't think it's due to scheming (or at least we're not confident that it is due to scheming). (And if we do catch the AI and determine it is seriously misaligned via this route, that seems pretty good IMO.)
-:::
-
-:::callout{title="Ryan Greenblatt" tone="green"}
 
 > My guess is sowing internal conflict and creating scissor statements and stuff like that is pretty feasible and doesn't require being that smart. 
 
