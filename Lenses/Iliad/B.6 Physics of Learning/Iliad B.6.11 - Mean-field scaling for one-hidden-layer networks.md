@@ -9,8 +9,12 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "qft#52-mean-field-scaling-for-one-hidden-layer-networks"
+upstream_fingerprint: "53S10QFw7g6z2gA0fXlWBiAa/2728/1/02Xj03Vo072k0CFE0Ela0PY70Q5u0S4C0SvW0TfJ0WUG0WUp0f2I0fkS0lNn0nP00nlJ0rPd0vLZ0yzi11Nv12NE13Js159d1A5l1A6T1CPB1FB71Lw61NKF1Ntq1T3O"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/qft/#52-mean-field-scaling-for-one-hidden-layer-networks"
 ---
 
 #### Text
@@ -191,7 +195,7 @@ $$
 
 This is another version of the "$$m=\tanh(\beta(m+B))$$" consistency condition, now for noisy training.
 
-![Mean-field training for a example: , trained by the rescaled gradient flow (5.15) on samples of the two-neuron teacher ; is rescaled training time. Left: the empirical measure in the plane for (dots, colored by time; thin gray lines trace of the particle trajectories), drawn over the density of an run at (shaded contours), standing in for the limiting measure . Individual neurons move order-one distances, and the measure condenses onto one-dimensional filaments — the configurations realizing the teacher. (The point symmetry reflects the oddness of .) Right: the mean field itself, , converging to the target (dashed; circles mark the training data).](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-mf-transport-a3a32282.png)
+![Mean-field training for a example: , trained by the rescaled gradient flow (5.15) on samples of the two-neuron teacher ; is rescaled training time. Left: the empirical measure in the plane for (dots, colored by time; thin gray lines trace of the particle trajectories), drawn over the density of an run at (shaded contours), standing in for the limiting measure . Individual neurons move order-one distances, and the measure condenses onto one-dimensional filaments — the configurations realizing the teacher. (The point symmetry reflects the oddness of .) Right: the mean field itself, , converging to the target (dashed; circles mark the training data).](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-mf-transport-5c518c0d.png)
 
 Mean-field training for a $$d=1$$ example: $$f_{\rho}(x)=\frac{1}{N}\sum_{i}c_{i}\tanh(a_{i}x)$$, trained by the rescaled gradient flow (5.15) on $$n=30$$ samples of the two-neuron teacher $$y(x)=2\tanh(3x)-\tfrac{3}{2}\tanh(x)$$; $$\tau=\tilde\eta\, t$$ is rescaled training time. *Left:* the empirical measure $$\rho_{N,t}$$ in the $$(a,c)$$ plane for $$N=300$$ (dots, colored by time; thin gray lines trace $$40$$ of the particle trajectories), drawn over the density of an $$N=30{,}000$$ run at $$\tau=20$$ (shaded contours), standing in for the limiting measure $$\rho_{t}$$. Individual neurons move order-one distances, and the measure condenses onto one-dimensional filaments — the configurations realizing the teacher. (The point symmetry $$(a,c)\mapsto(-a,-c)$$ reflects the oddness of $$\tanh$$.) *Right:* the mean field itself, $$f_{\rho_t}(x)$$, converging to the target (dashed; circles mark the training data).
 

@@ -9,8 +9,12 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "qft#4-the-ntk-and-large-width-during-training"
+upstream_fingerprint: "OW1Lxjbvtvjz3d4/1332/1/08hP0HOZ0Hnb0RgQ0ezw0g9X0gAr0o5i0oUs0qn30udb0yzi0zvY13mW16C31C3x1Dk31F8w1VS21hHa1iss1s941tEl22cW24ZH29Cd29Sz2Umq2ZPf2q6J2tYR383I"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/qft/#4-the-ntk-and-large-width-during-training"
 ---
 
 #### Text

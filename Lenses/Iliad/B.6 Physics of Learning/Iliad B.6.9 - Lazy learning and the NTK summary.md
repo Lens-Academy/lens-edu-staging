@@ -9,8 +9,12 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "qft#44-lazy-learning"
+upstream_fingerprint: "4JVMMPC2uj4U/964/1/03l507Xo0Q5u0TfJ0XoC0zw018mq1Thc1qpW1ywb23tv288L29v12BGc2Cv52Nap2ZPf2iQi2p1s2p8d318431LA32vm3C3w3Rc13UOI3W7B3gnb3iG540fx4Gly4MwW"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/qft/#44-lazy-learning"
 ---
 
 #### Text

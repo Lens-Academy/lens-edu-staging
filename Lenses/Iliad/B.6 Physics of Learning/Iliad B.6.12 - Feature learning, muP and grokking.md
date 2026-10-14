@@ -9,8 +9,12 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "qft#53-the-ntk-is-no-longer-constant-feature-learning"
+upstream_fingerprint: "V6wZrJxykewCRdLN7E/2985/1/00a806Ll06rd06s807Xo08Ey0C4t0Ela0G2G0G2Z0GkS0HYS0Hnb0Imv0L8c0Nfu0O4l0Osb0P5u0QLo0R440RWa0SvW0TSc0Xaq0XbY0Z5w0Zd50far0g9X0iiN0ivh"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/qft/#53-the-ntk-is-no-longer-constant-feature-learning"
 ---
 
 #### Text

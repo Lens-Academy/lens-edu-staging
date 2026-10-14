@@ -9,8 +9,12 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "qft#3-large-width-at-initialization-the-gaussian-process-limit"
+upstream_fingerprint: "ei7OS9CWgciYHde/1785/1/08Bt0D3s0DVL0DxQ0JcY0Lps0Pco0XyW0anu0d7r0fl10g9X0lss0mBn0vWb11KF14T416aU17bN18mq1Ab41GQK1Gzb1IB11S0q1SWU1UVl1XtY1Xw41bh41e671fIk"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/qft/#3-large-width-at-initialization-the-gaussian-process-limit"
 ---
 
 #### Text

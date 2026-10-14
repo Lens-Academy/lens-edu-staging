@@ -9,8 +9,12 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "qft#34-the-nngp-correspondence"
+upstream_fingerprint: "dStaMnowtNAHT6t1aq/2412/1/01Zl02oT04bG07qI08M50Ajg0C3q0HAK0J5q0LOc0MsV0NPZ0NvJ0T980Tqf0Y2A0af50g4V0g9X0iBI0k4X0lQO0sHR0t5t0txr0xut1Exc1GEZ1J6Y1Ot41SWU1UK5"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/qft/#34-the-nngp-correspondence"
 ---
 
 #### Text
@@ -94,6 +98,8 @@ $$
 Iterating either formula through the layers gives the exact infinite-width kernel of a deep ReLU or erf network in a few lines of code. (Deriving (3.31)–(3.32) is a pleasant but somewhat lengthy Gaussian-integral workout.)
 
 :::
+
+[^2]: For transformers, the limit analogous to "large width" that leads to a Gaussian process is a large number of attention heads.
 
 :::callout {title="Exercise" tone="amber"}
 **Exercise 3.2 (The NNGP correspondence, empirically (lab)).** Fix two unit-norm inputs $$x, x'\in{\mathbb{R}}^{d}$$ with, say, $$d=8$$ and $$x\cdot x' = 0.5$$. For widths $$N \in \{3, 30, 300\}$$, sample $$M = 10^{4}$$ independent initializations of the one-hidden-layer erf network $$f(x) = \frac{1}{\sqrt{N}}\sum_{i=1}^{N} c_{i}\, \mathrm{erf}\big(a_{i}\cdot x/\sqrt{d}\big)$$ with $$c_{i}, a_{ij}\sim{{\mathcal N}}(0,1)$$ (that is, $$\sigma_{w} = 1$$).
@@ -239,12 +245,10 @@ We briefly remark that the analysis of how to tune initialization variances $$\s
 
 The term dates back to dynamical systems theory from the 80's and 90's, referring to the boundary between ordered and chaotic phases. It was adapted to neural networks around 2016 (Poole et al. 2016; Schoenholz et al. 2017). The idea was to treat the progression through layers of a network as a dynamical system, and to ask: given two nearby inputs $$x,x'$$, for what range of hyperparameters ($$\sigma_{w},\sigma_{b}$$, etc.) and to what depth do they remain nearby, without either a) collapsing; or (b) blowing up chaotically (with no correlation). The analysis roughly amounts to making sure the kernel recursion of (3.26), (3.30) leads to kernels that neither collapse nor blow up. Doing it carefully, theoretically, can produce elementary trainable networks (with no layer norms!) over 10,000 layers deep (Xiao et al. 2018).
 
-![Order/chaos phase diagram for a tanh network, with shading indicating the critical depth to which a network is trainable.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-eoc-phase-a2fd0596.png)
+![Order/chaos phase diagram for a tanh network, with shading indicating the critical depth to which a network is trainable.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-eoc-phase-6d80073c.png)
 
 Order/chaos phase diagram for a tanh network, with shading indicating the critical depth to which a network is trainable.
 
 For MLP's with ReLu activations, the edge of chaos is just the one point $$\sigma_{w}=2,\,\sigma_{b}=0$$. Moving slightly away from this point, one can estimate the "critical depth" $$L_{c}$$ at which the network either collapses or blows up – see (Schoenholz et al. 2017). For MLP's with other activation functions, the edge of chaos is more interesting. For $$\phi=\tanh$$, the phase diagram is shown in Figure 5.
 
 The quantity `$$\chi_{1}$$' that controls the critical depth ($$L_{c}= -1/\log \chi_{1}$$) is the derivative of the layer-to-layer kernel recursion at its fixed point, which measures how fast nearby inputs separate. Importantly, the same quantity $$\chi_{1}$$ also controls the size of gradients as they back-prop through a network *during training*. There's a direct link between behavior at initialization and behavior during training. We come to training next.
-
-[^2]: For transformers, the limit analogous to "large width" that leads to a Gaussian process is a large number of attention heads.

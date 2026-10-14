@@ -9,8 +9,12 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "qft#24-a-physics-example-the-ising-model"
+upstream_fingerprint: "rrrXZ0lUL/3126/1/05TP0BIn0BoY0Exd0G2G0GkS0LOc0LYs0MXu0S4C0TfJ0VHi0XRh0ZYg0dHa0dh90fle0g9X0kaI0t5t0uZe0uo40wRJ0wVK0xaQ0zQM105b11cl14fx1Fr01Gpb1QHM"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/qft/#24-a-physics-example-the-ising-model"
 ---
 
 #### Text
@@ -83,7 +87,7 @@ $$
 
 This transcendental equation is best solved graphically (Figure 1). Depending on $$\beta$$, $$J$$, and $$B$$ it has one solution, or three; when there are three, the outer two are minima of $$s$$ and the middle one is a maximum.
 
-![Graphical solution of the mean-field equation (2.27): intersections of with the diagonal. Left: high temperature, one solution at . Middle: low temperature at , three solutions, of which is a maximum of and are degenerate minima. Right: low temperature with , three solutions, with the positive one the global minimum.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-ising-tanh-00a269a2.png)
+![Graphical solution of the mean-field equation (2.27): intersections of with the diagonal. Left: high temperature, one solution at . Middle: low temperature at , three solutions, of which is a maximum of and are degenerate minima. Right: low temperature with , three solutions, with the positive one the global minimum.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-ising-tanh-a530b308.png)
 
 Graphical solution of the mean-field equation (2.27): intersections of $$\tanh\beta(dJ\bar m+B)$$ with the diagonal. Left: high temperature, one solution at $$\bar m=0$$. Middle: low temperature at $$B=0$$, three solutions, of which $$\bar m=0$$ is a maximum of $$s$$ and $$\pm\bar m$$ are degenerate minima. Right: low temperature with $$B>0$$, three solutions, with the positive one the global minimum.
 
@@ -107,7 +111,7 @@ This expansion of a free energy in powers of an order parameter is called a *Lan
 
 *The ordered phase and a first-order transition.* Take $$dJ > \beta^{-1}$$: the coupling beats the temperature, the quadratic coefficient in (2.29) is negative, and $$s(m)$$ is a double well (Figure 2). The system wants to be ordered, with neighboring spins aligned; but aligned which way? The field decides. For $$B<0$$ the global minimum is near $$m=-1$$, for $$B>0$$ near $$m=+1$$, and at $$B=0$$ the two minima are exactly degenerate. As $$B$$ is swept through $$B_{c} = 0$$, the magnetization the system displays jumps from $$\bar m\approx -1$$ to $$\bar m\approx +1$$. This is a *first-order phase transition*.
 
-![The action of (2.25) in the ordered phase (), for a negative, zero, and positive external field. The two minima tilt with ; the global minimum (orange) switches sides at . The suppressed minimum (grey) survives as a metastable state.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-ising-wells-b0a7fc0a.png)
+![The action of (2.25) in the ordered phase (), for a negative, zero, and positive external field. The two minima tilt with ; the global minimum (orange) switches sides at . The suppressed minimum (grey) survives as a metastable state.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-ising-wells-c40bd7f1.png)
 
 The action $$s(m)$$ of (2.25) in the ordered phase ($$\beta dJ = 1.5$$), for a negative, zero, and positive external field. The two minima tilt with $$B$$; the global minimum (orange) switches sides at $$B=0$$. The suppressed minimum (grey) survives as a metastable state.
 
@@ -125,7 +129,7 @@ $$
 
 is a peak whose height grows like $$N$$ and whose width shrinks like $$1/N$$: a nascent delta function (Figure 3, right). Genuine non-analyticity can occur only at $$N=\infty$$: at finite $$N$$ the partition function is a finite sum of analytic functions of $$B$$, so everything is smooth, and what one sees is a rapid *crossover* that sharpens as $$N$$ grows. Watching the peak in $$\chi$$ grow with $$N$$, rather than saturate, is the standard numerical diagnostic that separates a true transition from a crossover. Exercise 2.2 works out the shapes of these curves for a general first-order transition; they are worth remembering whenever "emergent capabilities" in models of growing size are under discussion (Section 7.6).
 
-![Fingerprints of a first-order transition, in the mean-field Ising model at , computed from the one-dimensional integral (2.25) at finite . Left: the expected magnetization as a function of the field is a sigmoid of width , sharpening into a step. Right: the susceptibility is a peak of height and width .](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-ising-firstorder-b09cb8f4.png)
+![Fingerprints of a first-order transition, in the mean-field Ising model at , computed from the one-dimensional integral (2.25) at finite . Left: the expected magnetization as a function of the field is a sigmoid of width , sharpening into a step. Right: the susceptibility is a peak of height and width .](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-ising-firstorder-f1843fd1.png)
 
 Fingerprints of a first-order transition, in the mean-field Ising model at $$\beta dJ = 1.5$$, computed from the one-dimensional integral (2.25) at finite $$N$$. Left: the expected magnetization as a function of the field is a sigmoid of width $$\propto 1/N$$, sharpening into a step. Right: the susceptibility $$\chi = \partial_{B}{\mathbb{E}}(m)$$ is a peak of height $$\propto N$$ and width $$\propto 1/N$$.
 
@@ -139,7 +143,7 @@ $$
 
 so the order parameter $$\bar m \propto (T_{c} - T)^{1/2}$$ moves *continuously* but not smoothly; $$\varphi$$ and $$\partial_{T}\varphi$$ are continuous, and the discontinuity sits in $$\partial_{T}^{2}\varphi$$ (the heat capacity). The point $$(T,B) = (T_{c},0)$$ is a *critical point*. Below it the two ordered states $$\pm\bar m$$ are exact mirror images, and the system must pick one: this is *spontaneous symmetry breaking*, the $$\mathbb{Z}_{2}$$ symmetry $$s\to -s$$ of the energy at $$B=0$$ being broken by the state. The exponent $$\frac{1}{2}$$ in (2.32) is an example of a *critical exponent*. Mean-field theory predicts it in every dimension, and it is wrong in low dimension: the exact value is $$\frac{1}{8}$$ in $$D=2$$ (Onsager), and there is no transition at all in $$D=1$$. Mean-field exponents become exact for $$D\geq 4$$. Understanding why is the subject of the renormalization group, for which see (Tong 2012).
 
-![The second-order transition of the mean-field Ising model at . Left: the action for temperatures above, at, and below ; a single basin flattens and splits into two symmetric ones. Right: the resulting magnetization , continuous at but with the square-root singularity (2.32) (dashed).](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-ising-secondorder-35895785.png)
+![The second-order transition of the mean-field Ising model at . Left: the action for temperatures above, at, and below ; a single basin flattens and splits into two symmetric ones. Right: the resulting magnetization , continuous at but with the square-root singularity (2.32) (dashed).](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-ising-secondorder-0e2b109d.png)
 
 The second-order transition of the mean-field Ising model at $$B=0$$. Left: the action $$s(m)$$ for temperatures above, at, and below $$T_{c}= dJ$$; a single basin flattens and splits into two symmetric ones. Right: the resulting magnetization $$\bar m(T)$$, continuous at $$T_{c}$$ but with the square-root singularity (2.32) (dashed).
 
@@ -197,7 +201,7 @@ Sketch this curve. Near $$B_{c}$$, where $$p_{1}p_{2}\approx\frac{1}{4}$$, the f
 
 **(d)** See Figure 14. The peak in the right panel grows in proportion to $$N$$; a crossover's bump would saturate.
 
-![Anatomy of a first-order transition at finite , in the minimal two-branch model , , with the control parameter written as . Left: the branch free energies cross at ; the limiting free-energy density is their minimum, which has a kink. Middle: at finite , is the probability-weighted average of the branch slopes (2.36), a sigmoid of width . Right: the susceptibility (2.37) peaks at with height and width .](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-first-order-smoothing-6b807602.png)
+![Anatomy of a first-order transition at finite , in the minimal two-branch model , , with the control parameter written as . Left: the branch free energies cross at ; the limiting free-energy density is their minimum, which has a kink. Middle: at finite , is the probability-weighted average of the branch slopes (2.36), a sigmoid of width . Right: the susceptibility (2.37) peaks at with height and width .](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-qft-first-order-smoothing-ee7950c0.png)
 
 Anatomy of a first-order transition at finite $$N$$, in the minimal two-branch model $$\varphi_{1}(B) = 0.3\,(B-B_{c})$$, $$\varphi_{2}\equiv0$$, with the control parameter written as $$\alpha$$. Left: the branch free energies cross at $$B_{c}$$; the limiting free-energy density is their minimum, which has a kink. Middle: at finite $$N$$, $$\partial_{B}\varphi$$ is the probability-weighted average of the branch slopes (2.36), a sigmoid of width $$\propto1/N$$. Right: the susceptibility (2.37) peaks at $$B_{c}$$ with height $$\propto N$$ and width $$\propto1/N$$.
 

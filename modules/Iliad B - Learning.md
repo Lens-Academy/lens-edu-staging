@@ -192,34 +192,34 @@ source:: [[../Lenses/Iliad/B.6 Physics of Learning/Iliad B.6.10 - Kernel learnin
 source:: [[../Lenses/Iliad/B.6 Physics of Learning/Iliad B.6.11 - Mean-field scaling for one-hidden-layer networks]]
 
 # Lens: B.6.12 Feature learning, muP and grokking
-source:: [[../Lenses/Iliad B.6.12 - Feature learning, muP and grokking]]
+source:: [[../Lenses/Iliad/B.6 Physics of Learning/Iliad B.6.12 - Feature learning, muP and grokking]]
 
 # Lens: B.6.13 Bayesian grokking and MSRJD
-source:: [[../Lenses/Iliad B.6.13 - Bayesian grokking and MSRJD]]
+source:: [[../Lenses/Iliad/B.6 Physics of Learning/Iliad B.6.13 - Bayesian grokking and MSRJD]]
 
 # Lens: Grokking as a First Order Phase Transition in Two Layer Networks (Rubin et al. 2024)
 source:: [[../Lenses/rubin-grokking-as-a-first-order-phase-transition-in-two-layer-networks]]
 
 # Lens: B.6.14 Double descent and DMFT
-source:: [[../Lenses/Iliad B.6.14 - Double descent and DMFT]]
+source:: [[../Lenses/Iliad/B.6 Physics of Learning/Iliad B.6.14 - Double descent and DMFT]]
 
 # Lens: B.6.15 Empirical neural scaling laws
-source:: [[../Lenses/Iliad B.6.15 - Empirical neural scaling laws]]
+source:: [[../Lenses/Iliad/B.6 Physics of Learning/Iliad B.6.15 - Empirical neural scaling laws]]
 
 # Lens: B.6.16 Scaling law theories and post-training
-source:: [[../Lenses/Iliad B.6.16 - Scaling law theories and post-training]]
+source:: [[../Lenses/Iliad/B.6 Physics of Learning/Iliad B.6.16 - Scaling law theories and post-training]]
 
 # Lens: The Quantization Model of Neural Scaling (Michaud blog post)
 source:: [[../Lenses/ericjmichaud-on-neural-scaling-and-the-quanta-hypothesis]]
 
 # Lens: B.6.17 Appendix A: the replica method
-source:: [[../Lenses/Iliad B.6.17 - Appendix A - the replica method]]
+source:: [[../Lenses/Iliad/B.6 Physics of Learning/Iliad B.6.17 - Appendix A - the replica method]]
 
 # Lens: B.6.18 Appendix B: linear regression to kernel regression
-source:: [[../Lenses/Iliad B.6.18 - Appendix B - linear regression to kernel regression]]
+source:: [[../Lenses/Iliad/B.6 Physics of Learning/Iliad B.6.18 - Appendix B - linear regression to kernel regression]]
 
 # Lens: B.6.19 Kernel regression, ridge regression and linearized networks
-source:: [[../Lenses/Iliad B.6.19 - Kernel regression, ridge regression and linearized networks]]
+source:: [[../Lenses/Iliad/B.6 Physics of Learning/Iliad B.6.19 - Kernel regression, ridge regression and linearized networks]]
 
 # Lens: B.6.20 References
-source:: [[../Lenses/Iliad B.6.20 - References]]
+source:: [[../Lenses/Iliad/B.6 Physics of Learning/Iliad B.6.20 - References]]

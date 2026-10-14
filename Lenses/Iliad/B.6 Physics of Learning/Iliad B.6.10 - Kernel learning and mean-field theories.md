@@ -9,8 +9,12 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "qft#46-bayesian-learning-at-large-width-kernel-learning"
+upstream_fingerprint: "2fCeKl1aZajOCKfS0cj5n/2258/1/047s06ri07Xo09D10HdS0Hnb0MkJ0RSB0VrP0ZVq0a3J0aJw0cQW0eYE0fKt0far0fl10g9X0ikx0iuf10G1139J146c16ca1AmC1B3d1IMi1Loi1N0f1VEl1VKB1d2T"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/qft/#46-bayesian-learning-at-large-width-kernel-learning"
 ---
 
 #### Text
