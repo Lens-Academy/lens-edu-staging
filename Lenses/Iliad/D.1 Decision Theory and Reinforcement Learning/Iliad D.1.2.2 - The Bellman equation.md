@@ -7,8 +7,12 @@ authors:
   - Leon Lang (Iliad)
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/reinforcement-learning/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "reinforcement-learning#1-the-bellman-equation"
+upstream_fingerprint: "LlrHrTboy/658/1/0ckm0txr11TE1hgT1m6j1vVO2vLB38Hc3FD83wmV47Qy47wx4JYR4LVF4MrG4YTy4jgI6ECU6Gvb6opA6tEA79E37rDY80DS8NnR8kRA8mMX9KXlAKw2AQJoAuSxBeO7"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/reinforcement-learning/#1-the-bellman-equation"
 ---
 
 #### Text

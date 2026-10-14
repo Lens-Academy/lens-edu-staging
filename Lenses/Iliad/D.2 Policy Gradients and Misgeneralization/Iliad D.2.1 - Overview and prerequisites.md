@@ -6,12 +6,16 @@ summary_for_tutor: "Opening of Iliad worksheet D.2 Policy Gradients and Misgener
 authors:
   - David Quarel (ARENA), based on work by Matthew Farrugia-Roberts (University of Oxford)
 source_url: https://iliad-intensive.org/agency/policy-gradients-misgeneralization/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "policy-gradients-misgeneralization#"
+upstream_fingerprint: "oGJuUNiba/136/1/0ctt0mQS1Fhy1cJD1lHc2MLi2UXI3ApZ3T2n4MWG4VOm4sHy4uzd59685K035dLd6gFc6kDD6yOh78Eo7Hff7Pq17VVV7Val7Vrj7pfV84Fz8ZUA8cvXAby7AjqxArCw"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/policy-gradients-misgeneralization/"
 ---
 
 #### Video
-source:: [[../video_transcripts/iliad-when-bad-goals-also-fit-your-training-data]]
+source:: [[../../../video_transcripts/iliad-when-bad-goals-also-fit-your-training-data]]
 
 #### Text
 content::

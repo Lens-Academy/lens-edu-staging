@@ -7,8 +7,12 @@ authors:
   - Leon Lang (Iliad)
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/reinforcement-learning/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "reinforcement-learning#7-exact-policy-evaluation"
+upstream_fingerprint: "MXu3wdARF8aX/584/1/0WIO0ZVq0ijq0txr105b15hC1DUF1cYU1dms24ZH2Skw2VkY2lg52lyc2yYc38jT3UPI3nEH3p5e3wmV47wx4MrG4QiO4jgI5g4K5jqh66zG6Gtl6Gvb6Wki6dM46dad"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/reinforcement-learning/#7-exact-policy-evaluation"
 ---
 
 #### Text

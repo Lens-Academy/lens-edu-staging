@@ -7,8 +7,12 @@ authors:
   - Leon Lang (Iliad)
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/reinforcement-learning/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "reinforcement-learning#4-policy-improvement-theorem"
+upstream_fingerprint: "Cru7hyEnRKFU/422/1/00pm0LUi0QMw0oCx0oSZ1tGO2QyX2RCt3QGX3mtd3sIG498k4B3y4jgI5Acx5Wvo5Z3T6EZm6Mu46OS36dlz7Dbp7oF38RZa8aT68upS9GuW9dYQ9hF89o2WADfeBPlO"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/reinforcement-learning/#4-policy-improvement-theorem"
 ---
 
 #### Text
@@ -22,7 +26,7 @@ Given a policy $$\pi$$, define the **improved policy** $$\pi'$$ greedily with re
 **Policy Improvement**
 
 $$
-\pi'(s) \in {\operatorname*{arg\,max}}_{a \in {\mathcal{A}}}\sum_{s' \in {\mathcal{S}}}T(s' \mid s, a)\bigl(R(s,a,s') + \gamma\, V_{\pi}(s')\bigr).
+\pi'(s) \in \operatorname*{arg\,max}_{a \in {\mathcal{A}}}\sum_{s' \in {\mathcal{S}}}T(s' \mid s, a)\bigl(R(s,a,s') + \gamma\, V_{\pi}(s')\bigr).
 $$
 
 :::

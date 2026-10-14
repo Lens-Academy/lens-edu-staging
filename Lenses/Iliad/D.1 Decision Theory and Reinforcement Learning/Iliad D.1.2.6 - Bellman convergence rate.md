@@ -7,8 +7,12 @@ authors:
   - Leon Lang (Iliad)
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/reinforcement-learning/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "reinforcement-learning#5-bellman-convergence-rate"
+upstream_fingerprint: "IrALAgnFA7fKUh7ekjvcM/1032/1/0Opw0bQv0oSZ1VKB1bZ01ha5205q24ZH250B2VpN31xT33cY3AZU3VKJ3Wlz3hAd3jpq3khL3w743wmV40fx49Vd4B3y4Bww4de65Bnm5RZR5bNe5bpf5sE35uta60Zk"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/reinforcement-learning/#5-bellman-convergence-rate"
 ---
 
 #### Text

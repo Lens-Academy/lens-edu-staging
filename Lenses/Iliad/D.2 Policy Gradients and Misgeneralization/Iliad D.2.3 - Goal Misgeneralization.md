@@ -6,8 +6,12 @@ summary_for_tutor: "Part 'Goal Misgeneralization' of Iliad worksheet D.2 Policy 
 authors:
   - David Quarel (ARENA), based on work by Matthew Farrugia-Roberts (University of Oxford)
 source_url: https://iliad-intensive.org/agency/policy-gradients-misgeneralization/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "policy-gradients-misgeneralization#goal-misgeneralization"
+upstream_fingerprint: "5v7/46/1/1AsK1Ccz1io42Bad37uS8SCeAatICRi3Dc2IEj2EF1IfGl77HLBdHSETIFT8L9EtMC3wN0QjNNCQPR6YTpzXUP9gYEP0Z42kZ5RQZO0uaD3TaReqcWnFecGcgTuVhvqA"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/policy-gradients-misgeneralization/#goal-misgeneralization"
 ---
 
 #### Text

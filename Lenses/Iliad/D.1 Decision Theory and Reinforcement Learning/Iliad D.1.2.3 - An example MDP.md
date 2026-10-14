@@ -7,8 +7,12 @@ authors:
   - Leon Lang (Iliad)
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/reinforcement-learning/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "reinforcement-learning#2-an-example-mdp"
+upstream_fingerprint: "FHiZFPrcX/370/1/0mfI12Ww19a61CV31J6Y1MHV1Rlu1UD31hgT2Lh63UHc3wmV45ex4HOk4MrG4RNW4X1P4XvZ4jgI59EB5t3G6YlA7LLK7TpY87Zl8ghb8jHg8mMX8seC9GWJ9eToBVkZ"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/reinforcement-learning/#2-an-example-mdp"
 ---
 
 #### Text
@@ -17,7 +21,7 @@ content::
 
 Consider the MDP with state space $${\mathcal{S}} = \{s_{0}, s_{L}, s_{R}\}$$, action space $${\mathcal{A}} = \{a_{L}, a_{R}\}$$, and deterministic transitions as shown:
 
-![diagram](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-reinforcement-learning-tikz-7f28027bb4ad-a5eb5bce.png)
+![diagram](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-reinforcement-learning-tikz-7f28027bb4ad-6a37ca17.png)
 
 From $$s_{0}$$, action $$a_{L}$$ leads deterministically to $$s_{L}$$ with reward $$+1$$, and action $$a_{R}$$ leads deterministically to $$s_{R}$$ with reward $$+0$$. From $$s_{L}$$ (resp. $$s_{R}$$), any action returns to $$s_{0}$$ with reward $$+0$$ (resp. $$+2$$).
 

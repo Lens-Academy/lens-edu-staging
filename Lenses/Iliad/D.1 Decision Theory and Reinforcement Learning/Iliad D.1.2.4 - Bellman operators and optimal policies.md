@@ -7,8 +7,12 @@ authors:
   - Leon Lang (Iliad)
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/reinforcement-learning/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "reinforcement-learning#3-bellman-operators-and-the-existence-of-optimal-policies"
+upstream_fingerprint: "4s8SvJ7CP4B4yaTuFBRtP6LfKwvBMR/1173/1/00fJ06Lr0I7y0Inr0LnH0Osh0QMw0hyZ0oCx0oSZ11TE12wM1T8U1Z8D1ha5205q27aw29v12XrN2tYR2xwV3JbG3NNa3OrN3QBR3Z1L3hgj3mXi3o3a3pBP3wmV3zCQ"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/reinforcement-learning/#3-bellman-operators-and-the-existence-of-optimal-policies"
 ---
 
 #### Text
@@ -55,7 +59,7 @@ $$
 
 :::callout {title="Solution" tone="neutral" collapse="closed"}
 
-Without loss of generality, assume $$\max_{a}f(a) \ge \max_{a}g(a)$$. Let $$a^{*} \in {\operatorname*{arg\,max}}_{a \in {\mathcal{A}}}f(a)$$. Then:
+Without loss of generality, assume $$\max_{a}f(a) \ge \max_{a}g(a)$$. Let $$a^{*} \in \operatorname*{arg\,max}_{a \in {\mathcal{A}}}f(a)$$. Then:
 
 $$
 \begin{aligned}\left|\max_{a \in {\mathcal{A}}}f(a) - \max_{a \in {\mathcal{A}}}g(a)\right|&= \max_{a \in {\mathcal{A}}}f(a) - \max_{a \in {\mathcal{A}}}g(a) \\&= f(a^{*}) - \max_{a \in {\mathcal{A}}}g(a) \\&\le f(a^{*}) - g(a^{*}) \\&= |f(a^{*}) - g(a^{*})| \\&\le \max_{a \in {\mathcal{A}}}|f(a) - g(a)|.\end{aligned}
@@ -137,7 +141,7 @@ By Theorem 3.1, $$\mathcal{B}_{\pi}$$ has a unique fixed point. By the Bellman e
 **Exercise 3.5.** Let $$V \in \mathcal{V}$$ be any value function, and let $$\pi_{V}$$ be a greedy policy with respect to $$V$$, i.e.
 
 $$
-\pi_{V}(s) \in {\operatorname*{arg\,max}}_{a \in {\mathcal{A}}}\sum_{s' \in {\mathcal{S}}}T(s' \mid s, a)\bigl(R(s,a,s') + \gamma\, V(s')\bigr).
+\pi_{V}(s) \in \operatorname*{arg\,max}_{a \in {\mathcal{A}}}\sum_{s' \in {\mathcal{S}}}T(s' \mid s, a)\bigl(R(s,a,s') + \gamma\, V(s')\bigr).
 $$
 
 Show that $$\mathcal{B}_{\pi_V}V = \mathcal{B}V$$.

@@ -7,8 +7,12 @@ authors:
   - Leon Lang (Iliad)
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/reinforcement-learning/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "reinforcement-learning#6-convergence-of-q-learning"
+upstream_fingerprint: "GhdQMZ7CPcEjXdEkb6yWDSrZuf5/2165/1/01Ur04gx04t30By00I7y0JWS0QMw0S5g0V0u0VrE0WDS0cVS0lU00lpL0mip0oSZ0rrK141L15iR15mw1ABO1B341MM91PSq1Tul1bZ01f6i1ha51xh5205q24ZH26NV"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/reinforcement-learning/#6-convergence-of-q-learning"
 ---
 
 #### Text
@@ -149,7 +153,7 @@ $$
 
 By Exercise 3.6, $$V_{\pi^*}= V^{*}$$. Substituting gives the result.
 
-**(b)** By Exercise 1.2(a), $$V_{\pi^*}(s) = \sum_{a}\pi^{*}(a \mid s)\, Q_{\pi^*}(s,a)$$. Since $$\pi^{*}$$ is the greedy policy with respect to $$V^{*}$$ (Exercises 3.5 and 3.6), it is deterministic and selects $$\pi^{*}(s) \in {\operatorname*{arg\,max}}_{a} \sum_{s'}T(s' \mid s,a)[R(s,a,s') + \gamma\, V^{*}(s')]$$. By Exercise 6.2(a), the inner expression equals $$Q^{*}(s,a)$$, so $$\pi^{*}(s) \in {\operatorname*{arg\,max}}_{a} Q^{*}(s,a)$$. Since $$\pi^{*}$$ is deterministic, $$V^{*}(s) = V_{\pi^*}(s) = Q_{\pi^*}(s, \pi^{*}(s)) = Q^{*}(s, \pi^{*}(s)) = \max_{a} Q^{*}(s,a)$$.
+**(b)** By Exercise 1.2(a), $$V_{\pi^*}(s) = \sum_{a}\pi^{*}(a \mid s)\, Q_{\pi^*}(s,a)$$. Since $$\pi^{*}$$ is the greedy policy with respect to $$V^{*}$$ (Exercises 3.5 and 3.6), it is deterministic and selects $$\pi^{*}(s) \in \operatorname*{arg\,max}_{a} \sum_{s'}T(s' \mid s,a)[R(s,a,s') + \gamma\, V^{*}(s')]$$. By Exercise 6.2(a), the inner expression equals $$Q^{*}(s,a)$$, so $$\pi^{*}(s) \in \operatorname*{arg\,max}_{a} Q^{*}(s,a)$$. Since $$\pi^{*}$$ is deterministic, $$V^{*}(s) = V_{\pi^*}(s) = Q_{\pi^*}(s, \pi^{*}(s)) = Q^{*}(s, \pi^{*}(s)) = \max_{a} Q^{*}(s,a)$$.
 
 **(c)** Substituting Exercise 6.2(b) into Exercise 6.2(a):
 
