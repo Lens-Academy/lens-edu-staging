@@ -374,6 +374,7 @@ Of course, it's also trying to break out during pre-training all the time, but i
 :::callout{title="Ryan Greenblatt" tone="green"}
 
 Ah, by "perform well in training" I mean "perform well in post-training like RLHF".
+---
 
 Anyway, in the standard deceptive alignment story where the AI is doing well in post-training, you have some hope due to the fact that the AI has to have a pretty good internal model of what performs well (otherwise this sort of instrumental reasoning strategy wouldn't work). So just updating it to always do that would work.
 
