@@ -755,6 +755,8 @@ I think this is pretty good crude approximation of how easily SGD will find stuf
 
 (Indeed, I don't super feel like my brain immediately knows how to think about that setup)
 
+---
+
 Yeah, maybe. My current feeling keeps being like "if I treat the AI as a black box, and I just imagine myself being in this situation, I would have no trouble sandbagging and don't really see a world where I would be exposed to unexpected gradients changing my cognition in ways that threatens my ability to not cooperate with the humans". 
 
 Like, at least in the neuralese case where I just have like hours of subjective time to think about doing all the relevant tasks.
