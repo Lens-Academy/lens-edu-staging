@@ -4,8 +4,14 @@ title: "B.5.9 The unrolling formula"
 tldr: "Introduces unrolling, which attributes through the training dynamics, states the unrolling formula for SGD, and has Exercise 4.1 deriving it, followed by a remark on TracIn."
 summary_for_tutor: "Section 4, 4.1 and the first part of 4.2 of Iliad worksheet B.5 Data Attribution: the training-dynamics approach, the counterfactual over the training run, the unrolling formula (20) as a sum over steps with Jacobian products J_(t+1):T, a remark on which questions unrolling answers, Exercise 4.1 (a)-(c) (derive the recursion, unroll it, preconditioned SGD) with collapsed solution, and a TracIn remark. Keep J_t, eta_t, T. Let the student attempt each exercise before revealing or paraphrasing a solution."
 source_url: https://iliad-intensive.org/learning/data-attribution/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+authors:
+  - Louis Jaburi
+upstream_key: "data-attribution#4-unrolling"
+upstream_fingerprint: "GtvbqKxRtXAm/1527/1/0A3X0Ahv0I6y0KmI0RNy0WUp0btE0h9s0kKC1BVK1HMU1JTH1Jym1VPu1Vam1doj1ohd1rRv1vAJ24SZ2C6U2Zz52iFs2jpO2t3v2w8i31ed36Pe374F38bL39KN3Brd"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/data-attribution/#4-unrolling"
 ---
 
 #### Text

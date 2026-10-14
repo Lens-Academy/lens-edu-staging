@@ -4,8 +4,14 @@ title: "B.5.7 Connecting Bayesian and classical influence functions"
 tldr: "Exercise 3.2: expand the Bayesian influence function around a minimum with a Laplace approximation and show the classical (damped) influence function is its leading term."
 summary_for_tutor: "Section 3.2 of Iliad worksheet B.5 Data Attribution: Exercise 3.2 (a)-(e) with collapsed solutions: Laplace approximation of the posterior, Taylor expansion of the covariance, the leading (1,1) term giving the classical IF, the (2,2) correction via Isserlis' theorem, and the localized version giving the damped IF with gamma as lambda. Ends with a remark that the classical IF is the leading term of the local BIF. Keep Delta w, H, g_phi, g_i. Let the student attempt each exercise before revealing or paraphrasing a solution."
 source_url: https://iliad-intensive.org/learning/data-attribution/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+authors:
+  - Louis Jaburi
+upstream_key: "data-attribution#32-exercise-connecting-bayesian-and-classical-influence-functions"
+upstream_fingerprint: "mGeBzd/1271/1/06ri0G2G0KDI0Umg0Wlf0kI50oCx0xom15Qr17PQ189i19D41Ahd1Uhl1UwX1Wgb1eqc1ia81jsq1tEl1vAJ1xKn20Tl2A3W2AD72AJG2J6K2Kg02ihF2jtM2jyb2mYX"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/data-attribution/#32-exercise-connecting-bayesian-and-classical-influence-functions"
 ---
 
 #### Text
@@ -50,7 +56,7 @@ Conclude that $$-g_{\phi}^{\top} H^{-1}g_{i} = -\nabla_{w}\phi(w^{*})^{\top} H^{
 **(d)** **(Second-order correction.)** Compute the $$(k,m) = (2,2)$$ term using Isserlis' theorem (the Gaussian moment identity $${\mathbb{E}}[\Delta w_{a}\Delta w_{b}\Delta w_{c}\Delta w_{d}] = \Sigma_{ab}\Sigma_{cd}+ \Sigma_{ac}\Sigma_{bd}+ \Sigma_{ad}\Sigma_{bc}$$ with $$\Sigma = H^{-1}$$). Show that
 
 $$
-\mathrm{Cov}_{\mathcal{N}}\!\left(\tfrac{1}{2}\Delta w^{\top} H_{\phi}\,\Delta w,\;\tfrac{1}{2}\Delta w^{\top} H_{i}\,\Delta w\right) = \tfrac{1}{2}\,{\operatorname{tr}}\bigl(H_{\phi}\,H^{-1}\,H_{i}\,H^{-1}\bigr).
+\mathrm{Cov}_{\mathcal{N}}\!\left(\tfrac{1}{2}\Delta w^{\top} H_{\phi}\,\Delta w,\;\tfrac{1}{2}\Delta w^{\top} H_{i}\,\Delta w\right) = \tfrac{1}{2}\,\operatorname{tr}\bigl(H_{\phi}\,H^{-1}\,H_{i}\,H^{-1}\bigr).
 $$
 
 This correction involves the *Hessians* of the observable and per-sample loss. It captures second-order curvature interactions that the classical IF misses entirely. In the linear regression setting of Example 3.2, why does this correction vanish?
@@ -98,7 +104,7 @@ Negating gives $$-g_{\phi}^{\top} H^{-1}g_{i} = -\nabla\phi(w^{*})^{\top} H^{-1}
 
 *(d)* Write $$Q_{\phi} = \tfrac{1}{2}\Delta w^{\top} H_{\phi}\,\Delta w$$ and $$Q_{i} = \tfrac{1}{2}\Delta w^{\top} H_{i}\,\Delta w$$. We need $$\mathrm{Cov}(Q_{\phi},Q_{i}) = {\mathbb{E}}[Q_{\phi} Q_{i}] - {\mathbb{E}}[Q_{\phi}]{\mathbb{E}}[Q_{i}]$$ with $$\Delta w\sim\mathcal{N}(0,\Sigma)$$, $$\Sigma=H^{-1}$$.
 
-For the expectation: $${\mathbb{E}}[Q_{\phi}] = \tfrac{1}{2}{\operatorname{tr}}(H_{\phi}\Sigma)$$ and $${\mathbb{E}}[Q_{i}] = \tfrac{1}{2}{\operatorname{tr}}(H_{i}\Sigma)$$.
+For the expectation: $${\mathbb{E}}[Q_{\phi}] = \tfrac{1}{2}\operatorname{tr}(H_{\phi}\Sigma)$$ and $${\mathbb{E}}[Q_{i}] = \tfrac{1}{2}\operatorname{tr}(H_{i}\Sigma)$$.
 
 For the cross-moment: $${\mathbb{E}}[Q_{\phi} Q_{i}] = \tfrac{1}{4}\sum_{a,b,c,d}(H_{\phi})_{ab}(H_{i})_{cd}\,{\mathbb{E}}[\Delta w_{a}\Delta w_{b}\Delta w_{c}\Delta w_{d}]$$. By Isserlis' theorem:
 
@@ -106,10 +112,10 @@ $$
 {\mathbb{E}}[\Delta w_{a}\Delta w_{b}\Delta w_{c}\Delta w_{d}] = \Sigma_{ab}\Sigma_{cd}+ \Sigma_{ac}\Sigma_{bd}+ \Sigma_{ad}\Sigma_{bc}.
 $$
 
-The first pairing gives $$\tfrac{1}{4}{\operatorname{tr}}(H_{\phi}\Sigma){\operatorname{tr}}(H_{i}\Sigma) = {\mathbb{E}}[Q_{\phi}]{\mathbb{E}}[Q_{i}]$$, which cancels in the covariance. The other two pairings each give $$\tfrac{1}{4}{\operatorname{tr}}(H_{\phi}\Sigma H_{i}\Sigma)$$ (by cyclicity of the trace and symmetry of $$H_{\phi}$$, $$H_{i}$$, and $$\Sigma$$). So
+The first pairing gives $$\tfrac{1}{4}\operatorname{tr}(H_{\phi}\Sigma)\operatorname{tr}(H_{i}\Sigma) = {\mathbb{E}}[Q_{\phi}]{\mathbb{E}}[Q_{i}]$$, which cancels in the covariance. The other two pairings each give $$\tfrac{1}{4}\operatorname{tr}(H_{\phi}\Sigma H_{i}\Sigma)$$ (by cyclicity of the trace and symmetry of $$H_{\phi}$$, $$H_{i}$$, and $$\Sigma$$). So
 
 $$
-\mathrm{Cov}(Q_{\phi},Q_{i}) = 2\cdot\tfrac{1}{4}{\operatorname{tr}}(H_{\phi}\Sigma H_{i}\Sigma) = \tfrac{1}{2}{\operatorname{tr}}(H_{\phi} H^{-1}H_{i} H^{-1}).
+\mathrm{Cov}(Q_{\phi},Q_{i}) = 2\cdot\tfrac{1}{4}\operatorname{tr}(H_{\phi}\Sigma H_{i}\Sigma) = \tfrac{1}{2}\operatorname{tr}(H_{\phi} H^{-1}H_{i} H^{-1}).
 $$
 
 In the linear regression setting with $$\phi(w) = w_{k}$$ (a coordinate function), $$H_{\phi} = \nabla^{2} w_{k} = 0$$: the observable is linear in $$w$$, so its Hessian vanishes and the entire $$(2,2)$$ correction is zero. This is why the BIF equals the (damped) IF exactly for linear regression — all corrections beyond leading order involve $$H_{\phi}$$ or higher derivatives of $$\phi$$, which vanish for a linear observable.

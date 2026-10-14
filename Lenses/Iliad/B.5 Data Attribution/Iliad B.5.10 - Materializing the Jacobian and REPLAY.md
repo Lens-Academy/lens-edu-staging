@@ -4,8 +4,14 @@ title: "B.5.10 Materializing the Jacobian and REPLAY"
 tldr: "Makes unrolling practical in two ways: stationary segments with a materialized Jacobian (the SOURCE method), and implicit Jacobian-vector products with the REPLAY algorithm."
 summary_for_tutor: "Subsections 4.2.1 and 4.2.2 of Iliad worksheet B.5 Data Attribution: stationary segments with checkpoints, segment Jacobian and segment response, the full SOURCE formula, a remark that unrolling gives a principled damping, then the metagradient decomposition, REPLAY reverse-mode through training with O(T log T) cost, and a comparison with explicit unrolling. No exercises."
 source_url: https://iliad-intensive.org/learning/data-attribution/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+authors:
+  - Louis Jaburi
+upstream_key: "data-attribution#421-materializing-the-jacobian"
+upstream_fingerprint: "Lx0l7N/1171/1/009A02MI052706Md0BP60Hxw0K2f0SvW0XbY0brS0f2I0lQO0nP00t8j0txr108614Jx15Qr1Uhl1VoM1Wjd1Wtz1doj1mBt1pkF1rNG20c524ZH2COs2GYD2MsN2PYM"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/data-attribution/#421-materializing-the-jacobian"
 ---
 
 #### Text

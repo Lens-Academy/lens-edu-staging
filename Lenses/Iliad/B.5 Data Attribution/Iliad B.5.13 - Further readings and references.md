@@ -4,8 +4,14 @@ title: "B.5.13 Further readings and references"
 tldr: "A Further Readings section marked under construction, and the reference list of the worksheet."
 summary_for_tutor: "End matter of Iliad worksheet B.5 Data Attribution: Section 6 Further Readings, marked 'Under construction', and the References list (Bae et al., Koh and Liang, Grosse et al., Pruthi et al., Cook, Hampel, Lewis, Shapley, Baker et al., Kreer et al., Lee et al., Mlodozeniec et al., Engstrom et al., Ilyas and Engstrom, Mueller, Hitchcock). No exercises."
 source_url: https://iliad-intensive.org/learning/data-attribution/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+authors:
+  - Louis Jaburi
+upstream_key: "data-attribution#6-further-readings"
+upstream_fingerprint: "2mn8aX/386/1/0Tax0biw12lg1DzP1Mr91a7t1qSZ20ck24b12LL32UyA2YRd2efw2mby2ypt3Ihm3uXT41uv4DQL4NYA4g7t4koB4kpN4m154wv751Sf5Fp25vvd6yNo7H7C7yUr7zSD"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/data-attribution/#6-further-readings"
 ---
 
 #### Text

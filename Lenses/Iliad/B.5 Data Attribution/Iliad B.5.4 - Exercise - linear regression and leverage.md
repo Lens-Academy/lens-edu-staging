@@ -4,8 +4,14 @@ title: "B.5.4 Exercise: linear regression and leverage"
 tldr: "Works Exercise 2.2 on linear regression: closed-form influence, the exact deletion update with leverage, and a comparison of the influence approximation against true leave-one-out."
 summary_for_tutor: "Exercise 2.2 (a)-(e) of Iliad worksheet B.5 Data Attribution, with collapsed solutions: linear regression minimizer, parameter influence, the exact reweighting formula in beta_j, its Taylor series, and the closed-form deletion update at beta_j = 0. Followed by a remark on leverage h_j, a figure comparing influence with leave-one-out ground truth, and a footnote on the matrix inversion identity. Keep h_j, r_j, A. Let the student attempt each exercise before revealing or paraphrasing a solution."
 source_url: https://iliad-intensive.org/learning/data-attribution/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+authors:
+  - Louis Jaburi
+upstream_key: "data-attribution#ex-ols-if"
+upstream_fingerprint: "ji5/1277/1/01hc052707Sw07Tn0HVJ0K4A0Rhl0Rke0SWr0TxT0f2I0k4X0rI50xuq1SRs1Tza1ZN31m0s1rx71vAJ22Lw24ZH26jT27b32A3W2J6K2KSG2Uhi2dyL2fZr2jyb2kkb"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/data-attribution/#ex-ols-if"
 ---
 
 #### Text
@@ -17,7 +23,7 @@ content::
 
 **(b)** Compute the parameter influence $$\mathcal{I}_{\mathrm{param}}(z_{j})$$ from Definition 2.2.
 
-**(c)** Define $$w^{*}(\beta_{j}) := {\operatorname*{arg\,min}}_{w} \sum_{i\ne j}L(w,z_{i}) + \beta_{j} L(w,z_{j})$$, so that $$\beta_{j} = 1$$ is the unperturbed model and $$\beta_{j} = 0$$ corresponds to fully removing $$z_{j}$$. Using the Sherman–Morrison formula[^2], show that
+**(c)** Define $$w^{*}(\beta_{j}) := \operatorname*{arg\,min}_{w} \sum_{i\ne j}L(w,z_{i}) + \beta_{j} L(w,z_{j})$$, so that $$\beta_{j} = 1$$ is the unperturbed model and $$\beta_{j} = 0$$ corresponds to fully removing $$z_{j}$$. Using the Sherman–Morrison formula[^2], show that
 
 $$
 w^{*}(\beta_{j}) \;-\; w^{*} \;=\; -\,\frac{(1-\beta_{j})\,A^{-1}x_{j}\,r_{j}}{1 - (1-\beta_{j})\,h_{j}},

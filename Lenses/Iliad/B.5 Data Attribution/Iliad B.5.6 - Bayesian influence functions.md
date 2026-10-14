@@ -4,8 +4,14 @@ title: "B.5.6 Bayesian influence functions"
 tldr: "Introduces susceptibilities and the Bayesian influence function as a covariance under the tempered posterior, with Exercise 3.1 proving it, then localization, SGLD estimation and a Bayesian linear regression example."
 summary_for_tutor: "Section 3 intro and 3.1 of Iliad worksheet B.5 Data Attribution: susceptibilities (Baker et al. 2026), the tempered posterior, Definition 3.1 (Bayesian influence function), Exercise 3.1 (the BIF is a covariance, with collapsed solution), a statistical-physics remark on fluctuation-response, localization with strength gamma, practical computation by SGLD, and Example 3.2 (Bayesian linear regression). Keep Cov(L_i, phi) and the sign convention. Let the student attempt each exercise before revealing or paraphrasing a solution."
 source_url: https://iliad-intensive.org/learning/data-attribution/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+authors:
+  - Louis Jaburi
+upstream_key: "data-attribution#3-bayesian-influence-functions"
+upstream_fingerprint: "hdGLd4nzU/1091/1/04Ag06ri093p0B660kDw0oCx10Si1F1I1GIc1YWs1hyj1iyk1oix1tPY1vBZ1xzp24ZH2A3W2H1w2NZM2Ovl2bUh2jtM2tYR2ueB2zgE30ue31QO3GGZ3o3a3wmV3xbo"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/data-attribution/#3-bayesian-influence-functions"
 ---
 
 #### Text

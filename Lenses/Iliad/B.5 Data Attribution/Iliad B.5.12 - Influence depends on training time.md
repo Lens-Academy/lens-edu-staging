@@ -4,8 +4,14 @@ title: "B.5.12 Influence depends on training time"
 tldr: "Exercise 4.3 on a two-layer deep linear network: how a training example's influence changes over training time, when it peaks, and when its sign flips. Ends with an unfinished practical considerations section."
 summary_for_tutor: "Sections 4.4 and 5 of Iliad worksheet B.5 Data Attribution: the stagewise dynamics of a two-layer linear network, analytic influence of perturbing example z_p, Exercise 4.3 (a)-(c) with collapsed solution (three sources of influence, when influence peaks near each mode's transition time, sign flips with d = 2 and s_1 much larger than s_2), remarks on the general singular basis and the developmental view of Lee et al. 2025. Section 5 Practical Considerations and Open Problems reads only 'Under construction'. Let the student attempt each exercise before revealing or paraphrasing a solution."
 source_url: https://iliad-intensive.org/learning/data-attribution/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+authors:
+  - Louis Jaburi
+upstream_key: "data-attribution#44-exercise-influence-depends-on-training-time"
+upstream_fingerprint: "F0OISHAHY/1238/1/051207kv0G2G0HNl0HSI0OeU0aKU0f2I0lQO0odP0pp21CBN1Elp1GWG1MZw1Qi61SxL1WyO1fr71j7J1lsV1oVX1qSZ1vAJ2A3W2Jsf2LWG2O6b2UbG2Uxg2X8V2jrE"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/data-attribution/#44-exercise-influence-depends-on-training-time"
 ---
 
 #### Text
@@ -81,8 +87,8 @@ $$
 
 :::
 
+[^5]: The general case replaces the standard basis with the left/right singular vectors $$U, V$$ of $$\Sigma_{xy}$$ throughout; see Remark 4.4.
+
 \## 5. Practical Considerations and Open Problems
 
 Under construction.
-
-[^5]: The general case replaces the standard basis with the left/right singular vectors $$U, V$$ of $$\Sigma_{xy}$$ throughout; see Remark 4.4.

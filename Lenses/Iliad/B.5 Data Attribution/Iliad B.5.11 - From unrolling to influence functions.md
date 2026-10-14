@@ -4,8 +4,14 @@ title: "B.5.11 From unrolling to influence functions"
 tldr: "Long Exercise 4.2: show that unrolling with an interpolated loss converges to the influence function, first for full-batch gradient descent and then for SGD, including the null-space behaviour."
 summary_for_tutor: "Section 4.3 of Iliad worksheet B.5 Data Attribution: Exercise 4.2 (a)-(c) with collapsed solution. (a) the response recursion with J_t, (b) the full-batch GD warm-up, (c) SGD with decaying learning rate, where part i shows the equilibrium is r_IF = H^+ grad L(w*, z_k) and part ii shows the null-space component grows linearly. Let the student attempt each exercise before revealing or paraphrasing a solution."
 source_url: https://iliad-intensive.org/learning/data-attribution/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+authors:
+  - Louis Jaburi
+upstream_key: "data-attribution#43-long-exercise-from-unrolling-to-influence-functions"
+upstream_fingerprint: "TvP2Om/918/1/04t3052707sb0LuJ0MkM0ijq0lQO0mOW0udb11KF18Dj1ChR1J6Y1Me61aDK1ha51oGp1ujD24Eq2HQ82LBv2Owl2TET2Vwr2ueB3JGm3Jam3T433W7B3o3a49f54Ep6"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/data-attribution/#43-long-exercise-from-unrolling-to-influence-functions"
 ---
 
 #### Text

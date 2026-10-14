@@ -9,8 +9,12 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "qft#2-statistical-mechanics-of-learning"
+upstream_fingerprint: "BujtHkdcH5WNfhy/2590/1/01LK04jg06ri0Aga0DUX0DcB0FzV0G2G0LRE0NRJ0QvX0SHk0SfS0Xf10dJ00eJ60f2I0fcC0fdM0g9X0itK0iuf0kDw0lJU0p2p0qn30uZe0udb0wbV0zQM156Z15JJ"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/qft/#2-statistical-mechanics-of-learning"
 ---
 
 #### Text
@@ -168,6 +172,8 @@ $$
 
 We will meet these derivatives again shortly: discontinuities in them are how phase transitions are defined.
 
+[^1]: A physicist's free energy is $$-\beta^{-1}\log Z$$; we absorb the factor of $$\beta$$ throughout, so that $$F$$ is dimensionless.
+
 :::callout {title="Exercise" tone="amber"}
 **Exercise 2.1 (★) (Partition functions, sources, and cumulants).** Take a Boltzmann distribution $$p_{\beta}(\theta)\propto e^{-\beta E(\theta)}$$, an observable $${{\mathcal O}}(\theta)$$, and the sourced partition function $$Z(\beta,J) = \int d\theta\, e^{-\beta E(\theta)+J{{\mathcal O}}(\theta)}$$, with $$F = -\log Z$$. All expectations are in $$p_{\beta}$$, that is, at $$J=0$$.
 
@@ -205,5 +211,3 @@ $$
 $$
 
 which is an upper bound by Jensen's inequality and often a good approximation. We will use it in Section 2.6. The exact treatment goes through the *replica method*, sketched in Appendix A; the classic reference is (Engel & Van den Broeck 2001).
-
-[^1]: A physicist's free energy is $$-\beta^{-1}\log Z$$; we absorb the factor of $$\beta$$ throughout, so that $$F$$ is dimensionless.

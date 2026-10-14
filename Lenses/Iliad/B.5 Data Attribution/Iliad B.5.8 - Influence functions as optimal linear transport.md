@@ -4,8 +4,14 @@ title: "B.5.8 Influence functions as optimal linear transport"
 tldr: "A long exercise showing influence functions are the optimal linear parameter shifts under a KL cost, including the degenerate case and a linear regression check."
 summary_for_tutor: "Section 3.3 of Iliad worksheet B.5 Data Attribution: the setup with total loss and the KL-based cost of a parameter shift, then Exercise 3.3 (a)-(f) with collapsed solutions: KL in terms of energies, Taylor expansion at w*, IFs are optimal (Mahalanobis cost in the Hessian metric), the degenerate case with a singular Hessian, a linear regression check, and a comparison with Exercise 3.2. Ends with a remark on optimal transport maps. Let the student attempt each exercise before revealing or paraphrasing a solution."
 source_url: https://iliad-intensive.org/learning/data-attribution/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+authors:
+  - Louis Jaburi
+upstream_key: "data-attribution#33-long-exercise-influence-functions-as-optimal-linear-transport"
+upstream_fingerprint: "SDusz4/2156/1/06ri0DcB0G2G0GkS0O5Y0TwR0Vfu0aDB0cOQ0g9X0iw50wpb0xGA10rw11KF16C3182z18G51B3d1DBa1Dr11EoC1J6Y1NKF1T2m1VKB1VS21cJD1ha51oix24ZH28qW"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/data-attribution/#33-long-exercise-influence-functions-as-optimal-linear-transport"
 ---
 
 #### Text
@@ -43,6 +49,8 @@ $$
 $$
 
 The $$1/\beta$$ normalization kills the determinant term (which is $$O(1)$$) and the entropy terms, isolating the energy contribution (which is $$O(\beta)$$).
+
+[^4]: For small $$\varepsilon$$ the map $$w\mapsto w+\varepsilon r(w)$$ is a diffeomorphism, so the inverse is well-defined. The exact formula requires evaluating $$r$$ at the pre-image; the expression above is correct to the order we need.
 
 :::callout {title="Exercise" tone="amber"}
 **Exercise 3.3 (Influence functions as optimal parameter shifts).** Let $$w^{*}$$ be a non-degenerate minimum of $$L$$ with positive-definite Hessian $$H = \nabla^{2} L(w^{*})$$. In this exercise we work at the unique minimum, so the $$\beta\to\infty$$ limit simply evaluates everything at $$w^{*}$$.
@@ -155,5 +163,3 @@ This provides what Mlodozeniec et al. 2025 call a "distributional" justification
 **Remark (Optimal transport).** In the language of optimal transport, the map $$w\mapsto w+\varepsilon r(w)$$ is called a *transport map*, and the distribution of the shifted parameters is its *pushforward*, written $$T_{\varepsilon\#}p_{0}^{\beta}$$. The cost functional $$\mathcal{F}$$ is the asymptotic KL divergence between the pushforward and the target. Exercise 3.3 then says that the influence function is the *KL-optimal transport map* from the unperturbed to the perturbed Boltzmann distribution, at first order in $$\varepsilon$$. This is the perspective developed in Mlodozeniec et al. 2025, who prove a more general version (their Theorem 3) that applies to all smooth diffeomorphisms, not just maps of the form $$w+\varepsilon r(w)$$.
 
 :::
-
-[^4]: For small $$\varepsilon$$ the map $$w\mapsto w+\varepsilon r(w)$$ is a diffeomorphism, so the inverse is well-defined. The exact formula requires evaluating $$r$$ at the pre-image; the expression above is correct to the order we need.

@@ -4,8 +4,14 @@ title: "B.5.5 Translation to modern neural networks"
 tldr: "Explains why classical influence functions break for neural networks (singular Hessian, negative curvature, non-converged checkpoints), the proximal Bregman fix, and Exercise 2.3 on a degenerate two-parameter model."
 summary_for_tutor: "Section 2.2 of Iliad worksheet B.5 Data Attribution: assumptions (i) unique global minimum and (ii) positive definite Hessian, three failure modes, the proximal Bregman objective (PBRF) of Bae et al. 2022 giving the damped Gauss-Newton form with (G + lambda I) inverse, remarks on the SLT day and on scaling with EK-FAC, and Exercise 2.3 (a)-(c) on the toy model with observable phi(w) = ab, using the pseudoinverse and the damped inverse, with collapsed solution. Let the student attempt each exercise before revealing or paraphrasing a solution."
 source_url: https://iliad-intensive.org/learning/data-attribution/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+authors:
+  - Louis Jaburi
+upstream_key: "data-attribution#22-translation-to-modern-neural-networks"
+upstream_fingerprint: "exAJFY/1528/1/0Ajg0BvF0GdJ0GkS0Lne0Rhl0bsg0g9X0hpq0iR60oCx0orv0rb20sHR0ymU11KF1CBN1OTZ1a7q1ePx1h1x1nPU1nt41pOU1tso1vAJ1xzp22cW24ZH2A3W2AJG2HQ8"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/data-attribution/#22-translation-to-modern-neural-networks"
 ---
 
 #### Text
