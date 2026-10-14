@@ -6,8 +6,12 @@ summary_for_tutor: "Section 5 of worksheet D.3.2: The expectimax form of AIXI. E
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "aixi#5-the-expectimax-form-of-aixi"
+upstream_fingerprint: "uXaWUb/583/1/0Ixb0WUp0oSZ1Ga61QXz1ha51mty1snA205q2pGe2uH42vLB2x193L4r3Yjt3mtd3o7o3wmV4Lb44QiO4RnE4lIC4pP14tNo5CeC5Kr95acb629R6MGT6wMk77SR7BPy"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/aixi/#5-the-expectimax-form-of-aixi"
 ---
 
 #### Text
@@ -26,7 +30,7 @@ $$
 and hence, collecting the percept factors with the chain rule (Exercise 0.2) and taking $$m \to \infty$$ (Exercises 2.5 and 2.7), that AIXI selects the action
 
 $$
-\begin{aligned}a_{t}&~=~ \pi_{\xi}^{*}({\text{\ae}}_{<t}) \\&~\in~ {\operatorname*{arg\,max}}_{a_t}\lim_{m\to\infty}\sum_{e_t}\max_{a_{t+1}}\sum_{e_{t+1}}\cdots \max_{a_m}\sum_{e_m}\xi(e_{t:m}\mid {\text{\ae}}_{<t}\, a_{t:m}) \,G_{t-1:m}\end{aligned}
+\begin{aligned}a_{t}&~=~ \pi_{\xi}^{*}({\text{\ae}}_{<t}) \\&~\in~ \operatorname*{arg\,max}_{a_t}\lim_{m\to\infty}\sum_{e_t}\max_{a_{t+1}}\sum_{e_{t+1}}\cdots \max_{a_m}\sum_{e_m}\xi(e_{t:m}\mid {\text{\ae}}_{<t}\, a_{t:m}) \,G_{t-1:m}\end{aligned}
 $$
 
 :::callout {title="Hint" tone="neutral" collapse="closed"}
@@ -41,16 +45,16 @@ Prove the first display by backward induction on $$t$$ from $$m$$ down to $$1$$,
 Abbreviate the one-step predictor $$\xi_{k} := \xi(e_{k} \mid {\text{\ae}}_{<k}a_{k})$$, and write the **expectimax operator** over steps $$i, \ldots, j$$ as
 
 $$
-{\mathop{\overset{\max}{\sum}}\limits}_{i:j}~:=~ \max_{a_i}\sum_{e_i}\xi_{i}\, \max_{a_{i+1}}\sum_{e_{i+1}}\xi_{i+1}\cdots \max_{a_j}\sum_{e_j}\xi_{j},
+\mathop{\overset{\max}{\sum}}\limits_{i:j}~:=~ \max_{a_i}\sum_{e_i}\xi_{i}\, \max_{a_{i+1}}\sum_{e_{i+1}}\xi_{i+1}\cdots \max_{a_j}\sum_{e_j}\xi_{j},
 $$
 
-the alternating "maximize over the action, average over the percept" chain, with the $$\xi_{k}$$ weights built in; the single step is $${\mathop{\overset{\max}{\sum}}\limits}_{k} := \max_{a_k}\sum_{e_k}\xi_{k}$$. Two facts:
+the alternating "maximize over the action, average over the percept" chain, with the $$\xi_{k}$$ weights built in; the single step is $$\mathop{\overset{\max}{\sum}}\limits_{k} := \max_{a_k}\sum_{e_k}\xi_{k}$$. Two facts:
 
-- **(E1) Composition:** $${\mathop{\overset{\max}{\sum}}\limits}_{i:j}= {\mathop{\overset{\max}{\sum}}\limits}_{i}\, {\mathop{\overset{\max}{\sum}}\limits}_{i+1:j}$$, by nesting the definition.
+- **(E1) Composition:** $$\mathop{\overset{\max}{\sum}}\limits_{i:j}= \mathop{\overset{\max}{\sum}}\limits_{i}\, \mathop{\overset{\max}{\sum}}\limits_{i+1:j}$$, by nesting the definition.
 - **(E2) Affine pass-through:** for any $$c \in \mathbb{R}$$ and $$\lambda \geq 0$$ not depending on $$(a_{i}, e_{i}, \ldots, a_{j}, e_{j})$$,
 
 $$
-c + \lambda\, {\mathop{\overset{\max}{\sum}}\limits}_{i:j}X ~=~ {\mathop{\overset{\max}{\sum}}\limits}_{i:j}(c + \lambda X),
+c + \lambda\, \mathop{\overset{\max}{\sum}}\limits_{i:j}X ~=~ \mathop{\overset{\max}{\sum}}\limits_{i:j}(c + \lambda X),
 $$
 
 since each layer has $$\sum_{e_k}\xi_{k} = 1$$ (so $$\sum_{e_k}\xi_{k}(c+\lambda Y) = c + \lambda \sum_{e_k}\xi_{k} Y$$) and $$\max_{a}(c + \lambda\, g(a)) = c + \lambda \max_{a} g(a)$$ for $$\lambda \geq 0$$.
@@ -58,41 +62,41 @@ since each layer has $$\sum_{e_k}\xi_{k} = 1$$ (so $$\sum_{e_k}\xi_{k}(c+\lambda
 We prove by backward induction on $$t = m, m-1, \ldots, 1$$ that
 
 $$
-V_{\xi}^{*,m}({\text{\ae}}_{<t}) ~=~ (1-\gamma)\, {\mathop{\overset{\max}{\sum}}\limits}_{t:m}\, G_{t-1:m}.
+V_{\xi}^{*,m}({\text{\ae}}_{<t}) ~=~ (1-\gamma)\, \mathop{\overset{\max}{\sum}}\limits_{t:m}\, G_{t-1:m}.
 $$
 
 *Base case $$t = m$$.* Here $$G_{m-1:m}= r_{m}$$ and $$V_{\xi}^{*,m}({\text{\ae}}_{1:m}) = 0$$ (the return past the horizon is empty, $$G_{m:m}= 0$$). The Bellman optimality equation (Exercise 2.4) for $$\nu = \xi$$ gives
 
 $$
-V_{\xi}^{*,m}({\text{\ae}}_{<m}) ~=~ \max_{a_m}\sum_{e_m}\xi_{m} \big[(1-\gamma)\, r_{m} + \gamma \cdot 0\big] ~=~ (1-\gamma)\, {\mathop{\overset{\max}{\sum}}\limits}_{m:m}\, G_{m-1:m}.
+V_{\xi}^{*,m}({\text{\ae}}_{<m}) ~=~ \max_{a_m}\sum_{e_m}\xi_{m} \big[(1-\gamma)\, r_{m} + \gamma \cdot 0\big] ~=~ (1-\gamma)\, \mathop{\overset{\max}{\sum}}\limits_{m:m}\, G_{m-1:m}.
 $$
 
-*Inductive step.* Assume the claim at time $$t+1$$, i.e. $$V_{\xi}^{*,m}({\text{\ae}}_{1:t}) = (1-\gamma)\, {\mathop{\overset{\max}{\sum}}\limits}_{t+1:m}\, G_{t:m}$$ for every length-$$t$$ history (recall $${\text{\ae}}_{<t+1}= {\text{\ae}}_{1:t}$$). The Bellman optimality equation (Exercise 2.4) at time $$t$$ reads
+*Inductive step.* Assume the claim at time $$t+1$$, i.e. $$V_{\xi}^{*,m}({\text{\ae}}_{1:t}) = (1-\gamma)\, \mathop{\overset{\max}{\sum}}\limits_{t+1:m}\, G_{t:m}$$ for every length-$$t$$ history (recall $${\text{\ae}}_{<t+1}= {\text{\ae}}_{1:t}$$). The Bellman optimality equation (Exercise 2.4) at time $$t$$ reads
 
 $$
-V_{\xi}^{*,m}({\text{\ae}}_{<t}) ~=~ {\mathop{\overset{\max}{\sum}}\limits}_{t} \big[(1-\gamma)\, r_{t} + \gamma\, V_{\xi}^{*,m}({\text{\ae}}_{1:t})\big].
+V_{\xi}^{*,m}({\text{\ae}}_{<t}) ~=~ \mathop{\overset{\max}{\sum}}\limits_{t} \big[(1-\gamma)\, r_{t} + \gamma\, V_{\xi}^{*,m}({\text{\ae}}_{1:t})\big].
 $$
 
 Substituting the inductive hypothesis and pulling out $$(1-\gamma)$$,
 
 $$
-V_{\xi}^{*,m}({\text{\ae}}_{<t}) ~=~ (1-\gamma)\, {\mathop{\overset{\max}{\sum}}\limits}_{t} \big[r_{t} + \gamma\, {\mathop{\overset{\max}{\sum}}\limits}_{t+1:m}\, G_{t:m}\big].
+V_{\xi}^{*,m}({\text{\ae}}_{<t}) ~=~ (1-\gamma)\, \mathop{\overset{\max}{\sum}}\limits_{t} \big[r_{t} + \gamma\, \mathop{\overset{\max}{\sum}}\limits_{t+1:m}\, G_{t:m}\big].
 $$
 
 As $$r_{t}$$ and $$\gamma$$ do not depend on $$(a_{t+1}, e_{t+1}, \ldots, a_{m}, e_{m})$$, property (E2) carries them inside the inner operator, and the return recursion $$G_{t-1:m}= r_{t} + \gamma\, G_{t:m}$$ (Definition 0.3) gives
 
 $$
-r_{t} + \gamma\, {\mathop{\overset{\max}{\sum}}\limits}_{t+1:m}\, G_{t:m}~\overset{(E2)}{=}~ {\mathop{\overset{\max}{\sum}}\limits}_{t+1:m}(r_{t} + \gamma\, G_{t:m}) ~=~ {\mathop{\overset{\max}{\sum}}\limits}_{t+1:m}\, G_{t-1:m}.
+r_{t} + \gamma\, \mathop{\overset{\max}{\sum}}\limits_{t+1:m}\, G_{t:m}~\overset{(E2)}{=}~ \mathop{\overset{\max}{\sum}}\limits_{t+1:m}(r_{t} + \gamma\, G_{t:m}) ~=~ \mathop{\overset{\max}{\sum}}\limits_{t+1:m}\, G_{t-1:m}.
 $$
 
 Recombining the two operators by (E1),
 
 $$
-V_{\xi}^{*,m}({\text{\ae}}_{<t}) ~=~ (1-\gamma)\, {\mathop{\overset{\max}{\sum}}\limits}_{t}\, {\mathop{\overset{\max}{\sum}}\limits}_{t+1:m}\, G_{t-1:m}~=~ (1-\gamma)\, {\mathop{\overset{\max}{\sum}}\limits}_{t:m}\, G_{t-1:m},
+V_{\xi}^{*,m}({\text{\ae}}_{<t}) ~=~ (1-\gamma)\, \mathop{\overset{\max}{\sum}}\limits_{t}\, \mathop{\overset{\max}{\sum}}\limits_{t+1:m}\, G_{t-1:m}~=~ (1-\gamma)\, \mathop{\overset{\max}{\sum}}\limits_{t:m}\, G_{t-1:m},
 $$
 
 which expands back into the $$\max/\sum$$ layers of the first display.
 
-*Infinite horizon and the action.* Taking $$m \to \infty$$ (Exercises 2.5 and 2.7), $$G_{t-1:m}\to G_{\geq t-1}$$ and the chain extends indefinitely, so $$V_{\xi}^{*}({\text{\ae}}_{<t}) = (1-\gamma)\, {\mathop{\overset{\max}{\sum}}\limits}_{t:\infty}\, G_{\geq t-1}$$. Collecting the per-step factors by the chain rule (Exercise 0.2, iterated), $$\prod_{k=t}^{m}\xi_{k} = \xi(e_{t:m}\mid {\text{\ae}}_{<t}\, a_{t:m})$$. A Bayes-optimal action maximizes this expression; peeling the outer $$\max_{a_t}$$ off as an $${\operatorname*{arg\,max}}$$ and dropping the positive constant $$(1-\gamma)$$ (which does not move the maximizer) gives the stated action.
+*Infinite horizon and the action.* Taking $$m \to \infty$$ (Exercises 2.5 and 2.7), $$G_{t-1:m}\to G_{\geq t-1}$$ and the chain extends indefinitely, so $$V_{\xi}^{*}({\text{\ae}}_{<t}) = (1-\gamma)\, \mathop{\overset{\max}{\sum}}\limits_{t:\infty}\, G_{\geq t-1}$$. Collecting the per-step factors by the chain rule (Exercise 0.2, iterated), $$\prod_{k=t}^{m}\xi_{k} = \xi(e_{t:m}\mid {\text{\ae}}_{<t}\, a_{t:m})$$. A Bayes-optimal action maximizes this expression; peeling the outer $$\max_{a_t}$$ off as an $$\operatorname*{arg\,max}$$ and dropping the positive constant $$(1-\gamma)$$ (which does not move the maximizer) gives the stated action.
 
 :::

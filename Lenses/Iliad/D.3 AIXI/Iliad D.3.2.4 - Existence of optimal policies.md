@@ -6,8 +6,12 @@ summary_for_tutor: "Section 2 of worksheet D.3.2: Existence of optimal policies.
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "aixi#2-existence-of-optimal-policies"
+upstream_fingerprint: "GgbMrd3sMrre6am0uRuEW9Ii/1620/1/0QMw0TqP0WUp0cO00oCx0oSZ14GD1N1U1Nk11QaW1UMx1a9n1ha51osS205q27De2WtE2sm52uli2vLB2zJr31xT35IJ3VGh3W7B3Yqg3aue3dt83lHQ3o3a3wU13wmV"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/aixi/#2-existence-of-optimal-policies"
 ---
 
 #### Text
@@ -22,7 +26,7 @@ Recall that $$V_{\nu}^{*}({\text{\ae}}_{<t}) := \sup_{\pi} V_{\nu}^{\pi}({\text{
 
 :::callout {title="Solution" tone="neutral" collapse="closed"}
 
-Let $$a^{*} \in {\operatorname*{arg\,max}}_{a' \in {\mathcal{A}}}Q(a')$$, which exists because $${\mathcal{A}}$$ is finite. So $$Q(a^{*}) = \max_{a'}Q(a')$$.
+Let $$a^{*} \in \operatorname*{arg\,max}_{a' \in {\mathcal{A}}}Q(a')$$, which exists because $${\mathcal{A}}$$ is finite. So $$Q(a^{*}) = \max_{a'}Q(a')$$.
 
 *Upper bound.* For any $$\pi$$: $$\sum_{a} \pi(a \mid {\text{\ae}}_{<t}) Q(a) \leq \sum_{a} \pi(a \mid {\text{\ae}}_{<t}) Q(a^{*}) = Q(a^{*})$$.
 
@@ -86,7 +90,7 @@ $$
 
 We induct on $$t = m, m-1, \ldots, 1$$, showing that for every history $${\text{\ae}}_{<t}$$, a deterministic policy achieves $$V_{\nu}^{*,m}({\text{\ae}}_{<t})$$.
 
-*Base case ($$t = m$$):* At $$t = m$$ the continuation term vanishes (the value from time $$m+1$$ is an empty sum), so the Bellman equation gives $$V_{\nu}^{\pi,m}({\text{\ae}}_{<m}) = (1-\gamma) \sum_{{\text{\ae}}'_m}\nu^{\pi}({\text{\ae}}'_{m} \mid {\text{\ae}}_{<m})\, r'_{m}$$. Splitting the step $${\text{\ae}}'_{m} = a'_{m} e'_{m}$$ via $$\nu^{\pi}({\text{\ae}}'_{m} \mid {\text{\ae}}_{<m}) = \pi(a'_{m} \mid {\text{\ae}}_{<m})\, \nu(e'_{m} \mid {\text{\ae}}_{<m}a'_{m})$$ gives $$V_{\nu}^{\pi,m}({\text{\ae}}_{<m}) = (1-\gamma) \sum_{a'_m}\pi(a'_{m} \mid {\text{\ae}}_{<m}) \sum_{e'_m}\nu(e'_{m} \mid {\text{\ae}}_{<m}a'_{m})\, r'_{m}$$. This has the form $$\sum_{a} \pi(a) Q(a)$$ with $$Q(a) = (1-\gamma)\sum_{e'_m}\nu(e'_{m} \mid {\text{\ae}}_{<m}a)\, r'_{m}$$, which is independent of $$\pi$$. By Exercise 2.1, the supremum over $$\pi$$ is $$\max_{a} Q(a)$$, attained by the deterministic policy playing $$a^{*} \in {\operatorname*{arg\,max}}_{a} Q(a)$$.
+*Base case ($$t = m$$):* At $$t = m$$ the continuation term vanishes (the value from time $$m+1$$ is an empty sum), so the Bellman equation gives $$V_{\nu}^{\pi,m}({\text{\ae}}_{<m}) = (1-\gamma) \sum_{{\text{\ae}}'_m}\nu^{\pi}({\text{\ae}}'_{m} \mid {\text{\ae}}_{<m})\, r'_{m}$$. Splitting the step $${\text{\ae}}'_{m} = a'_{m} e'_{m}$$ via $$\nu^{\pi}({\text{\ae}}'_{m} \mid {\text{\ae}}_{<m}) = \pi(a'_{m} \mid {\text{\ae}}_{<m})\, \nu(e'_{m} \mid {\text{\ae}}_{<m}a'_{m})$$ gives $$V_{\nu}^{\pi,m}({\text{\ae}}_{<m}) = (1-\gamma) \sum_{a'_m}\pi(a'_{m} \mid {\text{\ae}}_{<m}) \sum_{e'_m}\nu(e'_{m} \mid {\text{\ae}}_{<m}a'_{m})\, r'_{m}$$. This has the form $$\sum_{a} \pi(a) Q(a)$$ with $$Q(a) = (1-\gamma)\sum_{e'_m}\nu(e'_{m} \mid {\text{\ae}}_{<m}a)\, r'_{m}$$, which is independent of $$\pi$$. By Exercise 2.1, the supremum over $$\pi$$ is $$\max_{a} Q(a)$$, attained by the deterministic policy playing $$a^{*} \in \operatorname*{arg\,max}_{a} Q(a)$$.
 
 *Inductive step:* Suppose that for every history of length $$t$$, there exists a deterministic policy $$\pi^{*}_{t+1}$$ achieving $$V_{\nu}^{\pi^*_{t+1},m}= V_{\nu}^{*,m}$$ from time $$t+1$$ onwards. Substituting this optimal continuation into the Bellman equation from Exercise 2.2 gives
 
@@ -100,7 +104,7 @@ $$
 V_{\nu}^{\pi,m}({\text{\ae}}_{<t}) ~=~ \sum_{a'_t}\pi(a'_{t} \mid {\text{\ae}}_{<t})\, Q(a'_{t}),
 $$
 
-where $$Q(a'_{t}) := \sum_{e'_t}\nu(e'_{t} \mid {\text{\ae}}_{<t}a'_{t}) [(1-\gamma)\, r'_{t} + \gamma\, V_{\nu}^{*,m}({\text{\ae}}_{<t}\, a'_{t}\, e'_{t})]$$ is independent of $$\pi$$ (the continuation value $$V_{\nu}^{*,m}$$ is fixed by the inductive hypothesis). By Exercise 2.1, $$\sup_{\pi} \sum_{a'_t}\pi(a'_{t})\, Q(a'_{t}) = \max_{a'_t}Q(a'_{t})$$, attained by the deterministic policy playing $$a^{*}_{t} \in {\operatorname*{arg\,max}}_{a'_t}Q(a'_{t})$$ at time $$t$$, then following $$\pi^{*}_{t+1}$$.
+where $$Q(a'_{t}) := \sum_{e'_t}\nu(e'_{t} \mid {\text{\ae}}_{<t}a'_{t}) [(1-\gamma)\, r'_{t} + \gamma\, V_{\nu}^{*,m}({\text{\ae}}_{<t}\, a'_{t}\, e'_{t})]$$ is independent of $$\pi$$ (the continuation value $$V_{\nu}^{*,m}$$ is fixed by the inductive hypothesis). By Exercise 2.1, $$\sup_{\pi} \sum_{a'_t}\pi(a'_{t})\, Q(a'_{t}) = \max_{a'_t}Q(a'_{t})$$, attained by the deterministic policy playing $$a^{*}_{t} \in \operatorname*{arg\,max}_{a'_t}Q(a'_{t})$$ at time $$t$$, then following $$\pi^{*}_{t+1}$$.
 
 :::
 
@@ -201,7 +205,7 @@ $$
 
 *Approach:*
 
-**(a)** Define $$\pi_{\nu}^{*}$$ as the greedy policy (the $${\operatorname*{arg\,max}}$$ action from Exercise 2.6).
+**(a)** Define $$\pi_{\nu}^{*}$$ as the greedy policy (the $$\operatorname*{arg\,max}$$ action from Exercise 2.6).
 
 **(b)** Write two Bellman equations: one for $$V_{\nu}^{*}$$, one for $$V_{\nu}^{\pi_\nu^*, m}$$.
 
@@ -217,7 +221,7 @@ $$
 *Step 1: Define the greedy policy.* For each history $${\text{\ae}}_{<t}$$, let
 
 $$
-a^{*}_{t} \in {\operatorname*{arg\,max}}_{a'_t}\sum_{e'_t}\nu(e'_{t} \mid {\text{\ae}}_{<t}a'_{t}) [(1-\gamma)\, r'_{t} + \gamma\, V_{\nu}^{*}({\text{\ae}}_{<t}\, a'_{t}\, e'_{t})],
+a^{*}_{t} \in \operatorname*{arg\,max}_{a'_t}\sum_{e'_t}\nu(e'_{t} \mid {\text{\ae}}_{<t}a'_{t}) [(1-\gamma)\, r'_{t} + \gamma\, V_{\nu}^{*}({\text{\ae}}_{<t}\, a'_{t}\, e'_{t})],
 $$
 
 which exists because $${\mathcal{A}}$$ is finite. Define the deterministic policy $$\pi_{\nu}^{*}(a \mid {\text{\ae}}_{<t}) := \llbracket a = a^{*}_{t} \rrbracket$$. By Exercise 2.6, the infinite-horizon Bellman optimality equation becomes:

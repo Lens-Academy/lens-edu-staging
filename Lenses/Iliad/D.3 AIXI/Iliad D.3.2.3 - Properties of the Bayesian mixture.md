@@ -6,8 +6,12 @@ summary_for_tutor: "Section 1 of worksheet D.3.2: Properties of the Bayesian mix
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "aixi#1-properties-of-the-bayesian-mixture"
+upstream_fingerprint: "L4HGVIJecLYAx4v/492/1/05270QX816sU1HVS1Hu71ha524082rWu2sQE3jCU3mtd4MrG4Of25HwI5RoC5Z3T5o3M5wf661sB6EZm6cGc6opA6yOh7prA7vGh8E968eON96kd9kvSBGnQBWbPCulD"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/aixi/#1-properties-of-the-bayesian-mixture"
 ---
 
 #### Text

@@ -6,8 +6,12 @@ summary_for_tutor: "Sections 3 and 4 of worksheet D.3.2: Dominance of the Bayesi
 authors:
   - David Quarel (ARENA)
 source_url: https://iliad-intensive.org/agency/aixi/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "aixi#3-dominance-of-the-bayesian-mixture"
+upstream_fingerprint: "mLSvnzUEa6j38qLs9mM6tlfy/718/1/0Inr0Ne30OxA0f2I0oSZ0zG61QXz27De2T4k2kRH2sX237ui3OrN3wqG43Ki44Aj4Of24RNW4h6d4hKX4whN5DR35Jck5RoC5sE36EZm6Gvb6RTV6i7r6smd7KUG7lgt"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/agency/aixi/#3-dominance-of-the-bayesian-mixture"
 ---
 
 #### Text
