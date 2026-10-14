@@ -44,3 +44,4 @@ hide:: true                           ← hidden from the module page (requires 
 - Before presenting a reading/video, ask one or multiple pre-reading primer questions in a separate lens.
 - Add optional lenses with more in-depth readings/exercises for curious readers
 		- If you want to add many, link them via `::card` footers inside a "Dive deeper" lens. (see [[Writing Lenses]])
+- When a module runs too long, make readings or lenses optional (`optional:: true` on the `# Lens:` block) instead of deleting them. Curious learners keep the depth, and the required path gets shorter.
