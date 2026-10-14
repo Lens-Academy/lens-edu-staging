@@ -29,7 +29,7 @@ Cameron Tice, Puria Radmard and colleagues at Geodesic Research ran a larger, co
 
 #### Article
 source:: [[../articles/cam-alignment-pretraining-ai-discourse-causes-self-fulfilling-mis-alignment]]
-from:: LLMs pretrained on data about misaligned AIs themselves become less aligned.
+from:: "## TL;DR"
 to:: We recommend labs pretrain for alignment, just as they do for capabilities.
 
 #### Article
@@ -37,7 +37,7 @@ from:: "### Base Models: AI Discourse Causally Affects Alignment"
 to:: but does not fully erase them.
 
 #### Article
-from:: **Simplistic evaluations:** We measure alignment
+from:: "### Limitations"
 to:: which now comprises a substantial portion of post-training compute at frontier labs.
 
 #### Text

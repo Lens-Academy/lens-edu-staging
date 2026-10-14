@@ -17,7 +17,7 @@ to:: Progress! And (more importantly) collaboration!
 
 #### Article
 from:: The very first step in double crux should
-to:: this is success, not failure!
+to:: this is success, not failure!**
 
 #### Text
 content::
