@@ -36,13 +36,13 @@ One or two people share what their group landed on.
 ---
 
 \pagebreak
-### Room 2: Argue against yourself  [0:24–0:42]
+### Room 2: Make the case, find the holes  [0:24–0:42]
 
 **New group. Names first, then straight in.**
 
 
 1\. Each of you: how excited are you about work on AI control, from 0 to 10?
-2\. The highest number argues against control, the lowest argues for it, three minutes each. Use anything from the unit. The others help whoever is struggling.
+2\. The lowest number makes the case for control. The highest finds the holes in it, then makes the case against. Go back and forth: each answers the other's last point. Use anything from the unit. The others jump in to help whoever is struggling.
 3\. Say your number again. Did anyone move? What moved them?
 4\. If you still have time: which kind was the hardest argument: control does not work, works but is not worth the effort, or works and makes things worse?
 
@@ -150,7 +150,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:00–0:05 | Lobby / welcome (whole group) |
 | 0:05–0:19 | R1 Icebreaker (breakout, aim 3) |
 | 0:19–0:24 | Back together (whole group) |
-| 0:24–0:42 | R2 {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Would a profit-only company build it?--}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Argue against yourself++} (reshuffle) |
+| 0:24–0:42 | R2 {--{"author":"James agent ready-31's AI","timestamp":1792004688583}@@Would a profit-only company build it?--}{++{"author":"James agent ready-31's AI","timestamp":1792004688583}@@Make the case, find the holes++} (reshuffle) |
 | 0:42–0:47 | Back together (whole group) |
 | 0:47–0:52 | Break |
 | 0:52–1:10 | R3 {--{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Warning shots: argue the other side --}{++{"author":"James agent ready-31's AI","timestamp":1792004437993}@@Which backfire worries you most? ++}(reshuffle) |
