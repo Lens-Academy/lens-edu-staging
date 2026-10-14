@@ -73,10 +73,9 @@ One or two people share what their group landed on.
 
 Ways the unit says control could make things worse:
 
-- It turns moderate, visible AI incidents into quiet catches, so the world never gets the warning shot that would push it to act.
-- It gives false confidence: a company or the public feels safer than it is.
-- It makes AI reliable enough to sell, so AI is deployed more and sooner.
-- Training against caught attempts selects for AIs that hide their attacks better.
+- It hides warning shots.
+- It makes AI easier to sell.
+- It breeds better schemers.
 
 1\. Each of you ranks these privately, from the one that worries you most to the one that worries you least.
 2\. Compare your rankings. Argue out the item you ranked furthest apart.
