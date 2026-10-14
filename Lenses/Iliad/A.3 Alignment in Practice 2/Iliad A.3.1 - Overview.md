@@ -6,8 +6,12 @@ summary_for_tutor: "Overview of worksheet A.3 Alignment in Practice II. Prerequi
 authors:
   - Garrett Baker
 source_url: https://iliad-intensive.org/alignment/alignment-in-practice-ii/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "alignment-in-practice-ii#prerequisites"
+upstream_fingerprint: "uUNibadPZ/85/1/0ZVa0ctt0lZu1MIY1OFr1V7o1luJ2gfc2xWl3KD43hpq3uJP3ywx5Nzg5ymN5zWH7MMM7OQJ7pfV8UeQ8ae893cb9KJ89LyC9VCf9vQ2AjqxAxMJBnkfCNgcD6cpDdLj"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/alignment/alignment-in-practice-ii/#prerequisites"
 ---
 
 #### Text
@@ -50,6 +54,8 @@ content::
 | 4:05–5:05   | Aden’s theoretical RLHF session          |
 | 5:05–5:45   | Discussion, overflow, or reserve reading |
 | 5:45–6:00   | Quiz + feedback                          |
+
+**Backup: Lecture overflow**
 
 *Garrett continues after lunch*
 

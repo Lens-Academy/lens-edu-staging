@@ -8,8 +8,12 @@ authors:
   - Garrett Baker
   - Evžen Wybitul
 source_url: https://iliad-intensive.org/alignment/alignment-in-practice/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "alignment-in-practice#deployment-2-building-the-safety-system"
+upstream_fingerprint: "aWTOjC/3011/2/00sq04MO05UA06CS08X20AL20AMA0FxG0IO10OCZ0ROe0RXO0VVP0VrP0XQf0b5u0btE0doc0g9X0gJK0gYR0ghv0hoo0i1f0lbD0nRX0o960rKy0sIT0sQ10sQR0uDX"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/alignment/alignment-in-practice/#deployment-2-building-the-safety-system"
 ---
 
 #### Text
@@ -53,9 +57,9 @@ The first reports of misuse of frontier AI systems has come out last month. Anth
 
 **Reading (30 mins)**: [Detecting and countering misuse of AI](https://www.anthropic.com/threat-intelligence-report-september-2026), [Constitutional Classifiers](https://arxiv.org/abs/2501.18837), or read about the [famous](https://time.com/collections/time100-ai-2025/7305870/pliny-the-liberator/) anonymous jailbreaker [Pliny the Liberator](https://medium.com/@JMerilehto/decoding-the-elder-plinius-repository-an-autopsy-of-the-ai-control-plane-88c503224940).
 
-::card[[../Lenses/anthropic-countering-misuse-of-ai-september-2026|Detecting and countering misuse of AI]]
+::card[[../../anthropic-countering-misuse-of-ai-september-2026|Detecting and countering misuse of AI]]
 
-::card[[../Lenses/pillay-time100-ai-2025-pliny-the-liberator|Pliny the Liberator (TIME)]]
+::card[[../../pillay-time100-ai-2025-pliny-the-liberator|Pliny the Liberator (TIME)]]
 
 \### **Some further info:**
 

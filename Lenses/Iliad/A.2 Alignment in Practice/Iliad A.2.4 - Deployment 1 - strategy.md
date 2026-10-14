@@ -8,8 +8,12 @@ authors:
   - Garrett Baker
   - Evžen Wybitul
 source_url: https://iliad-intensive.org/alignment/alignment-in-practice/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "alignment-in-practice#deployment-1-strategy"
+upstream_fingerprint: "aR7/2820/2/00sX01cj05sC06po06tR07BZ0AE70DnR0E3U0Ey90F4L0G2G0GkS0IHe0LBd0PPJ0RRc0S6G0SN60UQP0Yb00esr0gYR0hPA0lQO0rxN0sUy0t5t0thJ0u5h0uCT0yGQ"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/alignment/alignment-in-practice/#deployment-1-strategy"
 ---
 
 #### Text
@@ -30,9 +34,9 @@ Deployment is the work of building and maintaining a structured argument that re
 
 Frontier lab policies — Anthropic's [Responsible Scaling Policy](https://www.anthropic.com/responsible-scaling-policy), OpenAI's [Preparedness Framework](https://openai.com/index/updating-our-preparedness-framework/) — do not all literally call their outputs "safety cases," and they vary in form. An RSP often reads more like a protocol: when the model crosses a specified capability threshold on a specified evaluation (say, a CBRN uplift benchmark), a corresponding tier of safeguards becomes mandatory, and the model cannot be deployed at that tier until the case for those safeguards clears internal review. This is somewhat more lenient than a formal safety case. Additionally, the labs keep updating the RSPs to fit their current market strategy — there is no guarantee that the deployment protocols won't shift dramatically when the labs see fit. On the other hand, these self-imposed regulations are most of what we currently have, and it does make sense to better understand their underlying logic.
 
-::card[[../Lenses/anthropic-responsible-scaling-policy|Anthropic Responsible Scaling Policy]]
+::card[[../../anthropic-responsible-scaling-policy|Anthropic Responsible Scaling Policy]]
 
-::card[[../Lenses/openai-our-updated-preparedness-framework|OpenAI Preparedness Framework]]
+::card[[../../openai-our-updated-preparedness-framework|OpenAI Preparedness Framework]]
 
 Each policy is in effect specifying how the lab will build and clear a safety case — which risks count, how capabilities and safeguards are measured, and what kind of argument is required before deployment. That convergence is what the rest of this module is built around: a four-step pattern that shows up across labs and that maps onto the structure of a safety case.
 

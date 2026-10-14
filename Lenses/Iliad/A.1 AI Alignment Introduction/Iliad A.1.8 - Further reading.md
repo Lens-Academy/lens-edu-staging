@@ -6,8 +6,12 @@ summary_for_tutor: "Further reading section of worksheet A.1. It is a reference 
 authors:
   - Leon Lang (Iliad)
 source_url: https://iliad-intensive.org/alignment/ai-alignment-intro/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "ai-alignment-intro#further-reading"
+upstream_fingerprint: "eZEbahnQbCKItGclLOv4dzD0I8r/2050/1/01rJ03KW04up07Cb0C470EE80FU50IB10K5i0Lmz0NVa0QsK0RJu0SKh0Seu0Xb60feA0gcW0jE00oPU0r2a0sUy0tI50v7G0y0C0yEO11sE139J165N16dE1ARD1CPB"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/alignment/ai-alignment-intro/#further-reading"
 ---
 
 #### Text

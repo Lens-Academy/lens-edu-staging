@@ -8,8 +8,12 @@ authors:
   - Garrett Baker
   - Evžen Wybitul
 source_url: https://iliad-intensive.org/alignment/alignment-in-practice/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "alignment-in-practice#post-training"
+upstream_fingerprint: "5rc/2650/2/00hp01LK01hc04eW05UA0AJL0BP60GUb0HqY0Jj30Jzz0KLa0N2V0Nl00Omd0Onq0SsW0ULm0XOh0g9X0hJL0hdM0iTj0jBF0jE00jOz0qF10t5t0zeW11KF16n516uz"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/alignment/alignment-in-practice/#post-training"
 ---
 
 #### Text
@@ -69,8 +73,8 @@ By this measure, no unlearning method has yet been shown to be both cheap *and* 
 
 **Reading (45 mins):** [The Claude Constitution](https://www.anthropic.com/constitution), [Model Spec](https://model-spec.openai.com/2026-08-18.html), or [Teaching Claude Why](https://alignment.anthropic.com/2026/teaching-claude-why/). Or any other paper that you found interesting.
 
-::card[[../Lenses/anthropic-claudes-constitution|The Claude Constitution]]
+::card[[../../anthropic-claudes-constitution|The Claude Constitution]]
 
-::card[[../Lenses/openai-model-spec|OpenAI Model Spec]]
+::card[[../../openai-model-spec|OpenAI Model Spec]]
 
-::card[[../Lenses/kutasov-teaching-claude-why|Teaching Claude Why]]
+::card[[../../kutasov-teaching-claude-why|Teaching Claude Why]]

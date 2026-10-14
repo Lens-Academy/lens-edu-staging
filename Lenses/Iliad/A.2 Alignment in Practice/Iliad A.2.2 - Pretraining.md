@@ -8,8 +8,12 @@ authors:
   - Garrett Baker
   - Evžen Wybitul
 source_url: https://iliad-intensive.org/alignment/alignment-in-practice/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "alignment-in-practice#pretraining"
+upstream_fingerprint: "rp3/591/1/0KzQ0S6G0fPR0lQO0wpb0zdi112R1LHy1Rxh1bzb1eZC1h1x1jO31yIN21YV2CB12MLi2QVw2Ysg2j852mrd2r4e2x5M31Pz3KrH3Ni43OZd3T5X3WiK3hCq3hkh3wmV"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/alignment/alignment-in-practice/#pretraining"
 ---
 
 #### Text
@@ -33,9 +37,9 @@ Why does this work? The [persona selection model (PSM)](https://alignment.anthro
 **Reading (30 min):** Read [Pretraining data filtering](https://alignment.anthropic.com/2025/pretraining-data-filtering/), or [SGTM](https://alignment.anthropic.com/2025/selective-gradient-masking/), or [persona selection model (PSM)](https://alignment.anthropic.com/2026/psm/).
 
 :::require_x_optional_lenses{x=1}
-::card[[../Lenses/anthropic-enhancing-model-safety-through-pretraining-data-filtering|Pretraining data filtering]]
+::card[[../../anthropic-enhancing-model-safety-through-pretraining-data-filtering|Pretraining data filtering]]
 
-::card[[../Lenses/anthropic-beyond-data-filtering-knowledge-localization-for-capability-removal-in-llms|SGTM]]
+::card[[../../anthropic-beyond-data-filtering-knowledge-localization-for-capability-removal-in-llms|SGTM]]
 
-::card[[../Lenses/marks-the-persona-selection-model-why-ai-assistants-might-behave-like-humans|Persona selection model]]
+::card[[../../marks-the-persona-selection-model-why-ai-assistants-might-behave-like-humans|Persona selection model]]
 :::

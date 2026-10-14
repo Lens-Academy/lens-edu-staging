@@ -8,8 +8,12 @@ authors:
   - Garrett Baker
   - Evžen Wybitul
 source_url: https://iliad-intensive.org/alignment/alignment-in-practice/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "alignment-in-practice#prerequisites"
+upstream_fingerprint: "uUNiba7kn/232/1/07ba0Fxa0Kqk0S5g0ctt15vf165N1abg2G3T2KZ52MLi2Oq82oVA2vPu31Gv3G3V3Y9D3d2h3xEW4RVo4euQ5UaK5qtS65F96BdU6C496Gvb6Jxz6M906ynH73Ek78Ec"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/alignment/alignment-in-practice/#prerequisites"
 ---
 
 #### Text
