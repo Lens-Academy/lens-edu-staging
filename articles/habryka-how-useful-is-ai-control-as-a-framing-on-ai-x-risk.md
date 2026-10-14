@@ -349,9 +349,6 @@ Is this right?
 What I am saying is more "the AI will of course really care about performing well on training, but the set of objectives that you can train a competitive AI on is extremely limited, with maybe 'next token prediction' being the _only_ choice". 
 
 Turns out I don't care about next token prediction. So 'it doing well on training' buys me no solace.
-:::
-
-:::callout{title="Oliver Habryka" tone="blue"}
 
 Of course, it's also trying to break out during pre-training all the time, but it's not really interfacing with humans, and it's trying out hardware exploits or whatever, but let's assume its not succeeding at that.
 :::
@@ -359,9 +356,6 @@ Of course, it's also trying to break out during pre-training all the time, but i
 :::callout{title="Ryan Greenblatt" tone="green"}
 
 Ah, by "perform well in training" I mean "perform well in post-training like RLHF".
-:::
-
-:::callout{title="Ryan Greenblatt" tone="green"}
 
 Anyway, in the standard deceptive alignment story where the AI is doing well in post-training, you have some hope due to the fact that the AI has to have a pretty good internal model of what performs well (otherwise this sort of instrumental reasoning strategy wouldn't work). So just updating it to always do that would work.
 
