@@ -600,6 +600,8 @@ Now, the AI has to be pretty confident about what it can get away with _not_ doi
 
 And the number of cases where the AI "messes" up like this might be more like 30 than like 1000 (at least that's what our preliminary results indicate in various settings with sandbagging, but this is just in the tokens case).
 
+---
+
 Getting useful work out of systems with deep recurrence is plausibly much harder because humans won't understand or be able to manipulate internal representations of the model. (We'll still have exploration issues on intermediate legible outputs though which will be exactly analogous.)
 
 Thus, we'll need to leverage bootstrapping from short to long.
@@ -629,6 +631,7 @@ Seems like the system could probably just sandbag, though I would have to think 
 Indeed I agree you'll probably have the AI (in the original hypothetical situation) modeling the training process and thinking about what it can/can't think of. (Insofar as it wants to sandbag.)
 
 (Separately, I think the AI itself might be pretty unsure about whether it can get away with sandbagging. Like it might be like "oh man, if I try to sandbag here who knows what will happen to my goals etc.". Then, it's not clear it can easily experiment. E.g., if it gets updated by SGD it might be hard for it to tell how this went and reflect on whether that went more/less well than it hoped because it won't (necessarily) have memories to compare before and after.)
+---
 
 One relevant experiment here is:
 
