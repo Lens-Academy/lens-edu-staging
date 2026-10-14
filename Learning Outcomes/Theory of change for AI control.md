@@ -1,5 +1,6 @@
 ---
 id: 'f8a03687-29ce-4f00-b5b9-261cab006690'
+writing_minutes: 15
 learning-outcome: "For a proposed AI control measure or project, lay out the distinct causal routes by which it could reduce the risk of catastrophe from AI models that might be scheming (for example stopping an attack while the model is in use, catching an attempt and acting on the evidence, or getting useful safety work out of untrusted models before they become too capable to control), say for each route how far it depends on the political will of AI developers and governments and what could make a company run it (a few concerned insiders, the company's own policy, or a requirement such as a control safety case or regulation), and identify the premise in those routes most open to doubt together with an observation that would raise or lower confidence in it."
 topic: "[[../Domains and Topics/7 AI Control/The control agenda]]"
 stage: beginner
