@@ -6,8 +6,12 @@ summary_for_tutor: "Session 2 of worksheet A.1: alignment problem decompositions
 authors:
   - Leon Lang (Iliad)
 source_url: https://iliad-intensive.org/alignment/ai-alignment-intro/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "ai-alignment-intro#session-2-alignment-problem-decompositions"
+upstream_fingerprint: "JjY/198/1/03KW04W80BVs1SMf1Xw41vDS25H32CMC2I8A3Ora55OB56pC5IHG5YxB5liq6VaA6mOL7PeF7bTI7qqz7ryW8E4c8gXD92al9D2p9GGn9RTQ9nGq9nZJAElmAaNaBq09"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/alignment/ai-alignment-intro/#session-2-alignment-problem-decompositions"
 ---
 
 #### Text
@@ -18,17 +22,22 @@ content::
 
 Spend **25 minutes** reading the following texts, concentrating on the one most interesting to you.
 
-::card[[../Lenses/evhub-how-do-we-become-confident-in-the-safety-of-a-machine-learning-system|Training stories]]
+::card[[../../evhub-how-do-we-become-confident-in-the-safety-of-a-machine-learning-system|Training stories]]
 
-> Read everything before the section "How mechanistic does \[...\]"
+::card[[../../krakovna-specification-gaming-the-flip-side-of-ai-ingenuity|Reward misspecification]]
 
-::card[[../Lenses/krakovna-specification-gaming-the-flip-side-of-ai-ingenuity|Reward misspecification]]
+::card[[../../shah-how-undesired-goals-can-arise-with-correct-rewards|Goal misgeneralization]]
 
-::card[[../Lenses/shah-how-undesired-goals-can-arise-with-correct-rewards|Goal misgeneralization]]
+::card[[../../wilson-deep-learning-is-not-so-mysterious-or-different|On soft inductive biases]]
 
-::card[[../Lenses/wilson-deep-learning-is-not-so-mysterious-or-different|On soft inductive biases]]
+::card[[../../betley-emergent-misalignment-narrow-finetuning-can-produce-broadly-misaligned-llms-1-this-paper-contains-model-generated-content-that-might-be-offensive-1|Emergent misalignment]]
 
-::card[[../Lenses/betley-emergent-misalignment-narrow-finetuning-can-produce-broadly-misaligned-llms-1-this-paper-contains-model-generated-content-that-might-be-offensive-1|Emergent misalignment]]
+* [Training stories](https://www.alignmentforum.org/posts/FDJnZt8Ks2djouQTZ/how-do-we-become-confident-in-the-safety-of-a-machine) 
+  * Read everything before the section "How mechanistic does \[...\]"  
+* [Reward misspecification](https://deepmind.google/blog/specification-gaming-the-flip-side-of-ai-ingenuity/)  
+* [Goal misgeneralization](https://deepmind.google/blog/how-undesired-goals-can-arise-with-correct-rewards/)  
+* [On soft inductive biases](https://arxiv.org/abs/2503.02113)
+	* [Emergent misalignment](https://arxiv.org/abs/2502.17424)
 
 Discuss in groups of 3–5 for **15 minutes**. Possible prompts:
 

@@ -6,8 +6,12 @@ summary_for_tutor: "Session 5 of worksheet A.1: timelines, takeoff and checking 
 authors:
   - Leon Lang (Iliad)
 source_url: https://iliad-intensive.org/alignment/ai-alignment-intro/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "ai-alignment-intro#session-5-timelines-and-takeoff"
+upstream_fingerprint: "EJm/114/1/0dPT11KF1AsK1qDt1rHc21yD2CMC2Ihd2NLx2QjB3ckr3hEH3mYs5dyA5wAu7vbh8sqeB9JnBdZQCb4aCbT4DyyHF2lyGVwpGqmdIHLmIbhSJoq5LYLTM3e9MBqWN4CW"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/alignment/ai-alignment-intro/#session-5-timelines-and-takeoff"
 ---
 
 #### Text
@@ -20,8 +24,8 @@ content::
 
 Spend **40 minutes reading**. Read the short explanation of timelines and takeoff in the reading guide, then read the original 2025 and early-2026 passages of [AI 2027](https://ai-2027.com/). Note which predictions have turned out to be true, and which haven't. Note which future predictions you find feasible or not. After this, read [the recent update](https://blog.aifutures.org/p/q25-2026-timelines-update-uplift).
 
-::card[[../Lenses/ai-2027 article lens|AI 2027]]
+::card[[../../ai-2027 article lens|AI 2027]]
 
-::card[[../Lenses/lifland-q2-5-2026-timelines-update-uplift-and-revenue|AI Futures timelines update]]
+::card[[../../lifland-q2-5-2026-timelines-update-uplift-and-revenue|AI Futures timelines update]]
 
 **Discussion, 10 minutes.** Share your thoughts: has this model surprised you? Have you updated on what you think is possible in the next 6 months to a year?

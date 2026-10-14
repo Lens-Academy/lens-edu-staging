@@ -6,8 +6,12 @@ summary_for_tutor: "Session 4 of worksheet A.1: uncertain risks and outlook. Rea
 authors:
   - Leon Lang (Iliad)
 source_url: https://iliad-intensive.org/alignment/ai-alignment-intro/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "ai-alignment-intro#session-4-uncertain-risks-and-outlook"
+upstream_fingerprint: "aaq/201/1/0UQP0daq1Mpy1OzF1Xw41YLS1xjy2CMC2G3T2I8A39Ki3T6n3mXi4Hsu4JGG4QeJ5IHG5OEl5Qaa5YxB6rKs7aqc7hLs85P18IPA9nGqB2YvB3GaBZSTBsunC9bUCWOg"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/alignment/ai-alignment-intro/#session-4-uncertain-risks-and-outlook"
 ---
 
 #### Text
@@ -18,15 +22,15 @@ content::
 
 Spend **25 minutes** reading the following texts, concentrating on the one most interesting to you.
 
-::card[[../Lenses/anthropic-core-views-on-ai-safety-when-why-what-and-how|Core views on AI safety]]
+::card[[../../anthropic-core-views-on-ai-safety-when-why-what-and-how|Core views on AI safety]]
 
-> Most important sections: "Our Approach: Empiricism in AI Safety", "The role of frontier models in AI safety" and "Taking a portfolio approach to AI safety".
+::card[[../../evhub-model-organisms-of-misalignment-the-case-for-a-new-pillar-of-alignment-research|Model organisms of misalignment]]
 
-::card[[../Lenses/evhub-model-organisms-of-misalignment-the-case-for-a-new-pillar-of-alignment-research|Model organisms of misalignment]]
+::card[[../../yudkowsky-the-rocket-alignment-problem-gg9a4y8rewktle3tn|The rocket alignment problem]]
 
-> Most important: everything before "Examples of Model Organisms \[...\]".
-
-::card[[../Lenses/yudkowsky-the-rocket-alignment-problem-gg9a4y8rewktle3tn|The rocket alignment problem]]
+* [Core views on AI safety](https://www.anthropic.com/news/core-views-on-ai-safety): Most important sections: "Our Approach: Empiricism in AI Safety", "The role of frontier models in AI safety" and "Taking a portfolio approach to AI safety".  
+* [Model organisms of misalignment](https://www.lesswrong.com/posts/ChDH335ckdvpxXaXX/model-organisms-of-misalignment-the-case-for-a-new-pillar-of-1): Most important: everything before "Examples of Model Organisms \[...\]".  
+* [The rocket alignment problem](https://www.alignmentforum.org/posts/Gg9a4y8reWKtLe3Tn/the-rocket-alignment-problem)
 
 Discuss in groups of 3–5 for **10 minutes**. Prompts:
 

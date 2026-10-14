@@ -6,8 +6,12 @@ summary_for_tutor: "Session 1 of worksheet A.1: alignment targets. Students spen
 authors:
   - Leon Lang (Iliad)
 source_url: https://iliad-intensive.org/alignment/ai-alignment-intro/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "ai-alignment-intro#session-1-alignment-targets"
+upstream_fingerprint: "Zuk/129/1/1AsK1Xw42CMC2I8A3Msl3tUz4PNx5fd65wAu67Fo6Gvb6gXl6xhV7fKG8mMXBTiCBdL2C52QDvgUE0TCEPdoEhFNFlhbHsRnIIaHIfHLIy8YJMdgJW4EJc7LJoq5KbpS"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/alignment/ai-alignment-intro/#session-1-alignment-targets"
 ---
 
 #### Text
@@ -19,16 +23,22 @@ content::
 Spend **25 minutes** reading the following texts. Pick one most interesting to you. 
 
 :::require_x_optional_lenses{x=1}
-::card[[../Lenses/yudkowsky-coherent-extrapolated-volition|Coherent extrapolated volition]]
+::card[[../../yudkowsky-coherent-extrapolated-volition|Coherent extrapolated volition]]
 
 > Most important: The first 2.5 pages in Section 3.
 
-::card[[../Lenses/christiano-clarifying-ai-alignment|Intent alignment]]
+::card[[../../christiano-clarifying-ai-alignment|Intent alignment]]
 
-::card[[../Lenses/anthropic-claudes-new-constitution|Claude’s constitution overview]]
+::card[[../../anthropic-claudes-new-constitution|Claude’s constitution overview]]
 
-::card[[../Lenses/lesswrong-corrigibility|Corrigibility]]
+::card[[../../lesswrong-corrigibility|Corrigibility]]
 :::
+
+* [Coherent extrapolated volition](https://intelligence.org/files/CEV.pdf)
+  * Most important: The first 2.5 pages in Section 3.  
+* [Intent alignment](https://ai-alignment.com/clarifying-ai-alignment-cec47cd69dd6)  
+* [Claude’s constitution overview](https://www.anthropic.com/news/claude-new-constitution).  
+* [Corrigibility](https://www.lesswrong.com/w/corrigibility-1)
 
 Discuss in groups of 3–5 for **15 minutes**. Possible prompts:
 

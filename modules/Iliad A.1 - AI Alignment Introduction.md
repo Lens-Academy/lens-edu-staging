@@ -7,12 +7,12 @@ title: "A.1 AI Alignment Introduction"
 # Submodule: A.1 Opening
 
 # Lens: A.1.0 Overview and opening
-source:: [[../Lenses/Iliad A.1 - AI Alignment Introduction]]
+source:: [[../Lenses/Iliad/A.1 AI Alignment Introduction/Iliad A.1 - AI Alignment Introduction]]
 
 # Submodule: A.1 Session 1: Alignment targets
 
 # Lens: A.1.1 Session 1: Alignment targets
-source:: [[../Lenses/Iliad A.1.1 - Session 1 - Alignment targets]]
+source:: [[../Lenses/Iliad/A.1 AI Alignment Introduction/Iliad A.1.1 - Session 1 - Alignment targets]]
 
 # Lens: Coherent extrapolated volition
 source:: [[../Lenses/yudkowsky-coherent-extrapolated-volition]]
@@ -33,7 +33,7 @@ optional:: true
 # Submodule: A.1 Session 2: Alignment problem decompositions
 
 # Lens: A.1.2 Session 2: Alignment problem decompositions
-source:: [[../Lenses/Iliad A.1 - Session 2 - Alignment problem decompositions]]
+source:: [[../Lenses/Iliad/A.1 AI Alignment Introduction/Iliad A.1 - Session 2 - Alignment problem decompositions]]
 
 # Lens: Training stories
 source:: [[../Lenses/evhub-how-do-we-become-confident-in-the-safety-of-a-machine-learning-system]]
@@ -53,7 +53,7 @@ source:: [[../Lenses/betley-emergent-misalignment-narrow-finetuning-can-produce-
 # Submodule: A.1 Session 3: Goal-directedness
 
 # Lens: A.1.3 Session 3: Goal-directedness
-source:: [[../Lenses/Iliad A.1 - Session 3 - Goal directedness]]
+source:: [[../Lenses/Iliad/A.1 AI Alignment Introduction/Iliad A.1 - Session 3 - Goal directedness]]
 
 # Lens: Will humans build goal-directed agents?
 source:: [[../Lenses/shah-will-humans-build-goal-directed-agents]]
@@ -64,7 +64,7 @@ source:: [[../Lenses/omohundro-the-basic-ai-drives]]
 # Submodule: A.1 Session 4: Uncertain risks and outlook
 
 # Lens: A.1.4 Session 4: Uncertain risks and outlook
-source:: [[../Lenses/Iliad A.1 - Session 4 - Uncertain risks and outlook]]
+source:: [[../Lenses/Iliad/A.1 AI Alignment Introduction/Iliad A.1 - Session 4 - Uncertain risks and outlook]]
 
 # Lens: Core views on AI safety
 source:: [[../Lenses/anthropic-core-views-on-ai-safety-when-why-what-and-how]]
@@ -78,7 +78,7 @@ source:: [[../Lenses/yudkowsky-the-rocket-alignment-problem-gg9a4y8rewktle3tn]]
 # Submodule: A.1 Session 5: Timelines and takeoff
 
 # Lens: A.1.5 Session 5: Timelines and takeoff
-source:: [[../Lenses/Iliad A.1.5 - Session 5 - Timelines and takeoff]]
+source:: [[../Lenses/Iliad/A.1 AI Alignment Introduction/Iliad A.1.5 - Session 5 - Timelines and takeoff]]
 
 # Lens: AI 2027
 source:: [[../Lenses/ai-2027 article lens]]
@@ -89,7 +89,7 @@ source:: [[../Lenses/lifland-q2-5-2026-timelines-update-uplift-and-revenue]]
 # Submodule: A.1 Session 6: Hugging Face as a misalignment case study
 
 # Lens: A.1.6 Session 6: Hugging Face as a misalignment case study
-source:: [[../Lenses/Iliad A.1.6 - Session 6 - Hugging Face as a misalignment case study]]
+source:: [[../Lenses/Iliad/A.1 AI Alignment Introduction/Iliad A.1.6 - Session 6 - Hugging Face as a misalignment case study]]
 
 # Lens: Hugging Face's disclosure
 source:: [[../Lenses/system-security-incident-disclosure-july-2026]]
@@ -110,9 +110,9 @@ optional:: true
 # Submodule: A.1 Reading guide
 
 # Lens: A.1.7 Reading guide
-source:: [[../Lenses/Iliad A.1.7 - Reading guide]]
+source:: [[../Lenses/Iliad/A.1 AI Alignment Introduction/Iliad A.1.7 - Reading guide]]
 
 # Lens: A.1.8 Further reading
-source:: [[../Lenses/Iliad A.1.8 - Further reading]]
+source:: [[../Lenses/Iliad/A.1 AI Alignment Introduction/Iliad A.1.8 - Further reading]]
 
 

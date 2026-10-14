@@ -6,8 +6,12 @@ summary_for_tutor: "Session 3 of worksheet A.1: goal-directedness. Readings are 
 authors:
   - Leon Lang (Iliad)
 source_url: https://iliad-intensive.org/alignment/ai-alignment-intro/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "ai-alignment-intro#session-3-goal-directedness"
+upstream_fingerprint: "bck/174/1/0LXc0SKh17uf1Jr71Lqg1Xw41vDS1vZU27b32AtN2CMC2I8A2kHJ2yjY3Ni43dLU4cdI54lB5IHG5ZGA6SPf6fR46mxi6nN97Ghz7vbh8NnR8Pym8QVW9gLEAS9fBhDD"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/alignment/ai-alignment-intro/#session-3-goal-directedness"
 ---
 
 #### Text
@@ -18,11 +22,12 @@ content::
 
 Spend **25 minutes** reading the following texts, concentrating on the one most interesting to you. 
 
-::card[[../Lenses/shah-will-humans-build-goal-directed-agents|Will humans build goal-directed agents?]]
+::card[[../../shah-will-humans-build-goal-directed-agents|Will humans build goal-directed agents?]]
 
-::card[[../Lenses/omohundro-the-basic-ai-drives|Basic AI drives]]
+::card[[../../omohundro-the-basic-ai-drives|Basic AI drives]]
 
-> Most important: abstract, intro, conclusion, and understanding every heading and a basic argument for its underlying AI drive.
+* [Will humans build goal-directed agents?](https://www.alignmentforum.org/posts/9zpT9dikrrebdq3Jf/will-humans-build-goal-directed-agents)  
+* [Basic AI drives](https://selfawaresystems.com/wp-content/uploads/2008/01/ai_drives_final.pdf): Most important: abstract, intro, conclusion, and understanding every heading and a basic argument for its underlying AI drive.
 
 Discuss in groups of 3–5 for **10 minutes**. Possible prompts:
 
