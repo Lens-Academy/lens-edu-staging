@@ -6,8 +6,12 @@ summary_for_tutor: "Approximation section of Iliad worksheet B.2 Mysteries of De
 authors:
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/mysteries-of-deep-learning/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "mysteries-of-deep-learning#approximation"
+upstream_fingerprint: "7HK/261/1/00EM01hc0CMH12D21AGi1YIn1dBf1j9u2dyL2fXK32pC3Ljs3aow3xG24HPx4Oq64SJ74tve5dp05eMY5gBl6gTQ74kE7Lja7M0i7Z147nbF7oaZ7zaP8Cdf8HpW8O6h"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/mysteries-of-deep-learning/#approximation"
 ---
 
 #### Text
@@ -16,11 +20,11 @@ content::
 
 [Approximation is expensive, but the lunch is cheap](https://www.lesswrong.com/posts/gq9GR6duzcuxyxZtD/approximation-is-expensive-but-the-lunch-is-cheap)
 
-::card[[../Lenses/hoogland-approximation-is-expensive-but-the-lunch-is-cheap|Approximation is expensive, but the lunch is cheap]]
+::card[[../../hoogland-approximation-is-expensive-but-the-lunch-is-cheap|Approximation is expensive, but the lunch is cheap]]
 
 [Why and When Can Deep – but Not Shallow – Networks Avoid the Curse of Dimensionality: a Review](https://arxiv.org/pdf/1611.00740)
 
-::card[[../Lenses/poggio-why-and-when-can-deep-but-not-shallow-networks-avoid-the-curse-of-dimensionality-a-review|Why and When Can Deep but Not Shallow Networks Avoid the Curse of Dimensionality: a Review]]
+::card[[../../poggio-why-and-when-can-deep-but-not-shallow-networks-avoid-the-curse-of-dimensionality-a-review|Why and When Can Deep but Not Shallow Networks Avoid the Curse of Dimensionality: a Review]]
 
 *Discussion questions:*
 

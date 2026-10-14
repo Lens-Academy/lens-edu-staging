@@ -6,8 +6,12 @@ summary_for_tutor: "Overview section of Iliad worksheet B.2 Mysteries of Deep Le
 authors:
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/mysteries-of-deep-learning/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "mysteries-of-deep-learning#overview"
+upstream_fingerprint: "Uka/437/1/00Rv05UA09rz0IUR0KqA0N2o0Oy80lAd15mK17PQ220k2XFo2skn30rI3PLo3SYF3TOy3c483oUQ4X1F4kC34w0r53sA574t58vq6Gvb6Uoo6bEH6hk26krW6opA71dK"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/mysteries-of-deep-learning/#overview"
 ---
 
 #### Text
@@ -16,7 +20,7 @@ content::
 
 [Deep Learning as Program Synthesis](https://www.lesswrong.com/posts/Dw8mskAvBX37MxvXo/deep-learning-as-program-synthesis-1)
 
-::card[[../Lenses/furman-deep-learning-as-program-synthesis|Deep Learning as Program Synthesis]]
+::card[[../../furman-deep-learning-as-program-synthesis|Deep Learning as Program Synthesis]]
 
 (Note that this post presents an opinionated hypothesis (deep learning is performing something analogous to Solomonoff induction) alongside relatively consensus discussion of empirical mysteries. The post is largely being shared for the latter, though students may find the hypothesis itself useful pedagogically.)
 

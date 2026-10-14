@@ -6,8 +6,12 @@ summary_for_tutor: "Generalization section of Iliad worksheet B.2 Mysteries of D
 authors:
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/mysteries-of-deep-learning/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "mysteries-of-deep-learning#generalization"
+upstream_fingerprint: "Nbp/562/1/0Nl00TYD0Yw30kOM0tue1NKF21ii26tD2AGO2HQ82LWG2aMt2tNt30PP35Wb36c03OFg3QNS3utR3wmV3xxB40rM4A2q4GsH4JBV4Qc74h5l4pEX512D55OB575g57Eo"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/mysteries-of-deep-learning/#generalization"
 ---
 
 #### Text
@@ -16,11 +20,11 @@ content::
 
 [The paper that killed deep learning theory](https://www.lesswrong.com/posts/ZvQfcLbcNHYqmvWyo/the-paper-that-killed-deep-learning-theory)
 
-::card[[../Lenses/lawrencec-the-paper-that-killed-deep-learning-theory|The paper that killed deep learning theory]]
+::card[[../../lawrencec-the-paper-that-killed-deep-learning-theory|The paper that killed deep learning theory]]
 
 [Deep Learning is Not So Mysterious or Different](https://arxiv.org/abs/2503.02113)
 
-::card[[../Lenses/wilson-deep-learning-is-not-so-mysterious-or-different|On soft inductive biases]]
+::card[[../../wilson-deep-learning-is-not-so-mysterious-or-different|On soft inductive biases]]
 
 *Discussion questions:*
 
@@ -34,7 +38,7 @@ There are different notions of "generalization" that aren't equivalent. What pre
 
 Answer: The resources here deliberately refer to *in-distribution generalization*, that is the gap between test loss and train loss where the train loss is sampled from the same distribution the test loss is evaluated over. This excludes OOD generalization, which would require evaluating the test loss against a different input/label distribution than the training samples are sampled from. Historically, the word "generalization" within statistical learning theory has typically referred to in-distribution generalization, but in common ML usage the word increasingly refers to OOD generalization. It is therefore *very common* for students to conflate in-distribution and OOD generalization, but they are totally different notions within a statistical learning theory context, and OOD generalization is almost impossible to prove useful results about in generality (the test distribution can change to anything!) despite sounding more appealing. There is still no consensus explanation for in-distribution generalization, and OOD generalization is strictly harder to explain.
 
-* "The framework imagined a data distribution $D$ over inputs $X$ and outputs $Y$ where the goal was to fit a hypothesis $h : X \to Y$ that minimized the expected test loss for a loss function $L : X \times Y \to R$ over $D$. A learning algorithm would receive $n$ samples from the data distribution, and would minimize the training loss averaged across the sample $L(h(x), y)$."
+* "The framework imagined a data distribution $$D$$ over inputs $$X$$ and outputs $$Y$$ where the goal was to fit a hypothesis $$h : X \to Y$$ that minimized the expected test loss for a loss function $$L : X \times Y \to R$$ over $$D$$. A learning algorithm would receive $$n$$ samples from the data distribution, and would minimize the training loss averaged across the sample $$L(h(x), y)$$."
 
 ::: %%
 
