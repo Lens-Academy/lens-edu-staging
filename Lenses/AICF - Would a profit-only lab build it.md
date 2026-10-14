@@ -15,7 +15,7 @@ First, Oliver Habryka makes this criticism in a 2024 dialogue with Ryan Greenbla
 #### Article
 source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
 from:: Like, a key dynamic that feels like its at play here
-to:: would strongly push against such a slowdown?
+to:: would strongly push against such a slowdown?".
 
 #### Text
 content::
@@ -46,11 +46,11 @@ Caspar Oesterheld replies to the acceleration worry in general, for any safety p
 
 #### Article
 source:: [[../articles/oesterheld-a-simple-argument-about-capabilities-externalities-versus-opportunity-costs]]
-from:: Lots of people have the intuition that adding one generic safety researcher
+from:: **TL;DR**: _Lots of people have the intuition
 to:: but won’t render the project net negative.
 
 #### Article
-from:: The above argument is about externalities on “generic capabilities”
+from:: It’s important to understand some things that the argument does _not_ say:
 to:: will increase AIs’ ability to escape control schemes.
 
 #### Question: Open
