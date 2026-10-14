@@ -143,7 +143,8 @@ can be split among reviewers. Three groups:
     5. No either-or question unless the two options really are the only
        options.
     6. Define terms where they first appear. Say when the fuller treatment
-       comes. No footnotes.
+       comes. Don't put definitions in footnotes. (Citations do go in
+       footnotes, see "Cite with footnotes" in Course Authoring.)
     7. Every task has an easy version and a stretch version, so partial
        work is still work. Never three requirements joined by commas.
     8. Every forecast question also asks: what would change your mind?
