@@ -8,8 +8,12 @@ authors:
   - Matthew Farrugia-Roberts (University of Oxford)
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/singular-learning-theory/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "singular-learning-theory#2-what-is-degeneracy"
+upstream_fingerprint: "4C1Jivacpd7AlFiieT/1434/1/01EO0Hnb0MJf0S7f0YcP0bN90g9X0n0n0oCx0tal0vWb18Mv1B2M1LsD1Pgi1Rxh1SVV1YdF1aKZ1uMJ1wMi2Mrm2Mrs2X8V2ayR2ttr30ul31UN3C9K3UOI3Zxm3dt8"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/singular-learning-theory/#2-what-is-degeneracy"
 ---
 
 #### Text

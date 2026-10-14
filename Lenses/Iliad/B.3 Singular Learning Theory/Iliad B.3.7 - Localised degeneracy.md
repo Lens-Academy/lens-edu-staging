@@ -8,8 +8,12 @@ authors:
   - Matthew Farrugia-Roberts (University of Oxford)
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/singular-learning-theory/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "singular-learning-theory#23-localised-degeneracy"
+upstream_fingerprint: "gMVMD11EmWnI/2801/1/00Ko01xx05jg0DsK0FxS0RFJ0RV90VxG0XWR0f2I0g9X0lQO0rSl0wHP14oN15ur1B3d1OTZ1Rco1Viw1XWG1aKZ1pWi1uMJ1wMi1xjy24ZH2CAc2CAw2F7y2LQy2LWG"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/singular-learning-theory/#23-localised-degeneracy"
 ---
 
 #### Text
@@ -154,7 +158,7 @@ $$
 
 Each such equation involves only the pair of entries $$(X_{ij}, Y_{ij})$$, and each pair appears in exactly one equation, so the system decouples into $$m^{2}$$ independent cells. The picture is as follows: the bottom $$m - r_{B}$$ rows of $$\Sigma_{2} X$$ and the rightmost $$m - r_{A}$$ columns of $$Y \Sigma_{1}$$ vanish identically, so a cell in their overlap yields the trivial equation $$0 = 0$$, while every other cell yields one non-trivial constraint.
 
-![diagram](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-slt-figure-9c884654.png)
+![diagram](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/iliad-singular-learning-theory-tikz-45c62fdf9024-1e1293e1.png)
 
 Concretely: the equation for cell $$(i, j)$$ is trivial if and only if $$\sigma_{i} = \tau_{j} = 0$$, that is, $$i > r_{B}$$ and $$j > r_{A}$$, leaving both entries free (two degrees of freedom); there are $$(m - r_{B})(m - r_{A})$$ such cells. Every other cell imposes one non-trivial linear constraint on $$(X_{ij}, Y_{ij})$$, leaving one degree of freedom; there are $$m^{2} - (m - r_{A})(m - r_{B})$$ such cells. The dimensionality of the space of degenerate directions is therefore
 

@@ -8,8 +8,12 @@ authors:
   - Matthew Farrugia-Roberts (University of Oxford)
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/singular-learning-theory/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "singular-learning-theory#22-degeneracy-and-continuous-symmetries"
+upstream_fingerprint: "3olwF33M8zpK/1584/1/02Hr0P3n0S4C184H1NE21Q2F1ULg1aKZ1dJg1evK25IG2Kgm2LWG2SwD2cpd2nQa2o0X2skn33iH35W83Hz93JGF3W7B3WB23ar03wmV40Q849ee4AQz4Awy4Bpb4EM0"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/singular-learning-theory/#22-degeneracy-and-continuous-symmetries"
 ---
 
 #### Text

@@ -8,8 +8,12 @@ authors:
   - Matthew Farrugia-Roberts (University of Oxford)
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/singular-learning-theory/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "singular-learning-theory#25-degeneracy-and-the-loss-landscape"
+upstream_fingerprint: "qO8E4UYdQL5xDLJ/2814/1/00ur0KVj0MJf0Sth0VMY0bi00d7r0g9X0i4Z0oCx0qzg0t5t0t9n0tO70u9I0vWb0wpb0xom0yQa0zXJ10tY1B3d1FrS1M5n1MKI1T2m1ha51vck1wMi1wfZ1xjy24Eq"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/singular-learning-theory/#25-degeneracy-and-the-loss-landscape"
 ---
 
 #### Text

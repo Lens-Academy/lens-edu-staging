@@ -8,8 +8,12 @@ authors:
   - Matthew Farrugia-Roberts (University of Oxford)
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/singular-learning-theory/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "singular-learning-theory#1-preliminaries"
+upstream_fingerprint: "A5fFBrLYkdWMjMz/2080/1/0BJc0Hwx0IuF0MNP0NVa0R760WUG0X5a0ZuH0b7X0fZq0qn30rb20udG0up11Cxx1D4m1Dr11EBS1Ix91JTa1OuX1Rlu1T3O1Y2i1Ylm1aea1cI61df01vAJ1xjy24ZH"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/singular-learning-theory/#1-preliminaries"
 ---
 
 #### Text

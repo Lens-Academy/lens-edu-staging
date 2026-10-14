@@ -8,8 +8,12 @@ authors:
   - Matthew Farrugia-Roberts (University of Oxford)
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/singular-learning-theory/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "singular-learning-theory#32-perspectives-on-the-local-learning-coefficient"
+upstream_fingerprint: "POGwd5nCuielPw2/1807/1/00ur0BVs0Hzw0Iix0P3n0PPl0SNO0Ut10lQO0nBU0sHR0zAv11eR1Cxx1Nmk1VS21Vam1eNT1j7J1rJt1y0R21lN23Jt24ZH24aX2E5V2HTN2Hqf2Ngd2O8X2Osz2WEs"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/singular-learning-theory/#32-perspectives-on-the-local-learning-coefficient"
 ---
 
 #### Text

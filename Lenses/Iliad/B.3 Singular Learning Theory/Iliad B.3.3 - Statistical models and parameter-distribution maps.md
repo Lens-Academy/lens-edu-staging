@@ -8,8 +8,12 @@ authors:
   - Matthew Farrugia-Roberts (University of Oxford)
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/singular-learning-theory/
-upstream_commit: '46ea03c036a05c7687d702d509037521e19f3b0c'
-provenance_recorded_at: '2026-10-08'
+upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_key: "singular-learning-theory#13-statistical-models-and-parameterdistribution-maps"
+upstream_fingerprint: "sRFVEwjdBKqy/1474/1/000J0A0q0Lne0Myz0S5g0af00b7X0i4Z0jbV0lQO0mnN0oCx0qn30u9I105b184H1C9v1CNe1Cxx1MAL1VID1Vmw1YUk1YdF1abg1hHa1ha522Gi268t26WZ27mC2Gln"
+synced_from:
+  source: "iliad"
+  url: "https://iliad-intensive.org/learning/singular-learning-theory/#13-statistical-models-and-parameterdistribution-maps"
 ---
 
 #### Text
@@ -44,7 +48,7 @@ As the following exercises explore, performing statistical inference according t
 **(c)** Show that if $$L_{n}$$ is the mean squared error loss function from (9), then
 
 $$
-{\operatorname*{arg\,max}}_{w \in {\mathcal{W}}}p(Y_{n} \mid X_{n}, w) = {\operatorname*{arg\,min}}_{w \in {\mathcal{W}}}L_{n}(w) .
+\operatorname*{arg\,max}_{w \in {\mathcal{W}}}p(Y_{n} \mid X_{n}, w) = \operatorname*{arg\,min}_{w \in {\mathcal{W}}}L_{n}(w) .
 $$
 :::
 
@@ -71,7 +75,7 @@ $$
 The right-hand side is a strictly increasing affine function of $$L_{n}(w)$$ (with positive coefficient $$n/2$$), and the additive constant $$\frac{nm}{2}\log(2\pi)$$ is independent of $$w$$. Therefore,
 
 $$
-{\operatorname*{arg\,max}}_{w\in{\mathcal{W}}}p(Y_{n} \mid X_{n}, w) = {\operatorname*{arg\,min}}_{w\in{\mathcal{W}}}\left(-\log p(Y_{n} \mid X_{n}, w)\right) = {\operatorname*{arg\,min}}_{w\in{\mathcal{W}}}L_{n}(w).
+\operatorname*{arg\,max}_{w\in{\mathcal{W}}}p(Y_{n} \mid X_{n}, w) = \operatorname*{arg\,min}_{w\in{\mathcal{W}}}\left(-\log p(Y_{n} \mid X_{n}, w)\right) = \operatorname*{arg\,min}_{w\in{\mathcal{W}}}L_{n}(w).
 $$
 
 :::
@@ -96,7 +100,7 @@ $$
 **(c)** Using (12), show that if the per-example loss function for the optimisation problem is cross entropy loss (6), then
 
 $$
-{\operatorname*{arg\,max}}_{w \in {\mathcal{W}}}p(C_{n} \mid X_{n}, w) = {\operatorname*{arg\,min}}_{w \in {\mathcal{W}}}L_{n}(w) .
+\operatorname*{arg\,max}_{w \in {\mathcal{W}}}p(C_{n} \mid X_{n}, w) = \operatorname*{arg\,min}_{w \in {\mathcal{W}}}L_{n}(w) .
 $$
 :::
 
@@ -129,7 +133,7 @@ $$
 Since the negative log-likelihood is $$n \cdot L_{n}(w)$$, a positive multiple of the empirical loss, we conclude
 
 $$
-{\operatorname*{arg\,max}}_{w\in{\mathcal{W}}}p(C_{n} \mid X_{n}, w) = {\operatorname*{arg\,min}}_{w\in{\mathcal{W}}}L_{n}(w).
+\operatorname*{arg\,max}_{w\in{\mathcal{W}}}p(C_{n} \mid X_{n}, w) = \operatorname*{arg\,min}_{w\in{\mathcal{W}}}L_{n}(w).
 $$
 
 :::
@@ -152,7 +156,7 @@ $$
 **(b)** Now suppose the loss function takes the form $$L_{x,y}(w) = \ell(f_{w}(x) - y)$$ for some integrable function $$\ell : {\mathbb{R}}^{m} \to {\mathbb{R}}$$. Show that $$Z(x, w)$$ is independent of $$w$$, and conclude that
 
 $$
-{\operatorname*{arg\,max}}_{w \in {\mathcal{W}}}p(Y_{n} \mid X_{n}, w) = {\operatorname*{arg\,min}}_{w \in {\mathcal{W}}}L_{n}(w) .
+\operatorname*{arg\,max}_{w \in {\mathcal{W}}}p(Y_{n} \mid X_{n}, w) = \operatorname*{arg\,min}_{w \in {\mathcal{W}}}L_{n}(w) .
 $$
 :::
 
@@ -185,13 +189,13 @@ $$
 where $$C = n \log \int_{{\mathbb{R}}^m}\exp(-\ell(u))\,du$$ is independent of $$w$$. Since the negative log-likelihood is an affine function of $$L_{n}(w)$$ with positive coefficient,
 
 $$
-{\operatorname*{arg\,max}}_{w\in{\mathcal{W}}}p(Y_{n} \mid X_{n}, w) = {\operatorname*{arg\,min}}_{w\in{\mathcal{W}}}L_{n}(w).
+\operatorname*{arg\,max}_{w\in{\mathcal{W}}}p(Y_{n} \mid X_{n}, w) = \operatorname*{arg\,min}_{w\in{\mathcal{W}}}L_{n}(w).
 $$
 
 :::
 
 :::callout {title="Note" tone="blue"}
 
-**Remark (Negative log-likelihood loss).** Exercises 1.3, 1.4 and 1.5 nominally show that some maximum likelihood estimation problems have the same sets of ideal solutions as some carefully-chosen optimisation problems ($${\operatorname*{arg\,min}} = {\operatorname*{arg\,max}}$$). In general, that the global optima for two optimisation problems coincide is insufficient to show that practical optimisation methods will always find the same solutions: practical optimisation methods don't always find global optima. However, in the above cases, your derivation likely reveals a stronger result: the optimisation landscapes for the function approximation problem are related to the optimisation landscape for the maximum likelihood estimation problem by a strictly monotonically decreasing transform (an affine transform of a logarithm).
+**Remark (Negative log-likelihood loss).** Exercises 1.3, 1.4 and 1.5 nominally show that some maximum likelihood estimation problems have the same sets of ideal solutions as some carefully-chosen optimisation problems ($$\operatorname*{arg\,min} = \operatorname*{arg\,max}$$). In general, that the global optima for two optimisation problems coincide is insufficient to show that practical optimisation methods will always find the same solutions: practical optimisation methods don't always find global optima. However, in the above cases, your derivation likely reveals a stronger result: the optimisation landscapes for the function approximation problem are related to the optimisation landscape for the maximum likelihood estimation problem by a strictly monotonically decreasing transform (an affine transform of a logarithm).
 
 :::
