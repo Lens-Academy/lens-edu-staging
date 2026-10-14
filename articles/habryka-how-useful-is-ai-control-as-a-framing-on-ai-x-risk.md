@@ -957,6 +957,8 @@ So, we can dive into the technical side (what we've called [few-shot catastrophe
 
 The less insane scenario where people continue anyways might look like taking a step back and trying to get a good scientific understanding of scheming and then proceeding only when you have pretty credible approaches for avoid this (though this might be really hard and it's unclear how much one example helps you here).
 
+---
+
 Paul seems pretty optimistic about using a single example where we catch a schemer to greatly help build credible countermeasures, but I'm considerably more skeptical here. I think the story would be more like "you motivate a serious societal response and then some thing good happens via misc science progress (e.g. model organisms work)".
 
 It's hard for me to talk about what this scientific progress would look like, much easier to talk about specific few-shot catastrophe prevention techniques like coup probes (which likely don't particularly involve removing scheming).
