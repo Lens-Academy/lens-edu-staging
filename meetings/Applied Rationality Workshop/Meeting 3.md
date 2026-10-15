@@ -20,8 +20,9 @@ source:: [[../shared/Session Doc - How today works]]
 Go around your group:
 
 1. How was this unit? Did you finish it? If you didn't, what got in the way?
-2. At the end of the last unit you planned one small experiment in your own life. In a sentence or two: what did you try, and what happened on the problem it was meant to help? "It didn't happen, and here's the moment it slipped" is a full answer.
-3. If it slipped, the others guess: did the plan not come to mind at that moment, or did it come to mind and you didn't want to do it?
+2. Share as much as you like of the experiment you planned at the end of the last unit: what did you try? Passing is fine.
+3. What happened on the problem it was meant to help? "It didn't happen, and here's the moment it slipped" is a full answer.
+4. If it slipped, the others guess first: did the plan not come to mind at that moment, or did it come to mind and you didn't want to do it? Then the owner says which.
 
 
 | Names | Your experiment + what happened |
@@ -82,16 +83,17 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Aversion factoring splits something you avoid into parts. You may mind only one or two of them. The handbook splits running like this:
+Aversion factoring splits something you avoid into parts. You may mind only one or two. The handbook's running example:
 - shoes and clothes: fine
 - aching knees: very bad
 - wind in your face: great
 - people watching: bad
 
-1. Anyone who wants names something they avoid but think is worth doing. Pick one. No takers? Use flossing.
-2. Split it into five or more parts, including tiny snags ("the floss is in a drawer I never open"). Its owner gives each part a short verdict.
-3. For the worst part, each person votes: fix the situation, change the reaction, or keep the aversion because it protects against a real cost? Discuss disagreements.
-4. If you voted to fix it: what does the fix cost in money, time, attention or awkwardness? Is that a good deal?
+2. Split it into five or more parts, including tiny snags (the floss sits in a drawer). Its owner gives each part a short verdict.
+3. For the worst part, everyone votes: fix the situation, change the reaction, or keep the aversion because it protects against a real cost?
+4. Take the most popular option. What would it cost in money, time, attention or awkwardness?
+
+If you still have time: is that a good deal, or is keeping the aversion cheaper?
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
@@ -287,7 +289,7 @@ No group? You can do this meeting on your own in 45 to 60 minutes, with [Lens Tu
 
 ### 1. Check-in (5 minutes, no tutor)
 
-Write two or three sentences for yourself: what you tried in the experiment from the last unit, and what happened on the problem it was meant to help.
+Write two or three sentences for yourself: what you tried in the experiment from the last unit, and what happened on the problem it was meant to help. If it slipped, did the plan not come to mind, or did it come to mind and you didn't want to do it? Write one change you will make.
 
 ### 2. What is it for? (15 to 20 minutes)
 
@@ -299,7 +301,7 @@ Pick something you do, or are deciding about, that costs you a lot. Use a differ
 
 Pick something you avoid but think is worth doing, again a different bug from the one in the lens. Paste this into Lens Tutor:
 
-> Be my partner for aversion factoring, the CFAR technique. Ask me one question at a time and do not lecture. First ask what I avoid and what appeals to me about it. Then help me split the aversion into specific parts, each with a one-word verdict, including tiny practical snags. Check whether I have found everything. For the worst part, ask me whether to fix the situation, change my reaction, or keep the aversion because it protects me from a real cost. Then ask what the fix costs in money, time, attention or awkwardness, and whether that is a good deal.
+> Be my partner for aversion factoring, the CFAR technique. Do not solve my problem. Ask me one question at a time and do not lecture. If it turns out to be a strong fear, suggest I switch to a smaller problem instead of trying exposure. First ask what I avoid and what appeals to me about it. Then help me split the aversion into specific parts, each with a one-word verdict, including tiny practical snags. Check whether I have found everything. For the worst part, ask me whether to fix the situation, change my reaction, or keep the aversion because it protects me from a real cost. Then ask what the fix costs in money, time, attention or awkwardness, and whether that is a good deal.
 
 ### 4. Stress-test your experiment (10 minutes)
 
