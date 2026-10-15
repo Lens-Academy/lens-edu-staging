@@ -13,7 +13,7 @@ tags:
 content::
 Goal factoring is for when you are not sure an action is worth what it costs. Aversion factoring is for the opposite case: you have thought it through, you believe something is worth doing, and you still don't do it. Maybe you have meant to email a researcher whose work you admire for two months. Maybe you keep not opening the paper everyone in your field cites. Asked why, you say "I just don't feel like it."
 
-The technique splits that feeling into the specific experiences behind it, so you can deal with each one separately, and decide which ones are worth dealing with at all. Like goal factoring, the handbook rates it "anecdotally strong".
+The technique splits that feeling into the specific experiences behind it, so you can deal with each one separately, and decide which ones are worth dealing with at all.
 
 #### Article
 source:: [[../articles/cfar-duncan-aversion-factoring]]
