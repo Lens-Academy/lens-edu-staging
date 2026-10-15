@@ -13,7 +13,7 @@ tags:
 content::
 Goal factoring and aversion factoring both take something that looks like one thing and split it into parts. Units of Exchange is the general idea under both. Everything you do costs and earns several currencies at once: time, money, attention, energy, sleep, goodwill, the sense that you are doing what matters. And you trade them at rates you never chose on purpose. Someone may spend two extra hours on a train journey to save €5, then spend a whole evening choosing which of two talks to watch.
 
-CFAR often taught this as the first class of a workshop, as groundwork.[^cite-cfar-units] We put it after the two factoring techniques, so that you have used the idea before you read the general version. The handbook rates it "established and confirmed": it applies standard economics, such as supply and demand, value of information and arbitrage.
+CFAR often taught this as the first class of a workshop, as groundwork.[^cite-cfar-units] We put it after the two factoring techniques, so that you have used the idea before you read the general version. The handbook rates it "established and confirmed": it applies standard ideas from economics and sociology, such as supply and demand, value of information and arbitrage.
 
 [^cite-cfar-units]: CFAR!Duncan (2022), *Units of Exchange*. [LessWrong](https://www.lesswrong.com/posts/cvDtmPNCyrkpg4d4F/units-of-exchange)
 
@@ -30,7 +30,7 @@ force-feedback:: first
 assessment-instructions:: The question applies "relevant value, relevant cost" and "beware repeated costs" to a new case: a colleague manages citations by hand in a Word file to avoid paying €8 a month (about €96 a year) for a reference manager.
 
 Score out of 100.
-- 60: Asks about the repeated cost of the free option: how often the colleague handles citations and how much time or effort each time takes by hand, added up over months or years, and compared with the €8 a month. Give 30 if it mentions time cost without the idea that it repeats and adds up.
+- 60: Asks how much time or effort keeping citations by hand costs the colleague (how often, how long each time), set against the €8 a month. Full 60 for this. The strongest answers add it up over months or a year, but that is not required. Give 20 if the answer asks only about the paid tool (its features, price or learning curve) and not about what the Word file costs.
 - 40: Names at least one cost of the Word file other than time and money, as the question asks: frustration, attention and interruptions, errors in reference lists, stress near deadlines, or similar. Give 20 if the answer only gestures at "other costs" without naming one.
 
 The answer does not need to conclude that the colleague should buy the tool. An answer that says the Word file could still be the better deal, for example for someone who rarely cites, can get full marks if it asks the questions above.

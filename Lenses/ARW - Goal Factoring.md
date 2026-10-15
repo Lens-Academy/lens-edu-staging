@@ -1,7 +1,7 @@
 ---
 id: '69da9a42-a258-43e8-95d5-518c1c2d67d7'
 title: Goal Factoring
-tldr: "When a choice looks like A or B, ask what each option is for. Often a third plan gets you all of it."
+tldr: "When a choice looks like A or B, ask what each option is for. Sometimes a third plan gets you all of it."
 summary_for_tutor: "Goal Factoring class of week 3 (Motivation) of the Applied Rationality Workshop course, built on the CFAR Handbook post. The learner reads the parable of the orange, the case study of Val factoring his grading into subgoals (with the button test), and the five-step algorithm: choose an action, prepare to accept all worlds, factor the action into goals (including social and self-image goals, being X versus appearing X), brainstorm replacements one goal at a time and combine them, reality check. One graded practice question checks why hesitation in a button test is useful. Then the learner picks a bug from their own bugs list and goal factors it with the tutor as a pair-debugging partner, and writes down the result."
 reading_minutes: 12
 tutor_minutes: 33
