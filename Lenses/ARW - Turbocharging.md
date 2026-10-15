@@ -86,5 +86,5 @@ When they have one concrete change, summarise it back in one or two sentences an
 
 #### Question: Open
 id:: ed0a2fa7-95d7-45d9-a4dd-837ceceb665d
-content:: The handbook suggests finding a "five-second version" of each technique: a tiny form you can use in daily life without sitting down to do the full algorithm. In one or two sentences, what is your five-second version of Turbocharging?
+content:: The handbook's flash class Five-Second Versions suggests finding a "five-second version" of each technique: a tiny form you can use in daily life without sitting down to do the full algorithm. In one or two sentences, what is your five-second version of Turbocharging?
 feedback-instructions:: The learner has just applied the Turbocharging algorithm to their own skill and has written a "five-second version": a tiny everyday form of the technique. Reply in 1 to 3 sentences. If their version keeps the core of Turbocharging (checking what a practice session will actually train, or how close the practice is to the real moment), say what it keeps, plainly. If it has lost that core (for example, "practise more"), name what is missing in one sentence. No generic praise. One turn only, do not ask a question.
