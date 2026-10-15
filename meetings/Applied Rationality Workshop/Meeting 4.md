@@ -114,8 +114,8 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-1\. Each person says their experiment for this unit, with the day and the time they will run it. If you have no time yet, pick one now and put it in your calendar.
-2\. The others each ask one question that would make the plan more concrete: where, what will you watch for, what will you do right afterwards?
+1\. Each person says their comfort zone experiment, with the day and the time they will run it. If you have no time yet, pick one now and put it in your calendar.
+2\. The others each ask one question that would make the plan more concrete: where exactly, who will you tell, what will you do right afterwards?
 3\. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
 
 
