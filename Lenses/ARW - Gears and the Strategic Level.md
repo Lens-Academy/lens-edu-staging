@@ -9,7 +9,7 @@ tags: [wip]
 ---
 #### Text
 content::
-This post holds three flash classes. You met Deliberate Performance in the final review of week 6. The Strategic Level describes a short exercise you can do on any mistake.
+This post holds three flash classes. You met Deliberate Performance in the final review of week 6, so you can skip that part if you remember it. The Strategic Level describes a short exercise you can do on any mistake.
 
 #### Article
 source:: [[../articles/cfar-duncan-gears-level-understanding-deliberate-performance-the-strategic-level]]
