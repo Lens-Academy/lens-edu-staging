@@ -11,9 +11,11 @@ tags:
 ---
 #### Text
 content::
-Goal factoring and aversion factoring both take something that looks like one thing and split it into parts. Units of Exchange is the general idea under both. Everything you do costs and earns several currencies at once: time, money, attention, energy, sleep, goodwill, the sense that you are doing what matters. And you trade them at rates you never chose on purpose. Someone may refuse to pay for a tool that would save them an hour a week, then lose a whole evening choosing which of two talks to watch.
+Goal factoring and aversion factoring both take something that looks like one thing and split it into parts. Units of Exchange is the general idea under both. Everything you do costs and earns several currencies at once: time, money, attention, energy, sleep, goodwill, the sense that you are doing what matters. And you trade them at rates you never chose on purpose. Someone may spend two extra hours on a train journey to save €5, then spend a whole evening choosing which of two talks to watch.
 
-CFAR often taught this as the first class of a workshop, as groundwork. We put it after the two factoring techniques, so that you have used the idea before you read the general version. The handbook rates it "established and confirmed": it applies standard economics, such as supply and demand, value of information and arbitrage.
+CFAR often taught this as the first class of a workshop, as groundwork.[^cite-cfar-units] We put it after the two factoring techniques, so that you have used the idea before you read the general version. The handbook rates it "established and confirmed": it applies standard economics, such as supply and demand, value of information and arbitrage.
+
+[^cite-cfar-units]: CFAR!Duncan (2022), *Units of Exchange*. [LessWrong](https://www.lesswrong.com/posts/cvDtmPNCyrkpg4d4F/units-of-exchange)
 
 #### Article
 source:: [[../articles/cfar-duncan-units-of-exchange]]

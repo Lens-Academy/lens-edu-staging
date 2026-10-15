@@ -53,7 +53,7 @@ Here is your bugs list from week 1:
 
 ::answer{id="2b1b06a5-3a8d-46c2-8867-f2a16feeb010" fallback="You haven't written a bugs list yet. You can write one in the week 1 module, or keep a list of problems you notice in a note and use that."}
 
-Click the list to open the question, then "Go to question", and answer it again with your updated list:
+Click your list, choose "Go to question", and submit the updated version with "Answer again":
 - Cross off bugs that are solved, or no longer matter to you.
 - Add new bugs you noticed this week, including any motivation problem from the chat above.
 - Rewrite vague bugs as specific ones. "I procrastinate" becomes "I haven't opened the fellowship application in three weeks."
