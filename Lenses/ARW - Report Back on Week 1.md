@@ -1,6 +1,6 @@
 ---
 id: '31a4016a-6b7f-4fe3-bb18-efc91fbc408a'
-title: "Report back: your first experiment"
+title: "Report back on week 1"
 tldr: "Before any new technique: what did you try since the last meeting, what actually happened, and what does your bugs list look like now?"
 summary_for_tutor: "Opening lens of week 2 of a CFAR-style applied rationality workshop. The learner sees the experiment they planned at the end of week 1 (a real-life try of Murphyjitsu, the bugs list or the Hamming question), writes what actually happened, debugs the experiment with the tutor, then updates their bugs list. The course judges techniques by whether they changed anything on a real problem, not by whether the learner liked them."
 reading_minutes: 3
