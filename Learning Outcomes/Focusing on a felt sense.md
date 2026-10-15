@@ -23,7 +23,7 @@ Score out of 100.
 
 20: Says that his attention has split across several feelings or topics at once (throat, stomach, rent, exams, work), where Focusing stays with one at a time and lets the others wait.
 
-15: Says that he is rushing ("get through this quickly"), where Focusing needs time and patience, or that he is treating it as a quick fix.
+15: Says that he is rushing ("get through this quickly"), where Focusing needs time and patience.
 
 35: The next prompt brings him back to one felt sense (the throat tightness, or whichever one he picks) and invites him to describe it or to check whether his words fit it, without supplying an interpretation of what it means. Also give 35 for a prompt that first makes space because "it's all piling up" (for example, setting the other feelings aside for later, or asking how he feels about all of it piling up) and then returns to one feeling. Asking what the feeling is like and whether a word fits it together is fine. Give 20 if the prompt returns to the body but offers the friend's own interpretation, or stacks questions about several topics at once (for example the throat, the rent and the exams together), or if no reason is given. Give 0 if the prompt endorses his explanation and fix.
 
