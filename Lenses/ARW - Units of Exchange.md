@@ -30,7 +30,7 @@ force-feedback:: first
 assessment-instructions:: The question applies "relevant value, relevant cost" and "beware repeated costs" to a new case: a colleague manages citations by hand in a Word file to avoid paying €8 a month (about €96 a year) for a reference manager.
 
 Score out of 100.
-- 60: Asks how much time or effort keeping citations by hand costs the colleague (how often, how long each time), set against the €8 a month. Full 60 for this. The strongest answers add it up over months or a year, but that is not required. Give 20 if the answer asks only about the paid tool (its features, price or learning curve) and not about what the Word file costs.
+- 60: Asks how much time or effort keeping citations by hand costs the colleague (how often, how long each time), set against the €8 a month. Full 60 for this. Give 20 if the answer asks only about the paid tool (its features, price or learning curve) and not about what the Word file costs.
 - 40: Names at least one cost of the Word file other than time and money, as the question asks: frustration, attention and interruptions, errors in reference lists, stress near deadlines, or similar. Give 20 if the answer only gestures at "other costs" without naming one.
 
 The answer does not need to conclude that the colleague should buy the tool. An answer that says the Word file could still be the better deal, for example for someone who rarely cites, can get full marks if it asks the questions above.
