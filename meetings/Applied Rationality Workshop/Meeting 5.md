@@ -19,6 +19,7 @@ source:: [[../shared/Session Doc - How today works]]
 Go around your group. Share only what you want to. "I'd rather pass" is a full answer.
 1\. How was this unit? Did you finish it? If you didn't, what got in the way?
 2\. The experiment you reported on at the start of this unit (for most of you a comfort zone experiment): in one sentence, what did you try?
+3\. Did it change anything on a real problem?
 4\. If you still have time: compare. Which of your hesitations turned out to be protecting you, and which were out of date?
 
 
@@ -84,6 +85,7 @@ Pick a shared example, not your own:
 - "I should reply to that email today" vs. putting it off
 - "I should go to the gym" vs. staying on the couch
 
+1\. Two people voice one side each, with a name that side would choose (the labels above take sides). One moderates. A fourth person watches for a side simply winning.
 2\. Run six turns in total. Turn one: one thing the other side is missing. Every later turn: first one true thing in the last point, then one new point. The moderator stops rule breaks.
 3\. If one side gave in: was its concern answered, or overruled?
 4\. If you still have time: swap roles and rerun, other side first. Does the same side win?
