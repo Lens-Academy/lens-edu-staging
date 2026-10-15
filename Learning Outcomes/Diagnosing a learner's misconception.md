@@ -27,6 +27,7 @@ Score out of 100.
 35: A curious question tied to the chosen guess. It asks about her experience or process (for example "Walk me through what you did with the last paper, from when you opened it", "What do you do when you hit an equation you don't understand?", "When you looked at the figures, what were you looking for?"), so that her answer would show whether the guess is right, and it does not point out the error or tell her what to do. 35 for such a question. 15 if the question is leading or corrective ("Did you try skipping the equations?", "You know you don't have to read every line, right?"), or does not bear on the chosen guess.
 
 30: A change to the explanation for future beginners that follows from the confirmed guess, for example saying explicitly that the first pass skips equations and unknown terms, giving the reader one question to answer before they start, describing what to look for in a figure, or separating a quick first pass from a slow study pass as two different activities. 30 if the change addresses the confirmed misunderstanding, 10 if it is generic ("explain it more clearly", "give more examples") or does not follow from the guess.
+
 Grade the question and the change against the guess the learner chose, even if that guess earned few points above. If the learner does not say which guess they chose, accept a question that tests either of them.
 
 Cap the score at 30 if the answer mainly re-explains the method to Priya or tells her what to do, with no guesses about her thinking.
