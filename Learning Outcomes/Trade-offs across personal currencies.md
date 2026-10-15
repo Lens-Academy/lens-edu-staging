@@ -13,8 +13,8 @@ content::
 Priya works full time and runs a small AI safety reading group as a volunteer. She wants four more hours a week for her own research. Her week includes:
 
 - Booking the room, sending reminders and collecting replies by hand: about 2 hours.
-- Reading each week's paper twice before the session, so she is ready for any question: about 3 hours. Members say her notes from the first read are already the most useful part of the session.
-- The bus to the venue: 50 minutes each way. A taxi takes 20 minutes and costs about €15 each way. She calls taxis "a waste of money".
+- Reading each week's paper twice before the session, so she is ready for any question: about 3 hours. She writes her notes for the group on the first read and tidies them on the second.
+- The bus to the venue, once a week: 50 minutes each way. A taxi takes 20 minutes and costs about €15 each way. She calls taxis "a waste of money".
 - Dinner with her partner every evening, phones away: about an hour a day.
 
 Which changes would you suggest to free those four hours? For each change, say what Priya gives up and what she gets, in every currency that matters, not only hours and euros.
