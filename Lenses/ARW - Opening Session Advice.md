@@ -12,6 +12,7 @@ content::
 \## Advice from earlier workshops
 
 At the start of each workshop, CFAR gave four or five tips, often framed as what earlier participants wished they had been told at the start.[^cite-opening-2022] They were written for four days in person, so where they say "the workshop" or "this weekend", read "these six weeks". Some tips are followed by a short question about you.
+
 [^cite-opening-2022]: CFAR!Duncan (2022), *Opening Session Tips & Advice*. [LessWrong](https://www.lesswrong.com/posts/gKeHcikcXA3bApyoM/opening-session-tips-and-advice)
 
 #### Article

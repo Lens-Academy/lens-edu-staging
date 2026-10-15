@@ -71,13 +71,12 @@ id:: 2e51bbdd-1720-44e0-a951-5d01385c1937
 content:: Write what the domain pauses brought up. One per line. It helps to put the domain in front, like "Sleep: ..." or "Work: ...".
 feedback-instructions:: The learner is adding to their bugs list after CFAR's Prompt 4, a slow pause for each of eighteen life domains (work, learning, family, money, exercise, food, sleep, scheduling, hobbies, friends, romance, communication, social interaction, emotions, boundaries, plus what they work on, learning a field, and working with others). Ungraded brainstorming. Reply in under 50 words, one reply. Do not list domains they skipped, do not suggest bugs, and do not comment on personal items. No praise. Tell them one prompt is left.
 
-The last prompt can bring up heavy things. Write only what you are willing to write. A few words of shorthand are enough, and you can leave things off the list entirely.
-#### Article
-from:: **Prompt 5:**
-
 #### Text
 content::
-This last prompt can bring up heavy things. Write only what you are willing to write. A few words of shorthand are enough, and you can leave things off the list entirely.
+The last prompt can bring up heavy things. Write only what you are willing to write. A few words of shorthand are enough, and you can leave things off the list entirely.
+
+#### Article
+from:: **Prompt 5:**
 
 #### Question: Open
 id:: c4a43e53-8708-4506-b9ef-c250bdc7c73c

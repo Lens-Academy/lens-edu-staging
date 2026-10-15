@@ -254,7 +254,6 @@ style:: plain
 
 ### Module: Getting things done
 
-Bug: Anything in your life that doesn't work the way you would like, or could be better. The course's bugs list collects them, and each technique is practised on one of them.
 Trigger-action pattern: An automatic "if this happens, I do that" link, like reaching for your phone when it buzzes. The CFAR Handbook says much of what people do runs on chains of them, mostly without deciding.
 Moment of departure: The point where the path toward a good outcome and the path toward a bad one split. The handbook says catching it early takes much less effort than recovering later.
 Trigger-action plan (TAP): A deliberate if-then you install: a concrete, noticeable trigger, then a small action. You rehearse it in imagination ten times to make it stick.
