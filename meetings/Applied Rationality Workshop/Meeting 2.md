@@ -49,7 +49,7 @@ Take turns as bug owner, about 5 minutes each. A bug is something in your life t
 1. The owner names a bug that happens in a moment that comes back, like "I open my laptop to write and end up on Slack."
 2. The others ask about the last time, moment by moment, until you find where it went off track.
 3. The owner builds a trigger-action plan for that point: "When (something I'd clearly notice), I (one small step)." Then swap.
-4. If you still have time: imagine one owner's plan has changed nothing after two weeks. Likeliest reason: they never noticed the moment, they skipped the step, or the step didn't help?
+4. If you still have time: a plan changed nothing in two weeks. Likeliest reason: the owner never noticed the moment, skipped the step, or the step didn't help?
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
@@ -77,13 +77,13 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-A resolve cycle is a five-minute timer during which you try to actually solve a problem, not plan it: send the email, book the call, order the thing. Odd or "too easy" solutions count.
+A resolve cycle: a five-minute timer in which you try to actually solve a problem, not plan it (send the email, book the call, order the thing). Odd or "too easy" solutions count.
 
 Each of you: name, in one sentence, a problem you have put off for weeks. Small is fine, and you can pass.
 
 1. Start a five-minute timer. Everyone works on their own problem, for real. Mics off.
 2. Go around: what did you actually do? The others say whether it was an attempt or a plan.
-3. Anyone still stuck: the group lists next steps for them that take five minutes or less. The owner chooses one.
+3. Anyone still stuck: the group lists next steps of five minutes or less for them. The owner chooses one.
 4. If you still have time: the owner starts that step before the room ends.
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
@@ -111,9 +111,9 @@ One or two people share what their group landed on.
 
 One person at a time:
 
-1. Share your experiment for the next unit: one technique from this unit (a trigger-action plan, a resolve cycle, or a system) on one bug. Use the one you planned at the end of the unit, or pick one now.
-2. The others imagine it is the next meeting and the experiment never happened. Each gives one likely reason why.
-3. Pick the reason that worries you most, and change one thing so it can't happen: a clearer trigger, a smaller step, or a change to your surroundings you make right now (a calendar entry, a reminder, moving an object).
+1. Share your next experiment: one technique from this unit (a trigger-action plan, a resolve cycle, or a system) on one bug. Use the one you planned, or pick one now.
+2. The others imagine the next meeting has come and it never happened. Each gives one likely reason.
+3. Pick the reason that worries you most and change one thing so it can't happen: a clearer trigger, a smaller step, or a change to your surroundings made right now (a calendar entry, moving an object).
 4. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
 
 
