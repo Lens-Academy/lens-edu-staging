@@ -1,7 +1,7 @@
 ---
 id: 'c5855f0f-638d-4042-b205-1151c1322410'
 learning-outcome: "Given someone who avoids an activity they believe is worth doing, the learner can help them aversion factor it: turn a vague dislike into specific parts, check the list for completeness, match external parts with concrete fixes and internal reactions with recalibration, and treat parts that track a real cost as information rather than something to push through."
-writing_minutes: 15
+writing_minutes: 20
 tags:
   - wip
 ---
@@ -35,10 +35,11 @@ How to react:
 assessment-instructions:: Grade only the learner's messages in this conversation. The learner was asked to help Sam, a PhD student who avoids a fellowship application, with aversion factoring. Sam's hidden parts were: the portal logs out after 30 minutes and once lost an hour of work (practical snag), the one-page research proposal and fear that admired reviewers will find it naive (internal reaction, the biggest part), an awkward reference request to a former supervisor (social), real excitement about the research (yum factor), and an advisor's October paper deadline that a fellowship might endanger (a part that tracks a real cost). Sam reveals parts only when asked relevant questions.
 
 Score out of 100.
-- 25: Gets specifics. Moves Sam from "I just hate applications" to separate concrete parts. 25 if at least two of the hidden parts come out through the learner's questions, 10 if one does.
+- 25: Gets specifics. Moves Sam from "I just hate applications" to separate concrete parts. 25 if at least two of the three aversion parts (portal, proposal, reference) come out through the learner's questions, 10 if one does. The yum factor and the October deadline do not count here.
 - 15: Checks completeness: asks "is that everything?" after finding parts, runs a button test (would fixing this part make you keen?), or walks through the moments of doing the application.
 - 25: Matches fixes to parts. A concrete practical fix for a practical part (for example drafting outside the portal, sending the reference email now), and a recalibration or reframe for an internal reaction (for example rethinking what reviewers expect, a small deliberate exposure such as writing a rough first paragraph). 25 for both kinds matched to the right parts, 12 for only one kind.
-- 25: Checks whether the activity and each aversion are worth overcoming: asks what is appealing about the fellowship or whether applying is worth it, and, if the advisor deadline comes up, treats it as real information to check or plan around rather than something to push through. 12 if the learner asks about appeal or worth but then dismisses a real cost that comes up.
+- 10: Checks motivation: asks what is appealing about the fellowship or why Sam wants it.
+- 15: Checks whether any hesitation tracks a real cost: asks whether applying or doing the fellowship is worth it, or whether part of the reluctance is about something real. If the October deadline comes up, treats it as information to check or plan around rather than something to push through. 5 if the learner asks but then dismisses the deadline.
 - 10: Acts as a partner: mostly asks rather than tells, and does not pressure, lecture or guilt Sam.
 
 Cap the score at 30 if the learner mostly gives encouragement or "just do it" advice without factoring the aversion into parts.
