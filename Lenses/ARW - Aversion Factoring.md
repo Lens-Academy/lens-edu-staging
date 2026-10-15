@@ -37,7 +37,7 @@ assessment-instructions:: Context the grader needs. In the case study, Andrew Cr
 
 Score out of 100.
 - 50 (part 1): The answer says the bad feeling was the only cost. Sticky hands did no real harm and got in the way of nothing Critch cared about, so removing the feeling, rather than the sap, loses nothing. Full credit for any wording of "the feeling itself was the problem, not a real consequence". Give 25 if it only says the hands could not easily be kept clean, without saying the feeling carried no real cost.
-- 50 (part 2): Names a part of the running list and explains that the aversion there tracks a real cost that would remain if the feeling went away, so the cause should be fixed instead. The clearest case is aching shins and knees (a sign of possible injury), and heat (a health risk) also works. Accept another part if the answer argues that the feeling tracks a real cost the runner cares about. Give 20 if it names a suitable part without saying what real cost the feeling tracks.
+- 50 (part 2): Names a part of the running list and explains that the aversion there tracks a real cost that would remain if the feeling went away, so the cause should be fixed instead. The clearest case is aching shins and knees (a sign of possible injury), and heat (a health risk) also works. Another part earns the 50 only if the answer names a concrete cost that would remain once the feeling is gone. Give 20 if the answer names a part but says only that it "matters" or is unpleasant, without a concrete cost that would remain.
 
 Cap the score at 40 if the answer claims any aversion can be removed by exposure or reframing with no downside.
 feedback-instructions:: The learner just read the aversion factoring case study and answered when to change a reaction rather than the situation. You see the score and the grader's reason.
@@ -50,7 +50,7 @@ to:: Address internal factors with recalibration techniques such as exposure the
 
 #### Text
 content::
-A note on "exposure therapy" before you practise. In the case study it means a small, voluntary dose of a mild discomfort that you have already decided you want to lose, like Critch's ten minutes with muddy hands. We don't suggest using it on your own for a fear that disrupts your life. That is work for a therapist, not for a course. The algorithm also mentions internal double crux, a technique for internal conflicts that comes in week 5. You can skip that bullet for now.
+A note on "exposure therapy" before you practise. In the algorithm it means a small, voluntary dose of a mild discomfort that you have already decided you want to lose, like Critch's ten minutes with muddy hands. We don't suggest using it on your own for a fear that disrupts your life. That is work for a therapist, not for a course. The algorithm also mentions internal double crux, a technique for internal conflicts that comes in week 5. You can skip that bullet for now.
 
 \## Practice: aversion factor one of your own bugs
 
