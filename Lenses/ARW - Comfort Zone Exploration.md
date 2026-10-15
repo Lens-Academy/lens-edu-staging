@@ -1,7 +1,7 @@
 ---
 id: '7a620d24-e654-4c04-a5e6-8267de2a78e0'
 title: "Comfort Zone Exploration"
-tldr: "Some of the things you avoid deserve avoiding and some don't, and thinking about it often can't tell you which. Run a small, safe experiment at the edge, pay attention to what happens, and decide afterwards."
+tldr: "Some of the things you avoid deserve avoiding and some don't, and thinking about it sometimes can't tell you which. Run a small, safe experiment at the edge, pay attention to what happens, and decide afterwards."
 summary_for_tutor: "Week 4 of the Applied Rationality Workshop. Teaches the CFAR Handbook's Comfort Zone Exploration (CoZE): a System 1 way to gather data about the gray area of things we feel blocked from but are not sure we should avoid. Chesterton's Fence is what separates CoZE from exposure therapy: the fence may be in the right place, too far out, or too far in, and the experiment is for gathering data, not for removing the fence. Algorithm: 1 choose an experience with a yum factor, 2 prepare to accept all worlds (both futures must feel okay, otherwise stop), 3 devise a small, safe experiment, 4 try it, attending to internal experience and external reality, 5 digest without forcing or overthinking. Worked example: Alex walking into crowds to taste assertiveness. The learner lists candidates with the handbook's search prompts, then designs steps 1 to 3 (and plans 4 and 5) with the tutor. They run it in real life this week, planned on the next page."
 tags: [wip]
 reading_minutes: 20
@@ -50,7 +50,7 @@ And your bugs list from week 1, in case one of your bugs is really a fence:
 
 ::answer{id="2b1b06a5-3a8d-46c2-8867-f2a16feeb010" fallback="You don't have a bugs list yet."}
 
-Pick one item to explore this week. Leave out anything dangerous, illegal or at someone else's expense. CoZE is for the gray area. It is also not a treatment. If a fear disrupts your daily life, we think that is a conversation for a doctor or therapist, not a weekly experiment.
+Pick one item to explore this week. Leave out anything dangerous, illegal or at someone else's expense. CoZE is for the gray area. We also don't see it as a treatment: if a fear disrupts your daily life, we think that is a conversation for a doctor or therapist, not a weekly experiment.
 
 Then work through the first three steps of the algorithm with the tutor, and plan steps 4 and 5. You will run the experiment in real life this week and commit to a time on the next page.
 
