@@ -12,6 +12,7 @@ content::
 \## Teaching as practice
 
 At the group meeting for this unit, everyone teaches one technique from the course to the others in about five minutes, then switches and is taught. CFAR workshops called this the tutoring wheel. One mentor at a February 2017 workshop wrote that it was "a really strong way to help people understand the techniques".[^cite-owen-2017] This page prepares you for it. If you are taking the course alone, the meeting page explains how to do the same with the tutor.
+
 It is also practice for you, not only for the people you teach. We think explaining a technique to someone new is one of the quickest ways to find the parts you only half understand yourself.
 
 Teaching well takes a particular kind of knowledge: not just how a technique works, but how people get it wrong when they first meet it. The handbook calls this pedagogical content knowledge, or PCK.
