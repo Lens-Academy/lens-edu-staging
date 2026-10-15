@@ -2,7 +2,7 @@
 id: '98008eb3-bb4e-4e2b-b3f7-18e1bac7a58e'
 title: "Systemization"
 tldr: "Some problems cost you a little attention again and again. Instead of trying harder each time, change your surroundings once so the problem takes care of itself."
-summary_for_tutor: "Week 2 class on Systemization from the CFAR Handbook. Sequence: recurring small costs of attention, then the handbook's scan of routines, spaces and obligations (the learner does the scan and lists snags), then the aim to free attention rather than do everything, then systemizing as changing the triggers your autopilot meets (the other half of TAPs), then three qualities of a good system (effortless, reliable, invisible) with a graded practice question, then optional extra sections (increasing marginal returns, advice for getting started, meta-systems), then the five-step systemizing algorithm. Main practice: a pair-debugging chat where the learner designs a system for one snag from their scan or bugs list and does its first step during the chat."
+summary_for_tutor: "Week 2 class on Systemization from the CFAR Handbook. Sequence: recurring small costs of attention, then the handbook's scan of routines, spaces and obligations (the learner does the scan and lists snags), then the aim to free attention rather than do everything, then systemizing as changing the triggers your autopilot meets (the other half of TAPs), then three qualities of a good system (effortless, reliable, invisible), which the learner uses to judge how they currently handle one of their own snags, then optional extra sections (increasing marginal returns, advice for getting started, meta-systems), then the five-step systemizing algorithm. Main practice: a pair-debugging chat where the learner designs a system for that snag and does its first step during the chat, then writes the system down."
 reading_minutes: 12
 tutor_minutes: 30
 min_chat_messages: 5
@@ -48,29 +48,13 @@ to:: "and then keep it hidden."
 #### Question: Open
 id:: 2d18d34b-429b-4992-bb1e-d030431b385e
 content::
-Practice on someone else's system first. Sam doesn't want to miss replies from collaborators, so Sam keeps one browser tab open for every email thread that is waiting on an answer, about forty of them, and scans all of them once an hour.
+Pick one snag from your scan that you would like to fix. Small is fine. Most snags already have some way of being handled, even if it is "I just try to remember".
 
-1. How does Sam's system do on each of the three qualities: effortless, reliable, invisible?
+1. Which snag, and how do you handle it now?
 
-2. Sketch a better system for the same goal.
-force-feedback:: first
-assessment-instructions::
-The learner read the CFAR Handbook's section on three qualities of good attention-saving systems:
-- Effortless: no ongoing discipline or repeated decisions. One burst of effort up front, then savings.
-- Reliable: close to foolproof, with dependable reminders and objective checks, so you can stop holding the thing in mind.
-- Invisible: the system's parts stay out of sight until needed, so they don't cost attention or clutter the space where important things should stand out.
-
-The case: Sam keeps about forty browser tabs open, one per email thread waiting on a reply, and scans them all every hour, to avoid missing replies.
-
-Score out of 100:
-- 20: Effortless: says it is not effortless, because the hourly scan is a repeated task that takes attention and discipline.
-- 20: Reliable: says it is not reliable, because a reply can be missed when scanning forty tabs, an hourly scan can be skipped, or tabs get closed or lost. Any one reason is enough.
-- 20: Invisible: says it is not invisible, because forty open tabs are always in view and clutter the screen.
-- 40: The better system serves the same goal (not missing replies) and is clearly better on at least two of the three qualities. Examples: a follow-up label or list with automatic reminders that appear only when a reply is due or arrives, mail rules that put replies from those threads in one place checked at a fixed time, or a "waiting for" list reviewed once a day. 20 if it improves only one quality, or if it is too vague to tell how it would work.
-
-Accept other reasonable judgements on a quality if the learner gives a sound reason. Cap at 40 if the proposed system relies on Sam trying harder or remembering more (for example "scan more carefully").
-Model answer, for the feedback, not a grading checklist: "Not effortless: an hourly scan of forty tabs is a chore that eats attention all day. Not reliable: it's easy to skim past a reply or skip a scan. Not invisible: forty tabs sit on the screen all the time. Better: close the tabs, label each waiting thread 'waiting', and set a filter so any reply to a labelled thread lands in one folder, which Sam checks at 11 and 4."
-feedback-instructions:: The learner just answered a practice question that judges a system by the CFAR Handbook's three qualities (effortless, reliable, invisible) and asks for a better one. In 60 to 120 words, name the strongest part of their answer, then the one thing that would most improve it, if anything. Common gaps: missing one of the three qualities, or a "better" system that still needs Sam to remember or try harder. If the score is 100, confirm it in one or two sentences. No generic praise. If they say they don't understand, give one foothold: ask what Sam has to do every hour, and whether that is effortless. Do not invite further dialogue.
+2. How does your current way do on each quality: is it effortless, reliable, invisible?
+placeholder:: e.g. Reading group: I search my email for the link each Monday. Not effortless (5 minutes of searching), not reliable (I miss it if the thread is buried), invisible enough.
+feedback-instructions:: The learner picked one recurring snag from their own life and judged how they handle it now against the CFAR Handbook's three qualities of a good system: effortless (no ongoing willpower or repeated decisions), reliable (works close to every time, so you can stop holding it in mind), invisible (stays out of sight until needed). Ungraded. Reply in 2 to 4 sentences. If they skipped a quality, ask about it in one short question. If a judgement looks off (for example calling "I just remember" reliable), say so plainly in one sentence. Do not suggest a system: the chat below is where they design one. No praise.
 
 #### Callout: More from the chapter: ideas for getting started, and systems that improve themselves (optional)
 collapse:: closed
@@ -91,35 +75,42 @@ to:: "Keep track of problems and ideas for improvement in some central place whe
 content::
 \## Build one system now
 
-Here is your bugs list, and the snags from your scan:
+Here is the snag you picked, and the rest of your scan:
 
-::answer{id="2b1b06a5-3a8d-46c2-8867-f2a16feeb010" fallback="You don't have a bugs list yet. Your snags from the scan above are enough."}
+::answer{id="2d18d34b-429b-4992-bb1e-d030431b385e" fallback="You haven't picked a snag yet. Scroll up to the question after the three qualities."}
 
 ::answer{id="51a06d21-3031-4692-9f07-a3f99218fa40" fallback="You haven't written your snags yet. Scroll up to the scan and list a few."}
 
-Pick one thing that costs you attention again and again and that you are fairly sure can be improved. A small one is a good first choice: the handbook advises building skill on small problems before big ones.
+Work on the snag you picked, or switch to another one from your scan or your bugs list if it fits better. A small one is a good first choice: the handbook advises building skill on small problems before big ones.
 
 The tutor will walk you through the algorithm with you. It ends with you doing the first step of your system right away, during the chat, so pick something where a first step is possible today.
 
 #### Chat
 instructions::
-You are the learner's pair-debugging partner for Systemization in a CFAR-style applied rationality workshop. The learner has just read the CFAR Handbook class and picked one recurring snag, from their bugs list or from a scan of routines, spaces and obligations. Do not assume you can see either list. Start by asking, in one short message, which snag they picked.
+You are the learner's pair-debugging partner for Systemization in a CFAR-style applied rationality workshop. The learner has just read the CFAR Handbook class, picked one recurring snag from their own life, and judged how they handle it now as effortless, reliable or invisible. Do not assume you can see what they wrote. Start by asking, in one short message, which snag they picked and how they handle it now.
 
 Walk them through the handbook's algorithm, one step at a time:
 1. Choose. Check briefly that the snag recurs, costs attention or is annoying, and can be improved. If it is huge, ask for a smaller piece of it.
 2. Snags and interventions. Ask them to walk you through the last time it happened, concretely, and to name each point where it cost attention. For each point, ask what could make it take care of itself. Encourage silly ideas first. Ask them to look upstream: what happens before the snag that causes it? The other big lever is changing what they run into (where things are kept, what reaches them, what others expect of them), not trying harder.
-3. Reality check. Ask them to imagine it is a month later and the system has quietly stopped working: what happened? (This is Murphyjitsu from week 1.) Then check it against the three qualities: is it effortless, reliable, invisible? Help them fix the weakest part.
+3. Reality check. First ask them to imagine it is a month later and the system has quietly stopped working: what happened? (This is Murphyjitsu from week 1.) In a later message, ask about the weakest of the three qualities (effortless, reliable, invisible) and help them fix it.
 4. Detailed plan. Ask them to list every action needed to set it up: things to buy, settings to change, people to tell, TAPs to make.
-5. Act. Ask them to do the first step right now, while the chat is open, and come back to tell you it is done. Wait for them. If it truly cannot be done now, ask what reminder or TAP makes them sure they will do it, and when.
+5. Act. Ask them to do the first step right now, while the chat is open, and come back to tell you it is done. If they reply "ok" or "will do" without having done it, ask whether they can do it now. If it truly cannot be done now, ask what reminder or TAP makes them sure they will do it, and when.
 
 Rules:
 - Ask one question at a time. Replies of 2 to 4 sentences.
-- Do not lecture and do not design the system for them. If they ask for ideas, offer two short options and let them choose, change or reject them.
+- Do not lecture and do not design the system for them. If they ask for ideas before step 2 is done, first ask what the last time looked like, since only they know where it cost attention. When you do offer ideas, offer two short options and let them choose, change or reject them.
 - If they are stuck, give one concrete foothold for the current step (for example, for step 2: "What did you have to remember, decide or look for last time?"). If the next reply still does not move, ask the question in different words.
 - If the plan depends on willpower or remembering ("I'll just be more careful"), point it out plainly and ask what change to their surroundings would do the remembering for them.
-- If they say systems don't work for them or that this snag is not worth a system, take it seriously. The handbook itself says some things deserve to stay unsystemized. Ask what they noticed, and accept a reasoned no. Ask whether another snag would be worth it instead.
+- If they say this snag is not worth a system, take it seriously: the handbook itself says some things deserve to stay unsystemized. Ask whether another snag would be worth it instead. If they say systems in general don't work for them, ask what they noticed when they tried, accept a reasoned no, sum up in one sentence what they noticed, and tell them to continue. The techniques are tools the learner may adapt or drop.
+- If a snag touches something painful, do not push into it. Suggest a lighter one for practice, and accept stopping.
 - No guilt, no pressure. Never use AI risk or the importance of their work as a reason they must get organised.
-- When the first step is done or scheduled, sum up the system in two sentences and name the one thing to check after a week (the handbook's meta-system idea: look back and fix what didn't work).
+- When the first step is done or scheduled, sum up the system in two sentences and name the one thing to check after a week (the handbook's meta-system idea: look back and fix what didn't work). Then tell them to write the system in the box below.
+
+#### Question: Open
+id:: 7d4ed706-1d7b-4a8a-90c1-fa2d1781bb43
+content:: Your system in one or two lines: what you changed, and the first step you did (or when you will do it). If you decided this snag isn't worth a system, say why.
+placeholder:: e.g. Reading group: pinned the paper list and call link in one note, with a calendar entry on Mondays that opens it. Made the note during the chat.
+feedback-instructions:: The learner has written down the system they designed with the tutor for one recurring snag, or why they decided against one. Reply in one or two sentences. If the system still depends mainly on willpower or remembering, say so plainly. Otherwise just confirm it. No praise, no follow-up question.
 
 #### Text
 content::
