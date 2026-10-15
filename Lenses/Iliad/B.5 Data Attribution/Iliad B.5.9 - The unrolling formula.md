@@ -4,11 +4,11 @@ title: "B.5.9 The unrolling formula"
 tldr: "Introduces unrolling, which attributes through the training dynamics, states the unrolling formula for SGD, and has Exercise 4.1 deriving it, followed by a remark on TracIn."
 summary_for_tutor: "Section 4, 4.1 and the first part of 4.2 of Iliad worksheet B.5 Data Attribution: the training-dynamics approach, the counterfactual over the training run, the unrolling formula (20) as a sum over steps with Jacobian products J_(t+1):T, a remark on which questions unrolling answers, Exercise 4.1 (a)-(c) (derive the recursion, unroll it, preconditioned SGD) with collapsed solution, and a TracIn remark. Keep J_t, eta_t, T. Let the student attempt each exercise before revealing or paraphrasing a solution."
 source_url: https://iliad-intensive.org/learning/data-attribution/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 authors:
   - Louis Jaburi
 upstream_key: "data-attribution#4-unrolling"
-upstream_fingerprint: "GtvbqKxRtXAm/1527/1/0A3X0Ahv0I6y0KmI0RNy0WUp0btE0h9s0kKC1BVK1HMU1JTH1Jym1VPu1Vam1doj1ohd1rRv1vAJ24SZ2C6U2Zz52iFs2jpO2t3v2w8i31ed36Pe374F38bL39KN3Brd"
+upstream_fingerprint: "GtvbqKxRtXAm/1536/1/0A3X0Ahv0I6y0KmI0RNy0WUp0btE0h9s0kKC1BVK1HMU1JTH1Jym1VPu1Vam1doj1ohd1rRv1vAJ24SZ2C6U2Zz52iFs2jpO2t3v2w8i31ed36Pe374F38bL39KN3Brd"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/data-attribution/#4-unrolling"
@@ -50,7 +50,7 @@ This invites the following question: Can we backprop through the *training traje
 We fix notation for the training process. Given a dataset $$\mathcal{D}= \{z_{1},\dots,z_{n}\}$$ with sample weights $$\beta = (\beta_{1},\dots,\beta_{n})$$, the optimizer runs for $$T$$ steps. At step $$t$$, a mini-batch $$B_{t} \subseteq \{1,\dots,n\}$$ of size $$b$$ is drawn, and the parameters are updated by
 
 $$
-w_{t+1}(\beta) \;=\; w_{t}(\beta) \;-\; \frac{\eta_{t}}{b}\sum_{i\in B_t}\beta_{i}\,\nabla_{w} L\bigl(w_{t}(\beta),\,z_{i}\bigr),
+w_{t+1}(\beta) \;=\; w_{t}(\beta) \;-\; \frac{\eta_{t}}{b}\sum_{i\in B_t}\beta_{i}\,\nabla_{w} L\bigl(w_{t}(\beta),\,z_{i}\bigr), \tag{16}
 $$
 
 where $$\eta_{t}$$ is the learning rate at step $$t$$. At $$\beta = \mathbf{1}$$ this is ordinary SGD on the unweighted loss. The initial parameters $$w_{0}$$ are independent of $$\beta$$. For simplicity we can assume that we are training for one epoch only, so that each example appears in exactly one mini-batch, but the formulas hold more generally.
@@ -68,25 +68,25 @@ the sensitivity of a final-model observable $$\phi$$ to an infinitesimal change 
 Central to computing the data weight gradient is the Jacobian of one SGD step with respect to the current parameters. Define
 
 $$
-J_{t} \;:=\; \frac{\partial w_{t+1}}{\partial w_{t}}\bigg\rvert_{\beta=\mathbf{1}}\;=\; I \;-\; \frac{\eta_{t}}{b}\sum_{i\in B_t}\nabla_{w}^{2} L(w_{t},z_{i}) \;=\; I - \eta_{t}\,\widehat{H}_{t},
+J_{t} \;:=\; \frac{\partial w_{t+1}}{\partial w_{t}}\bigg\rvert_{\beta=\mathbf{1}}\;=\; I \;-\; \frac{\eta_{t}}{b}\sum_{i\in B_t}\nabla_{w}^{2} L(w_{t},z_{i}) \;=\; I - \eta_{t}\,\widehat{H}_{t}, \tag{17}
 $$
 
 where $$\widehat{H}_{t} := \tfrac{1}{b}\sum_{i\in B_t}\nabla_{w}^{2} L(w_{t},z_{i})$$ is the mini-batch Hessian at step $$t$$. The Jacobian of the map from step $$t$$ to step $$t'$$ is the ordered product
 
 $$
-J_{t:t'}\;:=\; J_{t'-1}\,J_{t'-2}\cdots J_{t}\;=\; \prod_{s=t}^{t'-1}J_{s} \qquad (t < t').
+J_{t:t'}\;:=\; J_{t'-1}\,J_{t'-2}\cdots J_{t}\;=\; \prod_{s=t}^{t'-1}J_{s} \qquad (t < t'). \tag{18}
 $$
 
 Similarly, the direct effect of $$\beta_{i}$$ at step $$t$$ (when $$i\in B_{t}$$) is the per-example gradient:
 
 $$
-\frac{\partial w_{t+1}}{\partial \beta_{i}}\bigg\rvert_{\substack{\beta=\mathbf{1}\\w_t\text{ fixed}}}\;=\; -\,\frac{\eta_{t}}{b}\,\nabla_{w} L(w_{t},z_{i}) \cdot \mathbf{1}[i\in B_{t}].
+\frac{\partial w_{t+1}}{\partial \beta_{i}}\bigg\rvert_{\substack{\beta=\mathbf{1}\\w_t\text{ fixed}}}\;=\; -\,\frac{\eta_{t}}{b}\,\nabla_{w} L(w_{t},z_{i}) \cdot \mathbf{1}[i\in B_{t}]. \tag{19}
 $$
 
 The full derivative is obtained by chaining direct effects through remaining steps:
 
 $$
-\boxed{\;\frac{\partial w_{T}(\beta)}{\partial \beta_{i}}\bigg\rvert_{\beta=\mathbf{1}} \;=\; -\sum_{t=0}^{T-1}\frac{\eta_{t}}{b}\;\mathbf{1}[i\in B_t]\;J_{(t+1):T}\;\nabla_w L(w_t,z_i).\;}
+\boxed{\;\frac{\partial w_{T}(\beta)}{\partial \beta_{i}}\bigg\rvert_{\beta=\mathbf{1}} \;=\; -\sum_{t=0}^{T-1}\frac{\eta_{t}}{b}\;\mathbf{1}[i\in B_t]\;J_{(t+1):T}\;\nabla_w L(w_t,z_i).\;} \tag{20}
 $$
 
 Each term in the sum corresponds to one training step in which $$z_{i}$$ appeared in the mini-batch: it is the gradient of $$z_{i}$$ at the parameters of that step, propagated forward through the Jacobians of all subsequent steps.
@@ -94,7 +94,7 @@ Each term in the sum corresponds to one training step in which $$z_{i}$$ appeare
 The influence on an observable $$\phi$$ follows by the chain rule:
 
 $$
-\frac{\partial\,\phi(w_{T}(\beta))}{\partial \beta_{i}}\bigg\rvert_{\beta=\mathbf{1}}\;=\; -\,\nabla_{w}\phi(w_{T})^{\top}\sum_{t=0}^{T-1}\frac{\eta_{t}}{b}\;\mathbf{1}[i\in B_{t}]\;J_{(t+1):T}\;\nabla_{w} L(w_{t},z_{i}).
+\frac{\partial\,\phi(w_{T}(\beta))}{\partial \beta_{i}}\bigg\rvert_{\beta=\mathbf{1}}\;=\; -\,\nabla_{w}\phi(w_{T})^{\top}\sum_{t=0}^{T-1}\frac{\eta_{t}}{b}\;\mathbf{1}[i\in B_{t}]\;J_{(t+1):T}\;\nabla_{w} L(w_{t},z_{i}). \tag{21}
 $$
 
 :::callout {title="Note" tone="blue"}
@@ -117,13 +117,13 @@ with initial condition $$\tfrac{\partial w_0}{\partial \beta_i}= 0$$. Compute th
 **(c)** **(Preconditioned SGD.)** Suppose instead that the optimizer uses a preconditioner $$P_{t} \succ 0$$:
 
 $$
-w_{t+1}(\beta) \;=\; w_{t}(\beta) \;-\; \frac{\eta_{t}}{b}\,P_{t}\sum_{i\in B_t}\beta_{i}\,\nabla_{w} L(w_{t}(\beta),z_{i}).
+w_{t+1}(\beta) \;=\; w_{t}(\beta) \;-\; \frac{\eta_{t}}{b}\,P_{t}\sum_{i\in B_t}\beta_{i}\,\nabla_{w} L(w_{t}(\beta),z_{i}). \tag{22}
 $$
 
 This includes momentum-free Adam and natural gradient methods as special cases (with appropriate $$P_{t}$$). Show that the step Jacobian becomes $$J_{t}^{(P)}= I - \eta_{t}\,P_{t}\widehat{H}_{t}$$ and that the unrolling formula generalizes to
 
 $$
-\frac{\partial w_{T}(\beta)}{\partial \beta_{i}}\bigg\rvert_{\beta=\mathbf{1}}\;=\; -\sum_{t=0}^{T-1}\frac{\eta_{t}}{b}\;\mathbf{1}[i\in B_{t}]\;J_{(t+1):T}^{(P)}\;P_{t}\,\nabla_{w} L(w_{t},z_{i}),
+\frac{\partial w_{T}(\beta)}{\partial \beta_{i}}\bigg\rvert_{\beta=\mathbf{1}}\;=\; -\sum_{t=0}^{T-1}\frac{\eta_{t}}{b}\;\mathbf{1}[i\in B_{t}]\;J_{(t+1):T}^{(P)}\;P_{t}\,\nabla_{w} L(w_{t},z_{i}), \tag{23}
 $$
 
 where $$J_{(t+1):T}^{(P)}= \prod_{s=t+1}^{T-1}(I - \eta_{s} P_{s}\widehat{H}_{s})$$. The only change is that each gradient is premultiplied by the preconditioner at the step where it appears. What does this say about the effect of using Adam vs. SGD on the attribution of a data point that appears early in training?
@@ -156,7 +156,7 @@ where the last step follows from $$\partial w_{0}/\partial \beta_{i} = 0$$ killi
 **Remark (TracIn).** Pruthi et al. 2020 observed that the Jacobian products $$J_{(t+1):T}$$ in (20) are both the most expensive and the most unstable part of the computation. Their method, TracIn, simply drops them, setting $$J_{(t+1):T}\approx I$$:
 
 $$
-\mathrm{TracIn}(z_{i},\phi) \;:=\; \sum_{t\in\mathcal{C}}\eta_{t}\;\nabla_{w}\phi(w_{t})^{\top}\nabla_{w} L(w_{t},z_{i}),
+\mathrm{TracIn}(z_{i},\phi) \;:=\; \sum_{t\in\mathcal{C}}\eta_{t}\;\nabla_{w}\phi(w_{t})^{\top}\nabla_{w} L(w_{t},z_{i}), \tag{24}
 $$
 
 where $$\mathcal{C}$$ is a set of checkpoints (typically one per epoch).

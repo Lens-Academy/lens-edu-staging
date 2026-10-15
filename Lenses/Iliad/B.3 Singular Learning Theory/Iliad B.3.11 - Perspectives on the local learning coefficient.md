@@ -8,9 +8,9 @@ authors:
   - Matthew Farrugia-Roberts (University of Oxford)
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/singular-learning-theory/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "singular-learning-theory#32-perspectives-on-the-local-learning-coefficient"
-upstream_fingerprint: "POGwd5nCuielPw2/1807/1/00ur0BVs0Hzw0Iix0P3n0PPl0SNO0Ut10lQO0nBU0sHR0zAv11eR1Cxx1Nmk1VS21Vam1eNT1j7J1rJt1y0R21lN23Jt24ZH24aX2E5V2HTN2Hqf2Ngd2O8X2Osz2WEs"
+upstream_fingerprint: "POGwd5nCuielPw2/1815/1/00ur0BVs0Hzw0Iix0P3n0PPl0SNO0Ut10lQO0nBU0sHR0zAv11eR1Cxx1Nmk1VS21Vam1eNT1j7J1rJt1y0R21lN23Jt24ZH24aX2E5V2HTN2Hqf2Ngd2O8X2Osz2WEs"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/singular-learning-theory/#32-perspectives-on-the-local-learning-coefficient"
@@ -27,13 +27,13 @@ In this section, we survey several alternative perspectives on the LLC, from inf
 The LLC also admits a natural interpretation in terms of information (Lau et al. 2025). The number of bits needed to specify the sublevel set $$B(w^{*}, \epsilon)$$ within the ball $$B(w^{*})$$ is
 
 $$
--\log_{2} \frac{V(\epsilon)}{\mathrm{Vol}(B(w^{*}))}.
+-\log_{2} \frac{V(\epsilon)}{\mathrm{Vol}(B(w^{*}))}.  \tag{41}
 $$
 
 For small $$\epsilon$$ and $$\mu(w^{*}) = 1$$, this is approximately $$-\lambda(w^{*}) \log_{2} \epsilon + O(\log_{2} \log_{2} \epsilon)$$. In particular, the number of *additional* bits needed to halve an already small error tolerance from $$\epsilon$$ to $$\epsilon/2$$ is
 
 $$
--\log_{2} \frac{V(\epsilon / 2)}{V(\epsilon)}\approx \lambda(w^{*}).
+-\log_{2} \frac{V(\epsilon / 2)}{V(\epsilon)}\approx \lambda(w^{*}).  \tag{42}
 $$
 
 That is, the LLC $$\lambda(w^{*})$$ measures the number of bits required to halve the error near $$w^{*}$$.
@@ -49,13 +49,13 @@ $$
 where $$b(u) > 0$$ is smooth and the exponents $$k_{j}, h_{j}$$ are non-negative integers. In these coordinates, the volume integral $$V(\epsilon)$$ can be evaluated explicitly, yielding the asymptotic form of Definition 3.1 and giving
 
 $$
-\lambda(w^{*}) \;=\; \min_{\text{coordinate charts}}\; \min_{j:\, k_j > 0}\frac{h_{j} + 1}{2k_{j}}\,.
+\lambda(w^{*}) \;=\; \min_{\text{coordinate charts}}\; \min_{j:\, k_j > 0}\frac{h_{j} + 1}{2k_{j}}\,. \tag{43}
 $$
 
 The resolution map $$g$$ is far from unique, and different choices produce different exponents $$k_{j}, h_{j}$$. $$\lambda(w^{*})$$ is nevertheless well-defined, which can be seen from (another) equivalent definition using the **local zeta function**:
 
 $$
-\zeta(z,\, w^{*}) \;=\; \int_{B(w^*)}\bigl(L(w) - L(w^{*})\bigr)^{\!z}\, dw\,,
+\zeta(z,\, w^{*}) \;=\; \int_{B(w^*)}\bigl(L(w) - L(w^{*})\bigr)^{\!z}\, dw\,, \tag{44}
 $$
 
 which converges for $$\operatorname{Re}(z) > 0$$ and extends to a meromorphic function on $$\mathbb{C}$$ whose poles are all real, negative, and rational. The LLC $$\lambda(w^{*})$$ is precisely the negative of the largest pole, and the multiplicity $$\mu(w^{*})$$ is the multiplicity of this pole. Since (44) makes no reference to any resolution, $$\lambda(w^{*})$$ depends only on $$L$$ and $$w^{*}$$.
@@ -93,7 +93,7 @@ The LLC admits a geometric interpretation: it is a *fractal dimension* of the pa
 **Definition 3.2 (Hölder exponent).** Let $$(X, \rho)$$ be a (pseudo-)metric space and $$\nu$$ a measure on $$X$$. The **Hölder exponent** (or **local dimension**) $$\alpha(x)$$ of $$\nu$$ at a point $$x \in X$$ is given by
 
 $$
-\alpha(x) = \lim_{\epsilon \to 0}\frac{\log \nu(B_{\epsilon}(x))}{\log \epsilon},
+\alpha(x) = \lim_{\epsilon \to 0}\frac{\log \nu(B_{\epsilon}(x))}{\log \epsilon}, \tag{45}
 $$
 
 where $$B_{\epsilon}(x)$$ is the ball of radius $$\epsilon$$ centred at $$x$$. Equivalently, $$\alpha(x)$$ is the unique real number such that
@@ -111,7 +111,7 @@ The Hölder exponent generalises the notion of dimension: when $$\nu$$ is the Le
 **Definition 3.3 (Loss pseudo-metric).** The **loss pseudo-metric** on $${\mathcal{W}}$$ is defined by
 
 $$
-\rho(w,u) = |L(w) - L(u)|.
+\rho(w,u) = |L(w) - L(u)|.  \tag{46}
 $$
 
 :::
@@ -125,7 +125,7 @@ $$
 Under this pseudo-metric, the sublevel set (34) is precisely the $$\epsilon$$-ball around $$w^{*}$$:
 
 $$
-B(w^{*}, \epsilon) = \{ w \in B(w^{*}) \mid \rho(w, w^{*}) < \epsilon \},
+B(w^{*}, \epsilon) = \{ w \in B(w^{*}) \mid \rho(w, w^{*}) < \epsilon \},  \tag{47}
 $$
 
 so $$V(\epsilon) = \nu(B(w^{*}, \epsilon))$$.
@@ -165,7 +165,7 @@ Having established the local learning coefficient as a measure of degeneracy in 
 Consider the two-layer DLN $$f_{A,B}(x) = BAx$$ with $$A \in {\mathbb{R}}^{H \times M}$$ and $$B \in {\mathbb{R}}^{N \times H}$$, so the parameter space is $${\mathcal{W}} = {\mathbb{R}}^{(M+N)H}$$. Suppose the true input–output relationship is $$y = B_{0} A_{0} x$$ where $$A_{0} \in {\mathbb{R}}^{H \times M}$$, $$B_{0} \in {\mathbb{R}}^{N \times H}$$, and $$r = {\mathrm{rank}}(B_{0} A_{0})$$, and consider the population loss
 
 $$
-L(A, B) = {\mathbb{E}}_{x \sim q(x)}\!\left[\|BAx - B_{0} A_{0} x\|^{2}\right],
+L(A, B) = {\mathbb{E}}_{x \sim q(x)}\!\left[\|BAx - B_{0} A_{0} x\|^{2}\right],  \tag{48}
 $$
 
 where $$q(x)$$ has full-rank covariance. The set of minima of this loss function is $$W_{0} = \{(A, B) : BA = B_{0} A_{0}\}$$. Aoyagi & Watanabe 2005 derived an exact formula for the learning coefficient at these minima.

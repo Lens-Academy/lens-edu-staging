@@ -8,9 +8,9 @@ authors:
   - Matthew Farrugia-Roberts (University of Oxford)
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/singular-learning-theory/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "singular-learning-theory#25-degeneracy-and-the-loss-landscape"
-upstream_fingerprint: "qO8E4UYdQL5xDLJ/2814/1/00ur0KVj0MJf0Sth0VMY0bi00d7r0g9X0i4Z0oCx0qzg0t5t0t9n0tO70u9I0vWb0wpb0xom0yQa0zXJ10tY1B3d1FrS1M5n1MKI1T2m1ha51vck1wMi1wfZ1xjy24Eq"
+upstream_fingerprint: "qO8E4UYdQL5xDLJ/2819/1/00ur0KVj0MJf0Sth0VMY0bi00d7r0g9X0i4Z0oCx0qzg0t5t0t9n0tO70u9I0vWb0wpb0xom0yQa0zXJ10tY1B3d1FrS1M5n1MKI1T2m1ha51vck1wMi1wfZ1xjy24Eq"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/singular-learning-theory/#25-degeneracy-and-the-loss-landscape"
@@ -60,13 +60,13 @@ We see that parameter–function map degeneracy implies flat loss directions, bu
 Define the **Hessian matrix** $$H(w) \in {\mathbb{R}}^{d \times d}$$ of the loss at $$w$$ by
 
 $$
-H(w)_{jk}= \frac{\partial^{2} L}{\partial w_{j} \partial w_{k}}(w).
+H(w)_{jk}= \frac{\partial^{2} L}{\partial w_{j} \partial w_{k}}(w).  \tag{29}
 $$
 
 The Hessian at $$w$$ is sometimes denoted $$\nabla^{2} L(w)$$. The Hessian captures the local curvature of the loss landscape via the quadratic approximation
 
 $$
-L(w + \delta) \approx L(w) + \nabla L(w)^{\top} \delta + \tfrac{1}{2}\,\delta^{\top} H(w)\, \delta.
+L(w + \delta) \approx L(w) + \nabla L(w)^{\top} \delta + \tfrac{1}{2}\,\delta^{\top} H(w)\, \delta.  \tag{30}
 $$
 
 At a critical point ($$\nabla L(w) = 0$$), the Hessian determines whether the loss curves upward, downward, or remains flat in each direction.
@@ -129,7 +129,7 @@ The relationship is subtle, and generally depends on the choice of loss function
 **Exercise 2.15 (Realisable models and Hessian degeneracy).** Let $$\Psi : {\mathcal{W}} \to {\mathcal{D}}$$ be a parameter–distribution map with positive densities $$p(y \mid x, w)$$, twice-differentiable in $$w$$. Suppose data is generated from a fixed true parameter $$w_{0} \in {\mathcal{W}}$$, meaning $$q(y \mid x) = p(y \mid x, w_{0})$$. Consider the population negative log-likelihood loss
 
 $$
-L(w) = -{\mathbb{E}}_{x \sim q(x)}\, {\mathbb{E}}_{y \sim p(y \mid x, w_0)}\!\bigl[\log p(y \mid x, w)\bigr].
+L(w) = -{\mathbb{E}}_{x \sim q(x)}\, {\mathbb{E}}_{y \sim p(y \mid x, w_0)}\!\bigl[\log p(y \mid x, w)\bigr].  \tag{31}
 $$
 
 Assume that for each $$x$$, the operations $$\nabla_{w}$$ (and $$\nabla_{w}^{2}$$) and $$\int_{{\mathcal{Y}}} \cdot\, dy$$ may be exchanged.
@@ -137,7 +137,7 @@ Assume that for each $$x$$, the operations $$\nabla_{w}$$ (and $$\nabla_{w}^{2}$
 **(a)** *(Bartlett identity.)* Show that for each $$x \in {\mathcal{X}}$$ and $$w \in {\mathcal{W}}$$,
 
 $$
--{\mathbb{E}}_{y \sim p(y \mid x, w)}\!\bigl[ \nabla_{w}^{2} \log p(y \mid x, w) \bigr] = {\mathbb{E}}_{y \sim p(y \mid x, w)}\!\bigl[ s(x,y,w)\, s(x,y,w)^{\top} \bigr],
+-{\mathbb{E}}_{y \sim p(y \mid x, w)}\!\bigl[ \nabla_{w}^{2} \log p(y \mid x, w) \bigr] = {\mathbb{E}}_{y \sim p(y \mid x, w)}\!\bigl[ s(x,y,w)\, s(x,y,w)^{\top} \bigr], \tag{32}
 $$
 
 where $$s$$ is the score function from Definition 2.3.
@@ -150,7 +150,7 @@ Differentiate the identity $${\mathbb{E}}_{y \sim p(y \mid x, w)}[s(x, y, w)] = 
 **(b)** Show that the Hessian of $$L$$ at the true parameter $$w_{0}$$ equals the Fisher information matrix (Definition 2.4):
 
 $$
-H(w_{0}) = I(w_{0}).
+H(w_{0}) = I(w_{0}). \tag{33}
 $$
 
 :::callout {title="Hint" tone="neutral" collapse="closed"}

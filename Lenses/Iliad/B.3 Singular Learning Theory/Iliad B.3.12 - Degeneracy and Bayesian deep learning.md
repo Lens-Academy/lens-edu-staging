@@ -8,9 +8,9 @@ authors:
   - Matthew Farrugia-Roberts (University of Oxford)
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/singular-learning-theory/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "singular-learning-theory#4-degeneracy-and-bayesian-deep-learning"
-upstream_fingerprint: "X7WvjyPMApOiXR7/1837/1/06ri0GkS0Nwx0cAu0g9X0iuf0nBf0qn30rWq0t5t10vS1Gpb1Isf1JjZ1Rlu1Tcy1Viw1Vp11YWs1h1x1n2D1pc51rNE1sVI1vAJ1xtV1ywb28T829aD2A3W2DpZ2O8X"
+upstream_fingerprint: "X7WvjyPMApOiXR7/1840/1/06ri0GkS0Nwx0cAu0g9X0iuf0nBf0qn30rWq0t5t10vS1Gpb1Isf1JjZ1Rlu1Tcy1Viw1Vp11YWs1h1x1n2D1pc51rNE1sVI1vAJ1xtV1ywb28T829aD2A3W2DpZ2O8X"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/singular-learning-theory/#4-degeneracy-and-bayesian-deep-learning"
@@ -39,7 +39,7 @@ We now state one of the main results of SLT: an asymptotic expansion of $$F_{n}(
 **Theorem 4.1 (Local free energy formula).** Suppose $${\mathcal{U}} \subseteq {\mathcal{W}}$$ contains at least one minimiser of $$L$$, and let $$w^{*} \in {\mathcal{U}}$$ be any such minimiser. Define $$\lambda_{{\mathcal{U}}}$$ as the smallest local learning coefficient among all minimisers in $${\mathcal{U}}$$, and let $$\mu_{{\mathcal{U}}}$$ be the maximum local multiplicity associated with $$\lambda_{{\mathcal{U}}}$$. Then, as $$n \to \infty$$,
 
 $$
-F_{n}({\mathcal{U}}) = nL_{n}(w^{*}) + \lambda_{{\mathcal{U}}}\log n - (\mu_{{\mathcal{U}}}- 1)\log \log n + O_{p}(1).
+F_{n}({\mathcal{U}}) = nL_{n}(w^{*}) + \lambda_{{\mathcal{U}}}\log n - (\mu_{{\mathcal{U}}}- 1)\log \log n + O_{p}(1). \tag{49}
 $$
 
 :::
@@ -131,7 +131,7 @@ For the rest of this section, assume $$n$$ is sufficiently large that (i) the fr
 Consider two disjoint regions $${\mathcal{U}}, {\mathcal{V}} \subseteq {\mathcal{W}}$$, containing minimisers $$u^{\ast}$$ and $$v^{\ast}$$ of the population loss $$L$$ with local learning coefficients $$\lambda_{{\mathcal{U}}}$$ and $$\lambda_{{\mathcal{V}}}$$ respectively. Applying the free energy formula to each region, the log posterior odds between the two regions satisfy
 
 $$
-\log \frac{\pi_{n}({\mathcal{U}})}{\pi_{n}({\mathcal{V}})}= F_{n}({\mathcal{V}}) - F_{n}({\mathcal{U}}) \approx n\,\Delta L_{n} + \Delta\lambda \cdot \log n
+\log \frac{\pi_{n}({\mathcal{U}})}{\pi_{n}({\mathcal{V}})}= F_{n}({\mathcal{V}}) - F_{n}({\mathcal{U}}) \approx n\,\Delta L_{n} + \Delta\lambda \cdot \log n \tag{50}
 $$
 
 where $$\Delta L_{n} = L_{n}(v^{\ast}) - L_{n}(u^{\ast})$$ and $$\Delta\lambda = \lambda_{{\mathcal{V}}}- \lambda_{{\mathcal{U}}}$$.
@@ -145,7 +145,7 @@ $$
 Then $$\Delta L_{n} < 0$$ and $$\Delta\lambda > 0$$, so the two terms in (50) have opposite signs. For smaller $$n$$, the $$\Delta\lambda \cdot \log n$$ term dominates so the log posterior odds is negative meaning the posterior prefers $${\mathcal{U}}$$ (the simpler, less accurate region). As $$n$$ increases, the linear term $$n\,\Delta L_{n}$$ eventually dominates the logarithmic term, and the posterior shifts to prefer $${\mathcal{V}}$$ (the more complex, more accurate region). Setting the leading terms equal, this change occurs at a critical sample size $$n^{*}$$ satisfying
 
 $$
-\frac{n^{*}}{\log n^{*}}\approx \frac{\Delta\lambda}{\lvert\Delta L_{n}\rvert}.
+\frac{n^{*}}{\log n^{*}}\approx \frac{\Delta\lambda}{\lvert\Delta L_{n}\rvert}. \tag{51}
 $$
 
 At $$n = n^{*}$$, the posterior undergoes a **Bayesian phase transition**: the region that dominates the posterior changes abruptly.

@@ -8,9 +8,9 @@ authors:
   - Matthew Farrugia-Roberts (University of Oxford)
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/singular-learning-theory/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "singular-learning-theory#3-the-degeneracy-hierarchy"
-upstream_fingerprint: "0gw6wYvQOjXim16OngKLe9WJP9q/3199/1/09cu0GkS0I9h0N4d0R760V0u0VW10bNE0c420cbe0e4H0i4Z0jm00oCx0vn60zZZ0zfN0zgO139J141L1CFf1DS61EfD1F1I1HiU1INa1QXz1Rlu1S6c1Viw1YWs1baB"
+upstream_fingerprint: "0gw6wYvQOjXim16OngKLe9WJP9q/3206/1/09cu0GkS0I9h0N4d0R760V0u0VW10bNE0c420cbe0e4H0i4Z0jm00oCx0vn60zZZ0zfN0zgO139J141L1CFf1DS61EfD1F1I1HiU1INa1QXz1Rlu1S6c1Viw1YWs1baB"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/singular-learning-theory/#3-the-degeneracy-hierarchy"
@@ -29,13 +29,13 @@ In this section and Section 4 we assume that any population loss $$L$$ is a real
 The key idea is to measure the *volume* of near-optimal parameters. Consider a local minimum $$w^{*} \in {\mathcal{W}}$$ of the population loss $$L$$, and suppose we have a sufficiently small closed ball $$B(w^{*})$$ centred on $$w^{*}$$ such that $$L(w) \geq L(w^{*})$$ for all $$w \in B(w^{*})$$. Given a tolerance $$\epsilon > 0$$, define the **sublevel set**
 
 $$
-B(w^{*}, \epsilon) = \{ w \in B(w^{*}) \mid L(w) - L(w^{*}) < \epsilon \},
+B(w^{*}, \epsilon) = \{ w \in B(w^{*}) \mid L(w) - L(w^{*}) < \epsilon \}, \tag{34}
 $$
 
 consisting of all parameters in the ball whose loss is within $$\epsilon$$ of the minimum. The volume of this set is
 
 $$
-V(\epsilon) := \mathrm{Vol}(B(w^{*}, \epsilon)) = \int_{B(w^*, \epsilon)}dw.
+V(\epsilon) := \mathrm{Vol}(B(w^{*}, \epsilon)) = \int_{B(w^*, \epsilon)}dw.  \tag{35}
 $$
 
 We will look at how this volume scales as $$\epsilon \to 0$$. It will be instructive for us to first calculate this scaling in the non-degenerate case.
@@ -44,7 +44,7 @@ We will look at how this volume scales as $$\epsilon \to 0$$. It will be instruc
 **Exercise 3.1 (Volume scaling in the regular case).** Let $$w^{*} \in {\mathcal{W}}$$ be a local minimum of $$L$$, and suppose that the Hessian $$\nabla^{2} L(w^{*})$$ is positive definite. Show that
 
 $$
-V(\epsilon) = c \, \epsilon^{d/2}+ o(\epsilon^{d/2}) \quad \text{as }\epsilon \to 0,
+V(\epsilon) = c \, \epsilon^{d/2}+ o(\epsilon^{d/2}) \quad \text{as }\epsilon \to 0, \tag{36}
 $$
 
 for some constant $$c>0$$ where $$d = \dim({\mathcal{W}})$$. You may assume that, as $$\epsilon \to 0$$, the volume of $$B(w^{*},\epsilon)$$ agrees to leading order with the volume of the quadratic approximation obtained by replacing $$L$$ with its second-order Taylor expansion at $$w^{*}$$.
@@ -151,7 +151,7 @@ In this example, the degenerate directions do not contribute to the leading expo
 **Definition 3.1 (Local learning coefficient).** Let $$w^{*} \in {\mathcal{W}}$$ be a local minimum of the population loss $$L$$. There exists a unique rational number $$\lambda(w^{*}) > 0$$, a positive integer $$\mu(w^{*})$$, and a constant $$c > 0$$ such that as $$\epsilon \to 0$$,
 
 $$
-V(\epsilon) = c \, \epsilon^{\lambda(w^*)}(-\log \epsilon)^{\mu(w^*)-1}+ o\!\left(\epsilon^{\lambda(w^*)}(-\log \epsilon)^{\mu(w^*)-1}\right).
+V(\epsilon) = c \, \epsilon^{\lambda(w^*)}(-\log \epsilon)^{\mu(w^*)-1}+ o\!\left(\epsilon^{\lambda(w^*)}(-\log \epsilon)^{\mu(w^*)-1}\right). \tag{37}
 $$
 
 We call $$\lambda(w^{*})$$ the **local learning coefficient (LLC)** at $$w^{*}$$, and $$\mu(w^{*})$$ the **local multiplicity**.
@@ -162,13 +162,13 @@ We call $$\lambda(w^{*})$$ the **local learning coefficient (LLC)** at $$w^{*}$$
 **Exercise 3.3 (Two equations for $$\lambda$$).** **(a)** Prove that for $$a>1$$
 
 $$
-\lambda = \lim_{\epsilon \to 0}\frac{\log(V(a\epsilon)/V(\epsilon))}{\log(a)}
+\lambda = \lim_{\epsilon \to 0}\frac{\log(V(a\epsilon)/V(\epsilon))}{\log(a)} \tag{38}
 $$
 
 **(b)** Prove that
 
 $$
-\lambda = \lim\limits_{\epsilon\to 0}\frac{\log V(\epsilon)}{\log \epsilon}
+\lambda = \lim\limits_{\epsilon\to 0}\frac{\log V(\epsilon)}{\log \epsilon} \tag{39}
 $$
 
 :::
@@ -367,7 +367,7 @@ Both Hessians have rank $$1$$, but $$\lambda(w_{1}) = \frac{3}{4}\neq \frac{1}{2
 **Exercise 3.7 (The cubically-parameterised loss).** We can make a quadratic loss degenerate by changing the parameterisation. Let the *cubically-parameterised loss* be
 
 $$
-L(\mu) = \tfrac{1}{2}(\mu^{3} - \mu_{0}^{3})^{2}, \qquad \mu \in {\mathbb{R}}
+L(\mu) = \tfrac{1}{2}(\mu^{3} - \mu_{0}^{3})^{2}, \qquad \mu \in {\mathbb{R}}  \tag{40}
 $$
 
 obtained from the ordinary quadratic loss $$\ell(\theta) = \frac{1}{2}(\theta - \theta_{0})^{2}$$ via the reparameterisation $$\theta = \mu^{3}$$, $$\theta_{0} = \mu_{0}^{3}$$.

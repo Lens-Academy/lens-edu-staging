@@ -4,11 +4,11 @@ title: "B.5.6 Bayesian influence functions"
 tldr: "Introduces susceptibilities and the Bayesian influence function as a covariance under the tempered posterior, with Exercise 3.1 proving it, then localization, SGLD estimation and a Bayesian linear regression example."
 summary_for_tutor: "Section 3 intro and 3.1 of Iliad worksheet B.5 Data Attribution: susceptibilities (Baker et al. 2026), the tempered posterior, Definition 3.1 (Bayesian influence function), Exercise 3.1 (the BIF is a covariance, with collapsed solution), a statistical-physics remark on fluctuation-response, localization with strength gamma, practical computation by SGLD, and Example 3.2 (Bayesian linear regression). Keep Cov(L_i, phi) and the sign convention. Let the student attempt each exercise before revealing or paraphrasing a solution."
 source_url: https://iliad-intensive.org/learning/data-attribution/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 authors:
   - Louis Jaburi
 upstream_key: "data-attribution#3-bayesian-influence-functions"
-upstream_fingerprint: "hdGLd4nzU/1091/1/04Ag06ri093p0B660kDw0oCx10Si1F1I1GIc1YWs1hyj1iyk1oix1tPY1vBZ1xzp24ZH2A3W2H1w2NZM2Ovl2bUh2jtM2tYR2ueB2zgE30ue31QO3GGZ3o3a3wmV3xbo"
+upstream_fingerprint: "hdGLd4nzU/1096/1/04Ag06ri093p0B660kDw0oCx10Si1F1I1GIc1YWs1hyj1iyk1oix1tPY1vBZ1xzp24ZH2A3W2H1w2NZM2Ovl2bUh2jtM2tYR2ueB2zgE30ue31QO3GGZ3o3a3wmV3xbo"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/data-attribution/#3-bayesian-influence-functions"
@@ -23,7 +23,7 @@ Classical influence functions give a first-order approximation to the change in 
 **Susceptibilities.**  The Bayesian influence function is one instance of a more general object studied by Baker et al. 2026. Given a tempered Gibbs posterior $$p_{\beta} \propto e^{-\beta L(w)}\varphi(w)$$ at inverse temperature $$\beta$$, any pair of observables $$\phi,\psi:W\to{\mathbb{R}}$$ defines a *susceptibility*
 
 $$
-\chi(\phi\,|\,\psi) \;:=\; \frac{\partial}{\partial h}\,{\mathbb{E}}_{p_h}[\phi(w)]\bigg|_{h=0}, \qquad p_{h} \;\propto\; e^{-\beta\bigl(L(w) - h\,\psi(w)\bigr)}\,\varphi(w).
+\chi(\phi\,|\,\psi) \;:=\; \frac{\partial}{\partial h}\,{\mathbb{E}}_{p_h}[\phi(w)]\bigg|_{h=0}, \qquad p_{h} \;\propto\; e^{-\beta\bigl(L(w) - h\,\psi(w)\bigr)}\,\varphi(w). \tag{7}
 $$
 
 The differentiation argument we will apply in Exercise 3.1 shows $$\chi(\phi\,|\,\psi) = \beta\,\mathrm{Cov}_{p_\beta}(\phi,\psi)$$ in full generality. Taking $$\psi = -L(\cdot,z_{i})$$ gives the Bayesian influence function developed below. Other choices of $$(\phi,\psi)$$ yield other sensitivity notions, see e.g. the refined learning coefficients (Baker et al. 2026, Appendix D.2). We will not need the general framework again; we mention it only to locate the BIF within the wider susceptibility family.
@@ -35,7 +35,7 @@ We now specialize the susceptibility story to data attribution. Instead of askin
 **The tempered posterior.**  Given training data $$\mathcal{D}= \{z_{1},\dots,z_{n}\}$$ with per-sample losses $$L(w,z_{i})$$, sample weights $$\beta = (\beta_{1},\dots,\beta_{n})$$, and a prior $$\varphi(w)$$, define the *tempered posterior*
 
 $$
-p_{\beta}(w\mid\mathcal{D}) \;\propto\; \exp\!\Bigl(-\sum_{i=1}^{n} \beta_{i}\, L(w,z_{i})\Bigr)\,\varphi(w).
+p_{\beta}(w\mid\mathcal{D}) \;\propto\; \exp\!\Bigl(-\sum_{i=1}^{n} \beta_{i}\, L(w,z_{i})\Bigr)\,\varphi(w). \tag{8}
 $$
 
 When $$\beta = \mathbf{1}$$ and the loss is a negative log-likelihood, this is the standard Bayesian posterior. When the losses are not log-likelihoods, $$p_{\beta}$$ is a *Gibbs measure*; the mathematics is identical.
@@ -62,7 +62,7 @@ When $$X$$ and $$Y$$ are functions of the random parameter $$w\sim p$$, we write
 **Exercise 3.1 (The BIF is a covariance).** Let $$p_{\beta}(w\mid\mathcal{D})$$ be the tempered posterior of Equation 8 and write $$p = p_{\mathbf{1}}$$ for the unperturbed posterior. By differentiating $${\mathbb{E}}_{p_\beta}[\phi(w)] = \int \phi(w)\,p_{\beta}(w\mid\mathcal{D})\,dw$$ with respect to $$\beta_{i}$$, show that
 
 $$
-\boxed{\;\mathrm{BIF}(z_i,\phi) \;=\; -\,\mathrm{Cov}_{w\sim p}\bigl(L(w,z_i),\;\phi(w)\bigr).\;}
+\boxed{\;\mathrm{BIF}(z_i,\phi) \;=\; -\,\mathrm{Cov}_{w\sim p}\bigl(L(w,z_i),\;\phi(w)\bigr).\;} \tag{9}
 $$
 
 *Hint:* Write $$p_{\beta} \propto e^{-\sum_j \beta_j L(w,z_j)}\varphi(w)$$ and differentiate the ratio $$\int \phi\, p_{\beta}\,dw \,/\, \int p_{\beta}\,dw$$ using the quotient rule. The key identity is $$\partial_{\beta_i}\log Z(\beta) = -{\mathbb{E}}_{p_\beta}[L(w,z_{i})]$$.
@@ -101,13 +101,13 @@ Structurally: in the classical IF, the "correlation" between $$L_{i}$$ and $$\ph
 **Localization.**  Computing expectations over the global posterior $$p(w\mid\mathcal{D})$$ is generally intractable for neural networks, and we are typically interested in the behavior of a specific trained checkpoint $$w^{*}$$, not a global Bayesian average. Following Kreer et al. 2026, we *localize* the posterior by adding a Gaussian penalty centered at $$w^{*}$$:
 
 $$
-p_{\gamma}(w\mid\mathcal{D},w^{*}) \;\propto\; \exp\!\Bigl(-\sum_{i=1}^{n} L(w,z_{i}) - \frac{\gamma}{2}\|w - w^{*}\|^{2}\Bigr),
+p_{\gamma}(w\mid\mathcal{D},w^{*}) \;\propto\; \exp\!\Bigl(-\sum_{i=1}^{n} L(w,z_{i}) - \frac{\gamma}{2}\|w - w^{*}\|^{2}\Bigr), \tag{10}
 $$
 
 where $$\gamma > 0$$ is a *localization strength* that controls how tightly the posterior concentrates around $$w^{*}$$. The *local BIF* is then
 
 $$
-\mathrm{BIF}_{\gamma}(z_{i},\phi) \;=\; -\,\mathrm{Cov}_{\gamma}\bigl(L(w,z_{i}),\;\phi(w)\bigr),
+\mathrm{BIF}_{\gamma}(z_{i},\phi) \;=\; -\,\mathrm{Cov}_{\gamma}\bigl(L(w,z_{i}),\;\phi(w)\bigr), \tag{11}
 $$
 
 where $$\mathrm{Cov}_{\gamma}$$ denotes covariance under $$p_{\gamma}$$. We will see in Exercise 3.2 that the localization parameter $$\gamma$$ plays exactly the role of the damping parameter $$\lambda$$ in the PBRF formula (6).

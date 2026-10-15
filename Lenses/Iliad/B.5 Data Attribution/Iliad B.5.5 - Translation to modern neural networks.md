@@ -4,11 +4,11 @@ title: "B.5.5 Translation to modern neural networks"
 tldr: "Explains why classical influence functions break for neural networks (singular Hessian, negative curvature, non-converged checkpoints), the proximal Bregman fix, and Exercise 2.3 on a degenerate two-parameter model."
 summary_for_tutor: "Section 2.2 of Iliad worksheet B.5 Data Attribution: assumptions (i) unique global minimum and (ii) positive definite Hessian, three failure modes, the proximal Bregman objective (PBRF) of Bae et al. 2022 giving the damped Gauss-Newton form with (G + lambda I) inverse, remarks on the SLT day and on scaling with EK-FAC, and Exercise 2.3 (a)-(c) on the toy model with observable phi(w) = ab, using the pseudoinverse and the damped inverse, with collapsed solution. Let the student attempt each exercise before revealing or paraphrasing a solution."
 source_url: https://iliad-intensive.org/learning/data-attribution/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 authors:
   - Louis Jaburi
 upstream_key: "data-attribution#22-translation-to-modern-neural-networks"
-upstream_fingerprint: "exAJFY/1528/1/0Ajg0BvF0GdJ0GkS0Lne0Rhl0bsg0g9X0hpq0iR60oCx0orv0rb20sHR0ymU11KF1CBN1OTZ1a7q1ePx1h1x1nPU1nt41pOU1tso1vAJ1xzp22cW24ZH2A3W2AJG2HQ8"
+upstream_fingerprint: "exAJFY/1530/1/0Ajg0BvF0GdJ0GkS0Lne0Rhl0bsg0g9X0hpq0iR60oCx0orv0rb20sHR0ymU11KF1CBN1OTZ1a7q1ePx1h1x1nPU1nt41pOU1tso1vAJ1xzp22cW24ZH2A3W2AJG2HQ8"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/data-attribution/#22-translation-to-modern-neural-networks"
@@ -43,7 +43,7 @@ where $$J = \partial f_{w}/\partial w$$ is the parameter-output Jacobian and $$H
 The fix proposed by Bae et al. 2022 is to replace the original training loss by a surrogate for which $$w^{*}$$ *is* optimal by construction. Concretely, define the *proximal Bregman objective* (PBO) as
 
 $$
-\begin{aligned}L_{\mathrm{PBO}}(w;\beta) \;=\;&\sum_{i=1}^{n}D_{L_y}\!\bigl(f_{w}(x_{i}),\,f_{w^*}(x_{i})\bigr) \;+\; \sum_{i=1}^{n}(\beta_{i} - 1)\,L(w,z_{i}) \\&+ \frac{\lambda}{2}\,\|w - w^{*}\|^{2},\end{aligned}
+\begin{aligned}L_{\mathrm{PBO}}(w;\beta) \;=\;&\sum_{i=1}^{n}D_{L_y}\!\bigl(f_{w}(x_{i}),\,f_{w^*}(x_{i})\bigr) \;+\; \sum_{i=1}^{n}(\beta_{i} - 1)\,L(w,z_{i}) \\&+ \frac{\lambda}{2}\,\|w - w^{*}\|^{2},\end{aligned}  \tag{5}
 $$
 
 where $$D_{L_y}(\hat y,\hat y^{*})$$ is the Bregman divergence of the output-space loss $$L_{y}$$ around $$\hat y^{*}$$. The first term penalizes any change in the network's predictions on the training set, with the current model $$w^{*}$$ as the reference; the second is the perturbation of interest; the third is the damping. By construction, $$w^{*}$$ is the minimizer of $$L_{\mathrm{PBO}}(\,\cdot\,;\mathbf{1})$$ regardless of whether it is a critical point of the original loss. The minimizer of $$L_{\mathrm{PBO}}(\,\cdot\,;\beta)$$ for nearby $$\beta$$ defines the *proximal Bregman response function* (PBRF).
@@ -51,7 +51,7 @@ where $$D_{L_y}(\hat y,\hat y^{*})$$ is the Bregman divergence of the output-spa
 When one re-derives the influence function formula starting from $$L_{\mathrm{PBO}}$$ instead of $$L$$, the result is
 
 $$
-\mathcal{I}_{\mathrm{PBRF}}(z_{i},\phi) \;=\; -\,\nabla_{w}\phi(w^{*})^{\top}\,(G + \lambda I)^{-1}\,\nabla_{w} L(w^{*},z_{i}),
+\mathcal{I}_{\mathrm{PBRF}}(z_{i},\phi) \;=\; -\,\nabla_{w}\phi(w^{*})^{\top}\,(G + \lambda I)^{-1}\,\nabla_{w} L(w^{*},z_{i}),  \tag{6}
 $$
 
 the same expression that the modern literature uses. This is effectively the counterfactual it approximates. As Bae et al. 2022 put it: *if influence functions are the answer, the question is the PBRF, not LOO retraining*. We refer to their paper for a detailed decomposition of the remaining gap between the PBRF and the original LOO counterfactual.

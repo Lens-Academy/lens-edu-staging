@@ -4,11 +4,11 @@ title: "B.5.10 Materializing the Jacobian and REPLAY"
 tldr: "Makes unrolling practical in two ways: stationary segments with a materialized Jacobian (the SOURCE method), and implicit Jacobian-vector products with the REPLAY algorithm."
 summary_for_tutor: "Subsections 4.2.1 and 4.2.2 of Iliad worksheet B.5 Data Attribution: stationary segments with checkpoints, segment Jacobian and segment response, the full SOURCE formula, a remark that unrolling gives a principled damping, then the metagradient decomposition, REPLAY reverse-mode through training with O(T log T) cost, and a comparison with explicit unrolling. No exercises."
 source_url: https://iliad-intensive.org/learning/data-attribution/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 authors:
   - Louis Jaburi
 upstream_key: "data-attribution#421-materializing-the-jacobian"
-upstream_fingerprint: "Lx0l7N/1171/1/009A02MI052706Md0BP60Hxw0K2f0SvW0XbY0brS0f2I0lQO0nP00t8j0txr108614Jx15Qr1Uhl1VoM1Wjd1Wtz1doj1mBt1pkF1rNG20c524ZH2COs2GYD2MsN2PYM"
+upstream_fingerprint: "Lx0l7N/1180/1/009A02MI052706Md0BP60Hxw0K2f0SvW0XbY0brS0f2I0lQO0nP00t8j0txr108614Jx15Qr1Uhl1VoM1Wjd1Wtz1doj1mBt1pkF1rNG20c524ZH2COs2GYD2MsN2PYM"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/data-attribution/#421-materializing-the-jacobian"
@@ -23,7 +23,7 @@ In this subsection we will derive the SOURCE method (Bae et al. 2024), which int
 **Stationary segments.**  Divide the $$T$$ training steps into $$L$$ segments at checkpoints $$0 = T_{0} < T_{1} < \cdots < T_{L} = T$$, and let $$K_{\ell} = T_{\ell} - T_{\ell-1}$$ be the number of steps in segment $$\ell$$. Within each segment, make the *stationarity approximation*: the expected mini-batch Hessian and per-example gradient are approximately constant,
 
 $$
-\bar{H}_{\ell} \;\approx\; \frac{1}{K_{\ell}}\sum_{t=T_{\ell-1}}^{T_\ell - 1}\widehat{H}_{t}, \qquad \bar{g}_{i,\ell}\;\approx\; \frac{1}{K_{\ell}}\sum_{t=T_{\ell-1}}^{T_\ell - 1}\nabla_{w} L(w_{t},z_{i}).
+\bar{H}_{\ell} \;\approx\; \frac{1}{K_{\ell}}\sum_{t=T_{\ell-1}}^{T_\ell - 1}\widehat{H}_{t}, \qquad \bar{g}_{i,\ell}\;\approx\; \frac{1}{K_{\ell}}\sum_{t=T_{\ell-1}}^{T_\ell - 1}\nabla_{w} L(w_{t},z_{i}). \tag{25}
 $$
 
 Similarly, write $$\bar\eta_{\ell}$$ for the average learning rate in segment $$\ell$$.
@@ -31,7 +31,7 @@ Similarly, write $$\bar\eta_{\ell}$$ for the average learning rate in segment $$
 **Segment Jacobian.**  Under the stationarity approximation, the product of $$K_{\ell}$$ step Jacobians within segment $$\ell$$ simplifies to a matrix power:
 
 $$
-J_{T_{\ell-1}:T_\ell}\;\approx\; (I - \bar\eta_{\ell}\,\bar{H}_{\ell})^{K_\ell}\;\approx\; \exp\bigl(-\bar\eta_{\ell}\,K_{\ell}\,\bar{H}_{\ell}\bigr) \;=:\; \bar{S}_{\ell}.
+J_{T_{\ell-1}:T_\ell}\;\approx\; (I - \bar\eta_{\ell}\,\bar{H}_{\ell})^{K_\ell}\;\approx\; \exp\bigl(-\bar\eta_{\ell}\,K_{\ell}\,\bar{H}_{\ell}\bigr) \;=:\; \bar{S}_{\ell}. \tag{26}
 $$
 
 The matrix exponential is well approximated by the matrix power when $$\bar\eta_{\ell}\,\bar{H}_{\ell}$$ has small spectral norm. In an eigenbasis of $$\bar{H}_{\ell}$$ with eigenvalue $$\sigma$$, the segment Jacobian acts as the scalar filter $$F_{S}(\sigma) = e^{-\bar\eta_\ell K_\ell \sigma}$$: high-curvature directions ($$\sigma$$ large) are exponentially damped, while low-curvature directions ($$\sigma$$ small) are preserved.
@@ -39,7 +39,7 @@ The matrix exponential is well approximated by the matrix power when $$\bar\eta_
 **Segment response.**  Return to the unrolling formula (20) and restrict the sum to the steps inside segment $$\ell$$. The contribution of datum $$z_{i}$$ during this segment is
 
 $$
-R_{i,\ell}\;:=\; \sum_{t=T_{\ell-1}}^{T_\ell - 1}\frac{\eta_{t}}{b}\;\mathbf{1}[i\in B_{t}]\;J_{(t+1):T_\ell}\;\nabla_{w} L(w_{t},z_{i}),
+R_{i,\ell}\;:=\; \sum_{t=T_{\ell-1}}^{T_\ell - 1}\frac{\eta_{t}}{b}\;\mathbf{1}[i\in B_{t}]\;J_{(t+1):T_\ell}\;\nabla_{w} L(w_{t},z_{i}), \tag{27}
 $$
 
 where the Jacobian $$J_{(t+1):T_\ell}$$ propagates each gradient contribution forward to the segment boundary $$T_{\ell}$$ (propagation from $$T_{\ell}$$ to the end of training is handled by the inter-segment Jacobians $$\bar{S}_{\ell'}$$ in the full formula below). Now apply the stationarity approximation: replace each $$\nabla_{w} L(w_{t},z_{i})$$ by $$\bar{g}_{i,\ell}$$, each learning rate by $$\bar\eta_{\ell}$$, replace the indicator $$\mathbf{1}[i\in B_{t}]$$ by its expectation $$b/n$$ (datum $$z_{i}$$ appears in a random batch with probability $$b/n$$), and use the segment Jacobian approximation $$J_{(t+1):T_\ell}\approx (I - \bar\eta_{\ell}\bar{H}_{\ell})^{T_\ell - 1 - t}$$. This gives
@@ -51,13 +51,13 @@ $$
 The sum is a matrix geometric series. Using $$\sum_{k=0}^{K-1}M^{k} = (I - M^{K})(I-M)^{-1}$$ with $$M = I - \bar\eta_{\ell}\bar{H}_{\ell}$$ and passing to the matrix exponential:
 
 $$
-\bar{r}_{i,\ell}\;:=\; \frac{1}{n}\bigl(I - e^{-\bar\eta_\ell K_\ell \bar{H}_\ell}\bigr)\bar{H}_{\ell}^{-1}\,\bar{g}_{i,\ell}.
+\bar{r}_{i,\ell}\;:=\; \frac{1}{n}\bigl(I - e^{-\bar\eta_\ell K_\ell \bar{H}_\ell}\bigr)\bar{H}_{\ell}^{-1}\,\bar{g}_{i,\ell}. \tag{28}
 $$
 
 To understand this, work in an eigenbasis of $$\bar{H}_{\ell}$$. On an eigenvalue $$\sigma$$, the matrix $$(I - e^{-\bar\eta_\ell K_\ell \bar{H}_\ell})\bar{H}_{\ell}^{-1}$$ acts as the scalar
 
 $$
-F_{r}(\sigma) \;=\; \frac{1 - e^{-\bar\eta_\ell K_\ell\,\sigma}}{\sigma}.
+F_{r}(\sigma) \;=\; \frac{1 - e^{-\bar\eta_\ell K_\ell\,\sigma}}{\sigma}. \tag{29}
 $$
 
 Note the similarity to the classical influence function formula, which applies $$1/\sigma$$ (the inverse Hessian eigenvalue), and with the damped IF (6), which applies $$1/(\sigma + \lambda)$$. Thus $$F_{r}$$ can be seen as a principled damping constant:
@@ -69,7 +69,7 @@ Note the similarity to the classical influence function formula, which applies $
 **Full formula.**  Chaining the segment Jacobians and responses across all $$L$$ segments:
 
 $$
-\tau_{\mathrm{SOURCE}}(\phi,z_{i}) \;=\; \nabla_{w}\phi(w_{T})^{\top}\,\sum_{\ell=1}^{L}\Bigl(\prod_{\ell'=\ell+1}^{L}\bar{S}_{\ell'}\Bigr)\,\bar{r}_{i,\ell},
+\tau_{\mathrm{SOURCE}}(\phi,z_{i}) \;=\; \nabla_{w}\phi(w_{T})^{\top}\,\sum_{\ell=1}^{L}\Bigl(\prod_{\ell'=\ell+1}^{L}\bar{S}_{\ell'}\Bigr)\,\bar{r}_{i,\ell}, \tag{30}
 $$
 
 where the product is ordered with $$\ell' = L$$ on the left. With a single segment ($$L=1$$), the formula reduces to $$\nabla_{w}\phi^{\top}\,\bar{r}_{i,1}$$, which is the classical IF with $$H^{-1}$$ replaced by the filter $$F_{r}$$.
@@ -87,7 +87,7 @@ The second approach to evaluating (20) avoids materializing Jacobians altogether
 **Setup.**  Model the entire training process as a composition of $$T$$ differentiable update functions:
 
 $$
-s_{t+1}= h_{t}\bigl(s_{t},\, g_{t}(s_{t},\beta)\bigr), \qquad s_{0} = s_{\mathrm{init}},
+s_{t+1}= h_{t}\bigl(s_{t},\, g_{t}(s_{t},\beta)\bigr), \qquad s_{0} = s_{\mathrm{init}}, \tag{31}
 $$
 
 where $$s_{t}$$ is the full optimizer state at step $$t$$ (parameters, momentum buffers, etc.), $$g_{t}(s_{t},\beta) = \sum_{i\in B_t}\beta_{i}\,\nabla L(s_{t},z_{i})$$ is the weighted mini-batch gradient, and $$h_{t}$$ is the optimizer's update rule (SGD, Adam, etc.). The attribution target is $$\phi(s_{T})$$, which depends on $$\beta$$ through the entire chain of updates.
@@ -95,13 +95,13 @@ where $$s_{t}$$ is the full optimizer state at step $$t$$ (parameters, momentum 
 **The metagradient decomposition.**  Applying the chain rule through this composition:
 
 $$
-\frac{\partial\,\phi(s_{T})}{\partial \beta}\;=\; \sum_{t=0}^{T-1}\underbrace{\frac{\partial\,\phi(s_{T})}{\partial s_{t+1}}}_{A_{t+1}}\;\cdot\;\underbrace{\frac{\partial\,h_{t}(s_{t},g_{t}(s_{t},\beta))}{\partial \beta}}_{B_t}.
+\frac{\partial\,\phi(s_{T})}{\partial \beta}\;=\; \sum_{t=0}^{T-1}\underbrace{\frac{\partial\,\phi(s_{T})}{\partial s_{t+1}}}_{A_{t+1}}\;\cdot\;\underbrace{\frac{\partial\,h_{t}(s_{t},g_{t}(s_{t},\beta))}{\partial \beta}}_{B_t}. \tag{32}
 $$
 
 The vector $$A_{t+1}:= \partial\phi(s_{T})/\partial s_{t+1}$$ is the sensitivity of the final observable to the state at step $$t+1$$; it satisfies the backward recursion
 
 $$
-A_{t} \;=\; A_{t+1}\;\frac{\partial\,h_{t}(s_{t},g_{t})}{\partial s_{t}}, \qquad A_{T} = \nabla_{s_T}\phi(s_{T}).
+A_{t} \;=\; A_{t+1}\;\frac{\partial\,h_{t}(s_{t},g_{t})}{\partial s_{t}}, \qquad A_{T} = \nabla_{s_T}\phi(s_{T}). \tag{33}
 $$
 
 This is just backpropagation through the training loop. The vector $$B_{t}$$ is the direct effect of $$\beta$$ at step $$t$$: it captures how the gradient at step $$t$$ depends on the data weights. For vanilla SGD, $$B_{t}$$ reduces to $$-(\eta_{t}/b)\,[\nabla_{w} L(w_{t},z_{i})\cdot\mathbf{1}[i\in B_{t}]]_{i=1}^{n}$$.

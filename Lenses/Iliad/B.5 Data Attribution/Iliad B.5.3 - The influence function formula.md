@@ -4,11 +4,11 @@ title: "B.5.3 The influence function formula"
 tldr: "Introduces influence functions from robust statistics, defines the parameter influence with the inverse Hessian, relates it to leave-one-out, and has Exercise 2.1 deriving the formula with the implicit function theorem."
 summary_for_tutor: "Start of Section 2 of Iliad worksheet B.5 Data Attribution: Example 2.1 (influence on the mean), Definition 2.2 (influence function, inverse Hessian times gradient, at the minimum w*), the link to leave-one-out through beta = 1 minus e_i, and Exercise 2.1 (a)-(c) deriving the formula via the implicit function theorem and chain rule, with a collapsed solution. Keep the notation w*(beta), H, I(z_i, phi). Let the student attempt each exercise before revealing or paraphrasing a solution."
 source_url: https://iliad-intensive.org/learning/data-attribution/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 authors:
   - Louis Jaburi
 upstream_key: "data-attribution#2-influence-functions"
-upstream_fingerprint: "ZhxmwpnX6/1147/1/011L0BMm0OeU0Pdt0T4Z0ZsI0cOQ0oCx0udG1F1I1FGd1IOM1RwJ1TgK1Vam1a7q1jp31mXF1qlu22Gi23u12Dwv2G822SwD2Z9U2mxh2tYR2xor31LA34bd3Euy3NGE"
+upstream_fingerprint: "ZhxmwpnX6/1148/1/011L0BMm0OeU0Pdt0T4Z0ZsI0cOQ0oCx0udG1F1I1FGd1IOM1RwJ1TgK1Vam1a7q1jp31mXF1qlu22Gi23u12Dwv2G822SwD2Z9U2mxh2tYR2xor31LA34bd3Euy3NGE"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/data-attribution/#2-influence-functions"
@@ -79,7 +79,7 @@ In this section, we will focus on $$\mathcal{I}_{\mathrm{param}}(z_{i})$$. The i
 **Connection to leave-one-out.**  Setting $$\beta = \mathbf{1}- e_{i}$$ (i.e., removing $$z_{i}$$) and applying the first-order Taylor expansion gives
 
 $$
-w^{*}(\mathbf{1}- e_{i}) \;-\; w^{*} \;\approx\; -\,\mathcal{I}_{\mathrm{param}}(z_{i}) \;=\; H^{-1}\,\nabla_{w} L(w^{*},z_{i}),
+w^{*}(\mathbf{1}- e_{i}) \;-\; w^{*} \;\approx\; -\,\mathcal{I}_{\mathrm{param}}(z_{i}) \;=\; H^{-1}\,\nabla_{w} L(w^{*},z_{i}),  \tag{4}
 $$
 
 i.e. the parameter influence is, to first order, the change in $$w^{*}$$ that would result from removing $$z_{i}$$ from the training set entirely.

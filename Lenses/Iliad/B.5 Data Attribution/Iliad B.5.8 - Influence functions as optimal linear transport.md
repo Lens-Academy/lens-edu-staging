@@ -4,11 +4,11 @@ title: "B.5.8 Influence functions as optimal linear transport"
 tldr: "A long exercise showing influence functions are the optimal linear parameter shifts under a KL cost, including the degenerate case and a linear regression check."
 summary_for_tutor: "Section 3.3 of Iliad worksheet B.5 Data Attribution: the setup with total loss and the KL-based cost of a parameter shift, then Exercise 3.3 (a)-(f) with collapsed solutions: KL in terms of energies, Taylor expansion at w*, IFs are optimal (Mahalanobis cost in the Hessian metric), the degenerate case with a singular Hessian, a linear regression check, and a comparison with Exercise 3.2. Ends with a remark on optimal transport maps. Let the student attempt each exercise before revealing or paraphrasing a solution."
 source_url: https://iliad-intensive.org/learning/data-attribution/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 authors:
   - Louis Jaburi
 upstream_key: "data-attribution#33-long-exercise-influence-functions-as-optimal-linear-transport"
-upstream_fingerprint: "SDusz4/2156/1/06ri0DcB0G2G0GkS0O5Y0TwR0Vfu0aDB0cOQ0g9X0iw50wpb0xGA10rw11KF16C3182z18G51B3d1DBa1Dr11EoC1J6Y1NKF1T2m1VKB1VS21cJD1ha51oix24ZH28qW"
+upstream_fingerprint: "SDusz4/2160/1/06ri0DcB0G2G0GkS0O5Y0TwR0Vfu0aDB0cOQ0g9X0iw50wpb0xGA10rw11KF16C3182z18G51B3d1DBa1Dr11EoC1J6Y1NKF1T2m1VKB1VS21cJD1ha51oix24ZH28qW"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/data-attribution/#33-long-exercise-influence-functions-as-optimal-linear-transport"
@@ -33,19 +33,19 @@ Now suppose we want to approximate the effect of the perturbation without resamp
 To make this precise, we need to know the density of the shifted parameters. If $$w\sim p_{0}^{\beta}$$ and we set $$\tilde w = w + \varepsilon\,r(w)$$, then by the multivariate change-of-variables formula, $$\tilde w$$ has density
 
 $$
-q_{\varepsilon}(\tilde w) \;=\; \frac{p_{0}^{\beta}\bigl(\tilde w - \varepsilon\,r(\tilde w) + O(\varepsilon^{2})\bigr)}{\bigl|\det\bigl(I + \varepsilon\,\nabla r(w)\bigr)\bigr|}\,,
+q_{\varepsilon}(\tilde w) \;=\; \frac{p_{0}^{\beta}\bigl(\tilde w - \varepsilon\,r(\tilde w) + O(\varepsilon^{2})\bigr)}{\bigl|\det\bigl(I + \varepsilon\,\nabla r(w)\bigr)\bigr|}\,, \tag{12}
 $$
 
 where $$\nabla r$$ is the $$d\times d$$ Jacobian matrix of $$r$$ and the denominator is the usual volume-change factor.[^4] We measure how well $$q_{\varepsilon}$$ approximates $$p_{\varepsilon}^{\beta}$$ by the KL divergence $$D_{\mathrm{KL}}(q_{\varepsilon}\|p_{\varepsilon}^{\beta})$$. Rather than computing this directly, it is cleaner to write it as an expectation over the *original* distribution $$p_{0}^{\beta}$$:
 
 $$
-\begin{aligned}D_{\mathrm{KL}}(q_{\varepsilon}\|p_{\varepsilon}^{\beta}) \;=\; {\mathbb{E}}_{w\sim p_0^\beta}\!\Bigl[&\log p_{0}^{\beta}(w) - \log p_{\varepsilon}^{\beta}\bigl(w + \varepsilon r(w)\bigr) \\&- \log\bigl|\det\bigl(I + \varepsilon\nabla r(w)\bigr)\bigr|\Bigr].\end{aligned}
+\begin{aligned}D_{\mathrm{KL}}(q_{\varepsilon}\|p_{\varepsilon}^{\beta}) \;=\; {\mathbb{E}}_{w\sim p_0^\beta}\!\Bigl[&\log p_{0}^{\beta}(w) - \log p_{\varepsilon}^{\beta}\bigl(w + \varepsilon r(w)\bigr) \\&- \log\bigl|\det\bigl(I + \varepsilon\nabla r(w)\bigr)\bigr|\Bigr].\end{aligned} \tag{13}
 $$
 
 This identity follows by substituting (12) into the definition of KL and changing variables back to $$w$$. We define the *asymptotic KL cost*
 
 $$
-\mathcal{F}(r,\varepsilon) \;:=\; \lim_{\beta\to\infty}\,\frac{1}{\beta}\,D_{\mathrm{KL}}(q_{\varepsilon}\|p_{\varepsilon}^{\beta}).
+\mathcal{F}(r,\varepsilon) \;:=\; \lim_{\beta\to\infty}\,\frac{1}{\beta}\,D_{\mathrm{KL}}(q_{\varepsilon}\|p_{\varepsilon}^{\beta}). \tag{14}
 $$
 
 The $$1/\beta$$ normalization kills the determinant term (which is $$O(1)$$) and the entropy terms, isolating the energy contribution (which is $$O(\beta)$$).
@@ -72,7 +72,7 @@ $$
 Similarly, show that $$\inf_{w}[L(w) - \varepsilon L_{k}(w)] = L(w^{*}) - \varepsilon\,L_{k}(w^{*}) - \tfrac{\varepsilon^2}{2}\,\nabla L_{k}^{\top} H^{-1}\nabla L_{k} + O(\varepsilon^{3})$$, by minimizing the Taylor expansion of $$L - \varepsilon L_{k}$$ around $$w^{*}$$. Combine everything to obtain
 
 $$
-\mathcal{F}(r,\varepsilon) \;=\; \frac{\varepsilon^{2}}{2}\,\bigl(r - H^{-1}\nabla L_{k}\bigr)^{\top} H\,\bigl(r - H^{-1}\nabla L_{k}\bigr) \;+\; O(\varepsilon^{3}).
+\mathcal{F}(r,\varepsilon) \;=\; \frac{\varepsilon^{2}}{2}\,\bigl(r - H^{-1}\nabla L_{k}\bigr)^{\top} H\,\bigl(r - H^{-1}\nabla L_{k}\bigr) \;+\; O(\varepsilon^{3}). \tag{15}
 $$
 
 *Hint:* After substitution, the terms that do not depend on $$r$$ should assemble into $$\tfrac{\varepsilon^2}{2}\nabla L_{k}^{\top} H^{-1}\nabla L_{k}$$ and cancel with the partition-function contribution, leaving a perfect square.
