@@ -303,7 +303,7 @@ Pick something you do, or are deciding about, that costs you a lot. Use a differ
 
 Pick something you avoid but think is worth doing, again a different bug from the one in the lens. Paste this into Lens Tutor:
 
-> Be my partner for aversion factoring, the CFAR technique. Do not solve my problem. Ask me one question at a time and do not lecture. If it turns out to be a strong fear, suggest I switch to a smaller problem instead of trying exposure. First ask what I avoid and what appeals to me about it. Then help me split the aversion into specific parts, each with a one-word verdict, including tiny practical snags. Check whether I have found everything. For the worst part, ask me whether to fix the situation, change my reaction, or keep the aversion because it protects me from a real cost. Then ask what the fix costs in money, time, attention or awkwardness, and whether that is a good deal.
+> Be my partner for aversion factoring. Do not solve my problem. Ask me one question at a time. If it turns out to be a strong fear, suggest I switch to a smaller problem instead of trying exposure. First ask what I avoid and what appeals to me about it. Then help me split the aversion into specific parts, each with a one-word verdict, including tiny practical snags. Check whether I have found everything. For the worst part, ask me whether to fix the situation, change my reaction, or keep the aversion because it protects me from a real cost. Then ask what the fix costs in money, time, attention or awkwardness, and whether that is a good deal.
 
 ### 4. Stress-test your experiment (10 minutes)
 
