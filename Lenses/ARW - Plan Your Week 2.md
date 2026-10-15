@@ -29,6 +29,7 @@ Your system:
 Pick one technique from this week and try it on one real bug before you start next week's module:
 
 - **A TAP** (trigger-action plan). The one you built is ready to go. Check it at the end of the week: did the trigger fire, and did the action happen?
+- **Resolve cycles.** Pick a bug and a moment when you will run the timers on it.
 - **A system.** Finish the one you started, or build one for another snag from your scan.
 
 If one of them did not fit you, choose another, or change it so it fits. Saying why you changed it is part of the experiment.
@@ -48,6 +49,6 @@ content:: Write down your plan for this week.
 4. How will you know it worked? Say what you would see or what would stop happening.
 
 5. How will you remember to check at the end of the week?
-feedback-instructions:: The learner is committing to one real-life experiment for the coming week in a CFAR-style applied rationality workshop, with one technique from this week: a trigger-action plan (a concrete, noticeable trigger followed by a small action), resolve cycles (three five-minute timers: try to solve it, list five-minute next actions, do one), or a system (a change to their surroundings so a recurring snag takes care of itself).
+feedback-instructions:: The learner is committing to one real-life experiment for the coming week in a CFAR-style applied rationality workshop, with one technique from this week: a trigger-action plan (a concrete, noticeable trigger followed by a small action), resolve cycles (five-minute timers: try to solve it, list five-minute next actions, do one), or a system (a change to their surroundings so a recurring snag takes care of itself).
 
 Reply in 3 to 5 sentences. Check the plan against three things and name only the weakest one: is there a specific time or a concrete trigger, is it small enough to actually happen this week, and do they say what they would see if it worked? For a TAP, check whether the trigger is a moment they would notice and whether the action is small. If the evidence answer is a feeling ("I'll feel more productive"), ask what they would see that shows it. Never push toward a bigger experiment. If the plan is solid, say so in one sentence and stop. No generic praise. If they are taking this course with a group, suggest they bring the plan to the meeting.
