@@ -273,6 +273,5 @@ Resonate: The Double Crux step of trying out both sides and checking the agreed 
 Tutoring wheel: A workshop activity where everyone teaches one technique to the others in turn, and is taught by them.
 Pedagogical content knowledge (PCK): Knowledge about a topic that is also about how learners meet it, such as common misconceptions and what it is like to be a beginner.
 Clinical interviewing: Asking a learner about their thinking out of real curiosity, instead of pointing out their error.
-Tutoring wheel: A workshop activity where everyone teaches one technique to the others in turn, and is taught by them.
 Deliberate performance: Practising a skill inside tasks you already do, by paying attention to how you do them, instead of setting aside separate practice time.
 Monthly review: A short, fixed time each month to reread and update your bugs list, check whether your triggers fired, and pick the skill for the next month.
