@@ -31,7 +31,7 @@ This course follows the shape of that four-day workshop, stretched over six week
 - **The AI tutor as your partner.** At CFAR workshops, participants helped each other work through bugs in pairs, which CFAR calls "pair debugging".[^cite-cfar-schedule] Here the tutor plays that partner. It asks questions and keeps you on the technique's steps. It does not solve your bug for you, and it does not lecture. You can tell it when a technique does not fit you.
 - **A weekly experiment.** Each week ends with a plan to try one technique in your real life, and the next week starts by asking what actually happened. We think the hardest part of any technique is still using it once the class is over, and this loop is there for that.
 - **Real change, not liking.** We ask you to judge each technique by whether it changed something on a real bug, not by whether you enjoyed the class.
-- **Meetings, or on your own.** If you are in a group, you meet for 90 minutes each week to work on each other's real problems in small rooms. If you take the course alone, each meeting has a version you can do in 45 to 60 minutes with the [Lens Tutor](https://lensacademy.org/tutor).
+- **Meetings, or on your own.** If you are in a group, you meet for 90 minutes each week to work on each other's real problems in small rooms. If you take the course alone, each week ends with an optional page, "This week's meeting, alone", where you do the meeting in 45 to 60 minutes with the tutor as your partner.
 
 Plan for about three hours a week on the course pages, plus the meeting.
 
