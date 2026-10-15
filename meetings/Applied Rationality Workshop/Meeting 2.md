@@ -47,9 +47,8 @@ One or two people share what their group landed on.
 Take turns as bug owner, about 5 minutes each. A bug is something in your life that keeps going the way you don't want. Pick a small one you're happy to share. The others ask questions, and the owner picks the plan.
 
 1. The owner names a bug that happens in a moment that comes back, like "I open my laptop to write and end up on Slack."
-2. The others ask about the last time it happened, moment by moment, until you find the point where it went off track.
-3. Together, build a trigger-action plan for that point: "When (something I'd clearly notice), I (one small step)." The owner says it out loud. Then swap.
-4. If you still have time: imagine one of your plans fired every day and nothing changed. Where did it fail: the trigger, the step, or after it?
+3. The owner builds a trigger-action plan for that point: "When (something I'd clearly notice), I (one small step)." Then swap.
+4. If you still have time: one plan fired daily and nothing changed. Where did it fail: trigger, step, or after?
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
@@ -107,9 +106,9 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Go around, one person at a time:
+One person at a time:
 
-1. Share the experiment you planned at the end of this unit: one technique (a trigger-action plan, a resolve cycle, or a change to your surroundings), one bug. If you didn't plan one, pick one now.
+1. Share the experiment you planned at the end of this unit: one technique, one bug. No plan yet? Pick one now.
 2. The others imagine it is the next meeting and the experiment never happened. Each gives one likely reason why.
 3. Change one thing so that reason can't happen: a clearer trigger, a smaller step, or a change to your surroundings you make right now (a calendar entry, a reminder, moving an object).
 4. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
