@@ -18,6 +18,7 @@ source:: [[../shared/Session Doc - How today works]]
 
 Go around your group:
 
+1. How was the final unit? Did you finish it? If you didn't, what got in the way? What do you think about the course as a whole now?
 2. Name one bug from the bugs list you wrote in the first unit that changed, or one that didn't move at all. Pick one you're happy to say out loud.
 3. What changed it, or what kept it stuck?
 4. If you still have time: which technique would you drop from the course? Does someone else in your group want to keep it?
