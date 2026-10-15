@@ -37,7 +37,7 @@ to:: Having created space for it, you can now sit with it and see what it has to
 id:: a9d3db4a-0067-4616-8bfe-974ce9371d2b
 content:: Try the shelf exercise from the chapter. Say to yourself, quietly or out loud, "Everything in my life is perfect right now." Each time something objects, put it on the shelf and say the sentence again. Stop after five items, or when the sentence feels calm.
 
-Write down what ended up on your shelf. You can skip this. A word or a code word per item is enough. Only you and the tutor see it, and the tutor won't ask about it. If something on the shelf feels heavy, mark it and leave it there: you don't need it for this page.
+Write down what ended up on your shelf. You can skip this. A word or a code word per item is enough, and the tutor won't ask about it. If something on the shelf feels heavy, mark it and leave it there: you don't need it for this page.
 optional:: true
 feedback-instructions:: The learner has done the CFAR Handbook's "everything in my life is perfect right now" shelf exercise, which lays out the things that object, as preparation for choosing a Focusing topic. Reply in 1 to 3 sentences. Do not comment on or ask about any item, and do not interpret anything. If they marked something as heavy, say in one sentence that leaving it on the shelf is the right call for a practice session. If they say nothing came up, or that the sentence felt calm straight away, say that this happens and that any small item from their bugs list will work for the practice. No generic praise. One turn only, no question.
 
