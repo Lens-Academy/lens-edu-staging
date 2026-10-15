@@ -4,7 +4,7 @@ title: "Plan your week: a CoZE experiment"
 tldr: "Fix when and where you will run your comfort zone experiment, what you will pay attention to, and what would count as useful data whichever way it goes."
 summary_for_tutor: "Closing lens of week 4 of a CFAR-style applied rationality workshop. The learner has just designed a Comfort Zone Exploration (CoZE) experiment with the tutor and now commits to running it in real life this week: what, when and where, what they will pay attention to inside and outside, and what would count as useful data. Next week's module opens by showing them this plan and asking what happened. A CoZE experiment succeeds by gathering data, including the finding that a fence is in the right place, not by pushing through."
 reading_minutes: 2
-tutor_minutes: 8
+tutor_minutes: 5
 tags: [wip]
 ---
 #### Text
@@ -17,7 +17,7 @@ A CoZE experiment works if you come back with data: how it felt, what actually h
 
 #### Question: Open
 id:: fe8087d3-d915-4aa9-8337-126108467ac2
-content:: Write down your plan for this week.
+content:: Write down your plan for this week. If the tutor summed up your experiment on the last page, paste that summary here and add what is missing.
 
 1. What exactly will you try? Describe the small, safe version.
 
