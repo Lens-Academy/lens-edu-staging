@@ -1,7 +1,7 @@
 ---
 id: '63bbb72f-866e-4c1a-bfd4-4ef1fab100fe'
 title: Aversion Factoring
-tldr: "\"I just hate it\" is rarely the whole story. Split an avoided activity into its parts, and you may find that only one or two of them are what you mind."
+tldr: "\"I just hate it\" can hide several separate parts. Split an avoided activity into its parts, and you may find that only one or two of them are what you mind."
 summary_for_tutor: "Aversion Factoring class of week 3 (Motivation) of the Applied Rationality Workshop course, built on the CFAR Handbook post (Andrew Critch's technique). The learner reads the LEGO-principle framing with the running example (each part of running gets a verdict), the tree-climbing case study (danger and dirty clothes fixed by changing the situation, sticky hands fixed by recalibrating the reaction), the section on assessing aversions (not every aversion should be overcome, aversions are a trigger to look closer) and the five-step algorithm: choose an activity, check motivation (yum factors), factor the aversion into parts including trivial inconveniences, draw a causal graph and check it with walkthroughs or button tests, then implement concrete fixes for external factors and recalibration for internal ones. One graded practice question asks when changing one's reaction is right and when it is a mistake. Then the learner aversion factors a bug from their own list with the tutor as a pair-debugging partner and writes down the result."
 reading_minutes: 12
 tutor_minutes: 33
@@ -11,7 +11,7 @@ tags:
 ---
 #### Text
 content::
-Goal factoring is for when you are not sure an action is worth what it costs. Aversion factoring is for the opposite case: you have thought it through, you believe something is worth doing, and you still don't do it. Maybe you have meant to email a researcher whose work you admire for two months. Maybe you keep not opening the paper everyone in your field cites. Asked why, you say "I just don't feel like it."
+Goal factoring is for when you are not sure an action is worth what it costs. Aversion factoring is for a different case: you have thought it through, you believe something is worth doing, and you still don't do it. Maybe you have meant to email a researcher whose work you admire for two months. Maybe you keep not opening the paper everyone in your field cites. Asked why, you say "I just don't feel like it."
 
 The technique splits that feeling into the specific experiences behind it, so you can deal with each one separately, and decide which ones are worth dealing with at all.
 
