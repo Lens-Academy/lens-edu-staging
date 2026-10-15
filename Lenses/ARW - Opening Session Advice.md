@@ -2,16 +2,16 @@
 id: 'e3cdd644-b98a-44fb-b813-4af34f4f154e'
 title: "Advice from the opening session"
 tldr: "Advice CFAR gave on the first evening of every workshop: be present, let yourself want things, try techniques as written, then tinker until they fit you."
-summary_for_tutor: "The learner reads a selection of CFAR's opening-session tips (Be Present, Let your wants come alive, Try Things, Make good quiche, Adjust your seat, Eat the instructions, Build Form), written for a four-day in-person workshop and read here as advice for a six-week online one. Four short ungraded questions: when and where they will do the course, which unhelpful narrative they expect in themselves, what they would let themselves want, and a past method they dropped or followed too rigidly. The two tips that matter most for the rest of the course are 'eat the instructions' (try a technique as written first, then adapt it) and 'build form' (practise on small problems first). If the learner pushes back on a tip, treat that as legitimate: the tips themselves say to judge for yourself."
+summary_for_tutor: "The learner reads a selection of CFAR's opening-session tips (Be Present, Let your wants come alive, Try Things, Make good quiche, Eat the instructions, Build Form), written for a four-day in-person workshop and read here as advice for a six-week online one. Adjust your seat, The tacit and the explicit, and Boggle are in an optional closed box. Four short ungraded questions: when and where they will do the course, which unhelpful narrative they expect in themselves, what they would let themselves want, and a past method they dropped or followed too rigidly. The two tips that matter most for the rest of the course are 'eat the instructions' (try a technique as written first, then adapt it) and 'build form' (practise on small problems first). If the learner pushes back on a tip, treat that as legitimate: the tips themselves say to judge for yourself."
 tags: [wip]
-reading_minutes: 15
-tutor_minutes: 12
+reading_minutes: 12
+tutor_minutes: 10
 ---
 #### Text
 content::
-\## What past participants wished they had heard first
+\## Advice from earlier workshops
 
-At the start of every workshop, CFAR gave a handful of tips that came from watching earlier participants. They were written for four days in person, so where they say "the workshop" or "this weekend", read "these six weeks". Each tip is followed by one short question about you.
+At the start of every workshop, CFAR gave a handful of tips, many of them drawn from what earlier participants said they wished they had known. They were written for four days in person, so where they say "the workshop" or "this weekend", read "these six weeks". Each tip is followed by one short question about you.
 
 #### Article
 source:: [[../articles/cfar-duncan-opening-session-tips-advice]]
@@ -26,7 +26,7 @@ feedback-instructions:: The learner has read CFAR's "Be Present" tip and said wh
 
 #### Question: Open
 id:: fff56482-5f6a-4294-bfa5-be44271d1323
-content:: The tip names three unhelpful stories: "I'm too dumb, old or lazy to learn this", "I already know this part", and "I've got important things to do, and this can wait". Which one, if any, do you expect to hear in your own head during this course?
+content:: The tip names three unhelpful stories: "I'm too dumb, old or lazy to learn this", "I already know this part", and "I've got important things to do, and this lesson can wait". Which one, if any, do you expect to hear in your own head during this course?
 feedback-instructions:: The learner has read CFAR's "Be Present" tip and named which of three unhelpful narratives (too dumb/old/lazy, already know this, more important things) they expect in themselves, or none. Ungraded and personal. Reply in under 60 words, one reply. Reflect their answer in one sentence. If they named one, ask what they could do in the moment they notice it, using the tip's own suggestion of setting it aside as an experiment. If they said none, accept that. No praise, no reassurance speeches.
 
 #### Article
@@ -40,6 +40,10 @@ feedback-instructions:: The learner has read CFAR's "Let your wants come alive" 
 
 #### Article
 from:: ## **Try Things!**
+to:: let us know what you discovered.
+
+#### Article
+from:: ## **Eat the instructions**
 to:: try, _then_ tinker.
 
 #### Question: Open
@@ -55,11 +59,19 @@ to:: before we do.
 content::
 So when you try a new technique in this course, start it on a small bug if you can. Once it works on something small, take it to the bigger ones.
 
-#### Callout: Two more tips, if you are curious
+#### Callout: Three more tips, if you are curious
 collapse:: closed
 tone:: neutral
 
 #### Article
+from:: ## **Adjust your seat**
+to:: only you will be able to find.
+
+#### Article
 from:: ## **The tacit and the explicit**
+to:: room in their toolkit for both.
+
+#### Article
+from:: ## **Boggle!**
 
 #### End Callout
