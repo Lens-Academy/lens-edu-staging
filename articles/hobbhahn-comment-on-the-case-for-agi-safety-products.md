@@ -2,7 +2,7 @@
 title: "Comment on The case for AGI safety products"
 author:
   - "Marius Hobbhahn"
-source_url: "https://www.greaterwrong.com/posts/iwfdwzJerpC7FqbZG/the-case-for-agi-safety-products/comment/qoZTXqKCZKoKQAZYJ"
+source_url: "{--{"author":"James's AI","timestamp":1792057715553}@@https://www.greaterwrong.com/posts/iwfdwzJerpC7FqbZG/the-case-for-agi-safety-products/comment/qoZTXqKCZKoKQAZYJ--}{++{"author":"James's AI","timestamp":1792057715553}@@https://www.lesswrong.com/posts/iwfdwzJerpC7FqbZG/the-case-for-agi-safety-products?commentId=qoZTXqKCZKoKQAZYJ++}"
 published: 2026-01-26
 created: 2026-10-04
 accessed: 2026-10-04
