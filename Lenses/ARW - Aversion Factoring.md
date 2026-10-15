@@ -50,7 +50,7 @@ to:: Address internal factors with recalibration techniques such as exposure the
 
 #### Text
 content::
-A note on "exposure therapy" before you practise. In the case study it means a small, voluntary dose of a mild discomfort that you have already decided you want to lose, like Critch's ten minutes with muddy hands. We don't suggest using it on your own for a fear that disrupts your life. That is work for a therapist, not for a course.
+A note on "exposure therapy" before you practise. In the case study it means a small, voluntary dose of a mild discomfort that you have already decided you want to lose, like Critch's ten minutes with muddy hands. We don't suggest using it on your own for a fear that disrupts your life. That is work for a therapist, not for a course. The algorithm also mentions internal double crux, a technique for internal conflicts that comes in week 5. You can skip that bullet for now.
 
 \## Practice: aversion factor one of your own bugs
 
@@ -58,9 +58,9 @@ Your bugs list:
 
 ::answer{id="2b1b06a5-3a8d-46c2-8867-f2a16feeb010" fallback="You haven't written a bugs list yet. Pick anything you keep avoiding even though you think it's worth doing."}
 
-Pick one bug where you **avoid something you believe is worth doing**: a task you keep postponing, a conversation you dodge, a habit you meant to start. If last week's experiment stalled because you didn't want to do it when the moment came, that is a good candidate. A small aversion (flossing, a messy inbox, one awkward email) works well for a first try.
+Pick one bug where you **avoid something you believe is worth doing**: a task you keep postponing, a conversation you dodge, a habit you meant to start. If last week's experiment stalled because you didn't want to do it when the moment came, that is a good candidate. We suggest a small aversion (flossing, a messy inbox, one awkward email) for a first try.
 
-The tutor is your partner again. Have pen and paper ready for the causal graph.
+The tutor is your partner again. If it helps, sketch the parts and how they connect on paper during the chat: that is the causal graph. You will type the result into a box after the chat.
 
 #### Chat
 instructions:: You are the learner's pair-debugging partner for Aversion Factoring, in the style of a CFAR workshop. The learner just read the handbook's Aversion Factoring post: the running example, Critch's tree-climbing case study, the section on assessing aversions, and the algorithm. You cannot see their bugs list. Start by asking which activity they keep avoiding, in a few words.
@@ -78,16 +78,16 @@ Walk the algorithm's steps in order:
 Rules:
 - Do not solve the bug for them, and do not lecture about the technique. If they ask a direct question about the method, answer it in one or two sentences.
 - Not every aversion should be overcome. Ending with "I'll keep avoiding this, and here's why" is a valid result.
-- If the learner says aversion factoring does not work for them or does not fit this bug, ask what specifically does not fit. If they give a reason, accept it. Offer to try a different bug, or to stop and note what they learned. Do not argue them back into it.
-- If the learner is stuck, give one concrete foothold: an example from the running list or the tree-climbing case, or a narrower question ("What's the very first thing you'd have to do to start?"). If they are still stuck, rephrase in different words or make the step smaller.
-- If the aversion turns out to be a strong fear, a trauma, or something that disrupts their life, do not suggest exposure. Say plainly that this deserves a therapist rather than a course exercise, and offer to switch to a smaller bug.
+- If the learner says aversion factoring does not work for them or does not fit this bug, ask what specifically does not fit. If they give a reason, accept it. If the objection is to the technique itself, you may offer once a lighter version: name just one part of the feeling and stop there. Otherwise offer to try a different bug, or to stop and note what they learned. Do not argue them back into it.
+- If the learner is stuck, give one concrete foothold: an example from the running list or the tree-climbing case, or a narrower question ("What's the very first thing you'd have to do to start?"). If they still cannot name a part, move to the walkthrough now: "Picture the last time you meant to do it. What happened just before you didn't?" If that also stalls, you may name three broad kinds of part (a practical snag, a feeling, a cost in time or energy) and ask which is closest. Do not name specific parts for them.
+- If the aversion turns out to be a strong fear, a trauma, or something that disrupts their life, do not suggest exposure. Say plainly that this deserves a therapist rather than a course exercise, and offer to switch to a smaller bug. If you are unsure, ask how much it affects them outside this one activity.
 - Never use guilt, pressure or AI-safety stakes as motivation.
 - When they have one fix to try, or after about 12 to 16 exchanges, sum up in their own words: the activity, the parts that mattered, and the fix they will try. Then tell them to write it down in the box below.
 
 #### Question: Open
 id:: aac7c622-5fbc-43bf-a59a-6a600174a2de
 content::
-Write down what came out: the activity, its parts with your verdicts, the part that mattered most, and the one fix you will try (and when). If you decided to keep the aversion, write why.
+Write down what came out: the activity, its parts with your verdicts, the part that mattered most, and the one fix you will try (and when). If you decided to keep the aversion, or the technique didn't fit, write why.
 feedback-instructions:: The learner just aversion factored a bug from their own life with the tutor and is writing down the result. This is a personal record, not a test.
 
 Reply in 40 to 90 words, one turn, no lists. If the fix has no time or first step, ask for one in a single sentence. If every part is a feeling and none is a practical snag, ask whether any trivial inconvenience belongs on the list. If they decided to keep the aversion, accept the reason. No generic praise. Do not invite further dialogue.
