@@ -2,7 +2,7 @@
 title: "Comment on The Case Against AI Control Research"
 author:
   - "Buck Shlegeris"
-source_url: "https://www.greaterwrong.com/posts/8wBN8cdNAv3c7vt6p/the-case-against-ai-control-research/comment/Jmbyoe3DTZhQMkfKy"
+source_url: "{--{"author":"James's AI","timestamp":1792057664102}@@https://www.greaterwrong.com/posts/8wBN8cdNAv3c7vt6p/the-case-against-ai-control-research/comment/Jmbyoe3DTZhQMkfKy--}{++{"author":"James's AI","timestamp":1792057664102}@@https://www.lesswrong.com/posts/8wBN8cdNAv3c7vt6p/the-case-against-ai-control-research?commentId=Jmbyoe3DTZhQMkfKy++}"
 published: 2025-01-21
 created: 2026-10-04
 accessed: 2026-10-04
