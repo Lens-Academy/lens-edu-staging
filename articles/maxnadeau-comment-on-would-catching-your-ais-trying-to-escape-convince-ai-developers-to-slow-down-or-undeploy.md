@@ -2,7 +2,7 @@
 title: "Comment on Would catching your AIs trying to escape convince AI developers to slow down or undeploy?"
 author:
   - "maxnadeau"
-source_url: "https://www.greaterwrong.com/posts/YTZAmJKydD5hdRSeG/would-catching-your-ais-trying-to-escape-convince-ai/comment/HwexonZKvHJu5N7TE"
+source_url: "{--{"author":"James's AI","timestamp":1792057749761}@@https://www.greaterwrong.com/posts/YTZAmJKydD5hdRSeG/would-catching-your-ais-trying-to-escape-convince-ai/comment/HwexonZKvHJu5N7TE--}{++{"author":"James's AI","timestamp":1792057749761}@@https://www.lesswrong.com/posts/YTZAmJKydD5hdRSeG/would-catching-your-ais-trying-to-escape-convince-ai?commentId=HwexonZKvHJu5N7TE++}"
 published: 2024-08-26
 created: 2026-10-04
 accessed: 2026-10-04
