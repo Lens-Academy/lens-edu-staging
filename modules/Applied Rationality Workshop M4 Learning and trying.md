@@ -35,6 +35,5 @@ source:: [[../Learning Outcomes/Comfort zone experiments]]
 # Lens:
 source:: [[../Lenses/ARW - Comfort Zone Exploration]]
 
-# Submodule: Plan your week
 # Lens:
 source:: [[../Lenses/ARW - Plan Your Week 4]]
