@@ -21,6 +21,7 @@ Go around your group, two things:
 
 1. How was this unit? Did you finish it? If you didn't, what got in the way?
 2. At the end of the last unit you planned one small experiment in your own life. In a sentence or two: what did you try, and what happened on the problem it was meant to help? "It didn't happen, and here's the moment it slipped" is a full answer.
+3. If it slipped, the others guess: did the plan not come to mind at that moment, or did it come to mind and you didn't want to do it?
 
 
 | Names | Your experiment + what happened |
@@ -43,20 +44,21 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Goal factoring takes one action apart into the goals it serves, then looks for a cheaper way to get all of them.
+Goal factoring takes one action apart into the goals it serves, then looks for a cheaper way to get them all.
 
-1. One volunteer names something costly they do, or are deciding about. Small and everyday is fine. Examples:
+1. One volunteer names something costly they do or are deciding about (small is fine). No volunteer? Use "checking the news every morning". Examples:
     - a weekly meeting
     - a stay-or-quit choice
     - a daily habit
-2. The others ask "What is it for?" until the list of goals stops growing. Include goals about how the volunteer wants to be seen.
-3. Button test: "If a button gave you all of these without doing the thing, would you press it?" Any hesitation points to a missing goal. Add it.
-4. Brainstorm wild alternatives, one goal at a time. The volunteer picks one to try. Swap volunteers if there's time.
+3. Button test: "Would you press a button that gave you all of these without doing the thing?" Hesitation points to a missing goal. Add it.
+4. Brainstorm wild alternatives one goal at a time, then combine them into one plan. Keeping the action counts.
+
+If you still have time: swap volunteers.
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
-| Names | The action + the goal that surprised you + the alternative picked |
+| Names | The action + the goal that surprised you + the plan |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -79,21 +81,21 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Aversion factoring splits something you avoid into parts, because often one or two parts do the damage. The handbook splits running like this:
+Aversion factoring splits something you avoid into parts. You may mind only one or two of them. The handbook splits running like this:
 - shoes and clothes: fine
 - aching knees: very bad
 - wind in your face: great
 - people watching: bad
 
-1. Each person names one thing they avoid but think is worth doing. Pick one as a group. Small is fine (flossing, an inbox).
-2. Split it into five or more parts, each with a one-word verdict. Include tiny snags ("the floss is in a drawer I never open").
-3. For the worst part, each person votes: fix the situation, change the reaction, or keep the aversion because it protects against a real cost? Discuss where you disagree.
-4. Price the fix: what does it cost in money, time, attention or awkwardness? Is that a good deal?
+1. Anyone who wants names something they avoid but think is worth doing. Pick one. No takers? Use flossing.
+2. Split it into five or more parts, including tiny snags ("the floss is in a drawer I never open"). Its owner gives each part a short verdict.
+3. For the worst part, each person votes: fix the situation, change the reaction, or keep the aversion because it protects against a real cost? Discuss disagreements.
+4. If you voted to fix it: what does the fix cost in money, time, attention or awkwardness? Is that a good deal?
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
-| Names | The activity + the worst part + your verdict on it |
+| Names | The activity + the worst part + the group's vote |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -113,7 +115,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-1. Each person shares the experiment they planned at the end of this unit: one technique, one problem, one day. If you didn't plan one, pick one now.
+1. Each person shares as much as they like of the new experiment they planned at the end of this unit (technique and day is enough). If you didn't plan one, pick one now.
 2. The others imagine it is a few days later and the experiment didn't happen. What's the most likely reason?
 3. Change one thing in your plan so that reason can't stop it.
 4. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that?
@@ -129,7 +131,7 @@ One or two people share what their group landed on.
 \pagebreak
 ### Wrap-up  [1:27–1:30]
 
-Anyone who wants: one technique from this unit you will keep using, and one you would drop. One sentence each.
+One thing you're taking away, anyone who wants: a technique from this unit you will keep using, or one you would drop, and why. One sentence each.
 
 
 ---
@@ -265,6 +267,7 @@ Button test: Imagining a button that gives you all the goals you listed without 
 Prepare to accept all worlds: Before goal factoring, being willing to accept any answer, including keeping the action or dropping it.
 Five-second version: A tiny everyday use of a technique that takes a few seconds, such as asking "What is this for?" before a meeting.
 Aversion factoring: Splitting an activity you avoid into its parts, so you can fix the parts about the situation and recalibrate the reactions you would rather not have.
+Mindful walkthrough: Paying close attention, moment by moment, while doing an activity, to find what makes it unpleasant.
 Yum factor: Something about an activity that appeals to you or that you value.
 Trivial inconvenience: A small practical snag that keeps you from doing something, such as floss kept in a drawer you never open.
 Mindful walkthrough: Paying close attention, moment by moment, while doing (or imagining) an activity, to find where it turns unpleasant.
@@ -272,7 +275,7 @@ Recalibration: Changing your reaction rather than the situation, through small v
 Currency: Anything you spend or gain in a trade, such as time, money, attention, energy, sleep or goodwill.
 Repeated cost: A small cost paid again and again, which adds up to a large one over months or years.
 Diminishing returns: Each extra unit of effort gives less than the one before.
-Value of information: How much better you expect a decision to be with more information, given how likely the information is to change it.
+Value of information: How much better you expect things to go with the information you are seeking, weighing how much difference it could make against how likely it is to make it.
 Arbitrage: Moving resources from where you value them cheaply to where you value them highly, so that you end up better off overall.
 
 # Tab: Doing this meeting alone
@@ -288,13 +291,13 @@ Write two or three sentences for yourself: what you tried in the experiment from
 
 ### 2. What is it for? (15 to 20 minutes)
 
-Pick something you do, or are deciding about, that costs you a lot. Paste this into Lens Tutor:
+Pick something you do, or are deciding about, that costs you a lot. Use a different bug from the one in the lens. Paste this into Lens Tutor:
 
-> Be my partner for goal factoring, the CFAR technique. Do not solve my problem and do not lecture. Ask me one question at a time. First ask what action I want to factor. Then ask "What is it for?" until my list of goals stops growing, including how I want to be seen and how I see myself. Then run a button test: would I press a button that gives me all these goals without the action? Treat any hesitation as a missing goal. Then help me brainstorm alternatives one goal at a time, and combine them into a plan I can test.
+> Be my partner for goal factoring, the CFAR technique. Do not solve my problem and do not lecture. Ask me one question at a time. First ask what action I want to factor. Then ask "What is it for?" until my list of goals stops growing, including how I want to be seen and how I see myself. Then run a button test: would I press a button that gives me all these goals without the action? Treat any hesitation as a missing goal. Then help me brainstorm alternatives one goal at a time, and combine them into a plan I can test. Remind me that keeping the action is an allowed result. End with a quick check of what would stop me following the plan.
 
 ### 3. "I just hate it" (15 to 20 minutes)
 
-Pick something you avoid but think is worth doing. Paste this into Lens Tutor:
+Pick something you avoid but think is worth doing, again a different bug from the one in the lens. Paste this into Lens Tutor:
 
 > Be my partner for aversion factoring, the CFAR technique. Ask me one question at a time and do not lecture. First ask what I avoid and what appeals to me about it. Then help me split the aversion into specific parts, each with a one-word verdict, including tiny practical snags. Check whether I have found everything. For the worst part, ask me whether to fix the situation, change my reaction, or keep the aversion because it protects me from a real cost. Then ask what the fix costs in money, time, attention or awkwardness, and whether that is a good deal.
 
@@ -302,7 +305,7 @@ Pick something you avoid but think is worth doing. Paste this into Lens Tutor:
 
 Paste this into Lens Tutor, followed by the experiment you planned at the end of this unit:
 
-> Here is a small experiment I plan to run in my life. Imagine it is a few days later and it didn't happen. Tell me the most likely reason in one or two sentences, then ask me what one change to my plan would stop that reason. Keep going for at most three rounds.
+> Here is a small experiment I plan to run in my life. Imagine it is a few days later and it didn't happen. Tell me the most likely reason in one or two sentences, then ask me what one change to my plan would stop that reason. Keep going for at most three rounds. Then ask me what is most likely to stop me finishing the next unit.
 
 ### Close (2 minutes)
 
