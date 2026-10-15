@@ -27,6 +27,19 @@ content:: Before reading on, look for one yuck of your own. Name a step toward s
 feedback-instructions:: The learner has read the opening of the CFAR Handbook's Taste & Shaping chapter on yucks and yums (quick feelings of approach or avoid attached to things and actions, which can clash with a goal the person wants), and has named one step toward a goal that feels bad, with the moment the feeling shows up. Reply in 1 to 3 sentences. If they named a specific moment, say what it is in their words. If the moment is vague ("working on my thesis"), ask in one sentence for the first second of it: what do they see or think right before the feeling? No generic praise, no advice. One turn only.
 
 #### Article
+from:: ## **The power of hyperbole**
+to:: Would you expect better results if the delivery took ten hours, ten minutes, ten seconds, or a tenth of a second?
+
+#### Question: Open
+id:: 89818c9a-6dce-4f4f-bdb2-298d09d8cea7
+content:: Answer the author's question before reading on. Which delay would train the dog best, and what does that suggest about a small feeling that comes a fraction of a second after you open a file?
+feedback-instructions:: The learner has read the CFAR Handbook's account of shaping and has been asked the author's question: would a treat-delivery delay of ten hours, ten minutes, ten seconds or a tenth of a second train the dog best, and what does that suggest about a feeling that comes a fraction of a second after an action? The handbook's answer, which comes next: the shortest delay, because delay has a disproportionately large effect (hyperbolic discounting), so even tiny immediate feelings can shape behaviour strongly. Reply in 1 to 3 sentences. Say whether their answer matches, in plain words. Any reasoned guess counts as doing the exercise. No generic praise. Tell them to read on. One turn only.
+
+#### Article
+from:: Research has shown that the length of the delay between a behavior and its reward
+to:: can play a pivotal role in changing the way you view and interact with the world.
+
+#### Article
 from:: ## **Case study: the paycheck and the parking ticket**
 to:: and instead make us feel eager and motivated.
 
@@ -45,7 +58,7 @@ content:: Before you read on, use the model on these three people. For each one,
 3. The student with a jellybean at the end of every paragraph.
 feedback-instructions:: The learner has read the CFAR Handbook's account of shaping and hyperbolic discounting (small, immediate rewards and punishments reinforce whatever happened just before them) and is predicting, before reading the handbook's answer, what three people will learn. The handbook's answers, which come right after this question: the child learns that thinking "I should call Mom" leads to a bad feeling, so they call less. The executive learns to shy away from noticing mistakes, because the punishment lands right after the noticing, not after the mistake. The student learns to reach the end of paragraphs, not to understand them (a relevance error, as in Turbocharging).
 
-Reply in 3 to 5 sentences. For each case, say plainly whether their prediction matches the model, and if it misses, name the missing piece in one sentence (usually: which behaviour comes right before the consequence). If they say the executive "learns to make fewer mistakes", point out what the punishment lands on. No generic praise. Tell them to read on to compare with the handbook. One turn only.
+Reply in 3 to 5 sentences. For each case, say plainly whether their prediction matches the model, and if it misses, name the missing piece in one sentence. Check first whether they named which behaviour comes right before the consequence. If they say the executive "learns to make fewer mistakes", point out what the punishment lands on. No generic praise. Tell them to read on to compare with the handbook. One turn only.
 
 #### Article
 from:: The next time the person in the first example thinks about calling their mother
