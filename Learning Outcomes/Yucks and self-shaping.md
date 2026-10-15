@@ -19,7 +19,7 @@ Answer these:
 
 1. Why is his habit drifting this way?
 
-2. What might the dread be telling him, if anything?
+2. What might the dread be telling him?
 
 3. Propose one change, and say why it would work.
 assessment-instructions:: The question describes Tom, a PhD student who wants early feedback on drafts but sends them later and later. He feels dread on seeing his supervisor's email and leaves it unopened for a day or two. When he reads the comments he thinks "I should have caught that" about each one. He rewards himself with a coffee after every 500 words. His supervisor replies within a day, bluntly but usefully. The question asks: (1) why the habit is drifting, (2) what the dread might be telling him, (3) one change and why it would work.
