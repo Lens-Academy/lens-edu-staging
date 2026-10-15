@@ -18,10 +18,9 @@ source:: [[../shared/Session Doc - How today works]]
 
 Go around your group:
 
-1. How was the final unit? Did you finish it? If you didn't, what got in the way?
-2. What do you think about the course as a whole now?
-3. Name one bug from the bugs list you wrote in the first unit that changed, and what changed it. Or one that didn't move at all. Pick one you're happy to say out loud.
-4. If you still have time: if you had to drop one technique from the course, which would it be, and why?
+2. Name one bug from the bugs list you wrote in the first unit that changed, or one that didn't move at all. Pick one you're happy to say out loud.
+3. What changed it, or what kept it stuck?
+4. If you still have time: which technique would you drop from the course? Does someone else in your group want to keep it?
 
 
 | Names | One bug that changed (or didn't) + what did it |
@@ -49,7 +48,7 @@ Double Crux in one line: instead of trading conclusions, two people look togethe
 1. Find a disagreement that two of you actually have. Examples:
     - Should someone new to AI safety spend their first year on technical skills before anything else?
     - Is it better to work on a frontier AI lab's safety team or outside the labs?
-    - Will you still use any technique from this course in a year?
+    - Do most people still use a technique from a course like this a year later?
     - Anything else two of you disagree on and care about.
 2. Those two take the sides. Each says their view and how sure they are, as a percentage.
 3. Each says what would change their mind. After each reason, the third person asks: "If that turned out false, would you change your mind?"
