@@ -1,7 +1,7 @@
 ---
 id: '1fb87a23-42f8-4ed2-a8e2-206fadbbb83d'
 title: "Pendulums, policy-level decisions and saving state"
-tldr: "Most social changes trade one set of problems for a less serious one. Decide recurring choices once, as a policy with its exceptions. And after a long piece of thinking, save the clarity you reached."
+tldr: "Three short ideas from the CFAR Handbook. Social change often swaps old problems for smaller new ones, and both the gain and the new problems are real. For a choice you keep re-making, set a policy once, with its exceptions written in. After a long piece of thinking, keep a short reminder of the clarity you reached."
 summary_for_tutor: "Library lens of the Applied Rationality Workshop: the CFAR Handbook's flash class post on Pendulums (social change usually swaps one set of problems for a less serious one, and both halves are true), Policy-Level Decisionmaking (Duncan's wall-climbing story: for recurring decisions, set a policy that works in any mood, with its exceptions written in, instead of always following the plan or always following your gut) and Saving State (after a long technique, keep a handle, image or compressed chain of reasoning to get the clarity back later). The learner writes a policy, with exceptions, for one decision they keep re-making."
 reading_minutes: 12
 tutor_minutes: 5
