@@ -53,7 +53,7 @@ Warm up on someone else's plan before you build your own. A friend who wants to 
 3. Rewrite it as a TAP that follows the article's advice.
 force-feedback:: first
 assessment-instructions::
-The learner read the CFAR Handbook section on trigger-action plans (TAPs). It says a trigger should be a concrete, noticeable event, ideally sensory or a specific thought, close to the behaviour (for example feeling the metal door handle, not "going inside the building"). The action should be small and need almost no willpower, often just a step that reminds you of the goal and lets you choose (for example "look at the stairwell", not "take the stairs"), because large actions often don't happen or turn into guilt.
+The learner read a section on trigger-action plans (TAPs). It says a trigger should be a concrete, noticeable event, ideally sensory or a specific thought, close to the behaviour (for example feeling the metal door handle, not "going inside the building"). The action should be small and need almost no willpower, often just a step that reminds you of the goal and lets you choose (for example "look at the stairwell", not "take the stairs"), because large actions often don't happen or turn into guilt.
 
 The question gives the TAP "When I have some free time in the evening, I'll read a paper" and asks three things.
 
