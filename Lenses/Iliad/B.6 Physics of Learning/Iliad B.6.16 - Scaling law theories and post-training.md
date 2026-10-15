@@ -9,9 +9,9 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "qft#75-the-quantization-model-exponents-from-the-statistics-of-skills"
-upstream_fingerprint: "jOOGwlSIFJP67wdEDDaQev8e84sFotxDY/3527/1/00Ko07aX07v308tV0CBh0CGk0Cp60DTG0E0Q0G2G0GdL0KE40LAp0MX40NH20OxQ0PhR0W2D0W8v0Z3C0ars0hWV0ihc0lPu0lVd0lgx0mGZ0nCa0oCx0pYW0rb20sHR"
+upstream_fingerprint: "jOOGwlSIFJP67wdEDDaQev8e84sFotxDY/3532/1/00Ko07aX07v308tV0CBh0CGk0Cp60DTG0E0Q0G2G0GdL0KE40LAp0MX40NH20OxQ0PhR0W2D0W8v0Z3C0ars0hWV0ihc0lPu0lVd0lgx0mGZ0nCa0oCx0pYW0rb20sHR"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/qft/#75-the-quantization-model-exponents-from-the-statistics-of-skills"
@@ -32,7 +32,7 @@ The assumptions, in the form we'll use:
 - **QH3 (Zipfian use).** Quantum $$k$$ is *used* on a fraction
 
 $$
-p_{k} = \frac{k^{-(\alpha+1)}}{\zeta(\alpha+1)}
+p_{k} = \frac{k^{-(\alpha+1)}}{\zeta(\alpha+1)} \tag{7.7}
 $$
 
 of samples ($$\alpha>0$$ a constant), and on those samples, knowing it reduces the loss by a constant $$\Delta$$ (independent of $$k$$).
@@ -40,7 +40,7 @@ of samples ($$\alpha>0$$ a constant), and on those samples, knowing it reduces t
 Consequently, a model that has learned the first $$m$$ quanta has expected loss
 
 $$
-L_{m} = L_{\infty} + \Delta \sum_{k>m}p_{k}\,.
+L_{m} = L_{\infty} + \Delta \sum_{k>m}p_{k}\,. \tag{7.8}
 $$
 
 That is the entire model. Everything else is asking how $$m$$ is limited by each resource.
@@ -92,7 +92,7 @@ The quantization model takes the Zipf exponent $$\alpha$$ as *input*. The next t
 Sharma and Kaplan (Sharma & Kaplan 2020) propose the simplest continuous mechanism. A network with ReLU activations computes a piecewise-linear function, so regression on a data manifold of intrinsic dimension $$d$$ is a problem of *piecewise-linear interpolation*. A network with $$P$$ parameters can afford $$\sim P$$ linear pieces; tiling a $$d$$-dimensional manifold with $$P$$ pieces gives spacing $$s \sim P^{-1/d}$$; a linear patch approximates a smooth target to accuracy $$\sim s^{2}$$ (Taylor); and MSE is the *square* of the error. Hence
 
 $$
-L(P) \sim (s^{2})^{2} \sim P^{-4/d}\,,\qquad \alpha_{P} \approx \frac{4}{d}\,.
+L(P) \sim (s^{2})^{2} \sim P^{-4/d}\,,\qquad \alpha_{P} \approx \frac{4}{d}\,. \tag{7.9}
 $$
 
 Exponents are small because data manifolds are high-dimensional. The formula is testable, since $$d$$ can be measured with intrinsic-dimension estimators, which is exactly what (Sharma & Kaplan 2020) do.
@@ -124,13 +124,13 @@ Exponents are small because data manifolds are high-dimensional. The formula is 
 The second mechanism uses machinery we already own: the Bayesian kernel regression of Section 4.6, whose mode-filtering formula said that with $$n$$ samples (and inverse temperature $$\beta$$), the modes of the GP kernel that get learned are those with $$\lambda_{k} \gtrsim (n\beta)^{-1}$$. Suppose the kernel spectrum and the target's decomposition are power laws,
 
 $$
-\lambda_{k} \sim k^{-a}\quad (a>1)\,,\qquad y_{k}^{2} \sim k^{-b}\quad (b>1)\,,
+\lambda_{k} \sim k^{-a}\quad (a>1)\,,\qquad y_{k}^{2} \sim k^{-b}\quad (b>1)\,,  \tag{7.10}
 $$
 
 in a shared eigenbasis $$\{\varphi_{k}\}$$. The unlearned modes dominate the test error:
 
 $$
-L(n) \;\sim\; \sum_{k \,:\, \lambda_k \lesssim (n\beta)^{-1}}y_{k}^{2} \;\sim\; \sum_{k > k_*}k^{-b}\;\sim\; k_{*}^{\,1-b}\,,\qquad k_{*} \sim (n\beta)^{1/a}\,,
+L(n) \;\sim\; \sum_{k \,:\, \lambda_k \lesssim (n\beta)^{-1}}y_{k}^{2} \;\sim\; \sum_{k > k_*}k^{-b}\;\sim\; k_{*}^{\,1-b}\,,\qquad k_{*} \sim (n\beta)^{1/a}\,, \tag{7.11}
 $$
 
 giving $$L(n) \sim n^{-(b-1)/a}$$: *the scaling exponent is a ratio of spectral decay rates*. Everything about the data and the architecture enters through two measurable power laws. This is the starting point of the "eigenlearning" analyses (Bordelon et al. 2020; Canatar et al. 2021; Simon et al. 2023), which sharpen (7.11) into precise learning curves (including the overfitting factor whose divergence produces the double-descent peak of Section 6). Bahri et al. (Bahri et al. 2024) organize the possibilities into a clean $$2\times2$$ taxonomy: *resolution-limited* regimes (exponents from spectra or geometry, as here and in (7.9)) versus *variance-limited* regimes (universal exponent $$1$$), in each of $$P$$ and $$n$$.

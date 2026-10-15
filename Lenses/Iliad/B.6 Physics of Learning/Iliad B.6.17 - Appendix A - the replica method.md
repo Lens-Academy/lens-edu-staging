@@ -9,9 +9,9 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "qft#a-the-replica-method"
-upstream_fingerprint: "fFvohcizeOT71McQzb/2850/1/076G0Irn0JNS0S4C0WMq0WUp0XbR0aEj0blM0fl10g6b0jm00omS0sUa105b13pQ15JJ1A821AVK1B3d1Gpb1RM61USc1VKB1YWs1Yds1aje1evK1f7c1h1x1ha51pb8"
+upstream_fingerprint: "fFvohcizeOT71McQzb/2862/1/076G0Irn0JNS0S4C0WMq0WUp0XbR0aEj0blM0fl10g6b0jm00omS0sUa105b13pQ15JJ1A821AVK1B3d1Gpb1RM61USc1VKB1YWs1Yds1aje1evK1f7c1h1x1ha51pb8"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/qft/#a-the-replica-method"
@@ -40,19 +40,19 @@ For the Ising perceptron the direction of the error follows. The datasets that d
 The full calculation computes $${\mathbb{E}}_{\rm data}\log Z$$ through the identity
 
 $$
-{\mathbb{E}}\log Z = \lim_{Q\to0}\frac{{\mathbb{E}} Z^{Q} - 1}{Q}\qquad\big(\text{from }Z^{Q} = e^{Q\log Z}= 1 + Q\log Z + O(Q^{2})\big)\,.
+{\mathbb{E}}\log Z = \lim_{Q\to0}\frac{{\mathbb{E}} Z^{Q} - 1}{Q}\qquad\big(\text{from }Z^{Q} = e^{Q\log Z}= 1 + Q\log Z + O(Q^{2})\big)\,.  \tag{A.1}
 $$
 
 The strategy is to compute $${\mathbb{E}} Z^{Q}$$ for *integer* $$Q$$, where it has a transparent meaning, obtain a formula analytic in $$Q$$, and continue it to $$Q\to0$$. For integer $$Q$$, $$Z^{Q}$$ is the partition function of $$Q$$ independent copies, or *replicas*, of the student, all judged against the same dataset. For the Ising perceptron, from (2.39),
 
 $$
-{\mathbb{E}} Z^{Q} = \frac{1}{2^{NQ}}\sum_{\theta^1,\ldots,\theta^Q\in\{\pm1\}^N}\;{\mathbb{E}}_{\rm data}\prod_{\mu=1}^{n}\prod_{a=1}^{Q}\Theta\big(y^{\mu}\,(\theta^{a}\cdot x^{\mu})\big)\,.
+{\mathbb{E}} Z^{Q} = \frac{1}{2^{NQ}}\sum_{\theta^1,\ldots,\theta^Q\in\{\pm1\}^N}\;{\mathbb{E}}_{\rm data}\prod_{\mu=1}^{n}\prod_{a=1}^{Q}\Theta\big(y^{\mu}\,(\theta^{a}\cdot x^{\mu})\big)\,.  \tag{A.2}
 $$
 
 The data average is easy, because the inputs are Gaussian. For fixed replicas and teacher, each example enters only through the $$Q+1$$ numbers $$u^{a} = \theta^{a}\cdot x^{\mu}/\sqrt{N}$$ and $$v = \theta^{*}\cdot x^{\mu}/\sqrt{N}$$, which are exactly jointly Gaussian (they are linear in $$x^{\mu}$$), with mean zero and a covariance determined entirely by the *overlap matrix*
 
 $$
-\begin{aligned}q^{ab}&= \frac{\theta^a\cdot\theta^b}{N}\,,\qquad R^{a} = \frac{\theta^a\cdot\theta^*}{N}\,: \\ {\mathbb{E}}[u^{a}u^{b}]&= q^{ab}\,,\quad {\mathbb{E}}[u^{a}v] = R^{a}\,,\quad {\mathbb{E}}[v^{2}] = 1\,.\end{aligned}
+\begin{aligned}q^{ab}&= \frac{\theta^a\cdot\theta^b}{N}\,,\qquad R^{a} = \frac{\theta^a\cdot\theta^*}{N}\,: \\ {\mathbb{E}}[u^{a}u^{b}]&= q^{ab}\,,\quad {\mathbb{E}}[u^{a}v] = R^{a}\,,\quad {\mathbb{E}}[v^{2}] = 1\,.\end{aligned}  \tag{A.3}
 $$
 
 The product of step functions asks that every $$u^{a}$$ have the sign of $$v$$, and the probability of that event is some function $$e^{-e(q,R)}$$ of the overlaps alone: a Gaussian orthant probability in $$Q+1$$ dimensions. Since the examples are independent, the data average of the product over $$\mu$$ is the $$n$$-th power, $$e^{-n\,e(q,R)}= e^{-\alpha N\,e(q,R)}$$. For $$Q=1$$ the only overlap is $$R$$, the orthant is a wedge, and $$e(R) = -\log(1-\varepsilon(R))$$ is the energy term of Section 2.6.
@@ -60,13 +60,13 @@ The product of step functions asks that every $$u^{a}$$ have the sign of $$v$$, 
 The disorder is gone. In its place, the replicas are coupled through the overlaps $$q^{ab}$$, and the sum over the $$Q$$ binary vectors can be organized by the value of the overlaps, exactly as the sum over one binary vector was organized by $$R$$ in Exercise 2.3(c). Writing $$e^{N\,h(q,R)}$$ for the number of $$Q$$-tuples of students with prescribed overlaps (for $$Q=1$$ this is the binomial count of Exercise 2.3(c)), and replacing the sum over overlaps by an integral,
 
 $$
-{\mathbb{E}} Z^{Q} \;\approx\; \int dq\,dR\; e^{-N\,s_Q(q,R)}\,,\qquad s_{Q}(q,R) := Q\log 2 - h(q,R) + \alpha\,e(q,R)\,.
+{\mathbb{E}} Z^{Q} \;\approx\; \int dq\,dR\; e^{-N\,s_Q(q,R)}\,,\qquad s_{Q}(q,R) := Q\log 2 - h(q,R) + \alpha\,e(q,R)\,.  \tag{A.4}
 $$
 
 This is the replicated version of the one-variable action (2.44) of Section 2.6, to which it reduces at $$Q=1$$. At large $$N$$ the integral is dominated by the minimum of $$s_{Q}$$ over the overlaps, and the replica identity (A.1) then gives the quenched free-energy density
 
 $$
-\Phi(\alpha) := -\frac{1}{N}\,{\mathbb{E}}_{\rm data}\log Z \;=\; \lim_{Q\to0}\;\frac{1}{Q}\,\min_{q,R}\,s_{Q}(q,R)\,.
+\Phi(\alpha) := -\frac{1}{N}\,{\mathbb{E}}_{\rm data}\log Z \;=\; \lim_{Q\to0}\;\frac{1}{Q}\,\min_{q,R}\,s_{Q}(q,R)\,.  \tag{A.5}
 $$
 
 Compare the annealed approximation, which is $$\min_{R} s_{1}(R)$$: the annealed calculation keeps a *single* replica, and so never sees the coupling $$q^{ab}$$ between replicas that the shared data induce. That coupling is precisely the information about dataset-to-dataset fluctuations that Appendix A.1 found missing.
@@ -102,25 +102,25 @@ The six steps are their own outline; we record only the checkpoints. (Step 2) Co
 The replica method is easiest to push all the way to closed form in a variant of the problem with *continuous* weights, which is also the classic case in which the annealed and quenched learning curves can be compared analytically. Keep everything in Section 2.6 the same, but let the weights be real, $$\theta,\theta^{*}\in{\mathbb{R}}^{N}$$. Since $$f_{\theta} = \mathrm{sign}(\theta\cdot x)$$ is invariant under $$\theta\to\lambda\theta$$ with $$\lambda>0$$, remove the redundant scale by putting the weights on a sphere,
 
 $$
-|\theta|^{2} = |\theta^{*}|^{2} = N\,,
+|\theta|^{2} = |\theta^{*}|^{2} = N\,,  \tag{A.6}
 $$
 
 normalized so that individual weights stay of order one, and let the prior be the uniform measure $$\pi(\theta)\,d\theta$$ on the sphere. This is the *spherical perceptron*. The wedge formula (2.41) for the generalization error is unchanged, since its derivation used only that $$(\theta\cdot x,\theta^{*}\cdot x)/\sqrt{N}$$ is a Gaussian pair with correlation $$R$$, which holds for any $$\theta$$ with $$|\theta|^{2} = N$$. What changes is the entropy: the number of students at overlap $$R$$ becomes the *volume* of the slice of the sphere at overlap $$R$$. Decompose $$\theta = R\,\theta^{*} + \theta_{\perp}$$ with $$\theta_{\perp}\perp\theta^{*}$$. The constraint (A.6) gives $$|\theta_{\perp}|^{2} = N(1-R^{2})$$, so the slice is a sphere of radius $$\sqrt{N(1-R^{2})}$$ in the $$(N-1)$$-dimensional orthogonal complement, of volume $$\propto\big(N(1-R^{2})\big)^{(N-2)/2}$$, and
 
 $$
-\frac{1}{N}\log\int_{\theta:\,R(\theta)=R}d\theta\,\pi(\theta) \;=\; h(R) = \tfrac{1}{2}\log(1-R^{2}) + \text{const}+ O\big(\tfrac{1}{N}\log N\big)\,.
+\frac{1}{N}\log\int_{\theta:\,R(\theta)=R}d\theta\,\pi(\theta) \;=\; h(R) = \tfrac{1}{2}\log(1-R^{2}) + \text{const}+ O\big(\tfrac{1}{N}\log N\big)\,.  \tag{A.7}
 $$
 
 Repeating the annealed calculation of Exercise 2.3(d) with this entropy gives
 
 $$
-\begin{aligned}{\mathbb{E}}_{\rm data}Z&\approx \int_{-1}^{1} dR\; e^{-N\,S_{\rm ann}(R)}\,, \\ S_{\rm ann}(R)&:= \underbrace{-\tfrac{1}{2}\log(1-R^2)}_{\text{entropy}}\;\underbrace{-\;\alpha\log\big(1-\varepsilon(R)\big)}_{\text{energy}}\,,\end{aligned}
+\begin{aligned}{\mathbb{E}}_{\rm data}Z&\approx \int_{-1}^{1} dR\; e^{-N\,S_{\rm ann}(R)}\,, \\ S_{\rm ann}(R)&:= \underbrace{-\tfrac{1}{2}\log(1-R^2)}_{\text{entropy}}\;\underbrace{-\;\alpha\log\big(1-\varepsilon(R)\big)}_{\text{energy}}\,,\end{aligned}  \tag{A.8}
 $$
 
 and the annealed free-energy density is
 
 $$
-\Phi_{\rm ann}(\alpha) := \min_{R} S_{\rm ann}(R)\,.
+\Phi_{\rm ann}(\alpha) := \min_{R} S_{\rm ann}(R)\,.  \tag{A.9}
 $$
 
 Figure 9 shows $$S_{\rm ann}$$ for several loads. The entropy–energy competition is the same as for the Ising perceptron, but the outcome is different: the entropy $$-\frac{1}{2}\log(1-R^{2})$$ diverges as $$R\to1$$, so the perfectly aligned state is infinitely penalized, the minimum always sits in the interior, and it slides continuously from $$R=0$$ toward $$R=1$$ as $$\alpha$$ grows. There is no phase transition. This is the answer to the closing question of Exercise 2.3(h): the binary weights of the Ising perceptron give the aligned state finite entropy, $$h(1)=0$$, and that is what allows it to compete as a separate basin.
@@ -132,19 +132,19 @@ The annealed action $$S_{\rm ann}(R)$$ of the spherical perceptron, (A.8), for $
 *The learning curve.* The large-$$\alpha$$ behavior follows by expanding near $$R=1$$. Writing $$R = \cos(\pi\varepsilon)$$, so that $$\varepsilon$$ is the generalization error itself, $$1-R^{2}\approx(\pi\varepsilon)^{2}$$ and
 
 $$
-S_{\rm ann}\approx -\log(\pi\varepsilon) + \alpha\,\varepsilon + \text{const}\,,
+S_{\rm ann}\approx -\log(\pi\varepsilon) + \alpha\,\varepsilon + \text{const}\,,  \tag{A.10}
 $$
 
 which is minimized at
 
 $$
-\varepsilon_{\rm ann}(\alpha) \simeq \frac{1}{\alpha}\,.
+\varepsilon_{\rm ann}(\alpha) \simeq \frac{1}{\alpha}\,.  \tag{A.11}
 $$
 
 The generalization error decays as a *power law* in the amount of data, with exponent one: the simplest instance of the scaling laws of Section 7. The exact, quenched treatment (Seung et al. 1992; Engel & Van den Broeck 2001) runs through the replica steps of Exercise A.1 with the volume entropy (A.7) in place of the count (here replica symmetry can be justified by the convexity of the region of the sphere consistent with the data), and yields
 
 $$
-\varepsilon_{\rm Gibbs}(\alpha)\simeq\frac{0.625}{\alpha}\,:
+\varepsilon_{\rm Gibbs}(\alpha)\simeq\frac{0.625}{\alpha}\,:  \tag{A.12}
 $$
 
 the same exponent, with a different constant. As in Appendix A.1, the annealed average overweights poorly aligned students and overestimates the error, $$1/\alpha>0.625/\alpha$$; and since the model is realizable, the exponent survives the approximation even though the constant does not.

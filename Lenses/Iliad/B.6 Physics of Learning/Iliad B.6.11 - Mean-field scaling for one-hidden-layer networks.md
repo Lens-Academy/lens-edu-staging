@@ -9,9 +9,9 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "qft#52-mean-field-scaling-for-one-hidden-layer-networks"
-upstream_fingerprint: "53S10QFw7g6z2gA0fXlWBiAa/2728/1/02Xj03Vo072k0CFE0Ela0PY70Q5u0S4C0SvW0TfJ0WUG0WUp0f2I0fkS0lNn0nP00nlJ0rPd0vLZ0yzi11Nv12NE13Js159d1A5l1A6T1CPB1FB71Lw61NKF1Ntq1T3O"
+upstream_fingerprint: "53S10QFw7g6z2gA0fXlWBiAa/2745/1/02Xj03Vo072k0CFE0Ela0PY70Q5u0S4C0SvW0TfJ0WUG0WUp0f2I0fkS0lNn0nP00nlJ0rPd0vLZ0yzi11Nv12NE13Js159d1A5l1A6T1CPB1FB71Lw61NKF1Ntq1T3O"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/qft/#52-mean-field-scaling-for-one-hidden-layer-networks"
@@ -24,7 +24,7 @@ content::
 Return to the one-hidden-layer network (4.26) of Sections 3.5 and 4.3, but now normalized with $$1/N$$ out front instead of $$1/\sqrt{N}$$, with the same *order-one* weights:
 
 $$
-f_{\theta}(x) = \frac{1}{N}\sum_{i=1}^{N} c_{i}\,\phi(a_{i}\cdot x)\,,\qquad c_{i},\, a_{ij}\sim {{\mathcal N}}(0,1)\,,
+f_{\theta}(x) = \frac{1}{N}\sum_{i=1}^{N} c_{i}\,\phi(a_{i}\cdot x)\,,\qquad c_{i},\, a_{ij}\sim {{\mathcal N}}(0,1)\,, \tag{5.7}
 $$
 
 with $$c_{i}\in{\mathbb{R}}$$, $$a_{i},x\in{\mathbb{R}}^{d}$$ (as in (4.26), the first-layer factor $$1/\sqrt{d}$$ has been absorbed into $$x$$). Compared with the fan-in normalization of Sections 3–4, mean-field scaling suppresses the output by *one extra factor of $$1/\sqrt{N}$$*. The function class is identical — only the coordinates on it have changed. However, gradient flow is *not* invariant under reparametrization: as emphasized in Section 4.1.1 and in the callout of Section 4.3, gradient descent presupposes the Euclidean metric on parameter space, and rescaling coordinates rescales that metric. Two parametrizations of the same function class can (and here will) flow along completely different trajectories.
@@ -32,13 +32,13 @@ with $$c_{i}\in{\mathbb{R}}$$, $$a_{i},x\in{\mathbb{R}}^{d}$$ (as in (4.26), the
 For a mean-field analysis, our $$N$$ particles are going to be the $$N$$ hidden neurons, with parameters
 
 $$
-\theta_{i} = (c_{i},a_{i}) \in {\mathbb{R}}^{d+1}\,,\qquad i=1,...,N\,.
+\theta_{i} = (c_{i},a_{i}) \in {\mathbb{R}}^{d+1}\,,\qquad i=1,...,N\,.  \tag{5.8}
 $$
 
 Their values are encoded in the empirical measure (5.5), and the network (5.7) depends on its parameters only through $$\rho_{N}$$,
 
 $$
-f_{\theta}(x) = \int c\,\phi(a\cdot x)\,d\rho_{N}(c,a) =: f_{\rho_N}(x)\,.
+f_{\theta}(x) = \int c\,\phi(a\cdot x)\,d\rho_{N}(c,a) =: f_{\rho_N}(x)\,. \tag{5.9}
 $$
 
 We think of the network value $$f_{\rho}$$ as a linear functional of $$\rho$$. Neurons are viewed as exchangeable particles, and the measure is their state.
@@ -48,7 +48,7 @@ We think of the network value $$f_{\rho}$$ as a linear functional of $$\rho$$. N
 At initialization, the summands $$c_{i}\phi(a_{i}\cdot x)$$ in (5.7) are i.i.d. with mean zero (since $$c_{i}$$ is independent of $$a_{i}$$ and $${\mathbb{E}}[c_{i}]=0$$). With the $$1/N$$ prefactor, the law of large numbers gives, for each fixed $$x$$,
 
 $$
-f_{\theta_0}(x) = \underbrace{{\mathbb{E}}\big[c\,\phi(a\cdot x)\big]}_{=\,0}+ \,O(1/\sqrt{N}) \;\xrightarrow{\;N\to\infty\;}\; 0\,.
+f_{\theta_0}(x) = \underbrace{{\mathbb{E}}\big[c\,\phi(a\cdot x)\big]}_{=\,0}+ \,O(1/\sqrt{N}) \;\xrightarrow{\;N\to\infty\;}\; 0\,.  \tag{5.10}
 $$
 
 Contrast this with Section 3.4: with the $$1/\sqrt{N}$$ normalization, the same sum sits exactly at the scale of its fluctuations, and the CLT produces an order-one Gaussian process. Mean-field scaling instead sits at the scale of the *mean*.
@@ -60,19 +60,19 @@ The network begins training as (essentially) the zero function; there is no rand
 Let's train on MSE loss over the data $$(x^{\mu},y^{\mu})_{\mu=1}^{n}$$, as in Section 4:
 
 $$
-{{\mathcal L}}(\theta) = \frac{1}{2}\sum_{\mu=1}^{n} \big(f_{\theta}(x^{\mu})-y^{\mu}\big)^{2}\,.
+{{\mathcal L}}(\theta) = \frac{1}{2}\sum_{\mu=1}^{n} \big(f_{\theta}(x^{\mu})-y^{\mu}\big)^{2}\,.  \tag{5.11}
 $$
 
 Inserting (5.7) and expanding the square, we get
 
 $$
-{{\mathcal L}}(\theta) = \text{const}+ \frac{1}{N}\sum_{i=1}^{N} V(\theta_{i}) + \frac{1}{2N^{2}}\sum_{i,j=1}^{N} U(\theta_{i},\theta_{j})\,,
+{{\mathcal L}}(\theta) = \text{const}+ \frac{1}{N}\sum_{i=1}^{N} V(\theta_{i}) + \frac{1}{2N^{2}}\sum_{i,j=1}^{N} U(\theta_{i},\theta_{j})\,, \tag{5.12}
 $$
 
 with
 
 $$
-V(\theta) = -\sum_{\mu=1}^{n} y^{\mu}\, c\,\phi(a\cdot x^{\mu})\,,\qquad U(\theta,\theta') = \sum_{\mu=1}^{n} c\,\phi(a\cdot x^{\mu})\; c'\,\phi(a'\cdot x^{\mu})\,.
+V(\theta) = -\sum_{\mu=1}^{n} y^{\mu}\, c\,\phi(a\cdot x^{\mu})\,,\qquad U(\theta,\theta') = \sum_{\mu=1}^{n} c\,\phi(a\cdot x^{\mu})\; c'\,\phi(a'\cdot x^{\mu})\,. \tag{5.13}
 $$
 
 Comparing (5.12) with (5.3), we see that up to an overall factor of $$N$$, the loss is precisely a mean-field energy. In particular, $$E_{N}:=N{{\mathcal L}}$$ has the canonical normalization from (5.3) and is extensive, while the loss itself can be interpreted as the *intensive* energy per neuron.
@@ -84,7 +84,7 @@ We can also identify physical roles for the two potentials! $$V$$ rewards neuron
 Because $$\partial f/\partial \theta_{i} = O(1/N)$$ in this parametrization, raw gradients of $${{\mathcal L}}$$ are $$O(1/N)$$, and gradient flow at fixed learning rate would freeze as $$N\to\infty$$. We must therefore scale the learning rate *up*,
 
 $$
-\eta = N\,\tilde\eta\,,
+\eta = N\,\tilde\eta\,, \tag{5.14}
 $$
 
 with $$\tilde\eta$$ fixed. (Equivalently, we could run vanilla gradient flow on the extensive energy $$E_{N}=N{{\mathcal L}}$$.) This is the rule of Section 4.3 at work: the NTK, computed below in (5.24), is $$O(1/N)$$, so keeping $$\frac{d}{dt}f^{\mu} = -\eta\,\Theta^{\mu\nu}\Delta^{\nu}$$ of order one requires $$\eta\propto N$$. Note the contrast with Section 4.3: there the NTK was of order one and the learning rate needed no rescaling; here the NTK *shrinks* like $$1/N$$ and we scale up. Recall also the caveat from that section about changes of variables. The mean-field network could equally be written without a prefactor, $$f = \sum_{i}\tilde c_{i}\phi(a_{i}\cdot x)$$ with $$\tilde c_{i} = c_{i}/N\sim{{\mathcal N}}(0,1/N^{2})$$; but then the *same* dynamics (5.15) requires a learning rate $$\tilde\eta/N$$ for the readout weights $$\tilde c_{i}$$ and $$N\tilde\eta$$ for the hidden weights $$a_{i}$$ — one learning rate per layer, differing by a factor $$N^{2}$$. Keeping all weights of order one is what lets a single $$\eta$$ do the job, and it is the reason we adopted that convention in Section 3.2.
@@ -92,13 +92,13 @@ with $$\tilde\eta$$ fixed. (Equivalently, we could run vanilla gradient flow on 
 With (5.14), the flow $$\dot\theta = -\eta\nabla_{\theta}{{\mathcal L}}$$ becomes, per neuron,
 
 $$
-\dot c_{i} = -\tilde\eta \sum_{\mu=1}^{n} \Delta^{\mu}\, \phi(a_{i}\cdot x^{\mu})\,,\qquad \dot a_{i} = -\tilde\eta\; c_{i} \sum_{\mu=1}^{n} \Delta^{\mu}\, \phi'(a_{i}\cdot x^{\mu})\, x^{\mu}\,,
+\dot c_{i} = -\tilde\eta \sum_{\mu=1}^{n} \Delta^{\mu}\, \phi(a_{i}\cdot x^{\mu})\,,\qquad \dot a_{i} = -\tilde\eta\; c_{i} \sum_{\mu=1}^{n} \Delta^{\mu}\, \phi'(a_{i}\cdot x^{\mu})\, x^{\mu}\,, \tag{5.15}
 $$
 
 where $$\Delta^{\mu} = f_{\rho_N}(x^{\mu})-y^{\mu}$$ is the residual of Section 4.1. Equivalently, in the potential form (5.6),
 
 $$
-\begin{aligned}\dot\theta_{i}&= -\tilde\eta\,\nabla_{\theta}\, \Psi(\theta_{i};\rho_{N})\,, \\ \Psi(\theta;\rho)&= V(\theta)+\int U(\theta,\theta')d\rho(\theta') = \sum_{\mu=1}^{n} \Delta^{\mu}_{\rho} \; c\,\phi(a\cdot x^{\mu})\,,\end{aligned}
+\begin{aligned}\dot\theta_{i}&= -\tilde\eta\,\nabla_{\theta}\, \Psi(\theta_{i};\rho_{N})\,, \\ \Psi(\theta;\rho)&= V(\theta)+\int U(\theta,\theta')d\rho(\theta') = \sum_{\mu=1}^{n} \Delta^{\mu}_{\rho} \; c\,\phi(a\cdot x^{\mu})\,,\end{aligned} \tag{5.16}
 $$
 
 with $$\Delta_{\rho}^{\mu} = f_{\rho}(x^{\mu})-y^{\mu}$$.
@@ -144,19 +144,19 @@ We now pass to the $$N\to\infty$$ limit, in distinct steps.
 The expectation of a smooth test function $$g$$ obeys
 
 $$
-\begin{aligned}\frac{d}{dt}\int g\,d\rho_{t}&= \frac{d}{dt}\,{\mathbb{E}}\big[g(\theta_{t})\big] = {\mathbb{E}}\big[\nabla g(\theta_{t})\cdot v_{t}(\theta_{t})\big] \\&= \int \nabla g\cdot v_{t}\, d\rho_{t} = -\int g\;\nabla\!\cdot\!(\rho_{t} v_{t})\,,\end{aligned}
+\begin{aligned}\frac{d}{dt}\int g\,d\rho_{t}&= \frac{d}{dt}\,{\mathbb{E}}\big[g(\theta_{t})\big] = {\mathbb{E}}\big[\nabla g(\theta_{t})\cdot v_{t}(\theta_{t})\big] \\&= \int \nabla g\cdot v_{t}\, d\rho_{t} = -\int g\;\nabla\!\cdot\!(\rho_{t} v_{t})\,,\end{aligned}  \tag{5.17}
 $$
 
 integrating by parts in the last step. Since $$g$$ was arbitrary,
 
 $$
-\partial_{t}\rho_{t} + \nabla\!\cdot\!\big(\rho_{t}\, v_{t}\big) = 0\,.
+\partial_{t}\rho_{t} + \nabla\!\cdot\!\big(\rho_{t}\, v_{t}\big) = 0\,. \tag{5.18}
 $$
 
 This is known as the *continuity equation*, and it simply expresses conservation of probability. Applied to our system, with $$v_{t} = -\tilde\eta\,\nabla\Psi(\cdot\,;\rho_{N,t})$$ from (5.16), the empirical measure satisfies (weakly, since it is a sum of delta functions)
 
 $$
-\partial_{t} \rho_{N,t}= \tilde\eta\,\nabla\!\cdot\!\Big(\rho_{N,t}\,\nabla_{\theta} \Psi\big(\theta;\rho_{N,t}\big)\Big)\,.
+\partial_{t} \rho_{N,t}= \tilde\eta\,\nabla\!\cdot\!\Big(\rho_{N,t}\,\nabla_{\theta} \Psi\big(\theta;\rho_{N,t}\big)\Big)\,. \tag{5.19}
 $$
 
 An important consequence of the mean-field ($$1/N$$, all-to-all) coupling here is that (5.19) is a closed equation in $$\rho_{N}$$.
@@ -164,7 +164,7 @@ An important consequence of the mean-field ($$1/N$$, all-to-all) coupling here i
 *Step 2: the limit.* At finite $$N$$, $$\rho_{N,t}$$ is a random, atomic measure. (Atomic means it's a sum of delta functions; it's random due to random initialization.) As $$N\to\infty$$ with i.i.d. initialization $$\theta_{i}\sim\rho_{0}$$, the law of large numbers suggests — and the theorems of (Mei et al. 2018; Chizat & Bach 2018; Rotskoff & Vanden-Eijnden 2022; Sirignano & Spiliopoulos 2020) confirm — that $$\rho_{N,t}$$ converges (weakly) to $$\rho_{t}$$, a deterministic curve of smooth probability measures solving the limiting PDE
 
 $$
-\partial_{t}\rho_{t} = \tilde\eta\, \nabla\!\cdot\!\Big(\rho_{t}\,\nabla_{\theta}\big(V + U*\rho_{t}\big)\Big)\,,\quad \text{with}\;\;\; (U*\rho)(\theta):=\int U(\theta,\theta')\,d\rho(\theta')\,.
+\partial_{t}\rho_{t} = \tilde\eta\, \nabla\!\cdot\!\Big(\rho_{t}\,\nabla_{\theta}\big(V + U*\rho_{t}\big)\Big)\,,\quad \text{with}\;\;\; (U*\rho)(\theta):=\int U(\theta,\theta')\,d\rho(\theta')\,. \tag{5.20}
 $$
 
 There are quantitative $$O(1/\sqrt{N})$$ error bounds at any fixed time horizon.
@@ -174,7 +174,7 @@ There are quantitative $$O(1/\sqrt{N})$$ error bounds at any fixed time horizon.
 In this context, the analogue of the Curie–Weiss self-consistency (5.2), namely $$m=\tanh(\beta(m+B))$$, is called the McKean–Vlasov equation. To get it, focus on a single representative neuron $$\theta_{i}$$. As $$N\to \infty$$, we can replace the force on it by the ensemble average:
 
 $$
-\dot{\bar\theta}_{t} = -\tilde\eta\,\nabla_{\theta}\Psi\big(\bar\theta_{t};\rho_{t}\big)\,, \qquad\text{subject to}\qquad \rho_{t} = \mathrm{Law}(\bar\theta_{t})\,.
+\dot{\bar\theta}_{t} = -\tilde\eta\,\nabla_{\theta}\Psi\big(\bar\theta_{t};\rho_{t}\big)\,, \qquad\text{subject to}\qquad \rho_{t} = \mathrm{Law}(\bar\theta_{t})\,. \tag{5.21}
 $$
 
 The constraint $$\rho_{t} = \mathrm{Law}(\bar\theta_{t})$$ is the entire content of the equation: the particle is driven by a field built from a distribution, and that distribution is *its own law*.
@@ -190,7 +190,7 @@ This ultimately leads to global-convergence theorems. For example, it was shown 
 - *Temperature.* If one trains instead with the Langevin dynamics of Section 2.1, Eqn. (2.6), at temperature $$T=\beta^{-1}$$, one finds convergence to a stationary distribution that satisfies (Mei et al. 2018)
 
 $$
-\rho_{\infty}(\theta) \;\propto\; e^{\textstyle-\beta\,\Psi(\theta;\rho_\infty)}\,.
+\rho_{\infty}(\theta) \;\propto\; e^{\textstyle-\beta\,\Psi(\theta;\rho_\infty)}\,. \tag{5.22}
 $$
 
 This is another version of the "$$m=\tanh(\beta(m+B))$$" consistency condition, now for noisy training.
@@ -207,7 +207,7 @@ In Figure 6 we instead solve the system by simply training a network with $$d=1$
 **Exercise 5.3 (★) (Numerics: the mean-field network (lab)).** Continue the lab of Exercise 4.4: same data, same teacher $$y(x) = 2\tanh(3x)-\frac{3}{2}\tanh(x)$$, same student (4.40), but now with the mean-field exponent $$\gamma = 1$$ and the rescaled updates (5.15),
 
 $$
-\begin{aligned}c_{i}&\mathrel{-}= \Delta\tau\sum_{\mu}\Delta^{\mu}\tanh(a_{i}x^{\mu})\,, \\ a_{i}&\mathrel{-}= \Delta\tau\,c_{i}\sum_{\mu}\Delta^{\mu}\big(1-\tanh^{2}(a_{i}x^{\mu})\big)x^{\mu}\,,\end{aligned}
+\begin{aligned}c_{i}&\mathrel{-}= \Delta\tau\sum_{\mu}\Delta^{\mu}\tanh(a_{i}x^{\mu})\,, \\ a_{i}&\mathrel{-}= \Delta\tau\,c_{i}\sum_{\mu}\Delta^{\mu}\big(1-\tanh^{2}(a_{i}x^{\mu})\big)x^{\mu}\,,\end{aligned}  \tag{5.23}
 $$
 
 with $$\Delta\tau = 5\times10^{-4}$$ for $$4\times10^{4}$$ steps, so that the rescaled time $$\tau = \tilde\eta\, t$$ runs to $$20$$. Note that there is no $$1/N$$ in these updates: that is the required $$O(N)$$ learning rate (5.14), already built in ($$\eta = N\,\Delta\tau$$). Monitor the NTK (4.41) with $$\gamma=1$$.

@@ -6,9 +6,9 @@ summary_for_tutor: "This is Section 2.3 (The correspondence theorem) of Iliad wo
 authors:
   - Satya Benson
 source_url: https://iliad-intensive.org/interpretability/condensation/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "condensation#23-the-correspondence-theorem"
-upstream_fingerprint: "Wo2dGfxaz7BIg3BftUsfc/1494/1/046j09ci0HOZ0MDA0Taj0nKo0oCx0txr0v6G0yJo105b125t15TZ188d1CV31DdK1GOY1JA41JTH1Kwb1Oee1fjr1ha51jGD1jO31mH31oqH1t4u21Yf2Clq2FDu2Jjc"
+upstream_fingerprint: "Wo2dGfxaz7BIg3BftUsfc/1497/1/046j09ci0HOZ0MDA0Taj0nKo0oCx0txr0v6G0yJo105b125t15TZ188d1CV31DdK1GOY1JA41JTH1Kwb1Oee1fjr1ha51jGD1jO31mH31oqH1t4u21Yf2Clq2FDu2Jjc"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/interpretability/condensation/#23-the-correspondence-theorem"
@@ -25,7 +25,7 @@ Take two latent models of the same observable tuple $$X$$. To compare them, put 
 **Theorem 2.6 (Correspondence).** For two latent models $$Y,Z$$ of $$X$$ and any nonempty $$A\subseteq I$$, let $$k=|A|$$. Then
 
 $$
-H(Y_{{\mathord{\supseteq}} A}\mid Z_{{\mathord{\supseteq}} A}) \le \sum_{i\in A}H(Y_{{\mathord{\supseteq}} A}\mid X_{i})+(k-1)\eta_{Z}.
+H(Y_{{\mathord{\supseteq}} A}\mid Z_{{\mathord{\supseteq}} A}) \le \sum_{i\in A}H(Y_{{\mathord{\supseteq}} A}\mid X_{i})+(k-1)\eta_{Z}.  \tag{2}
 $$
 
 If each term in the sum is at most $$\delta$$ and $$\eta_{Z}\le\eta$$, the bound is $$k\delta+(k-1)\eta$$. If both budgets are $$\varepsilon$$, it is $$(2k-1)\varepsilon$$. Interchanging $$Y,Z$$ gives the reverse bound.
@@ -61,7 +61,7 @@ The word "witness" below means a variable or tuple from which the target is reco
 **Lemma 2.8 (Two witnesses).** For any finite-valued variables $$U,M,P,Q$$,
 
 $$
-H(U\mid M)\le H(U\mid M,P)+H(U\mid M,Q)+I(P;Q\mid M).
+H(U\mid M)\le H(U\mid M,P)+H(U\mid M,Q)+I(P;Q\mid M).  \tag{3}
 $$
 
 :::
@@ -182,7 +182,7 @@ Upward closure is needed to invoke the bound $$\eta_{Z}$$.
 **Exercise 2.9 (★) (Complete the correspondence proof; 25 minutes).** Fix $$A=\{i_{1},\ldots,i_{k}\}$$ and set $$\mathcal{G}_{j}=\bigcap_{\ell=1}^{j}{\mathord{\supseteq}}\{i_{\ell}\}$$. We prove, for $$1\le j\le k$$,
 
 $$
-H(Y_{{\mathord{\supseteq}} A}\mid Z_{\mathcal{G}_j})\le \sum_{\ell=1}^{j}H(Y_{{\mathord{\supseteq}} A}\mid X_{i_\ell})+(j-1)\eta_{Z}.
+H(Y_{{\mathord{\supseteq}} A}\mid Z_{\mathcal{G}_j})\le \sum_{\ell=1}^{j}H(Y_{{\mathord{\supseteq}} A}\mid X_{i_\ell})+(j-1)\eta_{Z}.  \tag{4}
 $$
 
 **(a)** Use Exercise 2.7 to prove (4) at $$j=1$$.

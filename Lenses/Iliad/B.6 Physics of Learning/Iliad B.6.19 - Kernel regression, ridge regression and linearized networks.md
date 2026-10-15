@@ -9,9 +9,9 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "qft#b3-kernel-regression"
-upstream_fingerprint: "lD8oC8tlD5GZ3ZkIqw6JvI26/3846/1/01hc01r003BV03TP03VX04Qv08X3092y0Cp60G2G0GQ40HCP0Hnb0JCY0LnH0MJf0Mwj0QOJ0R760TNs0Uld0WXV0XAY0ZVq0f2I0g9X0gnr0ijq0iuf0m1k0o1i0oCx"
+upstream_fingerprint: "lD8oC8tlD5GZ3ZkIqw6JvI26/3864/1/01hc01r003BV03TP03VX04Qv08X3092y0Cp60G2G0GQ40HCP0Hnb0JCY0LnH0MJf0Mwj0QOJ0R760TNs0Uld0WXV0XAY0ZVq0f2I0g9X0gnr0ijq0iuf0m1k0o1i0oCx"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/qft/#b3-kernel-regression"
@@ -24,7 +24,7 @@ content::
 Return to the overparametrized case $$P>n$$, and assume that $$\Psi$$ has full row rank $$n$$ (the generic situation), so that there is a $$(P-n)$$-dimensional affine family of exact interpolants $$\Psi\theta = Y$$. To choose one, we need a criterion that the loss does not provide. The standard choice is the interpolant of *minimum norm*,
 
 $$
-\theta_{*} := \underset{\Psi\theta = Y}{\mathrm{arg\,min}}\; |\theta|^{2}\,.
+\theta_{*} := \underset{\Psi\theta = Y}{\mathrm{arg\,min}}\; |\theta|^{2}\,.  \tag{B.11}
 $$
 
 This introduces a *second* implicit Euclidean metric — now $$\delta_{ij}$$ on parameter space $${\mathbb{R}}^{P}$$, the metric that also defines gradient descent in Section 4.1.1. (Appendix B.1 used $$\delta_{\mu\nu}$$ on the space $${\mathbb{R}}^{n}$$ of function values.) The two metrics play dual roles: the first decides how to fit when the data cannot be matched, the second decides which fit to choose when it can.
@@ -32,19 +32,19 @@ This introduces a *second* implicit Euclidean metric — now $$\delta_{ij}$$ on 
 To solve (B.11), introduce Lagrange multipliers $$\alpha\in{\mathbb{R}}^{n}$$ for the $$n$$ constraints and extremize $$\frac{1}{2}|\theta|^{2} - \alpha\cdot(\Psi\theta - Y)$$. Stationarity in $$\theta$$ gives
 
 $$
-\theta_{*} = \Psi^{T}\alpha = \sum_{\mu=1}^{n} \alpha_{\mu}\,\psi(x^{\mu})\,.
+\theta_{*} = \Psi^{T}\alpha = \sum_{\mu=1}^{n} \alpha_{\mu}\,\psi(x^{\mu})\,.  \tag{B.12}
 $$
 
 This is the key structural fact: however large $$P$$ is, the minimum-norm solution lies in the $$n$$-dimensional subspace of $${\mathbb{R}}^{P}$$ spanned by the feature vectors of the training inputs, and is described by $$n$$ numbers. (In the language of Section 4.2, $$\theta_{*}$$ lies in the row space of the Jacobian.) The constraint $$\Psi\theta_{*} = Y$$ then becomes $$\Psi\Psi^{T}\alpha = Y$$, an $$n\times n$$ linear system. Define the *kernel* and its *Gram matrix* on the training set,
 
 $$
-\begin{aligned}K(x,x')&:= \psi(x)\cdot\psi(x') = \sum_{i=1}^{P} \psi_{i}(x)\psi_{i}(x')\,, \\ \hat K^{\mu\nu}&:= K(x^{\mu},x^{\nu}) = (\Psi\Psi^{T})^{\mu\nu}\,.\end{aligned}
+\begin{aligned}K(x,x')&:= \psi(x)\cdot\psi(x') = \sum_{i=1}^{P} \psi_{i}(x)\psi_{i}(x')\,, \\ \hat K^{\mu\nu}&:= K(x^{\mu},x^{\nu}) = (\Psi\Psi^{T})^{\mu\nu}\,.\end{aligned}  \tag{B.13}
 $$
 
 The kernel is an inner product of feature vectors: a notion of *similarity* between inputs, fixed once $$\psi$$ is fixed, and involving no labels. The Gram matrix is symmetric and positive semidefinite, since $$c^{T}\hat K c = |\Psi^{T}c|^{2}\geq 0$$; it is positive definite exactly when $$\Psi$$ has full row rank, which we assumed. Then $$\alpha = \hat K^{-1}Y$$, and the prediction at an arbitrary input $$x$$ is
 
 $$
-f_{*}(x) = \theta_{*}\cdot\psi(x) = \sum_{\mu=1}^{n} \alpha_{\mu} K(x,x^{\mu}) = \sum_{\mu,\nu=1}^{n} K(x,x^{\mu})\,\hat K^{-1}_{\mu\nu}\,y^{\nu}\,.
+f_{*}(x) = \theta_{*}\cdot\psi(x) = \sum_{\mu=1}^{n} \alpha_{\mu} K(x,x^{\mu}) = \sum_{\mu,\nu=1}^{n} K(x,x^{\mu})\,\hat K^{-1}_{\mu\nu}\,y^{\nu}\,.  \tag{B.14}
 $$
 
 This is *kernel regression* (more precisely, kernel interpolation). The feature map has disappeared from both the fit and the prediction. To fit, one needs $$K$$ on pairs of training points; to predict, one needs $$K$$ between the test point and the training points; no feature vector is ever constructed. The prediction is a weighted sum of similarities to the training points, with weights $$\alpha$$ that depend on the labels — but the labels only reweight the training points, they never change which inputs $$K$$ considers similar.
@@ -52,7 +52,7 @@ This is *kernel regression* (more precisely, kernel interpolation). The feature 
 Compare (B.14) with the late-time mean (4.38) of a lazily trained network: they are the same formula, with $$\hat K$$ in place of the NTK. This is no coincidence. For any model linear in its parameters the Jacobian is $$J=\Psi$$, so the NTK (4.10) is
 
 $$
-\Theta^{\mu\nu}= (JJ^{T})^{\mu\nu}= \hat K^{\mu\nu}\,,
+\Theta^{\mu\nu}= (JJ^{T})^{\mu\nu}= \hat K^{\mu\nu}\,,  \tag{B.15}
 $$
 
 constant in time. Moreover, gradient flow finds the minimum-norm solution: $$\dot\theta = -\eta\,\Psi^{T}\Delta$$ always points along the row space of $$\Psi$$, so $$\theta(t)-\theta_{0}$$ stays in that $$n$$-dimensional subspace and converges to the interpolant nearest to $$\theta_{0}$$ — for $$\theta_{0} = 0$$, to $$\theta_{*}$$ (Exercise B.3(c)). This is the simplest instance of the *implicit bias* of gradient descent, and it is the Euclidean metric on parameter space entering through the back door: the flow is defined by $$\delta^{ij}$$, and so is the norm that it ends up minimizing.
@@ -86,7 +86,7 @@ constant in time. Moreover, gradient flow finds the minimum-norm solution: $$\do
 Rather than imposing the minimum-norm criterion as a hard constraint, one can add it to the loss as a penalty. For $$\lambda>0$$, *ridge regression* minimizes
 
 $$
-{{\mathcal L}}_{\lambda}(\theta) := \frac{1}{2}|\Psi\theta - Y|^{2} + \frac{\lambda}{2}|\theta|^{2}\,.
+{{\mathcal L}}_{\lambda}(\theta) := \frac{1}{2}|\Psi\theta - Y|^{2} + \frac{\lambda}{2}|\theta|^{2}\,.  \tag{B.16}
 $$
 
 The two terms measure distance to the data with $$\delta_{\mu\nu}$$ and distance to the origin with $$\delta_{ij}$$: ridge regression is a weighted compromise between the two metrics of Appendices B.1 and B.3, with $$\lambda$$ setting the exchange rate. (In the training of neural networks the penalty is called *weight decay*.) The penalty does two jobs at once. When $$P>n$$ it selects one solution out of infinitely many; and for any $$P$$ it makes the problem well posed even when the features are redundant or the labels are noisy. Note that the penalty is not invariant under rescaling features: it decides what counts as a "large" coefficient in the coordinates $$\psi$$ that were supplied.
@@ -94,31 +94,31 @@ The two terms measure distance to the data with $$\delta_{\mu\nu}$$ and distance
 The gradient is $$\Psi^{T}(\Psi\theta - Y) + \lambda\theta$$, so the stationarity condition is
 
 $$
-(\Psi^{T}\Psi + \lambda I_{P})\,\theta = \Psi^{T}Y\,.
+(\Psi^{T}\Psi + \lambda I_{P})\,\theta = \Psi^{T}Y\,.  \tag{B.17}
 $$
 
 The matrix on the left is positive definite for every $$\lambda>0$$, whatever the rank of $$\Psi$$, since $$v^{T}(\Psi^{T}\Psi+\lambda I_{P})v = |\Psi v|^{2}+\lambda|v|^{2}>0$$. So there is always a unique minimizer,
 
 $$
-\theta_{\lambda} = (\Psi^{T}\Psi + \lambda I_{P})^{-1}\Psi^{T}Y\,,
+\theta_{\lambda} = (\Psi^{T}\Psi + \lambda I_{P})^{-1}\Psi^{T}Y\,,  \tag{B.18}
 $$
 
 at the price of a $$P\times P$$ inverse. To move the inverse to the $$n\times n$$ side, expand and regroup the product
 
 $$
-\Psi^{T}(\Psi\Psi^{T} + \lambda I_{n}) = \Psi^{T}\Psi\Psi^{T} + \lambda\Psi^{T} = (\Psi^{T}\Psi + \lambda I_{P})\Psi^{T}\,.
+\Psi^{T}(\Psi\Psi^{T} + \lambda I_{n}) = \Psi^{T}\Psi\Psi^{T} + \lambda\Psi^{T} = (\Psi^{T}\Psi + \lambda I_{P})\Psi^{T}\,.  \tag{B.19}
 $$
 
 Both bracketed matrices are positive definite, so multiplying by their inverses on the appropriate sides gives the *push-through identity*
 
 $$
-(\Psi^{T}\Psi + \lambda I_{P})^{-1}\Psi^{T} = \Psi^{T}(\Psi\Psi^{T} + \lambda I_{n})^{-1}\,.
+(\Psi^{T}\Psi + \lambda I_{P})^{-1}\Psi^{T} = \Psi^{T}(\Psi\Psi^{T} + \lambda I_{n})^{-1}\,.  \tag{B.20}
 $$
 
 Nothing was cancelled — $$\Psi^{T}$$ is rectangular and has no inverse — and that is precisely why the identity holds. Substituting into (B.18), the ridge solution again lies in the span of the training feature vectors, $$\theta_{\lambda} = \Psi^{T}\alpha_{\lambda}$$, now with $$\alpha_{\lambda} = (\hat K+\lambda I_{n})^{-1}Y$$, and the prediction at a new input is
 
 $$
-f_{\lambda}(x) = \sum_{\mu,\nu=1}^{n} K(x,x^{\mu})\,\big(\hat K + \lambda I_{n}\big)^{-1}_{\mu\nu}\,y^{\nu}\,.
+f_{\lambda}(x) = \sum_{\mu,\nu=1}^{n} K(x,x^{\mu})\,\big(\hat K + \lambda I_{n}\big)^{-1}_{\mu\nu}\,y^{\nu}\,.  \tag{B.21}
 $$
 
 This is *kernel ridge regression*, the central formula of this appendix. As $$\lambda\to 0$$ it reduces to the minimum-norm interpolant (B.14) when $$\hat K$$ is invertible, and in general to the least-squares solution of minimum norm (Exercise B.4(c)). As $$\lambda\to\infty$$, $$\theta_{\lambda}\to 0$$.
@@ -128,13 +128,13 @@ Formula (B.21) is exactly the posterior mean of Exercise 4.5, with ridge paramet
 **Spectral view.**  With the singular value decomposition $$\Psi = USV^{T}$$ of Section 4.2, the Gram matrix is $$\hat K = US^{2}U^{T}$$, with eigenvalues $$s_{a}^{2}$$ and orthonormal eigenvectors $$u_{a}\in{\mathbb{R}}^{n}$$: the "features" of Section 4.2, *i.e.* the natural modes in the space of function values. The ridge predictions on the training set are $$f_{\lambda} = \Psi\theta_{\lambda} = \hat K(\hat K+\lambda I_{n})^{-1}Y$$, or, mode by mode,
 
 $$
-f_{\lambda} = \sum_{a} \frac{s_{a}^{2}}{s_{a}^{2}+\lambda}\,(u_{a}\cdot Y)\,u_{a}\,.
+f_{\lambda} = \sum_{a} \frac{s_{a}^{2}}{s_{a}^{2}+\lambda}\,(u_{a}\cdot Y)\,u_{a}\,.  \tag{B.22}
 $$
 
 Ridge regression is a *spectral filter*: modes of the data with $$s_{a}^{2}\gg\lambda$$ are fit, modes with $$s_{a}^{2}\ll\lambda$$ are suppressed, and the crossover is at $$s_{a}^{2}\approx\lambda$$. Compare gradient flow from $$\theta_{0} = 0$$ on the unpenalized loss, whose training predictions are, by (4.35),
 
 $$
-f(t) = \sum_{a} \big(1-e^{-\eta t s_a^2}\big)\,(u_{a}\cdot Y)\,u_{a}\,.
+f(t) = \sum_{a} \big(1-e^{-\eta t s_a^2}\big)\,(u_{a}\cdot Y)\,u_{a}\,.  \tag{B.23}
 $$
 
 This is also a spectral filter, with $$1/\eta t$$ playing the role of $$\lambda$$: *early stopping* regularizes much as ridge does. But the two filters have different shapes (Figure 13), and no choice of $$\lambda$$ reproduces a given stopping time on every mode at once (Exercise B.5). This is the precise content of the remark closing Section 4.6, that the inverse temperature of Bayesian learning and the training time of gradient descent play analogous roles.
@@ -210,31 +210,31 @@ and initial predictions $$f(0) = 0$$.
 Now let $$f_{\theta}$$ be a neural network, with $$\theta\in{\mathbb{R}}^{P}$$ the vector of *all* its weights and biases. It is not linear in $$\theta$$. But its linearization around the initialization $$\theta_{0}$$, the ansatz (4.1),
 
 $$
-f^{\rm lin}_{\theta}(x) = f_{\theta_0}(x) + (\theta-\theta_{0})\cdot\nabla_{\theta} f_{\theta_0}(x)\,,
+f^{\rm lin}_{\theta}(x) = f_{\theta_0}(x) + (\theta-\theta_{0})\cdot\nabla_{\theta} f_{\theta_0}(x)\,,  \tag{B.24}
 $$
 
 is a model of the form (B.9). Compare term by term. The parameters are the displacement $$\delta\theta := \theta-\theta_{0}\in{\mathbb{R}}^{P}$$. The feature map is
 
 $$
-\psi(x) = \nabla_{\theta} f_{\theta_0}(x)\in{\mathbb{R}}^{P}\,,
+\psi(x) = \nabla_{\theta} f_{\theta_0}(x)\in{\mathbb{R}}^{P}\,,  \tag{B.25}
 $$
 
 the *tangent features*: one number per parameter, the sensitivity of the output at $$x$$ to that parameter, evaluated at initialization and then frozen. And the constant offset $$f_{\theta_0}(x)$$ is absorbed by shifting the labels to
 
 $$
-\tilde y^{\mu} := y^{\mu} - f_{\theta_0}(x^{\mu}) = -\Delta^{\mu}(0)\,.
+\tilde y^{\mu} := y^{\mu} - f_{\theta_0}(x^{\mu}) = -\Delta^{\mu}(0)\,.  \tag{B.26}
 $$
 
 The offset matters: the linearized model is fit to the *residuals at initialization*, not to the raw labels. The feature matrix (B.10) is the Jacobian at initialization, $$\Psi = J_{0}$$, and the Gram matrix (B.13) is
 
 $$
-\hat K = J_{0}J_{0}^{T} = \Theta_{0}\,,\qquad K(x,x') = \Theta(x,x') = \nabla_{\theta} f_{\theta_0}(x)\cdot\nabla_{\theta} f_{\theta_0}(x')\,,
+\hat K = J_{0}J_{0}^{T} = \Theta_{0}\,,\qquad K(x,x') = \Theta(x,x') = \nabla_{\theta} f_{\theta_0}(x)\cdot\nabla_{\theta} f_{\theta_0}(x')\,,  \tag{B.27}
 $$
 
 the neural tangent kernel (4.10) at initialization, extended to arbitrary pairs of inputs as in Exercise 4.3. Everything in Appendices B.3 and B.4 now applies verbatim. In particular, ridge regression on the linearized network with penalty $$\frac{\lambda}{2}|\theta-\theta_{0}|^{2}$$ — weight decay toward the initialization — gives, by (B.21),
 
 $$
-f^{\rm lin}_{\lambda}(x) = f_{\theta_0}(x) - \sum_{\mu,\nu=1}^{n} \Theta(x,x^{\mu})\,\big(\Theta_{0} + \lambda I_{n}\big)^{-1}_{\mu\nu}\,\Delta^{\nu}(0)\,.
+f^{\rm lin}_{\lambda}(x) = f_{\theta_0}(x) - \sum_{\mu,\nu=1}^{n} \Theta(x,x^{\mu})\,\big(\Theta_{0} + \lambda I_{n}\big)^{-1}_{\mu\nu}\,\Delta^{\nu}(0)\,.  \tag{B.28}
 $$
 
 At $$\lambda\to 0$$ this is the $$t\to\infty$$ limit of (4.36), the minimum-norm interpolant of the residuals; and the finite-time solution (4.36) is its early-stopped cousin, in the sense of (B.23). The kernel trick is not a convenience here but a necessity: $$P$$ is the parameter count of the network, often $$10^{7}$$ or more, while $$\Theta_{0}$$ is $$n\times n$$.

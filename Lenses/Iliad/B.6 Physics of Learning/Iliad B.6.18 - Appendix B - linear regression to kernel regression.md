@@ -9,9 +9,9 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "qft#b-from-linear-regression-to-kernel-regression"
-upstream_fingerprint: "1SzM1woy6B06xMf/2360/1/0CFd0HdS0KsP0QOJ0ho40jm00lQO0mKy0sWg11KF15mS16xP17aE1CNe1JjZ1Ksk1LEC1MUS1N1U1OBa1Sa81Vmw1YHs1b3O1gwm1h1x1hHa1jO31n0X1oCV1q3x1ri3"
+upstream_fingerprint: "1SzM1woy6B06xMf/2370/1/0CFd0HdS0KsP0QOJ0ho40jm00lQO0mKy0sWg11KF15mS16xP17aE1CNe1JjZ1Ksk1LEC1MUS1N1U1OBa1Sa81Vmw1YHs1b3O1gwm1h1x1hHa1jO31n0X1oCV1q3x1ri3"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/qft/#b-from-linear-regression-to-kernel-regression"
@@ -26,13 +26,13 @@ This appendix is a self-contained review of models that are *linear in their par
 We use the notation of Section 3.1: training data $$(x^{\mu},y^{\mu})_{\mu=1}^{n}$$ with $$x^{\mu}\in {\mathbb{R}}^{d}$$ and $$y^{\mu}\in{\mathbb{R}}$$; a model $$f_{\theta}:{\mathbb{R}}^{d}\to {\mathbb{R}}$$ with parameters $$\theta\in {\mathbb{R}}^{P}$$; and $$f^{\mu} := f_{\theta}(x^{\mu})$$ for its values on the training inputs. It is convenient to stack the data into matrices,
 
 $$
-X := \begin{pmatrix}(x^{1})^{T} \\ \vdots \\ (x^{n})^{T}\end{pmatrix} \in {\mathbb{R}}^{n\times d}\,,\qquad Y := \begin{pmatrix}y^{1} \\ \vdots \\ y^{n}\end{pmatrix} \in {\mathbb{R}}^{n}\,,\qquad f := \begin{pmatrix}f^{1} \\ \vdots \\ f^{n}\end{pmatrix} \in {\mathbb{R}}^{n}\,,
+X := \begin{pmatrix}(x^{1})^{T} \\ \vdots \\ (x^{n})^{T}\end{pmatrix} \in {\mathbb{R}}^{n\times d}\,,\qquad Y := \begin{pmatrix}y^{1} \\ \vdots \\ y^{n}\end{pmatrix} \in {\mathbb{R}}^{n}\,,\qquad f := \begin{pmatrix}f^{1} \\ \vdots \\ f^{n}\end{pmatrix} \in {\mathbb{R}}^{n}\,,  \tag{B.1}
 $$
 
 so that $$X^{\mu}{}_{j} = x^{\mu}_{j}$$ is the $$j$$-th coordinate of the $$\mu$$-th input, and the inputs and their labels are stacked in the same way. Throughout, the loss is the MSE of Section 4.1.1,
 
 $$
-{{\mathcal L}}_{\theta} = \frac{1}{2}\sum_{\mu=1}^{n} (f^{\mu}-y^{\mu})^{2} = \frac{1}{2}\,|f-Y|^{2} = \frac{1}{2}\,\delta_{\mu\nu}\Delta^{\mu}\Delta^{\nu}\,,\qquad \Delta^{\mu} := f^{\mu} - y^{\mu}\,,
+{{\mathcal L}}_{\theta} = \frac{1}{2}\sum_{\mu=1}^{n} (f^{\mu}-y^{\mu})^{2} = \frac{1}{2}\,|f-Y|^{2} = \frac{1}{2}\,\delta_{\mu\nu}\Delta^{\mu}\Delta^{\nu}\,,\qquad \Delta^{\mu} := f^{\mu} - y^{\mu}\,,  \tag{B.2}
 $$
 
 with $$\Delta\in{\mathbb{R}}^{n}$$ the residual. Many references (including the notebook this appendix is drawn from) normalize the loss as $$\frac{1}{2n}|f-Y|^{2}$$ instead; this rescales the ridge parameter $$\lambda$$ below by a factor of $$n$$ and the learning rate $$\eta$$ by a factor of $$1/n$$, and changes nothing else.
@@ -44,19 +44,19 @@ with $$\Delta\in{\mathbb{R}}^{n}$$ the residual. Many references (including the 
 The simplest model is linear in the inputs,
 
 $$
-f_{\theta}(x) = \theta\cdot x = \sum_{j=1}^{d} \theta^{j} x_{j}\,,\qquad \theta\in {\mathbb{R}}^{d}\,,
+f_{\theta}(x) = \theta\cdot x = \sum_{j=1}^{d} \theta^{j} x_{j}\,,\qquad \theta\in {\mathbb{R}}^{d}\,,  \tag{B.3}
 $$
 
 so that $$P=d$$ and the vector of training predictions is $$f = X\theta$$. (An intercept can be included by appending a constant coordinate $$x_{d+1}=1$$ to every input, as in Exercise B.1 below.) The loss $${{\mathcal L}}_{\theta} = \frac{1}{2}|X\theta - Y|^{2}$$ is a convex quadratic function of $$\theta$$, with gradient
 
 $$
-\nabla_{\theta} {{\mathcal L}} = X^{T}(X\theta - Y) = X^{T}\Delta\,.
+\nabla_{\theta} {{\mathcal L}} = X^{T}(X\theta - Y) = X^{T}\Delta\,.  \tag{B.4}
 $$
 
 This has the shape that every gradient in these notes has: the transpose of the Jacobian $$\partial f^{\mu}/\partial\theta^{j}$$ — here the constant matrix $$X$$ — acting on the residual, *cf.* (4.10). Setting the gradient to zero gives the *normal equations*
 
 $$
-X^{T}X\,\theta = X^{T}Y\,.
+X^{T}X\,\theta = X^{T}Y\,.  \tag{B.5}
 $$
 
 Since the loss is convex, every solution of (B.5) is a global minimizer, and there are no other critical points. What the solutions look like depends on how $$P=d$$ compares with $$n$$.
@@ -64,7 +64,7 @@ Since the loss is convex, every solution of (B.5) is a global minimizer, and the
 **Fewer parameters than data, $$P<n$$.**  If the columns of $$X$$ are linearly independent — the generic situation when $$d\leq n$$ — then $$X^{T}X$$ is positive definite, since $$v^{T}X^{T}Xv = |Xv|^{2}>0$$ for $$v\neq 0$$. There is a unique minimizer,
 
 $$
-\theta_{*} = (X^{T}X)^{-1}X^{T}Y\,.
+\theta_{*} = (X^{T}X)^{-1}X^{T}Y\,.  \tag{B.6}
 $$
 
 The normal equations say that the residual $$\Delta_{*} = X\theta_{*}-Y$$ is orthogonal to every column of $$X$$. Equivalently, the prediction $$X\theta_{*}$$ is the *orthogonal projection* of $$Y$$ onto the column space $$\mathrm{col}(X)\subset{\mathbb{R}}^{n}$$, the set of all prediction vectors the model can produce (Figure 10). Fitting is projecting. The projection $$X\theta_{*}$$ is unique even in cases where $$\theta_{*}$$ is not.
@@ -76,7 +76,7 @@ Least squares, geometrically. The normal equations $$X^{T}\Delta_{*}=0$$ say tha
 It is worth pausing on the word "orthogonal." Least squares minimizes the Euclidean ($$L^{2}$$) distance between $$X\theta$$ and $$Y$$, and the projection is orthogonal with respect to the Euclidean metric $$\delta_{\mu\nu}$$ on $${\mathbb{R}}^{n}$$ — the same metric on the space of function values that was made explicit in Section 4.1.1. This metric is a *choice*, hidden inside the phrase "mean squared error." It declares that an error of a given size counts the same at every data point, and that errors at different data points are independent. Any other positive-definite metric $$g_{\mu\nu}$$ on $${\mathbb{R}}^{n}$$ defines a different loss $${{\mathcal L}}^{g} = \frac{1}{2}g_{\mu\nu}\Delta^{\mu}\Delta^{\nu}$$, with a different minimizer
 
 $$
-\theta_{*}^{g} = (X^{T}gX)^{-1}X^{T}gY\,,
+\theta_{*}^{g} = (X^{T}gX)^{-1}X^{T}gY\,,  \tag{B.7}
 $$
 
 which is the $$g$$-orthogonal projection of $$Y$$ onto $$\mathrm{col}(X)$$ ("weighted least squares"). Unless $$Y$$ already lies in $$\mathrm{col}(X)$$, different metrics give genuinely different fitted functions; see Exercise B.1(d). Note that $$g_{\mu\nu}$$ is a metric on the space of function values *indexed by* the data points, not a metric on the input space $${\mathbb{R}}^{d}$$.
@@ -116,13 +116,13 @@ Find $$\theta_{*}$$, the predictions, the residual, and the loss. Is the remaini
 "Linear model" is a statement about how the parameters enter, not about the shape of the fitted function. Choose, *before looking at any labels*, a *feature map*
 
 $$
-\psi:{\mathbb{R}}^{d}\to {\mathbb{R}}^{P}\,,\qquad \psi(x) = \big(\psi_{1}(x),\ldots,\psi_{P}(x)\big)\,,
+\psi:{\mathbb{R}}^{d}\to {\mathbb{R}}^{P}\,,\qquad \psi(x) = \big(\psi_{1}(x),\ldots,\psi_{P}(x)\big)\,,  \tag{B.8}
 $$
 
 and consider the model
 
 $$
-f_{\theta}(x) = \theta\cdot\psi(x) = \sum_{i=1}^{P} \theta^{i}\,\psi_{i}(x)\,,\qquad \theta\in{\mathbb{R}}^{P}\,.
+f_{\theta}(x) = \theta\cdot\psi(x) = \sum_{i=1}^{P} \theta^{i}\,\psi_{i}(x)\,,\qquad \theta\in{\mathbb{R}}^{P}\,.  \tag{B.9}
 $$
 
 This is a weighted sum of $$P$$ fixed shapes $$\psi_{i}$$. It can be as nonlinear in $$x$$ as the shapes are, but it is linear in $$\theta$$. Standard choices include monomials in the coordinates of $$x$$ up to some degree $$m$$ (giving $$P=\binom{d+m}{m}$$), Fourier modes, Gaussian bumps $$e^{-|x-c_k|^2/2\sigma^2}$$ centered at chosen points $$c_{k}$$, and *random features* $$\psi_{i}(x) = \phi(a_{i}\cdot x)$$ with the $$a_{i}$$ drawn at random and then frozen — the last being a one-hidden-layer network whose first layer is never trained.
@@ -130,7 +130,7 @@ This is a weighted sum of $$P$$ fixed shapes $$\psi_{i}$$. It can be as nonlinea
 Stacking the feature vectors of the training inputs into the $$n\times P$$ *feature matrix*
 
 $$
-\Psi^{\mu}{}_{i} := \psi_{i}(x^{\mu})\,,
+\Psi^{\mu}{}_{i} := \psi_{i}(x^{\mu})\,,  \tag{B.10}
 $$
 
 the training predictions are $$f = \Psi\theta$$. Note that $$\Psi^{\mu}{}_{i} = \partial f^{\mu}/\partial\theta^{i}$$: the feature matrix is precisely the Jacobian $$J$$ of Section 4.2, which for a linear model is a constant. Linear regression is the special case $$\psi(x) = x$$, $$\Psi = X$$, and *everything* in Appendix B.1 goes through verbatim with $$X$$ replaced by $$\Psi$$: the normal equations are $$\Psi^{T}\Psi\,\theta = \Psi^{T}Y$$; if $$P\leq n$$ and $$\Psi$$ has full column rank, the unique minimizer is $$\theta_{*} = (\Psi^{T}\Psi)^{-1}\Psi^{T}Y$$; and if $$P>n$$ there are infinitely many interpolants.

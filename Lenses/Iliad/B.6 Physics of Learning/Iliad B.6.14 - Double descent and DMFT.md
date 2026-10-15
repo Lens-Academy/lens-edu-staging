@@ -9,9 +9,9 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "qft#62-double-descent-as-a-dynamical-phase-transition"
-upstream_fingerprint: "WjlGgb3j0IekoHNSXWwyR1C4/3399/1/00Ks01u603TP04tF06CS06GV06Oc082w0GEW0GFL0GnF0LOc0Ngo0Qnu0RSB0Zcb0dCg0dza0fa50g9X0gNW0huO0iDa0iuf0lPu0lQO0mMY0nXC0o9T0oGF0sJl0sgv"
+upstream_fingerprint: "WjlGgb3j0IekoHNSXWwyR1C4/3414/1/00Ks01u603TP04tF06CS06GV06Oc082w0GEW0GFL0GnF0LOc0Ngo0Qnu0RSB0Zcb0dCg0dza0fa50g9X0gNW0huO0iDa0iuf0lPu0lQO0mMY0nXC0o9T0oGF0sJl0sgv"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/qft/#62-double-descent-as-a-dynamical-phase-transition"
@@ -28,7 +28,7 @@ As a complete worked application of the formalism, we describe recent work of Li
 **Notation.** We transcribe the paper into the conventions of these notes: $$P$$ trainable parameters, $$n$$ training samples, learning rate $$\eta$$, teacher weights $$w^{*}$$, student weights $$\hat w$$ (with response fields $$\tilde w$$), and the *overparametrization ratio*
 
 $$
-\nu := P/n
+\nu := P/n  \tag{6.9}
 $$
 
 as control parameter — the reciprocal of Section 2's load $$\alpha = n/N$$, so that the over-parametrized phase is $$\nu>1$$. For readers consulting the paper, the dictionary is:
@@ -46,37 +46,37 @@ The batch-inclusion probability $$\gamma$$, the ridge $$\lambda$$, and the label
 Explicitly, the student and teacher share the same architecture
 
 $$
-y^{\mu}=\frac{1}{\sqrt{P}}\sum_{i=1}^{P} w^{*}_{i} x_{i}^{\mu}+\epsilon^{\mu}
+y^{\mu}=\frac{1}{\sqrt{P}}\sum_{i=1}^{P} w^{*}_{i} x_{i}^{\mu}+\epsilon^{\mu}  \tag{6.10}
 $$
 
 where $$P$$ is the number of model parameters, $$\mu=1, \ldots, n$$ indexes the dataset with inputs $$x^{\mu}$$, the $$w^{*}_{i}$$ are the teacher's weights, and $$\epsilon^{\mu}$$ is label noise. The thermodynamic limit takes $$n \to \infty$$ and $$P \to \infty$$ with the overparametrization ratio $$\nu = P/n$$ — the paper's **complexity parameter** — held *fixed*. The three main regimes are now definable as under-parametrized: $$\nu<1$$, near-criticality: $$\nu \approx 1$$, and over-parametrized: $$\nu>1$$. We note their optimization procedure, which is SGD with both regularization controlled by $$\lambda$$ (set to zero for most of the work) and batching controlled by the binary indicator variable $$s_{\mu}$$ which is drawn for each point in the dataset with probability $$\gamma$$,
 
 $$
-{\hat{w}_i(t+1)=\hat{w}_i(t)-{\eta} \frac{\partial\left[ \frac{1}{2}\sum_{\mu=1}^{n} s^{\mu}\left(\hat{y}^{\mu}-y^{\mu}\right)^{2}+\frac{\lambda}{2}\|\hat{\boldsymbol{w}}\|_{2}^{2}\right]}{\partial \hat{w}_{i}(t)}}\,,
+{\hat{w}_i(t+1)=\hat{w}_i(t)-{\eta} \frac{\partial\left[ \frac{1}{2}\sum_{\mu=1}^{n} s^{\mu}\left(\hat{y}^{\mu}-y^{\mu}\right)^{2}+\frac{\lambda}{2}\|\hat{\boldsymbol{w}}\|_{2}^{2}\right]}{\partial \hat{w}_{i}(t)}}\,,  \tag{6.11}
 $$
 
 From here they construct the MSRJD integral exactly as in Section 6.1; taking functional derivatives and averaging over the disorder (the dataset, the initialization, the batch selection, and the label noise) yields the correlation and response functions that are the main objects of study. We skip most of the details, but it is worth displaying the starting point — the dynamical partition function for gradient flow, equal to one just as promised in Section 6.1:
 
 $$
-\begin{aligned}Z_{\mathrm{dyn}}= \int \mathcal{D}\hat{\boldsymbol{w}}(t)\, \prod_{i=1}^{d} \delta\bigg[-\partial_{t}{\hat{w}}_{i}(t) - \lambda \hat{w}_{i}(t)+j_{i}(t) \hspace{1.2in}&\\ - \sum_{\mu=1}^{n} s^{\mu}(t) \frac{x_i^\mu}{\sqrt{d}}\bigg( \sum_{k=1}^{P} \frac{x_k^\mu}{\sqrt{d}}\big( \hat{w}_{k}(t) - w^{*}_{k} \big) - \epsilon^{\mu} \bigg) \bigg]&= 1\,.\end{aligned}
+\begin{aligned}Z_{\mathrm{dyn}}= \int \mathcal{D}\hat{\boldsymbol{w}}(t)\, \prod_{i=1}^{d} \delta\bigg[-\partial_{t}{\hat{w}}_{i}(t) - \lambda \hat{w}_{i}(t)+j_{i}(t) \hspace{1.2in}&\\ - \sum_{\mu=1}^{n} s^{\mu}(t) \frac{x_i^\mu}{\sqrt{d}}\bigg( \sum_{k=1}^{P} \frac{x_k^\mu}{\sqrt{d}}\big( \hat{w}_{k}(t) - w^{*}_{k} \big) - \epsilon^{\mu} \bigg) \bigg]&= 1\,.\end{aligned}  \tag{6.12}
 $$
 
 We want to highlight the general structure of this equation as a path integral over an action with sources coupled to both the "physical" parameter fields and the response fields,
 
 $$
-\begin{aligned}Z_{\operatorname{d y n}}[\mathbf{j}, \tilde{\mathbf{j}}]=\Big\langle\int \mathcal{D}\hat{\boldsymbol{w}}(t) \mathcal{D}{\tilde{\boldsymbol{w}}}(t) \exp\Big(S_{\operatorname{d y n}}&+\sum_{i=1}^{P} \int \tilde{j}_{i}(t) \hat{w}_{i}(t) d t \\&+\sum_{i=1}^{n} \int j_{i}(t) \tilde{w}_{i}(t) d t\Big)\Big\rangle,\end{aligned}
+\begin{aligned}Z_{\operatorname{d y n}}[\mathbf{j}, \tilde{\mathbf{j}}]=\Big\langle\int \mathcal{D}\hat{\boldsymbol{w}}(t) \mathcal{D}{\tilde{\boldsymbol{w}}}(t) \exp\Big(S_{\operatorname{d y n}}&+\sum_{i=1}^{P} \int \tilde{j}_{i}(t) \hat{w}_{i}(t) d t \\&+\sum_{i=1}^{n} \int j_{i}(t) \tilde{w}_{i}(t) d t\Big)\Big\rangle,\end{aligned}  \tag{6.13}
 $$
 
 which is a very common object to see in statistical field theory! In general $$S_{\text{dyn}}$$ will hold all of the microscopic details of the theory, and this is a unique case with a fairly tractable model. In general we are not so lucky. The expectation value denoted by angled brackets is averaging over the input dataset $$\{\mathbf{x}^{\mu}\}_{\mu=1}^{n}$$, the initial condition $$\hat{\boldsymbol{w}}(0)$$, the stochastic sampling $$s_{\mu}(t)$$, and the added label noise $$\{\epsilon^{\mu}\}_{\mu=1}^{n}$$. For comedic relief we also write their full dynamical function integrated over quenched disorder:
 
 $$
-\begin{aligned}Z_{\operatorname{d y n}}&\propto \int \mathcal{D}\boldsymbol{\mathcal{B}}(t) \int \mathcal{D}\mathcal{Q}(t,t^{\prime}) \exp \bigg(- i \tilde{\boldsymbol{w}}\partial_{t}{\hat{\boldsymbol{w}}}- \lambda P\, Q_{2}(t,t) \\&-P\, Q_{1}\cdot \hat{Q}_{1} -P\, Q_{2} \cdot \hat{Q}_{2}-P\, Q_{3}\cdot \hat{Q}_{3} -P\, Q_{4}\cdot \hat{Q}_{4} \\&-\frac{n}{2}\log\operatorname{det}{\left(\begin{array}{cc}\gamma Q_2^\top - \gamma Q_4+\delta &\gamma^2 Q_3 \\ Q_1+D& \gamma Q_2-\gamma Q_4^\top+\delta\end{array}\right)}+\tilde{\boldsymbol{j}}\hat{\boldsymbol{w}}+ \boldsymbol{j}\tilde{\boldsymbol{w}}\\&+\int\!\!\int dt\, dt^{\prime}\sum_{k}\Big[\big( \hat{w}_{k}(t) - w^{*}_{k} \big) \hat{Q}_{1}(t,t^{\prime}) \big( \hat{w}_{k}(t^{\prime}) - w^{*}_{k} \big) \\&\hspace{1.2in}+ i\hat{w}_{k}(t) \hat{Q}_{2}(t,t^{\prime}) \tilde{w}_{k}(t^{\prime}) + i\tilde{w}_{k}(t) \hat{Q}_{3}(t,t^{\prime})\, i\tilde{w}_{k}(t^{\prime})\Big] \\&+\int dt \sum_{k} i\tilde{w}_{k}(t)\hat{Q}_{4}(t)w^{*}_{k}\bigg),\end{aligned}
+\begin{aligned}Z_{\operatorname{d y n}}&\propto \int \mathcal{D}\boldsymbol{\mathcal{B}}(t) \int \mathcal{D}\mathcal{Q}(t,t^{\prime}) \exp \bigg(- i \tilde{\boldsymbol{w}}\partial_{t}{\hat{\boldsymbol{w}}}- \lambda P\, Q_{2}(t,t) \\&-P\, Q_{1}\cdot \hat{Q}_{1} -P\, Q_{2} \cdot \hat{Q}_{2}-P\, Q_{3}\cdot \hat{Q}_{3} -P\, Q_{4}\cdot \hat{Q}_{4} \\&-\frac{n}{2}\log\operatorname{det}{\left(\begin{array}{cc}\gamma Q_2^\top - \gamma Q_4+\delta &\gamma^2 Q_3 \\ Q_1+D& \gamma Q_2-\gamma Q_4^\top+\delta\end{array}\right)}+\tilde{\boldsymbol{j}}\hat{\boldsymbol{w}}+ \boldsymbol{j}\tilde{\boldsymbol{w}}\\&+\int\!\!\int dt\, dt^{\prime}\sum_{k}\Big[\big( \hat{w}_{k}(t) - w^{*}_{k} \big) \hat{Q}_{1}(t,t^{\prime}) \big( \hat{w}_{k}(t^{\prime}) - w^{*}_{k} \big) \\&\hspace{1.2in}+ i\hat{w}_{k}(t) \hat{Q}_{2}(t,t^{\prime}) \tilde{w}_{k}(t^{\prime}) + i\tilde{w}_{k}(t) \hat{Q}_{3}(t,t^{\prime})\, i\tilde{w}_{k}(t^{\prime})\Big] \\&+\int dt \sum_{k} i\tilde{w}_{k}(t)\hat{Q}_{4}(t)w^{*}_{k}\bigg),\end{aligned}  \tag{6.14}
 $$
 
 where $$\mathcal{D}\boldsymbol{\mathcal{B}}(t)$$ abbreviates the measure $$\mathcal{D}\hat{\boldsymbol{w}}(t)\, \mathcal{D}\tilde{\boldsymbol{w}}(t)$$ over the dynamical fields, and the new measure $$\mathcal{D}\mathcal{Q}(t,t^{\prime})$$ is
 
 $$
-\begin{aligned}\mathcal{D}\mathcal{Q}(t,t^{\prime}) = \left(\frac{P}{2\pi}\right)^{4} \mathcal{D}Q_{1}(t, t^{\prime})\, \mathcal{D}\hat{Q}_{1}(t, t^{\prime})\,&\mathcal{D}Q_{2}(t, t^{\prime})\, \mathcal{D}\hat{Q}_{2}(t, t^{\prime})\, \\ \times\, \mathcal{D}Q_{3}(t, t^{\prime})\, \mathcal{D}\hat{Q}_{3}(t, t^{\prime})\,&\mathcal{D}Q_{4}(t)\, \mathcal{D}\hat{Q}_{4}(t)\,.\end{aligned}
+\begin{aligned}\mathcal{D}\mathcal{Q}(t,t^{\prime}) = \left(\frac{P}{2\pi}\right)^{4} \mathcal{D}Q_{1}(t, t^{\prime})\, \mathcal{D}\hat{Q}_{1}(t, t^{\prime})\,&\mathcal{D}Q_{2}(t, t^{\prime})\, \mathcal{D}\hat{Q}_{2}(t, t^{\prime})\, \\ \times\, \mathcal{D}Q_{3}(t, t^{\prime})\, \mathcal{D}\hat{Q}_{3}(t, t^{\prime})\,&\mathcal{D}Q_{4}(t)\, \mathcal{D}\hat{Q}_{4}(t)\,.\end{aligned}  \tag{6.15}
 $$
 
 Each of the $$\mathcal{Q}$$ variables represents a particular correlation function between two variables.
@@ -86,19 +86,19 @@ Each of the $$\mathcal{Q}$$ variables represents a particular correlation functi
 They define the generalization error as a mean squared error (MSE)
 
 $$
-\varepsilon_{g}(t) = \langle \left(\frac{1}{\sqrt{P}}\sum_{i=1}^{P} x_{i}^{0}[\hat{w}_{i}(t)-w^{*}_{i}]-\epsilon^{0}\right)^{2} \rangle
+\varepsilon_{g}(t) = \langle \left(\frac{1}{\sqrt{P}}\sum_{i=1}^{P} x_{i}^{0}[\hat{w}_{i}(t)-w^{*}_{i}]-\epsilon^{0}\right)^{2} \rangle  \tag{6.16}
 $$
 
 After taking the thermodynamic limit, the generalization error is expressed in terms of the equal time correlator $$C(t,t)$$ determined from the DMFT equations and $$D$$, the noise variance:
 
 $$
-\varepsilon_{g}(t) = C(t, t)+D
+\varepsilon_{g}(t) = C(t, t)+D  \tag{6.17}
 $$
 
 They find two forms of this equation and propose a third, a scaling relation near the critical point. At $$\lambda=0$$ for $$\nu<1$$, the asymptotic error is:
 
 $$
-\varepsilon_{g}(t\to\infty)=D(\gamma \chi+1) = \frac{D}{1-\nu}\,.
+\varepsilon_{g}(t\to\infty)=D(\gamma \chi+1) = \frac{D}{1-\nu}\,.  \tag{6.18}
 $$
 
 Note the pole as criticality is approached. The quantity $$\chi=\int_{0}^{\infty}R(\tau)\,d\tau$$ is the **susceptibility**; it is well-defined only when the response function decays, i.e. only in equilibrium. Its appearance here signals that in this phase the response to perturbations of the initial conditions really does decay: asymptotically, the system carries no memory of its initialization.
@@ -106,7 +106,7 @@ Note the pole as criticality is approached. The quantity $$\chi=\int_{0}^{\infty
 The *non-ergodic phase* with persistent memory is captured by the asymptotic generalization error depending explicitly on the retention of the initial condition $$C(0,0)$$ and still showing sensitivity to $$\nu \to 1$$ analogous to the $$\nu<1$$ regime near criticality:
 
 $$
-\varepsilon_{g}(t\to\infty)=\frac{(\nu-1)\,C(0,0)}{\nu}+\frac{D\nu}{\nu-1}\,,
+\varepsilon_{g}(t\to\infty)=\frac{(\nu-1)\,C(0,0)}{\nu}+\frac{D\nu}{\nu-1}\,,  \tag{6.19}
 $$
 
 where fully, $$C(0,0) = \langle \hat{w}^{2}(0)\rangle + r$$. The term $$\langle \hat{w}^{2}(0)\rangle$$ is the variance of the initialization and $$r$$ is the mean-squared norm of the ground-truth parameters per dimension. Note that here, the response function does not decay, because we carry memory of the initial conditions. It saturates at $$R(\tau \to \infty)=\frac{\nu-1}{\nu}$$, which they call the *ergodicity-breaking degree*, quantifying the persistent memory of a perturbation applied to the initialization.
@@ -114,7 +114,7 @@ where fully, $$C(0,0) = \langle \hat{w}^{2}(0)\rangle + r$$. The term $$\langle 
 They also show similar trends with the training error, namely for $$\nu<1$$ the error is asymptotically finite, as the model is still attempting to approximate the solution, while for $$\nu>1$$ the training error vanishes as initialization-dependent memorization ensures the model always performs accurately on the training data. They write training error as
 
 $$
-\lim_{t \to \infty}\varepsilon_{t}(t)=(\gamma \chi+1)^{-2}\,\varepsilon_{g}(t\to\infty)\,.
+\lim_{t \to \infty}\varepsilon_{t}(t)=(\gamma \chi+1)^{-2}\,\varepsilon_{g}(t\to\infty)\,.  \tag{6.20}
 $$
 
 For $$\nu<1$$ it simplifies to $$D(1-\nu)$$, while again, for $$\nu>1$$, the system is no longer at equilibrium and the susceptibility $$\chi=\int_{0}^{\infty}R(\tau)d\tau$$ diverges, which drives the training error to zero.
@@ -122,7 +122,7 @@ For $$\nu<1$$ it simplifies to $$D(1-\nu)$$, while again, for $$\nu>1$$, the sys
 To characterize the critical behavior of the model near $$\nu \approx 1$$, they calculate the critical exponents $$(\sigma,\phi)$$ and propose a scaling function. The first part is relatively straightforward, where from Eqs. (6.18) and (6.19), one finds $$\varepsilon_{g}(t\to\infty)$$ diverges from both sides $$\nu\to 1^{\pm}$$. This suggests the scaling $$\varepsilon_{g}(t\to\infty)\sim |1-\nu|^{-\sigma}$$ with an exponent $$\sigma = 1$$ in DMFT. We remind the reader that these are asymptotic long-time steady-state results and both training and generalization error are time-dependent. Since the saturation time is $$\nu$$-dependent, a general feature of phase transitions is a dynamic scaling data collapse should be present near the transition (Goldenfeld 2018). They make this argument and propose a scaling ansatz of form:
 
 $$
-\varepsilon_{g} \approx \frac{D}{|1-\nu|^{\sigma}}\, F\!\left(\frac{|1-\nu|^{\phi} (\gamma t)}{4}\right)\,,
+\varepsilon_{g} \approx \frac{D}{|1-\nu|^{\sigma}}\, F\!\left(\frac{|1-\nu|^{\phi} (\gamma t)}{4}\right)\,,  \tag{6.21}
 $$
 
 where they introduce a new critical exponent $$\phi$$ and write the universal scaling function $$F(z)$$, and $$\gamma$$ is still the probability of samples being included. They make two observations about the form of $$F$$ near and at the critical point. First, near the point, $$\nu \to 1^{\pm}$$ corresponds to $$z\to 0$$, they argue the singularity in front must be absorbed into $$F$$ and it takes the asymptotic form $$F(z) \sim z^{\sigma/\phi}$$. Second, at $$\nu = 1$$, since the generalization error grows in time instead of saturating, $$\epsilon_{g} (t) \sim (\gamma t )^{\sigma / \phi}$$. The exponent $$\phi$$ therefore characterizes this growth in training time. Notably, the form of Eq. (6.21) implies a characteristic time scale, which they denote $$\tau(\nu) = (\gamma |1-\nu|^{\phi})^{-1}$$ to describe convergence in the scaling of the error. Since the error grows, we would expect this to diverge as $$\nu \to 1$$, which it does, and is an iconic signature of a phase transition, called **critical slowing down**. In MC calculations for lattice systems for example, this shows up in the autocorrelation time increasing, and requiring more time to get uncorrelated samples as we approach the critical point. A great deal of energy goes into designing methods to circumvent this slowing down when attempting to measure precise values of critical exponents using MC techniques, and motivates the choice of entirely different paradigms like RG flow or conformal bootstrap where applicable (Goldenfeld 2018).
@@ -156,13 +156,13 @@ Dynamical mean-field theory, of which Section 6.2 was one instance, is a general
 The term *self-consistency* describes the demand that the predictions of a theory agree with the approximations used to obtain them. A simple example, taken from (Stapmanns et al. 2020), makes the issue vivid (and is worked in detail in Exercise 6.3). Consider the stochastic process $$d x (t) = f (x(t))\, d t + dW(t)$$, with $$W$$ a Wiener process (so that $$\dot W$$ is the white noise of Section 6.1), and suppose $$f(x_{0}) = 0$$ with $$f'(x_{0})<0$$: a stable fixed point of the noiseless dynamics. One can expand around it, writing $$x(t) = x_{0} + \delta x(t)$$, to obtain the approximation
 
 $$
-\frac{d \,}{d t}\delta x(t) = f'(x_{0}) \delta x(t) + \xi(t) + \mathcal{O}(\delta^{2} x(t))\,,
+\frac{d \,}{d t}\delta x(t) = f'(x_{0}) \delta x(t) + \xi(t) + \mathcal{O}(\delta^{2} x(t))\,,  \tag{6.22}
 $$
 
 where $$\xi$$ is also centered gaussian white noise. The mean and variance of these fluctuations can be computed straightforwardly via Fourier transform, and in the temporal basis the variance is $$\left\langle \delta x^2 \right\rangle= \frac{D}{- 2 f'(x_{0})}$$, however using these results with the Taylor expansion of $$f(x)$$ to second order gives a correction to the mean
 
 $$
-\left\langle x \right\rangle\approx x_{0} + \frac{1}{2}\frac{f''(x_{0})}{f'(x_{0})}\frac{D}{2 f'(x_{0})}
+\left\langle x \right\rangle\approx x_{0} + \frac{1}{2}\frac{f''(x_{0})}{f'(x_{0})}\frac{D}{2 f'(x_{0})} \tag{6.23}
 $$
 
 which is *inconsistent* with the value $$x_{0}$$ assumed for the mean when constructing the approximation: the noise, filtered through the curvature of $$f$$, shifts the very point we expanded around.

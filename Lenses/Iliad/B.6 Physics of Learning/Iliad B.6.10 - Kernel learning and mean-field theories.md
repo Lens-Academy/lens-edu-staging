@@ -9,9 +9,9 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "qft#46-bayesian-learning-at-large-width-kernel-learning"
-upstream_fingerprint: "2fCeKl1aZajOCKfS0cj5n/2258/1/047s06ri07Xo09D10HdS0Hnb0MkJ0RSB0VrP0ZVq0a3J0aJw0cQW0eYE0fKt0far0fl10g9X0ikx0iuf10G1139J146c16ca1AmC1B3d1IMi1Loi1N0f1VEl1VKB1d2T"
+upstream_fingerprint: "2fCeKl1aZajOCKfS0cj5n/2272/1/047s06ri07Xo09D10HdS0Hnb0MkJ0RSB0VrP0ZVq0a3J0aJw0cQW0eYE0fKt0far0fl10g9X0ikx0iuf10G1139J146c16ca1AmC1B3d1IMi1Loi1N0f1VEl1VKB1d2T"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/qft/#46-bayesian-learning-at-large-width-kernel-learning"
@@ -26,7 +26,7 @@ So far, we have considered MLP's at large width, trained via gradient flow (as a
 Suppose that we consider the same large-width network, but "train" Bayesian inference instead, on the empirical MSE loss $${{\mathcal L}}(\theta) = n L_{n}(\theta) = \frac{1}{2}\sum_{\mu=1}^{n} |f(x^{\mu})-y^{\mu}|^{2}$$. (Recall from Section 2.1 that, practically speaking, this means training via Langevin dynamics.) Then we expect a Bayesian posterior
 
 $$
-P(\theta) = \frac{1}{Z}e^{-\beta {{\mathcal L}}(\theta)}\, \pi(\theta)\,,\qquad \pi(\theta) \propto e^{\textstyle-\frac{1}{2\sigma_{w}}|\theta|^2}\,,
+P(\theta) = \frac{1}{Z}e^{-\beta {{\mathcal L}}(\theta)}\, \pi(\theta)\,,\qquad \pi(\theta) \propto e^{\textstyle-\frac{1}{2\sigma_{w}}|\theta|^2}\,,  \tag{4.42}
 $$
 
 where the prior $$\pi(\theta)$$ is the Gaussian of order-one variance from (3.1), and the network carries the fan-in normalization of Section 3.2.
@@ -34,13 +34,13 @@ where the prior $$\pi(\theta)$$ is the Gaussian of order-one variance from (3.1)
 We'd like to push the distribution forward to the network function $$f_{\theta}(x)$$. At large-width, the push-forward of the prior is our familiar Gaussian process from Section 3.4; expressed via a functional integral as in Section 3.5 it becomes
 
 $$
-\pi[f] = \frac{1}{Z'}e^{\textstyle -\frac{1}{2}\int dx\,dx'\, f(x) K^{-1}(x,x')f(x')}
+\pi[f] = \frac{1}{Z'}e^{\textstyle -\frac{1}{2}\int dx\,dx'\, f(x) K^{-1}(x,x')f(x')} \tag{4.43}
 $$
 
 with $$K(x,x')=\bar K^{(L+1)}(x,x')$$ the final-layer GP kernel. Since the loss is explicitly a function of network values, we immediately get the late-time trained distribution
 
 $$
-P[f] = \frac{1}{Z''}\,e^{\textstyle -\frac{1}{2}\Big[\beta \sum_{\mu=1}^n(f(x^\mu)-y^\mu)^2 + \int dx\,dx'\, f(x) K^{-1}(x,x')f(x') \Big] }
+P[f] = \frac{1}{Z''}\,e^{\textstyle -\frac{1}{2}\Big[\beta \sum_{\mu=1}^n(f(x^\mu)-y^\mu)^2 + \int dx\,dx'\, f(x) K^{-1}(x,x')f(x') \Big] } \tag{4.44}
 $$
 
 Note that the action here is quadratic in function values, so this is still a Gaussian process!
@@ -49,7 +49,7 @@ Note that the action here is quadratic in function values, so this is still a Ga
 **Exercise 4.5 (★) (Bayesian lazy learning: kernel ridge regression from the Gaussian posterior).** Lazy gradient flow at large width solved itself in Section 4.3: the NTK froze, and the $$k$$-th kernel eigenmode of the residual decayed as $$e^{-\eta s_k^2t}$$, so that it is learned at the characteristic time $$t_{k} = 1/(\eta s_{k}^{2})$$. Here you derive the Bayesian-learning version of the same statement, with $$\beta$$ in the role of training time. Restricted to the training values $$\mathbf{f} = (f(x^{1}),\ldots,f(x^{n}))$$, the prior is Gaussian with covariance the kernel matrix $$\hat K^{\mu\nu}:= K(x^{\mu},x^{\nu})$$, so the posterior on training values is
 
 $$
-p(\mathbf{f})\;\propto\;\exp\Big[-\tfrac{1}{2}\,\mathbf{f}^{T}\hat K^{-1}\mathbf{f} - \tfrac{\beta}{2}\,|\mathbf{f}-\mathbf{y}|^{2}\Big]\,.
+p(\mathbf{f})\;\propto\;\exp\Big[-\tfrac{1}{2}\,\mathbf{f}^{T}\hat K^{-1}\mathbf{f} - \tfrac{\beta}{2}\,|\mathbf{f}-\mathbf{y}|^{2}\Big]\,.  \tag{4.45}
 $$
 
 **(a)** *Posterior mean.* The exponent is quadratic, so the posterior is Gaussian and everything follows from completing the square. Show that the posterior mean of the training values is $$\boldsymbol\mu = \hat K(\hat K+\beta^{-1}I_{n})^{-1}\mathbf{y}$$.
@@ -57,7 +57,7 @@ $$
 **(b)** *Eigenmodes.* Diagonalize the kernel, $$\hat Ku_{k} = \lambda_{k}u_{k}$$, and show that mode by mode
 
 $$
-u_{k}\cdot\boldsymbol\mu = \frac{\lambda_{k}}{\lambda_{k}+\beta^{-1}}\;u_{k}\cdot\mathbf{y} = \frac{\beta\lambda_{k}}{1+\beta\lambda_{k}}\;u_{k}\cdot\mathbf{y}\,.
+u_{k}\cdot\boldsymbol\mu = \frac{\lambda_{k}}{\lambda_{k}+\beta^{-1}}\;u_{k}\cdot\mathbf{y} = \frac{\beta\lambda_{k}}{1+\beta\lambda_{k}}\;u_{k}\cdot\mathbf{y}\,. \tag{4.46}
 $$
 
 Conclude that the eigenmodes of the GP kernel at initialization are learned one by one as $$\beta$$ grows, mode $$k$$ switching on at the characteristic scale $$\beta_{k} = 1/\lambda_{k}$$, large-eigenvalue modes first (*spectral bias*).
@@ -67,7 +67,7 @@ Conclude that the eigenmodes of the GP kernel at initialization are learned one 
 **(d)** *Prediction.* Show that the full posterior over functions is again a Gaussian process,
 
 $$
-P[f] \propto e^{\textstyle -\frac{1}{2} \int dx\,dx'\, [f(x)-\mu(x)] \Sigma(x,x')^{-1} [f(x')-\mu(x')] }\,,
+P[f] \propto e^{\textstyle -\frac{1}{2} \int dx\,dx'\, [f(x)-\mu(x)] \Sigma(x,x')^{-1} [f(x')-\mu(x')] }\,,  \tag{4.47}
 $$
 
 with mean and covariance
@@ -94,13 +94,13 @@ The posterior mean is *kernel ridge regression* with ridge $$\beta^{-1}$$ (Appen
 These equations embody what's sometimes known as *kernel regression*, with *ridge parameter* $$\beta^{-1}=T$$. (Appendix B.4 derives the same formula for a finite linear model, with no Bayesian input.) If the training samples are sufficiently dense, the mean can be an approximated by an integral in terms of the untrained kernel
 
 $$
-\mu(x) \approx \int dx'\,dx''\, K(x,x')\big(K+(n\beta)^{-1}\text{id}\big)^{-1}(x',x'')\,y(x'')\,.
+\mu(x) \approx \int dx'\,dx''\, K(x,x')\big(K+(n\beta)^{-1}\text{id}\big)^{-1}(x',x'')\,y(x'')\,.  \tag{4.48}
 $$
 
 Writing the data "truths" $$y(x) = \sum y_{k} \varphi_{k}(x)$$ in an eigenbasis for $$K$$, with ordered eigenvalues $$\lambda_{1}\geq\lambda_{2}\geq...$$, we find
 
 $$
-\mu(x) = \sum_{k=1}^{\infty} \frac{\lambda_{k}}{\lambda_{k}+(n\beta)^{-1}}y_{k}\varphi_{k}(x) \approx \sum_{k\;\text{s.t.}\, \lambda_k\gtrsim(n\beta)^{-1}}y_{k}\varphi_{k}(x)\,.
+\mu(x) = \sum_{k=1}^{\infty} \frac{\lambda_{k}}{\lambda_{k}+(n\beta)^{-1}}y_{k}\varphi_{k}(x) \approx \sum_{k\;\text{s.t.}\, \lambda_k\gtrsim(n\beta)^{-1}}y_{k}\varphi_{k}(x)\,.  \tag{4.49}
 $$
 
 This is the Bayesian version of lazy learning. For given $$n,\beta$$, the "modes" of the data distribution with $$\lambda_{k} \gtrsim (n\beta)^{-1}$$ are learned by the network, and the rest are projected out.
@@ -124,13 +124,13 @@ The mean-field limit of one-hidden-layer networks was constructed independently,
 The Curie–Weiss magnet is the Ising model of Section 2.4 on the *fully connected* graph: every spin couples to every other, with the coupling scaled down to $$J/N$$ so that the total force on any one spin, and the total energy, stay of order $$N^{0}$$ and $$N^{1}$$ respectively. Setting $$J=1$$, the energy (2.19) becomes
 
 $$
-E_{N}(s) = -\frac{1}{2N}\sum_{i,j=1}^{N} s_{i} s_{j} - B \sum_{i=1}^{N} s_{i} = -N\Big(\frac{m^{2}}{2}+Bm\Big)\,,\qquad m := \frac{1}{N}\sum_{i} s_{i}\,.
+E_{N}(s) = -\frac{1}{2N}\sum_{i,j=1}^{N} s_{i} s_{j} - B \sum_{i=1}^{N} s_{i} = -N\Big(\frac{m^{2}}{2}+Bm\Big)\,,\qquad m := \frac{1}{N}\sum_{i} s_{i}\,. \tag{5.1}
 $$
 
 The second equality is exact, not an approximation: on the complete graph the energy depends on the spins only through the magnetization. Compare the mean-field energy (2.22) of the lattice model, with $$dJ\to 1$$. Everything that was approximate in Section 2.4 is therefore exact here. The partition function reduces to the one-dimensional integral (2.25) with the same entropy $$h(m)$$, the saddle-point equation is
 
 $$
-m = \tanh\big(\beta(m+B)\big)\,,
+m = \tanh\big(\beta(m+B)\big)\,, \tag{5.2}
 $$
 
 and the model has the second-order transition of Figure 4 at $$\beta_{c} = 1$$ and the first-order transition of Figure 2 in $$B$$, exactly as analyzed in Section 2.5.
@@ -158,13 +158,13 @@ The iteration converges geometrically to a stable fixed point, at rate set by th
 Nothing in the story above needed binary spins. More abstractly, one can take $$N$$ "particles" $$\theta_{i}\in{\mathbb{R}}^{p}$$ with an extensive energy of the form
 
 $$
-E_{N}(\theta) = \sum_{i=1}^{N} V(\theta_{i}) + \frac{1}{2N}\sum_{i,j=1}^{N} U(\theta_{i},\theta_{j})\,,
+E_{N}(\theta) = \sum_{i=1}^{N} V(\theta_{i}) + \frac{1}{2N}\sum_{i,j=1}^{N} U(\theta_{i},\theta_{j})\,, \tag{5.3}
 $$
 
 with a single-particle potential $$V$$ and a symmetric pair interaction $$U$$, again with the characteristic $$1/N$$ coupling. The force felt by particle $$\theta_{i}$$ is $$-\nabla_{\theta_i}E_{N}$$. More so, for particles dominated by drag (highly viscous motion), the dynamics at zero temperature are governed by familiar gradient-descent equations
 
 $$
-\dot\theta_{i} = -\nabla_{\theta_i}E_{N} = -\nabla V(\theta_{i}) - \frac{1}{N}\sum_{j=1}^{N} \nabla_{1} U(\theta_{i},\theta_{j})\,,
+\dot\theta_{i} = -\nabla_{\theta_i}E_{N} = -\nabla V(\theta_{i}) - \frac{1}{N}\sum_{j=1}^{N} \nabla_{1} U(\theta_{i},\theta_{j})\,, \tag{5.4}
 $$
 
 where $$\nabla_{1}$$ differentiates the first slot of $$U$$. Once more each particle feels only an empirical average of forces.
@@ -172,13 +172,13 @@ where $$\nabla_{1}$$ differentiates the first slot of $$U$$. Once more each part
 It is worth packaging this observation in a way that will carry over verbatim to networks. Define the *empirical measure*
 
 $$
-\rho_{N} := \frac{1}{N}\sum_{i=1}^{N} \delta(\theta-\theta_{i})\,,
+\rho_{N} := \frac{1}{N}\sum_{i=1}^{N} \delta(\theta-\theta_{i})\,, \tag{5.5}
 $$
 
 a probability measure on $${\mathbb{R}}^{p}$$ recording where the collection of $$N$$ particles sit. Then (5.4) says that every particle descends one and the same effective single-particle potential, shaped by where everyone currently is:
 
 $$
-\dot\theta_{i} = -\nabla_{\theta} \Psi(\theta_{i};\rho_{N})\,,\qquad \Psi(\theta;\rho) := V(\theta) + \int U(\theta,\theta')\,d\rho(\theta')\,.
+\dot\theta_{i} = -\nabla_{\theta} \Psi(\theta_{i};\rho_{N})\,,\qquad \Psi(\theta;\rho) := V(\theta) + \int U(\theta,\theta')\,d\rho(\theta')\,. \tag{5.6}
 $$
 
 The particles are coupled *only through* $$\rho_{N}$$ — the exact analogue of "every spin feels only $$m$$." The same three-step argument as before then suggests that as $$N\to\infty$$ the empirical measure becomes deterministic and self-consistent. We will carry this out carefully, for networks, in the next subsection.

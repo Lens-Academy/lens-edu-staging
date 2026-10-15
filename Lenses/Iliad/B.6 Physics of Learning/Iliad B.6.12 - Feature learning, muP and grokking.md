@@ -9,9 +9,9 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "qft#53-the-ntk-is-no-longer-constant-feature-learning"
-upstream_fingerprint: "V6wZrJxykewCRdLN7E/2985/1/00a806Ll06rd06s807Xo08Ey0C4t0Ela0G2G0G2Z0GkS0HYS0Hnb0Imv0L8c0Nfu0O4l0Osb0P5u0QLo0R440RWa0SvW0TSc0Xaq0XbY0Z5w0Zd50far0g9X0iiN0ivh"
+upstream_fingerprint: "V6wZrJxykewCRdLN7E/2989/1/00a806Ll06rd06s807Xo08Ey0C4t0Ela0G2G0G2Z0GkS0HYS0Hnb0Imv0L8c0Nfu0O4l0Osb0P5u0QLo0R440RWa0SvW0TSc0Xaq0XbY0Z5w0Zd50far0g9X0iiN0ivh"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/qft/#53-the-ntk-is-no-longer-constant-feature-learning"
@@ -24,19 +24,19 @@ content::
 Section 4.3 showed that in the fan-in normalization the NTK freezes as $$N\to\infty$$, and Section 4.2 defined feature learning as change of the NTK during training. Let's redo that computation in mean-field scaling. From (5.7), $$\partial f/\partial c_{i} = \frac{1}{N}\phi(a_{i}\cdot x)$$ and $$\partial f/\partial a_{i} = \frac{1}{N}c_{i}\phi'(a_{i}\cdot x)\,x$$, so the NTK of Section 4.1 is
 
 $$
-\Theta(x,x') = \frac{1}{N^{2}}\sum_{i=1}^{N} k_{\theta_i}(x,x') = \frac{1}{N}\int k_{\theta}(x,x')\, d\rho_{N}(\theta)\,,
+\Theta(x,x') = \frac{1}{N^{2}}\sum_{i=1}^{N} k_{\theta_i}(x,x') = \frac{1}{N}\int k_{\theta}(x,x')\, d\rho_{N}(\theta)\,, \tag{5.24}
 $$
 
 with the per-neuron kernel
 
 $$
-k_{\theta}(x,x') := \phi(a\cdot x)\phi(a\cdot x') + c^{2}\,\phi'(a\cdot x)\phi'(a\cdot x')\; x\cdot x'\,.
+k_{\theta}(x,x') := \phi(a\cdot x)\phi(a\cdot x') + c^{2}\,\phi'(a\cdot x)\phi'(a\cdot x')\; x\cdot x'\,.  \tag{5.25}
 $$
 
 Thus $$\Theta = O(1/N)$$, recovering the previous observation that gradients are small, which was the reason for the rescaling (5.14). The estimates of Section 4.3 also explain why the kernel is now free to move. The Hessian blocks (4.27) carry $$1/N$$ instead of $$1/\sqrt{N}$$, so $$\|\nabla_{\theta}^{2} f\| = O(1/N)$$; but the learning rate is $$\eta = N\tilde\eta$$, so the bound (4.25) gives for the relative drift $$\|\dot\Theta\|/\|\Theta\| \lesssim \eta\,\|\nabla^{2}_{\theta} f\|\,|\Delta| = O(1)$$. The bound no longer forces the kernel to freeze, and the equations of motion (5.15) will show that it does move. As $$N\to \infty$$, the meaningful object is $$N\Theta = \int k_{\theta}\, d\rho_{N}$$, and the function-space dynamics (4.10) now becomes a kernel gradient flow *with a time-dependent kernel*:
 
 $$
-\frac{d}{dt}f^{\mu} = -\tilde\eta \big(N\Theta^{\mu}{}_{\nu}\big)\big|_{\rho_t}\, \Delta^{\nu}\,, \qquad N\Theta\big|_{\rho_t}= \int k_{\theta}\, d\rho_{t}\,.
+\frac{d}{dt}f^{\mu} = -\tilde\eta \big(N\Theta^{\mu}{}_{\nu}\big)\big|_{\rho_t}\, \Delta^{\nu}\,, \qquad N\Theta\big|_{\rho_t}= \int k_{\theta}\, d\rho_{t}\,. \tag{5.26}
 $$
 
 *At initialization* the LLN makes $$N\Theta \to {\mathbb{E}}_{\rho_0}[k_{\theta}]$$, a deterministic kernel — the *same* limiting kernel (4.24) as in the fan-in normalization. The two limits start from the same place.
@@ -48,7 +48,7 @@ $$
 It's quite instructive to look at an entire one-parameter family of scalings, which has fan-in/NTK scaling and mean-field scaling as its endpoints. The family can be encoded via a prefactor
 
 $$
-f_{\theta}(x) = \frac{1}{N^{\gamma}}\sum_{i=1}^{N} c_{i}\,\phi(a_{i}\cdot x)\,,\qquad \gamma\in[\tfrac{1}{2},1]\,,
+f_{\theta}(x) = \frac{1}{N^{\gamma}}\sum_{i=1}^{N} c_{i}\,\phi(a_{i}\cdot x)\,,\qquad \gamma\in[\tfrac{1}{2},1]\,, \tag{5.27}
 $$
 
 where $$c_{i}, a_{ij}\sim {{\mathcal N}}(0,1)$$. For each $$\gamma$$, as $$N\to\infty$$, the learning rate must be simultaneously be scaled as $$\eta = N^{2\gamma-1}\tilde\eta$$ so that the function-space dynamics stays $$O(1)$$ (one can derive that from $$\Theta\sim N^{1-2\gamma}$$). Repeating the estimates above gives (see Exercise 5.4):

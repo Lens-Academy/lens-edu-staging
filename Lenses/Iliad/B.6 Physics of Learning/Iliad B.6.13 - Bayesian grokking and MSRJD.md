@@ -9,9 +9,9 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "qft#57-bayesian-grokking-a-first-order-transition-alternative-reading"
-upstream_fingerprint: "J9ZutvmoTyKLdLw/2978/1/005Z00a802BA02l903Bq06ri06s807vU09Gr0FzV0HCP0Imv0Ohj0PQP0Rhl0T4Z0WUp0YPf0YPn0ZKP0Zcb0dyg0gf40itO0j900kcD0o9T0oFv0p2p0sgW0tnw0ug5"
+upstream_fingerprint: "J9ZutvmoTyKLdLw/2986/1/005Z00a802BA02l903Bq06ri06s807vU09Gr0FzV0HCP0Imv0Ohj0PQP0Rhl0T4Z0WUp0YPf0YPn0ZKP0Zcb0dyg0gf40itO0j900kcD0o9T0oFv0p2p0sgW0tnw0ug5"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/qft/#57-bayesian-grokking-a-first-order-transition-alternative-reading"
@@ -77,13 +77,13 @@ The payoffs in this section are a complete worked application — double descent
 When we model a system with fluctuations — or deliberately add noise to a deterministic model, as in the Langevin dynamics of Section 2.1 — differential equations become stochastic, and the difficulty of solving them jumps. A **stochastic differential equation**, at first order for example, takes the form
 
 $$
-\frac{d x}{d t}= f(x) + \xi\,,
+\frac{d x}{d t}= f(x) + \xi\,,  \tag{6.1}
 $$
 
 where $$\xi(t)$$ is a (Gaussian) white noise process — additive noise, $$\xi = \xi(t)$$, as opposed to multiplicative noise $$\xi=\xi(x,t)$$ — and $$x=x(t)$$ is now a random trajectory. The noise is entirely defined by the first and second moments,
 
 $$
-\left\langle \xi(t) \right\rangle_{\xi} = 0, \hspace{20pt}\left\langle \xi(t)\xi(t') \right\rangle_{\xi} = D \delta(t-t')\,,
+\left\langle \xi(t) \right\rangle_{\xi} = 0, \hspace{20pt}\left\langle \xi(t)\xi(t') \right\rangle_{\xi} = D \delta(t-t')\,,  \tag{6.2}
 $$
 
 where the expectations are with respect to the noise ensemble[^3]. Obtaining closed-form solutions for the time evolution of the probability distribution for $$x(t)$$ is usually challenging. These evolutions can be attacked by the traditional routes — the Langevin and Fokker–Planck descriptions — for which the standard references are Risken (Risken 1996), Gardiner (Gardiner 2004), and van Kampen (van Kampen 2007). The objects of interest here are instead the moments of $$x(t)$$ and the probability density function $$p(x,t).$$ Methods developed in statistical physics (in particular those used in perturbative quantum field theory and classical non-equilibrium systems) using path integrals provide a way to calculate these statistical objects. The path integral, or functional integral, approach is convenient for perturbative calculations (expanding around an exactly solvable theory with a small parameter), but also permits importing other tools like renormalization group methods or other explicitly non-perturbative approaches when there is no small parameter, or the expansion breaks down (as they often do).
@@ -101,31 +101,31 @@ It turns out that the historic approach of Onsager and Machlup (Onsager & Machlu
 We now give the derivation, quickly but completely. The standard first step is to discretize time for a continuous equation, or simply start with a discrete update rule. Under this discretization $$x(t) \to x_{i}$$, where $$i = 1, ..., N,$$ so that,
 
 $$
-x_{i} = x_{i-1}+ \Delta t \Big(f(x_{i-1}) + \xi_{i-1}\Big)\,,
+x_{i} = x_{i-1}+ \Delta t \Big(f(x_{i-1}) + \xi_{i-1}\Big)\,,  \tag{6.3}
 $$
 
 where $$\Delta t$$ is the temporal spacing. We can rearrange this so that the RHS is zero and write the transition probability between steps as delta function, and the product of these representing a trajectory solution. Defining a solution of the stochastic differential equation as $$x[\xi]$$, an expectation value of an observable $$\mathcal{A}[x]$$ is formally,
 
 $$
-\left\langle \mathcal{A} [x] \right\rangle_{\xi}= \int \mathcal{D}x \mathcal{A}[x] \left\langle \delta(x- x[\xi]) \right\rangle_{\xi} = \int \mathcal{D}x \mathcal{A}[x] \left| \frac{\delta X}{\delta x} \right|\delta(X)\,.
+\left\langle \mathcal{A} [x] \right\rangle_{\xi}= \int \mathcal{D}x \mathcal{A}[x] \left\langle \delta(x- x[\xi]) \right\rangle_{\xi} = \int \mathcal{D}x \mathcal{A}[x] \left| \frac{\delta X}{\delta x} \right|\delta(X)\,.  \tag{6.4}
 $$
 
 We used the shorthand $$X_{i} \equiv x_{i} - x_{i-1}- \Delta t \big[ f(x_{i-1}) + \xi_{i-1}\big]$$ for the constraint imposed at each step. The measure here, is a typical functional path integral measure $$\mathcal{D}x = \prod_{i} d x_{i}$$ with $$\delta(x- x[\xi])$$ similarly factorized across steps. In particular we also picked a first order finite difference and the convention that the noise is evaluated at the previous time-step, which is called Ito discretization or convention. Many common processes are manifestly Ito, like SGD for example, where the noise drawn at a batch doesn't affect the weights at that iteration. There are other conventions, the most common alternative is Stratonovich (which is more like a midpoint rule), however, Ito has a unit (volume-preserving) functional determinant and other schemes require careful treatment to avoid anomalous terms from the determinant. In our case the matrix is triangular with a unit diagonal. Substituting in the definition of $$X$$,
 
 $$
-\left\langle \mathcal{A}[x] \right\rangle_{\xi} = \int \mathcal{D}x\, \mathcal{A}[x]\, \left\langle \delta \big(\partial_t x - f(x) - \xi\big) \right\rangle_{\xi}\, .
+\left\langle \mathcal{A}[x] \right\rangle_{\xi} = \int \mathcal{D}x\, \mathcal{A}[x]\, \left\langle \delta \big(\partial_t x - f(x) - \xi\big) \right\rangle_{\xi}\, .  \tag{6.5}
 $$
 
 Finally, we can use the Fourier representation of the delta, introducing an auxiliary variable $$\tilde{x}$$, which in the continuum is
 
 $$
-\left\langle \mathcal{A}[x] \right\rangle_{\xi} = \int \mathcal{D}x\, \mathcal{D}\tilde{x}\; \mathcal{A}[x]\; e^{\textstyle\, i \int dt\, \tilde{x}\, (\partial_t x - f(x) - \xi)}\,.
+\left\langle \mathcal{A}[x] \right\rangle_{\xi} = \int \mathcal{D}x\, \mathcal{D}\tilde{x}\; \mathcal{A}[x]\; e^{\textstyle\, i \int dt\, \tilde{x}\, (\partial_t x - f(x) - \xi)}\,.  \tag{6.6}
 $$
 
 The final step is the payoff: the noise now appears *linearly* in the exponent, so the Gaussian average over $$\xi$$ can be done exactly, $$\big\langle e^{-i\int dt\, \tilde x\, \xi}\big\rangle_{\xi} = e^{-\frac{D}{2}\int dt\, \tilde x^2}$$, leaving the **MSRJD functional integral**
 
 $$
-\begin{aligned}\left\langle \mathcal{A}[x] \right\rangle&= \int \mathcal{D}x\, \mathcal{D}\tilde{x}\; \mathcal{A}[x]\; e^{-S[x,\tilde x]}\,, \\ S[x,\tilde x]&= \int dt\, \Big[ -i\,\tilde{x}\, \big(\partial_{t} x - f(x)\big) + \frac{D}{2}\, \tilde x^{2} \Big]\,.\end{aligned}
+\begin{aligned}\left\langle \mathcal{A}[x] \right\rangle&= \int \mathcal{D}x\, \mathcal{D}\tilde{x}\; \mathcal{A}[x]\; e^{-S[x,\tilde x]}\,, \\ S[x,\tilde x]&= \int dt\, \Big[ -i\,\tilde{x}\, \big(\partial_{t} x - f(x)\big) + \frac{D}{2}\, \tilde x^{2} \Big]\,.\end{aligned} \tag{6.7}
 $$
 
 Four structural comments, each of which does real work later:
@@ -134,7 +134,7 @@ Four structural comments, each of which does real work later:
 - *The response field earns its name.* Perturbing the drift, $$f \to f + h(t)$$, changes the action by $$i\int \tilde x\, h$$, so
 
 $$
-R(t,t') := \frac{\delta \left\langle x(t) \right\rangle}{\delta h(t')}\bigg|_{h=0}= \left\langle x(t)\, i \tilde x(t') \right\rangle\,.
+R(t,t') := \frac{\delta \left\langle x(t) \right\rangle}{\delta h(t')}\bigg|_{h=0}= \left\langle x(t)\, i \tilde x(t') \right\rangle\,. \tag{6.8}
 $$
 
 Correlators of $$\tilde x$$ compute responses to kicks. Causality is built in: $$R(t,t')=0$$ for $$t<t'$$ (the Ito discretization is what guarantees this, along with $$\left\langle \tilde x\, \tilde x \right\rangle= 0$$).

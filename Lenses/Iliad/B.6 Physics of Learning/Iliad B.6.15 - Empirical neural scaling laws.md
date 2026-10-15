@@ -9,9 +9,9 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "qft#7-scaling-laws"
-upstream_fingerprint: "7rHJxji1WCcQqn5/3296/1/06UT06t90AL20C2C0CBh0D3s0G2G0GdL0K4A0OES0Q8x0STv0Sgm0V2D0Xeu0awz0bBb0doq0hlH0j5a0j750kTZ0lQO0lVd0o1i0qao0vt90xR20xsr0xyz0y0U0ymN"
+upstream_fingerprint: "7rHJxji1WCcQqn5/3302/1/06UT06t90AL20C2C0CBh0D3s0G2G0GdL0K4A0OES0Q8x0STv0Sgm0V2D0Xeu0awz0bBb0doq0hlH0j5a0j750kTZ0lQO0lVd0o1i0qao0vt90xR20xsr0xyz0y0U0ymN"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/qft/#7-scaling-laws"
@@ -41,7 +41,7 @@ Note also that in this section $$\alpha$$ (no subscript) denotes the Zipf expone
 Kaplan et al. (Kaplan et al. 2020) established, for autoregressive language models, that when a model is not bottlenecked by the other resources its test loss obeys
 
 $$
-L(P) \propto P^{-\alpha_P}\,,\qquad L(n) \propto n^{-\alpha_n}\,,\qquad L(C) \propto C^{-\alpha_C}\,,
+L(P) \propto P^{-\alpha_P}\,,\qquad L(n) \propto n^{-\alpha_n}\,,\qquad L(C) \propto C^{-\alpha_C}\,, \tag{7.1}
 $$
 
 where $$P$$ is the number of (non-embedding) parameters, $$n$$ the dataset size in tokens, and $$C$$ the training compute in FLOPs. The measured exponents were $$\alpha_{P} \approx 0.076$$, $$\alpha_{n}\approx 0.095$$, and $$\alpha_{C}\approx 0.050$$, with the trends holding over up to seven orders of magnitude. Three points of bookkeeping are usually left implicit. They are worth making explicit before asking where the laws come from.
@@ -49,7 +49,7 @@ where $$P$$ is the number of (non-embedding) parameters, $$n$$ the dataset size 
 *Why FLOPs, and why $$C \approx 6Pn$$.* Compute is measured in floating-point operations because FLOPs are the only measure of training effort that does not depend on how the job is run. Wall-clock time depends on the hardware and the parallelism. The number of training *steps* depends on the batch size: the same $$n$$ tokens can be one giant batch or a million small ones, and below the "critical batch size" (which (Kaplan et al. 2020) measure separately) the loss depends only on the number of tokens processed. FLOPs count the arithmetic itself, which is also what energy and money are proportional to. The standard estimate is
 
 $$
-C \;\approx\; 6\,P\,n\,.
+C \;\approx\; 6\,P\,n\,. \tag{7.2}
 $$
 
 Per token, the forward pass costs about $$2P$$ FLOPs: essentially every parameter sits in some matrix multiplication and is used once, for one multiply and one add. The backward pass costs about twice the forward pass, since each layer needs the gradient with respect to its activations and the gradient with respect to its weights, two matrix multiplications of the same size as the forward one. That gives $$6P$$ FLOPs per token, times $$n$$ tokens. The $$\approx$$ absorbs attention (whose per-token cost grows with context length rather than parameter count), embeddings, and optimizer overhead.
@@ -59,13 +59,13 @@ Per token, the forward pass costs about $$2P$$ FLOPs: essentially every paramete
 *The compute law is not independent.* Since $$C\approx 6Pn$$ depends only on the other two resources, how can compute ever be the unbottlenecked one? The answer is that $$L(C)$$ is measured by a different protocol. It is the lower envelope
 
 $$
-L(C) \;=\; \min_{P,\,n\;:\;6Pn\,=\,C}\; L(P, n)\,,
+L(C) \;=\; \min_{P,\,n\;:\;6Pn\,=\,C}\; L(P, n)\,, \tag{7.3}
 $$
 
 traced out by training many model sizes and keeping the best loss at each value of compute. On this curve compute is the binding constraint by construction, and "not bottlenecked" means "optimally allocated." This makes $$\alpha_{C}$$ a derived exponent. Minimizing an additive joint law $$L = A\,P^{-\alpha_P}+ B\,n^{-\alpha_n}$$ at fixed $$Pn$$ balances the two terms, and gives
 
 $$
-\frac{1}{\alpha_{C}}\;=\; \frac{1}{\alpha_{P}}+ \frac{1}{\alpha_{n}}\,, \qquad P \propto C^{\,\alpha_n/(\alpha_P + \alpha_n)}\,,\quad n \propto C^{\,\alpha_P/(\alpha_P + \alpha_n)}\,.
+\frac{1}{\alpha_{C}}\;=\; \frac{1}{\alpha_{P}}+ \frac{1}{\alpha_{n}}\,, \qquad P \propto C^{\,\alpha_n/(\alpha_P + \alpha_n)}\,,\quad n \propto C^{\,\alpha_P/(\alpha_P + \alpha_n)}\,. \tag{7.4}
 $$
 
 The harmonic sum makes $$\alpha_{C}$$ smaller than either single-resource exponent, since a factor of $$C$$ must be split between growing $$P$$ and growing $$n$$. Kaplan's values give $$\alpha_{C}\approx 0.042$$, against the measured $$0.050$$: roughly consistent, with the gap traceable to the form of the fit and to early-stopping details.
@@ -87,13 +87,13 @@ The harmonic sum makes $$\alpha_{C}$$ smaller than either single-resource expone
 Each single-resource law assumes the other resources are unlimited. Joint fits describe the crossover to being bottlenecked, with the loss governed by whichever resource is scarcest. Two parametric forms dominate the literature. Kaplan et al. used
 
 $$
-L(P,n) = \Big[\Big(\frac{P_{c}}{P}\Big)^{\alpha_P/\alpha_n}+ \frac{n_{c}}{n}\Big]^{\alpha_n}\,,
+L(P,n) = \Big[\Big(\frac{P_{c}}{P}\Big)^{\alpha_P/\alpha_n}+ \frac{n_{c}}{n}\Big]^{\alpha_n}\,, \tag{7.5}
 $$
 
 while the Chinchilla analysis of Hoffmann et al. (Hoffmann et al. 2022) refit with the additive ansatz
 
 $$
-L(P,n) \;\approx\; E + A\, P^{-0.34}+ B\, n^{-0.28}\,.
+L(P,n) \;\approx\; E + A\, P^{-0.34}+ B\, n^{-0.28}\,. \tag{7.6}
 $$
 
 The additive form is easy to read. $$E\approx 1.69$$ is the irreducible entropy of text, the noise floor that no amount of scale removes; the two deficits decay independently; and the bottleneck is simply the larger deficit. Both forms reduce to the single-resource laws (7.1) in the appropriate corners.
