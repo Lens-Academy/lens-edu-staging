@@ -84,7 +84,7 @@ One or two people share what their group landed on.
 Everyone teaches one technique from the course in about 5 minutes (4 if you are four), then is taught by the others. Teach the one you prepared in this unit, or any technique you used.
 
 1. Teacher: explain the technique with one example from your own use. A small or made-up example is fine. Then ask the others to try one step on a small problem of their own.
-2. Listeners: be honest beginners. Say out loud what you think the step means.
+2. Listeners: act as beginners, and say honestly what you think the step means.
 3. Teacher: before you correct anything, ask what the listener is thinking.
 4. After each turn, the teacher names one thing a listener understood differently than expected.
 
@@ -134,7 +134,7 @@ Your navigator talks through these:
 - Your monthly review: a short, fixed time each month to reread your bugs list and check your practice. The last page of this unit asked you to set its date.
 - If your accountability buddies want to keep going, agree on a date to check in a month from now.
 
-Then, if you feel like it: one thing you're glad you know now that you didn't know six weeks ago.
+Then, if you feel like it: one thing you're glad you know now that you didn't know when the course started.
 
 
 ---
