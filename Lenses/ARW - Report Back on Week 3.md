@@ -14,7 +14,7 @@ At the end of last week's module you planned one experiment with a motivation te
 
 ::answer{id="32b8773a-d576-40ce-b249-fd18b2781ec3" fallback="No plan from last week's module yet. That's fine: below, write about anything you tried since then to work on a bug."}
 
-The test is the same as every week: did it change anything on a real problem of yours? An experiment that never happened counts as data too. Whatever got in the way is often the next bug worth working on.
+The test is the same as every week: did it change anything on a real problem of yours? An experiment that never happened counts as data too. Whatever got in the way can be the next bug worth working on.
 
 #### Question: Open
 id:: a1b6643a-30e1-4f6e-b007-4dc439651c8a
@@ -54,7 +54,7 @@ Your bugs list:
 
 Bring it up to date. Cross off what is solved or no longer matters. Add bugs you noticed this week, including whatever got in the way of your experiment. Rewrite vague ones as something that actually happens.
 
-To change it, click your list, choose "Go to question", and submit the new version with "Answer again". Every later page in this course shows the latest version.
+To change it, click your list, choose "Go to question", and submit the new version with "Answer again". Then use your browser's Back button to return here. Every later page in this course shows the latest version.
 
 #### Question: Open
 id:: 64a8baf5-44a5-4edb-8899-a4ea68aca39c
