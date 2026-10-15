@@ -113,7 +113,7 @@ One or two people share what their group landed on.
 
 The group gives one person at a time its full attention. About 3 minutes each. What is said here stays here. Share only what you choose, and you can pass.
 
-1. Focus person: your most important problem now, in a sentence or two. Is it the one you named in the first unit?
+1. Focus person: your most important problem now, in a sentence or two.
 2. Focus person: the one practice you will keep after the course, and its first step, with a date.
 3. Each of the others asks one helpful question or offers one thread to pull: something the focus person could follow up. The focus person keeps one, or none.
 4. If you still have time: what is most likely to stop you keeping that practice, and what's your plan to prevent that?
