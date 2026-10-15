@@ -39,7 +39,7 @@ id:: 5dbfa060-9b5f-428f-a979-0ebbfda52168
 content::
 \## Your turn first
 
-Before you read Ryan's plans, before you read Greenblatt's plans for making AI go well, we will ask you to describe your own plan. Don't worry about not having a good plan yet. This is a useful exercise nonetheless.
+Before you read {--{"author":"Elias's AI","timestamp":1792103090812}@@Ryan's plans, before you read--}{++{"author":"Elias's AI","timestamp":1792103090812}@@Ryan++} Greenblatt's plans for making AI go well, we will ask you to describe your own plan. Don't worry about not having a good plan yet. This is a useful exercise nonetheless.
 
 Please write 2 or 3 sentences about the plan you believe exists today to prevent AI takeover, and describe who executes the plan or who will execute the plan. Or if you believe no plan exists, describe what you think will happen instead. Describe who would act if the dangers became more visible than they currently are, and how they would act, even if they don't have an upfront plan for it.
 
