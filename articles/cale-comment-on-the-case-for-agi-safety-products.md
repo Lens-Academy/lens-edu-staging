@@ -2,7 +2,7 @@
 title: "Comment on The case for AGI safety products"
 author:
   - "Yonatan Cale"
-source_url: "https://www.greaterwrong.com/posts/iwfdwzJerpC7FqbZG/the-case-for-agi-safety-products/comment/WNaA7ccFEp7o3iWjt"
+source_url: "{--{"author":"James's AI","timestamp":1792057682496}@@https://www.greaterwrong.com/posts/iwfdwzJerpC7FqbZG/the-case-for-agi-safety-products/comment/WNaA7ccFEp7o3iWjt--}{++{"author":"James's AI","timestamp":1792057682496}@@https://www.lesswrong.com/posts/iwfdwzJerpC7FqbZG/the-case-for-agi-safety-products?commentId=WNaA7ccFEp7o3iWjt++}"
 published: 2026-01-26
 created: 2026-10-04
 accessed: 2026-10-04
