@@ -43,12 +43,14 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-The idea behind Turbocharging, from this unit, in one line: you get good at what you actually rehearse. So good practice starts the way the real situation starts, and makes you do what you will really have to do.
+Turbocharging, from this unit, in one line: you get good at what you actually rehearse.
 
 1\. One person names a skill they want to improve (in research, work or anything else) and describes, step by step, how they practise it now.
 2\. The others ask, one at a time:
     - How does your practice start, compared with the real situation?
+    - What do you do in practice, compared with what you will do for real?
     - Does your practice ever vary how it starts or what you do?
+3\. Each of the others suggests one change. The person picks one, or none, and says why.
 4\. Swap until everyone has had a turn, about 4 minutes each.
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
@@ -81,9 +83,12 @@ A Comfort Zone Exploration is a small, safe try of something you feel a bit bloc
 
 Share only what you want to. A made-up example works too.
 
+1\. Each person says their planned experiment in one sentence.
+2\. The group asks the person, one at a time:
     - Would both futures feel okay: one where you still don't do this, and one where you feel free to?
     - What might the hesitation be protecting?
     - Is the worst realistic outcome unpleasant, or actually dangerous?
+    - What will you pay attention to while you do it?
 3\. Each person says whether and how they will change their plan. Making it smaller counts.
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
