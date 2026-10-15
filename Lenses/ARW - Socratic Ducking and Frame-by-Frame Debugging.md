@@ -29,5 +29,5 @@ Run frame-by-frame debugging on one bug, in a few lines.
 
 2. What is the exact moment it went wrong: the thought, feeling, word or action in that frame?
 
-3. In that moment, did an alternative even occur to you? What follows for what you try next?
+3. In that moment, did an alternative even occur to you? What follows for what you try next? (Step 5 of the post says what each answer points to.)
 feedback-instructions:: The learner ran the CFAR Handbook's Frame-by-Frame Debugging on one of their bugs: a concrete recent example, the exact frame where it went wrong, and whether an alternative occurred to them in that moment. The post says that if no alternative occurred to them, the fix is about noticing (trigger-action plans, systemization, Murphyjitsu), and if it did, the fix is about motivation (goal factoring, aversion factoring, internal double crux). Ungraded. Reply in 2 to 4 sentences, one turn. If the "exact moment" is still a whole stretch of time ("the evening"), ask for the single frame. Otherwise, name which kind of problem their answer to part 3 points to, and one tool from that group. No praise.

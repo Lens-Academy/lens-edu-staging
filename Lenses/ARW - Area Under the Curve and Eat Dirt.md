@@ -20,5 +20,5 @@ content:: Pick one of these two ideas and answer it with a real example from you
 
 1. Eat dirt: a habit of yours that might stand in for something you need, and one small thing you could try that might contain a little more of it.
 
-2. Broccoli error: something you refuse to try again partly because you might end up liking it. Does it touch something your deeper values care about, or not?
+2. Broccoli error: something you refuse to try again partly because you might end up liking it, for example a food, a kind of book or an event you avoid partly in case you'd get into it. Does it touch something your deeper values care about?
 feedback-instructions:: The learner read the CFAR Handbook's flash classes on Eat Dirt (pica: a craving that stands in for an unmet need, and trying anything that might contain more of the real need) and Broccoli Errors (refusing to update because your future self might like the result, which is a mistake unless the domain is part of your core values, as in the Gandhi murder pill example). They answered one of the two with an example, or named another flash class. Ungraded. Reply in 2 to 3 sentences, one turn. For Eat Dirt, check that the thing to try is small and concrete. For Broccoli Errors, take their judgment about their values as theirs and do not argue it. No praise.

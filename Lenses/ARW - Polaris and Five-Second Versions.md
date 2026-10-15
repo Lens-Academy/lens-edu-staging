@@ -9,7 +9,7 @@ tags: [wip]
 ---
 #### Text
 content::
-CFAR taught some ideas as twenty-minute flash classes instead of full classes. This post holds three of them. Polaris and five-second versions came up throughout the course. The third, thought lengths, asks whether you spend the right amount of thinking on things.
+CFAR taught some ideas as twenty-minute flash classes instead of full classes. This post holds three of them. Polaris and five-second versions came up throughout the course: the steps of a technique are scaffolding, and a tiny version you actually use counts. The third, thought lengths, asks whether you spend the right amount of thinking on things.
 
 #### Article
 source:: [[../articles/cfar-duncan-polaris-five-second-versions-and-thought-lengths]]
