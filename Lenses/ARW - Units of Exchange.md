@@ -25,13 +25,13 @@ to:: **Moral: Beware repeated costs—they add up!**
 #### Question: Open
 id:: 7de27cd6-6ca1-48db-8949-fec73ac62da1
 content::
-A colleague tells you: "I'm not paying €8 a month for a reference manager. I keep my citations in a Word file, and that's free." Before you agree that this saves money, what would you want to know, and why?
+A colleague tells you: "I'm not paying €8 a month for a reference manager. I keep my citations in a Word file, and that's free." Before you agree that this saves money, what would you want to know? Include at least one thing the Word file might cost them besides time and money.
 force-feedback:: first
 assessment-instructions:: The question applies "relevant value, relevant cost" and "beware repeated costs" to a new case: a colleague manages citations by hand in a Word file to avoid paying €8 a month (about €96 a year) for a reference manager.
 
 Score out of 100.
 - 60: Asks about the repeated cost of the free option: how often the colleague handles citations and how much time or effort each time takes by hand, added up over months or years, and compared with the €8 a month. Give 30 if it mentions time cost without the idea that it repeats and adds up.
-- 40: Names at least one cost or value of the Word file other than time and money: frustration, attention and interruptions, errors in reference lists, stress near deadlines, or what that time could be used for instead. Give 20 if the answer only gestures at "other costs" without naming one.
+- 40: Names at least one cost of the Word file other than time and money, as the question asks: frustration, attention and interruptions, errors in reference lists, stress near deadlines, or similar. Give 20 if the answer only gestures at "other costs" without naming one.
 
 The answer does not need to conclude that the colleague should buy the tool. An answer that says the Word file could still be the better deal, for example for someone who rarely cites, can get full marks if it asks the questions above.
 feedback-instructions:: The learner just read the first two parts of Units of Exchange and answered what they would want to know about a colleague who keeps citations in a Word file to save €8 a month. You see the score and the grader's reason.
