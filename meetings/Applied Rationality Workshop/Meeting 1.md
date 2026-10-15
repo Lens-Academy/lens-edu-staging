@@ -114,6 +114,7 @@ One or two people share what their group landed on. Share how it went for you, n
 **New group. Names first, then straight in.**
 
 
+1. The people in this room are your accountability buddies for the rest of the course. Swap contact details in the table. Before each meeting, check in: did you finish, are you coming?
 2. Share the real-life experiment you planned on your ["Plan your week" page](https://staging.lensacademy.org/courses/applied-rationality-workshop/module/arw-m1-opening). None yet? Pick one small thing to try, such as your Room 3 thread.
 3. The others ask: from 1 (not at all) to 10 (shocked), how surprised would you be if it didn't happen? Below 7: find one change together that raises the number.
 4. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
