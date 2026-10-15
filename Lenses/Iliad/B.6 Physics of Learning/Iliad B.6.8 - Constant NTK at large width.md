@@ -9,9 +9,9 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "qft#42-features"
-upstream_fingerprint: "sPZcTl/1700/1/0CQ40OjF0RCd0RWa0S5g0dOu0f2I0fl10mWP0oCx0uHM105b11KF16C31ABO1V611hHa1lsV1tEl1tWm1y6N24ZH25Ua25nf2C7E2Cv52KSG2LV22NOB2Nop2Xfr2frZ"
+upstream_fingerprint: "sPZcTl/1718/1/0CQ40OjF0RCd0RWa0S5g0dOu0f2I0fl10mWP0oCx0uHM105b11KF16C31ABO1V611hHa1lsV1tEl1tWm1y6N24ZH25Ua25nf2C7E2Cv52KSG2LV22NOB2Nop2Xfr2frZ"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/qft/#42-features"
@@ -24,7 +24,7 @@ content::
 The Jacobian matrix $$J^{\mu}{}_{i}=\partial f^{\mu}/\partial \theta^{i}$$ measures how function values on the training data depend on small variations of the network weights. Assuming there are more parameters than training data, its singular value decomposition looks like
 
 $$
-J = USV^{T}\,,\qquad S = \bigg[\text{diag}(s_{1},...,s_{n})\;\; \mathbf{0}_{n\times (P-n)}\bigg]\,.
+J = USV^{T}\,,\qquad S = \bigg[\text{diag}(s_{1},...,s_{n})\;\; \mathbf{0}_{n\times (P-n)}\bigg]\,.  \tag{4.15}
 $$
 
 The right singular vectors (columns of $$V$$) define natural modes in parameter space, while the left singular vectors (columns of $$U$$) are the natural modes in function-value space — where "natural" means with respect to how network outputs depend on weights. The $$n$$ left singular vectors (together with their singular values $$s_{i}$$) can be thought of, abstractly, as the *features* that a network has learned. A common definition of feature *learning* is that these singular vectors+values change during training.
@@ -32,7 +32,7 @@ The right singular vectors (columns of $$V$$) define natural modes in parameter 
 The analysis of features can equivalently be performed via the NTK. As a matrix, we've got
 
 $$
-\Theta = JJ^{T} = US^{2}U^{T}\,,
+\Theta = JJ^{T} = US^{2}U^{T}\,,  \tag{4.16}
 $$
 
 with eigenvectors = the feature vectors, and eigenvalues = $$\{s_{i}^{2}\}$$ . Thus feature learning happens when the NTK changes during training.
@@ -42,7 +42,7 @@ with eigenvectors = the feature vectors, and eigenvalues = $$\{s_{i}^{2}\}$$ . T
 **Remark.** A closely related "dual" object that appears in other parts of learning theory is the Fisher information metric on parameter space $${\mathbb{R}}^{P}$$. Its empirical version is
 
 $$
-\mathcal{F} := J^{T}J = f^{*}(\delta)\,,
+\mathcal{F} := J^{T}J = f^{*}(\delta)\,,  \tag{4.17}
 $$
 
 the pull-back (via the network function) of constant Euclidean metric on the space of function values on the training data. In coordinates, $$\mathcal{F}_{ij}=\frac{\partial f^{\mu}}{\partial \theta^{i}}\delta_{\mu\nu}\frac{\partial f^{\mu}}{\partial \theta^{j}}$$.
@@ -63,7 +63,7 @@ A rigorous derivation is somewhat technical, and we refer the reader to (Du et a
 We'll simplify life by setting biases to zero, so the network becomes
 
 $$
-f_{\theta}(x) = z^{(L+1)}(x)\,,\quad z^{(\ell)}_{i} = \frac{1}{\sqrt{N_{\ell-1}}}\sum_{j} w_{ij}^{(\ell)}\phi(z_{j}^{(\ell-1)})\,,\quad w^{(\ell)}_{ij}\sim{{\mathcal N}}(0,\sigma_{w})\,,
+f_{\theta}(x) = z^{(L+1)}(x)\,,\quad z^{(\ell)}_{i} = \frac{1}{\sqrt{N_{\ell-1}}}\sum_{j} w_{ij}^{(\ell)}\phi(z_{j}^{(\ell-1)})\,,\quad w^{(\ell)}_{ij}\sim{{\mathcal N}}(0,\sigma_{w})\,,  \tag{4.18}
 $$
 
 in the fan-in normalization of Section 3.2, with order-one weights.
@@ -71,37 +71,37 @@ in the fan-in normalization of Section 3.2, with order-one weights.
 *Size of the NTK.* The first task is to estimate how large the NTK is at large width, because that decides how the learning rate must scale. By the chain rule, the gradient with respect to the layer-$$\ell$$ weights is an outer product,
 
 $$
-\frac{\partial f}{\partial w^{(\ell)}_{ij}}= \frac{1}{\sqrt{N_{\ell-1}}}\;\beta^{(\ell)}_{i}\;\phi(z^{(\ell-1)}_{j})\,,\qquad \beta^{(\ell)}_{i} := \frac{\partial f}{\partial z^{(\ell)}_{i}}\,,
+\frac{\partial f}{\partial w^{(\ell)}_{ij}}= \frac{1}{\sqrt{N_{\ell-1}}}\;\beta^{(\ell)}_{i}\;\phi(z^{(\ell-1)}_{j})\,,\qquad \beta^{(\ell)}_{i} := \frac{\partial f}{\partial z^{(\ell)}_{i}}\,,  \tag{4.19}
 $$
 
 where the backpropagated sensitivities $$\beta^{(\ell)}$$ obey $$\beta^{(L+1)}= 1$$ and
 
 $$
-\beta^{(\ell)}_{i} = \phi'(z^{(\ell)}_{i})\,\frac{1}{\sqrt{N_{\ell}}}\sum_{k} w^{(\ell+1)}_{ki}\,\beta^{(\ell+1)}_{k}\,.
+\beta^{(\ell)}_{i} = \phi'(z^{(\ell)}_{i})\,\frac{1}{\sqrt{N_{\ell}}}\sum_{k} w^{(\ell+1)}_{ki}\,\beta^{(\ell+1)}_{k}\,.  \tag{4.20}
 $$
 
 The NTK is a sum over layers,
 
 $$
-\begin{aligned}\Theta^{\mu\nu}&= \sum_{\ell=1}^{L+1}\sum_{i,j}\frac{\partial f^{\mu}}{\partial w^{(\ell)}_{ij}}\frac{\partial f^{\nu}}{\partial w^{(\ell)}_{ij}}\notag \\&= \sum_{\ell=1}^{L+1}\underbrace{\Big[\sum_i \beta^{(\ell)}_i(x^\mu)\,\beta^{(\ell)}_i(x^\nu)\Big]}_{B^{(\ell)}_{\mu\nu}}\; \underbrace{\Big[\frac{1}{N_{\ell-1}}\sum_j \phi(z^{(\ell-1)}_j(x^\mu))\,\phi(z^{(\ell-1)}_j(x^\nu))\Big]}_{\to\;\bar K^{(\ell)}_{\mu\nu}/\sigma_w}\,. \end{aligned}
+\begin{aligned}\Theta^{\mu\nu}&= \sum_{\ell=1}^{L+1}\sum_{i,j}\frac{\partial f^{\mu}}{\partial w^{(\ell)}_{ij}}\frac{\partial f^{\nu}}{\partial w^{(\ell)}_{ij}}\notag \\&= \sum_{\ell=1}^{L+1}\underbrace{\Big[\sum_i \beta^{(\ell)}_i(x^\mu)\,\beta^{(\ell)}_i(x^\nu)\Big]}_{B^{(\ell)}_{\mu\nu}}\; \underbrace{\Big[\frac{1}{N_{\ell-1}}\sum_j \phi(z^{(\ell-1)}_j(x^\mu))\,\phi(z^{(\ell-1)}_j(x^\nu))\Big]}_{\to\;\bar K^{(\ell)}_{\mu\nu}/\sigma_w}\,.  \quad\text{(4.21)}\end{aligned}
 $$
 
 The second bracket is an average of $$N_{\ell-1}$$ terms. At initialization and large width, the law of large numbers replaces it by $$\bar K^{(\ell)}_{\mu\nu}/\sigma_{w}$$, the Gaussian-process kernel of (3.30) evaluated on the two inputs, which is of order one. (For $$\ell=1$$ the bracket is exactly $$x^{\mu}\cdot x^{\nu}/d$$, which is $$\bar K^{(1)}_{\mu\nu}/\sigma_{w}$$.) The first bracket is handled by the same recursion run backwards. Define
 
 $$
-\dot{\bar K}^{(\ell)}_{\mu\nu}= \dot{\bar K}^{(\ell)}(x^{\mu},x^{\nu}):= {\mathbb{E}}\big[ \phi'(z^{(\ell-1)}_{i}(x^{\mu}))\,\phi'(z^{(\ell-1)}_{i}(x^{\nu}))\big] \qquad \text{(for any fixed $i$)}\,,
+\dot{\bar K}^{(\ell)}_{\mu\nu}= \dot{\bar K}^{(\ell)}(x^{\mu},x^{\nu}):= {\mathbb{E}}\big[ \phi'(z^{(\ell-1)}_{i}(x^{\mu}))\,\phi'(z^{(\ell-1)}_{i}(x^{\nu}))\big] \qquad \text{(for any fixed $i$)}\,,  \tag{4.22}
 $$
 
 which is of order one for reasonable activation functions. Using the independence at initialization of the weights $$w^{(\ell+1)}$$ from everything below them, one finds $$B^{(\ell)}_{\mu\nu}\approx \sigma_{w}\,\dot{\bar K}^{(\ell+1)}_{\mu\nu}\,B^{(\ell+1)}_{\mu\nu}$$ with $$B^{(L+1)}_{\mu\nu}=1$$, and hence
 
 $$
-{\mathbb{E}}\big[\Theta^{\mu\nu}\big] \;\approx\; \sum_{\ell=1}^{L+1}\sigma_{w}^{L-\ell}\; \dot{\bar K}^{(L+1)}_{\mu\nu}\cdots \dot{\bar K}^{(\ell+1)}_{\mu\nu}\; \bar K^{(\ell)}_{\mu\nu}\,.
+{\mathbb{E}}\big[\Theta^{\mu\nu}\big] \;\approx\; \sum_{\ell=1}^{L+1}\sigma_{w}^{L-\ell}\; \dot{\bar K}^{(L+1)}_{\mu\nu}\cdots \dot{\bar K}^{(\ell+1)}_{\mu\nu}\; \bar K^{(\ell)}_{\mu\nu}\,. \tag{4.23}
 $$
 
 This is a sum of $$L+1$$ terms, each of order one, with no factors of $$N$$ anywhere: *in the fan-in normalization the NTK is of order one at large width*, and every layer contributes to it at the same order. (Equation (4.23) is the standard recursion for the infinite-width NTK (Jacot et al. 2018).) By (4.10), an order-one learning rate $$\eta$$ then moves the function values $$f^{\mu}$$ by an order-one amount per unit time, which is what we want, and no rescaling of $$\eta$$ with width is needed in this convention. For the one-hidden-layer network $$f = \frac{1}{\sqrt{N}}\sum_{i} c_{i}\phi(a_{i}\cdot x)$$ one can check this by hand:
 
 $$
-\Theta^{\mu\nu}= \frac{1}{N}\sum_{i=1}^{N}\Big[\phi(a_{i}\cdot x^{\mu})\,\phi(a_{i}\cdot x^{\nu}) + c_{i}^{2}\,\phi'(a_{i}\cdot x^{\mu})\,\phi'(a_{i}\cdot x^{\nu})\;x^{\mu}\!\cdot x^{\nu}\Big] = O(1)\,,
+\Theta^{\mu\nu}= \frac{1}{N}\sum_{i=1}^{N}\Big[\phi(a_{i}\cdot x^{\mu})\,\phi(a_{i}\cdot x^{\nu}) + c_{i}^{2}\,\phi'(a_{i}\cdot x^{\mu})\,\phi'(a_{i}\cdot x^{\nu})\;x^{\mu}\!\cdot x^{\nu}\Big] = O(1)\,, \tag{4.24}
 $$
 
 an average of $$N$$ order-one terms. (Here and below we absorb the first-layer factor $$1/\sqrt{d}$$ into the inputs $$x$$, since $$d$$ is fixed.)
@@ -119,25 +119,25 @@ Other conventions for the parameters are changes of variables, and they can be c
 *The Hessian is small.* To see that the NTK is approximately constant during training, we consider its time derivative, which by Exercise 4.2 is bounded by the operator norm of the Hessian of the network function,
 
 $$
-\Big\|\frac{d}{dt}\Theta\Big\| \lesssim \eta\, \| \nabla_{\theta}^{2} f \| \cdot \|\Theta\|\cdot|\Delta|\,.
+\Big\|\frac{d}{dt}\Theta\Big\| \lesssim \eta\, \| \nabla_{\theta}^{2} f \| \cdot \|\Theta\|\cdot|\Delta|\,. \tag{4.25}
 $$
 
 The Hessian is a very large but very sparse matrix, and in the fan-in normalization its operator norm is small. We'll sketch how this works for one hidden layer ($$L=1$$) with one-dimensional output, following (Hanin 2026, Lecture 3). Writing
 
 $$
-f_{\theta}(x) = \frac{1}{\sqrt{N}}\sum_{i=1}^{N}c_{i}\, \phi(a_{i}\cdot x)\,,\qquad c_{i}\in {\mathbb{R}}\,,\quad a_{i}\in {\mathbb{R}}^{d}\,,
+f_{\theta}(x) = \frac{1}{\sqrt{N}}\sum_{i=1}^{N}c_{i}\, \phi(a_{i}\cdot x)\,,\qquad c_{i}\in {\mathbb{R}}\,,\quad a_{i}\in {\mathbb{R}}^{d}\,, \tag{4.26}
 $$
 
 the Hessian splits into blocks, one per hidden neuron,
 
 $$
-\nabla_{\theta}^{2} f_{\theta}(x) = \bigoplus_{i=1}^{N}(\nabla_{\theta}^{2} f)_{i}\,,\qquad (\nabla_{\theta}^{2} f)_{i} = \frac{1}{\sqrt{N}}\begin{pmatrix}0&\phi'(a_{i}\cdot x)\, x^{T} \\ \phi'(a_{i}\cdot x)\, x&c_{i}\, \phi''(a_{i}\cdot x)\, x x^{T}\end{pmatrix}\,.
+\nabla_{\theta}^{2} f_{\theta}(x) = \bigoplus_{i=1}^{N}(\nabla_{\theta}^{2} f)_{i}\,,\qquad (\nabla_{\theta}^{2} f)_{i} = \frac{1}{\sqrt{N}}\begin{pmatrix}0&\phi'(a_{i}\cdot x)\, x^{T} \\ \phi'(a_{i}\cdot x)\, x&c_{i}\, \phi''(a_{i}\cdot x)\, x x^{T}\end{pmatrix}\,. \tag{4.27}
 $$
 
 The operator norm of a block-diagonal matrix is the largest operator norm of its blocks. Each block has fixed size $$(d+1)\times(d+1)$$, contains only order-one quantities (at least at initialization), and carries an explicit factor $$1/\sqrt{N}$$. Thus
 
 $$
-\| \nabla_{\theta}^{2} f\| = \max_{i=1,...,N}\| (\nabla_{\theta}^{2} f)_{i}\| = O\Big(\frac{1}{\sqrt{N}}\Big)\qquad \text{as $N\to\infty$}\,.
+\| \nabla_{\theta}^{2} f\| = \max_{i=1,...,N}\| (\nabla_{\theta}^{2} f)_{i}\| = O\Big(\frac{1}{\sqrt{N}}\Big)\qquad \text{as $N\to\infty$}\,. \tag{4.28}
 $$
 
 It's reasonable to expect that this bound continues to hold during training, and with a bit more work it can be proven (though we won't do it here). It also holds for networks of arbitrary fixed depth. A more careful analysis, keeping track of cancellations among the fluctuating terms, improves the resulting bound on the kernel drift to $$O(1/N)$$; the crude $$O(1/\sqrt{N})$$ is enough for the argument.
@@ -145,31 +145,31 @@ It's reasonable to expect that this bound continues to hold during training, and
 *Putting the pieces together.* First, the parameters do not move far in total. From $$\dot\theta = -\eta\sum_{\mu}\Delta^{\mu}\nabla_{\theta} f^{\mu}$$,
 
 $$
-|\dot\theta|^{2} = \eta^{2}\Big|\sum_{\mu=1}^{n}\Delta^{\mu}\nabla_{\theta} f^{\mu}\Big|^{2} \leq \eta^{2}\,|\Delta|^{2}\,|\nabla_{\theta} f|^{2} \leq \eta^{2}\,n\,|\Delta|^{2}\,\|\Theta\| = O(1)\,,
+|\dot\theta|^{2} = \eta^{2}\Big|\sum_{\mu=1}^{n}\Delta^{\mu}\nabla_{\theta} f^{\mu}\Big|^{2} \leq \eta^{2}\,|\Delta|^{2}\,|\nabla_{\theta} f|^{2} \leq \eta^{2}\,n\,|\Delta|^{2}\,\|\Theta\| = O(1)\,,  \tag{4.29}
 $$
 
 where $$|\nabla_{\theta} f|^{2} = \sum_{\mu}\Theta^{\mu\mu}= \mathrm{tr}\,\Theta$$. So by the mean value theorem, $$\theta(t)-\theta_{0} = t\,\dot\theta(\bar t)$$ for some $$\bar t\in[0,t]$$, and
 
 $$
-|\theta(t)-\theta_{0}| = O(1)\qquad\text{for any fixed }t\,.
+|\theta(t)-\theta_{0}| = O(1)\qquad\text{for any fixed }t\,. \tag{4.30}
 $$
 
 An order-one total displacement, shared among $$P\approx Nd$$ parameters, means that each individual weight moves only by $$O(1/\sqrt{N})$$: relative to its order-one initial value, every weight barely changes. Second, the kernel freezes. By (4.25) and (4.28),
 
 $$
-\big\|\Theta(t) - \Theta(0)\big\| \leq t\, \|\dot\Theta(\bar t)\| \lesssim t\,\eta\,\|\nabla_{\theta}^{2} f\|\,\|\Theta\|\,|\Delta| = O\Big(\frac{1}{\sqrt{N}}\Big)\,,
+\big\|\Theta(t) - \Theta(0)\big\| \leq t\, \|\dot\Theta(\bar t)\| \lesssim t\,\eta\,\|\nabla_{\theta}^{2} f\|\,\|\Theta\|\,|\Delta| = O\Big(\frac{1}{\sqrt{N}}\Big)\,, \tag{4.31}
 $$
 
 so the order-one kernel $$\Theta$$ becomes constant as $$N\to\infty$$. Third, the network linearizes. By Taylor's theorem with remainder,
 
 $$
-f_{\theta}(x)-f_{\theta_0}(x) = \nabla_{\theta} f(x)\big|_{\theta_0}\cdot (\theta-\theta_{0}) +\frac{1}{2}(\theta-\theta_{0})\cdot \nabla_{\theta}^{2} f(x)\big|_{\bar\theta}\cdot (\theta-\theta_{0})
+f_{\theta}(x)-f_{\theta_0}(x) = \nabla_{\theta} f(x)\big|_{\theta_0}\cdot (\theta-\theta_{0}) +\frac{1}{2}(\theta-\theta_{0})\cdot \nabla_{\theta}^{2} f(x)\big|_{\bar\theta}\cdot (\theta-\theta_{0})  \tag{4.32}
 $$
 
 for some $$\bar\theta$$ on the segment between $$\theta_{0}$$ and $$\theta$$. Setting $$\theta=\theta(t)$$ and using (4.30) and (4.28), the quadratic term is bounded by
 
 $$
-\Big|\frac{1}{2}(\theta-\theta_{0})\cdot \nabla_{\theta}^{2} f(x)\big|_{\bar\theta}\cdot (\theta-\theta_{0})\Big| \leq \frac{1}{2}\|\nabla_{\theta}^{2} f\|\; |\theta-\theta_{0}|^{2} = O\Big( \frac{1}{\sqrt{N}}\Big)\cdot O(1)\,,
+\Big|\frac{1}{2}(\theta-\theta_{0})\cdot \nabla_{\theta}^{2} f(x)\big|_{\bar\theta}\cdot (\theta-\theta_{0})\Big| \leq \frac{1}{2}\|\nabla_{\theta}^{2} f\|\; |\theta-\theta_{0}|^{2} = O\Big( \frac{1}{\sqrt{N}}\Big)\cdot O(1)\,,  \tag{4.33}
 $$
 
 so the linear approximation becomes exact as $$N\to\infty$$, even though the linear term, and with it the network function, moves by an order-one amount. In words: each of the $$N$$ neurons has $$O(1/\sqrt{N})$$ leverage on the output, so an order-one change in $$f$$ can be assembled from $$O(1/\sqrt{N})$$ changes in every weight, and changes that small leave the features $$\nabla_{\theta} f$$ untouched.

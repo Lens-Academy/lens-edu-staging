@@ -4,11 +4,11 @@ title: "B.5.11 From unrolling to influence functions"
 tldr: "Long Exercise 4.2: show that unrolling with an interpolated loss converges to the influence function, first for full-batch gradient descent and then for SGD, including the null-space behaviour."
 summary_for_tutor: "Section 4.3 of Iliad worksheet B.5 Data Attribution: Exercise 4.2 (a)-(c) with collapsed solution. (a) the response recursion with J_t, (b) the full-batch GD warm-up, (c) SGD with decaying learning rate, where part i shows the equilibrium is r_IF = H^+ grad L(w*, z_k) and part ii shows the null-space component grows linearly. Let the student attempt each exercise before revealing or paraphrasing a solution."
 source_url: https://iliad-intensive.org/learning/data-attribution/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 authors:
   - Louis Jaburi
 upstream_key: "data-attribution#43-long-exercise-from-unrolling-to-influence-functions"
-upstream_fingerprint: "TvP2Om/918/1/04t3052707sb0LuJ0MkM0ijq0lQO0mOW0udb11KF18Dj1ChR1J6Y1Me61aDK1ha51oGp1ujD24Eq2HQ82LBv2Owl2TET2Vwr2ueB3JGm3Jam3T433W7B3o3a49f54Ep6"
+upstream_fingerprint: "TvP2Om/921/1/04t3052707sb0LuJ0MkM0ijq0lQO0mOW0udb11KF18Dj1ChR1J6Y1Me61aDK1ha51oGp1ujD24Eq2HQ82LBv2Owl2TET2Vwr2ueB3JGm3Jam3T433W7B3o3a49f54Ep6"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/data-attribution/#43-long-exercise-from-unrolling-to-influence-functions"
@@ -24,13 +24,13 @@ The unrolling formula (20) and the influence function (6) appear to be very diff
 **Exercise 4.2 (Convergence of unrolling to influence functions).** Consider the SGD update with an interpolated loss that downweights example $$z_{k}$$ by $$\varepsilon$$:
 
 $$
-w_{t+1}(\varepsilon) \;=\; w_{t}(\varepsilon) \;-\; \frac{\eta_{t}}{b}\sum_{i\in B_t}\bigl(1 - \varepsilon\,\mathbf{1}[i=k]\bigr)\,\nabla_{w} L(w_{t}(\varepsilon),z_{i}),
+w_{t+1}(\varepsilon) \;=\; w_{t}(\varepsilon) \;-\; \frac{\eta_{t}}{b}\sum_{i\in B_t}\bigl(1 - \varepsilon\,\mathbf{1}[i=k]\bigr)\,\nabla_{w} L(w_{t}(\varepsilon),z_{i}), \tag{34}
 $$
 
 so $$\varepsilon = 0$$ is the original training run and $$\varepsilon = 1/n$$ corresponds to removing $$z_{k}$$. Define the *response* $$r_{t} := \partial w_{t}(\varepsilon)/\partial\varepsilon\big|_{\varepsilon=0}$$.
 
 $$
-\begin{pmatrix}w_{t+1}\\ r_{t+1}\end{pmatrix} \;=\; \underbrace{\begin{pmatrix}I&0 \\ 0&J_{t}\end{pmatrix}}_{\text{propagation}}\begin{pmatrix}w_{t} \\ r_{t}\end{pmatrix} \;+\; \underbrace{\begin{pmatrix}-\frac{\eta_t}{b}\sum_{i\in B_t}\nabla_{w} L(w_{t},z_{i}) \\[4pt] \frac{\eta_t}{b}\,\mathbf{1}[k\in B_{t}]\,\nabla_{w} L(w_{t},z_{k})\end{pmatrix}}_{\text{driving terms}}
+\begin{pmatrix}w_{t+1}\\ r_{t+1}\end{pmatrix} \;=\; \underbrace{\begin{pmatrix}I&0 \\ 0&J_{t}\end{pmatrix}}_{\text{propagation}}\begin{pmatrix}w_{t} \\ r_{t}\end{pmatrix} \;+\; \underbrace{\begin{pmatrix}-\frac{\eta_t}{b}\sum_{i\in B_t}\nabla_{w} L(w_{t},z_{i}) \\[4pt] \frac{\eta_t}{b}\,\mathbf{1}[k\in B_{t}]\,\nabla_{w} L(w_{t},z_{k})\end{pmatrix}}_{\text{driving terms}} \tag{35}
 $$
 
 **(a)** **(The response recursion.)** By differentiating (34) with respect to $$\varepsilon$$ at $$\varepsilon = 0$$, derive (35), where $$J_{t} = I - \frac{\eta_{t}}{b}\sum_{i\in B_t}\nabla_{w}^{2} L(w_{t},z_{i})$$ is the step Jacobian from (17). The top row is ordinary SGD; verify that the bottom row is the same recursion as Exercise 4.1(a), but now with stochastic batches. Since the driving terms depend only on $$(w_{t}, r_{t})$$ and the i.i.d. batch selection $$B_{t}$$, the joint process is a Markov chain. Why is this observation useful?
@@ -48,7 +48,7 @@ Take $$K\to\infty$$ (assuming $$\eta < 2/\lambda_{\max}(H)$$) and recover the in
 **(c)** **(Stochastic case: convergence to IF.)** Now return to SGD with i.i.d. batches and a decaying learning rate satisfying $$\sum_{t} \eta_{t} = \infty$$, $$\sum_{t} \eta_{t}^{2} < \infty$$ (the Robbins–Monro conditions). Assume SGD converges to a local minimum $$w^{*}$$ with $$H = \nabla_{w}^{2} L(w^{*})$$ positive semidefinite. The continuous-time ODE that the response tracks is
 
 $$
-\dot{r}(t) \;=\; -H\,r(t) \;+\; \nabla_{w} L(w^{*},z_{k}).
+\dot{r}(t) \;=\; -H\,r(t) \;+\; \nabla_{w} L(w^{*},z_{k}). \tag{36}
 $$
 
 (You do not need to prove that SGD tracks this ODE, this follows from standard stochastic approximation theory.)

@@ -9,9 +9,9 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "qft#44-lazy-learning"
-upstream_fingerprint: "4JVMMPC2uj4U/964/1/03l507Xo0Q5u0TfJ0XoC0zw018mq1Thc1qpW1ywb23tv288L29v12BGc2Cv52Nap2ZPf2iQi2p1s2p8d318431LA32vm3C3w3Rc13UOI3W7B3gnb3iG540fx4Gly4MwW"
+upstream_fingerprint: "4JVMMPC2uj4U/971/1/03l507Xo0Q5u0TfJ0XoC0zw018mq1Thc1qpW1ywb23tv288L29v12BGc2Cv52Nap2ZPf2iQi2p1s2p8d318431LA32vm3C3w3Rc13UOI3W7B3gnb3iG540fx4Gly4MwW"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/qft/#44-lazy-learning"
@@ -24,13 +24,13 @@ content::
 When the NTK is constant during training — confusingly often called the *NTK regime* — a network undergoes what is known as "lazy learning." It is not learning features, since the eigenvalues $$s_{\mu}^{2}$$ and eigenvectors $$u_{\mu}$$ of the NTK are (by construction) constant. Nevertheless, the network function converges to its training data exponentially fast: from (4.12) with constant $$\Theta$$, we have
 
 $$
-\Delta^{\mu}(t) = (e^{-\eta\, t\, \Theta})^{\mu}{}_{\nu} \Delta^{\nu}(0)\,,
+\Delta^{\mu}(t) = (e^{-\eta\, t\, \Theta})^{\mu}{}_{\nu} \Delta^{\nu}(0)\,,  \tag{4.34}
 $$
 
 where we recall that $$\Delta^{\mu}(t) = f^{\mu}-y^{\mu} = f_{\theta(t)}(x^{\mu})-y^{\mu}$$. Writing the residuals in an eigenbasis for the NTK, $$\Delta=\hat \Delta^{\mu}u_{\mu}$$ we see that
 
 $$
-\hat \Delta^{\mu}(t) = e^{-\eta\,t\,s_\mu^2}\hat \Delta^{\mu}(0)\,.
+\hat \Delta^{\mu}(t) = e^{-\eta\,t\,s_\mu^2}\hat \Delta^{\mu}(0)\,.  \tag{4.35}
 $$
 
 Each feature is learned at a characteristic timescale $$t_{\mu} \approx 1/(\eta\, s_{\mu}^{2})$$ .
@@ -39,7 +39,7 @@ Each feature is learned at a characteristic timescale $$t_{\mu} \approx 1/(\eta\
 **Exercise 4.3 (Lazy predictions on test points).** Derive that on an arbitrary test point $$x$$, not necessarily part of the training data,
 
 $$
-f_{\theta(t)}(x) = f_{\theta_0}(x) - \Theta(x,x^{\mu}) \Theta^{-1}_{\mu\nu}(1\!\!1-e^{-\eta\,t\,\Theta})^{\nu}{}_{\rho}\Delta^{\rho}(0)
+f_{\theta(t)}(x) = f_{\theta_0}(x) - \Theta(x,x^{\mu}) \Theta^{-1}_{\mu\nu}(1\!\!1-e^{-\eta\,t\,\Theta})^{\nu}{}_{\rho}\Delta^{\rho}(0)  \tag{4.36}
 $$
 
 where $$\Theta(x,x^{\mu}) = \nabla_{\theta} f(x)\cdot \nabla_{\theta} f(x^{\mu})$$ is the NTK for a test-train pair (which remains constant during training, just like the train-train NTK $$\Theta^{\mu\nu}$$).
@@ -60,13 +60,13 @@ Contracting with $$\nabla_{\theta} f(x)$$ and recognizing $$\Theta(x,x^{\mu}) = 
 From Exercise 4.3, we see that at the end of training $$t\to\infty$$ the network obeys
 
 $$
-f_{\theta_\infty}(x) = f_{\theta_0}(x)- \Theta(x,x^{\mu}) \Theta^{-1}_{\mu\nu}(f_{\theta_0}(x^{\nu})-y^{\nu})\,.
+f_{\theta_\infty}(x) = f_{\theta_0}(x)- \Theta(x,x^{\mu}) \Theta^{-1}_{\mu\nu}(f_{\theta_0}(x^{\nu})-y^{\nu})\,.  \tag{4.37}
 $$
 
 This is an affine-linear transformation of the Gaussian process $$f_{\theta_0}(x)$$ at initialization, so it is again a Gaussian process. It's straightforward to check that the new mean and covariance are
 
 $$
-\begin{aligned}{\mathbb{E}}\big[ f_{\theta_\infty}(x)\big]&= \Theta^{x\mu}\Theta^{-1}_{\mu\nu}y^{\nu} \\ \text{Cov}\big[f_{\theta_\infty}(x),f_{\theta_\infty}(x')\big]&= K^{xx'}- 2\Theta^{x\mu}\Theta^{-1}_{\mu\nu}K^{\nu x'}+\Theta^{x\mu}\Theta^{-1}_{\mu\nu}K^{\nu \rho}\Theta^{-1}_{\rho\sigma}\Theta^{\sigma x'}\,, \notag\end{aligned}
+\begin{aligned}{\mathbb{E}}\big[ f_{\theta_\infty}(x)\big]&= \Theta^{x\mu}\Theta^{-1}_{\mu\nu}y^{\nu}  \quad\text{(4.38)}\\ \text{Cov}\big[f_{\theta_\infty}(x),f_{\theta_\infty}(x')\big]&= K^{xx'}- 2\Theta^{x\mu}\Theta^{-1}_{\mu\nu}K^{\nu x'}+\Theta^{x\mu}\Theta^{-1}_{\mu\nu}K^{\nu \rho}\Theta^{-1}_{\rho\sigma}\Theta^{\sigma x'}\,, \notag\end{aligned}
 $$
 
 where $$K^{xx'}=K(x,x')$$, $$\Theta^{x\mu}=\Theta(x,x^{\mu})$$, etc.
@@ -76,7 +76,7 @@ where $$K^{xx'}=K(x,x')$$, $$\Theta^{x\mu}=\Theta(x,x^{\mu})$$, etc.
 So far we've seen that in the fan-in normalization (Section 3.2), with order-one weights and an order-one learning rate $$\eta$$, at large width $$N$$ we've got
 
 $$
-\begin{aligned}\|\Theta\|\sim |\nabla_{\theta} f|^{2} \sim 1\,,\qquad \|\nabla_{\theta}^{2} f\|&\sim \frac{1}{\sqrt{N}}\,,\qquad |f_{\theta}-f_{\theta_0}|\sim 1\,, \\ |\theta-\theta_{0}|&\sim 1 \;\;\text{(i.e. }N^{-1/2}\text{ per weight)}\,,\end{aligned}
+\begin{aligned}\|\Theta\|\sim |\nabla_{\theta} f|^{2} \sim 1\,,\qquad \|\nabla_{\theta}^{2} f\|&\sim \frac{1}{\sqrt{N}}\,,\qquad |f_{\theta}-f_{\theta_0}|\sim 1\,, \\ |\theta-\theta_{0}|&\sim 1 \;\;\text{(i.e. }N^{-1/2}\text{ per weight)}\,,\end{aligned}  \tag{4.39}
 $$
 
 which forces $$\Theta$$ to be constant and the network to linearize as a function of its parameters.
@@ -95,13 +95,13 @@ Both $$L$$ and $$n$$ large are interesting cases for modern neural networks!
 *The starter model.* Inputs are one-dimensional: $$n=30$$ equispaced training points $$x^{\mu}\in[-2,2]$$, with targets from a two-neuron teacher, $$y(x) = 2\tanh(3x) - \frac{3}{2}\tanh(x)$$. The student is a one-hidden-layer $$\tanh$$ network
 
 $$
-f(x) = \frac{1}{N^{\gamma}}\sum_{i=1}^{N} c_{i}\tanh(a_{i}x)\,,\qquad c_{i},a_{i}\sim{{\mathcal N}}(0,1)\,,\qquad N=300\,,
+f(x) = \frac{1}{N^{\gamma}}\sum_{i=1}^{N} c_{i}\tanh(a_{i}x)\,,\qquad c_{i},a_{i}\sim{{\mathcal N}}(0,1)\,,\qquad N=300\,, \tag{4.40}
 $$
 
 trained by full-batch gradient descent on $${{\mathcal L}} = \frac{1}{2}\sum_{\mu}(f(x^{\mu})-y^{\mu})^{2}$$, with residuals $$\Delta^{\mu} = f(x^{\mu})-y^{\mu}$$. Here take the fan-in exponent $$\gamma = \frac{1}{2}$$, learning rate $$\eta = 0.02$$, and $$4\times10^{4}$$ steps. The empirical NTK to monitor is the $$n\times n$$ matrix
 
 $$
-\begin{aligned}\Theta^{\mu\nu}= \frac{1}{N^{2\gamma}}\sum_{i=1}^{N}\Big[&\tanh(a_{i}x^{\mu})\tanh(a_{i}x^{\nu}) \\&+ c_{i}^{2}\big(1-\tanh^{2}(a_{i}x^{\mu})\big)\big(1-\tanh^{2}(a_{i}x^{\nu})\big)\,x^{\mu} x^{\nu}\Big]\,.\end{aligned}
+\begin{aligned}\Theta^{\mu\nu}= \frac{1}{N^{2\gamma}}\sum_{i=1}^{N}\Big[&\tanh(a_{i}x^{\mu})\tanh(a_{i}x^{\nu}) \\&+ c_{i}^{2}\big(1-\tanh^{2}(a_{i}x^{\mu})\big)\big(1-\tanh^{2}(a_{i}x^{\nu})\big)\,x^{\mu} x^{\nu}\Big]\,.\end{aligned} \tag{4.41}
 $$
 
 **(a)** *It fits.* Train and check that the loss becomes small. (The network is overparametrized; fitting is not the interesting part.)

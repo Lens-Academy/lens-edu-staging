@@ -4,11 +4,11 @@ title: "B.5.12 Influence depends on training time"
 tldr: "Exercise 4.3 on a two-layer deep linear network: how a training example's influence changes over training time, when it peaks, and when its sign flips. Ends with an unfinished practical considerations section."
 summary_for_tutor: "Sections 4.4 and 5 of Iliad worksheet B.5 Data Attribution: the stagewise dynamics of a two-layer linear network, analytic influence of perturbing example z_p, Exercise 4.3 (a)-(c) with collapsed solution (three sources of influence, when influence peaks near each mode's transition time, sign flips with d = 2 and s_1 much larger than s_2), remarks on the general singular basis and the developmental view of Lee et al. 2025. Section 5 Practical Considerations and Open Problems reads only 'Under construction'. Let the student attempt each exercise before revealing or paraphrasing a solution."
 source_url: https://iliad-intensive.org/learning/data-attribution/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 authors:
   - Louis Jaburi
 upstream_key: "data-attribution#44-exercise-influence-depends-on-training-time"
-upstream_fingerprint: "F0OISHAHY/1238/1/051207kv0G2G0HNl0HSI0OeU0aKU0f2I0lQO0odP0pp21CBN1Elp1GWG1MZw1Qi61SxL1WyO1fr71j7J1lsV1oVX1qSZ1vAJ2A3W2Jsf2LWG2O6b2UbG2Uxg2X8V2jrE"
+upstream_fingerprint: "F0OISHAHY/1242/1/051207kv0G2G0HNl0HSI0OeU0aKU0f2I0lQO0odP0pp21CBN1Elp1GWG1MZw1Qi61SxL1WyO1fr71j7J1lsV1oVX1qSZ1vAJ2A3W2Jsf2LWG2O6b2UbG2Uxg2X8V2jrE"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/data-attribution/#44-exercise-influence-depends-on-training-time"
@@ -26,7 +26,7 @@ The previous sections analyzed unrolling's asymptotics in the converged limit. B
 **Dynamics.**  Under gradient flow with small balanced initialization, the network's modes evolve independently. The effective weight matrix at time $$t$$ is $$W(t) = \mathrm{diag}(\mathcal{G}_{1}(t),\dots,\mathcal{G}_{d}(t))$$, where each mode strength follows
 
 $$
-\mathcal{G}_{k}(t) \;=\; \frac{s_{k}\,e^{2s_k t/\tau}}{e^{2s_k t/\tau}- 1 + s_{k}/\mathcal{G}_{k}(0)},
+\mathcal{G}_{k}(t) \;=\; \frac{s_{k}\,e^{2s_k t/\tau}}{e^{2s_k t/\tau}- 1 + s_{k}/\mathcal{G}_{k}(0)}, \tag{37}
 $$
 
 with $$\mathcal{G}_{k}(0) \ll s_{k}$$ and time constant $$\tau$$. Mode $$k$$ transitions from $$\approx 0$$ to $$\approx s_{k}$$ around time $$t_{k}^{*} \approx \tfrac{\tau}{2s_k}\log(s_{k}/\mathcal{G}_{k}(0))$$. Larger singular values saturate first: the network learns dominant structure before fine structure.
@@ -34,7 +34,7 @@ with $$\mathcal{G}_{k}(0) \ll s_{k}$$ and time constant $$\tau$$. Mode $$k$$ tra
 **Analytic influence.**  Now perturb the weight of training example $$z_{p} = (x_{p},y_{p})$$ by $$\varepsilon$$, so the perturbed cross-covariance is $$\Sigma_{xy}(\varepsilon) = \Sigma_{xy}+ \varepsilon\,y_{p} x_{p}^{\top}$$. Since $$\Sigma_{xy}$$ is diagonal, the perturbation shifts its eigenvalues and rotates its eigenvectors. The influence of $$z_{p}$$ on the weight matrix at time $$t$$ decomposes as
 
 $$
-\mathcal{I}_{p}(t) \;:=\; \frac{\partial W(t,\varepsilon)}{\partial\varepsilon}\bigg\rvert_{\varepsilon=0}\;=\; A\,\mathcal{G}(t) \;+\; \mathcal{G}'_{\varepsilon}(t) \;+\; \mathcal{G}(t)\,B,
+\mathcal{I}_{p}(t) \;:=\; \frac{\partial W(t,\varepsilon)}{\partial\varepsilon}\bigg\rvert_{\varepsilon=0}\;=\; A\,\mathcal{G}(t) \;+\; \mathcal{G}'_{\varepsilon}(t) \;+\; \mathcal{G}(t)\,B, \tag{38}
 $$
 
 with three terms:
@@ -43,7 +43,7 @@ with three terms:
 - $$\mathcal{G}'_{\varepsilon}(t) = \mathrm{diag}\bigl(g'_{t}(s_{1})\,(y_{p})_{1}(x_{p})_{1},\;\dots,\;g'_{t}(s_{d})\,(y_{p})_{d}(x_{p})_{d}\bigr)$$ encodes the change in mode strengths, where
 
 $$
-g'_{t}(s_{k}) \;:=\; \frac{\partial\,\mathcal{G}_{k}(t)}{\partial s_{k}}
+g'_{t}(s_{k}) \;:=\; \frac{\partial\,\mathcal{G}_{k}(t)}{\partial s_{k}} \tag{39}
 $$
 
 is the sensitivity of the $$k$$-th mode strength to a change in the corresponding singular value at time $$t$$.
@@ -51,7 +51,7 @@ is the sensitivity of the $$k$$-th mode strength to a change in the correspondin
 The influence on the loss of a test example $$z_{q} = (x_{q}, y_{q})$$, with residual $$r_{q}(t) = y_{q} - W(t)x_{q}$$, is
 
 $$
-\mathcal{I}(z_{p},\,\ell_{q})(t) \;=\; -\,r_{q}(t)^{\top}\bigl(A\,\mathcal{G}(t) + \mathcal{G}'_{\varepsilon}(t) + \mathcal{G}(t)\,B\bigr)\,x_{q}.
+\mathcal{I}(z_{p},\,\ell_{q})(t) \;=\; -\,r_{q}(t)^{\top}\bigl(A\,\mathcal{G}(t) + \mathcal{G}'_{\varepsilon}(t) + \mathcal{G}(t)\,B\bigr)\,x_{q}. \tag{40}
 $$
 
 **(a)** **(Three sources of influence.)** Interpret the three terms in (38):

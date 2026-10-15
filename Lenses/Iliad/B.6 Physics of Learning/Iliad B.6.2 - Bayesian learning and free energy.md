@@ -9,9 +9,9 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "qft#2-statistical-mechanics-of-learning"
-upstream_fingerprint: "BujtHkdcH5WNfhy/2590/1/01LK04jg06ri0Aga0DUX0DcB0FzV0G2G0LRE0NRJ0QvX0SHk0SfS0Xf10dJ00eJ60f2I0fcC0fdM0g9X0itK0iuf0kDw0lJU0p2p0qn30uZe0udb0wbV0zQM156Z15JJ"
+upstream_fingerprint: "BujtHkdcH5WNfhy/2608/1/01LK04jg06ri0Aga0DUX0DcB0FzV0G2G0LRE0NRJ0QvX0SHk0SfS0Xf10dJ00eJ60f2I0fcC0fdM0g9X0itK0iuf0kDw0lJU0p2p0qn30uZe0udb0wbV0zQM156Z15JJ"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/qft/#2-statistical-mechanics-of-learning"
@@ -30,19 +30,19 @@ In this section we focus on the Bayesian model of learning. We first recall what
 Consider a network $$f_{\theta}$$ with parameters $$\theta\in{\mathbb{R}}^{P}$$, trained on $$n$$ samples $$(x^{\mu},y^{\mu})_{\mu=1}^{n}$$ to minimize a loss
 
 $$
-{{\mathcal L}}(\theta) = \sum_{\mu=1}^{n} \ell\big(f_{\theta}(x^{\mu}),y^{\mu}\big)\,,
+{{\mathcal L}}(\theta) = \sum_{\mu=1}^{n} \ell\big(f_{\theta}(x^{\mu}),y^{\mu}\big)\,,  \tag{2.1}
 $$
 
 a sum over samples of a per-sample loss $$\ell$$. In practice, the network is initialized at random, $$\theta_{0}\sim\pi(\theta)$$, and trained with some version of gradient descent,
 
 $$
-\Delta\theta \approx -\eta\,\nabla_{\theta}{{\mathcal L}}(\theta)\,.
+\Delta\theta \approx -\eta\,\nabla_{\theta}{{\mathcal L}}(\theta)\,.  \tag{2.2}
 $$
 
 A common idealization of this process, and the one this section is about, is *Bayesian learning*. It says that after training, the parameters should be regarded as drawn from the posterior distribution
 
 $$
-p_{\beta}(\theta) = \frac{1}{Z}\,e^{-\beta\,{{\mathcal L}}(\theta)}\,\pi(\theta)\,,\qquad Z = \int d\theta\, e^{-\beta\,{{\mathcal L}}(\theta)}\,\pi(\theta)\,.
+p_{\beta}(\theta) = \frac{1}{Z}\,e^{-\beta\,{{\mathcal L}}(\theta)}\,\pi(\theta)\,,\qquad Z = \int d\theta\, e^{-\beta\,{{\mathcal L}}(\theta)}\,\pi(\theta)\,.  \tag{2.3}
 $$
 
 Here the initialization distribution $$\pi(\theta)$$ plays the role of the Bayesian *prior*, and $$e^{-\beta{{\mathcal L}}(\theta)}$$ is interpreted as the *likelihood* of the training data given the parameters $$\theta$$ (Section 2.2 explains why this is reasonable). The positive constant $$\beta$$, the *inverse temperature*, controls how strongly the data constrain the parameters. We will see in a moment that it can be read as a rough measure of how much training has been done.
@@ -50,13 +50,13 @@ Here the initialization distribution $$\pi(\theta)$$ plays the role of the Bayes
 *An interpretation of $$\beta$$.* It is convenient to write the loss as $$n$$ times an average over samples,
 
 $$
-{{\mathcal L}}(\theta) = n\,L_{n}(\theta)\,,\qquad L_{n}(\theta) := \frac{1}{n}\sum_{\mu=1}^{n}\ell\big(f_{\theta}(x^{\mu}),y^{\mu}\big)\,.
+{{\mathcal L}}(\theta) = n\,L_{n}(\theta)\,,\qquad L_{n}(\theta) := \frac{1}{n}\sum_{\mu=1}^{n}\ell\big(f_{\theta}(x^{\mu}),y^{\mu}\big)\,.  \tag{2.4}
 $$
 
 The *empirical loss* $$L_{n}$$ stays finite as $$n\to\infty$$, converging to the *population loss* $$L(\theta) := {\mathbb{E}}_{(x,y)}\,\ell(f_{\theta}(x),y)$$, the expectation over the true data distribution. Thus for large $$n$$ the posterior is
 
 $$
-p_{\beta}(\theta) \;\propto\; e^{-\,n\beta\,L(\theta)}\,\pi(\theta)\,,
+p_{\beta}(\theta) \;\propto\; e^{-\,n\beta\,L(\theta)}\,\pi(\theta)\,,  \tag{2.5}
 $$
 
 and the sample size $$n$$ always accompanies the inverse temperature, in the combination $$n\beta$$. Increasing the number of samples is the same as lowering the temperature. If, moreover, samples are drawn fresh at each training step, then $$n$$ is also a rough measure of training time. Altogether: *more data $$=$$ more training $$=$$ larger $$n\beta$$ $$=$$ colder*. We will often write $$e^{-\beta L}$$ for short, but it is worth remembering that the effective $$\beta$$ grows with $$n$$.
@@ -68,13 +68,13 @@ The first is heuristic: the analogy just described, $$n\to\infty$$ (more samples
 The second connection is exact, and is what makes the Bayesian model testable in practice. Replace the batch noise of SGD by constant, isotropic Gaussian noise; the result is called *Langevin dynamics*:
 
 $$
-\begin{array}{l|l}\text{discrete optimizer} & \text{continuous (S)DE} \\\hline \text{SGD}:\; \Delta\theta = -\eta(\nabla_\theta {{\mathcal L}}+ \text{batch noise}) & \dot\theta = -\eta\nabla_\theta {{\mathcal L}}+ \frac{\eta}{\sqrt{B}} \Sigma(\theta)^{\frac{1}{2}} d\xi\\ \text{GD}:\; \Delta\theta=-\eta\,\nabla_\theta {{\mathcal L}} & \dot\theta = -\eta\nabla_\theta {{\mathcal L}} \\ \text{LD}:\;\Delta\theta = -\eta\,\nabla_\theta {{\mathcal L}} + \sqrt{2\eta T}\, \xi & \dot\theta = -\eta\nabla_\theta {{\mathcal L}} + \sqrt{2\eta T}\,d\xi\end{array}
+\begin{array}{l|l}\text{discrete optimizer} & \text{continuous (S)DE} \\\hline \text{SGD}:\; \Delta\theta = -\eta(\nabla_\theta {{\mathcal L}}+ \text{batch noise}) & \dot\theta = -\eta\nabla_\theta {{\mathcal L}}+ \frac{\eta}{\sqrt{B}} \Sigma(\theta)^{\frac{1}{2}} d\xi\\ \text{GD}:\; \Delta\theta=-\eta\,\nabla_\theta {{\mathcal L}} & \dot\theta = -\eta\nabla_\theta {{\mathcal L}} \\ \text{LD}:\;\Delta\theta = -\eta\,\nabla_\theta {{\mathcal L}} + \sqrt{2\eta T}\, \xi & \dot\theta = -\eta\nabla_\theta {{\mathcal L}} + \sqrt{2\eta T}\,d\xi\end{array} \tag{2.6}
 $$
 
 Here $$\xi$$ is Gaussian noise with mean $$0$$ and covariance $$I$$, $$\eta$$ is the learning rate, and $$T$$ is a parameter called the *temperature* (or diffusion constant). Each discrete algorithm on the left has a continuous-time limit on the right, obtained by shrinking the step size and scaling up the number of steps: gradient descent becomes *gradient flow*, and Langevin dynamics becomes the *Langevin equation*, a stochastic differential equation. The key fact is that if one starts from any reasonable distribution of parameters and evolves with the Langevin equation (for a sufficiently nice $${{\mathcal L}}$$), the distribution converges at late times to the Gibbs distribution
 
 $$
-p(\theta) = \frac{1}{Z}\,e^{-\beta{{\mathcal L}}(\theta)}\,,\qquad \beta = 1/T\,.
+p(\theta) = \frac{1}{Z}\,e^{-\beta{{\mathcal L}}(\theta)}\,,\qquad \beta = 1/T\,. \tag{2.7}
 $$
 
 (See (Tong 2012, Chapter 3) for a physics-focused discussion of this convergence.) A prior can be included by training on the modified loss $${{\mathcal L}}(\theta) - \beta^{-1}\log\pi(\theta)$$, which reproduces (2.3). Thus one can *engineer* the Bayesian posterior by Langevin training, and this is how theoretical predictions derived from (2.3) are usually tested. Note that the Langevin route gives a different Bayes-to-gradient connection from the first: here training time $$t\to\infty$$ at fixed $$T$$ gives the posterior at $$\beta = 1/T$$, while $$T\to 0$$ at fixed $$t$$ gives gradient flow.
@@ -92,13 +92,13 @@ The Bayesian model treats $$e^{-\beta{{\mathcal L}}(\theta)}$$ as the probabilit
 *Mean squared error.* Suppose the labels are the network's output plus Gaussian noise, $$y = f_{\theta}(x) + \epsilon$$ with $$\epsilon\sim{{\mathcal N}}(0,\sigma^{2})$$. Then the probability density of a label given the input and the parameters is
 
 $$
-p(y\,|\,x,\theta) = \frac{1}{\sqrt{2\pi\sigma^{2}}}\,\exp\Big[-\frac{1}{2\sigma^{2}}\big(y-f_{\theta}(x)\big)^{2}\Big]\,,
+p(y\,|\,x,\theta) = \frac{1}{\sqrt{2\pi\sigma^{2}}}\,\exp\Big[-\frac{1}{2\sigma^{2}}\big(y-f_{\theta}(x)\big)^{2}\Big]\,,  \tag{2.8}
 $$
 
 and for $$n$$ independent samples,
 
 $$
-\prod_{\mu=1}^{n} p(y^{\mu}\,|\,x^{\mu},\theta) \;\propto\; e^{-\beta\,{{\mathcal L}}(\theta)}\,,\qquad {{\mathcal L}}(\theta) = \frac{1}{2}\sum_{\mu=1}^{n}\big(f_{\theta}(x^{\mu})-y^{\mu}\big)^{2}\,,\quad \beta = \frac{1}{\sigma^{2}}\,.
+\prod_{\mu=1}^{n} p(y^{\mu}\,|\,x^{\mu},\theta) \;\propto\; e^{-\beta\,{{\mathcal L}}(\theta)}\,,\qquad {{\mathcal L}}(\theta) = \frac{1}{2}\sum_{\mu=1}^{n}\big(f_{\theta}(x^{\mu})-y^{\mu}\big)^{2}\,,\quad \beta = \frac{1}{\sigma^{2}}\,.  \tag{2.9}
 $$
 
 The MSE loss is the negative log-likelihood of a Gaussian noise model, and the inverse temperature is the inverse noise variance. Noisier labels mean a hotter posterior, which constrains the parameters less.
@@ -106,7 +106,7 @@ The MSE loss is the negative log-likelihood of a Gaussian noise model, and the i
 *Cross-entropy.* For classification, the network outputs a probability distribution $$p_{\theta}(y\,|\,x)$$ over $$K$$ classes, typically the softmax of its $$K$$ output values. The cross-entropy loss is $$\ell = -\log p_{\theta}(y\,|\,x)$$, so that
 
 $$
-\prod_{\mu=1}^{n} p_{\theta}(y^{\mu}\,|\,x^{\mu}) \;=\; e^{-{{\mathcal L}}(\theta)}
+\prod_{\mu=1}^{n} p_{\theta}(y^{\mu}\,|\,x^{\mu}) \;=\; e^{-{{\mathcal L}}(\theta)} \tag{2.10}
 $$
 
 *exactly*, with $$\beta = 1$$: the exponential of the cross-entropy loss *is* the likelihood, with no noise model to choose. The same is true of the next-token loss of a language model, which is exactly the log-probability the model assigns to the training corpus.
@@ -133,13 +133,13 @@ To include the prior $$\pi(\theta)$$, simply redefine the energy as $$E(\theta) 
 *Partition function and free energy.* The normalization constant in (2.3),
 
 $$
-Z(\beta) = \int d\theta\, e^{-\beta E(\theta)}\,,
+Z(\beta) = \int d\theta\, e^{-\beta E(\theta)}\,,  \tag{2.11}
 $$
 
 is called the *partition function*. In Bayesian terms it is the marginal likelihood of the data. It depends on $$\beta$$ and on any other hyperparameters of the problem. Its logarithm defines the *free energy*[^1] and the free energy *density*,
 
 $$
-F(\beta) := -\log Z(\beta)\,,\qquad \varphi := \frac{F}{N}\,.
+F(\beta) := -\log Z(\beta)\,,\qquad \varphi := \frac{F}{N}\,.  \tag{2.12}
 $$
 
 There are three reasons to care about $$F$$ rather than $$Z$$. First, $$F$$ is extensive and $$\varphi$$ intensive: the free energy density has a limit as $$N\to\infty$$, while $$Z$$ itself is exponentially large or small. Second, "$$F$$ is minimized": at large $$N$$ the integral (2.11) is dominated by the regions of parameter space with the smallest local free energy, so the system's macroscopic state is found by minimizing $$F$$. Section 2.4 makes this precise. Third, derivatives of $$F$$ compute expectation values, as follows.
@@ -147,19 +147,19 @@ There are three reasons to care about $$F$$ rather than $$Z$$. First, $$F$$ is e
 *Sources and cumulants.* Suppose we care about the expectation values of some *observables* $${{\mathcal O}}_{i}(\theta)$$, functions of the parameters. Add *source terms* $$J^{i}$$ to the exponent,
 
 $$
-Z(\beta,J) = \int d\theta\; e^{-\beta E(\theta) + \sum_i J^i\,{{\mathcal O}}_i(\theta)}\,,\qquad F(\beta,J) = -\log Z(\beta,J)\,.
+Z(\beta,J) = \int d\theta\; e^{-\beta E(\theta) + \sum_i J^i\,{{\mathcal O}}_i(\theta)}\,,\qquad F(\beta,J) = -\log Z(\beta,J)\,.  \tag{2.13}
 $$
 
 Differentiating under the integral,
 
 $$
-{\mathbb{E}}({{\mathcal O}}_{i}) = -\frac{\partial F}{\partial J^{i}}\bigg|_{J=0}\,,\qquad \mathrm{Cov}({{\mathcal O}}_{i},{{\mathcal O}}_{j}) = -\frac{\partial^{2} F}{\partial J^{i}\partial J^{j}}\bigg|_{J=0}\,,
+{\mathbb{E}}({{\mathcal O}}_{i}) = -\frac{\partial F}{\partial J^{i}}\bigg|_{J=0}\,,\qquad \mathrm{Cov}({{\mathcal O}}_{i},{{\mathcal O}}_{j}) = -\frac{\partial^{2} F}{\partial J^{i}\partial J^{j}}\bigg|_{J=0}\,, \tag{2.14}
 $$
 
 and in general the $$p$$-th derivative is the $$p$$-th *cumulant*,
 
 $$
-\kappa_{p}({{\mathcal O}}_{i_1},\ldots,{{\mathcal O}}_{i_p}) = -\frac{\partial^{p} F}{\partial J^{i_1}\cdots\partial J^{i_p}}\bigg|_{J=0}\,:
+\kappa_{p}({{\mathcal O}}_{i_1},\ldots,{{\mathcal O}}_{i_p}) = -\frac{\partial^{p} F}{\partial J^{i_1}\cdots\partial J^{i_p}}\bigg|_{J=0}\,:  \tag{2.15}
 $$
 
 the mean, the covariance, the third central moment, and from $$p=4$$ on, combinations of moments that vanish for Gaussian variables. The sourced free energy is the generating function of cumulants. Cumulants will return in field-theory clothing in Section 3.3, where they measure how far a network at initialization is from a Gaussian process.
@@ -167,7 +167,7 @@ the mean, the covariance, the third central moment, and from $$p=4$$ on, combina
 If the only observable we care about is the energy itself, no source is needed: $$\beta$$ already couples to $$E$$, and
 
 $$
-{\mathbb{E}}(E) = \frac{\partial F}{\partial \beta}\,,\qquad \mathrm{Var}(E) = -\frac{\partial^{2} F}{\partial\beta^{2}}\,,\qquad \kappa_{3}(E) = \frac{\partial^{3} F}{\partial \beta^{3}}\,,\;\ldots
+{\mathbb{E}}(E) = \frac{\partial F}{\partial \beta}\,,\qquad \mathrm{Var}(E) = -\frac{\partial^{2} F}{\partial\beta^{2}}\,,\qquad \kappa_{3}(E) = \frac{\partial^{3} F}{\partial \beta^{3}}\,,\;\ldots  \tag{2.16}
 $$
 
 We will meet these derivatives again shortly: discontinuities in them are how phase transitions are defined.
@@ -201,13 +201,13 @@ We will meet these derivatives again shortly: discontinuities in them are how ph
 *Quenched averages.* In a learning problem there is a second source of randomness besides the posterior: the training set itself. Quantities like the free energy depend on which $$n$$ samples were drawn, and at large $$n$$ one expects them to concentrate around their average over draws. Physicists call randomness that is fixed before the system equilibrates *quenched disorder*, by analogy with impurities frozen into an alloy when it is quenched in water; the training data are quenched disorder for the posterior. The *quenched free energy* is
 
 $$
-{\mathbb{E}}_{\rm data}\big[F\big] = -\,{\mathbb{E}}_{\rm data}\big[\log Z\big]\,,
+{\mathbb{E}}_{\rm data}\big[F\big] = -\,{\mathbb{E}}_{\rm data}\big[\log Z\big]\,,  \tag{2.17}
 $$
 
 and it is the free energy, not the partition function, that should be averaged, because it is the free energy that is extensive and whose derivatives give expectation values. Averaging $$\log Z$$ is usually hard, and the *annealed approximation* swaps the order,
 
 $$
-{\mathbb{E}}_{\rm data}\log Z \;\approx\; \log{\mathbb{E}}_{\rm data}Z\,,
+{\mathbb{E}}_{\rm data}\log Z \;\approx\; \log{\mathbb{E}}_{\rm data}Z\,,  \tag{2.18}
 $$
 
 which is an upper bound by Jensen's inequality and often a good approximation. We will use it in Section 2.6. The exact treatment goes through the *replica method*, sketched in Appendix A; the classic reference is (Engel & Van den Broeck 2001).

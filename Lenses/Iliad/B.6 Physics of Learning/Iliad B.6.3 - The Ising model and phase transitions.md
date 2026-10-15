@@ -9,9 +9,9 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "qft#24-a-physics-example-the-ising-model"
-upstream_fingerprint: "rrrXZ0lUL/3126/1/05TP0BIn0BoY0Exd0G2G0GkS0LOc0LYs0MXu0S4C0TfJ0VHi0XRh0ZYg0dHa0dh90fle0g9X0kaI0t5t0uZe0uo40wRJ0wVK0xaQ0zQM105b11cl14fx1Fr01Gpb1QHM"
+upstream_fingerprint: "rrrXZ0lUL/3145/1/05TP0BIn0BoY0Exd0G2G0GkS0LOc0LYs0MXu0S4C0TfJ0VHi0XRh0ZYg0dHa0dh90fle0g9X0kaI0t5t0uZe0uo40wRJ0wVK0xaQ0zQM105b11cl14fx1Fr01Gpb1QHM"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/qft/#24-a-physics-example-the-ising-model"
@@ -26,7 +26,7 @@ The analogy with thermal physics opens up a bag of well-developed approximation 
 *The model.* Let $$\Lambda$$ be a graph with $$N$$ vertices and undirected edges $$\langle ij\rangle$$; typically $$\Lambda$$ is a regular lattice in $$D$$ dimensions, and every vertex has the same number $$d$$ of neighbors ($$d=2D$$ for a hypercubic lattice). At each vertex $$i$$ sits a *spin* $$s_{i}\in\{\pm 1\}$$. A state of the system is a choice of all $$N$$ spins, so there are $$2^{N}$$ states, and the energy of a state is
 
 $$
-E(s) = -J\!\!\sum_{\text{edges }\langle ij\rangle}\!\! s_{i} s_{j} \;-\; B\sum_{i=1}^{N} s_{i}\,.
+E(s) = -J\!\!\sum_{\text{edges }\langle ij\rangle}\!\! s_{i} s_{j} \;-\; B\sum_{i=1}^{N} s_{i}\,.  \tag{2.19}
 $$
 
 The *coupling* $$J>0$$ rewards neighboring spins for aligning with each other, and the *external magnetic field* $$B$$ rewards spins for aligning with it. At inverse temperature $$\beta$$ the Boltzmann distribution is $$p_{\beta}(s) = e^{-\beta E(s)}/Z$$ with $$Z(\beta,J,B) = \sum_{s\in\{\pm1\}^N}e^{-\beta E(s)}$$. Dimensionally, only the combinations $$\beta J$$ and $$\beta B$$ matter.
@@ -34,7 +34,7 @@ The *coupling* $$J>0$$ rewards neighboring spins for aligning with each other, a
 The simplest macroscopic quantity describing a state is its *magnetization*, the average spin,
 
 $$
-m(s) = \frac{1}{N}\sum_{i=1}^{N} s_{i} \;\in\; [-1,1]\,.
+m(s) = \frac{1}{N}\sum_{i=1}^{N} s_{i} \;\in\; [-1,1]\,.  \tag{2.20}
 $$
 
 It is our first example of an *order parameter*: a single number that summarizes an $$N$$-dimensional microscopic state for the purpose of the questions we want to ask. The question here is whether the spins align ($$|m|$$ close to $$1$$, an *ordered* phase) or not ($$m$$ near $$0$$, a *disordered* phase), and how this depends on $$\beta$$, $$J$$, and $$B$$.
@@ -42,13 +42,13 @@ It is our first example of an *order parameter*: a single number that summarizes
 *Mean-field approximation.* We would like to push the distribution $$p_{\beta}(s)$$ over $$2^{N}$$ states forward to a distribution over the single variable $$m$$. The interaction term stands in the way, since it couples each spin to its particular neighbors. The mean-field approximation replaces the neighbors of each spin by their average: suppose that each spin feels only the *average* field of all the others, so that in the neighbor sum we may replace each $$s_{j}$$ by $$m$$,
 
 $$
-\sum_{\langle ij\rangle}s_{i} s_{j} = \frac{1}{2}\sum_{i} s_{i} \underbrace{\sum_{j\sim i} s_j}_{\approx\, d\,m}\;\approx\; \frac{d\,m}{2}\sum_{i} s_{i} = \frac{N d}{2}\,m^{2}\,.
+\sum_{\langle ij\rangle}s_{i} s_{j} = \frac{1}{2}\sum_{i} s_{i} \underbrace{\sum_{j\sim i} s_j}_{\approx\, d\,m}\;\approx\; \frac{d\,m}{2}\sum_{i} s_{i} = \frac{N d}{2}\,m^{2}\,.  \tag{2.21}
 $$
 
 (The factor $$\frac{1}{2}$$ compensates for counting each edge twice.) The energy becomes a function of $$m$$ alone,
 
 $$
-E(s) \;\approx\; -N\Big(\frac{dJ}{2}\,m^{2} + B\,m\Big)\,.
+E(s) \;\approx\; -N\Big(\frac{dJ}{2}\,m^{2} + B\,m\Big)\,.  \tag{2.22}
 $$
 
 This is an uncontrolled approximation for a lattice in low dimension, where a spin's few neighbors fluctuate along with it, but it turns out to be qualitatively right for $$D\geq 2$$ and quantitatively right for $$D\geq 4$$ (Tong 2012, Chapter 1). It becomes exact for a model in which every spin couples weakly to every other; that model, the Curie–Weiss magnet, returns in Section 5.1 as the prototype of mean-field limits of neural networks.
@@ -56,19 +56,19 @@ This is an uncontrolled approximation for a lattice in low dimension, where a sp
 *Entropy, and the reduction to one variable.* With the energy depending only on $$m$$, the sum over states can be organized by the value of $$m$$:
 
 $$
-Z \;\approx\; \sum_{m}\Omega(m)\; e^{N\beta\left(\frac{dJ}{2}m^2 + Bm\right)}\,,\qquad \Omega(m) := \#\{s : m(s) = m\} = \binom{N}{\frac{1+m}{2}N}\,,
+Z \;\approx\; \sum_{m}\Omega(m)\; e^{N\beta\left(\frac{dJ}{2}m^2 + Bm\right)}\,,\qquad \Omega(m) := \#\{s : m(s) = m\} = \binom{N}{\frac{1+m}{2}N}\,,  \tag{2.23}
 $$
 
 since a state with magnetization $$m$$ has exactly $$\frac{1+m}{2}N$$ spins up. Stirling's formula gives
 
 $$
-\begin{aligned}\frac{1}{N}\log\Omega(m) \;&\xrightarrow{N\to\infty}\; h(m)\,, \\ h(m) &:= \log 2 - \frac{1-m}{2}\log(1-m) - \frac{1+m}{2}\log(1+m)\,,\end{aligned}
+\begin{aligned}\frac{1}{N}\log\Omega(m) \;&\xrightarrow{N\to\infty}\; h(m)\,, \\ h(m) &:= \log 2 - \frac{1-m}{2}\log(1-m) - \frac{1+m}{2}\log(1+m)\,,\end{aligned}  \tag{2.24}
 $$
 
 the *entropy* per site at magnetization $$m$$: the log of the number of microscopic states compatible with the macroscopic value $$m$$. It is largest at $$m=0$$, where $$h = \log 2$$ and almost all of the $$2^{N}$$ states live, and it vanishes at $$m=\pm1$$, where exactly one state lives. Replacing the sum over $$m$$ by an integral (the spacing is $$2/N$$), the partition function becomes a one-dimensional integral,
 
 $$
-Z \;\approx\; \int_{-1}^{1}dm\; e^{-N\beta\, s(m)}\,,\qquad s(m) := -\frac{dJ}{2}m^{2} - Bm - \beta^{-1}h(m)\,.
+Z \;\approx\; \int_{-1}^{1}dm\; e^{-N\beta\, s(m)}\,,\qquad s(m) := -\frac{dJ}{2}m^{2} - Bm - \beta^{-1}h(m)\,.  \tag{2.25}
 $$
 
 The function $$s(m)$$ is called the effective *action*, or the free-energy density at fixed $$m$$: energy minus temperature times entropy, per site. *We have reduced the problem from $$N$$ variables to one.* This is the general shape of every calculation in this section: push the microscopic distribution forward to an order parameter, at the price of an entropy term that counts how many microstates sit at each value.
@@ -76,13 +76,13 @@ The function $$s(m)$$ is called the effective *action*, or the free-energy densi
 *Saddle points.* At large $$N$$ the integrand $$e^{-N\beta s(m)}$$ is exponentially peaked at the *minima* of $$s$$, and the integral is dominated by a window of width $$\sim 1/\sqrt{N}$$ around the lowest one. This is the saddle-point approximation (also called Laplace's method), and it gives
 
 $$
-\varphi(\beta,J,B) = -\frac{1}{N}\log Z \;\xrightarrow{N\to\infty}\; \beta\,\min_{m} s(m)\,.
+\varphi(\beta,J,B) = -\frac{1}{N}\log Z \;\xrightarrow{N\to\infty}\; \beta\,\min_{m} s(m)\,.  \tag{2.26}
 $$
 
 The free energy is minimized, in exactly the sense promised in Section 2.3. The minimizer $$\bar m$$ is the magnetization the system actually displays. Setting $$\partial s/\partial m = 0$$ and using $$h'(m) = -\tanh^{-1}(m)$$,
 
 $$
-dJ\,\bar m + B = \beta^{-1}\tanh^{-1}(\bar m)\,,\qquad\text{that is,}\qquad \boxed{\;\bar m = \tanh\big(\beta\,(dJ\,\bar m + B)\big)\;}\,.
+dJ\,\bar m + B = \beta^{-1}\tanh^{-1}(\bar m)\,,\qquad\text{that is,}\qquad \boxed{\;\bar m = \tanh\big(\beta\,(dJ\,\bar m + B)\big)\;}\,.  \tag{2.27}
 $$
 
 This transcendental equation is best solved graphically (Figure 1). Depending on $$\beta$$, $$J$$, and $$B$$ it has one solution, or three; when there are three, the outer two are minima of $$s$$ and the middle one is a maximum.
@@ -94,7 +94,7 @@ Graphical solution of the mean-field equation (2.27): intersections of $$\tanh\b
 *Self-consistency (an aside).* There is another route to (2.27), which is the form in which mean-field theory usually appears and which we will use in Section 5. Look at the effective field felt by a single spin $$s_{i}$$:
 
 $$
-B^{\rm eff}_{i} = -\frac{\partial E}{\partial s_{i}}= J\sum_{j\sim i}s_{j} + B \;\approx\; dJ\,m + B\,.
+B^{\rm eff}_{i} = -\frac{\partial E}{\partial s_{i}}= J\sum_{j\sim i}s_{j} + B \;\approx\; dJ\,m + B\,.  \tag{2.28}
 $$
 
 A single spin in this field has partition function $$Z_{i} = \sum_{s_i=\pm1}e^{\beta B^{\rm eff}s_i}= 2\cosh\beta(dJm+B)$$ and mean $${\mathbb{E}}(s_{i}) = \beta^{-1}\partial_{B}\log Z_{i} = \tanh\beta(dJm+B)$$. If the approximation is to be consistent, the average that comes out must equal the average we put in, $$m = {\mathbb{E}}(s_{i})$$, and that is (2.27). Solve the one-body problem in the average environment, then demand that the average be reproduced: this is the prototype of every mean-field theory.
@@ -104,7 +104,7 @@ A single spin in this field has partition function $$Z_{i} = \sum_{s_i=\pm1}e^{\
 Now we analyze the structure of the minima of $$s(m)$$, which control where the probability concentrates, as $$\beta$$, $$J$$, and $$B$$ are varied. Taylor-expanding the entropy, $$h(m) = \log 2 - \frac{m^{2}}{2}- \frac{m^{4}}{12}- \ldots$$, the action is
 
 $$
-s(m) \;\approx\; \text{const}- B\,m + \frac{1}{2}\big(\beta^{-1}- dJ\big)\,m^{2} + \frac{\beta^{-1}}{12}\,m^{4} + \ldots
+s(m) \;\approx\; \text{const}- B\,m + \frac{1}{2}\big(\beta^{-1}- dJ\big)\,m^{2} + \frac{\beta^{-1}}{12}\,m^{4} + \ldots  \tag{2.29}
 $$
 
 This expansion of a free energy in powers of an order parameter is called a *Landau theory*, and the qualitative analysis below depends only on its form, not on the microscopic model behind it.
@@ -118,13 +118,13 @@ The action $$s(m)$$ of (2.25) in the ordered phase ($$\beta dJ = 1.5$$), for a n
 The structure of this transition is universal, in the sense that it follows from two isolated minima crossing and not from any detail of the model. Consider the expected magnetization, which by (2.14) is a derivative of the free energy with respect to the field:
 
 $$
-{\mathbb{E}}(m) = \frac{1}{N}\sum_{i}{\mathbb{E}}(s_{i}) = -\frac{1}{\beta}\frac{\partial\varphi}{\partial B}\,.
+{\mathbb{E}}(m) = \frac{1}{N}\sum_{i}{\mathbb{E}}(s_{i}) = -\frac{1}{\beta}\frac{\partial\varphi}{\partial B}\,.  \tag{2.30}
 $$
 
 At finite $$N$$, the two minima of $$s$$ are two competing *phases*, and $${\mathbb{E}}(m)$$ is a probability-weighted average of their magnetizations. As $$N\to\infty$$ the saddle-point approximation puts all the weight on the lower minimum, so $${\mathbb{E}}(m)$$ develops a discontinuity at $$B_{c}$$, and $$\varphi$$ itself develops a kink (Figure 3, left). *A discontinuity in a first derivative of the free-energy density, in the thermodynamic limit, is the definition of a first-order transition.* Its second derivative, the *susceptibility*
 
 $$
-\chi := \frac{\partial\,{\mathbb{E}}(m)}{\partial B}= -\frac{1}{\beta}\frac{\partial^{2}\varphi}{\partial B^{2}}= N\beta\,\mathrm{Var}(m)\,,
+\chi := \frac{\partial\,{\mathbb{E}}(m)}{\partial B}= -\frac{1}{\beta}\frac{\partial^{2}\varphi}{\partial B^{2}}= N\beta\,\mathrm{Var}(m)\,,  \tag{2.31}
 $$
 
 is a peak whose height grows like $$N$$ and whose width shrinks like $$1/N$$: a nascent delta function (Figure 3, right). Genuine non-analyticity can occur only at $$N=\infty$$: at finite $$N$$ the partition function is a finite sum of analytic functions of $$B$$, so everything is smooth, and what one sees is a rapid *crossover* that sharpens as $$N$$ grows. Watching the peak in $$\chi$$ grow with $$N$$, rather than saturate, is the standard numerical diagnostic that separates a true transition from a crossover. Exercise 2.2 works out the shapes of these curves for a general first-order transition; they are worth remembering whenever "emergent capabilities" in models of growing size are under discussion (Section 7.6).
@@ -138,7 +138,7 @@ Fingerprints of a first-order transition, in the mean-field Ising model at $$\be
 *A second-order transition.* An *$$n$$-th order* phase transition is a discontinuity in the $$n$$-th derivative of the free-energy density as $$N\to\infty$$. The Ising model has a second-order transition too, at fixed $$B=0$$, as the temperature $$T=\beta^{-1}$$ crosses $$T_{c} = dJ$$ (Figure 4). Here nothing crosses anything: the single basin at $$m=0$$ flattens and splits into two symmetric ones. The quadratic coefficient in (2.29) changes sign at $$T_{c}$$, and the minima sit at
 
 $$
-\bar m^{2} = 3\,(\beta dJ - 1) \;\approx\; 3\,\Big(1-\frac{T}{T_{c}}\Big)\qquad (T\lesssim T_{c})\,,
+\bar m^{2} = 3\,(\beta dJ - 1) \;\approx\; 3\,\Big(1-\frac{T}{T_{c}}\Big)\qquad (T\lesssim T_{c})\,,  \tag{2.32}
 $$
 
 so the order parameter $$\bar m \propto (T_{c} - T)^{1/2}$$ moves *continuously* but not smoothly; $$\varphi$$ and $$\partial_{T}\varphi$$ are continuous, and the discontinuity sits in $$\partial_{T}^{2}\varphi$$ (the heat capacity). The point $$(T,B) = (T_{c},0)$$ is a *critical point*. Below it the two ordered states $$\pm\bar m$$ are exact mirror images, and the system must pick one: this is *spontaneous symmetry breaking*, the $$\mathbb{Z}_{2}$$ symmetry $$s\to -s$$ of the energy at $$B=0$$ being broken by the state. The exponent $$\frac{1}{2}$$ in (2.32) is an example of a *critical exponent*. Mean-field theory predicts it in every dimension, and it is wrong in low dimension: the exact value is $$\frac{1}{8}$$ in $$D=2$$ (Onsager), and there is no transition at all in $$D=1$$. Mean-field exponents become exact for $$D\geq 4$$. Understanding why is the subject of the renormalization group, for which see (Tong 2012).
@@ -153,7 +153,7 @@ The second-order transition of the mean-field Ising model at $$B=0$$. Left: the 
 **Exercise 2.2 (★) (Anatomy of a first-order transition).** Consider any system whose partition function has the form $$Z(B) = \int d\theta\, e^{-N E(\theta,B)}$$, depending on *some* hyperparameter $$B$$. Here $$B$$ could be the inverse temperature, an external field, or the load $$\alpha$$ of Section 2.6; we have absorbed $$\beta$$ into $$E$$ to keep the setup general. Suppose that $$E(\theta,B)$$ has exactly two isolated minima, at $$\theta_{1}$$ and $$\theta_{2}$$. Then at large $$N$$ the integral is dominated by two competing phases. Letting $$U_{1},U_{2}$$ be small neighborhoods of $$\theta_{1},\theta_{2}$$,
 
 $$
-Z(B) \;\approx\; \int_{U_1}d\theta\,e^{-N E(\theta,B)}+ \int_{U_2}d\theta\,e^{-N E(\theta,B)}\;=\; e^{-N\varphi_1(B)}+ e^{-N\varphi_2(B)}\,,
+Z(B) \;\approx\; \int_{U_1}d\theta\,e^{-N E(\theta,B)}+ \int_{U_2}d\theta\,e^{-N E(\theta,B)}\;=\; e^{-N\varphi_1(B)}+ e^{-N\varphi_2(B)}\,,  \tag{2.33}
 $$
 
 with $$\varphi_{i}(B) = -\frac{1}{N}\log\int_{U_i}d\theta\,e^{-NE(\theta,B)}= E(\theta_{i},B) + o(1)$$ the free-energy densities of the two basins. Suppose further that as $$B$$ crosses a critical value $$B_{c}$$ the two minimum values cross: $$\varphi_{1}(B_{c}) = \varphi_{2}(B_{c})$$ with $$\varphi_{1}'(B_{c})\neq\varphi_{2}'(B_{c})$$, where a prime denotes $$\partial_{B}$$.
@@ -161,13 +161,13 @@ with $$\varphi_{i}(B) = -\frac{1}{N}\log\int_{U_i}d\theta\,e^{-NE(\theta,B)}= E(
 **(a)** *Occupation.* Show that the probability of finding the system in basin $$i$$ is
 
 $$
-p_{i}(B) = \frac{e^{-N\varphi_i(B)}}{e^{-N\varphi_1(B)}+e^{-N\varphi_2(B)}}\,,
+p_{i}(B) = \frac{e^{-N\varphi_i(B)}}{e^{-N\varphi_1(B)}+e^{-N\varphi_2(B)}}\,,  \tag{2.34}
 $$
 
 and that, expanding to first order in $$\Delta B := B - B_{c}$$,
 
 $$
-p_{2}(B) \approx \frac{1}{1+e^{-N\,\Delta\varphi'\,\Delta B}}\,,\qquad \Delta\varphi' := \varphi_{1}'(B_{c}) - \varphi_{2}'(B_{c})\,,
+p_{2}(B) \approx \frac{1}{1+e^{-N\,\Delta\varphi'\,\Delta B}}\,,\qquad \Delta\varphi' := \varphi_{1}'(B_{c}) - \varphi_{2}'(B_{c})\,,  \tag{2.35}
 $$
 
 a logistic function of $$N\,\Delta\varphi'\,\Delta B$$. Over what window of $$B$$ does the system switch allegiance?
@@ -175,7 +175,7 @@ a logistic function of $$N\,\Delta\varphi'\,\Delta B$$. Over what window of $$B$
 **(b)** *First derivative.* Show from (2.33) that
 
 $$
-\frac{\partial\varphi}{\partial B}\;\approx\; p_{1}(B)\,\varphi_{1}'(B_{c}) + p_{2}(B)\,\varphi_{2}'(B_{c})\,,
+\frac{\partial\varphi}{\partial B}\;\approx\; p_{1}(B)\,\varphi_{1}'(B_{c}) + p_{2}(B)\,\varphi_{2}'(B_{c})\,, \tag{2.36}
 $$
 
 the probability-weighted average of the branch slopes. Sketch it at finite $$N$$ and at $$N=\infty$$: a sigmoid of height $$\Delta\varphi'$$ sharpening into a jump. The kink in $$\varphi$$ itself is the defining discontinuity of a first-order transition. Show also, directly from the integral, that $$\partial_{B}\varphi = {\mathbb{E}}\big[\partial_{B} E(\theta,B)\big]$$: the observable that jumps is the one conjugate to the control parameter. When $$B=\beta$$ it is the energy, and the jump is the *latent heat*; for the Ising model with $$B$$ the field, it is the magnetization.
@@ -183,7 +183,7 @@ the probability-weighted average of the branch slopes. Sketch it at finite $$N$$
 **(c)** *Second derivative.* Using $$\partial_{B} p_{1} = -\partial_{B} p_{2} = -N p_{1}p_{2}\,\Delta\varphi'$$ (verify this), show that
 
 $$
--\frac{\partial^{2}\varphi}{\partial B^{2}}\;=\; N\,p_{1}p_{2}\,(\Delta\varphi')^{2} \;-\; p_{1}\varphi_{1}'' - p_{2}\varphi_{2}''\,.
+-\frac{\partial^{2}\varphi}{\partial B^{2}}\;=\; N\,p_{1}p_{2}\,(\Delta\varphi')^{2} \;-\; p_{1}\varphi_{1}'' - p_{2}\varphi_{2}''\,. \tag{2.37}
 $$
 
 Sketch this curve. Near $$B_{c}$$, where $$p_{1}p_{2}\approx\frac{1}{4}$$, the first term is a peak of height $$\sim N(\Delta\varphi')^{2}/4$$ and width $$\sim 1/(N\Delta\varphi')$$, which converges to a delta function as $$N\to\infty$$. Show also that when $${{\mathcal O}}(\theta) = \partial_{B}E(\theta,B)$$ does not depend on $$B$$, $$-\partial_{B}^{2}\varphi = N\,\mathrm{Var}({{\mathcal O}})\geq 0$$. (For $$B=\beta$$ this is the heat capacity; for the Ising field it is the susceptibility.)

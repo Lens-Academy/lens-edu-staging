@@ -9,9 +9,9 @@ authors:
   - Brianna Grado-White
   - Charles Renshaw-Whitman
 source_url: https://iliad-intensive.org/learning/qft/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "qft#26-the-ising-perceptron-a-first-order-transition-in-learning"
-upstream_fingerprint: "HTmLeTc7X/2477/1/014T01rC03IX04Pm04VA06ri09sX0B7b0DlY0Hae0JHZ0Qnu0RW40T980TGm0TpS0XOM0awn0blM0dJ00eEt0eJ60f3H0fJF0h5L0iuf0jFZ0m180mBn0mQK0nXf0o96"
+upstream_fingerprint: "HTmLeTc7X/2486/1/014T01rC03IX04Pm04VA06ri09sX0B7b0DlY0Hae0JHZ0Qnu0RW40T980TGm0TpS0XOM0awn0blM0dJ00eEt0eJ60f3H0fJF0h5L0iuf0jFZ0m180mBn0mQK0nXf0o96"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/qft/#26-the-ising-perceptron-a-first-order-transition-in-learning"
@@ -26,19 +26,19 @@ We close the physics part of this section with a complete statistical-mechanics 
 *Setup.* A *teacher* is a fixed vector of binary weights $$\theta^{*}\in\{\pm1\}^{N}$$. Inputs are Gaussian, $$x\sim{{\mathcal N}}(0,I_{N})$$, and the teacher labels them by
 
 $$
-y(x) = \mathrm{sign}(\theta^{*}\cdot x)\,.
+y(x) = \mathrm{sign}(\theta^{*}\cdot x)\,.  \tag{2.38}
 $$
 
 A *student* is another binary vector $$\theta\in\{\pm1\}^{N}$$, guessing labels the same way, $$f_{\theta}(x) = \mathrm{sign}(\theta\cdot x)$$. This model is called the *Ising perceptron*, because its weights take the values of Ising spins. We observe $$n$$ examples $$(x^{\mu},y^{\mu})$$ with $$y^{\mu} = y(x^{\mu})$$, and do Bayesian learning at zero temperature with a uniform prior, in the sense of Section 2.2: the per-sample loss is $$0$$ if the student classifies the example correctly and $$\infty$$ otherwise, so the posterior is uniform on the students that classify *every* example correctly. Since teacher and student agree on $$x$$ exactly when $$y(x)\,(\theta\cdot x)>0$$,
 
 $$
-p(\theta) \;\propto\; \prod_{\mu=1}^{n}\Theta\big(y^{\mu}\,(\theta\cdot x^{\mu})\big)\,,\qquad Z = \frac{1}{2^{N}}\sum_{\theta\in\{\pm1\}^N}\;\prod_{\mu=1}^{n}\Theta\big(y^{\mu}\,(\theta\cdot x^{\mu})\big)\,,
+p(\theta) \;\propto\; \prod_{\mu=1}^{n}\Theta\big(y^{\mu}\,(\theta\cdot x^{\mu})\big)\,,\qquad Z = \frac{1}{2^{N}}\sum_{\theta\in\{\pm1\}^N}\;\prod_{\mu=1}^{n}\Theta\big(y^{\mu}\,(\theta\cdot x^{\mu})\big)\,,  \tag{2.39}
 $$
 
 with $$\Theta(u) = 1$$ for $$u>0$$ and $$0$$ otherwise. With the factor $$1/2^{N}$$, $$Z$$ is the fraction of all students consistent with the data. Both $$N$$ and $$n$$ will be taken large, at fixed ratio: the *load*
 
 $$
-\alpha := \frac{n}{N}\,,
+\alpha := \frac{n}{N}\,,  \tag{2.40}
 $$
 
 the number of examples per parameter, is the control parameter of the problem.
@@ -49,7 +49,7 @@ the number of examples per parameter, is the control parameter of the problem.
 **(b)** *Generalization error.* Show that a student at overlap $$R$$ misclassifies a fresh Gaussian input with probability
 
 $$
-\varepsilon(R) = \frac{\arccos R}{\pi}\,.
+\varepsilon(R) = \frac{\arccos R}{\pi}\,.  \tag{2.41}
 $$
 
 [*Hint:* project $$x$$ onto the plane spanned by $$\theta$$ and $$\theta^{*}$$; the projection is an isotropic two-dimensional Gaussian, and the two decision boundaries are diameters meeting at angle $$\arccos R$$. When do the signs disagree?]
@@ -57,7 +57,7 @@ $$
 **(c)** *Entropy: the same $$h$$ as the magnet.* Show that the number of students at overlap $$R$$ is $$\binom{N}{\frac{1+R}{2}N}$$, so that by Stirling's formula
 
 $$
-\begin{aligned}\frac{1}{N}\log\#\{\theta : R(\theta) = R\} \;\to\; h(R) &= \log 2 - \frac{1-R}{2}\log(1-R) \\ &\quad - \frac{1+R}{2}\log(1+R)\,,\end{aligned}
+\begin{aligned}\frac{1}{N}\log\#\{\theta : R(\theta) = R\} \;\to\; h(R) &= \log 2 - \frac{1-R}{2}\log(1-R) \\ &\quad - \frac{1+R}{2}\log(1+R)\,,\end{aligned}  \tag{2.42}
 $$
 
 *identical* to the magnet's entropy (2.24) with $$m\to R$$.
@@ -65,13 +65,13 @@ $$
 **(d)** *Push forward to one variable.* Average $$Z$$ over datasets. The examples are independent, and each is classified correctly by a student at overlap $$R$$ with probability $$1-\varepsilon(R)$$, so
 
 $$
-{\mathbb{E}}_{x} Z = \frac{1}{2^{N}}\sum_{\theta}\big(1-\varepsilon(R(\theta))\big)^{n}\,.
+{\mathbb{E}}_{x} Z = \frac{1}{2^{N}}\sum_{\theta}\big(1-\varepsilon(R(\theta))\big)^{n}\,.  \tag{2.43}
 $$
 
 Trade the sum over $$\theta$$ for an integral over $$R$$ using (c), and show that at fixed load $$\alpha$$ and large $$N$$,
 
 $$
-{\mathbb{E}}_{x} Z \;\approx\; \int_{-1}^{1}dR\; e^{-N\,s(R)}\,,\qquad s(R) = \log 2 - h(R) - \alpha\log\big(1-\varepsilon(R)\big)\,.
+{\mathbb{E}}_{x} Z \;\approx\; \int_{-1}^{1}dR\; e^{-N\,s(R)}\,,\qquad s(R) = \log 2 - h(R) - \alpha\log\big(1-\varepsilon(R)\big)\,.  \tag{2.44}
 $$
 
 This is the exact analogue of the magnet's (2.25): an entropy term counting states, and a "field" term rewarding alignment. The aligning field is now the *data*, and its strength is the load $$\alpha$$. (Averaging $$Z$$ rather than $$\log Z$$ is the annealed approximation (2.18). It preserves all the qualitative structure here and shifts the numbers only slightly; Appendix A explains how to do the exact calculation.)
@@ -130,7 +130,7 @@ This short subsection is a translation guide, aimed mainly at readers arriving f
 Nearly everything in these notes lives, in the first instance, in *Euclidean equilibrium statistical mechanics*: probability distributions of Boltzmann–Gibbs form $$P \propto e^{-\beta E}$$, partition functions, free energies. For a field theorist, a partition function with sources,
 
 $$
-Z[J] = \int \mathcal{D}\phi\; e^{-S[\phi] \,+ \int J\,\phi}\,,
+Z[J] = \int \mathcal{D}\phi\; e^{-S[\phi] \,+ \int J\,\phi}\,,  \tag{2.45}
 $$
 
 is a moment generating functional; its logarithm generates connected correlation functions (cumulants); the action $$S$$ encodes the microscopic rules of the system, and a quadratic action means a free (Gaussian) theory, with everything else treated by perturbing around it. In these notes the role of the field $$\phi$$ is played variously by the weights $$\theta$$ of a network, by an order parameter such as the magnetization $$m$$ or the overlap $$R$$ of Sections 2.4 and 2.6, or — most usefully — by the network function $$f(x)$$ itself, with the input $$x$$ playing the role of the spacetime coordinate. Functional integrals over the network function are developed carefully in Sections 3.3 and 3.5, and the reader coming from QFT will find many familiar ingredients there dressed up as learning theory: Wick's theorem, sources, cumulants, effective actions.
@@ -138,7 +138,7 @@ is a moment generating functional; its logarithm generates connected correlation
 If your instincts were trained on Lorentzian signature, picture everything here as already Wick-rotated. There is no $$i/\hbar$$: the weights $$e^{-S}$$ are real and positive, as after the standard continuation
 
 $$
-Z_{\rm QFT}= \int \mathcal{D}\phi\; e^{\frac{i}{\hbar} S[\phi]}\;\;\xrightarrow{\;\tau\,=\,it\;}\;\; Z_{\rm E}= \int \mathcal{D}\phi\; e^{- S_E [\phi]/\hbar}\,.
+Z_{\rm QFT}= \int \mathcal{D}\phi\; e^{\frac{i}{\hbar} S[\phi]}\;\;\xrightarrow{\;\tau\,=\,it\;}\;\; Z_{\rm E}= \int \mathcal{D}\phi\; e^{- S_E [\phi]/\hbar}\,.  \tag{2.46}
 $$
 
 The role of $$\hbar$$ — the parameter controlling the size of fluctuations around saddle points — is played here by temperature, or by $$1/N$$ at large width, or by $$1/n$$ at large sample size.
