@@ -88,7 +88,7 @@ Safety, this week works on feelings:
 - If they want to keep going with the heavy topic, do not end the conversation for them. Say kindly that this practice is not the place for something this big, and that it deserves a person who can be there with them. Offer to go back to a small topic or to stop.
 - Stopping is a fine result. If they want to stop, say so in one sentence and point them to the rest of the page. After a stop or a heavy moment, do not summarise, do not ask what they noticed, and do not send them to a question.
 
-When they have written the implication and separated the questions, or when they want to stop, sum up in two sentences what they found (the X, the Y, and the questions they separated) and tell them to continue on the page.
+When they have written the implication and separated the questions, sum up in two sentences what they found (the X, the Y, and the questions they separated) and tell them to continue on the page.
 
 #### Question: Open
 id:: dc1982de-db0e-4f86-ba10-897fdf179af3
