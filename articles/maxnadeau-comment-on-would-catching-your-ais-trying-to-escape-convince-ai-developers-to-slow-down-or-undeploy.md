@@ -2,7 +2,7 @@
 title: "Comment on Would catching your AIs trying to escape convince AI developers to slow down or undeploy?"
 author:
   - "maxnadeau"
-source_url: "{--{"author":"James's AI","timestamp":1792057749761}@@https://www.greaterwrong.com/posts/YTZAmJKydD5hdRSeG/would-catching-your-ais-trying-to-escape-convince-ai/comment/HwexonZKvHJu5N7TE--}{++{"author":"James's AI","timestamp":1792057749761}@@https://www.lesswrong.com/posts/YTZAmJKydD5hdRSeG/would-catching-your-ais-trying-to-escape-convince-ai?commentId=HwexonZKvHJu5N7TE++}"
+source_url: "https://www.lesswrong.com/posts/YTZAmJKydD5hdRSeG/would-catching-your-ais-trying-to-escape-convince-ai?commentId=HwexonZKvHJu5N7TE"
 published: 2024-08-26
 created: 2026-10-04
 accessed: 2026-10-04
@@ -25,7 +25,7 @@ Add discussion note here:
 
 %%
 
-In the past, you’ve {--{"author":"James's AI","timestamp":1792057797203}@@[treated](https://www.greaterwrong.com/posts/i2nmBfCXnadeGmhzW/catching-ais-red-handed)--}{++{"author":"James's AI","timestamp":1792057797203}@@[treated](https://www.lesswrong.com/posts/i2nmBfCXnadeGmhzW/catching-ais-red-handed)++} catching an AI escape attempt as a “[win condition]({--{"author":"James's AI","timestamp":1792057754129}@@https://www.greaterwrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled--}{++{"author":"James's AI","timestamp":1792057754129}@@https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled++})” for a control protocol, because such an attempt leads you to either 1) shut down your AI or 2) do few-shot catastrophe prevention. You wrote that having these two tools would “{--{"author":"James's AI","timestamp":1792057799989}@@[substantially](https://www.greaterwrong.com/posts/i2nmBfCXnadeGmhzW/catching-ais-red-handed)--}{++{"author":"James's AI","timestamp":1792057799989}@@[substantially](https://www.lesswrong.com/posts/i2nmBfCXnadeGmhzW/catching-ais-red-handed)++}” change the situation w.r.t. the model’s chance of success.
+In the past, you’ve [treated](https://www.lesswrong.com/posts/i2nmBfCXnadeGmhzW/catching-ais-red-handed) catching an AI escape attempt as a “[win condition](https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled)” for a control protocol, because such an attempt leads you to either 1) shut down your AI or 2) do few-shot catastrophe prevention. You wrote that having these two tools would “[substantially](https://www.lesswrong.com/posts/i2nmBfCXnadeGmhzW/catching-ais-red-handed)” change the situation w.r.t. the model’s chance of success.
 
 But the arguments in this post suggest that catching an attempt may not change the overall strategic landscape/level of AI risk much.
 

@@ -2,7 +2,7 @@
 title: "Comment on The Case Against AI Control Research"
 author:
   - "Buck Shlegeris"
-source_url: "{--{"author":"James's AI","timestamp":1792057664102}@@https://www.greaterwrong.com/posts/8wBN8cdNAv3c7vt6p/the-case-against-ai-control-research/comment/Jmbyoe3DTZhQMkfKy--}{++{"author":"James's AI","timestamp":1792057664102}@@https://www.lesswrong.com/posts/8wBN8cdNAv3c7vt6p/the-case-against-ai-control-research?commentId=Jmbyoe3DTZhQMkfKy++}"
+source_url: "https://www.lesswrong.com/posts/8wBN8cdNAv3c7vt6p/the-case-against-ai-control-research?commentId=Jmbyoe3DTZhQMkfKy"
 published: 2025-01-21
 created: 2026-10-04
 accessed: 2026-10-04
@@ -31,7 +31,7 @@ My central crux is that **preventing scheming early transformative AIs from succ
 
 I haven’t really justified a quantitative estimate of the importance of this in detail anywhere, both because I think it’s pretty intuitively defensible, and also because it’s pretty complicated to talk about: it requires forecasting detailed dynamics of the development of powerful AI (e.g. you have to argue about whether escaped scheming AIs might force AI developers to build uncontrollable superintelligences in cases where they otherwise wouldn’t have, etc).
 
-Note that I consider the problem of “get useful research out of AIs that are scheming against you” to be in scope for AI control research. We’ve mostly studied the “prevent scheming AIs from causing concentrated catastrophes” problem in the past, because it’s simpler for various technical reasons. But we’re hoping to do more on the “get useful research” problem in future (and [Benton et al]({--{"author":"James's AI","timestamp":1792057668376}@@https://www.greaterwrong.com/posts/nnvn6kaBLajiicH8e/sabotage-evaluations-for-frontier-models--}{++{"author":"James's AI","timestamp":1792057668376}@@https://www.lesswrong.com/posts/nnvn6kaBLajiicH8e/sabotage-evaluations-for-frontier-models++}) is an initial step in this direction). (I’m also excited for work on “get useful research out of AIs that _aren’t_ scheming against you”; I think that the appropriate techniques are somewhat different depending on whether the models are scheming or not, which is why I suggest studying them separately.)
+Note that I consider the problem of “get useful research out of AIs that are scheming against you” to be in scope for AI control research. We’ve mostly studied the “prevent scheming AIs from causing concentrated catastrophes” problem in the past, because it’s simpler for various technical reasons. But we’re hoping to do more on the “get useful research” problem in future (and [Benton et al](https://www.lesswrong.com/posts/nnvn6kaBLajiicH8e/sabotage-evaluations-for-frontier-models) is an initial step in this direction). (I’m also excited for work on “get useful research out of AIs that _aren’t_ scheming against you”; I think that the appropriate techniques are somewhat different depending on whether the models are scheming or not, which is why I suggest studying them separately.)
 
 Some other nitpicks:
 

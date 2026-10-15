@@ -2,7 +2,7 @@
 title: "Comment on Ten people on the inside"
 author:
   - "Zac Hatfield-Dodds"
-source_url: "{--{"author":"James's AI","timestamp":1792057711412}@@https://www.greaterwrong.com/posts/WSNnKcKCYAffcnrt2/ten-people-on-the-inside/comment/xrBvMStH8mFbdiKnk--}{++{"author":"James's AI","timestamp":1792057711412}@@https://www.lesswrong.com/posts/WSNnKcKCYAffcnrt2/ten-people-on-the-inside?commentId=xrBvMStH8mFbdiKnk++}"
+source_url: "https://www.lesswrong.com/posts/WSNnKcKCYAffcnrt2/ten-people-on-the-inside?commentId=xrBvMStH8mFbdiKnk"
 published: 2025-01-29
 created: 2026-10-04
 accessed: 2026-10-04

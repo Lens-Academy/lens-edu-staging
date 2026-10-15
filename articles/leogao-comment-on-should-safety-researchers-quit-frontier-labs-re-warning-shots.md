@@ -2,7 +2,7 @@
 title: "Comment on Should safety researchers quit frontier labs re. warning shots?"
 author:
   - "leogao"
-source_url: "{--{"author":"James's AI","timestamp":1792057745046}@@https://www.greaterwrong.com/posts/TfqMs3AarsHnHiwai/should-safety-researchers-quit-frontier-labs-re-warning/comment/QEXP2D4dhsGsh67aL--}{++{"author":"James's AI","timestamp":1792057745046}@@https://www.lesswrong.com/posts/TfqMs3AarsHnHiwai/should-safety-researchers-quit-frontier-labs-re-warning?commentId=QEXP2D4dhsGsh67aL++}"
+source_url: "https://www.lesswrong.com/posts/TfqMs3AarsHnHiwai/should-safety-researchers-quit-frontier-labs-re-warning?commentId=QEXP2D4dhsGsh67aL"
 published: 2026-09-07
 created: 2026-10-04
 accessed: 2026-10-04
