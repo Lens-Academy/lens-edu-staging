@@ -23,7 +23,7 @@ Score out of 100.
 
 15: Says that the roleplay's action does not match the real one: answering with copied phrases is not the same as producing her own response in a live conversation, or the practice never varies what she has to say.
 
-10: Says that reading and summarising the books does not rehearse noticing or steering in a conversation. Saying that the books can still give useful background is fine but earns nothing on its own.
+10: Says what the books or the self-rating are and aren't good for. For the books: they can give background on what good steering looks like, but reading and summarising does not rehearse noticing or steering in a conversation. For the self-rating: a general 1 to 10 score after the meeting does not practise noticing the moment a sign appears. Keeping a part for a stated purpose, or dropping it with that reason, both earn the 10.
 
 35: Proposes at least one concrete change and explains it by resemblance to the real situation. Examples of concrete changes:
 - The friend hides the problem, varies it, or sometimes has none.

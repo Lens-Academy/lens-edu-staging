@@ -12,7 +12,7 @@ id:: 8948fdc0-9892-4cca-a6f0-bb4ccf581007
 content::
 Lea is a research engineer at a small AI safety lab. Her colleagues message her on Slack all day, and she usually replies within a few minutes. She checks Slack about forty times a day and loses her focus each time. Her fix so far: a sticky note on her monitor that says "DON'T CHECK SLACK", and a rule that she only checks when she really needs a break. It hasn't helped.
 
-1. Why isn't her fix working? Judge it as a system.
+1. Judge her fix as a system: why isn't it working? Give two reasons.
 
 2. Design a system that would free her attention. Say where it intervenes, and why there.
 
@@ -29,7 +29,7 @@ Score out of 100:
     - "Really need a break" is a vague judgement she makes in the moment, so it can't be relied on (not reliable).
     - It leaves the triggers in place: messages keep arriving and colleagues still expect fast replies.
 - 40: Question 2. A system that changes what reaches her or what colleagues expect, concrete enough to set up. Examples: notifications off or Slack closed during focus blocks, with set times to check. Telling colleagues she replies at set times and giving them an emergency route (a call, a specific keyword, a named backup person). A status message stating when she will reply. It must say where it intervenes (the incoming triggers or others' expectations, upstream of the urge to check). 20 if it is a reasonable plan but still relies mainly on Lea resisting the urge, or if it does not say where it intervenes.
-- 30: Question 3. A plausible way the system could fail (an urgent message is missed, colleagues ignore the new norm, she opens Slack out of habit when she gets stuck, the check times slip) together with a specific guard against it (an emergency route, a trigger-action plan at the moment of the urge, a weekly look at whether the system works). 15 if the failure is plausible but the guard is vague or missing.
+- 30: Question 3. A plausible way the system could fail (an urgent message is missed, colleagues ignore the new norm, she opens Slack out of habit when she gets stuck, the check times slip) together with a specific guard against it (an emergency route, a trigger-action plan at the moment of the urge, a weekly look at whether the system works). 15 if the failure is plausible but the guard is vague, missing, or itself relies mainly on willpower (for example "track a streak and try harder").
 
 Accept any other design that meets the same criteria for a sound reason. Cap at 40 if the main proposal is a stronger version of resisting (a bigger note, stricter rules, a penalty for checking).
 Model answer, for the feedback, not a grading checklist: "Her fix needs willpower forty times a day, and the note keeps Slack on her mind. Also, 'really need a break' is decided in the moment, so it gives way. The triggers are untouched: messages keep coming and her team expects replies within minutes. Better: close Slack during two focus blocks a day and check at 11, 2 and 5. Tell the team that's when she replies, and that anything urgent should be a phone call. Failure: she opens Slack anyway when a bug stumps her. Guard: a TAP for that moment (urge to open Slack → write the stuck point on a notepad) and a Friday check of whether anything urgent was missed."
