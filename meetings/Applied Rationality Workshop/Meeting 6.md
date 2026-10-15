@@ -267,9 +267,10 @@ style:: plain
 Double Crux: The CFAR Handbook's method for disagreements between people. Instead of trading conclusions, both people look for the belief underneath that would change both their minds.
 Good Faith Principle: Unless there is clear evidence otherwise, assume the other person has good motives and reasons that make sense from their experience.
 Crux: A belief that supports one of your conclusions and would change it if it turned out false.
-Double crux: A statement two people disagree about that could change either person's mind about the original question.
+A double crux (the statement): A statement two people disagree about that could change either person's mind about the original question.
 Operationalize: Make a disagreement concrete: define the words, pick specific test cases, and prefer questions about actions over questions about beliefs.
 Resonate: The Double Crux step of trying out both sides and checking the agreed if-then statement against your gut.
+Tutoring wheel: A workshop activity where everyone teaches one technique to the others in turn, and is taught by them.
 Pedagogical content knowledge (PCK): Knowledge about a topic that is also about how learners meet it, such as common misconceptions and what it is like to be a beginner.
 Clinical interviewing: Asking a learner about their thinking out of real curiosity, instead of pointing out their error.
 Tutoring wheel: A workshop activity where everyone teaches one technique to the others in turn, and is taught by them.
