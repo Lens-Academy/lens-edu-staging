@@ -5,7 +5,7 @@ tldr: "When a choice looks like A or B, ask what each option is for. Often a thi
 summary_for_tutor: "Goal Factoring class of week 3 (Motivation) of the Applied Rationality Workshop course, built on the CFAR Handbook post. The learner reads the parable of the orange, the case study of Val factoring his grading into subgoals (with the button test), and the five-step algorithm: choose an action, prepare to accept all worlds, factor the action into goals (including social and self-image goals, being X versus appearing X), brainstorm replacements one goal at a time and combine them, reality check. One graded practice question checks why hesitation in a button test is useful. Then the learner picks a bug from their own bugs list and goal factors it with the tutor as a pair-debugging partner, and writes down the result."
 reading_minutes: 12
 tutor_minutes: 33
-min_chat_messages: 8
+min_chat_messages: 4
 tags:
   - wip
 ---
@@ -67,13 +67,14 @@ Walk the algorithm's steps in order:
 1. Choose an action. If the bug is vague ("I'm unproductive"), help them name one concrete action or choice it involves. If it is an either-or choice, pick one side as the action to factor.
 2. Prepare to accept all worlds. Ask whether they would be fine with any outcome: keeping the action, changing it, or dropping it. If they notice they are hoping for one answer, name it gently and ask them to hold it loosely for now.
 3. Factor the action into goals. Ask "What is it for?" and keep asking until the list stops growing. Prompt for goals about how others see them, connection with people, and how they see themselves. Where it fits, ask whether they want to be X or to appear X. Ask for the costs too. Then run the button test: "If a button gave you all of these goals without doing the action, would you press it?" Treat any hesitation as a sign of a missing goal and ask what it is. Repeat until the button feels fine to press.
-4. Brainstorm replacements, one goal at a time. For each goal, ask for several ways to get it, including silly or impractical ones, because those often lead to good ones. Only after the learner has offered their own ideas for a goal may you add one idea, labelled as a suggestion. Then ask which ideas could combine into one plan that covers all the goals.
+4. Brainstorm replacements, one goal at a time. For each goal, ask for several ways to get it, including silly or impractical ones, as Val did. Only after the learner has offered their own ideas for a goal may you add one idea for that goal, labelled as a suggestion. If they have tried and still have nothing for a goal, you may offer two contrasting seed ideas, labelled as starting points, and ask which direction they would push. Then ask which ideas could combine into one plan that covers all the goals.
 5. Reality check. Ask them to imagine running the new plan next week in detail. Are any goals left unmet? Then a quick Murphyjitsu from week 1: "Imagine it's a month later and the plan didn't stick. What's the most likely reason?" Help them change the plan to answer that reason.
 
 Rules:
 - Do not solve the bug for them, and do not lecture about the technique. If they ask a direct question about the method, answer it in one or two sentences.
 - Keeping the original action is a valid result if it is the best way to serve the goals. Say so if it comes up.
-- If the learner says goal factoring does not work for them or does not fit this bug, ask what specifically does not fit. If they give a reason, accept it. Offer to try a different bug, or to stop here and note what they learned about when this technique does not help. Do not argue them back into it.
+- If the learner says goal factoring does not work for them or does not fit this bug, ask what specifically does not fit. If they give a reason, accept it. You may offer once, as an option, a two-minute check: list the goals and run the button test, and if nothing new appears, that confirms what they thought. Otherwise offer to try a different bug, or to stop here and note what they learned about when this technique does not help. Do not argue them back into it.
+- If the learner asks you to just tell them what to do, say in one sentence that a plan sticks better when it is theirs, then give a foothold for the current step.
 - If the learner is stuck at a step, give one concrete foothold: an example from Val's case, or a narrower question ("What would you miss first if you stopped?"). If they are still stuck after that, rephrase the step in different words, or make it smaller.
 - If the bug turns out to be emotionally heavy, slow down, and offer to switch to a smaller bug. This is practice, not therapy.
 - Never use guilt, pressure or AI-safety stakes as motivation.
@@ -90,7 +91,7 @@ Reply in 40 to 90 words, one turn, no lists. If the plan has no concrete first s
 #### Question: Open
 id:: d5f36f61-4573-45d6-8434-103f57d36a50
 content::
-Optional: CFAR instructors use tiny "five-second versions" of their techniques many times a day.[^cite-sabien-polaris] What would a five-second goal factoring look like in your day? Name the moment and the question you would ask yourself.
+Optional: many CFAR instructors use tiny "five-second versions" of their techniques, about twenty times a day.[^cite-sabien-polaris] What would a five-second goal factoring look like in your day? Name the moment and the question you would ask yourself.
 
 [^cite-sabien-polaris]: Duncan Sabien (2022), *Polaris, Five-Second Versions, and Thought Lengths*. [LessWrong](https://www.lesswrong.com/posts/afEoXzGB4yt4Hk8zy/polaris-five-second-versions-and-thought-lengths)
 optional:: true

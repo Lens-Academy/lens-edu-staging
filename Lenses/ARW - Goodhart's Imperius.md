@@ -1,7 +1,7 @@
 ---
 id: '0d44750f-d848-4ad1-89c4-7ac5b93a219b'
 title: "Goodhart's Imperius"
-tldr: "Your brain trains you toward proxies for what you want, and proxies leak. One result: things that hurt to look at quietly drop out of view. Find one of those blind spots and look at it on purpose."
+tldr: "Your brain trains you toward proxies for what you want, and proxies never quite match the real thing. One result: you can stop seeing things that hurt to look at. Find one of those blind spots and look at it on purpose."
 summary_for_tutor: "Week 4 of the Applied Rationality Workshop. Duncan Sabien's essay Goodhart's Imperius, a follow-up to the CFAR Handbook's Taste & Shaping chapter, which the learner has just read. The author labels it mixed/speculative. Claims: Goodhart's law (proxies leak), tiny immediate feelings condition strongly, the brain builds implicit models that emit approach/avoid signals, and the brain conditions us toward proxies without our noticing (the monkey dopamine studies). Corollary: because proxies leak, it conditions us wrong. The example is a bathroom scale that becomes a blind spot, because the 'owch' on glancing at it trains the glance away. The learner guesses why the dopamine spike moves before reading the author's answer, then looks for one of their own blind spots with the tutor."
 tags: [wip]
 reading_minutes: 10
