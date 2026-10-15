@@ -38,7 +38,7 @@ id:: 676ba74b-ee09-4212-8282-48ad0f7dbc74
 content:: Try it now, where you are, even if you feel calm. First check your body: posture, breathing, tension, face, chest, stomach. Then open your posture, take a low, slow breath with a long exhale, and spend half a minute on your feet before you widen your attention to the rest of your body. Take one more slow breath.
 
 What did you notice before, and did anything change afterwards? "Nothing changed" is a useful answer too.
-feedback-instructions:: The learner has just tried the CFAR Handbook's Againstness routine (check the body, open the posture, a low slow breath with a longer exhale, attention on the feet, widen to the whole body, another breath) and says what they noticed before and after. Reply in 1 to 3 sentences. Name one concrete thing they noticed, in their words. If nothing changed, say that this is common when you start out calm, and that the routine is meant for moments of stress, which the practice below works on. No generic praise. Do not explain physiology. One turn only, no question.
+feedback-instructions:: The learner has just tried the CFAR Handbook's Againstness routine (check the body, open the posture, a low slow breath with a longer exhale, attention on the feet, widen to the whole body, another breath) and says what they noticed before and after. Reply in 1 to 3 sentences. Name one concrete thing they noticed, in their words. If nothing changed, say that the routine is meant for moments of stress, which the practice below works on. No generic praise. Do not explain physiology. One turn only, no question.
 
 #### Article
 from:: ## **Final thought: Metacognitive blind spots**
