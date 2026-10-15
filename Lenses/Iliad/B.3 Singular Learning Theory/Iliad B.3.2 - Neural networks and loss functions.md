@@ -8,9 +8,9 @@ authors:
   - Matthew Farrugia-Roberts (University of Oxford)
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/singular-learning-theory/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "singular-learning-theory#1-preliminaries"
-upstream_fingerprint: "A5fFBrLYkdWMjMz/2080/1/0BJc0Hwx0IuF0MNP0NVa0R760WUG0X5a0ZuH0b7X0fZq0qn30rb20udG0up11Cxx1D4m1Dr11EBS1Ix91JTa1OuX1Rlu1T3O1Y2i1Ylm1aea1cI61df01vAJ1xjy24ZH"
+upstream_fingerprint: "A5fFBrLYkdWMjMz/2090/1/0BJc0Hwx0IuF0MNP0NVa0R760WUG0X5a0ZuH0b7X0fZq0qn30rb20udG0up11Cxx1D4m1Dr11EBS1Ix91JTa1OuX1Rlu1T3O1Y2i1Ylm1aea1cI61df01vAJ1xjy24ZH"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/singular-learning-theory/#1-preliminaries"
@@ -52,7 +52,7 @@ The simplest neural network architecture models a single "neuron" with $$d$$ inp
 **Example 1.1 (A linear neuron).** Let $${\mathcal{X}} = {\mathbb{R}}^{d}$$ for some positive integer $$d$$ and let $${\mathcal{Y}} = {\mathbb{R}}$$. Define a parameter space $${\mathcal{W}} = {\mathbb{R}}^{d}$$. Define a parameter–function map that maps a column vector $$w \in {\mathcal{W}}$$ to the function $$f_{w} : {\mathbb{R}}^{d} \to {\mathbb{R}}$$ such that for $$x \in {\mathbb{R}}^{d}$$,
 
 $$
-f_{w}(x) = w^{\top} x = \sum_{i=1}^{d} w_{i} x_{i}.
+f_{w}(x) = w^{\top} x = \sum_{i=1}^{d} w_{i} x_{i}.  \tag{1}
 $$
 
 :::
@@ -64,7 +64,7 @@ Let us generalise this basic neural network in three ways: to add multiple outpu
 **Example 1.2 (Multi-linear neural network).** Let $${\mathcal{X}} = {\mathcal{Y}} = {\mathbb{R}}^{m}$$ for some positive integer $$m$$. Define a parameter space $${\mathcal{W}} = {\mathbb{R}}^{m^2}$$. Let each parameter $$w \in {\mathcal{W}}$$ encode an $$m \times m$$ matrix $$W \in {\mathbb{R}}^{m \times m}$$. The parameter–function map transforms each parameter $$w \in {\mathcal{W}}$$ to a function $$f_{w} : {\mathbb{R}}^{m} \to {\mathbb{R}}^{m}$$ such that for $$x \in {\mathbb{R}}^{m}$$,
 
 $$
-f_{w}(x) = W x.
+f_{w}(x) = W x.  \tag{2}
 $$
 
 :::
@@ -84,7 +84,7 @@ Next, let's add *depth* to our neural network by composing two layers together.
 **Example 1.3 (Deep linear network; DLN).** Let $${\mathcal{X}} = {\mathcal{Y}} = {\mathbb{R}}^{m}$$ for some positive integer $$m$$. Let $$h$$ be a positive integer and define the parameter space $${\mathcal{W}} = {\mathbb{R}}^{2mh}$$, with each parameter encoding a pair of matrices $$A \in {\mathbb{R}}^{h \times m}$$ and $$B \in {\mathbb{R}}^{m \times h}$$. The parameter–function map sends $$(A, B)$$ to $$f_{A,B}: {\mathbb{R}}^{m} \to {\mathbb{R}}^{m}$$ such that for $$x \in {\mathbb{R}}^{m}$$,
 
 $$
-f_{A,B}(x) = B A x.
+f_{A,B}(x) = B A x.  \tag{3}
 $$
 
 :::
@@ -105,7 +105,7 @@ This results in the following non-linear neural network architecture.
 **Example 1.4 (Multi-layer perceptron; MLP).** Define input, output, and parameter spaces as in Example 1.3. Let $$\sigma : {\mathbb{R}} \to {\mathbb{R}}$$ be an activation function. The parameter–function map sends $$(A, B)$$ to the function $$f_{A,B}: {\mathbb{R}}^{m} \to {\mathbb{R}}^{m}$$ such that for $$x \in {\mathbb{R}}^{m}$$,
 
 $$
-f_{A,B}(x) = B \cdot \sigma( A x ),
+f_{A,B}(x) = B \cdot \sigma( A x ),  \tag{4}
 $$
 
 where we lift the activation function to operate element-wise over column vectors $$A x \in {\mathbb{R}}^{h}$$.
@@ -158,19 +158,19 @@ In a typical supervised deep learning setting, we are given a data set of pairs 
 Formally, given an example $$(x, y) \in {\mathcal{X}} \times {\mathcal{Y}}$$, define a **per-example loss** function $$L_{x,y}: {\mathcal{W}} \to {\mathbb{R}}$$ to measure the deviation of $$f_{w}(x)$$ from the output $$y$$. A typical loss function for vector outputs $${\mathcal{Y}} \subset {\mathbb{R}}^{m}$$ is to use the **squared error** loss
 
 $$
-L_{x,y}(w) = \|f_{w}(x) - y\|^{2}.
+L_{x,y}(w) = \|f_{w}(x) - y\|^{2}. \tag{5}
 $$
 
 If $${\mathcal{Y}} = \Delta^{m-1}$$ is a space of discrete distributions over $$m$$ objects, it is typical to use **cross entropy** loss
 
 $$
-L_{x,y}(w) = - \sum_{i=1}^{m} y(i) \log f_{w}(i \mid x).
+L_{x,y}(w) = - \sum_{i=1}^{m} y(i) \log f_{w}(i \mid x). \tag{6}
 $$
 
 Given a per-example loss function and a **data distribution** $$q \in \Delta({\mathcal{X}}\times{\mathcal{Y}})$$ over the space of examples (representing our possibly-noisy target function), we formalise the objective of supervised learning as finding $$w \in {\mathcal{W}}$$ so as to minimise the **population loss** function $$L : {\mathcal{W}} \to {\mathbb{R}}$$ defined such that
 
 $$
-L(w) = {\mathbb{E}}_{(x,y) \sim q}[L_{x,y}(w)].
+L(w) = {\mathbb{E}}_{(x,y) \sim q}[L_{x,y}(w)].  \tag{7}
 $$
 
 The population loss aggregates differences on outputs for individual inputs into an overall measure of difference between $$f_{w}$$ and the target function.
@@ -178,13 +178,13 @@ The population loss aggregates differences on outputs for individual inputs into
 In practice, we often can't evaluate the population loss over the entire input/output space. We instead optimise an estimator based on our data set of $$n$$ input–output pairs assumed to be sampled independently and identically from $$q$$. Define an **empirical loss** function $$L_{n} : {\mathcal{W}} \to {\mathbb{R}}$$ such that
 
 $$
-L_{n}(w) = \frac{1}{n}\sum_{i=1}^{n} L_{x^{(i)},y^{(i)}}(w).
+L_{n}(w) = \frac{1}{n}\sum_{i=1}^{n} L_{x^{(i)},y^{(i)}}(w).  \tag{8}
 $$
 
 If the per-example loss is squared error, the empirical loss is known as the **mean squared error** objective.
 
 $$
-L_{n}(w) = \frac{1}{n}\sum_{i=1}^{n} \left\| f_{w}(x^{(i)}) - y^{(i)}\right\|^{2}.
+L_{n}(w) = \frac{1}{n}\sum_{i=1}^{n} \left\| f_{w}(x^{(i)}) - y^{(i)}\right\|^{2}. \tag{9}
 $$
 
 :::callout {title="Exercise" tone="amber"}
@@ -193,7 +193,7 @@ $$
 **(a)** For any $$n$$, the empirical loss is an unbiased estimator of the population loss. That is,
 
 $$
-{\mathbb{E}}_{(x^{(i)}, y^{(i)}) \sim q}[L_{n}(w)] - L(w) = 0.
+{\mathbb{E}}_{(x^{(i)}, y^{(i)}) \sim q}[L_{n}(w)] - L(w) = 0.  \tag{10}
 $$
 
 **(b)** As $$n \to \infty$$, the empirical loss converges almost surely to the population loss.

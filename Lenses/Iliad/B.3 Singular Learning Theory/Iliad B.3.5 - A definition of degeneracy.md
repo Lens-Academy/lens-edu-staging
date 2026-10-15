@@ -8,9 +8,9 @@ authors:
   - Matthew Farrugia-Roberts (University of Oxford)
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/singular-learning-theory/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "singular-learning-theory#2-what-is-degeneracy"
-upstream_fingerprint: "4C1Jivacpd7AlFiieT/1434/1/01EO0Hnb0MJf0S7f0YcP0bN90g9X0n0n0oCx0tal0vWb18Mv1B2M1LsD1Pgi1Rxh1SVV1YdF1aKZ1uMJ1wMi2Mrm2Mrs2X8V2ayR2ttr30ul31UN3C9K3UOI3Zxm3dt8"
+upstream_fingerprint: "4C1Jivacpd7AlFiieT/1436/1/01EO0Hnb0MJf0S7f0YcP0bN90g9X0n0n0oCx0tal0vWb18Mv1B2M1LsD1Pgi1Rxh1SVV1YdF1aKZ1uMJ1wMi2Mrm2Mrs2X8V2ayR2ttr30ul31UN3C9K3UOI3Zxm3dt8"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/singular-learning-theory/#2-what-is-degeneracy"
@@ -27,13 +27,13 @@ In this section, we define degeneracy as a property of parameter–function maps
 Consider a neural network architecture with parameter space $${\mathcal{W}} \subseteq {\mathbb{R}}^{d}$$ and parameter–function map $$\Phi : {\mathcal{W}} \to {\mathcal{F}}$$ ($$w \mapsto f_{w}$$). Say the parameter–function map is **degenerate at $$w\in{\mathcal{W}}$$** if there is a non-zero vector $$v \in {\mathbb{R}}^{d}$$ such that the directional derivative of the parameter–function map in the direction $$v$$ is zero:
 
 $$
-D_{v} \Phi(w) = 0.
+D_{v} \Phi(w) = 0. \tag{19}
 $$
 
 The directional derivative $$D_{v} \Phi(w)$$ for non-zero $$v \in {\mathbb{R}}^{d}$$ may be defined variously as
 
 $$
-D_{v} \Phi(w) = \frac{v}{\|v\|}\cdot \nabla \Phi(w) = \sum_{i=1}^{d} \frac{v_{i}}{\|v\|}\frac{\partial \Phi}{\partial w_{i}}(w) = \lim_{\epsilon \to 0}\frac{\Phi(w + \epsilon v) - \Phi(w)}{\epsilon\|v\|}.
+D_{v} \Phi(w) = \frac{v}{\|v\|}\cdot \nabla \Phi(w) = \sum_{i=1}^{d} \frac{v_{i}}{\|v\|}\frac{\partial \Phi}{\partial w_{i}}(w) = \lim_{\epsilon \to 0}\frac{\Phi(w + \epsilon v) - \Phi(w)}{\epsilon\|v\|}. \tag{20}
 $$
 
 We conventionally define $$D_{0} \Phi(w) = 0$$. Note that $$w$$ is fixed, but the directional derivative is still a function (of the same type as $$\Phi(w)$$; $$D_{v} \Phi(w) : {\mathcal{X}} \to {\mathcal{Y}}$$), since it represents an infinitesimal change in $$\Phi(w)$$ in response to a change in $$w$$ in the direction $$v$$. In (19) we mean that this function is identically zero for all inputs $$x \in {\mathcal{X}}$$ for the given $$w \in {\mathcal{W}}$$.

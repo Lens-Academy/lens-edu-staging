@@ -8,9 +8,9 @@ authors:
   - Matthew Farrugia-Roberts (University of Oxford)
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/singular-learning-theory/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "singular-learning-theory#24-degeneracy-and-information-singularities"
-upstream_fingerprint: "z8VHyrWk5/1604/1/0CgC0FfH0Sgx0TGm0Wlf0f2I0oSZ0tRP0u9I1B3d1C601QmU1ha51wMi24Eq2Ir52Rh42aQC2iJb2tYR34bd3I4V3Ni43OrN3QKO3XYJ3Zxm3o3a3rm33utR3vCM3vEh"
+upstream_fingerprint: "z8VHyrWk5/1612/1/0CgC0FfH0Sgx0TGm0Wlf0f2I0oSZ0tRP0u9I1B3d1C601QmU1ha51wMi24Eq2Ir52Rh42aQC2iJb2tYR34bd3I4V3Ni43OrN3QKO3XYJ3Zxm3o3a3rm33utR3vCM3vEh"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/singular-learning-theory/#24-degeneracy-and-information-singularities"
@@ -25,7 +25,7 @@ In the preceding sections, we studied degeneracy as a property of parameter–fu
 Given a parameter–distribution map $$\Psi : {\mathcal{W}} \to {\mathcal{D}}$$, say that $$\Psi$$ is **degenerate at $$w$$ in direction $$v$$** if the conditional density does not change to first order:
 
 $$
-D_{v} \Psi(w) = 0.
+D_{v} \Psi(w) = 0. \tag{21}
 $$
 
 Here, $$D_{v} \Psi(w)$$ is not a conditional distribution but a signed difference between conditional distributions, effectively a real function of $$x$$ and $$y$$ (in particular, it may include negative density changes). We mean that this function is zero for all $$x \in {\mathcal{X}}$$ and all $$y \in {\mathcal{Y}}$$.
@@ -39,13 +39,13 @@ To relate degeneracy to the Fisher information matrix, we introduce two standard
 **Definition 2.3 (Score function).** Let $$\Psi : {\mathcal{W}} \to {\mathcal{D}}$$ be a parameter–distribution map with densities $$p(y \mid x, w)$$ that are positive and differentiable in $$w$$. The **score function** at $$w$$ is
 
 $$
-s(x, y, w) = \nabla_{w} \log p(y \mid x, w) \in {\mathbb{R}}^{d}.
+s(x, y, w) = \nabla_{w} \log p(y \mid x, w) \in {\mathbb{R}}^{d}. \tag{22}
 $$
 
 The **directional score** in non-zero direction $$v \in {\mathbb{R}}^{d}$$ is
 
 $$
-s_{v}(x, y, w) = D_{v} \log p(y \mid x, w) = \frac{v}{\|v\|}\cdot \nabla_{w} \log p(y \mid x, w).
+s_{v}(x, y, w) = D_{v} \log p(y \mid x, w) = \frac{v}{\|v\|}\cdot \nabla_{w} \log p(y \mid x, w). \tag{23}
 $$
 
 The directional score measures how sensitive the log-density is to perturbations of $$w$$ in direction $$v$$.
@@ -58,13 +58,13 @@ The directional score measures how sensitive the log-density is to perturbations
 **(a)** Show that the score function satisfies the following identity: for each $$x \in {\mathcal{X}}$$, $$y \in {\mathcal{Y}}$$, and $$w \in {\mathcal{W}}$$,
 
 $$
-s(x,y,w) = \frac{\nabla_{w} p(y \mid x,w)}{p(y \mid x,w)}.
+s(x,y,w) = \frac{\nabla_{w} p(y \mid x,w)}{p(y \mid x,w)}. \tag{24}
 $$
 
 **(b)** Show that the expected score is zero: for each $$x \in {\mathcal{X}}$$ and $$w \in {\mathcal{W}}$$,
 
 $$
-{\mathbb{E}}_{y \sim p(y \mid x, w)}\bigl[s(x, y, w)\bigr] = 0.
+{\mathbb{E}}_{y \sim p(y \mid x, w)}\bigl[s(x, y, w)\bigr] = 0.  \tag{25}
 $$
 
 :::callout {title="Hint" tone="neutral" collapse="closed"}
@@ -117,7 +117,7 @@ for all $$x, y$$ (using $$p > 0$$). That is, $$D_{v} \Psi(w) = 0$$.
 **Definition 2.4 (Fisher information matrix).** Let $$\Psi : {\mathcal{W}} \to {\mathcal{D}}$$ be a parameter–distribution map with score function $$s$$. Let $$q(x)$$ denote the marginal distribution of inputs. The **Fisher information matrix** $$I : {\mathcal{W}} \to {\mathbb{R}}^{d \times d}$$ is defined by
 
 $$
-I(w) = {\mathbb{E}}_{x \sim q(x)}\, {\mathbb{E}}_{y \sim p(y \mid x, w)}\!\bigl[ s(x,y,w)\, s(x,y,w)^{\top} \bigr].
+I(w) = {\mathbb{E}}_{x \sim q(x)}\, {\mathbb{E}}_{y \sim p(y \mid x, w)}\!\bigl[ s(x,y,w)\, s(x,y,w)^{\top} \bigr]. \tag{26}
 $$
 
 :::
@@ -132,7 +132,7 @@ The following exercise shows that singularity of the Fisher information matrix i
 **(a)** Show that for any unit vector $$v \in {\mathbb{R}}^{d}$$,
 
 $$
-v^{\top} I(w)\, v = {\mathbb{E}}_{x \sim q(x)}\, {\mathbb{E}}_{y \sim p(y \mid x, w)}\!\bigl[ s_{v}(x, y, w)^{2} \bigr].
+v^{\top} I(w)\, v = {\mathbb{E}}_{x \sim q(x)}\, {\mathbb{E}}_{y \sim p(y \mid x, w)}\!\bigl[ s_{v}(x, y, w)^{2} \bigr]. \tag{27}
 $$
 
 **(b)** Using Exercise 2.11(c), show that if $$D_{v} \Psi(w) = 0$$ for some non-zero $$v$$, then $$I(w)$$ is not positive definite.
@@ -152,7 +152,7 @@ Check the definition of positive definite.
 **(d)** Conclude that
 
 $$
-\ker I(w) = \bigl\{v \in {\mathbb{R}}^{d} : D_{v} \Psi(w) = 0\bigr\}.
+\ker I(w) = \bigl\{v \in {\mathbb{R}}^{d} : D_{v} \Psi(w) = 0\bigr\}.  \tag{28}
 $$
 
 That is, the null space of the Fisher information matrix is exactly the space of degenerate directions of the parameter–distribution map.

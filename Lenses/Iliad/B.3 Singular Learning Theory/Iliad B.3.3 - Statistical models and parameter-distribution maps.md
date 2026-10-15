@@ -8,9 +8,9 @@ authors:
   - Matthew Farrugia-Roberts (University of Oxford)
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/singular-learning-theory/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "singular-learning-theory#13-statistical-models-and-parameterdistribution-maps"
-upstream_fingerprint: "sRFVEwjdBKqy/1474/1/000J0A0q0Lne0Myz0S5g0af00b7X0i4Z0jbV0lQO0mnN0oCx0qn30u9I105b184H1C9v1CNe1Cxx1MAL1VID1Vmw1YUk1YdF1abg1hHa1ha522Gi268t26WZ27mC2Gln"
+upstream_fingerprint: "sRFVEwjdBKqy/1476/1/000J0A0q0Lne0Myz0S5g0af00b7X0i4Z0jbV0lQO0mnN0oCx0qn30u9I105b184H1C9v1CNe1Cxx1MAL1VID1Vmw1YUk1YdF1abg1hHa1ha522Gi268t26WZ27mC2Gln"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/singular-learning-theory/#13-statistical-models-and-parameterdistribution-maps"
@@ -31,7 +31,7 @@ Sometimes, defining a parameter–distribution map is simply a re-framing. For e
 In other cases, we can easily construct a parameter–distribution map from a parameter–function map by introducing a **noise model**. For example, in regression with an output space $${\mathcal{Y}} = {\mathbb{R}}^{m}$$, given a parameter–function map $$w \mapsto f_{w}$$ we can define a parameter–distribution map $$\Psi : {\mathcal{W}} \to \Delta({\mathcal{Y}})^{{\mathcal{X}}}$$ such that, for $$w\in{\mathcal{W}}$$ and $$x\in{\mathcal{X}}$$,
 
 $$
-p(y \mid x, w) = \frac{1}{(2\pi)^{m/2}}\exp\!\left(-\frac{\|y - f_{w}(x)\|^{2}}{2}\right).
+p(y \mid x, w) = \frac{1}{(2\pi)^{m/2}}\exp\!\left(-\frac{\|y - f_{w}(x)\|^{2}}{2}\right). \tag{11}
 $$
 
 The above **Gaussian noise model** amounts to modelling each output $$y$$ as drawn given $$x, w$$ according to the rule $$y = f_{w}(x) + \varepsilon$$ with $$\varepsilon \sim \mathcal{N}(0, I_{m})$$.
@@ -84,7 +84,7 @@ $$
 **Exercise 1.4 (Maximum likelihood as cross entropy minimisation).** Consider a classification problem with $${\mathcal{Y}} = \Delta^{m-1}$$. Assume we have a neural network architecture with a parameter space $${\mathcal{W}}$$. As discussed, the parameter–function map in this case corresponds to a parameter–distribution map to conditional distributions over the underlying discrete class space $${\mathcal{C}} = \{1, \ldots, m\}$$. Let $$(x^{(1)}, c^{(1)}),$$ $$\ldots,$$ $$(x^{(n)}, c^{(n)}) \in {\mathcal{X}} \times {\mathcal{C}}$$ be a data set of $$n$$ labelled classification examples. For each $$c^{(i)}\in {\mathcal{C}}$$ define
 
 $$
-y^{(i)}= \delta_{c^{(i)}}\in \Delta^{m-1}
+y^{(i)}= \delta_{c^{(i)}}\in \Delta^{m-1} \tag{12}
 $$
 
 to be the corresponding Dirac distribution (with probability mass $$1$$ concentrated on $$c^{(i)}$$).

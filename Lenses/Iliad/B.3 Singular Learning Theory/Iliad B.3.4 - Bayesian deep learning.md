@@ -8,9 +8,9 @@ authors:
   - Matthew Farrugia-Roberts (University of Oxford)
   - Zach Furman (The University of Melbourne)
 source_url: https://iliad-intensive.org/learning/singular-learning-theory/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "singular-learning-theory#14-bayesian-deep-learning"
-upstream_fingerprint: "7ku3QaWg7zN9/1076/1/07Yp09PU0JS80P3n0UVy0XyW0iuf16JC1C9v1ECL1GDq1Gpb1ON61T1J1bUg1ji81kFk1tEl20OB20Qq24ZH2AZr2BV32GDw2O8X2cpd2tYR31LA31xT35cU3Ni43ScJ"
+upstream_fingerprint: "7ku3QaWg7zN9/1081/1/07Yp09PU0JS80P3n0UVy0XyW0iuf16JC1C9v1ECL1GDq1Gpb1ON61T1J1bUg1ji81kFk1tEl20OB20Qq24ZH2AZr2BV32GDw2O8X2cpd2tYR31LA31xT35cU3Ni43ScJ"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/learning/singular-learning-theory/#14-bayesian-deep-learning"
@@ -29,19 +29,19 @@ Bayesian learning begins with a **prior** distribution $$\varphi \in \Delta({\ma
 **Definition 1.5 (Posterior distribution, partition function, free energy).** Given a data set of $$n$$ input–output pairs $$(x^{(1)}, y^{(1)}),$$ $$\ldots,$$ $$(x^{(n)}, y^{(n)}) \in {\mathcal{X}} \times {\mathcal{Y}}$$, Bayes' rule updates the prior into the **posterior distribution** $$\pi_{n} \in \Delta({\mathcal{W}})$$, a probability density on $${\mathcal{W}}$$ defined by
 
 $$
-\pi_{n}(w) = \frac{1}{Z_{n}}\varphi(w) \prod_{i=1}^{n}p(y^{(i)}\mid x^{(i)}, w)
+\pi_{n}(w) = \frac{1}{Z_{n}}\varphi(w) \prod_{i=1}^{n}p(y^{(i)}\mid x^{(i)}, w) \tag{13}
 $$
 
 where $$Z_{n} \in {\mathbb{R}}$$ is a normalising constant called the **partition function** (or **marginal likelihood** or **model evidence**),
 
 $$
-Z_{n} = \int_{{\mathcal{W}}}\varphi(w) \prod_{i=1}^{n}p(y^{(i)}\mid x^{(i)}, w)\, dw.
+Z_{n} = \int_{{\mathcal{W}}}\varphi(w) \prod_{i=1}^{n}p(y^{(i)}\mid x^{(i)}, w)\, dw. \tag{14}
 $$
 
 We often work with the **(Bayesian) free energy**, the negative log of the model evidence,
 
 $$
-F_{n} = -\log Z_{n}.
+F_{n} = -\log Z_{n}. \tag{15}
 $$
 
 :::
@@ -54,7 +54,7 @@ The partition function $$Z_{n}$$ is the marginal probability of observing the da
 **Exercise 1.6 (Bayesian posterior as a Gibbs distribution).** To interpret Bayesian inference in terms more similar to function approximation, we introduce a loss function based on the **negative log-likelihood**,
 
 $$
-\begin{aligned}L_{x,y}(w)&= -\log p(y \mid x, w), \\ L_{n}(w)&= -\frac{1}{n}\sum_{i=1}^{n}\log p(y^{(i)}\mid x^{(i)}, w).\end{aligned}
+\begin{aligned}L_{x,y}(w)&= -\log p(y \mid x, w), \quad\text{(16)}\\ L_{n}(w)&= -\frac{1}{n}\sum_{i=1}^{n}\log p(y^{(i)}\mid x^{(i)}, w).  \quad\text{(17)}\end{aligned}
 $$
 
 Here, $$p(y \mid x, w)$$ is the conditional density from the parameter–distribution map and $$(x^{(1)}, y^{(1)}),$$ $$\ldots,$$ $$(x^{(n)}, y^{(n)}) \in {\mathcal{X}} \times {\mathcal{Y}}$$ is a data set of $$n$$ examples. Show that
@@ -99,7 +99,7 @@ In preparation for exploring this connection between geometry and learning, we f
 **Definition 1.6 (Local partition function and local free energy).** Given a neighbourhood $${\mathcal{U}} \subseteq {\mathcal{W}}$$, the **local partition function** and **local free energy** are
 
 $$
-Z_{n}({\mathcal{U}}) = \int_{{\mathcal{U}}}\varphi(w) \prod_{i=1}^{n}p(y^{(i)}\mid x^{(i)}, w)\, dw, \qquad F_{n}({\mathcal{U}}) = -\log Z_{n}({\mathcal{U}}).
+Z_{n}({\mathcal{U}}) = \int_{{\mathcal{U}}}\varphi(w) \prod_{i=1}^{n}p(y^{(i)}\mid x^{(i)}, w)\, dw, \qquad F_{n}({\mathcal{U}}) = -\log Z_{n}({\mathcal{U}}). \tag{18}
 $$
 
 :::
