@@ -11,9 +11,9 @@ tags: [wip]
 content::
 \## This week works on feelings
 
-This week's techniques work on what goes on inside you: feelings in your body (Focusing), beliefs you flinch away from (Bucket Errors), stress (Againstness) and inner conflict (Internal Double Crux). The handbook's Focusing chapter warns that this kind of work can bring up more than you expect, especially the first time. So, before you start:
+This week's techniques work on what goes on inside you: feelings in your body (Focusing), beliefs you flinch away from (Bucket Errors), stress (Againstness) and inner conflict (Internal Double Crux). The handbook's Focusing chapter warns that Focusing can bring up more than you expect, especially the first time. So, before you start:
 
-- **You choose the material.** Each practice asks you to pick a bug from your list. Pick a small or medium one, at least the first time. "I keep putting off one email" works as well as anything deep. You never have to tell the tutor what a bug is about. A code word is enough, and the tutor will work with that.
+- **You choose the material.** Each practice asks you to pick a bug from your list. Pick a small or medium one, at least the first time. "I keep putting off one email" works as well as anything deep. You never have to tell the tutor what a bug is about. A code word is enough, and the tutor will work with that. If you take this course with a group, your navigator can read your conversations with the tutor, which is one more reason a code word is fine.
 - **You can stop at any point.** Stopping halfway, or skipping a practice, is a fine result. Tell the tutor and go on to the next part of the page.
 - **This is not therapy.** The tutor is an AI that asks questions. It is not a therapist, and neither is this course.
 - **Know where to stop.** Stop the exercise and do something calming if a practice starts to feel overwhelming, if old pain or trauma comes up, or if you are going through a hard time right now (grief, a crisis, strong anxiety or low mood). We think those belong with a friend, a doctor or a therapist, not with a course exercise.
