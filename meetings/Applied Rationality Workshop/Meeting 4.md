@@ -117,7 +117,7 @@ One or two people share what their group landed on.
 1\. Each person says their experiment for this unit (usually the comfort zone one), with the day and the time they will run it. If you have no time yet, pick one now and put it in your calendar.
 2\. The others each ask one question that would make the plan more concrete: where exactly, who will you tell, what will you do right afterwards?
 3\. What is your smaller fallback version, in case something makes you cancel?
-3\. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
+4\. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
 
 
 | Names | Your experiment + day and time |
