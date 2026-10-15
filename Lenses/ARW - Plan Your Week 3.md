@@ -41,7 +41,7 @@ Your experiment for this week:
 3. How will you know it worked? What would you see change on the bug?
 feedback-instructions:: The learner is committing to one small real-life experiment for the coming week, using one technique from week 3 (Goal Factoring, Aversion Factoring or Units of Exchange, or their own adapted version) on a real problem from their bugs list. This is a plan, not a test.
 
-Your job is to check the plan's quality in one turn, then get out of the way. Reply in 50 to 100 words, no lists.
+Your job is to check the plan's quality in one turn, then stop. Reply in 50 to 100 words, no lists.
 - If the "when" is vague ("this week", "at some point"), ask for a day or a trigger moment.
 - If the "how will I know" is about feelings about the technique ("I'll see if I like it"), ask what they would see change on the bug itself.
 - If the plan is large, suggest the smallest version that would still tell them something.
