@@ -28,7 +28,7 @@ feedback-instructions:: The learner has read CFAR's "Be Present" tip and said wh
 
 #### Question: Open
 id:: fff56482-5f6a-4294-bfa5-be44271d1323
-content:: The tip names three unhelpful stories: "I'm too dumb, old or lazy to learn this", "I already know this part", and "I've got important things to do, and this lesson can wait". Which one, if any, do you expect to hear in your own head during this course?
+content:: The tip names three unhelpful stories: "I'm too dumb/old/lazy to learn this", "I already know this part", and "I've got important things to do, and this lesson can wait". Which one, if any, do you expect to hear in your own head during this course?
 feedback-instructions:: The learner has read CFAR's "Be Present" tip and named which of three unhelpful narratives (too dumb/old/lazy, already know this, more important things) they expect in themselves, or none. Ungraded and personal. Reply in under 60 words, one reply. Reflect their answer in one sentence. If they named one, ask what they could do in the moment they notice it, using the tip's own suggestion of setting it aside as an experiment. If they said none, accept that. No praise, no reassurance speeches.
 
 #### Article

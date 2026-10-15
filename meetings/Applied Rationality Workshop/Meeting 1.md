@@ -115,7 +115,7 @@ One or two people share what their group landed on. Share how it went for you, n
 
 
 1. The people in this room are your accountability buddies for the rest of the course. Swap contact details in the table. Before each meeting, check in: did you finish, are you coming?
-2. Share the real-life experiment you planned on your ["Plan your week" page](https://staging.lensacademy.org/courses/applied-rationality-workshop/module/arw-m1-opening). None yet? Pick one small thing to try, such as your Room 3 thread.
+2. Share the real-life experiment you planned on "Plan your week", the last page of this unit. None yet? Pick one small thing to try, such as your Room 3 thread.
 3. The others ask: from 1 (not at all) to 10 (shocked), how surprised would you be if it didn't happen? Below 7: find one change together that raises the number.
 4. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
 
@@ -214,10 +214,10 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 **General, all rooms.** This is a workshop, not a reading discussion: the rooms work on people's own problems, using the bugs list and the Hamming question participants wrote this unit. Everything personal is opt-in. Nobody has to share anything, anyone can pass their turn, and "I'll bring a small bug" is always a full answer. Never push anyone to go deeper, and do not give your own advice on anyone's problem. Some people may not have finished the unit. Every room works from the doc alone, since everyone has bugs and problems whether or not they wrote them down.
 **Room 1, Getting to know each other.** Keep introductions to about thirty seconds each. Ask 3 is deliberately light: one harmless bug, so people see that everyone has them.
 **Back together after Room 1: introduce the Hamming circle (about 2 minutes).** In a calm, slow voice: (1) Richard Hamming asked scientists what the most important problems in their field were, and then why they were not working on them. A Hamming circle asks the same of your own life, and the group gives one person its full attention at a time. (2) The agreement: what is said in a room stays in that room, people share only what they choose, a smaller bug is always fine, and anyone can pass their turn. (3) Invite a short quiet moment (about 30 seconds, eyes closed if they like) to think of what they want to bring. Then open Room 2. Background: the CFAR handbook's version gives each person at least 20 minutes, in groups of about four, and was held on the next-to-last evening, partly so people had time to get to know each other a little. Today's 5-minute turns among near-strangers are a short first try, so keep the tone gentle and light. The handbook also says that in these circles it is often more helpful to understand what is going on than to leap toward solutions, which is why Room 2 is questions only.
-**Room 2, understand it first.** Groups of 3 work best here (about 5 minutes each). When you drop in, listen for advice-giving and gently redirect: "Questions only in this room. What would help you understand it better?" Good questions ask for a concrete example, what makes it sticky, or what would change if it were solved. If someone becomes upset, slow things down, let them choose whether to continue, and check in with them privately afterwards. If anyone seems in real crisis, take it out of the room and point them to appropriate support.
+**Room 2, understand it first.** Aim for groups of 3 here, so each person gets about 5 minutes. When you drop in, listen for advice-giving and gently redirect: "Questions only in this room. What would help you understand it better?" Good questions ask for a concrete example, what makes it sticky, or what would change if it were solved. If someone becomes upset, slow things down, let them choose whether to continue, and check in with them privately afterwards. If anyone seems in real crisis, take it out of the room and point them to appropriate support.
 **Back together after Rooms 2 and 3.** Ask people to share how the format felt or what they noticed, never another person's problem. Silence is fine.
 **Room 3, threads to pull.** The difference from Room 2: now the group offers, the focus person chooses. Listen for offers that turn into instructions ("you should...") and reframe them as options. The focus person can decline every thread, and that is a fine outcome.
-**Room 4, Buddies and your experiment.** In the whole-group slot before Room 4, explain accountability buddies (about a minute): (1) the people in your Room 4 become your accountability buddies for the course (if you are four or more, split into two groups), (2) swap contact details, (3) before each meeting, check in with each other: did you finish the unit, are you coming? Ask buddies to message each other today, so both know the channel works. Ask for contact details people will actually check. Anyone who prefers not to write them in the doc can swap them privately. Asks 2 and 3 are the unit's technique in its five-second form: the surprise rating is Murphyjitsu's "surprise-o-meter".
+**Room 4, Buddies and your experiment.** In the whole-group slot before Room 4, explain accountability buddies (about a minute): (1) the people in your Room 4 become your accountability buddies for the course (if you are four or more, split into two groups), (2) swap contact details, (3) before each meeting, check in with each other: did you finish the unit, are you coming? Ask buddies to message each other today, so both know the channel works. Ask for contact details people will actually check. Anyone who prefers not to write them in the doc can swap them privately. Ask 3 is the unit's technique in its five-second form: the surprise rating is Murphyjitsu's "surprise-o-meter".
 
 # Tab: Doing this meeting alone
 style:: plain
@@ -244,7 +244,7 @@ Write the thread you keep somewhere you will see it before your next session.
 
 ### Part 3: Your experiment (10 to 15 min)
 
-Paste this, with the experiment from the "Plan your week" page at the end of this unit:
+In the same chat, paste this, with the experiment from the "Plan your week" page at the end of this unit:
 
 > Before my next session I plan to [your experiment], on [day or trigger]. Ask me how surprised I would be, from 1 (not surprised) to 10 (shocked), if at my next session I report that it didn't happen. If I say less than 7, ask me for the most likely reason, and help me find one change that would head it off. Don't choose the experiment for me.
 
@@ -252,7 +252,7 @@ No experiment yet? Ask the tutor to help you pick one small thing from your bugs
 
 ### Part 4: Before you close (5 min)
 
-Write down the thread you kept and your experiment, with its day. Then tell one person in your life what you plan to try, or put a reminder in your calendar for the day after, to check whether it happened.
+Write down the thread you kept and your experiment, with its day. Then tell one person in your life what you plan to try, or put a reminder in your calendar for the day after your experiment, to check whether it happened.
 
 # Tab: Glossary
 style:: plain

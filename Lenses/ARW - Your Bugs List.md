@@ -87,7 +87,7 @@ feedback-instructions:: The learner has just read CFAR's Prompt 5, a long slow s
 content::
 \## Sharpen three bugs
 
-Some bugs on your list are probably vague, like "procrastination" or "my research isn't going well". A vague bug is hard to work on. A concrete one says when it happens, what exactly happens, and what you would like instead. "I open the draft, read the first paragraph, feel it is bad, and switch to email" is concrete enough to work on with a technique.
+Some bugs on your list are probably vague, like "procrastination" or "my research isn't going well". We find a vague bug hard to work on. A concrete one says when it happens, what exactly happens, and what you would like instead. "I open the draft, read the first paragraph, feel it is bad, and switch to email" is concrete enough to work on with a technique.
 
 Pick the three entries from your notes that feel most vague or most tangled, and paste them into the chat below. The tutor will ask you questions to make each one concrete. It will not tell you what your bugs are.
 

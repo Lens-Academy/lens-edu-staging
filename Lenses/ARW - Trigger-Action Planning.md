@@ -59,7 +59,7 @@ The question gives the TAP "When I have some free time in the evening, I'll read
 
 Score out of 100:
 - 35: Says the trigger is vague or hard to notice: "free time in the evening" is not a specific moment or event you would notice when it happens. Any wording with this idea gets full credit.
-- 35: Says the action is too big or effortful: reading a whole paper takes willpower and time, so it often won't happen. Any wording with this idea gets full credit. 15 if the answer only says the action leaves a decision open (which paper) without saying it is too big.
+- 35: Says the action is too big or effortful: reading a whole paper takes willpower and time, so it often won't happen. Any wording with this idea gets full credit. 15 if the answer only says the action leaves a decision open (which paper, how much) without saying it is too big or too long.
 - 30: The rewrite has both a concrete, noticeable trigger tied to a real moment in the friend's evening (for example "when I sit down on the sofa after dinner", "when I plug my phone in to charge") and a small action (for example "open the paper's PDF", "read the abstract", "ask myself whether tonight is a reading night"). A clock time alone ("at 8 pm") is not a noticeable event, unless something signals it, such as an alarm going off. 15 if only one of the two is fixed.
 
 Cap at 55 if the rewrite makes the action bigger or more demanding (for example "read two papers").

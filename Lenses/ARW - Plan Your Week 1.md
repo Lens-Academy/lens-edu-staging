@@ -17,7 +17,7 @@ This week you wrote your bugs list, named your Hamming question, and tried Murph
 - using the five-second version at the moment you named: :answer{id="604e32b4-c25e-46db-9cee-9e6df38d7b88" fallback="not named yet"}
 - one of the opening-session tips, such as trying something new as written before you change it
 
-Keep it small enough that you will actually do it. Next week starts by showing you this answer and asking what happened. A useful test of an experiment is whether it changes something on a real bug, not whether you enjoyed doing it. "It didn't work" or "I didn't do it" are useful answers next week, because they tell you what to change.
+Keep it small enough that you will actually do it. Next week starts by showing you this answer and asking what happened. As on the first page, judge an experiment by whether it changes something on a real bug, not by whether you enjoyed doing it. We think "It didn't work" or "I didn't do it" are useful answers next week too, because they tell you what to change.
 
 #### Question: Open
 id:: 1d770ec5-97f3-45ff-96ab-45bd51d89844

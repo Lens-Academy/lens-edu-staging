@@ -55,7 +55,7 @@ feedback-instructions:: The learner has worked through some of prompts 1 to 7 of
 content::
 \## Talk it through
 
-In a Hamming circle, a small group spends 20 minutes or more on one person's problem, and the handbook advises spending that time on what is going on before solutions: "It's often more helpful, in the Hamming circle context, to focus on understanding what's even going on than to try to leap aggressively toward solutions."[^cite-hamming-circle-2022] The tutor below works the same way. Tell it what you have so far. It will ask questions to help you see the problem more clearly. It will not pick a problem for you or tell you what to do about it.
+In a Hamming circle, a small group spends 20 minutes or more on one person's problem, and the handbook advises spending that time on understanding what is going on rather than leaping toward solutions.[^cite-hamming-circle-2022] The tutor below works the same way. Tell it what you have so far. It will ask questions to help you see the problem more clearly. It will not pick a problem for you or tell you what to do about it.
 
 [^cite-hamming-circle-2022]: CFAR!Duncan (2022), *Appendix: How to run a successful Hamming circle*. [LessWrong](https://www.lesswrong.com/posts/xAqRkrnjJTMZ6YmZA/appendix-how-to-run-a-successful-hamming-circle)
 
@@ -73,7 +73,7 @@ How to work, following CFAR's Hamming circle guidance:
 - Follow their lead on depth. If they say something heavy, slow down and let them choose whether to go further. They can bring something smaller instead. If they describe a crisis or a risk to their safety, say plainly that this is beyond what this exercise is for and encourage them to reach out to someone they trust or a professional.
 - If they say the Hamming question does not fit them (for example because no single problem stands out), ask what it misses for them and accept a reasoned answer. Their final answer can then be the two or three problems that matter most, or what gets in the way of all of them. Once they have said a single problem does not fit, do not ask them to rank their candidates. If nothing stands out right now, that is a valid answer too: ask what they want to keep in balance and what would most likely upset it, and do not keep searching for a problem.
 - Keep each reply under 90 words.
-- When they seem clearer, or after about six exchanges, ask them to say their problem (or problems) and what keeps them from it in one or two sentences. When they have, reply in one sentence that reflects it in their words and tells them to write it into the final box below. Ask nothing more.
+- When they seem clearer, or after about six exchanges, ask them to say their problem (or problems) and what keeps them from it in one or two sentences, or, if nothing single stands out, what they want to keep in balance and what would most likely upset it. When they have, reply in one sentence that reflects it in their words and tells them to write it into the final box below. Ask nothing more.
 
 #### Article
 from:: **Prompt 8: Final go**

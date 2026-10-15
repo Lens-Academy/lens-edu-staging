@@ -21,7 +21,7 @@ Go around your group. Share only what you want to, and "pass" is always fine.
 
 1. How was this unit? Did you finish it? If you didn't, what got in the way?
 2. At the end of the first unit you planned one small experiment in your real life. What actually happened? "I didn't do it" is a good answer: say what got in the way.
-3. If you still have time: which technique from this unit do you expect to still be using in a month? Why that one?
+3. If you still have time: this unit taught trigger-action plans, resolve cycles and systems. Which one do you most expect to still be using in a month?
 
 
 | Names | How the unit went + what happened with your experiment |
@@ -49,7 +49,7 @@ Take turns as bug owner, about 5 minutes each. A bug is something in your life t
 1. The owner names a bug that happens in a moment that comes back, like "I open my laptop to write and end up on Slack."
 2. The others ask about the last time, moment by moment, until you find where it went off track.
 3. The owner builds a trigger-action plan for that point: "When (something I'd clearly notice), I (one small step)." Then swap.
-4. If you still have time: one plan fired daily and nothing changed. Where did it fail: trigger, step, or after?
+4. If you still have time: imagine one owner's plan has changed nothing after two weeks. Likeliest reason: they never noticed the moment, they skipped the step, or the step didn't help?
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
@@ -79,10 +79,12 @@ One or two people share what their group landed on.
 
 A resolve cycle is a five-minute timer during which you try to actually solve a problem, not plan it: send the email, book the call, order the thing. Odd or "too easy" solutions count.
 
-1. Each person names, in one sentence, a problem they have put off for weeks. Small is fine.
-2. Start a five-minute timer. Everyone works on their own problem, for real. Mics off.
-3. Go around: what did you actually do? The others say whether it was an attempt or a plan.
-4. If you still have time: anyone still stuck says what blocked them. Together, list next steps of five minutes or less. The owner picks one and starts it before the room ends.
+Each of you: name, in one sentence, a problem you have put off for weeks. Small is fine, and you can pass.
+
+1. Start a five-minute timer. Everyone works on their own problem, for real. Mics off.
+2. Go around: what did you actually do? The others say whether it was an attempt or a plan.
+3. Anyone still stuck: the group lists next steps for them that take five minutes or less. The owner chooses one.
+4. If you still have time: the owner starts that step before the room ends.
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
@@ -109,10 +111,10 @@ One or two people share what their group landed on.
 
 One person at a time:
 
-1. Share the experiment you planned at the end of this unit: one technique, one bug. No plan yet? Pick one now.
+1. Share your experiment for the next unit: one technique from this unit (a trigger-action plan, a resolve cycle, or a system) on one bug. Use the one you planned at the end of the unit, or pick one now.
 2. The others imagine it is the next meeting and the experiment never happened. Each gives one likely reason why.
-3. Change one thing so that reason can't happen: a clearer trigger, a smaller step, or a change to your surroundings you make right now (a calendar entry, a reminder, moving an object).
-4. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
+3. Pick the reason that worries you most, and change one thing so it can't happen: a clearer trigger, a smaller step, or a change to your surroundings you make right now (a calendar entry, a reminder, moving an object).
+4. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
 
 
 | Names | Your experiment + the one thing you changed |
@@ -208,8 +210,8 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 
 **General, all rooms.** This course is a workshop on the participants' own problems, modelled on CFAR's applied rationality workshop. Everything personal is opt-in. Anyone can pick a smaller bug, or a made-up one, or pass, and nobody explains why. Never push for detail. The techniques are tools to try, adapt or drop: if someone says one doesn't work for them, ask what they noticed, and accept a reasoned no. Never use guilt, or the importance of AI safety, to push anyone. The course judges a technique by whether it changed something on a real problem, so in the Back together slots ask what happened, not whether people liked it.
 **Room 1, How did your experiment go?** Each participant planned one real-life experiment at the end of the last unit, with Murphyjitsu (imagine your plan failed and ask why), their bugs list, or their most important problem. An experiment that didn't happen is useful data, so treat "I didn't do it" as a full answer and ask what got in the way. Don't let the room turn into advice for one person: that is Room 2's job.
-**Room 2, Debugging together with a trigger-action plan.** With three people, each owner gets about 5 minutes. In a group of four, it is fine if only three get a turn. The unit taught trigger-action plans (TAPs) from the CFAR Handbook: pick a concrete trigger you would clearly notice (a sensation, a sight, a specific thought), not a time of day or a mood, and a small action that needs almost no willpower, often just a step that reminds you of the goal and lets you choose ("look at the stairs", not "take the stairs"). If you drop in, check two things: is the trigger something the owner would really notice, and is the action small enough to happen on a bad day? Partners should ask, not fix. If a group starts solving the owner's life for them, ask what the owner would do. If the trigger fires but the owner wouldn't want to act, that is a motivation problem, not a TAP problem: suggest they add it to their bugs list.
-**Room 3, Five minutes on a stuck problem.** The handbook's resolve cycle has three timers: try to solve it outright, list next actions of five minutes or less, then do one. Asks 1 to 3 run the first timer, each person on their own problem, for real (sending, booking, ordering, deciding), and ask 4 runs a group version of the second timer for whoever is stuck. The most common slip is spending the first timer making a plan: ask 3 is there so the group catches it, kindly. Odd or "too easy" solutions count: the handbook says the timer is a chance to stop censoring yourself. If someone has no problem they want to share, offer a neutral one ("I keep meaning to back up my laptop"). In ask 4, others' ideas are offers, and the owner chooses.
+**Room 2, Debugging together with a trigger-action plan.** With three people, each owner gets about 5 minutes. In a group of four, it is fine if only three get a turn. The unit taught trigger-action plans (TAPs) from the CFAR Handbook: pick a concrete trigger you would clearly notice (a sensation, a sight, a specific thought), not a time of day or a mood, and a small action that needs almost no willpower, often just a step that reminds you of the goal and lets you choose ("look at the stairs", not "take the stairs"). If you drop in, check two things: is the trigger something the owner would really notice, and is the action small enough to happen on a bad day? Partners should ask, not fix. If a group starts solving the owner's life for them, ask what the owner would do. If the trigger fires but the owner wouldn't want to act, the handbook says the problem is the action itself or an inner conflict, not the TAP: suggest they add it to their bugs list.
+**Room 3, Five minutes on a stuck problem.** The handbook's resolve cycle has three timers: try to solve it outright, list next actions of five minutes or less, then do one. Asks 1 and 2 run the first timer, each person on their own problem, for real (sending, booking, ordering, deciding), and asks 3 and 4 run a group version of the second and third timers for whoever is stuck. If someone spent the first timer making a plan, ask 2 is there so the group points it out, kindly. Odd or "too easy" solutions count: the handbook says the timer is a chance to stop censoring yourself. If someone has no problem they want to share, offer a neutral one ("I keep meaning to back up my laptop"). In ask 3, others' ideas are offers, and the owner chooses.
 **Room 4, Make your next experiment hard to miss.** Ask 2 is Murphyjitsu from the first unit, aimed at each person's plan. Ask 3 should end in a change to the plan or the person's surroundings, not a promise to try harder: a better trigger, a smaller step, a calendar reminder set during the room. Push for "set it up now" where possible. Leave about three minutes for ask 4.
 
 # Tab: Doing this meeting alone
@@ -217,7 +219,11 @@ style:: plain
 
 ## Doing this meeting alone
 
-You can do this meeting on your own in 45 to 60 minutes, with [Lens Tutor](https://lensacademy.org/tutor) as your partner. Open the tutor in a second tab. For each part, paste the text in quotes into the tutor, then follow it. Have a timer and something to write on.
+You can do this meeting on your own in 45 to 60 minutes, with [Lens Tutor](https://lensacademy.org/tutor) as your partner. Open the tutor in a second tab. Have a timer and something to write on, and keep an eye on the clock yourself: the tutor cannot.
+
+Start the chat by pasting: "I'm doing unit 2 of the Applied Rationality Workshop (based on the CFAR Handbook) on my own, and you are my partner. Ask one question at a time. If I bring up something heavy, slow down and let me choose whether to go further."
+
+Then, for each part, paste the text in quotes and follow it.
 
 ### Part 1: How did your experiment go? (10 min)
 
@@ -231,7 +237,7 @@ Paste: "Be my pair-debugging partner for a trigger-action plan. My bug is: (writ
 
 Say the finished plan out loud, then rehearse it ten times with your eyes closed.
 
-### Part 3: Five minutes on a stuck problem (15 min)
+### Part 3: Five minutes on a stuck problem (20 min)
 
 Pick a problem you have put off for weeks. Set a five-minute timer and try to actually solve it, not plan it: send the email, book the call, order the thing.
 
@@ -239,7 +245,7 @@ Then paste: "Be my resolve-cycle partner. My problem is: (write the problem here
 
 ### Part 4: Make your next experiment hard to miss (10 min)
 
-Paste: "Here is the experiment I plan for the next unit: (write your plan here). Imagine the next unit has started and my experiment never happened. Give me the most likely reason. After I answer with one change that would stop that, give me the next reason. Stop after three."
+Paste: "Here is the experiment I plan for the next unit: (paste what you wrote on the Plan your week page). Imagine the next unit has started and my experiment never happened. Give me the most likely reason. After I answer with one change that would stop that, give me the next reason. Stop after three."
 
 Before you close the tab, make any change you decided on: a calendar entry, a reminder, or moving an object to where you will see it.
 

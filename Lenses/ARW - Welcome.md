@@ -52,7 +52,7 @@ Two things from that introduction shape this course. The handbook was a suppleme
 
 Most technique posts start with an epistemic status: the handbook's own label for how well tested the technique is, from "Established and confirmed" to "Preliminary/tentative". We point these out where they matter. A technique with a weak label can still be worth trying, but trust it less until it has worked for you.
 
-The final call is yours. In 2025, Anna Salamon of CFAR wrote that it may help for the workshops to emphasise "remember the buck stops with you", and checking whether a practice is "producing fruits you directly feel good about".[^cite-salamon-2025] The techniques in this course are starting points, not rules. Try each one properly, as written, at least once. Then adapt it until it fits you, or drop it, and say why. The next page has the handbook's own advice on how to do that.
+The final call is yours. In 2025, Anna Salamon of CFAR wrote that the workshops' current emphasis on "remember the buck stops with you" may help keep alumni from getting pulled into cult-like groups.[^cite-salamon-2025] The techniques in this course are starting points, not rules. Try each one properly, as written, at least once. Then adapt it until it fits you, or drop it, and say why. The next page has the handbook's own advice on how to do that.
 
 [^cite-cfar-handbook-2021]: Center for Applied Rationality (2021), *Participant Handbook*, "How to use this book", pp. 4-6. [rationality.org (PDF)](https://www.rationality.org/files/CFAR_Handbook_2021-01.pdf)
 [^cite-salamon-2025]: Anna Salamon (2025), *CFAR's todo list re: our workshops*. [LessWrong](https://www.lesswrong.com/posts/77L6wyZqibxdGKd6e/cfar-s-todo-list-re-our-workshops)
