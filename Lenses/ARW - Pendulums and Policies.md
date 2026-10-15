@@ -9,7 +9,7 @@ tags: [wip]
 ---
 #### Text
 content::
-This post holds three flash classes. The middle one, policy-level decisions, is about choices you make again and again, and ends with a question you can turn into a short exercise.
+This post holds three flash classes. The middle one, policy-level decisions, is about choices you make again and again. It asks what policy you would follow every time the choice comes up, and the question below asks you to write one.
 
 #### Article
 source:: [[../articles/cfar-duncan-pendulums-policy-level-decisionmaking-saving-state]]
