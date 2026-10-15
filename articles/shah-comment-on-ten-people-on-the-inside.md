@@ -2,7 +2,7 @@
 title: "Comment on Ten people on the inside"
 author:
   - "Rohin Shah"
-source_url: "https://www.greaterwrong.com/posts/WSNnKcKCYAffcnrt2/ten-people-on-the-inside/comment/NHpqQodRJBaCjjvoB"
+source_url: "{--{"author":"James's AI","timestamp":1792057766631}@@https://www.greaterwrong.com/posts/WSNnKcKCYAffcnrt2/ten-people-on-the-inside/comment/NHpqQodRJBaCjjvoB--}{++{"author":"James's AI","timestamp":1792057766631}@@https://www.lesswrong.com/posts/WSNnKcKCYAffcnrt2/ten-people-on-the-inside?commentId=NHpqQodRJBaCjjvoB++}"
 published: 2025-01-30
 created: 2026-10-04
 accessed: 2026-10-04
