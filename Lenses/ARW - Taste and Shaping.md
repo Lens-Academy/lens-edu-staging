@@ -5,7 +5,7 @@ tldr: "Small, fast feelings of yuck and yum train your habits, and can train the
 summary_for_tutor: "Week 4 of the Applied Rationality Workshop. Teaches the CFAR Handbook's Taste & Shaping chapter: emotional valence (yuck and yum) on the steps toward a goal can mismatch the goal itself. A yuck can be read as a sign of an implicit model that the thing harms some goal. Because of hyperbolic discounting, tiny immediate feelings shape behaviour strongly, and they reinforce whatever happened just before them (punishing yourself on noticing a mistake trains you to stop noticing). The fix is to resolve the model conflict truthfully (the parking ticket as a rebate) and to reward the direction of change. The last section is on taste: an expert's fast gut sense, worth evaluating by its training data. The chapter has no algorithm. The learner predicts the model's verdict on three cases, evaluates one of their own gut reactions, then works on a yucky step from their bugs list with the tutor."
 tags: [wip]
 reading_minutes: 22
-tutor_minutes: 26
+tutor_minutes: 28
 min_chat_messages: 4
 ---
 #### Text
