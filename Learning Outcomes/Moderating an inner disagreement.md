@@ -26,11 +26,11 @@ assessment-instructions:: The question shows Ana's written Internal Double Crux 
 
 Score out of 100.
 
-20: Says the names take sides ("Distracted" is a put-down, so the moderator is on Committed's team).
+15: Says the names take sides ("Distracted" is a put-down, so the moderator is on Committed's team).
 
-20: Names the rule breaks in Committed's second turn: the acknowledgement is perfunctory ("fair enough, but") rather than a real grain of truth, and it makes several points at once instead of one. Give 20 for both, 10 for one.
+15: Names the turn-rule breaks: an acknowledgement skipped (Distracted's first reply has none) or perfunctory (Committed's "fair enough, but"), and several points in one turn (Committed's second turn). Give 15 for an acknowledgement problem plus the several-points problem, 8 for one of them.
 
-30: Says the "resolution" is one side overruling the other, not a resolution: Distracted's concerns (exhaustion, friendships) were never answered, and Distracted gave in rather than updated. Credit any answer that says the result looks like Ana talking herself into the conclusion she already favoured, or that a four-line win for the "should" side is a warning sign rather than a success. Give 15 if the answer only says it went too fast, without saying that one side was overruled.
+40: Says the "resolution" is one side overruling the other, not a resolution: Distracted's concerns (exhaustion, friendships) were never answered, and Distracted gave in rather than updated. Credit any answer that says the result looks like Ana talking herself into the conclusion she already favoured, or that a four-line win for the "should" side is a warning sign rather than a success. Give 15 if the answer only says it went too fast, without saying that one side was overruled.
 
 30: The rewrite gives both sides fair names (for example "Make a difference on AI" and "Rest and keep my friendships") and two new lines, replacing Committed's second turn and Distracted's reply, that follow the format: a real acknowledgement followed by one point. Typically the first new line genuinely acknowledges the exhaustion or the friendships and adds one point, and the second new line acknowledges something true in that and adds one point of its own. Give 15 for fair names with lines that don't follow the acknowledge-then-one-point format, or for good lines with names that still take sides.
 
