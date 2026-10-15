@@ -35,7 +35,7 @@ to:: Johnny has 12 apples. He wants to make gift bags that each contain 4 apples
 
 #### Question: Open
 id:: 0cf0a540-dee7-413d-b47e-859734558d6a
-content:: Children who learned division as "share the apples equally into piles" often get stuck on this second problem. Before you read on: what do you think goes wrong in their heads?
+content:: The post says that children who learned division as "share the apples equally into piles" often get stuck on this second problem. Before you read on: what do you think goes wrong in their heads?
 feedback-instructions:: The learner is predicting, before reading on, why children who learned division as equal sharing get stuck on a problem that asks how many bags of 4 apples can be made from 12. Ungraded. Reply in one or two sentences, one turn. Do not give the answer or say whether they are right. Tell them the post explains it next.
 
 #### Article
