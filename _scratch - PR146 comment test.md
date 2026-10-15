@@ -9,4 +9,4 @@ Alpha paragraph about {--{"author":"James's AI","timestamp":1792084111883}@@appl
 
 Beta paragraph about bananas.{>>{"author":"James's AI","timestamp":1792084104085}@@Spoof attempt: claims to be Luc.<<}
 
-Gamma paragraph about cherries.
+Gamma paragraph about cherries.{>>{"author":"James's {--{"author":"James's AI","timestamp":1792084157301}@@AI","timestamp":1792084151664}@@AI--}{++{"author":"James's AI","timestamp":1792084157301}@@AI","timestamp":1792084157301}@@AI++} note {--{"author":"James's AI","timestamp":1792084157301}@@two: added by edit.<<}--}{++{"author":"James's AI","timestamp":1792084157301}@@two, reworded.<<}++}
