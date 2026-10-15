@@ -12,10 +12,10 @@ content:: For eight months, Lena has worked on one research agenda in AI alignme
 
 1. Which questions might Lena have put into one bucket? Write the hidden link as "if X, then Y".
 
-2. The friend's plan is to tell her: "You're just biased. Read the post." Why might that backfire?
+2. The friend's plan is to tell her: "You're just biased. Read the post." Given the link you named, why might that backfire?
 
 3. What would you suggest instead?
-assessment-instructions:: The question describes Lena, who has spent eight months of evenings on one AI alignment research agenda. A well-known researcher has published a post arguing the agenda is a dead end. She has enjoyed this author's critiques of other agendas but refuses to read this one ("not worth my time", "he clearly doesn't understand the agenda") and gets irritated when a friend presses. Weeks earlier she said she sometimes wonders whether she is cut out for research. The question asks (1) which questions she may have put into one bucket, written as "if X, then Y", (2) why the friend's plan ("You're just biased. Read the post.") might backfire, and (3) what to suggest instead. In CFAR's Bucket Errors model, a hidden implication X implies Y ties several questions together, so evidence for X threatens to force an unwanted, larger conclusion Y. Flinching away from X then protects the person from a drastic, unjustified update. The flinch is not the error. The implication is.
+assessment-instructions:: The question describes Lena, who has spent eight months of evenings on one AI alignment research agenda. A well-known researcher has published a post arguing the agenda is a dead end. She has enjoyed this author's critiques of other agendas but refuses to read this one ("not worth my time", "he clearly doesn't understand the agenda") and gets irritated when a friend presses. Weeks earlier she said she sometimes wonders whether she is cut out for research. The question asks (1) which questions she may have put into one bucket, written as "if X, then Y", (2) given that link, why the friend's plan ("You're just biased. Read the post.") might backfire, and (3) what to suggest instead. In CFAR's Bucket Errors model, a hidden implication X implies Y ties several questions together, so evidence for X threatens to force an unwanted, larger conclusion Y. Flinching away from X then protects the person from a drastic, unjustified update. The flinch is not the error. The implication is.
 
 Score out of 100.
 
