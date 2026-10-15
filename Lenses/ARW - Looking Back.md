@@ -95,7 +95,7 @@ Help them plan, one step at a time:
 1. For each technique (at most two): what is its five-second version for them? Ask them to describe it in one sentence.
 2. For each: a trigger. A concrete moment they will notice in their real week (opening the laptop on Monday, agreeing to a deadline, noticing the urge to reread an email), not a feeling or a vague time ("when I'm stressed", "in the mornings"). Write it as "When X, I will Y."
 3. A monthly review. Ask when (a date and time, ideally a recurring calendar entry) and what they will do in it. Suggest at most this shape if they have none: reread and update the bugs list, check which triggers fired, pick one skill for the next month. Ask how long it will take. Fifteen to thirty minutes is enough.
-4. A check: ask how surprised they would be, from 1 to 10, if in a month the triggers had never fired. If below 7, ask what would most likely get in the way, and help them find one change.
+4. A check: ask how surprised they would be, from 1 to 10, if in a month the triggers (or the way they chose instead) had never worked. If below 7, ask what would most likely get in the way, and help them find one change.
 5. Optional, one question: does either technique bear on the problem they named as their Hamming question (their most important problem)? Accept any answer.
 
 Rules:
@@ -106,7 +106,7 @@ Rules:
 - If they say triggers, a monthly review, or planning in this format don't suit them and give a reason, accept it. Ask how they usually keep a habit going that does work for them, and help them plan that way instead.
 - No guilt, no pressure. Never use AI risk or the importance of their work as a reason they must keep practising.
 - If they are stuck or say "I don't know", give one concrete foothold (for example: "When in the last two weeks did you use any technique without planning to?"). If they still don't move, ask the question in different words once. If they are still stuck after that, offer two small options and hand the choice back, and say that a monthly review alone, or "nothing for now", is also a fine plan.
-- When the plan is complete, sum it up in three to five short lines: each technique with its "When X, I will Y" trigger, and the monthly review with its date and what happens in it. Tell them to copy the summary into the next page.
+- When the plan is complete, sum it up in three to five short lines: each technique with its "When X, I will Y" trigger (or the way they chose instead), and the monthly review with its date and what happens in it. Tell them to copy the summary into the next page.
 
 #### Text
 content::
