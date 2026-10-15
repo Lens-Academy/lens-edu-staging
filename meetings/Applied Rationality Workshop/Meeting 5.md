@@ -85,8 +85,8 @@ Pick a shared example, not your own:
 - "I should reply to that email today" vs. putting it off
 - "I should go to the gym" vs. staying on the couch
 
-1\. Rename both sides fairly ("putting it off" already takes a side). Two people voice one side each, one moderates, and a fourth watches for one side giving in.
-2\. Run six turns in total, "should" side first: one thing the other side misses. Each later turn: one true thing in the last point, then one new point. The moderator stops rule breaks.
+1\. Rename both sides fairly ("putting it off" already takes a side). Two people voice one side each. The third moderates and watches for one side giving in. In a room of four, the fourth person watches.
+2\. Run six turns in total. The "should" side starts with one thing the other side misses. Each later turn: one true thing in the last point, then one new point. The moderator stops rule breaks.
 3\. If one side gave in: was its worry addressed (answered), or did it just lose (overruled)?
 4\. If you still have time: swap roles, other side first. Same winner?
 

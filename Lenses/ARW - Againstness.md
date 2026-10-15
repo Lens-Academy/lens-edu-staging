@@ -1,7 +1,7 @@
 ---
 id: 'b144d1c7-ae62-4437-a98b-728bf78c1d7d'
 title: "Againstness"
-tldr: "Under some kinds of stress you think worse and feel sure you are thinking fine. The CFAR Handbook argues that your body shows the stress more reliably than your sense of clarity, and that calming your body can help you think clearly again."
+tldr: "The CFAR Handbook argues that under some kinds of stress you think worse while feeling sure you are thinking fine, that your body shows the stress more reliably than your sense of clarity, and that calming your body can help you think clearly again."
 summary_for_tutor: "Week 5 of the Applied Rationality Workshop. Teaches the CFAR Handbook's Againstness (epistemic status Mixed): under some stress, parts of our thinking shut down, and the ability to notice that is among the first things lost, so introspection is unreliable (the four-beers driver). The autonomic nervous system has an accelerator (sympathetic, SNS: fight, flight or freeze, also excitement) and brakes (parasympathetic, PSNS: rest, calm). The body gives an outside measure of where you are, and changing the body changes the mind. Steps: notice SNS arousal (ideally via a TAP), open your posture, take a low slow deep breath with a longer exhale, remember your feet and widen awareness to the whole body, breathe again. Final section: metacognitive blind spots. When everyone around you sounds wrong, stupid, malicious or crazy, consider that it may be you, and judge yourself by the outside criteria you would use on someone else. The learner tries the steps right away, then designs a TAP for a stress moment from their own bugs list with the tutor, and writes a five-second version."
 reading_minutes: 10
 tutor_minutes: 20
