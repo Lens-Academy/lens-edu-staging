@@ -25,7 +25,7 @@ A technique you practised once in a lens is not yet a technique you use. The tes
 
 A good experiment is small enough that you will actually do it, and specific about when. It also says what you would see if it worked: a task done, an hour back, a conversation had, a feeling that changed. Next week opens by asking what happened, so plan something you can report on.
 
-The techniques are starting points. If one didn't fit you, you can adapt it, or test a version of your own. Anna Salamon, one of CFAR's founders, advises judging a technique for yourself: "remember the buck stops with you; check whether it is producing fruits you directly feel good about".[^cite-salamon-2025]
+The techniques are starting points. If one didn't fit you, you can adapt it, or test a version of your own. Anna Salamon, one of CFAR's founders, advises remembering that the buck stops with you, and to "check whether it is producing fruits you directly feel good about".[^cite-salamon-2025]
 
 [^cite-salamon-2025]: Anna Salamon (2025), *CFAR's todo list re: our workshops*. [LessWrong](https://www.lesswrong.com/posts/77L6wyZqibxdGKd6e/cfar-s-todo-list-re-our-workshops)
 
