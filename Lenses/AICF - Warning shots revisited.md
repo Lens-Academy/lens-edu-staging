@@ -31,20 +31,6 @@ Kulveit replied the next day. He quotes parts of Greenblatt's comment and answer
 
 #### Article
 source:: [[../articles/kulveit-comment-on-ai-control-may-increase-existential-risk-comment]]
-from:: I do understand this line of reasoning, but yes, my intuition differs.
-to:: as opposed to some individual companies fixing the issues and some not.
-
-#### Article
-from:: Next, my guess is that invisible power seeking is much harder than visible power seeking
-to:: I prefer these to be caused by less smart systems.
-
-#### Article
-from:: Crux is probably in: who the ‘we’ is, and details of ‘we caught’ means.
-to:: I’m more optimistic about these.
-
-#### Article
-from:: My guesses where our intuitions differ the most
-to:: and it seems plausible it is the more important one.)
 
 #### Question: Open
 id:: 1a9377ad-2256-4478-b63c-0d30e26a47bc
