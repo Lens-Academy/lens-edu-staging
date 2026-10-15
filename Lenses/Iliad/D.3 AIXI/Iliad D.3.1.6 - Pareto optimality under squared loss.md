@@ -7,9 +7,9 @@ authors:
   - David Quarel (ARENA)
   - Leon Lang (Iliad)
 source_url: https://iliad-intensive.org/agency/solomonoff-induction/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "solomonoff-induction#8-pareto-optimality-under-squared-loss"
-upstream_fingerprint: "6raiatWdd/834/1/089Y0ADg0WUp0nP00rDA17sh1Dr11QXz20c524ZH2GNx2KPz2YC53SL73W7B3mqB3w743wmV4AE84AJU4PbR4Rnr4fQt4pE54uIc5WZS5acb6KpB6Q4h6kQW6rgI6ul0"
+upstream_fingerprint: "6raiatWdd/835/1/089Y0ADg0WUp0nP00rDA17sh1Dr11QXz20c524ZH2GNx2KPz2YC53SL73W7B3mqB3w743wmV4AE84AJU4PbR4Rnr4fQt4pE54uIc5WZS5acb6KpB6Q4h6kQW6rgI6ul0"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/agency/solomonoff-induction/#8-pareto-optimality-under-squared-loss"
@@ -86,7 +86,7 @@ Multiply the assumed inequality by $$w_{\nu} \geq 0$$ and sum over $$\nu$$; then
 Multiply the assumed inequality by $$w_{\nu} \geq 0$$ and sum over $$\nu \in {\mathcal{M}}$$:
 
 $$
-\sum_{\nu} w_{\nu}\,S_{n}(\nu \parallel \rho)~\leq~ \sum_{\nu} w_{\nu}\,S_{n}(\nu \parallel \xi).
+\sum_{\nu} w_{\nu}\,S_{n}(\nu \parallel \rho)~\leq~ \sum_{\nu} w_{\nu}\,S_{n}(\nu \parallel \xi). \tag{4}
 $$
 
 Now bridge to the per-history Pythagorean. At each *fixed* history $$x_{<t}\in \mathbb{B}^{t-1}$$ and symbol $$x_{t} \in \mathbb{B}$$, the identity says

@@ -7,9 +7,9 @@ authors:
   - David Quarel (ARENA)
   - Leon Lang (Iliad)
 source_url: https://iliad-intensive.org/agency/solomonoff-induction/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "solomonoff-induction#6-pareto-optimality-under-kl-loss"
-upstream_fingerprint: "aFwD3VmEfavzH3A/806/1/0SNn0UVy11KF16Jm19d11C601Xw41h1x1mZv1uUt1uyv20cJ29v12ALv2BZq2O8X2bBO2q6J2r4e30PP3Dpa3FGN3GxA3L4r3fXB3h9w4Cly4Gnk4VIz4Yto4cfx4i5z"
+upstream_fingerprint: "aFwD3VmEfavzH3A/807/1/0SNn0UVy11KF16Jm19d11C601Xw41h1x1mZv1uUt1uyv20cJ29v12ALv2BZq2O8X2bBO2q6J2r4e30PP3Dpa3FGN3GxA3L4r3fXB3h9w4Cly4Gnk4VIz4Yto4cfx4i5z"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/agency/solomonoff-induction/#6-pareto-optimality-under-kl-loss"
@@ -88,7 +88,7 @@ Multiply the assumed inequality by $$w_{\nu} \geq 0$$ and sum over $$\nu \in {\m
 Multiply the assumed inequality by $$w_{\nu} \geq 0$$ and sum over $$\nu \in {\mathcal{M}}$$:
 
 $$
-\sum_{\nu} w_{\nu}\, D_{n}(\nu \parallel \rho) ~\leq~ \sum_{\nu} w_{\nu}\, D_{n}(\nu \parallel \xi).
+\sum_{\nu} w_{\nu}\, D_{n}(\nu \parallel \rho) ~\leq~ \sum_{\nu} w_{\nu}\, D_{n}(\nu \parallel \xi). \tag{3}
 $$
 
 The KL Pythagorean identity rewrites the LHS as

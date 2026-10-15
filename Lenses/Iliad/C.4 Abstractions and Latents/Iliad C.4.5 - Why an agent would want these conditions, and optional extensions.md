@@ -6,9 +6,9 @@ summary_for_tutor: "This is Sections 2.4-2.6 of Iliad worksheet C.4 Condensation
 authors:
   - Satya Benson
 source_url: https://iliad-intensive.org/interpretability/condensation/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "condensation#24-why-an-agent-would-want-these-conditions"
-upstream_fingerprint: "bpuHk4vcl3oy6sAnED/1967/1/060M06Dj08mh0BvF0I7y0QVA0RNy0S3b0Su10VR30dOu0efD0f2I0gWk0i4Z0oCx0v6G0xJk0xTt0zG614xL17UO17rm1AgT1OuX1PFJ1Pzm1QOJ1Wj91gMq1h1x1ngv"
+upstream_fingerprint: "bpuHk4vcl3oy6sAnED/1969/1/060M06Dj08mh0BvF0I7y0QVA0RNy0S3b0Su10VR30dOu0efD0f2I0gWk0i4Z0oCx0v6G0xJk0xTt0zG614xL17UO17rm1AgT1OuX1PFJ1Pzm1QOJ1Wj91gMq1h1x1ngv"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/interpretability/condensation/#24-why-an-agent-would-want-these-conditions"
@@ -29,7 +29,7 @@ $$
 Every strict superset of an address meeting $$B$$ also meets $$B$$, so the conditioning is available when reading in reverse inclusion order. Put $$V_{B}=\chi(B)-H(Y_{\mathcal{J}_B})$$. Then
 
 $$
-\chi(B)-H(X_{B})=V_{B}+H(Y_{\mathcal{J}_B}\mid X_{B}),\qquad V_{B}\ge0.
+\chi(B)-H(X_{B})=V_{B}+H(Y_{\mathcal{J}_B}\mid X_{B}),\qquad V_{B}\ge0.  \tag{5}
 $$
 
 The second term charges latent information not recoverable from $$X_{B}$$. The first charges dependence not accounted for by the inclusion hierarchy. It vanishes under the Markov condition. Exercise 2.12 proves the decomposition.
@@ -41,7 +41,7 @@ An agent that answers queries about a block $$B$$ pays $$\chi(B)$$, and no laten
 **Markov: local inference.**  The Markov term also has a reading that does not mention description length. Once the more general concepts are known, a concept should bear only on the observations in its own scope:
 
 $$
-I\bigl(Y_{A};X_{I\setminus A}\mid Y_{{\mathord{\supseteq}} A\setminus\{A\}}\bigr)=0 \qquad\text{for every }A\in{\mathcal{P}^{+}(I)}.
+I\bigl(Y_{A};X_{I\setminus A}\mid Y_{{\mathord{\supseteq}} A\setminus\{A\}}\bigr)=0 \qquad\text{for every }A\in{\mathcal{P}^{+}(I)}.  \tag{6}
 $$
 
 Then when the agent learns or revises something about the concept at $$A$$, it never has to revise its beliefs about observations outside $$A$$, except through $$A$$'s more general context. Given LVM and reconstruction, (6) holds for every address exactly when the Markov condition does.

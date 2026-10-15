@@ -7,9 +7,9 @@ authors:
   - David Quarel (ARENA)
   - Leon Lang (Iliad)
 source_url: https://iliad-intensive.org/agency/solomonoff-induction/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "solomonoff-induction#1-the-mixture-is-a-predictor"
-upstream_fingerprint: "QhU0gvK79aFeLPE/968/1/0ESb0QX80VI20rDA10d11Ewn1HJi1QXz1Rr11bMU1bTX2kkb2tYR34lB3Dpa3OrN3jQv3wmV40fx4bCZ58Lt5FzY5P9n5QvD5SBv5T0y5TY45dpc5u8W61sB6EZm6EnC"
+upstream_fingerprint: "QhU0gvK79aFeLPE/969/1/0ESb0QX80VI20rDA10d11Ewn1HJi1QXz1Rr11bMU1bTX2kkb2tYR34lB3Dpa3OrN3jQv3wmV40fx4bCZ58Lt5FzY5P9n5QvD5SBv5T0y5TY45dpc5u8W61sB6EZm6EnC"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/agency/solomonoff-induction/#1-the-mixture-is-a-predictor"
@@ -42,7 +42,7 @@ The unconditional joint is defined as $$\nu(x_{1:n}) := \nu(x_{1:n}\mid \epsilon
 **Definition 1.2 (Bayesian mixture $$\xi$$).** Let $${\mathcal{M}} = \{\nu_{1}, \nu_{2}, \dots\}$$ be a countable class of environments with prior weights $$w_{\nu} > 0$$ satisfying $$\sum_{\nu \in {\mathcal{M}}}w_{\nu} = 1$$. The **Bayesian mixture** is defined as a prior-weighted mixture over all environments $$\nu$$ in $${\mathcal{M}}$$:
 
 $$
-\xi(x_{1:t}) ~:=~ \sum_{\nu \in {\mathcal{M}}}w_{\nu}\, \nu(x_{1:t}).
+\xi(x_{1:t}) ~:=~ \sum_{\nu \in {\mathcal{M}}}w_{\nu}\, \nu(x_{1:t}). \tag{2}
 $$
 
 Its one-step predictive distribution is

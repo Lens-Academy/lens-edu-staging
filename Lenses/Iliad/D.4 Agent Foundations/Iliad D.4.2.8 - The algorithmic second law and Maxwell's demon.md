@@ -7,9 +7,9 @@ authors:
   - Daniel C
   - Satya Benson (Williams College)
 source_url: https://iliad-intensive.org/agency/optimization-thermodynamics/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: 'bc031bbf73bb87bf1e81b2fdb8f20f053bd11da1'
 upstream_key: "optimization-thermodynamics#73-the-algorithmic-second-law"
-upstream_fingerprint: "TTgOW2/1677/1/03BW05Ck066R09yH0GkS0HTq0JYA0LO50NHl0Obr0Q0e0Qwe0RNK0Ury0Y3L0ZwJ0f2I0g9X0tHp0tgu0wZS11TE1ChR1Gjr1IhF1J7m1Rxh1YRT1ej11fhY1jO31lcN"
+upstream_fingerprint: "TTgOW2/1678/1/03BW05Ck066R09yH0GkS0HTq0JYA0LO50NHl0Obr0Q0e0Qwe0RNK0Ury0Y3L0ZwJ0f2I0g9X0tHp0tgu0wZS11TE1ChR1Gjr1IhF1J7m1Rxh1YRT1ej11fhY1jO31lcN"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/agency/optimization-thermodynamics/#73-the-algorithmic-second-law"
@@ -104,7 +104,7 @@ $$
 where the final step uses the nonnegativity of algorithmic mutual information. Rearranging yields
 
 $$
-\boxed{\;K(x) - K(y) \;\mathrel{\stackrel{+}{<}}\; I\big(m(x) : x\big).\;}
+\boxed{\;K(x) - K(y) \;\mathrel{\stackrel{+}{<}}\; I\big(m(x) : x\big).\;} \tag{1}
 $$
 
 That is, *the gas can lose at most as much entropy as was measured from it*. The budget is, moreover, exactly achievable: if the demon expends its correlation completely and reversibly (so that $$K(m(x), x) \mathrel{\stackrel{+}{=}} K(m(x), y)$$, with no entropy produced, and $$I(m(x) : y) \mathrel{\stackrel{+}{=}} 0$$, with no correlation left unspent), then the displayed inequalities collapse to
