@@ -2,7 +2,7 @@
 title: "Comment on AI Control May Increase Existential Risk"
 author:
   - "Ryan Greenblatt"
-source_url: "{--{"author":"James's AI","timestamp":1792057695155}@@https://www.greaterwrong.com/posts/rZcyemEpBHgb2hqLP/ai-control-may-increase-existential-risk/comment/jChY95BeDeptDpnZK--}{++{"author":"James's AI","timestamp":1792057695155}@@https://www.lesswrong.com/posts/rZcyemEpBHgb2hqLP/ai-control-may-increase-existential-risk?commentId=jChY95BeDeptDpnZK++}"
+source_url: "https://www.lesswrong.com/posts/rZcyemEpBHgb2hqLP/ai-control-may-increase-existential-risk?commentId=jChY95BeDeptDpnZK"
 published: 2025-03-11
 created: 2026-10-04
 accessed: 2026-10-04
@@ -43,7 +43,7 @@ Perhaps you have in mind cases where the AI does something which isn’t part of
 
 I think most of the effective strategies for AIs seeking power don’t involve escalating to something which is much more likely to trigger a strong response than “the AI company caught the AI trying to escape”. I think the best strategies are things like:
 
--   Launch a [rogue internal deployment]({--{"author":"James's AI","timestamp":1792057698486}@@https://www.greaterwrong.com/posts/ceBpLHJDdCt3xfEok/ai-catastrophes-and-rogue-deployments--}{++{"author":"James's AI","timestamp":1792057698486}@@https://www.lesswrong.com/posts/ceBpLHJDdCt3xfEok/ai-catastrophes-and-rogue-deployments++}).
+-   Launch a [rogue internal deployment](https://www.lesswrong.com/posts/ceBpLHJDdCt3xfEok/ai-catastrophes-and-rogue-deployments).
 
 -   Sabotage a bunch of work done at the AI company. Or possibly some work done externally. This includes stuff like sabotaging alignment work, backdooring robot armies, backdooring future training runs, etc.
 
@@ -57,4 +57,4 @@ Part of my model here is that I think AIs escaping and killing a bunch of people
 
 ---
 
-Beyond getting evidence for risk, my view is that control does just save some worlds where alignment was non-trivial. For instance, it prevents AIs from causing huge problems that _wouldn’t_ get caught and trigger a strong response. E.g., if your AI has a rogue internal deployment with escalated permissions and the ability to use a huge fraction of compute, you’re in big trouble and your ongoing alignment research won’t be able to bail you out. If you don’t prevent these problems, then various hopes you might have are blocked by this. Additionally, I think it’s plausible we can get a bunch of useful alignment work out from scheming AIs, can prolong the regime where we have controlled scheming AIs for long enough that something good can happen, or can catch AIs enough times that we are able to (e.g.) [better understand and resolve our misalignment problems]({--{"author":"James's AI","timestamp":1792057702696}@@https://www.greaterwrong.com/posts/i2nmBfCXnadeGmhzW/catching-ais-red-handed#Few_shot_catastrophe_prevention--}{++{"author":"James's AI","timestamp":1792057702696}@@https://www.lesswrong.com/posts/i2nmBfCXnadeGmhzW/catching-ais-red-handed#Few_shot_catastrophe_prevention++}). If I thought the only upside to control was producing evidence for risk, I’d be substantially less excited about it.
+Beyond getting evidence for risk, my view is that control does just save some worlds where alignment was non-trivial. For instance, it prevents AIs from causing huge problems that _wouldn’t_ get caught and trigger a strong response. E.g., if your AI has a rogue internal deployment with escalated permissions and the ability to use a huge fraction of compute, you’re in big trouble and your ongoing alignment research won’t be able to bail you out. If you don’t prevent these problems, then various hopes you might have are blocked by this. Additionally, I think it’s plausible we can get a bunch of useful alignment work out from scheming AIs, can prolong the regime where we have controlled scheming AIs for long enough that something good can happen, or can catch AIs enough times that we are able to (e.g.) [better understand and resolve our misalignment problems](https://www.lesswrong.com/posts/i2nmBfCXnadeGmhzW/catching-ais-red-handed#Few_shot_catastrophe_prevention). If I thought the only upside to control was producing evidence for risk, I’d be substantially less excited about it.
