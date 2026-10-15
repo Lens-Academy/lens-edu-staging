@@ -44,9 +44,10 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Take turns as bug owner, about 5 minutes each. A bug is something in your life that keeps going the way you don't want. Pick a small one you're happy to share. The others ask questions, and the owner picks the plan.
+Take turns as bug owner, about 5 minutes each. A bug is something in your life that keeps going the way you don't want. Pick a small one you're happy to share.
 
 1. The owner names a bug that happens in a moment that comes back, like "I open my laptop to write and end up on Slack."
+2. The others ask about the last time, moment by moment, until you find where it went off track.
 3. The owner builds a trigger-action plan for that point: "When (something I'd clearly notice), I (one small step)." Then swap.
 4. If you still have time: one plan fired daily and nothing changed. Where did it fail: trigger, step, or after?
 
