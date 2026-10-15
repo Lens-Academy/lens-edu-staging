@@ -2,7 +2,7 @@
 id: 'c7b71245-8a97-456a-be01-9c5abfa933ca'
 learning-outcome: "Given someone about to act or decide while stressed, recognise signs of stress-narrowed thinking in their own description, explain why their feeling of clarity is not good evidence that they are thinking clearly, and propose concrete next steps that shift the body toward calm and add an outside check before anything hard to undo."
 tags: [wip]
-writing_minutes: 8
+writing_minutes: 10
 ---
 ## Test:
 id:: 82c3dbaa-9d41-4832-9735-55115c97fb3d
@@ -25,7 +25,7 @@ Score out of 100.
 
 30: Explains why his feeling of calm and clarity is not good evidence: stress impairs the very ability to notice that one's thinking is impaired, so his own sense of clarity is what stress would also produce. An analogy such as the drunk driver who feels fine counts. Give 15 if the answer only says he is probably not calm, without saying why his self-report cannot settle it.
 
-40: Concrete next steps of two kinds. (a) 20: something that shifts his body toward calm, such as noticing the signals, opening his posture, slow deep breaths with a longer exhale, attention on his feet or body, or a walk or sleep. (b) 20: holding off on the actions that are hard to undo (the email, the public thread, the decision to quit) until he is calm, or getting an outside check before them, such as asking the friend, sleeping on it, or judging himself by the criteria he would use on someone else. Give 10 instead of 20 for either kind if it stays vague ("calm down", "think it over").
+40: Concrete next steps of two kinds. (a) 20: something that shifts his body toward calm, such as noticing the signals, opening his posture, slow deep breaths with a longer exhale, attention on his feet or body, or a walk or sleep. (b) 20: holding off on the actions that are hard to undo (the email, the public thread, the decision to quit) until he is calm, or getting an outside check before them, such as asking the friend, sleeping on it, or judging himself by the criteria he would use on someone else. For (b), give 20 if it covers all three actions (a blanket "nothing tonight" counts), 10 if only some. Give 10 instead of 20 for either kind if it stays vague ("calm down", "think it over").
 
 Model answer, for the feedback, not a grading checklist: "His jaw is tight and he can't sit still, and he explains it away. He's sure, he wants to act tonight, and everyone else is wrong, naive or broken. His feeling of clarity doesn't count for much, because stress also blunts the ability to notice that you aren't thinking clearly, like a drunk who feels fine to drive. In the next hour: stand up, uncross, take a few slow breaths with long exhales and feel his feet, then go for a walk or to bed. No email, no thread and no decision about quitting tonight. Tomorrow he can ask his friend to read the email first."
 feedback-instructions:: The learner has analysed Dev's late-night message with CFAR's Againstness model. In 80 to 150 words, short paragraphs, no lists: name the strongest part of their answer, then the single most important thing it missed or got wrong. If they missed why Dev's own sense of clarity cannot settle the question (stress blunts the ability to notice one's own impairment), name that first. If their next steps were vague, name one concrete version. If they scored full marks, confirm briefly. Say why they got their score if they ask. No generic praise. If they say they don't understand, give one concrete foothold (for example: "What does Dev say about everyone who disagrees with him?").

@@ -4,7 +4,7 @@ title: "Report back: your comfort zone experiment"
 tldr: "Before any new technique: what did you try at the edge of your comfort zone, what did you find out, and what does your bugs list look like now?"
 summary_for_tutor: "Opening lens of week 5 of a CFAR-style applied rationality workshop. The learner sees the Comfort Zone Exploration (CoZE) experiment they planned at the end of week 4, writes what actually happened, debugs the experiment with the tutor, then updates their bugs list. A CoZE experiment succeeds by gathering data, including the finding that a hesitation is in the right place. The course judges techniques by whether they changed anything on a real problem, not by whether the learner liked them."
 reading_minutes: 3
-tutor_minutes: 17
+tutor_minutes: 20
 min_chat_messages: 3
 tags: [wip]
 ---
@@ -14,7 +14,7 @@ At the end of last week's module you planned an experiment, for most of you a co
 
 ::answer{id="fe8087d3-d915-4aa9-8337-126108467ac2" fallback="No plan from last week's module yet. That's fine: below, write about anything you tried since then to work on a bug."}
 
-A comfort zone experiment works if you came back with data. Finding out that the hesitation was protecting you counts as much as finding out it was out of date. An experiment that never happened counts as data too.
+A comfort zone experiment works if you came back with data. Finding out that the hesitation was protecting you counts as much as finding out it was out of date. We count an experiment that never happened as data too.
 
 #### Question: Open
 id:: 201f9250-470c-4fa9-9535-856fc0769b3b
