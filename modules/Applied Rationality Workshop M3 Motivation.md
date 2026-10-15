@@ -5,7 +5,7 @@ title: "Motivation"
 tags:
   - wip
 ---
-%% Week 3 of the Applied Rationality Workshop. Time: report back 22 min, Goal Factoring 45 + test 12, Aversion Factoring 45 + test 15, Units of Exchange 41 + test 10, Plan your week 10. Total about 200 min. %%
+%% Week 3 of the Applied Rationality Workshop. Time: report back 22 min, Goal Factoring 45 + test 12, Aversion Factoring 45 + test 20, Units of Exchange 41 + test 15, Plan your week 10. Total about 210 min. %%
 
 # Submodule: Report back
 # Lens: Report back on week 2
