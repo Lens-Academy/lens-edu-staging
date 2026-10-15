@@ -28,7 +28,7 @@ to:: can play a pivotal role in changing the way you view and interact with the 
 #### Question: Open
 id:: 0e3c2ffe-732c-499f-b70f-534595cf95c8
 content:: Before reading on, look for one yuck of your own. Name a step toward something you want that feels bad, and the exact moment the feeling shows up: seeing an email subject line, opening a file, the first thought of it. You will come back to this at the end of the page.
-feedback-instructions:: The learner has read the CFAR Handbook's explanation of yucks and yums (quick feelings of approach or avoid) and of hyperbolic discounting (small, immediate feelings shape behaviour strongly), and has named one step toward a goal that feels bad, with the moment the feeling shows up. Reply in 1 to 3 sentences. If they named a specific moment, say what it is in their words. If the moment is vague ("working on my thesis"), ask in one sentence for the first second of it: what do they see or think right before the feeling? No generic praise, no advice. One turn only.
+feedback-instructions:: The learner has read the opening of the CFAR Handbook's Taste & Shaping chapter on yucks and yums (quick feelings of approach or avoid attached to things and actions, which can clash with a goal the person wants), and has named one step toward a goal that feels bad, with the moment the feeling shows up. Reply in 1 to 3 sentences. If they named a specific moment, say what it is in their words. If the moment is vague ("working on my thesis"), ask in one sentence for the first second of it: what do they see or think right before the feeling? No generic praise, no advice. One turn only.
 
 #### Article
 from:: ## **Case study: the paycheck and the parking ticket**
