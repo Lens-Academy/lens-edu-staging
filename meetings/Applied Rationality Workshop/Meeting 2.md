@@ -44,11 +44,10 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Take turns being the bug owner, about 7 minutes each. A bug is anything in your life that keeps going the way you don't want. Pick a small one you are happy to talk about. The others are partners: they ask questions, and the owner decides.
+Take turns as the bug owner, about 7 minutes each. A bug is something in your life that keeps going the way you don't want. Pick a small one you're happy to talk about. Partners ask questions, and the owner decides.
 
-1. The owner names a bug that happens in a moment that comes back. Example: "I open my laptop to write and end up on Slack."
-2. Partners ask about the last time it happened, moment by moment, until you find the exact point where it went off track.
-3. Together, build a trigger-action plan for that point: "When [something I'd clearly notice] → [one small step]". The owner says it out loud.
+1. The owner names a bug that happens in a moment that comes back, like "I open my laptop to write and end up on Slack."
+3. Together, build a trigger-action plan for that point: "When (something I'd clearly notice), I (one small step)." The owner says it out loud.
 4. Swap owners.
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
