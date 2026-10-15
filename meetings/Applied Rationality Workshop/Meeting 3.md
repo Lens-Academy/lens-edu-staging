@@ -17,7 +17,7 @@ source:: [[../shared/Session Doc - How today works]]
 \pagebreak
 ### Room 1: Check-in  [0:05–0:19]
 
-Go around your group, two things:
+Go around your group:
 
 1. How was this unit? Did you finish it? If you didn't, what got in the way?
 2. At the end of the last unit you planned one small experiment in your own life. In a sentence or two: what did you try, and what happened on the problem it was meant to help? "It didn't happen, and here's the moment it slipped" is a full answer.
@@ -50,6 +50,7 @@ Goal factoring takes one action apart into the goals it serves, then looks for a
     - a weekly meeting
     - a stay-or-quit choice
     - a daily habit
+2. The others ask "What is it for?" until the list of goals stops growing. Include how the volunteer wants to be seen.
 3. Button test: "Would you press a button that gave you all of these without doing the thing?" Hesitation points to a missing goal. Add it.
 4. Brainstorm wild alternatives one goal at a time, then combine them into one plan. Keeping the action counts.
 
@@ -270,7 +271,6 @@ Aversion factoring: Splitting an activity you avoid into its parts, so you can f
 Mindful walkthrough: Paying close attention, moment by moment, while doing an activity, to find what makes it unpleasant.
 Yum factor: Something about an activity that appeals to you or that you value.
 Trivial inconvenience: A small practical snag that keeps you from doing something, such as floss kept in a drawer you never open.
-Mindful walkthrough: Paying close attention, moment by moment, while doing (or imagining) an activity, to find where it turns unpleasant.
 Recalibration: Changing your reaction rather than the situation, through small voluntary exposure or a reframe you believe.
 Currency: Anything you spend or gain in a trade, such as time, money, attention, energy, sleep or goodwill.
 Repeated cost: A small cost paid again and again, which adds up to a large one over months or years.
