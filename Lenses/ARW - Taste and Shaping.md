@@ -1,7 +1,7 @@
 ---
 id: 'fe155a1e-f4ce-4c36-88ab-fbec512c9874'
 title: "Taste & Shaping"
-tldr: "Small, fast feelings of yuck and yum train your habits, often toward the wrong thing. Treat a yuck as information, and make the steps toward your goals feel like progress in a way that is still true."
+tldr: "Small, fast feelings of yuck and yum train your habits, and can train them toward the wrong thing. Treat a yuck as information, and make the steps toward your goals feel like progress in a way that is still true."
 summary_for_tutor: "Week 4 of the Applied Rationality Workshop. Teaches the CFAR Handbook's Taste & Shaping chapter: emotional valence (yuck and yum) on the steps toward a goal can mismatch the goal itself. A yuck can be read as a sign of an implicit model that the thing harms some goal. Because of hyperbolic discounting, tiny immediate feelings shape behaviour strongly, and they reinforce whatever happened just before them (punishing yourself on noticing a mistake trains you to stop noticing). The fix is to resolve the model conflict truthfully (the parking ticket as a rebate) and to reward the direction of change. The last section is on taste: an expert's fast gut sense, worth evaluating by its training data. The chapter has no algorithm. The learner predicts the model's verdict on three cases, evaluates one of their own gut reactions, then works on a yucky step from their bugs list with the tutor."
 tags: [wip]
 reading_minutes: 22
@@ -14,7 +14,7 @@ content::
 
 You want the result: the fellowship application sent, the paper revised, the honest talk with your manager about which project you should be on. But the next step itself feels bad. You open the document with your reviewer's comments, feel a small flinch, and find yourself checking messages instead.
 
-The CFAR Handbook calls these small feelings yucks and yums. Its Taste & Shaping chapter explains where they come from and how they train your habits, mostly without your noticing. The chapter has no step-by-step algorithm. It describes a mechanism, and later techniques in this course build on it.
+The CFAR Handbook calls these small feelings yucks and yums. Its Taste & Shaping chapter explains where they come from and how they train your habits, mostly without your noticing. The chapter has no step-by-step algorithm. It describes a mechanism, and Internal Double Crux, later in this course, builds on it.
 
 #### Article
 source:: [[../articles/cfar-duncan-taste-shaping]]
@@ -81,7 +81,11 @@ Your bugs list from week 1:
 
 ::answer{id="2b1b06a5-3a8d-46c2-8867-f2a16feeb010" fallback="You don't have a bugs list yet. Pick any goal you want where one step keeps feeling bad."}
 
-Pick one bug where you want the outcome but a step toward it feels yucky. The yuck you named earlier on this page is a good candidate. Then work through it with the tutor. You will look for the exact moment the yuck shows up, ask what it might be protecting, check what your current habits are rewarding, and look for a change that makes the step feel like progress while staying true.
+The yuck you named earlier on this page:
+
+::answer{id="0e3c2ffe-732c-499f-b70f-534595cf95c8" fallback="You haven't named one yet."}
+
+Pick one bug where you want the outcome but a step toward it feels yucky. The yuck above is a good candidate. Then work through it with the tutor. You will look for the exact moment the yuck shows up, ask what it might be protecting, check what your current habits are rewarding, and look for a change that makes the step feel like progress while staying true.
 
 #### Chat
 instructions::
