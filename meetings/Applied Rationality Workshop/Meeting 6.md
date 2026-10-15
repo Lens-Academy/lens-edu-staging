@@ -52,7 +52,7 @@ Double Crux in one line: instead of trading conclusions, two people look togethe
     - Do most people still use a technique from a course like this a year later?
     - Anything else two of you disagree on and care about.
 2. Those two take the sides. Each says their view and how sure they are, as a percentage.
-3. Each says what would change their mind. After each reason, the third person asks: "If that turned out false, would you change your mind?"
+3. Each gives their reasons. After each one, the others ask: "If that turned out false, would you change your mind?" The reasons that get a yes are your cruxes.
 4. Look for one statement that would change both minds. Write it as an if-then you both accept.
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
@@ -81,7 +81,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Everyone teaches one technique from the course in about 4 minutes, then is taught by the others. Teach the one you prepared in this unit, or any technique you used.
+Everyone teaches one technique from the course in about 5 minutes (4 if you are four), then is taught by the others. Teach the one you prepared in this unit, or any technique you used.
 
 1. Teacher: explain the technique with one example from your own use. A small or made-up example is fine. Then ask the others to try one step on a small problem of their own.
 2. Listeners: be honest beginners. Say out loud what you think the step means.
@@ -111,7 +111,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-As in the first meeting, the group gives one person at a time its full attention. About 3 minutes each. What is said here stays here. Share only what you choose, and you can pass.
+The group gives one person at a time its full attention. About 3 minutes each. What is said here stays here. Share only what you choose, and you can pass.
 
 1. Focus person: your most important problem now, in a sentence or two. Is it the one you named in the first unit?
 2. Focus person: the one practice you will keep after the course, and its first step, with a date.
@@ -131,10 +131,10 @@ As in the first meeting, the group gives one person at a time its full attention
 
 Your navigator talks through these:
 - The course has an optional Library module with more of the CFAR Handbook: its short flash classes, its jargon dictionary, and a guide to running a full Hamming circle with friends.
-- Your monthly review: the date you set on the last page of this unit.
-- If your buddy group wants to keep going, agree on a date to check in a month from now.
+- Your monthly review: a short, fixed time each month to reread your bugs list and check your practice. The last page of this unit asked you to set its date.
+- If your accountability buddies want to keep going, agree on a date to check in a month from now.
 
-Then, if you feel like it: one thing you expect to still be doing in three months because of this course.
+Then, if you feel like it: one thing you're glad you know now that you didn't know six weeks ago.
 
 
 ---
