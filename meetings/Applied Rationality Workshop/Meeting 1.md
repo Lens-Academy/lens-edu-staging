@@ -87,7 +87,7 @@ Same format, new job for the group. About 5 minutes each (4 if you are four). Sa
     - a question the focus person may not have asked themselves
     - a connection they noticed
     - one small step that could happen before the next meeting
-3. The focus person keeps one thread, or none, and says it out loud.
+3. The focus person keeps one thread, or none, and says it out loud or keeps it to themselves.
 
 Scribe: names only, plus kept threads if people want them noted.
 
@@ -114,9 +114,8 @@ One or two people share what their group landed on. Share how it went for you, n
 **New group. Names first, then straight in.**
 
 
-1. The people in this breakout room are your accountability buddies for the rest of the course. Swap contact details in the table. Before each meeting, check in: did you finish, are you coming?
-2. Share the experiment from this unit's "Plan your week" page. None yet? Pick one small thing to try.
-3. The others ask: from 1 (not surprised) to 10 (shocked), how surprised would you be if it didn't happen? Below 7: find one change together that raises the number.
+2. Share the real-life experiment you planned on your ["Plan your week" page](https://staging.lensacademy.org/courses/applied-rationality-workshop/module/arw-m1-opening). None yet? Pick one small thing to try, such as your Room 3 thread.
+3. The others ask: from 1 (not at all) to 10 (shocked), how surprised would you be if it didn't happen? Below 7: find one change together that raises the number.
 4. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
 
 
@@ -211,9 +210,9 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 
 ### Per-room notes for Unit 1
 
-**General, all rooms.** This is a workshop, not a reading discussion: the rooms work on people's own problems, using the bugs list and the Hamming question participants wrote this unit. Everything personal is opt-in. Nobody has to share anything, anyone can pass their turn, and "I'll bring a small bug" is always a full answer. Never push anyone to go deeper, and do not give your own advice on anyone's problem. Many people will not have finished the unit. Every room works from the doc alone, since everyone has bugs and problems whether or not they wrote them down.
+**General, all rooms.** This is a workshop, not a reading discussion: the rooms work on people's own problems, using the bugs list and the Hamming question participants wrote this unit. Everything personal is opt-in. Nobody has to share anything, anyone can pass their turn, and "I'll bring a small bug" is always a full answer. Never push anyone to go deeper, and do not give your own advice on anyone's problem. Some people may not have finished the unit. Every room works from the doc alone, since everyone has bugs and problems whether or not they wrote them down.
 **Room 1, Getting to know each other.** Keep introductions to about thirty seconds each. Ask 3 is deliberately light: one harmless bug, so people see that everyone has them.
-**Back together after Room 1: introduce the Hamming circle (about 2 minutes).** In a calm, slow voice: (1) Richard Hamming asked scientists what the most important problems in their field were, and then why they were not working on them. A Hamming circle asks the same of your own life, and the group gives one person its full attention at a time. (2) The agreement: what is said in a room stays in that room, people share only what they choose, a smaller bug is always fine, and anyone can pass their turn. (3) Invite a short quiet moment (about 30 seconds, eyes closed if they like) to think of what they want to bring. Then open Room 2. Background: the CFAR handbook's version gives each person at least 20 minutes, in groups of about four, and was held late in a workshop so people already knew each other. Today's 5-minute turns among near-strangers are a first taste, so keep the tone gentle and light. The handbook also says that in these circles it is often more helpful to understand what is going on than to leap toward solutions, which is why Room 2 is questions only.
+**Back together after Room 1: introduce the Hamming circle (about 2 minutes).** In a calm, slow voice: (1) Richard Hamming asked scientists what the most important problems in their field were, and then why they were not working on them. A Hamming circle asks the same of your own life, and the group gives one person its full attention at a time. (2) The agreement: what is said in a room stays in that room, people share only what they choose, a smaller bug is always fine, and anyone can pass their turn. (3) Invite a short quiet moment (about 30 seconds, eyes closed if they like) to think of what they want to bring. Then open Room 2. Background: the CFAR handbook's version gives each person at least 20 minutes, in groups of about four, and was held on the next-to-last evening, partly so people had time to get to know each other a little. Today's 5-minute turns among near-strangers are a short first try, so keep the tone gentle and light. The handbook also says that in these circles it is often more helpful to understand what is going on than to leap toward solutions, which is why Room 2 is questions only.
 **Room 2, understand it first.** Groups of 3 work best here (about 5 minutes each). When you drop in, listen for advice-giving and gently redirect: "Questions only in this room. What would help you understand it better?" Good questions ask for a concrete example, what makes it sticky, or what would change if it were solved. If someone becomes upset, slow things down, let them choose whether to continue, and check in with them privately afterwards. If anyone seems in real crisis, take it out of the room and point them to appropriate support.
 **Back together after Rooms 2 and 3.** Ask people to share how the format felt or what they noticed, never another person's problem. Silence is fine.
 **Room 3, threads to pull.** The difference from Room 2: now the group offers, the focus person chooses. Listen for offers that turn into instructions ("you should...") and reframe them as options. The focus person can decline every thread, and that is a fine outcome.
@@ -224,7 +223,7 @@ style:: plain
 
 ## Doing this meeting alone
 
-If you are taking this course without a group, do this instead: a 45 to 60 minute session with [Lens Tutor](https://lensacademy.org/tutor), which plays the circle for you. Have your bugs list and your Hamming question answer from this unit open if you wrote them. Rooms 2, 3 and 4 become three parts. Room 1 is for meeting people, so skip it. Keep an eye on the clock yourself: the tutor cannot.
+If you are taking this course without a group, do this instead: a 45 to 60 minute session with [Lens Tutor](https://lensacademy.org/tutor), which takes the group's place. Have your bugs list and your Hamming question answer from this unit open if you wrote them. Rooms 2, 3 and 4 become Parts 1 to 3, and Part 4 closes the session. Room 1 is for meeting people, so skip it. Keep an eye on the clock yourself: the tutor cannot.
 
 ### Part 1: Understand it first (15 to 20 min)
 
@@ -232,11 +231,13 @@ Open Lens Tutor and paste this:
 
 > I'm doing the Applied Rationality Workshop alone, and this is my version of a Hamming circle. My most important problem right now, and what keeps me from working on it, is: [write it here, or a smaller bug if you prefer]. Only ask me questions that help me understand what is going on: ask for concrete examples, what makes it sticky, and what would change if it were solved. One or two questions at a time. No advice and no solutions. If I bring up something heavy, slow down and let me choose whether to go further. When I type "next", ask me what looks clearer now.
 
+After about 15 minutes, type "next".
+
 ### Part 2: Threads to pull (15 to 20 min)
 
 In the same chat, paste this:
 
-> Now switch roles. Offer me threads to pull, one at a time: a question I may not have asked myself, a connection you noticed in what I said, or one small step I could take before my next session. These are offers, not instructions. After three or four, ask me which one thread I want to keep, if any, and stop.
+> Now change approach. Offer me threads to pull, one at a time: a question I may not have asked myself, a connection you noticed in what I said, or one small step I could take before my next session. These are offers, not instructions. After three or four, ask me which one thread I want to keep, if any, and stop.
 
 Write the thread you keep somewhere you will see it before your next session.
 
@@ -263,7 +264,7 @@ Applied rationality: Practical techniques for thinking more clearly about your o
 Bug: Anything in your life that does not work the way you would like, from small daily annoyances to large tangled problems.
 Bugs list: Your numbered list of bugs and feature requests, written this unit and used in every later unit to pick a problem for the week's technique.
 Hamming question: The question "What is the most important problem in your life right now, and what keeps you from working on it?" Named after the mathematician Richard Hamming, who asked scientists this about their fields.
-Pair debugging: Two people working through one person's problem together, one asking questions while the other does the thinking. In this course the AI tutor often plays the partner.
+Pair debugging: Two people helping each other work through a problem, one problem at a time. In this course the AI tutor plays the partner and mostly asks questions.
 Eat the instructions: Try a technique exactly as written first, then adapt it until it fits you.
 Feature request: Something in your life that is not broken but could be great: an opportunity, a new habit, a new ability.
 Hamming circle: A small group that gives one person at a time its full attention while they work on their Hamming question.

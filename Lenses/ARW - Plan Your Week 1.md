@@ -14,7 +14,7 @@ content::
 This week you wrote your bugs list, named your Hamming question, and tried Murphyjitsu. Now pick one thing to try in your real life before next week. It could be:
 
 - running Murphyjitsu on a plan you are about to start
-- using the five-second version at the moment you named
+- using the five-second version at the moment you named: :answer{id="604e32b4-c25e-46db-9cee-9e6df38d7b88" fallback="not named yet"}
 - one of the opening-session tips, such as trying something new as written before you change it
 
 Keep it small enough that you will actually do it. Next week starts by showing you this answer and asking what happened. A useful test of an experiment is whether it changes something on a real bug, not whether you enjoyed doing it. "It didn't work" or "I didn't do it" are useful answers next week, because they tell you what to change.
