@@ -15,11 +15,17 @@ This week you practised three techniques on your own bugs:
 - **Aversion factoring:** split something you avoid into its parts, fix the parts that are about the situation, and recalibrate the reactions you would rather not have.
 - **Units of Exchange:** count everything a trade costs and earns, and fix the rates that don't match your other choices.
 
-A technique you practised once in a lens is not yet a technique you use. The test is whether it changes something in your week. Pick **one** technique and **one** real bug, and plan a small experiment. It may be the plan you already made in one of the practices.
+A technique you practised once in a lens is not yet a technique you use. The test is whether it changes something in your week. Pick **one** technique and **one** real bug, and plan a small experiment. It may be one of the plans you already wrote in the practices:
+
+::answer{id="ce5f92f6-7097-4367-9b62-0de300b91aa2" fallback="No goal factoring result yet."}
+
+::answer{id="aac7c622-5fbc-43bf-a59a-6a600174a2de" fallback="No aversion factoring result yet."}
+
+::answer{id="2ab08f1a-bf00-4c83-aa0d-5ce482cc4c5a" fallback="No Units of Exchange result yet."}
 
 A good experiment is small enough that you will actually do it, and specific about when. It also says what you would see if it worked: a task done, an hour back, a conversation had, a feeling that changed. Next week opens by asking what happened, so plan something you can report on.
 
-The techniques are scaffolding. If one didn't fit you, you can adapt it, or test a version of your own. In the words of Anna Salamon, one of CFAR's founders, the buck stops with you: "check whether it is producing fruits you directly feel good about".[^cite-salamon-2025]
+The techniques are starting points. If one didn't fit you, you can adapt it, or test a version of your own. In the words of Anna Salamon, one of CFAR's founders, the buck stops with you: "check whether it is producing fruits you directly feel good about".[^cite-salamon-2025]
 
 [^cite-salamon-2025]: Anna Salamon (2025), *CFAR's todo list re: our workshops*. [LessWrong](https://www.lesswrong.com/posts/77L6wyZqibxdGKd6e/cfar-s-todo-list-re-our-workshops)
 
