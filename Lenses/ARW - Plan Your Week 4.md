@@ -13,7 +13,7 @@ content::
 
 This week's experiment is the CoZE experiment you just designed. If you decided CoZE does not fit you right now, plan an experiment with Turbocharging or Taste & Shaping instead.
 
-A CoZE experiment works if you come back with data: how it felt, what actually happened, and how that compares with what you expected. Finding out that a fence is in the right place counts. Next week's module opens with this plan and asks what happened.
+A CoZE experiment works if you come back with data: how it felt, what actually happened, and how that compares with what you expected. Finding out that a fence is in the right place counts. Next week's module opens with this plan and asks what happened. After this page, one short test on CoZE closes the module.
 
 #### Question: Open
 id:: fe8087d3-d915-4aa9-8337-126108467ac2

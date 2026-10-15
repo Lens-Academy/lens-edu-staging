@@ -14,7 +14,7 @@ content::
 
 Duncan Sabien wrote this essay about a class he taught at CFAR workshops, and the handbook recommends it as a follow-up to Taste & Shaping. It applies the last page's mechanism to proxies: things you track in place of what you actually care about. He rates his own confidence in it as "mixed/speculative".
 
-This page shows Claim 1 and then Claim 4 onward. Claims 2 and 3 repeat points from Taste & Shaping (tiny, immediate feelings condition you strongly, and taste is a fast gut verdict built from experience), so they are left collapsed. The essay pauses once to ask you to think before reading on. A question box sits at that point.
+This page shows Claim 1 and then Claim 4 onward. Claims 2 and 3 repeat points from Taste & Shaping (tiny, immediate feelings condition you strongly, and taste is a fast gut verdict built from experience), so they are left collapsed. The essay pauses once to ask you to think before reading on. A question box sits at that point. Later, the essay's "(see Claim 1)" refers to the point about short delays, which is Claim 2.
 
 #### Article
 source:: [[../articles/inactive-goodharts-imperius]]
@@ -38,7 +38,7 @@ to:: hedge against the possibility.)_
 content::
 \## Find your bathroom scale
 
-The essay's bathroom scale is a made-up example. In your life it can be any check you have stopped making because looking hurts a little each time. Examples: a bank balance, an inbox folder, a draft you abandoned, the feedback form from your last talk, the metrics of a project that is not going well. A blind spot like this often does not make it onto a bugs list, because you do not see it. Here is your list anyway:
+The essay's bathroom scale is a made-up example. In your life it can be any check you have stopped making because looking hurts a little each time. Examples: a bank balance, an inbox folder, a draft you abandoned, the feedback form from your last talk, the metrics of a project that is not going well. By the essay's account, a blind spot like this may not be on your bugs list at all, because you do not see it. Here is your list anyway:
 
 ::answer{id="2b1b06a5-3a8d-46c2-8867-f2a16feeb010" fallback="You don't have a bugs list yet. That's fine for this exercise."}
 
