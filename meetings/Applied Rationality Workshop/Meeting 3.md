@@ -81,21 +81,21 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Aversion factoring splits something you avoid into parts. You may mind only one or two. The handbook's running example:
+Aversion factoring splits something you avoid into parts. You may mind only one or two. The handbook's example is someone who avoids running:
+
 - shoes and clothes: fine
 - aching knees: very bad
 - wind in your face: great
 - people watching: bad
 
-1. Anyone who wants names something they avoid but think is worth doing. Pick one. No takers? Use flossing, and each person answers for themselves.
+1. Anyone who wants names something small they avoid but think is worth doing: a chore, not a fear or something painful. Pick one. No takers? Use flossing, and each person answers for themselves. The owner can switch to a smaller bug or to flossing, or pass, at any point.
 2. Split it into five or more parts, including tiny snags (the floss sits in a drawer you never open). The person it belongs to gives each part a short verdict.
 3. For the worst part, everyone votes:
     - fix the situation
     - change the reaction
     - keep the aversion, because it protects against a real cost
 4. Take the most popular option. What would it cost in money, time or attention?
-
-If you still have time: would that person pay this price? If not, what would they do instead?
+5. If you still have time: would that person pay this price? If not, what would they do instead?
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
