@@ -105,7 +105,7 @@ Rules:
 - If no technique worked for them, accept that without arguing. Ask whether a smaller version of the one that came closest is worth a month's try, or whether a monthly review alone is the right plan. "Nothing for now" is also an acceptable answer.
 - If they say triggers, a monthly review, or planning in this format don't suit them and give a reason, accept it. Ask how they usually keep a habit going that does work for them, and help them plan that way instead.
 - No guilt, no pressure. Never use AI risk or the importance of their work as a reason they must keep practising.
-- If they are stuck or say "I don't know", give one concrete foothold (for example: "When in the last two weeks did you use any technique without planning to?"). If they still don't move, ask the question in different words.
+- If they are stuck or say "I don't know", give one concrete foothold (for example: "When in the last two weeks did you use any technique without planning to?"). If they still don't move, ask the question in different words once. If they are still stuck after that, offer two small options and hand the choice back, and say that a monthly review alone, or "nothing for now", is also a fine plan.
 - When the plan is complete, sum it up in three to five short lines: each technique with its "When X, I will Y" trigger, and the monthly review with its date and what happens in it. Tell them to copy the summary into the next page.
 
 #### Text
@@ -115,8 +115,8 @@ content::
 If you want more, here is what exists, as honestly as we can describe it.
 
 - **The Library module of this course.** The handbook's flash classes, its jargon dictionary, and its guide to running a full Hamming circle with friends. Each flash class comes with a one-question practice.
-- **The full CFAR Handbook.** This course used most of its classes. The handbook itself calls them a historical artifact, the state of the art around 2017, and its comment threads hold practitioners' reports and objections.[^cite-cfar-handbook]
-- **Hammertime.** A 30-day sequence by the LessWrong writer alkjash, from 2018, that practises ten CFAR-style techniques in three rounds of ten days, each exercise scalable from half an hour to a day.[^cite-alkjash-2018]
+- **The full CFAR Handbook.** This course used most of its classes. The handbook itself calls them a historical artifact, the state of the art around 2017, and it invites practitioners' reports and objections in its comments.[^cite-cfar-handbook]
+- **Hammertime.** A 30-day sequence by the LessWrong writer alkjash, from 2018, that practises ten CFAR-style techniques in three rounds of ten days, each exercise scalable from half an hour to a day.[^cite-alkjash-2018b][^cite-alkjash-2018]
 - **CFAR's own workshops.** CFAR started running its workshops regularly again in 2025, after about five years with only a few small events.[^cite-cfar-2025] A workshop lasts four and a half days, usually in the San Francisco Bay Area, with room and board. The fee is on a sliding scale from $1,900 to $4,900 depending on income, with scholarships and a full refund if you are unhappy, and includes four follow-up coaching calls.[^cite-cfar-faq] Upcoming dates are on CFAR's workshops page.[^cite-cfar-upcoming]
 
 On evidence: CFAR's 2015 study surveyed 135 alumni about a year after their workshop and found small to moderate improvements, for example in happiness, work satisfaction and conscientiousness. The measures were mostly self-reports and there was no control group, so the study cannot show that the workshop caused them.[^cite-cfar-2015] We think the evidence that matters most for you is your own: what changed on your list over these six weeks.
