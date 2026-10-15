@@ -150,7 +150,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:00–0:05 | Lobby / welcome (whole group) |
 | 0:05–0:19 | R1 How did your experiment go? (breakout, aim 3) |
 | 0:19–0:24 | Back together (whole group) |
-| 0:24–0:42 | R2 Pair debugging with a trigger-action plan (reshuffle) |
+| 0:24–0:42 | R2 Debugging together with a trigger-action plan (reshuffle) |
 | 0:42–0:47 | Back together (whole group) |
 | 0:47–0:52 | Break |
 | 0:52–1:10 | R3 Five minutes on a stuck problem (reshuffle) |
@@ -170,7 +170,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 2. Name the new format (small breakout rooms of 3, new people each time, and a five-minute get-together after each room where anyone can share what their group landed on)
 3. Tell them the doc is in the chat + Discord and to open it + check they can type
 4. Run through the arc
-    - how last unit's experiment went → pair debugging a real bug with a trigger-action plan → a group resolve cycle on one person's stuck problem → making the next experiment hard to miss
+    - how the first unit's experiment went → debugging a real bug together with a trigger-action plan → five-minute resolve cycles on everyone's own stuck problem → making the next experiment hard to miss
     - say the meeting will take 90 min
 5. Inform participants that you will be jumping between rooms with your camera turned off to listen in and they can ask questions whenever you join
 6. Start room 1
