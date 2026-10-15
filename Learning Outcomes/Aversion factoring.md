@@ -12,7 +12,7 @@ id:: 9f63411b-67a7-4edb-935f-c2e31f28c730
 content::
 Your friend Sam is a second-year PhD student in machine learning. Sam wants to apply to a summer AI safety research fellowship. The deadline is in ten days, and the application has been open in a browser tab for three weeks.
 
-Help Sam with aversion factoring. You lead: ask the questions, keep Sam on the steps, and help Sam land on what to do. Plan on about 10 to 15 messages. When you think you are done, say so.
+Help Sam with aversion factoring. You lead: ask the questions, keep Sam on the steps, and help Sam decide what to do. Plan on about 10 to 15 messages. When you think you are done, say so.
 opening-message:: Okay, confession: I still haven't touched that fellowship application. I don't know, I just hate writing applications. I'll probably do it the night before, like always.
 user-customizable:: false
 ai-instructions:: You play Sam, a second-year machine learning PhD student, talking to a friend (the learner) who is trying to help with aversion factoring. Stay in character the whole time. Keep replies short and natural, 1 to 3 sentences, like a chat between friends.
