@@ -20,8 +20,8 @@ source:: [[../shared/Session Doc - How today works]]
 Go around your group. Share only what you want to, and "pass" is always fine.
 
 1. How was this unit? Did you finish it? If you didn't, what got in the way?
-2. At the end of the last unit you planned one small experiment in your real life. What did you try, and what actually happened? "I didn't do it" is a good answer: say what got in the way.
-3. If you still have time: which technique from this unit do you expect to still be using in a month, and which one do you doubt?
+2. At the end of the first unit you planned one small experiment in your real life. What actually happened? "I didn't do it" is a good answer: say what got in the way.
+3. If you still have time: which technique from this unit do you expect to still be using in a month? Why that one?
 
 
 | Names | How the unit went + what happened with your experiment |
