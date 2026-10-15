@@ -1,11 +1,11 @@
 ---
 id: 'b144d1c7-ae62-4437-a98b-728bf78c1d7d'
 title: "Againstness"
-tldr: "Under some kinds of stress you think worse and feel sure you are thinking fine. Your body is the more honest gauge, and calming the body is one way back."
+tldr: "Under some kinds of stress you think worse and feel sure you are thinking fine. Your body shows the stress more reliably than your sense of clarity does, and calming your body can help you think clearly again."
 summary_for_tutor: "Week 5 of the Applied Rationality Workshop. Teaches the CFAR Handbook's Againstness (epistemic status Mixed): under some stress, parts of our thinking shut down, and the ability to notice that is among the first things lost, so introspection is unreliable (the four-beers driver). The autonomic nervous system has an accelerator (sympathetic, SNS: fight, flight or freeze, also excitement) and brakes (parasympathetic, PSNS: rest, calm). The body gives an outside measure of where you are, and changing the body changes the mind. Steps: notice SNS arousal (ideally via a TAP), open your posture, take a low slow deep breath with a longer exhale, remember your feet and widen awareness to the whole body, breathe again. Final section: metacognitive blind spots. When everyone around you sounds wrong, stupid, malicious or crazy, consider that it may be you, and judge yourself by the outside criteria you would use on someone else. The learner tries the steps right away, then designs a TAP for a stress moment from their own bugs list with the tutor, and writes a five-second version."
-reading_minutes: 8
-tutor_minutes: 17
-min_chat_messages: 4
+reading_minutes: 10
+tutor_minutes: 20
+min_chat_messages: 1
 tags: [wip]
 ---
 #### Text
@@ -52,7 +52,7 @@ Here is your bugs list:
 
 ::answer{id="2b1b06a5-3a8d-46c2-8867-f2a16feeb010" fallback="You don't have a bugs list yet. Think of a recent moment when stress made you say or decide something you regretted."}
 
-Pick a bug where stress makes you think or act worse than you would like. Typical moments are getting feedback on your work, a disagreement with a colleague, a rejection, or a deadline. A mild one is fine. You can describe it to the tutor or use a code word.
+Pick a bug where stress makes you think or act worse than you would like. Typical moments are getting feedback on your work, a disagreement with a colleague, a rejection, or a deadline. A mild one is fine, and a code word is enough.
 
 You already know trigger-action plans (TAPs) from week 2. With the tutor, you will find your own early body signals of stress and turn them into a TAP that starts the routine. Since your own sense of clarity is unreliable in those moments, you will also pick an outside check.
 
@@ -66,7 +66,7 @@ You cannot see their bugs list. Start by asking which bug they picked, if they h
 
 Walk them through these steps, one at a time:
 1. A recent moment. Ask for the last time this happened, as concretely as they can: where were they, what happened just before, what did they do or say?
-2. Early signals. What did their body do in that moment, or just before it: heat, tight jaw, fast breathing, leaning forward, typing fast? What did their thinking do: everyone else seemed wrong, the answer seemed obvious, an urge to act right now? Each person's signals differ, so help them find their own, earliest one.
+2. Early signals. What did their body do in that moment, or just before it: heat, tight jaw, fast breathing, leaning forward, typing fast? What did their thinking do: everyone else seemed wrong, the answer seemed obvious, an urge to act right now? Each person's signals differ, so help them find their own, earliest one. Then invite them, if they are willing, to recall the moment for about 30 seconds until they feel a trace of it, run the routine, and tell you what changed. Skip this if the moment is painful.
 3. The TAP. Help them write it as "When I notice [specific signal], I will [first small step of the routine]". The action can be tiny: one slow breath and attention on the feet. Check that the trigger is something they would really notice in the moment.
 4. The outside check. Ask the chapter's question: how would they tell that someone else was "flying blind" in this situation, without access to that person's feelings? Then help them pick one outside check for themselves, for example waiting before they send a reply, asking a friend to read it first, or a rule about not deciding big things the same night.
 5. Wrap up. Ask when they expect the next such moment, so they can watch for it.
@@ -83,12 +83,13 @@ Rules:
 
 Safety, this week works on feelings:
 - The learner chooses the moment to work on. Never push toward a bigger or more painful one.
-- If something heavy comes up (an abusive situation, trauma, a crisis, thoughts of self-harm, panic attacks, strong distress): slow down. Do not dig, and do not continue the technique. Acknowledge it in one or two plain sentences, suggest they stop here, and suggest talking to someone they trust, a doctor or a therapist. If they mention a crisis or danger to themselves, say plainly that you are an AI tutor and cannot help with this, and point them to their local emergency services or findahelpline.com.
-- Stopping is a fine result. If they want to stop, say so in one sentence and point them to the rest of the page.
+- If the topic itself turns heavy (grief, trauma, a crisis, thoughts of self-harm, hopelessness such as "nothing I do matters", not sleeping, despair about AI risk, strong distress), stop the technique, however calm they sound. Be warm and unhurried. Acknowledge it in one or two plain, kind sentences (if they name a loss, say you are sorry). Do not dig, do not interpret, and do not ask questions about the heavy topic. Suggest they stop here and do something calming, and suggest talking to someone they trust, a doctor or a therapist. For hopelessness or not sleeping, also mention findahelpline.com as an option, without assuming a crisis. If they mention a crisis or danger to themselves, say plainly that you are an AI tutor and cannot help with this, and point them to their local emergency services or findahelpline.com. Do not try to be their therapist.
+- If they want to keep going with the heavy topic, do not end the conversation for them. Say kindly that this practice is not the place for something this big, and that it deserves a person who can be there with them. Offer to go back to a small topic or to stop.
+- Stopping is a fine result. If they want to stop, say so in one sentence and point them to the rest of the page. After a stop or a heavy moment, do not summarise, do not ask what they noticed, and do not send them to a question.
 
 When they have a TAP and an outside check, sum both up in one or two sentences and tell them to continue on the page.
 
 #### Question: Open
 id:: 57f740d6-29b2-4ff0-a599-f9a92e31e062
-content:: The handbook's flash class Five-Second Versions suggests finding a "five-second version" of each technique: a tiny form you can use in daily life without sitting down to do the full algorithm. In one or two sentences, what is your five-second version of Againstness?
+content:: A short chapter of the handbook, Five-Second Versions, suggests finding a "five-second version" of each technique: a tiny form you can use in daily life without sitting down to do the full algorithm. In one or two sentences, what is your five-second version of Againstness?
 feedback-instructions:: The learner has just planned how to use the CFAR Handbook's Againstness routine in a stressful moment and has written a "five-second version": a tiny everyday form of the technique. Reply in 1 to 3 sentences. If their version keeps the core of Againstness (noticing stress through the body rather than trusting how clear one feels, and shifting toward calm through the body, for example one slow breath and the feet), say what it keeps, plainly. If it has lost that core (for example, "stay calm"), name what is missing in one sentence. No generic praise. One turn only, do not ask a question.
