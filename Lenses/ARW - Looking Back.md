@@ -58,7 +58,7 @@ feedback-instructions:: The learner is judging the techniques of a six-week CFAR
 content::
 \## Keeping it going
 
-The handbook's introduction warned about this moment from the start:
+The handbook's introduction says that knowing a technique is not the same as practising it:
 
 #### Article
 source:: [[../articles/cfar-duncan-cfar-handbook-introduction]]
