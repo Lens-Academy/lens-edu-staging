@@ -85,10 +85,10 @@ Pick a shared example, not your own:
 - "I should reply to that email today" vs. putting it off
 - "I should go to the gym" vs. staying on the couch
 
-1\. Two people voice one side each, with a name that side would choose (the labels above take sides). One moderates. A fourth person watches for a side simply winning.
-2\. Run six turns in total. Turn one: one thing the other side is missing. Every later turn: first one true thing in the last point, then one new point. The moderator stops rule breaks.
-3\. If one side gave in: was its concern answered, or overruled?
-4\. If you still have time: swap roles and rerun, other side first. Does the same side win?
+1\. Rename both sides fairly ("putting it off" already takes a side). Two people voice one side each, one moderates, and a fourth watches for one side giving in.
+2\. Run six turns in total, "should" side first: one thing the other side misses. Each later turn: one true thing in the last point, then one new point. The moderator stops rule breaks.
+3\. If one side gave in: was its worry addressed (answered), or did it just lose (overruled)?
+4\. If you still have time: swap roles, other side first. Same winner?
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
@@ -113,12 +113,12 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-1\. Each person says the experiment they planned on this unit's last page, with one of this unit's techniques, and the day and time or the trigger they will watch for. Saying only the technique and the time is fine. No plan yet? Pick one technique and a time now.
+1\. Each person says the experiment from this unit's last page: the technique (from this unit or an earlier one) and the day and time or trigger. Technique and time alone is fine. No plan yet? Pick one now.
 2\. The others each ask one question that would make the plan more concrete: where exactly, which bug (a code word is fine), how will you know it changed anything?
 3\. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
 
 
-| Names | Your experiment + day and time |
+| Names | Your experiment + day and time or trigger |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -163,7 +163,7 @@ Write down the guess that seemed most likely to you.
 
 This replaces Room 3. Copy this into Lens Tutor:
 
-> Please help me practise Internal Double Crux from the CFAR Handbook on a low-stakes should: [pick one: "I should read more papers" vs. wanting the evening off, "I should reply to that email today" vs. putting it off, or a made-up one]. I will voice both sides, starting each line with the side's name. You moderate. Before the first turn, ask me to note privately which side I hope will win. Check that both names are ones each side would choose for itself. Then keep it fair: the first side says one thing the other side is missing, and after that each turn first says one true thing in the last point, then adds one new point. Point it out when a side skips the true thing or makes two points. Never take a side and never argue for one. After six turns, ask me whether one side simply won, and whether its concern was answered or overruled. If it touches something heavy, stop the exercise, don't dig, say that you are an AI tutor and not a therapist, and suggest I talk to someone I trust, a doctor or a therapist, or findahelpline.com in a crisis.
+> Please help me practise Internal Double Crux from the CFAR Handbook on a low-stakes should: [pick one: "I should read more papers" vs. wanting the evening off, "I should reply to that email today" vs. putting it off, or a made-up one]. I will voice both sides, starting each line with the side's name. You moderate. Before the first turn, ask me to note privately which side I hope will win. Check that both names are ones each side would choose for itself. Then keep it fair: the first side says one thing the other side is missing, and after that each turn first says one true thing in the last point, then adds one new point. Point it out when a side skips the true thing or makes two points. Never take a side and never argue for one. After six turns, ask me whether one side simply won, and whether its concern was answered or overruled. Then ask me whether the winner was the side I hoped for. If it was, say that this is the pattern one of CFAR's co-founders warned about, and suggest I treat the result as a hypothesis, not a decision. If it touches something heavy, stop the exercise, don't dig, say that you are an AI tutor and not a therapist, and suggest I talk to someone I trust, a doctor or a therapist, or findahelpline.com in a crisis.
 
 ### Part 4: When exactly? (5 min)
 
@@ -239,7 +239,7 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 ### Per-room notes for Unit 5
 
 **General, all rooms.** This unit is inner work: Focusing (listening to vague bodily feelings), Bucket Errors, Againstness (stress and the body) and Internal Double Crux. That is why no room asks anyone to work on a personal feeling in front of others, and Rooms 2 and 3 use made-up or shared cases. Focusing stays private on purpose. Everything personal is opt-in, "pass" is always allowed, and a smaller or made-up example always works. The course is not therapy and neither is this meeting. If someone shares something heavy: thank them, do not dig or give advice, and offer to move on. If someone seems in real distress, check in with them privately after the meeting and point them to someone they trust, a doctor or therapist, or [Find A Helpline](https://findahelpline.com) in a crisis. The course judges a technique by whether it changed anything on a real problem, and "this technique does not fit me" is a fine conclusion when someone has reasons. Call two minutes before each room ends.
-**Room 1, What happened last time.** The experiment was planned at the end of the last unit: for most people a comfort zone experiment, a small, safe try of something the person feels a bit blocked from, and for some a Turbocharging or Taste & Shaping experiment. In the handbook's framing, "the hesitation was protecting me" is a success, not a failure. Never praise anyone as brave. If an experiment did not happen, ask what got in the way at the exact moment it should have.
+**Room 1, What happened last time.** The experiment was planned at the end of the last unit: for most people a comfort zone experiment, a small, safe try of something the person feels a bit blocked from, and for some a Turbocharging or Taste & Shaping experiment. In the handbook's framing, finding that the hesitation was protecting you is a valid result. Never praise anyone as brave. If an experiment did not happen, ask what got in the way at the exact moment it should have.
 **Room 2, What else would it mean?** For your own use: the CFAR Handbook's Bucket Errors chapter says that when several questions share one mental bucket, evidence about one (X) seems to force a conclusion about another (Y), so the person flinches away from X. The handbook treats the flinch as protective and the hidden link as the error. Fixes it suggests: ask what would be bad about taking X in, check how strongly X really implies Y, notice that in many cases one can take X in and still choose freely what to do. Sam's case is made up and low-stakes on purpose. Likely links: "then I'm a bad writer", "then I shouldn't write in public", "then I wasted the weekend". Different guesses are the point of ask 1, so take them all. Ask 3 connects to the handbook's view that the flinch protects the person and the link is the error, so loosening the link helps more than pushing the evidence. Ask 4 is optional and personal. Do not steer anyone toward sharing.
 **Room 3, Moderate a "should" together.** For your own use: the handbook rates Internal Double Crux "Preliminary/tentative". CFAR stopped teaching it at its main workshops shortly before it paused workshops in 2020, and left it out of its 2025 workshops ([Salamon 2025](https://www.lesswrong.com/posts/Ww6Mv8bkMCMcdKDRm/more-details-on-cfar-s-new-workshops), footnote 5). Anna Salamon, a CFAR co-founder, wrote in 2022 that in practice it often worked as a tool for people to convince themselves of things they had an ulterior motive for ([Salamon 2022](https://www.lesswrong.com/posts/B9kP6x5rpmuCzpfWb/comment-reply-my-low-quality-thoughts-on-why-cfar-didn-t-get)). The lens teaches it with that warning, and ask 3 is the room's point: a side that was overruled rather than answered is a warning sign, while a real dissolution is a good outcome. The example labels take sides on purpose ("putting it off", "staying on the couch"), so renaming them is the first exercise. That is why the room uses a shared example, not anyone's own should. Rules: names each side would choose for itself, one point per turn, acknowledge a true thing before objecting.
 **Room 4, When exactly?** Push for a day and time or a clear trigger, not "this week". If someone's plan aims an inner-work technique at something heavy, suggest a lighter target. Ask 3 is optional.
