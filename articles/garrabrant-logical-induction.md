@@ -1173,13 +1173,11 @@ _
 
 In other words, logical inductors can be viewed as a computable approximation to a normalized probability distribution that dominates the universal semimeasure. In fact, this dominance is strict:
 
-**Theorem 53** (Strict Domination of the Universal Semimeasure). {--{"author":"James's AI","timestamp":1792069950500}@@_The--}{++{"author":"James's AI","timestamp":1792069950500}@@The++} universal continuous semimeasure does not dominate $\mathbb{P}_\infty$; that is, for any positive constant $C$ there is some finite bitstring $\sigma_{\le n}$ such that 
+**Theorem 53** (Strict Domination of the Universal Semimeasure). The universal continuous semimeasure does not dominate $\mathbb{P}_\infty$; that is, for any positive constant $C$ there is some finite bitstring $\sigma_{\le n}$ such that 
 
 $$
 \mathbb{P}_\infty(\sigma_{\le n}) > C \cdot M(\sigma_{\le n}).
-$${--{"author":"James's AI","timestamp":1792069950500}@@
-
-_--}
+$$
 
 In particular, by Theorem 163 (Uniform Non-Dogmatism), logical inductors assign positive probability to the set of all completions of theories like ${\mathsf{PA}}$ and ${\mathsf{ZFC}}$, whereas universal semimeasures do not. This is why we can’t construct approximately coherent beliefs about logic by fixing an enumeration of logical sentences and conditioning a universal semimeasure on more axioms of Peano arithmetic each day: the probabilities that the semimeasure assigns to those conjunctions must go to zero, so the conditional probabilities may misbehave. (If this were not the case, it would be possible to sample a complete extension of Peano arithmetic with positive probability, because universal semimeasures are approximable from below; but this is impossible. See the proof of Theorem 167 for details.) While $\mathbb{P}_\infty$ is limit-computable, it is not approximable from below, so it can and does outperform the universal semimeasure when reasoning about arithmetical claims.
 
