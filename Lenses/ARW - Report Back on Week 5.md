@@ -23,7 +23,7 @@ feedback-instructions:: The learner is reporting back on a one-week real-life ex
 
 #### Text
 content::
-Now debug the experiment with the tutor. As in earlier weeks, the tutor works like a workshop partner: it asks questions and keeps you concrete, and the solution stays yours.
+Now debug the experiment with the tutor. As in earlier weeks, the tutor works like a workshop partner: it asks questions and keeps you concrete, and the solution stays yours. Plan on about 10 minutes.
 
 #### Chat
 instructions::
