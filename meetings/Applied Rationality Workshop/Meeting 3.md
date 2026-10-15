@@ -47,15 +47,13 @@ One or two people share what their group landed on.
 
 Goal factoring takes one action apart into the goals it serves, then looks for a cheaper way to get them all.
 
-1. One volunteer names something costly they do or are deciding about (small is fine). No volunteer? Use "checking the news every morning". Examples:
+1. One volunteer names something costly they do or are deciding about. No volunteer? Everyone factors "checking the news every morning" for themselves. Examples:
     - a weekly meeting
     - a stay-or-quit choice
     - a daily habit
 2. The others ask "What is it for?" until the list of goals stops growing. Include how the volunteer wants to be seen.
 3. Button test: "Would you press a button that gave you all of these without doing the thing?" Hesitation points to a missing goal. Add it.
-4. Brainstorm wild alternatives one goal at a time, then combine them into one plan. Keeping the action counts.
-
-If you still have time: swap volunteers.
+4. Brainstorm wild alternatives one goal at a time, then combine them into one plan. Keeping the original action is a valid result.
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
@@ -89,12 +87,15 @@ Aversion factoring splits something you avoid into parts. You may mind only one 
 - wind in your face: great
 - people watching: bad
 
-1. Anyone who wants names something they avoid but think worth doing. Pick one. No takers? Use flossing.
-2. Split it into five or more parts, including tiny snags (the floss sits in a drawer). Its owner gives each part a short verdict.
-3. For the worst part, everyone votes: fix the situation, change the reaction, or keep the aversion because it protects against a real cost?
-4. Take the most popular option. What would it cost in money, time, attention or awkwardness?
+1. Anyone who wants names something they avoid but think is worth doing. Pick one. No takers? Use flossing, and each person answers for themselves.
+2. Split it into five or more parts, including tiny snags (the floss sits in a drawer you never open). The person it belongs to gives each part a short verdict.
+3. For the worst part, everyone votes:
+    - fix the situation
+    - change the reaction
+    - keep the aversion, because it protects against a real cost
+4. Take the most popular option. What would it cost in money, time or attention?
 
-If you still have time: would the owner pay that price? If not, what would they do instead?
+If you still have time: would that person pay this price? If not, what would they do instead?
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
@@ -296,7 +297,7 @@ Write two or three sentences for yourself: what you tried in the experiment from
 
 Pick something you do, or are deciding about, that costs you a lot. Use a different bug from the one in the lens. Paste this into Lens Tutor:
 
-> Be my partner for goal factoring, the CFAR technique. Do not solve my problem and do not lecture. Ask me one question at a time. First ask what action I want to factor. Then ask "What is it for?" until my list of goals stops growing, including how I want to be seen and how I see myself. Then run a button test: would I press a button that gives me all these goals without the action? Treat any hesitation as a missing goal. Then help me brainstorm alternatives one goal at a time, and combine them into a plan I can test. Remind me that keeping the action is an allowed result. End with a quick check of what would stop me following the plan.
+> Be my partner for goal factoring, the CFAR technique. Do not solve my problem and do not lecture. Ask me one question at a time. First ask what action I want to factor. Then ask "What is it for?" until my list of goals stops growing, including how I want to be seen and how I see myself. Then run a button test: would I press a button that gives me all these goals without the action? Treat any hesitation as a missing goal. Then help me brainstorm alternatives one goal at a time, and combine them into a plan I can test. Remind me that keeping the action is an allowed result. End with a quick check of what would stop me following the plan. If this gets heavy, suggest I switch to a smaller problem.
 
 ### 3. "I just hate it" (15 to 20 minutes)
 
