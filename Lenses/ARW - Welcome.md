@@ -22,7 +22,6 @@ This course follows the shape of that four-day workshop, stretched over six week
 [^cite-cfar-intro-2022]: CFAR!Duncan (2022), *CFAR Handbook: Introduction*. [LessWrong](https://www.lesswrong.com/posts/dbDHEQyKqnMDDqq2G/cfar-handbook-introduction)
 [^cite-cfar-schedule]: Center for Applied Rationality, *Sample schedule*. [rationality.org](https://www.rationality.org/workshops/sample-schedule)
 [^cite-cfar-handbook-2021]: Center for Applied Rationality (2021), *Participant Handbook*, "How to use this book", pp. 4-6. [rationality.org (PDF)](https://www.rationality.org/files/CFAR_Handbook_2021-01.pdf)
-[^cite-cfar-intro-2022]: CFAR!Duncan (2022), *CFAR Handbook: Introduction*. [LessWrong](https://www.lesswrong.com/posts/dbDHEQyKqnMDDqq2G/cfar-handbook-introduction)
 
 \## How the six weeks work
 

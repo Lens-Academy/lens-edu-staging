@@ -49,7 +49,7 @@ to:: try, _then_ tinker.
 #### Question: Open
 id:: 4eef8581-8347-4445-8af5-4e9ebccc7a55
 content:: Think of a method you once tried: a study technique, an app, a workout plan, a way of running meetings. Did you drop it after one go, or keep following it long after it stopped fitting? What would "try, then tinker" have looked like there?
-feedback-instructions:: The learner has read CFAR's tips "Try Things", "Make good quiche", "Adjust your seat" and "Eat the instructions" (try a technique as written first, then adapt it to fit you) and applied the idea to a method from their own past. Ungraded. Reply in under 80 words, one reply. Name in one sentence what "try" and what "tinker" were in their example. If their answer only covers one half (only dropping, or only sticking rigidly), ask what the other half would have looked like. No praise.
+feedback-instructions:: The learner has read CFAR's tips "Try Things", "Make good quiche" and "Eat the instructions" (try a technique as written first, then adapt it to fit you) and applied the idea to a method from their own past. Ungraded. Reply in under 80 words, one reply. Name in one sentence what "try" and what "tinker" were in their example. If their answer only covers one half (only dropping, or only sticking rigidly), ask what the other half would have looked like. No praise.
 
 #### Article
 from:: ## **Build Form**
