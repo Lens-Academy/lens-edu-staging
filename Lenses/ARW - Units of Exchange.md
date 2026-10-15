@@ -1,7 +1,7 @@
 ---
 id: 'bc07cab0-17cc-4ba5-b80c-895c14c00998'
 title: Units of Exchange
-tldr: "You pay for everything in several currencies at once: time, money, attention, energy, goodwill. Most of us pay very different prices for the same thing in different parts of life."
+tldr: "You pay for everything in several currencies at once: time, money, attention, energy, goodwill. The CFAR Handbook says many people pay very different prices for the same thing in different parts of life."
 summary_for_tutor: "Units of Exchange class of week 3 (Motivation) of the Applied Rationality Workshop course, built on the CFAR Handbook post. It is the general frame under goal factoring and aversion factoring: the Lego Principle (things are made of parts, parts can be exchanged as currencies), then five parts: apples to oranges (costs and values have many parts, seek simple comparisons but mistrust them), relevant value and relevant cost (the microwave example, repeated costs add up), diminishing returns (80/20, value of information), arbitrage (fixing inconsistent personal exchange rates, win-win rather than cold calculation), and opportunities for growth. One graded practice question applies repeated costs to a new case. Then the learner audits the currencies in one bug from their own list with the tutor as a pair-debugging partner and writes down one trade they will change."
 reading_minutes: 18
 tutor_minutes: 23

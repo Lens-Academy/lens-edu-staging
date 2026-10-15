@@ -1,7 +1,7 @@
 ---
 id: 'ecc70ff1-dea3-4767-860b-ace16146aefe'
 title: "Turbocharging"
-tldr: "You get good at what you actually rehearse, not at what you meant to rehearse. Check how closely your practice matches the real moment you need the skill in, then change the practice."
+tldr: "The CFAR Handbook's model of practice: you get good at what you actually rehearse, not at what you meant to rehearse. Check how closely your practice matches the real moment you need the skill in, then change the practice."
 summary_for_tutor: "Week 4 of the Applied Rationality Workshop. Teaches CFAR's Turbocharging: people get better at the things they actually practise, so a practice method is judged by how closely its trigger and action resemble the real ones and whether it varies them. The learner reads the anecdotes and the math-class comparison, notes how they study something now, reads the algorithm and the caveats (Turbocharging is for procedural skills, and it has known gaps), then applies the algorithm to a skill from their own bugs list in a chat with the tutor as pair-debugging partner, and ends with a five-second version."
 tags: [wip]
 reading_minutes: 15
