@@ -4,7 +4,7 @@ slug: arw-m1-opening
 title: "Opening"
 tags: [wip]
 ---
-%% Week 1 of the Applied Rationality Workshop (CFAR Handbook). Course welcome, opening-session advice, the bugs list (question 2b1b06a5, quoted in every later week), the Hamming question (question 14efcb57, quoted in week 6), Murphyjitsu with its learning outcome, and Plan your week (question 1d770ec5, quoted in week 2). No report back in week 1. Lens times: welcome 10, opening advice 27, bugs list 50, Hamming question 35, Murphyjitsu 45, plan 11 (178 min), plus the Murphyjitsu test at 12 min, about 3 h 10 min. %%
+%% Week 1 of the Applied Rationality Workshop (CFAR Handbook). Course welcome, opening-session advice, the bugs list (question 2b1b06a5, quoted in every later week), the Hamming question (question 14efcb57, quoted in week 6), Murphyjitsu with its learning outcome, and Plan your week (question 1d770ec5, quoted in week 2). No report back in week 1. Lens times: welcome 10, opening advice 22, bugs list 50, Hamming question 35, Murphyjitsu 42, plan 11 (170 min), plus the Murphyjitsu test at 12 min, about 3 h. %%
 
 # Submodule: Welcome
 # Lens:
