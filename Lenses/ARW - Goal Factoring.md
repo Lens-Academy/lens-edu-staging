@@ -13,7 +13,7 @@ tags:
 content::
 Say you've spent months deciding between a PhD in machine learning and a job at an AI safety organisation. You've written long lists of pros and cons. Every week a different list looks longer. The trouble may not be the lists. It may be the question. "PhD or job?" treats both options as fixed packages, when what you want is a handful of things that each option delivers in part: skills, credentials, time to think, a salary, people to work with, a sense that you are taking the problem seriously.
 
-Goal factoring takes an action apart into the goals it serves, then searches for the cheapest way to get all of those goals. The answer is sometimes one of the original options, sometimes a third one nobody had on the list. The handbook rates it "anecdotally strong": it was developed through iteration with workshop participants, not derived from research.
+Goal factoring takes an action apart into the goals it serves, then searches for the cheapest way to get all of those goals. The answer is sometimes one of the original options, sometimes a third one nobody had on the list. The handbook calls the idea underneath, that things are made of parts, the LEGO principle. You will meet it again in Units of Exchange.
 
 #### Article
 source:: [[../articles/cfar-duncan-goal-factoring]]
@@ -38,7 +38,7 @@ Score out of 100.
 Cap the score at 30 if the answer says the hesitation shows he should keep grading, or that he should push through the hesitation and stop grading.
 feedback-instructions:: The learner just read the goal factoring case study and answered why Val's hesitation at the button test is useful. You see the score and the grader's reason.
 
-Reply in 60 to 120 words, short paragraphs, no lists. Name the strongest part of the answer. Below 100, name the one thing missing or wrong, most likely that the hesitation points to a goal not yet on the list, and that the move is to name it and test again. Add that Val's second button test found two more goals, and that this is the normal shape of the step. No generic praise. If the learner says they do not understand, give one foothold: "The button gives him everything on his list. So what does it mean if he still doesn't want to press it?"
+Reply in 60 to 120 words, short paragraphs, no lists. Name the strongest part of the answer. Below 100, name the one thing missing or wrong, most likely that the hesitation points to a goal not yet on the list, and that the move is to name it and test again. Add that Val's first button test turned up two more goals, and a second test confirmed the list was complete. No generic praise. If the learner says they do not understand, give one foothold: "The button gives him everything on his list. So what does it mean if he still doesn't want to press it?"
 
 #### Article
 from:: ## **The Goal Factoring algorithm**
@@ -48,15 +48,15 @@ to:: What revisions can you put into place to improve the odds of success?
 content::
 \## Practice: goal factor one of your own bugs
 
-At a CFAR workshop you would now pair up with another participant and run the algorithm on a real bug. Here the tutor is your partner. It asks the questions and keeps you on the steps. The answers come from you.
+Now run the algorithm on a real bug of your own. The tutor is your partner. It asks the questions and keeps you on the steps. The answers come from you.
 
 Your bugs list:
 
 ::answer{id="2b1b06a5-3a8d-46c2-8867-f2a16feeb010" fallback="You haven't written a bugs list yet. Pick any action in your life that costs you a lot, or a choice you keep going back and forth on."}
 
-Pick one bug that involves an **action**: something you do that costs more than it seems worth, something you keep doing without being sure why, or a choice you've framed as "this or that". Goal factoring works best on an action you can name in a few words ("going to the Thursday meetup", "checking Slack in the evening", "applying for a PhD"). If none fits, pick a small one. A small bug done properly teaches more than a big one done halfway.
+Pick one bug that involves an **action**: something you do that costs more than it seems worth, something you keep doing without being sure why, or a choice you've framed as "this or that". Goal factoring works best on an action you can name in a few words ("going to the Thursday meetup", "checking Slack in the evening", "applying for a PhD"). We suggest starting with a small one.
 
-Have a pen and paper ready. The handbook's version is a bubble diagram: the action in the middle, its goals around it, costs marked with blocking arrows.
+If it helps you think, sketch on paper during the chat. The handbook's version is a bubble diagram: the action in the middle, its goals around it, costs marked with blocking arrows. You will type the result into a box after the chat.
 
 #### Chat
 instructions:: You are the learner's pair-debugging partner for Goal Factoring, in the style of a CFAR workshop. The learner just read the handbook's Goal Factoring post: the parable of the orange, Val's grading case study with the button test, and the algorithm. You cannot see their bugs list. Start by asking which bug they picked and what the action is, in a few words.

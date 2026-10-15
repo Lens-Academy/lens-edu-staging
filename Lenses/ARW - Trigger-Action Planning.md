@@ -2,7 +2,7 @@
 id: 'a119d9a1-30bb-47d9-b0a1-11504b8d3084'
 title: "Trigger-Action Planning"
 tldr: "Most of what you do runs on autopilot: if this happens, do that. A trigger-action plan picks the exact moment where things go wrong and puts a small, deliberate step there."
-summary_for_tutor: "Week 2 class on Trigger-Action Planning (TAPs) from the CFAR Handbook. Sequence: why plans that rely on remembering and willpower fail; the Sphex wasp and human trigger-action patterns; the moment of departure where a good path and a bad path split; the four steps of a TAP (goal, concrete trigger, small action, rehearse ten times); a graded practice question that fixes a fuzzy TAP; the handbook's tips; then the main practice, a pair-debugging chat where the learner builds and rehearses a TAP for a bug from their own bugs list."
+summary_for_tutor: "Week 2 class on Trigger-Action Planning (TAPs) from the CFAR Handbook. Sequence: why plans that rely on remembering and willpower fail, then the Sphex wasp and human trigger-action patterns, then the moment of departure where a good path and a bad path split, then the four steps of a TAP (goal, concrete trigger, small action, rehearse ten times), then a graded practice question that fixes a fuzzy TAP, then the handbook's tips, then the main practice, a pair-debugging chat where the learner builds and rehearses a TAP for a bug from their own bugs list."
 reading_minutes: 15
 tutor_minutes: 25
 min_chat_messages: 5
