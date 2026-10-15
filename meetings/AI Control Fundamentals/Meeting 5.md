@@ -121,7 +121,7 @@ Back in the main room, share if you feel like it: where you landed in Room 3, in
 Before you leave (your navigator will talk through these):
 
 - This is the last meeting of AI Control Fundamentals, so there is no next unit to read.
-- Want more depth? [AI Control 1](https://lensacademy.org/courses/ai-control-1), [AI Control 2](https://lensacademy.org/courses/ai-control-2) and [AI Control 3](https://lensacademy.org/courses/ai-control-3), built on XLab's AI Control track, cover the founding paper, control protocols, monitoring, collusion and more. They are open for self-study.
+- Want more depth? [Advanced AI Control 1](https://lensacademy.org/courses/ai-control-1), [Advanced AI Control 2](https://lensacademy.org/courses/ai-control-2) and [Advanced AI Control 3](https://lensacademy.org/courses/ai-control-3), built on XLab's AI Control track, cover the founding paper, control protocols, monitoring, collusion and more. They are open for self-study.
 - After the meeting there is a short survey. Your navigator will point you at it.
 - Found something unclear, wrong, or missing? Tell us on the Unit 5 feedback page in the course.
 
@@ -184,7 +184,7 @@ source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
 
 
 1. Ask for "one thing I'm taking away" from anyone who wants it (~10 sec each; a few voices is plenty, people have already shared between rooms).
-2. **Next-unit heads-up: there is no next unit, this is the last meeting of AI Control Fundamentals, so say so plainly. Point those who want depth at the AI Control 1, 2 and 3 courses (self-study, links in the session doc wrap-up), point everyone at the survey after the meeting, and say that feedback on the course goes on the Unit 5 feedback page.**
+2. **Next-unit heads-up: there is no next unit, this is the last meeting of AI Control Fundamentals, so say so plainly. Point those who want depth at the Advanced AI Control 1, 2 and 3 courses (self-study, links in the session doc wrap-up), point everyone at the survey after the meeting, and say that feedback on the course goes on the Unit 5 feedback page.**
 3. **End on time.** Then say the meeting **stays open** for anyone who wants to keep talking; stay and facilitate, or say goodbye and leave (they can keep going without you).
 
 
