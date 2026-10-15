@@ -2,7 +2,7 @@
 id: '2f509e41-43c8-4ffe-8446-af351c2de0a8'
 title: "Plan your week: one experiment"
 tldr: "Pick one technique from this week, attach it to one real bug, and decide when you will try it and what you would see if it worked."
-summary_for_tutor: "Closing lens of week 2 (Getting things done) of a CFAR-style applied rationality workshop. The learner commits to one real-life experiment for the coming week with one technique from this week: a trigger-action plan (TAP), resolve cycles, or a system. They say what, when, which bug, how they will know it worked, and how they will remember to check. Next week's module opens by showing them this plan and asking what happened. The course judges techniques by real change on a real bug."
+summary_for_tutor: "Closing lens of week 2 (Getting things done) of a CFAR-style applied rationality workshop. The learner sees what they built this week (their TAP, their resolve-cycle result, their system) and commits to one real-life experiment for the coming week with one technique: a trigger-action plan (TAP), resolve cycles, or a system. They say what, when, which bug, how they will know it worked, and how they will remember to check. Next week's module opens by showing them this plan and asking what happened. The course judges techniques by real change on a real bug."
 reading_minutes: 2
 tutor_minutes: 8
 tags:
@@ -12,10 +12,23 @@ tags:
 content::
 \## Your experiment for this week
 
+Here is what you built this week.
+
+Your TAP:
+
+::answer{id="a6546940-15b2-4309-ad58-ee2a4122dfca" fallback="No TAP written down yet."}
+
+What changed after your resolve cycles:
+
+::answer{id="46b39a55-37ef-40bf-ab02-dc55662dd028" fallback="No resolve-cycle result written down yet."}
+
+Your system:
+
+::answer{id="7d4ed706-1d7b-4a8a-90c1-fa2d1781bb43" fallback="No system written down yet."}
+
 Pick one technique from this week and try it on one real bug before you start next week's module:
 
-- **A TAP.** The one you built is ready to go. Check it at the end of the week: did the trigger fire, and did the action happen?
-- **Resolve cycles.** Pick a bug and a moment when you will run three timers on it.
+- **A TAP** (trigger-action plan). The one you built is ready to go. Check it at the end of the week: did the trigger fire, and did the action happen?
 - **A system.** Finish the one you started, or build one for another snag from your scan.
 
 If one of them did not fit you, choose another, or change it so it fits. Saying why you changed it is part of the experiment.

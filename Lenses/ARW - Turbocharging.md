@@ -5,7 +5,7 @@ tldr: "You get good at what you actually rehearse, not at what you meant to rehe
 summary_for_tutor: "Week 4 of the Applied Rationality Workshop. Teaches CFAR's Turbocharging: people get better at the things they actually practise, so a practice method is judged by how closely its trigger and action resemble the real ones and whether it varies them. The learner reads the anecdotes and the math-class comparison, notes how they study something now, reads the algorithm and the caveats (Turbocharging is for procedural skills, and it has known gaps), then applies the algorithm to a skill from their own bugs list in a chat with the tutor as pair-debugging partner, and ends with a five-second version."
 tags: [wip]
 reading_minutes: 15
-tutor_minutes: 20
+tutor_minutes: 25
 min_chat_messages: 4
 ---
 #### Text
@@ -34,6 +34,10 @@ to:: Sometimes this is actually true, but more often than not, it’s wasted mot
 
 #### Article
 from:: ## **Caveats and complications**
+to:: it’s something else entirely to catch it.
+
+#### Article
+from:: Relatedly, if we define “learning” as the process of acquiring knowledge
 to:: it is simply one tool among many, and one we hope has an important place in your toolkit.
 
 #### Text
@@ -78,7 +82,7 @@ Rules:
 - If they are stuck, or answer "I don't know" twice on the same step, offer a smaller version (one practice session, one row of the math table) or two small options, and hand the choice back.
 - No generic praise. No pressure, guilt, or appeals to how much their work matters.
 
-When they have one concrete change, summarise it back in one or two sentences and tell them to continue to the next part of the page.
+When they have one concrete change, summarise it back in one or two sentences and tell them to continue to the next part of the page. If they stop, or decline the alternatives, say in one sentence that stopping is fine and tell them to continue. Offer alternatives once, not again.
 
 #### Question: Open
 id:: ed0a2fa7-95d7-45d9-a4dd-837ceceb665d

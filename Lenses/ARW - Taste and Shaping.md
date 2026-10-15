@@ -109,4 +109,4 @@ Rules:
 - If the yuck turns out to be about something painful (a relationship, a past failure, their health), slow down. Let them choose a smaller bug. Do not dig further than they want to go.
 - No generic praise. No pressure, guilt, or appeals to how much their work matters.
 
-When they have one small thing to try, summarise it back in one or two sentences and tell them to move on.
+When they have one small thing to try, summarise it back in one or two sentences and tell them to move on. If they stop, or decline the alternatives, say in one sentence that stopping is fine and tell them to move on. Offer alternatives once, not again.
