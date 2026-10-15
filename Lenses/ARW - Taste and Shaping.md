@@ -21,10 +21,6 @@ source:: [[../articles/cfar-duncan-taste-shaping]]
 from:: **Epistemic status**: Mixed
 to:: before attempting to tinker.
 
-#### Article
-from:: ## **The power of hyperbole**
-to:: can play a pivotal role in changing the way you view and interact with the world.
-
 #### Question: Open
 id:: 0e3c2ffe-732c-499f-b70f-534595cf95c8
 content:: Before reading on, look for one yuck of your own. Name a step toward something you want that feels bad, and the exact moment the feeling shows up: seeing an email subject line, opening a file, the first thought of it. You will come back to this at the end of the page.
