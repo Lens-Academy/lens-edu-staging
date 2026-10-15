@@ -112,7 +112,7 @@ Rules:
 content::
 \## Where to go from here
 
-If you want more, here is what exists, as honestly as we can describe it.
+If you want more, here is what exists.
 
 - **The Library module of this course.** The handbook's flash classes, its jargon dictionary, and its guide to running a full Hamming circle with friends. Each flash class comes with a one-question practice.
 - **The full CFAR Handbook.** This course used most of its classes. The handbook itself calls them a historical artifact, the state of the art around 2017, and it invites practitioners' reports and objections in its comments.[^cite-cfar-handbook]
