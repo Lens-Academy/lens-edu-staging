@@ -2,9 +2,9 @@
 id: '0d44750f-d848-4ad1-89c4-7ac5b93a219b'
 title: "Goodhart's Imperius"
 tldr: "Your brain trains you toward proxies for what you want, and proxies never quite match the real thing. One result: you can stop seeing things that hurt to look at. Find one of those blind spots and look at it on purpose."
-summary_for_tutor: "Week 4 of the Applied Rationality Workshop. Duncan Sabien's essay Goodhart's Imperius, a follow-up to the CFAR Handbook's Taste & Shaping chapter, which the learner has just read. The author labels it mixed/speculative. Claims: Goodhart's law (proxies leak), tiny immediate feelings condition strongly, the brain builds implicit models that emit approach/avoid signals, and the brain conditions us toward proxies without our noticing (the monkey dopamine studies). Corollary: because proxies leak, it conditions us wrong. The example is a bathroom scale that becomes a blind spot, because the 'owch' on glancing at it trains the glance away. The learner guesses why the dopamine spike moves before reading the author's answer, then looks for one of their own blind spots with the tutor."
+summary_for_tutor: "Week 4 of the Applied Rationality Workshop. Duncan Sabien's essay Goodhart's Imperius, a follow-up to the CFAR Handbook's Taste & Shaping chapter, which the learner has just read. The author labels it mixed/speculative. Claims: Goodhart's law (proxies leak), tiny immediate feelings condition strongly, the brain builds implicit models that emit approach/avoid signals, and the brain conditions us toward proxies without our noticing (the monkey dopamine studies). Corollary: because proxies leak, it conditions us wrong. The example is a hypothetical bathroom scale that becomes a blind spot, because the 'owch' on glancing at it trains the glance away. The lens shows Claim 1 and Claim 4 onward (Claims 2 and 3 repeat Taste & Shaping and are left collapsed). The learner guesses why the dopamine spike moves before reading the author's answer, then looks for one of their own blind spots with the tutor."
 tags: [wip]
-reading_minutes: 10
+reading_minutes: 7
 tutor_minutes: 12
 min_chat_messages: 3
 ---
@@ -12,11 +12,17 @@ min_chat_messages: 3
 content::
 \## A short follow-up
 
-Duncan Sabien wrote this essay about a class he taught at CFAR workshops, as a follow-up to Taste & Shaping. It makes the last page's mechanism sharper, and he rates his own confidence in it as "mixed/speculative". The essay pauses once to ask you to think before reading on. A question box sits at that point.
+Duncan Sabien wrote this essay about a class he taught at CFAR workshops, and the handbook recommends it as a follow-up to Taste & Shaping. It applies the last page's mechanism to proxies: things you track in place of what you actually care about. He rates his own confidence in it as "mixed/speculative".
+
+This page shows Claim 1 and then Claim 4 onward. Claims 2 and 3 repeat points from Taste & Shaping (tiny, immediate feelings condition you strongly, and taste is a fast gut verdict built from experience), so they are left collapsed. The essay pauses once to ask you to think before reading on. A question box sits at that point.
 
 #### Article
 source:: [[../articles/inactive-goodharts-imperius]]
 from:: _Author's note: this essay was originally written to reflect a class
+to:: discovered that our preferences were hardwired to the _proxy_ rather than to the Actual Good Thing.
+
+#### Article
+from:: ### **Claim 4: Our brains condition us, often without us noticing.**
 to:: The dopamine spike _moves?_ How? _Why?_
 
 #### Question: Open
@@ -32,7 +38,7 @@ to:: hedge against the possibility.)_
 content::
 \## Find your bathroom scale
 
-The scale in the essay is any check you have stopped making because looking hurts a little each time. Examples: a bank balance, an inbox folder, a draft you abandoned, the feedback form from your last talk, the metrics of a project that is not going well. A blind spot like this often does not make it onto a bugs list, because you do not see it. Here is your list anyway:
+The essay's bathroom scale is a made-up example. In your life it can be any check you have stopped making because looking hurts a little each time. Examples: a bank balance, an inbox folder, a draft you abandoned, the feedback form from your last talk, the metrics of a project that is not going well. A blind spot like this often does not make it onto a bugs list, because you do not see it. Here is your list anyway:
 
 ::answer{id="2b1b06a5-3a8d-46c2-8867-f2a16feeb010" fallback="You don't have a bugs list yet. That's fine for this exercise."}
 
@@ -40,7 +46,7 @@ Look for something that should be on it and isn't, or a bug on it that you keep 
 
 #### Chat
 instructions::
-You are the learner's pair-debugging partner, in the style of a CFAR workshop. The learner has just read Duncan Sabien's essay Goodhart's Imperius. In it, the author's bathroom scale becomes a blind spot: each glance at it brings a tiny "owch", the owch trains the glance away, and after a while he stops noticing the scale at all. The author's fix is to notice it, say "thanks for trying, brain" rather than criticise himself (criticism would land on the noticing), think about what the incentives ought to be, and try for a gut-level shift in that direction. You ask, they think.
+You are the learner's pair-debugging partner, in the style of a CFAR workshop. The learner has just read Duncan Sabien's essay Goodhart's Imperius. In its hypothetical example, a bathroom scale becomes a blind spot: each glance at it brings a tiny "owch", the owch trains the glance away, and after a while the person stops noticing the scale at all. The essay says that if you are lucky, you eventually notice what is going on. Then you say "thanks for trying, brain" rather than criticise yourself (criticism would land on the noticing), think about what the incentives ought to be, and try for a gut-level shift in that direction. This exercise looks for such a blind spot on purpose instead of waiting for luck. You ask, they think.
 
 You cannot see their bugs list. Start by asking whether anything came to mind.
 
