@@ -4,7 +4,7 @@ slug: arw-m6-other-people-and-wrapping-up
 title: "Other people, and wrapping up"
 tags: [wip]
 ---
-%% Week 6, the last week of the Applied Rationality Workshop (CFAR Handbook). Report back on week 5, then Double Crux (practised in a roleplay against Jordan, who takes the other side of the learner's own disagreement or a default AI-safety strategy question), Seeking PCK (prepares the meeting's tutoring wheel: each learner picks one technique to teach in five minutes and tries it on Robin), then the final review of the bugs list and Hamming question with a practice plan, and the week-6 experiment question framed as the ongoing practice commitment. Lens times: report back 18, Double Crux 55, Seeking PCK 40, Looking back 36, plan 8 (157 min), plus the Double Crux test (15) and the PCK test (12), about 3 h 4 min. %%
+%% Week 6, the last week of the Applied Rationality Workshop (CFAR Handbook). Report back on week 5, then Double Crux (practised in a roleplay against Jordan, who takes the other side of the learner's own disagreement or a default AI-safety strategy question), Seeking PCK (prepares the meeting's tutoring wheel: each learner picks one technique to teach in five minutes and tries it on Robin), then the final review of the bugs list and Hamming question with a practice plan, and the week-6 experiment question framed as the ongoing practice commitment. Lens times: report back 18, Double Crux 49, Seeking PCK 40, Looking back 36, plan 8 (151 min), plus the Double Crux test (15) and the PCK test (12), about 2 h 58 min. %%
 
 # Submodule: Report back
 # Lens:
