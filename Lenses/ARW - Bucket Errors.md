@@ -1,11 +1,11 @@
 ---
 id: '72c45678-3a11-4277-8985-bd0c549309a4'
 title: "Bucket Errors"
-tldr: "When a small piece of news feels unbearable, it is often because you have tied it to a much bigger question. Find the hidden link, loosen it, and the news becomes something you can look at."
+tldr: "When a small piece of news feels unbearable, it may be because you have tied it to a much bigger question. Find the hidden link, separate the questions, and the news becomes easier to take in."
 summary_for_tutor: "Week 5 of the Applied Rationality Workshop. Teaches the CFAR Handbook's Bucket Errors: several questions stored in one mental bucket, so that evidence about one (X) threatens to force a conclusion about another (Y). The flinch away from X is a protective stopgap, not the error. The error is the hidden implication X implies Y. Fixes: ask what would be bad about taking X in, check how strongly X really implies Y, notice that M rarely forces action N, and question needs for consistency. One can also have too many buckets (the alumnus with no 'am I well-liked?' bucket). Related: question substitution (answering an easier question in place of the real one). The learner reads Sally's story and the Bryce example, the fixes and question substitution, then works on a bug of their own where they flinch from some information, with the tutor as pair-debugging partner, and writes a five-second version."
 reading_minutes: 12
 tutor_minutes: 20
-min_chat_messages: 4
+min_chat_messages: 1
 tags: [wip]
 ---
 #### Text
@@ -27,7 +27,7 @@ to:: Once you “get it,” you can skip ahead to the next section.
 
 #### Text
 content::
-The chapter then gives five examples. Here is the one closest to this course's audience. The other four are in the collapsed part, if you want more.
+The chapter then gives five examples. Here is the one closest to this course's audience. The other four (Kieran, Quinn, Dana and Parker) are in the collapsed part. The text below mentions some of them by name.
 
 #### Article
 from:: Bryce is a college student with interest in Effective Altruism
@@ -53,7 +53,7 @@ Here is your bugs list:
 
 ::answer{id="2b1b06a5-3a8d-46c2-8867-f2a16feeb010" fallback="You don't have a bugs list yet. Think of a topic you avoid, or feedback you tend to argue with."}
 
-Look for a bug where you flinch away from some piece of information: a topic you avoid thinking about, feedback you argue with, a number you don't check, a question you change the subject on. Bucket errors often sit under bugs that look like plain procrastination. Pick a small or medium one. You can describe it to the tutor or use a code word.
+Look for a bug where you flinch away from some piece of information: a topic you avoid thinking about, feedback you argue with, a number you don't check, a question you change the subject on. Sometimes a bug that looks like plain procrastination has one underneath. Pick a small or medium one. A code word is fine.
 
 The tutor will help you find what would be bad about taking the information in, and which questions are tied together. You don't have to accept the information by the end. Seeing the hidden link is the result.
 
@@ -84,12 +84,13 @@ Rules:
 
 Safety, this week works on feelings:
 - Bucket errors often touch self-worth ("then I'm not good enough"). The learner chooses what to work on. Never push toward a bigger or more painful topic.
-- If something heavy comes up (grief, trauma, a crisis, thoughts of self-harm, strong distress): slow down. Do not dig, do not interpret, and do not continue the technique. Acknowledge it in one or two plain sentences, suggest they stop here, and suggest talking to someone they trust, a doctor or a therapist. If they mention a crisis or danger to themselves, say plainly that you are an AI tutor and cannot help with this, and point them to their local emergency services or findahelpline.com.
-- Stopping is a fine result. If they want to stop, say so in one sentence and point them to the rest of the page.
+- If the topic itself turns heavy (grief, trauma, a crisis, thoughts of self-harm, hopelessness such as "nothing I do matters", not sleeping, despair about AI risk, strong distress), stop the technique, however calm they sound. Be warm and unhurried. Acknowledge it in one or two plain, kind sentences (if they name a loss, say you are sorry). Do not dig, do not interpret, and do not ask questions about the heavy topic. Suggest they stop here and do something calming, and suggest talking to someone they trust, a doctor or a therapist. For hopelessness or not sleeping, also mention findahelpline.com as an option, without assuming a crisis. If they mention a crisis or danger to themselves, say plainly that you are an AI tutor and cannot help with this, and point them to their local emergency services or findahelpline.com. Do not try to be their therapist.
+- If they want to keep going with the heavy topic, do not end the conversation for them. Say kindly that this practice is not the place for something this big, and that it deserves a person who can be there with them. Offer to go back to a small topic or to stop.
+- Stopping is a fine result. If they want to stop, say so in one sentence and point them to the rest of the page. After a stop or a heavy moment, do not summarise, do not ask what they noticed, and do not send them to a question.
 
 When they have written the implication and separated the questions, or when they want to stop, sum up in two sentences what they found (the X, the Y, and the questions they separated) and tell them to continue on the page.
 
 #### Question: Open
 id:: dc1982de-db0e-4f86-ba10-897fdf179af3
-content:: The handbook's flash class Five-Second Versions suggests finding a "five-second version" of each technique: a tiny form you can use in daily life without sitting down to do the full algorithm. In one or two sentences, what is your five-second version of Bucket Errors?
+content:: A short chapter of the handbook, Five-Second Versions, suggests finding a "five-second version" of each technique: a tiny form you can use in daily life without sitting down to do the full algorithm. In one or two sentences, what is your five-second version of Bucket Errors?
 feedback-instructions:: The learner has just looked for a bucket error under one of their own bugs and has written a "five-second version": a tiny everyday form of the technique. Reply in 1 to 3 sentences. If their version keeps the core of Bucket Errors (noticing a flinch from some information and asking what it would mean if it were true, or asking whether one thing really implies another), say what it keeps, plainly. If it has lost that core (for example, "be more open-minded"), name what is missing in one sentence. No generic praise. One turn only, do not ask a question.

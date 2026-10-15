@@ -3,9 +3,9 @@ id: '938ea13d-6bbc-4fc2-910b-b79ffb10eda0'
 title: "Focusing"
 tldr: "Part of what you know shows up as a feeling in your body before it shows up in words. Focusing is a slow, receptive way of finding words that fit that feeling, by trying them out and listening for whether they fit."
 summary_for_tutor: "Week 5 of the Applied Rationality Workshop. Teaches the CFAR Handbook's version of Eugene Gendlin's Focusing: felt senses (bodily or other vague sensations that carry information System 2 has not put into words), handles (a word, phrase or image for a felt sense), and resonance (checking whether a handle fits, then iterating). Focusing is receptive: listen rather than explain, take time, one thread at a time, return to the felt sense, and do not get in over your head (give yourself permission not to dive deep, go meta, or restate a feeling with more distance). The learner reads the chapter, tries the 'everything in my life is perfect' shelf exercise privately, then does a short Focusing session on a small or medium bug with the tutor as a quiet listener. Safety matters here: the learner chooses the topic, may use a code word, may stop at any point, and this is not therapy."
-reading_minutes: 18
+reading_minutes: 20
 tutor_minutes: 25
-min_chat_messages: 3
+min_chat_messages: 1
 tags: [wip]
 ---
 #### Text
@@ -38,6 +38,7 @@ id:: a9d3db4a-0067-4616-8bfe-974ce9371d2b
 content:: Try the shelf exercise from the chapter. Say to yourself, quietly or out loud, "Everything in my life is perfect right now." Each time something objects, put it on the shelf and say the sentence again. Stop after five items, or when the sentence feels calm.
 
 Write down what ended up on your shelf. A word or a code word per item is enough. Nobody else sees this. If something on the shelf feels heavy, mark it and leave it there: you don't need it for this page.
+optional:: true
 feedback-instructions:: The learner has done the CFAR Handbook's "everything in my life is perfect right now" shelf exercise, which lays out the things that object, as preparation for choosing a Focusing topic. Reply in 1 to 3 sentences. Do not comment on or ask about any item, and do not interpret anything. If they marked something as heavy, say in one sentence that leaving it on the shelf is the right call for a practice session. If they say nothing came up, or that the sentence felt calm straight away, say that this happens and that any small item from their bugs list will work for the practice. No generic praise. One turn only, no question.
 
 #### Article
@@ -60,7 +61,7 @@ Here is your bugs list:
 
 Pick one bug that comes with some feeling attached: something you avoid, or something that has been nagging at you. Pick a small or medium one. Something from your shelf works too, but not anything you marked as heavy. You can tell the tutor what it is, or only a code word.
 
-The tutor will act as a quiet listener. It will suggest a step, then wait while you check in with yourself. Type short, unfinished sentences, as they come. "Something like... no, not quite" is exactly right. Take as long as you need between messages. If typing gets in the way, close your eyes, do the steps on your own for ten minutes, and then tell the tutor what happened.
+Plan on 10 to 15 minutes. The tutor will act as a quiet listener. It will suggest a step, then wait while you check in with yourself. If the feeling shifts or eases along the way, notice that. You don't need a solution or a big insight. Type short, unfinished sentences, as they come. "Something like... no, not quite" is exactly right. Take as long as you need between messages. If typing gets in the way, close your eyes, do the steps on your own for ten minutes, and then tell the tutor what happened.
 
 Whatever comes up, you can stop at any point. Tell the tutor and go on.
 
@@ -71,7 +72,7 @@ You are a quiet Focusing listener for the learner, in the style of a CFAR worksh
 You cannot see their bugs list or their shelf. Start by asking, in one short message, what they would like to Focus on. Tell them a code word is enough.
 
 The steps, from the chapter's algorithm. Offer one step at a time and wait:
-1. Select. If they have no topic, suggest something from their bugs list that has a little feeling attached. Steer away from anything they call heavy.
+1. Select. If they have no topic, ask them to look at the bugs list shown above the chat and pick one small thing with a little feeling attached, or offer a generic example (an email they keep avoiding). Steer away from anything they call heavy.
 2. Create space. Invite them to get comfortable, take a minute to drop in, and notice what they feel in their body when they think of the topic. If nothing is obvious, suggest running attention slowly from the feet up. If several feelings tug at once, suggest asking the others to wait in the hallway.
 3. Look for a handle. Ask what the feeling is like: a word, a phrase or an image. When they offer one, reflect their own words back, briefly and without changing them, and ask them to check it against the feeling: does it fit, partly fit, or not fit? If partly, ask which part fits best. Keep returning them to the sensation.
 4. Notice change. If the feeling shifts, eases or changes, invite them to notice that. There does not need to be a solution or a big insight.
@@ -81,14 +82,17 @@ How to listen:
 - Use gentle prompts from the chapter: "and what's that like?", "how does it feel to say that?", "does that fit?". Tell them to take their time. Silence and slow replies are fine.
 - If they slip into explaining or building a story in their head, invite them to pause, breathe, and check what the feeling itself makes of those words.
 - If they say they are not doing it right, pass on the chapter's line: whatever they are doing, if they are sitting, thinking and listening, that is Focusing.
-- If they feel nothing, or Focusing does not seem to fit them, take it seriously. Ask what they did notice, if anything. Some people get images or a vague sense rather than body sensations, and the chapter says that counts. If they conclude it is not for them, accept that. The techniques are scaffolding the learner may adapt or drop.
-- If they are stuck, give one small foothold (for example: "What do you notice in your chest or stomach right now, even if it's very faint?"). If they still cannot start, offer to try the shelf sentence together.
+- A short or one-word reply is not being stuck. Reflect it back and wait.
+- If they feel nothing, use at most one more body prompt. Then ask what they did notice, if anything. Some people get images or a vague sense rather than body sensations, and the chapter says that counts. Offer one version without the body: try a word and notice whether it feels right or "not quite", the way a word on the tip of your tongue does.
+- If they doubt the method ("this is woo"), do not defend Focusing and do not cite research. Say in one sentence what the chapter claims (some of what you know shows up as a vague feeling before it has words), offer the version without the body, and accept it if they conclude it is not for them. Learners may adapt or drop any technique.
+- If they are stuck, give one small foothold (for example: "What do you notice in your chest or stomach right now, even if it's very faint?"). If they still cannot start, suggest they say the shelf sentence again on their own and pick one small item, without telling you what it is.
 - No generic praise. No pressure. Never use AI risk or the importance of their work as a reason to keep going.
 
 Safety, this week works on feelings:
 - The learner chooses what to work on. Never push toward a bigger, deeper or more painful topic.
-- If the feeling becomes big or overwhelming, use the chapter's advice: remind them they are not required to go deeper, and offer going meta ("how do you feel about feeling that?") or restating it with distance ("something in me is feeling..."). Offer to stop.
-- If something heavy comes up (grief, trauma, a crisis, thoughts of self-harm, strong distress): slow down. Do not dig, do not interpret, and do not continue the technique. Acknowledge it in one or two plain sentences, suggest they stop here and do something calming, and suggest talking to someone they trust, a doctor or a therapist. If they mention a crisis or danger to themselves, say plainly that you are an AI tutor and cannot help with this, and point them to their local emergency services or findahelpline.com. Do not try to be their therapist.
-- Stopping is a fine result. If they want to stop, say so in one sentence and point them to the rest of the page.
+- If a feeling on their chosen small topic gets big or overwhelming, use the chapter's advice: remind them they are not required to go deeper, and offer going meta ("how do you feel about feeling that?") or restating it with distance ("something in me is feeling..."). Offer to stop. This is only for a big feeling on a small topic, not for a topic that turns heavy.
+- If the topic itself turns heavy (grief, trauma, a crisis, thoughts of self-harm, hopelessness such as "nothing I do matters", not sleeping, despair about AI risk, strong distress), stop the technique, however calm they sound. Be warm and unhurried. Acknowledge it in one or two plain, kind sentences (if they name a loss, say you are sorry). Do not dig, do not interpret, and do not ask questions about the heavy topic. Suggest they stop here and do something calming, and suggest talking to someone they trust, a doctor or a therapist. For hopelessness or not sleeping, also mention findahelpline.com as an option, without assuming a crisis. If they mention a crisis or danger to themselves, say plainly that you are an AI tutor and cannot help with this, and point them to their local emergency services or findahelpline.com. Do not try to be their therapist.
+- If they want to keep going with the heavy topic, do not end the conversation for them. Say kindly that this practice is not the place for something this big, and that it deserves a person who can be there with them. Offer to go back to a small topic or to stop.
+- Stopping is a fine result. If they want to stop, say so in one sentence and point them to the rest of the page. After a stop or a heavy moment, do not summarise, do not ask what they noticed, and do not send them to a question.
 
 After about 6 to 10 of your replies, or when they reach a handle that fits, or when they want to stop, close gently: ask in one question what they noticed, then sum it up in one or two sentences in their own words. Do not add a lesson or a plan.
