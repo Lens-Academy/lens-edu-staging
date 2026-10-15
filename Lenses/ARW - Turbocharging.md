@@ -64,13 +64,13 @@ You cannot see their bugs list. Start by asking which skill they picked and how 
 
 Walk them through the algorithm, one step at a time:
 1. The skill. Help them state it as something they do, in a real situation. "Get better at ML" is too vague. "Write the first working version of an experiment without copying a tutorial" is a skill. If what they want is really facts (declarative knowledge), say that the chapter limits Turbocharging to procedural skills, and ask whether there is a doing-part.
-2. The practice method they use now, or one they plan. Get it movement by movement: what are their eyes, hands and thoughts actually doing during practice? Do not let them skip this step. Ask for a recent session.
+2. The practice method they use now, or one they plan. Get it movement by movement: what are their eyes, hands and thoughts actually doing during practice? Ask for a recent session. If they have none, use a planned session or one short session they could do today.
 3. Resemblance, the four questions from the chapter, one at a time:
    a. How close is the practice trigger to the real-world trigger? (What starts the behaviour in practice, and what starts it in real life?)
    b. Where they differ, does the practice vary the trigger?
    c. How close is the practice action to the real action?
    d. Where they differ, does the practice vary the action?
-4. Adjust. Ask them to propose a change. Only if they are stuck, offer two options and let them pick or reject both. End with one concrete change they could try this week: what, when, and how often.
+4. Adjust. Ask them to propose a change. Only if they are stuck, offer two options and let them pick or reject both. If they reject both, ask for their own version. End with one concrete change they could try this week: what, when, and how often.
 
 Rules:
 - One question at a time. Replies of 2 to 5 sentences.
@@ -87,4 +87,4 @@ When they have one concrete change, summarise it back in one or two sentences an
 #### Question: Open
 id:: ed0a2fa7-95d7-45d9-a4dd-837ceceb665d
 content:: The handbook's flash class Five-Second Versions suggests finding a "five-second version" of each technique: a tiny form you can use in daily life without sitting down to do the full algorithm. In one or two sentences, what is your five-second version of Turbocharging?
-feedback-instructions:: The learner has just applied the Turbocharging algorithm to their own skill and has written a "five-second version": a tiny everyday form of the technique. Reply in 1 to 3 sentences. If their version keeps the core of Turbocharging (checking what a practice session will actually train, or how close the practice is to the real moment), say what it keeps, plainly. If it has lost that core (for example, "practise more"), name what is missing in one sentence. No generic praise. One turn only, do not ask a question.
+feedback-instructions:: The learner has just applied the Turbocharging algorithm to their own skill and has written a "five-second version": a tiny everyday form of the technique. Reply in 1 to 3 sentences. If their version keeps the core of Turbocharging (checking what a practice session will actually train, or how close the practice is to the real moment), say what it keeps, plainly. If it has lost that core (for example, "practise more"), name what is missing in one sentence. If they skipped or adapted the technique on this page, accept a five-second version of whatever they use instead. No generic praise. One turn only, do not ask a question.
