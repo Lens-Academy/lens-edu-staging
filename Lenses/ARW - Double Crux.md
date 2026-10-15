@@ -3,7 +3,7 @@ id: 'd08b83ad-66a3-494a-a2c5-69123532ccf8'
 title: "Double Crux"
 tldr: "When a disagreement goes in circles, stop trading conclusions. Look together for the belief underneath that would change both of your minds, and agree on what follows if it is true."
 summary_for_tutor: "Week 6 of the Applied Rationality Workshop, the course's one technique for disagreements between people. Teaches the CFAR Handbook's Double Crux (epistemic status: Preliminary/tentative). Disagreements usually trade outputs (conclusions) instead of models. The Good Faith Principle: absent clear evidence, assume the other person reasons in good faith (the 70/30 marble argument). A crux is a belief that, if it changed, would change your conclusion. A double crux is a statement both people disagree about that would change either one's mind. The victory condition is a shared if-then statement, not winning. Algorithm: 1 find a disagreement (or different confidences), 2 operationalize (define terms, specific test cases, actions over beliefs), 3 seek double cruxes (each alone and then compare, or together: 'it would take A, B or C to make me stop believing X'), 4 resonate (inhabit both sides, check the if-then with the inner simulator), 5 repeat. The learner writes their own cruxes for a real disagreement, then practises in a roleplay against Jordan, who takes the other side, and names a five-second version."
-reading_minutes: 22
+reading_minutes: 16
 tutor_minutes: 33
 tags: [wip]
 ---
