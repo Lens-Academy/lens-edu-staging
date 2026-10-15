@@ -11,7 +11,8 @@ tags: [wip]
 content::
 \## Teaching as practice
 
-At the group meeting for this unit, everyone teaches one technique from the course to the others in about five minutes, then switches and is taught. CFAR workshops called this the tutoring wheel. One participant who wrote up a 2017 workshop called it "a really strong way to help people understand the techniques".[^cite-owen-2017] This page prepares you for it. If you are taking the course alone, the meeting page explains how to do the same with the tutor.
+At the group meeting for this unit, everyone teaches one technique from the course to the others in about five minutes, then switches and is taught. CFAR workshops called this the tutoring wheel. One mentor at a February 2017 workshop wrote that it was "a really strong way to help people understand the techniques".[^cite-owen-2017] This page prepares you for it. If you are taking the course alone, the meeting page explains how to do the same with the tutor.
+It is also practice for you, not only for the people you teach. We think explaining a technique to someone new is one of the quickest ways to find the parts you only half understand yourself.
 
 Teaching well takes a particular kind of knowledge: not just how a technique works, but how people get it wrong when they first meet it. The handbook calls this pedagogical content knowledge, or PCK.
 
@@ -44,9 +45,9 @@ to:: And this goes double when the person you're teaching is yourself.
 content::
 \## Prepare your five minutes
 
-Pick one technique from this course that you would like to teach in the meeting. It does not have to be the one you are best at. A technique you got wrong at first is often a good choice, since you know the mistake from the inside.
+Pick one technique from this course that you would like to teach in the meeting. It does not have to be the one you are best at. We think a technique you got wrong at first makes a good choice, since you made the mistake yourself.
 
-Your best example is one you used yourself. Here is your bugs list, in case one of your bugs makes a good story:
+We also think the best example is one you used yourself. Here is your bugs list, in case one of your bugs makes a good story:
 
 ::answer{id="2b1b06a5-3a8d-46c2-8867-f2a16feeb010" fallback="You don't have a bugs list yet. Any time you used a technique from the course works as an example."}
 
