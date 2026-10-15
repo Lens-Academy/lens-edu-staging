@@ -8,7 +8,7 @@ summary_for_tutor: "Unit 4 of AI Control Fundamentals. Builds on Jan Kulveit's '
 ---
 #### Text
 content::
-In Unit 1 you read Jan Kulveit's short argument that control may increase existential risk: it turns moderate, visible incidents, which push the world to act, into quiet catches inside a company, or into a larger failure later. Re-read it below if you want. Then read the discussion it started.
+In Unit 1 you read Jan Kulveit's short argument that control may increase existential risk: it turns moderate, visible incidents, which push the world to act, into quiet catches inside a company, or into a larger failure later. Re-read it below. Then read the discussion it started.
 
 #### Article
 source:: [[../articles/kulveit--ai-control-may-increase-existential-risk]]
