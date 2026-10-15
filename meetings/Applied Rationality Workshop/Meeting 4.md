@@ -270,4 +270,3 @@ Explore/exploit problem: The trade-off between spending resources on known goods
 Chesterton's Fence: The lesson not to tear down a barrier until you understand why it was put up.
 Exposure therapy: Gradually more intense exposure to something, to reduce anxiety about it. The handbook contrasts it with CoZE because it works whether or not removing the aversion is a good idea.
 Accept all worlds: The CoZE step of checking that both futures, doing the thing and not doing it, feel okay before you experiment.
-Exposure therapy: Gradually more intense exposure to something, to reduce anxiety about it. The handbook contrasts it with CoZE because it works whether or not removing the aversion is a good idea.
