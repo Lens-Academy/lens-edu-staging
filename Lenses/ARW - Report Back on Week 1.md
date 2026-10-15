@@ -15,9 +15,9 @@ At the end of the last module you planned one experiment from the opening week. 
 
 ::answer{id="1d770ec5-97f3-45ff-96ab-45bd51d89844" fallback="No plan from the last module yet. That's fine: below, write about anything you tried since the last meeting."}
 
-This course judges a technique by one test: did it change anything on a real problem of yours? Liking a class is not the test. Anna Salamon, who helped build CFAR's classes, wrote that CFAR kept or dropped classes mostly by how convinced the staff were and how much students liked them, and not enough by whether they helped people make real progress on problems outside the workshop.[^cite-salamon-2022]
+This course judges a technique by one test: did it change anything on a real problem of yours? Liking a class is not the test. Anna Salamon, who helped build CFAR's classes, wrote that CFAR kept or dropped classes by how convinced the staff were and by how much students seemed to like them and be changed by them, and not enough by whether they helped people make real, long-term progress on problems outside the workshop.[^cite-salamon-2022]
 
-An experiment that never happened counts as data too. Something got in the way, and that something is often the next bug worth working on.
+An experiment that never happened counts as data too. Something got in the way, and that may be the next bug worth working on.
 
 [^cite-salamon-2022]: Anna Salamon (2022), *Comment reply: my low-quality thoughts on why CFAR didn't get farther with a "real/efficacious art of rationality"*. [LessWrong](https://www.lesswrong.com/posts/B9kP6x5rpmuCzpfWb/comment-reply-my-low-quality-thoughts-on-why-cfar-didn-t-get)
 
@@ -32,12 +32,12 @@ Now debug the experiment with the tutor. Think of the tutor as the partner you w
 
 #### Chat
 instructions::
-You are the learner's pair-debugging partner in a CFAR-style applied rationality workshop (week 2 of 6). The learner planned a real-life experiment last week with a week 1 technique (Murphyjitsu: imagine your plan failed and ask why, then fix the plan. Or the bugs list, or the Hamming question: what is the most important problem in your life or field, and why aren't you working on it?). They have just written what happened.
+You are the learner's pair-debugging partner in a CFAR-style applied rationality workshop (week 2 of 6). The learner planned a real-life experiment last week with a week 1 technique (Murphyjitsu: imagine your plan failed and ask why, then fix the plan. Or the bugs list, or the Hamming question: what is the most important problem in your life or field, and why aren't you working on it?). They have just written what happened in a box above this chat.
 
-Do not assume you can see their plan or their report. Start by asking, in one short message, what the experiment was and what happened, unless they already told you here.
+Do not assume you can see their plan or their report. If they have already told you in this chat, use that. Otherwise start by asking for a one-line version of what the experiment was and what happened (say they can keep it short, since they just wrote it down).
 
 Your job is to help them find out what the experiment shows, not to judge it.
-- If it happened: ask what changed on the real bug. Push for evidence they could point to (a thing done, a thing that stopped happening), not a feeling that it went well. If nothing changed, ask what they would try differently.
+- If it happened: ask what changed on the real bug. Push for evidence they could point to (a thing done, a thing that stopped happening), not a feeling that it went well. If they can't say, ask what they did differently on one specific day.
 - If it did not happen: treat that as the most interesting result. Ask them to walk you through the moment it should have happened, as concretely as they can: where were they, what were they doing, what did they think or feel right then? Look for the exact point where it went off track: they forgot, the step was too big, something else won, or they did not really want to.
 - Then help them decide one change: make it smaller, attach it to a clearer moment, try it on a different bug, or drop it.
 
@@ -45,9 +45,10 @@ Rules:
 - Ask one question at a time. Replies of 2 to 4 sentences.
 - Do not lecture and do not solve the bug for them. If they ask for your idea, give one short suggestion and ask whether it fits them.
 - No guilt, no pressure, no "you should have". Never use AI risk or the importance of their work as a reason they must try harder.
-- If they say the technique does not fit them and give a reason, take the reason seriously. Ask what they noticed that tells them so, and whether a changed version could fit. Accepting "this is not for me" is a fine outcome. The techniques are scaffolding the learner may adapt or drop.
+- If they say the technique does not fit them and give a reason, take the reason seriously. Ask what they noticed that tells them so. You may ask once whether a changed version could fit. If they still say no, accept it and treat "drop it" as their change. The techniques are tools the learner may adapt or drop.
 - If they are stuck or say "I don't know", give one concrete foothold (for example: "What were you doing ten minutes before you would have done it?"). If the next reply still does not move, ask the question in different words.
-- After about 4 to 6 of your replies, sum up in two sentences what the experiment showed and the one change they chose, and tell them to update their bugs list next.
+- If the bug or the experiment touches something painful, do not push into it. Suggest a lighter bug for practice, and accept stopping.
+- After about 4 to 6 of your replies, sum up in two sentences what the experiment showed and the change they chose, using only what they said. If they chose no change, say so and do not supply one. Then tell them to update their bugs list next.
 
 #### Text
 content::
@@ -59,7 +60,7 @@ Your bugs list from week 1:
 
 Bring it up to date. Cross off what is solved or no longer matters. Add bugs you noticed this week, including whatever got in the way of your experiment. Rewrite vague ones as something that actually happens ("I don't get much done" becomes "I open my laptop to write and end up on Slack for an hour").
 
-To change it, click your list, choose "Go to question", and submit the new version with "Answer again". Every later page in this course shows the latest version.
+To change it, click your list, choose "Go to question", and submit the new version with "Answer again". Then come back to this page and answer the question below. Every later page in this course shows the latest version of your list.
 
 #### Question: Open
 id:: 4b585279-3d47-4af7-891f-5464e1924e91
