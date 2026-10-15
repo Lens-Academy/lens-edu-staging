@@ -27,7 +27,7 @@ source:: [[../articles/greenblatt-comment-on-ai-control-may-increase-existential
 content::
 \## Kulveit answers
 
-Kulveit replied the next day. He quotes parts of Greenblatt's comment and answers them. Here are his answers. ("OpenMind" is a made-up company name.)
+Kulveit replied the next day. He quotes parts of Greenblatt's comment and answers each one. The quoted parts are Greenblatt's words, shown so you can see what Kulveit is answering. ("OpenMind" is a made-up company name.)
 
 #### Article
 source:: [[../articles/kulveit-comment-on-ai-control-may-increase-existential-risk-comment]]
