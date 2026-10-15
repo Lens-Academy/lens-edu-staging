@@ -89,6 +89,7 @@ Aversion factoring splits something you avoid into parts. You may mind only one 
 - wind in your face: great
 - people watching: bad
 
+1. Anyone who wants names something they avoid but think worth doing. Pick one. No takers? Use flossing.
 2. Split it into five or more parts, including tiny snags (the floss sits in a drawer). Its owner gives each part a short verdict.
 3. For the worst part, everyone votes: fix the situation, change the reaction, or keep the aversion because it protects against a real cost?
 4. Take the most popular option. What would it cost in money, time, attention or awkwardness?
