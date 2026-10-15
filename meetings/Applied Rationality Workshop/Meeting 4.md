@@ -19,7 +19,7 @@ source:: [[../shared/Session Doc - How today works]]
 Go around your group:
 1\. How was this unit? Did you finish it? If you didn't, what got in the way?
 2\. The experiment you reported on at the start of this unit: in one sentence, what did you try?
-3\. Did it change anything on a real problem? If it didn't happen, what got in the way at the moment it should have?
+3\. What changed on the real problem it was aimed at? "Nothing" and "it didn't happen" are fine answers.
 4\. If you still have time: Taste & Shaping, from this unit, says a bad feeling trains away whatever you did just before it. What do you say to yourself right after you spot one of your own mistakes?
 
 
@@ -45,13 +45,11 @@ One or two people share what their group landed on.
 
 The idea behind Turbocharging, from this unit, in one line: you get good at what you actually rehearse. So good practice starts the way the real situation starts, and makes you do what you will really have to do.
 
-1\. One person names a skill they want to get better at (in research, work or anything else) and describes, step by step, how they practise it now. If you already picked a change on the Turbocharging page, describe the practice with that change.
+1\. One person names a skill they want to improve (in research, work or anything else) and describes, step by step, how they practise it now.
 2\. The others ask, one at a time:
-    - How does the real situation start, compared with how your practice starts?
-    - What do you do in practice, compared with what you will need to do for real?
-    - Which part of your practice doesn't look like the real thing, and what is it for?
-3\. Each of the others suggests one change to the practice. The person picks one, or none, and says why.
-4\. Swap, so that everyone gets a turn. About 4 minutes each.
+    - How does your practice start, compared with the real situation?
+    - Does your practice ever vary how it starts or what you do?
+4\. Swap until everyone has had a turn, about 4 minutes each.
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
@@ -79,17 +77,14 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-This unit's experiment is a Comfort Zone Exploration: a small, safe try of something you feel a bit blocked from. The point is to find out whether the hesitation is protecting you or is out of date. Both answers count.
+A Comfort Zone Exploration is a small, safe try of something you feel a bit blocked from, to learn whether the hesitation protects you or is out of date.
 
-Share only what you want to. A smaller or made-up example works just as well.
+Share only what you want to. A made-up example works too.
 
-1\. Each person says their planned experiment in one sentence: the one from the end of this unit, or one they are considering.
-2\. The group asks the person these checks, one at a time:
-    - Would both outcomes feel okay to you: doing it, and finding out you'd rather not?
+    - Would both futures feel okay: one where you still don't do this, and one where you feel free to?
+    - What might the hesitation be protecting?
     - Is the worst realistic outcome unpleasant, or actually dangerous?
-    - What will you pay attention to while you do it, in yourself and around you?
-3\. Each person says whether they will change their plan after the checks, and how. Making it smaller counts.
-4\. If you still have time: afterwards, how will each of you decide whether to try again, without forcing yourself?
+3\. Each person says whether and how they will change their plan. Making it smaller counts.
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
@@ -114,8 +109,9 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-1\. Each person says their comfort zone experiment, with the day and the time they will run it. If you have no time yet, pick one now and put it in your calendar.
+1\. Each person says their experiment for this unit (usually the comfort zone one), with the day and the time they will run it. If you have no time yet, pick one now and put it in your calendar.
 2\. The others each ask one question that would make the plan more concrete: where exactly, who will you tell, what will you do right afterwards?
+3\. What is your smaller fallback version, in case something makes you cancel?
 3\. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
 
 
