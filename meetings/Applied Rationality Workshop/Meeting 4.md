@@ -18,8 +18,9 @@ source:: [[../shared/Session Doc - How today works]]
 
 Go around your group:
 1\. How was this unit? Did you finish it? If you didn't, what got in the way?
-2\. Your experiment from the last unit, in one or two sentences: what did you try, and did it change anything on a real problem? "It didn't happen" is a fine answer. Then say what got in the way.
-3\. If you still have time: one essay this unit imagines someone who stops seeing their bathroom scale, because looking at it hurts a little each time. Does anyone have a "scale" like that? You only need to say what kind of thing it is (money, messages, a project), not the details.
+2\. The experiment you reported on at the start of this unit: in one sentence, what did you try?
+3\. Did it change anything on a real problem? If it didn't happen, what got in the way at the moment it should have?
+4\. If you still have time: Taste & Shaping, from this unit, says a bad feeling trains away whatever you did just before it. What do you say to yourself right after you spot one of your own mistakes?
 
 
 | Names | Your experiment + did it change anything |
@@ -44,10 +45,13 @@ One or two people share what their group landed on.
 
 The idea behind Turbocharging, from this unit, in one line: you get good at what you actually rehearse. So good practice starts the way the real situation starts, and makes you do what you will really have to do.
 
-1\. One person names a skill they want to get better at (in research, work or anything else) and describes, step by step, how they practise it now.
-2\. The others ask two questions: How does the real situation start, and how does your practice start? What do you do in practice, and what will you need to do for real?
+1\. One person names a skill they want to get better at (in research, work or anything else) and describes, step by step, how they practise it now. If you already picked a change on the Turbocharging page, describe the practice with that change.
+2\. The others ask, one at a time:
+    - How does the real situation start, compared with how your practice starts?
+    - What do you do in practice, compared with what you will need to do for real?
+    - Which part of your practice doesn't look like the real thing, and what is it for?
 3\. Each of the others suggests one change to the practice. The person picks one, or none, and says why.
-4\. Swap, so that everyone gets a turn. About 5 minutes each.
+4\. Swap, so that everyone gets a turn. About 4 minutes each.
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
@@ -79,13 +83,13 @@ This unit's experiment is a Comfort Zone Exploration: a small, safe try of somet
 
 Share only what you want to. A smaller or made-up example works just as well.
 
-1\. Each person says their planned experiment in one sentence (or one they are considering).
+1\. Each person says their planned experiment in one sentence: the one from the end of this unit, or one they are considering.
 2\. The group asks the person these checks, one at a time:
     - Would both outcomes feel okay to you: doing it, and finding out you'd rather not?
-    - What is the worst thing that could realistically happen? Is that unpleasant, or actually dangerous?
+    - Is the worst realistic outcome unpleasant, or actually dangerous?
     - What will you pay attention to while you do it, in yourself and around you?
 3\. Each person says whether they will change their plan after the checks, and how. Making it smaller counts.
-4\. If you still have time: anyone who wants to can try a one-minute version right here, for example saying something you would normally hold back, or asking the group for honest feedback. Then say how it felt compared with what you expected.
+4\. If you still have time: afterwards, how will each of you decide whether to try again, without forcing yourself?
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
