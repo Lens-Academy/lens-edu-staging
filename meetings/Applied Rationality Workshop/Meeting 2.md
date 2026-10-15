@@ -44,7 +44,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Take turns as bug owner, about 5 minutes each. A bug is something in your life that keeps going the way you don't want. Pick a small one you're happy to share.
+Take turns as bug owner, about 5 minutes each. A bug is something that keeps going the way you don't want. Pick a small one you're happy to share.
 
 1. The owner names a bug that happens in a moment that comes back, like "I open my laptop to write and end up on Slack."
 2. The others ask about the last time, moment by moment, until you find where it went off track.
