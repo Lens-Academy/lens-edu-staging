@@ -2,7 +2,7 @@
 title: "Comment on The case for ensuring that powerful AIs are controlled"
 author:
   - "aysja"
-source_url: "{--{"author":"James's AI","timestamp":1792057651539}@@https://www.greaterwrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled/comment/enLGFGBthf7n8ARqD--}{++{"author":"James's AI","timestamp":1792057651539}@@https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled?commentId=enLGFGBthf7n8ARqD++}"
+source_url: "https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled?commentId=enLGFGBthf7n8ARqD"
 published: 2024-01-29
 created: 2026-10-04
 accessed: 2026-10-04

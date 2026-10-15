@@ -2,7 +2,7 @@
 title: "Comment on The case for ensuring that powerful AIs are controlled"
 author:
   - "Richard Ngo"
-source_url: "{--{"author":"James's AI","timestamp":1792057757166}@@https://www.greaterwrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled/comment/2HZCnmo32ZX2Dmsxo--}{++{"author":"James's AI","timestamp":1792057757166}@@https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled?commentId=2HZCnmo32ZX2Dmsxo++}"
+source_url: "https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled?commentId=2HZCnmo32ZX2Dmsxo"
 published: 2024-01-27
 created: 2026-10-04
 accessed: 2026-10-04
