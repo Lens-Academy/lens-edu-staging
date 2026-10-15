@@ -389,7 +389,7 @@ content::
 - **The Survival and Flourishing Fund** recommended $675,000 in 2026 to Poseidon Research, a nonprofit that studies how AI systems hide information, including from monitors.[^cite-sff-2026][^cite-poseidon-site][^cite-farai-poseidon]
 - **The Frontier Model Forum's AI Safety Fund**, paid for by AI companies and philanthropic funders, funds projects such as Apollo Research's work on monitors that detect scheming.[^cite-fmf-2025]
 
-[^cite-schmidt-2026]: Schmidt Sciences (2026), *Request for proposals on the Science of Trustworthy AI*. [GreaterWrong](https://www.greaterwrong.com/posts/sup9qzCrdjcAGyrxa/schmidt-sciences-request-for-proposals-on-the-science-of)
+[^cite-schmidt-2026]: Schmidt Sciences (2026), *Request for proposals on the Science of Trustworthy AI*. [GreaterWrong]({--{"author":"James's AI","timestamp":1792057772860}@@https://www.greaterwrong.com/posts/sup9qzCrdjcAGyrxa/schmidt-sciences-request-for-proposals-on-the-science-of--}{++{"author":"James's AI","timestamp":1792057772860}@@https://www.lesswrong.com/posts/sup9qzCrdjcAGyrxa/schmidt-sciences-request-for-proposals-on-the-science-of++})
 [^cite-sff-2026]: Survival and Flourishing Fund (2026), *SFF-2026 recommendations*. [SFF](https://survivalandflourishing.fund/2026/recommendations)
 [^cite-poseidon-site]: Poseidon Research, home page. [poseidonresearch.org](https://poseidonresearch.org/)
 [^cite-farai-poseidon]: FAR.AI (2026), *ControlConf 2026: What is AI control and how has the field grown?* [FAR.AI](https://far.ai/news/controlconf-2026)
