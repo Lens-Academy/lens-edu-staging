@@ -53,7 +53,7 @@ to:: before we do.
 
 #### Text
 content::
-This is why each class in this course asks you to start on a small bug. Once a technique works on something small, you can take it to the big ones.
+So when you try a new technique in this course, start it on a small bug if you can. Once it works on something small, take it to the bigger ones.
 
 #### Callout: Two more tips, if you are curious
 collapse:: closed

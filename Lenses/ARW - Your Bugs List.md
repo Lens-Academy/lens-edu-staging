@@ -18,9 +18,9 @@ Every later week of this course shows you this list and asks you to pick one bug
 
 A few things help:
 
-- **Go for quantity.** Write everything that comes up, including the small, the silly and the vague. Small bugs are good practice material, and next weeks' techniques work best on them first.
+- **Go for quantity.** Write everything that comes up, including the small, the silly and the vague. Small bugs are useful: the handbook's "Build Form" tip on the last page advises practising a new technique on small problems first.
 - **Shorthand is fine.** If something is private, write it in a few words only you understand.
-- **Talk instead of typing** if that is faster. The speech-to-text button works in every answer box.
+- **Talk instead of typing** if that is faster, using speech to text.
 
 Work through the six prompts below in order. After each one, jot down what it brought up. You will tidy everything into one list at the end of the page.
 
