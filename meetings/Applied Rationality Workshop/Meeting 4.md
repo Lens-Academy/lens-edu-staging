@@ -18,7 +18,7 @@ source:: [[../shared/Session Doc - How today works]]
 
 Go around your group:
 1\. How was this unit? Did you finish it? If you didn't, what got in the way?
-2\. The experiment you reported on at the start of this unit: in one sentence, what did you try?
+2\. The experiment you planned at the end of the last unit: in one sentence, what did you try?
 3\. What changed on the real problem it was aimed at? "Nothing" and "it didn't happen" are fine answers.
 4\. If you still have time: Taste & Shaping, from this unit, says a bad feeling trains away whatever you did just before it. What do you say to yourself right after you spot one of your own mistakes?
 
