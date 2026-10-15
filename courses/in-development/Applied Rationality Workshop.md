@@ -63,3 +63,26 @@ Week 4 goals (Learning and trying):
 # Meeting: Learning and trying
 meeting-doc:: [[../../meetings/Applied Rationality Workshop/Meeting 4]]
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
+
+%%
+Week 5 goals (Inner work):
+- Listen to felt senses, notice bucket errors, calm the stress response, and work through an inner conflict, all opt-in
+%%
+
+# Module: [[../../modules/Applied Rationality Workshop M5 Inner work]]
+# Meeting: Inner work
+meeting-doc:: [[../../meetings/Applied Rationality Workshop/Meeting 5]]
+survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
+
+%%
+Week 6 goals (Other people, and wrapping up):
+- Find a double crux in a real disagreement, teach one technique to someone else, and set up ongoing practice
+%%
+
+# Module: [[../../modules/Applied Rationality Workshop M6 Other people and wrapping up]]
+# Meeting: Other people, and wrapping up
+meeting-doc:: [[../../meetings/Applied Rationality Workshop/Meeting 6]]
+survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
+
+# Module: [[../../modules/Applied Rationality Workshop Library]]
+optional:: true
