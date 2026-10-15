@@ -39,17 +39,17 @@ One or two people share what their group landed on.
 ---
 
 \pagebreak
-### Room 2: Pair debugging with a trigger-action plan  [0:24–0:42]
+### Room 2: Debugging together with a trigger-action plan  [0:24–0:42]
 
 **New group. Names first, then straight in.**
 
 
-Take turns as the bug owner, about 7 minutes each. A bug is something in your life that keeps going the way you don't want. Pick a small one you're happy to talk about. Partners ask questions, and the owner decides.
+Take turns as bug owner, about 5 minutes each. A bug is something in your life that keeps going the way you don't want. Pick a small one you're happy to share. The others ask questions, and the owner picks the plan.
 
 1. The owner names a bug that happens in a moment that comes back, like "I open my laptop to write and end up on Slack."
-2. Partners ask about the last time it happened, moment by moment, until you find the point where it went off track.
-3. Together, build a trigger-action plan for that point: "When (something I'd clearly notice), I (one small step)." The owner says it out loud.
-4. Swap owners.
+2. The others ask about the last time it happened, moment by moment, until you find the point where it went off track.
+3. Together, build a trigger-action plan for that point: "When (something I'd clearly notice), I (one small step)." The owner says it out loud. Then swap.
+4. If you still have time: imagine one of your plans fired every day and nothing changed. Where did it fail: the trigger, the step, or after it?
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
@@ -77,17 +77,17 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-A resolve cycle is a five-minute timer during which you try to actually solve a problem, not plan it. Here you run one together on one person's problem.
+A resolve cycle is a five-minute timer during which you try to actually solve a problem, not plan it: send the email, book the call, order the thing. Odd or "too easy" solutions count.
 
-1. One volunteer names a problem they have put off for weeks. Small is fine. One minute, no more.
-2. Start a five-minute timer. Everyone, the volunteer too, writes down as many ways to solve it as they can, including silly ones. No talking.
-3. The volunteer reads their list first, then the others. The volunteer picks one thing they could do in five minutes and says when they will do it.
-4. If you still have time: a second volunteer, same steps.
+1. Each person names, in one sentence, a problem they have put off for weeks. Small is fine.
+2. Start a five-minute timer. Everyone works on their own problem, for real. Mics off.
+3. Go around: what did you actually do? The others say whether it was an attempt or a plan.
+4. If you still have time: anyone still stuck says what blocked them. Together, list next steps of five minutes or less. The owner picks one and starts it before the room ends.
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
-| Names | The problem + the five-minute step the volunteer picked |
+| Names | Your problem + what you actually did in five minutes |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -109,9 +109,9 @@ One or two people share what their group landed on.
 
 Go around, one person at a time:
 
-1. Share the experiment you planned at the end of this unit: one technique, one bug. If you didn't plan one, pick one now.
+1. Share the experiment you planned at the end of this unit: one technique (a trigger-action plan, a resolve cycle, or a change to your surroundings), one bug. If you didn't plan one, pick one now.
 2. The others imagine it is the next meeting and the experiment never happened. Each gives one likely reason why.
-3. Change one thing so that reason can't happen: a clearer trigger, a smaller step, or a reminder you set up right now.
+3. Change one thing so that reason can't happen: a clearer trigger, a smaller step, or a change to your surroundings you make right now (a calendar entry, a reminder, moving an object).
 4. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
 
 
