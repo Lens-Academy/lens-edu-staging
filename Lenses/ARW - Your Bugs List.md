@@ -85,7 +85,7 @@ feedback-instructions:: The learner has just read CFAR's Prompt 5, a long slow s
 
 #### Text
 content::
-\## Sharpen three bugs
+\## Make three bugs concrete
 
 Some bugs on your list are probably vague, like "procrastination" or "my research isn't going well". We find a vague bug hard to work on. A concrete one says when it happens, what exactly happens, and what you would like instead. "I open the draft, read the first paragraph, feel it is bad, and switch to email" is concrete enough to work on with a technique.
 
@@ -103,7 +103,7 @@ Rules:
 - If a bug is personal or heavy, follow their lead. They can keep it vague or skip it. Never push for detail they have not offered. If they describe a crisis or a risk to their safety, say plainly that this is beyond what this exercise is for and encourage them to reach out to someone they trust or a professional.
 - If they say a bug is fine as it is, accept that and move on.
 - If they are stuck on a bug, ask for the last specific time it happened. If that does not help, ask what "better" would look like next week. Do not offer a list of possible versions.
-- After three bugs, or when they say they are done, reply in one sentence: they can paste the sharpened versions into their final list below. Ask nothing more.
+- After three bugs, or when they say they are done, reply in one sentence: they can paste the rewritten versions into their final list below. Ask nothing more.
 
 #### Text
 content::
@@ -126,7 +126,7 @@ id:: 2b1b06a5-3a8d-46c2-8867-f2a16feeb010
 content::
 \## Your bugs list
 
-Turn your notes into one list you can come back to for the rest of the course. Paste your notes from above and the sharpened versions from the chat, keep the small and vague ones too, then:
+Turn your notes into one list you can come back to for the rest of the course. Paste your notes from above and the rewritten versions from the chat, keep the small and vague ones too, then:
 
 1. Put each bug or feature request on its own numbered line.
 2. Give it a short name, then a few words on what actually happens or what you want.
