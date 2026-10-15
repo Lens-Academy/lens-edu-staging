@@ -94,7 +94,7 @@ Aversion factoring splits something you avoid into parts. You may mind only one 
 3. For the worst part, everyone votes: fix the situation, change the reaction, or keep the aversion because it protects against a real cost?
 4. Take the most popular option. What would it cost in money, time, attention or awkwardness?
 
-If you still have time: is that a good deal, or is keeping the aversion cheaper?
+If you still have time: would the owner pay that price? If not, what would they do instead?
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
