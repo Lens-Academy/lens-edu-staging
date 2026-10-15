@@ -33,7 +33,7 @@ Grade the learner's coaching, reading Jonas's replies as context. Score out of 1
 - 30: The learner sets cycle 1 up as a real attempt (solve it now, not plan it), or, if Jonas still returns a plan, points that out and gets a real attempt. 10 if the learner accepts the plan as the result of cycle 1 but later gets to real five-minute actions anyway.
 - 30: Cycle 2 next actions are each five minutes or less. The learner says this when setting it up, or points out the large items and asks Jonas to shrink them. 0 if the learner accepts "read the whole guide" or "finish an ML course" as next actions without comment.
 - 20: Cycle 3 happens: a final timer is spent doing one of the listed actions (a redo of cycle 1 is fine and does not count against this).
-- 20: The learner acts as a partner: mostly asks questions and sets up the timers, and the ideas and choices come from Jonas. 10 if the learner supplies the main solution or next actions themselves but still asks Jonas to choose. 0 if the learner mainly lectures or does the problem-solving for Jonas.
+- 20: The learner acts as a partner: mostly asks questions and sets up the timers, and the ideas and choices come from Jonas. 10 if the learner supplies the main solution or next actions themselves but still asks Jonas to choose, or if the ideas are Jonas's but the learner picks the action for him. 0 if the learner mainly lectures or does the problem-solving for Jonas.
 
 Cap at 50 if the learner guilts Jonas (for example blaming him for the lost year) or argues he must act because AI risk is urgent. Ordinary encouragement ("just try it for five minutes") is fine.
 

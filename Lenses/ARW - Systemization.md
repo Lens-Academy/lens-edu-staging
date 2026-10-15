@@ -13,7 +13,7 @@ tags:
 content::
 Some problems are not big. They are small and they come back. Every Monday you spend twenty minutes finding out which paper your reading group is on, where the call link went, and whether you said you would present. Each time it costs only a little, so it never seems worth fixing, and you pay again next Monday.
 
-Trigger-Action Planning changes how you respond to a moment. Systemization, in the CFAR Handbook, changes the moments themselves: you rearrange your surroundings once, so the problem stops needing your attention. The handbook rates it "Anecdotally strong". The chapter opens with a scan. Do it as you read it.
+Trigger-Action Planning changes how you respond to a moment. Systemization, in the CFAR Handbook, changes the moments themselves: you rearrange your surroundings once, so the problem stops needing your attention. The handbook rates it "Anecdotally strong". Early in the chapter is a scan. Do it as you read it.
 
 #### Article
 source:: [[../articles/cfar-duncan-systemization]]
@@ -48,7 +48,7 @@ to:: "and then keep it hidden."
 #### Question: Open
 id:: 2d18d34b-429b-4992-bb1e-d030431b385e
 content::
-Pick one snag from your scan that you would like to fix. Small is fine. Most snags already have some way of being handled, even if it is "I just try to remember".
+Pick one snag from your scan that you would like to fix. Small is fine. If you have no way of handling it yet, write "I just try to remember".
 
 1. Which snag, and how do you handle it now?
 
