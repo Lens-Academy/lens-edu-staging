@@ -5,7 +5,7 @@ tldr: "Write down everything in your life that bugs you or could be great, using
 summary_for_tutor: "The learner builds their bugs list, the raw material for every later week of the Applied Rationality Workshop. They work through the six prompts of CFAR's Building a Bugs List post (Prompt 0: bugs and feature requests, 1: the genie, 2: the skeptical friend, 3: a walkthrough of the week, 4: a slow pause per life domain, 5: the long slow sentence), writing notes after each. Then a chat with you sharpens three vague bugs, and the page ends with one consolidated, numbered list with sizes (S, M, L) and three stars. That final list is quoted back in every later week. Your role is a partner who helps them notice and phrase bugs, never a judge of their life. Never suggest bugs they have not hinted at, never rank their problems for them, and never push for more personal detail than they offer."
 tags: [wip]
 reading_minutes: 5
-tutor_minutes: 45
+tutor_minutes: 55
 min_chat_messages: 3
 ---
 #### Text
@@ -31,7 +31,7 @@ to:: as you can, for your own life.
 
 #### Question: Open
 id:: 141a03a3-d60d-49cf-8e89-95fad66bb3c3
-content:: Write down as many bugs and feature requests as you can, one per line. Keep going until you run dry, then try for three more.
+content:: Write down as many bugs and feature requests as you can, one per line. Keep going until nothing more comes, then try for three more.
 placeholder:: e.g. I open email before deep work and lose the morning / I'd love a weekly habit of reading one paper
 feedback-instructions:: The learner is writing the first notes for their bugs list (CFAR's Prompt 0: bugs are frustrations and problems, feature requests are things that could be great). This is raw brainstorming, not graded. Reply in under 60 words, one reply. Say how many items they have in plain numbers. If they wrote fewer than about eight, say the next prompts come at it from other sides. Do not comment on any individual bug, do not suggest bugs, and do not praise. Tell them to move on to the next prompt.
 
@@ -71,6 +71,7 @@ id:: 2e51bbdd-1720-44e0-a951-5d01385c1937
 content:: Write what the domain pauses brought up. One per line. It helps to put the domain in front, like "Sleep: ..." or "Work: ...".
 feedback-instructions:: The learner is adding to their bugs list after CFAR's Prompt 4, a slow pause for each of eighteen life domains (work, learning, family, money, exercise, food, sleep, scheduling, hobbies, friends, romance, communication, social interaction, emotions, boundaries, plus what they work on, learning a field, and working with others). Ungraded brainstorming. Reply in under 50 words, one reply. Do not list domains they skipped, do not suggest bugs, and do not comment on personal items. No praise. Tell them one prompt is left.
 
+The last prompt can bring up heavy things. Write only what you are willing to write. A few words of shorthand are enough, and you can leave things off the list entirely.
 #### Article
 from:: **Prompt 5:**
 
@@ -126,13 +127,13 @@ id:: 2b1b06a5-3a8d-46c2-8867-f2a16feeb010
 content::
 \## Your bugs list
 
-Turn your notes into one list you can come back to for the rest of the course. Copy or paste your notes from above and the sharpened versions from the chat, keep the small and vague ones too, then:
+Turn your notes into one list you can come back to for the rest of the course. Paste your notes from above and the sharpened versions from the chat, keep the small and vague ones too, then:
 
 1. Put each bug or feature request on its own numbered line.
 2. Give it a short name, then a few words on what actually happens or what you want.
 3. Mark its size: (S) small, (M) medium, or (L) large or tangled.
 4. Put a star (*) next to the three you most want to be different in six weeks.
 
-You can come back and change this list at any time with "Answer again".
+Pasting your raw notes and adding numbers, sizes and stars is enough. You can come back and change this list at any time with "Answer again".
 placeholder:: 1. Email first: I open my inbox before deep work and lose the morning (S) *
 feedback-instructions:: The learner has just written their consolidated bugs list for the Applied Rationality Workshop: numbered lines, each with a short name, a few words on what happens, a size (S, M, L), and stars on three. Every later week shows this list back and asks them to pick a bug for that week's technique. This is ungraded. Reply in under 120 words, short paragraphs, no lists. Say in one sentence how many entries there are and how many are small. If fewer than about three are marked (S), say the handbook advises practising new techniques on small bugs first, and ask if any entry could be split into a smaller piece. Point to at most two entries that are still too vague to work on (no situation, no action) and ask one question that would make one of them concrete. If sizes or stars are missing, mention it in one sentence. Never comment on what the bugs say about them, never rank them, never suggest new ones. No generic praise. One reply.

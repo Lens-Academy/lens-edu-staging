@@ -38,9 +38,9 @@ feedback-instructions:: The learner has just met the Hamming question (what is t
 content::
 Next come seven prompts, each from a different side. You do not need all of them. Try at least three, and spend more time on the ones that bring something up.
 
-Prompt 7 refers to a story from the physicist Richard Feynman. Feeling burned out, he decided to play with physics only for fun. Soon after, he watched someone in a cafeteria throw a plate in the air, got curious about how it wobbled, and worked out the physics for no reason. He later wrote that the work he got the Nobel Prize for "came from that piddling around with the wobbling plate".[^cite-feynman-1985]
+Prompt 7 refers to a story from the physicist Richard Feynman. Feeling burned out, he decided to play with physics only for fun. Soon after, he watched someone in a cafeteria throw a plate in the air, got curious about how it wobbled, and worked out the physics for no reason. He later said it was "piddling around" with the wobbling plate that led him to the research he won the Nobel Prize for.[^cite-tuleja-2007]
 
-[^cite-feynman-1985]: Richard Feynman (1985), *Surely You're Joking, Mr. Feynman!*, pp. 157-158, as quoted in Tuleja, Gazovic and Tomori (2007), *Feynman's wobbling plate*. [American Journal of Physics (PDF)](https://physedu.science.upjs.sk/modelovanie/files/feynman_plate_2007.pdf)
+[^cite-tuleja-2007]: Slavomir Tuleja, Boris Gazovic, Alexander Tomori and Jozef Hanc (2007), *Feynman's wobbling plate*, American Journal of Physics 75(3), on Feynman's account in *Surely You're Joking, Mr. Feynman!* [PDF](https://physedu.science.upjs.sk/modelovanie/files/feynman_plate_2007.pdf)
 
 #### Article
 from:: **Prompt 1: Rate-limiting step**
@@ -55,7 +55,7 @@ feedback-instructions:: The learner has worked through some of prompts 1 to 7 of
 content::
 \## Talk it through
 
-In a Hamming circle, a small group spends 20 minutes or more on one person's problem, and the handbook says it is often more helpful to spend that time understanding what is going on than leaping toward solutions.[^cite-hamming-circle-2022] The tutor below works the same way. Tell it what you have so far. It will ask questions to help you see the problem more clearly. It will not pick a problem for you or tell you what to do about it.
+In a Hamming circle, a small group spends 20 minutes or more on one person's problem, and the handbook advises spending that time on what is going on before solutions: "It's often more helpful, in the Hamming circle context, to focus on understanding what's even going on than to try to leap aggressively toward solutions."[^cite-hamming-circle-2022] The tutor below works the same way. Tell it what you have so far. It will ask questions to help you see the problem more clearly. It will not pick a problem for you or tell you what to do about it.
 
 [^cite-hamming-circle-2022]: CFAR!Duncan (2022), *Appendix: How to run a successful Hamming circle*. [LessWrong](https://www.lesswrong.com/posts/xAqRkrnjJTMZ6YmZA/appendix-how-to-run-a-successful-hamming-circle)
 
@@ -71,7 +71,7 @@ How to work, following CFAR's Hamming circle guidance:
 - If they ask what they should do, say this conversation is for seeing the problem clearly first, and ask what they would need to understand before choosing what to do.
 - Never tell them what their problem is, never imply the right answer is about AI safety, work, or any particular area, and never rank their life choices.
 - Follow their lead on depth. If they say something heavy, slow down and let them choose whether to go further. They can bring something smaller instead. If they describe a crisis or a risk to their safety, say plainly that this is beyond what this exercise is for and encourage them to reach out to someone they trust or a professional.
-- If they say the Hamming question does not fit them (for example because no single problem stands out), ask what it misses for them and accept a reasoned answer. Their final answer can then be the two or three problems that matter most, or what gets in the way of all of them.
+- If they say the Hamming question does not fit them (for example because no single problem stands out), ask what it misses for them and accept a reasoned answer. Their final answer can then be the two or three problems that matter most, or what gets in the way of all of them. Once they have said a single problem does not fit, do not ask them to rank their candidates. If nothing stands out right now, that is a valid answer too: ask what they want to keep in balance and what would most likely upset it, and do not keep searching for a problem.
 - Keep each reply under 90 words.
 - When they seem clearer, or after about six exchanges, ask them to say their problem (or problems) and what keeps them from it in one or two sentences. When they have, reply in one sentence that reflects it in their words and tells them to write it into the final box below. Ask nothing more.
 

@@ -1,7 +1,7 @@
 ---
 id: 'e3cdd644-b98a-44fb-b813-4af34f4f154e'
 title: "Advice from the opening session"
-tldr: "Advice CFAR gave on the first evening of every workshop: be present, let yourself want things, try techniques as written, then tinker until they fit you."
+tldr: "Tips CFAR gave in the opening session of its workshops: be present, let yourself want things, try techniques as written, then tinker until they fit you."
 summary_for_tutor: "The learner reads a selection of CFAR's opening-session tips (Be Present, Let your wants come alive, Try Things, Make good quiche, Eat the instructions, Build Form), written for a four-day in-person workshop and read here as advice for a six-week online one. Adjust your seat, The tacit and the explicit, and Boggle are in an optional closed box. Four short ungraded questions: when and where they will do the course, which unhelpful narrative they expect in themselves, what they would let themselves want, and a past method they dropped or followed too rigidly. The two tips that matter most for the rest of the course are 'eat the instructions' (try a technique as written first, then adapt it) and 'build form' (practise on small problems first). If the learner pushes back on a tip, treat that as legitimate: the tips themselves say to judge for yourself."
 tags: [wip]
 reading_minutes: 12
@@ -11,7 +11,8 @@ tutor_minutes: 10
 content::
 \## Advice from earlier workshops
 
-At the start of every workshop, CFAR gave a handful of tips, many of them drawn from what earlier participants said they wished they had known. They were written for four days in person, so where they say "the workshop" or "this weekend", read "these six weeks". Each tip is followed by one short question about you.
+At the start of each workshop, CFAR gave four or five tips, often framed as what earlier participants wished they had been told at the start.[^cite-opening-2022] They were written for four days in person, so where they say "the workshop" or "this weekend", read "these six weeks". Some tips are followed by a short question about you.
+[^cite-opening-2022]: CFAR!Duncan (2022), *Opening Session Tips & Advice*. [LessWrong](https://www.lesswrong.com/posts/gKeHcikcXA3bApyoM/opening-session-tips-and-advice)
 
 #### Article
 source:: [[../articles/cfar-duncan-opening-session-tips-advice]]
@@ -41,6 +42,10 @@ feedback-instructions:: The learner has read CFAR's "Let your wants come alive" 
 #### Article
 from:: ## **Try Things!**
 to:: let us know what you discovered.
+
+#### Text
+content::
+The next tip refers to "Adjust your seat", a tip about tailoring each technique to yourself. You can read it in the box at the end of this page.
 
 #### Article
 from:: ## **Eat the instructions**

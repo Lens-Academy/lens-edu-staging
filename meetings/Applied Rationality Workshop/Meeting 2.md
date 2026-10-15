@@ -241,7 +241,7 @@ Then paste: "Be my resolve-cycle partner. My problem is: (write the problem here
 
 Paste: "Here is the experiment I plan for the next unit: (write your plan here). Imagine the next unit has started and my experiment never happened. Give me the most likely reason. After I answer with one change that would stop that, give me the next reason. Stop after three."
 
-Set up any reminder you decided on before you close the tab.
+Before you close the tab, make any change you decided on: a calendar entry, a reminder, or moving an object to where you will see it.
 
 ### Wrap-up (2 min)
 
