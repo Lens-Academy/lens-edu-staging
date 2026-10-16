@@ -5,7 +5,7 @@ title: "Is control enough?"
 ---
 %% Part 1 of Unit 4 of AI Control Fundamentals; the unit continues in 'What control does to the world' (split into modules by topic, Elias 2026-10-08). The note below describes the whole unit as it was before the split. %%
 
-%% Unit 4 of AI Control Fundamentals. Time (reading+tutor): welcome 4+0, slop 16+14, better schemers 15+16, protocols hold up 4+9, superintelligence 6+9, profit-only 16+18, warning shots 15+14, safety-washing 11+12, adversarial and AI welfare (optional, not counted) 18+17, practice 5+25 (lenses 244, or 209 without the optional lens), plus 15 for test 1 (classifying criticisms) and 10 for test 2 (backfire). About 234 minutes. %%
+%% Unit 4 of AI Control Fundamentals. Time (reading+tutor): welcome 4+0, slop 16+14, better schemers 15+16, protocols hold up 4+9, superintelligence 6+9, profit-only 16+18, Ngo on safety work and racing (optional, not counted) 5+6, warning shots 15+14, safety-washing 9+12, adversarial and AI welfare (optional, not counted) 18+17, practice 5+25 (lenses 253 with both optional lenses, or 207 without them), plus 15 for test 1 (classifying criticisms) and 10 for test 2 (backfire). About 232 minutes. %%
 
 # Lens: Welcome to Unit 4
 id:: db5cd027-63d2-431d-9ee8-fde62339bcb3
@@ -36,7 +36,7 @@ When you answer a criticism, we suggest comparing the world with control against
 - Look at two recent experiments in which researchers stress-tested control protocols with smarter attacks.
 - Read Oliver Habryka's worry that control pushes AI capabilities forward, and Yonatan Cale's question whether a company that only cares about profit would build a safety tool anyway, with three answers.
 - Come back to Jan Kulveit's warning-shot argument, with the replies it got and two comments written after a real incident in 2026.
-- Read about safety-washing and power concentration. Optionally, read whether control could make AIs more adversarial, and what controlling AIs could cost them if they matter morally.
+- Read about safety-washing and false confidence. Optionally, read Richard Ngo on whether safety work helped AI companies race, and whether control could make AIs more adversarial, and what controlling AIs could cost them if they matter morally.
 - Practise sorting criticisms and tracing how a control measure could backfire.
 
 

@@ -15,6 +15,8 @@ source:: [[../Learning Outcomes/Ways AI control could backfire]]
 source:: [[../Lenses/AICF - Would a profit-only lab build it]]
 
 # Lens:
+source:: [[../Lenses/AICF - Did safety work help AI companies race]]
+optional:: true
 source:: [[../Lenses/AICF - Warning shots revisited]]
 
 # Lens:
