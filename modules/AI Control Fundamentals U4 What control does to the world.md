@@ -9,6 +9,7 @@ title: "Even done well, control makes things worse"
 source:: [[../Lenses/AICF - Does safety work speed AI up]]
 
 {--{"author":"James agent ready-31's AI","timestamp":1792181419050}@@# Lens:
+source:: [[../Lenses/AICF - Ngo - Pragmatism and pessimization]]
 optional:: true
 --}
 # Lens:
