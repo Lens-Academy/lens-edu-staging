@@ -34,3 +34,7 @@ source:: [[../Learning Outcomes/Weighing arguments about AI control]]
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Ways AI control could backfire]]--}
+
+# Lens:
+source:: [[../Lenses/AICF - Could control wrong the AIs themselves]]
+optional:: true
