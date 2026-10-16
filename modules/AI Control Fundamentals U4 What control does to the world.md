@@ -35,6 +35,9 @@ optional:: true
 # Submodule: Unit 4 tests
 
 # Learning Outcome:
+source:: [[../Learning Outcomes/Main criticisms of AI control]]
+
+# Learning Outcome:
 source:: [[../Learning Outcomes/Weighing arguments about AI control]]
 
 # Learning Outcome:
