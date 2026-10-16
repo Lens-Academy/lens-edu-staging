@@ -91,9 +91,11 @@ Unit 4 goals (Criticisms of control):
 - Trace how a control measure could backfire, the premise it rests on, and a fix (dropping the measure is an allowed answer)
 %%
 
-# Module: [[../../modules/AI Control Fundamentals U4 Criticisms of control|Does control work, and is it worth it?]]
+# Module: [[../../modules/AI Control Fundamentals U4 Criticisms of control|Even done well, is control enough?]]
 
-# Module: [[../../modules/AI Control Fundamentals U4 What control does to the world|Does control make things worse?]]
+# Module: [[../../modules/AI Control Fundamentals U4 What control does to the world|Even done well, does control make things worse?]]
+
+# Module: [[../../modules/AI Control Fundamentals U4 Practical problems|Practical problems with control]]
 
 # Module: [[../../modules/AI Control Fundamentals U4 Feedback|Unit 4 feedback]]
 
