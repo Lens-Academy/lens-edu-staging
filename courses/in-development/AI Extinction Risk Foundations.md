@@ -2,7 +2,7 @@
 id: 032413ee-f662-4bc8-bc80-03563e277fd5
 slug: extinction-risk
 slug-aliases: [default, navigating-asi]
-title: AI Extinction Risk Foundations
+title: Extinction Risk 201
 tags:
   - visible-in-skilltree
 ---
