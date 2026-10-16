@@ -3,9 +3,7 @@ id: 'e816ec0c-2a27-4e72-8f2e-77fbf415e4d1'
 slug: ai-control-fundamentals-u4-effects
 title: {--{"author":"James agent ready-31's AI","timestamp":1792146993737}@@"Does--}{++{"author":"James agent ready-31's AI","timestamp":1792146993737}@@"Even done well, does++} control make things worse?"
 ---
-%% Part 2 of Unit 4 of AI Control Fundamentals (split into modules by topic, Elias 2026-10-08; one submodule per criticism since 2026-10-16). {++{"author":"James agent ready-31's AI","timestamp":1792146993737}@@Part 3: 'Practical problems with control'. ++}%%
-
-# Submodule: Control speeds up AI
+%% Part 2 of Unit 4 of AI Control Fundamentals (split into modules by topic, Elias 2026-10-08; one lens or group of lenses per criticism since 2026-10-16). {++{"author":"James agent ready-31's AI","timestamp":1792146993737}@@Part 3: 'Practical problems with control'. ++}%%
 
 # Lens:
 source:: [[../Lenses/AICF - Does safety work speed AI up]]

@@ -5,9 +5,7 @@ title: "Even done well, is control enough?"
 ---
 %% Part 1 of Unit 4 of AI Control Fundamentals; the unit continues in 'Even done well, does control make things worse?' and 'Practical problems with control' (split into modules by topic, Elias 2026-10-08).  %%
 
-%% Unit 4 of AI Control Fundamentals, restructured 2026-10-16 (Elias): one submodule per criticism, one reading per lens, no sorting questions. Lens and question ids kept so learners keep their progress. Time (reading+tutor): welcome 3+0, slop 17+11, superintelligence 5+5, protocols 4+5, gaming its evaluation (optional, not counted) 5+6, better schemers 8+12. Module B: Ngo and Oesterheld 7+13, Bushnaq, Buck and Mallen 8+9 (Habryka optional), profit-only 5+9, warning shots 15+14, false confidence 6+12, adversarial and AI welfare (optional, not counted) 18+17, plus 15 for test 1 and 10 for test 2. About 193 minutes. %%
-
-# Submodule: Welcome to Unit 4
+%% Unit 4 of AI Control Fundamentals, restructured 2026-10-16 (Elias): one criticism at a time, one reading per lens, no sorting questions. Lens and question ids kept so learners keep their progress. Time (reading+tutor): welcome 3+0, slop 17+11, superintelligence 5+5, protocols 4+5, gaming its evaluation (optional, not counted) 5+6, better schemers 8+12. Module B: Ngo and Oesterheld 7+13, Bushnaq, Buck and Mallen 8+9 (Habryka optional), profit-only 5+9, warning shots 15+14, false confidence 6+12, adversarial and AI welfare (optional, not counted) 18+17, plus 15 for test 1 and 10 for test 2. About 193 minutes. %%
 
 # Lens: Welcome to Unit 4
 id:: db5cd027-63d2-431d-9ee8-fde62339bcb3
