@@ -73,13 +73,13 @@ One or two people share what their group landed on.
 
 1\. Go around: is more work on AI control net positive, net negative or too close to call, and how sure are you? (Use what you wrote on the unit's "Your view" page, or decide now.)
 2\. Take the two most different answers (if you all agree, the two most different levels of confidence). Together, find the crux: a claim about the world that, if it turned out false, would change one of their minds.
-3\. What could you observe in the next few years that would settle that crux?
-4\. If you still have time: {++{"author":"James agent ready-31's AI","timestamp":1792135102598}@@each of you, if you had to spend next year on AI control work, ++}which {--{"author":"James agent ready-31's AI","timestamp":1792135102598}@@argument from someone in this room came closest to moving you?--}{++{"author":"James agent ready-31's AI","timestamp":1792135102598}@@project would do the most good by your own view, even if you think control is net negative? Compare your picks.++}
+3\. {--{"author":"James agent ready-31's AI","timestamp":1792135111861}@@What could you observe in the next few years that would settle that crux?
+4\. --}If you still have time: each of you, if you had to spend next year on AI control work, which project would do the most good by your own view, even if you think control is net negative? Compare your picks.
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
-| Names | Your verdict + how sure + the crux + what would settle it |
+| Names | Your verdict + how sure + the crux + your project |
 |------|------------------------|
 |  |  |
 |  |  |
