@@ -24,13 +24,13 @@ The unit has three parts. The first two are fundamental criticisms: they hold ev
 **Even done well, is control enough?**
 - Control guards against the wrong danger.
 - Control will not be enough for the AIs that matter most, because the plan it buys time for may not work.
-- Practical problems that more work might fix: evaluations may overstate safety, the AI may game its own evaluation, and catching and retraining an AI may breed better schemers.
 
 **Even done well, does control make things worse?**
 - Control speeds up AI without making it safer in the long run.
 - Control hides the warning shots that would make the world act.
 - Control gives false confidence.
 - Optionally: what control does to the AIs themselves.
+
 **Practical problems**
 - Control evaluations may overstate safety.
 - The AI may game its own evaluation.
@@ -47,15 +47,3 @@ source:: [[../Lenses/AICF - Slop, not scheming]]
 
 # Lens:
 source:: [[../Lenses/AICF - What about superintelligence]]
-
-# Submodule: Practical problems: evaluations and fixes that may not work yet
-
-# Lens:
-source:: [[../Lenses/AICF - Do control protocols hold up]]
-
-# Lens:
-source:: [[../Lenses/AICF - Can the AI game its own evaluation]]
-optional:: true
-
-# Lens:
-source:: [[../Lenses/AICF - Does control breed better schemers]]
