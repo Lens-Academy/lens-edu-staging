@@ -8,10 +8,9 @@ title: "Even done well, control makes things worse"
 # Lens:
 source:: [[../Lenses/AICF - Does safety work speed AI up]]
 
-# Lens:
-source:: [[../Lenses/AICF - Ngo's full post]]
+{--{"author":"James agent ready-31's AI","timestamp":1792181419050}@@# Lens:
 optional:: true
-
+--}
 # Lens:
 source:: [[../Lenses/AICF - How control could speed AI up]]
 
