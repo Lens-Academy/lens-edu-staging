@@ -6,13 +6,24 @@ title: "Even done well, control makes things worse"
 %% Part 2 of Unit 4 of AI Control Fundamentals (split into modules by topic, Elias 2026-10-08; one lens or group of lenses per criticism since 2026-10-16). Part 3: 'Practical problems'. %%
 
 # Lens:
-source:: [[../Lenses/AICF - Does safety work speed AI up]]
+source:: [[../Lenses/AICF - Does safety work speed AI up]]{--{"author":"James agent ready-31's AI","timestamp":1792181496922}@@
 
 {--{"author":"James agent ready-31's AI","timestamp":1792181419050}@@# Lens:
 source:: [[../Lenses/AICF - Ngo - Pragmatism and pessimization]]
 optional:: true
---}
+--}{++{"author":"James agent ready-31's AI","timestamp":1792181496922}@@
+
 # Lens:
+source:: [[../Lenses/AICF - Ngo - A retrospective of AI alignment]]
+optional:: true
+hide:: true
+
+# Lens:
+source:: [[../Lenses/AICF - Ngo - Pragmatism and pessimization]]
+optional:: true
+hide:: true
+
+++}# Lens:
 source:: [[../Lenses/AICF - How control could speed AI up]]
 
 # Lens:
