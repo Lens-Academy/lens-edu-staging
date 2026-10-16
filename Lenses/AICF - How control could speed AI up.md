@@ -10,11 +10,11 @@ summary_for_tutor: "Unit 4 of AI Control Fundamentals, Module 'Even done well, c
 content::
 The previous lens gave the general worry. Here is a version aimed at control itself, with a reply.
 
-Under John Wentworth's criticism, which you read earlier in this unit, Buck Shlegeris said that getting useful research out of scheming AIs is part of what control is for. Lucius Bushnaq replied (ASI is artificial superintelligence):
+Under John Wentworth's criticism, which you read earlier in this unit, Buck Shlegeris said that getting useful research out of scheming AIs is part of what control is for. Lucius Bushnaq quoted that part of Buck's comment and replied:
 
 #### Article
 source:: [[../articles/bushnaq-comments-on-the-case-against-ai-control-research]]
-from:: What would you say to the objection
+from:: > Note that I consider the problem of “get useful research out of AIs
 to:: speed up alignment research more than ASI research and close the gap?
 
 #### Text
