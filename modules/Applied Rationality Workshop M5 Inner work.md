@@ -34,12 +34,14 @@ source:: [[../Learning Outcomes/Deciding under stress]]
 # Lens:
 source:: [[../Lenses/ARW - Againstness]]
 
-# Submodule: Internal Double Crux
+# Submodule: Internal Double Crux (optional)
 # Learning Outcome
 source:: [[../Learning Outcomes/Moderating an inner disagreement]]
+optional:: true
 
 # Lens:
 source:: [[../Lenses/ARW - Internal Double Crux]]
+optional:: true
 
 # Submodule: Plan your week
 # Lens:
