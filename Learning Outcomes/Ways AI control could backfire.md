@@ -40,10 +40,12 @@ source:: [[../Lenses/AICF - Warning shots revisited]]
 notes:: Kulveit's warning-shot argument, Greenblatt's reply, Kulveit's answer and Vincent Cheng's 2026 comment after the Hugging Face incident. Its second question is the practice item for this outcome.
 ## Lens:
 source:: [[../Lenses/AICF - Safety-washing and false confidence]]
-notes:: Manheim on oversight as "a story", Schmied's list of ways safety work could be net negative.
+notes:: Manheim on oversight as "a story", and Greenblatt and Shlegeris on why calling a controlled model "aligned" invites less vigilance.
+source:: [[../Lenses/AICF - How control could speed AI up]]
+notes:: Capabilities acceleration through more usable models (Habryka, Bushnaq), with Buck's answer.
 ## Lens:
 source:: [[../Lenses/AICF - Would a profit-only lab build it]]
-notes:: Capabilities acceleration through more usable models (Habryka, Cale), with replies (Hobbhahn, Mallen, Oesterheld).
+notes:: Would a profit-only lab build it anyway (Cale), with replies (Hobbhahn, Mallen).
 ## Lens:
 source:: [[../Lenses/AICF - Does control breed better schemers]]
 notes:: Training against caught behaviour as a backfire path.

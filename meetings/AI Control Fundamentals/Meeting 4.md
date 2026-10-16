@@ -204,7 +204,7 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 **General, all rooms.** This course presents the case for control and the criticisms of it, and asks each participant to form their own view in Unit 5. Never say or hint which side is right, in a room or between rooms, and do not reward one side's answers with more warmth than the other's. If someone asks your view, say the course is built so they reach their own, and turn the question back. The unit is about 4 hours across ten lessons in two modules, plus two short tests, so expect uneven reading. Every room works from the doc alone, so do not re-teach.
 **Room 1, Icebreaker.** Take quick answers. If two people picked the same criticism, let them compare why.
 **Room 2, Make the case, find the holes.** Take every number before anyone argues. If two people tie for highest or lowest, pick either. If everyone is close, the lowest still makes the case for control and the highest still attacks it. Each side argues against their own number on purpose, so do not let people slip back into their own view. Keep the exchange going back and forth, point by point, rather than two speeches.
-**Room 3, Which backfire worries you most?** The four items come from the unit: Kulveit on warning shots, Manheim, Schmied and Greenblatt and Shlegeris on false confidence, Cale and Habryka on making AI more profitable, Habryka and Jozdien on selecting for better-hidden schemers. Rankings must be made before anyone talks. In ask 2, push for the item ranked furthest apart, not the one everyone agrees on. Ask 3 has no answer key. Any movement is fine if the person says why. Do not rank the items yourself.
+**Room 3, Which backfire worries you most?** The four items come from the unit: Kulveit on warning shots, Manheim and Greenblatt and Shlegeris on false confidence, Ngo, Habryka, Bushnaq and Cale on speeding AI up, Habryka and Jozdien on selecting for better-hidden schemers. Rankings must be made before anyone talks. In ask 2, push for the item ranked furthest apart, not the one everyone agrees on. Ask 3 has no answer key. Any movement is fine if the person says why. Do not rank the items yourself.
 **Room 4, Your number again, next unit.** People who were not in the same Room 2 compare their numbers, so remind them to say where they started. Moving in either direction, or not moving, is equally fine. Push for a concrete plan (when, where, how much at a time), not a promise.
 
 # Tab: Glossary
@@ -212,7 +212,7 @@ style:: plain
 
 ## Glossary
 
-### Module: Is control enough?
+### Module: Does control work, and is it worth it?
 
 Three kinds of criticism: The unit's way of sorting criticisms of control by what they dispute: control does not work, control works but is not worth the effort, or control works and makes things worse. The sorting shows what a criticism disputes, not whether it is right.
 Slop: John Wentworth's name for what he thinks is the likely way things go wrong: early AI produces alignment work that looks fine and is not, and the lab believes it has solved the problem.
@@ -220,7 +220,7 @@ Selection argument: If you respond to a caught AI by training against the behavi
 Prompt injection: Text written to give instructions to whichever model reads it. In one 2025 experiment, an untrusted model hid prompt injections in its outputs and got past the monitors of current control protocols.
 ASI: Artificial superintelligence. Control's own authors say their approach will not work for arbitrarily powerful AI, and MIRI concludes that no workaround exists for a misaligned ASI, so progress toward it should be halted by a worldwide ban.
 
-### Module: What control does to the world
+### Module: Does control make things worse?
 
 Profit-only test: Yonatan Cale's question whether a safety project "could also be built by the capabilities team" of a company that cares about safety only as far as it needs to make money. If yes, the work may not be neglected and may mostly make AI more profitable.
 Pareto frontier: The set of best available trade-offs: for each level of usefulness, the most safety you can get. Alex Mallen argues that all research widens it, and what matters is which point developers then choose.

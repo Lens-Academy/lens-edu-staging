@@ -35,7 +35,7 @@ By the end of this course you will be able to:
 - Tell high-stakes threats, where one action can be a catastrophe, from low-stakes ones, where harm builds up over many actions, and say why the difference changes the defence.
 - Describe the control field: the main organisations and people, its rough size, and its main research areas.
 - Lay out how control is supposed to reduce risk, and where each step could fail.
-- Sort criticisms of control by what they dispute, and explain how critics think a control measure could backfire.
+- Explain the main criticisms of control, weigh each against its strongest replies, and explain how critics think a control measure could backfire.
 - Find the crux in a debate about control, and state your own calibrated view and what would change it.
 
 \## How the course runs
@@ -61,7 +61,7 @@ Control's theory of change: the routes by which it is supposed to reduce risk, a
 :::
 
 :::callout {title="Unit 4: Criticisms of control" tone="blue"}
-The main criticisms of control, sorted by what they dispute, including the argument that control might make things worse.
+The main criticisms of control, one at a time: does control work, is it worth the effort, and could it make things worse?
 :::
 
 :::callout {title="Unit 5: Debates, and your own view" tone="blue"}

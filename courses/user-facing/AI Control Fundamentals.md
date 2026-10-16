@@ -87,13 +87,13 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
 %%
 Unit 4 goals (Criticisms of control):
-- Sort criticisms by what they dispute (does not work / not worth it / makes things worse), with the strongest reply, and do the same for one argument for control
+- Understand the main criticisms one at a time (does control work, is it worth it, does it make things worse): what each gets right, the strongest reply, what is left standing; and find the weakest premise in one argument for control
 - Trace how a control measure could backfire, the premise it rests on, and a fix (dropping the measure is an allowed answer)
 %%
 
-# Module: [[../../modules/AI Control Fundamentals U4 Criticisms of control|Is control enough?]]
+# Module: [[../../modules/AI Control Fundamentals U4 Criticisms of control|Does control work, and is it worth it?]]
 
-# Module: [[../../modules/AI Control Fundamentals U4 What control does to the world|What control does to the world]]
+# Module: [[../../modules/AI Control Fundamentals U4 What control does to the world|Does control make things worse?]]
 
 # Module: [[../../modules/AI Control Fundamentals U4 Feedback|Unit 4 feedback]]
 
