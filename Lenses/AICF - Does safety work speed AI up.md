@@ -29,6 +29,7 @@ to:: aimed specifically towards improving conceptual reasoning](https://alignmen
 
 #### Question: Open
 id:: 0637f06f-86e5-47d5-9aa5-83e16c65fff0
+force-feedback:: first
 content::
 \## Does Ngo's worry apply to control?
 
