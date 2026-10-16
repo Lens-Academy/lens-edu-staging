@@ -21,7 +21,7 @@ This week's techniques work on what goes on inside you: feelings in your body (F
 
 CFAR says that its workshops, like meditation retreats, may trigger mania or psychosis in people who are prone to it, and it advises people with a history of mania, hypomania or psychosis that it is probably best not to come, or to talk to their psychiatrist before deciding.[^cite-salamon-2025-update] If that applies to you, we suggest the same for this week: talk to your psychiatrist before doing the practices, or read the pages and skip the practices.
 
-This is also the longest week. If you are short of time, make sure you reach the last page, Plan your week, before the next module: the real-life experiment matters more than finishing every page.
+The last technique, Internal Double Crux, is optional, because CFAR no longer teaches it. If you are short of time, make sure you reach the last page, Plan your week, before the next module: the real-life experiment matters more than finishing every page.
 
 Each technique comes with the handbook's own caveats, and Internal Double Crux also with a warning from Anna Salamon of CFAR. You will meet them on the pages. As in every week, if a technique does not fit you, adapt it or drop it.
 
