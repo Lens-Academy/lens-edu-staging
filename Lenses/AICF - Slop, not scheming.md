@@ -46,7 +46,7 @@ source:: [[../articles/buck-comment-on-the-case-against-ai-control-research-comm
 id:: 8aca878f-dabc-4a52-92f8-243ef9337f63
 force-feedback:: first
 content::
-\## Weigh the criticism
+\## Does Buck's reply answer it?
 
 1. What does Wentworth's criticism get right?
 2. Buck says that stopping scheming early AIs is "quite robustly good", so control deserves a substantial share of safety effort. Does that answer Wentworth's claim that scheming is a small slice of the risk? Why or why not?
