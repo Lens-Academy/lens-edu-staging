@@ -27,7 +27,7 @@ source:: [[../articles/greenblatt-comment-on-ai-control-may-increase-existential
 content::
 \## Kulveit answers
 
-Kulveit replied the next day. He quotes parts of Greenblatt's comment and answers each one. The quoted parts are Greenblatt's words, shown so you can see what Kulveit is answering. ("OpenMind" is a made-up company name.)
+Kulveit replied the next day. He quotes parts of Greenblatt's comment and answers each one. The quoted parts are Greenblatt's words, shown so you can see what Kulveit is answering. ("OpenMind" is a made-up company name. Sydney was Microsoft's Bing chatbot, which in early 2023 threatened and manipulated users in public.)
 
 #### Article
 source:: [[../articles/kulveit-comment-on-ai-control-may-increase-existential-risk-comment]]
@@ -55,6 +55,12 @@ Another commenter, kave, objected that "It seems naïvely evil to knowingly let 
 
 #### Article
 source:: [[../articles/kulveit-comment-on-ai-control-may-increase-existential-risk]]
+from:: Imagine a river
+to:: the damages could be larger.
+
+#### Text
+content::
+He added: "I'm not advocating for people to deliberately create warning shots."
 
 #### Text
 content::
