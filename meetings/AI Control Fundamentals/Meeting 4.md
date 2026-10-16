@@ -71,7 +71,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Ways the unit says control could make things worse:
+Ways the unit says control could backfire:
 
 - It hides warning shots.
 - It gives false confidence.
@@ -204,7 +204,7 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 **General, all rooms.** This course presents the case for control and the criticisms of it, and asks each participant to form their own view in Unit 5. Never say or hint which side is right, in a room or between rooms, and do not reward one side's answers with more warmth than the other's. If someone asks your view, say the course is built so they reach their own, and turn the question back. The unit is about 4 hours across ten lessons in three modules, plus three short tests, so expect uneven reading. Every room works from the doc alone, so do not re-teach.
 **Room 1, Icebreaker.** Take quick answers. If two people picked the same criticism, let them compare why.
 **Room 2, Make the case, find the holes.** Take every number before anyone argues. If two people tie for highest or lowest, pick either. If everyone is close, the lowest still makes the case for control and the highest still attacks it. Each side argues against their own number on purpose, so do not let people slip back into their own view. Keep the exchange going back and forth, point by point, rather than two speeches.
-**Room 3, Which backfire worries you most?** The four items come from the unit: Kulveit on warning shots, Manheim and Greenblatt and Shlegeris on false confidence, Ngo, Habryka, Bushnaq and Cale on speeding AI up, Habryka and Jozdien on selecting for better-hidden schemers. Rankings must be made before anyone talks. In ask 2, push for the item ranked furthest apart, not the one everyone agrees on. Ask 3 has no answer key. Any movement is fine if the person says why. Do not rank the items yourself.
+**Room 3, Which backfire worries you most?** The four items come from the unit: Kulveit on warning shots, Manheim and Greenblatt and Shlegeris on false confidence, Ngo, Bushnaq and Cale (Habryka optional) on speeding AI up, Habryka and Jozdien on selecting for better-hidden schemers. Rankings must be made before anyone talks. In ask 2, push for the item ranked furthest apart, not the one everyone agrees on. Ask 3 has no answer key. Any movement is fine if the person says why. Do not rank the items yourself.
 **Room 4, Your number again, next unit.** People who were not in the same Room 2 compare their numbers, so remind them to say where they started. Moving in either direction, or not moving, is equally fine. Push for a concrete plan (when, where, how much at a time), not a promise.
 
 # Tab: Glossary
@@ -215,9 +215,7 @@ style:: plain
 ### Module: Even done well, control isn't worth the effort
 
 Slop: John Wentworth's name for what he thinks is the likely way things go wrong: early AI produces alignment work that looks fine and is not, and the lab believes it has solved the problem.
-Selection argument: If you respond to a caught AI by training against the behaviour, rolling back or retraining, while keeping the models that perform well, you may end up with models that are better at evading your controls. Oliver Habryka and Jozdien press versions of it.
-Prompt injection: Text written to give instructions to whichever model reads it. In one 2025 experiment, an untrusted model hid prompt injections in its outputs and got past the monitors of current control protocols.
-ASI: Artificial superintelligence. Control's own authors say their approach will not work for arbitrarily powerful AI, and MIRI concludes that no workaround exists for a misaligned ASI, so progress toward it should be halted by a worldwide ban.
+ASI: Artificial superintelligence. Control's own authors say their approach will not work for arbitrarily powerful AI. MIRI's Technical Governance Team argues that relying on early AIs to do the alignment work for later ones is a gamble, and proposes an international agreement to halt progress toward ASI.
 
 ### Module: Even done well, control makes things worse
 
@@ -229,3 +227,8 @@ Oversight as "a story": David Manheim's test: a claim that an AI is supervised s
 Safety-washing: Safety work that mainly makes a deployment look or feel safer than it is, so people go ahead with it.
 Self-fulfilling misalignment: The worry that writing about AIs as adversaries to be contained ends up in training data and makes models more adversarial. Dmitrii Gusev and Vili Kohonen fine-tuned one model on material from AI control writing and found it blackmailed more often in one test scenario, with limits they list themselves.
 AI welfare: The question whether some AI systems matter morally. Robert Long, Jeff Sebo and Toni Sims argue that if they do, confining and watching them could be a moral cost even when control works.
+
+### Module: Practical problems
+
+Prompt injection: Text written to give instructions to whichever model reads it. In one 2025 experiment, an untrusted model hid prompt injections in its outputs and got past the monitors of current control protocols.
+Selection argument: If you respond to a caught AI by training against the behaviour, rolling back or retraining, while keeping the models that perform well, you may end up with models that are better at evading your controls. Oliver Habryka and Jozdien press versions of it.
