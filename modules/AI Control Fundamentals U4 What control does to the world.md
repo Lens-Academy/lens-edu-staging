@@ -14,17 +14,11 @@ source:: [[../Lenses/AICF - How control could speed AI up]]
 # Lens:
 source:: [[../Lenses/AICF - Would a profit-only lab build it]]
 
-# Submodule: Control hides warning shots
-
 # Lens:
 source:: [[../Lenses/AICF - Warning shots revisited]]
 
-# Submodule: Control gives false confidence
-
 # Lens:
 source:: [[../Lenses/AICF - Safety-washing and false confidence]]
-
-# Submodule: Optional: what control does to the AIs themselves
 
 # Lens:
 source:: [[../Lenses/AICF - Does control make AIs adversarial]]

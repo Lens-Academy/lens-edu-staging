@@ -36,12 +36,8 @@ The unit has three parts. The first two are fundamental criticisms: they hold ev
 
 When you weigh a criticism, compare the world with control against what would realistically happen without it, not against a perfect solution. Any safety measure falls short of perfect, so that comparison cannot tell you whether control helps. When you weigh a reply, check that it makes the same realistic comparison.
 
-# Submodule: Control guards against the wrong danger
-
 # Lens:
 source:: [[../Lenses/AICF - Slop, not scheming]]
-
-# Submodule: Control will not be enough for the AIs that matter most
 
 # Lens:
 source:: [[../Lenses/AICF - What about superintelligence]]
