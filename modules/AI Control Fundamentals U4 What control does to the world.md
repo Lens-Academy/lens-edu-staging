@@ -15,7 +15,7 @@ source:: [[../Learning Outcomes/Ways AI control could backfire]]
 source:: [[../Lenses/AICF - Would a profit-only lab build it]]
 
 # Lens:
-source:: [[../Lenses/AICF - Did safety work help AI companies race]]
+source:: [[../Lenses/AICF - Does safety work speed AI up]]
 optional:: true
 
 # Lens:
@@ -29,4 +29,4 @@ source:: [[../Lenses/AICF - Does control make AIs adversarial]]
 optional:: true
 
 # Lens:
-source:: [[../Lenses/AICF - Practice sorting and answering criticisms]]
+source:: [[../Lenses/AICF - How control could speed AI up]]
