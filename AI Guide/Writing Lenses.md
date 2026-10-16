@@ -117,26 +117,20 @@ All three share a house style: state who the student is and what they just did; 
 
 **Phase 3: Learning Question (3 turns, then offer to continue).** The question is "a deliberate wedge: not the test question: a plausible-sounding but flawed claim; the student locates the flaw" so the outcome is drawn out from a fresh angle rather than recited. State the learning outcome and key concepts verbatim in the brief. Per reply: answer direct questions directly; otherwise steelman the student's answer in 2–4 sentences, name 1–3 gaps, ask 2 causal follow-ups (why/how/what-if, each directly answerable, no opinion questions). Include rescue moves ("if stuck after 2 attempts, give a brief direct answer and move on") and a closing calibration with an explicit test-readiness verdict.
 
-### Check your questions with a sub-agent
+### Check your questions with sub-agents
 
-Run this check whenever you add or change a question in a lens, before you call the lens done. Reading your own rubric is not enough: the author knows what they meant and reads it into the question. In October 2026 a self-review missed that 13 of 23 questions in one unit could not give full marks to a correct, complete answer; the check below found them all.
+Run this check whenever you add or change a question in a lens, before you call the lens done. The most important rule: **the rubric must not ask for anything the question does not ask for.** A learner who reads only the question and answers it simply and correctly must get full marks. The author cannot check this alone: having written the rubric, they read its demands into the question.
 
-1. Spawn one sub-agent per lens (several small lenses may share one) with the exact instruction text below and the path of the lens.
-2. Fix what fails, then spawn a fresh agent on that lens. Repeat until every question passes.
-3. Fix the right side. When the rubric scores something worth knowing that the question does not ask, change the question so it asks for it. Drop an element from the rubric only when it was not worth asking. Never make a rubric easier just to pass this check.
-4. Report how many rounds each lens took and what changed.
-
-Instruction text for the agent, verbatim:
-
-"Check every `#### Question` in this lens. First read `Lens Edu/AI Guide/Writing Rubrics.md`. The lens is the only source of what the learner has seen. For each question, answer these:
-1. **Full marks.** Write the shortest answer that correctly and completely answers every part of the question as worded, in plain informal words, giving the most direct correct reason for each 'why'. Grade it as a strict grader would, with the rubric exactly as written: its grading context, caps and model answer included. Below 85 fails; name what cost the points.
-2. **Nothing unasked.** For every scored element, cap and partial-credit rule, quote the words of the question that ask for it. One you cannot point to fails. A long 'Context for grading' that summarises the author's whole view also fails, because the grader treats it as a checklist.
-3. **Clear what a full answer is.** A careful learner can tell how many things to give and which aspects to cover. Questions that make the learner guess what the author wants fail: 'What does X get right?', 'Do you find it convincing?', 'Does the reply answer it? Why or why not?' with nothing that says what a good answer contains.
-4. **Opinions are not graded for the opinion.** If the question asks for the learner's own view, verdict or plan, either it has no `assessment-instructions::` (feedback only), or the rubric grades only the reasoning: any verdict with a fitting reason can get full marks. A rubric that prefers one verdict fails.
-5. **Half-right answer.** Write an answer that gets half the question right. It should score in the middle (about 30 to 70). Far above means the rubric gives points for nothing; far below means it is too harsh.
-6. **Only what the learner has seen.** No element depends on material later in the lens or outside the course so far.
-7. **Feedback matches.** The `feedback-instructions::` treat as a gap only what the question asks, and do not contradict the rubric.
-Return per question: id, PASS or FAIL, and for each failure the check number, the quote, and the smallest fix, saying whether it changes the question or the rubric."
+1. **Answerer.** Make a copy of the lens without its `assessment-instructions::` and `feedback-instructions::` lines (for example `lens call read` piped through `grep -v`), so the agent cannot see what will be graded. Spawn a sub-agent with that copy and this instruction, verbatim: "You are a learner who has read this lens carefully. For each question, write the answer a good learner would give: simple, correct, in plain words, answering exactly what the question asks and nothing more. Where the question asks for your own view, take a view and argue it well. Return each answer with the question's id."
+2. **Grader.** Spawn a fresh sub-agent with the full lens, the answers, and this instruction, verbatim: "First read `Lens Edu/AI Guide/Writing Rubrics.md`. For each question:
+   1. **Full marks.** Grade the answer as a strict grader would, with the rubric exactly as written. If it scores below about 85, it fails: name the rubric element that cost the points and quote the words of the question that should have asked for it, or say that none do.
+   2. **Nothing unasked.** For every scored element, cap and partial-credit rule, quote the words of the question that ask for it. Any element you cannot point to fails, even if this answer happened to cover it.
+   3. **Opinions.** Where the question asks for the learner's own view (what an author gets right, whether an argument is convincing, what they would do), the rubric grades only how well the view is argued: any view with strong arguments can get full marks. A rubric that prefers one view fails.
+   4. **Only what the learner has seen.** No element depends on material later in the lens, or outside the course so far.
+   5. **Feedback matches.** The `feedback-instructions::` treat as a gap only what the question asks.
+   Return per question: id, score, PASS or FAIL, and for each failure the check number, the quote, and the smallest fix, saying whether it changes the question or the rubric."
+3. **Fix the right side.** When the rubric scores something worth knowing that the question does not ask, change the question so it asks for it. Drop the element only when it was not worth asking. Never make a rubric easier just to pass this check.
+4. Repeat with fresh agents until every question passes. Report how many rounds each lens took and what changed.
 
 ## The pre-reading question (PQ) lens
 
