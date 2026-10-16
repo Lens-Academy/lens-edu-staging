@@ -18,7 +18,7 @@ source:: [[../shared/Session Doc - How today works]]
 Last meeting of the course. Go around:
 1\. How was the course for you? Did you finish everything?
 2\. Which argument from this unit stuck with you, whether or not you agree with it? Sum it up in one line for the others.
-3\. If you still have time: What do you think of coin one word, how does the course leave you feeling?
+3\. If you still have time: What do you think of control now that the course is over?
 
 
 | Names | The argument that stuck + one word |
