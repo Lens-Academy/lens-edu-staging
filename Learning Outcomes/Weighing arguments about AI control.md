@@ -25,10 +25,10 @@ Here are three criticisms of AI control and one argument for it.
 
 **Argument D (for control).** "We can test control measures in experiments today, which we cannot do for most other safety approaches. So control is one of the most valuable things safety researchers can work on."
 
-1. For each criticism, say what it gets right, give the strongest response you can to the point it disputes, and say how much of the criticism is left standing when you compare control with what would realistically happen without it, not with a perfect solution. If you think a criticism is largely right, say so, and say why the strongest response to it fails. Three to five sentences per criticism is enough.
-2. For argument D, name the premise you find weakest, say why it is open to doubt, and say how much of the argument is left standing. Three to five sentences.
+1. For each criticism, name one thing it gets right, give the strongest response you can to the point it disputes, and say what would realistically happen without control in this case and how much of the criticism is left standing compared with that (not compared with a perfect solution). If you think a criticism is largely right, say so, and say why the strongest response to it fails. Three to five sentences per criticism is enough.
+2. For argument D, name the premise you find weakest, say why it is open to doubt, and say how much of the argument is left standing and why. Three to five sentences.
 3. Somewhere in your answer, use at least one specific idea, argument or example from this unit's readings.
-placeholder:: Take A, B and C in turn (what it gets right, strongest response, what is left compared with the realistic world without control), then D (weakest premise, why, what is left)
+placeholder:: Take A, B and C in turn (one thing it gets right, strongest response, what is left compared with the realistic world without control), then D (weakest premise, why, what is left and why)
 assessment-instructions:: Score out of 100. Criticisms A, B and C are worth 22 points each (66 in total), argument D is worth 26, and using an idea from the readings is worth 8. For each criticism: 6 for a concession, 10 for the response, 6 for what is left standing.
 
 Concessions, 6 each: a true point the criticism makes, for example: records of everything agents do, and monitors that read them, could be repurposed to watch people, and tools built for one purpose often spread to others (A). Red teams cannot imagine every attack, and a much smarter model could find unforeseen ones (B). Racing and early deployment are a large share of the risk, and researcher time is limited (C). Give 2 if the concession is generic (it only says the criticism has a point, or would fit any criticism).
