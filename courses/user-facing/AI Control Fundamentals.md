@@ -95,7 +95,7 @@ Unit 4 goals (Criticisms of control):
 
 # Module: [[../../modules/AI Control Fundamentals U4 What control does to the world|Even done well, control makes things worse]]
 
-# Module: [[../../modules/AI Control Fundamentals U4 Practical problems|Practical problems with control]]
+# Module: [[../../modules/AI Control Fundamentals U4 Practical problems|Practical problems]]
 
 # Module: [[../../modules/AI Control Fundamentals U4 Feedback|Unit 4 feedback]]
 
