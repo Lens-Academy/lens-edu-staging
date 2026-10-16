@@ -8,7 +8,8 @@ summary_for_tutor: "Unit 4 of AI Control Fundamentals, Module 'Practical problem
 ---
 #### Text
 content::
-**The criticism: control evaluations overstate safety.** An evaluation is only as good as its red team. If the attacker in the test is less cunning than a real scheming model would be, the reported safety is too high, and a lab may trust a protocol that would fail. Here are two experiments that tested control protocols against a more cunning attacker. Both were written by researchers who work on making control evaluations better. In the second paper, the last author, Tyler Tracy, works at Redwood Research.[^cite-pivotal-tracy] So this criticism comes from inside the field: control researchers testing their own methods.
+**The criticism: control evaluations overstate safety.**
+
 
 Some terms you will need:
 

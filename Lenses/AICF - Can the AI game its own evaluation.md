@@ -8,7 +8,8 @@ summary_for_tutor: "Optional lens in Unit 4 of AI Control Fundamentals, Module '
 ---
 #### Text
 content::
-**The criticism: the AI can game its own evaluation.** A control evaluation needs the red team to draw out the model's best attacks, and untrusted monitoring needs a monitor that really tries to flag attacks. A scheming model could deliberately do worse in both: this is called *sandbagging*. Two Redwood Research researchers, Julian Stastny and Buck Shlegeris, explain where this would hurt. Like the stress tests in the previous lens, this is a problem control researchers name and work on themselves.
+**The criticism: the AI can game its own evaluation.**
+
 
 #### Article
 source:: [[../articles/stastny-misalignment-and-strategic-underperformance-an-analysis-of-sandbagging-and-exploration-hacking]]
