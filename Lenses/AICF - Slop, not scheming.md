@@ -24,22 +24,6 @@ Buck Shlegeris of Redwood Research, one of the two authors of the case for contr
 #### Article
 source:: [[../articles/buck-comment-on-the-case-against-ai-control-research-comment]]
 
-#### Text
-content::
-Lucius Bushnaq replied to Buck's point about getting useful research out of scheming AIs (ASI is artificial superintelligence):
-
-#### Article
-source:: [[../articles/bushnaq-comments-on-the-case-against-ai-control-research]]
-from:: What would you say to the objection
-to:: speed up alignment research more than ASI research and close the gap?
-
-#### Text
-content::
-Buck answered:
-
-#### Article
-source:: [[../articles/buck-comment-on-the-case-against-ai-control-research]]
-
 #### Question: Open
 id:: d9b30556-078c-463a-979d-bc8123ac8fcf
 force-feedback:: first

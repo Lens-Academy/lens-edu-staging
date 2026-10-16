@@ -14,14 +14,6 @@ You read the first part of Oliver Habryka and Ryan Greenblatt's March 2024 dialo
 
 #### Article
 source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
-from:: I kind of want to make a quick list what at a high level my dooms are
-to:: unless we get unlucky with the capability profile.
-
-#### Text
-content::
-Later they came back to point 4, training against caught behaviour. Habryka starts:
-
-#### Article
 from:: I guess maybe the thing that I keep coming back to is actually this one:
 to:: (Though the AI being well practiced does reduce our safety margin substantially.)
 
@@ -37,16 +29,6 @@ to:: selecting for models that can evade our control mechanisms.
 #### Article
 from:: If you do something except shut down your most powerful models
 to:: and am looking forward to seeing more progress.
-
-#### Question: Open
-id:: bde56e9f-4096-4c4c-ba89-c4b6e9b0ca73
-force-feedback:: first
-content::
-\## Sort Habryka's list
-
-Pick three of Habryka's six worries. For each, say which kind of criticism it is: control does not work, works but is not worth the effort, or works and makes things worse. One sentence each is enough.
-assessment-instructions:: Score out of 100. Context for grading: Oliver Habryka lists six worries about a control-focused approach. (1) We have no concrete plan for what to do with mildly superhuman AIs and will find it hard to use them for real alignment progress. Mainly 'not worth the effort', since control buys little if we cannot use the time, or 'does not work' if framed as control failing at its goal. (2) Control methods will mainly be used to get capabilities work out of AIs, shortening timelines. 'Makes things worse' (Ryan Greenblatt calls it a reason control work could be net negative). (3) A large gap between the capabilities we can elicit and what the AI can bring to bear on its own objectives. 'Does not work', since evaluations underestimate the model. (4) Training against failed escape attempts builds AIs that are better at deception and escaping. 'Does not work' or 'makes things worse', depending on whether the stress is on control failing or on making models more dangerous. (5) Working daily with scheming AIs means our thinking about alignment is constantly attacked. 'Does not work' or 'makes things worse'. (6) Large changes in how AIs work as they grow more capable make it hard to predict whether they can be controlled. 'Does not work'. Each of the three worries is worth a third of the score (33, 33 and 34). For each: 13 for identifying the worry recognisably, 20 for a sorting that fits it as above, or another sorting with a reason that fits what the worry says. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Worry 2, that control will mostly be used to squeeze capabilities work out of AIs and shorten timelines, is a 'makes things worse' criticism. Worry 3, that we cannot elicit what the AI can really do on its own goals, is a 'does not work' criticism, because our evaluations would underestimate it. Worry 6, that big changes in how AIs work will make control hard to predict, is also 'does not work', because control may not carry over to the new systems."
-feedback-instructions:: The learner sorts three of Habryka's six worries. Reference sorting, accept other reasoned answers: (1) no concrete plan for using mildly superhuman AIs for alignment: mainly "not worth it" (control buys little if we cannot use the time), with a "does not work" reading if the learner frames it as control failing at its goal. (2) control used mainly for capabilities work, shortening timelines: "makes things worse" (Greenblatt himself calls it "a reason why control work could be net negative"). (3) gap between what we can elicit and what the AI can do on its own objectives: "does not work" (evaluations underestimate the model). (4) training against failed attempts builds better deceivers: "does not work" or "makes things worse", both defensible, depending on whether the learner stresses that control fails or that it makes models more dangerous. (5) our thinking attacked by AIs we work with: "does not work" or "makes things worse". (6) large changes in how AIs work: "does not work" (control may not carry over). One turn, 60 to 110 words. Confirm sortings that fit, and for one that does not fit, say why in one sentence. No generic praise.
 
 #### Question: Open
 id:: 64c822a8-0d4d-48fa-a1f0-d4a5407abaf3

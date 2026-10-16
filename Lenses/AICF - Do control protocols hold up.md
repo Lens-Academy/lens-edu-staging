@@ -38,17 +38,6 @@ from:: "###### Abstract"
 to:: elicit attack selection to produce more realistic safety estimates.
 
 #### Question: Open
-id:: ed531c6a-3d9d-4f1f-b8b0-ed887f614ac1
-force-feedback:: first
-content::
-\## What do these results show?
-
-Which kind of criticism do these two results support most directly: control does not work, works but is not worth the effort, or works and makes things worse? Why?
-placeholder:: A few sentences.
-assessment-instructions:: Score out of 100. Context for grading: the two results are: (a) an untrusted model that knows the protocol and the monitor hid prompt injections in its outputs and got past monitors on two control benchmarks, and one protocol (Defer-to-Resample) made the attack stronger, and (b) letting the attacker choose when to attack and when to abort lowered measured safety by 20 to 28 percentage points at a 1% audit budget, so current evaluations may overstate safety. Give 100 for "control does not work" (or "control as currently built and evaluated may not work") with a reason taken from either result: monitors can be evaded, or evaluations report too high a safety figure. Also give 100 for "works and makes things worse" when the reason is that a protocol made the attack stronger or that an overstated safety figure gives false confidence. Give 50 for a fitting kind with no reason, and 0 for "not worth the effort" unless the reason given fits the results. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Mainly 'does not work': monitors that most protocols rely on could be fooled by prompt injections, and attackers that pick their moment make evaluations report too high a safety figure. Defer-to-Resample backfiring is a small 'makes things worse' case."
-feedback-instructions:: The learner sorts two experiments that stress-tested control by the kind of criticism they support: Terekhov et al. (prompt injections against the monitor, Defer-to-Resample backfiring) and Ge-Wang et al. (attack selection lowered measured safety by 20 to 28 percentage points at a 1% audit budget, upper bounds). Mainly "does not work", with Defer-to-Resample as a small "makes things worse" case. Accept a reasoned alternative. Name the strongest part of the answer, then the single most useful fix. If the learner dismisses the results, ask what the 20 to 28 point drop means for a safety figure a company reports today. If the learner asks about their score, say plainly what earned and lost points. If they say they do not understand, give one foothold: ask what the monitor is supposed to do and what a prompt injection does to it. One or two turns, 60 to 120 words each. No generic praise. Do not say whether control works.
-
-#### Question: Open
 id:: 70170643-f9e8-43f6-8215-252779c14007
 force-feedback:: first
 content::
