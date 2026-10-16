@@ -56,7 +56,7 @@ source:: [[../Lenses/AICF - Do control protocols hold up]]
 notes:: Adaptive attacks on monitors and attack selection lower measured safety (Terekhov et al., Ge-Wang et al.), with the authors' own fix. Closest reading for Test Criticism B.
 ## Lens:
 source:: [[../Lenses/AICF - Does control breed better schemers]]
-notes:: Catching and retraining breeds better schemers: Habryka and Greenblatt on training against caught behaviour, Jozdien on capability evaluations and selection pressure.
+notes:: Catching and retraining breeds better schemers: Habryka and Greenblatt on training against caught behaviour, Jozdien on selection pressure.
 ## Lens:
 source:: [[../Lenses/AICF - Does safety work speed AI up]]
 notes:: The general speed-up worry (Richard Ngo) and a general reply (Caspar Oesterheld).
