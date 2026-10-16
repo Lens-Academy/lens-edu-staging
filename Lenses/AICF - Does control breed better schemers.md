@@ -1,14 +1,16 @@
 ---
 id: '8f8eb980-1a80-4408-96bd-f8cf794a9427'
 title: "Does control breed better schemers?"
-reading_minutes: 15
-tutor_minutes: 16
-tldr: "If you catch an AI misbehaving and then train it not to, you may teach it to misbehave where you cannot see. Oliver Habryka and Jozdien press this and other worries, and Ryan Greenblatt answers."
-summary_for_tutor: "Unit 4 of AI Control Fundamentals. Mostly 'control does not work' criticisms, with one 'makes things worse' item. The learner reads excerpts from two sources. (1) The LessWrong dialogue 'How useful is AI Control as a framing on AI X-Risk?' (March 2024) between Oliver Habryka and Ryan Greenblatt: Habryka's list of six worries (no concrete plan for using mildly superhuman AIs for alignment, control used mainly to extract capabilities work and shorten timelines, a large gap between what we can elicit and what the AI can do on its own objectives, training against failed attempts builds better deceivers, our thinking attacked by the AIs we work with, large changes in how AIs work making control hard to predict), Greenblatt's replies to each (he is 'skeptical that (4) matters much', agrees 5 and 6 are serious concerns, and calls 2 'a reason why control work could be net negative'), and their exchange on point 4: Habryka thinks updating against a failed deception attempt also reinforces 'cognition about how to deceive better', and Greenblatt proposes training a monitor to report the behaviour without training the policy, agrees that training against scheming does several things at once including making the AI 'better understand what would be detected', and notes control evaluations can target a well-practised AI. (2) Jozdien's 'Critiques of the AI control agenda' (February 2024): his three cruxes (control needs strong capability evaluations, models may be wildly superhuman in hacking or persuasion before transformative AI, real-world systems select for models that evade controls), his point that anything short of shutting down after a trigger, from rolling back to training against evals, 'bring[s] in a selection pressure for models that manage to evade your control mechanism while still being competent', and his closing section, where he says he found the agenda more promising the more he thought about it, while still more pessimistic than its authors. Do not tell the learner who is right."
+reading_minutes: 11
+tutor_minutes: 12
+tldr: "The criticism: if you catch an AI misbehaving and then train it not to, you may teach it to misbehave where you cannot see. Oliver Habryka and Jozdien press this, and Ryan Greenblatt answers."
+summary_for_tutor: "Unit 4 of AI Control Fundamentals, Module 'Does control work, and is it worth it?', submodule on the criticism that catching and retraining breeds better schemers. The learner reads (1) the exchange on point 4 from the LessWrong dialogue 'How useful is AI Control as a framing on AI X-Risk?' (March 2024) between Oliver Habryka and Ryan Greenblatt: Habryka thinks updating against a failed deception attempt also reinforces 'cognition about how to deceive better', and Greenblatt proposes training a monitor to report the behaviour without training the policy, agrees that training against scheming does several things at once including making the AI 'better understand what would be detected', and notes control evaluations can target a well-practised AI. A Lens sentence says that point 4 came from a list of Habryka's worries and that Greenblatt had said he was skeptical it matters much. (2) Jozdien's 'Critiques of the AI control agenda' (February 2024): his three cruxes (control needs strong capability evaluations, models may be wildly superhuman in hacking or persuasion before transformative AI, real-world systems select for models that evade controls), his point that anything short of shutting down after a trigger, from rolling back to training against evals, 'bring[s] in a selection pressure for models that manage to evade your control mechanism while still being competent', and his closing section, where he says he found the agenda more promising the more he thought about it, while still more pessimistic than its authors. Do not tell the learner who is right."
 ---
 #### Text
 content::
-You read the first part of Oliver Habryka and Ryan Greenblatt's March 2024 dialogue in Unit 3. Here is a later part, where Habryka lists what he sees as the main ways control work goes wrong. He numbers six worries, and Greenblatt answers them by number, so keep the list in view as you read the replies.
+**The criticism: catching and retraining breeds better schemers.** When control catches an AI trying something dangerous, the obvious next step is to train it not to do that again. Critics argue that this may teach the AI to hide better instead, so the next attempt is one you cannot see.
+
+You read the first part of Oliver Habryka and Ryan Greenblatt's March 2024 dialogue in Unit 3. Later in it, Habryka lists his main worries about control work. His point 4 is that this kind of training makes AIs better at deception, and Greenblatt answers that he is skeptical it matters much. Habryka comes back to it:
 
 #### Article
 source:: [[../articles/habryka-how-useful-is-ai-control-as-a-framing-on-ai-x-risk]]
@@ -25,7 +27,7 @@ to:: (Though the AI being well practiced does reduce our safety margin substanti
 
 #### Text
 content::
-A month earlier, a researcher writing as Jozdien had published his own critiques of control. Here are his three main points, his version of the selection argument from point 4 (training against caught behaviour may teach a model to hide better), and how his view changed while writing.
+A month earlier, a researcher writing as Jozdien had made the same argument in a wider form. Here are his three main points, his version of the selection argument (anything short of shutting a model down after a catch selects for models that evade the controls), and how his view changed while writing.
 
 #### Article
 source:: [[../articles/jozdien-critiques-of-the-ai-control-agenda]]
