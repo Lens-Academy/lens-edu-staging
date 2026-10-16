@@ -9,6 +9,7 @@ title: {--{"author":"James agent ready-31's AI","timestamp":1792146020154}@@"Wha
 
 # Lens:++}
 source:: {--{"author":"James agent ready-31's AI","timestamp":1792146020154}@@[[../Learning Outcomes/Classifying criticisms of--}{++{"author":"James agent ready-31's AI","timestamp":1792146020154}@@[[../Lenses/AICF - Does safety work speed++} AI {--{"author":"James agent ready-31's AI","timestamp":1792146020154}@@control]]--}{++{"author":"James agent ready-31's AI","timestamp":1792146020154}@@up]]++}
+
 # {--{"author":"James agent ready-31's AI","timestamp":1792146020154}@@Learning Outcome:--}{++{"author":"James agent ready-31's AI","timestamp":1792146020154}@@Lens:++}
 source:: {--{"author":"James agent ready-31's AI","timestamp":1792146020154}@@[[../Learning Outcomes/Ways AI--}{++{"author":"James agent ready-31's AI","timestamp":1792146020154}@@[[../Lenses/AICF - How++} control could {--{"author":"James agent ready-31's AI","timestamp":1792146020154}@@backfire]]--}{++{"author":"James agent ready-31's AI","timestamp":1792146020154}@@speed AI up]]++}
 
