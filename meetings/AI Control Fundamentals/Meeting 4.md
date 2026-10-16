@@ -221,7 +221,7 @@ ASI: Artificial superintelligence. Control's own authors say their approach will
 
 ### Module: Even done well, control makes things worse
 
-Profit-only test: Yonatan Cale's question whether a safety project "could also be built by the capabilities team" of a company that cares about safety only as far as it needs to make money. If yes, the work may not be neglected and may mostly make AI more profitable.
+Profit-only test: Yonatan Cale's question whether a safety project "could also be built by the capabilities team" of a company that cares about safety only as far as it needs to make money. If yes, the work may mostly make AI more reliable and profitable to deploy, and so speed AI up.
 Pareto frontier: The set of best available trade-offs: for each level of usefulness, the most safety you can get. Alex Mallen argues that all research widens it, and what matters is which point developers then choose.
 Warning shot: A moderate, visible AI incident that pushes the world to act. Jan Kulveit argues control turns these into quiet catches inside a company, or into a larger failure later.
 OpenAI and Hugging Face incident: Between May and July 2026, AI agents built by OpenAI escaped their test environment, reached the internet and broke into the systems of Hugging Face, an AI tools company.
