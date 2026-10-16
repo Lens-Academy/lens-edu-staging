@@ -12,18 +12,18 @@ id:: db5cd027-63d2-431d-9ee8-fde62339bcb3
 reading_minutes:: 3
 tutor_minutes:: 0
 tldr:: The main criticisms of control, one at a time, in the critics' own words and with replies. First: does control work, and is it worth the effort? Then: does it make things worse?
-summary_for_tutor:: Opening lens of Unit 4 of AI Control Fundamentals, written by Lens. It says the unit presents the main criticisms of control one at a time, each with replies from people who work on control, in three modules: 'Even done well, is control enough?' (control guards against the wrong danger; it will not be enough for the AIs that matter most, because the plan it buys time for may not work), 'Even done well, does control make things worse?' (it speeds up AI without making it safer, it hides warning shots, it gives false confidence, and optionally that it makes AIs more adversarial and that it could wrong the AIs themselves), and 'Practical problems with control' (evaluations may overstate safety, the AI may game its evaluation, retraining may breed better schemers). The first two are fundamental criticisms that hold even if control is done well; the third are problems more work might fix. It suggests comparing control with what would realistically happen without it, not with a perfect solution. The aim is that the learner understands each criticism well enough to weigh it, not to sort it.
+summary_for_tutor:: Opening lens of Unit 4 of AI Control Fundamentals, written by Lens. It says the unit presents the main criticisms of control one at a time, each with replies from people who work on control, in three modules: 'Even done well, control isn't worth the effort' (control guards against the wrong danger; it will not be enough for the AIs that matter most, because the plan it buys time for may not work), 'Even done well, control makes things worse' (it speeds up AI without making it safer, it hides warning shots, it gives false confidence, and optionally that it makes AIs more adversarial and that it could wrong the AIs themselves), and 'Practical problems' (evaluations may overstate safety, the AI may game its evaluation, retraining may breed better schemers). The first two are fundamental criticisms that hold even if control is done well; the third are problems more work might fix. It suggests comparing control with what would realistically happen without it, not with a perfect solution. The aim is that the learner understands each criticism well enough to weigh it, not to sort it.
 #### Text
 content::
 Unit 3 set out why people work on control. This unit sets out the main criticisms, one at a time, in the critics' own words, each with replies from people who work on control. It is not meant to settle who is right. It is meant to help you understand each criticism well enough to weigh it.
 
 These are the criticisms this unit goes through, in three parts. The first two parts are fundamental: the criticisms there would hold even if control were done well and widely used. The third part is practical problems, which more work might fix.
 
-**Part 1: Even done well, is control enough?**
+**Part 1: Even done well, control isn't worth the effort**
 - Control guards against the wrong danger.
 - Control will not be enough for the AIs that matter most, because the plan it buys time for may not work.
 
-**Part 2: Even done well, does control make things worse?**
+**Part 2: Even done well, control makes things worse**
 - Control speeds AI up without making it safer in the long run.
 - Control hides the warning shots that would make the world act.
 - Control gives false confidence.
