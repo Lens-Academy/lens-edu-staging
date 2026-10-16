@@ -32,7 +32,7 @@ These are the criticisms this unit goes through, in three parts. The first two p
 
 **Part 3: Practical problems**
 - Control evaluations may overstate safety.
-- The AI may game its own evaluation.
+- Optional: the AI may game its own evaluation.
 - Catching and retraining an AI may breed better schemers.
 
 When you weigh a criticism, compare the world with control against what would realistically happen without it, not against a perfect solution. Any safety measure falls short of perfect, so that comparison cannot tell you whether control helps. When you weigh a reply, check that it makes the same realistic comparison.
