@@ -212,14 +212,14 @@ style:: plain
 
 ## Glossary
 
-### Module: Even done well, is control enough?
+### Module: Even done well, control isn't worth the effort
 
 Slop: John Wentworth's name for what he thinks is the likely way things go wrong: early AI produces alignment work that looks fine and is not, and the lab believes it has solved the problem.
 Selection argument: If you respond to a caught AI by training against the behaviour, rolling back or retraining, while keeping the models that perform well, you may end up with models that are better at evading your controls. Oliver Habryka and Jozdien press versions of it.
 Prompt injection: Text written to give instructions to whichever model reads it. In one 2025 experiment, an untrusted model hid prompt injections in its outputs and got past the monitors of current control protocols.
 ASI: Artificial superintelligence. Control's own authors say their approach will not work for arbitrarily powerful AI, and MIRI concludes that no workaround exists for a misaligned ASI, so progress toward it should be halted by a worldwide ban.
 
-### Module: Even done well, does control make things worse?
+### Module: Even done well, control makes things worse
 
 Profit-only test: Yonatan Cale's question whether a safety project "could also be built by the capabilities team" of a company that cares about safety only as far as it needs to make money. If yes, the work may not be neglected and may mostly make AI more profitable.
 Pareto frontier: The set of best available trade-offs: for each level of usefulness, the most safety you can get. Alex Mallen argues that all research widens it, and what matters is which point developers then choose.
