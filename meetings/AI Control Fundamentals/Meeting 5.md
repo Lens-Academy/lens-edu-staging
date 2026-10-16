@@ -40,7 +40,7 @@ One or two people share what their group landed on.
 
 **New group. Names first, then straight in.**
 
-1\. If you could rewind and give OpenAI a monitor that would have blocked the escape silently, so no one outside OpenAI would ever have heard of it, would you? Go around.
+1\. If you could rewind and give OpenAI a monitor that would have blocked the hugging face incident si escape silently, so no one outside OpenAI would ever have heard of it, would you? Go around.
 2\. Each of you names your line: how bad would the harm have to be before you'd want an escape like this blocked silently? (People hurt, money lost, a death?)
 3\. Whose lines differ most? Ask them what makes the difference.
 4\. If you still have time: would your answer change if you knew the incident would lead to no new laws?
