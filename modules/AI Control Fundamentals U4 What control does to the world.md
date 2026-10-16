@@ -17,6 +17,8 @@ source:: [[../Lenses/AICF - Would a profit-only lab build it]]
 # Lens:
 source:: [[../Lenses/AICF - Did safety work help AI companies race]]
 optional:: true
+
+# Lens:
 source:: [[../Lenses/AICF - Warning shots revisited]]
 
 # Lens:
