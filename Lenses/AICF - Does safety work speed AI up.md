@@ -10,6 +10,7 @@ summary_for_tutor: "Unit 4 of AI Control Fundamentals, Module 'Even done well, c
 content::
 **The criticism: control speeds up AI without making it safer in the long run.**
 
+Before the versions aimed at control, here is the general worry. Richard Ngo, who used to work at DeepMind and OpenAI, argues it about alignment research in general: much of it, he says, helped AI companies race toward AGI, AI as capable as humans across the board, "under the banner of safety". His post is not about control. But control's main pitch is that it lets companies get useful work, including alignment research, out of AIs they cannot yet trust. This submodule has three lenses: this general version with a general reply, then a version aimed at control with Redwood's answer, then the question whether a company that only cares about profit would build control anyway.
 
 Read the first paragraph of Ngo's post.
 
