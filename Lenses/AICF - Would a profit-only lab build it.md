@@ -36,15 +36,6 @@ Hobbhahn answered:
 #### Article
 source:: [[../articles/hobbhahn-comment-on-the-case-for-agi-safety-products]]
 
-#### Text
-content::
-Alex Mallen of Redwood Research gives a more general way to think about this. Read the first part of his post. (The "Pareto frontier" is the set of best available trade-offs: for each level of usefulness, the most safety you can get.)
-
-#### Article
-source:: [[../articles/mallen-capabilities-research-expands-the-safety-usefulness-pareto-frontier-too]]
-from:: "### A model of when and why research improves or hurts safety"
-to:: Visually: near the initial pink point, the green slope is shallower than the red slope.
-
 #### Question: Open
 id:: e7765022-c4b3-4da6-b804-c4d1656d3f7e
 force-feedback:: first
