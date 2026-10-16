@@ -43,7 +43,7 @@ source:: [[../Lenses/AICF - Safety-washing and false confidence]]
 notes:: Manheim on oversight as "a story", and Greenblatt and Shlegeris on why calling a controlled model "aligned" invites less vigilance.
 ## Lens:
 source:: [[../Lenses/AICF - How control could speed AI up]]
-notes:: Capabilities acceleration through more usable models (Habryka, Bushnaq), with Buck's answer.
+notes:: Capabilities acceleration through more usable models (Bushnaq; Habryka in an optional box), with Buck's answer, worked out by Mallen.
 ## Lens:
 source:: [[../Lenses/AICF - Would a profit-only lab build it]]
 notes:: Safety monitors may mostly make AI reliable enough to sell, and so speed AI up (Cale), with Hobbhahn's reply.

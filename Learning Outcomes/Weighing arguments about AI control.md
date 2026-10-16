@@ -62,7 +62,7 @@ source:: [[../Lenses/AICF - Does safety work speed AI up]]
 notes:: The general speed-up worry (Richard Ngo) and a general reply (Caspar Oesterheld).
 ## Lens:
 source:: [[../Lenses/AICF - How control could speed AI up]]
-notes:: Speed-up versions aimed at control (Habryka, Bushnaq) and Buck's answer.
+notes:: Speed-up version aimed at control (Bushnaq; Habryka in an optional box) and Buck's answer, worked out by Mallen.
 ## Lens:
 source:: [[../Lenses/AICF - Would a profit-only lab build it]]
 notes:: Speed-up through AI that is easier to sell: could a profit-only company's capabilities team build it (Cale), with Hobbhahn's reply.
