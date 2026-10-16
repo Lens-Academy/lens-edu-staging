@@ -10,6 +10,10 @@ tags: [wip]
 ---
 #### Text
 content::
+:::callout
+**This page is optional.** CFAR, which wrote the handbook, no longer teaches Internal Double Crux, the technique on this page for working through a conflict between two parts of you, at its workshops. You can skip straight to Plan your week. If you stay, the box below says why CFAR dropped it and how to use it with that in mind.
+:::
+
 \## When "I should" and "I don't want to" both have a point
 
 You think you should read the new interpretability paper tonight. You also keep finding other things to do. One common story is that the "should" side is right and the other side is lazy, and the fix is willpower.
