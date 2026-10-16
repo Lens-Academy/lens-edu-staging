@@ -12,16 +12,20 @@ content::
 
 Before the versions aimed at control, here is the general worry. Richard Ngo, who used to work at DeepMind and OpenAI, argues it about alignment research in general: much of it, he says, helped AI companies race toward AGI, AI as capable as humans across the board, "under the banner of safety". His post is not about control. But control's main pitch is that it lets companies get useful work, including alignment research, out of AIs they cannot yet trust. This criticism gets three lenses: this general version with a general reply, then a version aimed at control with Redwood's answer, then the question whether a company that only cares about profit would build control anyway.
 
-Read the first paragraph of Ngo's post.
+Read the introduction of Ngo's post. Some terms in it:
+- **EA:** effective altruism, a movement that picks its work by the good it expects the work to do.
+- **Overhang:** a backlog, for example of computing power, that could let AI jump ahead suddenly once someone uses it. Some argued for pushing AI forward early to avoid one.
+- **Mistake theory:** the view that people who cause harm are mostly mistaken, not acting in bad faith.
+- **Pessimization:** Ngo's word for producing the opposite of your stated goals.
 
 #### Article
 source:: [[../articles/ngo-what-just-happened-pragmatism-and-pessimization]]
 from:: This post is about the major role alignment researchers played
-to:: like authors Sebastian Mallaby and Karen Hao.[^cite-3]
+to:: like the ones I discuss at the end of this post.
 
 #### Text
 content::
-Ngo then goes through the work of OpenAI, DeepMind and Anthropic, and ends with two current examples of work that blurs the line between alignment and capabilities. Two terms in it:
+Ngo then goes through the work of OpenAI, DeepMind and Anthropic, and ends with two current examples of work that blurs the line between alignment and capabilities. The whole post is an optional lens right after this one. Two terms in this part:
 - **Scalable oversight:** methods for humans to check AI work that is too hard for them to check directly, for example with the help of other AIs.
 - **Recursive self-improvement:** AIs doing the research that makes the next AIs better, which could speed progress up more and more.
 
