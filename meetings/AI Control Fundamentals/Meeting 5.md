@@ -99,11 +99,11 @@ One or two people share what their group landed on.
 
 
 The course ends today.
-1\. Share one thing you will do next with what you learned here, and its first step with a date.
-2\. The others suggest one person, reading or course that fits each plan.
+1\. Each of you: where do you think you could do the most good in the world, with AI safety or anything else? If you are not sure yet, what do you most need to learn to find out?
+2\. The others suggest one person, reading or course that could help.
 
 
-| Names | Your next step with a date |
+| Names | Where you could do the most good, or what you need to learn |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -113,7 +113,7 @@ The course ends today.
 \pagebreak
 ### Wrap-up  [1:27–1:30]
 
-Back in the main room, share if you feel like it: where you landed in Room 3, in one sentence, or the next step you picked in Room 4.
+Back in the main room, share if you feel like it: where you landed in Room 3, in one sentence, or where you could do the most good, from Room 4.
 Before you leave (your navigator will talk through these):
 
 - This is the last meeting of AI Control Fundamentals, so there is no next unit to read.
