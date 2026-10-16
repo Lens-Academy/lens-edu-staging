@@ -8,7 +8,7 @@ summary_for_tutor: "Unit 4 of AI Control Fundamentals, Module 'Does control work
 ---
 #### Text
 content::
-Does control hold up even for today's models? If a control evaluation's red team misses attacks that a model could find, the safety figure the evaluation reports is too high. Here are two experiments that tested control protocols against a more cunning attacker. Both were written by researchers who work on making control evaluations better. In the second paper, the last author, Tyler Tracy, works at Redwood Research.[^cite-pivotal-tracy] So read them as stress tests that control researchers ran on their own methods, not as arguments against control.
+**The criticism: control evaluations overstate safety.** An evaluation is only as good as its red team. If the attacker in the test is less cunning than a real scheming model would be, the reported safety is too high, and a lab may trust a protocol that would fail. Here are two experiments that tested control protocols against a more cunning attacker. Both were written by researchers who work on making control evaluations better. In the second paper, the last author, Tyler Tracy, works at Redwood Research.[^cite-pivotal-tracy] So this criticism comes from inside the field: control researchers testing their own methods.
 
 Some terms you will need:
 
@@ -16,6 +16,7 @@ Some terms you will need:
 - **Prompt injection:** text written to give instructions to whichever model reads it.
 - **Audit budget:** the share of actions that humans can afford to check.
 - **pp:** percentage points.
+- **BashArena, LinuxArena:** test environments in which an AI agent does real tasks on a computer and may try to sneak in an attack along the way.
 
 [^cite-pivotal-tracy]: Pivotal Research, *Tyler Tracy*, profile page. [Pivotal](https://www.pivotal-research.org/tyler-tracy)
 
