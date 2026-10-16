@@ -68,6 +68,7 @@ notes:: {--{"author":"James agent ready-31's AI","timestamp":1792146023484}@@A t
 ## Lens:
 source:: [[../Lenses/AICF - How control could speed AI up]]
 notes:: Speed-up versions aimed at control (Habryka, Bushnaq) and Buck's answer.++}
+## Lens:
 source:: [[../Lenses/AICF - {--{"author":"James agent ready-31's AI","timestamp":1792146023484}@@How control could speed AI up]]--}{++{"author":"James agent ready-31's AI","timestamp":1792146023484}@@Would a profit-only lab build it]]++}
 notes:: {--{"author":"James agent ready-31's AI","timestamp":1792146023484}@@Scored practice --}{++{"author":"James agent ready-31's AI","timestamp":1792146023484}@@Neglectedness: would a profit-only lab build it anyway (Cale), with replies (Hobbhahn, Mallen). Closest reading ++}for {--{"author":"James agent ready-31's AI","timestamp":1792146023484}@@parts 1--}{++{"author":"James agent ready-31's AI","timestamp":1792146023484}@@Test Criticism C's opportunity-cost point.
 ## Lens:

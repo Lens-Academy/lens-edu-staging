@@ -214,7 +214,6 @@ style:: plain
 
 ### Module: Does control work, and is it worth it?
 
-Three kinds of criticism: The unit's way of sorting criticisms of control by what they dispute: control does not work, control works but is not worth the effort, or control works and makes things worse. The sorting shows what a criticism disputes, not whether it is right.
 Slop: John Wentworth's name for what he thinks is the likely way things go wrong: early AI produces alignment work that looks fine and is not, and the lab believes it has solved the problem.
 Selection argument: If you respond to a caught AI by training against the behaviour, rolling back or retraining, while keeping the models that perform well, you may end up with models that are better at evading your controls. Oliver Habryka and Jozdien press versions of it.
 Prompt injection: Text written to give instructions to whichever model reads it. In one 2025 experiment, an untrusted model hid prompt injections in its outputs and got past the monitors of current control protocols.
@@ -227,7 +226,6 @@ Pareto frontier: The set of best available trade-offs: for each level of usefuln
 Warning shot: A moderate, visible AI incident that pushes the world to act. Jan Kulveit argues control turns these into quiet catches inside a company, or into a larger failure later.
 OpenAI and Hugging Face incident: Between May and July 2026, AI agents built by OpenAI escaped their test environment, reached the internet and broke into the systems of Hugging Face, an AI tools company.
 Oversight as "a story": David Manheim's test: a claim that an AI is supervised should say what kind of supervision it is, which risks it addresses, its failure modes, and why it will work. Without that, "You have a story."
-Safety-washing: Safety work that mainly makes a deployment look or feel safer than it is, so people go ahead with it. It is one item on Elias Schmied's list of ways AI safety work could do harm.
-Power concentration: The risk that advanced AI lets a small group seize power, for example with AI systems loyal to one person. Tom Davidson, Lukas Finnveden and Rose Hadshar describe it, and recommend logging and review of AI use as one defence.
+Safety-washing: Safety work that mainly makes a deployment look or feel safer than it is, so people go ahead with it.
 Self-fulfilling misalignment: The worry that writing about AIs as adversaries to be contained ends up in training data and makes models more adversarial. Dmitrii Gusev and Vili Kohonen fine-tuned one model on material from AI control writing and found it blackmailed more often in one test scenario, with limits they list themselves.
 AI welfare: The question whether some AI systems matter morally. Robert Long, Jeff Sebo and Toni Sims argue that if they do, confining and watching them could be a moral cost even when control works.

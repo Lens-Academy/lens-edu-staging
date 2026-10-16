@@ -41,6 +41,7 @@ notes:: Kulveit's warning-shot argument, Greenblatt's reply, Kulveit's answer an
 ## Lens:
 source:: [[../Lenses/AICF - Safety-washing and false confidence]]
 notes:: Manheim on oversight as "a story", and Greenblatt and Shlegeris on why calling a controlled model "aligned" invites less vigilance.
+## Lens:
 source:: [[../Lenses/AICF - How control could speed AI up]]
 notes:: Capabilities acceleration through more usable models (Habryka, Bushnaq), with Buck's answer.
 ## Lens:
