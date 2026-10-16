@@ -42,7 +42,7 @@ One or two people share what their group landed on.
 
 1\. If you could rewind and give OpenAI a monitor that would have blocked the hugging face incident, would you? Go around.
 2\. Each of you names your line: how bad would the harm have to be before you'd want an escape like this blocked? (People hurt, money lost, a death?)
-3\. Whose lines differ most? What makes your views so different.
+3\. Whose lines differ most? What makes your views so different?
 4\. If you still have time: who should decide where this line is (the lab, a government, the public), and who will decide it in practice? What would bring the two closer?
 
 If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
