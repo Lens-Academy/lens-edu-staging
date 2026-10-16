@@ -66,6 +66,7 @@ Check honestly whether the answer fully answers the question. If it does, it sho
 ## Checks before you call a rubric done
 
 For a lens, run these through a fresh sub-agent: the instructions are in "Check your questions with a sub-agent" in [[../AI Guide/Writing Lenses]].
+
 1. **Alignment.** For each scored element, point to the words in the question that ask for it. Anything you can't point to goes. (This is the check in [[../AI Guide/Evals/Learning Outcome Evals/C2 - No unasked demands]].)
 2. **Arithmetic.** Points add up to 100; caps and deductions have numbers; sub-points add up to their element.
 3. **Grader simulation.** Write two answers a real learner might type: a short, informal, correct one, and a half-right one. Grade both as the platform does (its prompt above plus your rubric). The correct one should score at least 85 and the half-right one somewhere in the middle. If the correct one scores low, read the grader's reason: it names the element that is unasked, double counted or unclear.
