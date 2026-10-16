@@ -8,7 +8,8 @@ summary_for_tutor: "Unit 4 of AI Control Fundamentals, Module 'Practical problem
 ---
 #### Text
 content::
-**The criticism: catching and retraining breeds better schemers.** When control catches an AI trying something dangerous, the obvious next step is to train it not to do that again. Critics argue that this may teach the AI to hide better instead, so the next attempt is one you cannot see.
+**The criticism: catching and retraining breeds better schemers.**
+
 
 You read the first part of Oliver Habryka and Ryan Greenblatt's March 2024 dialogue in Unit 3. Later in it, Habryka lists his main worries about control work. His point 4 is that this kind of training makes AIs better at deception, and Greenblatt answers that he is skeptical it matters much. Habryka comes back to it. (In this exchange, the **policy** is the AI being trained, as opposed to the monitor.)
 

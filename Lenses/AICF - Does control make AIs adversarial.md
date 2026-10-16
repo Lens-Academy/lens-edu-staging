@@ -8,7 +8,8 @@ summary_for_tutor: "Optional lens in Unit 4 of AI Control Fundamentals, Module '
 ---
 #### Text
 content::
-**The criticism: control makes AIs more adversarial.** Writing about AIs as adversaries to be watched and contained ends up in the data future models learn from. If models pick up that picture of themselves, control research could make them more adversarial. Dmitrii Gusev and Vili Kohonen tested a small version of this. Read their summary, how they interpret the results, and their caveats.
+**The criticism: control makes AIs more adversarial.**
+
 
 #### Article
 source:: [[../articles/gusev-investigating-self-fulfilling-misalignment-and-collusion-in-ai-control]]
