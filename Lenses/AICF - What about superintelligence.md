@@ -10,6 +10,7 @@ summary_for_tutor: "Unit 4 of AI Control Fundamentals, Module 'Even done well, c
 content::
 **The criticism: control will not be enough for the AIs that matter most.**
 
+Control is built for AIs that are not much smarter than us. Its authors agree it will not work for far more powerful AI. Greenblatt and Shlegeris, who wrote the case for control you read in Unit 1, say:
 
 #### Article
 source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
