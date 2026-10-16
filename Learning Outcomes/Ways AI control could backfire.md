@@ -46,7 +46,7 @@ source:: [[../Lenses/AICF - How control could speed AI up]]
 notes:: Capabilities acceleration through more usable models (Habryka, Bushnaq), with Buck's answer.
 ## Lens:
 source:: [[../Lenses/AICF - Would a profit-only lab build it]]
-notes:: Would a profit-only lab build it anyway (Cale), with replies (Hobbhahn, Mallen).
+notes:: Safety monitors may mostly make AI reliable enough to sell, and so speed AI up (Cale), with Hobbhahn's reply.
 ## Lens:
 source:: [[../Lenses/AICF - Does control breed better schemers]]
 notes:: Training against caught behaviour as a backfire path.
