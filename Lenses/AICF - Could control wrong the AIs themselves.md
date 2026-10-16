@@ -10,6 +10,7 @@ summary_for_tutor: "Optional lens in Unit 4 of AI Control Fundamentals, Module '
 content::
 **The criticism: control could wrong the AIs themselves.**
 
+If some future AI systems matter morally, the measures that make control work, such as confining them, watching everything they do and shutting them down, could harm or wrong them. This is not a reason control would fail. It is a possible moral cost of control succeeding.
 
 Robert Long, Jeff Sebo and Toni Sims argue that there is a real tension between AI safety and AI welfare.[^cite-long-sebo-sims-2025] Read their statement of the tension, what they say about confinement and about monitoring, and their conclusion on when harming AI systems might be permitted.
 
