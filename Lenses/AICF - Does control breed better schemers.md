@@ -23,10 +23,6 @@ A month earlier, a researcher writing as Jozdien had made the same argument in a
 
 #### Article
 source:: [[../articles/jozdien-critiques-of-the-ai-control-agenda]]
-from:: Here’s a TL;DR of my cruxes:
-to:: selecting for models that can evade our control mechanisms.
-
-#### Article
 from:: If you do something except shut down your most powerful models
 to:: (unless we commit to shutting down all frontier models at once).
 
