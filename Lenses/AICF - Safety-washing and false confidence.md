@@ -1,14 +1,14 @@
 ---
 id: 'c192c948-d095-40f3-b6f5-f843c9069855'
 title: "Safety-washing and false confidence"
-reading_minutes: 9
+reading_minutes: 6
 tutor_minutes: 12
 tldr: "Oversight that nobody can describe in detail is, in David Manheim's words, \"a story\". A control measure can make a deployment safer, or it can mostly make people feel safe enough to deploy."
-summary_for_tutor: "Unit 4 of AI Control Fundamentals. The 'false confidence' and safety-washing criticism. The learner reads David Manheim's short post 'No, We're Not Getting Meaningful Oversight of AI' (July 2025, a linkpost for his paper with Aidan Homewood): oversight is invoked everywhere as the thing that prevents unacceptable outcomes, but meaningful oversight is often absent or impossible, so anyone claiming their AI is supervised should document what kind of supervision it is (control or oversight), which risks it addresses, its failure modes, and why it will work. 'If you can't do that, you don't have oversight. You have a story.' Then the list from Elias Schmied's 'A brief list of ways AI safety efforts could be net negative' (June 2026), which includes safety-washing and false security, capabilities externalities, an adversarial relationship with AIs, and AI moral patienthood. Schmied says he puts maybe 60% on AI safety having been net positive so far. Then a short excerpt from Greenblatt and Shlegeris's case for control: relying on control 'requires continued vigilance', which may be less likely if people conflate alignment with safety. The pro-control reply to Manheim is that control evaluations produce exactly this kind of documentation. Do not tell the learner who is right."
+summary_for_tutor: "Unit 4 of AI Control Fundamentals, Module 'Does control make things worse?', submodule on the criticism that control gives false confidence. The learner reads David Manheim's short post 'No, We're Not Getting Meaningful Oversight of AI' (July 2025, a linkpost for his paper with Aidan Homewood): oversight is invoked everywhere as the thing that prevents unacceptable outcomes, but meaningful oversight is often absent or impossible, so anyone claiming their AI is supervised should document what kind of supervision it is (control or oversight), which risks it addresses, its failure modes, and why it will work. 'If you can't do that, you don't have oversight. You have a story.' Then a short excerpt from Greenblatt and Shlegeris's case for control: calling a protocol 'aligned' when it is only safe and useful is extremely bad terminology, because relying on control 'requires continued vigilance', which may be less likely if people conflate alignment with safety. The pro-control reply to Manheim is that control evaluations produce exactly this kind of documentation. Do not tell the learner who is right."
 ---
 #### Text
 content::
-Safety work could backfire by making people feel safer than they are. Here are two short pieces by people who worry about this, and what the authors of the case for control said about it.
+**The criticism: control gives false confidence.** A control measure can make a deployment safer, or it can mostly make people feel safe enough to deploy. Read David Manheim's short post on oversight, then what the authors of the case for control say about this danger themselves.
 
 #### Article
 source:: [[../articles/davidmanheim-no-were-not-getting-meaningful-oversight-of-ai]]
@@ -28,16 +28,7 @@ feedback-instructions:: The learner applies Manheim's four documentation questio
 
 #### Text
 content::
-Elias Schmied lists ways AI safety work in general could do harm. The items closest to control are the adversarial relationship with AI, AI moral patienthood, safety-washing, and capabilities externalities.
-
-#### Article
-source:: [[../articles/schmied-a-brief-list-of-ways-ai-safety-efforts-could-be-net-negative]]
-from:: I’m not aware of a good list of downside risks for AI safety broadly
-to:: contributed to the foundings of all three of DeepMind, OpenAI and Anthropic.
-
-#### Text
-content::
-In the case for control you read in Unit 1, Ryan Greenblatt and Buck Shlegeris raise a version of this worry themselves:
+In the case for control you read in Unit 1, Ryan Greenblatt and Buck Shlegeris raise this danger themselves:
 
 #### Article
 source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
@@ -48,10 +39,13 @@ to:: (“we are safe because we are vigilant”).
 id:: 2878379d-a408-4176-a763-eff6f3c04223
 force-feedback:: first
 content::
-\## A version of the worry from control's authors
+\## When nothing has been caught
 
-Greenblatt and Shlegeris warn against calling a model "aligned" when it is only kept safe by control. Which item on Schmied's list is their worry a version of? Which of the three kinds of criticism is it, and why?
+A lab's control protocol has caught no attacks in a year of use, and its system card now calls the model "aligned".
+
+1. Using Greenblatt and Shlegeris's point, how could this make the lab less safe over the following year?
+2. What should the lab say instead? Use Manheim's test.
 placeholder:: A few sentences.
-assessment-instructions:: Score out of 100. Context for grading: in their case for control, Ryan Greenblatt and Buck Shlegeris say it is extremely bad terminology to call a protocol "aligned" when it is "safe and useful": if you rely on control, your safety requires continued vigilance, and conflating alignment ("we don't need to be vigilant") with safety ("we are safe because we are vigilant") makes that vigilance less likely. Elias Schmied lists ways AI safety work could be net negative, among them safety-washing, or a false sense of security from misleading or insufficiently useful safety work. The three kinds of criticism are: control does not work, works but is not worth the effort, works and makes things worse. 40: the item, safety-washing or a false sense of security. 30: the kind, works and makes things worse. 30: why: control works only while people stay vigilant, and calling the model aligned makes them feel safe enough to stop, so the risk rises. An answer that sorts it as "does not work" earns 15 of these 30 if it says the protection fails once vigilance stops. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "It is the safety-washing item: a false sense of security. It is a 'works and makes things worse' worry, because control only keeps you safe while people stay vigilant, and calling a controlled model 'aligned' tells them they can stop."
-feedback-instructions:: The learner links Greenblatt and Shlegeris's warning about the word "aligned" to Schmied's list. It is a version of safety-washing, a false sense of security, and a "works and makes things worse" worry: control keeps you safe only while people stay vigilant, and calling a controlled model aligned invites them to stop. Name the strongest part of the answer, then the single most useful fix. If the learner asks about their score, say plainly what earned and lost points. If they say they do not understand, give one foothold: ask what control needs from the people running it that alignment would not. One or two turns, 60 to 120 words each. No generic praise.
+assessment-instructions:: Score out of 100. Context for grading: in their case for control, Ryan Greenblatt and Buck Shlegeris say it is extremely bad terminology to call a protocol "aligned" when it is "safe and useful": if you rely on control, your safety requires continued vigilance, and conflating alignment ("we don't need to be vigilant") with safety ("we are safe because we are vigilant") makes that vigilance less likely. David Manheim says any claim that an AI is supervised should say what kind of supervision it is, which risks it addresses, its failure modes, and why it will work; otherwise "you have a story". Part 1, 60: a concrete path from calling the model aligned to less safety, through less vigilance. 30 for the step that people treat the model as trustworthy and relax what control depends on (fewer audits, monitors switched off or loosened, more access or autonomy for the model, a successor model deployed with less checking). 30 for why that raises the risk: control only protects while it is maintained, and a year without catches does not show the model is not scheming (it may be waiting or hiding). 15 of either 30 if stated only in general terms. Part 2, 40: what the lab should say instead, in line with Manheim's test: that the model is kept safe by control rather than shown to be aligned, what the protocol covers and what it does not, how it could fail, and why they expect it to work, with the evidence (such as control evaluations). 20 of the 40 for "say it is controlled, not aligned" with no more. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "If the model is called aligned, staff will feel the monitors are no longer needed: audits get cut, the model gets more access, and the next model ships with less checking. But a year without catches does not show the model is safe, only that the protocol held while it ran, so the risk grows as vigilance drops. The lab should say the model is kept safe by its control protocol, describe what the monitors and audits cover, how they could fail, and what evaluations back the claim."
+feedback-instructions:: The learner applies Greenblatt and Shlegeris's warning about the word "aligned" to a lab that has caught nothing in a year and now calls its model aligned, then uses Manheim's test to say what the lab should claim instead. Strong part 1: people relax what control depends on (audits, monitors, limits on access, checks on the next model), and since control protects only while it is maintained, and a year without catches does not show the model is not scheming, the risk rises. Strong part 2: say the model is controlled, not shown to be aligned, and state what the protocol covers, its failure modes and the evidence it works. Name the strongest part of the answer, then the single most useful fix. If the learner asks about their score, say plainly what earned and lost points. If they say they do not understand, give one foothold: ask what control needs from the people running it that alignment would not. One or two turns, 60 to 120 words each. No generic praise.
 
