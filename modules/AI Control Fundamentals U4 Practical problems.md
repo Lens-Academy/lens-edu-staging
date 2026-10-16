@@ -1,7 +1,7 @@
 ---
 id: '65863ceb-aacd-4f71-b776-e2396dfc5c99'
 slug: ai-control-fundamentals-u4-practical
-title: "Practical problems with control"
+title: "Practical problems"
 ---
 %% Part 3 of Unit 4 of AI Control Fundamentals (Elias, 2026-10-16): practical problems that more work might fix, then the unit's tests. The lenses here came from part 1, with their ids unchanged, so learners keep their progress. %%
 
