@@ -35,10 +35,7 @@ source:: [[../Learning Outcomes/Deciding under stress]]
 source:: [[../Lenses/ARW - Againstness]]
 
 # Submodule: Internal Double Crux (optional)
-# Learning Outcome
-source:: [[../Learning Outcomes/Moderating an inner disagreement]]
-optional:: true
-
+%% Optional since 2026-10-16 (Elias), because CFAR no longer teaches IDC. The outcome [[../Learning Outcomes/Moderating an inner disagreement]] is not imported here: an imported outcome's test is always required. %%
 # Lens:
 source:: [[../Lenses/ARW - Internal Double Crux]]
 optional:: true
