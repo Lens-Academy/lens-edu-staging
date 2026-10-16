@@ -41,10 +41,6 @@ Caspar Oesterheld replies to this worry in general, for any safety project. Read
 #### Article
 source:: [[../articles/oesterheld-a-simple-argument-about-capabilities-externalities-versus-opportunity-costs]]
 from:: **TL;DR**: _Lots of people have the intuition
-to:: but won’t render the project net negative.
-
-#### Article
-from:: It’s important to understand some things that the argument does _not_ say:
 to:: will increase AIs’ ability to escape control schemes.
 
 #### Question: Open
