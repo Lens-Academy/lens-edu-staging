@@ -16,7 +16,7 @@ source:: [[../shared/Session Doc - How today works]]
 ### Room 1: Icebreaker  [0:05–0:19]
 
 Last meeting of the course. Go around:
-1\. How was the course fo? Did you finish it? If you didn't, what got in the way?
+1\. How was the course for you? Did you finish everything? If you didn't, what got in the way?
 2\. Which argument from this unit stuck with you, whether or not you agree with it? Sum it up in one line for the others.
 3\. If you still have time: in one word, how does the course leave you feeling?
 
