@@ -8,7 +8,8 @@ summary_for_tutor: "Unit 4 of AI Control Fundamentals, Module 'Even done well, c
 ---
 #### Text
 content::
-**The criticism: control guards against the wrong danger.** Control aims to stop early AIs that scheme. John Wentworth argues that this is a small slice of the risk, and that the likely way we lose is different: early AI produces alignment work that looks right and is not.
+**The criticism: control guards against the wrong danger.**
+
 
 Wentworth wrote this in January 2025. He starts by quoting the case for control you read in Unit 1. Read it, then Buck Shlegeris's reply from the discussion under it.
 

@@ -8,7 +8,8 @@ summary_for_tutor: "Unit 4 of AI Control Fundamentals, Module 'Even done well, c
 ---
 #### Text
 content::
-**The criticism: control gives false confidence.** A control measure can make a deployment safer, or it can mostly make people feel safe enough to deploy. Critics call the second *safety-washing*: safety work used as a label that makes a deployment look safer than it is. David Manheim's short post targets every claim that an AI is "supervised". The worry for control is that "we run control" can become such a claim, and license a deployment. Then read what the authors of the case for control say about this danger themselves.
+**The criticism: control gives false confidence.**
+
 
 #### Article
 source:: [[../articles/davidmanheim-no-were-not-getting-meaningful-oversight-of-ai]]
