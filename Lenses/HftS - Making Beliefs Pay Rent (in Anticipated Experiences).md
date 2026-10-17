@@ -1,7 +1,7 @@
 ---
 id: '851f4455-a2ac-4c21-b3cf-e303812bf514'
 title: "Making Beliefs Pay Rent (in Anticipated Experiences)"
-tldr: "A belief earns its place by telling you what to expect, and what should not happen. If two people disagree but expect exactly the same experiences, they are arguing about words, not about the world."
+tldr: "Judge a belief by what it tells you to expect, and by what it says should not happen. If two people disagree but expect exactly the same experiences, they are arguing about words, not about the world."
 summary_for_tutor: "Yudkowsky argues that beliefs should be judged by the experiences they lead you to anticipate, and better still by the experiences they forbid. Examples: the tree falling in the forest (both arguers expect the same recordings and brain scans, so they only disagree about the word sound), the bowling ball dropped from a building (abstract beliefs about gravity and height still yield a precise prediction of the clock tick), phlogiston (explanations fitted after the fact), and Wulky Wilkinsen the retropositional author (beliefs linked only to each other, which he calls floating beliefs). The question gives a new case, two coworkers arguing whether Pluto is really a planet while agreeing on every observation, and asks the student what to ask them and what the answers would show."
 reading_minutes: 6
 tutor_minutes: 6
