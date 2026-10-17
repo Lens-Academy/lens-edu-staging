@@ -55,6 +55,15 @@ content:: What is one thing you expect AI to change in your field within five ye
 placeholder:: Name the change and why you expect it.
 force-feedback:: first
 feedback-instructions:: Name the most concrete part of the learner's prediction, then ask what evidence would change their mind. Keep it to three sentences.
+%% `force-feedback:: below 80`: feedback comes automatically when your answer scores under 80%. At 80% or more you get a "Get feedback" button instead. Any number from 1 to 100 works. Use it on graded questions only: an ungraded question has no score, so the feedback comes on every answer. %%
+
+#### Question: Open
+id:: 84910db9-d09f-4509-8754-df7a01807401
+content:: What is the capital of France? First submit a wrong city: you score under 80%, so tutor feedback arrives automatically. Then click "Answer again" and submit the right city: this time you get a "Get feedback" button instead.
+placeholder:: Name a city.
+assessment-instructions:: Score 100 if the answer names Paris. Score 0 if it names any other city or no city.
+feedback-instructions:: Say whether the answer is right. If it is wrong, give the right city and one sentence about it. Keep it to two sentences.
+force-feedback:: below 80
 
 %%
 # Question: Rating
