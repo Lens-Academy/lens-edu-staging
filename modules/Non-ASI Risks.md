@@ -19,3 +19,12 @@ tags:
 # Submodule: Autonomous Weapons
 
 # Submodule: AI-Enabled Value Lock-In
+
+# Submodule: Comparing Risks
+
+# Lens: Comparing Risks
+id:: 1eaa4387-85a3-4dff-8a1e-b96ce7754d28
+#### Widget
+source:: [[../widgets/ai-risk-scope-severity]]
+
+# Submodule: Test Your Understanding
