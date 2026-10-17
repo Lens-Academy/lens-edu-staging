@@ -5,8 +5,6 @@ tldr: Luke calls raising his X-wing impossible after one short try, even though 
 summary_for_tutor: Yudkowsky writes an imagined outtake from The Empire Strikes Back in which Mark Hamill argues with George Lucas about the scene where Luke fails to raise his X-wing from the swamp and gives up. Hamill's points are that the ship had already started to rise (a feasibility demonstration), that Yoda, with 800 years of experience, said it was doable, that Luke has not shown it is impossible, only failed once, that the stakes are huge (without the ship he is stuck on Dagobah), and that he should keep trying, rest and try again, at least for five minutes. Lucas closes with the point that people would not try for five minutes before giving up even if the fate of humanity were at stake. The question asks the student to apply two of Hamill's arguments to a friend who calls a bug impossible after an hour and two partly successful attempts.
 reading_minutes: 4
 tutor_minutes: 5
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-use-the-try-harder-luke]]

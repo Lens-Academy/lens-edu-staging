@@ -5,8 +5,6 @@ tldr: Rationality means two things, forming beliefs that match reality and choos
 summary_for_tutor: Yudkowsky defines epistemic rationality (systematically improving the accuracy of your beliefs, a map that matches the territory) and instrumental rationality (systematically achieving your values, "winning", where values include everything you care about, other people too). Probability theory and decision theory are the formal standards, as in the example where people rate "Bill is an accountant who plays jazz" as more likely than "Bill plays jazz". The full math is intractable for humans, so there is a further art of learning our own flaws. He refuses to argue about the word itself. If you say "the rational thing is X but the right thing is Y", you are using "rational" for something else and should replace it with more specific language (the "foozal" test). The question asks the student to apply this to Sam, who says the rational thing is the high-paying job but what he really wants is to teach, and to rewrite Sam's sentence without the word.
 reading_minutes: 10
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-what-do-we-mean-by-rationality]]

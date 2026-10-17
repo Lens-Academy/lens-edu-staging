@@ -5,8 +5,6 @@ tldr: Most ways of chasing a goal work poorly, and nothing in us automatically p
 summary_for_tutor: Anna Salamon answers the question of why smart people pursue goals in ineffective ways, like an aspiring comedian who watches Garfield reruns. Her answer, by analogy with an eight-year-old failing a calculus test, is that most courses of action are ineffective and no strong evolutionary or cultural force steers us to the few that work. We tell stories about our goals and do things that feel associated with them, but we do not automatically use heuristics such as (a) asking what we are trying to achieve, (b) asking how we would know we had and tracking progress, (c) being curious about useful information, (d) gathering it, (e) testing many approaches, (f) focusing on what works, (g) making sure the goal is really ours, (h) using surroundings and people to stay motivated. Understanding these in words does not make our motivational systems follow them. The question asks the student to explain why a plan like Maya's (watching data science videos to become a data analyst) is the default, and to apply two of the heuristics to her.
 reading_minutes: 6
 tutor_minutes: 7
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/annasalamon-humans-are-not-automatically-strategic]]

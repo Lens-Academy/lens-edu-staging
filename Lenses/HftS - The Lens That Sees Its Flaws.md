@@ -5,8 +5,6 @@ tldr: Your brain is a flawed lens on the world, but unlike a mouse's it can unde
 summary_for_tutor: Yudkowsky argues that human minds, unlike mouse minds, can reason about how they form beliefs. This is what makes science possible and what lets a person correct their own systematic errors. His example is a man who expected no nuclear war for 100 years out of "pure hope". A belief chosen because it feels good tells you about yourself, not about the world, and across many possible worlds it would not line up with the outcome. A footnote answers the reply that hope changes outcomes (it makes you work harder). The effect is far too small to justify the shift in belief. The question asks the student to apply both points to a founder whose 90% success estimate rests on hope.
 reading_minutes: 5
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-the-lens-that-sees-its-flaws]]

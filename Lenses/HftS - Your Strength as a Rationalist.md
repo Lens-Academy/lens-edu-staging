@@ -5,8 +5,6 @@ tldr: When a story doesn't quite fit what you know, treat that feeling as a clue
 summary_for_tutor: Yudkowsky tells how someone in a chatroom reported that a friend with chest pains was sent home by paramedics. The story did not fit what he knew about ambulances, but he forced it into his model ("it must really be nothing"), and the story turned out to be made up. His lesson is that the feeling that an explanation "still feels a little forced" is an important clue, which he threw away. A model that can explain any outcome equally well has zero knowledge. Your strength as a rationalist is being more confused by fiction than by reality. The feeling means "Either your model is false or this story is wrong". He also notes that belief is easier than disbelief. The question gives a coworker's story of a stranger walking into a building where guards always check badges, and asks what to do with the feeling that it does not fit and which two possibilities it points to.
 reading_minutes: 4
 tutor_minutes: 5
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-your-strength-as-a-rationalist]]
