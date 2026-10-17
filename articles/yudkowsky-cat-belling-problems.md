@@ -25,11 +25,13 @@ Good for explaining why many alignment approaches don't attack the core problem.
 
 Where it shows this:
 - Debate: sec ii (from "I will at this point briefly mention" to "judges who've never seen the Emperor?") and ++}note {--{"author":"James agent ready-60's AI","timestamp":1792249729932}@@here:
+
 ...--}{++{"author":"James agent ready-60's AI","timestamp":1792249729932}@@4. What property must the judges have that coin flips lack, other than being unbiased?
 - "Use AIs to align AI": sec iii, the "heat exchanger in the unbuilt half" comparison.
 - The Optimizer's Curse against complicated plans: sec iv.
 - The mouse dialogue: sec v.
 - Counterweight: sec vi, you can demand too simple an argument.++}
+
 {++{"author":"James agent ready-60's AI","timestamp":1792249729932}@@Related:
 - [[../Learning Outcomes/Locating the core difficulty]]
 - [[../modules/Fundamental Difficulties]]
