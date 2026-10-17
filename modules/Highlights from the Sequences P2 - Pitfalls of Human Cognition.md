@@ -17,17 +17,25 @@ This is part 2 of 6: *Pitfalls of Human Cognition*. The Sequences keep coming ba
 ::card[[../Lenses/HftS - The Bottom Line]]
 
 ::card[[../Lenses/HftS - Rationalization]]
+
 ::card[[../Lenses/HftS - You Can Face Reality]]
 
 ::card[[../Lenses/HftS - Is That Your True Rejection]]
+
 ::card[[../Lenses/HftS - Avoiding Your Belief's Real Weak Points]]
+
 ::card[[../Lenses/HftS - Belief as Attire]]
 
 ::card[[../Lenses/HftS - Cached Thoughts]]
+
 ::card[[../Lenses/HftS - The Fallacy of Gray]]
+
 ::card[[../Lenses/HftS - Lonely Dissent]]
+
 ::card[[../Lenses/HftS - Positive Bias - Look Into the Dark]]
+
 ::card[[../Lenses/HftS - Knowing About Biases Can Hurt People]]
+
 ::card[[../Lenses/HftS - Politics is the Mind-Killer]]
 
 # Lens: The Bottom Line
