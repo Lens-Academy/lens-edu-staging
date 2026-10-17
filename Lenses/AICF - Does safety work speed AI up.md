@@ -14,6 +14,8 @@ Richard Ngo, who used to work at DeepMind and OpenAI, argues that much alignment
 
 His message is a general criticism of the alignment field, but control might be exactly one of the agendas he is warning about.
 
+While you read, look for the pattern behind the mistakes Ngo describes, and ask yourself whether control work could fall into it.
+
 #### Article
 source:: [[../articles/ngo-what-just-happened-a-retrospective-of-ai-alignment]]
 from:: This sequence is about the last decade in AI alignment.
