@@ -5,8 +5,6 @@ tldr: "Joining a rebellion that others already understand is easy compared with 
 summary_for_tutor: "In Asch's conformity experiments one dissenter makes it much easier for others to dissent, but someone has to be first. Joining a recognised rebellion (wearing black to school, vegetarianism) is very different from facing the incomprehension of people who have no script for you (a clown suit, cryonics). Lonely dissent is often faked, since everyone wants to be an iconoclast. A scientific revolutionary is the first to contradict everyone around them, but no one gets there by imitating revolutionariness, only by pursuing the correct answer. Not everything that takes courage is a good idea (walking off a cliff), not every dissenting idea is good, and most of the difficulty in a new true thought is in the \"true\" part. Do things differently only for an overwhelmingly good reason. If you would happily wear the clown suit, correct in the opposite direction, because other people have reasons and ignoring them is as bad as being afraid to contradict them. The question gives Jordan, who disagrees with the majority as a habit and thinks this makes him more likely to be right."
 reading_minutes: 7
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-lonely-dissent]]

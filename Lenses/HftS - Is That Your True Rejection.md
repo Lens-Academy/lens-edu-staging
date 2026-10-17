@@ -5,8 +5,6 @@ tldr: "When someone rejects an idea and you ask why, the reason they give is oft
 summary_for_tutor: "People reject Yudkowsky's ideas about superintelligence and give \"he doesn't have a PhD\" as the reason. The true rejection is whatever caused the rejection at its first moment, often a fast pattern match (\"science fiction\", \"strange weird idea\"). Asked why, people search for a justification and stop at a plausible-sounding fact. If that fact were fixed, the same rejection would happen and the search would stop somewhere else (\"come back when you're tenured\"). Eric Drexler got his PhD, and the critics did not change their minds. Businesses should think hard before spending huge efforts on a prospect's stated reason. In disagreements the true sources are often hard to communicate or expose (inferential distance, intuitions, professional zeitgeist, emotional commitments, fear of being shown wrong, self-deception). Both sides should ask themselves \"Is that my true rejection?\", and may humbly ask the other, without publicly psychoanalysing them. The question gives a friend who keeps finding new reasons not to come to a restaurant, and asks what is probably going on and what to ask before fixing the next reason."
 reading_minutes: 6
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-is-that-your-true-rejection]]

@@ -5,8 +5,6 @@ tldr: "Nothing is perfectly certain or perfectly good, but that does not make ev
 summary_for_tutor: "The Fallacy of Gray: concluding from \"nothing is black or white\" that all grays are the same shade, which replaces a two-color view with a one-color view. Examples: someone who treated astronomically long odds as \"still a chance\", bloggers who said no one can completely eliminate bias (so why reduce it), Cowen's reply to Hanson that theory is always applied through personal filters, \"everyone is imperfect\" (Gandhi and Stalin are not the same shade), and \"science is based on faith too\". From Banks: every society imposes some of its values, but some try to maximise that and some to minimise it. A fair critic points to specific dark spots, the fallacy just says \"it's gray\". Asimov: thinking a spherical earth is as wrong as a flat earth is wronger than both. The question gives a friend who argues that since no news source is completely unbiased, it makes no difference which ones you read."
 reading_minutes: 8
 tutor_minutes: 5
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-the-fallacy-of-gray]]

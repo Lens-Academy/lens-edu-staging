@@ -5,8 +5,6 @@ tldr: "Much of what we think is looked up rather than worked out. That saves eff
 summary_for_tutor: "Neurons are slow, so the brain relies on caching: storing earlier results and looking them up instead of recomputing them. Much of human cognition may be cache lookups. A man removed his chimney using a neighbour's offhand method, and it went badly. He would have questioned the idea if it had been his own. No one can rebuild a civilisation's wisdom alone, so caching others' conclusions is necessary, but people who aspire to critical thinking repeat cached thoughts that critical thinkers did not invent, such as \"you can't prove or disprove a religion by factual evidence\", which Yudkowsky calls false. Other examples: \"Death gives meaning to life\", \"maybe the human species doesn't deserve to survive\", \"Love isn't rational\". He asks the reader to examine \"Love isn't rational\" as if it were a new thought and to stop the mind from completing the pattern. The question asks the learner to do that exercise: pin down a checkable meaning of \"rational\" and judge the sentence with that meaning. Any well-argued verdict is fine."
 reading_minutes: 5
 tutor_minutes: 7
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-cached-thoughts]]

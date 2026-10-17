@@ -5,8 +5,6 @@ tldr: "Judge a belief by what it tells you to expect, and by what it says should
 summary_for_tutor: "Yudkowsky argues that beliefs should be judged by the experiences they lead you to anticipate, and better still by the experiences they forbid. Examples: the tree falling in the forest (both arguers expect the same recordings and brain scans, so they only disagree about the word sound), the bowling ball dropped from a building (abstract beliefs about gravity and height still yield a precise prediction of the clock tick), phlogiston (explanations fitted after the fact), and Wulky Wilkinsen the retropositional author (beliefs linked only to each other, which he calls floating beliefs). The question gives a new case, two coworkers arguing whether Pluto is really a planet while agreeing on every observation, and asks the student what to ask them and what the answers would show."
 reading_minutes: 6
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-making-beliefs-pay-rent-in-anticipated-experiences]]

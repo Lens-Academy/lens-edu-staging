@@ -5,8 +5,6 @@ tldr: "Some beliefs are worn like a uniform, to show which group you belong to. 
 summary_for_tutor: "Yudkowsky separates proper beliefs, which control what you anticipate, from improper ones such as belief in belief and professing. Belief as attire is another improper kind: belief as group identification, like a uniform or a priest's vestments. Example: after 9/11, Americans could not say that the attackers saw themselves as heroes, because the courage of a suicide bomber was Enemy attire and his cowardice was American attire. Belief in belief has trouble creating deep emotion, but belonging to a group easily does, as with sports fans, and the beliefs that are a tribe's attire are spoken with the full passion of belonging. The question gives fans of a phone brand who angrily defend its battery life, and a friend who concludes they must truly expect the batteries to last longer, and asks what is wrong with that conclusion."
 reading_minutes: 3
 tutor_minutes: 5
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-belief-as-attire]]

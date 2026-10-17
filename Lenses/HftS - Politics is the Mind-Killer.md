@@ -5,8 +5,6 @@ tldr: "Politics makes people take sides, and once they have, they back every arg
 summary_for_tutor: "People go funny in the head about politics, because in the ancestral environment politics was a matter of life and death. Politics is an important domain to apply rationality to but a terrible one in which to learn or discuss it. Arguments are soldiers: once you know your side, you must support all its arguments and attack the other side's. The AI textbook example \"Nixon is a Quaker and a Republican\" could only rouse political emotions, distract from the point and make Republicans feel unwelcome, probably because the author could not resist a dig. If your point is about politics, use a historical case such as Louis XVI. If a topic really is political, discuss it, but do not blame a whole party. The essay does not ask people to be apolitical. The question gives a statistics lecturer who illustrates small samples with a dig at supporters of the governing party, and asks why that is a bad example and what kind she should use instead."
 reading_minutes: 3
 tutor_minutes: 5
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-politics-is-the-mind-killer]]

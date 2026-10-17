@@ -5,8 +5,6 @@ tldr: "Learning about biases can make your thinking worse if you use them only a
 summary_for_tutor: "Yudkowsky told his mother that experts who say they are 99% confident are right about 70% of the time, and she said she would use it all the time. Taber and Lodge confirmed six effects in political reasoning, including attitude polarization (a balanced set of arguments makes people more polarized) and the sophistication effect (knowledgeable people are more prone to bias because they have more ammunition to counter-argue). For a perfect Bayesian, information never has negative expected value, but humans can cut themselves. People with high mental agility can end up less effective because they argue too well. One man used the overconfidence results to dismiss experts while trusting his own shaky extrapolation, then called Yudkowsky a sophisticated arguer without pointing to any flaw, a Fully General Counterargument. So Yudkowsky now talks about calibration and overconfidence only after disconfirmation bias, motivated skepticism and sophisticated arguers. The question gives Priya, who answers anyone who disagrees with her with \"You're just showing confirmation bias\" but never says this about her own views."
 reading_minutes: 5
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-knowing-about-biases-can-hurt-people]]

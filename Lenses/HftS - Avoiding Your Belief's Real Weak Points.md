@@ -5,8 +5,6 @@ tldr: "When you doubt a belief you care about, you tend to attack it where you a
 summary_for_tutor: "Yudkowsky's grand-uncle attributed his mother's slow decline to God, which broke the usual habit of crediting God only with good events, and soon after he left Judaism. In Modern Orthodox Judaism you may doubt, but not successfully: people question the seven days of creation, where they have a clever reply, and not God killing Egypt's firstborn, which is painful. People spontaneously attack their beliefs at strong points, where rehearsing the standard defence feels strengthening, and stop at the first comforting reply. Not thinking about real weak points is instinct, like not touching a hot burner. The advice: when doubting a cherished belief, deliberately think about whatever hurts most, do not rehearse standard objections with comforting counters, ask what smart people who disagree would say to your first and second reply, drag out objections you flinch from, and rehearse the Litany of Gendlin. The question gives Maya, who doubts her side project only with a comforting saying while not thinking about its three paying users after two years."
 reading_minutes: 7
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-avoiding-your-beliefs-real-weak-points]]

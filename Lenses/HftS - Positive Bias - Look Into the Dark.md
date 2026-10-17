@@ -5,8 +5,6 @@ tldr: "We tend to test an idea by checking cases that should fit it. To find out
 summary_for_tutor: "Wason's 2-4-6 task: the experimenter has a rule for triplets of numbers, 2-4-6 fits it, and subjects test triplets. The essay opens with one student's record: 4-6-2 No, 4-6-8 Yes, 10-12-14 Yes. Subjects test triplets their hypothesis says should fit, hear Yes, and confidently announce rules like \"increasing by two\" or X-2X-3X. Only about 20% find the real rule, which is any three numbers in ascending order. Finding it requires testing triplets that should not fit, such as 20-23-26. Yudkowsky calls this positive bias and separates it from trying to preserve a belief. Phlogiston could explain a flame going out and also its not going out. The strength of a hypothesis is what it cannot explain. The bias is below the level of words, so knowing about it is not enough: you have to learn to look toward the zero. The question returns to the student's record, asks why 4-6-8 and 10-12-14 were weak tests of \"each number is two more than the one before\", and asks for a better next triplet and what each answer would have shown."
 reading_minutes: 6
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-positive-bias-look-into-the-dark]]
