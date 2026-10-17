@@ -29,7 +29,7 @@ tags:
 
 # Module: [[../../modules/Non-ASI Risks]]
 
-# Meeting: Non-ASI Risks
+# Meeting: Different Risks from AI
 
 # Module: [[../../modules/Existing approaches]]
 
