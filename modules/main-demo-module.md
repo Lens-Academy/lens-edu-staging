@@ -19,8 +19,6 @@ duration_minutes:: 5
 content::
 Here is a basic lens that is defined right within a module file. A Lens is basically a page, by the way. Lenses contain fields like `#### Text` and `#### Chat`.
 
-A colon between numbers is plain text: a 1:1 ratio, 10:1 odds, a call at 3:30.
-
 #### Chat
 instructions::
 This is a demo chat segment. In real course content, use this field to tell the tutor what the learner just saw and what kind of conversation would be helpful next.
