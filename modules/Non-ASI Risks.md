@@ -18,4 +18,4 @@ tags:
 
 # Submodule: Autonomous Weapons
 
-# Submodule: Power Concentration
+# Submodule: AI-Enabled Value Lock-In
