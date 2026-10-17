@@ -1,0 +1,24 @@
+---
+id: 'be8f7555-5f7a-4426-8b74-1c01374f543d'
+title: "Conservation of Expected Evidence"
+tldr: "Before you look, your average expected belief after the evidence must equal your belief now. If one result would support your view, the opposite result must count against it."
+summary_for_tutor: "Yudkowsky opens with Friedrich Spee's account of witch trials, where every behaviour of the accused (a good life or an evil one, fear or boldness, fleeing or staying) was taken as proof of guilt. He states Conservation of Expected Evidence: the expected posterior equals the prior, P(H) = P(H|E)P(E) + P(H|~E)P(~E). So for every expectation of evidence there is an equal and opposite expectation of counterevidence. A likely result that would confirm you can only move you a little, and an unlikely failure must move you a lot. You cannot plan to confirm a theory, only to test it. Absence of evidence being evidence of absence is a special case. The question gives an economist who says growth next year proves her policy works and shrinking would also confirm it, and asks why both cannot count as support and how much more confident she should expect to be, on average, before the data comes in."
+reading_minutes: 5
+tutor_minutes: 6
+tags:
+  - wip
+---
+#### Article
+source:: [[../articles/yudkowsky-conservation-of-expected-evidence]]
+
+#### Question: Open
+id:: 8877891f-2835-45fa-9135-44ebcd8c1f16
+content::
+An economist backs a new policy. She says: "If the economy grows next year, that proves the policy works. If it shrinks, that shows the policy is working slowly, just as I expected, so that confirms it works too."
+
+1. According to the essay, why can't both results count as evidence that the policy works?
+
+2. Before next year's numbers come in, how much more confident should she expect to be, on average, that the policy works?
+force-feedback:: first
+assessment-instructions:: Background for the grader: the essay's law of Conservation of Expected Evidence says that, before you see the evidence, the average of your possible future beliefs (weighted by how likely each result is) must equal your current belief. So if one result would raise your confidence in a claim, the opposite result must lower it, and no plan for gathering evidence can be expected to raise your confidence on average. Score out of 100. 60: says that if growth would raise the probability that the policy works, then shrinking must lower it (or: her possible future beliefs must average out to her current belief, so both results cannot push the same way). This is a matter of probability, not just fairness. Credit any equivalent statement, including that her claim then predicts nothing or cannot be tested. 40: says not at all: on average she should expect to be exactly as confident as she is now. Cap at 30 if the answer accepts that both results could support the policy. Model answer, for the feedback, not a grading checklist: "If growth counts as support, shrinking has to count against it. Her expected confidence after seeing the result has to equal her confidence now, so the two results can't both push her up. On average she shouldn't expect to end up any more confident than she is today."
+feedback-instructions:: The student has just read Eliezer Yudkowsky's essay "Conservation of Expected Evidence" and answered why an economist cannot count both growth and shrinking as support for her policy, and how much more confident she should expect to become. Key ideas from the essay: (1) the expected posterior equals the prior, (2) for every expectation of evidence there is an equal and opposite expectation of counterevidence, (3) a likely confirming result can only move you a little, while an unlikely failure must move you a lot, (4) you can only test a theory, never plan to confirm it. Reply in 80 to 150 words. Short paragraphs only. No lists. Do not over-validate. Avoid generic praise (great job, excellent, well done). Name the strongest specific part of the answer. If the score is below 100, name the most important thing the answer missed or got wrong, and ask one direct question that helps the student fix it. At 100, confirm briefly and add one point from the essay they did not use. Allow at most 2 follow-up turns, then close with one sentence saying plainly whether they now have the idea. If the student says they do not understand, do not dismiss it and do not repeat the question: give one concrete foothold from the essay, such as the witch trials, where fear and boldness were both taken as proof of guilt. If their next message still does not attempt the question, rephrase the whole question in different terms instead of offering another foothold. Judge only against what the essay and the question supplied.
