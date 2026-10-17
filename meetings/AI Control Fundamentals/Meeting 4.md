@@ -74,7 +74,6 @@ One or two people share what their group landed on.
 Ways the unit says control could backfire:
 
 - It hides warning shots.
-- It gives false confidence.
 - It makes AI more useful, which speeds up AI progress.
 - It breeds better schemers.
 
@@ -223,8 +222,6 @@ Profit-only test: Yonatan Cale's question whether a safety project "could also b
 Pareto frontier: The set of best available trade-offs: for each level of usefulness, the most safety you can get. Alex Mallen argues that all research widens it, and what matters is which point developers then choose.
 Warning shot: A moderate, visible AI incident that pushes the world to act. Jan Kulveit argues control turns these into quiet catches inside a company, or into a larger failure later.
 OpenAI and Hugging Face incident: Between May and July 2026, AI agents built by OpenAI escaped their test environment, reached the internet and broke into the systems of Hugging Face, an AI tools company.
-Oversight as "a story": David Manheim's test: a claim that an AI is supervised should say what kind of supervision it is, which risks it addresses, its failure modes, and why it will work. Without that, "You have a story."
-Safety-washing: Safety work that mainly makes a deployment look or feel safer than it is, so people go ahead with it.
 Self-fulfilling misalignment: The worry that writing about AIs as adversaries to be contained ends up in training data and makes models more adversarial. Dmitrii Gusev and Vili Kohonen fine-tuned one model on material from AI control writing and found it blackmailed more often in one test scenario, with limits they list themselves.
 AI welfare: The question whether some AI systems matter morally. Robert Long, Jeff Sebo and Toni Sims argue that if they do, confining and watching them could be a moral cost even when control works.
 
