@@ -1,7 +1,9 @@
 ---
 title: "Why those who care about catastrophic and existential risk should care about autonomous weapons"
 author:
-  - "aaguirre"
+  - {--{"author":"plex's AI","timestamp":1792254156652}@@"aaguirre"--}{++{"author":"plex's AI","timestamp":1792254156652}@@"Anthony Aguirre"
+author_url:
+  - "https://www.anthony-aguirre.com/"++}
 source_url: "https://www.lesswrong.com/posts/Btrmh6T62tB4g9RMc/why-those-who-care-about-catastrophic-and-existential-risk"
 published: 2020-11-11
 created: 2026-10-17
