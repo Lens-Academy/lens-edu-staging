@@ -23,7 +23,7 @@ Score out of 100.
 
 Background the grader needs: the essay describes the illusion of transparency. Because we know what we meant, our intended reading falls into place when we read our own words, so we expect others to see it too. The listener has only the words, which are often more ambiguous than the speaker thinks. In a study, speakers believed they were understood far more often than they were, including many cases where the listener had misunderstood, while people who only overheard did not overestimate. In this scenario, "simpler" fits both "fewer steps" and "less clutter".
 
-50: Why it seemed clear. The answer says she read her message already knowing what she meant (fewer steps), so that meaning seemed to be in the words, while the designer had only the words, which could also mean less text and fewer pictures.
+50: Why it seemed clear. The answer says she read her message already knowing what she meant (fewer steps), so that meaning seemed to be in the words.
 
 50: Why her sense of clarity tells her little. The answer says that this feeling would be there whether or not the words were clear to someone else, because it comes from her own knowledge of what she meant, that speakers in general overestimate how well they are understood, or that the designer had only the words, which could also mean other things (less text and fewer pictures). Any one of these reasons earns full marks for this element.
 

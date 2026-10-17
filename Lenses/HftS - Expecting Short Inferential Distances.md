@@ -29,7 +29,7 @@ Background the grader needs: the essay argues that people instinctively expect s
 
 35: The patient's side. The patient heard a claim with no support he could see and, instead of thinking the doctor might know something he does not, concluded the doctor was being bossy.
 
-30: The fix. The doctor should start from what the patient already knows or accepts and go through the missing steps one at a time. The answer does not need correct biology for the steps, only the approach. An answer that only says "explain more clearly" or "be more patient" without starting from what the patient knows gets 10.
+30: The fix. The doctor should start from what the patient already knows or accepts and go through the missing steps one at a time. An answer that only says "explain more clearly" or "be more patient" without starting from what the patient knows gets 10.
 
 Model answer, for the feedback, not a grading checklist: "The doctor took one step back when the patient needed several. 'Resistant bacteria' only makes sense if you already know bacteria can change. The patient heard an order with no reason he could follow, so it sounded bossy, and the doctor read his doubt as not listening. Both acted as if the gap were small. The doctor should start from what the patient knows, for example that feeling better doesn't mean all the bacteria are gone, and build up from there one step at a time."
 feedback-instructions::

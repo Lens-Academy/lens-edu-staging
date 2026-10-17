@@ -19,6 +19,7 @@ You invite a friend to a new restaurant. They say no because it is too far away.
 Using the essay, in your own words:
 
 1. What is probably going on?
+
 2. Before you try to fix the next reason, what should you ask?
 force-feedback:: first
 assessment-instructions::
@@ -26,7 +27,7 @@ Score out of 100.
 
 The essay's idea: the true rejection is whatever actually caused someone to reject something at the first moment, often a quick reaction they have not put into words. When asked why, they search for a justification and stop at a reasonable-sounding one. Fixing that reason does not change the rejection, the search just stops at another reason. So before putting effort into fixing a stated reason, ask whether it is the true rejection.
 
-60: Part 1. The friend had already decided not to come, for some other reason, and each stated reason is a justification found afterwards, which is why removing one only brings up the next. The answer need not say the friend is lying: they may not know their real reason themselves. Give 30 if the answer says the reasons are excuses without saying that the refusal came first, or that fixing the reasons will not change it.
+60: Part 1. The friend had already decided not to come, for some other reason, and each stated reason is a justification found afterwards, which is why removing one only brings up the next. Give 30 if the answer says the reasons are excuses without saying that the refusal came first, or that fixing the reasons will not change it.
 
 40: Part 2. Ask whether that reason is the real one, for example "If I sorted that out, would you come?" or "Is something else putting you off?", or encourage the friend to ask themselves this.
 
