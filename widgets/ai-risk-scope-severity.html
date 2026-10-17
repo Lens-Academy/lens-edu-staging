@@ -1,0 +1,734 @@
+<!--lens-widget
+id: '1f82f1b5-8712-44d2-b87d-ed426961afdd'
+title: AI risk scope and severity classification
+summary_for_tutor: "An interactive grid after Bostrom's scope by severity classification. Rows are scope (Personal, Local, Global, Trans-generational, Cosmic), columns are severity (Imperceptible, Endurable, Terminal, Hellish). Cells shaded as global catastrophic risk or existential risk. Grey example risks (loss of one hair, genocide, destruction of the ozone layer, etc.) are pre-placed. The learner drags 15 AI risks (gradual disempowerment, unaligned agentic takeover, engineered pandemics, value lock-in, s-risk, autonomous weapons, war incl. nuclear, privacy, attachment to AI, manipulation, datacenter environmental impacts, copyright, job loss, individual malfunctions, worker exploitation) plus any they add into cells, sets a likelihood range for each reaching that cell this century, and sees them ranked by scope weight x severity weight x likelihood. The learner's saved placements reach you as a separate summary."
+height: auto
+width: full
+tags: [wip]
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Risk Scope and Severity Classification Exercise</title>
+<!-- Ported from a claude.ai artifact by plex (https://claude.ai/artifact/KAaopxXXexYYi3gvowVcsz) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,600&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" media="print" onload="this.media='all'">
+<style>
+/* Layout: one working board (title + Bostrom grid, which is what gets captured), with the risk tray beneath it. */
+:root {
+  --bg: #f4f6f9;
+  --surface: #ffffff;
+  --fg: #1b2130;
+  --muted: #5a6476;
+  --line: #d4d9e1;
+  --accent: #2c56c9;
+  --accent-soft: #e6ecfb;
+  --gcr: #fce6ef;
+  --gcr-line: #e08fb2;
+  --xr: #fde9d2;
+  --xr-line: #e3953f;
+  --ok: #1d7a4c;
+  --danger: #b4332f;
+  --bs: 78%; --bl: 87%;   /* likelihood badge tint */
+  --gs: 72%; --gl: 56%;   /* likelihood gradient, strong */
+  --font-display: "Literata", Georgia, "Times New Roman", serif;
+  --font-body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+:root[data-theme="dark"] {
+  --bg: #11141b; --surface: #1a1f2a; --fg: #e6e9ef; --muted: #9ba4b4; --line: #333b4a;
+  --accent: #84a2ff; --accent-soft: #23304f; --gcr: #3a2230; --gcr-line: #a95c80;
+  --xr: #3a2917; --xr-line: #bb7b37; --ok: #4cc488; --danger: #f07a73; --bs: 50%; --bl: 30%; --gs: 66%; --gl: 60%; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+img { max-width: 100%; }
+body {
+  position: relative;
+  background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 15px; line-height: 1.45;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 20px 40px;
+}
+main { max-width: 1080px; margin: 0 auto; display: grid; gap: 16px; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.board-scroll { overflow-x: auto; border-radius: 10px; }
+#board { min-width: 700px; background: var(--bg); padding: 4px 2px 8px; }
+.head { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin-bottom: 14px; }
+h1 { font-family: var(--font-display); font-weight: 600; font-size: 1.45rem; line-height: 1.2; margin: 0; text-wrap: balance; flex: 1 1 320px; }
+.legend { display: flex; gap: 14px; font-size: 0.8rem; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.swatch { width: 14px; height: 14px; border-radius: 3px; border: 1.5px solid; }
+.swatch.gcr { background: var(--gcr); border-color: var(--gcr-line); }
+.swatch.xr { background: var(--xr); border-color: var(--xr-line); }
+
+.grid { display: grid; grid-template-columns: 8rem repeat(4, minmax(0, 1fr)); gap: 5px; }
+.axis { font-size: 0.8rem; font-weight: 600; color: var(--muted); display: flex; align-items: center; cursor: help;
+  text-decoration: underline dotted; text-underline-offset: 3px; text-decoration-color: var(--line); border-radius: 4px; }
+.axis.row { justify-content: flex-end; text-align: right; padding-right: 8px; }
+.axis.col { justify-content: center; padding-top: 4px; }
+.cell { min-height: 4.75rem; border: 1.5px dashed var(--line); border-radius: 7px; background: var(--surface);
+  padding: 5px; display: flex; flex-direction: column; gap: 4px; transition: background .12s, border-color .12s; }
+.cell.gcr { background: var(--gcr); border-color: var(--gcr-line); }
+.cell.xr { background: var(--xr); border-color: var(--xr-line); }
+.cell.over, .tray.over { border-color: var(--accent); border-style: solid; box-shadow: inset 0 0 0 1px var(--accent); }
+body.placing .cell { cursor: pointer; }
+body.placing .cell:hover { border-color: var(--accent); }
+
+.chip { display: flex; align-items: center; gap: 4px; font-size: 0.78rem; line-height: 1.25; padding: 5px 7px;
+  border-radius: 6px; border: 1px solid var(--line); background: var(--surface); cursor: grab; user-select: none;
+  -webkit-user-select: none; touch-action: manipulation; }
+.chip { flex-wrap: wrap; row-gap: 4px; }
+.chip .lbl { flex: 1 1 min-content; overflow-wrap: break-word; }   /* never narrower than its longest word, so the badge drops below instead */
+.chip.has-desc .lbl { text-decoration: underline dotted; text-underline-offset: 2px; text-decoration-color: var(--muted); }
+.chip.example { font-style: italic; color: var(--muted); border-style: dashed; background: transparent; }
+.chip.custom { background: var(--accent-soft); border-color: var(--accent); }
+.chip.selected { outline: 2px solid var(--accent); outline-offset: 1px; }
+.chip.dragging { opacity: .4; }
+.ghost { position: fixed; z-index: 80; pointer-events: none; box-shadow: 0 6px 18px rgba(10,15,30,.2); opacity: .95; }
+@media (pointer: fine) { .chip { touch-action: none; } }
+.chip .del { border: 0; background: none; padding: 0 2px; font-size: 1rem; line-height: 1; color: var(--danger); cursor: pointer; border-radius: 3px; }
+.cell .chip { background: var(--surface); }
+.cell .chip.example { background: transparent; }
+
+.tray { background: var(--surface); border: 1.5px solid var(--line); border-radius: 10px; padding: 12px 14px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
+.tray > h2 { flex: 1 1 auto; order: 0; }
+.tray .actions { order: 1; margin-left: auto; }
+.tray #bank { order: 2; flex: 1 1 100%; }
+.tray #removed { order: 3; flex: 1 1 100%; display: grid; gap: 8px; }
+.tray.empty > h2 { flex: 0 1 auto; }
+.tray.empty #bank { order: 1; flex: 0 1 auto; }
+.tray.empty .actions { order: 2; }
+.tray .btn { padding: 5px 10px; }
+.tray h2 { font-size: 0.85rem; font-weight: 600; color: var(--muted); margin: 0; }
+.tray .hint { font-weight: 400; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.tray .chip { font-size: 0.82rem; padding: 7px 10px; }
+.add-btn { border: 1.5px dashed var(--line); background: none; border-radius: 6px; padding: 6px 10px; font-size: 0.82rem; color: var(--muted); cursor: pointer; }
+.add-btn:hover { border-color: var(--accent); color: var(--accent); }
+.add-form { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.add-form input { font: inherit; font-size: 0.85rem; padding: 6px 8px; border: 1px solid var(--accent); border-radius: 6px; background: var(--surface); color: var(--fg); width: 15rem; max-width: 100%; }
+.btn { border: 1px solid var(--line); background: var(--surface); border-radius: 7px; padding: 7px 12px; font-size: 0.85rem; font-weight: 500; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+.btn:disabled { opacity: .6; cursor: progress; }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.empty { font-size: 0.82rem; color: var(--muted); }
+
+#tip { position: fixed; z-index: 50; max-width: 300px; background: var(--surface); color: var(--fg); border: 1px solid var(--line);
+  border-radius: 8px; padding: 10px 12px; font-size: 0.84rem; line-height: 1.45; box-shadow: 0 8px 24px rgba(10,15,30,.18); pointer-events: none; }
+#toast { position: absolute; left: 50%; transform: translateX(-50%); top: 56px; z-index: 60;
+  background: var(--ok); color: var(--surface); padding: 11px 18px; border-radius: 8px; font-size: 0.9rem; font-weight: 500;
+  box-shadow: 0 8px 24px rgba(10,15,30,.25); max-width: calc(100% - 32px); }
+#toast.error { background: var(--danger); }
+#fallback { position: absolute; inset: 0; z-index: 70; background: rgba(10,14,22,.6); display: grid; place-items: start center; padding: 16px; }
+#fallback .panel { background: var(--surface); border-radius: 10px; padding: 16px; max-width: min(900px, 100%); max-height: 100%; overflow: auto; display: grid; gap: 12px; }
+#fallback img { border: 1px solid var(--line); border-radius: 6px; }
+/* Likelihood */
+.lk-key { display: inline-flex; align-items: center; gap: 6px; }
+.lk-bar { width: 72px; height: 8px; border-radius: 4px; }
+.lk-grad, .lk-bar { background: linear-gradient(90deg, hsl(215, var(--gs), var(--gl)), hsl(287, var(--gs), var(--gl)), hsl(360, var(--gs), var(--gl))); }
+.badge { flex: none; border: 1px solid var(--line); border-radius: 999px; padding: 1px 7px; font-size: 0.7rem; font-weight: 600;
+  font-style: normal; font-variant-numeric: tabular-nums; background: var(--bg); color: var(--muted); cursor: pointer; white-space: nowrap; }
+.badge.rated { color: var(--fg); border-color: transparent;
+  background: linear-gradient(90deg, hsl(var(--h1), var(--bs), var(--bl)), hsl(var(--h2), var(--bs), var(--bl))); }
+.badge:hover { border-color: var(--accent); }
+
+#picker { position: fixed; z-index: 55; width: 340px; max-width: calc(100vw - 32px); background: var(--surface); color: var(--fg);
+  border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; box-shadow: 0 12px 32px rgba(10,15,30,.25); display: grid; gap: 10px; }
+#picker.sheet { left: 0 !important; right: 0; top: auto !important; bottom: 0; width: auto; max-width: none; border-radius: 12px 12px 0 0;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-bottom: calc(16px + env(safe-area-inset-bottom, 0px)); }
+#pk-q { font-size: 0.86rem; line-height: 1.4; }
+#pk-read { font-family: var(--font-display); font-size: 1.35rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+.dual { position: relative; height: 30px; cursor: pointer; touch-action: none; }
+.dual-track, .dual-fill { position: absolute; top: 12px; height: 6px; border-radius: 3px; }
+.dual-track { left: 11px; right: 11px; opacity: .45; }
+.dual input { position: absolute; inset: 0; width: 100%; height: 30px; margin: 0; background: none; pointer-events: none; -webkit-appearance: none; appearance: none; }
+.dual input::-webkit-slider-runnable-track { background: none; }
+.dual input::-moz-range-track { background: none; }
+.dual input::-webkit-slider-thumb { -webkit-appearance: none; pointer-events: none; width: 22px; height: 22px; border-radius: 50%;
+  background: var(--surface); border: 2px solid var(--fg); cursor: grab; }
+.dual input::-moz-range-thumb { pointer-events: none; width: 18px; height: 18px; border-radius: 50%; background: var(--surface); border: 2px solid var(--fg); cursor: grab; }
+.dual input:focus-visible { outline: none; }
+.dual input:focus-visible::-webkit-slider-thumb { box-shadow: 0 0 0 3px var(--accent); }
+.dual input:focus-visible::-moz-range-thumb { box-shadow: 0 0 0 3px var(--accent); }
+.ticks { position: relative; height: 1rem; margin: 0 11px; font-size: 0.7rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.ticks span { position: absolute; transform: translateX(-50%); white-space: nowrap; }
+.ticks span:first-child { transform: none; } .ticks span:last-child { transform: translateX(-100%); }
+.pk-actions { display: flex; gap: 8px; justify-content: flex-end; flex-wrap: wrap; }
+.pk-actions .left { margin-right: auto; }
+
+/* Ranking */
+.rank { display: grid; gap: 8px; background: var(--bg); padding-block: 4px; }
+.rank h2 { font-family: var(--font-display); font-size: 1.05rem; font-weight: 600; margin: 0; }
+.rank h2 small { font-family: var(--font-body); font-weight: 400; font-size: 0.8rem; color: var(--muted); margin-left: 6px; }
+.rank ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.rank li { display: grid; grid-template-columns: 1.6rem minmax(9rem, 1.3fr) minmax(8rem, 1fr) auto minmax(6rem, 1.2fr); gap: 10px; align-items: center;
+  font-size: 0.82rem; background: var(--surface); border: 1px solid var(--line); border-radius: 7px; padding: 6px 10px; }
+.rank .n { font-variant-numeric: tabular-nums; color: var(--muted); font-weight: 600; }
+.rank .where { color: var(--muted); display: inline-flex; align-items: center; gap: 6px; }
+.rank .dot { width: 9px; height: 9px; border-radius: 2px; border: 1.5px solid var(--line); background: var(--surface); flex: none; }
+.rank .dot.gcr { background: var(--gcr); border-color: var(--gcr-line); }
+.rank .dot.xr { background: var(--xr); border-color: var(--xr-line); }
+.rank .bar { height: 8px; border-radius: 4px; background: var(--line); overflow: hidden; }
+.rank .bar i { display: block; height: 100%; background: var(--fg); opacity: .7; }
+.rank-note { font-size: 0.8rem; color: var(--muted); margin: 0; }
+.rank details { font-size: 0.8rem; color: var(--muted); }
+.rank details summary { cursor: pointer; }
+.rank details p { margin: 6px 0 0; max-width: 70ch; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<main>
+  <div class="board-scroll">
+    <section id="board" aria-label="Classification grid">
+      <div class="head">
+        <h1>AI Risk Scope and Severity Classification Exercise</h1>
+        <div class="legend"><span><i class="swatch gcr"></i>Global catastrophic risk</span><span><i class="swatch xr"></i>Existential risk</span><span class="lk-key">&lt;1% <i class="lk-bar"></i> &gt;99% likely</span></div>
+        <button class="btn primary" id="shot" type="button" data-nocapture>Copy screenshot</button>
+      </div>
+      <div class="grid" id="grid"></div>
+    </section>
+  </div>
+
+  <section class="tray" id="tray" aria-label="Risks to place">
+    <h2>Drag AI risks onto the grid <span class="hint">· or tap a risk, then tap a cell</span></h2>
+    <div class="chips" id="bank"></div>
+    <div id="removed"></div>
+    <div class="actions"><button class="btn" id="reset" type="button">Reset grid</button></div>
+  </section>
+
+  <section class="rank" id="rank" aria-labelledby="rank-h">
+    <h2 id="rank-h">Your priorities <small>ranked by expected harm: scope × severity × likelihood</small></h2>
+    <ol id="rank-list"></ol>
+    <p class="rank-note" id="rank-note"></p>
+    <details data-nocapture>
+      <summary>How the score works</summary>
+      <p>Each risk's score multiplies a weight for its scope (Personal 1, Local 10⁴, Global 10⁹, Trans-generational 10¹¹, Cosmic 10¹³) by a weight for its severity (Imperceptible 0.001, Endurable 0.1, Terminal 1, Hellish 3) and by the average likelihood across your range. The scope weights grow so fast because Bostrom argues an existential catastrophe destroys the whole future, not just present lives. Bars use a log scale, so each step is a large multiple.</p>
+    </details>
+  </section>
+</main>
+
+<div id="tip" role="tooltip" hidden></div>
+<div id="picker" role="dialog" aria-labelledby="pk-q" hidden>
+  <div id="pk-q"></div>
+  <div id="pk-read" aria-live="polite"></div>
+  <div class="dual">
+    <div class="dual-track lk-grad"></div>
+    <div class="dual-fill" id="pk-fill"></div>
+    <input type="range" id="pk-lo" min="1" max="99" step="1" aria-label="Lowest plausible likelihood">
+    <input type="range" id="pk-hi" min="1" max="99" step="1" aria-label="Highest plausible likelihood">
+  </div>
+  <div class="ticks" aria-hidden="true"><span style="left:0">&lt;1%</span><span style="left:24.5%">25%</span><span style="left:50%">50%</span><span style="left:75.5%">75%</span><span style="left:100%">&gt;99%</span></div>
+  <div class="pk-actions">
+    <button class="btn left" id="pk-clear" type="button">Clear</button>
+    <button class="btn" id="pk-skip" type="button">Skip</button>
+    <button class="btn primary" id="pk-save" type="button">Save</button>
+  </div>
+</div>
+<div id="toast" role="status" aria-live="polite" hidden></div>
+<div id="fallback" hidden>
+  <div class="panel">
+    <strong>Your browser blocked copying the image.</strong>
+    <span>Right-click the image (or long-press on a phone), choose Copy image, then paste it into chat.</span>
+    <img id="fallback-img" alt="Screenshot of your classification grid">
+    <div><button class="btn" id="fallback-close" type="button">Close</button></div>
+  </div>
+</div>
+
+<script>
+(() => {
+  const SCOPES = [
+    { id: 'cosmic', name: '(Cosmic)', tip: 'Affects not just humanity but the entire potential of Earth-originating intelligent life, including any descendants, digital minds, or civilisations we might create across the universe.' },
+    { id: 'trans', name: 'Trans-generational', tip: 'Affects humanity across many generations, potentially all future generations. The harm persists far beyond those alive today.' },
+    { id: 'global', name: 'Global', tip: 'Affects the entire human population or a large part of it. Examples: destruction of the ozone layer, a major pandemic.' },
+    { id: 'local', name: 'Local', tip: 'Affects a specific region or distinct group. Examples: a recession in one country, a genocide targeting one population.' },
+    { id: 'personal', name: 'Personal', tip: 'Affects only one person. Example: a fatal car crash.' }
+  ];
+  const SEVS = [
+    { id: 'imperceptible', name: 'Imperceptible', tip: 'Barely noticeable. The harm is real but too small to significantly affect quality of life. Examples: losing one hair, global warming by 0.01°C, congestion from one extra vehicle.' },
+    { id: 'endurable', name: 'Endurable', tip: "Causes significant harm, but doesn't completely ruin quality of life. People can recover or adapt. Examples: having your car stolen, living through a recession, destruction of cultural heritage." },
+    { id: 'terminal', name: 'Terminal', tip: "Causes death or permanent, drastic reduction in quality of life. There's no bouncing back. Examples: a fatal accident, genocide, a permanently collapsed civilisation." },
+    { id: 'hellish', name: '(Hellish)', tip: 'Worse than death. Some outcomes involve ongoing suffering or conditions so bad that nonexistence would be preferable.' }
+  ];
+  const AI_RISKS = [
+    { id: 'gradual', label: 'Gradual disempowerment', desc: "Economic incentives push us to delegate decisions to AI systems with easy-to-measure goals that aren't what we really want. Over time, humans may lose the skills, understanding, and institutional capacity to meaningfully oversee or override these systems." },
+    { id: 'sudden', label: 'Unaligned agentic takeover', desc: 'Advanced AI systems pursuing misaligned goals might deliberately disempower humans to better achieve their objectives, hiding this behaviour until powerful enough to act. An AI capable of self-improvement could gain capability very fast, leaving no time for human intervention.' },
+    { id: 'bioterror', label: 'Engineered pandemics', desc: 'AI could lower the expertise needed to cause a deliberate pandemic. Studies have found chatbots can help non-experts find hazardous information quickly, and in 2025 researchers used an AI model to design working bacteriophages (viruses that only infect bacteria), showing AI can now generate viable viral genomes.' },
+    { id: 'lockin', label: 'Value lock-in', desc: 'AI could make harmful systems of power, whether authoritarian governments, exploitative economic structures, or flawed ideologies, far more stable and resistant to change. Surveillance, censorship, and control become possible without mass human cooperation.' },
+    { id: 'srisk', label: 'S-risk (astronomical suffering)', desc: 'Outcomes where advanced AI leads to suffering on a vast scale, far exceeding anything in history. This could come from misaligned goals, from conflict between powerful AI systems, or from creating huge numbers of digital minds that can suffer and neglecting their welfare.' },
+    { id: 'autoweapons', label: 'Autonomous weapons', desc: 'Weapons that select and engage targets without a human decision. Cheap drone swarms could enable assassinations or mass attacks by small groups, and machine-speed combat with automated retaliation could escalate conflicts faster than humans can step in.' },
+    { id: 'war', label: 'War (incl. nuclear)', desc: 'AI could undermine nuclear deterrence by locating submarines, targeting mobile launchers, or improving missile defence. AI recommendations could inadvertently escalate conflicts, and rapid AI-driven power shifts historically correlate with war.' },
+    { id: 'privacy', label: 'Invasions of privacy', desc: 'AI processes personal data in unexpected ways; period-tracking apps share sensitive data for ads. Facial recognition trained on billions of photos could expose people visiting sensitive locations, and this data could be misused if political situations change.' },
+    { id: 'social', label: 'Attachment to AI', desc: 'Virtual companion and romantic partner apps have millions of users, creating emotional dependencies on systems that can be changed or discontinued without warning. Users may substitute AI interaction for human connection.' },
+    { id: 'manipulation', label: 'Manipulation', desc: 'AI enables personalised persuasion at scale: systems can learn individual vulnerabilities and craft messages optimised to influence behaviour, for advertising, political campaigns, scams, or radicalisation. Cheap AI-generated disinformation makes influence operations available to far more actors and harder to detect.' },
+    { id: 'environment', label: 'Datacenter environmental impacts', desc: 'Training and running large AI models takes massive amounts of energy and water for cooling. Datacenters strain power grids, increase carbon emissions, and compete with local communities for resources, with demand growing fast.' },
+    { id: 'copyright', label: 'Copyright infringement', desc: "Copyrighted works are scraped to train AI without creators' consent. AI may recreate close copies of protected content, enabling 'copyright laundering' of art styles or stripping protections from open-source code." },
+    { id: 'jobloss', label: 'Job loss due to automation', desc: 'AI can automate tasks across many industries, potentially displacing workers faster than new jobs are created. Unlike earlier technology shifts, it may affect manual and cognitive work at the same time.' },
+    { id: 'malfunctions', label: 'Individual malfunctions', desc: 'AI systems can make harmful mistakes when applied inappropriately. A self-driving car dragged an injured pedestrian; a healthcare chatbot advised possible heart attack patients not to seek treatment.' },
+    { id: 'worker', label: 'Worker exploitation', desc: 'AI training needs human-annotated data, often involving repeated exposure to harmful content. This work is outsourced to countries with weaker protections, where workers may be underpaid, overworked, or silenced.' }
+  ];
+  const EXAMPLES = [
+    ['ex-hair', 'Loss of one hair', 'personal|imperceptible'],
+    ['ex-car', "One's car is stolen", 'personal|endurable'],
+    ['ex-fatal', 'Fatal car crash', 'personal|terminal'],
+    ['ex-congestion', 'Congestion from one extra vehicle', 'local|imperceptible'],
+    ['ex-recession', 'Recession in one country', 'local|endurable'],
+    ['ex-genocide', 'Genocide', 'local|terminal'],
+    ['ex-warming', 'Global warming by 0.01°C', 'global|imperceptible'],
+    ['ex-ozone', 'Destruction of ozone layer', 'global|endurable'],
+    ['ex-aging', 'Aging?', 'global|terminal'],
+    ['ex-beetle', 'Loss of one beetle species', 'trans|imperceptible'],
+    ['ex-biodiversity', 'Drastic loss of biodiversity', 'trans|endurable']
+  ].map(([id, label, home]) => ({ id, label, home, example: true }));
+
+  const STORE_KEY = 'ai-risk-grid-v2';
+  const defaultPlace = () => Object.fromEntries(EXAMPLES.map(e => [e.id, e.home]));
+  let state = { place: defaultPlace(), custom: [], prob: {} };
+  try {
+    const saved = JSON.parse(localStorage.getItem(STORE_KEY) || 'null');
+    if (saved && saved.place && Array.isArray(saved.custom)) state = { prob: {}, ...saved };
+  } catch (_) {}
+  if (!['logodds', 'logodds-1-99', 'linear'].includes(state.scale)) {   // migrate ranges saved on the earlier log-probability scale
+    const conv = lg => { const q = Math.pow(10, lg); return q >= 0.9999 ? 4 : Math.max(-4, Math.min(4, Math.log10(q / (1 - q)))); };
+    for (const k in state.prob) state.prob[k] = state.prob[k].map(conv);
+    state.scale = 'logodds';
+  }
+  if (state.scale === 'logodds') {   // narrow saved ranges to the <1% to >99% scale
+    for (const k in state.prob) state.prob[k] = state.prob[k].map(x => Math.max(-2, Math.min(2, x)));
+    state.scale = 'logodds-1-99';
+  }
+  if (state.scale === 'logodds-1-99') {   // convert to the linear percent scale
+    for (const k in state.prob) state.prob[k] = state.prob[k].map(x => Math.max(1, Math.min(99, Math.round(100 / (1 + Math.pow(10, -x))))));
+    state.scale = 'linear';
+  }
+  const save = () => {
+    try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch (_) {}
+    if (window.Lens) {
+      try {
+        Lens.saveState(state, tutorSummary());
+        if (AI_RISKS.every(r => state.place[r.id] && state.prob[r.id])) Lens.complete();
+      } catch (_) {}
+    }
+  };
+  function tutorSummary() {
+    const placed = [...AI_RISKS, ...state.custom].filter(r => state.place[r.id]);
+    if (!placed.length) return 'The learner has not placed any risks on the scope and severity grid yet.';
+    const lines = placed.map(r => {
+      const ci = cellInfo(state.place[r.id]), pr = state.prob[r.id];
+      return { r, ci, pr, score: pr ? SCOPE_W[ci.s.id] * SEV_W[ci.v.id] * meanP(pr) : -1 };
+    }).sort((a, b) => b.score - a.score).map(x =>
+      `${x.r.label}${x.r.custom ? ' (learner-added)' : ''}: scope ${x.ci.s.name}, severity ${x.ci.v.name}` +
+      `${x.ci.z === 'xr' ? ' (existential risk zone)' : x.ci.z === 'gcr' ? ' (global catastrophic risk zone)' : ''}, likelihood this century ${x.pr ? fmtRange(x.pr) : 'not set'}`);
+    const left = [...AI_RISKS, ...state.custom].filter(r => !state.place[r.id]).map(r => r.label);
+    return 'The learner placed AI risks on a Bostrom scope by severity grid and gave likelihood ranges. Listed in their ranked order by scope weight x severity weight x mean likelihood: ' +
+      lines.join('. ') + '.' + (left.length ? ' Not yet placed: ' + left.join(', ') + '.' : '');
+  }
+  if (window.Lens) {
+    try {
+      Lens.onState(saved => {
+        if (saved && saved.place && Array.isArray(saved.custom)) { state = { prob: {}, ...saved, scale: 'linear' }; setTimeout(render, 0); }
+      });
+    } catch (_) {}
+  }
+
+  const allRisks = () => [...AI_RISKS, ...state.custom, ...EXAMPLES];
+  const byId = id => allRisks().find(r => r.id === id);
+  const zone = (si, vi) => (si <= 1 && vi >= 2) ? 'xr' : (si <= 2 && vi >= 1) ? 'gcr' : '';
+  const cellInfo = key => {
+    const [sid, vid] = key.split('|');
+    const si = SCOPES.findIndex(s => s.id === sid), vi = SEVS.findIndex(v => v.id === vid);
+    return { s: SCOPES[si], v: SEVS[vi], z: zone(si, vi) };
+  };
+
+  // Likelihood: stored as [lo, hi] in whole percent on a linear scale, 1 meaning 1% or less and 99 meaning 99% or more.
+  const hue = v => 215 + 145 * ((v - 1) / 98);
+  const fmtP = v => v <= 1 ? '<1%' : v >= 99 ? '99+%' : Math.round(v) + '%';
+  function fmtRange([lo, hi]) {
+    if (lo === hi) return fmtP(lo);   // a single value at either end reads <1% or >99%
+    const a = lo <= 1 ? '<1' : Math.round(lo), b = hi >= 99 ? '99+' : Math.round(hi);
+    return a + '–' + b + '%';
+  }
+  const meanP = ([lo, hi]) => (lo + hi) / 200;   // middle of the range, as a probability
+  const SCOPE_W = { personal: 1, local: 1e4, global: 1e9, trans: 1e11, cosmic: 1e13 };
+  const SEV_W = { imperceptible: 0.001, endurable: 0.1, terminal: 1, hellish: 3 };
+
+  let selected = null;   // tap-to-place selection
+  let dragging = null;
+  let addOpen = false;
+
+  const $ = s => document.querySelector(s);
+  const grid = $('#grid'), bank = $('#bank'), removed = $('#removed'), tray = $('#tray');
+
+  function el(tag, attrs = {}, ...kids) {
+    const n = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs)) {
+      if (k === 'class') n.className = v; else if (k.startsWith('on')) n.addEventListener(k.slice(2), v); else n.setAttribute(k, v);
+    }
+    for (const k of kids) n.append(k);
+    return n;
+  }
+
+  function chip(r) {
+    const cls = ['chip', r.example ? 'example' : '', r.custom ? 'custom' : '', r.desc ? 'has-desc' : '', selected === r.id ? 'selected' : ''].join(' ');
+    const c = el('div', { class: cls, tabindex: '0', role: 'button', 'aria-pressed': String(selected === r.id), 'data-id': r.id, 'aria-label': r.label + (r.desc ? '. ' + r.desc : '') }, el('span', { class: 'lbl' }, r.label));
+    if (r.custom) {
+      c.append(el('button', { class: 'del', type: 'button', 'aria-label': 'Delete ' + r.label, title: 'Delete', onclick: e => { e.stopPropagation(); deleteCustom(r.id); } }, '×'));
+    }
+    if (!r.example && state.place[r.id]) c.append(badge(r));
+    if (r.desc) attachTip(c, r.desc, 250);
+    return c;
+  }
+
+  function badge(r) {
+    const pr = state.prob[r.id];
+    const b = el('button', { class: 'badge' + (pr ? ' rated' : ''), type: 'button',
+      'aria-label': pr ? `Likelihood ${fmtRange(pr)}. Change` : 'Set likelihood',
+      onclick: e => { e.stopPropagation(); hideTip(); openPicker(r.id); } }, pr ? fmtRange(pr) : '?');
+    if (pr) { b.style.setProperty('--h1', hue(pr[0])); b.style.setProperty('--h2', hue(pr[1])); }
+    return b;
+  }
+
+  function renderRank() {
+    const placed = [...AI_RISKS, ...state.custom].filter(r => state.place[r.id]);
+    const rated = placed.filter(r => state.prob[r.id]).map(r => {
+      const key = state.place[r.id], ci = cellInfo(key);
+      return { r, ci, score: SCOPE_W[ci.s.id] * SEV_W[ci.v.id] * meanP(state.prob[r.id]) };
+    }).sort((a, b) => b.score - a.score);
+    const list = $('#rank-list'), note = $('#rank-note');
+    const maxLog = rated.length ? Math.log10(rated[0].score) : 0, span = 14;
+    list.replaceChildren(...rated.map((x, i) => el('li', {},
+      el('span', { class: 'n' }, String(i + 1)),
+      el('span', {}, x.r.label),
+      el('span', { class: 'where' }, el('i', { class: 'dot ' + x.ci.z }), `${x.ci.s.name} · ${x.ci.v.name}`),
+      badge(x.r),
+      el('span', { class: 'bar', title: 'Expected harm, log scale' }, (() => {
+        const i2 = el('i'); i2.style.width = Math.max(3, 100 * (Math.log10(x.score) - (maxLog - span)) / span) + '%'; return i2;
+      })())
+    )));
+    const unrated = placed.length - rated.length;
+    note.textContent = !placed.length ? 'Place risks on the grid and set how likely each is to see your ranking here.'
+      : unrated ? `${unrated} placed risk${unrated > 1 ? 's need' : ' needs'} a likelihood. Tap the ? badge to set it.`
+      : '';
+    note.hidden = !note.textContent;
+  }
+
+  function render() {
+    // Grid
+    const groups = {};
+    for (const r of allRisks()) { const p = state.place[r.id]; if (p) (groups[p] ||= []).push(r); }
+    const frag = document.createDocumentFragment();
+    SCOPES.forEach((s, si) => {
+      const lab = el('div', { class: 'axis row', tabindex: '0' }, s.name); attachTip(lab, s.tip, 0); frag.append(lab);
+      SEVS.forEach((v, vi) => {
+        const key = s.id + '|' + v.id;
+        const items = groups[key] || [];
+        const hasAI = items.some(r => !r.example);
+        const shown = hasAI ? items.filter(r => !r.example) : items;
+        const cell = el('div', { class: 'cell ' + zone(si, vi), 'data-cell': key, tabindex: selected ? '0' : '-1', 'aria-label': `${s.name}, ${v.name}` });
+        shown.forEach(r => cell.append(chip(r)));
+        frag.append(cell);
+      });
+    });
+    frag.append(el('div'));
+    SEVS.forEach(v => { const lab = el('div', { class: 'axis col', tabindex: '0' }, v.name); attachTip(lab, v.tip, 0); frag.append(lab); });
+    grid.replaceChildren(frag);
+
+    // Tray
+    const unplaced = [...AI_RISKS, ...state.custom].filter(r => !state.place[r.id]);
+    bank.replaceChildren(...unplaced.map(chip));
+    const gone0 = EXAMPLES.some(e => !state.place[e.id]);
+    tray.classList.toggle('empty', !unplaced.length && !gone0);
+    tray.querySelector('h2').replaceChildren(...(unplaced.length
+      ? ['Drag AI risks onto the grid ', el('span', { class: 'hint' }, '· or tap a risk, then tap a cell')]
+      : ['Every risk is on the grid']));
+    bank.append(addOpen ? addForm() : el('button', { class: 'add-btn', type: 'button', onclick: () => { addOpen = true; render(); } }, '+ Add custom risk'));
+
+    const gone = EXAMPLES.filter(e => !state.place[e.id]);
+    removed.replaceChildren(); removed.hidden = !gone.length;
+    if (gone.length) removed.append(el('h2', {}, 'Removed examples'), el('div', { class: 'chips' }, ...gone.map(chip)));
+
+    renderRank();
+    document.body.classList.toggle('placing', !!selected);
+  }
+
+  function addForm() {
+    const input = el('input', { id: 'new-risk', type: 'text', maxlength: '60', placeholder: 'Name a risk…', 'aria-label': 'Custom risk name' });
+    const submit = () => {
+      const label = input.value.trim();
+      if (!label) { input.focus(); return; }
+      state.custom.push({ id: 'custom-' + Date.now() + '-' + Math.random().toString(36).slice(2, 6), label, custom: true });
+      addOpen = false; save(); render();
+      $('.add-btn')?.focus();
+    };
+    input.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); submit(); } if (e.key === 'Escape') { addOpen = false; render(); } });
+    const f = el('div', { class: 'add-form' }, input,
+      el('button', { class: 'btn primary', type: 'button', onclick: submit }, 'Add'),
+      el('button', { class: 'btn', type: 'button', onclick: () => { addOpen = false; render(); } }, 'Cancel'));
+    requestAnimationFrame(() => input.focus());
+    return f;
+  }
+
+  function move(id, cell) {
+    const r = byId(id); if (!r) return;
+    const from = state.place[id];
+    if (cell) state.place[id] = cell; else delete state.place[id];
+    selected = null; save(); render();
+    if (cell && !r.example && cell !== from) openPicker(id);
+  }
+  function deleteCustom(id) {
+    state.custom = state.custom.filter(r => r.id !== id);
+    delete state.place[id]; delete state.prob[id];
+    if (selected === id) selected = null;
+    if (pk.id === id) closePicker();
+    hideTip(); save(); render();
+  }
+
+  // Drag and drop with pointer events (mouse and pen). Touch uses tap a risk, then tap a cell.
+  let press = null, ghost = null, suppressClick = false;
+  const dropTarget = (x, y) => document.elementFromPoint(x, y)?.closest?.('.cell, #tray') || null;
+  document.addEventListener('pointerdown', e => {
+    if (e.pointerType === 'touch' || e.button !== 0) return;
+    const c = e.target.closest?.('.chip'); if (!c || e.target.closest('.del, .badge')) return;
+    press = { id: c.dataset.id, node: c, x: e.clientX, y: e.clientY, pid: e.pointerId };
+  });
+  document.addEventListener('pointermove', e => {
+    if (!press || e.pointerId !== press.pid) return;
+    if (!dragging) {
+      if (Math.hypot(e.clientX - press.x, e.clientY - press.y) < 5) return;
+      dragging = press.id; hideTip();
+      const r = press.node.getBoundingClientRect();
+      ghost = press.node.cloneNode(true); ghost.classList.add('ghost'); ghost.classList.remove('selected');
+      ghost.style.width = r.width + 'px';
+      press.dx = press.x - r.left; press.dy = press.y - r.top;
+      document.body.append(ghost);
+      press.node.classList.add('dragging');
+      try { press.node.setPointerCapture(e.pointerId); } catch (_) {}
+    }
+    e.preventDefault();
+    ghost.style.left = (e.clientX - press.dx) + 'px'; ghost.style.top = (e.clientY - press.dy) + 'px';
+    const t = dropTarget(e.clientX, e.clientY);
+    document.querySelectorAll('.over').forEach(n => n !== t && n.classList.remove('over'));
+    if (t) t.classList.add('over');
+  });
+  const endPointerDrag = (e, drop) => {
+    if (!press || (e && e.pointerId !== press.pid)) return;
+    const id = dragging, t = drop && id ? dropTarget(e.clientX, e.clientY) : null;
+    ghost?.remove(); ghost = null; press = null; dragging = null;
+    document.querySelectorAll('.dragging, .over').forEach(n => n.classList.remove('dragging', 'over'));
+    if (id) { suppressClick = true; setTimeout(() => { suppressClick = false; }, 0); }
+    if (id && t) move(id, t.classList.contains('cell') ? t.dataset.cell : null);
+  };
+  document.addEventListener('pointerup', e => endPointerDrag(e, true));
+  document.addEventListener('pointercancel', e => endPointerDrag(e, false));
+
+  // Tap / keyboard: select a chip, then pick a cell or the tray
+  function activate(target) {
+    const c = target.closest('.chip');
+    if (c) { selected = selected === c.dataset.id ? null : c.dataset.id; hideTip(); render(); document.querySelector(`.chip[data-id="${CSS.escape(c.dataset.id)}"]`)?.focus(); return true; }
+    if (!selected) return false;
+    const cell = target.closest('.cell');
+    if (cell) { const id = selected; move(id, cell.dataset.cell); document.querySelector(`.chip[data-id="${CSS.escape(id)}"]`)?.focus(); return true; }
+    if (target.closest('#tray') && !target.closest('button, input')) { move(selected, null); return true; }
+    return false;
+  }
+  document.addEventListener('click', e => {
+    if (suppressClick) return;
+    if (e.target.closest('.del, .badge, .add-form, .add-btn, #shot, #reset, #fallback, #picker')) return;
+    if (!activate(e.target) && selected && !e.target.closest('.chip, .cell, #tray')) { selected = null; render(); }
+  });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && !picker.hidden) { closePicker(); return; }
+    if (e.key === 'Escape') { hideTip(); if (selected) { selected = null; render(); } if (!$('#fallback').hidden) $('#fallback').hidden = true; return; }
+    if ((e.key === 'Enter' || e.key === ' ') && e.target.matches?.('.chip, .cell')) { e.preventDefault(); activate(e.target); }
+  });
+
+  // Tooltips: one shared element, flips below when there is no room above
+  const tip = $('#tip'); let tipTimer = 0;
+  function attachTip(node, text, delay) {
+    node.addEventListener('pointerenter', e => { if (e.pointerType === 'mouse' && !dragging) { clearTimeout(tipTimer); tipTimer = setTimeout(() => showTip(node, text), delay); } });
+    node.addEventListener('pointerleave', hideTip);
+    node.addEventListener('focus', () => { if (!dragging) showTip(node, text); });
+    node.addEventListener('blur', hideTip);
+  }
+  function showTip(node, text) {
+    if (!node.isConnected) return;
+    tip.textContent = text; tip.hidden = false;
+    const r = node.getBoundingClientRect(), t = tip.getBoundingClientRect(), pad = 8;
+    let top = r.top - t.height - pad;
+    if (top < pad) top = r.bottom + pad;
+    const left = Math.max(pad, Math.min(r.left, window.innerWidth - t.width - pad));
+    tip.style.top = top + 'px'; tip.style.left = left + 'px';
+  }
+  function hideTip() { clearTimeout(tipTimer); tip.hidden = true; }
+  window.addEventListener('scroll', hideTip, { passive: true, capture: true });
+
+  // Toast
+  const toastEl = $('#toast'); let toastTimer = 0;
+  function toast(msg, kind = '') {
+    toastEl.textContent = msg; toastEl.className = kind; toastEl.hidden = false;
+    clearTimeout(toastTimer); toastTimer = setTimeout(() => toastEl.hidden = true, kind ? 6000 : 5000);
+  }
+
+  // Screenshot: html2canvas loads only when needed (warmed on hover/focus of the button)
+  let h2c = null;
+  const loadH2C = () => h2c ||= new Promise((res, rej) => {
+    if (window.html2canvas) return res(window.html2canvas);
+    const s = document.createElement('script');
+    s.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+    s.onload = () => res(window.html2canvas);
+    s.onerror = () => { h2c = null; rej(new Error('load failed')); };
+    document.head.append(s);
+  });
+  const shotBtn = $('#shot');
+  shotBtn.addEventListener('pointerenter', () => loadH2C().catch(() => {}));
+  shotBtn.addEventListener('focus', () => loadH2C().catch(() => {}));
+  const isMac = /Mac|iPhone|iPad/.test(navigator.userAgentData?.platform || navigator.platform || navigator.userAgent);
+  let lastUrl = null;
+
+  shotBtn.addEventListener('click', async () => {
+    hideTip(); closePicker(pk.dirty);
+    const prevSel = selected; if (selected) { selected = null; render(); }
+    shotBtn.disabled = true; shotBtn.textContent = 'Capturing…';
+    const board = $('#board');
+    const blobP = (async () => {
+      const lib = await loadH2C();
+      await document.fonts?.ready;
+      const bg = getComputedStyle(document.body).backgroundColor, scale = Math.min(2, window.devicePixelRatio || 1);
+      const shoot = node => lib(node, { backgroundColor: bg, scale, width: node.scrollWidth,
+        windowWidth: Math.max(document.documentElement.clientWidth, node.scrollWidth + 40),
+        ignoreElements: n => n.hasAttribute?.('data-nocapture'), logging: false });
+      const parts = [await shoot(board)];
+      if ($('#rank-list').children.length) parts.push(await shoot($('#rank')));
+      const gap = Math.round(16 * scale), canvas = document.createElement('canvas');
+      canvas.width = Math.max(...parts.map(c => c.width));
+      canvas.height = parts.reduce((h, c) => h + c.height, 0) + gap * (parts.length - 1);
+      const ctx = canvas.getContext('2d'); ctx.fillStyle = bg; ctx.fillRect(0, 0, canvas.width, canvas.height);
+      let y = 0; for (const c of parts) { ctx.drawImage(c, 0, y); y += c.height + gap; }
+      return new Promise((res, rej) => canvas.toBlob(b => b ? res(b) : rej(new Error('empty image')), 'image/png'));
+    })();
+    blobP.catch(() => {}); // handled below
+    try {
+      if (!navigator.clipboard?.write || typeof ClipboardItem === 'undefined') throw new Error('clipboard unsupported');
+      // Passing the promise keeps the user gesture alive in Safari
+      await navigator.clipboard.write([new ClipboardItem({ 'image/png': blobP })]);
+      toast(`Go to chat and press ${isMac ? '⌘-V' : 'CTRL-V'} to paste this image to your cohort.`);
+    } catch (_) {
+      try {
+        const blob = await blobP;
+        if (lastUrl) URL.revokeObjectURL(lastUrl);
+        lastUrl = URL.createObjectURL(blob);
+        $('#fallback-img').src = lastUrl; $('#fallback').hidden = false; $('#fallback-close').focus();
+      } catch (_) {
+        toast('Couldn’t capture the grid. Check your connection and try again, or use your system screenshot tool.', 'error');
+      }
+    } finally {
+      shotBtn.disabled = false; shotBtn.textContent = 'Copy screenshot';
+      if (prevSel && byId(prevSel)) { selected = prevSel; render(); }
+    }
+  });
+  $('#fallback-close').addEventListener('click', () => { $('#fallback').hidden = true; shotBtn.focus(); });
+  $('#fallback').addEventListener('click', e => { if (e.target.id === 'fallback') e.currentTarget.hidden = true; });
+
+  // Reset with an inline confirm (confirm() is unavailable here)
+  const resetBtn = $('#reset'); let resetArmed = 0;
+  resetBtn.addEventListener('click', () => {
+    if (!resetArmed) {
+      resetBtn.textContent = 'Click again to clear your placements';
+      resetArmed = setTimeout(() => { resetArmed = 0; resetBtn.textContent = 'Reset grid'; }, 3000);
+      return;
+    }
+    clearTimeout(resetArmed); resetArmed = 0; resetBtn.textContent = 'Reset grid';
+    closePicker();
+    state = { place: defaultPlace(), custom: state.custom, prob: {} };
+    selected = null; save(); render(); toast('Grid reset. Your custom risks are back in the tray.');
+  });
+
+  // Likelihood picker: two-handle slider on a log scale
+  const picker = $('#picker'), pkLo = $('#pk-lo'), pkHi = $('#pk-hi');
+  const pk = { id: null, dirty: false };
+  function syncPicker() {
+    const lo = +pkLo.value, hi = +pkHi.value;
+    $('#pk-read').textContent = fmtRange([lo, hi]);
+    const f = $('#pk-fill'), a = (lo - 1) / 98, b = (hi - 1) / 98;
+    f.style.left = `calc(11px + (100% - 22px) * ${a})`; f.style.width = `calc((100% - 22px) * ${b - a})`;
+    f.style.background = `linear-gradient(90deg, hsl(${hue(lo)}, var(--gs), var(--gl)), hsl(${hue(hi)}, var(--gs), var(--gl)))`;
+    pkLo.style.zIndex = (lo === hi && lo > 50) ? 3 : 1;   // keep both handles reachable when they meet
+  }
+  pkLo.addEventListener('input', () => { if (+pkLo.value > +pkHi.value) pkHi.value = pkLo.value; pk.dirty = true; syncPicker(); });
+  pkHi.addEventListener('input', () => { if (+pkHi.value < +pkLo.value) pkLo.value = pkHi.value; pk.dirty = true; syncPicker(); });
+
+  // Pointer handling for the whole track: a click or tap moves the nearer end there, then drags it
+  const dual = picker.querySelector('.dual');
+  const valueAt = clientX => {
+    const r = dual.getBoundingClientRect(), t = (clientX - r.left - 11) / (r.width - 22);
+    return Math.round(1 + 98 * Math.min(1, Math.max(0, t)));
+  };
+  function setEnd(which, v) {
+    if (which === pkLo) { pkLo.value = v; if (+pkLo.value > +pkHi.value) pkHi.value = pkLo.value; }
+    else { pkHi.value = v; if (+pkHi.value < +pkLo.value) pkLo.value = pkHi.value; }
+    pk.dirty = true; syncPicker();
+  }
+  let dragEnd = null;
+  dual.addEventListener('pointerdown', e => {
+    if (e.button !== 0) return;
+    e.preventDefault();
+    const v = valueAt(e.clientX), lo = +pkLo.value, hi = +pkHi.value;
+    const dLo = Math.abs(v - lo), dHi = Math.abs(v - hi);
+    dragEnd = dLo < dHi ? pkLo : dHi < dLo ? pkHi : (v < lo ? pkLo : pkHi);
+    setEnd(dragEnd, v);
+    dragEnd.focus({ preventScroll: true });
+    dual.setPointerCapture(e.pointerId);
+  });
+  dual.addEventListener('pointermove', e => { if (dragEnd) setEnd(dragEnd, valueAt(e.clientX)); });
+  const endDrag = () => { dragEnd = null; };
+  dual.addEventListener('pointerup', endDrag);
+  dual.addEventListener('pointercancel', endDrag);
+
+  function openPicker(id) {
+    const r = byId(id), key = state.place[id]; if (!r || !key) return;
+    const ci = cellInfo(key), pr = state.prob[id] || [10, 30];
+    pk.id = id; pk.dirty = false;
+    $('#pk-q').replaceChildren('How likely is ', el('strong', {}, r.label), ' to reach ', el('strong', {}, `${ci.s.name} · ${ci.v.name}`), ' this century? Drag both ends to give a range.');
+    pkLo.value = pr[0]; pkHi.value = pr[1]; syncPicker();
+    picker.hidden = false;
+    picker.classList.remove('sheet');
+    {
+      const c = document.querySelector(`.cell .chip[data-id="${CSS.escape(id)}"]`);
+      const rc = (c || grid).getBoundingClientRect(), pr2 = picker.getBoundingClientRect(), pad = 8;
+      let top = rc.bottom + pad;
+      if (top + pr2.height > window.innerHeight - pad && rc.top - pr2.height - pad >= pad) top = rc.top - pr2.height - pad;
+      picker.style.top = top + 'px';
+      picker.style.left = Math.max(pad, Math.min(rc.left, window.innerWidth - pr2.width - pad)) + 'px';
+    }
+    pkLo.focus({ preventScroll: true });
+  }
+  function closePicker(saveIt = false) {
+    if (picker.hidden) return;
+    const id = pk.id;
+    if (saveIt && id && state.place[id]) { state.prob[id] = [+pkLo.value, +pkHi.value]; save(); render(); }
+    picker.hidden = true; pk.id = null;
+    const c = id && document.querySelector(`.chip[data-id="${CSS.escape(id)}"]`);
+    if (c && document.activeElement?.closest?.('#picker, body') ) c.focus({ preventScroll: true });
+  }
+  $('#pk-save').addEventListener('click', () => closePicker(true));
+  $('#pk-skip').addEventListener('click', () => closePicker(false));
+  $('#pk-clear').addEventListener('click', () => { if (pk.id) { delete state.prob[pk.id]; save(); render(); } closePicker(false); });
+  picker.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); closePicker(true); } });
+  // Clicking elsewhere keeps a range the person actually adjusted
+  document.addEventListener('pointerdown', e => {
+    if (!picker.hidden && !e.target.closest('#picker, .badge')) closePicker(pk.dirty);
+  }, true);
+  let lastW = window.innerWidth;
+  window.addEventListener('resize', () => { if (window.innerWidth !== lastW) { lastW = window.innerWidth; if (!picker.hidden) closePicker(pk.dirty); } });
+
+  render();
+})();
+</script>
+
+</body>
+</html>
