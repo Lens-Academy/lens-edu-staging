@@ -89,9 +89,9 @@ The word “rational” has potential pitfalls, but there are plenty of _non_\-
 
 Yet one should be careful not to _overuse_ that word. One receives no points merely for pronouncing it loudly. If you speak overmuch of the Way, you will not attain it.
 
----
+{--{"author":"James agent ready-61's AI","timestamp":1792252660550}@@---
 
-[^note-truth]: For a longer discussion of truth, see “[The Simple Truth](https://www.lesswrong.com/rationality/the-simple-truth)” at the very end of this volume.
+--}[^note-truth]: For a longer discussion of truth, see “[The Simple Truth](https://www.lesswrong.com/rationality/the-simple-truth)” at the very end of this volume.
 
 [^note-verbal-reasoning]: The idea that rationality is about strictly privileging verbal reasoning over feelings is a case in point. Bayesian rationality applies to urges, hunches, perceptions, and wordless intuitions, not just to assertions.
 
