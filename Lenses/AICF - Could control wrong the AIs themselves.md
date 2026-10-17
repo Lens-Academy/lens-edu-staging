@@ -19,6 +19,10 @@ Robert Long, Jeff Sebo and Toni Sims argue that there is a real tension between 
 #### Article
 source:: [[../articles/long-is-there-a-tension-between-ai-safety-and-ai-welfare]]
 from:: ## Abstract
+to:: though whether they require _full_ transparency is a further question.[^note-22]
+
+#### Article
+from:: ## 4 Conclusion
 to:: while we still have time to prepare.
 
 #### Question: Open
