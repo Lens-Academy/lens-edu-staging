@@ -21,13 +21,19 @@ This is part 3 of 6: *The Laws Governing Belief*. Beliefs are subjective, but yo
 ::card[[../Lenses/HftS - Scientific Evidence, Legal Evidence, Rational Evidence]]
 
 ::card[[../Lenses/HftS - How Much Evidence Does It Take]]
+
 ::card[[../Lenses/HftS - Absence of Evidence Is Evidence of Absence]]
+
 ::card[[../Lenses/HftS - Conservation of Expected Evidence]]
+
 ::card[[../Lenses/HftS - Argument Screens Off Authority]]
+
 ::card[[../Lenses/HftS - An Intuitive Explanation of Bayes's Theorem]]
+
 ::card[[../Lenses/HftS - The Second Law of Thermodynamics, and Engines of Cognition]]
 
 ::card[[../Lenses/HftS - Toolbox-thinking and Law-thinking]]
+
 ::card[[../Lenses/HftS - Local Validity as a Key to Sanity and Civilization]]
 
 # Lens: Making Beliefs Pay Rent (in Anticipated Experiences)
