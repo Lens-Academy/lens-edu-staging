@@ -9,7 +9,7 @@ tags:
   - wip
 ---
 #### Article
-source:: [[../articles/yudkowsky-taboo-your-words-p]]
+source:: [[../articles/yudkowsky-taboo-your-words]]
 
 #### Question: Open
 id:: f2c12c98-aa05-44f4-8ebe-2e712e85f61b
