@@ -59,7 +59,7 @@ source:: [[../Lenses/AICF - Does control breed better schemers]]
 notes:: Catching and retraining breeds better schemers: Habryka and Greenblatt on training against caught behaviour, Jozdien on selection pressure.
 ## Lens:
 source:: [[../Lenses/AICF - Does safety work speed AI up]]
-notes:: The general speed-up worry (Richard Ngo) and a general reply (Caspar Oesterheld).
+notes:: The general speed-up worry (Richard Ngo).
 ## Lens:
 source:: [[../Lenses/AICF - How control could speed AI up]]
 notes:: Speed-up version aimed at control (Bushnaq; Habryka in an optional box) and Buck's answer, worked out by Mallen.
