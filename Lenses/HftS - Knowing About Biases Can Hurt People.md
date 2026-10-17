@@ -16,7 +16,9 @@ id:: c4d07b39-d84e-4507-86a2-6c775a4d4dba
 content::
 After learning about confirmation bias, the habit of favouring evidence for what you already believe, Priya starts answering people who disagree with her with "You're just showing confirmation bias." She never says this about her own views.
 
-1. Using the essay, explain why learning about biases has made Priya's thinking worse rather than better.
+Using the essay, in your own words:
+
+1. Explain why learning about biases has made Priya's thinking worse rather than better.
 
 2. What would she have to do differently for the knowledge to help her?
 force-feedback:: first

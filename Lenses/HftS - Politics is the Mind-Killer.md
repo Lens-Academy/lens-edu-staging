@@ -16,9 +16,10 @@ id:: 015b0607-82a0-4ec2-a8ba-0f022b523276
 content::
 A statistics lecturer wants to show how a small sample can mislead. Her example: "A poll of 20 people found that most supporters of [the main governing party in the students' country] can't read a simple graph."
 
-1. Using the essay, why is this a bad example to choose?
+Using the essay, in your own words:
 
-2. Following the essay, what kind of example should she use instead?
+1. Why is this a bad example to choose?
+2. What kind of example should she use instead?
 force-feedback:: first
 assessment-instructions::
 Score out of 100.

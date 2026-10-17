@@ -16,7 +16,7 @@ id:: 10bece06-2227-4ebc-a202-399aea5922ac
 content::
 Jordan says: "I make a point of disagreeing with whatever most people believe. It takes courage to dissent, and the great thinkers in history were dissenters, so my habit makes me more likely to be right."
 
-Using the essay, explain what is wrong with Jordan's reasoning.
+Using the essay, in your own words, explain what is wrong with Jordan's reasoning.
 force-feedback:: first
 assessment-instructions::
 Score out of 100.
