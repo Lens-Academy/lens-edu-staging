@@ -29,7 +29,7 @@ The essay's idea: when people doubt a belief they care about, they attack it whe
 
 50: Part 1. Maya picks an easy objection that she has a ready, comforting answer to, and avoids the real weak point (three paying users after two years), which is painful to look at. So her doubting makes her more confident without testing the belief. Give 25 if the answer only says her reply is a weak argument or a cliché, without saying she avoids the painful evidence.
 
-50: Part 2. She should deliberately think about the most painful point, the three paying users after two years and what that suggests about her plan (40). Full 50 if the answer also says she should keep questioning past her first comforting reply, for example by asking what a smart sceptic would say to it.
+50: Part 2. She should deliberately think about the most painful point, the three paying users after two years and what that suggests about her plan (40). Full 50 if the answer also gives a second piece of the essay's advice, such as questioning past her first comforting reply (asking what a smart sceptic would say to it), not rehearsing objections that have comforting answers, or dragging out objections she flinches from.
 
 Cap at 40 if the answer says proper doubt means giving up the belief.
 feedback-instructions::

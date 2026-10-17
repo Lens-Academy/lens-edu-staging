@@ -27,7 +27,7 @@ Score out of 100.
 
 The essay's idea: knowledge of biases can hurt a person who uses it as ammunition against arguments they dislike while never turning it on their own views. It becomes a fully general counterargument: a way to dismiss any disagreement without pointing to a specific flaw. It helps only when applied evenly, including to oneself.
 
-50: Part 1. Priya uses the idea only against views she disagrees with, so it gives her a ready way to dismiss any disagreement without finding an actual flaw, and her own beliefs are never questioned, which makes her harder to correct than before. Give 25 if the answer only says she is unfair or rude, without saying how this protects her views from being questioned.
+50: Part 1. Priya uses the idea only against views she disagrees with, so it lets her dismiss disagreement and keeps her own beliefs from ever being questioned, which makes her harder to correct than before. Give 25 if the answer only says she is unfair or rude, without saying how this protects her views from being questioned.
 
 50: Part 2. Apply the idea to her own views as readily as to others', for example by asking whether she too favours what supports her views.
 
