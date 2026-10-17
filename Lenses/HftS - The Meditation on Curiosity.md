@@ -5,8 +5,6 @@ tldr: Questioning your beliefs out of duty tends to stop as soon as you feel you
 summary_for_tutor: Yudkowsky argues that criticising your beliefs out of duty leaves you wanting to have investigated rather than wanting to investigate. You consider an objection, find a counterargument, and stop once the duty feels done, keeping to familiar ground and ending with the belief you started with. Real curiosity goes to the inquiries most likely to shift your belief and is fine with either direction. Curiosity cannot be willed, but he suggests ways to work with duty. Watch for sparks of real interest and for possibilities you flinch away from, remember Conservation of Expected Evidence (each new piece of evidence should be as likely to move you down as up), look at the belief's weak points instead of rehearsing known support, and use the Litany of Tarski (if the box contains a diamond, I desire to believe it does, if not, I desire to believe it does not). The question asks the student what went wrong when Jon checked his diet belief out of duty, and to apply one of the essay's methods.
 reading_minutes: 7
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-the-meditation-on-curiosity]]

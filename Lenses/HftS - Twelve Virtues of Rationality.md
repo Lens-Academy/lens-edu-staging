@@ -5,8 +5,6 @@ tldr: Yudkowsky lists twelve virtues of good thinking, from curiosity to scholar
 summary_for_tutor: Yudkowsky describes twelve virtues. Curiosity (a burning itch to know), relinquishment (do not flinch from experiences that might destroy your beliefs), lightness (surrender to the evidence quickly), evenness (do not place heavy burdens of proof only on claims you dislike, or inspect only some arguments for flaws), argument (seek honest argument and a test that lets reality judge), empiricism (ask which experiences to anticipate), simplicity (each added detail is another chance to be wrong), humility (take specific actions in anticipation of your errors), perfectionism (correct errors to see new ones), precision (narrow predictions are more useful), scholarship (study many sciences), and the nameless virtue, the void (every step must cut through to the correct answer, and it is futile to protest that you acted with propriety). The question tests evenness. Lena accepts a study she likes on its summary, hunts for flaws only in the one she dislikes, and calls this skepticism.
 reading_minutes: 14
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-twelve-virtues-of-rationality]]

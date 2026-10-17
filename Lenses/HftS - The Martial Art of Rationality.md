@@ -5,8 +5,6 @@ tldr: Rationality is a skill you can train, like a martial art. It works on brai
 summary_for_tutor: Yudkowsky compares rationality to a martial art. You do not need big muscles to learn to make a fist, only a hand, and rationality is about training brain machinery everyone has and fixing or working around systematic errors human brains make, not about being a fast learner. Minds are harder to control than muscles, and skill is harder to verify and pass on, which may be why there are no rationality dojos. Recent science (heuristics and biases, Bayesian probability, evolutionary and social psychology) gives a shared vocabulary for a martial art of the mind. We cannot rewire our brains, only compensate, and the science must be applied to our own intuitions and connected to practice in daily inner life. The question asks the student to answer a friend who thinks being smart and having read about biases makes training unnecessary.
 reading_minutes: 5
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-the-martial-art-of-rationality]]

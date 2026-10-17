@@ -5,8 +5,6 @@ tldr: When you are wrong in a big way, admit the whole mistake at once. People w
 summary_for_tutor: Yudkowsky uses Enron, whose executives never admitted a large mistake and hid each failure as a small local one, to argue that every improvement needs a change, and a big change needs the admission of a big mistake. Traditional Rationality asks you to concede to evidence eventually, but not quickly. Looking back on his own large mistake, he saw he had made a series of minimal, grudging concessions, when he could have moved much faster by saying "Oops". He warns against being proud of admitting errors, and argues that one large loss is better than many small ones and that people who defend their pride with "I was right in principle" repeat the mistake. The question describes a team lead who blames a new small cause each quarter for an app nobody uses, and asks for the pattern, what saying "oops" would look like, and why the essay thinks it is better.
 reading_minutes: 4
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-the-importance-of-saying-oops]]
