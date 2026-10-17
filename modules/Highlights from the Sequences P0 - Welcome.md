@@ -5,7 +5,7 @@ title: "Welcome"
 ---
 # Lens: Welcome to Highlights from the Sequences
 id:: 3c7aae02-8336-4d4a-92a6-77e00b085eb1
-tldr:: What this course is, where its essays come from, who it is for and how each page works.
+tldr:: Where these essays come from, who it is for and how each page works.
 summary_for_tutor:: Welcome page of Highlights from the Sequences. It explains that the course reproduces LessWrong's own selection of 50 essays from the Sequences, in LessWrong's order and six parts, that most essays are Eliezer Yudkowsky's blog posts from 2006 to 2009 with a few by other authors, who the course is for, and that every essay page ends with one question that applies its main idea and gets a reply from the AI tutor. If the learner asks what to expect, describe the six parts. Do not summarise the essays here.
 duration_minutes:: 3
 #### Text
