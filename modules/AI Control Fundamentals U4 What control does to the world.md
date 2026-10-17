@@ -31,9 +31,5 @@ source:: [[../Lenses/AICF - Warning shots revisited]]
 source:: [[../Lenses/AICF - Looking back at Parts 1 and 2]]
 
 # Lens:
-source:: [[../Lenses/AICF - Does control make AIs adversarial]]
-optional:: true
-
-# Lens:
 source:: [[../Lenses/AICF - Could control wrong the AIs themselves]]
 optional:: true
