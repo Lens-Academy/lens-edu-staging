@@ -15,6 +15,7 @@ source:: [[../articles/so8res-on-caring]]
 id:: 2949c649-0505-4ab2-bcca-70e4b261990d
 content::
 Kai reads that a flood has left 50,000 families without clean water. He notices that it upsets him about as much as last week's news that one family in his street lost their home in a fire. He concludes: "I don't seem to care about the flood much more than about that one family, so I'll give the same small amount to each."
+
 Answer in your own words.
 
 1. What is wrong with using his feeling as the measure of how much he cares?
