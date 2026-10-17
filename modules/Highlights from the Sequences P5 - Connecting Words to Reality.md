@@ -12,19 +12,25 @@ summary_for_tutor:: Intro to part 5 of 6 of Highlights from the Sequences, "Conn
 duration_minutes:: 1
 #### Text
 content::
-This is part 5 of 6 of *Highlights from the Sequences*, LessWrong's selection of essays on avoiding common reasoning errors and forming more accurate beliefs. This part is about how we form concepts and how we use words to talk about them, which you need to know to make sense of confusing topics.
+This is part 5 of 6: *Connecting Words to Reality*. To understand confusing topics, you need to understand how we build concepts and attach words to them.
 
-The essays in this part:
+::card[[../Lenses/HftS - Taboo Your Words]]
 
-- *Taboo Your Words* by Eliezer Yudkowsky
-- *Dissolving the Question* by Eliezer Yudkowsky
-- *Diseased thinking: dissolving questions about disease* by Scott Alexander
-- *Hug the Query* by Eliezer Yudkowsky
-- *Say Not "Complexity"* by Eliezer Yudkowsky
-- *Mind Projection Fallacy* by Eliezer Yudkowsky
-- *How An Algorithm Feels From Inside* by Eliezer Yudkowsky
-- *Expecting Short Inferential Distances* by Eliezer Yudkowsky
-- *Illusion of Transparency: Why No One Understands You* by Eliezer Yudkowsky
+::card[[../Lenses/HftS - Dissolving the Question]]
+
+::card[[../Lenses/HftS - Diseased thinking dissolving questions about disease]]
+
+::card[[../Lenses/HftS - Hug the Query]]
+
+::card[[../Lenses/HftS - Say Not Complexity]]
+
+::card[[../Lenses/HftS - Mind Projection Fallacy]]
+
+::card[[../Lenses/HftS - How An Algorithm Feels From Inside]]
+
+::card[[../Lenses/HftS - Expecting Short Inferential Distances]]
+
+::card[[../Lenses/HftS - Illusion of Transparency Why No One Understands You]]
 
 # Lens: Taboo Your Words
 source:: [[../Lenses/HftS - Taboo Your Words]]

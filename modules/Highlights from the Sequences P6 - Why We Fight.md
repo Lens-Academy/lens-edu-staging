@@ -12,17 +12,17 @@ summary_for_tutor:: Intro to the last part of Highlights from the Sequences, on 
 duration_minutes:: 1
 #### Text
 content::
-This is part 6 of 6 of *Highlights from the Sequences*, LessWrong's selection of essays on avoiding common reasoning errors and forming more accurate beliefs.
+This is part 6 of 6: *Why We Fight*. Getting better at thinking on purpose is hard, so the drive to keep going has to come from somewhere.
 
-Becoming more rational takes a lot of effort, so you need a reason to keep at it. This last part is about where that motivation can come from.
+::card[[../Lenses/HftS - Something to Protect]]
 
-The essays in this part:
+::card[[../Lenses/HftS - The Gift We Give To Tomorrow]]
 
-- *Something to Protect* by Eliezer Yudkowsky
-- *The Gift We Give To Tomorrow* by Eliezer Yudkowsky
-- *On Caring* by Nate Soares
-- *Tsuyoku Naritai! (I Want To Become Stronger)* by Eliezer Yudkowsky
-- *A Sense That More Is Possible* by Eliezer Yudkowsky
+::card[[../Lenses/HftS - On Caring]]
+
+::card[[../Lenses/HftS - Tsuyoku Naritai! (I Want To Become Stronger)]]
+
+::card[[../Lenses/HftS - A Sense That More Is Possible]]
 
 # Lens: Something to Protect
 source:: [[../Lenses/HftS - Something to Protect]]
