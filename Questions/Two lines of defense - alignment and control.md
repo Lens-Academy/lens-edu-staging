@@ -1,0 +1,4 @@
+#### Question: Open
+id:: 82bc48d1-8dd9-4c85-b867-982318eb2e44
+content:: What distinguishes the control line of defense from the alignment line of defense against scheming AIs?
+assessment-instructions:: Score out of 100. 50: alignment tries to make sure the models are not scheming in the first place. 50: control tries to make sure that even if the models are scheming, they are not able to subvert the safety measures and cause a catastrophe. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Alignment aims to ensure that models are not scheming in the first place. Control aims to ensure that even if models are scheming, they are not capable of subverting the safety measures. With both lines in place, a scheming model can only cause a catastrophe if alignment and control both fail."
