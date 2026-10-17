@@ -16,7 +16,7 @@ id:: 55e6c332-94dc-432d-9254-374ef8f759d7
 content::
 A friend says: "Rationalizing is only a problem when the conclusion is false. If I start from a true conclusion and then find arguments for it, I end up with a true belief and some good arguments, so no harm done."
 
-Using the essay, explain what is wrong with this reasoning, and say what your friend should do instead when they feel sure they already know the answer.
+Using the essay, in your own words, explain what is wrong with this reasoning, and say what your friend should do instead when they feel sure they already know the answer.
 force-feedback:: first
 assessment-instructions::
 Score out of 100.

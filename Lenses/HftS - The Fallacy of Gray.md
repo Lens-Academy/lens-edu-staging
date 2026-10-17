@@ -16,7 +16,7 @@ id:: 48b1c6d8-6c91-4947-8350-905a9997efe3
 content::
 A friend says: "No news source is completely unbiased. So it makes no difference which ones you read. They are all the same."
 
-Using the essay, explain what is wrong with this argument.
+Using the essay, in your own words, explain what is wrong with this argument.
 force-feedback:: first
 assessment-instructions::
 Score out of 100.
