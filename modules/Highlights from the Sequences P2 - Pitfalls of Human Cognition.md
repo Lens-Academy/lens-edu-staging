@@ -2,8 +2,6 @@
 id: 'fa317925-63d0-4a54-96fe-944fdae91672'
 slug: hfts-p2-pitfalls-of-human-cognition
 title: "Part 2: Pitfalls of Human Cognition"
-tags:
-  - wip
 ---
 # Lens: Part 2 of 6: Pitfalls of Human Cognition
 id:: aa1f3fdd-77e0-475b-acd7-9d07dd580ccc

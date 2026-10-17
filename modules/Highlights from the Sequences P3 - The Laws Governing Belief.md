@@ -2,8 +2,6 @@
 id: 'a9036a9d-0092-4856-b724-3344f5a2d134'
 slug: hfts-p3-the-laws-governing-belief
 title: "Part 3: The Laws Governing Belief"
-tags:
-  - wip
 ---
 # Lens: Part 3 of 6: The Laws Governing Belief
 id:: 25622a08-f80c-4415-a674-c0fb6e411628

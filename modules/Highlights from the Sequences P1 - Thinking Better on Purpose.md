@@ -2,8 +2,6 @@
 id: 'de57ff19-e18f-44cc-a1da-b8de78a4c7af'
 slug: hfts-p1-thinking-better-on-purpose
 title: "Part 1: Thinking Better on Purpose"
-tags:
-  - wip
 ---
 # Lens: Part 1 of 6: Thinking Better on Purpose
 id:: 6026610a-0c78-4838-8738-61ac59ba0c0f
