@@ -55,6 +55,7 @@ content:: What is one thing you expect AI to change in your field within five ye
 placeholder:: Name the change and why you expect it.
 force-feedback:: first
 feedback-instructions:: Name the most concrete part of the learner's prediction, then ask what evidence would change their mind. Keep it to three sentences.
+
 %% `force-feedback:: below 80`: feedback comes automatically when your answer scores under 80%. At 80% or more you get a "Get feedback" button instead. Any number from 1 to 100 works. Use it on graded questions only: an ungraded question has no score, so the feedback comes on every answer. %%
 
 #### Question: Open
