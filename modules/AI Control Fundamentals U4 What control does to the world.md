@@ -28,7 +28,7 @@ source:: [[../Lenses/AICF - Would a profit-only lab build it]]
 source:: [[../Lenses/AICF - Warning shots revisited]]
 
 # Lens:
-source:: [[../Lenses/AICF - Safety-washing and false confidence]]
+source:: [[../Lenses/AICF - Looking back at Parts 1 and 2]]
 
 # Lens:
 source:: [[../Lenses/AICF - Does control make AIs adversarial]]
