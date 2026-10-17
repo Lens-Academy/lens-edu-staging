@@ -4,6 +4,7 @@ slug: ai-control-fundamentals-u4-effects
 title: "Even done well, control makes things worse"
 ---
 %% Part 2 of Unit 4 of AI Control Fundamentals (split into modules by topic, Elias 2026-10-08; one lens or group of lenses per criticism since 2026-10-16). Part 3: 'Practical problems'. %%
+
 # Lens: About Part 2
 id:: 3d11e7a4-abab-4e17-98ef-f83d923c69ec
 reading_minutes:: 1

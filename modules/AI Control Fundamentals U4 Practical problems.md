@@ -4,6 +4,7 @@ slug: ai-control-fundamentals-u4-practical
 title: "Practical problems"
 ---
 %% Part 3 of Unit 4 of AI Control Fundamentals (Elias, 2026-10-16): practical problems that more work might fix, then the unit's tests. The lenses here came from part 1, with their ids unchanged, so learners keep their progress. %%
+
 # Lens: About Part 3
 id:: 4bdabdd1-08e9-4581-95d3-debbace09fc3
 reading_minutes:: 1
