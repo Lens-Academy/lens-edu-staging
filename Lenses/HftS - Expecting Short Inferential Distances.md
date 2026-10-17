@@ -5,8 +5,6 @@ tldr: An explanation that feels complete to you may skip many steps your listene
 summary_for_tutor: Yudkowsky argues that our ancestors lived in small bands without writing, where everyone shared the same background knowledge, so explanations were rarely more than one inferential step from what everyone knew. Our instincts still expect this. A claim with no obvious support looks like a lie or stupidity, and someone who does not see an obvious point looks stupid or obstinate. Today, expert knowledge can be many steps from shared premises, so explainers take one step back when they need several, and listeners expect things to be visible in one step. His example is a biologist who says evolution is "the simplest explanation" to someone who does not share the history behind Occam's Razor. The listener thinks the biologist is arrogant, and the biologist thinks the listener is an idiot. A clear argument lays out a path from what the audience already knows. The question gives a doctor and a patient who misjudge each other over antibiotics and asks what went wrong on each side and how the doctor should explain instead.
 reading_minutes: 5
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-expecting-short-inferential-distances]]

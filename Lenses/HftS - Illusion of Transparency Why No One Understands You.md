@@ -5,8 +5,6 @@ tldr: You know what you meant, so your words seem clear to you. The listener has
 summary_for_tutor: Yudkowsky describes the illusion of transparency. Because we know what we mean, our intended reading falls into place when we read our own words, and we expect others to read them the same way. Evidence from Keysar's studies. Subjects who knew Mark's dinner was bad thought June would hear sarcasm in "marvelous, just marvelous", even when told Mark wanted to hide his opinion. Groups taught opposite meanings of the idiom "the goose hangs high" each thought an uninformed listener would take their meaning. Speakers thought they were understood in 72% of cases but were understood in 61%, and when listeners had not understood, speakers thought they had in 46% of cases. People who only overheard showed no such bias. Chamberlain's letter meant as a warning was read by Hitler as conciliatory. The lesson is not to be quick to blame people who misread your clear sentences. The question gives a manager whose request was misread and asks why the message seemed clear to her and why that sense of clarity tells her little.
 reading_minutes: 4
 tutor_minutes: 5
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-illusion-of-transparency-why-no-one-understands-you]]

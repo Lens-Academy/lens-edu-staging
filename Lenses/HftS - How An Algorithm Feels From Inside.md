@@ -5,8 +5,6 @@ tldr: Even when you know every fact about an object, asking whether it is "reall
 summary_for_tutor: Yudkowsky asks why people argue over whether a tree falling in an empty forest makes a sound. Using bleggs and rubes, he shows that "Is it a blegg?" stands in for a disguised query (which bin does it go in, will it glow in the dark), and once every feature of an object is observed there is nothing left for the question to stand for. He contrasts two neural networks. In Network 1 every unit is an observable feature. Network 2, more like a human brain, has a central category unit that can still vary after every surrounding feature is known. From the inside, that unsettled central unit feels like a leftover question about the world ("but is it really a blegg?", "is Pluto a planet?"). We do not see our intuitions as intuitions, we see them as the world. The question asks the learner to apply this to two friends who agree on every feature of a hot dog but argue over whether it is really a sandwich.
 reading_minutes: 7
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-how-an-algorithm-feels-from-inside]]
