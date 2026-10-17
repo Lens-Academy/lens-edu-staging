@@ -5,8 +5,6 @@ tldr: Love and beauty came from evolution, a process that cares about neither. T
 summary_for_tutor: A dialogue in which Yudkowsky asks how an uncaring, bloody process like natural selection produced minds capable of love, friendship and mercy, and a second voice answers each time. Evolution explains these values (kin love, reciprocal altruism, moral argument), and there is no coincidence in evolution producing the values we find important, because we judge importance by the values evolution gave us. There are no universally compelling arguments, and positing a guide "beyond" evolution only passes the recursive buck, since the guide's preferences would also need explaining. A complex pattern must come from a cause that is not already that pattern, so love first entered the world from something that did not love. Explaining the beauty of a flower is not explaining it away, and the result can still be called a moral miracle. The question gives the student a friend who says the match between evolution's output and the right values is too big a coincidence, so something beyond evolution must have steered it, and asks why it is no coincidence and why the outside guide explains nothing.
 reading_minutes: 12
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-the-gift-we-give-to-tomorrow]]

@@ -5,8 +5,6 @@ tldr: You get better at reasoning when something you care about more than being 
 summary_for_tutor: Yudkowsky argues that people grow as rationalists only when something matters to them more than rationality itself, more than their comfort or their pride in being rational. His examples are Japanese fiction where power comes from someone to protect, science winning over authority because it worked better, and a dilemma between saving 400 lives for certain and a 90% chance of saving 500. If your daughter is among the 500, you notice the gamble gives her 90% against 80%, and that "rationality means choosing certainty" was the wrong idea of rationality. The question gives that dilemma to Priya, who believes rationality means certainty, and asks for her daughter's chances, what she should conclude about her idea of rationality, and why caring about her daughter more than about being rational helps.
 reading_minutes: 10
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-something-to-protect]]
