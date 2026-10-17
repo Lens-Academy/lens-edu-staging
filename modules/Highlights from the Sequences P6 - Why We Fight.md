@@ -2,8 +2,6 @@
 id: '670855b5-fb8a-4ffe-997a-f62bcf4a87ed'
 slug: hfts-p6-why-we-fight
 title: "Part 6: Why We Fight"
-tags:
-  - wip
 ---
 # Lens: Part 6 of 6: Why We Fight
 id:: a1ace883-a250-4191-a529-a8b8167367fb

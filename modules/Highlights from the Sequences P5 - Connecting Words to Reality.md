@@ -2,8 +2,6 @@
 id: 'd7411e21-bfd0-4084-b33c-64f77e66047f'
 slug: hfts-p5-connecting-words-to-reality
 title: "Part 5: Connecting Words to Reality"
-tags:
-  - wip
 ---
 # Lens: Part 5 of 6: Connecting Words to Reality
 id:: 2c66e927-703b-43fc-a9e7-5ea13c50228b

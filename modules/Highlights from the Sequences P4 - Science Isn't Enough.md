@@ -2,8 +2,6 @@
 id: '82811ef8-822b-43f8-b1c8-fc73733b38dd'
 slug: hfts-p4-science-isnt-enough
 title: "Part 4: Science Isn't Enough"
-tags:
-  - wip
 ---
 # Lens: Part 4 of 6: Science Isn't Enough
 id:: a653e0e2-3f0d-4f66-8343-46cd05c12049
