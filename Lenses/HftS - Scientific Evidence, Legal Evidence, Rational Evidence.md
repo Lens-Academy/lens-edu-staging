@@ -16,7 +16,7 @@ id:: ca19e575-06d8-4f19-8ad0-425dd3896a0f
 content::
 Four friends shared a meal at a restaurant. All four were sick that night, and none of them ate anything else that day. One of them says: "There's no scientific evidence that the restaurant made us sick, so we have no reason to think it did."
 
-1. What is wrong with his reasoning, according to the essay?
+1. What is wrong with his reasoning, and why is their experience still a reason to suspect the restaurant?
 
 2. Why doesn't their experience count as scientific evidence, according to the essay?
 force-feedback:: first
