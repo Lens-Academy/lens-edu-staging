@@ -144,6 +144,7 @@ Run this check whenever you add or change a question in a lens, before you call 
    3. **Opinions.** Where the question asks for the learner's own view (what an author gets right, whether an argument is convincing, what they would do), the rubric grades only how well the view is argued: any view with strong arguments can get full marks. A rubric that prefers one view fails.
    4. **Only what the learner has seen.** No element depends on material later in the lens, or outside the course so far.
    5. **Feedback matches.** The `feedback-instructions::` treat as a gap only what the question asks.
+   6. **No copy-paste full marks.** Where a question asks what an author says (a reply, an argument, a claim), check whether pasting the author's own sentences would earn full marks. If it would, the question says "In your own words", and the rubric may then cap an answer that only copies.
    Return per question: id, score, PASS or FAIL, and for each failure the check number, the quote, and the smallest fix, saying whether it changes the question or the rubric."
 3. **Fix the right side.** When the rubric scores something worth knowing that the question does not ask, change the question so it asks for it. Drop the element only when it was not worth asking. Never make a rubric easier just to pass this check.
 4. Repeat with fresh agents until every question passes. Report how many rounds each lens took and what changed.
