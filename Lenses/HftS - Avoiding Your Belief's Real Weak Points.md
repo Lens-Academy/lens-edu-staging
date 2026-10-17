@@ -15,6 +15,7 @@ source:: [[../articles/yudkowsky-avoiding-your-beliefs-real-weak-points]]
 id:: 3774e721-74bc-45b9-9ee7-3de873f08a7e
 content::
 Maya believes her side project will become a successful business. Now and then she asks herself, "Is this realistic?" and answers, "Lots of great companies started as side projects," which makes her feel better. She does not think much about the fact that after two years the project has three paying users.
+
 Using the essay, in your own words:
 
 1. What is wrong with the way Maya doubts her belief?
