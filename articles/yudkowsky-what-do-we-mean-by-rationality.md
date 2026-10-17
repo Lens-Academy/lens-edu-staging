@@ -95,6 +95,6 @@ Yet one should be careful not to _overuse_ that word. One receives no points m
 
 [^note-verbal-reasoning]: The idea that rationality is about strictly privileging verbal reasoning over feelings is a case in point. Bayesian rationality applies to urges, hunches, perceptions, and wordless intuitions, not just to assertions.
 
-I gave the example of opening your eyes, looking around you, and building a mental model of a room containing a bookcase against the wall. The modern idea of rationality is general enough to include your eyes and your brain’s visual areas as things-that-map, and to include instincts and emotions in the belief-and-goal calculus.
+    I gave the example of opening your eyes, looking around you, and building a mental model of a room containing a bookcase against the wall. The modern idea of rationality is general enough to include your eyes and your brain’s visual areas as things-that-map, and to include instincts and emotions in the belief-and-goal calculus.
 
 [^cite-holt-newcomb]: For an informal statement of Newcomb’s Problem, see Jim Holt, “Thinking Inside the Boxes,” _Slate_, 2002, [http://www.slate.com/articles/arts/egghead/2002/02/thinkinginside\_the\_boxes.single.html](http://www.slate.com/articles/arts/egghead/2002/02/thinkinginside_the_boxes.single.html).
