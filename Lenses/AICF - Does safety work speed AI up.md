@@ -12,7 +12,7 @@ content::
 
 Richard Ngo, who used to work at DeepMind and OpenAI, argues that much alignment research helped AI companies race toward AGI "under the banner of safety", thereby causing the opposite of what they intended.
 
-His writing is a general criticism about the alignment field, but control might possibly be exactly one of the agendas he is warning about.
+His writing is a general criticism about the alignment field, but control might be exactly one of the agendas he is warning about.
 
 #### Article
 source:: [[../articles/ngo-what-just-happened-a-retrospective-of-ai-alignment]]
