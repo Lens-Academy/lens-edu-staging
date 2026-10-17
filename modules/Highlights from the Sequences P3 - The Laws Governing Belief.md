@@ -12,23 +12,23 @@ summary_for_tutor:: Opening page of Part 3 of Highlights from the Sequences. The
 duration_minutes:: 1
 #### Text
 content::
-This is part 3 of 6 of *Highlights from the Sequences*, LessWrong's selection of essays on how to think clearly and reason well.
+This is part 3 of 6: *The Laws Governing Belief*. Beliefs are subjective, but you can't pick them as you like. Given the evidence, there are laws that say what you should believe.
 
-Your beliefs live in your own head, but that does not mean you can pick them as you like. The essays in this part argue that, once you have the evidence, there are laws that say what you ought to believe.
+::card[[../Lenses/HftS - Making Beliefs Pay Rent (in Anticipated Experiences)]]
 
-All eleven essays are by Eliezer Yudkowsky:
+::card[[../Lenses/HftS - What is Evidence]]
 
-1. Making Beliefs Pay Rent (in Anticipated Experiences)
-2. What is Evidence?
-3. Scientific Evidence, Legal Evidence, Rational Evidence
-4. How Much Evidence Does It Take?
-5. Absence of Evidence Is Evidence of Absence
-6. Conservation of Expected Evidence
-7. Argument Screens Off Authority
-8. An Intuitive Explanation of Bayes's Theorem
-9. The Second Law of Thermodynamics, and Engines of Cognition
-10. Toolbox-thinking and Law-thinking
-11. Local Validity as a Key to Sanity and Civilization
+::card[[../Lenses/HftS - Scientific Evidence, Legal Evidence, Rational Evidence]]
+
+::card[[../Lenses/HftS - How Much Evidence Does It Take]]
+::card[[../Lenses/HftS - Absence of Evidence Is Evidence of Absence]]
+::card[[../Lenses/HftS - Conservation of Expected Evidence]]
+::card[[../Lenses/HftS - Argument Screens Off Authority]]
+::card[[../Lenses/HftS - An Intuitive Explanation of Bayes's Theorem]]
+::card[[../Lenses/HftS - The Second Law of Thermodynamics, and Engines of Cognition]]
+
+::card[[../Lenses/HftS - Toolbox-thinking and Law-thinking]]
+::card[[../Lenses/HftS - Local Validity as a Key to Sanity and Civilization]]
 
 # Lens: Making Beliefs Pay Rent (in Anticipated Experiences)
 source:: [[../Lenses/HftS - Making Beliefs Pay Rent (in Anticipated Experiences)]]

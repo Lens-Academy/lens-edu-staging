@@ -12,16 +12,15 @@ summary_for_tutor:: Intro to part 4 of LessWrong's Highlights from the Sequences
 duration_minutes:: 1
 #### Text
 content::
-This is part 4 of 6 of *Highlights from the Sequences*, LessWrong's selection of essays on rationality.
+This is part 4 of 6: *Science Isn't Enough*. Science beats what came before it, but it is still crude and slow, and its rules won't stop you from spending years on research that was never going to work.
 
-Science works better than the ways of finding truth that came before it. But it is slow, and its rules will let you spend years testing a theory that never had a chance. The essays in this part ask what you need beyond those rules.
+::card[[../Lenses/HftS - When Science Can't Help]]
 
-The essays, all by Eliezer Yudkowsky:
+::card[[../Lenses/HftS - Faster Than Science]]
 
-1. When Science Can't Help
-2. Faster Than Science
-3. Science Doesn't Trust Your Rationality
-4. No Safe Defense, Not Even Science
+::card[[../Lenses/HftS - Science Doesn't Trust Your Rationality]]
+
+::card[[../Lenses/HftS - No Safe Defense, Not Even Science]]
 
 # Lens: When Science Can't Help
 source:: [[../Lenses/HftS - When Science Can't Help]]

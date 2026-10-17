@@ -12,19 +12,25 @@ summary_for_tutor:: Opening page of part 1 of Highlights from the Sequences. The
 duration_minutes:: 1
 #### Text
 content::
-This is part 1 of 6 of *Highlights from the Sequences*, LessWrong's selection of essays on how to think more clearly and act more effectively.
+This is part 1 of 6: *Thinking Better on Purpose*. Humans can think about their own thinking, which lets us spot the flaws in our default reasoning and fix them.
 
-Humans can think about their own thinking. That lets us notice where our default ways of reasoning go wrong, and work on purpose to do better. The essays in this part are:
+::card[[../Lenses/HftS - The Lens That Sees Its Flaws]]
 
-1. *The Lens That Sees Its Flaws* by Eliezer Yudkowsky
-2. *What Do We Mean By "Rationality"?* by Eliezer Yudkowsky
-3. *Humans are not automatically strategic* by Anna Salamon
-4. *Use the Try Harder, Luke* by Eliezer Yudkowsky
-5. *Your Strength as a Rationalist* by Eliezer Yudkowsky
-6. *The Meditation on Curiosity* by Eliezer Yudkowsky
-7. *The Importance of Saying "Oops"* by Eliezer Yudkowsky
-8. *The Martial Art of Rationality* by Eliezer Yudkowsky
-9. *Twelve Virtues of Rationality* by Eliezer Yudkowsky
+::card[[../Lenses/HftS - What Do We Mean By Rationality]]
+
+::card[[../Lenses/HftS - Humans are not automatically strategic]]
+
+::card[[../Lenses/HftS - Use the Try Harder, Luke]]
+
+::card[[../Lenses/HftS - Your Strength as a Rationalist]]
+
+::card[[../Lenses/HftS - The Meditation on Curiosity]]
+
+::card[[../Lenses/HftS - The Importance of Saying Oops]]
+
+::card[[../Lenses/HftS - The Martial Art of Rationality]]
+
+::card[[../Lenses/HftS - Twelve Virtues of Rationality]]
 
 # Lens: The Lens That Sees Its Flaws
 source:: [[../Lenses/HftS - The Lens That Sees Its Flaws]]
