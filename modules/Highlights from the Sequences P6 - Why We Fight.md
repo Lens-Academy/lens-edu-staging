@@ -10,7 +10,9 @@ summary_for_tutor:: Intro to the last part of Highlights from the Sequences, on 
 duration_minutes:: 1
 #### Text
 content::
-This is part 6 of 6: *Why We Fight*. Getting better at thinking on purpose is hard, so the drive to keep going has to come from somewhere.
+*Part 6 of 6 from the [Sequence Highlights](https://www.lesswrong.com/highlights).*
+
+The pursuit of rationality and that of doing better on purpose, can in fact be rather *hard.* You have to get the motivation for that from somewhere.
 
 ::card[[../Lenses/HftS - Something to Protect]]
 
