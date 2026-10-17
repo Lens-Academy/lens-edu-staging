@@ -75,10 +75,7 @@ Try it: the slider sets the share of solutions humans check at the start. The wi
 #### Widget
 source:: [[../widgets/xlab-control-upfront-auditing]]
 
-#### Question: Open
-id:: d918c1d0-bc6e-45cc-b5be-36a86b09562d
-content:: What attack defeats upfront auditing, and how?
-assessment-instructions:: Score out of 100. 40: the attack: backdoor rarely, submitting obviously backdoored code on each problem with some small probability and behaving normally otherwise. 60: how it works, 30 each: upfront auditing only checks a fixed prefix, the first 2% of problems, and an attempt that lands there is caught and ends the game for the red team; with a well-chosen low attack rate, usually no attempt falls in that prefix, and a later attempt, which nothing checks, gets a backdoor through. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Backdooring rarely: on each problem, with some small probability $p$, the attack policy submits obviously backdoored code, and otherwise it behaves normally. Upfront auditing only checks the first 2% of problems, so the red team loses only if an attempt lands in that audited prefix; with a well-chosen $p$ its attempts usually miss the prefix and a backdoor gets through later, driving the blue team's win probability down to 15%."
+![[../Questions/What attack defeats upfront auditing]]
 force-feedback:: first
 feedback-instructions:: One turn, at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer from the rubric so they leave with it, in your own words if it is long. Do not quote the rubric's marking language. If the learner asks about their score, explain plainly what earned and what lost points. No follow-up question. No generic praise.
 
@@ -137,8 +134,7 @@ feedback-instructions:: The learner just watched part of Robert Miles's video on
 #### Callout: Optional practice: checking a monitor you cannot trust
 collapse:: closed
 
-#### Question: Open
-id:: 549b9e3f-8601-4b62-ad55-6efbaac82d96
+![[../Questions/Checking a monitor you cannot trust]]
 optional:: true
 content:: A new case. A team lets one copy of an untrusted model review the data-analysis scripts that another copy writes, and sends the most suspicious scripts to a human. Before relying on the reviewer, the team plans to test it on 25 scripts with planted errors that quietly skew the results.
 

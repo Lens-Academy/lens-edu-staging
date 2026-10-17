@@ -85,10 +85,7 @@ from:: ## Currently, evaluating alignment seems much harder
 to:: But right now, those techniques don't exist.[^note-greenblatt-buck-16]
 
 #### Callout: Quick recall
-#### Question: Open
-id:: 7264e7a9-7257-450e-b10e-63a3fca46872
-content:: Why is control more tractable to evaluate than alignment?
-assessment-instructions:: Score out of 100. 50: control reduces to a capability question, whether the model is able to subvert the safety measures, and capabilities can be measured, with a red team searching for attacks and testing whether the model can carry them out. 50: alignment is much harder to evaluate: whatever behaviour you observe, the model might be acting that way to make you think it is aligned, so behaviour cannot settle it. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Evaluating control only requires evaluating capabilities: whether the model is able to subvert the safety measures. Evaluating alignment is much harder because whatever behavior a model displays, it might be behaving that way to make you think it is aligned."
+![[../Questions/Why control is easier to evaluate than alignment]]
 force-feedback:: first
 feedback-instructions:: In at most four sentences: confirm what the learner got right and, if anything is missing or wrong, the most important thing, then state the model answer. Control reduces to a capability question, whether the model is able to subvert the safety measures, and capabilities are something we know how to measure. Alignment evaluation is blocked because any behavior you observe might be produced precisely to make you think the model is aligned. No follow-up questions. Tell them to move on.
 #### End Callout
@@ -145,15 +142,7 @@ feedback-instructions:: In at most four sentences: say what the learner got righ
 
 
 #### Callout: Practice: which model do you trust, and what does the evidence show?
-#### Question: Open
-id:: 9e060d94-5686-430b-8af7-d50c7a8e02a7
-content::
-A lab has two models. **Model X** is two generations old and clearly fails the lab's tests of the abilities a model would need to scheme effectively. **Model Y** is newer and passes those tests. Y has been deployed for six months without incident. Asked about its goals thousands of times in different phrasings, it consistently says it only wants to help the lab, and its answers never contradict each other.
-
-1. Which model, if either, should the lab treat as trusted, for example as a monitor on the other? Why?
-2. The lab's memo says: "Y's clean record and consistent self-reports show Y is safe." What kind of safety claim can that evidence speak to, and why can it not settle it? What kind of evidence would instead support deploying Y safely?
-placeholder:: Your reasoning
-assessment-instructions:: Score out of 100. 35: part 1, 20: Model X can be treated as trusted and Model Y as untrusted, and 15: why: lack of capability is the only known way to confidently rule out scheming, so passing the capability tests is what makes Y untrusted, and its clean record does not change that. 65: part 2, 20: the clean record and self-reports are evidence about alignment, whether Y is trying to subvert the lab; 25: they cannot settle it, because a scheming model would give the same reassuring answers and keep the same clean record while waiting for a better opportunity; 20: what would support deploying Y instead is a control argument: showing that the safeguards around Y hold even if Y is scheming, tested by a red team that searches for attacks and checks whether Y can carry them out. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer trusts Y because of its record or self-reports. Model answer, for the feedback, not a grading checklist: "(1) Model X can be treated as trusted and Model Y as untrusted, because lack of capability is the only known way to confidently rule out scheming; passing the capability tests is what makes Y untrusted, and its clean record does not change that. (2) The clean record and self-reports speak to alignment, whether Y is trying to subvert the lab, and cannot settle it, because a scheming model would give the same reassuring answers and keep the same clean record while waiting for a better opportunity. Evidence for deploying Y safely would instead be a control argument: showing that the safeguards around Y hold even if Y is scheming, tested by a red team that searches for attacks Y could use and checks whether Y is able to carry them out."
+![[../Questions/Which model do you trust - Model X and Model Y]]
 force-feedback:: first
 feedback-instructions:: In at most five sentences: say what the learner got right, then correct the most important gap. If they trusted Y because of its record, say plainly that good behaviour is what a scheming model would also show, and that passing the capability tests is what makes a model untrusted. If they missed the control alternative, state it in one sentence. No follow-up questions. Tell them to move on.
 #### End Callout

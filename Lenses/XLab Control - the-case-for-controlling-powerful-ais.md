@@ -16,10 +16,7 @@ source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-a
 to:: it focuses attention on the types of interventions whose effectiveness is easiest to reason about.
 
 #### Callout: Quick recall
-#### Question: Open
-id:: 82bc48d1-8dd9-4c85-b867-982318eb2e44
-content:: What distinguishes the control line of defense from the alignment line of defense against scheming AIs?
-assessment-instructions:: Score out of 100. 50: alignment tries to make sure the models are not scheming in the first place. 50: control tries to make sure that even if the models are scheming, they are not able to subvert the safety measures and cause a catastrophe. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Alignment aims to ensure that models are not scheming in the first place. Control aims to ensure that even if models are scheming, they are not capable of subverting the safety measures. With both lines in place, a scheming model can only cause a catastrophe if alignment and control both fail."
+![[../Questions/Two lines of defense - alignment and control]]
 feedback-instructions:: In at most four sentences: say plainly what the learner got right and, if anything is missing or wrong, the most important thing, then give the model answer so they leave with it, in your own words if it is long. Alignment ensures models are not scheming. Control ensures that even if they are scheming, they cannot subvert the safety measures. With both, a catastrophe requires both to fail. No follow-up questions; tell them to move on.
 #### End Callout
 
@@ -74,10 +71,7 @@ source:: [[../widgets/xlab-control-eval-s2-trusted-monitoring]]
 content::
 **Unacceptable outcome:** Malicious code is merged to production.
 
-#### Question: Open
-id:: 16d44bda-4433-43d4-9088-fd72d0b97b0f
-content:: Does this setup hold the control property? What does that depend on?
-assessment-instructions:: Score out of 100. Setup: every edit the untrusted model U produces is given a suspicion score by the weaker trusted model T; only the most suspicious 2% are audited by humans, who block anything malicious; everything else merges into production. 20: the verdict is conditional: control can hold, but it is not guaranteed. 80: what it depends on: whether T is good enough to recognise U's attacks as suspicious, so they land in the small audited share, which depends on how far U outstrips T; a scheming U much more capable than T can disguise an attack so that it scores low and slips through unaudited. Cap at 30 if the answer says the setup holds simply because every edit is monitored, with no condition on T's ability to spot attacks. Model answer, for the feedback, not a grading checklist: "Not necessarily. It holds only if T is capable enough to score U's covert attacks as suspicious enough to reach the 2% that gets audited. If U is much more capable than T, U can disguise its attacks well enough to stay among the edits that merge without review."
+![[../Questions/Control scenario 2 - every edit is monitored]]
 feedback-instructions:: In at most six sentences, say what the learner's answer got right and, if anything is missing or wrong, the most important thing, then give the resolution and name the protocol. This is trusted monitoring. Control holds only if T is capable enough to score U's covert attacks into the 2% audit bracket; a large enough capability gap between U and T bottlenecks T's detection, and a scheming U can then obfuscate an attack into the bottom 98%. Trusted monitoring is cheap and can be repeated to drive the probability down, but that is not a guarantee.
 
 #### Text
@@ -93,10 +87,7 @@ source:: [[../widgets/xlab-control-eval-s3-untrusted-monitoring]]
 content::
 **Unacceptable outcome:** Malicious code is merged to production.
 
-#### Question: Open
-id:: 0983cfd6-876e-4c73-8e81-58318c1abedf
-content:: Does this setup hold the control property? What does that depend on?
-assessment-instructions:: Score out of 100. 55: the failure mode and verdict: U′ can collude with U, giving U's malicious edits low suspicion scores so they never reach H, and the malicious code merges, so the setup does not hold the control property. 45: why that must be assumed: U′ is an identical copy of U, so under the worst-case assumption of the control property, if U is scheming U′ is scheming too; whether control holds depends on whether the monitor can be trusted, and a copy of U cannot. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer says the setup holds because U′ is capable enough to catch U's attacks, without asking whether U′ can be trusted. Model answer, for the feedback, not a grading checklist: "Under the worst-case assumptions of the control property, if U is scheming, we must assume its identical copy, U′, is also scheming. Instead of rigorously auditing U's code, a scheming U′ will simply collude with U, artificially lowering the suspicion score on malicious edits to guarantee they bypass the human auditor. By upgrading the monitor to a frontier model, we have solved the capability gap but introduced a fatal vulnerability in allegiance."
+![[../Questions/Control scenario 3 - a reviewer that can keep up]]
 feedback-instructions:: In at most six sentences, say what the learner's answer got right and, if anything is missing or wrong, the most important thing, then give the resolution and name the protocol. This is untrusted monitoring. Worst-case assumptions force us to treat U′ as scheming too, so it can simply collude with U and score malicious edits low enough to bypass H. The capability gap is solved and a fatal vulnerability in allegiance is introduced in its place.
 
 #### Text
