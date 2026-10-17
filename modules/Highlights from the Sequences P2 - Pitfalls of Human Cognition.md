@@ -12,22 +12,23 @@ summary_for_tutor:: Intro page for part 2 of Highlights from the Sequences, on t
 duration_minutes:: 1
 #### Text
 content::
-This is part 2 of 6 of *Highlights from the Sequences*, LessWrong's selection of 50 essays from the Sequences.
+This is part 2 of 6: *Pitfalls of Human Cognition*. The Sequences keep coming back to the ways human reasoning goes astray. This part is a sample of them, with a push to do better.
 
-The Sequences keep coming back to the ways human reasoning goes wrong. This part gathers a sample of them, along with the push to do better. All twelve essays are by Eliezer Yudkowsky. *You Can Face Reality* is a short poem by Eugene Gendlin that he posted.
+::card[[../Lenses/HftS - The Bottom Line]]
 
-- *The Bottom Line*
-- *Rationalization*
-- *You Can Face Reality*
-- *Is That Your True Rejection?*
-- *Avoiding Your Belief's Real Weak Points*
-- *Belief as Attire*
-- *Cached Thoughts*
-- *The Fallacy of Gray*
-- *Lonely Dissent*
-- *Positive Bias: Look Into the Dark*
-- *Knowing About Biases Can Hurt People*
-- *Politics is the Mind-Killer*
+::card[[../Lenses/HftS - Rationalization]]
+::card[[../Lenses/HftS - You Can Face Reality]]
+
+::card[[../Lenses/HftS - Is That Your True Rejection]]
+::card[[../Lenses/HftS - Avoiding Your Belief's Real Weak Points]]
+::card[[../Lenses/HftS - Belief as Attire]]
+
+::card[[../Lenses/HftS - Cached Thoughts]]
+::card[[../Lenses/HftS - The Fallacy of Gray]]
+::card[[../Lenses/HftS - Lonely Dissent]]
+::card[[../Lenses/HftS - Positive Bias - Look Into the Dark]]
+::card[[../Lenses/HftS - Knowing About Biases Can Hurt People]]
+::card[[../Lenses/HftS - Politics is the Mind-Killer]]
 
 # Lens: The Bottom Line
 source:: [[../Lenses/HftS - The Bottom Line]]
