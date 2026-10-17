@@ -1,7 +1,7 @@
 ---
 id: 'b1939eb0-8a9e-44c3-87d9-8fa09408660d'
 title: "Could control wrong the AIs themselves?"
-reading_minutes: 12
+reading_minutes: 40
 tutor_minutes: 10
 tldr: "If some future AIs matter morally, confining them, watching everything they do and shutting them down could harm or wrong them, even when control works. Robert Long, Jeff Sebo and Toni Sims argue there is a real tension between AI safety and AI welfare, and Buck Shlegeris answers."
 summary_for_tutor: "Optional lens in Unit 4 of AI Control Fundamentals, Module 'Even done well, control makes things worse', on the criticism that control could wrong the AIs themselves if they matter morally: a possible moral cost of control succeeding, not a reason it fails. The learner reads excerpts of Robert Long, Jeff Sebo and Toni Sims, 'Is there a tension between AI safety and AI welfare?' (Philosophical Studies, 2025): some safety measures would raise questions about constraint, deception, surveillance and more if used on humans or animals, and the authors find a moderately strong tension. On confinement and on surveillance, a lot depends on how the measure is used (by default and untargeted is harder to justify than targeted on credible evidence of danger), on what the AI systems are like, and on whether the measure is necessary, and knowingly creating AI systems we then need to constrain or surveil might still be unacceptable. Harm to AI systems may be permitted in some cases (self-defence, necessary side effect, sufficiently important ends), but not all, and we can be culpable if our own actions foreseeably created the conflict. Then Buck Shlegeris's reply, from Rob Wiblin's 80,000 Hours interview (2025), 'Is controlling AIs kind of a dick move?'. Buck says controlling a model that only wants to take over does not make things worse for it except by preventing takeover, that he would feel more comfortable if companies made deals with and paid AIs, that he thinks it is relatively unlikely companies will behave responsibly about AI welfare, and that the ethical situation is 'probably less than 100 times worse than factory farming'. Two scored questions: how the authors would judge a company that monitors only the models that failed a scheming evaluation while it keeps training models it expects to need monitoring, and which models Buck's answer covers and leaves out. Do not tell the learner who is right."
@@ -12,26 +12,14 @@ content::
 
 If some future AI systems matter morally, the measures that make control work, such as confining them, watching everything they do and shutting them down, could harm or wrong them. This is not a reason control would fail. It is a possible moral cost of control succeeding.
 
-Robert Long, Jeff Sebo and Toni Sims argue that there is a real tension between AI safety and AI welfare.[^cite-long-sebo-sims-2025] Read their statement of the tension, what they say about confinement and about monitoring, and their conclusion on when harming AI systems might be permitted.
+Robert Long, Jeff Sebo and Toni Sims argue that there is a real tension between AI safety and AI welfare.[^cite-long-sebo-sims-2025] Read their whole paper. Its sections go through safety measures one at a time (constraint, deception, surveillance, alteration, suffering and death, disenfranchisement), and most of them are measures control uses.
 
 [^cite-long-sebo-sims-2025]: Robert Long, Jeff Sebo and Toni Sims (2025), *Is there a tension between AI safety and AI welfare?* Philosophical Studies. [Springer](https://doi.org/10.1007/s11098-025-02302-2)
 
 #### Article
 source:: [[../articles/long-is-there-a-tension-between-ai-safety-and-ai-welfare]]
-from:: The field of AI safety considers whether and how AI development can be safe and beneficial for humans and other animals
-to:: prepare frameworks for navigating any remaining tensions thoughtfully.
-
-#### Article
-from:: ### 2.1 Constraint
-to:: knowingly and willingly creating AI systems whom we then need to constrain in such ways might still be unacceptable.
-
-#### Article
-from:: ### 2.3 Surveillance
-to:: creating AI systems whom we then need to surveil for these reasons might still be unacceptable.
-
-#### Article
-from:: Of course, many moral theories do permit causing harm in some cases.
-to:: if our own actions foreseeably created the conflict in the first place.
+from:: ## Abstract
+to:: while we still have time to prepare.
 
 #### Question: Open
 id:: 62c79e3b-b151-42dd-b679-3d539336c54a
