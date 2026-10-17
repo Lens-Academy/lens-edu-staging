@@ -1,0 +1,29 @@
+---
+id: '876dea68-d788-4d3f-8075-5245dac08e78'
+title: "Humans are not automatically strategic"
+tldr: Most ways of chasing a goal work poorly, and nothing in us automatically picks the ones that work. Instead of asking what would get results, we tend to do things that feel related to the goal.
+summary_for_tutor: Anna Salamon answers the question of why smart people pursue goals in ineffective ways, like an aspiring comedian who watches Garfield reruns. Her answer, by analogy with an eight-year-old failing a calculus test, is that most courses of action are ineffective and no strong evolutionary or cultural force steers us to the few that work. We tell stories about our goals and do things that feel associated with them, but we do not automatically use heuristics such as (a) asking what we are trying to achieve, (b) asking how we would know we had and tracking progress, (c) being curious about useful information, (d) gathering it, (e) testing many approaches, (f) focusing on what works, (g) making sure the goal is really ours, (h) using surroundings and people to stay motivated. Understanding these in words does not make our motivational systems follow them. The question asks the student to explain why a plan like Maya's (watching data science videos to become a data analyst) is the default, and to apply two of the heuristics to her.
+reading_minutes: 6
+tutor_minutes: 7
+tags:
+  - wip
+---
+#### Article
+source:: [[../articles/annasalamon-humans-are-not-automatically-strategic]]
+
+#### Question: Open
+id:: 773c438d-422d-44af-b7f8-c5741f1a2d81
+content::
+Maya wants to get a job as a data analyst within a year. Her plan is to watch YouTube videos about data science most evenings, because that feels like the right kind of thing to do.
+
+1. Using the essay, explain why so many people end up with plans like Maya's.
+2. Pick two of the habits in the essay's list, (a) to (h), that Maya is not using, and say what each would look like for her.
+force-feedback:: first
+assessment-instructions:: Score out of 100. The essay's idea: most possible ways of pursuing a goal are ineffective, and no strong evolutionary or cultural force steers people to the few effective ones. So by default people act from habit or convenience, or pick an action that feels associated with the goal, rather than choosing the action that would best achieve it. Understanding in words that good strategy helps is also not the same as doing it automatically. The essay's list of useful habits that people do not carry out automatically: (a) ask what you are trying to achieve, (b) ask how you would tell you had achieved it, and track progress, (c) be curious about information that would help, (d) gather that information, for example by asking how others achieved the goal or by tallying what has worked before, (e) test many different approaches, including unfamiliar ones, and track which work, (f) put most of your energy into what works best, (g) make sure the goal is really your goal and settle doubts in advance, (h) use your surroundings and other people to keep up motivation.
+40: Step 1. Explains why plans like this are the default: people pick an action that feels connected to the goal, or act from habit, rather than choosing what would actually work, because most ways of pursuing a goal are ineffective and nothing automatically steers us to the effective ones. The gap between understanding good strategy in words and acting on it automatically is also an acceptable reason. Either reason earns the full 40.
+30 each for two habits from the list, each applied concretely to Maya. Examples: (d) find out how people actually got data analyst jobs, by asking analysts or reading job postings, (b) decide how she would measure progress, such as finished projects or applications sent, (e) try several approaches, such as a structured course, building portfolio projects or applying early, and see which work. A habit named without saying what Maya would do earns 10.
+feedback-instructions:: The student has just read Anna Salamon's "Humans are not automatically strategic" and answered a two-step question about Maya, who plans to become a data analyst by watching data science videos. Key ideas from the essay: (1) most ways of pursuing a goal are ineffective and nothing automatically steers us to the effective ones, (2) we do things that feel associated with the goal, from habit or convenience, (3) the list of habits (a) to (h) that we do not use automatically, such as asking how we would tell we had succeeded, gathering information on how others did it, and testing several approaches, (4) understanding strategy in words does not change what our motivation pulls us to do.
+
+Reply in 80 to 150 words, in short paragraphs, with no lists. Do not over-validate and avoid generic praise (great job, excellent, well done). Name the strongest specific part of the answer. If the score is below 100, name the most important thing the answer missed or got wrong, then ask one question that helps them fix it. At 100, confirm briefly and tell them to move on. Allow at most 2 follow-up turns, then close with one sentence on how well they have the essay's idea.
+
+If the student says they do not understand, do not dismiss it and do not repeat the question. Give one concrete foothold from the essay: the aspiring comedian who watches Garfield reruns, or the footnote's example of people who train for years "to make money" without spending a few hours comparing salaries. If their next message still does not attempt the question, rephrase the whole question in different terms. Judge only against what the essay says, and treat as a gap only what the question asks.
