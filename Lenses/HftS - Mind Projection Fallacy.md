@@ -5,8 +5,6 @@ tldr: Some properties you see in things are facts about your own mind. Old scien
 summary_for_tutor: Yudkowsky uses old science fiction magazine covers of bug-eyed aliens carrying off women in torn dresses. The artists did not ask whether a non-human alien would find a human woman attractive, because they experienced sexiness as a property of the woman herself (Woman.sexiness, like height or weight) rather than as something in the mind of whoever looks at her. E. T. Jaynes called this the Mind Projection Fallacy, projecting properties of your own mind onto the outside world. Jaynes was mostly concerned with probabilities treated as properties of objects instead of states of knowledge in a mind. The essay says the same error appears in the argument over the meaning of "sound". The question gives Maya's claim that spiders are creepy "as a fact about spiders", so birds must avoid them too, and asks where her reasoning goes wrong.
 reading_minutes: 3
 tutor_minutes: 5
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-mind-projection-fallacy]]

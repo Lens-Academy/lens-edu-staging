@@ -5,8 +5,6 @@ tldr: Arguing over whether obesity or alcoholism is a "real disease" hides the q
 summary_for_tutor: Scott Alexander takes the debate over whether marginal conditions such as obesity, alcoholism or social anxiety are "real diseases". "Disease" is a cluster of features (biological cause, involuntary, rare, unpleasant, discrete, treated with science-y interventions). Cancer has all of them, obesity only some, so asking whether obesity is "really" a disease is like asking whether Pluto is really a planet. The word still matters because of hidden inferences, whether people get sympathy or condemnation, and whether medical treatment is acceptable. He answers those directly from a determinist consequentialist view. Condemn only where condemnation reduces the condition enough to be worth the hurt feelings, otherwise sympathize. Allow any treatment that is available and effective, judging side effects, cost and dependence as for any illness. He contrasts this with a model of blame based on free will, where everything hangs on whether a condition is biological or chosen. The question gives two parents arguing over whether a pupil's "gaming addiction" is a real disease and asks the learner to name the two questions the word stands in for and what each answer should depend on.
 reading_minutes: 14
 tutor_minutes: 7
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/alexander-diseased-thinking-dissolving-questions-about-disease]]

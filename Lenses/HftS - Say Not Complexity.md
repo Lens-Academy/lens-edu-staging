@@ -5,8 +5,6 @@ tldr: Words like "complexity" and "emergence" can feel like an explanation while
 summary_for_tutor: Yudkowsky tells how Marcello, asked how an AI might work out how to solve a Rubik's Cube, said the AI would need "complexity" to do X and Y. Yudkowsky objected that saying "complexity" does not concentrate your probability mass. It puts a cause behind something mysterious that feels like an explanation but isn't. Complexity is a real concept with legitimate uses (Kolmogorov complexity, judging whether a hypothesis is too complicated). The mistake is the skip-over of the part you do not understand, whatever word covers it, and it happens by default, below the level of words. He and Marcello said "magic" ("X magically does Y") as a placeholder that reminds you of an unsolved gap, instead of "complexity" or "emergence", which create an illusion of understanding. The question gives an "emergence" explanation of termite mounds and asks what is wrong with it by the essay's standard and what an honest version would say.
 reading_minutes: 5
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-say-not-complexity]]

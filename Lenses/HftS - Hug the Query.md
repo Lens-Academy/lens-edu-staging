@@ -5,8 +5,6 @@ tldr: The closer your evidence is to the question itself, the more it settles. W
 summary_for_tutor: Yudkowsky argues for looking at evidence as close as possible to the question, because closer evidence screens off more distant arguments. In his example, Lord Kelvin has more authority than the Wright Brothers, but authority matters less once you check both sides' calculations, and the calculations matter less once you watch the plane fly. Arguing about who is more rational, or which bias someone shows, is distant evidence and cannot settle a factual question ("If there are biased reasons to say the Sun is shining, that doesn't make it dark out"). Judging a speaker is sometimes necessary when you cannot check the closer evidence, but it should feel like something is missing. The question gives a council argument over whether a traffic light reduced accidents, with accident records available, and asks which evidence should settle it and why it makes the other two arguments matter much less.
 reading_minutes: 3
 tutor_minutes: 5
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-hug-the-query]]
