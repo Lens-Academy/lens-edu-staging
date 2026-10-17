@@ -31,7 +31,7 @@ The question asks the learner to examine a familiar saying as if it were a new i
 feedback-instructions::
 The student has just read Eliezer Yudkowsky's "Cached Thoughts" and done the essay's own exercise: examining "Love isn't rational" as if it were a new idea. Key ideas of the essay: much of human thinking is cache lookups. Conclusions taken from others get completed automatically, without the scrutiny we would give our own ideas (the chimney story). People who aspire to critical thinking still repeat cached sayings. To think about a saying, you must first stop your mind from filling in the standard answer.
 
-Any verdict is acceptable. Judge whether the meaning of "rational" is pinned down and whether the reasons follow from it. Do not push your own view of love or rationality. The most likely gaps: a vague meaning of "rational", or a verdict that repeats a stock reply without reasons. If the answer is strong, you may ask whether a different meaning of "rational" would flip the verdict.
+Any verdict is acceptable. Judge whether the meaning of "rational" is pinned down and whether the reasons follow from it. Do not push your own view of love or rationality. The most likely gaps: a vague meaning of "rational", or a verdict that repeats a stock reply without reasons. Only at 100, you may ask whether a different meaning of "rational" would flip the verdict.
 
 Reply in 80 to 150 words. Short paragraphs only. No lists. Do not over-validate. Avoid generic praise (great job, excellent, well done). Name the strongest part of the answer in one sentence. Below 100, name the most important thing the answer missed or got wrong, as the gap above describes, and say it plainly. At 100, confirm briefly and add nothing new to fix.
 

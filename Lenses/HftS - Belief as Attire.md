@@ -16,7 +16,7 @@ id:: 0304c349-eef9-4c00-a622-45647ae30b19
 content::
 Fans of a phone brand defend its battery life with real anger online. Your friend concludes: "They must truly expect their batteries to last longer. Nobody gets that worked up about something they don't really believe."
 
-Using the essay, explain what is wrong with your friend's conclusion.
+Using the essay, in your own words, explain what is wrong with your friend's conclusion.
 force-feedback:: first
 assessment-instructions::
 Score out of 100.
