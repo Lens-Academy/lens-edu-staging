@@ -145,6 +145,7 @@ Run this check whenever you add or change a question in a lens, before you call 
    4. **Only what the learner has seen.** No element depends on material later in the lens, or outside the course so far.
    5. **Feedback matches.** The `feedback-instructions::` treat as a gap only what the question asks.
    6. **No copy-paste full marks.** Where a question asks what an author says (a reply, an argument, a claim), check whether pasting the author's own sentences would earn full marks. If it would, the question says "In your own words", and the rubric may then cap an answer that only copies.
+   7. **No hidden facts.** List every fact about the scenario that the rubric's answer relies on: who wants what, who knows what, what happened. For each, quote the words of the question that state it. If one is not stated, write a short, well-argued answer that assumes the opposite. If the rubric would score that answer below about 85, it fails. Fix the question so it states the fact, or fix the rubric so it accepts both readings.
    Return per question: id, score, PASS or FAIL, and for each failure the check number, the quote, and the smallest fix, saying whether it changes the question or the rubric."
 3. **Fix the right side.** When the rubric scores something worth knowing that the question does not ask, change the question so it asks for it. Drop the element only when it was not worth asking. Never make a rubric easier just to pass this check.
 4. Repeat with fresh agents until every question passes. Report how many rounds each lens took and what changed.
