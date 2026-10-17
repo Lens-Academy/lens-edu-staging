@@ -10,7 +10,7 @@ summary_for_tutor: "Unit 4 of AI Control Fundamentals, Module 'Even done well, c
 content::
 **The criticism: control speeds up AI without making it safer in the long run.**
 
-Richard Ngo, who used to work at DeepMind and OpenAI, argues that much alignment research helped AI companies race toward AGI "under the banner of safety", there .
+Richard Ngo, who used to work at DeepMind and OpenAI, argues that much alignment research helped AI companies race toward AGI "under the banner of safety", thereby causing the oposite of what they.
 
 He writes about alignment research in general, not about control. It matters for control because control's main pitch is to get useful work, including alignment research, out of AIs we cannot yet trust.
 
