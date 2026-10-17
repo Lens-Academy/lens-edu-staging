@@ -5,8 +5,6 @@ tldr: People who call themselves rational are often no more impressive than anyo
 summary_for_tutor: Yudkowsky answers the common objection that rational people do not seem any happier. Those people have had very little rationality, he says, all of it ad hoc and self-taught, nothing like the training of a black belt, an Olympic runner or the knowledge of a nuclear engineer. There ought to be a systematic art of thinking that makes its students visibly more formidable. Martial arts became systematic because people had a sense that more was possible and because they could tell when they had hit someone. Rationality lacks such an art first because people lack that sense, second because results are hard to verify (he wants evidence-based training, for example running half the signups through one version of a program and half through another and surveying them years later), and third because rationalists have trouble working in groups. The lack of visible formidability should make us say "we must be doing something wrong". The question gives the student a friend who concludes from a few unimpressive self-described rationalists that studying rationality does little, and asks what is wrong with that conclusion and what evidence would show whether rationality training works.
 reading_minutes: 7
 tutor_minutes: 5
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-a-sense-that-more-is-possible]]

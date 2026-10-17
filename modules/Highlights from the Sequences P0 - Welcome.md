@@ -2,8 +2,6 @@
 id: 'f8d02078-75e8-4608-b3d3-414ef8e827a4'
 slug: hfts-welcome
 title: "Welcome"
-tags:
-  - wip
 ---
 # Lens: Welcome to Highlights from the Sequences
 id:: 3c7aae02-8336-4d4a-92a6-77e00b085eb1

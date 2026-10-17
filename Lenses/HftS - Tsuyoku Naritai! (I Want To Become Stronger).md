@@ -5,8 +5,6 @@ tldr: Admitting that you are biased is not progress, and being proud of the admi
 summary_for_tutor: Yudkowsky contrasts a tradition in which knowledge can only be lost over the generations with science, which gains knowledge, and says the most important thing is that there should be progress. "Tsuyoku naritai" means "I want to become stronger". He compares the Yom Kippur confession, which is about confessing sins rather than avoiding them, to rationalists who beat their chests saying "we are all biased". Confessing flaws is not progress, and taking pride in the confession makes you loath to give up the flaw and hostile to anyone with a plan to correct it. The point is to have a plan to do better and to keep taking steps forward. The question gives the student Leo, who admits his overconfidence at every review, is proud of being honest about it, and dismisses a colleague's way to correct it. It asks what is wrong with how Leo treats his admission, how that affects his response to the colleague, and what he should do instead.
 reading_minutes: 4
 tutor_minutes: 5
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-tsuyoku-naritai-i-want-to-become-stronger]]

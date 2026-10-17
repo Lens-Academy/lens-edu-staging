@@ -5,8 +5,6 @@ tldr: Your feelings barely change between one person suffering and a billion. So
 summary_for_tutor: Nate Soares argues that our internal "care-o-meter" cannot scale to large numbers, so the feeling of caring is a poor guide to how much we actually care about the world's problems. Alice, Bob and Christine give small amounts for social reasons. Daniel does a sanity check. He decides that saving one oiled bird is worth about three minutes or three dollars to him, multiplies by the thousands of oiled birds, and sees that he cares far more than his feelings say, and then that there are too many problems for his time and money. Prominent altruists are not people with bigger care-o-meters but people who learned not to trust them. You can act on the caring even when you cannot feel it. The question gives the student Kai, who feels about the same about one family losing their home as about 50,000 families hit by a flood, and asks what is wrong with using the feeling as the measure and how Daniel's method would give a better answer.
 reading_minutes: 12
 tutor_minutes: 5
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/so8res-on-caring]]
