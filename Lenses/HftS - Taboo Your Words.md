@@ -5,8 +5,6 @@ tldr: When two people argue over a word, stop using the word and describe what e
 summary_for_tutor: Yudkowsky argues that when you are stuck in a confusing argument, the first move is not to define the problem word but to stop using it and its short synonyms, and to describe observable things and mechanisms instead. Examples are the game Taboo, the dispute over whether a tree falling in an empty forest makes a sound (acoustic vibrations against auditory experience), Albert and Barry using "human" for concepts with different predictions about hemlock, futurists who agree on "AI in thirty years" but would expect different things, and free will. Tabooing a word can make an apparent conflict vanish or reveal a real clash of expectations. The question gives a dispute over whether a colleague is "a good programmer" and asks the learner to taboo the phrase and check whether any disagreement about what they expect to see remains.
 reading_minutes: 5
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-taboo-your-words]]

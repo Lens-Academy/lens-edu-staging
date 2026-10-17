@@ -5,8 +5,6 @@ tldr: Following the rules of Science, or any set of rules, does not stop you fro
 summary_for_tutor: Yudkowsky says that people he has seen grow as rationalists first lost their emotional trust in the sanity of the people around them, which lets them judge strange ideas on their merits. He then describes his own misplaced trust. At 18 he trusted Science and thought that making a Novel Prediction and offering to test his idea meant he had done everything required and was safe. Science would have been fine with him wasting ten years on a stupid theory, so long as he admitted the error afterwards. Science demands too little, blesses good intentions too easily and accepts slowness. There is no known procedure, set of rules or morality of reasoning that guarantees you will not have been a fool, not even Bayescraft, which is harder to use and has no textbooks. Science is too vague to scare you, while probability theory you cannot fully apply makes clear the task is hard. The postscript leaves a known flaw in the essay on purpose. The question gives a student who thinks a novel, testable prediction makes his plan to spend ten years on a theory blameless, and asks what is wrong with that and whether a stricter set of rules would fix it.
 reading_minutes: 9
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-no-safe-defense-not-even-science]]

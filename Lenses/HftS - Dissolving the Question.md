@@ -5,8 +5,6 @@ tldr: Proving that a question is confused or meaningless does not finish the job
 summary_for_tutor: Yudkowsky argues that answering a confused question, defining its terms precisely, or proving it meaningless all leave a psychological fact unexplained, namely that people feel there is a question. Rejecting a concept is not the same as understanding the cognitive algorithm behind it. He separates "explaining why" a confusion exists (for example a just-so evolutionary story that belief in free will helped our ancestors) from "explaining how" the mind produces it, by laying out the algorithm step by step until no feeling of a question is left. The essay ends with a homework problem, what cognitive algorithm, felt from the inside, produces the free will debate, and rules out arguing for or against free will, calling the concept self-contradictory or meaningless, and evolutionary or bias explanations. The question shows three replies to that homework and asks which is the kind of answer it asks for and why the other two do not count.
 reading_minutes: 9
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-dissolving-the-question]]

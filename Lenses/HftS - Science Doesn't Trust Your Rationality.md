@@ -5,8 +5,6 @@ tldr: Science works because it trusts no one's reasoning, not even its best scie
 summary_for_tutor: Yudkowsky draws an analogy between small-l libertarianism and Science. Both distrust reasonable-sounding arguments, both build systems more trustworthy than the people in them, and both accept that people are flawed and harness those flaws. The Scientific Revolution lasted because it said "trust no one, not even ourselves" instead of replacing Aristotle's armchair reasoning with different armchair reasoning. Science does not appoint impartial Eminent Judges. It harnesses each scientist's stubborn desire to prove their theory by rewarding new experimental predictions that are tested and replicated. It degrades gracefully when people play politics or skip replication. Because Science does not trust your probability calculations, letting Bayesian reasoning override Science's verdict is not a trivial step. The question describes a plan to replace testing with a panel of wise, impartial professors who decide by argument which theories are true, and asks which assumption about people the plan makes that Science refuses, and what Science relies on instead.
 reading_minutes: 6
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-science-doesnt-trust-your-rationality]]

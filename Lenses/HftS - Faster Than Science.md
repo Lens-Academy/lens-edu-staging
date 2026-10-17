@@ -5,8 +5,6 @@ tldr: When there are millions of possible answers, most of the work goes into fi
 summary_for_tutor: Yudkowsky argues that academic science is a slow, inefficient processor of evidence, moved by prejudice, intuition and herd behaviour (Planck's "opponents die" quote, the gradual acceptance of many-worlds, decades-long debates). Science tests ideas but does not say where they come from. In a large answer space, such as all equations of 32 bits or less (about 4 billion), it takes far more evidence to promote one hypothesis to your attention than to confirm it afterwards. A robot-controlled Ouija board that kept producing confirmed hypotheses would not bother Science but would be impossible for Bayes. So at the frontier, scientists who pick the right hypothesis to test have already done most of the epistemic work, and they rationally know something before Science does. It is easier to train people to test ideas than to have good ideas to test. The question gives a manager's claim that a researcher who picked the right formula out of millions "just guessed" and asks where most of the work was done and why a guess cannot explain her success.
 reading_minutes: 8
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-faster-than-science]]
