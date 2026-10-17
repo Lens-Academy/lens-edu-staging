@@ -18,8 +18,8 @@ Robert Long, Jeff Sebo and Toni Sims argue that there is a real tension between 
 
 #### Article
 source:: [[../articles/long-is-there-a-tension-between-ai-safety-and-ai-welfare]]
-from:: There is a potential tension between these projects
-to:: while carefully navigating any remaining tradeoffs.
+from:: The field of AI safety considers whether and how AI development can be safe and beneficial for humans and other animals
+to:: prepare frameworks for navigating any remaining tensions thoughtfully.
 
 #### Article
 from:: If AI systems were welfare subjects or moral patients, boxing
