@@ -18,6 +18,7 @@ tags:
 id:: 6aa13795-a414-4945-b176-8aea3bacecbb
 #### Video
 source:: [[../video_transcripts/rational-animations-s-risks-fates-worse-than-extinction]]
+
 # Submodule: AI-Triggered Nuclear War
 
 # Submodule: Autonomous Weapons
