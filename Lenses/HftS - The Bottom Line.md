@@ -16,7 +16,7 @@ id:: 968e9e28-9143-4662-986e-9339bcb0bf77
 content::
 Lena, a team lead, has already decided that her team will switch to project-management tool A. She asks an analyst to write a report "showing why tool A is the best choice". The analyst spends a week on it, and every fact in the final report is true.
 
-1. What is the report's conclusion, "therefore, tool A is the best choice", evidence of?
+1. What is the report's conclusion, "therefore, tool A is the best choice", evidence of, and why?
 
 2. How would the analyst have had to work for that conclusion to be evidence about which tool is best?
 force-feedback:: first

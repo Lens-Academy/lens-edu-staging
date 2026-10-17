@@ -29,7 +29,7 @@ The poem's ideas: whatever is true is already so. Admitting it does not make it 
 
 50: Part 1. The shop's real situation is already what it is, whether or not Sam looks: if it is losing money, checking does not add to the losses and not checking does not remove them. Saying that he is already living with the losses, so he can bear knowing them, also counts. Give 25 if the answer only says the truth is better to know, without saying that looking does not change the facts.
 
-50: Part 2. Without knowing the real numbers he cannot act on them (cut costs, change something, get help), so the problem keeps going, and the hopeful picture he keeps is not something he can act on. Give 25 if the answer only says he loses "the truth" or "reality" without saying what knowing it would let him do.
+50: Part 2. Without knowing the real numbers he cannot act on them (cut costs, change something, get help), so the problem keeps going, or the answer says that the hopeful picture he keeps is not something he can act on. Give 25 if the answer only says he loses "the truth" or "reality" without saying what knowing it would let him do.
 
 Cap at 40 if the answer says that not looking really does protect Sam from harm.
 feedback-instructions::

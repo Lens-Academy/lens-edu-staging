@@ -25,7 +25,7 @@ The idea the answer applies: rationality runs forward, from the evidence to a co
 
 60: What is wrong. The answer explains at least one of these: the friend cannot know in advance which of their conclusions are the true ones, and the method works just as well for false conclusions, so it gives no evidence either way. Or: arguing for a conclusion cannot make it more true, so a true conclusion reached this way is right by luck and the method would never catch the cases where it is wrong. Give 30 if the answer only says rationalizing is biased or dishonest without saying why it fails even when the conclusion is true.
 
-40: What to do instead. Start from the evidence and let it decide, or test the belief in a way that could show it is wrong (looking for what would change their mind), out of curiosity rather than to defend it. Give 20 if the answer only says "be open-minded" without saying how.
+40: What to do instead. Start from the evidence and let it decide, or test the belief in a way that could show it is wrong (for example looking for what would change their mind, out of curiosity rather than to defend it). Give 20 if the answer only says "be open-minded" without saying how.
 
 Cap at 40 if the answer agrees that rationalizing does no harm when the conclusion is true.
 feedback-instructions::
