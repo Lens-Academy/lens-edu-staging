@@ -16,7 +16,7 @@ id:: 8877891f-2835-45fa-9135-44ebcd8c1f16
 content::
 An economist backs a new policy. She says: "If the economy grows next year, that proves the policy works. If it shrinks, that shows the policy is working slowly, just as I expected, so that confirms it works too."
 
-1. According to the essay, why can't both results count as evidence that the policy works?
+1. In your own words, why can't both results count as evidence that the policy works, according to the essay?
 
 2. Before next year's numbers come in, how much more confident should she expect to be, on average, that the policy works?
 force-feedback:: first
