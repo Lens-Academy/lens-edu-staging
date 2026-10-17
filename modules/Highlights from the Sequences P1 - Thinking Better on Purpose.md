@@ -10,7 +10,9 @@ summary_for_tutor:: Opening page of part 1 of Highlights from the Sequences. The
 duration_minutes:: 1
 #### Text
 content::
-This is part 1 of 6: *Thinking Better on Purpose*. Humans can think about their own thinking, which lets us spot the flaws in our default reasoning and fix them.
+*Part 1 of 6 from the [Sequence Highlights](https://www.lesswrong.com/highlights).*
+
+Humans can not only think, but think about our own thinking. This makes it possible for us to recognize the shortcomings of our default reasoning and work to improve it – the project of human rationality.
 
 ::card[[../Lenses/HftS - The Lens That Sees Its Flaws]]
 

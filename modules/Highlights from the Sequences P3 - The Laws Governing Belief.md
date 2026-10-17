@@ -10,7 +10,9 @@ summary_for_tutor:: Opening page of Part 3 of Highlights from the Sequences. The
 duration_minutes:: 1
 #### Text
 content::
-This is part 3 of 6: *The Laws Governing Belief*. Beliefs are subjective, but you can't pick them as you like. Given the evidence, there are laws that say what you should believe.
+*Part 3 of 6 from the [Sequence Highlights](https://www.lesswrong.com/highlights).*
+
+While beliefs are subjective, that doesn't mean that one gets to choose their beliefs willy-nilly. There are laws that theoretically determine the correct belief given the evidence, and it's towards such beliefs that we should aspire.
 
 ::card[[../Lenses/HftS - Making Beliefs Pay Rent (in Anticipated Experiences)]]
 

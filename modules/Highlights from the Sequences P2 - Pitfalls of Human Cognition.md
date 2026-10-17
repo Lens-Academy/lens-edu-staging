@@ -10,7 +10,9 @@ summary_for_tutor:: Intro page for part 2 of Highlights from the Sequences, on t
 duration_minutes:: 1
 #### Text
 content::
-This is part 2 of 6: *Pitfalls of Human Cognition*. The Sequences keep coming back to the ways human reasoning goes astray. This part is a sample of them, with a push to do better.
+*Part 2 of 6 from the [Sequence Highlights](https://www.lesswrong.com/highlights).*
+
+A major theme of the Sequences is the ways in which human reasoning goes astray. This sample of essays describes a number of failure modes and invokes us to do better.
 
 ::card[[../Lenses/HftS - The Bottom Line]]
 
