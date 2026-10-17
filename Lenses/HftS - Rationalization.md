@@ -5,8 +5,6 @@ tldr: "Rationality starts from the evidence and lets it decide the conclusion. R
 summary_for_tutor: "A follow-up to \"The Bottom Line\". Yudkowsky calls \"rationalization\" a wrong word, since you cannot make rational what is not already rational. Rationality is a forward flow from evidence to a conclusion that is not yet known. Rationalization is a backward flow from a fixed conclusion to selected evidence. Arguing for a proposition can make more people believe it but cannot make it more true. Improving beliefs requires changing them, and rationalization fixes them in place. Traditional Rationality approves of a scientist who sets out to prove a pet hypothesis, but it would be better to test it out of curiosity, with experiments that could move one's belief in a direction one cannot predict. Curiosity is the sign that you do not yet know where you are going. The question gives a friend who says rationalizing does no harm when the conclusion happens to be true, and asks what is wrong with that and what the friend should do instead."
 reading_minutes: 4
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-rationalization]]

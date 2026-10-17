@@ -5,8 +5,6 @@ tldr: "An argument is only as good as the process that chose its conclusion. If 
 summary_for_tutor: "Yudkowsky's essay about two sealed boxes, one of which holds a diamond. A clever arguer paid by box B's owner first writes \"therefore, box B contains the diamond\" and then lists only the signs that favour B. A curious inquirer first lists the signs of both boxes and only then writes a probability. The arguer's conclusion is entangled only with who paid more, the inquirer's with what is in the boxes. Your effectiveness is set by whichever algorithm actually writes your bottom line (the squealing brakes: the real algorithm is \"never repair anything expensive\"), and the arguments written above it change nothing. The essay says this is a caution for your own thinking, not a general counterargument against people you disagree with: the cleverest arguer may say the Sun is shining, and it is still probably daytime. The question gives a report written to support a decision that was already made and asks what its conclusion is evidence of, and how the analyst would have had to work for the conclusion to be evidence about the tools."
 reading_minutes: 6
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-the-bottom-line]]

@@ -5,8 +5,6 @@ tldr: "A short poem by Eugene Gendlin. Whatever is true is already the case, whe
 summary_for_tutor: "The essay is the Litany of Gendlin, a seven-line poem by Eugene Gendlin. What is true is already so. Owning up to it does not make it worse. Not being open about it does not make it go away. Because it is true, it is what is there to be interacted with. Anything untrue is not there to be lived. People can stand what is true, for they are already enduring it. The question gives Sam, who avoids his shop's accounts so that he can stay hopeful and thinks that seeing the numbers would make things worse, and asks why he is wrong about that and what he loses by not looking."
 reading_minutes: 1
 tutor_minutes: 5
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-you-can-face-reality]]
