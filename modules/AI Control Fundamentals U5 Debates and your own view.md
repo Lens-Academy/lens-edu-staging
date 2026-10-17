@@ -1,11 +1,12 @@
 ---
 id: '29194224-89d2-45d9-98ca-c13c526cb63c'
 slug: ai-control-fundamentals-u5
-title: "The Hugging Face incident debate"
+title: "Debates, and your own view"
 ---
 %% Part 1 of Unit 5 of AI Control Fundamentals; the unit continues in 'Warning shots, and your view' (split into modules by topic, Elias 2026-10-08). The note below describes the whole unit as it was before the split. %%
 
 %% Unit 5 of AI Control Fundamentals. Time: welcome 3+0, Buck and Ryan before the incident 8+8, Redwood after the incident 16+13, Gleave and Habryka 23+8, crux practice 25+18, blocking monitors 13+15, quitting frontier labs (optional, not counted) 10+13, Soares and the policy response 11+11, your view 5+28 (lens time 228, or 205 without the optional lens), plus 12 for the learning-outcome test. About 217 minutes. %%
+# Submodule: The Hugging Face incident debate
 
 # Lens: Welcome to Unit 5
 id:: 361e3cd3-30a3-4861-8eb8-d223be8641b4
@@ -38,3 +39,81 @@ source:: [[../Lenses/AICF - Gleave and Habryka on current safety techniques]]
 
 # Lens:
 source:: [[../Lenses/AICF - Practice finding the crux]]
+
+# Submodule: Warning shots, and your view
+slug:: view
+
+%% Part 2 of Unit 5 of AI Control Fundamentals (split into modules by topic, Elias 2026-10-08). %%
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Weighing the case for AI control]]
+
+# Lens:
+source:: [[../Lenses/AICF - Blocking monitors and early warning shots]]
+
+# Lens:
+source:: [[../Lenses/AICF - Should safety researchers quit frontier labs]]
+optional:: true
+
+# Lens:
+source:: [[../Lenses/AICF - Do warning shots change policy]]
+
+# Lens:
+source:: [[../Lenses/AICF - Your view]]
+
+# Submodule: Unit 5 feedback
+slug:: feedback
+
+%% Feedback module after Unit 5 of AI Control Fundamentals, same pattern as the Advanced AI Control feedback modules. %%
+
+# Lens: Your feedback on Unit 5
+id:: 3ce50d89-d1c9-46f6-9160-d79b79f06fb5
+tldr:: Tell us how Unit 5 went, so we can improve it.
+summary_for_tutor:: Feedback page after Unit 5 (Debates, and your own view) of AI Control Fundamentals. The learner rates the unit and says what one thing they would change about the unit. The answers are for the course team. Do not grade them or argue with them. If the learner asks for help, help them put their own view into words.
+reading_minutes:: 2
+tutor_minutes:: 0
+#### Text
+content:: Tell us how this unit went. We read your answers and use them to improve the course.
+
+#### Question: Rating
+id:: bfc95187-937f-44f5-a4ca-0ed5b88683ea
+content:: How would you rate this unit's content?
+scale:: 10
+labels::
+- Extremely poor
+- Very poor
+- Poor
+- Below average
+- Neutral
+- Above average
+- Good
+- Very good
+- Excellent
+- Outstanding
+
+#### Question: Rating
+id:: f7e81d11-3ecd-48cf-9b00-2caaf7794ea1
+content:: How useful was the AI Tutor for this unit?
+scale:: 10
+labels::
+- Not useful at all
+- Very unhelpful
+- Unhelpful
+- Slightly unhelpful
+- Neutral
+- Slightly useful
+- Useful
+- Very useful
+- Extremely useful
+- Essential
+
+#### Question: Open
+id:: a6e61216-bec7-426b-a48a-6b59cf326b08
+content:: If you could change one thing about this unit, what would it be?
+optional:: true
+
+#### Question: Open
+id:: cdf91b41-2377-4739-9d2d-d5c14d9285a4
+content:: Anything else you want to share?
+placeholder:: For example: what was most useful, or what was confusing, too long, or not worth your time.
+optional:: true

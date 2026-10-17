@@ -1,11 +1,12 @@
 ---
 id: '2e54ea22-158e-403a-af56-fa67c28da8bb'
 slug: ai-control-fundamentals-u2
-title: "High-stakes and low-stakes threats"
+title: "The key ideas and the field"
 ---
 %% Part 1 of Unit 2 of AI Control Fundamentals; the unit continues in 'The AI control field' (split into modules by topic, Elias 2026-10-08). The note below describes the whole unit as it was before the split. %%
 
 %% Unit 2 of AI Control Fundamentals. Lenses: welcome (inline), Greenblatt on threats with the control graph (ranking optional), Shlegeris on rogue deployments (three excerpts), Hebbar's low-stakes talk (first 16.5 min) plus the intro of Anthropic/EPFL/Redwood "Diffuse AI Control on Fuzzy Tasks", practice on high- vs low-stakes (inline), Greenblatt's areas (excerpts), UK AISI research areas (excerpts), the "Scaling security" section of Google DeepMind's roadmap post (its first half moved to Unit 1, "Control in use today", on 2026-10-05) plus UK AISI Control Red Team post, optional: Ward's overview of company monitoring practices (whole post, added 2026-10-08, 12+5, not counted), Lens page on who works on control, Lens page on how big the field is (split out of it on 2026-10-12), practice on placing projects (inline). Time: welcome 3+3, threats 9+10, rogue deployments 7+8, low-stakes 20+14, practice 3+13, areas 8+8, AISI 6+5, AI companies 5+9, who works 14+31, how big 3+0, practice 3+10 (lenses 192), plus 20 for the two learning-outcome tests (10 each). About 212 minutes. %%
+# Submodule: High-stakes and low-stakes threats
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/High-stakes versus low-stakes control]]
@@ -46,3 +47,90 @@ source:: [[../Lenses/AICF - Low-stakes control and research sabotage]]
 
 # Lens:
 source:: [[../Lenses/AICF - Practice high-stakes or low-stakes]]
+
+# Submodule: The AI control field
+slug:: field
+
+%% Part 2 of Unit 2 of AI Control Fundamentals (split into modules by topic, Elias 2026-10-08). %%
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/The AI control field]]
+
+# Lens:
+source:: [[../Lenses/AICF - Areas of control work]]
+
+# Lens:
+source:: [[../Lenses/AICF - Research areas from the UK AI Security Institute]]
+
+# Lens:
+source:: [[../Lenses/AICF - Control inside AI companies]]
+
+# Lens:
+optional:: true
+source:: [[../Lenses/AICF - How three AI companies monitor their agents]]
+
+# Lens:
+source:: [[../Lenses/AICF - Who works on AI control]]
+
+# Lens:
+source:: [[../Lenses/AICF - How big is the AI control field]]
+
+# Lens:
+source:: [[../Lenses/AICF - Practice placing the project]]
+
+# Submodule: Unit 2 feedback
+slug:: feedback
+
+%% Feedback module after Unit 2 of AI Control Fundamentals, same pattern as the Advanced AI Control feedback modules. %%
+
+# Lens: Your feedback on Unit 2
+id:: 1ff4cb81-d95f-420a-9518-37afb066762b
+tldr:: Tell us how Unit 2 went, so we can improve it.
+summary_for_tutor:: Feedback page after Unit 2 (The key ideas and the field) of AI Control Fundamentals. The learner rates the unit and says what one thing they would change about the unit. The answers are for the course team. Do not grade them or argue with them. If the learner asks for help, help them put their own view into words.
+reading_minutes:: 2
+tutor_minutes:: 0
+#### Text
+content:: Tell us how this unit went. We read your answers and use them to improve the course.
+
+#### Question: Rating
+id:: 49aab4cb-e95d-4d80-9cfa-be1086446c8a
+content:: How would you rate this unit's content?
+scale:: 10
+labels::
+- Extremely poor
+- Very poor
+- Poor
+- Below average
+- Neutral
+- Above average
+- Good
+- Very good
+- Excellent
+- Outstanding
+
+#### Question: Rating
+id:: 4bd732fe-95fe-47ef-9fd4-c3d015c98915
+content:: How useful was the AI Tutor for this unit?
+scale:: 10
+labels::
+- Not useful at all
+- Very unhelpful
+- Unhelpful
+- Slightly unhelpful
+- Neutral
+- Slightly useful
+- Useful
+- Very useful
+- Extremely useful
+- Essential
+
+#### Question: Open
+id:: e8933c11-c98e-46b8-96e5-f18a29bf2dc8
+content:: If you could change one thing about this unit, what would it be?
+optional:: true
+
+#### Question: Open
+id:: 0f83d830-8e7c-41ad-946d-4e779c1e4aef
+content:: Anything else you want to share?
+placeholder:: For example: what was most useful, or what was confusing, too long, or not worth your time.
+optional:: true

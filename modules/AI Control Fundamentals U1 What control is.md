@@ -6,6 +6,7 @@ title: "What control is"
 %% Part 1 of Unit 1 of AI Control Fundamentals; the unit continues in 'Control claims, and how they are tested', 'Control today, and first criticisms' (split into modules by topic, Elias 2026-10-08). The note below describes the whole unit as it was before the split. %%
 
 %% Unit 1 of AI Control Fundamentals. Lenses: welcome (inline), control in plain words (full CSET explainer in parts with questions and the choice set), what control is meant to stop (80,000 Hours "What's AI control?" video clip), Robert Miles video in six parts with exercises (AICF), two AICF adaptations of Greenblatt and Shlegeris's case for control, spies, insiders and auditing (80,000 Hours plus ControlArena), worst case but not all-powerful (Shlegeris), control in use today (Google DeepMind first half), OpenAI's monitor (optional, whole post, own lens since 2026-10-08), first criticisms (Phuong clip plus Kulveit, inline), roleplay practice. Time (core only): about 214 lens minutes plus 30 for the three tests (12, 10, 8), about 244 minutes. Optional: the Buck clip lens, the roleplay, CSET parts 5 to 8, the opening of 'What control is', ControlArena in Spies, part 2 of 'Worst case', the OpenAI lens, the black-box section of 'How control is tested', and the Phuong clip. %%
+# Submodule: Welcome to Unit 1
 
 # Lens: Welcome to Unit 1
 id:: cd096d83-1e62-4695-8643-70fea5465bfd
@@ -52,3 +53,105 @@ source:: [[../Lenses/AICF - What control is meant to stop]]
 
 # Lens:
 source:: [[../Lenses/AICF - Using dangerous AI, but safely]]
+
+# Submodule: Control claims, and how they are tested
+slug:: case
+
+%% Part 2 of Unit 1 of AI Control Fundamentals (split into modules by topic, Elias 2026-10-08). %%
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Alignment claims versus control claims]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Deciding which models to trust]]
+
+# Lens:
+source:: [[../Lenses/AICF - The case for control - what control is]]
+
+# Lens:
+source:: [[../Lenses/AICF - Spies, insiders and auditing]]
+
+# Lens:
+source:: [[../Lenses/AICF - The case for control - how control is tested]]
+
+# Lens:
+source:: [[../Lenses/AICF - Worst case, but not all-powerful]]
+
+# Submodule: Control today, and first criticisms
+slug:: today
+
+%% Part 3 of Unit 1 of AI Control Fundamentals (split into modules by topic, Elias 2026-10-08). %%
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Reading a control setup]]
+
+# Lens:
+source:: [[../Lenses/AICF - Control in use today]]
+
+# Lens:
+optional:: true
+source:: [[../Lenses/AICF - OpenAI's monitor for its internal coding agents]]
+
+# Lens:
+source:: [[../Lenses/AICF - First criticisms]]
+
+# Lens:
+optional:: true
+source:: [[../Lenses/AICF - Take apart a deployment pitch]]
+
+# Submodule: Unit 1 feedback
+slug:: feedback
+
+%% Feedback module after Unit 1 of AI Control Fundamentals, same pattern as the Advanced AI Control feedback modules. %%
+
+# Lens: Your feedback on Unit 1
+id:: 27789d25-4173-42a4-9e23-5c025969a235
+tldr:: Tell us how Unit 1 went, so we can improve it.
+summary_for_tutor:: Feedback page after Unit 1 (What control is) of AI Control Fundamentals. The learner rates the unit and says what one thing they would change about the unit. The answers are for the course team. Do not grade them or argue with them. If the learner asks for help, help them put their own view into words.
+reading_minutes:: 2
+tutor_minutes:: 0
+#### Text
+content:: Tell us how this unit went. We read your answers and use them to improve the course.
+
+#### Question: Rating
+id:: 9640850e-7a16-4540-994f-3ba37510bf15
+content:: How would you rate this unit's content?
+scale:: 10
+labels::
+- Extremely poor
+- Very poor
+- Poor
+- Below average
+- Neutral
+- Above average
+- Good
+- Very good
+- Excellent
+- Outstanding
+
+#### Question: Rating
+id:: f8785ad0-7951-4a0b-b747-69d9383aa6f7
+content:: How useful was the AI Tutor for this unit?
+scale:: 10
+labels::
+- Not useful at all
+- Very unhelpful
+- Unhelpful
+- Slightly unhelpful
+- Neutral
+- Slightly useful
+- Useful
+- Very useful
+- Extremely useful
+- Essential
+
+#### Question: Open
+id:: 44b82545-0ba2-4ef3-a277-618aeecee69c
+content:: If you could change one thing about this unit, what would it be?
+optional:: true
+
+#### Question: Open
+id:: 3eda318a-d8b3-4f9e-a997-d281cf0dba8f
+content:: Anything else you want to share?
+placeholder:: For example: what was most useful, or what was confusing, too long, or not worth your time.
+optional:: true
