@@ -34,29 +34,6 @@ feedback-instructions:: One turn, 50 to 100 words. Say whether each of the two r
 
 #### Text
 content::
-Caspar Oesterheld replies to this worry in general, for any safety project. Read his argument and one of his own caveats, which is about control.
-
-#### Article
-source:: [[../articles/oesterheld-a-simple-argument-about-capabilities-externalities-versus-opportunity-costs]]
-from:: **TL;DR**: _Lots of people have the intuition
-to:: will increase AIs’ ability to escape control schemes.
-
-#### Question: Open
-id:: 6eff9ad9-7894-4ce7-8972-6b5bfb42125c
-force-feedback:: first
-content::
-\## Oesterheld's argument
-
-Oesterheld argues that worries like Ngo's, that safety work speeds AI up, usually matter less than people think.
-
-1. Explain his argument in a few sentences: what are his two premises, and what follows from them?
-2. Does his argument answer Ngo's worry about automating alignment research? Use his premises or his list of what the argument does not say.
-placeholder:: A few sentences.
-assessment-instructions:: Score out of 100. Context for grading: Caspar Oesterheld argues from two premises. Premise 1: adding one generic safety researcher and one generic capabilities researcher to the world is good, because the safety researcher does more good than the capabilities researcher does harm. Premise 2: someone working deliberately on capabilities speeds capabilities up more than a safety project does by accident. Conclusion: a typical safety project's capabilities side effects are smaller than its opportunity cost, the good of doing some other generic safety project instead, so they will not make a project with typical upside net negative. His caveat: the argument is about generic capabilities that ordinary capabilities researchers push anyway (intelligence, economically valuable skills, AI research). It mostly does not cover side effects on capabilities they do not care about, such as making models better at taking over. His example: making AI better at control research might make AIs better at escaping control, and his argument does not answer that worry. Part 1, 60: 20 for premise 1, 20 for premise 2, 20 for the conclusion that the side effects are smaller than the cost of not doing other safety work. Part 2, 40: a reasoned verdict on whether the argument answers Ngo's worry; either side earns full marks with a fitting reason. Reasons it does not: Ngo says alignment research such as building automated alignment researchers is "very similar to capabilities-maximizing research", so premise 2 (a safety project speeds capabilities less than deliberate capabilities work) may fail for it; Oesterheld's own caveat says the argument does not cover making AIs better at control research, which may make them better at escaping control; the argument rests on what is typical, and known details of a project can override it. Reasons it does: even automated alignment research probably speeds capabilities less than the people deliberately working on capabilities, so the opportunity cost still dominates. 20 of these 40 for a verdict with a generic reason or none. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Adding one safety and one capabilities researcher is good, and a capabilities researcher speeds AI up more than a safety project does by accident. So a safety project's side effects cost less than not doing some other safety work. But this does not answer Ngo well: he says building automated alignment researchers is very similar to capabilities research, so premise 2 may fail, and Oesterheld himself says his argument does not cover making AIs better at control research."
-feedback-instructions:: The learner restates Oesterheld's argument and judges whether it answers Ngo's worry about automating alignment research. Premise 1: one generic safety researcher plus one generic capabilities researcher is a good deal. Premise 2: deliberate capabilities work speeds capabilities more than a safety project does by accident. Conclusion: a typical safety project's capabilities side effects are smaller than its opportunity cost. Caveat: the argument covers only generic capabilities, not ones capabilities researchers do not push, and he names making AI better at control research as a case it does not answer. Either verdict on part 2 is fine if reasoned; a strong 'no' notes that Ngo calls building automated alignment researchers very similar to capabilities-maximizing research, which threatens premise 2. Name the strongest part of the answer, then the single most useful fix. If the learner asks about their score, say plainly what earned and lost points. If they say they do not understand, give one foothold: ask what pressing his button adds to the world. One or two turns, 60 to 120 words each. No generic praise. Do not say who is right.
-
-#### Text
-content::
 If you have time, we highly recommend reading Richard Ngo's whole series. The parts published so far:
 
 ::card[[../Lenses/AICF - Ngo - A retrospective of AI alignment]]
