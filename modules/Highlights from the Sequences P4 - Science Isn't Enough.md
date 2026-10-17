@@ -10,7 +10,9 @@ summary_for_tutor:: Intro to part 4 of LessWrong's Highlights from the Sequences
 duration_minutes:: 1
 #### Text
 content::
-This is part 4 of 6: *Science Isn't Enough*. Science beats what came before it, but it is still crude and slow, and its rules won't stop you from spending years on research that was never going to work.
+*Part 4 of 6 from the [Sequence Highlights](https://www.lesswrong.com/highlights).*
+
+While far better than what came before, "science" and the "scientific method" are still crude, inefficient, and inadequate to prevent you from wasting years of effort on doomed research directions.
 
 ::card[[../Lenses/HftS - When Science Can't Help]]
 

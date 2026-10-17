@@ -10,7 +10,9 @@ summary_for_tutor:: Intro to part 5 of 6 of Highlights from the Sequences, "Conn
 duration_minutes:: 1
 #### Text
 content::
-This is part 5 of 6: *Connecting Words to Reality*. To understand confusing topics, you need to understand how we build concepts and attach words to them.
+*Part 5 of 6 from the [Sequence Highlights](https://www.lesswrong.com/highlights).*
+
+To understand reality, especially on confusing topics, it's important to understand the mental processes involved in forming concepts and using words to speak about them.
 
 ::card[[../Lenses/HftS - Taboo Your Words]]
 
