@@ -12,7 +12,7 @@ content::
 
 If some future AI systems matter morally, the measures that make control work, such as confining them, watching everything they do and shutting them down, could harm or wrong them. This is not a reason control would fail. It is a possible moral cost of control succeeding.
 
-Robert Long, Jeff Sebo and Toni Sims argue that there is a real tension between AI safety and AI welfare.[^cite-long-sebo-sims-2025] Read their whole paper. Its sections go through safety measures one at a time (constraint, deception, surveillance, alteration, suffering and death, disenfranchisement), and most of them are measures control uses.
+Robert Long, Jeff Sebo and Toni Sims argue that there is a real tension between AI safety and AI welfare.[^cite-long-sebo-sims-2025] Read their paper's introduction and its sections on the three safety measures closest to control (constraint, deception and surveillance), then their conclusion.
 
 [^cite-long-sebo-sims-2025]: Robert Long, Jeff Sebo and Toni Sims (2025), *Is there a tension between AI safety and AI welfare?* Philosophical Studies. [Springer](https://doi.org/10.1007/s11098-025-02302-2)
 
