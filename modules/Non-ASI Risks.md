@@ -8,8 +8,6 @@ tags:
 
 # Submodule: Welcome
 
-# Submodule: Unaligned Takeover
-
 # Submodule: Engineered Pandemics
 
 # Submodule: Gradual Disempowerment
