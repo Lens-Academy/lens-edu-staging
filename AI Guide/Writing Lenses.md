@@ -100,6 +100,22 @@ Put each question right after the excerpt it is about, not all together at the e
 - **Asks that belong together stay in one box as a numbered list.** When the asks are steps of one task, keep the scenario or intro as a paragraph, then put each ask on its own `1.` line, with a blank line before the list. Never write several questions as one run-on paragraph. A short "…? Why?" pair is one ask: write it as one sentence ("Which kind is it, and why?").
 - **A question that asks for facts from the reading is graded.** If the answer can be judged right or wrong (what the reading said, how a mechanism works, which kind something is), give it `assessment-instructions::` (see [[../AI Guide/Writing Rubrics]]). Only questions about the learner's own view, feelings, guesses before a reading or plans stay ungraded.
 
+### One question in several lenses: question files
+
+When two lenses ask the same question, do not copy the `#### Question` block into both. Put it in its own file under `Lens Edu/Questions/`, named for what it asks (e.g. `Questions/What attack defeats upfront auditing.md`). The file holds exactly one question segment (`#### Question: Open`, `Choice`, …) with its `id::` and all its fields. Frontmatter is optional; a question file cannot embed another file.
+
+In each lens, a line with only the embed stands for the whole question, with no `#### Question` header above it:
+
+```
+![[../Questions/What attack defeats upfront auditing]]
+force-feedback:: first
+```
+
+- Lines right under the embed may set `force-feedback::`, `optional::` and `feedback-instructions::` for this lens only. Every other field comes from the file; setting one here is an error.
+- Both lenses use the file's `id::`, so a learner's answer is the same answer in both. Editing the file changes the question everywhere it is embedded.
+- Only lenses (`Lenses/`) can embed question files.
+- In the Lens Editor the embed shows the question as a card in place of the line. Arrow onto the line to see its source, and click the card to edit the question file there.
+
 ### When feedback starts
 
 - **Open questions with a right answer** (test and practice questions) get `force-feedback:: first`, so the learner gets the tutor's reply on their first answer without clicking.
