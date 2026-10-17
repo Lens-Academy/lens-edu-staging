@@ -12,7 +12,7 @@ content::
 
 Richard Ngo, who used to work at DeepMind and OpenAI, argues that much alignment research helped AI companies race toward AGI "under the banner of safety", thereby causing the opposite of what they intended.
 
-It is a general criticism about the alignment field, but we control might possibly be exactly one of those agent research in general, not about control. It matters for control because control's main pitch is to get useful work, including alignment research, out of AIs we cannot yet trust.
+It is a general criticism about the alignment field, but we control might possibly be exactly one of those agendas he is warning about. research in general, not about control. It matters for control because control's main pitch is to get useful work, including alignment research, out of AIs we cannot yet trust.
 
 The next two lenses look at versions of this worry aimed at control itself.
 
