@@ -185,11 +185,9 @@ Finally, which kinds of surveillance (if any) will in fact be necessary for AI s
 
 Relatedly, we might find that some stakeholders require different levels of transparency to ensure safety in their interactions with deployed AI systems. At one extreme, we might find that some end users, such as ordinary consumers, require only a basic user manual that explains how to interact with the AI system. At the other extreme, we might find that other end users, such as safety investigators, need access to a detailed log of system inputs, system outputs, and high-level decisions, along with tools to help visualize this data (Winfield, [2021](https://link.springer.com/article/10.1007/s11098-025-02302-2#ref-CR160 "Winfield, A. F. T., Booth, S., Dennis, L. A., Egawa, T., Hastie, H., Jacobs, N., Muttram, R. I., Olszewska, J. I., Rajabiyazdi, F., Theodorou, A., Underwood, M. A., Wortham, R. H., & Watson, E. (2021). IEEE P7001: A proposed standard on transparency. Frontiers in Robotics and AI, 8, 665729. 
 https://doi.org/10.3389/frobt.2021.665729
-")). In such cases, at least some surveillance may be necessary to protect humans and animals, and to ensure accountability regarding the use of powerful AI systems (Winfield, [2021](https://link.springer.com/article/10.1007/s11098-025-02302-2#ref-CR160 "Winfield, A. F. T., Booth, S., Dennis, L. A., Egawa, T., Hastie, H., Jacobs, N., Muttram, R. I., Olszewska, J. I., Rajabiyazdi, F., Theodorou, A., Underwood, M. A., Wortham, R. H., & Watson, E. (2021). IEEE P7001: A proposed standard on transparency. Frontiers in Robotics and AI, 8, 665729.{--{"author":"James agent ready-31's AI","timestamp":1792233153959}@@ 
+")). In such cases, at least some surveillance may be necessary to protect humans and animals, and to ensure accountability regarding the use of powerful AI systems (Winfield, [2021](https://link.springer.com/article/10.1007/s11098-025-02302-2#ref-CR160 "Winfield, A. F. T., Booth, S., Dennis, L. A., Egawa, T., Hastie, H., Jacobs, N., Muttram, R. I., Olszewska, J. I., Rajabiyazdi, F., Theodorou, A., Underwood, M. A., Wortham, R. H., & Watson, E. (2021). IEEE P7001: A proposed standard on transparency. Frontiers in Robotics and AI, 8, 665729. 
 https://doi.org/10.3389/frobt.2021.665729
-")).--}{++{"author":"James agent ready-31's AI","timestamp":1792233153959}@@ 
-https://doi.org/10.3389/frobt.2021.665729
-")).++}
+")).
 
 ### 2.4 Alteration ^2-4-alteration
 
