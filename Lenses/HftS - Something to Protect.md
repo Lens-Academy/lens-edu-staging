@@ -16,15 +16,17 @@ id:: 6e918c8c-ae44-4e63-a498-a30401c54209
 content::
 The essay asks you to choose between two options: save 400 lives for certain, or have a 90% chance of saving 500 lives and a 10% chance of saving none. Your friend Priya believes that being rational means picking the option that is certain to work, so she picks the 400. Then she learns that her own daughter is one of the 500 people, and she does not know which one.
 
+Answer in your own words.
+
 1. What chance does her daughter have of being saved under each option?
-2. In your own words, what should Priya conclude about her idea of rationality?
+2. What should Priya conclude about her idea of rationality?
 3. Why does it help Priya that she cares more about her daughter than about being "rational"?
 force-feedback:: first
 assessment-instructions:: Score out of 100. The scenario: one option saves 400 of 500 people for certain, the other saves all 500 with 90% probability and none with 10%. Priya believes rationality means choosing the certain option and picks the 400, then learns her daughter is one of the 500 (she does not know which one).
 
 30: Gives the daughter's chances correctly: 80% with the certain option (400 of 500 are saved) and 90% with the gamble. Give 15 if only one of the two figures is right.
 
-40: Says Priya should conclude that her idea of rationality was mistaken. Rationality is not about choosing certainty but about choosing what actually gets the result she wants, here the better chance of saving her daughter. The point is that her conception was wrong, not that rationality itself gave a bad answer.
+40: Says Priya should conclude that her idea that rationality means choosing certainty was mistaken: the fault is in her conception of rationality, not in rationality itself.
 
 30: Explains that caring about her daughter more than about being "rational" (or more than her pride in being a rational person) gives her a reason to notice the mistaken rule and drop it. If what she cared about most were following her idea of rationality, or her pride in it, she would keep the rule and accept the worse odds.
 
