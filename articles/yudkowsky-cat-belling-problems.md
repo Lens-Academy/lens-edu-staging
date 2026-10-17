@@ -24,12 +24,12 @@ tags:
 Good for explaining why many alignment approaches don't attack the core problem. Eliezer's test: a plan for a hard problem should be able to name the one key step that defeats the central difficulty. A complicated plan made of easy steps usually goes around that step.
 
 Where it shows this:
-- Debate: sec ii (from "I will at this point briefly mention" to "judges who've never seen the Emperor?") and ++}note {--{"author":"James agent ready-60's AI","timestamp":1792249729932}@@here:
+- Debate: sec ii (from "I will at this point briefly mention" to "judges who've never seen the Emperor?") and ++}note {--{"author":"James agent ready-60's AI","timestamp":1792249742106}@@here:
 
-...--}{++{"author":"James agent ready-60's AI","timestamp":1792249729932}@@4. What property must the judges have that coin flips lack, other than being unbiased?
+...--}{++{"author":"James agent ready-60's AI","timestamp":1792249742106}@@4. What property must the judges have that coin flips lack, other than being unbiased?
 - "Use AIs to align AI": sec iii, the "heat exchanger in the unbuilt half" comparison.
 - The Optimizer's Curse against complicated plans: sec iv.
-- The mouse dialogue: sec v.
+- The extended mouse dialogue: sec v. I especially like this one: it makes the problem concrete. The young Mouse goes on about the bell, the collar and glow-in-the-dark paint, while the old Mouse keeps asking how any Mouse gets close enough to the Cat.
 - Counterweight: sec vi, you can demand too simple an argument.++}
 
 {++{"author":"James agent ready-60's AI","timestamp":1792249729932}@@Related:
