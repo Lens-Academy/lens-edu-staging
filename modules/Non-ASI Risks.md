@@ -23,6 +23,12 @@ source:: [[../video_transcripts/rational-animations-s-risks-fates-worse-than-ext
 
 # Submodule: Autonomous Weapons
 
+# Submodule: AI Cyberattacks
+
+# Lens: AI Cyberattacks Are Coming
+id:: 66e3f343-084f-4276-b6f9-4f252701bf67
+#### Video
+source:: [[../video_transcripts/rational-animations-ai-cyberattacks-are-coming]]
 # Submodule: AI-Enabled Value Lock-In
 
 # Lens: Could a Global Dictatorship Last Forever?
