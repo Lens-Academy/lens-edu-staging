@@ -5,7 +5,7 @@ title: "Even done well, control isn't worth the effort"
 ---
 %% Part 1 of Unit 4 of AI Control Fundamentals; the unit continues in 'Even done well, control makes things worse' and 'Practical problems' (split into modules by topic, Elias 2026-10-08).  %%
 
-%% Unit 4 of AI Control Fundamentals, restructured 2026-10-16 (Elias): one criticism at a time, one reading per lens, no sorting questions. Lens and question ids kept so learners keep their progress. Time (reading+tutor): welcome 3+0, slop 15+11, superintelligence 5+5. Module 2: Ngo 6+7, Bushnaq, Buck and Mallen 8+9 (Habryka optional), profit-only 5+9, warning shots 15+14, looking back 0+5, AI welfare (optional, not counted) 25+10. Module 3: protocols 4+5, gaming its evaluation (optional, not counted) 5+6, better schemers 8+12, plus 12, 15 and 10 for the three tests. About 183 minutes. %%
+%% Unit 4 of AI Control Fundamentals, restructured 2026-10-16 (Elias): one criticism at a time, one reading per lens, no sorting questions. Lens and question ids kept so learners keep their progress. Time (reading+tutor): welcome 3+0, slop 15+11, superintelligence 5+5. Module 2: intro 1+0, Ngo 6+7, Bushnaq, Buck and Mallen 8+9 (Habryka optional), profit-only 5+9, warning shots 15+14, looking back 0+5, AI welfare (optional, not counted) 25+10. Module 3: intro 1+0, protocols 4+5, gaming its evaluation (optional, not counted) 5+6, better schemers 8+12, plus 12, 15 and 10 for the three tests. About 185 minutes. %%
 
 # Lens: Welcome to Unit 4
 id:: db5cd027-63d2-431d-9ee8-fde62339bcb3
