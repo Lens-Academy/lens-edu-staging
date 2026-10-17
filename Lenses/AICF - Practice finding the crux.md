@@ -51,7 +51,7 @@ force-feedback:: first
 content::
 In their closing statements, Gleave and Habryka each say what they think the disagreement comes down to.
 
-1. What does each of them say the disagreement comes down to?
+1. In your own words, what does each of them say the disagreement comes down to?
 2. How does that compare with the crux you found?
 3. Which account is closest to what actually divides them, and why?
 placeholder:: A few sentences.
