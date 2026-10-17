@@ -27,6 +27,10 @@ tags:
 
 # Meeting: Fundamental Difficulties
 
+# Module: [[../../modules/Non-ASI Risks]]
+
+# Meeting: Non-ASI Risks
+
 # Module: [[../../modules/Existing approaches]]
 
 # Meeting: Existing Approaches
