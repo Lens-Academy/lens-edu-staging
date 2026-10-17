@@ -18,7 +18,7 @@ A statistics lecturer wants to show how a small sample can mislead. Her example:
 
 1. Using the essay, why is this a bad example to choose?
 
-2. What kind of example should she use instead?
+2. Following the essay, what kind of example should she use instead?
 force-feedback:: first
 assessment-instructions::
 Score out of 100.

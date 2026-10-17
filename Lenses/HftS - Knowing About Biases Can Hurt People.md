@@ -14,7 +14,7 @@ source:: [[../articles/yudkowsky-knowing-about-biases-can-hurt-people]]
 #### Question: Open
 id:: c4d07b39-d84e-4507-86a2-6c775a4d4dba
 content::
-After learning about confirmation bias, Priya starts answering people who disagree with her with "You're just showing confirmation bias." She never says this about her own views.
+After learning about confirmation bias, the habit of favouring evidence for what you already believe, Priya starts answering people who disagree with her with "You're just showing confirmation bias." She never says this about her own views.
 
 1. Using the essay, explain why learning about biases has made Priya's thinking worse rather than better.
 
@@ -27,13 +27,13 @@ The essay's idea: knowledge of biases can hurt a person who uses it as ammunitio
 
 50: Part 1. Priya uses the idea only against views she disagrees with, so it gives her a ready way to dismiss any disagreement without finding an actual flaw, and her own beliefs are never questioned, which makes her harder to correct than before. Give 25 if the answer only says she is unfair or rude, without saying how this protects her views from being questioned.
 
-50: Part 2. Apply the idea to her own views as readily as to others' (40). Full 50 if the answer also says she should point to a specific flaw in an argument rather than just naming a bias.
+50: Part 2. Apply the idea to her own views as readily as to others', for example by asking whether she too favours what supports her views.
 
 Cap at 40 if the answer says that knowing about biases is harmful in itself and she would be better off not knowing.
 feedback-instructions::
 The student has just read Eliezer Yudkowsky's "Knowing About Biases Can Hurt People" and answered a question about Priya, who calls every disagreement confirmation bias but never applies it to herself. Key ideas of the essay: Taber and Lodge's sophistication effect, where knowledgeable people have more ammunition to counter-argue. Knowledge of biases used only against others becomes a Fully General Counterargument that dismisses people without naming any flaw (the man who called Yudkowsky a sophisticated arguer). Skepticism must be applied evenhandedly, including to oneself.
 
-The most likely gaps: calling Priya unfair without saying her own beliefs are now shielded, or a fix that does not turn the idea on her own views.
+The most likely gaps: calling Priya unfair without saying her own beliefs are now shielded, or a fix that does not turn the idea on her own views. After the gap, you may add that naming a bias is not the same as finding a flaw in the argument.
 
 Reply in 80 to 150 words. Short paragraphs only. No lists. Do not over-validate. Avoid generic praise (great job, excellent, well done). Name the strongest part of the answer in one sentence. Below 100, name the most important thing the answer missed or got wrong, as the gap above describes, and say it plainly. At 100, confirm briefly and add nothing new to fix.
 

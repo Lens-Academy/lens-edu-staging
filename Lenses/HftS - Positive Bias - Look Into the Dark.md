@@ -25,7 +25,7 @@ Score out of 100.
 
 The facts: the real rule is any three numbers in ascending order. A test only tells you something about a guess if a plausible alternative rule predicts a different answer. Triplets the guess says should fit also fit many broader rules, so a Yes was expected either way.
 
-50: Part 1. Both triplets fit the guess and also fit other rules, including the real one (any ascending numbers), so a Yes was expected whichever rule was true, and the answers could not tell the guess apart from the alternatives. Give 25 if the answer only says the student tested examples that fit their guess, without saying why that cannot tell the guess from other rules.
+50: Part 1. Both triplets fit the guess and also fit other rules (for example the real one, any ascending numbers), so a Yes was expected whichever rule was true, and the answers could not tell the guess apart from the alternatives. Give 25 if the answer only says the student tested examples that fit their guess, without saying why that cannot tell the guess from other rules.
 
 50: Part 2. A triplet that the guess says should get a No but that a broader rule such as ascending numbers would accept, for example 1-2-3, 20-23-26 or 2-4-100 (25). Its two outcomes explained: a Yes would show the guess is wrong (the rule is broader), a No would support the guess over that alternative (25). A triplet that both the guess and ascending order reject, such as 6-4-2, gets at most 10 of the first 25, because its answer cannot tell those two rules apart.
 feedback-instructions::

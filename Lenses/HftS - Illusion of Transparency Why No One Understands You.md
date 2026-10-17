@@ -25,7 +25,7 @@ Background the grader needs: the essay describes the illusion of transparency. B
 
 50: Why it seemed clear. The answer says she read her message already knowing what she meant (fewer steps), so that meaning seemed to be in the words, while the designer had only the words, which could also mean less text and fewer pictures.
 
-50: Why her sense of clarity tells her little. The answer says that this feeling would be there whether or not the words were clear to someone else, because it comes from her own knowledge of what she meant, and that speakers in general overestimate how well they are understood. Either reason earns full marks for this element.
+50: Why her sense of clarity tells her little. The answer says that this feeling would be there whether or not the words were clear to someone else, because it comes from her own knowledge of what she meant, that speakers in general overestimate how well they are understood, or that the designer had only the words, which could also mean other things (less text and fewer pictures). Any one of these reasons earns full marks for this element.
 
 Cap at 40 if the answer blames the designer for misreading a clear message.
 

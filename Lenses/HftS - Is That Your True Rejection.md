@@ -16,9 +16,10 @@ id:: 76dc2376-bd59-4d1e-8a30-8d549d299111
 content::
 You invite a friend to a new restaurant. They say no because it is too far away. You offer to drive them. They say it is too expensive. You offer to pay. They say they are not sure they would like the food.
 
-1. Using the essay, what is probably going on?
+Using the essay, in your own words:
 
-2. Before you try to fix the next reason, what does the essay suggest you ask?
+1. What is probably going on?
+2. Before you try to fix the next reason, what should you ask?
 force-feedback:: first
 assessment-instructions::
 Score out of 100.
