@@ -14,11 +14,20 @@ tags:
 
 # Submodule: S-risks
 
+# Lens: S-Risks: Fates Worse Than Extinction
+id:: 6aa13795-a414-4945-b176-8aea3bacecbb
+#### Video
+source:: [[../video_transcripts/rational-animations-s-risks-fates-worse-than-extinction]]
 # Submodule: AI-Triggered Nuclear War
 
 # Submodule: Autonomous Weapons
 
 # Submodule: AI-Enabled Value Lock-In
+
+# Lens: Could a Global Dictatorship Last Forever?
+id:: 6f73e26f-2cef-497a-960c-1ca1b2783c61
+#### Video
+source:: [[../video_transcripts/rational-animations-could-a-global-dictatorship-last-forever]]
 
 # Submodule: Comparing Risks
 
