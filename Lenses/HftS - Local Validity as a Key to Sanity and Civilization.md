@@ -5,8 +5,6 @@ tldr: "A step of reasoning is valid or not regardless of whether you like where 
 summary_for_tutor: "Yudkowsky links three ideas. In mathematics a proof step is locally valid if it only turns true statements into true statements, whatever the final conclusion (x = y gives 2x = 2y, but xy = xz does not give y = z). Outside mathematics there are bad arguments for good conclusions, and a strong mind judges an argument separately from whether it agrees with the conclusion: someone who believes in global warming should still wince at a single scorching day offered as evidence, because they would roll their eyes at a single cold day offered against it. In law and society, rules let people move from bad equilibria to better ones only if they are applied evenhandedly, even against allies, as with the juror who said 'I can be fair to one side but not the other', the debate about Al Franken, the Chinese general who sentenced his own son, and the judge Pendarvis in Little Fuzzy. When people stop believing rules are applied fairly, cooperation falls apart. The question gives a friend who supports a bike lane and cites a single crash, next to an opponent who cited a single quiet month, and asks how the kind of thinker the essay admires would judge the friend's argument and why the essay thinks this matters."
 reading_minutes: 20
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-local-validity-as-a-key-to-sanity-and-civilization]]

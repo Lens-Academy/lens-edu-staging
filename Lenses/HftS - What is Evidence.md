@@ -5,8 +5,6 @@ tldr: "Evidence is an event that comes out differently depending on the thing yo
 summary_for_tutor: "Yudkowsky defines evidence as an event entangled, by links of cause and effect, with whatever you want to know about: it has to happen differently for different states of the target. Examples: light from your untied shoelaces reaching your eyes, a machine that beeps for winning and losing lottery numbers alike (useless), a rock that photons hit without changing (useless witness), photographic film (picks up the entanglement). If your eyes and brain work, your beliefs become entangled with the facts and are themselves evidence, which an honest speaker can pass to a listener. So beliefs held unconditionally are blind, and a claim that your reasons are private and cannot be shared is suspicious. The question asks whether a friend's unshakeable, unexplainable certainty that a stock will double is evidence, and what her inability to explain her reasons tells you."
 reading_minutes: 5
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-what-is-evidence-6s3xabaxkpdfwa3fs]]

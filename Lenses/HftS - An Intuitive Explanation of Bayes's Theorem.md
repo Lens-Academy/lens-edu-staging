@@ -5,8 +5,6 @@ tldr: "To know what evidence tells you, you need three numbers: how common the t
 summary_for_tutor: "A long, gentle introduction to Bayes's Theorem. The mammography problem (1% prevalence, 80% true positives, 9.6% false positives) has the answer 7.8%, while most doctors guess 70 to 80% because they replace the prior with the chance that a sick woman tests positive. Other examples: pearl eggs (40% pearls, 30% of pearl eggs and 10% of empty eggs blue, so a blue egg is 67% likely to hold a pearl), natural frequencies, degrees of freedom, the likelihood ratio, odds and decibels for combining several tests, and the gizmo problem (30% blocked hoses, sparks 45% of the time if blocked and 5% if not). Bayes's Theorem is P(A|X) = P(X|A)P(A) / [P(X|A)P(A) + P(X|~A)P(~A)]. Later sections link it to Popper: falsification is strong evidence and confirmation is weak. The question asks the student to finish the gizmo problem, whose arithmetic the essay writes out without the final number (135/170, about 79%), and to name the mistake of a mechanic who says the answer is 45%."
 reading_minutes: 40
 tutor_minutes: 8
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-an-intuitive-explanation-of-bayess-theorem]]

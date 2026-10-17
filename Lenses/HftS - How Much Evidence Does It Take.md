@@ -5,8 +5,6 @@ tldr: "How much evidence you need depends on how many possibilities there are an
 summary_for_tutor: "Yudkowsky works through a lottery with 131,115,985 possible combinations and black boxes that always beep for the winner and beep for a losing combination 1 time in 4 (a likelihood ratio of 4 to 1). Each independent box multiplies the odds. Evidence can be measured in bits. Evidence 131 million times likelier for the winner only gives even odds, because about one losing ticket also passes. Ten boxes (about a million to one) still let through about 131 losers per winner. The general rule: the larger the space of possibilities, the less likely the hypothesis beforehand, or the more confident you want to be, the more evidence you need. The question gives a stadium face scanner checking 1,000,000 fans for one wanted person, with a false alarm rate of 1 in 10,000, and an operator who concludes a flagged person is 99.99% likely to be the suspect. The student estimates the number flagged, the real chance, and names what the operator left out."
 reading_minutes: 7
 tutor_minutes: 7
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-how-much-evidence-does-it-take]]

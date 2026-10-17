@@ -5,8 +5,6 @@ tldr: A missing experiment counts against a claim only if you would expect that 
 summary_for_tutor: Yudkowsky argues that Science says "go test it" but does not say which theory is right before the test, so it would let you waste ten years on a doomed theory. Some questions have large future consequences but cannot be cheaply tested now (macroscopic superpositions, parts of evolutionary psychology, cryonics). Absence of evidence is evidence of absence only to the degree you could reasonably expect the evidence to appear (snake oil versus gaps in the fossil record). Science's verdict without a test is "not proven", and reading that as a rejection is a step outside Science. A clear negative trial (56% versus 57% recovery) is a real verdict, not "not proven". The question gives two claims, a cold-curing tea sold for twenty years and a prediction about a probe that has not launched, and asks how much the missing proof counts against each and why.
 reading_minutes: 8
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-when-science-cant-help]]

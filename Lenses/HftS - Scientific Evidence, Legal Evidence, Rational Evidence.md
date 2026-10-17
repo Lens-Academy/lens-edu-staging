@@ -5,8 +5,6 @@ tldr: "Anything that makes a claim more or less likely is evidence for a rationa
 summary_for_tutor: "Yudkowsky distinguishes rational evidence (anything that shifts the probability of a claim) from legal evidence and scientific evidence, which are narrower categories with extra standards chosen for social reasons. Examples: the police commissioner who privately tells you Wulky Wilkinsen is a crime boss (strong rational evidence, not legal evidence, because jailing people on such statements would invite abuse), the author's white socks (rational and legal evidence, not scientific, because no one can rerun it), Alexander the Great (historical, relies on authorities like Plutarch). Science is the publicly reproducible knowledge of humankind, made of generalizations that anyone can test, and its standards (such as p < 0.05) are pragmatic choices. The question gives four friends who all fell sick after one shared restaurant meal, and one says that without scientific evidence they have no reason to blame the restaurant. The student explains the flaw, then why their experience is not scientific evidence."
 reading_minutes: 5
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-scientific-evidence-legal-evidence-rational-evidence]]

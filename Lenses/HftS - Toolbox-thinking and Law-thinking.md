@@ -5,8 +5,6 @@ tldr: "Some truths, like the shortest path through a maze or the limit on an eng
 summary_for_tutor: "Yudkowsky describes two styles of thinking. Toolbox thinkers value many tools fitted to context and suspect anyone who claims one optimal way. Law thinkers separate descriptive truths from normative and prescriptive ideals, and accept truths that are not tools. His central example is a maze: there is a shortest path even if you cannot find it at a junction, the left-hand rule can be the wisest recipe for a walker with limited memory even when it is not the shortest path, and a better app is better because its paths are shorter, a property defined without reference to any recipe. Other examples: the triangle inequality, the Carnot cycle as the limit on heat engine efficiency, and Bayesian updating: no update can extract more evidence than the likelihood ratio or get a higher expected score. He grants that some Law thinkers mistake a law for a one-size recipe and need the toolbox lecture, and argues that both views are tools to use by context. He suggests seeing laws as descriptive statements, not ideals. The question gives a colleague who says that because nobody can compute exact Bayesian updates, Bayes's theorem is only one tool among many and does not govern everyday reasoning."
 reading_minutes: 18
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-toolbox-thinking-and-law-thinking]]

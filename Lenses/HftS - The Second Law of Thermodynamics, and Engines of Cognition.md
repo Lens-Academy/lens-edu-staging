@@ -5,8 +5,6 @@ tldr: "Knowing something means your brain is in a state that matches the world, 
 summary_for_tutor: "Yudkowsky explains that the Second Law of Thermodynamics follows from Liouville's Theorem: phase space volume is conserved, so no machine can squeeze one subsystem into fewer states without another spreading into more. He shows this with small state tables (a refrigerator as X and Y subsystems), then argues the Second Law is Bayesian: entropy measures our uncertainty, and if you knew the exact state of every molecule in hot water you could use Maxwell's Demon to turn it into electricity and ice. Knowledge is physical: it is mutual information between a mind and its target. One subsystem cannot gain mutual information with another without interacting with it and doing thermodynamic work, so to form accurate beliefs about something you really do have to observe it. If blind faith worked, you could build a demon with blind faith in molecule velocities. He ends: unless you can say which specific step of an argument gives true knowledge of the unseen, an elaborate argument cannot do it either, just as an assembly of wheels cannot make energy unless one wheel does. The question gives a man who claims to learn, in a sealed room, which card a friend in another city drew."
 reading_minutes: 17
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-the-second-law-of-thermodynamics-and-engines-of-cognition]]

@@ -5,8 +5,6 @@ tldr: "Before you look, your average expected belief after the evidence must equ
 summary_for_tutor: "Yudkowsky opens with Friedrich Spee's account of witch trials, where every behaviour of the accused (a good life or an evil one, fear or boldness, fleeing or staying) was taken as proof of guilt. He states Conservation of Expected Evidence: the expected posterior equals the prior, P(H) = P(H|E)P(E) + P(H|~E)P(~E). So for every expectation of evidence there is an equal and opposite expectation of counterevidence. A likely result that would confirm you can only move you a little, and an unlikely failure must move you a lot. You cannot plan to confirm a theory, only to test it. Absence of evidence being evidence of absence is a special case. The question gives an economist who says growth next year proves her policy works and shrinking would also confirm it, and asks why both cannot count as support and how much more confident she should expect to be, on average, before the data comes in."
 reading_minutes: 5
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-conservation-of-expected-evidence]]

@@ -5,8 +5,6 @@ tldr: "An expert's opinion is evidence because experts have usually seen good ar
 summary_for_tutor: "Yudkowsky compares authority (a famous geologist versus a delinquent teenager) with argument (a detailed physics case versus leaps of faith). Once Arthur hears equally good technical cases, the geologist keeps at most a minor advantage, but once he knows two speakers have the same credentials, the better argument keeps its full advantage. He explains this with causal graphs: in the sprinkler example, knowing the sprinkler is on makes knowing it is night irrelevant to whether the sidewalk is slippery (screening off). Truth causes arguments, and arguments cause expert belief, so knowing the argument screens off the expert's belief. Caveats: this assumes you can follow the argument (otherwise it is just impressive noises), and a good authority may know counterevidence they did not mention, so authority keeps a slight weight. The question gives a professor and a student who send equally strong, fully checked cases, and asks how much the credentials should matter and when they would matter more."
 reading_minutes: 9
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-argument-screens-off-authority]]

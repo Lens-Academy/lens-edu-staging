@@ -5,8 +5,6 @@ tldr: "If finding something would raise your belief, then not finding it must lo
 summary_for_tutor: "Yudkowsky starts from Earl Warren's 1942 claim that the lack of sabotage by Japanese-Americans was the most ominous sign of a coming Fifth Column. A Fifth Column might delay sabotage, but no sabotage is still more likely if there is no Fifth Column, so observing none lowers its probability. Absence of proof is not proof of absence, but absence of evidence is always evidence of absence. How strong it is depends on how reliably the cause would produce the sign: gaps in the fossil record are weak evidence because fossils form rarely. A model's strength is what it cannot explain. The question gives a friend who glanced in the kitchen for her keys, did not see them, and concludes the search tells her nothing. The student explains what is wrong and how a five-second glance differs from emptying every drawer."
 reading_minutes: 5
 tutor_minutes: 6
-tags:
-  - wip
 ---
 #### Article
 source:: [[../articles/yudkowsky-absence-of-evidence-is-evidence-of-absence]]
