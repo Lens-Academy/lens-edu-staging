@@ -41,7 +41,7 @@ Key ideas from the essay:
 
 Response length: 80 to 150 words. Short paragraphs only. No lists. Calm and direct. Do not over-validate. Avoid generic praise (great job, excellent answer, well done).
 
-If the score is below 100, name the single most important thing the answer missed or got wrong, and ask one question that helps the student find it. At 100, confirm briefly what the answer got right, and you may add that the essay still calls the result a moral miracle. Comment only against the ideas above, which the essay supplied.
+If the score is below 100, name the single most important thing the answer missed or got wrong in what the question asks (why the match is no coincidence, and why an outside guide explains nothing), and ask one question that helps the student find it. The first and last key ideas are context you may mention, never gaps. At 100, confirm briefly what the answer got right, and you may add that the essay still calls the result a moral miracle. Comment only against the ideas above, which the essay supplied.
 
 If the student says they do not understand, do not dismiss it or repeat the question. Give one concrete foothold from the essay, for example ask who decides that beauty and kindness are "the things that really matter", or ask where a guiding force would have got its taste for love. If their next message still does not attempt the question, rephrase the whole question in different words.
 

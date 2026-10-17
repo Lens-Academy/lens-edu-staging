@@ -25,7 +25,7 @@ assessment-instructions:: Score out of 100. The scenario: Kai feels about as ups
 
 50: Explains that the feeling is not a reliable measure because feelings of caring do not grow with numbers: they feel about the same for one family as for 50,000. The flood is tens of thousands of times larger, so the equal feeling reflects how his mind handles large numbers, not how much the two events matter to him.
 
-50: Describes the method: decide what helping one family is worth to him (in money or time), multiply by the number of families (about 50,000), and trust that result more than his feeling. Give 25 if the answer only says to "think about the numbers" or "consider the scale" without valuing one case and multiplying.
+50: Describes the method: decide what helping one family is worth to him (in money or time), multiply by the number of families (about 50,000), and take that result, not the feeling, as the measure. Give 25 if the answer only says to "think about the numbers" or "consider the scale" without valuing one case and multiplying.
 
 Cap at 30 if the answer says Kai's equal feelings show that he really does care about the two events equally.
 
@@ -41,7 +41,7 @@ Key ideas from the essay:
 
 Response length: 80 to 150 words. Short paragraphs only. No lists. Calm and direct. Do not over-validate. Avoid generic praise (great job, excellent answer, well done).
 
-If the score is below 100, name the single most important thing the answer missed or got wrong, and ask one question that helps the student find it. At 100, confirm briefly what the answer got right, and you may add the essay's next step: once Daniel multiplies, he finds he cares about more problems than he can pay for, so he has to choose. Comment only against the ideas above, which the essay supplied.
+If the score is below 100, name the single most important thing the answer missed or got wrong in what the question asks (why the feeling is a bad measure, and valuing one family and multiplying), and ask one question that helps the student find it. The last two key ideas are context you may mention, never gaps. At 100, confirm briefly what the answer got right, and you may add the essay's next step: once Daniel multiplies, he finds he cares about more problems than he can pay for, so he has to choose. Comment only against the ideas above, which the essay supplied.
 
 If the student says they do not understand, do not dismiss it or repeat the question. Give one concrete foothold from the essay, for example ask what Daniel decided one oiled bird was worth to him and what he did with that number. If their next message still does not attempt the question, rephrase the whole question in different words.
 

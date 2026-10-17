@@ -28,7 +28,7 @@ assessment-instructions:: Score out of 100. The scenario: one option saves 400 o
 
 40: Says Priya should conclude that her idea that rationality means choosing certainty was mistaken: the fault is in her conception of rationality, not in rationality itself.
 
-30: Explains that caring about her daughter more than about being "rational" (or more than her pride in being a rational person) gives her a reason to notice the mistaken rule and drop it. If what she cared about most were following her idea of rationality, or her pride in it, she would keep the rule and accept the worse odds.
+30: Explains that caring about her daughter more than about being "rational" (or more than her pride in being a rational person) gives her a reason to notice the mistaken rule and drop it. (For example: if what she cared about most were following her idea of rationality, or her pride in it, she would keep the rule and accept the worse odds.)
 
 Cap at 40 if the answer says the certain option is still the right choice for Priya because certainty is what rationality requires.
 
@@ -43,7 +43,7 @@ Key ideas from the essay:
 
 Response length: 80 to 150 words. Short paragraphs only. No lists. Calm and direct. Do not over-validate. Avoid generic praise (great job, excellent answer, well done).
 
-If the score is below 100, name the single most important thing the answer missed or got wrong, and ask one question that helps the student find it. At 100, confirm briefly what the answer got right. Comment only against the ideas above, which the essay supplied.
+If the score is below 100, name the single most important thing the answer missed or got wrong in what the question asks (the two chances, what Priya should conclude about her idea of rationality, and why caring about her daughter helps), and ask one question that helps the student find it. At 100, confirm briefly what the answer got right. Comment only against ideas the essay supplied.
 
 If the student says they do not understand, do not dismiss it or repeat the question. Give one concrete foothold from the essay, for example ask how many of the 500 survive under the sure option, or ask which Priya should trust if her rule and her daughter's odds disagree. If their next message still does not attempt the question, rephrase the whole question in different words.
 
