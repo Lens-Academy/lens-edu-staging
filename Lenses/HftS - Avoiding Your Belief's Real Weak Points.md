@@ -29,13 +29,13 @@ The essay's idea: when people doubt a belief they care about, they attack it whe
 
 50: Part 1. Maya picks an easy objection that she has a ready, comforting answer to, and avoids the real weak point (three paying users after two years), which is painful to look at. So her doubting makes her more confident without testing the belief. Give 25 if the answer only says her reply is a weak argument or a cliché, without saying she avoids the painful evidence.
 
-50: Part 2. She should deliberately think about the most painful point, the three paying users after two years and what that suggests about her plan (40). Full 50 if the answer also gives a second piece of the essay's advice, such as questioning past her first comforting reply (asking what a smart sceptic would say to it), not rehearsing objections that have comforting answers, or dragging out objections she flinches from.
+50: Part 2. She should deliberately think about the most painful point, the three paying users after two years, and what that suggests about her plan. Give 25 if the answer only says she should doubt harder or be more critical, without pointing her at the painful evidence.
 
 Cap at 40 if the answer says proper doubt means giving up the belief.
 feedback-instructions::
 The student has just read Eliezer Yudkowsky's "Avoiding Your Belief's Real Weak Points" and applied it to Maya, who doubts her side project only with a comforting saying. Key ideas of the essay: people doubt their beliefs at strong points, where a rehearsed defence feels strengthening, and avoid the real weak points because they are painful (the seven days of creation against the firstborn of Egypt). They stop at the first comforting reply. To do better, think deliberately about whatever hurts most, skip objections whose standard counters make you feel better, and ask what smart people who disagree would say to your first and second reply.
 
-The most likely gaps: not saying that Maya avoids the painful evidence, or advice that does not point her at the three paying users.
+The most likely gaps: not saying that Maya avoids the painful evidence, or advice that does not point her at the three paying users. After the gap, you may add one more piece of the essay's advice she could use, such as asking what a smart sceptic would say to her first reply.
 
 Reply in 80 to 150 words. Short paragraphs only. No lists. Do not over-validate. Avoid generic praise (great job, excellent, well done). Name the strongest part of the answer in one sentence. Below 100, name the most important thing the answer missed or got wrong, as the gap above describes, and say it plainly. At 100, confirm briefly and add nothing new to fix.
 

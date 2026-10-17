@@ -19,6 +19,8 @@ Links:
 - Source selection: https://www.lesswrong.com/highlights
 %%
 
+# Module: [[../../modules/Highlights from the Sequences P0 - Welcome]]
+
 # Module: [[../../modules/Highlights from the Sequences P1 - Thinking Better on Purpose]]
 
 # Module: [[../../modules/Highlights from the Sequences P2 - Pitfalls of Human Cognition]]

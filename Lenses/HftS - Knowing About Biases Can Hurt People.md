@@ -31,7 +31,7 @@ The essay's idea: knowledge of biases can hurt a person who uses it as ammunitio
 
 50: Part 2. Apply the idea to her own views as readily as to others', for example by asking whether she too favours what supports her views.
 
-Cap at 40 if the answer says that knowing about biases is harmful in itself and she would be better off not knowing.
+Cap at 40 if the answer says the knowledge could not help her whatever she did.
 feedback-instructions::
 The student has just read Eliezer Yudkowsky's "Knowing About Biases Can Hurt People" and answered a question about Priya, who calls every disagreement confirmation bias but never applies it to herself. Key ideas of the essay: Taber and Lodge's sophistication effect, where knowledgeable people have more ammunition to counter-argue. Knowledge of biases used only against others becomes a Fully General Counterargument that dismisses people without naming any flaw (the man who called Yudkowsky a sophisticated arguer). Skepticism must be applied evenhandedly, including to oneself.
 
