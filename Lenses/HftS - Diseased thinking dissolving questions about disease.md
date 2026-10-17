@@ -20,7 +20,7 @@ Use the essay's approach on this argument.
 
 1. Name the questions the parents actually care about, which the word "disease" stands in for.
 
-2. For each one, say what the answer should depend on, according to the essay.
+2. For each one, say in your own words what the answer should depend on, according to the essay.
 force-feedback:: first
 assessment-instructions::
 Score out of 100.
@@ -29,9 +29,9 @@ Background the grader needs: the essay argues that whether a marginal condition 
 
 50: Blame or sympathy. Names it as one of the questions (whether the boy should be blamed or told off, or treated with sympathy) and says it should depend on whether blaming or telling him off would actually reduce the late-night gaming enough to be worth the hurt. 20 for naming the question without this criterion. An answer whose criterion is whether the gaming is his fault, freely chosen or biological gets 20 at most for this element.
 
-50: Treatment. Names it as one of the questions (whether he should be allowed to use the medication) and says it should depend on whether the medication is available and works, with its side effects, cost or risk of dependence weighed as for any other condition, not on whether gaming addiction counts as a disease. 20 for naming the question without this criterion.
+50: Treatment. Names it as one of the questions (whether he should be allowed to use the medication) and says it should depend on whether the medication works and whether its downsides (such as side effects, cost or dependence) are acceptable. 20 for naming the question without this criterion.
 
-Cap at 30 if the answer says the argument is settled by finding out whether gaming addiction really is a disease.
+Cap at 30 if the answer says the argument is settled by finding out whether gaming addiction really is a disease. Cap at 60 if the criteria are only copied from the essay without being applied to the boy.
 
 Model answer, for the feedback, not a grading checklist: "The parents really want to know two things. First, should the boy get sympathy or a telling-off? That should depend on whether telling him off would actually make him game less, enough to be worth making him feel bad. Second, should he try the medication? That depends on whether it works and whether its side effects and costs are acceptable, the same as for any treatment. Whether we call it a disease adds nothing once those are answered."
 feedback-instructions::

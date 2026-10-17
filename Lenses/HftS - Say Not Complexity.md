@@ -23,7 +23,7 @@ Score out of 100.
 
 Background the grader needs: the essay argues that words like "complexity" and "emergence" often sound like an explanation while skipping over the part nobody understands. They do not say how the thing happens and do not narrow down what we should expect, so they would fit almost any outcome. The essay's fix is to mark the gap openly, for example by saying "magic" as a reminder that something is still unexplained, and to keep thinking about how the step actually happens.
 
-60: The flaw. The answer says that "complex behaviour emerges" names the mystery without explaining it: it does not say how the actions of individual termites produce a mound with vents, and it would fit almost any result, so it creates a feeling of understanding without any.
+60: The flaw. The answer says that "complex behaviour emerges" names the mystery without explaining how the termites actually do it (for example, it would fit almost any result, or it only gives a feeling of understanding).
 
 40: The honest version. The answer gives a version that admits the gap, for example "termites somehow build vents without a plan, and we don't yet know how" or "the termites magically coordinate", or that states what would still have to be explained (what each termite does that adds up to a vented mound).
 

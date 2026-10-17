@@ -22,7 +22,7 @@ The essay ends with a homework problem: what kind of cognitive algorithm, felt f
 
 **C.** "When I decide, my brain imagines each option as something 'I could do' before it has worked out which one it will pick. Not yet knowing its own output feels, from the inside, like the options being open out in the world. The debate is people arguing over whether that feeling describes something outside their heads."
 
-Which reply is the kind of answer the homework asks for, and why do the other two not count?
+Which reply is the kind of answer the homework asks for, and why? Why do the other two not count?
 force-feedback:: first
 assessment-instructions::
 Score out of 100.
@@ -31,7 +31,7 @@ Background the grader needs: the essay argues that proving a question meaningles
 
 40: Picks C, with a reason that amounts to: it describes the process in the mind that produces the feeling of free will, which is what the homework asks for.
 
-30: Says why A does not count: it argues that free will is incoherent or the question meaningless, which leaves unexplained how the mind produces the feeling that there is a question.
+30: Says why A does not count: it argues that free will is incoherent or the question meaningless, which the homework rules out, or which leaves unexplained how the mind produces the feeling that there is a question. Either reason earns full marks for this element.
 
 30: Says why B does not count: it explains why people might have the belief (a story about its usefulness to our ancestors), not how the mind produces it. The belief stays an unexplained given.
 

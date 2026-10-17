@@ -18,7 +18,7 @@ A team has spent two years building an app that almost nobody uses. Each quarter
 
 1. Using the essay, describe the pattern the team lead is following.
 2. What would saying "oops" look like for this team?
-3. Why does the essay think that is better?
+3. In your own words, why does the essay think that is better?
 force-feedback:: first
 assessment-instructions:: Score out of 100. The essay's idea: people who have made a big mistake often admit only small, local errors one at a time, conceding as little as possible each time and never admitting a fundamental mistake, usually to protect their pride. Yudkowsky argues it is better to admit the whole mistake at once: every improvement requires a change, and only admitting a big mistake motivates a big change, while small admissions lead only to small fixes. Seeing the error all at once is faster than being argued into it piece by piece, one large loss is better than many small ones, and defending your pride now means making the same mistake again.
 30: Step 1. Describes the pattern: admitting only small, local mistakes one at a time and fixing them with small patches, never admitting that something bigger or fundamental might be wrong.
