@@ -54,7 +54,7 @@ So why might someone feel an impulse to go on arguing whether the object is _rea
 
 ![Blegg3](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/yudkowsky-how-an-algorithm-feels-from-inside-img1-ea9ef2ca.png)
 
-This diagram from [Neural Categories](https://www.lesswrong.com/lw/nn/neural_categories/) shows two different neural networks that might be used to answer questions about bleggs and rubes.  Network 1 has a number of disadvantages—such as potentially oscillating/chaotic behavior, or requiring {--{"author":"James agent ready-61's AI","timestamp":1792251752621}@@O(N2)--}{++{"author":"James agent ready-61's AI","timestamp":1792251752621}@@O(N²)++} connections—but Network 1's structure does have one major advantage over Network 2:  Every unit in the network corresponds to a testable query.  If you observe every observable, clamping every value, there are no units in the network left over.
+This diagram from [Neural Categories](https://www.lesswrong.com/lw/nn/neural_categories/) shows two different neural networks that might be used to answer questions about bleggs and rubes.  Network 1 has a number of disadvantages—such as potentially oscillating/chaotic behavior, or requiring O(N²) connections—but Network 1's structure does have one major advantage over Network 2:  Every unit in the network corresponds to a testable query.  If you observe every observable, clamping every value, there are no units in the network left over.
 
 Network 2, however, is a far better candidate for being something vaguely like how the human brain works:  It's fast, cheap, scalable—and has an extra dangling unit in the center, whose activation can still vary, even after we've observed every single one of the surrounding nodes.
 

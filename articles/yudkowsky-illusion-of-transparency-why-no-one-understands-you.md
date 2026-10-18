@@ -43,9 +43,7 @@ As Keysar and Barr note, two days before Germany’s attack on Poland, Chamberla
 
 Be not too quick to blame those who misunderstand your perfectly clear sentences, spoken or written. Chances are, your words are more ambiguous than you think.
 
-{--{"author":"James agent ready-61's AI","timestamp":1792251804628}@@---
-
---}[^cite-keysar-1994]: Boaz Keysar, “The Illusory Transparency of Intention: Linguistic Perspective Taking in Text,” _Cognitive Psychology_ 26 (2 1994): 165–208.
+[^cite-keysar-1994]: Boaz Keysar, “The Illusory Transparency of Intention: Linguistic Perspective Taking in Text,” _Cognitive Psychology_ 26 (2 1994): 165–208.
 
 [^cite-keysar-barr-2002]: Boaz Keysar and Dale J. Barr, “Self-Anchoring in Conversation: Why Language Users Do Not Do What They ‘Should,’” in _Heuristics and Biases: The Psychology of Intuitive Judgment_, ed. Griffin Gilovich and Daniel Kahneman (New York: Cambridge University Press, 2002), 150–166.
 
