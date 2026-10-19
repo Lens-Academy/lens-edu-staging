@@ -1,7 +1,7 @@
 ---
 id: '9bb8d877-ed2c-4244-9d16-12e7a458c922'
 learning-outcome: "Given an AI's elicited preferences and the evidence about its motivations, decide whether paying it the cheap things it wants, on condition that it is not caught undermining oversight, would make it safer: explain how the payment, and the experiments that set its level, bear on the AI's reason to subvert oversight and what could still lead it to subvert, including which of its wants a per-task payment leaves unmet or unpriced and how to find out how much they matter or settle them directly."
-topic: "[[../Domains and Topics/11 Strategy/Living with advanced agents]]"
+topic: "[[../Concepts/Living with advanced agents]]"
 stage: intermediate
 authors:
   - Elias+Claude

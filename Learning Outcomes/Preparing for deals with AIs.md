@@ -1,7 +1,7 @@
 ---
 id: 'd488eb91-06c9-48ba-b05f-52381905b5cc'
 learning-outcome: "Recommend measures an AI developer can adopt now, before any deal is needed, that make future deals with misaligned AIs more feasible, explaining for each which barrier to a future deal it reduces and how, and for at least one why that barrier arises, and how the measure works, because the counterparty is an AI."
-topic: "[[../Domains and Topics/11 Strategy/Living with advanced agents]]"
+topic: "[[../Concepts/Living with advanced agents]]"
 stage: intermediate
 requires:
   - "[[Counterparty risks in AI deals]]"
