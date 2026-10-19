@@ -6,7 +6,7 @@ summary_for_tutor: "A map of the course's 25 schools in three tables (psychology
 reading_minutes: 20
 tutor_minutes: 6
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

@@ -6,7 +6,7 @@ summary_for_tutor: "Two readings on the narrative self. (1) Dennett, 'The Self a
 reading_minutes: 25
 tutor_minutes: 12
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

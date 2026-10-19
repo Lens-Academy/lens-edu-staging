@@ -6,7 +6,7 @@ summary_for_tutor: "Third lens of module 8: a menu of every experiment in the co
 reading_minutes: 15
 tutor_minutes: 8
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

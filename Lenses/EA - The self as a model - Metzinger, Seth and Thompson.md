@@ -6,7 +6,7 @@ summary_for_tutor: "Three present-day voices on the self as something the brain 
 reading_minutes: 9
 tutor_minutes: 9
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

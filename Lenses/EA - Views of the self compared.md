@@ -6,7 +6,7 @@ summary_for_tutor: "Comparison table of the views of the self from this module, 
 reading_minutes: 8
 tutor_minutes: 6
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

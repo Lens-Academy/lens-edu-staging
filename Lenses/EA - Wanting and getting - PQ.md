@@ -6,7 +6,7 @@ summary_for_tutor: "Pre-reading lens for module 5 (desire). Two questions about 
 reading_minutes: 1
 tutor_minutes: 3
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

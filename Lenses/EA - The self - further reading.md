@@ -6,7 +6,7 @@ summary_for_tutor: "Optional link list for module 6 (the self). Each item says w
 reading_minutes: 3
 tutor_minutes: 0
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

@@ -6,7 +6,7 @@ summary_for_tutor: "Reading from Dahl, Lutz and Davidson 2015, 'Reconstructing a
 reading_minutes: 10
 tutor_minutes: 6
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

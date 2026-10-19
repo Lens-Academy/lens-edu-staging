@@ -6,7 +6,7 @@ summary_for_tutor: "Comparison lens of module 5 (desire). A table of eleven view
 reading_minutes: 14
 tutor_minutes: 13
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

@@ -6,7 +6,7 @@ summary_for_tutor: "Summary lens of the first half of module 3. A table of six k
 reading_minutes: 8
 tutor_minutes: 10
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

@@ -6,7 +6,7 @@ summary_for_tutor: "Optional lens. The learner first answers whether they would 
 reading_minutes: 12
 tutor_minutes: 5
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

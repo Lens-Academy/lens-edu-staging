@@ -6,7 +6,7 @@ summary_for_tutor: "Evidence lens of the wellbeing science library module. Key t
 reading_minutes: 15
 tutor_minutes: 8
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::
