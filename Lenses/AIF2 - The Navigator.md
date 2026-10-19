@@ -8,7 +8,7 @@ summary_for_tutor: "Draft replacement opener for AI Futures v2 (J's alternate ve
 authors:
   - J+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Edited 2026-10-15 from J's "Alternate Version" (Preface: The Navigator). Edits only, no rewrite: trimmed for length (feedback point 3), restored the original quote wording (J), fixed facts (Simon's year, the Roose line), and added the day-zero guess from the current opener so the rest of the course still has its running artifact. Spiral pass still to do. %%
 
