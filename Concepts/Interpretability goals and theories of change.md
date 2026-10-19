@@ -1,8 +1,5 @@
 ---
 id: 'c08953e1-545f-45e7-9896-7f43a2c25c24'
-learning-outcome: "Read evidence from Interpretability goals and theories of change"
-topic: "[[../Concepts/Why interpretability]]"
-stage: intermediate
-tags:
-  - skill-tree-placeholder
+parent-concepts:
+  - "[[Why interpretability]]"
 ---
