@@ -2,7 +2,7 @@
 id: '702cb65b-8342-4e14-992f-bb98dddf122f'
 writing_minutes: 15
 learning-outcome: "Evaluate an argument about AI control with the same rigour whichever side it is on. For a criticism of control, state what the criticism gets right, and give the strongest response to the point it disputes, comparing the realistic world with control against the realistic world without it rather than against a perfect solution. For an argument in favour of control, name the premise most open to doubt and say why."
-topic: "[[../Concepts/The control agenda]]"
+concept: "[[../Concepts/The control agenda]]"
 stage: beginner
 authors:
   - Elias+Claude

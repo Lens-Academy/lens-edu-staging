@@ -2,7 +2,7 @@
 id: '37ea7ee7-076c-4ebd-ac7e-cd7bd34810a9'
 writing_minutes: 12
 learning-outcome: "Given an unfamiliar exchange between people who disagree about whether work on AI control is worth doing, identify the factual crux their disagreement turns on, name an observation that would move each side, and say where you stand on that crux and what it implies for whether more work on control is net positive, with a confidence level and an observation that would change your mind."
-topic: "[[../Concepts/The control agenda]]"
+concept: "[[../Concepts/The control agenda]]"
 stage: beginner
 authors:
   - Elias+Claude

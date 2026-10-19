@@ -2,7 +2,7 @@
 id: '5608b2f5-6be4-41ab-a915-312251e1c84d'
 writing_minutes: 10
 learning-outcome: "For a described control measure in a described world, trace a specific mechanism by which the measure could make a catastrophe more likely rather than less (for example by preventing a visible incident that would have prompted a response, by letting a more misaligned model stay in use until it fails at a larger scale, by making untrusted models more profitable to deploy and so speeding up capabilities, or by giving decision-makers false confidence), name the empirical premise that mechanism depends on and a reason it might not hold, and propose a response: a change to the measure or its use that weakens the mechanism, with what it keeps and what it costs, an argued case for dropping the measure, or an argued case that no change is needed."
-topic: "[[../Concepts/The control agenda]]"
+concept: "[[../Concepts/The control agenda]]"
 stage: beginner
 authors:
   - Elias+Claude

@@ -1,7 +1,7 @@
 ---
 id: 'dbcda91b-10ce-4205-8cc2-5339dfc6d2a7'
 learning-outcome: "Classify verification methods for AI agreements as national technical means, access-dependent, or hardware-dependent, and pair each class with the evasion route that defeats it and the cooperation it demands"
-topic: "[[../Concepts/Verifying AI agreements]]"
+concept: "[[../Concepts/Verifying AI agreements]]"
 stage: advanced
 requires:
   - "[[The verification problem for AI agreements]]"
