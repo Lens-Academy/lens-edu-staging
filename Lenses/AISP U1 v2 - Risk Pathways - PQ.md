@@ -6,7 +6,7 @@ summary_for_tutor: "Pre-question for the AI-risk landscape. The learner generate
 reading_minutes: 1
 tutor_minutes: 3
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Question: Open
 id:: 88d3b984-c6f8-4fc8-aefc-74fde0e5d49b

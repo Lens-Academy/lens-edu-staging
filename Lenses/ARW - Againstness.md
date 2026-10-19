@@ -6,7 +6,7 @@ summary_for_tutor: "Week 5 of the Applied Rationality Workshop. Teaches the CFAR
 reading_minutes: 10
 tutor_minutes: 20
 min_chat_messages: 1
-tags: [wip]
+tags: [work-in-progress]
 ---
 #### Text
 content::

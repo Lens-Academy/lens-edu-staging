@@ -6,7 +6,7 @@ summary_for_tutor: "Uses XPT/FRI work on expert-superforecaster disagreement. Co
 reading_minutes: 30
 tutor_minutes: 22
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

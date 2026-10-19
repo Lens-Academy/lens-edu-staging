@@ -6,7 +6,7 @@ summary_for_tutor: "Moves from diagnosis to action. Distinguishes scientific pro
 reading_minutes: 30
 tutor_minutes: 20
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

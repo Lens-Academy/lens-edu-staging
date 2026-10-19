@@ -6,7 +6,7 @@ summary_for_tutor: "Maps major catastrophic-AI pathways using Hendrycks et al., 
 reading_minutes: 38
 tutor_minutes: 20
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

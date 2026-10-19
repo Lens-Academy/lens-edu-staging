@@ -6,7 +6,7 @@ summary_for_tutor: "Presents and assesses the Distraction, Human Frailty, and Ch
 reading_minutes: 32
 tutor_minutes: 20
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

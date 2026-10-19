@@ -6,7 +6,7 @@ summary_for_tutor: "Pre-question for x-risk skepticism. The learner steelmans a 
 reading_minutes: 1
 tutor_minutes: 3
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Question: Open
 id:: 2a3c2095-f16d-4da7-b8c6-d3be7239d2df

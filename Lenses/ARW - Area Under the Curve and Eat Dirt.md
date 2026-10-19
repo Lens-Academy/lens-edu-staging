@@ -5,7 +5,7 @@ tldr: "Aim for what adds up over time, not the highest peak. When you can't tell
 summary_for_tutor: "Library lens of the Applied Rationality Workshop: the CFAR Handbook's flash class post on Area Under the Curve (sustainability over peak output, and holding hypotheses lightly when results are noisy), Eat Dirt (pica as a metaphor: behaviour that stands in for an unmet need, and trying things that might contain more of the need), Broccoli Errors (refusing an update because your future self might like it, versus a justified refusal that protects core values) and Copernicus and Chaos (absent information, assume you are in the middle of a normal thing, and the chaos heuristic: you are probably far from your best options, so explore). The learner names one pica-like habit and one small thing to try instead, or one broccoli error."
 reading_minutes: 11
 tutor_minutes: 4
-tags: [wip]
+tags: [work-in-progress]
 ---
 #### Text
 content::
