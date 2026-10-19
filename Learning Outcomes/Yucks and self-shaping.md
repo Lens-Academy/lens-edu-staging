@@ -1,7 +1,7 @@
 ---
 id: 'd5bc993c-3d99-47b5-9e8b-b499903726be'
 learning-outcome: "Given someone whose habit is drifting away from a goal they hold, explain the drift by what small, immediate feelings of yuck or yum land on, treat the yuck as possible information about another goal, and propose a change that rewards the wanted step without requiring a false belief."
-tags: [wip]
+tags: [work-in-progress]
 writing_minutes: 10
 ---
 ## Test:

@@ -6,7 +6,7 @@ stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Value formation. AFFINE prerequisites: Value. Not yet copied into requires:. %%
 ## Test:

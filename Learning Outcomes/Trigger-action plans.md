@@ -3,7 +3,7 @@ id: '4795f8c2-265c-43b3-bccb-6f03530ebbab'
 learning-outcome: "Given someone else's trigger-action plan that is not producing the behaviour they want, locate whether it fails at the trigger, at the action, or after the action where the autopilot is no longer the problem, and propose a next step aimed at that point, writing any new plan with a concrete, noticeable trigger and a small action"
 writing_minutes: 10
 tags:
-  - wip
+  - work-in-progress
 ---
 ## Test:
 id:: d11028b1-822e-4d8e-9b85-a9fc3b771359

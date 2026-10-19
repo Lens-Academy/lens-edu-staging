@@ -6,7 +6,7 @@ stage: intermediate
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Vinge's principle. AFFINE prerequisites: AGI/ASI's various meanings. Not yet copied into requires:. %%
 ## Test:
