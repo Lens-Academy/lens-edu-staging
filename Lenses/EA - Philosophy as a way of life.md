@@ -6,7 +6,7 @@ summary_for_tutor: "Reading: Christine Darr, 'Philosophy as a Way of Life' (1000
 reading_minutes: 6
 tutor_minutes: 5
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

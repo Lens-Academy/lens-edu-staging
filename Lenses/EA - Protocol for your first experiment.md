@@ -6,7 +6,7 @@ summary_for_tutor: "Fourth lens of module 8. The learner writes a protocol for t
 reading_minutes: 4
 tutor_minutes: 25
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

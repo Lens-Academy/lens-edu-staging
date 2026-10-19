@@ -7,7 +7,7 @@ reading_minutes: 9
 tutor_minutes: 4
 sidebar_author: Culadasa
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

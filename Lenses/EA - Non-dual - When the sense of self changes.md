@@ -6,7 +6,7 @@ summary_for_tutor: "Risks lens of the non-dual library module. Lindahl and Britt
 reading_minutes: 12
 tutor_minutes: 7
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

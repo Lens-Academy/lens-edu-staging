@@ -6,7 +6,7 @@ summary_for_tutor: "Optional lens of module 8, used only if the learner chose a 
 reading_minutes: 1
 tutor_minutes: 20
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

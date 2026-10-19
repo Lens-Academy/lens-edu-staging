@@ -6,7 +6,7 @@ summary_for_tutor: "Optional lens of module 5 (desire). David Bather Woods, 'For
 reading_minutes: 18
 tutor_minutes: 4
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

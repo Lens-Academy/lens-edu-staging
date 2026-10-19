@@ -6,7 +6,7 @@ summary_for_tutor: "Optional lens of module 5 (desire). Abstract of Ford et al. 
 reading_minutes: 3
 tutor_minutes: 3
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

@@ -6,7 +6,7 @@ summary_for_tutor: "Second reading lens of module 3. A first-person report is a 
 reading_minutes: 14
 tutor_minutes: 6
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

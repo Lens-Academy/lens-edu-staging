@@ -6,7 +6,7 @@ summary_for_tutor: "Three readings on the Buddhist teaching of anatta. (1) SN 22
 reading_minutes: 12
 tutor_minutes: 9
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::
