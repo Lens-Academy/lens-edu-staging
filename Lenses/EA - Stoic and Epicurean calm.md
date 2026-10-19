@@ -6,7 +6,7 @@ summary_for_tutor: "Optional lens. Two encyclopedia excerpts: IEP 'Epicurus' sec
 reading_minutes: 10
 tutor_minutes: 3
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::
