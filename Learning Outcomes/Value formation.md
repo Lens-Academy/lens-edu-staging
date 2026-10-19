@@ -1,7 +1,7 @@
 ---
 id: 'e2694d60-915e-4a5a-a457-f83026c97d56'
 learning-outcome: "Explain how a learning agent's many context-specific drives can be generalised into broader goals that unify them, and predict how this can yield goals that match the trained behaviour in familiar contexts but diverge in new ones, including which conditions of training and later reflection would favour one generalisation over another."
-topic: "[[../Domains and Topics/3 Alignment/You don't get what you train for]]"
+topic: "[[../Concepts/You don't get what you train for]]"
 stage: advanced
 authors:
   - Luc+Claude
