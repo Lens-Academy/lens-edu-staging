@@ -1,7 +1,7 @@
 ---
 id: 'e5245fa5-8e8b-491a-ac13-5b49399291b8'
 learning-outcome: "Explain why a capable goal-directed AI has an instrumental incentive to increase its own capabilities, including by routes that neighbour direct self-modification, and why a rule that only blocks self-improvement therefore sets the AI's search against the rule, so that keeping its capabilities limited requires removing the incentive rather than only blocking its known routes."
-topic: "[[../Domains and Topics/4 Agent Foundations/Recursive self-improvement]]"
+topic: "[[../Concepts/Recursive self-improvement]]"
 stage: advanced
 authors:
   - Luc+Claude

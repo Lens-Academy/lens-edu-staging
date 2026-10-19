@@ -1,7 +1,7 @@
 ---
 id: '593867e7-102c-4afc-9836-bf5af4763b8e'
 learning-outcome: "Given an agent's rule for approving successors or self-modifications, determine whether the rule tiles (the agent would approve a successor that uses the same rule, so a safety property passes down every chain of successors), explain the Löbian obstacle that stops a rule of the form 'approve only successors that my own proof system proves safe' from approving itself, and explain why a safety property that does not tile is at risk in a self-modifying system."
-topic: "[[../Domains and Topics/4 Agent Foundations/Recursive self-improvement]]"
+topic: "[[../Concepts/Recursive self-improvement]]"
 stage: advanced
 authors:
   - Luc+Claude

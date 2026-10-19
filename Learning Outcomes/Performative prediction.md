@@ -1,7 +1,7 @@
 ---
 id: '2ded3ef3-6f27-49c9-93ad-8d7f59f512bc'
 learning-outcome: "Distinguish a performatively stable prediction (one that is optimal for the outcomes it itself produces) from a performatively optimal one (the lowest loss once the prediction's own effect on outcomes is counted), and use a model of how outcomes respond to predictions to determine where repeated retraining settles, whether it settles at all, and why the settled prediction need not have the lowest loss."
-topic: "[[../Domains and Topics/4 Agent Foundations/Prediction and predictors]]"
+topic: "[[../Concepts/Prediction and predictors]]"
 stage: advanced
 authors:
   - Luc+Claude
