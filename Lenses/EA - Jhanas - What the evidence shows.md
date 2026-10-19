@@ -6,7 +6,7 @@ summary_for_tutor: "Evidence lens. Hagerty et al. 2013 (open-access single-case 
 reading_minutes: 18
 tutor_minutes: 10
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

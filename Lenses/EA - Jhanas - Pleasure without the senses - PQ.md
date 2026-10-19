@@ -6,7 +6,7 @@ summary_for_tutor: "Pre-reading question for the jhanas library module. The lear
 reading_minutes: 2
 tutor_minutes: 4
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

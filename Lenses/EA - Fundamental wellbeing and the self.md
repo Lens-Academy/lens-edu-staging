@@ -6,7 +6,7 @@ summary_for_tutor: "Reading from Jeffery Martin's paper on persistent non-symbol
 reading_minutes: 9
 tutor_minutes: 9
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

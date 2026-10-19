@@ -6,7 +6,7 @@ summary_for_tutor: "Primary voices on the jhanas and happiness. Ayya Khema (Inqu
 reading_minutes: 12
 tutor_minutes: 10
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

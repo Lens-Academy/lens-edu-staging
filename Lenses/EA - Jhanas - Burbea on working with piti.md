@@ -6,7 +6,7 @@ summary_for_tutor: "Optional practice depth. Part of Rob Burbea's instruction ta
 reading_minutes: 10
 tutor_minutes: 0
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

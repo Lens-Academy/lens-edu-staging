@@ -6,7 +6,7 @@ summary_for_tutor: "First lens of the second half of module 3. Excerpts from Gwe
 reading_minutes: 10
 tutor_minutes: 6
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

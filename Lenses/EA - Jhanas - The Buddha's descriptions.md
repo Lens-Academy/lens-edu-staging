@@ -6,7 +6,7 @@ summary_for_tutor: "Two short readings from the Pali Canon in Thanissaro Bhikkhu
 reading_minutes: 10
 tutor_minutes: 13
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

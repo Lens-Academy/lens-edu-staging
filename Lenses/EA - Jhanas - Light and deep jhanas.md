@@ -6,7 +6,7 @@ summary_for_tutor: "Second content lens of the jhanas module. Brasington, 'Inter
 reading_minutes: 18
 tutor_minutes: 10
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

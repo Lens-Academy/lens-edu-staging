@@ -6,7 +6,7 @@ summary_for_tutor: "First reading lens of module 3 (Judging claims), after the p
 reading_minutes: 14
 tutor_minutes: 4
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

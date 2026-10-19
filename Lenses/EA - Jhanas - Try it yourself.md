@@ -6,7 +6,7 @@ summary_for_tutor: "Practice lens of the jhanas module. Reading: Leigh Brasingto
 reading_minutes: 15
 tutor_minutes: 8
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

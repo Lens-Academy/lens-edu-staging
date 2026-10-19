@@ -6,7 +6,7 @@ summary_for_tutor: "The modern jhana movement. Reading 1: Stephen Zerfas (CEO an
 reading_minutes: 22
 tutor_minutes: 8
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

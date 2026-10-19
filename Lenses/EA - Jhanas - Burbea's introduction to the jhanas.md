@@ -6,7 +6,7 @@ summary_for_tutor: "Optional depth. Transcript of Rob Burbea's talk 'An Introduc
 reading_minutes: 40
 tutor_minutes: 0
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::
