@@ -6,7 +6,7 @@ stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Obstruction. AFFINE prerequisites: none listed. Not yet copied into requires:. The AFFINE reading is a short shortform comment pointing to Terence Tao's description of obstructions in mathematics research; the outcome draws on that notion. %%
 ## Test:

@@ -3,7 +3,7 @@ id: '5ea8aeac-4f2c-4a98-b640-6d4219037fac'
 learning-outcome: "Given a claim about the jhanas, say which kind of evidence it rests on (a tradition's text or teacher's report, an anecdote, a company's own figures or survey, a brain study of one or a few experts), name one thing that evidence can show and one it cannot, and, where the wording allows, say whether the claim is about light or deep jhana and what in the wording shows it."
 writing_minutes: 15
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Test for the jhanas library module of Emotional Abundance. The four claims are real, shown without their authors so the learner judges the wording and the evidence type, not the name. Sources below the test. %%
 

@@ -3,7 +3,7 @@ id: '22744166-cb3c-4ab4-8d73-fcaf7c2d253f'
 learning-outcome: "Given someone else's either-or decision about an action, the learner can goal factor it: list the goals the action serves, including unstated social and self-image goals, use hesitation or a button test to find missing goals, and build a replacement plan that serves those goals at lower cost, while staying open to keeping the original action."
 writing_minutes: 12
 tags:
-  - wip
+  - work-in-progress
 ---
 ## Test:
 id:: 858fdcae-a662-4a0c-9334-5419c835569b

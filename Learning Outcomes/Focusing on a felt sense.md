@@ -1,7 +1,7 @@
 ---
 id: '2ff9e00d-07a9-4f4a-bc87-f6702a535977'
 learning-outcome: "Given a record of someone's Focusing attempt, identify where they have left the receptive stance (explaining instead of listening, attending to several feelings at once, rushing) and write a next prompt that brings them back to one felt sense and has them check whether their words fit it."
-tags: [wip]
+tags: [work-in-progress]
 writing_minutes: 8
 ---
 ## Test:

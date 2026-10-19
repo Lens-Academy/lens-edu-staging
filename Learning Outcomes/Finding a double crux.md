@@ -2,7 +2,7 @@
 id: 'f625ee79-b9ee-4480-b060-3e1a84da6a45'
 learning-outcome: "Given a disagreement between two people, separate the beliefs that would actually change each person's mind (cruxes) from supporting arguments that would not, state a double crux as a concrete if-then statement both could accept, and propose a check or test that would settle it."
 writing_minutes: 15
-tags: [wip]
+tags: [work-in-progress]
 ---
 ## Test:
 id:: 692fc6d4-828e-4d64-8469-6c7abd01ac89
