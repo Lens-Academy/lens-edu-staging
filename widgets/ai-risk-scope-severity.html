@@ -717,7 +717,7 @@ body.placing .cell:hover { border-color: var(--accent); }
   $('#pk-save').addEventListener('click', () => closePicker(true));
   $('#pk-skip').addEventListener('click', () => closePicker(false));
   $('#pk-clear').addEventListener('click', () => { if (pk.id) { delete state.prob[pk.id]; save(); render(); } closePicker(false); });
-  picker.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); closePicker(true); } });
+  picker.addEventListener('keydown', e => { if (e.key === 'Enter' && !e.target.closest('button')) { e.preventDefault(); closePicker(true); } });
   // Clicking elsewhere keeps a range the person actually adjusted
   document.addEventListener('pointerdown', e => {
     if (!picker.hidden && !e.target.closest('#picker, .badge')) closePicker(pk.dirty);
