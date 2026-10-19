@@ -1,7 +1,7 @@
 ---
 id: '6d3bbd7c-d255-4663-a2b5-d33aa1e58f67'
 learning-outcome: "Identify where a real AI system departs from the standard (Cartesian) agent model, in which the agent sits outside its environment, interacts only through fixed input and output channels, can model its environment completely, and cannot be changed by its own actions, and explain the specific problem each departure creates for predicting the agent's behaviour or designing it to behave well."
-topic: "[[../Domains and Topics/4 Agent Foundations/Agency]]"
+topic: "[[../Concepts/Agency]]"
 stage: advanced
 authors:
   - Luc+Claude

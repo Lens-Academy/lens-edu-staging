@@ -1,7 +1,7 @@
 ---
 id: 'ae3ca8de-10d0-4aec-89e6-d5efa7078e8c'
 learning-outcome: "Explain how a predictor that weights hypotheses by description length without penalizing running time (as the Solomonoff prior does) can have its predictions steered by agents inside simulated universes, identify which features of the predictor and of the prediction task make this steering possible and worthwhile for those agents, and evaluate whether a proposed change to the predictor removes the problem."
-topic: "[[../Domains and Topics/4 Agent Foundations/Acausal reasoning and anthropics]]"
+topic: "[[../Concepts/Acausal reasoning and anthropics]]"
 stage: advanced
 authors:
   - Luc+Claude
