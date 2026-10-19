@@ -6,7 +6,7 @@ summary_for_tutor: "Pre-reading question for module 3 (Judging claims). The lear
 reading_minutes: 1
 tutor_minutes: 4
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

@@ -6,7 +6,7 @@ summary_for_tutor: "Optional depth lens in module 3. (1) Scott Alexander 2014, '
 reading_minutes: 8
 tutor_minutes: 5
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::
