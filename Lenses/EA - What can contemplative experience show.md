@@ -6,7 +6,7 @@ summary_for_tutor: "Two readings on first-person evidence, which the contemplati
 reading_minutes: 16
 tutor_minutes: 8
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

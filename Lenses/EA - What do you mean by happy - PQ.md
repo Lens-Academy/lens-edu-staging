@@ -6,7 +6,7 @@ summary_for_tutor: "Pre-reading question for the 'what kind of happiness' part o
 reading_minutes: 2
 tutor_minutes: 2
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

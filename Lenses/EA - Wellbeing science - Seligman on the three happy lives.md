@@ -6,7 +6,7 @@ summary_for_tutor: "Second lens of the wellbeing science library module. The lea
 reading_minutes: 24
 tutor_minutes: 8
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

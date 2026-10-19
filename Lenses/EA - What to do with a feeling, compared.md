@@ -6,7 +6,7 @@ summary_for_tutor: "Comparison lens of module 7. A table of eight things schools
 reading_minutes: 10
 tutor_minutes: 10
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

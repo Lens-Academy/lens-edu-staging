@@ -6,7 +6,7 @@ summary_for_tutor: "Last required lens of the wellbeing science library module. 
 reading_minutes: 12
 tutor_minutes: 14
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

@@ -6,7 +6,7 @@ summary_for_tutor: "First lens of the wellbeing science library module. The lear
 reading_minutes: 12
 tutor_minutes: 10
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

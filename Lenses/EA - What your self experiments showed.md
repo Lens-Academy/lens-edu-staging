@@ -6,7 +6,7 @@ summary_for_tutor: "Closing reflection for the module's self experiments. The le
 reading_minutes: 3
 tutor_minutes: 8
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

@@ -6,7 +6,7 @@ summary_for_tutor: "Three brain studies read as a lesson in the limits of such e
 reading_minutes: 10
 tutor_minutes: 8
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

@@ -6,7 +6,7 @@ summary_for_tutor: "Third lens of the wellbeing science library module. Key term
 reading_minutes: 20
 tutor_minutes: 16
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

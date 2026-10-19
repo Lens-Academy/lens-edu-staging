@@ -6,7 +6,7 @@ summary_for_tutor: "Orientation page of the Emotional Abundance course. It state
 reading_minutes: 5
 tutor_minutes: 0
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

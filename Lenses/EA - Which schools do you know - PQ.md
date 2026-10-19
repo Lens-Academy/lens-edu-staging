@@ -6,7 +6,7 @@ summary_for_tutor: "Pre-reading question for the map of the schools. The learner
 reading_minutes: 1
 tutor_minutes: 3
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Question: Open
 id:: d6c4d8b9-faee-455e-8219-acaf7f3eb7d1

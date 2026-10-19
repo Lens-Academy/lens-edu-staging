@@ -6,7 +6,7 @@ summary_for_tutor: "Required reading lens of module 5 (desire). The neuroscienti
 reading_minutes: 10
 tutor_minutes: 12
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

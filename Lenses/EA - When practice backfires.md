@@ -6,7 +6,7 @@ summary_for_tutor: "Reading lens on costs and a checklist. Brown University news
 reading_minutes: 14
 tutor_minutes: 8
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::
