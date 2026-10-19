@@ -28,9 +28,8 @@ content::
 
 If the form doesn't load for you, you can [open it in a new tab](<https://airtable.com/appwUI4Pc2NJPOfmZ/pagHeZnPA3oHwu5Zc/form>).
 
-#### Embed
-source:: [[../articles/airtable-et-fg-post-program-form]]
-inline:: true
+#### Widget
+source:: [[../widgets/facilitator-post-program-feedback-form]]
 
 #### End Callout
 
