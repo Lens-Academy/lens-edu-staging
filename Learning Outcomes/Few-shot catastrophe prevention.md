@@ -1,7 +1,7 @@
 ---
 id: '427a3bd9-2772-4321-bf68-a32d37efcad1'
 learning-outcome: "Given one or a few confirmed escape attempts by a model that a lab keeps deploying, propose ways to use them to make the next attempt less likely to succeed (such as generating varied versions of the attempt, checking which safeguards actually stopped it, training monitors on the examples and re-checking the model's earlier actions) and say what each would buy the lab."
-topic: "[[../Domains and Topics/7 AI Control/Evaluating and using control]]"
+topic: "[[../Concepts/Evaluating and using control]]"
 stage: intermediate
 requires:
   - "[[Catching models red-handed]]"

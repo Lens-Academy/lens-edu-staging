@@ -1,7 +1,7 @@
 ---
 id: '303b386d-e29c-45d8-a91f-375ce117f79e'
 learning-outcome: "Evaluate a proposed setting for high-stakes control research (a set of tasks plus a checkable safety failure) by checking whether the main tasks separate the untrusted model from the trusted model without being saturated, whether main-task success can be measured robustly enough for protocols to be optimised against it, whether the safety failure stays meaningful when a red team looks for the weakest version that still counts, and whether the capability an attack needs is one the main tasks also need; and propose a concrete fix for a serious flaw."
-topic: "[[../Domains and Topics/7 AI Control/Evaluating and using control]]"
+topic: "[[../Concepts/Evaluating and using control]]"
 stage: intermediate
 requires:
   - "[[Control evaluation methodology]]"

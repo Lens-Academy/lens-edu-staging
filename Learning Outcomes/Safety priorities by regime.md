@@ -1,7 +1,7 @@
 ---
 id: '297aa11e-89ec-46d6-b8f8-6a7581724d69'
 learning-outcome: "Given the situation of an AI developer, diagnose its regime (what is probably true about how misaligned its models are, what it can justifiably know about that, and what it can afford to spend on safety given the political will inside and outside the company and its lead over rivals) and which of these most limits safety work, use that diagnosis to decide how a fixed amount of safety effort should be split across research agendas, naming where the next unit of effort goes and through what mechanism it pays off, and the allocation the team would protect above all others, and explain how the split should change when the regime changes."
-topic: "[[../Domains and Topics/7 AI Control/Evaluating and using control]]"
+topic: "[[../Concepts/Evaluating and using control]]"
 stage: intermediate
 authors:
   - Elias+Claude
