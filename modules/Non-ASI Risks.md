@@ -2,8 +2,6 @@
 id: '4934bbf7-1278-42c9-b901-3db5084a090a'
 slug: non-asi-risks
 title: "Non-ASI Existential Risks"
-tags:
-  - wip
 ---
 
 # Submodule: Welcome
@@ -23,6 +21,7 @@ content::
 To do.
 
 # Submodule: Gradual Disempowerment
+
 # Lens: To do
 id:: 6da0af3d-3693-4fdb-beb5-1c9039c2b514
 #### Text
@@ -37,6 +36,7 @@ id:: 6aa13795-a414-4945-b176-8aea3bacecbb
 source:: [[../video_transcripts/rational-animations-s-risks-fates-worse-than-extinction]]
 
 # Submodule: AI-Triggered Nuclear War
+
 # Lens: To do
 id:: baf2cfaa-a668-4a8c-af80-4ac5d4691771
 #### Text
