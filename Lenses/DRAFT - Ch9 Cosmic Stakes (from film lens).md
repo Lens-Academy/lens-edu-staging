@@ -6,7 +6,7 @@ title: Ascension (draft skeleton)
 tldr: "TODO. One sentence to the learner. An analogy beats a summary."
 summary_for_tutor: "DRAFT SKELETON, orphaned. A copy of [[../Lenses/IABIED - One Extinction Scenario (Video)]] with the video swapped for Chapter 9 and every claim about the chapter's content left as a TODO, because whoever drafted this could not open Lens Edu Private. Sits immediately after the film lens in U3, so the scenario stops at Expansion and the chapter supplies Ascension. Four beats: a framing text, a pre-reading prediction of what the AI does once humanity is gone, the reading, and a reaction question, then a closing segment that returns the student to their own prediction. Not referenced by any module."
 tags:
-  - wip
+  - work-in-progress
 authors:
   - Andreas+Claude
 ---

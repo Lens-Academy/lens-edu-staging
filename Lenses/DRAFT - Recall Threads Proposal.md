@@ -6,7 +6,7 @@ title: Recall threads, a proposal
 tldr: "The course teaches its concepts once each and never asks for them again. This proposes fixing that by asking learners to search for what applies, rather than telling them which principle to use."
 summary_for_tutor: "DRAFT, orphaned. An internal proposal document written as a lens so it can be read on the platform. Argues the theory of change behind adding retrieval prompts to AI Risk Fundamentals, and links two worked examples. Audience is the team, not learners. Not referenced by any module."
 tags:
-  - wip
+  - work-in-progress
 authors:
   - Andreas+Claude
 ---
