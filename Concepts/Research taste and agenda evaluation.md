@@ -1,8 +1,5 @@
 ---
 id: '7803d6eb-5ce9-4362-ba06-e3e396044d6c'
-learning-outcome: "Build a theory of change for Research taste and agenda evaluation"
-topic: "[[../Concepts/The research landscape]]"
-stage: intermediate
-tags:
-  - skill-tree-placeholder
+parent-concepts:
+  - "[[The research landscape]]"
 ---
