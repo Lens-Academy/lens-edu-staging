@@ -1,7 +1,7 @@
 ---
 id: '633b6ab1-f386-4aee-a6c9-22b78086a69a'
 learning-outcome: "Apply unbounded analysis to a problem: ask whether it could be solved given unlimited computing power, use the answer to tell whether the remaining difficulty is conceptual (we cannot say what to compute) or only computational (we can say it but cannot afford it), and detect a proposed unbounded solution that hides the real difficulty in a simplifying assumption or an undefined term."
-topic: "[[../Domains and Topics/4 Agent Foundations/Agent foundations research]]"
+topic: "[[../Concepts/Agent foundations research]]"
 stage: advanced
 authors:
   - Luc+Claude

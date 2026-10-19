@@ -1,7 +1,7 @@
 ---
 id: 'dc61d056-c39e-4f7b-a53c-d0f0904a017f'
 learning-outcome: "Given a pattern of an agent's choices, determine whether any consistent preference over the stated outcomes could explain it, construct a sequence of choices through which the inconsistency leaves the agent with a dominated result, and explain how redefining what the agent's preferences are about (for example whole histories instead of end results) can remove the inconsistency and what that redefinition costs the argument."
-topic: "[[../Domains and Topics/4 Agent Foundations/Goal-directedness and coherence]]"
+topic: "[[../Concepts/Goal-directedness and coherence]]"
 stage: intermediate
 authors:
   - Luc+Claude

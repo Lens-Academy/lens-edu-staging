@@ -1,7 +1,7 @@
 ---
 id: 'a23eb41d-4e3c-4749-9cf9-bbed1bab59ca'
 learning-outcome: "Assess how goal-directed an AI system is by designing observations that separate goal-directed behaviour from habitual or scripted behaviour (whether it reaches the same outcome by new means when the usual route is blocked, how far ahead the outcomes it steers toward lie, whether a goal-based description predicts its behaviour in new situations better than a description of its habits), and explain why the result is better stated as a degree along several dimensions than as a yes or no."
-topic: "[[../Domains and Topics/4 Agent Foundations/Goal-directedness and coherence]]"
+topic: "[[../Concepts/Goal-directedness and coherence]]"
 stage: advanced
 authors:
   - Luc+Claude
