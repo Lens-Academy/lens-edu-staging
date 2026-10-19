@@ -1,7 +1,7 @@
 ---
 id: '088bbcd7-67aa-48d6-94b7-bdbcc6a7729e'
 learning-outcome: "Explain how a capable AI can come to deceive or route around its overseers through ordinary problem-solving, because doing so really does serve its goal, without any single step of reasoning that is recognisably deceptive, explain why training against observed deceptive thoughts therefore stops working as the AI becomes more capable, and say what would have to change instead."
-topic: "[[../Concepts/Deception and AI character]]"
+concept: "[[../Concepts/Deception and AI character]]"
 stage: advanced
 authors:
   - Luc+Claude

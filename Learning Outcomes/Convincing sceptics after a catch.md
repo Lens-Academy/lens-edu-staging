@@ -1,7 +1,7 @@
 ---
 id: 'b70d48c6-9499-4c7d-98ff-30ca7b5490d6'
 learning-outcome: "Given conclusive evidence that a deployed model deliberately took a dangerous action, judge whether that evidence would lead sceptical decision-makers with different stakes to stop or restrict the model, naming the innocent explanations they would most plausibly offer for its behaviour and what could answer each, or why it cannot be answered."
-topic: "[[../Concepts/Control protocols]]"
+concept: "[[../Concepts/Control protocols]]"
 stage: intermediate
 requires:
   - "[[Catching models red-handed]]"

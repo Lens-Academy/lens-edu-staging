@@ -1,7 +1,7 @@
 ---
 id: '68d1b169-f44c-49b0-907f-1f1b91522847'
 learning-outcome: "Draft the terms of a deal with a suspected early misaligned AI, specifying what the developer buys, what it pays and in what form, without the payment itself raising the risk of takeover, when each payment is released relative to when the matching part of the AI's side can be verified (now or only retroactively), where unreleased payment is held so the developer cannot simply take it back, and how the AI's other instances come to know of the deal, and justify each term by the counterparty risk it addresses for the AI or for the developer."
-topic: "[[../Concepts/Living with advanced agents]]"
+concept: "[[../Concepts/Living with advanced agents]]"
 stage: intermediate
 requires:
   - "[[Bargaining with early misaligned AIs]]"

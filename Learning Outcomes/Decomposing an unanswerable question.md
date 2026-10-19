@@ -1,7 +1,6 @@
 ---
 id: '6d2803a1-c7b0-4f75-b156-3ec9fd6e2a82'
 learning-outcome: Given an unfamiliar question with no available reference class of its own, break it into sub-questions each of which has a reference class or a measurable quantity, state for each sub-question what evidence would settle it, combine them into an estimate, and name the sub-question whose error dominates the result.
-topic: none
 stage: intermediate
 eval-results:
   content-sha: ec1c1535

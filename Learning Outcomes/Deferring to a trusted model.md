@@ -1,7 +1,7 @@
 ---
 id: '181f044a-76cc-4be0-939a-9068fa93739e'
 learning-outcome: "For a protocol that replaces an untrusted model's moderately suspicious outputs with work from a weaker trusted model instead of using or auditing them, explain how widening that band raises safety, including how it forces a best-responding attacker into attacks that cost it success (subtler attacks that more often fail, or fewer usable opportunities), explain what sets its cost in usefulness (the share of mostly innocent outputs replaced and the capability gap between the two models), and predict how a change to the band or to the trusted model moves safety and usefulness."
-topic: "[[../Concepts/Control protocols]]"
+concept: "[[../Concepts/Control protocols]]"
 stage: intermediate
 requires:
   - "[[Trusted versus untrusted models]]"

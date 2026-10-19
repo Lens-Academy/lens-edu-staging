@@ -1,7 +1,7 @@
 ---
 id: 'ede31897-b47f-421b-afcd-52c3dcd69f5b'
 learning-outcome: "Explain how dispositions that form early in a learning system can become self-reinforcing (the current dispositions shape which inputs, actions and training signals the system meets, and these in turn maintain the dispositions), and use this to predict which of a system's dispositions later training will change easily and which it will leave in place or restore."
-topic: "[[../Concepts/Agency]]"
+concept: "[[../Concepts/Agency]]"
 stage: advanced
 authors:
   - Luc+Claude

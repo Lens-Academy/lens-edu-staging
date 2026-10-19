@@ -1,7 +1,7 @@
 ---
 id: '6877082d-d757-4df3-ba75-5ca13dd27779'
 learning-outcome: "For a specified way a possibly scheming model could cause harm in a given deployment, propose a layered set of control measures that covers prevention (limiting what the model can reach or do), detection and response; decide for each response whether it must act before the model's action takes effect or can act afterwards, based on whether the harm is concentrated in a few actions and whether it can be undone; and for each measure name what it costs and how a model that knows about it could get around it."
-topic: "[[../Concepts/Control protocols]]"
+concept: "[[../Concepts/Control protocols]]"
 stage: intermediate
 requires:
   - "[[Control threat modeling]]"

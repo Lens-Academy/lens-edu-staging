@@ -1,7 +1,7 @@
 ---
 id: 'e779d912-f74c-4a6c-8b42-21fdd9888bce'
 learning-outcome: "Evaluate a low-probability, high-stakes argument by distinguishing uncertainty within a model from uncertainty about the model, assessing evidential robustness, and identifying when unknown downstream effects create genuine competing reasons rather than merely unspecified possibilities."
-topic: "[[../Concepts/Quantitative reasoning]]"
+concept: "[[../Concepts/Quantitative reasoning]]"
 stage: beginner
 tags:
   - learning-outcome
