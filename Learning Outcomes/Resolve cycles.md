@@ -3,7 +3,7 @@ id: 'c90eaf17-c469-446a-a10a-01a5a95fa409'
 learning-outcome: "Coach another person through resolve cycles on a problem they believe cannot be solved quickly: keep the first five minutes an actual attempt to solve it rather than a plan, keep each brainstormed next action to five minutes or less, and get them to start one, while the ideas stay theirs"
 writing_minutes: 12
 tags:
-  - wip
+  - work-in-progress
 ---
 ## Test:
 id:: a831ee29-e7ea-456c-9e5a-26074ae96d38

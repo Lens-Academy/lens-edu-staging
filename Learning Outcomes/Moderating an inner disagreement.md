@@ -1,7 +1,7 @@
 ---
 id: '9a030763-7a75-4c18-931d-20a892f83daa'
 learning-outcome: "Given someone's written Internal Double Crux, spot where it breaks the technique (names that take sides, acknowledgements skipped or perfunctory, several points in one turn, one side overruled rather than answered) and recognise when it is being used to talk oneself into a conclusion, then rewrite the next turns so both sides get a fair hearing."
-tags: [wip]
+tags: [work-in-progress]
 writing_minutes: 10
 ---
 ## Test:

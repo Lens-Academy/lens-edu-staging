@@ -6,7 +6,7 @@ stage: intermediate
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Perils of Predictors. AFFINE prerequisites: Agency, Performative Prediction. Not yet copied into requires:. %%
 ## Test:
