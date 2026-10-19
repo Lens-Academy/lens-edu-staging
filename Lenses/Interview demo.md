@@ -4,8 +4,6 @@ duration_minutes: 15
 tldr: "A demo lens showing how an Interview segment works: an AI interviewer asks the three forecasting-methods test questions aloud, probes thin answers, and a separate assessor scores each question."
 summary_for_tutor: "Demonstrates the Interview segment type. The learner is interviewed on the three learning outcomes of the forecasting-methods module (decomposition, extrapolation validity, aggregation). The interviewer asks each question in order and may probe twice; scoring happens afterwards, one call per question."
 title: Interview demo
-tags:
-  - wip
 ---
 
 #### Text
