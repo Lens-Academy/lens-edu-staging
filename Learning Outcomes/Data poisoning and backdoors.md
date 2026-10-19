@@ -1,8 +1,5 @@
 ---
 id: '12283832-4326-48e4-82e6-16653f3d9fc6'
-learning-outcome: "Threat-model Data poisoning and backdoors"
-topic: "[[../Domains and Topics/8 Cybersecurity/Securing models and pipelines]]"
-stage: intermediate
-tags:
-  - skill-tree-placeholder
+parent-concepts:
+  - "[[Securing models and pipelines]]"
 ---
