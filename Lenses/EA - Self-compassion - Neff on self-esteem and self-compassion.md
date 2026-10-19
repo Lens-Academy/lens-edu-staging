@@ -6,7 +6,7 @@ summary_for_tutor: "Second lens of the self-compassion library module. After doi
 reading_minutes: 22
 tutor_minutes: 6
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

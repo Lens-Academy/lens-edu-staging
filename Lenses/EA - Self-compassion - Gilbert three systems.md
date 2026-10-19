@@ -6,7 +6,7 @@ summary_for_tutor: "Fourth lens of the self-compassion library module. Paul Gilb
 reading_minutes: 18
 tutor_minutes: 8
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

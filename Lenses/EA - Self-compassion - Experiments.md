@@ -6,7 +6,7 @@ summary_for_tutor: "Experiments lens of the self-compassion library module. Four
 reading_minutes: 12
 tutor_minutes: 6
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

@@ -6,7 +6,7 @@ summary_for_tutor: "Opening lens of the self-compassion library module, before a
 reading_minutes: 8
 tutor_minutes: 3
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

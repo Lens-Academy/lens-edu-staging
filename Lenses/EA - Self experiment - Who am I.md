@@ -6,7 +6,7 @@ summary_for_tutor: "First-person experiment from Advaita Vedanta: Ramana Maharsh
 reading_minutes: 18
 tutor_minutes: 4
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

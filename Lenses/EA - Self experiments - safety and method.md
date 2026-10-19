@@ -6,7 +6,7 @@ summary_for_tutor: "Method and safety page for the module's self experiments (Ha
 reading_minutes: 11
 tutor_minutes: 0
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

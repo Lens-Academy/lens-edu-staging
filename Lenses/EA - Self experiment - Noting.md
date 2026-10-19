@@ -6,7 +6,7 @@ summary_for_tutor: "Optional first-person experiment from Theravada Buddhism: Ma
 reading_minutes: 23
 tutor_minutes: 4
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

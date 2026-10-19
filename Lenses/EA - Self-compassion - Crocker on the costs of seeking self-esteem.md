@@ -6,7 +6,7 @@ summary_for_tutor: "Third lens of the self-compassion library module. The learne
 reading_minutes: 22
 tutor_minutes: 8
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::
