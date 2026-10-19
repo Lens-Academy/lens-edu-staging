@@ -6,7 +6,7 @@ summary_for_tutor: "Short lens on adverse effects, as they bear on secular progr
 reading_minutes: 8
 tutor_minutes: 4
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

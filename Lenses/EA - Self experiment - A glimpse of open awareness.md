@@ -6,7 +6,7 @@ summary_for_tutor: "Optional first-person experiment from Loch Kelly's 'effortle
 reading_minutes: 18
 tutor_minutes: 4
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

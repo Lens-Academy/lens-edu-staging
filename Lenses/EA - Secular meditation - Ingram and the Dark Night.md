@@ -7,7 +7,7 @@ reading_minutes: 19
 tutor_minutes: 10
 sidebar_author: Daniel Ingram
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

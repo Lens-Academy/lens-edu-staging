@@ -7,7 +7,7 @@ reading_minutes: 13
 tutor_minutes: 6
 sidebar_author: Shinzen Young
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

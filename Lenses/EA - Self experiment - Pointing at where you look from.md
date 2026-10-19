@@ -6,7 +6,7 @@ summary_for_tutor: "First-person experiment from the 'headless way' of Douglas H
 reading_minutes: 8
 tutor_minutes: 5
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

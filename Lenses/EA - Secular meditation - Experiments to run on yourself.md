@@ -6,7 +6,7 @@ summary_for_tutor: "Experiments lens of the secular and pragmatic meditation mod
 reading_minutes: 11
 tutor_minutes: 10
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

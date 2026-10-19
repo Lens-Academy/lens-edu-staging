@@ -6,7 +6,7 @@ summary_for_tutor: "Evidence lens of the secular meditation module. Readings: Va
 reading_minutes: 15
 tutor_minutes: 7
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

@@ -6,7 +6,7 @@ summary_for_tutor: "Opening lens of the secular and pragmatic meditation library
 reading_minutes: 12
 tutor_minutes: 7
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::
