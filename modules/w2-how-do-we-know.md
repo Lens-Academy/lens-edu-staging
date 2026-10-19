@@ -91,6 +91,13 @@ source:: [[../Lenses/U2 - Nonlinear Interactions Workshop]]
 # Lens: A Forecast Is An Action
 source:: [[../Lenses/U2 - A Forecast Is An Action]]
 
+# Lens: AI 2040 - First Three Years
+source:: [[../Lenses/U2 - AI 2040 First Three Years]]
+optional:: true
+
+# Lens: Selective Optimism
+source:: [[../Lenses/U2 - Selective Optimism]]
+
 # Lens: AI 2027 - The Choice To Slow Down
 source:: [[../Lenses/U2 - AI 2027 - The Choice To Slow Down]]
 
