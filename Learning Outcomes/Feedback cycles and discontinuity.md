@@ -1,7 +1,7 @@
 ---
 id: 7635aa6d-ce02-407d-a1ad-0247479b963c
 discussion: <discord url>
-topic: "[[../Concepts/Takeoff dynamics]]"
+concept: "[[../Concepts/Takeoff dynamics]]"
 stage: intermediate
 ---
 

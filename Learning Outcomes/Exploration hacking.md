@@ -1,7 +1,7 @@
 ---
 id: '71c14b70-ef3c-45e8-b78d-6db6359f950d'
 learning-outcome: "Given the evidence from an RL run that fails to raise a model's performance on a task, judge whether the model is exploration hacking, which requires systematic under-sampling of the target behaviour, a latent capability shown by a semantically similar prompt or by nearby weights that produce the behaviour, and that the model alters its exploration strategically in order to influence the training outcome, as opposed to, for example, a trained refusal that is not aimed at the training."
-topic: "[[../Concepts/Control threat models]]"
+concept: "[[../Concepts/Control threat models]]"
 stage: intermediate
 requires:
   - "[[Exploration hacking risk]]"

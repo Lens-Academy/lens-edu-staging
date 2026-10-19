@@ -8,7 +8,7 @@ authors:
   - Chris+Claude
 tags:
   - optional
-topic: "[[../Concepts/Predicting outcomes, not paths]]"
+concept: "[[../Concepts/Predicting outcomes, not paths]]"
 stage: beginner
 eval-results:
   content-sha: ae70fd93

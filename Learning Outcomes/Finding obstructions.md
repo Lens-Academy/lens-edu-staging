@@ -1,7 +1,7 @@
 ---
 id: 'f5de2870-f274-471f-830f-bb936dcc9c56'
 learning-outcome: "Given a proposed approach to an alignment problem, identify an obstruction: a general reason, stated relative to explicit assumptions, why this approach and every approach sharing its key feature cannot succeed as intended; and distinguish it from a single counterexample or fixable flaw that a patch to the approach would remove."
-topic: "[[../Concepts/Agent foundations research]]"
+concept: "[[../Concepts/Agent foundations research]]"
 stage: advanced
 authors:
   - Luc+Claude
