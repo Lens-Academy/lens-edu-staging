@@ -5,7 +5,7 @@ tldr: "Fix when and where you will run your comfort zone experiment, what you wi
 summary_for_tutor: "Closing lens of week 4 of a CFAR-style applied rationality workshop. The learner has just designed a Comfort Zone Exploration (CoZE) experiment with the tutor and now commits to running it in real life this week: what, when and where, what they will pay attention to inside and outside, and what would count as useful data. Next week's module opens by showing them this plan and asking what happened. A CoZE experiment succeeds by gathering data, including the finding that a fence is in the right place, not by pushing through."
 reading_minutes: 2
 tutor_minutes: 5
-tags: [wip]
+tags: [work-in-progress]
 ---
 #### Text
 content::

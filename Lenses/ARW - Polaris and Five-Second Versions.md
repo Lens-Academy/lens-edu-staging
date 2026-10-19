@@ -5,7 +5,7 @@ tldr: "The steps of a technique are scaffolding. Keep the goal in sight, use tin
 summary_for_tutor: "Library lens of the Applied Rationality Workshop: the CFAR Handbook's flash class post on Polaris (keep the overall goal in sight instead of following a technique's steps rigidly), Five-Second Versions (fragments of techniques used on the spot, many times a day) and Thought Lengths (the ray model: some stimulus-response patterns are too short and need lengthening, others too long and need shortening). The learner answers the post's own two questions about thoughts that are too short and too long."
 reading_minutes: 12
 tutor_minutes: 4
-tags: [wip]
+tags: [work-in-progress]
 ---
 #### Text
 content::

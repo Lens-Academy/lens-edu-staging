@@ -6,7 +6,7 @@ summary_for_tutor: "Opening lens of week 4 of a CFAR-style applied rationality w
 reading_minutes: 3
 tutor_minutes: 15
 min_chat_messages: 3
-tags: [wip]
+tags: [work-in-progress]
 ---
 #### Text
 content::

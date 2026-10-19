@@ -5,7 +5,7 @@ tldr: "The last experiment of the course does not end after a week: write down t
 summary_for_tutor: "Closing lens of the Applied Rationality Workshop (week 6 of 6). Every week ended with a one-week real-life experiment. This last one is the ongoing practice commitment after the course: one or two techniques the learner will keep, each with a trigger-action plan for its five-second version, a monthly review with a date, and how they will know in a month whether it is working. The learner usually planned this with the tutor on the previous page and pastes the summary here. There is no report-back page after this one, so the monthly review is where they check."
 reading_minutes: 2
 tutor_minutes: 6
-tags: [wip]
+tags: [work-in-progress]
 ---
 #### Text
 content::

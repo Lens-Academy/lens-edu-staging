@@ -5,7 +5,7 @@ tldr: "To teach something well you need to know how beginners get it wrong. You 
 summary_for_tutor: "Week 6 of the Applied Rationality Workshop. Teaches the CFAR Handbook's Seeking PCK (pedagogical content knowledge): knowledge of a topic that is also knowledge of how learners meet it (common misconceptions, bad habits, what it is like to be a beginner). Case study: partitive division (equal sharing) and quotitive division (repeated subtraction) look the same as 12 ÷ 4 = 3 but are different for children, so they are taught separately. The main tool is curiosity about the learner's experience ('What is it like for this person, as they encounter this material?'), as in clinical interviewing: ask what the learner's tokens or steps mean to them instead of pointing out the error. The learner writes their own PCK about this course, picks one technique to teach in five minutes at the group meeting (the tutoring wheel), and practises teaching it in a roleplay with Robin, a beginner who develops a misconception that only comes out through curious questions."
 reading_minutes: 10
 tutor_minutes: 30
-tags: [wip]
+tags: [work-in-progress]
 ---
 #### Text
 content::

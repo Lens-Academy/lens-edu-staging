@@ -5,7 +5,7 @@ tldr: "Pick one technique from this week, decide when you will use it on a real 
 summary_for_tutor: "Closing lens of week 5 (Inner work) of a CFAR-style applied rationality workshop. The learner commits to one real-life experiment this week with Focusing, Bucket Errors, Againstness or Internal Double Crux: what, when, which bug, and how they would know it changed anything. Next week's module opens by showing them this plan and asking what happened. The course judges techniques by real change, not by whether the learner liked them. Experiments this week should stay small and low-stakes, and skipping inner work in favour of a technique from an earlier week is allowed."
 reading_minutes: 2
 tutor_minutes: 7
-tags: [wip]
+tags: [work-in-progress]
 ---
 #### Text
 content::

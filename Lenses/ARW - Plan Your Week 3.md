@@ -6,7 +6,7 @@ summary_for_tutor: "Closing lens of week 3 (Motivation) of the Applied Rationali
 reading_minutes: 3
 tutor_minutes: 7
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::
