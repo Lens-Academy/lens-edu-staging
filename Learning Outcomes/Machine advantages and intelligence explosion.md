@@ -9,7 +9,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-topic: "[[../Concepts/Machine advantages]]"
+concept: "[[../Concepts/Machine advantages]]"
 stage: beginner
 requires:
   - "[[Intelligence as prediction plus steering]]"

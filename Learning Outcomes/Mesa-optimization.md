@@ -1,7 +1,7 @@
 ---
 id: 'cc0b71b0-c9c3-4b7c-b7b1-c42697f5d25d'
 learning-outcome: "Given a training setup, explain how the trained model could itself become an optimizer whose internal objective differs from the training objective while producing the same behaviour on the training distribution, predict how the two objectives would diverge in deployment, and explain why the training process no longer corrects that divergence once training has stopped."
-topic: "[[../Concepts/Inner and outer alignment]]"
+concept: "[[../Concepts/Inner and outer alignment]]"
 stage: advanced
 authors:
   - Luc+Claude

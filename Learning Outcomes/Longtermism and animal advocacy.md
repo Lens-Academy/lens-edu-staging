@@ -3,7 +3,6 @@ id: 9805ec0b-74f0-4544-ba98-7cf4bf37f276
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-topic: none
 ---
 
 > **Not in the skill tree:** Animal-cause content from the EA partnership course.

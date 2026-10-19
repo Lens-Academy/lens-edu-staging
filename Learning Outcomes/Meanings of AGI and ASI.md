@@ -1,7 +1,7 @@
 ---
 id: 'd7a1e34e-afa5-4f27-ad3a-da5a508c5ecf'
 learning-outcome: "Take a claim that uses 'AGI' or 'superintelligence', identify which dimension the claim uses as its threshold (breadth across tasks, the human comparison group, the length of tasks a system can carry out, economic or societal impact, or autonomy), show how parties using different thresholds can both be right or talk past each other, and restate the claim as a checkable capability claim that fits the purpose it is used for."
-topic: "[[../Concepts/What intelligence is]]"
+concept: "[[../Concepts/What intelligence is]]"
 stage: intermediate
 authors:
   - Luc+Claude

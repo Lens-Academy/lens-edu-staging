@@ -1,7 +1,7 @@
 ---
 id: 'bbb81b7e-0d27-4c55-b72a-3e9814c02e11'
 learning-outcome: "Diagnose how optimising for clearly measurable indicators erodes the hard-to-measure parts of a value, distinguishing neglect (unmeasured components lose effort and resources) and value capture (the agent's value itself is redefined as the measurable version) from ordinary gaming of a metric, and propose remedies matched to each mechanism."
-topic: "[[../Concepts/Inner and outer alignment]]"
+concept: "[[../Concepts/Inner and outer alignment]]"
 stage: advanced
 authors:
   - Luc+Claude
