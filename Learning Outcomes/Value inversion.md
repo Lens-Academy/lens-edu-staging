@@ -1,7 +1,7 @@
 ---
 id: '48fab50e-752f-4914-89b9-f31f04891517'
 learning-outcome: "Explain why an AI design that explicitly represents what we most disvalue sits close, in the space of possible designs, to a system that pursues those outcomes (through sign errors, near-miss specification, or threats aimed at what it disvalues), why such inverted failures can be worse than ordinary misalignment, and evaluate design choices that keep a system's worst possible outcomes far from its specification."
-topic: "[[../Domains and Topics/4 Agent Foundations/Values]]"
+topic: "[[../Concepts/Values]]"
 stage: advanced
 authors:
   - Luc+Claude

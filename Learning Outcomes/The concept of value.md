@@ -1,7 +1,7 @@
 ---
 id: '2e686f03-11a7-4203-bafb-6f75bc87ad4c'
 learning-outcome: "Given a proposal to align an AI system with a person's or humanity's 'values', identify what the proposal takes values to be (for example, revealed choices, stated preferences, reward signals, or what the person would endorse on reflection), and construct a concrete case in which that conception and another plausible one come apart, so that the system would act against the person's values in the other sense."
-topic: "[[../Domains and Topics/4 Agent Foundations/Values]]"
+topic: "[[../Concepts/Values]]"
 stage: intermediate
 authors:
   - Luc+Claude
