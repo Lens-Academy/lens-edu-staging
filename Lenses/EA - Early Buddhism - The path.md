@@ -6,7 +6,7 @@ summary_for_tutor: "Third lens of the early Buddhism library module. (1) Bhikkhu
 reading_minutes: 17
 tutor_minutes: 8
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

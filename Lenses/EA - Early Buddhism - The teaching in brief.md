@@ -6,7 +6,7 @@ summary_for_tutor: "First lens of the library module on early Buddhism and Thera
 reading_minutes: 14
 tutor_minutes: 3
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

@@ -6,7 +6,7 @@ summary_for_tutor: "Last lens of the tour. The course has a library with one mod
 reading_minutes: 3
 tutor_minutes: 4
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

@@ -6,7 +6,7 @@ summary_for_tutor: "Short map of the course's second strand, the reality questio
 reading_minutes: 7
 tutor_minutes: 5
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

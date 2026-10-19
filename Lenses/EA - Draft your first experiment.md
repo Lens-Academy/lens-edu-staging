@@ -6,7 +6,7 @@ summary_for_tutor: "Last lens of module 3. The learner drafts a protocol for tes
 reading_minutes: 2
 tutor_minutes: 20
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

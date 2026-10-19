@@ -6,7 +6,7 @@ summary_for_tutor: "Second reading lens of module 7: what three non-clinical tra
 reading_minutes: 16
 tutor_minutes: 10
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

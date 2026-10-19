@@ -6,7 +6,7 @@ summary_for_tutor: "Required reading lens of module 5 (desire). Primary texts in
 reading_minutes: 12
 tutor_minutes: 12
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

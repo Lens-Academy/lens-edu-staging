@@ -6,7 +6,7 @@ summary_for_tutor: "Second lens of the early Buddhism library module. Primary te
 reading_minutes: 12
 tutor_minutes: 8
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

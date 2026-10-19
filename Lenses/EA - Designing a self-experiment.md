@@ -6,7 +6,7 @@ summary_for_tutor: "Second lens of the second half of module 3. Readings: (1) Se
 reading_minutes: 14
 tutor_minutes: 6
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

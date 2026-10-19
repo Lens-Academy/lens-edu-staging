@@ -6,7 +6,7 @@ summary_for_tutor: "Experiments lens of the early Buddhism library module. Five 
 reading_minutes: 10
 tutor_minutes: 6
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

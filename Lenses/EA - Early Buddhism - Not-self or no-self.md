@@ -6,7 +6,7 @@ summary_for_tutor: "Optional lens of the early Buddhism library module, on a deb
 reading_minutes: 20
 tutor_minutes: 9
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

@@ -6,7 +6,7 @@ summary_for_tutor: "Optional depth lens in module 3, after 'Reports from the ins
 reading_minutes: 8
 tutor_minutes: 4
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::
