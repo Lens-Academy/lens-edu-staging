@@ -44,7 +44,7 @@ Scott Garrabrant’s post [(A -> B) -> A](https://www.lesswrong.com/posts/qhsELH
 
 In pure abstract functional terms, the overall type signature is (A -> B) -> A. Lots of other type information is missing from this - there’s nothing about the types of the actions or the outcomes, for instance. But it seems like the right basic setup at a high level.
 
-![](https://lh3.googleusercontent.com/Gai8r-RTcte3_nY-C_Pxdd95saB94r9NzDq22V5EVyecXzg6xUaZee3GhoEyn9sEEhJixy5GRsSRluRyR7OM23fJ7nmcmyGEmj24xOVUh4RbS4pUNus3ARuvHbtpf3A0omjELDDb=s0)
+{--{"author":"James's AI","timestamp":1792404624772}@@![](https://lh3.googleusercontent.com/Gai8r-RTcte3_nY-C_Pxdd95saB94r9NzDq22V5EVyecXzg6xUaZee3GhoEyn9sEEhJixy5GRsSRluRyR7OM23fJ7nmcmyGEmj24xOVUh4RbS4pUNus3ARuvHbtpf3A0omjELDDb=s0)--}{++{"author":"James's AI","timestamp":1792404624772}@@![A cloud labelled as the model, containing A with an arrow to B, and an arrow from the cloud back to A](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/wentworth-selection-theorems-agent-type-signature.png)++}
 
 The model (A -> B), shown diagrammatically as a cloud, causes the choice of action A. Note that there is actually no loop here! There’s just the [Hofstaderian](https://www.amazon.com/gp/product/0465026567/) “strange loop”, in which node A depends on the _model_ of later nodes, not on the later nodes themselves.
 
@@ -110,7 +110,7 @@ The [Gooder Regulator Theorem](https://www.lesswrong.com/posts/Dx9LoqsEh3gHNJMDk
 
 Biological organisms are highly modular, at multiple different scales. This can be quantified and verified statistically, e.g. by mapping out protein networks and algorithmically partitioning them into parts, then comparing the connectivity of the parts. It can also be seen more qualitatively in everyday biological work: proteins have subunits which retain their function when fused to other proteins, receptor circuits can be swapped out to make bacteria follow different chemical gradients, manipulating specific genes can turn a fly’s antennae into legs, organs perform specific functions, etc, etc.
 
-![](https://lh5.googleusercontent.com/MYPZUFU1btU6qziBU2ETpEqZmSGqmPvev_kVnI-RBU37ZucsqT185i2jmK4ccJjDV0D12glmZhFEy15q75VllBxvS807ztWRxfVWe6m7km2C9XOhQ34aVMxKWWbLa95cJZM6uKhG=s0)
+{--{"author":"James's AI","timestamp":1792404629042}@@![](https://lh5.googleusercontent.com/MYPZUFU1btU6qziBU2ETpEqZmSGqmPvev_kVnI-RBU37ZucsqT185i2jmK4ccJjDV0D12glmZhFEy15q75VllBxvS807ztWRxfVWe6m7km2C9XOhQ34aVMxKWWbLa95cJZM6uKhG=s0)--}{++{"author":"James's AI","timestamp":1792404629042}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/wentworth-selection-theorems-modularity.png)++}
 
 This is not the sort of thing which happens from a single-gene change in non-modular systems.
 
