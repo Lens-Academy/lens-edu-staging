@@ -1,7 +1,7 @@
 ---
 id: '954e2b93-d4d6-42bd-accd-e49c2f46ae7e'
 learning-outcome: "Analyse whether a system that reinvests its cognitive output into improving itself will level off, grow steadily, or accelerate, by reasoning about whether each round of improvement enables at least as large a further improvement, how quickly gains can be reinvested (prompt channels such as software versus slow channels such as new hardware), and which observations would tell these regimes apart."
-topic: "[[../Domains and Topics/11 Strategy/Takeoff dynamics]]"
+topic: "[[../Concepts/Takeoff dynamics]]"
 stage: advanced
 authors:
   - Luc+Claude
