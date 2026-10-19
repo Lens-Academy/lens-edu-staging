@@ -13,3 +13,6 @@ This first half focuses mainly on defining a ToC.
 
 ### [[../articles/alexander-nailing-the-basics-theories-of-change]]
 Pretty good explainer. Could use more emphasis on backchaining. Examples are a bit EA rather than AI Safety.
+
+### [[../Lenses/alexander-nailing-the-basics-theories-of-change second half]]
+T
