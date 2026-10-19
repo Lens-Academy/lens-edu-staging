@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-topic: "[[../Domains and Topics/3 Alignment/You don't get what you train for]]"
+topic: "[[../Concepts/You don't get what you train for]]"
 stage: beginner
 requires:
   - "[[Wanting emerges from training]]"
