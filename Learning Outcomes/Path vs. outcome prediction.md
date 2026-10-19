@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-topic: "[[../Concepts/Predicting outcomes, not paths]]"
+concept: "[[../Concepts/Predicting outcomes, not paths]]"
 stage: beginner
 requires:
   - "[[Hard calls vs. easy calls]]"

@@ -5,7 +5,7 @@ authors:
   - Andreas+Claude
 tags:
   - learning-outcome
-topic: "[[../Concepts/Instrumental convergence and power-seeking]]"
+concept: "[[../Concepts/Instrumental convergence and power-seeking]]"
 stage: intermediate
 requires:
   - "[[The goal-space argument]]"

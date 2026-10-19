@@ -3,7 +3,6 @@ id: 2c52e403-f35c-46b9-9d17-47067285705b
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-topic: none
 ---
 
 > **Not in the skill tree:** Near-duplicate of the orders-of-magnitude LO; same AIS-framed replacement planned.

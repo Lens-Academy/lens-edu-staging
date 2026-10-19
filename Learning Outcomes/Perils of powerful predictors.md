@@ -1,7 +1,7 @@
 ---
 id: '91bba9f6-c553-4f94-ab72-96634a15e104'
 learning-outcome: "Explain how a predictor whose published outputs change the events it predicts can end up steering the world toward outcomes selected for being self-confirming rather than good, why the selected outcome need not resemble what would have happened without the prediction, and evaluate a proposed safeguard against this."
-topic: "[[../Concepts/Prediction and predictors]]"
+concept: "[[../Concepts/Prediction and predictors]]"
 stage: intermediate
 authors:
   - Luc+Claude

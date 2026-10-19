@@ -7,7 +7,7 @@ authors:
   - Yatharth+Claude
 tags:
   - learning-outcome
-topic: "[[../Concepts/Advocacy and movement strategy]]"
+concept: "[[../Concepts/Advocacy and movement strategy]]"
 stage: beginner
 eval-results:
   content-sha: 4afa9641
