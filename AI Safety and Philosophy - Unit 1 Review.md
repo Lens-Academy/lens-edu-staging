@@ -1,6 +1,6 @@
 ---
 tags:
-  - wip
+  - work-in-progress
   - validator-ignore
 ---
 

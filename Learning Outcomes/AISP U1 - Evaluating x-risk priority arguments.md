@@ -6,7 +6,7 @@ stage: beginner
 writing_minutes: 10
 tags:
   - learning-outcome
-  - wip
+  - work-in-progress
 ---
 ## Test:
 id:: ae670c59-b129-4d65-aaf0-b753f6f1e59c
