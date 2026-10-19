@@ -1,7 +1,7 @@
 ---
 id: '6760081f-b1b1-4ca3-b39d-29bd8b26c68f'
 learning-outcome: "Given an argument for deprioritising AI existential-risk work, identify whether it challenges the probability of catastrophe, the tractability of intervention, opportunity costs, human institutional causes, or the timing of intervention, and state what evidence would bear on that challenge."
-topic: "[[../Domains and Topics/11 Strategy/Theories of change in AI safety]]"
+topic: "[[../Concepts/Theories of change in AI safety]]"
 stage: beginner
 writing_minutes: 10
 tags:

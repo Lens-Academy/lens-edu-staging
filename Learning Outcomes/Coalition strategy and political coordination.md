@@ -1,8 +1,5 @@
 ---
 id: '0e75968a-0346-4e68-9b50-ba9bdeb3c853'
-learning-outcome: "Build a theory of change for Coalition strategy and political coordination"
-topic: "[[../Domains and Topics/11 Strategy/Theories of change in AI safety]]"
-stage: intermediate
-tags:
-  - skill-tree-placeholder
+parent-concepts:
+  - "[[Theories of change in AI safety]]"
 ---
