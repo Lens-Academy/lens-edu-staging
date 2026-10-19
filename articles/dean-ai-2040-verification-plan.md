@@ -10,6 +10,7 @@ allowAuthorInTitle: true
 description: "The AI 2040 verification supplement: how a US-China deal to slow AI progress could be enforced without trust, from chip tracking and inference-only retrofits to packet-based verification of R&D compute."
 tags:
   - "article-importer"
+  - "wip"
 ---
 
 %%
