@@ -262,8 +262,8 @@ tags: [wip]
       if (saved.results && typeof saved.results === "object") {
         ITEMS.forEach(function (it) {
           var r = saved.results[it.key];
-          if (r && typeof r === "object" && typeof r.responseId === "number") {
-            state.results[it.key] = { responseId: r.responseId, score: typeof r.score === "number" ? r.score : null };
+          if (r && typeof r === "object" && r.responseId !== null && r.responseId !== "" && isFinite(Number(r.responseId))) {
+            state.results[it.key] = { responseId: Number(r.responseId), score: typeof r.score === "number" ? r.score : null };
           }
         });
       }

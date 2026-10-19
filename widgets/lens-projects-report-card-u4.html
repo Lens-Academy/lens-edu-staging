@@ -253,7 +253,7 @@ tags: [wip]
       var ed = el("button", null, "Edit"); ed.type = "button";
       ed.addEventListener("click", function () { editing = i; fillForm(e); $("form").scrollIntoView({ block: "start" }); });
       var del = el("button", null, "Delete"); del.type = "button";
-      del.addEventListener("click", function () { state.entries.splice(i, 1); if (editing === i) { editing = -1; fillForm(null); } persist(); renderList(); });
+      del.addEventListener("click", function () { state.entries.splice(i, 1); if (editing === i) { editing = -1; fillForm(null); } else if (editing > i) { editing--; } persist(); renderList(); });
       acts.appendChild(ed); acts.appendChild(del); head.appendChild(acts);
       card.appendChild(head);
       card.appendChild(line("Did", e.did));
