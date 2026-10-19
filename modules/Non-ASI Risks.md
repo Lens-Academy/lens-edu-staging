@@ -8,9 +8,26 @@ tags:
 
 # Submodule: Welcome
 
+# Lens: To do
+id:: 67ed9e7d-2e19-47b4-b0d8-1bb5d7a02ee7
+#### Text
+content::
+To do.
+
 # Submodule: Engineered Pandemics
 
+# Lens: To do
+id:: f5bb2207-286b-4798-9a73-e0504f067f25
+#### Text
+content::
+To do.
+
 # Submodule: Gradual Disempowerment
+# Lens: To do
+id:: 6da0af3d-3693-4fdb-beb5-1c9039c2b514
+#### Text
+content::
+To do.
 
 # Submodule: S-risks
 
@@ -20,6 +37,11 @@ id:: 6aa13795-a414-4945-b176-8aea3bacecbb
 source:: [[../video_transcripts/rational-animations-s-risks-fates-worse-than-extinction]]
 
 # Submodule: AI-Triggered Nuclear War
+# Lens: To do
+id:: baf2cfaa-a668-4a8c-af80-4ac5d4691771
+#### Text
+content::
+To do.
 
 # Submodule: Autonomous Weapons
 
@@ -51,3 +73,9 @@ id:: 1eaa4387-85a3-4dff-8a1e-b96ce7754d28
 source:: [[../widgets/ai-risk-scope-severity]]
 
 # Submodule: Test Your Understanding
+
+# Lens: To do
+id:: 8eccaab8-c32e-49dc-9ebb-7cdb6777461f
+#### Text
+content::
+To do.
