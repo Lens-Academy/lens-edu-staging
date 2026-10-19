@@ -6,7 +6,7 @@ summary_for_tutor: "Primary texts and a map of positions on the circumstances qu
 reading_minutes: 16
 tutor_minutes: 6
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

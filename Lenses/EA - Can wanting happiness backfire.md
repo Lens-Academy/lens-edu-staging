@@ -6,7 +6,7 @@ summary_for_tutor: "Required lens of module 5 (desire). Three studies on whether
 reading_minutes: 6
 tutor_minutes: 6
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

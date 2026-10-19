@@ -6,7 +6,7 @@ summary_for_tutor: "Optional page of the library module on CBT and the third wav
 reading_minutes: 20
 tutor_minutes: 4
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

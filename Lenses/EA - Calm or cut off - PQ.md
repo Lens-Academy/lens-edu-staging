@@ -6,7 +6,7 @@ summary_for_tutor: "Pre-reading question for the failure-modes part of module 7.
 reading_minutes: 1
 tutor_minutes: 3
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

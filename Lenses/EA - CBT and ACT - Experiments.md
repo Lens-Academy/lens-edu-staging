@@ -6,7 +6,7 @@ summary_for_tutor: "Experiments page of the library module on CBT and the third 
 reading_minutes: 8
 tutor_minutes: 6
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

@@ -6,7 +6,7 @@ summary_for_tutor: "Third page of the library module on CBT and the third wave. 
 reading_minutes: 32
 tutor_minutes: 12
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

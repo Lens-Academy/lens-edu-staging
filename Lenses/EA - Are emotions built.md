@@ -6,7 +6,7 @@ summary_for_tutor: "Optional lens of module 7. Lisa Feldman Barrett's TED talk '
 reading_minutes: 25
 tutor_minutes: 4
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

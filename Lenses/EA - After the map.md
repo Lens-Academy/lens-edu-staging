@@ -6,7 +6,7 @@ summary_for_tutor: "Closing page of module 8 and of Part I of the Emotional Abun
 reading_minutes: 2
 tutor_minutes: 0
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::
