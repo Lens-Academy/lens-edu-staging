@@ -1,7 +1,7 @@
 ---
 id: 'b839e9d3-5223-489e-89ec-eb22fa673154'
 learning-outcome: "Evaluate whether an alignment scheme is robust to scale: identify which of its safety properties depend on the system, or one of its components, staying at its current capability, and explain the mechanism by which the scheme would fail if the whole system became more capable, became less capable, or if one component became much more capable than another."
-topic: "[[../Concepts/Why alignment is hard]]"
+concept: "[[../Concepts/Why alignment is hard]]"
 stage: intermediate
 authors:
   - Luc+Claude

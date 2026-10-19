@@ -1,7 +1,7 @@
 ---
 id: 'b191dd50-b7f0-4e25-bb3d-b59e5df8c6d8'
 learning-outcome: "Diagnose how a word is misused in an argument (for example, settling an empirical question by definition, inferring properties from a category label that was assigned on other grounds, or disputing where to draw a boundary when the facts are agreed) and repair the argument by replacing the word with the observable claims it stands for."
-topic: "[[../Concepts/Agent foundations research]]"
+concept: "[[../Concepts/Agent foundations research]]"
 stage: advanced
 authors:
   - Luc+Claude
