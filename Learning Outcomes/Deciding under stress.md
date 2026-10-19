@@ -1,7 +1,7 @@
 ---
 id: 'c7b71245-8a97-456a-be01-9c5abfa933ca'
 learning-outcome: "Given someone about to act or decide while stressed, recognise signs of stress-narrowed thinking in their own description, explain why their feeling of clarity is not good evidence that they are thinking clearly, and propose concrete next steps that shift the body toward calm and add an outside check before anything hard to undo."
-tags: [wip]
+tags: [work-in-progress]
 writing_minutes: 10
 ---
 ## Test:

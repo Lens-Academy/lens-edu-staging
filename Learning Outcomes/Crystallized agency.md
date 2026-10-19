@@ -6,7 +6,7 @@ stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Crystalized Agency. AFFINE prerequisites: Agency. Not yet copied into requires:. %%
 ## Test:

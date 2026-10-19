@@ -6,7 +6,7 @@ stage: intermediate
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topics: Coherence; Goal. AFFINE prerequisites: Decision theory (Coherence); Value (Goal). Not yet copied into requires:. %%
 ## Test:

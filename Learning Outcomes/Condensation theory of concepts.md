@@ -6,7 +6,7 @@ stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topics: Condensation; Natural Abstraction. AFFINE prerequisites: Probability (Condensation); Ontology, Probability (Natural Abstraction). Not yet copied into requires:. %%
 ## Test:

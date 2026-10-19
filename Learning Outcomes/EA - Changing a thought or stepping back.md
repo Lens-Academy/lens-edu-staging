@@ -3,7 +3,7 @@ id: 'd5a866d5-733a-43cf-b5c0-a0c2c52191fa'
 learning-outcome: "Given a response someone makes to a distressing thought, identify whether it works on the thought's content (checking it against evidence, disputing an absolute demand, replacing it with a more accurate thought, as in Beck's and Ellis's therapies) or on the person's relationship to the thought (noticing it as a thought, defusion, making room for it while acting on what matters, as in ACT), and point to what in the response shows it."
 writing_minutes: 8
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Library module "CBT, ACT and the third wave" of Emotional Abundance. The cases are new (not from the readings). The distinction is the one Hayes and Hofmann 2017 use to define the third wave ("relationship to thought and emotion" versus "content"). Sources for each move: evidence, alternative explanations and naming unhelpful thinking styles (Beck interview, CCI Back from the Bluez modules 6 and 7), disputing demands and catastrophising (Ellis, REBT Diminishes Much of the Human Ego), the "I am having the thought that" prefix (Healy et al. 2008), word repetition (Masuda et al. 2004, Hinton and Gaynor 2010), acceptance plus committed action (ACBS six core processes, Hayes TEDx). %%
 

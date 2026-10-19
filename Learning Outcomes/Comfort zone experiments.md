@@ -1,7 +1,7 @@
 ---
 id: '5bc0daa5-de37-4662-a4f1-bf48ec8230c7'
 learning-outcome: "Given someone's plan to try something outside their comfort zone, judge whether it is set up as exploration (open to the hesitation being right, both outcomes acceptable, small and safe, attentive to inner reactions and outer results, digested without forcing) and redesign the parts that are missing."
-tags: [wip]
+tags: [work-in-progress]
 writing_minutes: 10
 ---
 ## Test:

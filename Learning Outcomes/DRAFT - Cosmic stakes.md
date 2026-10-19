@@ -5,7 +5,7 @@ authors:
   - Andreas+Claude
 tags:
   - learning-outcome
-  - wip
+  - work-in-progress
 concept: "[[../Concepts/Loss of control and takeover]]"
 stage: intermediate
 requires:
