@@ -1,7 +1,7 @@
 ---
 id: '75aa3e0f-8206-4587-87e2-2fa910ca42d7'
 learning-outcome: "Distinguish selection (a process that can generate and score many candidate options, where only the final pick matters) from control (a process that acts along one real trajectory, where every intermediate action has consequences and must be chosen from feedback and predictions of what would happen otherwise), classify each level of a given system as one or the other, and explain why finding no internal search in a system does not show that it is not a strong optimizer."
-topic: "[[../Concepts/Optimization]]"
+concept: "[[../Concepts/Optimization]]"
 stage: advanced
 authors:
   - Luc+Claude

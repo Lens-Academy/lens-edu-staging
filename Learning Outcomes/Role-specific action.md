@@ -5,7 +5,7 @@ reading-from: "So—how do we un-write our fate?"
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
-topic: "[[../Concepts/Advocacy and movement strategy]]"
+concept: "[[../Concepts/Advocacy and movement strategy]]"
 stage: beginner
 eval-results:
   content-sha: 191bd5db

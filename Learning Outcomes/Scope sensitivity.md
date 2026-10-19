@@ -3,7 +3,6 @@ id: bc107aba-831f-4204-bcd7-55e7918aca47
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-topic: none
 ---
 
 > **Not in the skill tree:** Not planned for our AI-safety courses.

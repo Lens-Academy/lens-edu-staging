@@ -1,7 +1,7 @@
 ---
 id: '6e99080b-b502-4f83-9366-2d3592bc264e'
 learning-outcome: "Given a proposal to hand a safety-relevant task to AI agents with less human oversight, judge whether the handoff would be safer than keeping humans in the loop by comparing the agents with the humans they would replace on both capability and trustworthiness for the whole duration of the task, and for each piece of evidence offered, say which of these it bears on and, for trust evidence, which kind of argument it supports (the agents are not hiding misalignment and will stay that way, they could not subvert the control measures around them, more human-supervised checking would add little, or they have incentives to behave safely) and what it leaves unestablished."
-topic: "[[../Concepts/Evaluating and using control]]"
+concept: "[[../Concepts/Evaluating and using control]]"
 stage: intermediate
 requires:
   - "[[Control as a distinct safety case]]"

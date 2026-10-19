@@ -1,7 +1,7 @@
 ---
 id: 'd40d6718-2e88-4e2b-917c-fbd155c53d43'
 learning-outcome: "Judge whether an AI developer's safety decisions follow the safety-usefulness tradeoff model, in which it adopts whichever measures buy the most safety per unit of usefulness given up, within a limited budget: this fits a developer that shares the safety goal but is forced to move fast, and fits poorly when measures are adopted to satisfy third parties with different beliefs, such as regulators, staff or the public. Then say which kind of safety work would help most in the case at hand: techniques that buy more safety per unit of usefulness, a larger safety budget, or asks chosen for how likely they are to be adopted and kept, for example because they are easy to explain and to verify from outside."
-topic: "[[../Concepts/Evaluating and using control]]"
+concept: "[[../Concepts/Evaluating and using control]]"
 stage: intermediate
 authors:
   - Elias+Claude
