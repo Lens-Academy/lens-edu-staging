@@ -1,8 +1,5 @@
 ---
 id: '9c73210e-2f3e-488c-94c7-3165e14882a5'
-learning-outcome: "Build a working model of Features, representations, and learned abstractions"
-topic: "[[../Concepts/Inside the model]]"
-stage: intermediate
-tags:
-  - skill-tree-placeholder
+parent-concepts:
+  - "[[Inside the model]]"
 ---

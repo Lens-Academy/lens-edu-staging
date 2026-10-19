@@ -1,8 +1,5 @@
 ---
 id: 'fa645c62-34e3-46d7-b29d-341ffb8add41'
-learning-outcome: "Explain how Formal agent foundations and decision theory is meant to improve safety"
-topic: "[[../Concepts/Agent foundations research]]"
-stage: advanced
-tags:
-  - skill-tree-placeholder
+parent-concepts:
+  - "[[Agent foundations research]]"
 ---
