@@ -1,7 +1,7 @@
 ---
 id: 'afa84b6c-c3fb-4ebd-8940-44f1c8205e30'
 learning-outcome: "When a deployer considers responding decisively on less evidence of scheming (fewer noticed bad actions), say what that costs if the model is not scheming, and either design a response that keeps that cost low while still acting on a real scheme, or argue why the cost is worth accepting."
-topic: "[[../Domains and Topics/7 AI Control/Control protocols]]"
+topic: "[[../Concepts/Control protocols]]"
 stage: intermediate
 authors:
   - Elias+Claude

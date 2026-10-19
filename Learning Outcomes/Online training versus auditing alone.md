@@ -1,7 +1,7 @@
 ---
 id: 'b22152be-9b9d-44f0-92fd-bf51209dca01'
 learning-outcome: "For a deployment in which a possibly scheming model could do harm only through many individually unremarkable actions, choose between training the model online against an oversight signal, training only the models that select or assist review, and auditing without training, justifying the choice from how good and how affordable the available oversight signals are and from what training on them would do to a scheming model and to a model that is not scheming; and for the chosen regime explain what a scheming model could still get away with and what the choice costs if the model is not scheming."
-topic: "[[../Domains and Topics/7 AI Control/Control protocols]]"
+topic: "[[../Concepts/Control protocols]]"
 stage: intermediate
 requires:
   - "[[Concentrated versus diffuse failures]]"

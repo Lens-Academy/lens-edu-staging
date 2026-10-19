@@ -1,7 +1,7 @@
 ---
 id: '31b44143-fedd-4219-bbcf-7fbb549a9d4d'
 learning-outcome: "For an untrusted agent working through multi-step tasks, explain how drawing fresh samples for a suspicious step both makes it likelier that a harmless action is run and gathers evidence about whether the model is attacking; explain why this puts an attacker whose attack needs several steps in a bind over how consistently to continue an attack once started; explain how using the earlier steps of the same task (counting suspicious steps, or going back to resample a past step) strengthens that evidence; and predict how a given change to the setting (such as attack progress that persists between tasks, attacks that need only one step, or fewer samples per step) changes what resampling buys and what adjustment would recover some of it."
-topic: "[[../Domains and Topics/7 AI Control/Control protocols]]"
+topic: "[[../Concepts/Control protocols]]"
 stage: intermediate
 requires:
   - "[[Control under conservative assumptions]]"

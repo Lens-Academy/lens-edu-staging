@@ -1,7 +1,7 @@
 ---
 id: 'aca9e58c-df63-46a7-b1d0-e68722df418a'
 learning-outcome: "For a deployment of many parallel agent instances and a specified harm, choose whether a flagged action should pause every instance, pause only the flagged instance, or pause nothing while it awaits audit, justify the choice by comparing how quickly the harm can be done with how long monitoring and audit take and by whether partial progress can be undone, estimate what each option costs in the share of time instances can work, and name a way the chosen option could still fail (such as attacks spread across instances while one is under audit, or partial progress that cannot be undone when the agent is not shut down after a catch)."
-topic: "[[../Domains and Topics/7 AI Control/Control protocols]]"
+topic: "[[../Concepts/Control protocols]]"
 stage: intermediate
 requires:
   - "[[Monitors under an audit budget]]"

@@ -1,7 +1,7 @@
 ---
 id: '300ee2b2-4234-44ee-86fd-0f6b7b3a7e0c'
 learning-outcome: "Evaluate a proposed legibility intervention (a requirement on how an untrusted model presents its work so that a weaker trusted monitor can judge it) by whether it separates honest outputs from attacks rather than helping both alike, reasoning from which parts of an honest justification the monitor can check and an attacker cannot fake."
-topic: "[[../Domains and Topics/7 AI Control/Control protocols]]"
+topic: "[[../Concepts/Control protocols]]"
 stage: intermediate
 requires:
   - "[[Monitors under an audit budget]]"

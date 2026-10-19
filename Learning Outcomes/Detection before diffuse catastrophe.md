@@ -1,7 +1,7 @@
 ---
 id: 'ffc25190-9bdc-4540-8069-a60f2fc3eb5e'
 learning-outcome: "For a failure that needs a known number of bad actions, given the chance that each bad action is noticed and how many noticed incidents the deployer needs before it responds decisively, estimate whether the response is likely to come before the catastrophe, and compare ways of changing that (auditing more, choosing better what to audit, responding on less evidence) by their effect."
-topic: "[[../Domains and Topics/7 AI Control/Control protocols]]"
+topic: "[[../Concepts/Control protocols]]"
 stage: intermediate
 authors:
   - Elias+Claude
