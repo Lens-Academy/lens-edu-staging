@@ -6,7 +6,7 @@ summary_for_tutor: "Optional lens of module 5 (desire). Michael Tremblay, 'There
 reading_minutes: 7
 tutor_minutes: 5
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

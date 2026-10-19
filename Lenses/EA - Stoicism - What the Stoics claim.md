@@ -6,7 +6,7 @@ summary_for_tutor: "First lens of the Stoicism library module. A short orientati
 reading_minutes: 15
 tutor_minutes: 10
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

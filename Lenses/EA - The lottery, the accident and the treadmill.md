@@ -6,7 +6,7 @@ summary_for_tutor: "Second part of the module: can circumstances give lasting pe
 reading_minutes: 12
 tutor_minutes: 6
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

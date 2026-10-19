@@ -6,7 +6,7 @@ summary_for_tutor: "Fifth lens of the self-compassion library module. Four quest
 reading_minutes: 18
 tutor_minutes: 8
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

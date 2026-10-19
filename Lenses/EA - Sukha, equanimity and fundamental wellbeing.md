@@ -6,7 +6,7 @@ summary_for_tutor: "Readings on the contemplative kinds of happiness. Ekman, Dav
 reading_minutes: 20
 tutor_minutes: 10
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

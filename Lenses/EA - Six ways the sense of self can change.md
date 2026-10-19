@@ -6,7 +6,7 @@ summary_for_tutor: "Reading from Lindahl and Britton (2019), 'I have this feelin
 reading_minutes: 15
 tutor_minutes: 9
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

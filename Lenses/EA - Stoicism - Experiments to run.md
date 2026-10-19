@@ -6,7 +6,7 @@ summary_for_tutor: "Experiments lens of the Stoicism library module. A measureme
 reading_minutes: 20
 tutor_minutes: 8
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

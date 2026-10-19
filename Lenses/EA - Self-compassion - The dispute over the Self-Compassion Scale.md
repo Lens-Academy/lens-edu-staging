@@ -6,7 +6,7 @@ summary_for_tutor: "Optional sixth lens of the self-compassion library module. T
 reading_minutes: 15
 tutor_minutes: 6
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

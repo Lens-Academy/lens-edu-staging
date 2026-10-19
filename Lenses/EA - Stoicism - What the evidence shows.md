@@ -6,7 +6,7 @@ summary_for_tutor: "Evidence lens of the Stoicism library module. Four kinds of 
 reading_minutes: 18
 tutor_minutes: 8
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

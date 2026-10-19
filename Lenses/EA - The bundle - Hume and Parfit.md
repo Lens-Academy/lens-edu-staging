@@ -6,7 +6,7 @@ summary_for_tutor: "Two readings on the bundle view. (1) Hume, Treatise 1.4.6, p
 reading_minutes: 16
 tutor_minutes: 9
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

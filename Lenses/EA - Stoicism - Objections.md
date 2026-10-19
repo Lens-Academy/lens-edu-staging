@@ -6,7 +6,7 @@ summary_for_tutor: "Optional lens in the Stoicism library module. Two objections
 reading_minutes: 10
 tutor_minutes: 6
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::
