@@ -18,4 +18,4 @@ Pretty good explainer. Could use more emphasis on backchaining. Examples are a b
 This second half focuses on how to create a theory of change.
 
 ### [[../articles/hausenloy-you-need-a-theory-of-victory]]
-Takes theory 
+Takes theory of change one step further by going all the way to victory.
