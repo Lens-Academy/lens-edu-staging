@@ -1,7 +1,7 @@
 ---
 id: '7b8673e2-0315-4a17-9c76-c1703f76b848'
 learning-outcome: "Design, or critique a proposed design for, an experiment that tests whether an AI model's behaviour depends on what it believes its grader rewards: recognise that a behaviour change after implanting a belief about the grader can come from the model inferring that other parties it serves want the same thing, judge whether a proposed contrast actually rules that out, and set up one that does: an opposing authority that the model would otherwise have reason to serve, wanting the opposite of the grader."
-topic: "[[../Domains and Topics/6 Evaluations/Alignment and propensity evaluations]]"
+topic: "[[../Concepts/Alignment and propensity evaluations]]"
 stage: intermediate
 authors:
   - Elias+Claude
