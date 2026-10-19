@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-topic: "[[../Concepts/Grown, not crafted]]"
+concept: "[[../Concepts/Grown, not crafted]]"
 stage: beginner
 eval-results:
   content-sha: 98360650
