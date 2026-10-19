@@ -1,5 +1,6 @@
 ---
 title: "Buck Shlegeris on controlling AI that wants to take over – so we can use it anyway"
+allowAuthorInTitle: true
 author:
   - "Robert Wiblin"
   - "Buck Shlegeris"
