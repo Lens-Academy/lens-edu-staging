@@ -3,7 +3,7 @@ id: '1975b59e-368b-445b-b9ba-a837debd965b'
 learning-outcome: "Given a statement about the self, identify which view it expresses (not-self as a method, no-self as a claim about what exists, the bundle or reductionist view, a true Self as a core with qualities, a true Self as pure awareness, the self as a brain model, the narrative self), and tell apart disagreements between views that are about words from those that evidence could settle."
 writing_minutes: 13
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Test for module 6 of Emotional Abundance, part 1. The seven statements are our own paraphrases, written without names. Review 2026-10-05: the first draft's statements could be matched on keywords by a well-read person who had not taken the module, so the statements now hinge on the module's own distinctions, with surface words that point to the wrong option: 1 Thanissaro (not-self as a method, judged by stress) versus 2 Sujato and Bodhi (no-self as a fact, strategy reading rejected), 3 Parfit's spectrum case, 4 Schwartz (a Self with qualities, described with the word "awareness") versus 5 Ramana (awareness without personal qualities, world like the rope-snake), 6 Metzinger, 7 Dennett (answerable from the comparison table, since the Dennett and Strawson lens is optional). The open questions test the main analytical point: some disagreements are verbal, others are about what can be observed. The verbal one uses two meditation teachers rather than Metzinger and Thompson, so it is not the same item as the lens's practice question. %%
 

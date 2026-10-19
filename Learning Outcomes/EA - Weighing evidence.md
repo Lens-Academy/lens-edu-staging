@@ -3,7 +3,7 @@ id: 'a42ee8b8-6b95-4f4b-9295-d7a57f79a37b'
 learning-outcome: "Given a claim about wellbeing or the mind and the evidence offered for it, identify what kind of evidence it is, say what that kind can and cannot show, name the specific ways this evidence could mislead (such as passive controls, short follow-up, narrow samples, selective reporting, expectation, regression to the mean, self-selected reports), and say what further evidence would most strengthen it."
 writing_minutes: 18
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Test for the first half of module 3 of Emotional Abundance. Both cases are invented for the test and appear nowhere in the course, so the learner has to apply the ideas rather than recall a reading. %%
 

@@ -3,7 +3,7 @@ id: '1b562218-5db7-4081-811c-9002e1647dcc'
 learning-outcome: "Given a description of how someone responds to a painful situation, judge whether it shows equanimity or acceptance, or a look-alike (indifference, avoidance of the feeling or the situation, using spiritual ideas to dismiss a need), by pointing to observable signs, and say what further evidence would settle it."
 writing_minutes: 8
 tags:
-  - wip
+  - work-in-progress
 ---
 ## Test:
 id:: 87cc43f8-fce8-4062-a86e-d0f24ca3ff32

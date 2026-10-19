@@ -2,7 +2,7 @@
 id: '4da7c0cc-8f81-4370-857b-42f0a466668a'
 learning-outcome: "Given a learner who is stuck or making a mistake, form more than one plausible guess about what they are thinking, ask a curious question that would tell the guesses apart without pointing out the error, and turn a confirmed guess into a change in how the topic is taught to the next beginner."
 writing_minutes: 12
-tags: [wip]
+tags: [work-in-progress]
 ---
 ## Test:
 id:: 80797a8a-ba43-4d54-9fe3-01948fd1b752

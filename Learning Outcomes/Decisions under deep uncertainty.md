@@ -5,7 +5,7 @@ concept: "[[../Concepts/Quantitative reasoning]]"
 stage: beginner
 tags:
   - learning-outcome
-  - wip
+  - work-in-progress
 ---
 ## Test:
 id:: 99a01740-4b91-4d09-b860-dae5f4af2af7

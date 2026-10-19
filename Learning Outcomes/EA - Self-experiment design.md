@@ -3,7 +3,7 @@ id: 'fcb20347-6a36-48a4-ac3b-6004eaed0e1d'
 learning-outcome: "Given a claim about a practice and its effect, decide whether it is worth testing on yourself from its cost, its risk and how quickly a test could detect it, and design a single-case experiment whose design, measure, baseline, confounders and handling of expectation fit that claim, including recognising when a claim cannot be tested this way."
 writing_minutes: 22
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Test for the second half of module 3 of Emotional Abundance. Both claims are invented for the test. %%
 

@@ -3,7 +3,7 @@ id: '6ba2dd33-7308-4f2d-94f5-156295a5a51f'
 learning-outcome: "Given a real claim about happiness, identify which kind of happiness it is about (positive feeling, life satisfaction, eudaimonia, ataraxia, a grade of sukha, fundamental wellbeing) or whether it describes equanimity, a stance toward all feelings, and point to the wording that shows it."
 writing_minutes: 15
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Sorting exercise for module 2 of Emotional Abundance. Every claim is a real quote, shown without its author so the learner has to judge the wording, not recall who said what. Sources are listed below the test. %%
 
