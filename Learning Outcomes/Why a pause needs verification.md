@@ -6,7 +6,7 @@ concept: "[[../Concepts/Verifying AI agreements]]"
 stage: beginner
 authors:
   - Elias+Claude
-tags: []
+tags: [wip]
 ---
 ## Test:
 id:: 2dda11c1-08df-40d2-9b21-2fe5f693da36
