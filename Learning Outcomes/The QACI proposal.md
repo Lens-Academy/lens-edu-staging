@@ -1,7 +1,7 @@
 ---
 id: '276aa9ac-7599-48bf-8702-ffad970ad908'
 learning-outcome: "Explain how a formal-goal proposal such as QACI defines an AI's goal as a mathematical question about what specific humans would answer if a stored question were counterfactually replaced (with those humans able to pose further such questions, which gives them long reflection), and classify failures of such a design as flaws in what the formal goal points at or as failures of the AI to pursue or approximate that goal."
-topic: "[[../Concepts/Alignment targets]]"
+concept: "[[../Concepts/Alignment targets]]"
 stage: advanced
 authors:
   - Luc+Claude

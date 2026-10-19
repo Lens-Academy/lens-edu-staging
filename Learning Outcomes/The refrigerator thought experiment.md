@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-topic: "[[../Concepts/Machine advantages]]"
+concept: "[[../Concepts/Machine advantages]]"
 stage: beginner
 eval-results:
   content-sha: 0417e790

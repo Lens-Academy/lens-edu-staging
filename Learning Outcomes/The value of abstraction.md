@@ -1,7 +1,7 @@
 ---
 id: 'bffba331-9be9-4d21-96a4-7b6e88ce21b1'
 learning-outcome: "Given two properties or explanations that always coincide in a familiar range of cases, widen the range (more general settings, added variables, interventions, weaker assumptions) until they come apart, and use where they come apart to say what their coincidence depended on and why it cannot be relied on in new situations."
-topic: "[[../Concepts/Natural abstraction]]"
+concept: "[[../Concepts/Natural abstraction]]"
 stage: advanced
 authors:
   - Luc+Claude

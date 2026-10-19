@@ -1,7 +1,7 @@
 ---
 id: 'dde3c2d0-7252-4889-a22c-d223dcd7ebc8'
 learning-outcome: "Evaluate a generalization about how AI systems or minds in general will behave by identifying which part of the space of possible minds its evidence comes from (humans, animals, current trained models, idealized rational agents) and which shared constraint, if any, would carry the property to the systems in question (the pressures that shaped the minds observed, the way a system was trained, or requirements that any goal-pursuing agent faces), and restate the claim with the scope and reason that evidence can support."
-topic: "[[../Concepts/What intelligence is]]"
+concept: "[[../Concepts/What intelligence is]]"
 stage: advanced
 authors:
   - Luc+Claude

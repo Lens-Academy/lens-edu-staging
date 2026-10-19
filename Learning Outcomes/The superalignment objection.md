@@ -7,7 +7,7 @@ authors:
   - Yatharth+Claude
 tags:
   - learning-outcome
-topic: "[[../Concepts/Why alignment is hard]]"
+concept: "[[../Concepts/Why alignment is hard]]"
 stage: beginner
 eval-results:
   content-sha: 88f0c03d
