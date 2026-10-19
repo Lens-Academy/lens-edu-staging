@@ -1,7 +1,7 @@
 ---
 id: '9236fa29-1a31-4d30-9ba4-5048ac77fec5'
 learning-outcome: "For a proposed control research or implementation project, lay out the causal chain from what the project produces to a reduction in catastrophic risk (whether and why the work is informative with today's models, who would adopt its output, why, and what might stop them, which threat it targets and whether and why it would hold up against a model trying to subvert it, and what could make it obsolete), identify the weakest link in that chain with a reason, and name observations that would raise and observations that would lower confidence in that link."
-topic: "[[../Concepts/The control agenda]]"
+concept: "[[../Concepts/The control agenda]]"
 stage: intermediate
 authors:
   - Elias+Claude

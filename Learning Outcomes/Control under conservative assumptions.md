@@ -1,7 +1,7 @@
 ---
 id: '55f577c3-8146-4d5f-ab7a-1680dd5712c3'
 learning-outcome: "Given a deployment in which an untrusted model's actions pass through some combination of scoring by a weaker trusted model, rewriting, resampling and a limited human audit budget, judge whether it prevents an unacceptable outcome if the untrusted model is scheming, name the conditions the answer turns on (such as the capability gap between the two models, the audit budget, collusion between copies of the untrusted model, or what the untrusted model remembers between attempts), and do so without relying on evidence about how the model usually behaves."
-topic: "[[../Concepts/The control agenda]]"
+concept: "[[../Concepts/The control agenda]]"
 stage: intermediate
 requires:
   - "[[Trusted versus untrusted models]]"

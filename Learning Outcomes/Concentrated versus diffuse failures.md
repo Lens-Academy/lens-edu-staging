@@ -1,7 +1,7 @@
 ---
 id: '999e4f28-1a2d-4cee-baca-19f9653a1c8c'
 learning-outcome: "Place a way a misaligned model could cause a catastrophe on the spectrum from concentrated to diffuse failures by how many bad actions it needs and how incriminating each action is when investigated, not by how much harm each action does, and choose countermeasures that fit: holding suspicious actions for review and building a case for incrimination where a few clearly incriminating actions would suffice, and training the model on its own outputs where many weakly suspicious actions are needed, explaining why incrimination fails at the diffuse end and why training fails at the concentrated end."
-topic: "[[../Concepts/Control threat models]]"
+concept: "[[../Concepts/Control threat models]]"
 stage: intermediate
 authors:
   - Elias+Claude

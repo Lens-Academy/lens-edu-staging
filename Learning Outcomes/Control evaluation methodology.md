@@ -1,7 +1,7 @@
 ---
 id: '897c4e0c-5d39-4dd9-a1a5-e5ad0ad63b3a'
 learning-outcome: "Explain how a control evaluation estimates the risk from a model that may be scheming by having a red team stand in for it, state the conditions under which that estimate is conservative (the red team finds attacks at least as good as the model could, and the model's ability to carry them out is measured in a way it cannot sandbag), and, for a given model and deployment, identify a concrete way the evaluation could report the deployment as safe and be wrong, together with an observable warning sign."
-topic: "[[../Concepts/Evaluating and using control]]"
+concept: "[[../Concepts/Evaluating and using control]]"
 stage: intermediate
 requires:
   - "[[Control as a distinct safety case]]"
