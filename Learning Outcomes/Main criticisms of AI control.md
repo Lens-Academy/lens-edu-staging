@@ -2,7 +2,7 @@
 id: 'b2da5c84-fbdb-40fc-880f-7b114c81dab1'
 writing_minutes: 12
 learning-outcome: "Name the main criticisms of AI control and explain each one: what it claims and why the critic thinks so. The main criticisms are that control guards against the wrong danger, that it will not be enough for the most capable AIs because the plan it buys time for may fail, that its evaluations and fixes may not work in practice (evaluations may overstate safety, for example because a red team misses attacks a more cunning model would find, and retraining may breed better schemers), and that it makes things worse by speeding AI up and hiding warning shots."
-topic: "[[../Domains and Topics/7 AI Control/The control agenda]]"
+topic: "[[../Concepts/The control agenda]]"
 stage: beginner
 authors:
   - Elias+Claude

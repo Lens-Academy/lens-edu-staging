@@ -1,7 +1,7 @@
 ---
 id: '62ce118c-5d9a-437d-9cc6-2aca65efd3a7'
 learning-outcome: "Estimate how large the AI control field is compared with technical AI safety as a whole, to within an order of magnitude, and explain how the way people are counted (which organisations are included, how each organisation is categorised, and whether control and monitoring work inside AI companies and government institutes is counted) changes the estimate, so as to judge a claim about the field's size."
-topic: "[[../Domains and Topics/7 AI Control/The control agenda]]"
+topic: "[[../Concepts/The control agenda]]"
 stage: beginner
 authors:
   - James agent ready-34

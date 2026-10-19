@@ -2,7 +2,7 @@
 id: '424c1c19-b1dc-4e30-8ccb-92cec6715f31'
 writing_minutes: 12
 learning-outcome: "Given a short description of how an organisation deploys an AI agent, judge whether the set-up would keep the organisation safe if the untrusted model were trying to cause harm: map its parts (untrusted and trusted models, monitor, human audit, response to a flagged action) and the unacceptable outcome, then use that map to say what evidence would show it is safe and why the organisation's own case does not, which attack a red team should try first, and which assumption or uncovered risk could still lead to that outcome."
-topic: "[[../Domains and Topics/7 AI Control/The control agenda]]"
+topic: "[[../Concepts/The control agenda]]"
 stage: beginner
 authors:
   - Elias+Claude
