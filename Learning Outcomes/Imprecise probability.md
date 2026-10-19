@@ -1,7 +1,7 @@
 ---
 id: 'c1c6d7fe-4773-44bb-90e9-f29b93ca01c4'
 learning-outcome: "Represent a state of uncertainty as a set of probability distributions, explain what this captures that a single distribution with the same central estimate does not (how far the evidence settles the question, as opposed to where it points), and compare the choices that a decision rule based on the set produces with those of maximizing expected value under one best-guess distribution, including where the set-based rule goes wrong if applied one option at a time."
-topic: "[[../Concepts/Imprecise probability and infra-Bayesianism]]"
+concept: "[[../Concepts/Imprecise probability and infra-Bayesianism]]"
 stage: advanced
 authors:
   - Luc+Claude

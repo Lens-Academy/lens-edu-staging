@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-topic: "[[../Concepts/The core extinction argument]]"
+concept: "[[../Concepts/The core extinction argument]]"
 stage: beginner
 eval-results:
   content-sha: 3ca8f868
