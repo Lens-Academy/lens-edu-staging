@@ -1,7 +1,7 @@
 ---
 id: '589031c4-7a73-4bfc-9941-fa5222158a1d'
 learning-outcome: "Given someone who resists a piece of evidence, name the hidden implication (if X, then Y) that makes the evidence feel threatening, explain why the resistance protects them, and propose a way to separate the questions so they can take X in without being forced to Y."
-tags: [wip]
+tags: [work-in-progress]
 writing_minutes: 8
 ---
 ## Test:

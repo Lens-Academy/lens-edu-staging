@@ -6,7 +6,7 @@ stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Proper Use of Language. AFFINE prerequisites: Value of abstraction. Not yet copied into requires:. %%
 ## Test:

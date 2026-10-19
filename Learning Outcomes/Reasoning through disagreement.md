@@ -5,7 +5,7 @@ concept: "[[../Concepts/Truth-seeking and disagreement]]"
 stage: beginner
 tags:
   - learning-outcome
-  - wip
+  - work-in-progress
 ---
 ## Test:
 id:: e591f326-3a0a-46fd-b4dd-b73daef252fb

@@ -1,7 +1,7 @@
 ---
 id: 'e311fe53-6604-4980-96ab-bf84ccb935af'
 learning-outcome: "Given someone's way of practising a skill, evaluate how closely the practice trigger and practice action resemble the real situation and whether the practice varies them, say what any non-resembling parts are good for, and propose a change that brings the practice closer to the real performance."
-tags: [wip]
+tags: [work-in-progress]
 writing_minutes: 10
 ---
 ## Test:
