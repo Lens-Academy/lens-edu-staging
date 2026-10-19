@@ -1,7 +1,7 @@
 ---
 id: 'b21382c7-d99a-40c8-9462-ba06fa361551'
 learning-outcome: "Explain the flexHEG architecture — an auditable guarantee processor paired with a secure physical enclosure — what its flexibility and open-source design buy, and what it must assume about tamper resistance and trust"
-topic: "[[../Concepts/Verifying AI agreements]]"
+concept: "[[../Concepts/Verifying AI agreements]]"
 stage: advanced
 requires:
   - "[[Access substitutes for verification technology]]"

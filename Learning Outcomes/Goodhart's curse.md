@@ -1,7 +1,7 @@
 ---
 id: '8c1b1746-f171-4506-9862-6cc79cf83158'
 learning-outcome: "Explain why choosing the option that scores highest on an imperfect proxy systematically selects options where the proxy overestimates true value, why this gap grows with the size and power of the search, and evaluate proposed mitigations by what each does to that selection effect and where it still fails."
-topic: "[[../Concepts/Inner and outer alignment]]"
+concept: "[[../Concepts/Inner and outer alignment]]"
 stage: intermediate
 authors:
   - Luc+Claude

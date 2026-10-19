@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-topic: "[[../Concepts/Instrumental convergence and power-seeking]]"
+concept: "[[../Concepts/Instrumental convergence and power-seeking]]"
 stage: beginner
 eval-results:
   content-sha: e96e8b8c

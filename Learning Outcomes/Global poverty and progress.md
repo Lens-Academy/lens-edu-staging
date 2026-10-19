@@ -3,7 +3,6 @@ id: f4060802-fbb1-4347-86ce-97d18f5e67e7
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-topic: none
 ---
 
 > **Not in the skill tree:** Global-health cause content from the EA partnership course.

@@ -7,7 +7,7 @@ tags:
   - learning-outcome
 authors:
   - Chris+Claude
-topic: "[[../Concepts/Calibrated judgment]]"
+concept: "[[../Concepts/Calibrated judgment]]"
 stage: beginner
 eval-results:
   content-sha: 6834f98a
