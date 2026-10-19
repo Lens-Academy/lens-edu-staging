@@ -1,7 +1,7 @@
 ---
 id: 'aad75231-b774-42c0-a105-f9a3ad929ac9'
 learning-outcome: "Explain why, under the mathematical universe hypothesis (every mathematical structure exists, and observers are substructures of structures), what an observer should expect to see depends on a measure over the structures that contain it rather than on which structures exist, and use this to evaluate arguments about what such an observer should predict, including what the simplicity and stability of our own physical laws imply."
-topic: "[[../Concepts/Acausal reasoning and anthropics]]"
+concept: "[[../Concepts/Acausal reasoning and anthropics]]"
 stage: advanced
 authors:
   - Luc+Claude

@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-topic: "[[../Concepts/The space of possible goals]]"
+concept: "[[../Concepts/The space of possible goals]]"
 stage: beginner
 eval-results:
   content-sha: c52a72dc

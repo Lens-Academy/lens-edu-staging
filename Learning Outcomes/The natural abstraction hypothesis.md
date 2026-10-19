@@ -1,7 +1,7 @@
 ---
 id: '99436199-46b6-425e-b9f1-8920d6fc2799'
 learning-outcome: "Judge whether a given concept is likely to be shared by very different capable minds, by asking whether it summarises information that many parts of the environment carry redundantly and that is useful for prediction across many situations, or whether its boundary depends on a particular mind's own internals, abilities or values; and draw the consequence for alignment plans that rely on finding a human concept inside an AI."
-topic: "[[../Concepts/Natural abstraction]]"
+concept: "[[../Concepts/Natural abstraction]]"
 stage: advanced
 authors:
   - Luc+Claude

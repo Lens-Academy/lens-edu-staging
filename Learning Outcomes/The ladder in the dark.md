@@ -5,7 +5,7 @@ reading-from: "An AI company executive who says there's only a one-in-five chanc
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
-topic: "[[../Concepts/Predicting outcomes, not paths]]"
+concept: "[[../Concepts/Predicting outcomes, not paths]]"
 stage: beginner
 eval-results:
   content-sha: 0416884d
