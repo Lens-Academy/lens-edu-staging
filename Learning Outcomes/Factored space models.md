@@ -1,7 +1,7 @@
 ---
 id: '41a84774-adac-4ff9-9a38-b34175862312'
 learning-outcome: "Apply the factored-space (finite factored set) view of causality to a small joint distribution: consider variables defined from the given ones rather than only the given variables, find which of them are independent, and use this to infer a causal order that a causal graph over the given variables leaves undetermined, explaining why considering every definable variable, including deterministic functions of others, makes the difference."
-topic: "[[../Domains and Topics/4 Agent Foundations/Natural abstraction]]"
+topic: "[[../Concepts/Natural abstraction]]"
 stage: advanced
 authors:
   - Luc+Claude

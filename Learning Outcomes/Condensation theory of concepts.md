@@ -1,7 +1,7 @@
 ---
 id: '7f99d5ec-24e9-4be2-897c-81aefd2b5814'
 learning-outcome: "Distinguish condensation from compression as a criterion for organising knowledge (minimising the information that must be retrieved to answer each set of questions, rather than minimising the total length of one encoding), and apply it to a small set of variables to decide which latent variables to posit, which questions each should serve, and why efficient organisations of the same questions correspond to each other."
-topic: "[[../Domains and Topics/4 Agent Foundations/Natural abstraction]]"
+topic: "[[../Concepts/Natural abstraction]]"
 stage: advanced
 authors:
   - Luc+Claude

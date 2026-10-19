@@ -1,7 +1,7 @@
 ---
 id: '48f80624-ce91-4c3f-8198-ef4cf46995dc'
 learning-outcome: "Explain why an agent whose values are defined over the entities of its world-model faces an ontological crisis when it adopts a better model in which those entities dissolve or split apart, and evaluate rules for carrying the values over to the new model (such as re-grounding the value on what the old entity turned out to be, choosing one of the successor concepts, or dropping the value) by the behaviour each rule would produce."
-topic: "[[../Domains and Topics/4 Agent Foundations/Ontology and ontological crises]]"
+topic: "[[../Concepts/Ontology and ontological crises]]"
 stage: advanced
 authors:
   - Luc+Claude
