@@ -1,8 +1,5 @@
 ---
 id: '6e5049a5-7be7-44e0-9314-0c67c440cb3e'
-learning-outcome: "Read evidence from Causal interventions and activation patching"
-topic: "[[../Concepts/Mechanistic interpretability]]"
-stage: intermediate
-tags:
-  - skill-tree-placeholder
+parent-concepts:
+  - "[[Mechanistic interpretability]]"
 ---

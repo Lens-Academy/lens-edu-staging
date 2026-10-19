@@ -1,8 +1,5 @@
 ---
 id: '48b7a71d-262b-4d72-8c37-2170a41ded59'
-learning-outcome: "Explain how Automating alignment research is meant to improve safety"
-topic: "[[../Concepts/Scalable oversight]]"
-stage: advanced
-tags:
-  - skill-tree-placeholder
+parent-concepts:
+  - "[[Scalable oversight]]"
 ---
