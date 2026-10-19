@@ -7,6 +7,14 @@ title: Navigator Application
 content:: Thanks for wanting to navigate with Lens! These few questions help us get to know you. It takes about five minutes, and questions without a red star are optional.
 
 #### Question
+key:: full_name
+content:: Full name
+description:: As you'd like it on our records and for your intro call.
+max-chars:: 100
+short:: true
+required:: true
+
+#### Question
 key:: why_navigate
 content:: Why do you want to navigate a Lens group? A few sentences is plenty.
 max-chars:: 1500
