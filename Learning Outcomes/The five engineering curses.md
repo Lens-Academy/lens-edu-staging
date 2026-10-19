@@ -7,7 +7,7 @@ authors:
   - Yatharth+Claude
 tags:
   - learning-outcome
-topic: "[[../Domains and Topics/11 Strategy/One chance to get it right]]"
+topic: "[[../Concepts/One chance to get it right]]"
 stage: beginner
 eval-results:
   content-sha: 9cabb69d

@@ -7,7 +7,7 @@ reading-from: "beginning of chapter"
 reading-to: "end of chapter"
 tags:
   - learning-outcome
-topic: "[[../Domains and Topics/11 Strategy/Loss of control and takeover]]"
+topic: "[[../Concepts/Loss of control and takeover]]"
 stage: intermediate
 requires:
   - "[[Hostile vs. indifferent AI]]"
