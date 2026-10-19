@@ -3,7 +3,7 @@ id: '2392ceb6-2959-4b96-b697-912ad1604cca'
 learning-outcome: "Given someone else's recurring drain on attention, judge their current fix as a system (effortless, reliable, invisible) and design one that changes what reaches them or what others expect of them rather than relying on willpower, including one way it could fail and a guard against it"
 writing_minutes: 10
 tags:
-  - wip
+  - work-in-progress
 ---
 ## Test:
 id:: ac7fb8a9-27dd-431a-a78e-a4d6a11e2570

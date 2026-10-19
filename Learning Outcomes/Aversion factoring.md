@@ -3,7 +3,7 @@ id: 'c5855f0f-638d-4042-b205-1151c1322410'
 learning-outcome: "Given someone who avoids an activity they believe is worth doing, the learner can help them aversion factor it: turn a vague dislike into specific parts, check the list for completeness, match external parts with concrete fixes and internal reactions with recalibration, and treat parts that track a real cost as information rather than something to push through."
 writing_minutes: 20
 tags:
-  - wip
+  - work-in-progress
 ---
 ## Test:
 id:: 0f254b33-fee9-418e-a178-16745c9208fa

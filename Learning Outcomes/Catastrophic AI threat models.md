@@ -5,7 +5,7 @@ concept: "[[../Concepts/Decomposing AI risk]]"
 stage: beginner
 tags:
   - learning-outcome
-  - wip
+  - work-in-progress
 ---
 ## Test:
 id:: 1a2d5016-342d-4016-a6a1-1b9c19e95085

@@ -1,7 +1,7 @@
 ---
 id: '65e72fdd-3717-4b24-99ff-e13a6df76f2e'
 learning-outcome: "Given someone else's plan, run Murphyjitsu on it: find the part too vague to picture, use pre-hindsight to tell the most plausible failure story from the plan's actual details, propose one bulletproofing action aimed at that failure, and check again."
-tags: [wip]
+tags: [work-in-progress]
 writing_minutes: 12
 ---
 ## Test:
