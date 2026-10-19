@@ -5,3 +5,8 @@ parent-concepts:
   - "[[Effective Altruism]]"
 order: 3
 ---
+
+## Relationships
+
+### [[../Lenses/alexander-nailing-the-basics-theories-of-change-why-theories-of-change-matter first half]]
+
