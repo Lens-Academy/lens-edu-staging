@@ -1,7 +1,7 @@
 ---
 id: '17b80d68-f06c-42b4-b310-87ee4b5e0299'
 learning-outcome: "Given a criticism of the AI control agenda, say whether it disputes that control reduces the risk from models that are scheming, or accepts that and disputes whether control is worth the effort (for example because scheming is unlikely, or because other failures dominate), state what the criticism gets right, and give the strongest response, comparing the world with control against the realistic world without it rather than against a perfect solution."
-topic: "[[../Domains and Topics/7 AI Control/The control agenda]]"
+topic: "[[../Concepts/The control agenda]]"
 stage: intermediate
 requires:
   - "[[Control as a distinct safety case]]"

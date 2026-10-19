@@ -1,7 +1,7 @@
 ---
 id: '2f2279e9-1a66-47d9-a87c-c0fdeeb18f95'
 learning-outcome: "Given a safety argument for deploying a model that may be scheming, say whether it is an alignment claim (the model is not trying to subvert us) or a control claim (the model could not cause an unacceptable outcome even if it were trying), explain why a control claim can be checked by testing capabilities while an alignment claim cannot be settled by observing the model's behaviour, and, for each kind of claim, name a concrete way the evidence offered for it could mislead or a risk it leaves uncovered."
-topic: "[[../Domains and Topics/7 AI Control/The control agenda]]"
+topic: "[[../Concepts/The control agenda]]"
 stage: intermediate
 authors:
   - Elias+Claude

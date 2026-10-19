@@ -1,7 +1,7 @@
 ---
 id: '9beed082-9157-49c6-9e17-c8dd601d46bf'
 learning-outcome: "Explain what must be true for there to be a period in which AI models are useful enough to transform safety work yet can still be controlled (usefulness arriving at a lower capability level than the ability to defeat affordable safeguards), and name developments that would break that condition and end the period early (such as uninterpretable memory shared between model instances, or skill far beyond human level in hacking, persuasion or manipulating research results), explaining for each how it defeats control."
-topic: "[[../Domains and Topics/7 AI Control/The control agenda]]"
+topic: "[[../Concepts/The control agenda]]"
 stage: intermediate
 authors:
   - Elias+Claude

@@ -1,7 +1,7 @@
 ---
 id: 'bc649307-eb19-49f6-997c-990bb1a0e9ef'
 learning-outcome: "Given a lab's plan to refocus its safeguards and its testing on the escape attempts it has caught, explain why every safeguard must stay robust enough to pass a control evaluation and why testing against the strongest attacks a red team can construct must continue, since caught attempts are weak evidence about where the next attempt will come from and may be unrepresentative or deliberately weak decoys."
-topic: "[[../Domains and Topics/7 AI Control/Evaluating and using control]]"
+topic: "[[../Concepts/Evaluating and using control]]"
 stage: intermediate
 requires:
   - "[[Control evaluation methodology]]"
