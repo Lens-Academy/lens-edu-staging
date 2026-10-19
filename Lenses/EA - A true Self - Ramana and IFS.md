@@ -6,7 +6,7 @@ summary_for_tutor: "Two readings for the views that affirm a true Self. (1) Rama
 reading_minutes: 12
 tutor_minutes: 9
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

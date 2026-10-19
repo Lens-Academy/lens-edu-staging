@@ -1,7 +1,7 @@
 ---
 id: '2ae4a8b2-50f7-40ad-9dfd-0b3d71171aaa'
 title: "Topic 3"
-tags: [wip]
+tags: [work-in-progress]
 reading_minutes: 8
 tutor_minutes: 0
 ---

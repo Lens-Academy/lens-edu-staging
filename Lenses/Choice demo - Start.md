@@ -1,7 +1,7 @@
 ---
 id: '9d83db65-30ad-40c3-8b17-c1a970592390'
 title: "Start here"
-tags: [wip]
+tags: [work-in-progress]
 reading_minutes: 3
 tutor_minutes: 0
 ---

@@ -6,7 +6,7 @@ title: You Don't Get What You Train For (connection draft)
 tldr: You trained it to be helpful. But helpful in training isn't the same as wanting to be helpful later. Chapter 4 explains why, and it gets worse.
 summary_for_tutor: "DRAFT, orphaned. A modification of [[IABIED - You Don't Get What You Train For]] that inserts one retrieval beat between Processing and the Learning Question. Phase 3 asks the student which earlier idea this chapter leans on, without naming it; the answer key lives only in assessment-instructions. Everything else is unchanged from the live lens. Not referenced by any module."
 tags:
-  - wip
+  - work-in-progress
 authors:
   - Andreas+Claude
 ---

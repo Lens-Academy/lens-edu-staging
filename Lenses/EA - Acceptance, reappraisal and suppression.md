@@ -6,7 +6,7 @@ summary_for_tutor: "First reading lens of module 7. Defines emotion regulation, 
 reading_minutes: 14
 tutor_minutes: 16
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::
