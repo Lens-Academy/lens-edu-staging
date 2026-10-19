@@ -1,7 +1,7 @@
 ---
 id: '088529b4-7c0f-43a7-bc62-d836af314cc4'
 learning-outcome: "Distinguish evidence that an AI system (or the process that produces it) acts aligned in the current capability regime from evidence that this will persist as systems become superhuman, and explain mechanisms by which the first can hold at every step while the second fails."
-topic: "[[../Concepts/Why alignment is hard]]"
+concept: "[[../Concepts/Why alignment is hard]]"
 stage: advanced
 authors:
   - Luc+Claude

@@ -1,7 +1,7 @@
 ---
 id: 'ff46f7e3-66ef-43a4-87df-5ceeeb9da0a9'
 learning-outcome: "Judge what a measured sensitivity of an AI model to its beliefs about the grader does and does not establish: tell a real change in the model apart from failures of the instrument (such as the model recognising the belief update, a belief recalled but not applied in the task, fine-tuning effects that differ between the models compared), say how a check on a case whose answer is known would separate them, and limit the conclusion to the authorities, tasks and settings measured."
-topic: "[[../Concepts/Alignment and propensity evaluations]]"
+concept: "[[../Concepts/Alignment and propensity evaluations]]"
 stage: intermediate
 requires:
   - "[[Reward-seeking measurement design]]"

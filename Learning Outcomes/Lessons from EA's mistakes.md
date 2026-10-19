@@ -3,7 +3,6 @@ id: bf547447-3617-46ff-a14f-6ebd9240e9f2
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-topic: none
 ---
 
 > **Not in the skill tree:** EA-community history, not AIS content.

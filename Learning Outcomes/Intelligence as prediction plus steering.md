@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-topic: "[[../Concepts/What intelligence is]]"
+concept: "[[../Concepts/What intelligence is]]"
 stage: beginner
 eval-results:
   content-sha: 2fd083f6
