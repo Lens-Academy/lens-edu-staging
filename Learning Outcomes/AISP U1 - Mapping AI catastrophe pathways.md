@@ -1,7 +1,7 @@
 ---
 id: '77b397ad-6d00-46e2-8601-a03c1b043612'
 learning-outcome: "Given an AI catastrophe claim, identify the causal pathway it relies on and distinguish whether the core mechanism is malicious use, competitive pressure, organizational failure, autonomous misalignment, gradual disempowerment, or accumulative systemic collapse."
-topic: "[[../Concepts/Decomposing AI risk]]"
+concept: "[[../Concepts/Decomposing AI risk]]"
 stage: beginner
 writing_minutes: 10
 tags:

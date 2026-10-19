@@ -1,7 +1,7 @@
 ---
 id: '1c90faf2-2c07-47ee-be86-a7979b92165a'
 learning-outcome: "Given, for a control protocol, how likely a single attack attempt is to be caught and how likely it is to succeed unnoticed, and how these odds change with how often the attacker attacks, estimate a scheming model's overall chance of getting a successful attack through for a given number of attempts, determine which attack rate a best-responding attacker would choose, explaining that attacking more often makes it likelier that some attempt settles the game but, when extra attacks have worse odds, less likely that the settling attempt is a win, and explain why the protocol's safety must be stated against that best response rather than against a fixed attack policy."
-topic: "[[../Concepts/Evaluating and using control]]"
+concept: "[[../Concepts/Evaluating and using control]]"
 stage: intermediate
 requires:
   - "[[Control evaluation methodology]]"
