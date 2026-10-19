@@ -1,7 +1,7 @@
 ---
 id: '5da8eec8-6a05-4e04-b58b-9e62c8772e04'
 learning-outcome: "Explain how the PreDCA protocol tries to remove the risk of an AI tampering with its source of preferences, by identifying its user as an agent that causally preceded the AI and inferring that user's utility function only from their behaviour before the AI existed, and identify which failure modes this removes and which it leaves open."
-topic: "[[../Domains and Topics/3 Alignment/Alignment targets]]"
+topic: "[[../Concepts/Alignment targets]]"
 stage: advanced
 authors:
   - Luc+Claude
