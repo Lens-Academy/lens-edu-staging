@@ -3,7 +3,7 @@ id: '28d90f8c-d935-4488-bcda-1fb7c2e881ff'
 title: "Your Hamming question"
 tldr: "Your bugs list has many entries. This page asks for one: out of everything, what is the most important problem in your life right now, and what keeps you from working on it?"
 summary_for_tutor: "The learner answers their Hamming question, after CFAR's Appendix: Hamming Questions. Richard Hamming asked scientists what the most important problems in their field were, then why they were not working on them. The learner works through the post's prompts (initial thoughts, rate-limiting step, what you are not allowed to care about, genre-savviness, pica, magnitude, the Focusing check, spinning plates), talks it through with you, and writes a final answer: their most important problem (or the two or three that matter most), what keeps them from it, and which bugs from their list are part of it. That answer is quoted back at the end of the course. Your role is a Hamming circle partner: help them understand what is going on before anyone talks about solutions. Never choose their problem for them, and never imply that the right answer is about AI safety, careers, or anything else in particular."
-tags: [wip]
+tags: [work-in-progress]
 reading_minutes: 5
 tutor_minutes: 30
 min_chat_messages: 4

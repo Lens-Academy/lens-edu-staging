@@ -1,7 +1,7 @@
 ---
 id: '2be53b2c-c6f1-4b47-bb4a-6c18b08e3a27'
 title: "Back on the path"
-tags: [wip]
+tags: [work-in-progress]
 reading_minutes: 2
 tutor_minutes: 0
 ---

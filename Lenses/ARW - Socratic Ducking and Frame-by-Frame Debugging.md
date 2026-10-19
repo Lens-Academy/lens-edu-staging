@@ -5,7 +5,7 @@ tldr: "How to help someone with a problem without solving it for them, how to te
 summary_for_tutor: "Library lens of the Applied Rationality Workshop: the CFAR Handbook's flash class post on Socratic Ducking (helping someone debug by asking, countering vagueness and drawing out their experience, instead of advising), OODA loops (observe, orient, decide, act, and noticing which step a problem is in) and Frame-by-Frame Debugging (pick a bug, tell a concrete recent example, find the exact frame where it went wrong, check whether an alternative even occurred to you, then reality-check the plan). The learner runs steps 1 to 5 of Frame-by-Frame Debugging on one bug from their list, in writing."
 reading_minutes: 9
 tutor_minutes: 8
-tags: [wip]
+tags: [work-in-progress]
 ---
 #### Text
 content::

@@ -3,7 +3,7 @@ id: 'efb3e891-0103-4bba-822a-8541335a0df7'
 title: "Your bugs list"
 tldr: "Write down everything in your life that bugs you or could be great, using CFAR's six prompts. This list is what you practise on for the rest of the course."
 summary_for_tutor: "The learner builds their bugs list, the raw material for every later week of the Applied Rationality Workshop. They work through the six prompts of CFAR's Building a Bugs List post (Prompt 0: bugs and feature requests, 1: the genie, 2: the skeptical friend, 3: a walkthrough of the week, 4: a slow pause per life domain, 5: the long slow sentence), writing notes after each. Then a chat with you sharpens three vague bugs, and the page ends with one consolidated, numbered list with sizes (S, M, L) and three stars. That final list is quoted back in every later week. Your role is a partner who helps them notice and phrase bugs, never a judge of their life. Never suggest bugs they have not hinted at, never rank their problems for them, and never push for more personal detail than they offer."
-tags: [wip]
+tags: [work-in-progress]
 reading_minutes: 5
 tutor_minutes: 55
 min_chat_messages: 3

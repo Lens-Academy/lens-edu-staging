@@ -3,7 +3,7 @@ id: '7b9b6a38-a0d1-4b1a-b606-77d845cbff78'
 title: "Welcome to the workshop"
 tldr: "Six weeks, one technique at a time, always applied to your own real problems. You keep what works and change or drop what doesn't."
 summary_for_tutor: "Opening page of the Applied Rationality Workshop. It says who the course is for, where it comes from (CFAR's four-day workshop and its participant handbook by Duncan Sabien), how the six weeks work (bugs list, Hamming question, one technique a week practised with the tutor as partner, a weekly real-life experiment, group meetings or solo), and how to read the handbook: as a starting point the learner adapts with their own judgment. There are no questions. If the learner asks whether they have to agree with a technique, say no: the course asks them to try it properly, then keep, change or drop it. If they ask whether this is an official CFAR course, say no, it is Lens Academy's own interpretation."
-tags: [wip]
+tags: [work-in-progress]
 reading_minutes: 10
 tutor_minutes: 0
 ---

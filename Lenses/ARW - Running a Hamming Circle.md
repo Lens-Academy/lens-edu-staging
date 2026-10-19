@@ -5,7 +5,7 @@ tldr: "The meetings of this course gave each person a few minutes in a Hamming c
 summary_for_tutor: "Reference lens of the Applied Rationality Workshop Library: the CFAR Handbook's appendix on running a Hamming circle. Purpose: progress on a large, significant bottleneck, with several people's attention on one person at a time. Logistics: turns of at least 20 and at most 40 to 50 minutes, ideally four people with some mutual trust, a comfortable quiet place, and everyone bringing a problem of their own (no spectators). Flow: a quiet start, someone sets context, a time-keeper per turn, no more than five minutes of explaining, a break between turns. Hamming circles lean toward observing and orienting rather than jumping to solutions. Advice: don't go deeper than feels right, don't entertain the others during your turn, look for threads to pull rather than final solutions, and don't run them often (every 6 to 18 months worked well for CFAR staff and participants). If the learner asks how to set one up, help them plan it from these points."
 reading_minutes: 9
 tutor_minutes: 0
-tags: [wip]
+tags: [work-in-progress]
 ---
 #### Text
 content::
