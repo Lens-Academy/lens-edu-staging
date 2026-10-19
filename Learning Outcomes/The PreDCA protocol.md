@@ -6,7 +6,7 @@ stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: PreDCA. AFFINE prerequisites: Infra-Bayesianism, Decision Theory. Not yet copied into requires:. The assigned reading is a stub wiki page; this LO was drafted from its two linked posts (a distillation and a critique of PreDCA). %%
 ## Test:

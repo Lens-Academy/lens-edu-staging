@@ -3,7 +3,7 @@ id: '4e302441-e2fb-4199-b72c-4eb4a71ff2ed'
 learning-outcome: "Given someone else's week, the learner can find where they trade time, money, attention, energy and relationships at poor or inconsistent rates, and propose changes that free resources without a hidden loss in another currency, using repeated costs, diminishing returns and value that does not show in the price."
 writing_minutes: 15
 tags:
-  - wip
+  - work-in-progress
 ---
 ## Test:
 id:: 0a63de2b-c142-4bfd-91e5-8e21a4d6b298

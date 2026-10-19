@@ -6,7 +6,7 @@ stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: QACI. AFFINE prerequisites: Outer / Inner Alignment. Not yet copied into requires:. The only assigned reading is the heavily mathematical formalization post; a module will need a gentler explanation of the plan. %%
 ## Test:
