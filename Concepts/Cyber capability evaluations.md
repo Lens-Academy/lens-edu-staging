@@ -1,8 +1,5 @@
 ---
 id: 'c10c1456-c517-4e4d-9c1c-98afe7b7bf9d'
-learning-outcome: "Interpret results from Cyber capability evaluations"
-topic: "[[../Concepts/Capability evaluations]]"
-stage: intermediate
-tags:
-  - skill-tree-placeholder
+parent-concepts:
+  - "[[Capability evaluations]]"
 ---

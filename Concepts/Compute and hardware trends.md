@@ -1,8 +1,5 @@
 ---
 id: '2220c41e-477b-4aa1-a508-088b863c2140'
-learning-outcome: "Interpret evidence about Compute and hardware trends"
-topic: "[[../Concepts/Capabilities and progress]]"
-stage: advanced
-tags:
-  - skill-tree-placeholder
+parent-concepts:
+  - "[[Capabilities and progress]]"
 ---

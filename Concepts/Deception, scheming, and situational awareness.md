@@ -1,8 +1,5 @@
 ---
 id: 'a0d62d4e-7258-42b9-8711-6933cb3bd1e1'
-learning-outcome: "Explain the causal model behind Deception, scheming, and situational awareness"
-topic: "[[../Concepts/Deception and AI character]]"
-stage: intermediate
-tags:
-  - skill-tree-placeholder
+parent-concepts:
+  - "[[Deception and AI character]]"
 ---
