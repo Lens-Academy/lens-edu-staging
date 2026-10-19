@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-topic: "[[../Domains and Topics/3 Alignment/The space of possible goals]]"
+topic: "[[../Concepts/The space of possible goals]]"
 stage: beginner
 eval-results:
   content-sha: c52a72dc
