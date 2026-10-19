@@ -3,7 +3,6 @@ id: 7f12b11e-39ac-4dbd-99ab-5a8c65588061
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-topic: none
 ---
 
 > **Not in the skill tree:** Source article is weak; the concept may return tied to Goodharting.
