@@ -1,7 +1,7 @@
 ---
 id: '2f480ec3-672d-4614-919f-780d40097524'
 learning-outcome: "For a task on which a possibly misaligned model might deliberately underperform, judge before training how easily it could keep reinforcement learning from eliciting its real performance, from whether it already knows which actions would earn high reward and how different those actions are from what it would otherwise sample, and choose a countermeasure that fits the case, saying where it falls short."
-topic: "[[../Concepts/Control threat models]]"
+concept: "[[../Concepts/Control threat models]]"
 stage: intermediate
 authors:
   - Elias+Claude

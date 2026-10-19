@@ -1,7 +1,7 @@
 ---
 id: '94ac2e6b-c3e2-4161-894e-548d18537e68'
 learning-outcome: "Given a pattern of choices under uncertainty, determine whether any utility function makes it expected-utility maximizing and, if not, which axiom it violates; then evaluate whether the violation is a mistake, by explaining how it could let others exploit the agent through a sequence of choices and how the agent could avoid that, and by assessing the defences open to it: redescribing outcomes (which, if allowed freely, makes almost any pattern consistent with expected utility, so coherence arguments then prove little about real agents) or adopting a rival theory that drops the violated axiom."
-topic: "[[../Concepts/Decision theory]]"
+concept: "[[../Concepts/Decision theory]]"
 stage: intermediate
 authors:
   - Luc+Claude

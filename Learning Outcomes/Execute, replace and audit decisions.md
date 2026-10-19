@@ -1,7 +1,7 @@
 ---
 id: '00159bd8-9d86-49c6-8598-924f1f3dbcab'
 learning-outcome: "Given a monitor's catch rates at the thresholds set by an audit budget and by a separate, larger budget for replacing suspicious actions, and how often an attack that runs succeeds, estimate the chance that a scheming model is caught before any attack succeeds, as the chance an attack is audited divided by the chance that it is either audited or runs and succeeds; explain why replacing an action without auditing it turns a would-be loss into a continued deployment rather than a win; and predict how changing the audit budget, the replacement budget or how reliably replacement neutralises an attack moves that chance."
-topic: "[[../Concepts/Control protocols]]"
+concept: "[[../Concepts/Control protocols]]"
 stage: intermediate
 requires:
   - "[[Monitors under an audit budget]]"
