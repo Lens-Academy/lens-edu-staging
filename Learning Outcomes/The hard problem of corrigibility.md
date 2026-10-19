@@ -1,7 +1,7 @@
 ---
 id: 'f904e5fd-5fd9-4ef9-a25a-75e12f076c59'
 learning-outcome: "Explain why an AI that accepts correction only because it is uncertain about its true objective will stop accepting correction once it expects to learn little more from being corrected (the problem of fully updated deference), and state what would have to be different about an agent's reasoning for it to keep accepting correction past that point, and why that is hard to build."
-topic: "[[../Domains and Topics/3 Alignment/Corrigibility and limited optimization]]"
+topic: "[[../Concepts/Corrigibility and limited optimization]]"
 stage: advanced
 authors:
   - Luc+Claude

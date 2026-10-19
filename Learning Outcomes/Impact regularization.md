@@ -1,7 +1,7 @@
 ---
 id: '56f2e404-edcf-491c-8afe-35ae08ac2b6e'
 learning-outcome: "Evaluate a limited-optimization design (such as choosing randomly among the best-scoring few percent of plans from a trusted base distribution, or penalizing an action's impact relative to a baseline): explain what protection it gives when the objective is misspecified, and identify the assumptions whose failure would let a harmful plan through."
-topic: "[[../Domains and Topics/3 Alignment/Corrigibility and limited optimization]]"
+topic: "[[../Concepts/Corrigibility and limited optimization]]"
 stage: advanced
 authors:
   - Luc+Claude
