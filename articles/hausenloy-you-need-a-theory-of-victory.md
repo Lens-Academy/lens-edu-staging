@@ -10,7 +10,7 @@ description: "The cause of AI safety is losing. Consider asking: how can we win?
 tags:
   - "article-importer"
 ---
-at
+ata
 %%
 
 Initial thoughts, 2026-07-26:
