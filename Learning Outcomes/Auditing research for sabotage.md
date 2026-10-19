@@ -1,7 +1,7 @@
 ---
 id: '1a392719-f32a-4ec1-b5d1-2db007fb55ad'
 learning-outcome: "Given an ML experiment, its stated method and its key finding, propose ways a research agent could make the finding come out wrong while leaving the stated method intact, distinguishing sabotage through experimental-design choices from formal errors in code or analysis, and judge which kind an auditor with the paper and code is less likely to catch and which would be more incriminating if found, and why."
-topic: "[[../Domains and Topics/7 AI Control/Control threat models]]"
+topic: "[[../Concepts/Control threat models]]"
 stage: intermediate
 authors:
   - Elias+Claude

@@ -1,7 +1,7 @@
 ---
 id: '0db96fea-6051-4766-9964-50f3eabb3797'
 learning-outcome: "Predict how the value of a legibility intervention (a requirement on how an untrusted model presents its work so that a trusted monitor can judge it) changes as the trusted monitor gets stronger, weighing what pushes the value up against what pushes it down, and state what the available evidence does and does not show about that change."
-topic: "[[../Domains and Topics/7 AI Control/Control protocols]]"
+topic: "[[../Concepts/Control protocols]]"
 stage: intermediate
 requires:
   - "[[Legibility interventions for monitors]]"

@@ -1,7 +1,7 @@
 ---
 id: '2069bada-f767-4a3b-b670-37cde07602ac'
 learning-outcome: "Build an attack tree for how a scheming model could reach a specified unacceptable outcome in a given deployment, with AND and OR decomposition down to choices the model makes, facts about the environment, or points a safeguard could act on, and use it to say which nodes a proposed safeguard prevents, detects or deters and which attack path it leaves open."
-topic: "[[../Domains and Topics/7 AI Control/Control threat models]]"
+topic: "[[../Concepts/Control threat models]]"
 stage: intermediate
 authors:
   - Elias+Claude

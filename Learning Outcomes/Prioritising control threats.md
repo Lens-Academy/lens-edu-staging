@@ -1,7 +1,7 @@
 ---
 id: 'ee68491c-d808-4206-b8ca-c81493469f58'
 learning-outcome: "For a given AI developer, rank which misalignment threats its control effort should address first, among breaking the developer's internal security rules (at worst, instances of the model running unmonitored on the developer's own servers with the compute and permissions to tamper with its work), sabotage of safety-relevant work, self-exfiltration and other harmful side effects, arguing from what each would give a misaligned model (compute, privileged access to the developer's work, the ability to make a pause worthless) and from how the developer's situation, such as its willingness to pause, the compute it controls, how much of its research AI already runs, or whether comparable models are available elsewhere, changes that value or how feasible each threat is."
-topic: "[[../Domains and Topics/7 AI Control/Control threat models]]"
+topic: "[[../Concepts/Control threat models]]"
 stage: intermediate
 authors:
   - Elias+Claude
