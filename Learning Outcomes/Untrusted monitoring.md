@@ -1,7 +1,7 @@
 ---
 id: '94bf8b8d-0ad9-4850-9297-4e8ef8bfc32f'
 learning-outcome: "Explain why a copy of an untrusted model used as a monitor provides no safety unless its honesty is checked, how testing it on inputs with planted attacks makes lying risky and why those test inputs must be indistinguishable from real ones, and why collusion between the acting copy and the monitoring copy then becomes the attacker's route; for a given untrusted-monitoring setup, identify a way the checks can be evaded and propose a countermeasure together with what it costs."
-topic: "[[../Domains and Topics/7 AI Control/Control protocols]]"
+topic: "[[../Concepts/Control protocols]]"
 stage: intermediate
 requires:
   - "[[Trusted versus untrusted models]]"
