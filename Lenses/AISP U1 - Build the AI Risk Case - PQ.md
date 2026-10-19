@@ -6,7 +6,7 @@ summary_for_tutor: "Pre-question for the AI threat-model submodule. The learner 
 reading_minutes: 1
 tutor_minutes: 2
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Question: Open
 id:: fb1d2c9d-349b-4f37-ad48-82cace738104
