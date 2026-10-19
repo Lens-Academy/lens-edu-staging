@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-topic: "[[../Concepts/Advocacy and movement strategy]]"
+concept: "[[../Concepts/Advocacy and movement strategy]]"
 stage: beginner
 eval-results:
   content-sha: 52de31b4

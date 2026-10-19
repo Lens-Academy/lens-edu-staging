@@ -1,7 +1,7 @@
 ---
 id: '47a6f144-aa4b-4d85-b330-5c0fdf1146b5'
 learning-outcome: "Given a monitor that scores an untrusted model's outputs for suspicion and a budget to audit only the most suspicious fraction of them, estimate how many attacks it will catch from its true-positive rate at the false-positive rate the budget sets, explain why, when attacks are rare, nearly all audits land on innocent outputs, and explain why a threshold-free summary such as AUC can rank two monitors the wrong way for this use."
-topic: "[[../Concepts/Control protocols]]"
+concept: "[[../Concepts/Control protocols]]"
 stage: intermediate
 authors:
   - Elias+Claude
