@@ -6,7 +6,7 @@ summary_for_tutor: "Builds a concrete catastrophic-AI threat model from Karnofsk
 reading_minutes: 26
 tutor_minutes: 16
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

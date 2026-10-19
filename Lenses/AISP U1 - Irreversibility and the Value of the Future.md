@@ -6,7 +6,7 @@ summary_for_tutor: "Substantial synthesis of Bostrom's existential-risk argument
 reading_minutes: 18
 tutor_minutes: 14
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

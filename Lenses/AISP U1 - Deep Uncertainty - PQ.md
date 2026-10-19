@@ -6,7 +6,7 @@ summary_for_tutor: "Pre-question for deep uncertainty. The learner says what inf
 reading_minutes: 1
 tutor_minutes: 2
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Question: Open
 id:: 45d3f7b0-1b7b-4597-8534-55a8536b67ba

@@ -6,7 +6,7 @@ summary_for_tutor: "Uses the Existential Risk Persuasion Tournament, Scott Alexa
 reading_minutes: 34
 tutor_minutes: 24
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

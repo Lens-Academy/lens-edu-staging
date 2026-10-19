@@ -6,7 +6,7 @@ summary_for_tutor: "Substantial synthesis on risk, uncertainty, ignorance, expec
 reading_minutes: 40
 tutor_minutes: 22
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

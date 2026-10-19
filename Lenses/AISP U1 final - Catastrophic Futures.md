@@ -6,7 +6,7 @@ summary_for_tutor: "A substantial Lens-native synthesis of Bostrom on existentia
 reading_minutes: 34
 tutor_minutes: 20
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

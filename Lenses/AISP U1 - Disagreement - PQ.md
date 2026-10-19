@@ -6,7 +6,7 @@ summary_for_tutor: "Pre-question for the disagreement submodule. The learner dec
 reading_minutes: 1
 tutor_minutes: 2
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Question: Open
 id:: 286703af-af77-4df0-ab85-8cf27eef6ed4

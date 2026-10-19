@@ -6,7 +6,7 @@ summary_for_tutor: "Synthesis on decision-making under deep uncertainty. Covers 
 reading_minutes: 25
 tutor_minutes: 16
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

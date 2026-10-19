@@ -6,7 +6,7 @@ summary_for_tutor: "Maps the AI catastrophic-risk landscape using Hendrycks et a
 reading_minutes: 42
 tutor_minutes: 22
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

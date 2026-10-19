@@ -6,7 +6,7 @@ summary_for_tutor: "Pre-question for the irreversibility submodule. The learner 
 reading_minutes: 1
 tutor_minutes: 2
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Question: Open
 id:: 57806025-9f6a-43f8-974a-25d15efb2ec9
