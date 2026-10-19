@@ -1,7 +1,7 @@
 ---
 id: '93ee081a-5455-4d86-9e74-c15bb50e49cf'
 learning-outcome: "Given a high-stakes decision under deep uncertainty, compare immediate intervention, delay, and information gathering using severity, reversibility, intervention cost, competing risks, and value of information."
-topic: "[[../Domains and Topics/15 Rationality and Epistemics/Calibrated judgment]]"
+topic: "[[../Concepts/Calibrated judgment]]"
 stage: beginner
 writing_minutes: 10
 tags:
