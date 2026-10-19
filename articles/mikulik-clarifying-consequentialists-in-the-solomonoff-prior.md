@@ -33,7 +33,7 @@ I think the reason I was confused is to a large degree a problem of framing. It 
 
 The Solomonoff, or Universal, prior is a probability distribution over strings of a certain alphabet (usually over all strings of 1s and 0s). It is defined by taking the set of all Turing machines (TMs) which output strings, assigning to each a weight proportional to
 
-{--{"author":"James's AI","timestamp":1792395763139}@@![](https://www.codecogs.com/png.latex?2^{-L})--}{++{"author":"James's AI","timestamp":1792395763139}@@![](https://www.codecogs.com/png.latex?2^{-L})++}
+![](https://www.codecogs.com/png.latex?2^{-L})
 
 (where L is its description length), and then assigning to each string a probability equal to the weights of the TMs that compute it. The description length is closely related to the amount of information required to specify the machine; I will use description length and amount of information for specification interchangeably.
 
