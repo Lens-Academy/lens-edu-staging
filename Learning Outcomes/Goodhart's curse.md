@@ -6,7 +6,7 @@ stage: intermediate
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Goodhart. AFFINE prerequisites: none. Not yet copied into requires:. The existing placeholder LO "Goodharting" covers the causal model of proxy failure in general; this LO covers the selection effect of strong optimisation on a proxy. %%
 ## Test:

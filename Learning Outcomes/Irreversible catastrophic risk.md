@@ -5,7 +5,7 @@ concept: "[[../Concepts/The core extinction argument]]"
 stage: beginner
 tags:
   - learning-outcome
-  - wip
+  - work-in-progress
 ---
 ## Test:
 id:: 2147466b-90f5-49ad-99a4-4251c91fc864

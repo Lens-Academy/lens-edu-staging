@@ -6,7 +6,7 @@ stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Control (in the technical sense) and its limits. AFFINE prerequisites: Alignment's Many Meanings. Not yet copied into requires:. The only AFFINE reading is a talk video that could not be fetched when this was drafted; the outcome follows the talk's framing ('theoretical limits to control: do any of them actually tell us anything?') and standard results. Check against the talk. %%
 ## Test:
