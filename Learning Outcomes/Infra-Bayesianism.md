@@ -1,7 +1,7 @@
 ---
 id: '590b31d2-9232-461a-b878-8eec580271ef'
 learning-outcome: "Explain how infra-Bayesianism handles an environment that lies outside every hypothesis the agent considers, by treating each hypothesis as a partial constraint (a convex set of distributions whose unconstrained parts are chosen by an adversary) and choosing policies by worst-case expected outcome, and derive for a given case what performance guarantee this gives that an ordinary Bayesian learner with a misspecified hypothesis class lacks."
-topic: "[[../Domains and Topics/4 Agent Foundations/Imprecise probability and infra-Bayesianism]]"
+topic: "[[../Concepts/Imprecise probability and infra-Bayesianism]]"
 stage: advanced
 authors:
   - Luc+Claude

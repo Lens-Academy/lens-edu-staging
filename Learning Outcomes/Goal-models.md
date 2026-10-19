@@ -1,7 +1,7 @@
 ---
 id: 'f57e9a1f-814c-42c7-ab7e-192279a00151'
 learning-outcome: "Contrast describing an agent's goals as a goal-model (a detailed, structured representation of how the agent wants a particular part of the world to be, analogous to a world-model) with describing them as a utility function that assigns a score to every possible world, and use the contrast to predict how an agent of each kind responds to small deviations from its target, to offers that trade its target for something scored higher, and to situations its goals were not built for."
-topic: "[[../Domains and Topics/4 Agent Foundations/Goal-directedness and coherence]]"
+topic: "[[../Concepts/Goal-directedness and coherence]]"
 stage: advanced
 authors:
   - Luc+Claude

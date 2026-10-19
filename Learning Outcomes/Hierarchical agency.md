@@ -1,7 +1,7 @@
 ---
 id: '7f8b7995-37d1-460e-8fd1-b72459c2c9c1'
 learning-outcome: "Explain how an agent made of agents (a firm, a state, a multi-agent AI system) can steer toward outcomes that none of its parts would endorse, by identifying the mechanisms in a given structure that separate the direction of the whole from the values of its parts (which members are kept or replaced, what the structure rewards, how information is divided, how dissent is handled), and evaluate whether a proposed fix acts at the level where the divergence arises."
-topic: "[[../Domains and Topics/4 Agent Foundations/Multi-agent and hierarchical agency]]"
+topic: "[[../Concepts/Multi-agent and hierarchical agency]]"
 stage: advanced
 authors:
   - Luc+Claude
