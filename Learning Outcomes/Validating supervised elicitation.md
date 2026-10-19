@@ -1,7 +1,7 @@
 ---
 id: '749d6604-7696-4aa1-8a56-8186eba72f49'
 learning-outcome: "Judge whether a supervised fine-tuning result bounds a capability a model may be hiding: read the result knowing that fine-tuning on demonstrations weaker than the hidden capability can lift a model above the demonstrator yet leave it far below its ceiling, so the result is only a lower bound, and judge whether a stress test run on a password-locked model transfers to the evaluation actually run, by comparing the source and strength of its demonstrations, relative to the capability it hid, with the source and strength of the evaluation's demonstrations relative to the capability being measured."
-topic: "[[../Domains and Topics/6 Evaluations/Capability evaluations]]"
+topic: "[[../Concepts/Capability evaluations]]"
 stage: intermediate
 authors:
   - Elias+Claude

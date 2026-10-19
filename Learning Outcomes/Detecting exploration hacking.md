@@ -1,7 +1,7 @@
 ---
 id: 'acb84fc6-e740-4a63-9312-0cfa2f55c102'
 learning-outcome: "Given a model suspected of suppressing a capability during RL elicitation and the access an investigator has (outputs and reasoning only, or also weights, activations and the ability to train it), propose a detection measure that fits that access and say what result would separate deliberate suppression from genuine inability."
-topic: "[[../Domains and Topics/6 Evaluations/Capability evaluations]]"
+topic: "[[../Concepts/Capability evaluations]]"
 stage: intermediate
 requires:
   - "[[Exploration hacking]]"

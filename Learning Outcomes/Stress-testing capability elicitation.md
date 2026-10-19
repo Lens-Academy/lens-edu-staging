@@ -1,7 +1,7 @@
 ---
 id: 'cba8473b-adc0-4718-b889-179399d130b5'
 learning-outcome: "Judge whether an experiment that tests a capability elicitation method on a model with a deliberately installed hidden capability (such as a password-locked model) measures the method rather than its own construction: check that recovery is reported against a known capability ceiling and that the lock is shown to bind, identify confounds both from how the lock was trained (such as a trigger broader than intended) and from how the data were split (such as overlap between locking, elicitation and evaluation data), and propose a control that rules out each."
-topic: "[[../Domains and Topics/6 Evaluations/Capability evaluations]]"
+topic: "[[../Concepts/Capability evaluations]]"
 stage: intermediate
 authors:
   - Elias+Claude
