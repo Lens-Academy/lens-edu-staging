@@ -6,7 +6,7 @@ summary_for_tutor: "Third lens of the second half of module 3. Sourced measureme
 reading_minutes: 10
 tutor_minutes: 5
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

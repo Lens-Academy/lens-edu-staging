@@ -6,7 +6,7 @@ summary_for_tutor: "Evidence lens of the non-dual library module. Kinds of evide
 reading_minutes: 14
 tutor_minutes: 8
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

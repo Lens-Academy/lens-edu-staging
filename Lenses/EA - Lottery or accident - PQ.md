@@ -6,7 +6,7 @@ summary_for_tutor: "Pre-reading question taken from the pop quiz Dan Gilbert ope
 reading_minutes: 1
 tutor_minutes: 2
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

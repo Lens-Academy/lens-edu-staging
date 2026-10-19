@@ -6,7 +6,7 @@ summary_for_tutor: "Pre-reading question for module 6 (the self). The learner tr
 reading_minutes: 1
 tutor_minutes: 3
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

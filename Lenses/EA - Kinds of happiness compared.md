@@ -6,7 +6,7 @@ summary_for_tutor: "A comparison table of the kinds of happiness from this modul
 reading_minutes: 7
 tutor_minutes: 6
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

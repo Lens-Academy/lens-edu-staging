@@ -6,7 +6,7 @@ summary_for_tutor: "Optional experiment lens of the non-dual library module. Sam
 reading_minutes: 28
 tutor_minutes: 4
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

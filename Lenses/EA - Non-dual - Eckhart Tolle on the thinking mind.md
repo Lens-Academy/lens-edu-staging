@@ -6,7 +6,7 @@ summary_for_tutor: "Optional lens of the non-dual library module. A 17-minute ta
 reading_minutes: 18
 tutor_minutes: 4
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

@@ -6,7 +6,7 @@ summary_for_tutor: "First lens of the non-dual library module (Advaita Vedanta a
 reading_minutes: 15
 tutor_minutes: 6
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

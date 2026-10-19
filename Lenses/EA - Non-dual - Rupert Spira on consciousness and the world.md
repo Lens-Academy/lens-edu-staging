@@ -6,7 +6,7 @@ summary_for_tutor: "Optional lens of the non-dual library module: the second hal
 reading_minutes: 23
 tutor_minutes: 4
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

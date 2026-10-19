@@ -6,7 +6,7 @@ summary_for_tutor: "Optional lens of module 5 (desire). Reading assignment in th
 reading_minutes: 12
 tutor_minutes: 3
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

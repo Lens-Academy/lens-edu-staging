@@ -6,7 +6,7 @@ summary_for_tutor: "Second lens of the non-dual library module. The learner watc
 reading_minutes: 20
 tutor_minutes: 8
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::
