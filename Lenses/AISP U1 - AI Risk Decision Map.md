@@ -7,7 +7,7 @@ reading_minutes: 3
 tutor_minutes: 18
 min_chat_messages: 3
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::
