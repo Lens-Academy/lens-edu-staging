@@ -6,7 +6,7 @@ summary_for_tutor: "Experiment lens at the end of module 5 (desire). Six experim
 reading_minutes: 15
 tutor_minutes: 6
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

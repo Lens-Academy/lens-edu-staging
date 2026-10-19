@@ -6,7 +6,7 @@ summary_for_tutor: "Reading lens from Martin's preprint 'Clusters of Individual 
 reading_minutes: 25
 tutor_minutes: 12
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

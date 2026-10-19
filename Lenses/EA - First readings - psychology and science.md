@@ -6,7 +6,7 @@ summary_for_tutor: "Optional page. For each of the eleven psychology and science
 reading_minutes: 45
 tutor_minutes: 0
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

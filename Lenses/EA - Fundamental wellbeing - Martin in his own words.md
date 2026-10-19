@@ -6,7 +6,7 @@ summary_for_tutor: "Opening lens of the library module on fundamental wellbeing 
 reading_minutes: 6
 tutor_minutes: 3
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

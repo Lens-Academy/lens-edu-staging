@@ -6,7 +6,7 @@ summary_for_tutor: "Optional page. For each of the five philosophy schools on th
 reading_minutes: 35
 tutor_minutes: 0
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

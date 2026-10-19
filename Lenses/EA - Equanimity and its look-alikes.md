@@ -6,7 +6,7 @@ summary_for_tutor: "Reading lens on three failure modes that can look like equan
 reading_minutes: 18
 tutor_minutes: 8
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

@@ -6,7 +6,7 @@ summary_for_tutor: "Three readings on the Western kinds of happiness. Haybron (S
 reading_minutes: 19
 tutor_minutes: 6
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

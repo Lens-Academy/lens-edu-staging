@@ -6,7 +6,7 @@ summary_for_tutor: "Experiment cards for module 7, to feed module 8. Each card h
 reading_minutes: 15
 tutor_minutes: 12
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

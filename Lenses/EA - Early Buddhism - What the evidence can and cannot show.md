@@ -6,7 +6,7 @@ summary_for_tutor: "Evidence lens of the early Buddhism library module. Three cl
 reading_minutes: 15
 tutor_minutes: 7
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

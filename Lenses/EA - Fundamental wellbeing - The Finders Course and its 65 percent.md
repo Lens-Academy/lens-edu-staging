@@ -6,7 +6,7 @@ summary_for_tutor: "Evidence lens on Martin's paid course. Terms: Finders Course
 reading_minutes: 30
 tutor_minutes: 12
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

@@ -6,7 +6,7 @@ summary_for_tutor: "Optional page. For each of the nine contemplative traditions
 reading_minutes: 30
 tutor_minutes: 0
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

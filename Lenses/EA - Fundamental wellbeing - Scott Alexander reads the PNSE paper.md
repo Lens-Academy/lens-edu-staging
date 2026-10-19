@@ -6,7 +6,7 @@ summary_for_tutor: "Optional lens. Scott Alexander's 2019 Slate Star Codex post 
 reading_minutes: 10
 tutor_minutes: 6
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

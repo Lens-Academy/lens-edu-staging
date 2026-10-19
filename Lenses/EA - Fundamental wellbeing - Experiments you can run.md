@@ -6,7 +6,7 @@ summary_for_tutor: "Experiments lens of the fundamental wellbeing library module
 reading_minutes: 18
 tutor_minutes: 10
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

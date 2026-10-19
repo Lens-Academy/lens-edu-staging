@@ -6,7 +6,7 @@ summary_for_tutor: "Optional lens. Dan Gilbert's TED talk 'The surprising scienc
 reading_minutes: 22
 tutor_minutes: 0
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::
