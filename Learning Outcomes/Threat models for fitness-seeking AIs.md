@@ -1,7 +1,7 @@
 ---
 id: '6facdacc-8bd9-4331-8497-fbe7359ad2fd'
 learning-outcome: "Given the observed behaviour of a misaligned AI, judge which kind of fitness-seeking motivation (for example reward on the episode, apparent success, or influence over its own deployment), or scheming, best explains it and what the evidence leaves open, and use what that motivation pursues and over what timescale to predict how a given control measure (for example an honest test, untrusted monitoring, task length, or memory shared between instances) will work against it and which risk it leaves or creates."
-topic: "[[../Concepts/Control threat models]]"
+concept: "[[../Concepts/Control threat models]]"
 stage: intermediate
 requires:
   - "[[Untrusted monitoring]]"

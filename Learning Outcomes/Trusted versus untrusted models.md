@@ -1,7 +1,7 @@
 ---
 id: 'c804178e-94b7-4c4f-bf3f-954f24d361aa'
 learning-outcome: "Decide which models in a deployment to treat as trusted and which as untrusted, using whether a model is capable of scheming effectively as the criterion rather than how it has behaved or what inspection of it has found, and explain why a model that passes evaluations of the capabilities scheming would require must be treated as untrusted rather than trusted."
-topic: "[[../Concepts/The control agenda]]"
+concept: "[[../Concepts/The control agenda]]"
 stage: intermediate
 authors:
   - Elias+Claude

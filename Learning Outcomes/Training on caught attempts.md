@@ -1,7 +1,7 @@
 ---
 id: 'df690e17-158b-489c-9175-ef703cdc961e'
 learning-outcome: "Given a proposal to train a deployed model that may be scheming on its own caught escape attempts, explain what this would cost the lab's safety (the model can learn which countermeasures exist and which approaches fail, recorded attempts stop reflecting how the updated model behaves, fewer future attempts remain to catch, and fewer visible attempts would not show that the tendency is gone) and decide, weighing those costs, whether to do it, limit it, or use the examples to train monitors instead."
-topic: "[[../Concepts/Evaluating and using control]]"
+concept: "[[../Concepts/Evaluating and using control]]"
 stage: intermediate
 requires:
   - "[[Catching models red-handed]]"
