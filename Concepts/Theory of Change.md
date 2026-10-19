@@ -9,4 +9,4 @@ order: 3
 ## Relationships
 
 ### [[../Lenses/alexander-nailing-the-basics-theories-of-change-why-theories-of-change-matter first half]]
-Pretty decent explainer. Could use more emphasis on backchaining. Examples are a bit EA rather than AI Safety.
+Pretty good explainer. Could use more emphasis on backchaining. Examples are a bit EA rather than AI Safety.
