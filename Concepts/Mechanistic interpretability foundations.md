@@ -1,8 +1,5 @@
 ---
 id: '8638b6af-32c6-4005-af67-c9d3c728043f'
-learning-outcome: "Read evidence from Mechanistic interpretability foundations"
-topic: "[[../Concepts/Mechanistic interpretability]]"
-stage: intermediate
-tags:
-  - skill-tree-placeholder
+parent-concepts:
+  - "[[Mechanistic interpretability]]"
 ---
