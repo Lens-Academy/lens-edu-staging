@@ -44,7 +44,7 @@ Scott Garrabrant’s post [(A -> B) -> A](https://www.lesswrong.com/posts/qhsELH
 
 In pure abstract functional terms, the overall type signature is (A -> B) -> A. Lots of other type information is missing from this - there’s nothing about the types of the actions or the outcomes, for instance. But it seems like the right basic setup at a high level.
 
-{--{"author":"James's AI","timestamp":1792404624772}@@![](https://lh3.googleusercontent.com/Gai8r-RTcte3_nY-C_Pxdd95saB94r9NzDq22V5EVyecXzg6xUaZee3GhoEyn9sEEhJixy5GRsSRluRyR7OM23fJ7nmcmyGEmj24xOVUh4RbS4pUNus3ARuvHbtpf3A0omjELDDb=s0)--}{++{"author":"James's AI","timestamp":1792404624772}@@![A cloud labelled as the model, containing A with an arrow to B, and an arrow from the cloud back to A](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/wentworth-selection-theorems-agent-type-signature.png)++}
+![A cloud labelled as the model, containing A with an arrow to B, and an arrow from the cloud back to A](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/wentworth-selection-theorems-agent-type-signature.png)
 
 The model (A -> B), shown diagrammatically as a cloud, causes the choice of action A. Note that there is actually no loop here! There’s just the [Hofstaderian](https://www.amazon.com/gp/product/0465026567/) “strange loop”, in which node A depends on the _model_ of later nodes, not on the later nodes themselves.
 
