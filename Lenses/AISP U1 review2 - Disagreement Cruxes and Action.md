@@ -6,7 +6,7 @@ summary_for_tutor: "Uses the Existential Risk Persuasion Tournament and the Fore
 reading_minutes: 12
 tutor_minutes: 24
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

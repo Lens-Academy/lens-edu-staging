@@ -6,7 +6,7 @@ summary_for_tutor: "Moves from uncertain belief to action. Covers scientific ver
 reading_minutes: 14
 tutor_minutes: 22
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

@@ -6,7 +6,7 @@ summary_for_tutor: "Maps major catastrophic-AI pathways using the supplied readi
 reading_minutes: 16
 tutor_minutes: 22
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

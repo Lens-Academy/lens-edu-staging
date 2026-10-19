@@ -6,7 +6,7 @@ summary_for_tutor: "Presents and evaluates technical objections from Grace and t
 reading_minutes: 13
 tutor_minutes: 22
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

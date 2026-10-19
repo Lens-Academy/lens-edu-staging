@@ -6,7 +6,7 @@ summary_for_tutor: "Develops risk, uncertainty, model uncertainty, ignorance, ex
 reading_minutes: 15
 tutor_minutes: 22
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

@@ -6,7 +6,7 @@ summary_for_tutor: "Pre-question for catastrophic futures. The learner names wha
 reading_minutes: 1
 tutor_minutes: 3
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Question: Open
 id:: 095c6c4d-5cf6-4025-8a74-03eca9bb22ae

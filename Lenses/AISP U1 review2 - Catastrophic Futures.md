@@ -6,7 +6,7 @@ summary_for_tutor: "Develops existential catastrophe through irreversibility, fu
 reading_minutes: 17
 tutor_minutes: 20
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

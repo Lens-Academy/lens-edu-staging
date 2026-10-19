@@ -6,7 +6,7 @@ summary_for_tutor: "Moves from diagnosis to action using the Stanford Encycloped
 reading_minutes: 36
 tutor_minutes: 22
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text

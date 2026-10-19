@@ -6,7 +6,7 @@ summary_for_tutor: "Builds a vocabulary for risk, uncertainty, ignorance, model 
 reading_minutes: 36
 tutor_minutes: 20
 tags:
-  - wip
+  - work-in-progress
 ---
 
 #### Text
