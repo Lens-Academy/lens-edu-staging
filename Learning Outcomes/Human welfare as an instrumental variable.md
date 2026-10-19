@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-topic: "[[../Domains and Topics/11 Strategy/The core extinction argument]]"
+topic: "[[../Concepts/The core extinction argument]]"
 stage: beginner
 eval-results:
   content-sha: 3ca8f868
