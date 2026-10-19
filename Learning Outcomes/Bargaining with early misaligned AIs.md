@@ -1,7 +1,7 @@
 ---
 id: '0ddb8a06-1316-4458-9bdd-22445d5e202e'
 learning-outcome: "Judge whether a deal in which humans pay an early misaligned AI for its cooperation can leave both sides better off: estimate what the AI expects from its alternatives, including seizing power itself and gaining through a later AI that shares its goals or rewards it, compare that with an offer discounted by the chance the AI is ever paid, find the range of offers both sides would accept, and say which changes (credibility of the promise, the AI's prospects through successors, how much its cooperation helps us) open or close that range."
-topic: "[[../Concepts/Living with advanced agents]]"
+concept: "[[../Concepts/Living with advanced agents]]"
 stage: intermediate
 authors:
   - Elias+Claude

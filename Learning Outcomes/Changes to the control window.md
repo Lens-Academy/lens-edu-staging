@@ -1,7 +1,7 @@
 ---
 id: '8ac45bab-e276-4365-8b1b-3b678fba0380'
 learning-outcome: "For a given change in the world, say whether it moves the capability level at which affordable control of AI models stops working, changes how fast models approach that level, or changes how long developers stay below it, and explain why."
-topic: "[[../Concepts/The control agenda]]"
+concept: "[[../Concepts/The control agenda]]"
 stage: intermediate
 authors:
   - Elias+Claude

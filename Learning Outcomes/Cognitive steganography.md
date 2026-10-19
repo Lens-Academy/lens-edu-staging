@@ -1,7 +1,7 @@
 ---
 id: 'ea7c4291-5de1-4da4-a9c0-188e16bd1718'
 learning-outcome: "Explain the distinct ways that dangerous reasoning in an AI can escape a monitor that reads its thoughts (hidden inside innocent-looking content, done where the monitor does not look, expressed through concepts the monitor does not recognise, or never explicitly reasoned about at all), including how training against a monitor can produce these without any intent to hide, and use them to evaluate a monitoring-based safety claim."
-topic: "[[../Concepts/Why interpretability]]"
+concept: "[[../Concepts/Why interpretability]]"
 stage: advanced
 authors:
   - Luc+Claude

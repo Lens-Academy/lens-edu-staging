@@ -3,7 +3,6 @@ id: 6f1bb7c8-6c30-41d1-b15e-76679d5513ca
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-topic: none
 ---
 
 > **Not in the skill tree:** Probably too complicated for the course context; revisit later.

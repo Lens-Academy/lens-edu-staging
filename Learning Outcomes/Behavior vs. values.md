@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-topic: "[[../Concepts/You don't get what you train for]]"
+concept: "[[../Concepts/You don't get what you train for]]"
 stage: beginner
 requires:
   - "[[AI is grown, not crafted]]"

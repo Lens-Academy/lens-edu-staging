@@ -1,7 +1,7 @@
 ---
 id: '6bc40def-f699-40a8-81a1-6896ca45684a'
 learning-outcome: "Given an incident in which a model that may be scheming did something dangerous, judge whether the lab has caught it red-handed, meaning it can show with very high confidence that the model deliberately takes such actions far more often than a model not looking for opportunities would, and say what investigation would establish or rule that out."
-topic: "[[../Concepts/Control protocols]]"
+concept: "[[../Concepts/Control protocols]]"
 stage: intermediate
 authors:
   - Elias+Claude

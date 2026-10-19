@@ -1,7 +1,7 @@
 ---
 id: '984fc730-5d3b-4a95-a77d-24a675ba762f'
 learning-outcome: "Evaluate the argument from coherence to goal-directed AI: explain why the fact that any behaviour can be described as maximizing some utility function blocks a direct inference from 'coherent' to 'goal-directed', explain why a system that is inconsistent with respect to its own internal preferences can still face pressure (from itself, its developers or competition) toward more consistent, outcome-directed behaviour, and judge how strong that pressure is for a given system."
-topic: "[[../Concepts/Goal-directedness and coherence]]"
+concept: "[[../Concepts/Goal-directedness and coherence]]"
 stage: intermediate
 authors:
   - Luc+Claude
