@@ -110,7 +110,7 @@ The [Gooder Regulator Theorem](https://www.lesswrong.com/posts/Dx9LoqsEh3gHNJMDk
 
 Biological organisms are highly modular, at multiple different scales. This can be quantified and verified statistically, e.g. by mapping out protein networks and algorithmically partitioning them into parts, then comparing the connectivity of the parts. It can also be seen more qualitatively in everyday biological work: proteins have subunits which retain their function when fused to other proteins, receptor circuits can be swapped out to make bacteria follow different chemical gradients, manipulating specific genes can turn a fly’s antennae into legs, organs perform specific functions, etc, etc.
 
-{--{"author":"James's AI","timestamp":1792404629042}@@![](https://lh5.googleusercontent.com/MYPZUFU1btU6qziBU2ETpEqZmSGqmPvev_kVnI-RBU37ZucsqT185i2jmK4ccJjDV0D12glmZhFEy15q75VllBxvS807ztWRxfVWe6m7km2C9XOhQ34aVMxKWWbLa95cJZM6uKhG=s0)--}{++{"author":"James's AI","timestamp":1792404629042}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/wentworth-selection-theorems-modularity.png)++}
+![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/wentworth-selection-theorems-modularity.png)
 
 This is not the sort of thing which happens from a single-gene change in non-modular systems.
 
