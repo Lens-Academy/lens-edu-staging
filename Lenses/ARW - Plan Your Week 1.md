@@ -3,7 +3,7 @@ id: '5b57358e-704f-4aa1-b966-db55909dc3e0'
 title: "Plan your week"
 tldr: "Pick one thing from this week to try in your real life before next week: what you will do, when, and how you will know it changed something."
 summary_for_tutor: "Last page of week 1 of the Applied Rationality Workshop. The learner commits to one concrete real-life experiment with one thing from this week: usually Murphyjitsu on a real plan, or its five-second version, or one opening-session tip such as try things or eat the instructions. They say what, when, and how they will know it worked, as something they could observe on a real bug. Next week opens by quoting this answer and asking what actually happened. When the learner asks for feedback, run a quick Murphyjitsu on the experiment itself: ask how surprised they would be if it did not happen, and help them fix the most likely reason. Never choose the experiment for them."
-tags: [wip]
+tags: [work-in-progress]
 reading_minutes: 3
 tutor_minutes: 8
 ---

@@ -6,7 +6,7 @@ summary_for_tutor: "Closing lens of week 2 (Getting things done) of a CFAR-style
 reading_minutes: 2
 tutor_minutes: 8
 tags:
-  - wip
+  - work-in-progress
 ---
 #### Text
 content::

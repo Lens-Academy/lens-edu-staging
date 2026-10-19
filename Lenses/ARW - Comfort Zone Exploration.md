@@ -3,7 +3,7 @@ id: '7a620d24-e654-4c04-a5e6-8267de2a78e0'
 title: "Comfort Zone Exploration"
 tldr: "Some of the things you avoid deserve avoiding and some don't, and thinking about it sometimes can't tell you which. Run a small, safe experiment at the edge, pay attention to what happens, and decide afterwards."
 summary_for_tutor: "Week 4 of the Applied Rationality Workshop. Teaches the CFAR Handbook's Comfort Zone Exploration (CoZE): a System 1 way to gather data about the gray area of things we feel blocked from but are not sure we should avoid. Chesterton's Fence is what separates CoZE from exposure therapy: the fence may be in the right place, too far out, or too far in, and the experiment is for gathering data, not for removing the fence. Algorithm: 1 choose an experience with a yum factor, 2 prepare to accept all worlds (both futures must feel okay, otherwise stop), 3 devise a small, safe experiment, 4 try it, attending to internal experience and external reality, 5 digest without forcing or overthinking. Worked example: Alex walking into crowds to taste assertiveness. The learner lists candidates with the handbook's search prompts, then designs steps 1 to 3 (and plans 4 and 5) with the tutor. They run it in real life this week, planned on the next page."
-tags: [wip]
+tags: [work-in-progress]
 reading_minutes: 17
 tutor_minutes: 25
 min_chat_messages: 5

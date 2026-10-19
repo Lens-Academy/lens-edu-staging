@@ -3,7 +3,7 @@ id: '82ec6708-368c-4315-bab2-04896bbbadf8'
 title: "Murphyjitsu"
 tldr: "Before you start a plan, imagine hearing that it failed. If that would not surprise you, ask what went wrong, fix that, and ask again."
 summary_for_tutor: "The learner's first technique class in the Applied Rationality Workshop: Murphyjitsu, from CFAR's Inner Simulator post (epistemic status: Firm). They read about the inner simulator (the intuitive part of the mind that predicts what happens next), next actions, three inner-sim functions (what happens next, surprise-o-meter, pre-hindsight) and try them on their own life, then the Murphyjitsu steps: 0 select a goal, 1 outline the plan with next actions and deadlines, 2 surprise-o-meter on news that the plan failed, 3 pre-hindsight story of why, including internal and external factors, 4 bulletproof with a single action, 5 iterate until failure would shock them. Then they run Murphyjitsu on a real plan from their own bugs list with you as their partner, and name a five-second version. Keep them on the steps, ask questions, and never write their plan or failure story for them."
-tags: [wip]
+tags: [work-in-progress]
 reading_minutes: 12
 tutor_minutes: 30
 min_chat_messages: 6

@@ -5,7 +5,7 @@ tldr: "This week's techniques work on feelings, so you choose how deep to go, yo
 summary_for_tutor: "Short safety page at the start of week 5 (Inner work) of a CFAR-style applied rationality workshop. It tells the learner that this week's techniques (Focusing, Bucket Errors, Againstness, Internal Double Crux) work on feelings and beliefs about themselves, that they choose the material and can use a code word, that stopping is fine, that the course and the AI tutor are not therapy, when to stop and seek a friend, doctor or therapist, and where to find a crisis helpline. It also passes on CFAR's own advice to people with a history of mania, hypomania or psychosis. If the learner raises anything heavy here, slow down, do not dig, and point them to real support."
 reading_minutes: 3
 tutor_minutes: 0
-tags: [wip]
+tags: [work-in-progress]
 ---
 #### Text
 content::

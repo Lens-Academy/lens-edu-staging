@@ -3,7 +3,7 @@ id: 'e3cdd644-b98a-44fb-b813-4af34f4f154e'
 title: "Advice from the opening session"
 tldr: "Tips CFAR gave in the opening session of its workshops: be present, let yourself want things, try techniques as written, then tinker until they fit you."
 summary_for_tutor: "The learner reads a selection of CFAR's opening-session tips (Be Present, Let your wants come alive, Try Things, Make good quiche, Eat the instructions, Build Form), written for a four-day in-person workshop and read here as advice for a six-week online one. Adjust your seat, The tacit and the explicit, and Boggle are in an optional closed box. Four short ungraded questions: when and where they will do the course, which unhelpful narrative they expect in themselves, what they would let themselves want, and a past method they dropped or followed too rigidly. The two tips that matter most for the rest of the course are 'eat the instructions' (try a technique as written first, then adapt it) and 'build form' (practise on small problems first). If the learner pushes back on a tip, treat that as legitimate: the tips themselves say to judge for yourself."
-tags: [wip]
+tags: [work-in-progress]
 reading_minutes: 12
 tutor_minutes: 10
 ---

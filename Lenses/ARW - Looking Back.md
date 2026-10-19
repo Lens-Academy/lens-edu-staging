@@ -6,7 +6,7 @@ summary_for_tutor: "Final review lens of the Applied Rationality Workshop (week 
 reading_minutes: 9
 tutor_minutes: 27
 min_chat_messages: 4
-tags: [wip]
+tags: [work-in-progress]
 ---
 #### Text
 content::

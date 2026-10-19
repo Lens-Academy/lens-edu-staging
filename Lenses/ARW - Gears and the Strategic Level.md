@@ -5,7 +5,7 @@ tldr: "Know when you really understand something, practise inside the work you a
 summary_for_tutor: "Library lens of the Applied Rationality Workshop: the CFAR Handbook's flash class post on Gears-Level Understanding (knowing how something must work versus trusting a source), Deliberate Performance (practising techniques inside tasks you already do) and The Strategic Level (level 0: blaming yourself, level 1: a tactical fix, level 2: asking what way of thinking would have caught the problem in advance). The learner applies the three levels to one mistake from the past month."
 reading_minutes: 9
 tutor_minutes: 5
-tags: [wip]
+tags: [work-in-progress]
 ---
 #### Text
 content::
