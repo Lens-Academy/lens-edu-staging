@@ -1,8 +1,5 @@
 ---
 id: '6dfab881-910d-4de0-b9e4-56d54d76c89b'
-learning-outcome: "Explain how reward misspecification can cause an AI system to optimize for a proxy rather than the intended goal."
-topic: "[[../Concepts/Inner and outer alignment]]"
-stage: beginner
-tags:
-  - skill-tree-placeholder
+parent-concepts:
+  - "[[Inner and outer alignment]]"
 ---

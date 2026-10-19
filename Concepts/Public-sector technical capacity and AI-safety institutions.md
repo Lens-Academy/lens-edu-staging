@@ -1,8 +1,5 @@
 ---
 id: '13c3f8b3-7026-43b5-934d-faf7d6bb0ef9'
-learning-outcome: "Understand mechanisms and institutions for Public-sector technical capacity and AI-safety institutions"
-topic: "[[../Concepts/The governance landscape]]"
-stage: advanced
-tags:
-  - skill-tree-placeholder
+parent-concepts:
+  - "[[The governance landscape]]"
 ---

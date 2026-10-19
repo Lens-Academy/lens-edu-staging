@@ -1,8 +1,5 @@
 ---
 id: '91b70f59-7712-4bef-8d1d-5c6226098aa6'
-learning-outcome: "Explain the control protocol for Post-control plans"
-topic: "[[../Concepts/The control agenda]]"
-stage: intermediate
-tags:
-  - skill-tree-placeholder
+parent-concepts:
+  - "[[The control agenda]]"
 ---
