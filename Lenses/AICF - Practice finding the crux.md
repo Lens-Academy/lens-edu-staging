@@ -50,6 +50,7 @@ id:: 846d9575-ae42-4d27-aa60-f50dbb84e898
 force-feedback:: first
 content::
 In their closing statements, Gleave and Habryka each say what they think the disagreement comes down to. Here is the crux you found earlier:
+
 ::answer{id="fbbb7caf-b0cd-4066-9cc1-703486814aa5"}
 
 1. In your own words, what does each of them say the disagreement comes down to?
