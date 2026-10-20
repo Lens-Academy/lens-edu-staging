@@ -14,4 +14,4 @@ criteria:
 fix: Say what the term means, in plain words, in the sentence where it first appears.
 ---
 
-Copied 2026-10-20 from lens-platform `core/course_checks/checks.py` (staging e422c2c0), with the model moved to jev-1.14.0 as in PR #1352. Not yet read by the platform: the live check is still the Python constant. {>>{"author":"lauren","timestamp":1792504111887}@@test of criticmarkup<<}Edit freely to try phrasings; the panel above runs whatever this file says now.
+Copied 2026-10-20 from lens-platform `core/course_checks/checks.py` (staging e422c2c0), with the model moved to jev-1.14.0 as in PR #1352. Not yet read by the platform: the live check is still the Python constant. Edit freely to try phrasings; the panel above runs whatever this file says now.
