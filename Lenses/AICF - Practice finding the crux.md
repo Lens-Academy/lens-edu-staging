@@ -26,7 +26,7 @@ Now watch the next 18 minutes of the Gleave and Habryka debate. Gleave replies t
 #### Video
 source:: [[../video_transcripts/far-ai-are-current-ai-safety-techniques-enough-adam-gleave-far-ai-oliver-habryka-lightcone]]
 from:: 23:02
-to:: 41:05
+to:: 41:05.8
 
 #### Question: Open
 id:: fbbb7caf-b0cd-4066-9cc1-703486814aa5
