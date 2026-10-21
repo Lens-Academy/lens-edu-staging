@@ -20,6 +20,7 @@ The patterns below come from the **AI Risk Fundamentals** course (`IABIED` prefi
 - Write the way a good teacher talks, not like a spec. Don't copy a brief's internal labels or bullet points into learner text. Start with the thing itself. No meta headings that the next sentence just restates (a heading "Two strands" followed by "This course has two strands."), and no slogan pairs ("It explores, it does not preach").
 - Define a key term before you lean on it. Never drop a term in cold.
 - An overview opens with who the course is for and what they get from it, as prose.
+- Don't repeat what the reading says itself: if an author discloses a conflict of interest or their employer, the lens does not say it again. Add such a note only when the excerpt leaves it out. Introduce each article or comment just before it, not in a batch earlier, and leave out dates and order ("a day before Barak") unless the point depends on them.
 - The items of one list are one kind of thing (all questions, or all topics), not a mix.
 - Lines starting with "(1)", "(a)", "a." or "(i)" are not list syntax, so consecutive ones render as one run-on paragraph. Put a blank line between such items, or use a real `1.` list.
 - No nested list hidden in a bullet. "- **Work with companies.** Fact one. Fact two. Fact three." should become either prose, or a label bullet with each fact in its own indented sub-bullet. A single fact with its label stays one bullet.
