@@ -83,7 +83,7 @@ Paragraph 39. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ips
 | A | B | C |
 | --- | --- | --- |
 | row 0 | value 0 | note 0 |
-| row 1 | value 1 | note 1 |
+| row 1 | value 1abcdefabcdeabcdefghfgh | note 1 |
 | row 2 | value 2 | note 2 |
 | row 3 | value 3 | note 3 |
 | row 4 | value 4 | note 4 |
