@@ -4,6 +4,8 @@ name: term used before it is explained
 model: jev-1.14.0
 fail_at: 0.8
 pass_below: 0.5
+# Question files are read inside a lens, after the lens text that explains their terms.
+skip_folders: [Questions]
 question: >-
   Does `paragraph` use a technical term or acronym without explaining what it means?
 criteria:
