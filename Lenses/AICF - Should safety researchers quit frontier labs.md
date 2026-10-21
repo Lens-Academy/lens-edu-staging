@@ -8,7 +8,7 @@ tutor_minutes: 13
 ---
 #### Text
 content::
-The warning-shot argument has a practical form: if safety work at AI companies prevents the incidents that might win support for a pause, maybe safety researchers should leave. Ryan Kidd, who runs a programme that trains safety researchers, sets out that argument and his replies to it. He states his conflict of interest at the end.
+The warning-shot argument has a practical form: if safety work at AI companies prevents the incidents that might win support for a pause, maybe safety researchers should leave. Ryan Kidd, who runs a programme that trains safety researchers, sets out that argument and his replies to it.
 
 #### Article
 source:: [[../articles/kidd-should-safety-researchers-quit-frontier-labs-re-warning-shots]]

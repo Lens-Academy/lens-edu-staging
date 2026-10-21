@@ -40,7 +40,7 @@ to:: which advocates for third-party safety evaluation and coordination for slow
 
 #### Text
 content::
-Alex Nguyen, a journalist at Mother Jones, reads the same months differently. As the article discloses, Mother Jones's parent company has sued OpenAI.
+Alex Nguyen, a journalist at Mother Jones, reads the same months differently.
 
 #### Article
 source:: [[../articles/nguyen-dont-be-fooled-congress-isnt-cracking-down-on-openai]]
