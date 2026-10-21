@@ -22,6 +22,9 @@ source:: [[../articles/ward-an-overview-of-frontier-ai-company-monitoring-practi
 #### Question: Open
 id:: 6f4d3c32-cad8-4154-a69b-1b97be369530
 content::
-Anthropic and Google DeepMind use weaker models as monitors, Anthropic to avoid collusion. OpenAI uses its most powerful model. If you had to guard against an agent that might be scheming, which choice would you make, and what does it give up? Does the fact that humans review only the most severe flags change your answer?
+Anthropic and Google DeepMind use weaker models as monitors, Anthropic to avoid collusion. OpenAI uses its most powerful model.
+
+1. If you had to guard against an agent that might be scheming, which choice would you make, and what does it give up?
+2. Does the fact that humans review only the most severe flags change your answer?
 force-feedback:: first
 feedback-instructions:: Unscored reflection after Ward's overview of monitoring at Anthropic, OpenAI and Google DeepMind. The trade-off: a weaker, trusted monitor is unlikely to be scheming itself, so it will not collude with the agent, but it may miss subtle attacks or misread what a stronger agent is doing. A strongest-model monitor understands more and catches more honest mistakes and overt misbehaviour, but in Greenblatt and Shlegeris's terms it is untrusted: it could be scheming too and let attacks through. OpenAI also runs older models as monitors, which is a partial answer. On human review: if humans see only the top flags (Anthropic about 50 a week, usually within a week), everything rests on the automated monitor ranking the dangerous transcripts high, so a monitor that colludes or simply misses an attack is not backed up by a human, and review a week later is too late for high-stakes actions. Accept any reasoned answer. In at most five sentences: name what the learner's reasoning gets right, add the most important consideration they missed, and do not say which company is right. No follow-up questions. No generic praise. Tell them to move on.
