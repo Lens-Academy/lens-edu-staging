@@ -27,7 +27,10 @@ to:: 15:00.5
 optional:: true
 id:: 8419de4d-a8e9-41c3-a030-e83ab8666e70
 content::
-Phuong worries about risk compensation: control might let labs deploy models they know are misaligned and still think they are being safe. Is that a criticism of control itself, or of how labs might use it? Does the difference matter? Say why.
+Phuong worries about risk compensation: control might let labs deploy models they know are misaligned and still think they are being safe.
+
+1. Is that a criticism of control itself, or of how labs might use it?
+2. Does the difference matter? Say why.
 force-feedback:: first
 feedback-instructions:: This is an unscored reflection. The learner just heard Mary Phuong (Google DeepMind) name two weaknesses of control (trusted models fall further behind the untrusted models we want to deploy, and risk compensation: labs might deploy imperfectly aligned or known-misaligned models and feel safe, while control does not fix the root cause or help align superhuman systems) and two strengths (much stronger near-term assurances than alignment or alignment testing can give, and the chance to catch a model doing something very concerning, which could galvanise safety work). Engage with the learner's reasoning in at most four sentences. If they say it is only about use, ask whether a safety method that predictably changes how people behave can be judged apart from that behaviour. If they say it is about control itself, ask what would have to be true of control for the problem to go away. Accept any reasoned answer and do not say which view is right. Mention that Kulveit, next, makes a related argument from outside the field. Up to two turns. No generic praise.
 #### End Callout
@@ -42,6 +45,9 @@ source:: [[../articles/kulveit--ai-control-may-increase-existential-risk]]
 #### Question: Open
 id:: 9b1325c0-05ed-4175-a437-e7a9551c70e5
 content::
-Both Kulveit's argument and Greenblatt and Shlegeris's case for control depend on some things being true about the world. Name one premise each of them depends on. Which of the two do you find less plausible, and why?
+Both Kulveit's argument and Greenblatt and Shlegeris's case for control depend on some things being true about the world.
+
+1. Name one premise each of them depends on.
+2. Which of the two do you find less plausible, and why?
 force-feedback:: first
 feedback-instructions:: The learner just read Kulveit's "AI Control May Increase Existential Risk" after Greenblatt and Shlegeris's case for control. Premises Kulveit's argument depends on include: (1) without control, a misaligned AI's attempt would often be stopped by other means (security, society, governments) and become a moderate, visible incident rather than a catastrophe, (2) such visible incidents would push labs and governments to act, (3) incidents stopped by control would be kept quiet or described vaguely by the lab, and (4) cases where control is the only thing that stops an AI are rare compared with cases something else would have stopped. Premises the case for control depends on include: (a) a red team can find attacks at least as good as the ones a scheming model would find, and the model's abilities can be measured even if it tries to sabotage the measurement, (b) catching an AI leads to a shutdown, pause or slowdown, or at least to much more support for one, (c) the first very useful AIs are not yet too capable to control. Acknowledge each premise the learner names and whether the argument actually needs it. If they name one the argument does not need, say so in one sentence and point to one it does need. Comment on how well they reasoned about which is less plausible, without saying which side is right. At most five sentences. No generic praise. Tell them the course comes back to this argument in Units 4 and 5.
