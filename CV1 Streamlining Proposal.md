@@ -188,7 +188,7 @@ These need a signed-in tester:
 
 These are left for Elias's input. Any he does not weigh in on are settled later, before the stage each one holds up. The suggestions are ours.
 
-{>>{"author":"Elias","timestamp":1790948407400}@@I think two modules is better (less unnecessary nesting, unless the nesting is meaningful<<}| # | Decision | Holds up | Our suggestion |
+| # | Decision | Holds up | Our suggestion |
 |---|---|---|---|
 | 1 | Unit 5: two modules, or two submodules in one module? | Stage 3 | Two modules{>>{"author":"Andreas's AI","timestamp":1792564427099}@@Closed: decision 1 settled as two modules. Recorded in [[CV1 Restructure Log]], section 1 (D1).<<} |
 | 2 | Strategic Foundations: four pathway lenses, or one page? {>>{"author":"Elias","timestamp":1790948443687}@@4 lenses + why drop the output? Isn't it good? If you are sure it's bad you can remove it<<}And its written output: drop, reframe, or keep?{>>{"author":"Andreas's AI","timestamp":1791494832184}@@On the output: it's a good exercise, but it duplicates required work. The optional map in [[Lenses/XLab Verification - v-strategic-foundations]] (line 159: "Choose one element of the advanced-AI supply chain. Map (1) the actors involved, (2) the authority each one holds, and (3) the evidence ...") is the same task unit 4 requires in [[Lenses/XLab Verification - v-scoping-upstream-downstream]] (lines 86 to 89: "Pick one element of the advanced-AI supply chain ... For each actor, record: the authority it holds ... the evidence ..."). A learner who does it in unit 2 gets asked for it again two units later. Keeping it as a first draft to revise in unit 4 would avoid the repeat without losing it.<<} | Stage 3 | Four lenses; drop the output |
