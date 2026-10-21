@@ -23,7 +23,7 @@ feedback-instructions:: The learner read Ryan Kidd's post and is ranking his rep
 
 #### Text
 content::
-Here are three comments on the post. Boaz Barak, who says he works on OpenAI's alignment team, comments on it, and Leo Gao replies to him. A commenter called orthonormal replies to Kidd directly, a day before Barak's comment.
+Boaz Barak commented on the post, and Leo Gao replied to him.
 
 #### Article
 source:: [[../articles/barak-comment-on-should-safety-researchers-quit-frontier-labs-re-warning-shots]]
