@@ -20,7 +20,11 @@ to:: 11:45.8
 #### Question: Open
 id:: 0c7b1b86-f46d-42cf-bc6d-a974711022f9
 content::
-Shlegeris gives two reasons why control matters more now than it used to. Name both. Then say which of them is about political will, and why he thinks pausing once we know the AI is misaligned is not a plan he can rely on.
+Shlegeris gives two reasons why control matters more now than it used to.
+
+1. Name both.
+2. Say which of them is about political will.
+3. Say why he thinks pausing once we know the AI is misaligned is not a plan he can rely on.
 placeholder:: A few sentences.
 force-feedback:: first
 assessment-instructions:: Score out of 100. Context for grading: on a 2025 podcast, Buck Shlegeris gave two reasons control matters more now. First, AI that could cause a catastrophe now looks plausible within a few years, so attention moves from far-off superintelligence to a nearer zone where AIs could cause a catastrophe without countermeasures but countermeasures are not hopeless. Second, the world is investing less in safety than people hoped, with less regulation, more rush and less ability to stop, so cheap harm reduction matters. He doubts that pausing once we know the AI is misaligned is a plan to rely on, because he does not expect to become confident the AI is not misaligned, and because there are reasons to keep deploying anyway, such as careless competitors, failed international coordination, or AIs that have already escaped. 25: the first reason (dangerous AI may come soon, so the near-term period when control can still work matters). 25: the second reason (less investment, regulation or caution than hoped). 20: identifies the second reason as the one about political will. 30: why pausing is not a plan he can rely on, either that the evidence of misalignment may not become clear enough, or that there are strong reasons or pressures to keep deploying anyway (competitors, failed coordination, AIs already loose). One of these suffices for full marks. Model answer, for the feedback, not a grading checklist: "First, dangerous AI now looks like it could arrive within a few years, so the period where control can still work matters. Second, the world is putting less into safety than hoped. The second is about political will. Pausing is unreliable because we may never be sure the AI is misaligned, and competitors or failed coordination would push to keep deploying anyway."
