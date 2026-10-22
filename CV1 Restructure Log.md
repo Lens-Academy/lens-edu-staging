@@ -148,6 +148,7 @@ D4's step 1 test still runs first. Elias's answer settles whether to split; the 
 | Q11 | **Learning outcomes for units 3 to 5** | Elias: "Should be fixed as well at some point". Andreas is checking whether that is in scope | Andreas | Nothing in this project by default (section 9) |
 | Q12 | **Preparing Compute Verification 2** | Elias: "Shouldn't that be prepared too?" Andreas is raising it separately; no reply was posted in the proposal | Andreas | Nothing in this project (section 9) |
 | Q13 | **Is the imported MIRI paper the v3 the curriculum pins?** | Not checked yet | Us | Stage 8's estimate for that lens |
+| Q14 | **The theories-of-change image: a local copy, or the live link to XLab's repository?** | Raised 2026-10-21. A local copy cannot break if XLab moves the file; the live link picks up any change XLab makes. Facts for the call: the image is Slow Food USA's one-page theory of change, a third-party document XLab uses as an example, not XLab's own work; the text around it in [[Lenses/XLab Verification - v-theories-of-change]] is Lens's copy and does not follow XLab's updates, so the live link could change the picture without the text; and the five images in [[Lenses/XLab Verification - v-mechanism-privacy]] are already local copies in Lens's attachments, so this is the only image in CV1 still served from XLab. How often XLab has changed it could not be checked, since our copy of XLab's repository has no history | Andreas | Stage 7, step 5, for the image only |
 
 ---
 
