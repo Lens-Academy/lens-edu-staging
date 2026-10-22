@@ -116,6 +116,12 @@ On the points he took up with Elias directly.
 | A12 | **Strategic Foundations' written exercise stays, and stays optional.** It is already optional, so the restructure leaves it as it is, in whichever pathway lens holds it. Settles Q2 | Stage 3, step 3 |
 | A13 | **Feedback with the first answer is the default throughout:** every question with a brief gets `force-feedback:: first`. Settles Q6 | Stage 4, step 4 |
 
+### From Andreas, 2026-10-22
+
+| # | Decision | Commits us to |
+|---|---|---|
+| A14 | **Unit 5 splits after measuring use** (split point B). It balances the load better, the optional lenses at the end of the second module add reading for learners who do everything, and the split is conceptual: what a chip can report, then who controls it and where trust sits | Stage 3, step 2, done 2026-10-22 |
+| A15 | **Module titles drop the unit framing.** "Week 5:" went with the split; the rest follow in stage 7, step 3 | Stage 3, step 2; stage 7, step 3 |
 ### From Elias's review of the proposal, 2026-10-02
 
 | # | Decision | Where he said it | Commits us to |
@@ -151,6 +157,7 @@ D4's step 1 test still runs first. Elias's answer settles whether to split; the 
 | Q11 | **Learning outcomes for units 3 to 5** | Elias: "Should be fixed as well at some point". Andreas is checking whether that is in scope | Andreas | Nothing in this project by default (section 9) |
 | Q12 | **Preparing Compute Verification 2** | Elias: "Shouldn't that be prepared too?" Andreas is raising it separately; no reply was posted in the proposal | Andreas | Nothing in this project (section 9) |
 | Q13 | **Is the imported MIRI paper the v3 the curriculum pins?** | Raised by a note from Elias's AI in [[Lenses/XLab Verification - v-paper-scher-treaty]]: XLab pins arXiv 2511.10783v3, and v1 stated the thresholds inline in Article IV where v3 moves them into Article II's definitions. **Closed, 2026-10-21: it is v3.** The imported article's source is `arxiv.org/abs/2511.10783v3`, Article II defines the Strict, Strict Post-training and Monitored Thresholds (10^24, 10^23 and 10^22 FLOP), and Article IV refers to them by name. v3 is the revision of 2026-05-08; the citations' "Nov. 2025" is the first version's date and stays | | |
+| Q15 | **De-nesting the unit welcomes** | Raised by Andreas, 2026-10-22, as a consideration. Each unit's welcome ("Welcome to Unit N", a short list of what the learner will be able to do) is an inline lens at the top of the unit's first module, so it sits under that module's title. After the split, unit 5's welcome lists goals for both modules but sits inside the first, "Hardware: what a chip can report". What de-nesting should mean is not settled yet | Andreas | Nothing yet; fits stage 3 or stage 7, step 3 |
 | Q14 | **The theories-of-change image: a local copy, or the live link to XLab's repository?** | Raised 2026-10-21. A local copy cannot break if XLab moves the file; the live link picks up any change XLab makes. Facts for the call: the image is Slow Food USA's one-page theory of change, a third-party document XLab uses as an example, not XLab's own work; the text around it in [[Lenses/XLab Verification - v-theories-of-change]] is Lens's copy and does not follow XLab's updates, so the live link could change the picture without the text; and the five images in [[Lenses/XLab Verification - v-mechanism-privacy]] are already local copies in Lens's attachments, so this is the only image in CV1 still served from XLab. How often XLab has changed it could not be checked, since our copy of XLab's repository has no history **Settled and done, 2026-10-21 (A11):** copied into Lens's attachments (section 8) | | |
 
 ---
