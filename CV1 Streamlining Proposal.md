@@ -69,7 +69,7 @@ The chip supply chain lens (optional, 115 minutes) embeds about 46,000 words, bu
 
 | Unit | Modules | Stated core | Reading floor | Course file says |
 |---|---|---|---|---|
-| 1 | 3 | 126 | 75, including a 15-minute video | 220 |
+| 1 | 3 | 126 | 47, including a 15-minute video | 220 |
 | 2 | 3 | 170 | 42 | 170 |
 | 3 | 2 | 210 | 67 | 210 |
 | 4 | 2 | 170 | 40 to 70 | 170 |
