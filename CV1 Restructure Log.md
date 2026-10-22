@@ -122,6 +122,7 @@ On the points he took up with Elias directly.
 |---|---|---|
 | A14 | **Unit 5 splits after measuring use** (split point B). It balances the load better, the optional lenses at the end of the second module add reading for learners who do everything, and the split is conceptual: what a chip can report, then who controls it and where trust sits | Stage 3, step 2, done 2026-10-22 |
 | A15 | **Module titles drop the unit framing.** "Week 5:" went with the split; the rest follow in stage 7, step 3 | Stage 3, step 2; stage 7, step 3 |
+
 ### From Elias's review of the proposal, 2026-10-02
 
 | # | Decision | Where he said it | Commits us to |
