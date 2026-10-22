@@ -16,4 +16,4 @@ criteria:
 fix: Say what the term means, in plain words, in the sentence where it first appears.
 ---
 
-Copied 2026-10-20 from lens-platform `core/course_checks/checks.py` (staging e422c2c0), with the model moved to jev-1.14.0 as in PR #1352. Not yet read by the platform: the live check is still the Python constant. Edit freely to try phrasings; the panel above runs whatever this file says now.
+Copied 2026-10-20 from lens-platform `core/course_checks/checks.py` (staging e422c2c0), with the model moved to jev-1.14.0 as in PR #1352. This file is the live check: lens-platform reads the Checks/ files as its course checks (since #1371/#1372, 2026-10-21). Save as live in the panel above changes what staging agents are told after the next content sync (about a minute); production follows a promote. Edits to the fields make a draft first, which nothing but the panel uses.
