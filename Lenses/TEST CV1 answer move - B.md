@@ -12,8 +12,3 @@ tutor_minutes: 0
 #### Text
 content::
 This page is part of a test. Before the move, there is nothing else here. After the move, the question from page A appears below.
-
-#### Question: Open
-id:: 297e10b1-2a0f-40b5-86f7-3aac3c2d22e8
-content:: Test question: type today's date and the word "before".
-feedback-instructions:: This is a test question. Reply in one short sentence confirming the answer was received.
