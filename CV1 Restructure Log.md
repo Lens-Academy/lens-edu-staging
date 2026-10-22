@@ -185,17 +185,17 @@ For A3 and Q8. A scan of what a learner sees in every CV1 lens, leaving out Work
 
 **Section numbers and XLab's structure,** already stage 7, step 2: link labels 1.2, 1.2.1, 1.2.2 and 1.3 in five lenses, and "2.1 Hardware" in [[Lenses/XLab Verification - v-hw-claim]]; "Module 0.3" in essay A; "Section 2.1" four times in [[Lenses/XLab Verification - v-mechanism-privacy]] and once in [[Lenses/XLab Verification - v-hw-reconstructing-run]]; and the eight hardware headings.
 
-**Text that presents XLab as the course's source or platform:**
+**Text that presents XLab as the course's source or platform.** All of it goes (A7):
 
 - Essays A and B both end "Keep your final essay for peer review, as specified in XLab's assignment", linking to the assignment on XLab's site, in [[Lenses/XLab Verification - v-intuitions-a1]] and [[Lenses/XLab Verification - v-intuitions-b1]]. CV1 has no peer review of its own; meeting 1's Room 2 works from the essays instead.
 - [[Lenses/XLab Verification - v-hw-reconstructing-run]]: "this lesson is the technical extension of section 2.1 and is marked optional in XLab's curriculum."
 - [[Lenses/XLab Verification - v-context-distiller]]: the answer keys head four lists "Decoys XLab planted".
 
-**XLab's word "track" for the course:** "the whole track's premise" in [[Lenses/XLab Verification - v-intuitions-drills-1]]; "this track studies verification" twice in [[Lenses/XLab Verification - v-scoping-effective-feasible]]; "the compute reports this track is building toward" in [[Lenses/XLab Verification - v-scoping-upstream-downstream]]; and in [[Lenses/XLab Verification - v-intuitions-success]], "You will return to it at the end of the track", a second promise CV1 does not keep. Stage 5 handles the first.
+**"Track."** Stays (A8): Lens counts CV1, CV2 and the Capstone as one track. The uses: "the whole track's premise" in [[Lenses/XLab Verification - v-intuitions-drills-1]]; "this track studies verification" twice in [[Lenses/XLab Verification - v-scoping-effective-feasible]]; "the compute reports this track is building toward" in [[Lenses/XLab Verification - v-scoping-upstream-downstream]]; and in [[Lenses/XLab Verification - v-intuitions-success]], "You will return to it at the end of the track". Since the track runs past CV1, that promise is fine if a later course on the track returns to the essay; whether one does is unchecked.
 
 **"Week 5"** in four lenses, already stage 7, step 1. "Part 2 continues with the other three" in [[Lenses/XLab Verification - v-mechanism-effective]] places the course in its sequence and stays.
 
-**Tutor-facing text the tutor can repeat to a learner:** 22 tutor summaries say the lens is imported from XLab's curriculum, and 25 feedback briefs in 15 lenses name XLab, 21 of them the shared brief (Q6). One brief also tells the tutor that XLab's reference ratings "are compared in the separate capstone". The validator already warns on these wherever a lens is not tagged `wip`.
+**Tutor-facing text the tutor can repeat to a learner:** 22 tutor summaries say the lens is imported from XLab's curriculum, and 25 feedback briefs in 15 lenses name XLab, 21 of them the shared brief (Q6). One brief also tells the tutor that XLab's reference ratings "are compared in the separate capstone". The validator already warns on these wherever a lens is not tagged `wip`. Per A9, some reference may stay, decided item by item. The rule's own advice is to credit the partner only in the welcome and Works cited, so a reference kept in a tutor summary or brief keeps its warning; one kept in the Works cited does not.
 
 **Attribution that stays under A3:** the overview's "based on XLab's open-source verification curriculum" and its feedback line, the Works cited footers, and the Context Distiller's note that its system card is "a fictional in-universe teaching document written by XLab", which also tells the learner the document is not real.
 
@@ -255,9 +255,9 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 | Step | Status |
 |---|---|
 | 1. Worklist from per-file counts of both fields, with graded, key visible and optional recorded per question | `todo`, unblocked. Baseline in the proposal: 44 graded segments in 20 lenses |
-| 2. Sort the graded questions by A1 and A2: key on the page, ungrade; longer with no key on the page, keep the grade; single-answer choice, keep the grade | `todo`, unblocked, except whether A2 reaches units 1 and 2 (Q7) |
+| 2. Sort the graded questions by A1 and A2: key on the page, ungrade; longer with no key on the page, keep the grade; single-answer choice, keep the grade | `todo`, unblocked. Questions outside A1 and A2, units 1 and 2 included, are judged one by one and the call recorded (A10) |
 | 3. "Optional:" at the head of every optional prompt; feedback modules excluded | `todo`, unblocked |
-| 4. Convert each question in one edit; replace the 21 generic briefs; `force-feedback:: first` | `blocked` on Q6. Includes the #204 fix in the authorization lens |
+| 4. Convert each question in one edit; replace the 21 generic briefs; `force-feedback:: first` | `todo`: every shared brief is specialized (A6); `force-feedback` waits on Q6. Includes the #204 fix in the authorization lens |
 | 5. Outcome tests left as they are | `done` by decision |
 
 ### Stage 5, close the claim ledger in CV1 (D5)
@@ -281,10 +281,10 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 | Step | Status |
 |---|---|
 | 1. Unit, never week | `todo` |
-| 2. XLab section numbers out of headings and link labels (E5), and whatever XLab framing Q8 settles, from the inventory in section 3 | `todo`; numbers unblocked, framing waits on Q8. Rechecked 2026-10-20: the eight hardware headings still carry 2.1 to 2.1.7 |
+| 2. XLab section numbers out of headings and link labels (E5), and whatever XLab framing Q8 settles, from the inventory in section 3 | `todo`, unblocked: the numbers, and the learner-facing framing A7 lists. Rechecked 2026-10-20: the eight hardware headings still carry 2.1 to 2.1.7 |
 | 3. Module titles in one style | `todo` |
 | 4. "Compute Verification 1" wherever the course is named, including the meeting doc titles the text review left for this pass | `todo` |
-| 5. One rule for XLab source footers | `todo` with the Q3 work-around: keep every footer, copy the theories-of-change image into Lens |
+| 5. One rule for XLab source footers | `todo`: every footer stays (A3, confirmed 2026-10-21); the theories-of-change image waits on Q14 |
 | 6. American spelling | `todo`. Recount at the start; the proposal's 89 lines in 26 lenses predate the re-timing sweep |
 | 7. Em dashes | `todo` |
 
@@ -376,6 +376,7 @@ Needs a signed-in tester on staging. Nothing is run yet.
 | 2 | 2026-10-21 | Andreas removed the resolved comments from the proposal, ours with them. Left in place: Elias's note on learning outcomes for units 3 to 5, and the footer, order-note and redirect-lens threads still waiting on him | [[CV1 Streamlining Proposal]] | Resolved loops no longer need to sit on the page. Their content is kept in sections 1 and 2 | By Andreas |
 | 1 | 2026-10-21 | Corrected the proposal's unit 1 reading floor from 75 to 47 minutes | [[CV1 Streamlining Proposal]] | Section 6: the figure did not reproduce from the saved counts | Direct; our text |
 | 2 | 2026-10-21 | Recorded Andreas's decisions A1 to A5, explained Q6 and Q10, set work-arounds for the threads waiting on Elias, and inventoried XLab framing for Q8 | [[CV1 Restructure Log]] | Settles most of section 2 and unblocks stage 4, step 2 and stage 6 | Direct; our file |
+| 2 | 2026-10-21 | Recorded Andreas's second round, A6 to A10: specialized briefs, learner-facing XLab framing out, "track" kept, tutor-facing references item by item, grading case by case. Opened Q14 on the theories-of-change image | [[CV1 Restructure Log]] | Settles Q7 and Q8 for learner-facing text, narrows Q6, and unblocks stage 7, step 2 | Direct; our file |
 
 ---
 
