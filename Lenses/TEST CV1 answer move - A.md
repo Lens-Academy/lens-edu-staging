@@ -5,7 +5,7 @@ tldr: "Test page. Answer the one question here so we can check that the answer s
 summary_for_tutor: "Test page for a structural check, not course content. If the learner asks, say this page only tests whether a saved answer survives a move."
 tags: [work-in-progress]
 reading_minutes: 1
-tutor_minutes: 1
+tutor_minutes: 0
 ---
 %% Test fixture for the CV1 restructure, stage 3, step 1 (see CV1 Restructure Log). The question below will be moved to page B with its id unchanged. Delete this course, module and both pages after the test. %%
 
