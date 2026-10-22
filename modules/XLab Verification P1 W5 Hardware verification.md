@@ -34,3 +34,17 @@ source:: [[../Lenses/XLab Verification - v-hw-accounting]]
 
 # Lens:
 source:: [[../Lenses/XLab Verification - v-hw-measuring-use]]
+
+# Lens:
+source:: [[../Lenses/XLab Verification - v-hw-authorization]]
+
+# Lens:
+source:: [[../Lenses/XLab Verification - v-hw-where-trust-lives]]
+
+# Lens:
+source:: [[../Lenses/XLab Verification - v-hw-reconstructing-run]]
+optional:: true
+
+# Lens:
+source:: [[../Lenses/XLab Verification - v-paper-open-problems-compute]]
+optional:: true
