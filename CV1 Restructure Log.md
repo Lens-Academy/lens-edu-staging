@@ -173,6 +173,28 @@ None of these are ours. Found by diffing every CV1 file between the staging comm
 - **Compute Verification 2 shares no lens with CV1** (checked 2026-10-08). Its [[Lenses/XLab Verification - v-hw-policy-studio]] holds the claim-ledger resolution that stage 5 copies, not moves.
 - **The archived five-module course** shares lenses with CV1; edits to them are fine (section 1).
 
+### XLab framing: inventory of 2026-10-21
+
+For A3 and Q8. A scan of what a learner sees in every CV1 lens, leaving out Works cited and Sources callouts, link targets, frontmatter and comments. Attribution is listed only to show that it stays.
+
+**Section numbers and XLab's structure,** already stage 7, step 2: link labels 1.2, 1.2.1, 1.2.2 and 1.3 in five lenses, and "2.1 Hardware" in [[Lenses/XLab Verification - v-hw-claim]]; "Module 0.3" in essay A; "Section 2.1" four times in [[Lenses/XLab Verification - v-mechanism-privacy]] and once in [[Lenses/XLab Verification - v-hw-reconstructing-run]]; and the eight hardware headings.
+
+**Text that presents XLab as the course's source or platform:**
+
+- Essays A and B both end "Keep your final essay for peer review, as specified in XLab's assignment", linking to the assignment on XLab's site, in [[Lenses/XLab Verification - v-intuitions-a1]] and [[Lenses/XLab Verification - v-intuitions-b1]]. CV1 has no peer review of its own; meeting 1's Room 2 works from the essays instead.
+- [[Lenses/XLab Verification - v-hw-reconstructing-run]]: "this lesson is the technical extension of section 2.1 and is marked optional in XLab's curriculum."
+- [[Lenses/XLab Verification - v-context-distiller]]: the answer keys head four lists "Decoys XLab planted".
+
+**XLab's word "track" for the course:** "the whole track's premise" in [[Lenses/XLab Verification - v-intuitions-drills-1]]; "this track studies verification" twice in [[Lenses/XLab Verification - v-scoping-effective-feasible]]; "the compute reports this track is building toward" in [[Lenses/XLab Verification - v-scoping-upstream-downstream]]; and in [[Lenses/XLab Verification - v-intuitions-success]], "You will return to it at the end of the track", a second promise CV1 does not keep. Stage 5 handles the first.
+
+**"Week 5"** in four lenses, already stage 7, step 1. "Part 2 continues with the other three" in [[Lenses/XLab Verification - v-mechanism-effective]] places the course in its sequence and stays.
+
+**Tutor-facing text the tutor can repeat to a learner:** 22 tutor summaries say the lens is imported from XLab's curriculum, and 25 feedback briefs in 15 lenses name XLab, 21 of them the shared brief (Q6). One brief also tells the tutor that XLab's reference ratings "are compared in the separate capstone". The validator already warns on these wherever a lens is not tagged `wip`.
+
+**Attribution that stays under A3:** the overview's "based on XLab's open-source verification curriculum" and its feedback line, the Works cited footers, and the Context Distiller's note that its system card is "a fictional in-universe teaching document written by XLab", which also tells the learner the document is not real.
+
+**Left to section 9:** the meeting docs' "XLab's feedback form" lines, which are a question of where feedback goes.
+
 ### Validator baseline, 2026-10-20
 
 Course-scoped, production: **0 errors, 16 warnings.** Ten are citation and repeated-block warnings in four article files, not ours. Six are the partner-name rule in [[Lenses/XLab Verification - v-hw-claim]], [[Lenses/XLab Verification - v-hw-measuring-use]] and [[Lenses/XLab Verification - v-hw-reconstructing-run]]. The proposal's baseline of 2026-10-02 was 25 errors, every one from a `wip` tag, and 31 warnings; the drop came from others' changes, not ours. Lenses tagged `wip` will raise more partner-name warnings when the tag comes off; stage 4 removes the name from the generic brief anyway. The `wip` category and the unscoped run have not been baselined yet; stage 4 does that before its first edit.
@@ -205,7 +227,8 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 | Item | Status |
 |---|---|
 | Forewarn Elias: the notes signed Elias's AI that the plan touches | `done`, in the proposal, reviewed 2026-10-02 |
-| Collect his input on decisions 1 to 5 | `in progress`. 1, 4 and 5 settled; 2 settled for the split, open for the output (Q2); 3 reopened (Q1) |
+| Collect his input on decisions 1 to 5 | `in progress`. 1, 4 and 5 settled; 2 settled for the split, the output unrecorded (Q2); 3 parked until stage 8 (Q1) |
+| Andreas's calls on the points he took up with Elias | `done` 2026-10-21 for Q5, Q7 and Q9 (A1 to A5). Q6, Q8 and Q10 explained and waiting on him |
 | Replies to his comments that rest on a misunderstanding | `done` 2026-10-08: footer and image, order notes, twelve redirect lenses, Strategic Foundations output, essay. The essay reply is now out of date (Q1) |
 | Flag closed loops in the proposal | `done` 2026-10-20, nine comments (section 8) |
 | Open this log | `done` 2026-10-20. The working preferences are folded into the conventions above rather than kept in a second file; [[AIRF Restructure - Working Preferences]] applies as written |
@@ -218,7 +241,7 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 | 1. Answer-survival test: does an answer survive its question moving to another lens? | A test lens on staging; needs a signed-in tester | `todo`. Blocks step 5 |
 | 2. Unit 5 into two modules (D1) | [[modules/XLab Verification P1 W5 Hardware verification]] keeps its id and the first half; one new module; the course file | `todo`, unblocked |
 | 3. Strategic Foundations into four pathway lenses (D2a) | [[Lenses/XLab Verification - v-strategic-foundations]], three new lenses, [[modules/XLab Verification P1 W2 Strategic foundations]] | `todo`. Split unblocked; output `blocked` on Q2 |
-| 4. Unit 1 essay | [[Lenses/XLab Verification - v-intuitions]], the course file note, meeting 1 run-sheet | `blocked` on Q1 |
+| 4. Unit 1 essay | [[Lenses/XLab Verification - v-intuitions]], the course file note, meeting 1 run-sheet | `parked` until stage 8 (Q1, A5) |
 | 5. Split the longest core pages (D4) | Candidates: [[Lenses/XLab Verification - v-scoping-anatomy]] (81 minutes now), [[Lenses/XLab Verification - v-context-distiller]] (90), [[Lenses/XLab Verification - v-scoping-effective-feasible]] (55, was 75), [[Lenses/XLab Verification - v-precedents]] (41, was 75) | `blocked` on step 1. The re-timing shortened two candidates, so which pages qualify gets rechecked first |
 
 ### Stage 4, question formats
@@ -226,7 +249,7 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 | Step | Status |
 |---|---|
 | 1. Worklist from per-file counts of both fields, with graded, key visible and optional recorded per question | `todo`, unblocked. Baseline in the proposal: 44 graded segments in 20 lenses |
-| 2. Sort into four groups with defaults | `blocked` on Q5 and Q7 |
+| 2. Sort the graded questions by A1 and A2: key on the page, ungrade; longer with no key on the page, keep the grade; single-answer choice, keep the grade | `todo`, unblocked, except whether A2 reaches units 1 and 2 (Q7) |
 | 3. "Optional:" at the head of every optional prompt; feedback modules excluded | `todo`, unblocked |
 | 4. Convert each question in one edit; replace the 21 generic briefs; `force-feedback:: first` | `blocked` on Q6. Includes the #204 fix in the authorization lens |
 | 5. Outcome tests left as they are | `done` by decision |
@@ -244,18 +267,18 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 |---|---|
 | 1. Mark what is Lens's text and what is XLab's | `todo` |
 | 2. Spoiler test on every tldr, starting with [[Lenses/XLab Verification - v-actor-edges]] | `todo` |
-| 3. Rewrite Lens's text, one passage at a time, each reviewed | `todo` |
-| 4. List problem XLab passages | `blocked` on Q9 |
+| 3. Flag the passages of Lens's text that read most like AI, with the reason for each; Andreas rewrites them (A4). A rewritten prompt has its feedback brief checked against the new wording | `todo` |
+| 4. List problem XLab passages | `todo`; listing is flagging, so A4 covers it |
 
 ### Stage 7, consistency (E2, E3)
 
 | Step | Status |
 |---|---|
 | 1. Unit, never week | `todo` |
-| 2. XLab section numbers out of headings and link labels (E5) | `todo`; scope of XLab mentions `blocked` on Q8. Rechecked 2026-10-20: the eight hardware headings still carry 2.1 to 2.1.7 |
+| 2. XLab section numbers out of headings and link labels (E5), and whatever XLab framing Q8 settles, from the inventory in section 3 | `todo`; numbers unblocked, framing waits on Q8. Rechecked 2026-10-20: the eight hardware headings still carry 2.1 to 2.1.7 |
 | 3. Module titles in one style | `todo` |
 | 4. "Compute Verification 1" wherever the course is named, including the meeting doc titles the text review left for this pass | `todo` |
-| 5. One rule for XLab source footers | `blocked` on Q3 |
+| 5. One rule for XLab source footers | `todo` with the Q3 work-around: keep every footer, copy the theories-of-change image into Lens |
 | 6. American spelling | `todo`. Recount at the start; the proposal's 89 lines in 26 lenses predate the re-timing sweep |
 | 7. Em dashes | `todo` |
 
@@ -308,7 +331,7 @@ By unit, core work only. The lens sum counts the unit 1 essay at the average of 
 | 4 | 190 | 188 | 40 to 70, by report |
 | 5 | 195 | 195 | 73 |
 
-**A correction to the proposal.** Its unit 1 floor of "75, including a 15-minute video" does not reproduce. The saved 2026-10-01 counts give 6,358 words of core reading, a floor of 32 minutes, plus the video. The cause was not found. The proposal's conclusion about unit 1 does not depend on the figure, but the figure should be corrected there.
+**A correction to the proposal.** Its unit 1 floor of "75, including a 15-minute video" does not reproduce. The saved 2026-10-01 counts give 6,358 words of core reading, a floor of 32 minutes, plus the video. The cause was not found. The proposal's conclusion about unit 1 does not depend on the figure. Corrected there on 2026-10-21 to 47: 32 minutes of reading plus the video, which runs 14 minutes 50 seconds by its transcript timestamps.
 
 **What stage 8 still has to do:** honest times for each Strategic Foundations pathway once it is split, the MIRI paper, and a basis for the chip supply chain figure; and reconciling the unit 1 lens sum (205) with the course file (260), a gap of 55 minutes that outcome tests alone may not explain.
 
@@ -344,6 +367,9 @@ Needs a signed-in tester on staging. Nothing is run yet.
 | 2 | 2026-10-20 | Surveyed others' changes to CV1 since 2026-10-08, re-measured, and took the validator baseline | None | The course changed under the plan; section 3 and section 6 | Read only |
 | 2 | 2026-10-20 | Opened this log | [[CV1 Restructure Log]] | Stage 2, step 3, on the AIRF pattern, to lay out the work before starting it | Direct; new file |
 | 2 | 2026-10-20 | Flagged nine of Elias's comments as closed, each with a short reply pointing here: text that takes decoding, drift, renumbering, the Strategic Foundations split, splitting long pages, supervising AI rewrites, and decisions 1, 4 and 5 | [[CV1 Streamlining Proposal]] | The relay cannot resolve a Markdown comment, so a reply marks the loop as closed. Comments still open are listed in section 2 | Direct; comments by Andreas's AI |
+| 2 | 2026-10-21 | Andreas removed the resolved comments from the proposal, ours with them. Left in place: Elias's note on learning outcomes for units 3 to 5, and the footer, order-note and redirect-lens threads still waiting on him | [[CV1 Streamlining Proposal]] | Resolved loops no longer need to sit on the page. Their content is kept in sections 1 and 2 | By Andreas |
+| 1 | 2026-10-21 | Corrected the proposal's unit 1 reading floor from 75 to 47 minutes | [[CV1 Streamlining Proposal]] | Section 6: the figure did not reproduce from the saved counts | Direct; our text |
+| 2 | 2026-10-21 | Recorded Andreas's decisions A1 to A5, explained Q6 and Q10, set work-arounds for the threads waiting on Elias, and inventoried XLab framing for Q8 | [[CV1 Restructure Log]] | Settles most of section 2 and unblocks stage 4, step 2 and stage 6 | Direct; our file |
 
 ---
 
