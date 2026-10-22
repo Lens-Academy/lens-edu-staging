@@ -249,7 +249,7 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 |---|---|---|
 | 1. Answer-survival test: does an answer survive its question moving to another lens? | A test lens on staging; needs a signed-in tester | `todo`. Blocks step 5 |
 | 2. Unit 5 into two modules (D1) | [[modules/XLab Verification P1 W5 Hardware verification]] keeps its id and the first half; one new module; the course file | `todo`, unblocked |
-| 3. Strategic Foundations into four pathway lenses (D2a) | [[Lenses/XLab Verification - v-strategic-foundations]], three new lenses, [[modules/XLab Verification P1 W2 Strategic foundations]] | `todo`. Split unblocked; output `blocked` on Q2 |
+| 3. Strategic Foundations into four pathway lenses (D2a) | [[Lenses/XLab Verification - v-strategic-foundations]], three new lenses, [[modules/XLab Verification P1 W2 Strategic foundations]] | `todo`, unblocked. The written exercise stays optional, in whichever pathway lens holds it (A12) |
 | 4. Unit 1 essay | [[Lenses/XLab Verification - v-intuitions]], the course file note, meeting 1 run-sheet | `parked` until stage 8 (Q1, A5) |
 | 5. Split the longest core pages (D4) | Candidates: [[Lenses/XLab Verification - v-scoping-anatomy]] (81 minutes now), [[Lenses/XLab Verification - v-context-distiller]] (90), [[Lenses/XLab Verification - v-scoping-effective-feasible]] (55, was 75), [[Lenses/XLab Verification - v-precedents]] (41, was 75) | `blocked` on step 1. The re-timing shortened two candidates, so which pages qualify gets rechecked first |
 
@@ -260,7 +260,7 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 | 1. Worklist from per-file counts of both fields, with graded, key visible and optional recorded per question | `todo`, unblocked. Baseline in the proposal: 44 graded segments in 20 lenses |
 | 2. Sort the graded questions by A1 and A2: key on the page, ungrade; longer with no key on the page, keep the grade; single-answer choice, keep the grade | `todo`, unblocked. Questions outside A1 and A2, units 1 and 2 included, are judged one by one and the call recorded (A10) |
 | 3. "Optional:" at the head of every optional prompt; feedback modules excluded | `todo`, unblocked |
-| 4. Convert each question in one edit; replace the 21 generic briefs; `force-feedback:: first` | `todo`: every shared brief is specialized (A6); `force-feedback` waits on Q6. Includes the #204 fix in the authorization lens |
+| 4. Convert each question in one edit; replace the 21 generic briefs; `force-feedback:: first` | `todo`: every shared brief is specialized (A6), and every question with a brief gets `force-feedback:: first` (A13). Includes the #204 fix in the authorization lens |
 | 5. Outcome tests left as they are | `done` by decision |
 
 ### Stage 5, close the claim ledger in CV1 (D5)
@@ -287,7 +287,7 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 | 2. XLab section numbers out of headings and link labels (E5), and whatever XLab framing Q8 settles, from the inventory in section 3 | `todo`, unblocked: the numbers, and the learner-facing framing A7 lists. Rechecked 2026-10-20: the eight hardware headings still carry 2.1 to 2.1.7 |
 | 3. Module titles in one style | `todo` |
 | 4. "Compute Verification 1" wherever the course is named, including the meeting doc titles the text review left for this pass | `todo` |
-| 5. One rule for XLab source footers | `todo`: every footer stays (A3, confirmed 2026-10-21); the theories-of-change image waits on Q14 |
+| 5. One rule for XLab source footers | `done` 2026-10-21: every footer stays (A3), and the theories-of-change image is now a local copy (A11) |
 | 6. American spelling | `todo`. Recount at the start; the proposal's 89 lines in 26 lenses predate the re-timing sweep |
 | 7. Em dashes | `todo` |
 
