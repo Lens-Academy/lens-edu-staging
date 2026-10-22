@@ -97,12 +97,12 @@ Stage 8 repeats this measurement once everything else has landed.
 Page boundaries come first, so every later edit runs against final pages. Steps 2 to 5 carry out decisions 1 to 4 in whatever form they are settled; the text describes our suggestion for each.
 
 1. **Test whether an answer survives its question moving to another lens.** On a test lens on staging, a signed-in tester answers a question, the segment is moved to a different lens, and the tester checks the answer is still there. The result settles decision 4.
-2. **Split unit 5 into two modules**, at the seam its own first page asks for.
+2. **Split unit 5 into two modules**, after measuring use. Its first page asks for two sessions but names no split point; this one balances the load best at the 2026-10-09 times and separates what a chip can report from who controls it.
 
    | Module | Lenses | Stated core | Stated optional |
    |---|---|---|---|
-   | Hardware, part 1 | Attestation, the claim, the trusted statement, accounting for hardware | 75 | none |
-   | Hardware, part 2 | Measuring use, authorization, where trust lives | 80 | Reconstructing a run, open problems (45) |
+   | Hardware: what a chip can report | Attestation, the claim, the trusted statement, accounting for hardware, measuring use | 115 | none |
+   | Hardware: control, and where trust lives | Authorization, where trust lives | 80 | Reconstructing a run, open problems (29) |
 
    The existing module keeps its id and the first half. One new module is created and added to the course file ahead of the unit 5 meeting. No lens changes file, so no lens id changes. Units 1 to 4 already run two or three modules each. Module names are placeholders.
 3. **Split Strategic Foundations into its four pathways.** The page already tells learners to read the pathway they are weakest on and to skip any they can already apply. Four lenses make that choice visible in the sidebar instead of inside a 39,000-word scroll, and each can carry an honest time of its own. Readings stay as they are. The page's one written output is the same actor, authority and evidence map that unit 4 requires in [[Lenses/XLab Verification - v-scoping-upstream-downstream]], so it is dropped, or kept only as an early attempt to bring to unit 4.
