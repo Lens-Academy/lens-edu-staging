@@ -48,7 +48,7 @@ You probably won't understand everything he says at first, so try to guess what 
 
 Here are some basic definitions:
 
-**Compute**: the total number of steps (addition, multiplication, comparison, etc.) used in training the AI. (For most AIs, the vast majority of steps are multiplication.)
+**Compute**: the total number of steps (addition, multiplication, comparison, etc.) used in training the AI. (For most AIs, the vast majority of steps are part of matrix multiplication, where each multiplication is paired with an addition.)
 
 **FLOP**: technically "**FL**oating-point **OP**eration", this just means an arithmetic step.
 
