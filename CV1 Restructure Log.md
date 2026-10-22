@@ -151,7 +151,7 @@ D4's step 1 test still runs first. Elias's answer settles whether to split; the 
 | Q11 | **Learning outcomes for units 3 to 5** | Elias: "Should be fixed as well at some point". Andreas is checking whether that is in scope | Andreas | Nothing in this project by default (section 9) |
 | Q12 | **Preparing Compute Verification 2** | Elias: "Shouldn't that be prepared too?" Andreas is raising it separately; no reply was posted in the proposal | Andreas | Nothing in this project (section 9) |
 | Q13 | **Is the imported MIRI paper the v3 the curriculum pins?** | Not checked yet | Us | Stage 8's estimate for that lens |
-| Q14 | **The theories-of-change image: a local copy, or the live link to XLab's repository?** | Raised 2026-10-21. A local copy cannot break if XLab moves the file; the live link picks up any change XLab makes. Facts for the call: the image is Slow Food USA's one-page theory of change, a third-party document XLab uses as an example, not XLab's own work; the text around it in [[Lenses/XLab Verification - v-theories-of-change]] is Lens's copy and does not follow XLab's updates, so the live link could change the picture without the text; and the five images in [[Lenses/XLab Verification - v-mechanism-privacy]] are already local copies in Lens's attachments, so this is the only image in CV1 still served from XLab. How often XLab has changed it could not be checked, since our copy of XLab's repository has no history | Andreas | Stage 7, step 5, for the image only |
+| Q14 | **The theories-of-change image: a local copy, or the live link to XLab's repository?** | Raised 2026-10-21. A local copy cannot break if XLab moves the file; the live link picks up any change XLab makes. Facts for the call: the image is Slow Food USA's one-page theory of change, a third-party document XLab uses as an example, not XLab's own work; the text around it in [[Lenses/XLab Verification - v-theories-of-change]] is Lens's copy and does not follow XLab's updates, so the live link could change the picture without the text; and the five images in [[Lenses/XLab Verification - v-mechanism-privacy]] are already local copies in Lens's attachments, so this is the only image in CV1 still served from XLab. How often XLab has changed it could not be checked, since our copy of XLab's repository has no history **Settled and done, 2026-10-21 (A11):** copied into Lens's attachments (section 8) | | |
 
 ---
 
@@ -236,8 +236,8 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 | Item | Status |
 |---|---|
 | Forewarn Elias: the notes signed Elias's AI that the plan touches | `done`, in the proposal, reviewed 2026-10-02 |
-| Collect his input on decisions 1 to 5 | `in progress`. 1, 4 and 5 settled; 2 settled for the split, the output unrecorded (Q2); 3 parked until stage 8 (Q1) |
-| Andreas's calls on the points he took up with Elias | `done` 2026-10-21 for Q5, Q7 and Q9 (A1 to A5). Q6, Q8 and Q10 explained and waiting on him |
+| Collect his input on decisions 1 to 5 | `done` 2026-10-21. 1, 4 and 5 settled by Elias; 2 settled, the split by Elias and the written exercise by Andreas (A12); 3 parked until stage 8 (Q1) |
+| Andreas's calls on the points he took up with Elias | `done` 2026-10-21, A1 to A13; Q10 closed on our reading |
 | Replies to his comments that rest on a misunderstanding | `done` 2026-10-08: footer and image, order notes, twelve redirect lenses, Strategic Foundations output, essay. The essay reply is now out of date (Q1) |
 | Flag closed loops in the proposal | `done` 2026-10-20, nine comments (section 8) |
 | Open this log | `done` 2026-10-20. The working preferences are folded into the conventions above rather than kept in a second file; [[AIRF Restructure - Working Preferences]] applies as written |
