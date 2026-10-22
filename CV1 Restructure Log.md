@@ -19,7 +19,7 @@ The plan this file carries out is [[CV1 Streamlining Proposal]]. Elias reviewed 
 
 **Status, 2026-10-20.** Planning. Stage 1 (measure) is done, and was re-run today because others have changed the course since. Stage 2 (agree the plan) is in progress. Elias agreed with most of the proposal and settled decisions 1, 4 and 5; nine of his comments are now flagged as closed in the proposal. Several of his other points are with Andreas to take up with him directly, and three replies of ours are waiting on Elias. No course file has been edited by this project yet.
 
-**Status, 2026-10-21.** Andreas settled most of what was waiting on him (section 1, decisions A1 to A5) and removed the resolved comments from the proposal. A second round the same day (A6 to A10) settled the feedback briefs, the learner-facing XLab framing, "track", and grading in units 1 and 2. Still open: first-answer feedback (Q6), the reading of "announcement" (Q10), Strategic Foundations' written output (Q2), the theories-of-change image (Q14), and the threads waiting on Elias, none of which blocks anything (section 2). There is no attributed edit by Elias to a CV1 file, and no new comment from him in the proposal, since 2026-10-04.
+**Status, 2026-10-21.** Andreas settled most of what was waiting on him (section 1, decisions A1 to A5) and removed the resolved comments from the proposal. A second round the same day (A6 to A10) settled the feedback briefs, the learner-facing XLab framing, "track", and grading in units 1 and 2. That evening A11 to A13 settled the rest, and Q10 was closed on our reading. **Stage 2 is done**, apart from the unit 1 essay, parked until stage 8. What stays open is listed in section 2, and none of it blocks stage 3. There is no attributed edit by Elias to a CV1 file, and no new comment from him in the proposal, since 2026-10-04.
 
 **Since the proposal.** Others changed CV1 between 2026-10-08 and 2026-10-20 (section 3). Two of those changes affect the plan. The unit 1 essays are now a choose-one group instead of two optional lenses, so one essay is required, which reopens decision 3. And every lens's time estimate was replaced on 2026-10-09, which fixes some of stage 1's misses but not the largest ones (section 6).
 
@@ -112,6 +112,9 @@ On the points he took up with Elias directly.
 | A8 | **"Track" stays.** Lens splits XLab's material into several courses on one track, as Compute Verification is split, and they still count as one track | Nothing to change |
 | A9 | **Tutor-facing references to XLab may stay in some form**, since they are useful for reference. Decided item by item when stage 4 and stage 6 reach them | Stages 4 and 6 |
 | A10 | **Grading outside A1 and A2 is judged case by case**, as the proposal set out, including in units 1 and 2. Settles the rest of Q7 | Stage 4, step 2 |
+| A11 | **The theories-of-change image gets the same treatment as the course's other images:** a copy in Lens's attachments. Settles Q14 | Done 2026-10-21 (section 8) |
+| A12 | **Strategic Foundations' written exercise stays, and stays optional.** It is already optional, so the restructure leaves it as it is, in whichever pathway lens holds it. Settles Q2 | Stage 3, step 3 |
+| A13 | **Feedback with the first answer is the default throughout:** every question with a brief gets `force-feedback:: first`. Settles Q6 | Stage 4, step 4 |
 
 ### From Elias's review of the proposal, 2026-10-02
 
