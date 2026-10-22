@@ -1,10 +1,10 @@
 ---
 id: 'e1edb634-a35e-4afa-9e9a-ed3ee83fcda1'
 slug: xlab-verification-p1-w5
-title: "Hardware: what a chip can report"
+title: "Week 5: Hardware verification"
 tags: [wip]
 ---
-%% Unit 5 of Compute Verification 1, first module. Cloud, intelligence and human mechanisms belong to the second course. %%
+%% Week 5 of the five-week first half. Core self-study 155 minutes; the training-run reconstruction extension adds 30 as optional. Cloud, intelligence and human mechanisms belong to the second course. %%
 
 # Lens: Welcome to Unit 5
 id:: 4921c725-b0d8-40a1-86c6-9d22af72a0aa
