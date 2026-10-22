@@ -96,6 +96,18 @@ Each entry is the decision, who took it and where, and what it commits us to.
 - **The meeting doc agent checks run**, since the docs are Markdown in the vault.
 - **Decisions without Elias's input are settled later**, before the stage each one holds up.
 
+### From Andreas, 2026-10-21
+
+On the points he took up with Elias directly.
+
+| # | Decision | Commits us to |
+|---|---|---|
+| A1 | **Answer keys visible on the page are fine.** Most of those exercises will be ungraded, so there is nothing to game beyond the learner's own understanding. Settles Q5 | Stage 4: the ten questions with the key on the page are ungraded and keep the key as a self-check |
+| A2 | **Longer questions with no key on the page keep their grade.** Units 3 to 5 have no learning outcomes, so these questions serve as stand-in objectives. This is the compromise on grading object-level questions. Settles Q7 | Stage 4, step 2: the groups are re-sorted by this rule before the per-question calls |
+| A3 | **"No mentions to XLab" means framing, not attribution.** Credit in the overview and the Works cited footers stays. What goes is language that makes the course feel as if it were taken directly from XLab. How much that covers beyond section numbers is to be discussed, starting from the inventory in section 3 | Stage 7, step 2. Narrows Q8 |
+| A4 | **Andreas writes the plain-language rewrites himself.** AI detects and flags the passages that read most like AI, as in the meeting doc text review. Settles Q9 | Stage 6, step 3 becomes flag, then Andreas rewrites |
+| A5 | **The unit 1 essay may go back to optional, depending on load.** Decided once the load has been measured again | Q1 parked until stage 8 |
+
 ### From Elias's review of the proposal, 2026-10-02
 
 | # | Decision | Where he said it | Commits us to |
