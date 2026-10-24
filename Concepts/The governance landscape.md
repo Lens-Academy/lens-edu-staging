@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Governance and Policy]]"
 order: 1
 ---
+Topic for overviews of AI governance as a whole.
