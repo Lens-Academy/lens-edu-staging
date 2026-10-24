@@ -1,5 +1,7 @@
 ---
 id: cc87a400-92ca-4b12-a60a-73c9ae418e49
+aliases:
+  - "Value is fragile"
 parent-concepts:
   - "[[Values]]"
 ---
