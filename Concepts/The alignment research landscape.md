@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Alignment]]"
 order: 10
 ---
+Topic for sources that survey alignment as a field: the many meanings of "alignment", and comparisons of technical agendas. Not this: choosing your own research project (see The research landscape).
