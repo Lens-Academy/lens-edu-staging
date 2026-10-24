@@ -1,5 +1,8 @@
 ---
 id: a5df49b7-e494-4511-a350-7c23ab227644
+aliases:
+  - "Agentic misalignment"
+  - "AI blackmail demonstrations"
 parent-concepts:
   - "[[Propensity and alignment evaluations]]"
 ---
