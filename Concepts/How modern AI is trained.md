@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Artificial Intelligence]]"
 order: 4
 ---
+Topic for sources that explain the AI training pipeline as a whole.
