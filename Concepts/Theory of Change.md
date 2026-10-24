@@ -5,6 +5,7 @@ parent-concepts:
   - "[[Effective Altruism]]"
 order: 3
 ---
+Topic for how to build and evaluate a theory of change in general; use the child for specific rows. Not this: AI-safety-specific theories (see Theories of change in AI safety).
 
 ## Relationships
 

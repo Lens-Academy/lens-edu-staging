@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Alignment]]"
 order: 4
 ---
+Topic for arguments about which goals a mind can have: the goal-space argument that human-compatible goals are rare, and the obliqueness thesis; use the child for orthogonality itself.

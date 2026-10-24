@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Strategy]]"
 order: 12
 ---
+Topic for how AI-safety work is meant to lead to good outcomes, as a whole, and arguments for or against prioritising x-risk. Not this: how to build a theory of change in general (see Theory of change and impact pathways).
