@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Strategy]]"
 order: 5
 ---
+Topic for how humanity could lose control to AI, as a whole, including the cosmic stakes of a takeover.
