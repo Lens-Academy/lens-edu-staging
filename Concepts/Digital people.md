@@ -1,5 +1,9 @@
 ---
 id: 824782f7-5a7f-412c-8d99-bf6227b4d2b7
+aliases:
+  - "Ems"
+  - "Mind uploads"
+  - "Whole brain emulations"
 parent-concepts:
   - "[[Human-side solutions]]"
   - "[[Positive visions of the long-term future]]"

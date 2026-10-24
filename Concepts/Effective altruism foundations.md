@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Effective Altruism]]"
 order: 1
 ---
+Topic for core EA ideas as a whole.

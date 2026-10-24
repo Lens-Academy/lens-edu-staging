@@ -1,5 +1,9 @@
 ---
 id: 3e67466c-bf33-4366-91c2-8beda35dab32
+aliases:
+  - "Differential technology development"
+  - "Differential progress"
+  - "Differential intellectual progress"
 parent-concepts:
   - "[[Theories of change in AI safety]]"
 ---
