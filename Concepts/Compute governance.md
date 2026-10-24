@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Governance and Policy]]"
 order: 4
 ---
+Topic for governing AI via compute, as a whole.

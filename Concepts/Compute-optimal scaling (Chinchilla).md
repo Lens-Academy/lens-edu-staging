@@ -1,5 +1,8 @@
 ---
 id: 30a709a8-6667-4d31-9c8a-3e0ed2c9b99a
+aliases:
+  - "Chinchilla scaling laws"
+  - "Compute-optimal training"
 parent-concepts:
   - "[[Scaling laws and emergent abilities]]"
 ---

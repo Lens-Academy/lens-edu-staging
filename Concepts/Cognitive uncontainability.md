@@ -1,5 +1,8 @@
 ---
 id: 47bf4281-ec92-4cc8-9e7c-33cfc884e583
+aliases:
+  - "Air-conditioner argument"
+  - "Unforeseeable technology argument"
 parent-concepts:
   - "[[The core extinction argument]]"
 ---
