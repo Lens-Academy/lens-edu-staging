@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Cybersecurity]]"
 order: 3
 ---
+Topic for security of AI systems in use and AI used in security operations.
