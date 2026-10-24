@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Agent Foundations]]"
 order: 10
 ---
+Whether different minds converge on the same concepts: the natural abstraction hypothesis, factored-set causality, condensation, and when abstractions break apart. Not this: learned features inside actual neural networks (see Features, representations, and learned abstractions); human concepts that agree on ordinary cases and diverge at extremes (see Tails come apart).

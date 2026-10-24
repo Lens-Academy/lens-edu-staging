@@ -1,5 +1,7 @@
 ---
 id: 99a6007c-9349-4840-affb-adfe125f1373
+aliases:
+  - "Pre-mortem"
 parent-concepts:
   - "[[Calibrated judgment]]"
 ---
