@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Biosecurity]]"
 order: 1
 ---
+Topic for sources about biological catastrophic risk, especially as AI changes it, as a whole.
