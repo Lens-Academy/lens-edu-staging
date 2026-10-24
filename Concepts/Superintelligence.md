@@ -1,5 +1,8 @@
 ---
 id: 1840db38-7ab4-4bbc-bba2-0033bfe11ca1
+aliases:
+  - "ASI"
+  - "Artificial superintelligence"
 parent-concepts:
   - "[[Intelligence and general intelligence]]"
 ---
