@@ -1,5 +1,8 @@
 ---
 id: 654af3c4-c7a9-44ce-8bce-b1af93f802cc
+aliases:
+  - "Defeating ageing"
+  - "Radical life extension"
 parent-concepts:
   - "[[Positive visions of the long-term future]]"
 ---
