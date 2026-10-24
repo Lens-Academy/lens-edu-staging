@@ -5,8 +5,9 @@ parent-concepts:
   - "[[Taking Action]]"
 order: 3
 ---
+One-to-one conversations about AI risk: listening, asking permission, hope, grounding claims in experience. Not this: public advocacy (see Advocacy and movement strategy).
 
 ## Relationships
 
 ### [[../Lenses/Speed advantage with slow motion videos]]
-Critch's conversational method: give a general speed argument plus a 30-second video instead of one specific story. Explains why single stories fail (listeners find a way out of each one and return to no-risk thinking) and reports the video approach as more persuasive. A personal tip from 12 years of experience, not a tested method.
+Tier 1: Critch's conversational method: give a general speed argument plus a 30-second video instead of one specific story. Explains why single stories fail (listeners find a way out of each one and return to no-risk thinking) and reports the video approach as more persuasive. A personal tip from 12 years of experience, not a tested method.
