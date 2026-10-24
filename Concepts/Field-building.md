@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Capacity Building]]"
 order: 1
 ---
+Topic for the case for and strategy of AI-safety field-building as a whole (courses, fellowships, talent bottlenecks).
