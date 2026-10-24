@@ -28,7 +28,7 @@ In general, a simulation is a process that models some part of the world. It doe
 
 In the same way that a physics simulator uses a ball’s current and past positions to estimate its future position, an LLM uses the words in a string to predict what words are likely to come next.
 
-![](https://imagedelivery.net/iSzP-DWqFIthoMIqTB4Xog/01049db3-8b72-4f73-4aa7-f62853d9f100/public)
+{--{"author":"James's AI","timestamp":1792849280958}@@![](https://imagedelivery.net/iSzP-DWqFIthoMIqTB4Xog/01049db3-8b72-4f73-4aa7-f62853d9f100/public)--}{++{"author":"James's AI","timestamp":1792849280958}@@![](https://imagedelivery.net/iSzP-DWqFIthoMIqTB4Xog/e2f0dc72-c222-4cbb-1357-605764e92b00/public)++}
 
 Simulator theory views the outputs of LLMs as coming from “characters” created by the LLM, called “simulacra”. This framing helps us understand some of the characteristics of LLMs.
 
