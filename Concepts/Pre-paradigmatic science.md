@@ -1,5 +1,9 @@
 ---
 id: d1d6dfb4-8459-41dd-855e-0425b41994d8
+aliases:
+  - "Pre-paradigmatic field"
+  - "Preparadigmicity"
+  - "Non-paradigmatic field"
 parent-concepts:
   - "[[The technical AI-safety landscape and research agendas]]"
 ---
