@@ -1,5 +1,8 @@
 ---
 id: 9e41cc09-1a30-4c47-81e7-54c1bfd70f59
+aliases:
+  - "Utility"
+  - "Utility maximization"
 parent-concepts:
   - "[[Goal-directedness and coherence]]"
 ---
