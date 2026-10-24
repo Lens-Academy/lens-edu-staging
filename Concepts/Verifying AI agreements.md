@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Governance and Policy]]"
 order: 7
 ---
+Technical verification for AI agreements: compute verification architectures, hardware-enabled guarantees, inference verification, lessons from arms control. Not this: political design of treaties (see International coordination, treaties, and verification).

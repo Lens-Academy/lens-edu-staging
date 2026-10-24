@@ -5,11 +5,12 @@ parent-concepts:
   - "[[Agent Foundations]]"
 order: 12
 ---
+What "values" are when we try to align AI with them: revealed versus stated versus idealised preferences, value inversion near disvalue. Not this: choosing which values an AI should have (see Alignment targets); values over a changing world-model (see Ontology and ontological crises).
 
 ## Relationships
 
 ### [[../articles/lesswrong-nearest-unblocked-strategy]]
-Full text only: complexity of value means words like 'low-value' compress huge spaces that no patch list covers. A clear dimensional-reduction explanation of why simple exclusions fail; one section of the Arbital article, not in the course excerpt.
+Tier 2: Full text only: complexity of value means words like 'low-value' compress huge spaces that no patch list covers. A clear dimensional-reduction explanation of why simple exclusions fail; one section of the Arbital article, not in the course excerpt.
 
 ### [[../Lenses/alexander-the-tails-coming-apart-as-metaphor-for-life]]
-Core argument: value concepts are amalgams of correlated features that agree in ordinary cases and split at extremes. Happiness by country, the child learning 'happiness' and the Bay Area transit map make it vivid; not about AI, so the teacher must draw the link to alignment.
+Tier 1: Core argument: value concepts are amalgams of correlated features that agree in ordinary cases and split at extremes. Happiness by country, the child learning 'happiness' and the Bay Area transit map make it vivid; not about AI, so the teacher must draw the link to alignment.
