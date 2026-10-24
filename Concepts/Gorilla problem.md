@@ -1,5 +1,7 @@
 ---
 id: ea4d4c3d-267b-440a-9199-b9386d7bf3ea
+aliases:
+  - "Gorilla argument"
 parent-concepts:
   - "[[The core extinction argument]]"
 ---
