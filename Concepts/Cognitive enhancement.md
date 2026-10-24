@@ -1,5 +1,8 @@
 ---
 id: 99d288fc-e85c-4936-9146-9b2dbe1d971e
+aliases:
+  - "Intelligence amplification"
+  - "Human intelligence enhancement"
 parent-concepts:
   - "[[Human-side solutions]]"
 ---
