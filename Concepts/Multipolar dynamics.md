@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Strategy]]"
 order: 8
 ---
+Topic for many competing actors as a whole; use the child "Multipolar races and competitive coordination failures" for specific rows.
