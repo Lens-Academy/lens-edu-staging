@@ -5,3 +5,8 @@ parent-concepts:
   - "[[Taking Action]]"
 order: 1
 ---
+
+## Relationships
+
+### [[../Lenses/Next steps]]
+Course-written end-of-course menu: learn, meet people, spread the word, apply, engage politically, donate. Short, with links (AISafety.info, AISafety.com, EAG, MIRI, PauseAI, Manifund); says many roles count, no career plan is needed yet, and declining after thought is fine. A directory, not guidance on choosing; links will date.
