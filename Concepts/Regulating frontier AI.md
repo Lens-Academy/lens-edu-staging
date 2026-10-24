@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Governance and Policy]]"
 order: 2
 ---
+Topic for domestic regulation of frontier AI as a whole.

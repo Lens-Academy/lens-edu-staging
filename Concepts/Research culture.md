@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Capacity Building]]"
 order: 2
 ---
+Topic for norms of how safety research is done and shared.
