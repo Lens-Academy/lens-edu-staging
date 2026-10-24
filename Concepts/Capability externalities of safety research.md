@@ -8,4 +8,4 @@ The claim that safety research (especially interpretability) can also advance ca
 ## Relationships
 
 ### [[../Lenses/MI for AGI Safety]]
-Central claim: by default most MI research advances capabilities more than oversight, so 'please don't publish'. Examples: a sparsity method used only to cut compute, and ROME model editing as capability work. In the Q&A he floats restricting the field to a smaller group with higher opsec and admits he has no solution. A strong, openly unresolved position.
+Tier 1: Central claim: by default most MI research advances capabilities more than oversight, so 'please don't publish'. Examples: a sparsity method used only to cut compute, and ROME model editing as capability work. In the Q&A he floats restricting the field to a smaller group with higher opsec and admits he has no solution. A strong, openly unresolved position.

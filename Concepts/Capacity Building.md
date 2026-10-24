@@ -4,3 +4,4 @@ skill-tree: domain
 order: 12
 start-stage: intermediate
 ---
+Domain: growing the people, organisations and research culture of the AI-safety field. Not this: individual careers (see Your path into AI safety).

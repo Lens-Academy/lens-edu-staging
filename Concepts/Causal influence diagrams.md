@@ -1,5 +1,7 @@
 ---
 id: 9d29f291-d7dc-4958-8de1-96f5bf35fa9d
+aliases:
+  - "CIDs"
 parent-concepts:
   - "[[Formal agent foundations and decision theory]]"
 ---

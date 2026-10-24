@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Evaluations]]"
 order: 2
 ---
+Topic for testing what a model can do, and validating capability elicitation (e.g. detecting exploration hacking).
