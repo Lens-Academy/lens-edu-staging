@@ -1,5 +1,7 @@
 ---
 id: e3d6fcd5-7181-4870-a016-83da2cf084e6
+aliases:
+  - "Untrusted models"
 parent-concepts:
   - "[[The control agenda]]"
 ---

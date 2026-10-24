@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Rationality and Epistemics]]"
 order: 3
 ---
+Topic for truth-seeking attitudes and handling disagreement, as a whole.
