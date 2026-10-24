@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Biosecurity]]"
 order: 3
 ---
+Topic for sources about defending against and responding to pandemics as a whole.

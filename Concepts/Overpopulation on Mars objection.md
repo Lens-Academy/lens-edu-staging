@@ -1,5 +1,8 @@
 ---
 id: eeea7bae-c4ac-480c-8959-c74a0896a0fe
+aliases:
+  - "Too soon to worry about AI risk"
+  - "It's too early to work on AGI safety"
 parent-concepts:
   - "[[Dealing with objections and calibrated advocacy]]"
 ---
