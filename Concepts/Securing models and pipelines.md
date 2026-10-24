@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Cybersecurity]]"
 order: 2
 ---
+Topic for protecting model weights, training data and the ML pipeline.
