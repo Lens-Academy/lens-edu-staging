@@ -24,7 +24,7 @@ An AI company uses a capable AI model, which might be secretly misaligned, as an
 
 a. Classify each as high-stakes or low-stakes (also called concentrated and diffuse), and say why.
 
-b. The company plans to review the agent's actions a day after they run, rather than before. Pick one case you called high-stakes and one you called low-stakes. If you called none low-stakes, use the closest case. For each, say whether that would be good enough, and why. If it is not good enough, say what would have to happen instead. For the low-stakes case, also name one other kind of measure that would suit it, and say why it suits this kind of threat.
+b. The company plans to review the agent's actions a day after they run, rather than before. Take one case you called high-stakes and one you called low-stakes (or the closest). For each: is that good enough, and why? If not, what should happen instead? For the low-stakes case, also name one other measure that suits it, and why.
 
 c. A colleague says: "Low-stakes threats are the minor ones, so the company should deal with them last." What do you make of the colleague's view? Explain.
 placeholder:: Answer a, b and c in turn
