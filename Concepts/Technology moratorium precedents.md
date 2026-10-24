@@ -1,5 +1,8 @@
 ---
 id: 57c8ee11-bd72-4509-91a2-e2ba1dd977c1
+aliases:
+  - "Scientific self-restraint"
+  - "Research moratoria"
 parent-concepts:
   - "[[AI pause and prohibition proposals]]"
 ---

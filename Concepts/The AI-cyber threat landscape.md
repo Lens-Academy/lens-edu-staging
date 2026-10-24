@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Cybersecurity]]"
 order: 1
 ---
+Topic for how AI changes offensive cyber risk overall.
