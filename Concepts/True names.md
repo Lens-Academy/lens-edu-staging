@@ -8,4 +8,4 @@ Wentworth's idea that alignment needs mathematical formulations of key concepts 
 ## Relationships
 
 ### [[../Lenses/johnswentworth-why-agent-foundations-an-overly-abstract-explanation]]
-Defining source: Wentworth's claim that alignment needs 'True Names', formulations robust under heavy optimization. Mutual information versus zero correlation is the key example; suggests finding them by abstracting the same concept from many instances. Whole post.
+Tier 1: Defining source: Wentworth's claim that alignment needs 'True Names', formulations robust under heavy optimization. Mutual information versus zero correlation is the key example; suggests finding them by abstracting the same concept from many instances. Whole post.
