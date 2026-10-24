@@ -281,9 +281,9 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 
 | Step | Status |
 |---|---|
-| 1. Worklist from per-file counts of both fields, with graded, key visible and optional recorded per question | `todo`, unblocked. Baseline in the proposal: 44 graded segments in 20 lenses |
+| 1. Worklist from per-file counts of both fields, with graded, key visible and optional recorded per question | `drafted` 2026-10-23: [[CV1 Question Worklist]], 56 questions by id, each with its proposed call. Baseline confirmed: 44 graded, 21 shared briefs, none with first-answer feedback. Waiting on Andreas's review, chiefly the 14 case-by-case calls in units 1 and 2 |
 | 2. Sort the graded questions by A1 and A2: key on the page, ungrade; longer with no key on the page, keep the grade; single-answer choice, keep the grade | `todo`, unblocked. Questions outside A1 and A2, units 1 and 2 included, are judged one by one and the call recorded (A10) |
-| 3. "Optional:" at the head of every optional prompt; feedback modules excluded | `todo`, unblocked |
+| 3. "Optional:" at the head of every optional prompt; feedback modules excluded | `drafted` 2026-10-23 in the worklist: four prompts need it, the first two in upstream and downstream and both in the Context Distiller. Treaty anatomy's four keep their rule in the text above them |
 | 4. Convert each question in one edit; replace the 21 generic briefs; `force-feedback:: first` | `todo`: every shared brief is specialized (A6), and every question with a brief gets `force-feedback:: first` (A13). Includes the #204 fix in the authorization lens |
 | 5. Outcome tests left as they are | `done` by decision |
 
