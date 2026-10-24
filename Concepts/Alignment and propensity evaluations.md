@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Evaluations]]"
 order: 3
 ---
+Topic for testing what a model tends to do (as opposed to what it can do), as a whole.

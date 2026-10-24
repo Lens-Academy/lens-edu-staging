@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Alignment]]"
 order: 9
 ---
+Topic for sources about the toolkit of training-time techniques for making models safer, surveyed as a whole.

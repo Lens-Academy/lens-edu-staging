@@ -1,5 +1,7 @@
 ---
 id: a4dd96e1-0062-4434-9606-e436e55ea8f5
+aliases:
+  - "Alignment is the default"
 parent-concepts:
   - "[[Why alignment is hard]]"
 ---
