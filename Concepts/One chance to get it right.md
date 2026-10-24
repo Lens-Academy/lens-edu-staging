@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Strategy]]"
 order: 3
 ---
+Topic for the claim that superintelligence must be right on the first try; use the child for specific rows.

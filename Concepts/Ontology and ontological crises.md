@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Agent Foundations]]"
 order: 11
 ---
+What happens when an agent's world-model changes: ontological crises, the pointers problem (values defined over latent variables), and confusions caused by the concepts in use. Not this: what values are (see Values); learning human values as an alignment target (see Alignment targets, value learning, and normative uncertainty).
