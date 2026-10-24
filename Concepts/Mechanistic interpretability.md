@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Interpretability]]"
 order: 2
 ---
+Topic for sources about reverse-engineering model internals as a field, spanning several methods. Not this: introductory explainers (see Mechanistic interpretability foundations).
