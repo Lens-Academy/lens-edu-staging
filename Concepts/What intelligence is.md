@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Artificial Intelligence]]"
 order: 1
 ---
+Topic for definitions of intelligence as a whole; use the child for specific rows.
