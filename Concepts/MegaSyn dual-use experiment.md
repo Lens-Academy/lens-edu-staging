@@ -1,5 +1,8 @@
 ---
 id: a8cc6cb4-0129-4d95-9be2-b02a05ccc820
+aliases:
+  - "AI drug-discovery model repurposed for chemical weapons"
+  - "Dual use of AI-powered drug discovery"
 parent-concepts:
   - "[[AI-enabled biological uplift]]"
 ---
