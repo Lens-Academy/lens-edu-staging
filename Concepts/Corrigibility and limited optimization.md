@@ -5,6 +5,7 @@ parent-concepts:
   - "[[Alignment]]"
 order: 11
 ---
+Topic for designs that let humans correct or limit an AI, as a whole, including tool AI and conservative strategies. Not this: shutdown and accepting correction (see Corrigibility and shutdown); satisficing and quantilizers (see Mild optimization); penalties on side effects (see Impact regularization); AGI limited to bounded tasks (see Task AGI); arguments that AI cannot be controlled at all (see Limits to AI control).
 
 ## Relationships
 
@@ -21,4 +22,4 @@ Full text names mild optimization and conservative strategies as partial attacks
 Section 8 argues we can't make a system a satisficer, only train satisficing-looking behaviour. Short but clear on mild optimization, and on why developers seeking the most powerful systems favour less 'chill' successors. No technical terms.
 
 ### [[../Lenses/Security Mindset and Ordinary Paranoia]]
-AGI-design asides: whitelist capabilities, suspend if improvement exceeds X, never run a search that would hurt you. They argue the system should wait for an operator to validate new capabilities rather than rely on a human pressing suspend in time. Two or three paragraphs inside a long security essay; an informal statement of the design principle.
+Tier 2: AGI-design asides: whitelist capabilities, suspend if improvement exceeds X, never run a search that would hurt you. They argue the system should wait for an operator to validate new capabilities rather than rely on a human pressing suspend in time. Two or three paragraphs inside a long security essay; an informal statement of the design principle.

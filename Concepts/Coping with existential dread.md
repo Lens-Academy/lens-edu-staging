@@ -8,4 +8,4 @@ Living well while believing catastrophe from AI may come: acceptance, grieving a
 ## Relationships
 
 ### [[../Lenses/duleba-another-way-to-be-okay]]
-Main source: how to stay okay if you believe doom may come: agency vs acceptance, grieving a lost future, community. Warm, practical essay by a relationship and sex coach; the step-by-step way to grieve a future and the 'good hours' section are concrete. Covers AI x-risk alongside other dooms, does not debate whether doom is likely, and permits working on something else.
+Tier 1: Main source: how to stay okay if you believe doom may come: agency vs acceptance, grieving a lost future, community. Warm, practical essay by a relationship and sex coach; the step-by-step way to grieve a future and the 'good hours' section are concrete. Covers AI x-risk alongside other dooms, does not debate whether doom is likely, and permits working on something else.
