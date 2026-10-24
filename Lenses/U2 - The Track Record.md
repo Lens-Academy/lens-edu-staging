@@ -54,7 +54,7 @@ You can also read **Luke Muehlhauser's *The errors, insights, and lessons of fam
 
 This is a survey of AI predictions. Armstrong assesses the whole set together, not one prediction at a time. Look for two findings:
 
-1. What the paper says separates expert predictions from non-expert ones. Read this one with care. The authors later acknowledged that it rested on a coding error in the dataset, and the finding did not survive. The split between expert and non-expert predictions in Figure 1 is that same grouping, so read those markers as the paper's claim, not as a settled result.
+1. What the paper says separates expert predictions from non-expert ones. Read this one with care. In 2016 AI Impacts found a spreadsheet error: a column recording the method behind each prediction had been read as an expert versus non-expert label. The authors acknowledged the error, and the paper's claim about expert versus non-expert predictions did not survive. The split between expert and non-expert predictions in Figure 1 is that same grouping, so read those markers as the paper's claim, not as a settled result.
 2. What the predicted dates look like when you plot them against the date each prediction was made. This finding survived the correction.
 
 You can also read **Luke Muehlhauser's *The errors, insights, and lessons of famous AI predictions***. It gives the individual cases behind the pattern.
