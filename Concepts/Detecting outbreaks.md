@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Biosecurity]]"
 order: 2
 ---
+Topic for finding outbreaks early, as a whole.

@@ -1,5 +1,7 @@
 ---
 id: 7df119fd-cb62-4ef3-a7ac-539705aa449b
+aliases:
+  - "Synthetic media"
 parent-concepts:
   - "[[Misuse, misalignment, accident, and structural risk]]"
 ---
