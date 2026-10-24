@@ -8,4 +8,4 @@ Ngo's term for the crux of whether intelligence and rationality admit a simple, 
 ## Relationships
 
 ### [[../Lenses/Realism about rationality]]
-Defining source: Ngo asks if intelligence is formalizable like momentum or irreducibly messy like fitness. Lists nine ideas the mindset makes natural, adds the rider/elephant reversal and a dialogue, and ties his scepticism about agent foundations to it. Explanatory, not argued, by the author's own note; whole text.
+Tier 1: Defining source: Ngo asks if intelligence is formalizable like momentum or irreducibly messy like fitness. Lists nine ideas the mindset makes natural, adds the rider/elephant reversal and a dialogue, and ties his scepticism about agent foundations to it. Explanatory, not argued, by the author's own note; whole text.
