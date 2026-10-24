@@ -1,5 +1,7 @@
 ---
 id: 481630f8-7ff5-496b-964b-6a2f2b330dc7
+aliases:
+  - "Why the tails come apart"
 parent-concepts:
   - "[[Goodharting]]"
 ---
