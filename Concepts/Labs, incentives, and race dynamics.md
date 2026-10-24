@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Governance and Policy]]"
 order: 5
 ---
+Topic for AI-industry incentives and racing as a whole.
