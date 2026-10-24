@@ -4,3 +4,4 @@ skill-tree: domain
 order: 6
 start-stage: intermediate
 ---
+Domain: testing AI systems for capabilities and propensities, and how evaluation results feed decisions and governance. Not this: reading AI internals (see Interpretability).

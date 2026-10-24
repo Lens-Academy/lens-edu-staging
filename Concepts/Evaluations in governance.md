@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Evaluations]]"
 order: 4
 ---
+Topic for how evaluation results are used in governance and reporting.
