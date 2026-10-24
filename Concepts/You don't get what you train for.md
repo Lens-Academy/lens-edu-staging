@@ -5,11 +5,12 @@ parent-concepts:
   - "[[Alignment]]"
 order: 1
 ---
+Topic for why training objectives do not reliably determine a model's resulting goals and values, as a whole.
 
 ## Relationships
 
 ### [[../Lenses/Without fundamental advances (trimmed, Extinction Risk Foundations)]]
-Section 4 overview: behavioural training leaves uncontrolled degrees of freedom, so it rarely nails the intended goal. The lens keeps the outer-shell constraint (make money + action-rejection circuit), instrumental goals turned terminal (factory power) and deception, and stresses failure is disjunctive. The full report's 'beliefs and goals mixed together' case is cut.
+Tier 1: Section 4 overview: behavioural training leaves uncontrolled degrees of freedom, so it rarely nails the intended goal. The lens keeps the outer-shell constraint (make money + action-rejection circuit), instrumental goals turned terminal (factory power) and deception, and stresses failure is disjunctive. The full report's 'beliefs and goals mixed together' case is cut.
 
 ### [[../Lenses/AI Is Grown, Not Built]]
-Brief claim that grown AIs get drives and behaviours nobody intended; Grok and Musk's system-prompt struggle as a case. Asserts the gap rather than explaining how training fails to set goals; use as a motivating hook and pair with a mechanism source.
+Tier 2: Brief claim that grown AIs get drives and behaviours nobody intended; Grok and Musk's system-prompt struggle as a case. Asserts the gap rather than explaining how training fails to set goals; use as a motivating hook and pair with a mechanism source.

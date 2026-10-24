@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Interpretability]]"
 order: 1
 ---
+Topic for why and whether interpretability helps safety, as a whole, including how dangerous reasoning can escape monitors (cognitive steganography).
