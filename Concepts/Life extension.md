@@ -1,7 +1,7 @@
 ---
 id: 654af3c4-c7a9-44ce-8bce-b1af93f802cc
 parent-concepts:
-  - "[[Positive visions for transformative AI]]"
+  - "[[Positive visions of the long-term future]]"
 ---
 Slowing, stopping or reversing biological ageing to greatly extend healthy lifespan, as a goal that advanced technology and AI could reach.
 
