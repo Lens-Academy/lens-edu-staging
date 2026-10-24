@@ -8,4 +8,4 @@ Weapons that select and engage targets without a human decision: their classes, 
 ## Relationships
 
 ### [[../articles/aaguirre-why-those-who-care-about-catastrophic-and-existential-risk-should-care-about-autonomous-weapons]]
-Defining source: Aguirre (FLI) on why lethal autonomous weapons are a catastrophic and existential risk issue. Sorts weapon classes by target type, then argues three ways: AGI-governance precedent, slaughterbots as cheap WMDs (cost per fatality vs nuclear), and destabilisation; ends with treaty provisions. A long, footnoted 2021 advocacy piece aimed at EA sceptics; the lens shows the whole post.
+Tier 1: Defining source: Aguirre (FLI) on why lethal autonomous weapons are a catastrophic and existential risk issue. Sorts weapon classes by target type, then argues three ways: AGI-governance precedent, slaughterbots as cheap WMDs (cost per fatality vs nuclear), and destabilisation; ends with treaty provisions. A long, footnoted 2021 advocacy piece aimed at EA sceptics; the lens shows the whole post.

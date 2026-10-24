@@ -1,5 +1,8 @@
 ---
 id: 7a12ecd9-67fd-44c2-ab47-dec199c6e5e6
+aliases:
+  - "Cosmic endowment"
+  - "Astronomical waste"
 parent-concepts:
   - "[[Longtermism and existential risk]]"
 ---

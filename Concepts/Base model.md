@@ -1,5 +1,7 @@
 ---
 id: 2dabea88-fea7-42fe-83da-1d4b26f305f2
+aliases:
+  - "Pretrained model"
 parent-concepts:
   - "[[Pretraining, fine-tuning, and post-training]]"
 ---
