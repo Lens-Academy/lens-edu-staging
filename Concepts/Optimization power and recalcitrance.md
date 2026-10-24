@@ -1,5 +1,7 @@
 ---
 id: c9cd8680-ba4e-471e-a269-e4122e90c7aa
+aliases:
+  - "Recalcitrance"
 parent-concepts:
   - "[[Takeoff speed and discontinuity]]"
 ---
