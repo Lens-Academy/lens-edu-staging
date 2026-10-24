@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Alignment]]"
 order: 2
 ---
+Topic for sources about the outer/inner alignment framing as a whole, training stories, and proxy failures in general; use the children for specific failure modes.
