@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Strategy]]"
 order: 9
 ---
+Topic for good long-term outcomes with AI, as a whole.
