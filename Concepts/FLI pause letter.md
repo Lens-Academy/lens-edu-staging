@@ -1,5 +1,8 @@
 ---
 id: 8b03777c-8708-43df-b37a-efcfa445e978
+aliases:
+  - "Pause Giant AI Experiments: An Open Letter"
+  - "Six-month pause letter"
 parent-concepts:
   - "[[AI pause and prohibition proposals]]"
 ---
