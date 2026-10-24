@@ -4,3 +4,4 @@ skill-tree: domain
 order: 4
 start-stage: intermediate
 ---
+Domain: mathematical and conceptual theory of agents: what agency, goals, optimization, decisions, beliefs and values are, aimed at foundations for aligning powerful AI. Not this: empirical work on trained models (see Alignment or Interpretability).

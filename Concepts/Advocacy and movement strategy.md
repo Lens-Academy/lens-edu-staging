@@ -5,14 +5,15 @@ parent-concepts:
   - "[[Taking Action]]"
 order: 2
 ---
+Topic for public advocacy and movement strategy as a whole: inside versus outside game, broad versus narrow movements, calls to action. Not this: handling objections (see Dealing with objections and calibrated advocacy); one-to-one conversations (see Talking about AI risk).
 
 ## Relationships
 
 ### [[../Lenses/Shut It All Down - Pause For Thought]]
-One paragraph on Holly Elmore's case for taking the pause message to the public via protests, backed by polls. Brief summary; her footnote objects that the piece treats AI development as the default.
+Tier 2: One paragraph on Holly Elmore's case for taking the pause message to the public via protests, backed by polls. Brief summary; her footnote objects that the piece treats AI development as the default.
 
 ### [[../articles/safety-statement-on-ai-extinction-risk-cais]]
-Worked case of a deliberately minimal public statement meant to create common knowledge of expert concern. Only the full text's one-paragraph preface states this purpose (severe risks are hard to voice); the course excerpt is just the sentence.
+Tier 2: Worked case of a deliberately minimal public statement meant to create common knowledge of expert concern. Only the full text's one-paragraph preface states this purpose (severe risks are hard to voice); the course excerpt is just the sentence.
 
 ### [[../Lenses/AI Chronicles - Torchbearer]]
-An advocacy artefact itself: an editorial ('should be front-page news') plus many Societal Response entries. Records open letters, protests and hunger strikes; useful as an example of advocacy, not as a discussion of strategy.
+Tier 2: An advocacy artefact itself: an editorial ('should be front-page news') plus many Societal Response entries. Records open letters, protests and hunger strikes; useful as an example of advocacy, not as a discussion of strategy.
