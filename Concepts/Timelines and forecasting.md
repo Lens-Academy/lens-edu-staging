@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Strategy]]"
 order: 7
 ---
+Topic for when advanced AI arrives and how to forecast it, as a whole, including trajectories.
