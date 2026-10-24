@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Artificial Intelligence]]"
 order: 5
 ---
+Topic for what is going on inside trained models conceptually: representations and high-level models of LLM behaviour. Not this: tools for reverse-engineering internals (see Mechanistic interpretability).
