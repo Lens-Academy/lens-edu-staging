@@ -1,5 +1,8 @@
 ---
 id: be8f10f7-d589-49e1-9c1b-32cba6a124e5
+aliases:
+  - "Distraction objection"
+  - "AI ethics versus AI safety"
 parent-concepts:
   - "[[Dealing with objections and calibrated advocacy]]"
 ---
