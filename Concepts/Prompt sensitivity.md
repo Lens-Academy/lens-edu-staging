@@ -1,5 +1,8 @@
 ---
 id: 84f2eea7-eeb0-4b25-9c68-c86ff2ec6bab
+aliases:
+  - "Prompt brittleness"
+  - "Prompt-format sensitivity"
 parent-concepts:
   - "[[Evaluation design and construct validity]]"
 ---

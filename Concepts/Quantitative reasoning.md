@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Rationality and Epistemics]]"
 order: 2
 ---
+Topic for numerical reasoning about uncertain decisions as a whole, including crucial considerations. Not this: expected value for giving (see Expected-value reasoning for altruistic decisions).
