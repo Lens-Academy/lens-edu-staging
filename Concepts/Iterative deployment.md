@@ -1,5 +1,7 @@
 ---
 id: 51c3a4c0-666c-4e2c-821b-26cccb635f10
+aliases:
+  - "Iterative alignment"
 parent-concepts:
   - "[[Irreversibility and one-chance problems]]"
 ---
