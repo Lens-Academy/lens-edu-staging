@@ -5,3 +5,4 @@ parent-concepts:
   - "[[Effective Altruism]]"
 order: 2
 ---
+Topic for reasoning about the impact of one's actions.
