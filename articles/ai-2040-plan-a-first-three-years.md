@@ -137,9 +137,9 @@ Eventually the President and his protégé converge on one plan; the opposition 
 
 [^note-5]: I (Daniel Kokotajlo) recently gave a talk to about 100 people, ~40% of whom were from frontier AI companies, and did a show-of-hands poll about (a) how many months of lead the leading AI company would have at the time they first fully automate AI R&D, and (b) how much of their lead they would be willing to burn. The median answers were roughly 3 months and 1/3rd, respectively. This matches my own guess.
 
-[^6]: Also intense secrecy and groupthink conditions! By default during this period the companies will be even more closed than they are in 2026. When they say “we’ll solve the alignment problems as we go” what they really mean is “The overworked tiny group of alignment experts at our company will solve the alignment problems as we go, without being able to subject their work to external review.”
+[^note-6]: Also intense secrecy and groupthink conditions! By default during this period the companies will be even more closed than they are in 2026. When they say “we’ll solve the alignment problems as we go” what they really mean is “The overworked tiny group of alignment experts at our company will solve the alignment problems as we go, without being able to subject their work to external review.”
 
-[^7]: We expect them to maintain **apparent** control, to be clear, at least for some time, which is part of why this problem is so dire. The situation would be much better if we had a reliable way of telling whether an AI system was actually robustly obedient/loyal/aligned/etc. vs. merely temporarily so vs. merely pretending.
+[^note-7]: We expect them to maintain **apparent** control, to be clear, at least for some time, which is part of why this problem is so dire. The situation would be much better if we had a reliable way of telling whether an AI system was actually robustly obedient/loyal/aligned/etc. vs. merely temporarily so vs. merely pretending.
 
 [^8]: The AI 2027 Slowdown ending depicts this happening. It’s quite easy to imagine because it doesn’t involve anything cartoonishly or overtly evil, but rather just a series of steps that can be justified individually (consolidating US compute into a single pool, beating China, integrating AI into the government and economy, preventing terrorists from getting their own AGIs, etc.)
 
