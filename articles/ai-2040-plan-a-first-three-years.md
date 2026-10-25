@@ -169,9 +169,9 @@ Eventually the President and his protégé converge on one plan; the opposition 
 
 [^note-19]: From Ilya and Greg: “The goal of OpenAI is to make the future good and to avoid an AGI dictatorship. You are concerned that Demis could create an AGI dictatorship. So do we. So it is a bad idea to create a structure where you could become a dictator if you chose to, especially given that we can create some other structure that avoids this possibility.”
 
-[^20]: We don’t mean to *recommend* bad things; we are *predicting* that a mixture of good and bad incrementalist reforms will happen in 2027. For more on how we balance predictions and recommendations in this scenario, see [here](https://www.ai-2040.com/supplements/plan-a-assumptions).
+[^note-20]: We don’t mean to *recommend* bad things; we are *predicting* that a mixture of good and bad incrementalist reforms will happen in 2027. For more on how we balance predictions and recommendations in this scenario, see [here](https://www.ai-2040.com/supplements/plan-a-assumptions).
 
-[^21]: Experiment and training compute are major inputs to AI research progress historically and will probably continue to be so for the foreseeable future. For more on the drivers of AI research progress, see the [AI Futures Model](https://www.aifuturesmodel.com/) and our [Covert Projects Supplement](https://ai-2040.com/supplements/covert-ai-projects).
+[^note-21]: Experiment and training compute are major inputs to AI research progress historically and will probably continue to be so for the foreseeable future. For more on the drivers of AI research progress, see the [AI Futures Model](https://www.aifuturesmodel.com/) and our [Covert Projects Supplement](https://ai-2040.com/supplements/covert-ai-projects).
 
 [^22]: A slightly more complicated version of this proposal is described [here](https://www.lesswrong.com/posts/HE3Styo9vpk7m8zi4/evhub-s-shortform?commentId=FqDBLsLPNEqF2ahBL). One objection is that this would give China the lead. The reply is that it wouldn’t, because US companies spending 25% on R&D would still be significantly outspending the most well-resourced Chinese companies. Moreover, Chinese AI progress would slow down too since some fraction of it these days comes from distilling US models.
 
