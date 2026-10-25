@@ -23,7 +23,7 @@ Short reading pathways in game theory and international relations. The two short
 
 An optional written exercise closes the module.
 
-\## Strategic actors and credible commitments
+{--{"author":"Andreas's AI","timestamp":1792900751121}@@\## Strategic actors and credible commitments
 
 \### Strategic Thinking
 Sarwat Jahan and Ahmed Saber Mahmud (2018)
@@ -125,10 +125,7 @@ from:: ### Two-level games: a metaphor for domestic-international interactions ^
 to:: $Y_M$  represent the maximum outcomes for  $X$  and  $Y$ , respectively, while  $X_1$  and  $Y_1$  represent the minimal outcomes that could be ratified. At this stage any agreement in the range between  $X_1$  and  $Y_1$  could be ratified by both parties. If the win-set of  $Y$  were contracted to, say,  $Y_2$  (perhaps by requiring a larger majority for ratification), outcomes between  $Y_1$  and  $Y_2$  would no longer be feasible, and the range of feasible agreements would thus be truncated in  $Y$ 's favor. However, if  $Y$ , emboldened by this success, were to reduce its win-set still further to  $Y_3$  (perhaps by requiring unanimity for ratification), the negotiators would suddenly find themselves deadlocked, for the win-sets no longer overlap at all.[^note-43]
 
 #### Text
-content::
-
-
-\### [Delegation under Anarchy: States, International Organizations, and Principal-Agent Theory](https://doi.org/10.1017/CBO9780511491368.002)
+--}\### [Delegation under Anarchy: States, International Organizations, and Principal-Agent Theory](https://doi.org/10.1017/CBO9780511491368.002)
 Hawkins, Lake, Nielson and Tierney (2006)
 
   Uses principal–agent theory to explain why states delegate authority to
