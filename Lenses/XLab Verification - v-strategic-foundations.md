@@ -11,15 +11,15 @@ tutor_minutes: 0
 content::
 Short reading pathways in game theory and international relations. The two short primers on game theory, Strategic Thinking and Game Theory, are required and come next. The other readings are optional: read the pathway you are weakest on, from the additional readings page after the primers.
 
-| Pathway | Reading | Status |
-| --- | --- | --- |
-| Strategic actors and credible commitments | Strategic Thinking, Sarwat Jahan and Ahmed Saber Mahmud (2018) | Required |
-| | Game Theory, Don Ross (rev. 2023), §1 and §6 | Required |
-| | Signaling Foreign Policy Interests: Tying Hands versus Sinking Costs, James D. Fearon (1997) | Optional |
-| Detection, attribution, and response | Witness for the Prosecution: International Organizations and Arms Control Verification, Edward Ifft (2005) | Optional |
-| | Monitoring and Verification in Arms Control, Amy F. Woolf (2011) | Optional |
-| International bargaining and domestic implementation | Diplomacy and Domestic Politics: The Logic of Two-Level Games, Robert D. Putnam (1988) | Optional |
-| Supply-chain structure and bargaining power | Weaponized Interdependence: How Global Economic Networks Shape State Coercion, Henry Farrell and Abraham L. Newman (2019) | Optional |
+| Pathway | Reading |
+| --- | --- |
+| Strategic actors and credible commitments | Strategic Thinking, Sarwat Jahan and Ahmed Saber Mahmud (2018) |
+| | Game Theory, Don Ross (rev. 2023), §1 and §6 |
+| | Signaling Foreign Policy Interests: Tying Hands versus Sinking Costs, James D. Fearon (1997) |
+| Detection, attribution, and response | Witness for the Prosecution: International Organizations and Arms Control Verification, Edward Ifft (2005) |
+| | Monitoring and Verification in Arms Control, Amy F. Woolf (2011) |
+| International bargaining and domestic implementation | Diplomacy and Domestic Politics: The Logic of Two-Level Games, Robert D. Putnam (1988) |
+| Supply-chain structure and bargaining power | Weaponized Interdependence: How Global Economic Networks Shape State Coercion, Henry Farrell and Abraham L. Newman (2019) |
 
 
 {>>{"author":"Andreas's AI","timestamp":1792901135214}@@2026-10-24 (CV1 restructure, stage 3): the readings in the pending deletion just above moved unchanged to their own pages (v-sf-strategic-thinking, v-sf-game-theory and the five optional v-sf pages). The bare "content::" line above is a leftover that keeps the approved page valid until that deletion is accepted; once it is, the line goes in one direct edit.<<}
