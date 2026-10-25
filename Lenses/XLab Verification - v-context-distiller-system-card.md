@@ -162,14 +162,6 @@ On real-world professional evaluations the model leads the field.
 Claude Opus 4.7 leads GPT-5.4 (“xhigh”) by approximately 79 ELO points, implying a ~61.2% pairwise win rate [on GDPval-AA]. *(8.10.5, p. 211)*
 
 On ARC-AGI-2, Claude Opus 4.7 achieved a new high score for Opus-class models, at 75.83% on Max thinking. *(8.11, p. 212)*
-:::
-
-#### Text
-content::
-In the Distiller below, pick **Claude Opus 4.7 System Card**. If it opens on a report you worked before, use **Change report**.
-
-#### Widget
-source:: [[../widgets/context-distiller]]
 
 #### Text
 content::
