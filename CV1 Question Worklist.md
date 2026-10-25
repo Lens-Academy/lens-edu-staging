@@ -85,6 +85,7 @@ Stage 4 of [[CV1 Restructure Log]], step 1: every question in a CV1 lens, with t
 | Who can prove what | 4 | Optional: Name one actor that is a capability holder and an enforcement authority at the ... | graded, optional | **Keep graded** | A2: short, but object-level, with right and wrong answers | Keep; check | Says so | Lens has notes from Elias's AI | `160e3cec` |
 
 **Draft text for A29 on "Reading a draft agreement" (not built).** The line above the questions, "Read all 4 questions before beginning the examination of the agreement. Answer any 3 of the 4. All four are marked optional here so that the lens can be completed with any three.", becomes "Read all 4 questions before beginning the examination of the agreement, then answer each of them." The four questions lose `optional:: true`. In the tutor summary, "the source lesson asks for any 3 of the 4, so all four are optional here" becomes "the source lesson asks for any 3 of the 4; here all four are required". The Anatomy Drill after the questions stays optional. Four answers instead of three add to the page's tutor time, which stage 8 retimes. Meeting 3's navigator note for Room 2 says the assignment "asked for any three of four questions on MIRI's draft, all optional"; stage 9 updates it.
+
 ## Unit 4: Evidence and its readers
 
 | Page | # | Question | Now | Call | Why | Brief | Optional | Notes | Id |
