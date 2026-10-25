@@ -9,7 +9,19 @@ tutor_minutes: 4
 ---
 #### Text
 content::
-Short reading pathways in game theory and international relations. Learners may test out of any pathway whose concepts they can already apply.
+Short reading pathways in game theory and international relations. The two short primers on game theory, Strategic Thinking and Game Theory, are required and come next. The other readings are optional: read the pathway you are weakest on, from the additional readings page after the primers.
+
+| Pathway | Reading | Status |
+| --- | --- | --- |
+| Strategic actors and credible commitments | Strategic Thinking, Sarwat Jahan and Ahmed Saber Mahmud (2018) | Required |
+| | Game Theory, Don Ross (rev. 2023), §1 and §6 | Required |
+| | Signaling Foreign Policy Interests: Tying Hands versus Sinking Costs, James D. Fearon (1997) | Optional |
+| Detection, attribution, and response | Witness for the Prosecution: International Organizations and Arms Control Verification, Edward Ifft (2005) | Optional |
+| | Monitoring and Verification in Arms Control, Amy F. Woolf (2011) | Optional |
+| International bargaining and domestic implementation | Diplomacy and Domestic Politics: The Logic of Two-Level Games, Robert D. Putnam (1988) | Optional |
+| Supply-chain structure and bargaining power | Weaponized Interdependence: How Global Economic Networks Shape State Coercion, Henry Farrell and Abraham L. Newman (2019) | Optional |
+
+An optional written exercise closes the module.
 
 \## Strategic actors and credible commitments
 
