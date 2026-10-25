@@ -22,8 +22,14 @@ content::
 - Find the prohibition, the verification method and the exit clause in MIRI's draft ASI agreement.
 - Map who a pause actually binds across the compute supply chain: who declares, who holds the evidence, who verifies, and who no declaration reaches.
 
+# Submodule: Anatomy of a (pause) agreement
+slug:: anatomy
+
 # Lens:
 source:: [[../Lenses/XLab Verification - v-scoping-anatomy]]
+
+# Lens:
+source:: [[../Lenses/XLab Verification - v-scoping-anatomy-assignment]]
 
 # Lens:
 source:: [[../Lenses/XLab Verification - v-paper-scher-treaty]]
