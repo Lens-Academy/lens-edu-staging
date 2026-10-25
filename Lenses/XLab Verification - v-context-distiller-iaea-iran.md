@@ -1,10 +1,10 @@
 ---
 id: 'b93a0867-c63d-4c32-9d49-5c209dbe3b15'
 title: "Report: IAEA safeguards report on Iran"
-tldr: "International nuclear inspectors’ quarterly findings (GOV/2026/8), the closest existing analogue to what an AI treaty inspectorate would publish. Read it, work it in the Distiller, and open the key only once you have delivered."
-summary_for_tutor: "One of the four report pages of the Distiller exercise; the learner chose this one in a choose-one group after the opening page (the five steps, the worked example and the warm-up question). This page carries the IAEA Director General's safeguards report on Iran, GOV/2026/8, as an article segment, the Distiller widget, and the closed key for this report: core clippings with their distillations, the decoys, the upstream and downstream keys with the reason each distractor fails, and each reader's needs with the fact that answers them, titled to be opened only after delivery. The same widget sits on all four report pages and keeps one saved state, so it opens on whichever report the learner last worked; its Change report button switches. Read the widget state before commenting on the exercise, and do not reveal the key before they deliver."
+tldr: "International nuclear inspectors’ quarterly findings (GOV/2026/8), the closest existing analogue to what an AI treaty inspectorate would publish. Read it here, work it in the Distiller on the next page, and come back for the key once you have delivered."
+summary_for_tutor: "One of the four report pages of the Distiller exercise; the learner chose this one in a choose-one group after the opening page (the five steps, the worked example and the warm-up question). This page carries the IAEA Director General's safeguards report on Iran, GOV/2026/8, as an article segment and the closed key for this report: core clippings with their distillations, the decoys, the upstream and downstream keys with the reason each distractor fails, and each reader's needs with the fact that answers them, titled to be opened only after delivery. The learner works the report in the Distiller widget on the next page and comes back here for the key. Do not reveal the key before they deliver."
 tags: [wip]
-reading_minutes: 70
+reading_minutes: 44
 tutor_minutes: 0
 ---
 #### Text
