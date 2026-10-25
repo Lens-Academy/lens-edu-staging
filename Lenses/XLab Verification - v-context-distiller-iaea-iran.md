@@ -18,13 +18,6 @@ to:: One location outside facilities where nuclear material is customarily used 
 
 #### Text
 content::
-In the Distiller below, pick **IAEA Safeguards Report on Iran (GOV/2026/8)**. If it opens on a report you worked before, use **Change report**.
-
-#### Widget
-source:: [[../widgets/context-distiller]]
-
-#### Text
-content::
 The key. Open it after you have delivered, and not before.
 
 :::callout {title="Key, open after you deliver: IAEA Safeguards Report on Iran, GOV/2026/8" tone="neutral" collapse="closed"}
