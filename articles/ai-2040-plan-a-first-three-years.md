@@ -159,15 +159,15 @@ Eventually the President and his protégé converge on one plan; the opposition 
 
 [^note-16]: We think the concerns around current AI water usage are largely overstated. See this [article](https://andymasley.substack.com/p/the-ai-water-issue-is-fake) for more. That said, as will be apparent later in the scenario, we do think that the environmental impact of AI over the next decade or two will be enormous, and that unrestrained growth would literally boil the oceans. See the [energy appendix in our economics supplement](https://www.ai-2040.com/supplements/economics-of-plan-a#appendix-b-energy-model) for more on this.
 
-[^17]: Are we really in such a race? Sort of, but [not exactly.](https://time.com/6283609/artificial-intelligence-race-existential-threat/)
+[^note-17]: Are we really in such a race? Sort of, but [not exactly.](https://time.com/6283609/artificial-intelligence-race-existential-threat/)
 
     On our default trajectory, AI will soon become very powerful, to the point where it’s more strategically important than nuclear weapons; that much is true. Many people, including the CEOs of frontier AI companies, are trying hard to build smarter and smarter AI systems before their competitors do.
 
     However, being overly paranoid about competitors is a well-known bias. Assuming that we’re in a winner-takes-all race rules out many possible avenues for cooperation, creating a self-fulfilling trap. We expect that the scale and speed of AI progress will make it increasingly obvious to decision-makers in both the US and China that the current pace of progress, and lack of trust between them, is extremely dangerous. Indeed, it may be possible for the two countries to coordinate on a slowdown without any binding agreement, if they build trust by each gradually deescalating. Our proposed Plan A should be interpreted as an approach that could work *even if* the US and China have absolutely zero trust for each other, rather than a claim that strict verification protocols are definitely necessary.
 
-[^18]: That is, not Congress. By default the people who control the AIs, if anyone truly does, will be AI companies or maybe the White House.
+[^note-18]: That is, not Congress. By default the people who control the AIs, if anyone truly does, will be AI companies or maybe the White House.
 
-[^19]: From Ilya and Greg: “The goal of OpenAI is to make the future good and to avoid an AGI dictatorship. You are concerned that Demis could create an AGI dictatorship. So do we. So it is a bad idea to create a structure where you could become a dictator if you chose to, especially given that we can create some other structure that avoids this possibility.”
+[^note-19]: From Ilya and Greg: “The goal of OpenAI is to make the future good and to avoid an AGI dictatorship. You are concerned that Demis could create an AGI dictatorship. So do we. So it is a bad idea to create a structure where you could become a dictator if you chose to, especially given that we can create some other structure that avoids this possibility.”
 
 [^20]: We don’t mean to *recommend* bad things; we are *predicting* that a mixture of good and bad incrementalist reforms will happen in 2027. For more on how we balance predictions and recommendations in this scenario, see [here](https://www.ai-2040.com/supplements/plan-a-assumptions).
 
