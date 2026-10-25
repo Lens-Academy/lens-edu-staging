@@ -49,7 +49,7 @@ optional:: true{>>{"author":"Elias's AI","timestamp":1788016974835}@@Legacy ####
 content::
 \## The Distiller
 
-The exercise takes the five steps in the order that makes them workable: you clip and distil first, then trace the actors, then thread. The two identification steps above are steps three and four in the exercise below.
+The exercise takes the five steps in the order that makes them workable: you clip and distil first, then trace the actors, then thread. The two identification steps above are steps three and four in the exercise.
 
 **Clipping.** A report is mostly true and mostly forgettable. **Clip only the handful of facts that would change what a reader does** and reject the rest. The editorial test: “Would any of my audiences act differently knowing this?” Each report’s pool mixes core facts with deliberate decoys, and your notebook has a cap: 12 clippings for the system card, 11 for AISI, 10 for GOV/2026/8, 10 for Seagate. Fewer is fine.
 
