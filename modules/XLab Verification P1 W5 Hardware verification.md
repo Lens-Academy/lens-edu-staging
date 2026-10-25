@@ -41,6 +41,9 @@ source:: [[../Lenses/XLab Verification - v-hw-accounting]]
 # Lens:
 source:: [[../Lenses/XLab Verification - v-hw-measuring-use]]
 
+# Submodule: Where the trust lives
+slug:: trust
+
 # Lens:
 source:: [[../Lenses/XLab Verification - v-hw-authorization]]
 
