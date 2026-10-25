@@ -94,11 +94,15 @@ Stage 4 of [[CV1 Restructure Log]], step 1: every question in a CV1 lens, with t
 | Context distiller | 1 | For each: where did it come from, who reads it next, and what do they need from it? | graded, optional | **Keep graded** | A2: a stand-in objective in a unit with no outcomes | Keep; check | Add "Optional:" | Lens has notes from Elias's AI; stayed on the opening page in stage 3, 2026-10-24 | `4bbefd68` |
 | The Distiller | 1 | After you delivered: did any reader question go unanswered? If one did, name it, name the ... | ungraded, optional | **Stays ungraded** |  | Keep; check | Add "Optional:" | Moved here from the Context Distiller's page in stage 3, 2026-10-24 | `e5ec7bb4` |
 | What makes a mechanism effective? | 1 | Now that you’ve gone through the exercise, look back at what you jotted down: what were ... | ungraded | **Stays ungraded** |  | Specialize (A6) |  | XLab named in brief or rubric (A9) | `590f109a` |
-| What makes a mechanism effective? | 2 | Optional: On the by-access map, where does Cloud compute accounting sit? | graded, optional | **Keep graded** | Single-answer choice; no key on the page | Keep; check | Says so | XLab named in brief or rubric (A9) | `94fd9cf9` |
-| What makes a mechanism effective? | 3 | Optional: On the by-lifecycle map, which stage holds none of the twelve mechanisms? | graded, optional | **Keep graded** | Single-answer choice; no key on the page | Keep; check | Says so |  | `a2118751` |
-| What makes a mechanism effective? | 4 | Optional: On the by-adversary map, which mechanisms are still good against an evading ... | graded, optional | **Keep graded** | Single-answer choice; no key on the page | Keep; check | Says so |  | `1f75c01e` |
+| What makes a mechanism effective? | 2 | Optional: On the by-access map, where does Cloud compute accounting sit? | graded, optional | **Keep graded; make required** | Single-answer choice; no key on the page. A29: a quick check on required material | Keep; check | Becomes required; drop "Optional:" | XLab named in brief or rubric (A9) | `94fd9cf9` |
+| What makes a mechanism effective? | 3 | Optional: On the by-lifecycle map, which stage holds none of the twelve mechanisms? | graded, optional | **Keep graded; make required** | Single-answer choice; no key on the page. A29: a quick check on required material | Keep; check | Becomes required; drop "Optional:" |  | `a2118751` |
+| What makes a mechanism effective? | 4 | Optional: On the by-adversary map, which mechanisms are still good against an evading ... | graded, optional | **Keep graded; make required** | Choice with set answers (mark all that apply; "single-answer" here until 2026-10-25 was wrong); no key on the page. A29: a quick check on required material | Keep; check | Becomes required; drop "Optional:" |  | `1f75c01e` |
+
+**Draft text for A29 on "What makes a mechanism effective?" (not built).** The three choice checks lose "Optional: " at the start of their prompts and `optional:: true`. In the tutor summary, "three optional choice checks built from those maps" becomes "three choice checks built from those maps".
 
 ## Unit 5: Hardware verification
+
+Andreas, 2026-10-25: every call in this unit stands.
 
 | Page | # | Question | Now | Call | Why | Brief | Optional | Notes | Id |
 |---|---|---|---|---|---|---|---|---|---|
