@@ -141,6 +141,7 @@ R. Harrison Wagner (1988)
 
   Uses bargaining theory to show why asymmetric economic dependence does not
   automatically translate into political influence or usable leverage.
+%%
 
 \## Written output
 
