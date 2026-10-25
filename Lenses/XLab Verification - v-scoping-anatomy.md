@@ -1,7 +1,7 @@
 ---
 id: '2f1c552a-1785-43d7-b8dd-41ae5f7dfadd'
 title: "How an agreement is put together"
-tldr: "Read a treaty the way a mechanic reads an engine: find where 'should' turns into 'shall', which article does the prohibiting, where the verification method is hidden, and how a party gets out. On the next page you practise on MIRI's draft ASI agreement."
+tldr: "Read a treaty the way a mechanic reads an engine: find where 'should' turns into 'shall', which article does the prohibiting, where the verification method is hidden, and how a party gets out. On the next page you practice on MIRI's draft ASI agreement."
 summary_for_tutor: "Structure: a short reading of the Swiss Practice Guide to International Treaties (structure, interpretation, model final clauses), a collapsed aside with the Texas Legislative Council's statute-reading tips (the Article segment that follows the callout is that excerpt). The page has no questions. The assignment on MIRI's draft agreement and the optional Anatomy Drill are on the next page; this page prepares for them."
 tags: [wip]
 reading_minutes: 30
