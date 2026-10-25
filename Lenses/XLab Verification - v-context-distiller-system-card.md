@@ -1,16 +1,17 @@
 ---
 id: '1ab98ace-f7ba-4d8c-b4ec-b896614a7859'
 title: "Report: Claude Opus 4.7 System Card (fictional)"
-tldr: "An AI company’s own report on its newest model’s capabilities, risks, and safety testing, written as a fictional teaching document. Read it, work it in the Distiller, and open the key only once you have delivered."
-summary_for_tutor: "One of the four report pages of the Distiller exercise; the learner chose this one in a choose-one group after the opening page (the five steps, the worked example and the warm-up question). This page carries the full text of the fictional Claude Opus 4.7 System Card in a read-first callout, the Distiller widget, and the closed key for this report: core clippings with their distillations, the decoys, the upstream and downstream keys with the reason each distractor fails, and each reader's needs with the fact that answers them, titled to be opened only after delivery. The same widget sits on all four report pages and keeps one saved state, so it opens on whichever report the learner last worked; its Change report button switches. Read the widget state before commenting on the exercise, and do not reveal the key before they deliver. The system card is fictional and says so; treat its numbers as teaching material, not as facts about a released model."
+tldr: "An AI company’s own report on its newest model’s capabilities, risks, and safety testing, written as a fictional teaching document. Read it here, work it in the Distiller on the next page, and come back for the key once you have delivered."
+summary_for_tutor: "One of the four report pages of the Distiller exercise; the learner chose this one in a choose-one group after the opening page (the five steps, the worked example and the warm-up question). This page carries the full text of the fictional Claude Opus 4.7 System Card and the closed key for this report: core clippings with their distillations, the decoys, the upstream and downstream keys with the reason each distractor fails, and each reader's needs with the fact that answers them, titled to be opened only after delivery. The learner works the report in the Distiller widget on the next page and comes back here for the key. Do not reveal the key before they deliver. The system card is fictional and says so; treat its numbers as teaching material, not as facts about a released model."
 tags: [wip]
-reading_minutes: 70
+reading_minutes: 12
 tutor_minutes: 0
 ---
 #### Text
 content::
-:::callout {title="Read first if you pick it: full text of the Claude Opus 4.7 System Card (fictional teaching document)" tone="neutral" collapse="closed"}
-This is a fictional in-universe teaching document written by XLab and modeled on Anthropic’s published system cards. It is not a real system card, and its numbers describe no released model. Read it through before you clip. The exercise below carries the same text in its Full report view, with the passages tappable.
+\### Claude Opus 4.7 System Card (fictional teaching document)
+
+This is a fictional in-universe teaching document written by XLab and modeled on Anthropic’s published system cards. It is not a real system card, and its numbers describe no released model. Read it through before you clip. The exercise on the next page carries the same text in its Full report view, with the passages tappable.
 
 **§1 Introduction**
 
