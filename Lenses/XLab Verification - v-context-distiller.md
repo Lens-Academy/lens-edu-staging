@@ -2,7 +2,7 @@
 id: 'db7d0ba6-4789-4018-8ea1-5b040ccb7528'
 title: "Context distiller"
 tldr: "A system card, a government evals report, an IAEA safeguards report, and a $300 million export-control order: pick one and work it like an editor. Clip the handful of facts that would change what someone does, rewrite each for a specific reader, name who the report was built from and who reads it next, then thread every point to a desk. A fact you never clipped can reach no one; that gap is the lesson."
-summary_for_tutor: "Opening page of the Distiller exercise. The learner picks one of four reports (the fictional, in-universe Claude Opus 4.7 System Card; the UK AISI Frontier AI Trends Report, 2025; IAEA GOV/2026/8 on Iran; the BIS settlement order against Seagate, 2023) and works it in the Distiller widget in five steps: clip passages from a pool of core facts and planted decoys into a capped notebook, tap each clipping to compress it into the report's post, commit the upstream actors, commit the downstream readers, then thread each distilled point to a reader and deliver. This page carries the five steps, the worked example, the four report descriptions, the optional warm-up question, and how the widget runs. The reports and their keys are on four report pages that follow, as a choose-one group; the widget and an optional closing question on the gap the delivery exposed are on the page after them. Do not reveal a key before the learner delivers. The system card is fictional and says so; treat its numbers as teaching material, not as facts about a released model."
+summary_for_tutor: "Opening page of the Distiller exercise. The learner picks one of four reports (the fictional, in-universe Claude Opus 4.7 System Card; the UK AISI Frontier AI Trends Report, 2025; IAEA GOV/2026/8 on Iran; the BIS settlement order against Seagate, 2023) and works it in the Distiller widget in five steps: clip passages from a pool of core facts and planted decoys into a capped notebook, tap each clipping to compress it into the report's post, commit the upstream actors, commit the downstream readers, then thread each distilled point to a reader and deliver. This page carries the five steps, the worked example, the four report descriptions, the optional warm-up question, and how the widget runs. The reports are on four report pages that follow, as a choose-one group; the widget, the four keys and an optional closing question on the gap the delivery exposed are on the page after them. Do not reveal a key before the learner delivers. The system card is fictional and says so; treat its numbers as teaching material, not as facts about a released model."
 tags: [wip]
 reading_minutes: 10
 tutor_minutes: 5
@@ -59,7 +59,7 @@ The exercise takes the five steps in the order that makes them workable: you cli
 
 **Threading.** Different readers need different facts, and already know different things. Thread each distilled point to the readers who need it, deliver, and every unanswered question turns red. A fact you never clipped can reach no one; that gap is the lesson.
 
-Next, choose your report and read it before you clip. Its page also holds its key, to open once you have delivered. The exercise itself comes after, on its own page.
+Next, choose your report and read it before you clip. The exercise and the keys come after, on their own page.
 
 #### Text
 content::

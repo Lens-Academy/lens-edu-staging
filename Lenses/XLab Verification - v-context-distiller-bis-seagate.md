@@ -1,8 +1,8 @@
 ---
 id: 'b3d72ddd-096e-4834-9388-fdc8c756e1a0'
 title: "Report: BIS settlement order against Seagate"
-tldr: "The enforcement document behind a $300 million fine for shipping hard drives to Huawei in violation of export controls (US Commerce Department, 2023). Read it here, work it in the Distiller on the next page, and come back for the key once you have delivered."
-summary_for_tutor: "One of the four report pages of the Distiller exercise; the learner chose this one in a choose-one group after the opening page (the five steps, the worked example and the warm-up question). This page carries the US Bureau of Industry and Security's 2023 settlement order against Seagate as an article segment and the closed key for this report: core clippings with their distillations, the decoys, the upstream and downstream keys with the reason each distractor fails, and each reader's needs with the fact that answers them, titled to be opened only after delivery. The learner works the report in the Distiller widget on the next page and comes back here for the key. Do not reveal the key before they deliver."
+tldr: "The enforcement document behind a $300 million fine for shipping hard drives to Huawei in violation of export controls (US Commerce Department, 2023). Read it here before you clip; the exercise and the key are on the next page."
+summary_for_tutor: "One of the four report pages of the Distiller exercise; the learner chose this one in a choose-one group after the opening page (the five steps, the worked example and the warm-up question). This page carries the US Bureau of Industry and Security's 2023 settlement order against Seagate as an article segment. The learner works the report in the Distiller widget on the next page, which also holds all four keys, titled to be opened only after delivery. Do not reveal a key before they deliver."
 tags: [wip]
 reading_minutes: 35
 tutor_minutes: 0

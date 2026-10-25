@@ -35,7 +35,7 @@ Explore the components inside an AI accelerator and connect them to the supply-c
 :::
 
 :::callout {title="Optional: Chip Supply Chain" tone="neutral"}
-[Chip Supply Chain](https://chipsupplychain.org/), Yashvardhan Sharma (2026)
+[Chip Supply Chain: How AI Chips Are Made](https://chipsupplychain.org/), Yashvardhan Sharma (2026)
 
 A book-length guide that follows an AI chip through fifteen stages, from design software and silicon wafers to the data center, then the economics and the geopolitics. Each chapter says who makes that part, how concentrated the stage is, and what a substitute would cost. Read the chapters for the chokepoints you want to understand.
 :::
@@ -76,6 +76,8 @@ Sastry, Girish, Lennart Heim, Haydn Belfield, et al. "Computing Power and the Go
 Fist, Tim, Tao Burga, and Vivek Chilukuri. *Technology to Secure the AI Chip Supply Chain: A Working Paper*. Center for a New American Security, 2024. [cnas.org](https://www.cnas.org/publications/reports/technology-to-secure-the-ai-chip-supply-chain-a-primer)
 *Argues that export controls on AI chips are hard to enforce and easy to evade through shell companies, and proposes hardware-enabled mechanisms instead. Cited here for the fact that US controls now reach all chips using advanced high-bandwidth memory.*
 
+Sharma, Yashvardhan. *Chip Supply Chain: How AI Chips Are Made*. Updated 25 Oct. 2026. [chipsupplychain.org](https://chipsupplychain.org/)
+*Linked above as optional further reading: an AI chip followed through fifteen production stages, one chapter each, with the economics and geopolitics after them.*
 XLab. "1.2.1 Geographic supply-chain map." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/interactive-map)
 *The source lesson this page adapts, including the map data reproduced above.*
 

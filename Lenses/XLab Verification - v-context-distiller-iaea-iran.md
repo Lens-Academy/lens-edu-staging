@@ -1,8 +1,8 @@
 ---
 id: 'b93a0867-c63d-4c32-9d49-5c209dbe3b15'
 title: "Report: IAEA safeguards report on Iran"
-tldr: "International nuclear inspectors’ quarterly findings (GOV/2026/8), the closest existing analogue to what an AI treaty inspectorate would publish. Read it here, work it in the Distiller on the next page, and come back for the key once you have delivered."
-summary_for_tutor: "One of the four report pages of the Distiller exercise; the learner chose this one in a choose-one group after the opening page (the five steps, the worked example and the warm-up question). This page carries the IAEA Director General's safeguards report on Iran, GOV/2026/8, as an article segment and the closed key for this report: core clippings with their distillations, the decoys, the upstream and downstream keys with the reason each distractor fails, and each reader's needs with the fact that answers them, titled to be opened only after delivery. The learner works the report in the Distiller widget on the next page and comes back here for the key. Do not reveal the key before they deliver."
+tldr: "International nuclear inspectors’ quarterly findings (GOV/2026/8), the closest existing analogue to what an AI treaty inspectorate would publish. Read it here before you clip; the exercise and the key are on the next page."
+summary_for_tutor: "One of the four report pages of the Distiller exercise; the learner chose this one in a choose-one group after the opening page (the five steps, the worked example and the warm-up question). This page carries the IAEA Director General's safeguards report on Iran, GOV/2026/8, as an article segment. The learner works the report in the Distiller widget on the next page, which also holds all four keys, titled to be opened only after delivery. Do not reveal a key before they deliver."
 tags: [wip]
 reading_minutes: 44
 tutor_minutes: 0

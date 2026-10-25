@@ -1,8 +1,8 @@
 ---
 id: '1ab98ace-f7ba-4d8c-b4ec-b896614a7859'
 title: "Report: Claude Opus 4.7 System Card (fictional)"
-tldr: "An AI company’s own report on its newest model’s capabilities, risks, and safety testing, written as a fictional teaching document. Read it here, work it in the Distiller on the next page, and come back for the key once you have delivered."
-summary_for_tutor: "One of the four report pages of the Distiller exercise; the learner chose this one in a choose-one group after the opening page (the five steps, the worked example and the warm-up question). This page carries the full text of the fictional Claude Opus 4.7 System Card and the closed key for this report: core clippings with their distillations, the decoys, the upstream and downstream keys with the reason each distractor fails, and each reader's needs with the fact that answers them, titled to be opened only after delivery. The learner works the report in the Distiller widget on the next page and comes back here for the key. Do not reveal the key before they deliver. The system card is fictional and says so; treat its numbers as teaching material, not as facts about a released model."
+tldr: "An AI company’s own report on its newest model’s capabilities, risks, and safety testing, written as a fictional teaching document. Read it here before you clip; the exercise and the key are on the next page."
+summary_for_tutor: "One of the four report pages of the Distiller exercise; the learner chose this one in a choose-one group after the opening page (the five steps, the worked example and the warm-up question). This page carries the full text of the fictional Claude Opus 4.7 System Card. The learner works the report in the Distiller widget on the next page, which also holds all four keys, titled to be opened only after delivery. Do not reveal a key before they deliver. The system card is fictional and says so; treat its numbers as teaching material, not as facts about a released model."
 tags: [wip]
 reading_minutes: 12
 tutor_minutes: 0
