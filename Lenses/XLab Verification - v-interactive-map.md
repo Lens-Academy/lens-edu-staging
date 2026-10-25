@@ -78,6 +78,7 @@ Fist, Tim, Tao Burga, and Vivek Chilukuri. *Technology to Secure the AI Chip Sup
 
 Sharma, Yashvardhan. *Chip Supply Chain: How AI Chips Are Made*. Updated 25 Oct. 2026. [chipsupplychain.org](https://chipsupplychain.org/)
 *Linked above as optional further reading: an AI chip followed through fifteen production stages, one chapter each, with the economics and geopolitics after them.*
+
 XLab. "1.2.1 Geographic supply-chain map." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/interactive-map)
 *The source lesson this page adapts, including the map data reproduced above.*
 
