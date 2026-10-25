@@ -9,6 +9,8 @@ tutor_minutes: 21
 ---
 #### Text
 content::
+{>>{"author":"Andreas's AI","timestamp":1792899635966}@@Split from [[../Lenses/XLab Verification - v-scoping-anatomy]] on 2026-10-24 (CV1 restructure, stage 3). The text from the assignment to the Reykjavik Protocol moved here unchanged, question ids included. Two notes by Elias's AI on where the assignment and the drill come from stay as comments on that page.<<}
+
 \## Assignment
 
 Open [[../Lenses/XLab Verification - v-paper-scher-treaty|the draft agreement]] prepared by the MIRI Technical Governance Team (Scher, Abecassis, Barnett, and Abeyta).
