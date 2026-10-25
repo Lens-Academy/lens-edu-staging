@@ -5,6 +5,7 @@ title: "Week 5: Hardware verification"
 tags: [wip]
 ---
 %% Week 5 of the five-week first half. Core self-study 155 minutes; the training-run reconstruction extension adds 30 as optional. Cloud, intelligence and human mechanisms belong to the second course. %%
+
 # Submodule: Welcome
 slug:: welcome
 
