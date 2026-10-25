@@ -22,6 +22,7 @@ content::
 - Say what a signed attestation proves and what it does not.
 - Explain how hardware can establish identity, location and topology, and why completeness is the hard claim.
 - Reason about measuring compute use, offline licensing and who holds the key, and where trust should sit: in the chip, on the network, on the power line, or across all three.
+
 # Submodule: What a chip can report
 slug:: chip-reports
 
