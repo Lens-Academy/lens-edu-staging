@@ -63,11 +63,11 @@ Plan A is our ambitious proposal for what to do, and we’d like to see somethin
 
 - In 2035, we pause at top-human-expert level AI in order to maintain human control.
 
-- In 2040, we unpause and scale to superintelligence.[12](https://ai-2040.com/footnotes#footnote-12) (**Hence the title: AI 2040**)
+- In 2040, we unpause and scale to superintelligence.[^12] (**Hence the title: AI 2040**)
 
 In our previous scenario, [AI 2027](https://ai-2027.com/), AI fully automated the process of building smarter AIs in 2027, leading to an intelligence explosion and superintelligence within the year. The two differences in this scenario are (1) the default timeline is now 2030, and (2) thanks to governance actions, generally-superhuman AIs first appear in 2040.
 
-**We changed the default timeline because we want our portfolio of scenarios to reflect our uncertainty about AI timelines.** AI 2027’s titular year was chosen because, at the time we started writing, Daniel thought there was roughly a 50% chance that things would go that fast or faster.[13](https://ai-2040.com/footnotes#footnote-13) At the time we started writing Plan A, 2030 was the corresponding year for Thomas. **Daniel currently thinks things will probably go somewhat faster than depicted in this scenario**; you can read more about our team’s views on timelines [here](https://blog.aifutures.org/p/q1-2026-timelines-update) and [here.](https://www.aifuturesmodel.com)
+**We changed the default timeline because we want our portfolio of scenarios to reflect our uncertainty about AI timelines.** AI 2027’s titular year was chosen because, at the time we started writing, Daniel thought there was roughly a 50% chance that things would go that fast or faster.[^13] At the time we started writing Plan A, 2030 was the corresponding year for Thomas. **Daniel currently thinks things will probably go somewhat faster than depicted in this scenario**; you can read more about our team’s views on timelines [here](https://blog.aifutures.org/p/q1-2026-timelines-update) and [here.](https://www.aifuturesmodel.com)
 
 We changed the governance actions because **this scenario is primarily a recommendation, not a prediction.** Conducting a full-speed intelligence explosion is wildly reckless and concentrates power to an extreme degree.
 
