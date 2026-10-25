@@ -21,8 +21,6 @@ Short reading pathways in game theory and international relations. The two short
 | International bargaining and domestic implementation | Diplomacy and Domestic Politics: The Logic of Two-Level Games, Robert D. Putnam (1988) | Optional |
 | Supply-chain structure and bargaining power | Weaponized Interdependence: How Global Economic Networks Shape State Coercion, Henry Farrell and Abraham L. Newman (2019) | Optional |
 
-content::
-
 
 {>>{"author":"Andreas's AI","timestamp":1792901135214}@@2026-10-24 (CV1 restructure, stage 3): the readings in the pending deletion just above moved unchanged to their own pages (v-sf-strategic-thinking, v-sf-game-theory and the five optional v-sf pages). The bare "content::" line above is a leftover that keeps the approved page valid until that deletion is accepted; once it is, the line goes in one direct edit.<<}
 %% Commented out of the learner view (decision A19 in the CV1 restructure log): these two readings need a subscription or institutional access, so they are listed in the Works cited instead.
