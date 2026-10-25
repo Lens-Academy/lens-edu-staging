@@ -141,6 +141,7 @@ R. Harrison Wagner (1988)
   automatically translate into political influence or usable leverage.
 %%
 
+An optional written exercise closes the module.
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
