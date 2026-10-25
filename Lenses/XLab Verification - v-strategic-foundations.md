@@ -142,6 +142,7 @@ R. Harrison Wagner (1988)
 %%
 
 An optional written exercise closes the module.
+
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
