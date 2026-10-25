@@ -1,11 +1,11 @@
 ---
 id: '4f5ceb89-f774-41b3-b382-f63f044c2823'
 title: "Strategic Foundations"
-tldr: "Optional background in game theory and international relations: why promises between rivals need to be costly to be believed, how evidence turns into compliance judgments, and why a leader can sign in good faith and still fail to deliver. Read the pathway you are weakest on."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Optional reading pathways plus one optional written output (actor, authority, and evidence map)."
+tldr: "Background in game theory and international relations: why promises between rivals need to be costly to be believed, how evidence turns into compliance judgments, and why a leader can sign in good faith and still fail to deliver. Two short primers on game theory are required; for the rest, read the pathway you are weakest on."
+summary_for_tutor: "Opening page of Strategic foundations. Preserve the source's framing. A chart shows the four reading pathways in game theory and international relations and which readings belong to each. The two game theory primers, Strategic Thinking and Game Theory (sections 1 and 6), follow as required pages; the other five readings are optional and reached from the additional readings page; an optional written output (actor, authority, and evidence map) closes the module. Two readings in the source's pathways need a subscription or institutional access and are listed only in the Works cited. The page has no questions."
 tags: [wip]
-reading_minutes: 70
-tutor_minutes: 4
+reading_minutes: 3
+tutor_minutes: 0
 ---
 #### Text
 content::
