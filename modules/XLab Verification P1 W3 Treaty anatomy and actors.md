@@ -6,6 +6,9 @@ tags: [wip]
 ---
 %% Week 3 of the five-week first half. Core self-study 210 minutes; the MIRI draft agreement adds 75 as optional reading for the anatomy assignment. %%
 
+# Submodule: Welcome
+slug:: welcome
+
 # Lens: Welcome to Unit 3
 id:: 8873611c-2bde-4c38-910a-fa1bf6446d3a
 tldr:: What you will learn in Unit 3: treaty anatomy and actors.
