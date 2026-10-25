@@ -32,6 +32,7 @@ content::
 [Anatomy of a Chip](https://chipexplorer.eto.tech/)
 
 Explore the components inside an AI accelerator and connect them to the supply-chain stages shown above.
+:::
 
 :::callout {title="Optional: Chip Supply Chain" tone="neutral"}
 [Chip Supply Chain](https://chipsupplychain.org/), Yashvardhan Sharma (2026)
