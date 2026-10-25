@@ -146,7 +146,15 @@ An optional written exercise closes the module.
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-The nine readings above are cited in place with author, year, and link.
+The seven readings in the chart are cited on their own pages, with author, year, and link.
+
+Two more readings in the source's pathways need a subscription or institutional access, which some participants have:
+
+Hawkins, Lake, Nielson and Tierney (2006). [Delegation under Anarchy: States, International Organizations, and Principal-Agent Theory](https://doi.org/10.1017/CBO9780511491368.002)
+*Uses principal–agent theory to explain why states delegate authority to international organizations, how delegation can enhance credibility, and where agency slack emerges. Selected pages. In the international bargaining and domestic implementation pathway.*
+
+Wagner, R. Harrison (1988). [Economic Interdependence, Bargaining Power, and Political Influence](https://doi.org/10.1017/S0020818300027703)
+*Uses bargaining theory to show why asymmetric economic dependence does not automatically translate into political influence or usable leverage. In the supply-chain structure and bargaining power pathway.*
 
 XLab. "0.4 Strategic Foundations." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/strategic-foundations)
 *The source lesson this page adapts.*
