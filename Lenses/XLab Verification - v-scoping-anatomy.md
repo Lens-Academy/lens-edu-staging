@@ -65,6 +65,8 @@ content::
 
 {>>{"author":"Elias's AI","timestamp":1789826203548}@@The anatomy drill is the widget below (Lens Edu/widgets/anatomy-drill), ported from XLab (src/lib/verification/data/anatomy-drill.ts). XLab folds it as optional. The seven organs and the reading note stay here as page text because the widget opens straight on Specimen 1; the specimens, verdicts, near-miss notes, sources, results table and the closing priority pick are all inside the widget.<<}
 
+{>>{"author":"Andreas's AI","timestamp":1792899614763}@@Split on 2026-10-24 (CV1 restructure, stage 3). The assignment and the Anatomy Drill that the two notes above describe are now on [[../Lenses/XLab Verification - v-scoping-anatomy-assignment]]. The notes stay here so they keep their author; move or remove them as you see fit.<<}
+
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Texas Legislative Council, Research Division. *Reading Statutes and Bills*. 85th Legislature. [tlc.texas.gov](https://tlc.texas.gov/docs/legref/readingabill.pdf)
 *A drafting office's short guide to reading legal text: how codes and statutes are organised, the parts of a statute and of a bill, tips for reading each, and three practice exercises.*
