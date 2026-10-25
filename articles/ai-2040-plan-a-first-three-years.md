@@ -45,13 +45,13 @@ So, we wrote a scenario outlining that possible world.
 
 We think most AI policy proposals fall apart under [scenario scrutiny](https://blog.aifutures.org/p/scenario-scrutiny-for-ai-policy)—that is, if you try to write down a detailed and plausible scenario in which that proposal succeeds, you will find it difficult to do so, and you will realize the plan is less likely to work than it seemed, or has more unpleasant side-effects than its proponents acknowledged.
 
-Perhaps that’s why scenario scrutiny is so rare in AI policy. Everyone wants to say that their own favorite policies will have great consequences and that the policies of their rivals will have terrible consequences. Applying scenario scrutiny to their own favorite policies might surface uncomfortable issues with them; meanwhile, applying scenario scrutiny to their rival’s policies is a lot of work for little rhetorical gain.[^10]
+Perhaps that’s why scenario scrutiny is so rare in AI policy. Everyone wants to say that their own favorite policies will have great consequences and that the policies of their rivals will have terrible consequences. Applying scenario scrutiny to their own favorite policies might surface uncomfortable issues with them; meanwhile, applying scenario scrutiny to their rival’s policies is a lot of work for little rhetorical gain.[^note-10]
 
 We think the discourse would be improved if more AI policy proposals were subjected to scenario scrutiny. So we’re starting with our own, even though this opens us up to criticism. We hope critics will judge us against the existing state-of-the-art for plans to navigate the AI transition (if they can find any) and not against some hazy but pleasant fantasy where no one has to make any hard choices yet everything will probably be fine.
 
 What of the immense difficulty of predicting the effect our policy would have in a world approaching superhuman AIs? This is like trying to predict how to best fight World War 3, except that it’s an even larger departure from past case-studies. Yet it is still valuable to attempt, just as it is valuable for the U.S. military to game out Taiwan scenarios in excruciating detail. There are other precedents as well: [intelligence agencies](https://assets.publishing.service.gov.uk/media/68dba439dadf7616351e4bf8/GST_7_Final_post_pic_change_WEB.pdf), [climate bodies](https://iea.blob.core.windows.net/assets/deebef5d-0c34-4539-9d0c-10b13d840027/NetZeroby2050-ARoadmapfortheGlobalEnergySector_CORR.pdf), and [pandemic-preparedness offices](https://centerforhealthsecurity.org/our-work/tabletop-exercises/clade-x-tabletop-exercise) all rely on various kinds of scenario planning.
 
-Plan A is our ambitious proposal for what to do, and we’d like to see something like it implemented soon because we are uncertain about how much time remains.[^11] But for purposes of writing a concrete scenario, we need a concrete timeline.
+Plan A is our ambitious proposal for what to do, and we’d like to see something like it implemented soon because we are uncertain about how much time remains.[^note-11] But for purposes of writing a concrete scenario, we need a concrete timeline.
 
 **The timeline of this scenario is:**
 
@@ -63,7 +63,7 @@ Plan A is our ambitious proposal for what to do, and we’d like to see somethin
 
 - In 2035, we pause at top-human-expert level AI in order to maintain human control.
 
-- In 2040, we unpause and scale to superintelligence.[^12] (**Hence the title: AI 2040**)
+- In 2040, we unpause and scale to superintelligence.[^note-12] (**Hence the title: AI 2040**)
 
 In our previous scenario, [AI 2027](https://ai-2027.com/), AI fully automated the process of building smarter AIs in 2027, leading to an intelligence explosion and superintelligence within the year. The two differences in this scenario are (1) the default timeline is now 2030, and (2) thanks to governance actions, generally-superhuman AIs first appear in 2040.
 
