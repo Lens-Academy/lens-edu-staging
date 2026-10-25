@@ -113,7 +113,7 @@ High quality AI talent is important for almost any policy intervention. The US g
 
 # 2028: AI on the Ballot
 
-The 2028 election cycle is heated, as usual. AI is the biggest topic. The datacenters now under construction cost twice as much as the entire US military budget.[23](https://ai-2040.com/footnotes#footnote-23)
+The 2028 election cycle is heated, as usual. AI is the biggest topic. The datacenters now under construction cost twice as much as the entire US military budget.[^23]
 
 Most white-collar professions are seeing disruption like software engineering saw in 2026; such jobs now heavily involve managing AI agents. AI companies have industrialized the training process: Executives say “let’s move into \[profession\] this year” and then the company interviews professionals, buys data, creates training environments, etc. until their AIs get traction. Then the AIs rapidly improve as they are used more widely in the field and accumulate more real-world data.
 
@@ -123,6 +123,6 @@ AI experts warn that the [intelligence explosion](https://en.wikipedia.org/wiki/
 
 On the default path, the next presidential term will see AIs that are far beyond human level, created entirely by AIs, themselves created entirely by other AIs, without any human in the loop since several generations back. Will those AIs be obedient, aligned, etc.? Why? Who will control them if so? How exactly is all of this supposed to end well?
 
-Having put humanity on this path, the AI companies find it acceptable. But most people don’t. Forget thinking about his *legacy*—the President is starting to think about what’ll happen to *him* after he leaves office and the world gets transformed.[24](https://ai-2040.com/footnotes#footnote-24) Both presidential candidates keep getting asked what they’ll do about AI, and try out increasingly dramatic ideas on the campaign trail. The discourse bounces back and forth across all of the options displayed below, and more.
+Having put humanity on this path, the AI companies find it acceptable. But most people don’t. Forget thinking about his *legacy*—the President is starting to think about what’ll happen to *him* after he leaves office and the world gets transformed.[^24] Both presidential candidates keep getting asked what they’ll do about AI, and try out increasingly dramatic ideas on the campaign trail. The discourse bounces back and forth across all of the options displayed below, and more.
 
 Eventually the President and his protégé converge on one plan; the opposition candidate converges on another. Then it’s Election Day.
