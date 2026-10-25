@@ -23,6 +23,8 @@ The plan this file carries out is [[CV1 Streamlining Proposal]]. Elias reviewed 
 
 **Status, 2026-10-22.** Stage 3 has started. Unit 5's split was built too early and reverted the same day; the new structure is drawn out for review before anything is built. The answer-survival test (step 1) is waiting on Andreas's check of the test pages. Andreas raised de-nesting the unit welcomes as a consideration (Q15). There is no attributed edit by Elias to a CV1 file, and no new comment from him in the proposal, since 2026-10-04.
 
+**Status, 2026-10-24.** **Stage 3 is built** (A20, A21). Unit 1's essays are optional. Unit 5 is one module, "Hardware verification", in three submodules. Unit 2's policy module and unit 3's anatomy module are in submodules, with "Effective and feasible" and treaty anatomy each split in two. The Context Distiller is an opening page, a choose-one of four report pages, and an optional debrief. Strategic Foundations has an opening page with a pathway chart, two required primers, an index of five hidden optional readings, and an optional written exercise. Every move kept its text and question ids unchanged, checked against the repository. One step waits on review: a pending deletion on Strategic Foundations' opening page (section 8). Validator, course-scoped: no errors in the approved view, and production warnings at the baseline 16 plus one that comes from concept files, not from us. New text we wrote for these pages is listed in section 8 for Andreas's plain-language pass.
+
 **Since the proposal.** Others changed CV1 between 2026-10-08 and 2026-10-20 (section 3). Two of those changes affect the plan. The unit 1 essays are now a choose-one group instead of two optional lenses, so one essay is required, which reopens decision 3. And every lens's time estimate was replaced on 2026-10-09, which fixes some of stage 1's misses but not the largest ones (section 6).
 
 **Where things are.**
@@ -129,6 +131,13 @@ On the points he took up with Elias directly.
 | A17 | **Unit 2 can stay on the lighter side** for now. Overtaken by A18 | Nothing to change |
 | A18 | **Strategic Foundations' two primers, "Strategic Thinking" and "Game Theory", are required in this version** (2026-10-23, after the team discussion). The rest of the readings move into Dive Deeper-style optional lenses behind a pathway chart (Q18). Settles Q17 | Stage 3, step 3 |
 | A19 | **The two readings behind a paywall are commented out of the learner view** and kept, with their links, in the Works cited. The wording there says they need a subscription or institutional access, which some participants have, rather than calling them paywalled | Stage 3, step 3 |
+
+### From Andreas, 2026-10-23 and 2026-10-24
+
+| # | Decision | Commits us to |
+|---|---|---|
+| A20 | **Build stage 3 now**, once the new submodules have names that keep their URLs clean (2026-10-23). The test course had served its purpose and could go | Stage 3, steps 2 to 5 |
+| A21 | **The names** (2026-10-24). Submodules carry their own `slug::`, so a later retitle leaves the URL alone. Unit 2's policy module: "Scoping the policy" (`scoping`) and "Effectiveness and feasibility" (`effectiveness-feasibility`), nouns rather than the adjectives first proposed. Unit 3's anatomy module: "Welcome" (`welcome`) and "Anatomy of a (pause) agreement" (`anatomy`); repeating the module title is fine. Unit 5: retitled "Hardware verification", with "Welcome" (`welcome`), "What a chip can report" (`chip-reports`) and "Where the trust lives" (`trust`), since trust is central to control. Strategic Foundations' index page is "Strategic foundations: additional readings", not "Dive Deeper", which would appear nowhere else in CV1. Module slugs stay as they are. New page files follow the `XLab Verification - v-` pattern, with `v-sf-` for Strategic Foundations | Stage 3, steps 2 to 5 |
 
 ### The larger picture, from Andreas, 2026-10-22
 
