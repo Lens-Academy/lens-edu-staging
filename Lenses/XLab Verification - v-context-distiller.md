@@ -59,7 +59,7 @@ The exercise takes the five steps in the order that makes them workable: you cli
 
 **Threading.** Different readers need different facts, and already know different things. Thread each distilled point to the readers who need it, deliver, and every unanswered question turns red. A fact you never clipped can reach no one; that gap is the lesson.
 
-Read your report before you clip: the three real reports are below as readings, and the fictional system card is in the callout that follows (the exercise carries its full text too).
+Next, choose your report. Its page has the full report to read before you clip, then the exercise, then the key to open once you have delivered.
 
 #### Text
 content::
