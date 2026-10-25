@@ -26,4 +26,18 @@ source:: [[../Lenses/XLab Verification - v-scoping-upstream-downstream]]
 # Lens:
 source:: [[../Lenses/XLab Verification - v-context-distiller]]
 
+# Choose: 1
+## Lens:
+source:: [[../Lenses/XLab Verification - v-context-distiller-system-card]]
+## Lens:
+source:: [[../Lenses/XLab Verification - v-context-distiller-aisi-trends]]
+## Lens:
+source:: [[../Lenses/XLab Verification - v-context-distiller-iaea-iran]]
+## Lens:
+source:: [[../Lenses/XLab Verification - v-context-distiller-bis-seagate]]
+
+# Lens:
+source:: [[../Lenses/XLab Verification - v-context-distiller-debrief]]
+optional:: true
+
 
