@@ -156,6 +156,7 @@ The load worry was about reading load, not tutor load. Splitting by tutor time w
 | A26 | **All four keys go on the Distiller page** (later the same day), so learners need not go back to their report's page to check their work. They are closed callouts, so they do not crowd the page. Supersedes A24's keys | Stage 3, step 5 |
 | A27 | **Structure is set**, apart from unit 1's three opening pages, which stage 7 will likely consolidate; that is small and does not change the overall picture. Strategic Foundations' chart need not mark readings required or optional, since the pages already show it (a text point, not structure) | Stage 7, step 3 |
 | A28 | **The case-by-case question calls for units 1 and 2 stand.** Andreas is comfortable with the proposed changes there (13 ungraded, the stakeholder map kept graded); his review of the rest of the worklist continues | Stage 4, step 2 |
+| A29 | **Seven optional questions become required** (Andreas, reviewing units 3 to 5 of the worklist, later the same day). The four on "Reading a draft agreement", since unit 3's meeting builds on that exercise and it would be odd to expect learners to discuss work they could skip; all four, where the source lesson asks for any three. The three choice checks on "What makes a mechanism effective?", since they check required material and are hardly onerous. All seven keep their grade. Unit 5's calls stand as they are | Stage 4, step 2; stage 8 for the extra time; stage 9 for meeting 3's note |
 
 ### The larger picture, from Andreas, 2026-10-22
 
@@ -483,6 +484,7 @@ Needs a signed-in tester on staging. Nothing is run yet.
 | 4 | 2026-10-25 | Marked the case-by-case calls for units 1 and 2 as accepted in the worklist (A28) | [[CV1 Question Worklist]] | Andreas, reviewing the worklist | Direct; our file |
 | 3 | 2026-10-25 | **Republished the load map, version 3: the course as built.** Units at 185, 187, 189, 190 and 206 core minutes. The Context Distiller's report pages are drawn at their word counts, which corrects version 2: the AISI page is the whole report, about 10,100 words, not the 1,700 to 5,900 the earlier map assumed for every report | CV1 Load Map page | Andreas asked for it | Published; not in the vault |
 | 3 | 2026-10-25 | Validated after the keys move, the chart and the citation. Course-scoped, approved view: the same 17 warnings outside drafts, and the same 62 in drafts, no errors. Unscoped: 69 errors across the vault, none in this course's files (all in the EA Intro course, test pages and transcripts) | None | Convention | Read only |
+| 4 | 2026-10-25 | Recorded Andreas's review of units 3 to 5 in the worklist (A29): seven rows marked "make required", with draft text for the two pages, and unit 5 marked as standing. Corrected one row: the by-adversary check is mark-all-that-apply, not single-answer. Andreas deleted the two stale reviewer notes | [[CV1 Question Worklist]] | A29 | Direct; our file. Nothing in the course changed |
 
 ---
 
