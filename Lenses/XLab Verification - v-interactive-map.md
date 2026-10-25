@@ -32,6 +32,11 @@ content::
 [Anatomy of a Chip](https://chipexplorer.eto.tech/)
 
 Explore the components inside an AI accelerator and connect them to the supply-chain stages shown above.
+
+:::callout {title="Optional: Chip Supply Chain" tone="neutral"}
+[Chip Supply Chain](https://chipsupplychain.org/), Yashvardhan Sharma (2026)
+
+A book-length guide that follows an AI chip through fifteen stages, from design software and silicon wafers to the data center, then the economics and the geopolitics. Each chapter says who makes that part, how concentrated the stage is, and what a substitute would cost. Read the chapters for the chokepoints you want to understand.
 :::
 
 #### Text
