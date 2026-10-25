@@ -15,7 +15,7 @@ tags:
   - "hand-converted"
 ---
 
-AI companies are racing to build AIs that are smarter than humans in every way. In [AI 2027](https://ai-2027.com/), we predicted that this would result in either extinction or irreversible concentration of power.[^1]
+AI companies are racing to build AIs that are smarter than humans in every way. In [AI 2027](https://ai-2027.com/), we predicted that this would result in either extinction or irreversible concentration of power.[^note-1]
 
 Plan A is our positive vision for what should happen instead.
 
@@ -177,4 +177,4 @@ Eventually the President and his protégé converge on one plan; the opposition 
 
 [^note-23]: That is, the AI industry spends $2.4T of CapEx over 2028, triple what was spent in 2026. The US military budget in 2025 was about $1T. The biggest AI company has $360B ARR at the beginning of 2028 and is still growing at a roughly 150% annualized growth rate, putting it on track to become both the most valuable company in the world and [the largest company in the world by revenue](https://companiesmarketcap.com/largest-companies-by-revenue/), in 1-2 years.
 
-[^24]: After all, he’ll still be alive after leaving office. Just like the rest of us, he’ll have to endure whatever crises result from superintelligence, and hope that the new President handles them well and doesn’t become dictator. It’s in his interest both to set the new President up for success with respect to the loss-of-control problem, and to install checks and balances to prevent extreme concentration of power.
+[^note-24]: After all, he’ll still be alive after leaving office. Just like the rest of us, he’ll have to endure whatever crises result from superintelligence, and hope that the new President handles them well and doesn’t become dictator. It’s in his interest both to set the new President up for success with respect to the loss-of-control problem, and to install checks and balances to prevent extreme concentration of power.
