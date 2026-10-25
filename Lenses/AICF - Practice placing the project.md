@@ -19,7 +19,7 @@ Three pieces of control work:
 
 For each:
 
-1. What access to AI developers' systems, or independence from them, does it need?
+1. Does it need only access to the models (querying them or open weights), access to a company's own systems, logs and staff, or independence from the company?
 2. So which kind of organisation is placed to do it?
 3. Give a real example of such an organisation where you can.
 placeholder:: Take (a), (b), then (c)
