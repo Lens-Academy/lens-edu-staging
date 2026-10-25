@@ -151,9 +151,9 @@ Eventually the President and his protégé converge on one plan; the opposition 
 
 [^note-12]: Superintelligence means AI systems that are significantly better than the best humans at everything, while also being faster and cheaper.
 
-[^13]: By the time we finished writing AI 2027, Daniel’s AGI median was 2028. Other authors’ medians were between 2031 and 2035. To read more about how Daniel and Eli’s views have shifted over time, see [here](https://blog.aifutures.org/p/clarifying-how-our-ai-timelines-forecasts). We are regularly updating our forecasts [here](https://www.aifuturesmodel.com/forecast), with corresponding blog posts on [our Substack](https://blog.aifutures.org/p/q1-2026-timelines-update).
+[^note-13]: By the time we finished writing AI 2027, Daniel’s AGI median was 2028. Other authors’ medians were between 2031 and 2035. To read more about how Daniel and Eli’s views have shifted over time, see [here](https://blog.aifutures.org/p/clarifying-how-our-ai-timelines-forecasts). We are regularly updating our forecasts [here](https://www.aifuturesmodel.com/forecast), with corresponding blog posts on [our Substack](https://blog.aifutures.org/p/q1-2026-timelines-update).
 
-[^14]: AIs are helping to make future AIs more capable, but AI development still requires humans.
+[^note-14]: AIs are helping to make future AIs more capable, but AI development still requires humans.
 
 [^15]: This policy is selfishly good for leading AI companies insofar as it makes it harder for trailing companies to catch up, but it’s also good for safety because it slows irreversible proliferation of algorithmic insights.
 
