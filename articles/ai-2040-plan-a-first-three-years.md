@@ -127,11 +127,11 @@ Having put humanity on this path, the AI companies find it acceptable. But most 
 
 Eventually the President and his protégé converge on one plan; the opposition candidate converges on another. Then it’s Election Day.
 
-[^1]: The AI 2027 scenario is still roughly what we expect the future to look like: a mad scramble to superintelligence leading to either AI takeover or extreme concentration of power. So far reality is tracking [closer to AI 2027](https://blog.aifutures.org/p/grading-ai-2027s-2025-predictions) than [even we expected.](https://blog.aifutures.org/p/clarifying-how-our-ai-timelines-forecasts) (2027 was our modal year at time of publication, not our median.) You can read more about our views on timelines [here](https://blog.aifutures.org/p/q1-2026-timelines-update) and [here](https://www.aifuturesmodel.com).
+[^note-1]: The AI 2027 scenario is still roughly what we expect the future to look like: a mad scramble to superintelligence leading to either AI takeover or extreme concentration of power. So far reality is tracking [closer to AI 2027](https://blog.aifutures.org/p/grading-ai-2027s-2025-predictions) than [even we expected.](https://blog.aifutures.org/p/clarifying-how-our-ai-timelines-forecasts) (2027 was our modal year at time of publication, not our median.) You can read more about our views on timelines [here](https://blog.aifutures.org/p/q1-2026-timelines-update) and [here](https://www.aifuturesmodel.com).
 
-[^2]: That is, they are predictions about what would happen next if our recommendations were implemented.
+[^note-2]: That is, they are predictions about what would happen next if our recommendations were implemented.
 
-[^3]: You can read more about these four plans at the branch point below and in our supplement “[How good is each plan?](https://ai-2040.com/supplements/comparing-possible-plans)”.
+[^note-3]: You can read more about these four plans at the branch point below and in our supplement “[How good is each plan?](https://ai-2040.com/supplements/comparing-possible-plans)”.
 
 [^4]: Of course, we’re not sure exactly how likely literal AI-driven human extinction is, but opinions within our team vary between 10% and 30%. This is primarily because there are a bunch of other things misaligned ASIs might do with us after they take over, besides kill us all. For example, they might keep some people alive because it’s really cheap and they care a tiny amount, or as acausal bargaining chips. We don’t think this nuance changes the bottom line though: Misaligned AI takeover is probably really bad.
 
