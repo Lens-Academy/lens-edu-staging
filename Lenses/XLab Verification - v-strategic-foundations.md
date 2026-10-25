@@ -128,6 +128,7 @@ to:: $Y_M$  represent the maximum outcomes for  $X$  and  $Y$ , respectively, wh
 --}content::
 
 
+%% Commented out of the learner view (decision A19 in the CV1 restructure log): these two readings need a subscription or institutional access, so they are listed in the Works cited instead.
 \### [Delegation under Anarchy: States, International Organizations, and Principal-Agent Theory](https://doi.org/10.1017/CBO9780511491368.002)
 Hawkins, Lake, Nielson and Tierney (2006)
 
