@@ -18,8 +18,10 @@ source:: [[../Lenses/XLab Verification - v-intuitions-plan-a]]
 # Choose: 1
 ## Lens:
 source:: [[../Lenses/XLab Verification - v-intuitions-a1]]
-## Lens:
+optional:: true
+
 source:: [[../Lenses/XLab Verification - v-intuitions-b1]]
+optional:: true
 
 # Lens:
 source:: [[../Lenses/XLab Verification - v-intuitions-success]]
