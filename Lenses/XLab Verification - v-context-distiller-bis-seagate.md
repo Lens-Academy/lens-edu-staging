@@ -18,13 +18,6 @@ to:: NINTH, the Proposed Charging Letter, the Settlement Agreement, and this Ord
 
 #### Text
 content::
-In the Distiller below, pick **BIS Settlement Order: Seagate**. If it opens on a report you worked before, use **Change report**.
-
-#### Widget
-source:: [[../widgets/context-distiller]]
-
-#### Text
-content::
 The key. Open it after you have delivered, and not before.
 
 :::callout {title="Key, open after you deliver: BIS Settlement Order, In re Seagate (2023)" tone="neutral" collapse="closed"}
