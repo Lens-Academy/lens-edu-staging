@@ -65,39 +65,6 @@ content::
 
 {>>{"author":"Elias's AI","timestamp":1789826203548}@@The anatomy drill is the widget below (Lens Edu/widgets/anatomy-drill), ported from XLab (src/lib/verification/data/anatomy-drill.ts). XLab folds it as optional. The seven organs and the reading note stay here as page text because the widget opens straight on Specimen 1; the specimens, verdicts, near-miss notes, sources, results table and the closing priority pick are all inside the widget.<<}
 
-#### Widget
-source:: [[../widgets/anatomy-drill]]
-
-#### Text
-content::
-:::callout {title="The Reykjavik Protocol: full text" tone="neutral" collapse="closed"}
-The fictional agreement several specimens were drawn from. Two specimens used strengthened versions of Articles VI and VIII; the original text appears here. You will work with this document again in the dissection and the stress test.
-
-**Preamble.** The States Parties to this Protocol, recognizing that certain applications of advanced artificial intelligence may pose risks to international security, have agreed as follows:
-
-**Article I. Definitions.** (1) “Covered training run” means the training of a single general-purpose artificial intelligence model using more than 10²⁶ computational operations. (2) “Covered facility” means any installation with power capacity exceeding 10 megawatts operated for the purpose of artificial intelligence computation. (3) The fine-tuning, continued development, or adaptation of models trained before entry into force of this Protocol shall not constitute a covered training run.
-
-**Article II. Core obligation.** No State Party shall conduct, authorize, or knowingly permit within its jurisdiction any covered training run for a period of five years from entry into force.
-
-**Article III. Declarations.** (1) Each State Party shall, within 180 days, declare all covered facilities and all holdings of applicable high-performance computing hardware exceeding one thousand units, as specified in Annex A. (2) Declarations shall be updated annually.
-
-**Article IV. Monitoring.** Declared covered facilities shall install power metering and workload verification instruments approved by the Technical Secretariat, where technically and commercially feasible.
-
-**Article V. Inspections.** (1) The Technical Secretariat may conduct routine inspections of declared facilities upon fourteen days’ notice. (2) Any State Party may request a challenge inspection of any facility of another State Party; such inspection shall proceed upon approval by a two-thirds majority of the Executive Council.
-
-**Article VI. Confidentiality.** Inspectors shall not access, copy, or transmit model parameters, training data, or source code. Managed access procedures shall be specified in Annex B, to be concluded by the Executive Council no later than two years after entry into force.
-
-**Article VII. Non-parties.** States Parties shall not export applicable high-performance computing hardware to non-parties, except as licensed for verified civilian purposes.
-
-**Article VIII. Non-compliance.** Upon a finding of non-compliance by the Executive Council, the Council may recommend measures to restore compliance, and may refer the matter to the United Nations Security Council.
-
-**Article IX. Withdrawal.** A State Party may withdraw from this Protocol upon ninety days’ notice if it decides that extraordinary events related to the subject matter of this Protocol have jeopardized its supreme interests.
-
-**Article X. Review and amendment.** The thresholds and definitions in Article I may be amended by consensus of all States Parties at a Review Conference, the first of which shall convene three years after entry into force.
-:::
-
-#### Text
-content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Texas Legislative Council, Research Division. *Reading Statutes and Bills*. 85th Legislature. [tlc.texas.gov](https://tlc.texas.gov/docs/legref/readingabill.pdf)
 *A drafting office's short guide to reading legal text: how codes and statutes are organised, the parts of a statute and of a bill, tips for reading each, and three practice exercises.*
