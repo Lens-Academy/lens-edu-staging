@@ -38,6 +38,5 @@ source:: [[../Lenses/XLab Verification - v-context-distiller-bis-seagate]]
 
 # Lens:
 source:: [[../Lenses/XLab Verification - v-context-distiller-debrief]]
-optional:: true
 
 
