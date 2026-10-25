@@ -6,8 +6,8 @@ tags: [wip]
 ---
 %% Week 5 of the five-week first half. Core self-study 155 minutes; the training-run reconstruction extension adds 30 as optional. Cloud, intelligence and human mechanisms belong to the second course. %%
 
-# Submodule: Welcome
-slug:: welcome
+# Submodule: What a chip can report
+slug:: chip-reports
 
 # Lens: Welcome to Unit 5
 id:: 4921c725-b0d8-40a1-86c6-9d22af72a0aa
