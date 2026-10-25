@@ -224,10 +224,10 @@ For A3 and Q8. A scan of what a learner sees in every CV1 lens, leaving out Work
 
 - Essays A and B both end "Keep your final essay for peer review, as specified in XLab's assignment", linking to the assignment on XLab's site, in [[Lenses/XLab Verification - v-intuitions-a1]] and [[Lenses/XLab Verification - v-intuitions-b1]]. CV1 has no peer review of its own; meeting 1's Room 2 works from the essays instead.
 - [[Lenses/XLab Verification - v-hw-reconstructing-run]]: "this lesson is the technical extension of section 2.1 and is marked optional in XLab's curriculum."
-- [[Lenses/XLab Verification - v-context-distiller]]: the answer keys head four lists "Decoys XLab planted".
-- [[Lenses/XLab Verification - v-scoping-effective-feasible]]: the stakeholder map is billed as "about 800 words, peer reviewed". Found 2026-10-22; same case as the essays' peer-review line.
+- [[Lenses/XLab Verification - v-context-distiller]]: the answer keys head four lists "Decoys XLab planted". Since 2026-10-24 each key is on its report page: [[Lenses/XLab Verification - v-context-distiller-system-card]], [[Lenses/XLab Verification - v-context-distiller-aisi-trends]], [[Lenses/XLab Verification - v-context-distiller-iaea-iran]] and [[Lenses/XLab Verification - v-context-distiller-bis-seagate]].
+- [[Lenses/XLab Verification - v-scoping-effective-feasible]]: the stakeholder map is billed as "about 800 words, peer reviewed". Found 2026-10-22; same case as the essays' peer-review line. Since 2026-10-24 it is on [[Lenses/XLab Verification - v-scoping-stakeholder-map]].
 
-**"Track."** Stays (A8): Lens counts CV1, CV2 and the Capstone as one track. The uses: "the whole track's premise" in [[Lenses/XLab Verification - v-intuitions-drills-1]]; "this track studies verification" twice in [[Lenses/XLab Verification - v-scoping-effective-feasible]]; "the compute reports this track is building toward" in [[Lenses/XLab Verification - v-scoping-upstream-downstream]]; and in [[Lenses/XLab Verification - v-intuitions-success]], "You will return to it at the end of the track". Since the track runs past CV1, that promise is fine if a later course on the track returns to the essay; whether one does is unchecked.
+**"Track."** Stays (A8): Lens counts CV1, CV2 and the Capstone as one track. The uses: "the whole track's premise" in [[Lenses/XLab Verification - v-intuitions-drills-1]]; "this track studies verification" twice, once in [[Lenses/XLab Verification - v-scoping-effective-feasible]] and, since the split of 2026-10-24, once in [[Lenses/XLab Verification - v-scoping-stakeholder-map]]; "the compute reports this track is building toward" in [[Lenses/XLab Verification - v-scoping-upstream-downstream]]; and in [[Lenses/XLab Verification - v-intuitions-success]], "You will return to it at the end of the track". Since the track runs past CV1, that promise is fine if a later course on the track returns to the essay; whether one does is unchecked.
 
 **"Week 5"** in four lenses, already stage 7, step 1. "Part 2 continues with the other three" in [[Lenses/XLab Verification - v-mechanism-effective]] places the course in its sequence and stays.
 
@@ -300,7 +300,7 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 
 | Step | Status |
 |---|---|
-| 1. Closing lens at the end of unit 5, with the ledger widget and XLab's resolution | `todo`, unblocked. Lands in the second unit 5 module, so it follows stage 3, step 2 |
+| 1. Closing lens at the end of unit 5, with the ledger widget and XLab's resolution | `todo`, unblocked. Lands at the end of unit 5's "Where the trust lives" submodule |
 | 2. Point the promise at it, on unit 5's first page and in its tutor summary | `todo` |
 
 ### Stage 6, plain language (E1)
@@ -386,13 +386,15 @@ By unit, core work only. The lens sum counts the unit 1 essay at the average of 
 Needs a signed-in tester on staging. Nothing is run yet.
 
 - [ ] Stage 3, step 1: an answer survives its question moving to another lens
-- [ ] The unit 1 choice group shows both essays, completes with one, and the module's time shows the average
+- [ ] Unit 1's two essays show as optional, and the module's time leaves them out
+- [ ] The Context Distiller's choose-one shows the four report pages at the average time and completes with one; the widget on a report page opens on the picker or on the report last worked, and Change report switches; the debrief shows as optional
+- [ ] Units 2, 3 and 5 list their submodules with their times, and the submodule URLs use the slugs set in A21
+- [ ] Strategic Foundations' index cards open the five hidden readings in the module, and the two primers count toward unit 2's time
 - [ ] An ungraded question still completes its lens, including one last in its module
 - [ ] A question that stays graded still shows its score
 - [ ] Skipping an optional question still lets the lens complete
 - [ ] `force-feedback:: first` sends feedback once, and returning to the lens does not send it again
-- [ ] Both unit 5 modules appear ahead of the unit 5 meeting, and the closing ledger lens works
-- [ ] The Strategic Foundations lenses appear as optional
+- [ ] Unit 5's module appears ahead of the unit 5 meeting, and the closing ledger lens works
 - [ ] A learner's earlier answers are still in place, which confirms no id changed
 - [ ] Course-scoped and unscoped validation: no new production errors, and no partner-name warnings from text we wrote
 
