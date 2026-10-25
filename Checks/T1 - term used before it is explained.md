@@ -19,6 +19,17 @@ draft:
   criteria:
     "true": "`sentence` uses a specialist term or an acronym, for example METR, OOMs, RLHF or gradient descent, and the sentence where it first appears does not say what it means."
     "false": Every specialist term and acronym in `sentence` is explained in the sentence where it first appears, or `sentence` uses only everyday words and names, such as AI, ChatGPT, OpenAI or computer.
+  presentation:
+    context: document
+    question: paragraph
+    nest:
+      - document
+      - submodule
+      - lens
+      - section
+      - paragraph
+      - sentence
+      - line
 view:
   sample: 200
 ---
