@@ -105,7 +105,7 @@ While new verification technology is not strictly necessary for an international
 
 We give more detail in our [verification supplement](https://ai-2040.com/supplements/verification-plan).
 
-In 2026, big AI companies spend roughly half their compute budget on AI R&D (which includes training frontier models and also running large experiments.)[^21] We could limit the fraction of compute spent on AI R&D. This would slow capabilities progress, giving the world a bit more time to react and prepare for each new wave of AI capabilities.[^22]
+In 2026, big AI companies spend roughly half their compute budget on AI R&D (which includes training frontier models and also running large experiments.)[^note-21] We could limit the fraction of compute spent on AI R&D. This would slow capabilities progress, giving the world a bit more time to react and prepare for each new wave of AI capabilities.[^note-22]
 
 The US should gather AI-relevant intelligence, especially on the compute supply chain and AI datacenters. Furthermore, it would be helpful for Plan A to direct AI companies to stop recycling AI chips, because decommissioned chips are one of the most promising routes for [covert projects to acquire chips](https://www.ai-2040.com/supplements/covert-ai-projects#how-much-compute-will-be-decommissioned-by-default) later.
 
