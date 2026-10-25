@@ -155,9 +155,9 @@ Eventually the President and his protégé converge on one plan; the opposition 
 
 [^note-14]: AIs are helping to make future AIs more capable, but AI development still requires humans.
 
-[^15]: This policy is selfishly good for leading AI companies insofar as it makes it harder for trailing companies to catch up, but it’s also good for safety because it slows irreversible proliferation of algorithmic insights.
+[^note-15]: This policy is selfishly good for leading AI companies insofar as it makes it harder for trailing companies to catch up, but it’s also good for safety because it slows irreversible proliferation of algorithmic insights.
 
-[^16]: We think the concerns around current AI water usage are largely overstated. See this [article](https://andymasley.substack.com/p/the-ai-water-issue-is-fake) for more. That said, as will be apparent later in the scenario, we do think that the environmental impact of AI over the next decade or two will be enormous, and that unrestrained growth would literally boil the oceans. See the [energy appendix in our economics supplement](https://www.ai-2040.com/supplements/economics-of-plan-a#appendix-b-energy-model) for more on this.
+[^note-16]: We think the concerns around current AI water usage are largely overstated. See this [article](https://andymasley.substack.com/p/the-ai-water-issue-is-fake) for more. That said, as will be apparent later in the scenario, we do think that the environmental impact of AI over the next decade or two will be enormous, and that unrestrained growth would literally boil the oceans. See the [energy appendix in our economics supplement](https://www.ai-2040.com/supplements/economics-of-plan-a#appendix-b-energy-model) for more on this.
 
 [^17]: Are we really in such a race? Sort of, but [not exactly.](https://time.com/6283609/artificial-intelligence-race-existential-threat/)
 
