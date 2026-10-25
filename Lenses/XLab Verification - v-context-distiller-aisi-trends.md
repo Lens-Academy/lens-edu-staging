@@ -18,13 +18,6 @@ to:: -   We include SEM error bars in figures where relevant. Small differences 
 
 #### Text
 content::
-In the Distiller below, pick **Frontier AI Trends Report**. If it opens on a report you worked before, use **Change report**.
-
-#### Widget
-source:: [[../widgets/context-distiller]]
-
-#### Text
-content::
 The key. Open it after you have delivered, and not before.
 
 :::callout {title="Key, open after you deliver: Frontier AI Trends Report (UK AI Security Institute, 2025)" tone="neutral" collapse="closed"}
