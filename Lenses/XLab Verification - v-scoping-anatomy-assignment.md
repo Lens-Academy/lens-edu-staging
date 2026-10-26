@@ -17,7 +17,7 @@ Open [[../Lenses/XLab Verification - v-paper-scher-treaty|the draft agreement]] 
 
 Participants are not expected to read the document continuously from beginning to end. Instead, examine it article by article, focusing on the questions below.
 
-Read all 4 questions before beginning the examination of the agreement.
+Read all 4 questions before beginning the examination of the agreement, then answer each of them.
 
 #### Question: Open
 id:: 5c257204-3687-4257-a4f3-ecb75d22e20f
