@@ -13,7 +13,7 @@ fix: "…"
 draft:
   question: "Does `sentence` contain a mic drop moment, ie, a dramatic phrase that feels like a punchline to a buildup?"
   criteria:
-    "true": "`sentence` uses excessive intensity: \"the exact moment\", \"and that was when it happened\", \"and here's where it gets interesting\""
+    "true": "`sentence` uses excessive intensity: \"the exact moment\", \"and that was when it happened\", \"and here's where it gets interesting\", \"Build it from what you just read: say which method or number you lean on most, and how you adjust it"
     "false": "`sentence` is reasonably sedate, or fits comfortably in its context without standing out dramatically"
   presentation:
     context: lens
