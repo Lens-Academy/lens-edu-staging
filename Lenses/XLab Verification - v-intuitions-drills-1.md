@@ -18,6 +18,7 @@ content:: In a well-designed inspection game, the inspector's optimal strategy d
 options::
 - True
 - False
+force-feedback:: first
 feedback-instructions:: Explain: false, and the word doing the damage is "zero". In Dresher-style inspection games the inspector has limited inspections, so the equilibrium involves randomized inspection and a nonzero violation rate. A regime that promises zero is overclaiming; a regime that prices the residual rate is doing game theory. Two or three sentences.
 
 #### Text
