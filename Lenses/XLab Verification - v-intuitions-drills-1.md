@@ -14,7 +14,7 @@ Commit an answer before each reveal, read why, then continue. Nothing here is gr
 
 #### Question: Choice
 id:: b9535676-a824-44eb-a1c8-86556c0f0a80
-content:: In a well-designed inspection game, the inspector's optimal strategy drives the equilibrium violation rate to zero. True or false?
+content:: In a well-designed inspection game where the inspector has a limited inspection budget, the inspector's optimal strategy drives the equilibrium violation rate to zero. True or false?
 options::
 - True
 - False
