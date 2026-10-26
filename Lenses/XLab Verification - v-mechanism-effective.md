@@ -124,6 +124,7 @@ options::
 - During a run
 - [x] After deployment
 - Any stage
+force-feedback:: first
 feedback-instructions:: After deployment is empty: third-party evaluations, incident reporting and observing outputs are a toolkit this deck barely touches. Noticing the empty column is the point. One or two sentences.
 
 #### Question: Choice
@@ -138,6 +139,7 @@ options::
 - On-site inspections
 multi:: true
 shuffle:: true
+force-feedback:: first
 feedback-instructions:: Evading state: satellite imagery, power-draw monitoring, signals intelligence and cyber, open-source intelligence, whistleblower channels. On-chip attestation, cloud KYC and the other hardware and cloud streams assume functioning states above a cheating company; inspections and interviews verify good faith, not bad. Name the bucket of each option the learner got wrong.
 
 #### Text
