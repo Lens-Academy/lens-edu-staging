@@ -47,7 +47,7 @@ AI Futures Project (2025)
 
   The earlier scenario from the same team: how a race ends badly, dramatized. Read both of its endings.
 
-The four charts below rebuild figures from that scenario out of the data published behind them, so you can read the exact numbers the pictures only suggest.
+{>>{"author":"Andreas's AI","timestamp":1792998950752}@@Stage 6 flag, Lens text: "rebuild figures from that scenario out of the data published behind them" and "the exact numbers the pictures only suggest" take decoding; the point is that the charts are redrawn from AI 2027's published data, so they show exact values. See the CV1 plain language worklist.<<}The four charts below rebuild figures from that scenario out of the data published behind them, so you can read the exact numbers the pictures only suggest.
 
 #### Article
 source:: [[../articles/ai-2027]]
