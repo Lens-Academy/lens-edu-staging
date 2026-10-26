@@ -105,6 +105,8 @@ The overview and the five unit welcomes are inline in their modules and are not 
 - Line 49: opens with a fragment and runs three colon clauses in two sentences; "the cast" is a label the page does not define.
 - Line 80: "role chips" is a widget label the learner has not seen yet, and "light the actors" stands for "highlight them".
 
+**Outcome, 2026-10-25 to 2026-10-26.** Andreas rewrote the tldr and the roster's opening, and Claude reviewed both: a typo, a comma splice, "submodule" (unit 3 has none) and a missing comma, all fixed by Andreas. The tldr now ends "count which actors have no arrow at all, and find out who is holding up three of the four subgoals", which keeps the question and drops the answers; Andreas keeps "find out who" for intrigue, and it passes the spoiler test. The roles and postures went from two run-on paragraphs to bulleted lists, XLab's words unchanged (XLab's lesson has them as a table), and the "role chips" parenthetical was dropped, since the top of the callout already gives the context and learners never see widget names (Andreas). Both flags resolved; their removal is pending.
+
 **For Andreas and Elias**
 
 - Lines 181 to 182, in "Notes and sources": "Quotations are matched against the committed copy of the paper at test time, so a quote that drifts fails the build rather than sitting on the page." This describes XLab's build, which Lens does not have, so on our page it is not true. Candidate: cut the sentence.
