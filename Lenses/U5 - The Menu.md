@@ -35,7 +35,7 @@ It is also the last assigned reading of the course. After this page there are no
 
 So read it like a menu, not a textbook. The Summary section is the menu itself: eight projects, one bold line each. Detailed sections follow for most of them. Skipping the ones that do not interest you is the intended way to read this piece, not a shortcut.
 
-This reading is not careers advice. It says what needs doing. It does not say what you in particular should do next, and this course will not pretend those are the same question. For that second question, the usual recommendation is Holden Karnofsky's piece "My current impressions on career choice for longtermists".
+This reading is not careers advice. It says what needs doing. It does not say what you in particular should do next, and this course will not pretend those are the same question. For that second question, the usual recommendation is Holden Karnofsky's piece [[../Lenses/U5 - Optional - Career Choice for Longtermists|My current impressions on career choice for longtermists]].
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
