@@ -87,7 +87,7 @@ Carried over from [[AIRF Restructure Log]], which gives the reasons:
 - Always set `tldr::`. Quote any frontmatter value that contains a colon.
 - Validate course-scoped and unscoped. Files tagged `wip` drop out of the course-scoped run, and the course file itself is tagged `wip`.
 - Build a sweep's worklist from per-file counts of both fields, not from a search for the one being removed.
-- Open the relay session under Andreas's name, and check how each edit landed rather than assuming.
+- Open the relay session under Andreas's name, and check how each edit landed rather than assuming. **Missed from 2026-10-25, 15:20 to about 23:10 Pacific:** a new session was opened without his name, so the stage 4 and 5 edits and the first two stage 6 flags are attributed to "AI" (commits signed `ai:unknown`) instead of "Andreas's AI". From then on the session carries his name; the two flags were re-added under it, and removing the "AI" copies waits as two pending suggestions.
 
 **Working practice.** An edit that replaces or deletes someone else's text goes in as a pending change for review; the relay routes it that way on its own, but check. New files we author are written directly. Each row in section 8 says which it was.
 
@@ -166,6 +166,7 @@ The load worry was about reading load, not tutor load. Splitting by tutor time w
 | A34 | **The two final essays' briefs point back to the earlier part behind the main gap**, so the learner knows where asking for feedback would help, but not when the essay is solid overall (Andreas, later on 2026-10-25) | Stage 4, step 4 |
 | A35 | **The claim ledger is not closed in CV1; its promise is reworded instead** (Andreas, later on 2026-10-25). Supersedes D5. The widget is hardware-only, so closing in CV1 would have been small work, but the close already comes one page after CV1 ends, in CV2's first lesson (XLab's 2.1.8, the end of the hardware section); a CV1 close would give continuing learners the close twice, with CV2 out of scope here; the 2027 three-course rebuild will redraw the boundaries anyway; and any second copy opens blank, so a CV1 close would work no better than CV2's. The cost: learners who take only CV1 do not see the resolution, but the page now tells them where it is. The promise names only "the start of Compute Verification 2", not where the section ends, which is self-evident (Andreas) | Stage 5 |
 | A36 | **Stage 6 scope** (Andreas, 2026-10-25). (1) Tutor-facing text (tutor summaries, feedback briefs) is out, since what reads well for a person and for an AI are not the same. (2) Flags go on the pages as comments, as in the meeting doc review, with the worklist as their index. (3) XLab text with only minor edits stays XLab's; only prompts and keys rebuilt from XLab widgets, or text with more than minor edits, count as Lens's. (4) The meeting doc style sheet stays as it is, since it is written for meeting docs: lens checks come from the AI guides, and the spoiler test is kept in our own worklist (proposed by Claude after Andreas questioned adding a lens section to the sheet) | Stage 6 |
+| A37 | **A tldr may run to more than one sentence** when the content needs it, since being well written matters more than fitting one sentence; concision still matters (Andreas, 2026-10-25). Departs from [[AI Guide/Writing Lenses]], which asks for one sentence; 38 of CV1's 49 tldrs are longer | Stage 6, step 3 |
 
 ### The larger picture, from Andreas, 2026-10-22
 
@@ -336,8 +337,8 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 | Step | Status |
 |---|---|
 | 1. Mark what is Lens's text and what is XLab's | `drafted` 2026-10-25, method only, for Andreas's review. Each paragraph of learner-facing text in the 49 lenses is compared with every version of XLab's verification source in its public repository, history included, since XLab has rewritten its hardware lessons since the port (its 2.1.1 is now "Break Down the Claim"). A paragraph counts as XLab's if at least 80% of its five-word runs appear in that source, as edited XLab text between 30% and 80%, and as Lens's below 30%. First count, as a rough guide: about 31,100 words XLab's, 14,900 edited, 8,200 Lens's; all 49 tldrs are Lens's. Elias's AI notes are the second source for rebuilt prompts and keys |
-| 2. Spoiler test on every tldr, starting with [[Lenses/XLab Verification - v-actor-edges]] | `todo` |
-| 3. Flag the passages of Lens's text that read most like AI, with the reason for each; Andreas rewrites them (A4). A rewritten prompt has its feedback brief checked against the new wording | `todo` |
+| 2. Spoiler test on every tldr, starting with [[Lenses/XLab Verification - v-actor-edges]] | Pilot `drafted` 2026-10-25 in [[CV1 Plain Language Worklist]]: the tldr of "Who can prove what" fails (it gives the two findings the reveal holds back) |
+| 3. Flag the passages of Lens's text that read most like AI, with the reason for each; Andreas rewrites them (A4). A rewritten prompt has its feedback brief checked against the new wording | Pilot `drafted` 2026-10-25 on "Who can prove what": two flags as comments on the page, the tldr's flags in the worklist (a comment in frontmatter would break it), and one XLab passage for Andreas and Elias. Waiting on Andreas's review before the other pages |
 | 4. List problem XLab passages | `todo`; listing is flagging, so A4 covers it |
 
 ### Stage 7, consistency (E2, E3)
