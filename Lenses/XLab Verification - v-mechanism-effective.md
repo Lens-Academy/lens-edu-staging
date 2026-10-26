@@ -107,7 +107,7 @@ Three quick checks, built from the maps above.
 
 #### Question: Choice
 id:: 94fd9cf9-d6df-4b59-9e1f-7c02ec48aee0
-content:: Optional: On the by-access map, where does Cloud compute accounting sit?
+content:: On the by-access map, where does Cloud compute accounting sit?
 options::
 - National technical means
 - [x] Negotiated access
