@@ -13,7 +13,7 @@ fix: "…"
 draft:
   question: Does `paragraph` sound like an LLM wrote it?
   criteria:
-    "true": "`paragraph` uses words or patterns that are favored by LLMs, eg "
+    "true": "`paragraph` uses words or patterns that are favored by LLMs, including but not limited to \"load bearing\", \"x not y\", "
     "false": "`paragraph` reads like a human wrote it"
   presentation:
     context: document
