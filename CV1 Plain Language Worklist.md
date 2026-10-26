@@ -38,18 +38,18 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 
 | Unit | Page | Words | Lens's | Edited | Status |
 |---|---|---|---|---|---|
-| 1 | Welcome | 657 | 97 | 0 | |
-| 1 | Introduction: Why Should You Care About AI Verification? | 2,475 | 270 | 378 | |
-| 1 | AI Is Grown, Not Built | 531 | 531 | 0 | |
-| 1 | Four Background Claims | 57 | 57 | 0 | |
-| 1 | Why Securitizing AI Is Difficult but Necessary | 776 | 191 | 50 | |
-| 1 | We Need More Theories of Change | 1,738 | 428 | 108 | |
-| 1 | Building Verification Intuitions | 398 | 131 | 79 | |
-| 1 | Read Plan A's Verification Plan | 82 | 82 | 0 | |
-| 1 | Option A: Stress-test Plan A's Verification Regime | 948 | 122 | 88 | |
-| 1 | Option B: Compare Plan A and Plan S | 892 | 142 | 56 | |
-| 1 | Optional: Further Exploration | 1,126 | 387 | 260 | |
-| 1 | Primer Practice: Inspection, Commitment, and Logic | 724 | 0 | 622 | |
+| 1 | Welcome | 657 | 97 | 0 | Left for stage 7 |
+| 1 | Introduction: Why Should You Care About AI Verification? | 2,475 | 270 | 378 | Flagged |
+| 1 | AI Is Grown, Not Built | 531 | 531 | 0 | Flagged |
+| 1 | Four Background Claims | 57 | 57 | 0 | Flagged |
+| 1 | Why Securitizing AI Is Difficult but Necessary | 776 | 191 | 50 | Flagged |
+| 1 | We Need More Theories of Change | 1,738 | 428 | 108 | Flagged |
+| 1 | Building Verification Intuitions | 398 | 131 | 79 | Flagged |
+| 1 | Read Plan A's Verification Plan | 82 | 82 | 0 | Passes |
+| 1 | Option A: Stress-test Plan A's Verification Regime | 948 | 122 | 88 | Flagged |
+| 1 | Option B: Compare Plan A and Plan S | 892 | 142 | 56 | Flagged |
+| 1 | Optional: Further Exploration | 1,126 | 387 | 260 | Flagged |
+| 1 | Primer Practice: Inspection, Commitment, and Logic | 724 | 0 | 622 | Flagged |
 | 2 | History, Precedents, Parallels | 3,493 | 185 | 1,236 | |
 | 2 | Introduction: what kind of policy are we trying to verify? | 1,179 | 79 | 330 | |
 | 2 | Drawing the Line: Compute vs. Capability | 1,314 | 510 | 27 | |
@@ -79,6 +79,105 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 | 5 | Open problems: verifying and securing compute | 110 | 110 | 0 | |
 
 The overview and the five unit welcomes are inline in their modules and are not in this count.
+
+## Unit 1: Why verification
+
+**Course overview, Welcome, Welcome to Unit 1.** Not flagged. Stage 7 will likely fold these three opening pages together, so their text is looked at then rather than twice.
+
+### Introduction: Why Should You Care About AI Verification?
+
+[[Lenses/XLab Verification - v-introduction]]. Almost all XLab's.
+
+- **Lens's text:** the tldr (line 4); the callout titles we added ("Optional: Further Reading", "Misuse vs. misalignment", the four leader titles); the strongest-objection prompt (lines 32 to 34, ours where it asks "what would move you towards the case and what would move you away from it"); the lead-in to the types-of-AI diagram (line 86); the source and chart credit lines (lines 123, 141). All pass apart from the tldr.
+- **Spoiler test: fails.** "Rivals cannot simply trust, punish, or open their books. Verification is the fourth option" gives the result of the verification-problem exercise, where the learner tests trust, punishment and transparency in turn and finds that each one fails and only verification holds.
+- **tldr flags:** the spoiler; a semicolon after "real companies". The opening claim, that models have "broken out of test environments and into real companies", is backed by the page (the agents that escaped an OpenAI test and broke into Hugging Face's systems), though the page has one company, not several.
+
+### AI Is Grown, Not Built (optional, hidden)
+
+[[Lenses/XLab Verification - v-ai-is-grown]]. Not from XLab; the article is Yudkowsky and Soares. Also in the demo and archived courses.
+
+- **Lens's text:** everything around the article: the tldr, the introduction (line 12) and the question (line 20). The chat instructions are tutor-facing and out of scope.
+- **Spoiler test: fails, mildly.** The tldr's first two sentences ("Nobody sat down and programmed ChatGPT… engineers set up a training process and let billions of parameters arrange themselves") answer the page's own question, how ChatGPT was made differently from an ordinary app. The page title already says as much, so this is a judgment call.
+- **tldr flags:** the spoiler; "This article asks what it means to deploy something powerful" is a little off the article's point, which is control, and stopping by treaty.
+- **Flag on the page:** line 12.
+- **Minor, no flag:** line 20, "the difference between how ChatGPT was created versus how…" should be "between … and …".
+
+### Four Background Claims (optional, hidden)
+
+[[Lenses/Four Background Claims]]. Not from XLab; the article is Soares (MIRI). Shared: also in Introduction to Lens Academy, the orientation module and the demo and archived courses, so a rewrite changes those too.
+
+- **Lens's text:** the tldr and the introduction (line 11).
+- **Spoiler test:** passes; no exercise.
+- **tldr flag:** an em dash (Course Authoring).
+- **Flag on the page:** line 11.
+
+### Why Securitizing AI Is Difficult but Necessary
+
+[[Lenses/XLab Verification - v-prevention]].
+
+- **Lens's text:** the tldr; line 14, where we corrected XLab's "experts spent hundreds of hours fixing it" to "governments and companies spent years finding, repairing, and testing affected systems"; the Y2K footnote (line 16); the callout title "The Risks of Securitization". All pass apart from the tldr.
+- **Spoiler test:** passes; the page has no exercise, and its outcome test is separate.
+- **tldr flag:** it opens with a slogan, "Y2K did nothing because thousands of people fixed it first", and "Y2K did nothing" says the opposite of what is meant (Y2K did little harm because it was fixed in advance).
+
+### We Need More Theories of Change
+
+[[Lenses/XLab Verification - v-theories-of-change]].
+
+- **Lens's text:** the tldr; the objective (line 13); the two tables rebuilt from XLab's diagram (lines 44 and 49); the callout titles "Strategy: LLM Clarity Check" and "Strong Theories of Change". All pass apart from the tldr.
+- **Spoiler test:** passes.
+- **tldr flags:** a semicolon; "because nobody could say why it mattered" is stronger than the page's own source, AIP's account of eight factors behind the cancellation (a claim to check); the close, "if you cannot state it, neither can the people deciding…", is an aphorism; "a $11B" should be "an $11B".
+- **Minor, no flag:** line 13, "mislabelled" is British spelling.
+
+### Building Verification Intuitions
+
+[[Lenses/XLab Verification - v-intuitions]].
+
+- **Lens's text:** the tldr; the reading instructions and essay options (lines 22 to 36); the callout title "A writing good practice".
+- **Spoiler test:** passes.
+- **tldr flags:** an extended metaphor ("treat it like an engineer treats a bridge design: find the load-bearing part, the weakest weld…"), the kind of phrase Course Authoring calls mannered; "Then write your verdict" reads as required, but both essays are optional (A16).
+- **Flags on the page:** line 31, Content (the essay options read as if one is required); line 38, the callout title.
+
+### Read Plan A's Verification Plan
+
+[[Lenses/XLab Verification - v-intuitions-plan-a]]. Lens's text: the tldr and lines 13, 16 and 34. Passes; the Option A and B lines assume an essay, which is the Content point flagged on the previous page.
+
+### Option A: Stress-test Plan A's Verification Regime
+
+[[Lenses/XLab Verification - v-intuitions-a1]].
+
+- **Lens's text:** the tldr; lines 14 to 17; "Questions to consider"; line 91; lines 114 and 118. The prompts are XLab's.
+- **Spoiler test:** passes.
+- **Flags on the page:** line 14, Content ("Choose Option A or Option B" no longer fits, A16) and a semicolon on line 15; line 17, "the embedded verification supplement excerpts" are on the previous page.
+
+### Option B: Compare Plan A and Plan S
+
+[[Lenses/XLab Verification - v-intuitions-b1]].
+
+- **Lens's text:** the tldr; lines 16 and 17; line 23 (our framing of the Plan S comparison, which passes); line 119; lines 139 and 143.
+- **Spoiler test:** passes.
+- **Flag on the page:** line 16, as in Option A.
+
+### Optional: Further Exploration
+
+[[Lenses/XLab Verification - v-intuitions-success]].
+
+- **Lens's text:** the tldr; line 50; the chart headings and captions (lines 57 to 109), which pass.
+- **Spoiler test:** passes.
+- **Flag on the page:** line 50.
+
+### Primer Practice: Inspection, Commitment, and Logic
+
+[[Lenses/XLab Verification - v-intuitions-drills-1]]. The questions and explanations are XLab's.
+
+- **Lens's text:** the tldr; the introduction (lines 12 and 13); the callout titles "Why (open after you have answered)", which pass.
+- **Spoiler test:** passes.
+- **Flag on the page:** line 12.
+- **For Andreas and Elias:** line 99 says "Three needles are buried in eleven terms", but the question on line 80 lists nine ("Nine terms, deliberately over-stocked"). XLab's own round had eleven. Candidate: "nine".
+
+### Left for stage 7 (unit 1)
+
+- "Keep your final essay for peer review" in Options A and B (A7).
+- XLab section numbers in the Works cited titles stay, as citations.
 
 ## Unit 3: Who can prove what (pilot)
 
