@@ -344,7 +344,7 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 | Step | Status |
 |---|---|
 | 1. Unit, never week | `todo` |
-| 2. XLab section numbers out of headings and link labels (E5), and whatever XLab framing Q8 settles, from the inventory in section 3 | `todo`, unblocked: the numbers, and the learner-facing framing A7 lists. Rechecked 2026-10-20: the eight hardware headings still carry 2.1 to 2.1.7 |
+| 2. XLab section numbers out of headings and link labels (E5), and whatever XLab framing Q8 settles, from the inventory in section 3 | `todo`, unblocked: the numbers, and the learner-facing framing A7 lists. Rechecked 2026-10-20: the eight hardware headings still carry 2.1 to 2.1.7. Also the claim-ledger widget's tutor summary ("lesson 2.1", "lesson 2.1.8"), which CV2 shares; XLab wording, so it waits for this step (Andreas, 2026-10-25) |
 | 3. Module titles in one style | `todo` |
 | 4. "Compute Verification 1" wherever the course is named, including the meeting doc titles the text review left for this pass | `todo` |
 | 5. One rule for XLab source footers | `done` 2026-10-21: every footer stays (A3), and the theories-of-change image is now a local copy (A11) |
