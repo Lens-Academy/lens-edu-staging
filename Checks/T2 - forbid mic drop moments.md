@@ -16,7 +16,7 @@ draft:
     "true": "`sentence` uses excessive intensity: \"the exact moment\", \"and that was when it happened\", \"and here's where it gets interesting\""
     "false": "`sentence` is reasonably sedate, or fits comfortably in its context without standing out dramatically"
   presentation:
-    context: paragraph
+    context: lens
     question: sentence
     nest:
       - document
