@@ -27,6 +27,8 @@ draft:
       - paragraph
       - sentence
       - line
+view:
+  sample: 2000
 ---
 
 I asked opus5 to generate the example text. the conversation went like:
