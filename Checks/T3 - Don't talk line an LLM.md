@@ -26,6 +26,8 @@ draft:
       - paragraph
       - sentence
       - line
+view:
+  sample: 600
 ---
 
 Why this check exists, and examples of what it should and should not catch.
