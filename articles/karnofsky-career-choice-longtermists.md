@@ -13,15 +13,15 @@ llm-review:
   source:
     fetched: 2026-10-26
     kind: "live"
-description: "This post summarizes the way I currently think about career choice for longtermists. I have put much less time into thinking about this than 80,000 Hours, but I think it"
+description: {--{"author":"James agent karnofsky-reimport's AI","timestamp":1793013231951}@@"This post summarizes the way I currently think about career choice for longtermists. I have put much less time into thinking about this than 80,000 Hours, but I think it"--}{++{"author":"James agent karnofsky-reimport's AI","timestamp":1793013231951}@@"Karnofsky's framework for longtermist career choice, organized around 'aptitudes' rather than causes or paths. Covers organization-building, political/bureaucratic, research, communicator, entrepreneur, community-building, software engineering, information security, and academic aptitudes, plus an aptitude-agnostic vision for contributing to longtermism."++}
 tags:
   - "article-importer"
   - "ea-intro-program"
   - "effective-altruism"
   - "career-choice"
   - "longtermism"
-  - "80000-hours"
-  - "work-in-progress"
+  - "80000-hours"{--{"author":"James agent karnofsky-reimport's AI","timestamp":1793013231951}@@
+  - "work-in-progress"--}
 ---
 
 %%
