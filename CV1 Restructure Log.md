@@ -328,7 +328,7 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 | Step | Status |
 |---|---|
 | 1. Closing lens at the end of unit 5, with the ledger widget and XLab's resolution | `dropped` 2026-10-25 (A35): the promise is reworded instead. Earlier: `todo`, unblocked; it would have landed at the end of unit 5's "Where the trust lives" submodule |
-| 2. Point the promise at it, on unit 5's first page and in its tutor summary | `todo` |
+| 2. Point the promise at it, on unit 5's first page and in its tutor summary | `done` 2026-10-25, pointed at CV2 instead (A35): the page now says "Keep your answers. You will return to them at the start of Compute Verification 2.", and the tutor summary says the learner returns to the record, and the answers are revealed, "at the start of Compute Verification 2". The widget's own tutor summary, shared with CV2, still says the return is "at the end of the section in lesson 2.1.8", which stays true. **Stage 5 is done.** |
 
 ### Stage 6, plain language (E1)
 
@@ -503,6 +503,8 @@ Needs a signed-in tester on staging. Nothing is run yet.
 | 4 | 2026-10-25 | **A31 built:** `force-feedback:: first` added to the three mechanism checks and the two unit 3 choice questions, 37 in all. Sent Andreas the 15 essays and reflections still on "Get feedback" for review | [[Lenses/XLab Verification - v-mechanism-effective]], [[Lenses/XLab Verification - v-scoping-actors]], [[Lenses/XLab Verification - v-actor-edges]] | A31 | Direct. Insertions |
 | 4 | 2026-10-25 | **A32 built:** `force-feedback:: first` added to the 15 essays and reflections. Checked by script: all 52 questions with a brief have it once, and none without a brief | Unit 1, 2 and 4 lenses (see [[CV1 Question Worklist]]) | A32 | Direct. Insertions |
 | 4 | 2026-10-25 | **A33 built:** `force-feedback:: first` removed from parts 1 to 4 of essays A and B. Checked by script: 44 questions have it, each once. Andreas resolved James's #204 note on the authorization page | [[Lenses/XLab Verification - v-intuitions-a1]], [[Lenses/XLab Verification - v-intuitions-b1]] | A33 | Direct. Removals |
+| 4 | 2026-10-25 | **A34 built:** the two final-essay briefs gained "If that gap traces back to one of the four earlier parts, name the part, so the learner can revisit it and ask for feedback there; if the essay is solid overall, do not send them back." | [[Lenses/XLab Verification - v-intuitions-a1]], [[Lenses/XLab Verification - v-intuitions-b1]] | A34 | Direct. New text of ours, inserted |
+| 5 | 2026-10-25 | **Stage 5 as a rewording (A35):** unit 5's first page now says the learner returns to the ledger "at the start of Compute Verification 2", in its text and its tutor summary. Each change went in as a removal, then an insertion. The page is also in the archived single-course "Compute Verification", where the return is in the same course, so the new wording does not fit there; that course is archived | [[Lenses/XLab Verification - v-hw-attestation]] | A35 | Direct |
 
 ---
 
