@@ -152,7 +152,7 @@ content::
 
 #### Question: Open
 id:: fbdb0b00-1038-4943-a043-8c2e8d8242be
-content:: **Stakeholder map** (Map, about 800 words, peer reviewed)
+content:: **Stakeholder map** (Map, about 800 words)
 
 For a hypothetical pause treaty, place every relevant actor on the supply chain, annotate each with its most likely incentive class and the leverage it holds, and mark the two or three actors whose defection would collapse the regime.
 
