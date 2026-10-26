@@ -39,10 +39,25 @@ minutes accurate when content changes. %%
 # Lens: The Handoff
 source:: [[../Lenses/U5 - The Handoff]]
 
+# Lens:
+optional:: true
+hide:: true
+source:: [[../Lenses/greenblatt-how-do-we-more-safely-defer-to-ais]]
+
 # Submodule: The target
 
 # Lens: Suppose We Survive
 source:: [[../Lenses/U5 - Suppose We Survive]]
+
+# Lens:
+optional:: true
+hide:: true
+source:: [[../Lenses/U5 - Optional - Machines of Loving Grace]]
+
+# Lens:
+optional:: true
+hide:: true
+source:: [[../Lenses/U5 - Optional - The Adolescence of Technology]]
 
 # Submodule: The work
 
