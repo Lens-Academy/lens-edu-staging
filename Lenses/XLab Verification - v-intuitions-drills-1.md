@@ -66,6 +66,7 @@ options::
 - Forms of treaty punishment
 - Domestic ratification constraints
 shuffle:: true
+force-feedback:: first
 feedback-instructions:: Explain: the tightest true label wins. "Game-theoretic concepts" is true but hopelessly broad. Fearon (1997): burn resources up front (sunk cost), make backing down costly later (tied hands), or remove the choice entirely (mechanical enforcement). Two or three sentences.
 
 #### Text
