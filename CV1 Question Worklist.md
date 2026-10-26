@@ -11,11 +11,11 @@ Stage 4 of [[CV1 Restructure Log]], step 1: every question in a CV1 lens, with t
 
 **How to read it.** "Now" is the question as it stands. "Call" applies the rules already agreed: A1, ungrade where the key is on the page and keep the key as a self-check; A2, keep the grade on longer questions with no key in units 3 to 5, which have no outcomes; single-answer choice questions keep their grade. Rows marked "(accepted)" are the case-by-case calls for units 1 and 2 (A10), first marked "(proposed)"; Andreas was comfortable with all of them on 2026-10-25. He reviewed units 3 to 5 the same day: unit 5 stands as it is, and seven optional questions in units 3 and 4 become required (A29), marked "make required" below. "Brief" is what happens to the feedback brief. "Optional" says whether a learner can tell the question is optional. Comment on any row to change its call.
 
-**What it changes, if every call stands.** Graded questions go from 44 to 21. The 21 shared "XLab writing or reflection" briefs are replaced with briefs written for their questions (A6). First-answer feedback goes from 0 questions to the 52 that have a brief (A13). Four optional questions that say so nowhere get "Optional:" at the start of their prompt. Seven optional questions become required (A29): the four on "Reading a draft agreement" and the three choice checks on "What makes a mechanism effective?".
+**What it changes, if every call stands.** Graded questions go from 44 to 23 (21 until A30 kept two choice questions graded). The 21 shared "XLab writing or reflection" briefs are replaced with briefs written for their questions (A6). First-answer feedback goes from 0 questions to the 32 with a right answer (A30); A13 had it on all 52 that have a brief, and the other 20 wait for Andreas's review. Four optional questions that say so nowhere get "Optional:" at the start of their prompt. Seven optional questions become required (A29): the four on "Reading a draft agreement" and the three choice checks on "What makes a mechanism effective?".
 
 **Applies to every row.**
 
-- Every question with a brief gets `force-feedback:: first`. The four without one (the welcome note, the two essays' pick-a-recommendation questions, and "Explore AI 2027") need no feedback and stay as they are.
+- The 32 questions with a right answer get `force-feedback:: first` (A30): the graded open questions, the ungraded ones whose key is on the page, and the six primer drills, which show no score. The other 20 with a brief (15 essays and reflections, five graded choice checks) keep feedback on request until Andreas reviews them; A13 had it on all 52. The four without a brief (the welcome note, the two essays' pick-a-recommendation questions, and "Explore AI 2027") need no feedback and stay as they are.
 - An ungraded question's rubric folds into its brief, since the tutor of an ungraded question sees only the brief: its elements stay as what to look for, its point weights and caps go, and its model answer stays as reference. Only graded questions mention a score.
 - A reworded prompt takes its brief with it in the same edit.
 - Edits go around notes from Elias's AI, never through them. The Notes column marks the lenses that have them.
@@ -23,8 +23,8 @@ Stage 4 of [[CV1 Restructure Log]], step 1: every question in a CV1 lens, with t
 
 | Call | Questions |
 |---|---|
-| Ungrade | 10 |
-| Keep graded | 20 |
+| Ungrade | 8 |
+| Keep graded | 22 |
 | Ungrade (accepted) | 13 |
 | Keep graded (accepted) | 1 |
 | Stays ungraded | 12 |
