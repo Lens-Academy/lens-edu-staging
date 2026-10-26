@@ -11,7 +11,7 @@ criteria:
   "false": "`paragraph` …"
 fix: "…"
 draft:
-  question: Does `sentence` contain a mic drop moment, ie, a dramatic phrase that feels like a punchline to a buildup?
+  question: "Does `sentence` contain a mic drop moment, ie, a dramatic phrase that feels like a punchline to a buildup?"
   criteria:
     "true": "`sentence` uses excessive intensity: \"the exact moment\", \"and that was when it happened\", \"and here's where it gets interesting\""
     "false": "`sentence` is reasonably sedate, or fits comfortably in its context without standing out dramatically"
