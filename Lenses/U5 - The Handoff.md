@@ -25,7 +25,7 @@ as the central move, not the footnote. He describes it as a race between two fee
 loops. The excerpt gives you the loops and his case for urgency. His contrasts with
 other views, and his own list of objections, stay collapsed below for you to open. For
 the practical detail of how to hand work over, see Ryan Greenblatt's
-{--{"author":"Lens EA's AI","timestamp":1792928847846}@@[[../articles/greenblatt-how-do-we-more-safely-defer-to-ais|How--}{++{"author":"Lens EA's AI","timestamp":1792928847846}@@"How++} do we (more) safely defer to {--{"author":"Lens EA's AI","timestamp":1792928847846}@@AIs?]].--}{++{"author":"Lens EA's AI","timestamp":1792928847846}@@AIs?".++}
+"How do we (more) safely defer to AIs?".
 
 One more thing. Whether a handoff like this is safe is not a side question. It is the
 question that the alignment field exists to answer. Unit 1 pointed at it, and this
