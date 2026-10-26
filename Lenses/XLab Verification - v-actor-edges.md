@@ -46,7 +46,7 @@ Baker et al. decompose it this way, and the key tags every edge with the part it
 #### Text
 content::
 :::callout {title="The 17 actors (open any time)" tone="neutral" collapse="closed"}
-{>>{"author":"Andreas's AI","timestamp":1792994813629}@@Stage 6 flag, Lens text: this paragraph opens with a fragment ("Reference for the workshop below:") and runs three colon clauses in two sentences, and "the cast" is a label the page does not define. See the CV1 plain language worklist.<<}Reference for the exercises below: the actors from 1.2, the ring each one sits on in the key placement, what it does on the chain, and the functional roles and postures 1.2 tagged it with. The rings run outward from the compute use the agreement forbids, starting with who has to declare it, who holds evidence about the declaration, who checks it, and extending to what no declaration covers. At the centre is the paper’s own scope: “it seeks to verify compliance on the basis that all large-scale AI compute use is accounted for in compliant activities” (Baker et al., §3.1, AI compute accounting).
+{--{"author":"Andreas's AI","timestamp":1792997991808}@@{>>{"author":"Andreas's AI","timestamp":1792994813629}@@Stage 6 flag, Lens text: this paragraph opens with a fragment ("Reference for the workshop below:") and runs three colon clauses in two sentences, and "the cast" is a label the page does not define. See the CV1 plain language worklist.<<}Reference--}{++{"author":"Andreas's AI","timestamp":1792997991808}@@Reference++} for the exercises below: the actors from 1.2, the ring each one sits on in the key placement, what it does on the chain, and the functional roles and postures 1.2 tagged it with. The rings run outward from the compute use the agreement forbids, starting with who has to declare it, who holds evidence about the declaration, who checks it, and extending to what no declaration covers. At the centre is the paper’s own scope: “it seeks to verify compliance on the basis that all large-scale AI compute use is accounted for in compliant activities” (Baker et al., §3.1, AI compute accounting).
 
 **Declares.** You own or use large-scale compute, or you signed the agreement and answer for what happens inside your territory. Either way the regime wants a declaration from you: you are the Prover.
 
@@ -77,7 +77,7 @@ content::
 - **Proxies** (front companies, resellers, straw buyers). Distribution, across every stage. They exist to break the link between a name and an activity. *Roles: evasion pathway. Postures: defect.*
 - **Deployers** (product builders and deployers). Deployment, most downstream. A diffuse downstream signal of what models can do. *Roles: victim or beneficiary. Postures: free-ride.*
 
-{>>{"author":"Andreas's AI","timestamp":1792994818952}@@Stage 6 flag, Lens text: in the parenthetical, "role chips" is a widget label the learner has not seen yet, and "light the actors" stands for "highlight them". See the CV1 plain language worklist.<<}**The six functional roles**
+{--{"author":"Andreas's AI","timestamp":1792997994755}@@{>>{"author":"Andreas's AI","timestamp":1792994818952}@@Stage 6 flag, Lens text: in the parenthetical, "role chips" is a widget label the learner has not seen yet, and "light the actors" stands for "highlight them". See the CV1 plain language worklist.<<}**The--}{++{"author":"Andreas's AI","timestamp":1792997994755}@@**The++} six functional roles**
 
 - **Capability holder:** who can actually build the dangerous thing.
 - **Chokepoint controller:** who can physically stop or slow the flow.
