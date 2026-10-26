@@ -33,6 +33,7 @@ content:: Reputation, reciprocity, and retaliation can sustain compliance withou
 options::
 - True
 - False
+force-feedback:: first
 feedback-instructions:: Explain: true. Each enforcement channel that works without a world government begins with noticing the violation. No detection, no deterrence; verification is upstream of every enforcement story. Two or three sentences.
 
 #### Text
@@ -47,6 +48,7 @@ content:: In Putnam's two-level game, a leader who signs in good faith and then 
 options::
 - True
 - False
+force-feedback:: first
 feedback-instructions:: Explain: true. Two-level games distinguish voluntary defection (chose to cheat) from involuntary (couldn't deliver the home front). A verification regime must survive both; the second kind is why ratification constraints belong in feasibility analysis, not just bad faith. Two or three sentences.
 
 #### Text
