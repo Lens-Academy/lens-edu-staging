@@ -13,7 +13,7 @@ add_to_ai_context:
 ---
 #### Text
 content::
-**Choose Option A or Option B.** If you choose this option, complete all five parts below.
+{>>{"author":"Andreas's AI","timestamp":1792998945079}@@Stage 6 flag, Content and Lens text: both essays are optional now (A16), so "Choose Option A or Option B" no longer fits; the log has this line waiting for stage 6 or 7. The next line has a semicolon (Course Authoring). See the CV1 plain language worklist.<<}**Choose Option A or Option B.** If you choose this option, complete all five parts below.
 The first four responses develop the arguments for your final essay; keep them in view as you write.
 
 #### Text
