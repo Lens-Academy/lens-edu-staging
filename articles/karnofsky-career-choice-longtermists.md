@@ -13,14 +13,15 @@ tags:
   - longtermism
   - 80000-hours
   - work-in-progress
----
+{++{"author":"James agent karnofsky-reimport's AI","timestamp":1793011518508}@@  - article-stub
+++}---
 
 %%
 Add discussion note here:
 
 ...
 
-%%
+%%{--{"author":"James agent karnofsky-reimport's AI","timestamp":1793011518508}@@
 
 This post summarizes the way I currently think about career choice for longtermists. I have put much less time into thinking about this than [80,000 Hours](http://www.80000hours.org), but I think it's valuable for there to be multiple perspectives on this topic out there.
 
@@ -145,4 +146,4 @@ I'm generally nervous about giving career advice to anyone, even people I know w
 
 So I want to close this piece by generally discouraging people from "taking advice," in the sense of making a radically different decision than they would otherwise because of their interpretation of what some particular person would think they should do. Hopefully this piece is useful for inspiration, for prompting discussion, and by raising points that one can consider on the merits and apply their own personal judgment to.
 
-*This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
+*This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*--}
