@@ -27,7 +27,7 @@ draft:
       - sentence
       - line
 view:
-  sample: 100
+  sample: 1400
 ---
 
 Why this check exists, and examples of what it should and should not catch.
