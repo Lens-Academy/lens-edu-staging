@@ -15,6 +15,17 @@ draft:
   criteria:
     "true": "`paragraph` uses words or patterns that are favored by LLMs"
     "false": "`paragraph` reads like a human wrote it"
+  presentation:
+    context: document
+    question: paragraph
+    nest:
+      - document
+      - submodule
+      - lens
+      - section
+      - paragraph
+      - sentence
+      - line
 ---
 
 Why this check exists, and examples of what it should and should not catch.
