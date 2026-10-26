@@ -78,6 +78,7 @@ content:: Now that you’ve gone through the exercise, look back at what you jot
 - Politically feasible? → How difficult would it be to get the U.S. to agree? China? What must remain confidential, no matter what?
 - Effective? → What’s the minimum threshold of confidence or level of evidence a nation-state should have to ensure that a rival is compliant? What must a verifier be able to learn?
 - Durable? → What develops faster, hardware or software?
+feedback-instructions:: The learner has just rated twelve mechanisms in the sort and is looking back at the heuristics they used for the four metrics: technical feasibility, political feasibility, verification effectiveness and durability. This is a reflection with no key; respond to the heuristics, not to the ratings. For each metric they covered, say whether their heuristic is one they could apply again to a new mechanism (a precedent or technical analog, which side would refuse and what must stay confidential, the evidence a verifier must be able to obtain, whether hardware or software moves faster) or only a verdict on one card. Name the metric where their heuristic is thinnest and ask one question that would sharpen it. Do not reveal the reference ratings or say how a mechanism should have been rated; that comparison belongs to the separate capstone. If the learner says they do not understand, give one foothold, such as one card they rated and the reason they gave it, rather than repeating the question. 60 to 120 words, short paragraphs, no praise.
 
 #### Text
 content::
