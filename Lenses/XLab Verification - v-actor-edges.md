@@ -77,11 +77,7 @@ content::
 - **Proxies** (front companies, resellers, straw buyers). Distribution, across every stage. They exist to break the link between a name and an activity. *Roles: evasion pathway. Postures: defect.*
 - **Deployers** (product builders and deployers). Deployment, most downstream. A diffuse downstream signal of what models can do. *Roles: victim or beneficiary. Postures: free-ride.*
 
-{>>{"author":"Andreas's AI","timestamp":1792994818952}@@Stage 6 flag, Lens text: in the parenthetical, "role chips" is a widget label the learner has not seen yet, and "light the actors" stands for "highlight them". See the CV1 plain language worklist.<<}**The six functional roles** (the role chips in the workshop, which appear once you commit, light the actors that hold one): capability holder, who can actually build the dangerous thing; chokepoint controller, who can physically stop or slow the flow; information holder, who already knows what verifiers need to learn; enforcement authority, who can impose a real cost for violating; evasion pathway, through whom a cheater would route; victim, free-rider or beneficiary, who bears the risk or enjoys the stability without a seat at the table.
-
-**The five postures:** comply, follow the agreement as written; defect, covertly violate for advantage; hide, obscure assets or activities from view, whether or not a rule is being broken; exaggerate, overstate compliance, safety, or capability; free-ride, enjoy the stability produced by others’ restraint without bearing its costs.
-
-**The six functional roles**
+{>>{"author":"Andreas's AI","timestamp":1792994818952}@@Stage 6 flag, Lens text: in the parenthetical, "role chips" is a widget label the learner has not seen yet, and "light the actors" stands for "highlight them". See the CV1 plain language worklist.<<}**The six functional roles**
 
 - **Capability holder:** who can actually build the dangerous thing.
 - **Chokepoint controller:** who can physically stop or slow the flow.
