@@ -90,6 +90,7 @@ options::
 - Schelling focal point
 multi:: true
 shuffle:: true
+force-feedback:: first
 feedback-instructions:: Four families were mixed into the list: inspection games (randomized inspection: predictable inspectors are avoidable inspectors; Dresher game: the founding formalization of inspector vs. potential violator; equilibrium violation rate: the rate is nonzero at optimum), repeated cooperation (tit-for-tat, grim trigger), commitment credibility (audience costs, cheap talk), and coordination (Schelling focal point, ratification constraint belongs to two-level games). Name the family of each term the learner got wrong. Distractor density is part of the drill.
 
 #### Text
@@ -116,6 +117,7 @@ options::
 - Some treaty provisions are not tamper-resistant
 - Some tamper-resistant mechanisms are treaty provisions
 - All treaty provisions are self-reporting mechanisms
+force-feedback:: first
 feedback-instructions:: Explain by chaining the circles: the log-based circle sits wholly inside self-reporting (premise 2), and self-reporting is disjoint from tamper-resistant (premise 1); the treaty-provisions circle overlaps log-based (premise 3), so that overlap is forced outside tamper-resistant, an existential conclusion and nothing more. The rest of the provisions circle is unconstrained, which kills the "no" and "all" options; the third option is not derivable at all. Drawing the arrangement where the answer holds and the others fail is the justification.
 
 #### Text
