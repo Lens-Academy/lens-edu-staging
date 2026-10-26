@@ -24,7 +24,7 @@ It is also the last assigned reading of the course. After this page, the reading
 
 So read it like a menu, not a textbook. The Summary section is the menu itself: eight projects in eight bold lines. Detailed sections follow for most of them. Skipping the ones that do not interest you is the intended way to read this piece, not a shortcut.
 
-One thing this reading is not: careers advice. It says what needs doing. It does not say what you in particular should do next, and this course will not pretend those are the same question. If you want the second question, the usual recommendation is Holden Karnofsky's piece on career choice: {--{"author":"Lens EA's AI","timestamp":1792805565395}@@[[../articles/karnofsky-career-choice-longtermists]].--}{++{"author":"Lens EA's AI","timestamp":1792805565395}@@"My current impressions on career choice for longtermists".++}
+One thing this reading is not: careers advice. It says what needs doing. It does not say what you in particular should do next, and this course will not pretend those are the same question. If you want the second question, the usual recommendation is Holden Karnofsky's piece on career choice: "My current impressions on career choice for longtermists".
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 %%
@@ -35,7 +35,7 @@ It is also the last assigned reading of the course. After this page there are no
 
 So read it like a menu, not a textbook. The Summary section is the menu itself: eight projects, one bold line each. Detailed sections follow for most of them. Skipping the ones that do not interest you is the intended way to read this piece, not a shortcut.
 
-This reading is not careers advice. It says what needs doing. It does not say what you in particular should do next, and this course will not pretend those are the same question. For that second question, the usual recommendation is Holden Karnofsky's piece {++{"author":"Lens EA's AI","timestamp":1792632770466}@@"My current impressions ++}on career {--{"author":"Lens EA's AI","timestamp":1792632770466}@@choice: [[../articles/karnofsky-career-choice-longtermists]].--}{++{"author":"Lens EA's AI","timestamp":1792632770466}@@choice for longtermists".++}
+This reading is not careers advice. It says what needs doing. It does not say what you in particular should do next, and this course will not pretend those are the same question. For that second question, the usual recommendation is Holden Karnofsky's piece "My current impressions on career choice for longtermists".
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 

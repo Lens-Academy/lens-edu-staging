@@ -28,7 +28,7 @@ The last lens ended with a handoff: every serious plan finishes with AIs doing m
 
 William MacAskill opens Forethought's Better Futures series with the clearest version of this claim: preventing catastrophe and achieving a good future are different jobs. Almost everyone works on the first. You do not have to accept his numbers. The tool to take away is the split itself.
 
-Keep one thing in mind while you read. Frontier-lab leadership has published its own positive visions. Dario Amodei's Machines of Loving Grace {--{"author":"Lens EA's AI","timestamp":1792675768512}@@([[../articles/Amodei-machines-of-loving-grace]]) --}and The Adolescence of Technology{--{"author":"Lens EA's AI","timestamp":1792675768512}@@ ([[../articles/darioamodei-dario-amodei-the-adolescence-of-technology]])--} describe futures worth wanting, written from inside a company that builds the systems. MacAskill, by contrast, writes from a research nonprofit about what anyone, anywhere, should aim at. Who ends up deciding what the good future contains is itself an open question. The question below asks who you think decides it now.
+Keep one thing in mind while you read. Frontier-lab leadership has published its own positive visions. Dario Amodei's Machines of Loving Grace and The Adolescence of Technology describe futures worth wanting, written from inside a company that builds the systems. MacAskill, by contrast, writes from a research nonprofit about what anyone, anywhere, should aim at. Who ends up deciding what the good future contains is itself an open question. The question below asks who you think decides it now.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
