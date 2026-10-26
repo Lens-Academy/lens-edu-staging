@@ -127,6 +127,7 @@ options::
 - ASML.
 - TSMC.
 - The Bureau of Industry and Security.
+force-feedback:: first
 feedback-instructions:: Give the source lesson's reasoning for the option chosen, from the "Why" callout below, then the lesson. Cloud providers: "The run happens on their machines. Access can be suspended this afternoon, and they are the other actor the regime asks for a declaration, because the cluster it happens on is theirs." ASML: "The most consequential removal on this board and the slowest. ASML is 100% of EUV lithography, so taking it away eventually takes leading-edge fabrication with it, but no training run stops this week, because the chips already exist." TSMC: "Same shape as ASML, one step nearer: ~90% of sub-7nm logic. It stops the next generation of chips, not the run already loaded." BIS: "It writes and enforces export controls and trains nothing. Remove it and the rules stop being enforced, which loosens the regime rather than stopping the activity." Lesson: "That gap is the thing a ring map is drawn to show. The removal that bites soonest and the removal that matters most are different actors, on different rings, and a regime that reaches only for the second one buys nothing this year. Ask both questions of any chokepoint you are offered." No praise.
 
 #### Text
