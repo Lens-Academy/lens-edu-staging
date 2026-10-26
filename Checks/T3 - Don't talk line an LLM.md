@@ -14,7 +14,7 @@ draft:
   question: Does `paragraph` sound like an LLM wrote it?
   criteria:
     "true": "`paragraph` uses words or patterns that are favored by LLMs, including but not limited to \"load bearing\", \"x not y\", strong superlatives, "
-    "false": "`paragraph` reads like a human wrote it: uses "
+    "false": "`paragraph` reads like a human wrote it: uses organically unusual sentence constructions, has an author"
   presentation:
     context: document
     question: paragraph
