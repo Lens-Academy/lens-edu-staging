@@ -11,13 +11,13 @@ criteria:
   "false": "`paragraph` …"
 fix: "…"
 draft:
-  question: Does `paragraph` sound like an LLM wrote it?
+  question: Does `sentence` sound like an LLM wrote it?
   criteria:
-    "true": "`paragraph` uses words or patterns that are favored by LLMs, including but not limited to \"load bearing\", \"x not y\", strong superlatives, \"keys\", the word \"build\" applied to sentences, excessive references to what to \"say\" or \"name\", generic \"what do you think\", and so on."
-    "false": "`paragraph` reads like a human wrote it: uses organically unusual sentence constructions, has an author's distinctive stylistic tics, fits well into the surrounding phrasing."
+    "true": "`sentence` uses words or patterns that are favored by LLMs, including but not limited to \"load bearing\", \"x not y\", strong superlatives, \"keys\", the word \"build\" applied to sentences, excessive references to what to \"say\" or \"name\", generic \"what do you think\", and so on."
+    "false": "`sentence` reads like a human wrote it: uses organically unusual sentence constructions, has an author's distinctive stylistic tics, fits well into the surrounding phrasing."
   presentation:
     context: document
-    question: paragraph
+    question: sentence
     nest:
       - document
       - submodule
