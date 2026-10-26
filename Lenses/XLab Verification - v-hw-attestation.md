@@ -25,7 +25,7 @@ source:: [[../widgets/claim-ledger]]
 
 #### Text
 content::
-Keep your answers. You will return to them at.
+Keep your answers. You will return to them at the start of Compute Verification 2.
 
 \#### The central question
 
