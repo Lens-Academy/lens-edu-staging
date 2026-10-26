@@ -25,7 +25,7 @@ source:: [[../widgets/claim-ledger]]
 
 #### Text
 content::
-Keep your answers. You will return to them at the end of the section.
+Keep your answers. You will return to them at.
 
 \#### The central question
 
