@@ -11,7 +11,8 @@ criteria:
   "false": "`paragraph` …"
 fix: "…"
 draft:
-  question: Does `paragraph` contain a mic drop moment, ie, a dramatic phrase that feels like a punchline to a buildup or a ?
+  criteria:
+    "true": "`paragraph"
 ---
 
 Why this check exists, and examples of what it should and should not catch.
