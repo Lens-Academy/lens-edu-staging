@@ -15,17 +15,7 @@ draft:
   criteria:
     "true": "`paragraph` uses words or patterns that are favored by LLMs, including but not limited to \"load bearing\", \"x not y\", strong superlatives, \"keys\", the word \"build\" applied to ideas, references to what to \"say\" or \"name\" or \"acknowledge\" or \"ask\" or other such phrase-level focus, generic \"what do you think\", or other such tics. List is non-exhaustive."
     "false": "`paragraph` reads like a human wrote it: uses organically unusual sentence constructions, has human stylographic structure, fits into the surrounding phrasing"
-  presentation:
-    context: document
-    question: paragraph
-    nest:
-      - document
-      - submodule
-      - lens
-      - section
-      - paragraph
-      - sentence
-      - line
+
 view:
   sample: 600
 ---
