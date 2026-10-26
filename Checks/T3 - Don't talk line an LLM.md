@@ -13,7 +13,7 @@ fix: "…"
 draft:
   question: Does `sentence` sound like an LLM wrote it?
   criteria:
-    "true": "`sentence` uses words or patterns that are favored by LLMs, including but not limited to \"load bearing\", \"x not y\", strong superlatives, \"keys\", the word \"build\" applied to ideas, references to what to \"say\" or \"name\" or \"acknowledge\" or \"ask\" or other such phrase-level focus, generic \"what do you think\""
+    "true": "`sentence` uses words or patterns that are favored by LLMs, including but not limited to \"load bearing\", \"x not y\", strong superlatives, \"keys\", the word \"build\" applied to ideas, references to what to \"say\" or \"name\" or \"acknowledge\" or \"ask\" or other such phrase-level focus, generic \"what do you think\", or other such tics. "
     "false": "`sentence` reads like a human wrote it: uses organically unusual sentence constructions, has human stylographic structure, fits into the surrounding phrasing"
   presentation:
     context: document
