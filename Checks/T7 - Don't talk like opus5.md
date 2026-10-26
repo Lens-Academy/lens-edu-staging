@@ -28,7 +28,7 @@ draft:
       - sentence
       - line
 view:
-  sample: 2000
+  sample: 300
   percentiles: "[0, 0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 0.5]"
 ---
 
