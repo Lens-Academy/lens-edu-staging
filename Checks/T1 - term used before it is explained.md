@@ -15,10 +15,6 @@ criteria:
     Every specialist term and acronym in `paragraph` is explained in the sentence where it first appears, or `paragraph` uses only everyday words and names, such as AI, ChatGPT, OpenAI or computer.
 fix: Say what the term means, in plain words, in the sentence where it first appears.
 draft:
-  question: Does `sentence` use a technical term or acronym without explaining what it means?
-  criteria:
-    "true": "`sentence` uses a specialist term or an acronym, for example METR, OOMs, RLHF or gradient descent, and the sentence where it first appears does not say what it means."
-    "false": Every specialist term and acronym in `sentence` is explained in the sentence where it first appears, or `sentence` uses only everyday words and names, such as AI, ChatGPT, OpenAI or computer.
   presentation:
     context: document
     question: paragraph
