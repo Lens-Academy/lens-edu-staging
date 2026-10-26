@@ -9,7 +9,7 @@ authors:
 
 Stage 6 of [[CV1 Restructure Log]]. Claude marks what is Lens's text, tests every tldr for spoilers, and flags the Lens text that most needs rewriting; Andreas rewrites (A4); Claude then reviews the rewrite and checks any feedback brief or quoted claim it touches. Scope (A36): learner-facing text in CV1's 49 lenses, the overview and the five unit welcomes. Tutor summaries and feedback briefs are out, and so are articles and widgets.
 
-**Status, 2026-10-25.** Pilot on "Who can prove what", for Andreas's review before the other pages.
+**Status, 2026-10-26.** The pilot, "Who can prove what", is rewritten and reviewed; its two flags come off once Andreas accepts their removal. The other pages are next.
 
 ## How to read an entry
 
@@ -61,7 +61,7 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 | 3 | MIRI's draft agreement (paper page) | 161 | 123 | 38 | |
 | 3 | Actors: who does the treaty rely upon, apply to, and constrain? | 5,727 | 509 | 1,240 | |
 | 3 | Geographic supply-chain map | 916 | 380 | 76 | |
-| 3 | Who can prove what | 2,699 | 166 | 1,130 | Pilot, flagged |
+| 3 | Who can prove what | 2,699 | 166 | 1,130 | Done (pilot) |
 | 4 | Upstream and downstream | 1,436 | 182 | 0 | |
 | 4 | Context distiller | 790 | 98 | 268 | |
 | 4 | The four report pages | 2,089 | 255 | 432 | |
