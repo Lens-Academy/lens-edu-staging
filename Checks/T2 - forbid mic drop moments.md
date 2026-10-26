@@ -15,6 +15,8 @@ draft:
   criteria:
     "true": "`paragraph` uses excessive intensity: \"the exact moment\", \"and that was when it happened\", \"and here's where it gets interesting\""
     "false": "`paragraph` is reasonably sedate, or fits comfortably in its context without standing out dramatically"
+view:
+  sample: 10
 ---
 
 Why this check exists, and examples of what it should and should not catch.
