@@ -327,7 +327,7 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 
 | Step | Status |
 |---|---|
-| 1. Closing lens at the end of unit 5, with the ledger widget and XLab's resolution | `todo`, unblocked. Lands at the end of unit 5's "Where the trust lives" submodule |
+| 1. Closing lens at the end of unit 5, with the ledger widget and XLab's resolution | `dropped` 2026-10-25 (A35): the promise is reworded instead. Earlier: `todo`, unblocked; it would have landed at the end of unit 5's "Where the trust lives" submodule |
 | 2. Point the promise at it, on unit 5's first page and in its tutor summary | `todo` |
 
 ### Stage 6, plain language (E1)
