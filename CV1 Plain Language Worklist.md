@@ -109,8 +109,8 @@ The overview and the five unit welcomes are inline in their modules and are not 
 
 **For Andreas and Elias**
 
-- Lines 181 to 182, in "Notes and sources": "Quotations are matched against the committed copy of the paper at test time, so a quote that drifts fails the build rather than sitting on the page." This describes XLab's build, which Lens does not have, so on our page it is not true. Candidate: cut the sentence.
+- Lines 194 to 195 (181 to 182 before the bullets went in), in "Notes and sources": "Quotations are matched against the committed copy of the paper at test time, so a quote that drifts fails the build rather than sitting on the page." This describes XLab's build, which Lens does not have, so on our page it is not true. Candidate: cut the sentence.
 
 **Left for stage 7**
 
-- "1.2" throughout (section numbers), "Week 5" on lines 20 and 183, and "1.2.2" in the Works cited title, which is a citation and stays.
+- "1.2" throughout (section numbers), "Week 5" on lines 20 and 196, and "1.2.2" in the Works cited title, which is a citation and stays.
