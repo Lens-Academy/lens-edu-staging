@@ -19,6 +19,7 @@ optional:: true--}
 {--{"author":"James's AI","timestamp":1793135646226}@@#--}{++{"author":"James's AI","timestamp":1793135646226}@@###++} Lens: SGTM
 source:: [[../../Lenses/anthropic-beyond-data-filtering-knowledge-localization-for-capability-removal-in-llms]]{--{"author":"James's AI","timestamp":1793135646226}@@
 optional:: true--}
+
 {--{"author":"James's AI","timestamp":1793135646226}@@#--}{++{"author":"James's AI","timestamp":1793135646226}@@###++} Lens: Persona selection model
 source:: [[../../Lenses/marks-the-persona-selection-model-why-ai-assistants-might-behave-like-humans]]
 optional:: true
