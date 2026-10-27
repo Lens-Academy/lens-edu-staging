@@ -11,7 +11,7 @@ Stage 6 of [[CV1 Restructure Log]]. Claude marks what is Lens's text, tests ever
 
 **Status, 2026-10-26.** The pilot, "Who can prove what", is rewritten and reviewed; its two flags come off once Andreas accepts their removal. The other pages are next.
 
-**Status, later on 2026-10-26.** The pilot is done. Unit 1 is flagged, and Andreas has rewritten the tldrs of six of its pages and the text on three; each review is under its page below, with five short notes still open. Building Verification Intuitions is done. Further Exploration's AI 2027 and its three embedded readings are on pages of their own (A41). Unit 1's follow-ups, then units 2 to 5, are next.
+**Status, later on 2026-10-26.** The pilot is done. Unit 1 is flagged, and Andreas has rewritten the tldrs of five of its pages and the text on three; each review is under its page below, with seven short notes still open. Building Verification Intuitions is done. Further Exploration's AI 2027 and its three embedded readings are on pages of their own (A41). Unit 1's follow-ups, then units 2 to 5, are next.
 
 ## How to read an entry
 
@@ -41,11 +41,11 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 | Unit | Page | Words | Lens's | Edited | Status |
 |---|---|---|---|---|---|
 | 1 | Welcome | 657 | 97 | 0 | Left for stage 7 |
-| 1 | Introduction: Why Should You Care About AI Verification? | 2,475 | 270 | 378 | Flagged |
+| 1 | Introduction: Why Should You Care About AI Verification? | 2,475 | 270 | 378 | tldr rewritten, reviewed; one note |
 | 1 | AI Is Grown, Not Built | 531 | 531 | 0 | Rewritten, reviewed |
-| 1 | Four Background Claims | 57 | 57 | 0 | tldr rewritten; introduction open |
-| 1 | Why Securitizing AI Is Difficult but Necessary | 776 | 191 | 50 | Flagged |
-| 1 | We Need More Theories of Change | 1,738 | 428 | 108 | Flagged |
+| 1 | Four Background Claims | 57 | 57 | 0 | Rewritten, reviewed; two notes |
+| 1 | Why Securitizing AI Is Difficult but Necessary | 776 | 191 | 50 | tldr rewritten, reviewed; one note |
+| 1 | We Need More Theories of Change | 1,738 | 428 | 108 | tldr rewritten, reviewed; two notes |
 | 1 | Building Verification Intuitions | 398 | 131 | 79 | Flagged |
 | 1 | Read Plan A's Verification Plan | 82 | 82 | 0 | Passes |
 | 1 | Option A: Stress-test Plan A's Verification Regime | 948 | 122 | 88 | Flagged |
