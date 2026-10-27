@@ -28,7 +28,7 @@ For its dates, percentages, and recommendations, ask:
 - What remains uncertain?
 
 Use logic and evidence to support your judgment.
-{>>{"author":"Andreas's AI","timestamp":1792998892842}@@Stage 6 flag, Content: both essays are optional now (A16), but "Then choose an essay option" and, below, "In either option, four short responses help you develop your argument for the final essay" read as if one is required. The log has this line waiting for stage 6 or 7. See the CV1 plain language worklist.<<}Then choose an essay option:
+{>>{"author":"Andreas's AI","timestamp":1792998892842}@@Stage 6 flag, Content: both essays are optional now (A16), but "Then choose an essay option" and, below, "In either option, four short responses help you develop your argument for the final essay" read as if one is required. The log has this line waiting for stage 6 or 7. See the CV1 plain language worklist.<<}Then choose an essay option (optional):
 
 - **Option A:** [[../Lenses/XLab Verification - v-intuitions-a1|Stress-test Plan A]]. Assess whether its verification regime would work and where it could fail.
 - **Option B:** [[../Lenses/XLab Verification - v-intuitions-b1|Compare Plan A and Plan S]]. Read about Plan S, then weigh a verified slowdown against a complete shutdown.
