@@ -100,7 +100,7 @@ Week 3 goals: How to contribute (current needs of the field)
 	- Time horisonts and planning
 	- Counterfactual impact
 - Overview of requirements of main orgs/programs/jobs in the field
-- Exercise Trace a contribution from a concrete role or project to a broader ToC.
+- Exercise: trace a contribution from a concrete role or project to a broader ToC.
 - "evaluate an agenda" something like
 	- Is this agenda promising?
 	- Is this agenda neglected?
