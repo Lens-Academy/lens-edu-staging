@@ -113,7 +113,8 @@ Optional activities
 	- Show some ideas
 		- Mastermind for preparing for MATS application
 		- Researche project together
-		- Accountability gro
+		- Accountability group
+		- ...
 %%
 # Meeting: Week 2
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
