@@ -60,7 +60,7 @@ Links:
 %%
 
 %%
-Week 1 goals: What we want (the shape of prob)
+Week 1 goals: What we want (the shape of problem and requ)
 - What's so spesific abot AI Safety (and why)
 - Motivation (what we want to build/achive)
 	- desired outcomes
