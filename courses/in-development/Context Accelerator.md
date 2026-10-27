@@ -84,7 +84,7 @@ Optional activities every week
 	- Propose discussion rooms → join what you're interested in
 	- Barometer exercise
 - Unconference days (participants or navs can give lighning talks - session 30min)
-	- Copy MAISAs "minimal ai safety  
+	- Copy MAISUs "minimal ai safety unconference"  
 - expert Lighning talks
 
 Optional activities
