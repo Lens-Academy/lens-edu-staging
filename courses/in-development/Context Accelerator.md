@@ -74,8 +74,7 @@ Week 1 goals: What we want (the shape of the alignment problem and requirments t
 - Exercise to evaluate ToCs (basics structure and flaws)
 - Exercise that feeds into written output (very high level - in the next weeks they will get more details)
 
-List of additional activities during the week 
-networking
+List of optional activities during the week 
 - 1 Meme contest
 - 2 
 - 3
