@@ -17,13 +17,6 @@ tags: [wip]
 3. 3-7 years of full-time-employment as the main TA focus.
 4. Some of the problems they have:
 
-Value prop: (Person)
-- You leave with a written model of the field, your own theory of change and a 3-month plan. People from fellowships, employers and funders review it.
-- Months of orientation in 4 weeks: the best readings in the field (AI Safety Atlas, Redwood's AI Futurism list, the plans map), with an AI tutor and a group
-- The main worldviews and plans side by side, each with its cruxes, so you build your own view and don't simply adopt ours
-- You learn who does what: the orgs, funders and people behind each plan
-- A certificate that links to your work, plus pointers to next steps that open in January
-- A senior speaker every week, and a selected cohort of 100 to 200 peers
 
 **TA's Value Prop:**
 **What we are going to deliver/provide**
