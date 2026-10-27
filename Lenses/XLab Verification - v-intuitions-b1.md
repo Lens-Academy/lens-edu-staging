@@ -14,7 +14,7 @@ add_to_ai_context:
 #### Text
 content::
 **Choose Option A or Option B.** If you choose this option, complete all five parts below.
-The first four responses develop the arguments for your final essay so keep them in view as you write.
+The first four responses develop the arguments for your final essay, so keep them in view as you write.
 
 #### Text
 content::
