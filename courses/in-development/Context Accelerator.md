@@ -69,7 +69,7 @@ Week 1 goals: What we want (the shape of the alignment problem and requirments t
 	- How high stakes make people do weird looking things (→ why solutions look so different)
 	- ...
 - Motivation (what we want to build/achive)
-	- desired outcomes (different w)
+	- desired outcomes (different ways to catagorise)
 		- ...
 	- problems we face
   - What success looks like
