@@ -14,7 +14,7 @@ Don Ross (rev. 2023)
 
   A deeper introduction to strategic interaction, from utility and equilibrium
   to repeated games and commitment, including the distinction between passive
-  environments and strategic agents. Focus on §1 and §6, with on the inspection game in §8.2.
+  environments and strategic agents. Focus on §1 and §6, with excerpts on the inspection game in §8.2.
 
 #### Article
 source:: [[../articles/ross-game-theory-stanford-encyclopedia-of-philosophy]]
