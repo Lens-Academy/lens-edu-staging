@@ -125,7 +125,7 @@ Week 3 goals: How to contribute (current needs of the field)
 
 Optional activities
 - Write your pitch
-- 
+	- Doc/Per
 %%
 # Meeting: Week 3
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
