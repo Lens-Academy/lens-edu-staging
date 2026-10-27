@@ -114,7 +114,7 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
 %%
 Week 4 goals:  Common failure modes in building an AI Safety career
-- 1
+- 
 - 2
 - 3
 - Finish/polish written output & present it somehow
