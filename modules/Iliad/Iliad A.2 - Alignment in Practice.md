@@ -10,28 +10,31 @@ source:: [[../../Lenses/Iliad/A.2 Alignment in Practice/Iliad A.2 - Alignment in
 # Lens: A.2.2 Pretraining
 source:: [[../../Lenses/Iliad/A.2 Alignment in Practice/Iliad A.2.2 - Pretraining]]
 
-# Lens: Pretraining data filtering
-source:: [[../../Lenses/anthropic-enhancing-model-safety-through-pretraining-data-filtering]]
-optional:: true
+{--{"author":"James's AI","timestamp":1793135646226}@@#--}{++{"author":"James's AI","timestamp":1793135646226}@@## Choose: 1
 
-# Lens: SGTM
-source:: [[../../Lenses/anthropic-beyond-data-filtering-knowledge-localization-for-capability-removal-in-llms]]
-optional:: true
+###++} Lens: Pretraining data filtering
+source:: [[../../Lenses/anthropic-enhancing-model-safety-through-pretraining-data-filtering]]{--{"author":"James's AI","timestamp":1793135646226}@@
+optional:: true--}
 
-# Lens: Persona selection model
+{--{"author":"James's AI","timestamp":1793135646226}@@#--}{++{"author":"James's AI","timestamp":1793135646226}@@###++} Lens: SGTM
+source:: [[../../Lenses/anthropic-beyond-data-filtering-knowledge-localization-for-capability-removal-in-llms]]{--{"author":"James's AI","timestamp":1793135646226}@@
+optional:: true--}
+{--{"author":"James's AI","timestamp":1793135646226}@@#--}{++{"author":"James's AI","timestamp":1793135646226}@@###++} Lens: Persona selection model
 source:: [[../../Lenses/marks-the-persona-selection-model-why-ai-assistants-might-behave-like-humans]]
 optional:: true
 
 # Lens: A.2.3 Post-training
 source:: [[../../Lenses/Iliad/A.2 Alignment in Practice/Iliad A.2.3 - Post-training]]
 
-# Lens: The Claude Constitution
+## Choose: 1
+
+### Lens: The Claude Constitution
 source:: [[../../Lenses/anthropic-claudes-constitution]]
 
-# Lens: OpenAI Model Spec
+### Lens: OpenAI Model Spec
 source:: [[../../Lenses/openai-model-spec]]
 
-# Lens: Teaching Claude Why
+### Lens: Teaching Claude Why
 source:: [[../../Lenses/kutasov-teaching-claude-why]]
 
 # Lens: A.2.4 Deployment 1: strategy
