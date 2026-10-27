@@ -10,17 +10,15 @@ source:: [[../../Lenses/Iliad/A.2 Alignment in Practice/Iliad A.2 - Alignment in
 # Lens: A.2.2 Pretraining
 source:: [[../../Lenses/Iliad/A.2 Alignment in Practice/Iliad A.2.2 - Pretraining]]
 
-{--{"author":"James's AI","timestamp":1793135646226}@@#--}{++{"author":"James's AI","timestamp":1793135646226}@@## Choose: 1
+## Choose: 1
 
-###++} Lens: Pretraining data filtering
-source:: [[../../Lenses/anthropic-enhancing-model-safety-through-pretraining-data-filtering]]{--{"author":"James's AI","timestamp":1793135646226}@@
-optional:: true--}
+### Lens: Pretraining data filtering
+source:: [[../../Lenses/anthropic-enhancing-model-safety-through-pretraining-data-filtering]]
 
-{--{"author":"James's AI","timestamp":1793135646226}@@#--}{++{"author":"James's AI","timestamp":1793135646226}@@###++} Lens: SGTM
-source:: [[../../Lenses/anthropic-beyond-data-filtering-knowledge-localization-for-capability-removal-in-llms]]{--{"author":"James's AI","timestamp":1793135646226}@@
-optional:: true--}
+### Lens: SGTM
+source:: [[../../Lenses/anthropic-beyond-data-filtering-knowledge-localization-for-capability-removal-in-llms]]
 
-{--{"author":"James's AI","timestamp":1793135646226}@@#--}{++{"author":"James's AI","timestamp":1793135646226}@@###++} Lens: Persona selection model
+### Lens: Persona selection model
 source:: [[../../Lenses/marks-the-persona-selection-model-why-ai-assistants-might-behave-like-humans]]
 optional:: true
 

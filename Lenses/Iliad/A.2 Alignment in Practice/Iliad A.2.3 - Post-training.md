@@ -73,8 +73,4 @@ By this measure, no unlearning method has yet been shown to be both cheap *and* 
 
 **Reading (45 mins):** [The Claude Constitution](https://www.anthropic.com/constitution), [Model Spec](https://model-spec.openai.com/2026-08-18.html), or [Teaching Claude Why](https://alignment.anthropic.com/2026/teaching-claude-why/). Or any other paper that you found interesting.
 
-{--{"author":"James's AI","timestamp":1793135691958}@@::card[[../../anthropic-claudes-constitution|The Claude Constitution]]
 
-::card[[../../openai-model-spec|OpenAI Model Spec]]
-
-::card[[../../kutasov-teaching-claude-why|Teaching Claude Why]]--}

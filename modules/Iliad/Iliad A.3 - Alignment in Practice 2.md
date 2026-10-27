@@ -31,12 +31,16 @@ source:: [[../../Lenses/shlegeris-the-case-for-ensuring-that-powerful-ais-are-co
 ## Choose: 2
 
 ### Lens: AI Control: Improving Safety Despite Intentional Subversion
+source:: [[../../Lenses/Iliad reading - AI Control - Improving Safety Despite Intentional Subversion]]
 
 ### Lens: Ctrl-Z: Controlling AI Agents via Resampling
+source:: [[../../Lenses/bhatt-ctrl-z-controlling-ai-agents-via-resampling-abs]]
 
 ### Lens: Untrusted Advice for AI Control
+source:: [[../../Lenses/biddulph-untrusted-advice-for-ai-control-short-strong-advice-significantly-uplifts-weak-llms]]
 
 ### Lens: Diffuse AI Control on Fuzzy Tasks
+source:: [[../../Lenses/Iliad reading - Diffuse AI Control on Fuzzy Tasks]]
 
 ### Lens: Evaluating Chain-of-Thought Monitorability
 source:: [[../../Lenses/guan-monitoring-monitorability]]
