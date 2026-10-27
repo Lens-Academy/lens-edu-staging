@@ -79,8 +79,6 @@ Oxford Martin AI Governance Initiative (2025)
 
 ::card[[../Lenses/XLab Verification - v-intuitions-read-oxford-martin]]
 
-#### Text
-content::
 \### [An International Agreement to Prevent the Premature Creation of Artificial Superintelligence](https://arxiv.org/abs/2511.10783)
 Scher et al. (2025)
 

@@ -79,6 +79,8 @@ source:: [[../Lenses/XLab Verification - v-intuitions-read-oxford-martin]]
 optional:: true
 hide:: true
 source:: [[../Lenses/XLab Verification - v-intuitions-read-scher-mechanisms]]
+
+# Lens:
 source:: [[../Lenses/XLab Verification - v-intuitions-drills-1]]
 
 # Submodule: 0.3 History, precedents, parallels
