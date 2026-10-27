@@ -102,6 +102,7 @@ optional:: true--}
 {--{"author":"James's AI","timestamp":1793144590906}@@#--}{++{"author":"James's AI","timestamp":1793144590906}@@###++} Lens: OpenAI's August investigation
 source:: [[../../Lenses/openai-the-hugging-face-incident-and-the-road-ahead]]{--{"author":"James's AI","timestamp":1793144590906}@@
 optional:: true--}
+
 {--{"author":"James's AI","timestamp":1793144590906}@@#--}{++{"author":"James's AI","timestamp":1793144590906}@@###++} Lens: OpenAI September review update
 source:: [[../../Lenses/openai-the-hugging-face-incident-and-other-third-party-impact-from-misaligned-models]]
 optional:: true
