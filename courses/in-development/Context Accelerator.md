@@ -60,7 +60,7 @@ Links:
 %%
 
 %%
-Week 1 goals:
+Week 1 goals: What 
 - What's so spesific abot AI Safety (and why)
 - Motivation (what we want to build/achive)
 	- desired outcomes
