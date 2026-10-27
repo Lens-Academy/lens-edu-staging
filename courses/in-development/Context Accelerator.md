@@ -92,7 +92,7 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 %%
 Week 3 goals: How to contribute (current needs of the field)
 - Basic overview over the orgs, funders and people behind each plan
-- The concept of  impatfull contribution and "neglected area/problem"
+- The concepts of  "impatfull contribution" and "neglected area/problem"
 - Overview of requirements of main orgs/programs/jobs in the field
 - Exercise that feeds into written output
 %%
