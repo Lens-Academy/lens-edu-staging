@@ -96,6 +96,7 @@ Week 3 goals: How to contribute (current needs of the field)
 	- The concepts of  "an impatfull contribution" and "a neglected area/problem"
 	- Background and its importance
 	- Time horisonts and planning
+	
 - Overview of requirements of main orgs/programs/jobs in the field
 - Exercise that feeds into written output
 %%
