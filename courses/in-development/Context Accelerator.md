@@ -81,6 +81,7 @@ Week 2 goals: What can be done (exesting approaches)
 - 
 - Main plans in the field to get there (main ToCs)
 	- Overview of main agendas
+	- how agendas interact
 	- How to derive ToC from a given text
 - Exercise to evaluate ToCs (how to derive+metrics)
 - alternative: reconstruct a threat model 
