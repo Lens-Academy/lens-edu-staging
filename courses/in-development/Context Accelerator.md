@@ -73,7 +73,7 @@ Week 1 goals: What we want (the shape of the alignment problem and requirments t
 			- theoretical alignment
 			- empirical alignment
 			- pause
-		- shape of the 
+		- shape of the so
 	- problems we face
   - What success looks like
 	- the concept of Toc (and its structure)
