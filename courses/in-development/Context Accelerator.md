@@ -83,7 +83,7 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 %%
 Week 4 goals:
 - Summary
-- Finishing writeup
+- ?
 %%
 # Meeting: Week 4
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
