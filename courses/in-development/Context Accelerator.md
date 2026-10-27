@@ -77,7 +77,7 @@ Week 1 goals: What we want (the shape of the alignment problem and requirments t
 List of optional activities during the week 
 - 1 Meme contest
 - 2 Exercise peer review
-- 3 
+- 3 Open discussion
 carreer
 %%
 # Meeting: Week 1
