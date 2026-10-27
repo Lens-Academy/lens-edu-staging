@@ -19,6 +19,8 @@ Stage 6 of [[CV1 Restructure Log]]. Claude marks what is Lens's text, tests ever
 
 **Status, 2026-10-27.** The comma and the chart sentence are fixed (Andreas), so unit 1's text is done. Primer Practice is in Strategic Foundations, still required (A43). The per-question split waits on Andreas's go. Unit 2 is next.
 
+**Later on 2026-10-27.** Q20 is settled and built (A44, A45). The Game Theory primer now includes Ross's inspection game, and Primer Practice's Putnam and Fearon questions are optional, with their readings named and the Fearon key fixed. Three suggestions on the Game Theory and Strategic Foundations pages wait for Andreas. Unit 2 is next.
+
 ## How to read an entry
 
 - **Lens's text** lists the passages that are ours, by line in the lens file. Everything else on the page is XLab's.
@@ -59,7 +61,7 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 | 1 | Optional: Further Exploration | 1,126 | 387 | 260 | Done; AI 2027 and three readings moved out |
 | 1 | AI 2027 (new page, 2026-10-26) | about 32,000 with the scenario | the tldr | 0 | Done |
 | 1 | The three reading pages (new, 2026-10-26) | about 16,500 with the readings | the tldrs | 0 | Done |
-| 2 (moved from 1) | Primer Practice: Inspection, Commitment, and Logic | 724 | 0 | 622 | Done; moved (A43); question split open (Q20) |
+| 2 (moved from 1) | Primer Practice: Inspection, Commitment, and Logic | 724 | 0 | 622 | Done; moved (A43); questions 3 and 4 optional (A44, A45) |
 | 2 | History, Precedents, Parallels | 3,493 | 185 | 1,236 | |
 | 2 | Introduction: what kind of policy are we trying to verify? | 1,179 | 79 | 330 | |
 | 2 | Drawing the Line: Compute vs. Capability | 1,314 | 510 | 27 | |
