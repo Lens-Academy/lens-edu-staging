@@ -57,7 +57,7 @@ Links:
 %%
 Week 1 goals:
 - What success looks like (the concept of Toc)
-- Exercise that feeds
+- Exercise that feeds into written output
 %%
 # Meeting: Week 1
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
