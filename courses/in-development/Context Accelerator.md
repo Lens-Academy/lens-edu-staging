@@ -65,6 +65,7 @@ Week 1 goals:
 - the concept of Toc
 - motivation (what we want to build/achive)
 - problems we face
+- Overview of main agendas
 - what's so spesific abot AI Safety (and why)
 - Exercise to evaluate ToCs (basics structure and flaws)
 - Exercise that feeds into written output
@@ -75,7 +76,7 @@ facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
 
 %%
 Week 2 goals:
-- 
+- M
 - Main plans in the field to get there (main ToCs)
 - Exercise to evaluate ToCs (metrics)
 - Exercise that feeds into written output
