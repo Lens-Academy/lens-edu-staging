@@ -76,7 +76,6 @@ Week 1 goals: What we want (the shape of the alignment problem and requirments t
 - Exercise that feeds into written output (very high level - in the next weeks they will get more details)
 
 Optional activities
-- Kicko Lighning talk about everything happening in this course
 - {==Lightning talk about mastermind groups==}{>>{"author":"Elias","timestamp":1793119053999}@@Should be recorded, uploaded to YT, and shared in discord @hamza, can you do it?<<}
 - Meme contest
 - Exercise peer review (moderated)
