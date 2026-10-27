@@ -118,7 +118,7 @@ Basics:
 - Earlier strategic decisionmaking
 	- Reversible vs irreversible decisions.
 	- Exploration vs commitment.
-	- Robust strategies across plausible futures.
+	- Robust strategies across plausible futures\multiple agendas.
 - Communicating and validating a contribution strategy
 - ...
 Failure modes:
