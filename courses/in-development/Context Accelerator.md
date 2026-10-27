@@ -82,8 +82,6 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
 %%
 Week 4 goals:
-- Basic overview over the orgs, funders and people behind each plan
-- Overview of requirements of main orgs/programs/jobs in the field
 %%
 # Meeting: Week 4
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
