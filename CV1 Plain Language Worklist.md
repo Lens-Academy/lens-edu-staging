@@ -272,6 +272,7 @@ Inline in [[modules/XLab Verification P1 W2 Precedents and policy scope]]. All o
 - **The seven reading pages:** the Strategic Thinking and Game Theory tldrs are XLab's blurbs, lightly edited; the other five tldrs are ours. All pass. "Win-set" in the two-level games tldr is explained by the reading itself.
 - **Additional readings** (inline in [[modules/XLab Verification P1 W2 Strategic foundations]]): passes.
 - **Written exercise** ([[Lenses/XLab Verification - v-sf-written-exercise]]): the tldr passes. **Flag on the page:** line 14, "whichever pathway above", here and in the question, points to readings on earlier pages, and the paragraph and the question say the same thing twice.
+
 ## Unit 3: Who can prove what (pilot)
 
 [[Lenses/XLab Verification - v-actor-edges]]. Almost all of the page is XLab's: the brief, the rules for drawing an edge, the reading of the map, the "Why" callout and the three questions. The actor roster in the first callout reassembles XLab's own actor data and stays XLab's.
