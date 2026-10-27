@@ -26,6 +26,10 @@ source:: [[../articles/ross-game-theory-stanford-encyclopedia-of-philosophy]]
 from:: ## 6\. Commitment
 to:: Commitment through concern for reputation is the cement of society, but any such natural bonding agent will be far from perfectly effective.
 
+#### Article
+source:: [[../articles/ross-game-theory-stanford-encyclopedia-of-philosophy]]
+from:: ### 8.2 Neuroeconomics and Game Theory
+to:: in various runs of the game.
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
