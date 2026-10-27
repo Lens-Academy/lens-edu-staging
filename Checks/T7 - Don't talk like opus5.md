@@ -40,7 +40,9 @@ draft:
 
       - `paragraph` only uses emphasis when concretely justified.
 
-      - `paragraph` avoids "
+      - `paragraph` avoids contentless build-up to a point.
+
+      - `paragraph` "
   presentation:
     context: lens
     question: paragraph
