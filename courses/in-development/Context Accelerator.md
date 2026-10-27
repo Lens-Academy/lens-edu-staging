@@ -7,7 +7,7 @@ tags: [wip]
 ---
 %%
 Value prop: (Field)
-- MIncrease understanding 
+- More high-experienced
 
 Value prop: (Person)
 - You leave with a written model of the field, your own theory of change and a 3-month plan. People from fellowships, employers and funders review it.
