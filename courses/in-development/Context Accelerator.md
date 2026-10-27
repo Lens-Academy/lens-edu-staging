@@ -67,8 +67,7 @@ facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
 
 %%
 Week 2 goals:
-- The main worldviews in AI safety (EA vs LW-ish)
-- The main plans, with their cruxes
+
 %%
 # Meeting: Week 2
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
