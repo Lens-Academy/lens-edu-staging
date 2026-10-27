@@ -14,7 +14,7 @@ content::
 {>>{"author":"Andreas's AI","timestamp":1792998936951}@@Stage 6 flag, Content and Lens text: both essays are optional now (A16), so "Choose Option A or Option B" no longer fits; the log has this line waiting for stage 6 or 7. The next line has a semicolon (Course Authoring). See the CV1 plain language worklist.<<}**Choose Option A or Option B.** If you choose this option, complete all five parts below.
 The first four responses develop the arguments for your final essay; keep them in view as you write.
 
-{>>{"author":"Andreas's AI","timestamp":1792998941045}@@Stage 6 flag, Lens text: the excerpts are on the previous page, not embedded on this one. See the CV1 plain language worklist.<<}Use [[../Lenses/XLab Verification - v-intuitions-plan-a|the embedded verification supplement excerpts]] throughout this exercise.
+{>>{"author":"Andreas's AI","timestamp":1792998941045}@@Stage 6 flag, Lens text: the excerpts are on the previous page, not embedded on this one. See the CV1 plain language worklist.<<}Use [[../Lenses/XLab Verification - v-intuitions-plan-a|the verification supplement excerpts]] throughout this exercise.
 
 #### Text
 content::
