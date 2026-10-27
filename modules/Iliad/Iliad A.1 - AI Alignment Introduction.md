@@ -27,6 +27,7 @@ optional:: true--}
 {--{"author":"AI","timestamp":1793133852432}@@#--}{++{"author":"AI","timestamp":1793133852432}@@###++} Lens: Claude's constitution overview
 source:: [[../../Lenses/anthropic-claudes-new-constitution]]{--{"author":"AI","timestamp":1793133852432}@@
 optional:: true--}
+
 {--{"author":"AI","timestamp":1793133852432}@@#--}{++{"author":"AI","timestamp":1793133852432}@@###++} Lens: Corrigibility
 source:: [[../../Lenses/lesswrong-corrigibility]]{--{"author":"AI","timestamp":1793133852432}@@
 optional:: true--}
