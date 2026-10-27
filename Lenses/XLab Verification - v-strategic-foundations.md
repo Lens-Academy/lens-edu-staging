@@ -9,7 +9,7 @@ tutor_minutes: 0
 ---
 #### Text
 content::
-Short reading pathways in game theory and international relations. The two short primers on game theory, Strategic Thinking and Game Theory, are required and come next. The other readings are optional: read the pathway you are weakest on, from the additional readings page after the primers.
+{>>{"author":"Andreas's AI","timestamp":1793131857654}@@Stage 6 flag, Content: "the two short primers" fits Strategic Thinking (about 1,500 words) but not Game Theory (about 7,100 words with the §8.2 excerpt, 52 minutes). XLab calls only the first one short. The tldr says the same. See the CV1 plain language worklist.<<}Short reading pathways in game theory and international relations. The two short primers on game theory, Strategic Thinking and Game Theory, are required and come next. The other readings are optional: read the pathway you are weakest on, from the additional readings page after the primers.
 
 | Pathway | Reading |
 | --- | --- |
