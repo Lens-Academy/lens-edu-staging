@@ -62,7 +62,7 @@ Links:
 %%
 Week 1 goals:
 - What success looks like
-	- the concept of Toc (and )
+	- the concept of Toc (and its structure)
 	- motivation (what we want to build/achive)
 	- problems we face
 -  what's so spesific abot AI Safety (and why)
