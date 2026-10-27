@@ -61,6 +61,7 @@ Links:
 
 %%
 Week 1 goals: What we want (the shape of the alignment problem and requirments to solution to be meaningful)
+- Module ex
 - What's so spesific abot AI Safety (and why)
 	- Pre-paradigmatic
 	- uni vs cata
