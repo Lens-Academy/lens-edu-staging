@@ -14,7 +14,7 @@ Short reading pathways in game theory and international relations. The two short
 | Pathway | Reading |
 | --- | --- |
 | Strategic actors and credible commitments | Strategic Thinking, Sarwat Jahan and Ahmed Saber Mahmud (2018) |
-| | Game Theory, Don Ross (rev. 2023), {--{"author":"Andreas's AI","timestamp":1793127293727}@@§1 --}{++{"author":"Andreas's AI","timestamp":1793127293727}@@§1, §6 ++}and {--{"author":"Andreas's AI","timestamp":1793127293727}@@§6--}{++{"author":"Andreas's AI","timestamp":1793127293727}@@part of §8.2++} |
+| | Game Theory, Don Ross (rev. 2023), §1, §6 and part of §8.2 |
 | | Signaling Foreign Policy Interests: Tying Hands versus Sinking Costs, James D. Fearon (1997) |
 | Detection, attribution, and response | Witness for the Prosecution: International Organizations and Arms Control Verification, Edward Ifft (2005) |
 | | Monitoring and Verification in Arms Control, Amy F. Woolf (2011) |
