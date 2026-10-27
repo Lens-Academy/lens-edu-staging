@@ -22,7 +22,7 @@ draft:
 
       Some characteristic patterns:
 
-      - overuse of references such as "this", "that", "the thing"; and `paragraph` avoids superlatives such as "it isn''t just x, it''s y", "genuinely", "honestly", "exactly"; and `paragraph` avoids telegraphing phrases like "here''s the thing", "I want to be careful here"; and '
+      - `paragraph` overuse of references such as "this", "that", "the thing"; and `paragraph` avoids superlatives such as "it isn''t just x, it''s y", "genuinely", "honestly", "exactly"; and `paragraph` avoids telegraphing phrases like "here''s the thing", "I want to be careful here"; and '
     "false": "`paragraph` is sedate and doesn't use claudeish phrasing."
   presentation:
     context: lens
