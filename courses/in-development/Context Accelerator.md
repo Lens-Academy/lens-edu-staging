@@ -114,7 +114,7 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
 %%
 Week 4 goals:  Common failure modes in building an AI Safety career
-- Earlier decidionm
+- Earlier strategic decidionmaking
 - 2
 - 3
 - Finish/polish written output & present it somehow
