@@ -9,7 +9,7 @@ tags: [wip]
 Value prop: (Field)
 - More high-experienced
 
-certain kinds of expertise in work focused on catastrophic risk
+- certain kinds of expertise in work focused on catastrophic risk
 - 
 
 Value prop: (Person)
