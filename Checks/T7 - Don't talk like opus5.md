@@ -30,7 +30,7 @@ draft:
 
       - `paragraph` uses superlatives such as "it isn''t just x, it''s y", "genuinely", "honestly", "exactly", or others
 
-      - `paragraph` telegraphs verbal patterns like "here''s the thing", "I want to be careful here", "this is the "'
+      - `paragraph` telegraphs verbal patterns like "here''s the thing", "I want to be careful here", "this is the real point", '
     "false": "`paragraph` is sedate and doesn't use claudeish phrasing."
   presentation:
     context: lens
