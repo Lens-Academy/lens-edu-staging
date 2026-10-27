@@ -8,7 +8,7 @@ authors:
   - Garrett Baker
   - Evžen Wybitul
 source_url: https://iliad-intensive.org/alignment/alignment-in-practice/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: '4acae5ba61c3018e73d89a7a7ae04c13c6203170'
 upstream_key: "alignment-in-practice#pretraining"
 upstream_fingerprint: "rp3/591/1/0KzQ0S6G0fPR0lQO0wpb0zdi112R1LHy1Rxh1bzb1eZC1h1x1jO31yIN21YV2CB12MLi2QVw2Ysg2j852mrd2r4e2x5M31Pz3KrH3Ni43OZd3T5X3WiK3hCq3hkh3wmV"
 synced_from:
@@ -35,5 +35,3 @@ What the model learns during pretraining is deep, broad, and hard to change afte
 Why does this work? The [persona selection model (PSM)](https://alignment.anthropic.com/2026/psm/) provides the conceptual frame. Building on the [simulators hypothesis](https://www.lesswrong.com/posts/vJFdjigzmcXMhNTsx/simulators) — that an LLM is a *simulator* capable of producing diverse *simulacra* (characters, agents) — PSM holds that pretraining builds a repertoire of personas, and post-training helps shape the "Assistant." Alignment pretraining works because it shapes the **prior over personas**: saturating the training data with positive AI archetypes biases the model toward an aligned Assistant. PSM recommends treating this deliberately — curating AI discourse in pre-training data as a first-class alignment intervention.
 
 **Reading (30 min):** Read [Pretraining data filtering](https://alignment.anthropic.com/2025/pretraining-data-filtering/), or [SGTM](https://alignment.anthropic.com/2025/selective-gradient-masking/), or [persona selection model (PSM)](https://alignment.anthropic.com/2026/psm/).
-
-

@@ -6,7 +6,7 @@ summary_for_tutor: "Further reading section of worksheet A.1. It is a reference 
 authors:
   - Leon Lang (Iliad)
 source_url: https://iliad-intensive.org/alignment/ai-alignment-intro/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: '4acae5ba61c3018e73d89a7a7ae04c13c6203170'
 upstream_key: "ai-alignment-intro#further-reading"
 upstream_fingerprint: "eZEbahnQbCKItGclLOv4dzD0I8r/2050/1/01rJ03KW04up07Cb0C470EE80FU50IB10K5i0Lmz0NVa0QsK0RJu0SKh0Seu0Xb60feA0gcW0jE00oPU0r2a0sUy0tI50v7G0y0C0yEO11sE139J165N16dE1ARD1CPB"
 synced_from:
@@ -135,7 +135,7 @@ On how hard it is to achieve alignment
 Overall risk assessments
 
 * [Is Power-Seeking AI an Existential Risk?](https://arxiv.org/abs/2206.13353): estimating >10% probability of existential catastrophe from misaligned power-seeking AI by 2070.
-* [Chapter 8 in Superintelligence — "Is the default outcome doom?"](https://repo.darmajaya.ac.id/5339/1/Superintelligence_%20Paths%2C%20Dangers%2C%20Strategies%20%28%20PDFDrive%20%29.pdf#page=13.32)
+* [Chapter 8 in Superintelligence — "Is the default outcome doom?"](https://repo.darmajaya.ac.id/5339/1/Superintelligence_%20Paths%2C%20Dangers%2C%20Strategies%20%28%20PDFDrive%20%29.pdf#page=169)
 * [Misalignment and catastrophe are the default outcomes of training powerful AI](https://intelligence.org/wp-content/uploads/2024/12/Misalignment_and_Catastrophe.pdf)
 * [Without specific countermeasures, the easiest path to transformative AI likely leads to AI takeover](https://www.lesswrong.com/posts/pRkFkzwKZ2zfa3R6H/without-specific-countermeasures-the-easiest-path-to)
 * [Thousands of AI authors on the future of AI](https://arxiv.org/abs/2401.02843): Between 38% and 51% of respondents gave at least a 10% chance to advanced AI leading to outcomes as bad as human extinction.
@@ -144,7 +144,7 @@ Overall risk assessments
 Scenarios
 
 * [What failure looks like](https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like): Sketches two failure scenarios: systems pursuing easy-to-measure proxies that diverge from human values, and systems with emergent influence-seeking behavior.
-* [Treacherous turn](https://publicism.info/philosophy/superintelligence/9.html)
+* [Treacherous turn](https://repo.darmajaya.ac.id/5339/1/Superintelligence_%20Paths%2C%20Dangers%2C%20Strategies%20%28%20PDFDrive%20%29.pdf#page=171)
 * [If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All](https://en.wikipedia.org/wiki/If_Anyone_Builds_It,_Everyone_Dies): Book-length argument that creating vastly smarter-than-human AI using anything like current techniques would very likely result in human extinction.
 
 \### Theoretical vs. empirical vs. other approaches

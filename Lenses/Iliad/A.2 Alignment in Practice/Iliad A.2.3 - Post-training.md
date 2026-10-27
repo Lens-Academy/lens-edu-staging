@@ -8,7 +8,7 @@ authors:
   - Garrett Baker
   - Evžen Wybitul
 source_url: https://iliad-intensive.org/alignment/alignment-in-practice/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: '4acae5ba61c3018e73d89a7a7ae04c13c6203170'
 upstream_key: "alignment-in-practice#post-training"
 upstream_fingerprint: "5rc/2650/2/00hp01LK01hc04eW05UA0AJL0BP60GUb0HqY0Jj30Jzz0KLa0N2V0Nl00Omd0Onq0SsW0ULm0XOh0g9X0hJL0hdM0iTj0jBF0jE00jOz0qF10t5t0zeW11KF16n516uz"
 synced_from:
@@ -72,5 +72,3 @@ Post-training can also change the model's factual knowledge. [Synthetic document
 By this measure, no unlearning method has yet been shown to be both cheap *and* robust — for example, [fine-tuning on even unrelated data can make the knowledge re-emerge](https://arxiv.org/abs/2505.22310). The [UNDO](https://arxiv.org/abs/2506.06278) paper proposes a partial solution: distilling an unlearned model into a randomly initialised student transfers desired behaviours while leaving undesired capabilities behind, nicely illustrating the tradeoff between robustness and amount of compute invested in the unlearning process.
 
 **Reading (45 mins):** [The Claude Constitution](https://www.anthropic.com/constitution), [Model Spec](https://model-spec.openai.com/2026-08-18.html), or [Teaching Claude Why](https://alignment.anthropic.com/2026/teaching-claude-why/). Or any other paper that you found interesting.
-
-
