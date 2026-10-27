@@ -1,7 +1,7 @@
 ---
 id: 'a9549cd2-62bb-4bb6-bce1-feb3ce08a7d6'
 title: "Game Theory"
-tldr: "A deeper introduction to strategic interaction, from utility and equilibrium to repeated games and commitment, including the difference between passive environments and strategic agents. Two sections, §1 and §6, and the part of §8.2 on inspection games."
+tldr: "A deeper introduction to strategic interaction, from utility and equilibrium to repeated games and commitment, including the difference between passive environments and strategic agents. Two sections, §1 and §6, and the part of §8.2 covering inspection games."
 summary_for_tutor: "Second of the two required game theory primers in Strategic foundations, in the strategic actors and credible commitments pathway: two sections of Don Ross's Stanford Encyclopedia of Philosophy entry, Game Theory (rev. 2023): §1, Philosophical and Historical Motivation, and §6, Commitment, then the opening of §8.2, Neuroeconomics and Game Theory, for its account of the inspection game (only mixed-strategy equilibria, since any detectable pattern can be exploited; random roadside checks on a fixed budget), which Primer Practice draws on later in the module. The page has no questions. The entry is dense; if the learner is stuck, start from the distinction between a passive environment and a strategic agent, and from why a commitment has to be credible to change what a rival does."
 tags: [wip]
 reading_minutes: 52
