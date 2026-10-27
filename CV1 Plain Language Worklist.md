@@ -93,7 +93,7 @@ The overview and the five unit welcomes are inline in their modules and are not 
 - **Spoiler test: passes** (Andreas, 2026-10-26). Claude first failed it, since "Rivals cannot simply trust, punish, or open their books. Verification is the fourth option" gives the result of the verification-problem exercise. Andreas: naming verification as the way through is not much of a spoiler, since it is the purpose of the whole course.
 - **tldr flag:** a semicolon after "real companies". "Real companies" stays: escapes like this have happened more than once, Hugging Face being the best known, and that counts as general knowledge (Andreas).
 
-### AI Is Grown, Not Built (optional, hidden): out of scope
+### AI Is Grown, Not Built (optional, hidden)
 
 **Back in scope, 2026-10-26 (A40).** Andreas first left this page and Four Background Claims out (A39), then found the introduction's closed "Optional: Further Reading" callout links to both (lines 22 to 27) and rewrote their tldrs. Their two page flags had been withdrawn in between; the removals are pending.
 
