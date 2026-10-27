@@ -42,7 +42,7 @@ draft:
 
       - `paragraph` avoids contentless build-up to a point.
 
-      - `paragraph` only asks questions "
+      - `paragraph` only asks questions that are specific and can have a "
   presentation:
     context: lens
     question: paragraph
