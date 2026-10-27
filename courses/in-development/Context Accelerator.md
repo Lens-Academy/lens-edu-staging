@@ -76,8 +76,8 @@ Week 1 goals: What we want (the shape of the alignment problem and requirments t
 
 List of additional activities during the week 
 networking
-- 1 
-- 2
+- 1 Meme contest
+- 2 
 - 3
 carreer
 %%
