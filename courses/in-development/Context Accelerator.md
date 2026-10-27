@@ -75,7 +75,7 @@ Week 1 goals: What we want (the shape of the alignment problem and requirments t
 - Exercise that feeds into written output (very high level - in the next weeks they will get more details)
 
 List of optional activities during the week
-- Lightning tal
+- Lightning talk about mastermind groups
 - Meme contest
 - Exercise peer review (moderated)
 - Open discussion (moderated)
