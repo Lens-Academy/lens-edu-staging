@@ -78,7 +78,8 @@ List of optional activities during the week
 - 1 Meme contest
 - 2 Exercise peer review (moderated)
 - 3 Open discussion (moderated)
-	- Propose rooms → join what you're
+	- Propose discussion rooms → join what you're interested in
+- 4
 carreer
 %%
 # Meeting: Week 1
