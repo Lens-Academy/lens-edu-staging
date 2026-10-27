@@ -64,7 +64,7 @@ Week 1 goals: What we want (the shape of the alignment problem and requirments t
 - What's so spesific abot AI Safety (and why)
 	- Pre-paradigmatic
 	- uni vs cata
-	- How high stakes make people irrational?
+	- How high stakes make people irrational?How existential risk change how the field is shaped/how people think
 	- ...
 - Motivation (what we want to build/achive)
 	- desired outcomes
