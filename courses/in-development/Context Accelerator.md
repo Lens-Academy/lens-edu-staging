@@ -111,7 +111,9 @@ Week 2 goals: What can be done (exesting approaches)
 Optional activities
 - Ligthning talk about the project initiative
 	- Show some ideas
-		- Mastermind for preparing for MATS appli
+		- Mastermind for preparing for MATS application
+		- Researche project together
+		- Accountability gro
 %%
 # Meeting: Week 2
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
