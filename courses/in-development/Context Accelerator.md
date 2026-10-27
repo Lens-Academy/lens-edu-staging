@@ -83,7 +83,9 @@ Optional activities
 - Random coffee (maybe add a map of interests or something)
 	- Maybe: Schedule 1-on-1s (copy EAG system)
 
-- Kickoff Ligthning talk about the project initiative
+- Kickoff Ligthning talk 
+	- Introduce project initiative
+	- Introdu
 %%
 # Meeting: Week 1
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
