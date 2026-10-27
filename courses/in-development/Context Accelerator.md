@@ -153,7 +153,7 @@ Failure modes:
 - Some networking events
 
 Optional activities
-- Look at other peope pitches
+- Project matching conference
 %%
 # Meeting: Week 4
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
