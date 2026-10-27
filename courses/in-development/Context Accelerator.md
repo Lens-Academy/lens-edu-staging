@@ -85,7 +85,7 @@ Optional activities
 
 - Kickoff Ligthning talk 
 	- Introduce project initiative
-	- Introdu
+	- Introduce masterminds (roughly)
 %%
 # Meeting: Week 1
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
