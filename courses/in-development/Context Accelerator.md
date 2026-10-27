@@ -65,7 +65,7 @@ Week 1 goals: What we want (the shape of the alignment problem and requirments t
 	Create expectation 
 	- Pre-paradigmatic
 	- uni vs cata
-	- 
+	- How existential ri
 - Motivation (what we want to build/achive)
 	- desired outcomes
 	- problems we face
