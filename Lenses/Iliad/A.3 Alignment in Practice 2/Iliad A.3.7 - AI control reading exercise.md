@@ -38,7 +38,7 @@ content::
 
 **Approaches.**
 
-:::require_x_optional_lenses{x=2}
+{--{"author":"James's AI","timestamp":1793135712609}@@:::require_x_optional_lenses{x=2}
 ::card[[../../Iliad reading - AI Control - Improving Safety Despite Intentional Subversion|AI Control: Improving Safety Despite Intentional Subversion]]
 
 > (Redwood Research) — Use trusted models and scarce human audits to monitor, edit, or replace suspicious outputs from a stronger untrusted model.
@@ -60,7 +60,7 @@ content::
 > (OpenAI) — Preserve and measure legible reasoning so chain-of-thought monitoring can serve as a scalable control layer.
 :::
 
-1.  [**AI Control: Improving Safety Despite Intentional Subversion**](https://arxiv.org/abs/2312.06942) (Redwood Research) — Use trusted models and scarce human audits to monitor, edit, or replace suspicious outputs from a stronger untrusted model.
+--}1.  [**AI Control: Improving Safety Despite Intentional Subversion**](https://arxiv.org/abs/2312.06942) (Redwood Research) — Use trusted models and scarce human audits to monitor, edit, or replace suspicious outputs from a stronger untrusted model.
 
 2.  [**Ctrl-Z: Controlling AI Agents via Resampling**](https://arxiv.org/abs/2504.10374) (Redwood Research) — Resample suspicious actions to obtain safer alternatives and additional evidence of attempted subversion.
 
