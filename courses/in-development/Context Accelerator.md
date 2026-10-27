@@ -79,7 +79,7 @@ List of optional activities during the week
 - 2 Exercise peer review (moderated)
 - 3 Open discussion (moderated)
 	- Propose discussion rooms → join what you're interested in
-- 4
+- 41-on-1s
 carreer
 %%
 # Meeting: Week 1
