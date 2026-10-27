@@ -38,7 +38,9 @@ draft:
 
       - `paragraph` specifies what each phrase refers to using concrete nouns.
 
-      - `paragraph` "
+      - `paragraph` avoids exaggeration.
+
+      `paragraph` is sedate and doesn't use claudeish phrasing"
   presentation:
     context: lens
     question: paragraph
