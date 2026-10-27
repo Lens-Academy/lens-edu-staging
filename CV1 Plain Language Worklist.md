@@ -17,6 +17,8 @@ Stage 6 of [[CV1 Restructure Log]]. Claude marks what is Lens's text, tests ever
 
 **Status, late on 2026-10-26.** Unit 1's text is done (Andreas), and every unit 1 flag is resolved; their removals are pending. Two minor notes are left (a comma in Options A and B, a word in AI 2027's chart sentence), plus "cancelled" for the spelling pass. Open: Q20, the drill's placement. Unit 2 is next.
 
+**Status, 2026-10-27.** The comma and the chart sentence are fixed (Andreas), so unit 1's text is done. Primer Practice is in Strategic Foundations, still required (A43). The per-question split waits on Andreas's go. Unit 2 is next.
+
 ## How to read an entry
 
 - **Lens's text** lists the passages that are ours, by line in the lens file. Everything else on the page is XLab's.
@@ -57,7 +59,7 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 | 1 | Optional: Further Exploration | 1,126 | 387 | 260 | Done; AI 2027 and three readings moved out |
 | 1 | AI 2027 (new page, 2026-10-26) | about 32,000 with the scenario | the tldr | 0 | Done; one minor note |
 | 1 | The three reading pages (new, 2026-10-26) | about 16,500 with the readings | the tldrs | 0 | Done |
-| 1 | Primer Practice: Inspection, Commitment, and Logic | 724 | 0 | 622 | Done; placement open (Q20) |
+| 2 (moved from 1) | Primer Practice: Inspection, Commitment, and Logic | 724 | 0 | 622 | Done; moved (A43); question split open (Q20) |
 | 2 | History, Precedents, Parallels | 3,493 | 185 | 1,236 | |
 | 2 | Introduction: what kind of policy are we trying to verify? | 1,179 | 79 | 330 | |
 | 2 | Drawing the Line: Compute vs. Capability | 1,314 | 510 | 27 | |
@@ -197,10 +199,11 @@ Back in scope, as above. **Review:** the tldr's em dash is gone. The introductio
 - **Placement (Andreas, evening of 2026-10-26):** the page is the last, required page of unit 1, but it drills Strategic Foundations material, which comes in unit 2, and needs knowledge the learner has not been taught. XLab made the same move on 2026-10-22, from the end of its 0.2 to the end of 0.4 Strategic Foundations, after our port. Even in unit 2, CV1 teaches only part of it. The facts and a proposal are Q20 in the log; not built.
 - **Done, late on 2026-10-26.** "That cover" is fixed (Andreas), and the line-12 flag's removal is pending. The platform's own course check had already flagged line 17, "inspection game", as a term used before it is explained, which is Andreas's placement point.
 - **For Andreas and Elias:** the fourth question's key, "Fearon's ways of making a commitment credible", credits Fearon with "mechanical enforcement". Fearon (1997) names two ways, tying hands and sinking costs; the word "mechanical" does not appear in the article. The nearest thing to "remove the choice entirely" is the doomsday machine in Ross §6. A learner who has read Fearon could reasonably reject the keyed answer.
+- **Moved, 2026-10-27 (A43):** the page now sits in Strategic Foundations, after the additional readings, and is still required. Making questions 3 and 4 optional and naming their readings waits on Andreas's go (Q20).
 
 ### Left for stage 7 (unit 1)
 
-- "Keep your final essay for peer review" in Options A and B (A7).
+- "Keep your final essay for peer review" in Options A and B (A7). The line after it, "The four shorter responses prepare your argument; the final essay is the output to share", has a semicolon and goes with it.
 - XLab section numbers in the Works cited titles stay, as citations.
 
 ## Unit 3: Who can prove what (pilot)
