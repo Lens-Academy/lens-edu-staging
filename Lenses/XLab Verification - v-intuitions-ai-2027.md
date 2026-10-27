@@ -20,7 +20,7 @@ AI Futures Project (2025)
 
   The earlier scenario from the same team: how a race ends badly, dramatized. Read both of its endings.
 
-The four charts that follow rebuild two figures from that scenario and real benchmarks out of published historical and forecasted data, so you can play with the exact numbers that scenarios only suggest.
+The four charts that follow rebuild two figures from that scenario and two real0benchmarks out of published historical and forecasted data, so you can play with the exact numbers that scenarios only suggest.
 
 #### Article
 source:: [[../articles/ai-2027]]
