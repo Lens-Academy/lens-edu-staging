@@ -95,12 +95,13 @@ The overview and the five unit welcomes are inline in their modules and are not 
 - **Lens's text:** the tldr (line 4); the callout titles we added ("Optional: Further Reading", "Misuse vs. misalignment", the four leader titles); the strongest-objection prompt (lines 32 to 34, ours where it asks "what would move you towards the case and what would move you away from it"); the lead-in to the types-of-AI diagram (line 86); the source and chart credit lines (lines 123, 141). All pass apart from the tldr.
 - **Spoiler test: passes** (Andreas, 2026-10-26). Claude first failed it, since "Rivals cannot simply trust, punish, or open their books. Verification is the fourth option" gives the result of the verification-problem exercise. Andreas: naming verification as the way through is not much of a spoiler, since it is the purpose of the whole course.
 - **tldr flag:** a semicolon after "real companies". "Real companies" stays: escapes like this have happened more than once, Hugging Face being the best known, and that counts as general knowledge (Andreas).
+- **Review of the rewrite, 2026-10-26:** the semicolon is gone, but the first sentence now reads "…into real companies with the people building them say worse is coming", which does not parse. Candidate: "…into real companies, and the people building them say worse is coming."
 
 ### AI Is Grown, Not Built (optional, hidden)
 
 **Back in scope, 2026-10-26 (A40).** Andreas first left this page and Four Background Claims out (A39), then found the introduction's closed "Optional: Further Reading" callout links to both (lines 22 to 27) and rewrote their tldrs. Their two page flags had been withdrawn in between; the removals are pending.
 
-**Review of the rewrite.** The introduction (line 12) has lost its semicolon. Its last sentence, now "examines these features and consequences born from the current AI development paradigm", still says what the article does in general terms, and "born from" is a little mannered; a judgment call. The tldr is unchanged, so its mild spoiler and the "deploy" point stand if Andreas wants to keep them, which is his call.
+**Review of the rewrite.** The introduction (line 12) has lost its semicolon. Its last sentence, now "examines these features and consequences born from the current AI development paradigm", still says what the article does in general terms, and "born from" is a little mannered; a judgment call. The tldr is unchanged, so its mild spoiler and the "deploy" point stand if Andreas wants to keep them, which is his call. **tldr kept (Andreas, later on 2026-10-26):** it says what the reading does, to draw the learner in, since saying more risks giving away the article's point. The spoiler and "deploy" notes are closed.
 
 [[Lenses/XLab Verification - v-ai-is-grown]]. Not from XLab; the article is Yudkowsky and Soares. Also in the demo and archived courses.
 
@@ -118,6 +119,7 @@ Back in scope, as above. **Review:** the tldr's em dash is gone. The introductio
 - **Spoiler test:** passes; no exercise.
 - **tldr flag:** an em dash (Course Authoring).
 - **Flag on the page:** line 11 (withdrawn).
+- **Review of the rewrites, later on 2026-10-26.** The tldr's "four premises… from why smarter-than-human systems could emerge to why we can already do meaningful work to prepare" does not match the article's four claims: humans have a very general problem-solving ability; AI could become much more intelligent than humans; such systems' decisions will shape the future; they won't be beneficial by default. Work we can do today is the question the article opens with (article, line 21), not one of the premises. Candidate: "This article lays out the four premises behind that case, from how general human intelligence is to why highly intelligent AI won't be beneficial by default." In the introduction, "exactly" is gone and "text" is now "reading". "There is already meaningful work being done today" turns the article's "work we can do today" from possible into under way; candidate "there is meaningful work we can do today". "His entire perspective on the prospects of AI" is unchanged, a judgment call.
 
 ### Why Securitizing AI Is Difficult but Necessary
 
@@ -126,6 +128,7 @@ Back in scope, as above. **Review:** the tldr's em dash is gone. The introductio
 - **Lens's text:** the tldr; line 14, where we corrected XLab's "experts spent hundreds of hours fixing it" to "governments and companies spent years finding, repairing, and testing affected systems"; the Y2K footnote (line 16); the callout title "The Risks of Securitization". All pass apart from the tldr.
 - **Spoiler test:** passes; the page has no exercise, and its outcome test is separate.
 - **tldr flag:** it opens with a slogan, "Y2K did nothing because thousands of people fixed it first". **Corrected, 2026-10-26:** Claude first wrote that "Y2K did nothing" says the opposite of what is meant, which overstated it; the sentence does say why ("because thousands of people fixed it first"). The narrower point: it opens on "Y2K did nothing", the very reading the page argues against (that Y2K was a non-event), and the bug is the subject that "did" something. Whether that turn is the point of the line is Andreas's call.
+- **Review of the rewrite, later on 2026-10-26:** the line now opens "Y2K never occurred because thousands of people fixed it first." Y2K, the date, did occur, so this can read as the year 2000 never arriving. Candidate: "The Y2K bug never caused a crisis because thousands of people fixed it first." The rest passes.
 
 ### We Need More Theories of Change
 
@@ -135,6 +138,7 @@ Back in scope, as above. **Review:** the tldr's em dash is gone. The introductio
 - **Spoiler test:** passes.
 - **tldr flags:** a semicolon; "because nobody could say why it mattered" is stronger than the page's own source, AIP's account of eight factors behind the cancellation (a claim to check); the close, "if you cannot state it, neither can the people deciding…", is an aphorism; "a $11B" should be "an $11B".
 - **Minor, no flag:** line 13, "mislabelled" is British spelling.
+- **Review of the rewrite, later on 2026-10-26:** the semicolon is gone. Still open: "a $11B" should be "an $11B" (it is read "an eleven-billion"), and "cancelled" is "canceled" in American spelling. "Because nobody could articulate why it mattered" and the closing line are unchanged, Andreas's call.
 
 ### Building Verification Intuitions
 
@@ -144,6 +148,7 @@ Back in scope, as above. **Review:** the tldr's em dash is gone. The introductio
 - **Spoiler test:** passes.
 - **tldr flags:** an extended metaphor ("treat it like an engineer treats a bridge design: find the load-bearing part, the weakest weld…"), the kind of phrase Course Authoring calls mannered; "Then write your verdict" reads as required, but both essays are optional (A16).
 - **Flags on the page:** line 31, Content (the essay options read as if one is required); line 38, the callout title.
+- **Outcome, later on 2026-10-26.** Andreas marked the essay choice "(optional)" and fixed the callout title to "A good writing practice". Both flags are resolved; their removal is pending. In the tldr, "part" and "weld" became "element" and "component", and "Then write your verdict" stays, since the three-course split restores a required essay (Andreas). One note: "how much hidden compute it can survive" became "how much hidden compute could survive", which moves the question from how much hidden compute the regime tolerates to how much could go undetected. Both are fair questions; which one is meant is Andreas's call.
 
 ### Read Plan A's Verification Plan
 
@@ -172,7 +177,7 @@ Back in scope, as above. **Review:** the tldr's em dash is gone. The introductio
 - **Lens's text:** the tldr; line 50; the chart headings and captions (lines 57 to 109), which pass.
 - **Spoiler test:** passes.
 - **Flag on the page:** line 50. **Correction, 2026-10-26:** the flag's gloss, that the charts are all redrawn from AI 2027's published data, repeats the line's own error. Two of the four come from outside AI 2027 (METR's time horizons and Epoch AI's prices); the superhuman-coder forecast and the takeoff chart are the AI 2027 authors' (Andreas).
-- **Structure (Andreas, 2026-10-26):** the page embeds about 48,000 words, about 31,600 of them AI 2027 and its two endings and 16,500 the three embedded readings, against its stated 45 minutes. Andreas suggests moving AI 2027 and the readings onto their own linked pages, as Strategic Foundations does, so a learner who has read AI 2027 can skip it. **Built for AI 2027, 2026-10-26 (A41):** AI 2027, its "Explore AI 2027" question (id unchanged, so answers follow it), both endings and the four charts moved word for word to a new page, [[Lenses/XLab Verification - v-intuitions-ai-2027]], which this page now links with a card. The line-50 flag moved with its sentence, with the corrected gloss. The new page's tldr, tutor summary and Works cited are ours; the tldr is for Andreas to rewrite. The three embedded readings stay here until Andreas chooses how to split them.
+- **Structure (Andreas, 2026-10-26):** the page embeds about 48,000 words, about 31,600 of them AI 2027 and its two endings and 16,500 the three embedded readings, against its stated 45 minutes. Andreas suggests moving AI 2027 and the readings onto their own linked pages, as Strategic Foundations does, so a learner who has read AI 2027 can skip it. **Built for AI 2027, 2026-10-26 (A41):** AI 2027, its "Explore AI 2027" question (id unchanged, so answers follow it), both endings and the four charts moved word for word to a new page, [[Lenses/XLab Verification - v-intuitions-ai-2027]], which this page now links with a card. The line-50 flag moved with its sentence, with the corrected gloss. The new page's tldr, tutor summary and Works cited are ours; the tldr is for Andreas to rewrite. The three embedded readings stay here until Andreas chooses how to split them. **Readings built, later on 2026-10-26:** Andreas chose a page each. Scher (2026), the Oxford Martin executive summary and the Scher and Thiergart executive summary moved word for word (checked against the repository) to [[Lenses/XLab Verification - v-intuitions-read-scher-restrictions]], [[Lenses/XLab Verification - v-intuitions-read-oxford-martin]] and [[Lenses/XLab Verification - v-intuitions-read-scher-mechanisms]], each reached by a card after its blurb. Their tldrs and Works cited are ours, and the tldrs are for Andreas to rewrite. All four new pages are hidden optional entries in the unit 1 module and the archived Module 0. This page's 45 reading minutes are now stale (stage 8).
 
 ### Primer Practice: Inspection, Commitment, and Logic
 
