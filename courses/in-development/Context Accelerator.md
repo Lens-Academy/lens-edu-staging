@@ -13,6 +13,7 @@ tags: [wip]
 
 **Target Audience:**
 1. Mid career professionals or exceptional young talent from relevant fields (like i{==nfosecurity, communications, policy, operations, and law==}{>>{"author":"Elias","timestamp":1793100662946}@@Provisional<<}), who need AIS context.
+2. They already {==want to join the field.==}{>>{"author":"Slava","timestamp":1793100698903}@@lets try to be more specific here?<<} (Actively looking for oppotunities? Tried to get a job/apply to some fellowships?)
 3. 3-7 years of full-time-employment as the main TA focus.
 4. Some of the problems they have:
 
@@ -25,6 +26,7 @@ Value prop: (Person)
 - A senior speaker every week, and a selected cohort of 100 to 200 peers
 
 **TA's Value Prop:**
+**What we are going to deliver/provide**
 
 
 - You leave with written outputs that showcases your reasoning and understanding of the field: (choose)
@@ -50,6 +52,7 @@ Value prop: (Person)
 	- Structured activities (writing applications/researching oportunities).
 - Chance to be selected into Lens Honors Program (most promising participants)
 	- {==1-on-1 career coaching==}{>>{"author":"Elias","timestamp":1793104699915}@@Get arrangement with 80k and/or AI-safety quest to fast-track them (@mark could you take this)<<}
+	- Help with writing strong {==application==}{>>{"author":"Slava","timestamp":1793104544898}@@https://www.lesswrong.com/posts/PiP4JqQFKhoqHGG2n/how-to-apply-to-ai-safety-fellowships-and-beyond<<}
 	- {==Make arrangement with orgs/programs that search for peopl==}{>>{"author":"Elias","timestamp":1793103683789}@@Mark, would you do this?<<}e (fasttrack applications?)
 
 
