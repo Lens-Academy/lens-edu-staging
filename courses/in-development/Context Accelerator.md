@@ -68,6 +68,7 @@ Week 1 goals:
 	- desired outcomes
 	- problems we face
 	  - What success looks like
+	- the concept of Toc (and its structure)
 - Exercise to evaluate ToCs (basics structure and flaws)
 - Exercise that feeds into written output
 %%
