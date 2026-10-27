@@ -46,12 +46,13 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 | 1 | Four Background Claims | 57 | 57 | 0 | Rewritten, reviewed; two notes |
 | 1 | Why Securitizing AI Is Difficult but Necessary | 776 | 191 | 50 | tldr rewritten, reviewed; one note |
 | 1 | We Need More Theories of Change | 1,738 | 428 | 108 | tldr rewritten, reviewed; two notes |
-| 1 | Building Verification Intuitions | 398 | 131 | 79 | Flagged |
+| 1 | Building Verification Intuitions | 398 | 131 | 79 | Rewritten, reviewed; one note |
 | 1 | Read Plan A's Verification Plan | 82 | 82 | 0 | Passes |
 | 1 | Option A: Stress-test Plan A's Verification Regime | 948 | 122 | 88 | Flagged |
 | 1 | Option B: Compare Plan A and Plan S | 892 | 142 | 56 | Flagged |
-| 1 | Optional: Further Exploration | 1,126 | 387 | 260 | Flagged; AI 2027 moved out |
+| 1 | Optional: Further Exploration | 1,126 | 387 | 260 | Flagged; AI 2027 and three readings moved out |
 | 1 | AI 2027 (new page, 2026-10-26) | about 32,000 with the scenario | the tldr | 0 | Flagged |
+| 1 | The three reading pages (new, 2026-10-26) | about 16,500 with the readings | the tldrs | 0 | tldrs to rewrite |
 | 1 | Primer Practice: Inspection, Commitment, and Logic | 724 | 0 | 622 | Flagged |
 | 2 | History, Precedents, Parallels | 3,493 | 185 | 1,236 | |
 | 2 | Introduction: what kind of policy are we trying to verify? | 1,179 | 79 | 330 | |
