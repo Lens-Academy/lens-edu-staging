@@ -89,6 +89,7 @@ Optional activities every week
 - Exercise peer review (moderated)
 
 Optional activities
+- Ligthning talk about the project initiative
 - {==Lightning talk about mastermind groups==}{>>{"author":"Elias","timestamp":1793119053999}@@Should be recorded, uploaded to YT, and shared in discord @hamza, can you do it?<<}
 - Ligthning talk about the project initiative
 
