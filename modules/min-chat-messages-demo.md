@@ -119,32 +119,3 @@ content:: What is a book or film you would recommend to a friend?
 id:: 78e4b9e7-808e-49d1-a9eb-fcc3519af88b
 content:: Where would you like to travel next?
 
-# Lens: Finish 2 of 3 optional lenses
-id:: 58e6fdb4-d13d-4589-a3b2-4a2e1d1b6973
-tldr:: How do you ask a learner to read some, but not all, of a list of optional lenses? Put the cards in a require_x_optional_lenses list, and this page unlocks once enough of them are finished.
-summary_for_tutor:: Demo lens holding a :::require_x_optional_lenses{x=2} list of three optional lens cards (demo lenses A, B and C, imported below as optional). The learner must complete two of the three listed lenses before this lens can be marked complete.
-duration_minutes:: 3
-
-#### Text
-content::
-Wrap lens cards in `:::require_x_optional_lenses{x=2}` and `:::`. This page can then be marked complete only once 2 of the listed lenses are finished, wherever the learner finished them. The box says "Finish 2 of these 3 optional lenses to complete the current lens", and shows a green "2 lenses completed" when that is done. Each card must point to an optional lens of this same module; the content check reports an error otherwise.
-
-:::require_x_optional_lenses{x=2}
-::card[[../Lenses/Optional lens list demo - A]]
-
-::card[[../Lenses/Optional lens list demo - B]]
-
-::card[[../Lenses/Optional lens list demo - C]]
-:::
-
-# Lens:
-optional:: true
-source:: [[../Lenses/Optional lens list demo - A]]
-
-# Lens:
-optional:: true
-source:: [[../Lenses/Optional lens list demo - B]]
-
-# Lens:
-optional:: true
-source:: [[../Lenses/Optional lens list demo - C]]
