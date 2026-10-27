@@ -83,7 +83,7 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 %%
 Week 4 goals:
 - Finish/polish written output
-	-  
+	- Maybe present output som 
 - Task that requires integrating knowledge from first 3 weeks
 - Summary
 - Consolidate
