@@ -36,7 +36,9 @@ draft:
     "false": "`paragraph` is sedate and doesn't use claudeish phrasing. For example,
 
 
-      - `paragraph` specifies what each phrase refers to using concrete "
+      - `paragraph` specifies what each phrase refers to using concrete nouns.
+
+      - "
   presentation:
     context: lens
     question: paragraph
