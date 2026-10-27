@@ -41,7 +41,7 @@ Being able to clearly communicate your theory of change is almost as, if not mor
 
 So, what does a good AI safety theory of change actually look like? This table maps out all the important elements of a robust theory of change:
 
-| Inputs | Activities | Reach | Short-term outcome | Intermediate outcome | Long-term outcome |
+| Inputs | Outputs | Outputs | Outcome | Outcome | Outcome |
 |---|---|---|---|---|---|
 | What do we need? | What do we do? | Who do we reach? | What changes first? | What changes next? | What is different in the end? |
 | *Resources, people* | *Activities* | *New audience, collaborators* | *Knowledge increased* | *Behavior changed, decision-making done* | *Conditions changed* |
