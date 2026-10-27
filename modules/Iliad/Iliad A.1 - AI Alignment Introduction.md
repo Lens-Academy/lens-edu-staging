@@ -89,19 +89,20 @@ source:: [[../../Lenses/lifland-q2-5-2026-timelines-update-uplift-and-revenue]]
 # Lens: A.1.6 Session 6: Hugging Face as a misalignment case study
 source:: [[../../Lenses/Iliad/A.1 AI Alignment Introduction/Iliad A.1.6 - Session 6 - Hugging Face as a misalignment case study]]
 
-# Lens: Hugging Face's disclosure
-source:: [[../../Lenses/system-security-incident-disclosure-july-2026]]
-optional:: true
+{--{"author":"James's AI","timestamp":1793144590906}@@# --}{++{"author":"James's AI","timestamp":1793144590906}@@## Choose: 1
 
-# Lens: Hugging Face technical timeline
-source:: [[../../Lenses/larcher-anatomy-of-a-frontier-lab-agent-intrusion-a-technical-timeline-of-the-july-2026-incident]]
-optional:: true
+### ++}Lens: Hugging Face's disclosure
+source:: [[../../Lenses/system-security-incident-disclosure-july-2026]]{--{"author":"James's AI","timestamp":1793144590906}@@
+optional:: true--}
 
-# Lens: OpenAI's August investigation
-source:: [[../../Lenses/openai-the-hugging-face-incident-and-the-road-ahead]]
-optional:: true
+{--{"author":"James's AI","timestamp":1793144590906}@@#--}{++{"author":"James's AI","timestamp":1793144590906}@@###++} Lens: Hugging Face technical timeline
+source:: [[../../Lenses/larcher-anatomy-of-a-frontier-lab-agent-intrusion-a-technical-timeline-of-the-july-2026-incident]]{--{"author":"James's AI","timestamp":1793144590906}@@
+optional:: true--}
 
-# Lens: OpenAI September review update
+{--{"author":"James's AI","timestamp":1793144590906}@@#--}{++{"author":"James's AI","timestamp":1793144590906}@@###++} Lens: OpenAI's August investigation
+source:: [[../../Lenses/openai-the-hugging-face-incident-and-the-road-ahead]]{--{"author":"James's AI","timestamp":1793144590906}@@
+optional:: true--}
+{--{"author":"James's AI","timestamp":1793144590906}@@#--}{++{"author":"James's AI","timestamp":1793144590906}@@###++} Lens: OpenAI September review update
 source:: [[../../Lenses/openai-the-hugging-face-incident-and-other-third-party-impact-from-misaligned-models]]
 optional:: true
 
