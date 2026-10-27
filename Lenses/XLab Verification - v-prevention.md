@@ -1,7 +1,7 @@
 ---
 id: '51cf347a-59cf-412c-8206-ba7e19ace234'
 title: "Why Securitizing AI Is Difficult but Necessary"
-tldr: "The Y2K never occurred because thousands of people fixed it first. Prevented catastrophes look like nothing happened, which is exactly why AI risk is easy to dismiss and why treating it as a security problem takes deliberate effort."
+tldr: "The Y2K never became a crisis because thousands of people fixed it first. Prevented catastrophes look like nothing happened, which is exactly why AI risk is easy to dismiss and why treating it as a security problem takes deliberate effort."
 summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Reading only, no exercises."
 tags: [wip]
 reading_minutes: 4
