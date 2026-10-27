@@ -85,7 +85,7 @@ Optional activities every week
 	- Barometer exercise
 - Unconference days (participants or navs can give lighning talks - session 30min)
 	- Copy MAISUs "minimal ai safety unconference"  
-- expert Lighning talks
+- expert Lighning talks throughout the week
 
 Optional activities
 - {==Lightning talk about mastermind groups==}{>>{"author":"Elias","timestamp":1793119053999}@@Should be recorded, uploaded to YT, and shared in discord @hamza, can you do it?<<}
