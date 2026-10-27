@@ -32,7 +32,7 @@ draft:
 
       - `paragraph` telegraphs verbal patterns like "here''s the thing", "I want to be careful here", "this is the real point", etc
 
-      - `paragraph` asks for broad, open-ended feedback from the reader: "What do you think?", ""'
+      - `paragraph` asks for broad, open-ended feedback from the reader: "What do you think?", "?"'
     "false": "`paragraph` is sedate and doesn't use claudeish phrasing."
   presentation:
     context: lens
