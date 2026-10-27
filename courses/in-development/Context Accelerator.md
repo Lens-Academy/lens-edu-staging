@@ -122,7 +122,8 @@ Basics:
 - Communicating and validating a contribution strategy
 - ...
 Failure modes:
-- Recognising common mistakes, understanding why they happen, and developing strategies to avoid them.
+- Recognising common mistakes, understanding why they happen, and developing strategies to avoid those
+  
 - Finish/polish written output & present it somehow
 - Task that requires integrating knowledge from first 3 weeks
 - Summary
