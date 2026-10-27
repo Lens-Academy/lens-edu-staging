@@ -48,7 +48,6 @@ tags: [wip]
 	- Help with writing strong {==application==}{>>{"author":"Slava","timestamp":1793104544898}@@https://www.lesswrong.com/posts/PiP4JqQFKhoqHGG2n/how-to-apply-to-ai-safety-fellowships-and-beyond<<}
 	- {==Make arrangement with orgs/programs that search for peopl==}{>>{"author":"Elias","timestamp":1793103683789}@@Mark, would you do this?<<}e (fasttrack applications?)
 
-
 Links:
 - [[../../../Lens/03-Product/Context Accelerator Pitch|Context Accelerator Pitch]]
 - [[../../../Lens/11-People/Mark/Q4 2026 Pitches/01 - Context Accelerator Launch Pitch|Context Accelerator Launch Pitch]]
