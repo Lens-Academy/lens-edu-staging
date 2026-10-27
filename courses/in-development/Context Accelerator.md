@@ -44,7 +44,6 @@ tags: [wip]
 	- Structured networking between participants (navigators can also join)
 	- Participants and navigators give lightning talks + Q&A
 		- Project pitching (find collaborators, get feedback)
-	- Get inspiration from SciStep?
 	- Mastermind groups (make presentation)
 	- Self initiated workshops
 - Get a clear pathway to paid positions.
