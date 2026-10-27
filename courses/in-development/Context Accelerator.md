@@ -6,11 +6,15 @@ description: "Four intense weeks of AI safety strategy. You learn where AI is go
 tags: [wip]
 ---
 %%
+**Field Needs:**
 1. More experiencied people from relevant fields (like infosecurity, communications, policy, operations, and law) with AI safety context.
 2. People who can and do evaluate the EV of their projects/actions (ability and habit of deep ToC thinking).
 
 
+**Target Audience:**
 1. Mid career professionals or exceptional young talent from relevant fields (like i{==nfosecurity, communications, policy, operations, and law==}{>>{"author":"Elias","timestamp":1793100662946}@@Provisional<<}), who need AIS context.
+3. 3-7 years of full-time-employment as the main TA focus.
+4. Some of the problems they have:
 
 Value prop: (Person)
 - You leave with a written model of the field, your own theory of change and a 3-month plan. People from fellowships, employers and funders review it.
@@ -20,6 +24,7 @@ Value prop: (Person)
 - A certificate that links to your work, plus pointers to next steps that open in January
 - A senior speaker every week, and a selected cohort of 100 to 200 peers
 
+**TA's Value Prop:**
 
 
 - You leave with written outputs that showcases your reasoning and understanding of the field: (choose)
@@ -34,12 +39,14 @@ Value prop: (Person)
 - You will be able to:
 	- Evaluate project proposals and organizational mission statements.
 	- Stretch goal: write project proposals and organizational mission statements
+- Get network
 	- Structured networking between participants (navigators can also join)
 	- Participants and navigators give lightning talks + Q&A
 		- Project pitching (find collaborators, get feedback)
 	- Get inspiration from SciStep?
 	- Mastermind groups (make presentation)
 	- Self initiated workshops
+- Get a clear pathway to paid positions.
 	- Structured activities (writing applications/researching oportunities).
 - Chance to be selected into Lens Honors Program (most promising participants)
 	- {==1-on-1 career coaching==}{>>{"author":"Elias","timestamp":1793104699915}@@Get arrangement with 80k and/or AI-safety quest to fast-track them (@mark could you take this)<<}
