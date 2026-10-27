@@ -119,7 +119,8 @@ Week 4 goals:  Common failure modes in building an AI Safety career
 	- Exploration vs commitment.
 	- Robust strategies across plausible futures.
 - Communicating and validating a contribution strategy
-- 3
+- ...
+  
 - Finish/polish written output & present it somehow
 - Task that requires integrating knowledge from first 3 weeks
 - Summary
