@@ -60,7 +60,7 @@ True. Two-level games distinguish voluntary defection (chose to cheat) from invo
 
 #### Question: Choice
 id:: 357a36a9-d41c-454c-a7e7-760afe1f3a0a
-content:: Series: sunk costs, tied hands, mechanical enforcement. Name the tightest concept that covers all three, and only them.
+content:: Optional, from Signaling Foreign Policy Interests and Game Theory: Series: sunk costs, tied hands, mechanical enforcement. Name the tightest concept that covers all three, and only them.
 options::
 - Game-theoretic concepts
 - Fearon's ways of making a commitment credible
@@ -68,6 +68,7 @@ options::
 - Domestic ratification constraints
 shuffle:: true
 force-feedback:: first
+optional:: true
 feedback-instructions:: Explain: the tightest true label wins. "Game-theoretic concepts" is true but hopelessly broad. Fearon (1997): burn resources up front (sunk cost), make backing down costly later (tied hands), or remove the choice entirely (mechanical enforcement). Two or three sentences.
 
 #### Text
