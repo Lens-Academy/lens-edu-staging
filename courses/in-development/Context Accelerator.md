@@ -8,7 +8,13 @@ tags: [wip]
 %%
 Value prop: (Field)
 - 
+
 Value prop: (Person)
+- You leave with a written model of the field, your own theory of change and a 3-month plan. People from fellowships, employers and funders review it.
+- Months of orientation in 4 weeks: the best readings in the field (AI Safety Atlas, Redwood's AI Futurism list, the plans map), with an AI tutor and a group
+- The main worldviews and plans side by side, each with its cruxes, so you build your own view and don't simply adopt ours
+- You learn who does what: the orgs, funders and people behind each plan
+- A certificate that links to your work, plus pointers to next steps that open in January
 - A senior speaker every week, and a selected cohort of 100 to 200 peers
 
 Target audience:
@@ -18,13 +24,6 @@ Target audience:
 - An experienced professional moving into AI safety, for example between jobs
 - Can give 15+ hours a week for 4 weeks
 
-Value prop:
-- You leave with a written model of the field, your own theory of change and a 3-month plan. People from fellowships, employers and funders review it.
-- Months of orientation in 4 weeks: the best readings in the field (AI Safety Atlas, Redwood's AI Futurism list, the plans map), with an AI tutor and a group
-- The main worldviews and plans side by side, each with its cruxes, so you build your own view and don't simply adopt ours
-- You learn who does what: the orgs, funders and people behind each plan
-- A certificate that links to your work, plus pointers to next steps that open in January
-- A senior speaker every week, and a selected cohort of 100 to 200 peers
 
 Links:
 - [[../../../Lens/03-Product/Context Accelerator Pitch|Context Accelerator Pitch]]
