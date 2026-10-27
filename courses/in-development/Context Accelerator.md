@@ -88,7 +88,8 @@ Optional activities every week
 - Expert Lighning talks throughout the week
 	- Hiring people from different orgs (explain what type of people they look for)
 	- Topic experts...
-	- People presenting jobs
+	- People presenting their job
+	- ...
 - Exercise peer review (moderated)
 
 Optional activities
