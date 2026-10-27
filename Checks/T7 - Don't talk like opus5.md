@@ -40,7 +40,7 @@ draft:
 
       - `paragraph` only uses emphasis when concretely justified.
 
-      - `paragraph` d"
+      - `paragraph` avoids "
   presentation:
     context: lens
     question: paragraph
