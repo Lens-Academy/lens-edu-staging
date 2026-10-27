@@ -33,6 +33,7 @@ tags: [wip]
 	- Overview of requirements of main orgs/programs/jobs in the field
 - You will be able to:
 	- Evaluate project proposals and organizational mission statements.
+		- 
 	- Stretch goal: write project proposals and organizational mission statements
 - Get network
 	- Structured networking between participants (navigators can also join)
