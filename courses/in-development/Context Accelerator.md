@@ -82,7 +82,7 @@ Week 2 goals:
 - Main plans in the field to get there (main ToCs)
 	- Overview of main agendas
 	- How to derive ToC from a given text
-- Exercise to evaluate ToCs (metrics)
+- Exercise to evaluate ToCs (how to derive+metrics)
 - Exercise that feeds into written output
 %%
 # Meeting: Week 2
