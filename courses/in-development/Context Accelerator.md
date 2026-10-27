@@ -109,6 +109,8 @@ Week 2 goals: What can be done (exesting approaches)
 - Exercise that feeds into written output
 - Some networking events
 
+Optional activities
+- Ligthning talk about the project initiative
 %%
 # Meeting: Week 2
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
