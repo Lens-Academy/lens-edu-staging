@@ -83,7 +83,7 @@ Week 2 goals: What can be done (exesting approaches)
 	- Overview of main agendas
 	- How to derive ToC from a given text
 - Exercise to evaluate ToCs (how to derive+metrics)
-- alReconstruct a threat model 
+- alternative: reconstruct a threat model 
 - Exercise that feeds into written output
 %%
 # Meeting: Week 2
