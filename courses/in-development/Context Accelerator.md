@@ -57,6 +57,7 @@ Links:
 %%
 Week 1 goals:
 - What success looks like (the concept of Toc)
+- 
 %%
 # Meeting: Week 1
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
