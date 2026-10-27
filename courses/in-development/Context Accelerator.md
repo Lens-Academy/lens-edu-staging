@@ -34,7 +34,7 @@ tags: [wip]
 - You will be able to:
 	- Evaluate project proposals and organizational mission statements.
 		- ability to eval toc
-			- a
+			- ability to build a toc out
 			- to know what toc is
 	- Stretch goal: write project proposals and organizational mission statements
 - Get network
