@@ -62,7 +62,6 @@ Links:
 %%
 Week 1 goals: What we want (the shape of the alignment problem and requirments to solution to be meaningful)
 - What's so spesific abot AI Safety (and why)
-	Create expectation 
 	- Pre-paradigmatic
 	- uni vs cata
 	- How existential ri
