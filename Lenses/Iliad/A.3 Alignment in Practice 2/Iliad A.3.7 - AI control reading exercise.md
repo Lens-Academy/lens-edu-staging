@@ -38,29 +38,7 @@ content::
 
 **Approaches.**
 
-{--{"author":"James's AI","timestamp":1793135712609}@@:::require_x_optional_lenses{x=2}
-::card[[../../Iliad reading - AI Control - Improving Safety Despite Intentional Subversion|AI Control: Improving Safety Despite Intentional Subversion]]
-
-> (Redwood Research) — Use trusted models and scarce human audits to monitor, edit, or replace suspicious outputs from a stronger untrusted model.
-
-::card[[../../bhatt-ctrl-z-controlling-ai-agents-via-resampling-abs|Ctrl-Z: Controlling AI Agents via Resampling]]
-
-> (Redwood Research) — Resample suspicious actions to obtain safer alternatives and additional evidence of attempted subversion.
-
-::card[[../../biddulph-untrusted-advice-for-ai-control-short-strong-advice-significantly-uplifts-weak-llms|Untrusted Advice for AI Control]]
-
-> (Redwood Research) — Restrict the untrusted model to a low-bandwidth advice channel while a trusted model retains exclusive authority to act.
-
-::card[[../../Iliad reading - Diffuse AI Control on Fuzzy Tasks|Diffuse AI Control on Fuzzy Tasks]]
-
-> (Anthropic) — Adversarially improve the weak scoring process used to train untrusted models against repeated sabotage on hard-to-evaluate work.
-
-::card[[../../guan-monitoring-monitorability|Evaluating Chain-of-Thought Monitorability]]
-
-> (OpenAI) — Preserve and measure legible reasoning so chain-of-thought monitoring can serve as a scalable control layer.
-:::
-
---}1.  [**AI Control: Improving Safety Despite Intentional Subversion**](https://arxiv.org/abs/2312.06942) (Redwood Research) — Use trusted models and scarce human audits to monitor, edit, or replace suspicious outputs from a stronger untrusted model.
+1.  [**AI Control: Improving Safety Despite Intentional Subversion**](https://arxiv.org/abs/2312.06942) (Redwood Research) — Use trusted models and scarce human audits to monitor, edit, or replace suspicious outputs from a stronger untrusted model.
 
 2.  [**Ctrl-Z: Controlling AI Agents via Resampling**](https://arxiv.org/abs/2504.10374) (Redwood Research) — Resample suspicious actions to obtain safer alternatives and additional evidence of attempted subversion.
 
