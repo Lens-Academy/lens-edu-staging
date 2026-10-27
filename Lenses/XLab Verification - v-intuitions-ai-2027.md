@@ -1,7 +1,7 @@
 ---
 id: '39d19d7b-e7a3-4aad-9dba-fee6b9f4237b'
 title: "AI 2027"
-tldr: "Read AI 2027, the AI Futures Project's scenario of a race to superintelligence, with both of its endings, and four charts of the trends and forecasts it builds on. As you read, ask where verification could have changed what the actors were able to agree to."
+tldr: "Read AI 2027, the AI Futures Project's scenario of a race to superintelligence, with both of its endings, and four charts of the real trends and forecasts it builds on. As you read, ask where verification could have changed what the actors were able to agree to."
 summary_for_tutor: "Optional page reached by a card from Further Exploration, for learners who have not read AI 2027. One optional, ungraded reflection question with no feedback brief: at which branch points would verification infrastructure have changed what the actors could credibly agree to? Then AI 2027 (AI Futures Project, 2025) up to its branch point and both endings, Race and Slowdown, then four interactive charts, each introduced by a short text: METR's time horizons, the superhuman-coder arrival forecasts from the AI Futures timelines forecast, Epoch AI's prices for a fixed level of capability, and the takeoff milestones from the AI Futures takeoff forecast. METR and Epoch AI are outside sources the scenario draws on; the two forecasts are the scenario authors' own. If the learner discusses the question, respond to their reasoning; there is no key."
 reading_minutes: 160
 tutor_minutes: 3
