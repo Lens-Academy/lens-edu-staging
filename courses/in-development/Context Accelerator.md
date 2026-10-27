@@ -83,7 +83,7 @@ Optional activities every week
 - Open discussion (moderated)
 	- Propose discussion rooms → join what you're interested in
 	- Barometer exercise
-- Unconference days (participants or navs can volunteer to do lightning talks
+- Unconference days (participants or navs can lightning talks
 - expert Lighning talks
 
 Optional activities
