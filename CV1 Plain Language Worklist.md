@@ -11,6 +11,8 @@ Stage 6 of [[CV1 Restructure Log]]. Claude marks what is Lens's text, tests ever
 
 **Status, 2026-10-26.** The pilot, "Who can prove what", is rewritten and reviewed; its two flags come off once Andreas accepts their removal. The other pages are next.
 
+**Status, later on 2026-10-26.** The pilot is done. Unit 1 is flagged, and Andreas has rewritten the tldrs of six of its pages and the text on three; each review is under its page below, with five short notes still open. Building Verification Intuitions is done. Further Exploration's AI 2027 and its three embedded readings are on pages of their own (A41). Unit 1's follow-ups, then units 2 to 5, are next.
+
 ## How to read an entry
 
 - **Lens's text** lists the passages that are ours, by line in the lens file. Everything else on the page is XLab's.
