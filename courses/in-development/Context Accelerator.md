@@ -70,7 +70,9 @@ Week 1 goals: What we want (the shape of the alignment problem and requirments t
 	- desired outcomes
 		- shape of end-game solution
 			- controll
-			- al
+			- align
+			- pause
+			- 
 	- problems we face
   - What success looks like
 	- the concept of Toc (and its structure)
