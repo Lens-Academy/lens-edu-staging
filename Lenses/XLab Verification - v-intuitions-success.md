@@ -2,7 +2,7 @@
 id: '572be6c8-55e4-438d-8a5d-2d0dcf108cd9'
 title: "Optional: Further Exploration"
 tldr: "Develop your own success scenario, explore AI 2027, or follow the readings most relevant to your argument."
-summary_for_tutor: "Optional extensions, separate from completing Option A or B. Preserves the 500 to 800 word success-scenario essay, six curated readings, and works cited. AI 2027, its reflection question and the four charts are on their own page, reached by a card after the essay. The success-scenario essay is revisited at the end of the track."
+summary_for_tutor: "Optional extensions, separate from completing Option A or B. Preserves the 500 to 800 word success-scenario essay, six curated readings, and works cited. AI 2027, its reflection question and the four charts are on their own page, reached by a card after the essay. The three readings that were embedded here (Scher 2026, the Oxford Martin executive summary, and the Scher and Thiergart executive summary) are each on their own page, reached by a card after the reading's blurb. The success-scenario essay is revisited at the end of the track."
 reading_minutes: 45
 tutor_minutes: 11
 tags: [wip]
