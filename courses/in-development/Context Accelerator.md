@@ -45,7 +45,7 @@ tags: [wip]
 	- Participants and navigators give lightning talks + Q&A
 		- Project pitching (find collaborators, get feedback)
 	- Mastermind groups (make presentation)
-	- Not this time: Self initiated workshops
+	- Not this time: {==Self initiated workshops==}{>>{"author":"Slava","timestamp":1793121279897}@@not this time, maybe during the next iteration<<}
 - Get a clear pathway to paid positions.
 	- Structured activities (writing applications/researching oportunities).
 - Chance to be selected into Lens Honors Program (most promising participants)
