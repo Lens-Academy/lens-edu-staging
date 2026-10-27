@@ -67,12 +67,7 @@ Scher (2026)
   monitoring alone does not solve: algorithmic research, experiments,
   personnel, code, and other less physically legible activity.
 
-#### Article
-source:: [[../articles/scher-verifying-restrictions-on-frontier-ai-research]]
-optional:: true
-
-#### Text
-content::
+::card[[../Lenses/XLab Verification - v-intuitions-read-scher-restrictions]]
 
 \### [Verification for International AI Governance](https://aigi.ox.ac.uk/wp-content/uploads/2025/07/Verification_for_International_AI_Governance.pdf)
 Oxford Martin AI Governance Initiative (2025)
@@ -82,11 +77,7 @@ Oxford Martin AI Governance Initiative (2025)
   access, privacy constraints, and the type of agreement states are trying to
   verify.
 
-#### Article
-source:: [[../articles/harack-verification-for-international-ai-governance]]
-from:: # Executive Summary
-to:: If key states get serious about these problems, a combination of unilateral, collaborative, and open efforts should be sufficient to enable the creation of a robust verification system within a few years.
-optional:: true
+::card[[../Lenses/XLab Verification - v-intuitions-read-oxford-martin]]
 
 #### Text
 content::
@@ -105,11 +96,7 @@ Scher and Thiergart, MIRI Technical Governance Team (2025)
   or mechanism closest to your essay and ask whether its evidence, access
   requirements, and remaining R&D gaps change your conclusion.
 
-#### Article
-source:: [[../articles/scher-mechanisms-to-verify-international-agreements-about-ai-development-table-edit-published-version]]
-from:: ## Executive Summary ^executive-summary
-to:: designing verification regimes aimed at key policy goals such as frontier model training following a safety case (discussed briefly in [[#^safety-case-verification|the appendix]]).
-optional:: true
+::card[[../Lenses/XLab Verification - v-intuitions-read-scher-mechanisms]]
 
 #### Text
 content::
