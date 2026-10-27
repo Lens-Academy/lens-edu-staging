@@ -114,14 +114,14 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
 %%
 Week 4 goals:  Basic rules and common failure modes in building an AI Safety career
-Basics
+Basics:
 - Earlier strategic decisionmaking
 	- Reversible vs irreversible decisions.
 	- Exploration vs commitment.
 	- Robust strategies across plausible futures.
 - Communicating and validating a contribution strategy
 - ...
-  
+Fal
 - Finish/polish written output & present it somehow
 - Task that requires integrating knowledge from first 3 weeks
 - Summary
