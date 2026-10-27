@@ -54,7 +54,7 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 | 1 | Read Plan A's Verification Plan | 82 | 82 | 0 | Passes |
 | 1 | Option A: Stress-test Plan A's Verification Regime | 948 | 122 | 88 | Done; one comma |
 | 1 | Option B: Compare Plan A and Plan S | 892 | 142 | 56 | Done; one comma |
-| 1 | Optional: Further Exploration | 1,126 | 387 | 260 | Flagged; AI 2027 and three readings moved out |
+| 1 | Optional: Further Exploration | 1,126 | 387 | 260 | Done; AI 2027 and three readings moved out |
 | 1 | AI 2027 (new page, 2026-10-26) | about 32,000 with the scenario | the tldr | 0 | Done; one minor note |
 | 1 | The three reading pages (new, 2026-10-26) | about 16,500 with the readings | the tldrs | 0 | Done |
 | 1 | Primer Practice: Inspection, Commitment, and Logic | 724 | 0 | 622 | Done; placement open (Q20) |
