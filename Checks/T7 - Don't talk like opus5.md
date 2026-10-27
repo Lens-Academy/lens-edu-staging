@@ -18,6 +18,8 @@ draft:
 
 
       eg, at their most extreme, they sound like: "Oh, this is *delicious*. Okay — so the thing you''re pointing at is, and I want to be careful here because I think there are actually two claims bundled together, genuinely one of the more interesting versions of this I''ve run into. There''s a concept that''s almost exactly this. The short version is that it isn''t a bug in the setup, it *is* the setup — which is a fancy way of saying the thing you thought was noise is the signal. And here''s the part I find genuinely lovely: it generalizes. Does that land, or am I pattern-matching too aggressively?".
+
+
       characteristic patterns:'
     "false": "`paragraph` is sedate and doesn't use claudeish phrasing."
   presentation:
