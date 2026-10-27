@@ -65,7 +65,7 @@ Week 1 goals:
 - the concept of Toc
 - motivation (what we want to build/achive)
 - problems we face
-- 
+- what's so spesific abot AI Saf
 - Exercise that feeds into written output
 %%
 # Meeting: Week 1
