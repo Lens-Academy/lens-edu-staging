@@ -17,7 +17,10 @@ draft:
     "true": '`paragraph` sounds like Claude Opus 5.
 
 
-      eg, at their most extreme, they sound like: "Oh, this is *delicious*. Okay — so the thing you''re pointing at is, and I want to be careful here because I think there are actually two claims bundled together, genuinely one of the more interesting versions of this I''ve run into. There''s a concept that''s almost exactly this. The short version is that it isn''t a bug in the setup, it *is* the setup — which is a fancy way of saying the thing you thought was noise is the signal. And here''s the part I find genuinely lovely: it generalizes. Does that land, or am I pattern-matching too aggressively?</quote>
+      eg, at the most extreme,  sound like:
+
+
+      <quote>Oh, this is *delicious*. Okay — so the thing you''re pointing at is, and I want to be careful here because I think there are actually two claims bundled together, genuinely one of the more interesting versions of this I''ve run into. There''s a concept that''s almost exactly this. The short version is that it isn''t a bug in the setup, it *is* the setup — which is a fancy way of saying the thing you thought was noise is the signal. And here''s the part I find genuinely lovely: it generalizes. Does that land, or am I pattern-matching too aggressively?</quote>
 
 
       - `paragraph` overuse of references such as "this", "that", "the thing"; and `paragraph` avoids superlatives such as "it isn''t just x, it''s y", "genuinely", "honestly", "exactly"; and `paragraph` avoids telegraphing phrases like "here''s the thing", "I want to be careful here"; and '
