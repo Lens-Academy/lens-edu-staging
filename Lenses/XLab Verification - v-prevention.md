@@ -15,7 +15,7 @@ But such public perception, or lack thereof, can obscure how difficult the true,
 
 [^y2k]: **Y2K**, or the Year 2000 problem, was a software flaw caused by many computer systems storing years with two digits. When 1999 became 2000, those systems could interpret “00” as 1900, producing wrong calculations or failures in systems that depended on dates. Extensive remediation prevented major national disruptions. Further reading: [NIST's contemporary explanation](https://www.nist.gov/news-events/news/1998/05/daley-says-nist-help-small-manufacturers-avoid-millennium-bug) and [the U.S. Government Accountability Office's retrospective](https://files.gao.gov/reports/105184/index.html).
 
-AI risk is especially susceptible to such public ignorance. Algorithms are invisible and intangible, unlike bombs sitting in siloes. Commercial chatbots seem helpful and benevolent. AI capabilities have been exponentially increasing, and we are notoriously terrible at internalizing hockey-stick timelines. The layman considers these and concludes that AI will probably not kill everyone.
+AI risk is especially susceptible to such public ignorance. Algorithms are invisible and intangible, unlike bombs sitting in siloes. Commercial chatbots seem helpful and benevolent. AI capabilities have been increasing expon, and we are notoriously terrible at internalizing hockey-stick timelines. The layman considers these and concludes that AI will probably not kill everyone.
 
 These obfuscating factors, however, undercuts the reality that AI poses real dangers to global infrastructure and safety. As you've read about in 0.1, recent cases of models breaking out of testing environments and hacking into real organizations exemplify how AI catastrophes are no longer hypothetical.
 
