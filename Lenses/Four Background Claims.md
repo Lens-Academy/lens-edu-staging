@@ -8,6 +8,6 @@ tldr: What makes AI safety worth working on now, before systems are powerful eno
 ---
 #### Text
 content::
-{--{"author":"Andreas's AI","timestamp":1793059725200}@@{>>{"author":"Andreas's AI","timestamp":1792998889140}@@Stage 6 flag, Lens text: this repeats the tldr in more words, "explains exactly how" promises more than an article of premises gives, and "his entire perspective on the prospects of AI" could be "his view". --}This reading explains how the emergence of AI smarter than humans could become an event with enormous stakes, and why, in the author's opinion, there is already meaningful work being done today that increases the chance of a positive outcome. The author identifies four key premises that underpin his entire perspective on the prospects of AI.
+This reading explains how the emergence of AI smarter than humans could become an event with enormous stakes, and why, in the author's opinion, there is already meaningful work being done today that increases the chance of a positive outcome. The author identifies four key premises that underpin his entire perspective on the prospects of AI.
 #### Article
 source:: [[../articles/soares-four-background-claims]]
