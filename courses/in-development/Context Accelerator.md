@@ -96,7 +96,7 @@ Week 3 goals: How to contribute (current needs of the field)
 - Basic overview over the orgs, funders and people behind each plan
 - Paths to impact
 	- The concepts of  "an impatfull contribution" and "a neglected area/problem"
-	- Background and its importance
+	- Background and iand transferable skills.
 	- Time horisonts and planning
 	- Counterfactual impact
 - Overview of requirements of main orgs/programs/jobs in the field
