@@ -60,7 +60,7 @@ Links:
 %%
 
 %%
-Week 1 goals: What 
+Week 1 goals: What we want
 - What's so spesific abot AI Safety (and why)
 - Motivation (what we want to build/achive)
 	- desired outcomes
@@ -76,7 +76,7 @@ survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
 
 %%
-Week 2 goals:
+Week 2 goals: What can be done
 - Metrics of success (how to compair ToCs)
 - 
 - Main plans in the field to get there (main ToCs)
