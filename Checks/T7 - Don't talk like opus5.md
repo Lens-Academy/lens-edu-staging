@@ -30,6 +30,9 @@ draft:
 view:
   sample: 300
   percentiles: "[0, 0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 0.5]"
+  courses:
+    - ai-
+    - ai-futures
 ---
 
 I asked opus5 to generate the example text. the conversation went like:
