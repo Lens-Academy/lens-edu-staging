@@ -155,6 +155,7 @@ Failure modes:
 Optional activities
 - Project matching conference
 	- Project proposers book slots to pitch + Q&A (People can send questions in advance)
+	- Copy MAISO structu
 %%
 # Meeting: Week 4
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
