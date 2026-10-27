@@ -9,6 +9,8 @@ tags: [wip]
 Value prop: (Field)
 - More high-experienced
 
+Slava'
+
 Value prop: (Person)
 - You leave with a written model of the field, your own theory of change and a 3-month plan. People from fellowships, employers and funders review it.
 - Months of orientation in 4 weeks: the best readings in the field (AI Safety Atlas, Redwood's AI Futurism list, the plans map), with an AI tutor and a group
