@@ -50,12 +50,12 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 | 1 | We Need More Theories of Change | 1,738 | 428 | 108 | Done, apart from spelling (later pass) |
 | 1 | Building Verification Intuitions | 398 | 131 | 79 | Done |
 | 1 | Read Plan A's Verification Plan | 82 | 82 | 0 | Passes |
-| 1 | Option A: Stress-test Plan A's Verification Regime | 948 | 122 | 88 | Flagged |
-| 1 | Option B: Compare Plan A and Plan S | 892 | 142 | 56 | Flagged |
+| 1 | Option A: Stress-test Plan A's Verification Regime | 948 | 122 | 88 | Rewritten, reviewed; one semicolon |
+| 1 | Option B: Compare Plan A and Plan S | 892 | 142 | 56 | Reviewed; one semicolon |
 | 1 | Optional: Further Exploration | 1,126 | 387 | 260 | Flagged; AI 2027 and three readings moved out |
 | 1 | AI 2027 (new page, 2026-10-26) | about 32,000 with the scenario | the tldr | 0 | Flagged |
-| 1 | The three reading pages (new, 2026-10-26) | about 16,500 with the readings | the tldrs | 0 | tldrs to rewrite |
-| 1 | Primer Practice: Inspection, Commitment, and Logic | 724 | 0 | 622 | Flagged |
+| 1 | The three reading pages (new, 2026-10-26) | about 16,500 with the readings | the tldrs | 0 | tldrs pass the checks; Andreas to read |
+| 1 | Primer Practice: Inspection, Commitment, and Logic | 724 | 0 | 622 | Rewritten, reviewed; one word; placement open (Q20) |
 | 2 | History, Precedents, Parallels | 3,493 | 185 | 1,236 | |
 | 2 | Introduction: what kind of policy are we trying to verify? | 1,179 | 79 | 330 | |
 | 2 | Drawing the Line: Compute vs. Capability | 1,314 | 510 | 27 | |
@@ -97,7 +97,7 @@ The overview and the five unit welcomes are inline in their modules and are not 
 - **Lens's text:** the tldr (line 4); the callout titles we added ("Optional: Further Reading", "Misuse vs. misalignment", the four leader titles); the strongest-objection prompt (lines 32 to 34, ours where it asks "what would move you towards the case and what would move you away from it"); the lead-in to the types-of-AI diagram (line 86); the source and chart credit lines (lines 123, 141). All pass apart from the tldr.
 - **Spoiler test: passes** (Andreas, 2026-10-26). Claude first failed it, since "Rivals cannot simply trust, punish, or open their books. Verification is the fourth option" gives the result of the verification-problem exercise. Andreas: naming verification as the way through is not much of a spoiler, since it is the purpose of the whole course.
 - **tldr flag:** a semicolon after "real companies". "Real companies" stays: escapes like this have happened more than once, Hugging Face being the best known, and that counts as general knowledge (Andreas).
-- **Review of the rewrite, 2026-10-26:** the semicolon is gone, but the first sentence now reads "…into real companies with the people building them say worse is coming", which does not parse. Candidate: "…into real companies, and the people building them say worse is coming."
+- **Review of the rewrite, 2026-10-26:** the semicolon is gone, but the first sentence now reads "…into real companies with the people building them say worse is coming", which does not parse. Candidate: "…into real companies, and the people building them say worse is coming." Fixed as suggested (Andreas).
 
 ### AI Is Grown, Not Built (optional, hidden)
 
