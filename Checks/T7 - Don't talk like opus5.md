@@ -43,7 +43,6 @@ draft:
       - `paragraph` avoids contentless build-up to a point.
 
       - `paragraph` only asks questions that are specific."
-  p
   pass_below: 0.15
   fail_at: 0.2
 view:
