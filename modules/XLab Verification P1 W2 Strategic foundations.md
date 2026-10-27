@@ -69,5 +69,8 @@ hide:: true
 source:: [[../Lenses/XLab Verification - v-sf-weaponized-interdependence]]
 
 # Lens:
+source:: [[../Lenses/XLab Verification - v-intuitions-drills-1]]
+
+# Lens:
 source:: [[../Lenses/XLab Verification - v-sf-written-exercise]]
 optional:: true
