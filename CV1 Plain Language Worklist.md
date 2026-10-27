@@ -19,7 +19,7 @@ Stage 6 of [[CV1 Restructure Log]]. Claude marks what is Lens's text, tests ever
 
 **Status, 2026-10-27.** The comma and the chart sentence are fixed (Andreas), so unit 1's text is done. Primer Practice is in Strategic Foundations, still required (A43). The per-question split waits on Andreas's go. Unit 2 is next.
 
-**Later on 2026-10-27.** Q20 is settled and built (A44, A45). The Game Theory primer now includes Ross's inspection game, and Primer Practice's Putnam and Fearon questions are optional, with their readings named and the Fearon key fixed. Three suggestions on the Game Theory and Strategic Foundations pages wait for Andreas. Unit 2 is next.
+**Later on 2026-10-27.** Q20 is settled and built (A44, A45). The Game Theory primer now includes Ross's inspection game, and Primer Practice's Putnam and Fearon questions are optional, with their readings named and the Fearon key fixed. Four suggestions on the Game Theory and Strategic Foundations pages wait for Andreas. Unit 2 is next.
 
 ## How to read an entry
 
