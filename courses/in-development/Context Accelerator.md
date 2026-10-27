@@ -123,6 +123,7 @@ Week 3 goals: How to contribute (current needs of the field)
 - Exercise that feeds into written output
 - Some networking events
 
+Optional activities
 - Write +
 %%
 # Meeting: Week 3
