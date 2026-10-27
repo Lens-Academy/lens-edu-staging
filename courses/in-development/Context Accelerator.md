@@ -10,7 +10,7 @@ Value prop: (Field)
 - More high-experienced
 
 - certain kinds of expertise in work focused on catastrophic risk
-- 
+-  a deep understanding of AI safety as a strategy or a field.
 
 Value prop: (Person)
 - You leave with a written model of the field, your own theory of change and a 3-month plan. People from fellowships, employers and funders review it.
