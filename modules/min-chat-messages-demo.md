@@ -14,7 +14,6 @@ The fields:
 - `min_chat_messages` (lens frontmatter, or `min_chat_messages::` on an inline lens; default 0): the learner must send at least this many messages to the Lens Tutor on that lens before "Mark section complete" works. Every message counts — page chat box, a question's feedback conversation, or the sidebar — except the auto-sent feedback request itself.
 - `optional:: true` makes a question skippable; on a whole lens, that lens never blocks completion.
 - `#### Question Set` with `minimum-questions-answered:: N`: the questions under it (one heading level down) need only N answers between them.
-- `:::require_x_optional_lenses{x=N}` around `::card` lines: the lens that holds the list needs N of the listed optional lenses completed.
 
 
 What learners see: while a requirement is unmet, "Mark section complete" is grayed out above a live "To finish this page:" checklist (e.g. "Send 2 messages to the Lens Tutor", "Answer question 2") — each item links to the spot.
