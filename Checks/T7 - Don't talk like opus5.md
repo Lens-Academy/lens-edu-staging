@@ -38,7 +38,7 @@ draft:
 
       - `paragraph` specifies what each phrase refers to using concrete nouns.
 
-      - "
+      - `paragraph` "
   presentation:
     context: lens
     question: paragraph
