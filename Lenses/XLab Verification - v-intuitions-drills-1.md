@@ -44,7 +44,7 @@ True. Each enforcement channel that works without a world government begins with
 
 #### Question: Choice
 id:: 43fbcb43-c2b2-41ea-bee2-71882b642b3b
-content:: In Putnam's two-level game, a leader who signs in good faith and then fails domestic ratification has still defected, involuntarily. True or false?
+content:: Optional, from The Logic of Two-Level Games: In Putnam's two-level game, a leader who signs in good faith and then fails domestic ratification has still defected, involuntarily. True or false?
 options::
 - True
 - False
