@@ -35,7 +35,7 @@ Use logic and evidence to support your judgment.
 
 In either option, four short responses help you develop your argument for the final essay.
 
-:::callout {title="A writing good practice" tone="neutral" collapse="closed"}
+:::callout {title="A good writing practice" tone="neutral" collapse="closed"}
 {>>{"author":"Andreas's AI","timestamp":1792998897079}@@Stage 6 flag, Lens text: the callout title "A writing good practice" is ungrammatical. See the CV1 plain language worklist.<<}Clarify the source of each claim you make, and explicitly identify gaps, uncertainties, or ambiguities as they appear. You won't know everything, and you aren't expected to.
 :::
 {>>{"author":"Elias's AI","timestamp":1788014588121}@@Order note: the "Works cited" segment currently lands before this question's "Why" callout; move it to the very end of the lens when accepting.<<}
