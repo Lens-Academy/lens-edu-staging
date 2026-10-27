@@ -74,7 +74,7 @@ feedback-instructions:: Explain: the tightest true label wins. "Game-theoretic c
 #### Text
 content::
 :::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
-The series rule: the tightest true label wins. "Game-theoretic concepts" is true but hopelessly broad; it earns zero on an olympiad table and it should here too. Fearon (1997): burn resources up front (sunk cost), make backing down costly later (tied hands), or remove the choice entirely (mechanical enforcement).
+The series rule: the tightest true label wins. "Game-theoretic concepts" is true but hopelessly broad; it earns zero on an olympiad table and it should here too. Fearon (1997) names the first two: burn resources up front (sunk cost) or make backing down costly later (tied hands). The third, removing the choice entirely (mechanical enforcement), is the doomsday machine in the Game Theory reading's section on commitment.
 :::
 
 #### Question: Choice
