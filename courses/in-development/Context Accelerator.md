@@ -148,6 +148,8 @@ Failure modes:
 - Summary
 - Consolidate
 - Some networking events
+
+- Write your pitch
 %%
 # Meeting: Week 4
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
