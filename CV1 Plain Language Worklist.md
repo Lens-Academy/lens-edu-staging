@@ -40,15 +40,16 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 |---|---|---|---|---|---|
 | 1 | Welcome | 657 | 97 | 0 | Left for stage 7 |
 | 1 | Introduction: Why Should You Care About AI Verification? | 2,475 | 270 | 378 | Flagged |
-| 1 | AI Is Grown, Not Built | 531 | 531 | 0 | Out of scope |
-| 1 | Four Background Claims | 57 | 57 | 0 | Out of scope |
+| 1 | AI Is Grown, Not Built | 531 | 531 | 0 | Rewritten, reviewed |
+| 1 | Four Background Claims | 57 | 57 | 0 | tldr rewritten; introduction open |
 | 1 | Why Securitizing AI Is Difficult but Necessary | 776 | 191 | 50 | Flagged |
 | 1 | We Need More Theories of Change | 1,738 | 428 | 108 | Flagged |
 | 1 | Building Verification Intuitions | 398 | 131 | 79 | Flagged |
 | 1 | Read Plan A's Verification Plan | 82 | 82 | 0 | Passes |
 | 1 | Option A: Stress-test Plan A's Verification Regime | 948 | 122 | 88 | Flagged |
 | 1 | Option B: Compare Plan A and Plan S | 892 | 142 | 56 | Flagged |
-| 1 | Optional: Further Exploration | 1,126 | 387 | 260 | Flagged |
+| 1 | Optional: Further Exploration | 1,126 | 387 | 260 | Flagged; AI 2027 moved out |
+| 1 | AI 2027 (new page, 2026-10-26) | about 32,000 with the scenario | the tldr | 0 | Flagged |
 | 1 | Primer Practice: Inspection, Commitment, and Logic | 724 | 0 | 622 | Flagged |
 | 2 | History, Precedents, Parallels | 3,493 | 185 | 1,236 | |
 | 2 | Introduction: what kind of policy are we trying to verify? | 1,179 | 79 | 330 | |
@@ -94,7 +95,9 @@ The overview and the five unit welcomes are inline in their modules and are not 
 
 ### AI Is Grown, Not Built (optional, hidden): out of scope
 
-**Not done, 2026-10-26 (Andreas).** This page and Four Background Claims may be dropped from the course, so they are left out of stage 6; the notes below are kept for whoever picks them up, and their two page flags were withdrawn (removal pending). Both are hidden in the unit 1 module, though the introduction's closed "Optional: Further Reading" callout carries a card to each (lines 22 to 27), so a learner who opens it can still reach them.
+**Back in scope, 2026-10-26 (A40).** Andreas first left this page and Four Background Claims out (A39), then found the introduction's closed "Optional: Further Reading" callout links to both (lines 22 to 27) and rewrote their tldrs. Their two page flags had been withdrawn in between; the removals are pending.
+
+**Review of the rewrite.** The introduction (line 12) has lost its semicolon. Its last sentence, now "examines these features and consequences born from the current AI development paradigm", still says what the article does in general terms, and "born from" is a little mannered; a judgment call. The tldr is unchanged, so its mild spoiler and the "deploy" point stand if Andreas wants to keep them, which is his call.
 
 [[Lenses/XLab Verification - v-ai-is-grown]]. Not from XLab; the article is Yudkowsky and Soares. Also in the demo and archived courses.
 
@@ -104,9 +107,9 @@ The overview and the five unit welcomes are inline in their modules and are not 
 - **Flag on the page:** line 12 (withdrawn).
 - **Minor, no flag:** line 20, "the difference between how ChatGPT was created versus how…" should be "between … and …".
 
-### Four Background Claims (optional, hidden): out of scope
+### Four Background Claims (optional, hidden)
 
-Not done, as above. [[Lenses/Four Background Claims]]. Not from XLab; the article is Soares (MIRI). Shared: also in Introduction to Lens Academy, the orientation module and the demo and archived courses, so a rewrite changes those too.
+Back in scope, as above. **Review:** the tldr's em dash is gone. The introduction (line 11) is unchanged, and the withdrawn flag on it is pending removal; rejecting that removal keeps the flag. [[Lenses/Four Background Claims]]. Not from XLab; the article is Soares (MIRI). Shared: also in Introduction to Lens Academy, the orientation module and the demo and archived courses, so a rewrite changes those too.
 
 - **Lens's text:** the tldr and the introduction (line 11).
 - **Spoiler test:** passes; no exercise.
@@ -119,7 +122,7 @@ Not done, as above. [[Lenses/Four Background Claims]]. Not from XLab; the articl
 
 - **Lens's text:** the tldr; line 14, where we corrected XLab's "experts spent hundreds of hours fixing it" to "governments and companies spent years finding, repairing, and testing affected systems"; the Y2K footnote (line 16); the callout title "The Risks of Securitization". All pass apart from the tldr.
 - **Spoiler test:** passes; the page has no exercise, and its outcome test is separate.
-- **tldr flag:** it opens with a slogan, "Y2K did nothing because thousands of people fixed it first", and "Y2K did nothing" says the opposite of what is meant (Y2K did little harm because it was fixed in advance).
+- **tldr flag:** it opens with a slogan, "Y2K did nothing because thousands of people fixed it first". **Corrected, 2026-10-26:** Claude first wrote that "Y2K did nothing" says the opposite of what is meant, which overstated it; the sentence does say why ("because thousands of people fixed it first"). The narrower point: it opens on "Y2K did nothing", the very reading the page argues against (that Y2K was a non-event), and the bug is the subject that "did" something. Whether that turn is the point of the line is Andreas's call.
 
 ### We Need More Theories of Change
 
@@ -166,7 +169,7 @@ Not done, as above. [[Lenses/Four Background Claims]]. Not from XLab; the articl
 - **Lens's text:** the tldr; line 50; the chart headings and captions (lines 57 to 109), which pass.
 - **Spoiler test:** passes.
 - **Flag on the page:** line 50. **Correction, 2026-10-26:** the flag's gloss, that the charts are all redrawn from AI 2027's published data, repeats the line's own error. Two of the four come from outside AI 2027 (METR's time horizons and Epoch AI's prices); the superhuman-coder forecast and the takeoff chart are the AI 2027 authors' (Andreas).
-- **Structure (Andreas, 2026-10-26):** the page embeds about 48,000 words, about 31,600 of them AI 2027 and its two endings and 16,500 the three embedded readings, against its stated 45 minutes. Andreas suggests moving AI 2027 and the readings onto their own linked pages, as Strategic Foundations does, so a learner who has read AI 2027 can skip it. A proposal is with Andreas; nothing is built.
+- **Structure (Andreas, 2026-10-26):** the page embeds about 48,000 words, about 31,600 of them AI 2027 and its two endings and 16,500 the three embedded readings, against its stated 45 minutes. Andreas suggests moving AI 2027 and the readings onto their own linked pages, as Strategic Foundations does, so a learner who has read AI 2027 can skip it. **Built for AI 2027, 2026-10-26 (A41):** AI 2027, its "Explore AI 2027" question (id unchanged, so answers follow it), both endings and the four charts moved word for word to a new page, [[Lenses/XLab Verification - v-intuitions-ai-2027]], which this page now links with a card. The line-50 flag moved with its sentence, with the corrected gloss. The new page's tldr, tutor summary and Works cited are ours; the tldr is for Andreas to rewrite. The three embedded readings stay here until Andreas chooses how to split them.
 
 ### Primer Practice: Inspection, Commitment, and Logic
 
