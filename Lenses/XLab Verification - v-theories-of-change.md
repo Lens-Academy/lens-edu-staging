@@ -43,7 +43,7 @@ So, what does a good AI safety theory of change actually look like? This table m
 
 | Inputs | Outputs | Outputs | Outcome | Outcome | Outcome |
 |---|---|---|---|---|---|
-| What do we need? | What do we do? | Who do we reach? | What changes first? | Intermediate | Long-term |
+| What do we need? | What do we do? | Who do we reach? | Short-term | Intermediate | Long-term |
 | *Resources, people* | *Activities* | *New audience, collaborators* | *Knowledge increased* | *Behavior changed, decision-making done* | *Conditions changed* |
 
 | Assumptions | External factors |
