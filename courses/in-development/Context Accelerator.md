@@ -65,7 +65,7 @@ Week 1 goals:
 	- the concept of Toc
 	- motivation (what we want to build/achive)
 	- problems we face
-- Overview of main agendas
+-  what's so spesific abot AI Safety (and why)
 -
 - Exercise to evaluate ToCs (basics structure and flaws)
 - Exercise that feeds into written output
