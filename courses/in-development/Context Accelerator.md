@@ -86,7 +86,8 @@ Optional activities every week
 - Unconference days (participants or navs can give lighning talks - session 30min)
 	- Copy MAISUs "minimal ai safety unconference"  
 - Expert Lighning talks throughout the week
-	- Hiring people from different orgs (expla)
+	- Hiring people from different orgs (explain what type of people they look for)
+	- 
 - Exercise peer review (moderated)
 
 Optional activities
