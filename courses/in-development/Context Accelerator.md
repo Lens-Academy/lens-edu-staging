@@ -108,6 +108,7 @@ Week 2 goals: What can be done (exesting approaches)
 - alternative: reconstruct a threat model 
 - Exercise that feeds into written output
 - Some networking events
+
 %%
 # Meeting: Week 2
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
