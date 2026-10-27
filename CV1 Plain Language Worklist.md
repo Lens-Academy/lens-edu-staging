@@ -21,6 +21,8 @@ Stage 6 of [[CV1 Restructure Log]]. Claude marks what is Lens's text, tests ever
 
 **Later on 2026-10-27.** Q20 is settled and built (A44, A45). The Game Theory primer now includes Ross's inspection game, and Primer Practice's Putnam and Fearon questions are optional, with their readings named and the Fearon key fixed. Four suggestions on the Game Theory and Strategic Foundations pages wait for Andreas. Unit 2 is next.
 
+**Status, afternoon of 2026-10-27.** Andreas's edits to the four suggestions are reviewed and pass. Unit 2 is flagged: five tldr flags, one of them a spoiler (History, Precedents, Parallels); six flags on the pages, three of them Content; three XLab passages for Andreas and Elias.
+
 ## How to read an entry
 
 - **Lens's text** lists the passages that are ours, by line in the lens file. Everything else on the page is XLab's.
