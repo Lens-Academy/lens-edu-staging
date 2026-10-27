@@ -35,7 +35,7 @@ tags: [wip]
 	- Evaluate project proposals and organizational mission statements.
 		- ability to eval toc
 			- ability to build a toc out of PP or MS (or other text)
-			- to know what toc is
+			- 
 		- knowing what the metrisc are
 		- knowing what is good and bad in terms of ToC
 	- Stretch goal: write project proposals and organizational mission statements
