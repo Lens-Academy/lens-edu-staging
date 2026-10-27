@@ -167,9 +167,6 @@ Failure modes:
   
 - Finish/polish written output & present it somehow
 - Task that requires integrating knowledge from first 3 weeks
-- Summary
-- Consolidate
-- Some networking events
 
 Optional activities
 - Project matching conference
