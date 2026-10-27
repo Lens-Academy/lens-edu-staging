@@ -97,7 +97,7 @@ Week 3 goals: How to contribute (current needs of the field)
 	- Background and its importance
 	- Time horisonts and planning
 - Overview of requirements of main orgs/programs/jobs in the field
-- Exercise "evaluate an agenda: "
+- Exercise "evaluate an agenda f"
 - Exercise that feeds into written output
 %%
 # Meeting: Week 3
