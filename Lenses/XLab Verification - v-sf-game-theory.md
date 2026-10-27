@@ -30,6 +30,7 @@ to:: Commitment through concern for reputation is the cement of society, but any
 source:: [[../articles/ross-game-theory-stanford-encyclopedia-of-philosophy]]
 from:: ### 8.2 Neuroeconomics and Game Theory
 to:: in various runs of the game.
+
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
