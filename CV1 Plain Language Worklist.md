@@ -15,7 +15,7 @@ Stage 6 of [[CV1 Restructure Log]]. Claude marks what is Lens's text, tests ever
 
 **Status, evening of 2026-10-26.** Andreas fixed six of the seven notes; the seventh, "cancelled", waits for the later American-spelling pass. Two new one-word notes (Why Securitizing AI, Primer Practice). Options A and B each have one semicolon left, on the same shared line. Still to do in unit 1: the AI 2027 page (Andreas). Andreas found that Primer Practice sits a unit before the material it drills; where it goes is Q20 in the log, not built.
 
-**Status, late on 2026-10-26.** Unit 1's text is done (Andreas), and every unit 1 flag is resolved; the last five removals are pending. Two minor notes are left (a comma in Options A and B, a word in AI 2027's chart sentence), plus "cancelled" for the spelling pass. Open: Q20, the drill's placement. Unit 2 is next.
+**Status, late on 2026-10-26.** Unit 1's text is done (Andreas), and every unit 1 flag is resolved; their removals are pending. Two minor notes are left (a comma in Options A and B, a word in AI 2027's chart sentence), plus "cancelled" for the spelling pass. Open: Q20, the drill's placement. Unit 2 is next.
 
 ## How to read an entry
 
@@ -48,16 +48,16 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 | 1 | Introduction: Why Should You Care About AI Verification? | 2,475 | 270 | 378 | Done |
 | 1 | AI Is Grown, Not Built | 531 | 531 | 0 | Rewritten, reviewed |
 | 1 | Four Background Claims | 57 | 57 | 0 | Done |
-| 1 | Why Securitizing AI Is Difficult but Necessary | 776 | 191 | 50 | Rewritten, reviewed; one word |
+| 1 | Why Securitizing AI Is Difficult but Necessary | 776 | 191 | 50 | Done |
 | 1 | We Need More Theories of Change | 1,738 | 428 | 108 | Done, apart from spelling (later pass) |
 | 1 | Building Verification Intuitions | 398 | 131 | 79 | Done |
 | 1 | Read Plan A's Verification Plan | 82 | 82 | 0 | Passes |
-| 1 | Option A: Stress-test Plan A's Verification Regime | 948 | 122 | 88 | Rewritten, reviewed; one semicolon |
-| 1 | Option B: Compare Plan A and Plan S | 892 | 142 | 56 | Reviewed; one semicolon |
+| 1 | Option A: Stress-test Plan A's Verification Regime | 948 | 122 | 88 | Done; one comma |
+| 1 | Option B: Compare Plan A and Plan S | 892 | 142 | 56 | Done; one comma |
 | 1 | Optional: Further Exploration | 1,126 | 387 | 260 | Flagged; AI 2027 and three readings moved out |
-| 1 | AI 2027 (new page, 2026-10-26) | about 32,000 with the scenario | the tldr | 0 | Flagged |
-| 1 | The three reading pages (new, 2026-10-26) | about 16,500 with the readings | the tldrs | 0 | tldrs pass the checks; Andreas to read |
-| 1 | Primer Practice: Inspection, Commitment, and Logic | 724 | 0 | 622 | Rewritten, reviewed; one word; placement open (Q20) |
+| 1 | AI 2027 (new page, 2026-10-26) | about 32,000 with the scenario | the tldr | 0 | Done; one minor note |
+| 1 | The three reading pages (new, 2026-10-26) | about 16,500 with the readings | the tldrs | 0 | Done |
+| 1 | Primer Practice: Inspection, Commitment, and Logic | 724 | 0 | 622 | Done; placement open (Q20) |
 | 2 | History, Precedents, Parallels | 3,493 | 185 | 1,236 | |
 | 2 | Introduction: what kind of policy are we trying to verify? | 1,179 | 79 | 330 | |
 | 2 | Drawing the Line: Compute vs. Capability | 1,314 | 510 | 27 | |
