@@ -80,6 +80,7 @@ List of optional activities during the week
 - Open discussion (moderated)
 	- Propose discussion rooms → join what you're interested in
 - Random coffee (maybe add a map of interests or something)
+	- Maybe: Schedule 1-on-1s (copy EAG system)
 carreer
 %%
 # Meeting: Week 1
