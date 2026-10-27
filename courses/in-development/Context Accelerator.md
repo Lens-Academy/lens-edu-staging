@@ -9,8 +9,7 @@ tags: [wip]
 Value prop: (Field)
 - More high-context people
 
-- certain kinds of expertise in work focused on catastrophic risk
--  a deep understanding of AI safety as a strategy or a field.
+
 -  
 
 Value prop: (Person)
