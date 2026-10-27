@@ -2,7 +2,7 @@
 id: 'd274604f-c1e4-4538-ad50-dde3c49a6d66'
 title: "Primer Practice: Inspection, Commitment, and Logic"
 tldr: "Commit an answer, read the explanation, and continue through six ungraded checks."
-summary_for_tutor: "Six ungraded primer drills. Preserve all choices and explanations. Ask learner to commit before revealing each explanation; do not assign a score. Sits in Strategic foundations after the readings. The first and fifth checks draw on the inspection game in the Game Theory primer (§8.2), the second on its §6, and the sixth on logic alone. The third, on Putnam's two-level games, is optional, since that reading is. The fourth names Fearon, an optional reading."
+summary_for_tutor: "Six ungraded primer drills. Preserve all choices and explanations. Ask learner to commit before revealing each explanation; do not assign a score. In Compute Verification 1 it sits in Strategic foundations, after the readings. The first and fifth checks draw on the inspection game in the Game Theory primer (§8.2), the second on its §6, and the sixth on logic alone. The third, on Putnam's two-level games, is optional, since that reading is. The fourth names Fearon, an optional reading."
 reading_minutes: 4
 tutor_minutes: 12
 tags: [wip]
