@@ -78,7 +78,7 @@ List of optional activities during the week
 - 1 Meme contest
 - 2 Exercise peer review (moderated)
 - 3 Open discussion (moderated)
-- 4 
+	- 
 carreer
 %%
 # Meeting: Week 1
