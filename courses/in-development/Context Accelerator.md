@@ -83,7 +83,7 @@ Optional activities every week
 - Open discussion (moderated)
 	- Propose discussion rooms → join what you're interested in
 	- Barometer exercise
-- Unconference days (participants or navs can give lighning talks 30min)
+- Unconference days (participants or navs can give lighning talks - session 30min)
 - expert Lighning talks
 
 Optional activities
