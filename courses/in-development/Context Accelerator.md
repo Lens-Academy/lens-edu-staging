@@ -76,7 +76,7 @@ survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
 
 %%
-Week 2 goals: What can be done (exesting approatcehs )
+Week 2 goals: What can be done (exesting approaches)
 - Metrics of success (how to compair ToCs)
 - 
 - Main plans in the field to get there (main ToCs)
