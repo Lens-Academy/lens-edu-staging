@@ -55,6 +55,7 @@ draft:
       - sentence
       - line
   pass_below: 0.15
+  fail_at: 0.2
 view:
   sample: 300
   percentiles: "[0, 0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 0.5]"
