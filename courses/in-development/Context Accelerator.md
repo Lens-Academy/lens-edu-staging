@@ -98,6 +98,7 @@ Week 3 goals: How to contribute (current needs of the field)
 	- Time horisonts and planning
 	
 - Overview of requirements of main orgs/programs/jobs in the field
+- умфдгфе
 - Exercise that feeds into written output
 %%
 # Meeting: Week 3
