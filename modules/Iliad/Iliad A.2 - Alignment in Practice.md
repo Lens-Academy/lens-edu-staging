@@ -41,19 +41,23 @@ source:: [[../../Lenses/kutasov-teaching-claude-why]]
 # Lens: A.2.4 Deployment 1: strategy
 source:: [[../../Lenses/Iliad/A.2 Alignment in Practice/Iliad A.2.4 - Deployment 1 - strategy]]
 
-# Lens: Anthropic Responsible Scaling Policy
+## Choose: 1
+
+### Lens: Anthropic Responsible Scaling Policy
 source:: [[../../Lenses/anthropic-responsible-scaling-policy]]
 
-# Lens: OpenAI Preparedness Framework
+### Lens: OpenAI Preparedness Framework
 source:: [[../../Lenses/openai-our-updated-preparedness-framework]]
 
 # Lens: A.2.5 Deployment 2: building the safety system
 source:: [[../../Lenses/Iliad/A.2 Alignment in Practice/Iliad A.2.5 - Deployment 2 - building the safety system]]
 
-# Lens: Detecting and countering misuse of AI
+## Choose: 1
+
+### Lens: Detecting and countering misuse of AI
 source:: [[../../Lenses/anthropic-countering-misuse-of-ai-september-2026]]
 
-# Lens: Pliny the Liberator (TIME)
+### Lens: Pliny the Liberator (TIME)
 source:: [[../../Lenses/pillay-time100-ai-2025-pliny-the-liberator]]
 
 # Lens: A.2.6 Further reading
