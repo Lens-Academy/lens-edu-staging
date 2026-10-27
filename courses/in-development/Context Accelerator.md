@@ -99,16 +99,8 @@ Week 3 goals: How to contribute (current needs of the field)
 - Overview of requirements of main orgs/programs/jobs in the field
 - Exercise "evaluate an agenda"
 	- Is this agenda promising?
-
-
 Is this agenda neglected?
-
-
-
 Could I make a valuable contribution to it?
-
-
-
 Is this my best available opportunity?
 - Exercise that feeds into written output
 %%
