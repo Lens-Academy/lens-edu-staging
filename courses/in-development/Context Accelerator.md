@@ -57,9 +57,6 @@ Links:
 %%
 Week 1 goals:
 - What success looks like (the concept of Toc)
-	- Main plans in the field to get there (main ToCs)
-	- Basic overview over the orgs, funders and people behind each plan
-	- Overview of requirements of main orgs/programs/jobs in the field
 %%
 # Meeting: Week 1
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
