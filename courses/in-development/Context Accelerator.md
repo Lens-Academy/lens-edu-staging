@@ -116,9 +116,8 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 Week 4 goals:  Common failure modes in building an AI Safety career
 - Earlier strategic decisionmaking
 - Reversible vs irreversible decisions.
-Exploration vs commitment.
-
-Robust strategies across plausible futures.
+- Exploration vs commitment.
+- Robust strategies across plausible futures.
 - 2
 - 3
 - Finish/polish written output & present it somehow
