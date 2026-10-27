@@ -122,6 +122,8 @@ Week 3 goals: How to contribute (current needs of the field)
 	- Is this my best available opportunity?
 - Exercise that feeds into written output
 - Some networking events
+
+- Write +
 %%
 # Meeting: Week 3
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
