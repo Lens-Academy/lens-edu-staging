@@ -124,7 +124,7 @@ Week 3 goals: How to contribute (current needs of the field)
 - Some networking events
 
 Optional activities
-- Write your pitch
+- Write your pitch + book a slo
 	- One sentence summary
 	- One paragraph summary
 	- One page summary
