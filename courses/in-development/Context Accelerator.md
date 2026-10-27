@@ -73,7 +73,6 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
 %%
 Week 3 goals:
-- Basic overview over the orgs, funders and people behind each plan
 %%
 # Meeting: Week 3
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
