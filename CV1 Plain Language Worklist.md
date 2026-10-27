@@ -89,10 +89,12 @@ The overview and the five unit welcomes are inline in their modules and are not 
 [[Lenses/XLab Verification - v-introduction]]. Almost all XLab's.
 
 - **Lens's text:** the tldr (line 4); the callout titles we added ("Optional: Further Reading", "Misuse vs. misalignment", the four leader titles); the strongest-objection prompt (lines 32 to 34, ours where it asks "what would move you towards the case and what would move you away from it"); the lead-in to the types-of-AI diagram (line 86); the source and chart credit lines (lines 123, 141). All pass apart from the tldr.
-- **Spoiler test: fails.** "Rivals cannot simply trust, punish, or open their books. Verification is the fourth option" gives the result of the verification-problem exercise, where the learner tests trust, punishment and transparency in turn and finds that each one fails and only verification holds.
-- **tldr flags:** the spoiler; a semicolon after "real companies". The opening claim, that models have "broken out of test environments and into real companies", is backed by the page (the agents that escaped an OpenAI test and broke into Hugging Face's systems), though the page has one company, not several.
+- **Spoiler test: passes** (Andreas, 2026-10-26). Claude first failed it, since "Rivals cannot simply trust, punish, or open their books. Verification is the fourth option" gives the result of the verification-problem exercise. Andreas: naming verification as the way through is not much of a spoiler, since it is the purpose of the whole course.
+- **tldr flag:** a semicolon after "real companies". "Real companies" stays: escapes like this have happened more than once, Hugging Face being the best known, and that counts as general knowledge (Andreas).
 
-### AI Is Grown, Not Built (optional, hidden)
+### AI Is Grown, Not Built (optional, hidden): out of scope
+
+**Not done, 2026-10-26 (Andreas).** This page and Four Background Claims may be dropped from the course, so they are left out of stage 6; the notes below are kept for whoever picks them up, and their two page flags were withdrawn (removal pending). Both are hidden in the unit 1 module, though the introduction's closed "Optional: Further Reading" callout carries a card to each (lines 22 to 27), so a learner who opens it can still reach them.
 
 [[Lenses/XLab Verification - v-ai-is-grown]]. Not from XLab; the article is Yudkowsky and Soares. Also in the demo and archived courses.
 
@@ -102,9 +104,9 @@ The overview and the five unit welcomes are inline in their modules and are not 
 - **Flag on the page:** line 12.
 - **Minor, no flag:** line 20, "the difference between how ChatGPT was created versus how…" should be "between … and …".
 
-### Four Background Claims (optional, hidden)
+### Four Background Claims (optional, hidden): out of scope
 
-[[Lenses/Four Background Claims]]. Not from XLab; the article is Soares (MIRI). Shared: also in Introduction to Lens Academy, the orientation module and the demo and archived courses, so a rewrite changes those too.
+Not done, as above. [[Lenses/Four Background Claims]]. Not from XLab; the article is Soares (MIRI). Shared: also in Introduction to Lens Academy, the orientation module and the demo and archived courses, so a rewrite changes those too.
 
 - **Lens's text:** the tldr and the introduction (line 11).
 - **Spoiler test:** passes; no exercise.
