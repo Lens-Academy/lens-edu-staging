@@ -133,6 +133,7 @@ Failure modes:
 - Task that requires integrating knowledge from first 3 weeks
 - Summary
 - Consolidate
+- Some networking events
 %%
 # Meeting: Week 4
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
