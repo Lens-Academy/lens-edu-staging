@@ -83,7 +83,8 @@ Optional activities every week
 - Open discussion (moderated)
 	- Propose discussion rooms → join what you're interested in
 	- Barometer exercise
-- Unconference days lightning talks (experts + navigators + participants)
+- Unconference days lightning talks
+- expert Lighning talks + navigators + participants)
 
 Optional activities
 - {==Lightning talk about mastermind groups==}{>>{"author":"Elias","timestamp":1793119053999}@@Should be recorded, uploaded to YT, and shared in discord @hamza, can you do it?<<}
