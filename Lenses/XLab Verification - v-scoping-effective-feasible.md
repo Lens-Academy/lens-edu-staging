@@ -28,7 +28,7 @@ Sort the following policy buckets on the feasibility x effectiveness matrix.
 content::
 \### The axes
 
-Before the buckets: the two words doing the work. Read both scales before the buckets.
+{>>{"author":"Andreas's AI","timestamp":1793131851387}@@Stage 6 flag, Lens text: "before the buckets" appears twice in two sentences, and the first is a fragment taken from the widget's heading ("the two words doing the work"). Candidate: "Read both scales before you sort the buckets." See the CV1 plain language worklist.<<}Before the buckets: the two words doing the work. Read both scales before the buckets.
 
 :::callout {title="What is effectiveness?" tone="neutral" collapse="closed"}
 **Effectiveness.** How much the policy actually deters ASI development, measured against the global race, not against one country’s labs. Low to high:
@@ -50,7 +50,7 @@ Before the buckets: the two words doing the work. Read both scales before the bu
 5. **Already happening.** Versions of it exist today.
 :::
 
-Two corners of the plane are empty by construction. High effectiveness at high feasibility is the policy everyone would already have adopted; nothing lives there. Costly to get and weak once you have it is the worst of both; if a bucket seems to belong there, one of your axis readings is off.
+{>>{"author":"Andreas's AI","timestamp":1793131854463}@@Stage 6 flag, Lens text and Content: two semicolons (Course Authoring), and "the plane" where the page above says "matrix". Content: "Costly to get and weak once you have it" also describes the reference placement of bucket 5, joint emergency preparedness (long shot, symbolic), one cell from this corner. A learner who places it there correctly may then think their reading is off. Naming the cell ("off the table and symbolic") would avoid that. See the CV1 plain language worklist.<<}Two corners of the plane are empty by construction. High effectiveness at high feasibility is the policy everyone would already have adopted; nothing lives there. Costly to get and weak once you have it is the worst of both; if a bucket seems to belong there, one of your axis readings is off.
 
 \### The buckets
 
