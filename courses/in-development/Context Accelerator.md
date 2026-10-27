@@ -87,7 +87,8 @@ Optional activities every week
 	- Copy MAISUs "minimal ai safety unconference"  
 - Expert Lighning talks throughout the week
 	- Hiring people from different orgs (explain what type of people they look for)
-	- Topic exp
+	- Topic experts...
+	- People presenting jobs
 - Exercise peer review (moderated)
 
 Optional activities
