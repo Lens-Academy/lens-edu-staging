@@ -69,7 +69,7 @@ Week 1 goals: What we want (the shape of the alignment problem and requirments t
 - Motivation (what we want to build/achive)
 	- desired outcomes
 		- shape of end-game solution
-			- controll
+			- control
 			- align
 			- pause
 		- shape of the 
