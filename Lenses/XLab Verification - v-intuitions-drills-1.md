@@ -9,7 +9,7 @@ tags: [wip]
 ---
 #### Text
 content::
-{>>{"author":"Andreas's AI","timestamp":1792998955118}@@Stage 6 flag, Lens text: opens with a fragment, and "the primer bench" is XLab's name for its drill set, which a learner here never sees. The instructions after it are clipped ("Commit an answer before each reveal, read why, then continue"). See the CV1 plain language worklist.<<}Test your intuitio primer bench: inspection games, credible commitment, and two-level games.
+{>>{"author":"Andreas's AI","timestamp":1792998955118}@@Stage 6 flag, Lens text: opens with a fragment, and "the primer bench" is XLab's name for its drill set, which a learner here never sees. The instructions after it are clipped ("Commit an answer before each reveal, read why, then continue"). See the CV1 plain language worklist.<<}Test your intuitions primer bench: inspection games, credible commitment, and two-level games.
 Commit an answer before each reveal, read why, then continue. Nothing here is graded.
 
 #### Question: Choice
