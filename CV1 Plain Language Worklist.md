@@ -46,9 +46,9 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 | 1 | Introduction: Why Should You Care About AI Verification? | 2,475 | 270 | 378 | Done |
 | 1 | AI Is Grown, Not Built | 531 | 531 | 0 | Rewritten, reviewed |
 | 1 | Four Background Claims | 57 | 57 | 0 | Done |
-| 1 | Why Securitizing AI Is Difficult but Necessary | 776 | 191 | 50 | tldr rewritten, reviewed; one note |
-| 1 | We Need More Theories of Change | 1,738 | 428 | 108 | tldr rewritten, reviewed; two notes |
-| 1 | Building Verification Intuitions | 398 | 131 | 79 | Rewritten, reviewed; one note |
+| 1 | Why Securitizing AI Is Difficult but Necessary | 776 | 191 | 50 | Rewritten, reviewed; one word |
+| 1 | We Need More Theories of Change | 1,738 | 428 | 108 | Done, apart from spelling (later pass) |
+| 1 | Building Verification Intuitions | 398 | 131 | 79 | Done |
 | 1 | Read Plan A's Verification Plan | 82 | 82 | 0 | Passes |
 | 1 | Option A: Stress-test Plan A's Verification Regime | 948 | 122 | 88 | Flagged |
 | 1 | Option B: Compare Plan A and Plan S | 892 | 142 | 56 | Flagged |
