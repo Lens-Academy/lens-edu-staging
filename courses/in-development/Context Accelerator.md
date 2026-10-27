@@ -77,7 +77,7 @@ facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
 
 %%
 Week 2 goals:
-- Metrics of success (who to compair ToCs)
+- Metrics of success (how to compair ToCs)
 - 
 - Main plans in the field to get there (main ToCs)
 	- Overview of main agendas
