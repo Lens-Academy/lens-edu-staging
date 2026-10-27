@@ -40,8 +40,8 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 |---|---|---|---|---|---|
 | 1 | Welcome | 657 | 97 | 0 | Left for stage 7 |
 | 1 | Introduction: Why Should You Care About AI Verification? | 2,475 | 270 | 378 | Flagged |
-| 1 | AI Is Grown, Not Built | 531 | 531 | 0 | Flagged |
-| 1 | Four Background Claims | 57 | 57 | 0 | Flagged |
+| 1 | AI Is Grown, Not Built | 531 | 531 | 0 | Out of scope |
+| 1 | Four Background Claims | 57 | 57 | 0 | Out of scope |
 | 1 | Why Securitizing AI Is Difficult but Necessary | 776 | 191 | 50 | Flagged |
 | 1 | We Need More Theories of Change | 1,738 | 428 | 108 | Flagged |
 | 1 | Building Verification Intuitions | 398 | 131 | 79 | Flagged |
@@ -111,7 +111,7 @@ Not done, as above. [[Lenses/Four Background Claims]]. Not from XLab; the articl
 - **Lens's text:** the tldr and the introduction (line 11).
 - **Spoiler test:** passes; no exercise.
 - **tldr flag:** an em dash (Course Authoring).
-- **Flag on the page:** line 11.
+- **Flag on the page:** line 11 (withdrawn).
 
 ### Why Securitizing AI Is Difficult but Necessary
 
@@ -165,7 +165,8 @@ Not done, as above. [[Lenses/Four Background Claims]]. Not from XLab; the articl
 
 - **Lens's text:** the tldr; line 50; the chart headings and captions (lines 57 to 109), which pass.
 - **Spoiler test:** passes.
-- **Flag on the page:** line 50.
+- **Flag on the page:** line 50. **Correction, 2026-10-26:** the flag's gloss, that the charts are all redrawn from AI 2027's published data, repeats the line's own error. Two of the four come from outside AI 2027 (METR's time horizons and Epoch AI's prices); the superhuman-coder forecast and the takeoff chart are the AI 2027 authors' (Andreas).
+- **Structure (Andreas, 2026-10-26):** the page embeds about 48,000 words, about 31,600 of them AI 2027 and its two endings and 16,500 the three embedded readings, against its stated 45 minutes. Andreas suggests moving AI 2027 and the readings onto their own linked pages, as Strategic Foundations does, so a learner who has read AI 2027 can skip it. A proposal is with Andreas; nothing is built.
 
 ### Primer Practice: Inspection, Commitment, and Logic
 
