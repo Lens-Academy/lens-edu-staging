@@ -127,8 +127,8 @@ Optional activities
 - Write your pitch
 	- One sentence summary
 	- One paragraph summary
-	- 
-	- Doc/in-person presentation/video
+	- One page summary
+	- Optional: Doc/in-person presentation/video
 %%
 # Meeting: Week 3
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
