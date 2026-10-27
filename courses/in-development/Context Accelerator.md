@@ -80,8 +80,8 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
 %%
 Week 4 goals:
-- Your own strategy, theory of change and 3-month plan, using rationality tools (CFAR Handbook)
-- Present it to your group and to reviewers
+- Basic overview over the orgs, funders and people behind each plan
+- Overview of requirements of main orgs/programs/jobs in the field
 %%
 # Meeting: Week 4
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
