@@ -104,7 +104,7 @@ survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
 %%
-Week 4 goals:  Comm
+Week 4 goals:  Common failure modes 
 - Finish/polish written output & present it somehow
 - Task that requires integrating knowledge from first 3 weeks
 - Summary
