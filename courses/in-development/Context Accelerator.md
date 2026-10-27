@@ -89,7 +89,7 @@ Optional activities every week
 	- Hiring people from different orgs (explain what type of people they look for)
 	- Topic experts...
 	- People presenting their job
-	- Can we get Rob Miles here? (talking about safety coms)
+	- {==Can we get Rob Miles here? (talking about safety coms)==}{>>{"author":"Elias","timestamp":1793121779129}@@If we get 2-3 big names that's extremely good for marketing (@mark do you want to take this?)<<}
 	- ...
 - Exercise peer review (moderated)
 
