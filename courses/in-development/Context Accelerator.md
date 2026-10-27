@@ -65,6 +65,7 @@ facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
 %%
 Week 2 goals:
 - Main plans in the field to get there (main ToCs)
+- Basic overview over the orgs, funders and people behind each plan
 %%
 # Meeting: Week 2
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
