@@ -6,7 +6,7 @@ description: "Four intense weeks of AI safety strategy. You learn where AI is go
 tags: [wip]
 ---
 %%
-Value prop: (Field)
+fieds needs
 - More high-context people
 
 
