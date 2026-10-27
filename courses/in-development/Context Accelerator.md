@@ -61,7 +61,9 @@ Links:
 
 %%
 Week 1 goals:
-- What success looks like (the concept of Toc)
+- What success looks like
+- the concept of Toc
+- 
 - Exercise that feeds into written output
 %%
 # Meeting: Week 1
