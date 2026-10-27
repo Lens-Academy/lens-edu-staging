@@ -69,7 +69,7 @@ Week 1 goals: What we want (the shape of the alignment problem and requirments t
 	- the concept of Toc (and its structure)
 	   
 - Exercise to evaluate ToCs (basics structure and flaws)
-- Exercise that feeds into written output (v)
+- Exercise that feeds into written output (very high level)
 %%
 # Meeting: Week 1
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
