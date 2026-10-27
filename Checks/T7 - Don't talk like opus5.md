@@ -43,17 +43,7 @@ draft:
       - `paragraph` avoids contentless build-up to a point.
 
       - `paragraph` only asks questions that are specific."
-  presentation:
-    context: lens
-    question: paragraph
-    nest:
-      - document
-      - submodule
-      - lens
-      - section
-      - paragraph
-      - sentence
-      - line
+  p
   pass_below: 0.15
   fail_at: 0.2
 view:
