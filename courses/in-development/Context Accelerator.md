@@ -36,7 +36,7 @@ tags: [wip]
 		- ability to eval toc
 			- ability to build a toc out of PP or MS (or other text)
 			- to know what toc is
-		- 
+		- knowing 
 	- Stretch goal: write project proposals and organizational mission statements
 - Get network
 	- Structured networking between participants (navigators can also join)
