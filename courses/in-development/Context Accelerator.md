@@ -63,7 +63,7 @@ Links:
 Week 1 goals:
 - What success looks like
 - the concept of Toc
-- motivation (what we want to build/ac)
+- motivation (what we want to build/achive)
 - Exercise that feeds into written output
 %%
 # Meeting: Week 1
