@@ -40,6 +40,7 @@ tags: [wip]
 		- knowing what is good and bad in terms of ToC
 	- Stretch goal: write project proposals and organizational mission statements
 - Get network
+	- Get inspiration from SciStep?
 	- Structured networking between participants (navigators can also join)
 	- Participants and navigators give lightning talks + Q&A
 		- Project pitching (find collaborators, get feedback)
