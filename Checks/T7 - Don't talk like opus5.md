@@ -26,11 +26,13 @@ draft:
       in weaker cases, you might see:
 
 
-      - `paragraph` overuses references such as "this", "that", "the thing"
+      - `paragraph` overuses references such as "this", "that", "the thing", etc
 
-      - `paragraph` uses superlatives such as "it isn''t just x, it''s y", "genuinely", "honestly", "exactly", or others
+      - `paragraph` uses superlatives such as "it isn''t just x, it''s y", "genuinely", "honestly", "exactly", etc
 
-      - `paragraph` telegraphs verbal patterns like "here''s the thing", "I want to be careful here", "this is the real point", '
+      - `paragraph` telegraphs verbal patterns like "here''s the thing", "I want to be careful here", "this is the real point", etc
+
+      - '
     "false": "`paragraph` is sedate and doesn't use claudeish phrasing."
   presentation:
     context: lens
