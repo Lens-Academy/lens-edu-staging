@@ -82,7 +82,7 @@ Optional activities every week
 	- Maybe: Schedule 1-on-1s (copy EAG system)
 - Open discussion (moderated)
 	- Propose discussion rooms → join what you're interested in
-	- Barometer
+	- Barometer exercise
 
 Optional activities
 - {==Lightning talk about mastermind groups==}{>>{"author":"Elias","timestamp":1793119053999}@@Should be recorded, uploaded to YT, and shared in discord @hamza, can you do it?<<}
