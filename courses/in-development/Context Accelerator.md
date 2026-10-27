@@ -86,7 +86,7 @@ Optional activities every week
 	- Barometer exercise
 - Unconference days (participants or navs can give lighning talks - session 30min)
 	- Copy MAISUs "minimal ai safety unconference"
-	- First itteration has a lot of external tasks (to create momentu)  
+	- First itteration has a lot of external tasks (to create momentum)  
 - Expert/Alumni/Navigator Lighning talks throughout the week (15-20 talks in general )
 	- Hiring people from different orgs (explain what type of people they look for)
 	- Topic experts...
@@ -96,7 +96,7 @@ Optional activities every week
 - Exercise peer review (moderated)
 
 Optional activities
-- {==Lightning talk about mastermind groups==}{>>{"author":"Elias","timestamp":1793119053999}@@Should be recorded, uploaded to YT, and shared in discord @hamza, can you do it?<<}
+- {==Lightning talk about mastermind groups==}{>>{"author":"Elias","timestamp":1793119053999}@@Should be recorded, uploaded to YT, and shared in discord @hamza, can you build this?<<}
 
 %%
 # Meeting: Week 1
