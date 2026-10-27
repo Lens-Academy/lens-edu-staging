@@ -61,6 +61,7 @@ Links:
 
 %%
 Week 1 goals: What we want (the shape of the alignment problem and requirments to solution to be meaningful)
+- Kickoff Lighning talk about everything happening in this course (w)
 - What's so spesific abot AI Safety (and why)
 	- Pre-paradigmatic
 	- uni vs cata
