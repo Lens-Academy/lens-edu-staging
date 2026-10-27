@@ -79,8 +79,7 @@ List of optional activities during the week
 - Exercise peer review (moderated)
 - Open discussion (moderated)
 	- Propose discussion rooms → join what you're interested in
-- Random coffee (maybe add a map )
-	- Maybe vibecode: Schedule 1-on-1s (copy EAG system)
+- Random coffee (maybe add a map of interests or something)
 carreer
 %%
 # Meeting: Week 1
