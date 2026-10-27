@@ -61,8 +61,8 @@ id:: 5e166efb-cbcd-4ab4-8a08-7ebe92ab6172
 content::
 The authors focus on training the model rather than on monitoring and incrimination for diffuse threats.
 
-1. Using what makes a threat diffuse, say why catching the model is hard here and why training works anyway.
-2. Pick one fuzzy task, such as designing experiments, and describe a piece of sabotage that a weaker model's scorer would still rate highly, so training would not remove it.
+1. Using what makes a threat diffuse, say {++{"author":"AI","timestamp":1793133792797}@@(a) ++}why catching the model is hard here and {++{"author":"AI","timestamp":1793133792797}@@(b) ++}why training works anyway.
+2. Pick one fuzzy task, such as designing experiments, and describe a piece of sabotage that a weaker model's scorer would still rate {--{"author":"AI","timestamp":1793133795898}@@highly, so--}{++{"author":"AI","timestamp":1793133795898}@@highly. (Because the score is high,++} training would not {--{"author":"AI","timestamp":1793133795898}@@remove it.--}{++{"author":"AI","timestamp":1793133795898}@@push the model to stop it.)++}
 3. Say why the scorer would miss it.
 placeholder:: Why training, then one way it could fail
 force-feedback:: first
