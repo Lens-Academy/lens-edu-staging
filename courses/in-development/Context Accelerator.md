@@ -64,7 +64,9 @@ Links:
 List of additional activities during the week 
 networking
 - 1
-- 
+- 2
+- 3
+car
 Week 1 goals: What we want (the shape of the alignment problem and requirments to solution to be meaningful)
 - What's so spesific abot AI Safety (and why)
 	- Pre-paradigmatic
