@@ -62,12 +62,12 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 | 1 | AI 2027 (new page, 2026-10-26) | about 32,000 with the scenario | the tldr | 0 | Done |
 | 1 | The three reading pages (new, 2026-10-26) | about 16,500 with the readings | the tldrs | 0 | Done |
 | 2 (moved from 1) | Primer Practice: Inspection, Commitment, and Logic | 724 | 0 | 622 | Done; moved (A43); questions 3 and 4 optional (A44, A45) |
-| 2 | History, Precedents, Parallels | 3,493 | 185 | 1,236 | |
-| 2 | Introduction: what kind of policy are we trying to verify? | 1,179 | 79 | 330 | |
-| 2 | Drawing the Line: Compute vs. Capability | 1,314 | 510 | 27 | |
-| 2 | Policies must be effective and feasible | 2,239 | 80 | 1,065 | |
-| 2 | Strategic Foundations | 407 | 116 | 247 | |
-| 2 | The seven Strategic Foundations reading pages and the written exercise | 720 | 372 | 134 | |
+| 2 | History, Precedents, Parallels | 3,493 | 185 | 1,236 | Flagged (tldr spoiler) |
+| 2 | Introduction: what kind of policy are we trying to verify? | 1,179 | 79 | 330 | Flagged |
+| 2 | Drawing the Line: Compute vs. Capability | 1,314 | 510 | 27 | Flagged (tldr) |
+| 2 | Policies must be effective and feasible | 2,239 | 80 | 1,065 | Flagged |
+| 2 | Strategic Foundations | 407 | 116 | 247 | Flagged |
+| 2 | The seven Strategic Foundations reading pages and the written exercise | 720 | 372 | 134 | Readings pass; written exercise flagged |
 | 3 | How an agreement is put together | 507 | 101 | 220 | |
 | 3 | Reading a draft agreement | 1,184 | 130 | 353 | |
 | 3 | MIRI's draft agreement (paper page) | 161 | 123 | 38 | |
@@ -208,6 +208,70 @@ Back in scope, as above. **Review:** the tldr's em dash is gone. The introductio
 - "Keep your final essay for peer review" in Options A and B (A7). The line after it, "The four shorter responses prepare your argument; the final essay is the output to share", has a semicolon and goes with it.
 - XLab section numbers in the Works cited titles stay, as citations.
 
+## Unit 2: Precedents and policy scope
+
+Flagged 2026-10-27. Primer Practice, now in this unit, is done (unit 1 entry, A43 to A45).
+
+### Welcome to Unit 2
+
+Inline in [[modules/XLab Verification P1 W2 Precedents and policy scope]]. All of it is Lens's text.
+
+- **Spoiler test:** passes.
+- **tldr flag:** "What you will learn in Unit 2: precedents and policy scope." leaves out Strategic Foundations, as the goals do.
+- **Flag on the page:** the goals list, Content. None of the three goals covers Strategic Foundations, whose two primers and Primer Practice are now required.
+
+### History, Precedents, Parallels
+
+[[Lenses/XLab Verification - v-precedents]]. Almost all XLab's: the three documents, the five tasks, the model answers and the Baker excerpts.
+
+- **Lens's text:** the tldr; the module objective (line 13); the callout titles for the model answers and the Baker excerpts ("Task 1: model answer (open after you have answered)", "Baker (2023) on Task 1" and so on), which pass. The task labels, such as "(optional; max 200 words)", reassemble XLab's task data and stay XLab's.
+- **Spoiler test: fails.** "IAEA inspectors did their job perfectly in Iraq and still missed a bomb program next door, because you can only audit what was declared" gives the answer to Task 4: the system worked as designed and failed to find an undeclared object. It also gives part 2 of Task 5, the required one: the step under most pressure is the move from what was declared to everything.
+- **tldr flags:** the spoiler. "Did their job perfectly" overstates the page's own sources: Document 3 names a "checklist" inspection culture among the causes, and the model answer says "operating as designed".
+- **Left for the spelling pass:** "judgement" (line 13, ours); XLab's "labour", "specialised", "characterises", "programme".
+
+### Introduction: what kind of policy are we trying to verify?
+
+[[Lenses/XLab Verification - v-scoping-intro]].
+
+- **Lens's text:** the tldr; the Goodhart's Law gloss in line 44, inlined in the port from XLab's hover text; the callout title "By the end of this module, you will be able to:"; line 33, lightly reworded, which passes.
+- **Spoiler test:** passes; no exercise.
+- **tldr:** passes.
+- **Flag on the page:** line 44, the gloss (about 50 words inside parentheses, with a semicolon and two colons).
+- **For Andreas and Elias:** line 44, "The goal may erode the rule itself" reads backwards, since Goodhart's Law is about the rule, once it is a target, drifting from the goal. In the same paragraph, "undermining its underlying goal" should be "their". Line 52, "undeclared nuclear material; a gap that Iraq exploited", wants a comma or a colon.
+
+### Drawing the Line: Compute vs. Capability
+
+[[Lenses/XLab Verification - v-scoping-thresholds]]. The body is XLab's. Most of the Lens word count is the Works cited.
+
+- **Lens's text:** the tldr.
+- **Spoiler test:** passes; no exercise.
+- **tldr flag:** a semicolon ("Compute (FLOP) is that radar gun; capability evals…"). The radar-gun analogy reads plainly and can stay.
+- **For Andreas and Elias:** line 29, "the definitional specificity of qualitative capabilities can be useful for knowledge" does not say what it is useful for.
+
+### Policies must be effective and feasible
+
+[[Lenses/XLab Verification - v-scoping-effective-feasible]]. The scales, the buckets, their parallels and the reference map reassemble XLab's widget data and stay XLab's.
+
+- **Lens's text:** the tldr; line 31, built from the widget's heading; line 53, the two corners, added in the port (2026-10-08).
+- **Spoiler test:** passes.
+- **tldr flags:** a semicolon; "favourite" (British); "Every policy sits somewhere on that plane", a plane the learner has not seen yet; "Price your own favourite policy first" takes decoding (the first widget asks for one real cost of a policy you believe in); "be dead by Friday" is an idiom where a plain phrase would do.
+- **Flags on the page:** line 31, the repeated "before the buckets" and a fragment; line 53, two semicolons, "plane" where the page says "matrix", and a Content point. "Costly to get and weak once you have it" also fits the reference placement of bucket 5, joint emergency preparedness (long shot, symbolic), one cell from that corner. XLab's widget labels only the corner cell "worst of both".
+
+### Strategic Foundations
+
+[[Lenses/XLab Verification - v-strategic-foundations]].
+
+- **Lens's text:** the tldr; line 12 after its first sentence; the chart, rebuilt from XLab's reading cards; line 41 (Andreas, 2026-10-27).
+- **Spoiler test:** passes. "Why a leader can sign in good faith and still fail to deliver" names the idea Primer Practice's optional third question tests, without answering it.
+- **tldr flag:** "Two short primers", as on line 12.
+- **Flag on the page:** line 12, Content. Strategic Thinking is short (about 1,500 words), Game Theory is not (about 7,100 words with the §8.2 excerpt, 52 minutes); XLab calls only the first one short.
+- **Minor, no flag:** line 41, "follows the readings while an optional written exercise closes the module". "While" can read as a contrast; ", and" is plainer.
+
+### The reading pages, the additional readings index and the written exercise
+
+- **The seven reading pages:** the Strategic Thinking and Game Theory tldrs are XLab's blurbs, lightly edited; the other five tldrs are ours. All pass. "Win-set" in the two-level games tldr is explained by the reading itself.
+- **Additional readings** (inline in [[modules/XLab Verification P1 W2 Strategic foundations]]): passes.
+- **Written exercise** ([[Lenses/XLab Verification - v-sf-written-exercise]]): the tldr passes. **Flag on the page:** line 14, "whichever pathway above", here and in the question, points to readings on earlier pages, and the paragraph and the question say the same thing twice.
 ## Unit 3: Who can prove what (pilot)
 
 [[Lenses/XLab Verification - v-actor-edges]]. Almost all of the page is XLab's: the brief, the rules for drawing an edge, the reading of the map, the "Why" callout and the three questions. The actor roster in the first callout reassembles XLab's own actor data and stays XLab's.
