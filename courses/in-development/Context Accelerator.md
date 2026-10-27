@@ -84,7 +84,6 @@ Optional activities
 	- Maybe: Schedule 1-on-1s (copy EAG system)
 - Ligthning talk about the project initiative
 
-- Ligthning talk about the project initiative
 %%
 # Meeting: Week 1
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
