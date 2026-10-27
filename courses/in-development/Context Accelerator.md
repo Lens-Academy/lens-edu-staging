@@ -6,6 +6,11 @@ description: "Four intense weeks of AI safety strategy. You learn where AI is go
 tags: [wip]
 ---
 %%
+Value prop: (Field)
+- 
+Value prop: (Person)
+- A senior speaker every week, and a selected cohort of 100 to 200 peers
+
 Target audience:
 - Has finished BlueDot's AGI Strategy plus Technical AI Safety, Governance or Bio, or our AI Risk Fundamentals plus an intermediate course
 - Wants to work on AI safety, but can't yet say which threat models are most likely, which plans could help, or who works on them and funds them
