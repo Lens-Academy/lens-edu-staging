@@ -82,6 +82,7 @@ Optional activities
 	- Propose discussion rooms → join what you're interested in
 - Random coffee (maybe add a map of interests or something)
 	- Maybe: Schedule 1-on-1s (copy EAG system)
+- Ligthning talk about the project initiative
 
 - Ligthning talk about the project initiative
 %%
