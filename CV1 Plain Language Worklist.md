@@ -163,6 +163,7 @@ Back in scope, as above. **Review:** the tldr's em dash is gone. The introductio
 - **Lens's text:** the tldr; lines 14 to 17; "Questions to consider"; line 91; lines 114 and 118. The prompts are XLab's.
 - **Spoiler test:** passes.
 - **Flags on the page:** line 14, Content ("Choose Option A or Option B" no longer fits, A16) and a semicolon on line 15; line 17, "the embedded verification supplement excerpts" are on the previous page.
+- **Outcome, evening of 2026-10-26.** Line 17 is fixed ("the verification supplement excerpts", Andreas), and its flag's removal is pending. The suggestions from Lens EA's AI on line 14 are resolved. The Content point stays as it is (Andreas): Building Verification Intuitions now marks the essay choice optional, and both option pages show as optional. Claude agrees, since "If you choose this option" already makes the line conditional. Left: the semicolon on line 15 ("…for your final essay; keep them in view as you write"). Once it is settled, the line-14 flag comes off.
 
 ### Option B: Compare Plan A and Plan S
 
@@ -171,6 +172,7 @@ Back in scope, as above. **Review:** the tldr's em dash is gone. The introductio
 - **Lens's text:** the tldr; lines 16 and 17; line 23 (our framing of the Plan S comparison, which passes); line 119; lines 139 and 143.
 - **Spoiler test:** passes.
 - **Flag on the page:** line 16, as in Option A.
+- **Outcome, evening of 2026-10-26:** as in Option A. The Content point stays, the suggestions from Lens EA's AI are resolved, and the same semicolon is left on line 17.
 
 ### Optional: Further Exploration
 
@@ -179,7 +181,7 @@ Back in scope, as above. **Review:** the tldr's em dash is gone. The introductio
 - **Lens's text:** the tldr; line 50; the chart headings and captions (lines 57 to 109), which pass.
 - **Spoiler test:** passes.
 - **Flag on the page:** line 50. **Correction, 2026-10-26:** the flag's gloss, that the charts are all redrawn from AI 2027's published data, repeats the line's own error. Two of the four come from outside AI 2027 (METR's time horizons and Epoch AI's prices); the superhuman-coder forecast and the takeoff chart are the AI 2027 authors' (Andreas).
-- **Structure (Andreas, 2026-10-26):** the page embeds about 48,000 words, about 31,600 of them AI 2027 and its two endings and 16,500 the three embedded readings, against its stated 45 minutes. Andreas suggests moving AI 2027 and the readings onto their own linked pages, as Strategic Foundations does, so a learner who has read AI 2027 can skip it. **Built for AI 2027, 2026-10-26 (A41):** AI 2027, its "Explore AI 2027" question (id unchanged, so answers follow it), both endings and the four charts moved word for word to a new page, [[Lenses/XLab Verification - v-intuitions-ai-2027]], which this page now links with a card. The line-50 flag moved with its sentence, with the corrected gloss. The new page's tldr, tutor summary and Works cited are ours; the tldr is for Andreas to rewrite. **Readings built, later on 2026-10-26:** Andreas chose a page each. Scher (2026), the Oxford Martin executive summary and the Scher and Thiergart executive summary moved word for word (checked against the repository) to [[Lenses/XLab Verification - v-intuitions-read-scher-restrictions]], [[Lenses/XLab Verification - v-intuitions-read-oxford-martin]] and [[Lenses/XLab Verification - v-intuitions-read-scher-mechanisms]], each reached by a card after its blurb. Their tldrs and Works cited are ours, and the tldrs are for Andreas to rewrite. All four new pages are hidden optional entries in the unit 1 module and the archived Module 0. This page's 45 reading minutes are now stale (stage 8).
+- **Structure (Andreas, 2026-10-26):** the page embeds about 48,000 words, about 31,600 of them AI 2027 and its two endings and 16,500 the three embedded readings, against its stated 45 minutes. Andreas suggests moving AI 2027 and the readings onto their own linked pages, as Strategic Foundations does, so a learner who has read AI 2027 can skip it. **Built for AI 2027, 2026-10-26 (A41):** AI 2027, its "Explore AI 2027" question (id unchanged, so answers follow it), both endings and the four charts moved word for word to a new page, [[Lenses/XLab Verification - v-intuitions-ai-2027]], which this page now links with a card. The line-50 flag moved with its sentence, with the corrected gloss. The new page's tldr, tutor summary and Works cited are ours; the tldr is for Andreas to rewrite. **Readings built, later on 2026-10-26:** Andreas chose a page each. Scher (2026), the Oxford Martin executive summary and the Scher and Thiergart executive summary moved word for word (checked against the repository) to [[Lenses/XLab Verification - v-intuitions-read-scher-restrictions]], [[Lenses/XLab Verification - v-intuitions-read-oxford-martin]] and [[Lenses/XLab Verification - v-intuitions-read-scher-mechanisms]], each reached by a card after its blurb. Their tldrs and Works cited are ours, and the tldrs are for Andreas to rewrite. All four new pages are hidden optional entries in the unit 1 module and the archived Module 0. This page's 45 reading minutes are now stale (stage 8). **The three tldrs, checked (evening):** each is one sentence of 25 to 33 words, with no semicolon or em dash, and the readings have no exercise to spoil. The figures are checked against the papers: Scher's abstract gives 28 candidate mechanisms, including whistleblowers and reviews of training code, and section 3.3 covers chip use. Since Claude wrote them, the read for whether they sound like AI is Andreas's (A4).
 
 ### Primer Practice: Inspection, Commitment, and Logic
 
@@ -189,6 +191,8 @@ Back in scope, as above. **Review:** the tldr's em dash is gone. The introductio
 - **Spoiler test:** passes.
 - **Flag on the page:** line 12.
 - **For Andreas and Elias:** line 99 says "Three needles are buried in eleven terms", but the question on line 80 lists nine ("Nine terms, deliberately over-stocked"). XLab's own round had eleven. Candidate: "nine".
+- **Review of the rewrite, evening of 2026-10-26:** the fragment is gone, and "the primer bench" with it. One word: "a handful of drills that covers" should be "that cover". Line 13 is unchanged, so the "clipped" point is a judgment call.
+- **Placement (Andreas, evening of 2026-10-26):** the page is the last, required page of unit 1, but it drills Strategic Foundations material, which comes in unit 2, and needs knowledge the learner has not been taught. XLab made the same move on 2026-10-22, from the end of its 0.2 to the end of 0.4 Strategic Foundations, after our port. Even in unit 2, CV1 teaches only part of it. The facts and a proposal are Q20 in the log; not built.
 
 ### Left for stage 7 (unit 1)
 
