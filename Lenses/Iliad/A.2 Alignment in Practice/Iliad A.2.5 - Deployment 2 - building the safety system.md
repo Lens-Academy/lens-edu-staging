@@ -57,11 +57,11 @@ The first reports of misuse of frontier AI systems has come out last month. Anth
 
 **Reading (30 mins)**: [Detecting and countering misuse of AI](https://www.anthropic.com/threat-intelligence-report-september-2026), [Constitutional Classifiers](https://arxiv.org/abs/2501.18837), or read about the [famous](https://time.com/collections/time100-ai-2025/7305870/pliny-the-liberator/) anonymous jailbreaker [Pliny the Liberator](https://medium.com/@JMerilehto/decoding-the-elder-plinius-repository-an-autopsy-of-the-ai-control-plane-88c503224940).
 
-::card[[../../anthropic-countering-misuse-of-ai-september-2026|Detecting and countering misuse of AI]]
+{--{"author":"James's AI","timestamp":1793135696944}@@::card[[../../anthropic-countering-misuse-of-ai-september-2026|Detecting and countering misuse of AI]]
 
 ::card[[../../pillay-time100-ai-2025-pliny-the-liberator|Pliny the Liberator (TIME)]]
 
-\### **Some further info:**
+--}\### **Some further info:**
 
 **AI control:**
 
