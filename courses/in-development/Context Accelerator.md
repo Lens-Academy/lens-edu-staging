@@ -154,7 +154,7 @@ Failure modes:
 
 Optional activities
 - Project matching conference
-	- Project 
+	- Project proposers 
 %%
 # Meeting: Week 4
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
