@@ -38,7 +38,7 @@ R. Harrison Wagner (1988)
   automatically translate into political influence or usable leverage.
 %%
 
-{++{"author":"Andreas's AI","timestamp":1793119498029}@@Primer Practice, a short ungraded drill on these ideas, follows the readings and is required. ++}An optional written exercise closes the module.
+Primer Practice, a short ungraded drill on these ideas, follows the readings and is required. An optional written exercise closes the module.
 
 #### Text
 content::
