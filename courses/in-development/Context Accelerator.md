@@ -76,7 +76,7 @@ facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
 
 %%
 Week 2 goals:
-- M
+- Metrics of succ
 - Main plans in the field to get there (main ToCs)
 - Exercise to evaluate ToCs (metrics)
 - Exercise that feeds into written output
