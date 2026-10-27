@@ -80,6 +80,8 @@ Week 2 goals:
 - Metrics of success
 - 
 - Main plans in the field to get there (main ToCs)
+	- Overview of main agendas
+	- 
 - Exercise to evaluate ToCs (metrics)
 - Exercise that feeds into written output
 %%
