@@ -13,7 +13,7 @@ Stage 6 of [[CV1 Restructure Log]]. Claude marks what is Lens's text, tests ever
 
 **Status, later on 2026-10-26.** The pilot is done. Unit 1 is flagged, and Andreas has rewritten the tldrs of five of its pages and the text on three; each review is under its page below, with seven short notes still open. Building Verification Intuitions is done. Further Exploration's AI 2027 and its three embedded readings are on pages of their own (A41). Unit 1's follow-ups, then units 2 to 5, are next.
 
-**Status, evening of 2026-10-26.** Andreas fixed six of the seven notes; the seventh, "cancelled", waits for the later American-spelling pass. Two new one-word notes (Why Securitizing AI, Primer Practice). Options A and B have one semicolon left between them. Still to do in unit 1: the AI 2027 page (Andreas). Andreas found that Primer Practice sits a unit before the material it drills; where it goes is Q20 in the log, not built.
+**Status, evening of 2026-10-26.** Andreas fixed six of the seven notes; the seventh, "cancelled", waits for the later American-spelling pass. Two new one-word notes (Why Securitizing AI, Primer Practice). Options A and B each have one semicolon left, on the same shared line. Still to do in unit 1: the AI 2027 page (Andreas). Andreas found that Primer Practice sits a unit before the material it drills; where it goes is Q20 in the log, not built.
 
 ## How to read an entry
 
@@ -43,9 +43,9 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 | Unit | Page | Words | Lens's | Edited | Status |
 |---|---|---|---|---|---|
 | 1 | Welcome | 657 | 97 | 0 | Left for stage 7 |
-| 1 | Introduction: Why Should You Care About AI Verification? | 2,475 | 270 | 378 | tldr rewritten, reviewed; one note |
+| 1 | Introduction: Why Should You Care About AI Verification? | 2,475 | 270 | 378 | Done |
 | 1 | AI Is Grown, Not Built | 531 | 531 | 0 | Rewritten, reviewed |
-| 1 | Four Background Claims | 57 | 57 | 0 | Rewritten, reviewed; two notes |
+| 1 | Four Background Claims | 57 | 57 | 0 | Done |
 | 1 | Why Securitizing AI Is Difficult but Necessary | 776 | 191 | 50 | tldr rewritten, reviewed; one note |
 | 1 | We Need More Theories of Change | 1,738 | 428 | 108 | tldr rewritten, reviewed; two notes |
 | 1 | Building Verification Intuitions | 398 | 131 | 79 | Rewritten, reviewed; one note |
