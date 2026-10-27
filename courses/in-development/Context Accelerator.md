@@ -67,6 +67,7 @@ Week 1 goals:
 - Motivation (what we want to build/achive)
 	- desired outcomes
 	- problems we face
+	  
 - Exercise to evaluate ToCs (basics structure and flaws)
 - Exercise that feeds into written output
 %%
