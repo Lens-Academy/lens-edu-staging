@@ -66,7 +66,7 @@ Week 1 goals:
 - motivation (what we want to build/achive)
 - problems we face
 - what's so spesific abot AI Safety (and why)
-- Exercise to evaluate ToCs (basics flaws)
+- Exercise to evaluate ToCs (basics structeru and flaws)
 - Exercise that feeds into written output
 %%
 # Meeting: Week 1
