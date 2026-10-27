@@ -82,6 +82,7 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
 %%
 Week 4 goals:
+- Tas
 - Summary
 - Consolidate
 %%
