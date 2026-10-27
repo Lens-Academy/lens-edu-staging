@@ -80,13 +80,12 @@ Optional activities every week
 - Meme contest
 - Random coffee (maybe add a map of interests or something)
 	- Maybe: Schedule 1-on-1s (copy EAG system)
+- Open discussion (moderated)
 	- Propose discussion rooms → join what you're interested in
 
 Optional activities
 - {==Lightning talk about mastermind groups==}{>>{"author":"Elias","timestamp":1793119053999}@@Should be recorded, uploaded to YT, and shared in discord @hamza, can you do it?<<}
 - Exercise peer review (moderated)
-- Open discussion (moderated)
-	- Propose discussion rooms → join what you're interested in
 - Ligthning talk about the project initiative
 
 %%
