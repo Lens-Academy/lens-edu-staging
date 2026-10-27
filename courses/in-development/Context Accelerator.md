@@ -92,7 +92,6 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 %%
 Week 3 goals:
 - Basic overview over the orgs, funders and people behind each plan
-- Basic overview over the orgs, funders and people behind each plan
 - Overview of requirements of main orgs/programs/jobs in the field
 - Exercise that feeds into written output
 %%
