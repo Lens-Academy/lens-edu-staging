@@ -89,7 +89,8 @@ Optional activities every week
 	- Hiring people from different orgs (explain what type of people they look for)
 	- Topic experts...
 	- People presenting their job
-	- Can we get ...
+	- Can we get Rob Miles here? (talking about saf)
+	- ...
 - Exercise peer review (moderated)
 
 Optional activities
