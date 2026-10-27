@@ -81,7 +81,7 @@ Week 2 goals:
 - 
 - Main plans in the field to get there (main ToCs)
 	- Overview of main agendas
-	- 
+	- How to derive T
 - Exercise to evaluate ToCs (metrics)
 - Exercise that feeds into written output
 %%
