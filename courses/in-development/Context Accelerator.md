@@ -122,6 +122,7 @@ Basics:
 - Communicating and validating a contribution strategy
 - ...
 Failure modes:
+
 - Finish/polish written output & present it somehow
 - Task that requires integrating knowledge from first 3 weeks
 - Summary
