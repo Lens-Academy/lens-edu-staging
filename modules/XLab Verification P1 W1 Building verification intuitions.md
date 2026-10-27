@@ -28,4 +28,7 @@ source:: [[../Lenses/XLab Verification - v-intuitions-success]]
 optional:: true
 
 # Lens:
+optional:: true
+hide:: true
+source:: [[../Lenses/XLab Verification - v-intuitions-ai-2027]]
 source:: [[../Lenses/XLab Verification - v-intuitions-drills-1]]
