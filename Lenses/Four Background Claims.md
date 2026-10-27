@@ -8,6 +8,6 @@ tldr: What makes AI safety worth working on now, before systems are powerful eno
 ---
 #### Text
 content::
-This reading explains how the emergence of AI smarter than humans could become an event with enormous stakes, and why, in the author's opinion, there is already meaningful work being done today that increases the chance of a positive outcome. The author identifies four key premises that underpin his entire perspective on the prospects of AI.
+This reading explains how the emergence of AI smarter than humans could become an event with enormous stakes, and why, in the author's opinion, there is already meaningful work we can do today that increases the chance of a positive outcome. The author identifies four key premises that underpin his entire perspective on the prospects of AI.
 #### Article
 source:: [[../articles/soares-four-background-claims]]
