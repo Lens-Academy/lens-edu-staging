@@ -49,9 +49,6 @@ tags: [wip]
 	- {==Make arrangement with orgs/programs that search for peopl==}{>>{"author":"Elias","timestamp":1793103683789}@@Mark, would you do this?<<}e (fasttrack applications?)
 
 
-
-
-
 Links:
 - [[../../../Lens/03-Product/Context Accelerator Pitch|Context Accelerator Pitch]]
 - [[../../../Lens/11-People/Mark/Q4 2026 Pitches/01 - Context Accelerator Launch Pitch|Context Accelerator Launch Pitch]]
