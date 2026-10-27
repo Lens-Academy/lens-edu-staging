@@ -82,7 +82,6 @@ Optional activities
 	- Propose discussion rooms → join what you're interested in
 - Random coffee (maybe add a map of interests or something)
 	- Maybe: Schedule 1-on-1s (copy EAG system)
-- Lighn
 carreer
 %%
 # Meeting: Week 1
@@ -92,7 +91,6 @@ facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
 %%
 Week 2 goals: What can be done (exesting approaches)
 - Metrics of success (how to compair ToCs)
-- Ligthning talk about the proj
 - Main plans in the field to get there (main ToCs)
 	- Overview of main agendas
 	- how agendas interact
