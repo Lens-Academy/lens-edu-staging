@@ -60,7 +60,6 @@ Links:
 %%
 
 %%
-
 Week 1 goals: What we want (the shape of the alignment problem and requirments to solution to be meaningful)
 - What's so spesific abot AI Safety (and why)
 	- Pre-paradigmatic
@@ -75,7 +74,6 @@ Week 1 goals: What we want (the shape of the alignment problem and requirments t
 	   
 - Exercise to evaluate ToCs (basics structure and flaws)
 - Exercise that feeds into written output (very high level - in the next weeks they will get more details)
-- Some networking events
 
 List of additional activities during the week 
 networking
