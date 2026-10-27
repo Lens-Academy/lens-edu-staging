@@ -14,23 +14,19 @@ source:: [[../../Lenses/Iliad/A.1 AI Alignment Introduction/Iliad A.1 - AI Align
 # Lens: A.1.1 Session 1: Alignment targets
 source:: [[../../Lenses/Iliad/A.1 AI Alignment Introduction/Iliad A.1.1 - Session 1 - Alignment targets]]
 
-{--{"author":"AI","timestamp":1793133852432}@@#--}{++{"author":"AI","timestamp":1793133852432}@@## Choose: 1
+## Choose: 1
 
-###++} Lens: Coherent extrapolated volition
-source:: [[../../Lenses/yudkowsky-coherent-extrapolated-volition]]{--{"author":"AI","timestamp":1793133852432}@@
-optional:: true--}
+### Lens: Coherent extrapolated volition
+source:: [[../../Lenses/yudkowsky-coherent-extrapolated-volition]]
 
-{--{"author":"AI","timestamp":1793133852432}@@#--}{++{"author":"AI","timestamp":1793133852432}@@###++} Lens: Intent alignment
-source:: [[../../Lenses/christiano-clarifying-ai-alignment]]{--{"author":"AI","timestamp":1793133852432}@@
-optional:: true--}
+### Lens: Intent alignment
+source:: [[../../Lenses/christiano-clarifying-ai-alignment]]
 
-{--{"author":"AI","timestamp":1793133852432}@@#--}{++{"author":"AI","timestamp":1793133852432}@@###++} Lens: Claude's constitution overview
-source:: [[../../Lenses/anthropic-claudes-new-constitution]]{--{"author":"AI","timestamp":1793133852432}@@
-optional:: true--}
+### Lens: Claude's constitution overview
+source:: [[../../Lenses/anthropic-claudes-new-constitution]]
 
-{--{"author":"AI","timestamp":1793133852432}@@#--}{++{"author":"AI","timestamp":1793133852432}@@###++} Lens: Corrigibility
-source:: [[../../Lenses/lesswrong-corrigibility]]{--{"author":"AI","timestamp":1793133852432}@@
-optional:: true--}
+### Lens: Corrigibility
+source:: [[../../Lenses/lesswrong-corrigibility]]
 
 # Submodule: A.1 Session 2: Alignment problem decompositions
 
