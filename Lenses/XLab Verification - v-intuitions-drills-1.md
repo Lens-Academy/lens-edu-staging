@@ -63,13 +63,13 @@ id:: 357a36a9-d41c-454c-a7e7-760afe1f3a0a
 content:: Optional, from Signaling Foreign Policy Interests and Game Theory: Series: sunk costs, tied hands, mechanical enforcement. Name the tightest concept that covers all three, and only them.
 options::
 - Game-theoretic concepts
-- Fearon's ways of making a commitment credible
+- Ways of making a commitment credible
 - Forms of treaty punishment
 - Domestic ratification constraints
 shuffle:: true
 force-feedback:: first
 optional:: true
-feedback-instructions:: Explain: the tightest true label wins. "Game-theoretic concepts" is true but hopelessly broad. Fearon (1997): burn resources up front (sunk cost), make backing down costly later (tied hands), or remove the choice entirely (mechanical enforcement). Two or three sentences.
+feedback-instructions:: Explain: the tightest true label wins. "Game-theoretic concepts" is true but hopelessly broad. Fearon (1997) names the first two: burn resources up front (sunk cost) or make backing down costly later (tied hands). The third, removing the choice entirely (mechanical enforcement), is the doomsday machine in the Game Theory reading's section on commitment (Ross, §6). Two or three sentences.
 
 #### Text
 content::
