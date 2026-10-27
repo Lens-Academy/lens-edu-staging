@@ -9,7 +9,8 @@ tags: [wip]
 Value prop: (Field)
 - More high-experienced
 
-Slava'
+Slava's notes on that
+- 
 
 Value prop: (Person)
 - You leave with a written model of the field, your own theory of change and a 3-month plan. People from fellowships, employers and funders review it.
