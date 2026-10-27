@@ -4,7 +4,7 @@ reading_minutes: 12
 tutor_minutes: 0
 summary_for_tutor: "Covers MIRI's four foundational premises for AI safety work: humans possess general intelligence that dominates other species, this capability could be replicated and exceeded in machines, the default outcome of superintelligent AI is not aligned with human values, and meaningful technical work can be done now to increase the chance of a positive outcome."
 title: Four Background Claims
-tldr: What makes AI safety worth working on now, before systems are powerful enough to be obviously dangerous? This article lays out four premises that underpin the case, from why smarter-than-human systems could emerge to why we can already do meaningful work to prepare.
+tldr: What makes AI safety worth working on now, before systems are powerful enough to be obviously dangerous? This article lays out four premises that underpin the case, from what general intelligence is to why we can already do meaningful work to prepare.
 ---
 #### Text
 content::
