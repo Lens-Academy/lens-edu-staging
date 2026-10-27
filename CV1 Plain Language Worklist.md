@@ -101,7 +101,7 @@ The overview and the five unit welcomes are inline in their modules and are not 
 - **Lens's text:** everything around the article: the tldr, the introduction (line 12) and the question (line 20). The chat instructions are tutor-facing and out of scope.
 - **Spoiler test: fails, mildly.** The tldr's first two sentences ("Nobody sat down and programmed ChatGPT… engineers set up a training process and let billions of parameters arrange themselves") answer the page's own question, how ChatGPT was made differently from an ordinary app. The page title already says as much, so this is a judgment call.
 - **tldr flags:** the spoiler; "This article asks what it means to deploy something powerful" is a little off the article's point, which is control, and stopping by treaty.
-- **Flag on the page:** line 12.
+- **Flag on the page:** line 12 (withdrawn).
 - **Minor, no flag:** line 20, "the difference between how ChatGPT was created versus how…" should be "between … and …".
 
 ### Four Background Claims (optional, hidden): out of scope
