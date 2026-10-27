@@ -77,7 +77,9 @@ Week 1 goals: What we want (the shape of the alignment problem and requirments t
 List of optional activities during the week
 - {==Lightning talk about mastermind groups==}{>>{"author":"Elias","timestamp":1793119053999}@@Should be recorded, uploaded to YT, and shared in discord @hamza, can you do it?<<}
 - Project pitches
-	- Present list of ~20 projects (sign up)
+	- Present list of ~20 projects (sign up for one)
+	- Propose your own
+	- 
 - Meme contest
 - Exercise peer review (moderated)
 - Open discussion (moderated)
