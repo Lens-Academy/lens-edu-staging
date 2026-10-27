@@ -70,7 +70,8 @@ Week 1 goals: What we want (the shape of the alignment problem and requirments t
 	- desired outcomes
 		- shape of end-game solution
 			- control
-			- align
+			- theoretical alignment
+			- empirical alignment
 			- pause
 		- shape of the 
 	- problems we face
