@@ -13,6 +13,8 @@ Stage 6 of [[CV1 Restructure Log]]. Claude marks what is Lens's text, tests ever
 
 **Status, later on 2026-10-26.** The pilot is done. Unit 1 is flagged, and Andreas has rewritten the tldrs of five of its pages and the text on three; each review is under its page below, with seven short notes still open. Building Verification Intuitions is done. Further Exploration's AI 2027 and its three embedded readings are on pages of their own (A41). Unit 1's follow-ups, then units 2 to 5, are next.
 
+**Status, evening of 2026-10-26.** Andreas fixed six of the seven notes; the seventh, "cancelled", waits for the later American-spelling pass. Two new one-word notes (Why Securitizing AI, Primer Practice). Options A and B have one semicolon left between them. Still to do in unit 1: the AI 2027 page (Andreas). Andreas found that Primer Practice sits a unit before the material it drills; where it goes is Q20 in the log, not built.
+
 ## How to read an entry
 
 - **Lens's text** lists the passages that are ours, by line in the lens file. Everything else on the page is XLab's.
