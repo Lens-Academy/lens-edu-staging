@@ -38,7 +38,7 @@ draft:
 
       - `paragraph` specifies what each phrase refers to using concrete nouns.
 
-      - `paragraph`  .
+      - `paragraph` only uses emphasis about concrete .
 
       `paragraph` is sedate and doesn't use claudeish phrasing"
   presentation:
