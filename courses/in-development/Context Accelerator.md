@@ -74,7 +74,8 @@ facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
 
 %%
 Week 2 goals:
-- Overview Main plans in the field to get there (main ToCs)
+- Overview of main agendas
+- Main plans in the field to get there (main ToCs)
 - Exercise to evaluate ToCs
 - Exercise that feeds into written output
 %%
