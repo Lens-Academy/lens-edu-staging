@@ -6,7 +6,7 @@ description: "Four intense weeks of AI safety strategy. You learn where AI is go
 tags: [wip]
 ---
 %%
-Cap: https://cap.so/s/my8sc06hzsbbx9a?recordingStopped=1
+Cap: https://cap.so/s/my8sc06hzsbbx9a
 
 **Field Needs:**
 1. More experiencied people from relevant fields (like infosecurity, communications, policy, operations, and law) with AI safety context.
