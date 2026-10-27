@@ -149,6 +149,7 @@ Failure modes:
 - Consolidate
 - Some networking events
 
+Optional activities
 - Write your pitch
 %%
 # Meeting: Week 4
