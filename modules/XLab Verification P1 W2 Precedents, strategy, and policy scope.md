@@ -12,7 +12,7 @@ source:: [[../Learning Outcomes/Transfer from historical verification regimes]]
 # Lens: Welcome to Unit 2
 id:: d38b1ea7-face-4de4-acf1-131a4998c57e
 tldr:: What you will learn in Unit 2: precedents, strategy, and policy scope.
-summary_for_tutor:: Short opening page of Unit 2 (Precedents and policy scope) of Compute Verification 1. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
+summary_for_tutor:: Short opening page of Unit 2 (Precedents, strategy, and policy scope) of Compute Verification 1. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
 reading_minutes:: 1
 tutor_minutes:: 0
 #### Text
@@ -20,9 +20,10 @@ content::
 \## In this unit you will
 
 - Say what IAEA safeguards in Iraq show about what an inspectorate can and cannot audit.
-- Break a policy into its goal, its legal rule and the claim that has to be verified.
 - Use strategic thinking to test what a verification regime needs to be effective and enforceable.
-- Weigh compute thresholds against capability thresholds, and sort eleven candidate anti-ASI policies by how much they deter and how gettable they are.
+- Break a policy into its goal, its legal rule and the claim that has to be verified.
+{--{"author":"Andreas's AI","timestamp":1793158304902}@@- Use strategic thinking to test what a verification regime needs to be effective and enforceable.
+--}- Weigh compute thresholds against capability thresholds, and sort eleven candidate anti-ASI policies by how much they deter and how gettable they are.
 
 # Lens:
 source:: [[../Lenses/XLab Verification - v-precedents]]
