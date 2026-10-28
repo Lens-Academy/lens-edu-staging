@@ -42,14 +42,6 @@ A book-length guide that follows an AI chip through fifteen stages, from design 
 
 #### Text
 content::
-:::callout {title="Start here" tone="neutral"}
-{>>{"author":"Andreas's AI","timestamp":1793164100262}@@Stage 6 flag, Lens text (port): this paragraph repeats the opening of "The Compute Supply Chain" word for word, here with an em dash. The "Start here" callout also comes after the map and the two optional callouts, so its instruction ("Tap a country…") arrives after the learner has met the map. See the CV1 plain language worklist.<<}The whole story of this map is concentration. The chain crosses borders dozens of times, but the parts that matter for verification sit in a handful of countries — and each stage is a near-monopoly.
-
-Tap a country for its role, or isolate a layer to see exactly who would have to be in the room to verify it.
-:::
-
-#### Text
-content::
 \### Actor roles in this module
 
 Every country card on the map is tagged with the actor roles that country plays in this module: capability holder, chokepoint controller, information holder, enforcement authority, evasion pathway, or victim, free-rider, beneficiary. The same state can hold a chokepoint, enforce the rules, and be a pathway around them.
