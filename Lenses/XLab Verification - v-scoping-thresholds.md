@@ -26,7 +26,7 @@ The two contenders for operational thresholds are compute and capability. The ta
 
 In the event of pursuing a full or temporary pause, the treaty is focused on hard-line enforcement, which favors the objectivity of a compute threshold. Each party needs to definitively recognize which models to shut off, and they need to trust that their counterpart is following the same rule, which you only get with a black-and-white FLOP line. Timelines will also be tighter and less negotiable with a pause-based agreement, given its urgency: regulators cannot afford to deal with potentially wishy-washy capability definitions.
 
-If we're not focusing on a full pause, and more so on domestic enforcement and lighter observation- and resource-sharing-based policies, then capability thresholds can more realistically come into the picture. If regulators believe they have the time to pace development and experiment with evaluations, the definitional specificity of qualitative capabilities can be useful for knowledge.
+If we're not focusing on a full pause, and more so on domestic enforcement and lighter observation- and resource-sharing-based policies, then capability thresholds can more realistically come into the picture. If regulators believe they have the time to pace development and experiment with evaluations, the definitional specificity of qualitative capabilities can be useful knowledge.
 
 For the purposes of this course, we will mainly focus on compute thresholds: they have historical precedent, they are straightforward to operationalize, and they are the most relevant choice for pause-style agreements. We generally orient more towards a pause because it encompasses the maximum possible range of verification possibilities and difficulties.
 
