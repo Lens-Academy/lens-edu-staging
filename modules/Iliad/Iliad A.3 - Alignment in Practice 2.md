@@ -28,20 +28,19 @@ source:: [[../../Lenses/Iliad/A.3 Alignment in Practice 2/Iliad A.3.7 - AI contr
 # Lens: The Case for Ensuring That Powerful AIs Are Controlled
 source:: [[../../Lenses/shlegeris-the-case-for-ensuring-that-powerful-ais-are-controlled]]
 
-## Choose: 2
+# Choose: 2
 
-### Lens: AI Control: Improving Safety Despite Intentional Subversion
+## Lens: AI Control: Improving Safety Despite Intentional Subversion
 source:: [[../../Lenses/Iliad reading - AI Control - Improving Safety Despite Intentional Subversion]]
 
-### Lens: Ctrl-Z: Controlling AI Agents via Resampling
+## Lens: Ctrl-Z: Controlling AI Agents via Resampling
 source:: [[../../Lenses/bhatt-ctrl-z-controlling-ai-agents-via-resampling-abs]]
 
-### Lens: Untrusted Advice for AI Control
+## Lens: Untrusted Advice for AI Control
 source:: [[../../Lenses/biddulph-untrusted-advice-for-ai-control-short-strong-advice-significantly-uplifts-weak-llms]]
 
-### Lens: Diffuse AI Control on Fuzzy Tasks
+## Lens: Diffuse AI Control on Fuzzy Tasks
 source:: [[../../Lenses/Iliad reading - Diffuse AI Control on Fuzzy Tasks]]
 
-### Lens: Evaluating Chain-of-Thought Monitorability
+## Lens: Evaluating Chain-of-Thought Monitorability
 source:: [[../../Lenses/guan-monitoring-monitorability]]
-optional:: true
