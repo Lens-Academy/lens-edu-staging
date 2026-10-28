@@ -14,7 +14,7 @@ content::
 {>>{"author":"Andreas's AI","timestamp":1793131862249}@@Stage 6 flag, self-contained: "whichever pathway above", here and in the question below, points to readings on earlier pages; nothing is above on this page. The paragraph and the question also say the same thing twice. See the CV1 plain language worklist.<<}Choose one element of the advanced-AI supply chain and build an actor,
 authority, and evidence map for it: who the actors are, what authority each
 one holds, and what evidence would let an outside party verify their behavior.
-Draw on whichever pathway above is most relevant.
+Draw on whichever pathway is most relevant.
 
 #### Question: Open
 id:: c0c24764-3c26-41cd-a20e-3375a3aa7acd
