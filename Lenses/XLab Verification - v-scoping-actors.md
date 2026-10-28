@@ -273,7 +273,7 @@ content::
 
 **Outside the declaration**
 
-- **Proxies.** A declaration cannot cover a name that exists to “break the link between a name and an activity”. They are Subgoal 2.B in person: the undeclared cluster the whole second half of the framework was built to find.
+- **Proxies.** A declaration cannot cover a name that exists to “break the link between a name and an activity”. They are the case Subgoal 2.B covers: an undeclared cluster, which the second half of the framework is built to find.
 - **Deployers.** Outside every declaration for the opposite reason: below the threshold. Baker defines large-scale in thousands of chips over months, so millions of actors who “benefit from safety and bear none of its costs” are outside the regime by construction rather than by evasion.
 :::
 
