@@ -7,7 +7,7 @@ tags: [wip]
 ---
 %%
 Cap: https://cap.so/s/my8sc06hzsbbx9a
-
+[[context ]]
 **Field Needs:**
 1. More experiencied people from relevant fields (like infosecurity, communications, policy, operations, and law) with AI safety context.
 2. People who can and do evaluate the EV of their projects/actions (ability and habit of deep ToC thinking).
