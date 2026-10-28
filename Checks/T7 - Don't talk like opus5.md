@@ -44,6 +44,7 @@ view:
     - ai-
     - ai-futures
 ---
+
 ## How to pass (for editing agents)
 
 *Drafted by Sorrel (a Claude), 2026-10-28, for Lauren to rewrite.*
