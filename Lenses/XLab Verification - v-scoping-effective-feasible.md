@@ -28,7 +28,7 @@ Sort the following policy buckets on the feasibility x effectiveness matrix.
 content::
 \### The axes
 
-{>>{"author":"Andreas's AI","timestamp":1793131851387}@@Stage 6 flag, Lens text: "before the buckets" appears twice in two sentences, and the first is a fragment taken from the widget's heading ("the two words doing the work"). Candidate: "Read both scales before you sort the buckets." See the CV1 plain language worklist.<<}Before the exercise, take a close the two words doing the work. Read both scales before the buckets.
+{>>{"author":"Andreas's AI","timestamp":1793131851387}@@Stage 6 flag, Lens text: "before the buckets" appears twice in two sentences, and the first is a fragment taken from the widget's heading ("the two words doing the work"). Candidate: "Read both scales before you sort the buckets." See the CV1 plain language worklist.<<}Before the exercise, take a closer look at the two words doing the work. Read both scales before the buckets.
 
 :::callout {title="What is effectiveness?" tone="neutral" collapse="closed"}
 **Effectiveness.** How much the policy actually deters ASI development, measured against the global race, not against one country’s labs. Low to high:
