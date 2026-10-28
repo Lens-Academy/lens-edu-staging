@@ -6,7 +6,7 @@ summary_for_tutor: "Session 6 of worksheet A.1: Hugging Face as a misalignment c
 authors:
   - Leon Lang (Iliad)
 source_url: https://iliad-intensive.org/alignment/ai-alignment-intro/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: '4acae5ba61c3018e73d89a7a7ae04c13c6203170'
 upstream_key: "ai-alignment-intro#session-6-hugging-face-as-a-misalignment-case-study"
 upstream_fingerprint: "u974o1/197/1/2E0G2UbG2lSj2nx03VAF4JGG4VwV4hbQ4l8w4x5B5TSF5WTY5mdB5vWy6yOh70Rq7W9b7vCC81hV8O0JAEY3AWgrAsbZBVJXBZzhC64ICdR7DvyNDyyHE12JEaFGEmQv"
 synced_from:
@@ -24,20 +24,6 @@ The Hugging Face incident brings together generalization, goal-directed behavior
 
 Spend **40 minutes reading**. Read the Hugging Face explanation below and choose one primary account. 
 
-{--{"author":"James's AI","timestamp":1793144587848}@@:::require_x_optional_lenses{x=1}
-::card[[../../system-security-incident-disclosure-july-2026|Hugging Face's disclosure]]
-
-> what the affected organization initially knew about access and impact. Extension: the [technical timeline](https://huggingface.co/blog/agent-intrusion-technical-timeline), focusing on its overview and trust boundaries rather than exploit details
-
-- [Report](https://x.com/joedaroo/status/2104335929293127851?s=20) from a cybersecurity employee at OpenAI
-
-::card[[../../openai-the-hugging-face-incident-and-the-road-ahead|OpenAI's August investigation]]
-
-> focus on the background, contributing factors and proposed changes. The [initial disclosure, with corrections](https://openai.com/index/hugging-face-model-evaluation-security-incident/) and [September review update](https://openai.com/hugging-face-incident-and-misalignment/) show how the account developed.
-
-* [METR's independent investigation](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/): focus on the core takeaways, scope and limitations. What did access to agent logs add, and what could the reviewers still not establish?
-:::
---}
 * [Hugging Face's disclosure](https://huggingface.co/blog/security-incident-july-2026): what the affected organization initially knew about access and impact. Extension: the [technical timeline](https://huggingface.co/blog/agent-intrusion-technical-timeline), focusing on its overview and trust boundaries rather than exploit details
 - [Report](https://x.com/joedaroo/status/2104335929293127851?s=20) from a cybersecurity employee at OpenAI
 * [OpenAI's August investigation](https://openai.com/index/hugging-face-incident-and-the-road-ahead/): focus on the background, contributing factors and proposed changes. The [initial disclosure, with corrections](https://openai.com/index/hugging-face-model-evaluation-security-incident/) and [September review update](https://openai.com/hugging-face-incident-and-misalignment/) show how the account developed.

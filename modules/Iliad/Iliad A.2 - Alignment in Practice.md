@@ -10,52 +10,51 @@ source:: [[../../Lenses/Iliad/A.2 Alignment in Practice/Iliad A.2 - Alignment in
 # Lens: A.2.2 Pretraining
 source:: [[../../Lenses/Iliad/A.2 Alignment in Practice/Iliad A.2.2 - Pretraining]]
 
-## Choose: 1
+# Choose: 1
 
-### Lens: Pretraining data filtering
+## Lens: Pretraining data filtering
 source:: [[../../Lenses/anthropic-enhancing-model-safety-through-pretraining-data-filtering]]
 
-### Lens: SGTM
+## Lens: SGTM
 source:: [[../../Lenses/anthropic-beyond-data-filtering-knowledge-localization-for-capability-removal-in-llms]]
 
-### Lens: Persona selection model
+## Lens: Persona selection model
 source:: [[../../Lenses/marks-the-persona-selection-model-why-ai-assistants-might-behave-like-humans]]
-optional:: true
 
 # Lens: A.2.3 Post-training
 source:: [[../../Lenses/Iliad/A.2 Alignment in Practice/Iliad A.2.3 - Post-training]]
 
-## Choose: 1
+# Choose: 1
 
-### Lens: The Claude Constitution
+## Lens: The Claude Constitution
 source:: [[../../Lenses/anthropic-claudes-constitution]]
 
-### Lens: OpenAI Model Spec
+## Lens: OpenAI Model Spec
 source:: [[../../Lenses/openai-model-spec]]
 
-### Lens: Teaching Claude Why
+## Lens: Teaching Claude Why
 source:: [[../../Lenses/kutasov-teaching-claude-why]]
 
 # Lens: A.2.4 Deployment 1: strategy
 source:: [[../../Lenses/Iliad/A.2 Alignment in Practice/Iliad A.2.4 - Deployment 1 - strategy]]
 
-## Choose: 1
+# Choose: 1
 
-### Lens: Anthropic Responsible Scaling Policy
+## Lens: Anthropic Responsible Scaling Policy
 source:: [[../../Lenses/anthropic-responsible-scaling-policy]]
 
-### Lens: OpenAI Preparedness Framework
+## Lens: OpenAI Preparedness Framework
 source:: [[../../Lenses/openai-our-updated-preparedness-framework]]
 
 # Lens: A.2.5 Deployment 2: building the safety system
 source:: [[../../Lenses/Iliad/A.2 Alignment in Practice/Iliad A.2.5 - Deployment 2 - building the safety system]]
 
-## Choose: 1
+# Choose: 1
 
-### Lens: Detecting and countering misuse of AI
+## Lens: Detecting and countering misuse of AI
 source:: [[../../Lenses/anthropic-countering-misuse-of-ai-september-2026]]
 
-### Lens: Pliny the Liberator (TIME)
+## Lens: Pliny the Liberator (TIME)
 source:: [[../../Lenses/pillay-time100-ai-2025-pliny-the-liberator]]
 
 # Lens: A.2.6 Further reading

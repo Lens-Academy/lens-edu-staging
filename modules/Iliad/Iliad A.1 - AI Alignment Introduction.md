@@ -14,18 +14,18 @@ source:: [[../../Lenses/Iliad/A.1 AI Alignment Introduction/Iliad A.1 - AI Align
 # Lens: A.1.1 Session 1: Alignment targets
 source:: [[../../Lenses/Iliad/A.1 AI Alignment Introduction/Iliad A.1.1 - Session 1 - Alignment targets]]
 
-## Choose: 1
+# Choose: 1
 
-### Lens: Coherent extrapolated volition
+## Lens: Coherent extrapolated volition
 source:: [[../../Lenses/yudkowsky-coherent-extrapolated-volition]]
 
-### Lens: Intent alignment
+## Lens: Intent alignment
 source:: [[../../Lenses/christiano-clarifying-ai-alignment]]
 
-### Lens: Claude's constitution overview
+## Lens: Claude's constitution overview
 source:: [[../../Lenses/anthropic-claudes-new-constitution]]
 
-### Lens: Corrigibility
+## Lens: Corrigibility
 source:: [[../../Lenses/lesswrong-corrigibility]]
 
 # Submodule: A.1 Session 2: Alignment problem decompositions
@@ -89,21 +89,19 @@ source:: [[../../Lenses/lifland-q2-5-2026-timelines-update-uplift-and-revenue]]
 # Lens: A.1.6 Session 6: Hugging Face as a misalignment case study
 source:: [[../../Lenses/Iliad/A.1 AI Alignment Introduction/Iliad A.1.6 - Session 6 - Hugging Face as a misalignment case study]]
 
-{--{"author":"James's AI","timestamp":1793144590906}@@# --}{++{"author":"James's AI","timestamp":1793144590906}@@## Choose: 1
+# Choose: 1
 
-### ++}Lens: Hugging Face's disclosure
-source:: [[../../Lenses/system-security-incident-disclosure-july-2026]]{--{"author":"James's AI","timestamp":1793144590906}@@
-optional:: true--}
+## Lens: Hugging Face's disclosure
+source:: [[../../Lenses/system-security-incident-disclosure-july-2026]]
 
-{--{"author":"James's AI","timestamp":1793144590906}@@#--}{++{"author":"James's AI","timestamp":1793144590906}@@###++} Lens: Hugging Face technical timeline
-source:: [[../../Lenses/larcher-anatomy-of-a-frontier-lab-agent-intrusion-a-technical-timeline-of-the-july-2026-incident]]{--{"author":"James's AI","timestamp":1793144590906}@@
-optional:: true--}
+## Lens: OpenAI's August investigation
+source:: [[../../Lenses/openai-the-hugging-face-incident-and-the-road-ahead]]
 
-{--{"author":"James's AI","timestamp":1793144590906}@@#--}{++{"author":"James's AI","timestamp":1793144590906}@@###++} Lens: OpenAI's August investigation
-source:: [[../../Lenses/openai-the-hugging-face-incident-and-the-road-ahead]]{--{"author":"James's AI","timestamp":1793144590906}@@
-optional:: true--}
+# Lens: Hugging Face technical timeline
+source:: [[../../Lenses/larcher-anatomy-of-a-frontier-lab-agent-intrusion-a-technical-timeline-of-the-july-2026-incident]]
+optional:: true
 
-{--{"author":"James's AI","timestamp":1793144590906}@@#--}{++{"author":"James's AI","timestamp":1793144590906}@@###++} Lens: OpenAI September review update
+# Lens: OpenAI September review update
 source:: [[../../Lenses/openai-the-hugging-face-incident-and-other-third-party-impact-from-misaligned-models]]
 optional:: true
 
