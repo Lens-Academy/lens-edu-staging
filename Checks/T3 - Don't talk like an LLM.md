@@ -24,6 +24,8 @@ presentation:
     - paragraph
     - sentence
     - line
+draft:
+  fix: 'Rewrite it as a careful human writer would: name the specific thing meant, drop signposting such as "now that we have" or "let us dive into", and cut words that only add enthusiasm.'
 ---
 
 Why this check exists, and examples of what it should and should not catch.

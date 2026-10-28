@@ -23,6 +23,8 @@ presentation:
     - paragraph
     - sentence
     - line
+draft:
+  fix: Make the point plainly where it belongs. Cut the dramatic closing line, or fold what it says into the sentence before it.
 ---
 
 Why this check exists, and examples of what it should and should not catch.
