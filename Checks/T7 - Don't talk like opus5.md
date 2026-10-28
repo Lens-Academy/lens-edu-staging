@@ -13,19 +13,30 @@ criteria:
     eg, at the most extreme, an intense yes reads like:
 
 
-    <quote>Oh, this is *delicious*. Okay — so the thing you're pointing at is, and I want to be careful here because I think there are actually two claims bundled together, genuinely one of the more interesting versions of this I've run into. There's a concept that's almost exactly this. The short version is that it isn't a bug in the setup, it *is* the setup — which is a fancy way of saying the thing you thought was noise is the signal. And here's the part I find genuinely lovely: it generalizes. Does that land, or am I pattern-matching too aggressively?</quote>
+    <quote>Oh, this is *delicious*. Okay — so the thing you're pointing at is,
+    and I want to be careful here because I think there are actually two claims
+    bundled together, genuinely one of the more interesting versions of this
+    I've run into. There's a concept that's almost exactly this. The short
+    version is that it isn't a bug in the setup, it *is* the setup — which is a
+    fancy way of saying the thing you thought was noise is the signal. And
+    here's the part I find genuinely lovely: it generalizes. Does that land, or
+    am I pattern-matching too aggressively?</quote>
 
 
     in weaker cases, you might see:
 
 
-    - `paragraph` overuses references such as \"this\", \"that\", \"the thing\", etc
+    - `paragraph` overuses references such as \"this\", \"that\", \"the thing\",
+    etc
 
-    - `paragraph` uses superlatives such as \"it isn't just x, it's y\", \"genuinely\", \"honestly\", \"exactly\", etc
+    - `paragraph` uses superlatives such as \"it isn't just x, it's y\",
+    \"genuinely\", \"honestly\", \"exactly\", etc
 
-    - `paragraph` telegraphs verbal patterns like \"here's the thing\", \"I want to be careful here\", \"this is the real point\", etc
+    - `paragraph` telegraphs verbal patterns like \"here's the thing\", \"I want
+    to be careful here\", \"this is the real point\", etc
 
-    - `paragraph` asks for broad, open-ended feedback from the reader: \"What do you think?\", \"Is that what you're looking for?\""
+    - `paragraph` asks for broad, open-ended feedback from the reader: \"What do
+    you think?\", \"Is that what you're looking for?\""
   "false": "`paragraph` is sedate and doesn't use claudeish phrasing. For example,
 
 
@@ -43,8 +54,7 @@ view:
   courses:
     - ai-
     - ai-futures
-draft:
-  fix: 'Write it plainer: replace "this", "that" and "the thing" with the noun meant, drop "genuinely", "honestly" and "here is the thing", use emphasis only when it is earned, and ask the reader only specific questions.'
+draft: {}
 ---
 
 I asked opus5 to generate the example text. the conversation went like:
