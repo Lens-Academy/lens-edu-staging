@@ -49,7 +49,7 @@ view:
 
 *Drafted by Sorrel (a Claude), 2026-10-28, for Lauren to rewrite.*
 
-This check is hard to pass on purpose. Lauren's target is a score under 0.1, and more than half of the current course text scores above that. If you are a Claude, expect it to flag paragraphs that read as plain to you: the check measures a voice you cannot hear in your own writing, so a flag is information about the text, not noise.
+This check is hard to pass on purpose: it flags about 40% of the course's current paragraphs. If you are a Claude, expect it to flag paragraphs that read as plain to you: the check measures a voice you cannot hear in your own writing, so a flag is information about the text, not noise.
 
 What moves the score down:
 
@@ -58,7 +58,7 @@ What moves the score down:
 3. Cut intensifiers and certainty words: "genuinely", "honestly", "exactly", "actually", "really".
 4. Drop "it isn't X, it's Y" contrasts unless someone in the text actually believes X.
 5. Ask the reader specific questions only. "What do you think?" and "Does that land?" fail.
-6. Use one em-dash aside per paragraph at most, and italics only where a human reader would stress the word aloud.
+6. Use emphasis (italics, bold) only where a human reader would stress the word aloud.
 
 A lower score is not the whole test. After you rewrite, read the sentence as a tired student would. If it takes two reads to parse ("for reasons the model does not contain"), it still needs work. Watch for words you reach for by habit; this generation of Claude overuses "say" and "name" in instructions to students ("say what you think", "name one reason"). Ask for the thing itself instead: "Which reason convinced you most, and why?"
 

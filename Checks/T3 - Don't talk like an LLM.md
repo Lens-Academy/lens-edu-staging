@@ -34,7 +34,7 @@ This check asks about each sentence, with its section shown, whether it sounds l
 
 What fixes a flag:
 
-1. Replace the overused words in the criteria: "load-bearing", "key" as an adjective, "build" applied to ideas ("build intuitions"), and contrasts of the form "not X but Y".
+1. Rewrite around the overused words in the criteria: "load-bearing", "key" as an adjective, "build" applied to ideas ("build intuitions"), and contrasts of the form "not X but Y". Swapping in a synonym of the same kind ("key" for "crucial", "core" for "central") does not pass; write what is actually important about the thing instead.
 2. In instructions to students, ask for the thing itself instead of naming the speech act. "Say what each one is correcting for" becomes "What is each one correcting for?"; "Name one reason" becomes "Which reason convinced you?".
 3. Cut signposting about the course's own structure: "Now that we've established", "we'll dive into", "In this section we will".
 4. End a reading with a specific question about its content, never "What do you think?".
