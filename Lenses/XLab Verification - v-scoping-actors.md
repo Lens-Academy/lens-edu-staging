@@ -308,7 +308,6 @@ Now read the colours across the rings instead of around them. Roles do not stay 
 #### Text
 content::
 {>>{"author":"Elias's AI","timestamp":1788016535133}@@Native reproduction of XLab's Actor Map Workshop from src/lib/verification/data/actor-workshop.ts and actor-map.ts (roster, recall target, core question, Baker rings and placement key, map finding, second-order question, closing questions and marking key). Note for Elias: in XLab's current repo, scoping-actors.mdx is cut to three paragraphs and the actor-workshop widget is no longer registered; the five tables above and the workshop are documented as XLab's own in docs/verification/module-1-log.md, so they are kept. XLab's ring map graphic (concentric SVG) is not reproduced; the placements are.<<}
-The edge exercise built on this board comes after the supply-chain map: [[../Lenses/XLab Verification - v-actor-edges|1.2.2 Who can prove what]].
 
 #### Text
 content::
