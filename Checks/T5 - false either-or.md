@@ -24,7 +24,7 @@ What fixes a flag:
 
 1. Add the missing options: a middle position, both, or neither.
 2. Or give the reason only two are possible.
-3. An exercise that asks a student to choose between two options on purpose can stay as it is if the choice is the point; in that case, leave the flag.
+3. An exercise that asks the student to pick between two stated options, and does not claim they are the only ones, can stay as it is; leave that flag. An exercise that frames the two as the only possibilities still needs fixing.
 
 ## Notes
 
