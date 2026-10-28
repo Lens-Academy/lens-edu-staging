@@ -27,6 +27,8 @@ Stage 6 of [[CV1 Restructure Log]]. Claude marks what is Lens's text, tests ever
 
 **Status, late on 2026-10-27.** History, Precedents, Parallels, the welcome and the three policy-scope pages are reviewed and their flags are coming off (removals pending). Open: Strategic Foundations' "two short primers" (tldr and line 12), the written exercise's "pathway above", the welcome's tldr and goal order, and three minor notes. A46: Strategic Foundations moves before policy scope, on Andreas's go.
 
+**Status, night of 2026-10-27.** Unit 2's text is done (Andreas). Every unit 2 flag is resolved, and their removals are pending, with one suggestion: the written exercise's question still says "pathway above". Strategic Foundations now comes before policy scope (A46). Unit 3 is next. Its pilot page, "Who can prove what", is already done.
+
 ## How to read an entry
 
 - **Lens's text** lists the passages that are ours, by line in the lens file. Everything else on the page is XLab's.
@@ -71,9 +73,8 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 | 2 | History, Precedents, Parallels | 3,493 | 185 | 1,236 | Done |
 | 2 | Introduction: what kind of policy are we trying to verify? | 1,179 | 79 | 330 | Done |
 | 2 | Drawing the Line: Compute vs. Capability | 1,314 | 510 | 27 | Done |
-| 2 | Policies must be effective and feasible | 2,239 | 80 | 1,065 | Done; two minor notes |
-| 2 | Strategic Foundations | 407 | 116 | 247 | Flagged |
-| 2 | The seven Strategic Foundations reading pages and the written exercise | 720 | 372 | 134 | Readings pass; written exercise flagged |
+| 2 | Strategic Foundations (now before policy scope, A46) | 407 | 116 | 247 | Done |
+| 2 | The seven Strategic Foundations reading pages and the written exercise | 720 | 372 | 134 | Done; one suggestion pending |
 | 3 | How an agreement is put together | 507 | 101 | 220 | |
 | 3 | Reading a draft agreement | 1,184 | 130 | 353 | |
 | 3 | MIRI's draft agreement (paper page) | 161 | 123 | 38 | |
@@ -266,7 +267,7 @@ Inline in [[modules/XLab Verification P1 W2 Precedents, strategy, and policy sco
 - **Spoiler test:** passes.
 - **tldr flags:** a semicolon; "favourite" (British); "Every policy sits somewhere on that plane", a plane the learner has not seen yet; "Price your own favourite policy first" takes decoding (the first widget asks for one real cost of a policy you believe in); "be dead by Friday" is an idiom where a plain phrase would do.
 - **Flags on the page:** line 31, the repeated "before the buckets" and a fragment; line 53, two semicolons, "plane" where the page says "matrix", and a Content point. "Costly to get and weak once you have it" also fits the reference placement of bucket 5, joint emergency preparedness (long shot, symbolic), one cell from that corner. XLab's widget labels only the corner cell "worst of both".
-- **Review of the rewrites, 2026-10-27.** In the tldr, "be dead within a week" replaces the Friday idiom (Andreas: it no longer depends on when the learner reads it), "that tension" replaces "that plane", and the semicolon is gone. "…within a week while a voluntary pledge…" wants a comma before "while". "Price your own favourite policy first" is unchanged. What "takes decoding" means here: the tldr shows in the navigation before the page is opened, and "price a policy" uses the page's own sense, naming what enforcing it would cost. A reader meeting it cold has to work that out. Candidate: "First name one real cost of a policy you favor, then sort…", which also drops "favourite". Line 31 now reads as a sentence, and its flag's removal is pending. Line 53 has lost its semicolons and says "matrix". The Content point on bucket 5 is still open, so that flag stays. **Evening (Andreas):** the comma is in, and "Price" became "Scope your own favourite policy first". Minor: "scope" is the name of the second exercise, the sort, while the first asks for a cost, so it may still point a little off; Andreas's call. Line 53 now says "Unattainable and ineffective once you have it", which points at the off-the-table corner and settles the bucket-5 point; the flag's removal is pending. Minor: "unattainable … once you have it" is a small paradox; "Off the table, and ineffective even if you got it" would avoid it.
+- **Review of the rewrites, 2026-10-27.** In the tldr, "be dead within a week" replaces the Friday idiom (Andreas: it no longer depends on when the learner reads it), "that tension" replaces "that plane", and the semicolon is gone. "…within a week while a voluntary pledge…" wants a comma before "while". "Price your own favourite policy first" is unchanged. What "takes decoding" means here: the tldr shows in the navigation before the page is opened, and "price a policy" uses the page's own sense, naming what enforcing it would cost. A reader meeting it cold has to work that out. Candidate: "First name one real cost of a policy you favor, then sort…", which also drops "favourite". Line 31 now reads as a sentence, and its flag's removal is pending. Line 53 has lost its semicolons and says "matrix". The Content point on bucket 5 is still open, so that flag stays. **Evening (Andreas):** the comma is in, and "Price" became "Scope your own favourite policy first". Minor: "scope" is the name of the second exercise, the sort, while the first asks for a cost, so it may still point a little off; Andreas's call. **Kept (Andreas):** the cost card primes the bucket sort, so "scope" fits. Line 53 now says "Unattainable and ineffective once you have it", which points at the off-the-table corner and settles the bucket-5 point; the flag's removal is pending. Minor: "unattainable … once you have it" is a small paradox; "Off the table, and ineffective even if you got it" would avoid it.
 
 ### Strategic Foundations
 
