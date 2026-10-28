@@ -33,7 +33,7 @@ presentation:
 
 *Drafted by Sorrel (a Claude), 2026-10-28, for Lauren to rewrite.*
 
-This check reads each paragraph with the whole document shown, and flags a technical term or acronym that is used without being explained. A term explained earlier in the same document passes; a term explained on another page does not, because a student may arrive at this page first.
+This check reads each paragraph with the whole document shown, and flags a technical term or acronym that is used without being explained. A term explained earlier in the same document passes. A term explained only later on the page, or only on another page, does not: a student reads top to bottom, and may arrive at this page first.
 
 What fixes a flag:
 

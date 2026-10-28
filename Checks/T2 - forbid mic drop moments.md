@@ -42,4 +42,6 @@ A real case, from the AI Futures course: "They are Subgoal 2.B in person: the un
 
 ## Notes
 
+Thresholds (Sorrel, 2026-10-28): jev scores mic drops low even in clear cases. At 0.8 none of 983 sampled sentences would fail; at 0.4/0.3, 3 fail and all three are real.
+
 Why this check exists, and examples of what it should and should not catch.
