@@ -80,7 +80,7 @@ Week 1 goals: What we want (the shape of the alignment problem and requirments t
 - Exercise that feeds into written output (very high level - in the next weeks they will get more details)
 
 Optional activities every week
-- Meme contest
+- {==Meme contest==}{>>{"author":"lauren","timestamp":1793192616754}@@Proceed carefully but this is a good, dangerously-powerful idea. Skilled memers make a big difference to a movement's success, but memes have a life of their own, and the pipe forest a memer is balancing on is made of other memers who disagree and will clown on you in return. In many cases that's fine, but it's important to understand it.<<}
 - Random coffee (maybe add a map of interests or something)
 	- Maybe: Schedule 1-on-1s (copy EAG system)
 - Open discussion (moderated)
