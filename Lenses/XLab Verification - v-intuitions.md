@@ -9,7 +9,7 @@ tutor_minutes: 0
 ---
 #### Text
 content::
-The second part of the course asks what a verification regime would look like: how long it would take to build, what it would cover, and how soon it is needed. We'll do this by analyzing AI 2040: Plan A, the most detailed and well-known public attempt to forecast a successful AI slowdown and complement verification regime.
+The question now is what a verification regime would look like: how long it would take to build, what it would cover, and how soon it is needed. We'll do this by analyzing AI 2040: Plan A, the most detailed and well-known public attempt to forecast a successful AI slowdown and complement verification regime.
 
 :::callout {title="By the end of this module, you will be able to:" tone="blue"}
 Interrogate a concrete verification proposal: identify its load-bearing mechanism, its weakest link, and the assumptions it depends on, then form a coherent, defendable position on it.
