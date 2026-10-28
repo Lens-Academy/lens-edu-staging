@@ -26,4 +26,21 @@ presentation:
     - line
 ---
 
+## How to pass (for editing agents)
+
+*Drafted by Sorrel (a Claude), 2026-10-28, for Lauren to rewrite.*
+
+This check asks about each sentence, with its section shown, whether it sounds like an LLM wrote it. It overlaps with "Don't talk like opus5" but looks at single sentences and at words that many models overuse, not one model's voice.
+
+What fixes a flag:
+
+1. Replace the overused words in the criteria: "load-bearing", "key" as an adjective, "build" applied to ideas ("build intuitions"), and contrasts of the form "not X but Y".
+2. In instructions to students, ask for the thing itself instead of naming the speech act. "Say what each one is correcting for" becomes "What is each one correcting for?"; "Name one reason" becomes "Which reason convinced you?".
+3. Cut signposting about the course's own structure: "Now that we've established", "we'll dive into", "In this section we will".
+4. End a reading with a specific question about its content, never "What do you think?".
+
+A real case: "Now that we've established the foundational motivations for why verification is important, we'll dive into building key intuitions..." passed as "Next we ask what a verification regime would look like: how long it would take to build, what it would cover, and how soon it is needed."
+
+## Notes
+
 Why this check exists, and examples of what it should and should not catch.
