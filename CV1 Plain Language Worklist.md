@@ -66,10 +66,10 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 | 1 | AI 2027 (new page, 2026-10-26) | about 32,000 with the scenario | the tldr | 0 | Done |
 | 1 | The three reading pages (new, 2026-10-26) | about 16,500 with the readings | the tldrs | 0 | Done |
 | 2 (moved from 1) | Primer Practice: Inspection, Commitment, and Logic | 724 | 0 | 622 | Done; moved (A43); questions 3 and 4 optional (A44, A45) |
-| 2 | History, Precedents, Parallels | 3,493 | 185 | 1,236 | Flagged (tldr spoiler) |
-| 2 | Introduction: what kind of policy are we trying to verify? | 1,179 | 79 | 330 | Flagged |
-| 2 | Drawing the Line: Compute vs. Capability | 1,314 | 510 | 27 | Flagged (tldr) |
-| 2 | Policies must be effective and feasible | 2,239 | 80 | 1,065 | Flagged |
+| 2 | History, Precedents, Parallels | 3,493 | 185 | 1,236 | Done |
+| 2 | Introduction: what kind of policy are we trying to verify? | 1,179 | 79 | 330 | Done |
+| 2 | Drawing the Line: Compute vs. Capability | 1,314 | 510 | 27 | Done |
+| 2 | Policies must be effective and feasible | 2,239 | 80 | 1,065 | Done; two minor notes |
 | 2 | Strategic Foundations | 407 | 116 | 247 | Flagged |
 | 2 | The seven Strategic Foundations reading pages and the written exercise | 720 | 372 | 134 | Readings pass; written exercise flagged |
 | 3 | How an agreement is put together | 507 | 101 | 220 | |
@@ -223,6 +223,7 @@ Inline in [[modules/XLab Verification P1 W2 Precedents, strategy, and policy sco
 - **Spoiler test:** passes.
 - **tldr flag:** "What you will learn in Unit 2: precedents and policy scope." leaves out Strategic Foundations, as the goals do.
 - **Flag on the page:** the goals list, Content. None of the three goals covers Strategic Foundations, whose two primers and Primer Practice are now required.
+- **Addressed (Andreas, 2026-10-27).** A fourth goal, "Use strategic thinking to test what a verification regime needs to be effective and enforceable", and the module file is renamed "Precedents, strategy, and policy scope" (the relay updated every link). The flag's removal is pending. Open: the tldr still says "precedents and policy scope"; candidate "…precedents, strategy, and policy scope", matching the file name. The new goal sits third, between breaking down a policy and the thresholds, which matches neither the current page order nor the one in A46, where it would come second. The module's title, which learners see, is still "History, precedents, parallels", and that fits what the module holds.
 
 ### History, Precedents, Parallels
 
@@ -231,6 +232,7 @@ Inline in [[modules/XLab Verification P1 W2 Precedents, strategy, and policy sco
 - **Lens's text:** the tldr; the module objective (line 13); the callout titles for the model answers and the Baker excerpts ("Task 1: model answer (open after you have answered)", "Baker (2023) on Task 1" and so on), which pass. The task labels, such as "(optional; max 200 words)", reassemble XLab's task data and stay XLab's.
 - **Spoiler test: fails.** "IAEA inspectors did their job perfectly in Iraq and still missed a bomb program next door, because you can only audit what was declared" gives the answer to Task 4: the system worked as designed and failed to find an undeclared object. It also gives part 2 of Task 5, the required one: the step under most pressure is the move from what was declared to everything.
 - **tldr flags:** the spoiler. "Did their job perfectly" overstates the page's own sources: Document 3 names a "checklist" inspection culture among the causes, and the model answer says "operating as designed".
+- **Rewritten (Andreas, 2026-10-27):** "IAEA inspectors did their job properly in Iraq and still missed a bomb program next door. Read three short documents…". The answer is gone, and "did their job properly" is Task 4's own premise ("operating as designed"), so the spoiler test now passes. Done.
 - **Left for the spelling pass:** "judgement" (line 13, ours); XLab's "labour", "specialised", "characterises", "programme".
 
 ### Introduction: what kind of policy are we trying to verify?
@@ -242,7 +244,7 @@ Inline in [[modules/XLab Verification P1 W2 Precedents, strategy, and policy sco
 - **tldr:** passes.
 - **Flag on the page:** line 44, the gloss (about 50 words inside parentheses, with a semicolon and two colons).
 - **For Andreas and Elias:** line 44, "The goal may erode the rule itself" reads backwards, since Goodhart's Law is about the rule, once it is a target, drifting from the goal. In the same paragraph, "undermining its underlying goal" should be "their". Line 52, "undeclared nuclear material; a gap that Iraq exploited", wants a comma or a colon.
-- **Review of the rewrite, 2026-10-27.** The gloss is now a short definition on its own line (46), with the application in plain sentences after it (47), so the flag's point is met. One clash is new. Line 44 now says "The goal may erode the rule itself as given by Goodhart's Law", while line 47 says the goal is what gets eroded. The XLab sentence had the direction backwards and still does. Candidate: "The rule may end up eroding the goal itself, as Goodhart's Law describes." "Its underlying goal" (their) and the Iraq semicolon, now line 55, are unchanged. The flag stays until the clash is settled.
+- **Review of the rewrite, 2026-10-27.** The gloss is now a short definition on its own line (46), with the application in plain sentences after it (47), so the flag's point is met. One clash is new. Line 44 now says "The goal may erode the rule itself as given by Goodhart's Law", while line 47 says the goal is what gets eroded. The XLab sentence had the direction backwards and still does. Candidate: "The rule may end up eroding the goal itself, as Goodhart's Law describes." "Its underlying goal" (their) and the Iraq semicolon, now line 55, are unchanged. The flag stays until the clash is settled. **Settled (Andreas, evening):** "The rule may erode the goal itself as given by Goodhart's Law". The flag's removal is pending. Minor, no flag: "as given by" could be "as Goodhart's Law describes". "Its underlying goal" and the Iraq semicolon are XLab's and unchanged, for Andreas and Elias.
 
 ### Drawing the Line: Compute vs. Capability
 
@@ -252,7 +254,7 @@ Inline in [[modules/XLab Verification P1 W2 Precedents, strategy, and policy sco
 - **Spoiler test:** passes; no exercise.
 - **tldr flag:** a semicolon ("Compute (FLOP) is that radar gun; capability evals…"). The radar-gun analogy reads plainly and can stay.
 - **For Andreas and Elias:** line 29, "the definitional specificity of qualitative capabilities can be useful for knowledge" does not say what it is useful for.
-- **Review of the rewrite, 2026-10-27.** Line 29 now ends "useful knowledge for appraising models", which fixes it. In the tldr the semicolon became "where": "Compute (FLOP) is that radar gun where capability evals measure the danger more directly…". That reads as if the evals were inside the radar gun. Candidate: "Compute (FLOP) is that radar gun, while capability evals measure the danger more directly but too late and too fuzzily."
+- **Review of the rewrite, 2026-10-27.** Line 29 now ends "useful knowledge for appraising models", which fixes it. In the tldr the semicolon became "where": "Compute (FLOP) is that radar gun where capability evals measure the danger more directly…". That reads as if the evals were inside the radar gun. Candidate: "Compute (FLOP) is that radar gun, while capability evals measure the danger more directly but too late and too fuzzily." **Fixed as suggested (Andreas, evening).** Done.
 
 ### Policies must be effective and feasible
 
@@ -262,7 +264,7 @@ Inline in [[modules/XLab Verification P1 W2 Precedents, strategy, and policy sco
 - **Spoiler test:** passes.
 - **tldr flags:** a semicolon; "favourite" (British); "Every policy sits somewhere on that plane", a plane the learner has not seen yet; "Price your own favourite policy first" takes decoding (the first widget asks for one real cost of a policy you believe in); "be dead by Friday" is an idiom where a plain phrase would do.
 - **Flags on the page:** line 31, the repeated "before the buckets" and a fragment; line 53, two semicolons, "plane" where the page says "matrix", and a Content point. "Costly to get and weak once you have it" also fits the reference placement of bucket 5, joint emergency preparedness (long shot, symbolic), one cell from that corner. XLab's widget labels only the corner cell "worst of both".
-- **Review of the rewrites, 2026-10-27.** In the tldr, "be dead within a week" replaces the Friday idiom (Andreas: it no longer depends on when the learner reads it), "that tension" replaces "that plane", and the semicolon is gone. "…within a week while a voluntary pledge…" wants a comma before "while". "Price your own favourite policy first" is unchanged. What "takes decoding" means here: the tldr shows in the navigation before the page is opened, and "price a policy" uses the page's own sense, naming what enforcing it would cost. A reader meeting it cold has to work that out. Candidate: "First name one real cost of a policy you favor, then sort…", which also drops "favourite". Line 31 now reads as a sentence, and its flag's removal is pending. Line 53 has lost its semicolons and says "matrix". The Content point on bucket 5 is still open, so that flag stays.
+- **Review of the rewrites, 2026-10-27.** In the tldr, "be dead within a week" replaces the Friday idiom (Andreas: it no longer depends on when the learner reads it), "that tension" replaces "that plane", and the semicolon is gone. "…within a week while a voluntary pledge…" wants a comma before "while". "Price your own favourite policy first" is unchanged. What "takes decoding" means here: the tldr shows in the navigation before the page is opened, and "price a policy" uses the page's own sense, naming what enforcing it would cost. A reader meeting it cold has to work that out. Candidate: "First name one real cost of a policy you favor, then sort…", which also drops "favourite". Line 31 now reads as a sentence, and its flag's removal is pending. Line 53 has lost its semicolons and says "matrix". The Content point on bucket 5 is still open, so that flag stays. **Evening (Andreas):** the comma is in, and "Price" became "Scope your own favourite policy first". Minor: "scope" is the name of the second exercise, the sort, while the first asks for a cost, so it may still point a little off; Andreas's call. Line 53 now says "Unattainable and ineffective once you have it", which points at the off-the-table corner and settles the bucket-5 point; the flag's removal is pending. Minor: "unattainable … once you have it" is a small paradox; "Off the table, and ineffective even if you got it" would avoid it.
 
 ### Strategic Foundations
 
