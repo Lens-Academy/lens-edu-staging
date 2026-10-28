@@ -287,6 +287,67 @@ Inline in [[modules/XLab Verification P1 W2 Precedents, strategy, and policy sco
 - **Additional readings** (inline in [[modules/XLab Verification P1 W2 Strategic foundations]]): passes.
 - **Written exercise** ([[Lenses/XLab Verification - v-sf-written-exercise]]): the tldr passes. **Flag on the page:** line 14, "whichever pathway above", here and in the question, points to readings on earlier pages, and the paragraph and the question say the same thing twice.
 
+## Unit 3: Treaty anatomy and actors
+
+Flagged 2026-10-27. "Who can prove what", the pilot, is done (next section).
+
+### Welcome to Unit 3
+
+Inline in [[modules/XLab Verification P1 W3 Treaty anatomy and actors]]. All Lens's text. **Passes**, tldr and goals both. The module note's "the MIRI draft agreement adds 75" is left for stage 8; the paper page says 55.
+
+### How an agreement is put together
+
+[[Lenses/XLab Verification - v-scoping-anatomy]]. The introduction, the reading list and the callout title are XLab's.
+
+- **Lens's text:** the tldr; line 27 ("The three excerpts follow."), which passes; the callout's two sentences, lines 47 and 53, edited from XLab's.
+- **Spoiler test:** passes. "Find where 'should' turns into 'shall'" points at the method the page itself recommends ("Look for key verbs"), not at an answer.
+- **tldr:** passes. The mechanic analogy reads plainly. Minor: "where the verification method is hidden" suggests concealment; the assignment asks where it is set.
+- **Flag on the page:** line 47. "The assignment below" is on the next page. "The excerpt follows below" repeats the obvious, and the excerpt sits outside the closed callout, so everyone sees it, not only readers short on time.
+
+### Reading a draft agreement
+
+[[Lenses/XLab Verification - v-scoping-anatomy-assignment]]. The four questions, the drill's introduction, the seven organs (reassembled from the drill's data) and the Reykjavik Protocol are XLab's.
+
+- **Lens's text:** the tldr; line 16 (the authors), line 20 (lightly edited after A29); the label "The seven organs, and the bin:". All pass.
+- **Spoiler test:** passes.
+- **tldr:** passes.
+- **For Andreas and Elias:** line 109, "You will work with this document again in the dissection and the stress test." CV1 has neither, and the Reykjavik Protocol appears only on this page and in the drill. Candidate: cut the sentence.
+
+### MIRI's draft agreement (paper page)
+
+[[Lenses/XLab Verification - v-paper-scher-treaty]]. Optional in the module.
+
+- **Lens's text:** the tldr; line 16, the lead-in to the threshold widget.
+- **Spoiler test:** passes; no exercise.
+- **tldr flags:** "The one draft treaty on the table that is written like a treaty" is a superlative the page does not support, with an idiom ("on the table"); "you do not read it cover to cover, you work it article by article" is a comma splice. Content: it calls itself "Optional reading", but all four questions on the previous page are required (A29) and cannot be answered without it. "Optional" may read as skippable. Candidate for the second sentence: "You need it for the four assignment questions, but you do not read it cover to cover: work it article by article." Stage 8: the assignment's time should count consulting the draft.
+- **Flag on the page:** line 16. "Is the picture of" is mannered, and "Appendix D's levers" names a part of the paper the learner has not reached; the excerpt above stops at Figure 2.
+
+### Actors: who does the treaty rely upon, apply to, and constrain?
+
+[[Lenses/XLab Verification - v-scoping-actors]]. The reading, the five tables and the workshop are XLab's; the workshop's roster, rings, key and finding reassemble XLab's widget data (Elias's port note, line 290).
+
+- **Lens's text:** the tldr; line 111, edited ("from Week 5 onwards, and in Part 2", stage 7); line 155; the callout titles, which pass; line 234; the placement prompt (line 243); lines 286 and 291.
+- **Spoiler test:** passes. "Not the signatories" also rules out one option of the centre question, but the page says it in its third paragraph, before any exercise.
+- **tldr:** passes, at 75 words, near the 80-word limit. If it is trimmed, the parenthetical list of the three lenses could go.
+- **Flags on the page:** line 234, "the report 1.2.2 keys its edges against"; line 282, the finished map: "the colours" and "this board" point to XLab's ring graphic, which the port did not reproduce, and the Content point below; line 286, which says the same as line 291.
+- **Minor, no flag:** the placement prompt says "No AI verification body" where the roster says "The verification body that does not exist".
+- **For Andreas and Elias:**
+  - Line 282, "Exactly two actors on this board owe anybody a declaration": the placement key, from XLab's own data, puts four on Declares. XLab's current source has the same text and key (their commit 843aa78), though XLab no longer shows this workshop.
+  - Line 263, ASML is placed under "Holds the evidence" while its reason says it "holds evidence about nobody".
+  - Line 204, the cloud provider's "Hide" line, "a natural monitor that is a reluctant police force", does not say what hiding would look like.
+- **Left for stage 7:** the section numbers (1.1, 1.2.1, 1.2.2, 1.3), "Week 5", "Part 2", "the capstone course"; the Works cited note that some sources "have no entry in XLab's citation registry" (line 335).
+- **Left for the spelling pass:** "centre", "centred", "colours", "practise", "data centre", "organisations".
+
+### Geographic supply-chain map
+
+[[Lenses/XLab Verification - v-interactive-map]]. The map's text and data are XLab's.
+
+- **Lens's text:** the tldr; the two optional callouts (lines 31 to 41), which pass; the duplicated paragraph in "Start here" (line 46, a port error).
+- **Spoiler test:** passes; no exercise.
+- **tldr flags:** two semicolons; "pinches to a few known addresses" is mannered. The fourteen countries check out against the widget.
+- **Flag on the page:** line 46. It repeats line 20 word for word, here with an em dash, and the "Start here" callout comes after the map it explains.
+- **Left for stage 7:** "1.2.2"; the Works cited note on XLab's citation registry (line 85).
+
 ## Unit 3: Who can prove what (pilot)
 
 [[Lenses/XLab Verification - v-actor-edges]]. Almost all of the page is XLab's: the brief, the rules for drawing an edge, the reading of the map, the "Why" callout and the three questions. The actor roster in the first callout reassembles XLab's own actor data and stays XLab's.
