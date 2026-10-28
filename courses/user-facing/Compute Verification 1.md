@@ -39,7 +39,7 @@ meeting-doc:: [[../../meetings/Compute Verification 1/Meeting 1]]
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
 
-# Module: [[../../modules/XLab Verification P1 W2 Precedents and policy scope]]
+# Module: [[../../modules/XLab Verification P1 W2 Precedents, strategy, and policy scope]]
 
 # Module: [[../../modules/XLab Verification P1 W2 Policy scope]]
 

@@ -218,7 +218,7 @@ Flagged 2026-10-27. Primer Practice, now in this unit, is done (unit 1 entry, A4
 
 ### Welcome to Unit 2
 
-Inline in [[modules/XLab Verification P1 W2 Precedents and policy scope]]. All of it is Lens's text.
+Inline in [[modules/XLab Verification P1 W2 Precedents, strategy, and policy scope]]. All of it is Lens's text.
 
 - **Spoiler test:** passes.
 - **tldr flag:** "What you will learn in Unit 2: precedents and policy scope." leaves out Strategic Foundations, as the goals do.
