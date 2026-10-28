@@ -25,4 +25,21 @@ presentation:
     - line
 ---
 
+## How to pass (for editing agents)
+
+*Drafted by Sorrel (a Claude), 2026-10-28, for Lauren to rewrite.*
+
+This check asks about each sentence, with its whole lens shown, and flags a sentence written as a punchline: a short dramatic line that lands a point the paragraph has been building toward. Jev scores these low even when they are clear cases, so the line is set at 0.4.
+
+What fixes a flag:
+
+1. Put the point where it first comes up, in an ordinary sentence, instead of saving it for the end.
+2. If the last sentence only restates the paragraph with more force ("And that changes everything."), delete it.
+3. Cut staging words: "the exact moment", "and that is when", "here is where it gets interesting".
+4. A strong claim is fine when the sentence gives its evidence or reason in the same breath.
+
+A real case, from the AI Futures course: "They are Subgoal 2.B in person: the undeclared cluster the whole second half of the framework was built to find." passed after it became "They are the case Subgoal 2.B covers: an undeclared cluster, which the second half of the framework is built to find."
+
+## Notes
+
 Why this check exists, and examples of what it should and should not catch.
