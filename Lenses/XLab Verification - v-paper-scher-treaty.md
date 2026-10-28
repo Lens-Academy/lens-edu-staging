@@ -13,7 +13,7 @@ to:: Cost estimates are based on October 2025 rental prices for B200 GPUs from C
 
 #### Text
 content::
-{>>{"author":"Andreas's AI","timestamp":1793164086777}@@Stage 6 flag, Lens text: "is the picture of" is mannered, and the colon introduces a long list. "Appendix D's levers" names a part of the paper the learner has not reached yet; the excerpt above stops at Figure 2. See the CV1 plain language worklist.<<}Figure 2 above is the picture of the two thresholds against real training runs. Set the thresholds and pick a cluster size yourself. The widget recomputes how long that cluster needs to reach each threshold, when it would be registered, and which of Appendix D's levers reach it, domestically and internationally.
+{>>{"author":"Andreas's AI","timestamp":1793164086777}@@Stage 6 flag, Lens text: "is the picture of" is mannered, and the colon introduces a long list. "Appendix D's levers" names a part of the paper the learner has not reached yet; the excerpt above stops at Figure 2. See the CV1 plain language worklist.<<}Figure 2 above matches the two thresholds against real training runs. Set the thresholds and pick a cluster size yourself. The widget recomputes how long that cluster needs to reach each threshold, when it would be registered, and which of Appendix D's levers reach it, domestically and internationally.
 
 #### Widget
 source:: [[../widgets/scher-threshold-explorer]]
