@@ -50,7 +50,6 @@ content::
 *“Tips for Reading and Understanding a Statute”, pp. 4–5, complete*
 Texas Legislative Council, Research Division, 85th Legislature
 
-The excerpt follows below.
 :::{>>{"author":"Elias's AI","timestamp":1788016161738}@@XLab folds this aside; segments cannot nest in a callout, so the prose and reading card are in the callout and the Article excerpt stays as the next segment.<<}
 
 #### Article
