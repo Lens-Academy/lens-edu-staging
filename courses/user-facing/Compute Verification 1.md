@@ -41,6 +41,8 @@ facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
 
 # Module: [[../../modules/XLab Verification P1 W2 Precedents, strategy, and policy scope]]
 
+# Module: [[../../modules/XLab Verification P1 W2 Strategic foundations]]
+
 # Module: [[../../modules/XLab Verification P1 W2 Policy scope]]
 
 # Module: [[../../modules/XLab Verification P1 W2 Strategic foundations]]
