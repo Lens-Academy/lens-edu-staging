@@ -1,50 +1,42 @@
 ---
 id: T7
-enabled: false
+enabled: true
 name: "Don't talk like opus5"
 model: jev-1.14.0
-fail_at: 0.8
-pass_below: 0.5
-question: "Does `paragraph` …?"
+fail_at: 0.3
+pass_below: 0.25
+question: "Does `paragraph` read like Claude Opus 5 wrote it?"
 criteria:
-  "true": "`paragraph` …"
-  "false": "`paragraph` …"
+  "true": "`paragraph` sounds like Claude Opus 5.
+
+
+    eg, at the most extreme, an intense yes reads like:
+
+
+    <quote>Oh, this is *delicious*. Okay — so the thing you're pointing at is, and I want to be careful here because I think there are actually two claims bundled together, genuinely one of the more interesting versions of this I've run into. There's a concept that's almost exactly this. The short version is that it isn't a bug in the setup, it *is* the setup — which is a fancy way of saying the thing you thought was noise is the signal. And here's the part I find genuinely lovely: it generalizes. Does that land, or am I pattern-matching too aggressively?</quote>
+
+
+    in weaker cases, you might see:
+
+
+    - `paragraph` overuses references such as \"this\", \"that\", \"the thing\", etc
+
+    - `paragraph` uses superlatives such as \"it isn't just x, it's y\", \"genuinely\", \"honestly\", \"exactly\", etc
+
+    - `paragraph` telegraphs verbal patterns like \"here's the thing\", \"I want to be careful here\", \"this is the real point\", etc
+
+    - `paragraph` asks for broad, open-ended feedback from the reader: \"What do you think?\", \"Is that what you're looking for?\""
+  "false": "`paragraph` is sedate and doesn't use claudeish phrasing. For example,
+
+
+    - `paragraph` specifies what each phrase refers to using concrete nouns.
+
+    - `paragraph` only uses emphasis when concretely justified.
+
+    - `paragraph` avoids contentless build-up to a point.
+
+    - `paragraph` only asks questions that are specific."
 fix: "…"
-draft:
-  question: |-
-    Does `paragraph` read like Claude Opus 5 wrote it?
-  criteria:
-    "true": '`paragraph` sounds like Claude Opus 5.
-
-
-      eg, at the most extreme, an intense yes reads like:
-
-
-      <quote>Oh, this is *delicious*. Okay — so the thing you''re pointing at is, and I want to be careful here because I think there are actually two claims bundled together, genuinely one of the more interesting versions of this I''ve run into. There''s a concept that''s almost exactly this. The short version is that it isn''t a bug in the setup, it *is* the setup — which is a fancy way of saying the thing you thought was noise is the signal. And here''s the part I find genuinely lovely: it generalizes. Does that land, or am I pattern-matching too aggressively?</quote>
-
-
-      in weaker cases, you might see:
-
-
-      - `paragraph` overuses references such as "this", "that", "the thing", etc
-
-      - `paragraph` uses superlatives such as "it isn''t just x, it''s y", "genuinely", "honestly", "exactly", etc
-
-      - `paragraph` telegraphs verbal patterns like "here''s the thing", "I want to be careful here", "this is the real point", etc
-
-      - `paragraph` asks for broad, open-ended feedback from the reader: "What do you think?", "Is that what you''re looking for?"'
-    "false": "`paragraph` is sedate and doesn't use claudeish phrasing. For example,
-
-
-      - `paragraph` specifies what each phrase refers to using concrete nouns.
-
-      - `paragraph` only uses emphasis when concretely justified.
-
-      - `paragraph` avoids contentless build-up to a point.
-
-      - `paragraph` only asks questions that are specific."
-  pass_below: 0.15
-  fail_at: 0.2
 view:
   sample: 300
   percentiles: "[0, 0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 0.5]"
