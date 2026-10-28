@@ -1,6 +1,6 @@
 ---
 id: T6
-enabled: false
+enabled: true
 name: "reference the reader cannot resolve"
 model: jev-1.14.0
 fail_at: 0.8
