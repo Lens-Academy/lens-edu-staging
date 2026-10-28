@@ -145,7 +145,7 @@ content::
 
 Eli and Daniel ran the same model with their own parameter settings, on largely the same evidence, and they did not get the same result. Eli gives his all-things-considered distribution in the text. Daniel's distribution is in the chart rather than in the prose, so read it off the figure.
 
-Here is the thing to notice, and it is not in the model. Both of them run the model, and then they adjust its output by hand, for reasons the model does not contain. Find where each one does that. Say what each one is correcting for.
+Neither number is the model's output. Both of them run the model and then adjust its result by hand, for reasons the model does not contain. Find where each one does that. Say what each one is correcting for.
 
 Then remember that you wrote down a number before you read any of this. What should you do with your number now? And what would you need to know about how each of the three numbers was produced, before you could combine them at all?
 
