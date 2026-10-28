@@ -305,6 +305,7 @@ Inline in [[modules/XLab Verification P1 W3 Treaty anatomy and actors]]. All Len
 - **Spoiler test:** passes. "Find where 'should' turns into 'shall'" points at the method the page itself recommends ("Look for key verbs"), not at an answer.
 - **tldr:** passes. The mechanic analogy reads plainly. Minor: "where the verification method is hidden" suggests concealment; the assignment asks where it is set.
 - **Flag on the page:** line 47. "The assignment below" is on the next page. "The excerpt follows below" repeats the obvious, and the excerpt sits outside the closed callout, so everyone sees it, not only readers short on time.
+- **Review of the rewrite, 2026-10-28.** "Question 1 of the following lens" fixes the direction, and "The excerpt follows below" is gone. The excerpt still sits outside the callout, Andreas's call. The tldr is unchanged ("hidden"), also his call.
 
 ### Reading a draft agreement
 
@@ -338,6 +339,7 @@ Inline in [[modules/XLab Verification P1 W3 Treaty anatomy and actors]]. All Len
 - **For Andreas and Elias:**
   - Line 282, "Exactly two actors on this board owe anybody a declaration": the placement key, from XLab's own data, puts four on Declares. XLab's current source has the same text and key (their commit 843aa78), though XLab no longer shows this workshop.
   - Line 263, ASML is placed under "Holds the evidence" while its reason says it "holds evidence about nobody".
+- **The ring graphic (Andreas, 2026-10-28).** XLab's Actor Map Workshop, with its ring graphic, was in their first release (2026-08-20) and was retired five days later (their commit a307b67, "retire the Actor Map Workshop"). That is why it is missing from XLab's current curriculum. Elias's port rebuilt the workshop from the data files, which stayed in XLab's repository because their "Who can prove what" widget still uses the same rings. So the board exists in CV1 too, but only on the "Who can prove what" page, which comes after the supply-chain map. Claude drafted a static image of the finished map for review (Q22): the seventeen actors on the four rings as in the key, in the same layout as that widget, with six small squares under each actor for its roles. It uses one accent color and position, since six role colors failed the colorblind check. Not built.
   - Line 204, the cloud provider's "Hide" line, "a natural monitor that is a reluctant police force", does not say what hiding would look like.
 - **Left for stage 7:** the section numbers (1.1, 1.2.1, 1.2.2, 1.3), "Week 5", "Part 2", "the capstone course"; the Works cited note that some sources "have no entry in XLab's citation registry" (line 335).
 - **Left for the spelling pass:** "centre", "centred", "colours", "practise", "data centre", "organisations".
