@@ -13,7 +13,7 @@ The defaults:
 The fields:
 - `min_chat_messages` (lens frontmatter, or `min_chat_messages::` on an inline lens; default 0): the learner must send at least this many messages to the Lens Tutor on that lens before "Mark section complete" works. Every message counts — page chat box, a question's feedback conversation, or the sidebar — except the auto-sent feedback request itself.
 - `optional:: true` makes a question skippable; on a whole lens, that lens never blocks completion.
-- `#### Question Set` with `minimum-questions-answered:: N`: the questions under it (one heading level down) need only N answers between them.
+- `#### Question Set` with `minimum-questions-answered:: N`: the questions and widgets under it (one heading level down) need only N done between them. A question is done when answered; a widget when it calls `Lens.complete()`.
 
 
 What learners see: while a requirement is unmet, "Mark section complete" is grayed out above a live "To finish this page:" checklist (e.g. "Send 2 messages to the Lens Tutor", "Answer question 2") — each item links to the spot.
@@ -119,3 +119,22 @@ content:: What is a book or film you would recommend to a friend?
 id:: 78e4b9e7-808e-49d1-a9eb-fcc3519af88b
 content:: Where would you like to travel next?
 
+# Lens: Question Set with a widget
+id:: 69bb729b-b41a-4622-a79f-e69e02a2a220
+tldr:: One question and one interactive exercise, and you only have to do one of them. A widget inside a Question Set counts toward the set once it is finished.
+summary_for_tutor:: Demo lens with a Question Set (minimum-questions-answered:: 1) around one Question: Open and one widget. The learner may answer the question or finish the widget; completion is blocked until one of them is done.
+duration_minutes:: 3
+
+#### Text
+content::
+A widget can sit in a `#### Question Set` too (`##### Widget`, one heading level down). It counts toward the set once it calls `Lens.complete()`. Here the set asks for 1, so either answer the question or press the widget's button. Until then, "Mark section complete" lists "Finish 1 of the exercises in the set".
+
+#### Question Set
+minimum-questions-answered:: 1
+
+##### Question: Open
+id:: ba071eca-eb6e-4413-a9fc-6746e8703933
+content:: In one sentence: what would you most like to learn next?
+
+##### Widget
+source:: [[../widgets/finish-button-demo]]
