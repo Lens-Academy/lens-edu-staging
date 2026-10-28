@@ -60,7 +60,7 @@ What moves the score down:
 5. Ask the reader specific questions only. "What do you think?" and "Does that land?" fail.
 6. Use one em-dash aside per paragraph at most, and italics only where a human reader would stress the word aloud.
 
-A lower score is not the whole test. After you rewrite, read the sentence as a tired student would. If it takes two reads to parse ("for reasons the model does not contain"), it still needs work. Watch for words you reach for by habit; this generation of Claude overuses "say" in instructions ("say what you think"), where "write", "explain" or "name" usually fit better.
+A lower score is not the whole test. After you rewrite, read the sentence as a tired student would. If it takes two reads to parse ("for reasons the model does not contain"), it still needs work. Watch for words you reach for by habit; this generation of Claude overuses "say" and "name" in instructions to students ("say what you think", "name one reason"). Ask for the thing itself instead: "Which reason convinced you most, and why?"
 
 ## Lauren's notes
 
