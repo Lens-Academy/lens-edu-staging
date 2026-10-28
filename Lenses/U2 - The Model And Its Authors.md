@@ -208,7 +208,7 @@ id:: d6316651-341f-4d32-90c4-3f29a411e455
 content::
 \## What has to keep happening, and what is left afterwards
 
-Every number in this reading depends on one thing continuing: the METR horizon trend. Daniel spends several paragraphs on why he is nervous about exactly that. He names online and continual learning, data efficiency, and the question of whether the trend is exponential or superexponential. Pick the one you think these forecasts depend on most. Say what you would watch over the next year to find out which way it is going.
+Every number in this reading depends on one thing continuing: the METR horizon trend, the length of task (in human working time) that AI agents can finish, which METR measured doubling about every seven months. Daniel spends several paragraphs on why he is nervous about exactly that. He names online and continual learning, data efficiency, and the question of whether the trend is exponential or superexponential. Pick the one you think these forecasts depend on most. Say what you would watch over the next year to find out which way it is going.
 
 That question is about how much time there is. This one is not.
 
