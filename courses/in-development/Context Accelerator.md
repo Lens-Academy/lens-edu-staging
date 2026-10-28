@@ -28,7 +28,7 @@ Cap: https://cap.so/s/my8sc06hzsbbx9a
 	1. Writing sample (fellowships/jobs require this)
 	2. LW post
 	3. ...
-- You will have knowledge/opinions on:
+- You will have {==knowledge/opinions on:==}{>>{"author":"Elias","timestamp":1793181779447}@@add something about field's history?<<}
 	- What success looks like (the concept of Toc)
 	- Main plans in the field to get there (main ToCs)
 	- Basic overview over the orgs, funders and people behind each plan
