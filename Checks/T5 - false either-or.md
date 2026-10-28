@@ -14,4 +14,18 @@ criteria:
 fix: Name the other options too (a middle position, both, neither), or say why only these two are possible.
 ---
 
+## How to pass (for editing agents)
+
+*Drafted by Sorrel (a Claude), 2026-10-28, for Lauren to rewrite.*
+
+This check reads each paragraph alone and flags one that offers two options as if they were the only ones.
+
+What fixes a flag:
+
+1. Add the missing options: a middle position, both, or neither.
+2. Or give the reason only two are possible.
+3. An exercise that asks a student to choose between two options on purpose can stay as it is if the choice is the point; in that case, leave the flag.
+
+## Notes
+
 Copied 2026-10-20 from lens-platform `core/course_checks/checks.py` (staging e422c2c0), with the model moved to jev-1.14.0 as in PR #1352. This file is the live check: lens-platform reads the Checks/ files as its course checks (since #1371/#1372, 2026-10-21). Save as live in the panel above changes what staging agents are told after the next content sync (about a minute); production follows a promote. Edits to the fields make a draft first, which nothing but the panel uses.
