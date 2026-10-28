@@ -21,7 +21,7 @@ content::
 
 {>>{"author":"Andreas's AI","timestamp":1793131866748}@@Stage 6 flag, Content: the three goals cover the precedents lesson and policy scope, but none covers Strategic Foundations, whose two game theory primers and Primer Practice are now required. The tldr above says "precedents and policy scope" too. See the CV1 plain language worklist.<<}- Say what IAEA safeguards in Iraq show about what an inspectorate can and cannot audit.
 - Break a policy into its goal, its legal rule and the claim that has to be verified.
-- Use strategic thinking to test what a verification regime needs to
+- Use strategic thinking to test what a verification regime needs to be effective and enforceable
 - Weigh compute thresholds against capability thresholds, and sort eleven candidate anti-ASI policies by how much they deter and how gettable they are.
 
 # Lens:
