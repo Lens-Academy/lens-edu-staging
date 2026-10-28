@@ -9,7 +9,7 @@ tutor_minutes: 0
 ---
 #### Text
 content::
-Now that we've established the foundational motivations for why verification is important, we'll dive into building key intuitions around the timelines, scope, and urgency of what a verification regime might actually look like. We'll do this by analyzing AI 2040: Plan A, the most detailed and well-known public attempt to forecast a successful AI slowdown and complement verification regime.
+This part asks what a verification regime might actually look like: how long it would take to build, what it would cover, and how soon it is needed. We'll do this by analyzing AI 2040: Plan A, the most detailed and well-known public attempt to forecast a successful AI slowdown and complement verification regime.
 
 :::callout {title="By the end of this module, you will be able to:" tone="blue"}
 Interrogate a concrete verification proposal: identify its load-bearing mechanism, its weakest link, and the assumptions it depends on, then form a coherent, defendable position on it.
