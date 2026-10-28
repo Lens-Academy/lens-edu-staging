@@ -65,7 +65,7 @@ Links:
 Week 1 goals: What we want (the shape of the alignment problem and requirments to solution to be meaningful)
 - Kickoff Lighning talk about everything happening in this course (watch if you can't join)
 - Module: How to get value out of this course (checklist, how to create schedule)
-- What's so spesific abot AI Safety (and why)
+- What's so spevific abot AI Safety (and why)
 	- Pre-paradigmatic
 	- {==uni vs cata==}{>>{"author":"lauren","timestamp":1793192445643}@@A note about this:Uniformitarian vs Catastrophist are not merely different approaches. They're different guesses about what is true about the shape of reality even if safety advocates and researchers were to do nothing: to what degree is the development of AI inclined to go through sudden abrupt nonlinear changes (catastrophist), vs being generally smooth and incremental even during fast periods (uniformitarian). both predict that AI can be wildly dramatic; but catastrophist additionally implies that there are discrete-ish transitions. Also, these are preexisting terms that have been used in the sciences for a while, so it's nothing new to use these terms to mean these things; these terms came from a similar disagreement among geologists a few hundred years ago.<<}
 	- How high stakes make people do weird looking things (→ why solutions look so different)
