@@ -3,8 +3,8 @@ id: T7
 enabled: true
 name: "Don't talk like opus5"
 model: jev-1.14.0
-fail_at: 0.3
-pass_below: 0.25
+fail_at: 0.2
+pass_below: 0.15
 question: "Does `paragraph` read like Claude Opus 5 wrote it?"
 criteria:
   "true": "`paragraph` sounds like Claude Opus 5.
