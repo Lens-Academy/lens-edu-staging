@@ -237,6 +237,7 @@ content::
 <circle cx="480" cy="350" r="5" fill="#b87018"/>
 <g fill="currentColor" text-anchor="middle"><text x="480" y="372" font-size="15" font-weight="600">A training run</text><text x="480" y="390" font-size="13" fill-opacity="0.65">above the threshold</text></g>
 </svg>
+
 {>>{"author":"Andreas's AI","timestamp":1793164089695}@@Stage 6 flag, Lens text: "the report 1.2.2 keys its edges against" uses "keys" in a sense the learner has not met, about a page they have not seen yet. The section number is left for stage 7. See the CV1 plain language worklist.<<}At the centre: **a training run above the threshold.** Around it, four rings. Each ring's test is quoted from Baker et al., Verifying International Agreements on AI (2025), the report [[../Lenses/XLab Verification - v-actor-edges|1.2.2]] keys its edges against.
 
 1. **Declares.** You own or use large-scale compute, or you signed the agreement and answer for what happens inside your territory. Either way the regime wants a declaration from you: you are the Prover. Baker §3.1: “The Prover could be a private institution or (in the case of international agreements) a government, which could constrain private companies within its territory as part of the agreement.” And §3.2: “organizations that own or use large-scale AI compute (e.g., major AI companies and cloud compute providers) would be required to declare facts about” their compute.
