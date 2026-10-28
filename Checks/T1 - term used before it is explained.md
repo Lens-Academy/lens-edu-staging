@@ -14,18 +14,6 @@ criteria:
   "false": >-
     Every specialist term and acronym in `paragraph` is explained in the sentence where it first appears, or `paragraph` uses only everyday words and names, such as AI, ChatGPT, OpenAI or computer.
 fix: Say what the term means, in plain words, in the sentence where it first appears.
-draft:
-  presentation:
-    context: document
-    question: paragraph
-    nest:
-      - document
-      - submodule
-      - lens
-      - section
-      - paragraph
-      - sentence
-      - line
 view:
   sample: 100
 presentation:
