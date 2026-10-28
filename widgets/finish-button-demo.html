@@ -1,0 +1,35 @@
+<!--lens-widget
+id: 'c32b4aa2-86e9-460c-bace-f7f8ed6f15e1'
+title: Finish button demo
+summary_for_tutor: A demo widget with one button. Pressing it calls Lens.complete(), which marks the widget as finished for this learner. Used to show a widget counting toward a Question Set.
+height: auto
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Finish button demo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 14px/1.5 Arial, sans-serif; color: #1a1a1a; background: #fff; }
+p { margin: 0 0 12px; color: #5a5a5a; }
+button { font: inherit; border: 1px solid #e8e5df; border-radius: 8px; background: #fff; padding: 8px 12px; cursor: pointer; }
+button:hover { background: #faf8f3; }
+#done { margin-top: 8px; color: #15803d; font-weight: 600; }
+</style>
+</head>
+<body>
+  <p>This box is a widget. Pressing the button calls <code>Lens.complete()</code>, which marks this exercise as finished.</p>
+  <button id="finish" type="button">Finish this exercise</button>
+  <div id="done" hidden>Finished.</div>
+  <script>
+  var finish = document.getElementById("finish");
+  var done = document.getElementById("done");
+  finish.addEventListener("click", function () {
+    if (window.Lens) window.Lens.complete();
+    done.hidden = false;
+  });
+  </script>
+</body>
+</html>
