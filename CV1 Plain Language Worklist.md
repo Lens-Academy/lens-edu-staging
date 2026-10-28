@@ -25,6 +25,8 @@ Stage 6 of [[CV1 Restructure Log]]. Claude marks what is Lens's text, tests ever
 
 **Status, evening of 2026-10-27.** Andreas has rewritten the three policy-scope pages, working back from the end of the list, and passed the Fearon key to XLab. Reviews are under each page: three short notes, plus the open bucket-5 point and a new clash on Goodhart's Law. One flag's removal is pending. Still to come from Andreas: Strategic Foundations, the written exercise, History, Precedents, Parallels, and the welcome.
 
+**Status, late on 2026-10-27.** History, Precedents, Parallels, the welcome and the three policy-scope pages are reviewed and their flags are coming off (removals pending). Open: Strategic Foundations' "two short primers" (tldr and line 12), the written exercise's "pathway above", the welcome's tldr and goal order, and three minor notes. A46: Strategic Foundations moves before policy scope, on Andreas's go.
+
 ## How to read an entry
 
 - **Lens's text** lists the passages that are ours, by line in the lens file. Everything else on the page is XLab's.
