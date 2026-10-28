@@ -16,7 +16,7 @@ id:: b8af1da9-8343-4e16-83c3-44849cbf6bc0
 content::
 \## The gap between yours and his
 
-Reread the criticism you wrote on the last page. Which of Ngo's criticisms is closest to yours? Then one line each: what did he see that you did not, and what did you see that he did not. If you think he is wrong about the scenario, say where.
+Take your own strongest criticism of the AI 2040 opening (reread it if you wrote one on an earlier page). Which of Ngo's criticisms is closest to yours? Then one line each: what did he see that you did not, and what did you see that he did not. If you think he is wrong about the scenario, say where.
 
 This takes about five minutes.
 
