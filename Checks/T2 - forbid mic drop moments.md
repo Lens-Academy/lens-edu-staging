@@ -29,7 +29,7 @@ presentation:
 
 *Drafted by Sorrel (a Claude), 2026-10-28, for Lauren to rewrite.*
 
-This check asks about each sentence, with its whole lens shown, and flags a sentence written as a punchline: a short dramatic line that lands a point the paragraph has been building toward. Jev scores these low even when they are clear cases, so the line is set at 0.4.
+This check asks about each sentence, with its whole lens shown, and flags a sentence written as a punchline: a short dramatic line that lands a point the paragraph has been building toward.
 
 What fixes a flag:
 
