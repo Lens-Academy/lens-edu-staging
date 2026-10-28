@@ -43,6 +43,8 @@ view:
   courses:
     - ai-
     - ai-futures
+draft:
+  fix: 'Write it plainer: replace "this", "that" and "the thing" with the noun meant, drop "genuinely", "honestly" and "here is the thing", use emphasis only when it is earned, and ask the reader only specific questions.'
 ---
 
 I asked opus5 to generate the example text. the conversation went like:
