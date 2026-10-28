@@ -44,6 +44,24 @@ view:
     - ai-
     - ai-futures
 ---
+## How to pass (for editing agents)
+
+*Drafted by Sorrel (a Claude), 2026-10-28, for Lauren to rewrite.*
+
+This check is hard to pass on purpose. Lauren's target is a score under 0.1, and more than half of the current course text scores above that. If you are a Claude, expect it to flag paragraphs that read as plain to you: the check measures a voice you cannot hear in your own writing, so a flag is information about the text, not noise.
+
+What moves the score down:
+
+1. Name things. Replace "this", "that", "the thing" and "it" with the noun they stand for, even when that repeats a word.
+2. Cut setups that announce a point ("here is the thing to notice", "the key move", "what matters is"). Start with the point.
+3. Cut intensifiers and certainty words: "genuinely", "honestly", "exactly", "actually", "really".
+4. Drop "it isn't X, it's Y" contrasts unless someone in the text actually believes X.
+5. Ask the reader specific questions only. "What do you think?" and "Does that land?" fail.
+6. Use one em-dash aside per paragraph at most, and italics only where a human reader would stress the word aloud.
+
+A lower score is not the whole test. After you rewrite, read the sentence as a tired student would. If it takes two reads to parse ("for reasons the model does not contain"), it still needs work. Watch for words you reach for by habit; this generation of Claude overuses "say" in instructions ("say what you think"), where "write", "explain" or "name" usually fit better.
+
+## Lauren's notes
 
 I asked opus5 to generate the example text. the conversation went like:
 
