@@ -44,7 +44,7 @@ to:: <sup>157</sup> Taken from the Treaty on Mutual Legal Assistance in Criminal
 #### Text
 content::
 :::callout {title="Reading the Treaty Taking Too Long?" tone="neutral" collapse="closed"}
-{>>{"author":"Andreas's AI","timestamp":1793164083850}@@Stage 6 flag, self-contained: "the assignment below" is on the next page, not below. "The excerpt follows below" at the end of this callout says twice what is already clear, and the excerpt sits outside the closed callout, so everyone sees it, not only readers short on time. See the CV1 plain language worklist.<<}Read **Look for key verbs** twice. It is question 1 of the assignment below, in the drafters’ own words.
+{>>{"author":"Andreas's AI","timestamp":1793164083850}@@Stage 6 flag, self-contained: "the assignment below" is on the next page, not below. "The excerpt follows below" at the end of this callout says twice what is already clear, and the excerpt sits outside the closed callout, so everyone sees it, not only readers short on time. See the CV1 plain language worklist.<<}Read **Look for key verbs** twice. It is question 1 of the following lens, in the drafters’ own words.
 
 \### [Reading Statutes and Bills](https://tlc.texas.gov/docs/legref/readingabill.pdf)
 *“Tips for Reading and Understanding a Statute”, pp. 4–5, complete*
