@@ -106,7 +106,7 @@ source:: [[../widgets/anatomy-drill]]
 #### Text
 content::
 :::callout {title="The Reykjavik Protocol: full text" tone="neutral" collapse="closed"}
-The fictional agreement several specimens were drawn from. Two specimens used strengthened versions of Articles VI and VIII; the original text appears here. You will work with this document again in the dissection and the stress test.
+The fictional agreement several specimens were drawn from. Two specimens used strengthened versions of Articles VI and VIII; the original text appears here.
 
 **Preamble.** The States Parties to this Protocol, recognizing that certain applications of advanced artificial intelligence may pose risks to international security, have agreed as follows:
 
