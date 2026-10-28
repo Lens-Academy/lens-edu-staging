@@ -29,6 +29,8 @@ Stage 6 of [[CV1 Restructure Log]]. Claude marks what is Lens's text, tests ever
 
 **Status, night of 2026-10-27.** Unit 2's text is done (Andreas). Every unit 2 flag is resolved, and their removals are pending, with one suggestion: the written exercise's question still says "pathway above". Strategic Foundations now comes before policy scope (A46). Unit 3 is next. Its pilot page, "Who can prove what", is already done.
 
+**Status, 2026-10-27, late.** Andreas accepted the unit 2 suggestions and removals. Unit 3 is flagged. Two tldrs are flagged (the paper page, with a Content point, and the supply-chain map), and there are six flags on the pages: one on the anatomy page, one on the paper page, three on the actors page and one on the map page. Four XLab passages are for Andreas and Elias. The welcome and "Reading a draft agreement" pass.
+
 ## How to read an entry
 
 - **Lens's text** lists the passages that are ours, by line in the lens file. Everything else on the page is XLab's.
@@ -76,11 +78,11 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 | 2 | Policies must be effective and feasible | 2,239 | 80 | 1,065 | Done |
 | 2 | Strategic Foundations (now before policy scope, A46) | 407 | 116 | 247 | Done |
 | 2 | The seven Strategic Foundations reading pages and the written exercise | 720 | 372 | 134 | Done; one suggestion pending |
-| 3 | How an agreement is put together | 507 | 101 | 220 | |
-| 3 | Reading a draft agreement | 1,184 | 130 | 353 | |
-| 3 | MIRI's draft agreement (paper page) | 161 | 123 | 38 | |
-| 3 | Actors: who does the treaty rely upon, apply to, and constrain? | 5,727 | 509 | 1,240 | |
-| 3 | Geographic supply-chain map | 916 | 380 | 76 | |
+| 3 | How an agreement is put together | 507 | 101 | 220 | Flagged |
+| 3 | Reading a draft agreement | 1,184 | 130 | 353 | Passes; one XLab note |
+| 3 | MIRI's draft agreement (paper page) | 161 | 123 | 38 | Flagged |
+| 3 | Actors: who does the treaty rely upon, apply to, and constrain? | 5,727 | 509 | 1,240 | Flagged |
+| 3 | Geographic supply-chain map | 916 | 380 | 76 | Flagged |
 | 3 | Who can prove what | 2,699 | 166 | 1,130 | Done (pilot) |
 | 4 | Upstream and downstream | 1,436 | 182 | 0 | |
 | 4 | Context distiller | 790 | 98 | 268 | |
