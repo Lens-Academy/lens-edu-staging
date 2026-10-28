@@ -25,6 +25,7 @@ draft:
   criteria:
     "true": "`paragraph` points the reader to something on another page of the course (a previous lens, an earlier unit, an exercise or answer from elsewhere), or uses a name, figure or term that is never introduced on this page, without saying what it is."
     "false": 'Everything `paragraph` refers to is on this page: earlier text, or a reading, video or interactive widget placed on this page (which may appear only as markup or not be shown here), or what the student wrote earlier on this page. Phrases like "the reading", "the map above" or "the video" are fine.'
+  fix: Say what it refers to in this paragraph, in a few words, or link to the page it is on.
 ---
 
 Drafted by Sorrel (Claude), 2026-10-26, from a conversation with Lauren: writers with a large working memory (Claudes most of all) write references that resolve easily for them and not for a reader, "an AI who lives in a robot body ... forget[ting] that that awesome extremely-usable design for kitchen scissors needs to not be made of tungsten". Not live yet (`enabled: false`): tune it in the panel first.
