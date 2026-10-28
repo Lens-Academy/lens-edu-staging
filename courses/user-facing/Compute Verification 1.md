@@ -43,9 +43,7 @@ facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
 
 # Module: [[../../modules/XLab Verification P1 W2 Strategic foundations]]
 
-# Module: [[../../modules/XLab Verification P1 W2 Policy scope]]{--{"author":"Andreas's AI","timestamp":1793158287736}@@
-
-# Module: [[../../modules/XLab Verification P1 W2 Strategic foundations]]--}
+# Module: [[../../modules/XLab Verification P1 W2 Policy scope]]
 
 # Module: [[../../modules/XLab Verification P1 U2 Feedback|Unit 2 feedback]]
 

@@ -22,8 +22,7 @@ content::
 - Say what IAEA safeguards in Iraq show about what an inspectorate can and cannot audit.
 - Use strategic thinking to test what a verification regime needs to be effective and enforceable.
 - Break a policy into its goal, its legal rule and the claim that has to be verified.
-{--{"author":"Andreas's AI","timestamp":1793158304902}@@- Use strategic thinking to test what a verification regime needs to be effective and enforceable.
---}- Weigh compute thresholds against capability thresholds, and sort eleven candidate anti-ASI policies by how much they deter and how gettable they are.
+- Weigh compute thresholds against capability thresholds, and sort eleven candidate anti-ASI policies by how much they deter and how gettable they are.
 
 # Lens:
 source:: [[../Lenses/XLab Verification - v-precedents]]
