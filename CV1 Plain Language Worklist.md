@@ -409,6 +409,8 @@ Inline in [[modules/XLab Verification P1 W4 Evidence and its readers]]. **Passes
 - **Spoiler test: fails.** The page's first question, optional, asks "What is wrong with this sentence? Every clause in it is true." The tldr answers it: "Two documents from the same side agreeing with each other is not verification", and "watch a true sentence fail because every claim in it came from Iran".
 - **tldr flags:** the spoiler. The first sentence is "X is not Y; it is Z" framing with a semicolon, and it repeats line 33 almost word for word. "Rewrite it so each claim carries its source": the page shows the rewrite, and the learner does not write one.
 - **For Andreas and Elias:** line 16, "The plant is run by the Atomic Energy Organization of Iran, which also keeps its operating records. That is already far above the 3.67 percent cap…". The sentence about the operator sits between the 60 percent figure and "That", so "That" now points at the records. Moving the operator sentence after the cap sentence would fix it.
+- **Traced, 2026-10-28 (Andreas noticed the page differs from XLab's live lesson).** The operator sentence is ours, not XLab's. James's AI added it in the port on 2026-10-08, and no XLab version has it. XLab's setup goes straight from "60 percent U-235" to "That is already far above…", and line 33 already names the Atomic Energy Organization of Iran as the plant's operator. Deleting the sentence restores XLab's reading and loses nothing. The rest of our page is XLab's August text. XLab's prose pass of 2026-09-14 has since reworded line 33, the "Iran's declaration" bullet and the takeaway; whether to pull in such later revisions is Q23 in the log.
+- **Review of the rewrite, 2026-10-28.** The tldr's first sentence is gone, and "learn how to rewrite it" now fits. "Watch a true sentence fail because every claim in it came from Iran" still names the flaw the opening question asks for, though more quietly. Candidate, if Andreas wants to keep the puzzle: "watch a sentence whose every clause is true still fail as a finding". His call.
 
 ### Context distiller
 
@@ -416,7 +418,7 @@ Inline in [[modules/XLab Verification P1 W4 Evidence and its readers]]. **Passes
 
 - **Lens's text:** the tldr; line 63; the reports line (line 67). Both lines pass.
 - **Spoiler test:** passes.
-- **tldr flags:** a semicolon; "thread every point to a desk" uses the threading board's "desks" before the learner has seen the board; "that gap is the lesson" is a verdict line.
+- **tldr flags:** a semicolon; "thread every point to a desk" uses the threading board's "desks" before the learner has seen the board; "that gap is the lesson" is a verdict line. **Rewritten (Andreas, 2026-10-28):** the semicolon is now two sentences; "desk" and the closing line stay, his call. Done.
 
 ### The four report pages
 
@@ -424,7 +426,7 @@ Inline in [[modules/XLab Verification P1 W4 Evidence and its readers]]. **Passes
 
 - **Lens's text:** the four tldrs; the system card's note on line 14, which passes; "The report: …" lines, which pass.
 - **Spoiler test:** passes.
-- **tldr flags:** all four end "Read it here before you clip; the exercise and the key are on the next page." A semicolon in each. "Analogue" (IAEA) is left for the spelling pass.
+- **tldr flags:** all four end "Read it here before you clip; the exercise and the key are on the next page." A semicolon in each. "Analogue" (IAEA) is left for the spelling pass. **Rewritten (Andreas, 2026-10-28):** "Read it here before you clip as the exercise and the key are on the next page." Minor: "as" can read as "while"; a comma before it, or two sentences, makes it "because". Done otherwise.
 
 ### The Distiller
 
@@ -433,7 +435,7 @@ Inline in [[modules/XLab Verification P1 W4 Evidence and its readers]]. **Passes
 - **Lens's text:** the tldr, which passes ("distil": spelling pass); lines 12 and 19; the key labels; the closing question (line 181).
 - **Spoiler test:** passes.
 - **Flag on the page:** line 181, "Optional: After you delivered: did any reader question go unanswered?" stacks two colons.
-- **Minor, no flag:** line 19 opens with a fragment, "The keys."
+- **Minor, no flag:** line 19 opens with a fragment, "The keys." **Fixed (Andreas, 2026-10-28):** "Below are the keys for all of the reports." The line-181 question is unchanged, and its flag is still on the page.
 - **Left for stage 7:** "Decoys XLab planted", four times, is XLab framing.
 
 ### What makes a verification mechanism effective?
