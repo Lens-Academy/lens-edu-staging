@@ -23,7 +23,7 @@ The whole story of this map is concentration. The chain crosses borders dozens o
 - **1** company builds every EUV lithography machine on Earth
 - **3** firms make nearly all high-bandwidth memory
 
-Tap a country for its role, or isolate a layer to see exactly who would have to be in the r
+Tap a country for its role, or isolate a layer to see exactly who would have to be in the room to verify it.
 
 #### Widget
 source:: [[../widgets/interactive-map]]
