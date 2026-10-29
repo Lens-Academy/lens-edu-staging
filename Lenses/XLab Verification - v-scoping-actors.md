@@ -201,7 +201,7 @@ content::
 - **Enforcement authority.** Give it know-your-customer duties and it becomes the regime’s front-line cop.
 - **Evasion pathway.** Its reseller chains and mislabeled workloads are precisely how a determined actor reaches compute it should not have.
 - **Comply.** Table 4’s cloud row: “Comply and hide at once. Natural monitors, reluctant police.”
-- **Hide.** The same row: a natural monitor that is a reluctant police force.
+- **Hide.** The same row: a natural monitor that is a reluctant police force since .
 :::
 
 \### 3. The centre
