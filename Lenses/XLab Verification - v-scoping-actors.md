@@ -280,7 +280,7 @@ content::
 - **Netherlands.** One company in one country, and the country is the reason the company’s customer list is reachable. Export law over a single vendor is close to the strongest evidentiary lever anywhere on this board, and it belongs to a state that signed nothing.
 - **Japan.** Equipment and specialty materials: several quieter chokepoints, and the same shape as the Netherlands. Its records matter to a verifier and its participation is voluntary.
 - **South Korea.** High-bandwidth memory is scarce, essential to frontier training, and therefore countable, which makes the jurisdiction over the firms that make it an evidence position, not just a trade one.
-- **ASML.** The most upstream supplier there is, and upstream of Baker’s chain of custody, which begins at manufacturing. The tightest chokepoint on the board holds no record about e, which is the sharpest thing this frame does to the roster.
+- **ASML.** The most upstream supplier there is, and upstream of Baker’s chain of custody, which begins at manufacturing. The tightest chokepoint on the board holds no record about anybody, which is the sharpest thing this frame does to the roster.
 - **TSMC.** The chain of custody starts where the die is made. How many leading-edge parts exist at all, and who they were made for, is a fact only the fab holds, which is the same thing the lesson means by the “single tightest physical chokepoint in the system”, read as evidence rather than as leverage.
 - **NVIDIA.** Upstream of the run, not in it, and not a Prover for anybody else’s run. What it decides is whether accelerators ship with the security features a Verifier would read, which is why it holds evidence about two different actors and no declaration of its own here.
 
