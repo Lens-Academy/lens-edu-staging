@@ -426,7 +426,7 @@ Inline in [[modules/XLab Verification P1 W4 Evidence and its readers]]. **Passes
 
 - **Lens's text:** the four tldrs; the system card's note on line 14, which passes; "The report: …" lines, which pass.
 - **Spoiler test:** passes.
-- **tldr flags:** all four end "Read it here before you clip; the exercise and the key are on the next page." A semicolon in each. "Analogue" (IAEA) is left for the spelling pass. **Rewritten (Andreas, 2026-10-28):** "Read it here before you clip as the exercise and the key are on the next page." Minor: "as" can read as "while"; a comma before it, or two sentences, makes it "because". Done otherwise.
+- **tldr flags:** all four end "Read it here before you clip; the exercise and the key are on the next page." A semicolon in each. "Analogue" (IAEA) is left for the spelling pass. **Rewritten (Andreas, 2026-10-28):** "Read it here before you clip as the exercise and the key are on the next page." Minor: "as" can read as "while"; a comma before it, or two sentences, makes it "because". Done otherwise. **Comma added (Andreas, 2026-10-29).** Done.
 
 ### The Distiller
 
@@ -435,7 +435,7 @@ Inline in [[modules/XLab Verification P1 W4 Evidence and its readers]]. **Passes
 - **Lens's text:** the tldr, which passes ("distil": spelling pass); lines 12 and 19; the key labels; the closing question (line 181).
 - **Spoiler test:** passes.
 - **Flag on the page:** line 181, "Optional: After you delivered: did any reader question go unanswered?" stacks two colons.
-- **Minor, no flag:** line 19 opens with a fragment, "The keys." **Fixed (Andreas, 2026-10-28):** "Below are the keys for all of the reports." The line-181 question is unchanged, and its flag is still on the page.
+- **Minor, no flag:** line 19 opens with a fragment, "The keys." **Fixed (Andreas, 2026-10-28):** "Below are the keys for all of the reports." The line-181 question is unchanged, and its flag is still on the page. **2026-10-29:** "Optional: After you delivered, did…" (Andreas). The flag's removal is pending. Done.
 - **Left for stage 7:** "Decoys XLab planted", four times, is XLab framing.
 
 ### What makes a verification mechanism effective?
