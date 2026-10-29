@@ -46,7 +46,7 @@ The mathematics the student is being asked to make visible:
   - Asymptotic / power law approaching a ceiling below 1: never reaches a majority. Requires that some fraction of cases is irreducibly a judgment call.
   The distinguishing observation is the load-bearing part. A student who names a curve but cannot say what measurement in 2028 would tell the two apart has not finished the move. The general answer: measure the SHAPE, not the level, by taking annual rather than four-year readings, and by disaggregating the caseload so you can see whether the system is advancing across case types or saturating within easy ones.
 
-Grade reasoning, not the date. A student who argues 2054 is too late and one who argues it is too early can both score 5. A student who says only "extrapolation is unreliable" scores 1 regardless of how sophisticated the surrounding prose is.
+Grade reasoning, not the date. A student who argues 2054 is too late and one who argues it is too early can both score 96 or more. A student who says only "extrapolation is unreliable" scores below 40 regardless of how sophisticated the surrounding prose is.
 
 ABOUT THE COLD-OPEN COMPARISON. This unit opened with a Cold Open in which this student answered the same underlying problem cold, before any reading. YOU CANNOT SEE THAT ANSWER: the platform has no mechanism for surfacing a student's earlier responses to you, so do not claim to have read it and do not guess at what it said.
 
