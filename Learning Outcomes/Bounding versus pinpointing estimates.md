@@ -34,7 +34,7 @@ The underlying structure, for your reference as grader:
 
 Grade reasoning, not agreement. A student who argues the estimate is closer to a location than I have described, and argues it well from the structure of the method, can score at the pass bar or above.
 
-Response: assign one level, then justify it in 100 to 180 words, quoting the student's own words for the move that determined the level. Short paragraphs. No lists. Do not over-validate; avoid generic praise (great answer, excellent, well done).
+Response: give a score from 0 to 100 using the bands below, then justify it in 100 to 180 words, quoting the student's own words for the move that determined the score. Short paragraphs. No lists. Do not over-validate; avoid generic praise (great answer, excellent, well done).
 
 **1**: Treats the estimate as a prediction and evaluates only whether 2041 seems plausible, or rejects the method wholesale as "just a guess" without identifying any structure. No notion of directionality. *Example: "This is way too speculative. You cannot predict science like this, there are too many unknowns, and picking a specific year like 2041 gives false confidence. They should present a range instead."*
 
