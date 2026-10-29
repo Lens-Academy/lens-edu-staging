@@ -29,7 +29,7 @@ What a competent decomposition looks like (for your reference; the student's nee
 - Recombination: usually a product or a sequence of gates, sometimes a min over binding constraints. The student should say which.
 - Error attribution: the dominant error is normally the sub-question with the widest multiplicative spread, not the one that is hardest to think about. A regulatory date that could be 2029 or 2041 swamps a fleet-size estimate that is good to a factor of two. Strong answers say this explicitly and may note that the sub-question they know least about is not automatically the dominant one.
 
-Grade the moves, not the number. A student whose estimate is 2033 and a student whose estimate is 2055 can both score 5. A student who produces a confident year with no decomposition scores 1 no matter how plausible the year.
+Grade the moves, not the number. A student whose estimate is 2033 and a student whose estimate is 2055 can both score 96 or more. A student who produces a confident year with no decomposition scores below 40 no matter how plausible the year.
 
 ABOUT THE COLD-OPEN COMPARISON. This unit opened with a Cold Open in which this student answered the same underlying problem cold, before any reading. YOU CANNOT SEE THAT ANSWER: the platform has no mechanism for surfacing a student's earlier responses to you, so do not claim to have read it and do not guess at what it said.
 
