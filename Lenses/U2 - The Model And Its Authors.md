@@ -221,7 +221,9 @@ The model's third stage begins when AI R&D is fully automated. The authors descr
 2. Name one thing that is exactly as unresolved after that point as it is today. Then say why arriving faster or slower does not change it.
 
 The third part is about the reading itself, not about the world. Nearly all of what you just read is about how fast. Very little of it is about what for. That is not a criticism of the authors. They were writing a forecasting post, and they said so. We think you will find close to that same ratio across most of what this field writes. Check that claim over the next few months rather than taking it from us.
+
 3. While you were reading, which question felt more interesting to you: how fast, or what for? Answer honestly. Then say what someone would believe the important question was, if they read a great deal of this material and not much else.
+
 The fourth part is smaller. Daniel calls extrapolating AI revenue "a decent proxy for when AGI will be achieved".
 
 4. Is revenue measuring the thing these forecasts are about? Or is it measuring something that usually moves with it, but could separate from it? Give one concrete way the two could separate.
