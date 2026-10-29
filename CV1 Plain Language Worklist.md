@@ -31,6 +31,8 @@ Stage 6 of [[CV1 Restructure Log]]. Claude marks what is Lens's text, tests ever
 
 **Status, 2026-10-27, late.** Andreas accepted the unit 2 suggestions and removals. Unit 3 is flagged. Two tldrs are flagged (the paper page, with a Content point, and the supply-chain map), and there are six flags on the pages: one on the anatomy page, one on the paper page, three on the actors page and one on the map page. Four XLab passages are for Andreas and Elias. The welcome and "Reading a draft agreement" pass.
 
+**Status, 2026-10-29.** Units 3 and 4 are done (Andreas). Every flag in them is resolved. Two unit 3 flags, on the anatomy and paper pages, had stayed on after their fixes; their removals are pending. Unit 5 is flagged: five tldr flags, two of them Content (Hardware, and Measuring and classifying use); six flags on the pages, one of them in the welcome; two XLab passages for Andreas and Elias. Three pages pass.
+
 ## How to read an entry
 
 - **Lens's text** lists the passages that are ours, by line in the lens file. Everything else on the page is XLab's.
@@ -90,15 +92,15 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 | 4 | The Distiller | 9,620 | 274 | 5,220 | Done |
 | 4 | What makes a verification mechanism effective? | 1,362 | 210 | 448 | Done |
 | 4 | Privacy-Preserving Mechanisms | 1,603 | 502 | 266 | Done |
-| 5 | Hardware | 771 | 275 | 90 | |
-| 5 | Start with the claim, not the mechanism | 351 | 60 | 0 | |
-| 5 | From a chip to a trusted statement | 1,091 | 169 | 0 | |
-| 5 | Accounting for hardware | 713 | 121 | 100 | |
-| 5 | Measuring and classifying use | 839 | 162 | 152 | |
-| 5 | Authorization, licensing, and control | 656 | 143 | 81 | |
-| 5 | Where should trust live? | 1,147 | 346 | 64 | |
-| 5 | Reconstructing a declared training run | 676 | 144 | 38 | |
-| 5 | Open problems: verifying and securing compute | 110 | 110 | 0 | |
+| 5 | Hardware | 771 | 275 | 90 | Flagged (tldr, Content) |
+| 5 | Start with the claim, not the mechanism | 351 | 60 | 0 | Flagged |
+| 5 | From a chip to a trusted statement | 1,091 | 169 | 0 | Passes; one XLab note |
+| 5 | Accounting for hardware | 713 | 121 | 100 | Flagged |
+| 5 | Measuring and classifying use | 839 | 162 | 152 | Flagged (tldr, Content) |
+| 5 | Authorization, licensing, and control | 656 | 143 | 81 | Passes |
+| 5 | Where should trust live? | 1,147 | 346 | 64 | Flagged |
+| 5 | Reconstructing a declared training run | 676 | 144 | 38 | Passes |
+| 5 | Open problems: verifying and securing compute | 110 | 110 | 0 | Flagged |
 
 The overview and the five unit welcomes are inline in their modules and are not in this count.
 
