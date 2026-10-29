@@ -1,7 +1,7 @@
 ---
 id: '89118a7a-9409-492a-af9d-5d1f7c167746'
 title: "Report: UK AISI Frontier AI Trends Report"
-tldr: "A government institute’s public assessment of where frontier AI capabilities are heading, based on its testing of leading models. Read it here before you clip as the exercise and the key are on the next page."
+tldr: "A government institute’s public assessment of where frontier AI capabilities are heading, based on its testing of leading models. Read it here before you clip, as the exercise and the key are on the next page."
 summary_for_tutor: "One of the four report pages of the Distiller exercise; the learner chose this one in a choose-one group after the opening page (the five steps, the worked example and the warm-up question). This page carries the UK AI Security Institute's Frontier AI Trends Report (2025) as an article segment. The learner works the report in the Distiller widget on the next page, which also holds all four keys, titled to be opened only after delivery. Do not reveal a key before they deliver."
 tags: [wip]
 reading_minutes: 74
