@@ -44,7 +44,7 @@ Before we dive in, record your baseline intuitions: rank each mechanism across f
 
 | Low | High |
 | --- | --- |
-| FLOP-threshold reporting; algorithmic efficiency gains push dangerous capabilities below any fixed threshold within a few years. | Mechanisms rooted in chip hardware, which takes long to mature and go obsolete. |
+| FLOP-threshold reporting; algorithmic efficiency gains push dangerous capabilities below any fixed threshold within a few years. | Mechanisms rooted in chip hardware, which currently takes long to mature and go obsolete. |
 {>>{"author":"Elias's AI","timestamp":1789826364150}@@XLab's SlidingScale is a static display (a rail with the Low and High anchor texts), not an input, so it is reproduced as a two-column table rather than a Rating question. The ratings themselves happen in the mechanism-sort widget below.<<}
 
 Rate each mechanism on four metrics; every rating drops it onto the ranking lanes below, so you can see your full ordering take shape. Keep the set for comparison with the reference map in the separate capstone.
