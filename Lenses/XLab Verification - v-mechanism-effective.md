@@ -61,7 +61,7 @@ Rate each mechanism on four metrics; every rating drops it onto the ranking lane
 
 #### Text
 content::
-{>>{"author":"Andreas's AI","timestamp":1793243918769}@@Stage 6 flag, self-contained: "your notebook" is XLab's notebook feature, which Lens does not have, so a learner may look for it. The question after the widget then asks them to "look back at what you jotted down". Candidate: "jot down the heuristics…" or "keep a note of the heuristics…". See the CV1 plain language worklist.<<}As you go through this exercise, take not of ojot down the heuristics you're using to judge whether a mechanism is technically feasible, politically feasible, effective, and durable.
+{>>{"author":"Andreas's AI","timestamp":1793243918769}@@Stage 6 flag, self-contained: "your notebook" is XLab's notebook feature, which Lens does not have, so a learner may look for it. The question after the widget then asks them to "look back at what you jotted down". Candidate: "jot down the heuristics…" or "keep a note of the heuristics…". See the CV1 plain language worklist.<<}As you go through this exercise, take note or jot down the heuristics you're using to judge whether a mechanism is technically feasible, politically feasible, effective, and durable.
 
 #### Widget
 source:: [[../widgets/mechanism-sort]]
