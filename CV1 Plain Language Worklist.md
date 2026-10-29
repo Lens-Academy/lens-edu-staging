@@ -344,7 +344,8 @@ Inline in [[modules/XLab Verification P1 W3 Treaty anatomy and actors]]. All Len
 - **Correction (Claude, 2026-10-28):** the earlier note said the maps were drawn "as in the XLab Control lenses". Only two of the 73 XLab Control lenses use inline SVG (four figures). Six use PNG images and 21 use widgets.
   - Line 204, the cloud provider's "Hide" line, "a natural monitor that is a reluctant police force", does not say what hiding would look like.
 - **Left for stage 7:** the section numbers (1.1, 1.2.1, 1.2.2, 1.3), "Week 5", "Part 2", "the capstone course"; the Works cited note that some sources "have no entry in XLab's citation registry" (line 335).
-- **Left for the spelling pass:** "centre", "centred", "colours", "practise", "data centre", "organisations".
+- **Left for the spelling pass:** "centre", "centred", "practise", "data centre", "organisations". ("Colours" is gone with Andreas's rewrite.)
+- **Closed, 2026-10-28.** Andreas revised the ASML line: "holds no record about anyone's declaration". The inline maps stay inline for now; Andreas will ask the team whether they would rather have PNG attachments. Every unit 3 point is resolved.
 
 ### Geographic supply-chain map
 
@@ -354,7 +355,7 @@ Inline in [[modules/XLab Verification P1 W3 Treaty anatomy and actors]]. All Len
 - **Spoiler test:** passes; no exercise.
 - **tldr flags:** two semicolons; "pinches to a few known addresses" is mannered. The fourteen countries check out against the widget.
 - **Flag on the page:** line 46. It repeats line 20 word for word, here with an em dash, and the "Start here" callout comes after the map it explains.
-- **Rewritten (Andreas, 2026-10-28).** The tldr has lost its semicolons and now says "a few known actors", matching the actors page. The "Start here" callout is gone, flag and all. Minor, no flag: its second line, "Tap a country for its role, or isolate a layer to see exactly who would have to be in the room to verify it", went with it, and the map itself only says "Click to pin" on hover, so the layer key is no longer explained anywhere. One sentence above the map would restore it.
+- **Rewritten (Andreas, 2026-10-28).** The tldr has lost its semicolons and now says "a few known actors", matching the actors page. The "Start here" callout is gone, flag and all. Minor, no flag: its second line, "Tap a country for its role, or isolate a layer to see exactly who would have to be in the room to verify it", went with it, and the map itself only says "Click to pin" on hover, so the layer key is no longer explained anywhere. One sentence above the map would restore it. **Restored (Andreas, 2026-10-28).** Done.
 - **Left for stage 7:** "1.2.2"; the Works cited note on XLab's citation registry (line 85).
 
 ## Unit 3: Who can prove what (pilot)
@@ -391,3 +392,69 @@ Inline in [[modules/XLab Verification P1 W3 Treaty anatomy and actors]]. All Len
 **Left for stage 7**
 
 - "1.2" throughout (section numbers), "Week 5" on lines 20 and 196, and "1.2.2" in the Works cited title, which is a citation and stays.
+
+## Unit 4: Evidence and its readers
+
+Flagged 2026-10-28. Unit 4's Lens text is mostly tldrs, labels and rebuilt prompts; the reading, the Fordow case, the four reports and their keys, and the mechanism material are XLab's.
+
+### Welcome to Unit 4
+
+Inline in [[modules/XLab Verification P1 W4 Evidence and its readers]]. **Passes.** "Distil" is left for the spelling pass.
+
+### Upstream and downstream
+
+[[Lenses/XLab Verification - v-scoping-upstream-downstream]].
+
+- **Lens's text:** the tldr; the "Optional:" prompt (line 67); the map brief (lines 86 to 90), rebuilt from XLab's memo data, which passes apart from "licence" (spelling pass).
+- **Spoiler test: fails.** The page's first question, optional, asks "What is wrong with this sentence? Every clause in it is true." The tldr answers it: "Two documents from the same side agreeing with each other is not verification", and "watch a true sentence fail because every claim in it came from Iran".
+- **tldr flags:** the spoiler. The first sentence is "X is not Y; it is Z" framing with a semicolon, and it repeats line 33 almost word for word. "Rewrite it so each claim carries its source": the page shows the rewrite, and the learner does not write one.
+- **For Andreas and Elias:** line 16, "The plant is run by the Atomic Energy Organization of Iran, which also keeps its operating records. That is already far above the 3.67 percent cap…". The sentence about the operator sits between the 60 percent figure and "That", so "That" now points at the records. Moving the operator sentence after the cap sentence would fix it.
+
+### Context distiller
+
+[[Lenses/XLab Verification - v-context-distiller]]. The five steps, the worked example and the four options are XLab's; the four step paragraphs (lines 55 to 61) reassemble the widget's text.
+
+- **Lens's text:** the tldr; line 63; the reports line (line 67). Both lines pass.
+- **Spoiler test:** passes.
+- **tldr flags:** a semicolon; "thread every point to a desk" uses the threading board's "desks" before the learner has seen the board; "that gap is the lesson" is a verdict line.
+
+### The four report pages
+
+[[Lenses/XLab Verification - v-context-distiller-system-card]], [[Lenses/XLab Verification - v-context-distiller-aisi-trends]], [[Lenses/XLab Verification - v-context-distiller-iaea-iran]], [[Lenses/XLab Verification - v-context-distiller-bis-seagate]]. The reports and the system card's passages are XLab's.
+
+- **Lens's text:** the four tldrs; the system card's note on line 14, which passes; "The report: …" lines, which pass.
+- **Spoiler test:** passes.
+- **tldr flags:** all four end "Read it here before you clip; the exercise and the key are on the next page." A semicolon in each. "Analogue" (IAEA) is left for the spelling pass.
+
+### The Distiller
+
+[[Lenses/XLab Verification - v-context-distiller-debrief]]. The widget and the four keys are XLab's.
+
+- **Lens's text:** the tldr, which passes ("distil": spelling pass); lines 12 and 19; the key labels; the closing question (line 181).
+- **Spoiler test:** passes.
+- **Flag on the page:** line 181, "Optional: After you delivered: did any reader question go unanswered?" stacks two colons.
+- **Minor, no flag:** line 19 opens with a fragment, "The keys."
+- **Left for stage 7:** "Decoys XLab planted", four times, is XLab framing.
+
+### What makes a verification mechanism effective?
+
+[[Lenses/XLab Verification - v-mechanism-effective]].
+
+- **Lens's text:** the tldr; the goals callout's title; line 23; line 64; the three checks (lines 111 to 141), rebuilt from the taxonomies widget's data, which check out against it.
+- **Spoiler test:** passes.
+- **tldr flags:** "how sellable" and "how fast it rots" stand in for political feasibility and durability, and need decoding. "Rank twelve mechanisms on four lanes" uses the widget's "lanes" before the learner has seen them.
+- **Flag on the page:** line 64. "Your notebook" is XLab's notebook feature, which Lens does not have.
+- **Minor, no flag:** "keep the set" for "the separate capstone" comes three times (lines 23, 50, 71), and the tldr says it a fourth time. The claim holds: the capstone's feasibility page reuses the same widget, so the learner's set carries over.
+- **For Andreas and Elias:**
+  - Line 47, durability's high example: "Mechanisms rooted in chip hardware, which takes long to mature and go obsolete" reads as though hardware is slow to mature and also slow to go obsolete; only the second is the point.
+  - Line 96, "on the other hand, there are several different ways" has no contrast before it.
+- **Left for stage 7:** "Week 5", "Part 2" and the semicolon in "Week 5 examines hardware in detail; Part 2 continues with the other three" (line 12).
+
+### Privacy-Preserving Mechanisms
+
+[[Lenses/XLab Verification - v-mechanism-privacy]]. The five cards' text is XLab's, with the images and alt text added in the port.
+
+- **Lens's text:** the tldr; the five callout titles and the alt text, which pass.
+- **Spoiler test:** passes.
+- **tldr flags:** "an inspector working under shrouds" gets managed access backwards: the inspected state shrouds its sensitive equipment (line 43); the inspector does not work under shrouds. "Which are still papers" is mannered: still on paper, or still research.
+- **Left for stage 7:** "Week 5", "Part 2", "Section 2.1" (lines 14 and 48), and the semicolon in line 14.
