@@ -78,18 +78,18 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 | 2 | Policies must be effective and feasible | 2,239 | 80 | 1,065 | Done |
 | 2 | Strategic Foundations (now before policy scope, A46) | 407 | 116 | 247 | Done |
 | 2 | The seven Strategic Foundations reading pages and the written exercise | 720 | 372 | 134 | Done; one suggestion pending |
-| 3 | How an agreement is put together | 507 | 101 | 220 | Flagged |
-| 3 | Reading a draft agreement | 1,184 | 130 | 353 | Passes; one XLab note |
-| 3 | MIRI's draft agreement (paper page) | 161 | 123 | 38 | Flagged |
-| 3 | Actors: who does the treaty rely upon, apply to, and constrain? | 5,727 | 509 | 1,240 | Flagged |
-| 3 | Geographic supply-chain map | 916 | 380 | 76 | Flagged |
+| 3 | How an agreement is put together | 507 | 101 | 220 | Done |
+| 3 | Reading a draft agreement | 1,184 | 130 | 353 | Done |
+| 3 | MIRI's draft agreement (paper page) | 161 | 123 | 38 | Done |
+| 3 | Actors: who does the treaty rely upon, apply to, and constrain? | 5,727 | 509 | 1,240 | Done; two maps added (A47) |
+| 3 | Geographic supply-chain map | 916 | 380 | 76 | Done |
 | 3 | Who can prove what | 2,699 | 166 | 1,130 | Done (pilot) |
-| 4 | Upstream and downstream | 1,436 | 182 | 0 | |
-| 4 | Context distiller | 790 | 98 | 268 | |
-| 4 | The four report pages | 2,089 | 255 | 432 | |
-| 4 | The Distiller | 9,620 | 274 | 5,220 | |
-| 4 | What makes a verification mechanism effective? | 1,362 | 210 | 448 | |
-| 4 | Privacy-Preserving Mechanisms | 1,603 | 502 | 266 | |
+| 4 | Upstream and downstream | 1,436 | 182 | 0 | Flagged (tldr spoiler) |
+| 4 | Context distiller | 790 | 98 | 268 | Flagged (tldr) |
+| 4 | The four report pages | 2,089 | 255 | 432 | Flagged (tldrs) |
+| 4 | The Distiller | 9,620 | 274 | 5,220 | Flagged |
+| 4 | What makes a verification mechanism effective? | 1,362 | 210 | 448 | Flagged |
+| 4 | Privacy-Preserving Mechanisms | 1,603 | 502 | 266 | Flagged (tldr) |
 | 5 | Hardware | 771 | 275 | 90 | |
 | 5 | Start with the claim, not the mechanism | 351 | 60 | 0 | |
 | 5 | From a chip to a trusted statement | 1,091 | 169 | 0 | |
