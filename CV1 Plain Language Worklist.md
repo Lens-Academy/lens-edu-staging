@@ -84,12 +84,12 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 | 3 | Actors: who does the treaty rely upon, apply to, and constrain? | 5,727 | 509 | 1,240 | Done; two maps added (A47) |
 | 3 | Geographic supply-chain map | 916 | 380 | 76 | Done |
 | 3 | Who can prove what | 2,699 | 166 | 1,130 | Done (pilot) |
-| 4 | Upstream and downstream | 1,436 | 182 | 0 | Flagged (tldr spoiler) |
-| 4 | Context distiller | 790 | 98 | 268 | Flagged (tldr) |
-| 4 | The four report pages | 2,089 | 255 | 432 | Flagged (tldrs) |
-| 4 | The Distiller | 9,620 | 274 | 5,220 | Flagged |
-| 4 | What makes a verification mechanism effective? | 1,362 | 210 | 448 | Flagged |
-| 4 | Privacy-Preserving Mechanisms | 1,603 | 502 | 266 | Flagged (tldr) |
+| 4 | Upstream and downstream | 1,436 | 182 | 0 | Done |
+| 4 | Context distiller | 790 | 98 | 268 | Done |
+| 4 | The four report pages | 2,089 | 255 | 432 | Done |
+| 4 | The Distiller | 9,620 | 274 | 5,220 | Done |
+| 4 | What makes a verification mechanism effective? | 1,362 | 210 | 448 | Done |
+| 4 | Privacy-Preserving Mechanisms | 1,603 | 502 | 266 | Done; one word for Andreas |
 | 5 | Hardware | 771 | 275 | 90 | |
 | 5 | Start with the claim, not the mechanism | 351 | 60 | 0 | |
 | 5 | From a chip to a trusted statement | 1,091 | 169 | 0 | |
