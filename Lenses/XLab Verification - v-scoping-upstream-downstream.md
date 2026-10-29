@@ -26,7 +26,7 @@ id:: bbb153b5-c932-4f0d-a379-bc451bb3c5fd
 content:: Optional: Pause before reading on. What is wrong with this sentence? Every clause in it is true.
 force-feedback:: first
 feedback-instructions:: One turn. Say in a sentence each which of the three points below the learner got and which they missed, then send them into the paragraph that follows, which explains it. The flaw is provenance: every claim comes from the side being checked. The three points: the 60 percent figure is Iran's own declaration, and Iran is the party the treaty binds; the operating records are kept by the operator, the Atomic Energy Organization of Iran, which runs the plant, so they come from the same side rather than being a second source; and two sources from the same side agreeing shows only internal consistency, not verification, since nothing independent backs them, yet the sentence presents it as confirmation. Reference answer, not a checklist: "The problem is provenance. Iran declared the 60 percent figure, and the operating records that "match" it are kept by the Atomic Energy Organization of Iran, which runs the plant. Two sources produced by the same side agreeing with each other is not verification; it is one actor being consistent with itself. Your draft presents that internal consistency as if it were confirmation, and it leaves out the one stream that came from somewhere else." Do not ask a follow-up question. No praise.
-optional:: true{>>{"author":"Elias's AI","timestamp":1788016743664}@@Legacy #### Question converted to Question: Open with a fresh id. XLab renders this as a notebook callout that gates nothing, hence optional. The invalid feedback:: false line is dropped.<<}
+optional:: true
 
 #### Text
 content::
