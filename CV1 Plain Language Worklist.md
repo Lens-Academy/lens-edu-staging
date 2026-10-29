@@ -386,7 +386,7 @@ Inline in [[modules/XLab Verification P1 W3 Treaty anatomy and actors]]. All Len
 
 **For Andreas and Elias**
 
-- Lines 194 to 195 (181 to 182 before the bullets went in), in "Notes and sources": "Quotations are matched against the committed copy of the paper at test time, so a quote that drifts fails the build rather than sitting on the page." This describes XLab's build, which Lens does not have, so on our page it is not true. Candidate: cut the sentence.
+- Lines 194 to 195 (181 to 182 before the bullets went in), in "Notes and sources": "Quotations are matched against the committed copy of the paper at test time, so a quote that drifts fails the build rather than sitting on the page." This describes XLab's build, which Lens does not have, so on our page it is not true. Candidate: cut the sentence. **Cut (Andreas, 2026-10-28).**
 
 **Left for stage 7**
 
