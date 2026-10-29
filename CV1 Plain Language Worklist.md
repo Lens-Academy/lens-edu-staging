@@ -466,7 +466,7 @@ Inline in [[modules/XLab Verification P1 W4 Evidence and its readers]]. **Passes
 
 ## Unit 5: Hardware verification
 
-Flagged 2026-10-29. Most of unit 5 is XLab's: the readings, the method, the mechanism lists, the tables and the questions. Lens's text is mostly tldrs, reading leads and widget framing. Our pages follow XLab's August text. XLab has since rebuilt 2.1's opening page (2026-09-10 and 2026-09-21) and retitled three lessons, for example 2.1.7 is now "Independent Verification of Training Claims"; whether to follow is Q23.
+Flagged 2026-10-29. Most of unit 5 is XLab's: the readings, the method, the mechanism lists, the tables and the questions. Lens's text is mostly tldrs, reading leads and widget framing. Our pages follow XLab's text of August to mid-September. On 2026-09-21 XLab rebuilt all eight 2.1 lessons from new briefs, and their current text shares almost nothing with ours, down to the titles: 2.1.7 is now "Independent Verification of Training Claims". Whether to follow is Q23 in the log.
 
 ### Welcome to Unit 5
 
