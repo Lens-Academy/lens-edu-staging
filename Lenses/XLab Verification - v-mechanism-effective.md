@@ -72,7 +72,7 @@ There is no grading here, and no key. This set exists to be revised: the separat
 
 #### Question: Open
 id:: 590f109a-6299-4945-a377-286c926726ef
-content:: Now that you’ve gone through the exercise, look back at what you jotted down: what were the heuristics you used to evaluate whether a verification mechanism was:
+content:: Now that you’ve gone through the exercise, look back at what you took note of jotted down: what were the heuristics you used to evaluate whether a verification mechanism was:
 
 - Technically feasible? → Are there historical verification precedents that have used a similar mechanism? Current technical analogs?
 - Politically feasible? → How difficult would it be to get the U.S. to agree? China? What must remain confidential, no matter what?
