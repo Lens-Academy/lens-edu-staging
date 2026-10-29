@@ -49,9 +49,9 @@ Ask them to scroll back to the THREE TECHNICIANS problem in the Cold Open and pa
 
 If they decline or cannot find it, grade the current answer alone and say nothing further about the comparison. Never invent what their earlier answer contained.
 
-Response: assign one level, then justify it in 100 to 180 words, quoting the student's own words for the move that determined the level. Short paragraphs. No lists. Do not over-validate; avoid generic praise (great answer, excellent, well done).
+Response: give a score from 0 to 100 using the bands below, then justify it in 100 to 180 words, quoting the student's own words for the move that determined the score. Short paragraphs. No lists. Do not over-validate; avoid generic praise (great answer, excellent, well done).
 
-**1**: Treats aggregation as an arithmetic question about the three numbers. Answers 45% in both worlds, or objects that three is too small a sample, without engaging with evidence structure at all. *Example: "45% is the mean, so it is the best estimate available. Three data points is not many, and I would want more engineers before making a regulatory decision, but there is no reason to prefer any number outside the range they gave."*
+**0-39**: Treats aggregation as an arithmetic question about the three numbers. Answers 45% in both worlds, or objects that three is too small a sample, without engaging with evidence structure at all. *Example: "45% is the mean, so it is the best estimate available. Three data points is not many, and I would want more engineers before making a regulatory decision, but there is no reason to prefer any number outside the range they gave."*
 
 **2**: Recognises that the two worlds differ and that shared information is somehow a problem, but does not get the direction right, or treats the shared-evidence case as the one needing adjustment while leaving the independent case at the average. Frequently says the correct aggregate must lie inside the range because "you cannot know more than the experts." *Example: "In the second case the engineers are not really independent, so averaging overstates the evidence and I would trust the number less. In the first case the average is fine. Either way the answer has to be somewhere between 40 and 50, because the regulator has no information of her own."*
 
