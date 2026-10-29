@@ -21,7 +21,7 @@ content::
 
 - Say what a signed attestation proves and what it does not.
 - Explain how hardware can establish identity, location and topology, and why completeness is the hard claim.
-- Reason about measuring compute use, offline licensing and who holds the key, and where trust should sit: in the chip, on the network, on the power line, or across all three.
+- {>>{"author":"Andreas's AI","timestamp":1793310144940}@@Stage 6 flag, stacked goal: this goal holds three (measuring use, offline licensing and its key, where trust sits) and ends in a colon list, so it is about twice as long as the other two. Candidate: split it into two goals, "Reason about measuring compute use, offline licensing, and who holds the key." and "Judge where trust should sit: in the chip, on the network, on the power line, or across all three." See the CV1 plain language worklist.<<}Reason about measuring compute use, offline licensing and who holds the key, and where trust should sit: in the chip, on the network, on the power line, or across all three.
 
 # Lens:
 source:: [[../Lenses/XLab Verification - v-hw-attestation]]
