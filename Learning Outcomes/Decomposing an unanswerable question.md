@@ -37,9 +37,9 @@ Ask them to scroll back to the FLIGHTS problem in the Cold Open and paste or sum
 
 If they decline or cannot find it, grade the current answer alone and say nothing further about the comparison. Never invent what their earlier answer contained.
 
-Response: assign one level, then justify it in 100 to 180 words, quoting the student's own words for the move that determined the level. Short paragraphs. No lists. Do not over-validate; avoid generic praise (great answer, excellent, well done).
+Response: give a score from 0 to 100 using the bands below, then justify it in 100 to 180 words, quoting the student's own words for the move that determined the score. Short paragraphs. No lists. Do not over-validate; avoid generic praise (great answer, excellent, well done).
 
-**1**: Gives a year with a narrative justification and no decomposition, or refuses on the grounds that the question is unanswerable. Treats "I have a feeling about how fast this technology is moving" as the method. *Example: "Probably around 2035. The technology is improving very fast and companies are already running pilots, but regulation and public trust take a long time to catch up, so I would not expect a majority of rides for at least a decade."*
+**0-39**: Gives a year with a narrative justification and no decomposition, or refuses on the grounds that the question is unanswerable. Treats "I have a feeling about how fast this technology is moving" as the method. *Example: "Probably around 2035. The technology is improving very fast and companies are already running pilots, but regulation and public trust take a long time to catch up, so I would not expect a majority of rides for at least a decade."*
 
 **2**: Decomposes, but into sub-questions that are no more tractable than the original. Names components without saying what evidence would settle any of them, or lists considerations rather than quantities. *Example: "I would break it into: how good the technology gets, how cheap it gets, whether regulators allow it, and whether people accept it. Each of those has to go right. Technology is the biggest one, and I would guess it is mostly solved by the early 2030s, so 2036 for a majority of rides."*
 
