@@ -16,7 +16,7 @@ source:: [[../widgets/context-distiller]]
 
 #### Text
 content::
-Below are the keys for all of the roe Open the one for the report you worked, after you have delivered, and not before.
+Below are the keys for all of the reports. Open the one for the report you worked, after you have delivered, and not before.
 
 :::callout {title="Key, open after you deliver: Claude Opus 4.7 System Card (fictional teaching document)" tone="neutral" collapse="closed"}
 **Core clippings and their distillations**
