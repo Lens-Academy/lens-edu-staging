@@ -42,7 +42,7 @@ content::
 
 How would you forecast when AI can do a month-long software engineering task on its own?
 
-List every distinct method you can think of. Not your answer, your methods. For each one, write a single line on what evidence it needs and what would make it unreliable. Do not look anything up. Four minutes.
+List every distinct method you can think of. A method is a way of getting from some evidence to a date. Two ways that start from the same evidence count as one method. Do not give your answer; give your methods. For each one, write a single line on what evidence it needs and what would make it unreliable. Do not look anything up. Four minutes.
 
 
 feedback-instructions:: The student is mid-exercise. They have not yet read the authors' survey of forecasting methods, which comes next in this lens.
@@ -76,7 +76,7 @@ id:: 171d04f7-fda7-4811-becb-754971b05188
 content::
 \## The diff
 
-Put your list beside theirs. Which of their five did you have in some form? Which one did you not think of? And what does that gap tell you about where you were looking?
+Put the list of methods you wrote earlier in this lens beside the authors' five. Which of their five did you have in some form? Which one did you not think of? And what does that gap tell you about where you were looking?
 
 Then the harder half. The authors do not treat these as five independent estimates to be averaged. Pick the two you would give the most weight to. Say why, in terms of what evidence each method needs.
 
