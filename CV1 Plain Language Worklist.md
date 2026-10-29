@@ -461,3 +461,105 @@ Inline in [[modules/XLab Verification P1 W4 Evidence and its readers]]. **Passes
 - **Spoiler test:** passes.
 - **tldr flags:** "an inspector working under shrouds" gets managed access backwards: the inspected state shrouds its sensitive equipment (line 43); the inspector does not work under shrouds. "Which are still papers" is mannered: still on paper, or still research. **Rewritten (Andreas, 2026-10-29):** "an inspector working against shrouded evidence". Minor: "working against" can read as opposing; the equipment, not the evidence, is shrouded. Candidate: "an inspector working around shrouded equipment". "Still papers" stays, his call. **Later on 2026-10-29:** now "working around shrouded evidence" (Andreas). He points out that more than equipment can be shrouded, which is right: the CWC rules on line 43 also let a state remove papers and restrict analyses. One remaining note: what gets shrouded is sensitive material that is not the evidence, and the inspector still gets the evidence, so "shrouded evidence" suggests the opposite. Candidates: "an inspector working around shrouded material" (neutral, since the inspector cannot know what is under the shroud) or "shrouded sensitive material". Andreas's call. **Settled (Andreas, 2026-10-29):** "an inspector working around shrouded material". Done.
 - **Left for stage 7:** "Week 5", "Part 2", "Section 2.1" (lines 14 and 48), and the semicolon in line 14.
+
+## Unit 5: Hardware verification
+
+Flagged 2026-10-29. Most of unit 5 is XLab's: the readings, the method, the mechanism lists, the tables and the questions. Lens's text is mostly tldrs, reading leads and widget framing. Our pages follow XLab's August text. XLab has since rebuilt 2.1's opening page (2026-09-10 and 2026-09-21) and retitled three lessons, for example 2.1.7 is now "Independent Verification of Training Claims"; whether to follow is Q23.
+
+### Welcome to Unit 5
+
+Inline in [[modules/XLab Verification P1 W5 Hardware verification]]. All Lens's text.
+
+- **Spoiler test:** passes.
+- **tldr:** passes, and matches the other four welcomes.
+- **Flag on the page:** the third goal holds three goals (measuring use, offline licensing and its key, where trust sits) and ends in a colon list, so it is about twice as long as the other two. Candidate: split it into "Reason about measuring compute use, offline licensing, and who holds the key." and "Judge where trust should sit: in the chip, on the network, on the power line, or across all three."
+
+### Hardware
+
+[[Lenses/XLab Verification - v-hw-attestation]]. The scenario, the ledger's scale, the central question, the objectives, the function map and the method are XLab's.
+
+- **Lens's text:** the tldr; line 28, reworded under A35; the "Readings across this section" heading and its four lines (lines 62 to 67), condensed from XLab's "Core source packet", which pass.
+- **Spoiler test:** passes. The tldr asks for the seven judgments without hinting at any.
+- **tldr flags:** Content. "You will grade your own answers at the end of the hardware section" contradicts line 28 and A35: the learner returns to the answers at the start of Compute Verification 2, as the tutor summary also says. "The hardware section" is XLab's framing. Minor: the tldr says "the pause" before saying there is one. Candidate for the last sentence: "You will come back to your answers at the start of Compute Verification 2."
+- **Left for stage 7:** "2.1" in the heading; "the core section" (the objectives' callout title, which has Elias's note on it), "this section" (lines 47 and 58), and our own heading "Readings across this section". **Stage 8:** "about 195 minutes" (ours; XLab's said 165 to 180) and the extension's "35–45 minutes", against the module note's 155 and 30.
+
+### Start with the claim, not the mechanism
+
+[[Lenses/XLab Verification - v-hw-claim]]. The claim triple, the six propositions, the three questions and the open question are XLab's.
+
+- **Lens's text:** the tldr; line 48, the pointer to the opening puzzle, which passes.
+- **Spoiler test:** passes.
+- **tldr:** passes. Minor, no flag: "A chip can truthfully report six things" can read as though a chip reports only six things, and one of the six, a reproduced checkpoint, is not a chip's report. "Hardware can confirm six narrow facts, and the treaty can still be broken" would be exact.
+- **Flag on the page:** line 46, port fit. "Notebook: initial claim map" is XLab's heading, and it names XLab's notebook feature, as on unit 4's mechanism page. Candidate: "Initial claim map".
+- **Left for stage 7:** "2.1.1" in the heading, the link label "2.1 Hardware" (line 48), "this section" (line 14), and the semicolons ending the six propositions. The tutor summary names XLab, one of the 14 validator warnings; tutor summaries are outside this stage (A36).
+
+### From a chip to a trusted statement
+
+[[Lenses/XLab Verification - v-hw-trusted-statement]].
+
+- **Lens's text:** the tldr; the reading lead (line 18); the question's first sentence (line 109), rebuilt because XLab's "supplied with this section" supplies nothing (Elias's note on the question). Both pass.
+- **Spoiler test:** passes.
+- **tldr:** passes. Minor: "NVIDIA's shipping GPU attestation" means current; the page says "current".
+- **For Andreas and Elias:** line 103, "'Secure' is not a mechanism property without an adversary." Compressed: a mechanism is secure only against a named adversary. Candidate: "A mechanism can be called secure only against a particular adversary."
+- **Left for stage 7:** "2.1.2"; the semicolons ending the list items (lines 84 to 91 and 111 to 119).
+
+### Accounting for hardware
+
+[[Lenses/XLab Verification - v-hw-accounting]].
+
+- **Lens's text:** the tldr; the reading leads (lines 18 and 62), which pass; line 76, the lead-in to the chip locator; line 102, edited from XLab's.
+- **Spoiler test:** passes. "Pick three independent evidence streams" names the task, not the streams.
+- **tldr flags:** "A registry is a spreadsheet, not a sensor" is "X, not Y" framing, and "spreadsheet" is not the page's claim: line 16 calls a registry "an institutional record whose value depends on how entries are created and reconciled". Candidate: "A registry records devices but measures nothing."
+- **Flag on the page:** line 76, self-contained. The learner has not met landmark servers, since the excerpts skip the paper's sections 2.4.1 to 2.4.3, which explain them, and "the units are schematic" is jargon. Candidate in the flag.
+- **Left for stage 7:** "2.1.3"; line 102, "Part 2 of this course, on intelligence and human mechanisms, will address…". This is our edit of XLab's "The intelligence and human sections", and in CV1 it is wrong as well as framing: those mechanisms are in Compute Verification 2. Candidate: "Compute Verification 2, on intelligence and human mechanisms, addresses…". The semicolons ending the list items.
+
+### Measuring and classifying use
+
+[[Lenses/XLab Verification - v-hw-measuring-use]].
+
+- **Lens's text:** the tldr; the reading leads (lines 48 and 72), which pass; two items in the limitations list (lines 83 and 86), edited from XLab's. Both check out against the paper: Table 5, round 5, gives 43 to 87 percent against white-box evasion after hardening, and the authors say of custom CUDA kernels that "we did not test" them.
+- **Spoiler test:** passes. "A component demo, not a treaty regime" is what the question's cap guards against, but line 91 says it before the question, so the page does not ask the learner to reach it.
+- **tldr flags:** Content. "Drops to 43 percent on unseen adversarial workloads" gives the low end of a 43 to 87 percent range, for white-box evasion strategies the classifier had not seen, as the whole result. "Demo" is informal, and the clause is "X, not Y" framing; line 91 says it anyway. "Practise" is for the spelling pass. Candidate: "Counting FLOP and knowing whether they were training are two different problems. A classifier that is 98.2 percent accurate overall catches only 43 to 87 percent of evasion strategies it has not seen. Practice turning such a result into exactly the policy claim it supports."
+- **For Andreas and Elias:** line 42, "A fixed threshold therefore has an update condition." Compressed. Candidate: "A fixed threshold therefore needs a rule for when it must be revised."
+- **Left for stage 7:** "2.1.4"; the semicolons ending the list items (lines 28 to 34 and 83 to 89). The tutor summary names XLab, one of the 14 validator warnings.
+
+### Authorization, licensing, and control
+
+[[Lenses/XLab Verification - v-hw-authorization]].
+
+- **Lens's text:** the tldr; the reading lead (line 57); line 66, the lead-in to the license widget; "(no unlicensed training above threshold T)", added to the question (line 82). All pass.
+- **Spoiler test:** passes. "Find which ones fail together" names the last question without answering it.
+- **tldr:** passes. "Twelve components" matches the question's list.
+- **Left for stage 7:** "2.1.5"; the semicolons ending the list items (lines 47 to 53).
+
+### Where should trust live?
+
+[[Lenses/XLab Verification - v-hw-where-trust-lives]]. The four architectures, the confidentiality trade, the "Verification target" label and the question are XLab's.
+
+- **Lens's text:** the tldr; the "Compare the verification layers" heading and its reading lead (line 126); the widget's framing (lines 145 to 155).
+- **Spoiler test:** passes.
+- **tldr flags:** "Compare four places to put the monitor, inside the chip, on the network, on the power line, or all three, for one verification target" sets the list between commas, so the sentence is hard to parse, and "all three" is a mix rather than a place. Candidate: "Compare four ways to place the monitor for one verification target (inside the chip, on the network, on the power line, or a mix of all three), then choose…". Minor: the question asks for the smallest pilot that yields decision-relevant evidence, with each delegation's distrust recorded, so "would both accept" is a fair summary.
+- **Flags on the page:** line 147, self-contained: "four subgoals" against a quotation that names two, since the paper splits each in half (1.A and 1.B, 2.A and 2.B). Line 153, punctuation and self-contained: a semicolon, and references to the paper's tables, which are not on the page. Candidates in the flags. The semicolon in line 151 is inside the paper's words and stays.
+- **Left for stage 7:** "2.1.6"; line 96, "belongs in this hardware section… belongs in the intelligence section", XLab framing, with the intelligence material in Compute Verification 2. The semicolons ending the list items.
+
+### Reconstructing a declared training run
+
+[[Lenses/XLab Verification - v-hw-reconstructing-run]]. Optional in the module.
+
+- **Lens's text:** the tldr; line 14; the question's "Optional:".
+- **Spoiler test:** passes.
+- **tldr:** passes.
+- **Left for stage 7:** "2.1.7"; line 14, "this lesson is the technical extension of section 2.1 and is marked optional in XLab's curriculum", which is XLab framing from end to end ("Optional: a technical extension of this unit." would do); the semicolons ending the evidence list. The tutor summary names XLab, one of the 14 validator warnings.
+
+### Open problems: verifying and securing compute
+
+[[Lenses/XLab Verification - v-paper-open-problems-compute]]. Optional in the module. All the page's own text is Lens's.
+
+- **Lens's text:** the tldr; line 12.
+- **Spoiler test:** passes; no exercise.
+- **tldr flags:** it reads as a catalog entry, not as a sentence to the learner (A37): a title, authors, a colon and two noun phrases. "Anti-tamper" as a noun is jargon. "Reuel, Bucknall, Casper, Heim et al." skips the nine authors between Casper and Heim, who is thirteenth. Candidate: "Optional reading to close the unit: two sections of Open Problems in Technical AI Governance (Reuel et al., 2024) that list what is still unsolved in checking where chips are and what they run, and in hardware that resists tampering and enforces limits on compute use."
+- **Flag on the page:** line 12, a semicolon and the same author list.
+
+### For the spelling pass (A48)
+
+"Practise" (the measuring-use tldr). In the feedback briefs: "mislabelled" (accounting), "judgement" (authorization), "centre" (where trust lives).
