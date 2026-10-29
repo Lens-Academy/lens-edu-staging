@@ -176,8 +176,7 @@ Below are the keys for all of the reports. Open the one for the report you worke
 - **James Corrigan, business reporter.** Needs the scale, the on-the-record line, and the detail showing the company chose this path. Knows: has the BIS press release and the Axelrod quotes from the announcement. Asks: What is the on-the-record line showing the company chose this path? (The CFO, a month after the rule: no particular restriction, no license needed, while every competitor stopped.) How big is this, in numbers? (7.4 million drives, $1.1 billion in shipments, 429 violations, $300 million penalty.) What shows deepening commitment rather than a stumble? (A three-year Strategic Cooperation Agreement making Seagate Huawei’s priority supplier, signed months into the violations.)
 :::
 
-{--{"author":"Andreas's AI","timestamp":1793302942993}@@{>>{"author":"Andreas's AI","timestamp":1793243914778}@@Stage 6 flag, Lens text, on the question below: "Optional: After you delivered: did any reader question go unanswered?" stacks two colons. Candidate: "Optional. After you delivered, did any reader question go unanswered?" See the CV1 plain language worklist.<<}
---}#### Question: Open
+#### Question: Open
 id:: e5ec7bb4-41a4-4706-9ec1-37c9cb23d770
 content:: Optional: After you delivered, did any reader question go unanswered? If one did, name it, name the passage you left in the pool that would have answered it, and say what it would have changed for that reader. If every question was answered, say so. Either way, say what your clipping rule would be for the next report.
 force-feedback:: first
