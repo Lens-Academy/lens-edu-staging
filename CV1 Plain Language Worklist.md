@@ -450,6 +450,7 @@ Inline in [[modules/XLab Verification P1 W4 Evidence and its readers]]. **Passes
 - **For Andreas and Elias:**
   - Line 47, durability's high example: "Mechanisms rooted in chip hardware, which takes long to mature and go obsolete" reads as though hardware is slow to mature and also slow to go obsolete; only the second is the point.
   - Line 96, "on the other hand, there are several different ways" has no contrast before it.
+- **Review of the rewrites, 2026-10-29.** The tldr now says "how buildable, how feasible, how much it proves, and how durable it is" and "those four lanes". Minor: "how feasible" does not separate political feasibility from "buildable", which is also feasibility; "how politically feasible" would. Line 64 now says "take note or jot down", and its flag's removal is pending. In the question (line 75), Andreas fixed the double colon, but "look back at what you took note of jotted down" has lost an "or". Line 96 is fixed (Andreas). Line 47 waits on a wording. Claude's reading of XLab's "takes long to mature": hardware changes slowly, since a chip generation takes years to design and ship and then stays in service for years, so a mechanism built into it stays viable that long. "Mature" in that sense belongs to technical feasibility, not durability. Candidate: "Mechanisms built into chip hardware, which stays in service for years and is hard to change once it ships."
 - **Left for stage 7:** "Week 5", "Part 2" and the semicolon in "Week 5 examines hardware in detail; Part 2 continues with the other three" (line 12).
 
 ### Privacy-Preserving Mechanisms
@@ -458,5 +459,5 @@ Inline in [[modules/XLab Verification P1 W4 Evidence and its readers]]. **Passes
 
 - **Lens's text:** the tldr; the five callout titles and the alt text, which pass.
 - **Spoiler test:** passes.
-- **tldr flags:** "an inspector working under shrouds" gets managed access backwards: the inspected state shrouds its sensitive equipment (line 43); the inspector does not work under shrouds. "Which are still papers" is mannered: still on paper, or still research.
+- **tldr flags:** "an inspector working under shrouds" gets managed access backwards: the inspected state shrouds its sensitive equipment (line 43); the inspector does not work under shrouds. "Which are still papers" is mannered: still on paper, or still research. **Rewritten (Andreas, 2026-10-29):** "an inspector working against shrouded evidence". Minor: "working against" can read as opposing; the equipment, not the evidence, is shrouded. Candidate: "an inspector working around shrouded equipment". "Still papers" stays, his call.
 - **Left for stage 7:** "Week 5", "Part 2", "Section 2.1" (lines 14 and 48), and the semicolon in line 14.
