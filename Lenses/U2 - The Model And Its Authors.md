@@ -208,19 +208,23 @@ id:: d6316651-341f-4d32-90c4-3f29a411e455
 content::
 \## What has to keep happening, and what is left afterwards
 
-Every number in this reading depends on one thing continuing: the METR horizon trend, the length of task (in human working time) that AI agents can finish, which METR measured doubling about every seven months. Daniel spends several paragraphs on why he is nervous about exactly that. He names online and continual learning, data efficiency, and the question of whether the trend is exponential or superexponential. Pick the one you think these forecasts depend on most. Say what you would watch over the next year to find out which way it is going.
+This box has four parts. Answer each one under its own number.
 
-That question is about how much time there is. This one is not.
+Every number in this reading depends on one thing continuing: the METR horizon trend. That is the length of task (in human working time) that AI agents can finish, which METR measured doubling about every seven months. Daniel spends several paragraphs on why he is nervous about it. He names online and continual learning, data efficiency, and the question of whether the trend is exponential or superexponential.
 
-The model's third stage begins when AI R&D is fully automated. The authors describe its endpoint as "asymptoting at the limits of intelligence". Suppose everything in this reading happens roughly on schedule and we arrive there. Name one thing that is exactly as unresolved after that point as it is today. Then say why arriving faster or slower does not change it.
+1. Pick the one of those three that you think these forecasts depend on most. Say what you would watch over the next year to find out which way it is going.
 
-The next question is about the reading itself rather than about the world.
+The first part is about how much time there is. The second part is not.
 
-Nearly all of what you just read is about how fast. Very little of it is about what for. That is not a criticism of the authors. They were writing a forecasting post, and they said so. We think you will find close to that same ratio across most of what this field writes. Check that claim over the next few months rather than taking it from us.
+The model's third stage begins when AI R&D is fully automated. The authors describe its endpoint as "asymptoting at the limits of intelligence". Suppose everything in this reading happens roughly on schedule and we arrive there.
 
-So, while you were reading, which question felt more interesting to you? Answer honestly. And what would someone believe the important question was, if they read a great deal of this material and not much else?
+2. Name one thing that is exactly as unresolved after that point as it is today. Then say why arriving faster or slower does not change it.
 
-Last, a smaller question. Daniel calls extrapolating AI revenue "a decent proxy for when AGI will be achieved". Is revenue measuring the thing these forecasts are about? Or is it measuring something that usually moves with it, but could separate from it? Give one concrete way the two could separate.
+The third part is about the reading itself, not about the world. Nearly all of what you just read is about how fast. Very little of it is about what for. That is not a criticism of the authors. They were writing a forecasting post, and they said so. We think you will find close to that same ratio across most of what this field writes. Check that claim over the next few months rather than taking it from us.
+3. While you were reading, which question felt more interesting to you: how fast, or what for? Answer honestly. Then say what someone would believe the important question was, if they read a great deal of this material and not much else.
+The fourth part is smaller. Daniel calls extrapolating AI revenue "a decent proxy for when AGI will be achieved".
+
+4. Is revenue measuring the thing these forecasts are about? Or is it measuring something that usually moves with it, but could separate from it? Give one concrete way the two could separate.
 
 
 feedback-instructions:: This is the closing move of the lens and the most important question in it is the second one.
