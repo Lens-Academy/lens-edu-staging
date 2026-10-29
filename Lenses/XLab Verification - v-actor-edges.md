@@ -191,8 +191,7 @@ The framework, the four subgoals and every mechanism quoted in the key:
 M. Baker, G. Kulp, O. Marks, M. Brundage & L. Heim,
 [“Verifying International Agreements on AI: Six Layers of Verification for
 Rules on Large-Scale AI Development and Deployment”](https://arxiv.org/abs/2507.15916)
-(2025). Quotations are matched against the committed copy of the paper at test
-time, so a quote that drifts fails the build rather than sitting on the page.
+(2025). 
 Week 5 assigns the same report for its layers; this section uses its
 subgoals.
 
