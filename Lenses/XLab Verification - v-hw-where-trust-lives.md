@@ -9,7 +9,7 @@ tutor_minutes: 20
 ---
 #### Text
 content::
-\### 2.1.6 Where should trust live?
+\### Where should trust live?
 
 Hardware verification can place trust inside the accelerator, in a separate digital monitor, in physical sensors, or across a hybrid design. Moving trust does not remove it.
 
