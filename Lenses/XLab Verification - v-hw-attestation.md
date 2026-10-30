@@ -50,7 +50,7 @@ Hardware proposals serve several different functions. These functions are not a 
 | **Authorize or restrict use** | Was the activity permitted? Who can issue, suspend, revoke, appeal, or override authorization? |
 | **Reconstruct a declared run** | Did the declared training process plausibly produce the submitted checkpoints or model? |
 
-The rest of this section uses one repeated method:
+The rest of this {--{"author":"Andreas's AI","timestamp":1793382374393}@@section--}{++{"author":"Andreas's AI","timestamp":1793382374393}@@unit++} uses one repeated method:
 
 **State the claim. Trace the measurement and trust chain. Name the adversary. Price the mechanism. Bound the conclusion. Find the remaining hole.**
 
