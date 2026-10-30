@@ -61,7 +61,7 @@ Format is how people learn and connect (high-touch: [do things that don't scale]
 	- Everybody makes slide of themselves → see other participants
 	- Maybe: everyone records a 3–5 min intro video and watches their group's
 	- Maybe: a study buddy (helps retention)?
-- Connection with peers beyond work (format): thankfulness, online shared meals, {==meme contest==}{>>{"author":"lauren","timestamp":1793192616754}@@Proceed carefully but this is a good, dangerously-powerful idea. Skilled memers make a big difference to a movement's success, but memes have a life of their own, and the pipe forest a memer is balancing on is made of other memers who disagree and will clown on you in return. In many cases that's fine, but it's important to understand it.<<}, (holding very lightly: game nights, online running club...), 
+- Connection with peers beyond work (format): thankfulness (gratitude, online shared meals, {==meme contest==}{>>{"author":"lauren","timestamp":1793192616754}@@Proceed carefully but this is a good, dangerously-powerful idea. Skilled memers make a big difference to a movement's success, but memes have a life of their own, and the pipe forest a memer is balancing on is made of other memers who disagree and will clown on you in return. In many cases that's fine, but it's important to understand it.<<}, (holding very lightly: game nights, online running club...), 
 - Connect with people in the field (format):
 	- **Ted lightning talks from experts with Q&A** afterwards (ideally people engaging with experts research, ToC stress-testing it, and then them doing great Q&A)
 	- **A career fair:** hiring staff sharing what they look for
