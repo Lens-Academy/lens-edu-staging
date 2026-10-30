@@ -23,15 +23,15 @@ Five units. In each unit you work through the material on your own, then meet yo
 
 \## The five units
 
-:::callout {title="Week 1: Why verification" tone="blue"}
+:::callout {title="Unit 1: Why verification" tone="blue"}
 Why the problem exists at all. Arms-race incentives that individual state preferences cannot overcome, why a prevented catastrophe looks like nothing happened, what makes a theory of change worth acting on, and then the first real workout: stress-test AI 2040's Plan A, the most detailed public proposal for a verified slowdown, and write your verdict.
 :::
 
-:::callout {title="Week 2: Precedents and policy scope" tone="blue"}
+:::callout {title="Unit 2: Precedents and policy scope" tone="blue"}
 What has been tried, and what exactly you would be verifying. IAEA safeguards in Iraq and what an inspectorate can and cannot audit; the goal, legal rule, verification claim ladder; compute thresholds against capability thresholds; and eleven candidate anti-ASI policies sorted by how much they deter and how gettable they are.
 :::
 
-:::callout {title="Week 3: Treaty anatomy and actors" tone="blue"}
+:::callout {title="Unit 3: Treaty anatomy and actors" tone="blue"}
 Read an agreement the way a mechanic reads an engine. Find the prohibition, the verification method and the exit clause in MIRI's draft ASI agreement, then map who a pause actually binds: seventeen actors across the compute supply chain, who declares, who holds the evidence, who verifies, and who no declaration reaches.
 :::
 
