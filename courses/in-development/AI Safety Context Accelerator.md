@@ -28,7 +28,7 @@ Cap: https://cap.so/s/my8sc06hzsbbx9a
 
 
 ### TA's Value Prop:
-1. **Progression clarity:** Clear next step after BlueDot courses. 
+1. **Progression clarity:** This coClear next step after BlueDot courses. 
 2. **Good format:** Scaled enough for you to be able to participate (not too selective). Is online, and can be done part-time.
 3. **High-quality peers:** You'll be surrounded by similarly mostly mid-career pros. Good discussions etc.
 4. **Build network:** Either with peers or external orgs/ppl through our various opportunities.
