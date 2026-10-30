@@ -54,7 +54,7 @@ The rest of this {--{"author":"Andreas's AI","timestamp":1793382374393}@@section
 
 **State the claim. Trace the measurement and trust chain. Name the adversary. Price the mechanism. Bound the conclusion. Find the remaining hole.**
 
-\#### Readings across this section
+\#### Readings across this {--{"author":"Andreas's AI","timestamp":1793382381948}@@section--}{++{"author":"Andreas's AI","timestamp":1793382381948}@@unit++}
 
 - **RATS and NVIDIA:** who makes an attestation claim, who checks it, and what current systems leave unverified.
 - **O’Gara et al.:** mechanisms and open questions for accounting, workload classification, location, configuration, and licensing.
