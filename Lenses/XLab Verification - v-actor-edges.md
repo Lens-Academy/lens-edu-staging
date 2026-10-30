@@ -28,7 +28,7 @@ holding the whole regime up.
 content::
 \## Who can prove what
 
-**The brief.** Same agreement, same board: no training runs above a compute threshold for three months. 1.2 asked what part each actor plays in a declaration. This asks what a verifier could actually do with them: who can produce evidence about whom, and which of the four things a verifier has to establish that evidence would settle.
+**The brief.** Same agreement, same board: no training runs above a compute threshold for three months. The actors page asked what part each actor plays in a declaration. This asks what a verifier could actually do with them: who can produce evidence about whom, and which of the four things a verifier has to establish that evidence would settle.
 
 **The board.** If you have not placed this board yourself, the rings below are the key, not your answer. Placing it is [[../Lenses/XLab Verification - v-scoping-actors|the workshop on the actors page]], and it is worth doing first. Nothing here is gated on it.
 
@@ -46,7 +46,7 @@ Baker et al. decompose it this way, and the key tags every edge with the part it
 #### Text
 content::
 :::callout {title="The 17 actors (open any time)" tone="neutral" collapse="closed"}
-Reference for the exercises below: the actors from 1.2, the ring each one sits on in the key placement, what it does on the chain, and the functional roles and postures 1.2 tagged it with. The rings run outward from the compute use the agreement forbids, starting with who has to declare it, who holds evidence about the declaration, who checks it, and extending to what no declaration covers. At the centre is the paper’s own scope: “it seeks to verify compliance on the basis that all large-scale AI compute use is accounted for in compliant activities” (Baker et al., §3.1, AI compute accounting).
+Reference for the exercises below: the actors from the actors page, the ring each one sits on in the key placement, what it does on the chain, and the functional roles and postures that page tagged it with. The rings run outward from the compute use the agreement forbids, starting with who has to declare it, who holds evidence about the declaration, who checks it, and extending to what no declaration covers. At the centre is the paper’s own scope: “it seeks to verify compliance on the basis that all large-scale AI compute use is accounted for in compliant activities” (Baker et al., §3.1, AI compute accounting).
 
 **Declares.** You own or use large-scale compute, or you signed the agreement and answer for what happens inside your territory. Either way the regime wants a declaration from you: you are the Prover.
 
