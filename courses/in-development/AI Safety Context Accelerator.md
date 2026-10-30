@@ -22,6 +22,7 @@ Cap: https://cap.so/s/my8sc06hzsbbx9a
 4. **Context:** 50+ hours, typically BlueDot’s AGI Strategy plus one more course.
 5. **Their problems:**
 	6. no clear next step after BlueDot
+	7. the next programs are too selectiveor full-time and in person; still unclear on the main players, the priorities and which sources to trust; no network.
 
 
 ### TA's Value Prop:
