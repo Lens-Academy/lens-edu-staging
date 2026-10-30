@@ -226,7 +226,7 @@ content::
 
 **The frontier labs the obligations land on.** Close, and it is why they sit on the first ring. But the labs are who does the act, not the act, and a map centered on them has nowhere to put a run that happens somewhere else, under someone else’s name.
 
-**The chips themselves, the hardware the run is counted on.** The chips are what makes the act countable from outside, which is a property of the mechanism rather than of the rule. Centre the map here and every institution on it becomes an afterthought.
+**The chips themselves, the hardware the run is counted on.** The chips are what makes the act countable from outside, which is a property of the mechanism rather than of the rule. Center the map here and every institution on it becomes an afterthought.
 :::
 
 \### 4. Place
