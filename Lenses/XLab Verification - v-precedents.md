@@ -117,7 +117,7 @@ Source: Mauricio Baker, [Nuclear Arms Control Verification and Lessons for AI Tr
 
 #### Question: Open
 id:: 2fd21c66-3d30-4534-a862-8c1e24a831df
-content:: **Task 2. Division of labour** (optional; max 200 words)
+content:: **Task 2. Division of labor** (optional; max 200 words)
 
 Document 2 proposes three components:
 
