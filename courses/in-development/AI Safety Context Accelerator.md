@@ -88,7 +88,7 @@ Format is how people learn and connect (high-touch: [do things that don't scale]
 - Top students: invited to the Lens Honors Program (define concretely later).
 
 
-### Therefore the syllabus 
+### Therefore the syllabus is:
 
 ---
 ---
@@ -215,6 +215,7 @@ Week 3 goals: How to contribute (current needs of the field)
 	- Could I make a valuable contribution to it?
 	- Is this my best available opportunity?
 - Exercise that feeds into written output
+	- 		- 	 [Main 7 plans](https://www.lesswrong.com/editPost?postId=3FWvvizxbkcdJYDzt&key=5be075a175d143fa903e7161f2969d)? 
 
 Optional activities
 - Write your pitch + book a slot for conference
