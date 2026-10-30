@@ -17,7 +17,7 @@ content::
 \## In this unit you will
 
 - Trace where a claim came from, and see why a true finding fails when every claim in it came from the inspected party.
-- Distil one report for several different readers.
+- Distill one report for several different readers.
 - Judge a mechanism on technical feasibility, political feasibility, verification effectiveness and durability, and name the privacy-preserving techniques that make disclosure between rivals thinkable.
 
 # Lens:
