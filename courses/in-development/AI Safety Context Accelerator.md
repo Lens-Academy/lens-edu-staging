@@ -21,10 +21,73 @@ Cap: https://cap.so/s/my8sc06hzsbbx9a
 3. **Already interested:** wants to work in AI safety and is acting on it (applying to jobs or fellowships, or about to).
 4. **Context:** 50+ hours, typically BlueDot’s AGI Strategy plus one more course.
 5. {==**Their problem after BlueDot:** no clear next step;==}{>>{"author":"Elias","timestamp":1793218659242}@@Do great people have this problem after bluedot? Doesn't BlueDot pick those up and hold their hand?<<}{>>{"author":"Mark Kagach","timestamp":1793279808532}@@no they don't. this is a quite established problem. discussed with oliver kurilov, he is high-context and knows that's the problem bluedot acknowledges themselves.<<} the next programs are too selective, or full-time and in person; still unclear on the main players, the priorities and which sources to trust; no network.**
-1. Mid career professionals or exceptional young talent from relevant fields (like infosecurity, communications, policy, operations, and law, as well as advanced sciences of mind/biology, statistics/math, and philosophy/), who need AIS context.
-2. They already want to join the field. (Actively looking for oppotunities? Tried to get a job/apply to some fellowships?)
-3. Have had 3-7 years of full-time-employment (more is better) as the main TA focus.
+{--{"author":"Mark Kagach","timestamp":1793313181383}@@1. Mid career professionals or exceptional young talent from relevant fields (like i{==nfosecurity, communications, policy, operations, and law==}{>>{"author":"Elias","timestamp":1793100662946}@@Provisional<<}, as well as advanced sciences of mind/biology, statistics/math, and philosophy/), who need AIS context.
+2. They already {==want to join the field.==}{>>{"author":"Slava","timestamp":1793100698903}@@lets try to be more specific here?<<} (Actively looking for oppotunities? Tried to get a job/apply to some fellowships?)
+3. Have had 3-7 years of full-time-employment (more is better) as the main TA focus.--}
+{++{"author":"Mark Kagach","timestamp":1793319338539}@@
 
+
+### TA's Value Prop:
+1. **Progression clarity:** Clear next step after BlueDot courses. 
+2. **Good format:** Scaled enough for you to be able to participate (not too selective). Is online, and can be done part-time.
+3. **High-quality peers:** You'll be surrounded by similarly mostly mid-career pros. Good discussions etc.
+4. **Build network:** Either with peers or external orgs/ppl through our various opportunities.
+5. **Understand the field:** (knowledge) You will understand what are the main players, what are their priorities, what is the field's history, what are the most trusted places for getting information (Zvi, Transformer...).
+6. **Develop strategic context:** (knowledge) Have informed takes on what are the main challenges in AIS (alignment problem...), and what are the main strategies (i.e. main AIS plans/ theories of change) people have in mind. You will understand the main worldviews (uniformitarianism vs catastrophism).
+7. **Practice strategic judgement:** (skills) You will develop your own takes on all the above, learn how to do ToC thinking, and practice it against the main theories of change.
+8. **Get credibility for the field:** You will leave with credible output/signal for the field which will help you with your next steps. 
+9. **Next steps, with support:** You {==will leave==}{>>{"author":"Mark Kagach","timestamp":1793315493338}@@Nail better public phrasing to make sure that we deliver on it and don't sound too inflating. Career guidance/ career advising...<<} with a clear plan of what to do next. Top students get some guidance from us, maybe 1-1 help, maybe references to next orgs.
+
+
+**How we will deliver on the TA's Value Props:**
+Format is how people learn and connect (high-touch: [do things that don't scale](https://www.paulgraham.com/ds.html)). Content is what they learn.
+
+1. **Progression clarity**
+- Marketing: "the next step after BlueDot", aimed at mid-career pros (a big push).
+- Proof from others: CG's "AI context accelerator" quote, 2–3 named endorsements (Rob Miles, Buck, Ryan Kidd), named speakers.
+2. **Good format**
+- Online and part-time: a 10–15 h/week floor, up to 40 for those who want more. No quitting, no travel.
+- Make the core 10-15h/week the main 80-20.
+- One big cohort (100–200), so we don't have to be super selective and groups can match on time zone.
+- Format that has different building blocks so that people can "design" their course experience. (Maybe tech, gov, fieldbuilding splits.)
+3. **High-quality peers**
+- Application form that selects on experience and commitment (good marketing brings good applicants).
+- Your group of 8–12 (16?): the same people for all 4 weeks, one core meeting a week with a navigator.
+4. **Build network**
+- With peers (format): ?
+	- big announcement when cohort starts with others
+	- groups matched on location where possible, and we help local clusters meet in person.
+	- open discussions, barometer exercise and then you get into breakout rooms with people that strongly disagree
+	- 90-min co-working study hours.
+	- structured networking! 
+	- unconference (copy MAISU), (week 1 heavy on external talks to build momentum, so it's easier for them to then do it in W2?)
+	- mastermind groups from week 1; the project initiative (pitch in week 3, form project groups in week 4);
+	- everyone records a 3–5 min intro video and watches their group's; => just proposing, holding lightly
+	- a study buddy (helps retention)? => holding lightly
+- Connection with peers beyond work (format): thankfulness / sugar cubes, online shared meals, {==meme contest==}{>>{"author":"lauren","timestamp":1793192616754}@@Proceed carefully but this is a good, dangerously-powerful idea. Skilled memers make a big difference to a movement's success, but memes have a life of their own, and the pipe forest a memer is balancing on is made of other memers who disagree and will clown on you in return. In many cases that's fine, but it's important to understand it.<<}, (holding very lightly: game nights, online running club...), 
+- Connect with people in the field (format):
+	- **Ted lightning talks from experts with Q&A** afterwards (ideally people engaging with experts research, ToC stress-testing it, and then them doing great Q&A)
+	- **A career fair:** hiring staff sharing what they look for
+	- **Stories of people who got in**, sharing their journey (ideally even our alumni) 
+5. **Understand the field**
+- Content: the [two cultures](https://www.youtube.com/watch?v=O8tERqD8UY0) (uni vs cata), and how the field's [history](https://www.lesswrong.com/posts/9RL9MuGZjzm4q3gKG/what-just-happened-a-retrospective-of-ai-alignment) connects them. Who's who: the orgs (size, ToC), funders and people behind each plan; where people get information (Zvi, Transformer, ...); what the main orgs, programs and jobs require (week 3), why AI safety has weird vibes/ looks unusual/ illegible/ low credibility. 
+- Format: meetings, readings, self-study.
+6. **Develop strategic context**
+- Content:
+	- Explaining (modeling) the problem of making advanced AI go well (pre-paradigmatic; uni vs cata; high stakes make reasonable people act very differently) => Seems like either too basic and not necessary, or too advanced and thus too hard to do here.
+	- Modeling the solution: What success could looks like (week 1).
+	- Steering: the main plans, from the [plans map](https://www.lesswrong.com/editPost?postId=3FWvvizxbkcdJYDzt&key=5be075a175d143fa903e7161f2969d) and AI 2040: Plan A (week 2).
+- Format: readings, self-study, learn knowledge alone, in focus. 90-min work blocks, no lectures. Active recall with minimal hints, explaining from a blank page (Feynman style), flashcards, practices, exams.
+7. **Practice strategic judgement**
+- Content: ToC all the way through (what it is, week 1; deriving and comparing, week 2; applying it to yourself, week 3; robust choices, week 4). Plus EV, ITN, thinking in models (an equation with variables), premortems, modeling vs steering, taking simple ideas seriously, the CFAR handbook.
+- Format: practice on group case studies; create publishable artifacts by writing on your own; exercises (red-teaming main field's strategies, orgs...); 
+8. **Get credibility for the field**
+- A written piece that shows your reasoning, built from the weekly exercises
+- Format by goal: writing sample (fellowships and jobs ask for one), LessWrong post or analysis. The best get published, linking Lens. The certificate links to it.
+9. **Next steps, with support**
+- Career next steps done right away (≈≈maybe plans?). First actions done for real before the end, with check-ins from the group and navigator.
+- When the main fellowships open and what they require, early enough to prepare.
+- Top students: invited to the Lens Honors Program (define concretely later).++}
 
 **TA's Value Prop:**
 **What we are going to deliver/provide**
