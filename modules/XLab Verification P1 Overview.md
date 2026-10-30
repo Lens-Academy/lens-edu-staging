@@ -8,7 +8,7 @@ tags: [wip]
 # Lens: About This Course
 id:: ad19bb9d-1f42-48c2-ae70-2fe8636035a0
 tldr:: Two rivals sign a deal to slow down AI. Neither trusts the other. This course is about how each could still check that the other kept its word, and it takes you as far as the first evidence stream: hardware.
-summary_for_tutor:: Orientation page before Unit 1. Learner reads what the course asks of them in each unit, that this is the first of two courses on the same curriculum with a separate capstone course after them, and that the course is based on XLab's open-source verification curriculum. Do not teach later content in detail; if asked, point to the week that covers it, or say that cloud, intelligence, human mechanisms and covert development belong to the second course.
+summary_for_tutor:: Orientation page before Unit 1. Learner reads what the course asks of them in each unit, that this is the first of two courses on the same curriculum with a separate capstone course after them, and that the course is based on XLab's open-source verification curriculum. Do not teach later content in detail; if asked, point to the unit that covers it, or say that cloud, intelligence, human mechanisms and covert development belong to the second course.
 reading_minutes:: 3
 tutor_minutes:: 0
 #### Text
@@ -19,9 +19,9 @@ How could parties that do not trust one another verify meaningful limits on adva
 
 \## How the course runs
 
-Five weeks. Each week you work through the material on your own, then meet your group to discuss the arguments the readings and exercises leave open.
+Five units. In each unit you work through the material on your own, then meet your group to discuss the arguments the readings and exercises leave open.
 
-\## The five weeks
+\## The five units
 
 :::callout {title="Week 1: Why verification" tone="blue"}
 Why the problem exists at all. Arms-race incentives that individual state preferences cannot overcome, why a prevented catastrophe looks like nothing happened, what makes a theory of change worth acting on, and then the first real workout: stress-test AI 2040's Plan A, the most detailed public proposal for a verified slowdown, and write your verdict.
