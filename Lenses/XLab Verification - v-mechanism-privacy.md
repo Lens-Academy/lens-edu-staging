@@ -2,7 +2,7 @@
 id: 'd388005c-3e26-4e94-8851-692288c0cbea'
 title: "Privacy-Preserving Mechanisms"
 tldr: "Rivals must prove compliance to each other without handing over the secrets an audit would expose. Meet the five ways out of that paradox, from a chip signing a report about itself to an inspector working around shrouded material, and learn which of them work today and which are still papers."
-summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. A reading lens with no questions: the confidentiality vs. verifiability tension, then five mechanism cards (hardware identity and remote attestation, privacy-preserving workload telemetry, zero-knowledge proofs, secure multiparty computation, managed access) rendered as closed callouts with XLab's text and links to hardware lenses in Week 5 and previews of topics in Part 2. If asked, help the learner separate deployed primitives (attestation, managed access) from experimental results (telemetry) and research proposals (ZK, MPC at frontier scale)."
+summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. A reading lens with no questions: the confidentiality vs. verifiability tension, then five mechanism cards (hardware identity and remote attestation, privacy-preserving workload telemetry, zero-knowledge proofs, secure multiparty computation, managed access) rendered as closed callouts with XLab's text and links to hardware lenses in Unit 5 and previews of topics in Part 2. If asked, help the learner separate deployed primitives (attestation, managed access) from experimental results (telemetry) and research proposals (ZK, MPC at frontier scale)."
 tags: [wip]
 reading_minutes: 10
 tutor_minutes: 0
