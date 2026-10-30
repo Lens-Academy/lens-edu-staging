@@ -15,7 +15,7 @@ Cap: https://cap.so/s/my8sc06hzsbbx9a
 2. People who can and do evaluate the EV of their projects/actions (ability and habit of deep ToC thinking).
 
 
-#Target Audience:**{++{"author":"Mark Kagach","timestamp":1793313182635}@@
+### Target Audience:{++{"author":"Mark Kagach","timestamp":1793313182635}@@
 1. **Who:** mid-career pros from relevant fields (the field list is provisional), plus exceptional young talent.
 2. **Experience:** main focus 3–7 years of full-time work (a PhD counts, part-time counts half). More is better.
 3. **Already interested:** wants to work in AI safety and is acting on it (applying to jobs or fellowships, or about to).
