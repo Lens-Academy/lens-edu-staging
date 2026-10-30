@@ -9,7 +9,7 @@ tutor_minutes: 12
 ---
 #### Text
 content::
-This module introduces four main areas of verification mechanisms: hardware, cloud, intelligence, and human. Week 5 examines hardware in detail; Part 2 continues with the other three. Each layer has its own strengths and weaknesses, evaluated on important metrics like technical feasibility and political feasibility.
+This module introduces four main areas of verification mechanisms: hardware, cloud, intelligence, and human. Unit 5 examines hardware in detail; {--{"author":"Andreas's AI","timestamp":1793382128057}@@Part--}{++{"author":"Andreas's AI","timestamp":1793382128057}@@Compute Verification++} 2 continues with the other three. Each layer has its own strengths and weaknesses, evaluated on important metrics like technical feasibility and political feasibility.
 
 :::callout {title="Across Parts 1 and 2, you will work toward these goals:" tone="blue"}
 1. Explain the relative strengths, weaknesses, current state of implementation, and most realistic path forward for hardware, cloud, intelligence, and human mechanisms, including overlaps and dependencies.
