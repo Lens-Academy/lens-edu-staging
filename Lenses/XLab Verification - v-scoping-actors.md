@@ -108,7 +108,7 @@ First, counts:
 - A few dozen labs that matter.
 - Millions of deployers.
 
-The chain narrows to almost nothing at the top and fans out to everything at the bottom. Verification has something to grab exactly where the count is small, which is why so many of the mechanisms you will meet from Unit 5 onwards, and in Part 2, bite upstream. Hold that thought; section [[../Lenses/XLab Verification - v-scoping-upstream-downstream|1.3]] develops it properly.
+The chain narrows to almost nothing at the top and fans out to everything at the bottom. Verification has something to grab exactly where the count is small, which is why so many of the mechanisms you will meet from Unit 5 onwards, and in Part 2, bite upstream. Hold that thought; [[../Lenses/XLab Verification - v-scoping-upstream-downstream|Upstream and downstream]], in Unit 4, develops it properly.
 
 Second, look at the labs’ row: A frontier lab can comply, publishing a safety framework and reporting under SB 53. It can hide, treating training details as trade secrets. It can exaggerate, describing its own precautions in the most flattering light, which is what critics call safety-washing. And it can free-ride on rivals’ restraint. Your job in verification is to price these different behaviors and balance their relevant incentives.
 
@@ -238,7 +238,7 @@ content::
 <g fill="currentColor" text-anchor="middle"><text x="480" y="372" font-size="15" font-weight="600">A training run</text><text x="480" y="390" font-size="13" fill-opacity="0.65">above the threshold</text></g>
 </svg>
 
-At the centre: **a training run above the threshold.** Around it, four rings. Each ring's test is quoted from Baker et al., Verifying International Agreements on AI (2025), the report [[../Lenses/XLab Verification - v-actor-edges|1.2.2]] keys its edges against.
+At the centre: **a training run above the threshold.** Around it, four rings. Each ring's test is quoted from Baker et al., Verifying International Agreements on AI (2025), the report that the page [[../Lenses/XLab Verification - v-actor-edges|Who can prove what]] keys its edges against.
 
 1. **Declares.** You own or use large-scale compute, or you signed the agreement and answer for what happens inside your territory. Either way the regime wants a declaration from you: you are the Prover. Baker §3.1: “The Prover could be a private institution or (in the case of international agreements) a government, which could constrain private companies within its territory as part of the agreement.” And §3.2: “organizations that own or use large-scale AI compute (e.g., major AI companies and cloud compute providers) would be required to declare facts about” their compute.
 2. **Holds the evidence.** You declare nothing here and you check nothing, but you hold a record a declaration can be held against, or the authority that makes somebody else’s record producible. Baker §4.2.1: “A Verifier could verify the locations and owners of random samples of AI chips from manufacturing to end-of-life destruction.”
