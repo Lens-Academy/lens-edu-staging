@@ -33,7 +33,7 @@ feedback-instructions:: Say whether the learner quoted the words at the transiti
 
 #### Question: Open
 id:: e3c2359d-f159-4348-a44a-740924f23668
-content:: **2. Analyse the components of a prohibition**
+content:: **2. Analyze the components of a prohibition**
 
 Select one prohibition contained in Article IV, V, VI, or VIII. Identify:
 
