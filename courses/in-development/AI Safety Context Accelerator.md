@@ -89,56 +89,7 @@ Format is how people learn and connect (high-touch: [do things that don't scale]
 
 
 ### Therefore the syllabuse is:
-{++{"author":"Mark Kagach","timestamp":1793345450511}@@#
-**Heuristics:**
-1. **Maintain the core 80-20 for people doing 10-15h version of the course.**
-2. **DO FUCKING SUMMARIES**
 
-#### Week 1
-What we want 
-- What's so specific about AI Safety (and why)
-	- Pre-paradigmatic
-	- Uniformitarian vs Catastrophist 
-	- How high stakes make people do weird looking things (→ why solutions look so different)
-	- ...
-- Motivation (what we want to build/achieve)
-	- desired outcomes (different ways to categorise)
-		- ...
-	- problems we face
-  - What success looks like
-	- the concept of Toc (and its structure)
-
-#### Week 2
-What can be done (exesting approaches)
-- Metrics of success (how to compair ToCs)
-- Main plans in the field to get there (main ToCs)
-	- Overview of main agendas
-		- 	 [Main 7 plans](https://www.lesswrong.com/editPost?postId=3FWvvizxbkcdJYDzt&key=5be075a175d143fa903e7161f2969d)? 
-	- how agendas interact
-	- How to derive ToC from a given text
-
-#### Week 3
-How to contribute (current needs of the field)
-- Basic overview over the orgs, funders and people behind each plan
-- Paths to impact
-	- The concepts of  "an impactful contribution" and "a neglected area/problem"
-	- Background, career capital and transferable skills.
-	- Time horisonts and planning
-	- Counterfactual impact
-- Overview of requirements of main orgs/programs/jobs in the field
-
-#### Week 4
-Basic rules and common failure modes in building an AI Safety career
-Basics:
-- Earlier strategic decisionmaking
-	- Reversible vs irreversible decisions.
-	- Exploration vs commitment.
-	- Robust strategies across plausible futures\multiple agendas.
-- Communicating and validating a contribution strategy
-- ...
-Failure modes:
-- Recognising common mistakes, understanding why they happen, and developing strategies to avoid those
-++}
 
 ---
 ---
