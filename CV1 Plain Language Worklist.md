@@ -474,7 +474,7 @@ Inline in [[modules/XLab Verification P1 W5 Hardware verification]]. All Lens's 
 
 - **Spoiler test:** passes.
 - **tldr:** passes, and matches the other four welcomes.
-- **Flag on the page:** the third goal holds three goals (measuring use, offline licensing and its key, where trust sits) and ends in a colon list, so it is about twice as long as the other two. Candidate: split it into "Reason about measuring compute use, offline licensing, and who holds the key." and "Judge where trust should sit: in the chip, on the network, on the power line, or across all three." **Rewritten (Andreas, 2026-10-29):** now two sentences, "Reason about… who holds the key. Judge where trust should sit…", which ends the stacking. The flag's removal is pending. Minor: both sentences are still one bullet; a line break and "- " before "Judge" would make them two goals like the rest. Done otherwise.
+- **Flag on the page:** the third goal holds three goals (measuring use, offline licensing and its key, where trust sits) and ends in a colon list, so it is about twice as long as the other two. Candidate: split it into "Reason about measuring compute use, offline licensing, and who holds the key." and "Judge where trust should sit: in the chip, on the network, on the power line, or across all three." **Rewritten (Andreas, 2026-10-29):** now two sentences, "Reason about… who holds the key. Judge where trust should sit…", which ends the stacking. The flag's removal is pending. Minor: both sentences are still one bullet; a line break and "- " before "Judge" would make them two goals like the rest. Done otherwise. **2026-10-30:** now two bullets (Andreas). Done.
 
 ### Hardware
 
@@ -502,7 +502,7 @@ Inline in [[modules/XLab Verification P1 W5 Hardware verification]]. All Lens's 
 - **Lens's text:** the tldr; the reading lead (line 18); the question's first sentence (line 109), rebuilt because XLab's "supplied with this section" supplies nothing (Elias's note on the question). Both pass.
 - **Spoiler test:** passes.
 - **tldr:** passes. Minor: "NVIDIA's shipping GPU attestation" means current; the page says "current".
-- **For Andreas and Elias:** line 103, "'Secure' is not a mechanism property without an adversary." Compressed: a mechanism is secure only against a named adversary. Candidate: "A mechanism can be called secure only against a particular adversary." **Rewritten (Andreas, 2026-10-29):** "'Secure' is not a mechanism property without relation to an adversary." Clearer. The tldr now says "NVIDIA's current shipping GPU attestation"; minor, "shipping" can go now that "current" says it. Done.
+- **For Andreas and Elias:** line 103, "'Secure' is not a mechanism property without an adversary." Compressed: a mechanism is secure only against a named adversary. Candidate: "A mechanism can be called secure only against a particular adversary." **Rewritten (Andreas, 2026-10-29):** "'Secure' is not a mechanism property without relation to an adversary." Clearer. The tldr now says "NVIDIA's current shipping GPU attestation"; minor, "shipping" can go now that "current" says it. Done. **2026-10-30:** "shipping" is cut (Andreas).
 - **Left for stage 7:** "2.1.2"; the semicolons ending the list items (lines 84 to 91 and 111 to 119).
 
 ### Accounting for hardware
