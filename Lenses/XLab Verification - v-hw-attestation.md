@@ -11,11 +11,6 @@ tutor_minutes: 0
 content::
 \### 2.1 Hardware
 
-\#### Before you begin
-
-**Core time:** about 195 minutes, split into two sessions.
-**Optional: Technical extension** 35–45 minutes.
-
 During a three-month AI pause, a laboratory sends the verification authority a valid cryptographic statement from each of the 20,000 accelerators in its declared cluster. The laboratory says the tokens prove that the cluster complied.
 
 Before reading further, classify each conclusion as **supported**, **possibly supported if the system was designed to measure it**, or **unsupported by attestation alone**.
