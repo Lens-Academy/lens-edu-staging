@@ -374,6 +374,17 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 | 6. American spelling | `todo`. Recount at the start; the proposal's 89 lines in 26 lenses predate the re-timing sweep |
 | 7. Em dashes | `todo` |
 
+**Inventory, 2026-10-30, before stage 7 starts.** A scan of learner-facing text in the course's 16 module files and 54 lenses (tldrs, page text, questions, callouts), leaving out tutor fields, comments, and Works cited and Source callouts. Nothing is edited yet.
+
+- **Week (step 1):** the overview's five "Week N" callout titles and "Five weeks… Each week", and six "Week 5" references (actors, "Who can prove what" twice, mechanism effectiveness, privacy twice), plus "earlier this week" (mechanism effectiveness). Real-time uses stay: "every couple of weeks", "dead within a week", "this week, not this decade".
+- **Section numbers (step 2):** the eight hardware headings (2.1 to 2.1.7); link labels 1.2, 1.2.1, 1.2.2 and 1.3 (seven, on the actors, map and "Who can prove what" pages) and "2.1 Hardware" (claim); "Section 2.1" four times (privacy) and "section 2.1" once (reconstructing run). The system card's "Section 2.3.6", the BIS order's legal sections and essay B's "Part 1" belong to their documents and stay.
+- **XLab framing (step 2, A7):** the essays' peer-review line (essays A and B), "Decoys XLab planted" four times (Distiller), and "marked optional in XLab's curriculum" (reconstructing run). Attribution that stays (A3): the overview's two lines and the system card's note.
+- **Course naming (step 4):** "Part 2" for Compute Verification 2, eight times (mechanism effectiveness three times, one in its tldr; privacy three times; actors once), and "Part 2 of this course" (accounting), which is wrong for CV1. Section 3's inventory of 2026-10-21 kept "Part 2" as placing the course in its sequence; "Part 2" is not a name the learner can resolve, so this is for Andreas. Learner-facing "this course" is fine.
+- **Module titles (step 3):** eleven content modules plus the overview and five feedback modules. Questions ("Why should you care about AI verification?"), noun phrases ("Hardware verification") and "Course Overview" in title case; "Anatomy of a (pause) agreement" has parentheses. Unit 4's first module is titled "Upstream and downstream" while its file says "Evidence and its readers".
+- **Spelling (step 6, A48):** about 55 British spellings in 13 lenses and one module, before setting aside quotations of sources (several in the Distiller's keys quote AISI and the IAEA). The most frequent: "centre" (13, all but one on the actors page), "distil" (5), "programme" (5), "specialised" (4), "behaviour" (4). "Towards" (6) and "analogue" (5) are accepted American variants and are left unless Andreas wants them.
+- **Em dashes (step 7):** none in learner-facing text. Nine in four feedback briefs on the precedents page.
+- **Semicolons (deferred from stage 6):** 163 in prose (58 of them in the Distiller's keys, many quoting reports), 129 ending list items, 19 in tables, 13 inside quotations. Almost all are XLab's.
+- **Also for stage 7:** unit 1's three opening pages (A27, Q15); the essays' "Choose Option A or Option B." lines (stage 3, step 4); the three tutor summaries that name XLab (the validator's warnings) and the claim-ledger widget's tutor summary (step 2).
 ### Stage 8, time figures (E4)
 
 | Step | Status |
