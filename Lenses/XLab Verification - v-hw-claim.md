@@ -42,8 +42,8 @@ Three questions recur throughout hardware verification.
 
 Hardware-rooted cryptography is often strongest on authenticity. Carefully designed measurement can improve correctness. Completeness usually requires evidence beyond the device itself.
 
-{>>{"author":"Andreas's AI","timestamp":1793310175706}@@Stage 6 flag, port fit: "Notebook" names XLab's notebook feature, which Lens does not have, so a learner may look for one. The question below is an ordinary open question. The heading is XLab's. Candidate: "Initial claim map". See the CV1 plain language worklist.<<}
-\#### Initial claim map
+{--{"author":"Andreas's AI","timestamp":1793340317990}@@{>>{"author":"Andreas's AI","timestamp":1793310175706}@@Stage 6 flag, port fit: "Notebook" names XLab's notebook feature, which Lens does not have, so a learner may look for one. The question below is an ordinary open question. The heading is XLab's. Candidate: "Initial claim map". See the CV1 plain language worklist.<<}
+--}\#### Initial claim map
 
 The opening puzzle is the attestation-token scenario from [[../Lenses/XLab Verification - v-hw-attestation|2.1 Hardware]].
 
