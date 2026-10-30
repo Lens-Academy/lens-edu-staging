@@ -9,7 +9,7 @@ tutor_minutes: 8
 ---
 #### Text
 content::
-\### 2.1.4 Measuring and classifying use
+\### Measuring and classifying use
 
 The working rule prohibits **unlicensed training above threshold T** while permitting inference and approved safety evaluations. Verifying that rule requires answers to three separate questions:
 
