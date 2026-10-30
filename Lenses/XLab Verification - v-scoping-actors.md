@@ -82,7 +82,7 @@ Is there a WHO for AI? An IAEA? As of mid-2026, there are some authorities but t
 
 \## Private actors: reading the chain from top to bottom
 
-Now the companies. The useful way to hold them in your head is not alphabetical but positional: upstream to downstream, the same axis as the map in [[../Lenses/XLab Verification - v-interactive-map|1.2.1]]. Read the table from top to bottom and watch two numbers change as you go: how many actors exist at each stage, and how much each one can see.
+Now the companies. The useful way to hold them in your head is not alphabetical but positional: upstream to downstream, the same axis as the [[../Lenses/XLab Verification - v-interactive-map|geographic supply-chain map]]. Read the table from top to bottom and watch two numbers change as you go: how many actors exist at each stage, and how much each one can see.
 
 Table 4.  Private actors, upstream to downstream
 
@@ -108,7 +108,7 @@ First, counts:
 - A few dozen labs that matter.
 - Millions of deployers.
 
-The chain narrows to almost nothing at the top and fans out to everything at the bottom. Verification has something to grab exactly where the count is small, which is why so many of the mechanisms you will meet from Week 5 onwards, and in Part 2, bite upstream. Hold that thought; section [[../Lenses/XLab Verification - v-scoping-upstream-downstream|1.3]] develops it properly.
+The chain narrows to almost nothing at the top and fans out to everything at the bottom. Verification has something to grab exactly where the count is small, which is why so many of the mechanisms you will meet from Unit 5 onwards, and in Part 2, bite upstream. Hold that thought; section [[../Lenses/XLab Verification - v-scoping-upstream-downstream|1.3]] develops it properly.
 
 Second, look at the labs’ row: A frontier lab can comply, publishing a safety framework and reporting under SB 53. It can hide, treating training details as trade secrets. It can exaggerate, describing its own precautions in the most flattering light, which is what critics call safety-washing. And it can free-ride on rivals’ restraint. Your job in verification is to price these different behaviors and balance their relevant incentives.
 
