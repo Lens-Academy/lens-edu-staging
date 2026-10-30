@@ -13,7 +13,7 @@ We’ve established why an international pause is important, the key components 
 
 This section gives you three ways to analyze the actors in a verification regime: where they sit in the supply chain, what function they can perform, and what posture they may take under a particular rule.
 
-Suppose the United States and China sign an agreement tomorrow: no training runs above some compute threshold for three months. Now ask a simple question. Who, exactly, has to change their behavior on Wednesday morning?
+Suppose the United States and China sign an agreement tomorrow: no training runs above some compute threshold for three months. Now ask a simple question. Who, exactly, has to change their behavior {--{"author":"Andreas's AI","timestamp":1793381994547}@@on Wednesday morning?--}{++{"author":"Andreas's AI","timestamp":1793381994547}@@the morning after?++}
 
 Not the people who signed. Governments do not train frontier models. They do not own the data centers, fabricate the chips, or operate the clouds. The activity the agreement is about happens inside companies: labs in San Francisco and Hangzhou, fabs in Taiwan, a lithography firm in a small Dutch town, cloud regions scattered across the planet.
 
@@ -146,7 +146,7 @@ You now have three questions to ask of any actor you meet in a proposal, a news 
 
 \## The Actor Map Workshop
 
-**The brief.** Suppose the United States and China sign an agreement tomorrow: no training runs above some compute threshold for three months. The section asked who has to change their behavior on Wednesday morning. The map asks the question after it: when the three months are up, who could show that they did, and who could show that somebody did not?
+**The brief.** Suppose the United States and China sign an agreement tomorrow: no training runs above some compute threshold for three months. The section asked who has to change their behavior {--{"author":"Andreas's AI","timestamp":1793381999091}@@on Wednesday morning.--}{++{"author":"Andreas's AI","timestamp":1793381999091}@@the morning after.++} The map asks the question after it: when the three months are up, who could show that they did, and who could show that somebody did not?
 
 **Four rings: what part of a declaration you play.** A verification regime runs on declarations: somebody states what they own and what they did with it, somebody else establishes the statement is true and complete. Every actor is somewhere in that.
 
