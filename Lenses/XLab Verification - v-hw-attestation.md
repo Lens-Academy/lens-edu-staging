@@ -9,7 +9,7 @@ tutor_minutes: 0
 ---
 #### Text
 content::
-\### 2.1 Hardware
+\### Hardware
 
 During a three-month AI pause, a laboratory sends the verification authority a valid cryptographic statement from each of the 20,000 accelerators in its declared cluster. The laboratory says the tokens prove that the cluster complied.
 

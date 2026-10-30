@@ -9,7 +9,7 @@ tutor_minutes: 6
 ---
 #### Text
 content::
-\### 2.1.1 Start with the claim, not the mechanism
+\### Start with the claim, not the mechanism
 
 Consider the policy objective used throughout this section.
 
