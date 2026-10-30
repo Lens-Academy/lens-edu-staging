@@ -198,7 +198,7 @@ button.is-active { border-color: var(--text); box-shadow: 0 0 0 1px var(--text);
 
 ## Writing one
 
-1. Decide what the learner does (click, drag, sort, adjust) and what they should notice. If nothing changes when they interact, it is a figure, not a widget: use an image or SVG in a `#### Text` segment instead.
+1. Decide what the learner does (click, drag, sort, adjust) and what they should notice. If nothing changes when they interact, it is a figure, not a widget: upload it with import_attachment (an .svg stays sharp and is sanitized on upload) and embed it as `![alt](public_url)` in a `#### Text` segment instead.
 2. Put the data in the file as plain JavaScript objects; render with `document.createElement`, not string-built HTML, so quotes in the data cannot break the markup.
 3. Write `summary_for_tutor` last, from the finished widget.
 4. Run `validate_content`, then open the lens on staging and click through everything at desktop and phone width.
