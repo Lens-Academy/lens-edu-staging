@@ -13,7 +13,7 @@ Links:
 
 Cap: https://cap.so/s/my8sc06hzsbbx9a
 [[../../../Lens/03-Product/Notes on AI Safety Context Accelerator]]
-[[../../../Lens/11-People/Elias/Context accelerator ToC post]]
+[[../../../Lens/11-People/Elias/Posts/Context accelerator ToC post]]
 
 ### Field Needs:
 1. More experiencied people from relevant fields (like infosecurity, communications, policy, operations, and law) with AI safety context.
