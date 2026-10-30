@@ -9,7 +9,7 @@ tutor_minutes: 9
 ---
 #### Text
 content::
-[[../Lenses/XLab Verification - v-scoping-actors|1.2]] asked what part each actor plays in a declaration: who owes one, who holds
+[[../Lenses/XLab Verification - v-scoping-actors|The actors page]] asked what part each actor plays in a declaration: who owes one, who holds
 evidence about one, who checks one, and who no declaration covers. That map is
 a description. This is what you do with it.
 
