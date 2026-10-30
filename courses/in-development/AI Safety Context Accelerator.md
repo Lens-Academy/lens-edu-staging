@@ -21,7 +21,7 @@ Cap: https://cap.so/s/my8sc06hzsbbx9a
 3. **Already interested:** wants to work in AI safety and is acting on it (applying to jobs or fellowships, or about to).
 4. **Context:** 50+ hours, typically BlueDot’s AGI Strategy plus one more course.
 5. **Their problems:**
-	6. don't know theno clear next step (after BlueDot)
+	6. don't know their next step (after BlueDot)
 	7. the next programs are too selective or full-time and in person
 	8. still unclear on the main players the priorities and which sources to trust
 	9. no network.
