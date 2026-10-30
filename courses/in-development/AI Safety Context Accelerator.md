@@ -53,7 +53,7 @@ Format is how people learn and connect (high-touch: [do things that don't scale]
 - With peers (format): (take lightly these are some ideas)
 	- big announcement when cohort starts with others
 	- groups matched on location where possible (and maybe we help local clusters meet in person).
-	- open discussions, barometer exercise and then you get into breakout rooms with people that you disagree
+	- open discussions, barometer exercise and matching people who dthen you get into breakout rooms with people that you disagree
 	- 90-min co-working study hours.
 	- structured networking! 
 	- unconference (copy MAISU), (week 1 heavy on external talks to build momentum, so it's easier for them to then do it in W2?)
