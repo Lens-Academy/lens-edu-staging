@@ -97,6 +97,7 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 | 5 | Hardware | 771 | 275 | 90 | Done |
 | 5 | Start with the claim, not the mechanism | 351 | 60 | 0 | Done |
 | 5 | From a chip to a trusted statement | 1,091 | 169 | 0 | Done |
+| 5 | Accounting for hardware | 713 | 121 | 100 | Done |
 | 5 | Measuring and classifying use | 839 | 162 | 152 | Done |
 | 5 | Authorization, licensing, and control | 656 | 143 | 81 | Passes |
 | 5 | Where should trust live? | 1,147 | 346 | 64 | Done; one wording note for Andreas |
