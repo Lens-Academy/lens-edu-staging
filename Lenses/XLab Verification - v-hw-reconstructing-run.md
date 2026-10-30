@@ -9,7 +9,7 @@ tutor_minutes: 8
 ---
 #### Text
 content::
-\### 2.1.7 Reconstructing a declared training run
+\### Reconstructing a declared training run
 
 Optional: this lesson is the technical extension of section 2.1 and is marked optional in XLab's curriculum.
 
