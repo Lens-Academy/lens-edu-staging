@@ -89,7 +89,7 @@ Format is how people learn and connect (high-touch: [do things that don't scale]
 
 
 ### Therefore the syllabuse is:
-{++{"author":"Mark Kagach","timestamp":1793345450511}@@### Therefore, the syllabus is:
+{++{"author":"Mark Kagach","timestamp":1793345450511}@@#
 **Heuristics:**
 1. **Maintain the core 80-20 for people doing 10-15h version of the course.**
 2. **DO FUCKING SUMMARIES**
