@@ -20,7 +20,7 @@ Cap: https://cap.so/s/my8sc06hzsbbx9a
 2. **Experience:** main focus 3–7 years of full-time work (a PhD counts, part-time counts half). More is better.
 3. **Already interested:** wants to work in AI safety and is acting on it (applying to jobs or fellowships, or about to).
 4. **Context:** 50+ hours, typically BlueDot’s AGI Strategy plus one more course.
-5. {==**Their problem after BlueDot:** no clear next step; the next programs are too selective, or full-time and in person; still unclear on the main players, the priorities and which sources to trust; no network.**
+5. {==**Their problem after BlueDot:** no clear next step; the next programs are too selective, or full-time and in person; still unclear on the main players, the priorities and which sources to trust; no network.
 {--{"author":"Mark Kagach","timestamp":1793313181383}@@1. Mid career professionals or exceptional young talent from relevant fields (like i{==nfosecurity, communications, policy, operations, and law==}{>>{"author":"Elias","timestamp":1793100662946}@@Provisional<<}, as well as advanced sciences of mind/biology, statistics/math, and philosophy/), who need AIS context.
 2. They already {==want to join the field.==}{>>{"author":"Slava","timestamp":1793100698903}@@lets try to be more specific here?<<} (Actively looking for oppotunities? Tried to get a job/apply to some fellowships?)
 3. Have had 3-7 years of full-time-employment (more is better) as the main TA focus.--}
