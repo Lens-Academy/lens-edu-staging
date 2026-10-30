@@ -87,6 +87,8 @@ Format is how people learn and connect (high-touch: [do things that don't scale]
 - When the main fellowships open and what they require, early enough to prepare.
 - Top students: invited to the Lens Honors Program (define concretely later).
 
+
+### Therefore t
 {++{"author":"Mark Kagach","timestamp":1793345450511}@@### Therefore, the syllabus is:
 **Heuristics:**
 1. **Maintain the core 80-20 for people doing 10-15h version of the course.**
