@@ -102,7 +102,7 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 | 5 | Accounting for hardware | 713 | 121 | 100 | Done |
 | 5 | Measuring and classifying use | 839 | 162 | 152 | Done |
 | 5 | Authorization, licensing, and control | 656 | 143 | 81 | Passes |
-| 5 | Where should trust live? | 1,147 | 346 | 64 | Done; one wording note for Andreas |
+| 5 | Where should trust live? | 1,147 | 346 | 64 | Done |
 | 5 | Reconstructing a declared training run | 676 | 144 | 38 | Passes |
 | 5 | Open problems: verifying and securing compute | 110 | 110 | 0 | Done |
 
