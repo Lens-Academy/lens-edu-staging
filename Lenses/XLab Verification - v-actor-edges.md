@@ -123,7 +123,7 @@ The paper calls the least robust subgoal the weak link and says the regime is on
 
 Now count arrowheads. Six of the seven edges point at a company or at a shell. Exactly one points at a party to the agreement, and it runs one way, out of one signatory’s intelligence service. Nothing on this board produces evidence about the United States, and the reason is not that the United States is transparent: it is that the counterparty’s institutions are not on the roster and the neutral body that would be is the hollow ring on the third band. This is a map of a two-party agreement in which one party’s bureaus do all the checking, including of themselves.
 
-Then read the third ring on its own, since that is where the last paragraph comes from. The export-control bureau, the intelligence community, the state legislature: one country’s, all three. 1.2 already told you the shelf marked “AI verification body” is empty; here it is, drawn empty, on the ring where the alternative would have gone.
+Then read the third ring on its own, since that is where the last paragraph comes from. The export-control bureau, the intelligence community, the state legislature: one country’s, all three. The actors page already told you the shelf marked “AI verification body” is empty; here it is, drawn empty, on the ring where the alternative would have gone.
 
 Then read what has no edge at all: ten of the seventeen. Some of those absences are the paper’s scope (enforcement is not verification), some are the roster’s (China brought no bureaus), and one is the whole problem stated as a hole: four states hold the jurisdiction that makes the chain’s records producible, and not one of them signed anything.
 
