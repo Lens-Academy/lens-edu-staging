@@ -39,7 +39,7 @@ Existing performance counters and management telemetry can measure useful quanti
 O’Gara et al., *Hardware-Enabled Mechanisms for Verifying Responsible AI Development*, [arXiv 2505.03742](https://arxiv.org/abs/2505.03742), 2025; the sections on compute accounting, workload classification, cluster configuration, location verification, and offline licensing.
 :::
 
-Even perfect accounting verifies the threshold, not the policy goal. Algorithmic, architectural, and data improvements can produce more capability at the same counted compute. A fixed threshold therefore has rules that .
+Even perfect accounting verifies the threshold, not the policy goal. Algorithmic, architectural, and data improvements can produce more capability at the same counted compute. A fixed threshold therefore has rules that would trigger a revision.
 
 :::callout {title="Question to keep visible" tone="blue"}
 What quantity did the meter record, and how closely does that quantity match the legal rule?
