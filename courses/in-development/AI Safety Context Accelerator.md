@@ -88,7 +88,7 @@ Format is how people learn and connect (high-touch: [do things that don't scale]
 - Top students: invited to the Lens Honors Program (define concretely later).
 
 
-### Therefore t
+### Therefore the syllabuse is:
 {++{"author":"Mark Kagach","timestamp":1793345450511}@@### Therefore, the syllabus is:
 **Heuristics:**
 1. **Maintain the core 80-20 for people doing 10-15h version of the course.**
