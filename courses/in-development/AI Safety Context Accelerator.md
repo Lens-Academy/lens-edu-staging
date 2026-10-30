@@ -54,7 +54,7 @@ Format is how people learn and connect (high-touch: [do things that don't scale]
 	- big announcement when cohort starts with others
 	- groups matched on location where possible (and maybe we help local clusters meet in person).
 	- open discussions, barometer exercise and matching people who disagree into discussions
-	- coworking study hours ()
+	- coworking study hours (maybe voice chats on discord)
 	- structured networking! 
 	- unconference (copy MAISU), (week 1 heavy on external talks to build momentum, so it's easier for them to then do it in W2?)
 	- mastermind groups from week 1; the project initiative (pitch in week 3, form project groups in week 4);
