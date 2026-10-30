@@ -9,7 +9,7 @@ tutor_minutes: 12
 ---
 #### Text
 content::
-\### 2.1.2 From a chip to a trusted statement
+\### From a chip to a trusted statement
 
 Remote attestation is often described as a chip proving its state. That description hides several actors and several separate judgments.
 

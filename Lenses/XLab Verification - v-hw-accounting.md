@@ -9,7 +9,7 @@ tutor_minutes: 8
 ---
 #### Text
 content::
-\### 2.1.3 Accounting for hardware: identity, location, topology, and completeness
+\### Accounting for hardware: identity, location, topology, and completeness
 
 A registry of covered accelerators can support several verification tasks. It can link a device credential to an owner, facility, jurisdiction, and reporting obligation. It can also make discrepancies visible when manufacturer, shipping, customs, provider, or site records disagree.
 
