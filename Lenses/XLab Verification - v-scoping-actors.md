@@ -108,7 +108,7 @@ First, counts:
 - A few dozen labs that matter.
 - Millions of deployers.
 
-The chain narrows to almost nothing at the top and fans out to everything at the bottom. Verification has something to grab exactly where the count is small, which is why so many of the mechanisms you will meet from Unit 5 onwards, and in Part 2, bite upstream. Hold that thought; [[../Lenses/XLab Verification - v-scoping-upstream-downstream|Upstream and downstream]], in Unit 4, develops it properly.
+The chain narrows to almost nothing at the top and fans out to everything at the bottom. Verification has something to grab exactly where the count is small, which is why so many of the mechanisms you will meet from Unit 5 onwards, and in {--{"author":"Andreas's AI","timestamp":1793382101366}@@Part--}{++{"author":"Andreas's AI","timestamp":1793382101366}@@Compute Verification++} 2, bite upstream. Hold that thought; [[../Lenses/XLab Verification - v-scoping-upstream-downstream|Upstream and downstream]], in Unit 4, develops it properly.
 
 Second, look at the labs’ row: A frontier lab can comply, publishing a safety framework and reporting under SB 53. It can hide, treating training details as trade secrets. It can exaggerate, describing its own precautions in the most flattering light, which is what critics call safety-washing. And it can free-ride on rivals’ restraint. Your job in verification is to price these different behaviors and balance their relevant incentives.
 
