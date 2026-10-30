@@ -44,7 +44,7 @@ Hardware-rooted cryptography is often strongest on authenticity. Carefully desig
 
 \#### Initial claim map
 
-The opening puzzle is the attestation-token scenario from [[../Lenses/XLab Verification - v-hw-attestation|2.1 Hardware]].
+The opening puzzle is the attestation-token scenario from [[../Lenses/XLab Verification - v-hw-attestation|the unit's opening page]].
 
 #### Question: Open
 id:: aff4f378-14ef-4cd4-b12d-249c4c66644e
