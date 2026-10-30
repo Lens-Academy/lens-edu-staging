@@ -45,7 +45,7 @@ Format is how people learn and connect (high-touch: [do things that don't scale]
 - Online and part-time: a 10–15 h/week floor, up to 40 for those who want more. No quitting, no travel.
 - Make the core 10-15h/week the main 80-20.
 - One big cohort (100–200), so we don't have to be super selective and groups can match on time zone.
-- Format that has different building blocks so that people can "design" their course experience. (Maybe tech, gov, fieldbuilding splits.)
+- Format that has different building blocks so that people can "design" their course experience. (In the future maybe tech, gov, fieldbuilding splits.)
 3. **High-quality peers**
 - Application form that selects on experience and commitment (good marketing brings good applicants).
 - Your group of 8–12 (16?): the same people for all 4 weeks, one core meeting a week with a navigator.
