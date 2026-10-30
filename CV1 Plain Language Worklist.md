@@ -83,7 +83,7 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 | 2 | Drawing the Line: Compute vs. Capability | 1,314 | 510 | 27 | Done |
 | 2 | Policies must be effective and feasible | 2,239 | 80 | 1,065 | Done |
 | 2 | Strategic Foundations (now before policy scope, A46) | 407 | 116 | 247 | Done |
-| 2 | The seven Strategic Foundations reading pages and the written exercise | 720 | 372 | 134 | Done; one suggestion pending |
+| 2 | The seven Strategic Foundations reading pages and the written exercise | 720 | 372 | 134 | Done |
 | 3 | How an agreement is put together | 507 | 101 | 220 | Done |
 | 3 | Reading a draft agreement | 1,184 | 130 | 353 | Done |
 | 3 | MIRI's draft agreement (paper page) | 161 | 123 | 38 | Done |
