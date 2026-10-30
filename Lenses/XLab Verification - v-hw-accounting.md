@@ -99,7 +99,7 @@ Attestation covers devices that participate. A registry covers devices that ente
 - Intelligence on undeclared facilities or diversion;
 - Insiders who report substitution, tampering, or hidden capacity.
 
-Hardware is therefore strongest for known, instrumented compute. Part 2 of this course, on intelligence and human mechanisms, will address what remains when the operator never registers the device, never installs the monitor, or never submits evidence.
+Hardware is therefore strongest for known, instrumented compute. {--{"author":"Andreas's AI","timestamp":1793382403728}@@Part 2 of this course,--}{++{"author":"Andreas's AI","timestamp":1793382403728}@@Compute Verification 2,++} on intelligence and human mechanisms, {--{"author":"Andreas's AI","timestamp":1793382403728}@@will address--}{++{"author":"Andreas's AI","timestamp":1793382403728}@@addresses++} what remains when the operator never registers the device, never installs the monitor, or never submits evidence.
 
 \#### Try it
 
