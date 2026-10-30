@@ -2,7 +2,7 @@
 id: '7f66b58a-83fb-483b-a41c-7e5564e40df3'
 title: "Option A: Stress-test Plan A's Verification Regime"
 tldr: "Build a recommendation on Plan A from its strongest mechanism, weakest link, timeline, and covert-compute margin."
-summary_for_tutor: "One optional essay route. Complete A1–A4 as preparatory responses, then A5 as the final essay in this same lens. {--{"author":"Andreas's AI","timestamp":1793382480971}@@Final essay is intended for peer review. --}Respond to reasoning, not agreement with the source."
+summary_for_tutor: "One optional essay route. Complete A1–A4 as preparatory responses, then A5 as the final essay in this same lens. {++{"author":"Andreas's AI","timestamp":1793382848138}@@Final essay is intended for peer review. ++}Respond to reasoning, not agreement with the source."
 reading_minutes: 5
 tutor_minutes: 64
 tags: [wip]
