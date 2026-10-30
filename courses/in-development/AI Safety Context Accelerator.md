@@ -85,7 +85,7 @@ Format is how people learn and connect (high-touch: [do things that don't scale]
 9. **Next steps, with support**
 - Career next steps done right away (≈≈maybe plans?). First actions done for real before the end, with check-ins from the group and navigator.
 - When the main fellowships open and what they require, early enough to prepare.
-- Top students: invited to the Lens Honors Program (define concretely later).++}
+- Top students: invited to the Lens Honors Program (define concretely later).+
 
 {++{"author":"Mark Kagach","timestamp":1793345450511}@@### Therefore, the syllabus is:
 **Heuristics:**
