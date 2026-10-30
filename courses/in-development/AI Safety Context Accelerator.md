@@ -91,7 +91,6 @@ Format is how people learn and connect (high-touch: [do things that don't scale]
 **TA's Value Prop:**
 **What we are going to deliver/provide**
 
-
 - You leave with written outputs that showcases your reasoning and understanding of the field: (choose)
 	1. Writing sample (fellowships/jobs require this)
 	2. LW post
