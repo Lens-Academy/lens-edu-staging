@@ -29,4 +29,4 @@ Short video version of the flipped classroom case — the same argument as the U
 
 - **Article — We All Teach: Here's How to Do It Better — Michael Noetel (15 min):** https://forum.effectivealtruism.org/posts/ZPNNnEu2HGNSNmifo/we-all-teach-here-s-how-to-do-it-better — Comprehensive run-down of evidence from the science of learning applied to course design and outreach.
 
-{--{"author":"James's AI","timestamp":1793359508717}@@- **Article — Top 10 Tips — Rapid Learner — Scott Young (10 min):** https://drive.google.com/file/d/1xH-ZhuOrJZNjsQ9qChlBzz7a_S_m8lmO/view — Tips 1-7 are useful for understanding the learner's perspective on what works.--}
+
