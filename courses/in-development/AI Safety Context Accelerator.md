@@ -90,43 +90,6 @@ Format is how people learn and connect (high-touch: [do things that don't scale]
 
 ### Therefore the syllabus is:
 
----
----
----
-**TA's Value Prop:**
-**What we are going to deliver/provide**
-
-- You leave with written outputs that showcases your reasoning and understanding of the field: (choose)
-	1. Writing sample (fellowships/jobs require this)
-	2. LW post
-	3. ...
-- You will have {==knowledge/opinions on:==}{>>{"author":"Elias","timestamp":1793181779447}@@add something about field's history?<<}
-	- What success looks like (the concept of Toc)
-	- Main plans in the field to get there (main ToCs)
-	- Basic overview over the orgs, funders and people behind each plan
-	- Overview of requirements of main orgs/programs/jobs in the field
-- You will be able to:
-	- Evaluate project proposals and organizational mission statements.
-		- ability to eval toc
-			- to know what toc is
-			- ability to build a toc out of PP or MS (or other text)
-		- knowing what the metrics are
-		- knowing what is good and bad in terms of ToC
-	- Stretch goal: write project proposals and organizational mission statements
-- Get network
-	- Get inspiration from SciStep?
-	- Structured networking between participants (navigators can also join)
-	- Participants and navigators give lightning talks + Q&A
-		- Project pitching (find collaborators, get feedback)
-	- Mastermind groups (make presentation)
-	- Not this time: {==Self initiated workshops==}{>>{"author":"Slava","timestamp":1793121279897}@@not this time, maybe during the next iteration<<}
-- Get a clear pathway to paid positions.
-	- Structured activities (writing applications/researching oportunities).
-- Chance to be selected into Lens Honors Program (most promising participants)
-	- {==1-on-1 career coaching==}{>>{"author":"Elias","timestamp":1793104699915}@@Get arrangement with 80k and/or AI-safety quest to fast-track them (@mark could you take this)<<}
-	- Help with writing strong {==application==}{>>{"author":"Slava","timestamp":1793104544898}@@https://www.lesswrong.com/posts/PiP4JqQFKhoqHGG2n/how-to-apply-to-ai-safety-fellowships-and-beyond<<}
-	- {==Make arrangement with orgs/programs that search for peopl==}{>>{"author":"Elias","timestamp":1793103683789}@@Mark, would you do this?<<}e (fasttrack applications?)
-
 Links:
 - [[../../../Lens/03-Product/AI Safety Context Accelerator Pitch|Context Accelerator Pitch]]
 - [[../../../Lens/11-People/Mark/Q4 2026 Pitches/01 - Context Accelerator Launch Pitch|Context Accelerator Launch Pitch]]
