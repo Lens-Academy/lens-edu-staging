@@ -10,7 +10,7 @@ tutor_minutes: 4
 #### Text
 content::
 :::callout {title="By the end of this module, you will be able to:" tone="blue"}
-Judge whether a stated theory of change is good and workable: where its outputs are mislabelled as outcomes, where a link is not an if-then claim, and which unstated assumptions the chain depends on.
+Judge whether a stated theory of change is good and workable: where its outputs are mislabeled as outcomes, where a link is not an if-then claim, and which unstated assumptions the chain depends on.
 :::
 
 \## Why are theories of change important?
