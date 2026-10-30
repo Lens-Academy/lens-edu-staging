@@ -75,7 +75,7 @@ Format is how people learn and connect (high-touch: [do things that don't scale]
 	- Explaining (modeling) the problem of making advanced AI go well (pre-paradigmatic; uni vs cata; high stakes make reasonable people act very differently) => Seems like either too basic and not necessary, or too advanced and thus too hard to do here.
 	- Modeling the solution: What success could looks like (week 1).
 	- Steering: the main plans, from the [plans map](https://www.lesswrong.com/editPost?postId=3FWvvizxbkcdJYDzt&key=5be075a175d143fa903e7161f2969d) and AI 2040: Plan A (week 2).
-- Format: readings, self-study, learn knowledge alone, in focus. 90-min work blocks, no lectures. Active recall with minimal hints, explaining from a blank page (Feynman style), (maybe) flashcards, practices, exams.
+- Format: readings, self-study, learn knowledge alone, in focus. 90-min work blocks, no lectures. Active recall with minimal hints, explaining from a blank page (Feynman style), (maybe some vers) flashcards, practices, exams.
 7. **Practice strategic judgement**
 - Content: ToC all the way through (what it is, week 1; deriving and comparing, week 2; applying it to yourself, week 3; robust choices, week 4). Plus EV, ITN, thinking in models (an equation with variables), premortems, modeling vs steering, taking simple ideas seriously, the CFAR handbook.
 - Format: practice on group case studies; create publishable artifacts by writing on your own; exercises (red-teaming main field's strategies, orgs...); 
