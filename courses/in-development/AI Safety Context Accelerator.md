@@ -31,7 +31,7 @@ Cap: https://cap.so/s/my8sc06hzsbbx9a
 1. **Progression clarity:** This course is the clear next step after BlueDot courses. 
 2. **Good format:** Scaled enough for you to be able to participate (not too selective). Is online, and can be done part-time.
 3. **High-quality peers:** You'll be surrounded by similarly mostly mid-career pros. Good discussions etc.
-4. **Build network:** Either with peers or external orgs/ppl through our various opportunities.
+4. **Build network:** Either with peers or external orgs/ppl through our various opportunities. ()
 5. **Understand the field:** (knowledge) You will understand what are the main players, what are their priorities, what is the field's history, what are the most trusted places for getting information (Zvi, Transformer...).
 6. **Develop strategic context:** (knowledge) Have informed takes on what are the main challenges in AIS (alignment problem...), and what are the main strategies (i.e. main AIS plans/ theories of change) people have in mind. You will understand the main worldviews (uniformitarianism vs catastrophism).
 7. **Practice strategic judgement:** (skills) You will develop your own takes on all the above, learn how to do ToC thinking, and practice it against the main theories of change.
