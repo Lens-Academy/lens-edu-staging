@@ -92,11 +92,11 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 | 4 | The Distiller | 9,620 | 274 | 5,220 | Done |
 | 4 | What makes a verification mechanism effective? | 1,362 | 210 | 448 | Done |
 | 4 | Privacy-Preserving Mechanisms | 1,603 | 502 | 266 | Done |
-| 5 | Hardware | 771 | 275 | 90 | Flagged (tldr, Content) |
-| 5 | Start with the claim, not the mechanism | 351 | 60 | 0 | Flagged |
-| 5 | From a chip to a trusted statement | 1,091 | 169 | 0 | Passes; one XLab note |
-| 5 | Accounting for hardware | 713 | 121 | 100 | Flagged |
-| 5 | Measuring and classifying use | 839 | 162 | 152 | Flagged (tldr, Content) |
+| 5 | Hardware | 771 | 275 | 90 | Done |
+| 5 | Start with the claim, not the mechanism | 351 | 60 | 0 | Done |
+| 5 | From a chip to a trusted statement | 1,091 | 169 | 0 | Done |
+| 5 | Accounting for hardware | 713 | 121 | 100 | Done, apart from a typo |
+| 5 | Measuring and classifying use | 839 | 162 | 152 | Rewritten; "component demo" is Andreas's call |
 | 5 | Authorization, licensing, and control | 656 | 143 | 81 | Passes |
 | 5 | Where should trust live? | 1,147 | 346 | 64 | Flagged |
 | 5 | Reconstructing a declared training run | 676 | 144 | 38 | Passes |
@@ -564,4 +564,4 @@ Inline in [[modules/XLab Verification P1 W5 Hardware verification]]. All Lens's 
 
 ### For the spelling pass (A48)
 
-"Practise" (the measuring-use tldr). In the feedback briefs: "mislabelled" (accounting), "judgement" (authorization), "centre" (where trust lives).
+"Practise" (the measuring-use tldr), fixed by Andreas on 2026-10-29. In the feedback briefs: "mislabelled" (accounting), "judgement" (authorization), "centre" (where trust lives).
