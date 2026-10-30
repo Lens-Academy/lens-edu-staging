@@ -85,6 +85,9 @@ Format is how people learn and connect (high-touch: [do things that don't scale]
 - When the main fellowships open and what they require, early enough to prepare.
 - Top students: invited to the Lens Honors Program (define concretely later).++}
 
+
+
+---
 **TA's Value Prop:**
 **What we are going to deliver/provide**
 
