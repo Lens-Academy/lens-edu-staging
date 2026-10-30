@@ -17,7 +17,7 @@ Verification is not a property an actor has. It is a relation between two of
 them: somebody can put a fact in front of a verifier about somebody else, and
 that fact settles one of the four things a verifier has to establish. Drawing
 those relations is the exercise below, and the key for it is Baker et al.'s,
-the same report Week 5 assigns when it gets to hardware.
+the same report Unit 5 assigns when it gets to hardware.
 
 Two things worth knowing before you start. Actors with no edge at all are a
 real answer and there are more of them than you would guess. And the point of
@@ -30,7 +30,7 @@ content::
 
 **The brief.** Same agreement, same board: no training runs above a compute threshold for three months. 1.2 asked what part each actor plays in a declaration. This asks what a verifier could actually do with them: who can produce evidence about whom, and which of the four things a verifier has to establish that evidence would settle.
 
-**The board.** If you have not placed this board yourself, the rings below are the key, not your answer. Placing it is [[../Lenses/XLab Verification - v-scoping-actors|the workshop in 1.2]], and it is worth doing first. Nothing here is gated on it.
+**The board.** If you have not placed this board yourself, the rings below are the key, not your answer. Placing it is [[../Lenses/XLab Verification - v-scoping-actors|the workshop on the actors page]], and it is worth doing first. Nothing here is gated on it.
 
 #### Text
 content::
@@ -191,7 +191,7 @@ The framework, the four subgoals and every mechanism quoted in the key:
 M. Baker, G. Kulp, O. Marks, M. Brundage & L. Heim,
 [“Verifying International Agreements on AI: Six Layers of Verification for
 Rules on Large-Scale AI Development and Deployment”](https://arxiv.org/abs/2507.15916)
-(2025). Week 5 assigns the same report for its layers; this section uses its
+(2025). Unit 5 assigns the same report for its layers; this section uses its
 subgoals.
 
 The cast, the rings and the sentences that place each actor on one are 1.2's,
