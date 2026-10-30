@@ -112,7 +112,6 @@ feedback-instructions:: The learner is finishing optional essay A with the final
 
 #### Text
 content::
-Keep your final essay for peer review, as specified in [XLab's assignment](https://aisafetytracks.com/tracks/verification/why-verification/building-intuitions).
 The four shorter responses prepare your argument; the final essay is the output to share.
 
 Continue to [[../Lenses/XLab Verification - v-intuitions-success|optional exercises and further reading]].
