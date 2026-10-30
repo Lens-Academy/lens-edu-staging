@@ -385,6 +385,7 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 - **Em dashes (step 7):** none in learner-facing text. Nine in four feedback briefs on the precedents page.
 - **Semicolons (deferred from stage 6):** 163 in prose (58 of them in the Distiller's keys, many quoting reports), 129 ending list items, 19 in tables, 13 inside quotations. Almost all are XLab's.
 - **Also for stage 7:** unit 1's three opening pages (A27, Q15); the essays' "Choose Option A or Option B." lines (stage 3, step 4); the three tutor summaries that name XLab (the validator's warnings) and the claim-ledger widget's tutor summary (step 2).
+
 ### Stage 8, time figures (E4)
 
 | Step | Status |
