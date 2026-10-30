@@ -28,7 +28,7 @@ A signed statement can be authentic and still be too narrow, stale, incomplete, 
 
 \#### What you will be able to do
 
-:::callout {title="By the end of the core section, you will be able to:" tone="blue"}
+:::callout {title="By the end of {--{"author":"Andreas's AI","timestamp":1793382359744}@@the core section,--}{++{"author":"Andreas's AI","timestamp":1793382359744}@@this unit,++} you will be able to:" tone="blue"}
 1. **Bound a hardware claim.** Distinguish what a mechanism identifies, attests, measures, classifies, restricts, or reconstructs, then state what remains outside the claim.
 2. **Trace the trust and authority chain.** Name who measures, signs, defines acceptable state, updates, revokes, appraises, decides, and enforces.
 3. **Invert the threat model.** Reassess the same mechanism when the operator is a cloud customer, a laboratory with physical control, or a state-backed owner.

@@ -11,7 +11,7 @@ tutor_minutes: 6
 content::
 \### Start with the claim, not the mechanism
 
-Consider the policy objective used throughout this section.
+Consider the policy objective used throughout this {--{"author":"Andreas's AI","timestamp":1793382355118}@@section.--}{++{"author":"Andreas's AI","timestamp":1793382355118}@@unit.++}
 
 - **Policy goal**: prevent a strategically dangerous training run during an emergency pause.
 - **Legal rule**: no covered party may conduct an unlicensed training run above threshold T during the pause. Inference and approved safety evaluations remain permitted.
