@@ -50,7 +50,7 @@ Every country card on the map is tagged with the actor roles that country plays 
 
 #### Text
 content::
-A geographic chokepoint is potential leverage, not verification by itself. It matters only when some authority can require a declaration, obtain a record, inspect a facility, or impose a technical control there. Carry that distinction into [[../Lenses/XLab Verification - v-actor-edges|1.2.2]], which turns positions on the supply chain into evidence relationships: who can show a verifier something about whom.
+A geographic chokepoint is potential leverage, not verification by itself. It matters only when some authority can require a declaration, obtain a record, inspect a facility, or impose a technical control there. Carry that distinction into [[../Lenses/XLab Verification - v-actor-edges|Who can prove what]], which turns positions on the supply chain into evidence relationships: who can show a verifier something about whom.
 
 \### Notes and sources
 

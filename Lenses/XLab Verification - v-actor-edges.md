@@ -194,7 +194,7 @@ Rules on Large-Scale AI Development and Deployment”](https://arxiv.org/abs/250
 (2025). Unit 5 assigns the same report for its layers; this section uses its
 subgoals.
 
-The cast, the rings and the sentences that place each actor on one are 1.2's,
+The cast, the rings and the sentences that place each actor on one come from the actors page,
 and the workshop above opens on that board in its key placement.
 
 #### Text
