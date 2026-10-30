@@ -50,7 +50,7 @@ Format is how people learn and connect (high-touch: [do things that don't scale]
 - Application form that selects on experience and commitment (good marketing brings good applicants).
 - Your group of 8–12: the same people for all 4 weeks, one core meeting a week with a navigator.
 4. **Build network**
-- With peers (format): (take lig)
+- With peers (format): (take lightly these are some ideas)
 	- big announcement when cohort starts with others
 	- groups matched on location where possible, and we help local clusters meet in person.
 	- open discussions, barometer exercise and then you get into breakout rooms with people that strongly disagree
