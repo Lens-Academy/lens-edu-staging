@@ -38,6 +38,6 @@ source:: ![[../Lenses/Facilitator Flat - M2 Active Learning Method]]
 optional:: true
 source:: ![[../Lenses/Facilitator Flat - M2 We All Teach]]
 
-# Lens: Optional — Top 10 Tips: Rapid Learner (Scott Young, 10 min)
+{--{"author":"James's AI","timestamp":1793359504180}@@# Lens: Optional — Top 10 Tips: Rapid Learner (Scott Young, 10 min)
 optional:: true
-source:: ![[../Lenses/Facilitator Flat - M2 Rapid Learner Top 10 Tips]]
+source:: ![[../Lenses/Facilitator Flat - M2 Rapid Learner Top 10 Tips]]--}
