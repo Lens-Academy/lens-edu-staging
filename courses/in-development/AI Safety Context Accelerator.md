@@ -48,7 +48,7 @@ Format is how people learn and connect (high-touch: [do things that don't scale]
 - Format that has different building blocks so that people can "design" their course experience. (In the future maybe tech, gov, fieldbuilding splits.)
 3. **High-quality peers**
 - Application form that selects on experience and commitment (good marketing brings good applicants).
-- Your group of 8–12 the same people for all 4 weeks, one core meeting a week with a navigator.
+- Your group of 8–12: the same people for all 4 weeks, one core meeting a week with a navigator.
 4. **Build network**
 - With peers (format): ?
 	- big announcement when cohort starts with others
