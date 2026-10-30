@@ -90,7 +90,7 @@ Format is how people learn and connect (high-touch: [do things that don't scale]
 {++{"author":"Mark Kagach","timestamp":1793345450511}@@### Therefore, the syllabus is:
 **Heuristics:**
 1. **Maintain the core 80-20 for people doing 10-15h version of the course.**
-2. **WE LOVE FUCKING SUMMARIES**
+2. **do FUCKING SUMMARIES**
 
 #### Week 1
 What we want 
