@@ -37,7 +37,7 @@ A signed statement can be authentic and still be too narrow, stale, incomplete, 
 :::
 {>>{"author":"Elias's AI","timestamp":1788015904638}@@XLab's Objectives block here has scope="the core section", so the rendered lead sentence is "By the end of the core section, you will be able to:" rather than "this module".<<}
 
-\#### A map of the section
+\#### A map of the {--{"author":"Andreas's AI","timestamp":1793382367419}@@section--}{++{"author":"Andreas's AI","timestamp":1793382367419}@@unit++}
 
 Hardware proposals serve several different functions. These functions are not a ladder from weak to strong. A mechanism may perform one function well and contribute little to another.
 
