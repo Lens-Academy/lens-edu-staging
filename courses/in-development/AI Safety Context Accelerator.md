@@ -69,7 +69,7 @@ Format is how people learn and connect (high-touch: [do things that don't scale]
 	- **Ted lightning talks from experts with Q&A** afterwards (ideally people engaging with experts research, ToC stress-testing it, and then them doing great Q&A)
 	- **A career fair:** hiring staff sharing what they look for
 	- **Stories of people who got in**, sharing their journey (ideally even our alumni)
-	- **Lens Honors** get personal references to peop
+	- **Lens Honors** get personal references to talk to people who are already in AI safety.
 5. **Understand the field**
 - Content: the [two cultures](https://www.youtube.com/watch?v=O8tERqD8UY0) (uni vs cata), and how the field's [history](https://www.lesswrong.com/posts/9RL9MuGZjzm4q3gKG/what-just-happened-a-retrospective-of-ai-alignment) connects them. Who's who: the orgs (size, ToC), funders and people behind each plan; where people get information (Zvi, Transformer, ...); what the main orgs, programs and jobs require (week 3), why AI safety has weird vibes/ looks unusual/ illegible/ low credibility. 
 - Format: meetings, readings, self-study.
