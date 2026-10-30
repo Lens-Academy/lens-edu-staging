@@ -11,7 +11,7 @@ tutor_minutes: 8
 content::
 \### Reconstructing a declared training run
 
-Optional: this lesson is the technical extension of section 2.1 and is marked optional in XLab's curriculum.
+Optional: a technical extension of this unit.
 
 This extension asks a different question: can a verifier test whether a declared training process plausibly produced the submitted checkpoints or model?
 
