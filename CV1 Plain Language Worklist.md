@@ -474,7 +474,7 @@ Inline in [[modules/XLab Verification P1 W5 Hardware verification]]. All Lens's 
 
 - **Spoiler test:** passes.
 - **tldr:** passes, and matches the other four welcomes.
-- **Flag on the page:** the third goal holds three goals (measuring use, offline licensing and its key, where trust sits) and ends in a colon list, so it is about twice as long as the other two. Candidate: split it into "Reason about measuring compute use, offline licensing, and who holds the key." and "Judge where trust should sit: in the chip, on the network, on the power line, or across all three."
+- **Flag on the page:** the third goal holds three goals (measuring use, offline licensing and its key, where trust sits) and ends in a colon list, so it is about twice as long as the other two. Candidate: split it into "Reason about measuring compute use, offline licensing, and who holds the key." and "Judge where trust should sit: in the chip, on the network, on the power line, or across all three." **Rewritten (Andreas, 2026-10-29):** now two sentences, "Reason about… who holds the key. Judge where trust should sit…", which ends the stacking. The flag's removal is pending. Minor: both sentences are still one bullet; a line break and "- " before "Judge" would make them two goals like the rest. Done otherwise.
 
 ### Hardware
 
@@ -482,8 +482,8 @@ Inline in [[modules/XLab Verification P1 W5 Hardware verification]]. All Lens's 
 
 - **Lens's text:** the tldr; line 28, reworded under A35; the "Readings across this section" heading and its four lines (lines 62 to 67), condensed from XLab's "Core source packet", which pass.
 - **Spoiler test:** passes. The tldr asks for the seven judgments without hinting at any.
-- **tldr flags:** Content. "You will grade your own answers at the end of the hardware section" contradicts line 28 and A35: the learner returns to the answers at the start of Compute Verification 2, as the tutor summary also says. "The hardware section" is XLab's framing. Minor: the tldr says "the pause" before saying there is one. Candidate for the last sentence: "You will come back to your answers at the start of Compute Verification 2."
-- **Left for stage 7:** "2.1" in the heading; "the core section" (the objectives' callout title, which has Elias's note on it), "this section" (lines 47 and 58), and our own heading "Readings across this section". **Stage 8:** "about 195 minutes" (ours; XLab's said 165 to 180) and the extension's "35–45 minutes", against the module note's 155 and 30.
+- **tldr flags:** Content. "You will grade your own answers at the end of the hardware section" contradicts line 28 and A35: the learner returns to the answers at the start of Compute Verification 2, as the tutor summary also says. "The hardware section" is XLab's framing. Minor: the tldr says "the pause" before saying there is one. Candidate for the last sentence: "You will come back to your answers at the start of Compute Verification 2." **Rewritten (Andreas, 2026-10-29):** "…complied with a pause… You will review your own answers at the start of Compute Verification 2." Done. Andreas also cut the "Before you begin" heading and both time estimates: the heading added nothing to the scenario below it, and learners see times in the sidebar.
+- **Left for stage 7:** "2.1" in the heading; "the core section" (the objectives' callout title, which has Elias's note on it), "this section" (lines 47 and 58), and our own heading "Readings across this section". **Stage 8:** the page's "about 195 minutes" and "35–45 minutes" are cut (Andreas), so only the module note's 155 and 30 are left to check.
 
 ### Start with the claim, not the mechanism
 
@@ -492,7 +492,7 @@ Inline in [[modules/XLab Verification P1 W5 Hardware verification]]. All Lens's 
 - **Lens's text:** the tldr; line 48, the pointer to the opening puzzle, which passes.
 - **Spoiler test:** passes.
 - **tldr:** passes. Minor, no flag: "A chip can truthfully report six things" can read as though a chip reports only six things, and one of the six, a reproduced checkpoint, is not a chip's report. "Hardware can confirm six narrow facts, and the treaty can still be broken" would be exact.
-- **Flag on the page:** line 46, port fit. "Notebook: initial claim map" is XLab's heading, and it names XLab's notebook feature, as on unit 4's mechanism page. Candidate: "Initial claim map".
+- **Flag on the page:** line 46, port fit. "Notebook: initial claim map" is XLab's heading, and it names XLab's notebook feature, as on unit 4's mechanism page. Candidate: "Initial claim map". **Fixed (Andreas, 2026-10-29):** "Initial claim map", and the tldr now begins "Hardware can truthfully report six things". The flag's removal is pending. Done.
 - **Left for stage 7:** "2.1.1" in the heading, the link label "2.1 Hardware" (line 48), "this section" (line 14), and the semicolons ending the six propositions. The tutor summary names XLab, one of the 14 validator warnings; tutor summaries are outside this stage (A36).
 
 ### From a chip to a trusted statement
