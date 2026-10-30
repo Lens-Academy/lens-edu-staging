@@ -33,6 +33,8 @@ Stage 6 of [[CV1 Restructure Log]]. Claude marks what is Lens's text, tests ever
 
 **Status, 2026-10-29.** Units 3 and 4 are done (Andreas). Every flag in them is resolved. Two unit 3 flags, on the anatomy and paper pages, had stayed on after their fixes; their removals are pending. Unit 5 is flagged: five tldr flags, two of them Content (Hardware, and Measuring and classifying use); six flags on the pages, one of them in the welcome; two XLab passages for Andreas and Elias. Three pages pass.
 
+**Status, 2026-10-30.** Unit 5's text is done (Andreas), so every unit's text has now been through stage 6. One wording note is open, on line 149 of "Where should trust live?" ("giving way to"), and the removals of the last three flags are pending. Left for later stages: the stage 7 items listed under each page, the spelling pass (A48), the times (stage 8), and Q23, which matters most for unit 5.
+
 ## How to read an entry
 
 - **Lens's text** lists the passages that are ours, by line in the lens file. Everything else on the page is XLab's.
@@ -95,12 +97,11 @@ Rough shares from the comparison, before the reading by hand. "Edited" includes 
 | 5 | Hardware | 771 | 275 | 90 | Done |
 | 5 | Start with the claim, not the mechanism | 351 | 60 | 0 | Done |
 | 5 | From a chip to a trusted statement | 1,091 | 169 | 0 | Done |
-| 5 | Accounting for hardware | 713 | 121 | 100 | Done, apart from a typo |
-| 5 | Measuring and classifying use | 839 | 162 | 152 | Rewritten; "component demo" is Andreas's call |
+| 5 | Measuring and classifying use | 839 | 162 | 152 | Done |
 | 5 | Authorization, licensing, and control | 656 | 143 | 81 | Passes |
-| 5 | Where should trust live? | 1,147 | 346 | 64 | Flagged |
+| 5 | Where should trust live? | 1,147 | 346 | 64 | Done; one wording note for Andreas |
 | 5 | Reconstructing a declared training run | 676 | 144 | 38 | Passes |
-| 5 | Open problems: verifying and securing compute | 110 | 110 | 0 | Flagged |
+| 5 | Open problems: verifying and securing compute | 110 | 110 | 0 | Done |
 
 The overview and the five unit welcomes are inline in their modules and are not in this count.
 
