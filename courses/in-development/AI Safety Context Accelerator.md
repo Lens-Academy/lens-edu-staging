@@ -141,6 +141,8 @@ Failure modes:
 ++}
 
 ---
+---
+---
 **TA's Value Prop:**
 **What we are going to deliver/provide**
 
