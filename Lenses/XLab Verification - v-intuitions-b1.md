@@ -13,7 +13,7 @@ add_to_ai_context:
 ---
 #### Text
 content::
-**Choose Option A or Option B.** If you choose this option, complete all five parts below.
+{--{"author":"Andreas's AI","timestamp":1793382474314}@@**Choose Option A or--}{++{"author":"Andreas's AI","timestamp":1793382474314}@@**Optional, as is++} Option {--{"author":"Andreas's AI","timestamp":1793382474314}@@B.**--}{++{"author":"Andreas's AI","timestamp":1793382474314}@@A.**++} If you choose this option, complete all five parts below.
 The first four responses develop the arguments for your final essay, so keep them in view as you write.
 
 #### Text
