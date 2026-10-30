@@ -1,8 +1,8 @@
 ---
 id: '783c38a6-2552-4902-96bf-48de75aa30ad'
 title: "What makes a verification mechanism effective?"
-tldr: "Before you learn how any verification mechanism works, write down your guesses: how buildable, how politically feasible, how much it proves, and how durable it is. Rank twelve mechanisms on those four lanes, keep the set, and use it as a baseline as you learn more in Part 2 and the separate capstone."
-summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Opens with the module objectives and four metric definitions (technical feasibility, political feasibility, verification effectiveness, durability), each with XLab's low and high anchor examples, plus a closed callout on the page giving each metric's five rung labels. The mechanism-sort widget then runs the rating exercise itself: twelve mechanism cards, four five-rung scales each, markers landing on four ranking lanes, sealed at the end. Do not reveal the reference map or grade against it; that comparison belongs to the separate capstone after Parts 1 and 2. A short page note after the widget says there is no key and no score, then an open question on the heuristics used. Then the Swiss-cheese section, a one-line lead-in to the evidence-taxonomies widget (five maps of the same twelve mechanisms, with per-mechanism placement panels and the strengths and limits of each map inside the widget), and three choice checks built from those maps."
+tldr: "Before you learn how any verification mechanism works, write down your guesses: how buildable, how politically feasible, how much it proves, and how durable it is. Rank twelve mechanisms on those four lanes, keep the set, and use it as a baseline as you learn more in {--{"author":"Andreas's AI","timestamp":1793382139473}@@Part--}{++{"author":"Andreas's AI","timestamp":1793382139473}@@Compute Verification++} 2 and the separate capstone."
+summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Opens with the module objectives and four metric definitions (technical feasibility, political feasibility, verification effectiveness, durability), each with XLab's low and high anchor examples, plus a closed callout on the page giving each metric's five rung labels. The mechanism-sort widget then runs the rating exercise itself: twelve mechanism cards, four five-rung scales each, markers landing on four ranking lanes, sealed at the end. Do not reveal the reference map or grade against it; that comparison belongs to the separate capstone after {--{"author":"Andreas's AI","timestamp":1793382143604}@@Parts--}{++{"author":"Andreas's AI","timestamp":1793382143604}@@Compute Verification++} 1 and 2. A short page note after the widget says there is no key and no score, then an open question on the heuristics used. Then the Swiss-cheese section, a one-line lead-in to the evidence-taxonomies widget (five maps of the same twelve mechanisms, with per-mechanism placement panels and the strengths and limits of each map inside the widget), and three choice checks built from those maps."
 tags: [wip]
 reading_minutes: 40
 tutor_minutes: 12
@@ -11,7 +11,7 @@ tutor_minutes: 12
 content::
 This module introduces four main areas of verification mechanisms: hardware, cloud, intelligence, and human. Unit 5 examines hardware in detail; {--{"author":"Andreas's AI","timestamp":1793382128057}@@Part--}{++{"author":"Andreas's AI","timestamp":1793382128057}@@Compute Verification++} 2 continues with the other three. Each layer has its own strengths and weaknesses, evaluated on important metrics like technical feasibility and political feasibility.
 
-:::callout {title="Across Parts 1 and 2, you will work toward these goals:" tone="blue"}
+:::callout {title="Across {--{"author":"Andreas's AI","timestamp":1793382131884}@@Parts--}{++{"author":"Andreas's AI","timestamp":1793382131884}@@Compute Verification++} 1 and 2, you will work toward these goals:" tone="blue"}
 1. Explain the relative strengths, weaknesses, current state of implementation, and most realistic path forward for hardware, cloud, intelligence, and human mechanisms, including overlaps and dependencies.
 2. Evaluate any verification mechanism by the claims they test, the evidence they produce, cost of implementation, deployment maturity, and principal failure modes, including actors likely to break it and why.
 3. Explain the confidentiality–verifiability tension and identify the most promising privacy-preserving verification mechanisms.
@@ -20,7 +20,7 @@ This module introduces four main areas of verification mechanisms: hardware, clo
 
 \## Feasibility Intuitions
 
-Before we dive in, record your baseline intuitions: rank each mechanism across four metrics using your current understanding. Keep these rankings so you can revisit them as you learn more in Part 2 and the separate capstone.
+Before we dive in, record your baseline intuitions: rank each mechanism across four metrics using your current understanding. Keep these rankings so you can revisit them as you learn more in {--{"author":"Andreas's AI","timestamp":1793382135691}@@Part--}{++{"author":"Andreas's AI","timestamp":1793382135691}@@Compute Verification++} 2 and the separate capstone.
 
 **1. Technical feasibility.** Does the technical infrastructure and requisite research exist to build and run this mechanism at operable scale today? Includes technological maturity, dependencies, cost, and small-enough error rates.
 
