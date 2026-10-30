@@ -240,7 +240,7 @@ content:: **Task 5. Testing the hypothesis** (required; max 300 words)
 
 A policy team reaches the following conclusion:
 
-> Because advanced AI training depends on specialised chips, a regime of chip registration, logging, and inspection can verify that no prohibited AI development is occurring.
+> Because advanced AI training depends on specialized chips, a regime of chip registration, logging, and inspection can verify that no prohibited AI development is occurring.
 
 Evaluate this conclusion using all three documents. Your answer must:
 
