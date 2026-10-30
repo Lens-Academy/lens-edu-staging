@@ -39,7 +39,7 @@ Cap: https://cap.so/s/my8sc06hzsbbx9a
 9. **Next steps, with support:** You {==will leave==}{>>{"author":"Mark Kagach","timestamp":1793315493338}@@Nail better public phrasing to make sure that we deliver on it and don't sound too inflating. Career guidance/ career advising...<<} with a clear plan of what to do next. Top students get some guidance from us, maybe 1-1 help, maybe references to next orgs.
 
 
-###How we will deliver on the TA's Value Props:**
+### How we will deliver on the TA's Value Props:
 Format is how people learn and connect (high-touch: [do things that don't scale](https://www.paulgraham.com/ds.html)). Content is what they learn.
 
 1. **Progression clarity**
