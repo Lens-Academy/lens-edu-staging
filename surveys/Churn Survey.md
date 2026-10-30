@@ -28,7 +28,6 @@ max:: 3
 #### Question: Choice
 id:: 8fa92eba-62cf-4d44-9e69-2d39ae1a9677
 content:: Which of these would most likely have kept you coming?
-description:: Pick up to two.
 options::
 - A short catch-up summary so I could join without doing all the reading
 - A different time slot, or an easy way to switch to another group
