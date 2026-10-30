@@ -16,7 +16,7 @@ Cap: https://cap.so/s/my8sc06hzsbbx9a
 
 
 ### Target Audience:
-1. **Who:** mid-career pros from relevant fields (provisional: infosecurity, communications, policy, operations, law, advanced sciences of mind/biology, statistics/math, and philosophy), plus exceptional young talent.
+1. **Who:** mid-career pros from relevant fields (provisional: infosecurity, communications, policy, operations, law, advanced sciences of mind, biology, statistics, math, and philosophy), plus exceptional young talent.
 2. **Experience:** main focus 3–7 years of full-time work (a PhD counts, part-time counts half). More is better.
 3. **Already interested:** wants to work in AI safety and is acting on it (applying to jobs or fellowships, or about to).
 4. **Context:** 50+ hours, typically BlueDot’s AGI Strategy plus one more course.
