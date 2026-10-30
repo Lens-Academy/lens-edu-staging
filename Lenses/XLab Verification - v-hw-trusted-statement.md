@@ -100,7 +100,7 @@ Cryptography can faithfully transmit a false or insufficient measurement. The va
 | **Laboratory controlling its servers** | Physical access, administrative control, optional security modes, peripherals, network routes, updates, and logging | Independent manufacturer services or separately installed sensors may still impose constraints, but must be tested against owner control |
 | **State-backed owner** | Supplier pressure, substitute hardware, expensive physical attacks, coercion of domestic firms, manipulation of inspections, and long preparation | Assurance may require mutually governed keys, externally installed monitoring, supply-chain reconciliation, destructive sampling, and evidence outside the device |
 
-The same product can be strong against a remote tenant and weak against an owner with physical access. “Secure” is not a mechanism property without an adversary.
+The same product can be strong against a remote tenant and weak against an owner with physical access. “Secure” is not a mechanism property without relation to an adversary.
 
 \#### Activity: trust-chain autopsy
 
