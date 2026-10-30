@@ -2,7 +2,7 @@
 id: '128dc22b-db3d-4a02-80b8-939682746c85'
 title: "History, Precedents, Parallels"
 tldr: "IAEA inspectors did their job properly in Iraq and still missed a bomb program next door. Read three short documents and work out what that means for a regime that counts AI chips."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Three source documents, then five packet tasks: Task 5 is required, Tasks 1 to 4 optional (learner does at least one). Model answers and Baker (2023) excerpts are reveal material: share them only after the learner has answered."
+summary_for_tutor: "Adapted from the source lesson. Preserve its framing. Three source documents, then five packet tasks: Task 5 is required, Tasks 1 to 4 optional (learner does at least one). Model answers and Baker (2023) excerpts are reveal material: share them only after the learner has answered."
 tags: [wip]
 reading_minutes: 20
 tutor_minutes: 21

@@ -17,7 +17,7 @@ But such public perception, or lack thereof, can obscure how difficult the true,
 
 AI risk is especially susceptible to such public ignorance. Algorithms are invisible and intangible, unlike bombs sitting in siloes. Commercial chatbots seem helpful and benevolent. AI capabilities have been increasing exponentially, and we are notoriously terrible at internalizing hockey-stick timelines. The layman considers these and concludes that AI will probably not kill everyone.
 
-These obfuscating factors, however, undercuts the reality that AI poses real dangers to global infrastructure and safety. As you've read about in 0.1, recent cases of models breaking out of testing environments and hacking into real organizations exemplify how AI catastrophes are no longer hypothetical.
+These obfuscating factors, however, undercuts the reality that AI poses real dangers to global infrastructure and safety. As you've read about in the introduction, recent cases of models breaking out of testing environments and hacking into real organizations exemplify how AI catastrophes are no longer hypothetical.
 
 Clearly, we must stop careless development of technology with such dangerous and far-reaching capabilities. In the context of the global AI race between the U.S. and China, this means: both sides will need to pause.
 
