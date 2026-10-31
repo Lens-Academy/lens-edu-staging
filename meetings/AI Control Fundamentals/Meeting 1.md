@@ -24,8 +24,8 @@ First meeting, so start by getting to know each other. Go around:
 
 | Names | Who you are + each gut view in a few words |
 |------|------------------------|
-|  |ddd|
-|hello|  |
+|  ||
+||  |
 |  |  |
 |  |  |
 
