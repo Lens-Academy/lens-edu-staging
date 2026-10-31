@@ -81,7 +81,7 @@ You run an AI company. Your new model writes most of your code and is the best e
 How do you use it?
 
 - **No checks:** full speed.
-- **Trusted monitoring:** an older model you trust flags suspicious code. Humans check the worst 2%. Nearly full speed.
+- **Trusted monitoring:** an older model you trust flags suspicious code. {>>{"author":"Luc","timestamp":1793466865316}@@This presumes we have a trusted model. I'm not sure we do? Seems iffy to imply to people the heuristic of "there always is a trusted model".<<}Humans check the worst 2%. Nearly full speed.
 - **Untrusted monitoring:** a copy of the new model flags suspicious code. It catches more, but it may be on the new model's side. Costs more compute.
 - **Trusted editing:** the older model rewrites suspicious code. Slower, worse code.
 - **Older model writes:** the new model only points out bugs. Much slower, much worse code.
