@@ -84,7 +84,7 @@ How do you use it?
 - **Trusted monitoring:** an older model you trust flags suspicious code. {>>{"author":"Luc","timestamp":1793466865316}@@This presumes we have a trusted model. I'm not sure we do? Seems iffy to imply to people the heuristic of "there always is a trusted model".<<}Humans check the worst 2%. Nearly full speed.
 - **Untrusted monitoring:** a copy of the new model flags suspicious code. It catches more, but it may be on the new model's side. Costs more compute.
 - **Trusted editing:** the older model rewrites suspicious code. Slower, worse code.
-- **Older model writes:** the new model only points out bugs. Much slower, much worse code.{>>{"author":"Luc","timestamp":1793467964476}@@hello<<}
+- **Older model writes:** the new model only points out bugs. Much slower, much worse code.
 
 {>>{"author":"Luc","timestamp":1793467045603}@@I think more interesting questions would be... what would go into your decision-making process around which option to choose? And things that come to mind for me are... how expensive is the trusted monitoring? Like, how many percent... Of cost does this add? Another one that seems relevant to me is like, what, what is the capability level of this model?<<}1. Go around: which would you choose, and why? 
 2. A competitor uses no checks and pulls ahead. Your investors want you to drop yours. Do you?
