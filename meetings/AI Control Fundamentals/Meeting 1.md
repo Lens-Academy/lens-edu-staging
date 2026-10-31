@@ -81,12 +81,12 @@ You run an AI company. Your new model writes most of your code and is the best e
 How do you use it?
 
 - **No checks:** full speed.
-- **Trusted monitoring:** an older model you trust flags suspicious code. {>>{"author":"Luc","timestamp":1793466865316}@@This presumes we have a trusted model. I'm not sure we do? Seems iffy to imply to people the heuristic of "there always is a trusted model".<<}{>>{"author":"Luc","timestamp":1793467695148}@@testing<<}Humans check the worst 2%. Nearly full speed.
+- **Trusted monitoring:** an older model you trust flags suspicious code. Humans check the worst 2%. Nearly full speed.
 - **Untrusted monitoring:** a copy of the new model flags suspicious code. It catches more, but it may be on the new model's side. Costs more compute.
 - **Trusted editing:** the older model rewrites suspicious code. Slower, worse code.
-- **Older model writes:** the new model only points ou{==t bugs. Much==}{>>{"author":"Luc","timestamp":1793467114703}@@hi<<} slower, much worse code.
+- **Older model writes:** the new model only points out bugs. Much slower, much worse code.
 
-{>>{"author":"Luc","timestamp":1793467045603}@@I think more interesting questions would be... what would go into your decision-making process around which option to choose? And things that come to mind for me are... how expensive is the trusted monitoring? Like, how many percent... Of cost does this add? Another one that seems relevant to me is like, what, what is the capability level of this model?<<}1. Go around: which would you choose, and why? {>>{"author":"Luc","timestamp":1793467273874}@@hello<<}
+1. Go around: which would you choose, and why? 
 2. A competitor uses no checks and pulls ahead. Your investors want you to drop yours. Do you?
 3. What would make you switch to a safer setup, or a faster one?
 4. If you still have time: what could make the race less of a problem?
