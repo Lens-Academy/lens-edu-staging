@@ -86,7 +86,7 @@ How do you use it?
 - **Trusted editing:** the older model rewrites suspicious code. Slower, worse code.
 - **Older model writes:** the new model only points ou{==t bugs. Much==}{>>{"author":"Luc","timestamp":1793467114703}@@hi<<} slower, much worse code.
 
-{>>{"author":"Luc","timestamp":1793467045603}@@I think more interesting questions would be... what would go into your decision-making process around which option to choose? And things that come to mind for me are... how expensive is the trusted monitoring? Like, how many percent... Of cost does this add? Another one that seems relevant to me is like, what, what is the capability level of this model?<<}1. Go around: which would you choose, and why? {>>{"author":"Luc","timestamp":1793467910353}@@hello world<<}{>>{"author":"Luc","timestamp":1793467273874}@@hello<<}
+{>>{"author":"Luc","timestamp":1793467045603}@@I think more interesting questions would be... what would go into your decision-making process around which option to choose? And things that come to mind for me are... how expensive is the trusted monitoring? Like, how many percent... Of cost does this add? Another one that seems relevant to me is like, what, what is the capability level of this model?<<}1. Go around: which would you choose, and why? {>>{"author":"Luc","timestamp":1793467916282}@@tyring out<<}{>>{"author":"Luc","timestamp":1793467910353}@@hello world<<}{>>{"author":"Luc","timestamp":1793467273874}@@hello<<}
 2. A competitor uses no checks and pulls ahead. Your investors want you to drop yours. Do you?
 3. What would make you switch to a safer setup, or a faster one?
 4. If you still have time: what could make the race less of a problem?
