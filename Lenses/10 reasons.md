@@ -12,7 +12,7 @@ from:: 0:00
 to:: 15:37
 
 
-#### Tex
+#### Text
 
 content::
 Which objection stood out most to you?
