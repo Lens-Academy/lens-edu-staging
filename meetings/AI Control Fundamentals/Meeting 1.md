@@ -86,7 +86,7 @@ How do you use it?
 - **Trusted editing:** the older model rewrites suspicious code. Slower, worse code.
 - **Older model writes:** the new model only points out bugs. Much slower, much worse code.
 
-1. Go around: which would you choose, and why?
+1. Go around: which would you choose, and why? 
 2. A competitor uses no checks and pulls ahead. Your investors want you to drop yours. Do you?
 3. What would make you switch to a safer setup, or a faster one?
 4. If you still have time: what could make the race less of a problem?
