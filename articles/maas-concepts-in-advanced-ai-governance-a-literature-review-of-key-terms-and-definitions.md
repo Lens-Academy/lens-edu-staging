@@ -1225,6 +1225,10 @@ Also in this series:
 
 [^cite-181]: For analogous debates over the appropriate framing of the field focused on technical questions around AI, see previously: Christiano, Paul. ‘AI “Safety” vs “Control” vs “Alignment”’. Medium, 19 November 2016. https://ai-alignment.com/ai-safety-vs-control-vs-alignment-2a4b42a863cc. As well as more recently Cotra, Ajeya. ‘“Aligned” Shouldn’t Be a Synonym for “Good”’. Planned Obsolescence, 26 March 2023. https://www.planned-obsolescence.org/aligned-vs-good/.
 
+[^note-182]: For the specific definitions, see Appendix 2B.
+
+[^note-183]: Generally speaking, these two overlap but are not homologous. Long-term AI governance focuses on governing AI from a perspective that cares about improving the technology’s impacts on the future trajectory of society, from various ethical perspectives. Longtermist AI governance is a sub-school or special case, in that it has the same focus on improving AI technology’s impacts on the future but more specifically approaches these issues from a longtermist ethical perspective.
+
 [^cite-184]: For broader discussion, see also: Sundaram, Lalitha, Matthijs M. Maas, and S. J. Beard. ‘Seven Questions for Existential Risk Studies’, (2023 Forthcoming) Managing Extreme Technological Risk (ed. Catherine Rhodes). 25 May 2022. https://doi.org/10.2139/ssrn.4118618.
 
 [^note-185]: One version of this is for instance reflected in the 2023 “Statement on AI Risk” by the Center for AI Safety, which reads that “\[m\]itigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war.” Center for AI Safety. ‘Statement on AI Risk’, 30 May 2023. https://www.safe.ai/statement-on-ai-risk. See also Dafoe, Allan. ‘AI Governance: Opportunity and Theory of Impact’, 17 September 2020. https://www.allandafoe.com/opportunity. (“I believe advances in AI are likely to be among the most impactful global developments in the coming decades, and that AI governance will become among the most important global issue areas”).
