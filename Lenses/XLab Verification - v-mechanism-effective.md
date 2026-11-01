@@ -146,6 +146,6 @@ feedback-instructions:: Evading state: satellite imagery, power-draw monitoring,
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-XLab. "2.0 What makes a verification mechanism effective?" *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/mechanism-effective)
+XLab. "2.0 What Makes a Verification Mechanism Effective?" *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/mechanism-effective)
 *The source lesson this page adapts, including the mechanism-sort and evidence-taxonomies widgets.*
 :::

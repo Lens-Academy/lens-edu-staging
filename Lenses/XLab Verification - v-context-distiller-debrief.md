@@ -186,6 +186,6 @@ optional:: true
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-XLab. "1.3.1 Context distiller." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/context-distiller)
+XLab. "1.3.1 Context Distiller." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/context-distiller)
 *The source lesson this page adapts, including the Distiller's four reports and their keys.*
 :::
