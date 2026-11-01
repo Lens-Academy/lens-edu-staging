@@ -422,6 +422,7 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 | 3. Update every figure that repeats them | `done` 2026-11-01: the course file's note gives the new unit totals and what the optional lenses add; the first module of each unit gives its unit's figures; all eleven unit module notes say "Unit N of Compute Verification 1" instead of "Week N". The meeting docs' figures and previews are stage 9, step 4 |
 
 ### Stage 9, meeting docs
+
 **Paused, 2026-11-01 (Andreas):** briefly, since this stage is likely to depend on the meeting doc text review, which Andreas is resolving first.
 
 | Step | Status |
