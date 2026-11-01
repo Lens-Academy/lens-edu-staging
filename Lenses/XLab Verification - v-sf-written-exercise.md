@@ -5,7 +5,7 @@ tldr: "Pick one element of the advanced-AI supply chain and map who the actors a
 summary_for_tutor: "Optional written exercise that closes Strategic Foundations: an actor, authority, and evidence map for one element of the advanced-AI supply chain, drawing on whichever reading pathway is most relevant. Grade against the assessment instructions on the question."
 tags: [wip]
 reading_minutes: 1
-tutor_minutes: 4
+tutor_minutes: 15
 ---
 #### Text
 content::

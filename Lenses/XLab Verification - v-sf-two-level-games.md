@@ -4,7 +4,7 @@ title: "The Logic of Two-Level Games"
 tldr: "Diplomacy as a two-level game: a government bargains with other states while it has to get the deal ratified at home, and the size of each side's win-set decides which agreements are possible at all."
 summary_for_tutor: "Optional reading in Strategic Foundations, in the international bargaining and domestic implementation pathway, reached from the additional readings page: the two-level games section of Robert D. Putnam's Diplomacy and Domestic Politics: The Logic of Two-Level Games (1988), which introduces win-sets, the set of agreements that would be ratified at home. A smaller win-set can strengthen a negotiator's hand, until the win-sets stop overlapping and no agreement is possible. The page has no questions."
 tags: [wip]
-reading_minutes: 29
+reading_minutes: 20
 tutor_minutes: 0
 ---
 #### Text
