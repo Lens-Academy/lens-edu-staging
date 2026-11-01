@@ -1,9 +1,10 @@
 ---
 title: "Announcing Apollo Research"
 author:
-  - "Apolloresearch"
+  - {--{"author":"Hamza's AI","timestamp":1793551782219}@@"Apolloresearch"--}{++{"author":"Hamza's AI","timestamp":1793551782219}@@"Apollo Research"
+allowAuthorInTitle: true++}
 source_url: "https://apolloresearch.ai/blog/announcing-apollo-research"
-published: 2026-11-01
+published: {--{"author":"Hamza's AI","timestamp":1793551782219}@@2026-11-01--}{++{"author":"Hamza's AI","timestamp":1793551782219}@@2023-05-29++}
 created: 2026-11-01
 accessed: 2026-11-01
 llm-review:
