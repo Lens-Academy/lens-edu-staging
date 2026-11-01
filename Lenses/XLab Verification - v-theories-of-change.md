@@ -4,7 +4,7 @@ title: "We Need More Theories of Change"
 tldr: "Congress canceled an $11B collider because nobody could articulate why it mattered. A theory of change is the chain of if-then claims from what you do to what changes in the world. If you cannot state it, then neither can the people deciding whether to fund or act on your work."
 summary_for_tutor: "Adapted from the source lesson. Preserve its framing. The optional exercise is an interactive widget: the learner names a real AI safety organization, fills its eight-box theory-of-change chain (inputs, outputs, outcomes, assumptions, external factors) and presses Get feedback, which submits the chain and requests written feedback from you; check outputs vs outcomes and if-then links."
 tags: [wip]
-reading_minutes: 7
+reading_minutes: 20
 tutor_minutes: 4
 ---
 #### Text
