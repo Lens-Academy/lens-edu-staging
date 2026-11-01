@@ -2,7 +2,7 @@
 id: '19c1e045-e6d1-4982-b7e6-d2f26bd54a74'
 title: "Monitoring and Verification in Arms Control"
 tldr: "A practical primer on how monitoring and verification regimes work: treaty obligations, technical collection, inspections, confidence building, analysis, and the political judgment at the end of it."
-summary_for_tutor: "Optional reading in Strategic foundations, in the detection, attribution, and response pathway, reached from the additional readings page: Amy F. Woolf's Congressional Research Service report Monitoring and Verification in Arms Control (2011), from the introduction to its assessment of New START's verification regime. It covers treaty obligations, technical collection, inspections, confidence building, analysis and political judgment. The longest of the optional readings. The page has no questions."
+summary_for_tutor: "Optional reading in Strategic Foundations, in the detection, attribution, and response pathway, reached from the additional readings page: Amy F. Woolf's Congressional Research Service report Monitoring and Verification in Arms Control (2011), from the introduction to its assessment of New START's verification regime. It covers treaty obligations, technical collection, inspections, confidence building, analysis and political judgment. The longest of the optional readings. The page has no questions."
 tags: [wip]
 reading_minutes: 100
 tutor_minutes: 0
