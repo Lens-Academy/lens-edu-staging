@@ -1,7 +1,7 @@
 ---
 id: '09a7eac4-804e-4f65-8def-26369298fe4f'
 slug: xlab-verification-p1-w1-building-intuitions
-title: "Building verification intuitions"
+title: "Building Verification Intuitions"
 tags: [wip]
 ---
 %% Week 1 of Compute Verification, Part 1. %%
