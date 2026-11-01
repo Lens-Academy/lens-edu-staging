@@ -47,7 +47,41 @@ As such, this report reviews definitions for four categories of terms: the _obje
 
 The terms are summarized below in Table 1. Appendices provide detailed lists of definitions and sources for all the terms covered as well as a list of definitions for nine other auxiliary terms within the field.
 
-[Table 1 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/YwgX4/2/)
+{--{"author":"Hamza's AI","timestamp":1793553090378}@@[Table 1 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/YwgX4/2/)--}{++{"author":"Hamza's AI","timestamp":1793553090378}@@**Table 1: Taxonomy of surveyed terms**
+
+| Category |  | Surveyed terms |
+| --- | --- | --- |
+| Form of advanced AI<br>(essence-based definitions) | Mind-like | Strong AI |
+|  | Autonomous | Autonomous machine/artificial intelligence<br>General artificial intelligence |
+|  | Human-like | Human-level AI (HLAI) |
+|  | General-purpose | Foundation models<br>General-purpose AI systems (GPAIS)<br>Comprehensive AI services (CAIS) |
+|  | General-purpose and human-level performance | Artificial general intelligence (AGI) \[task performance definition\]<br>Robust artificial intelligence |
+|  | General-purpose and beyond-human performance | AI+<br>(Artificial) superintelligence (ASI)<br>Superhuman general-purpose AI (SGPAI)<br>Highly-capable foundation models |
+| Pathways towards advanced AI<br>(development-based definitions) | First-principles | De novo AGI |
+|  | Scaling | Prosaic AGI<br>Frontier (AI) model \[compute-threshold definition\] |
+|  | Evolutionary | \[AGI\] from evolution |
+|  | Reward-based | \[AGI\] from powerful reinforcement learning agents<br>Powerful deep learning models |
+|  | Bootstrapping | Seed AI |
+|  | Neuro-inspired | NeuroAI<br>Brain-like AGI<br>Neuromorphic AGI |
+|  | Neuro-emulated | Whole-brain-emulation (WBE)<br>Digital people \[emulation definition\] |
+|  | Neuro-integrationist | Brain-computer interfaces (BCI) |
+|  | Embodiment | Embodied agent |
+|  | Modular cognitive architecture | (N/A) |
+|  | Hybrid | Hybrid AI |
+| Overall societal impacts of advanced AI<br>(sociotechnical-change-based definitions) |  | (Strategic) general-purpose technology (GPT)<br>General-purpose military transformation (GMT)<br>Transformative AI (TAI)<br>Radically transformative AI (RTAI)<br>AGI \[economic competitiveness definition\]<br>Machine superintelligence \[form & impact definition\] |
+| Critical capabilities of advanced AI<br>(risk-based definitions) | Moral and philosophical | Artificial/Machine consciousness<br>Digital minds<br>Digital people \[capability definition\]<br>Sentient artificial intelligence<br>Robot rights catastrophe<br>(Negative) synthetic phenomenology<br>Suffering risks<br>Adversarial technological maturity |
+|  | Economic | High-level machine intelligence (HLMI)<br>Tech company singularity / fully general tech company<br>Artificial capable intelligence (ACI) |
+|  | Legal | Advanced artificial judicial intelligence (AAJI)<br>Technological-legal lock-in<br>Legal singularity |
+|  | Scientific | Process-automating science and technology (PASTA)<br>Scientist model |
+|  | Strategic and military | Decisive strategic advantage (DSA)<br>Singleton |
+|  | Political | Stable (digital) totalitarianism<br>Value lock-in<br>Actually existing AI (AEAI) |
+|  | Exponential | Intelligence explosion<br>Autonomous replication in the real world<br>Autonomous AI research<br>Duplicator |
+|  | Hazardous | Advanced AI<br>High-risk AI system<br>AI system of concern<br>Prepotent AI<br>APS system / Power-seeking AI<br>WIDGET<br>Rogue AI<br>Frontier (AI) model \[relative-capabilities-threshold definition\]<br>Frontier (AI) model \[dangerous-capabilities-threshold definition\]<br>Highly-capable systems of concern. |
+| Tools for intervention | Strategy | AI strategy research<br>AI strategy<br>Long-term impact strategies<br>AI macrostrategy |
+|  | Policy | AI policy<br>AI policymaking strategy |
+|  | Governance | AI governance<br>Collaborative governance of AI technology<br>AGI safety and governance practices |
+| Field (i.e., schools or paradigms of advanced AI governance) |  | (Advanced) AI governance<br>Transformative AI governance<br>Long-term AI governance<br>Longtermist AI governance |
+| Theories of change (i.e., praxis) |  | (Analytic) frame<br>Theory of impact<br>Path to impact<br>Theory of change<br>Theory of victory |++}
 
 ## Introduction ^introduction
 
