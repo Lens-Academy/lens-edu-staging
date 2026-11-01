@@ -7,10 +7,10 @@ tags:
 ---
 %% Feedback module after Unit 4 of Compute Verification 1, same pattern as the AI Control courses (Elias, 2026-10-04): a separate module so it comes after the unit's learning-outcome tests and before the meeting, and so self-study learners, who never get the post-meeting survey, can give feedback too. Rating scales are the post-meeting survey's 1-10 scales and labels; the content and AI Tutor ratings moved here from the meeting surveys. Questions are required except the "anything else" ones, and the page does not say they are optional. Answers land in question_responses (no staff view yet; query by these segment ids). %%
 
-# Lens: Your feedback on Unit 4
+# Lens: Your Feedback on Unit 4
 id:: e92b2c7b-dc3d-4dea-adf0-b69546747102
 tldr:: Tell us how Unit 4 went, so we can improve it.
-summary_for_tutor:: Feedback page after Unit 4 (Evidence and its readers) of Compute Verification 1. The learner rates the unit's content and the AI Tutor, and says what one thing they would change about the unit. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
+summary_for_tutor:: Feedback page after Unit 4 (Evidence and Its Readers) of Compute Verification 1. The learner rates the unit's content and the AI Tutor, and says what one thing they would change about the unit. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.
 reading_minutes:: 2
 tutor_minutes:: 0
 #### Text
