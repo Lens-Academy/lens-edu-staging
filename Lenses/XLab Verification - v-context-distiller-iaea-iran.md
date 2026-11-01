@@ -9,7 +9,7 @@ tutor_minutes: 0
 ---
 #### Text
 content::
-\### IAEA safeguards report on Iran
+\### IAEA Safeguards Report on Iran
 
 #### Article
 source:: [[../articles/iaea-implementation-of-the-npt-safeguards-agreement-and-relevant-provisions-of-the-united-nations-security-council-resolutions-in-the-islamic-republic-of-iran]]
