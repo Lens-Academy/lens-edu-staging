@@ -96,7 +96,15 @@ A theory of change for a change effort in undergraduate STEM education can bette
 
 Although there are many ways that research and theory can contribute to a change effort, we focus on five that we argue are a useful guiding framework for grounding a theory of change in existing scholarly work. For each category, we give two examples of change research and theory to illustrate how they can inform the development of a theory of change ([[#^table-2|Table 2]]). The change theories and research we have used to illustrate each category do not represent endorsements of the utility or value of these particular theories, nor a negative evaluation of theories not mentioned. Given the complexity of real change scenarios, efforts can benefit from drawing on multiple change theories and diverse research areas (Kezar & Holcombe, 2019). A single change theory can contribute to multiple aspects of a theory of change, or it can only contribute to one. Similarly, a project may draw from multiple change theories to inform each part of a theory of change. Each project is unique, which means that existing research and theory must be adapted to the specific initiative. Once a theory of change is created using an amalgam of prior work, it will represent a synthesis of change theory and research that is relevant and unique to a given project.
 
-**Table 2 Components of a theory of change and examples of change theory and research that could inform them** ([Full size table](https://link.springer.com/article/10.1186/s40594-020-0202-3/tables/2)) ^table-2
+**Table 2 Components of a theory of change and examples of change theory and research that could inform them** {--{"author":"Hamza's AI","timestamp":1793552106134}@@([Full size table](https://link.springer.com/article/10.1186/s40594-020-0202-3/tables/2)) ^table-2--}{++{"author":"Hamza's AI","timestamp":1793552106134}@@^table-2
+
+| Component of theory of change | Description | Examples of change theory and research |
+| --- | --- | --- |
+| Context | Identifying, describing, and relating parts of a system | Teacher-Centered Systemic Reform<br>Four Frames |
+| Outcomes, Preconditions, Rationales | What is to be achieved, what intermediate steps are required, and why | 4I Framework<br>Theory of Planned Behavior |
+| Indicators | Measurements of outcomes and preconditions to determine if they are being achieved | Social Network Analysis<br>Analysis of STEM Teaching Practices |
+| Interventions | Activities required to achieve a particular outcome | River Model<br>Departmental Action Teams |
+| Assumptions | Implicit knowledge about the context and how change works | Appreciative Inquiry<br>Community Cultural Wealth |++}
 
 ### Context ^context
 
