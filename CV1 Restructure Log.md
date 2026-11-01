@@ -617,4 +617,5 @@ Items that came up in this work but are not part of it. Nothing here blocks the 
 
 - **Choice groups inside submodules are not counted** (found 2026-10-23): a submodule's time leaves the group out. Andreas will ask for it; probably not before the deadline.
 - **A choice group's progress overflows** (found 2026-10-23): a learner who finishes every option sees 2/1. Minor.
+- **No dark mode on the main pages yet** (noted 2026-10-31). The two actor maps on "Actors" (A47) are drawn in fixed light colors on a white background, because an image cannot take the page's text color. If dark mode arrives, they need a dark version or colors that follow the theme. Andreas is noting it as a limitation too.
 - **A widget segment cannot be told which option to open** (found 2026-10-24). Segments take only `height::` and `required::`. The Context Distiller's report pages each embedded the same widget, which opens on its own picker or on the report last worked, so each page had to tell the learner which report to pick. Since A24 the widget sits once, on the page after the reports, so this matters less; a preset would still let a page open the widget on its own report.
