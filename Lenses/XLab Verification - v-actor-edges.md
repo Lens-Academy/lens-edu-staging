@@ -26,7 +26,7 @@ holding the whole regime up.
 
 #### Text
 content::
-\## Who can prove what
+\## Who Can Prove What
 
 **The brief.** Same agreement, same board: no training runs above a compute threshold for three months. The actors page asked what part each actor plays in a declaration. This asks what a verifier could actually do with them: who can produce evidence about whom, and which of the four things a verifier has to establish that evidence would settle.
 
