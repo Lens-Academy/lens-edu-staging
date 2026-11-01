@@ -12,9 +12,6 @@ source:: [[../Learning Outcomes/Why a pause needs verification]]
 # Learning Outcome:
 source:: [[../Learning Outcomes/The invisibility of prevented catastrophes]]
 
-# Lens:
-source:: [[../Lenses/XLab Verification - v-welcome]]
-
 # Lens: Welcome to Unit 1
 id:: b3e84c72-de48-4279-95c7-69d2b5f44e2a
 tldr:: What you will learn in Unit 1: why verification.
