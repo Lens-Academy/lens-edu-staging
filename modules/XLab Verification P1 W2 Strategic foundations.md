@@ -1,7 +1,7 @@
 ---
 id: '9ab936ea-6759-4c54-85c0-3f546bed21f7'
 slug: xlab-verification-p1-w2-strategic-foundations
-title: "Strategic foundations"
+title: "Strategic Foundations"
 tags: [wip]
 ---
 %% Week 2 of Compute Verification, Part 1. The opening page and the two game theory primers are required (decision A18 in the CV1 restructure log, 2026-10-23); the other readings are optional, reached from the additional readings page, and the written exercise stays optional. Primer Practice moved here from unit 1 on 2026-10-27 (Q20 in the log) and is required. %%
