@@ -8,8 +8,8 @@ tags: [wip]
 
 # Lens: Welcome to Unit 3
 id:: 8873611c-2bde-4c38-910a-fa1bf6446d3a
-tldr:: What you will learn in Unit 3: treaty anatomy and actors.
-summary_for_tutor:: Short opening page of Unit 3 (Treaty anatomy and actors) of Compute Verification 1. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
+tldr:: What you will learn in Unit 3: Treaty Anatomy and Actors.
+summary_for_tutor:: Short opening page of Unit 3 (Treaty Anatomy and Actors) of Compute Verification 1. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
 reading_minutes:: 1
 tutor_minutes:: 0
 #### Text

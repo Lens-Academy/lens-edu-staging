@@ -8,8 +8,8 @@ tags: [wip]
 
 # Lens: Welcome to Unit 4
 id:: 2ff9694c-55d6-42c0-bfa6-e39fb93bd8ad
-tldr:: What you will learn in Unit 4: evidence and its readers.
-summary_for_tutor:: Short opening page of Unit 4 (Evidence and its readers) of Compute Verification 1. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
+tldr:: What you will learn in Unit 4: Evidence and Its Readers.
+summary_for_tutor:: Short opening page of Unit 4 (Evidence and Its Readers) of Compute Verification 1. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
 reading_minutes:: 1
 tutor_minutes:: 0
 #### Text
