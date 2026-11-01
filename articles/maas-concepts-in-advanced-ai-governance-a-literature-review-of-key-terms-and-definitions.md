@@ -392,7 +392,18 @@ What are these critical capabilities?[^cite-161] In some existing taxonomies, cr
 
 **Definitions and themes:** As noted, many of these terms have different definitions (see Appendix 1D). Nonetheless, a range of common themes and patterns can be distilled (see Table 6).
 
-[Table 6 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/4jOa3/1/)
+{--{"author":"Hamza's AI","timestamp":1793553161684}@@[Table 6 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/4jOa3/1/)--}{++{"author":"Hamza's AI","timestamp":1793553161684}@@**Table 6: Critical capability-focused definitions of advanced AI**
+
+| Domain | Terms for critical capabilities<br>\[# of definitions surveyed\][^note-167] | Selected themes and patterns |
+| --- | --- | --- |
+| Moral and/or philosophical capabilities | Artificial/machine consciousness \[2\]<br>Digital minds \[1\]<br>Digital people \[capability definition\] \[1\]<br>Sentient artificial intelligence \[1\]<br>Robot rights catastrophe \[1\]<br>(Negative) synthetic phenomenology \[1\]<br>Suffering risks \[1\]<br>Adversarial technological maturity \[2\] | Systems that achieve morally relevant properties<br>Resulting risks of a moral crisis or catastrophe, either by default or if protections are under- or overextended |
+| Economic capabilities | High-level machine intelligence (HLMI) \[3\]<br>Tech company singularity \[1\]<br>Artificial capable intelligence (ACI) \[2\] | Systems that achieve capabilities sufficient to become economically competitive at diverse tasks, either at the level of individual workers or at the level of companies<br>Risks of massive economic displacement |
+| Legal capabilities | Advanced artificial judicial intelligence (AAJI) \[1\]<br>Technological-legal lock-in \[1\]<br>Legal singularity \[1\] | Systems that achieve key performance in legal or judicial decision-making<br>Risks of legal stagnation and loss of judicial legitimacy |
+| Scientific capabilities | Process-automating science and technology (PASTA) \[1\]<br>Scientist model \[1\] | Systems that achieve key scientific research capabilities<br>Risks of sped-up development of potentially hazardous technologies |
+| Strategic or military capabilities | “Decisive strategic advantage” \[1\]<br>“Singleton” \[1\] | Systems that achieve key strategic decision-making competences<br>Risks of geopolitical destabilization |
+| Political capabilities | Stable totalitarianism \[1\]<br>Value lock-in \[2\]<br>Actually existing AI (AEAI) \[1\] | Systems that achieve capabilities that enable effective surveillance, propaganda, or other social control<br>Risks of domination of society by narrow interests |
+| Exponential capabilities | Intelligence explosion \[2\]<br>Autonomous replication in the real world \[1\]<br>Autonomous AI research \[1\]<br>Duplicator \[1\] | Systems that achieve key (self)-improvement or -replication capabilities<br>Risks of sudden amplification of AI systems’ activities and impacts |
+| (Extremely) hazardous capabilities[^note-168] | “Advanced AI” \[2\]<br>“High-risk AI system” \[3\]<br>“AI systems of concern” \[1\]<br>Prepotent AI \[1\]<br>APS systems (“power-seeking AI”) \[1\]<br>WIDGET \[1\]<br>Rogue AI” \[2\]<br>Runaway AI \[1\]<br>Frontier (AI) model \[relative-capabilities threshold\] \[2\]<br>Frontier (AI) model \[dangerous-capabilities threshold\] \[2\]<br>Highly-capable systems of concern \[1\] | Systems that achieve key capabilities in various domains<br>Risks of massive physical and societal-scale harms |++}
 
 **Suitability of approach:** There are a range of benefits and drawbacks to defining advanced AI systems by their (critical) capabilities. These include (in no particular order):
 
@@ -426,7 +437,13 @@ Beyond the object of concern of “advanced AI” (in all its diverse forms), re
 
 First off, those writing about the risks and regulation of AI have proposed a range of terms in describing the tools, practices, or nature of governance interventions that could be used in response (see Table 7).
 
-[Table 7 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/iajvn/1/)
+{--{"author":"Hamza's AI","timestamp":1793553165969}@@[Table 7 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/iajvn/1/)--}{++{"author":"Hamza's AI","timestamp":1793553165969}@@**Table 7: Definitions of AI strategy, policy, governance**
+
+| Class | Terms \[number of definitions surveyed\][^note-179] | Themes |
+| --- | --- | --- |
+| “Strategy” | AI strategy research \[1\]<br>AI strategy \[1\]<br>Long-term impact strategies \[1\]<br>Strategy \[1\]<br>AI macrostrategy \[1\] | Focus on big-picture strategic questions to “navigate the transition to a world with advanced AI systems”<br>Focus on high-level questions to help inform decisions and prioritize use of resources |
+| “Policy” | AI policy \[1\]<br>AI policymaking strategy \[1\] | Focus on a range of soft and hard governance measures and tools<br>Organize a research field to inform and shape AI in a responsible, ethical, and robust manner |
+| “Governance” | AI governance \[5\]<br>Collaborative governance of AI technology \[1\]<br>AGI safety and governance practices \[1\] | The study of norms, policies, and institutions to help shape social outcomes from AI systems. |++}
 
 Like the term “advanced AI”, these terms set out _objects of study_ in scoping the practices or tools of AI governance. They matter insofar as they link these terms to tools for intervention.
 
