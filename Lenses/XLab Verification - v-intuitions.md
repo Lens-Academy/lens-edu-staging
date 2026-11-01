@@ -30,7 +30,7 @@ For its dates, percentages, and recommendations, ask:
 Use logic and evidence to support your judgment.
 Then choose an essay option (optional):
 
-- **Option A:** [[../Lenses/XLab Verification - v-intuitions-a1|Stress-test Plan A]]. Assess whether its verification regime would work and where it could fail.
+- **Option A:** [[../Lenses/XLab Verification - v-intuitions-a1|Stress-Test Plan A]]. Assess whether its verification regime would work and where it could fail.
 - **Option B:** [[../Lenses/XLab Verification - v-intuitions-b1|Compare Plan A and Plan S]]. Read about Plan S, then weigh a verified slowdown against a complete shutdown.
 
 In either option, four short responses help you develop your argument for the final essay.
