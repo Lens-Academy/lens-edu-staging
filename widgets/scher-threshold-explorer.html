@@ -370,7 +370,7 @@ tags: [wip]
       var b = bandOf(m.flop);
       if (b === 2) above++; else if (b === 1) between++; else below++;
     });
-    el.counts.textContent = above + " of " + MODELS.length + " labelled models sit above your Strict Threshold and would be prohibited, " + between + " fall between the two and would be monitored, " + below + " sit below the Monitored Threshold.";
+    el.counts.textContent = above + " of " + MODELS.length + " labeled models sit above your Strict Threshold and would be prohibited, " + between + " fall between the two and would be monitored, " + below + " sit below the Monitored Threshold.";
     svg.setAttribute("aria-label", "Training compute of eleven notable models on a log scale. " + above + " above the Strict Threshold, " + between + " between the thresholds, " + below + " below the Monitored Threshold.");
   }
 
