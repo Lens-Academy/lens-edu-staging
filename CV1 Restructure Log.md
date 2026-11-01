@@ -400,7 +400,7 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 | Step | Status |
 |---|---|
 | 1. Measure again | `todo`, after stages 3 to 7 |
-| 2. Re-estimate changed lenses, starting with section 6's remaining misses | `todo` |
+| 2. Re-estimate changed lenses, starting with section 6's remaining misses | `todo`. Already changed by A52 (2026-10-31): "About This Course" is set to 6 reading minutes (was 3; about 950 words with the welcome text), unit 1 loses the welcome's 5 minutes (3 reading, 2 tutor), and the course total drops by the 2 tutor minutes of the dropped question |
 | 3. Update every figure that repeats them | `todo` |
 
 ### Stage 9, meeting docs
@@ -411,7 +411,7 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 | 2. Meeting 3: the missing break before Room 3 | `todo` |
 | 3. Meeting 1: split the Room 4 navigator note | `todo`. Recheck first: the new buddy setup section may already cover it |
 | 4. Time figures and next-unit previews from stage 8 | `todo`. Possibly what Elias means by "announcement" (Q10) |
-| 5. Stages 6 and 7 applied to the docs | `todo`. Participant wording belongs to the meeting doc text review; coordinate rather than duplicate |
+| 5. Stages 6 and 7 applied to the docs | `todo`. Participant wording belongs to the meeting doc text review; coordinate rather than duplicate. Title case (A51): the five docs quote 23 module, lens and unit names in their old casing (meeting 1: 6, meeting 2: 6, meeting 3: 4, meeting 4: 6, meeting 5: 1), and meeting 1 no longer has a welcome page to point to (A52) |
 | 6. The three agent checks on all five docs | `todo`, last |
 
 ### Stage 10, test on staging
