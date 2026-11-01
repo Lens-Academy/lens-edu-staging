@@ -131,6 +131,6 @@ Birkholz, Henk, et al. "Remote ATtestation ProcedureS (RATS) Architecture." *RFC
 NVIDIA Corporation. "Architecture Overview." *NVIDIA Attestation Suite Documentation*, NVIDIA. [docs.nvidia.com](https://docs.nvidia.com/attestation/quick-start-guide/latest/architecture.html)
 *NVIDIA's documentation of its attestation architecture: how clients, cloud services, and GPU hardware form a verifiable chain of trust.*
 
-XLab. "2.1.2 From a chip to a trusted statement." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-trusted-statement)
+XLab. "2.1.2 From a Chip to a Trusted Statement." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-trusted-statement)
 *The source lesson this page adapts. The Blackwell and Hopper multi-GPU attestation examples are cited inline above.*
 :::
