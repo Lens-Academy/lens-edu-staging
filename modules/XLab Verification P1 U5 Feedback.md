@@ -59,7 +59,7 @@ content:: Anything else you want to share?
 placeholder:: For example: what was most useful, or what was confusing, too long, or not worth your time.
 optional:: true
 
-# Lens: Your feedback on Compute Verification 1
+# Lens: Your Feedback on Compute Verification 1
 id:: ad47c0fc-cd6a-4399-b82f-827549697891
 tldr:: Looking back over all five units, tell us what worked and what to change.
 summary_for_tutor:: Whole-course feedback page at the end of Compute Verification 1. The learner rates the course, and says what one thing they would change about the course. The answers are for the course team. Do not grade them or argue with them; if the learner asks for help, help them put their own view into words.

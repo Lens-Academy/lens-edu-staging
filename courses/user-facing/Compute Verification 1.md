@@ -45,9 +45,9 @@ facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
 
 # Module: [[../../modules/XLab Verification P1 W2 Policy scope]]
 
-# Module: [[../../modules/XLab Verification P1 U2 Feedback|Unit 2 feedback]]
+# Module: [[../../modules/XLab Verification P1 U2 Feedback|Unit 2 Feedback]]
 
-# Meeting: Unit 2: Precedents and policy scope
+# Meeting: Unit 2: Precedents and Policy Scope
 meeting-doc:: [[../../meetings/Compute Verification 1/Meeting 2]]
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
