@@ -1,8 +1,9 @@
 ---
 title: "AMA: Paul Christiano, alignment researcher"
 author:
-  - "paulfchristiano"
-source_url: "https://www.lesswrong.com/posts/7qhtuQLCCvmwCPfXK/ama-paul-christiano-alignment-researcher?utm_source=chatgpt.com"
+  - {--{"author":"Hamza's AI","timestamp":1793552499434}@@"paulfchristiano"--}{++{"author":"Hamza's AI","timestamp":1793552499434}@@"Paul Christiano"
+allowAuthorInTitle: true++}
+source_url: {--{"author":"Hamza's AI","timestamp":1793552499434}@@"https://www.lesswrong.com/posts/7qhtuQLCCvmwCPfXK/ama-paul-christiano-alignment-researcher?utm_source=chatgpt.com"--}{++{"author":"Hamza's AI","timestamp":1793552499434}@@"https://www.lesswrong.com/posts/7qhtuQLCCvmwCPfXK/ama-paul-christiano-alignment-researcher"++}
 published: 2021-04-28
 created: 2026-11-01
 accessed: 2026-11-01

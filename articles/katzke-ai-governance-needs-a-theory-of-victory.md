@@ -26,9 +26,9 @@ Add discussion note here:
 
 %%
 
-[Link post](https://www.convergenceanalysis.org/publications/ai-governance-needs-a-theory-of-victory)
+{--{"author":"Hamza's AI","timestamp":1793552496929}@@[Link post](https://www.convergenceanalysis.org/publications/ai-governance-needs-a-theory-of-victory)
 
-_This post is part of a series by_ [_Convergence Analysis_](https://www.convergenceanalysis.org/)_. An earlier post introduced_ [_scenario planning_](https://forum.effectivealtruism.org/posts/tCq2fi6vhSsCDA5Js/scenario-planning-for-ai-x-risk) _for AI risk. In this post, we argue for the importance of a related concept: theories of victory._
+--}_This post is part of a series by_ [_Convergence Analysis_](https://www.convergenceanalysis.org/)_. An earlier post introduced_ [_scenario planning_](https://forum.effectivealtruism.org/posts/tCq2fi6vhSsCDA5Js/scenario-planning-for-ai-x-risk) _for AI risk. In this post, we argue for the importance of a related concept: theories of victory._
 
 > _In order to improve your game you must study the endgame before everything else; for, whereas the endings can be studied and mastered by themselves, the middlegame and the opening must be studied in relation to the endgame.” — José Raúl Capablanca, Last Lectures, 1966_
 
