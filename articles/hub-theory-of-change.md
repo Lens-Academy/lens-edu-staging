@@ -27,7 +27,7 @@ Add discussion note here:
 
 ## Building the knowledge, networks, and capability for safe and responsible AI in Hong Kong ^building-the-knowledge-networks
 
-![Hong Kong Skyline](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/hub-theory-of-change-img1-7aff2e7f.jpg)
+![Hong Kong Skyline]({--{"author":"Hamza's AI","timestamp":1793552316675}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/hub-theory-of-change-img1-7aff2e7f.jpg--}{++{"author":"Hamza's AI","timestamp":1793552316675}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/hub-theory-of-change-skyline-917d117f.jpg++})
 
 ## The Problem ^the-problem
 
@@ -71,3 +71,9 @@ Build Community: We are developing a trusted, cross-sector network of people wor
 ## Get Involved ^get-involved
 
 Whether you are just starting to explore AI safety or actively working on it, there is a place for you here.
+
+- Subscribe: practical AI safety insights for Hong Kong
+- Attend: join our events and discussions
+- Partner: collaborate on training, research, or initiatives
+
+[Explore what we do](https://www.hkaisafetyhub.org/what-we-do)
