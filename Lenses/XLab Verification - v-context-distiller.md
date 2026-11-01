@@ -71,7 +71,7 @@ The reports: [Anthropic system cards](https://www.anthropic.com/system-cards) (t
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-XLab. "1.3.1 Context distiller." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/context-distiller)
+XLab. "1.3.1 Context Distiller." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/context-distiller)
 *The source lesson this page adapts, including the Distiller's four reports and their keys.*
 
 The four reports (Anthropic model cards, the AISI Frontier AI Trends Report, IAEA GOV/2026/8, the BIS Seagate order) are linked inline above and have no entry in XLab's citation registry.
