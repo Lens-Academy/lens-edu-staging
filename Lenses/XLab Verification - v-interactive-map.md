@@ -76,5 +76,5 @@ Sharma, Yashvardhan. *Chip Supply Chain: How AI Chips Are Made*. Updated 25 Oct.
 XLab. "1.2.1 Geographic Supply-Chain Map." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/interactive-map)
 *The source lesson this page adapts, including the map data reproduced above.*
 
-ETO's Chip Explorer is linked inline above and has no entry in XLab's citation registry.
+ETO's Chip Explorer is linked inline above.
 :::

@@ -330,5 +330,5 @@ Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agr
 XLab. "1.2 Actors: Who Does the Treaty Rely Upon, Apply to, and Constrain?" *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-actors)
 *The source lesson this page adapts, including the five tables and the Actor Map Workshop.*
 
-The SB 53 bill text, the SB 53 reference site, METR's guide, the Future of Privacy Forum and White & Case summaries, the UN panel and Global Dialogue pages, and NIST CAISI are cited inline in Notes and sources and have no entry in XLab's citation registry.
+The SB 53 bill text, the SB 53 reference site, METR's guide, the Future of Privacy Forum and White & Case summaries, the UN panel and Global Dialogue pages, and NIST CAISI are cited inline in Notes and sources.
 :::
