@@ -1265,9 +1265,7 @@ Also in this series:
 
 [^note-196]: This has similarities and overlap to the concept of an “(analytical) frame” in: Stein-Perlman, Zach. ‘Framing AI Strategy’. AI Impacts, 6 February 2023. https://aiimpacts.org/framing-ai-strategy/. However it is more action-oriented.
 
-{++{"author":"Hamza's AI","timestamp":1793553268691}@@[^cite-197]: See for example: Hendrycks, Dan, and Mantas Mazeika. ‘X-Risk Analysis for AI Research’. arXiv, 21 July 2022. http://arxiv.org/abs/2206.05862. Pg. 36 (“we use the term “strong AI.” We use this term synonymously with “AGI” and “human-level AI.”).
-
-++}[^cite-198]: Searle, John R. ‘Minds, Brains, and Programs’. Behavioral and Brain Sciences 3, no. 3 (September 1980): 417–24. https://doi.org/10.1017/S0140525X00005756. Pg. 417.
+[^cite-198]: Searle, John R. ‘Minds, Brains, and Programs’. Behavioral and Brain Sciences 3, no. 3 (September 1980): 417–24. https://doi.org/10.1017/S0140525X00005756. Pg. 417.
 
 [^cite-199]: Russell, Stuart, and Peter Norvig. Artificial Intelligence: A Modern Approach. 3rd ed. Upper Saddle River: Pearson, 2016. Pg. 1020.
 
