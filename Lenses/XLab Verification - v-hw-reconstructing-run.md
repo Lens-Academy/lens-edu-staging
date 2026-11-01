@@ -67,6 +67,6 @@ content::
 Peigné, Pierre, Ky Nguyen, and Paul Wang. "Zero knowledge verification for frontier AI training is possible." *arXiv*, June 2026. [arxiv.org](https://arxiv.org/abs/2606.05433)
 *The 2026 proposal estimating a future ZK system could verify dense frontier training at roughly 2–10 percent overhead, while naming thirteen unresolved technical problems and the training architectures it does not yet cover.*
 
-XLab. "2.1.7 Reconstructing a declared training run." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-reconstructing-run)
+XLab. "2.1.7 Reconstructing a Declared Training Run." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-reconstructing-run)
 *The source lesson this page adapts. Shavit (2023), Jia et al. (2021), Zhang et al. (2022), Fang et al. (2023) and Choi, Shavit and Duvenaud (2023) are cited inline above.*
 :::
