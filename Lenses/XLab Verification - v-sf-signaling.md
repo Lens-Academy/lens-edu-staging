@@ -2,7 +2,7 @@
 id: '30a6f319-a821-4bd1-8dca-bb5cbb5cb8dc'
 title: "Signaling Foreign Policy Interests"
 tldr: "Two ways to make a foreign-policy signal credible: tie your hands with costs you will pay later if you back down, or sink costs in advance. Fearon compares what each does strategically."
-summary_for_tutor: "Optional reading in Strategic foundations, in the strategic actors and credible commitments pathway, reached from the additional readings page: the tying hands versus sinking costs section of James D. Fearon's Signaling Foreign Policy Interests (1997). Tying hands works through audience costs paid only if the leader backs down; sinking costs are paid up front whatever happens. The page has no questions. If the learner asks, connect it to how a state could make a pause commitment believable to a rival."
+summary_for_tutor: "Optional reading in Strategic Foundations, in the strategic actors and credible commitments pathway, reached from the additional readings page: the tying hands versus sinking costs section of James D. Fearon's Signaling Foreign Policy Interests (1997). Tying hands works through audience costs paid only if the leader backs down; sinking costs are paid up front whatever happens. The page has no questions. If the learner asks, connect it to how a state could make a pause commitment believable to a rival."
 tags: [wip]
 reading_minutes: 24
 tutor_minutes: 0

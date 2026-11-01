@@ -2,7 +2,7 @@
 id: 'ed1cd2fa-7b2f-4ee9-bafe-c16cb69ac473'
 title: "Strategic Thinking"
 tldr: "A short, nontechnical primer on game theory: players, strategies, payoffs, equilibrium, simultaneous and sequential moves, repeated games, and incomplete information."
-summary_for_tutor: "First of the two required game theory primers in Strategic foundations, in the strategic actors and credible commitments pathway: Jahan and Mahmud's short IMF primer, Strategic Thinking (2018), covering players, strategies, payoffs, equilibrium, simultaneous and sequential moves, repeated games and incomplete information. The page has no questions. If the learner asks, connect the ideas to rival states deciding whether to comply with a verification agreement."
+summary_for_tutor: "First of the two required game theory primers in Strategic Foundations, in the strategic actors and credible commitments pathway: Jahan and Mahmud's short IMF primer, Strategic Thinking (2018), covering players, strategies, payoffs, equilibrium, simultaneous and sequential moves, repeated games and incomplete information. The page has no questions. If the learner asks, connect the ideas to rival states deciding whether to comply with a verification agreement."
 tags: [wip]
 reading_minutes: 11
 tutor_minutes: 0
