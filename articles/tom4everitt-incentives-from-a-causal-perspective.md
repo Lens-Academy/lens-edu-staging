@@ -1,12 +1,12 @@
 ---
 title: "Incentives from a causal perspective"
 author:
-  - "tom4everitt"
+  - {--{"author":"Hamza's AI","timestamp":1793552544896}@@"tom4everitt"--}{++{"author":"Hamza's AI","timestamp":1793552544896}@@"Tom Everitt"++}
   - "James Fox"
-  - "RyanCarey"
-  - "mattmacdermott"
-  - "sbenthall"
-  - "Jonathan Richens"
+  - {--{"author":"Hamza's AI","timestamp":1793552544896}@@"RyanCarey"--}{++{"author":"Hamza's AI","timestamp":1793552544896}@@"Ryan Carey"++}
+  - {--{"author":"Hamza's AI","timestamp":1793552544896}@@"mattmacdermott"--}{++{"author":"Hamza's AI","timestamp":1793552544896}@@"Matt MacDermott"++}
+  - {--{"author":"Hamza's AI","timestamp":1793552544896}@@"sbenthall"--}{++{"author":"Hamza's AI","timestamp":1793552544896}@@"Sebastian Benthall"++}
+  - {--{"author":"Hamza's AI","timestamp":1793552544896}@@"Jonathan--}{++{"author":"Hamza's AI","timestamp":1793552544896}@@"Jon++} Richens"
 source_url: "https://www.lesswrong.com/posts/Xm4vSHaKAmfRvgBgi/incentives-from-a-causal-perspective"
 published: 2023-07-10
 created: 2026-11-01
