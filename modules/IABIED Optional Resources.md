@@ -11,7 +11,7 @@ path through the course. Everything is imported `optional:: true` for the same r
 The glossary is generated from the meeting docs' Unit 5 glossary, which is the single
 source of truth for definitions. The docs truncate that master per unit because a
 Google Doc tab cannot hide what comes later; these lenses do not, so all five are
-reachable from the start. See [[../AIRF Restructure Log]], stage 5.
+reachable from the start. See [[../worklogs/andreas/AIRF Restructure Log]], stage 5.
 
 Room for later submodules beside the glossary without restructuring anything, which
 is the reason this is a module rather than a page.

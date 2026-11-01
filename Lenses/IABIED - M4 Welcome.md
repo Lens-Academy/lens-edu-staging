@@ -10,7 +10,7 @@ authors:
 #### Text
 content:: {>>{"author":"Andreas's AI","timestamp":1789264834784}@@ORPHANED 2026-09-12. Nothing imports this file any more.
 
-This was the welcome for [[../modules/IABIED M4 One Extinction Scenario]], pulled in by a `source::` line that has been replaced with an inline `# Lens: Welcome` in that module. The reason is in [[../AIRF Restructure Log]], section 6 ("Welcome lenses: the evidence behind the decision"), which records why every module welcome moves inline, and section 5 under "Stage 4, welcomes", which tracks the work per module. The decision follows the canonical module shape in [[../AI Guide/Writing Modules]], where the welcome is the worked example of an inline lens.
+This was the welcome for [[../modules/IABIED M4 One Extinction Scenario]], pulled in by a `source::` line that has been replaced with an inline `# Lens: Welcome` in that module. The reason is in [[../worklogs/andreas/AIRF Restructure Log]], section 6 ("Welcome lenses: the evidence behind the decision"), which records why every module welcome moves inline, and section 5 under "Stage 4, welcomes", which tracks the work per module. The decision follows the canonical module shape in [[../AI Guide/Writing Modules]], where the welcome is the worked example of an inline lens.
 
 What went stale here: the reading list and the Chat segment below both assume Chapters 7, 8 and 9 are read, which stopped being true when the film replaced 7 and 8, and again when Chapter 9 returned as its own reading in stage 2 of the same restructure.
 

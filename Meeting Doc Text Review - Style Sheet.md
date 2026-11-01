@@ -9,14 +9,14 @@ authors:
 
 Companion to [[Meeting Doc Text Review Log]]. The log holds decisions and history. This file holds the standard: Andreas rewrites against it, and Claude flags and reviews against it. Every flag should point at an entry here, so that it can be checked and overruled rather than taken on trust.
 
-It lists what makes a prompt read as AI-written and the move to make for each. It does not try to say what a good prompt sounds like. Voice does not reduce to rules, and only the person writing can supply it, which is the same conclusion [[AI Guide/Course Making Findings]] reaches in section 3.
+It lists what makes a prompt read as AI-written and the move to make for each. It does not try to say what a good prompt sounds like. Voice does not reduce to rules, and only the person writing can supply it, which is the same conclusion [[../../AI Guide/Course Making Findings]] reaches in section 3.
 
 **Working draft, accepted as a starting point by Andreas on 2026-10-04.** It is written for the AIRF, AI Futures and CV1 meeting docs and quotes them throughout. The aim is for any course to be able to pick it up and adapt it for its own meetings; that cleanup waits until the sheet has settled through this work (open item in the log).
 
 Sources, so each entry can be traced:
 
-- **Guide**: [[AI Guide/Writing Meeting Docs]], validation rules 0 and 4 to 8, and [[AI Guide/Course Authoring]].
-- **Findings**: [[AI Guide/Course Making Findings]], section 3.
+- **Guide**: [[../../AI Guide/Writing Meeting Docs]], validation rules 0 and 4 to 8, and [[../../AI Guide/Course Authoring]].
+- **Findings**: [[../../AI Guide/Course Making Findings]], section 3.
 - **Andreas**: [[AIRF Restructure - Working Preferences]], under "How to write learner-facing text".
 - **Luc**: the problem labels from his 2026-09-26 rewrite of the AI Futures course pages, and his comments on AIRF Meeting 1.
 - **Survey**: what Claude found in the fifteen docs on 2026-10-03.
@@ -81,7 +81,7 @@ Follow-ups that sort people by their situation can share an item, because they l
 
 **C4. Course vocabulary.** A defined term of art stays (B3). Plainer does not mean simpler ideas.
 
-**C5. Fixed template parts.** Change them in [[meetings/Master template]] and the shared blocks, so every doc changes together.
+**C5. Fixed template parts.** Change them in [[../../meetings/Master template]] and the shared blocks, so every doc changes together.
 
 ---
 

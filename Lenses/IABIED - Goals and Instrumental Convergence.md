@@ -14,7 +14,7 @@ authors:
 The instrumental convergence article appears twice, as two spans with a gap between
 them. The omitted stretch walks through how an AI would hide copies, build independent
 infrastructure and remove our ability to interfere, which is most of the film's plot.
-Full rationale in [[../AIRF Restructure Log]].
+Full rationale in [[../worklogs/andreas/AIRF Restructure Log]].
 %%
 
 #### Question: Open
