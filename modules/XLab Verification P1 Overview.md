@@ -83,3 +83,5 @@ Newman, Lily Hay. "OpenAI Didn't Notice Its AI Agents Using a Message Board to P
 XLab. "0.0 Welcome." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/welcome)
 *The source lesson that the welcome text between the two dividers above adapts.*
 :::
+
+
