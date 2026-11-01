@@ -1,9 +1,10 @@
 ---
 title: "Applying a Theory of Change Approach to the Evaluation of Comprehensive Community Initiatives: Progress, Prospects, and Problems"
 author:
-  - "mtang"
+  - {--{"author":"Hamza's AI","timestamp":1793552217854}@@"mtang"--}{++{"author":"Hamza's AI","timestamp":1793552217854}@@"James P. Connell"
+  - "Anne C. Kubisch"++}
 source_url: "https://cnxus.org/wp-content/uploads/2022/04/08071320ApplyingTheoryofChangeApproach.pdf"
-published: 2008-12-26
+published: {--{"author":"Hamza's AI","timestamp":1793552217854}@@2008-12-26--}{++{"author":"Hamza's AI","timestamp":1793552217854}@@1998++}
 created: 2026-11-01
 accessed: 2026-11-01
 llm-review:
@@ -193,7 +194,7 @@ Finally, it is important to reiterate that the theory of change approach to CCI 
 
 The next and most important question is how this approach holds up in the crucible of practice. Fortunately, versions of the approach are already being tested in a number of initiatives, some of which are described elsewhere in this volume. Some insights on the utility of the approach should be forthcoming from these initiatives and others in the near future. The true test of the approach will come as stakeholders in these and other CCIs take stock and decide whether the evaluation results are clear, compelling, and useful for their purposes.
 
-## Acknowledgments ^notes
+## {--{"author":"Hamza's AI","timestamp":1793552242601}@@Acknowledgments--}{++{"author":"Hamza's AI","timestamp":1793552242601}@@Notes++} ^notes
 
 Many people shared their time and wisdom with us in order to make this paper possible. Janice Hirota, a consultant to the Roundtable, took the first step in testing out the concepts of a "theory of change" approach to CCI evaluations on the ground. The following people endured long interviews and were very generous with their time: Otis Johnson, Don Mendoza, and Mary Willoughby at the Chatham-Savannah Youth Futures Authority; Eric Brettschneider and his colleagues at Agenda for Children Tomorrow in New York City; Marvin Cohen and his colleagues at the Chicago Community Trust's Children, Youth and Families Initiative; Arthur Bolton, Rosalind Garner, James Johnson, Jan Reeves, and their colleagues in Sacramento; and Ronald Register, Sharon Milligan, Claudia Coulton, and their colleagues in Cleveland. Throughout the paper, we weave in information about current and planned CCIs in order to ground the points we are making. The examples are synthetic ones, drawn from and combined across these and other CCIs. We mean to implicate none of the above-mentioned initiatives in the paper. In addition, Margery Turner, Lisbeth Schorr, Langley Keyes, Sheila Smith, Peter Rossi, Michael Patton, Lynn Usher, Lynn Kagan, John Gaventa, and many other colleagues in the field have shared their views on the issues presented herein and have provided invaluable feedback on earlier drafts. We are grateful to them all.
 
