@@ -15,7 +15,7 @@ tutor_minutes:: 0
 content::
 \## What this course is about
 
-How could parties that do not trust one another verify meaningful limits on advanced AI development? This Lens Academy course works through that question, from motivation and policy scope to the first concrete evidence stream.{--{"author":"Andreas's AI","timestamp":1793505026429}@@ It is based on [XLab's](https://xrisk.uchicago.edu/) open-source verification curriculum. To send feedback directly to XLab, use [their feedback form](https://forms.gle/KkWcHkKh87pygDzw9).--}
+How could parties that do not trust one another verify meaningful limits on advanced AI development? This Lens Academy course works through that question, from motivation and policy scope to the first concrete evidence stream.
 
 ---
 
@@ -42,11 +42,11 @@ The people who define the central concepts of AI verification and build its inst
 
 One of them could be you.
 
-{++{"author":"Andreas's AI","timestamp":1793505016164}@@---
+---
 
 This course is based on [XLab's](https://xrisk.uchicago.edu/) open-source verification curriculum. To send feedback directly to XLab, use [their feedback form](https://forms.gle/KkWcHkKh87pygDzw9).
 
-++}\## How the course runs
+\## How the course runs
 
 Five units. In each unit you work through the material on your own, then meet your group to discuss the arguments the readings and exercises leave open.
 
