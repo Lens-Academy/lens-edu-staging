@@ -42,7 +42,11 @@ The people who define the central concepts of AI verification and build its inst
 
 One of them could be you.
 
-\## How the course runs
+{++{"author":"Andreas's AI","timestamp":1793505016164}@@---
+
+This course is based on [XLab's](https://xrisk.uchicago.edu/) open-source verification curriculum. To send feedback directly to XLab, use [their feedback form](https://forms.gle/KkWcHkKh87pygDzw9).
+
+++}\## How the course runs
 
 Five units. In each unit you work through the material on your own, then meet your group to discuss the arguments the readings and exercises leave open.
 
