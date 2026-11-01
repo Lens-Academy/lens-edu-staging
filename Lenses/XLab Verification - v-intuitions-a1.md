@@ -115,3 +115,8 @@ content::
 The four shorter responses prepare your argument; the final essay is the output to share.
 
 Continue to [[../Lenses/XLab Verification - v-intuitions-success|optional exercises and further reading]].
+
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+XLab. "0.2 Building Verification Intuitions." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/building-intuitions)
+*The source lesson this page adapts, including essay A's five parts.*
+:::
