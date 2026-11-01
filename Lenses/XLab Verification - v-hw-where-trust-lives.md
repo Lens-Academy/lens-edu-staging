@@ -93,7 +93,7 @@ Possible components include independently installed power meters, thermal sensor
 - Coverage only inside instrumented facilities;
 - Dependence on inspections to preserve the measurement boundary.
 
-A rack meter installed under treaty access belongs with hardware, in this unit. A foreign intelligence service estimating the same site’s power use from outside the facility belongs in Compute Verification 2's intellignece section. in the intelligence section. The physical phenomenon may be similar, but the access, chain of custody, confidence, and institutional role differ.
+A rack meter installed under treaty access belongs with hardware, in this unit. A foreign intelligence service estimating the same site’s power use from outside the facility belongs in Compute Verification 2's intellignece section. The physical phenomenon may be similar, but the access, chain of custody, confidence, and institutional role differ.
 
 \#### Architecture D: hybrid assurance
 
