@@ -72,6 +72,6 @@ content::
 Harack, Ben, Robert F. Trager, Anka Reuel, et al. *Verification for International AI Governance*. Oxford Martin AI Governance Initiative, July 2025. [aigi.ox.ac.uk](https://aigi.ox.ac.uk/wp-content/uploads/2025/07/Verification_for_International_AI_Governance.pdf)
 *The Oxford Martin 172-page report on which international AI agreements could actually be verified, and with what machinery.*
 
-XLab. "1.0 Introduction: what kind of policy are we trying to verify?" *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-intro)
+XLab. "1.0 Introduction: What Kind of Policy Are We Trying to Verify?" *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-intro)
 *The source lesson this page adapts.*
 :::{>>{"author":"Elias's AI","timestamp":1788015916941}@@Goodhart's Law: XLab renders it as a hover gloss; the glossary definition is inlined in parentheses above. Replaces the per-lesson XLab source footer with the Works cited callout.<<}

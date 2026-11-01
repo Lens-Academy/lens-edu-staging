@@ -166,6 +166,6 @@ feedback-instructions:: Name the one row whose incentive or leverage is least de
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-XLab. "1.0.2 Policies must be effective and feasible." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-effective-feasible)
+XLab. "1.0.2 Policies Must Be Effective and Feasible." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-effective-feasible)
 *The source lesson this page adapts, including the cost card, the eleven-bucket sort, and the stakeholder-map brief.*
 :::{>>{"author":"Elias's AI","timestamp":1788016112021}@@The memo desk slot for this lesson is m1-stakeholder-map in src/content/verification/memos.ts (status specified, 800 words, peer reviewed, audience "The drafting team for a hypothetical pause treaty"); brief text and the map hint are XLab's. Replaces the import-gap placeholder and the XLab source footer.<<}
