@@ -59,8 +59,8 @@ Totals include the outcome tests: 49 minutes in unit 1, 15 in unit 2. The course
 
 ## Where the numbers change once agreed
 
-- Page headers (`reading_minutes`, `tutor_minutes`), and the same fields on the inline pages in the module files.
-- The five module notes and the course file's note, which repeat the unit totals. The module notes still say "Week 1" to "Week 5"; that goes too.
+- Page headers (`reading_minutes`, `tutor_minutes`), and the same fields on the inline pages in the module files. **Done 2026-11-01.**
+- The five module notes and the course file's note, which repeat the unit totals. The module notes still say "Week 1" to "Week 5"; that goes too. **Done 2026-11-01**, in all eleven module notes that said "Week".
 - The meeting docs' time figures and previews, in stage 9.
 
 ## Stage 1's carry-overs
