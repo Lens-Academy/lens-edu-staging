@@ -6,8 +6,8 @@ source_url: "https://law-ai.org/advanced-ai-gov-concepts/"
 published: 2023-10-29
 created: 2026-11-01
 accessed: 2026-11-01
-review-status: "unreviewed: needs a Claude check (the review gave no PASS/REJECT)"
-description: "Executive summary This report provides an overview, taxonomy, and preliminary analysis of many cornerstone ideas and concepts in the emerging field of..."
+{--{"author":"Hamza's AI","timestamp":1793553493323}@@review-status: "unreviewed: needs a Claude check (the review gave no PASS/REJECT)"
+--}description: {--{"author":"Hamza's AI","timestamp":1793553493323}@@"Executive summary This--}{++{"author":"Hamza's AI","timestamp":1793553493323}@@"This++} report provides an overview, taxonomy, and preliminary analysis of many cornerstone ideas and concepts in the emerging field {--{"author":"Hamza's AI","timestamp":1793553493323}@@of..."--}{++{"author":"Hamza's AI","timestamp":1793553493323}@@of advanced AI governance."++}
 tags:
   - "article-importer"
 ---
