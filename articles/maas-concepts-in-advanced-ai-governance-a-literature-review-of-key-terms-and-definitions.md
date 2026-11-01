@@ -216,7 +216,23 @@ This report will now review these categories of approaches in turn. For each, it
 
 **Definitions and themes:** While many of these terms are subject to a wide range of different definitions (see Appendix 1A), they combine a range of common themes or patterns (see Table 3).
 
-[Table 3 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/dUDfP/1/)
+{--{"author":"Hamza's AI","timestamp":1793553115358}@@[Table 3 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/dUDfP/1/)--}{++{"author":"Hamza's AI","timestamp":1793553115358}@@**Table 3: Form-focused definitions of advanced AI**
+
+| Emphasis of definitional approach[^note-70]<br>Advanced AI is \[…\] | Term \[# of definitions surveyed\][^note-71] | Common themes and patterns in definitions |
+| --- | --- | --- |
+| Mind-like | Strong AI \[3\] | Is a “mind” that “actually thinks” |
+| Autonomous | Autonomous (machine / artificial) intelligence \[2\] | Learns more like animals and humans<br>Can adapt to external environmental challenges<br>Behavior driven by intrinsic objectives rather than by hard-wired programs |
+|  | General artificial intelligence \[1\] | Functions autonomously in novel circumstances |
+| Human-like | Human-level AI (HLAI) \[4\] | Operates in a commonsense information environment<br>Able to do many of the things humans are able to do. |
+| General-purpose | Foundation model \[2\] | Adaptive to many downstream tasks<br>Basis for other roles |
+|  | General-purpose AI systems (GPAIS) \[4\] | Can be adapted to a wide range of applications<br>Can be used for tasks for which it was not intentionally, specifically designed or trained |
+|  | Comprehensive AI services (CAIS) \[1\] | Recursive improvement of AI technologies in distributed systems, rather than unitary agents<br>Ecosystem of comprehensive superintelligent-level AI services, where agency is optional |
+| General-purpose and human-level performance | Artificial general intelligence (AGI) \[task performance definitions\] \[20\] | Exhibits the broad range of general intelligence found in humans<br>Able to reason across a wide range of domains<br>Ability to develop a world model that is more accurate than that of humans |
+|  | Robust artificial intelligence \[1\] | Systematically and reliably applies its knowledge to a wide range of problems<br>Reasons flexibly and dynamically about the world |
+| General-purpose and beyond-human performance | AI+ \[1\] | AI that is more intelligent than the most intelligent human |
+|  | (Machine / artificial) superintelligence (ASI) \[7\] | A(G)I that exceeds the best human performance in all domains |
+|  | Superhuman general-purpose AI (SGPAI) \[1\] | General-purpose AI (GPAI) that is simultaneously as good as or better than humans across nearly all tasks |
+|  | Highly-capable foundation models \[1\] | Foundation models that exhibit high performance across a broad domain, often performing as well as or better than a human |++}
 
 **Suitability of overall definitional approach:** In the context of analyzing advanced AI governance, there are both advantages and drawbacks to working with form-centric terms. First, we review five potential benefits.
 
