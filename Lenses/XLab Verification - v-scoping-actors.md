@@ -13,7 +13,7 @@ We’ve established why an international pause is important, the key components 
 
 This section gives you three ways to analyze the actors in a verification regime: where they sit in the supply chain, what function they can perform, and what posture they may take under a particular rule.
 
-Suppose the United States and China sign an agreement tomorrow: no training runs above some compute threshold for three months. Now ask a simple question. Who, exactly, has to change their behavior on the following morning? {--{"author":"Andreas's AI","timestamp":1793381994547}@@on Wednesday morning?--}{++{"author":"Andreas's AI","timestamp":1793381994547}@@the morning after?++}
+Suppose the United States and China sign an agreement tomorrow: no training runs above some compute threshold for three months. Now ask a simple question. Who, exactly, has to change their behavior on the following morning?
 
 Not the people who signed. Governments do not train frontier models. They do not own the data centers, fabricate the chips, or operate the clouds. The activity the agreement is about happens inside companies: labs in San Francisco and Hangzhou, fabs in Taiwan, a lithography firm in a small Dutch town, cloud regions scattered across the planet.
 
