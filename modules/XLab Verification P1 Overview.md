@@ -1,7 +1,7 @@
 ---
 id: 'b705dd43-bbb7-4ca2-a869-b778dbfdbd08'
 slug: xlab-verification-p1-overview
-title: "Course overview"
+title: "Course Overview"
 tags: [wip]
 ---
 
