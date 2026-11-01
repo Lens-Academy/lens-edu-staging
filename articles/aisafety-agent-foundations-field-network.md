@@ -29,13 +29,13 @@ Hostacov, Czechia
 
 [affi.ne](https://www.affi.ne/)
 
-0
+{--{"author":"Hamza's AI","timestamp":1793552423238}@@0
 
-3 peopleFounded 2025
+--}3 {--{"author":"Hamza's AI","timestamp":1793552423238}@@peopleFounded--}{++{"author":"Hamza's AI","timestamp":1793552423238}@@people · Founded++} 2025
 
 AFFINE (Agent Foundations FIeld NEtwork) runs intensive superintelligence alignment seminars and fellowships to upskill promising newcomers in agent foundations and AI alignment research.
 
-Donate:[Manifund](https://manifund.org/projects/ambitious-ai-alignment-seminar)
+Donate: [Manifund](https://manifund.org/projects/ambitious-ai-alignment-seminar)
 
 ## People ^people
 
@@ -67,9 +67,9 @@ AFFINE's theory of change centers on addressing a bottleneck in AI alignment res
 
 ## Grants Received– no grants recorded ^grants-received-no-grants
 
-[Add grant](https://grantmaking.aisafety.com/login?next=%2Forgs%2F601c70bd-48e7-45f9-947f-f887c79ec4c0%3FaddGrant%3Dtrue)
+{--{"author":"Hamza's AI","timestamp":1793552427732}@@[Add grant](https://grantmaking.aisafety.com/login?next=%2Forgs%2F601c70bd-48e7-45f9-947f-f887c79ec4c0%3FaddGrant%3Dtrue)
 
-## Projects ^projects
+--}## Projects ^projects
 
 [AFFINE Algorithm Design](https://grantmaking.aisafety.com/projects/8d42e692-19e9-4d47-bb62-b0f1024e01be)
 
