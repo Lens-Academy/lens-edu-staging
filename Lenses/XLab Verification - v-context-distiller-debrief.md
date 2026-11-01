@@ -4,7 +4,7 @@ title: "The Distiller"
 tldr: "Work the report you read in the Distiller: clip what matters, distill it, name who it came from and who reads it next, thread each point to a reader, and deliver. Then look back at what went unanswered."
 summary_for_tutor: "Exercise page of the Distiller, after the four report pages; the learner read one of them. The page carries the Distiller widget, where the learner picks the report they read and works it in five steps (clip, distill, upstream, downstream, thread, then deliver), the four keys in closed callouts (core clippings with their distillations, the decoys, the upstream and downstream keys with the reason each distractor fails, and each reader's needs with the fact that answers them), titled to be opened only after delivery, and an optional closing question on the gap the delivery exposed. Do not reveal a key before the learner delivers. Read the widget state before commenting on the exercise: it names the report, the step, every clipping, the actor picks and scores, every thread, and the unanswered questions by reader. Check the closing answer against it."
 tags: [wip]
-reading_minutes: 30
+reading_minutes: 40
 tutor_minutes: 5
 ---
 #### Text
