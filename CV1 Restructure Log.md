@@ -412,7 +412,7 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 | Step | Status |
 |---|---|
 | 1. Measure again | `done` 2026-10-31: every page, by the AI Guide's method (reading by density, widgets by what the learner does, tutor time per question). Table, proposals and three decisions in [[CV1 Time Worklist]]. Nothing edited yet |
-| 2. Re-estimate changed lenses, starting with section 6's remaining misses | `todo`. Already changed by A52 (2026-10-31): "About This Course" is set to 6 reading minutes (was 3; about 950 words with the welcome text), unit 1 loses the welcome's 5 minutes (3 reading, 2 tutor), and the course total drops by the 2 tutor minutes of the dropped question |
+| 2. Re-estimate changed lenses, starting with section 6's remaining misses | `todo`. Already changed by A52 (2026-10-31): "About This Course" is set to 6 reading minutes (was 3; about 950 words with the welcome text), unit 1 loses the welcome's 5 minutes (3 reading, 2 tutor), and the course total drops by the 2 tutor minutes of the dropped question. **2026-11-01:** eight approved times are in (section 8); two pages wait on the optional-question convention ([[CV1 Time Worklist]], decision 1) |
 | 3. Update every figure that repeats them | `todo` |
 
 ### Stage 9, meeting docs
