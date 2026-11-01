@@ -2,7 +2,7 @@
 id: '83491b96-6c8a-4109-a14e-1b66b73eb028'
 title: "Option B: Compare Plan A and Plan S"
 tldr: "Compare the two plans' verification targets, evidence, monitoring burdens, and political cooperation, then defend a recommendation."
-summary_for_tutor: "One optional essay route. Complete B1–B4 as preparatory responses, then B5 as the final essay in this same lens. {--{"author":"Andreas's AI","timestamp":1793382487571}@@Final essay is intended for peer review. --}Respond to reasoning, not agreement with the source."
+summary_for_tutor: "One optional essay route. Complete B1–B4 as preparatory responses, then B5 as the final essay in this same lens. Respond to reasoning, not agreement with the source."
 reading_minutes: 15
 tutor_minutes: 62
 tags: [wip]
@@ -13,7 +13,7 @@ add_to_ai_context:
 ---
 #### Text
 content::
-{--{"author":"Andreas's AI","timestamp":1793382474314}@@**Choose Option A or--}{++{"author":"Andreas's AI","timestamp":1793382474314}@@**Optional, as is++} Option {--{"author":"Andreas's AI","timestamp":1793382474314}@@B.**--}{++{"author":"Andreas's AI","timestamp":1793382474314}@@A.**++} If you choose this option, complete all five parts below.
+**Optional, as is Option A.** If you choose this option, complete all five parts below.
 The first four responses develop the arguments for your final essay, so keep them in view as you write.
 
 #### Text
