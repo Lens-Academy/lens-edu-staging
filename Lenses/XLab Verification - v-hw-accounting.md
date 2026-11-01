@@ -118,6 +118,6 @@ content::
 O'Gara, Aidan, Gabriel Kulp, Will Hodgkins, et al. "Hardware-Enabled Mechanisms for Verifying Responsible AI Development." *arXiv*, Apr. 2025. [arxiv.org](https://arxiv.org/abs/2505.03742)
 *A study of hardware-enabled mechanisms for verifiable reporting of AI training activity: compute usage, cluster configuration, and workload claims.*
 
-XLab. "2.1.3 Accounting for hardware: identity, location, topology, and completeness." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-accounting)
+XLab. "2.1.3 Accounting for Hardware: Identity, Location, Topology, and Completeness." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-accounting)
 *The source lesson this page adapts.*
 :::
