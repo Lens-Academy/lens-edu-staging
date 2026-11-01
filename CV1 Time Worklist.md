@@ -6,6 +6,10 @@ Stage 8 of [[CV1 Restructure Log]] (time figures, E4). Measured 2026-10-31 on th
 
 Step 1, measure again, is done. Most times hold. Eight pages need a new figure, three need a decision, and the unit totals have moved a long way from the course file's note of 9 October.
 
+## Status, 2026-11-01
+
+Andreas approved the changes, the widget-based figures and 225 for the full treaty paper. Seven are made, all directly: "We Need More Theories of Change" reading 20, "Optional: Further Exploration" reading 2, "The Logic of Two-Level Games" reading 20, "Written Output" tutor 15, "Reading a Draft Agreement" reading 50, "Context Distiller" reading 5, "The Distiller" reading 40, and the full treaty paper reading 225. Two corrections to this worklist: "AI Is Grown, Not Built" has a tutor chat after its explain-it-to-a-friend prompt, which the count missed, so its 8 tutor minutes stand; and the Context Distiller's warm-up question is marked optional after all. Its flag shared a line with a comment from Elias's AI, which hid it from the count; the comment now sits on its own line. Open: the convention for optional questions (decision 1, below), and with it the unit totals in the module and course notes.
+
 ## How the estimates are made
 
 - **Reading:** page text at 200 words a minute. Excerpts at 200 for essays, narrative, primers and magazine articles; 175 for policy reports; 150 for academic papers, legal texts and technical documents. Videos at their running time. Widgets by what the learner does in them, which is the least certain part. Reading that a page sends the learner to do off the page is counted, as the AI Guide asks.
@@ -37,17 +41,17 @@ Totals include the outcome tests: 49 minutes in unit 1, 15 in unit 2. The course
 | Reading a Draft Agreement | 30 + 21 | 50 + 21 | The four questions send learners into the treaty: about 4,800 words of treaty text, about 32 minutes, which the 30 leaves out |
 | Context Distiller | 10 + 5 | 5 + 5 | 663 words |
 | The Distiller | 30 + 5 | 40 + 5 | Reading one report's key is about 12 minutes on its own, and the five Distiller steps about 30. Rests on a widget estimate |
-| AI Is Grown, Not Built (hidden) | 8 + 8 | 8 + 0 | The page has no question |
+| AI Is Grown, Not Built (hidden) | 8 + 8 | 8 + 8 (no change) | **Withdrawn 2026-11-01:** the page has a tutor chat after its prompt, which the count missed |
 
 ## Decisions for Andreas
 
-1. **Optional questions on required pages.** Count them in the page's tutor time, or count required questions only? Today's figures mix the two, and two pages fit neither: "History, Precedents, Parallels" (21 now; 12 for Task 5 alone, 40 with the four optional tasks) and "Who Can Prove What" (9 now; 3 for the required question, 18 with the three optional ones). Claude's view: required questions only, which matches how the platform leaves optional pages out of the time; the table above shows what the optional questions add per unit.
+1. **Optional questions on required pages.** Count them in the page's tutor time, or count required questions only? Today's figures mix the two, and two pages fit neither: "History, Precedents, Parallels" (21 now; 12 for Task 5 alone, 40 with the four optional tasks) and "Who Can Prove What" (9 now; 3 for the required question, 18 with the three optional ones). Claude's view: required questions only, which matches how the platform leaves optional pages out of the time; the table above shows what the optional questions add per unit. **2026-11-01:** Andreas chose the other courses' convention, which he took to be leaving optional questions out. The AI Guide says instead that "Optional work counts by expected uptake", and AI Safety Atlas, the one other course with optional questions in its pages, counts them in full. At about half uptake both pages' current figures (21 and 9) already fit, so under the guide neither changes; leaving optional questions out would make them 12 and 3. Back with Andreas.
 2. **The full treaty paper (optional).** The whole paper is about 33,000 words, about 225 minutes at the dense rate; the treaty text alone (Appendix A) about 19,000 words, about 130. Its page says learners need not read it cover to cover, and the assignment's reading is now counted on "Reading a Draft Agreement". Claude's view: 225, since the page offers the full paper.
 3. **Widget-based figures.** "The Distiller" (40) and "We Need More Theories of Change" (20) rest on Claude's guess at widget time. If Andreas has timed them on staging, his figure wins.
 
 ## Found in passing
 
-- **The Context Distiller's warm-up question** says "Optional:" but is not marked optional, so the page will not complete without it. Stage 4's pattern is one line, `optional:: true`. For Andreas's go.
+- **The Context Distiller's warm-up question** is marked optional; the count missed it because a comment shared the flag's line. **Corrected 2026-11-01:** the comment now sits on its own line.
 - **Outcome tests:** Claude's estimates (15, 12, 15, 20 and 18 minutes) are within range of their stated writing minutes (12, 10, 12, 15 and 15), so no change. Those files are shared with other courses in any case.
 - **Times stated on pages:** the Anatomy Drill's "about 15 minutes" and the optional questions' "about fifteen minutes" on "Who Can Prove What" both match the estimates.
 
