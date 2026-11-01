@@ -1,5 +1,5 @@
 ---
-title: "Unpacking the Theory of Change (SSIR)"
+title: "Unpacking the Theory of {--{"author":"Hamza's AI","timestamp":1793552250078}@@Change (SSIR)"--}{++{"author":"Hamza's AI","timestamp":1793552250078}@@Change"++}
 author:
   - "Maoz Brown"
 source_url: "https://ssir.org/articles/entry/unpacking_the_theory_of_change"
