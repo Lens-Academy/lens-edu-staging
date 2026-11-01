@@ -92,5 +92,5 @@ Unit 5 goals (Debates, and your own view):
 
 # Meeting: Unit 5: Debates, and your own view
 meeting-doc:: [[../../meetings/AI Control Fundamentals/Meeting 5]]
-survey:: {--{"author":"Mark's AI","timestamp":1793551576274}@@[[../../surveys/Lens Post-Meeting--}{++{"author":"Mark's AI","timestamp":1793551576274}@@[[../../surveys/ACF Final++} Impact Survey v2]]
+survey:: [[../../surveys/ACF Final Impact Survey v2]]
 facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
