@@ -119,5 +119,5 @@ O'Gara, Aidan, Gabriel Kulp, Will Hodgkins, et al. "Hardware-Enabled Mechanisms 
 *A study of hardware-enabled mechanisms for verifiable reporting of AI training activity: compute usage, cluster configuration, and workload claims.*
 
 XLab. "2.1.3 Accounting for Hardware: Identity, Location, Topology, and Completeness." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-accounting)
-*The source lesson this page adapts. XLab has since renamed it "Accounting for Hardware".*
+*The source lesson this page adapts.*
 :::

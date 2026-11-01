@@ -132,5 +132,5 @@ NVIDIA Corporation. "Architecture Overview." *NVIDIA Attestation Suite Documenta
 *NVIDIA's documentation of its attestation architecture: how clients, cloud services, and GPU hardware form a verifiable chain of trust.*
 
 XLab. "2.1.2 From a Chip to a Trusted Statement." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-trusted-statement)
-*The source lesson this page adapts. XLab has since renamed it "Hardware Identity and Attestation". The Blackwell and Hopper multi-GPU attestation examples are cited inline above.*
+*The source lesson this page adapts. The Blackwell and Hopper multi-GPU attestation examples are cited inline above.*
 :::
