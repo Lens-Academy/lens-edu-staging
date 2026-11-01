@@ -2,7 +2,7 @@
 id: '72e1bffb-288b-4c74-adee-6354920cd500'
 title: "Witness for the Prosecution"
 tldr: "How arms-control evidence is gathered and interpreted, how it turns into a judgment that a state complied or did not, and how that judgment connects to an institution with the authority to respond."
-summary_for_tutor: "Optional reading in Strategic foundations, in the detection, attribution, and response pathway, reached from the additional readings page: Edward Ifft's Witness for the Prosecution: International Organizations and Arms Control Verification (Arms Control Today, 2005), read from the definition of verification through the recommendations. It covers how evidence is gathered, interpreted and turned into compliance judgments, and how those judgments connect to institutional authority and a proportionate response. The page has no questions."
+summary_for_tutor: "Optional reading in Strategic Foundations, in the detection, attribution, and response pathway, reached from the additional readings page: Edward Ifft's Witness for the Prosecution: International Organizations and Arms Control Verification (Arms Control Today, 2005), read from the definition of verification through the recommendations. It covers how evidence is gathered, interpreted and turned into compliance judgments, and how those judgments connect to institutional authority and a proportionate response. The page has no questions."
 tags: [wip]
 reading_minutes: 29
 tutor_minutes: 0
