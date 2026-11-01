@@ -47,6 +47,8 @@ The plan this file carries out is [[CV1 Streamlining Proposal]]. Elias reviewed 
 
 **Stage 8 done, 2026-11-01.** Andreas approved the changes; eight page times are in, and one proposal was withdrawn (AI Is Grown has a tutor chat the count missed). The optional-question convention follows the AI Guide, by expected uptake (A54), so the two held pages keep their times. The course file's note and the module notes now give the unit totals: 176, 210, 211, 197 and 201 minutes, plus 6 for the course overview, against a target of about 210. Optional lenses add about 360 in unit 1 (one essay counted), 235 in unit 2, 225 in unit 3 and 30 in unit 5. The module notes say "Unit", not "Week". Course check: no errors, 10 production warnings. **Stage 9, meeting docs, is next.**
 
+**Stage 9 paused, 2026-11-01.** Andreas is holding stage 9 briefly, since it is likely to depend on the meeting doc text review, which he is resolving first. The work files (this log, the CV1 worklists and proposal, the two AIRF restructure files and the three meeting doc text review files) moved from the vault's top level to `worklogs/andreas` (A55). Every link to and from them still resolves.
+
 **Since the proposal.** Others changed CV1 between 2026-10-08 and 2026-10-20 (section 3). Two of those changes affect the plan. The unit 1 essays are now a choose-one group instead of two optional lenses, so one essay is required, which reopens decision 3. And every lens's time estimate was replaced on 2026-10-09, which fixes some of stage 1's misses but not the largest ones (section 6).
 
 **Where things are.**
@@ -201,6 +203,7 @@ The load worry was about reading load, not tutor load. Splitting by tutor time w
 | A52 | **Unit 1's opening pages** (Andreas, 2026-10-31). XLab's welcome goes onto "About This Course" in the overview module, after the opening paragraph, between two dividers that set XLab's text apart from Lens's. Its optional question is dropped and its Works cited moves to the bottom of the page. The overview's sentences crediting XLab and linking its feedback form move after the second divider, reworded as "This course is based on…". Settles A27's open point and Q15; supersedes the proposal in section 5 | Stage 7 |
 | A53 | **Headings, Works cited and widget titles** (Andreas, 2026-10-31). (1) Section headings inside CV1's pages stay as they are: the track will be reworked, and following source drift is outside this project (A49). Settles Q25. (2) The XLab entries in Works cited take title case. For the four hardware lessons XLab has since renamed, the entry keeps the title of the version we adapted and adds a note naming XLab's new title. Settles Q26. **Amended the same night (Andreas):** no rename notes, since the renamed lessons' content differs and a second title confuses anyone looking the source up; the renames go to course drift (section 9). (3) The widget titles changed to title case in the widget sweep stay | Stage 7 |
 | A54 | **Optional questions count by expected uptake** (Andreas, 2026-11-01: "if it's in the guide, then we should follow it here"). The AI Guide's rule, "Optional work counts by expected uptake", covers optional questions on required pages too. At about half uptake, "History, Precedents, Parallels" (21) and "Who Can Prove What" (9) already fit, so neither changes. Settles decision 1 in [[CV1 Time Worklist]] | Stage 8 |
+| A55 | **The work files live in `worklogs/andreas`** (Andreas, 2026-11-01). The files Andreas and Claude write for these projects leave the vault's top level: the five CV1 files, the two AIRF restructure files and the three meeting doc text review files. Not `10-people`, which is a particular group of course creators that Andreas is not part of | Housekeeping |
 
 ### The larger picture, from Andreas, 2026-10-22
 
@@ -419,6 +422,7 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 | 3. Update every figure that repeats them | `done` 2026-11-01: the course file's note gives the new unit totals and what the optional lenses add; the first module of each unit gives its unit's figures; all eleven unit module notes say "Unit N of Compute Verification 1" instead of "Week N". The meeting docs' figures and previews are stage 9, step 4 |
 
 ### Stage 9, meeting docs
+**Paused, 2026-11-01 (Andreas):** briefly, since this stage is likely to depend on the meeting doc text review, which Andreas is resolving first.
 
 | Step | Status |
 |---|---|
