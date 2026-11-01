@@ -19,9 +19,9 @@ Add discussion note here:
 
 %%
 
-![](https://law-ai.org/wp-content/uploads/2024/04/Screenshot-2024-09-27-at-19.06.56.png)
+{--{"author":"Hamza's AI","timestamp":1793553309624}@@![](https://law-ai.org/wp-content/uploads/2024/04/Screenshot-2024-09-27-at-19.06.56.png)
 
-## Abstract ^abstract
+--}## Abstract ^abstract
 
 As AI systems have become increasingly capable, policymakers, the public, and the field of AI governance have begun to consider the potential impacts and risks from these systems—and the question of how best to govern such increasingly advanced AI. Call this field “Advanced AI Governance.” However, debates within and between these communities often lack clarity over key concepts and terms. In response, this report provides an overview, taxonomy, and preliminary analysis of many cornerstone ideas and concepts within advanced AI governance.
 
