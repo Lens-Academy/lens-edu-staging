@@ -4,7 +4,7 @@ slug: xlab-verification-p1-w1
 title: "Why Should You Care About AI Verification?"
 tags: [wip]
 ---
-%% Week 1 of the five-week first half. Lens set and order fixed by the re-cut; core self-study 220 minutes. Same lenses as the old M0 up to v-intuitions; v-precedents moves to Week 2. %%
+%% Unit 1 of Compute Verification 1. Lens set and order fixed by the re-cut. Core self-study for the whole unit, outcome tests included: 176 minutes (re-timed 2026-11-01); optional lenses add about 360, one essay counted. Same lenses as the old M0 up to v-intuitions; v-precedents moves to Unit 2. %%
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Why a pause needs verification]]

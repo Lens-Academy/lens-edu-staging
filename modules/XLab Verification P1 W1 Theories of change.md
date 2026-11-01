@@ -4,7 +4,7 @@ slug: xlab-verification-p1-w1-theories-of-change
 title: "We Need More Theories of Change"
 tags: [wip]
 ---
-%% Week 1 of Compute Verification, Part 1. %%
+%% Unit 1 of Compute Verification 1. %%
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Evaluating a theory of change]]

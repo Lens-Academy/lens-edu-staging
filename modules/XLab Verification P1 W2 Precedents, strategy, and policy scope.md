@@ -4,7 +4,7 @@ slug: xlab-verification-p1-w2
 title: "History, Precedents, Parallels"
 tags: [wip]
 ---
-%% Week 2 of the five-week first half. Core self-study 170 minutes; the optional strategic-foundations pathway adds 80. %%
+%% Unit 2 of Compute Verification 1. Core self-study for the whole unit, outcome test included: 210 minutes (re-timed 2026-11-01); the optional Strategic Foundations readings and written exercise add about 235. %%
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Transfer from historical verification regimes]]
