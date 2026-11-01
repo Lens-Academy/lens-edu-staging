@@ -15,7 +15,7 @@ source:: [[../Lenses/XLab Verification - v-sf-strategic-thinking]]
 # Lens:
 source:: [[../Lenses/XLab Verification - v-sf-game-theory]]
 
-# Lens: Strategic foundations: additional readings
+# Lens: Strategic Foundations: Additional Readings
 id:: 9fbe7cfe-5a89-4e4a-9171-21a9826d5d5c
 tldr:: Optional readings in four pathways: credible commitments, detection and response, bargaining at home and abroad, and supply-chain leverage. Read the pathway you are weakest on.
 summary_for_tutor:: Optional index lens for Strategic foundations. Links the five optional readings by pathway: Fearon on signaling (strategic actors and credible commitments); Ifft's Witness for the Prosecution and Woolf's Monitoring and Verification in Arms Control (detection, attribution, and response); Putnam on two-level games (international bargaining and domestic implementation); Farrell and Newman's Weaponized Interdependence (supply-chain structure and bargaining power). A navigation and index lens only; it carries no standalone teaching content of its own.

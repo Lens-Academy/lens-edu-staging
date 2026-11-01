@@ -6,13 +6,13 @@ tags: [wip]
 ---
 %% Week 5 of the five-week first half. Core self-study 155 minutes; the training-run reconstruction extension adds 30 as optional. Cloud, intelligence and human mechanisms belong to the second course. %%
 
-# Submodule: What a chip can report
+# Submodule: What a Chip Can Report
 slug:: chip-reports
 
 # Lens: Welcome to Unit 5
 id:: 4921c725-b0d8-40a1-86c6-9d22af72a0aa
-tldr:: What you will learn in Unit 5: hardware verification.
-summary_for_tutor:: Short opening page of Unit 5 (Hardware verification) of Compute Verification 1. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
+tldr:: What you will learn in Unit 5: Hardware Verification.
+summary_for_tutor:: Short opening page of Unit 5 (Hardware Verification) of Compute Verification 1. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
 reading_minutes:: 1
 tutor_minutes:: 0
 #### Text
