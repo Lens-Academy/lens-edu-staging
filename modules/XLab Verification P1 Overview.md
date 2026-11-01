@@ -64,7 +64,7 @@ What has been tried, and what exactly you would be verifying. IAEA safeguards in
 Read an agreement the way a mechanic reads an engine. Find the prohibition, the verification method and the exit clause in MIRI's draft ASI agreement, then map who a pause actually binds: seventeen actors across the compute supply chain, who declares, who holds the evidence, who verifies, and who no declaration reaches.
 :::
 
-:::callout {title="Unit 4: Evidence and its readers" tone="blue"}
+:::callout {title="Unit 4: Evidence and Its Readers" tone="blue"}
 Where a claim came from and who acts on it next. A true IAEA finding that fails because every claim in it came from the inspected party, a report distilled for four different readers, and then the four metrics you will use to judge every mechanism: technical feasibility, political feasibility, verification effectiveness, durability, plus the privacy-preserving techniques that make disclosure between rivals thinkable.
 :::
 
