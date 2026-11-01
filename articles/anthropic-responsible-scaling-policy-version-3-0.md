@@ -36,7 +36,7 @@ You can read the new RSP in full [here](https://anthropic.com/responsible-scalin
 
 The RSP is our attempt to solve the problem of how to address AI risks that are not present at the time the policy is written, but which could emerge rapidly as a result of an exponentially advancing technology. When we wrote the [original RSP](https://www.anthropic.com/news/anthropics-responsible-scaling-policy) in September 2023, large language models were essentially chat interfaces. Today they can browse the web, write and run code, use computers, and take autonomous, multi-step actions. As each of these new capabilities have emerged, so have new risks. We expect this pattern to continue.
 
-We focused the RSP on the principle of _conditional_, or _if-then_ commitments. _If_ a model exceeded certain capability levels (for example, biological science capabilities that could assist in the creation of dangerous weapons), _then_ the policy stated that we should introduce a new and stricter set of safeguards (for example, against model misuse and the theft of model weights).
+We focused the RSP on the principle of _conditional_, or _if-then_, commitments. _If_ a model exceeded certain capability levels (for example, biological science capabilities that could assist in the creation of dangerous weapons), _then_ the policy stated that we should introduce a new and stricter set of safeguards (for example, against model misuse and the theft of model weights).
 
 Each set of safeguards corresponded to an “AI Safety Level” (ASL): for example, ASL-2 referred to one set of required safeguards, whereas ASL-3 referred to a more stringent set of safeguards needed for more capable AI models.
 
@@ -99,7 +99,7 @@ Read the [Frontier Safety Roadmap](https://anthropic.com/responsible-scaling-pol
 
 Risk Reports are another way in which we’re improving upon what worked well about our previous RSP. We found that producing a proto-Risk Report, our [Safeguards Report](https://www-cdn.anthropic.com/dc4cb293c77da3ca5e3398bdeef75ee17b42b73f.pdf) from May 2025, was useful for our internal understanding and the public communication of the risks. Risk Reports extend this to a more systematic, comprehensive practice.
 
-Risk Reports will provide detailed information on the safety profile of our models at the time of publication. They will go beyond describing model capabilities to explain how capabilities, threat models (the specific ways that models might pose threats), and active risk mitigations fit together, and provide an assessment of the overall level of risk. Risk Reports will be published online (with some redactions) every 3-6 months.
+Risk Reports will provide detailed information on the safety profile of our models at the time of publication. They will go beyond describing model capabilities to explain how capabilities, threat models (the specific ways that models might pose threats), and active risk mitigations fit together, and provide an assessment of the overall level of risk. Risk Reports will be published online (with some redactions[^note-anthropic-1]) every 3-6 months.
 
 The new RSP also requires external review of Risk Reports in certain circumstances. We will appoint expert third-party reviewers who are deeply familiar with AI safety research, are incentivized to be open and honest about Anthropic’s safety position, and are free of major conflicts of interest. They will have unredacted or minimally-redacted access to the Risk Report and will subject our reasoning, analysis, and decision-making to a comprehensive public review. Although our current models do not yet require external review, we are already running pilots and working toward this goal.
 
@@ -112,3 +112,5 @@ Read the [initial Risk Report](https://anthropic.com/feb-2026-risk-report).
 The Responsible Scaling Policy was always planned to be a living document: a policy that had the flexibility to change as AI models become more capable. This third revision amplifies what worked about the previous RSP, commits us to more transparency about our plans and our risk considerations, and separates out our recommendations for the industry at large from what we can achieve as an individual company.
 
 In that same spirit of pragmatism we will continue to revise and refine our RSP, and our methods of evaluating and mitigating risks, as the technology evolves.
+
+[^note-anthropic-1]: As we discuss in the RSP, we will aim to minimize redactions to the public version of the Risk Report. Reasons we may nonetheless have to redact some of the text include legal compliance, intellectual property protection, public safety, and privacy.
