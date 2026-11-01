@@ -2,6 +2,7 @@
 title: "AI governance needs a theory of victory"
 author:
   - "Corin Katzke"
+  - "Justin Bullock"
 source_url: "https://forum.effectivealtruism.org/posts/ntpu8qQGzFeqxRKhP/ai-governance-needs-a-theory-of-victory"
 published: 2024-06-21
 created: 2026-11-01
@@ -320,7 +321,7 @@ Perhaps the most important takeaway is that we encourage actors in AI governance
 
 _Acknowledgements: thank you to Elliot McKernon, Zershaaneh Qureshi, Deric Cheng, and David Kristoffersson for feedback_
 
-[^note-success-stories]: A related (though distinct) concept is that of “success stories.” For example, see [here](https://www.lesswrong.com/posts/bnY3L48TtDrKTzGRb/[Error%20communicating%20with%20LW2%20server]) and [here](https://forum.effectivealtruism.org/posts/AuRBKFnjABa6c6GzC/what-success-looks-like).
+[^note-success-stories]: A related (though distinct) concept is that of “success stories.” For example, see [here]({--{"author":"Hamza's AI","timestamp":1793552494180}@@https://www.lesswrong.com/posts/bnY3L48TtDrKTzGRb/[Error%20communicating%20with%20LW2%20server]--}{++{"author":"Hamza's AI","timestamp":1793552494180}@@https://www.lesswrong.com/posts/bnY3L48TtDrKTzGRb/ai-safety-success-stories++}) and [here](https://forum.effectivealtruism.org/posts/AuRBKFnjABa6c6GzC/what-success-looks-like).
 
 [^note-portfolio]: We could also say that we should have a robust _portfolio_ of theories of victory. The distinction isn’t important.
 
