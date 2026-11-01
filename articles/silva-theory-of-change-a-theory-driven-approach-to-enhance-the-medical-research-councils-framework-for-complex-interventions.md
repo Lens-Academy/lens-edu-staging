@@ -9,7 +9,7 @@ author:
   - "Crick Lund"
   - "Vikram Patel"
 source_url: "https://trialsjournal.biomedcentral.com/articles/10.1186/1745-6215-15-267"
-published: 2014-12-01
+published: {--{"author":"Hamza's AI","timestamp":1793552108923}@@2014-12-01--}{++{"author":"Hamza's AI","timestamp":1793552108923}@@2014-07-05++}
 created: 2026-11-01
 accessed: 2026-11-01
 llm-review:
