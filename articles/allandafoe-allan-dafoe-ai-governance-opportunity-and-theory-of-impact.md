@@ -3,7 +3,7 @@ title: "AI Governance: Opportunity and Theory of Impact"
 author:
   - "Allan Dafoe"
 source_url: "https://www.allandafoe.com/opportunity"
-published: 2026-11-01
+published: {--{"author":"Hamza's AI","timestamp":1793552203058}@@2026-11-01--}{++{"author":"Hamza's AI","timestamp":1793552203058}@@2020-09++}
 created: 2026-11-01
 accessed: 2026-11-01
 llm-review:
@@ -77,7 +77,7 @@ Relatively mundane changes in sensor technology, cyberweapons, and autonomous we
 
 ### Power Transitions, Uncertainty, and Turbulence ^power-transitions-uncertainty-and
 
-Technology can change key parameters undergirding geopolitical bargains. Technology can lead to power transitions, which induce commitment problems that can lead to war ([Powell 1999](https://books.google.se/books?id=x2vdDwAAQBAJ&dq=powell+power+transition+shadow&lr=);[Allison 2017](https://www.google.com/url?q=https%3A%2F%2Fwww.amazon.com%2FDestined-War-America-Escape-Thucydidess-ebook%2Fdp%2FB01IAS9FZY&sa=D&sntz=1&usg=AOvVaw0d2wWnoI8ytp_yHxnvl7Z2)). Technology can shift the offense-defense balance, which can make war more tempting or amplify fear of being attacked, destabilizing international order ([Jervis 1978](https://www.google.com/url?q=https%3A%2F%2Fwww.cambridge.org%2Fcore%2Fjournals%2Fworld-politics%2Farticle%2Fcooperation-under-the-security-dilemma%2FC8907431CCEFEFE762BFCA32F091C526&sa=D&sntz=1&usg=AOvVaw3ZlDqj4vFD-XHey4bHCgPZ);[Garfinkel and Dafoe 2019](https://www.google.com/url?q=https%3A%2F%2Fwww.tandfonline.com%2Fdoi%2Ffull%2F10.1080%2F01402390.2019.1631810&sa=D&sntz=1&usg=AOvVaw16b2ybT3hX89wqIK5QF3M_)). Technology can lead to a general turbulence---between countries, firms, and social groups---which can lead to a breakdown in social bargains, disruption in relationships, gambits to seize advantage, and decline in trust. All of this can increase the risk of a systemic war, and otherwise enfeeble humanity’s ability to act collectively to address global risks.
+Technology can change key parameters undergirding geopolitical bargains. Technology can lead to power transitions, which induce commitment problems that can lead to war ([Powell 1999](https://books.google.se/books?id=x2vdDwAAQBAJ&dq=powell+power+transition+shadow&lr=); [Allison 2017](https://www.google.com/url?q=https%3A%2F%2Fwww.amazon.com%2FDestined-War-America-Escape-Thucydidess-ebook%2Fdp%2FB01IAS9FZY&sa=D&sntz=1&usg=AOvVaw0d2wWnoI8ytp_yHxnvl7Z2)). Technology can shift the offense-defense balance, which can make war more tempting or amplify fear of being attacked, destabilizing international order ([Jervis 1978](https://www.google.com/url?q=https%3A%2F%2Fwww.cambridge.org%2Fcore%2Fjournals%2Fworld-politics%2Farticle%2Fcooperation-under-the-security-dilemma%2FC8907431CCEFEFE762BFCA32F091C526&sa=D&sntz=1&usg=AOvVaw3ZlDqj4vFD-XHey4bHCgPZ); [Garfinkel and Dafoe 2019](https://www.google.com/url?q=https%3A%2F%2Fwww.tandfonline.com%2Fdoi%2Ffull%2F10.1080%2F01402390.2019.1631810&sa=D&sntz=1&usg=AOvVaw16b2ybT3hX89wqIK5QF3M_)). Technology can lead to a general turbulence---between countries, firms, and social groups---which can lead to a breakdown in social bargains, disruption in relationships, gambits to seize advantage, and decline in trust. All of this can increase the risk of a systemic war, and otherwise enfeeble humanity’s ability to act collectively to address global risks.
 
 ### Inequality, Labor Displacement, Authoritarianism ^inequality-labor-displacement-authoritar
 
