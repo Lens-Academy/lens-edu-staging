@@ -231,6 +231,8 @@ content::
 
 \### 4. Place
 
+![The empty actor map: a training run above the threshold at the center, with four rings around it. From the inside out: 1, Declares; 2, Holds the evidence; 3, Verifies; 4, Outside the declaration.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/cv1-actor-map-empty-601ccce8.svg)
+
 <svg viewBox="180 40 600 600" width="100%" style="max-width:600px;height:auto" role="img" aria-label="The empty actor map: a training run above the threshold at the center, with four rings around it. From the inside out: 1, Declares; 2, Holds the evidence; 3, Verifies; 4, Outside the declaration." font-family="DM Sans, Arial, sans-serif">
 <g fill="none" stroke="currentColor" stroke-opacity="0.22" stroke-width="1.25"><circle cx="480" cy="350" r="84"/><circle cx="480" cy="350" r="150"/><circle cx="480" cy="350" r="216"/><circle cx="480" cy="350" r="278"/></g>
 <g fill="currentColor" fill-opacity="0.65" font-size="13" letter-spacing="0.06em" text-anchor="middle"><text x="480" y="256">1. DECLARES</text><text x="480" y="190">2. HOLDS THE EVIDENCE</text><text x="480" y="124">3. VERIFIES</text><text x="480" y="62">4. OUTSIDE THE DECLARATION</text></g>
@@ -254,6 +256,8 @@ feedback-instructions:: For every actor placed on the wrong ring, give the key r
 #### Text
 content::
 :::callout {title="Placement key, actor by actor (open after you have answered)" tone="neutral" collapse="closed"}
+![The finished actor map, as in the placement key. At the center, a training run above the threshold. Ring 1, Declares: United States, China, cloud providers, frontier labs. Ring 2, Holds the evidence: Taiwan, Netherlands, Japan, South Korea, ASML, TSMC, NVIDIA. Ring 3, Verifies: BIS, intelligence community, California, and the verification body that does not exist. Ring 4, Outside the declaration: proxies, deployers. Six small squares under each actor mark its roles, in the order of the legend.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/cv1-actor-map-finished-ed1ae61f.svg)
+
 <svg viewBox="172 44 616 762" width="100%" style="max-width:616px;height:auto" role="img" aria-label="The finished actor map, as in the placement key. At the center, a training run above the threshold. Ring 1, Declares: United States, China, cloud providers, frontier labs. Ring 2, Holds the evidence: Taiwan, Netherlands, Japan, South Korea, ASML, TSMC, NVIDIA. Ring 3, Verifies: BIS, intelligence community, California, and the verification body that does not exist. Ring 4, Outside the declaration: proxies, deployers. Six small squares under each actor mark its roles, in the order of the legend." font-family="DM Sans, Arial, sans-serif">
 <g fill="none" stroke="currentColor" stroke-opacity="0.22" stroke-width="1.25"><circle cx="480" cy="350" r="84"/><circle cx="480" cy="350" r="150"/><circle cx="480" cy="350" r="216"/><circle cx="480" cy="350" r="278"/></g>
 <g fill="currentColor" fill-opacity="0.65" font-size="11" letter-spacing="0.06em" text-anchor="middle"><text x="480" y="256">1. DECLARES</text><text x="480" y="190">2. HOLDS THE EVIDENCE</text><text x="480" y="124">3. VERIFIES</text><text x="480" y="62">4. OUTSIDE THE DECLARATION</text></g>
