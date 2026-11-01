@@ -11,8 +11,8 @@ source:: [[../Learning Outcomes/Transfer from historical verification regimes]]
 
 # Lens: Welcome to Unit 2
 id:: d38b1ea7-face-4de4-acf1-131a4998c57e
-tldr:: What you will learn in Unit 2: precedents, strategy, and policy scope.
-summary_for_tutor:: Short opening page of Unit 2 (Precedents, strategy, and policy scope) of Compute Verification 1. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
+tldr:: What you will learn in Unit 2: {--{"author":"Andreas's AI","timestamp":1793505296665}@@precedents, strategy,--}{++{"author":"Andreas's AI","timestamp":1793505296665}@@Precedents, Strategy,++} and {--{"author":"Andreas's AI","timestamp":1793505296665}@@policy scope.--}{++{"author":"Andreas's AI","timestamp":1793505296665}@@Policy Scope.++}
+summary_for_tutor:: Short opening page of Unit 2 (Precedents, {--{"author":"Andreas's AI","timestamp":1793505296665}@@strategy,--}{++{"author":"Andreas's AI","timestamp":1793505296665}@@Strategy,++} and {--{"author":"Andreas's AI","timestamp":1793505296665}@@policy scope)--}{++{"author":"Andreas's AI","timestamp":1793505296665}@@Policy Scope)++} of Compute Verification 1. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
 reading_minutes:: 1
 tutor_minutes:: 0
 #### Text

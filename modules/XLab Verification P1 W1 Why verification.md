@@ -14,8 +14,8 @@ source:: [[../Learning Outcomes/The invisibility of prevented catastrophes]]
 
 # Lens: Welcome to Unit 1
 id:: b3e84c72-de48-4279-95c7-69d2b5f44e2a
-tldr:: What you will learn in Unit 1: why verification.
-summary_for_tutor:: Short opening page of Unit 1 (Why verification) of Compute Verification 1. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
+tldr:: What you will learn in Unit 1: Why Verification.
+summary_for_tutor:: Short opening page of Unit 1 (Why Verification) of Compute Verification 1. It lists what the learner will be able to do after the unit. Do not teach the unit's content here; if asked, point to the lesson that covers it.
 reading_minutes:: 1
 tutor_minutes:: 0
 #### Text

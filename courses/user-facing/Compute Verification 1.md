@@ -67,9 +67,9 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../../modules/XLab Verification P1 W4 Mechanism effectiveness]]
 
-# Module: [[../../modules/XLab Verification P1 U4 Feedback|Unit 4 feedback]]
+# Module: [[../../modules/XLab Verification P1 U4 Feedback|Unit 4 Feedback]]
 
-# Meeting: Unit 4: Evidence and its readers
+# Meeting: Unit 4: Evidence and Its Readers
 meeting-doc:: [[../../meetings/Compute Verification 1/Meeting 4]]
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
