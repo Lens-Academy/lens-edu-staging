@@ -1,7 +1,7 @@
 ---
 title: "Theories of Impact for Causality in AI Safety"
 author:
-  - "alexisbellot"
+  - {--{"author":"Hamza's AI","timestamp":1793552561721}@@"alexisbellot"--}{++{"author":"Hamza's AI","timestamp":1793552561721}@@"Alexis Bellot"++}
 source_url: "https://www.lesswrong.com/posts/eyzQra2HiisHuqawP/theories-of-impact-for-causality-in-ai-safety"
 published: 2025-04-11
 created: 2026-11-01
