@@ -1,7 +1,8 @@
 ---
-title: "Responsible Scaling Policy Version 3.0"
+title: "Anthropic’s Responsible Scaling Policy: Version 3.0"
 author:
   - "Anthropic"
+allowAuthorInTitle: true
 source_url: "https://www.anthropic.com/news/responsible-scaling-policy-v3"
 published: 2026-02-24
 created: 2026-11-01
