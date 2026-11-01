@@ -327,7 +327,7 @@ Fist, Tim, Tao Burga, and Vivek Chilukuri. *Technology to Secure the AI Chip Sup
 Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agreements on AI: Six Layers of Verification for Rules on Large-Scale AI Development and Deployment." *arXiv*, July 2025. [arxiv.org](https://arxiv.org/abs/2507.15916)
 *The report whose Prover and Verifier frame and four subgoals give the workshop its rings; every ring test and placement reason quotes it.*
 
-XLab. "1.2 Actors: who does the treaty rely upon, apply to, and constrain?" *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-actors)
+XLab. "1.2 Actors: Who Does the Treaty Rely Upon, Apply to, and Constrain?" *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-actors)
 *The source lesson this page adapts, including the five tables and the Actor Map Workshop.*
 
 The SB 53 bill text, the SB 53 reference site, METR's guide, the Future of Privacy Forum and White & Case summaries, the UN panel and Global Dialogue pages, and NIST CAISI are cited inline in Notes and sources and have no entry in XLab's citation registry.

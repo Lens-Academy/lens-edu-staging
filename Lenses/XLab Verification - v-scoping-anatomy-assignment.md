@@ -140,6 +140,6 @@ Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement
 Schenker, Claude. *Practice Guide to International Treaties*. Directorate of International Law, Swiss Federal Department of Foreign Affairs, 2023. [eda.admin.ch](https://www.eda.admin.ch/content/dam/eda/en/documents/publications/Voelkerrecht/Practice-Guide-to-International-Treatie-2023_EN.pdf)
 *The Swiss drafting office's handbook: how a treaty is structured, how it is interpreted under the Vienna Convention, and model final clauses on signature, ratification, accession, entry into force, and withdrawal.*
 
-XLab. "1.1 Anatomy of a (pause) agreement." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-anatomy)
+XLab. "1.1 Anatomy of a (Pause) Agreement." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-anatomy)
 *The source lesson this page adapts, including the treaty assignment and the Anatomy Drill.*
 :::

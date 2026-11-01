@@ -76,6 +76,6 @@ Schenker, Claude. *Practice Guide to International Treaties*. Directorate of Int
 Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement to Prevent the Premature Creation of Artificial Superintelligence." *arXiv*, Nov. 2025. [arxiv.org](https://arxiv.org/abs/2511.10783)
 *MIRI's draft international agreement to prevent the premature creation of artificial superintelligence, the treaty text several lessons read against.*
 
-XLab. "1.1 Anatomy of a (pause) agreement." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-anatomy)
+XLab. "1.1 Anatomy of a (Pause) Agreement." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-anatomy)
 *The source lesson this page adapts, including the treaty assignment and the Anatomy Drill.*
 :::
