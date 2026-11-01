@@ -76,9 +76,9 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../../modules/XLab Verification P1 W5 Hardware verification]]
 
-# Module: [[../../modules/XLab Verification P1 U5 Feedback|Unit 5 and course feedback]]
+# Module: [[../../modules/XLab Verification P1 U5 Feedback|Unit 5 and Course Feedback]]
 
-# Meeting: Unit 5: Hardware verification
+# Meeting: Unit 5: Hardware Verification
 meeting-doc:: [[../../meetings/Compute Verification 1/Meeting 5]]
 survey:: [[../../surveys/CV1 Final Impact Survey v2]]
 facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
