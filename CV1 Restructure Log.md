@@ -411,7 +411,7 @@ What can start now without waiting on section 2: stage 3, step 1 (the test) and 
 | 2. Meeting 3: the missing break before Room 3 | `todo` |
 | 3. Meeting 1: split the Room 4 navigator note | `todo`. Recheck first: the new buddy setup section may already cover it |
 | 4. Time figures and next-unit previews from stage 8 | `todo`. Possibly what Elias means by "announcement" (Q10) |
-| 5. Stages 6 and 7 applied to the docs | `todo`. Participant wording belongs to the meeting doc text review; coordinate rather than duplicate. Title case (A51): the five docs quote 23 module, lens and unit names in their old casing (meeting 1: 6, meeting 2: 6, meeting 3: 4, meeting 4: 6, meeting 5: 1), and meeting 1 no longer has a welcome page to point to (A52) |
+| 5. Stages 6 and 7 applied to the docs | `todo`. Participant wording belongs to the meeting doc text review; coordinate rather than duplicate. Title case (A51): the five docs quote 23 module, lens and unit names in their old casing (meeting 1: 6, meeting 2: 6, meeting 3: 4, meeting 4: 6, meeting 5: 1) |
 | 6. The three agent checks on all five docs | `todo`, last |
 
 ### Stage 10, test on staging
