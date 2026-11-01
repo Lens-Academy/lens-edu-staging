@@ -1149,6 +1149,8 @@ Also in this series:
 
 [^cite-143]: Maas, Matthijs M. ‘Aligning AI Regulation to Sociotechnical Change’. In The Oxford Handbook of AI Governance, edited by Justin B. Bullock, Yu-Che Chen, Johannes Himmelreich, Valerie M. Hudson, Anton Korinek, Matthew M. Young, and Baobao Zhang, 0. Oxford University Press, 2022. https://doi.org/10.1093/oxfordhb/9780197579329.013.22. (distinguishing between (1) ethical challenges, (2) security threats, (3) safety risks, (4) structural shifts, (5) public good opportunities, and (6) disruption of governance).
 
+[^note-144]: For the specific definitions, see Appendix 1C.
+
 [^cite-145]: See also: Smuha, Nathalie A. ‘Beyond the Individual: Governing AI’s Societal Harm’. Internet Policy Review 10, no. 3 (30 September 2021). https://policyreview.info/articles/analysis/beyond-individual-governing-ais-societal-harm.; and see Clarke, Sam, Jess Whittlestone, Matthijs Maas, Haydn Belfield, Jose Hernandez-Orallo, and Seán Ó HÉigeartaigh. ‘Submission of Feedback to the European Commission’s Proposal for a Regulation Laying down Harmonised Rules on Artificial Intelligence’. University of Cambridge (Leverhulme Centre for the Future of Intelligence and Centre for the Study of Existential Risk), 6 August 2021. https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/12527-Artificial-intelligence-ethical-and-legal-requirements/F2665626_en.
 
 [^cite-146]: For a discussion of such impacts, see: Clarke, Sam, and Jess Whittlestone. ‘A Survey of the Potential Long-Term Impacts of AI: How AI Could Lead to Long-Term Changes in Science, Cooperation, Power, Epistemics and Values’. In Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society, 192–202. AIES ’22. New York, NY, USA: Association for Computing Machinery, 2022. https://doi.org/10.1145/3514094.3534131. For an older taxonomy of risks, see: Turchin, Alexey, and David Denkenberger. ‘Classification of Global Catastrophic Risks Connected with Artificial Intelligence’. AI and Society 35, no. 1 (2020): 147–63. https://doi.org/10.1007/s00146-018-0845-5.
@@ -1193,7 +1195,11 @@ Also in this series:
 
 [^note-166]: For literature and sources for each of these terms, see Appendix 1D.
 
-[^note-169]: I thank Kevin Frazier for insightful observations on this point.
+{++{"author":"Hamza's AI","timestamp":1793553242096}@@[^note-167]: For the specific definitions, and sources, see Appendix 1D.
+
+[^note-168]: That is, systems that pose or enable critical levels of (extreme or existential) risk, regardless of whether they demonstrate a full range of human-level/like cognitive abilities.
+
+++}[^note-169]: I thank Kevin Frazier for insightful observations on this point.
 
 [^note-170]: As one analogy, one can consider the case of nuclear energy regulation: while general parlance refers to nuclear power stations as nuclear reactors or nuclear power projects, legislation on nuclear energy regulation and liability often refers to more circumscribed professional terms such as “nuclear installation,” which allows more discrete and targeted policymaking for individual technological artifacts or projects. I thank Aishwarya Saxena for this suggestion.
 
