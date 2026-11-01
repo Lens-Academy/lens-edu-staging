@@ -4,7 +4,7 @@ slug: xlab-verification-p1-w3
 title: "Anatomy of a (Pause) Agreement"
 tags: [wip]
 ---
-%% Week 3 of the five-week first half. Core self-study 210 minutes; the MIRI draft agreement adds 75 as optional reading for the anatomy assignment. %%
+%% Unit 3 of Compute Verification 1. Core self-study for the whole unit: 211 minutes (re-timed 2026-11-01). The full MIRI draft agreement adds about 225 as optional reading; the anatomy assignment's own treaty reading is counted on its page. %%
 
 # Lens: Welcome to Unit 3
 id:: 8873611c-2bde-4c38-910a-fa1bf6446d3a

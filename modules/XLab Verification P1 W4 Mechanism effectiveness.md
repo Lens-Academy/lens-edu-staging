@@ -4,7 +4,7 @@ slug: xlab-verification-p1-w4-mechanism-effectiveness
 title: "What Makes a Verification Mechanism Effective?"
 tags: [wip]
 ---
-%% Week 4 of Compute Verification, Part 1. %%
+%% Unit 4 of Compute Verification 1. %%
 
 # Lens:
 source:: [[../Lenses/XLab Verification - v-mechanism-effective]]

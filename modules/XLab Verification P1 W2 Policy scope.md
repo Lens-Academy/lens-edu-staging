@@ -4,7 +4,7 @@ slug: xlab-verification-p1-w2-policy-scope
 title: "What Kind of Policy Are We Trying to Verify?"
 tags: [wip]
 ---
-%% Week 2 of Compute Verification, Part 1. %%
+%% Unit 2 of Compute Verification 1. %%
 
 # Lens:
 source:: [[../Lenses/XLab Verification - v-scoping-intro]]

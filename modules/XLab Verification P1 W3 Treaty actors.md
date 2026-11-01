@@ -4,7 +4,7 @@ slug: xlab-verification-p1-w3-treaty-actors
 title: "Who the Treaty Relies on, Applies to, and Constrains"
 tags: [wip]
 ---
-%% Week 3 of Compute Verification, Part 1. %%
+%% Unit 3 of Compute Verification 1. %%
 
 # Lens:
 source:: [[../Lenses/XLab Verification - v-scoping-actors]]

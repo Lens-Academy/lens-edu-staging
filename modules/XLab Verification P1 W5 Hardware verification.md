@@ -4,7 +4,7 @@ slug: xlab-verification-p1-w5
 title: "Hardware Verification"
 tags: [wip]
 ---
-%% Week 5 of the five-week first half. Core self-study 155 minutes; the training-run reconstruction extension adds 30 as optional. Cloud, intelligence and human mechanisms belong to the second course. %%
+%% Unit 5 of Compute Verification 1. Core self-study for the whole unit: 201 minutes (re-timed 2026-11-01); the training-run reconstruction page and the open-problems reading add about 30 as optional. Cloud, intelligence and human mechanisms belong to Compute Verification 2. %%
 
 # Submodule: What a Chip Can Report
 slug:: chip-reports

@@ -4,7 +4,7 @@ slug: xlab-verification-p1-w4
 title: "Upstream and Downstream"
 tags: [wip]
 ---
-%% Week 4 of the five-week first half. Core self-study 170 minutes, no optional lenses. Closes the policy-scoping arc and opens the evidence-mechanism arc that Week 5 continues. %%
+%% Unit 4 of Compute Verification 1. Core self-study for the whole unit: 197 minutes, the choice of one of four reports counted at their average (re-timed 2026-11-01); no optional lenses. Closes the policy-scoping arc and opens the evidence-mechanism arc that Unit 5 continues. %%
 
 # Lens: Welcome to Unit 4
 id:: 2ff9694c-55d6-42c0-bfa6-e39fb93bd8ad
