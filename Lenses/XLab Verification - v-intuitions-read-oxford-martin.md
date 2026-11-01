@@ -1,6 +1,6 @@
 ---
 id: 'd76edabe-a16c-4401-9672-79514e25a464'
-title: "Verification for International AI Governance (executive summary)"
+title: "Verification for International AI Governance (Executive Summary)"
 tldr: "The executive summary of the Oxford Martin AI Governance Initiative's report on which international AI agreements could be verified, and with what machinery."
 summary_for_tutor: "Optional reading page reached by a card from Further Exploration, for learners whose argument turned on political feasibility or inspection access. It embeds the executive summary of Harack, Trager, Reuel et al., Verification for International AI Governance (Oxford Martin AI Governance Initiative, 2025): how the feasible verification architecture changes with political access, privacy constraints and the type of agreement. No questions on the page."
 reading_minutes: 24
