@@ -453,7 +453,13 @@ Nonetheless, these terms do not capture the methodological dimension of how diff
 
 Thus, we can next consider different ways that practitioners have defined the _field_ of advanced AI governance.[^cite-181] Researchers have used a range of terms to describe the field of study that focuses on understanding the trajectory to forms of, or impacts of advanced AI and how to shape these. While these have significant overlaps in practice, it is useful to distinguish some key terms or framings of the overall project (Table 8).
 
-[Table 8 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/f2RxQ/1/)
+{--{"author":"Hamza's AI","timestamp":1793553171550}@@[Table 8 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/f2RxQ/1/)--}{++{"author":"Hamza's AI","timestamp":1793553171550}@@**Table 8: Definitions of advanced, transformative, and long-term(ist) AI governance**
+
+| Term \[# of definitions\][^note-182] | Focus |
+| --- | --- |
+| AI governance \[3\] | Governance of AI systems significantly more advanced and capable than those today |
+| Transformative AI governance \[1\] | Governance of societally transformative impacts from AI systems |
+| Longterm(ist) AI governance[^note-183] \[4\] | Governing AI from a perspective that cares about improving the technology’s impacts on the future trajectory of society, from (a) various ethical perspectives or (b) a specifically longtermist ethical perspective |++}
 
 However, while these terms show some different focus and emphasis, and different normative commitments, this need not preclude an overall holistic approach. To be sure, work and researchers in this space often hold _diverse expectations_ about the trajectory, form, or risks of future AI technologies; diverse _normative_ commitments and motivations for studying these; and distinct _research methodologies_ given their varied disciplinary backgrounds and epistemic precommitments.[^cite-184] However, even so, many of these communities remain united by a shared perception of the technology’s stakes—the shared view that shaping the impacts of AI is and should be a significant global priority.[^note-185]
 
@@ -469,7 +475,15 @@ Finally, researchers in this field have been concerned not just with studying an
 
 Thus, various researchers have defined terms that aim to capture the connection between immediate interventions or policy proposals, and the eventual goals they are meant to secure (see Table 9).
 
-[Table 9 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/1AbV6/1/)
+{--{"author":"Hamza's AI","timestamp":1793553175268}@@[Table 9 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/1AbV6/1/)--}{++{"author":"Hamza's AI","timestamp":1793553175268}@@**Table 9: Definitions of theories of change**
+
+| Term | Definitions |
+| --- | --- |
+| (Analytic) frame | “\[A\] conceptual orientation that makes salient some aspects of an issue, including cues for what needs to be understood, how to approach the issue, what your goals and responsibilities are, what roles to see yourself as having, what to pay attention to, and what to ignore.”[^cite-188] |
+| Theory of impact | A “simple two stage asset-decision model of research impact”[^cite-189] whereby impactful decisions will be made by key actors at some future point, and where earlier research can provide assets that help these decisions to be made well.[^cite-190] |
+| Path to impact[^cite-191] | “\[T\]he concrete intervention that future \[us\] thinks is more valuable than further research—can eventually be tackled with maximum force.”[^cite-192] |
+| Theory of change | “\[D\]efines long-term goals and then maps backward to identify necessary preconditions \[...\] explains the process of change by outlining causal linkages in an initiative, i.e., its shorter-term, intermediate, and longer-term outcomes.”[^cite-193]<br>“\[A\] visual depiction of your strategy,” linking activities, outcomes, impacts, or goals.”[^cite-194] |
+| Theory of victory | “\[C\]omplete stories about how humanity successfully navigates the transition to a world with advanced AI.”[^cite-195] |++}
 
 Drawing on these terms, one might also articulate new terms that incorporate elements from the above.[^note-196] For instance, one could define a “strategic approach” as a cluster of correlated views on advanced AI governance, encompassing (1) broadly shared _assumptions_ about the key technical and governance parameters of the challenge; (2) a broad _theory of victory_ and impact story about what solving this problem would look like; (3) a broadly shared _view of history,_ with historical analogies to provide comparison, grounding, inspiration, or guidance; and (4) a set of _intermediate strategic goals_ to be pursued, giving rise to near-term _interventions_ that would contribute to reaching these.
 
