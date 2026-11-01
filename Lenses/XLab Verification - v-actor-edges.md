@@ -203,6 +203,6 @@ content::
 Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agreements on AI: Six Layers of Verification for Rules on Large-Scale AI Development and Deployment." *arXiv*, July 2025. [arxiv.org](https://arxiv.org/abs/2507.15916)
 *A six-layer verification framework whose personnel-based layers map which workers can observe different violations and why disclosures still need independent confirmation. Every mechanism quoted in the key is from it.*
 
-XLab. "1.2.2 Who can prove what." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/actor-edges)
+XLab. "1.2.2 Who Can Prove What." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/actor-edges)
 *The source lesson this page adapts, including the edge exercise and its key.*
 :::
