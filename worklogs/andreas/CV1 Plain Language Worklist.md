@@ -53,8 +53,8 @@ Each paragraph is compared with every version of XLab's verification source in i
 
 ## Checks a flag can cite
 
-- **tldr** ([[AI Guide/Writing Lenses]]): at most 80 words, written to the learner. More than one sentence is fine when the content needs it, but concision still matters (A37).
-- **Punctuation** ([[AI Guide/Course Authoring]]): no semicolons, no em dashes.
+- **tldr** ([[../../AI Guide/Writing Lenses]]): at most 80 words, written to the learner. More than one sentence is fine when the content needs it, but concision still matters (A37).
+- **Punctuation** ([[../../AI Guide/Course Authoring]]): no semicolons, no em dashes.
 - **Mannered prose** (Course Authoring): use the literal phrase where one is available. An analogy that reads plainly can stay; one that needs decoding is flagged.
 - **Self-contained**: never label something the learner cannot resolve (Andreas's working preferences).
 - **Spoiler test** (the proposal, stage 6 step 2): a tldr shows in the lens navigation before the page is opened, and the tutor receives it as context.
@@ -116,7 +116,7 @@ The overview and the five unit welcomes are inline in their modules and are not 
 
 ### Introduction: Why Should You Care About AI Verification?
 
-[[Lenses/XLab Verification - v-introduction]]. Almost all XLab's.
+[[../../Lenses/XLab Verification - v-introduction]]. Almost all XLab's.
 
 - **Lens's text:** the tldr (line 4); the callout titles we added ("Optional: Further Reading", "Misuse vs. misalignment", the four leader titles); the strongest-objection prompt (lines 32 to 34, ours where it asks "what would move you towards the case and what would move you away from it"); the lead-in to the types-of-AI diagram (line 86); the source and chart credit lines (lines 123, 141). All pass apart from the tldr.
 - **Spoiler test: passes** (Andreas, 2026-10-26). Claude first failed it, since "Rivals cannot simply trust, punish, or open their books. Verification is the fourth option" gives the result of the verification-problem exercise. Andreas: naming verification as the way through is not much of a spoiler, since it is the purpose of the whole course.
@@ -129,7 +129,7 @@ The overview and the five unit welcomes are inline in their modules and are not 
 
 **Review of the rewrite.** The introduction (line 12) has lost its semicolon. Its last sentence, now "examines these features and consequences born from the current AI development paradigm", still says what the article does in general terms, and "born from" is a little mannered; a judgment call. The tldr is unchanged, so its mild spoiler and the "deploy" point stand if Andreas wants to keep them, which is his call. **tldr kept (Andreas, later on 2026-10-26):** it says what the reading does, to draw the learner in, since saying more risks giving away the article's point. The spoiler and "deploy" notes are closed.
 
-[[Lenses/XLab Verification - v-ai-is-grown]]. Not from XLab; the article is Yudkowsky and Soares. Also in the demo and archived courses.
+[[../../Lenses/XLab Verification - v-ai-is-grown]]. Not from XLab; the article is Yudkowsky and Soares. Also in the demo and archived courses.
 
 - **Lens's text:** everything around the article: the tldr, the introduction (line 12) and the question (line 20). The chat instructions are tutor-facing and out of scope.
 - **Spoiler test: fails, mildly.** The tldr's first two sentences ("Nobody sat down and programmed ChatGPT… engineers set up a training process and let billions of parameters arrange themselves") answer the page's own question, how ChatGPT was made differently from an ordinary app. The page title already says as much, so this is a judgment call.
@@ -139,7 +139,7 @@ The overview and the five unit welcomes are inline in their modules and are not 
 
 ### Four Background Claims (optional, hidden)
 
-Back in scope, as above. **Review:** the tldr's em dash is gone. The introduction (line 11) is unchanged, and the withdrawn flag on it is pending removal; rejecting that removal keeps the flag. [[Lenses/Four Background Claims]]. Not from XLab; the article is Soares (MIRI). Shared: also in Introduction to Lens Academy, the orientation module and the demo and archived courses, so a rewrite changes those too.
+Back in scope, as above. **Review:** the tldr's em dash is gone. The introduction (line 11) is unchanged, and the withdrawn flag on it is pending removal; rejecting that removal keeps the flag. [[../../Lenses/Four Background Claims]]. Not from XLab; the article is Soares (MIRI). Shared: also in Introduction to Lens Academy, the orientation module and the demo and archived courses, so a rewrite changes those too.
 
 - **Lens's text:** the tldr and the introduction (line 11).
 - **Spoiler test:** passes; no exercise.
@@ -149,7 +149,7 @@ Back in scope, as above. **Review:** the tldr's em dash is gone. The introductio
 
 ### Why Securitizing AI Is Difficult but Necessary
 
-[[Lenses/XLab Verification - v-prevention]].
+[[../../Lenses/XLab Verification - v-prevention]].
 
 - **Lens's text:** the tldr; line 14, where we corrected XLab's "experts spent hundreds of hours fixing it" to "governments and companies spent years finding, repairing, and testing affected systems"; the Y2K footnote (line 16); the callout title "The Risks of Securitization". All pass apart from the tldr.
 - **Spoiler test:** passes; the page has no exercise, and its outcome test is separate.
@@ -158,7 +158,7 @@ Back in scope, as above. **Review:** the tldr's em dash is gone. The introductio
 
 ### We Need More Theories of Change
 
-[[Lenses/XLab Verification - v-theories-of-change]].
+[[../../Lenses/XLab Verification - v-theories-of-change]].
 
 - **Lens's text:** the tldr; the objective (line 13); the two tables rebuilt from XLab's diagram (lines 44 and 49); the callout titles "Strategy: LLM Clarity Check" and "Strong Theories of Change". All pass apart from the tldr.
 - **Spoiler test:** passes.
@@ -168,7 +168,7 @@ Back in scope, as above. **Review:** the tldr's em dash is gone. The introductio
 
 ### Building Verification Intuitions
 
-[[Lenses/XLab Verification - v-intuitions]].
+[[../../Lenses/XLab Verification - v-intuitions]].
 
 - **Lens's text:** the tldr; the reading instructions and essay options (lines 22 to 36); the callout title "A writing good practice".
 - **Spoiler test:** passes.
@@ -178,11 +178,11 @@ Back in scope, as above. **Review:** the tldr's em dash is gone. The introductio
 
 ### Read Plan A's Verification Plan
 
-[[Lenses/XLab Verification - v-intuitions-plan-a]]. Lens's text: the tldr and lines 13, 16 and 34. Passes; the Option A and B lines assume an essay, which is the Content point flagged on the previous page.
+[[../../Lenses/XLab Verification - v-intuitions-plan-a]]. Lens's text: the tldr and lines 13, 16 and 34. Passes; the Option A and B lines assume an essay, which is the Content point flagged on the previous page.
 
 ### Option A: Stress-test Plan A's Verification Regime
 
-[[Lenses/XLab Verification - v-intuitions-a1]].
+[[../../Lenses/XLab Verification - v-intuitions-a1]].
 
 - **Lens's text:** the tldr; lines 14 to 17; "Questions to consider"; line 91; lines 114 and 118. The prompts are XLab's.
 - **Spoiler test:** passes.
@@ -191,7 +191,7 @@ Back in scope, as above. **Review:** the tldr's em dash is gone. The introductio
 
 ### Option B: Compare Plan A and Plan S
 
-[[Lenses/XLab Verification - v-intuitions-b1]].
+[[../../Lenses/XLab Verification - v-intuitions-b1]].
 
 - **Lens's text:** the tldr; lines 16 and 17; line 23 (our framing of the Plan S comparison, which passes); line 119; lines 139 and 143.
 - **Spoiler test:** passes.
@@ -200,16 +200,16 @@ Back in scope, as above. **Review:** the tldr's em dash is gone. The introductio
 
 ### Optional: Further Exploration
 
-[[Lenses/XLab Verification - v-intuitions-success]].
+[[../../Lenses/XLab Verification - v-intuitions-success]].
 
 - **Lens's text:** the tldr; line 50; the chart headings and captions (lines 57 to 109), which pass.
 - **Spoiler test:** passes.
 - **Flag on the page:** line 50. **Correction, 2026-10-26:** the flag's gloss, that the charts are all redrawn from AI 2027's published data, repeats the line's own error. Two of the four come from outside AI 2027 (METR's time horizons and Epoch AI's prices); the superhuman-coder forecast and the takeoff chart are the AI 2027 authors' (Andreas).
-- **Structure (Andreas, 2026-10-26):** the page embeds about 48,000 words, about 31,600 of them AI 2027 and its two endings and 16,500 the three embedded readings, against its stated 45 minutes. Andreas suggests moving AI 2027 and the readings onto their own linked pages, as Strategic Foundations does, so a learner who has read AI 2027 can skip it. **Built for AI 2027, 2026-10-26 (A41):** AI 2027, its "Explore AI 2027" question (id unchanged, so answers follow it), both endings and the four charts moved word for word to a new page, [[Lenses/XLab Verification - v-intuitions-ai-2027]], which this page now links with a card. The line-50 flag moved with its sentence, with the corrected gloss. The new page's tldr, tutor summary and Works cited are ours; the tldr is for Andreas to rewrite. **Readings built, later on 2026-10-26:** Andreas chose a page each. Scher (2026), the Oxford Martin executive summary and the Scher and Thiergart executive summary moved word for word (checked against the repository) to [[Lenses/XLab Verification - v-intuitions-read-scher-restrictions]], [[Lenses/XLab Verification - v-intuitions-read-oxford-martin]] and [[Lenses/XLab Verification - v-intuitions-read-scher-mechanisms]], each reached by a card after its blurb. Their tldrs and Works cited are ours, and the tldrs are for Andreas to rewrite. All four new pages are hidden optional entries in the unit 1 module and the archived Module 0. This page's 45 reading minutes are now stale (stage 8). **The three tldrs, checked (evening):** each is one sentence of 23 to 32 words, with no semicolon or em dash, and the readings have no exercise to spoil. The figures are checked against the papers: Scher's abstract gives 28 candidate mechanisms, including whistleblowers and reviews of training code, and section 3.3 covers chip use. Since Claude wrote them, the read for whether they sound like AI is Andreas's (A4). **Kept (Andreas, late on 2026-10-26):** these three and the AI 2027 tldr are concise and to the point, with no distracting phrasing. Andreas rewrote AI 2027's chart sentence, and the flag's removal is pending. Minor: "rebuild both figures from that scenario and real benchmarks" can read as two charts, and Epoch AI's chip prices are a trend rather than a benchmark. A candidate, if wanted: "rebuild two figures from that scenario and two real-world trends".
+- **Structure (Andreas, 2026-10-26):** the page embeds about 48,000 words, about 31,600 of them AI 2027 and its two endings and 16,500 the three embedded readings, against its stated 45 minutes. Andreas suggests moving AI 2027 and the readings onto their own linked pages, as Strategic Foundations does, so a learner who has read AI 2027 can skip it. **Built for AI 2027, 2026-10-26 (A41):** AI 2027, its "Explore AI 2027" question (id unchanged, so answers follow it), both endings and the four charts moved word for word to a new page, [[../../Lenses/XLab Verification - v-intuitions-ai-2027]], which this page now links with a card. The line-50 flag moved with its sentence, with the corrected gloss. The new page's tldr, tutor summary and Works cited are ours; the tldr is for Andreas to rewrite. **Readings built, later on 2026-10-26:** Andreas chose a page each. Scher (2026), the Oxford Martin executive summary and the Scher and Thiergart executive summary moved word for word (checked against the repository) to [[../../Lenses/XLab Verification - v-intuitions-read-scher-restrictions]], [[../../Lenses/XLab Verification - v-intuitions-read-oxford-martin]] and [[../../Lenses/XLab Verification - v-intuitions-read-scher-mechanisms]], each reached by a card after its blurb. Their tldrs and Works cited are ours, and the tldrs are for Andreas to rewrite. All four new pages are hidden optional entries in the unit 1 module and the archived Module 0. This page's 45 reading minutes are now stale (stage 8). **The three tldrs, checked (evening):** each is one sentence of 23 to 32 words, with no semicolon or em dash, and the readings have no exercise to spoil. The figures are checked against the papers: Scher's abstract gives 28 candidate mechanisms, including whistleblowers and reviews of training code, and section 3.3 covers chip use. Since Claude wrote them, the read for whether they sound like AI is Andreas's (A4). **Kept (Andreas, late on 2026-10-26):** these three and the AI 2027 tldr are concise and to the point, with no distracting phrasing. Andreas rewrote AI 2027's chart sentence, and the flag's removal is pending. Minor: "rebuild both figures from that scenario and real benchmarks" can read as two charts, and Epoch AI's chip prices are a trend rather than a benchmark. A candidate, if wanted: "rebuild two figures from that scenario and two real-world trends".
 
 ### Primer Practice: Inspection, Commitment, and Logic
 
-[[Lenses/XLab Verification - v-intuitions-drills-1]]. The questions and explanations are XLab's.
+[[../../Lenses/XLab Verification - v-intuitions-drills-1]]. The questions and explanations are XLab's.
 
 - **Lens's text:** the tldr; the introduction (lines 12 and 13); the callout titles "Why (open after you have answered)", which pass.
 - **Spoiler test:** passes.
@@ -232,7 +232,7 @@ Flagged 2026-10-27. Primer Practice, now in this unit, is done (unit 1 entry, A4
 
 ### Welcome to Unit 2
 
-Inline in [[modules/XLab Verification P1 W2 Precedents, strategy, and policy scope]]. All of it is Lens's text.
+Inline in [[../../modules/XLab Verification P1 W2 Precedents, strategy, and policy scope]]. All of it is Lens's text.
 
 - **Spoiler test:** passes.
 - **tldr flag:** "What you will learn in Unit 2: precedents and policy scope." leaves out Strategic Foundations, as the goals do.
@@ -241,7 +241,7 @@ Inline in [[modules/XLab Verification P1 W2 Precedents, strategy, and policy sco
 
 ### History, Precedents, Parallels
 
-[[Lenses/XLab Verification - v-precedents]]. Almost all XLab's: the three documents, the five tasks, the model answers and the Baker excerpts.
+[[../../Lenses/XLab Verification - v-precedents]]. Almost all XLab's: the three documents, the five tasks, the model answers and the Baker excerpts.
 
 - **Lens's text:** the tldr; the module objective (line 13); the callout titles for the model answers and the Baker excerpts ("Task 1: model answer (open after you have answered)", "Baker (2023) on Task 1" and so on), which pass. The task labels, such as "(optional; max 200 words)", reassemble XLab's task data and stay XLab's.
 - **Spoiler test: fails.** "IAEA inspectors did their job perfectly in Iraq and still missed a bomb program next door, because you can only audit what was declared" gives the answer to Task 4: the system worked as designed and failed to find an undeclared object. It also gives part 2 of Task 5, the required one: the step under most pressure is the move from what was declared to everything.
@@ -251,7 +251,7 @@ Inline in [[modules/XLab Verification P1 W2 Precedents, strategy, and policy sco
 
 ### Introduction: what kind of policy are we trying to verify?
 
-[[Lenses/XLab Verification - v-scoping-intro]].
+[[../../Lenses/XLab Verification - v-scoping-intro]].
 
 - **Lens's text:** the tldr; the Goodhart's Law gloss in line 44, inlined in the port from XLab's hover text; the callout title "By the end of this module, you will be able to:"; line 33, lightly reworded, which passes.
 - **Spoiler test:** passes; no exercise.
@@ -262,7 +262,7 @@ Inline in [[modules/XLab Verification P1 W2 Precedents, strategy, and policy sco
 
 ### Drawing the Line: Compute vs. Capability
 
-[[Lenses/XLab Verification - v-scoping-thresholds]]. The body is XLab's. Most of the Lens word count is the Works cited.
+[[../../Lenses/XLab Verification - v-scoping-thresholds]]. The body is XLab's. Most of the Lens word count is the Works cited.
 
 - **Lens's text:** the tldr.
 - **Spoiler test:** passes; no exercise.
@@ -272,7 +272,7 @@ Inline in [[modules/XLab Verification P1 W2 Precedents, strategy, and policy sco
 
 ### Policies must be effective and feasible
 
-[[Lenses/XLab Verification - v-scoping-effective-feasible]]. The scales, the buckets, their parallels and the reference map reassemble XLab's widget data and stay XLab's.
+[[../../Lenses/XLab Verification - v-scoping-effective-feasible]]. The scales, the buckets, their parallels and the reference map reassemble XLab's widget data and stay XLab's.
 
 - **Lens's text:** the tldr; line 31, built from the widget's heading; line 53, the two corners, added in the port (2026-10-08).
 - **Spoiler test:** passes.
@@ -282,7 +282,7 @@ Inline in [[modules/XLab Verification P1 W2 Precedents, strategy, and policy sco
 
 ### Strategic Foundations
 
-[[Lenses/XLab Verification - v-strategic-foundations]].
+[[../../Lenses/XLab Verification - v-strategic-foundations]].
 
 - **Lens's text:** the tldr; line 12 after its first sentence; the chart, rebuilt from XLab's reading cards; line 41 (Andreas, 2026-10-27).
 - **Spoiler test:** passes. "Why a leader can sign in good faith and still fail to deliver" names the idea Primer Practice's optional third question tests, without answering it.
@@ -294,8 +294,8 @@ Inline in [[modules/XLab Verification P1 W2 Precedents, strategy, and policy sco
 ### The reading pages, the additional readings index and the written exercise
 
 - **The seven reading pages:** the Strategic Thinking and Game Theory tldrs are XLab's blurbs, lightly edited; the other five tldrs are ours. All pass. "Win-set" in the two-level games tldr is explained by the reading itself.
-- **Additional readings** (inline in [[modules/XLab Verification P1 W2 Strategic foundations]]): passes.
-- **Written exercise** ([[Lenses/XLab Verification - v-sf-written-exercise]]): the tldr passes. **Flag on the page:** line 14, "whichever pathway above", here and in the question, points to readings on earlier pages, and the paragraph and the question say the same thing twice.
+- **Additional readings** (inline in [[../../modules/XLab Verification P1 W2 Strategic foundations]]): passes.
+- **Written exercise** ([[../../Lenses/XLab Verification - v-sf-written-exercise]]): the tldr passes. **Flag on the page:** line 14, "whichever pathway above", here and in the question, points to readings on earlier pages, and the paragraph and the question say the same thing twice.
 
 ## Unit 3: Treaty anatomy and actors
 
@@ -303,11 +303,11 @@ Flagged 2026-10-27. "Who can prove what", the pilot, is done (next section).
 
 ### Welcome to Unit 3
 
-Inline in [[modules/XLab Verification P1 W3 Treaty anatomy and actors]]. All Lens's text. **Passes**, tldr and goals both. The module note's "the MIRI draft agreement adds 75" is left for stage 8; the paper page says 55.
+Inline in [[../../modules/XLab Verification P1 W3 Treaty anatomy and actors]]. All Lens's text. **Passes**, tldr and goals both. The module note's "the MIRI draft agreement adds 75" is left for stage 8; the paper page says 55.
 
 ### How an agreement is put together
 
-[[Lenses/XLab Verification - v-scoping-anatomy]]. The introduction, the reading list and the callout title are XLab's.
+[[../../Lenses/XLab Verification - v-scoping-anatomy]]. The introduction, the reading list and the callout title are XLab's.
 
 - **Lens's text:** the tldr; line 27 ("The three excerpts follow."), which passes; the callout's two sentences, lines 47 and 53, edited from XLab's.
 - **Spoiler test:** passes. "Find where 'should' turns into 'shall'" points at the method the page itself recommends ("Look for key verbs"), not at an answer.
@@ -317,7 +317,7 @@ Inline in [[modules/XLab Verification P1 W3 Treaty anatomy and actors]]. All Len
 
 ### Reading a draft agreement
 
-[[Lenses/XLab Verification - v-scoping-anatomy-assignment]]. The four questions, the drill's introduction, the seven organs (reassembled from the drill's data) and the Reykjavik Protocol are XLab's.
+[[../../Lenses/XLab Verification - v-scoping-anatomy-assignment]]. The four questions, the drill's introduction, the seven organs (reassembled from the drill's data) and the Reykjavik Protocol are XLab's.
 
 - **Lens's text:** the tldr; line 16 (the authors), line 20 (lightly edited after A29); the label "The seven organs, and the bin:". All pass.
 - **Spoiler test:** passes.
@@ -327,7 +327,7 @@ Inline in [[modules/XLab Verification P1 W3 Treaty anatomy and actors]]. All Len
 
 ### MIRI's draft agreement (paper page)
 
-[[Lenses/XLab Verification - v-paper-scher-treaty]]. Optional in the module.
+[[../../Lenses/XLab Verification - v-paper-scher-treaty]]. Optional in the module.
 
 - **Lens's text:** the tldr; line 16, the lead-in to the threshold widget.
 - **Spoiler test:** passes; no exercise.
@@ -337,7 +337,7 @@ Inline in [[modules/XLab Verification P1 W3 Treaty anatomy and actors]]. All Len
 
 ### Actors: who does the treaty rely upon, apply to, and constrain?
 
-[[Lenses/XLab Verification - v-scoping-actors]]. The reading, the five tables and the workshop are XLab's; the workshop's roster, rings, key and finding reassemble XLab's widget data (Elias's port note, line 290).
+[[../../Lenses/XLab Verification - v-scoping-actors]]. The reading, the five tables and the workshop are XLab's; the workshop's roster, rings, key and finding reassemble XLab's widget data (Elias's port note, line 290).
 
 - **Lens's text:** the tldr; line 111, edited ("from Week 5 onwards, and in Part 2", stage 7); line 155; the callout titles, which pass; line 234; the placement prompt (line 243); lines 286 and 291.
 - **Spoiler test:** passes. "Not the signatories" also rules out one option of the centre question, but the page says it in its third paragraph, before any exercise.
@@ -357,7 +357,7 @@ Inline in [[modules/XLab Verification P1 W3 Treaty anatomy and actors]]. All Len
 
 ### Geographic supply-chain map
 
-[[Lenses/XLab Verification - v-interactive-map]]. The map's text and data are XLab's.
+[[../../Lenses/XLab Verification - v-interactive-map]]. The map's text and data are XLab's.
 
 - **Lens's text:** the tldr; the two optional callouts (lines 31 to 41), which pass; the duplicated paragraph in "Start here" (line 46, a port error).
 - **Spoiler test:** passes; no exercise.
@@ -368,7 +368,7 @@ Inline in [[modules/XLab Verification P1 W3 Treaty anatomy and actors]]. All Len
 
 ## Unit 3: Who can prove what (pilot)
 
-[[Lenses/XLab Verification - v-actor-edges]]. Almost all of the page is XLab's: the brief, the rules for drawing an edge, the reading of the map, the "Why" callout and the three questions. The actor roster in the first callout reassembles XLab's own actor data and stays XLab's.
+[[../../Lenses/XLab Verification - v-actor-edges]]. Almost all of the page is XLab's: the brief, the rules for drawing an edge, the reading of the map, the "Why" callout and the three questions. The actor roster in the first callout reassembles XLab's own actor data and stays XLab's.
 
 **Lens's text**
 
@@ -407,11 +407,11 @@ Flagged 2026-10-28. Unit 4's Lens text is mostly tldrs, labels and rebuilt promp
 
 ### Welcome to Unit 4
 
-Inline in [[modules/XLab Verification P1 W4 Evidence and its readers]]. **Passes.** "Distil" is left for the spelling pass.
+Inline in [[../../modules/XLab Verification P1 W4 Evidence and its readers]]. **Passes.** "Distil" is left for the spelling pass.
 
 ### Upstream and downstream
 
-[[Lenses/XLab Verification - v-scoping-upstream-downstream]].
+[[../../Lenses/XLab Verification - v-scoping-upstream-downstream]].
 
 - **Lens's text:** the tldr; the "Optional:" prompt (line 67); the map brief (lines 86 to 90), rebuilt from XLab's memo data, which passes apart from "licence" (spelling pass).
 - **Spoiler test: fails.** The page's first question, optional, asks "What is wrong with this sentence? Every clause in it is true." The tldr answers it: "Two documents from the same side agreeing with each other is not verification", and "watch a true sentence fail because every claim in it came from Iran".
@@ -422,7 +422,7 @@ Inline in [[modules/XLab Verification P1 W4 Evidence and its readers]]. **Passes
 
 ### Context distiller
 
-[[Lenses/XLab Verification - v-context-distiller]]. The five steps, the worked example and the four options are XLab's; the four step paragraphs (lines 55 to 61) reassemble the widget's text.
+[[../../Lenses/XLab Verification - v-context-distiller]]. The five steps, the worked example and the four options are XLab's; the four step paragraphs (lines 55 to 61) reassemble the widget's text.
 
 - **Lens's text:** the tldr; line 63; the reports line (line 67). Both lines pass.
 - **Spoiler test:** passes.
@@ -430,7 +430,7 @@ Inline in [[modules/XLab Verification P1 W4 Evidence and its readers]]. **Passes
 
 ### The four report pages
 
-[[Lenses/XLab Verification - v-context-distiller-system-card]], [[Lenses/XLab Verification - v-context-distiller-aisi-trends]], [[Lenses/XLab Verification - v-context-distiller-iaea-iran]], [[Lenses/XLab Verification - v-context-distiller-bis-seagate]]. The reports and the system card's passages are XLab's.
+[[../../Lenses/XLab Verification - v-context-distiller-system-card]], [[../../Lenses/XLab Verification - v-context-distiller-aisi-trends]], [[../../Lenses/XLab Verification - v-context-distiller-iaea-iran]], [[../../Lenses/XLab Verification - v-context-distiller-bis-seagate]]. The reports and the system card's passages are XLab's.
 
 - **Lens's text:** the four tldrs; the system card's note on line 14, which passes; "The report: …" lines, which pass.
 - **Spoiler test:** passes.
@@ -438,7 +438,7 @@ Inline in [[modules/XLab Verification P1 W4 Evidence and its readers]]. **Passes
 
 ### The Distiller
 
-[[Lenses/XLab Verification - v-context-distiller-debrief]]. The widget and the four keys are XLab's.
+[[../../Lenses/XLab Verification - v-context-distiller-debrief]]. The widget and the four keys are XLab's.
 
 - **Lens's text:** the tldr, which passes ("distil": spelling pass); lines 12 and 19; the key labels; the closing question (line 181).
 - **Spoiler test:** passes.
@@ -448,7 +448,7 @@ Inline in [[modules/XLab Verification P1 W4 Evidence and its readers]]. **Passes
 
 ### What makes a verification mechanism effective?
 
-[[Lenses/XLab Verification - v-mechanism-effective]].
+[[../../Lenses/XLab Verification - v-mechanism-effective]].
 
 - **Lens's text:** the tldr; the goals callout's title; line 23; line 64; the three checks (lines 111 to 141), rebuilt from the taxonomies widget's data, which check out against it.
 - **Spoiler test:** passes.
@@ -463,7 +463,7 @@ Inline in [[modules/XLab Verification P1 W4 Evidence and its readers]]. **Passes
 
 ### Privacy-Preserving Mechanisms
 
-[[Lenses/XLab Verification - v-mechanism-privacy]]. The five cards' text is XLab's, with the images and alt text added in the port.
+[[../../Lenses/XLab Verification - v-mechanism-privacy]]. The five cards' text is XLab's, with the images and alt text added in the port.
 
 - **Lens's text:** the tldr; the five callout titles and the alt text, which pass.
 - **Spoiler test:** passes.
@@ -476,7 +476,7 @@ Flagged 2026-10-29. Most of unit 5 is XLab's: the readings, the method, the mech
 
 ### Welcome to Unit 5
 
-Inline in [[modules/XLab Verification P1 W5 Hardware verification]]. All Lens's text.
+Inline in [[../../modules/XLab Verification P1 W5 Hardware verification]]. All Lens's text.
 
 - **Spoiler test:** passes.
 - **tldr:** passes, and matches the other four welcomes.
@@ -484,7 +484,7 @@ Inline in [[modules/XLab Verification P1 W5 Hardware verification]]. All Lens's 
 
 ### Hardware
 
-[[Lenses/XLab Verification - v-hw-attestation]]. The scenario, the ledger's scale, the central question, the objectives, the function map and the method are XLab's.
+[[../../Lenses/XLab Verification - v-hw-attestation]]. The scenario, the ledger's scale, the central question, the objectives, the function map and the method are XLab's.
 
 - **Lens's text:** the tldr; line 28, reworded under A35; the "Readings across this section" heading and its four lines (lines 62 to 67), condensed from XLab's "Core source packet", which pass.
 - **Spoiler test:** passes. The tldr asks for the seven judgments without hinting at any.
@@ -493,7 +493,7 @@ Inline in [[modules/XLab Verification P1 W5 Hardware verification]]. All Lens's 
 
 ### Start with the claim, not the mechanism
 
-[[Lenses/XLab Verification - v-hw-claim]]. The claim triple, the six propositions, the three questions and the open question are XLab's.
+[[../../Lenses/XLab Verification - v-hw-claim]]. The claim triple, the six propositions, the three questions and the open question are XLab's.
 
 - **Lens's text:** the tldr; line 48, the pointer to the opening puzzle, which passes.
 - **Spoiler test:** passes.
@@ -503,7 +503,7 @@ Inline in [[modules/XLab Verification P1 W5 Hardware verification]]. All Lens's 
 
 ### From a chip to a trusted statement
 
-[[Lenses/XLab Verification - v-hw-trusted-statement]].
+[[../../Lenses/XLab Verification - v-hw-trusted-statement]].
 
 - **Lens's text:** the tldr; the reading lead (line 18); the question's first sentence (line 109), rebuilt because XLab's "supplied with this section" supplies nothing (Elias's note on the question). Both pass.
 - **Spoiler test:** passes.
@@ -513,7 +513,7 @@ Inline in [[modules/XLab Verification P1 W5 Hardware verification]]. All Lens's 
 
 ### Accounting for hardware
 
-[[Lenses/XLab Verification - v-hw-accounting]].
+[[../../Lenses/XLab Verification - v-hw-accounting]].
 
 - **Lens's text:** the tldr; the reading leads (lines 18 and 62), which pass; line 76, the lead-in to the chip locator; line 102, edited from XLab's.
 - **Spoiler test:** passes. "Pick three independent evidence streams" names the task, not the streams.
@@ -523,7 +523,7 @@ Inline in [[modules/XLab Verification P1 W5 Hardware verification]]. All Lens's 
 
 ### Measuring and classifying use
 
-[[Lenses/XLab Verification - v-hw-measuring-use]].
+[[../../Lenses/XLab Verification - v-hw-measuring-use]].
 
 - **Lens's text:** the tldr; the reading leads (lines 48 and 72), which pass; two items in the limitations list (lines 83 and 86), edited from XLab's. Both check out against the paper: Table 5, round 5, gives 43 to 87 percent against white-box evasion after hardening, and the authors say of custom CUDA kernels that "we did not test" them.
 - **Spoiler test:** passes. "A component demo, not a treaty regime" is what the question's cap guards against, but line 91 says it before the question, so the page does not ask the learner to reach it.
@@ -533,7 +533,7 @@ Inline in [[modules/XLab Verification P1 W5 Hardware verification]]. All Lens's 
 
 ### Authorization, licensing, and control
 
-[[Lenses/XLab Verification - v-hw-authorization]].
+[[../../Lenses/XLab Verification - v-hw-authorization]].
 
 - **Lens's text:** the tldr; the reading lead (line 57); line 66, the lead-in to the license widget; "(no unlicensed training above threshold T)", added to the question (line 82). All pass.
 - **Spoiler test:** passes. "Find which ones fail together" names the last question without answering it.
@@ -542,7 +542,7 @@ Inline in [[modules/XLab Verification P1 W5 Hardware verification]]. All Lens's 
 
 ### Where should trust live?
 
-[[Lenses/XLab Verification - v-hw-where-trust-lives]]. The four architectures, the confidentiality trade, the "Verification target" label and the question are XLab's.
+[[../../Lenses/XLab Verification - v-hw-where-trust-lives]]. The four architectures, the confidentiality trade, the "Verification target" label and the question are XLab's.
 
 - **Lens's text:** the tldr; the "Compare the verification layers" heading and its reading lead (line 126); the widget's framing (lines 145 to 155).
 - **Spoiler test:** passes.
@@ -552,7 +552,7 @@ Inline in [[modules/XLab Verification P1 W5 Hardware verification]]. All Lens's 
 
 ### Reconstructing a declared training run
 
-[[Lenses/XLab Verification - v-hw-reconstructing-run]]. Optional in the module.
+[[../../Lenses/XLab Verification - v-hw-reconstructing-run]]. Optional in the module.
 
 - **Lens's text:** the tldr; line 14; the question's "Optional:".
 - **Spoiler test:** passes.
@@ -561,7 +561,7 @@ Inline in [[modules/XLab Verification P1 W5 Hardware verification]]. All Lens's 
 
 ### Open problems: verifying and securing compute
 
-[[Lenses/XLab Verification - v-paper-open-problems-compute]]. Optional in the module. All the page's own text is Lens's.
+[[../../Lenses/XLab Verification - v-paper-open-problems-compute]]. Optional in the module. All the page's own text is Lens's.
 
 - **Lens's text:** the tldr; line 12.
 - **Spoiler test:** passes; no exercise.

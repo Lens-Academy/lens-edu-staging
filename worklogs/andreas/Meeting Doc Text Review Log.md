@@ -54,7 +54,7 @@ Modeled on [[AIRF Restructure Log]] and [[CV1 Streamlining Proposal]], but kept 
 
 ## 1. What the survey found (2026-10-03)
 
-Read for the survey: [[AI Guide/Writing Meeting Docs]], the master template, the Session Doc tab of all fifteen docs, the shared blocks, Luc's comments on AIRF Meeting 1, and the record of Luc's 2026-09-26 rewrite of the AI Futures course pages.
+Read for the survey: [[../../AI Guide/Writing Meeting Docs]], the master template, the Session Doc tab of all fifteen docs, the shared blocks, Luc's comments on AIRF Meeting 1, and the record of Luc's 2026-09-26 rewrite of the AI Futures course pages.
 
 The AI feel comes from three places, and each needs a different fix:
 
@@ -396,7 +396,7 @@ The Lisbon Fellowship docs use their own Lisbon variants and are not affected. A
 
 - **Make it usable by any course.** *Andreas, 2026-10-04.* It is written for these three courses and quotes their docs throughout. Generalize it once it has settled through this work: separate the course-independent entries from the examples, and say how another course would adapt it.
 
-### For the owner of [[AI Guide/Writing Meeting Docs]]
+### For the owner of [[../../AI Guide/Writing Meeting Docs]]
 
 Comments for the guide's owner were left on the guide itself on 2026-10-10 for the first three items below (section 6). On 2026-10-11 they were replaced by suggestions that make the changes, pending Andreas's review.
 
