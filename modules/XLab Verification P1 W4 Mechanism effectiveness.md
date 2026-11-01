@@ -1,7 +1,7 @@
 ---
 id: '35f4c55f-0dbf-41ec-8215-34262e09a720'
 slug: xlab-verification-p1-w4-mechanism-effectiveness
-title: "What makes a verification mechanism effective?"
+title: "What Makes a Verification Mechanism Effective?"
 tags: [wip]
 ---
 %% Week 4 of Compute Verification, Part 1. %%
