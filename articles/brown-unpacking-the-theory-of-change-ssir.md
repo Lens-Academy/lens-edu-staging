@@ -25,9 +25,9 @@ Add discussion note here:
 
 %%
 
-## Unpacking the Theory of Change ^unpacking-the-theory-of
+{--{"author":"Hamza's AI","timestamp":1793552291656}@@## Unpacking the Theory of Change ^unpacking-the-theory-of
 
-The term “theory of change” is as popular as it is confusing. By gaining a clearer understanding of its various interpretations, practitioners in the social sector can more effectively implement and assess their interventions.
+--}The term “theory of change” is as popular as it is confusing. By gaining a clearer understanding of its various interpretations, practitioners in the social sector can more effectively implement and assess their interventions.
 
 ![Illustration by Jeffery Fisher](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/brown-unpacking-the-theory-of-change-ssir-img1-d6c0b6f4.jpg)
 
