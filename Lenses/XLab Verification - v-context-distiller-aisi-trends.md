@@ -19,7 +19,7 @@ to:: -   We include SEM error bars in figures where relevant. Small differences 
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-XLab. "1.3.1 Context distiller." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/context-distiller)
+XLab. "1.3.1 Context Distiller." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/context-distiller)
 *The source lesson this page adapts, including the Distiller's four reports and their keys.*
 
 The report: [AISI Frontier AI Trends Report](https://www.aisi.gov.uk/frontier-ai-trends-report).
