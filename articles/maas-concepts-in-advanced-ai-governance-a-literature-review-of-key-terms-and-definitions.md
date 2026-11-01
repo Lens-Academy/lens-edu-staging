@@ -1001,7 +1001,11 @@ Also in this series:
 
 [^note-69]: For different definitions for each of these terms with sources, see Appendix 1A.
 
-[^note-72]: Though that critically does not mean uncontested or uncontroversial.
+{++{"author":"Hamza's AI","timestamp":1793553228477}@@[^note-70]: Note, this categorization is oversimplifying, since many of these terms also include some emphasis on the other traits.
+
+[^note-71]: For the specific definitions for each of these terms, see Appendix 1A.
+
+++}[^note-72]: Though that critically does not mean uncontested or uncontroversial.
 
 [^cite-73]: Schuett, Jonas, Noemi Dreksler, Markus Anderljung, David McCaffary, Lennart Heim, Emma Bluemke, and Ben Garfinkel. ‘Towards Best Practices in AGI Safety and Governance: A Survey of Expert Opinion’. arXiv, 11 May 2023. https://doi.org/10.48550/arXiv.2305.07153.
 
@@ -1094,6 +1098,9 @@ Also in this series:
 [^cite-117]: Ben Goertzel and Cassio Pennachin, “Contemporary Approaches to Artificial General Intelligence,” in Artificial General Intelligence, Goertzel and Pennachin, eds., Springer, Berlin, 2007, pg 22. (“1. approaches that attempt to model biological brains; 2. approaches explicitly guided by the human mind and brain; 3. approaches inspired by the human mind much more than the brain; 4. approaches that depend little on known science about human intelligence”).
 
 [^cite-118]: Hannas, William, Huey-Meei Chang, Daniel Chou, and Brian Fleeger. ‘China’s Advanced AI Research: Monitoring China’s Paths to “General” Artificial Intelligence’. Center for Security and Emerging Technology, July 2022. https://cset.georgetown.edu/publication/chinas-advanced-ai-research/. (pg. 4–5). In their view, these are: “Attempt to understand intelligence with cues from human behavior and create machine algorithms that emulate it. This has been the majority viewpoint, associated with traditional ML/deep learning. Reverse-engineer a human brain on the assumption that what emerges is intelligence. This ‘neuromorphic’ or brain-imitative approach derives function from structure and is the province of ‘brain-inspired AI’ and ‘connectomics.’ Force the emergence of intelligence, in theory, by running algorithms fast enough to ‘recreate the same amount of cumulative optimization power that the relevant processes of natural selection instantiated throughout our evolutionary past.’ Expand the definition of intelligence. As we argue above, there is no reason to view intelligence as uniquely human. Any ‘de novo’ AI substantially able to achieve wide goals would qualify. Finally, use brain-computer interfaces to position both elements, human and machine, to achieve (or overachieve) human goals. Embedded nanoscale chips and high-throughput cognitive ‘offloading’ (partial brain emulation) are hypothetical approaches.” (emphasis added). An older schema, reproducing many of these categories, is given in: Brin, David. ‘How Might AI Come About? Different Approaches and Their Implications for Life in the Universe’. In Artificial Intelligence Safety and Security. Chapman and Hall/CRC, 2018. https://www.taylorfrancis.com/chapters/edit/10.1201/9781351251389-9/might-ai-come-david-brin
+[^note-119]: For sources and references for each of these approaches, see Appendix 1B.
+
+[^note-120]: For the specific definitions and sources, see Appendix 1B.
 
 [^cite-121]: See for instance Yudkowsky, Eliezer. ‘General Intelligence and Seed AI’. Singularity Institute, 2001. https://web.archive.org/web/20120805130100/singularity.org/files/GISAI.html.
 
