@@ -1237,9 +1237,27 @@ Also in this series:
 
 [^note-187]: For a definition of this term, see also Appendix 3.
 
+[^cite-188]: Stein-Perlman, Zach. ‘Framing AI Strategy’. AI Impacts, 6 February 2023. https://aiimpacts.org/framing-ai-strategy/.
+
+[^cite-189]: Dafoe, Allan. ‘AI Governance: Opportunity and Theory of Impact’, 17 September 2020. https://www.allandafoe.com/opportunity
+
+[^cite-190]: Ibid. (“At some point in the causal chain, impactful decisions will be made, be they by AI researchers, activists, public intellectuals, CEOs, generals, diplomats, or heads of state. We want our research activities to provide assets that will help those decisions to be made well. These assets can include: technical solutions; strategic insights; shared perception of risks; a more cooperative worldview; well-motivated and competent advisors; credibility, authority, and connections for those experts. There are different perspectives on which of these assets, and the breadth of the assets, that are worth investing in.”).
+
+[^cite-191]: Garfinkel, Benjamin. ‘AI Strategy: Pathways for Impact’ (draft shared with author).
+
+[^cite-192]: Gloor, Lukas. ‘Identifying Plausible Paths to Impact and Their Strategic Implications’. Center on Long-Term Risk (blog), 14 August 2016. https://longtermrisk.org/identifying-plausible-paths-to-impact/.
+
+[^cite-193]: Aird, Michael. ‘Do Research Organisations Make Theory of Change Diagrams? Should They?’ EA Forum, 22 July 2020. https://forum.effectivealtruism.org/posts/LgLYCGCs8Nji3oEWj/do-research-organisations-make-theory-of-change-diagrams. (noting that theories of change can differ in terms of: “Forward chaining vs backward chaining; Self-directed vs other-directed (or proactive vs reactive); Speculative/curiosity-driven vs explicit/foreseeable paths to impact; Fundamental/basic vs applied”).
+
+[^cite-194]: Moss, Ian David. ‘A Short Introduction to Theory of Change’. LessWrong, 11 October 2019. https://www.lesswrong.com/posts/xQk6feH9pmy6mKt3x/a-short-introduction-to-theory-of-change.
+
+[^cite-195]: Clarke, Sam. ‘The Longtermist AI Governance Landscape: A Basic Overview’. EA Forum, 18 January 2022. https://forum.effectivealtruism.org/posts/ydpo7LcJWhrr2GJrx/the-longtermist-ai-governance-landscape-a-basic-overview.
+
 [^note-196]: This has similarities and overlap to the concept of an “(analytical) frame” in: Stein-Perlman, Zach. ‘Framing AI Strategy’. AI Impacts, 6 February 2023. https://aiimpacts.org/framing-ai-strategy/. However it is more action-oriented.
 
-[^cite-198]: Searle, John R. ‘Minds, Brains, and Programs’. Behavioral and Brain Sciences 3, no. 3 (September 1980): 417–24. https://doi.org/10.1017/S0140525X00005756. Pg. 417.
+{++{"author":"Hamza's AI","timestamp":1793553268691}@@[^cite-197]: See for example: Hendrycks, Dan, and Mantas Mazeika. ‘X-Risk Analysis for AI Research’. arXiv, 21 July 2022. http://arxiv.org/abs/2206.05862. Pg. 36 (“we use the term “strong AI.” We use this term synonymously with “AGI” and “human-level AI.”).
+
+++}[^cite-198]: Searle, John R. ‘Minds, Brains, and Programs’. Behavioral and Brain Sciences 3, no. 3 (September 1980): 417–24. https://doi.org/10.1017/S0140525X00005756. Pg. 417.
 
 [^cite-199]: Russell, Stuart, and Peter Norvig. Artificial Intelligence: A Modern Approach. 3rd ed. Upper Saddle River: Pearson, 2016. Pg. 1020.
 
