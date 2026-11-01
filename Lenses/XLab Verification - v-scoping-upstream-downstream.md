@@ -110,5 +110,5 @@ thread each point to the readers who need it.
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 XLab. "1.3 Upstream and Downstream." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-upstream-downstream)
-*The source lesson this page adapts. The IAEA sources for the Fordow case are named in the prose above and have no URL in XLab's citation registry.*
+*The source lesson this page adapts. The IAEA sources for the Fordow case are named in the prose above.*
 :::
