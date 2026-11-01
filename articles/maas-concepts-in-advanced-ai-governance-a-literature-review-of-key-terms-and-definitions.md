@@ -298,7 +298,21 @@ Further extending such frameworks, one can distinguish between at least 11 propo
 
 **Definitions:** As noted, these terms can be mapped on 11 proposed pathways towards advanced AI, with their own terms for the resulting advanced AI systems.
 
-[Table 4 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/XDJri/2/)
+{--{"author":"Hamza's AI","timestamp":1793553154342}@@[Table 4 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/XDJri/2/)--}{++{"author":"Hamza's AI","timestamp":1793553154342}@@**Table 4: Pathway-focused definitions of advanced AI**
+
+| Pathway | Broad description[^note-119] | Terms \[# of definitions surveyed\][^note-120] |
+| --- | --- | --- |
+| First-principles approaches | Based on new fundamental insights in computer science, mathematics, and algorithms, producing systems that may but need not mimic human cognition | De novo AGI \[1\] |
+| Scaling approaches | Based on “brute forcing” advanced AI by running leading, existing AI approaches with more computing power and/or training data, as per the “scaling hypothesis” | Prosaic AGI \[1\]<br>Frontier (AI) model \[compute-threshold definition\] \[2\] |
+| Evolutionary approaches | Based on algorithms competing to mimic the evolutionary brute search process that produced human intelligence | \[AGI\] from evolution \[1\] |
+| Reward-based approaches | Based on running reinforcement learning systems with simple rewards in rich environments | \[AGI\] from powerful reinforcement learning agents \[1\]<br>Powerful deep learning models \[1\] |
+| Bootstrapping approaches | Approaches that pursue a minimally intelligent core system capable of subsequent recursive self-improvement or improvement through leveraging hardware or data overhangs | Seed AI \[3\] |
+| Neuro-inspired approaches | Various forms of biologically-inspired, brain-inspired, or brain-imitative approaches that draw on neuroscience and “connectomics” to reproduce general intelligence. | NeuroAI \[1\]<br>Brain-like AGI \[1\]<br>Neuromorphic AGI \[1\] |
+| Neuro-emulated approaches | Digitally simulate or recreate the states of human brains at fine-grained level. | Whole-brain emulation \[2\]<br>Digital people \[emulation definition\] \[1\] |
+| Neuro-integrationist approaches | Based on merging components of human and digital cognition | Brain-computer interfaces (BCI) \[1\] |
+| Embodiment approaches | Based on providing the AI system with a robotic physical “body” to ground cognition and enable it to learn from direct experience of the world | Embodied agent \[1\] |
+| Modular cognitive architecture approaches | Used in various fields but especially in robotics, where researchers integrate well-tested but “frozen” state-of-the-art modules (perception, reasoning, etc.) to improve agent performance without independent learning | (no clear single term) |
+| Hybrid approaches | Approaches that rely on combining deep neural network-based approaches to AI with other paradigms (such as symbolic AI) | Hybrid AI \[1\] |++}
 
 Notably, there are significant differences in the prominence of these approaches—and the resources dedicated to them—at different frontier AI labs today. For instance, while some early work on the governance of advanced AI systems focused on AI systems that would (presumably) be built from first principles, bootstrapping,[^cite-121] or neuro-emulated approaches (see Table 4), much of such work has more recently shifted to focus on understanding the risks from and pathways to aligning and governing advanced AI systems created through computational scaling.
 
@@ -332,7 +346,16 @@ Many concepts in this approach have emerged from scholarship that aimed to abstr
 
 **Definitions and themes:** While many of these terms are subject to a wide range of different definitions (see Appendix 1C), they again feature a range of common themes or patterns (see Table 5).
 
-[Table 5 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/a33d4/1/)
+{--{"author":"Hamza's AI","timestamp":1793553158046}@@[Table 5 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/a33d4/1/)--}{++{"author":"Hamza's AI","timestamp":1793553158046}@@**Table 5: Societal-impact-focused definitions of advanced AI**
+
+| Term \[# of definitions surveyed\][^note-144] | Selected themes and patterns |
+| --- | --- |
+| (Strategic) general-purpose technology (GPT) \[2\] | Potential of AI to deliver significant economic value and affect national security; therefore of central political interest<br>AI’s societal impact is enormous but not historically unprecedented; impact comparable with past technological revolutions, such as electricity, internal combustion engine, and computers |
+| General-purpose military transformation (GMT) \[1\] | Significant effect on military innovations and industrial productivity growth<br>Protracted, gradual process |
+| Transformative AI (TAI) \[6\] | Significant, irreversible changes broad enough to impact all of society; possibly precipitates a qualitatively different future<br>Transition comparable with the agricultural or industrial revolutions |
+| Radically transformative AI (RTAI) \[1\] | Leads to radical changes to the metrics used to measure human progress and well-being; potential reversal of societal trends previously thought irreversible |
+| Artificial general intelligence (AGI) \[economic competitiveness definition\] \[3\] | Systems can outperform humans at most economically valuable work |
+| Machine superintelligence \[1\]<br>\[form & impact definition\] | Exceeds cognitive capacities of humans<br>Brings about revolutionary technological and economic advances on very short timescales |++}
 
 **Suitability of approach:** Concepts within the sociotechnical-change-based approach may be unsuitable if the definitional purpose is _technical research_ but particularly appropriate if the purpose is _sociotechnical research_. However, there are a range of complicated benefits and drawbacks to this approach.
 
