@@ -1,7 +1,7 @@
 ---
 id: '9b3d8f1a-b37c-4cb2-977b-7e85fb072b78'
 slug: xlab-verification-p1-u5-feedback
-title: "Unit 5 and course feedback"
+title: "Unit 5 and Course Feedback"
 tags:
   - work-in-progress
 ---
