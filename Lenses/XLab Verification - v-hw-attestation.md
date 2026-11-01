@@ -35,7 +35,7 @@ A signed statement can be authentic and still be too narrow, stale, incomplete, 
 4. **Compare trust architectures.** Evaluate on-chip, off-chip, and hybrid designs for the same policy claim.
 5. **Recommend a bounded role.** State what hardware should carry in a layered regime, what it should not carry, which independent evidence must corroborate it, and what new evidence would change your recommendation.
 :::
-{>>{"author":"Elias's AI","timestamp":1788015904638}@@XLab's Objectives block here has scope="the core section", so the rendered lead sentence is "By the end of the core section, you will be able to:" rather than "this module".<<}
+
 
 \#### A map of the unit
 
