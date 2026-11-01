@@ -1,7 +1,7 @@
 ---
 id: '65b6585d-76d0-42fb-9411-7dd4e69a4b46'
 slug: xlab-verification-p1-w1-theories-of-change
-title: "We need more theories of change"
+title: "We Need More Theories of Change"
 tags: [wip]
 ---
 %% Week 1 of Compute Verification, Part 1. %%
