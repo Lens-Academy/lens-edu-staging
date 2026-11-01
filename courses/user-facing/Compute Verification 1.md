@@ -32,9 +32,9 @@ application-survey:: [[../../surveys/Application Form]]
 
 # Module: [[../../modules/XLab Verification P1 W1 Building verification intuitions]]
 
-# Module: [[../../modules/XLab Verification P1 U1 Feedback|Unit 1 feedback]]
+# Module: [[../../modules/XLab Verification P1 U1 Feedback|Unit 1 Feedback]]
 
-# Meeting: Unit 1: Why verification
+# Meeting: Unit 1: Why Verification
 meeting-doc:: [[../../meetings/Compute Verification 1/Meeting 1]]
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
