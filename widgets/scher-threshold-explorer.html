@@ -421,7 +421,7 @@ tags: [wip]
     return "Threshold explorer. Strict Threshold " + fmtThreshold(state.strictLog) + ", Monitored Threshold " + fmtThreshold(state.monLog) +
       ", cluster " + sizeLabel(state.sizeIdx) + ". Time to the Monitored Threshold " + fmtDays(days(seconds(fromLog(state.monLog), chips))) +
       " days, to the Strict Threshold " + fmtDays(days(seconds(fromLog(state.strictLog), chips))) + " days, registered by " + REGISTER[state.sizeIdx] +
-      ". " + above + " of 11 labelled Figure 2 models above the Strict Threshold. Model inspected: " +
+      ". " + above + " of 11 labeled Figure 2 models above the Strict Threshold. Model inspected: " +
       (state.picked >= 0 && MODELS[state.picked] ? MODELS[state.picked].name : "none") +
       ". Moved a threshold: " + (state.movedThreshold ? "yes" : "no") + ", changed the cluster size: " + (state.movedSize ? "yes" : "no") + ".";
   }
