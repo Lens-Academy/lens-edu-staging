@@ -2,7 +2,7 @@
 title: "Theories of Change for AI Auditing"
 author:
   - "Lee Sharkey"
-  - "beren"
+  - {--{"author":"Hamza's AI","timestamp":1793552551064}@@"beren"--}{++{"author":"Hamza's AI","timestamp":1793552551064}@@"Beren Millidge"++}
   - "Marius Hobbhahn"
 source_url: "https://www.lesswrong.com/posts/LwJwDNFhjurAKFiJm/theories-of-change-for-ai-auditing"
 published: 2023-11-13
