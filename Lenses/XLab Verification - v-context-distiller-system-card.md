@@ -166,7 +166,7 @@ On ARC-AGI-2, Claude Opus 4.7 achieved a new high score for Opus-class models, a
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-XLab. "1.3.1 Context distiller." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/context-distiller)
+XLab. "1.3.1 Context Distiller." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/context-distiller)
 *The source lesson this page adapts, including the Distiller's four reports and their keys.*
 
 The card is a fictional teaching document modeled on [Anthropic system cards](https://www.anthropic.com/system-cards).
