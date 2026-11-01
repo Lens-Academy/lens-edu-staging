@@ -9,7 +9,7 @@ tutor_minutes: 8
 ---
 #### Text
 content::
-\### Reconstructing a declared training run
+\### Reconstructing a Declared Training Run
 
 Optional: a technical extension of this unit.
 
