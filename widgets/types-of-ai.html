@@ -409,13 +409,13 @@ tags: [wip]
     if (view.kind === "none") {
       panel.appendChild(el("p", "prompt", PROMPT));
       var regions = el("div", "regions");
-      regions.appendChild(el("p", "eyebrow", "The grey margin"));
+      regions.appendChild(el("p", "eyebrow", "The gray margin"));
       var list = el("div", "region-list");
       ["theoretical", "absurd"].forEach(function (r) {
         var b = el("button", "region-btn");
         b.type = "button";
         b.appendChild(el("strong", null, AI_REGIONS[r].label));
-        b.appendChild(el("span", null, "AI that is not narrow, out in the grey margin. Tap to read."));
+        b.appendChild(el("span", null, "AI that is not narrow, out in the gray margin. Tap to read."));
         b.addEventListener("click", function () { setView({ kind: "region", r: r }); });
         list.appendChild(b);
       });
