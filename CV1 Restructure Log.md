@@ -601,6 +601,10 @@ Items that came up in this work but are not part of it. Nothing here blocks the 
 
 - **The twelve redirect lenses** (Q4). If Elias no longer needs them, they can go to `_trash`. The relay refuses to delete a file while links point at it, and our 2026-10-08 reply in the proposal links all twelve, so those links come out first.
 
+### For the AI Guide
+
+- **Title casing for lens and module titles** (Q24, raised by Andreas 2026-10-31). The AI Guide sets a case only for learning-outcome names (sentence case, in "Writing (Learning) Outcomes"). Courses differ: most use title case for lens and module titles, while AI Control Fundamentals, How Lens Works and the Demo Course use sentence case. A rule in the guide, including what happens to titles of outside works, would settle it for every course.
+
 ### Not ours, but worth knowing
 
 - **Ten validator warnings in four CV1 article files** (citation definitions that hold only a URL, and one repeated block). Article files go through the import pipeline, not this project.
