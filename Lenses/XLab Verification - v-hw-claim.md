@@ -61,5 +61,5 @@ feedback-instructions:: The learner has just read this page and completed three 
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 XLab. "2.1.1 Start With the Claim, Not the Mechanism." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-claim)
-*The source lesson this page adapts.*
+*The source lesson this page adapts. XLab has since renamed it "Break Down the Claim".*
 :::
