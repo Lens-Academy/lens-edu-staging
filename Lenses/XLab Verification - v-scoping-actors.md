@@ -146,7 +146,7 @@ You now have three questions to ask of any actor you meet in a proposal, a news 
 
 \## The Actor Map Workshop
 
-**The brief.** Suppose the United States and China sign an agreement tomorrow: no training runs above some compute threshold for three months. The section asked who has to change their behavior on the following morning. on Wednesday morning. The map asks the question after it: when the three months are up, who could show that they did, and who could show that somebody did not?
+**The brief.** Suppose the United States and China sign an agreement tomorrow: no training runs above some compute threshold for three months. The section asked who has to change their behavior on the following morning. The map asks the question after it: when the three months are up, who could show that they did, and who could show that somebody did not?
 
 **Four rings: what part of a declaration you play.** A verification regime runs on declarations: somebody states what they own and what they did with it, somebody else establishes the statement is true and complete. Every actor is somewhere in that.
 
