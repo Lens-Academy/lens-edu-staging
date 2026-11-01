@@ -1,7 +1,7 @@
 <!--lens-widget
 id: 'd3657a87-45d0-4054-92ca-da3bed9591be'
 title: The Distiller
-summary_for_tutor: "The Distiller: the learner picks one of four verification reports (the fictional Claude Opus 4.7 System Card; the UK AISI Frontier AI Trends Report, 2025; IAEA GOV/2026/8 on Iran; the BIS settlement order against Seagate, 2023) and works it in five steps. Clip: a pool of candidate passages per section (core facts mixed with planted decoys; the system card also has a full-report reading view) and a notebook with a clip cap (12, 11, 10, 10; a tight-budget replay lowers it to 8, 8, 7, 7). Distil: each clipping compresses into XLab's pre-written distillation for the report's post (a Zvi-style post, a GOV.UK factsheet, a think-tank analysis, a trade-law client alert); decoys are revealed as filler here. Upstream and Downstream: multi-select of the actors the report was built from and the readers it goes to, committed and then marked yes, missed, no or left out on each card, with XLab's reason revealed when the learner taps that card. Thread: a board with the learner's distilled points on one side and the readers on the other, each reader with what they already know and the questions they need answered; the learner pins point-to-reader threads and delivers. Delivery turns each reader question answered or unanswered, expands a red question to the passage that would have answered it, flags points sent to a reader who already knew them, and counts clips wasted on filler; the letters view then shows each reader exactly what they were sent. Done means the learner has delivered once (any thread count); a full score in standard mode unlocks the tight-budget replay. The widget state you receive lists the report, the step, every clipping, the actor picks and scores once committed, every thread, and the delivery verdict with the unanswered questions by reader. Before a step is committed, do not reveal which passages are core, which actors are key, or which point answers which question. The system card is fictional and says so; treat its numbers as teaching material, not facts about a released model. The lesson page around the widget carries the framing prose (the five steps, the worked example, the editorial test and the point that an unclipped fact reaches no one), the full text of the fictional system card and the article segments for the three real reports, the four per-report key callouts (closed, for after delivery) and a closing reflection question; the widget itself only asks for the work."
+summary_for_tutor: "The Distiller: the learner picks one of four verification reports (the fictional Claude Opus 4.7 System Card; the UK AISI Frontier AI Trends Report, 2025; IAEA GOV/2026/8 on Iran; the BIS settlement order against Seagate, 2023) and works it in five steps. Clip: a pool of candidate passages per section (core facts mixed with planted decoys; the system card also has a full-report reading view) and a notebook with a clip cap (12, 11, 10, 10; a tight-budget replay lowers it to 8, 8, 7, 7). Distill: each clipping compresses into the pre-written distillation for the report's post (a Zvi-style post, a GOV.UK factsheet, a think-tank analysis, a trade-law client alert); decoys are revealed as filler here. Upstream and Downstream: multi-select of the actors the report was built from and the readers it goes to, committed and then marked yes, missed, no or left out on each card, with the source lesson's reason revealed when the learner taps that card. Thread: a board with the learner's distilled points on one side and the readers on the other, each reader with what they already know and the questions they need answered; the learner pins point-to-reader threads and delivers. Delivery turns each reader question answered or unanswered, expands a red question to the passage that would have answered it, flags points sent to a reader who already knew them, and counts clips wasted on filler; the letters view then shows each reader exactly what they were sent. Done means the learner has delivered once (any thread count); a full score in standard mode unlocks the tight-budget replay. The widget state you receive lists the report, the step, every clipping, the actor picks and scores once committed, every thread, and the delivery verdict with the unanswered questions by reader. Before a step is committed, do not reveal which passages are core, which actors are key, or which point answers which question. The system card is fictional and says so; treat its numbers as teaching material, not facts about a released model. The lesson page around the widget carries the framing prose (the five steps, the worked example, the editorial test and the point that an unclipped fact reaches no one), the full text of the fictional system card and the article segments for the three real reports, the four per-report key callouts (closed, for after delivery) and a closing reflection question; the widget itself only asks for the work."
 height: auto
 tags: [wip]
 -->
@@ -193,10 +193,10 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
 (function () {
   "use strict";
 
-  var PHASES = ["Clip", "Distil", "Upstream", "Downstream", "Thread"];
+  var PHASES = ["Clip", "Distill", "Upstream", "Downstream", "Thread"];
   var GATE = {
     2: "Clip something first.",
-    3: "Distil your clippings first.",
+    3: "Distill your clippings first.",
     4: "Commit your upstream picks first.",
     5: "Confirm the readers first."
   };
@@ -654,7 +654,7 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
 
   function renderPicker() {
     var intro = el("p", "intro");
-    intro.appendChild(el("b", null, "Pick a report to distil."));
+    intro.appendChild(el("b", null, "Pick a report to distill."));
     root.appendChild(intro);
     var grid = el("div", "picker");
     REPORTS.forEach(function (r) {
@@ -825,7 +825,7 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
     cnt.appendChild(el("b", null, String(run.clipped.length)));
     cnt.appendChild(document.createTextNode(" / " + cap + " clipped"));
     f.appendChild(cnt);
-    var next = btn("primary", "Distil →", function () { goPhase(2); });
+    var next = btn("primary", "Distill →", function () { goPhase(2); });
     next.disabled = run.clipped.length === 0;
     f.appendChild(next);
     wrap.appendChild(f);
@@ -926,7 +926,7 @@ var REPORTS = [{"id":"r1","title":"Claude Opus 4.7 System Card","author":"Anthro
     });
     wrap.appendChild(grid);
     var f = foot();
-    if (which === "up") f.appendChild(btn("ghost left", "← Distil", function () { goPhase(2); }));
+    if (which === "up") f.appendChild(btn("ghost left", "← Distill", function () { goPhase(2); }));
     else f.appendChild(btn("ghost left", "← Upstream", function () { goPhase(3); }));
     if (done) {
       var sc = scoreActors(group, sel);
