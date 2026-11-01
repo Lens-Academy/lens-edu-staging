@@ -37,6 +37,8 @@ Stage 6 of [[CV1 Restructure Log]]. Claude marks what is Lens's text, tests ever
 
 **Stage 6 done, 2026-10-30.** Line 149's wording is fixed (Andreas), the tldr says "for a verification target", and nothing is open. The last three flag removals wait for Andreas to accept them. Q23 is settled (A49): XLab's later revisions are not pulled in for this project. What each page lists under "Left for stage 7" is the starting inventory for stage 7.
 
+**Stage 7 closed, 2026-10-31.** Every item listed under "Left for stage 7" is handled; the record is in [[CV1 Restructure Log]], section 8. Two came in last: the Works cited notes on XLab's citation registry are gone, and the removal of the essays' "the final essay is the output to share" waits for Andreas as a suggestion. The section numbers in Works cited titles stay, as citations, now in title case (A53).
+
 ## How to read an entry
 
 - **Lens's text** lists the passages that are ours, by line in the lens file. Everything else on the page is XLab's.
