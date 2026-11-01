@@ -182,6 +182,6 @@ feedback-instructions:: The learner has just read where trust can live, compared
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-XLab. "2.1.6 Where should trust live?" *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-where-trust-lives)
+XLab. "2.1.6 Where Should Trust Live?" *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-where-trust-lives)
 *The source lesson this page adapts. The NVIDIA H100 security whitepaper and Cankaya et al. are cited inline above.*
 :::
