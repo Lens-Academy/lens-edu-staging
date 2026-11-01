@@ -92,6 +92,6 @@ content::
 Petrie, James. "Near-Term Enforcement of AI Chip Export Controls Using a Firmware-Based Design for Offline Licensing." *arXiv*, Apr. 2024. [arxiv.org](https://arxiv.org/abs/2404.18308)
 *A design for firmware-based offline licensing that would disable AI chips lacking a regulatory license, as a near-term export-control enforcement mechanism.*
 
-XLab. "2.1.5 Authorization, licensing, and control." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-authorization)
+XLab. "2.1.5 Authorization, Licensing, and Control." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-authorization)
 *The source lesson this page adapts.*
 :::
