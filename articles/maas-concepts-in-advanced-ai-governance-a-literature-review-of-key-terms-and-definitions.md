@@ -197,7 +197,14 @@ Drawing on Schuett’s framework, this report draws a similar taxonomy for commo
 
 Each of these approaches has a different focus, object, and motivating question (Table 2).
 
-[Table 2 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/r4c1i/1/)
+{--{"author":"Hamza's AI","timestamp":1793553111527}@@[Table --}{++{"author":"Hamza's AI","timestamp":1793553111527}@@**Table 2: Overview of approaches to defining advanced AI**
+
+|  | Focus | Approach | Object of definition | Motivating question |
+| --- | --- | --- | --- | --- |
+| 1 | Form and architecture of advanced AI | Essence-based | Individual AI systems | What is an advanced AI? |
+| ++}2 {--{"author":"Hamza's AI","timestamp":1793553111527}@@(interactive Datawrapper table)](https://datawrapper.dwcdn.net/r4c1i/1/)--}{++{"author":"Hamza's AI","timestamp":1793553111527}@@| Pathways towards advanced AI | Development-based | Individual AI systems produced through a particular technique or architecture | How could we build advanced AI? |
+| 3 | General societal impacts of advanced AI | Sociotechnical-change-based | Aggregate effects of many AI systems | What are the societal impacts of advanced AI? |
+| 4 | Critical capabilities of particular advanced AI systems | Risk-based | Capabilities achieved by particular AI systems | What are key risks from advanced AI? |++}
 
 This report will now review these categories of approaches in turn. For each, it will broadly (1) discuss that approach’s core definitional focus and background, (2) list the terms and concepts that are characteristic of it, (3) provide some brief discussion of common themes and patterns in definitions given to these terms,[^note-65] and (4) then provide some preliminary reflections on the suitability of particular terms within this approach, as well as of the approach as a whole, to provide usable analytical or regulatory definitions for the field of advanced AI governance.[^note-66]
 
