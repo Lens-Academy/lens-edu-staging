@@ -502,7 +502,7 @@ This appendix provides a detailed list of definitions for advanced AI systems, w
 
 ### 1.A. Definitions focused on the form of advanced AI ^1-a-definitions-focused
 
-Different definitional approaches emphasize distinct aspects or traits that would characterize the form of advanced AI systems—such as that it is ‘mind-like’, performs ‘autonomously’, ‘is general-purpose’, ‘performs like a human’, ‘performs general-purpose like a human’, etc. However, it should be noted that there is significant overlap, and many of these terms are often (whether or not correctly) used interchangeably.
+Different definitional approaches emphasize distinct aspects or traits that would characterize the form of advanced AI systems—such as that it is ‘mind-like’, performs ‘autonomously’, ‘is general-purpose’, ‘performs like a human’, ‘performs general-purpose like a human’, etc. However, it should be noted that there is significant overlap, and many of these terms are often (whether or not correctly) used interchangeably.[^cite-197]
 
 #### Advanced AI is mind-like & really thinks ^advanced-ai-is-mind-like
 
@@ -621,7 +621,15 @@ Approaches that pursue a minimally intelligent core system capable of subsequent
     -   “a strongly self-improving process, characterized by improvements to the content base that exert direct positive feedback on the intelligence of the underlying improving process.”[^cite-265]
     -   “The first AI in a series of recursively self-improving systems.”[^cite-266]
 
-#### Neuro-emulated pathways: “Whole-brain-emulation” (WBE) ^neuro-emulated-pathways-whole-brain-emul
+#### {++{"author":"Hamza's AI","timestamp":1793553286791}@@Neuro-inspired pathways: “NeuroAI”, “brain-like-AGI”, “neuromorphic AI” ^neuro-inspired-pathways-neuroai-brain-li
+
+Various forms of biologically-inspired, brain-inspired,[^cite-267] or brain-imitative approaches that draw on neuroscience and/or “connectomics” to reproduce general intelligence.
+
+-   **NeuroAI**: “\[a field\] at the intersection of neuroscience and AI, \[that\] is based on the premise that a better understanding of neural computation will reveal fundamental ingredients of intelligence \[...\] \[which will\] lead to artificial agents with capabilities that match those of humans.”[^cite-268]
+-   **Brain-like-AGI**: “algorithms with big-picture similarity to key ingredients of human intelligence, presumably (though not necessarily) as a result of future people reverse-engineering those aspects of the human brain.”[^cite-269]
+-   **Neuromorphic AI**: “AGI based loosely on the principles of the human brain.”[^cite-270]
+
+#### ++}Neuro-emulated pathways: “Whole-brain-emulation” (WBE) ^neuro-emulated-pathways-whole-brain-emul
 
 Approaches that aim to digitally simulate or recreate the states of human brains at fine-grained level.
 
