@@ -75,14 +75,14 @@ AFFINE's theory of change centers on addressing a bottleneck in AI alignment res
 
 AFFINE is an AI safety research training network that runs an intensive month-long superintelligence alignment seminar and year-long fellowship, with Algorithm Design as one of its core funded research focus areas.
 
-NetworkTrainingAgent Foundations
+{--{"author":"Hamza's AI","timestamp":1793552430081}@@NetworkTrainingAgent--}{++{"author":"Hamza's AI","timestamp":1793552430081}@@Network · Training · Agent++} Foundations{--{"author":"Hamza's AI","timestamp":1793552430081}@@
 
-active
+active--}
 
 [AFFINE Technical Research](https://grantmaking.aisafety.com/projects/6c6aa8bc-8799-4925-9541-33e3efab3c0a)
 
 AFFINE (Agent Foundations FIeld NEtwork) runs intensive educational programs and supports technical research aimed at solving the superintelligence alignment problem, with a focus on agent foundations.
 
-NetworkResearchAgent Foundations
+{--{"author":"Hamza's AI","timestamp":1793552432505}@@NetworkResearchAgent--}{++{"author":"Hamza's AI","timestamp":1793552432505}@@Network · Research · Agent++} Foundations{--{"author":"Hamza's AI","timestamp":1793552432505}@@
 
-active
+active--}

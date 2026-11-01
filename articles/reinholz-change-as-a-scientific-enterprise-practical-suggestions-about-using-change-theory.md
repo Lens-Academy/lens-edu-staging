@@ -44,7 +44,7 @@ To begin, we briefly review two of our earlier works – distinguishing formaliz
 
 Change is a word that is often used informally in everyday language and most people have an intuitive understanding of the concept of change. Yet, to promote the scientific enterprise of leading and studying change, we need formal definitions and approaches. There is an entire lexicon related to change, including ideas such as a logic model, theory of action, pathway model, theory of change, change theory, and so forth. These terms take on a variety of meanings and are not used consistently across contexts and texts. With that in mind, this essay aims to contribute to a common lexicon in STEM higher educational change efforts and research. We focus on two specific concepts that we believe are critical to catalyzing change: _theory of change_ and _change theory_. Though these terms are nearly identical, they refer to two distinct, but related ideas ([Table 1](#T1)).
 
-TABLE 1.
+TABLE 1. Distinctions between theory of change and change theory
 
 |  | Definition | Developers and scope | Key resources |
 | :-- | :-: | :-: | :-: |
