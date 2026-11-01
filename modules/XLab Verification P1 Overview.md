@@ -68,7 +68,7 @@ Read an agreement the way a mechanic reads an engine. Find the prohibition, the 
 Where a claim came from and who acts on it next. A true IAEA finding that fails because every claim in it came from the inspected party, a report distilled for four different readers, and then the four metrics you will use to judge every mechanism: technical feasibility, political feasibility, verification effectiveness, durability, plus the privacy-preserving techniques that make disclosure between rivals thinkable.
 :::
 
-:::callout {title="Unit 5: Hardware verification" tone="blue"}
+:::callout {title="Unit 5: Hardware Verification" tone="blue"}
 The first evidence stream, worked in detail. What a signed attestation actually proves and what it does not, identity, location, topology and the hard negative claim of completeness, measuring and classifying compute use, offline licensing and who holds the key, and where trust should sit: in the chip, on the network, on the power line, or across all three.
 :::
 
