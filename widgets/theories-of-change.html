@@ -82,7 +82,7 @@ tags: [wip]
 <p class="lede">Pick an organisation, real or imagined, that works on AI verification. Fill the chain from the top down, in whatever order suits you; each box asks what has to be true for the next one to happen. Your entries are saved as you type.</p>
 
 <div class="org">
-  <label for="org">Organisation</label>
+  <label for="org">Organization</label>
   <input id="org" type="text" placeholder="e.g. a treaty verification body, a chip-tracking startup, a research lab">
 </div>
 
@@ -212,7 +212,7 @@ tags: [wip]
   });
 
   function summary() {
-    var lines = ["Organisation: " + (state.org.trim() || "(not named yet)")];
+    var lines = ["Organization: " + (state.org.trim() || "(not named yet)")];
     BOXES.forEach(function (b) {
       var v = (state.boxes[b.id] || "").trim();
       lines.push(b.band + " / " + b.label + ": " + (v || "(empty)"));
@@ -248,7 +248,7 @@ tags: [wip]
     } else if (!window.Lens) {
       fbHint.textContent = "Feedback needs the Lens lesson page; it is not available in this preview.";
     } else if (!ready) {
-      fbHint.textContent = "Name the organisation and fill at least one box, then ask for feedback.";
+      fbHint.textContent = "Name the organization and fill at least one box, then ask for feedback.";
     } else if (filledCount() < BOXES.length) {
       fbHint.textContent = "You can ask now, or fill the remaining boxes first: " + filledCount() + " of " + BOXES.length + " are filled.";
     } else {
@@ -284,10 +284,10 @@ tags: [wip]
     var atSend = filledCount();
     Lens.submit({
       item: "canvas",
-      question: "Build a theory of change for an organisation working on AI verification: inputs, outputs, short-, intermediate- and long-term outcomes, assumptions and external factors.",
+      question: "Build a theory of change for an organization working on AI verification: inputs, outputs, short-, intermediate- and long-term outcomes, assumptions and external factors.",
       answer: summary(),
       assessmentInstructions: "Score 0 to 100. Full marks when every box names something concrete and checkable (a real resource, activity, audience or measurable change, not a restatement of the box label) and each output plausibly causes the next outcome. Take about 12 off per box that is vague or missing, and up to 20 off when the chain has a causal gap the assumptions do not cover.",
-      feedbackInstructions: "Read the whole chain as one argument and comment on four things, in this order. First, anything unclear: a box a reader could not act on or picture. Second, the links between stages: name the one place where the step from a stage to the next is missing or not credible, and say what would have to be true for it to hold. Third, outputs written as outcomes: outputs are tangible products the organisation produced, outcomes are what changed because of them, so flag any box that names a product where a change belongs. Fourth, assumptions left implicit: name a belief the chain depends on that is not written in the Assumptions box. Be specific about their words. Do not rewrite their boxes for them."
+      feedbackInstructions: "Read the whole chain as one argument and comment on four things, in this order. First, anything unclear: a box a reader could not act on or picture. Second, the links between stages: name the one place where the step from a stage to the next is missing or not credible, and say what would have to be true for it to hold. Third, outputs written as outcomes: outputs are tangible products the organization produced, outcomes are what changed because of them, so flag any box that names a product where a change belongs. Fourth, assumptions left implicit: name a belief the chain depends on that is not written in the Assumptions box. Be specific about their words. Do not rewrite their boxes for them."
     }).then(function (result) {
       lastResponseId = result.responseId;
       if (Lens.requestFeedback && lastResponseId != null) {
