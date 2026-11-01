@@ -1,6 +1,6 @@
 ---
 id: '7f66b58a-83fb-483b-a41c-7e5564e40df3'
-title: "Option A: Stress-test Plan A's Verification Regime"
+title: "Option A: Stress-Test Plan A's Verification Regime"
 tldr: "Build a recommendation on Plan A from its strongest mechanism, weakest link, timeline, and covert-compute margin."
 summary_for_tutor: "One optional essay route. Complete A1–A4 as preparatory responses, then A5 as the final essay in this same lens. Respond to reasoning, not agreement with the source."
 reading_minutes: 5
