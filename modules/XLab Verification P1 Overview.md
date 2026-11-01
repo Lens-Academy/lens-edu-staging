@@ -16,6 +16,7 @@ content::
 \## What this course is about
 
 How could parties that do not trust one another verify meaningful limits on advanced AI development? This Lens Academy course works through that question, from motivation and policy scope to the first concrete evidence stream. It is based on [XLab's](https://xrisk.uchicago.edu/) open-source verification curriculum. To send feedback directly to XLab, use [their feedback form](https://forms.gle/KkWcHkKh87pygDzw9).
+
 ---
 
 AI is already a transformative technology. AI systems can accelerate scientific research, write and audit software, and discover mathematical breakthroughs, just to name a few: results that would have sounded impossible just a decade ago.
