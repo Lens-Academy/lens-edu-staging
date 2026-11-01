@@ -1,13 +1,14 @@
 ---
 title: "Introduction to Towards Causal Foundations of Safe AGI"
 author:
-  - "tom4everitt"
+  - {--{"author":"Hamza's AI","timestamp":1793552537381}@@"tom4everitt"--}{++{"author":"Hamza's AI","timestamp":1793552537381}@@"Tom Everitt"++}
   - "Lewis Hammond"
-  - "Francis Rhys Ward"
-  - "RyanCarey"
+  - {--{"author":"Hamza's AI","timestamp":1793552537381}@@"Francis Rhys--}{++{"author":"Hamza's AI","timestamp":1793552537381}@@"Rhys++} Ward"
+  - {--{"author":"Hamza's AI","timestamp":1793552537381}@@"RyanCarey"--}{++{"author":"Hamza's AI","timestamp":1793552537381}@@"Ryan Carey"++}
   - "James Fox"
-  - "mattmacdermott"
-  - "sbenthall"
+  - {--{"author":"Hamza's AI","timestamp":1793552537381}@@"mattmacdermott"--}{++{"author":"Hamza's AI","timestamp":1793552537381}@@"Sebastian Benthall"
+  - "Matt MacDermott"++}
+  - {--{"author":"Hamza's AI","timestamp":1793552537381}@@"sbenthall"--}{++{"author":"Hamza's AI","timestamp":1793552537381}@@"Shreshth Malik"++}
 source_url: "https://www.lesswrong.com/posts/3oQCY4he4zRzF6vQb/introduction-to-towards-causal-foundations-of-safe-agi"
 published: 2023-06-12
 created: 2026-11-01
