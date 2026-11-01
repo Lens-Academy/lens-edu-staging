@@ -9,7 +9,7 @@ tutor_minutes: 6
 ---
 #### Text
 content::
-\### Start with the claim, not the mechanism
+\### Start With the Claim, Not the Mechanism
 
 Consider the policy objective used throughout this unit.
 
