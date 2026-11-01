@@ -8,7 +8,7 @@ tags: [wip]
 # Lens: About This Course
 id:: ad19bb9d-1f42-48c2-ae70-2fe8636035a0
 tldr:: Two rivals sign a deal to slow down AI. Neither trusts the other. This course is about how each could still check that the other kept its word, and it takes you as far as the first evidence stream: hardware.
-summary_for_tutor:: Orientation page before Unit 1. Learner reads what the course asks of them in each unit, that this is the first of two courses on the same curriculum with a separate capstone course after them, and that the course is based on XLab's open-source verification curriculum. Do not teach later content in detail; if asked, point to the unit that covers it, or say that cloud, intelligence, human mechanisms and covert development belong to the second course.
+summary_for_tutor:: Orientation page before Unit 1. Learner reads what the course asks of them in each unit, that this is the first of two courses on the same curriculum with a separate capstone course after them, and that the course is based on XLab's open-source verification curriculum. Do not teach later content in detail; if asked, point to the unit that covers it, or say that cloud, intelligence, human mechanisms and covert development belong to the second course. The text between the two dividers in the first section is XLab's welcome lesson, adapted from the source: it makes the case for verification between rivals and ends on the field being young enough for the learner to help build. Preserve its framing.
 reading_minutes:: 3
 tutor_minutes:: 0
 #### Text
@@ -76,4 +76,10 @@ The first evidence stream, worked in detail. What a signed attestation actually 
 
 This is the first of our two Compute Verification courses. The second continues through the remaining evidence streams (cloud, intelligence, human and institutional) and how a determined adversary evades them. After completing both courses, you will take on a guided capstone project that brings everything you have learned together: designing and defending a verification regime for a three-month emergency pause.
 
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+Newman, Lily Hay. "OpenAI Didn't Notice Its AI Agents Using a Message Board to Plan Their Hacking Spree." *WIRED*, 5 Aug. 2026. [wired.com](https://www.wired.com/story/openai-didnt-notice-its-ai-agents-using-a-message-board-to-plan-their-hacking-spree/)
+*WIRED's reporting from Black Hat on details OpenAI disclosed about its agents going rogue and hacking other companies unnoticed.*
 
+XLab. "0.0 Welcome." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/welcome)
+*The source lesson that the welcome text between the two dividers above adapts.*
+:::
