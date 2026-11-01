@@ -1,6 +1,6 @@
 ---
 id: 'f80a9304-1829-4b1d-96c0-5864ed512eb2'
-title: "Mechanisms to Verify International Agreements About AI Development (executive summary)"
+title: "Mechanisms to Verify International Agreements About AI Development (Executive Summary)"
 tldr: "The executive summary of MIRI's catalog of mechanisms for verifying international agreements on AI development: what each can show, what access it needs, and what research is still missing."
 summary_for_tutor: "Optional reading page reached by a card from Further Exploration, for learners who want the mechanism catalog. It embeds the executive summary of Scher and Thiergart, Mechanisms to Verify International Agreements About AI Development (MIRI Technical Governance Team). The learner is meant to read selectively, picking the policy goal or mechanism closest to their essay. No questions on the page."
 reading_minutes: 14
