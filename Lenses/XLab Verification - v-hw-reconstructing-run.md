@@ -68,5 +68,5 @@ Peigné, Pierre, Ky Nguyen, and Paul Wang. "Zero knowledge verification for fron
 *The 2026 proposal estimating a future ZK system could verify dense frontier training at roughly 2–10 percent overhead, while naming thirteen unresolved technical problems and the training architectures it does not yet cover.*
 
 XLab. "2.1.7 Reconstructing a Declared Training Run." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-reconstructing-run)
-*The source lesson this page adapts. XLab has since renamed it "Independent Verification of Training Claims". Shavit (2023), Jia et al. (2021), Zhang et al. (2022), Fang et al. (2023) and Choi, Shavit and Duvenaud (2023) are cited inline above.*
+*The source lesson this page adapts. Shavit (2023), Jia et al. (2021), Zhang et al. (2022), Fang et al. (2023) and Choi, Shavit and Duvenaud (2023) are cited inline above.*
 :::
