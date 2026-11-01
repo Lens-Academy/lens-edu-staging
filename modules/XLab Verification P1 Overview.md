@@ -52,7 +52,7 @@ Five units. In each unit you work through the material on your own, then meet yo
 
 \## The five units
 
-:::callout {title="Unit 1: Why verification" tone="blue"}
+:::callout {title="Unit 1: Why Verification" tone="blue"}
 Why the problem exists at all. Arms-race incentives that individual state preferences cannot overcome, why a prevented catastrophe looks like nothing happened, what makes a theory of change worth acting on, and then the first real workout: stress-test AI 2040's Plan A, the most detailed public proposal for a verified slowdown, and write your verdict.
 :::
 
