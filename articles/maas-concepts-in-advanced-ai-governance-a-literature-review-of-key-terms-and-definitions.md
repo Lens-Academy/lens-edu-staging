@@ -1395,7 +1395,15 @@ Also in this series:
 
 [^cite-266]: Shanahan, Murray. The Technological Singularity. MIT Press Essential Knowledge Series. MIT Press, 2015. https://mitpress.mit.edu/9780262527804/the-technological-singularity/. Pg. 230.
 
-[^cite-271]: Bostrom, Nick, and Anders Sandberg. ‘Whole Brain Emulation: A Roadmap’. Technical Report. Future of Humanity Institute, 2008. http://www.fhi.ox.ac.uk/reports/2008-3.pdf. Pg 7.
+{++{"author":"Hamza's AI","timestamp":1793553275934}@@[^cite-267]: See also: Farisco, Michele, Gianluca Baldassarre, Emilio Cartoni, Antonia Leach, Mihai A. Petrovici, Achim Rosemann, Arleen Salles, Bernd Stahl, and Sacha J. van Albada. ‘A Method for the Ethical Analysis of Brain-Inspired AI’. arXiv, 18 May 2023. https://doi.org/10.48550/arXiv.2305.10938, pg. 4 (arguing that “an AI system is biologically inspired when its architecture and functioning include biological constraints that make specific parts of the system biologically realistic. Importantly, a biologically inspired AI system does not necessarily fully emulate or replicate the reference biological system, since different levels of biological realism are possible”). I thank Carla Zoe Cremer for this suggestion.
+
+[^cite-268]: Zador, Anthony, Sean Escola, Blake Richards, Bence Ölveczky, Yoshua Bengio, Kwabena Boahen, Matthew Botvinick, et al. ‘Catalyzing Next-Generation Artificial Intelligence through NeuroAI’. Nature Communications 14, no. 1 (22 March 2023): 1597. Pg. 2. https://doi.org/10.1038/s41467-023-37180-x
+
+[^cite-269]: Byrnes, Steven. ‘\[Intro to Brain-like-AGI Safety\] 1. What’s the Problem & Why Work on It Now?’ AI Alignment Forum, 26 January 2022. https://www.alignmentforum.org/posts/4basF9w9jaPZpoC8R/intro-to-brain-like-agi-safety-1-what-s-the-problem-and-why.
+
+[^cite-270]: Eth, Daniel. ‘The Technological Landscape Affecting Artificial General Intelligence and the Importance of Nanoscale Neural Probes’. Informatica 41, no. 4 (27 December 2017). http://www.informatica.si/index.php/informatica/article/view/1874. However, note that this usage may be nonstandard, as the term “neuromorphic” is more commonly used to brain-inspired computing hardware, not software; see Reuther, Albert, Peter Michaleas, Michael Jones, Vijay Gadepally, Siddharth Samsi, and Jeremy Kepner. ‘AI and ML Accelerator Survey and Trends’. In 2022 IEEE High Performance Extreme Computing Conference (HPEC), 1–10, 2022. https://doi.org/10.1109/HPEC55821.2022.9926331. Pg. 6. (“neuromorphic computing is the research, design, and development of computational hardware that models functionality and processes in brains, including chemical processes and electrical processes”).
+
+++}[^cite-271]: Bostrom, Nick, and Anders Sandberg. ‘Whole Brain Emulation: A Roadmap’. Technical Report. Future of Humanity Institute, 2008. http://www.fhi.ox.ac.uk/reports/2008-3.pdf. Pg 7.
 
 [^cite-272]: Shanahan, Murray. The Technological Singularity. MIT Press Essential Knowledge Series. MIT Press, 2015. https://mitpress.mit.edu/9780262527804/the-technological-singularity/. Pg. 232.
 
