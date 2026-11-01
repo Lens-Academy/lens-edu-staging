@@ -54,7 +54,7 @@ The rest of this unit uses one repeated method:
 
 **State the claim. Trace the measurement and trust chain. Name the adversary. Price the mechanism. Bound the conclusion. Find the remaining hole.**
 
-\#### Readings across this {++{"author":"Andreas's AI","timestamp":1793382381948}@@unit++}
+\#### Readings across this unit
 
 - **RATS and NVIDIA:** who makes an attestation claim, who checks it, and what current systems leave unverified.
 - **O’Gara et al.:** mechanisms and open questions for accounting, workload classification, location, configuration, and licensing.
