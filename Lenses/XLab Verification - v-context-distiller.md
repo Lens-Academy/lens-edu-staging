@@ -45,6 +45,7 @@ assessment-instructions:: Score out of 100. 40: where each of the four reports c
 force-feedback:: first
 feedback-instructions:: Name any report whose producer was given without its interest, and any report whose named reader would be served equally well by the other three. Then tell the learner to pick their report and start clipping. Two or three sentences, no praise.
 optional:: true
+{>>{"author":"Elias's AI","timestamp":1788016974835}@@Legacy #### Question converted to Question: Open with a fresh id, with XLab's notebook-callout wording restored; the callout gates nothing on XLab, hence optional. The invalid feedback:: false line is dropped.<<}
 
 #### Text
 content::
