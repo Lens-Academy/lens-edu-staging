@@ -1,6 +1,6 @@
 ---
 id: '6e33df66-6d2c-4426-99de-4f2dc78a0109'
-title: "Written output: actor, authority, and evidence map"
+title: "Written Output: Actor, Authority, and Evidence Map"
 tldr: "Pick one element of the advanced-AI supply chain and map who the actors are, what authority each one holds, and what evidence would let an outside party check what they do."
 summary_for_tutor: "Optional written exercise that closes Strategic foundations: an actor, authority, and evidence map for one element of the advanced-AI supply chain, drawing on whichever reading pathway is most relevant. Grade against the assessment instructions on the question."
 tags: [wip]
