@@ -1,7 +1,7 @@
 ---
 id: '54884869-4fd4-4cca-b389-d371eeacac41'
 slug: xlab-verification-p1-u3-feedback
-title: "Unit 3 feedback"
+title: "Unit 3 Feedback"
 tags:
   - work-in-progress
 ---
