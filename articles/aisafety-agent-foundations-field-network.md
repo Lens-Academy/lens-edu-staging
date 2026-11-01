@@ -1,9 +1,9 @@
 ---
 title: "Agent Foundations Field Network"
 author:
-  - "Aisafety"
+  - {--{"author":"Hamza's AI","timestamp":1793552383678}@@"Aisafety"--}{++{"author":"Hamza's AI","timestamp":1793552383678}@@"grantmaking.ai"++}
 source_url: "https://grantmaking.aisafety.com/orgs/601c70bd-48e7-45f9-947f-f887c79ec4c0#theory-of-impact"
-published: 2026-11-01
+published: {--{"author":"Hamza's AI","timestamp":1793552383678}@@2026-11-01--}{++{"author":"Hamza's AI","timestamp":1793552383678}@@2026-06-25++}
 created: 2026-11-01
 accessed: 2026-11-01
 llm-review:
