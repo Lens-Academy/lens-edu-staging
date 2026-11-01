@@ -9,7 +9,7 @@ tutor_minutes: 12
 ---
 #### Text
 content::
-\### Authorization, licensing, and control
+\### Authorization, Licensing, and Control
 
 A monitor produces evidence. A control mechanism changes what the machine can do. A complete policy still needs an authority that decides when control is justified.
 
