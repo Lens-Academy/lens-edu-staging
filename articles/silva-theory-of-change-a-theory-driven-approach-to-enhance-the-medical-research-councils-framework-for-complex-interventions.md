@@ -107,7 +107,27 @@ All these components are displayed graphically on a ToC map, often with an accom
 
 **Table 1 Common Theory of Change terminology and definitions**
 
-[Full size table](https://link.springer.com/article/10.1186/1745-6215-15-267/tables/1)
+{--{"author":"Hamza's AI","timestamp":1793552142443}@@[Full size table](https://link.springer.com/article/10.1186/1745-6215-15-267/tables/1)--}{++{"author":"Hamza's AI","timestamp":1793552142443}@@| Terminology | Definition | Examples |
+| --- | --- | --- |
+| **Impact** (ultimate outcome, goal) | The real-world change you are trying to affect. The program may contribute towards achieving this impact, and not achieve it solely on its own. | - Reduced prevalence of depression in a district. |
+| **Longterm outcome** | The final outcome the program is able to change on its own. This will be the primary outcome of the evaluation. | - Reduced symptoms of depression in the population receiving the intervention |
+| **Precondition** (short-term, intermediate and longterm outcomes, milestones) | The intended results of the interventions. Things that don’t exist now, but need to exist in order for the logical causal pathway not to be broken and the impact achieved. | - Staff in post to develop intervention. |
+|  |  | - Changes in knowledge, attitudes and skills of health workers to enable them to successfully deliver the intervention. |
+|  | The logical and sequential connections between shorter-term preconditions and longer-term outcomes that are illustrated on the ToC diagram as arrows. |  |
+| **Ceiling of accountability** | Level at which you stop using indicators to measure whether the outcomes have been achieved and therefore stop accepting responsibility for achieving those outcomes. The ceiling of accountability is often drawn between the impact and the longterm outcome. | - Project aims to change individual patient outcomes, but does not accept responsibility for changing levels of health problems in the wider population (the goal), as it cannot achieve this on its own (though it may contribute to this wider goal). |
+| **Indicator** | Things you can measure and document to determine whether you are making progress towards, or have achieved, each outcome. | -Number of staff trained |
+|  |  | - Knowledge of and attitudes towards mental illness among carers |
+|  |  | - Percentage of people with mental illness diagnosed in primary care |
+|  |  | - Reduction in clinical severity of mental illness |
+| **Interventions** (strategies) | The different components of the complex intervention. | - Training program for service providers |
+|  |  | - Community awareness campaign |
+|  | A dotted arrow is used to show when an intervention is needed to move from one outcome to the next. | - Inter-personal therapy |
+|  |  | - Antidepressant medication |
+|  | A solid arrow is used when one outcome logically leads to the next without the need for any intervention. |  |
+| **Rationale** | Key beliefs that underlie why one outcome is an outcome for the next, and why you must do certain activities to produce the desired outcome. Can be based on evidence or experience. | - Mothers and their families need to be educated about the signs and symptoms of maternal depression in order for maternal depression to be detected in the community. |
+| **Assumptions** | An external condition beyond the control of the project that must exist for the outcome to be achieved. | - Political desire to support the program exists |
+|  |  | - Funder continues to fund project |
+|  |  | - Task-sharing is politically and culturally acceptable |++}
 
 ### Feasibility and piloting complex interventions using Theory of Change ^feasibility-and-piloting-complex
 
