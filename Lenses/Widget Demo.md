@@ -1,7 +1,7 @@
 ---
 id: '47dbf76e-5b0b-4b55-ab9a-bbd17c2023ce'
 title: Widget Demo
-tldr: Three interactive widgets ported from XLab's Verification track, plus one deliberately broken one, embedded between text segments with the new Widget segment.
+tldr: Three interactive widgets ported from XLab's Verification track, embedded between text segments with the new Widget segment.
 summary_for_tutor: A demo lens for the Widget segment. The learner first works through "The verification problem" (four answers to how two rivals can know the other complies; only neutral privacy-preserving verification holds), then explores "The types of AI" concentric diagram (AI, Narrow AI, Machine Learning, Deep Learning, Generative AI, LLMs, Transformer LLMs, with example systems). Help them articulate why trust, punishment and transparency each fail, and where today's systems sit in the AI taxonomy.
 tags: [wip]
 ---
@@ -35,13 +35,6 @@ Third widget: where verification work is happening today, and where it is not. R
 
 #### Widget
 source:: [[../widgets/verification-landscape]]
-
-#### Text
-content::
-Finally, what a learner sees when a widget file has errors. The file below is broken on purpose (a stray `</span>` and an unclosed `<script>`); the validator flags it and the lesson shows a notice instead of a hole.
-
-#### Widget
-source:: [[../widgets/broken-demo]]
 
 #### Text
 content::
