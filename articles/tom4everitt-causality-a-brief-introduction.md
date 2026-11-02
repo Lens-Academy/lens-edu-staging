@@ -1,12 +1,12 @@
 ---
 title: "Causality: A Brief Introduction"
 author:
-  - {--{"author":"Hamza's AI","timestamp":1793552539715}@@"tom4everitt"--}{++{"author":"Hamza's AI","timestamp":1793552539715}@@"Lewis Hammond"++}
-  - {--{"author":"Hamza's AI","timestamp":1793552539715}@@"Lewis Hammond"--}{++{"author":"Hamza's AI","timestamp":1793552539715}@@"Tom Everitt"++}
-  - {--{"author":"Hamza's AI","timestamp":1793552539715}@@"Jonathan--}{++{"author":"Hamza's AI","timestamp":1793552539715}@@"Jon++} Richens"
+  - "Lewis Hammond"
+  - "Tom Everitt"
+  - "Jon Richens"
   - "Francis Rhys Ward"
-  - {--{"author":"Hamza's AI","timestamp":1793552539715}@@"RyanCarey"--}{++{"author":"Hamza's AI","timestamp":1793552539715}@@"Ryan Carey"++}
-  - {--{"author":"Hamza's AI","timestamp":1793552539715}@@"sbenthall"--}{++{"author":"Hamza's AI","timestamp":1793552539715}@@"Sebastian Benthall"++}
+  - "Ryan Carey"
+  - "Sebastian Benthall"
   - "James Fox"
 source_url: "https://www.lesswrong.com/posts/9ag5JGBnMsayBidwh/causality-a-brief-introduction"
 published: 2023-06-20

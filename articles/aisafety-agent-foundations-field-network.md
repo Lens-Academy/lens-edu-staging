@@ -1,9 +1,9 @@
 ---
 title: "Agent Foundations Field Network"
 author:
-  - {--{"author":"Hamza's AI","timestamp":1793552383678}@@"Aisafety"--}{++{"author":"Hamza's AI","timestamp":1793552383678}@@"grantmaking.ai"++}
+  - "grantmaking.ai"
 source_url: "https://grantmaking.aisafety.com/orgs/601c70bd-48e7-45f9-947f-f887c79ec4c0#theory-of-impact"
-published: {--{"author":"Hamza's AI","timestamp":1793552383678}@@2026-11-01--}{++{"author":"Hamza's AI","timestamp":1793552383678}@@2026-06-25++}
+published: 2026-06-25
 created: 2026-11-01
 accessed: 2026-11-01
 llm-review:
@@ -29,9 +29,7 @@ Hostacov, Czechia
 
 [affi.ne](https://www.affi.ne/)
 
-{--{"author":"Hamza's AI","timestamp":1793552423238}@@0
-
---}3 {--{"author":"Hamza's AI","timestamp":1793552423238}@@peopleFounded--}{++{"author":"Hamza's AI","timestamp":1793552423238}@@people · Founded++} 2025
+3 people · Founded 2025
 
 AFFINE (Agent Foundations FIeld NEtwork) runs intensive superintelligence alignment seminars and fellowships to upskill promising newcomers in agent foundations and AI alignment research.
 
@@ -67,22 +65,16 @@ AFFINE's theory of change centers on addressing a bottleneck in AI alignment res
 
 ## Grants Received– no grants recorded ^grants-received-no-grants
 
-{--{"author":"Hamza's AI","timestamp":1793552427732}@@[Add grant](https://grantmaking.aisafety.com/login?next=%2Forgs%2F601c70bd-48e7-45f9-947f-f887c79ec4c0%3FaddGrant%3Dtrue)
-
---}## Projects ^projects
+## Projects ^projects
 
 [AFFINE Algorithm Design](https://grantmaking.aisafety.com/projects/8d42e692-19e9-4d47-bb62-b0f1024e01be)
 
 AFFINE is an AI safety research training network that runs an intensive month-long superintelligence alignment seminar and year-long fellowship, with Algorithm Design as one of its core funded research focus areas.
 
-{--{"author":"Hamza's AI","timestamp":1793552430081}@@NetworkTrainingAgent--}{++{"author":"Hamza's AI","timestamp":1793552430081}@@Network · Training · Agent++} Foundations{--{"author":"Hamza's AI","timestamp":1793552430081}@@
-
-active--}
+Network · Training · Agent Foundations
 
 [AFFINE Technical Research](https://grantmaking.aisafety.com/projects/6c6aa8bc-8799-4925-9541-33e3efab3c0a)
 
 AFFINE (Agent Foundations FIeld NEtwork) runs intensive educational programs and supports technical research aimed at solving the superintelligence alignment problem, with a focus on agent foundations.
 
-{--{"author":"Hamza's AI","timestamp":1793552432505}@@NetworkResearchAgent--}{++{"author":"Hamza's AI","timestamp":1793552432505}@@Network · Research · Agent++} Foundations{--{"author":"Hamza's AI","timestamp":1793552432505}@@
-
-active--}
+Network · Research · Agent Foundations

@@ -27,7 +27,7 @@ Add discussion note here:
 
 ## Building the knowledge, networks, and capability for safe and responsible AI in Hong Kong ^building-the-knowledge-networks
 
-![Hong Kong Skyline]({--{"author":"Hamza's AI","timestamp":1793552316675}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/hub-theory-of-change-img1-7aff2e7f.jpg--}{++{"author":"Hamza's AI","timestamp":1793552316675}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/hub-theory-of-change-skyline-917d117f.jpg++})
+![Hong Kong Skyline](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/hub-theory-of-change-skyline-917d117f.jpg)
 
 ## The Problem ^the-problem
 

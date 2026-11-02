@@ -5,10 +5,10 @@ author:
   - "Josh Engels"
   - "Senthooran Rajamanoharan"
   - "Arthur Conmy"
-  - {--{"author":"Hamza's AI","timestamp":1793552554388}@@"bilalchughtai"--}{++{"author":"Hamza's AI","timestamp":1793552554388}@@"Bilal Chughtai"++}
-  - {--{"author":"Hamza's AI","timestamp":1793552554388}@@"CallumMcDougall"--}{++{"author":"Hamza's AI","timestamp":1793552554388}@@"Callum McDougall"++}
+  - "Bilal Chughtai"
+  - "Callum McDougall"
   - "János Kramár"
-  - {--{"author":"Hamza's AI","timestamp":1793552554388}@@"lewis smith"--}{++{"author":"Hamza's AI","timestamp":1793552554388}@@"Lewis Smith"++}
+  - "Lewis Smith"
 source_url: "https://www.lesswrong.com/posts/MnkeepcGirnJn736j/how-can-interpretability-researchers-help-agi-go-well"
 published: 2025-12-01
 created: 2026-11-01
