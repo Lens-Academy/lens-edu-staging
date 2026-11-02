@@ -8,7 +8,7 @@ title: Links and cards demo
 
 #### Text
 content::
-We can use normal wikilinks inside the editor to link to other lenses: [[../Lenses/Article annotation and text collapse demo]]. This does require the lens that you're linking to, to also be part of the same module or course.
+We can use normal wikilinks inside the editor to link to other lenses: {--{"author":"James's AI","timestamp":1793652293195}@@[[../Lenses/Article annotation and text collapse--}{++{"author":"James's AI","timestamp":1793652293195}@@[[../Lenses/Same-lens links++} demo]]. This does require the lens that you're linking to, to also be part of the same module or course.
 
 For a prettier UI, you can use `::card` before the wikilink.
 ::card[[Response to question segments]]
