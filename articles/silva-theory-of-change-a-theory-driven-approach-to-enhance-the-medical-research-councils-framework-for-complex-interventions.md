@@ -9,7 +9,7 @@ author:
   - "Crick Lund"
   - "Vikram Patel"
 source_url: "https://trialsjournal.biomedcentral.com/articles/10.1186/1745-6215-15-267"
-published: {--{"author":"Hamza's AI","timestamp":1793552108923}@@2014-12-01--}{++{"author":"Hamza's AI","timestamp":1793552108923}@@2014-07-05++}
+published: 2014-07-05
 created: 2026-11-01
 accessed: 2026-11-01
 llm-review:
@@ -107,7 +107,7 @@ All these components are displayed graphically on a ToC map, often with an accom
 
 **Table 1 Common Theory of Change terminology and definitions**
 
-{--{"author":"Hamza's AI","timestamp":1793552142443}@@[Full size table](https://link.springer.com/article/10.1186/1745-6215-15-267/tables/1)--}{++{"author":"Hamza's AI","timestamp":1793552142443}@@| Terminology | Definition | Examples |
+| Terminology | Definition | Examples |
 | --- | --- | --- |
 | **Impact** (ultimate outcome, goal) | The real-world change you are trying to affect. The program may contribute towards achieving this impact, and not achieve it solely on its own. | - Reduced prevalence of depression in a district. |
 | **Longterm outcome** | The final outcome the program is able to change on its own. This will be the primary outcome of the evaluation. | - Reduced symptoms of depression in the population receiving the intervention |
@@ -127,7 +127,7 @@ All these components are displayed graphically on a ToC map, often with an accom
 | **Rationale** | Key beliefs that underlie why one outcome is an outcome for the next, and why you must do certain activities to produce the desired outcome. Can be based on evidence or experience. | - Mothers and their families need to be educated about the signs and symptoms of maternal depression in order for maternal depression to be detected in the community. |
 | **Assumptions** | An external condition beyond the control of the project that must exist for the outcome to be achieved. | - Political desire to support the program exists |
 |  |  | - Funder continues to fund project |
-|  |  | - Task-sharing is politically and culturally acceptable |++}
+|  |  | - Task-sharing is politically and culturally acceptable |
 
 ### Feasibility and piloting complex interventions using Theory of Change ^feasibility-and-piloting-complex
 

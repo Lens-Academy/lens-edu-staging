@@ -1,12 +1,11 @@
 ---
 title: "Agency from a causal perspective"
 author:
-  - {--{"author":"Hamza's AI","timestamp":1793552542169}@@"tom4everitt"
-  - "mattmacdermott"--}{++{"author":"Hamza's AI","timestamp":1793552542169}@@"Matt MacDermott"++}
+  - "Matt MacDermott"
   - "James Fox"
-  - {--{"author":"Hamza's AI","timestamp":1793552542169}@@"Francis Rhys --}{++{"author":"Hamza's AI","timestamp":1793552542169}@@"Rhys ++}Ward"
-  - "Jonathan Richens"{++{"author":"Hamza's AI","timestamp":1793552542169}@@
-  - "Tom Everitt"++}
+  - "Rhys Ward"
+  - "Jonathan Richens"
+  - "Tom Everitt"
 source_url: "https://www.lesswrong.com/posts/Qi77Tu3ehdacAbBBe/agency-from-a-causal-perspective"
 published: 2023-06-30
 created: 2026-11-01
