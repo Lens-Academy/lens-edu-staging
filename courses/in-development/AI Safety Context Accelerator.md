@@ -142,7 +142,7 @@ facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
 
 %%
 Week 2 goals: What can be done (exesting approaches)
-- Metrics of success (how to compair ToCs)
+- Metrics of success (how to compare ToCs)
 - Main plans in the field to get there (main ToCs)
 	- Overview of main agendas
 	- how agendas interact
