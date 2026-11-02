@@ -3,7 +3,7 @@ title: "AI Governance: Opportunity and Theory of Impact"
 author:
   - "Allan Dafoe"
 source_url: "https://www.allandafoe.com/opportunity"
-published: {--{"author":"Hamza's AI","timestamp":1793552203058}@@2026-11-01--}{++{"author":"Hamza's AI","timestamp":1793552203058}@@2020-09++}
+published: 2020-09
 created: 2026-11-01
 accessed: 2026-11-01
 llm-review:

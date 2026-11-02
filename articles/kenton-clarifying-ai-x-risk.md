@@ -1,11 +1,11 @@
 ---
 title: "Clarifying AI X-risk"
 author:
-  - {--{"author":"Hamza's AI","timestamp":1793552558733}@@"zac kenton"--}{++{"author":"Hamza's AI","timestamp":1793552558733}@@"Zac Kenton"++}
+  - "Zac Kenton"
   - "Rohin Shah"
   - "David Lindner"
   - "Vikrant Varma"
-  - {--{"author":"Hamza's AI","timestamp":1793552558733}@@"Vika"--}{++{"author":"Hamza's AI","timestamp":1793552558733}@@"Victoria Krakovna"++}
+  - "Victoria Krakovna"
   - "Mary Phuong"
   - "Ramana Kumar"
   - "Elliot Catt"

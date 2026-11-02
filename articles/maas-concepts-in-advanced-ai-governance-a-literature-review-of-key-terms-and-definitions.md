@@ -6,8 +6,7 @@ source_url: "https://law-ai.org/advanced-ai-gov-concepts/"
 published: 2023-10-29
 created: 2026-11-01
 accessed: 2026-11-01
-{--{"author":"Hamza's AI","timestamp":1793553493323}@@review-status: "unreviewed: needs a Claude check (the review gave no PASS/REJECT)"
---}description: {--{"author":"Hamza's AI","timestamp":1793553493323}@@"Executive summary This--}{++{"author":"Hamza's AI","timestamp":1793553493323}@@"This++} report provides an overview, taxonomy, and preliminary analysis of many cornerstone ideas and concepts in the emerging field {--{"author":"Hamza's AI","timestamp":1793553493323}@@of..."--}{++{"author":"Hamza's AI","timestamp":1793553493323}@@of advanced AI governance."++}
+description: "This report provides an overview, taxonomy, and preliminary analysis of many cornerstone ideas and concepts in the emerging field of advanced AI governance."
 tags:
   - "article-importer"
 ---
@@ -19,9 +18,7 @@ Add discussion note here:
 
 %%
 
-{--{"author":"Hamza's AI","timestamp":1793553309624}@@![](https://law-ai.org/wp-content/uploads/2024/04/Screenshot-2024-09-27-at-19.06.56.png)
-
---}## Abstract ^abstract
+## Abstract ^abstract
 
 As AI systems have become increasingly capable, policymakers, the public, and the field of AI governance have begun to consider the potential impacts and risks from these systems—and the question of how best to govern such increasingly advanced AI. Call this field “Advanced AI Governance.” However, debates within and between these communities often lack clarity over key concepts and terms. In response, this report provides an overview, taxonomy, and preliminary analysis of many cornerstone ideas and concepts within advanced AI governance.
 
@@ -47,7 +44,7 @@ As such, this report reviews definitions for four categories of terms: the _obje
 
 The terms are summarized below in Table 1. Appendices provide detailed lists of definitions and sources for all the terms covered as well as a list of definitions for nine other auxiliary terms within the field.
 
-{--{"author":"Hamza's AI","timestamp":1793553090378}@@[Table 1 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/YwgX4/2/)--}{++{"author":"Hamza's AI","timestamp":1793553090378}@@**Table 1: Taxonomy of surveyed terms**
+**Table 1: Taxonomy of surveyed terms**
 
 | Category |  | Surveyed terms |
 | --- | --- | --- |
@@ -81,7 +78,7 @@ The terms are summarized below in Table 1. Appendices provide detailed lists of 
 |  | Policy | AI policy<br>AI policymaking strategy |
 |  | Governance | AI governance<br>Collaborative governance of AI technology<br>AGI safety and governance practices |
 | Field (i.e., schools or paradigms of advanced AI governance) |  | (Advanced) AI governance<br>Transformative AI governance<br>Long-term AI governance<br>Longtermist AI governance |
-| Theories of change (i.e., praxis) |  | (Analytic) frame<br>Theory of impact<br>Path to impact<br>Theory of change<br>Theory of victory |++}
+| Theories of change (i.e., praxis) |  | (Analytic) frame<br>Theory of impact<br>Path to impact<br>Theory of change<br>Theory of victory |
 
 ## Introduction ^introduction
 
@@ -197,14 +194,14 @@ Drawing on Schuett’s framework, this report draws a similar taxonomy for commo
 
 Each of these approaches has a different focus, object, and motivating question (Table 2).
 
-{--{"author":"Hamza's AI","timestamp":1793553111527}@@[Table --}{++{"author":"Hamza's AI","timestamp":1793553111527}@@**Table 2: Overview of approaches to defining advanced AI**
+**Table 2: Overview of approaches to defining advanced AI**
 
 |  | Focus | Approach | Object of definition | Motivating question |
 | --- | --- | --- | --- | --- |
 | 1 | Form and architecture of advanced AI | Essence-based | Individual AI systems | What is an advanced AI? |
-| ++}2 {--{"author":"Hamza's AI","timestamp":1793553111527}@@(interactive Datawrapper table)](https://datawrapper.dwcdn.net/r4c1i/1/)--}{++{"author":"Hamza's AI","timestamp":1793553111527}@@| Pathways towards advanced AI | Development-based | Individual AI systems produced through a particular technique or architecture | How could we build advanced AI? |
+| 2 | Pathways towards advanced AI | Development-based | Individual AI systems produced through a particular technique or architecture | How could we build advanced AI? |
 | 3 | General societal impacts of advanced AI | Sociotechnical-change-based | Aggregate effects of many AI systems | What are the societal impacts of advanced AI? |
-| 4 | Critical capabilities of particular advanced AI systems | Risk-based | Capabilities achieved by particular AI systems | What are key risks from advanced AI? |++}
+| 4 | Critical capabilities of particular advanced AI systems | Risk-based | Capabilities achieved by particular AI systems | What are key risks from advanced AI? |
 
 This report will now review these categories of approaches in turn. For each, it will broadly (1) discuss that approach’s core definitional focus and background, (2) list the terms and concepts that are characteristic of it, (3) provide some brief discussion of common themes and patterns in definitions given to these terms,[^note-65] and (4) then provide some preliminary reflections on the suitability of particular terms within this approach, as well as of the approach as a whole, to provide usable analytical or regulatory definitions for the field of advanced AI governance.[^note-66]
 
@@ -216,7 +213,7 @@ This report will now review these categories of approaches in turn. For each, it
 
 **Definitions and themes:** While many of these terms are subject to a wide range of different definitions (see Appendix 1A), they combine a range of common themes or patterns (see Table 3).
 
-{--{"author":"Hamza's AI","timestamp":1793553115358}@@[Table 3 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/dUDfP/1/)--}{++{"author":"Hamza's AI","timestamp":1793553115358}@@**Table 3: Form-focused definitions of advanced AI**
+**Table 3: Form-focused definitions of advanced AI**
 
 | Emphasis of definitional approach[^note-70]<br>Advanced AI is \[…\] | Term \[# of definitions surveyed\][^note-71] | Common themes and patterns in definitions |
 | --- | --- | --- |
@@ -232,7 +229,7 @@ This report will now review these categories of approaches in turn. For each, it
 | General-purpose and beyond-human performance | AI+ \[1\] | AI that is more intelligent than the most intelligent human |
 |  | (Machine / artificial) superintelligence (ASI) \[7\] | A(G)I that exceeds the best human performance in all domains |
 |  | Superhuman general-purpose AI (SGPAI) \[1\] | General-purpose AI (GPAI) that is simultaneously as good as or better than humans across nearly all tasks |
-|  | Highly-capable foundation models \[1\] | Foundation models that exhibit high performance across a broad domain, often performing as well as or better than a human |++}
+|  | Highly-capable foundation models \[1\] | Foundation models that exhibit high performance across a broad domain, often performing as well as or better than a human |
 
 **Suitability of overall definitional approach:** In the context of analyzing advanced AI governance, there are both advantages and drawbacks to working with form-centric terms. First, we review five potential benefits.
 
@@ -298,7 +295,7 @@ Further extending such frameworks, one can distinguish between at least 11 propo
 
 **Definitions:** As noted, these terms can be mapped on 11 proposed pathways towards advanced AI, with their own terms for the resulting advanced AI systems.
 
-{--{"author":"Hamza's AI","timestamp":1793553154342}@@[Table 4 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/XDJri/2/)--}{++{"author":"Hamza's AI","timestamp":1793553154342}@@**Table 4: Pathway-focused definitions of advanced AI**
+**Table 4: Pathway-focused definitions of advanced AI**
 
 | Pathway | Broad description[^note-119] | Terms \[# of definitions surveyed\][^note-120] |
 | --- | --- | --- |
@@ -312,7 +309,7 @@ Further extending such frameworks, one can distinguish between at least 11 propo
 | Neuro-integrationist approaches | Based on merging components of human and digital cognition | Brain-computer interfaces (BCI) \[1\] |
 | Embodiment approaches | Based on providing the AI system with a robotic physical “body” to ground cognition and enable it to learn from direct experience of the world | Embodied agent \[1\] |
 | Modular cognitive architecture approaches | Used in various fields but especially in robotics, where researchers integrate well-tested but “frozen” state-of-the-art modules (perception, reasoning, etc.) to improve agent performance without independent learning | (no clear single term) |
-| Hybrid approaches | Approaches that rely on combining deep neural network-based approaches to AI with other paradigms (such as symbolic AI) | Hybrid AI \[1\] |++}
+| Hybrid approaches | Approaches that rely on combining deep neural network-based approaches to AI with other paradigms (such as symbolic AI) | Hybrid AI \[1\] |
 
 Notably, there are significant differences in the prominence of these approaches—and the resources dedicated to them—at different frontier AI labs today. For instance, while some early work on the governance of advanced AI systems focused on AI systems that would (presumably) be built from first principles, bootstrapping,[^cite-121] or neuro-emulated approaches (see Table 4), much of such work has more recently shifted to focus on understanding the risks from and pathways to aligning and governing advanced AI systems created through computational scaling.
 
@@ -346,7 +343,7 @@ Many concepts in this approach have emerged from scholarship that aimed to abstr
 
 **Definitions and themes:** While many of these terms are subject to a wide range of different definitions (see Appendix 1C), they again feature a range of common themes or patterns (see Table 5).
 
-{--{"author":"Hamza's AI","timestamp":1793553158046}@@[Table 5 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/a33d4/1/)--}{++{"author":"Hamza's AI","timestamp":1793553158046}@@**Table 5: Societal-impact-focused definitions of advanced AI**
+**Table 5: Societal-impact-focused definitions of advanced AI**
 
 | Term \[# of definitions surveyed\][^note-144] | Selected themes and patterns |
 | --- | --- |
@@ -355,7 +352,7 @@ Many concepts in this approach have emerged from scholarship that aimed to abstr
 | Transformative AI (TAI) \[6\] | Significant, irreversible changes broad enough to impact all of society; possibly precipitates a qualitatively different future<br>Transition comparable with the agricultural or industrial revolutions |
 | Radically transformative AI (RTAI) \[1\] | Leads to radical changes to the metrics used to measure human progress and well-being; potential reversal of societal trends previously thought irreversible |
 | Artificial general intelligence (AGI) \[economic competitiveness definition\] \[3\] | Systems can outperform humans at most economically valuable work |
-| Machine superintelligence \[1\]<br>\[form & impact definition\] | Exceeds cognitive capacities of humans<br>Brings about revolutionary technological and economic advances on very short timescales |++}
+| Machine superintelligence \[1\]<br>\[form & impact definition\] | Exceeds cognitive capacities of humans<br>Brings about revolutionary technological and economic advances on very short timescales |
 
 **Suitability of approach:** Concepts within the sociotechnical-change-based approach may be unsuitable if the definitional purpose is _technical research_ but particularly appropriate if the purpose is _sociotechnical research_. However, there are a range of complicated benefits and drawbacks to this approach.
 
@@ -373,7 +370,7 @@ Many concepts in this approach have emerged from scholarship that aimed to abstr
 
 **Focus of approach:** Finally, a fourth cluster of terms follows a risk-based approach and focuses on critical capabilities, which certain types of advanced AI systems (whatever their underlying form or scientific architecture) might achieve or enable for human users. The development of such capabilities could then mark key thresholds or inflection points in the trajectory of society.
 
-**Other taxonomies:** Work focused on the significant potential impacts or risks of advanced AI systems is of course hardly new.[^cite-150] Yet in the past years, as AI capabilities have progressed, there has been renewed and growing concern that these advances are beginning to create key threshold moments where sophisticated AI systems develop capabilities that allow them to achieve or enable highly disruptive impacts in particular domains, resulting in significant societal risks. These risks may be as diverse as the capabilities in question—and indeed discussions of these risks do not always or even mostly presume (as do many {--{"author":"Hamza's AI","timestamp":1793553299290}@@_form-_ centric--}{++{"author":"Hamza's AI","timestamp":1793553299290}@@_form_-centric++} approaches) the development of _general_ capabilities in AI.[^cite-151] For instance, many argue that existing AI systems may already contribute to catastrophic risks in various domains:[^cite-152] large language models (LLMs) and automated biological design tools (BDTs) may already be used to enable weaponization and misuse of biological agents,[^cite-153] the military use of AI systems in diverse roles may inadvertently affect strategic stability and contribute to the risk of nuclear escalation,[^cite-154] and existing AI systems’ use in enabling granular and at-scale monitoring and surveillance[^cite-155] may already be sufficient to contribute to the rise of “digital authoritarianism”[^cite-156] or “AI-tocracy”[^cite-157], to give a few examples.
+**Other taxonomies:** Work focused on the significant potential impacts or risks of advanced AI systems is of course hardly new.[^cite-150] Yet in the past years, as AI capabilities have progressed, there has been renewed and growing concern that these advances are beginning to create key threshold moments where sophisticated AI systems develop capabilities that allow them to achieve or enable highly disruptive impacts in particular domains, resulting in significant societal risks. These risks may be as diverse as the capabilities in question—and indeed discussions of these risks do not always or even mostly presume (as do many _form_-centric approaches) the development of _general_ capabilities in AI.[^cite-151] For instance, many argue that existing AI systems may already contribute to catastrophic risks in various domains:[^cite-152] large language models (LLMs) and automated biological design tools (BDTs) may already be used to enable weaponization and misuse of biological agents,[^cite-153] the military use of AI systems in diverse roles may inadvertently affect strategic stability and contribute to the risk of nuclear escalation,[^cite-154] and existing AI systems’ use in enabling granular and at-scale monitoring and surveillance[^cite-155] may already be sufficient to contribute to the rise of “digital authoritarianism”[^cite-156] or “AI-tocracy”[^cite-157], to give a few examples.
 
 As AI systems become increasingly advanced, they may steadily and increasingly achieve or enable further critical capabilities in different domains that could be of special significance. Indeed, as leading LLM-based AI systems have advanced in their general-purpose abilities, they have frequently demonstrated emergent abilities that are surprising even to their developers.[^cite-158] This has led to growing concern that as these models continue to be scaled up[^cite-159] some next generation of these systems could develop unexpected but highly dangerous capabilities if not cautiously evaluated.[^cite-160]
 
@@ -392,7 +389,7 @@ What are these critical capabilities?[^cite-161] In some existing taxonomies, cr
 
 **Definitions and themes:** As noted, many of these terms have different definitions (see Appendix 1D). Nonetheless, a range of common themes and patterns can be distilled (see Table 6).
 
-{--{"author":"Hamza's AI","timestamp":1793553161684}@@[Table 6 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/4jOa3/1/)--}{++{"author":"Hamza's AI","timestamp":1793553161684}@@**Table 6: Critical capability-focused definitions of advanced AI**
+**Table 6: Critical capability-focused definitions of advanced AI**
 
 | Domain | Terms for critical capabilities<br>\[# of definitions surveyed\][^note-167] | Selected themes and patterns |
 | --- | --- | --- |
@@ -403,13 +400,13 @@ What are these critical capabilities?[^cite-161] In some existing taxonomies, cr
 | Strategic or military capabilities | “Decisive strategic advantage” \[1\]<br>“Singleton” \[1\] | Systems that achieve key strategic decision-making competences<br>Risks of geopolitical destabilization |
 | Political capabilities | Stable totalitarianism \[1\]<br>Value lock-in \[2\]<br>Actually existing AI (AEAI) \[1\] | Systems that achieve capabilities that enable effective surveillance, propaganda, or other social control<br>Risks of domination of society by narrow interests |
 | Exponential capabilities | Intelligence explosion \[2\]<br>Autonomous replication in the real world \[1\]<br>Autonomous AI research \[1\]<br>Duplicator \[1\] | Systems that achieve key (self)-improvement or -replication capabilities<br>Risks of sudden amplification of AI systems’ activities and impacts |
-| (Extremely) hazardous capabilities[^note-168] | “Advanced AI” \[2\]<br>“High-risk AI system” \[3\]<br>“AI systems of concern” \[1\]<br>Prepotent AI \[1\]<br>APS systems (“power-seeking AI”) \[1\]<br>WIDGET \[1\]<br>Rogue AI” \[2\]<br>Runaway AI \[1\]<br>Frontier (AI) model \[relative-capabilities threshold\] \[2\]<br>Frontier (AI) model \[dangerous-capabilities threshold\] \[2\]<br>Highly-capable systems of concern \[1\] | Systems that achieve key capabilities in various domains<br>Risks of massive physical and societal-scale harms |++}
+| (Extremely) hazardous capabilities[^note-168] | “Advanced AI” \[2\]<br>“High-risk AI system” \[3\]<br>“AI systems of concern” \[1\]<br>Prepotent AI \[1\]<br>APS systems (“power-seeking AI”) \[1\]<br>WIDGET \[1\]<br>Rogue AI” \[2\]<br>Runaway AI \[1\]<br>Frontier (AI) model \[relative-capabilities threshold\] \[2\]<br>Frontier (AI) model \[dangerous-capabilities threshold\] \[2\]<br>Highly-capable systems of concern \[1\] | Systems that achieve key capabilities in various domains<br>Risks of massive physical and societal-scale harms |
 
 **Suitability of approach:** There are a range of benefits and drawbacks to defining advanced AI systems by their (critical) capabilities. These include (in no particular order):
 
 **Benefit (1): Focuses on key capability development points of most concern:** A first benefit of adopting the risk-based definitional approach is that these concepts can be used, alone or in combination, to focus on the key thresholds or transition points in AI development that we most care about—not just the aggregate eventual, long-range _societal outcomes_ nor the (eventual) “final” _form_ of advanced AI, but rather the key intermediate (technical) _capabilities_ that would suffice to create (or enable actors to achieve) significant societal impacts: the points of no return.
 
-**Benefit (2): Highlighting risks and capabilities can more precisely inform the public understanding:** Ensuring that terms for advanced AI systems clearly center on particular risks or capabilities can help the public and policymakers understand the risks or challenges to be avoided, in a way that is far clearer than terms that focus on very general abilities or which are highly technical (i.e., terms within _essence-_ or {--{"author":"Hamza's AI","timestamp":1793553303325}@@_development-_ based--}{++{"author":"Hamza's AI","timestamp":1793553303325}@@_development_-based++} approaches, respectively). Such terms may also assist the public in comparing the risks of one model to those posed by another.[^note-169]
+**Benefit (2): Highlighting risks and capabilities can more precisely inform the public understanding:** Ensuring that terms for advanced AI systems clearly center on particular risks or capabilities can help the public and policymakers understand the risks or challenges to be avoided, in a way that is far clearer than terms that focus on very general abilities or which are highly technical (i.e., terms within _essence-_ or _development_-based approaches, respectively). Such terms may also assist the public in comparing the risks of one model to those posed by another.[^note-169]
 
 **Benefit (3): Generally (but not universally) clearer or more concrete:** While some terms within this approach are quite vague (e.g., “singleton”) or potentially difficult to operationalize or test for (e.g., “artificial consciousness”), some of the more specific and narrow terms within this approach could offer more clarity, and less definitional drift, to regulation. While many of them would need significant further clarification before they could be suitable for use in legislative texts (whether domestic laws or international treaties), they may offer the basis for more circumscribed, tightly defined professional cornerstone concepts for such regulation.[^note-170]
 
@@ -439,13 +436,13 @@ Beyond the object of concern of “advanced AI” (in all its diverse forms), re
 
 First off, those writing about the risks and regulation of AI have proposed a range of terms in describing the tools, practices, or nature of governance interventions that could be used in response (see Table 7).
 
-{--{"author":"Hamza's AI","timestamp":1793553165969}@@[Table 7 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/iajvn/1/)--}{++{"author":"Hamza's AI","timestamp":1793553165969}@@**Table 7: Definitions of AI strategy, policy, governance**
+**Table 7: Definitions of AI strategy, policy, governance**
 
 | Class | Terms \[number of definitions surveyed\][^note-179] | Themes |
 | --- | --- | --- |
 | “Strategy” | AI strategy research \[1\]<br>AI strategy \[1\]<br>Long-term impact strategies \[1\]<br>Strategy \[1\]<br>AI macrostrategy \[1\] | Focus on big-picture strategic questions to “navigate the transition to a world with advanced AI systems”<br>Focus on high-level questions to help inform decisions and prioritize use of resources |
 | “Policy” | AI policy \[1\]<br>AI policymaking strategy \[1\] | Focus on a range of soft and hard governance measures and tools<br>Organize a research field to inform and shape AI in a responsible, ethical, and robust manner |
-| “Governance” | AI governance \[5\]<br>Collaborative governance of AI technology \[1\]<br>AGI safety and governance practices \[1\] | The study of norms, policies, and institutions to help shape social outcomes from AI systems. |++}
+| “Governance” | AI governance \[5\]<br>Collaborative governance of AI technology \[1\]<br>AGI safety and governance practices \[1\] | The study of norms, policies, and institutions to help shape social outcomes from AI systems. |
 
 Like the term “advanced AI”, these terms set out _objects of study_ in scoping the practices or tools of AI governance. They matter insofar as they link these terms to tools for intervention.
 
@@ -455,13 +452,13 @@ Nonetheless, these terms do not capture the methodological dimension of how diff
 
 Thus, we can next consider different ways that practitioners have defined the _field_ of advanced AI governance.[^cite-181] Researchers have used a range of terms to describe the field of study that focuses on understanding the trajectory to forms of, or impacts of advanced AI and how to shape these. While these have significant overlaps in practice, it is useful to distinguish some key terms or framings of the overall project (Table 8).
 
-{--{"author":"Hamza's AI","timestamp":1793553171550}@@[Table 8 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/f2RxQ/1/)--}{++{"author":"Hamza's AI","timestamp":1793553171550}@@**Table 8: Definitions of advanced, transformative, and long-term(ist) AI governance**
+**Table 8: Definitions of advanced, transformative, and long-term(ist) AI governance**
 
 | Term \[# of definitions\][^note-182] | Focus |
 | --- | --- |
 | AI governance \[3\] | Governance of AI systems significantly more advanced and capable than those today |
 | Transformative AI governance \[1\] | Governance of societally transformative impacts from AI systems |
-| Longterm(ist) AI governance[^note-183] \[4\] | Governing AI from a perspective that cares about improving the technology’s impacts on the future trajectory of society, from (a) various ethical perspectives or (b) a specifically longtermist ethical perspective |++}
+| Longterm(ist) AI governance[^note-183] \[4\] | Governing AI from a perspective that cares about improving the technology’s impacts on the future trajectory of society, from (a) various ethical perspectives or (b) a specifically longtermist ethical perspective |
 
 However, while these terms show some different focus and emphasis, and different normative commitments, this need not preclude an overall holistic approach. To be sure, work and researchers in this space often hold _diverse expectations_ about the trajectory, form, or risks of future AI technologies; diverse _normative_ commitments and motivations for studying these; and distinct _research methodologies_ given their varied disciplinary backgrounds and epistemic precommitments.[^cite-184] However, even so, many of these communities remain united by a shared perception of the technology’s stakes—the shared view that shaping the impacts of AI is and should be a significant global priority.[^note-185]
 
@@ -477,7 +474,7 @@ Finally, researchers in this field have been concerned not just with studying an
 
 Thus, various researchers have defined terms that aim to capture the connection between immediate interventions or policy proposals, and the eventual goals they are meant to secure (see Table 9).
 
-{--{"author":"Hamza's AI","timestamp":1793553175268}@@[Table 9 (interactive Datawrapper table)](https://datawrapper.dwcdn.net/1AbV6/1/)--}{++{"author":"Hamza's AI","timestamp":1793553175268}@@**Table 9: Definitions of theories of change**
+**Table 9: Definitions of theories of change**
 
 | Term | Definitions |
 | --- | --- |
@@ -485,7 +482,7 @@ Thus, various researchers have defined terms that aim to capture the connection 
 | Theory of impact | A “simple two stage asset-decision model of research impact”[^cite-189] whereby impactful decisions will be made by key actors at some future point, and where earlier research can provide assets that help these decisions to be made well.[^cite-190] |
 | Path to impact[^cite-191] | “\[T\]he concrete intervention that future \[us\] thinks is more valuable than further research—can eventually be tackled with maximum force.”[^cite-192] |
 | Theory of change | “\[D\]efines long-term goals and then maps backward to identify necessary preconditions \[...\] explains the process of change by outlining causal linkages in an initiative, i.e., its shorter-term, intermediate, and longer-term outcomes.”[^cite-193]<br>“\[A\] visual depiction of your strategy,” linking activities, outcomes, impacts, or goals.”[^cite-194] |
-| Theory of victory | “\[C\]omplete stories about how humanity successfully navigates the transition to a world with advanced AI.”[^cite-195] |++}
+| Theory of victory | “\[C\]omplete stories about how humanity successfully navigates the transition to a world with advanced AI.”[^cite-195] |
 
 Drawing on these terms, one might also articulate new terms that incorporate elements from the above.[^note-196] For instance, one could define a “strategic approach” as a cluster of correlated views on advanced AI governance, encompassing (1) broadly shared _assumptions_ about the key technical and governance parameters of the challenge; (2) a broad _theory of victory_ and impact story about what solving this problem would look like; (3) a broadly shared _view of history,_ with historical analogies to provide comparison, grounding, inspiration, or guidance; and (4) a set of _intermediate strategic goals_ to be pursued, giving rise to near-term _interventions_ that would contribute to reaching these.
 
@@ -623,7 +620,7 @@ Approaches that pursue a minimally intelligent core system capable of subsequent
     -   “a strongly self-improving process, characterized by improvements to the content base that exert direct positive feedback on the intelligence of the underlying improving process.”[^cite-265]
     -   “The first AI in a series of recursively self-improving systems.”[^cite-266]
 
-#### {++{"author":"Hamza's AI","timestamp":1793553286791}@@Neuro-inspired pathways: “NeuroAI”, “brain-like-AGI”, “neuromorphic AI” ^neuro-inspired-pathways-neuroai-brain-li
+#### Neuro-inspired pathways: “NeuroAI”, “brain-like-AGI”, “neuromorphic AI” ^neuro-inspired-pathways-neuroai-brain-li
 
 Various forms of biologically-inspired, brain-inspired,[^cite-267] or brain-imitative approaches that draw on neuroscience and/or “connectomics” to reproduce general intelligence.
 
@@ -631,7 +628,7 @@ Various forms of biologically-inspired, brain-inspired,[^cite-267] or brain-imit
 -   **Brain-like-AGI**: “algorithms with big-picture similarity to key ingredients of human intelligence, presumably (though not necessarily) as a result of future people reverse-engineering those aspects of the human brain.”[^cite-269]
 -   **Neuromorphic AI**: “AGI based loosely on the principles of the human brain.”[^cite-270]
 
-#### ++}Neuro-emulated pathways: “Whole-brain-emulation” (WBE) ^neuro-emulated-pathways-whole-brain-emul
+#### Neuro-emulated pathways: “Whole-brain-emulation” (WBE) ^neuro-emulated-pathways-whole-brain-emul
 
 Approaches that aim to digitally simulate or recreate the states of human brains at fine-grained level.
 
@@ -1011,11 +1008,11 @@ Also in this series:
 
 [^note-69]: For different definitions for each of these terms with sources, see Appendix 1A.
 
-{++{"author":"Hamza's AI","timestamp":1793553228477}@@[^note-70]: Note, this categorization is oversimplifying, since many of these terms also include some emphasis on the other traits.
+[^note-70]: Note, this categorization is oversimplifying, since many of these terms also include some emphasis on the other traits.
 
 [^note-71]: For the specific definitions for each of these terms, see Appendix 1A.
 
-++}[^note-72]: Though that critically does not mean uncontested or uncontroversial.
+[^note-72]: Though that critically does not mean uncontested or uncontroversial.
 
 [^cite-73]: Schuett, Jonas, Noemi Dreksler, Markus Anderljung, David McCaffary, Lennart Heim, Emma Bluemke, and Ben Garfinkel. ‘Towards Best Practices in AGI Safety and Governance: A Survey of Expert Opinion’. arXiv, 11 May 2023. https://doi.org/10.48550/arXiv.2305.07153.
 
@@ -1205,11 +1202,11 @@ Also in this series:
 
 [^note-166]: For literature and sources for each of these terms, see Appendix 1D.
 
-{++{"author":"Hamza's AI","timestamp":1793553242096}@@[^note-167]: For the specific definitions, and sources, see Appendix 1D.
+[^note-167]: For the specific definitions, and sources, see Appendix 1D.
 
 [^note-168]: That is, systems that pose or enable critical levels of (extreme or existential) risk, regardless of whether they demonstrate a full range of human-level/like cognitive abilities.
 
-++}[^note-169]: I thank Kevin Frazier for insightful observations on this point.
+[^note-169]: I thank Kevin Frazier for insightful observations on this point.
 
 [^note-170]: As one analogy, one can consider the case of nuclear energy regulation: while general parlance refers to nuclear power stations as nuclear reactors or nuclear power projects, legislation on nuclear energy regulation and liability often refers to more circumscribed professional terms such as “nuclear installation,” which allows more discrete and targeted policymaking for individual technological artifacts or projects. I thank Aishwarya Saxena for this suggestion.
 
@@ -1229,9 +1226,9 @@ Also in this series:
 
 [^cite-178]: Seger, Elizabeth, Noemi Dreksler, Richard Moulange, Emily Dardaman, Jonas Schuett, K Wei, Christoph Winter, et al. ‘Open-Sourcing Highly Capable Foundation Models: An Evaluation of Risks, Benefits, and Alternative Methods for Pursuing Open-Source Objectives’. Centre for the Governance of AI, 2023. https://www.governance.ai/research-paper/open-sourcing-highly-capable-foundation-models. Ftn 6. (“We intentionally speak about ‘highly-capable models’ instead of ‘frontier models’. The ‘frontier’ refers to the cutting-edge of AI development \[18\], however the frontier of cutting-edge AI moves forward as AI research progresses. This means that some highly capable systems of concern—those capable of exhibiting dangerous capabilities with the potential to cause significant physical and societal-scale harm—will sit behind the frontier of AI capability. Even if these models are behind the frontier, we should still exercise caution in deciding to release such models, all else being equal.”).
 
-{++{"author":"Hamza's AI","timestamp":1793553250175}@@[^note-179]: For the specific definitions, see Appendix 2A.
+[^note-179]: For the specific definitions, see Appendix 2A.
 
-++}[^note-180]: This is not to say that building a strong normative commitment into the definition of a research field is without risk. Indeed, in the context of the study of existential risks, Cremer and Kemp have argued that this field should more clearly separate “the science of risk from the moral evaluation of risk,” consequently proposing a distinction between: (1) “extinction ethics,” which explores the ethical implications of extinction; (2) “existential ethics,” which explores the ethical implications of different societal forms and futures in order to understand what (non-extinction) events or trajectories should count as “existential risks” (e.g., dystopias under most value theories), and they argue that the ethical studies of these futures should be separated from (3) the “analysis of human extinction and global catastrophe” per se. Cremer, Carla Zoe, and Luke Kemp. ‘Democratising Risk: In Search of a Methodology to Study Existential Risk’, 28 December 2021. https://papers.ssrn.com/abstract=3995225. Pg. 12,18. Still, sociologically, it remains important to understand the motives or core concerns of different communities in the advanced AI governance field.
+[^note-180]: This is not to say that building a strong normative commitment into the definition of a research field is without risk. Indeed, in the context of the study of existential risks, Cremer and Kemp have argued that this field should more clearly separate “the science of risk from the moral evaluation of risk,” consequently proposing a distinction between: (1) “extinction ethics,” which explores the ethical implications of extinction; (2) “existential ethics,” which explores the ethical implications of different societal forms and futures in order to understand what (non-extinction) events or trajectories should count as “existential risks” (e.g., dystopias under most value theories), and they argue that the ethical studies of these futures should be separated from (3) the “analysis of human extinction and global catastrophe” per se. Cremer, Carla Zoe, and Luke Kemp. ‘Democratising Risk: In Search of a Methodology to Study Existential Risk’, 28 December 2021. https://papers.ssrn.com/abstract=3995225. Pg. 12,18. Still, sociologically, it remains important to understand the motives or core concerns of different communities in the advanced AI governance field.
 
 [^cite-181]: For analogous debates over the appropriate framing of the field focused on technical questions around AI, see previously: Christiano, Paul. ‘AI “Safety” vs “Control” vs “Alignment”’. Medium, 19 November 2016. https://ai-alignment.com/ai-safety-vs-control-vs-alignment-2a4b42a863cc. As well as more recently Cotra, Ajeya. ‘“Aligned” Shouldn’t Be a Synonym for “Good”’. Planned Obsolescence, 26 March 2023. https://www.planned-obsolescence.org/aligned-vs-good/.
 
@@ -1405,7 +1402,7 @@ Also in this series:
 
 [^cite-266]: Shanahan, Murray. The Technological Singularity. MIT Press Essential Knowledge Series. MIT Press, 2015. https://mitpress.mit.edu/9780262527804/the-technological-singularity/. Pg. 230.
 
-{++{"author":"Hamza's AI","timestamp":1793553275934}@@[^cite-267]: See also: Farisco, Michele, Gianluca Baldassarre, Emilio Cartoni, Antonia Leach, Mihai A. Petrovici, Achim Rosemann, Arleen Salles, Bernd Stahl, and Sacha J. van Albada. ‘A Method for the Ethical Analysis of Brain-Inspired AI’. arXiv, 18 May 2023. https://doi.org/10.48550/arXiv.2305.10938, pg. 4 (arguing that “an AI system is biologically inspired when its architecture and functioning include biological constraints that make specific parts of the system biologically realistic. Importantly, a biologically inspired AI system does not necessarily fully emulate or replicate the reference biological system, since different levels of biological realism are possible”). I thank Carla Zoe Cremer for this suggestion.
+[^cite-267]: See also: Farisco, Michele, Gianluca Baldassarre, Emilio Cartoni, Antonia Leach, Mihai A. Petrovici, Achim Rosemann, Arleen Salles, Bernd Stahl, and Sacha J. van Albada. ‘A Method for the Ethical Analysis of Brain-Inspired AI’. arXiv, 18 May 2023. https://doi.org/10.48550/arXiv.2305.10938, pg. 4 (arguing that “an AI system is biologically inspired when its architecture and functioning include biological constraints that make specific parts of the system biologically realistic. Importantly, a biologically inspired AI system does not necessarily fully emulate or replicate the reference biological system, since different levels of biological realism are possible”). I thank Carla Zoe Cremer for this suggestion.
 
 [^cite-268]: Zador, Anthony, Sean Escola, Blake Richards, Bence Ölveczky, Yoshua Bengio, Kwabena Boahen, Matthew Botvinick, et al. ‘Catalyzing Next-Generation Artificial Intelligence through NeuroAI’. Nature Communications 14, no. 1 (22 March 2023): 1597. Pg. 2. https://doi.org/10.1038/s41467-023-37180-x
 
@@ -1413,7 +1410,7 @@ Also in this series:
 
 [^cite-270]: Eth, Daniel. ‘The Technological Landscape Affecting Artificial General Intelligence and the Importance of Nanoscale Neural Probes’. Informatica 41, no. 4 (27 December 2017). http://www.informatica.si/index.php/informatica/article/view/1874. However, note that this usage may be nonstandard, as the term “neuromorphic” is more commonly used to brain-inspired computing hardware, not software; see Reuther, Albert, Peter Michaleas, Michael Jones, Vijay Gadepally, Siddharth Samsi, and Jeremy Kepner. ‘AI and ML Accelerator Survey and Trends’. In 2022 IEEE High Performance Extreme Computing Conference (HPEC), 1–10, 2022. https://doi.org/10.1109/HPEC55821.2022.9926331. Pg. 6. (“neuromorphic computing is the research, design, and development of computational hardware that models functionality and processes in brains, including chemical processes and electrical processes”).
 
-++}[^cite-271]: Bostrom, Nick, and Anders Sandberg. ‘Whole Brain Emulation: A Roadmap’. Technical Report. Future of Humanity Institute, 2008. http://www.fhi.ox.ac.uk/reports/2008-3.pdf. Pg 7.
+[^cite-271]: Bostrom, Nick, and Anders Sandberg. ‘Whole Brain Emulation: A Roadmap’. Technical Report. Future of Humanity Institute, 2008. http://www.fhi.ox.ac.uk/reports/2008-3.pdf. Pg 7.
 
 [^cite-272]: Shanahan, Murray. The Technological Singularity. MIT Press Essential Knowledge Series. MIT Press, 2015. https://mitpress.mit.edu/9780262527804/the-technological-singularity/. Pg. 232.
 

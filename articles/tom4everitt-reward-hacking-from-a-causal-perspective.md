@@ -1,14 +1,13 @@
 ---
 title: "Reward Hacking from a Causal Perspective"
 author:
-  - {--{"author":"Hamza's AI","timestamp":1793552548329}@@"tom4everitt"
-  - --}"Francis Rhys Ward"
-  - {--{"author":"Hamza's AI","timestamp":1793552548329}@@"sbenthall"--}{++{"author":"Hamza's AI","timestamp":1793552548329}@@"Tom Everitt"
-  - "Sebastian Benthall"++}
+  - "Francis Rhys Ward"
+  - "Tom Everitt"
+  - "Sebastian Benthall"
   - "James Fox"
-  - {--{"author":"Hamza's AI","timestamp":1793552548329}@@"mattmacdermott"--}{++{"author":"Hamza's AI","timestamp":1793552548329}@@"Matt MacDermott"
-  - "Milad Kazemi"++}
-  - {--{"author":"Hamza's AI","timestamp":1793552548329}@@"RyanCarey"--}{++{"author":"Hamza's AI","timestamp":1793552548329}@@"Ryan Carey"++}
+  - "Matt MacDermott"
+  - "Milad Kazemi"
+  - "Ryan Carey"
 source_url: "https://www.lesswrong.com/posts/aw5nqamqtnDnW8w9u/reward-hacking-from-a-causal-perspective"
 published: 2023-07-21
 created: 2026-11-01
