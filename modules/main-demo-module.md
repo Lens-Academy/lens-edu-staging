@@ -85,7 +85,7 @@ source:: [[../Lenses/Nested callouts demo]]
 # Lens:
 source:: [[../Lenses/Article excerpt demo]]
 
-%% To choose what the sidebar credits for a whole lens, put `sidebar_author:` in the lens's frontmatter (or `sidebar_author::` on an inline lens): a name replaces the article authors and video channels in the sidebar {--{"author":"Iris's AI","timestamp":1791603415023}@@entry, the module overview--}{++{"author":"Iris's AI","timestamp":1791603415023}@@entry++} and card links, and `none` credits nobody. Bylines and the source bar keep the article's author. %%
+%% To choose what the sidebar credits for a whole lens, put `sidebar_author:` in the lens's frontmatter (or `sidebar_author::` on an inline lens): a name replaces the article authors and video channels in the sidebar entry and card links, and `none` credits nobody. Bylines and the source bar keep the article's author. %%
 # Lens: Choosing the sidebar credit
 id:: e4296b35-2f55-4225-bd44-5aa14231f6d1
 sidebar_author:: Lens Academy
@@ -102,16 +102,16 @@ source:: [[../articles/safety-statement-on-ai-extinction-risk-cais]]
 from:: "**Mitigating the risk of extinction from AI"
 to:: "Signatories:"
 
-%% An article's `author_url:` frontmatter (one URL, or a list in the same order as `author`) turns the author's name into a {--{"author":"Iris's AI","timestamp":1791603399838}@@link:--}{++{"author":"Iris's AI","timestamp":1791603399838}@@link++} in the {--{"author":"Iris's AI","timestamp":1791603399838}@@byline,--}{++{"author":"Iris's AI","timestamp":1791603399838}@@byline and++} the source {--{"author":"Iris's AI","timestamp":1791603399838}@@bar and this lens's sidebar entry.--}{++{"author":"Iris's AI","timestamp":1791603399838}@@bar. The sidebar entry shows the name as plain text.++} %%
+%% An article's `author_url:` frontmatter (one URL, or a list in the same order as `author`) turns the author's name into a link in the byline and the source bar. The sidebar entry shows the name as plain text. %%
 # Lens: Linking the author
 id:: 456648fa-9602-4ca3-8f77-22bbe0c7364e
-tldr:: Shows author_url: in an article's frontmatter: the author's name {--{"author":"Iris's AI","timestamp":1791603402232}@@links to their page, --}in the byline {--{"author":"Iris's AI","timestamp":1791603402232}@@and in the sidebar.--}{++{"author":"Iris's AI","timestamp":1791603402232}@@links to their page.++}
+tldr:: Shows author_url: in an article's frontmatter: the author's name in the byline links to their page.
 summary_for_tutor:: Demo lens for the author_url: article field. A Text segment explains the field, then an Article segment shows the opening of the Article presentation demo, whose frontmatter sets author_url: https://lensacademy.org, so the byline's "Lens Academy" is a link.
 reading_minutes:: 1
 
 #### Text
 content::
-The article below has `author_url: https://lensacademy.org` in its frontmatter, so the author's name {++{"author":"Iris's AI","timestamp":1791603404508}@@in the byline ++}links to that page (opening in a new{--{"author":"Iris's AI","timestamp":1791603404508}@@ tab), both in the byline and in this--}{++{"author":"Iris's AI","timestamp":1791603404508}@@ tab). This++} lens's sidebar {--{"author":"Iris's AI","timestamp":1791603404508}@@entry. Hover over it there:--}{++{"author":"Iris's AI","timestamp":1791603404508}@@entry shows++} the name {--{"author":"Iris's AI","timestamp":1791603404508}@@is its own link inside the row.--}{++{"author":"Iris's AI","timestamp":1791603404508}@@as plain text.++}
+The article below has `author_url: https://lensacademy.org` in its frontmatter, so the author's name in the byline links to that page (opening in a new tab). This lens's sidebar entry shows the name as plain text.
 
 #### Article
 source:: [[../articles/Article annotation and text collapse demo]]
