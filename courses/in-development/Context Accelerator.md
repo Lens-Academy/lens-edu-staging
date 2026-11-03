@@ -16,7 +16,7 @@ Cap: https://cap.so/s/my8sc06hzsbbx9a
 [[../../../Lens/11-People/Elias/Posts/Context accelerator ToC post]]
 
 ### Field Needs:
-1. More experiencied people from relevant fields (like infosecurity, communications, policy, operations, and law) with AI safety context.
+1. More experiencied people from relevant fields (like infosecurity, communications, policy, operations, and law) with AI safety context. (https://forum.effectivealtruism.org/posts/b82SLXwEHRCs3TFJA/why-experienced-professionals-fail-to-land-high-impact-roles)
 2. People who can and do evaluate the EV of their projects/actions (ability and habit of deep ToC thinking).
 	💡 People without deep models make bad decisions
 ### Target Audience:
