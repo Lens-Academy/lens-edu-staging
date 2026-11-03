@@ -40,7 +40,9 @@ Cap: https://cap.so/s/my8sc06hzsbbx9a
 6. **Develop strategic context:** (knowledge) Have informed takes on what are the main challenges in AIS (alignment problem...), and what are the main strategies (i.e. main AIS plans/ theories of change) people have in mind. You will understand the main worldviews (uniformitarianism vs catastrophism). (60%) (18h problems + 18h plans)
 7. **Practice strategic judgement:** (skills) Learn how to do ToC thinking, practice it against the main theories of change, possibly {==develop your own takes on the strategies above==}{>>{"author":"Mark Kagach","timestamp":1793701043757}@@Great goal for Advanced Strategy Accelerator!\n\n"AI Safety Strategy Accelerator" => write their own ToC, develop their own takes, etc<<}. (25%) (15 hours)
 8. Career stuff:
-	9. deciding what subfields to focus your career on, how to decide such things, just good mental models for career decision making. (10%) (6h?)
+	9. deciding what subfields to focus your career on
+	10. how to decide such things
+	11. just good mental models for career decision making. (10%) (6h?)
 10. **Get credibility for the field:** You will leave with credible output/signal for the field which will help you with your next steps. 
 11. **Next steps, with support:** You {==will leave==}{>>{"author":"Mark Kagach","timestamp":1793315493338}@@Nail better public phrasing to make sure that we deliver on it and don't sound too inflating. Career guidance/ career advising...<<} with a clear plan of what to do next. Top students get some guidance from us, maybe 1-1 help, maybe references to next orgs.
 
