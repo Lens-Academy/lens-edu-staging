@@ -26,8 +26,8 @@ Cap: https://cap.so/s/my8sc06hzsbbx9a
 4. **Context:** 50+ hours, typically BlueDot’s AGI Strategy plus one more course.
 5. **Their problems:**
 	6. they don't have enough context in AIS to get into paid positions
-	6. don't know their next step (after BlueDot)
-	7. the next programs are too selective or full-time and in person
+	7. don't know their next step (after BlueDot)
+	8. the next programs are too selective or full-time and in person
 	8. still unclear on the main players the priorities and which sources to trust
 	9. no (weak) network
 
