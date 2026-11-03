@@ -28,8 +28,8 @@ Cap: https://cap.so/s/my8sc06hzsbbx9a
 	6. they don't have enough context in AIS to get into paid positions
 	7. don't know their next step (after BlueDot)
 	8. the next programs are too selective or full-time and in person
-	8. still unclear on the main players the priorities and which sources to trust
-	9. no (weak) network
+	9. still unclear on the main players the priorities and which sources to trust
+	10. no (weak) network
 
 ### TA's Value Prop:
 1. **Progression clarity:** This course is the clear next step after BlueDot courses. 
