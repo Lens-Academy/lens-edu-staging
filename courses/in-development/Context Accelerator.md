@@ -31,7 +31,7 @@ Cap: https://cap.so/s/my8sc06hzsbbx9a
 	9. still unclear on the main players the priorities and which sources to trust
 	10. no (weak) network
 
-### Target AudncValue Prop:
+### Target Audince's Value Prop:
 1. **Progression clarity:** This course is the clear next step after BlueDot courses. 
 2. **Good format:** Scaled enough for you to be able to participate (not too selective). Is online, and can be done part-time.
 3. **High-quality peers:** You'll be surrounded by similarly mostly mid-career pros. Good discussions etc.
