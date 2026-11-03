@@ -194,11 +194,11 @@ Optional activities
 	- One page summary
 	- Optional: Doc/in-person presentation/video
 %%
-## Meeting: Week 3
+### Meeting: Week 3
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
-##
+## Week 4:
 %%
 Week 4 goals:  Basic rules and common failure modes in building an AI Safety career
 Basics:
