@@ -104,7 +104,7 @@ Format is how people learn and connect (high-touch: [do things that don't scale]
 ### Therefore the syllabus is:
 #### Week 1
 Central classification: 
-what are the end state of the world with safe AI (aka all the things we migh)
+what are the end state of the world with safe AI (aka all the things we might want when we say that we want to solve AI)
 #### Week 2
 #### Week 3
 #### Week 4
