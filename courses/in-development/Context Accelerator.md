@@ -103,6 +103,9 @@ Format is how people learn and connect (high-touch: [do things that don't scale]
 
 ### Therefore the syllabus is:
 #### Week 1
+#### Week 1
+#### Week 1
+#### Week 1
 
 
 %%
