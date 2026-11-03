@@ -116,8 +116,6 @@ Week 1 goals: What we want (the shape of the alignment problem and requirments f
 	- ...
 - Motivation (what we want to build/achive)
 	- desired outcomes (different ways to catagorise)
-		- ...
-	- problems we face
   - What success looks like
   -  the concept of Toc (and its structure)
 - Exercise to evaluate ToCs (basics structure and flaws)
