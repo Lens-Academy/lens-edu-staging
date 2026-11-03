@@ -125,7 +125,7 @@ Week 1 goals: What we want (the shape of the alignment problem and requirments f
 
 Optional activities every week
 - Meme contest
-- Schedule 1-on-1s (copy EAG system)
+- Schedule 1-on-1s
 - Open discussion (moderated)
 	- Barometer exercise
 - Unconference days (participants or navs can give lighning talks - session 30min)
