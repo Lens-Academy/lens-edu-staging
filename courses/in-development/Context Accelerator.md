@@ -107,7 +107,7 @@ Central classification:
 what are the end state of the world with safe AI (aka all the things we might want when we say that we want to solve AI safety problem)
 - ib a world where we solved ai safety problem we have guarantees of
 	- We know who to controll any AI we build
-	- We 
+	- AI we build
 	- AI with capabilities above given limit will never be created
 	- A
 #### Week 2
