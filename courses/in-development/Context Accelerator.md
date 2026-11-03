@@ -105,7 +105,7 @@ Format is how people learn and connect (high-touch: [do things that don't scale]
 #### Week 1
 Central classification: 
 what are the end state of the world with safe AI (aka all the things we might want when we say that we want to solve AI safety problem)
-- ib a world where we solved ai safety 
+- ib a world where we solved ai safety problem we have guarantees 
 #### Week 2
 #### Week 3
 #### Week 4
