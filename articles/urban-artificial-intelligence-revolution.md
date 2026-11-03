@@ -8,7 +8,7 @@ source_url: https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.
 %%
 Add discussion note here:
 
-...
+Elias: extremely good introduction for showing how fast things progress.
 
 %%
 
