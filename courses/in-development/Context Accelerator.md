@@ -74,7 +74,7 @@ Format is how people learn and connect (high-touch: [do things that don't scale]
 	- Everybody makes slide of themselves → see other participants
 	- Maybe: everyone records a 3–5 min intro video and watches their group's
 	- Maybe: a study buddy (helps retention)?
-- Connection with peers beyond work (format): thankfulness (gratitude), (maybe sugar cubes) online shared meals, {==meme contest==}{>>{"author":"lauren","timestamp":1793192616754}@@Proceed carefully but this is a good, dangerously-powerful idea. Skilled memers make a big difference to a movement's success, but memes have a life of their own, and the pipe forest a memer is balancing on is made of other memers who disagree and will clown on you in return. In many cases that's fine, but it's important to understand it.<<}, (holding very lightly: game nights, online running club...), 
+- Connection with peers beyond work (format): thankfulness (gratitude), (maybe sugar cubes) online shared meals, meme contest, (holding very lightly: game nights, online running club...), 
 - Connect with people in the field (format):
 	- **Ted lightning talks from experts with Q&A** afterwards (ideally people engaging with experts research, ToC stress-testing it, and then them doing great Q&A)
 	- **A career fair:** hiring staff sharing what they look for
@@ -124,7 +124,7 @@ Week 1 goals: What we want (the shape of the alignment problem and requirments f
 - Exercise that feeds into written output (very high level - in the next weeks they will get more details)
 
 Optional activities every week
-- {==Meme contest==}{>>{"author":"lauren","timestamp":1793192616754}@@Proceed carefully but this is a good, dangerously-powerful idea. Skilled memers make a big difference to a movement's success, but memes have a life of their own, and the pipe forest a memer is balancing on is made of other memers who disagree and will clown on you in return. In many cases that's fine, but it's important to understand it.<<}
+- Meme contest
 - Random coffee (maybe add a map of interests or something)
 	- Maybe: Schedule 1-on-1s (copy EAG system)
 - Open discussion (moderated)
