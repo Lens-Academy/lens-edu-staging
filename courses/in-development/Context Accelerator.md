@@ -135,12 +135,12 @@ Optional activities every week
 	- Hiring people from different orgs (explain what type of people they look for)
 	- Topic experts...
 	- People presenting their job
-	- {==Can we get Rob Miles here? (talking about safety coms)==}{>>{"author":"Elias","timestamp":1793121779129}@@If we get 2-3 big names that's extremely good for marketing (@mark do you want to take this?)<<}
+	- Can we get Rob Miles here? (talking about safety coms)
 	- ...
 - Exercise peer review (moderated)
 
 Optional activities
-- {==Lightning talk about mastermind groups==}{>>{"author":"Elias","timestamp":1793119053999}@@Should be recorded, uploaded to YT, and shared in discord @hamza, can you build this?<<}
+- Lightning talk about mastermind groups
 
 %%
 # Meeting: Week 1
