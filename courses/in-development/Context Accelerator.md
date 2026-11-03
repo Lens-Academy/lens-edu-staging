@@ -173,7 +173,7 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 %%
 Week 3 goals: How to contribute (current needs of the field)
 - Basic overview over the orgs, funders and people behind each plan
-- Paths to impact
+- {>>{"author":"Elias","timestamp":1793712093895}@@Maybe this should be week 4 so we have more time explaining the problem and proposed solutions before<<}Paths to impact
 	- The concepts of  "an impatfull contribution" and "a neglected area/problem"
 	- Background, {==career capital and transferable skills.==}{>>{"author":"Elias","timestamp":1793702565518}@@Should probably not be core of this course (general career advice can be given specifically to lens honors students outside of main program) - Differential impact of teaching neglected AI-safety ideas if likely higher that general career advice<<}
 	- Time horisons and planning
