@@ -1,7 +1,7 @@
 ---
 id: '7a95027d-dd53-4089-bd63-0f31c9edce08'
 slug: context-accelerator
-title: "Context Accelerator"
+title: "AI Safety Context Accelerator"
 description: "Four intense weeks of AI safety strategy. You learn where AI is going, how it could go wrong, the main plans and who works on them, and leave with your own theory of change and a 3-month plan."
 tags: [wip]
 ---
