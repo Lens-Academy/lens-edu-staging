@@ -108,6 +108,7 @@ Format is how people learn and connect (high-touch: [do things that don't scale]
 #### Week 1
 
 
+
 %%
 
 %%
