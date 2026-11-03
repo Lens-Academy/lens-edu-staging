@@ -42,7 +42,7 @@ Cap: https://cap.so/s/my8sc06hzsbbx9a
 8. Career stuff:. (10%) (6h?)
 	9. deciding what subfields to focus your career on
 	10. how to decide such things
-	11. just good mental models for career decision making. (10%) (6h?)
+	11. just good mental models for career decision making
 10. **Get credibility for the field:** You will leave with credible output/signal for the field which will help you with your next steps. 
 11. **Next steps, with support:** You {==will leave==}{>>{"author":"Mark Kagach","timestamp":1793315493338}@@Nail better public phrasing to make sure that we deliver on it and don't sound too inflating. Career guidance/ career advising...<<} with a clear plan of what to do next. Top students get some guidance from us, maybe 1-1 help, maybe references to next orgs.
 
