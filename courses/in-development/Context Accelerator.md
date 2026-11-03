@@ -38,7 +38,7 @@ Cap: https://cap.so/s/my8sc06hzsbbx9a
 4. **Get network and exposure:** With peers, and get exposure to people already in AIS through talks, Q&A's.  Lens Fellows get direct personal references.)
 5. **Understand the field:** (knowledge) You will understand what are the main players, what are their priorities, what is the field's history, what are the most trusted places for getting information (Zvi, Transformer...). (15%) (9 hours)
 6. **Develop strategic context:** (knowledge) Have informed takes on what are the main challenges in AIS (alignment problem...), and what are the main strategies (i.e. main AIS plans/ theories of change) people have in mind. You will understand the main worldviews (uniformitarianism vs catastrophism). (60%) (18h problems + 18h plans)
-7. **Practice strategic judgement:** (skills) Learn how to do ToC thinking, practice it against the main theories of change, possibly {==develop your own takes on the strategies above==}{>>{"author":"Mark Kagach","timestamp":1793701043757}@@Great goal for Advanced Strategy Accelerator!\n\n"AI Safety Strategy Accelerator" => write their own ToC, develop their own takes, etc<<}. (25%) (15 hours)
+7. **Practice strategic judgement:** (skills) Learn how to do ToC thinking, practice it against the main theories of change. (25%) (15 hours)
 8. Career stuff:. (10%) (6h?)
 	9. deciding what subfields to focus your career on
 	10. how to decide such things
