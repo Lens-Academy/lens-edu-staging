@@ -171,7 +171,7 @@ Week 3 goals: How to contribute (current needs of the field)
 - Paths to impact
 	- The concepts of  "an impatfull contribution" and "a neglected area/problem"
 	- Background, career capital and transferable skills.
-	- Time horisonts and planning
+	- Time horisons and planning
 	- Counterfactual impact
 - Overview of requirements of main orgs/programs/jobs in the field
 - Exercise: trace a contribution from a concrete role or project to a broader ToC.
