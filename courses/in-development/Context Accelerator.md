@@ -130,7 +130,7 @@ Optional activities every week
 	- Barometer exercise
 - Unconference days (participants or navs can give lighning talks - session 30min)
 	- Copy MAISUs "minimal ai safety unconference"
-	- First iteration has a lot of external tasks (to create momentum and have people want tog)  
+	- First iteration has a lot of external tasks (to create momentum and have people want to give talks)  
 - Expert/Alumni/Navigator Lighning talks throughout the week (15-20 talks in general )
 	- Hiring people from different orgs (explain what type of people they look for)
 	- Topic experts...
