@@ -180,7 +180,7 @@ Week 3 goals: How to contribute (current needs of the field)
 	- Counterfactual impact
 - Overview of requirements of main orgs/programs/jobs in the field
 - Exercise: trace a contribution from a concrete role or project to a broader ToC.
-- Alternative: "does this agenda fit you" something like
+- Alternative: {=="does this agenda fit you" something like==}{>>{"author":"Elias","timestamp":1793712121077}@@Isn't that week 4?<<}
 	- Is this agenda promising?
 	- Is this agenda neglected?
 	- Could I make a valuable contribution to it?
