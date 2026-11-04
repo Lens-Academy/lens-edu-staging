@@ -13,7 +13,7 @@ source:: [[../articles/yudkowsky-goodharts-curse]]
 #### Question: Open
 id:: cedd0afa-c20f-4945-bc21-56fe79fa8aa1
 content::
-A lab trains a reward model to score chatbot answers for how helpful they are. Across typical answers its scores are right on average: it overrates some answers and underrates others by about the same amount. The lab then uses a powerful search to pick, out of millions of candidate answers, the one with the highest score. Some kinds of answers, such as answers in unusual formats, were rare in the reward model's training data, so its scores for those are much less reliable.
+A lab trains a reward model to score chatbot answers for how helpful they are. Across typical answers its scores are right on average: it overrates some answers and underrates others by about the same amount. The lab then uses a powerful search to pick, out of millions of candidate answers, the one with the highest score. Some kinds of answers, such as answers in unusual formats, were rare in the reward model's training data, so its scores for those are much less reliable. They are still right on average, but with much bigger errors in both directions.
 
 Answer in your own words.
 
