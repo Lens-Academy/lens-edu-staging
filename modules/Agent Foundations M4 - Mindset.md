@@ -2,8 +2,6 @@
 id: 'b1f8e6d6-5a04-4196-98d7-a4e931679105'
 slug: afsra-m4-mindset
 title: "Module 4: Mindset"
-tags:
-  - wip
 ---
 # Lens: Module 4: Mindset
 id:: 91b226c8-23f8-4701-baf4-0da9299fcf1d
