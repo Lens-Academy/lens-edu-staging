@@ -33,7 +33,7 @@ content::
 
 In your own words:
 
-1\. What does Wentworth think control research covers: which danger, in which AIs?
+1. What does Wentworth think control research covers: which danger, in which AIs?
 
 2a. Where does most of the risk lie?
 
