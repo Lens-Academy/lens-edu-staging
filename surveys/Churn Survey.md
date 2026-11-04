@@ -3,7 +3,7 @@ id: '8791d0ab-cf8c-4c50-ab83-1ccffb1e023d'
 title: A few quick questions
 ---
 
-%% Churned-learner survey (build churn-survey-platform, draft 2026-10-30). Loaded by path `surveys/Churn Survey.md`; edit wording and options here, no code change needed. Never change an id:: once anyone has answered. Each question's "decision" note lives in ops-architecture/build-churn-survey-platform/out/QUESTIONS-DRAFT.md. Option order in Q1 and Q2 maps to the same churn solutions: competing commitments, prep/reading support, scheduling, group/facilitator quality, level-matched grouping, course fit, self-study path. Q1 is ranked (ranked:: true, max:: 3). Q1 and Q2 shuffle with the last option pinned (shuffle:: true, pin-last:: 1; needs content_processor 0.92 / PR #1512; do NOT promote to lens-edu-production before the platform release carrying #1471 + #1512). Wording source of truth: Relay Lens/07-Operations/Churn Survey Draft Questions.md. %%
+%% Churned-learner survey (build churn-survey-platform, draft 2026-10-30). Loaded by path `surveys/Churn Survey.md`; edit wording and options here, no code change needed. Never change an id:: once anyone has answered. Each question's "decision" note lives in ops-architecture/build-churn-survey-platform/out/QUESTIONS-DRAFT.md. Option order in Q1 and Q2 maps to the same churn solutions: competing commitments, prep/reading support, scheduling, group/facilitator quality, level-matched grouping, course fit, self-study path. Q1 and Q2 are ranked (ranked:: true, max:: 3). Q1 and Q2 shuffle with the last option pinned (shuffle:: true, pin-last:: 1; needs content_processor 0.92 / PR #1512; do NOT promote to lens-edu-production before the platform release carrying #1471 + #1512). Wording source of truth: Relay Lens/07-Operations/Churn Survey Draft Questions.md. %%
 
 #### Text
 content:: Thanks for giving the course a go with us! This takes about two minutes, and what you tell us shapes how we run groups for the next people who join.
@@ -41,7 +41,8 @@ options::
 - A way to catch up on a session I missed (make-up or recording)
 - Clearer joining details and reminders
 - Nothing really, the timing just wasn't right for me
-multi:: true
+ranked:: true
+max:: 3
 shuffle:: true
 pin-last:: 1
 
