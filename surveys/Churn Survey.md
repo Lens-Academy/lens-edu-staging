@@ -13,8 +13,8 @@ id:: c7473d1f-59c6-41f2-9e66-4ef93610ff83
 content:: What stopped you coming to your group's sessions?
 description:: Tap a choice again to undo it.
 options::
-- Life got busy (work, study, travel, illness, family)
-- I started another program, course or job that took the time
+- Work, study or another program took up the time
+- Something came up (travel, illness, family)
 - I'd fallen behind on the reading and didn't want to turn up unprepared
 - The session time stopped working for me
 - The sessions themselves didn't feel worth the time
