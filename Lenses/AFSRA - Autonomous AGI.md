@@ -14,7 +14,7 @@ id:: dc16ac63-f4a6-4cba-a29b-47462a89ae99
 content::
 A team plans its first superintelligent AI. They will give it one fixed goal, then remove every off-switch and every way for humans, including themselves, to change its goal or give it new instructions. They say this is the best design there is.
 
-1. If the team succeeds in aligning this AI, what does the reading say is the advantage of this design?
+1. In your own words, if the team succeeds in aligning this AI, what is the advantage of this design, according to the reading?
 2. In your own words, why does the reading advise against building this kind of AI on the first try?
 3. What does the reading suggest building first instead?
 force-feedback:: first
@@ -22,7 +22,7 @@ assessment-instructions:: Score out of 100. The reading's idea: an autonomous AG
 30: Step 1. Says that once it is aligned, nobody can misuse it or steer it toward their own ends, because control rests with a fixed goal that no human can change afterwards. Accept "least moral hazard" when the answer also says what it means: no one can misuse or redirect the AI.
 45: Step 2. Says that with no off-switch and no way to correct it, any mistake in its goal cannot be fixed, so the team would need to be sure in advance that they got alignment right, and know it, which is a very hard bar. Accept the point that this is the hardest kind of AI to align, needing complete alignment, as part of the explanation.
 25: Step 3. Names a Task AGI or describes an AI that humans keep steering or correcting as it works.
-Cap at 50 if the answer to step 2 consists mostly of quoted sentences rather than the student's own explanation.
+Cap at 50 if the answers to steps 1 and 2 consist mostly of quoted sentences rather than the student's own explanation.
 Model answer, for the feedback, not a grading checklist: "If it works, nobody can misuse it, since no one can steer it toward their own goals any more. But with no off-switch, one mistake in its goal can never be fixed, so the team would have to be completely sure they got it right before they switch it on, and be able to know that. That's the hardest alignment problem there is. The reading suggests starting with a Task AGI, an AI that humans can keep steering."
 feedback-instructions:: The student has just read Eliezer Yudkowsky's Arbital entry "Autonomous AGI" and answered a three-step question about a team that plans to make its first superintelligence autonomous, with a fixed goal and no off-switch. Key ideas from the reading: (1) an autonomous AGI, Bostrom's "Sovereign", acts in the world on its own preferences without further steering, (2) building one means trusting the AI over the programmers and removing all constraints and off-switches it does not take on itself, (3) if successfully aligned it has the least moral hazard, because steering goes to a fixed preference framework the programmers cannot modify, (4) it needs total alignment, the hardest case, and we would need to know we got it right, so the first try should be a Task AGI or something else with ongoing user steering.
 
