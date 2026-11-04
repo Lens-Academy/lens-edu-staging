@@ -83,10 +83,10 @@ id:: 9f903c63-bb03-4ca8-ba0c-d74e08dd7093
 content::
 \## Revision 3
 
-The allocation above is a bet. This question is about the model behind the bet. Without scrolling back, restate your ten-year model from memory, and then change it. What did this unit move? Name one strategy lever from this unit that changed a number or a mechanism in your model, and one thing you now hold more loosely. If nothing moved, say that, and say what would move you.
+The allocation above is a bet. This question is about the guess behind the bet. On day zero, in Unit 1, you wrote a guess with three parts: what should be done about AI in the next two years, what that should leave standing in two hundred years, and the mechanism that connects the two. Without scrolling back, restate that guess from memory, and then change it. What did this unit move? Name one strategy lever from this unit that changed a number or a mechanism in your guess, and one thing you now hold more loosely. If nothing moved, say that, and say what would move you.
 
 
-feedback-instructions:: The student wrote a day-zero model of the next ten years of AI in Unit 1 and has restated it from memory at the end of each unit since. They have now finished Unit 4, which walked through rival strategies for reducing AI risk (technical alignment, treaties, inside-lab practice, national projects, anti-concentration guardrails, buying time) and ended with them allocating 100 points across those levers.
+feedback-instructions:: The student wrote a day-zero guess in Unit 1 (what should be done about AI in the next two years, what that should leave standing in two hundred years, and the mechanism connecting the two) and has been asked to say it again from memory at the end of each unit since. They have now finished Unit 4, which walked through rival strategies for reducing AI risk (technical alignment, treaties, inside-lab practice, national projects, anti-concentration guardrails, buying time) and ended with them allocating 100 points across those levers.
 
 Compare against nothing. You do not have their earlier text and should not ask for it. Restating from memory rather than scrolling back is deliberate: it is the skill being practiced.
 
