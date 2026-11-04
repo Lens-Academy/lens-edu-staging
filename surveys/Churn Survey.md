@@ -48,9 +48,11 @@ pin-last:: 1
 #### Question: Choice
 id:: f8bfc059-8459-471e-b75d-068d78157f95
 content:: Would you like to pick the course back up?
+description:: You can also sign up for a course yourself on our [courses page](https://lensacademy.org/courses).
 options::
 - Yes, put me in a group in a later round
 - Yes, but at my own pace
+- No, but I'd like to take a different course
 - Not right now
 
 #### Question: Choice
