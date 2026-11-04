@@ -1,0 +1,28 @@
+---
+id: '8eea677a-03b5-445a-b2f8-7ec264072944'
+title: "Metaethical AI"
+tldr: June Ku tries to write a complete ethical goal for an AI, not as a list of moral rules but as a method for working out from human brains what we value and what we should do. The method assumes unlimited computing power and a perfect model of the world and our brains.
+summary_for_tutor: June Ku's 2019 introduction to MetaEthical.AI ("AIXI for Friendliness"), a technical ethical goal function for AI written as open source code in setlX. The abstract: assuming unlimited computation and a complete low-level causal model of the world and the adult human brains in it, the AI attributes beliefs and values to a brain in two stages. First it picks the syntax of the brain's mental content, a decision algorithm that is isomorphic to the brain's causal processes, best compresses its behaviour and maximizes charity. Then semantics: sense data refer to their own occurrence, and other content is built from logical and causal combinations of these. The decision algorithm also identifies the factors we use when deciding what to value, and unfolding them gives what we should do. The motivation section lists the MIRI and FHI cluster of views and ends with the point that human values have hidden complexity and missing one dimension can be very bad, so a metaethical approach seems more promising than capturing ethical principles at the object level. Ku hopes this turns philosophical problems into engineering problems. The rest explains the choice of setlX. The full proposal is the code and commentary at metaethical.ai, which the post links to. The question asks the student why Ku prefers a metaethical approach to a list of rules, and what the construction assumes.
+reading_minutes: 8
+tutor_minutes: 6
+---
+#### Article
+source:: [[../articles/ku-formal-metaethics-and-metasemantics-for-ai-alignment]]
+
+#### Question: Open
+id:: 2eeef995-a604-4b00-b301-29e203de7c33
+content::
+A colleague proposes making a superintelligence safe by writing down a long list of the moral rules most people agree on and programming the AI to follow them.
+
+1. In your own words, why does Ku's motivation section say a metaethical approach is more promising than this plan?
+2. Ku's construction makes two simplifying assumptions about what the AI has available. What are they?
+force-feedback:: first
+assessment-instructions:: Score out of 100. The post's idea: human values have a great deal of hidden complexity, and missing just one part of them can lead to very bad outcomes, so writing down ethical principles directly (at the object level) is likely to leave something out. A metaethical approach instead gives the AI a way to work out what we value, and what we should do, from how human minds actually decide. To make this a technical problem, Ku assumes unlimited computation and a complete low-level causal model of the world and of the adult human brains in it.
+50: Step 1. Says that human values are far more complex than they look, so a written list of rules will likely miss something, and missing even one part can lead to very bad outcomes. Accept an answer that adds that a metaethical approach has the AI work out what we value instead, as long as it gives this reason.
+50: Step 2. 25 points: unlimited computing power. 25 points: a complete, detailed causal model of the world and of the human brains in it.
+Model answer, for the feedback, not a grading checklist: "Human values are much more complicated than any list we could write, and if the list misses even one thing that matters, the result could be terrible. So Ku tries to give the AI a method for working out what we value from how our brains work, instead of the values themselves. The construction assumes the AI has unlimited computing power and a complete low-level model of the world and the human brains in it."
+feedback-instructions:: The student has just read June Ku's "Formal Metaethics and Metasemantics for AI Alignment" and answered a two-step question about a colleague who wants to program a superintelligence with a list of agreed moral rules. Key ideas from the post: (1) human values have hidden complexity and missing one dimension can be very bad, so a metaethical approach seems more promising than capturing all ethical principles at the object level, (2) the construction assumes unlimited computation and a complete low-level causal model of the world and adult human brains, (3) the AI first picks a decision algorithm that is isomorphic to the brain's causal processes, best compresses its behaviour and maximizes charity, then grounds meaning in sense data, (4) from the factors we use when deciding what to value, it works out what we should do, turning philosophy into engineering.
+
+Reply in 80 to 150 words, in short paragraphs, with no lists. Do not over-validate and avoid generic praise (great job, excellent, well done). Name the strongest specific part of the answer. If the score is below 100, name the most important thing the answer missed or got wrong, then ask one question that helps them fix it. At 100, confirm briefly and tell them to move on. Allow at most 2 follow-up turns, then close with one sentence on how well they have the post's idea.
+
+If the student says they do not understand, do not dismiss it and do not repeat the question. Give one concrete foothold from the post: the last bullet of the motivation section, on the hidden complexity of human values, or the first sentence of the abstract's second paragraph, for the assumptions. If their next message still does not attempt the question, rephrase the whole question in different terms. Judge only against what the post says, and treat as a gap only what the question asks.
