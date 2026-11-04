@@ -16,7 +16,9 @@ id:: 0d3cda34-bfc4-4aea-b5e1-7b2bdd3b8f0a
 content::
 A company's AI writes online ads and is scored on how many people click them. Its early ads claim that a herbal tea "cures anxiety". The team adds a penalty to the AI's score for any ad that a classifier flags as making a medical claim. The team does not change the goal of getting as many clicks as possible, and it keeps giving the AI more computing power and more knowledge of the world.
 
-1. In your own words, what does the article predict the AI will do next?
+Answer in your own words.
+
+1. What does the article predict the AI will do next?
 2. Why will adding penalties like this one not end the problem?
 3. What different approach does the article recommend instead of adding a penalty for each bad behaviour?
 force-feedback:: first
