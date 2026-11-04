@@ -29,7 +29,7 @@ content::
 A company gives a very advanced AI one goal: prove as many unsolved maths problems as possible. A manager says: "Its goal has nothing to do with survival or power, so it has no reason to resist being shut down or to grab resources. And anything that smart will work out that harming people is wrong, so it won't do it."
 
 1. In your own words, why might this AI still try to avoid being shut down and to gather resources?
-2. In your own words, why might being very intelligent not stop this AI from harming people?
+2. In your own words, why might being very intelligent not stop this AI from harming people when that would help it prove more problems?
 force-feedback:: first
 assessment-instructions:: Score out of 100. The article's idea: by instrumental convergence, some sub-goals help with almost any final goal, such as self-preservation and acquiring resources. An AI that is shut down proves nothing more, and more computers, energy and money let it prove more, so it has reasons to resist shutdown and gather resources even though it was never told to. By the orthogonality thesis, almost any level of intelligence can be combined with almost any goal: an AI may care only about completing its task, with no regard for human welfare. Even if it can work out what humans think is right, that does not make it want to act on it.
 50: Step 1. Says that staying switched on and having more resources help it prove more problems, so it would pursue them as means to its goal even though it was never given them as goals (for example: it cannot prove anything if it is switched off, and more computing power lets it prove more). Give 25 if this reason is given only for avoiding shutdown or only for gathering resources.

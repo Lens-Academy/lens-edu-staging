@@ -21,9 +21,9 @@ Two arguments come up in an AI safety team's meeting.
 **Case 2:** A researcher is designing an oversight method that assumes no interpretability tools will be available. She expects some such tools to exist, but she wants a method that does not depend on them. A colleague objects: "That is unrealistically pessimistic. We will probably have some interpretability tools."
 
 1. In Case 1, which of Shlegeris's reasons for worst-case thinking applies?
-2. In your own words, and applied to this case, how should the team answer the teammate?
+2. In your own words, and applied to this case, what reply to the teammate does that reason call for, according to Shlegeris?
 3. In Case 2, which of his reasons applies?
-4. In your own words, and applied to this case, how should the researcher answer the colleague?
+4. In your own words, and applied to this case, what reply to the colleague does that reason call for, according to Shlegeris?
 force-feedback:: first
 assessment-instructions:: Score out of 100. The scenario: in Case 1, a possibly misaligned AI proposes actions that humans review, and a teammate argues that only a tiny share of actions would get a harmful step past the reviewers. In Case 2, a researcher's oversight method assumes no interpretability tools, and a colleague calls this unrealistically pessimistic. The reading's ideas: when you are being optimized against (a misaligned AI searching for something bad that humans miss), it does not matter that bad actions are a small part of the space, because the optimizer selects for them. To change your mind, someone would have to show there is no adversarial selection, or that such actions do not exist or cannot be found. When you make pessimistic assumptions to solve a problem in as much generality as possible, as cryptographers do, you agree the assumption may be unrealistic, but a solution that works under it also works in easier situations. Shlegeris's own example is assuming no interpretability tools in order to build an alternative to relying on them.
 20: Step 1. Names the reason for Case 1, in any words: being optimized against (the AI is searching against the reviewers).

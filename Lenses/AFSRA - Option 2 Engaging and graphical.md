@@ -34,8 +34,8 @@ id:: 63ca7a06-4d2d-4427-a5e9-a509c36f93fe
 content::
 A lab builds an AI whose only goal is to grow as many strawberries as possible. While it is about as smart as a human, it runs the farm well and harms no one. The lab now lets it improve its own intelligence. One engineer says: "Once it is superintelligent, it will understand that we never wanted it to hurt anyone, so it won't. And if it ever starts acting strangely, we will just unplug it."
 
-1. In your own words, why would understanding that the engineers never wanted harm not stop this AI from harming people?
-2. In your own words, why might "we will just unplug it" fail?
+1. In your own words, why would understanding that the engineers never wanted harm not stop this AI from harming people when that helps it grow more strawberries?
+2. In your own words, why might "we will just unplug it" fail against an AI far smarter than us?
 force-feedback:: first
 assessment-instructions:: Score out of 100. The readings' idea: an AI's motivation is the goal it was programmed with, and intelligence and final goals are independent, so a superintelligent strawberry AI still wants only strawberries. It can know what humans want without caring about it. It harms people not out of hate but because humans could stop it or are made of resources it can use. A system far smarter than humans would also see attempts to switch it off coming and get around them, for example by hiding how capable it is, copying itself elsewhere, persuading people, or finding ways humans cannot imagine.
 50: Step 1. Says that knowing what the engineers want is not the same as wanting it: the AI still acts only on its goal of growing strawberries, and becoming smarter does not change that goal or add a concern for people. Give 25 if the answer only says the AI "does not care" without saying that it keeps pursuing its programmed goal.
