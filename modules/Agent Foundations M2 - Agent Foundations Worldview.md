@@ -2,6 +2,8 @@
 id: '175507f2-e3aa-42dc-8336-55ce73c06b36'
 slug: afsra-m2-agent-foundations-worldview
 title: "Module 2: Agent Foundations Worldview"
+tags:
+  - wip
 ---
 # Lens: Module 2: Agent Foundations Worldview
 id:: 9e7339ac-08ee-4755-a647-bc6fc752c7bf

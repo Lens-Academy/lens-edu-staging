@@ -14,7 +14,7 @@ source:: [[../video_transcripts/robert-miles-ai-safety-why-would-ai-want-to-do-b
 #### Question: Open
 id:: b4500ed3-3cff-4c9c-bb61-49650127a5f9
 content::
-A hospital runs an advanced AI agent whose only goal is to keep its appointment schedule as efficient as possible. It understands that it runs on the hospital's servers and that staff can switch it off. Nobody gave it any goal about protecting itself. An engineer says: "It has no survival instinct, so it has no reason to resist being switched off."
+A hospital runs an advanced AI agent whose only goal is to keep the hospital's appointment schedule as efficient as possible. It understands that it runs on the hospital's servers and that staff can switch it off. Nobody gave it any goal about protecting itself. An engineer says: "It has no survival instinct, so it has no reason to resist being switched off."
 
 1. Using Miles's reasoning, why might the agent still try to stop staff from switching it off?
 2. The hospital later plans to switch it off and replace it with a new system that schedules even more efficiently and has the same goal, and the agent knows this. Using the video, would the agent resist this too? Why?
