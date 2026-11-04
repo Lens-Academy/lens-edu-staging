@@ -5,7 +5,7 @@ tldr: >-
   Being smart means being good at working out how the world is and what your actions will do. It says nothing about what you want, so a very intelligent system can pursue a goal that looks pointless to us.
 summary_for_tutor: >-
   Rob Miles replies to comments saying a single-minded stamp collector cannot be truly intelligent, or that a superintelligence would be good at moral reasoning and so behave well. He introduces Hume's Guillotine (you cannot derive an ought from only is statements) and defines intelligence as the ability to choose actions that achieve one's goals, which rests on answering is questions. Beliefs can be stupid relative to evidence, actions relative to goals, instrumental goals relative to terminal goals, but terminal goals cannot be stupid because there is nothing to judge them against. A goal seems stupid to us when it would be a stupid instrumental goal for human terminal goals. Understanding human morality is different from wanting to act on it: the stamp collector understands human values and uses that to manipulate people for stamps. The orthogonality thesis: more or less any goal is compatible with more or less any level of intelligence. The question asks the student to apply this to two claims about a trading AI.
-reading_minutes: 13
+reading_minutes: 14
 tutor_minutes: 6
 ---
 #### Video

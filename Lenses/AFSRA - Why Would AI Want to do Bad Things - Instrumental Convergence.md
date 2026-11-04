@@ -5,7 +5,7 @@ tldr: >-
   You can predict that a stranger will accept money without knowing what he wants, because money helps with almost any goal. In the same way, an AI with almost any goal has reasons to avoid being shut down, keep its goals, improve itself and gather resources.
 summary_for_tutor: >-
   Rob Miles explains instrumental convergence. Assuming only that an AGI is an agent with goals, some instrumental goals help with almost any terminal goal, so we can predict them without knowing the terminal goal, as we can predict that a stranger will take money. The convergent instrumental goals he names are self-preservation, goal preservation, self-improvement (including more computing power) and acquiring resources (matter and energy). Self-preservation is not a terminal goal: a paperclip maximizer resists being switched off because that means fewer paperclips, but it would accept being wiped and replaced by a better paperclip maker. It would resist having its goal changed to stamps, like the man who wants to cure cancer refusing a pill that would make him want to collect stamps. The question asks the student to apply this to a scheduling AI.
-reading_minutes: 10
+reading_minutes: 11
 tutor_minutes: 6
 ---
 #### Video
