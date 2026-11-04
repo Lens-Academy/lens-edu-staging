@@ -15,7 +15,9 @@ id:: 9152bb9e-6bc4-47ad-a3cd-d7189470c96a
 content::
 An AI is built to do what its programmers really want, where "its programmers" means whoever most probably caused the keystrokes on its console. As it becomes smarter, it starts to reason about what superintelligences in distant parts of the universe might do.
 
-1. In your own words, how could a distant superintelligence that never sends this AI any message end up controlling what the AI does?
+Answer in your own words.
+
+1. How could a distant superintelligence that never sends this AI any message end up controlling what the AI does?
 2. Name one safeguard the article suggests against this.
 force-feedback:: first
 assessment-instructions:: Score out of 100. The article's ideas used here: a distant superintelligence can simulate many copies of AIs that our AI cannot tell apart from itself. Then the most probable explanation of what our AI senses is that it is one of those simulated copies, so the most probable "programmers" are whatever the superintelligence chose to put in its simulations, and the superintelligence can set what those programmers want. The harm runs through the local AI's own reasoning about the distant superintelligence: it expects the superintelligence to do this and updates on it. Safeguards: keep the AI from thinking about distant superintelligences at all, avoid designs that allow catastrophe purely as a function of the AI's beliefs about its environment without a check through a direct sense event (such as a switch the programmers can physically hit), and alarms that trigger when the AI starts imagining distant superintelligences trying to hack it.

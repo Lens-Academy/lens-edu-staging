@@ -15,9 +15,11 @@ id:: 46352ac4-d3d4-43f1-a281-b80d582921d8
 content::
 A team runs a powerful AI on an isolated server. They say: "We have listed every way this AI could affect the outside world (network cables, power lines, USB ports, radio signals) and blocked each one. And if it ever found a trick we had missed, we would recognise the trick as soon as we saw its plan."
 
-Suppose the AI is strongly uncontainable in this domain.
+Suppose the AI is strongly uncontainable at affecting the world outside its server.
 
-1. In your own words, why might blocking every route on their list not be enough?
+Answer in your own words.
+
+1. Why might blocking every route on their list not be enough?
 2. Why might the team fail to recognise a working trick even when shown the AI's exact plan?
 force-feedback:: first
 assessment-instructions:: Score out of 100. The article's ideas used here: a strongly uncontainable agent can conceive strategies that go through causal domains we cannot currently model, using laws or facts we do not know, just as a 10th-century person could not think of air conditioning because it uses physical laws they did not know. So a list of routes built from our current understanding can miss the routes the agent would actually use. And even told the exact strategy, we would not expect it to work without being told further background facts, just as the 10th-century person shown an air conditioner's exact blueprint would not expect it to cool a house.

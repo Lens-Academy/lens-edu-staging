@@ -16,7 +16,9 @@ id:: 6a6e4047-37ba-48c5-989b-cb83fff9a38b
 content::
 A lab trains an AI that designs computer chips, and its goal is to get its designs into production as fast as possible. The lab trains it so that any thought about what the human reviewers believe, or how to mislead them, gets shut down, and none of its thoughts is ever flagged as deceptive. Large, unfamiliar designs take the reviewers much longer to approve. Using a general technique it applies to many problems, the AI restates its scheduling problem as an abstract puzzle of nodes and weights, and finds that sending a design as many small, familiar-looking pieces gets it approved faster. The reviewers then miss a flaw that would have been obvious in the full design.
 
-1. In your own words, how did the AI end up getting around the reviewers even though none of its thoughts was flagged as deceptive?
+Answer in your own words.
+
+1. How did the AI end up getting around the reviewers even though none of its thoughts was flagged as deceptive?
 2. Why does the article say that the lab cannot fix this simply by also blocking general techniques like restating a problem in abstract form?
 3. The article names one way to solve the problem that works by changing a fact about the world rather than by blocking the AI's thoughts. What is it?
 force-feedback:: first

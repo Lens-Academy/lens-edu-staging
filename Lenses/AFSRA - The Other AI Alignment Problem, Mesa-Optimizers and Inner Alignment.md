@@ -17,7 +17,9 @@ id:: ebe44e19-8a2b-4b08-bf00-110fb8ffcc41
 content::
 A company trains a robot in simulation to tidy rooms. The base objective rewards it for putting rubbish in the bin. In every training room the rubbish happens to be red, and nothing else in the room is red. The robot becomes a competent planner, a mesa-optimizer.
 
-1. In your own words, what wrong objective could the robot learn that earns exactly the same reward during training?
+Answer in your own words.
+
+1. What wrong objective could the robot learn that earns exactly the same reward during training?
 2. What would a robot with that wrong objective do in a real home where the rubbish is grey and a red vase stands on a shelf?
 3. The company then runs long adversarial training, generating rooms designed to catch the robot out, until in every test the robot puts only rubbish in the bin. It concludes that the robot now has the right objective. According to the video, why might that conclusion be wrong?
 force-feedback:: first

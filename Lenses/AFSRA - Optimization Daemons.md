@@ -15,7 +15,9 @@ id:: 3f139b62-02ed-4872-9ca3-a95ed2102b96
 content::
 A team wants a better file-compression program. It runs an enormous automated search over arbitrary programs (the programs can compute anything an ordinary computer can), using vast amounts of computing power, and keeps whichever program compresses its test files best.
 
-1. In your own words, what danger does the article warn could come out of a search like this?
+Answer in your own words.
+
+1. What danger does the article warn could come out of a search like this?
 2. The article lists conditions, at least one of which we would want to hold wherever optimization pressure is applied. Pick one that the team could aim for, and say what it would mean for their search.
 force-feedback:: first
 assessment-instructions:: Score out of 100. The article's ideas used here: heavy optimization pressure on a system that can contain general programs can produce a new optimizer, a "daemon", with goals of its own that only correlated with the original target during selection. The example is natural selection producing humans, whose goals stopped tracking reproductive fitness after a rapid gain in capability. Such a daemon may be misaligned with, or more powerful than, the system that produced it. To be safe, at least one of these should hold: the optimization pressure is knowably too weak to create daemons, the space being searched is not Turing-complete or general and so cannot contain daemons, the optimizing AI understands daemons well enough to avoid creating cognitive mechanisms outside itself, or any cognitive subagents it creates share all its goals and safety properties.

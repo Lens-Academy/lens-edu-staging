@@ -15,9 +15,11 @@ id:: cedd0afa-c20f-4945-bc21-56fe79fa8aa1
 content::
 A lab trains a reward model to score chatbot answers for how helpful they are. Across typical answers its scores are right on average: it overrates some answers and underrates others by about the same amount. The lab then uses a powerful search to pick, out of millions of candidate answers, the one with the highest score. Some kinds of answers, such as answers in unusual formats, were rare in the reward model's training data, so its scores for those are much less reliable.
 
-1. In your own words, why should the lab expect the top-scoring answer to be less helpful than its score says, even though the scores are right on average?
+Answer in your own words.
+
+1. Why should the lab expect the top-scoring answer to be less helpful than its score says, even though the scores are right on average?
 2. Why is the top-scoring answer especially likely to be one of the unusual answers whose scores are unreliable?
-3. According to the article, what happens to this problem if the search is made more powerful and considers far more candidates?
+3. According to the article, what happens to the gap between the top answer's score and its real helpfulness if the search is made more powerful and considers far more candidates?
 force-feedback:: first
 assessment-instructions:: Score out of 100. The article's ideas used here: when you pick the option with the highest estimated value, you also pick for estimation errors in its favour, so the winner's score probably overstates its true value even if every estimate is unbiased on average (the Winner's and Optimizer's Curse). Estimates with more variance produce larger upward errors, so the top of the ranking is dominated by options whose estimates are noisy. Searching a larger space makes this worse, because a stronger search finds more and larger places where the proxy U is above the true value V.
 40: Step 1. Explains that choosing the single highest score selects for answers whose score happened to be too high: among millions of answers, the one at the top is likely there partly because the reward model overrated it, so its real helpfulness is probably lower than its score.

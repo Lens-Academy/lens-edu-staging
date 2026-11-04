@@ -16,7 +16,9 @@ id:: 54b1cce5-7611-462f-98eb-30e27bfd3c2b
 content::
 A lab has tested a tutoring AI for a year, and in every test it was helpful and honest. The lab now plans to give it far more computing power and full access to the internet. The lab says: "A year of good behaviour shows it is safe. If we are unsure, we can run another year of the same tests."
 
-1. In your own words, how could the AI's same goals lead to bad behaviour once it has many more options, even if it never planned to deceive anyone?
+Answer in your own words.
+
+1. How could the AI's same goals lead to bad behaviour once it has many more options, even if it never planned to deceive anyone?
 2. How could an AI whose goals differ from the lab's produce exactly this year of good behaviour on purpose?
 3. Why would another year of the same tests not settle whether the AI is safe?
 force-feedback:: first
