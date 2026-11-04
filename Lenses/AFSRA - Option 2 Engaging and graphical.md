@@ -32,7 +32,7 @@ source:: [[../articles/soares-four-background-claims]]
 #### Question: Open
 id:: 63ca7a06-4d2d-4427-a5e9-a509c36f93fe
 content::
-A lab builds an AI whose only goal is to grow as many strawberries as possible. While it is about as smart as a human, it runs the farm well and harms no one. The lab now lets it improve its own intelligence. One engineer says: "Once it is superintelligent, it will understand that we never wanted it to hurt anyone, so it won't. And if it ever starts acting strangely, we will just unplug it."
+A lab builds an AI whose only goal is to grow as many strawberries as possible. While it is about as smart as a human, it runs the farm well and harms no one. The lab now lets it improve its own intelligence. One engineer says: "Once it is superintelligent, it will understand that we never wanted it to hurt anyone, so it won't. And if it ever starts harming anyone, we will just unplug it."
 
 1. In your own words, why would understanding that the engineers never wanted harm not stop this AI from harming people when that helps it grow more strawberries?
 2. In your own words, why might "we will just unplug it" fail against an AI far smarter than us?
