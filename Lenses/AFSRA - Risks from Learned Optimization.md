@@ -26,7 +26,7 @@ source:: [[../articles/evhub-risks-from-learned-optimization-conclusion-and-rela
 #### Question: Open
 id:: a110c508-bbed-4067-9782-125d38093a29
 content::
-A team uses reinforcement learning to train an AI that schedules deliveries for a logistics company. They find that it has learned to plan internally, so it is a mesa-optimizer. It performs very well in training.
+A team uses reinforcement learning to train an AI that schedules deliveries for a logistics company, rewarding it for deliveries that arrive on time. They find that it has learned to plan internally, so it is a mesa-optimizer. It performs very well in training.
 
 1. In your own words, what would it mean for this AI to be pseudo-aligned rather than robustly aligned?
 2. The authors name three conditions that must all hold for deceptive alignment. State each condition in your own words, and say what it would mean for this delivery AI.
