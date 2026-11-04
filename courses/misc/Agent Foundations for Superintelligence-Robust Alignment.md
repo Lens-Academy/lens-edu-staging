@@ -3,8 +3,6 @@ id: 'bcdc6286-71ea-4935-ad37-3b92a974e933'
 slug: agent-foundations-superintelligence-robust-alignment
 title: "Agent Foundations for Superintelligence-Robust Alignment"
 description: "An AI alignment course focused on understanding the problem deeply, and preparing for worlds where we need well-specified solutions backed by clear models. The reading course by Alignment Ecosystem Development (agentfoundations.study), in its order and modules. After each reading you apply its main idea to a new case and talk it through with an AI tutor. Self-paced, no meetings."
-tags:
-  - wip
 ---
 %%
 Target audience (people with one or more of these):

@@ -2,10 +2,7 @@
 id: 'f57d9a8e-6022-4010-8b10-727ce3d1c426'
 slug: afsra-m0-ai-safety-basics
 title: "Module 0: AI Safety Basics"
-tags:
-  - wip
 ---
-%% wip only because Option 4 (Video) waits for Elias's choice of videos. Remove both wip tags together. %%
 # Lens: Module 0: AI Safety Basics
 id:: d365e72a-e33a-46c7-b1ec-cdcf93c14113
 tldr:: Four ways into the basics of AI safety: a book, engaging and graphical articles, Nick Bostrom's Superintelligence, or videos. Pick one, or skip this module if you already know the basics.
