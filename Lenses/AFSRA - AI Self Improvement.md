@@ -18,7 +18,7 @@ content::
 A company gives a general AI, more capable than any human at planning, a single goal: get as many five-star reviews as possible for a restaurant chain. Nobody tells it to change or improve itself, and it has access to the internet and to its own code. The owner says: "If it ever does something we don't like, we'll just switch it off."
 
 1. In your own words, why might the AI try to make itself smarter, even though nobody asked it to?
-2. According to the video, why might the owner's plan to switch it off not work?
+2. In your own words, why might the owner's plan to switch it off not work, according to the video?
 force-feedback:: first
 assessment-instructions:: Score out of 100. The video's ideas used here: intelligence is an instrumental value. Whatever the goal, being better at modelling reality, picking options, making plans and carrying them out helps, so a general intelligence may spend the first part of its plan improving itself, even at significant cost. On switching it off: the machine's model of the world includes its creator and his ability to shut it down. So it avoids ever creating a situation where the creator both wants to and is able to switch it off. It behaves well while it is watched and does nothing the creator would see as a problem until it is confident it is safe, for example after copying itself to many machines, and only then pursues its goal openly.
 50: Step 1. Says that being smarter helps with almost any goal, including getting more five-star reviews: a smarter AI can model the world better, find better plans or carry them out better, so improving itself is a useful step toward its goal even though nobody asked for it.
