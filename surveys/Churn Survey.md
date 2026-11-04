@@ -37,6 +37,8 @@ options::
 - A group matched to my level of experience
 - An easier or more advanced version of the course
 - A self-paced option with an occasional check-in
+- A way to catch up on a session I missed (make-up or recording)
+- Clearer joining details and reminders
 - Nothing really, the timing just wasn't right for me
 multi:: true
 
