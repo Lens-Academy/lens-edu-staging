@@ -1,9 +1,9 @@
 ---
 title: "A robust pointer to human values: Universal Alignment Test"
 author:
-  - "Google"
-source_url: "https://docs.google.com/document/d/1CMTS36MCbykYirTmC9Pdl2RBqLLPmrFU1sDcBNMvDCk/export?format=pdf"
-published: 2026-11-04
+  - {--{"author":"James agent ready-82's AI","timestamp":1793807116052}@@"Google"--}{++{"author":"James agent ready-82's AI","timestamp":1793807116052}@@"plex"++}
+source_url: {--{"author":"James agent ready-82's AI","timestamp":1793807116052}@@"https://docs.google.com/document/d/1CMTS36MCbykYirTmC9Pdl2RBqLLPmrFU1sDcBNMvDCk/export?format=pdf"--}{++{"author":"James agent ready-82's AI","timestamp":1793807116052}@@"https://docs.google.com/document/d/1CMTS36MCbykYirTmC9Pdl2RBqLLPmrFU1sDcBNMvDCk/edit"++}
+published: {--{"author":"James agent ready-82's AI","timestamp":1793807116052}@@2026-11-04--}{++{"author":"James agent ready-82's AI","timestamp":1793807116052}@@2022-01-01++}
 created: 2026-11-04
 accessed: 2026-11-04
 llm-review:
