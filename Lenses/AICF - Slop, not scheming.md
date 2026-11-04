@@ -33,9 +33,9 @@ content::
 
 In your own words:
 
-1. What does Wentworth think control research covers: which danger, in which AIs?
+1) What does Wentworth think control research covers: which danger, in which AIs?
 
-2a. Where does most of the risk lie?
+2a) Where does most of the risk lie?
 
 2b. What is the most likely way it goes wrong: what does early AI produce, and why would nobody notice?
 assessment-instructions:: Score out of 100. Context for grading: John Wentworth argues that control research, as he describes it, covers only intentional deception or scheming, and only in early transformatively useful AI, roughly human-level, not more powerful AI. He thinks this is a small slice of the risk: most of it lies in later, much more powerful AI such as superintelligence, and the main job of early AI is to help solve alignment for that stronger AI. His median path to doom is slop, not scheming: early AI produces alignment work that looks fine at first glance but is wrong, and the lab believes it has solved the problem and builds on the non-solution until it is too late. 1, 40: what control covers, 20 for scheming or intentional deception only, 20 for early transformative AI only, not stronger AI. 2a, 20: most of the risk lies in later, much more powerful AI, which early AI is supposed to help align. 2b, 40: the slop path, 20 for early AI producing alignment work that looks right but is wrong, 20 for why nobody notices: it is hard to verify, so it gets trusted as a solution. Give credit for each point whenever the answer shows the idea, in any wording, whether it is put as Wentworth's view or stated directly (2a and 2b ask where the risk lies and how it most likely goes wrong). Model answer, for the feedback, not a grading checklist: "Wentworth says control research only targets intentional scheming, and only in the first transformatively useful AIs, not in stronger ones. Most of the risk is in those later, stronger AIs, which early AI is supposed to help us align. The likely failure is slop: early AI produces alignment work that looks fine but is wrong, and nobody notices because such work is hard to verify, so the lab trusts it and thinks it has solved the problem when it has not."
