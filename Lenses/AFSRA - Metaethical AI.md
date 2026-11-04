@@ -14,7 +14,7 @@ id:: 2eeef995-a604-4b00-b301-29e203de7c33
 content::
 A colleague proposes making a superintelligence safe by writing down a long list of the moral rules most people agree on and programming the AI to follow them.
 
-1. In your own words, why does Ku's motivation section say a metaethical approach is more promising than this plan?
+1. Ku takes a metaethical approach instead: give the AI a method for working out what we value, not a list of the values themselves. In your own words, why does Ku's motivation section say this is more promising than the colleague's plan?
 2. Ku's construction makes two simplifying assumptions about what the AI has available. What are they?
 force-feedback:: first
 assessment-instructions:: Score out of 100. The post's idea: human values have a great deal of hidden complexity, and missing just one part of them can lead to very bad outcomes, so writing down ethical principles directly (at the object level) is likely to leave something out. A metaethical approach instead gives the AI a way to work out what we value, and what we should do, from how human minds actually decide. To make this a technical problem, Ku assumes unlimited computation and a complete low-level causal model of the world and of the adult human brains in it.
