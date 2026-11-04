@@ -16,7 +16,7 @@ content::
 A lab trains an AI in many simulated environments. It learns to solve hard problems in all of them. The lab also trains it to let itself be shut down whenever a designated operator asks, and in every test it does. The lab then plans to let a more capable version, which works on real research far outside anything it was trained on, run with only that same training to keep it shutdownable. The lab's head says: "Its problem-solving skills carried over to new environments. Its willingness to be shut down will carry over too."
 
 1. In your own words, why, according to Soares, do problem-solving skills carry over to new domains in a way that the trained willingness to be shut down may not?
-2. Soares compares training an AI to human evolution. In that comparison, what plays the role of the lab's training?
+2. Soares compares training an AI to human evolution. In that comparison, what plays the role of the lab's training as a whole?
 3. In the same comparison, what plays the role of the trained willingness to be shut down?
 4. In your own words, once humans became generally capable, how did that counterpart relate to what evolution was optimizing for?
 force-feedback:: first
