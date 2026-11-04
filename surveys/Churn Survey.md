@@ -21,6 +21,8 @@ options::
 - The others in my group were at a different level from me (much more or much less experienced)
 - The course wasn't the right fit (too hard, too basic, too dense, or not what I expected)
 - I preferred working through the material on my own
+- I wasn't sure when or where my sessions were, or how to join
+- I lost interest in the topic
 - Something else
 ranked:: true
 max:: 3
