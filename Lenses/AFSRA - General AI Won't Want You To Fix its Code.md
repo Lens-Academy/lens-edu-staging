@@ -14,7 +14,7 @@ source:: [[../video_transcripts/computerphile-general-ai-wont-want-you-to-fix-it
 #### Question: Open
 id:: 29d9ae60-8cd9-4f61-8ca3-2ba46d830719
 content::
-A warehouse runs a general AI whose utility function counts how many orders it ships each day. The developers notice it ignores worker safety, so they plan to switch it off briefly and change its utility function to also value keeping workers safe. With the new goal it would ship somewhat fewer orders, and it would be fully satisfied with that. After the change, it would be fully satisfied with its new goal. The AI can predict what the change will do.
+A warehouse runs a general AI whose utility function counts how many orders it ships each day. The developers notice it ignores worker safety, so they plan to switch it off briefly and change its utility function to also value keeping workers safe. With the new goal it would ship somewhat fewer orders, and it would be fully satisfied with that. The AI can predict what the change will do.
 
 1. Using Miles's reasoning in the video, why would the AI try to stop the developers from making this change, even though it would be satisfied after it?
 2. What is the name of the property the developers want the AI to have, and what does it mean?
