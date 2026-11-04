@@ -21,7 +21,7 @@ Two advisers estimate the plan's chance of success.
 - Ana: "Give each step a 60% chance. Five steps at 60% each multiply to about 8%."
 - Ben: "That's wrong. The steps aren't independent, so you can't just multiply. The real chance is much higher."
 
-1. Using Soares's reasoning, what is Ben right about, and what links the five steps?
+1. Using Soares's reasoning, what links the five steps, so that Ben is right that you can't just multiply their chances?
 2. Using Soares's reasoning, why does Ben's point still not make the plan's chance of success high?
 force-feedback:: first
 assessment-instructions:: Score out of 100. The post's idea: survival needs many things to go right together, so ruin is the default. Soares accepts that these things are correlated, mainly through the general competence of the people and institutions involved. Because of that correlation, the chance of success is higher than the product of the separate chances, and listing more steps cannot push it below the chance that those institutions are competent. But the correlation cuts both ways: if the institutions look incompetent, as their track record suggests, the steps tend to fail together, so the chance of success stays low. What would really change the estimate is the institutions becoming much more competent than their record shows. In the scenario, the government handled the last outbreak badly.
