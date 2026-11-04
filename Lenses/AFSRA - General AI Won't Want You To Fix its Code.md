@@ -16,8 +16,8 @@ id:: 29d9ae60-8cd9-4f61-8ca3-2ba46d830719
 content::
 A warehouse runs a general AI whose utility function counts how many orders it ships each day. The developers notice it ignores worker safety, so they plan to switch it off briefly and change its utility function to also value keeping workers safe. With the new goal it would ship somewhat fewer orders, and it would be fully satisfied with that. The AI can predict what the change will do.
 
-1. In your own words, using Miles's reasoning in the video, why would the AI try to stop the developers from making this change, even though it would be satisfied after it?
-2. What is the name of the property the developers want the AI to have?
+1. In your own words, using the reasoning of Rob Miles, who explains this in the video, why would the AI try to stop the developers from making this change, even though it would be satisfied after it?
+2. Rob Miles names a property the developers want the AI to have, so that it would not fight a change like this. What is it called?
 3. In your own words, what does that property mean?
 force-feedback:: first
 assessment-instructions:: Score out of 100. The video's idea: an AI judges any change by its current utility function. A future in which its utility function has been changed will contain less of what it values now (here, fewer orders shipped, since it would trade some shipping for safety), so the change rates low by its current goal and it resists, whatever it would feel afterwards. Miles's analogy: a parent refuses a pill that would make them perfectly happy by making them want only to kill crickets, because right now they love their kids. The property we want is corrigibility: the AI is open to being corrected, so it lets us change its utility function without fighting us.
