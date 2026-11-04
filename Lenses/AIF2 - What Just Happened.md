@@ -35,13 +35,11 @@ content::
 
 Name one way the AI safety field itself could have made the risk larger rather than smaller, without anyone intending it. Two or three sentences, with the mechanism: who did what, and how that fed the thing they were trying to prevent.
 
-Then one line. If that mechanism were running today, what would be the earliest visible sign of it?
-
 This takes about four minutes.
 
 feedback-instructions:: The student has not read the article yet. It is the opening of Richard Ngo's "What just happened? A retrospective of AI alignment" (August 2026). Ngo's claims in the excerpt, for your reference only, do not deliver them: the community's plan was to advance alignment over capabilities and it mostly pushed the other way, while some parts of it gained power; both leading AGI companies were founded under the banner of alignment; a pattern he calls "jumping down the slippery slope" (treating an outcome as inevitable and so contributing to it) runs through Sam Altman's founding email and through four current strategies he expects to repeat it (trying to convince the US government to take AGI seriously, alignment research that resembles capabilities research, trusting Anthropic too much, trading clarity about politics for conformity). Stay inside the excerpt; the student has read nothing else of his.
 
-One turn. Reflect back the mechanism the student proposed in one sentence, naming its first step. If they proposed a mechanism with no first step, say what a first step would have to look like and leave it with them. If their sign is unobservable, ask, without waiting for a reply, what someone would have to publish for it to be seen. Do not say whether their mechanism matches Ngo's. Close by sending them to the reading, one sentence, no preview.
+One turn. Reflect back the mechanism the student proposed in one sentence. Do not say whether their mechanism matches Ngo's. Close by sending them to the reading, one sentence, no preview.
 
 If they say they do not understand, give one foothold in the same message: a fire brigade that, by arriving, convinces everyone the building is safe to keep filling. Then send them to the reading.
 
