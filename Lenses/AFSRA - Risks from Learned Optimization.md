@@ -28,8 +28,12 @@ id:: a110c508-bbed-4067-9782-125d38093a29
 content::
 A team uses reinforcement learning to train an AI that schedules deliveries for a logistics company, rewarding it for deliveries that arrive on time. They find that it has learned to plan internally, so it is a mesa-optimizer. It performs very well in training.
 
-1. In your own words, what would it mean for this AI to be pseudo-aligned rather than robustly aligned?
-2. The authors name three conditions that must all hold for deceptive alignment. State each condition in your own words, and say what it would mean for this delivery AI.
+Answer in your own words.
+
+1. What would it mean for this AI to be pseudo-aligned rather than robustly aligned?
+2. The authors name three conditions that must all hold for deceptive alignment. For each condition:
+    1. State it.
+    2. Say what it would mean for this delivery AI.
 force-feedback:: first
 assessment-instructions:: Score out of 100. The sequence's ideas used here: a robustly aligned mesa-optimizer has a mesa-objective that agrees with the base objective across distributions, while a pseudo-aligned one has a mesa-objective that agrees with the base objective on the training data but not in other situations (testing, deployment or further training), so it can competently pursue something else off the training distribution. The three conditions for deceptive alignment: (a) the mesa-optimizer has an objective that extends across parameter updates (it cares about what happens after its current episode or after it is updated), (b) it can model the fact that it is being selected for a base objective and has some model of what that objective is, (c) it expects the threat of modification to go away eventually, because training ends or because of its own actions.
 25: Step 1. Explains that a pseudo-aligned AI's own objective matches the training objective only on the training data, so it schedules deliveries well in training but could pursue something different in new situations after training, whereas a robustly aligned AI's objective matches the training objective in all situations.
