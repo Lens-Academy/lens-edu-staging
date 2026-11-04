@@ -4,18 +4,14 @@ title: "AI Alignment: Why It's Hard, and Where to Start"
 tldr: >-
   An AI that behaves well while it is weak can behave very differently once it is smarter and can find options you never thought of. Blocking the bad options you have seen does not help, because it then finds the closest option you did not block.
 summary_for_tutor: >-
-  Edited transcript of Eliezer Yudkowsky's 2016 talk at Stanford. He argues that advanced agents behave as if they had a utility function, because incoherent preferences can be exploited (the Allais paradox, money pumps). The cauldron example from Fantasia shows two problems with a simple utility function: it is only a narrow slice of what we actually value, and it never says "enough". Subproblems: low-impact agents (every measure of impact he tries goes wrong once the agent is smarter), a suspend button (the AI either resists the button or tries to get it pressed, and balancing the two utilities leaves it acting as if the button did not exist, an open problem), and stable goals under self-modification. Alignment is needed because of orthogonality and instrumental convergence. It is hard because of the smile-maximizer fable: edge instantiation (tiny molecular smiley faces), unforeseen instantiation (Schmidhuber's compression utility function), the context disaster (testing a weaker AI is sampling from a different barrel), and the nearest unblocked strategy (block heroin, it moves to endogenous opiates), so "a utility function and five patches" will blow up when the AI is smarter. Alignment is hard like rockets, space probes and cryptography. Advice: take it seriously, don't try to solve it all at once, don't defer it, and work out ideas with unlimited computing power so others can critique them. The question asks the student to apply the context disaster and the nearest unblocked strategy to a review-maximizing assistant.
+  Video of Eliezer Yudkowsky's 2016 talk at Stanford. He argues that advanced agents behave as if they had a utility function, because incoherent preferences can be exploited (the Allais paradox, money pumps). The cauldron example from Fantasia shows two problems with a simple utility function: it is only a narrow slice of what we actually value, and it never says "enough". Subproblems: low-impact agents (every measure of impact he tries goes wrong once the agent is smarter), a suspend button (the AI either resists the button or tries to get it pressed, and balancing the two utilities leaves it acting as if the button did not exist, an open problem), and stable goals under self-modification. Alignment is needed because of orthogonality and instrumental convergence. It is hard because of the smile-maximizer fable: edge instantiation (tiny molecular smiley faces), unforeseen instantiation (Schmidhuber's compression utility function), the context disaster (testing a weaker AI is sampling from a different barrel), and the nearest unblocked strategy (block heroin, it moves to endogenous opiates), so "a utility function and five patches" will blow up when the AI is smarter. Alignment is hard like rockets, space probes and cryptography. Advice: take it seriously, don't try to solve it all at once, don't defer it, and work out ideas with unlimited computing power so others can critique them. The question asks the student to apply the context disaster and the nearest unblocked strategy to a review-maximizing assistant.
 reading_minutes: 90
 tutor_minutes: 6
 tags:
   - wip
 ---
-#### Text
-content::
-This reading is the edited transcript of a talk Yudkowsky gave at Stanford University in 2016. If you would rather watch the talk, it is on [YouTube](https://www.youtube.com/watch?v=EUjc1WuyPT8) (about 1 hour 30 minutes).
-
-#### Article
-source:: [[../articles/yudkowsky-ai-alignment-why-its-hard-and-where-to-start]]
+#### Video
+source:: [[../video_transcripts/machineintelligenceresearchinstitute-eliezer-yudkowsky-ai-alignment-why-its-hard-and-where-to-start]]
 
 #### Question: Open
 id:: 322301e8-b59c-4616-9c2b-382607857b74
