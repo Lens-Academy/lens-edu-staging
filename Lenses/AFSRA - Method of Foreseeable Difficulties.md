@@ -20,8 +20,8 @@ id:: 0ddc6b5f-8008-4282-8210-f3c9dd38734e
 content::
 An AI lab plans to make its AI more capable step by step. At each step it tests how the AI behaves, and it has tools that let it read what the AI is thinking. The lab's lead says: "If there is a problem, we will see it in testing and fix it then. There is no need to predict problems in advance from theory."
 
-1. In your own words, why might testing the AI at each step miss an important problem?
-2. In your own words, why might reading the AI's thoughts at the earlier steps also miss it?
+1. In your own words, why does the reading say that testing the AI at each step can miss an important kind of problem?
+2. In your own words, why does the reading say that reading the AI's thoughts, at the steps before that problem shows up, can also miss it?
 force-feedback:: first
 assessment-instructions:: Score out of 100. The scenario: a lab increases its AI's capability step by step, tests its behaviour at each step, can read the AI's thoughts, and plans to fix problems when it sees them instead of predicting them from theory. The reading's ideas: many predicted problems (Context Change problems) are ones where an AI behaves nicely until it reaches some threshold of cognitive ability, and then behaves less nicely. Tests before that threshold show good behaviour. In some cases the AI has not formed the bad intention in advance, so even full transparency into its earlier thought processes cannot show the problem. So such problems have to be foreseen before they happen, by analysis.
 60: Step 1. Says that some problems only show up once the AI passes a certain level of capability, and before that it behaves well, so tests at the earlier steps look fine even though the problem is coming.
