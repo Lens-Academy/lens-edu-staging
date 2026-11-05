@@ -8,9 +8,9 @@ authors:
   - Garrett Baker
   - Evžen Wybitul
 source_url: https://iliad-intensive.org/alignment/alignment-in-practice/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: '774369d1d990d5d3f6f87f4bb8deaabe9ee8b7a7'
 upstream_key: "alignment-in-practice#deployment-1-strategy"
-upstream_fingerprint: "aR7/2820/2/00sX01cj05sC06po06tR07BZ0AE70DnR0E3U0Ey90F4L0G2G0GkS0IHe0LBd0PPJ0RRc0S6G0SN60UQP0Yb00esr0gYR0hPA0lQO0rxN0sUy0t5t0thJ0u5h0uCT0yGQ"
+upstream_fingerprint: "aR7/2768/2/00sX01cj05sC06po06tR07BZ0AE70DnR0E3U0Ey90F4L0G2G0GkS0IHe0LBd0PPJ0RRc0SN60UQP0Yb00esr0gYR0hPA0lQO0rxN0sUy0t5t0thJ0u5h0uCT0yGQ0yJ1"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/alignment/alignment-in-practice/#deployment-1-strategy"
@@ -24,7 +24,7 @@ Once we want to release the model, we are no longer trying to shape it; we are t
 
 **Opening.** The model is trained, post-training is done, and the question is no longer how to shape the model but whether and how to put it into the world.
 
-**Presentation (15 min).** The content is a frame rather than a set of methods, and the frame needs to be stated cleanly to be useful: the shape real labs have converged on is something close to a *safety case*.
+**Presentation.** The shape real labs have converged on is something close to a *safety case*.
 
 We walk through the four steps in order: identifying risks, understanding the model's contribution, building and stress-testing the safety system, communicating and maintaining the case.
 
@@ -95,5 +95,3 @@ Concretely, a good example of the sort of things people are doing here is [Why D
 2. Verifying their hypotheses about why the models they're studying took the actions they did by changing aspects of the environment they were placed in.
 
 nevertheless these sorts of analyses are still very informal, and essentially retrospective. They can't yet *predict* ahead of time under what circumstances a model will cheat or not, nor what training environments incentivise what cheating to what extent.
-
-**Reading (30 min):** Read Anthropic's [Responsible Scaling Policy](https://www.anthropic.com/responsible-scaling-policy), OpenAI's [Preparedness Framework](https://openai.com/index/updating-our-preparedness-framework/), or if you want to go more in depth the recent case made for [pacing the frontier](https://pacing.tech/).

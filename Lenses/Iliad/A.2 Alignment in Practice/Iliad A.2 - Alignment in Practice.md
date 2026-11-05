@@ -8,9 +8,9 @@ authors:
   - Garrett Baker
   - Evžen Wybitul
 source_url: https://iliad-intensive.org/alignment/alignment-in-practice/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: '774369d1d990d5d3f6f87f4bb8deaabe9ee8b7a7'
 upstream_key: "alignment-in-practice#prerequisites"
-upstream_fingerprint: "uUNiba7kn/232/1/07ba0Fxa0Kqk0S5g0ctt15vf165N1abg2G3T2KZ52MLi2Oq82oVA2vPu31Gv3G3V3Y9D3d2h3xEW4RVo4euQ5UaK5qtS65F96BdU6C496Gvb6Jxz6M906ynH73Ek78Ec"
+upstream_fingerprint: "uUNiba7kn/232/1/07ba0Fxa0Kqk0S5g0ctt15vf165N1abg2G3T2KZ52MLi2Oq82oVA2vPu31Gv3G3V3Y9D3xEW4RVo5UaK5qtS5sXA6BdU6C496Gvb6Jxz6M906gpj6ynH78Ec7DmC7SDW"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/alignment/alignment-in-practice/#prerequisites"
@@ -41,32 +41,26 @@ This will help the students form their own independent opinions on what the stat
 %% Facilitator logistics (hidden from learners):
 \## Roadmap for today
 
-- 10:00–10:15
-  - Intro
+- 10:00–11:15
+  - Intro, pretraining, post-training, questions
 
-- 10:15–11:15
-  - Pretraining (presentation 15 min, readings 30 min)
+- *11:15-11:30*
+  - *Break*
 
-- 11:15–12:30
-  - Post-training (presentation 30 min, readings 45 min)
+- 11:30–12:30
+  - Deployment, questions, explanation of the afternoon exercise
 
 - *12:30-13:30*
   - *Lunch*
 
-- 13:30–14:15
-  - Deployment 1: strategy (presentation 15 min, readings 30 min)
+- 13:30–15:30
+  - Reading time 
 
-- 14:15–15:00
-  - Deployment 2: building the safety system (presentation 15 min, readings 30 min)
+- 15:30–17:30
+  - Blue team/Red team exercise
 
-- *15:00-15:20*
-  - *Break*
-
-- 15:20–17:10
-  - Design challenge
-
-- 17:10–17:30
-  - Quiz + feedback
+- 17:40–18:00
+  - Feedback
 %%
 
 \## Reading guide

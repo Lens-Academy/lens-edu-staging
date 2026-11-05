@@ -8,9 +8,9 @@ authors:
   - Garrett Baker
   - Evžen Wybitul
 source_url: https://iliad-intensive.org/alignment/alignment-in-practice/
-upstream_commit: '4acae5ba61c3018e73d89a7a7ae04c13c6203170'
+upstream_commit: '774369d1d990d5d3f6f87f4bb8deaabe9ee8b7a7'
 upstream_key: "alignment-in-practice#pretraining"
-upstream_fingerprint: "rp3/591/1/0KzQ0S6G0fPR0lQO0wpb0zdi112R1LHy1Rxh1bzb1eZC1h1x1jO31yIN21YV2CB12MLi2QVw2Ysg2j852mrd2r4e2x5M31Pz3KrH3Ni43OZd3T5X3WiK3hCq3hkh3wmV"
+upstream_fingerprint: "rp3/575/1/0KzQ0fPR0lQO0wpb0zdi112R1LHy1Rxh1bzb1eZC1h1x1jO31yIN21YV2CB12MLi2QVw2Ysg2j852mrd2r4e2x5M31Pz3KrH3Ni43OZd3WiK3hCq3hkh3wmV40fx4GSV"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/alignment/alignment-in-practice/#pretraining"
@@ -24,7 +24,7 @@ What the model learns during pretraining is deep, broad, and hard to change afte
 
 **Opening.** The story of pre-training: the model is about to see the entire internet. It's forming a view of what the world is — including what AI is and how AI assistants behave. We can intervene in what it learns, which influences both its factual knowledge and its character. But we're operating before seeing the model's behavior, so every intervention is a bet.
 
-**Presentation and discussion (15 min).** Pre-training is where the model's deep representations are built — both its knowledge and its proto-character. Whenever you reach a method that students proposed during the discussion, point to their sticky note on the board and make the connection explicit. Present the methods in narrative order: data filtering addresses the obvious problem; gradient routing / SGTM addresses filtering's failure mode; alignment pretraining shifts from knowledge to character; PSM explains why character-shaping works. Close by repeating the overarching story one more time, and naming what pre-training can't do: you're operating before seeing the model's behaviour, the feedback loop is slow, and you can't anticipate every failure mode. This motivates the next slot.
+**Presentation and discussion.** Pre-training is where the model's deep representations are built — both its knowledge and its proto-character. Whenever you reach a method that students proposed during the discussion, point to their sticky note on the board and make the connection explicit. Present the methods in narrative order: data filtering addresses the obvious problem; gradient routing / SGTM addresses filtering's failure mode; alignment pretraining shifts from knowledge to character; PSM explains why character-shaping works. Close by repeating the overarching story one more time, and naming what pre-training can't do: you're operating before seeing the model's behaviour, the feedback loop is slow, and you can't anticipate every failure mode. This motivates the next slot.
 
 **Data filtering** is the most intuitive intervention: identify dangerous content and remove it before training. [Pretraining data filtering](https://alignment.anthropic.com/2025/pretraining-data-filtering/) from Anthropic demonstrates this for CBRN content, achieving a 33% relative reduction in harmful-capabilities performance (from 33.7% to 30.8%, where chance is 25%) while preserving standard benchmarks. [Token-level filtering](https://arxiv.org/abs/2601.21571) refines this by removing dangerous tokens rather than entire documents, which Pareto-dominates document filtering — same capability reduction, lower cost to benign performance.
 
@@ -33,5 +33,3 @@ What the model learns during pretraining is deep, broad, and hard to change afte
 **Alignment pretraining** targets not the model's knowledge but its *character*. [Tice et al. (2026)](https://arxiv.org/abs/2601.10160) show that upsampling documents about aligned AI behavior during pretraining reduces misalignment scores from 45% to 9%, while upsampling misalignment discourse increases misaligned behavior — "self-fulfilling alignment." These effects persist through post-training.
 
 Why does this work? The [persona selection model (PSM)](https://alignment.anthropic.com/2026/psm/) provides the conceptual frame. Building on the [simulators hypothesis](https://www.lesswrong.com/posts/vJFdjigzmcXMhNTsx/simulators) — that an LLM is a *simulator* capable of producing diverse *simulacra* (characters, agents) — PSM holds that pretraining builds a repertoire of personas, and post-training helps shape the "Assistant." Alignment pretraining works because it shapes the **prior over personas**: saturating the training data with positive AI archetypes biases the model toward an aligned Assistant. PSM recommends treating this deliberately — curating AI discourse in pre-training data as a first-class alignment intervention.
-
-**Reading (30 min):** Read [Pretraining data filtering](https://alignment.anthropic.com/2025/pretraining-data-filtering/), or [SGTM](https://alignment.anthropic.com/2025/selective-gradient-masking/), or [persona selection model (PSM)](https://alignment.anthropic.com/2026/psm/).

@@ -8,9 +8,9 @@ authors:
   - Garrett Baker
   - Evžen Wybitul
 source_url: https://iliad-intensive.org/alignment/alignment-in-practice/
-upstream_commit: '4acae5ba61c3018e73d89a7a7ae04c13c6203170'
+upstream_commit: '774369d1d990d5d3f6f87f4bb8deaabe9ee8b7a7'
 upstream_key: "alignment-in-practice#post-training"
-upstream_fingerprint: "5rc/2650/2/00hp01LK01hc04eW05UA0AJL0BP60GUb0HqY0Jj30Jzz0KLa0N2V0Nl00Omd0Onq0SsW0ULm0XOh0g9X0hJL0hdM0iTj0jBF0jE00jOz0qF10t5t0zeW11KF16n516uz"
+upstream_fingerprint: "5rc/2628/2/00hp01LK01hc04eW05UA0AJL0BP60GUb0HqY0Jj30Jzz0KLa0N2V0Omd0Onq0SsW0ULm0XOh0g9X0hJL0hdM0iTj0jBF0jE00jOz0qF10t5t0zeW11KF16n516uz17de"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/alignment/alignment-in-practice/#post-training"
@@ -24,7 +24,7 @@ While in pre-training, a large investment of compute and data produces large cha
 
 **Opening.** A small amount of compute will likely produce shallow changes (parameter-wise, mostly chaining existing heuristics), but these can be behaviourally large — the model's outputs can look markedly different. 
 
-**Presentation (30 min):** We start by discussing the components of post-training: SFT, RLVR and RLHF.
+**Presentation:** We start by discussing the components of post-training: SFT, RLVR and RLHF.
 
 **Fine-tuning:**
 
@@ -70,5 +70,3 @@ Post-training can also induce deeper changes that influence which persona the mo
 
 Post-training can also change the model's factual knowledge. [Synthetic document fine-tuning](https://alignment.anthropic.com/2025/believe-it-or-not/) can implant false beliefs that the model appears to genuinely hold, as verified by both behavioral tests and internal probes — though models resist the most egregiously false facts. Going in the other direction, unlearning attempts to *remove* specific knowledge (e.g., about bioweapons) from a trained model. However, current unlearning methods are [not robust](https://arxiv.org/abs/2402.16835): unlearned knowledge is dormant, not deleted, which is relevant if we assume that an adversary is trying to pry the knowledge out of the model. The best way to measure the robustness of an unlearning method is to fine-tune the unlearned model and observe when the capability returns.
 By this measure, no unlearning method has yet been shown to be both cheap *and* robust — for example, [fine-tuning on even unrelated data can make the knowledge re-emerge](https://arxiv.org/abs/2505.22310). The [UNDO](https://arxiv.org/abs/2506.06278) paper proposes a partial solution: distilling an unlearned model into a randomly initialised student transfers desired behaviours while leaving undesired capabilities behind, nicely illustrating the tradeoff between robustness and amount of compute invested in the unlearning process.
-
-**Reading (45 mins):** [The Claude Constitution](https://www.anthropic.com/constitution), [Model Spec](https://model-spec.openai.com/2026-08-18.html), or [Teaching Claude Why](https://alignment.anthropic.com/2026/teaching-claude-why/). Or any other paper that you found interesting.
