@@ -8,9 +8,9 @@ authors:
   - Garrett Baker
   - Evžen Wybitul
 source_url: https://iliad-intensive.org/alignment/alignment-in-practice/
-upstream_commit: 'd5fec17706ceed1fa028ca949b97b92dcc2f5f7e'
+upstream_commit: '774369d1d990d5d3f6f87f4bb8deaabe9ee8b7a7'
 upstream_key: "alignment-in-practice#deployment-2-building-the-safety-system"
-upstream_fingerprint: "aWTOjC/3011/2/00sq04MO05UA06CS08X20AL20AMA0FxG0IO10OCZ0ROe0RXO0VVP0VrP0XQf0b5u0btE0doc0g9X0gJK0gYR0ghv0hoo0i1f0lbD0nRX0o960rKy0sIT0sQ10sQR0uDX"
+upstream_fingerprint: "aWT5BvOjC/3065/2/00sq04MO05UA06CS08X20AL20AMA0E3U0FxG0IO10Nl00OCZ0ROe0RXO0VVP0VrP0XQf0b5u0btE0doc0g9X0gJK0gYR0ghv0hoo0i1f0lbD0nRX0o960rKy0sIT0sQ1"
 synced_from:
   source: "iliad"
   url: "https://iliad-intensive.org/alignment/alignment-in-practice/#deployment-2-building-the-safety-system"
@@ -22,7 +22,7 @@ content::
 
 When we deploy a model, we cannot prove it is safe. Instead, we make **statistical claims about its safety behaviour under pressure**: the deployed system — i.e., model plus runtime safeguards — is subjected to substantial adversarial effort. The strength of the safety claim is bounded by how hard we tried to break it. Two activities go hand in hand: **building out the safety system** around the model, and **red-teaming** that system to see where it cracks. The goal is not proving the impossibility of misuse but **making it impractical for a realistic adversary**, with the effort we invest into breaking the system scaling roughly with the capabilities of the model (which we characterized in the previous chapter).
 
-**Presentation (15 min):** We cannot prove the system is safe, so we build defences and then put adversarial pressure on them, and the strength of every safety claim is exactly the strength of the red-teaming behind it. Whenever you reach a method that students proposed during the discussion, point to their sticky note on the board and make the connection explicit. The narrative spine is: runtime safeguards → the effort-bounded notion of safety → access-level taxonomy of jailbreaks → the takeaway. 
+**Presentation:** We cannot prove the system is safe, so we build defences and then put adversarial pressure on them, and the strength of every safety claim is exactly the strength of the red-teaming behind it. Whenever you reach a method that students proposed during the discussion, point to their sticky note on the board and make the connection explicit. The narrative spine is: runtime safeguards → the effort-bounded notion of safety → access-level taxonomy of jailbreaks → the takeaway. 
 
 **Runtime safeguards.** Some of the model's safety is already in place by the time we get to deployment. Pretraining shaped its priors over personas and limited what it knows; post-training trained the helpful-and-harmless assistant on top of that, and techniques like deliberative alignment and confessions taught the model to reflect on whether its own outputs follow the rules. But none of this is going to be perfect, and the residual problems are expensive to fix at the source — going back and retraining is slow, and some failures are hard to even reproduce reliably enough to train against. So we do something cheaper and more modular: we wrap the model in **external safeguards that run alongside it at inference time**, and patch those when problems show up.
 
@@ -55,7 +55,11 @@ The takeaway is that there's no proof that a deployed model is safe. There's onl
 **Misuse of AI**
 The first reports of misuse of frontier AI systems has come out last month. Anthropic reports different militaries having used Claude in strategic decision making, and reports many other misuse cases. The full report can be found [here](https://www.anthropic.com/threat-intelligence-report-september-2026).
 
-**Reading (30 mins)**: [Detecting and countering misuse of AI](https://www.anthropic.com/threat-intelligence-report-september-2026), [Constitutional Classifiers](https://arxiv.org/abs/2501.18837), or read about the [famous](https://time.com/collections/time100-ai-2025/7305870/pliny-the-liberator/) anonymous jailbreaker [Pliny the Liberator](https://medium.com/@JMerilehto/decoding-the-elder-plinius-repository-an-autopsy-of-the-ai-control-plane-88c503224940).
+\### **Reading**
+
+**Pretraining**: Read [Pretraining data filtering](https://alignment.anthropic.com/2025/pretraining-data-filtering/), or [SGTM](https://alignment.anthropic.com/2025/selective-gradient-masking/), or [persona selection model (PSM)](https://alignment.anthropic.com/2026/psm/).
+**Post-training:** [The Claude Constitution](https://www.anthropic.com/constitution), [Model Spec](https://model-spec.openai.com/2026-08-18.html), or [Teaching Claude Why](https://alignment.anthropic.com/2026/teaching-claude-why/). Or any other paper that you found interesting.
+**Deployment**: Read Anthropic's [Responsible Scaling Policy](https://www.anthropic.com/responsible-scaling-policy), OpenAI's [Preparedness Framework](https://openai.com/index/updating-our-preparedness-framework/), or if you want to go more in depth the recent case made for [pacing the frontier](https://pacing.tech/). Or [Detecting and countering misuse of AI](https://www.anthropic.com/threat-intelligence-report-september-2026), [Constitutional Classifiers](https://arxiv.org/abs/2501.18837), or read about the [famous](https://time.com/collections/time100-ai-2025/7305870/pliny-the-liberator/) anonymous jailbreaker [Pliny the Liberator](https://medium.com/@JMerilehto/decoding-the-elder-plinius-repository-an-autopsy-of-the-ai-control-plane-88c503224940).
 
 \### **Some further info:**
 
