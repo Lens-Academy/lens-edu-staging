@@ -25,7 +25,7 @@ Here are three criticisms of AI control and one argument for it.
 
 **Argument D (for control).** "We can test control measures in experiments today, which we cannot do for most other safety approaches. So control is one of the most valuable things safety researchers can work on."
 
-1. For each criticism, name one thing it gets right, give the strongest response you can to the point it disputes, and say what would realistically happen without control in this case and how much of the criticism is left standing compared with that (not compared with a perfect solution). If you think a criticism is largely right, say so, and say why the strongest response to it fails. Three to five sentences per criticism is enough.
+1. For each criticism, name one thing it gets right (one clause is enough, even if you think the criticism is weak overall), give the strongest response you can to the point it disputes, and say what would realistically happen without control in this case and how much of the criticism is left standing compared with that (not compared with a perfect solution). If you think a criticism is largely right, say so, and say why the strongest response to it fails. Three to five sentences per criticism is enough.
 2. For argument D, name the premise you find weakest, say why it is open to doubt, and say how much of the argument is left standing and why. Three to five sentences.
 3. Somewhere in your answer, use at least one specific idea, argument or example from this unit's readings.
 placeholder:: Take A, B and C in turn (one thing it gets right, strongest response, what is left compared with the realistic world without control), then D (weakest premise, why, what is left and why)
