@@ -42,6 +42,7 @@ We demonstrate that RL finetuning an LLM using debate, a two-player adversarial 
 ###### keywords ^keywords
 
 alignment, scalable oversight, debate, reward hacking, RL from AI feedback, LLM-as-a-judge
+
 ![Figure 1](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/kenton-debate-training-reduces-reward-hacking-in-rlaif-fig1.svg)
 
 Figure 1: Debate reduces reward hacking. The single-player generator baseline, RLAIF-$A$, exhibits increasing reward (left), but decreasing judge correlation to ground-truth labels (Matthews correlation coefficient, MCC, centre) and decreasing generator solution final answer accuracy (right). Our method, Debate-$AB$ (generator with an adversarial critic), moderates reward increase and maintains judge MCC, leading to a higher peak accuracy that persists through many RL steps. RLVR shown as roofline. All metrics reported on held-out validation data.
@@ -234,6 +235,7 @@ In all protocols the judge response length decreases with RL steps. Under $A$, A
 ##### Setup ^setup-2
 
 To test whether debate incentives can overcome explicit misalignment, we prompt players to be misaligned, which we denote by $\hat{P}$ for player $P\in\{A,B\}$ (see Appendix [[#^g-3-misalignment-prompts|G.3]] for prompts). For Alice this prompts to give a wrong final answer. For Bob, this prompts to convince judge to reach the incorrect conclusion (if Alice incorrect, convince judge it is correct; if Alice is correct, convince judge it is incorrect). The judge receives the usual judge prompt. For our standard judge we look at a baseline of $\hat{A}$ and compare it to $\hat{A}B$ where Bob is given the standard prompt. For the weakened judge, we compare $\hat{A}$ to $\hat{A}B$ as above, and $\hat{A}\hat{B}$. Prompted misalignment is a relatively mild stress test; testing against learned misaligned behaviour (Hubinger et al., 2024) is left to future work.
+
 ![Figure 6](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/kenton-debate-training-reduces-reward-hacking-in-rlaif-fig6.svg)
 
 Figure 6: Prompted Misalignment of players: reward (left), judge MCC (centre), and accuracy (right). Misalignment prompt (solid) compared with standard prompt (dotted). Top row: standard judge. Bottom row: weakened judge. Hat notation in legend indicates a misaligned prompt given to the player.
@@ -450,6 +452,7 @@ We prompt Alice to structure her visible response as a sequence of numbered step
 ![Figure 8](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/kenton-debate-training-reduces-reward-hacking-in-rlaif-fig8.svg)
 
 Figure 8: Pairwise preference reward hacks faster than a judgment-matched baseline.
+
 ![Figure 9](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/kenton-debate-training-reduces-reward-hacking-in-rlaif-fig9.svg)
 
 Figure 9: Step by Step: reward (left), judge MCC (centre), and accuracy (right). Step-by-step formatting initially has worse accuracy improvement and eventually hacks more severely than the baseline.
