@@ -1,4 +1,4 @@
-https://staging.lensacademy.org/lens/iliad-debate-day-e12-find-the-mistake-in-the-proof---
+{--{"author":"Hamza's AI","timestamp":1794005823796}@@https://staging.lensacademy.org/lens/iliad-debate-day-e12-find-the-mistake-in-the-proof-----}{++{"author":"Hamza's AI","timestamp":1794005823796}@@---++}
 id: '4928e75a-9eaa-46f7-897a-daf0cc6c57ff'
 title: "E.1.2 Find the mistake in the proof"
 tldr: "Five deliberately wrong proofs (horses, pointwise limits, ln 2 = 0, a negative integral, two coins) where you find the flaw, with the answer in a closed box under each proof, as a first taste of judging arguments."
