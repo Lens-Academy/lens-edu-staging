@@ -31,11 +31,13 @@ But formal verification is limited to purely syntactic domains, and most problem
 
 Examples of Verified AI:
 
+**Math/Code - Lean:**
 
 ::card[[../kim-do-llms-game-formalization-evaluating-faithfulness-in-logical-reasoning|Do LLMs Game Formalization? Evaluating Faithfulness in Logical Reasoning]]
 
 ::card[[../klaus-a-rust-to-lean-verification-pipeline-with-ai-provers-an-experience-report|A Rust-to-Lean Verification Pipeline with AI Provers: An Experience Report]]
 
+**Physics/Experiment Design:**
 
 ::card[[../deng-towards-verifiable-and-self-correcting-ai-physicists-for-quantum-many-body-simulations|Towards Verifiable and Self-Correcting AI Physicists for Quantum Many-Body Simulations]]
 
