@@ -881,7 +881,7 @@ Registry audit claims are additionally evaluated with GoodExec and FalseExec, wh
 
 The four additional failure modes below illustrate the same silent-error pattern as Figure 1. All examples are from actual MOOSE simulations that converge without error.
 
-##### Example 1: Missing TimeDerivative (transient {--{"author":"Hamza's AI","timestamp":1794005759543}@@$\to$--}{++{"author":"Hamza's AI","timestamp":1794005759543}@@→++} steady-state). ^example-1-missing-timederivative
+##### Example 1: Missing TimeDerivative (transient → steady-state). ^example-1-missing-timederivative
 
 An LLM asked to model “transient heat conduction in a steel rod” generates the `HeatConduction` kernel but omits `TimeDerivative`. The code runs without error—but it solves Laplace’s equation $\nabla^2 T = 0$ instead of the heat equation $\rho c_p \frac{\partial T}{\partial t} - \nabla \cdot (k \nabla T) = 0$. The simulation converges in one time step; the entire time-dependent behavior is absent.
 
@@ -995,11 +995,11 @@ PDE-Reg routes generation through an extracted PDE contract and IFS-guided refin
 
 When the LLM encounters a kernel referencing an undefined variable or material property, its typical repair strategy under generic self-debugging is _deletion_—removing the problematic block to eliminate the error. This resolves the runtime error but can destroy physically necessary kernels.
 
-##### Example: `mechanics_004` {--{"author":"Hamza's AI","timestamp":1794005759543}@@(Direct$=$0.61 $\to$ Exec-Repair$=$0.00).--}{++{"author":"Hamza's AI","timestamp":1794005759543}@@(Direct = 0.61 → Exec-Repair = 0.00).++} ^example-mechanics004-direct-0
+##### Example: `mechanics_004` (Direct = 0.61 → Exec-Repair = 0.00). ^example-mechanics004-direct-0
 
 Direct generation produces a partially correct elasticity input with `StressDivergenceTensors` kernels but references an undefined elasticity tensor. The Exec-Repair prompt (“review and fix any problems”) leads the LLM to remove the stress kernels entirely, producing a degenerate file that parses but encodes no physics. IFS drops from 0.61 to 0.00.
 
-##### Example: `coupled_014` {--{"author":"Hamza's AI","timestamp":1794005759543}@@(Direct$=$0.90 $\to$ Exec-Repair$=$0.41).--}{++{"author":"Hamza's AI","timestamp":1794005759543}@@(Direct = 0.90 → Exec-Repair = 0.41).++} ^example-coupled014-direct-0
+##### Example: `coupled_014` (Direct = 0.90 → Exec-Repair = 0.41). ^example-coupled014-direct-0
 
 A high-quality direct generation with a minor material property mismatch. Exec-Repair “fixes” the mismatch by restructuring the entire file, inadvertently removing two of three boundary conditions and changing the time scheme. IFS drops by $-$0.49.
 
