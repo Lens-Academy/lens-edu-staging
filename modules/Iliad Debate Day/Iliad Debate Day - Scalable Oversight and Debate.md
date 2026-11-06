@@ -26,10 +26,13 @@ source:: [[../../Lenses/kim-do-llms-game-formalization-evaluating-faithfulness-i
 
 ## Lens: A Rust-to-Lean Verification Pipeline with AI Provers: An Experience Report
 source:: [[../../Lenses/klaus-a-rust-to-lean-verification-pipeline-with-ai-provers-an-experience-report]]
+
 ## Lens: Towards Verifiable and Self-Correcting AI Physicists for Quantum Many-Body Simulations
 source:: [[../../Lenses/deng-towards-verifiable-and-self-correcting-ai-physicists-for-quantum-many-body-simulations]]
+
 ## Lens: Your Simulation Runs but Solves the Wrong Physics
 source:: [[../../Lenses/song-your-simulation-runs-but-solves-the-wrong-physics-pde-grounded-intent-verification-for-llm-generated-multiphysics-simulation-code]]
+
 # Lens: E.1.4 The debate setup and interactive proofs
 source:: [[../../Lenses/Iliad Debate Day/Iliad Debate Day E.1.4 - The debate setup and interactive proofs]]
 
