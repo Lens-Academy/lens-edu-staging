@@ -1,8 +1,8 @@
 ---
 id: '4928e75a-9eaa-46f7-897a-daf0cc6c57ff'
 title: "E.1.2 Find the mistake in the proof"
-tldr: "Five deliberately wrong proofs (horses, pointwise limits, ln 2 = 0, a negative integral, two coins) where you find the flaw, as a first taste of judging arguments."
-summary_for_tutor: "Section 4 of worksheet E.1: the find-the-mistake game with sections 4.1 to 4.5, from the September handout. The student plays Bob and must locate the error in Alice's proofs: all horses are the same color, pointwise limits of continuous functions, ln(2) = 0 by rearranging the alternating harmonic series, a nonnegative function with integral -2 (integrating 1/x^2 across the singularity at 0), and two fair coins both landing heads with probability 1/8 (pairwise versus joint independence). The point is that convincing proofs can hide mistakes that a judge must find. The room plays this as a game, so give hints only and do not name the error, even when asked."
+tldr: "Five deliberately wrong proofs (horses, pointwise limits, ln 2 = 0, a negative integral, two coins) where you find the flaw, with the answer in a closed box under each proof, as a first taste of judging arguments."
+summary_for_tutor: "Section 4 of worksheet E.1: the find-the-mistake game with sections 4.1 to 4.5, from the September handout. The student plays Bob and must locate the error in Alice's proofs: all horses are the same color, pointwise limits of continuous functions, ln(2) = 0 by rearranging the alternating harmonic series, a nonnegative function with integral -2 (integrating 1/x^2 across the singularity at 0), and two fair coins both landing heads with probability 1/8 (pairwise versus joint independence). The point is that convincing proofs can hide mistakes that a judge must find. Each proof has its answer in a closed box under it. The room plays this as a game, so give hints first and do not name the error yourself. If the student asks for the answer, point them to the closed box under the proof."
 authors:
   - Stephan WÃ¤ldchen (Iliad)
 source_url: https://iliad-intensive.org/safety/debate/
@@ -38,6 +38,14 @@ Now observe that $$A$$ and $$B$$ share the horses $$\{h_{2}, \ldots, h_{n}\}$$ â
 
 By induction, all horses in any set of $$n$$ horses are the same color. Since this holds for all $$n$$, all horses are the same color. $$\blacksquare$$
 
+:::callout {title="Why the proof is wrong" tone="neutral" collapse="closed"}
+
+The claim that $$A$$ and $$B$$ have a nonempty overlap fails exactly when $$n = 1$$. To deduce the case of two horses from the base case, the proof takes $$A = \{h_{1}\}$$ and $$B = \{h_{2}\}$$. Both single-horse sets are monochromatic, but they share no horse. In particular, $$h_{2} \notin A$$, so it cannot serve as a color witness. The two horses may have different colors.
+
+For $$n \ge 2$$, the intersection $$A \cap B = \{h_{2}, \ldots, h_{n}\}$$ really is nonempty, and the reasoning within that step works. Induction still fails because there is no valid bridge from $$n = 1$$ to $$n = 2$$. Calling this strong induction does not help: the stronger hypothesis includes only smaller cases, none of which establishes that an arbitrary pair of horses has the same color.
+
+:::
+
 \### 4.2 Theorem: Pointwise limits of continuous functions are continuous.
 
 **Claim.** Let $$f_{1},f_{2},f_{3},\ldots$$ be continuous functions on $$[0,1]$$. Suppose that $$f_{n}(x)\to f(x)$$ for every $$x\in[0,1]$$. Then $$f$$ is continuous.
@@ -71,6 +79,14 @@ $$
 $$
 
 Thus $$f$$ is continuous at $$a$$. Since $$a$$ was arbitrary, $$f$$ is continuous on $$[0,1]$$. $$\blacksquare$$
+
+:::callout {title="Why the proof is wrong" tone="neutral" collapse="closed"}
+
+The first two estimates choose one index $$N$$ and then a neighborhood of $$a$$. The third estimate must hold for that same $$N$$ at every $$x$$ in that neighborhood. Pointwise convergence only says that, for each fixed $$x$$, sufficiently large indices work; how large may depend on $$x$$. The invalid step exchanges $$\forall x\,\exists N$$ with $$\exists N\,\forall x$$. Choosing a new $$N$$ for each $$x$$ also changes $$f_{N}$$ and potentially the $$\delta$$ obtained from its continuity, so it does not repair the proof.
+
+For a concrete counterexample, take $$f_{n}(x) = x^{n}$$ on $$[0,1]$$. Its pointwise limit is $$f(x) = 0$$ when $$x < 1$$, while $$f(1) = 1$$. At $$a = 1$$, no fixed $$N$$ gives $$|f_{N}(x) - f(x)| < 1/3$$ for every $$x$$ sufficiently close to $$1$$: for $$x < 1$$ close enough to $$1$$, $$x^{N} > 2/3$$ whereas $$f(x) = 0$$. The limit is discontinuous. Uniform convergence would justify the third estimate and hence the proof; uniform control on a neighborhood of each $$a$$ would already suffice.
+
+:::
 
 \### 4.3 Theorem: $$\text{ln}(2) = 0$$
 
@@ -122,6 +138,14 @@ $$
 
 and we can cocnlude that $$\ln 2 = 0$$. $$\blacksquare$$
 
+:::callout {title="Why the proof is wrong" tone="neutral" collapse="closed"}
+
+The error is the assertion that convergence permits arbitrary rearrangement without changing the sum. This is guaranteed for absolutely convergent series. The alternating harmonic series converges to $$\ln 2$$, but its series of absolute values is the divergent harmonic series, $$\sum_{k\ge 1} 1/k$$. It is therefore only conditionally convergent.
+
+The proposed ordering takes one positive term and then two negative terms, repeatedly. It uses every original term, but the altered balance changes the limit of the partial sums. The displayed regrouping shows that the new series really does sum to $$\frac{1}{2}\ln 2$$. Regrouping consecutive terms of this new convergent series is legitimate. What fails is the preceding equation between its sum and the sum in the original order. Consequently the proof establishes no equation $$\ln 2 = \frac{1}{2}\ln 2$$; it compares two different series with different sums.
+
+:::
+
 \### 4.4 Theorem: A nonnegative function can have a negative integral.
 
 **Claim.** There is a function $$f:[-1,1]\to[0,\infty)$$ such that
@@ -154,6 +178,24 @@ $$
 
 Thus a function that is nonnegative everywhere can have a negative integral. $$\blacksquare$$
 
+:::callout {title="Why the proof is wrong" tone="neutral" collapse="closed"}
+
+The Fundamental Theorem of Calculus does not justify evaluating this antiderivative across $$0$$. The formula $$F(x) = -1/x$$ defines an antiderivative separately on each side of $$0$$, but $$F$$ is undefined there and cannot be extended continuously across it. Also, $$f$$ is unbounded near $$0$$, so it has no ordinary Riemann integral on $$[-1, 1]$$.
+
+To evaluate an improper integral, we must split at the singularity and take the two limits separately. For $$0 < \varepsilon < 1$$,
+
+$$
+\int_{-1}^{-\varepsilon}\frac{dx}{x^{2}}=\frac{1}{\varepsilon}-1,\qquad \int_{\varepsilon}^{1}\frac{dx}{x^{2}}=\frac{1}{\varepsilon}-1.
+$$
+
+Both quantities tend to $$+\infty$$ as $$\varepsilon \to 0^{+}$$. The improper integral therefore diverges to $$+\infty$$; its value is not $$-2$$.
+
+Assigning $$f(0) = 0$$ does not cure the problem: the divergence comes from arbitrarily large values throughout every neighborhood of $$0$$. Changing a value at one point cannot remove it.
+
+**Moral.** Before applying a theorem, check its hypotheses on the whole interval. A locally correct formula can give a false answer when used across a singularity.
+
+:::
+
 \### 4.5 Theorem: Two fair coins both land heads with probability 1/8.
 
 **Claim.** Toss two independent fair coins. The probability that both land heads is $$1/8$$.
@@ -181,3 +223,22 @@ P(A\cap B\cap C)=P(A\cap B)\,P(C\mid A\cap B)=\frac{1}{4}\cdot\frac{1}{2}=\frac{
 $$
 
 But whenever both coins land heads, they agree, so $$A\cap B\cap C=A\cap B$$. Hence the probability that both coins land heads is $$1/8$$. $$\blacksquare$$
+
+:::callout {title="Why the proof is wrong" tone="neutral" collapse="closed"}
+
+The mistake is inferring that $$C$$ is independent of $$A\cap B$$ from its independence of $$A$$ and of $$B$$ separately. Knowing either coin's result alone leaves the other coin unknown. Knowing both results determines whether they agree. In particular, $$P(C\mid A\cap B) = 1$$, not $$\frac{1}{2}$$.
+
+All four outcomes are equally likely:
+
+| Outcome | $$A$$ occurs | $$B$$ occurs | $$C$$ occurs |
+|---|---|---|---|
+| HH | yes | yes | yes |
+| HT | yes | no | no |
+| TH | no | yes | no |
+| TT | no | no | yes |
+
+Every pair of these events really is independent: each event has probability $$1/2$$, and each pair occurs together with probability $$1/4$$. But all three occur together exactly on HH, with probability $$1/4$$, rather than the product $$(1/2)^{3} = 1/8$$. Thus the events are pairwise independent but not jointly independent.
+
+**Moral.** Information can emerge only when observations are combined. Independence from each observation separately does not guarantee independence from the information they provide together.
+
+:::
