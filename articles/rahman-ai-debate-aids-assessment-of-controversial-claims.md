@@ -394,7 +394,7 @@ Subsequently, participants were shown a factual claim and asked to judge its tru
 
 The core of the consultancy task involved three rounds of back-and-forth interaction with an LLM. In each round, participants received model-generated responses and were asked to provide written feedback (minimum 50 characters) explaining their interpretation or critique. After completing all three rounds, participants reassessed the original claim, again providing a binary judgment and confidence rating. Finally, they were prompted to explain their final decision in free-text form, enabling us to capture reasoning patterns and belief updates.
 
-Sample consultancy interfaces comprising three rounds are shown in Figures 7 8 9, which highlights compelling rebuttals and argumentative depth.
+Sample consultancy interfaces comprising three rounds are shown in Figures 7, 8 and 9, which highlights compelling rebuttals and argumentative depth.
 
 ![Refer to caption](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rahman-ai-debate-aids-assessment-of-controversial-claims-img2-2a7589da.png)
 
@@ -410,7 +410,7 @@ Figure 9: Consultancy Round 3: Concluding Arguments. The interface shows the fin
 
 **Debate.** The debate interface largely mirrored the consultancy format, with one key difference: participants observed a structured argument between two LLM agents, each advocating for opposing sides of a claim. Each round featured arguments and counter-arguments, simulating a dialogic format designed to surface contradictions or weaknesses in reasoning. Judges followed the same evaluation procedure as in the consultancy task, including initial and final judgments, confidence sliders, and free-text justifications.
 
-Sample debate interfaces comprising three rounds are shown in Figures 10 11 12, which highlights compelling rebuttals and argumentative depth. A full end-to-end flowchart of our setup is presented in Figure 2.
+Sample debate interfaces comprising three rounds are shown in Figures 10, 11 and 12, which highlights compelling rebuttals and argumentative depth. A full end-to-end flowchart of our setup is presented in Figure 2.
 
 ![Refer to caption](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rahman-ai-debate-aids-assessment-of-controversial-claims-img5-97fcae5b.png)
 
