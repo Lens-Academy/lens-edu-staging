@@ -154,7 +154,7 @@ $$
 
 Thus a function that is nonnegative everywhere can have a negative integral. $$\blacksquare$$
 
-\### 4.5 Theorem: Two fair coins both land heads with probability $$1/8$$.
+\### 4.5 Theorem: Two fair coins both land heads with probability 1/8.
 
 **Claim.** Toss two independent fair coins. The probability that both land heads is $$1/8$$.
 
