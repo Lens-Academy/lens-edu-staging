@@ -17,7 +17,7 @@ id:: 0ca54cb0-4700-48b6-8dec-c377a467db47
 content::
 An AI company uses a capable coding agent that it does not fully trust. Every piece of code the agent writes passes through a smaller, trusted model first. When the trusted model finds something suspicious, it rewrites that part of the code into a safe version, and the rewritten code is used. Over a year, the trusted model rewrote about 300 pieces of code. The company publishes a yearly safety report, sells the agent to other companies, and is training a more capable successor on similar tasks.
 
-1. Describe one concrete way this measure could make a catastrophe more likely than if the company had not used it.
+1. Describe one concrete way this measure could make a catastrophe more likely than if the company had not used it. If the path is like the one you traced for the escape monitor, build on that answer instead of repeating it: say which feature of this case (the rewrite count, the safety report, selling the agent, the successor) changes or adds a step.
 2. What would have to be true about the world for that to happen? Give one reason it might not be true.
 3. What would you do about it? You can propose a change to the measure or how it is used, and say what protection the change keeps and what it costs. Or you can argue that the measure should be dropped, or that it should stay as it is. Either way, weigh the downside against what acting would cost or lose.
 placeholder:: Answer the three parts in order. A few sentences each is enough.
