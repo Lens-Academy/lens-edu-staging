@@ -9,9 +9,11 @@ source:: [[../../Lenses/Iliad Debate Day/Iliad Debate Day E.1.1 - Overview and p
 
 # Lens: How Turing machines work
 source:: [[../../Lenses/engmicrolectures-turing-machines]]
+optional:: true
 
 # Lens: Introduction to computational complexity
 source:: [[../../Lenses/hackerdashery-p-vs-np-and-the-computational-complexity-zoo]]
+optional:: true
 
 # Lens: E.1.2 Find the mistake in the proof
 source:: [[../../Lenses/Iliad Debate Day/Iliad Debate Day E.1.2 - Find the mistake in the proof]]
