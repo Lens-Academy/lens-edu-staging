@@ -31,12 +31,15 @@ But formal verification is limited to purely syntactic domains, and most problem
 
 Examples of Verified AI:
 
-- **Math/Code - Lean:**
-    - [[../kim-do-llms-game-formalization-evaluating-faithfulness-in-logical-reasoning|Do LLMs Game Formalization? Evaluating Faithfulness in Logical Reasoning]]
-    - [[../klaus-a-rust-to-lean-verification-pipeline-with-ai-provers-an-experience-report|A Rust-to-Lean Verification Pipeline with AI Provers: An Experience Report]]
-- **Physics/Experiment Design:**
-    - [[../deng-towards-verifiable-and-self-correcting-ai-physicists-for-quantum-many-body-simulations|Towards Verifiable and Self-Correcting AI Physicists for Quantum Many-Body Simulations]]
-    - [[../song-your-simulation-runs-but-solves-the-wrong-physics-pde-grounded-intent-verification-for-llm-generated-multiphysics-simulation-code|Your Simulation Runs but Solves the Wrong Physics: PDE-Grounded Intent Verification for LLM-Generated Multiphysics Simulation Code]]
+
+::card[[../kim-do-llms-game-formalization-evaluating-faithfulness-in-logical-reasoning|Do LLMs Game Formalization? Evaluating Faithfulness in Logical Reasoning]]
+
+::card[[../klaus-a-rust-to-lean-verification-pipeline-with-ai-provers-an-experience-report|A Rust-to-Lean Verification Pipeline with AI Provers: An Experience Report]]
+
+
+::card[[../deng-towards-verifiable-and-self-correcting-ai-physicists-for-quantum-many-body-simulations|Towards Verifiable and Self-Correcting AI Physicists for Quantum Many-Body Simulations]]
+
+::card[[../song-your-simulation-runs-but-solves-the-wrong-physics-pde-grounded-intent-verification-for-llm-generated-multiphysics-simulation-code|Your Simulation Runs but Solves the Wrong Physics: PDE-Grounded Intent Verification for LLM-Generated Multiphysics Simulation Code]]
 
 Non-formal domains are messy! Solution: make the world-model implicit by having a human judge oracle.
 

@@ -14,9 +14,17 @@ content::
 
 Read one of these three papers. Each one tests a claim about debate:
 
-- **Optimising for Debate increases Judge Accuracy, Optimizing for Consultancy decreases it:** [[../khan-debating-with-more-persuasive-llms-leads-to-more-truthful-answers|Debating with More Persuasive LLMs Leads to More Truthful Answers]]
-- **Debate helps judges even with systematic biases:** [[../rahman-ai-debate-aids-assessment-of-controversial-claims|AI Debate Aids Assessment of Controversial Claims]]
-- **Debate can prevent reward hacking:** [[../kenton-debate-training-reduces-reward-hacking-in-rlaif|Debate Training Reduces Reward Hacking in RLAIF]]
+**Optimising for Debate increases Judge Accuracy, Optimizing for Consultancy decreases it:**
+
+::card[[../khan-debating-with-more-persuasive-llms-leads-to-more-truthful-answers|Debating with More Persuasive LLMs Leads to More Truthful Answers]]
+
+**Debate helps judges even with systematic biases:**
+
+::card[[../rahman-ai-debate-aids-assessment-of-controversial-claims|AI Debate Aids Assessment of Controversial Claims]]
+
+**Debate can prevent reward hacking:**
+
+::card[[../kenton-debate-training-reduces-reward-hacking-in-rlaif|Debate Training Reduces Reward Hacking in RLAIF]]
 
 **Discussion Prompts:**
 
