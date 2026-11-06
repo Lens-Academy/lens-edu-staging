@@ -14,6 +14,8 @@ content::
 
 [[../buhl-an-alignment-safety-case-sketch-based-on-debate|AISI's debate safety case]] says: if debate can reliably make honesty the winning strategy, if training explores dishonesty enough to eliminate it, and if hidden flaws in obfuscated arguments can be handled, then debate could provide scalable oversight for advanced AI R&D agents. Its purpose is less a finished guarantee and more a roadmap of the assumptions and evidence needed for such a guarantee. Its main value is not that it proves debate already works, but that it decomposes the research agenda into assumptions that need evidence: debate equilibria must favor truth, training must explore deceptive strategies enough to punish them, humans must judge debates reliably, and obfuscated arguments must be solved.
 
+::card[[../buhl-an-alignment-safety-case-sketch-based-on-debate|An alignment safety case sketch based on debate]]
+
 \## 21. Quiz and feedback
 
 The day ends with a quiz and feedback form: [Open the quiz](https://docs.google.com/forms/d/e/1FAIpQLSfdGchN3n9ithth268Llbo7s_f3jD1HiQGzn0FHW7dufXodEg/viewform)
