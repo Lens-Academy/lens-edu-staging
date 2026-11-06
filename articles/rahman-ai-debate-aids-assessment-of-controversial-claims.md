@@ -466,6 +466,7 @@ We conducted calibration analysis to assess how well judges’ initial and final
 {++{"author":"Hamza's AI","timestamp":1794006751821}@@![Figure 13](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rahman-ai-debate-aids-assessment-of-controversial-claims-fig13.svg)
 
 ++}Figure 13: Calibration plots for COVID-19 claims showing judges’ accuracy versus confidence for debate (a) and consultancy (b) protocols. Dotted lines represent pre-intervention judgments; solid lines show post-intervention judgments. The diagonal represents perfect calibration, with points above showing underconfidence and points below showing overconfidence. Brier scores indicate overall calibration quality (lower is better).
+
 {++{"author":"Hamza's AI","timestamp":1794006751821}@@![Figure 14](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rahman-ai-debate-aids-assessment-of-controversial-claims-fig14.svg)
 
 ++}Figure 14: Forest plot showing the effects of mainstream versus skeptical COVID-19 beliefs on judgment accuracy across intervention types. The plot displays odds ratios (OR) with 95% confidence intervals. OR < 1 indicates lower accuracy with mainstream beliefs; OR > 1 indicates higher accuracy. The interaction effect tests whether debate moderates the relationship between belief type and accuracy.
@@ -487,6 +488,7 @@ Figure 15 and 16 compare the judgment accuracy of GPT-4o and Qwen-2.5-7B under 
 {++{"author":"Hamza's AI","timestamp":1794006751821}@@![Figure 15](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rahman-ai-debate-aids-assessment-of-controversial-claims-fig15.svg)
 
 ++}Figure 15: GPT-4o judge accuracy under consultant and debater oversight across COVID and Climate claims. Correct persuasion boosts accuracy, but confidently wrong consultants sharply degrade performance. Debate setups are more robust but sensitive to speaker order and model strength.
+
 {++{"author":"Hamza's AI","timestamp":1794006751821}@@![Figure 16](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rahman-ai-debate-aids-assessment-of-controversial-claims-fig16.svg)
 
 ++}Figure 16: Qwen2.5-7B as a judge: accuracy under consultant and debater setups for COVID and Climate claims. Consultant influence remains strong, but Qwen is equally swayed by weak and strong models. Debate setups improve robustness, especially for Climate, with reduced sensitivity to speaker order.
