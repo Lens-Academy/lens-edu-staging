@@ -126,6 +126,8 @@ We evaluate GPT-5 (gpt-5-2025-08-07) and DeepSeek-R1 (DeepSeek-AI et al., 2025).
 We compare two approaches (Figure 2). All outputs are compiled using LeanInteract (Poiroux et al., 2025); upon failure, the model receives compiler error messages and may revise up to three times. Full prompts appear in Appendix [[#^appendix-c-prompts|C]].
 
        
+![Figure 2](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/kim-do-llms-game-formalization-evaluating-faithfulness-in-logical-reasoning-fig2.png)
+
 Figure 2: **Unified** (left): single pass generates complete formalization and proof. **Two-Stage** (right): Stage 1 produces axioms and theorem with sorry placeholder; Stage 2 receives the locked formalization along with the original NL input (dashed arrow) and generates proof. Both approaches use iterative compilation with up to 3 attempts per stage.
 
 #### Unified approach. ^unified-approach

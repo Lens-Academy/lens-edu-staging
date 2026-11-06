@@ -101,6 +101,7 @@ The Verified zkEVM project {--{"author":"Hamza's AI","timestamp":1794005504813}
 ## Pipeline Architecture ^pipeline-architecture
 
 Figure 1 shows the data flow. The pipeline runs in four stages.
+![Figure 1](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/klaus-a-rust-to-lean-verification-pipeline-with-ai-provers-an-experience-report-fig1.png)
 
 Pipeline data flow. Extraction (grey) lifts Rust into Lean 4; specifications (green) define the verification targets; proofs (blue) are constructed manually and with AI assistance; the Lean kernel (red) re-checks every proof, constituting the trust boundary.
 
