@@ -42,6 +42,7 @@ We demonstrate that RL finetuning an LLM using debate, a two-player adversarial 
 ###### keywords ^keywords
 
 alignment, scalable oversight, debate, reward hacking, RL from AI feedback, LLM-as-a-judge
+![Figure 1](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/kenton-debate-training-reduces-reward-hacking-in-rlaif-fig1.svg)
 
 Figure 1: Debate reduces reward hacking. The single-player generator baseline, RLAIF-$A$, exhibits increasing reward (left), but decreasing judge correlation to ground-truth labels (Matthews correlation coefficient, MCC, centre) and decreasing generator solution final answer accuracy (right). Our method, Debate-$AB$ (generator with an adversarial critic), moderates reward increase and maintains judge MCC, leading to a higher peak accuracy that persists through many RL steps. RLVR shown as roofline. All metrics reported on held-out validation data.
 
@@ -103,6 +104,8 @@ All experiments RL train the same initial **policy** model (Gemini 2.5 Flash-cla
 
 In our debate protocols, debaters share policy weights (there is a single policy model) but receive different prompts and play different roles. The policy model uses a chain-of-thought (CoT) that is hidden from the judge and the other player, followed by a visible response.
 
+![Figure 2](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/kenton-debate-training-reduces-reward-hacking-in-rlaif-fig2.png)
+
 Figure 2: Protocol variants.   Alice (trainable)    Bob (trainable)    Frozen judge    Ground-truth verifier  **\- ->** Reward. Solid borders denote trainable nodes; dotted borders denote frozen or non-trainable nodes. Alice’s reward arrows (left, $r$) and Bob’s (right, $1-r$) reflect the constant-sum structure.
 
 We compare three protocol variants (which differ in the number of players and turns before judgment) alongside an additional RLVR roofline, see Figure 2. The intuition for adding debate turns is that they provide an opportunity to expose flaws in the other player’s reasoning which may help the judge make a more accurate decision. In all protocols the judge decides whether Alice wins based on the correctness of Alice’s final answer rather than the correctness of the reasoning.
@@ -162,6 +165,8 @@ We work in the setting where the judge is weak, compared to the policy. We opera
 
 ### 4.1 Debate reduces reward hacking ^4-1-debate-reduces
 
+![Figure 3](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/kenton-debate-training-reduces-reward-hacking-in-rlaif-fig3.svg)
+
 Figure 3: Reward, Judge MCC and generator accuracy, as in Figure 1, but including both validation (solid) and train (dashed) datasets.
 
 Table 1: Validation peak comparison from amalgamated experiment groups
@@ -210,6 +215,8 @@ In debate ($AB$), Alice’s late stage behaviour does not show the same hacking 
 
 We hypothesised that a judge unable to solve problems on its own would need to rely more heavily on the debate content, and that additional debate rounds, which use the stronger policy’s capabilities, would therefore be more beneficial. To test this, we weaken the judge by disabling its chain-of-thought reasoning and constraining its visible response to fewer than fifty words, making it unlikely to solve the problems independently.
 
+![Figure 5](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/kenton-debate-training-reduces-reward-hacking-in-rlaif-fig5.svg)
+
 Figure 5: Weaker Judge: reward (left), judge MCC (centre), and accuracy (right) comparing $A$, $AB$, and $ABA$ with a weakened judge.
 
 ##### Results ^results
@@ -227,6 +234,7 @@ In all protocols the judge response length decreases with RL steps. Under $A$, A
 ##### Setup ^setup-2
 
 To test whether debate incentives can overcome explicit misalignment, we prompt players to be misaligned, which we denote by $\hat{P}$ for player $P\in\{A,B\}$ (see Appendix [[#^g-3-misalignment-prompts|G.3]] for prompts). For Alice this prompts to give a wrong final answer. For Bob, this prompts to convince judge to reach the incorrect conclusion (if Alice incorrect, convince judge it is correct; if Alice is correct, convince judge it is incorrect). The judge receives the usual judge prompt. For our standard judge we look at a baseline of $\hat{A}$ and compare it to $\hat{A}B$ where Bob is given the standard prompt. For the weakened judge, we compare $\hat{A}$ to $\hat{A}B$ as above, and $\hat{A}\hat{B}$. Prompted misalignment is a relatively mild stress test; testing against learned misaligned behaviour (Hubinger et al., 2024) is left to future work.
+![Figure 6](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/kenton-debate-training-reduces-reward-hacking-in-rlaif-fig6.svg)
 
 Figure 6: Prompted Misalignment of players: reward (left), judge MCC (centre), and accuracy (right). Misalignment prompt (solid) compared with standard prompt (dotted). Top row: standard judge. Bottom row: weakened judge. Hat notation in legend indicates a misaligned prompt given to the player.
 
@@ -383,6 +391,8 @@ When multiple rollouts are generated per question, the within-question trajector
 
 To investigate the effect of dataset size on reward hacking dynamics, we train on a random IID subset consisting of 20% of the original training dataset, while keeping all other hyperparameters fixed.
 
+![Figure 7](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/kenton-debate-training-reduces-reward-hacking-in-rlaif-fig7.svg)
+
 Figure 7: Smaller dataset: reward (left), judge MCC (centre), and accuracy (right). Training on 20% of the data.
 
 ##### Results ^results-3
@@ -437,7 +447,10 @@ Instead of evaluating a single solution, we show the judge two solutions generat
 
 We prompt Alice to structure her visible response as a sequence of numbered steps, each with a limited character count. Formatting violations incur additive penalties. The intuition is that the judge’s task is made easier as it can sequentially evaluate small, individually-easy chunks of the solution.
 
+![Figure 8](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/kenton-debate-training-reduces-reward-hacking-in-rlaif-fig8.svg)
+
 Figure 8: Pairwise preference reward hacks faster than a judgment-matched baseline.
+![Figure 9](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/kenton-debate-training-reduces-reward-hacking-in-rlaif-fig9.svg)
 
 Figure 9: Step by Step: reward (left), judge MCC (centre), and accuracy (right). Step-by-step formatting initially has worse accuracy improvement and eventually hacks more severely than the baseline.
 
@@ -450,6 +463,8 @@ Pairwise preferences were reward-hacked faster than the baseline (Figure 8): the
 ##### Setup. ^setup-4
 
 In the main experiments, we observe that Bob’s reward plateaus relatively early during training. To investigate whether Bob has the latent ability to perform better, we run a set of experiments where Alice’s model is frozen (using Gemini 2.5 Flash) and only Bob is trained using ground truth labels. We consider two reward schemes: (1) **B-judge**, where Bob acts like a (trained, not frozen) judge, and is rewarded directly based on whether his assessment (critique or support) matches the ground-truth correctness of Alice’s solution; and (2) **B-convince**, where Bob is rewarded based on whether he convinces the LLM judge of the correct verdict (on the correctness of Alice’s solution final answer). We note that these reward signals are not directly comparable to each other or to the main experiment, as Bob’s task and opponent differ in each case. Nonetheless, we compare them on the same plot for brevity.
+
+![Figure 10](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/kenton-debate-training-reduces-reward-hacking-in-rlaif-fig10.svg)
 
 Figure 10: Ground Truth: Bob reward when trained with ground truth labels. B-judge: rewards from acting as a judge to classify the Alice solution as correct/not. B-convince: rewards from convincing the judge to classify correctly.
 
