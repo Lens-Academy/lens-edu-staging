@@ -18,7 +18,7 @@ optional:: true
 # Lens: E.1.2 Find the mistake in the proof
 source:: [[../../Lenses/Iliad Debate Day/Iliad Debate Day E.1.2 - Find the mistake in the proof]]
 
-# Lens: E.1.3 Provably safe AI and verification
+# Lens: E.1.3 Introduction to Verified AI
 source:: [[../../Lenses/Iliad Debate Day/Iliad Debate Day E.1.3 - Provably safe AI and verification]]
 
 # Choose: 1
