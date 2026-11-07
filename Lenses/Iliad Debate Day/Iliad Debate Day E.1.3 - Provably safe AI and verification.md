@@ -12,7 +12,7 @@ source_url: https://iliad-intensive.org/safety/debate/
 content::
 \## 5. Introduction to Verified AI
 
-Provably Safe AI is the idea that we can combine a potentially misaligned AI with a verification system that gives us guarantees not on the AI itself, but on whatever the AI designed for us (e.g. a plan, software, a proof, a research proposal).
+Verified AI is the idea that we can combine a potentially misaligned AI with a verification system that gives us guarantees not on the AI itself, but on whatever the AI designed for us (e.g. a plan, software, a proof, a research proposal).
 
 This has two applications for Safety:
 
