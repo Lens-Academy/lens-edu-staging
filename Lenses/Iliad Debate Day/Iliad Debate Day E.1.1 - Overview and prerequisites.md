@@ -43,7 +43,6 @@ The timetable for the in-person day, with the part of this course that goes with
 - **13:30 Cross-examination and exercises.** [[Iliad Debate Day E.1.6 - Cross-examination raises debate to NEXP|E.1.6]] and [[Iliad Debate Day E.1.7 - Exercises on cross-examination|E.1.7]].
 - **14:30 Pause**
 - **14:40 Obfuscated arguments and prover-estimator debate.** [[Iliad Debate Day E.1.8 - Criticisms and obfuscated arguments|E.1.8]] and [[Iliad Debate Day E.1.9 - Prover-estimator debate|E.1.9]].
-- **15:10 Judge models: introduction**
 - **15:15 Debate on Graphs**
 - **16:00 Pause**
 - **16:10 Reading and discussion: experimental results.** Read one of the three papers in [[Iliad Debate Day E.1.10 - Experimental results and discussion|E.1.10]] and discuss it.
