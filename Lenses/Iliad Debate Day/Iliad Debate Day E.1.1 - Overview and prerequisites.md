@@ -17,7 +17,7 @@ content::
 
 :::callout {title="What you'll learn" tone="neutral"}
 
-- The basic idea of Provably Safe AI as both a Control and a Scalable Oversight Technique
+- The basic idea of Verified AI (prover, verifier and world model) as both a Control and a Scalable Oversight Technique
 - The difference between syntactic and semantic problems and why a world model is necessary to turn semantics into syntax.
 - Why Debate could drastically reduce the queries to the world model/human oversight
 - Secondary Debate concept: Cross-Examination
