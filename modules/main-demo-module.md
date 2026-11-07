@@ -186,6 +186,9 @@ source:: [[../Lenses/Roleplay demo]]
 # Lens:
 source:: [[../Lenses/Interview demo]]
 
+%% A prototype of the application interview, for the team to try. Its rubric opens with INTERVIEW GUIDE, which needs lens-platform PR 1534; until that merges it runs as an exam. %%
+# Lens:
+source:: [[../Lenses/Application interview prototype]]
 %% Finally, please see how Lenses can link to other Lenses: %%
 # Lens:
 optional:: true
