@@ -51,12 +51,6 @@ Examples of Verified AI:
 
 ::card[[../song-your-simulation-runs-but-solves-the-wrong-physics-pde-grounded-intent-verification-for-llm-generated-multiphysics-simulation-code|Your Simulation Runs but Solves the Wrong Physics: PDE-Grounded Intent Verification for LLM-Generated Multiphysics Simulation Code]]
 
-Non-formal domains are messy! Solution: make the world-model implicit by having a human judge oracle.
-
-Problem: Human judgement is expensive for long plans.
-
-Solution: Reduction of oracle complexity via Debate!
-
 **Discussion Prompts:**
 
 1. What is the central claim of the paper?
