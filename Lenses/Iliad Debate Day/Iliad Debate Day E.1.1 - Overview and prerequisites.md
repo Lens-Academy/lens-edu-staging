@@ -19,7 +19,7 @@ content::
 
 - The basic idea of Provably Safe AI as both a Control and a Scalable Oversight Technique
 - The difference between syntactic and semantic problems and why a world model is necessary to turn semantics into syntax.
-- Different ideas of world models: Human judgement, Davidad-style world models, hardware specifications
+- {--{"author":"Leonardo Costa Lesage","timestamp":1794060129918}@@Different ideas of world models: Human judgement, Davidad-style world models, hardware specifications--}
 - Why Debate could drastically reduce the queries to the world model/human oversight
 - Secondary Debate concepts: Cross-Examination,
 - Are familiar with the UK AISI safety case, and are able to defend/critique it.
